@@ -257,7 +257,7 @@
 #define TRAINER_PIC_SUPER_NERD             237
 #define TRAINER_PIC_HIKER                  238
 #define TRAINER_PIC_BIKER                  239
-#define TRAINER_PIC_BURGLAR                240
+#define TRAINER_PIC_BURGLAR                240 // Hola mamasita
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
