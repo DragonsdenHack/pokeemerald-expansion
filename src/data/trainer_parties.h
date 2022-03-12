@@ -18915,11 +18915,34 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Greta[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_Noland[] = {
+static const struct TrainerMonItemCustomMoves sParty_Noland[] = {
     {
     .iv = 0,
-    .lvl = 5,
-    .species = SPECIES_BELDUM,
+    .lvl = 44,
+    .species = SPECIES_DODRIO,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_DRILL_PECK, MOVE_HIGH_HORSEPOWER, MOVE_KNOCK_OFF, MOVE_BODY_SLAM}
+    },
+    {
+    .iv = 0,
+    .lvl = 44,
+    .species = SPECIES_RAPIDASH,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_DRILL_RUN, MOVE_WILD_CHARGE, MOVE_BODY_SLAM, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 0,
+    .lvl = 45,
+    .species = SPECIES_RHYDON,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_ROCK_BLAST, MOVE_DRILL_RUN, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 46,
+    .species = SPECIES_VENUSAUR,
+    .heldItem = ITEM_BLACK_SLUDGE,
+    .moves = {MOVE_GIGA_DRAIN, MOVE_EARTH_POWER, MOVE_SLUDGE_BOMB, MOVE_FRENZY_PLANT}
     }
 };
 
