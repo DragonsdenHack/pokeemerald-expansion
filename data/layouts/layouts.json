@@ -4410,16 +4410,6 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
-    },
-    {
-      "id": "LAYOUT_BOSQUEVERDE",
-      "name": "BOSQUEVERDE_Layout",
-      "width": 54,
-      "height": 69,
-      "primary_tileset": "gTileset_0Firered",
-      "secondary_tileset": "gTileset_SecretBaseShrub",
-      "border_filepath": "data/layouts/BOSQUEVERDE/border.bin",
-      "blockdata_filepath": "data/layouts/BOSQUEVERDE/map.bin"
     }
   ]
 }

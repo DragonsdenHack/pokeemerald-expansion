@@ -34,8 +34,7 @@
     "gMapGroup_IndoorRoute113",
     "gMapGroup_IndoorRoute123",
     "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124",
-    "gMapGroup_0KANTO"
+    "gMapGroup_IndoorRoute124"
   ],
   "gMapGroup_TownsAndRoutes": [
     "PetalburgCity",
@@ -622,8 +621,5 @@
   ],
   "gMapGroup_IndoorRoute124": [
     "Route124_DivingTreasureHuntersHouse"
-  ],
-  "gMapGroup_0KANTO": [
-    "BOSQUEVERDE"
   ]
 }

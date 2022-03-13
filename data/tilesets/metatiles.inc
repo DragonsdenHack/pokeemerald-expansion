@@ -557,11 +557,3 @@ gMetatiles_UnionRoom::
 	.align 1
 gMetatileAttributes_UnionRoom::
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
-
-	.align 1
-gMetatiles_0Firered::
-	.incbin "data/tilesets/primary/0firered/metatiles.bin"
-
-	.align 1
-gMetatileAttributes_0Firered::
-	.incbin "data/tilesets/primary/0firered/metatile_attributes.bin"
