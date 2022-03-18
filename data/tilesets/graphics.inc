@@ -1729,3 +1729,83 @@ gTilesetPalettes_UnionRoom::
 	.align 2
 gTilesetTiles_UnionRoom::
 	.incbin "data/tilesets/secondary/union_room/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_gTileset_General_fr::
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/gtileset_general_fr/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_gTileset_General_fr::
+	.incbin "data/tilesets/primary/gtileset_general_fr/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_gTileset_PalletTown::
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/gtileset_pallettown/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_gTileset_PalletTown::
+	.incbin "data/tilesets/secondary/gtileset_pallettown/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Viridian_City::
+	.incbin "data/tilesets/secondary/viridian_city/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/viridian_city/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Viridian_City::
+	.incbin "data/tilesets/secondary/viridian_city/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_pewter_city::
+	.incbin "data/tilesets/secondary/pewter_city/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/pewter_city/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_pewter_city::
+	.incbin "data/tilesets/secondary/pewter_city/tiles.4bpp.lz"

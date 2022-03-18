@@ -1058,3 +1058,154 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/text/save.inc"
 	.include "data/text/birch_speech.inc"
 	
+	.include "data/maps/PalletTown/scripts.inc"
+
+	.include "data/maps/ViridianCity/scripts.inc"
+
+	.include "data/maps/PewterCity/scripts.inc"
+
+	.include "data/maps/CeruleanCity/scripts.inc"
+
+	.include "data/maps/LavenderTown/scripts.inc"
+
+	.include "data/maps/VermilionCity/scripts.inc"
+
+	.include "data/maps/CeladonCity/scripts.inc"
+
+	.include "data/maps/FuchsiaCity/scripts.inc"
+
+	.include "data/maps/CinnabarIsland/scripts.inc"
+
+	.include "data/maps/IndigoPlateau/scripts.inc"
+
+	.include "data/maps/SaffronCity/scripts.inc"
+
+	.include "data/maps/OneIsland/scripts.inc"
+
+	.include "data/maps/TwoIsland/scripts.inc"
+
+	.include "data/maps/ThreeIsland/scripts.inc"
+
+	.include "data/maps/FourIsland/scripts.inc"
+
+	.include "data/maps/FiveIsland/scripts.inc"
+
+	.include "data/maps/SixIsland/scripts.inc"
+
+	.include "data/maps/SevenIsland/scripts.inc"
+
+	.include "data/maps/NavelRock/scripts.inc"
+
+	.include "data/maps/BirthIsland/scripts.inc"
+
+	.include "data/maps/Route4/scripts.inc"
+
+	.include "data/maps/Route10/scripts.inc"
+
+	.include "data/maps/NewBarkTown/scripts.inc"
+
+	.include "data/maps/CherrygroveCity/scripts.inc"
+
+	.include "data/maps/VioletCity/scripts.inc"
+
+	.include "data/maps/AzaleaTown/scripts.inc"
+
+	.include "data/maps/GoldenrodCity/scripts.inc"
+
+	.include "data/maps/EcruteakCity/scripts.inc"
+
+	.include "data/maps/OlivineCity/scripts.inc"
+
+	.include "data/maps/CianwoodCity/scripts.inc"
+
+	.include "data/maps/MahoganyTown/scripts.inc"
+
+	.include "data/maps/BlackthornCity/scripts.inc"
+
+	.include "data/maps/MtSilver/scripts.inc"
+
+	.include "data/maps/SouthRoute45/scripts.inc"
+
+	.include "data/maps/Route1/scripts.inc"
+
+	.include "data/maps/Route2/scripts.inc"
+
+	.include "data/maps/NewMap1/scripts.inc"
+
+	.include "data/maps/Route5/scripts.inc"
+
+	.include "data/maps/Route6/scripts.inc"
+
+	.include "data/maps/Route7/scripts.inc"
+
+	.include "data/maps/Route8/scripts.inc"
+
+	.include "data/maps/Route9/scripts.inc"
+
+	.include "data/maps/Route11/scripts.inc"
+
+	.include "data/maps/Route12/scripts.inc"
+
+	.include "data/maps/Route13/scripts.inc"
+
+	.include "data/maps/Route14/scripts.inc"
+
+	.include "data/maps/Route15/scripts.inc"
+
+	.include "data/maps/Route16/scripts.inc"
+
+	.include "data/maps/Route17/scripts.inc"
+
+	.include "data/maps/Route18/scripts.inc"
+
+	.include "data/maps/Route19/scripts.inc"
+
+	.include "data/maps/Route20/scripts.inc"
+
+	.include "data/maps/Route21/scripts.inc"
+
+	.include "data/maps/Route22/scripts.inc"
+
+	.include "data/maps/Route23/scripts.inc"
+
+	.include "data/maps/Route24/scripts.inc"
+
+	.include "data/maps/Route25/scripts.inc"
+
+	.include "data/maps/KindleRoad/scripts.inc"
+
+	.include "data/maps/CapeBrink/scripts.inc"
+
+	.include "data/maps/SouthTwoIsland/scripts.inc"
+
+	.include "data/maps/NavelRoad/scripts.inc"
+
+	.include "data/maps/ThreeIslePort/scripts.inc"
+
+	.include "data/maps/BondBridge/scripts.inc"
+
+	.include "data/maps/WaterLabyrinth/scripts.inc"
+
+	.include "data/maps/ResortGorgeous/scripts.inc"
+
+	.include "data/maps/FileIsleMeadow/scripts.inc"
+
+	.include "data/maps/MemorialPillar/scripts.inc"
+
+	.include "data/maps/WaterPath/scripts.inc"
+
+	.include "data/maps/GreenPath/scripts.inc"
+
+	.include "data/maps/OutcastIsland/scripts.inc"
+
+	.include "data/maps/RuinValley/scripts.inc"
+
+	.include "data/maps/TrainerTower/scripts.inc"
+
+	.include "data/maps/CanyonEntrance/scripts.inc"
+
+	.include "data/maps/SevaultCanyon/scripts.inc"
+
+	.include "data/maps/TanobyRuins/scripts.inc"
+
+	.include "data/maps/WestBirthIsland/scripts.inc"

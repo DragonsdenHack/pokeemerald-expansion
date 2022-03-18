@@ -1,0 +1,34 @@
+{
+  "id": "MAP_GREEN_PATH",
+  "name": "GreenPath",
+  "layout": "LAYOUT_GREEN_PATH",
+  "music": "",
+  "region_map_section": "MAPSEC_GREEN_PATH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": true,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "up",
+      "offset": 0,
+      "map": "MAP_OUTCAST_ISLAND"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

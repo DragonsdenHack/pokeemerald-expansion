@@ -557,3 +557,32 @@ gMetatiles_UnionRoom::
 	.align 1
 gMetatileAttributes_UnionRoom::
 	.incbin "data/tilesets/secondary/union_room/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_gTileset_General_fr::
+	.incbin "data/tilesets/primary/gtileset_general_fr/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_gTileset_General_fr::
+	.incbin "data/tilesets/primary/gtileset_general_fr/metatile_attributes.bin"
+	.align 1
+gMetatiles_gTileset_PalletTown::
+	.incbin "data/tilesets/secondary/gtileset_pallettown/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_gTileset_PalletTown::
+	.incbin "data/tilesets/secondary/gtileset_pallettown/metatile_attributes.bin"
+	.align 1
+gMetatiles_Viridian_City::
+	.incbin "data/tilesets/secondary/viridian_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Viridian_City::
+	.incbin "data/tilesets/secondary/viridian_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_pewter_city::
+	.incbin "data/tilesets/secondary/pewter_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_pewter_city::
+	.incbin "data/tilesets/secondary/pewter_city/metatile_attributes.bin"

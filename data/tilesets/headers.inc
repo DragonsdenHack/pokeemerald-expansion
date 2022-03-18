@@ -830,3 +830,47 @@ gTileset_UnionRoom::
 	.4byte gMetatiles_UnionRoom
 	.4byte gMetatileAttributes_UnionRoom
 	.4byte NULL @ animation callback
+
+	.align 2
+gTileset_gTileset_General_fr::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_gTileset_General_fr
+	.4byte gTilesetPalettes_gTileset_General_fr
+	.4byte gMetatiles_gTileset_General_fr
+	.4byte gMetatileAttributes_gTileset_General_fr
+	.4byte NULL
+
+	.align 2
+gTileset_gTileset_PalletTown::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_gTileset_PalletTown
+	.4byte gTilesetPalettes_gTileset_PalletTown
+	.4byte gMetatiles_gTileset_PalletTown
+	.4byte gMetatileAttributes_gTileset_PalletTown
+	.4byte NULL
+
+	.align 2
+gTileset_Viridian_City::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Viridian_City
+	.4byte gTilesetPalettes_Viridian_City
+	.4byte gMetatiles_Viridian_City
+	.4byte gMetatileAttributes_Viridian_City
+	.4byte NULL
+
+	.align 2
+gTileset_pewter_city::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_pewter_city
+	.4byte gTilesetPalettes_pewter_city
+	.4byte gMetatiles_pewter_city
+	.4byte gMetatileAttributes_pewter_city
+	.4byte NULL
