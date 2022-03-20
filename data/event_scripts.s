@@ -1243,3 +1243,221 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/PewterCity_School/scripts.inc"
 
 	.include "data/maps/PewterCity_House2/scripts.inc"
+
+	.include "data/maps/CeruleanCity_House1/scripts.inc"
+
+	.include "data/maps/CeruleanCity_House2/scripts.inc"
+
+	.include "data/maps/CeruleanCity_House3/scripts.inc"
+
+	.include "data/maps/CeruleanCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CeruleanCity_School/scripts.inc"
+
+	.include "data/maps/CeruleanCity_Gym/scripts.inc"
+
+	.include "data/maps/CeruleanCity_BikeShop/scripts.inc"
+
+	.include "data/maps/CeruleanCity_Mart/scripts.inc"
+
+	.include "data/maps/CeruleanCity_House4/scripts.inc"
+
+	.include "data/maps/CeruleanCity_House5/scripts.inc"
+
+	.include "data/maps/VermilionCity_House1/scripts.inc"
+
+	.include "data/maps/VermilionCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/VermilionCity_School/scripts.inc"
+
+	.include "data/maps/VermilionCity_Club/scripts.inc"
+
+	.include "data/maps/VermilionCity_House2/scripts.inc"
+
+	.include "data/maps/VermilionCity_Mart/scripts.inc"
+
+	.include "data/maps/VermilionCity_Gym/scripts.inc"
+
+	.include "data/maps/VermilionCity_House3/scripts.inc"
+
+	.include "data/maps/LavenderTown_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/LavenderTown_School/scripts.inc"
+
+	.include "data/maps/LavenderTown_FujiHouse/scripts.inc"
+
+	.include "data/maps/LavenderTown_House1/scripts.inc"
+
+	.include "data/maps/LavenderTown_House2/scripts.inc"
+
+	.include "data/maps/LavenderTown_Mart/scripts.inc"
+
+	.include "data/maps/CeladonCity_Shop_1F/scripts.inc"
+
+	.include "data/maps/CeladonCity_Shop_2F/scripts.inc"
+
+	.include "data/maps/CeladonCity_Shop_3F/scripts.inc"
+
+	.include "data/maps/CeladonCity_Shop_4F/scripts.inc"
+
+	.include "data/maps/CeladonCity_Shop_5F/scripts.inc"
+
+	.include "data/maps/CeladonCity_Shop_6F/scripts.inc"
+
+	.include "data/maps/CeladonCity_Shop_Elevator/scripts.inc"
+
+	.include "data/maps/CeladonCity_House1_1F/scripts.inc"
+
+	.include "data/maps/CeladonCity_House1_2F/scripts.inc"
+
+	.include "data/maps/CeladonCity_House1_3F/scripts.inc"
+
+	.include "data/maps/CeladonCity_House1_4F/scripts.inc"
+
+	.include "data/maps/CeladonCity_School/scripts.inc"
+
+	.include "data/maps/CeladonCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CeladonCity_School2/scripts.inc"
+
+	.include "data/maps/CeladonCity_Casino/scripts.inc"
+
+	.include "data/maps/CeladonCity_Casino2/scripts.inc"
+
+	.include "data/maps/CeladonCity_Gym/scripts.inc"
+
+	.include "data/maps/CeladonCity_Restaurant/scripts.inc"
+
+	.include "data/maps/CeladonCity_House2/scripts.inc"
+
+	.include "data/maps/CeladonCity_Hotel/scripts.inc"
+
+	.include "data/maps/SaffronCity_House1_1F/scripts.inc"
+
+	.include "data/maps/SaffronCity_House1_2F/scripts.inc"
+
+	.include "data/maps/SaffronCity_Dojo/scripts.inc"
+
+	.include "data/maps/SaffronCity_Gym/scripts.inc"
+
+	.include "data/maps/SaffronCity_House2/scripts.inc"
+
+	.include "data/maps/SaffronCity_Mart/scripts.inc"
+
+	.include "data/maps/SaffronCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/SaffronCity_School/scripts.inc"
+
+	.include "data/maps/SaffronCity_House3/scripts.inc"
+
+	.include "data/maps/SaffronCity_House4/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_Path/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_Mart/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_House1/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_Gym/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_House2/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_School/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_House3/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_House4/scripts.inc"
+
+	.include "data/maps/FuchsiaCity_House5/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_Gym/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_Laboratory1/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_House1/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_Laboratory2/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_Laboratory3/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_School/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_Mart/scripts.inc"
+
+	.include "data/maps/IndigoPlateau_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/IndigoPlateau_School/scripts.inc"
+
+	.include "data/maps/OneIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/OneIsland_House1/scripts.inc"
+
+	.include "data/maps/OneIsland_House2/scripts.inc"
+
+	.include "data/maps/OneIsland_Port/scripts.inc"
+
+	.include "data/maps/TwoIsland_House1/scripts.inc"
+
+	.include "data/maps/TwoIsland_House2/scripts.inc"
+
+	.include "data/maps/TwoIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/TwoIsland_Port/scripts.inc"
+
+	.include "data/maps/ThreeIsland_House1/scripts.inc"
+
+	.include "data/maps/ThreeIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/ThreeIsland_Mart/scripts.inc"
+
+	.include "data/maps/ThreeIsland_House2/scripts.inc"
+
+	.include "data/maps/ThreeIsland_House3/scripts.inc"
+
+	.include "data/maps/ThreeIsland_House4/scripts.inc"
+
+	.include "data/maps/ThreeIsland_House5/scripts.inc"
+
+	.include "data/maps/FourIsland_Daycare/scripts.inc"
+
+	.include "data/maps/FourIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/FourIsland_House1/scripts.inc"
+
+	.include "data/maps/FourIsland_House2/scripts.inc"
+
+	.include "data/maps/FourIsland_Port/scripts.inc"
+
+	.include "data/maps/FourIsland_House3/scripts.inc"
+
+	.include "data/maps/FourIsland_Mart/scripts.inc"
+
+	.include "data/maps/SixIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/SixIsland_Port/scripts.inc"
+
+	.include "data/maps/SixIsland_House1/scripts.inc"
+
+	.include "data/maps/SixIsland_House2/scripts.inc"
+
+	.include "data/maps/FiveIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/FiveIsland_Port/scripts.inc"
+
+	.include "data/maps/FiveIsland_House1/scripts.inc"
+
+	.include "data/maps/FiveIsland_House2/scripts.inc"
+
+	.include "data/maps/SevenIsland_House1/scripts.inc"
+
+	.include "data/maps/SevenIsland_Mart/scripts.inc"
+
+	.include "data/maps/SevenIsland_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/NewMap3/scripts.inc"
+
+	.include "data/maps/SevenIsland_Port/scripts.inc"

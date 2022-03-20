@@ -5266,7 +5266,7 @@
       "name": "PewterCity_Museum_1F_Layout",
       "width": 28,
       "height": 11,
-      "primary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/PewterCity_Museum_1F/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_Museum_1F/map.bin"
@@ -5340,6 +5340,1096 @@
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/PewterCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_HOUSE1",
+      "name": "CeruleanCity_House1_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/CeruleanCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_HOUSE2",
+      "name": "CeruleanCity_House2_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_FortreeGym",
+      "border_filepath": "data/layouts/CeruleanCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_HOUSE3",
+      "name": "CeruleanCity_House3_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/CeruleanCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_POKEMON_CENTER_1F",
+      "name": "CeruleanCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/CeruleanCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_SCHOOL",
+      "name": "CeruleanCity_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/CeruleanCity_School/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_GYM",
+      "name": "CeruleanCity_Gym_Layout",
+      "width": 17,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PrettyPetalFlowerShop",
+      "border_filepath": "data/layouts/CeruleanCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_BIKE_SHOP",
+      "name": "CeruleanCity_BikeShop_Layout",
+      "width": 11,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/CeruleanCity_BikeShop/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_BikeShop/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_MART",
+      "name": "CeruleanCity_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/CeruleanCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_HOUSE4",
+      "name": "CeruleanCity_House4_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/CeruleanCity_House4/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_House4/map.bin"
+    },
+    {
+      "id": "LAYOUT_CERULEAN_CITY_HOUSE5",
+      "name": "CeruleanCity_House5_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/CeruleanCity_House5/border.bin",
+      "blockdata_filepath": "data/layouts/CeruleanCity_House5/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_HOUSE1",
+      "name": "VermilionCity_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/VermilionCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_POKEMON_CENTER_1F",
+      "name": "VermilionCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/VermilionCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_SCHOOL",
+      "name": "VermilionCity_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/VermilionCity_School/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_CLUB",
+      "name": "VermilionCity_Club_Layout",
+      "width": 12,
+      "height": 12,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LavaridgeGym",
+      "border_filepath": "data/layouts/VermilionCity_Club/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_Club/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_HOUSE2",
+      "name": "VermilionCity_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/VermilionCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_MART",
+      "name": "VermilionCity_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/VermilionCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_GYM",
+      "name": "VermilionCity_Gym_Layout",
+      "width": 11,
+      "height": 21,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonDayCare",
+      "border_filepath": "data/layouts/VermilionCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_VERMILION_CITY_HOUSE3",
+      "name": "VermilionCity_House3_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/VermilionCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/VermilionCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_TOWN_POKEMON_CENTER_1F",
+      "name": "LavenderTown_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/LavenderTown_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderTown_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_TOWN_SCHOOL",
+      "name": "LavenderTown_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/LavenderTown_School/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderTown_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_TOWN_FUJI_HOUSE",
+      "name": "LavenderTown_FujiHouse_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LavaridgeGym",
+      "border_filepath": "data/layouts/LavenderTown_FujiHouse/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderTown_FujiHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_TOWN_HOUSE1",
+      "name": "LavenderTown_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pewter_city",
+      "border_filepath": "data/layouts/LavenderTown_House1/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderTown_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_TOWN_HOUSE2",
+      "name": "LavenderTown_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/LavenderTown_House2/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderTown_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_TOWN_MART",
+      "name": "LavenderTown_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/LavenderTown_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderTown_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SHOP_1F",
+      "name": "CeladonCity_Shop_1F_Layout",
+      "width": 13,
+      "height": 16,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/CeladonCity_Shop_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Shop_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SHOP_2F",
+      "name": "CeladonCity_Shop_2F_Layout",
+      "width": 13,
+      "height": 15,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/CeladonCity_Shop_2F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Shop_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SHOP_3F",
+      "name": "CeladonCity_Shop_3F_Layout",
+      "width": 13,
+      "height": 15,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/CeladonCity_Shop_3F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Shop_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SHOP_4F",
+      "name": "CeladonCity_Shop_4F_Layout",
+      "width": 13,
+      "height": 15,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/CeladonCity_Shop_4F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Shop_4F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SHOP_5F",
+      "name": "CeladonCity_Shop_5F_Layout",
+      "width": 13,
+      "height": 15,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/CeladonCity_Shop_5F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Shop_5F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SHOP_6F",
+      "name": "CeladonCity_Shop_6F_Layout",
+      "width": 19,
+      "height": 14,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LilycoveMuseum",
+      "border_filepath": "data/layouts/CeladonCity_Shop_6F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Shop_6F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SHOP_ELEVATOR",
+      "name": "CeladonCity_Shop_Elevator_Layout",
+      "width": 5,
+      "height": 7,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/CeladonCity_Shop_Elevator/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Shop_Elevator/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_HOUSE1_1F",
+      "name": "CeladonCity_House1_1F_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_TrickHousePuzzle",
+      "border_filepath": "data/layouts/CeladonCity_House1_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_House1_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_HOUSE1_2F",
+      "name": "CeladonCity_House1_2F_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_TrickHousePuzzle",
+      "border_filepath": "data/layouts/CeladonCity_House1_2F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_House1_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_HOUSE1_3F",
+      "name": "CeladonCity_House1_3F_Layout",
+      "width": 15,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_TrickHousePuzzle",
+      "border_filepath": "data/layouts/CeladonCity_House1_3F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_House1_3F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_HOUSE1_4F",
+      "name": "CeladonCity_House1_4F_Layout",
+      "width": 14,
+      "height": 23,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_TrickHousePuzzle",
+      "border_filepath": "data/layouts/CeladonCity_House1_4F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_House1_4F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SCHOOL",
+      "name": "CeladonCity_School_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/CeladonCity_School/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_POKEMON_CENTER_1F",
+      "name": "CeladonCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/CeladonCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_SCHOOL2",
+      "name": "CeladonCity_School2_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/CeladonCity_School2/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_School2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_CASINO",
+      "name": "CeladonCity_Casino_Layout",
+      "width": 18,
+      "height": 15,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_CableClub",
+      "border_filepath": "data/layouts/CeladonCity_Casino/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Casino/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_CASINO2",
+      "name": "CeladonCity_Casino2_Layout",
+      "width": 9,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_CableClub",
+      "border_filepath": "data/layouts/CeladonCity_Casino2/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Casino2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_GYM",
+      "name": "CeladonCity_Gym_Layout",
+      "width": 13,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/CeladonCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_RESTAURANT",
+      "name": "CeladonCity_Restaurant_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_DewfordGym",
+      "border_filepath": "data/layouts/CeladonCity_Restaurant/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Restaurant/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_HOUSE2",
+      "name": "CeladonCity_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/CeladonCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CELADON_CITY_HOTEL",
+      "name": "CeladonCity_Hotel_Layout",
+      "width": 17,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_DewfordGym",
+      "border_filepath": "data/layouts/CeladonCity_Hotel/border.bin",
+      "blockdata_filepath": "data/layouts/CeladonCity_Hotel/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_HOUSE1_1F",
+      "name": "SaffronCity_House1_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/SaffronCity_House1_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_House1_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_HOUSE1_2F",
+      "name": "SaffronCity_House1_2F_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/SaffronCity_House1_2F/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_House1_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_DOJO",
+      "name": "SaffronCity_Dojo_Layout",
+      "width": 13,
+      "height": 16,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_SeashoreHouse",
+      "border_filepath": "data/layouts/SaffronCity_Dojo/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_Dojo/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_GYM",
+      "name": "SaffronCity_Gym_Layout",
+      "width": 29,
+      "height": 25,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/SaffronCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_HOUSE2",
+      "name": "SaffronCity_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/SaffronCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_MART",
+      "name": "SaffronCity_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/SaffronCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_POKEMON_CENTER_1F",
+      "name": "SaffronCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/SaffronCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_SCHOOL",
+      "name": "SaffronCity_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/SaffronCity_School/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_HOUSE3",
+      "name": "SaffronCity_House3_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/SaffronCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_SAFFRON_CITY_HOUSE4",
+      "name": "SaffronCity_House4_Layout",
+      "width": 11,
+      "height": 17,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LavaridgeGym",
+      "border_filepath": "data/layouts/SaffronCity_House4/border.bin",
+      "blockdata_filepath": "data/layouts/SaffronCity_House4/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_PATH",
+      "name": "FuchsiaCity_Path_Layout",
+      "width": 9,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGameCorner",
+      "border_filepath": "data/layouts/FuchsiaCity_Path/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_Path/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_MART",
+      "name": "FuchsiaCity_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/FuchsiaCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_HOUSE1",
+      "name": "FuchsiaCity_House1_Layout",
+      "width": 20,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGameCorner",
+      "border_filepath": "data/layouts/FuchsiaCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_GYM",
+      "name": "FuchsiaCity_Gym_Layout",
+      "width": 15,
+      "height": 23,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Unused1",
+      "border_filepath": "data/layouts/FuchsiaCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_HOUSE2",
+      "name": "FuchsiaCity_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/FuchsiaCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_POKEMON_CENTER_1F",
+      "name": "FuchsiaCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/FuchsiaCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_SCHOOL",
+      "name": "FuchsiaCity_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/FuchsiaCity_School/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_HOUSE3",
+      "name": "FuchsiaCity_House3_Layout",
+      "width": 13,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/FuchsiaCity_House3/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_HOUSE4",
+      "name": "FuchsiaCity_House4_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/FuchsiaCity_House4/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_House4/map.bin"
+    },
+    {
+      "id": "LAYOUT_FUCHSIA_CITY_HOUSE5",
+      "name": "FuchsiaCity_House5_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/FuchsiaCity_House5/border.bin",
+      "blockdata_filepath": "data/layouts/FuchsiaCity_House5/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_GYM",
+      "name": "CinnabarIsland_Gym_Layout",
+      "width": 30,
+      "height": 25,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_RusturfTunnel",
+      "border_filepath": "data/layouts/CinnabarIsland_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_LABORATORY1",
+      "name": "CinnabarIsland_Laboratory1_Layout",
+      "width": 28,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonFanClub",
+      "border_filepath": "data/layouts/CinnabarIsland_Laboratory1/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_Laboratory1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_HOUSE1",
+      "name": "CinnabarIsland_House1_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonFanClub",
+      "border_filepath": "data/layouts/CinnabarIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_LABORATORY2",
+      "name": "CinnabarIsland_Laboratory2_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonFanClub",
+      "border_filepath": "data/layouts/CinnabarIsland_Laboratory2/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_Laboratory2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_LABORATORY3",
+      "name": "CinnabarIsland_Laboratory3_Layout",
+      "width": 15,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonFanClub",
+      "border_filepath": "data/layouts/CinnabarIsland_Laboratory3/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_Laboratory3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_POKEMON_CENTER_1F",
+      "name": "CinnabarIsland_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/CinnabarIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_SCHOOL",
+      "name": "CinnabarIsland_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/CinnabarIsland_School/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_ISLAND_MART",
+      "name": "CinnabarIsland_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/CinnabarIsland_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarIsland_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_INDIGO_PLATEAU_POKEMON_CENTER_1F",
+      "name": "IndigoPlateau_PokemonCenter_1F_Layout",
+      "width": 25,
+      "height": 18,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/IndigoPlateau_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/IndigoPlateau_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_INDIGO_PLATEAU_SCHOOL",
+      "name": "IndigoPlateau_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/IndigoPlateau_School/border.bin",
+      "blockdata_filepath": "data/layouts/IndigoPlateau_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_ONE_ISLAND_POKEMON_CENTER_1F",
+      "name": "OneIsland_PokemonCenter_1F_Layout",
+      "width": 19,
+      "height": 11,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/OneIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ONE_ISLAND_HOUSE1",
+      "name": "OneIsland_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/OneIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ONE_ISLAND_HOUSE2",
+      "name": "OneIsland_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/OneIsland_House2/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ONE_ISLAND_PORT",
+      "name": "OneIsland_Port_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/OneIsland_Port/border.bin",
+      "blockdata_filepath": "data/layouts/OneIsland_Port/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_HOUSE1",
+      "name": "TwoIsland_House1_Layout",
+      "width": 12,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_CableClub",
+      "border_filepath": "data/layouts/TwoIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_HOUSE2",
+      "name": "TwoIsland_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/TwoIsland_House2/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_POKEMON_CENTER_1F",
+      "name": "TwoIsland_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/TwoIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_PORT",
+      "name": "TwoIsland_Port_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/TwoIsland_Port/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_Port/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLAND_HOUSE1",
+      "name": "ThreeIsland_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonFanClub",
+      "border_filepath": "data/layouts/ThreeIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLAND_POKEMON_CENTER_1F",
+      "name": "ThreeIsland_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/ThreeIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLAND_MART",
+      "name": "ThreeIsland_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/ThreeIsland_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLAND_HOUSE2",
+      "name": "ThreeIsland_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ThreeIsland_House2/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLAND_HOUSE3",
+      "name": "ThreeIsland_House3_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ThreeIsland_House3/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLAND_HOUSE4",
+      "name": "ThreeIsland_House4_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ThreeIsland_House4/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_House4/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLAND_HOUSE5",
+      "name": "ThreeIsland_House5_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ThreeIsland_House5/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIsland_House5/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOUR_ISLAND_DAYCARE",
+      "name": "FourIsland_Daycare_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_LavaridgeGym",
+      "border_filepath": "data/layouts/FourIsland_Daycare/border.bin",
+      "blockdata_filepath": "data/layouts/FourIsland_Daycare/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOUR_ISLAND_POKEMON_CENTER_1F",
+      "name": "FourIsland_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/FourIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/FourIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOUR_ISLAND_HOUSE1",
+      "name": "FourIsland_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FourIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/FourIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOUR_ISLAND_HOUSE2",
+      "name": "FourIsland_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGameCorner",
+      "border_filepath": "data/layouts/FourIsland_House2/border.bin",
+      "blockdata_filepath": "data/layouts/FourIsland_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOUR_ISLAND_PORT",
+      "name": "FourIsland_Port_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/FourIsland_Port/border.bin",
+      "blockdata_filepath": "data/layouts/FourIsland_Port/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOUR_ISLAND_HOUSE3",
+      "name": "FourIsland_House3_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FourIsland_House3/border.bin",
+      "blockdata_filepath": "data/layouts/FourIsland_House3/map.bin"
+    },
+    {
+      "id": "LAYOUT_FOUR_ISLAND_MART",
+      "name": "FourIsland_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/FourIsland_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/FourIsland_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_SIX_ISLAND_POKEMON_CENTER_1F",
+      "name": "SixIsland_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/SixIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_SIX_ISLAND_PORT",
+      "name": "SixIsland_Port_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/SixIsland_Port/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_Port/map.bin"
+    },
+    {
+      "id": "LAYOUT_SIX_ISLAND_HOUSE1",
+      "name": "SixIsland_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/SixIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SIX_ISLAND_HOUSE2",
+      "name": "SixIsland_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/SixIsland_House2/border.bin",
+      "blockdata_filepath": "data/layouts/SixIsland_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_FIVE_ISLAND_POKEMON_CENTER_1F",
+      "name": "FiveIsland_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/FiveIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/FiveIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_FIVE_ISLAND_PORT",
+      "name": "FiveIsland_Port_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/FiveIsland_Port/border.bin",
+      "blockdata_filepath": "data/layouts/FiveIsland_Port/map.bin"
+    },
+    {
+      "id": "LAYOUT_FIVE_ISLAND_HOUSE1",
+      "name": "FiveIsland_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FiveIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/FiveIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_FIVE_ISLAND_HOUSE2",
+      "name": "FiveIsland_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/FiveIsland_House2/border.bin",
+      "blockdata_filepath": "data/layouts/FiveIsland_House2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVEN_ISLAND_HOUSE1",
+      "name": "SevenIsland_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_InsideOfTruck",
+      "border_filepath": "data/layouts/SevenIsland_House1/border.bin",
+      "blockdata_filepath": "data/layouts/SevenIsland_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVEN_ISLAND_MART",
+      "name": "SevenIsland_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/SevenIsland_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/SevenIsland_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVEN_ISLAND_POKEMON_CENTER_1F",
+      "name": "SevenIsland_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/SevenIsland_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/SevenIsland_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAP3",
+      "name": "NewMap3_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/NewMap3/border.bin",
+      "blockdata_filepath": "data/layouts/NewMap3/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVEN_ISLAND_PORT",
+      "name": "SevenIsland_Port_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattlePyramid",
+      "border_filepath": "data/layouts/SevenIsland_Port/border.bin",
+      "blockdata_filepath": "data/layouts/SevenIsland_Port/map.bin"
     }
   ]
 }
