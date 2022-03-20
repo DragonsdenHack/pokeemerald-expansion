@@ -874,3 +874,14 @@ gTileset_pewter_city::
 	.4byte gMetatiles_pewter_city
 	.4byte gMetatileAttributes_pewter_city
 	.4byte NULL
+
+	.align 2
+gTileset_Building_fr::
+	.byte TRUE @ is compressed
+	.byte FALSE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Building_fr
+	.4byte gTilesetPalettes_Building_fr
+	.4byte gMetatiles_Building_fr
+	.4byte gMetatileAttributes_Building_fr
+	.4byte NULL

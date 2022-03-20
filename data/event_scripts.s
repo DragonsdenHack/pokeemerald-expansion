@@ -1209,3 +1209,37 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/TanobyRuins/scripts.inc"
 
 	.include "data/maps/WestBirthIsland/scripts.inc"
+
+	.include "data/maps/PalletTown_RedHouse_1F/scripts.inc"
+
+	.include "data/maps/PalletTown_RedHouse_2F/scripts.inc"
+
+	.include "data/maps/PalletTown_BlueHouse_1F/scripts.inc"
+
+	.include "data/maps/PalletTown_ProfessorLab/scripts.inc"
+
+	.include "data/maps/ViridianCity_House1/scripts.inc"
+
+	.include "data/maps/ViridianCity_Gym/scripts.inc"
+
+	.include "data/maps/ViridianCity_School/scripts.inc"
+
+	.include "data/maps/ViridianCity_Mart/scripts.inc"
+
+	.include "data/maps/ViridianCity_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/PewterCity_Museum_1F/scripts.inc"
+
+	.include "data/maps/PewterCity_Musem_2F/scripts.inc"
+
+	.include "data/maps/PewterCity_Gym/scripts.inc"
+
+	.include "data/maps/PewterCity_Mart/scripts.inc"
+
+	.include "data/maps/PewterCity_House1/scripts.inc"
+
+	.include "data/maps/NewMap2/scripts.inc"
+
+	.include "data/maps/PewterCity_School/scripts.inc"
+
+	.include "data/maps/PewterCity_House2/scripts.inc"

@@ -1809,3 +1809,23 @@ gTilesetPalettes_pewter_city::
 	.align 2
 gTilesetTiles_pewter_city::
 	.incbin "data/tilesets/secondary/pewter_city/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Building_fr::
+	.incbin "data/tilesets/primary/building_fr/palettes/00.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/01.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/02.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/03.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/04.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/05.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/06.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/07.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/08.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/09.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/10.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/11.gbapal"
+	.incbin "data/tilesets/primary/building_fr/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Building_fr::
+	.incbin "data/tilesets/primary/building_fr/tiles.4bpp.lz"

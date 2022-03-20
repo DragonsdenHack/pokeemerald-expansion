@@ -2,6 +2,17 @@
   "layouts_table_label": "gMapLayouts",
   "group_order": [
     "gMapGroup_TownsAndRoutes",
+    "gMapGroup_IndoorPalletTown",
+    "gMapGroup_IndoorViridianCity",
+    "gMapGroup_IndoorPewterCity",
+    "gMapGroup_IndoorCeruleanCity",
+    "gMapGroup_IndoorVermilionCity",
+    "gMapGroup_IndoorLavenderTown",
+    "gMapGroup_IndoorCeladonCity",
+    "gMapGroup_IndoorSaffronCity",
+    "gMapGroup_IndoorFuchsiaCity",
+    "gMapGroup_IndoorCinnabarIsland",
+    "gMapGroup_IndoorIndigoPlateau",
     "gMapGroup_IndoorLittleroot",
     "gMapGroup_IndoorOldale",
     "gMapGroup_IndoorDewford",
@@ -170,6 +181,53 @@
     "SevaultCanyon",
     "TanobyRuins",
     "WestBirthIsland"
+  ],
+  "gMapGroup_IndoorPalletTown": [
+    "PalletTown_RedHouse_1F",
+    "PalletTown_RedHouse_2F",
+    "PalletTown_BlueHouse_1F",
+    "PalletTown_ProfessorLab"
+  ],
+  "gMapGroup_IndoorViridianCity": [
+    "ViridianCity_House1",
+    "ViridianCity_Gym",
+    "ViridianCity_School",
+    "ViridianCity_Mart",
+    "ViridianCity_PokemonCenter_1F"
+  ],
+  "gMapGroup_IndoorPewterCity": [
+    "PewterCity_Museum_1F",
+    "PewterCity_Musem_2F",
+    "PewterCity_Gym",
+    "PewterCity_Mart",
+    "PewterCity_House1",
+    "NewMap2",
+    "PewterCity_School",
+    "PewterCity_House2"
+  ],
+  "gMapGroup_IndoorCeruleanCity": [
+
+  ],
+  "gMapGroup_IndoorVermilionCity": [
+
+  ],
+  "gMapGroup_IndoorLavenderTown": [
+
+  ],
+  "gMapGroup_IndoorCeladonCity": [
+
+  ],
+  "gMapGroup_IndoorSaffronCity": [
+
+  ],
+  "gMapGroup_IndoorFuchsiaCity": [
+
+  ],
+  "gMapGroup_IndoorCinnabarIsland": [
+
+  ],
+  "gMapGroup_IndoorIndigoPlateau": [
+
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

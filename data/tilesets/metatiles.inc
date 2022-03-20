@@ -586,3 +586,10 @@ gMetatiles_pewter_city::
 	.align 1
 gMetatileAttributes_pewter_city::
 	.incbin "data/tilesets/secondary/pewter_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_Building_fr::
+	.incbin "data/tilesets/primary/building_fr/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Building_fr::
+	.incbin "data/tilesets/primary/building_fr/metatile_attributes.bin"

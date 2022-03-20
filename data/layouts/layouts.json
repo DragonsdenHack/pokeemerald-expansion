@@ -5170,6 +5170,176 @@
       "secondary_tileset": "gTileset_Fallarbor",
       "border_filepath": "data/layouts/WestBirthIsland/border.bin",
       "blockdata_filepath": "data/layouts/WestBirthIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_RED_HOUSE_1F",
+      "name": "PalletTown_RedHouse_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/PalletTown_RedHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_RedHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_RED_HOUSE_2F",
+      "name": "PalletTown_RedHouse_2F_Layout",
+      "width": 12,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/PalletTown_RedHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_RedHouse_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_BLUE_HOUSE_1F",
+      "name": "PalletTown_BlueHouse_1F_Layout",
+      "width": 13,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/PalletTown_BlueHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_BlueHouse_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PALLET_TOWN_PROFESSOR_LAB",
+      "name": "PalletTown_ProfessorLab_Layout",
+      "width": 13,
+      "height": 14,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonFanClub",
+      "border_filepath": "data/layouts/PalletTown_ProfessorLab/border.bin",
+      "blockdata_filepath": "data/layouts/PalletTown_ProfessorLab/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY_HOUSE1",
+      "name": "ViridianCity_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/ViridianCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY_GYM",
+      "name": "ViridianCity_Gym_Layout",
+      "width": 20,
+      "height": 24,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MeteorFalls",
+      "border_filepath": "data/layouts/ViridianCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY_SCHOOL",
+      "name": "ViridianCity_School_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MysteryEventsHouse",
+      "border_filepath": "data/layouts/ViridianCity_School/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY_MART",
+      "name": "ViridianCity_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/ViridianCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIRIDIAN_CITY_POKEMON_CENTER_1F",
+      "name": "ViridianCity_PokemonCenter_1F_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/ViridianCity_PokemonCenter_1F/border.bin",
+      "blockdata_filepath": "data/layouts/ViridianCity_PokemonCenter_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PEWTER_CITY_MUSEUM_1F",
+      "name": "PewterCity_Museum_1F_Layout",
+      "width": 28,
+      "height": 11,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/PewterCity_Museum_1F/border.bin",
+      "blockdata_filepath": "data/layouts/PewterCity_Museum_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PEWTER_CITY_MUSEM_2F",
+      "name": "PewterCity_Musem_2F_Layout",
+      "width": 19,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Shop",
+      "border_filepath": "data/layouts/PewterCity_Musem_2F/border.bin",
+      "blockdata_filepath": "data/layouts/PewterCity_Musem_2F/map.bin"
+    },
+    {
+      "id": "LAYOUT_PEWTER_CITY_GYM",
+      "name": "PewterCity_Gym_Layout",
+      "width": 13,
+      "height": 16,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_gTileset_PalletTown",
+      "border_filepath": "data/layouts/PewterCity_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/PewterCity_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_PEWTER_CITY_MART",
+      "name": "PewterCity_Mart_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/PewterCity_Mart/border.bin",
+      "blockdata_filepath": "data/layouts/PewterCity_Mart/map.bin"
+    },
+    {
+      "id": "LAYOUT_PEWTER_CITY_HOUSE1",
+      "name": "PewterCity_House1_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/PewterCity_House1/border.bin",
+      "blockdata_filepath": "data/layouts/PewterCity_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEW_MAP2",
+      "name": "NewMap2_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideWest",
+      "border_filepath": "data/layouts/NewMap2/border.bin",
+      "blockdata_filepath": "data/layouts/NewMap2/map.bin"
+    },
+    {
+      "id": "LAYOUT_PEWTER_CITY_SCHOOL",
+      "name": "PewterCity_School_Layout",
+      "width": 15,
+      "height": 10,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_MauvilleGym",
+      "border_filepath": "data/layouts/PewterCity_School/border.bin",
+      "blockdata_filepath": "data/layouts/PewterCity_School/map.bin"
+    },
+    {
+      "id": "LAYOUT_PEWTER_CITY_HOUSE2",
+      "name": "PewterCity_House2_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/PewterCity_House2/border.bin",
+      "blockdata_filepath": "data/layouts/PewterCity_House2/map.bin"
     }
   ]
 }
