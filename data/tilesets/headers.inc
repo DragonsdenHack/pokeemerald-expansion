@@ -885,3 +885,36 @@ gTileset_Building_fr::
 	.4byte gMetatiles_Building_fr
 	.4byte gMetatileAttributes_Building_fr
 	.4byte NULL
+
+	.align 2
+gTileset_MtMoon::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_MtMoon
+	.4byte gTilesetPalettes_MtMoon
+	.4byte gMetatiles_MtMoon
+	.4byte gMetatileAttributes_MtMoon
+	.4byte NULL
+
+	.align 2
+gTileset_Viridian_Forest::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Viridian_Forest
+	.4byte gTilesetPalettes_Viridian_Forest
+	.4byte gMetatiles_Viridian_Forest
+	.4byte gMetatileAttributes_Viridian_Forest
+	.4byte NULL
+
+	.align 2
+gTileset_pokemon_mansion::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_pokemon_mansion
+	.4byte gTilesetPalettes_pokemon_mansion
+	.4byte gMetatiles_pokemon_mansion
+	.4byte gMetatileAttributes_pokemon_mansion
+	.4byte NULL

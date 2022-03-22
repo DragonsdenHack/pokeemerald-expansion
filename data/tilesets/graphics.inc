@@ -1829,3 +1829,63 @@ gTilesetPalettes_Building_fr::
 	.align 2
 gTilesetTiles_Building_fr::
 	.incbin "data/tilesets/primary/building_fr/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_MtMoon::
+	.incbin "data/tilesets/secondary/mtmoon/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/mtmoon/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_MtMoon::
+	.incbin "data/tilesets/secondary/mtmoon/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Viridian_Forest::
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/viridian_forest/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Viridian_Forest::
+	.incbin "data/tilesets/secondary/viridian_forest/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_pokemon_mansion::
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/pokemon_mansion/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_pokemon_mansion::
+	.incbin "data/tilesets/secondary/pokemon_mansion/tiles.4bpp.lz"

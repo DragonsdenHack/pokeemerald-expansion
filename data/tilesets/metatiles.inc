@@ -593,3 +593,24 @@ gMetatiles_Building_fr::
 	.align 1
 gMetatileAttributes_Building_fr::
 	.incbin "data/tilesets/primary/building_fr/metatile_attributes.bin"
+	.align 1
+gMetatiles_MtMoon::
+	.incbin "data/tilesets/secondary/mtmoon/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_MtMoon::
+	.incbin "data/tilesets/secondary/mtmoon/metatile_attributes.bin"
+	.align 1
+gMetatiles_Viridian_Forest::
+	.incbin "data/tilesets/secondary/viridian_forest/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Viridian_Forest::
+	.incbin "data/tilesets/secondary/viridian_forest/metatile_attributes.bin"
+	.align 1
+gMetatiles_pokemon_mansion::
+	.incbin "data/tilesets/secondary/pokemon_mansion/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_pokemon_mansion::
+	.incbin "data/tilesets/secondary/pokemon_mansion/metatile_attributes.bin"

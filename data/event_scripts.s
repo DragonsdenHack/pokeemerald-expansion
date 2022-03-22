@@ -1461,3 +1461,261 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/NewMap3/scripts.inc"
 
 	.include "data/maps/SevenIsland_Port/scripts.inc"
+
+	.include "data/maps/Route2_Path/scripts.inc"
+
+	.include "data/maps/Route2_House1/scripts.inc"
+
+	.include "data/maps/Route2_Path2/scripts.inc"
+
+	.include "data/maps/Route2_Path3/scripts.inc"
+
+	.include "data/maps/Route4_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Route5_House1/scripts.inc"
+
+	.include "data/maps/Route5_Path/scripts.inc"
+
+	.include "data/maps/Route6_Path/scripts.inc"
+
+	.include "data/maps/Route7_Path/scripts.inc"
+
+	.include "data/maps/Route8_Path/scripts.inc"
+
+	.include "data/maps/Route10_PokemonCenter_1F/scripts.inc"
+
+	.include "data/maps/Route11_Path_1F/scripts.inc"
+
+	.include "data/maps/Route11_Path_2F/scripts.inc"
+
+	.include "data/maps/Route12_Path_1F/scripts.inc"
+
+	.include "data/maps/Route12_Path_2F/scripts.inc"
+
+	.include "data/maps/Route12_House1/scripts.inc"
+
+	.include "data/maps/Route15_Path_1F/scripts.inc"
+
+	.include "data/maps/Route15_Path_2F/scripts.inc"
+
+	.include "data/maps/Route16_House1/scripts.inc"
+
+	.include "data/maps/Route16_Path_1F/scripts.inc"
+
+	.include "data/maps/Route16_Path_2F/scripts.inc"
+
+	.include "data/maps/Route18_Path_1F/scripts.inc"
+
+	.include "data/maps/Route18_Path_2F/scripts.inc"
+
+	.include "data/maps/Route19_House1/scripts.inc"
+
+	.include "data/maps/Route22_Path/scripts.inc"
+
+	.include "data/maps/Route23_House1/scripts.inc"
+
+	.include "data/maps/Route25_BillHouse/scripts.inc"
+
+	.include "data/maps/ThreeIsland_Port/scripts.inc"
+
+	.include "data/maps/ResortGeorgeous_House1/scripts.inc"
+
+	.include "data/maps/CapeBrink_House1/scripts.inc"
+
+	.include "data/maps/WaterPath_House1/scripts.inc"
+
+	.include "data/maps/WaterPath_House2/scripts.inc"
+
+	.include "data/maps/SevaultCanyon_House1/scripts.inc"
+
+	.include "data/maps/ViridianForest/scripts.inc"
+
+	.include "data/maps/MtMoon_1F/scripts.inc"
+
+	.include "data/maps/MtMoon_2F/scripts.inc"
+
+	.include "data/maps/MtMoon_3F/scripts.inc"
+
+	.include "data/maps/SsAnne_1F/scripts.inc"
+
+	.include "data/maps/SsAnne_2F/scripts.inc"
+
+	.include "data/maps/SsAnne_3F/scripts.inc"
+
+	.include "data/maps/SsAnne_4F/scripts.inc"
+
+	.include "data/maps/SsAnne_5F/scripts.inc"
+
+	.include "data/maps/SsAnne_6F/scripts.inc"
+
+	.include "data/maps/SsAnne_7F/scripts.inc"
+
+	.include "data/maps/SsAnne_8F/scripts.inc"
+
+	.include "data/maps/SsAnne_9F/scripts.inc"
+
+	.include "data/maps/SsAnne_10F/scripts.inc"
+
+	.include "data/maps/SsAnne_11F/scripts.inc"
+
+	.include "data/maps/SsAnne_12F/scripts.inc"
+
+	.include "data/maps/SsAnne_13F/scripts.inc"
+
+	.include "data/maps/SsAnne_14F/scripts.inc"
+
+	.include "data/maps/SsAnne_15F/scripts.inc"
+
+	.include "data/maps/SsAnne_16F/scripts.inc"
+
+	.include "data/maps/SsAnne_17F/scripts.inc"
+
+	.include "data/maps/SsAnne_18F/scripts.inc"
+
+	.include "data/maps/SsAnne_19F/scripts.inc"
+
+	.include "data/maps/SsAnne_20F/scripts.inc"
+
+	.include "data/maps/SsAnne_21F/scripts.inc"
+
+	.include "data/maps/SsAnne_22F/scripts.inc"
+
+	.include "data/maps/SsAnne_23F/scripts.inc"
+
+	.include "data/maps/SsAnne_24F/scripts.inc"
+
+	.include "data/maps/SsAnne_25F/scripts.inc"
+
+	.include "data/maps/SsAnne_26F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_1F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_2F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_3F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_4F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_5F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_6F/scripts.inc"
+
+	.include "data/maps/DiglettCave_1F/scripts.inc"
+
+	.include "data/maps/DiglettCave_2F/scripts.inc"
+
+	.include "data/maps/DiglettCave_3F/scripts.inc"
+
+	.include "data/maps/NewMap4/scripts.inc"
+
+	.include "data/maps/VictoryRoad_2F/scripts.inc"
+
+	.include "data/maps/VictoryRoad_3F/scripts.inc"
+
+	.include "data/maps/RocketHideout_1F/scripts.inc"
+
+	.include "data/maps/RocketHideout_2F/scripts.inc"
+
+	.include "data/maps/RocketHideout_3F/scripts.inc"
+
+	.include "data/maps/RocketHideout_4F/scripts.inc"
+
+	.include "data/maps/RocketHideout_Elevator/scripts.inc"
+
+	.include "data/maps/Silph_1F/scripts.inc"
+
+	.include "data/maps/Silph_2F/scripts.inc"
+
+	.include "data/maps/Silph_3F/scripts.inc"
+
+	.include "data/maps/Silph_4F/scripts.inc"
+
+	.include "data/maps/Silph_5F/scripts.inc"
+
+	.include "data/maps/Silph_6F/scripts.inc"
+
+	.include "data/maps/Silph_7F/scripts.inc"
+
+	.include "data/maps/Silph_8F/scripts.inc"
+
+	.include "data/maps/Silph_9F/scripts.inc"
+
+	.include "data/maps/Silph_10F/scripts.inc"
+
+	.include "data/maps/Silph_11F/scripts.inc"
+
+	.include "data/maps/Silph_Elevator/scripts.inc"
+
+	.include "data/maps/PokemonMansion_1F/scripts.inc"
+
+	.include "data/maps/PokemonMansion_2F/scripts.inc"
+
+	.include "data/maps/PokemonMansion_3F/scripts.inc"
+
+	.include "data/maps/PokemonMansion_4F/scripts.inc"
+
+	.include "data/maps/SafariZone_1F/scripts.inc"
+
+	.include "data/maps/SafariZone_2F/scripts.inc"
+
+	.include "data/maps/SafariZone_3F/scripts.inc"
+
+	.include "data/maps/SafariZone_4F/scripts.inc"
+
+	.include "data/maps/SafariZone_House1/scripts.inc"
+
+	.include "data/maps/SafariZone_House2/scripts.inc"
+
+	.include "data/maps/SafariZone_House3/scripts.inc"
+
+	.include "data/maps/SafariZone_House4/scripts.inc"
+
+	.include "data/maps/SafariZone_House5/scripts.inc"
+
+	.include "data/maps/DragonsDen_1F/scripts.inc"
+
+	.include "data/maps/DragonsDen_2F/scripts.inc"
+
+	.include "data/maps/DragonsDen_3F/scripts.inc"
+
+	.include "data/maps/PokemonLeague_1F/scripts.inc"
+
+	.include "data/maps/PokemonLeague_2F/scripts.inc"
+
+	.include "data/maps/PokemonLeague_3F/scripts.inc"
+
+	.include "data/maps/PokemonLeague_4F/scripts.inc"
+
+	.include "data/maps/PokemonLeague_5F/scripts.inc"
+
+	.include "data/maps/PokemonLeague_6F/scripts.inc"
+
+	.include "data/maps/RockTunnel_1F/scripts.inc"
+
+	.include "data/maps/RockTunnel_2F/scripts.inc"
+
+	.include "data/maps/SeafoamIslands_1F/scripts.inc"
+
+	.include "data/maps/SeafoamIslands_2F/scripts.inc"
+
+	.include "data/maps/SeafoamIslands_3F/scripts.inc"
+
+	.include "data/maps/SeafoamIslands_4F/scripts.inc"
+
+	.include "data/maps/SeafoamIslands_5F/scripts.inc"
+
+	.include "data/maps/PokemonTower_1F/scripts.inc"
+
+	.include "data/maps/PokemonTower_2F/scripts.inc"
+
+	.include "data/maps/PokemonTower_3F/scripts.inc"
+
+	.include "data/maps/PokemonTower_4F/scripts.inc"
+
+	.include "data/maps/PokemonTower_5F/scripts.inc"
+
+	.include "data/maps/PokemonTower_6F/scripts.inc"
+
+	.include "data/maps/PokemonTower_7F/scripts.inc"
+
+	.include "data/maps/PowerPlant/scripts.inc"
