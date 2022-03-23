@@ -7990,6 +7990,256 @@
       "secondary_tileset": "gTileset_SecretBaseYellowCave",
       "border_filepath": "data/layouts/AlteringCave_Sevii/border.bin",
       "blockdata_filepath": "data/layouts/AlteringCave_Sevii/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_1F",
+      "name": "LostCave_1F_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_1F/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_LADDER_ROOM",
+      "name": "LostCave_B1F_LadderRoom_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_LadderRoom/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_LadderRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH1",
+      "name": "LostCave_B1F_Path1_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path1/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path1/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH2",
+      "name": "LostCave_B1F_Path2_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path2/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path2/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH3",
+      "name": "LostCave_B1F_Path3_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path3/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path3/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH4",
+      "name": "LostCave_B1F_Path4_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path4/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path4/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH5",
+      "name": "LostCave_B1F_Path5_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path5/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path5/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH6",
+      "name": "LostCave_B1F_Path6_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path6/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path6/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH7",
+      "name": "LostCave_B1F_Path7_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path7/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path7/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_PATH8",
+      "name": "LostCave_B1F_Path8_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Path8/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Path8/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_LAST_ROOM",
+      "name": "LostCave_B1F_LastRoom_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_LastRoom/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_LastRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_ITEM1",
+      "name": "LostCave_B1F_Item1_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Item1/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Item1/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_ITEM2",
+      "name": "LostCave_B1F_Item2_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Item2/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Item2/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_ITEM3",
+      "name": "LostCave_B1F_Item3_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Item3/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Item3/map.bin"
+    },
+    {
+      "id": "LAYOUT_LOST_CAVE_B1F_ITEM4",
+      "name": "LostCave_B1F_Item4_Layout",
+      "width": 11,
+      "height": 11,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/LostCave_B1F_Item4/border.bin",
+      "blockdata_filepath": "data/layouts/LostCave_B1F_Item4/map.bin"
+    },
+    {
+      "id": "LAYOUT_MONEAN_CHAMBER",
+      "name": "MoneanChamber_Layout",
+      "width": 23,
+      "height": 17,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_BattlePalace",
+      "border_filepath": "data/layouts/MoneanChamber/border.bin",
+      "blockdata_filepath": "data/layouts/MoneanChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_LIPTOO_CHAMBER",
+      "name": "LiptooChamber_Layout",
+      "width": 23,
+      "height": 17,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_BattlePalace",
+      "border_filepath": "data/layouts/LiptooChamber/border.bin",
+      "blockdata_filepath": "data/layouts/LiptooChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_WEEPTH_CHAMBER",
+      "name": "WeepthChamber_Layout",
+      "width": 23,
+      "height": 17,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_BattlePalace",
+      "border_filepath": "data/layouts/WeepthChamber/border.bin",
+      "blockdata_filepath": "data/layouts/WeepthChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_DILFORD_CHAMBER",
+      "name": "DilfordChamber_Layout",
+      "width": 23,
+      "height": 17,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_BattlePalace",
+      "border_filepath": "data/layouts/DilfordChamber/border.bin",
+      "blockdata_filepath": "data/layouts/DilfordChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_SCUFIB_CHAMBER",
+      "name": "ScufibChamber_Layout",
+      "width": 23,
+      "height": 17,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_BattlePalace",
+      "border_filepath": "data/layouts/ScufibChamber/border.bin",
+      "blockdata_filepath": "data/layouts/ScufibChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_RIXY_CHAMBER",
+      "name": "RixyChamber_Layout",
+      "width": 23,
+      "height": 17,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_BattlePalace",
+      "border_filepath": "data/layouts/RixyChamber/border.bin",
+      "blockdata_filepath": "data/layouts/RixyChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAPOIS_CHAMBER",
+      "name": "ViapoisChamber_Layout",
+      "width": 23,
+      "height": 17,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_BattlePalace",
+      "border_filepath": "data/layouts/ViapoisChamber/border.bin",
+      "blockdata_filepath": "data/layouts/ViapoisChamber/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_ISLE_PATH",
+      "name": "ThreeIslePath_Layout",
+      "width": 30,
+      "height": 7,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BattleFrontierOutsideEast",
+      "border_filepath": "data/layouts/ThreeIslePath/border.bin",
+      "blockdata_filepath": "data/layouts/ThreeIslePath/map.bin"
+    },
+    {
+      "id": "LAYOUT_TANOBY_KEY",
+      "name": "TanobyKey_Layout",
+      "width": 15,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SecretBaseRedCave",
+      "border_filepath": "data/layouts/TanobyKey/border.bin",
+      "blockdata_filepath": "data/layouts/TanobyKey/map.bin"
+    },
+    {
+      "id": "LAYOUT_EMBER_SPA",
+      "name": "EmberSpa_Layout",
+      "width": 27,
+      "height": 39,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_SecretBase",
+      "border_filepath": "data/layouts/EmberSpa/border.bin",
+      "blockdata_filepath": "data/layouts/EmberSpa/map.bin"
     }
   ]
 }

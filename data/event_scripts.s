@@ -1773,3 +1773,53 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/PatternBush/scripts.inc"
 
 	.include "data/maps/AlteringCave_Sevii/scripts.inc"
+
+	.include "data/maps/LostCave_1F/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_LadderRoom/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path1/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path2/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path3/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path4/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path5/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path6/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path7/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Path8/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_LastRoom/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Item1/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Item2/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Item3/scripts.inc"
+
+	.include "data/maps/LostCave_B1F_Item4/scripts.inc"
+
+	.include "data/maps/MoneanChamber/scripts.inc"
+
+	.include "data/maps/LiptooChamber/scripts.inc"
+
+	.include "data/maps/WeepthChamber/scripts.inc"
+
+	.include "data/maps/DilfordChamber/scripts.inc"
+
+	.include "data/maps/ScufibChamber/scripts.inc"
+
+	.include "data/maps/RixyChamber/scripts.inc"
+
+	.include "data/maps/ViapoisChamber/scripts.inc"
+
+	.include "data/maps/ThreeIslePath/scripts.inc"
+
+	.include "data/maps/TanobyKey/scripts.inc"
+
+	.include "data/maps/EmberSpa/scripts.inc"
