@@ -28,7 +28,7 @@ contest_types := cool beauty cute smart tough
 ### Tilesets ###
 
 $(TILESETGFXDIR)/secondary/petalburg/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 159
+	$(GFX) $< $@ -num_tiles 80
 
 $(TILESETGFXDIR)/secondary/rustboro/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 498

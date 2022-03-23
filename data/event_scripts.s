@@ -1719,3 +1719,57 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/PokemonTower_7F/scripts.inc"
 
 	.include "data/maps/PowerPlant/scripts.inc"
+
+	.include "data/maps/MtEmber_B4F/scripts.inc"
+
+	.include "data/maps/MtEmber_Entrance/scripts.inc"
+
+	.include "data/maps/MtEmber_1F/scripts.inc"
+
+	.include "data/maps/MtEmber_2F/scripts.inc"
+
+	.include "data/maps/MtEmber_3F/scripts.inc"
+
+	.include "data/maps/MtEmber_Summit/scripts.inc"
+
+	.include "data/maps/MtEmber_B5F/scripts.inc"
+
+	.include "data/maps/MtEmber_1F_Path/scripts.inc"
+
+	.include "data/maps/MtEmber_B1F/scripts.inc"
+
+	.include "data/maps/MtEmber_B2F/scripts.inc"
+
+	.include "data/maps/MtEmber_B3F/scripts.inc"
+
+	.include "data/maps/MtEmber_B2F_Exit/scripts.inc"
+
+	.include "data/maps/MtEmber_B1F_Exit/scripts.inc"
+
+	.include "data/maps/BerryForest/scripts.inc"
+
+	.include "data/maps/IcefallCave_Entrance/scripts.inc"
+
+	.include "data/maps/IcefallCave_1F/scripts.inc"
+
+	.include "data/maps/IcefallCave_B1F/scripts.inc"
+
+	.include "data/maps/IcefallCave_BackCave/scripts.inc"
+
+	.include "data/maps/RocketWarehouse/scripts.inc"
+
+	.include "data/maps/DottedHole_GroundFloor/scripts.inc"
+
+	.include "data/maps/DottedHole_B1F/scripts.inc"
+
+	.include "data/maps/DottedHole_B2F/scripts.inc"
+
+	.include "data/maps/DottedHole_B3F/scripts.inc"
+
+	.include "data/maps/DottedHole_B4F/scripts.inc"
+
+	.include "data/maps/DottedHole_SapphireRoom/scripts.inc"
+
+	.include "data/maps/PatternBush/scripts.inc"
+
+	.include "data/maps/AlteringCave_Sevii/scripts.inc"
