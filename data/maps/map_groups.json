@@ -376,7 +376,15 @@
     "ViapoisChamber",
     "ThreeIslePath",
     "TanobyKey",
-    "EmberSpa"
+    "EmberSpa",
+    "RocketHideout_5F",
+    "RocketHideout_6F",
+    "RocketHideout_FiveIsland_Meadow",
+    "BillGarden",
+    "BillGarden_House1",
+    "RocketHideout_7F",
+    "RocketHideout_8F",
+    "RocketHideout_9F"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",

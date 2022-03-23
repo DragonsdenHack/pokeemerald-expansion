@@ -1823,3 +1823,19 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/TanobyKey/scripts.inc"
 
 	.include "data/maps/EmberSpa/scripts.inc"
+
+	.include "data/maps/RocketHideout_5F/scripts.inc"
+
+	.include "data/maps/RocketHideout_6F/scripts.inc"
+
+	.include "data/maps/RocketHideout_FiveIsland_Meadow/scripts.inc"
+
+	.include "data/maps/BillGarden/scripts.inc"
+
+	.include "data/maps/BillGarden_House1/scripts.inc"
+
+	.include "data/maps/RocketHideout_7F/scripts.inc"
+
+	.include "data/maps/RocketHideout_8F/scripts.inc"
+
+	.include "data/maps/RocketHideout_9F/scripts.inc"

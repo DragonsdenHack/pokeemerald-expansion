@@ -9888,6 +9888,102 @@
       "secondary_tileset": "gTileset_SecretBase",
       "border_filepath": "data/layouts/EmberSpa/border.bin",
       "blockdata_filepath": "data/layouts/EmberSpa/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_5F",
+      "name": "RocketHideout_5F_Layout",
+      "width": 99,
+      "height": 60,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/RocketHideout_5F/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_5F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_6F",
+      "name": "RocketHideout_6F_Layout",
+      "width": 34,
+      "height": 28,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/RocketHideout_6F/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_6F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_FIVE_ISLAND_MEADOW",
+      "name": "RocketHideout_FiveIsland_Meadow_Layout",
+      "width": 22,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/RocketHideout_FiveIsland_Meadow/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_FiveIsland_Meadow/map.bin"
+    },
+    {
+      "id": "LAYOUT_BILL_GARDEN",
+      "name": "BillGarden_Layout",
+      "width": 18,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/BillGarden/border.bin",
+      "blockdata_filepath": "data/layouts/BillGarden/map.bin"
+    },
+    {
+      "id": "LAYOUT_BILL_GARDEN_HOUSE1",
+      "name": "BillGarden_House1_Layout",
+      "width": 18,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Sootopolis",
+      "border_filepath": "data/layouts/BillGarden_House1/border.bin",
+      "blockdata_filepath": "data/layouts/BillGarden_House1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_7F",
+      "name": "RocketHideout_7F_Layout",
+      "width": 30,
+      "height": 70,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/RocketHideout_7F/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_7F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_8F",
+      "name": "RocketHideout_8F_Layout",
+      "width": 18,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/RocketHideout_8F/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_8F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_9F",
+      "name": "RocketHideout_9F_Layout",
+      "width": 18,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_PetalburgGym",
+      "border_filepath": "data/layouts/RocketHideout_9F/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_9F/map.bin"
     }
   ]
 }
