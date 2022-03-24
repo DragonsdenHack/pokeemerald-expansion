@@ -40,7 +40,7 @@ $(TILESETGFXDIR)/secondary/slateport/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 504
 
 $(TILESETGFXDIR)/secondary/mauville/tiles.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -num_tiles 503
+	$(GFX) $< $@ -num_tiles 80
 
 $(TILESETGFXDIR)/secondary/lavaridge/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 450

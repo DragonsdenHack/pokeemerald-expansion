@@ -23,7 +23,34 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ONE_ISLAND_POKEMON_CENTER_1F",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_ONE_ISLAND_HOUSE2",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ONE_ISLAND_HOUSE1",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_ONE_ISLAND_PORT",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 

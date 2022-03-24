@@ -1839,3 +1839,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/RocketHideout_8F/scripts.inc"
 
 	.include "data/maps/RocketHideout_9F/scripts.inc"
+
+	.include "data/maps/CinnabarIsland_Path/scripts.inc"

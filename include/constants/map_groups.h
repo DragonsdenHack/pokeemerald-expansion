@@ -328,6 +328,7 @@
 #define MAP_ROCKET_HIDEOUT_7F                 (319 | (0 << 8))
 #define MAP_ROCKET_HIDEOUT_8F                 (320 | (0 << 8))
 #define MAP_ROCKET_HIDEOUT_9F                 (321 | (0 << 8))
+#define MAP_CINNABAR_ISLAND_PATH              (322 | (0 << 8))
 
 // gMapGroup_IndoorPalletTown
 #define MAP_PALLET_TOWN_RED_HOUSE_1F  (0 | (1 << 8))
