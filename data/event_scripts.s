@@ -1209,3 +1209,403 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/TanobyRuins/scripts.inc"
 
 	.include "data/maps/WestBirthIsland/scripts.inc"
+
+	.include "data/maps/Route26/scripts.inc"
+
+	.include "data/maps/Route27/scripts.inc"
+
+	.include "data/maps/Route28/scripts.inc"
+
+	.include "data/maps/Route29/scripts.inc"
+
+	.include "data/maps/Route30/scripts.inc"
+
+	.include "data/maps/Route31/scripts.inc"
+
+	.include "data/maps/Route32/scripts.inc"
+
+	.include "data/maps/Route33/scripts.inc"
+
+	.include "data/maps/Route34/scripts.inc"
+
+	.include "data/maps/Route35/scripts.inc"
+
+	.include "data/maps/Route36/scripts.inc"
+
+	.include "data/maps/Route37/scripts.inc"
+
+	.include "data/maps/Route38/scripts.inc"
+
+	.include "data/maps/Route39/scripts.inc"
+
+	.include "data/maps/Route40/scripts.inc"
+
+	.include "data/maps/Route41/scripts.inc"
+
+	.include "data/maps/Route42/scripts.inc"
+
+	.include "data/maps/Route43/scripts.inc"
+
+	.include "data/maps/Route44/scripts.inc"
+
+	.include "data/maps/Route46/scripts.inc"
+
+	.include "data/maps/Route47/scripts.inc"
+
+	.include "data/maps/Route48/scripts.inc"
+
+	.include "data/maps/Route49/scripts.inc"
+
+	.include "data/maps/Route50/scripts.inc"
+
+	.include "data/maps/Newbark_ElmLaboratory/scripts.inc"
+
+	.include "data/maps/Cherry_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Cherry_Shop/scripts.inc"
+
+	.include "data/maps/Cherry_House1/scripts.inc"
+
+	.include "data/maps/Cherry_House2/scripts.inc"
+
+	.include "data/maps/Cherry_House3/scripts.inc"
+
+	.include "data/maps/Violet_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Violet_Shop/scripts.inc"
+
+	.include "data/maps/Violet_Gym/scripts.inc"
+
+	.include "data/maps/Violet_House1/scripts.inc"
+
+	.include "data/maps/Violet_House2/scripts.inc"
+
+	.include "data/maps/Violet_TrainerSchool/scripts.inc"
+
+	.include "data/maps/Violet_SprotTower/scripts.inc"
+
+	.include "data/maps/Violet_SproutTowerP1/scripts.inc"
+
+	.include "data/maps/Violet_SproutTowerP2/scripts.inc"
+
+	.include "data/maps/Azalea_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Azalea_Shop/scripts.inc"
+
+	.include "data/maps/Azalea_House1/scripts.inc"
+
+	.include "data/maps/Azalea_CesarHouse/scripts.inc"
+
+	.include "data/maps/Azalea_Gym/scripts.inc"
+
+	.include "data/maps/Azalea_SlowpokeWell/scripts.inc"
+
+	.include "data/maps/Azalea_SlowpokeWellS1/scripts.inc"
+
+	.include "data/maps/Goldenrod_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Goldenrod_ShopCenter/scripts.inc"
+
+	.include "data/maps/Goldenrod_ShopCenterP1/scripts.inc"
+
+	.include "data/maps/Goldenrod_ShopCenterP2/scripts.inc"
+
+	.include "data/maps/Goldenrod_ShopCenterP3/scripts.inc"
+
+	.include "data/maps/Goldenrod_ShopCenterP4/scripts.inc"
+
+	.include "data/maps/Goldenrod_ShopCenterP5/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTower/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP1/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP2/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP3/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP4/scripts.inc"
+
+	.include "data/maps/Goldenrod_RadioTowerP5/scripts.inc"
+
+	.include "data/maps/Goldenrod_GameCorner/scripts.inc"
+
+	.include "data/maps/Goldenrod_TrainStation/scripts.inc"
+
+	.include "data/maps/Goldenrod_BikeShop/scripts.inc"
+
+	.include "data/maps/Goldenrod_UndergroundNorth/scripts.inc"
+
+	.include "data/maps/Goldenrod_UndergroundSouth/scripts.inc"
+
+	.include "data/maps/Goldenrod_Underground/scripts.inc"
+
+	.include "data/maps/Goldenrod_Houses/scripts.inc"
+
+	.include "data/maps/Ecruteak_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Ecruteak_Shop/scripts.inc"
+
+	.include "data/maps/Ecruteak_BurnedTower/scripts.inc"
+
+	.include "data/maps/Ecruteak_BurnedTowerS1/scripts.inc"
+
+	.include "data/maps/Ecruteak_Gym/scripts.inc"
+
+	.include "data/maps/Ecruteak_DanceTheater/scripts.inc"
+
+	.include "data/maps/Ecruteak_House1/scripts.inc"
+
+	.include "data/maps/Ecruteak_House2/scripts.inc"
+
+	.include "data/maps/Ecruteak_BellchimeTrailEntrance/scripts.inc"
+
+	.include "data/maps/Ecruteak_BellchimeTrailEntrance2/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTower/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP1/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP2/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP3/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP4/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP5/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP6/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP7/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP8/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerP9/scripts.inc"
+
+	.include "data/maps/Ecruteak_TinTowerRoof/scripts.inc"
+
+	.include "data/maps/Olivine_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Olivine_Shop/scripts.inc"
+
+	.include "data/maps/Olivine_Gym/scripts.inc"
+
+	.include "data/maps/Olivine_Pub/scripts.inc"
+
+	.include "data/maps/Olivine_NormanHouse/scripts.inc"
+
+	.include "data/maps/Olivine_Lighthouse/scripts.inc"
+
+	.include "data/maps/Olivine_House1/scripts.inc"
+
+	.include "data/maps/Olivine_House2/scripts.inc"
+
+	.include "data/maps/Olivine_House3/scripts.inc"
+
+	.include "data/maps/Olivine_House3/scripts.inc"
+
+	.include "data/maps/Olivine_Port/scripts.inc"
+
+	.include "data/maps/Olivine_Boat/scripts.inc"
+
+	.include "data/maps/Olivine_Boat2/scripts.inc"
+
+	.include "data/maps/Olivine_Boat3/scripts.inc"
+
+	.include "data/maps/Olivine_Boat4/scripts.inc"
+
+	.include "data/maps/Cianwood_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Cianwood_Pharmacy/scripts.inc"
+
+	.include "data/maps/Cianwood_Gym/scripts.inc"
+
+	.include "data/maps/Cianwood_House1/scripts.inc"
+
+	.include "data/maps/Cianwood_House2/scripts.inc"
+
+	.include "data/maps/Cianwood_House3/scripts.inc"
+
+	.include "data/maps/MahoganyTown_PkmnCenter/scripts.inc"
+
+	.include "data/maps/MahoganyTown_Gym/scripts.inc"
+
+	.include "data/maps/MahoganyTown_NinjaBase/scripts.inc"
+
+	.include "data/maps/MahoganyTown_NinjaBaseS1/scripts.inc"
+
+	.include "data/maps/MahoganyTown_NinjaBaseS2/scripts.inc"
+
+	.include "data/maps/MahoganyTown_NinjaBaseS3/scripts.inc"
+
+	.include "data/maps/BlackthornCity_PkmnCenter/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Shop/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House1/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House2/scripts.inc"
+
+	.include "data/maps/BlackthornCity_House3/scripts.inc"
+
+	.include "data/maps/BlackthornCity_Dragonsden/scripts.inc"
+
+	.include "data/maps/BlackthornCity_DragonsdenS1/scripts.inc"
+
+	.include "data/maps/BlackthornCity_DragonsdenHouse/scripts.inc"
+
+	.include "data/maps/BlackthornCity_DragonsdenS2/scripts.inc"
+
+	.include "data/maps/BlackthornCity_DragonsdenS3/scripts.inc"
+
+	.include "data/maps/BlackthornCity_DragonsdenS4/scripts.inc"
+
+	.include "data/maps/NewMap2/scripts.inc"
+
+	.include "data/maps/MtSilver1/scripts.inc"
+
+	.include "data/maps/MtSilver2/scripts.inc"
+
+	.include "data/maps/MtSilver3/scripts.inc"
+
+	.include "data/maps/MtSilver_PkmnCenter/scripts.inc"
+
+	.include "data/maps/MtSilver_House/scripts.inc"
+
+	.include "data/maps/Indigo_Johto/scripts.inc"
+
+	.include "data/maps/Route26_House/scripts.inc"
+
+	.include "data/maps/Route26_House2/scripts.inc"
+
+	.include "data/maps/Route27_House/scripts.inc"
+
+	.include "data/maps/TohjoFalls/scripts.inc"
+
+	.include "data/maps/Pass_Route29/scripts.inc"
+
+	.include "data/maps/DarkCave/scripts.inc"
+
+	.include "data/maps/RocketHideout_Johto/scripts.inc"
+
+	.include "data/maps/RocketHideout_JohtoP1/scripts.inc"
+
+	.include "data/maps/RocketHideout_JohtoP2/scripts.inc"
+
+	.include "data/maps/Pass_VioletCity/scripts.inc"
+
+	.include "data/maps/Pass_RuinsOfAlphEast/scripts.inc"
+
+	.include "data/maps/Pass_RuinsOfAlphEast/scripts.inc"
+
+	.include "data/maps/Pass_RuinsOfAlphNorth/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_House/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Cave1/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Cave2/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Cave3/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Cave4/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_Cave5/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_S1/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_UndergroundPass/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_S2/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_S3/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_S4/scripts.inc"
+
+	.include "data/maps/RuinsOfAlph_S5/scripts.inc"
+
+	.include "data/maps/UnionCave/scripts.inc"
+
+	.include "data/maps/UnionCaveS1/scripts.inc"
+
+	.include "data/maps/UnionCaveS2/scripts.inc"
+
+	.include "data/maps/Pass_IlexForest/scripts.inc"
+
+	.include "data/maps/IlexForest/scripts.inc"
+
+	.include "data/maps/Pass_Route34/scripts.inc"
+
+	.include "data/maps/Pass_Route35/scripts.inc"
+
+	.include "data/maps/Route35_House/scripts.inc"
+
+	.include "data/maps/Pass_NationalPark/scripts.inc"
+
+	.include "data/maps/NationalPark/scripts.inc"
+
+	.include "data/maps/Pass_Route36/scripts.inc"
+
+	.include "data/maps/Pass_Route38/scripts.inc"
+
+	.include "data/maps/Pass_Route42/scripts.inc"
+
+	.include "data/maps/MooFarm/scripts.inc"
+
+	.include "data/maps/WhirlIslands/scripts.inc"
+
+	.include "data/maps/WhirlIslands2/scripts.inc"
+
+	.include "data/maps/WhirlIslands3/scripts.inc"
+
+	.include "data/maps/MtMortar/scripts.inc"
+
+	.include "data/maps/MtMortar2/scripts.inc"
+
+	.include "data/maps/MtMortar3/scripts.inc"
+
+	.include "data/maps/MtMortar4/scripts.inc"
+
+	.include "data/maps/Pass_Route43/scripts.inc"
+
+	.include "data/maps/LakeofRage/scripts.inc"
+
+	.include "data/maps/LakeofRage_House1/scripts.inc"
+
+	.include "data/maps/LakeofRage_House2/scripts.inc"
+
+	.include "data/maps/IcePath/scripts.inc"
+
+	.include "data/maps/IcePath2/scripts.inc"
+
+	.include "data/maps/IcePath3/scripts.inc"
+
+	.include "data/maps/IcePath4/scripts.inc"
+
+	.include "data/maps/IcePath5/scripts.inc"
+
+	.include "data/maps/Route51/scripts.inc"
+
+	.include "data/maps/Route52/scripts.inc"
+
+	.include "data/maps/Route51_House/scripts.inc"
+
+	.include "data/maps/Route52_Maze/scripts.inc"
+
+	.include "data/maps/Route52_MazeP1/scripts.inc"
+
+	.include "data/maps/Pass_Route47/scripts.inc"
+
+	.include "data/maps/Route49_Maze/scripts.inc"
+
+	.include "data/maps/Route49_MazeP1/scripts.inc"
+
+	.include "data/maps/Route49_MazeP2/scripts.inc"
+
+	.include "data/maps/Route49_MazeP3/scripts.inc"
+
+	.include "data/maps/Route49_MazeP4/scripts.inc"
+
+	.include "data/maps/Route53/scripts.inc"
