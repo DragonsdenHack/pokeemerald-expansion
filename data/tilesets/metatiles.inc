@@ -979,3 +979,10 @@ gMetatiles_cerulean_cave::
 	.align 1
 gMetatileAttributes_cerulean_cave::
 	.incbin "data/tilesets/secondary/cerulean_cave/metatile_attributes.bin"
+	.align 1
+gMetatiles_violet_city::
+	.incbin "data/tilesets/secondary/violet_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_violet_city::
+	.incbin "data/tilesets/secondary/violet_city/metatile_attributes.bin"

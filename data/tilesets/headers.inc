@@ -1490,3 +1490,14 @@ gTileset_cerulean_cave::
 	.4byte gMetatiles_cerulean_cave
 	.4byte gMetatileAttributes_cerulean_cave
 	.4byte NULL
+
+	.align 2
+gTileset_violet_city::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_violet_city
+	.4byte gTilesetPalettes_violet_city
+	.4byte gMetatiles_violet_city
+	.4byte gMetatileAttributes_violet_city
+	.4byte NULL
