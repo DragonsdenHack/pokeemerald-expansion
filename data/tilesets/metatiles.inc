@@ -986,3 +986,17 @@ gMetatiles_violet_city::
 	.align 1
 gMetatileAttributes_violet_city::
 	.incbin "data/tilesets/secondary/violet_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_bell_tower::
+	.incbin "data/tilesets/secondary/bell_tower/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_bell_tower::
+	.incbin "data/tilesets/secondary/bell_tower/metatile_attributes.bin"
+	.align 1
+gMetatiles_cerulean_gym::
+	.incbin "data/tilesets/secondary/cerulean_gym/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_cerulean_gym::
+	.incbin "data/tilesets/secondary/cerulean_gym/metatile_attributes.bin"

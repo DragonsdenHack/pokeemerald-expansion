@@ -22,6 +22,11 @@
       "direction": "down",
       "offset": -16,
       "map": "MAP_OLIVINE_CITY"
+    },
+    {
+      "direction": "down",
+      "offset": -16,
+      "map": "MAP_OLIVINE_CITY"
     }
   ],
   "object_events": [

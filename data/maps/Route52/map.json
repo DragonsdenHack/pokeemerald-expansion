@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "left",
-      "offset": -14,
-      "map": "MAP_OLIVINE_CITY"
-    },
-    {
       "direction": "right",
       "offset": 0,
       "map": "MAP_GOLDENROD_CITY"
+    },
+    {
+      "direction": "left",
+      "offset": -14,
+      "map": "MAP_OLIVINE_CITY"
     }
   ],
   "object_events": [

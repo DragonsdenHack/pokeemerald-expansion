@@ -1501,3 +1501,25 @@ gTileset_violet_city::
 	.4byte gMetatiles_violet_city
 	.4byte gMetatileAttributes_violet_city
 	.4byte NULL
+
+	.align 2
+gTileset_bell_tower::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_bell_tower
+	.4byte gTilesetPalettes_bell_tower
+	.4byte gMetatiles_bell_tower
+	.4byte gMetatileAttributes_bell_tower
+	.4byte NULL
+
+	.align 2
+gTileset_cerulean_gym::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_cerulean_gym
+	.4byte gTilesetPalettes_cerulean_gym
+	.4byte gMetatiles_cerulean_gym
+	.4byte gMetatileAttributes_cerulean_gym
+	.4byte NULL
