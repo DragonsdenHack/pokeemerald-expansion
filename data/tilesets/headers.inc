@@ -1523,3 +1523,14 @@ gTileset_cerulean_gym::
 	.4byte gMetatiles_cerulean_gym
 	.4byte gMetatileAttributes_cerulean_gym
 	.4byte NULL
+
+	.align 2
+gTileset_condominium2::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_condominium2
+	.4byte gTilesetPalettes_condominium2
+	.4byte gMetatiles_condominium2
+	.4byte gMetatileAttributes_condominium2
+	.4byte NULL

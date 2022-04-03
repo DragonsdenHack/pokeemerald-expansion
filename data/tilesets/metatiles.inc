@@ -1000,3 +1000,10 @@ gMetatiles_cerulean_gym::
 	.align 1
 gMetatileAttributes_cerulean_gym::
 	.incbin "data/tilesets/secondary/cerulean_gym/metatile_attributes.bin"
+	.align 1
+gMetatiles_condominium2::
+	.incbin "data/tilesets/secondary/condominium2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_condominium2::
+	.incbin "data/tilesets/secondary/condominium2/metatile_attributes.bin"
