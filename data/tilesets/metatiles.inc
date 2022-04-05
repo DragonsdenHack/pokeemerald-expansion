@@ -1007,3 +1007,10 @@ gMetatiles_condominium2::
 	.align 1
 gMetatileAttributes_condominium2::
 	.incbin "data/tilesets/secondary/condominium2/metatile_attributes.bin"
+	.align 1
+gMetatiles_burned_tower::
+	.incbin "data/tilesets/secondary/burned_tower/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_burned_tower::
+	.incbin "data/tilesets/secondary/burned_tower/metatile_attributes.bin"

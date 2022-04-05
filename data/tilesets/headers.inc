@@ -1534,3 +1534,14 @@ gTileset_condominium2::
 	.4byte gMetatiles_condominium2
 	.4byte gMetatileAttributes_condominium2
 	.4byte NULL
+
+	.align 2
+gTileset_burned_tower::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_burned_tower
+	.4byte gTilesetPalettes_burned_tower
+	.4byte gMetatiles_burned_tower
+	.4byte gMetatileAttributes_burned_tower
+	.4byte NULL
