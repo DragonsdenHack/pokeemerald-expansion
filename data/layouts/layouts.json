@@ -777,7 +777,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_DewfordGym",
+      "secondary_tileset": "gTileset_viridian_gym",
       "border_filepath": "data/layouts/DewfordTown_Gym/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown_Gym/map.bin"
     },
@@ -788,7 +788,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/DewfordTown_Hall/border.bin",
       "blockdata_filepath": "data/layouts/DewfordTown_Hall/map.bin"
@@ -812,7 +812,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/LavaridgeTown_HerbShop/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_HerbShop/map.bin"
@@ -848,7 +848,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_PokemonCenter_1F/map.bin"
@@ -1076,7 +1076,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/MauvilleCity_BikeShop/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity_BikeShop/map.bin"
@@ -1124,7 +1124,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_RustboroGym",
       "border_filepath": "data/layouts/RustboroCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Gym/map.bin"
@@ -6272,7 +6272,7 @@
       "height": 24,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_viridian_gym",
       "border_filepath": "data/layouts/ViridianCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/ViridianCity_Gym/map.bin"
@@ -6476,7 +6476,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_cerulean_gym",
       "border_filepath": "data/layouts/CeruleanCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_Gym/map.bin"
@@ -6704,7 +6704,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/CeladonCity_Shop_1F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Shop_1F/map.bin"
@@ -6788,7 +6788,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_condominium2",
       "border_filepath": "data/layouts/CeladonCity_House1_1F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_House1_1F/map.bin"
@@ -6800,7 +6800,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_condominium2",
       "border_filepath": "data/layouts/CeladonCity_House1_2F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_House1_2F/map.bin"
@@ -6812,7 +6812,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_condominium2",
       "border_filepath": "data/layouts/CeladonCity_House1_3F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_House1_3F/map.bin"
@@ -6824,7 +6824,7 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_condominium2",
       "border_filepath": "data/layouts/CeladonCity_House1_4F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_House1_4F/map.bin"
@@ -6836,7 +6836,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/CeladonCity_School/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_School/map.bin"
@@ -6848,7 +6848,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/CeladonCity_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_PokemonCenter_1F/map.bin"
@@ -6860,7 +6860,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/CeladonCity_School2/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_School2/map.bin"
@@ -6872,7 +6872,7 @@
       "height": 15,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_game_corner_fr",
       "border_filepath": "data/layouts/CeladonCity_Casino/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Casino/map.bin"
@@ -6884,7 +6884,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_game_corner_fr",
       "border_filepath": "data/layouts/CeladonCity_Casino2/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Casino2/map.bin"
@@ -6896,7 +6896,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_celadon_gym",
       "border_filepath": "data/layouts/CeladonCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Gym/map.bin"
@@ -6908,7 +6908,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_restaurant_hotel",
       "border_filepath": "data/layouts/CeladonCity_Restaurant/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Restaurant/map.bin"
@@ -6920,7 +6920,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/CeladonCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_House2/map.bin"
@@ -6932,7 +6932,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_restaurant_hotel",
       "border_filepath": "data/layouts/CeladonCity_Hotel/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Hotel/map.bin"
@@ -8288,7 +8288,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_11F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_11F/map.bin"
@@ -8684,7 +8684,7 @@
       "height": 22,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_1F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_1F/map.bin"
@@ -8828,7 +8828,7 @@
       "height": 35,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_mansion",
       "border_filepath": "data/layouts/PokemonMansion_1F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonMansion_1F/map.bin"
