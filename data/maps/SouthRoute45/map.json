@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_SUDOWOODO",
       "x": 2,
       "y": 6,
       "elevation": 3,
@@ -208,7 +208,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_SUDOWOODO",
       "x": 14,
       "y": 64,
       "elevation": 3,
@@ -235,7 +235,20 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 6,
+      "y": 113,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKET_HIDEOUT_JOHTO",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 5,
+      "y": 113,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKET_HIDEOUT_JOHTO",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 

@@ -599,6 +599,11 @@
 #define MAP_LAVENDER_TOWN_HOUSE1            (3 | (16 << 8))
 #define MAP_LAVENDER_TOWN_HOUSE2            (4 | (16 << 8))
 #define MAP_LAVENDER_TOWN_MART              (5 | (16 << 8))
+#define MAP_LAVENDER_RADIO                  (6 | (16 << 8))
+#define MAP_LAVENDER_RADIO_P1               (7 | (16 << 8))
+#define MAP_LAVENDER_RADIO_P2               (8 | (16 << 8))
+#define MAP_LAVENDER_RADIO_P3               (9 | (16 << 8))
+#define MAP_LAVENDER_RADIO_P4               (10 | (16 << 8))
 
 // gMapGroup_IndoorCeladonCity
 #define MAP_CELADON_CITY_SHOP_1F           (0 | (17 << 8))

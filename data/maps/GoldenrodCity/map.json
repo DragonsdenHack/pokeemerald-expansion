@@ -27,7 +27,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
-      "x": 36,
+      "x": 37,
       "y": 16,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -196,7 +196,118 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 18,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 12,
+      "y": 26,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_RADIO_TOWER",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 31,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_PASS_ROUTE35",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 36,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 28,
+      "y": 30,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_GAME_CORNER",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 37,
+      "y": 40,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_SHOP_CENTER",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 46,
+      "y": 44,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_BIKE_SHOP",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 50,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_HOUSES",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 50,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_HOUSES",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 21,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_TRAIN_STATION",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 12,
+      "y": 39,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_HOUSES",
+      "dest_warp_id": 3
+    },
+    {
+      "x": 27,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_PKMN_CENTER",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 21,
+      "y": 44,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_UNDERGROUND_SOUTH",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 24,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 24,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_GOLDENROD_CITY",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

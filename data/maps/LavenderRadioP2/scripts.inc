@@ -1,0 +1,2 @@
+LavenderRadioP2_MapScripts::
+	.byte 0

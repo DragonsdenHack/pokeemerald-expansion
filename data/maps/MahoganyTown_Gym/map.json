@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 7,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_TOWN",
+      "dest_warp_id": 4
+    }
   ],
   "coord_events": [
 

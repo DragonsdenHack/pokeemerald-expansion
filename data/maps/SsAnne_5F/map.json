@@ -17,7 +17,48 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 19,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_SS_ANNE_2F",
+      "dest_warp_id": 5
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SS_ANNE_21F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SS_ANNE_22F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SS_ANNE_23F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SS_ANNE_24F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_SS_ANNE_25F",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

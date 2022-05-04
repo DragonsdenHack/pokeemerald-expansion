@@ -169,15 +169,15 @@
       "x": 41,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE31",
-      "dest_warp_id": 0
+      "dest_map": "MAP_DARK_CAVE",
+      "dest_warp_id": 1
     },
     {
       "x": 7,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE31",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PASS_VIOLET_CITY",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

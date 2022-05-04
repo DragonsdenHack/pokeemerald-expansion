@@ -189,15 +189,15 @@
       "x": 35,
       "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_NATIONAL_PARK",
+      "dest_map": "MAP_PASS_ROUTE36",
       "dest_warp_id": 0
     },
     {
       "x": 10,
       "y": 49,
       "elevation": 0,
-      "dest_map": "MAP_NATIONAL_PARK",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PASS_NATIONAL_PARK",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

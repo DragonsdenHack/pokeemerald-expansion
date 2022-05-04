@@ -184,15 +184,15 @@
       "x": 48,
       "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE36",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PASS_RUINS_OF_ALPH_NORTH",
+      "dest_warp_id": 1
     },
     {
       "x": 6,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE36",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PASS_ROUTE36",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

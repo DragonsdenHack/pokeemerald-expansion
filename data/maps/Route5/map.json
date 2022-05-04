@@ -28,12 +28,46 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 31,
+      "y": 31,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE5",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 23,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE5_HOUSE1",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 24,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE5_PATH",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 25,
+      "y": 32,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE5",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 32,
+      "y": 32,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }
