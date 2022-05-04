@@ -152,21 +152,21 @@
       "dest_warp_id": 0
     },
     {
-      "x": 7,
+      "x": 6,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_CITY_WALLYS_HOUSE",
       "dest_warp_id": 0
     },
     {
-      "x": 15,
+      "x": 14,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_CITY_GYM",
       "dest_warp_id": 0
     },
     {
-      "x": 20,
+      "x": 21,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_CITY_POKEMON_CENTER_1F",
@@ -174,14 +174,14 @@
     },
     {
       "x": 20,
-      "y": 24,
+      "y": 23,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_CITY_HOUSE2",
       "dest_warp_id": 0
     },
     {
-      "x": 25,
-      "y": 12,
+      "x": 26,
+      "y": 13,
       "elevation": 0,
       "dest_map": "MAP_PETALBURG_CITY_MART",
       "dest_warp_id": 0
@@ -190,8 +190,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 8,
-      "y": 10,
+      "x": 12,
+      "y": 0,
       "elevation": 3,
       "var": "VAR_PETALBURG_CITY_STATE",
       "var_value": "0",
@@ -199,8 +199,8 @@
     },
     {
       "type": "trigger",
-      "x": 8,
-      "y": 11,
+      "x": 13,
+      "y": 0,
       "elevation": 3,
       "var": "VAR_PETALBURG_CITY_STATE",
       "var_value": "0",
@@ -208,8 +208,8 @@
     },
     {
       "type": "trigger",
-      "x": 8,
-      "y": 12,
+      "x": 14,
+      "y": 0,
       "elevation": 3,
       "var": "VAR_PETALBURG_CITY_STATE",
       "var_value": "0",
@@ -217,8 +217,8 @@
     },
     {
       "type": "trigger",
-      "x": 8,
-      "y": 13,
+      "x": 15,
+      "y": 0,
       "elevation": 3,
       "var": "VAR_PETALBURG_CITY_STATE",
       "var_value": "0",
@@ -226,8 +226,8 @@
     },
     {
       "type": "trigger",
-      "x": 4,
-      "y": 10,
+      "x": 0,
+      "y": 6,
       "elevation": 3,
       "var": "VAR_SCOTT_PETALBURG_ENCOUNTER",
       "var_value": "0",
@@ -235,8 +235,8 @@
     },
     {
       "type": "trigger",
-      "x": 4,
-      "y": 11,
+      "x": 0,
+      "y": 6,
       "elevation": 3,
       "var": "VAR_SCOTT_PETALBURG_ENCOUNTER",
       "var_value": "0",
@@ -244,8 +244,8 @@
     },
     {
       "type": "trigger",
-      "x": 4,
-      "y": 12,
+      "x": 1,
+      "y": 6,
       "elevation": 3,
       "var": "VAR_SCOTT_PETALBURG_ENCOUNTER",
       "var_value": "0",
@@ -253,8 +253,8 @@
     },
     {
       "type": "trigger",
-      "x": 4,
-      "y": 13,
+      "x": 0,
+      "y": 5,
       "elevation": 3,
       "var": "VAR_SCOTT_PETALBURG_ENCOUNTER",
       "var_value": "0",
@@ -280,8 +280,8 @@
     },
     {
       "type": "sign",
-      "x": 21,
-      "y": 16,
+      "x": 22,
+      "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemonCenterSign"

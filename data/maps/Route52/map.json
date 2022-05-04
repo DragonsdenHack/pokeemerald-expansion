@@ -28,7 +28,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 5,
+      "y": 94,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE52_MAZE",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

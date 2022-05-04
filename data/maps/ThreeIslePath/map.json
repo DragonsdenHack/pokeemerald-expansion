@@ -17,7 +17,13 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_THREE_ISLAND_PORT",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

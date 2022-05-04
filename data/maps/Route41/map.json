@@ -135,29 +135,29 @@
       "x": 43,
       "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE41",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 1
     },
     {
       "x": 13,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE41",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 4
     },
     {
       "x": 45,
       "y": 45,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE41",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_warp_id": 6
     },
     {
       "x": 13,
       "y": 37,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE41",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 12
     }
   ],
   "coord_events": [

@@ -665,7 +665,12 @@
     "LavenderTown_FujiHouse",
     "LavenderTown_House1",
     "LavenderTown_House2",
-    "LavenderTown_Mart"
+    "LavenderTown_Mart",
+    "LavenderRadio",
+    "LavenderRadioP1",
+    "LavenderRadioP2",
+    "LavenderRadioP3",
+    "LavenderRadioP4"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",

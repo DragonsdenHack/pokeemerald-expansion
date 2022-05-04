@@ -135,22 +135,22 @@
       "x": 15,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE46",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PASS_ROUTE29",
+      "dest_warp_id": 1
     },
     {
       "x": 20,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE46",
+      "dest_map": "MAP_DARK_CAVE",
       "dest_warp_id": 0
     },
     {
       "x": 14,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE46",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PASS_ROUTE29",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

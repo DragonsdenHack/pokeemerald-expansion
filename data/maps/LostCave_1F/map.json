@@ -17,7 +17,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_LOST_CAVE_1F",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 

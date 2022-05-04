@@ -182,21 +182,21 @@
       "x": 13,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE26",
+      "dest_map": "MAP_INDIGO_JOHTO",
       "dest_warp_id": 0
     },
     {
       "x": 26,
       "y": 85,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE26",
+      "dest_map": "MAP_ROUTE26_HOUSE",
       "dest_warp_id": 0
     },
     {
       "x": 10,
       "y": 105,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE26",
+      "dest_map": "MAP_ROUTE26_HOUSE2",
       "dest_warp_id": 0
     }
   ],

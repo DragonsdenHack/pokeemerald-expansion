@@ -1609,3 +1609,13 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Route49_MazeP4/scripts.inc"
 
 	.include "data/maps/Route53/scripts.inc"
+
+	.include "data/maps/LavenderRadio/scripts.inc"
+
+	.include "data/maps/LavenderRadioP1/scripts.inc"
+
+	.include "data/maps/LavenderRadioP2/scripts.inc"
+
+	.include "data/maps/LavenderRadioP3/scripts.inc"
+
+	.include "data/maps/LavenderRadioP4/scripts.inc"

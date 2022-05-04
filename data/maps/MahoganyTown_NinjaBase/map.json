@@ -17,7 +17,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 3,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_TOWN",
+      "dest_warp_id": 2
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_TOWN_NINJA_BASE_S1",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 

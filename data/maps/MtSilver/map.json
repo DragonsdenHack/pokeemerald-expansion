@@ -17,12 +17,32 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 22,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER_PKMN_CENTER",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "dest_map": "MAP_MT_SILVER1",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }

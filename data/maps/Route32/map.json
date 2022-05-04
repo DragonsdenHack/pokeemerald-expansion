@@ -260,14 +260,14 @@
       "x": 7,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE32",
-      "dest_warp_id": 0
+      "dest_map": "MAP_PASS_RUINS_OF_ALPH_EAST",
+      "dest_warp_id": 2
     },
     {
       "x": 9,
       "y": 105,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE32",
+      "dest_map": "MAP_UNION_CAVE",
       "dest_warp_id": 0
     }
   ],
