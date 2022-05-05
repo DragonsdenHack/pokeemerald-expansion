@@ -9,7 +9,6 @@
 #include "constants/flags.h"
 #include "constants/vars.h"
 #include "constants/species.h"
-#include "constants/pokedex.h"
 #include "constants/berry.h"
 #include "constants/maps.h"
 #include "constants/expansion_branches.h"
@@ -135,7 +134,6 @@
 
 #define DEX_FLAGS_NO ROUND_BITS_TO_BYTES(POKEMON_SLOTS_NUMBER)
 #define NUM_FLAG_BYTES ROUND_BITS_TO_BYTES(FLAGS_COUNT)
-#define NUM_ADDITIONAL_PHRASE_BYTES ROUND_BITS_TO_BYTES(NUM_ADDITIONAL_PHRASES)
 
 struct Coords8
 {
@@ -992,7 +990,7 @@ struct SaveBlock1
     /*0x2BC8*/ u16 easyChatBattleWon[EASY_CHAT_BATTLE_WORDS_COUNT];
     /*0x2BD4*/ u16 easyChatBattleLost[EASY_CHAT_BATTLE_WORDS_COUNT];
     /*0x2BE0*/ struct Mail mail[MAIL_COUNT];
-    /*0x2E20*/ u8 additionalPhrases[NUM_ADDITIONAL_PHRASE_BYTES]; // bitfield for 33 additional phrases in easy chat system
+    /*0x2E20*/ u8 additionalPhrases[8]; // bitfield for 33 additional phrases in easy chat system
     /*0x2E28*/ OldMan oldMan;
     /*0x2e64*/ struct DewfordTrend dewfordTrends[SAVED_TRENDS_COUNT];
     /*0x2e90*/ struct ContestWinner contestWinners[NUM_CONTEST_WINNERS]; // see CONTEST_WINNER_*
@@ -1023,7 +1021,7 @@ struct MapPosition
 {
     s16 x;
     s16 y;
-    s8 elevation;
+    s8 height;
 };
 
 #endif // GUARD_GLOBAL_H

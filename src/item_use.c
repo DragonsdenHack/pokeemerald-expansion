@@ -404,25 +404,25 @@ static bool8 IsHiddenItemPresentInConnection(struct MapConnection *connection, i
     switch (connection->direction)
     {
     // same weird temp variable behavior seen in IsHiddenItemPresentAtCoords
-    case CONNECTION_NORTH:
+    case 2:
         localOffset = connection->offset + MAP_OFFSET;
         localX = x - localOffset;
         localLength = mapHeader->mapLayout->height - MAP_OFFSET;
         localY = localLength + y; // additions are reversed for some reason
         break;
-    case CONNECTION_SOUTH:
+    case 1:
         localOffset = connection->offset + MAP_OFFSET;
         localX = x - localOffset;
         localLength = gMapHeader.mapLayout->height + MAP_OFFSET;
         localY = y - localLength;
         break;
-    case CONNECTION_WEST:
+    case 3:
         localLength = mapHeader->mapLayout->width - MAP_OFFSET;
         localX = localLength + x; // additions are reversed for some reason
         localOffset = connection->offset + MAP_OFFSET;
         localY = y - localOffset;
         break;
-    case CONNECTION_EAST:
+    case 4:
         localLength = gMapHeader.mapLayout->width + MAP_OFFSET;
         localX = x - localLength;
         localOffset = connection->offset + MAP_OFFSET;
@@ -726,11 +726,11 @@ static void ItemUseOnFieldCB_WailmerPailBerry(u8 taskId)
 static bool8 TryToWaterSudowoodo(void)
 {
     u16 x, y;
-    u8 elevation;
+    u8 z;
     u8 objId;
     GetXYCoordsOneStepInFrontOfPlayer(&x, &y);
-    elevation = PlayerGetElevation();
-    objId = GetObjectEventIdByPosition(x, y, elevation);
+    z = PlayerGetZCoord();
+    objId = GetObjectEventIdByXYZ(x, y, z);
     if (objId == OBJECT_EVENTS_COUNT || gObjectEvents[objId].graphicsId != OBJ_EVENT_GFX_SUDOWOODO)
         return FALSE;
     else

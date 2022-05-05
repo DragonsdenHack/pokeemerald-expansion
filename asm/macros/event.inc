@@ -604,8 +604,9 @@
 	.endm
 
 	@ Blocks script execution until the movements being applied to the specified (localId) object finish.
-	@ If localId is 0, then the id of the last-moved object will be used instead. If the specified object
-	@ is not currently being manipulated with applymovement, then this command does nothing.
+	@ If the specified object is 0, then the command will block script execution until all objects
+	@ affected by applymovement finish their movements. If the specified object is not currently being
+	@ manipulated with applymovement, then this command does nothing.
 	@ If no map is specified, then the current map is used.
 	.macro waitmovement localId:req, map
 		.ifb \map
@@ -828,10 +829,10 @@
 	.endm
 
 	@ Sets the movement type (MOVEMENT_TYPE_*) for an object's template.
-	.macro setobjectmovementtype localId:req, movementType:req
+	.macro setobjectmovementtype word:req, byte:req
 	.byte 0x65
-	.2byte \localId
-	.byte \movementType
+	.2byte \word
+	.byte \byte
 	.endm
 
 	@ If a standard message box (or its text) is being drawn on-screen, this command blocks script execution until the
@@ -986,7 +987,7 @@
 
 	@ Gives the player a Pokémon of the specified species and level, holding the specified item. The trailing 0s are unused parameters.
 	@ VAR_RESULT will be set to MON_GIVEN_TO_PARTY, MON_GIVEN_TO_PC, or MON_CANT_GIVE depending on the outcome. 
-	.macro givemon species:req, level:req, item=ITEM_NONE
+	.macro givemon species:req, level:req, item:req
 	.byte 0x79
 	.2byte \species
 	.byte \level
@@ -1347,7 +1348,7 @@
 	@ The specified id can be used to refer to the sprite again later with turnvobject.
 	.macro createvobject graphicsId:req, id:req, x:req, y:req, elevation=3, direction=DIR_SOUTH
 	.byte 0xaa
-	.2byte \graphicsId
+	.byte \graphicsId
 	.byte \id
 	.2byte \x
 	.2byte \y
@@ -1430,9 +1431,12 @@
 	.2byte \count
 	.endm
 
-	@ Prepares to start a wild battle against a 'species' at 'level' holding 'item'. Running this command will not affect
-	@ normal wild battles. You start the prepared battle with dowildbattle.
-	.macro setwildbattle species:req, level:req, item=ITEM_NONE
+	@ Prepares to start a wild battle against a 'species' at 'level' holding 'item'.
+	@ If 'species2' is something other than SPECIES_NONE, then the battle is a double battle
+	@ that is also against 'species2' at 'level2' holding 'item2'.
+	@ Running this command will not affect normal wild battles. You start the prepared battle with dowildbattle.
+	@ If the player only has one Pokemon, a scripted double battle will be buggy.
+	.macro setwildbattle species:req, level:req, item:req, species2=SPECIES_NONE, level2=0, item2=ITEM_NONE
 	.byte 0xb6
 	.2byte \species
 	.byte \level
@@ -1454,48 +1458,48 @@
 	.endm
 
 	@ Equivalent to goto using the relative address set by setvaddress.
-	.macro vgoto destination:req
+	.macro vgoto pointer:req
 	.byte 0xb9
-	.4byte \destination
+	.4byte \pointer
 	.endm
 
 	@ Equivalent to call using the relative address set by setvaddress.
-	.macro vcall destination:req
+	.macro vcall pointer:req
 	.byte 0xba
-	.4byte \destination
+	.4byte \pointer
 	.endm
 
 	@ Equivalent to goto_if using the relative address set by setvaddress.
-	.macro vgoto_if condition:req, destination:req
+	.macro vgoto_if byte:req, pointer:req
 	.byte 0xbb
-	.byte \condition
-	.4byte \destination
+	.byte \byte
+	.4byte \pointer
 	.endm
 
 	@ Equivalent to call_if using the relative address set by setvaddress.
-	.macro vcall_if condition:req, destination:req
+	.macro vcall_if byte:req, pointer:req
 	.byte 0xbc
-	.byte \condition
-	.4byte \destination
+	.byte \byte
+	.4byte \pointer
 	.endm
 
 	@ Equivalent to message using the relative address set by setvaddress.
-	.macro vmessage text:req
+	.macro vmessage pointer:req
 	.byte 0xbd
-	.4byte \text
+	.4byte \pointer
 	.endm
 
 	@ Expands the given text at the pointer (- the relative address set by setvaddress) into gStringVar4
-	.macro vbuffermessage text:req
+	.macro vbuffermessage ptr:req
 	.byte 0xbe
-	.4byte \text
+	.4byte \ptr
 	.endm
 
 	@ Equivalent to bufferstring using the relative address set by setvaddress.
-	.macro vbufferstring stringVarIndex:req, text:req
+	.macro vbufferstring stringVarIndex:req, pointer:req
 	.byte 0xbf
 	stringvar \stringVarIndex
-	.4byte \text
+	.4byte \pointer
 	.endm
 
 	@ Create a window showing how many Coins the player has.
@@ -1552,9 +1556,9 @@
 	.endm
 
 	@ Used only in FireRed/LeafGreen, does nothing in Emerald.
-	.macro loadhelp text:req
+	.macro loadhelp pointer:req
 	.byte 0xc8
-	.4byte \text
+	.4byte \pointer
 	.endm
 
 	@ Used only in FireRed/LeafGreen, does nothing in Emerald.
@@ -1935,10 +1939,63 @@
 	closebraillemessage
 	.endm
 
-	@ Creates an "event legal" Pokémon for an encounter
-	.macro seteventmon species:req, level:req, item=ITEM_NONE
-	setvar VAR_0x8004, \species
-	setvar VAR_0x8005, \level
-	setvar VAR_0x8006, \item
-	special CreateEventLegalEnemyMon
+	@ Set up a totem boost for the next battle.
+	@ 'battler' is the position of the mon you want to gain a boost. see B_POSITION_xx in include/constants/battle.h.
+	@ The rest of the arguments are the stat change values to each stat.
+	@ For example, giving the first opponent +1 to atk and -2 to speed would be: settotemboost B_POSITION_OPPONENT_LEFT, 1, 0, -2
+	.macro settotemboost battler:req, atk=0,def=0,speed=0,spatk=0,spdef=0,acc=0,evas=0
+	setvar VAR_0x8000, \battler
+	setvar VAR_0x8001, \atk
+	setvar VAR_0x8002, \def
+	setvar VAR_0x8003, \speed
+	setvar VAR_0x8004, \spatk
+	setvar VAR_0x8005, \spdef
+	setvar VAR_0x8006, \acc
+	setvar VAR_0x8007, \evas
+	special SetTotemBoost
+	.endm
+
+	@ useful totem boost macros
+	.macro totemboost_atk1 battler:req
+	settotemboost \battler, 1
+	.endm
+	.macro totemboost_def1 battler:req
+	settotemboost \battler, 0, 1
+	.endm
+	.macro totemboost_speed1 battler:req
+	settotemboost \battler, 0, 0, 1
+	.endm
+	.macro totemboost_spatk1 battler:req
+	settotemboost \battler, 0, 0, 0, 1
+	.endm
+	.macro totemboost_spdef1 battler:req
+	settotemboost \battler, 0, 0, 0, 0, 1
+	.endm
+	.macro totemboost_acc1 battler:req
+	settotemboost \battler, 0, 0, 0, 0, 0, 1
+	.endm
+	.macro totemboost_evas1 battler:req
+	settotemboost \battler, 0, 0, 0, 0, 0, 0, 1
+	.endm
+
+	.macro totemboost_atk2 battler:req
+	settotemboost \battler, 2
+	.endm
+	.macro totemboost_def2 battler:req
+	settotemboost \battler, 0, 2
+	.endm
+	.macro totemboost_speed2 battler:req
+	settotemboost \battler, 0, 0, 2
+	.endm
+	.macro totemboost_spatk2 battler:req
+	settotemboost \battler, 0, 0, 0, 2
+	.endm
+	.macro totemboost_spdef2 battler:req
+	settotemboost \battler, 0, 0, 0, 0, 2
+	.endm
+	.macro totemboost_acc2 battler:req
+	settotemboost \battler, 0, 0, 0, 0, 0, 2
+	.endm
+	.macro totemboost_evas2 battler:req
+	settotemboost \battler, 0, 0, 0, 0, 0, 0, 2
 	.endm

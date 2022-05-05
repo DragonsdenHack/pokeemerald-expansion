@@ -19,6 +19,7 @@
 #include "constants/map_types.h"
 #include "constants/songs.h"
 
+// static functions
 static void Task_DoFieldMove_Init(u8 taskId);
 static void Task_DoFieldMove_ShowMonAfterPose(u8 taskId);
 static void Task_DoFieldMove_WaitForMon(u8 taskId);
@@ -28,13 +29,13 @@ static void FieldCallback_RockSmash(void);
 static void FieldMove_RockSmash(void);
 
 // text
-bool8 CheckObjectGraphicsInFrontOfPlayer(u16 graphicsId)
+bool8 CheckObjectGraphicsInFrontOfPlayer(u8 graphicsId)
 {
     u8 objEventId;
 
     GetXYCoordsOneStepInFrontOfPlayer(&gPlayerFacingPosition.x, &gPlayerFacingPosition.y);
-    gPlayerFacingPosition.elevation = PlayerGetElevation();
-    objEventId = GetObjectEventIdByPosition(gPlayerFacingPosition.x, gPlayerFacingPosition.y, gPlayerFacingPosition.elevation);
+    gPlayerFacingPosition.height = PlayerGetZCoord();
+    objEventId = GetObjectEventIdByXYZ(gPlayerFacingPosition.x, gPlayerFacingPosition.y, gPlayerFacingPosition.height);
     if (gObjectEvents[objEventId].graphicsId != graphicsId)
     {
         return FALSE;

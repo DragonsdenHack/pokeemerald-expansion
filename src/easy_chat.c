@@ -27,6 +27,7 @@
 #include "task.h"
 #include "text_window.h"
 #include "window.h"
+#include "constants/easy_chat.h"
 #include "constants/event_objects.h"
 #include "constants/lilycove_lady.h"
 #include "constants/mauville_old_man.h"
@@ -4988,7 +4989,7 @@ static void HideStartSelectButtons(void)
 
 static void TryAddInterviewObjectEvents(void)
 {
-    u16 graphicsId;
+    int graphicsId;
     u8 spriteId;
 
     switch (GetDisplayedPersonType())

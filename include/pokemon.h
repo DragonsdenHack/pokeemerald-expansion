@@ -1,6 +1,7 @@
 #ifndef GUARD_POKEMON_H
 #define GUARD_POKEMON_H
 
+#include "constants/pokemon.h"
 #include "sprite.h"
 #include "constants/region_map_sections.h"
 #include "constants/pokemon_config.h"
@@ -248,13 +249,10 @@ struct BattleMove
     u8 argument;
 };
 
-#define SPINDA_SPOT_WIDTH 16
-#define SPINDA_SPOT_HEIGHT 16
-
 struct SpindaSpot
 {
     u8 x, y;
-    u16 image[SPINDA_SPOT_HEIGHT];
+    u16 image[16];
 };
 
 struct LevelUpMove
