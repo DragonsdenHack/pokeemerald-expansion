@@ -644,7 +644,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_1F/map.bin"
@@ -656,7 +656,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_1",
       "border_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_BrendansHouse_2F/map.bin"
@@ -668,7 +668,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_1",
       "border_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_1F/map.bin"
@@ -680,7 +680,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_1",
       "border_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_MaysHouse_2F/map.bin"
@@ -692,7 +692,7 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/border.bin",
       "blockdata_filepath": "data/layouts/LittlerootTown_ProfessorBirchsLab/map.bin"
@@ -980,7 +980,7 @@
       "height": 15,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/SlateportCity_SternsShipyard_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_SternsShipyard_2F/map.bin"
@@ -1016,7 +1016,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_fan_club_daycare",
       "border_filepath": "data/layouts/SlateportCity_PokemonFanClub/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_PokemonFanClub/map.bin"
@@ -1028,7 +1028,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/SlateportCity_OceanicMuseum_1F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_OceanicMuseum_1F/map.bin"
@@ -1040,7 +1040,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/SlateportCity_OceanicMuseum_2F/border.bin",
       "blockdata_filepath": "data/layouts/SlateportCity_OceanicMuseum_2F/map.bin"
@@ -1088,7 +1088,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_game_corner_fr",
       "border_filepath": "data/layouts/MauvilleCity_GameCorner/border.bin",
       "blockdata_filepath": "data/layouts/MauvilleCity_GameCorner/map.bin"
@@ -1100,7 +1100,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/RustboroCity_DevonCorp_1F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_DevonCorp_1F/map.bin"
@@ -1112,7 +1112,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/RustboroCity_DevonCorp_2F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_DevonCorp_2F/map.bin"
@@ -1136,7 +1136,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/RustboroCity_PokemonSchool/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_PokemonSchool/map.bin"
@@ -3224,7 +3224,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/RustboroCity_DevonCorp_3F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_DevonCorp_3F/map.bin"
@@ -6272,7 +6272,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/PalletTown_RedHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_RedHouse_1F/map.bin"
@@ -6284,7 +6284,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_1",
       "border_filepath": "data/layouts/PalletTown_RedHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_RedHouse_2F/map.bin"
@@ -6296,7 +6296,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/PalletTown_BlueHouse_1F/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_BlueHouse_1F/map.bin"
@@ -6308,7 +6308,7 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/PalletTown_ProfessorLab/border.bin",
       "blockdata_filepath": "data/layouts/PalletTown_ProfessorLab/map.bin"
@@ -6320,7 +6320,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/ViridianCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/ViridianCity_House1/map.bin"
@@ -6344,7 +6344,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/ViridianCity_School/border.bin",
       "blockdata_filepath": "data/layouts/ViridianCity_School/map.bin"
@@ -6356,7 +6356,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/ViridianCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/ViridianCity_Mart/map.bin"
@@ -6368,7 +6368,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/ViridianCity_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/ViridianCity_PokemonCenter_1F/map.bin"
@@ -6380,7 +6380,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/PewterCity_Museum_1F/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_Museum_1F/map.bin"
@@ -6392,7 +6392,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/PewterCity_Musem_2F/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_Musem_2F/map.bin"
@@ -6404,7 +6404,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pewter_gym",
       "border_filepath": "data/layouts/PewterCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_Gym/map.bin"
@@ -6416,7 +6416,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/PewterCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_Mart/map.bin"
@@ -6428,7 +6428,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/PewterCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_House1/map.bin"
@@ -6440,7 +6440,7 @@
       "height": 58,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_viridian_gym",
       "border_filepath": "data/layouts/NewMap2/border.bin",
       "blockdata_filepath": "data/layouts/NewMap2/map.bin"
@@ -6452,7 +6452,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/PewterCity_School/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_School/map.bin"
@@ -6476,7 +6476,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/CeruleanCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_House1/map.bin"
@@ -6488,7 +6488,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_burgled_house",
       "border_filepath": "data/layouts/CeruleanCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_House2/map.bin"
@@ -6500,7 +6500,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/CeruleanCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_House3/map.bin"
@@ -6512,7 +6512,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/CeruleanCity_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_PokemonCenter_1F/map.bin"
@@ -6524,7 +6524,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/CeruleanCity_School/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_School/map.bin"
@@ -6548,7 +6548,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/CeruleanCity_BikeShop/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_BikeShop/map.bin"
@@ -6560,7 +6560,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/CeruleanCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_Mart/map.bin"
@@ -6572,7 +6572,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/CeruleanCity_House4/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_House4/map.bin"
@@ -6584,7 +6584,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/CeruleanCity_House5/border.bin",
       "blockdata_filepath": "data/layouts/CeruleanCity_House5/map.bin"
@@ -6596,7 +6596,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/VermilionCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_House1/map.bin"
@@ -6608,7 +6608,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/VermilionCity_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_PokemonCenter_1F/map.bin"
@@ -6620,7 +6620,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/VermilionCity_School/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_School/map.bin"
@@ -6632,7 +6632,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_fan_club_daycare",
       "border_filepath": "data/layouts/VermilionCity_Club/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_Club/map.bin"
@@ -6644,7 +6644,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/VermilionCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_House2/map.bin"
@@ -6656,7 +6656,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/VermilionCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_Mart/map.bin"
@@ -6668,7 +6668,7 @@
       "height": 21,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_vermilion_gym",
       "border_filepath": "data/layouts/VermilionCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_Gym/map.bin"
@@ -6680,7 +6680,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/VermilionCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/VermilionCity_House3/map.bin"
@@ -6728,7 +6728,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pewter_city",
       "border_filepath": "data/layouts/LavenderTown_House1/border.bin",
       "blockdata_filepath": "data/layouts/LavenderTown_House1/map.bin"
@@ -6740,7 +6740,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/LavenderTown_House2/border.bin",
       "blockdata_filepath": "data/layouts/LavenderTown_House2/map.bin"
@@ -6752,7 +6752,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/LavenderTown_Mart/border.bin",
       "blockdata_filepath": "data/layouts/LavenderTown_Mart/map.bin"
@@ -6776,7 +6776,7 @@
       "height": 15,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/CeladonCity_Shop_2F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Shop_2F/map.bin"
@@ -6788,7 +6788,7 @@
       "height": 15,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/CeladonCity_Shop_3F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Shop_3F/map.bin"
@@ -6800,7 +6800,7 @@
       "height": 15,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/CeladonCity_Shop_4F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Shop_4F/map.bin"
@@ -6812,7 +6812,7 @@
       "height": 15,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/CeladonCity_Shop_5F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Shop_5F/map.bin"
@@ -6824,7 +6824,7 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/CeladonCity_Shop_6F/border.bin",
       "blockdata_filepath": "data/layouts/CeladonCity_Shop_6F/map.bin"
@@ -7004,7 +7004,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/SaffronCity_House1_1F/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_House1_1F/map.bin"
@@ -7016,7 +7016,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_1",
       "border_filepath": "data/layouts/SaffronCity_House1_2F/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_House1_2F/map.bin"
@@ -7028,7 +7028,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pewter_gym",
       "border_filepath": "data/layouts/SaffronCity_Dojo/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_Dojo/map.bin"
@@ -7040,7 +7040,7 @@
       "height": 25,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_saffron_gym",
       "border_filepath": "data/layouts/SaffronCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_Gym/map.bin"
@@ -7052,7 +7052,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/SaffronCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_House2/map.bin"
@@ -7064,7 +7064,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/SaffronCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_Mart/map.bin"
@@ -7076,7 +7076,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/SaffronCity_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_PokemonCenter_1F/map.bin"
@@ -7088,7 +7088,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/SaffronCity_School/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_School/map.bin"
@@ -7100,7 +7100,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/SaffronCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_House3/map.bin"
@@ -7112,7 +7112,7 @@
       "height": 17,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_fan_club_daycare",
       "border_filepath": "data/layouts/SaffronCity_House4/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_House4/map.bin"
@@ -7124,7 +7124,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/FuchsiaCity_Path/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_Path/map.bin"
@@ -7136,7 +7136,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/FuchsiaCity_Mart/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_Mart/map.bin"
@@ -7148,7 +7148,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/FuchsiaCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_House1/map.bin"
@@ -7160,7 +7160,7 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_fuchsia_gym",
       "border_filepath": "data/layouts/FuchsiaCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_Gym/map.bin"
@@ -7172,7 +7172,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/FuchsiaCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_House2/map.bin"
@@ -7184,7 +7184,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/FuchsiaCity_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_PokemonCenter_1F/map.bin"
@@ -7196,7 +7196,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/FuchsiaCity_School/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_School/map.bin"
@@ -7208,7 +7208,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/FuchsiaCity_House3/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_House3/map.bin"
@@ -7220,7 +7220,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Shop",
       "border_filepath": "data/layouts/FuchsiaCity_House4/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_House4/map.bin"
@@ -7232,7 +7232,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/FuchsiaCity_House5/border.bin",
       "blockdata_filepath": "data/layouts/FuchsiaCity_House5/map.bin"
@@ -7244,7 +7244,7 @@
       "height": 25,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_cinnabar_gym",
       "border_filepath": "data/layouts/CinnabarIsland_Gym/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_Gym/map.bin"
@@ -7256,7 +7256,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/CinnabarIsland_Laboratory1/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_Laboratory1/map.bin"
@@ -7268,7 +7268,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/CinnabarIsland_House1/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_House1/map.bin"
@@ -7280,7 +7280,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/CinnabarIsland_Laboratory2/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_Laboratory2/map.bin"
@@ -7292,7 +7292,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/CinnabarIsland_Laboratory3/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_Laboratory3/map.bin"
@@ -7304,7 +7304,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/CinnabarIsland_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_PokemonCenter_1F/map.bin"
@@ -7316,7 +7316,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/CinnabarIsland_School/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_School/map.bin"
@@ -7328,7 +7328,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/CinnabarIsland_Mart/border.bin",
       "blockdata_filepath": "data/layouts/CinnabarIsland_Mart/map.bin"
@@ -7352,7 +7352,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_school_fr",
       "border_filepath": "data/layouts/IndigoPlateau_School/border.bin",
       "blockdata_filepath": "data/layouts/IndigoPlateau_School/map.bin"
@@ -7436,7 +7436,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/TwoIsland_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/TwoIsland_PokemonCenter_1F/map.bin"
@@ -7556,7 +7556,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/FourIsland_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/FourIsland_PokemonCenter_1F/map.bin"
@@ -7736,7 +7736,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mart_fr",
       "border_filepath": "data/layouts/SevenIsland_Mart/border.bin",
       "blockdata_filepath": "data/layouts/SevenIsland_Mart/map.bin"
@@ -7748,7 +7748,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/SevenIsland_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/SevenIsland_PokemonCenter_1F/map.bin"
@@ -7760,7 +7760,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/NewMap3/border.bin",
       "blockdata_filepath": "data/layouts/NewMap3/map.bin"
@@ -7784,7 +7784,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route2_Path/border.bin",
       "blockdata_filepath": "data/layouts/Route2_Path/map.bin"
@@ -7796,7 +7796,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Route2_House1/border.bin",
       "blockdata_filepath": "data/layouts/Route2_House1/map.bin"
@@ -7808,7 +7808,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route2_Path2/border.bin",
       "blockdata_filepath": "data/layouts/Route2_Path2/map.bin"
@@ -7820,7 +7820,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route2_Path3/border.bin",
       "blockdata_filepath": "data/layouts/Route2_Path3/map.bin"
@@ -7844,7 +7844,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_fan_club_daycare",
       "border_filepath": "data/layouts/Route5_House1/border.bin",
       "blockdata_filepath": "data/layouts/Route5_House1/map.bin"
@@ -7856,7 +7856,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route5_Path/border.bin",
       "blockdata_filepath": "data/layouts/Route5_Path/map.bin"
@@ -7868,7 +7868,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route6_Path/border.bin",
       "blockdata_filepath": "data/layouts/Route6_Path/map.bin"
@@ -7880,7 +7880,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route7_Path/border.bin",
       "blockdata_filepath": "data/layouts/Route7_Path/map.bin"
@@ -7892,7 +7892,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route8_Path/border.bin",
       "blockdata_filepath": "data/layouts/Route8_Path/map.bin"
@@ -7904,7 +7904,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/Route10_PokemonCenter_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route10_PokemonCenter_1F/map.bin"
@@ -7916,7 +7916,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route11_Path_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route11_Path_1F/map.bin"
@@ -7928,7 +7928,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route11_Path_2F/border.bin",
       "blockdata_filepath": "data/layouts/Route11_Path_2F/map.bin"
@@ -7940,7 +7940,7 @@
       "height": 13,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route12_Path_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route12_Path_1F/map.bin"
@@ -7952,7 +7952,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route12_Path_2F/border.bin",
       "blockdata_filepath": "data/layouts/Route12_Path_2F/map.bin"
@@ -7964,7 +7964,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Route12_House1/border.bin",
       "blockdata_filepath": "data/layouts/Route12_House1/map.bin"
@@ -7976,7 +7976,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route15_Path_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route15_Path_1F/map.bin"
@@ -7988,7 +7988,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route15_Path_2F/border.bin",
       "blockdata_filepath": "data/layouts/Route15_Path_2F/map.bin"
@@ -8000,7 +8000,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonSchool",
       "border_filepath": "data/layouts/Route16_House1/border.bin",
       "blockdata_filepath": "data/layouts/Route16_House1/map.bin"
@@ -8012,7 +8012,7 @@
       "height": 18,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route16_Path_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route16_Path_1F/map.bin"
@@ -8024,7 +8024,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route16_Path_2F/border.bin",
       "blockdata_filepath": "data/layouts/Route16_Path_2F/map.bin"
@@ -8036,7 +8036,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route18_Path_1F/border.bin",
       "blockdata_filepath": "data/layouts/Route18_Path_1F/map.bin"
@@ -8048,7 +8048,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route18_Path_2F/border.bin",
       "blockdata_filepath": "data/layouts/Route18_Path_2F/map.bin"
@@ -8060,7 +8060,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Route19_House1/border.bin",
       "blockdata_filepath": "data/layouts/Route19_House1/map.bin"
@@ -8072,7 +8072,7 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Route22_Path/border.bin",
       "blockdata_filepath": "data/layouts/Route22_Path/map.bin"
@@ -8084,7 +8084,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Route23_House1/border.bin",
       "blockdata_filepath": "data/layouts/Route23_House1/map.bin"
@@ -8096,7 +8096,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_sea_cottage",
       "border_filepath": "data/layouts/Route25_BillHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route25_BillHouse/map.bin"
@@ -8120,7 +8120,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/ResortGeorgeous_House1/border.bin",
       "blockdata_filepath": "data/layouts/ResortGeorgeous_House1/map.bin"
@@ -8132,7 +8132,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/CapeBrink_House1/border.bin",
       "blockdata_filepath": "data/layouts/CapeBrink_House1/map.bin"
@@ -8144,7 +8144,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/WaterPath_House1/border.bin",
       "blockdata_filepath": "data/layouts/WaterPath_House1/map.bin"
@@ -8156,7 +8156,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/WaterPath_House2/border.bin",
       "blockdata_filepath": "data/layouts/WaterPath_House2/map.bin"
@@ -8168,7 +8168,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/SevaultCanyon_House1/border.bin",
       "blockdata_filepath": "data/layouts/SevaultCanyon_House1/map.bin"
@@ -8228,7 +8228,7 @@
       "height": 32,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_Lavaridge",
       "border_filepath": "data/layouts/SsAnne_1F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_1F/map.bin"
@@ -8240,7 +8240,7 @@
       "height": 21,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_2F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_2F/map.bin"
@@ -8252,7 +8252,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_3F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_3F/map.bin"
@@ -8264,7 +8264,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_4F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_4F/map.bin"
@@ -8276,7 +8276,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_5F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_5F/map.bin"
@@ -8300,7 +8300,7 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_7F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_7F/map.bin"
@@ -8540,7 +8540,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/UndergroundPath_1F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_1F/map.bin"
@@ -8552,7 +8552,7 @@
       "height": 63,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_underground_path",
       "border_filepath": "data/layouts/UndergroundPath_2F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_2F/map.bin"
@@ -8564,7 +8564,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/UndergroundPath_3F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_3F/map.bin"
@@ -8576,7 +8576,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/UndergroundPath_4F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_4F/map.bin"
@@ -8588,7 +8588,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_underground_path",
       "border_filepath": "data/layouts/UndergroundPath_5F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_5F/map.bin"
@@ -8600,7 +8600,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/UndergroundPath_6F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_6F/map.bin"
@@ -8684,7 +8684,7 @@
       "height": 34,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_1F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_1F/map.bin"
@@ -8696,7 +8696,7 @@
       "height": 22,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_2F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_2F/map.bin"
@@ -8708,7 +8708,7 @@
       "height": 27,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_3F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_3F/map.bin"
@@ -8720,7 +8720,7 @@
       "height": 26,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_4F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_4F/map.bin"
@@ -8732,7 +8732,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_Elevator/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_Elevator/map.bin"
@@ -8756,7 +8756,7 @@
       "height": 22,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_2F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_2F/map.bin"
@@ -8768,7 +8768,7 @@
       "height": 22,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_3F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_3F/map.bin"
@@ -8780,7 +8780,7 @@
       "height": 22,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_4F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_4F/map.bin"
@@ -8792,7 +8792,7 @@
       "height": 22,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_5F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_5F/map.bin"
@@ -8804,7 +8804,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_6F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_6F/map.bin"
@@ -8816,7 +8816,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_7F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_7F/map.bin"
@@ -8828,7 +8828,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_8F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_8F/map.bin"
@@ -8840,7 +8840,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_9F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_9F/map.bin"
@@ -8852,7 +8852,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_10F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_10F/map.bin"
@@ -8864,7 +8864,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_11F/border.bin",
       "blockdata_filepath": "data/layouts/Silph_11F/map.bin"
@@ -8876,7 +8876,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Silph_Elevator/border.bin",
       "blockdata_filepath": "data/layouts/Silph_Elevator/map.bin"
@@ -8900,7 +8900,7 @@
       "height": 38,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_mansion",
       "border_filepath": "data/layouts/PokemonMansion_2F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonMansion_2F/map.bin"
@@ -8912,7 +8912,7 @@
       "height": 35,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_mansion",
       "border_filepath": "data/layouts/PokemonMansion_3F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonMansion_3F/map.bin"
@@ -8924,7 +8924,7 @@
       "height": 35,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_mansion",
       "border_filepath": "data/layouts/PokemonMansion_4F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonMansion_4F/map.bin"
@@ -8984,7 +8984,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/SafariZone_House1/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_House1/map.bin"
@@ -8996,7 +8996,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/SafariZone_House2/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_House2/map.bin"
@@ -9008,7 +9008,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/SafariZone_House3/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_House3/map.bin"
@@ -9020,7 +9020,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/SafariZone_House4/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_House4/map.bin"
@@ -9032,7 +9032,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/SafariZone_House5/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_House5/map.bin"
@@ -9164,7 +9164,7 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_rock_tunnel",
       "border_filepath": "data/layouts/RockTunnel_2F/border.bin",
       "blockdata_filepath": "data/layouts/RockTunnel_2F/map.bin"
@@ -9188,7 +9188,7 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_seafoam_islands",
       "border_filepath": "data/layouts/SeafoamIslands_2F/border.bin",
       "blockdata_filepath": "data/layouts/SeafoamIslands_2F/map.bin"
@@ -9236,7 +9236,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/PokemonTower_1F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonTower_1F/map.bin"
@@ -9248,7 +9248,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/PokemonTower_2F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonTower_2F/map.bin"
@@ -9260,7 +9260,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/PokemonTower_3F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonTower_3F/map.bin"
@@ -9272,7 +9272,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/PokemonTower_4F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonTower_4F/map.bin"
@@ -9296,7 +9296,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/PokemonTower_6F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonTower_6F/map.bin"
@@ -9308,7 +9308,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/PokemonTower_7F/border.bin",
       "blockdata_filepath": "data/layouts/PokemonTower_7F/map.bin"
@@ -9320,7 +9320,7 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_power_plant",
       "border_filepath": "data/layouts/PowerPlant/border.bin",
       "blockdata_filepath": "data/layouts/PowerPlant/map.bin"
@@ -9380,7 +9380,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MtEmber_3F/border.bin",
       "blockdata_filepath": "data/layouts/MtEmber_3F/map.bin"
@@ -9548,7 +9548,7 @@
       "height": 27,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketWarehouse/border.bin",
       "blockdata_filepath": "data/layouts/RocketWarehouse/map.bin"
@@ -9572,7 +9572,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/DottedHole_B1F/border.bin",
       "blockdata_filepath": "data/layouts/DottedHole_B1F/map.bin"
@@ -9608,7 +9608,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/DottedHole_B4F/border.bin",
       "blockdata_filepath": "data/layouts/DottedHole_B4F/map.bin"
@@ -9704,7 +9704,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/LostCave_B1F_Path3/border.bin",
       "blockdata_filepath": "data/layouts/LostCave_B1F_Path3/map.bin"
@@ -9788,7 +9788,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/LostCave_B1F_Item1/border.bin",
       "blockdata_filepath": "data/layouts/LostCave_B1F_Item1/map.bin"
@@ -9956,7 +9956,7 @@
       "height": 60,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_5F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_5F/map.bin"
@@ -9968,7 +9968,7 @@
       "height": 28,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_6F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_6F/map.bin"
@@ -9980,7 +9980,7 @@
       "height": 21,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_FiveIsland_Meadow/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_FiveIsland_Meadow/map.bin"
@@ -10004,7 +10004,7 @@
       "height": 17,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/BillGarden_House1/border.bin",
       "blockdata_filepath": "data/layouts/BillGarden_House1/map.bin"
@@ -10016,7 +10016,7 @@
       "height": 70,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_7F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_7F/map.bin"
@@ -10028,7 +10028,7 @@
       "height": 17,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_8F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_8F/map.bin"
@@ -10040,7 +10040,7 @@
       "height": 17,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_9F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_9F/map.bin"
@@ -10664,7 +10664,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/Goldenrod_ShopCenterP3/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_ShopCenterP3/map.bin"
@@ -10676,7 +10676,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/Goldenrod_ShopCenterP4/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_ShopCenterP4/map.bin"
@@ -10688,7 +10688,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_department_store",
       "border_filepath": "data/layouts/Goldenrod_ShopCenterP5/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_ShopCenterP5/map.bin"
@@ -10700,7 +10700,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Goldenrod_RadioTower/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_RadioTower/map.bin"
@@ -10712,7 +10712,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Goldenrod_RadioTowerP1/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP1/map.bin"
@@ -10724,7 +10724,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Goldenrod_RadioTowerP2/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP2/map.bin"
@@ -10736,7 +10736,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Goldenrod_RadioTowerP3/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP3/map.bin"
@@ -10748,7 +10748,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Goldenrod_RadioTowerP4/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP4/map.bin"
@@ -10760,7 +10760,7 @@
       "height": 22,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Goldenrod_RadioTowerP5/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_RadioTowerP5/map.bin"
@@ -10772,7 +10772,7 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_game_corner_fr",
       "border_filepath": "data/layouts/Goldenrod_GameCorner/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_GameCorner/map.bin"
@@ -10784,7 +10784,7 @@
       "height": 17,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_trainer_tower",
       "border_filepath": "data/layouts/Goldenrod_TrainStation/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_TrainStation/map.bin"
@@ -10796,7 +10796,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BikeShop",
       "border_filepath": "data/layouts/Goldenrod_BikeShop/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_BikeShop/map.bin"
@@ -10808,7 +10808,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Goldenrod_UndergroundNorth/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_UndergroundNorth/map.bin"
@@ -10820,7 +10820,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Goldenrod_UndergroundSouth/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_UndergroundSouth/map.bin"
@@ -10832,7 +10832,7 @@
       "height": 36,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_underground_path",
       "border_filepath": "data/layouts/Goldenrod_Underground/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_Underground/map.bin"
@@ -10844,7 +10844,7 @@
       "height": 25,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_fan_club_daycare",
       "border_filepath": "data/layouts/Goldenrod_Houses/border.bin",
       "blockdata_filepath": "data/layouts/Goldenrod_Houses/map.bin"
@@ -10856,7 +10856,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/Ecruteak_PkmnCenter/border.bin",
       "blockdata_filepath": "data/layouts/Ecruteak_PkmnCenter/map.bin"
@@ -11588,7 +11588,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/MtSilver_PkmnCenter/border.bin",
       "blockdata_filepath": "data/layouts/MtSilver_PkmnCenter/map.bin"
@@ -11600,7 +11600,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/MtSilver_House/border.bin",
       "blockdata_filepath": "data/layouts/MtSilver_House/map.bin"
@@ -11624,7 +11624,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Route26_House/border.bin",
       "blockdata_filepath": "data/layouts/Route26_House/map.bin"
@@ -11636,7 +11636,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/Route26_House2/border.bin",
       "blockdata_filepath": "data/layouts/Route26_House2/map.bin"
@@ -12176,7 +12176,7 @@
       "height": 11,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/Pass_Route43/border.bin",
       "blockdata_filepath": "data/layouts/Pass_Route43/map.bin"
