@@ -1496,8 +1496,8 @@
       "height": 42,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_MeteorFalls",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/MeteorFalls_1F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_1F_1R/map.bin"
     },
@@ -5354,6 +5354,66 @@
       "blockdata_filepath": "data/layouts/LavenderTown/map.bin"
     },
     {
+      "id": "LAYOUT_LAVENDER_RADIO",
+      "name": "LavenderTownRadio_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_lavender_town",
+      "border_filepath": "data/layouts/LavenderRadio/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadio/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P1",
+      "name": "LavenderTownRadioP1_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_lavender_town",
+      "border_filepath": "data/layouts/LavenderRadioP1/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP1/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P2",
+      "name": "LavenderTownRadioP2_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_lavender_town",
+      "border_filepath": "data/layouts/LavenderRadioP2/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP2/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P3",
+      "name": "LavenderTownRadioP3_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_lavender_town",
+      "border_filepath": "data/layouts/LavenderRadioP3/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP3/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P4",
+      "name": "LavenderTownRadioP4_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_lavender_town",
+      "border_filepath": "data/layouts/LavenderRadioP4/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP4/map.bin"
+    },
+    {
       "id": "LAYOUT_VERMILION_CITY",
       "name": "VermilionCity_Layout",
       "width": 48,
@@ -6404,7 +6464,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
+      "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/PewterCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_House2/map.bin"
@@ -11484,18 +11544,6 @@
       "secondary_tileset": "gTileset_cerulean_cave",
       "border_filepath": "data/layouts/BlackthornCity_DragonsdenS4/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_DragonsdenS4/map.bin"
-    },
-    {
-      "id": "LAYOUT_NEW_MAP2",
-      "name": "NewMap2_Layout",
-      "width": 45,
-      "height": 58,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr_fr",
-      "secondary_tileset": "gTileset_viridian_gym",
-      "border_filepath": "data/layouts/NewMap2/border.bin",
-      "blockdata_filepath": "data/layouts/NewMap2/map.bin"
     },
     {
       "id": "LAYOUT_MT_SILVER1",
