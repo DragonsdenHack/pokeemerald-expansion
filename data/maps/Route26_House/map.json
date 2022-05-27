@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE26_HOUSE",
   "name": "Route26_House",
   "layout": "LAYOUT_ROUTE26_HOUSE",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

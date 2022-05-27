@@ -2244,3 +2244,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/LavenderRadioP3/scripts.inc"
 
 	.include "data/maps/LavenderRadioP4/scripts.inc"
+
+	.include "data/maps/AzaleaTown/scripts.inc"

@@ -2,7 +2,7 @@
   "id": "MAP_MT_EMBER_B1F_EXIT",
   "name": "MtEmber_B1F_Exit",
   "layout": "LAYOUT_MT_EMBER_B1F_EXIT",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

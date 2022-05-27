@@ -2,7 +2,7 @@
   "id": "MAP_AZALEA_SLOWPOKE_WELL",
   "name": "Azalea_SlowpokeWell",
   "layout": "LAYOUT_AZALEA_SLOWPOKE_WELL",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

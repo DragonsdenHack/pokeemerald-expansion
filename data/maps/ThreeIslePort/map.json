@@ -2,7 +2,7 @@
   "id": "MAP_THREE_ISLE_PORT",
   "name": "ThreeIslePort",
   "layout": "LAYOUT_THREE_ISLE_PORT",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_THREE_ISLE_PORT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_WEST_BIRTH_ISLAND",
   "name": "WestBirthIsland",
   "layout": "LAYOUT_WEST_BIRTH_ISLAND",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

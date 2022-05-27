@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_TRAIN_STATION",
   "name": "Goldenrod_TrainStation",
   "layout": "LAYOUT_GOLDENROD_TRAIN_STATION",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

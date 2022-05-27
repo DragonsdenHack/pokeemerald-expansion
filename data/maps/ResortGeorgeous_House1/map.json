@@ -2,7 +2,7 @@
   "id": "MAP_RESORT_GEORGEOUS_HOUSE1",
   "name": "ResortGeorgeous_House1",
   "layout": "LAYOUT_RESORT_GEORGEOUS_HOUSE1",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_RESORT_GORGEOUS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

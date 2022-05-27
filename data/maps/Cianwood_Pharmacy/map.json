@@ -2,7 +2,7 @@
   "id": "MAP_CIANWOOD_PHARMACY",
   "name": "Cianwood_Pharmacy",
   "layout": "LAYOUT_CIANWOOD_PHARMACY",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

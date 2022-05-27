@@ -2,7 +2,7 @@
   "id": "MAP_PALLET_TOWN",
   "name": "PalletTown",
   "layout": "LAYOUT_PALLET_TOWN",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

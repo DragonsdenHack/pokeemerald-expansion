@@ -2,7 +2,7 @@
   "id": "MAP_RESORT_GORGEOUS",
   "name": "ResortGorgeous",
   "layout": "LAYOUT_RESORT_GORGEOUS",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_RESORT_GORGEOUS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

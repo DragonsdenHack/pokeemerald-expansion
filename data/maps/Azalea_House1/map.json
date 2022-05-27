@@ -2,7 +2,7 @@
   "id": "MAP_AZALEA_HOUSE1",
   "name": "Azalea_House1",
   "layout": "LAYOUT_AZALEA_HOUSE1",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

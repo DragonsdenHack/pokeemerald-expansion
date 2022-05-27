@@ -2,7 +2,7 @@
   "id": "MAP_GREEN_PATH",
   "name": "GreenPath",
   "layout": "LAYOUT_GREEN_PATH",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_GREEN_PATH",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

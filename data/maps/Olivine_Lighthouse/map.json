@@ -2,7 +2,7 @@
   "id": "MAP_OLIVINE_LIGHTHOUSE",
   "name": "Olivine_Lighthouse",
   "layout": "LAYOUT_OLIVINE_LIGHTHOUSE",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

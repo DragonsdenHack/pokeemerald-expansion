@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE25_BILL_HOUSE",
   "name": "Route25_BillHouse",
   "layout": "LAYOUT_ROUTE25_BILL_HOUSE",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_ROUTE_25",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

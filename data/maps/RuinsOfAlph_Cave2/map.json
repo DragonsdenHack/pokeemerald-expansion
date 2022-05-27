@@ -2,7 +2,7 @@
   "id": "MAP_RUINS_OF_ALPH_CAVE2",
   "name": "RuinsOfAlph_Cave2",
   "layout": "LAYOUT_RUINS_OF_ALPH_CAVE2",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

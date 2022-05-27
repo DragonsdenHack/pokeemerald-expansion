@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE21",
   "name": "Route21",
   "layout": "LAYOUT_ROUTE21",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_ROUTE_21",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

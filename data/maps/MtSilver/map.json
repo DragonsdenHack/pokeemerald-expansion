@@ -2,7 +2,7 @@
   "id": "MAP_MT_SILVER",
   "name": "MtSilver",
   "layout": "LAYOUT_MT_SILVER",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

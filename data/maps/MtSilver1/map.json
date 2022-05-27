@@ -2,7 +2,7 @@
   "id": "MAP_MT_SILVER1",
   "name": "MtSilver1",
   "layout": "LAYOUT_MT_SILVER1",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_WEEPTH_CHAMBER",
   "name": "WeepthChamber",
   "layout": "LAYOUT_WEEPTH_CHAMBER",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_WEEPTH_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

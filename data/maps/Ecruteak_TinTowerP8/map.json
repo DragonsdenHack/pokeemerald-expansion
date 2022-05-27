@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_TIN_TOWER_P8",
   "name": "Ecruteak_TinTowerP8",
   "layout": "LAYOUT_ECRUTEAK_TIN_TOWER_P8",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

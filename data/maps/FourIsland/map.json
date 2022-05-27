@@ -2,7 +2,7 @@
   "id": "MAP_FOUR_ISLAND",
   "name": "FourIsland",
   "layout": "LAYOUT_FOUR_ISLAND",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

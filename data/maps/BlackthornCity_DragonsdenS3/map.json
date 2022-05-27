@@ -2,7 +2,7 @@
   "id": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S3",
   "name": "BlackthornCity_DragonsdenS3",
   "layout": "LAYOUT_BLACKTHORN_CITY_DRAGONSDEN_S3",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

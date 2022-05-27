@@ -2,7 +2,7 @@
   "id": "MAP_CELADON_CITY_SHOP_3F",
   "name": "CeladonCity_Shop_3F",
   "layout": "LAYOUT_CELADON_CITY_SHOP_3F",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_CELADON_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

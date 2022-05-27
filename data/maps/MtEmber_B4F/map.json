@@ -2,7 +2,7 @@
   "id": "MAP_MT_EMBER_B4F",
   "name": "MtEmber_B4F",
   "layout": "LAYOUT_MT_EMBER_B4F",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

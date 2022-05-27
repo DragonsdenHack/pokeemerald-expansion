@@ -2,7 +2,7 @@
   "id": "MAP_DOTTED_HOLE_GROUND_FLOOR",
   "name": "DottedHole_GroundFloor",
   "layout": "LAYOUT_DOTTED_HOLE_GROUND_FLOOR",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_DOTTED_HOLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_MT_SILVER_HOUSE",
   "name": "MtSilver_House",
   "layout": "LAYOUT_MT_SILVER_HOUSE",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

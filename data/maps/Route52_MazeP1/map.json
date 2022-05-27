@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE52_MAZE_P1",
   "name": "Route52_MazeP1",
   "layout": "LAYOUT_ROUTE52_MAZE_P1",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

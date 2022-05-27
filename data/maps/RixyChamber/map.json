@@ -2,7 +2,7 @@
   "id": "MAP_RIXY_CHAMBER",
   "name": "RixyChamber",
   "layout": "LAYOUT_RIXY_CHAMBER",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_RIXY_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

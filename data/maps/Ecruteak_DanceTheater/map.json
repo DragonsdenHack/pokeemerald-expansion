@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_DANCE_THEATER",
   "name": "Ecruteak_DanceTheater",
   "layout": "LAYOUT_ECRUTEAK_DANCE_THEATER",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

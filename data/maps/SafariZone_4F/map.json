@@ -2,7 +2,7 @@
   "id": "MAP_SAFARI_ZONE_4F",
   "name": "SafariZone_4F",
   "layout": "LAYOUT_SAFARI_ZONE_4F",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_SAFARI_ZONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

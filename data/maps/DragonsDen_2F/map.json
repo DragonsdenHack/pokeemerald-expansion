@@ -2,7 +2,7 @@
   "id": "MAP_DRAGONS_DEN_2F",
   "name": "DragonsDen_2F",
   "layout": "LAYOUT_DRAGONS_DEN_2F",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

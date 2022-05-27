@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_PKMN_CENTER",
   "name": "Goldenrod_PkmnCenter",
   "layout": "LAYOUT_GOLDENROD_PKMN_CENTER",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

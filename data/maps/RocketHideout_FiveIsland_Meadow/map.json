@@ -2,7 +2,7 @@
   "id": "MAP_ROCKET_HIDEOUT_FIVE_ISLAND_MEADOW",
   "name": "RocketHideout_FiveIsland_Meadow",
   "layout": "LAYOUT_ROCKET_HIDEOUT_FIVE_ISLAND_MEADOW",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_FIVE_ISLE_MEADOW",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

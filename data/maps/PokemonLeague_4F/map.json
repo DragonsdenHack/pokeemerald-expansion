@@ -2,7 +2,7 @@
   "id": "MAP_POKEMON_LEAGUE_4F",
   "name": "PokemonLeague_4F",
   "layout": "LAYOUT_POKEMON_LEAGUE_4F",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_POKEMON_LEAGUE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

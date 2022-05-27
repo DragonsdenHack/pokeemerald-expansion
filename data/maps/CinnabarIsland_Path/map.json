@@ -2,7 +2,7 @@
   "id": "MAP_CINNABAR_ISLAND_PATH",
   "name": "CinnabarIsland_Path",
   "layout": "LAYOUT_CINNABAR_ISLAND_PATH",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

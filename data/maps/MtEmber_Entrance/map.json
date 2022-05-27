@@ -2,7 +2,7 @@
   "id": "MAP_MT_EMBER_ENTRANCE",
   "name": "MtEmber_Entrance",
   "layout": "LAYOUT_MT_EMBER_ENTRANCE",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

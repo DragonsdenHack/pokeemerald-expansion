@@ -2,7 +2,7 @@
   "id": "MAP_PEWTER_CITY_SCHOOL",
   "name": "PewterCity_School",
   "layout": "LAYOUT_PEWTER_CITY_SCHOOL",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_PEWTER_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

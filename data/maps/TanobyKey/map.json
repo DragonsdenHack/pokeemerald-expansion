@@ -2,7 +2,7 @@
   "id": "MAP_TANOBY_KEY",
   "name": "TanobyKey",
   "layout": "LAYOUT_TANOBY_KEY",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_TANOBY_KEY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_ROCKET_HIDEOUT_5F",
   "name": "RocketHideout_5F",
   "layout": "LAYOUT_ROCKET_HIDEOUT_5F",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_ROCKET_HIDEOUT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

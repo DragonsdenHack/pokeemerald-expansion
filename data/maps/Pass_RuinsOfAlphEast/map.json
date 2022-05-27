@@ -2,7 +2,7 @@
   "id": "MAP_PASS_RUINS_OF_ALPH_EAST",
   "name": "Pass_RuinsOfAlphEast",
   "layout": "LAYOUT_PASS_RUINS_OF_ALPH_EAST",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
