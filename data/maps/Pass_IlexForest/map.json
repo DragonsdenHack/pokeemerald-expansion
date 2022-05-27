@@ -71,13 +71,6 @@
     },
     {
       "x": 11,
-      "y": 5,
-      "elevation": 0,
-      "dest_map": "MAP_AZALEA_TOWN",
-      "dest_warp_id": 1
-    },
-    {
-      "x": 11,
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_PASS_ILEX_FOREST",

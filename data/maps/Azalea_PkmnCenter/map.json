@@ -68,13 +68,7 @@
     }
   ],
   "warp_events": [
-    {
-      "x": 7,
-      "y": 8,
-      "elevation": 0,
-      "dest_map": "MAP_AZALEA_TOWN",
-      "dest_warp_id": 5
-    }
+
   ],
   "coord_events": [
 

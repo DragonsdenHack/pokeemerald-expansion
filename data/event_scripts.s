@@ -1108,8 +1108,6 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/VioletCity/scripts.inc"
 
-	.include "data/maps/AzaleaTown/scripts.inc"
-
 	.include "data/maps/GoldenrodCity/scripts.inc"
 
 	.include "data/maps/EcruteakCity/scripts.inc"

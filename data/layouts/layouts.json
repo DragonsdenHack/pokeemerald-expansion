@@ -5654,18 +5654,6 @@
       "blockdata_filepath": "data/layouts/VioletCity/map.bin"
     },
     {
-      "id": "LAYOUT_AZALEA_TOWN",
-      "name": "AzaleaTown_Layout",
-      "width": 54,
-      "height": 26,
-      "border_width": 2,
-      "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_sevii_islands_123",
-      "border_filepath": "data/layouts/AzaleaTown/border.bin",
-      "blockdata_filepath": "data/layouts/AzaleaTown/map.bin"
-    },
-    {
       "id": "LAYOUT_GOLDENROD_CITY",
       "name": "GoldenrodCity_Layout",
       "width": 76,
