@@ -1108,6 +1108,8 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/VioletCity/scripts.inc"
 
+	.include "data/maps/AzaleaTown/scripts.inc"
+
 	.include "data/maps/GoldenrodCity/scripts.inc"
 
 	.include "data/maps/EcruteakCity/scripts.inc"
@@ -2245,4 +2247,18 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/LavenderRadioP4/scripts.inc"
 
-	.include "data/maps/AzaleaTown/scripts.inc"
+	.include "data/maps/BaseRocketHoenn/scripts.inc"
+
+	.include "data/maps/BaseRocketHoennS2/scripts.inc"
+
+	.include "data/maps/BaseRocketHoennS3/scripts.inc"
+
+	.include "data/maps/LavenderRadioP5/scripts.inc"
+
+	.include "data/maps/LavenderRadioP6/scripts.inc"
+
+	.include "data/maps/ViasTren1/scripts.inc"
+
+	.include "data/maps/ViasTren2/scripts.inc"
+
+	.include "data/maps/ViasTren3/scripts.inc"

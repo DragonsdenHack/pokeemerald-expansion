@@ -96,14 +96,14 @@
   "warp_events": [
     {
       "x": 3,
-      "y": 7,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY",
       "dest_warp_id": 10
     },
     {
       "x": 4,
-      "y": 7,
+      "y": 8,
       "elevation": 0,
       "dest_map": "MAP_LILYCOVE_CITY",
       "dest_warp_id": 10

@@ -52,31 +52,10 @@
     "gMapGroup_IndoorMossdeep",
     "gMapGroup_IndoorSootopolis",
     "gMapGroup_IndoorEverGrande",
-    "gMapGroup_IndoorRoute104",
-    "gMapGroup_IndoorRoute111",
-    "gMapGroup_IndoorRoute112",
-    "gMapGroup_IndoorRoute114",
-    "gMapGroup_IndoorRoute116",
-    "gMapGroup_IndoorRoute117",
-    "gMapGroup_IndoorRoute121",
-    "gMapGroup_IndoorRoute2",
-    "gMapGroup_IndoorRoute4",
-    "gMapGroup_IndoorRoute5",
-    "gMapGroup_IndoorRoute6",
-    "gMapGroup_IndoorRoute7",
-    "gMapGroup_IndoorRoute8",
-    "gMapGroup_IndoorRoute10",
-    "gMapGroup_IndoorRoute11",
-    "gMapGroup_Dungeons",
-    "gMapGroup_IndoorDynamic",
-    "gMapGroup_SpecialArea",
-    "gMapGroup_IndoorRoute104Prototype",
-    "gMapGroup_IndoorRoute109",
-    "gMapGroup_IndoorRoute110",
-    "gMapGroup_IndoorRoute113",
-    "gMapGroup_IndoorRoute123",
-    "gMapGroup_IndoorRoute119",
-    "gMapGroup_IndoorRoute124"
+    "gMapGroup_IndoorHOENN1",
+    "gMapGroup_IndoorHOENN2",
+    "gMapGroup_IndoorHOENN3",
+    "gMapGroup_IndoorHOENN4"
   ],
   "gMapGroup_TownsAndRoutesHOENN": [
     "PetalburgCity",
@@ -173,7 +152,8 @@
     "Route22",
     "Route23",
     "Route24",
-    "Route25"
+    "Route25",
+    "ViasTren3"
   ],
   "gMapGroup_TownsAndRoutesSEVII": [
     "OneIsland",
@@ -244,7 +224,9 @@
     "Route50",
     "Route51",
     "Route52",
-    "Route53"
+    "Route53",
+    "ViasTren1",
+    "ViasTren2"
   ],
   "gMapGroup_IndoorCherryNewbark": [
     "Newbark_ElmLaboratory",
@@ -492,7 +474,9 @@
     "LavenderRadioP1",
     "LavenderRadioP2",
     "LavenderRadioP3",
-    "LavenderRadioP4"
+    "LavenderRadioP4",
+    "LavenderRadioP5",
+    "LavenderRadioP6"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",
@@ -1000,57 +984,7 @@
     "EverGrandeCity_PokemonCenter_2F",
     "EverGrandeCity_PokemonLeague_2F"
   ],
-  "gMapGroup_IndoorRoute104": [
-    "Route104_MrBrineysHouse",
-    "Route104_PrettyPetalFlowerShop"
-  ],
-  "gMapGroup_IndoorRoute111": [
-    "Route111_WinstrateFamilysHouse",
-    "Route111_OldLadysRestStop"
-  ],
-  "gMapGroup_IndoorRoute112": [
-    "Route112_CableCarStation",
-    "MtChimney_CableCarStation"
-  ],
-  "gMapGroup_IndoorRoute114": [
-    "Route114_FossilManiacsHouse",
-    "Route114_FossilManiacsTunnel",
-    "Route114_LanettesHouse"
-  ],
-  "gMapGroup_IndoorRoute116": [
-    "Route116_TunnelersRestHouse"
-  ],
-  "gMapGroup_IndoorRoute117": [
-    "Route117_PokemonDayCare"
-  ],
-  "gMapGroup_IndoorRoute121": [
-    "Route121_SafariZoneEntrance"
-  ],
-  "gMapGroup_IndoorRoute2": [
-
-  ],
-  "gMapGroup_IndoorRoute4": [
-
-  ],
-  "gMapGroup_IndoorRoute5": [
-
-  ],
-  "gMapGroup_IndoorRoute6": [
-
-  ],
-  "gMapGroup_IndoorRoute7": [
-
-  ],
-  "gMapGroup_IndoorRoute8": [
-
-  ],
-  "gMapGroup_IndoorRoute10": [
-
-  ],
-  "gMapGroup_IndoorRoute11": [
-
-  ],
-  "gMapGroup_Dungeons": [
+  "gMapGroup_IndoorHOENN1": [
     "MeteorFalls_1F_1R",
     "MeteorFalls_1F_2R",
     "MeteorFalls_B1F_1R",
@@ -1160,7 +1094,7 @@
     "AlteringCave",
     "MeteorFalls_StevensCave"
   ],
-  "gMapGroup_IndoorDynamic": [
+  "gMapGroup_IndoorHOENN2": [
     "SecretBase_RedCave1",
     "SecretBase_BrownCave1",
     "SecretBase_BlueCave1",
@@ -1223,7 +1157,7 @@
     "BattlePyramidSquare16",
     "UnionRoom"
   ],
-  "gMapGroup_SpecialArea": [
+  "gMapGroup_IndoorHOENN3": [
     "SafariZone_Northwest",
     "SafariZone_North",
     "SafariZone_Southwest",
@@ -1314,14 +1248,22 @@
     "NavelRock_Bottom",
     "TrainerHill_Elevator"
   ],
-  "gMapGroup_IndoorRoute104Prototype": [
+  "gMapGroup_IndoorHOENN4": [
+    "Route104_MrBrineysHouse",
+    "Route104_PrettyPetalFlowerShop",
+    "Route111_WinstrateFamilysHouse",
+    "Route111_OldLadysRestStop",
+    "Route112_CableCarStation",
+    "MtChimney_CableCarStation",
+    "Route114_FossilManiacsHouse",
+    "Route114_FossilManiacsTunnel",
+    "Route114_LanettesHouse",
+    "Route116_TunnelersRestHouse",
+    "Route117_PokemonDayCare",
+    "Route121_SafariZoneEntrance",
     "Route104_Prototype",
-    "Route104_PrototypePrettyPetalFlowerShop"
-  ],
-  "gMapGroup_IndoorRoute109": [
-    "Route109_SeashoreHouse"
-  ],
-  "gMapGroup_IndoorRoute110": [
+    "Route104_PrototypePrettyPetalFlowerShop",
+    "Route109_SeashoreHouse",
     "Route110_TrickHouseEntrance",
     "Route110_TrickHouseEnd",
     "Route110_TrickHouseCorridor",
@@ -1334,20 +1276,15 @@
     "Route110_TrickHousePuzzle7",
     "Route110_TrickHousePuzzle8",
     "Route110_SeasideCyclingRoadNorthEntrance",
-    "Route110_SeasideCyclingRoadSouthEntrance"
-  ],
-  "gMapGroup_IndoorRoute113": [
-    "Route113_GlassWorkshop"
-  ],
-  "gMapGroup_IndoorRoute123": [
-    "Route123_BerryMastersHouse"
-  ],
-  "gMapGroup_IndoorRoute119": [
+    "Route110_SeasideCyclingRoadSouthEntrance",
+    "Route113_GlassWorkshop",
+    "Route123_BerryMastersHouse",
     "Route119_WeatherInstitute_1F",
     "Route119_WeatherInstitute_2F",
-    "Route119_House"
-  ],
-  "gMapGroup_IndoorRoute124": [
-    "Route124_DivingTreasureHuntersHouse"
+    "Route119_House",
+    "Route124_DivingTreasureHuntersHouse",
+    "BaseRocketHoenn",
+    "BaseRocketHoennS2",
+    "BaseRocketHoennS3"
   ]
 }

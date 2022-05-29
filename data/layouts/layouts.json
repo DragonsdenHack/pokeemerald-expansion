@@ -5360,8 +5360,8 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_lavender_town",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/LavenderRadio/border.bin",
       "blockdata_filepath": "data/layouts/LavenderRadio/map.bin"
     },
@@ -5372,8 +5372,8 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_lavender_town",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/LavenderRadioP1/border.bin",
       "blockdata_filepath": "data/layouts/LavenderRadioP1/map.bin"
     },
@@ -5384,8 +5384,8 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_lavender_town",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/LavenderRadioP2/border.bin",
       "blockdata_filepath": "data/layouts/LavenderRadioP2/map.bin"
     },
@@ -5396,8 +5396,8 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_lavender_town",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/LavenderRadioP3/border.bin",
       "blockdata_filepath": "data/layouts/LavenderRadioP3/map.bin"
     },
@@ -5408,8 +5408,8 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_lavender_town",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_condominium2",
       "border_filepath": "data/layouts/LavenderRadioP4/border.bin",
       "blockdata_filepath": "data/layouts/LavenderRadioP4/map.bin"
     },
@@ -5661,7 +5661,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_gTileset_PalletTown",
+      "secondary_tileset": "gTileset_sevii_islands_123",
       "border_filepath": "data/layouts/AzaleaTown/border.bin",
       "blockdata_filepath": "data/layouts/AzaleaTown/map.bin"
     },
@@ -5685,7 +5685,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_sevii_islands_123",
+      "secondary_tileset": "gTileset_violet_city",
       "border_filepath": "data/layouts/EcruteakCity/border.bin",
       "blockdata_filepath": "data/layouts/EcruteakCity/map.bin"
     },
@@ -6464,7 +6464,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_BrendansMaysHouse",
       "border_filepath": "data/layouts/PewterCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/PewterCity_House2/map.bin"
@@ -7041,7 +7041,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_saffron_gym",
+      "secondary_tileset": "gTileset_cerulean_gym",
       "border_filepath": "data/layouts/SaffronCity_Gym/border.bin",
       "blockdata_filepath": "data/layouts/SaffronCity_Gym/map.bin"
     },
@@ -12356,8 +12356,8 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_berry_forest",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_Maze/border.bin",
       "blockdata_filepath": "data/layouts/Route49_Maze/map.bin"
     },
@@ -12368,8 +12368,8 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Lab",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_MazeP1/border.bin",
       "blockdata_filepath": "data/layouts/Route49_MazeP1/map.bin"
     },
@@ -12380,8 +12380,8 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Lab",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_MazeP2/border.bin",
       "blockdata_filepath": "data/layouts/Route49_MazeP2/map.bin"
     },
@@ -12392,8 +12392,8 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Lab",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_MazeP3/border.bin",
       "blockdata_filepath": "data/layouts/Route49_MazeP3/map.bin"
     },
@@ -12404,8 +12404,8 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Lab",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_MazeP4/border.bin",
       "blockdata_filepath": "data/layouts/Route49_MazeP4/map.bin"
     },
@@ -12420,6 +12420,102 @@
       "secondary_tileset": "gTileset_saffron_city",
       "border_filepath": "data/layouts/Route53/border.bin",
       "blockdata_filepath": "data/layouts/Route53/map.bin"
+    },
+    {
+      "id": "LAYOUT_BASE_ROCKET_HOENN",
+      "name": "BaseRocketHoenn_Layout",
+      "width": 62,
+      "height": 48,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/BaseRocketHoenn/border.bin",
+      "blockdata_filepath": "data/layouts/BaseRocketHoenn/map.bin"
+    },
+    {
+      "id": "LAYOUT_BASE_ROCKET_HOENN_S2",
+      "name": "BaseRocketHoennS2_Layout",
+      "width": 62,
+      "height": 48,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/BaseRocketHoennS2/border.bin",
+      "blockdata_filepath": "data/layouts/BaseRocketHoennS2/map.bin"
+    },
+    {
+      "id": "LAYOUT_BASE_ROCKET_HOENN_S3",
+      "name": "BaseRocketHoennS3_Layout",
+      "width": 30,
+      "height": 44,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/BaseRocketHoennS3/border.bin",
+      "blockdata_filepath": "data/layouts/BaseRocketHoennS3/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P5",
+      "name": "LavenderRadioP5_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/LavenderRadioP5/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP5/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P6",
+      "name": "LavenderRadioP6_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/LavenderRadioP6/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP6/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_TREN1",
+      "name": "ViasTren1_Layout",
+      "width": 120,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/ViasTren1/border.bin",
+      "blockdata_filepath": "data/layouts/ViasTren1/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_TREN2",
+      "name": "ViasTren2_Layout",
+      "width": 120,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/ViasTren2/border.bin",
+      "blockdata_filepath": "data/layouts/ViasTren2/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_TREN3",
+      "name": "ViasTren3_Layout",
+      "width": 120,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/ViasTren3/border.bin",
+      "blockdata_filepath": "data/layouts/ViasTren3/map.bin"
     }
   ]
 }

@@ -17,6 +17,16 @@
       "direction": "left",
       "offset": -12,
       "map": "MAP_GOLDENROD_CITY"
+    },
+    {
+      "direction": "left",
+      "offset": -12,
+      "map": "MAP_GOLDENROD_CITY"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_VIAS_TREN1"
     }
   ],
   "object_events": [
