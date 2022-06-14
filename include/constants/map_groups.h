@@ -365,6 +365,7 @@
 #define MAP_ROUTE49_MAZE_P2                (67 | (13 << 8))
 #define MAP_ROUTE49_MAZE_P3                (68 | (13 << 8))
 #define MAP_ROUTE49_MAZE_P4                (69 | (13 << 8))
+#define MAP_LAGO_FURIA_S1                  (70 | (13 << 8))
 
 // gMapGroup_IndoorPalletTown
 #define MAP_PALLET_TOWN_RED_HOUSE_1F  (0 | (14 << 8))
