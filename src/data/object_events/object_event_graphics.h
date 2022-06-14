@@ -554,4 +554,5 @@ const u32 gObjectEventPic_Zekrom[] = INCBIN_U32("graphics/object_events/pics/peo
 const u32 gObjectEventPic_Zeus[] = INCBIN_U32("graphics/object_events/pics/people/Zeus.4bpp");
 
 // Nuevas paletas
-const u16 gObjectEventPal_Prota[] = INCBIN_U16("graphics/object_events/pics/people/prota.gbapal");
+const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
+const u16 gObjectEventPal_Rockets[] = INCBIN_U16("graphics/object_events/pics/people/prota.gbapal");
