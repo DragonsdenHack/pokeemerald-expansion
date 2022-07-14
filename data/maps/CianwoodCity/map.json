@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT2",
       "x": 13,
       "y": 15,
       "elevation": 3,
@@ -67,7 +67,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_8",
       "x": 15,
       "y": 47,
       "elevation": 3,
@@ -80,7 +80,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_PROTA",
       "x": 17,
       "y": 47,
       "elevation": 3,
@@ -93,7 +93,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_WOMAN_8",
       "x": 20,
       "y": 49,
       "elevation": 3,
@@ -106,7 +106,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_LASS2",
       "x": 20,
       "y": 41,
       "elevation": 3,
@@ -119,7 +119,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_HIKER2",
       "x": 22,
       "y": 33,
       "elevation": 3,
@@ -132,8 +132,8 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
-      "x": 22,
+      "graphics_id": "OBJ_EVENT_GFX_MIRTO",
+      "x": 23,
       "y": 54,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -158,7 +158,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_BOY4",
       "x": 34,
       "y": 38,
       "elevation": 3,

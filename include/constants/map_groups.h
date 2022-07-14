@@ -365,7 +365,11 @@
 #define MAP_ROUTE49_MAZE_P2                (67 | (13 << 8))
 #define MAP_ROUTE49_MAZE_P3                (68 | (13 << 8))
 #define MAP_ROUTE49_MAZE_P4                (69 | (13 << 8))
-#define MAP_LAGO_FURIA_S1                  (70 | (13 << 8))
+#define MAP_LAGO_FURIA1                    (70 | (13 << 8))
+#define MAP_LAGO_FURIA2                    (71 | (13 << 8))
+#define MAP_LAGO_FURIA3                    (72 | (13 << 8))
+#define MAP_LAGO_FURIA4                    (73 | (13 << 8))
+#define MAP_LAGO_FURIA5                    (74 | (13 << 8))
 
 // gMapGroup_IndoorPalletTown
 #define MAP_PALLET_TOWN_RED_HOUSE_1F  (0 | (14 << 8))
@@ -621,6 +625,7 @@
 #define MAP_ROCKET_HIDEOUT_8F       (62 | (26 << 8))
 #define MAP_ROCKET_HIDEOUT_9F       (63 | (26 << 8))
 #define MAP_CINNABAR_ISLAND_PATH    (64 | (26 << 8))
+#define MAP_ROCKET_HIDEOUT_VIRIDIAN (65 | (26 << 8))
 
 // gMapGroup_IndoorOneIsland
 #define MAP_ONE_ISLAND_POKEMON_CENTER_1F (0 | (27 << 8))
@@ -1235,6 +1240,15 @@
 #define MAP_BASE_ROCKET_HOENN                            (34 | (54 << 8))
 #define MAP_BASE_ROCKET_HOENN_S2                         (35 | (54 << 8))
 #define MAP_BASE_ROCKET_HOENN_S3                         (36 | (54 << 8))
+#define MAP_DEVON_S1                                     (37 | (54 << 8))
+#define MAP_DEVONS2                                      (38 | (54 << 8))
+#define MAP_DEVON_S3                                     (39 | (54 << 8))
+#define MAP_DEVON_S4                                     (40 | (54 << 8))
+#define MAP_DEVON_S5                                     (41 | (54 << 8))
+#define MAP_DEVONS6                                      (42 | (54 << 8))
+#define MAP_DEVON_S7                                     (43 | (54 << 8))
+#define MAP_DEVON_S8                                     (44 | (54 << 8))
+#define MAP_DEVON_S9                                     (45 | (54 << 8))
 
 #define MAP_GROUPS_COUNT 55
 

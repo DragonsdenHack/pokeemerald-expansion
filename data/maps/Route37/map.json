@@ -26,7 +26,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_JUGLARJOHTO",
       "x": 14,
       "y": 8,
       "elevation": 3,
@@ -39,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_SUDOWOODO",
       "x": 3,
       "y": 21,
       "elevation": 3,
@@ -52,7 +52,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_CRIADORAJOHTO",
       "x": 24,
       "y": 14,
       "elevation": 3,

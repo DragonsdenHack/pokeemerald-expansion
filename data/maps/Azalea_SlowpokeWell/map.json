@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_BALDING_MAN",
       "x": 15,
       "y": 13,
       "elevation": 3,
@@ -151,6 +151,13 @@
       "y": 15,
       "elevation": 0,
       "dest_map": "MAP_AZALEA_SLOWPOKE_WELL_S1",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 22,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_AZALEA_TOWN",
       "dest_warp_id": 0
     }
   ],

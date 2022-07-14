@@ -2263,4 +2263,32 @@ Common_EventScript_LegendaryFlewAway::
 
 	.include "data/maps/ViasTren3/scripts.inc"
 
-	.include "data/maps/LagoFuriaS1/scripts.inc"
+	.include "data/maps/RocketHideoutViridian/scripts.inc"
+
+	.include "data/maps/DevonS1/scripts.inc"
+
+	.include "data/maps/DEVONS2/scripts.inc"
+
+	.include "data/maps/DevonS3/scripts.inc"
+
+	.include "data/maps/DevonS4/scripts.inc"
+
+	.include "data/maps/DevonS5/scripts.inc"
+
+	.include "data/maps/DEVONS6/scripts.inc"
+
+	.include "data/maps/DevonS7/scripts.inc"
+
+	.include "data/maps/DevonS8/scripts.inc"
+
+	.include "data/maps/DevonS9/scripts.inc"
+
+	.include "data/maps/LagoFuria1/scripts.inc"
+
+	.include "data/maps/LagoFuria2/scripts.inc"
+
+	.include "data/maps/LagoFuria3/scripts.inc"
+
+	.include "data/maps/LagoFuria4/scripts.inc"
+
+	.include "data/maps/LagoFuria5/scripts.inc"

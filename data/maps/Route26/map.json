@@ -21,7 +21,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_F",
       "x": 19,
       "y": 10,
       "elevation": 3,
@@ -73,7 +73,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 17,
       "y": 131,
       "elevation": 3,
@@ -86,7 +86,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
       "x": 24,
       "y": 92,
       "elevation": 3,
@@ -112,7 +112,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_GUARDIAFJOHTO",
       "x": 28,
       "y": 118,
       "elevation": 3,
@@ -138,7 +138,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_GUARDIAMJOHTO",
       "x": 15,
       "y": 70,
       "elevation": 3,
@@ -151,7 +151,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
       "x": 25,
       "y": 28,
       "elevation": 3,

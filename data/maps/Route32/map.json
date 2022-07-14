@@ -17,11 +17,16 @@
       "direction": "up",
       "offset": -2,
       "map": "MAP_VIOLET_CITY"
+    },
+    {
+      "direction": "right",
+      "offset": 13,
+      "map": "MAP_ROUTE51"
     }
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_MONTANEROJOHTO",
       "x": 8,
       "y": 106,
       "elevation": 3,
@@ -34,7 +39,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_MONTANEROJOHTO",
       "x": 9,
       "y": 106,
       "elevation": 3,
@@ -47,7 +52,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_F",
       "x": 13,
       "y": 108,
       "elevation": 3,
@@ -60,7 +65,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_HIKER2",
       "x": 16,
       "y": 104,
       "elevation": 3,
@@ -73,7 +78,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_VENDEDORAJOHTO",
       "x": 16,
       "y": 90,
       "elevation": 3,
@@ -99,7 +104,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_MAN_6",
       "x": 7,
       "y": 86,
       "elevation": 3,
@@ -112,7 +117,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_MECANICOJOHTO",
       "x": 1,
       "y": 81,
       "elevation": 3,
@@ -125,7 +130,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 18,
       "y": 75,
       "elevation": 3,
@@ -138,7 +143,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
       "x": 15,
       "y": 68,
       "elevation": 3,
@@ -151,7 +156,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 8,
       "y": 64,
       "elevation": 3,
@@ -164,7 +169,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_FISHER",
       "x": 15,
       "y": 59,
       "elevation": 3,
@@ -177,7 +182,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_CAMPER2",
       "x": 9,
       "y": 54,
       "elevation": 3,
@@ -216,7 +221,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_PICNICKER2",
       "x": 24,
       "y": 23,
       "elevation": 3,
@@ -229,7 +234,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_FAT_MAN2",
       "x": 20,
       "y": 19,
       "elevation": 3,

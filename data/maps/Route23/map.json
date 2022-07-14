@@ -21,7 +21,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 15,
       "y": 149,
       "elevation": 3,
@@ -34,7 +34,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 8,
       "y": 140,
       "elevation": 3,
@@ -47,7 +47,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 14,
       "y": 123,
       "elevation": 3,
@@ -60,7 +60,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 12,
       "y": 118,
       "elevation": 3,
@@ -73,7 +73,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 14,
       "y": 61,
       "elevation": 3,
@@ -86,7 +86,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 9,
       "y": 46,
       "elevation": 3,
@@ -99,7 +99,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 6,
       "y": 35,
       "elevation": 3,
@@ -112,7 +112,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
       "x": 5,
       "y": 29,
       "elevation": 3,

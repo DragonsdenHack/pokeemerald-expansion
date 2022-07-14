@@ -417,7 +417,11 @@
     "Route49_MazeP2",
     "Route49_MazeP3",
     "Route49_MazeP4",
-    "LagoFuriaS1"
+    "LagoFuria1",
+    "LagoFuria2",
+    "LagoFuria3",
+    "LagoFuria4",
+    "LagoFuria5"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",
@@ -672,7 +676,8 @@
     "RocketHideout_7F",
     "RocketHideout_8F",
     "RocketHideout_9F",
-    "CinnabarIsland_Path"
+    "CinnabarIsland_Path",
+    "RocketHideoutViridian"
   ],
   "gMapGroup_IndoorOneIsland": [
     "OneIsland_PokemonCenter_1F",
@@ -1286,6 +1291,15 @@
     "Route124_DivingTreasureHuntersHouse",
     "BaseRocketHoenn",
     "BaseRocketHoennS2",
-    "BaseRocketHoennS3"
+    "BaseRocketHoennS3",
+    "DevonS1",
+    "DEVONS2",
+    "DevonS3",
+    "DevonS4",
+    "DevonS5",
+    "DEVONS6",
+    "DevonS7",
+    "DevonS8",
+    "DevonS9"
   ]
 }
