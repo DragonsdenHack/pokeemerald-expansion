@@ -1,2 +1,53 @@
 Violet_PkmnCenter_MapScripts::
 	.byte 0
+
+VioletPkmnCenter-1::
+end
+
+
+
+VioletPkmnCenter-2::
+lock     
+faceplayer     
+msgbox Text_2, MSGBOX_DEFAULT
+release     
+end
+
+Text_2:
+.string "Aquí nos tomamos las cosas con\n"
+.string "mucha calma y filosofía. Lo que\l"
+.string "alguien como LANCE pueda hacer en\l"
+.string "otras regiones no nos representa\l"
+.string "ni a mí ni a la gente más madura\l"
+.string "de esta bella región.$"
+
+
+
+VioletPkmnCenter-3::
+lock     
+faceplayer     
+msgbox Text_3, MSGBOX_DEFAULT
+release     
+end
+
+Text_3:
+.string "¡Cuántas cosas por ver y visitar\n"
+.string "hay por aquí!\l"
+.string "¡No puedo esperar más!$"
+
+
+
+VioletPkmnCenter-4::
+lock     
+faceplayer     
+msgbox Text_4, MSGBOX_DEFAULT
+release     
+end
+
+Text_4:
+.string "He venido hasta aquí solo para\n"
+.string "plasmar mi arte en un cuadro de la\l"
+.string "TORRE BELLSPROUT al amanecer.\l"
+.string "Esto como preparación para el\l"
+.string "plato gordo[.] la imponente\l"
+.string "TORRE CAMPANA de CIUDAD IRIS.$"

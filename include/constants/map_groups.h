@@ -102,6 +102,8 @@
 #define MAP_ROUTE24         (34 | (1 << 8))
 #define MAP_ROUTE25         (35 | (1 << 8))
 #define MAP_VIAS_TREN3      (36 | (1 << 8))
+#define MAP_VAS_TREN4       (37 | (1 << 8))
+#define MAP_VIASTREN5       (38 | (1 << 8))
 
 // gMapGroup_TownsAndRoutesSEVII
 #define MAP_ONE_ISLAND        (0 | (2 << 8))

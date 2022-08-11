@@ -2292,3 +2292,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/LagoFuria4/scripts.inc"
 
 	.include "data/maps/LagoFuria5/scripts.inc"
+
+	.include "data/maps/VasTren4/scripts.inc"
+
+	.include "data/maps/Viastren5/scripts.inc"

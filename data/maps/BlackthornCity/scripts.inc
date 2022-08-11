@@ -1,2 +1,158 @@
 BlackthornCity_MapScripts::
 	.byte 0
+
+BlackthornCity1::
+lock     
+faceplayer     
+msgbox Text_1, MSGBOX_DEFAULT
+release     
+end
+
+Text_1:
+.string "Este GIMNASIO fue financiado con\n"
+.string "el dinero del gobierno de LANCE,\l"
+.string "nuestro MAESTRO nunca combatiría\l"
+.string "en un lugar así. Ahora que sabe lo\l"
+.string "que ocurrió de verdad en KANTO, si\l"
+.string "quieres verle, deberás entrar en\l"
+.string "la GUARIDA DRAGÓN.$"
+
+
+
+BlackthornCity2::
+lock     
+faceplayer     
+msgbox Text_2, MSGBOX_DEFAULT
+release     
+end
+
+Text_2:
+.string "[player], ¿no?\n"
+.string "Nuestro GRAN MAESTRO nos ha\l"
+.string "hablado de ti, eres más que\l"
+.string "bienvenido en este lugar.$"
+
+
+
+BlackthornCity3::
+end
+
+
+
+BlackthornCity4::
+lock     
+faceplayer     
+msgbox Text_4, MSGBOX_DEFAULT
+release     
+end
+
+Text_4:
+.string "Ah[.]\n"
+.string "Si yo te dijera la cantidad de\l"
+.string "POKÉMON sagrados que he visto\l"
+.string "nadar aquí[.]$"
+
+
+
+
+BlackthornCity7::
+lock     
+faceplayer     
+msgbox Text_7, MSGBOX_DEFAULT
+release     
+end
+
+Text_7:
+.string "Nuestro GRAN MAESTRO prefiere\n"
+.string "pasar desapercibido y mantener a\l"
+.string "JOHTO en desconocimiento acerca de\l"
+.string "su poder real, pero puedo decirte\l"
+.string "que es el mayor prodigio que ha\l"
+.string "dado la región en mucho tiempo.$"
+
+
+
+BlackthornCity8::
+lock     
+faceplayer     
+msgbox Text_8, MSGBOX_DEFAULT
+release     
+end
+
+Text_8:
+.string "¡Un dragón al que el resto de\n"
+.string "dragones no pueden tocar!\l"
+.string "¡Vi como los ENFADO y CARGA DRAGÓN\l"
+.string "no afectaban a ese POKÉMON del\l"
+.string "MAESTRO!$"
+
+
+
+BlackthornCity9::
+lock     
+faceplayer     
+msgbox Text_9, MSGBOX_DEFAULT
+release     
+end
+
+Text_9:
+.string "Vine hasta aquí para entender\n"
+.string "mejor el origen de la fuerza bruta\l"
+.string "de los dragones. Estos y el TIPO\l"
+.string "LUCHA tienen mucho en común.\l"
+.string "¡Ambos cuentan con un poder físico\l"
+.string "demoledor!$"
+
+
+
+BlackthornCity10::
+lock     
+faceplayer     
+msgbox Text_10, MSGBOX_DEFAULT
+release     
+end
+
+Text_10:
+.string "Ten cuidado con los desfiladeros\n"
+.string "del sur, cuando se quieren dar\l"
+.string "cuenta, ¡muchos ya no pueden\l"
+.string "volver a ENDRINO!$"
+
+
+
+BlackthornCity11::
+lock     
+faceplayer     
+msgbox Text_11, MSGBOX_DEFAULT
+release     
+end
+
+Text_11:
+.string "CIUDAD ENDRINO siempre ha sido el\n"
+.string "lugar más inaccesible de JOHTO,\l"
+.string "rodeada de montañas, con la RUTA\l"
+.string "HELADA como única vía de acceso,\l"
+.string "pero sabe premiar a sus\l"
+.string "visitantes, pues el conocimiento\l"
+.string "último acerca del tipo más\l"
+.string "poderoso y sagrado espera para\l"
+.string "quienes estén preparados[.]$"
+
+
+
+BlackthornCity12::
+lock     
+faceplayer     
+msgbox Text_12, MSGBOX_DEFAULT
+release     
+end
+
+Text_12:
+.string "¿No son adorables?\n"
+.string "Es fascinante cómo un frágil\l"
+.string "DRATINI puede crecer hasta\l"
+.string "convertirse en un DRAGONITE con\l"
+.string "mayor poder global que ARTICUNO,\l"
+.string "ZAPDOS, MOLTRES y los LEGENDARIOS\l"
+.string "ERRANTES ENTEI, RAIKOU y SUICUNE.\l"
+.string "¿No crees?$"

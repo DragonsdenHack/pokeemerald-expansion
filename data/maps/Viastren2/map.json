@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "right",
-      "offset": 0,
-      "map": "MAP_VIAS_TREN3"
-    },
-    {
       "direction": "left",
       "offset": 0,
       "map": "MAP_VIAS_TREN1"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_VIAS_TREN3"
     }
   ],
   "object_events": [
