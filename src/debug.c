@@ -909,6 +909,26 @@ static void DebugAction_Util_Fly(u8 taskId)
     FlagSet(FLAG_VISITED_EVER_GRANDE_CITY);
     FlagSet(FLAG_LANDMARK_POKEMON_LEAGUE);
     FlagSet(FLAG_LANDMARK_BATTLE_FRONTIER);
+    FlagSet(FLAG_VISITED_PALLET_TOWN); 
+    FlagSet(FLAG_VISITED_VIRIDIAN_CITY); 
+    FlagSet(FLAG_VISITED_PEWTER_CITY);                          
+    FlagSet(FLAG_VISITED_CERULEAN_CITY);                           
+    FlagSet(FLAG_VISITED_LAVENDER_TOWN);                      
+    FlagSet(FLAG_VISITED_VERMILION_CITY);                          
+    FlagSet(FLAG_VISITED_CELADON_CITY);
+    FlagSet(FLAG_VISITED_FUCHSIA_CITY);                       
+    FlagSet(FLAG_VISITED_CINNABAR_ISLAND);
+    FlagSet(FLAG_VISITED_INDIGO_PLATEAU);                          
+    FlagSet(FLAG_VISITED_SAFFRON_CITY);                          
+    FlagSet(FLAG_VISITED_ROUTE_4_FLY);                           
+    FlagSet(FLAG_VISITED_ROUTE_10_FLY);                            
+    FlagSet(FLAG_VISITED_ONE_ISLAND);                           
+    FlagSet(FLAG_VISITED_TWO_ISLAND);                           
+    FlagSet(FLAG_VISITED_THREE_ISLAND);                          
+    FlagSet(FLAG_VISITED_FOUR_ISLAND);                       
+    FlagSet(FLAG_VISITED_FIVE_ISLAND);                          
+    FlagSet(FLAG_VISITED_SIX_ISLAND);                        
+    FlagSet(FLAG_VISITED_SEVEN_ISLAND); 
     Debug_DestroyMenu(taskId);
     SetMainCallback2(CB2_OpenFlyMap);
 }
@@ -1403,6 +1423,26 @@ static void DebugAction_Flags_ToggleFlyFlags(u8 taskId)
     FlagToggle(FLAG_VISITED_EVER_GRANDE_CITY);
     FlagToggle(FLAG_LANDMARK_POKEMON_LEAGUE);
     FlagToggle(FLAG_LANDMARK_BATTLE_FRONTIER);
+    FlagToggle(FLAG_VISITED_PALLET_TOWN); 
+    FlagToggle(FLAG_VISITED_VIRIDIAN_CITY); 
+    FlagToggle(FLAG_VISITED_PEWTER_CITY);                          
+    FlagToggle(FLAG_VISITED_CERULEAN_CITY);                           
+    FlagToggle(FLAG_VISITED_LAVENDER_TOWN);                      
+    FlagToggle(FLAG_VISITED_VERMILION_CITY);                          
+    FlagToggle(FLAG_VISITED_CELADON_CITY);
+    FlagToggle(FLAG_VISITED_FUCHSIA_CITY);                       
+    FlagToggle(FLAG_VISITED_CINNABAR_ISLAND);
+    FlagToggle(FLAG_VISITED_INDIGO_PLATEAU);                          
+    FlagToggle(FLAG_VISITED_SAFFRON_CITY);                          
+    FlagToggle(FLAG_VISITED_ROUTE_4_FLY);                           
+    FlagToggle(FLAG_VISITED_ROUTE_10_FLY);                            
+    FlagToggle(FLAG_VISITED_ONE_ISLAND);                           
+    FlagToggle(FLAG_VISITED_TWO_ISLAND);                           
+    FlagToggle(FLAG_VISITED_THREE_ISLAND);                          
+    FlagToggle(FLAG_VISITED_FOUR_ISLAND);                       
+    FlagToggle(FLAG_VISITED_FIVE_ISLAND);                          
+    FlagToggle(FLAG_VISITED_SIX_ISLAND);                        
+    FlagToggle(FLAG_VISITED_SEVEN_ISLAND); 
 }
 static void DebugAction_Flags_ToggleBadgeFlags(u8 taskId)
 {

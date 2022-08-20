@@ -26,6 +26,13 @@
 
 #define SKIP_OBJECT_EVENT_LOAD  1
 
+enum {
+   REGION_HOENN,
+   REGION_KANTO,
+   REGION_JOHTO,
+   REGION_SEVII
+};
+
 struct InitialPlayerAvatarState
 {
     u8 transitionFlags;

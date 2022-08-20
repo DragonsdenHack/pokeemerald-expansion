@@ -1382,13 +1382,13 @@
 #define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
 
-#define FLAG_UNUSED_0x881                           (SYSTEM_FLAGS + 0x21) // Unused Flag
-#define FLAG_UNUSED_0x882                           (SYSTEM_FLAGS + 0x22) // Unused Flag
-#define FLAG_UNUSED_0x883                           (SYSTEM_FLAGS + 0x23) // Unused Flag
-#define FLAG_UNUSED_0x884                           (SYSTEM_FLAGS + 0x24) // Unused Flag
-#define FLAG_UNUSED_0x885                           (SYSTEM_FLAGS + 0x25) // Unused Flag
-#define FLAG_UNUSED_0x886                           (SYSTEM_FLAGS + 0x26) // Unused Flag
-#define FLAG_UNUSED_0x887                           (SYSTEM_FLAGS + 0x27) // Unused Flag
+#define FLAG_UNUSED_1                        (SYSTEM_FLAGS + 0x21) // Unused Flag
+#define FLAG_UNUSED_2                           (SYSTEM_FLAGS + 0x22) // Unused Flag
+#define FLAG_UNUSED_3                          (SYSTEM_FLAGS + 0x23) // Unused Flag
+#define FLAG_UNUSED_4                           (SYSTEM_FLAGS + 0x24) // Unused Flag
+#define FLAG_UNUSED_5                           (SYSTEM_FLAGS + 0x25) // Unused Flag
+#define FLAG_UNUSED_6                           (SYSTEM_FLAGS + 0x26) // Unused Flag
+#define FLAG_UNUSED_7                           (SYSTEM_FLAGS + 0x27) // Unused Flag
 
 #define FLAG_SYS_USE_FLASH                          (SYSTEM_FLAGS + 0x28)
 #define FLAG_SYS_USE_STRENGTH                       (SYSTEM_FLAGS + 0x29)
@@ -1397,8 +1397,8 @@
 #define FLAG_SYS_SAFARI_MODE                        (SYSTEM_FLAGS + 0x2C)
 #define FLAG_SYS_CRUISE_MODE                        (SYSTEM_FLAGS + 0x2D)
 
-#define FLAG_UNUSED_0x88E                           (SYSTEM_FLAGS + 0x2E) // Unused Flag
-#define FLAG_UNUSED_0x88F                           (SYSTEM_FLAGS + 0x2F) // Unused Flag
+#define FLAG_UNUSED_8                           (SYSTEM_FLAGS + 0x2E) // Unused Flag
+#define FLAG_UNUSED_9                           (SYSTEM_FLAGS + 0x2F) // Unused Flag
 
 #define FLAG_SYS_TV_HOME                            (SYSTEM_FLAGS + 0x30)
 #define FLAG_SYS_TV_WATCH                           (SYSTEM_FLAGS + 0x31)
@@ -1501,26 +1501,26 @@
 
 #define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
 
-#define FLAG_UNUSED_0x8E5                           (SYSTEM_FLAGS + 0x85) // Unused Flag
-#define FLAG_UNUSED_0x8E6                           (SYSTEM_FLAGS + 0x86) // Unused Flag
-#define FLAG_UNUSED_0x8E7                           (SYSTEM_FLAGS + 0x87) // Unused Flag
-#define FLAG_UNUSED_0x8E8                           (SYSTEM_FLAGS + 0x88) // Unused Flag
-#define FLAG_UNUSED_0x8E9                           (SYSTEM_FLAGS + 0x89) // Unused Flag
-#define FLAG_UNUSED_0x8EA                           (SYSTEM_FLAGS + 0x8A) // Unused Flag
-#define FLAG_UNUSED_0x8EB                           (SYSTEM_FLAGS + 0x8B) // Unused Flag
-#define FLAG_UNUSED_0x8EC                           (SYSTEM_FLAGS + 0x8C) // Unused Flag
-#define FLAG_UNUSED_0x8ED                           (SYSTEM_FLAGS + 0x8D) // Unused Flag
-#define FLAG_UNUSED_0x8EE                           (SYSTEM_FLAGS + 0x8E) // Unused Flag
-#define FLAG_UNUSED_0x8EF                           (SYSTEM_FLAGS + 0x8F) // Unused Flag
-#define FLAG_UNUSED_0x8F0                           (SYSTEM_FLAGS + 0x90) // Unused Flag
-#define FLAG_UNUSED_0x8F1                           (SYSTEM_FLAGS + 0x91) // Unused Flag
-#define FLAG_UNUSED_0x8F2                           (SYSTEM_FLAGS + 0x92) // Unused Flag
-#define FLAG_UNUSED_0x8F3                           (SYSTEM_FLAGS + 0x93) // Unused Flag
-#define FLAG_UNUSED_0x8F4                           (SYSTEM_FLAGS + 0x94) // Unused Flag
-#define FLAG_UNUSED_0x8F5                           (SYSTEM_FLAGS + 0x95) // Unused Flag
-#define FLAG_UNUSED_0x8F6                           (SYSTEM_FLAGS + 0x96) // Unused Flag
-#define FLAG_UNUSED_0x8F7                           (SYSTEM_FLAGS + 0x97) // Unused Flag
-#define FLAG_UNUSED_0x8F8                           (SYSTEM_FLAGS + 0x98) // Unused Flag
+#define FLAG_VISITED_PALLET_TOWN                           (SYSTEM_FLAGS + 0x85) // Unused Flag
+#define FLAG_VISITED_VIRIDIAN_CITY                           (SYSTEM_FLAGS + 0x86) // Unused Flag
+#define FLAG_VISITED_PEWTER_CITY                           (SYSTEM_FLAGS + 0x87) // Unused Flag
+#define FLAG_VISITED_CERULEAN_CITY                             (SYSTEM_FLAGS + 0x88) // Unused Flag
+#define FLAG_VISITED_LAVENDER_TOWN                           (SYSTEM_FLAGS + 0x89) // Unused Flag
+#define FLAG_VISITED_VERMILION_CITY                           (SYSTEM_FLAGS + 0x8A) // Unused Flag
+#define FLAG_VISITED_CELADON_CITY                          (SYSTEM_FLAGS + 0x8B) // Unused Flag
+#define FLAG_VISITED_FUCHSIA_CITY                         (SYSTEM_FLAGS + 0x8C) // Unused Flag
+#define FLAG_VISITED_CINNABAR_ISLAND                           (SYSTEM_FLAGS + 0x8D) // Unused Flag
+#define FLAG_VISITED_INDIGO_PLATEAU                           (SYSTEM_FLAGS + 0x8E) // Unused Flag
+#define FLAG_VISITED_SAFFRON_CITY                           (SYSTEM_FLAGS + 0x8F) // Unused Flag
+#define FLAG_VISITED_ROUTE_4_FLY                           (SYSTEM_FLAGS + 0x90) // Unused Flag
+#define FLAG_VISITED_ROUTE_10_FLY                           (SYSTEM_FLAGS + 0x91) // Unused Flag
+#define FLAG_VISITED_ONE_ISLAND                           (SYSTEM_FLAGS + 0x92) // Unused Flag
+#define FLAG_VISITED_TWO_ISLAND                           (SYSTEM_FLAGS + 0x93) // Unused Flag
+#define FLAG_VISITED_THREE_ISLAND                           (SYSTEM_FLAGS + 0x94) // Unused Flag
+#define FLAG_VISITED_FOUR_ISLAND                           (SYSTEM_FLAGS + 0x95) // Unused Flag
+#define FLAG_VISITED_FIVE_ISLAND                           (SYSTEM_FLAGS + 0x96) // Unused Flag
+#define FLAG_VISITED_SIX_ISLAND                           (SYSTEM_FLAGS + 0x97) // Unused Flag
+#define FLAG_VISITED_SEVEN_ISLAND                           (SYSTEM_FLAGS + 0x98) // Unused Flag
 #define FLAG_UNUSED_0x8F9                           (SYSTEM_FLAGS + 0x99) // Unused Flag
 #define FLAG_UNUSED_0x8FA                           (SYSTEM_FLAGS + 0x9A) // Unused Flag
 #define FLAG_UNUSED_0x8FB                           (SYSTEM_FLAGS + 0x9B) // Unused Flag
