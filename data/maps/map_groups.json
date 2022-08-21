@@ -155,7 +155,9 @@
     "Route25",
     "ViasTren3",
     "VasTren4",
-    "Viastren5"
+    "Viastren5",
+    "ViasTren3Norte",
+    "ViasBosque"
   ],
   "gMapGroup_TownsAndRoutesSEVII": [
     "OneIsland",
@@ -679,7 +681,21 @@
     "RocketHideout_8F",
     "RocketHideout_9F",
     "CinnabarIsland_Path",
-    "RocketHideoutViridian"
+    "RocketHideoutViridian",
+    "CultoS1",
+    "Culto2",
+    "CultoS3",
+    "CultoS4",
+    "CultoS5",
+    "CultoS6",
+    "CultoS7",
+    "CultoS8",
+    "CultoItems",
+    "SilphS1",
+    "SilphS2",
+    "SilphS3",
+    "CinnabarMansionS1",
+    "CinnabarMansionS2"
   ],
   "gMapGroup_IndoorOneIsland": [
     "OneIsland_PokemonCenter_1F",
@@ -789,7 +805,13 @@
     "ThreeIslePath",
     "TanobyKey",
     "EmberSpa",
-    "RocketHideout_FiveIsland_Meadow"
+    "RocketHideout_FiveIsland_Meadow",
+    "Magma1",
+    "Magma2",
+    "Magma3",
+    "Aqua1",
+    "Aqua2",
+    "Aqua3"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
