@@ -11496,10 +11496,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_PABLO_3] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_TRIATHLETE,
+        .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
-        .trainerName = _("PABLO"),
+        .trainerName = _("DIANTA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -11510,7 +11510,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_PABLO_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_TRIATHLETE,
+        .trainerClass = TRAINER_CLASS_CHAMPION,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
         .trainerName = _("CINTIA"),
@@ -11523,58 +11523,58 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_PABLO_5] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_TRIATHLETE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SWIMMER,
         .trainerPic = TRAINER_PIC_SWIMMING_TRIATHLETE_M,
-        .trainerName = _("PABLO"),
+        .trainerName = _("CULTISTA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Pablo5),
-        .party = {.NoItemDefaultMoves = sParty_Pablo5},
+        .party = {.NoItemCustomMoves = sParty_Pablo5},
     },
 
     [TRAINER_KOJI_2] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("KOJI"),
+        .trainerName = _("CULTISTA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Koji2),
-        .party = {.NoItemDefaultMoves = sParty_Koji2},
+        .party = {.NoItemCustomMoves = sParty_Koji2},
     },
 
     [TRAINER_KOJI_3] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("KOJI"),
+        .trainerName = _("CULTISTA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Koji3),
-        .party = {.NoItemDefaultMoves = sParty_Koji3},
+        .party = {.ItemCustomMoves = sParty_Koji3},
     },
 
     [TRAINER_KOJI_4] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_BLACK_BELT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
         .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("KOJI"),
+        .trainerName = _("CULTISTA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Koji4),
-        .party = {.NoItemDefaultMoves = sParty_Koji4},
+        .party = {.NoItemCustomMoves = sParty_Koji4},
     },
 
     [TRAINER_KOJI_5] =
