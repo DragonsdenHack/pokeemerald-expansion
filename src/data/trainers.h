@@ -11677,58 +11677,58 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_FERNANDO_4] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_GUITARIST,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_GUITARIST,
+        .trainerPic = TRAINER_PIC_FR_HIKER,
         .trainerName = _("FERNANDO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Fernando4),
-        .party = {.NoItemDefaultMoves = sParty_Fernando4},
+        .party = {.NoItemCustomMoves = sParty_Fernando4},
     },
 
     [TRAINER_FERNANDO_5] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_GUITARIST,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_GUITARIST,
-        .trainerName = _("FERNANDO"),
+        .trainerPic = TRAINER_PIC_FR_HIKER,
+        .trainerName = _("AUGUSTO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Fernando5),
-        .party = {.NoItemDefaultMoves = sParty_Fernando5},
+        .party = {.NoItemCustomMoves = sParty_Fernando5},
     },
 
     [TRAINER_SAWYER_2] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_HIKER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_HIKER,
-        .trainerName = _("SAWYER"),
+        .trainerPic = TRAINER_PIC_FR_HIKER,
+        .trainerName = _("JAVIER"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Sawyer2),
-        .party = {.NoItemDefaultMoves = sParty_Sawyer2},
+        .party = {.NoItemCustomMoves = sParty_Sawyer2},
     },
 
     [TRAINER_SAWYER_3] =
     {
-        .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_HIKER,
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_EXPERT,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
-        .trainerPic = TRAINER_PIC_HIKER,
-        .trainerName = _("SAWYER"),
+        .trainerPic = TRAINER_PIC_EXPERT_M,
+        .trainerName = _("GASPAR"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Sawyer3),
-        .party = {.NoItemDefaultMoves = sParty_Sawyer3},
+        .party = {.NoItemCustomMoves = sParty_Sawyer3},
     },
 
     [TRAINER_SAWYER_4] =
