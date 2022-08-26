@@ -136,8 +136,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
-      "x": 29,
-      "y": 37,
+      "x": 25,
+      "y": 65,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
       "movement_range_x": 0,
@@ -149,10 +149,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
-      "x": 27,
-      "y": 69,
+      "x": 30,
+      "y": 56,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_LEFT_UP_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
       "movement_range_x": 2,
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -526,10 +526,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
-      "x": 29,
-      "y": 77,
+      "x": 31,
+      "y": 76,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -539,8 +539,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER",
-      "x": 22,
-      "y": 77,
+      "x": 11,
+      "y": 56,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -551,11 +551,11 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CAMPER",
-      "x": 37,
-      "y": 77,
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "x": 29,
+      "y": 88,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -578,8 +578,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER",
-      "x": 14,
-      "y": 56,
+      "x": 25,
+      "y": 39,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
       "movement_range_x": 1,
@@ -591,8 +591,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FOSSIL",
-      "x": 20,
-      "y": 53,
+      "x": 2,
+      "y": 46,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -652,7 +652,7 @@
       "dest_warp_id": 0
     },
     {
-      "x": 19,
+      "x": 17,
       "y": 58,
       "elevation": 0,
       "dest_map": "MAP_MIRAGE_TOWER_1F",
@@ -1023,7 +1023,7 @@
     },
     {
       "type": "secret_base",
-      "x": 33,
+      "x": 31,
       "y": 34,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_YELLOW_CAVE1_1"
