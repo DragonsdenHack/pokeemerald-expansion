@@ -1,14 +1,14 @@
 RocketHideout_3F_MapScripts::
 	.byte 0
 
-RocketHideout3F-1::
+RocketHideout3F_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RocketHideout3F_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RocketHideout3F_Text_1:
 .string "En AZULONA se nos acusa de\n"
 .string "contaminar la ciudad, ¡no les\l"
 .string "falta razón con la que tenemos\l"
@@ -18,14 +18,14 @@ Text_1:
 
 
 
-RocketHideout3F-2::
+RocketHideout3F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RocketHideout3F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RocketHideout3F_Text_2:
 .string "Nuestro trabajo aquí es muy\n"
 .string "simple: crear mayor capacidad de\l"
 .string "producción, optimizar y\l"
@@ -37,14 +37,14 @@ Text_2:
 
 
 
-RocketHideout3F-3::
+RocketHideout3F_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RocketHideout3F_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RocketHideout3F_Text_3:
 .string "-Nunca serás un ROCKET de verdad\n"
 .string "hasta que hagas a un lado tus\l"
 .string "sentimientos y te conviertas en\l"
@@ -61,10 +61,10 @@ Text_3:
 
 
 
-RocketHideout3F-4::
+RocketHideout3F_4::
 end
 
 
 
-RocketHideout3F-5::
+RocketHideout3F_5::
 end

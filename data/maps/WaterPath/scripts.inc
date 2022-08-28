@@ -40,11 +40,11 @@ end
 WatherPath10::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox WaterPath_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+WaterPath_Text_9:
 .string "¡Buen día camarada!\n"
 .string "ATLAS ya nos ha informado de\l"
 .string "vuestra misión en CASA CÓNSUL, tu\l"
@@ -57,11 +57,11 @@ Text_9:
 WatherPath11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox WaterPath_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+WaterPath_Text_11:
 .string "DONPHAN es del tipo TIERRA puro,\n"
 .string "por ello parte con ventaja al\l"
 .string "enfrentar a los ROCA y TIERRA dual\l"

@@ -1,25 +1,25 @@
 BlackthornCity_DragonsdenS3_MapScripts::
 	.byte 0
 
-DragonsdenS3-1::
+DragonsdenS3_1::
 end
 
 
 
-DragonsdenS3-5::
+DragonsdenS3_5::
 end
 
 
 
-DragonsdenS3-10::
+DragonsdenS3_10::
 end
 
 
 
-DragonsdenS3-12::
+DragonsdenS3_12::
 end
 
 
 
-DragonsdenS3-13::
+DragonsdenS3_13::
 end

@@ -1,19 +1,19 @@
 SsAnne_3F_MapScripts::
 	.byte 0
 
-SsAnne3F-1::
+SsAnne3F_1::
 end
 
 
 
-SsAnne3F-2::
+SsAnne3F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SsAnne3F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SsAnne3F_Text_2:
 .string "¡Vamos, relájate, estás aquí para\n"
 .string "pasarlo bien!\l"
 .string "¡Ni que estuvieras de infiltrado\l"
@@ -21,20 +21,20 @@ Text_2:
 
 
 
-SsAnne3F-3::
+SsAnne3F_3::
 end
 
 
 
-SsAnne3F-4::
+SsAnne3F_4::
 end
 
 
 
-SsAnne3F-5::
+SsAnne3F_5::
 end
 
 
 
-SsAnne3F-7::
+SsAnne3F_7::
 end

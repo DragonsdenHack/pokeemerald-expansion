@@ -1,47 +1,47 @@
 Route20_MapScripts::
 	.byte 0
 
-Route20-1::
+Route20_1::
 end
 
-Route20-2::
+Route20_2::
 end
 
-Route20-3::
+Route20_3::
 end
 
-Route20-4::
+Route20_4::
 end
 
 
-Route20-5::
+Route20_5::
 end
 
-Route20-6::
+Route20_6::
 end
 
-Route20-7::
+Route20_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox Route20_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+Route20_Text_7:
 .string "Muchos entrenadores expertos en el\n"
 .string "tipo agua suelen frecuentar este\l"
 .string "lugar.\l"
 .string "Dicen que MISTY, de CIUDAD\l"
 .string "CELESTE, se entrena por aquí.$"
 
-Route20-8::
+Route20_8::
 end
 
-Route20-9::
+Route20_9::
 end
 
-Route20-10::
+Route20_10::
 end
 
-Route20-11::
+Route20_11::
 end

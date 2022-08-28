@@ -1,40 +1,40 @@
 Route17_MapScripts::
 	.byte 0
 
-Route17-1::
+Route17_1::
 end
 
 
-Route17-2::
+Route17_2::
 end
 
-Route17-3::
-end
-
-
-Route17-4::
+Route17_3::
 end
 
 
-Route17-5::
+Route17_4::
 end
 
 
-Route17-6::
+Route17_5::
 end
 
 
-Route17-7::
+Route17_6::
 end
 
 
-Route17-8::
+Route17_7::
 end
 
 
-Route17-9::
+Route17_8::
 end
 
 
-Route17-10::
+Route17_9::
+end
+
+
+Route17_10::
 end

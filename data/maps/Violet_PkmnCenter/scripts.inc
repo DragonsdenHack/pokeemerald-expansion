@@ -1,19 +1,19 @@
 Violet_PkmnCenter_MapScripts::
 	.byte 0
 
-VioletPkmnCenter-1::
+VioletPkmnCenter_1::
 end
 
 
 
-VioletPkmnCenter-2::
+VioletPkmnCenter_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox VioletCity_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+VioletCity_PokemonCenter_Text_2:
 .string "Aquí nos tomamos las cosas con\n"
 .string "mucha calma y filosofía. Lo que\l"
 .string "alguien como LANCE pueda hacer en\l"
@@ -23,31 +23,31 @@ Text_2:
 
 
 
-VioletPkmnCenter-3::
+VioletPkmnCenter_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox VioletCity_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+VioletCity_PokemonCenter_Text_3:
 .string "¡Cuántas cosas por ver y visitar\n"
 .string "hay por aquí!\l"
 .string "¡No puedo esperar más!$"
 
 
 
-VioletPkmnCenter-4::
+VioletPkmnCenter_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox VioletCity_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+VioletCity_PokemonCenter_Text_4:
 .string "He venido hasta aquí solo para\n"
 .string "plasmar mi arte en un cuadro de la\l"
 .string "TORRE BELLSPROUT al amanecer.\l"
 .string "Esto como preparación para el\l"
-.string "plato gordo[.] la imponente\l"
+.string "plato gordo… la imponente\l"
 .string "TORRE CAMPANA de CIUDAD IRIS.$"

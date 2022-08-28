@@ -1,5 +1,5 @@
 IcePath2_MapScripts::
 	.byte 0
 
-IcePath2-1::
+IcePath2_1::
 end

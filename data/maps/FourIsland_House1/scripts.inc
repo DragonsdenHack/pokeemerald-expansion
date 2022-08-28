@@ -1,18 +1,18 @@
 FourIsland_House1_MapScripts::
 	.byte 0
 
-FourIslandHouse1-1::
+FourIslandHouse1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox FourIsland_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+FourIsland_House1_Text_1:
 .string "¡Hala, qué golpe!\n"
 .string "¡Qué fuerza tienes!$"
 
 
 
-FourIslandHouse1-2::
+FourIslandHouse1_2::
 end

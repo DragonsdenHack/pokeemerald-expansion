@@ -1,57 +1,57 @@
 Route12_MapScripts::
 	.byte 0
 
-Route12-1::
+Route12_1::
 end
 
 
-Route12-2::
+Route12_2::
 end
 
 
-Route12-3::
+Route12_3::
 end
 
 
-Route12-4::
+Route12_4::
 end
 
 
-Route12-5::
+Route12_5::
 end
 
 
-Route12-6::
+Route12_6::
 end
 
 
-Route12-7::
+Route12_7::
 end
 
 
-Route12-8::
+Route12_8::
 end
 
 
-Route12-9::
+Route12_9::
 end
 
 
-Route12-10::
+Route12_10::
 end
 
 
-Route12-11::
+Route12_11::
 end
 
 
-Route12-12::
+Route12_12::
 end
 
 
-Route12-13::
+Route12_13::
 end
 
 
-Route12-14::
+Route12_14::
 end

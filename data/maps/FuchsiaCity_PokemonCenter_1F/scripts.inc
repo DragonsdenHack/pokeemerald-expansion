@@ -9,11 +9,11 @@ end
 FuchsiaCityPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox FuchsiaCity_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+FuchsiaCity_PokemonCenter_Text_2:
 .string "No puedes ser un buen ENTRENADOR\n"
 .string "con un solo POKÉMON fuerte.\l"
 .string "Aunque entrenar a la vez a varios\l"
@@ -24,11 +24,11 @@ Text_2:
 FuchsiaCityPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox FuchsiaCity_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+FuchsiaCity_PokemonCenter_Text_3:
 .string "¡La ÉLITE 4 os pondrá pronto en\n"
 .string "vuestro lugar, vais a ser\l"
 .string "exterminados como las ratas que\l"
@@ -39,11 +39,11 @@ Text_3:
 FuchsiaCityPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox FuchsiaCity_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+FuchsiaCity_PokemonCenter_Text_4:
 .string "Hay un estrecho al oeste de CIUDAD\n"
 .string "VERDE.\l"
 .string "Lleva al CG de la LIGA POKÉMON.\l"

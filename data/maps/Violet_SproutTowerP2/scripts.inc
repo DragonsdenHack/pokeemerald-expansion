@@ -1,35 +1,35 @@
 Violet_SproutTowerP2_MapScripts::
 	.byte 0
 
-VioletSproutTowerP2-1::
+VioletSproutTowerP2_1::
 end
 
 
 
-VioletSproutTowerP2-2::
+VioletSproutTowerP2_2::
 end
 
 
 
-VioletSproutTowerP2-3::
+VioletSproutTowerP2_3::
 end
 
 
 
-VioletSproutTowerP2-4::
+VioletSproutTowerP2_4::
 end
 
 
 
-VioletSproutTowerP2-5::
+VioletSproutTowerP2_5::
 end
 
 
 
-VioletSproutTowerP2-6::
+VioletSproutTowerP2_6::
 end
 
 
 
-VioletSproutTowerP2-7::
+VioletSproutTowerP2_7::
 end

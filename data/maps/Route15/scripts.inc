@@ -1,42 +1,42 @@
 Route15_MapScripts::
 	.byte 0
 
-Route15-1::
+Route15_1::
 end
 
-Route15-2::
+Route15_2::
 end
 
-Route15-3::
+Route15_3::
 end
 
-Route15-4::
+Route15_4::
 end
 
 
-Route15-5::
+Route15_5::
 end
 
-Route15-6::
+Route15_6::
 end
 
-Route15-7::
+Route15_7::
 end
 
-Route15-8::
+Route15_8::
 end
 
-Route15-9::
+Route15_9::
 end
 
-Route15-10::
+Route15_10::
 end
 
-Route15-11::
+Route15_11::
 end
 
-Route15-12::
+Route15_12::
 end
 
-Route15-13::
+Route15_13::
 end

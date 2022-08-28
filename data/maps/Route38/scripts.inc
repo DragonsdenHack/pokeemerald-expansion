@@ -1,19 +1,19 @@
 Route38_MapScripts::
 	.byte 0
 
-Route38-1::
+Route38_1::
 end
 
 
 
-Route38-2::
+Route38_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route37_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route37_Text_2:
 .string "DODRIO es mi ave preferida, me\n"
 .string "encanta porque ataca sin ningún\l"
 .string "miedo, sin mirar atrás. Su\l"
@@ -22,29 +22,29 @@ Text_2:
 
 
 
-Route38-3::
+Route38_3::
 end
 
 
 
-Route38-4::
+Route38_4::
 end
 
 
 
-Route38-5::
+Route38_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Route37_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Route37_Text_5:
 .string "El comportamiento de los TAUROS y\n"
 .string "MILTANK en estado salvaje es\l"
 .string "fascinante.$"
 
 
 
-Route38-6::
+Route38_6::
 end

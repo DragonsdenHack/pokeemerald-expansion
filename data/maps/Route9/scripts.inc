@@ -1,49 +1,49 @@
 Route9_MapScripts::
 	.byte 0
 
-Route9-1::
+Route9_1::
 end
 
 
-Route9-2::
+Route9_2::
 end
 
 
-Route9-3::
+Route9_3::
 end
 
 
-Route9-4::
+Route9_4::
 end
 
 
-Route9-5::
+Route9_5::
 end
 
 
-Route9-6::
+Route9_6::
 end
 
 
-Route9-7::
+Route9_7::
 end
 
 
-Route9-8::
+Route9_8::
 end
 
 
-Route9-9::
+Route9_9::
 end
 
 
-Route9-10::
+Route9_10::
 end
 
 
-Route9-11::
+Route9_11::
 end
 
 
-Route9-12::
+Route9_12::
 end

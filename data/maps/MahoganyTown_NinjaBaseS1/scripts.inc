@@ -1,19 +1,19 @@
 MahoganyTown_NinjaBaseS1_MapScripts::
 	.byte 0
 
-NinjaBaseS1-1::
+NinjaBaseS1_1::
 end
 
 
 
-NinjaBaseS1-2::
+NinjaBaseS1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+MahoganyTown_NinjaBaseS1_Text_2:
 .string "Me pregunto quién habrá sido el\n"
 .string "bruto que ha dejado el sistema de\l"
 .string "seguridad así.\l"
@@ -21,14 +21,14 @@ Text_2:
 
 
 
-NinjaBaseS1-3::
+NinjaBaseS1_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS1_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+MahoganyTown_NinjaBaseS1_Text_3:
 .string "¿Desactivar la seguridad de la\n"
 .string "base?\l"
 .string "¡Ya me he encargado yo\l"
@@ -40,24 +40,24 @@ Text_3:
 
 
 
-NinjaBaseS1-4::
+NinjaBaseS1_4::
 end
 
 
 
-NinjaBaseS1-5::
+NinjaBaseS1_5::
 end
 
 
 
-NinjaBaseS1-6::
+NinjaBaseS1_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS1_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+MahoganyTown_NinjaBaseS1_Text_6:
 .string "¡Ahora sé por qué ocupa el lugar\n"
 .string "que ocupa en el TEAM ROCKET, es\l"
 .string "usted un ENTRENADOR excepcional\l"
@@ -65,19 +65,19 @@ Text_6:
 
 
 
-NinjaBaseS1-7::
+NinjaBaseS1_7::
 end
 
 
 
-NinjaBaseS1-8::
+NinjaBaseS1_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS1_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+MahoganyTown_NinjaBaseS1_Text_8:
 .string "Vamos a aprender mucho de esas\n"
 .string "trampas utilizadas por los ninjas,\l"
 .string "¡son muy del estilo ROCKET\l"
@@ -85,14 +85,14 @@ Text_8:
 
 
 
-NinjaBaseS1-9::
+NinjaBaseS1_9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS1_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+MahoganyTown_NinjaBaseS1_Text_9:
 .string "Los POKÉMON que habitan en el LAGO\n"
 .string "DE LA FURIA van a ser a partir de\l"
 .string "ahora unos más que interesantes\l"
@@ -100,43 +100,43 @@ Text_9:
 
 
 
-NinjaBaseS1-10::
+NinjaBaseS1_10::
 end
 
 
 
-NinjaBaseS1-11::
+NinjaBaseS1_11::
 end
 
 
 
-NinjaBaseS1-12::
+NinjaBaseS1_12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS1_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+MahoganyTown_NinjaBaseS1_Text_12:
 .string "¡Es usted el mejor, señor!\n"
 .string "¡Ni 20 ENTRENADORES juntos\l"
 .string "pudieron pararle!$"
 
 
 
-NinjaBaseS1-13::
+NinjaBaseS1_13::
 end
 
 
 
-NinjaBaseS1-14::
+NinjaBaseS1_14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS1_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+MahoganyTown_NinjaBaseS1_Text_14:
 .string "¡Jah!\n"
 .string "¡No pudieron hacer uso de nuestro\l"
 .string "sistema de trampas POKÉMON!\l"
@@ -145,20 +145,20 @@ Text_14:
 
 
 
-NinjaBaseS1-15::
+NinjaBaseS1_15::
 end
 
 
 
-NinjaBaseS1-16::
+NinjaBaseS1_16::
 end
 
 
 
-NinjaBaseS1-17::
+NinjaBaseS1_17::
 end
 
 
 
-NinjaBaseS1-18::
+NinjaBaseS1_18::
 end

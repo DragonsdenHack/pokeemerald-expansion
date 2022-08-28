@@ -1,5 +1,5 @@
 SafariZone_1F_MapScripts::
 	.byte 0
 
-SafariZone1F-1::
+SafariZone1F_1::
 end

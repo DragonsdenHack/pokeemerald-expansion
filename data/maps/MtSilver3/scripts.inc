@@ -1,15 +1,15 @@
 MtSilver3_MapScripts::
 	.byte 0
 
-MtSilver3-1::
+MtSilver3_1::
 end
 
 
 
-MtSilver3-3::
+MtSilver3_3::
 end
 
 
 
-MtSilver3-4::
+MtSilver3_4::
 end

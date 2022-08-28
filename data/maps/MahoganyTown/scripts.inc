@@ -4,11 +4,11 @@ MahoganyTown_MapScripts::
 MahoganyTown1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox MahoganyTown_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+MahoganyTown_Text_1:
 .string "Nuestro LÍDER ha salido a dar un\n"
 .string "paseo por el LAGO DE LA FURIA,\l"
 .string "está en plena forma para su edad.$"
@@ -18,11 +18,11 @@ Text_1:
 MahoganyTown2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox MahoganyTown_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+MahoganyTown_Text_2:
 .string "FREDO medita todos los días bajo\n"
 .string "una cascada helada para mantenerse\l"
 .string "fuerte y lúcido. La leyenda dice\l"
@@ -35,12 +35,12 @@ Text_2:
 MahoganyTown3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox MahoganyTown_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+MahoganyTown_Text_3:
 .string "Verás al precio de oro al que\n"
 .string "venderé a los turistas el\l"
-.string "CARAMELOFURIA[.]\l"
+.string "CARAMELOFURIA…\l"
 .string "¡Jojojo!$"

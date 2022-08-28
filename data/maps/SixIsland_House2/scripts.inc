@@ -1,31 +1,31 @@
 SixIsland_House2_MapScripts::
 	.byte 0
 
-SixIslandHouse2-1::
+SixIslandHouse2_1::
 end
 
 
 
-SixIslandHouse2-2::
+SixIslandHouse2_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SixIsland_House2_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
-.string "Debería escribir alguna CARTA...$"
+SixIsland_House2_Text_2:
+.string "Debería escribir alguna CARTA…$"
 
 
 
-SixIslandHouse2-3::
+SixIslandHouse2_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SixIsland_House2_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SixIsland_House2_Text_3:
 .string "¡Juega con los POKéMON y vivirás\n"
 .string "mucho tiempo!\p"
 .string "Mira a AGATHA, por ejemplo.\p"

@@ -1,24 +1,24 @@
 CeladonCity_Shop_5F_MapScripts::
 	.byte 0
 
-CeladonShop5F-1::
+CeladonShop5F_1::
 end
 
 
 
-CeladonShop5F-2::
+CeladonShop5F_2::
 end
 
 
 
-CeladonShop5F-3::
+CeladonShop5F_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CeladonCity_Shop5F_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CeladonCity_Shop5F_Text_3:
 .string "¡He venido a por dispositivos de\n"
 .string "mejora de los POKéMON!\p"
 .string "Las PROTEÍNAS aumentan la potencia\n"
@@ -27,14 +27,14 @@ Text_3:
 
 
 
-CeladonShop5F-4::
+CeladonShop5F_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CeladonCity_Shop5F_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CeladonCity_Shop5F_Text_4:
 .string "¡Los dispositivos de mejora de los\n"
 .string "POKéMON sólo se venden aquí!\p"
 .string "MÁS PS aumenta los PS básicos\n"

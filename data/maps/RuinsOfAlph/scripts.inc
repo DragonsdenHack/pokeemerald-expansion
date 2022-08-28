@@ -4,11 +4,11 @@ RuinsOfAlph_MapScripts::
 RuinsOfAlph1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RuinsOfAlph_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RuinsOfAlph_Text_1:
 .string "¡Chst!\n"
 .string "¿Sabías que si sintonizas la radio\l"
 .string "a una frecuencia determinada\l"
@@ -17,8 +17,8 @@ Text_1:
 .string "¡Lo sabía!\l"
 .string "¡Es todo una conspiración entre\l"
 .string "los UNOWN y la TORRE RADIO!\l"
-.string "[.]\l"
-.string "[.]\l"
+.string "…\l"
+.string "…\l"
 .string "¿Cómo?\l"
 .string "¿Eso no tiene ningún sentido?$"
 
@@ -27,11 +27,11 @@ Text_1:
 RuinsOfAlph2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RuinsOfAlph_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RuinsOfAlph_Text_2:
 .string "-Nosotros, humanos, debemos caminar\n"
 .string "junto a ellos. Por ello, nosotros\l"
 .string "partimos.-\l"

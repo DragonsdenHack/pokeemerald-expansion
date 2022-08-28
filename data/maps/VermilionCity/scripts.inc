@@ -4,11 +4,11 @@ VermilionCity_MapScripts::
 VermilionCity1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox VermilionCity_Text1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+VermilionCity_Text1:
 .string "¡Toda esta contaminación que\n"
 .string "últimamente se aprecia por la\l"
 .string "región debe ser culpa vuestra!\l"
@@ -35,11 +35,11 @@ end
 VermilionCity6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox VermilionCity_Text6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+VermilionCity_Text6:
 .string "A vosotros los ROCKET pronto se\n"
 .string "os va a acabar el privilegio de\l"
 .string "poder usar nuestro transporte\l"

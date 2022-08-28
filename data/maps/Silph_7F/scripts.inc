@@ -1,55 +1,55 @@
 Silph_7F_MapScripts::
 	.byte 0
 
-Silph7F-2::
+Silph7F_2::
 end
 
 
 
-Silph7F-3::
+Silph7F_3::
 end
 
 
 
-Silph7F-4::
+Silph7F_4::
 end
 
 
 
-Silph7F-5::
+Silph7F_5::
 end
 
 
 
-Silph7F-6::
+Silph7F_6::
 end
 
 
 
-Silph7F-7::
+Silph7F_7::
 end
 
 
 
-Silph7F-8::
+Silph7F_8::
 end
 
 
 
-Silph7F-9::
+Silph7F_9::
 end
 
 
 
-Silph7F-10::
+Silph7F_10::
 end
 
 
 
-Silph7F-11::
+Silph7F_11::
 end
 
 
 
-Silph7F-12::
+Silph7F_12::
 end

@@ -1,19 +1,19 @@
 OneIsland_PokemonCenter_1F_MapScripts::
 	.byte 0
 
-OneIslandPokemonCenter-1::
+OneIslandPokemonCenter_1::
 end
 
 
 
-OneIslandPokemonCenter-2::
+OneIslandPokemonCenter_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OneIsland_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OneIsland_PokemonCenter_Text_2:
 .string "En esta isla hay un volcán enorme.\p"
 .string "Hace poco entró en erupción.\n"
 .string "Ahora sería buen momento\l"
@@ -21,43 +21,43 @@ Text_2:
 
 
 
-OneIslandPokemonCenter-3::
+OneIslandPokemonCenter_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox OneIsland_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+OneIsland_PokemonCenter_Text_3:
 .string "Ojalá pudiera intercambiar POKéMON\n"
 .string "con mi chico, que vive muy lejos\l"
-.string "de aquí...$"
+.string "de aquí…$"
 
 
 
-OneIslandPokemonCenter-4::
+OneIslandPokemonCenter_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox OneIsland_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+OneIsland_PokemonCenter_Text_4:
 .string "¡Eh, tú no eres de aquí!\n"
 .string "¿De dónde vienes?\p"
-.string "¿ISLA INTA?...\n"
+.string "¿ISLA INTA?…\n"
 .string "¡Eso está aquí al lado!$"
 
 
 
-OneIslandPokemonCenter-5::
+OneIslandPokemonCenter_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox OneIsland_PokemonCenter_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+OneIsland_PokemonCenter_Text_5:
 .string "La gente como tú no pinta nada\n"
 .string "aquí, BILL me habló de vosotros\l"
 .string "ROCKETS, y del lastre que sois\l"
@@ -67,14 +67,14 @@ Text_5:
 
 
 
-OneIslandPokemonCenter-6::
+OneIslandPokemonCenter_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox OneIsland_PokemonCenter_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+OneIsland_PokemonCenter_Text_6:
 .string "Mi maestro CELIO pagó muchos\n"
 .string "millones de POKÉS en el mercado\l"
 .string "negro para poder tener tanto el\l"
@@ -86,4 +86,4 @@ Text_6:
 .string "ISLAS SETE, sin embargo, jamás\l"
 .string "pudimos encontrarlos, y no nos\l"
 .string "quedó más remedio que pedirle un\l"
-.string "préstamo a BILL[.]$"
+.string "préstamo a BILL…$"

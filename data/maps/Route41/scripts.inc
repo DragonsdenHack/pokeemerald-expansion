@@ -1,40 +1,40 @@
 Route41_MapScripts::
 	.byte 0
 
-Route41-1::
+Route41_1::
 end
 
 
 
-Route41-2::
+Route41_2::
 end
 
 
 
-Route41-3::
+Route41_3::
 end
 
 
 
-Route41-4::
+Route41_4::
 end
 
 
 
-Route41-5::
+Route41_5::
 end
 
 
 
-Route41-6::
+Route41_6::
 end
 
 
 
-Route41-7::
+Route41_7::
 end
 
 
 
-Route41-8::
+Route41_8::
 end

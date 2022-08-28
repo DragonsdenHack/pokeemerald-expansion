@@ -1,14 +1,14 @@
 Azalea_House1_MapScripts::
 	.byte 0
 
-AzaleaHouse1-1::
+AzaleaHouse1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox AzaleaHouse1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+AzaleaHouse1_Text_1:
 .string "Hace poco, vino un\n"
 .string "representante de SILPH todo\l"
 .string "trajeado. Estuvo un buen rato en\l"
@@ -19,14 +19,14 @@ Text_1:
 
 
 
-AzaleaHouse1-2::
+AzaleaHouse1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox AzaleaHouse1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+AzaleaHouse1_Text_2:
 .string "Antiguamente todos atrapaban\n"
 .string "POKÉMON con BONGURIS caseros.\l"
 .string "CÉSAR ya ha dicho que pronto\l"

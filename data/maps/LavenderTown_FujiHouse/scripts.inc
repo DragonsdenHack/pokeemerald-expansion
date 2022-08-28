@@ -4,11 +4,11 @@ LavenderTown_FujiHouse_MapScripts::
 FujiHouse1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox LavenderTown_FujiHouse_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+LavenderTown_FujiHouse_Text_1:
 .string "¡Ahhhhh!\n"
 .string "¡No me hagas daño por favor!$"
 
@@ -22,11 +22,11 @@ end
 FujiHouse3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox LavenderTown_FujiHouse_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+LavenderTown_FujiHouse_Text_3:
 .string "¡No, aléjate de aquí ROCKET!\n"
 .string "¡Si FUJI te estuviera aquí verías\l"
 .string "lo que es bueno!$"
@@ -36,11 +36,11 @@ Text_3:
 FujiHouse4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox LavenderTown_FujiHouse_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+LavenderTown_FujiHouse_Text_4:
 .string "El señor FUJI no está aquí, y\n"
 .string "aunque lo estuviera dudo mucho que\l"
 .string "quisiera recibir a un ROCKET como\l"

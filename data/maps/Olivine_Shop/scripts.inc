@@ -9,11 +9,11 @@ end
 OlivineShop2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OlivineCity_Shop_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OlivineCity_Shop_Text_2:
 .string "Me gustaría que vendieran PERLA y\n"
 .string "PERLA GRANDE, pero esos objetos\l"
 .string "son muy escasos en JOHTO, incluso\l"
@@ -27,11 +27,11 @@ Text_2:
 OlivineShop3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox OlivineCity_Shop_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+OlivineCity_Shop_Text_3:
 .string "¡Compra AGUA MÍSTICA y verás lo\n"
 .string "duro que pegan los POKÉMON TIPO\l"
 .string "AGUA!$"
@@ -41,11 +41,11 @@ Text_3:
 OlivineShop4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox OlivineCity_Shop_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+OlivineCity_Shop_Text_4:
 .string "Hace 2 años, vendían CENIZA\n"
 .string "SAGRADA. Ahora CIUDAD IRIS es la\l"
 .string "única ciudad que aún la vende. Es\l"

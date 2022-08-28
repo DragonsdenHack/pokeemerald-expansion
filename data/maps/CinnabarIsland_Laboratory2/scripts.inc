@@ -1,12 +1,12 @@
 CinnabarIsland_Laboratory2_MapScripts::
 	.byte 0
 
-CinnabarIslandLaboratory2-1::
+CinnabarIslandLaboratory2_1::
 end
 
 
 
-CinnabarIslandLaboratory2-2::
+CinnabarIslandLaboratory2_2::
 lock     
 faceplayer     
 msgbox Text_2, MSGBOX_DEFAULT

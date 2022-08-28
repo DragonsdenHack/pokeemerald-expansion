@@ -1,10 +1,10 @@
 Azalea_CesarHouse_MapScripts::
 	.byte 0
 
-AzaleaCesarHouse-1::
+AzaleaCesarHouse_1::
 end
 
 
 
-AzaleaCesarHouse-2::
+AzaleaCesarHouse_2::
 end

@@ -1,24 +1,24 @@
 Route23_MapScripts::
 	.byte 0
 
-Route23-1::
+Route23_1::
 end
 
-Route23-2::
+Route23_2::
 end
 
-Route23-3::
+Route23_3::
 end
 
-Route23-4::
+Route23_4::
 end
 
 
-Route23-5::
+Route23_5::
 end
 
-Route23-6::
+Route23_6::
 end
 
-Route23-7::
+Route23_7::
 end

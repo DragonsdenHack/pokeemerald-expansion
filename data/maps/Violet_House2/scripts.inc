@@ -1,14 +1,14 @@
 Violet_House2_MapScripts::
 	.byte 0
 
-VioletHouse2-1::
+VioletHouse2_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox VioletCity_House2_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+VioletCity_House2_Text_1:
 .string "PEGASO padre tiene 57 años, y aún\n"
 .string "así se mantiene físicamente como\l"
 .string "un chaval de 25. Recuerdo verle\l"
@@ -23,14 +23,14 @@ Text_1:
 
 
 
-VioletHouse2-2::
+VioletHouse2_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox VioletCity_House2_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+VioletCity_House2_Text_2:
 .string "Disfruta de esta ciudad...\n"
 .string "¡Disfruta mientras aún perduren\l"
 .string "los paisajes de antaño!$"

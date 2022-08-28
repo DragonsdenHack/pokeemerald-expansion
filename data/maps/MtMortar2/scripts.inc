@@ -1,40 +1,40 @@
 MtMortar2_MapScripts::
 	.byte 0
 
-MtMortar2-2::
+MtMortar2_2::
 end
 
 
 
-MtMortar2-3::
+MtMortar2_3::
 end
 
 
 
-MtMortar2-4::
+MtMortar2_4::
 end
 
 
 
-MtMortar2-5::
+MtMortar2_5::
 end
 
 
 
-MtMortar2-6::
+MtMortar2_6::
 end
 
 
 
-MtMortar2-7::
+MtMortar2_7::
 end
 
 
 
-MtMortar2-8::
+MtMortar2_8::
 end
 
 
 
-MtMortar2-9::
+MtMortar2_9::
 end

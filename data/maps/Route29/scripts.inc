@@ -1,63 +1,63 @@
 Route29_MapScripts::
 	.byte 0
 
-Route29-1::
+Route29_1::
 end
 
 
 
-Route29-2::
+Route29_2::
 end
 
 
 
-Route29-3::
+Route29_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Route29_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Route29_Text_3:
 .string "No hay muchos PIKACHU por aquí.\n"
 .string "¡Seré la envidia de todos cuando\l"
 .string "lo lleve a CIUDAD TRIGAL!$"
 
 
 
-Route29-4::
+Route29_4::
 end
 
 
 
-Route29-5::
+Route29_5::
 end
 
 
 
-Route29-6::
+Route29_6::
 end
 
 
 
-Route29-7::
+Route29_7::
 end
 
 
 
-Route29-8::
+Route29_8::
 end
 
 
 
-Route29-9::
+Route29_9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox Route29_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+Route29_Text_9:
 .string "Esta zona está siendo sujeta a\n"
 .string "diversas pruebas por parte del\l"
 .string "PROF.ELM y sus ayudantes, nadie\l"
@@ -73,14 +73,14 @@ Text_9:
 
 
 
-Route29-10::
+Route29_10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox Route29_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+Route29_Text_10:
 .string "Esta ruta, junto con la del norte\n"
 .string "de CIUDAD CEREZO, es famosa por\l"
 .string "contar con POKÉMON únicos que solo\l"
@@ -89,24 +89,24 @@ Text_10:
 
 
 
-Route29-11::
+Route29_11::
 end
 
 
 
-Route29-12::
+Route29_12::
 end
 
 
 
-Route29-13::
+Route29_13::
 lock     
 faceplayer     
-msgbox Text_13, MSGBOX_DEFAULT
+msgbox Route29_Text_13, MSGBOX_DEFAULT
 release     
 end
 
-Text_13:
+Route29_Text_13:
 .string "¡Ah!\n"
 .string "¡Qué bien sienta salir a pasear en\l"
 .string "medio de toda esta vegetación!\l"
@@ -114,14 +114,14 @@ Text_13:
 
 
 
-Route29-14::
+Route29_14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox Route29_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+Route29_Text_14:
 .string "El PROF.ELM es una eminencia del\n"
 .string "mundo de los POKÉMON, está\l"
 .string "montando su laboratorio de\l"
@@ -129,14 +129,14 @@ Text_14:
 
 
 
-Route29-15::
+Route29_15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox Route29_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
+Route29_Text_15:
 .string "Esta zona está siendo sujeta a\n"
 .string "diversas pruebas por parte del\l"
 .string "PROF.ELM y sus ayudantes, nadie\l"
@@ -152,16 +152,16 @@ Text_15:
 
 
 
-Route29-16::
+Route29_16::
 lock     
 faceplayer     
-msgbox Text_16, MSGBOX_DEFAULT
+msgbox Route29_Text_16, MSGBOX_DEFAULT
 release     
 end
 
-Text_16:
+Route29_Text_16:
 .string "Me encantaría poder visitar la\n"
 .string "RUTA 26, dicen que es de las más\l"
 .string "bonitas de la región. Esperemos\l"
 .string "que pronto la reabran para toda la\l"
-.string "población[.]$"
+.string "población…$"

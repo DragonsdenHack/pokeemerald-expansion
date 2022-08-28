@@ -9,11 +9,11 @@ end
 CianwoodPkmnCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Cianwood_PkmnCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Cianwood_PkmnCenter_Text_2:
 .string "La vida del marinero es dura, pero\n"
 .string "también lo es para sus mujeres, no\l"
 .string "dejamos de otear el horizonte cada\l"
@@ -25,11 +25,11 @@ Text_2:
 CianwoodPkmnCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Cianwood_PkmnCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Cianwood_PkmnCenter_Text_3:
 .string "Los TIPO LUCHA de ANÍBAL son\n"
 .string "terriblemente fuertes, ¿puedes\l"
 .string "creerte que un MACHAMP a altísimo\l"
@@ -40,11 +40,11 @@ Text_3:
 CianwoodPkmnCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Cianwood_PkmnCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Cianwood_PkmnCenter_Text_4:
 .string "ISLAS REMOLINO siempre fueron un\n"
 .string "misterio, dicen que todo cambió en\l"
 .string "ellas el día del incendio de TORRE\l"

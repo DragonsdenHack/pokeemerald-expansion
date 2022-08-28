@@ -8,11 +8,11 @@ end
 ResortGorgeous2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox ResortGorgeous_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+ResortGorgeous_Text_2:
 .string "¡Buen día camarada!\n"
 .string "ATLAS ya nos ha informado de\l"
 .string "vuestra misión en CASA CÓNSUL, tu\l"

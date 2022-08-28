@@ -1,25 +1,25 @@
 PokemonTower_6F_MapScripts::
 	.byte 0
 
-PokemonTower6F-1::
+PokemonTower6F_1::
 end
 
 
 
-PokemonTower6F-2::
+PokemonTower6F_2::
 end
 
 
 
-PokemonTower6F-3::
+PokemonTower6F_3::
 end
 
 
 
-PokemonTower6F-4::
+PokemonTower6F_4::
 end
 
 
 
-PokemonTower6F-5::
+PokemonTower6F_5::
 end

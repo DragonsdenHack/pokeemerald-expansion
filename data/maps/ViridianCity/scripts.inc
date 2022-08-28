@@ -8,12 +8,12 @@ end
 ViridianCity3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox ViridianCity_Text3, MSGBOX_DEFAULT
 release     
 end
 
 
-Text_3:
+ViridianCity_Text3:
 .string "Nadie sabe la identidad del LÍDER\n"
 .string "DE GIMNASIO de esta ciudad, pero\l"
 .string "espero que vuelva para daros una\l"
@@ -27,11 +27,11 @@ end
 ViridianCity5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox ViridianCity_Text5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+ViridianCity_Text5:
 .string "¿Cómo?\n"
 .string "¿Enseñarte a atrapar POKÉMON?\l"
 .string "¡Para así aprender a robarlos más\l"
@@ -42,11 +42,11 @@ Text_5:
 ViridianCity6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox ViridianCity_Text6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+ViridianCity_Text6:
 .string "Esas POKE BALL de tu cinturón…\n"
 .string "¡Seguro que las has robado!$"
 
@@ -62,11 +62,11 @@ end
 ViridianCity9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox ViridianCity_Text9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+ViridianCity_Text9:
 .string "¡Espero que nuestro LÍDER\n"
 .string "misterioso vuelva pronto y os eche\l"
 .string "a patadas de la ciudad!$"

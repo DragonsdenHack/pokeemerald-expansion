@@ -1,66 +1,66 @@
 Route25_MapScripts::
 	.byte 0
 
-Route25-1::
+Route25_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route25_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Route25_Text_1:
 .string "Este cabo es un buen lugar para\n"
 .string "venir en pareja.\l"
 .string "MISTY, nuestra LÍDER DE GIMNASIO,\l"
 .string "suele pasarse por aquí.$"
 
 
-Route25-2::
+Route25_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route25_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route25_Text_2:
 .string "¿Cómo?\n"
 .string "¿Vienes solo al CABO CELESTE?\l"
-.string "[.]\l"
-.string "[.]\l"
+.string "…\l"
+.string "…\l"
 .string "Bueno, se supone que a este lugar\l"
-.string "se viene en pareja[.]$"
+.string "se viene en pareja…$"
 
 
-Route25-3::
+Route25_3::
 end
 
-Route25-4::
+Route25_4::
 end
 
 
-Route25-5::
+Route25_5::
 end
 
-Route25-6::
+Route25_6::
 end
 
-Route25-7::
+Route25_7::
 end
 
-Route25-8::
+Route25_8::
 end
 
-Route25-9::
+Route25_9::
 end
 
-Route25-10::
+Route25_10::
 end
 
-Route25-11::
+Route25_11::
 end
 
-Route25-12::
+Route25_12::
 end
 
-Route25-13::
+Route25_13::
 end

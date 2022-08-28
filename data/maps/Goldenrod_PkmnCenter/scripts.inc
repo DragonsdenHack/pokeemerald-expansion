@@ -9,11 +9,11 @@ end
 GoldenrodPkmnCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Goldenrod_PkmnCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Goldenrod_PkmnCenter_Text_2:
 .string "Ese OAK llegó a decir que no\n"
 .string "existen más de 150 POKÉMON.\l"
 .string "¡Qué disparate!\l"
@@ -25,11 +25,11 @@ Text_2:
 GoldenrodPkmnCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Goldenrod_PkmnCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Goldenrod_PkmnCenter_Text_3:
 .string "¿Has visitado la floristería?\n"
 .string "Venden algunas bayas interesantes\l"
 .string "allí.$"
@@ -39,10 +39,10 @@ Text_3:
 GoldenrodPkmnCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Goldenrod_PkmnCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Goldenrod_PkmnCenter_Text_4:
 .string "¡Demasiados negocios juntos veo\n"
 .string "en esta ciudad!$"

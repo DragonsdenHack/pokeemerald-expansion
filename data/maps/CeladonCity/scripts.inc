@@ -12,11 +12,11 @@ end
 CeladonCity3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CeladonCity_Text3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CeladonCity_Text3:
 .string "Este es mi fiel compañero,\n"
 .string "POLIWRATH.\l"
 .string "Evolucionó de POLIWHIRL cuando usé\l"
@@ -26,11 +26,11 @@ Text_3:
 CeladonCity4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CeladonCity_Text4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CeladonCity_Text4:
 .string "¡Destruiremos a todo el que ose\n"
 .string "interponerse en nuestro camino!$"
 
@@ -38,12 +38,12 @@ Text_4:
 CeladonCity5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox CeladonCity_Text5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
-.string "Ejem[.]\n"
+CeladonCity_Text5:
+.string "Ejem…\n" 
 .string "¿No habrás sido tú el gracioso que\l"
 .string "nos ha robado un ejemplar de SCOPE\l"
 .string "SILPH, verdad?$"
@@ -56,11 +56,11 @@ end
 CeladonCity7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox CeladonCity_Text7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+CeladonCity_Text7:
 .string "¿Qué hay de nuevo camarada?\n"
 .string "¿Mucho ajetreo con esas misiones?$"
 
@@ -68,11 +68,11 @@ Text_7:
 CeladonCity8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox CeladonCity_Text8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+CeladonCity_Text8:
 .string "¡Ayyy! ¡Lo he perdido todo\n"
 .string "en las tragaperras!\p"
 .string "¡Debería haber cambiado todas\n"
@@ -86,11 +86,11 @@ end
 CeladonCity10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox CeladonCity_Text10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+CeladonCity_Text10:
 .string "¡Aaaagh, ayyyy...!\n"
 .string "¡Me he achicharrado la lengua!\p"
 .string "La ancianita tan agradable que hay\n"
@@ -110,11 +110,11 @@ end
 CeladonCity13::
 lock     
 faceplayer     
-msgbox Text_13, MSGBOX_DEFAULT
+msgbox CeladonCity_Text13, MSGBOX_DEFAULT
 release     
 end
 
-Text_13:
+CeladonCity_Text13:
 .string "Conseguí a mi KOFFING en ISLA\n"
 .string "CANELA.\l"
 .string "Normalmente es muy bueno, pero\l"
@@ -124,11 +124,11 @@ Text_13:
 CeladonCity14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox CeladonCity_Text14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+CeladonCity_Text14:
 .string "Nadie os quiere aquí ROCKETS.\n"
 .string "¡Estáis destruyendo con vuestro\l"
 .string "estúpido CASINO todos nuestros\l"

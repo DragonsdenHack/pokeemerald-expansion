@@ -1,11 +1,11 @@
 Route18_MapScripts::
 	.byte 0
 
-Route18-1::
+Route18_1::
 end
 
-Route18-2::
+Route18_2::
 end
 
-Route18-3::
+Route18_3::
 end

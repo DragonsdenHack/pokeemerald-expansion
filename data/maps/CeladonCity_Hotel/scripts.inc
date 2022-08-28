@@ -4,11 +4,11 @@ CeladonCity_Hotel_MapScripts::
 CeladonCityHotel1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox CeladonCity_Hotel_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+CeladonCity_Hotel_Text_1:
 .string "Este es un hotel para las\n"
 .string "personas, la entrada a POKÉMON y a\l"
 .string "delincuentes como tú está\l"
@@ -19,11 +19,11 @@ Text_1:
 CeladonCityHotel2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CeladonCity_Hotel_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CeladonCity_Hotel_Text_2:
 .string "¿Por qué ha tenido que traerse a\n"
 .string "su hermano?$"
 
@@ -32,11 +32,11 @@ Text_2:
 CeladonCityHotel3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CeladonCity_Hotel_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CeladonCity_Hotel_Text_3:
 .string "¡No te acerques a nosotros, ladrón\n"
 .string "canalla!$"
 
@@ -45,10 +45,10 @@ Text_3:
 CeladonCityHotel4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CeladonCity_Hotel_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CeladonCity_Hotel_Text_4:
 .string "Mi hermana mayor dice que no hable\n"
 .string "con gente como tú.$"

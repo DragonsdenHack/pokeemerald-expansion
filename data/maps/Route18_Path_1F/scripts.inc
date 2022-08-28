@@ -1,14 +1,14 @@
 Route18_Path_1F_MapScripts::
 	.byte 0
 
-Route18Path1F-1::
+Route18Path1F_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route18_Path1F_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Route18_Path1F_Text_1:
 .string "Poco me importa que uses o no una\n"
 .string "BICI para entrar en el CAMINO\l"
 .string "BICIS ROCKET, ya estás en la lista\l"

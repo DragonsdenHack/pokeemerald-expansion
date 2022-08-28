@@ -1,10 +1,10 @@
 IcefallCave_B1F_MapScripts::
 	.byte 0
 
-IcefallCaveB1F-1::
+IcefallCaveB1F_1::
 end
 
 
 
-IcefallCaveB1F-2::
+IcefallCaveB1F_2::
 end

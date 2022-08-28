@@ -4,12 +4,12 @@ Goldenrod_UndergroundSouth_MapScripts::
 GoldenrodUndergroundSouth1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Goldenrod_UndergroundSouth1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Goldenrod_UndergroundSouth1_Text_1:
 .string "Aquí abajo pueden encontrarse\n"
 .string "cosas interesantes a la venta,\l"
-.string "pero hay gente muy rara también[.]\l"
+.string "pero hay gente muy rara también…\l"
 .string "Me da miedo bajar ahí.$"

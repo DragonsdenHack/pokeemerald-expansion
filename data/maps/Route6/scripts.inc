@@ -1,25 +1,25 @@
 Route6_MapScripts::
 	.byte 0
 
-Route6-1::
+Route6_1::
 end
 
 
-Route6-2::
+Route6_2::
 end
 
 
-Route6-3::
+Route6_3::
 end
 
 
-Route6-4::
+Route6_4::
 end
 
 
-Route6-5::
+Route6_5::
 end
 
 
-Route6-6::
+Route6_6::
 end

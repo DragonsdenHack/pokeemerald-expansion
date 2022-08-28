@@ -4,11 +4,11 @@ SixIsland_MapScripts::
 SixIsland1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox SixIsland_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+SixIsland_Text_1:
 .string "Si sigues por aquí, llegarás a la\n"
 .string "VÍA ACUÁTICA.\p"
 .string "Cuando alcances la VÍA,\n"
@@ -19,11 +19,11 @@ Text_1:
 SixIsland2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SixIsland_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SixIsland_Text_2:
 .string "Al estar tan lejos de las ciudades,\n"
 .string "por la noche el cielo se ve muy\l"
 .string "despejado.$"

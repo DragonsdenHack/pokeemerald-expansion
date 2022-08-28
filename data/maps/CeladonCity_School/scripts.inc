@@ -1,5 +1,5 @@
 CeladonCity_School_MapScripts::
 	.byte 0
 
-CeladonCitySchool-1::
+CeladonCitySchool_1::
 end

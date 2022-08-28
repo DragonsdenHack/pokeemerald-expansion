@@ -19,11 +19,11 @@ end
 OliivineLighthouse4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox OlivineCity_LightHouse_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+OlivineCity_LightHouse_Text_4:
 .string "Los CHINCHOU fueron los primeros\n"
 .string "POKÉMON en servir como guía a los\l"
 .string "marineros. Este FARO se construyó\l"
@@ -39,11 +39,11 @@ end
 OliivineLighthouse6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox OlivineCity_LightHouse_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+OlivineCity_LightHouse_Text_6:
 .string "NOCTOWL es un POKÉMON común entre\n"
 .string "los marineros de JOHTO, su gran\l"
 .string "sentido de la orientación y visión\l"
@@ -64,15 +64,15 @@ end
 OliivineLighthouse9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox OlivineCity_LightHouse_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+OlivineCity_LightHouse_Text_9:
 .string "Me encantaría poder ver en persona\n"
 .string "al poderoso POKÉMON que ilumina el\l"
 .string "FARO, pero no sé cómo subir hasta\l"
-.string "arriba[.]$"
+.string "arriba…$"
 
 
 
@@ -94,11 +94,11 @@ end
 OliivineLighthouse13::
 lock     
 faceplayer     
-msgbox Text_13, MSGBOX_DEFAULT
+msgbox OlivineCity_LightHouse_Text_13, MSGBOX_DEFAULT
 release     
 end
 
-Text_13:
+OlivineCity_LightHouse_Text_13:
 .string "La ruta marítima OLIVO-TRIGAL\n"
 .string "está llena de rocas, lo que\l"
 .string "la hace innavegable. Si no, hace\l"

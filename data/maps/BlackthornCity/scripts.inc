@@ -4,11 +4,11 @@ BlackthornCity_MapScripts::
 BlackthornCity1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+BlackthornCity_Text_1:
 .string "Este GIMNASIO fue financiado con\n"
 .string "el dinero del gobierno de LANCE,\l"
 .string "nuestro MAESTRO nunca combatiría\l"
@@ -22,12 +22,12 @@ Text_1:
 BlackthornCity2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
-.string "[player], ¿no?\n"
+BlackthornCity_Text_2:
+.string "{PLAYER}, ¿no?\n"
 .string "Nuestro GRAN MAESTRO nos ha\l"
 .string "hablado de ti, eres más que\l"
 .string "bienvenido en este lugar.$"
@@ -42,15 +42,15 @@ end
 BlackthornCity4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
-.string "Ah[.]\n"
+BlackthornCity_Text_4:
+.string "Ah…\n"
 .string "Si yo te dijera la cantidad de\l"
 .string "POKÉMON sagrados que he visto\l"
-.string "nadar aquí[.]$"
+.string "nadar aquí…$"
 
 
 
@@ -58,11 +58,11 @@ Text_4:
 BlackthornCity7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+BlackthornCity_Text_7:
 .string "Nuestro GRAN MAESTRO prefiere\n"
 .string "pasar desapercibido y mantener a\l"
 .string "JOHTO en desconocimiento acerca de\l"
@@ -75,11 +75,11 @@ Text_7:
 BlackthornCity8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+BlackthornCity_Text_8:
 .string "¡Un dragón al que el resto de\n"
 .string "dragones no pueden tocar!\l"
 .string "¡Vi como los ENFADO y CARGA DRAGÓN\l"
@@ -91,11 +91,11 @@ Text_8:
 BlackthornCity9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+BlackthornCity_Text_9:
 .string "Vine hasta aquí para entender\n"
 .string "mejor el origen de la fuerza bruta\l"
 .string "de los dragones. Estos y el TIPO\l"
@@ -108,11 +108,11 @@ Text_9:
 BlackthornCity10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+BlackthornCity_Text_10:
 .string "Ten cuidado con los desfiladeros\n"
 .string "del sur, cuando se quieren dar\l"
 .string "cuenta, ¡muchos ya no pueden\l"
@@ -123,11 +123,11 @@ Text_10:
 BlackthornCity11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+BlackthornCity_Text_11:
 .string "CIUDAD ENDRINO siempre ha sido el\n"
 .string "lugar más inaccesible de JOHTO,\l"
 .string "rodeada de montañas, con la RUTA\l"
@@ -136,18 +136,18 @@ Text_11:
 .string "visitantes, pues el conocimiento\l"
 .string "último acerca del tipo más\l"
 .string "poderoso y sagrado espera para\l"
-.string "quienes estén preparados[.]$"
+.string "quienes estén preparados…$"
 
 
 
 BlackthornCity12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox BlackthornCity_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+BlackthornCity_Text_12:
 .string "¿No son adorables?\n"
 .string "Es fascinante cómo un frágil\l"
 .string "DRATINI puede crecer hasta\l"

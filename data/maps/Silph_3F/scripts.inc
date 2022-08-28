@@ -1,20 +1,20 @@
 Silph_3F_MapScripts::
 	.byte 0
 
-Silph3F-1::
+Silph3F_1::
 end
 
 
 
-Silph3F-2::
+Silph3F_2::
 end
 
 
 
-Silph3F-3::
+Silph3F_3::
 end
 
 
 
-Silph3F-4::
+Silph3F_4::
 end

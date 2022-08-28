@@ -8,11 +8,11 @@ end
 SevenIsland2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SevenIsland_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SevenIsland_Text_2:
 .string "A estas islas las llamamos ARCHI7\n"
 .string "porque son siete, je.\p"
 .string "O, por lo menos, es lo que la\n"
@@ -24,11 +24,11 @@ Text_2:
 SevenIsland3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SevenIsland_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SevenIsland_Text_3:
 .string "Esta isla es prácticamente virgen,\n"
 .string "apenas ha sufrido modificaciones.\p"
 .string "Por ello, es peligroso y difícil\n"

@@ -1,40 +1,40 @@
 VictoryRoad_3F_MapScripts::
 	.byte 0
 
-VictoryRoad3F-1::
+VictoryRoad3F_1::
 end
 
 
 
-VictoryRoad3F-2::
+VictoryRoad3F_2::
 end
 
 
 
-VictoryRoad3F-3::
+VictoryRoad3F_3::
 end
 
 
 
-VictoryRoad3F-4::
+VictoryRoad3F_4::
 end
 
 
 
-VictoryRoad3F-8::
+VictoryRoad3F_8::
 end
 
 
 
-VictoryRoad3F-9::
+VictoryRoad3F_9::
 end
 
 
 
-VictoryRoad3F-10::
+VictoryRoad3F_10::
 end
 
 
 
-VictoryRoad3F-11::
+VictoryRoad3F_11::
 end

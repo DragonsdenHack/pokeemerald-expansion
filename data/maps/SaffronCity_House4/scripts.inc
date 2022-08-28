@@ -1,14 +1,14 @@
 SaffronCity_House4_MapScripts::
 	.byte 0
 
-SaffronCityHouse4-1::
+SaffronCityHouse4_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+SafariZone_House4_Text_1:
 .string "A mí me parece que no hay nada\n"
 .string "más guay que ver luchar a los\l"
 .string "ENTRENADORES.\p"
@@ -16,14 +16,14 @@ Text_1:
 
 
 
-SaffronCityHouse4-2::
+SaffronCityHouse4_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SafariZone_House4_Text_2:
 .string "Qué guay es BILL, ¿verdad?\n"
 .string "Me gusta hasta su forma de hablar.\p"
 .string "¡Me encantaría que viniera alguna\n"
@@ -31,28 +31,28 @@ Text_2:
 
 
 
-SaffronCityHouse4-3::
+SaffronCityHouse4_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SafariZone_House4_Text_3:
 .string "¿Mm?\n"
 .string "¿Y tú quién eres?\p"
 .string "¿Vienes a apuntarte al CLUB?$"
 
 
 
-SaffronCityHouse4-4::
+SaffronCityHouse4_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+SafariZone_House4_Text_4:
 .string "¡BROCK es mi héroe!\n"
 .string "No hay otro como él.\p"
 .string "¡Lo admiro tanto que le he\n"
@@ -61,44 +61,44 @@ Text_4:
 
 
 
-SaffronCityHouse4-5::
+SaffronCityHouse4_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+SafariZone_House4_Text_5:
 .string "Quien ha estado en boca de todos\n"
 .string "últimamente es AGATHA.\p"
-.string "Lucha de una manera...\n"
+.string "Lucha de una manera…\n"
 .string "Como a mí me gusta, vaya.$"
 
 
 
-SaffronCityHouse4-6::
+SaffronCityHouse4_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+SafariZone_House4_Text_6:
 .string "La verdad es que LORELEI\n"
-.string "impone... A mí me encanta.\p"
+.string "impone… A mí me encanta.\p"
 .string "¿Soy yo la única que percibe el\n"
 .string "aura de solemnidad que le rodea?$"
 
 
 
-SaffronCityHouse4-7::
+SaffronCityHouse4_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+SafariZone_House4_Text_7:
 .string "¡Hiyah! Sólo tengo respeto por\n"
 .string "un ENTRENADOR.\p"
 .string "Por mi MAESTRO. No hay nadie\n"
@@ -108,14 +108,14 @@ Text_7:
 
 
 
-SaffronCityHouse4-8::
+SaffronCityHouse4_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox SafariZone_House4_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+SafariZone_House4_Text_8:
 .string "No pienso dejar nunca a SABRINA.\n"
 .string "¡Aunque sea su única fan!.\p"
 .string "Mi sueño es llegar a ser como\n"

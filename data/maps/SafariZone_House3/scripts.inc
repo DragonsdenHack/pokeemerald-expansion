@@ -1,27 +1,27 @@
 SafariZone_House3_MapScripts::
 	.byte 0
 
-SafariZoneHouse3-1::
+SafariZoneHouse3_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox SafariZone_House31_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+SafariZone_House31_Text_1:
 .string "Dirígete al ZONA más profunda del\n"
 .string "SAFARI. ¡Ganarás un premio!$"
 
 
 
-SafariZoneHouse3-2::
+SafariZoneHouse3_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SafariZone_House31_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SafariZone_House31_Text_2:
 .string "La ZONA del SAFARI es gigante,\n"
 .string "¿no te parece?\p"
 .string "El LÍDER del GIMNASIO de FUCSIA,\n"
@@ -32,14 +32,14 @@ Text_2:
 
 
 
-SafariZoneHouse3-3::
+SafariZoneHouse3_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SafariZone_House31_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SafariZone_House31_Text_3:
 .string "Puedes quedarte con cualquier\n"
 .string "objeto encontrado en esta zona.\p"
 .string "¡Pero te quedarás sin tiempo si\n"
@@ -47,14 +47,14 @@ Text_3:
 
 
 
-SafariZoneHouse3-4::
+SafariZoneHouse3_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox SafariZone_House31_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+SafariZone_House31_Text_4:
 .string "¡Mi EEVEE evolucionó y\n"
 .string "se transformó en un FLAREON!\p"
 .string "¡Pero el EEVEE de un amigo se\n"

@@ -1,20 +1,20 @@
 NewMap4_MapScripts::
 	.byte 0
 
-VictoryRoad1F-1::
+VictoryRoad1F_1::
 end
 
 
 
-VictoryRoad1F-2::
+VictoryRoad1F_2::
 end
 
 
 
-VictoryRoad1F-6::
+VictoryRoad1F_6::
 end
 
 
 
-VictoryRoad1F-7::
+VictoryRoad1F_7::
 end

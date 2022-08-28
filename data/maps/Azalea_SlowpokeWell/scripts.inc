@@ -14,11 +14,11 @@ end
 SlowpokeWell3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SlowpokeWell_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SlowpokeWell_Text_3:
 .string "Que no te engañen, las\n"
 .string "COLASLOWPOKE no tienen apenas\l"
 .string "valor, y los SLOWPOKE las\l"

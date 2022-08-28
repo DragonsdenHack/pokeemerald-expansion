@@ -1,14 +1,14 @@
 Route27_MapScripts::
 	.byte 0
 
-Route27-1::
+Route27_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route27_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Route27_Text_1:
 .string "La RUTA 26 ha sido abierta de\n"
 .string "nuevo, pero ve con cuidado, los\l"
 .string "POKÉMON salvajes tienen que\l"
@@ -16,50 +16,50 @@ Text_1:
 
 
 
-Route27-2::
+Route27_2::
 end
 
 
 
-Route27-3::
+Route27_3::
 end
 
 
 
-Route27-4::
+Route27_4::
 end
 
 
 
-Route27-5::
+Route27_5::
 end
 
 
 
-Route27-6::
+Route27_6::
 end
 
 
 
-Route27-7::
+Route27_7::
 end
 
 
 
-Route27-8::
+Route27_8::
 end
 
 
 
-Route27-9::
+Route27_9::
 end
 
 
 
-Route27-10::
+Route27_10::
 end
 
 
 
-Route27-11::
+Route27_11::
 end

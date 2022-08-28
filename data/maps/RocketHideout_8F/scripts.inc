@@ -1,10 +1,10 @@
 RocketHideout_8F_MapScripts::
 	.byte 0
 
-RocketHideout8F-1::
+RocketHideout8F_1::
 end
 
 
 
-RocketHideout8F-2::
+RocketHideout8F_2::
 end

@@ -1,10 +1,10 @@
 IcePath3_MapScripts::
 	.byte 0
 
-IcePath3-1::
+IcePath3_1::
 end
 
 
 
-IcePath3-2::
+IcePath3_2::
 end

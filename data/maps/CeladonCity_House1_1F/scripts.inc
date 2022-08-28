@@ -1,29 +1,29 @@
 CeladonCity_House1_1F_MapScripts::
 	.byte 0
 
-CeladonMansion-1::
+CeladonMansion_1::
 end
 
 
 
-CeladonMansion-2::
+CeladonMansion_2::
 end
 
 
 
-CeladonMansion-3::
+CeladonMansion_3::
 end
 
 
 
-CeladonMansion-4::
+CeladonMansion_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CeladonMansion_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CeladonMansion_Text_4:
 .string "¡Deberías avergonzarte de lo que\n"
 .string "haces joven!\l"
 .string "¡Los problemas de una región se\l"

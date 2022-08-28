@@ -1,39 +1,39 @@
 Route19_MapScripts::
 	.byte 0
 
-Route19-1::
+Route19_1::
 end
 
-Route19-2::
+Route19_2::
 end
 
-Route19-3::
+Route19_3::
 end
 
-Route19-4::
+Route19_4::
 end
 
 
-Route19-5::
+Route19_5::
 end
 
-Route19-6::
+Route19_6::
 end
 
-Route19-7::
+Route19_7::
 end
 
-Route19-8::
+Route19_8::
 end
 
-Route19-9::
+Route19_9::
 end
 
-Route19-10::
+Route19_10::
 end
 
-Route19-11::
+Route19_11::
 end
 
-Route19-12::
+Route19_12::
 end

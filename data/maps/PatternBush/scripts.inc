@@ -1,60 +1,60 @@
 PatternBush_MapScripts::
 	.byte 0
 
-PatternBush-1::
+PatternBush_1::
 end
 
 
 
-PatternBush-2::
+PatternBush_2::
 end
 
 
 
-PatternBush-3::
+PatternBush_3::
 end
 
 
 
-PatternBush-4::
+PatternBush_4::
 end
 
 
 
-PatternBush-5::
+PatternBush_5::
 end
 
 
 
-PatternBush-6::
+PatternBush_6::
 end
 
 
 
-PatternBush-7::
+PatternBush_7::
 end
 
 
 
-PatternBush-8::
+PatternBush_8::
 end
 
 
 
-PatternBush-9::
+PatternBush_9::
 end
 
 
 
-PatternBush-10::
+PatternBush_10::
 end
 
 
 
-PatternBush-11::
+PatternBush_11::
 end
 
 
 
-PatternBush-12::
+PatternBush_12::
 end

@@ -1,20 +1,20 @@
 BlackthornCity_DragonsdenS2_MapScripts::
 	.byte 0
 
-DragonsdenS2-1::
+DragonsdenS2_1::
 end
 
 
 
-DragonsdenS2-2::
+DragonsdenS2_2::
 end
 
 
 
-DragonsdenS2-3::
+DragonsdenS2_3::
 end
 
 
 
-DragonsdenS2-4::
+DragonsdenS2_4::
 end

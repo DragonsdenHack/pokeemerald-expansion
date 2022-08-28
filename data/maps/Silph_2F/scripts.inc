@@ -1,25 +1,25 @@
 Silph_2F_MapScripts::
 	.byte 0
 
-Silph2F-1::
+Silph2F_1::
 end
 
 
 
-Silph2F-2::
+Silph2F_2::
 end
 
 
 
-Silph2F-3::
+Silph2F_3::
 end
 
 
 
-Silph2F-4::
+Silph2F_4::
 end
 
 
 
-Silph2F-5::
+Silph2F_5::
 end

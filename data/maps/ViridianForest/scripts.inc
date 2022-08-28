@@ -4,11 +4,11 @@ ViridianForest_MapScripts::
 ViridianForest1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox ViridianForest_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+ViridianForest_Text_1:
 .string "¡Vine aquí con unos amigos!\p"
 .string "¡Van en busca de combates\n"
 .string "POKéMON!$"
@@ -53,14 +53,14 @@ end
 ViridianForest9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox ViridianForest_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+ViridianForest_Text_9:
 .string "Por aquí no hay ningún POKÉMON\n"
 .string "fuerte que pueda\l"
-.string "interesaros[.]sobre el papel.$"
+.string "interesaros…sobre el papel.$"
 
 
 

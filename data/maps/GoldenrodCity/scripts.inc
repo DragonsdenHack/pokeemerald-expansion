@@ -4,11 +4,11 @@ GoldenrodCity_MapScripts::
 GoldenrodCity1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+GoldenrodCity_Text_1:
 .string "Vamos a poner este GIMNASIO a la\n"
 .string "moda de una vez por todas.$"
 
@@ -17,11 +17,11 @@ Text_1:
 GoldenrodCity2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+GoldenrodCity_Text_2:
 .string "CLEFAIRY será la imagen del nuevo\n"
 .string "GIMNASIO, es tan mono.$"
 
@@ -30,11 +30,11 @@ Text_2:
 GoldenrodCity3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+GoldenrodCity_Text_3:
 .string "Esta iniciativa unirá KANTO y\n"
 .string "JOHTO como nunca lo había hecho\l"
 .string "antes.$"
@@ -44,11 +44,11 @@ Text_3:
 GoldenrodCity4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+GoldenrodCity_Text_4:
 .string "Me dijeron que aquí aún quedaba\n"
 .string "una LÍDER verdaderamente fuerte\l"
 .string "que seguía aceptando combates,\l"
@@ -61,11 +61,11 @@ Text_4:
 GoldenrodCity5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+GoldenrodCity_Text_5:
 .string "Dicen que AZAFRÁN y TRIGAL van a\n"
 .string "acabar unidas por estas vías de\l"
 .string "tren. Después de todas las\l"
@@ -78,13 +78,13 @@ Text_5:
 GoldenrodCity6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+GoldenrodCity_Text_6:
 .string "Quiero entrar al CASINO, venden\n"
-.string "unos POKÉMON increíbles, pero[.]\l"
+.string "unos POKÉMON increíbles, pero…\l"
 .string "¡No me dejan entrar porque soy\l"
 .string "demasiado pequeño!$"
 
@@ -93,11 +93,11 @@ Text_6:
 GoldenrodCity7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+GoldenrodCity_Text_7:
 .string "No hay nada como regar tus\n"
 .string "plantas en un caluroso día de\l"
 .string "verano, pero no te confundas.\l"
@@ -109,11 +109,11 @@ Text_7:
 GoldenrodCity8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+GoldenrodCity_Text_8:
 .string "La oferta de nuestro CENTRO\n"
 .string "COMERCIAL no tiene igual en toda\l"
 .string "la región, es lo que tiene\l"
@@ -135,11 +135,11 @@ end
 GoldenrodCity11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+GoldenrodCity_Text_11:
 .string "Esta ciudad se está comiendo todo\n"
 .string "a su alrededor, pronto lo poco\l"
 .string "verde que queda en ella se\l"
@@ -166,11 +166,11 @@ end
 GoldenrodCity15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
+GoldenrodCity_Text_15:
 .string "La TORRE RADIO ha atraído a mucha\n"
 .string "gente últimamente, dicen que es la\l"
 .string "SILPH de JOHTO.$"
@@ -180,11 +180,11 @@ Text_15:
 GoldenrodCity16::
 lock     
 faceplayer     
-msgbox Text_16, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_16, MSGBOX_DEFAULT
 release     
 end
 
-Text_16:
+GoldenrodCity_Text_16:
 .string "¡Esta ciudad ha cambiado tanto en\n"
 .string "tan poco que ya no sé dónde está\l"
 .string "nada!$"
@@ -195,11 +195,11 @@ Text_16:
 GoldenrodCity17::
 lock     
 faceplayer     
-msgbox Text_17, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_17, MSGBOX_DEFAULT
 release     
 end
 
-Text_17:
+GoldenrodCity_Text_17:
 .string "En 3 años, hemos convertido a\n"
 .string "CIUDAD TRIGAL en el centro\l"
 .string "económico y de telecomunicaciones\l"
@@ -212,11 +212,11 @@ Text_17:
 GoldenrodCity18::
 lock     
 faceplayer     
-msgbox Text_18, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_18, MSGBOX_DEFAULT
 release     
 end
 
-Text_18:
+GoldenrodCity_Text_18:
 .string "Las obras de las vías de tren han\n"
 .string "dividido a la ciudad en dos partes\l"
 .string "de forma provisional. Para ir a la\l"
@@ -227,10 +227,10 @@ Text_18:
 GoldenrodCity19::
 lock     
 faceplayer     
-msgbox Text_19, MSGBOX_DEFAULT
+msgbox GoldenrodCity_Text_19, MSGBOX_DEFAULT
 release     
 end
 
-Text_19:
+GoldenrodCity_Text_19:
 .string "No deberías estar aquí.\n"
 .string "¡Puede ser peligroso!$"

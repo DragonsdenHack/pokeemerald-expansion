@@ -1,14 +1,14 @@
 RocketHideout_6F_MapScripts::
 	.byte 0
 
-RocketHideout6F-1::
+RocketHideout6F_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RocketHideout6F_Text_1:
 .string "¡JAH!\n"
 .string "¡Los de KANTO creen que somos\l"
 .string "imbéciles pero tenemos muchas más\l"
@@ -18,14 +18,14 @@ Text_1:
 
 
 
-RocketHideout6F-2::
+RocketHideout6F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RocketHideout6F_Text_2:
 .string "PETREL, el EJECUTIVO que se\n"
 .string "encarga de esta BASE, es de esos\l"
 .string "rivales a los que nadie quiere\l"
@@ -39,14 +39,14 @@ Text_2:
 
 
 
-RocketHideout6F-3::
+RocketHideout6F_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RocketHideout6F_Text_3:
 .string "He oído que en JOHTO tenemos otra\n"
 .string "BASE, ahí se están haciendo\l"
 .string "excelentes avanzes acerca de las\l"
@@ -56,16 +56,16 @@ Text_3:
 
 
 
-RocketHideout6F-4::
+RocketHideout6F_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
-.string "...\n"
-.string "...\l"
+RocketHideout6F_Text_4:
+.string "…\n"
+.string "…\l"
 .string "(Parece estar reposando, pero a la\l"
 .string "vez listo y expectante ante\l"
 .string "cualquier orden que pueda recibir\l"
@@ -73,16 +73,16 @@ Text_4:
 
 
 
-RocketHideout6F-5::
+RocketHideout6F_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
-.string "...\n"
-.string "...\l"
+RocketHideout6F_Text_5:
+.string "…\n"
+.string "…\l"
 .string "(Parece estar reposando, pero a la\l"
 .string "vez listo y expectante ante\l"
 .string "cualquier orden que pueda recibir\l"
@@ -90,14 +90,14 @@ Text_5:
 
 
 
-RocketHideout6F-6::
+RocketHideout6F_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+RocketHideout6F_Text_6:
 .string "Las estadísticas no sirven para\n"
 .string "nada sino podemos sacar lecciones\l"
 .string "prácticas de ellas, se estima que\l"
@@ -121,14 +121,14 @@ Text_6:
 
 
 
-RocketHideout6F-7::
+RocketHideout6F_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+RocketHideout6F_Text_7:
 .string "Yo no veo nada malo en lo que\n"
 .string "hacemos aquí, todos salimos\l"
 .string "ganando solo tienes que mirar a\l"
@@ -144,19 +144,19 @@ Text_7:
 
 
 
-RocketHideout6F-14::
+RocketHideout6F_14::
 end
 
 
 
-RocketHideout6F-15::
+RocketHideout6F_15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
+RocketHideout6F_Text_15:
 .string "Somos dueños de más del 70% del\n"
 .string "tráfico de POKÉMON en el mercado\l"
 .string "en la región de KANTO, gracias al\l"
@@ -168,24 +168,24 @@ Text_15:
 
 
 
-RocketHideout6F-16::
+RocketHideout6F_16::
 end
 
 
 
-RocketHideout6F-17::
+RocketHideout6F_17::
 end
 
 
 
-RocketHideout6F-18::
+RocketHideout6F_18::
 lock     
 faceplayer     
-msgbox Text_18, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_18, MSGBOX_DEFAULT
 release     
 end
 
-Text_18:
+RocketHideout6F_Text_18:
 .string "(Parece que contiene un SCYTHER,\n"
 .string "deben de sacar como mínimo 110000\l"
 .string "POKÉS con la venta de este POKÉMON\l"
@@ -193,14 +193,14 @@ Text_18:
 
 
 
-RocketHideout6F-19::
+RocketHideout6F_19::
 lock     
 faceplayer     
-msgbox Text_19, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_19, MSGBOX_DEFAULT
 release     
 end
 
-Text_19:
+RocketHideout6F_Text_19:
 .string "(Parece que contiene un DRATINI,\n"
 .string "deben de sacar como mínimo 53000\l"
 .string "POKÉS con la venta de este POKÉMON\l"
@@ -208,19 +208,19 @@ Text_19:
 
 
 
-RocketHideout6F-20::
+RocketHideout6F_20::
 end
 
 
 
-RocketHideout6F-21::
+RocketHideout6F_21::
 lock     
 faceplayer     
-msgbox Text_21, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_21, MSGBOX_DEFAULT
 release     
 end
 
-Text_21:
+RocketHideout6F_Text_21:
 .string "Al parecer ATLAS, el EJECUTIVO\n"
 .string "encargado de llevar el ALMACÉN de\l"
 .string "ISLA INTA, es el más poderoso de\l"
@@ -231,14 +231,14 @@ Text_21:
 
 
 
-RocketHideout6F-22::
+RocketHideout6F_22::
 lock     
 faceplayer     
-msgbox Text_22, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_22, MSGBOX_DEFAULT
 release     
 end
 
-Text_22:
+RocketHideout6F_Text_22:
 .string "¡Da gusto trabajar sabiendo que\n"
 .string "actúas bajo el mandato de tu\l"
 .string "propia voluntad!\l"
@@ -248,28 +248,28 @@ Text_22:
 
 
 
-RocketHideout6F-23::
+RocketHideout6F_23::
 lock     
 faceplayer     
-msgbox Text_23, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_23, MSGBOX_DEFAULT
 release     
 end
 
-Text_23:
+RocketHideout6F_Text_23:
 .string "¡No hay nada como la libertad que\n"
 .string "te da ir al margen de la ley!\l"
 .string "¡¡TEAM ROCKET RULES!!$"
 
 
 
-RocketHideout6F-24::
+RocketHideout6F_24::
 lock     
 faceplayer     
-msgbox Text_24, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_24, MSGBOX_DEFAULT
 release     
 end
 
-Text_24:
+RocketHideout6F_Text_24:
 .string "Esta BASE recauda más de 1000000\n"
 .string "POKÉS por semana en concepto de\l"
 .string "pago por el cuidado de\l"
@@ -284,14 +284,14 @@ Text_24:
 
 
 
-RocketHideout6F-25::
+RocketHideout6F_25::
 lock     
 faceplayer     
-msgbox Text_25, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_25, MSGBOX_DEFAULT
 release     
 end
 
-Text_25:
+RocketHideout6F_Text_25:
 .string "Tal vez sea algo cruel separar a\n"
 .string "los POKÉMON de sus HUEVOS, pero\l"
 .string "por lo general los entrenadores\l"
@@ -305,14 +305,14 @@ Text_25:
 
 
 
-RocketHideout6F-26::
+RocketHideout6F_26::
 lock     
 faceplayer     
-msgbox Text_26, MSGBOX_DEFAULT
+msgbox RocketHideout6F_Text_26, MSGBOX_DEFAULT
 release     
 end
 
-Text_26:
+RocketHideout6F_Text_26:
 .string "Tenemos cámaras colocadas por toda\n"
 .string "la RUTA 5 que conectan con esta\l"
 .string "BASE.\l"

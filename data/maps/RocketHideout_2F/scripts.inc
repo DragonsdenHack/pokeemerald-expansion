@@ -1,27 +1,27 @@
 RocketHideout_2F_MapScripts::
 	.byte 0
 
-RocketHideout2F-1::
+RocketHideout2F_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RocketHideout2F_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RocketHideout2F_Text_1:
 .string "Si sirves a la justicia,\n"
 .string "¡traicionas al TEAM ROCKET!$"
 
 
 
-RocketHideout2F-2::
+RocketHideout2F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RocketHideout2F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RocketHideout2F_Text_2:
 .string "La regla número 1 del negocio de\n"
 .string "nuestro CASINO es: nunca consumas\l"
 .string "lo que vendes, nuestros\l"
@@ -34,15 +34,15 @@ Text_2:
 
 
 
-RocketHideout2F-3::
+RocketHideout2F_3::
 end
 
 
 
-RocketHideout2F-4::
+RocketHideout2F_4::
 end
 
 
 
-RocketHideout2F-5::
+RocketHideout2F_5::
 end

@@ -1,14 +1,14 @@
 Cherry_House1_MapScripts::
 	.byte 0
 
-CherryHouse1-1::
+CherryHouse1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox CherryHouse1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+CherryHouse1_Text_1:
 .string "Cada vez es más complicado ver\n"
 .string "POKÉMON como CYNDAQUIL o CHIKORITA\l"
 .string "por estas rutas. El otro día sin\l"
@@ -17,14 +17,14 @@ Text_1:
 
 
 
-CherryHouse1-2::
+CherryHouse1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CherryHouse1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CherryHouse1_Text_2:
 .string "Antes vivíamos en CIUDAD TRIGAL,\n"
 .string "pero se ha masificado demasiado en\l"
 .string "los últimos meses. Hicimos bien en\l"

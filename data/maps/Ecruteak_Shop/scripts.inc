@@ -9,11 +9,11 @@ end
 EcruteakShop2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Ecruteak_ShopText_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Ecruteak_ShopText_2:
 .string "CIUDAD IRIS es la única que vende\n"
 .string "C.SAGRADA aún, cuesta 14000\l"
 .string "POKÉS, pero ya te digo que este\l"
@@ -25,11 +25,11 @@ Text_2:
 EcruteakShop3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Ecruteak_ShopText_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Ecruteak_ShopText_3:
 .string "¿Te imaginas presenciar toda la\n"
 .string "región desde la cima de TORRE\l"
 .string "CAMPANA?\l"
@@ -42,12 +42,12 @@ Text_3:
 EcruteakShop4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Ecruteak_ShopText_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
-.string "Cambio[.]\n"
-.string "Cambio[.]\l"
-.string "Y más cambio[.]\l"
+Ecruteak_ShopText_4:
+.string "Cambio…\n"
+.string "Cambio…\l"
+.string "Y más cambió…\l"
 .string "¡Todo es cambio!$"

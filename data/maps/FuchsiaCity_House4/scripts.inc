@@ -1,5 +1,5 @@
 FuchsiaCity_House4_MapScripts::
 	.byte 0
 
-FuchsiaCityHouse4-1::
+FuchsiaCityHouse4_1::
 end

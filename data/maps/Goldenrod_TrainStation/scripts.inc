@@ -4,26 +4,26 @@ Goldenrod_TrainStation_MapScripts::
 TrainStation1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Goldenrod_TrainStation_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Goldenrod_TrainStation_Text_1:
 .string "En AZAFRÁN aún no han comenzado\n"
 .string "con las obras. Es normal que estén\l"
 .string "más rezagados, con todo el lío que\l"
-.string "han tenido en la LIGA POKÉMON[.]$"
+.string "han tenido en la LIGA POKÉMON…$"
 
 
 
 TrainStation2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Goldenrod_TrainStation_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Goldenrod_TrainStation_Text_2:
 .string "Esta puerta conduce al despacho\n"
 .string "del PRESIDENTE, solo personal\l"
 .string "autorizado puede entrar.$"
@@ -33,11 +33,11 @@ Text_2:
 TrainStation3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Goldenrod_TrainStation_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Goldenrod_TrainStation_Text_3:
 .string "Ve con cuidado joven. Mientras\n"
 .string "allanamos el terreno para\l"
 .string "construir las vías puedes pasar a\l"
@@ -48,11 +48,11 @@ Text_3:
 TrainStation4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Goldenrod_TrainStation_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Goldenrod_TrainStation_Text_4:
 .string "El MAGNETOTRÉN levitará por\n"
 .string "magnetismo, alcanzando velocidades\l"
 .string "de hasta 500 Km/h. ¡Llegará a\l"
@@ -63,11 +63,11 @@ Text_4:
 TrainStation5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Goldenrod_TrainStation_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Goldenrod_TrainStation_Text_5:
 .string "¡KANTO y JOHTO estarán más cerca\n"
 .string "que nunca!\l"
 .string "¿No es genial?$"

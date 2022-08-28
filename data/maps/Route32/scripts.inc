@@ -1,62 +1,62 @@
 Route32_MapScripts::
 	.byte 0
 
-Route32-1::
+Route32_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route32_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
-.string "Maldición[.]\n"
+Route32_Text_1:
+.string "Maldición…\n"
 .string "Espero que pronto abran las\l"
-.string "fronteras de RUTA 26[.]$"
+.string "fronteras de RUTA 26…$"
 
 
 
-Route32-2::
+Route32_2::
 end
 
 
 
-Route32-3::
+Route32_3::
 end
 
 
 
-Route32-4::
+Route32_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Route32_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Route32_Text_4:
 .string "¿SANDSLASH?\n"
 .string "¡Aquí tenemos a DONPHAN, es mucho\l"
 .string "más potente y resistente!$"
 
 
 
-Route32-5::
+Route32_5::
 end
 
 
 
-Route32-6::
+Route32_6::
 end
 
 
 
-Route32-7::
+Route32_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox Route32_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+Route32_Text_7:
 .string "¿Un CENTRO POKÉMON aquí?\n"
 .string "He oído que van a construir dentro\l"
 .string "de poco. La verdad que hace falta.\l"
@@ -66,55 +66,55 @@ Text_7:
 
 
 
-Route32-8::
+Route32_8::
 end
 
 
 
-Route32-9::
+Route32_9::
 end
 
 
 
-Route32-10::
+Route32_10::
 end
 
 
 
-Route32-11::
+Route32_11::
 end
 
 
 
-Route32-12::
+Route32_12::
 end
 
 
 
-Route32-13::
+Route32_13::
 end
 
 
 
-Route32-14::
+Route32_14::
 end
 
 
 
-Route32-15::
+Route32_15::
 end
 
 
 
-Route32-16::
+Route32_16::
 end
 
 
 
-Route32-17::
+Route32_17::
 end
 
 
 
-Route32-18::
+Route32_18::
 end

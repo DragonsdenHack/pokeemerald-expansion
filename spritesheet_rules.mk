@@ -868,13 +868,13 @@ $(OBJEVENTGFXDIR)/people/vendedorajohto.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/vendedorjohto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/woman12.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/woman_12.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
+
+$(OBJEVENTGFXDIR)/people/woman_22.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/woman22.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
-
-$(OBJEVENTGFXDIR)/people/woman33.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/woman_33.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/worker_f.4bpp: %.4bpp: %.png

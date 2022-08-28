@@ -9,11 +9,11 @@ end
 CeruleanCityPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CeruleanCity_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CeruleanCity_PokemonCenter_Text_2:
 .string "Deja de perder el tiempo sirviendo\n"
 .string "a una panda de ladrones sin futuro\l"
 .string "y haz algo con tu vida, niño.$"
@@ -23,11 +23,11 @@ Text_2:
 CeruleanCityPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CeruleanCity_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CeruleanCity_PokemonCenter_Text_3:
 .string "¡Debería darte verguenza andar\n"
 .string "como si nada con esa vestimenta!$"
 
@@ -36,11 +36,11 @@ Text_3:
 CeruleanCityPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CeruleanCity_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CeruleanCity_PokemonCenter_Text_4:
 .string "Si por mi fuera, os prohibiría\n"
 .string "entrar incluso a los CENTROS\l"
 .string "POKÉMON, los ROCKET no merecen\l"
@@ -52,11 +52,11 @@ Text_4:
 CeruleanCityPokemonCenter5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox CeruleanCity_PokemonCenter_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+CeruleanCity_PokemonCenter_Text_5:
 .string "Dicen que BILL tiene POKÉMON que\n"
 .string "nadie más tiene, ¡me gustaría\l"
 .string "verlos!$"

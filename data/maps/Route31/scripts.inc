@@ -1,14 +1,14 @@
 Route31_MapScripts::
 	.byte 0
 
-Route31-1::
+Route31_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route31_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Route31_Text_1:
 .string "El acceso a la cueva en estos\n"
 .string "momentos está cortado, ha habido\l"
 .string "un pequeño desprendimiento en su\l"
@@ -18,19 +18,19 @@ Text_1:
 
 
 
-Route31-2::
+Route31_2::
 end
 
 
 
-Route31-3::
+Route31_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Route31_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Route31_Text_3:
 .string "Tú no eres de por aquí, ¿verdad?\n"
 .string "¿Vienes de CIUDAD OLIVO?\l"
 .string "¿¡KANTO!?\l"
@@ -39,44 +39,44 @@ Text_3:
 
 
 
-Route31-4::
+Route31_4::
 end
 
 
 
-Route31-5::
+Route31_5::
 end
 
 
 
-Route31-6::
+Route31_6::
 end
 
 
 
-Route31-7::
+Route31_7::
 end
 
 
 
-Route31-8::
+Route31_8::
 end
 
 
 
-Route31-9::
+Route31_9::
 end
 
 
 
-Route31-10::
+Route31_10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox Route31_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+Route31_Text_10:
 .string "Al oeste está CIUDAD MALVA,\n"
 .string "conocida por su TORRE BELLSPROUT,\l"
 .string "el lugar más antiguo y espiritual\l"
@@ -85,5 +85,5 @@ Text_10:
 
 
 
-Route31-11::
+Route31_11::
 end

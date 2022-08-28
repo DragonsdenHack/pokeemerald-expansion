@@ -1,19 +1,19 @@
 RocketHideout_5F_MapScripts::
 	.byte 0
 
-RocketHideout5F-2::
+RocketHideout5F_2::
 end
 
 
 
-RocketHideout5F-3::
+RocketHideout5F_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RocketHideout5F_Text_3:
 .string "Nos interesa que KANTO crea que\n"
 .string "somos una manada de inútiles sin\l"
 .string "cerebro, no puedes defenderte\l"
@@ -22,43 +22,43 @@ Text_3:
 
 
 
-RocketHideout5F-4::
+RocketHideout5F_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+RocketHideout5F_Text_4:
 .string "GIOVANNI es el mejor líder que\n"
 .string "podemos tener, nunca dejará que el\l"
 .string "TEAM ROCKET caiga.$"
 
 
 
-RocketHideout5F-5::
+RocketHideout5F_5::
 end
 
 
 
-RocketHideout5F-6::
+RocketHideout5F_6::
 end
 
 
 
-RocketHideout5F-7::
+RocketHideout5F_7::
 end
 
 
 
-RocketHideout5F-8::
+RocketHideout5F_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+RocketHideout5F_Text_8:
 .string "Todo gran negocio se construye en\n"
 .string "torno a un gran secreto oculto al\l"
 .string "exterior chico, este lugar es uno\l"
@@ -67,14 +67,14 @@ Text_8:
 
 
 
-RocketHideout5F-9::
+RocketHideout5F_9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+RocketHideout5F_Text_9:
 .string "Estás en el ÁREA 1 de la verdadera\n"
 .string "BASE ROCKET, aquí tratamos de\l"
 .string "entender y extraer el máximo\l"
@@ -85,14 +85,14 @@ Text_9:
 
 
 
-RocketHideout5F-10::
+RocketHideout5F_10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+RocketHideout5F_Text_10:
 .string "Dicen que -Los 7 hábitos de la\n"
 .string "gente altamente efectiva-, del\l"
 .string "doctor Stephen Covey, hicieron que\l"
@@ -102,14 +102,14 @@ Text_10:
 
 
 
-RocketHideout5F-11::
+RocketHideout5F_11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+RocketHideout5F_Text_11:
 .string "-1984-, de George Orwell, -Un\n"
 .string "mundo Feliz-, de Aldous Huxley y\l"
 .string "-El hombre en busca de sentido-,\l"
@@ -119,24 +119,24 @@ Text_11:
 
 
 
-RocketHideout5F-12::
+RocketHideout5F_12::
 end
 
 
 
-RocketHideout5F-13::
+RocketHideout5F_13::
 end
 
 
 
-RocketHideout5F-14::
+RocketHideout5F_14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+RocketHideout5F_Text_14:
 .string "Procura automatizar lo máximo\n"
 .string "posible las transiciones entre\l"
 .string "actividades, no les des respiro o\l"
@@ -145,14 +145,14 @@ Text_14:
 
 
 
-RocketHideout5F-15::
+RocketHideout5F_15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
+RocketHideout5F_Text_15:
 .string "Los que gobiernan se conocen tan\n"
 .string "bien las leyes que parece que\l"
 .string "hacen trampas, es más, han\l"
@@ -164,14 +164,14 @@ Text_15:
 
 
 
-RocketHideout5F-16::
+RocketHideout5F_16::
 lock     
 faceplayer     
-msgbox Text_16, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_16, MSGBOX_DEFAULT
 release     
 end
 
-Text_16:
+RocketHideout5F_Text_16:
 .string "El confort encarcela a la gente en\n"
 .string "un miedo al dolor de umbral muy\l"
 .string "bajo, es por eso que la población\l"
@@ -179,14 +179,14 @@ Text_16:
 
 
 
-RocketHideout5F-17::
+RocketHideout5F_17::
 lock     
 faceplayer     
-msgbox Text_17, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_17, MSGBOX_DEFAULT
 release     
 end
 
-Text_17:
+RocketHideout5F_Text_17:
 .string "El último siglo ha demostrado la\n"
 .string "gran dependencia económica de la\l"
 .string "ciencia, sea como sea, debemos\l"
@@ -197,14 +197,14 @@ Text_17:
 
 
 
-RocketHideout5F-18::
+RocketHideout5F_18::
 lock     
 faceplayer     
-msgbox Text_18, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_18, MSGBOX_DEFAULT
 release     
 end
 
-Text_18:
+RocketHideout5F_Text_18:
 .string "A veces las leyes de la naturaleza\n"
 .string "pueden llegar a ser más fuertes\l"
 .string "que nuestros anhelos personales,\l"
@@ -219,7 +219,7 @@ Text_18:
 .string "potencial, puede llegar a\l"
 .string "experimentar el fenómeno de la\l"
 .string "MEGA-EVOLUCIÓN, que lo catapulta\l"
-.string "hasta los 579 STATS BASE[.]1 solo\l"
+.string "hasta los 579 STATS BASE…1 solo\l"
 .string "punto menos que los 580\l"
 .string "característicos de los 3 PÁJAROS\l"
 .string "LEGENDARIOS, ¿coincidencia?, no lo\l"
@@ -239,14 +239,14 @@ Text_18:
 
 
 
-RocketHideout5F-19::
+RocketHideout5F_19::
 lock     
 faceplayer     
-msgbox Text_19, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_19, MSGBOX_DEFAULT
 release     
 end
 
-Text_19:
+RocketHideout5F_Text_19:
 .string "La ley de Parkinson sostiene que\n"
 .string "el trabajo se expande hasta llenar\l"
 .string "el tiempo del que se dispone para\l"
@@ -276,19 +276,19 @@ Text_19:
 
 
 
-RocketHideout5F-20::
+RocketHideout5F_20::
 end
 
 
 
-RocketHideout5F-21::
+RocketHideout5F_21::
 lock     
 faceplayer     
-msgbox Text_21, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_21, MSGBOX_DEFAULT
 release     
 end
 
-Text_21:
+RocketHideout5F_Text_21:
 .string "¿Destino o libre albedrío?\n"
 .string "La respuesta a esa pregunta no\l"
 .string "depende de ti, así que cállate la\l"
@@ -298,19 +298,19 @@ Text_21:
 
 
 
-RocketHideout5F-22::
+RocketHideout5F_22::
 end
 
 
 
-RocketHideout5F-23::
+RocketHideout5F_23::
 lock     
 faceplayer     
-msgbox Text_23, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_23, MSGBOX_DEFAULT
 release     
 end
 
-Text_23:
+RocketHideout5F_Text_23:
 .string "El gobierno de LANCE está muy\n"
 .string "cómodo en su posición, y ese es\l"
 .string "precisamente su punto débil, se\l"
@@ -319,14 +319,14 @@ Text_23:
 
 
 
-RocketHideout5F-24::
+RocketHideout5F_24::
 lock     
 faceplayer     
-msgbox Text_24, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_24, MSGBOX_DEFAULT
 release     
 end
 
-Text_24:
+RocketHideout5F_Text_24:
 .string "Genética, una palabra crucial.\n"
 .string "¿Por qué un MAGIKARP es tan débil?\l"
 .string "¿Por qué las aves sagradas son tan\l"
@@ -340,14 +340,14 @@ Text_24:
 
 
 
-RocketHideout5F-25::
+RocketHideout5F_25::
 lock     
 faceplayer     
-msgbox Text_25, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_25, MSGBOX_DEFAULT
 release     
 end
 
-Text_25:
+RocketHideout5F_Text_25:
 .string "Esta sala estaba reservada a hacer\n"
 .string "balance de nuestros progresos y\l"
 .string "establecer nuevos objetivos, sin\l"
@@ -361,19 +361,19 @@ Text_25:
 
 
 
-RocketHideout5F-26::
+RocketHideout5F_26::
 end
 
 
 
-RocketHideout5F-27::
+RocketHideout5F_27::
 lock     
 faceplayer     
-msgbox Text_27, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_27, MSGBOX_DEFAULT
 release     
 end
 
-Text_27:
+RocketHideout5F_Text_27:
 .string "No verás muchos entrenadores con\n"
 .string "Pokémon como PINSIR, SCYTHER,\l"
 .string "TAUROS, KANGASKHAN o las\l"
@@ -386,14 +386,14 @@ Text_27:
 
 
 
-RocketHideout5F-28::
+RocketHideout5F_28::
 lock     
 faceplayer     
-msgbox Text_28, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_28, MSGBOX_DEFAULT
 release     
 end
 
-Text_28:
+RocketHideout5F_Text_28:
 .string "La sensación de expectativas,\n"
 .string "optimismo, planificación y grandes\l"
 .string "planes de futuro que se respira\l"
@@ -404,14 +404,14 @@ Text_28:
 
 
 
-RocketHideout5F-29::
+RocketHideout5F_29::
 lock     
 faceplayer     
-msgbox Text_29, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_29, MSGBOX_DEFAULT
 release     
 end
 
-Text_29:
+RocketHideout5F_Text_29:
 .string "Alguien dijo una vez que obsesión\n"
 .string "es la palabra que emplean los\l"
 .string "perezosos para describir a los\l"
@@ -427,14 +427,14 @@ Text_29:
 
 
 
-RocketHideout5F-30::
+RocketHideout5F_30::
 lock     
 faceplayer     
-msgbox Text_30, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_30, MSGBOX_DEFAULT
 release     
 end
 
-Text_30:
+RocketHideout5F_Text_30:
 .string "Desde aquí abogamos por el\n"
 .string "progreso constante y gradual, pero\l"
 .string "sabemos también del potencial\l"
@@ -458,19 +458,19 @@ Text_30:
 
 
 
-RocketHideout5F-31::
+RocketHideout5F_31::
 end
 
 
 
-RocketHideout5F-32::
+RocketHideout5F_32::
 lock     
 faceplayer     
-msgbox Text_32, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_32, MSGBOX_DEFAULT
 release     
 end
 
-Text_32:
+RocketHideout5F_Text_32:
 .string "Pocos saben que el TEAM ROCKET no\n"
 .string "fue fundado realmente por\l"
 .string "GIOVANNI, sino que fue su madre,\l"
@@ -479,18 +479,18 @@ Text_32:
 .string "atrapar al legendario MEW, el\l"
 .string "ancestro de todos los Pokémon allá\l"
 .string "por 1975, si viera todo lo logrado\l"
-.string "hasta ahora[.]$"
+.string "hasta ahora…$"
 
 
 
-RocketHideout5F-33::
+RocketHideout5F_33::
 lock     
 faceplayer     
-msgbox Text_33, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_33, MSGBOX_DEFAULT
 release     
 end
 
-Text_33:
+RocketHideout5F_Text_33:
 .string "Ahí fuera se deforma la realidad\n"
 .string "de tantas formas posibles, y es\l"
 .string "entendible que lo hagan, en la\l"
@@ -507,14 +507,14 @@ Text_33:
 
 
 
-RocketHideout5F-34::
+RocketHideout5F_34::
 lock     
 faceplayer     
-msgbox Text_34, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_34, MSGBOX_DEFAULT
 release     
 end
 
-Text_34:
+RocketHideout5F_Text_34:
 .string "¿Por qué le damos tanta\n"
 .string "importancia a los números y a los\l"
 .string "resultados?\l"
@@ -544,14 +544,14 @@ Text_34:
 
 
 
-RocketHideout5F-35::
+RocketHideout5F_35::
 lock     
 faceplayer     
-msgbox Text_35, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_35, MSGBOX_DEFAULT
 release     
 end
 
-Text_35:
+RocketHideout5F_Text_35:
 .string "La competencia hoy en día es\n"
 .string "enorme chico, nunca más en la\l"
 .string "historia volverá ningún otro\l"
@@ -562,14 +562,14 @@ Text_35:
 
 
 
-RocketHideout5F-36::
+RocketHideout5F_36::
 lock     
 faceplayer     
-msgbox Text_36, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_36, MSGBOX_DEFAULT
 release     
 end
 
-Text_36:
+RocketHideout5F_Text_36:
 .string "Si la gente supiera los beneficios\n"
 .string "que tiene sostener una pequeña\l"
 .string "mejora a largo plazo, comenzarían\l"
@@ -589,18 +589,18 @@ Text_36:
 .string "perspectiva, psicológicamente da\l"
 .string "la impresión de que pueda\l"
 .string "progresarse hasta el infinito\l"
-.string "aunque en la práctica no sea así[.]$"
+.string "aunque en la práctica no sea así…$"
 
 
 
-RocketHideout5F-37::
+RocketHideout5F_37::
 lock     
 faceplayer     
-msgbox Text_37, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_37, MSGBOX_DEFAULT
 release     
 end
 
-Text_37:
+RocketHideout5F_Text_37:
 .string "¡Buajajajajajajjaja!\n"
 .string "Tiene gracia, estamos a 40 metros\l"
 .string "bajo tierra, pero tenemos a CIUDAD\l"
@@ -609,32 +609,32 @@ Text_37:
 
 
 
-RocketHideout5F-38::
+RocketHideout5F_38::
 lock     
 faceplayer     
-msgbox Text_38, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_38, MSGBOX_DEFAULT
 release     
 end
 
-Text_38:
+RocketHideout5F_Text_38:
 .string "En el pasado nada se pierde, para\n"
 .string "bien o para mal nada puede\l"
 .string "deshacer tus acciones pasadas,\l"
 .string "todo queda almacenado para\l"
 .string "siempre, no es aniquilado por la\l"
-.string "transitoriedad[.]y esa también es\l"
+.string "transitoriedad…y esa también es\l"
 .string "otra forma de inmortalidad.$"
 
 
 
-RocketHideout5F-39::
+RocketHideout5F_39::
 lock     
 faceplayer     
-msgbox Text_39, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_39, MSGBOX_DEFAULT
 release     
 end
 
-Text_39:
+RocketHideout5F_Text_39:
 .string "Dicen que pensar es gratis, que\n"
 .string "irónico.\l"
 .string "¡Le está saliendo carísimo a la\l"
@@ -642,39 +642,39 @@ Text_39:
 
 
 
-RocketHideout5F-40::
+RocketHideout5F_40::
 lock     
 faceplayer     
-msgbox Text_40, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_40, MSGBOX_DEFAULT
 release     
 end
 
-Text_40:
+RocketHideout5F_Text_40:
 .string "Tu equipo es imperfecto, puedo\n"
 .string "verlo, aunque he de admitir que\l"
 .string "para tus recursos, es un mucho\l"
 .string "mejor equipo que el de toda esa\l"
 .string "escoria que circula por las rutas\l"
 .string "y ciudades comunes y se hacen\l"
-.string "llamar entrenadores[.]los mejores\l"
+.string "llamar entrenadores…los mejores\l"
 .string "entrenadores de esta región no se\l"
 .string "dejan ver tan facilmente.$"
 
 
 
-RocketHideout5F-41::
+RocketHideout5F_41::
 end
 
 
 
-RocketHideout5F-42::
+RocketHideout5F_42::
 lock     
 faceplayer     
-msgbox Text_42, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_42, MSGBOX_DEFAULT
 release     
 end
 
-Text_42:
+RocketHideout5F_Text_42:
 .string "NIDOKING y NIDOQUEEN, son dos de\n"
 .string "los Pokémon más preciados por\l"
 .string "nuestra organización, si te haces\l"
@@ -683,14 +683,14 @@ Text_42:
 
 
 
-RocketHideout5F-43::
+RocketHideout5F_43::
 lock     
 faceplayer     
-msgbox Text_43, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_43, MSGBOX_DEFAULT
 release     
 end
 
-Text_43:
+RocketHideout5F_Text_43:
 .string "La fuente es un gran símbolo de\n"
 .string "poder, abundancia de recursos y\l"
 .string "jerarquía, nadie puede superar al\l"
@@ -700,14 +700,14 @@ Text_43:
 
 
 
-RocketHideout5F-44::
+RocketHideout5F_44::
 lock     
 faceplayer     
-msgbox Text_44, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_44, MSGBOX_DEFAULT
 release     
 end
 
-Text_44:
+RocketHideout5F_Text_44:
 .string "Este lugar es uno de los mayores\n"
 .string "ejemplos del poder de la ciencia,\l"
 .string "¿perdemos rendimiento, capacidad y\l"
@@ -719,14 +719,14 @@ Text_44:
 
 
 
-RocketHideout5F-45::
+RocketHideout5F_45::
 lock     
 faceplayer     
-msgbox Text_45, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_45, MSGBOX_DEFAULT
 release     
 end
 
-Text_45:
+RocketHideout5F_Text_45:
 .string "El PRESIDENTE de SILPH y GIOVANNI\n"
 .string "han mantenido siempre una intensa\l"
 .string "rivalidad, si en SILPH se\l"
@@ -735,27 +735,27 @@ Text_45:
 .string "construir una aún más grande con\l"
 .string "tal de quedar mejor, aunque sea\l"
 .string "colocándola en la azotea, pero la\l"
-.string "construiría[.]$"
+.string "construiría…$"
 
 
 
-RocketHideout5F-46::
+RocketHideout5F_46::
 end
 
 
 
-RocketHideout5F-47::
+RocketHideout5F_47::
 lock     
 faceplayer     
-msgbox Text_47, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_47, MSGBOX_DEFAULT
 release     
 end
 
-Text_47:
+RocketHideout5F_Text_47:
 .string "El precio de los objetos\n"
 .string "incrementadores del nivel de\l"
 .string "esfuerzo del POKÉMON (PROTEÍNA,\l"
-.string "HIERRO[.])y la diferencia de\l"
+.string "HIERRO…)y la diferencia de\l"
 .string "precios entre este lugar y el\l"
 .string "exterior resume todo: aquí se dan\l"
 .string "facilidades para que los soldados\l"
@@ -773,24 +773,24 @@ Text_47:
 
 
 
-RocketHideout5F-48::
+RocketHideout5F_48::
 end
 
 
 
-RocketHideout5F-49::
+RocketHideout5F_49::
 end
 
 
 
-RocketHideout5F-50::
+RocketHideout5F_50::
 lock     
 faceplayer     
-msgbox Text_50, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_50, MSGBOX_DEFAULT
 release     
 end
 
-Text_50:
+RocketHideout5F_Text_50:
 .string "Lo cierto es que nuestra región no\n"
 .string "tiene nada de especial, muchos\l"
 .string "piensan que tenemos a los mejores\l"
@@ -810,18 +810,18 @@ Text_50:
 .string "con 600 de base, la única arma que\l"
 .string "puede emplear KANTO para competir\l"
 .string "en ese sentido con otras regiones\l"
-.string "es el uso de su tecnología[.]$"
+.string "es el uso de su tecnología…$"
 
 
 
-RocketHideout5F-51::
+RocketHideout5F_51::
 lock     
 faceplayer     
-msgbox Text_51, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_51, MSGBOX_DEFAULT
 release     
 end
 
-Text_51:
+RocketHideout5F_Text_51:
 .string "Esta gran mesa recopila los datos\n"
 .string "fundamentales de los 15 Pokémon no\l"
 .string "legendarios más poderosos de\l"
@@ -833,14 +833,14 @@ Text_51:
 
 
 
-RocketHideout5F-52::
+RocketHideout5F_52::
 lock     
 faceplayer     
-msgbox Text_52, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_52, MSGBOX_DEFAULT
 release     
 end
 
-Text_52:
+RocketHideout5F_Text_52:
 .string "¡Ilusos!\n"
 .string "¡Creían que iban a limitarnos a\l"
 .string "los servicios de curación básicos\l"
@@ -856,14 +856,14 @@ Text_52:
 
 
 
-RocketHideout5F-53::
+RocketHideout5F_53::
 lock     
 faceplayer     
-msgbox Text_53, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_53, MSGBOX_DEFAULT
 release     
 end
 
-Text_53:
+RocketHideout5F_Text_53:
 .string "No verás muchos entrenadores con\n"
 .string "Pokémon como PINSIR, SCYTHER,\l"
 .string "TAUROS, KANGASKHAN o las\l"
@@ -876,27 +876,27 @@ Text_53:
 
 
 
-RocketHideout5F-54::
+RocketHideout5F_54::
 lock     
 faceplayer     
-msgbox Text_54, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_54, MSGBOX_DEFAULT
 release     
 end
 
-Text_54:
+RocketHideout5F_Text_54:
 .string "El miedo es el peor enemigo del\n"
 .string "progreso chico.$"
 
 
 
-RocketHideout5F-55::
+RocketHideout5F_55::
 lock     
 faceplayer     
-msgbox Text_55, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_55, MSGBOX_DEFAULT
 release     
 end
 
-Text_55:
+RocketHideout5F_Text_55:
 .string "Nos lo hemos sabido montar\n"
 .string "realmente bien, esos ricachones\l"
 .string "que se pasan por el centro de\l"
@@ -908,28 +908,28 @@ Text_55:
 
 
 
-RocketHideout5F-56::
+RocketHideout5F_56::
 lock     
 faceplayer     
-msgbox Text_56, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_56, MSGBOX_DEFAULT
 release     
 end
 
-Text_56:
+RocketHideout5F_Text_56:
 .string "A más de uno le explotaría la\n"
 .string "cabeza si viera la que tenemos\l"
 .string "aquí montada.$"
 
 
 
-RocketHideout5F-57::
+RocketHideout5F_57::
 lock     
 faceplayer     
-msgbox Text_57, MSGBOX_DEFAULT
+msgbox RocketHideout5F_Text_57, MSGBOX_DEFAULT
 release     
 end
 
-Text_57:
+RocketHideout5F_Text_57:
 .string "EXEGGUTOR o KINGLER son dos\n"
 .string "Pokémon con estadísticas base\l"
 .string "formidables que suelen pasar\l"
@@ -942,15 +942,15 @@ Text_57:
 
 
 
-RocketHideout5F-58::
+RocketHideout5F_58::
 end
 
 
 
-RocketHideout5F-59::
+RocketHideout5F_59::
 end
 
 
 
-RocketHideout5F-60::
+RocketHideout5F_60::
 end

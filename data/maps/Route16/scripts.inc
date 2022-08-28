@@ -1,113 +1,113 @@
 Route16_MapScripts::
 	.byte 0
 
-Route16-1::
+Route16_1::
 end
 
 
-Route16-2::
+Route16_2::
 end
 
 
-Route16-3::
+Route16_3::
 end
 
 
-Route16-4::
+Route16_4::
 end
 
 
-Route16-5::
+Route16_5::
 end
 
 
-Route16-6::
+Route16_6::
 end
 
 
-Route16-7::
+Route16_7::
 end
 
 
-Route16-8::
+Route16_8::
 end
 
 
-Route16-9::
+Route16_9::
 end
 
 
-Route16-10::
+Route16_10::
 end
 
 
-Route16-11::
+Route16_11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox Route16_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
-.string "Ese HITMONLEE pegaba durísimo[.]$"
+Route16_Text_11:
+.string "Ese HITMONLEE pegaba durísimo…$"
 
 
-Route16-12::
+Route16_12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox Route16_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+Route16_Text_12:
 .string "Ha acabado con nosotros 4 usando\n"
-.string "solo a 2 POKÉMON[.]$"
+.string "solo a 2 POKÉMON…$"
 
 
 
-Route16-13::
+Route16_13::
 lock     
 faceplayer     
-msgbox Text_13, MSGBOX_DEFAULT
+msgbox Route16_Text_13, MSGBOX_DEFAULT
 release     
 end
 
-Text_13:
-.string "Ilusos[.]\n"
+Route16_Text_13:
+.string "Ilusos…\n"
 .string "Nadie que desafíe a un miembro de\l"
 .string "la ÉLITE 4 puede salir bien\l"
-.string "parado[.]$"
+.string "parado…$"
 
 
-Route16-14::
+Route16_14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox Route16_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+Route16_Text_14:
 .string "Así que este es el poder de la\n"
-.string "ÉLITE 4[.]$"
+.string "ÉLITE 4…$"
 
-Route16-15::
+Route16_15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox Route16_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
-.string "Solo os queda hablar[.]o ir a\n"
+Route16_Text_15:
+.string "Solo os queda hablar…o ir a\n"
 .string "prisión.$"
 
 
-Route16-16::
+Route16_16::
 lock     
 faceplayer     
-msgbox Text_16, MSGBOX_DEFAULT
+msgbox Route16_Text_16, MSGBOX_DEFAULT
 release     
 end
 
-Text_16:
-.string "Ya los tenemos donde queríamos[.]$"
+Route16_Text_16:
+.string "Ya los tenemos donde queríamos…$"

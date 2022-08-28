@@ -1,19 +1,19 @@
 Route34_MapScripts::
 	.byte 0
 
-Route34-1::
+Route34_1::
 end
 
 
 
-Route34-2::
+Route34_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route34_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route34_Text_2:
 .string "Los ancianos que se ocupan de la\n"
 .string "GUARDERÍA están de vacaciones,\l"
 .string "dicen que no volverán hasta que la\l"
@@ -21,19 +21,19 @@ Text_2:
 
 
 
-Route34-3::
+Route34_3::
 end
 
 
 
-Route34-9::
+Route34_9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox Route34_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+Route34_Text_9:
 .string "¡Cada vez pican menos peces por\n"
 .string "aquí!\l"
 .string "¡Todos los POKÉMON acuáticos se\l"
@@ -42,34 +42,34 @@ Text_9:
 
 
 
-Route34-10::
+Route34_10::
 end
 
 
 
-Route34-11::
+Route34_11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox Route34_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+Route34_Text_11:
 .string "CIUDAD TRIGAL está irreconocible,\n"
 .string "¡la vida moderna se ha apoderado\l"
 .string "de ella!$"
 
 
 
-Route34-12::
+Route34_12::
 end
 
 
 
-Route34-13::
+Route34_13::
 end
 
 
 
-Route34-14::
+Route34_14::
 end

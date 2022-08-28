@@ -4,12 +4,12 @@ Route51_House_MapScripts::
 Route51House1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route51_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
-.string "Ah, el tiempo[.]\n"
+Route51_House1_Text_1:
+.string "Ah, el tiempo…\n"
 .string "Nunca se ha detenido, y nunca lo\l"
 .string "hará, pronto el siglo XX morirá\l"
 .string "para dar paso al XXI, y todo lo\l"
@@ -25,7 +25,7 @@ Text_1:
 .string "Sin embargo, en el pasado nada se\l"
 .string "pierde, para bien o para mal, todo\l"
 .string "lo acontecido se vuelve\l"
-.string "imborrable, inmortal[.]\l"
+.string "imborrable, inmortal…\l"
 .string "La cuestión es, ¿podrás tú influir\l"
 .string "en lo que aún hay por escribir en\l"
 .string "ese cuaderno?$"
@@ -35,11 +35,11 @@ Text_1:
 Route51House2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route51_House1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route51_House1_Text_2:
 .string "¡He visto el futuro!\n"
 .string "¡En octubre de 1996 ese ENTRENADOR\l"
 .string "inició su aventura!\l"

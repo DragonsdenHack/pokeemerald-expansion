@@ -4,11 +4,11 @@ KindleRoad_MapScripts::
 KindleRoad1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox KindleRoad_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+KindleRoad_Text_1:
 .string "Lo sentimos pero ha habido un\n"
 .string "desprendimiento y el acceso al\l"
 .string "MT.ASCUAS estará cortado hasta que\l"
@@ -19,11 +19,11 @@ Text_1:
 KindleRoad2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox KindleRoad_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+KindleRoad_Text_2:
 .string "Lo sentimos pero ha habido un\n"
 .string "desprendimiento y el acceso al\l"
 .string "MT.ASCUAS estará cortado hasta que\l"

@@ -1,24 +1,24 @@
 Goldenrod_ShopCenterP1_MapScripts::
 	.byte 0
 
-GoldenrodShopCenterP1-1::
+GoldenrodShopCenterP1_1::
 end
 
 
 
-GoldenrodShopCenterP1-2::
+GoldenrodShopCenterP1_2::
 end
 
 
 
-GoldenrodShopCenterP1-3::
+GoldenrodShopCenterP1_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Goldenrod_ShopP1_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Goldenrod_ShopP1_Text_3:
 .string "Poca gente lo sabe, pero las\n"
 .string "bebidas de estas máquinas\l"
 .string "expendedoras son mucho más\l"
@@ -29,14 +29,14 @@ Text_3:
 
 
 
-GoldenrodShopCenterP1-4::
+GoldenrodShopCenterP1_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Goldenrod_ShopP1_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Goldenrod_ShopP1_Text_4:
 .string "Compré un LARVITAR en el CASINO,\n"
 .string "ahora estoy pagando a un experto\l"
 .string "para que lo convierta en\l"
@@ -47,14 +47,14 @@ Text_4:
 
 
 
-GoldenrodShopCenterP1-5::
+GoldenrodShopCenterP1_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Goldenrod_ShopP1_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Goldenrod_ShopP1_Text_5:
 .string "Dicen que el CENTRO COMERCIAL de\n"
 .string "AZULONA es aún más grande que\l"
 .string "este.\l"

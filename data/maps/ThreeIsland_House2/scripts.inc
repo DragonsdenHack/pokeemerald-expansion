@@ -1,14 +1,14 @@
 ThreeIsland_House2_MapScripts::
 	.byte 0
 
-ThreeIslandHouse2-1::
+ThreeIslandHouse2_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox ThreeIsland_House2_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+ThreeIsland_House2_Text_1:
 .string "¡Urrrrrrrrgggg!...\n"
 .string "¡Fffwaaaaah!\p"
 .string "¡Nada!... ¡No hay manera!\n"
@@ -19,14 +19,14 @@ Text_1:
 
 
 
-ThreeIslandHouse2-2::
+ThreeIslandHouse2_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox ThreeIsland_House2_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+ThreeIsland_House2_Text_2:
 .string "¿Sabes algo de la LÍDER del\n"
 .string "GIMNASIO de AZAFRÁN?\p"
 .string "Usa POKéMON del tipo PSÍQUICO,\n"

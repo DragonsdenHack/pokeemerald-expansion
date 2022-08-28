@@ -14,11 +14,11 @@ end
 IndigoPlateauPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox IndigoPlateau_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+IndigoPlateau_PokemonCenter_Text_3:
 .string "No sé quien eres ni de donde has\n"
 .string "salido, pero poco importa chico,\l"
 .string "este campeonato ya tiene dueño.\l"
@@ -36,19 +36,19 @@ end
 IndigoPlateauPokemonCenter5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox IndigoPlateau_PokemonCenter_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+IndigoPlateau_PokemonCenter_Text_5:
 .string "Los POKéMON de tipo FANTASMA\n"
 .string "de AGATHA son escalofriantemente\l"
 .string "fuertes.\p"
 .string "Yo me puse a criar a mis POKéMON\n"
 .string "del tipo LUCHA con todas las ganas\l"
-.string "del mundo...\p"
+.string "del mundo…\p"
 .string "Y me planté ante AGATHA convencido\n"
-.string "de que podría ganar... y no quiero\l"
+.string "de que podría ganar… y no quiero\l"
 .string "ni contarte la paliza que me dio.\p"
 .string "Además, ¡no sabes el genio que\n"
 .string "tiene la señora!\p"
@@ -60,11 +60,11 @@ Text_5:
 IndigoPlateauPokemonCenter6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox IndigoPlateau_PokemonCenter_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+IndigoPlateau_PokemonCenter_Text_6:
 .string "Yo creo que lo de ser del ALTO\n"
 .string "MANDO se lleva en la sangre.\p"
 .string "Por lo que sé, un primo de LANCE\n"

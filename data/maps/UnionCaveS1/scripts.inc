@@ -1,15 +1,15 @@
 UnionCaveS1_MapScripts::
 	.byte 0
 
-UnionCaveS1-1::
+UnionCaveS1_1::
 end
 
 
 
-UnionCaveS1-2::
+UnionCaveS1_2::
 end
 
 
 
-UnionCaveS1-4::
+UnionCaveS1_4::
 end

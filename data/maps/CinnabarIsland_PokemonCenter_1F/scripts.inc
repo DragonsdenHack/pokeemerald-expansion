@@ -9,11 +9,11 @@ end
 CinnabarIslandPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CinnabarIsland_Center_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CinnabarIsland_Center_Text_2:
 .string "A veces es conveniente no\n"
 .string "evolucionar demasiado pronto a un\l"
 .string "POKÉMON, ya que en sus formas\l"
@@ -27,11 +27,11 @@ Text_2:
 CinnabarIslandPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CinnabarIsland_Center_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CinnabarIsland_Center_Text_3:
 .string "Los ROCKET no sois bienvenidos\n"
 .string "por aquí, nuestro LÍDER de\l"
 .string "GIMNASIO nunca dejaría que este\l"
@@ -43,11 +43,11 @@ Text_3:
 CinnabarIslandPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CinnabarIsland_Center_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CinnabarIsland_Center_Text_4:
 .string "Quería entrar en el GIMNASIO de\n"
 .string "CANELA, pero la puerta está\l"
 .string "cerrada a cal y canto.\l"

@@ -4,11 +4,11 @@ FuchsiaCity_Path_MapScripts::
 FuchsiaCityPath1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox FuchsiaCity_Path_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+FuchsiaCity_Path_Text_1:
 .string "Disfrute del safari y perdone las\n"
 .string "molestias.$"
 
@@ -17,11 +17,11 @@ Text_1:
 FuchsiaCityPath2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox FuchsiaCity_Path_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+FuchsiaCity_Path_Text_2:
 .string "La ZONA SAFARI fue en origen un\n"
 .string "proyecto financiado conjuntamente\l"
 .string "por KOGA y un inversor\l"

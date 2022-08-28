@@ -24,11 +24,11 @@ end
 UnionCave5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox UnionCave_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+UnionCave_Text_5:
 .string "El otro día decidí meterme en lo\n"
 .string "más profundo de la cueva, y\l"
 .string "encontré a un tipo que enseñaba un\l"

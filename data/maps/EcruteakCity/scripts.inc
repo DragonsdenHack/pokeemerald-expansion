@@ -4,11 +4,11 @@ EcruteakCity_MapScripts::
 EcruteakCity2::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+EcruteakCity_Text_1:
 .string "¡Así es!\n"
 .string "¡Después de 5 años, he vuelto a\l"
 .string "ver a esa gran bestia, corriendo\l"
@@ -20,11 +20,11 @@ Text_1:
 EcruteakCity3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+EcruteakCity_Text_3:
 .string "¡Eso es un buen presagio!\n"
 .string "¡Grandes tiempos se avecinan en\l"
 .string "nuestra JOHTO!$"
@@ -39,11 +39,11 @@ end
 EcruteakCity5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+EcruteakCity_Text_5:
 .string "La huella de la historia aún se\n"
 .string "deja entrever en lugares como\l"
 .string "este.\l"
@@ -55,11 +55,11 @@ Text_5:
 EcruteakCity6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+EcruteakCity_Text_6:
 .string "CIUDAD IRIS y MALVA son las únicas\n"
 .string "que han conservado su esencia aún\l"
 .string "con el paso del tiempo. Esperemos\l"
@@ -71,11 +71,11 @@ Text_6:
 EcruteakCity8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+EcruteakCity_Text_8:
 .string "Lo podrás explicar, y la gente\n"
 .string "podrá ver lo que han visto tus\l"
 .string "ojos.\l"
@@ -95,11 +95,11 @@ Text_8:
 EcruteakCity9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+EcruteakCity_Text_9:
 .string "CIUDAD IRIS es la más antigua de\n"
 .string "JOHTO. Sus dos pagodas se\l"
 .string "construyeron hace 700 años, y una\l"
@@ -114,11 +114,11 @@ Text_9:
 EcruteakCity10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+EcruteakCity_Text_10:
 .string "Dos torres se elevaban sobre\n"
 .string "CIUDAD IRIS, una al este y otra al\l"
 .string "oeste. Ahora únicamente queda una,\l"
@@ -130,11 +130,11 @@ Text_10:
 EcruteakCity11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+EcruteakCity_Text_11:
 .string "¡El TEATRO DE LA DANZA me viene\n"
 .string "que ni pintado para mantenerme en\l"
 .string "forma!$"
@@ -144,11 +144,11 @@ Text_11:
 EcruteakCity12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox EcruteakCity_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+EcruteakCity_Text_12:
 .string "Adoro pasear por estas calles, es\n"
 .string "como si continuara escribiendo la\l"
 .string "magnífica historia de esta ciudad.$"

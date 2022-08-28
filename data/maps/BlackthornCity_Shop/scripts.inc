@@ -9,12 +9,12 @@ end
 BlackthornCityShop2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox BlackthornCity_Shop_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
-.string "Ah[.]\n"
+BlackthornCity_Shop_Text_2:
+.string "Ah…\n"
 .string "No hay nada como entrenar a un\l"
 .string "DRATINI desde 0, es muy lento y\l"
 .string "costoso, pero ver como va\l"
@@ -28,11 +28,11 @@ Text_2:
 BlackthornCityShop3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox BlackthornCity_Shop_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+BlackthornCity_Shop_Text_3:
 .string "¿No son LUGIA y HO-OH los POKÉMON\n"
 .string "más fuertes de JOHTO?\l"
 .string "¿O hay algún dragón que los\l"
@@ -45,13 +45,13 @@ Text_3:
 BlackthornCityShop4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox BlackthornCity_Shop_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+BlackthornCity_Shop_Text_4:
 .string "Estoy pensando si bajar o no por\n"
 .string "el desfiladero del sur, me ha\l"
 .string "costado mucho llegar a CIUDAD\l"
 .string "ENDRINO, y tampoco tengo ningún\l"
-.string "POKÉMON VOLADOR para volver[.]$"
+.string "POKÉMON VOLADOR para volver…$"

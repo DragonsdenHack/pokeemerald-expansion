@@ -1,15 +1,15 @@
 SevaultCanyon_House1_MapScripts::
 	.byte 0
 
-SevaultCanyonHouse1-1::
+SevaultCanyonHouse1_1::
 end
 
 
 
-SevaultCanyonHouse1-2::
+SevaultCanyonHouse1_2::
 end
 
 
 
-SevaultCanyonHouse1-3::
+SevaultCanyonHouse1_3::
 end

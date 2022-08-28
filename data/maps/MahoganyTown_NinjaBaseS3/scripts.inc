@@ -1,14 +1,14 @@
 MahoganyTown_NinjaBaseS3_MapScripts::
 	.byte 0
 
-NinjaBaseS3-1::
+NinjaBaseS3_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS3_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+MahoganyTown_NinjaBaseS3_Text_1:
 .string "Dicen que FREDO cuenta con una\n"
 .string "forma única de ARTICUNO, su forma\l"
 .string "primigenia por así decirlo.\l"
@@ -17,47 +17,47 @@ Text_1:
 
 
 
-NinjaBaseS3-2::
+NinjaBaseS3_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS3_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
-.string "Si te digo la verdad[.]\n"
-.string "No entiendo nada de estos planos[.]$"
+MahoganyTown_NinjaBaseS3_Text_2:
+.string "Si te digo la verdad…\n"
+.string "No entiendo nada de estos planos…$"
 
 
 
-NinjaBaseS3-3::
+NinjaBaseS3_3::
 end
 
 
 
-NinjaBaseS3-4::
+NinjaBaseS3_4::
 end
 
 
 
-NinjaBaseS3-5::
+NinjaBaseS3_5::
 end
 
 
 
-NinjaBaseS3-7::
+NinjaBaseS3_7::
 end
 
 
 
-NinjaBaseS3-8::
+NinjaBaseS3_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS3_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+MahoganyTown_NinjaBaseS3_Text_8:
 .string "El progreso en cuanto STATS BASE\n"
 .string "de los POKÉMON en el último medio\l"
 .string "año ha sido espectacular.\l"
@@ -68,14 +68,14 @@ Text_8:
 
 
 
-NinjaBaseS3-9::
+NinjaBaseS3_9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox MahoganyTown_NinjaBaseS3_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+MahoganyTown_NinjaBaseS3_Text_9:
 .string "Nadie es tan poderoso como el TEAM\n"
 .string "ROCKET.\l"
 .string "Tres bases en KANTO, dos bases en\l"
@@ -85,20 +85,20 @@ Text_9:
 
 
 
-NinjaBaseS3-10::
+NinjaBaseS3_10::
 end
 
 
 
-NinjaBaseS3-11::
+NinjaBaseS3_11::
 end
 
 
 
-NinjaBaseS3-12::
+NinjaBaseS3_12::
 end
 
 
 
-NinjaBaseS3-15::
+NinjaBaseS3_15::
 end

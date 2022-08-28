@@ -4,11 +4,11 @@ Goldenrod_BikeShop_MapScripts::
 BikeShop1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Goldenrod_bikeshop_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Goldenrod_bikeshop_Text_1:
 .string "¿Bicis?\n"
 .string "Lo siento, caballero, acabamos\l"
 .string "de abrir y andamos escasos de\l"
@@ -20,11 +20,11 @@ Text_1:
 BikeShop2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Goldenrod_bikeshop_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Goldenrod_bikeshop_Text_2:
 .string "Espero que abran un CAMINO BICIS\n"
 .string "también en JOHTO, ¿te imaginas?$"
 
@@ -33,11 +33,11 @@ Text_2:
 BikeShop3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Goldenrod_bikeshop_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Goldenrod_bikeshop_Text_3:
 .string "¡Jah!\n"
 .string "¡De aquí directo a ISLA TERA a\l"
 .string "causar disturbios!\l"

@@ -1,19 +1,19 @@
 RocketHideout_4F_MapScripts::
 	.byte 0
 
-RocketHideout4F-1::
+RocketHideout4F_1::
 end
 
 
 
-RocketHideout4F-3::
+RocketHideout4F_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RocketHideout4F_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RocketHideout4F_Text_3:
 .string "¡No te preocupes hermano!\n"
 .string "¡Si alguien se infiltrara en\l"
 .string "nuestra BASE nunca podría llegar a\l"
@@ -23,14 +23,14 @@ Text_3:
 
 
 
-RocketHideout4F-5::
+RocketHideout4F_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox RocketHideout4F_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+RocketHideout4F_Text_5:
 .string "Guarda respeto y mantén las\n"
 .string "distancias cuando vayas a\l"
 .string "dirijirte hacia nuestro LÍDER\l"
@@ -40,14 +40,14 @@ Text_5:
 
 
 
-RocketHideout4F-6::
+RocketHideout4F_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox RocketHideout4F_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+RocketHideout4F_Text_6:
 .string "Guarda respeto y mantén las\n"
 .string "distancias cuando vayas a\l"
 .string "dirijirte hacia nuestro LÍDER\l"
@@ -57,10 +57,10 @@ Text_6:
 
 
 
-RocketHideout4F-7::
+RocketHideout4F_7::
 end
 
 
 
-RocketHideout4F-10::
+RocketHideout4F_10::
 end

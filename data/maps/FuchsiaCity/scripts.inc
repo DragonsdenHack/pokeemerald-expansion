@@ -90,8 +90,8 @@ end
 Text_18:
 .string "¡Los ROCKET como vosotros nunca\n"
 .string "podréis entrar a la ZONA SAFARI!\l"
-.string "[.]\l"
-.string "[.]\l"
+.string "…\l"
+.string "…\l"
 .string "¿Cómo?¿No lo necesitas y ya\l"
 .string "capturaste un KANGASKHAN en el\l"
 .string "TÚNEL ROCA?\l"

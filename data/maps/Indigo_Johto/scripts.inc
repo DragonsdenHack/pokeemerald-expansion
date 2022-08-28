@@ -4,12 +4,12 @@ Indigo_Johto_MapScripts::
 IndigoJohto1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox IndigoJohto_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
-.string "Discúlpeme, ADMIN.JEFE [player], no\n"
+IndigoJohto_Text_1:
+.string "Discúlpeme, ADMIN.JEFE {PLAYER}, no\n"
 .string "sabía que era usted alguien tan\l"
 .string "importante.$"
 
@@ -18,11 +18,11 @@ Text_1:
 IndigoJohto2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox IndigoJohto_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+IndigoJohto_Text_2:
 .string "KANTO y JOHTO de nuevo formando\n"
 .string "una sola LIGA POKÉMON, ¿puedes\l"
 .string "imaginarlo?$"
@@ -32,11 +32,11 @@ Text_2:
 IndigoJohto3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox IndigoJohto_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+IndigoJohto_Text_3:
 .string "El MONTE PLATEADO siempre fue la\n"
 .string "gran frontera que marcaba el\l"
 .string "territorio de KANTO y JOHTO.\l"
@@ -53,11 +53,11 @@ Text_3:
 IndigoJohto5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox IndigoJohto_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+IndigoJohto_Text_5:
 .string "LANCE debería de pagar\n"
 .string "públicamente por sus crímenes,\l"
 .string "aunque revelar la verdad sería\l"

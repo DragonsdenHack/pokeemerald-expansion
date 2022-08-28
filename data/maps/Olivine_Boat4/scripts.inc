@@ -1,14 +1,14 @@
 Olivine_Boat4_MapScripts::
 	.byte 0
 
-OlivineBoat4-1::
+OlivineBoat4_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox OlivineBoat4_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+OlivineBoat4_Text_1:
 .string "Recuerda, {PLAYER}, apenas asomamos\n"
 .string "a ver la punta del iceberg en\l"
 .string "cuanto a misterios del MUNDO\l"

@@ -1,30 +1,30 @@
 PokemonTower_4F_MapScripts::
 	.byte 0
 
-PokemonTower4F-1::
+PokemonTower4F_1::
 end
 
 
 
-PokemonTower4F-2::
+PokemonTower4F_2::
 end
 
 
 
-PokemonTower4F-3::
+PokemonTower4F_3::
 end
 
 
 
-PokemonTower4F-4::
+PokemonTower4F_4::
 end
 
 
 
-PokemonTower4F-5::
+PokemonTower4F_5::
 end
 
 
 
-PokemonTower4F-6::
+PokemonTower4F_6::
 end

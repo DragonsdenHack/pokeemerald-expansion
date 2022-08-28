@@ -1,49 +1,49 @@
 Route46_MapScripts::
 	.byte 0
 
-Route46-1::
+Route46_1::
 end
 
 
 
-Route46-2::
+Route46_2::
 end
 
 
 
-Route46-3::
+Route46_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Route46_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Route46_Text_3:
 .string "Hay una gran variedad de POKÉMON\n"
 .string "por estas rutas, deberás de estar\l"
 .string "atento si quieres verlos a todos.$"
 
 
 
-Route46-4::
+Route46_4::
 end
 
 
 
-Route46-5::
+Route46_5::
 end
 
 
 
-Route46-6::
+Route46_6::
 end
 
 
 
-Route46-7::
+Route46_7::
 end
 
 
 
-Route46-8::
+Route46_8::
 end

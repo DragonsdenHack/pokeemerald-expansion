@@ -1,33 +1,33 @@
 TwoIsland_PokemonCenter_1F_MapScripts::
 	.byte 0
 
-TwoIslandPokemonCenter-1::
+TwoIslandPokemonCenter_1::
 end
 
 
 
-TwoIslandPokemonCenter-2::
+TwoIslandPokemonCenter_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox TwoIsland_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+TwoIsland_PokemonCenter_Text_2:
 .string "¿Quieres atrapar a todos los\n"
 .string "POKéMON que te encuentres?\p"
-.string "¡Qué increíble!... ¡Oye, pues\n"
+.string "¡Qué increíble!… ¡Oye, pues\n"
 .string "avísame si atrapas alguno fuerte!$"
 
 
 
-TwoIslandPokemonCenter-3::
+TwoIslandPokemonCenter_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox TwoIsland_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+TwoIsland_PokemonCenter_Text_3:
 .string "Voy a preparar una comida para\n"
 .string "una persona muy importante.$"

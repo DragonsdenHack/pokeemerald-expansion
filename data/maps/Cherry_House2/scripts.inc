@@ -1,28 +1,28 @@
 Cherry_House2_MapScripts::
 	.byte 0
 
-CherryHouse2-1::
+CherryHouse2_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox CherryHouse2_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+CherryHouse2_Text_1:
 .string "¡LANCE es el mejor!\n"
 .string "¡El salvador de KANTO y JOHTO!\l"
 .string "¡Lo acaba de decir la tele!$"
 
 
 
-CherryHouse2-2::
+CherryHouse2_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CherryHouse2_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CherryHouse2_Text_2:
 .string "Después de LANCE ganar la guerra\n"
 .string "para JOHTO, una de las primeras\l"
 .string "medidas que tomó fue el regalar\l"

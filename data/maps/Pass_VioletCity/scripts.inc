@@ -4,10 +4,10 @@ Pass_VioletCity_MapScripts::
 PassVioletCity1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox PassVioletCity_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+PassVioletCity_Text_1:
 .string "¡Hola, chico!\n"
 .string "¿Has visitado la TORRE BELSPROUT?$"

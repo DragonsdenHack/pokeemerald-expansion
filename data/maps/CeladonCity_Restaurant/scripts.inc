@@ -4,11 +4,11 @@ CeladonCity_Restaurant_MapScripts::
 CeladonCityRestaurant1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox CeladonCity_Restaurant_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+CeladonCity_Restaurant_Text_1:
 .string "Mis POKÉMON son débiles, así que\n"
 .string "suelo ir a la farmacia a por\l"
 .string "medicinas.$"
@@ -18,11 +18,11 @@ Text_1:
 CeladonCityRestaurant2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CeladonCity_Restaurant_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CeladonCity_Restaurant_Text_2:
 .string "¿MONEDERO?\n"
 .string "¡Cómprate una vida ROCKET!$"
 
@@ -31,11 +31,11 @@ Text_2:
 CeladonCityRestaurant3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CeladonCity_Restaurant_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CeladonCity_Restaurant_Text_3:
 .string "El hombre de esa esquina perdió\n"
 .string "todo lo que tiene en el CASINO.$"
 
@@ -44,11 +44,11 @@ Text_3:
 CeladonCityRestaurant4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CeladonCity_Restaurant_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CeladonCity_Restaurant_Text_4:
 .string "Lo siento pero ahora mismo estamos\n"
 .string "descansando.$"
 
@@ -57,11 +57,11 @@ Text_4:
 CeladonCityRestaurant5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox CeladonCity_Restaurant_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+CeladonCity_Restaurant_Text_5:
 .string "Esa sala de juegos me da muy mala\n"
 .string "espina, seguro que vosotros tenéis\l"
 .string "algo que ver.$"

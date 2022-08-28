@@ -1,60 +1,60 @@
 Route26_MapScripts::
 	.byte 0
 
-Route26-1::
+Route26_1::
 end
 
 
 
-Route26-2::
+Route26_2::
 end
 
 
 
-Route26-3::
+Route26_3::
 end
 
 
 
-Route26-4::
+Route26_4::
 end
 
 
 
-Route26-5::
+Route26_5::
 end
 
 
 
-Route26-6::
+Route26_6::
 end
 
 
 
-Route26-7::
+Route26_7::
 end
 
 
 
-Route26-8::
+Route26_8::
 end
 
 
 
-Route26-9::
+Route26_9::
 end
 
 
 
-Route26-10::
+Route26_10::
 end
 
 
 
-Route26-11::
+Route26_11::
 end
 
 
 
-Route26-12::
+Route26_12::
 end

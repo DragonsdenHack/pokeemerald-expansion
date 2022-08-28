@@ -4,11 +4,11 @@ RuinsOfAlph_House_MapScripts::
 RuinsOfAlphHouse1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RuinsOfAlph_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RuinsOfAlph_House1_Text_1:
 .string "Creo que todos esos NATU y XATU\n"
 .string "que viven por las RUINAS son una\l"
 .string "de las claves para resolver su\l"
@@ -19,16 +19,16 @@ Text_1:
 RuinsOfAlphHouse2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RuinsOfAlph_House1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RuinsOfAlph_House1_Text_2:
 .string "No me gustan nada esos individuos\n"
 .string "de negro que vinieron poco después\l"
 .string "del terremoto.\l"
-.string "[.]\l"
-.string "[.]\l"
+.string "…\l"
+.string "…\l"
 .string "¿Qué?\l"
 .string "¿¡Tú eres su superior?!$"
 
@@ -37,11 +37,11 @@ Text_2:
 RuinsOfAlphHouse3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RuinsOfAlph_House1_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RuinsOfAlph_House1_Text_3:
 .string "Las RUINAS datan de hace unos 1500\n"
 .string "años.\l"
 .string "Pero ignoramos por qué o por quién\l"

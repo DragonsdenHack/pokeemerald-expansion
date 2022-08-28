@@ -9,11 +9,11 @@ end
 AzaleaTown2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox AzaleaTown_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+AzaleaTown_Text_2:
 .string "El GIMNASIO queda reservado para\n"
 .string "disípulos de CÉSAR. Tal y\l"
 .string "como está el asunto no tiene\l"
@@ -28,11 +28,11 @@ Text_2:
 AzaleaTown3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox AzaleaTown_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+AzaleaTown_Text_3:
 .string "Si sigues más al oeste encontrarás\n"
 .string "EL ENCINAR.\l"
 .string "¡Dicen que su guardián aparecerá\l"
@@ -49,11 +49,11 @@ end
 AzaleaTown5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox AzaleaTown_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+AzaleaTown_Text_5:
 .string "Mi abuelito me ha prometido que\n"
 .string "pronto dejará el GIMNASIO y podrá\l"
 .string "estar en casa todo el día haciendo\l"
@@ -64,11 +64,11 @@ Text_5:
 AzaleaTown6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox AzaleaTown_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+AzaleaTown_Text_6:
 .string "CÉSAR tiene ya 65 años, es\n"
 .string "increíble lo rápido que pasa el\l"
 .string "tiempo. Cada vez le cuesta más\l"
@@ -92,11 +92,11 @@ end
 AzaleaTown9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox AzaleaTown_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+AzaleaTown_Text_9:
 .string "CÉSAR no quiere reconocerlo, pero\n"
 .string "es con diferencia el mayor\l"
 .string "especialista del TIPO BICHO que\l"

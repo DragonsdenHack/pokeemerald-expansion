@@ -1,45 +1,45 @@
 RocketHideout_9F_MapScripts::
 	.byte 0
 
-RocketHideout9F-1::
+RocketHideout9F_1::
 end
 
 
 
-RocketHideout9F-2::
+RocketHideout9F_2::
 end
 
 
 
-RocketHideout9F-3::
+RocketHideout9F_3::
 end
 
 
 
-RocketHideout9F-4::
+RocketHideout9F_4::
 end
 
 
 
-RocketHideout9F-5::
+RocketHideout9F_5::
 end
 
 
 
-RocketHideout9F-6::
+RocketHideout9F_6::
 end
 
 
 
-RocketHideout9F-7::
+RocketHideout9F_7::
 end
 
 
 
-RocketHideout9F-8::
+RocketHideout9F_8::
 end
 
 
 
-RocketHideout9F-9::
+RocketHideout9F_9::
 end

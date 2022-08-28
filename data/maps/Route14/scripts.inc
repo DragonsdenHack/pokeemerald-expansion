@@ -1,54 +1,54 @@
 Route14_MapScripts::
 	.byte 0
 
-Route14-1::
+Route14_1::
 end
 
 
-Route14-2::
+Route14_2::
 end
 
 
-Route14-3::
+Route14_3::
 end
 
 
 
-Route14-5::
+Route14_5::
 end
 
 
-Route14-6::
+Route14_6::
 end
 
 
-Route14-7::
+Route14_7::
 end
 
 
-Route14-8::
+Route14_8::
 end
 
 
-Route14-9::
+Route14_9::
 end
 
 
-Route14-10::
+Route14_10::
 end
 
 
-Route14-11::
+Route14_11::
 end
 
 
-Route14-12::
+Route14_12::
 end
 
 
-Route14-13::
+Route14_13::
 end
 
 
-Route14-14::
+Route14_14::
 end

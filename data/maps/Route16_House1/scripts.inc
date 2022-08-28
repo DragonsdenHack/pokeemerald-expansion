@@ -1,10 +1,10 @@
 Route16_House1_MapScripts::
 	.byte 0
 
-Route16House1-1::
+Route16House1_1::
 end
 
 
 
-Route16House1-2::
+Route16House1_2::
 end

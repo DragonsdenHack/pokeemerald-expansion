@@ -1,14 +1,14 @@
 Violet_SprotTower_MapScripts::
 	.byte 0
 
-VioletSprotTower-1::
+VioletSprotTower_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox VioletCity_SproutTower_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+VioletCity_SproutTower_Text_1:
 .string "La leyenda dice que la columna que\n"
 .string "sostiene esta torre es el tallo de\l"
 .string "un enorme BELLSPROUT que medía 30\l"
@@ -17,14 +17,14 @@ Text_1:
 
 
 
-VioletSprotTower-2::
+VioletSprotTower_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox VioletCity_SproutTower_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+VioletCity_SproutTower_Text_2:
 .string "En este lugar rendimos culto a\n"
 .string "BELLSPROUT, pero también al\l"
 .string "combate POKÉMON. Si crees tener lo\l"
@@ -34,12 +34,12 @@ Text_2:
 
 
 
-VioletSprotTower-3::
+VioletSprotTower_3::
 end
 
 
 
-VioletSprotTower-4::
+VioletSprotTower_4::
 end
 
 

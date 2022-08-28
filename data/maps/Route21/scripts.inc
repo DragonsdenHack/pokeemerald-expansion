@@ -1,18 +1,18 @@
 Route21_MapScripts::
 	.byte 0
 
-Route21-1::
+Route21_1::
 end
 
-Route21-2::
+Route21_2::
 end
 
-Route21-3::
+Route21_3::
 end
 
-Route21-4::
+Route21_4::
 end
 
 
-Route21-5::
+Route21_5::
 end

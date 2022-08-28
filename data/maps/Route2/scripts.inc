@@ -1,27 +1,27 @@
 Route2_MapScripts::
 	.byte 0
 
-Route2-1::
+Route2_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route2_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Route2_Text_1:
 .string "¿Quieres dejarme en paz?\n"
 .string "¿No ves que le estoy enseñando\l"
 .string "CORTE a mi SCYTHER?$"
 
 
-Route2-2::
+Route2_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route2_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route2_Text_2:
 .string "¿Tienes algún problema?\n"
 .string "Si quieres pasar toma otro camino,\l"
 .string "lo que un ROCKET tenga o deje de\l"
@@ -29,42 +29,42 @@ Text_2:
 .string "bledo.$"
 
 
-Route2-3::
+Route2_3::
 end
 
 
-Route2-4::
+Route2_4::
 end
 
 
-Route2-5::
+Route2_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Route2_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Route2_Text_5:
 .string "Esos entrenadores guays decían que\n"
 .string "al fin encontraron un PINSIR\l"
 .string "salvaje aquí.$"
 
 
-Route2-6::
+Route2_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Route2_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Route2_Text_6:
 .string "Es imposible que en este bosque\n"
 .string "pueda haber un PINSIR salvaje.$"
 
 
-Route2-7::
+Route2_7::
 end
 
 
-Route2-8::
+Route2_8::
 end

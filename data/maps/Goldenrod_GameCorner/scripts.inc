@@ -24,11 +24,11 @@ end
 GoldenrodGameCorner5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Goldenrod_GameCorner_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Goldenrod_GameCorner_Text_5:
 .string "Si no tienes un MONEDERO para\n"
 .string "jugar y comprar aquí, siempre\l"
 .string "puedes ir al SUBTERRÁNEO de la\l"
@@ -40,11 +40,11 @@ Text_5:
 GoldenrodGameCorner6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Goldenrod_GameCorner_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Goldenrod_GameCorner_Text_6:
 .string "A pesar de que sé que todas las\n"
 .string "probabilidades conducen a que a\l"
 .string "largo plazo pierda,\l"
@@ -56,12 +56,12 @@ Text_6:
 GoldenrodGameCorner7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox Goldenrod_GameCorner_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
-.string "Maldición[.]\n"
+Goldenrod_GameCorner_Text_7:
+.string "Maldición…\n"
 .string "CYNDAQUIL no para de subir su\l"
 .string "valor en FICHAS, creo que es\l"
 .string "porque cada vez quedan menos en\l"
@@ -72,11 +72,11 @@ Text_7:
 GoldenrodGameCorner8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox Goldenrod_GameCorner_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+Goldenrod_GameCorner_Text_8:
 .string "Vivir es un juego.\n"
 .string "¡Y yo jugaré hasta que no pueda\l"
 .string "más!$"
@@ -87,11 +87,11 @@ Text_8:
 GoldenrodGameCorner9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox Goldenrod_GameCorner_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+Goldenrod_GameCorner_Text_9:
 .string "Poco me importa ganar o perder\n"
 .string "aquí, voy tan sobrado de dinero\l"
 .string "que realmente ya nada me importa.\l"

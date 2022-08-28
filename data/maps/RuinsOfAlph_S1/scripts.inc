@@ -1,70 +1,70 @@
 RuinsOfAlph_S1_MapScripts::
 	.byte 0
 
-RuinsOfAlphS1-1::
+RuinsOfAlphS1_1::
 end
 
 
 
-RuinsOfAlphS1-2::
+RuinsOfAlphS1_2::
 end
 
 
 
-RuinsOfAlphS1-3::
+RuinsOfAlphS1_3::
 end
 
 
 
-RuinsOfAlphS1-4::
+RuinsOfAlphS1_4::
 end
 
 
 
-RuinsOfAlphS1-5::
+RuinsOfAlphS1_5::
 end
 
 
 
-RuinsOfAlphS1-6::
+RuinsOfAlphS1_6::
 end
 
 
 
-RuinsOfAlphS1-7::
+RuinsOfAlphS1_7::
 end
 
 
 
-RuinsOfAlphS1-8::
+RuinsOfAlphS1_8::
 end
 
 
 
-RuinsOfAlphS1-9::
+RuinsOfAlphS1_9::
 end
 
 
 
-RuinsOfAlphS1-10::
+RuinsOfAlphS1_10::
 end
 
 
 
-RuinsOfAlphS1-11::
+RuinsOfAlphS1_11::
 end
 
 
 
-RuinsOfAlphS1-13::
+RuinsOfAlphS1_13::
 end
 
 
 
-RuinsOfAlphS1-14::
+RuinsOfAlphS1_14::
 end
 
 
 
-RuinsOfAlphS1-16::
+RuinsOfAlphS1_16::
 end

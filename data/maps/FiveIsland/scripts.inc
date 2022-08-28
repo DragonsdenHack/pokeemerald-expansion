@@ -4,11 +4,11 @@ FiveIsland_MapScripts::
 FiveIsland1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox FiveIsland_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+FiveIsland_Text_1:
 .string "Como recluta ROCKET que eres,\n"
 .string "deberías de saber que QWILFISH y\l"
 .string "TENTACOOL son dos POKÉMON tipo\l"
@@ -23,11 +23,11 @@ Text_1:
 FiveIsland2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox FiveIsland_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+FiveIsland_Text_2:
 .string "La nueva cónsul de ISLA INTA no me\n"
 .string "gusta nada, ha colocado su casa en\l"
 .string "medio de la ZONA RECREO, antes\l"
@@ -40,11 +40,11 @@ Text_2:
 FiveIsland3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox FiveIsland_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+FiveIsland_Text_3:
 .string "Esta isla es tenida como un puente\n"
 .string "de unión, transitorio entre lo\l"
 .string "viejo y lo nuevo, quizás algún día\l"
@@ -54,11 +54,11 @@ Text_3:
 FiveIsland4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox FiveIsland_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+FiveIsland_Text_4:
 .string "Ya hacemos suficiente cumpliendo\n"
 .string "el contrato que ATLAS nos hizo\l"
 .string "firmar para embarcar hacia KANTO\l"

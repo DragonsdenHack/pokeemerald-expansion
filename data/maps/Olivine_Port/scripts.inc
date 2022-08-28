@@ -4,11 +4,11 @@ Olivine_Port_MapScripts::
 OlivinePort1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox OlivineCity_Port_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+OlivineCity_Port_Text_1:
 .string "El SURCAMAR está fuera de\n"
 .string "servicio, gracias.$"
 
@@ -17,11 +17,11 @@ Text_1:
 OlivinePort2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OlivineCity_Port_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OlivineCity_Port_Text_2:
 .string "Nuestra clase de ENTRENADOR\n"
 .string "desaparecerá pronto en JOHTO. Aquí\l"
 .string "no hay un CAMINO BICIS como en\l"
@@ -38,11 +38,11 @@ Text_2:
 OlivinePort3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox OlivineCity_Port_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+OlivineCity_Port_Text_3:
 .string "El SURCAMAR está fuera de\n"
 .string "servicio, gracias.$"
 
@@ -51,11 +51,11 @@ Text_3:
 OlivinePort4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox OlivineCity_Port_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+OlivineCity_Port_Text_4:
 .string "El SURCAMAR está fuera de\n"
 .string "servicio, gracias.$"
 
@@ -64,11 +64,11 @@ Text_4:
 OlivinePort5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox OlivineCity_Port_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+OlivineCity_Port_Text_5:
 .string "El SURCAMAR está fuera de\n"
 .string "servicio, gracias.$"
 

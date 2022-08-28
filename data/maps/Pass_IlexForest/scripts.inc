@@ -4,11 +4,11 @@ Pass_IlexForest_MapScripts::
 PassIlexForest1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox PassIlexForest_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+PassIlexForest_Text_1:
 .string "Nos encargamos de cuidar este gran\n"
 .string "bosque y que todo esté en orden.\l"
 .string "Por tu aspecto, pareces alguien\l"
@@ -23,11 +23,11 @@ Text_1:
 PassIlexForest2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox PassIlexForest_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+PassIlexForest_Text_2:
 .string "Si llevas algún mechero contigo,\n"
 .string "más te vale guardarlo bien.\l"
 .string "¡O enfadarás al guardián del\l"
@@ -38,11 +38,11 @@ Text_2:
 PassIlexForest3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox PassIlexForest_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+PassIlexForest_Text_3:
 .string "El ENCINAR es muy grande.\n"
 .string "¡Cuidado!\l"
 .string "¡No te pierdas!$"

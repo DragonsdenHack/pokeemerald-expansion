@@ -1,29 +1,29 @@
 Route30_MapScripts::
 	.byte 0
 
-Route30-1::
+Route30_1::
 end
 
 
 
-Route30-2::
+Route30_2::
 end
 
 
 
-Route30-3::
+Route30_3::
 end
 
 
 
-Route30-4::
+Route30_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Route30_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Route30_Text_4:
 .string "Me encantaría que los LÍDERES DE\n"
 .string "GIMNASIO de JOHTO volvieran a ser\l"
 .string "válidos para la LIGA POKÉMON,\l"
@@ -35,68 +35,68 @@ Text_4:
 
 
 
-Route30-5::
+Route30_5::
 end
 
 
 
-Route30-6::
+Route30_6::
 end
 
 
 
-Route30-7::
+Route30_7::
 end
 
 
 
-Route30-8::
+Route30_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox Route30_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
-.string "Esa CUEVA OSCURA[.]\n"
+Route30_Text_8:
+.string "Esa CUEVA OSCURA…\n"
 .string "Si mis POKÉMON pudieran\l"
 .string "iluminarla, la exploraría.$"
 
 
 
-Route30-9::
+Route30_9::
 end
 
 
 
-Route30-10::
+Route30_10::
 end
 
 
 
-Route30-11::
+Route30_11::
 end
 
 
 
-Route30-12::
+Route30_12::
 end
 
 
 
-Route30-13::
+Route30_13::
 end
 
 
 
-Route30-14::
+Route30_14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox Route30_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+Route30_Text_14:
 .string "Me encanta pasear por aquí de\n"
 .string "buena mañana, la tranquilidad que\l"
 .string "te da este lugar es única. Mi\l"

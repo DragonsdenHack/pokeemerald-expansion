@@ -1,10 +1,10 @@
 RuinsOfAlph_S2_MapScripts::
 	.byte 0
 
-RuinsOfAlphS2-1::
+RuinsOfAlphS2_1::
 end
 
 
 
-RuinsOfAlphS2-2::
+RuinsOfAlphS2_2::
 end

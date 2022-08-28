@@ -9,11 +9,11 @@ end
 VermilionCityMart2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox VermilionCity_Mart_VermilionCity_Mart_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+VermilionCity_Mart_VermilionCity_Mart_Text_2:
 .string "Creo que los POKéMON pueden ser\n"
 .string "buenos o malos. Todo depende del\l"
 .string "ENTRENADOR.$"
@@ -23,11 +23,11 @@ Text_2:
 VermilionCityMart3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox VermilionCity_Mart_VermilionCity_Mart_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+VermilionCity_Mart_VermilionCity_Mart_Text_3:
 .string "Hay gente mala que utiliza a los\n"
 .string "POKéMON para cometer sus actos\l"
 .string "delictivos.\p"

@@ -1,19 +1,19 @@
 Silph_8F_MapScripts::
 	.byte 0
 
-Silph8F-1::
+Silph8F_1::
 end
 
 
 
-Silph8F-2::
+Silph8F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Silph8F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Silph8F_Text_2:
 .string "¡Vuestro JEFE es un cruel\n"
 .string "dictador!\l"
 .string "¡Solo usa a los POKÉMON como armas\l"
@@ -23,20 +23,20 @@ Text_2:
 
 
 
-Silph8F-3::
+Silph8F_3::
 end
 
 
 
-Silph8F-4::
+Silph8F_4::
 end
 
 
 
-Silph8F-5::
+Silph8F_5::
 end
 
 
 
-Silph8F-6::
+Silph8F_6::
 end

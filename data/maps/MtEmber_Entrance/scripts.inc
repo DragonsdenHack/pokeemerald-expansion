@@ -1,40 +1,40 @@
 MtEmber_Entrance_MapScripts::
 	.byte 0
 
-MtEmberEntrance-1::
+MtEmberEntrance_1::
 end
 
 
 
-MtEmberEntrance-7::
+MtEmberEntrance_7::
 end
 
 
 
-MtEmberEntrance-10::
+MtEmberEntrance_10::
 end
 
 
 
-MtEmberEntrance-11::
+MtEmberEntrance_11::
 end
 
 
 
-MtEmberEntrance-12::
+MtEmberEntrance_12::
 end
 
 
 
-MtEmberEntrance-13::
+MtEmberEntrance_13::
 end
 
 
 
-MtEmberEntrance-19::
+MtEmberEntrance_19::
 end
 
 
 
-MtEmberEntrance-20::
+MtEmberEntrance_20::
 end

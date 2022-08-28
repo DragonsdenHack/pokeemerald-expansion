@@ -1,30 +1,30 @@
 Silph_10F_MapScripts::
 	.byte 0
 
-Silph10F-1::
+Silph10F_1::
 end
 
 
 
-Silph10F-2::
+Silph10F_2::
 end
 
 
 
-Silph10F-3::
+Silph10F_3::
 end
 
 
 
-Silph10F-4::
+Silph10F_4::
 end
 
 
 
-Silph10F-5::
+Silph10F_5::
 end
 
 
 
-Silph10F-6::
+Silph10F_6::
 end

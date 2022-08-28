@@ -4,11 +4,11 @@ Olivine_Pub_MapScripts::
 OlivinePub1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox OlivineCity_Pub_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+OlivineCity_Pub_Text_1:
 .string "Este lugar está abierto las 24\n"
 .string "horas, se hizo muy popular entre\l"
 .string "los marineros venir aquí a las 5-6\l"
@@ -29,11 +29,11 @@ end
 OlivinePub3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox OlivineCity_Pub_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+OlivineCity_Pub_Text_3:
 .string "El restaurante de CIUDAD AZULONA\n"
 .string "es un chiste en comparación con\l"
 .string "este.\l"
@@ -45,11 +45,11 @@ Text_3:
 OlivinePub4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox OlivineCity_Pub_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+OlivineCity_Pub_Text_4:
 .string "¡En el mar solo puedes confiar en\n"
 .string "ti mismo!\l"
 .string "¡Y yo estoy en plena forma!$"
@@ -59,11 +59,11 @@ Text_4:
 OlivinePub5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox OlivineCity_Pub_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+OlivineCity_Pub_Text_5:
 .string "¡Hey, marinero!\n"
 .string "¡Nunca olvides que hay que estar\l"
 .string "dispuesto a perderse para poder\l"

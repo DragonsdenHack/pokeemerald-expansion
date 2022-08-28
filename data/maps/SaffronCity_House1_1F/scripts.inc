@@ -1,14 +1,14 @@
 SaffronCity_House1_1F_MapScripts::
 	.byte 0
 
-SaffronCityHouse11F-1::
+SaffronCityHouse11F_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox SafariZone_House11F_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+SafariZone_House11F_Text_1:
 .string "A mi hija le gusta imitar a la\n"
 .string "gente.\p"
 .string "¡Y por eso la gente de por aquí\n"
@@ -16,18 +16,18 @@ Text_1:
 
 
 
-SaffronCityHouse11F-2::
+SaffronCityHouse11F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SafariZone_House11F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SafariZone_House11F_Text_2:
 .string "¡Mi hija está tan metida en sí\n"
 .string "misma que tiene muy pocos amigos!$"
 
 
 
-SaffronCityHouse11F-3::
+SaffronCityHouse11F_3::
 end

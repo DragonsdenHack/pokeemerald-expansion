@@ -1,34 +1,34 @@
 Route33_MapScripts::
 	.byte 0
 
-Route33-1::
+Route33_1::
 end
 
 
 
-Route33-2::
+Route33_2::
 end
 
 
 
-Route33-3::
+Route33_3::
 end
 
 
 
-Route33-4::
+Route33_4::
 end
 
 
 
-Route33-5::
+Route33_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Route33_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Route33_Text_5:
 .string "Esa leyenda que habla de un raro y\n"
 .string "fuerte POKÉMON en las\l"
 .string "profundidades de CUEVA UNIÓN atrae\l"

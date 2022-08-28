@@ -4,11 +4,11 @@ OneIsland_MapScripts::
 OneIsland1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox OneIsland_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+OneIsland_Text_1:
 .string "¿Cómo?\n"
 .string "¿KANTO?\l"
 .string "¡Esto es isla prima chico!\l"
@@ -22,11 +22,11 @@ Text_1:
 OneIsland2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OneIsland_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OneIsland_Text_2:
 .string "La verdad es que esta isla está\n"
 .string "plantada en medio de la nada,\l"
 .string "pero bueno...\p"
@@ -43,10 +43,10 @@ Text_2:
 OneIsland3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox OneIsland_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+OneIsland_Text_3:
 .string "¿Qué? ¿Disfrutando del paisaje?\n"
 .string "El tiempo es fabuloso, ¿eh?$"

@@ -4,11 +4,11 @@ RocketHideout_FiveIsland_Meadow_MapScripts::
 RocketHideoutFiveIslanMeadow22::     
 lock     
 faceplayer     
-msgbox Text_22, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_22, MSGBOX_DEFAULT
 release     
 end
 
-Text_22:     
+RocketHideoutFiveIslandMeadow_Text_22:     
 
 .string "Encárgate de hacer tu cometido\n"
 .string "recluta, las cosas que aquí\l"
@@ -18,11 +18,11 @@ Text_22:
 RocketHideoutFiveIslanMeadow21:: 
 lock     
 faceplayer     
-msgbox Text_21, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_21, MSGBOX_DEFAULT
 release     
 end
 
-Text_21: 
+RocketHideoutFiveIslandMeadow_Text_21: 
 
 .string "Así es, nuestra sucursal de ISLA\n"
 .string "INTA cuenta con este sótano oculto.\l"
@@ -34,11 +34,11 @@ Text_21:
 RocketHideoutFiveIslanMeadow20:: 
 lock     
 faceplayer     
-msgbox Text_20, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_20, MSGBOX_DEFAULT
 release     
 end
 
-Text_20: 
+RocketHideoutFiveIslandMeadow_Text_20: 
 
 .string "Siéntete afortunado, ¡ahora\n"
 .string "trabajas para el TEAM ROCKET!$"
@@ -47,11 +47,11 @@ Text_20:
 RocketHideoutFiveIslanMeadow19:: 
 lock     
 faceplayer     
-msgbox Text_19, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_19, MSGBOX_DEFAULT
 release     
 end
 
-Text_19: 
+RocketHideoutFiveIslandMeadow_Text_19: 
 
 .string "¿No tienes un trabajo que hacer?\n"
 .string "¿A qué esperas?\l"
@@ -62,16 +62,16 @@ Text_19:
 RocketHideoutFiveIslanMeadow15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
-.string "[.]\n"
-.string "[.]\l"
+RocketHideoutFiveIslandMeadow_Text_15:
+.string "…\n"
+.string "…\l"
 .string "(Contiene un KINGLER en su\l"
 .string "interior, mejor no tocarla\l"
-.string "demasiado[.])$"
+.string "demasiado…)$"
 
 
 RocketHideoutFiveIslanMeadow16::
@@ -81,27 +81,27 @@ end
 RocketHideoutFiveIslanMeadow17::
 lock     
 faceplayer     
-msgbox Text_17, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_17, MSGBOX_DEFAULT
 release     
 end
 
-Text_17:
-.string "[.]\n"
-.string "[.]\l"
+RocketHideoutFiveIslandMeadow_Text_17:
+.string "…\n"
+.string "…\l"
 .string "(Contiene un NIDORINO en su\l"
 .string "interior, mejor no tocarla\l"
-.string "demasiado[.])$"
+.string "demasiado…)$"
 
 
 
 RocketHideoutFiveIslanMeadow12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+RocketHideoutFiveIslandMeadow_Text_12:
 .string "Pocos saben que este almacén es en\n"
 .string "realidad nuestra principal fuente\l"
 .string "de tráfico de POKÉMON, también\l"
@@ -111,18 +111,18 @@ Text_12:
 .string "desde ISLA INTA hemos llegado a\l"
 .string "conclusiones muy interesantes\l"
 .string "respecto a la manipulación de las\l"
-.string "ondas de radio[.]$"
+.string "ondas de radio…$"
 
 
 RocketHideoutFiveIslanMeadow10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox RocketHideoutFiveIslandMeadow_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10: 
-.string "Pobre infeliz ese recluta[.]\n"
+RocketHideoutFiveIslandMeadow_Text_10: 
+.string "Pobre infeliz ese recluta…\n"
 .string "No hay nada que irrite más a\l"
 .string "nuestro mejor ADMINISTRADOR que\l"
 .string "las actitudes producto de la ley\l"

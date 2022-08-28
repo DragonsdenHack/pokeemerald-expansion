@@ -1,17 +1,17 @@
 Silph_5F_MapScripts::
 	.byte 0
 
-Silph5F-1::
+Silph5F_1::
 end
 
 
 
-Silph5F-2::
+Silph5F_2::
 end
 
 
 
-Silph5F-3::
+Silph5F_3::
 lock     
 faceplayer     
 msgbox Text_3, MSGBOX_DEFAULT
@@ -20,34 +20,34 @@ end
 
 Text_3:
 .string "Nuestra seguridad se encargará de\n"
-.string "todos vosotros sabandijas[.]$"
+.string "todos vosotros sabandijas…$"
 
 
 
-Silph5F-4::
+Silph5F_4::
 end
 
 
 
-Silph5F-5::
+Silph5F_5::
 end
 
 
 
-Silph5F-6::
+Silph5F_6::
 end
 
 
 
-Silph5F-7::
+Silph5F_7::
 end
 
 
 
-Silph5F-8::
+Silph5F_8::
 end
 
 
 
-Silph5F-9::
+Silph5F_9::
 end

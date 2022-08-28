@@ -9,11 +9,11 @@ end
 RocketHideoutJohto2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RocketHideoutJohto_Text_2:
 .string "Es en esta base donde reunimos\n"
 .string "todas las materias primas que\l"
 .string "JOHTO ofrece, y las transformamos\l"
@@ -29,11 +29,11 @@ Text_2:
 RocketHideoutJohto3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RocketHideoutJohto_Text_3:
 .string "¡Buen día, sir!$"
 
 
@@ -41,11 +41,11 @@ Text_3:
 RocketHideoutJohto4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+RocketHideoutJohto_Text_4:
 .string "Esta es la segunda BASE ROCKET más\n"
 .string "grande después de la principal en\l"
 .string "AZULONA, pero a diferencia de esta\l"
@@ -68,11 +68,11 @@ end
 RocketHideoutJohto6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+RocketHideoutJohto_Text_6:
 .string "La irregularidad de la geografía\n"
 .string "de JOHTO trabaja para nosotros.\l"
 .string "¡Nadie encontrará esta base con\l"
@@ -84,11 +84,11 @@ Text_6:
 RocketHideoutJohto7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+RocketHideoutJohto_Text_7:
 .string "Aún tienen que pasar muchas cosas\n"
 .string "antes de que el futuro a medio\l"
 .string "plazo de KANTO vaya tomando forma.$"
@@ -98,18 +98,18 @@ Text_7:
 RocketHideoutJohto8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
-.string "PS de 125 de BASE[.]\n"
-.string "ATAQUE FÍSICO de 175[.]\l"
-.string "DEFENSA FÍSICA de 155[.]\l"
+RocketHideoutJohto_Text_8:
+.string "PS de 125 de BASE…\n"
+.string "ATAQUE FÍSICO de 175…\l"
+.string "DEFENSA FÍSICA de 155…\l"
 .string "Una media de 151,6666 de BASE\l"
-.string "entre los 3 primeros STATS[.]\l"
-.string "[.]\l"
-.string "[.]\l"
+.string "entre los 3 primeros STATS…\l"
+.string "…\l"
+.string "…\l"
 .string "No, no me estoy inventando a este\l"
 .string "POKÉMON, estoy hablando del\l"
 .string "RHYPERIOR-Z de nuestro LÍDER\l"
@@ -124,11 +124,11 @@ Text_8:
 RocketHideoutJohto9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+RocketHideoutJohto_Text_9:
 .string "Ese BILL se ha vuelto un completo\n"
 .string "pesimista, a la vez que arrogante,\l"
 .string "cree haber llegado al límite de\l"
@@ -147,11 +147,11 @@ Text_9:
 RocketHideoutJohto10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+RocketHideoutJohto_Text_10:
 .string "Si conocemos todas las condiciones\n"
 .string "posibles de un sistema físico,\l"
 .string "podemos, en teoría, proyectar su\l"
@@ -171,11 +171,11 @@ Text_10:
 RocketHideoutJohto11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+RocketHideoutJohto_Text_11:
 .string "El trabajo en las sombras siempre\n"
 .string "da grandes resultados.\l"
 .string "¡Cuando nos mostremos al mundo no\l"
@@ -186,11 +186,11 @@ Text_11:
 RocketHideoutJohto12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+RocketHideoutJohto_Text_12:
 .string "Algunos de los ENTRENADORES más\n"
 .string "veteranos de esta región cuentan\l"
 .string "con POKÉMON que se salen de\l"
@@ -204,11 +204,11 @@ Text_12:
 RocketHideoutJohto13::
 lock     
 faceplayer     
-msgbox Text_13, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_13, MSGBOX_DEFAULT
 release     
 end
 
-Text_13:
+RocketHideoutJohto_Text_13:
 .string "Llegar a lugares donde nadie más\n"
 .string "ha llegado exige de un despliege\l"
 .string "de energía y recursos enorme, es\l"
@@ -224,11 +224,11 @@ Text_13:
 RocketHideoutJohto14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+RocketHideoutJohto_Text_14:
 .string "El nivel de consumo de JOHTO es\n"
 .string "muy inferior al de KANTO, pero sus\l"
 .string "recursos son incomparables.\l"
@@ -240,27 +240,27 @@ Text_14:
 RocketHideoutJohto15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
+RocketHideoutJohto_Text_15:
 .string "Así que un pedido con 1000 MALLA\n"
 .string "BALLS, 200 PROTEINAS+ZINC, 400\l"
 .string "RESTAURA.TODOS y 3000 GALLETAS\l"
-.string "LAVA[.]$"
+.string "LAVA…$"
 
 
 
 RocketHideoutJohto16::
 lock     
 faceplayer     
-msgbox Text_16, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_16, MSGBOX_DEFAULT
 release     
 end
 
-Text_16:
-.string "Ese LANCE[.]\n"
+RocketHideoutJohto_Text_16:
+.string "Ese LANCE…\n"
 .string "Que siga con sus títulos de\l"
 .string "cartón.\l"
 .string "Mientras, nosotros tomamos las\l"
@@ -272,13 +272,13 @@ Text_16:
 RocketHideoutJohto17::
 lock     
 faceplayer     
-msgbox Text_17, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_17, MSGBOX_DEFAULT
 release     
 end
 
-Text_17:
+RocketHideoutJohto_Text_17:
 .string "GIOVANNI le tiene en muy alta\n"
-.string "estima ADMIN.JEFE [player].\l"
+.string "estima ADMIN.JEFE {PLAYER}.\l"
 .string "Con gente como ANDRA y usted el\l"
 .string "TEAM ROCKET tiene futuro.$"
 
@@ -287,11 +287,11 @@ Text_17:
 RocketHideoutJohto18::
 lock     
 faceplayer     
-msgbox Text_18, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_18, MSGBOX_DEFAULT
 release     
 end
 
-Text_18:
+RocketHideoutJohto_Text_18:
 .string "Hacia finales del siglo XIX, el\n"
 .string "físico ALBERT MICHELSON aseguró\l"
 .string "que todo cuanto nos quedaba por\l"
@@ -318,11 +318,11 @@ end
 RocketHideoutJohto20::
 lock     
 faceplayer     
-msgbox Text_20, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_20, MSGBOX_DEFAULT
 release     
 end
 
-Text_20:
+RocketHideoutJohto_Text_20:
 .string "La ADMIN.JEFE ANDRA se ocupará de\n"
 .string "ponernos en el MAPA también en\l"
 .string "HOENN.\l"
@@ -334,11 +334,11 @@ Text_20:
 RocketHideoutJohto21::
 lock     
 faceplayer     
-msgbox Text_21, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_21, MSGBOX_DEFAULT
 release     
 end
 
-Text_21:
+RocketHideoutJohto_Text_21:
 .string "Nadie sabe en qué momento el\n"
 .string "RHYPERIOR de nuestro LÍDER,\l"
 .string "GIOVANNI, logró alcanzar ese punto\l"
@@ -349,18 +349,18 @@ Text_21:
 .string "elevando los stats de los\l"
 .string "originales en +100 de BASE en\l"
 .string "lugar de los +110 del RHYPERIOR de\l"
-.string "GIOVANNI[.]$"
+.string "GIOVANNI…$"
 
 
 
 RocketHideoutJohto22::
 lock     
 faceplayer     
-msgbox Text_22, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_22, MSGBOX_DEFAULT
 release     
 end
 
-Text_22:
+RocketHideoutJohto_Text_22:
 .string "Disculpe señor, pero a los pisos\n"
 .string "superiores solo puede acceder\l"
 .string "personal implicado de forma\l"
@@ -377,11 +377,11 @@ Text_22:
 RocketHideoutJohto23::
 lock     
 faceplayer     
-msgbox Text_23, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_23, MSGBOX_DEFAULT
 release     
 end
 
-Text_23:
+RocketHideoutJohto_Text_23:
 .string "El conocimiento adicional de las\n"
 .string "minucias del transcurso diario\l"
 .string "puede resultar inútil, y hasta\l"
@@ -394,11 +394,11 @@ Text_23:
 RocketHideoutJohto24::
 lock     
 faceplayer     
-msgbox Text_24, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_24, MSGBOX_DEFAULT
 release     
 end
 
-Text_24:
+RocketHideoutJohto_Text_24:
 .string "La TORRE DE RADIO de CIUDAD TRIGAL\n"
 .string "se está convirtiendo rápidamente\l"
 .string "en la SILPH de JOHTO en cuanto\l"
@@ -412,11 +412,11 @@ Text_24:
 RocketHideoutJohto25::
 lock     
 faceplayer     
-msgbox Text_25, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_25, MSGBOX_DEFAULT
 release     
 end
 
-Text_25:
+RocketHideoutJohto_Text_25:
 .string "Quitando CIUDAD TRIGAL y CIUDAD\n"
 .string "OLIVO, el resto de la población de\l"
 .string "JOHTO vive en zonas rurales o bien\l"
@@ -428,11 +428,11 @@ Text_25:
 RocketHideoutJohto26::
 lock     
 faceplayer     
-msgbox Text_26, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_26, MSGBOX_DEFAULT
 release     
 end
 
-Text_26:
+RocketHideoutJohto_Text_26:
 .string "A pesar de haber ganado la guerra,\n"
 .string "gran parte de la población de\l"
 .string "JOHTO ha seguido viviendo con la\l"
@@ -445,18 +445,18 @@ Text_26:
 .string "entre las dos regiones, el primer\l"
 .string "paso es abrir las fronteras\l"
 .string "asentadas en RUTA 26 y al pie del\l"
-.string "MONTE PLATEADO[.]$"
+.string "MONTE PLATEADO…$"
 
 
 
 RocketHideoutJohto27::
 lock     
 faceplayer     
-msgbox Text_27, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_27, MSGBOX_DEFAULT
 release     
 end
 
-Text_27:
+RocketHideoutJohto_Text_27:
 .string "¡Todo en orden señor!\n"
 .string "¡Un placer tenerle por JOHTO!$"
 
@@ -465,11 +465,11 @@ Text_27:
 RocketHideoutJohto28::
 lock     
 faceplayer     
-msgbox Text_28, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_28, MSGBOX_DEFAULT
 release     
 end
 
-Text_28:
+RocketHideoutJohto_Text_28:
 .string "Las imponentes CATARATAS TOHJO son\n"
 .string "las que históricamente han\l"
 .string "separado geográficamente KANTO de\l"
@@ -482,11 +482,11 @@ Text_28:
 RocketHideoutJohto29::
 lock     
 faceplayer     
-msgbox Text_29, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_29, MSGBOX_DEFAULT
 release     
 end
 
-Text_29:
+RocketHideoutJohto_Text_29:
 .string "Me encantaría tener un PERSIAN,\n"
 .string "pero en JOHTO si no eres un\l"
 .string "pijo de CIUDAD TRIGAL, necesitas\l"
@@ -500,11 +500,11 @@ Text_29:
 RocketHideoutJohto30::
 lock     
 faceplayer     
-msgbox Text_30, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_30, MSGBOX_DEFAULT
 release     
 end
 
-Text_30:
+RocketHideoutJohto_Text_30:
 .string "¡JOHTO es suya señor!\n"
 .string "¡Demuéstreles a todos el poder del\l"
 .string "TEAM ROCKET!$"
@@ -514,14 +514,14 @@ Text_30:
 RocketHideoutJohto31::
 lock     
 faceplayer     
-msgbox Text_31, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_31, MSGBOX_DEFAULT
 release     
 end
 
-Text_31:
+RocketHideoutJohto_Text_31:
 .string "1000 REVIVIRES y 700\n"
-.string "HIPERPOCIONES[.]\l"
-.string "En serio[.]\l"
+.string "HIPERPOCIONES…\l"
+.string "En serio…\l"
 .string "¿Qué les pasa a los RECLUTAS de\l"
 .string "KANTO?\l"
 .string "¿Es que todos llevan RATTATAS y\l"
@@ -532,11 +532,11 @@ Text_31:
 RocketHideoutJohto32::
 lock     
 faceplayer     
-msgbox Text_32, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_32, MSGBOX_DEFAULT
 release     
 end
 
-Text_32:
+RocketHideoutJohto_Text_32:
 .string "¡Estar fuera de la ley me hace\n"
 .string "sentir tan vivo!\l"
 .string "¡Al diablo los límites desde aquí\l"
@@ -548,11 +548,11 @@ Text_32:
 RocketHideoutJohto33::
 lock     
 faceplayer     
-msgbox Text_33, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_33, MSGBOX_DEFAULT
 release     
 end
 
-Text_33:
+RocketHideoutJohto_Text_33:
 .string "¡Trabajo propio!\n"
 .string "¡Trabajo propio por y para el TEAM\l"
 .string "ROCKET!\l"
@@ -563,11 +563,11 @@ Text_33:
 RocketHideoutJohto34::
 lock     
 faceplayer     
-msgbox Text_34, MSGBOX_DEFAULT
+msgbox RocketHideoutJohto_Text_34, MSGBOX_DEFAULT
 release     
 end
 
-Text_34:
+RocketHideoutJohto_Text_34:
 .string "Hemos logrado que POKÉMON NO\n"
 .string "LEGENDARIOS, como NIDOKING y\l"
 .string "NIDOQUEEN, superen olgadamente el\l"

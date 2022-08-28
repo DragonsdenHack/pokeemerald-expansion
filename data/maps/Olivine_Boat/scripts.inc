@@ -4,11 +4,11 @@ Olivine_Boat_MapScripts::
 OlivineBoat1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox OlivineBoat_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+OlivineBoat_Text_1:
 .string "El primer punto de conexión con el\n"
 .string "PUERTO OLIVO, por razones obvias\l"
 .string "de cercanía, será CIUDAD CARMÍN.$"
@@ -18,11 +18,11 @@ Text_1:
 OlivineBoat2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OlivineBoat_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OlivineBoat_Text_2:
 .string "¡La comida aquí es insuperable!\n"
 .string "¡En estas aguas tienes lo mejor de\l"
 .string "KANTO-JOHTO juntos!$"
@@ -32,11 +32,11 @@ Text_2:
 OlivineBoat3::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OlivineBoat_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OlivineBoat_Text_3:
 .string "¡Esos MARINEROS son unos tipos\n"
 .string "duros!\l"
 .string "¡No sabía que TENTACRUEL pudiera\l"
@@ -47,11 +47,11 @@ Text_2:
 OlivineBoat4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox OlivineBoat_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+OlivineBoat_Text_4:
 .string "¡Míranos!\n"
 .string "Con todo lo ocurrido en el último\l"
 .string "lustro, quién iba a decir que\l"
@@ -68,11 +68,11 @@ end
 OlivineBoat6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox OlivineBoat_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+OlivineBoat_Text_6:
 .string "Mi hermano debería dejar de fardar\n"
 .string "de sus POKÉMON adquiridos a golpe\l"
 .string "de talonario. No me daría la menor\l"
@@ -86,11 +86,11 @@ Text_6:
 OlivineBoat7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox OlivineBoat_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+OlivineBoat_Text_7:
 .string "Creo que me estoy mareando, estas\n"
 .string "fiestas no son para mi.$"
 
@@ -99,11 +99,11 @@ Text_7:
 OlivineBoat8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox OlivineBoat_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+OlivineBoat_Text_8:
 .string "He comprado un WISHIWASHI por 7000\n"
 .string "FICHAS en CIUDAD TRIGAL solo para\l"
 .string "presumir delante de todos estos\l"

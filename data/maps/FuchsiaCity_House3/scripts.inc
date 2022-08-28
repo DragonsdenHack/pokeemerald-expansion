@@ -1,10 +1,10 @@
 FuchsiaCity_House3_MapScripts::
 	.byte 0
 
-FuchsiaCityHouse3-1::
+FuchsiaCityHouse3_1::
 end
 
 
 
-FuchsiaCityHouse3-3::
+FuchsiaCityHouse3_3::
 end

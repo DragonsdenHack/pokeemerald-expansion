@@ -1,25 +1,25 @@
 Route52_MapScripts::
 	.byte 0
 
-Route52-1::
+Route52_1::
 end
 
 
 
-Route52-2::
+Route52_2::
 end
 
 
 
-Route52-3::
+Route52_3::
 end
 
 
 
-Route52-4::
+Route52_4::
 end
 
 
 
-Route52-5::
+Route52_5::
 end

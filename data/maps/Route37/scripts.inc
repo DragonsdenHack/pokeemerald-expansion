@@ -1,15 +1,15 @@
 Route37_MapScripts::
 	.byte 0
 
-Route37-1::
+Route37_1::
 end
 
 
 
-Route37-2::
+Route37_2::
 end
 
 
 
-Route37-3::
+Route37_3::
 end

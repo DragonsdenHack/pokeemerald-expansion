@@ -1,10 +1,10 @@
 LavenderTown_House1_MapScripts::
 	.byte 0
 
-LavenderTownHouse1-1::
+LavenderTownHouse1_1::
 end
 
 
 
-LavenderTownHouse1-2::
+LavenderTownHouse1_2::
 end

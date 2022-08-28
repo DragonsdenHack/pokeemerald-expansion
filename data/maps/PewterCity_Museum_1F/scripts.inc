@@ -9,11 +9,11 @@ end
 PewterMuseum2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox PewterCity_Museum1F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+PewterCity_Museum1F_Text_2:
 .string "Debo de estar agradecido por mi\n"
 .string "larga vida.\l"
 .string "¡Nunca creí que viviría para ver\l"
@@ -24,11 +24,11 @@ Text_2:
 PewterMuseum3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox PewterCity_Museum1F_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+PewterCity_Museum1F_Text_3:
 .string "Gracias por ayudarnos a\n"
 .string "deshacernos de ese ladrón\l"
 .string "oportunista.$"

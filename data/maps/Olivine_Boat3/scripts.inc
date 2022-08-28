@@ -1,84 +1,84 @@
 Olivine_Boat3_MapScripts::
 	.byte 0
 
-OlivineBoat3-1::
+OlivineBoat3_1::
 end
 
 
 
-OlivineBoat3-2::
+OlivineBoat3_2::
 end
 
 
 
-OlivineBoat3-3::
+OlivineBoat3_3::
 end
 
 
 
-OlivineBoat3-4::
+OlivineBoat3_4::
 end
 
 
 
-OlivineBoat3-5::
+OlivineBoat3_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox OlivineBoat3_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+OlivineBoat3_Text_5:
 .string "¡Tranquilo!\n"
 .string "¡Hay para todos, está todo bajo\l"
 .string "control!$"
 
 
 
-OlivineBoat3-6::
+OlivineBoat3_6::
 end
 
 
 
-OlivineBoat3-7::
+OlivineBoat3_7::
 end
 
 
 
-OlivineBoat3-8::
+OlivineBoat3_8::
 end
 
 
 
-OlivineBoat3-9::
+OlivineBoat3_9::
 end
 
 
 
-OlivineBoat3-10::
+OlivineBoat3_10::
 end
 
 
 
-OlivineBoat3-12::
+OlivineBoat3_12::
 end
 
 
 
-OlivineBoat3-13::
+OlivineBoat3_13::
 end
 
 
 
-OlivineBoat3-14::
+OlivineBoat3_14::
 end
 
 
 
-OlivineBoat3-15::
+OlivineBoat3_15::
 end
 
 
 
-OlivineBoat3-16::
+OlivineBoat3_16::
 end

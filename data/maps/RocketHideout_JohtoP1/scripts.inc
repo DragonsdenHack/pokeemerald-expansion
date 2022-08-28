@@ -1,14 +1,14 @@
 RocketHideout_JohtoP1_MapScripts::
 	.byte 0
 
-RocketHideoutP1-1::
+RocketHideoutP1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RocketHideoutP1_Text_1:
 .string "La ausencia generalizada de estrés\n"
 .string "salpicada de breves momentos de\l"
 .string "estrés extremo es infinitamente\l"
@@ -17,14 +17,14 @@ Text_1:
 
 
 
-RocketHideoutP1-2::
+RocketHideoutP1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RocketHideoutP1_Text_2:
 .string "Con nuestra tecnología hemos\n"
 .string "podido replicar varias de las\l"
 .string "MEGAPIEDRAS que muy rara vez\l"
@@ -37,51 +37,51 @@ Text_2:
 
 
 
-RocketHideoutP1-3::
+RocketHideoutP1_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RocketHideoutP1_Text_3:
 .string "Aquí estamos convirtiendo la\n"
 .string "excelencia y la perfección en la\l"
 .string "norma, ¿no encuentras eso\l"
 .string "desmotivante?\l"
-.string "Si todos son súper[.] ya nadie lo\l"
+.string "Si todos son súper… ya nadie lo\l"
 .string "será, y nuestros logros, por más\l"
 .string "buenos que sean, no dejarán de ser\l"
 .string "unos más del montón.$"
 
 
 
-RocketHideoutP1-4::
+RocketHideoutP1_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+RocketHideoutP1_Text_4:
 .string "¿Qué se siente al ser el dueño de\n"
 .string "todo esto?$"
 
 
 
-RocketHideoutP1-5::
+RocketHideoutP1_5::
 end
 
 
 
-RocketHideoutP1-6::
+RocketHideoutP1_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+RocketHideoutP1_Text_6:
 .string "BUTTERFREE es el único POKÉMON\n"
 .string "conocido que cuenta con una\l"
 .string "MEGAEVOLUCIÓN y a la vez una forma\l"
@@ -105,14 +105,14 @@ Text_6:
 
 
 
-RocketHideoutP1-7::
+RocketHideoutP1_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+RocketHideoutP1_Text_7:
 .string "Nos costó horrores crear\n"
 .string "MEGAPIEDRAS a la carta, pero\l"
 .string "finalmente pudimos hacerlo con\l"
@@ -122,14 +122,14 @@ Text_7:
 
 
 
-RocketHideoutP1-8::
+RocketHideoutP1_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+RocketHideoutP1_Text_8:
 .string "A la Madre Naturaleza no le gusta\n"
 .string "la especialización excesiva, pues\l"
 .string "esta limita la evolución y vuelve\l"
@@ -140,24 +140,24 @@ Text_8:
 
 
 
-RocketHideoutP1-9::
+RocketHideoutP1_9::
 end
 
 
 
-RocketHideoutP1-10::
+RocketHideoutP1_10::
 end
 
 
 
-RocketHideoutP1-11::
+RocketHideoutP1_11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+RocketHideoutP1_Text_11:
 .string "A muchos les parecería un\n"
 .string "despropósito los números de poder\l"
 .string "que aquí estamos manejando.\l"
@@ -166,14 +166,14 @@ Text_11:
 
 
 
-RocketHideoutP1-12::
+RocketHideoutP1_12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+RocketHideoutP1_Text_12:
 .string "Lo que hay en esta sala es un\n"
 .string "imposible para el 99% de la\l"
 .string "población común, dudo que\l"
@@ -184,28 +184,28 @@ Text_12:
 
 
 
-RocketHideoutP1-13::
+RocketHideoutP1_13::
 lock     
 faceplayer     
-msgbox Text_13, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_13, MSGBOX_DEFAULT
 release     
 end
 
-Text_13:
+RocketHideoutP1_Text_13:
 .string "¡Imagínate tener un MEGA-HOUNDOOM!\n"
 .string "¡Todos se arrodillarían ante mí\l"
 .string "nada más sacarlo de la POKÉ BALL!$"
 
 
 
-RocketHideoutP1-14::
+RocketHideoutP1_14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+RocketHideoutP1_Text_14:
 .string "GIOVANNI siempre se negó a ser un\n"
 .string "muñeco movido por los hilos de\l"
 .string "LANCE, por eso hoy el TEAM ROCKET\l"
@@ -213,60 +213,60 @@ Text_14:
 
 
 
-RocketHideoutP1-15::
+RocketHideoutP1_15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
+RocketHideoutP1_Text_15:
 .string "De vez en cuando, dí la verdad para\n"
 .string "que te crean cuando mientas.\l"
 .string "¡TEAM ROCKET RULES!$"
 
 
 
-RocketHideoutP1-16::
+RocketHideoutP1_16::
 end
 
 
 
-RocketHideoutP1-17::
+RocketHideoutP1_17::
 lock     
 faceplayer     
-msgbox Text_17, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_17, MSGBOX_DEFAULT
 release     
 end
 
-Text_17:
+RocketHideoutP1_Text_17:
 .string "En general, no nos basta con tener\n"
 .string "éxito, ¡los demás deben fracasar!$"
 
 
 
-RocketHideoutP1-18::
+RocketHideoutP1_18::
 lock     
 faceplayer     
-msgbox Text_18, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_18, MSGBOX_DEFAULT
 release     
 end
 
-Text_18:
+RocketHideoutP1_Text_18:
 .string "¿Crees que los POKÉMON perderán su\n"
 .string "verdadera esencia si les\l"
 .string "modificamos los IVs?$"
 
 
 
-RocketHideoutP1-19::
+RocketHideoutP1_19::
 lock     
 faceplayer     
-msgbox Text_19, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_19, MSGBOX_DEFAULT
 release     
 end
 
-Text_19:
+RocketHideoutP1_Text_19:
 .string "JOHTO cuenta con más de un\n"
 .string "ENTRENADOR que podría haber hecho\l"
 .string "morder el polvo al dictador LANCE,\l"
@@ -275,14 +275,14 @@ Text_19:
 
 
 
-RocketHideoutP1-20::
+RocketHideoutP1_20::
 lock     
 faceplayer     
-msgbox Text_20, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_20, MSGBOX_DEFAULT
 release     
 end
 
-Text_20:
+RocketHideoutP1_Text_20:
 .string "Los IVs de cualquier POKÉMON ya no\n"
 .string "son ningún misterio para nosotros,\l"
 .string "podrás ponerlos todos en 31\l"
@@ -291,14 +291,14 @@ Text_20:
 
 
 
-RocketHideoutP1-21::
+RocketHideoutP1_21::
 lock     
 faceplayer     
-msgbox Text_21, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_21, MSGBOX_DEFAULT
 release     
 end
 
-Text_21:
+RocketHideoutP1_Text_21:
 .string "Los POKÉMON de la ADMIN.JEFA ANDRA\n"
 .string "son terríblemente fuertes, es como\l"
 .string "si el hecho de saber que tienen un\l"
@@ -310,34 +310,34 @@ Text_21:
 
 
 
-RocketHideoutP1-22::
+RocketHideoutP1_22::
 end
 
 
 
-RocketHideoutP1-23::
+RocketHideoutP1_23::
 end
 
 
 
-RocketHideoutP1-24::
+RocketHideoutP1_24::
 end
 
 
 
-RocketHideoutP1-25::
+RocketHideoutP1_25::
 end
 
 
 
-RocketHideoutP1-26::
+RocketHideoutP1_26::
 lock     
 faceplayer     
-msgbox Text_26, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_26, MSGBOX_DEFAULT
 release     
 end
 
-Text_26:
+RocketHideoutP1_Text_26:
 .string "Decir que existe un límite\n"
 .string "superior pero no sé a qué altura\l"
 .string "se encuentra, y decir que no\l"
@@ -348,14 +348,14 @@ Text_26:
 
 
 
-RocketHideoutP1-27::
+RocketHideoutP1_27::
 lock     
 faceplayer     
-msgbox Text_27, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_27, MSGBOX_DEFAULT
 release     
 end
 
-Text_27:
+RocketHideoutP1_Text_27:
 .string "Este es el lugar en el que las\n"
 .string "variables de la naturaleza se han\l"
 .string "convertido en un libro abierto\l"
@@ -363,28 +363,28 @@ Text_27:
 
 
 
-RocketHideoutP1-28::
+RocketHideoutP1_28::
 lock     
 faceplayer     
-msgbox Text_28, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_28, MSGBOX_DEFAULT
 release     
 end
 
-Text_28:
+RocketHideoutP1_Text_28:
 .string "En las tinieblas la imaginación\n"
 .string "trabaja más activamente que en\l"
 .string "plena luz.$"
 
 
 
-RocketHideoutP1-29::
+RocketHideoutP1_29::
 lock     
 faceplayer     
-msgbox Text_29, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_29, MSGBOX_DEFAULT
 release     
 end
 
-Text_29:
+RocketHideoutP1_Text_29:
 .string "La aleatoriedad no siempre es\n"
 .string "mala, puede ser mucho más\l"
 .string "igualitaria que, incluso, la\l"
@@ -401,14 +401,14 @@ Text_29:
 
 
 
-RocketHideoutP1-30::
+RocketHideoutP1_30::
 lock     
 faceplayer     
-msgbox Text_30, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_30, MSGBOX_DEFAULT
 release     
 end
 
-Text_30:
+RocketHideoutP1_Text_30:
 .string "Nuestra psicología conspira contra\n"
 .string "nosotros mismos: a las personas\l"
 .string "nos gusta ir hacia un destino\l"
@@ -418,14 +418,14 @@ Text_30:
 
 
 
-RocketHideoutP1-31::
+RocketHideoutP1_31::
 lock     
 faceplayer     
-msgbox Text_31, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_31, MSGBOX_DEFAULT
 release     
 end
 
-Text_31:
+RocketHideoutP1_Text_31:
 .string "En la práctica, no existe el\n"
 .string "largo plazo, lo que importa es\l"
 .string "lo que sucede antes de ese largo\l"
@@ -437,14 +437,14 @@ Text_31:
 
 
 
-RocketHideoutP1-32::
+RocketHideoutP1_32::
 lock     
 faceplayer     
-msgbox Text_32, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_32, MSGBOX_DEFAULT
 release     
 end
 
-Text_32:
+RocketHideoutP1_Text_32:
 .string "Las librerías están repletas de\n"
 .string "libros sobre cómo alguien logró\l"
 .string "tener éxito, casi no hay ninguno\l"
@@ -457,19 +457,19 @@ Text_32:
 
 
 
-RocketHideoutP1-33::
+RocketHideoutP1_33::
 end
 
 
 
-RocketHideoutP1-34::
+RocketHideoutP1_34::
 lock     
 faceplayer     
-msgbox Text_34, MSGBOX_DEFAULT
+msgbox RocketHideoutP1_Text_34, MSGBOX_DEFAULT
 release     
 end
 
-Text_34:
+RocketHideoutP1_Text_34:
 .string "GIOVANNI se reveló contra su\n"
 .string "propio destino, ese que decía que\l"
 .string "perdería siempre contra el niño de\l"

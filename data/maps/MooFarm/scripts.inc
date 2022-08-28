@@ -24,11 +24,11 @@ end
 MooFarm5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox MooFarm_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+MooFarm_Text_5:
 .string "Nuestros TAUROS tienen fama de ser\n"
 .string "los más bravos de JOHTO, ¡lo\l"
 .string "necesitan para poder estar a la\l"
@@ -45,11 +45,11 @@ end
 MooFarm7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox MooFarm_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+MooFarm_Text_7:
 .string "De aquí sale la mayor parte de\n"
 .string "LECHE MU-MU que venden en JOHTO y\l"
 .string "KANTO. Debes saber que es el mejor\l"

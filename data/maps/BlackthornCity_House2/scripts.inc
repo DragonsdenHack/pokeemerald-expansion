@@ -1,14 +1,14 @@
 BlackthornCity_House2_MapScripts::
 	.byte 0
 
-BlackthornCityHouse2-1::
+BlackthornCityHouse2_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox BlackthornCity_House2_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+BlackthornCity_House2_Text_1:
 .string "Creo que nuestro GRAN MAESTRO no\n"
 .string "está del todo contento con su\l"
 .string "nieta, DÉBORA, y razón no le\l"
@@ -22,14 +22,14 @@ Text_1:
 
 
 
-BlackthornCityHouse2-2::
+BlackthornCityHouse2_2::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox BlackthornCity_House2_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+BlackthornCity_House2_Text_2:
 .string "Muchos creen que criar dragones es\n"
 .string "súper guay, por su potencial de\l"
 .string "volverse tan fuertes, pero\l"

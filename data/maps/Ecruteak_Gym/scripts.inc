@@ -19,11 +19,11 @@ end
 EcruteakGym4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Ecruteak_Gym_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Ecruteak_Gym_Text_4:
 .string "¿Nuestro LÍDER?\n"
 .string "Lo siento, pero JOHTO dejó de\l"
 .string "formar parte de la LIGA POKÉMON,\l"
@@ -37,11 +37,11 @@ Text_4:
 EcruteakGym5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Ecruteak_Gym_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Ecruteak_Gym_Text_5:
 .string "¡Ah, hola, joven aspirante!\n"
 .string "O eso debería de decir si pudieras\l"
 .string "retar a nuestro LÍDER. Solo\l"

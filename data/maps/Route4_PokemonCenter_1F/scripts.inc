@@ -9,11 +9,11 @@ end
 Route4PokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route4_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route4_PokemonCenter_Text_2:
 .string "-El TEAM ROCKET atraca a mano\n"
 .string "armada a los ciudadanos de CIUDAD\l"
 .string "CELESTE-\l"
@@ -29,11 +29,11 @@ Text_2:
 Route4PokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Route4_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Route4_PokemonCenter_Text_3:
 .string "El PC es otro servicio básico que\n"
 .string "los ROCKET pueden usar, junto con\l"
 .string "los CENTROS POKÉMON es lo único\l"
@@ -45,11 +45,11 @@ Text_3:
 Route4PokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Route4_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Route4_PokemonCenter_Text_4:
 .string "¡Hey, deja de mirar las 6 POKÉ\n"
 .string "BALL de mi cinturón!\l"
 .string "¡No me las robarás!$"

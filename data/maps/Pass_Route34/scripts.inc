@@ -1,14 +1,14 @@
 Pass_Route34_MapScripts::
 	.byte 0
 
-PassRoute34-1::
+PassRoute34_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Pass_Route34_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Pass_Route34_Text_1:
 .string "¿Has visto el santurario en honor\n"
 .string "al guardián?\l"
 .string "Protege el bosque desde antaño.\l"

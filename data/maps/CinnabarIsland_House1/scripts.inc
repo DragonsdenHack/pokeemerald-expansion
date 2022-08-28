@@ -1,14 +1,14 @@
 CinnabarIsland_House1_MapScripts::
 	.byte 0
 
-CinnabarIslandHouse1-1::
+CinnabarIslandHouse1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox _CinnabarIsland_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+_CinnabarIsland_House1_Text_1:
 .string "Aquí no hacemos intercambios con\n"
 .string "ROCKETS chico, no queremos a\l"
 .string "vuestros POKÉMON robados y\l"
@@ -18,14 +18,14 @@ Text_1:
 
 
 
-CinnabarIslandHouse1-2::
+CinnabarIslandHouse1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox _CinnabarIsland_House1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+_CinnabarIsland_House1_Text_2:
 .string "¡Encontré este FÓSIL tan raro\n"
 .string "en el MT. MOON!\p"
 .string "¡Creo que es un POKéMON\n"
@@ -33,14 +33,14 @@ Text_2:
 
 
 
-CinnabarIslandHouse1-3::
+CinnabarIslandHouse1_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox _CinnabarIsland_House1_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+_CinnabarIsland_House1_Text_3:
 .string "¡Heee!\n"
 .string "¡Deja en paz a mis POKÉMON o\l"
 .string "llamaré a las autoridades!$"

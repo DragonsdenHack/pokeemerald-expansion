@@ -4,11 +4,11 @@ Ecruteak_BellchimeTrailEntrance_MapScripts::
 BellchimeTrailEntrance2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Ecruteak_Bellchimetrailentrance_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Ecruteak_Bellchimetrailentrance_Text_2:
 .string "CIUDAD IRIS no puede permitirse\n"
 .string "una nueva tragedia que ponga en\l"
 .string "peligro el último reducto\l"
@@ -23,15 +23,15 @@ Text_2:
 BellchimeTrailEntrance3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Ecruteak_Bellchimetrailentrance_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Ecruteak_Bellchimetrailentrance_Text_3:
 .string "Cuando aparecieron los POKÉMON\n"
-.string "LEGENDARIOS... infundieron el\l"
+.string "LEGENDARIOS… infundieron el\l"
 .string "terror en aquellos que vieron su\l"
-.string "ascenso. Y... algunos incluso\l"
+.string "ascenso. Y… algunos incluso\l"
 .string "atacaron en vano. Los POKÉMON\l"
 .string "LEGENDARIOS, conocedores de su\l"
 .string "propio poder, huyeron y\l"
@@ -42,11 +42,11 @@ Text_3:
 BellchimeTrailEntrance4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Ecruteak_Bellchimetrailentrance_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Ecruteak_Bellchimetrailentrance_Text_4:
 .string "SENDA DINDÓN aguarda tras estas\n"
 .string "escaleras y, a lo lejos, TORRE\l"
 .string "CAMPANA.$"
@@ -61,11 +61,11 @@ end
 BellchimeTrailEntrance9::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Ecruteak_Bellchimetrailentrance_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Ecruteak_Bellchimetrailentrance_Text_6:
 .string "SENDA DINDÓN aguarda tras estas\n"
 .string "escaleras y, a lo lejos, TORRE\l"
 .string "CAMPANA.$"

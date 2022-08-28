@@ -9,11 +9,11 @@ end
 CinnabarIslandMart2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CinnabarIsland_Mart_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CinnabarIsland_Mart_Text_2:
 .string "¿No tienes ATAQUE X?\p"
 .string "¡Es estupendo para luchar!$"
 
@@ -22,9 +22,9 @@ Text_2:
 CinnabarIslandMart3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CinnabarIsland_Mart_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CinnabarIsland_Mart_Text_3:
 .string "¡Está bien tener más objetos!$"

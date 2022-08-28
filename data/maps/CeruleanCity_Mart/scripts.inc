@@ -9,11 +9,11 @@ end
 CeruleanCityMart2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CeruleanCity_Mart_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CeruleanCity_Mart_Text_2:
 .string "Usa el REPELENTE para evitar a los\n"
 .string "bichos y a los POKéMON débiles.\p"
 .string "¡Pon a tu POKéMON más fuerte el\n"
@@ -27,11 +27,11 @@ Text_2:
 CeruleanCityMart3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CeruleanCity_Mart_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CeruleanCity_Mart_Text_3:
 .string "¿Has visto algún CARAMELORARO?\p"
 .string "¡Dicen que los POKéMON suben\n"
 .string "un nivel si se comen uno!$"

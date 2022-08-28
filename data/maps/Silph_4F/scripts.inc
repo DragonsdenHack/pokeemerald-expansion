@@ -1,40 +1,40 @@
 Silph_4F_MapScripts::
 	.byte 0
 
-Silph4F-1::
+Silph4F_1::
 end
 
 
 
-Silph4F-2::
+Silph4F_2::
 end
 
 
 
-Silph4F-3::
+Silph4F_3::
 end
 
 
 
-Silph4F-4::
+Silph4F_4::
 end
 
 
 
-Silph4F-5::
+Silph4F_5::
 end
 
 
 
-Silph4F-6::
+Silph4F_6::
 end
 
 
 
-Silph4F-7::
+Silph4F_7::
 end
 
 
 
-Silph4F-8::
+Silph4F_8::
 end

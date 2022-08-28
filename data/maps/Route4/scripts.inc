@@ -2,27 +2,27 @@ Route4_MapScripts::
 	.byte 0
 
 
-Route4-1::
+Route4_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route4_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Route4_Text_1:
 .string "¡Ouch!\n"
 .string "¡Me tropecé con un POKÉMON rocoso,\l"
 .string "GEODUDE!$"
 
 
-Route4-2::
+Route4_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route4_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route4_Text_2:
 .string "Si no fuera por la imposibilidad\n"
 .string "de entrar a los GIMNASIOS POKÉMON,\l"
 .string "quizás me plantearía incluso ser\l"
@@ -32,22 +32,22 @@ Text_2:
 .string "¡pero prefiero retar a BROCK!$"
 
 
-Route4-3::
+Route4_3::
 end
 
 
-Route4-4::
+Route4_4::
 end
 
 
-Route4-5::
+Route4_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Route4_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Route4_Text_5:
 .string "¡Recuerda!\n"
 .string "¡Más vale potencia sostenida,\l"
 .string "constante y controlada que\l"
@@ -55,5 +55,5 @@ Text_5:
 .string "que el poder sin control!$"
 
 
-Route4-6::
+Route4_6::
 end

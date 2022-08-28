@@ -9,11 +9,11 @@ end
 CherryPkmnCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CherryPkmnCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CherryPkmnCenter_Text_2:
 .string "Estos CENTROS POKÉMON tan cómodos\n"
 .string "fueron parte de los recursos que\l"
 .string "LANCE destinó a JOHTO tras ganar\l"
@@ -26,15 +26,15 @@ Text_2:
 CherryPkmnCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox CherryPkmnCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+CherryPkmnCenter_Text_3:
 .string "Vine hasta aquí por un poderoso\n"
 .string "SCYTHER, pero parece que no hay.\l"
 .string "Tendré que buscar por el PARQUE\l"
-.string "NACIONAL[.]$"
+.string "NACIONAL…$"
 
 
 
@@ -46,11 +46,11 @@ end
 CherryPkmnCenter5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox CherryPkmnCenter_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+CherryPkmnCenter_Text_5:
 .string "¡Es genial!\n"
 .string "¡Puedo guardar a todos los POKÉMON\l"
 .string "que quiera, y gratis!$"

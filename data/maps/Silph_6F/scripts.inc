@@ -1,50 +1,50 @@
 Silph_6F_MapScripts::
 	.byte 0
 
-Silph6F-1::
+Silph6F_1::
 end
 
 
 
-Silph6F-2::
+Silph6F_2::
 end
 
 
 
-Silph6F-3::
+Silph6F_3::
 end
 
 
 
-Silph6F-4::
+Silph6F_4::
 end
 
 
 
-Silph6F-5::
+Silph6F_5::
 end
 
 
 
-Silph6F-6::
+Silph6F_6::
 end
 
 
 
-Silph6F-7::
+Silph6F_7::
 end
 
 
 
-Silph6F-8::
+Silph6F_8::
 end
 
 
 
-Silph6F-9::
+Silph6F_9::
 end
 
 
 
-Silph6F-10::
+Silph6F_10::
 end

@@ -8,11 +8,11 @@ end
 TwoIsland2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox TwoIsland_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+TwoIsland_Text_2:
 .string "Hay una señora que vive en una\n"
 .string "casita en el cabo.\p"
 .string "Es un poco desconcertante,\n"
@@ -21,11 +21,11 @@ Text_2:
 TwoIsland3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox TwoIsland_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+TwoIsland_Text_3:
 .string "Oye, oye, ¿sabes una cosa?\p"
 .string "Hace poco, vino un ENTRENADOR\n"
 .string "a la ISLA.\p"
@@ -39,11 +39,11 @@ Text_3:
 TwoIsland4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox TwoIsland_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+TwoIsland_Text_4:
 .string "¡El experto ENTRENADOR sabe\n"
 .string "comprar objetos raros!$"
 

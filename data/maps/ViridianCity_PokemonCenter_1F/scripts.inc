@@ -9,11 +9,11 @@ end
 ViridianCityPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox ViridianCity_Center_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+ViridianCity_Center_Text_2:
 .string "Solo eres un peón en manos de tu\n"
 .string "jefe, recuérdalo.$"
 
@@ -22,11 +22,11 @@ Text_2:
 ViridianCityPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox ViridianCity_Center_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+ViridianCity_Center_Text_3:
 .string "Así es, PUEBLO PALETA está algo\n"
 .string "más al sur.$"
 
@@ -36,11 +36,11 @@ Text_3:
 ViridianCityPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox ViridianCity_Center_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+ViridianCity_Center_Text_4:
 .string "Pronto conseguiremos que siquiera\n"
 .string "os dejen entrar a los CENTROS\l"
 .string "POKÉMON.\l"

@@ -1,10 +1,10 @@
 SsAnne_24F_MapScripts::
 	.byte 0
 
-SsAnne24F-1::
+SsAnne24F_1::
 end
 
 
 
-SsAnne24F-2::
+SsAnne24F_2::
 end

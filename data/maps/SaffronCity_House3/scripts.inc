@@ -1,14 +1,14 @@
 SaffronCity_House3_MapScripts::
 	.byte 0
 
-SaffronCityHouse3-1::
+SaffronCityHouse3_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox SafariZone_House3_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+SafariZone_House3_Text_1:
 .string "¿Cómo?\n"
 .string "¿Regalar yo la MT29, PSÍQUICO, a\l"
 .string "precisamente uno de los ROCKETS\l"

@@ -4,11 +4,11 @@ Olivine_Gym_MapScripts::
 OlivineGym2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OlivineCity_Gym_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OlivineCity_Gym_Text_2:
 .string "Veo a CROM a un nivel tan lejano,\n"
 .string "y yo con mi ONIX y MAGNEMITE. Él\l"
 .string "dice que no me preocupe, y que me\l"

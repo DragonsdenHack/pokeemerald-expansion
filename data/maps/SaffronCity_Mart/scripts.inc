@@ -9,11 +9,11 @@ end
 SaffronCityMart2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SaffronCity_Mart_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SaffronCity_Mart_Text_2:
 .string "¡MÁX. REPEL dura más que el\n"
 .string "SUPERREPEL; mantiene alejados\l"
 .string "más tiempo a los POKéMON débiles!$"
@@ -23,10 +23,10 @@ Text_2:
 SaffronCityMart3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SaffronCity_Mart_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SaffronCity_Mart_Text_3:
 .string "¡REVIVIR es caro, pero hace\n"
 .string "revivir a los POKéMON debilitados!$"

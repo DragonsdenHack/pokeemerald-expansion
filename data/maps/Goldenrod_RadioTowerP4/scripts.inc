@@ -1,36 +1,36 @@
 Goldenrod_RadioTowerP4_MapScripts::
 	.byte 0
 
-RadioTowerP4-1::
+RadioTowerP4_1::
 end
 
 
 
-RadioTowerP4-2::
+RadioTowerP4_2::
 end
 
 
 
-RadioTowerP4-3:
+RadioTowerP4_3:
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Goldenrod_RadioTowerP4_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Goldenrod_RadioTowerP4_Text_3:
 .string "NARDO: ¿Escuchas nuestra música?$"
 
 
 
-RadioTowerP4-4::
+RadioTowerP4_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Goldenrod_RadioTowerP4_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Goldenrod_RadioTowerP4_Text_4:
 .string "Choca bastante ver un edificio de\n"
 .string "estas dimensiones justo al lado\l"
 .string "del mar, ¿no crees?\l"
@@ -45,14 +45,14 @@ Text_4:
 
 
 
-RadioTowerP4-5::
+RadioTowerP4_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Goldenrod_RadioTowerP4_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Goldenrod_RadioTowerP4_Text_5:
 .string "El despacho de nuestro PRESIDENTE\n"
 .string "está justo al lado de esta sala,\l"
 .string "es allí donde tienen lugar las\l"
@@ -60,14 +60,14 @@ Text_5:
 
 
 
-RadioTowerP4-6::
+RadioTowerP4_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Goldenrod_RadioTowerP4_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Goldenrod_RadioTowerP4_Text_6:
 .string "Aún no puedo creer todo lo que\n"
 .string "TRIGAL ha crecido en los últimos\l"
 .string "años, y todo lo que está por\l"
@@ -76,10 +76,10 @@ Text_6:
 
 
 
-RadioTowerP4-7::
+RadioTowerP4_7::
 end
 
 
 
-RadioTowerP4-9::
+RadioTowerP4_9::
 end

@@ -9,11 +9,11 @@ end
 SevenIslandPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SevenIsland_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SevenIsland_PokemonCenter_Text_2:
 .string "En la isla, ocurren distintas cosas\n"
 .string "según las conexiones.\p"
 .string "¿Que qué son las conexiones?\p"
@@ -25,11 +25,11 @@ Text_2:
 SevenIslandPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SevenIsland_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SevenIsland_PokemonCenter_Text_3:
 .string "¿Has venido a bordo del SURCAMAR?\p"
 .string "Creo que en total hay diez barcos\n"
 .string "rápidos de esos.\p"
@@ -40,11 +40,11 @@ Text_3:
 SevenIslandPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox SevenIsland_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+SevenIsland_PokemonCenter_Text_4:
 .string "Estas islas guardan muchos\n"
 .string "misterios por descubrir, algunos\l"
 .string "siquiera podemos imaginarlos.$"

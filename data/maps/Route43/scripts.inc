@@ -1,45 +1,45 @@
 Route43_MapScripts::
 	.byte 0
 
-Route43-1::
+Route43_1::
 end
 
 
 
-Route43-2::
+Route43_2::
 end
 
 
 
-Route43-3::
+Route43_3::
 end
 
 
 
-Route43-4::
+Route43_4::
 end
 
 
 
-Route43-5::
+Route43_5::
 end
 
 
 
-Route43-6::
+Route43_6::
 end
 
 
 
-Route43-7::
+Route43_7::
 end
 
 
 
-Route43-8::
+Route43_8::
 end
 
 
 
-Route43-9::
+Route43_9::
 end

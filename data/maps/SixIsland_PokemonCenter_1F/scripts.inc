@@ -9,11 +9,11 @@ end
 SixIslandPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox SixIsland_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+SixIsland_PokemonCenter_Text_2:
 .string "Tú ya sabes que hay POKéMON que\n"
 .string "evolucionan durante el intercambio,\l"
 .string "¿no?\p"
@@ -26,11 +26,11 @@ Text_2:
 SixIslandPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox SixIsland_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+SixIsland_PokemonCenter_Text_3:
 .string "Llevo diez años buscando\n"
 .string "las RUINAS.\p"
 .string "No, mucho más, ¡llevo veinte!\p"

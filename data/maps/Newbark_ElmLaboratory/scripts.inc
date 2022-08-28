@@ -9,11 +9,11 @@ end
 ElmLaboratory2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox NewBarkTown_ElmLaboratory_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+NewBarkTown_ElmLaboratory_Text_2:
 .string "¡Hay mucho por hacer!\n"
 .string "¡Toda la región ha de ser\l"
 .string "acomodada para ello!$"
@@ -23,11 +23,11 @@ Text_2:
 ElmLaboratory3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox NewBarkTown_ElmLaboratory_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
-.string "Oh, debes de ser [player], ¿verdad?\n"
+NewBarkTown_ElmLaboratory_Text_3:
+.string "Oh, debes de ser {PLAYER}, ¿verdad?\n"
 .string "¿Cómo es estar en presencia de\l"
 .string "OAK?$"

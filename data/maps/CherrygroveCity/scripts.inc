@@ -4,11 +4,11 @@ CherrygroveCity_MapScripts::
 CherrygroveCity1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox CherrygroveCity_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+CherrygroveCity_Text_1:
 .string "A pesar de que no hay nada\n"
 .string "interesante a nivel mediático por\l"
 .string "estas rutas, aquí vive gente muy\l"
@@ -28,11 +28,11 @@ end
 CherrygroveCity4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox CherrygroveCity_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+CherrygroveCity_Text_4:
 .string "Algunos pescadores y nadadores se\n"
 .string "aventuran más allá de estas aguas.\l"
 .string "Es peligroso, pero las piezas que\l"
@@ -46,11 +46,11 @@ end
 CherrygroveCity6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox CherrygroveCity_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+CherrygroveCity_Text_6:
 .string "Si sigues haciendo SURF, más al\n"
 .string "oeste llegarás a la RUTA del sur\l"
 .string "de CIUDAD MALVA, pero para ello\l"
@@ -64,11 +64,11 @@ end
 CherrygroveCity8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox CherrygroveCity_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+CherrygroveCity_Text_8:
 .string "¡Cuando era niño, era un\n"
 .string "brillante ENTRENADOR! Éste es mi\l"
 .string "consejo: ¡Atrapa muchos POKÉMON!\l"

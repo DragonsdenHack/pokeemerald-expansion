@@ -9,11 +9,11 @@ end
 OlivineCity2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox OlivineCity_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+OlivineCity_Text_2:
 .string "La tradición marinera de OLIVO es\n"
 .string "la más antigua de KANTO-JOHTO, el\l"
 .string "FARO se construyó hace tiempo\l"
@@ -26,11 +26,11 @@ Text_2:
 OlivineCity3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox OlivineCity_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+OlivineCity_Text_3:
 .string "Todo está dispuesto.\n"
 .string "¡La apertura del PUERTO OLIVO\l"
 .string "conectará a JOHTO con todo el\l"
@@ -41,11 +41,11 @@ Text_3:
 OlivineCity4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox OlivineCity_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+OlivineCity_Text_4:
 .string "El turismo está cada vez más\n"
 .string "presente en CIUDAD OLIVO, incluso\l"
 .string "en ORQUÍDEA. Ahora con la\l"
@@ -57,11 +57,11 @@ Text_4:
 OlivineCity5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox OlivineCity_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+OlivineCity_Text_5:
 .string "¡No hay nada más traicionero que\n"
 .string "el mar en una noche cerrada!\l"
 .string "Sin la luz de este FARO, los\l"
@@ -73,11 +73,11 @@ Text_5:
 OlivineCity6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox OlivineCity_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+OlivineCity_Text_6:
 .string "¿Notas ya el rugido de las olas\n"
 .string "golpeando contra nuestro PUERTO?\l"
 .string "CIUDAD OLIVO no puede compararse a\l"

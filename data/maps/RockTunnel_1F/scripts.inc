@@ -1,34 +1,34 @@
 RockTunnel_1F_MapScripts::
 	.byte 0
 
-RockTunnel1F-1::
+RockTunnel1F_1::
 end
 
 
 
-RockTunnel1F-2::
+RockTunnel1F_2::
 end
 
 
 
-RockTunnel1F-3::
+RockTunnel1F_3::
 end
 
 
 
-RockTunnel1F-4::
+RockTunnel1F_4::
 end
 
 
 
-RockTunnel1F-5::
+RockTunnel1F_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox RockTunnel1F_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+RockTunnel1F_Text_5:
 .string "La rareza de KANGASKHAN está a la\n"
 .string "altura de los FÓSILES DOMO y\l"
 .string "HELIX, DRATINI o el extinto\l"
@@ -40,14 +40,14 @@ Text_5:
 
 
 
-RockTunnel1F-6::
+RockTunnel1F_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox RockTunnel1F_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+RockTunnel1F_Text_6:
 .string "Ese KANGASKHAN va a ser nuestro,\n"
 .string "ningún ENTRENADOR GUAY será tan\l"
 .string "guay como nosotros después de\l"
@@ -55,35 +55,35 @@ Text_6:
 
 
 
-RockTunnel1F-7::
+RockTunnel1F_7::
 end
 
 
 
-RockTunnel1F-8::
+RockTunnel1F_8::
 end
 
 
 
-RockTunnel1F-9::
+RockTunnel1F_9::
 end
 
 
 
-RockTunnel1F-10::
+RockTunnel1F_10::
 end
 
 
 
-RockTunnel1F-11::
+RockTunnel1F_11::
 end
 
 
 
-RockTunnel1F-12::
+RockTunnel1F_12::
 end
 
 
 
-RockTunnel1F-13::
+RockTunnel1F_13::
 end

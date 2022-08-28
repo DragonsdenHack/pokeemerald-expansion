@@ -1,31 +1,31 @@
 Route10_MapScripts::
 	.byte 0
 
-Route10-1::
+Route10_1::
 end
 
 
 
-Route10-2::
+Route10_2::
 end
 
 
-Route10-3::
+Route10_3::
 end
 
 
-Route10-4::
+Route10_4::
 end
 
 
-Route10-5::
+Route10_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Route5_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Route5_Text_5:
 .string "¿Tienes idea de lo que dices?\n"
 .string "¡No hay ningún KANGASKHAN en este\l"
 .string "lugar!\l"
@@ -37,26 +37,26 @@ Text_5:
 
 
 
-Route10-6::
+Route10_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Route5_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Route5_Text_6:
 .string "¡Te digo que he visto un\n"
 .string "KANGASKHAN aquí dentro!$"
 
 
-Route10-7::
+Route10_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox Route5_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+Route5_Text_7:
 .string "La CENTRAL ENERGÍA ha sido\n"
 .string "considerada patrimonio de nuestra\l"
 .string "región, a partir de ahora será\l"
@@ -69,14 +69,14 @@ Text_7:
 
 
 
-Route10-8::
+Route10_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox Route5_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+Route5_Text_8:
 .string "La CENTRAL ENERGÍA ha sido\n"
 .string "considerada patrimonio de nuestra\l"
 .string "región, a partir de ahora será\l"
@@ -88,21 +88,21 @@ Text_8:
 .string "sobre ti.$"
 
 
-Route10-9::
+Route10_9::
 end
 
 
-Route10-10::
+Route10_10::
 end
 
 
-Route10-11::
+Route10_11::
 end
 
 
-Route10-12::
+Route10_12::
 end
 
 
-Route10-13::
+Route10_13::
 end

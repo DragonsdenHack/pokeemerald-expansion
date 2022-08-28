@@ -9,11 +9,11 @@ end
 VermilionCityPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox VermilionCity_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+VermilionCity_PokemonCenter_Text_2:
 .string "¿Cómo?\n"
 .string "¿El BUSCAPELEA?\l"
 .string "¡Yo no hago regalos a ladrones de\l"
@@ -24,11 +24,11 @@ Text_2:
 VermilionCityPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox VermilionCity_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+VermilionCity_PokemonCenter_Text_3:
 .string "La sanidad es considerada como\n"
 .string "esencial en cualquier región, es\l"
 .string "por eso que vosotros, los\l"
@@ -41,11 +41,11 @@ Text_3:
 VermilionCityPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox VermilionCity_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+VermilionCity_PokemonCenter_Text_4:
 .string "¡Mi POKÉMON fue envenenado!\n"
 .string "¡Se debilitó mientras iba de\l"
 .string "camino hacia el CENTRO POKÉMON!$"
@@ -55,11 +55,11 @@ Text_4:
 VermilionCityPokemonCenter5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox VermilionCity_PokemonCenter_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+VermilionCity_PokemonCenter_Text_5:
 .string "Es cierto que un POKéMON de un\n"
 .string "nivel superior es más fuerte.\p"
 .string "Pero todos los POKéMON son\n"

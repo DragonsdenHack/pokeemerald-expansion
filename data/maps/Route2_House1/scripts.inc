@@ -1,14 +1,14 @@
 Route2_House1_MapScripts::
 	.byte 0
 
-Route2House1-1::
+Route2House1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Route2_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Route2_House1_Text_1:
 .string "Cuando el sistema legal funcione\n"
 .string "como debe de funcionar de una\l"
 .string "maldita vez vosotros los ROCKETS\l"
@@ -19,13 +19,13 @@ Text_1:
 
 
 
-Route2House1-2::
+Route2House1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route2_House1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route2_House1_Text_2:
 .string "Jamás dejaría a mi POKÉMON en\n"
 .string "manos de un ROCKET, tenlo claro.$"

@@ -19,11 +19,11 @@ end
 LakeofRage8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox LakeofRage_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+LakeofRage_Text_8:
 .string "Ese GURÚ de KANTO, que vive en\n"
 .string "FUCSIA, lo único que hizo fue\l"
 .string "capturar 3 GYARADOS aquí, cuando\l"
@@ -37,11 +37,11 @@ Text_8:
 LakeofRage9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox LakeofRage_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+LakeofRage_Text_9:
 .string "¿AGUA/VOLADOR GYARADOS?\n"
 .string "¿En qué mundo vives?\l"
 .string "¡Como si GYARADOS pudiera volar!$"

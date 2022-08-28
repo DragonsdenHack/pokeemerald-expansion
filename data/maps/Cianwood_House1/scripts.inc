@@ -1,14 +1,14 @@
 Cianwood_House1_MapScripts::
 	.byte 0
 
-CianwoodHouse1-1::
+CianwoodHouse1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Cianwood_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Cianwood_House1_Text_1:
 .string "Conozco bien a ANÍBAL, desde joven\n"
 .string "hizo la promesa de ser uno más\l"
 .string "para con su equipo POKÉMON, algo\l"
@@ -18,21 +18,21 @@ Text_1:
 .string "extender su plenitud física hasta\l"
 .string "bien entrada la cuarentena, pero\l"
 .string "el tiempo alcanza a todos antes o\l"
-.string "después[.]\l"
+.string "después…\l"
 .string "Ahora ha pasado los 50 años,\l"
 .string "deberá de tomar una decisión\l"
 .string "respecto a sus fieles POKÉMON.$"
 
 
 
-CianwoodHouse1-2::
+CianwoodHouse1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Cianwood_House1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Cianwood_House1_Text_2:
 .string "Una de las 3 bestias errantes\n"
 .string "bendijo a esta ciudad con los\l"
 .string "frutos del mar. Hacía más de un\l"
@@ -46,14 +46,14 @@ Text_2:
 
 
 
-CianwoodHouse1-3::
+CianwoodHouse1_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Cianwood_House1_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Cianwood_House1_Text_3:
 .string "Mis abuelos saben tanto acerca de\n"
 .string "esta ciudad y de JOHTO... Será\l"
 .string "una pena todo el conocimiento que\l"

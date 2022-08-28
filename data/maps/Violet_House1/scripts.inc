@@ -1,14 +1,14 @@
 Violet_House1_MapScripts::
 	.byte 0
 
-VioletHouse1-1::
+VioletHouse1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox VioletCity_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+VioletCity_House1_Text_1:
 .string "El LÍDER de CIUDAD MALVA, PEGASO\n"
 .string "padre, hizo hace poco una\l"
 .string "demostración de sus habilidades.\l"
@@ -20,14 +20,14 @@ Text_1:
 
 
 
-VioletHouse1-2::
+VioletHouse1_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox VioletCity_House1_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+VioletCity_House1_Text_2:
 .string "¡Los he visto!\n"
 .string "¡He visto los POKÉMON TIPO VOLADOR\l"
 .string "del padre de PEGASO!\l"

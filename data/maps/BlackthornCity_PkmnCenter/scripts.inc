@@ -9,11 +9,11 @@ end
 BlackthornCityPkmnCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox BlackthornCity_PkmnCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+BlackthornCity_PkmnCenter_Text_2:
 .string "Vine hasta aquí rodeando la\n"
 .string "montaña, mis TIPO TIERRA no\l"
 .string "soportan el paso por la RUTA\l"
@@ -24,11 +24,11 @@ Text_2:
 BlackthornCityPkmnCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox BlackthornCity_PkmnCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+BlackthornCity_PkmnCenter_Text_3:
 .string "Dicen que el dios creador de todo\n"
 .string "confinó a los dragones de CIUDAD\l"
 .string "ENDRINO, rodeando de montañas la\l"
@@ -41,12 +41,12 @@ Text_3:
 
 BlackthornCityPkmnCenter4::
 lock     
-faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+faceplayer
+msgbox BlackthornCity_PkmnCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+BlackthornCity_PkmnCenter_Text_4:
 .string "Para quien sepa buscar, hay muchos\n"
 .string "ENTRENADORES en JOHTO que valen la\l"
 .string "pena y que han cultivado por\l"

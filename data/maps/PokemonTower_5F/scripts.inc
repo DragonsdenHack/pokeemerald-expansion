@@ -1,19 +1,19 @@
 PokemonTower_5F_MapScripts::
 	.byte 0
 
-PokemonTower5F-1::
+PokemonTower5F_1::
 end
 
 
 
-PokemonTower5F-2::
+PokemonTower5F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox PokemonTower5F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+PokemonTower5F_Text_2:
 .string "Todas las almas pueden ser\n"
 .string "reconducidas.\l"
 .string "Descansa aquí ROCKET y tal vez eso\l"
@@ -22,25 +22,25 @@ Text_2:
 
 
 
-PokemonTower5F-3::
+PokemonTower5F_3::
 end
 
 
 
-PokemonTower5F-4::
+PokemonTower5F_4::
 end
 
 
 
-PokemonTower5F-5::
+PokemonTower5F_5::
 end
 
 
 
-PokemonTower5F-6::
+PokemonTower5F_6::
 end
 
 
 
-PokemonTower5F-7::
+PokemonTower5F_7::
 end

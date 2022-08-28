@@ -1,45 +1,45 @@
 Route13_MapScripts::
 	.byte 0
 
-Route13-1::
+Route13_1::
 end
 
 
-Route13-2::
+Route13_2::
 end
 
 
-Route13-3::
+Route13_3::
 end
 
 
-Route13-4::
+Route13_4::
 end
 
 
-Route13-5::
+Route13_5::
 end
 
 
-Route13-6::
+Route13_6::
 end
 
 
-Route13-7::
+Route13_7::
 end
 
 
-Route13-8::
+Route13_8::
 end
 
 
-Route13-9::
+Route13_9::
 end
 
 
-Route13-10::
+Route13_10::
 end
 
 
-Route13-11::
+Route13_11::
 end

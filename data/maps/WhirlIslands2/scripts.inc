@@ -1,15 +1,15 @@
 WhirlIslands2_MapScripts::
 	.byte 0
 
-WhirlIslands2-1::
+WhirlIslands2_1::
 end
 
 
 
-WhirlIslands2-2::
+WhirlIslands2_2::
 end
 
 
 
-WhirlIslands2-3::
+WhirlIslands2_3::
 end

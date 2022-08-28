@@ -9,11 +9,11 @@ end
 LavenderTownPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox LavenderTown_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+LavenderTown_PokemonCenter_Text_2:
 .string "¡El TEAM ROCKET hará lo que sea\n"
 .string "por el oro!\p"
 .string "¡No hay trabajo sucio ni actos\n"
@@ -25,11 +25,11 @@ Text_2:
 LavenderTownPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox LavenderTown_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+LavenderTown_PokemonCenter_Text_3:
 .string "Los CUBONE llevan cráneos,\n"
 .string "¿verdad?\p"
 .string "¡La gente pagaría mucho por uno\n"
@@ -40,11 +40,11 @@ Text_3:
 LavenderTownPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox LavenderTown_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+LavenderTown_PokemonCenter_Text_4:
 .string "Acabo de mudarme a este pueblo.\p"
 .string "He oído que el SR. FUJI tampoco\n"
 .string "es de por aquí.$"
@@ -54,11 +54,11 @@ Text_4:
 LavenderTownPokemonCenter5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox LavenderTown_PokemonCenter_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+LavenderTown_PokemonCenter_Text_5:
 .string "¡Sois despreciables!\n"
 .string "¡Robando no vais a llegar a\l"
 .string "ninguna parte!$"

@@ -9,11 +9,11 @@ end
 FuchsiaCityMart2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox FuchsiaCity_Mart_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+FuchsiaCity_Mart_Text_2:
 .string "¿Tienes alguna bandera de la ZONA\n"
 .string "del SAFARI?\p"
 .string "¿Tienes cartas? ¿Y calendarios?$"
@@ -23,11 +23,11 @@ Text_2:
 FuchsiaCityMart3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox FuchsiaCity_Mart_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+FuchsiaCity_Mart_Text_3:
 .string "¿Has probado VELOCIDAD X?\n"
 .string "¡Da más velocidad a los POKéMON\l"
 .string "en combate!$"

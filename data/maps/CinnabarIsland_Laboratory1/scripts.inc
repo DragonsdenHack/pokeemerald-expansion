@@ -1,19 +1,19 @@
 CinnabarIsland_Laboratory1_MapScripts::
 	.byte 0
 
-CinnabarIslandLaboratory1-1::
+CinnabarIslandLaboratory1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox CinnabarIsland_Laboratory1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+CinnabarIsland_Laboratory1_Text_1:
 .string "Aquí estudiamos a los POKéMON.\p"
 .string "La gente suele traernos POKéMON\n"
 .string "raros para analizarlos.$"
 
 
 
-CinnabarIslandLaboratory1-2::
+CinnabarIslandLaboratory1_2::
 end

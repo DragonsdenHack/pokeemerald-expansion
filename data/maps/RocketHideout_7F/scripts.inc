@@ -1,14 +1,14 @@
 RocketHideout_7F_MapScripts::
 	.byte 0
 
-RocketHideout7F-1::
+RocketHideout7F_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RocketHideout7F_Text_1:
 .string "De 600 a 680 STATS BASE hay un\n"
 .string "gran salto, seguro que muchos\l"
 .string "Pokémon tienen el potencial para\l"
@@ -16,14 +16,14 @@ Text_1:
 
 
 
-RocketHideout7F-2::
+RocketHideout7F_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RocketHideout7F_Text_2:
 .string "Tenemos constancia de un culto que\n"
 .string "en esta región defiende la\l"
 .string "inexistencia de un Pokémon de 680\l"
@@ -36,14 +36,14 @@ Text_2:
 
 
 
-RocketHideout7F-3::
+RocketHideout7F_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RocketHideout7F_Text_3:
 .string "Las cifras de poder que aquí se\n"
 .string "manejan les vienen grandes al 99%\l"
 .string "de los entrenadores, espero que tú\l"
@@ -51,14 +51,14 @@ Text_3:
 
 
 
-RocketHideout7F-4::
+RocketHideout7F_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+RocketHideout7F_Text_4:
 .string "El resto de regiones ve a KANTO\n"
 .string "como una potencia tecnológica en\l"
 .string "cuanto al desarrollo de Pokémon\l"
@@ -72,59 +72,59 @@ Text_4:
 
 
 
-RocketHideout7F-5::
+RocketHideout7F_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
-.string "Lo sentimos [player], pero este\n"
+RocketHideout7F_Text_5:
+.string "Lo sentimos {PLAYER}, pero este\n"
 .string "lugar está aún en fase\l"
 .string "experimental, solo nuestros\l"
 .string "mejores científicos tienen acceso.$"
 
 
 
-RocketHideout7F-6::
+RocketHideout7F_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
-.string "Lo sentimos [player], pero este\n"
+RocketHideout7F_Text_6:
+.string "Lo sentimos {PLAYER}, pero este\n"
 .string "lugar está aún en fase\l"
 .string "experimental, solo nuestros\l"
 .string "mejores científicos tienen acceso.$"
 
 
 
-RocketHideout7F-7::
+RocketHideout7F_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
-.string "Lo sentimos [player], pero este\n"
+RocketHideout7F_Text_7:
+.string "Lo sentimos {PLAYER}, pero este\n"
 .string "lugar está aún en fase\l"
 .string "experimental, solo nuestros\l"
 .string "mejores científicos tienen acceso.$"
 
 
 
-RocketHideout7F-8::
+RocketHideout7F_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+RocketHideout7F_Text_8:
 .string "A pesar de que es la región con\n"
 .string "mayor número de legendarios, es de\l"
 .string "la que menos información\l"
@@ -146,14 +146,14 @@ Text_8:
 
 
 
-RocketHideout7F-9::
+RocketHideout7F_9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+RocketHideout7F_Text_9:
 .string "La cantidad de Pokémon fuertes que\n"
 .string "atesora HOENN no conoce igual,\l"
 .string "según nuestras investigaciones,\l"
@@ -163,14 +163,14 @@ Text_9:
 
 
 
-RocketHideout7F-10::
+RocketHideout7F_10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+RocketHideout7F_Text_10:
 .string "Lo cierto es que existe otro\n"
 .string "Pokémon que podría entrar de lleno\l"
 .string "en la lista de los Pokémon con\l"
@@ -189,14 +189,14 @@ Text_10:
 
 
 
-RocketHideout7F-11::
+RocketHideout7F_11::
 lock     
 faceplayer     
-msgbox Text_11, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-Text_11:
+RocketHideout7F_Text_11:
 .string "Si pudiéramos reunir en un solo\n"
 .string "Pokémon los PS de BLISSEY, las\l"
 .string "defensas de SHUCKLE y la ofensiva\l"
@@ -210,14 +210,14 @@ Text_11:
 
 
 
-RocketHideout7F-12::
+RocketHideout7F_12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+RocketHideout7F_Text_12:
 .string "Todo lo que ves aquí es resultado\n"
 .string "de décadas de recopilación de\l"
 .string "datos para obtener información\l"
@@ -229,14 +229,14 @@ Text_12:
 
 
 
-RocketHideout7F-13::
+RocketHideout7F_13::
 lock     
 faceplayer     
-msgbox Text_13, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_13, MSGBOX_DEFAULT
 release     
 end
 
-Text_13:
+RocketHideout7F_Text_13:
 .string "JOHTO cuenta con mucha más\n"
 .string "historia y tradición que KANTO,\l"
 .string "las dos torres de CIUDAD IRIS son\l"
@@ -244,14 +244,14 @@ Text_13:
 
 
 
-RocketHideout7F-14::
+RocketHideout7F_14::
 lock     
 faceplayer     
-msgbox Text_14, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_14, MSGBOX_DEFAULT
 release     
 end
 
-Text_14:
+RocketHideout7F_Text_14:
 .string "Dicen que ENTEI, SUICUNE y RAIKOU\n"
 .string "son en realidad un FLAREON,\l"
 .string "VAPOREON y JOLTEON que el\l"
@@ -273,14 +273,14 @@ Text_14:
 
 
 
-RocketHideout7F-15::
+RocketHideout7F_15::
 lock     
 faceplayer     
-msgbox Text_15, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_15, MSGBOX_DEFAULT
 release     
 end
 
-Text_15:
+RocketHideout7F_Text_15:
 .string "No creímos que en la naturaleza\n"
 .string "pudiera existir tal Pokémon que\l"
 .string "igualara a MEWTWO en poder puro,\l"
@@ -292,14 +292,14 @@ Text_15:
 
 
 
-RocketHideout7F-16::
+RocketHideout7F_16::
 lock     
 faceplayer     
-msgbox Text_16, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_16, MSGBOX_DEFAULT
 release     
 end
 
-Text_16:
+RocketHideout7F_Text_16:
 .string "Algunos juran que KINGDRA nunca\n"
 .string "tuvo tal habilidad como Adaptable,\l"
 .string "lo cierto es que la heredó de un\l"
@@ -308,14 +308,14 @@ Text_16:
 
 
 
-RocketHideout7F-17::
+RocketHideout7F_17::
 lock     
 faceplayer     
-msgbox Text_17, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_17, MSGBOX_DEFAULT
 release     
 end
 
-Text_17:
+RocketHideout7F_Text_17:
 .string "Si pudiéramos reunir en un solo\n"
 .string "Pokémon los PS de BLISSEY, las\l"
 .string "defensas de SHUCKLE y la ofensiva\l"
@@ -329,34 +329,34 @@ Text_17:
 
 
 
-RocketHideout7F-18::
+RocketHideout7F_18::
 lock     
 faceplayer     
-msgbox Text_18, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_18, MSGBOX_DEFAULT
 release     
 end
 
-Text_18:
+RocketHideout7F_Text_18:
 .string "No sabemos dónde está el límite de\n"
 .string "poder base alcanzable por un\l"
 .string "POKÉMON, pero si sabemos dónde no\l"
-.string "está[.]$"
+.string "está…$"
 
 
 
-RocketHideout7F-19::
+RocketHideout7F_19::
 end
 
 
 
-RocketHideout7F-21::
+RocketHideout7F_21::
 lock     
 faceplayer     
-msgbox Text_21, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_21, MSGBOX_DEFAULT
 release     
 end
 
-Text_21:
+RocketHideout7F_Text_21:
 .string "Esa DEVON en HOENN está creciendo\n"
 .string "cada vez más, pero no tiene nada\l"
 .string "que hacer ante una SILPH y un TEAM\l"
@@ -366,45 +366,45 @@ Text_21:
 
 
 
-RocketHideout7F-22::
+RocketHideout7F_22::
 lock     
 faceplayer     
-msgbox Text_22, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_22, MSGBOX_DEFAULT
 release     
 end
 
-Text_22:
+RocketHideout7F_Text_22:
 .string "¡Usted no para señor!\n"
 .string "¡A este paso viajará por todas las\l"
 .string "regiones del mundo POKÉMON!$"
 
 
 
-RocketHideout7F-23::
+RocketHideout7F_23::
 lock     
 faceplayer     
-msgbox Text_23, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_23, MSGBOX_DEFAULT
 release     
 end
 
-Text_23:
+RocketHideout7F_Text_23:
 .string "Estos documentos eran una\n"
 .string "quimera para toda la comunidad\l"
 .string "científica hace apenas unos años,\l"
-.string "y mira ahora[.]\l"
-.string "Aquí están[.]\l"
-.string "Son reales[.]$"
+.string "y mira ahora…\l"
+.string "Aquí están…\l"
+.string "Son reales…$"
 
 
 
-RocketHideout7F-24::
+RocketHideout7F_24::
 lock     
 faceplayer     
-msgbox Text_24, MSGBOX_DEFAULT
+msgbox RocketHideout7F_Text_24, MSGBOX_DEFAULT
 release     
 end
 
-Text_24:
+RocketHideout7F_Text_24:
 .string "La gente común se sorprende al ver\n"
 .string "POKÉMON de más de 500 STATS BASE,\l"
 .string "y se echa las manos a la cabeza\l"

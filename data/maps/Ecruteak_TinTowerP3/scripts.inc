@@ -1,33 +1,33 @@
 Ecruteak_TinTowerP3_MapScripts::
 	.byte 0
 
-TinTowerP3-1::
+TinTowerP3_1::
 end
 
 
 
-TinTowerP3-2::
+TinTowerP3_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp3_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Ecruteak_TinTowerp3_Text_2:
 .string "Si de veras llegáramos a poder\n"
 .string "comprender, ya no podríamos\l"
 .string "juzgar.$"
 
 
 
-TinTowerP3-3::
+TinTowerP3_3::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp3_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Ecruteak_TinTowerp3_Text_3:
 .string "La degeneración de las escuelas\n"
 .string "filosóficas es a su vez\l"
 .string "consecuencia de la errónea\l"
@@ -38,27 +38,27 @@ Text_2:
 
 
 
-TinTowerP3-4::
+TinTowerP3_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp3_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Ecruteak_TinTowerp3_Text_4:
 .string "Daría todo lo que sé por la mitad\n"
 .string "de lo que desconozco.$"
 
 
 
-TinTowerP3-5::
+TinTowerP3_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp3_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Ecruteak_TinTowerp3_Text_5:
 .string "Es esencial entender que, en\n"
 .string "cualquier situación, hay muchos\l"
 .string "factores que escapan a tu control,\l"
@@ -74,14 +74,14 @@ Text_5:
 
 
 
-TinTowerP3-6::
+TinTowerP3_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp3_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Ecruteak_TinTowerp3_Text_6:
 .string "Adormecer el dolor por un rato te\n"
 .string "haría sentirlo luego con mayor\l"
 .string "intensidad.$"

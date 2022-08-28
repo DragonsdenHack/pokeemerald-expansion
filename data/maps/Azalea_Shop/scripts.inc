@@ -9,11 +9,11 @@ end
 AzaleaShop2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox AzaleaShop_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+AzaleaShop_Text_2:
 .string "En PUEBLO AZALEA somos\n"
 .string "especialistas en la producción de\l"
 .string "CARBÓN.\l"
@@ -27,11 +27,11 @@ Text_2:
 AzaleaShop3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox AzaleaShop_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+AzaleaShop_Text_3:
 .string "La CENIZA SAGRADA es el objeto\n"
 .string "curativo más potente que existe,\l"
 .string "tanto que restaura la salud de\l"
@@ -43,11 +43,11 @@ Text_3:
 AzaleaShop4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox AzaleaShop_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+AzaleaShop_Text_4:
 .string "¡Qué paz y tranquilidad se respira\n"
 .string "por aquí!\l"
 .string "¡CIUDAD TRIGAL es un agobio en\l"

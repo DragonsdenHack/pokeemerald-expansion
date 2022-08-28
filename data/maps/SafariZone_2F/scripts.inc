@@ -1,20 +1,20 @@
 SafariZone_2F_MapScripts::
 	.byte 0
 
-SafariZone2F-1::
+SafariZone2F_1::
 end
 
 
 
-SafariZone2F-2::
+SafariZone2F_2::
 end
 
 
 
-SafariZone2F-3::
+SafariZone2F_3::
 end
 
 
 
-SafariZone2F-4::
+SafariZone2F_4::
 end

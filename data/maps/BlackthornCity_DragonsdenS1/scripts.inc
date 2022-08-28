@@ -1,14 +1,14 @@
 BlackthornCity_DragonsdenS1_MapScripts::
 	.byte 0
 
-DragonsdenS1-1::
+DragonsdenS1_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox DragonsdenS1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+DragonsdenS1_Text_1:
 .string "Todo el que ansía un poder mayor\n"
 .string "del que puede comprender acaba\l"
 .string "siendo devorado por él, y ese ZEUS\l"
@@ -17,24 +17,24 @@ Text_1:
 
 
 
-DragonsdenS1-2::
+DragonsdenS1_2::
 end
 
 
 
-DragonsdenS1-3::
+DragonsdenS1_3::
 end
 
 
 
-DragonsdenS1-4::
+DragonsdenS1_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox DragonsdenS1_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+DragonsdenS1_Text_4:
 .string "¿Quién eres tú?\n"
 .string "Si no eres especialista en el TIPO\l"
 .string "DRAGÓN no deberías estar aquí.\l"

@@ -8,11 +8,11 @@ end
 TanobyRuins2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox TanobyRuins_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+TanobyRuins_Text_2:
 .string "¿Quién habrá construido estas\n"
 .string "ruinas?\l"
 .string "¿Y con qué propósito?$"

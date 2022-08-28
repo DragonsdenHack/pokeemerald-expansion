@@ -1,14 +1,14 @@
 Cherry_House3_MapScripts::
 	.byte 0
 
-CherryHouse3-1::
+CherryHouse3_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox CherryHouse3_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+CherryHouse3_Text_1:
 .string "No hay mucho que hacer por aquí, y\n"
 .string "precisamente esa es la virtud de\l"
 .string "este lugar. Sin ruido y estímulos\l"
@@ -19,14 +19,14 @@ Text_1:
 
 
 
-CherryHouse3-2::
+CherryHouse3_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox CherryHouse3_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+CherryHouse3_Text_2:
 .string "¿Cómo?\n"
 .string "¿PUEBLO PRIMAVERA?\l"
 .string "¡En 50 años viviendo aquí jamás he\l"

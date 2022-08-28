@@ -4,11 +4,11 @@ Ecruteak_TinTower_MapScripts::
 TinTower1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTower_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Ecruteak_TinTower_Text_1:
 .string "Aquí aprendemos la unidad de los\n"
 .string "opuestos. Hay que ser móvil y\l"
 .string "también inmóvil, defensivo y\l"
@@ -19,11 +19,11 @@ Text_1:
 TinTower2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTower_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Ecruteak_TinTower_Text_2:
 .string "El sabio no abandona después de\n"
 .string "chocar contra la realidad, solo\l"
 .string "ajusta sus expectativas y sigue.$"
@@ -33,11 +33,11 @@ Text_2:
 TinTower3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTower_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Ecruteak_TinTower_Text_3:
 .string "Se dice que los POKÉMON\n"
 .string "LEGENDARIOS encarnan tres\l"
 .string "poderes... el rayo que alcanzó la\l"
@@ -50,11 +50,11 @@ Text_3:
 TinTower4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTower_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Ecruteak_TinTower_Text_4:
 .string "Lo que hizo LANCE no tiene perdón,\n"
 .string "confinar de esa manera a las\l"
 .string "bestias errantes... Afortunadamente,\l"
@@ -67,11 +67,11 @@ Text_4:
 TinTower5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTower_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Ecruteak_TinTower_Text_5:
 .string "TORRE CAMPANA fue construída en\n"
 .string "honor a HO-OH, así como TORRE\l"
 .string "QUEMADA, otrora TORRE LATÓN, en\l"
@@ -85,11 +85,11 @@ Text_5:
 TinTower6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTower_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Ecruteak_TinTower_Text_6:
 .string "De los POKÉMON LEGENDARIOS, se\n"
 .string "dice que SUICUNE es el más\l"
 .string "cercano a HO-OH. Además, he oído\l"

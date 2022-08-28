@@ -1,28 +1,28 @@
 Route51_MapScripts::
 	.byte 0
 
-Route51-1::
+Route51_1::
 end
 
 
 
-Route51-2::
+Route51_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Route51_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Route51_Text_2:
 .string "Siento que ya estuve antes en este\n"
-.string "lugar[.]en un sueño[.]$"
+.string "lugar…en un sueño…$"
 
 
 
-Route51-3::
+Route51_3::
 end
 
 
 
-Route51-4::
+Route51_4::
 end

@@ -1,42 +1,42 @@
 Ecruteak_TinTowerP2_MapScripts::
 	.byte 0
 
-TinTowerP2-1::
+TinTowerP2_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp2_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Ecruteak_TinTowerp2_Text_1:
 .string "El verdadero ENTRENADOR no es\n"
 .string "inmune al miedo.\l"
 .string "Lucha a pesar de él.$"
 
 
 
-TinTowerP2-2::
+TinTowerP2_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp2_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+Ecruteak_TinTowerp2_Text_2:
 .string "Cuantos más datos tengamos, más\n"
 .string "posibilidades tenemos de ahogarnos\l"
 .string "en ellos.$"
 
 
 
-TinTowerP2-3::
+TinTowerP2_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp2_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Ecruteak_TinTowerp2_Text_3:
 .string "Cada combate es un espacio\n"
 .string "cerrado, una burbuja.\l"
 .string "Y en esa burbuja solo existen\l"
@@ -44,19 +44,19 @@ Text_3:
 .string "Hay que dejar fuera todo lo otro,\l"
 .string "las excusas, la falta de\l"
 .string "entrenamiento, todos los\l"
-.string "problemas[.]\l"
+.string "problemas…\l"
 .string "Un combate es toda una vida.$"
 
 
 
-TinTowerP2-4::
+TinTowerP2_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp2_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+Ecruteak_TinTowerp2_Text_4:
 .string "La presión es un arma de doble\n"
 .string "filo, te mantiene alerta, con\l"
 .string "todos tus sentidos despiertos,\l"
@@ -70,19 +70,19 @@ Text_4:
 
 
 
-TinTowerP2-5::
+TinTowerP2_5::
 end
 
 
 
-TinTowerP2-6::
+TinTowerP2_6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp2_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+Ecruteak_TinTowerp2_Text_6:
 .string "No tienes nada que demostrar,\n"
 .string "salvo a ti mismo.\l"
 .string "Mientras tengas un poco de aire,\l"

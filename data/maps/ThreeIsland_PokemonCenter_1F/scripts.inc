@@ -9,11 +9,11 @@ end
 ThreeIslandPokemonCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox ThreeIsland_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+ThreeIsland_PokemonCenter_Text_2:
 .string "Es imposible hacer SURF\n"
 .string "entre las islas de esta zona.\p"
 .string "Hay corrientes y remolinos.$"
@@ -23,11 +23,11 @@ Text_2:
 ThreeIslandPokemonCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox ThreeIsland_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+ThreeIsland_PokemonCenter_Text_3:
 .string "Eh, ¿te has enterado?\p"
 .string "Ahora podemos estar en red\n"
 .string "con los PCs de KANTO.\p"
@@ -39,13 +39,13 @@ Text_3:
 ThreeIslandPokemonCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox ThreeIsland_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+ThreeIsland_PokemonCenter_Text_4:
 .string "¡Vamos a MACHACAR BAYAS!\n"
 .string "¿Que sería un desperdicio de BAYAS\l"
-.string "dices?...\p"
+.string "dices?…\p"
 .string "¡Pero si el BOSQUE BAYA está hasta\n"
 .string "arriba!$"

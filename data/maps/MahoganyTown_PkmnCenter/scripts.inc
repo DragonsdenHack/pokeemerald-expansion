@@ -9,11 +9,11 @@ end
 MahoganyTownPkmnCenter2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox MahoganyTown_PokemonCenter_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+MahoganyTown_PokemonCenter_Text_2:
 .string "Mucha gente nueva está llegando\n"
 .string "aquí últimamente, me sorprende que\l"
 .string "FREDO no haya dicho nada.$"
@@ -23,11 +23,11 @@ Text_2:
 MahoganyTownPkmnCenter3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox MahoganyTown_PokemonCenter_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+MahoganyTown_PokemonCenter_Text_3:
 .string "En mi juventud, rodeaba a nado todo\n"
 .string "el LAGO DE LA FURIA. ¡Ahora lo\l"
 .string "rodeo caminando!$"
@@ -37,11 +37,11 @@ Text_3:
 MahoganyTownPkmnCenter4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox MahoganyTown_PokemonCenter_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+MahoganyTown_PokemonCenter_Text_4:
 .string "¿Has estado en el LAGO DE LA\n"
 .string "FURIA?\l"
 .string "Parece que su profundidad total es\l"

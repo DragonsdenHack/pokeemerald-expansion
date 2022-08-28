@@ -4,11 +4,11 @@ Ecruteak_House1_MapScripts::
 EcruteakHouse1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox Ecruteak_House1_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+Ecruteak_House1_Text_1:
 .string "El mundo ha cambiado. El\n"
 .string "pragmatismo ha reemplazado al\l"
 .string "valor, pero aún confío en que en\l"

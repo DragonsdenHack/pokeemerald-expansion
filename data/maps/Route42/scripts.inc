@@ -1,44 +1,44 @@
 Route42_MapScripts::
 	.byte 0
 
-Route42-1::
+Route42_1::
 end
 
 
 
-Route42-2::
+Route42_2::
 end
 
 
 
-Route42-3::
+Route42_3::
 end
 
 
 
-Route42-4::
+Route42_4::
 end
 
 
 
-Route42-5::
+Route42_5::
 end
 
 
 
-Route42-6::
+Route42_6::
 end
 
 
 
-Route42-7::
+Route42_7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox Route42_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+Route42_Text_7:
 .string "Nuestro LÍDER, FREDO, tiene una\n"
 .string "importante cita en TRIGAL, y nos\l"
 .string "ha pedido que cerremos PUEBLO\l"
@@ -47,14 +47,14 @@ Text_7:
 
 
 
-Route42-8::
+Route42_8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox Route42_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+Route42_Text_8:
 .string "Nuestro LÍDER, FREDO, tiene una\n"
 .string "importante cita en TRIGAL, y nos\l"
 .string "ha pedido que cerremos PUEBLO\l"
@@ -63,14 +63,14 @@ Text_8:
 
 
 
-Route42-9::
+Route42_9::
 lock     
 faceplayer     
-msgbox Text_9, MSGBOX_DEFAULT
+msgbox Route42_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-Text_9:
+Route42_Text_9:
 .string "Nuestro LÍDER, FREDO, tiene una\n"
 .string "importante cita en TRIGAL, y nos\l"
 .string "ha pedido que cerremos PUEBLO\l"

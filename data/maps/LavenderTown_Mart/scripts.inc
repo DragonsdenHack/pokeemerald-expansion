@@ -1,19 +1,19 @@
 LavenderTown_Mart_MapScripts::
 	.byte 0
 
-LavenderTownMart-1::
+LavenderTownMart_1::
 end
 
 
 
-LavenderTownMart-2::
+LavenderTownMart_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox LavenderTown_Mart_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+LavenderTown_Mart_Text_2:
 .string "A veces, coincidirás con parejas\n"
 .string "de ENTRENADORES que te retarán\l"
 .string "con dos POKéMON a la vez.\p"
@@ -22,28 +22,28 @@ Text_2:
 
 
 
-LavenderTownMart-3::
+LavenderTownMart_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox LavenderTown_Mart_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+LavenderTown_Mart_Text_3:
 .string "¿Conoces REVIVIR?\n"
 .string "Devuelve la energía a los POKéMON\l"
 .string "debilitados.$"
 
 
 
-LavenderTownMart-4::
+LavenderTownMart_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox LavenderTown_Mart_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+LavenderTown_Mart_Text_4:
 .string "Estoy buscando algunos objetos que\n"
 .string "aumenten las habilidades de los\l"
 .string "POKéMON en un sólo combate.\p"

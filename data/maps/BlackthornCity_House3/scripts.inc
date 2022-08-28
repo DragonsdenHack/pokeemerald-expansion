@@ -1,14 +1,14 @@
 BlackthornCity_House3_MapScripts::
 	.byte 0
 
-BlackthornCityHouse3-1::
+BlackthornCityHouse3_1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox BlackthornCity_House3_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+BlackthornCity_House3_Text_1:
 .string "¡Auu!\n"
 .string "¡Voces en mi cabeza!\l"
 .string "¿Cómo?\l"
@@ -16,14 +16,14 @@ Text_1:
 
 
 
-BlackthornCityHouse3-2::
+BlackthornCityHouse3_2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox BlackthornCity_House3_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+BlackthornCity_House3_Text_2:
 .string "Estos chismes de hoy en día... En\n"
 .string "mis tiempos no era más que salir a\l"
 .string "la calle, jugar con los amigos y\l"

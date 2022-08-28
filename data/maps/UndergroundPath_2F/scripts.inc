@@ -1,20 +1,20 @@
 UndergroundPath_2F_MapScripts::
 	.byte 0
 
-UndergroundPath2F-2::
+UndergroundPath2F_2::
 end
 
 
 
-UndergroundPath2F-3::
+UndergroundPath2F_3::
 end
 
 
 
-UndergroundPath2F-4::
+UndergroundPath2F_4::
 end
 
 
 
-UndergroundPath2F-5::
+UndergroundPath2F_5::
 end

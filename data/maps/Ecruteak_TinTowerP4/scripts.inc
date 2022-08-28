@@ -1,43 +1,43 @@
 Ecruteak_TinTowerP4_MapScripts::
 	.byte 0
 
-TinTowerP4-1::
+TinTowerP4_1::
 end
 
 
 
-TinTowerP4-2::
+TinTowerP4_2::
 end
 
 
 
-TinTowerP4-3::
+TinTowerP4_3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp4_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+Ecruteak_TinTowerp4_Text_3:
 .string "Como las flores, vamos muriendo,\n"
 .string "pero todo lo que hacemos en vida\l"
 .string "tiene su eco en la eternidad.$"
 
 
 
-TinTowerP4-4::
+TinTowerP4_4::
 end
 
 
 
-TinTowerP4-5::
+TinTowerP4_5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox Ecruteak_TinTowerp4_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+Ecruteak_TinTowerp4_Text_5:
 .string "Nuestra psicología conspira contra\n"
 .string "nosotros mismos: a las personas\l"
 .string "nos gusta ir hacia un destino\l"
@@ -47,5 +47,5 @@ Text_5:
 
 
 
-TinTowerP4-6::
+TinTowerP4_6::
 end

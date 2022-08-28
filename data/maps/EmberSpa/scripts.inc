@@ -9,11 +9,11 @@ end
 EmberSpa2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox EmberSpa_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+EmberSpa_Text_2:
 .string "Tras un duro día de entrenamiento,\n"
 .string "no hay nada como un buen baño\l"
 .string "termal.\p"
@@ -27,11 +27,11 @@ Text_2:
 EmberSpa3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox EmberSpa_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+EmberSpa_Text_3:
 .string "¿Has visto cómo tengo la piel?\n"
 .string "Suave y tersa como la de un bebé.\p"
 .string "¡Las aguas termales me están\n"
@@ -42,11 +42,11 @@ Text_3:
 EmberSpa4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox EmberSpa_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+EmberSpa_Text_4:
 .string "Dicen que los baños termales\n"
 .string "son terapéuticos.$"
 
@@ -55,11 +55,11 @@ Text_4:
 EmberSpa5::
 lock     
 faceplayer     
-msgbox Text_5, MSGBOX_DEFAULT
+msgbox EmberSpa_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-Text_5:
+EmberSpa_Text_5:
 .string "La mejor parte del baño viene\n"
 .string "cuando me salgo del agua.\p"
 .string "No hay nada como tomar un buen\n"
@@ -71,11 +71,11 @@ Text_5:
 EmberSpa6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox EmberSpa_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
+EmberSpa_Text_6:
 .string "¡Mmmmm!\n"
 .string "¡Qué maravilla!\p"
 .string "¡Ooooooooh! ¡Esto es vida!\n"

@@ -4,11 +4,11 @@ Pass_RuinsOfAlphEast_MapScripts::
 RuinsOfAlphEast1::
 lock     
 faceplayer     
-msgbox Text_1, MSGBOX_DEFAULT
+msgbox RuinsOfAlphEast_Text_1, MSGBOX_DEFAULT
 release     
 end
 
-Text_1:
+RuinsOfAlphEast_Text_1:
 .string "Esos investigadores de las RUINAS\n"
 .string "ALFA son unos incompetentes,\l"
 .string "podrían tirarse 10 años de\l"
@@ -20,11 +20,11 @@ Text_1:
 RuinsOfAlphEast2::
 lock     
 faceplayer     
-msgbox Text_2, MSGBOX_DEFAULT
+msgbox RuinsOfAlphEast_Text_2, MSGBOX_DEFAULT
 release     
 end
 
-Text_2:
+RuinsOfAlphEast_Text_2:
 .string "Pensé que en este lugar\n"
 .string "encontraría algún POKÉMON raro,\l"
 .string "pero no hay nada, solo los restos\l"
@@ -37,11 +37,11 @@ Text_2:
 RuinsOfAlphEast3::
 lock     
 faceplayer     
-msgbox Text_3, MSGBOX_DEFAULT
+msgbox RuinsOfAlphEast_Text_3, MSGBOX_DEFAULT
 release     
 end
 
-Text_3:
+RuinsOfAlphEast_Text_3:
 .string "¿No te imaginas quién pudo hacer\n"
 .string "algo así?\l"
 .string "¿Y por qué?$"

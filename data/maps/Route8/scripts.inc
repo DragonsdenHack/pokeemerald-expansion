@@ -1,53 +1,53 @@
 Route8_MapScripts::
 	.byte 0
 
-Route8-1::
+Route8_1::
 end
 
 
-Route8-2::
+Route8_2::
 end
 
 
-Route8-3::
+Route8_3::
 end
 
 
-Route8-4::
+Route8_4::
 end
 
 
-Route8-5::
+Route8_5::
 end
 
 
-Route8-6::
+Route8_6::
 end
 
 
-Route8-7::
+Route8_7::
 end
 
 
-Route8-8::
+Route8_8::
 end
 
 
-Route8-9::
+Route8_9::
 end
 
 
-Route8-10::
+Route8_10::
 end
 
 
-Route8-11::
+Route8_11::
 end
 
 
-Route8-12::
+Route8_12::
 end
 
 
-Route8-13::
+Route8_13::
 end

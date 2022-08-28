@@ -28,11 +28,11 @@ end
 OutcastIsland7::
 lock     
 faceplayer     
-msgbox Text_7, MSGBOX_DEFAULT
+msgbox OutcastIsland_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-Text_7:
+OutcastIsland_Text_7:
 .string "¡No conoces a SHARPEDO!\n"
 .string "¡Un tipo pasó antes por aquí y me\l"
 .string "sacó uno!\l"
@@ -43,11 +43,11 @@ Text_7:
 OutcastIsland8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox OutcastIsland_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+OutcastIsland_Text_8:
 .string "¡GYARADOS es el terror de los\n"
 .string "mares!\l"
 .string "¡No hay POKÉMON NO LEGENDARIO que\l"

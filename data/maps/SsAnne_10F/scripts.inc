@@ -1,29 +1,29 @@
 SsAnne_10F_MapScripts::
 	.byte 0
 
-SsAnne10F-1::
+SsAnne10F_1::
 end
 
 
 
-SsAnne10F-2::
+SsAnne10F_2::
 end
 
 
 
-SsAnne10F-3::
+SsAnne10F_3::
 end
 
 
 
-SsAnne10F-4::
+SsAnne10F_4::
 lock     
 faceplayer     
-msgbox Text_4, MSGBOX_DEFAULT
+msgbox SsAnne10F_Text_4, MSGBOX_DEFAULT
 release     
 end
 
-Text_4:
+SsAnne10F_Text_4:
 .string "El SS.ANNE supuestamente viaja a\n"
 .string "lo largo de las regiones llevando\l"
 .string "entrenadores de todo el mundo.\l"

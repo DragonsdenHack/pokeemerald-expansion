@@ -29,14 +29,14 @@ end
 NationalPark6::
 lock     
 faceplayer     
-msgbox Text_6, MSGBOX_DEFAULT
+msgbox NationalPark_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-Text_6:
-.string "Estoy harto de andar[.]\n"
+NationalPark_Text_6:
+.string "Estoy harto de andar…\n"
 .string "Deberían de poner unos cuantos\l"
-.string "bancos por esta zona[.]$"
+.string "bancos por esta zona…$"
 
 
 
@@ -48,11 +48,11 @@ end
 NationalPark8::
 lock     
 faceplayer     
-msgbox Text_8, MSGBOX_DEFAULT
+msgbox NationalPark_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-Text_8:
+NationalPark_Text_8:
 .string "A mi querido NIDORAN le encanta\n"
 .string "pasear por aquí.\l"
 .string "¡Es tan encantador!$"
@@ -67,11 +67,11 @@ end
 NationalPark10::
 lock     
 faceplayer     
-msgbox Text_10, MSGBOX_DEFAULT
+msgbox NationalPark_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-Text_10:
+NationalPark_Text_10:
 .string "Me encanta pasear por aquí, este\n"
 .string "lugar es una gran fuente de\l"
 .string "inspiración para mi.$"
@@ -86,11 +86,11 @@ end
 NationalPark12::
 lock     
 faceplayer     
-msgbox Text_12, MSGBOX_DEFAULT
+msgbox NationalPark_Text_12, MSGBOX_DEFAULT
 release     
 end
 
-Text_12:
+NationalPark_Text_12:
 .string "Si miras la hierba alta desde\n"
 .string "arriba, ¡parece una POKÉ BALL!$"
 
