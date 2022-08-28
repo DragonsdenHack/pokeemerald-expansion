@@ -35,7 +35,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-1",
+      "script": "SouthRoute45_1",
       "flag": "0"
     },
     {
@@ -48,7 +48,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-2",
+      "script": "SouthRoute45_2",
       "flag": "0"
     },
     {
@@ -61,7 +61,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-3",
+      "script": "SouthRoute45_3",
       "flag": "0"
     },
     {
@@ -74,7 +74,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-4",
+      "script": "SouthRoute45_4",
       "flag": "0"
     },
     {
@@ -87,7 +87,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-5",
+      "script": "SouthRoute45_5",
       "flag": "0"
     },
     {
@@ -100,7 +100,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-6",
+      "script": "SouthRoute45_6",
       "flag": "0"
     },
     {
@@ -113,7 +113,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-7",
+      "script": "SouthRoute45_7",
       "flag": "0"
     },
     {
@@ -126,7 +126,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-8",
+      "script": "SouthRoute45_8",
       "flag": "0"
     },
     {
@@ -139,7 +139,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-9",
+      "script": "SouthRoute45_9",
       "flag": "0"
     },
     {
@@ -152,7 +152,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-10",
+      "script": "SouthRoute45_10",
       "flag": "0"
     },
     {
@@ -165,7 +165,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-11",
+      "script": "SouthRoute45_11",
       "flag": "0"
     },
     {
@@ -178,7 +178,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-12",
+      "script": "SouthRoute45_12",
       "flag": "0"
     },
     {
@@ -191,7 +191,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-13",
+      "script": "SouthRoute45_13",
       "flag": "0"
     },
     {
@@ -204,7 +204,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-14",
+      "script": "SouthRoute45_14",
       "flag": "0"
     },
     {
@@ -217,7 +217,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-15",
+      "script": "SouthRoute45_15",
       "flag": "0"
     },
     {
@@ -230,7 +230,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45-16",
+      "script": "SouthRoute45_16",
       "flag": "0"
     }
   ],

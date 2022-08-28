@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-2",
+      "script": "RocketHideout5F_2",
       "flag": "0"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-3",
+      "script": "RocketHideout5F_3",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-4",
+      "script": "RocketHideout5F_4",
       "flag": "0"
     },
     {
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-5",
+      "script": "RocketHideout5F_5",
       "flag": "0"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-6",
+      "script": "RocketHideout5F_6",
       "flag": "0"
     },
     {
@@ -102,7 +102,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-7",
+      "script": "RocketHideout5F_7",
       "flag": "0"
     },
     {
@@ -115,7 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-8",
+      "script": "RocketHideout5F_8",
       "flag": "0"
     },
     {
@@ -128,7 +128,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-9",
+      "script": "RocketHideout5F_9",
       "flag": "0"
     },
     {
@@ -141,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-10",
+      "script": "RocketHideout5F_10",
       "flag": "0"
     },
     {
@@ -154,7 +154,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-11",
+      "script": "RocketHideout5F_11",
       "flag": "0"
     },
     {
@@ -167,7 +167,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-12",
+      "script": "RocketHideout5F_12",
       "flag": "0"
     },
     {
@@ -180,7 +180,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-13",
+      "script": "RocketHideout5F_13",
       "flag": "0"
     },
     {
@@ -193,7 +193,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-14",
+      "script": "RocketHideout5F_14",
       "flag": "0"
     },
     {
@@ -206,7 +206,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-15",
+      "script": "RocketHideout5F_15",
       "flag": "0"
     },
     {
@@ -219,7 +219,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-16",
+      "script": "RocketHideout5F_16",
       "flag": "0"
     },
     {
@@ -232,7 +232,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-17",
+      "script": "RocketHideout5F_17",
       "flag": "0"
     },
     {
@@ -245,7 +245,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-18",
+      "script": "RocketHideout5F_18",
       "flag": "0"
     },
     {
@@ -258,7 +258,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-19",
+      "script": "RocketHideout5F_19",
       "flag": "0"
     },
     {
@@ -271,7 +271,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-20",
+      "script": "RocketHideout5F_20",
       "flag": "0"
     },
     {
@@ -284,7 +284,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-21",
+      "script": "RocketHideout5F_21",
       "flag": "0"
     },
     {
@@ -297,7 +297,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-22",
+      "script": "RocketHideout5F_22",
       "flag": "0"
     },
     {
@@ -310,7 +310,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-23",
+      "script": "RocketHideout5F_23",
       "flag": "0"
     },
     {
@@ -323,7 +323,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-24",
+      "script": "RocketHideout5F_24",
       "flag": "0"
     },
     {
@@ -336,7 +336,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-25",
+      "script": "RocketHideout5F_25",
       "flag": "0"
     },
     {
@@ -349,7 +349,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-26",
+      "script": "RocketHideout5F_26",
       "flag": "0"
     },
     {
@@ -362,7 +362,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-27",
+      "script": "RocketHideout5F_27",
       "flag": "0"
     },
     {
@@ -375,7 +375,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-28",
+      "script": "RocketHideout5F_28",
       "flag": "0"
     },
     {
@@ -388,7 +388,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-29",
+      "script": "RocketHideout5F_29",
       "flag": "0"
     },
     {
@@ -401,7 +401,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-30",
+      "script": "RocketHideout5F_30",
       "flag": "0"
     },
     {
@@ -414,7 +414,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-31",
+      "script": "RocketHideout5F_31",
       "flag": "0"
     },
     {
@@ -427,7 +427,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-32",
+      "script": "RocketHideout5F_32",
       "flag": "0"
     },
     {
@@ -440,7 +440,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-33",
+      "script": "RocketHideout5F_33",
       "flag": "0"
     },
     {
@@ -453,7 +453,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-34",
+      "script": "RocketHideout5F_34",
       "flag": "0"
     },
     {
@@ -466,7 +466,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-35",
+      "script": "RocketHideout5F_35",
       "flag": "0"
     },
     {
@@ -479,7 +479,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-36",
+      "script": "RocketHideout5F_36",
       "flag": "0"
     },
     {
@@ -492,7 +492,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-37",
+      "script": "RocketHideout5F_37",
       "flag": "0"
     },
     {
@@ -505,7 +505,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-38",
+      "script": "RocketHideout5F_38",
       "flag": "0"
     },
     {
@@ -518,7 +518,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-39",
+      "script": "RocketHideout5F_39",
       "flag": "0"
     },
     {
@@ -531,7 +531,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-40",
+      "script": "RocketHideout5F_40",
       "flag": "0"
     },
     {
@@ -544,7 +544,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-41",
+      "script": "RocketHideout5F_41",
       "flag": "0"
     },
     {
@@ -557,7 +557,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-42",
+      "script": "RocketHideout5F_42",
       "flag": "0"
     },
     {
@@ -570,7 +570,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-43",
+      "script": "RocketHideout5F_43",
       "flag": "0"
     },
     {
@@ -583,7 +583,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-44",
+      "script": "RocketHideout5F_44",
       "flag": "0"
     },
     {
@@ -596,7 +596,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-45",
+      "script": "RocketHideout5F_45",
       "flag": "0"
     },
     {
@@ -609,7 +609,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-46",
+      "script": "RocketHideout5F_46",
       "flag": "0"
     },
     {
@@ -622,7 +622,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-47",
+      "script": "RocketHideout5F_47",
       "flag": "0"
     },
     {
@@ -635,7 +635,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-48",
+      "script": "RocketHideout5F_48",
       "flag": "0"
     },
     {
@@ -648,7 +648,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-49",
+      "script": "RocketHideout5F_49",
       "flag": "0"
     },
     {
@@ -661,7 +661,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-50",
+      "script": "RocketHideout5F_50",
       "flag": "0"
     },
     {
@@ -674,7 +674,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-51",
+      "script": "RocketHideout5F_51",
       "flag": "0"
     },
     {
@@ -687,7 +687,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-52",
+      "script": "RocketHideout5F_52",
       "flag": "0"
     },
     {
@@ -700,7 +700,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-53",
+      "script": "RocketHideout5F_53",
       "flag": "0"
     },
     {
@@ -713,7 +713,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-54",
+      "script": "RocketHideout5F_54",
       "flag": "0"
     },
     {
@@ -726,7 +726,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-55",
+      "script": "RocketHideout5F_55",
       "flag": "0"
     },
     {
@@ -739,7 +739,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-56",
+      "script": "RocketHideout5F_56",
       "flag": "0"
     },
     {
@@ -752,7 +752,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-57",
+      "script": "RocketHideout5F_57",
       "flag": "0"
     },
     {
@@ -765,7 +765,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-58",
+      "script": "RocketHideout5F_58",
       "flag": "0"
     },
     {
@@ -778,7 +778,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-59",
+      "script": "RocketHideout5F_59",
       "flag": "0"
     },
     {
@@ -791,7 +791,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F-60",
+      "script": "RocketHideout5F_60",
       "flag": "0"
     }
   ],

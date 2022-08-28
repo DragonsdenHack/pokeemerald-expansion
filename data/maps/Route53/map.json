@@ -40,7 +40,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-1",
+      "script": "Route53_1",
       "flag": "0"
     },
     {
@@ -53,7 +53,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-2",
+      "script": "Route53_2",
       "flag": "0"
     },
     {
@@ -66,7 +66,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-3",
+      "script": "Route53_3",
       "flag": "0"
     },
     {
@@ -79,7 +79,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-4",
+      "script": "Route53_4",
       "flag": "0"
     },
     {
@@ -92,7 +92,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-5",
+      "script": "Route53_5",
       "flag": "0"
     },
     {
@@ -105,7 +105,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-6",
+      "script": "Route53_6",
       "flag": "0"
     },
     {
@@ -118,7 +118,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-7",
+      "script": "Route53_7",
       "flag": "0"
     },
     {
@@ -131,7 +131,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-8",
+      "script": "Route53_8",
       "flag": "0"
     },
     {
@@ -144,7 +144,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route53-9",
+      "script": "Route53_9",
       "flag": "0"
     }
   ],
