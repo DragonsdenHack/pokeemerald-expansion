@@ -2296,3 +2296,47 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/VasTren4/scripts.inc"
 
 	.include "data/maps/Viastren5/scripts.inc"
+
+	.include "data/maps/ViasTren3Norte/scripts.inc"
+
+	.include "data/maps/ViasBosque/scripts.inc"
+
+	.include "data/maps/CultoS1/scripts.inc"
+
+	.include "data/maps/Culto2/scripts.inc"
+
+	.include "data/maps/CultoS3/scripts.inc"
+
+	.include "data/maps/CultoS4/scripts.inc"
+
+	.include "data/maps/CultoS5/scripts.inc"
+
+	.include "data/maps/CultoS6/scripts.inc"
+
+	.include "data/maps/CultoS7/scripts.inc"
+
+	.include "data/maps/CultoS8/scripts.inc"
+
+	.include "data/maps/CultoItems/scripts.inc"
+
+	.include "data/maps/SilphS1/scripts.inc"
+
+	.include "data/maps/SilphS2/scripts.inc"
+
+	.include "data/maps/SilphS3/scripts.inc"
+
+	.include "data/maps/CinnabarMansionS1/scripts.inc"
+
+	.include "data/maps/CinnabarMansionS2/scripts.inc"
+
+	.include "data/maps/Magma1/scripts.inc"
+
+	.include "data/maps/Magma2/scripts.inc"
+
+	.include "data/maps/Magma3/scripts.inc"
+
+	.include "data/maps/Aqua1/scripts.inc"
+
+	.include "data/maps/Aqua2/scripts.inc"
+
+	.include "data/maps/Aqua3/scripts.inc"

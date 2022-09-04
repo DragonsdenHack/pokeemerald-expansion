@@ -104,6 +104,8 @@
 #define MAP_VIAS_TREN3      (36 | (1 << 8))
 #define MAP_VAS_TREN4       (37 | (1 << 8))
 #define MAP_VIASTREN5       (38 | (1 << 8))
+#define MAP_VIAS_TREN3NORTE (39 | (1 << 8))
+#define MAP_VIAS_BOSQUE     (40 | (1 << 8))
 
 // gMapGroup_TownsAndRoutesSEVII
 #define MAP_ONE_ISLAND        (0 | (2 << 8))
@@ -628,6 +630,20 @@
 #define MAP_ROCKET_HIDEOUT_9F       (63 | (26 << 8))
 #define MAP_CINNABAR_ISLAND_PATH    (64 | (26 << 8))
 #define MAP_ROCKET_HIDEOUT_VIRIDIAN (65 | (26 << 8))
+#define MAP_CULTO_S1                (66 | (26 << 8))
+#define MAP_CULTO2                  (67 | (26 << 8))
+#define MAP_CULTO_S3                (68 | (26 << 8))
+#define MAP_CULTO_S4                (69 | (26 << 8))
+#define MAP_CULTO_S5                (70 | (26 << 8))
+#define MAP_CULTO_S6                (71 | (26 << 8))
+#define MAP_CULTO_S7                (72 | (26 << 8))
+#define MAP_CULTO_S8                (73 | (26 << 8))
+#define MAP_CULTO_ITEMS             (74 | (26 << 8))
+#define MAP_SILPH_S1                (75 | (26 << 8))
+#define MAP_SILPH_S2                (76 | (26 << 8))
+#define MAP_SILPH_S3                (77 | (26 << 8))
+#define MAP_CINNABAR_MANSION_S1     (78 | (26 << 8))
+#define MAP_CINNABAR_MANSION_S2     (79 | (26 << 8))
 
 // gMapGroup_IndoorOneIsland
 #define MAP_ONE_ISLAND_POKEMON_CENTER_1F (0 | (27 << 8))
@@ -738,6 +754,12 @@
 #define MAP_TANOBY_KEY                        (56 | (34 << 8))
 #define MAP_EMBER_SPA                         (57 | (34 << 8))
 #define MAP_ROCKET_HIDEOUT_FIVE_ISLAND_MEADOW (58 | (34 << 8))
+#define MAP_MAGMA1                            (59 | (34 << 8))
+#define MAP_MAGMA2                            (60 | (34 << 8))
+#define MAP_MAGMA3                            (61 | (34 << 8))
+#define MAP_AQUA1                             (62 | (34 << 8))
+#define MAP_AQUA2                             (63 | (34 << 8))
+#define MAP_AQUA3                             (64 | (34 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (35 << 8))

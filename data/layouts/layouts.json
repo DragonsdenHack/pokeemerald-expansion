@@ -10610,6 +10610,226 @@
       "secondary_tileset": "gTileset_saffron_city",
       "border_filepath": "data/layouts/Viastren5/border.bin",
       "blockdata_filepath": "data/layouts/Viastren5/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_TREN3NORTE",
+      "name": "ViasTren3Norte_Layout",
+      "width": 48,
+      "height": 40,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_berry_forest",
+      "border_filepath": "data/layouts/ViasTren3Norte/border.bin",
+      "blockdata_filepath": "data/layouts/ViasTren3Norte/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_BOSQUE",
+      "name": "ViasBosque_Layout",
+      "width": 54,
+      "height": 69,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_Viridian_Forest",
+      "border_filepath": "data/layouts/ViasBosque/border.bin",
+      "blockdata_filepath": "data/layouts/ViasBosque/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_S1",
+      "name": "CultoS1_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoS1/border.bin",
+      "blockdata_filepath": "data/layouts/CultoS1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO2",
+      "name": "Culto2_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/Culto2/border.bin",
+      "blockdata_filepath": "data/layouts/Culto2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_S3",
+      "name": "CultoS3_Layout",
+      "width": 99,
+      "height": 60,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoS3/border.bin",
+      "blockdata_filepath": "data/layouts/CultoS3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_S4",
+      "name": "CultoS4_Layout",
+      "width": 52,
+      "height": 36,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoS4/border.bin",
+      "blockdata_filepath": "data/layouts/CultoS4/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_S5",
+      "name": "CultoS5_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoS5/border.bin",
+      "blockdata_filepath": "data/layouts/CultoS5/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_S6",
+      "name": "CultoS6_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoS6/border.bin",
+      "blockdata_filepath": "data/layouts/CultoS6/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_S7",
+      "name": "CultoS7_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoS7/border.bin",
+      "blockdata_filepath": "data/layouts/CultoS7/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_S8",
+      "name": "CultoS8_Layout",
+      "width": 24,
+      "height": 20,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoS8/border.bin",
+      "blockdata_filepath": "data/layouts/CultoS8/map.bin"
+    },
+    {
+      "id": "LAYOUT_CULTO_ITEMS",
+      "name": "CultoItems_Layout",
+      "width": 18,
+      "height": 17,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/CultoItems/border.bin",
+      "blockdata_filepath": "data/layouts/CultoItems/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILPH_S1",
+      "name": "SilphS1_Layout",
+      "width": 18,
+      "height": 17,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/SilphS1/border.bin",
+      "blockdata_filepath": "data/layouts/SilphS1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILPH_S2",
+      "name": "SilphS2_Layout",
+      "width": 24,
+      "height": 80,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/SilphS2/border.bin",
+      "blockdata_filepath": "data/layouts/SilphS2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SILPH_S3",
+      "name": "SilphS3_Layout",
+      "width": 31,
+      "height": 19,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/SilphS3/border.bin",
+      "blockdata_filepath": "data/layouts/SilphS3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_MANSION_S1",
+      "name": "CinnabarMansionS1_Layout",
+      "width": 38,
+      "height": 38,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_mansion",
+      "border_filepath": "data/layouts/CinnabarMansionS1/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarMansionS1/map.bin"
+    },
+    {
+      "id": "LAYOUT_CINNABAR_MANSION_S2",
+      "name": "CinnabarMansionS2_Layout",
+      "width": 38,
+      "height": 35,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_mansion",
+      "border_filepath": "data/layouts/CinnabarMansionS2/border.bin",
+      "blockdata_filepath": "data/layouts/CinnabarMansionS2/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAGMA1",
+      "name": "Magma1_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
+      "border_filepath": "data/layouts/Magma1/border.bin",
+      "blockdata_filepath": "data/layouts/Magma1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAGMA2",
+      "name": "Magma2_Layout",
+      "width": 50,
+      "height": 50,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
+      "border_filepath": "data/layouts/Magma2/border.bin",
+      "blockdata_filepath": "data/layouts/Magma2/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAGMA3",
+      "name": "Magma3_Layout",
+      "width": 27,
+      "height": 46,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Magma3/border.bin",
+      "blockdata_filepath": "data/layouts/Magma3/map.bin"
+    },
+    {
+      "id": "LAYOUT_AQUA1",
+      "name": "Aqua1_Layout",
+      "width": 50,
+      "height": 50,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Aqua1/border.bin",
+      "blockdata_filepath": "data/layouts/Aqua1/map.bin"
+    },
+    {
+      "id": "LAYOUT_AQUA2",
+      "name": "Aqua2_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Aqua2/border.bin",
+      "blockdata_filepath": "data/layouts/Aqua2/map.bin"
+    },
+    {
+      "id": "LAYOUT_AQUA3",
+      "name": "Aqua3_Layout",
+      "width": 27,
+      "height": 46,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Aqua3/border.bin",
+      "blockdata_filepath": "data/layouts/Aqua3/map.bin"
     }
   ]
 }
