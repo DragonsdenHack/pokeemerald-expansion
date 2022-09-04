@@ -10830,6 +10830,56 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/Aqua3/border.bin",
       "blockdata_filepath": "data/layouts/Aqua3/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_SUR",
+      "name": "ViasSur_Layout",
+      "width": 24,
+      "height": 80,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_violet_city",
+      "border_filepath": "data/layouts/ViasSur/border.bin",
+      "blockdata_filepath": "data/layouts/ViasSur/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_SUR2",
+      "name": "ViasSur2_Layout",
+      "width": 30,
+      "height": 90,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_45",
+      "border_filepath": "data/layouts/ViasSur2/border.bin",
+      "blockdata_filepath": "data/layouts/ViasSur2/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_SUR3",
+      "name": "ViasSur3_Layout",
+      "width": 144,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_sevii_islands_45",
+      "border_filepath": "data/layouts/ViasSur3/border.bin",
+      "blockdata_filepath": "data/layouts/ViasSur3/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_SUR4",
+      "name": "ViasSur4_Layout",
+      "width": 24,
+      "height": 160,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_67",
+      "border_filepath": "data/layouts/ViasSur4/border.bin",
+      "blockdata_filepath": "data/layouts/ViasSur4/map.bin"
+    },
+    {
+      "id": "LAYOUT_VIAS_SUR5",
+      "name": "ViasSur5_Layout",
+      "width": 40,
+      "height": 100,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_67",
+      "border_filepath": "data/layouts/ViasSur5/border.bin",
+      "blockdata_filepath": "data/layouts/ViasSur5/map.bin"
     }
   ]
 }
