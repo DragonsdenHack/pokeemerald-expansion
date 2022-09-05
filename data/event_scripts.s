@@ -2340,3 +2340,4 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Aqua2/scripts.inc"
 
 	.include "data/maps/Aqua3/scripts.inc"
+

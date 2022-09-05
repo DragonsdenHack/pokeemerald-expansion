@@ -12077,8 +12077,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER_4),
-        .party = {.NoItemCustomMoves = sParty_TRAINER_4},
+        .partySize = ARRAY_COUNT(sParty_TRAINER4),
+        .party = {.NoItemCustomMoves = sParty_TRAINER4},
     },
 
      [TRAINER_TRAINER_5] =
