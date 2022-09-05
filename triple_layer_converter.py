@@ -3,12 +3,12 @@ import io
 import argparse
 import struct
 
-layer_type_mask = 0xF000
-layer_type_shift = 12
+layer_type_mask = 0x60000000
+layer_type_shift = 29
 
-parser = argparse.ArgumentParser(description='Convert pokeemerald metatiles to use the triple layer system.' )
+parser = argparse.ArgumentParser(description='Convert pokefirered metatiles to use the triple layer system.' )
 parser.add_argument('--tsroot', required=True,
-                    help='Path to the tilesets directory in your pokeemerald project, e.g. /path/to/pokeemerald/data/tilesets')
+                    help='Path to the tilesets directory in your pokefirered project, e.g. /path/to/pokefirered/data/tilesets')
 
 args = parser.parse_args()
 
@@ -43,18 +43,16 @@ for tileset_dir in tileset_dirs:
     if not os.path.exists(metatile_attributes_path):
         print(f"[SKIP] {tileset_name} skipped because metatile_attributes.bin was not found.")
         continue
-    if os.path.getsize(metatiles_path) != 8*os.path.getsize(metatile_attributes_path):
-        print(f"[SKIP] {tileset_name} skipped because metatiles.bin is not eight times the size of metatile_attributes.bin (already converted?)")
+    if os.path.getsize(metatiles_path) != 4*os.path.getsize(metatile_attributes_path):
+        print(f"[SKIP] {tileset_name} skipped because metatiles.bin is not four times the size of metatile_attributes.bin (already converted?)")
         continue
 
     layer_types = []
-    meta_attributes = []
     with open(metatile_attributes_path, 'rb') as fileobj:
-        for chunk in iter(lambda: fileobj.read(2), ''):
+        for chunk in iter(lambda: fileobj.read(4), ''):
             if chunk == b'':
                 break
-            metatile_attribute = struct.unpack('<H', chunk)[0]
-            meta_attributes.append(metatile_attribute & 0x0FFF)
+            metatile_attribute = struct.unpack('<L', chunk)[0]
             layer_types.append((metatile_attribute & layer_type_mask) >> layer_type_shift)
     i = 0
     new_metatile_data = []
@@ -78,9 +76,6 @@ for tileset_dir in tileset_dirs:
             i += 1
 
     metatile_buffer = struct.pack(f'<{len(new_metatile_data)}H', *new_metatile_data)
-    metatile_attribute_buffer = struct.pack(f'<{len(meta_attributes)}H', *meta_attributes)
     with open(metatiles_path, 'wb') as fileobj:
         fileobj.write(metatile_buffer)
-    with open(metatile_attributes_path, 'wb') as fileobj:
-        fileobj.write(metatile_attribute_buffer)
     print(f'[OK] Converted {tileset_name}')
