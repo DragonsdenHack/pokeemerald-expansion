@@ -3,7 +3,7 @@
   "name": "VermilionCity_Club",
   "layout": "LAYOUT_VERMILION_CITY_CLUB",
   "music": "MUS_ABANDONED_SHIP",
-  "region_map_section": "MAPSEC_VERMILION_CITY",
+  "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

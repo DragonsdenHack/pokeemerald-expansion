@@ -23,7 +23,11 @@ struct MultiPartnerMenuPokemon
 };
 
 #define TYPE_NAME_LENGTH 6
+#ifdef BATTLE_ENGINE
+#define ABILITY_NAME_LENGTH 16
+#else
 #define ABILITY_NAME_LENGTH 12
+#endif
 
 // defines for the 'DoBounceEffect' function
 #define BOUNCE_MON          0x0
