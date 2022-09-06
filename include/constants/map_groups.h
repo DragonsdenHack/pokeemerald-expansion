@@ -106,6 +106,11 @@
 #define MAP_VIASTREN5       (38 | (1 << 8))
 #define MAP_VIAS_TREN3NORTE (39 | (1 << 8))
 #define MAP_VIAS_BOSQUE     (40 | (1 << 8))
+#define MAP_VIAS_SUR        (41 | (1 << 8))
+#define MAP_VIAS_SUR2       (42 | (1 << 8))
+#define MAP_VIAS_SUR3       (43 | (1 << 8))
+#define MAP_VIAS_SUR4       (44 | (1 << 8))
+#define MAP_VIAS_SUR5       (45 | (1 << 8))
 
 // gMapGroup_TownsAndRoutesSEVII
 #define MAP_ONE_ISLAND        (0 | (2 << 8))

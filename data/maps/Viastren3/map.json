@@ -27,6 +27,11 @@
       "direction": "up",
       "offset": 33,
       "map": "MAP_VIAS_TREN3NORTE"
+    },
+    {
+      "direction": "down",
+      "offset": 3,
+      "map": "MAP_VIAS_SUR"
     }
   ],
   "object_events": [

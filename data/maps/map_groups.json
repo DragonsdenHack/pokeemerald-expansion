@@ -157,7 +157,12 @@
     "VasTren4",
     "Viastren5",
     "ViasTren3Norte",
-    "ViasBosque"
+    "ViasBosque",
+    "ViasSur",
+    "ViasSur2",
+    "ViasSur3",
+    "ViasSur4",
+    "ViasSur5"
   ],
   "gMapGroup_TownsAndRoutesSEVII": [
     "OneIsland",
