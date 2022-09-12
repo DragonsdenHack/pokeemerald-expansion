@@ -20662,17 +20662,48 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER4[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER5[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER5[] = {
     {
     .iv = 0,
-    .lvl = 92,
-    .species = SPECIES_SLAKING,
-    .moves = {MOVE_GIGA_IMPACT, MOVE_SHADOW_CLAW, MOVE_NONE, MOVE_NONE}
+    .lvl = 99,
+    .species = SPECIES_PIDGEOT,
+    .heldItem = ITEM_PIDGEOTITE,
+    .moves = {MOVE_HURRICANE, MOVE_HEAT_WAVE, MOVE_HYPER_BEAM, MOVE_NONE}
     },
     {
     .iv = 0,
-    .lvl = 92,
-    .species = SPECIES_SWAMPERT,
-    .moves = {MOVE_EARTHQUAKE, MOVE_AQUA_TAIL, MOVE_ICE_PUNCH, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_THUNDURUS_THERIAN,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_THUNDERBOLT, MOVE_FOCUS_BLAST, MOVE_GRASS_KNOT, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_TORNADUS_THERIAN,
+    .heldItem = ITEM_HEAVY_DUTY_BOOTS,
+    .moves = {MOVE_HURRICANE, MOVE_FOCUS_BLAST, MOVE_HEAT_WAVE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_LANDORUS_THERIAN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_KNOCK_OFF, MOVE_STEALTH_ROCK}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_THUNDURUS_THERIAN,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_RAPIDASH,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_HORN_LEECH, MOVE_FLARE_BLITZ, MOVE_FLY, MOVE_STOMPING_TANTRUM}
     }
 };
+

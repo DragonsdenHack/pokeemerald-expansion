@@ -23726,6 +23726,282 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_VIAS_TREN1",
+          "base_label": "gViasTren10",
+          "land_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 65,
+                "species": "SPECIES_BAYLEEF"
+              },
+              {
+                "min_level": 61,
+                "max_level": 66,
+                "species": "SPECIES_SUNFLORA"
+              },
+              {
+                "min_level": 62,
+                "max_level": 67,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 63,
+                "max_level": 68,
+                "species": "SPECIES_SUDOWOODO"
+              },
+              {
+                "min_level": 64,
+                "max_level": 69,
+                "species": "SPECIES_GLISCOR"
+              },
+              {
+                "min_level": 65,
+                "max_level": 70,
+                "species": "SPECIES_AMBIPOM"
+              },
+              {
+                "min_level": 66,
+                "max_level": 71,
+                "species": "SPECIES_URSARING"
+              },
+              {
+                "min_level": 67,
+                "max_level": 72,
+                "species": "SPECIES_VICTREEBEL"
+              },
+              {
+                "min_level": 68,
+                "max_level": 73,
+                "species": "SPECIES_VILEPLUME"
+              },
+              {
+                "min_level": 69,
+                "max_level": 74,
+                "species": "SPECIES_DONPHAN"
+              },
+              {
+                "min_level": 70,
+                "max_level": 75,
+                "species": "SPECIES_MEGANIUM"
+              },
+              {
+                "min_level": 71,
+                "max_level": 76,
+                "species": "SPECIES_MEGANIUM"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_VIAS_TREN2",
+          "base_label": "gViasTren20",
+          "land_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 65,
+                "species": "SPECIES_BAYLEEF"
+              },
+              {
+                "min_level": 61,
+                "max_level": 66,
+                "species": "SPECIES_SUNFLORA"
+              },
+              {
+                "min_level": 62,
+                "max_level": 67,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 63,
+                "max_level": 68,
+                "species": "SPECIES_SUDOWOODO"
+              },
+              {
+                "min_level": 64,
+                "max_level": 69,
+                "species": "SPECIES_GLISCOR"
+              },
+              {
+                "min_level": 65,
+                "max_level": 70,
+                "species": "SPECIES_AMBIPOM"
+              },
+              {
+                "min_level": 66,
+                "max_level": 71,
+                "species": "SPECIES_URSARING"
+              },
+              {
+                "min_level": 67,
+                "max_level": 72,
+                "species": "SPECIES_VICTREEBEL"
+              },
+              {
+                "min_level": 68,
+                "max_level": 73,
+                "species": "SPECIES_VILEPLUME"
+              },
+              {
+                "min_level": 69,
+                "max_level": 74,
+                "species": "SPECIES_DONPHAN"
+              },
+              {
+                "min_level": 70,
+                "max_level": 75,
+                "species": "SPECIES_MEGANIUM"
+              },
+              {
+                "min_level": 71,
+                "max_level": 76,
+                "species": "SPECIES_MEGANIUM"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_VIAS_TREN3",
+          "base_label": "gViasTren30",
+          "land_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 61,
+                "max_level": 66,
+                "species": "SPECIES_BAYLEEF"
+              },
+              {
+                "min_level": 62,
+                "max_level": 67,
+                "species": "SPECIES_GLIGAR"
+              },
+              {
+                "min_level": 63,
+                "max_level": 68,
+                "species": "SPECIES_GLISCOR"
+              },
+              {
+                "min_level": 64,
+                "max_level": 69,
+                "species": "SPECIES_SUDOWOODO"
+              },
+              {
+                "min_level": 65,
+                "max_level": 70,
+                "species": "SPECIES_IVYSAUR"
+              },
+              {
+                "min_level": 66,
+                "max_level": 71,
+                "species": "SPECIES_NOCTOWL"
+              },
+              {
+                "min_level": 67,
+                "max_level": 72,
+                "species": "SPECIES_AMBIPOM"
+              },
+              {
+                "min_level": 68,
+                "max_level": 73,
+                "species": "SPECIES_URSARING"
+              },
+              {
+                "min_level": 69,
+                "max_level": 74,
+                "species": "SPECIES_VILEPLUME"
+              },
+              {
+                "min_level": 70,
+                "max_level": 75,
+                "species": "SPECIES_VICTREEBEL"
+              },
+              {
+                "min_level": 71,
+                "max_level": 76,
+                "species": "SPECIES_VENUSAUR"
+              },
+              {
+                "min_level": 72,
+                "max_level": 77,
+                "species": "SPECIES_MEGANIUM"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_VAS_TREN4",
+          "base_label": "gVasTren40",
+          "land_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 61,
+                "max_level": 66,
+                "species": "SPECIES_IVYSAUR"
+              },
+              {
+                "min_level": 62,
+                "max_level": 67,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 63,
+                "max_level": 68,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 64,
+                "max_level": 69,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 65,
+                "max_level": 70,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 66,
+                "max_level": 71,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 67,
+                "max_level": 72,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 68,
+                "max_level": 73,
+                "species": "SPECIES_NONE"
+              },
+              {
+                "min_level": 69,
+                "max_level": 74,
+                "species": "SPECIES_VILEPLUME"
+              },
+              {
+                "min_level": 70,
+                "max_level": 75,
+                "species": "SPECIES_VICTREEBEL"
+              },
+              {
+                "min_level": 71,
+                "max_level": 76,
+                "species": "SPECIES_VENUSAUR"
+              },
+              {
+                "min_level": 72,
+                "max_level": 77,
+                "species": "SPECIES_VENUSAUR"
+              }
+            ]
+          }
         }
       ]
     },
