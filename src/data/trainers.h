@@ -12081,9 +12081,9 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemCustomMoves = sParty_TRAINER4},
     },
 
-     [TRAINER_TRAINER_5] =
+    [TRAINER_TRAINER_5] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_RS_MAY,
@@ -12092,7 +12092,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER5),
-        .party = {.NoItemCustomMoves = sParty_TRAINER5},
+        .party = {.ItemCustomMoves = sParty_TRAINER5},
     },
 
 };
