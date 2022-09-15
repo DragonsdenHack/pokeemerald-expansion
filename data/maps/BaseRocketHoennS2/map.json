@@ -410,14 +410,14 @@
       "x": 13,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_BASE_ROCKET_HOENN_S2",
+      "dest_map": "MAP_BASE_ROCKET_HOENN",
       "dest_warp_id": 0
     },
     {
       "x": 37,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_BASE_ROCKET_HOENN_S2",
+      "dest_map": "MAP_BASE_ROCKET_HOENN_S3",
       "dest_warp_id": 0
     }
   ],
