@@ -12016,7 +12016,7 @@ const struct Trainer gTrainers[] = {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_RS_MAY,
+        .trainerPic = TRAINER_PIC_GENTLEMAN,
         .trainerName = _("BRYAN"),
         .items = {},
         .doubleBattle = FALSE,
@@ -12039,7 +12039,7 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemCustomMoves = sParty_TRAINER1},
     },
 
-     [TRAINER_TRAINER_2] =
+    [TRAINER_TRAINER_2] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
@@ -12053,7 +12053,7 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemCustomMoves = sParty_TRAINER2},
     },
 
-     [TRAINER_TRAINER_3] =
+    [TRAINER_TRAINER_3] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
@@ -12067,27 +12067,27 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemCustomMoves = sParty_TRAINER3},
     },
 
-     [TRAINER_TRAINER_4] =
+    [TRAINER_TRAINER_4] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_RS_PROTAG,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_RS_MAY,
+        .trainerPic = TRAINER_PIC_GENTLEMAN,
         .trainerName = _("XANDER"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER4),
-        .party = {.NoItemCustomMoves = sParty_TRAINER4},
+        .party = {.ItemCustomMoves = sParty_TRAINER4},
     },
 
     [TRAINER_TRAINER_5] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_RS_PROTAG,
-        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_RS_MAY,
-        .trainerName = _("PAUL"),
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("PEGASO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,

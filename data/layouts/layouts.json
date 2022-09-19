@@ -1521,7 +1521,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_MeteorFalls",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MeteorFalls_B1F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_B1F_1R/map.bin"
     },
@@ -1568,8 +1568,8 @@
       "height": 33,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/DesertRuins/border.bin",
       "blockdata_filepath": "data/layouts/DesertRuins/map.bin"
     },
@@ -1581,7 +1581,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/GraniteCave_1F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_1F/map.bin"
     },
@@ -1593,7 +1593,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/GraniteCave_B1F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_B1F/map.bin"
     },
@@ -1605,7 +1605,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/GraniteCave_B2F/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_B2F/map.bin"
     },
@@ -1616,8 +1616,8 @@
       "height": 44,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Rustboro",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_Viridian_Forest",
       "border_filepath": "data/layouts/PetalburgWoods/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgWoods/map.bin"
     },
@@ -1628,8 +1628,8 @@
       "height": 47,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MtChimney/border.bin",
       "blockdata_filepath": "data/layouts/MtChimney/map.bin"
     },
@@ -1713,7 +1713,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Facility",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/AquaHideout_1F/border.bin",
       "blockdata_filepath": "data/layouts/AquaHideout_1F/map.bin"
     },
@@ -1749,7 +1749,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Underwater",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/Underwater_SeafloorCavern/border.bin",
       "blockdata_filepath": "data/layouts/Underwater_SeafloorCavern/map.bin"
     },
@@ -1761,7 +1761,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/SeafloorCavern_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Entrance/map.bin"
     },
@@ -1784,8 +1784,8 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room2/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room2/map.bin"
     },
@@ -1797,7 +1797,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room3/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room3/map.bin"
     },
@@ -1809,7 +1809,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room4/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room4/map.bin"
     },
@@ -1821,7 +1821,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room5/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room5/map.bin"
     },
@@ -1833,7 +1833,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room6/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room6/map.bin"
     },
@@ -1845,7 +1845,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room7/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room7/map.bin"
     },
@@ -1857,7 +1857,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room8/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room8/map.bin"
     },
@@ -1869,7 +1869,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SeafloorCavern_Room9/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room9/map.bin"
     },
@@ -1881,7 +1881,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CaveOfOrigin_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_Entrance/map.bin"
     },
@@ -1893,7 +1893,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CaveOfOrigin_1F/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_1F/map.bin"
     },
@@ -1905,7 +1905,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap1/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap1/map.bin"
     },
@@ -1917,7 +1917,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap2/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap2/map.bin"
     },
@@ -1929,7 +1929,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap3/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_UnusedRubySapphireMap3/map.bin"
     },
@@ -1941,7 +1941,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CaveOfOrigin_B1F/border.bin",
       "blockdata_filepath": "data/layouts/CaveOfOrigin_B1F/map.bin"
     },
@@ -1953,7 +1953,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/VictoryRoad_1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_1F/map.bin"
     },
@@ -1965,7 +1965,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/ShoalCave_LowTideEntranceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideEntranceRoom/map.bin"
     },
@@ -1977,7 +1977,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/ShoalCave_LowTideInnerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideInnerRoom/map.bin"
     },
@@ -1989,7 +1989,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/ShoalCave_LowTideStairsRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideStairsRoom/map.bin"
     },
@@ -2001,7 +2001,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/ShoalCave_LowTideLowerRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideLowerRoom/map.bin"
     },
@@ -2013,7 +2013,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/ShoalCave_HighTideEntranceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_HighTideEntranceRoom/map.bin"
     },
@@ -2205,7 +2205,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Facility",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/NewMauville_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/NewMauville_Entrance/map.bin"
     },
@@ -2216,8 +2216,8 @@
       "height": 41,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_BikeShop",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/NewMauville_Inside/border.bin",
       "blockdata_filepath": "data/layouts/NewMauville_Inside/map.bin"
     },
@@ -2852,7 +2852,7 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Northwest/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northwest/map.bin"
@@ -3357,7 +3357,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/IslandCave/border.bin",
       "blockdata_filepath": "data/layouts/IslandCave/map.bin"
     },
@@ -3416,8 +3416,8 @@
       "height": 31,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/VictoryRoad_B1F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_B1F/map.bin"
     },
@@ -3429,7 +3429,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/VictoryRoad_B2F/border.bin",
       "blockdata_filepath": "data/layouts/VictoryRoad_B2F/map.bin"
     },
@@ -3453,7 +3453,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/GraniteCave_StevensRoom/border.bin",
       "blockdata_filepath": "data/layouts/GraniteCave_StevensRoom/map.bin"
     },
@@ -3500,8 +3500,8 @@
       "height": 46,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/JaggedPass/border.bin",
       "blockdata_filepath": "data/layouts/JaggedPass/map.bin"
     },
@@ -3513,7 +3513,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/FieryPath/border.bin",
       "blockdata_filepath": "data/layouts/FieryPath/map.bin"
     },
@@ -3621,7 +3621,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Facility",
+      "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/MtPyre_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_Exterior/map.bin"
     },
@@ -3632,8 +3632,8 @@
       "height": 37,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Facility",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/MtPyre_Summit/border.bin",
       "blockdata_filepath": "data/layouts/MtPyre_Summit/map.bin"
     },
@@ -3837,7 +3837,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/SkyPillar_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Entrance/map.bin"
     },
@@ -3848,8 +3848,8 @@
       "height": 23,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
       "border_filepath": "data/layouts/SkyPillar_Outside/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Outside/map.bin"
     },
@@ -3860,8 +3860,8 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
       "border_filepath": "data/layouts/SkyPillar_1F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_1F/map.bin"
     },
@@ -3872,8 +3872,8 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
       "border_filepath": "data/layouts/SkyPillar_2F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_2F/map.bin"
     },
@@ -3884,8 +3884,8 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
       "border_filepath": "data/layouts/SkyPillar_3F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_3F/map.bin"
     },
@@ -3896,8 +3896,8 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
       "border_filepath": "data/layouts/SkyPillar_4F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_4F/map.bin"
     },
@@ -3933,7 +3933,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/ShoalCave_LowTideIceRoom/border.bin",
       "blockdata_filepath": "data/layouts/ShoalCave_LowTideIceRoom/map.bin"
     },
@@ -3956,8 +3956,8 @@
       "height": 14,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
       "border_filepath": "data/layouts/SkyPillar_5F/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_5F/map.bin"
     },
@@ -3969,7 +3969,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Pacifidlog",
+      "secondary_tileset": "gTileset_digletts_cave",
       "border_filepath": "data/layouts/SkyPillar_Top/border.bin",
       "blockdata_filepath": "data/layouts/SkyPillar_Top/map.bin"
     },
@@ -4029,7 +4029,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_1F/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_1F/map.bin"
     },
@@ -4041,7 +4041,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_2F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_1R/map.bin"
     },
@@ -4053,7 +4053,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_2F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_2R/map.bin"
     },
@@ -4065,7 +4065,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_3F_1R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_1R/map.bin"
     },
@@ -4077,7 +4077,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_3F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_2R/map.bin"
     },
@@ -4089,7 +4089,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_4F/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_4F/map.bin"
     },
@@ -4545,7 +4545,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_3F_3R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_3F_3R/map.bin"
     },
@@ -4557,7 +4557,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lavaridge",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MagmaHideout_2F_3R/border.bin",
       "blockdata_filepath": "data/layouts/MagmaHideout_2F_3R/map.bin"
     },
@@ -4569,7 +4569,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_MirageTower",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/MirageTower_1F/border.bin",
       "blockdata_filepath": "data/layouts/MirageTower_1F/map.bin"
     },
@@ -4665,7 +4665,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/DesertUnderpass/border.bin",
       "blockdata_filepath": "data/layouts/DesertUnderpass/map.bin"
     },
@@ -5169,7 +5169,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_MeteorFalls",
+      "secondary_tileset": "gTileset_cerulean_cave",
       "border_filepath": "data/layouts/MeteorFalls_StevensCave/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_StevensCave/map.bin"
     },

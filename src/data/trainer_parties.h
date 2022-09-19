@@ -20591,7 +20591,7 @@ static const struct TrainerMonItemCustomMoves sParty_EJECUTIVODEVON[] = {
     .lvl = 97,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_ASSAULT_VEST,
-    .moves = {MOVE_METEOR_MASH, MOVE_ZEN_HEADBUTT, MOVE_ICE_PUNCH, MOVE_BULLET_SEED}
+    .moves = {MOVE_METEOR_MASH, MOVE_ZEN_HEADBUTT, MOVE_ICE_PUNCH, MOVE_BULLET_PUNCH}
     },
     {
     .iv = 0,
@@ -20647,18 +20647,48 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER3[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER4[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER4[] = {
     {
     .iv = 0,
-    .lvl = 92,
-    .species = SPECIES_SLAKING,
-    .moves = {MOVE_GIGA_IMPACT, MOVE_SHADOW_CLAW, MOVE_NONE, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_SHARPEDO,
+    .heldItem = ITEM_POWER_HERB,
+    .moves = {MOVE_SKULL_BASH, MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_PSYCHIC_FANGS}
     },
     {
     .iv = 0,
-    .lvl = 92,
-    .species = SPECIES_SWAMPERT,
-    .moves = {MOVE_EARTHQUAKE, MOVE_AQUA_TAIL, MOVE_ICE_PUNCH, MOVE_NONE}
+    .lvl = 99,
+    .species = SPECIES_BLAZIKEN,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_PROTECT, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_LATIOS,
+    .heldItem = ITEM_DRAGONIUM_Z,
+    .moves = {MOVE_DRACO_METEOR, MOVE_PSYSHOCK, MOVE_SURF, MOVE_THUNDERBOLT}
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_REGIROCK,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_STONE_EDGE, MOVE_HEAVY_SLAM, MOVE_STEALTH_ROCK, MOVE_DRAIN_PUNCH}
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_METAGROSS,
+    .heldItem = ITEM_AIR_BALLOON,
+    .moves = {MOVE_AGILITY, MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_EXPLOSION}
+    },
+    {
+    .iv = 0,
+    .lvl = 101,
+    .species = SPECIES_GARDEVOIR,
+    .heldItem = ITEM_GARDEVOIRITE,
+    .moves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_FOCUS_BLAST, MOVE_WILL_O_WISP}
     }
 };
 
