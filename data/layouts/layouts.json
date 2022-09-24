@@ -1533,7 +1533,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_MeteorFalls",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MeteorFalls_B1F_2R/border.bin",
       "blockdata_filepath": "data/layouts/MeteorFalls_B1F_2R/map.bin"
     },
@@ -1545,7 +1545,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_RusturfTunnel",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/RusturfTunnel/border.bin",
       "blockdata_filepath": "data/layouts/RusturfTunnel/map.bin"
     },
@@ -1869,7 +1869,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_mt_ember",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/SeafloorCavern_Room9/border.bin",
       "blockdata_filepath": "data/layouts/SeafloorCavern_Room9/map.bin"
     },
@@ -2853,7 +2853,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Lilycove",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/SafariZone_Northwest/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northwest/map.bin"
     },
@@ -2864,8 +2864,8 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lilycove",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/SafariZone_North/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_North/map.bin"
     },
@@ -2876,7 +2876,7 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_Lilycove",
       "border_filepath": "data/layouts/SafariZone_Southwest/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Southwest/map.bin"
@@ -2888,8 +2888,8 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lilycove",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/SafariZone_South/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_South/map.bin"
     },
@@ -3369,7 +3369,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/AncientTomb/border.bin",
       "blockdata_filepath": "data/layouts/AncientTomb/map.bin"
     },
@@ -4725,7 +4725,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Lilycove",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/SafariZone_Northeast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Northeast/map.bin"
     },
@@ -4737,7 +4737,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Lilycove",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/SafariZone_Southeast/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_Southeast/map.bin"
     },
@@ -4845,7 +4845,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Dewford",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/BirthIsland_Exterior/border.bin",
       "blockdata_filepath": "data/layouts/BirthIsland_Exterior/map.bin"
     },
