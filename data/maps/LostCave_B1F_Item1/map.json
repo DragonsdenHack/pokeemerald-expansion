@@ -2,7 +2,7 @@
   "id": "MAP_LOST_CAVE_B1F_ITEM1",
   "name": "LostCave_B1F_Item1",
   "layout": "LAYOUT_LOST_CAVE_B1F_ITEM1",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_MT_MOON",
   "region_map_section": "MAPSEC_LOST_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

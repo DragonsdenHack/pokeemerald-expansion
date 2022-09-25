@@ -2,7 +2,7 @@
   "id": "MAP_PEWTER_CITY_MUSEM_2F",
   "name": "PewterCity_Musem_2F",
   "layout": "LAYOUT_PEWTER_CITY_MUSEM_2F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_PEWTER",
   "region_map_section": "MAPSEC_PEWTER_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

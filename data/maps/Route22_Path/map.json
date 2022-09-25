@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE22_PATH",
   "name": "Route22_Path",
   "layout": "LAYOUT_ROUTE22_PATH",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_PEWTER",
   "region_map_section": "MAPSEC_ROUTE_22",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

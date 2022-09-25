@@ -2,7 +2,7 @@
   "id": "MAP_BERRY_FOREST",
   "name": "BerryForest",
   "layout": "LAYOUT_BERRY_FOREST",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_VIRIDIAN_FOREST",
   "region_map_section": "MAPSEC_BERRY_FOREST",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

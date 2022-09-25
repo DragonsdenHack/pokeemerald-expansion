@@ -2,7 +2,7 @@
   "id": "MAP_MAGMA3",
   "name": "Magma3",
   "layout": "LAYOUT_MAGMA3",
-  "music": "2",
+  "music": "",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

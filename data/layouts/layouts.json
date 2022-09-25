@@ -417,7 +417,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Fortree",
+      "secondary_tileset": "gTileset_fuchsia_city",
       "border_filepath": "data/layouts/Route119/border.bin",
       "blockdata_filepath": "data/layouts/Route119/map.bin"
     },
@@ -5036,8 +5036,8 @@
       "height": 24,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Cave",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/AlteringCave/border.bin",
       "blockdata_filepath": "data/layouts/AlteringCave/map.bin"
     },
@@ -9644,8 +9644,8 @@
       "height": 24,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_mt_ember",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_rock_tunnel",
       "border_filepath": "data/layouts/AlteringCave_Sevii/border.bin",
       "blockdata_filepath": "data/layouts/AlteringCave_Sevii/map.bin"
     },

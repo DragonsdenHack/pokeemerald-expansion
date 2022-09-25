@@ -2,7 +2,7 @@
   "id": "MAP_LIPTOO_CHAMBER",
   "name": "LiptooChamber",
   "layout": "LAYOUT_LIPTOO_CHAMBER",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_VIRIDIAN_FOREST",
   "region_map_section": "MAPSEC_LIPTOO_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

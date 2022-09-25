@@ -2,7 +2,7 @@
   "id": "MAP_SILPH_8F",
   "name": "Silph_8F",
   "layout": "LAYOUT_SILPH_8F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SILPH",
   "region_map_section": "MAPSEC_SILPH_CO",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

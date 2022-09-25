@@ -2,7 +2,7 @@
   "id": "MAP_SS_ANNE_8F",
   "name": "SsAnne_8F",
   "layout": "LAYOUT_SS_ANNE_8F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SS_ANNE",
   "region_map_section": "MAPSEC_S_S_ANNE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_CELADON_CITY_CASINO",
   "name": "CeladonCity_Casino",
   "layout": "LAYOUT_CELADON_CITY_CASINO",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_GAME_CORNER",
   "region_map_section": "MAPSEC_CELADON_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

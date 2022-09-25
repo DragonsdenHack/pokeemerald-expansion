@@ -2,7 +2,7 @@
   "id": "MAP_AQUA1",
   "name": "Aqua1",
   "layout": "LAYOUT_AQUA1",
-  "music": "2",
+  "music": "MUS_SEALED_CHAMBER",
   "region_map_section": "MAPSEC_DOTTED_HOLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
