@@ -1617,7 +1617,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Viridian_Forest",
+      "secondary_tileset": "gTileset_sevii_islands_67",
       "border_filepath": "data/layouts/PetalburgWoods/border.bin",
       "blockdata_filepath": "data/layouts/PetalburgWoods/map.bin"
     },
@@ -6225,7 +6225,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_BattlePike",
+      "secondary_tileset": "gTileset_sevii_islands_67",
       "border_filepath": "data/layouts/CanyonEntrance/border.bin",
       "blockdata_filepath": "data/layouts/CanyonEntrance/map.bin"
     },
