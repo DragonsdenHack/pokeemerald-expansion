@@ -11456,7 +11456,7 @@ const struct Trainer gTrainers[] = {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SAILOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_SAILOR,
+        .trainerPic = TRAINER_PIC_BILL,
         .trainerName = _("BILL"),
         .items = {},
         .doubleBattle = FALSE,
@@ -12093,6 +12093,1336 @@ const struct Trainer gTrainers[] = {
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER5),
         .party = {.ItemCustomMoves = sParty_TRAINER5},
+    },
+
+    [TRAINER_TRAINER_6] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("PETRA"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER6),
+        .party = {.ItemCustomMoves = sParty_TRAINER6},
+    },
+
+    [TRAINER_TRAINER_7] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("MARCIAL"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER7),
+        .party = {.ItemCustomMoves = sParty_TRAINER7},
+    },
+
+    [TRAINER_TRAINER_8] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("ERICO"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER8),
+        .party = {.ItemCustomMoves = sParty_TRAINER8},
+    },
+
+    [TRAINER_TRAINER_9] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("CANDELA"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER9),
+        .party = {.ItemCustomMoves = sParty_TRAINER9},
+    },
+
+    [TRAINER_TRAINER_10] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("NORMAN"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER10),
+        .party = {.ItemCustomMoves = sParty_TRAINER10},
+    },
+
+    [TRAINER_TRAINER_11] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("ALANA"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER11),
+        .party = {.ItemCustomMoves = sParty_TRAINER11},
+    },
+
+    [TRAINER_TRAINER_12] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("VITO&LETI"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER12),
+        .party = {.ItemCustomMoves = sParty_TRAINER12},
+    },
+
+    [TRAINER_TRAINER_13] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER13"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER13),
+        .party = {.ItemCustomMoves = sParty_TRAINER13},
+    },
+
+    [TRAINER_TRAINER_14] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER14"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER14),
+        .party = {.ItemCustomMoves = sParty_TRAINER14},
+    },
+
+    [TRAINER_TRAINER_15] =
+    {
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER15"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER15),
+        .party = {.ItemCustomMoves = sParty_TRAINER15},
+    },
+
+    [TRAINER_TRAINER_16] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER16"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER16),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER16},
+    },
+
+    [TRAINER_TRAINER_17] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER17"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER17),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER17},
+    },
+
+    [TRAINER_TRAINER_18] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER18"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER18),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER18},
+    },
+
+    [TRAINER_TRAINER_19] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER19"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER19),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER19},
+    },
+
+    [TRAINER_TRAINER_20] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER20"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER20),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER20},
+    },
+
+    [TRAINER_TRAINER_21] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER21"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER21),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER21},
+    },
+
+    [TRAINER_TRAINER_22] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER22"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER22),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER22},
+    },
+
+    [TRAINER_TRAINER_23] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER23"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER23),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER23},
+    },
+
+    [TRAINER_TRAINER_24] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER24"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER24),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER24},
+    },
+
+    [TRAINER_TRAINER_25] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER25"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER25),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER25},
+    },
+
+    [TRAINER_TRAINER_26] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER26"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER26),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER26},
+    },
+
+    [TRAINER_TRAINER_27] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER27"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER27),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER27},
+    },
+
+    [TRAINER_TRAINER_28] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER28"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER28),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER28},
+    },
+
+    [TRAINER_TRAINER_29] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER29"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER29),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER29},
+    },
+
+    [TRAINER_TRAINER_30] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER30"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER30),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER30},
+    },
+
+    [TRAINER_TRAINER_31] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER31"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER31),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER31},
+    },
+
+    [TRAINER_TRAINER_32] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER32"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER32),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER32},
+    },
+
+    [TRAINER_TRAINER_33] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER33"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER33),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER33},
+    },
+
+    [TRAINER_TRAINER_34] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER34"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER34),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER34},
+    },
+
+    [TRAINER_TRAINER_35] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER35"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER35),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER35},
+    },
+
+    [TRAINER_TRAINER_36] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER36"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER36),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER36},
+    },
+
+    [TRAINER_TRAINER_37] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER37"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER37),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER37},
+    },
+
+    [TRAINER_TRAINER_38] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER38"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER38),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER38},
+    },
+
+    [TRAINER_TRAINER_39] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER39"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER39),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER39},
+    },
+
+    [TRAINER_TRAINER_40] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER40"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER40),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER40},
+    },
+
+    [TRAINER_TRAINER_41] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER41"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER41),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER41},
+    },
+
+    [TRAINER_TRAINER_42] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER42"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER42),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER42},
+    },
+
+    [TRAINER_TRAINER_43] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER43"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER43),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER43},
+    },
+
+    [TRAINER_TRAINER_44] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER44"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER44),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER44},
+    },
+
+    [TRAINER_TRAINER_45] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER45"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER45),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER45},
+    },
+
+    [TRAINER_TRAINER_46] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER46"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER46),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER46},
+    },
+
+    [TRAINER_TRAINER_47] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER47"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER47),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER47},
+    },
+
+    [TRAINER_TRAINER_48] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER48"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER48),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER48},
+    },
+
+    [TRAINER_TRAINER_49] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER49"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER49),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER49},
+    },
+
+    [TRAINER_TRAINER_50] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER50"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER50),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER50},
+    },
+
+    [TRAINER_TRAINER_51] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER51"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER51),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER51},
+    },
+
+    [TRAINER_TRAINER_52] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER52"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER52),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER52},
+    },
+
+    [TRAINER_TRAINER_53] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER53"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER53),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER53},
+    },
+
+    [TRAINER_TRAINER_54] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER54"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER54),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER54},
+    },
+
+    [TRAINER_TRAINER_55] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER55"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER55),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER55},
+    },
+
+    [TRAINER_TRAINER_56] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER56"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER56),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER56},
+    },
+
+    [TRAINER_TRAINER_57] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER57"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER57),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER57},
+    },
+
+    [TRAINER_TRAINER_58] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER58"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER58),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER58},
+    },
+
+    [TRAINER_TRAINER_59] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER59"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER59),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER59},
+    },
+
+    [TRAINER_TRAINER_60] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER60"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER60),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER60},
+    },
+
+    [TRAINER_TRAINER_61] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER61"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER61),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER61},
+    },
+
+    [TRAINER_TRAINER_62] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER62"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER62),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER62},
+    },
+
+    [TRAINER_TRAINER_63] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER63"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER63),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER63},
+    },
+
+    [TRAINER_TRAINER_64] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER64"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER64),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER64},
+    },
+
+    [TRAINER_TRAINER_65] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER65"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER65),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER65},
+    },
+
+    [TRAINER_TRAINER_66] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER66"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER66),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER66},
+    },
+
+    [TRAINER_TRAINER_67] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER67"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER67),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER67},
+    },
+
+    [TRAINER_TRAINER_68] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER68"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER68),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER68},
+    },
+
+    [TRAINER_TRAINER_69] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER69"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER69),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER69},
+    },
+
+    [TRAINER_TRAINER_70] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER70"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER70),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER70},
+    },
+
+    [TRAINER_TRAINER_71] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER71"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER71),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER71},
+    },
+
+    [TRAINER_TRAINER_72] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER72"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER72),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER72},
+    },
+
+    [TRAINER_TRAINER_73] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER73"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER73),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER73},
+    },
+
+    [TRAINER_TRAINER_74] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER74"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER74),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER74},
+    },
+
+    [TRAINER_TRAINER_75] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER75"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER75),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER75},
+    },
+
+    [TRAINER_TRAINER_76] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER76"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER76),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER76},
+    },
+
+    [TRAINER_TRAINER_77] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER77"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER77),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER77},
+    },
+
+    [TRAINER_TRAINER_78] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER78"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER78),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER78},
+    },
+
+    [TRAINER_TRAINER_79] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER79"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER79),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER79},
+    },
+
+    [TRAINER_TRAINER_80] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER80"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER80),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER80},
+    },
+
+    [TRAINER_TRAINER_81] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER81"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER81),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER81},
+    },
+
+    [TRAINER_TRAINER_82] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER82"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER82),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER82},
+    },
+
+    [TRAINER_TRAINER_83] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER83"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER83),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER83},
+    },
+
+    [TRAINER_TRAINER_84] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER84"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER84),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER84},
+    },
+
+    [TRAINER_TRAINER_85] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER85"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER85),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER85},
+    },
+
+    [TRAINER_TRAINER_86] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER86"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER86),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER86},
+    },
+
+    [TRAINER_TRAINER_87] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER87"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER87),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER87},
+    },
+
+    [TRAINER_TRAINER_88] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER88"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER88),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER88},
+    },
+
+    [TRAINER_TRAINER_89] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER89"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER89),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER89},
+    },
+
+    [TRAINER_TRAINER_90] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER90"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER90),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER90},
+    },
+
+    [TRAINER_TRAINER_91] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER91"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER91),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER91},
+    },
+
+    [TRAINER_TRAINER_92] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER92"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER92),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER92},
+    },
+
+    [TRAINER_TRAINER_93] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER93"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER93),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER93},
+    },
+
+    [TRAINER_TRAINER_94] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER94"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER94),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER94},
+    },
+
+    [TRAINER_TRAINER_95] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER95"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER95),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER95},
+    },
+
+    [TRAINER_TRAINER_96] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER96"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER96),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER96},
+    },
+
+    [TRAINER_TRAINER_97] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER97"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER97),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER97},
+    },
+
+    [TRAINER_TRAINER_98] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER98"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER98),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER98},
+    },
+
+    [TRAINER_TRAINER_99] =
+    {
+        .partyFlags = 0,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER99"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER99),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER99},
+    },
+
+    [TRAINER_TRAINER_100] =
+    {
+        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_LEADER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerName = _("TRAINER100"),
+        .items = {},
+        .doubleBattle = FALSE,
+        .aiFlags = 0,
+        .partySize = ARRAY_COUNT(sParty_TRAINER100),
+        .party = {.NoItemCustomMoves = sParty_TRAINER100},
     },
 
 };
