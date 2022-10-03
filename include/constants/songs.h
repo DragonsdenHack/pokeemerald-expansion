@@ -490,7 +490,7 @@
 #define MUS_RG_TRAINER_TOWER        556 // MUS_RG_T_TOWER
 #define MUS_RG_SLOW_PALLET          557 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
-#define END_MUS                     MUS_ENCOUNTER_ANDRA
+#define END_MUS                     MUS_BATTLE_ZEUS
 
 #define PH_TRAP_BLEND               559
 #define PH_TRAP_HELD                560
@@ -544,7 +544,7 @@
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
 /// nuevas canciones
-#define MUS_ENCOUNTER_ANDRA         610
+#define MUS_BATTLE_ZEUS         610
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
