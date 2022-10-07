@@ -3525,7 +3525,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_silph_co",
+      "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/RustboroCity_Flat2_1F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat2_1F/map.bin"
     },
