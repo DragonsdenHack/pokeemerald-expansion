@@ -463,7 +463,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_LUGIA] =
     {
-
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_AQUA_ADMIN,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_LUGIA,
@@ -10879,7 +10879,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_CULTO_3] =
     {
-        .partyFlags = F_TRAINER_PARTY_HELD_ITEM,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_CULTIST_LEADER_JONES,
@@ -10888,7 +10888,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_Culto3),
-        .party = {.ItemDefaultMoves = sParty_Culto3},
+        .party = {.ItemCustomMoves = sParty_Culto3},
     },
 
     [TRAINER_ZEUS_4] =
@@ -12237,7 +12237,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TRAINER_16] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
@@ -12246,12 +12246,12 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER16),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER16},
+        .party = {.ItemCustomMoves = sParty_TRAINER16},
     },
 
     [TRAINER_TRAINER_17] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
@@ -12260,40 +12260,40 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER17),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER17},
+        .party = {.ItemCustomMoves = sParty_TRAINER17},
     },
 
     [TRAINER_TRAINER_18] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER18"),
+        .trainerName = _("GECHIS"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER18),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER18},
+        .party = {.ItemCustomMoves = sParty_TRAINER18},
     },
 
     [TRAINER_TRAINER_19] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER19"),
+        .trainerPic = TRAINER_PIC_LEADER_GIOVANNI,
+        .trainerName = _("GIOVANNI"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER19),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER19},
+        .party = {.ItemCustomMoves = sParty_TRAINER19},
     },
 
     [TRAINER_TRAINER_20] =
     {
-        .partyFlags = 0,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
@@ -12302,7 +12302,7 @@ const struct Trainer gTrainers[] = {
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER20),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER20},
+        .party = {.ItemCustomMoves = sParty_TRAINER20},
     },
 
     [TRAINER_TRAINER_21] =
