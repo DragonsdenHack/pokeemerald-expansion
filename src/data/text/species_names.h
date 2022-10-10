@@ -901,7 +901,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_EONEON] = _("Eoneon"),
     [SPECIES_TRXATU] = _("Trxatu"),
     [SPECIES_ELECTRODE_Y] = _("Electrode-Y"),
-    [SPECIES_TAUROS_X] = _("TaurosX"),
+    [SPECIES_TAUROS_X] = _("Tauros-X"),
     [SPECIES_PORYGON3] = _("Porygon3"),
     [SPECIES_ELECTIVIRE_X] = _("Electivire-X"),
     [SPECIES_MAGMORTAR_Y] = _("Magmortar-Y"),
@@ -1033,7 +1033,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_BUTTERFREE_MEGA] = _("Butterfree"),
     [SPECIES_NOIVERN_MEGA] = _("Noivern"),
     [SPECIES_MILOTIC_MEGA] = _("Milotic"),
-    [SPECIES_PORYGON_Z_MEGA] = _("Porygon_Z"),
+    [SPECIES_PORYGON_Z_MEGA] = _("Porygon-Z"),
     [SPECIES_COFAGRIGUS_MEGA] = _("Cofagrigus"),
     [SPECIES_DURALUDON_MEGA] = _("Duraludon"),
 

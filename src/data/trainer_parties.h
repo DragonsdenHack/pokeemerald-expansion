@@ -21422,8 +21422,33 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER20[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER21[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 100,
+    .species = SPECIES_AERODACTYL_PRIMAL,
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_CRADILY_Y,
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_RAMPARDOS_X,
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_TYRANTRUM_X,
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_BASTIODON_X,
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_ARCHEOPS,
     }
 };
 

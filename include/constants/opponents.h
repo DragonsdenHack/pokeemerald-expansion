@@ -412,7 +412,7 @@
 #define TRAINER_CHESTER                     408
 #define TRAINER_ROBERT_2                    409
 #define TRAINER_ROBERT_3                    410
-#define TRAINER_LORELEI                     411
+#define TRAINER_ANDRA_9                     411
 #define TRAINER_BRUNO_2                     412
 #define TRAINER_AGATHA                      413
 #define TRAINER_LANCE_1                     414
@@ -753,7 +753,7 @@
 #define TRAINER_JAIDEN                      749
 #define TRAINER_ALIX                        750
 #define TRAINER_HELENE                      751
-#define TRAINER_MARLENE                     752
+#define TRAINER_FARERO                      752
 #define TRAINER_DEVAN                       753
 #define TRAINER_JOHNSON                     754
 #define TRAINER_MELINA                      755
@@ -821,7 +821,7 @@
 #define TRAINER_CMIGUEL_4                   817
 #define TRAINER_BILL_4                      818
 #define TRAINER_EUSINE                      819
-#define TRAINER_ANDRA_9                     820
+#define TRAINER_LORELEI                     820
 #define TRAINER_DIANTA                      821
 #define TRAINER_CINTIA                      822
 #define TRAINER_PABLO_5                     823
