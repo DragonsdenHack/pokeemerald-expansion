@@ -490,7 +490,7 @@
 #define MUS_RG_TRAINER_TOWER        556 // MUS_RG_T_TOWER
 #define MUS_RG_SLOW_PALLET          557 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
-#define END_MUS                     MUS_BATTLE_ZEUS
+#define END_MUS                     MUSSAQUA
 
 #define PH_TRAP_BLEND               559
 #define PH_TRAP_HELD                560
@@ -544,7 +544,24 @@
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
 /// nuevas canciones
-#define MUS_BATTLE_ZEUS         610
+#define MUS_BATTLE_ZEUS             610
+#define MUS_BASEPROFUNDA            611
+#define MUS_BW_CASTILLO             612
+#define MUS_BW_ROUTE10              613
+#define MUS_ENCOUNTER_MIRTO         614
+#define MUS_ENCOUNTER_OAK           615
+#define MUS_MANSION_OAK             616
+#define MUS_PORTADA                 617
+#define MUS_ROCAOMBLIGO             618
+#define MUS_VS_ANDRA                619
+#define MUS_VS_ATLAS                620
+#define MUS_VS_AZUL                 621
+#define MUS_VS_LANCE                622
+#define MUS_VS_LUGIA                623
+#define MUS_VS_LUGIA2               624
+#define MUS_VS_OAK                  625
+#define MUS_VS_SECTA                626
+#define MUSSAQUA                    627
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

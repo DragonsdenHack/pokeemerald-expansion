@@ -633,8 +633,56 @@ $(MID_SUBDIR)/mus_vs_rayquaza.s: %.s: %.mid
 $(MID_SUBDIR)/mus_encounter_hiker.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G097 -V076
 
-$(MID_SUBDIR)/mus_encounter_andra.s: %.s: %.mid
+$(MID_SUBDIR)/mus_baseprofunda.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_bw_castillo.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_bw_route10.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_encounter_mirto.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_encounter_oak.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_mansion_oak.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_portada.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_rocaombligo.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_andra.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_atlas.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_azul.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_lance.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_lugia.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_lugia2.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_oak.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mus_vs_secta.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+
+$(MID_SUBDIR)/mussaqua.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
 
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
