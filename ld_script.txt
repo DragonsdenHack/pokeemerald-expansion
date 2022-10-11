@@ -1235,8 +1235,24 @@ SECTIONS {
         sound/songs/midi/ph_cure_solo.o(.rodata);
         sound/songs/midi/ph_nurse_blend.o(.rodata);
         sound/songs/midi/ph_nurse_held.o(.rodata);
-        sound/songs/midi/ph_nurse_solo.o(.rodata);
-        sound/songs/midi/mus_encounter_andra.o(.rodata);
+        sound/songs/midi/ph_nurse_solo.o(.rodata);       
+        sound/songs/midi/mus_baseprofunda.o(.rodata);
+        sound/songs/midi/mus_bw_castillo.o(.rodata);
+        sound/songs/midi/mus_bw_route10.o(.rodata);
+        sound/songs/midi/mus_encounter_mirto.o(.rodata);
+        sound/songs/midi/mus_encounter_oak.o(.rodata);
+        sound/songs/midi/mus_mansion_oak.o(.rodata);
+        sound/songs/midi/mus_portada.o(.rodata);
+        sound/songs/midi/mus_rocaombligo.o(.rodata);
+        sound/songs/midi/mus_vs_andra.o(.rodata);
+        sound/songs/midi/mus_vs_atlas.o(.rodata);
+        sound/songs/midi/mus_vs_azul.o(.rodata);
+        sound/songs/midi/mus_vs_lance.o(.rodata);
+        sound/songs/midi/mus_vs_lugia.o(.rodata);
+        sound/songs/midi/mus_vs_lugia2.o(.rodata);
+        sound/songs/midi/mus_vs_oak.o(.rodata);
+        sound/songs/midi/mus_vs_secta.o(.rodata);
+        sound/songs/midi/mussaqua.o(.rodata);
     } =0
 
     lib_rodata :
