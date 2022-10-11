@@ -468,12 +468,12 @@ Route111_EventScript_RegisterDusty::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route111_Text_DustyRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_ BRUNO_1
+	register_matchcall TRAINER_BRUNO_1
 	release
 	end
 
 Route111_EventScript_RematchDusty::
-	trainerbattle_rematch TRAINER_ BRUNO_1, Route111_Text_DustyRematchIntro, Route111_Text_DustyRematchDefeat
+	trainerbattle_rematch TRAINER_BRUNO_1, Route111_Text_DustyRematchIntro, Route111_Text_DustyRematchDefeat
 	msgbox Route111_Text_DustyPostRematch, MSGBOX_AUTOCLOSE
 	end
 
