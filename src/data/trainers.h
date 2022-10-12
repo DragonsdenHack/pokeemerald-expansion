@@ -8357,7 +8357,7 @@ const struct Trainer gTrainers[] = {
         .party = {.NoItemDefaultMoves = sParty_GruntWeatherInst5},
     },
 
-    [TRAINER_TABITHA_MT_CHIMNEY] =
+    [TRAINER_BRUNO_1_MT_CHIMNEY] =
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_MAGMA_ADMIN,

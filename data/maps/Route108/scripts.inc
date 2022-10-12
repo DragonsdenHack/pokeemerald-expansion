@@ -22,7 +22,7 @@ Route108_EventScript_Missy::
 	end
 
 Route108_EventScript_Carolina::
-	trainerbattle_single TRAINER_CAROLINA, Route108_Text_CarolinaIntro, Route108_Text_CarolinaDefeated
+	trainerbattle_single TRAINER_BRUNO_1, Route108_Text_CarolinaIntro, Route108_Text_CarolinaDefeated
 	msgbox Route108_Text_CarolinaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
