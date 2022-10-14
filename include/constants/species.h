@@ -1440,8 +1440,11 @@
 
 //Other primals and others
 #define SPECIES_AERODACTYL_PRIMAL            FORMS_START + 328
+#define SPECIES_CROBAT_BOND                 FORMS_START + 329
+#define SPECIES_CROBAT2_BOND                 FORMS_START + 330
+#define SPECIES_KABUTOPS_PRIMAL                 FORMS_START + 331
 
-#define SPECIES_EGG SPECIES_CALYREX_SHADOW_RIDER + 1
+#define SPECIES_EGG SPECIES_KABUTOPS_PRIMAL + 1
 #define NUM_SPECIES SPECIES_EGG
 
 // National Dex Index Defines
