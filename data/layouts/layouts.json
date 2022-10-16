@@ -9537,7 +9537,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_seafoam_islands",
+      "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/IcefallCave_BackCave/border.bin",
       "blockdata_filepath": "data/layouts/IcefallCave_BackCave/map.bin"
     },
@@ -13056,6 +13056,42 @@
       "secondary_tileset": "gTileset_sevii_islands_67",
       "border_filepath": "data/layouts/ViasSur5/border.bin",
       "blockdata_filepath": "data/layouts/ViasSur5/map.bin"
+    },
+    {
+      "id": "LAYOUT_ICEFALL_CAVE_LAPRAS",
+      "name": "IcefallCave_Lapras_Layout",
+      "width": 48,
+      "height": 120,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/IcefallCave_Lapras/border.bin",
+      "blockdata_filepath": "data/layouts/IcefallCave_Lapras/map.bin"
+    },
+    {
+      "id": "LAYOUT_BOSQUE_GIMNASIO_ANCIANA",
+      "name": "BosqueGimnasioAnciana_Layout",
+      "width": 60,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Viridian_Forest",
+      "border_filepath": "data/layouts/BosqueGimnasioAnciana/border.bin",
+      "blockdata_filepath": "data/layouts/BosqueGimnasioAnciana/map.bin"
+    },
+    {
+      "id": "LAYOUT_GIMNASIO_ANCIANA",
+      "name": "GimnasioAnciana_Layout",
+      "width": 21,
+      "height": 27,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_fan_club_daycare",
+      "border_filepath": "data/layouts/GimnasioAnciana/border.bin",
+      "blockdata_filepath": "data/layouts/GimnasioAnciana/map.bin"
     }
   ]
 }

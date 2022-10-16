@@ -765,6 +765,9 @@
 #define MAP_AQUA1                             (62 | (34 << 8))
 #define MAP_AQUA2                             (63 | (34 << 8))
 #define MAP_AQUA3                             (64 | (34 << 8))
+#define MAP_ICEFALL_CAVE_LAPRAS               (65 | (34 << 8))
+#define MAP_BOSQUE_GIMNASIO_ANCIANA           (66 | (34 << 8))
+#define MAP_GIMNASIO_ANCIANA                  (67 | (34 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (35 << 8))
@@ -1280,7 +1283,5 @@
 #define MAP_DEVON_S9                                     (45 | (54 << 8))
 
 #define MAP_GROUPS_COUNT 55
-
-// static const u8 MAP_GROUP_COUNT[] = {57, 46, 28, 41, 6, 9, 7, 20, 21, 14, 6, 6, 11, 75, 4, 5, 8, 10, 8, 13, 20, 10, 10, 8, 2, 66, 80, 4, 4, 7, 7, 4, 4, 5, 65, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

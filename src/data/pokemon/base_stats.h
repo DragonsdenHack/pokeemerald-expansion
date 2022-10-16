@@ -28978,12 +28978,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DEOXYS_ATTACK] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 180,
-        .baseDefense   = 20,
+        .baseHP        = 100,
+        .baseAttack    = 20,
+        .baseDefense   = 75,
         .baseSpeed     = 150,
         .baseSpAttack  = 180,
-        .baseSpDefense = 20,
+        .baseSpDefense = 75,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -29003,12 +29003,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DEOXYS_DEFENSE] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 70,
-        .baseDefense   = 160,
-        .baseSpeed     = 90,
+        .baseHP        = 100,
+        .baseAttack    = 20,
+        .baseDefense   = 180,
+        .baseSpeed     = 50,
         .baseSpAttack  = 70,
-        .baseSpDefense = 160,
+        .baseSpDefense = 180,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
         .catchRate = 3,
@@ -29028,11 +29028,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_DEOXYS_SPEED] =
     {
-        .baseHP        = 50,
-        .baseAttack    = 95,
-        .baseDefense   = 90,
+        .baseHP        = 100,
+        .baseAttack    = 20,
+        .baseDefense   = 95,
         .baseSpeed     = 180,
-        .baseSpAttack  = 95,
+        .baseSpAttack  = 125,
         .baseSpDefense = 90,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_PSYCHIC,
@@ -29045,7 +29045,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_PRESSURE, ABILITY_NONE},
+        .abilities = {ABILITY_SPEED_BOOST, ABILITY_SPEED_BOOST},
         .bodyColor = BODY_COLOR_RED,
         .noFlip = TRUE,
     },

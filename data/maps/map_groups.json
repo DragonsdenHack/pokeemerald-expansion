@@ -816,7 +816,10 @@
     "Magma3",
     "Aqua1",
     "Aqua2",
-    "Aqua3"
+    "Aqua3",
+    "IcefallCave_Lapras",
+    "BosqueGimnasioAnciana",
+    "GimnasioAnciana"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",

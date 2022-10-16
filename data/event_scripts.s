@@ -2352,3 +2352,9 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/ViasSur4/scripts.inc"
 
 	.include "data/maps/ViasSur5/scripts.inc"
+
+	.include "data/maps/IcefallCave_Lapras/scripts.inc"
+
+	.include "data/maps/BosqueGimnasioAnciana/scripts.inc"
+
+	.include "data/maps/GimnasioAnciana/scripts.inc"
