@@ -13152,6 +13152,42 @@
       "secondary_tileset": "gTileset_Lab",
       "border_filepath": "data/layouts/Mision7Lab5/border.bin",
       "blockdata_filepath": "data/layouts/Mision7Lab5/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_CINNABAR_ISLAND",
+      "name": "NeoCinnabarIsland_Layout",
+      "width": 40,
+      "height": 36,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_67",
+      "border_filepath": "data/layouts/NeoCinnabarIsland/border.bin",
+      "blockdata_filepath": "data/layouts/NeoCinnabarIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_CINNABAR_PKMN_CENTER",
+      "name": "NeoCinnabarPkmnCenter_Layout",
+      "width": 16,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/NeoCinnabarPkmnCenter/border.bin",
+      "blockdata_filepath": "data/layouts/NeoCinnabarPkmnCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_CINNABAR_VOLCAN",
+      "name": "NeoCinnabarVolcan_Layout",
+      "width": 68,
+      "height": 48,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_mt_ember",
+      "border_filepath": "data/layouts/NeoCinnabarVolcan/border.bin",
+      "blockdata_filepath": "data/layouts/NeoCinnabarVolcan/map.bin"
     }
   ]
 }

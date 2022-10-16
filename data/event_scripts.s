@@ -2368,3 +2368,9 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Mision7Lab4/scripts.inc"
 
 	.include "data/maps/Mision7Lab5/scripts.inc"
+
+	.include "data/maps/NeoCinnabarIsland/scripts.inc"
+
+	.include "data/maps/NeoCinnabarPkmnCenter/scripts.inc"
+
+	.include "data/maps/NeoCinnabarVolcan/scripts.inc"

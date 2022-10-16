@@ -71,35 +71,35 @@
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 0
+      "dest_warp_id": 11
     },
     {
       "x": 9,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 0
+      "dest_warp_id": 10
     },
     {
       "x": 39,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 0
+      "dest_warp_id": 8
     },
     {
       "x": 40,
       "y": 16,
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 0
+      "dest_warp_id": 8
     },
     {
       "x": 9,
       "y": 1,
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 0
+      "dest_warp_id": 7
     },
     {
       "x": 29,
@@ -113,14 +113,14 @@
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 0
+      "dest_warp_id": 9
     },
     {
       "x": 10,
       "y": 8,
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 0
+      "dest_warp_id": 10
     }
   ],
   "coord_events": [
