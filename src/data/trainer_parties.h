@@ -21455,56 +21455,188 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER21[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER22[] = {
     {
     .iv = 0,
-    .lvl = 9,
+    .lvl = 63,
     .species = SPECIES_AIPOM,
+    },
+    {
+    .iv = 0,
+    .lvl = 64,
+    .species = SPECIES_MILTANK,
+    },
+    {
+    .iv = 0,
+    .lvl = 64,
+    .species = SPECIES_TAUROS,
+    },
+    {
+    .iv = 0,
+    .lvl = 65,
+    .species = SPECIES_AMBIPOM,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER23[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 62,
+    .species = SPECIES_FARFETCHD,
+    },
+    {
+    .iv = 0,
+    .lvl = 63,
+    .species = SPECIES_STANTLER,
+    },
+    {
+    .iv = 0,
+    .lvl = 63,
+    .species = SPECIES_GIRAFARIG,
+    },
+    {
+    .iv = 0,
+    .lvl = 63,
+    .species = SPECIES_SAWSBUCK,
+    },
+    {
+    .iv = 0,
+    .lvl = 64,
+    .species = SPECIES_URSARING,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER24[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 64,
+    .species = SPECIES_PIDGEOT,
+    },
+    {
+    .iv = 0,
+    .lvl = 65,
+    .species = SPECIES_KANGASKHAN,
+    },
+    {
+    .iv = 0,
+    .lvl = 66,
+    .species = SPECIES_BLISSEY,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER25[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 62,
+    .species = SPECIES_LICKITUNG,
+    },
+    {
+    .iv = 0,
+    .lvl = 63,
+    .species = SPECIES_FEAROW,
+    },
+    {
+    .iv = 0,
+    .lvl = 63,
+    .species = SPECIES_CHANSEY,
+    },
+    {
+    .iv = 0,
+    .lvl = 63,
+    .species = SPECIES_PERSIAN,
+    },
+    {
+    .iv = 0,
+    .lvl = 63,
+    .species = SPECIES_DUNSPARCE,
+    },
+    {
+    .iv = 0,
+    .lvl = 64,
+    .species = SPECIES_LICKILICKY,
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER26[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER26[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 67,
+    .species = SPECIES_AMBIPOM,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_FAKE_OUT, MOVE_RETURN, MOVE_LOW_KICK, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 0,
+    .lvl = 68,
+    .species = SPECIES_MILTANK,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_BODY_SLAM, MOVE_MILK_DRINK, MOVE_EARTHQUAKE, MOVE_FIRE_PUNCH}
+    },
+    {
+    .iv = 0,
+    .lvl = 68,
+    .species = SPECIES_KANGASKHAN,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 69,
+    .species = SPECIES_SNORLAX,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_BODY_SLAM, MOVE_ZEN_HEADBUTT, MOVE_EARTHQUAKE, MOVE_GIGA_IMPACT}
+    },
+    {
+    .iv = 0,
+    .lvl = 70,
+    .species = SPECIES_STANTLER,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_SHADOW_BALL, MOVE_AURA_SPHERE}
+    },
+    {
+    .iv = 0,
+    .lvl = 71,
+    .species = SPECIES_URSARING,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_EARTHQUAKE, MOVE_BODY_SLAM, MOVE_STONE_EDGE, MOVE_CLOSE_COMBAT}
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER27[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 89,
+    .species = SPECIES_MAGMAR,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_WEEZING,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_NINETALES,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER28[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 88,
+    .species = SPECIES_RATICATE,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_RAPIDASH,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_MUK,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_FLAREON,
     }
 };
 
