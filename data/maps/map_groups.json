@@ -546,7 +546,12 @@
     "CinnabarIsland_Laboratory3",
     "CinnabarIsland_PokemonCenter_1F",
     "CinnabarIsland_School",
-    "CinnabarIsland_Mart"
+    "CinnabarIsland_Mart",
+    "Mision7Lab1",
+    "Mision7Lab2",
+    "Mision7Lab3",
+    "Mision7Lab4",
+    "Mision7Lab5"
   ],
   "gMapGroup_IndoorIndigoPlateau": [
     "IndigoPlateau_PokemonCenter_1F",

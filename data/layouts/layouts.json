@@ -13092,6 +13092,66 @@
       "secondary_tileset": "gTileset_fan_club_daycare",
       "border_filepath": "data/layouts/GimnasioAnciana/border.bin",
       "blockdata_filepath": "data/layouts/GimnasioAnciana/map.bin"
+    },
+    {
+      "id": "LAYOUT_MISION7LAB1",
+      "name": "Mision7Lab1_Layout",
+      "width": 28,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/Mision7Lab1/border.bin",
+      "blockdata_filepath": "data/layouts/Mision7Lab1/map.bin"
+    },
+    {
+      "id": "LAYOUT_MISION7LAB2",
+      "name": "Mision7Lab2_Layout",
+      "width": 15,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/Mision7Lab2/border.bin",
+      "blockdata_filepath": "data/layouts/Mision7Lab2/map.bin"
+    },
+    {
+      "id": "LAYOUT_MISION7LAB3",
+      "name": "Mision7Lab3_Layout",
+      "width": 32,
+      "height": 32,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_mansion",
+      "border_filepath": "data/layouts/Mision7Lab3/border.bin",
+      "blockdata_filepath": "data/layouts/Mision7Lab3/map.bin"
+    },
+    {
+      "id": "LAYOUT_MISION7LAB4",
+      "name": "Mision7Lab4_Layout",
+      "width": 54,
+      "height": 50,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Mision7Lab4/border.bin",
+      "blockdata_filepath": "data/layouts/Mision7Lab4/map.bin"
+    },
+    {
+      "id": "LAYOUT_MISION7LAB5",
+      "name": "Mision7Lab5_Layout",
+      "width": 50,
+      "height": 50,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/Mision7Lab5/border.bin",
+      "blockdata_filepath": "data/layouts/Mision7Lab5/map.bin"
     }
   ]
 }

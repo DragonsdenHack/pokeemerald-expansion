@@ -2358,3 +2358,13 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/BosqueGimnasioAnciana/scripts.inc"
 
 	.include "data/maps/GimnasioAnciana/scripts.inc"
+
+	.include "data/maps/Mision7Lab1/scripts.inc"
+
+	.include "data/maps/Mision7Lab2/scripts.inc"
+
+	.include "data/maps/Mision7Lab3/scripts.inc"
+
+	.include "data/maps/Mision7Lab4/scripts.inc"
+
+	.include "data/maps/Mision7Lab5/scripts.inc"

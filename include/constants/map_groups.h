@@ -495,6 +495,11 @@
 #define MAP_CINNABAR_ISLAND_POKEMON_CENTER_1F (5 | (23 << 8))
 #define MAP_CINNABAR_ISLAND_SCHOOL            (6 | (23 << 8))
 #define MAP_CINNABAR_ISLAND_MART              (7 | (23 << 8))
+#define MAP_MISION7LAB1                       (8 | (23 << 8))
+#define MAP_MISION7LAB2                       (9 | (23 << 8))
+#define MAP_MISION7LAB3                       (10 | (23 << 8))
+#define MAP_MISION7LAB4                       (11 | (23 << 8))
+#define MAP_MISION7LAB5                       (12 | (23 << 8))
 
 // gMapGroup_IndoorIndigoPlateau
 #define MAP_INDIGO_PLATEAU_POKEMON_CENTER_1F (0 | (24 << 8))
@@ -1284,6 +1289,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {57, 46, 28, 41, 6, 9, 7, 20, 21, 14, 6, 6, 11, 75, 4, 5, 8, 10, 8, 13, 20, 10, 10, 8, 2, 66, 80, 4, 4, 7, 7, 4, 4, 5, 68, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
+// static const u8 MAP_GROUP_COUNT[] = {57, 46, 28, 41, 6, 9, 7, 20, 21, 14, 6, 6, 11, 75, 4, 5, 8, 10, 8, 13, 20, 10, 10, 13, 2, 66, 80, 4, 4, 7, 7, 4, 4, 5, 68, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H
