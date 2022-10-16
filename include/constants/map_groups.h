@@ -439,6 +439,7 @@
 #define MAP_LAVENDER_RADIO_P4               (10 | (19 << 8))
 #define MAP_LAVENDER_RADIO_P5               (11 | (19 << 8))
 #define MAP_LAVENDER_RADIO_P6               (12 | (19 << 8))
+#define MAP_NEO_LAVANDA_PUEBLO              (13 | (19 << 8))
 
 // gMapGroup_IndoorCeladonCity
 #define MAP_CELADON_CITY_SHOP_1F           (0 | (20 << 8))
@@ -1292,6 +1293,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {57, 46, 28, 41, 6, 9, 7, 20, 21, 14, 6, 6, 11, 75, 4, 5, 8, 10, 8, 13, 20, 10, 10, 16, 2, 66, 80, 4, 4, 7, 7, 4, 4, 5, 68, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
+// static const u8 MAP_GROUP_COUNT[] = {57, 46, 28, 41, 6, 9, 7, 20, 21, 14, 6, 6, 11, 75, 4, 5, 8, 10, 8, 14, 20, 10, 10, 16, 2, 66, 80, 4, 4, 7, 7, 4, 4, 5, 68, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

@@ -13188,6 +13188,18 @@
       "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/NeoCinnabarVolcan/border.bin",
       "blockdata_filepath": "data/layouts/NeoCinnabarVolcan/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_PUEBLO",
+      "name": "NeoLavandaPueblo_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/NeoLavandaPueblo/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaPueblo/map.bin"
     }
   ]
 }
