@@ -491,7 +491,13 @@
     "LavenderRadioP4",
     "LavenderRadioP5",
     "LavenderRadioP6",
-    "NeoLavandaPueblo"
+    "NeoLavandaPueblo",
+    "NeoLavandaPkmnCenter",
+    "NeoLavandaTienda",
+    "NeoLavandaCasa1",
+    "NeoLavandaCasa2",
+    "NeoLavandaCasa3",
+    "NeoLavandaCementerio"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",

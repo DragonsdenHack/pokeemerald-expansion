@@ -2376,3 +2376,15 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/NeoCinnabarVolcan/scripts.inc"
 
 	.include "data/maps/NeoLavandaPueblo/scripts.inc"
+
+	.include "data/maps/NeoLavandaPkmnCenter/scripts.inc"
+
+	.include "data/maps/NeoLavandaTienda/scripts.inc"
+
+	.include "data/maps/NeoLavandaCasa1/scripts.inc"
+
+	.include "data/maps/NeoLavandaCasa2/scripts.inc"
+
+	.include "data/maps/NeoLavandaCasa3/scripts.inc"
+
+	.include "data/maps/NeoLavandaCementerio/scripts.inc"

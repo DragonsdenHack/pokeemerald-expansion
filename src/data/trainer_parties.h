@@ -21643,24 +21643,84 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER28[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER29[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 89,
+    .species = SPECIES_DITTO,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_OMASTAR,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_KABUTOPS,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_DRAGONITE,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER30[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 88,
+    .species = SPECIES_PERSIAN,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_RAICHU,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_ARBOK,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_RHYDON,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_MAGMORTAR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER31[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 88,
+    .species = SPECIES_MAGNETON,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_MR_MIME,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_KINGLER,
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_PORYGON2,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_ALAKAZAM,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_ELECTIVIRE,
     }
 };
 

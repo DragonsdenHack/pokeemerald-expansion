@@ -13200,6 +13200,78 @@
       "secondary_tileset": "gTileset_saffron_city",
       "border_filepath": "data/layouts/NeoLavandaPueblo/border.bin",
       "blockdata_filepath": "data/layouts/NeoLavandaPueblo/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_PKMN_CENTER",
+      "name": "NeoLavandaPkmnCenter_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/NeoLavandaPkmnCenter/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaPkmnCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_TIENDA",
+      "name": "NeoLavandaTienda_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_mart_fr",
+      "border_filepath": "data/layouts/NeoLavandaTienda/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaTienda/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_CASA1",
+      "name": "NeoLavandaCasa1_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/NeoLavandaCasa1/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaCasa1/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_CASA2",
+      "name": "NeoLavandaCasa2_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/NeoLavandaCasa2/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaCasa2/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_CASA3",
+      "name": "NeoLavandaCasa3_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonSchool",
+      "border_filepath": "data/layouts/NeoLavandaCasa3/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaCasa3/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_CEMENTERIO",
+      "name": "NeoLavandaCementerio_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/NeoLavandaCementerio/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaCementerio/map.bin"
     }
   ]
 }

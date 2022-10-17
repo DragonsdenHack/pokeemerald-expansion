@@ -63,8 +63,8 @@
       "x": 11,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_MISION7LAB5",
-      "dest_warp_id": 0
+      "dest_map": "MAP_MISION7LAB1",
+      "dest_warp_id": 4
     },
     {
       "x": 40,
@@ -93,6 +93,13 @@
       "elevation": 0,
       "dest_map": "MAP_MISION7LAB5",
       "dest_warp_id": 7
+    },
+    {
+      "x": 47,
+      "y": 24,
+      "elevation": 0,
+      "dest_map": "MAP_MISION7LAB4",
+      "dest_warp_id": 12
     }
   ],
   "coord_events": [

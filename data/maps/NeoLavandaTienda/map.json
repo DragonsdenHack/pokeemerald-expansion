@@ -1,9 +1,9 @@
 {
-  "id": "MAP_MISION7LAB2",
-  "name": "Mision7Lab2",
-  "layout": "LAYOUT_MISION7LAB2",
-  "music": "1",
-  "region_map_section": "MAPSEC_CINNABAR_ISLAND",
+  "id": "MAP_NEO_LAVANDA_TIENDA",
+  "name": "NeoLavandaTienda",
+  "layout": "LAYOUT_NEO_LAVANDA_TIENDA",
+  "music": "2",
+  "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -15,11 +15,11 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_LADRONJOHTO",
-      "x": 10,
-      "y": 9,
+      "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
+      "x": 2,
+      "y": 3,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -30,18 +30,25 @@
   ],
   "warp_events": [
     {
-      "x": 7,
-      "y": 16,
+      "x": 4,
+      "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_MISION7LAB3",
+      "dest_map": "MAP_NEO_LAVANDA_PUEBLO",
+      "dest_warp_id": 6
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_TIENDA",
       "dest_warp_id": 0
     },
     {
-      "x": 2,
-      "y": 1,
+      "x": 3,
+      "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_MISION7LAB4",
-      "dest_warp_id": 6
+      "dest_map": "MAP_NEO_LAVANDA_TIENDA",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

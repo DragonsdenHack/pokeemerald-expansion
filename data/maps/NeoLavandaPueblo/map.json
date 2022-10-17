@@ -17,7 +17,55 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 18,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_CEMENTERIO",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_CASA3",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_CASA2",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_CASA1",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_PKMN_CENTER",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 18,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_RADIO",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_TIENDA",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 
