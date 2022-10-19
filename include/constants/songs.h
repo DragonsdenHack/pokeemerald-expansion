@@ -490,7 +490,7 @@
 #define MUS_RG_TRAINER_TOWER        556 // MUS_RG_T_TOWER
 #define MUS_RG_SLOW_PALLET          557 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
-#define END_MUS                     MUSSAQUA
+#define END_MUS                     MUS_BASEPROFUNDA
 
 #define PH_TRAP_BLEND               559
 #define PH_TRAP_HELD                560
@@ -544,7 +544,7 @@
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
 /// nuevas canciones
-#define MUS_BATTLE_ZEUS             610
+#define MUS_ENCOUNTER_ANDRA         610
 #define MUS_BASEPROFUNDA            611
 #define MUS_BW_CASTILLO             612
 #define MUS_BW_ROUTE10              613
