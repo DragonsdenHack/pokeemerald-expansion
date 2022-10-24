@@ -2392,3 +2392,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/NeoLavandaCementerioS1/scripts.inc"
 
 	.include "data/maps/NeoLavandaCementerioS2/scripts.inc"
+
+	.include "data/maps/NeoPowerPlant/scripts.inc"

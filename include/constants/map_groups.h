@@ -666,6 +666,7 @@
 #define MAP_SILPH_S3                (77 | (26 << 8))
 #define MAP_CINNABAR_MANSION_S1     (78 | (26 << 8))
 #define MAP_CINNABAR_MANSION_S2     (79 | (26 << 8))
+#define MAP_NEO_POWER_PLANT         (80 | (26 << 8))
 
 // gMapGroup_IndoorOneIsland
 #define MAP_ONE_ISLAND_POKEMON_CENTER_1F (0 | (27 << 8))
@@ -1301,6 +1302,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {57, 46, 28, 41, 6, 9, 7, 20, 21, 14, 6, 6, 11, 75, 4, 5, 8, 10, 8, 22, 20, 10, 10, 16, 2, 66, 80, 4, 4, 7, 7, 4, 4, 5, 68, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
+// static const u8 MAP_GROUP_COUNT[] = {57, 46, 28, 41, 6, 9, 7, 20, 21, 14, 6, 6, 11, 75, 4, 5, 8, 10, 8, 22, 20, 10, 10, 16, 2, 66, 81, 4, 4, 7, 7, 4, 4, 5, 68, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

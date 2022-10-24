@@ -13296,6 +13296,18 @@
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/NeoLavandaCementerioS2/border.bin",
       "blockdata_filepath": "data/layouts/NeoLavandaCementerioS2/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_POWER_PLANT",
+      "name": "NeoPowerPlant_Layout",
+      "width": 23,
+      "height": 24,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/NeoPowerPlant/border.bin",
+      "blockdata_filepath": "data/layouts/NeoPowerPlant/map.bin"
     }
   ]
 }
