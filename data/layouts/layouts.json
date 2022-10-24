@@ -13272,6 +13272,30 @@
       "secondary_tileset": "gTileset_pokemon_tower",
       "border_filepath": "data/layouts/NeoLavandaCementerio/border.bin",
       "blockdata_filepath": "data/layouts/NeoLavandaCementerio/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_CEMENTERIO_S1",
+      "name": "NeoLavandaCementerioS1_Layout",
+      "width": 57,
+      "height": 54,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/NeoLavandaCementerioS1/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaCementerioS1/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_CEMENTERIO_S2",
+      "name": "NeoLavandaCementerioS2_Layout",
+      "width": 63,
+      "height": 47,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_tower",
+      "border_filepath": "data/layouts/NeoLavandaCementerioS2/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavandaCementerioS2/map.bin"
     }
   ]
 }

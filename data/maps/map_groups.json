@@ -497,7 +497,9 @@
     "NeoLavandaCasa1",
     "NeoLavandaCasa2",
     "NeoLavandaCasa3",
-    "NeoLavandaCementerio"
+    "NeoLavandaCementerio",
+    "NeoLavandaCementerioS1",
+    "NeoLavandaCementerioS2"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",

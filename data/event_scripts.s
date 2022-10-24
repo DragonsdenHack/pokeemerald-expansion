@@ -2388,3 +2388,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/NeoLavandaCasa3/scripts.inc"
 
 	.include "data/maps/NeoLavandaCementerio/scripts.inc"
+
+	.include "data/maps/NeoLavandaCementerioS1/scripts.inc"
+
+	.include "data/maps/NeoLavandaCementerioS2/scripts.inc"

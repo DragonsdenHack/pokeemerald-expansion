@@ -21727,64 +21727,216 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER31[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER32[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 93,
+    .species = SPECIES_CROBAT,
+    },
+    {
+    .iv = 0,
+    .lvl = 92,
+    .species = SPECIES_MAROWAK,
+    },
+    {
+    .iv = 0,
+    .lvl = 93,
+    .species = SPECIES_GENGAR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER33[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 90,
+    .species = SPECIES_GOLBAT,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_ARBOK,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_MAROWAK,
+    },
+    {
+    .iv = 0,
+    .lvl = 92,
+    .species = SPECIES_VENUSAUR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER34[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 90,
+    .species = SPECIES_MISDREAVUS,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_GOLBAT,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_ARBOK,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_HYPNO,
+    },
+    {
+    .iv = 0,
+    .lvl = 92,
+    .species = SPECIES_MISMAGIUS,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER35[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 92,
+    .species = SPECIES_MAROWAK,
+    },
+    {
+    .iv = 0,
+    .lvl = 93,
+    .species = SPECIES_MAROWAK_ALOLAN,
+    },
+    {
+    .iv = 0,
+    .lvl = 94,
+    .species = SPECIES_GENGAR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER36[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 89,
+    .species = SPECIES_HAUNTER,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_GOLBAT,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_MR_MIME,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_CLEFABLE,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_EXEGGUTOR,
+    },
+    {
+    .iv = 0,
+    .lvl = 92,
+    .species = SPECIES_GENGAR,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER37[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 92,
+    .species = SPECIES_MISMAGIUS,
+    },
+    {
+    .iv = 0,
+    .lvl = 93,
+    .species = SPECIES_HONCHKROW,
+    },
+    {
+    .iv = 0,
+    .lvl = 94,
+    .species = SPECIES_CROBAT,
     }
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER38[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 89,
+    .species = SPECIES_MURKROW,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_MAROWAK,
+    },
+    {
+    .iv = 0,
+    .lvl = 90,
+    .species = SPECIES_HYPNO,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_NINETALES,
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_MAROWAK_ALOLAN,
+    },
+    {
+    .iv = 0,
+    .lvl = 92,
+    .species = SPECIES_CROBAT,
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER39[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER39[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_AIPOM,
+    .lvl = 94,
+    .species = SPECIES_HERACROSS,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_MEGAHORN, MOVE_STONE_EDGE, MOVE_CLOSE_COMBAT, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_ALAKAZAM,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_DAZZLING_GLEAM, MOVE_FOCUS_BLAST}
+    },
+    {
+    .iv = 0,
+    .lvl = 96,
+    .species = SPECIES_ARCANINE,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_FLARE_BLITZ, MOVE_EXTREME_SPEED, MOVE_WILD_CHARGE, MOVE_OUTRAGE}
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_EXEGGUTOR,
+    .heldItem = ITEM_GRASSIUM_Z,
+    .moves = {MOVE_PSYCHIC, MOVE_LEAF_STORM, MOVE_TRICK_ROOM, MOVE_DRAGON_PULSE}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_TYRANITAR,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_CRUNCH, MOVE_STONE_EDGE, MOVE_DRAGON_CLAW, MOVE_PURSUIT}
+    },
+    {
+    .iv = 0,
+    .lvl = 99,
+    .species = SPECIES_BLASTOISE,
+    .heldItem = ITEM_BLASTOISINITE,
+    .moves = {MOVE_WATER_PULSE, MOVE_AURA_SPHERE, MOVE_DARK_PULSE, MOVE_ICE_BEAM}
     }
 };
 
