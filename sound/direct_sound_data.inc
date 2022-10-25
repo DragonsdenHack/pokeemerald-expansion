@@ -386,6 +386,597 @@ DirectSoundWaveData_unknown_16::
 DirectSoundWaveData_unknown_17::
 	.incbin "sound/direct_sound_samples/unknown_17.bin"
 
+@@NUEVOS INSTRUMENTOS
+
+	.align 2
+DirectSoundWaveData_55776c::
+	.incbin "sound/direct_sound_samples/55776c.bin"
+
+	.align 2
+DirectSoundWaveData_55514c::
+	.incbin "sound/direct_sound_samples/55514c.bin"
+
+	.align 2
+DirectSoundWaveData_5085d4::
+	.incbin "sound/direct_sound_samples/5085d4.bin"
+
+	.align 2
+DirectSoundWaveData_50bbe8::
+	.incbin "sound/direct_sound_samples/50bbe8.bin"
+
+	.align 2
+DirectSoundWaveData_5590cc::
+	.incbin "sound/direct_sound_samples/5590cc.bin"
+
+	.align 2
+DirectSoundWaveData_55a590::
+	.incbin "sound/direct_sound_samples/55a590.bin"
+
+	.align 2
+DirectSoundWaveData_55accc::
+	.incbin "sound/direct_sound_samples/55accc.bin"
+
+	.align 2
+DirectSoundWaveData_555b58::
+	.incbin "sound/direct_sound_samples/555b58.bin"
+
+	.align 2
+DirectSoundWaveData_55c8bc::
+	.incbin "sound/direct_sound_samples/55c8bc.bin"
+
+	.align 2
+DirectSoundWaveData_55dc70::
+	.incbin "sound/direct_sound_samples/55dc70.bin"
+
+	.align 2
+DirectSoundWaveData_519360::
+	.incbin "sound/direct_sound_samples/519360.bin"
+
+	.align 2
+DirectSoundWaveData_5602f4::
+	.incbin "sound/direct_sound_samples/5602f4.bin"
+
+	.align 2
+DirectSoundWaveData_561538::
+	.incbin "sound/direct_sound_samples/561538.bin"
+
+	.align 2
+DirectSoundWaveData_5183dc::
+	.incbin "sound/direct_sound_samples/5183dc.bin"
+
+	.align 2
+DirectSoundWaveData_562548::
+	.incbin "sound/direct_sound_samples/562548.bin"
+
+	.align 2
+DirectSoundWaveData_563850::
+	.incbin "sound/direct_sound_samples/563850.bin"
+
+	.align 2
+DirectSoundWaveData_56595c::
+	.incbin "sound/direct_sound_samples/56595c.bin"
+
+	.align 2
+DirectSoundWaveData_509470::
+	.incbin "sound/direct_sound_samples/509470.bin"
+
+	.align 2
+DirectSoundWaveData_50af74::
+	.incbin "sound/direct_sound_samples/50af74.bin"
+
+	.align 2
+DirectSoundWaveData_567938::
+	.incbin "sound/direct_sound_samples/567938.bin"
+
+	.align 2
+DirectSoundWaveData_569b48::
+	.incbin "sound/direct_sound_samples/569b48.bin"
+
+	.align 2
+DirectSoundWaveData_56a314::
+	.incbin "sound/direct_sound_samples/56a314.bin"
+
+	.align 2
+DirectSoundWaveData_51ac18::
+	.incbin "sound/direct_sound_samples/51ac18.bin"
+
+	.align 2
+DirectSoundWaveData_56bc84::
+	.incbin "sound/direct_sound_samples/56bc84.bin"
+
+	.align 2
+DirectSoundWaveData_56dc34::
+	.incbin "sound/direct_sound_samples/56dc34.bin"
+
+	.align 2
+DirectSoundWaveData_570f14::
+	.incbin "sound/direct_sound_samples/570f14.bin"
+
+	.align 2
+DirectSoundWaveData_571944::
+	.incbin "sound/direct_sound_samples/571944.bin"
+
+	.align 2
+DirectSoundWaveData_51df88::
+	.incbin "sound/direct_sound_samples/51df88.bin"
+
+	.align 2
+DirectSoundWaveData_50a03c::
+	.incbin "sound/direct_sound_samples/50a03c.bin"
+
+	.align 2
+DirectSoundWaveData_518ad0::
+	.incbin "sound/direct_sound_samples/518ad0.bin"
+
+	.align 2
+DirectSoundWaveData_572378::
+	.incbin "sound/direct_sound_samples/572378.bin"
+
+	.align 2
+DirectSoundWaveData_54ef78::
+	.incbin "sound/direct_sound_samples/54ef78.bin"
+
+	.align 2
+DirectSoundWaveData_573eb8::
+	.incbin "sound/direct_sound_samples/573eb8.bin"
+
+	.align 2
+DirectSoundWaveData_574780::
+	.incbin "sound/direct_sound_samples/574780.bin"
+
+	.align 2
+DirectSoundWaveData_519bd8::
+	.incbin "sound/direct_sound_samples/519bd8.bin"
+
+	.align 2
+DirectSoundWaveData_53c884::
+	.incbin "sound/direct_sound_samples/53c884.bin"
+
+	.align 2
+DirectSoundWaveData_575b50::
+	.incbin "sound/direct_sound_samples/575b50.bin"
+
+	.align 2
+DirectSoundWaveData_577890::
+	.incbin "sound/direct_sound_samples/577890.bin"
+
+	.align 2
+DirectSoundWaveData_579800::
+	.incbin "sound/direct_sound_samples/579800.bin"
+
+	.align 2
+DirectSoundWaveData_57b670::
+	.incbin "sound/direct_sound_samples/57b670.bin"
+
+	.align 2
+DirectSoundWaveData_57e660::
+	.incbin "sound/direct_sound_samples/57e660.bin"
+
+	.align 2
+DirectSoundWaveData_5812b4::
+	.incbin "sound/direct_sound_samples/5812b4.bin"
+
+	.align 2
+DirectSoundWaveData_583bfc::
+	.incbin "sound/direct_sound_samples/583bfc.bin"
+
+	.align 2
+DirectSoundWaveData_58535c::
+	.incbin "sound/direct_sound_samples/58535c.bin"
+
+	.align 2
+DirectSoundWaveData_585ac0::
+	.incbin "sound/direct_sound_samples/585ac0.bin"
+
+	.align 2
+DirectSoundWaveData_586cc4::
+	.incbin "sound/direct_sound_samples/586cc4.bin"
+
+	.align 2
+DirectSoundWaveData_587fc4::
+	.incbin "sound/direct_sound_samples/587fc4.bin"
+
+	.align 2
+DirectSoundWaveData_588d3c::
+	.incbin "sound/direct_sound_samples/588d3c.bin"
+
+	.align 2
+DirectSoundWaveData_58c2ac::
+	.incbin "sound/direct_sound_samples/58c2ac.bin"
+
+	.align 2
+DirectSoundWaveData_58d70c::
+	.incbin "sound/direct_sound_samples/58d70c.bin"
+
+	.align 2
+DirectSoundWaveData_58e21c::
+	.incbin "sound/direct_sound_samples/58e21c.bin"
+
+	.align 2
+DirectSoundWaveData_5906c4::
+	.incbin "sound/direct_sound_samples/5906c4.bin"
+
+	.align 2
+DirectSoundWaveData_592240::
+	.incbin "sound/direct_sound_samples/592240.bin"
+
+	.align 2
+DirectSoundWaveData_59290c::
+	.incbin "sound/direct_sound_samples/59290c.bin"
+
+	.align 2
+DirectSoundWaveData_593d94::
+	.incbin "sound/direct_sound_samples/593d94.bin"
+
+	.align 2
+DirectSoundWaveData_5948b4::
+	.incbin "sound/direct_sound_samples/5948b4.bin"
+
+	.align 2
+DirectSoundWaveData_595890::
+	.incbin "sound/direct_sound_samples/595890.bin"
+
+	.align 2
+DirectSoundWaveData_597034::
+	.incbin "sound/direct_sound_samples/597034.bin"
+
+	.align 2
+DirectSoundWaveData_59c4dc::
+	.incbin "sound/direct_sound_samples/59c4dc.bin"
+
+	.align 2
+DirectSoundWaveData_59cf8c::
+	.incbin "sound/direct_sound_samples/59cf8c.bin"
+
+	.align 2
+DirectSoundWaveData_54226c::
+	.incbin "sound/direct_sound_samples/54226c.bin"
+
+	.align 2
+DirectSoundWaveData_5435bc::
+	.incbin "sound/direct_sound_samples/5435bc.bin"
+
+	.align 2
+DirectSoundWaveData_544acc::
+	.incbin "sound/direct_sound_samples/544acc.bin"
+
+	.align 2
+DirectSoundWaveData_59e310::
+	.incbin "sound/direct_sound_samples/59e310.bin"
+
+	.align 2
+DirectSoundWaveData_59e95c::
+	.incbin "sound/direct_sound_samples/59e95c.bin"
+
+	.align 2
+DirectSoundWaveData_59f378::
+	.incbin "sound/direct_sound_samples/59f378.bin"
+
+	.align 2
+DirectSoundWaveData_5a46d8::
+	.incbin "sound/direct_sound_samples/5a46d8.bin"
+
+	.align 2
+DirectSoundWaveData_5ac57c::
+	.incbin "sound/direct_sound_samples/5ac57c.bin"
+
+	.align 2
+DirectSoundWaveData_5ad598::
+	.incbin "sound/direct_sound_samples/5ad598.bin"
+
+	.align 2
+DirectSoundWaveData_5ae0e4::
+	.incbin "sound/direct_sound_samples/5ae0e4.bin"
+
+	.align 2
+DirectSoundWaveData_5aec84::
+	.incbin "sound/direct_sound_samples/5aec84.bin"
+
+	.align 2
+DirectSoundWaveData_5b241c::
+	.incbin "sound/direct_sound_samples/5b241c.bin"
+
+	.align 2
+DirectSoundWaveData_5b4ec4::
+	.incbin "sound/direct_sound_samples/5b4ec4.bin"
+
+	.align 2
+DirectSoundWaveData_5b9cd4::
+	.incbin "sound/direct_sound_samples/5b9cd4.bin"
+
+	.align 2
+DirectSoundWaveData_5bb988::
+	.incbin "sound/direct_sound_samples/5bb988.bin"
+
+	.align 2
+DirectSoundWaveData_5be7a4::
+	.incbin "sound/direct_sound_samples/5be7a4.bin"
+
+	.align 2
+DirectSoundWaveData_5bfaac::
+	.incbin "sound/direct_sound_samples/5bfaac.bin"
+
+	.align 2
+DirectSoundWaveData_5c2cd4::
+	.incbin "sound/direct_sound_samples/5c2cd4.bin"
+
+	.align 2
+DirectSoundWaveData_5c51f0::
+	.incbin "sound/direct_sound_samples/5c51f0.bin"
+
+	.align 2
+DirectSoundWaveData_5c6f80::
+	.incbin "sound/direct_sound_samples/5c6f80.bin"
+
+	.align 2
+DirectSoundWaveData_5c9660::
+	.incbin "sound/direct_sound_samples/5c9660.bin"
+
+	.align 2
+DirectSoundWaveData_5cba04::
+	.incbin "sound/direct_sound_samples/5cba04.bin"
+
+	.align 2
+DirectSoundWaveData_5cc294::
+	.incbin "sound/direct_sound_samples/5cc294.bin"
+
+	.align 2
+DirectSoundWaveData_5ccc58::
+	.incbin "sound/direct_sound_samples/5ccc58.bin"
+
+	.align 2
+DirectSoundWaveData_5cde78::
+	.incbin "sound/direct_sound_samples/5cde78.bin"
+
+	.align 2
+DirectSoundWaveData_5d0f04::
+	.incbin "sound/direct_sound_samples/5d0f04.bin"
+
+	.align 2
+DirectSoundWaveData_5d213c::
+	.incbin "sound/direct_sound_samples/5d213c.bin"
+
+	.align 2
+DirectSoundWaveData_5d2f90::
+	.incbin "sound/direct_sound_samples/5d2f90.bin"
+
+	.align 2
+DirectSoundWaveData_5d5410::
+	.incbin "sound/direct_sound_samples/5d5410.bin"
+
+	.align 2
+DirectSoundWaveData_5d700c::
+	.incbin "sound/direct_sound_samples/5d700c.bin"
+
+	.align 2
+DirectSoundWaveData_5d8820::
+	.incbin "sound/direct_sound_samples/5d8820.bin"
+
+	.align 2
+DirectSoundWaveData_5daaec::
+	.incbin "sound/direct_sound_samples/5daaec.bin"
+
+	.align 2
+DirectSoundWaveData_5dcf2c::
+	.incbin "sound/direct_sound_samples/5dcf2c.bin"
+
+	.align 2
+DirectSoundWaveData_5e22c4::
+	.incbin "sound/direct_sound_samples/5e22c4.bin"
+
+	.align 2
+DirectSoundWaveData_5e6134::
+	.incbin "sound/direct_sound_samples/5e6134.bin"
+
+	.align 2
+DirectSoundWaveData_5e7d44::
+	.incbin "sound/direct_sound_samples/5e7d44.bin"
+
+	.align 2
+DirectSoundWaveData_5e974c::
+	.incbin "sound/direct_sound_samples/5e974c.bin"
+
+	.align 2
+DirectSoundWaveData_5ecbd4::
+	.incbin "sound/direct_sound_samples/5ecbd4.bin"
+
+	.align 2
+DirectSoundWaveData_5ef6e0::
+	.incbin "sound/direct_sound_samples/5ef6e0.bin"
+
+	.align 2
+DirectSoundWaveData_5f4974::
+	.incbin "sound/direct_sound_samples/5f4974.bin"
+
+	.align 2
+DirectSoundWaveData_5f6eb8::
+	.incbin "sound/direct_sound_samples/5f6eb8.bin"
+
+	.align 2
+DirectSoundWaveData_5392e0::
+	.incbin "sound/direct_sound_samples/5392e0.bin"
+
+	.align 2
+DirectSoundWaveData_53eba0::
+	.incbin "sound/direct_sound_samples/53eba0.bin"
+
+	.align 2
+DirectSoundWaveData_51cdf0::
+	.incbin "sound/direct_sound_samples/51cdf0.bin"
+
+	.align 2
+DirectSoundWaveData_51d6a4::
+	.incbin "sound/direct_sound_samples/51d6a4.bin"
+
+	.align 2
+DirectSoundWaveData_52bb2c::
+	.incbin "sound/direct_sound_samples/52bb2c.bin"
+
+	.align 2
+DirectSoundWaveData_52c4e4::
+	.incbin "sound/direct_sound_samples/52c4e4.bin"
+
+	.align 2
+DirectSoundWaveData_51eeb4::
+	.incbin "sound/direct_sound_samples/51eeb4.bin"
+
+	.align 2
+DirectSoundWaveData_51f3cc::
+	.incbin "sound/direct_sound_samples/51f3cc.bin"
+
+	.align 2
+DirectSoundWaveData_52d364::
+	.incbin "sound/direct_sound_samples/52d364.bin"
+
+	.align 2
+DirectSoundWaveData_52e1d8::
+	.incbin "sound/direct_sound_samples/52e1d8.bin"
+
+	.align 2
+DirectSoundWaveData_52f9ec::
+	.incbin "sound/direct_sound_samples/52f9ec.bin"
+
+	.align 2
+DirectSoundWaveData_530f90::
+	.incbin "sound/direct_sound_samples/530f90.bin"
+
+	.align 2
+DirectSoundWaveData_532574::
+	.incbin "sound/direct_sound_samples/532574.bin"
+
+	.align 2
+DirectSoundWaveData_533668::
+	.incbin "sound/direct_sound_samples/533668.bin"
+
+	.align 2
+DirectSoundWaveData_533f60::
+	.incbin "sound/direct_sound_samples/533f60.bin"
+
+	.align 2
+DirectSoundWaveData_5208ac::
+	.incbin "sound/direct_sound_samples/5208ac.bin"
+
+	.align 2
+DirectSoundWaveData_522220::
+	.incbin "sound/direct_sound_samples/522220.bin"
+
+	.align 2
+DirectSoundWaveData_5242fc::
+	.incbin "sound/direct_sound_samples/5242fc.bin"
+
+	.align 2
+DirectSoundWaveData_515338::
+	.incbin "sound/direct_sound_samples/515338.bin"
+
+	.align 2
+DirectSoundWaveData_516c14::
+	.incbin "sound/direct_sound_samples/516c14.bin"
+
+	.align 2
+DirectSoundWaveData_51f994::
+	.incbin "sound/direct_sound_samples/51f994.bin"
+
+	.align 2
+DirectSoundWaveData_534c38::
+	.incbin "sound/direct_sound_samples/534c38.bin"
+
+	.align 2
+DirectSoundWaveData_535b98::
+	.incbin "sound/direct_sound_samples/535b98.bin"
+
+	.align 2
+DirectSoundWaveData_5371f8::
+	.incbin "sound/direct_sound_samples/5371f8.bin"
+
+	.align 2
+DirectSoundWaveData_538754::
+	.incbin "sound/direct_sound_samples/538754.bin"
+
+	.align 2
+DirectSoundWaveData_5f9f5c::
+	.incbin "sound/direct_sound_samples/5f9f5c.bin"
+
+	.align 2
+DirectSoundWaveData_5fbce8::
+	.incbin "sound/direct_sound_samples/5fbce8.bin"
+
+	.align 2
+DirectSoundWaveData_5ff8c0::
+	.incbin "sound/direct_sound_samples/5ff8c0.bin"
+
+	.align 2
+DirectSoundWaveData_601f28::
+	.incbin "sound/direct_sound_samples/601f28.bin"
+
+	.align 2
+DirectSoundWaveData_508c78::
+	.incbin "sound/direct_sound_samples/508c78.bin"
+
+	.align 2
+DirectSoundWaveData_545eec::
+	.incbin "sound/direct_sound_samples/545eec.bin"
+
+	.align 2
+DirectSoundWaveData_546f88::
+	.incbin "sound/direct_sound_samples/546f88.bin"
+
+	.align 2
+DirectSoundWaveData_547fe4::
+	.incbin "sound/direct_sound_samples/547fe4.bin"
+
+	.align 2
+DirectSoundWaveData_50e768::
+	.incbin "sound/direct_sound_samples/50e768.bin"
+
+	.align 2
+DirectSoundWaveData_50faac::
+	.incbin "sound/direct_sound_samples/50faac.bin"
+
+	.align 2
+DirectSoundWaveData_510550::
+	.incbin "sound/direct_sound_samples/510550.bin"
+
+	.align 2
+DirectSoundWaveData_511864::
+	.incbin "sound/direct_sound_samples/511864.bin"
+
+	.align 2
+DirectSoundWaveData_514e60::
+	.incbin "sound/direct_sound_samples/514e60.bin"
+
+	.align 2
+DirectSoundWaveData_517f3c::
+	.incbin "sound/direct_sound_samples/517f3c.bin"
+
+	.align 2
+DirectSoundWaveData_51b02c::
+	.incbin "sound/direct_sound_samples/51b02c.bin"
+
+	.align 2
+DirectSoundWaveData_51be5c::
+	.incbin "sound/direct_sound_samples/51be5c.bin"
+
+	.align 2
+DirectSoundWaveData_50d0b8::
+	.incbin "sound/direct_sound_samples/50d0b8.bin"
+
+	.align 2
+DirectSoundWaveData_603098::
+	.incbin "sound/direct_sound_samples/603098.bin"
+
+	.align 2
+DirectSoundWaveData_6048d0::
+	.incbin "sound/direct_sound_samples/6048d0.bin"
+
+	.align 2
+DirectSoundWaveData_606154::
+	.incbin "sound/direct_sound_samples/606154.bin"
+
+	.align 2
+DirectSoundWaveData_5534fc::
+	.incbin "sound/direct_sound_samples/5534fc.bin"
+
+
 	.align 2
 Cry_Bulbasaur::
 	.incbin "sound/direct_sound_samples/cries/bulbasaur.bin"
