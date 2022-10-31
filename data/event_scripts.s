@@ -2394,3 +2394,29 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/NeoLavandaCementerioS2/scripts.inc"
 
 	.include "data/maps/NeoPowerPlant/scripts.inc"
+
+	.include "data/maps/ViasTrenCasaCampeon/scripts.inc"
+
+	.include "data/maps/Route50_CasaCampeon/scripts.inc"
+
+	.include "data/maps/CuevaHypno_1/scripts.inc"
+
+	.include "data/maps/CuevaHypno_2/scripts.inc"
+
+	.include "data/maps/CuevaHypno_3/scripts.inc"
+
+	.include "data/maps/CuevaHypno_4/scripts.inc"
+
+	.include "data/maps/MisionTrigal1/scripts.inc"
+
+	.include "data/maps/MisionTrigal2/scripts.inc"
+
+	.include "data/maps/MisionTrigal3/scripts.inc"
+
+	.include "data/maps/MisionTrigal4/scripts.inc"
+
+	.include "data/maps/MisionIrisLab/scripts.inc"
+
+	.include "data/maps/CuevaTesoro1/scripts.inc"
+
+	.include "data/maps/CuevaTesoro2/scripts.inc"

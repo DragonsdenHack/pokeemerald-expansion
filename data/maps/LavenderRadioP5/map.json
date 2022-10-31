@@ -176,14 +176,14 @@
       "x": 2,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_LAVENDER_RADIO_P5",
-      "dest_warp_id": 0
+      "dest_map": "MAP_LAVENDER_RADIO_P3",
+      "dest_warp_id": 1
     },
     {
       "x": 17,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_LAVENDER_RADIO_P5",
+      "dest_map": "MAP_LAVENDER_RADIO_P6",
       "dest_warp_id": 0
     }
   ],

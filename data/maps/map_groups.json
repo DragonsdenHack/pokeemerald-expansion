@@ -114,7 +114,8 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125"
+    "Underwater_Route125",
+    "CuevaHypno_2"
   ],
   "gMapGroup_TownsAndRoutesKANTO": [
     "PalletTown",
@@ -162,7 +163,8 @@
     "ViasSur2",
     "ViasSur3",
     "ViasSur4",
-    "ViasSur5"
+    "ViasSur5",
+    "ViasTrenCasaCampeon"
   ],
   "gMapGroup_TownsAndRoutesSEVII": [
     "OneIsland",
@@ -235,7 +237,8 @@
     "Route52",
     "Route53",
     "ViasTren1",
-    "ViasTren2"
+    "ViasTren2",
+    "Route50_CasaCampeon"
   ],
   "gMapGroup_IndoorCherryNewbark": [
     "Newbark_ElmLaboratory",
@@ -308,7 +311,8 @@
     "Ecruteak_TinTowerP7",
     "Ecruteak_TinTowerP8",
     "Ecruteak_TinTowerP9",
-    "Ecruteak_TinTowerRoof"
+    "Ecruteak_TinTowerRoof",
+    "MisionIrisLab"
   ],
   "gMapGroup_IndoorOlivineCity": [
     "Olivine_PkmnCenter",
@@ -430,7 +434,11 @@
     "LagoFuria2",
     "LagoFuria3",
     "LagoFuria4",
-    "LagoFuria5"
+    "LagoFuria5",
+    "MisionTrigal1",
+    "MisionTrigal2",
+    "MisionTrigal3",
+    "MisionTrigal4"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",
@@ -837,7 +845,12 @@
     "Aqua3",
     "IcefallCave_Lapras",
     "BosqueGimnasioAnciana",
-    "GimnasioAnciana"
+    "GimnasioAnciana",
+    "CuevaHypno_1",
+    "CuevaHypno_3",
+    "CuevaHypno_4",
+    "CuevaTesoro1",
+    "CuevaTesoro2"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
