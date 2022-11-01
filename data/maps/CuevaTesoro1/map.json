@@ -123,10 +123,10 @@
       "dest_warp_id": 0
     },
     {
-      "x": 31,
+      "x": 26,
       "y": 30,
       "elevation": 0,
-      "dest_map": "MAP_CUEVA_TESORO1",
+      "dest_map": "MAP_CUEVA_TESORO3",
       "dest_warp_id": 0
     }
   ],

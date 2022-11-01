@@ -13464,6 +13464,30 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CuevaTesoro2/border.bin",
       "blockdata_filepath": "data/layouts/CuevaTesoro2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CUEVA_TESORO3",
+      "name": "CuevaTesoro3_Layout",
+      "width": 60,
+      "height": 60,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/CuevaTesoro3/border.bin",
+      "blockdata_filepath": "data/layouts/CuevaTesoro3/map.bin"
+    },
+    {
+      "id": "LAYOUT_CUEVA_TESORO4",
+      "name": "CuevaTesoro4_Layout",
+      "width": 80,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/CuevaTesoro4/border.bin",
+      "blockdata_filepath": "data/layouts/CuevaTesoro4/map.bin"
     }
   ]
 }

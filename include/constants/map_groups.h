@@ -799,6 +799,8 @@
 #define MAP_CUEVA_HYPNO_4                     (70 | (34 << 8))
 #define MAP_CUEVA_TESORO1                     (71 | (34 << 8))
 #define MAP_CUEVA_TESORO2                     (72 | (34 << 8))
+#define MAP_CUEVA_TESORO3                     (73 | (34 << 8))
+#define MAP_CUEVA_TESORO4                     (74 | (34 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (35 << 8))

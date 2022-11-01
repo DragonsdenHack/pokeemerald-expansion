@@ -2420,3 +2420,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/CuevaTesoro1/scripts.inc"
 
 	.include "data/maps/CuevaTesoro2/scripts.inc"
+
+	.include "data/maps/CuevaTesoro3/scripts.inc"
+
+	.include "data/maps/CuevaTesoro4/scripts.inc"
