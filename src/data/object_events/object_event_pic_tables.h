@@ -2987,6 +2987,7 @@ static const struct SpriteFrameImage sPicTable_Giovanni[] = {
     overworld_frame(gObjectEventPic_Giovanni, 2, 4, 6),
     overworld_frame(gObjectEventPic_Giovanni, 2, 4, 7),
     overworld_frame(gObjectEventPic_Giovanni, 2, 4, 8),
+    overworld_frame(gObjectEventPic_Giovanni, 2, 4, 9),
 };
 static const struct SpriteFrameImage sPicTable_Guardiafjohto[] = {
     overworld_frame(gObjectEventPic_Guardiafjohto, 2, 4, 0),

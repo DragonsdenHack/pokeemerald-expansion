@@ -74,8 +74,13 @@ RocketHideoutFiveIslandMeadow_Text_15:
 .string "demasiado…)$"
 
 
-RocketHideoutFiveIslanMeadow16::
+Script_RocketHideout_FiveIsland_Meadow_Giovanni::
+applymovement 1 Movement_Diagonal
 end
+
+Movement_Diagonal:
+giovanni_face_southeast
+step_end
 
 
 RocketHideoutFiveIslanMeadow17::

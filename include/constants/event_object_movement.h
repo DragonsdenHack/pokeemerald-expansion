@@ -242,6 +242,7 @@
 #define MOVEMENT_ACTION_FIGURE_8                        0x9B
 #define MOVEMENT_ACTION_FLY_UP                          0x9C
 #define MOVEMENT_ACTION_FLY_DOWN                        0x9D
+#define MOVEMENT_ACTION_GIOVANNI_FACE_SOUTHEAST         0x9E
 
 #define MOVEMENT_ACTION_STEP_END 0xFE
 #define MOVEMENT_ACTION_NONE     0xFF
@@ -266,7 +267,8 @@
 #define ANIM_STD_GO_FASTEST_NORTH 17
 #define ANIM_STD_GO_FASTEST_WEST  18
 #define ANIM_STD_GO_FASTEST_EAST  19
-#define ANIM_STD_COUNT            20
+#define ANIM_STD_GIOVANNI_FACE_SOUTHEAST   20
+#define ANIM_STD_COUNT            21
 
 #define ANIM_RUN_SOUTH (ANIM_STD_COUNT + 0)
 #define ANIM_RUN_NORTH (ANIM_STD_COUNT + 1)
