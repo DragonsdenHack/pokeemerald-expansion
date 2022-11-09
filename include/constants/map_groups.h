@@ -143,6 +143,7 @@
 #define MAP_SEVAULT_CANYON    (25 | (2 << 8))
 #define MAP_TANOBY_RUINS      (26 | (2 << 8))
 #define MAP_WEST_BIRTH_ISLAND (27 | (2 << 8))
+#define MAP_PLAYA_TESORO      (28 | (2 << 8))
 
 // gMapGroup_TownsAndRoutesJOHTO
 #define MAP_NEW_BARK_TOWN        (0 | (3 << 8))
@@ -1316,5 +1317,7 @@
 #define MAP_DEVON_S9                                     (45 | (54 << 8))
 
 #define MAP_GROUPS_COUNT 55
+
+// static const u8 MAP_GROUP_COUNT[] = {58, 47, 29, 42, 6, 9, 7, 20, 22, 14, 6, 6, 11, 79, 4, 5, 8, 10, 8, 22, 20, 10, 10, 16, 2, 66, 81, 4, 4, 7, 7, 4, 4, 5, 75, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 46, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

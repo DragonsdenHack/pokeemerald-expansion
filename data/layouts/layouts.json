@@ -13488,6 +13488,18 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/CuevaTesoro4/border.bin",
       "blockdata_filepath": "data/layouts/CuevaTesoro4/map.bin"
+    },
+    {
+      "id": "LAYOUT_PLAYA_TESORO",
+      "name": "PlayaTesoro_Layout",
+      "width": 24,
+      "height": 40,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_123",
+      "border_filepath": "data/layouts/PlayaTesoro/border.bin",
+      "blockdata_filepath": "data/layouts/PlayaTesoro/map.bin"
     }
   ]
 }
