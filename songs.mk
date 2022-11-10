@@ -639,6 +639,9 @@ $(MID_SUBDIR)/mus_encounter_andra.s: %.s: %.mid
 $(MID_SUBDIR)/mus_baseprofunda.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
+$(MID_SUBDIR)/mus_unknown_chamber.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G304 -V080
+
 $(MID_SUBDIR)/mus_bw_castillo.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
@@ -685,7 +688,10 @@ $(MID_SUBDIR)/mus_vs_secta.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
 
 $(MID_SUBDIR)/mussaqua.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+
+$(MID_SUBDIR)/mus_gsc_vs_wild.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G157 -V090		
 
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
