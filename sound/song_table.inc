@@ -562,6 +562,24 @@ gSongTable::
 	song mus_rg_teachy_tv_menu, 0, 0
 	song mus_encounter_andra, 0, 0
 	song mus_baseprofunda, 0, 0
+	song mus_unknown_chamber, 0, 0
+	song mus_bw_castillo 0, 0
+	song mus_bw_route10 0, 0
+	song mus_encounter_mirto 0, 0
+	song mus_encounter_oak 0, 0
+	song mus_mansion_oak 0, 0
+	song mus_portada 0, 0
+	song mus_rocaombligo, 0, 0
+	song mus_vs_andra 0, 0
+	song mus_vs_atlas 0, 0
+	song mus_vs_azul 0, 0
+	song mus_vs_lance 0, 0
+	song mus_vs_lugia 0, 0
+	song mus_vs_lugia2 0, 0
+	song mus_vs_oak 0, 0
+	song mus_vs_secta 0, 0
+	song mussaqua 0, 0
+	song mus_gsc_vs_wild 0, 0
 	song ph_trap_blend, 2, 2
 	song ph_trap_held, 2, 2
 	song ph_trap_solo, 2, 2
