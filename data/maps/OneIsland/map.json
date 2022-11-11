@@ -17,6 +17,11 @@
       "direction": "right",
       "offset": -120,
       "map": "MAP_KINDLE_ROAD"
+    },
+    {
+      "direction": "down",
+      "offset": 0,
+      "map": "MAP_PLAYA_TESORO"
     }
   ],
   "object_events": [
