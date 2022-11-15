@@ -32387,6 +32387,40 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_VIAS_SUR4",
+          "base_label": "gViasSur40",
+          "rock_smash_mons": {
+            "encounter_rate": 20,
+            "mons": [
+              {
+                "min_level": 25,
+                "max_level": 55,
+                "species": "SPECIES_ROGGENROLA"
+              },
+              {
+                "min_level": 35,
+                "max_level": 65,
+                "species": "SPECIES_BOLDORE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_GIGALITH"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_GIGALITH"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_GIGALITH"
+              }
+            ]
+          }
         }
       ]
     },

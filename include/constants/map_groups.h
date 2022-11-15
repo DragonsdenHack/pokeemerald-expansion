@@ -216,6 +216,8 @@
 #define MAP_AZALEA_GYM              (4 | (6 << 8))
 #define MAP_AZALEA_SLOWPOKE_WELL    (5 | (6 << 8))
 #define MAP_AZALEA_SLOWPOKE_WELL_S1 (6 | (6 << 8))
+#define MAP_AZALEA_CARBON_S1        (7 | (6 << 8))
+#define MAP_AZALEA_CARBON_S2        (8 | (6 << 8))
 
 // gMapGroup_IndoorGoldenrodCity
 #define MAP_GOLDENROD_PKMN_CENTER       (0 | (7 << 8))
@@ -280,12 +282,13 @@
 #define MAP_OLIVINE_BOAT4        (13 | (9 << 8))
 
 // gMapGroup_IndoorCianwoodCity
-#define MAP_CIANWOOD_PKMN_CENTER (0 | (10 << 8))
-#define MAP_CIANWOOD_PHARMACY    (1 | (10 << 8))
-#define MAP_CIANWOOD_GYM         (2 | (10 << 8))
-#define MAP_CIANWOOD_HOUSE1      (3 | (10 << 8))
-#define MAP_CIANWOOD_HOUSE2      (4 | (10 << 8))
-#define MAP_CIANWOOD_HOUSE3      (5 | (10 << 8))
+#define MAP_CIANWOOD_PKMN_CENTER  (0 | (10 << 8))
+#define MAP_CIANWOOD_PHARMACY     (1 | (10 << 8))
+#define MAP_CIANWOOD_GYM          (2 | (10 << 8))
+#define MAP_CIANWOOD_HOUSE1       (3 | (10 << 8))
+#define MAP_CIANWOOD_HOUSE2       (4 | (10 << 8))
+#define MAP_CIANWOOD_HOUSE3       (5 | (10 << 8))
+#define MAP_CIANWOOD_EUSINE_HOUSE (6 | (10 << 8))
 
 // gMapGroup_IndoorMahoganyTown
 #define MAP_MAHOGANY_TOWN_PKMN_CENTER   (0 | (11 << 8))
@@ -294,6 +297,7 @@
 #define MAP_MAHOGANY_TOWN_NINJA_BASE_S1 (3 | (11 << 8))
 #define MAP_MAHOGANY_TOWN_NINJA_BASE_S2 (4 | (11 << 8))
 #define MAP_MAHOGANY_TOWN_NINJA_BASE_S3 (5 | (11 << 8))
+#define MAP_MAHOGANY_HOUSE_CARBON       (6 | (11 << 8))
 
 // gMapGroup_IndoorBlackthornCity
 #define MAP_BLACKTHORN_CITY_PKMN_CENTER      (0 | (12 << 8))
@@ -1315,7 +1319,10 @@
 #define MAP_DEVON_S7                                     (43 | (54 << 8))
 #define MAP_DEVON_S8                                     (44 | (54 << 8))
 #define MAP_DEVON_S9                                     (45 | (54 << 8))
+#define MAP_DEVON_S10                                    (46 | (54 << 8))
 
 #define MAP_GROUPS_COUNT 55
+
+// static const u8 MAP_GROUP_COUNT[] = {58, 47, 29, 42, 6, 9, 9, 20, 22, 14, 7, 7, 11, 79, 4, 5, 8, 10, 8, 22, 20, 10, 10, 16, 2, 66, 81, 4, 4, 7, 7, 4, 4, 5, 75, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

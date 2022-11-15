@@ -36455,12 +36455,12 @@ const struct BaseStats gBaseStats[] =
         .baseHP        = 72,
         .baseDefense   = 95,
         .baseSpeed     = 85,
-        .baseSpAttack  = 68,
+        .baseSpAttack  = 63,
         .baseSpDefense = 82,
         #if P_UPDATED_STATS >= GEN_7
-            .baseAttack    = 140,
+            .baseAttack    = 145,
         #else
-            .baseAttack    = 140,
+            .baseAttack    = 145,
         #endif
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_FLYING,
@@ -36475,9 +36475,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_INNER_FOCUS, ABILITY_DEFIANT},
+            .abilities = {ABILITY_INTIMIDATE, ABILITY_INTIMIDATE, ABILITY_INTIMIDATE},
         #else
-            .abilities = {ABILITY_KEEN_EYE, ABILITY_INNER_FOCUS},
+            .abilities = {ABILITY_INTIMIDATE, ABILITY_INTIMIDATE},
         #endif
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,

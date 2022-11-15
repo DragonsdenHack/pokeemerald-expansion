@@ -176,6 +176,13 @@
       "elevation": 0,
       "dest_map": "MAP_ICE_PATH",
       "dest_warp_id": 0
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_MAHOGANY_HOUSE_CARBON",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

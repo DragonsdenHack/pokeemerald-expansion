@@ -267,7 +267,9 @@
     "Azalea_CesarHouse",
     "Azalea_Gym",
     "Azalea_SlowpokeWell",
-    "Azalea_SlowpokeWellS1"
+    "Azalea_SlowpokeWellS1",
+    "AzaleaCarbonS1",
+    "AzaleaCarbonS2"
   ],
   "gMapGroup_IndoorGoldenrodCity": [
     "Goldenrod_PkmnCenter",
@@ -337,7 +339,8 @@
     "Cianwood_Gym",
     "Cianwood_House1",
     "Cianwood_House2",
-    "Cianwood_House3"
+    "Cianwood_House3",
+    "CianwoodEusineHouse"
   ],
   "gMapGroup_IndoorMahoganyTown": [
     "MahoganyTown_PkmnCenter",
@@ -345,7 +348,8 @@
     "MahoganyTown_NinjaBase",
     "MahoganyTown_NinjaBaseS1",
     "MahoganyTown_NinjaBaseS2",
-    "MahoganyTown_NinjaBaseS3"
+    "MahoganyTown_NinjaBaseS3",
+    "MahoganyHouseCarbon"
   ],
   "gMapGroup_IndoorBlackthornCity": [
     "BlackthornCity_PkmnCenter",
@@ -1366,6 +1370,7 @@
     "DEVONS6",
     "DevonS7",
     "DevonS8",
-    "DevonS9"
+    "DevonS9",
+    "DevonS10"
   ]
 }

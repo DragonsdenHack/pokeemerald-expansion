@@ -2426,3 +2426,13 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/CuevaTesoro4/scripts.inc"
 
 	.include "data/maps/PlayaTesoro/scripts.inc"
+
+	.include "data/maps/DevonS10/scripts.inc"
+
+	.include "data/maps/AzaleaCarbonS1/scripts.inc"
+
+	.include "data/maps/AzaleaCarbonS2/scripts.inc"
+
+	.include "data/maps/CianwoodEusineHouse/scripts.inc"
+
+	.include "data/maps/MahoganyHouseCarbon/scripts.inc"

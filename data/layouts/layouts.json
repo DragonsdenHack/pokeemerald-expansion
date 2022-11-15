@@ -10557,7 +10557,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_power_plant",
       "border_filepath": "data/layouts/Azalea_House1/border.bin",
       "blockdata_filepath": "data/layouts/Azalea_House1/map.bin"
     },
@@ -13500,6 +13500,66 @@
       "secondary_tileset": "gTileset_sevii_islands_123",
       "border_filepath": "data/layouts/PlayaTesoro/border.bin",
       "blockdata_filepath": "data/layouts/PlayaTesoro/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEVON_S10",
+      "name": "DevonS10_Layout",
+      "width": 11,
+      "height": 28,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_museum_fr",
+      "border_filepath": "data/layouts/DevonS10/border.bin",
+      "blockdata_filepath": "data/layouts/DevonS10/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_CARBON_S1",
+      "name": "AzaleaCarbonS1_Layout",
+      "width": 35,
+      "height": 66,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/AzaleaCarbonS1/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaCarbonS1/map.bin"
+    },
+    {
+      "id": "LAYOUT_AZALEA_CARBON_S2",
+      "name": "AzaleaCarbonS2_Layout",
+      "width": 45,
+      "height": 41,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/AzaleaCarbonS2/border.bin",
+      "blockdata_filepath": "data/layouts/AzaleaCarbonS2/map.bin"
+    },
+    {
+      "id": "LAYOUT_CIANWOOD_EUSINE_HOUSE",
+      "name": "CianwoodEusineHouse_Layout",
+      "width": 8,
+      "height": 7,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/CianwoodEusineHouse/border.bin",
+      "blockdata_filepath": "data/layouts/CianwoodEusineHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_MAHOGANY_HOUSE_CARBON",
+      "name": "MahoganyHouseCarbon_Layout",
+      "width": 8,
+      "height": 7,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/MahoganyHouseCarbon/border.bin",
+      "blockdata_filepath": "data/layouts/MahoganyHouseCarbon/map.bin"
     }
   ]
 }
