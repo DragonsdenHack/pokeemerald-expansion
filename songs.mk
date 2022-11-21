@@ -691,7 +691,10 @@ $(MID_SUBDIR)/mussaqua.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
 
 $(MID_SUBDIR)/mus_gsc_vs_wild.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G157 -V090		
+	$(MID) $< $@ -E -R$(STD_REVERB) -G157 -V090
+
+$(MID_SUBDIR)/mus_vs_giovanni.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090		
 
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
