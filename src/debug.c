@@ -3135,6 +3135,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
     X(MUS_VS_SECTA, "MUS-VS-SECTA") \
     X(MUSSAQUA, "MUS-SAQUA") \
     X(MUS_GSC_VS_WILD, "MUS-GSC-VS-WILD") \
+    X(MUS_VS_GIOVANNI, "MUS-VS-GIOVANNI") \
     X(DP_SEQ_TITLE00    , "DP-SEQ-TITLE00") \
     X(DP_SEQ_TITLE01    , "DP-SEQ-TITLE01") \
     X(DP_SEQ_OPENING    , "DP-SEQ-OPENING") \
