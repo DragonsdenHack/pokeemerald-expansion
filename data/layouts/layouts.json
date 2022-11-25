@@ -11493,7 +11493,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_cerulean_cave",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/BlackthornCity_DragonsdenS1/border.bin",
       "blockdata_filepath": "data/layouts/BlackthornCity_DragonsdenS1/map.bin"
     },
