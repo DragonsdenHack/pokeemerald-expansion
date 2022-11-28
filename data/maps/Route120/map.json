@@ -230,8 +230,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemNugget",
-      "flag": "FLAG_ITEM_ROUTE_120_NUGGET"
+      "script": "NULL",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
@@ -308,8 +308,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemFullHeal",
-      "flag": "FLAG_ITEM_ROUTE_120_FULL_HEAL"
+      "script": "NULL",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY",
@@ -386,8 +386,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemNestBall",
-      "flag": "FLAG_ITEM_ROUTE_120_NEST_BALL"
+      "script": "NULL",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -399,8 +399,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemHyperPotion",
-      "flag": "FLAG_ITEM_ROUTE_120_HYPER_POTION"
+      "script": "NULL",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
@@ -594,8 +594,8 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route120_EventScript_ItemRevive",
-      "flag": "FLAG_ITEM_ROUTE_120_REVIVE"
+      "script": "NULL",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -756,7 +756,7 @@
       "y": 3,
       "elevation": 3,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "Route120_EventScript_RouteSignFortree"
+      "script": ""
     },
     {
       "type": "sign",
