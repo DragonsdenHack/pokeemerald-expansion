@@ -115,7 +115,13 @@ KindleRoad_EventSScript_ItemEther::
 	
 KindleRoad_EventSScript_ItemCarbos::
     finditem ITEM_CARBOS
-	end		
+	end
+
+
+
+KindleRoad_EventSScript_ItemMaxRepel::
+    finditem ITEM_MAX_REPEL
+	end			
 
 
 
@@ -474,6 +480,12 @@ MahoganyTownNinjaBaseS1_EventSScript_ItemMaxRevive::
 
 
 
+MahoganyTownNinjaBaseS2_EventSScript_ItemPPUP::
+    finditem ITEM_PP_UP
+	end
+
+
+
 MahoganyTownNinjaBaseS3_EventSScript_ItemUltraBall::
     finditem ITEM_ULTRA_BALL
 	end
@@ -764,8 +776,20 @@ WhirlIslands3_EventScript_ItemEscapeRope::
 
 
 
+WhirlIslands3_EventScript_ItemUltraBall::
+    finditem ITEM_ULTRA_BALL
+	end
+
+
+
 MtMortar_EventScript_ItemHPUP::
     finditem ITEM_HP_UP
+	end
+
+
+
+MtMortar_EventScript_ItemEscapeRope::
+    finditem ITEM_ESCAPE_ROPE
 	end
 
 
@@ -1109,6 +1133,12 @@ VictoryRoad2F_EventScript_ItemGuardSpec::
 
 VictoryRoad2F_EventScript_ItemFullHeal::
     finditem ITEM_FULL_HEAL
+	end
+
+
+
+VictoryRoad2F_EventScript_ItemLeftovers::
+    finditem ITEM_LEFTOVERS
 	end
 
 

@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne25F_1",
-      "flag": "0"
+      "script": "SsAnne25F_EventScript_ItemSuperPotion",
+      "flag": "FLAG_ITEM_SSANNE_25F_SUPER_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",

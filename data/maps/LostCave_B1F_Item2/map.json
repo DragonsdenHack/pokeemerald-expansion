@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "LostCaveItem2",
-      "flag": "0"
+      "script": "LostCaveB1FItem2_EventScript_ItemSeaIncense",
+      "flag": "FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_SEA_INCENSE"
     }
   ],
   "warp_events": [

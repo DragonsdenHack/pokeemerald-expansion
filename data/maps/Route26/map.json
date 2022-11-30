@@ -134,8 +134,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route26_9",
-      "flag": "0"
+      "script": "Route26_EventSScript_ItemHoundoominite",
+      "flag": "FLAG_ITEM_ROUTE_26_HOUNDOOMINITE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GUARDIAMJOHTO",
@@ -173,8 +173,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route26_12",
-      "flag": "0"
+      "script": "Route26_EventSScript_ItemRareCandy",
+      "flag": "FLAG_ITEM_ROUTE_26_RARE_CANDY"
     }
   ],
   "warp_events": [

@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne7F_1",
-      "flag": "0"
+      "script": "SsAnne7F_EventScript_ItemGreatBall",
+      "flag": "FLAG_ITEM_SSANNE_7F_GREAT_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHEF",

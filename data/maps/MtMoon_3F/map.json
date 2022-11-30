@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon3F_2",
-      "flag": "0"
+      "script": "MtMoon3F_EventScript_ItemAntidote",
+      "flag": "FLAG_ITEM_MT_MOON_3F_ANTIDOTE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon3F_3",
-      "flag": "0"
+      "script": "MtMoon3F_EventScript_ItemRevive",
+      "flag": "FLAG_ITEM_MT_MOON_3F_REVIVE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon3F_4",
-      "flag": "0"
+      "script": "MtMoon3F_EventScript_ItemStarPiece",
+      "flag": "FLAG_ITEM_MT_MOON_3F_STAR_PIECE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon3F_7",
-      "flag": "0"
+      "script": "MtMoon3F_EventScript_ItemTM46",
+      "flag": "FLAG_ITEM_MT_MOON_3F_TM_46"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLUE",

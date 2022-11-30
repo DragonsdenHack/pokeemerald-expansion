@@ -1066,7 +1066,7 @@
 #define FLAG_ITEM_CULTO_S3_DUSK_BALL                                0x3FA
 #define FLAG_ITEM_SILPH_S2_PP_MAX                                   0x3FB
 #define FLAG_ITEM_SILPH_S2_RARE_CANDY                               0x3FC
-#define FLAG_ITEM_SEVAULT_CANYON_HOUSE_1_                           0x3FD
+#define FLAG_ITEM_SEVAULT_CANYON_HOUSE_1                            0x3FD
 #define FLAG_ITEM_MT_EMBER_ENTRANCE_ULTRA_BALL                      0x3FE
 #define FLAG_ITEM_MT_EMBER_ENTRANCE_RARE_CANDY                      0x3FF
 #define FLAG_ITEM_MT_EMBER_ENTRANCE_DIRE_HIT                        0x400
@@ -1086,13 +1086,13 @@
 #define FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_RARE_CANDY                   0x40E
 #define FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_SMOKE_BALL                   0x40F
 #define FLAG_ITEM_EMBER_SPA_HM_06                                   0x410
-#define FLAG_ITEM_                            0x411 //
-#define FLAG_ITEM_                           0x412 //
-#define FLAG_ITEM_                            0x413 //
-#define FLAG_ITEM_                          0x414 //
-#define FLAG_ITEM_                      0x415 //
-#define FLAG_ITEM_                     0x416 //
-#define FLAG_ITEM_                          0x417 //
+#define FLAG_ITEM_KINDLE_ROAD_MAX_REPEL                             0x411 
+#define FLAG_ITEM_OLIVINE_CITY_PINSIRITE                            0x412 
+#define FLAG_ITEM_ROUTE_51_BEEDRILLITE                              0x413
+#define FLAG_ITEM_OLIVINE_LIGHTHOUSE_PP_UP                          0x414
+#define FLAG_ITEM_MAHOGANY_TOWN_NINJA_BASE_S2_PP_UP                 0x415 
+#define FLAG_ITEM_WHIRL_ISLANDS_3_ULTRA_BALL                        0x416 
+#define FLAG_ITEM_VICTORY_ROAD_2F_LEFTOVERS                         0x417 
 #define FLAG_ITEM_                          0x418 // 
 #define FLAG_ITEM_                          0x419 //
 #define FLAG_ITEM_                       0x41A //
@@ -1229,7 +1229,7 @@
 #define FLAG_ITEM_ROUTE_11_TM_31                             0x49C // Unused Flag //ITEM
 #define FLAG_ITEM_ROUTE_12_IRON                              0x49D // Unused Flag //ITEM
 #define FLAG_ITEM_ROUTE_12_TM_48                             0x49E // Unused Flag //ITEM
-#define FLAG_ITEM_ROUTE15_TM_18                              0x49F // Unused Flag //ITEM
+#define FLAG_ITEM_ROUTE_15_TM_18                              0x49F // Unused Flag //ITEM
 #define FLAG_ITEM_ROUTE_24_REVIVE                            0x4A0 // Unused Flag //ITEM
 #define FLAG_ITEM_ROUTE_25_TM_43                             0x4A1 // Unused Flag //ITEM
 #define FLAG_ITEM_TWO_ISLAND_REVIVE                          0x4A2 // Unused Flag //ITEM

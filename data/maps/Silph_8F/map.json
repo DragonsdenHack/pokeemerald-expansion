@@ -89,8 +89,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph8F_6",
-      "flag": "0"
+      "script": "Silph8F_EventScript_ItemIron",
+      "flag": "FLAG_ITEM_SILPH_8F_IRON"
     }
   ],
   "warp_events": [

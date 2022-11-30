@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph7F_5",
-      "flag": "0"
+      "script": "Silph7F_EventScript_ItemTM08",
+      "flag": "FLAG_ITEM_SILPH_7F_TM_08"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_F",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph7F_7",
-      "flag": "0"
+      "script": "Silph7F_EventScript_ItemCalcium",
+      "flag": "FLAG_ITEM_SILPH_7F_CALCIUM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_M",

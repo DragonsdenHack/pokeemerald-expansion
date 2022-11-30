@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_2",
-      "flag": "0"
+      "script": "WhirlIslands3_EventScript_ItemEscapeRope",
+      "flag": "FLAG_ITEM_WHIRL_ISLANDS_3_ESCAPE_ROPE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_3",
-      "flag": "0"
+      "script": "WhirlIslands3_EventScript_ItemRevive",
+      "flag": "FLAG_ITEM_WHIRL_ISLANDS_3_REVIVE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_4",
-      "flag": "0"
+      "script": "WhirlIslands3_EventScript_ItemRareCandy",
+      "flag": "FLAG_ITEM_WHIRL_ISLANDS_3_RARE_CANDY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_5",
-      "flag": "0"
+      "script": "WhirlIslands3_EventScript_ItemUltraBall",
+      "flag": "FLAG_ITEM_WHIRL_ISLANDS_3_ULTRA_BALL"
     }
   ],
   "warp_events": [

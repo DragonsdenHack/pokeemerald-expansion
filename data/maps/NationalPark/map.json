@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NationalPark1",
-      "flag": "0"
+      "script": "NationalPark_EventScript_ItemBeedrillite",
+      "flag": "FLAG_ITEM_NATIONAL_PARK_BEEDRILLITE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GUARDIAFJOHTO",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NationalPark4",
-      "flag": "0"
+      "script": "NationalPark_EventScript_ItemBigNugget",
+      "flag": "FLAG_ITEM_NATIONAL_PARK_BIG_NUGGET"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NationalPark7",
-      "flag": "0"
+      "script": "NationalPark_EventScript_ItemScopeLens",
+      "flag": "FLAG_ITEM_NATIONAL_PARK_SCOPE_LENS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY2",

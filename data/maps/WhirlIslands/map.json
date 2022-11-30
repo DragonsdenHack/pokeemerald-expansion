@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands1",
-      "flag": "0"
+      "script": "WhirlIslands_EventScript_ItemStarPiece",
+      "flag": "FLAG_ITEM_WHIRL_ISLANDS_STAR_PIECE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands2",
-      "flag": "0"
+      "script": "WhirlIslands_EventScript_ItemBigPearl",
+      "flag": "FLAG_ITEM_WHIRL_ISLANDS_BIG_PEARL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3",
-      "flag": "0"
+      "script": "WhirlIslands_EventScript_ItemHM08",
+      "flag": "FLAG_ITEM_WHIRL_ISLANDS_HM_08"
     }
   ],
   "warp_events": [

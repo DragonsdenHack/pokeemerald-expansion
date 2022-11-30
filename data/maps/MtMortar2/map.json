@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar2_4",
-      "flag": "0"
+      "script": "MtMortar2_EventScript_ItemRareCandy",
+      "flag": "FLAG_ITEM_MT_MORTAR_2_RARE_CANDY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar2_5",
-      "flag": "0"
+      "script": "MtMortar2_EventScript_ItemIron",
+      "flag": "FLAG_ITEM_MT_MORTAR_2_IRON"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -89,8 +89,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar2_6",
-      "flag": "0"
+      "script": "MtMortar2_EventScript_ItemUltraBall",
+      "flag": "FLAG_ITEM_MT_MORTAR_2_ULTRA_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar2_7",
-      "flag": "0"
+      "script": "MtMortar2_EventScript_ItemPPUP",
+      "flag": "FLAG_ITEM_MT_MORTAR_2_PP_UP"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar2_8",
-      "flag": "0"
+      "script": "MtMortar2_EventScript_ItemRevive",
+      "flag": "FLAG_ITEM_MT_MORTAR_2_REVIVE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT2",

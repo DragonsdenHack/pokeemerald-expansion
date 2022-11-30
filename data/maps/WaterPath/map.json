@@ -66,8 +66,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WatherPath3",
-      "flag": "0"
+      "script": "WaterPath_EventScript_ItemElixir",
+      "flag": "FLAG_ITEM_WATER_PATH_ELIXIR"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_7",
@@ -144,8 +144,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WatherPath9",
-      "flag": "0"
+      "script": "WaterPath_EventScript_ItemDragonScale",
+      "flag": "FLAG_ITEM_WATER_PATH_DRAGONSCALE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER2",

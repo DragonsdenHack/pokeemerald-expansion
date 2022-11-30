@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtSilver2_1",
-      "flag": "0"
+      "script": "MtSilver2_EventSScript_ItemFullRestore",
+      "flag": "FLAG_ITEM_MT_SILVER_2_FULL_RESTORE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtSilver2_2",
-      "flag": "0"
+      "script": "MtSilver2_EventSScript_ItemMaxRevive",
+      "flag": "FLAG_ITEM_MT_SILVER_2_MAX_REVIVIR"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtSilver2_3",
-      "flag": "0"
+      "script": "MtSilver2_EventSScript_ItemRareCandy",
+      "flag": "FLAG_ITEM_MT_SILVER_2_RARE_CANDY"
     }
   ],
   "warp_events": [

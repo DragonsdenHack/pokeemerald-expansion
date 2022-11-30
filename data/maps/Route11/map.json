@@ -139,8 +139,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route11_9",
-      "flag": "0"
+      "script": "Route11_EventSScript_ItemXDefense",
+      "flag": "FLAG_ITEM_ROUTE_11_X_DEFENSE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BALDING_MAN",
@@ -191,8 +191,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route11_13",
-      "flag": "0"
+      "script": "Route11_EventSScript_ItemTM31",
+      "flag": "FLAG_ITEM_ROUTE_11_TM_31"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN2",
@@ -230,8 +230,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Route11_EventSScript_ItemAwakening",
+      "flag": "FLAG_ITEM_ROUTE_11_AWAKENING"
     }
   ],
   "warp_events": [

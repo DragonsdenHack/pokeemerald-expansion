@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "FourIsland3",
-      "flag": "0"
+      "script": "FourIsland_EventSScript_ItemStardust",
+      "flag": "FLAG_ITEM_FOUR_ISLAND_STARDUST"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FAT_MAN2",
@@ -89,8 +89,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "FourIsland6",
-      "flag": "0"
+      "script": "FourIsland_EventSScript_ItemStarpiece",
+      "flag": "FLAG_ITEM_FOUR_ISLAND_STAR_PIECE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",

@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar4_1",
-      "flag": "0"
+      "script": "MtMortar4_EventScript_ItemBigNugget",
+      "flag": "FLAG_ITEM_MT_MORTAR_4_BIG_NUGGET"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar4_2",
-      "flag": "0"
+      "script": "MtMortar4_EventScript_ItemSacredAsh",
+      "flag": "FLAG_ITEM_MT_MORTAR_4_SACRED_ASH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar4_3",
-      "flag": "0"
+      "script": "MtMortar4_EventScript_ItemProtein",
+      "flag": "FLAG_ITEM_MT_MORTAR_4_PROTEIN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar4_4",
-      "flag": "0"
+      "script": "MtMortar4_EventScript_ItemMaxElixir",
+      "flag": "FLAG_ITEM_MT_MORTAR_4_MAX_ELIXIR"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar4_5",
-      "flag": "0"
+      "script": "MtMortar4_EventScript_ItemFullRestore",
+      "flag": "FLAG_ITEM_MT_MORTAR_4_FULL_RESTORE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANIBAL",

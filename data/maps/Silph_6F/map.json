@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph6F_1",
-      "flag": "0"
+      "script": "Silph6F_EventScript_ItemHPUP",
+      "flag": "FLAG_ITEM_SILPH_6F_HP_UP"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph6F_2",
-      "flag": "0"
+      "script": "Silph6F_EventScript_ItemSpecialX",
+      "flag": "FLAG_ITEM_SILPH_6F_SPECIAL_X"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",

@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon1F_2",
-      "flag": "0"
+      "script": "MtMoon1F_EventScript_ItemParalyzeHeal",
+      "flag": "FLAG_ITEM_MT_MOON_1F_PARALYZE_HEAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon1F_3",
-      "flag": "0"
+      "script": "MtMoon1F_EventScript_ItemTM09",
+      "flag": "FLAG_ITEM_MT_MOON_1F_TM_09"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon1F_5",
-      "flag": "0"
+      "script": "MtMoon1F_EventScript_ItemPotion",
+      "flag": "FLAG_ITEM_MT_MOON_1F_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon1F_8",
-      "flag": "0"
+      "script": "MtMoon1F_EventScript_ItemRareCandy",
+      "flag": "FLAG_ITEM_MT_MOON_1F_RARE_CANDY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -128,8 +128,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon1F_9",
-      "flag": "0"
+      "script": "MtMoon1F_EventScript_ItemEscapeRope",
+      "flag": "FLAG_ITEM_MT_MOON_1F_ESCAPE_ROPE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
@@ -167,8 +167,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon1F_12",
-      "flag": "0"
+      "script": "MtMoon1F_EventScript_ItemMoonStone",
+      "flag": "FLAG_ITEM_MT_MOON_1F_MOON_STONE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER2",

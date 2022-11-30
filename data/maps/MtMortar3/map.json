@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar3_2",
-      "flag": "0"
+      "script": "MtMortar3_EventScript_ItemStarPiece",
+      "flag": "FLAG_ITEM_MT_MORTAR_3_STAR_PIECE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar3_3",
-      "flag": "0"
+      "script": "MtMortar3_EventScript_ItemIron",
+      "flag": "FLAG_ITEM_MT_MORTAR_3_IRON"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar3_4",
-      "flag": "0"
+      "script": "MtMortar3_EventScript_ItemHyperPotion",
+      "flag": "FLAG_ITEM_MT_MORTAR_3_HYPER_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar3_5",
-      "flag": "0"
+      "script": "MtMortar3_EventScript_ItemElixir",
+      "flag": "FLAG_ITEM_MT_MORTAR_3_ELIXIR"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -89,8 +89,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMortar3_6",
-      "flag": "0"
+      "script": "MtMortar3_EventScript_ItemRevive",
+      "flag": "FLAG_ITEM_MT_MORTAR_3_REVIVE"
     }
   ],
   "warp_events": [

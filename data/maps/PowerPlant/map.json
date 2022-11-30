@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant1",
-      "flag": "0"
+      "script": "PowerPlant_EventScript_ItemMaxPotion",
+      "flag": "FLAG_ITEM_POWER_PLANT_MAX_POTION"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant4",
-      "flag": "0"
+      "script": "PowerPlant_EventScript_ItemElixir",
+      "flag": "FLAG_ITEM_POWER_PLANT_ELIXIR"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -89,8 +89,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant6",
-      "flag": "0"
+      "script": "PowerPlant_EventScript_ItemRareCandy",
+      "flag": "FLAG_ITEM_POWER_PLANT_RARE_CANDY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -133,16 +133,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 45,
-      "y": 4,
+      "x": 46,
+      "y": 37,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant10",
-      "flag": "0"
+      "script": "PowerPlant_EventScript_ItemTM25",
+      "flag": "FLAG_ITEM_POWER_PLANT_TM_25"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -276,16 +276,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 46,
-      "y": 37,
+      "x": 45,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant21",
-      "flag": "0"
+      "script": "PowerPlant_EventScript_ItemThunderStone",
+      "flag": "FLAG_ITEM_POWER_PLANT_THUNDER_STONE"
     }
   ],
   "warp_events": [

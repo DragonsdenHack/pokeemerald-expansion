@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph4F_1",
-      "flag": "0"
+      "script": "Silph4F_EventScript_ItemFullHeal",
+      "flag": "FLAG_ITEM_SILPH_4F_FULL_HEAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph4F_2",
-      "flag": "0"
+      "script": "Silph4F_EventScript_ItemEscapeRope",
+      "flag": "FLAG_ITEM_SILPH_4F_ESCAPE_ROPE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph4F_3",
-      "flag": "0"
+      "script": "Silph4F_EventScript_ItemMaxRevive",
+      "flag": "FLAG_ITEM_SILPH_4F_MAX_REVIVE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph4F_8",
-      "flag": "0"
+      "script": "Silph4F_EventScript_ItemTM41",
+      "flag": "FLAG_ITEM_SILPH_4F_TM_41"
     }
   ],
   "warp_events": [

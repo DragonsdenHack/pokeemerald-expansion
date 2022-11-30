@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VioletSproutTowerP1_2",
-      "flag": "0"
+      "script": "SproutTowerP1_EventSScript_ItemFullRestore",
+      "flag": "FLAG_ITEM_SPROUT_TOWER_P1_FULL_RESTORE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
