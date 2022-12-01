@@ -121,7 +121,7 @@ MossdeepCity_StevensHouse_EventScript_ReceivedBeldumFanfare::
 	message MossdeepCity_StevensHouse_Text_ObtainedBeldum
 	waitmessage
 	waitfanfare
-	bufferspeciesname STR_VAR_1, SPECIES_BELDUM
+	bufferspeciesname STR_VAR_1, SPECIES_ARCEUS
 	return
 
 MossdeepCity_StevensHouse_EventScript_ReceivedBeldum::

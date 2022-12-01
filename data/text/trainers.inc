@@ -4779,3 +4779,26 @@ Route134_Text_HudsonPostBattle:
 	.string "Our boat drifted out to sea.\p"
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
+
+
+
+RocketWarehouse_Text_IsaacIntro:
+    .string "Aquí en ISLA INTA tenemos por\n"
+	.string "costumbre probar las habilidades\l"
+	.string "de los nuevos reclutas nada más\l"
+	.string "empezar.\l"
+	.string "¡En guardia!$"
+
+
+
+RocketWarehouse_Text_IsaacDefeated:
+    .string "Bien, recluta. Sigue adelante.$"
+
+
+
+RocketWarehouse_Text_IsaacPostBattle:
+    .string "No todos los que estábais en la\n"
+	.string "presentación acabaréis siendo\l"
+	.string "merecedores de pertenecer a\l"
+	.string "nuestra organización, tú por el\l"
+	.string "momento te estás salvando.$"
