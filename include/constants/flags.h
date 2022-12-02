@@ -1045,177 +1045,177 @@
 #define FLAG_HIDE_RUSTBORO_CITY_POKEMON_SCHOOL_SCOTT                0x3E7
 
 // Item Ball Flags
-#define FLAG_ITEM_SEAFOAM_ISLANDS_5F_ULTRA_BALL                     0x3E8
-#define FLAG_ITEM_POKEMON_TOWER_3F_ESCAPE_ROPE                      0x3E9
-#define FLAG_ITEM_POKEMON_TOWER_4F_AWAKENING                        0x3EA
-#define FLAG_ITEM_POKEMON_TOWER_4F_GREAT_BALL                       0x3EB
-#define FLAG_ITEM_POKEMON_TOWER_4F_ELIXIR                           0x3EC
-#define FLAG_ITEM_POKEMON_TOWER_5F_NUGGET                           0x3ED
-#define FLAG_ITEM_POKEMON_TOWER_5F_CLEANSE_TAG                      0x3EE
-#define FLAG_ITEM_POKEMON_TOWER_6F_RARE_CANDY                       0x3EF
-#define FLAG_ITEM_POKEMON_TOWER_6F_X_ACCURACY                       0x3F0
-#define FLAG_ITEM_POWER_PLANT_MAX_POTION                            0x3F1
-#define FLAG_ITEM_POWER_PLANT_ELIXIR                                0x3F2
-#define FLAG_ITEM_POWER_PLANT_RARE_CANDY                            0x3F3
-#define FLAG_ITEM_POWER_PLANT_TM_25                                 0x3F4
-#define FLAG_ITEM_POWER_PLANT_THUNDER_STONE                         0x3F5
-#define FLAG_ITEM_ROCKET_HIDEOUT_5F_RARE_CANDY                      0x3F6
-#define FLAG_ITEM_ROCKET_HIDEOUT_5F_MACHO_BRACE                     0x3F7
-#define FLAG_ITEM_CULTO_S1_TM_30                                    0x3F8
-#define FLAG_ITEM_CULTO_S1_X_ACCURACY                               0x3F9
-#define FLAG_ITEM_CULTO_S3_DUSK_BALL                                0x3FA
-#define FLAG_ITEM_SILPH_S2_PP_MAX                                   0x3FB
-#define FLAG_ITEM_SILPH_S2_RARE_CANDY                               0x3FC
-#define FLAG_ITEM_SEVAULT_CANYON_HOUSE_1                            0x3FD
-#define FLAG_ITEM_MT_EMBER_ENTRANCE_ULTRA_BALL                      0x3FE
-#define FLAG_ITEM_MT_EMBER_ENTRANCE_RARE_CANDY                      0x3FF
-#define FLAG_ITEM_MT_EMBER_ENTRANCE_DIRE_HIT                        0x400
-#define FLAG_ITEM_BERRY_FOREST_PP_MAX                               0x401
-#define FLAG_ITEM_BERRY_FOREST_MAX_ETHER                            0x402
-#define FLAG_ITEM_BERRY_FOREST_FULL_HEAL                            0x403
-#define FLAG_ITEM_ICEFALL_CAVE_1F_ULTRA_BALL                        0x404
-#define FLAG_ITEM_ICEFALL_CAVE_B1F_FULL_RESTORE                     0x405
-#define FLAG_ITEM_ICEFALL_CAVE_B1F_NEVER_MELT_ICE                   0x406
-#define FLAG_ITEM_ROCKET_WAREHOUSE_PEARL                            0x407
-#define FLAG_ITEM_ROCKET_WAREHOUSE_POTION                           0x408
-#define FLAG_ITEM_ROCKET_WAREHOUSE_BIG_PEARL                        0x409 // Unused Flag, leftover from R/S. In Emerald this is a hidden item and uses a different flag
-#define FLAG_ITEM_ROCKET_WAREHOUSE_KINGS_ROCK                       0x40A
-#define FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_LAX_INCENSE                  0x40B
-#define FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_SEA_INCENSE                  0x40C
-#define FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_MAX_REVIVE                   0x40D
-#define FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_RARE_CANDY                   0x40E
-#define FLAG_ITEM_LOST_CAVE_B1F_ITEM_1_SMOKE_BALL                   0x40F
-#define FLAG_ITEM_EMBER_SPA_HM_06                                   0x410
-#define FLAG_ITEM_KINDLE_ROAD_MAX_REPEL                             0x411 
-#define FLAG_ITEM_OLIVINE_CITY_PINSIRITE                            0x412 
-#define FLAG_ITEM_ROUTE_51_BEEDRILLITE                              0x413
-#define FLAG_ITEM_OLIVINE_LIGHTHOUSE_PP_UP                          0x414
-#define FLAG_ITEM_MAHOGANY_TOWN_NINJA_BASE_S2_PP_UP                 0x415 
-#define FLAG_ITEM_WHIRL_ISLANDS_3_ULTRA_BALL                        0x416 
-#define FLAG_ITEM_VICTORY_ROAD_2F_LEFTOVERS                         0x417 
-#define FLAG_ITEM_                          0x418 // 
-#define FLAG_ITEM_                          0x419 //
-#define FLAG_ITEM_                       0x41A //
-#define FLAG_ITEM_                        0x41B //
-#define FLAG_ITEM_                            0x41C //
-#define FLAG_ITEM_                            0x41D //
-#define FLAG_ITEM_                       0x41E //
-#define FLAG_ITEM_                          0x41F //
-#define FLAG_ITEM_                        0x420 //
-#define FLAG_ITEM_                               0x421 //
-#define FLAG_ITEM_                             0x422 //
-#define FLAG_ITEM_                    0x423 //
-#define FLAG_ITEM_                  0x424 //
-#define FLAG_ITEM_                  0x425 //
-#define FLAG_ITEM_                    0x426 //
-#define FLAG_ITEM_                  0x427 //
-#define FLAG_ITEM_                    0x428 //
-#define FLAG_ITEM_                    0x429 //
-#define FLAG_ITEM_                            0x42A //
-#define FLAG_ITEM_                 0x42B //
-#define FLAG_ITEM_                  0x42C //
-#define FLAG_ITEM_                    0x42D //
-#define FLAG_ITEM_                             0x42E //
-#define FLAG_ITEM_                       0x42F //
-#define FLAG_ITEM_                        0x430 //
-#define FLAG_ITEM_                       0x431 //
-#define FLAG_ITEM_                            0x432 //
-#define FLAG_ITEM_                           0x433 //
-#define FLAG_ITEM_                          0x434 //
-#define FLAG_ITEM_    0x435 //
-#define FLAG_ITEM_        0x436 //
-#define FLAG_ITEM_                               0x437 //
-#define FLAG_ITEM_                         0x438 //
-#define FLAG_ITEM_                     0x439 //
-#define FLAG_ITEM_                  0x43A //
-#define FLAG_ITEM_                   0x43B //
-#define FLAG_ITEM_                        0x43C //
-#define FLAG_ITEM_                             0x43D //
-#define FLAG_ITEM_                            0x43E //
-#define FLAG_ITEM_                     0x43F //
-#define FLAG_ITEM_                        0x440 //
-#define FLAG_ITEM_                                  0x441 //
-#define FLAG_ITEM_                      0x442 //
-#define FLAG_ITEM_                                   0x443 //
-#define FLAG_ITEM_                               0x444 //
-#define FLAG_ITEM_                              0x445 //
-#define FLAG_ITEM_                      0x446 //
-#define FLAG_ITEM_               0x447 //
-#define FLAG_ITEM_              0x448 //
-#define FLAG_ITEM_              0x449 //
-#define FLAG_ITEM_                    0x44A //
-#define FLAG_ITEM_                  0x44B //
-#define FLAG_ITEM_        0x44C //
-#define FLAG_ITEM_    0x44D //
-#define FLAG_ITEM_          0x44E //
-#define FLAG_ITEM_                                  0x44F //
-#define FLAG_ITEM_                              0x450 //
-#define FLAG_ITEM_                             0x451 //
-#define FLAG_ITEM_                          0x452 //
-#define FLAG_ITEM_                            0x453 //
-#define FLAG_ITEM_                               0x454 //
-#define FLAG_ITEM_                                  0x455 //
-#define FLAG_ITEM_                        0x456 //
-#define FLAG_ITEM_                             0x457 //
-#define FLAG_ITEM_                         0x458 //
-#define FLAG_ITEM_                0x459 //
-#define FLAG_ITEM_                              0x45A //
-#define FLAG_ITEM_                              0x45B //
-#define FLAG_ITEM_                             0x45C //
-#define FLAG_ITEM_                     0x45D //
-#define FLAG_ITEM_                              0x45E //
-#define FLAG_ITEM_                         0x45F //
-#define FLAG_ITEM_                            0x460 //
-#define FLAG_ITEM_                            0x461 //
-#define FLAG_ITEM_                            0x462 //
-#define FLAG_ITEM_                        0x463 //
-#define FLAG_ITEM_                      0x464 //
-#define FLAG_ITEM_                 0x465 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_                  0x466 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_                   0x467 // Unused Flag, leftover from the Ruby Magma hideout
-#define FLAG_ITEM_                                           0x468 // Unused Flag
-#define FLAG_ITEM_                             0x469 //
-#define FLAG_ITEM_                            0x46A //
-#define FLAG_ITEM_                 0x46B //
-#define FLAG_ITEM_                           0x46C
-#define FLAG_ITEM_                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
-#define FLAG_ITEM_                                  0x46E //
-#define FLAG_ITEM_                                  0x46F //
-#define FLAG_ITEM_                                           0x470 // Unused Flag
-#define FLAG_ITEM_                                   0x471 //
-#define FLAG_ITEM_                                           0x472 // Unused Flag
-#define FLAG_ITEM_                              0x473 //
-#define FLAG_ITEM_                                  0x474 //
-#define FLAG_ITEM_                                  0x475 //
-#define FLAG_ITEM_                                  0x476 //
-#define FLAG_ITEM_                            0x477 //
-#define FLAG_ITEM_                             0x478 //
-#define FLAG_ITEM_                                           0x479 // Unused Flag
-#define FLAG_ITEM_                                  0x47A //
-#define FLAG_ITEM_                               0x47B //
-#define FLAG_ITEM_                                  0x47C //
-#define FLAG_ITEM_                                  0x47D //
-#define FLAG_ITEM_                                    0x47E //
-#define FLAG_ITEM_                       0x47F //
-#define FLAG_ITEM_                                   0x480 //
-#define FLAG_ITEM_                           0x481 //
-#define FLAG_ITEM_                               0x482 //
-#define FLAG_ITEM_                              0x483 //
-#define FLAG_ITEM_                                 0x484 //
-#define FLAG_ITEM_                              0x485 //
-#define FLAG_ITEM_                                  0x486 //
-#define FLAG_ITEM_                              0x487 //
-#define FLAG_ITEM_                           0x488 //
-#define FLAG_ITEM_                                   0x489 //
-#define FLAG_ITEM_                            0x48A //
-#define FLAG_ITEM_                            0x48B //
-#define FLAG_ITEM_                    0x48C //
-#define FLAG_ITEM_                  0x48D //
-#define FLAG_ITEM_                        0x48E //
-#define FLAG_ITEM_                        0x48F //
-#define FLAG_ITEM_                       0x490 //
-#define FLAG_ITEM_                     0x491 //
-#define FLAG_ITEM_                  0x492 //
+// #define FLAG_ITEM_                                  0x3E8
+// #define FLAG_ITEM_                               0x3E9
+// #define FLAG_ITEM_                                   0x3EA
+// #define FLAG_ITEM_                                    0x3EB
+// #define FLAG_ITEM_                                 0x3EC
+// #define FLAG_ITEM_                                   0x3ED
+// #define FLAG_ITEM_                              0x3EE
+// #define FLAG_ITEM_                                0x3EF
+// #define FLAG_ITEM_                                   0x3F0
+// #define FLAG_ITEM_                                0x3F1
+// #define FLAG_ITEM_                                   0x3F2
+// #define FLAG_ITEM_                                  0x3F3
+// #define FLAG_ITEM_                               0x3F4
+// #define FLAG_ITEM_                            0x3F5
+// #define FLAG_ITEM_                              0x3F6
+// #define FLAG_ITEM_                                 0x3F7
+// #define FLAG_ITEM_                            0x3F8
+// #define FLAG_ITEM_                                   0x3F9
+// #define FLAG_ITEM_                                    0x3FA
+// #define FLAG_ITEM_                                   0x3FB
+// #define FLAG_ITEM_                                   0x3FC
+// #define FLAG_ITEM_                                   0x3FD
+// #define FLAG_ITEM_                              0x3FE
+// #define FLAG_ITEM_                                  0x3FF
+// #define FLAG_ITEM_                             0x400
+// #define FLAG_ITEM_                                    0x401
+// #define FLAG_ITEM_                                0x402
+// #define FLAG_ITEM_                              0x403
+// #define FLAG_ITEM_                              0x404
+// #define FLAG_ITEM_                          0x405
+// #define FLAG_ITEM_                                  0x406
+// #define FLAG_ITEM_                               0x407
+// #define FLAG_ITEM_                                 0x408
+// #define FLAG_ITEM_                              0x409 // Unused Flag, leftover from R/S. In Emerald this is a hidden item and uses a different flag
+// #define FLAG_ITEM_                                    0x40A
+// #define FLAG_ITEM_                                  0x40B
+// #define FLAG_ITEM_                              0x40C
+// #define FLAG_ITEM_                               0x40D
+// #define FLAG_ITEM_                              0x40E
+// #define FLAG_ITEM_                         0x40F
+// #define FLAG_ITEM_                              0x410
+// #define FLAG_ITEM_                            0x411
+// #define FLAG_ITEM_                           0x412
+// #define FLAG_ITEM_                            0x413
+// #define FLAG_ITEM_                          0x414
+// #define FLAG_ITEM_                      0x415
+// #define FLAG_ITEM_                     0x416
+// #define FLAG_ITEM_                          0x417
+// #define FLAG_ITEM_                          0x418
+// #define FLAG_ITEM_                          0x419
+// #define FLAG_ITEM_                       0x41A
+// #define FLAG_ITEM_                        0x41B
+// #define FLAG_ITEM_                            0x41C
+// #define FLAG_ITEM_                            0x41D
+// #define FLAG_ITEM_                       0x41E
+// #define FLAG_ITEM_                          0x41F
+// #define FLAG_ITEM_                        0x420
+// #define FLAG_ITEM_                               0x421
+// #define FLAG_ITEM_                             0x422
+// #define FLAG_ITEM_                    0x423
+// #define FLAG_ITEM_                  0x424
+// #define FLAG_ITEM_                  0x425
+// #define FLAG_ITEM_                    0x426
+// #define FLAG_ITEM_                  0x427
+// #define FLAG_ITEM_                    0x428
+// #define FLAG_ITEM_                    0x429
+// #define FLAG_ITEM_                            0x42A
+// #define FLAG_ITEM_                 0x42B
+// #define FLAG_ITEM_                  0x42C
+// #define FLAG_ITEM_                    0x42D
+// #define FLAG_ITEM_                             0x42E
+// #define FLAG_ITEM_                       0x42F
+// #define FLAG_ITEM_                        0x430
+// #define FLAG_ITEM_                       0x431
+// #define FLAG_ITEM_                            0x432
+// #define FLAG_ITEM_                           0x433
+// #define FLAG_ITEM_                          0x434
+// #define FLAG_ITEM_    0x435
+// #define FLAG_ITEM_        0x436
+// #define FLAG_ITEM_                               0x437
+// #define FLAG_ITEM_                         0x438
+// #define FLAG_ITEM_                     0x439
+// #define FLAG_ITEM_                  0x43A
+// #define FLAG_ITEM_                   0x43B
+// #define FLAG_ITEM_                        0x43C
+// #define FLAG_ITEM_                             0x43D
+// #define FLAG_ITEM_                            0x43E
+// #define FLAG_ITEM_                     0x43F
+// #define FLAG_ITEM_                        0x440
+// #define FLAG_ITEM_                                  0x441
+// #define FLAG_ITEM_                      0x442
+// #define FLAG_ITEM_                                   0x443
+// #define FLAG_ITEM_                               0x444
+// #define FLAG_ITEM_                              0x445
+// #define FLAG_ITEM_                      0x446
+// #define FLAG_ITEM_               0x447
+// #define FLAG_ITEM_              0x448
+// #define FLAG_ITEM_              0x449
+// #define FLAG_ITEM_                    0x44A
+// #define FLAG_ITEM_                  0x44B
+// #define FLAG_ITEM_        0x44C
+// #define FLAG_ITEM_    0x44D
+// #define FLAG_ITEM_          0x44E
+// #define FLAG_ITEM_                                  0x44F
+// #define FLAG_ITEM_                              0x450
+// #define FLAG_ITEM_                             0x451
+// #define FLAG_ITEM_                          0x452
+// #define FLAG_ITEM_                            0x453
+// #define FLAG_ITEM_                               0x454
+// #define FLAG_ITEM_                                  0x455
+// #define FLAG_ITEM_                        0x456
+// #define FLAG_ITEM_                             0x457
+// #define FLAG_ITEM_                         0x458
+// #define FLAG_ITEM_                0x459
+// #define FLAG_ITEM_                              0x45A
+// #define FLAG_ITEM_                              0x45B
+// #define FLAG_ITEM_                             0x45C
+// #define FLAG_ITEM_                     0x45D
+// #define FLAG_ITEM_                              0x45E
+// #define FLAG_ITEM_                         0x45F
+// #define FLAG_ITEM_                            0x460
+// #define FLAG_ITEM_                            0x461
+// #define FLAG_ITEM_                            0x462
+// #define FLAG_ITEM_                        0x463
+// #define FLAG_ITEM_                      0x464
+// #define FLAG_ITEM_                 0x465 // Unused Flag, leftover from the Ruby Magma hideout
+// #define FLAG_ITEM_                  0x466 // Unused Flag, leftover from the Ruby Magma hideout
+// #define FLAG_ITEM_                   0x467 // Unused Flag, leftover from the Ruby Magma hideout
+// #define FLAG_ITEM_                                           0x468 // Unused Flag
+// #define FLAG_ITEM_                             0x469
+// #define FLAG_ITEM_                            0x46A
+// #define FLAG_ITEM_                 0x46B
+// #define FLAG_ITEM_                           0x46C
+// #define FLAG_ITEM_                       0x46D // Unused Flag, leftover from R/S. HM08 is given to the player directly in Emerald
+// #define FLAG_ITEM_                                  0x46E
+// #define FLAG_ITEM_                                  0x46F
+// #define FLAG_ITEM_                                           0x470 // Unused Flag
+// #define FLAG_ITEM_                                   0x471
+// #define FLAG_ITEM_                                           0x472 // Unused Flag
+// #define FLAG_ITEM_                              0x473
+// #define FLAG_ITEM_                                  0x474
+// #define FLAG_ITEM_                                  0x475
+// #define FLAG_ITEM_                                  0x476
+// #define FLAG_ITEM_                            0x477
+// #define FLAG_ITEM_                             0x478
+// #define FLAG_ITEM_                                           0x479 // Unused Flag
+// #define FLAG_ITEM_                                  0x47A
+// #define FLAG_ITEM_                               0x47B
+// #define FLAG_ITEM_                                  0x47C
+// #define FLAG_ITEM_                                  0x47D
+// #define FLAG_ITEM_                                    0x47E
+// #define FLAG_ITEM_                       0x47F
+// #define FLAG_ITEM_                                   0x480
+// #define FLAG_ITEM_                           0x481
+// #define FLAG_ITEM_                               0x482
+// #define FLAG_ITEM_                              0x483
+// #define FLAG_ITEM_                                 0x484
+// #define FLAG_ITEM_                              0x485
+// #define FLAG_ITEM_                                  0x486
+// #define FLAG_ITEM_                              0x487
+// #define FLAG_ITEM_                           0x488
+// #define FLAG_ITEM_                                   0x489
+// #define FLAG_ITEM_                            0x48A
+// #define FLAG_ITEM_                            0x48B
+// #define FLAG_ITEM_                    0x48C
+// #define FLAG_ITEM_                  0x48D
+// #define FLAG_ITEM_                        0x48E
+// #define FLAG_ITEM_                        0x48F
+// #define FLAG_ITEM_                       0x490
+// #define FLAG_ITEM_                     0x491
+// #define FLAG_ITEM_                  0x492
 
 #define FLAG_ITEM_VIRIDIAN_CITY_POTION                       0x493 // Unused Flag //ITEM
 #define FLAG_ITEM_CELADON_CITY_ETHER                         0x494 // Unused Flag //ITEM

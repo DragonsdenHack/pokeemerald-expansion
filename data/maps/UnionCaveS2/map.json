@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "UnionCaveS2_EventScript_ItemBlastoisinite",
-      "flag": "FLAG_ITEM_UNION_CAVE_S2_BLASTOISINITE"
+      "script": "NULL",
+      "flag": "0"
     }
   ],
   "warp_events": [

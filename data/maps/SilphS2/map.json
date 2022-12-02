@@ -375,8 +375,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphS2_EventScript_ItemPPMAX",
-      "flag": "FLAG_ITEM_SILPH_S2_PP_MAX"
+      "script": "NULL",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -583,8 +583,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SilphS2_EventScript_ItemRareCandy",
-      "flag": "FLAG_ITEM_SILPH_S2_RARE_CANDY"
+      "script": "NULL",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",

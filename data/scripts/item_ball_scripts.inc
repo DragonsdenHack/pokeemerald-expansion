@@ -78,7 +78,7 @@ Route24_EventSScript_ItemRevive::
 
 
 
-Route25_EventSScript_ItemTM43::
+Route25_EventSScript_TM43::
     finditem ITEM_TM43
 	end
 
@@ -149,8 +149,8 @@ WaterPath_EventScript_ItemElixir::
 
 
 
-WaterPath_EventScript_ItemDragonScale::
-    finditem ITEM_DRAGON_SCALE
+WaterPath_EventSScript_Dragonscale::
+    finditem ITEM_ELIXIR
 	end
 
 
@@ -161,8 +161,8 @@ OutcastIsland_EventScript_ItemPPUP::
 
 
 
-RuinValley_EventScript_ItemTM12::
-    finditem ITEM_TM12
+RuinValley_EventSScript_TM12::
+    finditem ITEM_PP_UP
 	end
 
 
@@ -384,8 +384,8 @@ Route51_EventSScript_ItemButterfrite::
 
 
 
-Route53_EventSScript_ItemSteelixite::
-    finditem ITEM_STEELIXITE
+Route53_EventSScript_Steelexite::
+    finditem ITEM_BEEDRILLITE
 	end
 
 
@@ -624,6 +624,11 @@ DarkCave_EventSScript_ItemKangaskhanite::
 
 
 
+DarkCave2_EventSScript_Kangaskhanite::
+    finditem ITEM_KANGASKHANITE
+	end
+
+
 
 DarkCave_EventSScript_ItemPPUP::
     finditem ITEM_PP_UP
@@ -680,8 +685,8 @@ UnionCaveS1_EventScript_ItemRareCandy::
 
 
 
-UnionCaveS2_EventScript_ItemBlastoisinite::
-    finditem ITEM_BLASTOISINITE
+UnionCaveS2_EventScript_Blastoisinite::
+    finditem ITEM_RARE_CANDY
 	end
 
 
@@ -698,8 +703,8 @@ IlexForest_EventScript_ItemAntidote::
 
 
 
-IlexForest_EventScript_ItemLeek::
-    finditem ITEM_LEEK
+IlexForest_EventScript_Stick::
+    finditem ITEM_ANTIDOTE
 	end
 
 
@@ -794,7 +799,8 @@ MtMortar_EventScript_ItemEscapeRope::
 
 
 
-MtMortar2_EventScript_ItemRevive::
+
+MtMortar4_EventScript_Revive::
     finditem ITEM_REVIVE
 	end
 
@@ -1432,8 +1438,8 @@ RockTunnel1F_EventScript_ItemEscapeRope::
 
 
 
-RockTunnel1F_EventScript_ItemTM23::
-    finditem ITEM_TM23
+RockTunnel1F_EventScript_TM23::
+    finditem ITEM_ESCAPE_ROPE
 	end
 
 

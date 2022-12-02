@@ -7,7 +7,7 @@ NULL::
 	goto_if_set FLAG_EXCHANGED_SCANNER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
 	checkitem ITEM_SCANNER
 	goto_if_eq VAR_RESULT, TRUE, AbandonedShip_CaptainsOffice_EventScript_CanYouDeliverScanner
-	goto_if_set FLAG_ITEM_VICTORY_ROAD_2F_TM_37, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
+	goto_if_set FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER, AbandonedShip_CaptainsOffice_EventScript_ThisIsSSCactus
 	msgbox AbandonedShip_CaptainsOffice_Text_NoSuccessFindingScanner, MSGBOX_DEFAULT
 	release
 	end
