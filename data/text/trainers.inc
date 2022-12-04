@@ -5573,3 +5573,148 @@ Route25_Text_Chica2Defeated:
 Route25_Text_Chica2PostBattle:
 	.string "¿Estuviste en el MT.MOON?\n"
 	.string "¿Viste a algún CLEFAIRY?$"
+
+
+Route11_Text_AncianoIntro:
+	.string "¡Gana, pierde o empata!$"
+
+
+Route11_Text_AncianoDefeated:
+	.string "¡La suerte no cayó de mi lado!$"
+
+
+Route11_Text_AncianoPostBattle:
+	.string "¡Los POKÉMON son como la vida!\n"
+	.string "¡Y vivir es apostar!$"
+
+
+Route11_Text_ChicoIntro:
+	.string "¡Vamos, pero no hagas trampas!$"
+
+
+Route11_Text_ChicoDefeated:
+	.string "¿Como?\n"
+	.string "¡Eso no fue justo!$"
+
+
+Route11_Text_ChicoPostBattle:
+	.string "Los ROCKETS usan mucho a EKANS.\n"
+	.string "¿Cierto?$"
+
+
+Route11_Text_Chico2Intro:
+	.string "Cuidé cuidadosamente de mis\n"
+	.string "POKÉMON.\l"
+	.string "¡Deberían de estar ya listos!$"
+
+
+Route11_Text_Chico2Defeated:
+	.string "¡Bye-bye!\n"
+	.string "¡Gracias y adios!$"
+
+
+Route11_Text_Chico2PostBattle:
+	.string "Tch...\n"
+	.string "¡Creo que iré a buscar algunos más\l"
+	.string "fuertes!$"
+
+
+Route11_Text_Chico3Intro:
+	.string "Hace poco que soy ENTRENADOR, pero\n"
+	.string "creo que puedo ganar.$"
+
+
+Route11_Text_Chico3Defeated:
+	.string "¿No he entrenado lo suficiente?$"
+
+
+Route11_Text_Chico3PostBattle:
+	.string "A vosotros los ROCKETS os gusta\n"
+	.string "jugar con fuego, un día os\l"
+	.string "atraparán a todos.$"
+
+
+Route11_Text_MecanicoIntro:
+	.string "¡Espero que respetes el alumbrado\n"
+	.string "público ROCKET!$"
+
+
+Route11_Text_MecanicoDefeated:
+	.string "¡Whoa!\n"
+	.string "¡Vaya chispazo!$"
+
+
+Route11_Text_MecanicoPostBattle:
+	.string "Mejor vuelvo al trabajo.$"
+
+
+Route11_Text_Anciano2Intro:
+	.string "¡Competición!\n"
+	.string "¡No me canso de competir!$"
+
+
+Route11_Text_Anciano2Defeated:
+	.string "¡Tuve mi oportunidad!$"
+
+
+Route11_Text_Anciano2PostBattle:
+	.string "¡No puedes ser un cobarde en el\n"
+	.string "mundo de los POKÉMON!$"
+
+
+Route11_Text_Mecanico2Intro:
+	.string "¡Cuidado con esos cables!\n"
+	.string "¡Incluso vuestras sucias bases\l"
+	.string "secretas necesitan de luz para\l"
+	.string "trabajar en ellas!$"
+
+
+Route11_Text_Mecanico2Defeated:
+	.string "¡Electrificante!$"
+
+
+Route11_Text_Mecanico2PostBattle:
+	.string "¡La energía es el motor de nuestro\n"
+	.string "mundo!$"
+
+
+Route11_Text_Anciano3Intro:
+	.string "Nunca he ganado...$"
+
+
+Route11_Text_Anciano3Defeated:
+	.string "Se veía venir...$"
+
+
+Route11_Text_Anciano3PostBattle:
+	.string "Tuve mala suerte, como siempre.$"
+
+
+Route11_Text_Chico4Intro:
+	.string "Soy el mejor de mi clase.\n"
+	.string "Entreno cada mañana.$"
+
+
+Route11_Text_Chico4Defeated:
+	.string "¡Mis POKÉMON necesitan ser más\n"
+	.string "fuertes!$"
+
+
+Route11_Text_Chico4PostBattle:
+	.string "Hay un POKÉMON enorme que bajó de\n"
+	.string "las montañas bloqueando la ruta\l"
+	.string "este que lleva a LAVANDA.\l"
+	.string "¡Con ese POKÉMON sería más fuerte!$"
+
+
+Route11_Text_Anciano4Intro:
+	.string "¡Fwahaha!\n"
+	.string "¡Nunca he perdido!$"
+
+
+Route11_Text_Anciano4Defeated:
+	.string "¡Mi primera derrota!$"
+
+
+Route11_Text_Anciano4PostBattle:
+	.string "Tuviste suerte, eso fue todo.$"
