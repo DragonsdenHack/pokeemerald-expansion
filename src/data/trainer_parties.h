@@ -3159,7 +3159,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Valerie4[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_Valerie5[] = {
     {
     .iv = 40,
-    .lvl = 14,
+    .lvl = 13,
     .species = SPECIES_BUTTERFREE,
     }
 };
@@ -3332,7 +3332,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Cindy4[] = {
 static const struct TrainerMonItemDefaultMoves sParty_Cindy5[] = {
     {
     .iv = 30,
-    .lvl = 14,
+    .lvl = 13,
     .species = SPECIES_CLEFAIRY,
     .heldItem = ITEM_NUGGET
     }

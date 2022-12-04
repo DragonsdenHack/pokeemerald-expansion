@@ -4779,3 +4779,558 @@ Route134_Text_HudsonPostBattle:
 	.string "Our boat drifted out to sea.\p"
 	.string "My buddy's a timid fellow, so I'm\n"
 	.string "worried about him.$"
+
+RocketWarehouse_Text_IsaacIntro:
+    .string "Aquí en ISLA INTA tenemos por\n"
+	.string "costumbre probar las habilidades\l"
+	.string "de los nuevos reclutas nada más\l"
+	.string "empezar.\l"
+	.string "¡En guardia!$"
+
+
+
+RocketWarehouse_Text_IsaacDefeated:
+    .string "Bien, recluta. Sigue adelante.$"
+
+
+
+RocketWarehouse_Text_IsaacPostBattle:
+    .string "No todos los que estábais en la\n"
+	.string "presentación acabaréis siendo\l"
+	.string "merecedores de pertenecer a\l"
+	.string "nuestra organización, tú por el\l"
+	.string "momento te estás salvando.$"
+
+
+
+RocketWarehouse_Text_ReclutaIntro:
+    .string "La confidencialidad de nuestro\n"
+	.string "ALMACÉN subterráneo es vital.$"
+
+
+
+RocketWarehouse_Text_ReclutaDefeated:
+    .string "Parece que los RECLUTAS de este\n"
+	.string "año vienen fuertes.$"
+
+
+
+RocketWarehouse_Text_ReclutaPostBattle:
+   .string "En caso de invasión, colocaríamos\n"
+	.string "las celdas de al lado de forma que\l"
+	.string "taparían el acceso a las escaleras\l"
+	.string "que dan a nuestro subterráneo\l"
+	.string "secreto, nadie puede acceder a uno\l"
+	.string "de nuestros centros de exportación\l"
+	.string "principales.$"
+
+
+
+RocketWarehouse_Text_Isaac_4Intro:
+    .string "De modo que ATLAS te ha convocado\n"
+	.string "en su despacho junto con los otros\l"
+	.string "tres reclutas que se quedan\l"
+	.string "aquí...\l"
+	.string "¡Lo que no te ha dicho es que\l"
+	.string "vamos a poneros a prueba antes!$"
+
+
+
+RocketWarehouse_Text_Isaac_4Defeated:
+    .string "Esto es lo que esperamos de\n"
+	.string "vosotros.$"
+
+
+
+RocketWarehouse_Text_Isaac_4PostBattle:
+    .string "ATLAS os tiene reservada una\n"
+	.string "misión especial aquí en ISLA INTA,\l"
+	.string "aprovechad esta oportunidad que a\l"
+	.string "pocos se les da.$"
+
+
+
+FileIsleMeadow_Text_GruntIntro:
+    .string "Estoy ya cansado de esta maldita\n"
+	.string "isla, ¡ni el viento se mueve!\l"
+	.string "¡Echemos un combate, camarada!$"
+
+
+FileIsleMeadow_Text_GruntDefeated:
+    .string "¡Por fin! ¡Algo de diversión!$"
+
+
+FileIsleMeadow_Text_GruntPostBattle:
+    .string "Espero que pronto me trasladen a\n"
+	.string "KANTO, seguro que al menos hay más\l"
+	.string "acción que en esta soporífera\l"
+	.string "isla.$"
+
+
+
+MemorialPillar_Text_MarcIntro:
+    .string "¡Soy el mayor de los hermanos\n"
+	.string "pájaro!\l"
+	.string "¡Lo mejor que tienen los pájaros\l"
+	.string "es el pico!$"
+
+
+
+MemorialPillar_Text_MarcDefeated:
+    .string "¡No!$"
+
+
+MemorialPillar_Text_MarcPostBattle:
+	.string "Mientras respetéis este lugar, no\n"
+	.string "pondremos oposición a que\l"
+	.string "instaléis vuestros negocios por\l"
+	.string "aquí.$"
+
+
+
+MemorialPillar_Text_BrendenIntro:
+    .string "Soy el mediano de los hermanos\n"
+	.string "pájaro, deberías de saber que lo\l"
+	.string "mejor que tienen los POKÉMON tipo\l"
+	.string "volador son las alas.$"
+
+
+
+MemorialPillar_Text_BrendenDefeated:
+    .string "¡Flap, flap!$"
+
+
+
+MemorialPillar_Text_BrendenPostBattle:
+    .string "Más al sur está el PILAR RECUERDO,\n"
+	.string "al parecer en honor a un ONIX que\l"
+	.string "falleció hace no mucho.$"
+
+
+
+MemorialPillar_Text_LilithIntro:
+    .string "Soy el menor de los hermanos\n"
+	.string "pájaro.\l"
+	.string "No hay duda de que lo mejor que\l"
+	.string "tienen los POKÉMON tipo VOLADOR\l"
+	.string "son las patas.$"
+
+
+MemorialPillar_Text_LilithDefeated:
+    .string "Bah, ya estoy acostumbrado a\n"
+	.string "perder.$"
+
+
+MemorialPillar_Text_LilithPostBattle:
+    .string "¡Me hace sentir feliz observar a\n"
+	.string "mis aves jugar alegremente!$"
+
+
+
+WaterLabyrinth_Text_LassIntro:
+    .string "Estamos en un ambiente perfecto\n"
+	.string "para criar a nuestros POKÉMON.$"
+
+
+WaterLabyrinth_Text_LassDefeated:
+    .string "¡Tus POKÉMON están creciendo a un\n"
+	.string "gran ritmo!$"
+
+WaterLabyrinth_Text_LassPostBattle:
+    .string "A pesar de que seas del TEAM\n"
+	.string "ROCKET, veo en ti aptitudes de un\l"
+	.string "buen CRIAPOKÉMON.$"
+
+
+
+WaterLabyrinth_Text_GentlemanIntro:
+    .string "¿Cómo?\n"
+	.string "¿Un HUEVO que contiene un TOGEPI?\l"
+	.string "¡Yo no hago regalos a\l"
+	.string "delincuentes!$"
+
+
+WaterLabyrinth_Text_GentlemanDefeated:
+    .string "No puede ser, ¡MEOWTH!$"
+
+
+WaterLabyrinth_Text_GentlemanPostBattle:
+    .string "Los ROCKETS de por aquí suelen ser\n"
+	.string "más débiles, si lo haces bien\l"
+	.string "seguro que vuestro general te\l"
+	.string "recompensará como es debido.$"
+
+	
+ResortGorgeus_Text_Pintora1Intro:
+    .string "Hmmm..\n"
+	.string "El ángulo idóneo no está del todo\l"
+	.string "allí.$"
+
+
+ResortGorgeus_Text_Pintora1Defeated:
+	.string "Oh.\n"
+	.string "Mis sentimientos cobran un tono\l"
+	.string "azul.$"
+
+
+ResortGorgeus_Text_Pintora1PostBattle:
+	.string "El cielo y el mar son muy\n"
+	.string "volubles.\l"
+	.string "Sus expresiones cambiantes son muy\l"
+	.string "difíciles de captar.$"
+
+
+ResortGorgeus_Text_Rica1Intro:
+	.string "¿Cómo?\n"
+	.string "¿Vas a visitar a CÓNSUL?\l"
+	.string "¡Un ROCKET como tú no tiene\l"
+	.string "derecho siquiera a mirarle a los\l"
+	.string "ojos!$"
+
+ResortGorgeus_Text_Rica1Defeated:
+	.string "Oh, demasiado fuerte.$"
+
+
+ResortGorgeus_Text_Rica1PostBattle:
+	.string "Nuestra CÓNSUL se ha ganado su\n"
+	.string "puesto limpiamente.\l"
+	.string "¡Nadie va a extorsionarla!$"
+
+ResortGorgeus_Text_JulioIntro:
+    .string "Soy un buen corredor.\n"
+	.string "¡Soy muy rápido!$"
+
+
+ResortGorgeus_Text_JulioDefeated:
+	.string "¡Vaya!\n"
+	.string "¡Me apresuré!$"
+
+
+ResortGorgeus_Text_JulioPostBattle:
+	.string "Cuando corro con el viento a\n"
+	.string "favor, ¡es como si pudiera volar!$"
+
+
+ResortGorgeus_Text_Rica2Intro:
+	.string "Creo que construiré una piscina\n"
+	.string "hecha específicamente para mis\l"
+	.string "POKÉMON.$"
+
+
+ResortGorgeus_Text_Rica2Defeated:
+	.string "¡Oh, por Dios que insolencia!$"
+
+
+ResortGorgeus_Text_Rica2PostBattle:
+	.string "Una piscina estaría bien, pero\n"
+	.string "debo de decir que un solárium\l"
+	.string "sería sublime.$"
+
+
+ResortGorgeus_Text_Pintora2Intro:
+	.string "¡Perdona!\n"
+	.string "¡Estoy intentando pintar!\l"
+	.string "¿Puedes apartarte de mi campo de\l"
+	.string "visión?$"
+
+
+ResortGorgeus_Text_Pintora2Defeated:
+	.string "Esta derrota.\n"
+	.string "¡Creo que me he salido de la raya!$"
+
+
+ResortGorgeus_Text_Pintora2PostBattle:
+	.string "¿GILLIAN?\n"
+	.string "Por favor gira levemente tu cabeza\l"
+	.string "a tu izquierda.\l"
+	.string "¡Ahí!\l"
+	.string "¡Esa es la perspectiva que quiero!$"
+
+
+ResortGorgeus_Text_Pintora3Intro:
+	.string "¡Con estas manos crearé mi\n"
+	.string "victoria!$"
+
+
+ResortGorgeus_Text_Pintora3Defeated:
+	.string "¡Vaya!\n"
+	.string "¡Me he manchado las manos!$"
+
+
+ResortGorgeus_Text_Pintora3PostBattle:
+	.string "Uh-oh, mis tubos de pintura se han\n"
+	.string "disperso por todos lados.$"
+
+ResortGorgeus_Text_NadadorIntro:
+	.string "La vida marina alrededor de este\n"
+	.string "complejo va mucho conmigo.$"
+
+
+ResortGorgeus_Text_NadadorDefeated:
+	.string "¿En serio?\n"
+	.string "Debes de estar bromeando.$"
+
+
+ResortGorgeus_Text_NadadorPostBattle:
+	.string "Ponerse tan serio por un simple\n"
+	.string "combate, qué sinsentido.$"
+
+
+LostCaveLadderRoom1_Text_HikerIntro:
+	.string "Pensé que este lugar formaba parte\n"
+	.string "de alguna ruina ancestral.\l"
+	.string "¡Pero está llena de fantasmas!$"
+
+
+LostCaveLadderRoom1_Text_HikerDefeated:
+	.string "¡Aiyeeeeeh!\n"
+	.string "¡Gracias!$"
+
+LostCaveLadderRoom1_Text_HikerPostBattle:
+	.string "Estoy tratando de salir de aquí,\n"
+	.string "pero siempre acabo en el mismo\l"
+	.string "lugar, quizás el número de rocas\l"
+	.string "que hay en cada sala quiera decir\l"
+	.string "algo...$"
+
+
+LostCaveB1FPath3_Text_MediumIntro:
+    .string "Esta cueva desprende algún tipo de\n"
+	.string "poder misterioso.$"
+
+
+LostCaveB1FPath3_Text_MediumDefeated:
+	.string "Si no escoges el túnel correcto,\n"
+	.string "nunca saldrás de aquí.$"
+
+
+LostCaveB1FPath3_Text_MediumPostBattle:
+	.string "He visto a dos soldados similares\n"
+	.string "a ti, junto con la CÓNSUL del\l"
+	.string "lugar.\l"
+	.string "¿Ha hecho algo malo?$"
+
+
+LostCaveB1FLastRoom_Text_RicaIntro:
+	.string "CÓNSUL: ¡¿Tú de nuevo?!\n"
+	.string "¡¡Mira lo que has conseguido!!\l"
+	.string "Recluida en esta CUEVA bajo\l"
+	.string "estricta vigilancia, me han\l"
+	.string "quitado a mi querido MAREEP, a mi\l"
+	.string "WOOPER y dejado solo a mis\l"
+	.string "MEOWTHS, ¡vas a pagar por ello!$"
+
+
+LostCaveB1FLastRoom_Text_RicaDefeated:
+	.string "¡Perdí de nuevo!$"
+
+
+LostCaveB1FLastRoom_Text_RicaPostBattle:
+	.string "CÓNSUL: Algún día vendrá alguien y\n"
+	.string "me rescatará de este lugar, ¡los\l"
+	.string "ROCKETS solo sóis hormigas!$"
+
+Route6_Text_Joven1Intro:
+	.string "¿Después de todo lo que habéis\n"
+	.string "causado por la región tienes el\l"
+	.string "cinismo de campar a tus anchas por\l"
+	.string "aquí?$"
+
+
+Route6_Text_Joven1Defeated:
+	.string "Batido por un ROCKET.$"
+
+
+Route6_Text_Joven1PostBattle:
+	.string "¡No vas a robarme los POKÉMON\n"
+	.string "ROCKET!$"
+
+
+Route6_Text_Chica1Intro:
+    .string "¿Quieres luchar?\n"
+	.string "Vale, ¡pero no me hagas daño!$"
+
+
+Route6_Text_Chica1Defeated:
+	.string "No me salieron las cosas...$"
+
+
+Route6_Text_Chica1PostBattle:
+	.string "No es común ver a ROCKETS pelear\n"
+	.string "por gusto en rutas así.$"
+
+
+Route6_Text_CazabichosIntro:
+    .string "Pero qué tenemos aquí, un ROCKET\n"
+	.string "listo para ser liquidado por mi\l"
+	.string "POKÉMON insecto.$"
+
+
+Route6_Text_CazabichosDefeated:
+	.string "¿Perdí?$"
+
+
+Route6_Text_CazabichosPostBattle:
+	.string "No puede ser que mi POKÉMON sea\n"
+	.string "tan débil como para caer ante un\l"
+	.string "ROCKET, ¿o sí?$"
+
+
+Route6_Text_Chica2Intro:
+	.string "¡No nos hagas daño!\n"
+	.string "¡Solo estámos hablando!$"
+
+Route6_Text_Chica2Defeated:
+	.string "¡No por favor!$"
+
+
+Route6_Text_Chica2PostBattle:
+	.string "Suspiro...\n"
+	.string "Suspiro...$"
+
+
+Route6_Text_Joven2Intro:
+	.string "¡No te metas con mi chica ROCKET o\n"
+	.string "lo pagarás caro!$"
+
+
+Route6_Text_Joven2Defeated:
+	.string "¡He quedado como un imbécil!$"
+
+
+Route6_Text_Joven2PostBattle:
+	.string "Suspiro...\n"
+	.string "Suspiro...$"
+
+
+Route6_Text_Cazabichos2Intro:
+	.string "Vosotros, los ROCKET, no usáis\n"
+	.string "muchos bichos, ¿verdad?$"
+
+
+Route6_Text_Cazabichos2Defeated:
+	.string "¡No!\n"
+	.string "¿Me estás tomando el pelo?$"
+
+
+Route6_Text_Cazabichos2PostBattle:
+	.string "He oído que algunos ROCKETS por la\n"
+	.string "región de JOHTO usaban POKÉMON\l"
+	.string "como ARIADOS, ¡algunos de KANTO\l"
+	.string "como PINSIR o SCYTHER también\l"
+	.string "darían el pego para algunos de\l"
+	.string "vuestros oficiales!$"
+
+
+MtMoon1F_Text_HikerIntro:
+    .string "La gente como vosotros lo que\n"
+	.string "merece es un buen escarmiento, eso\l"
+	.string "es lo que merece.$"
+
+
+MtMoon1F_Text_HikerDefeated:
+	.string "Un ROCKET dándome lecciones...$"
+
+
+MtMoon1F_Text_HikerPostBattle:
+	.string "La gente sin sentido cívico como\n"
+	.string "vosotros va a acabar muy mal.$"
+
+
+MtMoon1F_Text_JovenIntro:
+    .string "Yo vine aquí para impresionar a\n"
+	.string "las chicas.\l"
+	.string "¡No para lidiar con delincuentes!$"
+
+
+MtMoon1F_Text_JovenDefeated:
+    .string "Esto ya es el colmo.$"
+
+
+MtMoon1F_Text_JovenPostBattle:
+	.string "Estoy harto de esta cueva, creo\n"
+	.string "que me iré pronto a casa.$"
+
+
+MtMoon1F_Text_ChicaIntro:
+	.string "¡Un ROCKET!\n"
+	.string "¡Aléjate de mí!$"
+
+
+MtMoon1F_Text_ChicaDefeated:
+	.string "¡Mis pobres plantas!$"
+
+
+MtMoon1F_Text_ChicaPostBattle:
+	.string "¡Algún día nuestras autoridades os\n"
+	.string "pondrán en vuestro lugar!$"
+
+
+MtMoon1F_Text_CazabichosIntro:
+	.string "¡Un ROCKET!\n"
+	.string "¡Aghhhh!\l"
+	.string "¡Ughhhhh!$"
+
+
+MtMoon1F_Text_CazabichosDefeated:
+	.string "¡Mis insectos!$"
+
+
+MtMoon1F_Text_CazabichosPostBattle:
+	.string "¡Casi me caigo del susto al verte!\n"
+	.string "La mayoría dice pestes de todos\l"
+	.string "vosotros en las ciudades donde\l"
+	.string "están más a salvo, pero en lugares\l"
+	.string "así se cagan de miedo.$"
+
+
+MtMoon1F_Text_Chica2Intro:
+	.string "¡No!\n"
+	.string "¡CLEFAIRY es un POKÉMON muy común,\l"
+	.string "más que un RATTATA!$"
+
+
+MtMoon1F_Text_Chica2Defeated:
+	.string "¡No me hagas daño!$"
+
+
+MtMoon1F_Text_Chica2PostBattle:
+	.string "Algunos ROCKETS abusan de los\n"
+	.string "entrenadores derrotados robándoles\l"
+	.string "todos sus POKÉMON, al menos no\l"
+	.string "todos sois iguales...$"
+
+
+MtMoon1F_Text_CientificoIntro:
+	.string "Vosotros, los ROCKET, no sabéis\n"
+	.string "cómo lidiar con el TIPO ACERO.$"
+
+
+MtMoon1F_Text_CientificoDefeated:
+	.string "¡Mis cálculos fallaron!$"
+
+
+MtMoon1F_Text_CientificoPostBattle:
+	.string "Por el momento, mi % de victoria\n"
+	.string "ante los ROCKET es del 57%.\l"
+	.string "He vencido a 4 SOLDADOS mientras\l"
+	.string "que solo tú, otra chica y otro\l"
+	.string "RECLUTA con cara de pocos amigos\l"
+	.string "me han derrotado.$"
+
+
+MtMoon1F_Text_Cazabichos2Intro:
+	.string "¿Qué se siente al estar fuera de\n"
+	.string "la ley?$"
+
+
+MtMoon1F_Text_Cazabichos2Defeated:
+	.string "Solo tenía curiosidad...$"
+
+
+MtMoon1F_Text_Cazabichos2PostBattle:
+	.string "Si vas hacia el oeste te\n"
+	.string "encontrarás con CIUDAD PLATEADA,\l"
+	.string "allí hay un MUSEO donde exponen\l"
+	.string "los mismos FÓSILES que tanto\l"
+	.string "queréis.$"
