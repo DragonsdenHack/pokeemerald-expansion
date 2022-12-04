@@ -5334,3 +5334,99 @@ MtMoon1F_Text_Cazabichos2PostBattle:
 	.string "allí hay un MUSEO donde exponen\l"
 	.string "los mismos FÓSILES que tanto\l"
 	.string "queréis.$"
+
+
+Route24_Text_CazabichosIntro:
+	.string "Los ROCKET no tienen derecho al\n"
+	.string "reto del PUENTE PEPITA.\l"
+	.string "¡Date media vuelta!$"
+
+
+Route24_Text_CazabichosDefeated:
+	.string "¡Whoo!$"
+
+
+Route24_Text_CazabichosPostBattle:
+	.string "Di lo mejor de mí. Lo único que me\n"
+	.string "molesta es haber perdido contra un\l"
+	.string "ROCKET como tú.$"
+
+
+
+Route24_Text_ChicaIntro:
+	.string "¡Oh no!\n"
+	.string "¿Tengo que pelear contigo?$"
+
+
+
+Route24_Text_ChicaDefeated:
+    .string "¡Mis pobres POKÉMON!$"
+
+
+
+Route24_Text_ChicaPostBattle:
+	.string "Di lo mejor de mí, no robes mis\n"
+	.string "POKÉMON por favor.$"
+
+
+Route24_Text_ChicoIntro:
+	.string "¿No te han dicho que no puedes\n"
+	.string "hacer el reto?\l"
+	.string "¡Tu aventura acaba aquí!$"
+
+
+Route24_Text_ChicoDefeated:
+	.string "¡Me has parado en seco!$"
+
+
+Route24_Text_ChicoPostBattle:
+	.string "Di lo mejor de mí, sé reconocer mi\n"
+	.string "derrota, aunque sea contra un\l"
+	.string "ROCKET.$"
+
+
+Route24_Text_Chica2Intro:
+	.string "¡Las leyes están para cumplirlas!\n"
+	.string "¡Vas a pagar por tus crímenes!$"
+
+
+Route24_Text_Chica2Defeated:
+	.string "¡También perdí!$"
+
+
+Route24_Text_Chica2PostBattle:
+	.string "Antes o después alguien te parará\n"
+	.string "los pies.$"
+
+
+Route24_Text_Chico2Intro:
+	.string "No vas a recibir ningún premio\n"
+	.string "ROCKET. Este reto no es para ti.\l"
+	.string "...\l"
+	.string "...\l"
+	.string "¿Solo quieres acceder a RUTA 25?\l"
+	.string "¡No te concederé ni eso!$"
+
+
+Route24_Text_Chico2Defeated:
+	.string "¡Whoa!\n"
+	.string "¡Demasiado!$"
+
+
+Route24_Text_Chico2PostBattle:
+	.string "Di lo mejor de mí, no me\n"
+	.string "arrepiento de nada.$"
+
+
+Route24_Text_Chico3Intro:
+	.string "¡Te ví llegar desde la hierba!$"
+
+
+Route24_Text_Chico3Defeated:
+	.string "Me lo imaginaba.$"
+
+
+Route24_Text_Chico3PostBattle:
+	.string "Me escondí aquí porque los del\n"
+	.string "puente me asustaron.\l"
+	.string "¡Pero ahora tú me asustas más!$"
