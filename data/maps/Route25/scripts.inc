@@ -64,3 +64,64 @@ end
 
 Route25_13::
 end
+
+Route25_EventScript_Hiker::
+	trainerbattle_single TRAINER_NOB_1, Route25_Text_HikerIntro, Route25_Text_HikerDefeated
+	msgbox Route25_Text_HikerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Hiker2::
+	trainerbattle_single TRAINER_NOB_3, Route25_Text_Hiker2Intro, Route25_Text_Hiker2Defeated
+	msgbox Route25_Text_Hiker2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Chico::
+	trainerbattle_single TRAINER_BROOKE_1, Route25_Text_ChicoIntro, Route25_Text_ChicoDefeated
+	msgbox Route25_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Chico2::
+	trainerbattle_single TRAINER_JENNIFER, Route25_Text_Chico2Intro, Route25_Text_Chico2Defeated
+	msgbox Route25_Text_Chico2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Chica::
+	trainerbattle_single TRAINER_DARRIN, Route25_Text_ChicaIntro, Route25_Text_ChicaDefeated
+	msgbox Route25_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Hiker3::
+	trainerbattle_single TRAINER_NOB_2, Route25_Text_Hiker3Intro, Route25_Text_Hiker3Defeated
+	msgbox Route25_Text_Hiker3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Chico3::
+	trainerbattle_single TRAINER_NANCY, Route25_Text_Chico3Intro, Route25_Text_Chico3Defeated
+	msgbox Route25_Text_Chico3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Chico4::
+	trainerbattle_single TRAINER_HOPE, Route25_Text_Chico4Intro, Route25_Text_Chico4Defeated
+	msgbox Route25_Text_Chico4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route25_EventScript_Chica2::
+	trainerbattle_single TRAINER_SHIRLEY, Route25_Text_Chica2Intro, Route25_Text_Chica2Defeated
+	msgbox Route25_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
+	end

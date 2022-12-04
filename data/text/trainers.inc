@@ -5354,7 +5354,7 @@ Route24_Text_CazabichosPostBattle:
 
 
 Route24_Text_ChicaIntro:
-	.string "¡Oh no!\n"
+	.string "¡Oh, no!\n"
 	.string "¿Tengo que pelear contigo?$"
 
 
@@ -5430,3 +5430,146 @@ Route24_Text_Chico3PostBattle:
 	.string "Me escondí aquí porque los del\n"
 	.string "puente me asustaron.\l"
 	.string "¡Pero ahora tú me asustas más!$"
+
+
+Route25_Text_HikerIntro:
+	.string "¡Acabo de bajar el MT.MOON!\n"
+	.string "¡Pero aún me queda gasolina\l"
+	.string "suficiente para aplastar a un\l"
+	.string "ROCKET!$"
+
+
+Route25_Text_HikerDefeated:
+	.string "¿Cómo?$"
+
+
+Route25_Text_HikerPostBattle:
+	.string "¡No me gustan los ZUBAT!$"
+
+
+Route25_Text_Hiker2Intro:
+	.string "Es muy sospechoso ver a un ROCKET\n"
+	.string "merodeando por aquí, tú tramas\l"
+	.string "algo.$"
+
+
+Route25_Text_Hiker2Defeated:
+	.string "Te estaré vigilando.$"
+
+
+Route25_Text_Hiker2PostBattle:
+	.string "Más te vale no tocar a BILL, o lo\n"
+	.string "lamentarás.$"
+
+
+Route25_Text_ChicoIntro:
+	.string "Esta es una zona para los\n"
+	.string "ENTRENADORES locales, no para ti.$"
+
+
+Route25_Text_ChicoDefeated:
+	.string "¿Perdí?$"
+
+
+Route25_Text_ChicoPostBattle:
+	.string "Todos los POKÉMON tienen\n"
+	.string "debilidades.\l"
+	.string "Incluso los más fuertes, es por\l"
+	.string "eso que lo mejor es entrenar\l"
+	.string "POKÉMON de distintos tipos.$"
+
+
+
+Route25_Text_Chico2Intro:
+    .string "¿Cómo?\n"
+	.string "¡No!\l"
+	.string "¡Mi padre no me ha dado ningún\l"
+	.string "ticket para asistir a una fiesta\l"
+	.string "al SS.ANNE en CARMÍN ni nada\l"
+	.string "parecido!$"
+
+
+Route25_Text_Chico2Defeated:
+	.string "¡No estoy enfadado!$"
+
+
+Route25_Text_Chico2PostBattle:
+	.string "Solo soy un pobre ENTRENADOR.\n"
+	.string "¡Es cierto, no tengo nada valioso!$"
+
+
+Route25_Text_ChicaIntro:
+	.string "¡Si me haces daño llamaré a mi\n"
+	.string "novio!$"
+
+
+
+Route25_Text_ChicaDefeated:
+    .string "No estaba en forma...$"
+
+
+
+Route25_Text_ChicaPostBattle:
+	.string "¡Espero que mi novio te dé una\n"
+	.string "buena lección!$"
+
+
+Route25_Text_Hiker3Intro:
+	.string "Dicen que BILL tiene en su poder\n"
+	.string "POKÉMON que nadie más tiene.$"
+
+
+Route25_Text_Hiker3Defeated:
+	.string "¡Me has propinado una buena\n"
+	.string "paliza!$"
+
+
+Route25_Text_Hiker3PostBattle:
+	.string "Lo cierto es que muchos envidian y\n"
+	.string "odian a BILL a partes iguales, es\l"
+	.string "de los que se cree más guay que\l"
+	.string "los demás por tener POKÉMON raros.$"
+
+
+Route25_Text_Chico3Intro:
+	.string "Soy un buen chico.\n"
+	.string "¡Y tengo novia!$"
+
+
+Route25_Text_Chico3Defeated:
+	.string "Aww, maldito...$"
+
+
+Route25_Text_Chico3PostBattle:
+	.string "Mi novia me regañará por perder\n"
+	.string "con un simple ROCKET...$"
+
+
+Route25_Text_Chico4Intro:
+	.string "Tuve ese sentimiento...\n"
+	.string "¡Sabía que pelearía contigo!$"
+
+
+Route25_Text_Chico4Defeated:
+	.string "¡Sabía que iba a perder!$"
+
+
+Route25_Text_Chico4PostBattle:
+	.string "Si tu POKÉMON se confunde,\n"
+	.string "cámbialo inmediatamente, esa es\l"
+	.string "una buena táctica.$"
+
+
+Route25_Text_Chica2Intro:
+	.string "¡Nunca había visto los POKÉMON de\n"
+	.string "BILL!\l"
+	.string "¡Qué envidia!$"
+
+
+Route25_Text_Chica2Defeated:
+	.string "¡Tus POKÉMON también son fuertes!$"
+
+
+Route25_Text_Chica2PostBattle:
+	.string "¿Estuviste en el MT.MOON?\n"
+	.string "¿Viste a algún CLEFAIRY?$"
