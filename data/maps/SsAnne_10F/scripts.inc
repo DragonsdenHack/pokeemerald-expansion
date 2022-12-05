@@ -29,3 +29,17 @@ SsAnne10F_Text_4:
 .string "entrenadores de todo el mundo.\l"
 .string "¡Pero aquí yo solo veo POKÉMON de\l"
 .string "KANTO!$"
+
+
+
+SsAnne10F_EventScript_Chica::
+	trainerbattle_single TRAINER_JESSICA_1, SsAnne10F_Text_ChicaIntro, SsAnne10F_Text_ChicaDefeated
+	msgbox SsAnne10F_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+SsAnne10F_EventScript_Chico::
+	trainerbattle_single TRAINER_SHANNON, SsAnne10F_Text_ChicoIntro, SsAnne10F_Text_ChicoDefeated
+	msgbox SsAnne10F_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -5718,3 +5718,419 @@ Route11_Text_Anciano4Defeated:
 
 Route11_Text_Anciano4PostBattle:
 	.string "Tuviste suerte, eso fue todo.$"
+
+
+SsAnne6F_Text_MarineroIntro:
+	.string "Estoy de servicio, ¡pero veo que\n"
+	.string "tienes ganas de marcha!$"
+
+
+SsAnne6F_Text_MarineroDefeated:
+	.string "¡Pensé que podía derrotarte!$"
+
+
+SsAnne6F_Text_MarineroPostBattle:
+	.string "Parece que tú no eres de los que\n"
+	.string "bajan la guardia ni en las\l"
+	.string "fiestas, ¡si lo hicieras te\l"
+	.string "hubiera vencido!$"
+
+
+SsAnne6F_Text_Marinero2Intro:
+	.string "Dicen que el licor de SHUCKLE es\n"
+	.string "el más fuerte en 1000 KM a la\l"
+	.string "redonda, ¿quieres probarlo?$"
+
+
+SsAnne6F_Text_Marinero2Defeated:
+	.string "¡No me sirvió!$"
+
+
+SsAnne6F_Text_Marinero2PostBattle:
+	.string "¡Si hubieras probado ese licor no\n"
+	.string "podrías ni tenerte en pie, te lo\l"
+	.string "garantizo!$"
+
+
+SsAnne10F_Text_ChicaIntro:
+	.string "¿Qué hace un ROCKET aquí?$"
+
+
+SsAnne10F_Text_ChicaDefeated:
+	.string "¡No es justo!$"
+
+
+SsAnne10F_Text_ChicaPostBattle:
+	.string "Este es un barco exclusivo, no\n"
+	.string "para delincuentes.$"
+
+
+SsAnne10F_Text_ChicoIntro:
+	.string "¡Mis POKÉMON sanos y cuidados\n"
+	.string "contra tus sucios POKÉMON!$"
+
+
+SsAnne10F_Text_ChicoDefeated:
+	.string "¡Derrotado por POKÉMON callejeros!$"
+
+
+SsAnne10F_Text_ChicoPostBattle:
+	.string "Quizás el ambiente en el que os\n"
+	.string "movéis fortalezca a vuestros\l"
+	.string "POKÉMON.$"
+
+
+SsAnne13F_Text_CaballeroIntro:
+	.string "¡Eres un maleducado!\n"
+	.string "¡Y además un ROCKET!\l"
+	.string "¡No tienes perdón!$"
+
+
+SsAnne13F_Text_CaballeroDefeated:
+	.string "¡Mis fieles POKÉMON!$"
+
+
+SsAnne13F_Text_CaballeroPostBattle:
+	.string "Entre nosotros, sé que los ROCKET\n"
+	.string "sentís predilección por el tipo\l"
+	.string "VENENO, ¿prefieres a NIDORINO o a\l"
+	.string "NIDORINA?$"
+
+
+SsAnne14F_Text_CaballeroIntro:
+	.string "¡Joven insolente!\n"
+	.string "¿No te enseñaron a llamar a la\l"
+	.string "puerta antes de entrar?$"
+
+
+SsAnne14F_Text_CaballeroDefeated:
+	.string "¡Qué insolencia!$"
+
+
+SsAnne14F_Text_CaballeroPostBattle:
+	.string "Hace 15 años te hubiera ganado, el\n"
+	.string "tiempo no perdona chico.$"
+
+
+SsAnne16F_Text_CaballeroIntro:
+	.string "¡Competir contra los jóvenes me\n"
+	.string "mantiene joven!$"
+
+
+SsAnne16F_Text_CaballeroDefeated:
+	.string "¡Buena pelea!\n"
+	.string "¡Vuelvo a sentirme joven!$"
+
+
+SsAnne16F_Text_CaballeroPostBattle:
+	.string "¡Aún eres joven, tienes infinitas\n"
+	.string "sobrecompensaciones por delante!$"
+
+
+SsAnne16F_Text_MarineroIntro:
+	.string "¡Mira lo que he pescado!$"
+
+
+SsAnne16F_Text_MarineroDefeated:
+	.string "¡Estoy acabado!$"
+
+
+SsAnne16F_Text_MarineroPostBattle:
+	.string "La fiesta debe estar a punto de\n"
+	.string "comenzar.$"
+
+
+SsAnne18F_Text_CaballeroIntro:
+	.string "Me extraña que alguien como tú\n"
+	.string "haya sido invitado a un lugar\l"
+	.string "así.$"
+
+
+SsAnne18F_Text_CaballeroDefeated:
+	.string "Victoria limpia, nada que objetar.$"
+
+
+SsAnne18F_Text_CaballeroPostBattle:
+	.string "Eres mucho más fuerte de lo que\n"
+	.string "tus apariencias muestran, esa es\l"
+	.string "una gran arma que puedes usar a tu\l"
+	.string "favor.$"
+
+
+SsAnne18F_Text_ChicaIntro:
+	.string "Vas a ir a la fiesta que hay en\n"
+	.string "proa, ¿no?$"
+
+
+SsAnne18F_Text_ChicaDefeated:
+	.string "¡Oh!¡No me pongas nerviosa!$"
+
+
+SsAnne18F_Text_ChicaPostBattle:
+	.string "¡Me encantan tus fuertes POKÉMON!$"
+
+
+SsAnne21F_Text_PescadorIntro:
+	.string "¡Uajajajajajaja!\n"
+	.string "¡No tienes nada que hacer contra\l"
+	.string "mis POKÉMON provenientes del mar!$"
+
+
+SsAnne21F_Text_PescadorDefeated:
+	.string "¡Maldición!¡Dejé que se me\n"
+	.string "escapara!$"
+
+
+SsAnne21F_Text_PescadorPostBattle:
+	.string "Con tu nivel podría hacer que\n"
+	.string "trabajaras aquí de ayudante.$"
+
+
+SsAnne21F_Text_MarineroIntro:
+	.string "¡Como pierdas caminarás por el\n"
+	.string "tablón!\l"
+	.string "¡Estás avisado!$"
+
+
+SsAnne21F_Text_MarineroDefeated:
+	.string "¡Derrotado por un niño!$"
+
+
+SsAnne21F_Text_MarineroPostBattle:
+	.string "A veces, algunas medusas caen en\n"
+	.string "el barco.$"
+
+
+SsAnne22F_Text_MarineroIntro:
+	.string "¡Pero mira quién ha picado el\n"
+	.string "anzuelo!$"
+
+
+SsAnne22F_Text_MarineroDefeated:
+	.string "¡Se me ha escapado!$"
+
+
+SsAnne22F_Text_MarineroPostBattle:
+	.string "Todos nuestros POKÉMON son\n"
+	.string "pescados en alta mar.$"
+
+
+SsAnne23F_Text_MarineroIntro:
+	.string "¡Me gusta la gente activa como tú!$"
+
+
+SsAnne23F_Text_MarineroDefeated:
+	.string "¡Argh!\n"
+	.string "¡Perdí!$"
+
+
+SsAnne23F_Text_MarineroPostBattle:
+	.string "Muchos POKÉMON marinos viven en\n"
+	.string "aguas profundas.\l"
+	.string "¡Necesitarás una caña para\l"
+	.string "pescarlos!$"
+
+
+SsAnne24F_Text_MarineroIntro:
+	.string "¡Está en juego mi fama de\n"
+	.string "marinero!$"
+
+
+SsAnne24F_Text_MarineroDefeated:
+	.string "¡Tu espíritu me hundió!$"
+
+
+SsAnne24F_Text_MarineroPostBattle:
+	.string "Si quieres pescar POKÉMON marinos\n"
+	.string "de verdad, necesitas una buena\l"
+	.string "caña de pescar, surfeando solo hay\l"
+	.string "TENTACOOL.$"
+
+
+SsAnne24F_Text_Marinero2Intro:
+	.string "¡Ya sabes lo que dicen acerca de\n"
+	.string "los marineros y las batallas!$"
+
+
+SsAnne24F_Text_Marinero2Defeated:
+	.string "¡Buena pelea grumete!$"
+
+
+SsAnne24F_Text_Marinero2PostBattle:
+	.string "¡Podrías ser un gran marinero!$"
+
+
+Route9_Text_ChicaIntro:
+	.string "¡Vamos allá pero no robes mis\n"
+	.string "POKÉMON!$"
+
+
+Route9_Text_ChicaDefeated:
+	.string "Oh...eres demasiado.$"
+
+
+Route9_Text_ChicaPostBattle:
+	.string "El túnel que hay al este está\n"
+	.string "demasiado oscuro como para entrar\l"
+	.string "a ciegas.\l"
+	.string "Necesitarás DESTELLO para\l"
+	.string "atravesarlo.$"
+
+
+Route9_Text_HikerIntro:
+	.string "¡Bwahaha!\n"
+	.string "¡Perfecto! ¡Estaba aburrido!$"
+
+
+Route9_Text_HikerDefeated:
+	.string "Vamos, vamos, ¡eh!\n"
+	.string "Espera.\l"
+	.string "¡No me quedan más POKÉMON!$"
+
+
+Route9_Text_HikerPostBattle:
+	.string "Debes de tener agallas para\n"
+	.string "dirigirte hacia mi así.$"
+
+
+Route9_Text_ChicoIntro:
+	.string "No pareces el típico ROCKET que\n"
+	.string "nunca sale del círculo\l"
+	.string "ZUBAT-RATATTA...\l"
+	.string "¡En guardia!$"
+
+
+Route9_Text_ChicoDefeated:
+	.string "¡No me equivocaba!$"
+
+
+Route9_Text_ChicoPostBattle:
+	.string "¿Qué has hecho para que tus\n"
+	.string "POKÉMON sean tan fuertes?$"
+
+
+Route9_Text_CazabichosIntro:
+	.string "¡Me levanto todas las mañanas\n"
+	.string "temprano para criar a mis POKÉMON\l"
+	.string "CAPULLO!$"
+
+
+Route9_Text_CazabichosDefeated:
+	.string "¿Cómo?\n"
+	.string "¡Esta fue una total pérdida de\l"
+	.string "tiempo!$"
+
+
+Route9_Text_CazabichosPostBattle:
+	.string "Deberé de atrapar algo más que\n"
+	.string "insectos para hacerme más fuerte...$"
+
+
+Route9_Text_Chico2Intro:
+	.string "Tomaré el TÚNEL ROCA para llegar a\n"
+	.string "LAVANDA...$"
+
+
+Route9_Text_Chico2Defeated:
+	.string "¡No pude verlo venir!$"
+
+
+Route9_Text_Chico2PostBattle:
+	.string "¿Vas también hacia el TÚNEL ROCA?$"
+
+
+Route9_Text_Cazabichos2Intro:
+	.string "¡A los ROCKETS no les gustan los\n"
+	.string "POKÉMON tipo bicho!\l"
+	.string "¡Pero SCYTHER O PINSIR irían\l"
+	.string "perfectos para vuestra élite!$"
+
+
+Route9_Text_Cazabichos2Defeated:
+	.string "Mis bichos...$"
+
+
+Route9_Text_Cazabichos2PostBattle:
+	.string "¡A los ROCKETS no les gustan los\n"
+	.string "POKÉMON TIPO BICHO!\l"
+	.string "¡Pero SCYTHER o PINSIR irían\l"
+	.string "perfectos para vuestra élite!$"
+
+
+Route9_Text_Hiker2Intro:
+	.string "¡Hahaha!\n"
+	.string "¡Voy a ajusticiarte pequeño ladrón\l"
+	.string "ROCKET!$"
+
+
+Route9_Text_Hiker2Defeated:
+	.string "¿Qué fue eso?$"
+
+
+Route9_Text_Hiker2PostBattle:
+	.string "¡Hahahaha me has acabado\n"
+	.string "ajusticiando tú!$"
+
+
+Route9_Text_Chica2Intro:
+	.string "¡Ni lo intentes nunca me uniré a\n"
+	.string "vuestra organización!$"
+
+
+Route9_Text_Chica2Defeated:
+	.string "¡No!\n"
+	.string "¡Te denunciaré!$"
+
+
+Route9_Text_Chica2PostBattle:
+	.string "¡Como se te ocurra ponerme una\n"
+	.string "mano encima tendrás a toda la\l"
+	.string "policía de KANTO corriendo detrás\l"
+	.string "tuya!$"
+
+
+Route9_Text_Hiker3Intro:
+	.string "¡Hahahaha!\n"
+	.string "¡Dale!$"
+
+
+Route9_Text_Hiker3Defeated:
+	.string "¡Hahahaha!\n"
+	.string "¡Me venciste limpiamente!$"
+
+
+Route9_Text_Hiker3PostBattle:
+	.string "¡Hahahaha!\n"
+	.string "¡Nosotros los montañeros siempre\l"
+	.string "reímos!$"
+
+
+Route10_Text_ChicaIntro:
+	.string "Vosotros no podéis entrar en los\n"
+	.string "GIMNASIOS POKÉMON, ¡qué pena!\l"
+	.string "¡Yo he estado en casi todos!$"
+
+
+Route10_Text_ChicaDefeated:
+	.string "¡Ohh!\n"
+	.string "¡Después de todo mi entrenamiento!$"
+
+
+Route10_Text_ChicaPostBattle:
+	.string "Siempre que he estado en GIMNASIOS\n"
+	.string "POKÉMON he acabado perdiendo...$"
+
+
+Route10_Text_HikerIntro:
+	.string "¡Lo sabía!\n"
+	.string "¡Todo esto es una conspiración\l"
+	.string "para hacerse con el ave sagrada!$"
+
+
+Route10_Text_HikerDefeated:
+	.string "¡No! ¡Perdóname!$"
+
+
+Route10_Text_HikerPostBattle:
+	.string "¡Yo también quiero tener al gran\n"
+	.string "ZAPDOS y añadirlo a mi colección!$"

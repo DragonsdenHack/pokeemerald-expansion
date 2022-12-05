@@ -106,3 +106,17 @@ end
 
 Route10_13::
 end
+
+
+
+Route10_EventScript_Chica::
+	trainerbattle_single TRAINER_MATTHEW, Route10_Text_ChicaIntro, Route10_Text_ChicaDefeated
+	msgbox Route10_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route10_EventScript_Hiker::
+	trainerbattle_single TRAINER_BARRY, Route10_Text_HikerIntro, Route10_Text_HikerDefeated
+	msgbox Route10_Text_HikerPostBattle, MSGBOX_AUTOCLOSE
+	end
