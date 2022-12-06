@@ -6606,3 +6606,453 @@ RockTunnel2F_Text_Hiker3Defeated:
 RockTunnel2F_Text_Hiker3PostBattle:
 	.string "Entrenaré a mis POKÉMON para que\n"
 	.string "puedan vencer a los tuyos chico.$"
+
+
+PokemonTower3F_Text_ChannelerIntro:
+	.string "¡Vosotros!\n"
+	.string "¡Sois los culpables!$"
+
+
+PokemonTower3F_Text_ChannelerDefeated:
+	.string "¡No te apoderes de mi!$"
+
+
+PokemonTower3F_Text_ChannelerPostBattle:
+	.string "¡Todos los que hacéis el mal\n"
+	.string "arderéis en el infierno!$"
+
+
+PokemonTower3F_Text_Channeler2Intro:
+	.string "Kekeke...\n"
+	.string "¡Kwaaah!$"
+
+
+PokemonTower3F_Text_Channeler2Defeated:
+	.string "¿Hmm?\n"
+	.string "¿Qué estaba haciendo?$"
+
+
+PokemonTower3F_Text_Channeler2PostBattle:
+	.string "¡Perdona!\n"
+	.string "¡Estaba poseída!$"
+
+
+PokemonTower3F_Text_Channeler3Intro:
+	.string "Urrg... Awaa...\n"
+	.string "Huhu... Graa...$"
+
+
+PokemonTower3F_Text_Channeler3Defeated:
+	.string "¡Hwa!\n"
+	.string "¡Estoy a salvo!$"
+
+
+PokemonTower3F_Text_Channeler3PostBattle:
+	.string "¡FUJI os pondrá a todos en vuestro\n"
+	.string "lugar!$"
+
+
+PokemonTower4F_Text_ChannelerIntro:
+	.string "¡Los hombres de negro están aquí!$"
+
+
+PokemonTower4F_Text_ChannelerDefeated:
+	.string "¡No por favor!$"
+
+
+PokemonTower4F_Text_ChannelerPostBattle:
+	.string "¡No me llevéis con vosotros!\n"
+	.string "¡Yo no sé nada!$"
+
+
+PokemonTower4F_Text_Channeler2Intro:
+	.string "Algo se está apoderando de mi\n"
+	.string "cuerpo.$"
+
+
+PokemonTower4F_Text_Channeler2Defeated:
+	.string "Mi voluntad...se apaga...$"
+
+
+PokemonTower4F_Text_Channeler2PostBattle:
+	.string "¡Kikikikikikikikikikiki!$"
+
+
+PokemonTower4F_Text_Channeler3Intro:
+	.string "¡GHOST! ¡No!\n"
+	.string "¡Kwaaah!$"
+
+
+PokemonTower4F_Text_Channeler3Defeated:
+	.string "¿Dónde está el GHOST?$"
+
+
+PokemonTower4F_Text_Channeler3PostBattle:
+	.string "¡ROCKET!\n"
+	.string "¡No!\l"
+	.string "¡Kwaaah!$"
+
+
+PokemonTower5F_Text_ChannelerIntro:
+	.string "¡Tú!¡Siervo de satanás!$"
+
+
+PokemonTower5F_Text_ChannelerDefeated:
+	.string "¡Aghhhhh!$"
+
+
+PokemonTower5F_Text_ChannelerPostBattle:
+	.string "¡Nunca os saldréis con la vuestra!$"
+
+
+PokemonTower5F_Text_Channeler2Intro:
+	.string "Urgah...\n"
+	.string "Urff...$"
+
+
+PokemonTower5F_Text_Channeler2Defeated:
+	.string "¡Whoo!$"
+
+
+PokemonTower5F_Text_Channeler2PostBattle:
+	.string "He caído ante los espíritus\n"
+	.string "malignos a pesar de mi\l"
+	.string "entrenamiento en las montañas...$"
+
+
+PokemonTower5F_Text_Channeler3Intro:
+	.string "La pureza de este lugar no merece\n"
+	.string "ser contaminada con tu presencia.$"
+
+
+PokemonTower5F_Text_Channeler3Defeated:
+	.string "¡Algo se apodera de mi!$"
+
+
+PokemonTower5F_Text_Channeler3PostBattle:
+	.string "Me...estoy...uniendo...a ellos...$"
+
+
+PokemonTower5F_Text_Channeler4Intro:
+	.string "¡No!\n"
+	.string "¡Eres portador de la R maldita!\l"
+	.string "¡R de ROCKET!$"
+
+
+PokemonTower5F_Text_Channeler4Defeated:
+	.string "¡Gasp!$"
+
+
+PokemonTower5F_Text_Channeler4PostBattle:
+	.string "Mi...alma...$"
+
+
+PokemonTower6F_Text_ChannelerIntro:
+	.string "¡Cielo y tierra pasarán más tu\n"
+	.string "palabra no pasará!$"
+
+
+PokemonTower6F_Text_ChannelerDefeated:
+	.string "¡Groan!$"
+
+
+PokemonTower6F_Text_ChannelerPostBattle:
+	.string "¡Perdóname FUJI!$"
+
+
+PokemonTower6F_Text_Channeler2Intro:
+	.string "¡NO, NO, NO, NO, NO, NO PASARÁ!$"
+
+
+PokemonTower6F_Text_Channeler2Defeated:
+	.string "¡Pasó!$"
+
+
+PokemonTower6F_Text_Channeler2PostBattle:
+	.string "¡No pude frenarlos FUJI!$"
+
+
+PokemonTower6F_Text_Channeler3Intro:
+	.string "¡El paraíso te será negado ROCKET!$"
+
+
+PokemonTower6F_Text_Channeler3Defeated:
+	.string "¡Kwahhhhhh!$"
+
+
+PokemonTower6F_Text_Channeler3PostBattle:
+	.string "¡Pagarás por tus crímenes, en esta\n"
+	.string "vida o en la otra!$"
+
+
+RocketHideout5F_Text_RocketIntro:
+	.string "Así que un recién llegado,\n"
+	.string "¡demuestra que tu presencia aquí\l"
+	.string "no es casualidad!$"
+
+
+RocketHideout5F_Text_RocketDefeated:
+	.string "Gran combate compañero.$"
+
+
+RocketHideout5F_Text_RocketPostBattle:
+	.string "Ya veo la razón de que GIOVANNI\n"
+	.string "confíe en ti, esta zona es tu casa\l"
+	.string "RECLUTA.$"
+
+
+RocketHideout5F_Text_Rocket2Intro:
+	.string "No es tan sencillo formar parte de\n"
+	.string "la ÉLITE del TEAM ROCKET,\l"
+	.string "¡muéstrame que tus POKÉMON tienen\l"
+	.string "lo que hay que tener!$"
+
+
+RocketHideout5F_Text_Rocket2Defeated:
+	.string "¡Bienvenido al club RECLUTA!$"
+
+
+RocketHideout5F_Text_Rocket2PostBattle:
+	.string "Espero que tu y tus POKÉMON\n"
+	.string "aportéis mucho a esta gran\l"
+	.string "organización.$"
+
+
+RocketHideout5F_Text_Rocket3Intro:
+	.string "Sabes que aún estando en la base\n"
+	.string "secreta dentro de la base secreta,\l"
+	.string "esto sigue siendo un nivel\l"
+	.string "superficial dentro de nuestra\l"
+	.string "infraestructura, ¿no?$"
+
+
+RocketHideout5F_Text_Rocket3Defeated:
+	.string "¡Qué empuje, así me gusta!$"
+
+
+RocketHideout5F_Text_Rocket3PostBattle:
+	.string "¡Espero que enrolen a más reclutas\n"
+	.string "como tú y esa chica!$"
+
+
+RocketHideout5F_Text_Rocket4Intro:
+	.string "Aproximadamente un 9% del TEAM\n"
+	.string "ROCKET conoce y tiene acceso a\l"
+	.string "este lugar, ¿te ves con el\l"
+	.string "privilegio de pisar estas\l"
+	.string "instalaciones?$"
+
+
+RocketHideout5F_Text_Rocket4Defeated:
+	.string "Parece que si mereces ese\n"
+	.string "privilegio.$"
+
+
+RocketHideout5F_Text_Rocket4PostBattle:
+	.string "El TEAM ROCKET se toma muy en\n"
+	.string "serio a quién se deja y a quién no\l"
+	.string "entrar a este lugar, si alguien\l"
+	.string "ajeno a nosotros se enterase de su\l"
+	.string "existencia podría desatar una\l"
+	.string "guerra.$"
+
+
+Route3_Text_ChicaIntro:
+	.string "¡Eek!\n"
+	.string "¿Me has tocado?$"
+
+
+Route3_Text_ChicaDefeated:
+	.string "¿Eso fue todo?$"
+
+
+Route3_Text_ChicaPostBattle:
+	.string "La RUTA 4 está al pie del MT.MOON.$"
+
+
+Route3_Text_CazabichosIntro:
+	.string "¡Los bichos que capturé en el\n"
+	.string "BOSQUE VERDE han crecido!$"
+
+
+Route3_Text_CazabichosDefeated:
+	.string "¡CATERPIE no pudo cortarlo!$"
+
+
+Route3_Text_CazabichosPostBattle:
+	.string "Los Pokémon entrenados son más\n"
+	.string "fuertes que los salvajes.$"
+
+
+Route3_Text_Chica2Intro:
+	.string "¡Oh, no!\n"
+	.string "¡Eres la segunda persona que me\l"
+	.string "lanza esa mirada tan intrigante!$"
+
+
+Route3_Text_Chica2Defeated:
+	.string "¡Se bueno!$"
+
+
+Route3_Text_Chica2PostBattle:
+	.string "Mientras no me hagas daño ni me\n"
+	.string "robes mis POKÉMON no llamaré a las\l"
+	.string "autoridades.$"
+
+
+Route3_Text_ChicoIntro:
+	.string "Entiendo que por protocolo debas\n"
+	.string "de llevar uniforme, ¡pero no\l"
+	.string "puedes negar que no hay nada como\l"
+	.string "unos pantalones cortos!$"
+
+
+Route3_Text_ChicoDefeated:
+	.string "¡Solo era una broma!$"
+
+
+Route3_Text_ChicoPostBattle:
+	.string "Siempre llevo pantalones cortos,\n"
+	.string "incluso en invierno.\l"
+	.string "Son mis reglas.$"
+
+
+Route3_Text_Cazabichos2Intro:
+	.string "No suelen verse ROCKETS por estos\n"
+	.string "lugares, ¿qué tramas?$"
+
+
+Route3_Text_Cazabichos2Defeated:
+	.string "¡Habría ganado de tener un Pokémon\n"
+	.string "más!$"
+
+
+Route3_Text_Cazabichos2PostBattle:
+	.string "La POLICÍA de CIUDAD PLATEADA os\n"
+	.string "estaba buscando no hace mucho.$"
+
+
+Route3_Text_Chica3Intro:
+	.string "¡Perdona!\n"
+	.string "Me has mirado, ¿verdad?$"
+
+
+Route3_Text_Chica3Defeated:
+	.string "¡Eres malvado!$"
+
+
+Route3_Text_Chica3PostBattle:
+	.string "¡No deberías de andar por ahí\n"
+	.string "abusando de tu poder!$"
+
+
+Route3_Text_Chico2Intro:
+	.string "Pensaba que los ROCKETS como\n"
+	.string "vosotros no podían dejarse ver así\l"
+	.string "como así en espacios públicos.$"
+
+
+Route3_Text_Chico2Defeated:
+	.string "¡No me lo puedo creer!$"
+
+
+Route3_Text_Chico2PostBattle:
+	.string "¡También pensaba que érais más\n"
+	.string "débiles!$"
+
+
+Route3_Text_Cazabichos3Intro:
+	.string "¡Id mi ejército de insectos!$"
+
+
+Route3_Text_Cazabichos3Defeated:
+	.string "¡Me han exterminado!$"
+
+
+Route3_Text_Cazabichos3PostBattle:
+	.string "Tal vez debería de volver más\n"
+	.string "fuertes a unos pocos Pokémon en\l"
+	.string "lugar de intentar entrenar a todos\l"
+	.string "a la vez.$"
+
+
+ViridianForest_Text_CazabichosIntro:
+	.string "Este lugar es solo para CAZABICHOS\n"
+	.string "y amantes de la naturaleza.$"
+
+
+ViridianForest_Text_CazabichosDefeated:
+	.string "¡No me robes por favor!$"
+
+
+ViridianForest_CazabichosPostBattle:
+	.string "¡Ver a un ROCKET por aquí es más\n"
+	.string "difícil que encontrar un PINSIR\l"
+	.string "salvaje en este lugar!$"
+
+
+ViridianForest_Text_Cazabichos2Intro:
+	.string "El TIPO BICHO evoluciona antes que\n"
+	.string "ningún otro tipo.$"
+
+
+ViridianForest_Text_Cazabichos2Defeated:
+	.string "¡Creo que los evolucioné demasiado\n"
+	.string "pronto!$"
+
+
+ViridianForest_Cazabichos2PostBattle:
+	.string "Lo malo de evolucionar tan pronto\n"
+	.string "es que no les da tiempo ha\l"
+	.string "desarrollarse tan bien como por\l"
+	.string "ejemplo la línea de DRATINI hace.$"
+
+
+ViridianForest_Text_Cazabichos3Intro:
+	.string "Tengo el TIPO BICHO más raro de\n"
+	.string "todos los CAZABICHOS de aquí, ¡eso\l"
+	.string "me convierte automáticamente en el\l"
+	.string "más guay!$"
+
+
+ViridianForest_Text_Cazabichos3Defeated:
+	.string "¡He quedado fatal!$"
+
+
+ViridianForest_Cazabichos3PostBattle:
+	.string "Supongo que a veces un POKÉMON\n"
+	.string "raro no tiene porqué ser un\l"
+	.string "POKÉMON fuerte.$"
+
+
+ViridianForest_Text_Cazabichos4Intro:
+	.string "¡Nada duele más que la picadura de\n"
+	.string "un BEEDRILL!$"
+
+
+ViridianForest_Text_Cazabichos4Defeated:
+	.string "¡Mis insectos!$"
+
+
+ViridianForest_Cazabichos4PostBattle:
+	.string "PIDGEOT es el terror de los\n"
+	.string "POKÉMON que habitan este lugar, no\l"
+	.string "pueden hacer nada para evitar\l"
+	.string "convertirse en su presa.$"
+
+
+ViridianForest_Text_Cazabichos5Intro:
+	.string "Mi aventura por la ZONA SAFARI\n"
+	.string "expandió mi colección.$"
+
+
+ViridianForest_Text_Cazabichos5Defeated:
+	.string "¿No fue suficiente?$"
+
+
+ViridianForest_Cazabichos5PostBattle:
+	.string "Creo que necesito bichos más\n"
+	.string "fuertes para sobresalir a fin de\l"
+	.string "cuentas, con un SCYTHER o un\l"
+	.string "PINSIR en mi equipo todo el mundo\l"
+	.string "me respetaría.$"
