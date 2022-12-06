@@ -23809,12 +23809,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER117[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER118[] = {
+static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER118[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 24,
+    .species = SPECIES_KOFFING,
     }
 };
 
@@ -23825,7 +23824,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER119[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER120[] = {

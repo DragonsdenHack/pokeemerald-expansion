@@ -6134,3 +6134,475 @@ Route10_Text_HikerDefeated:
 Route10_Text_HikerPostBattle:
 	.string "¡Yo también quiero tener al gran\n"
 	.string "ZAPDOS y añadirlo a mi colección!$"
+
+
+Route8_Text_NecioIntro:
+	.string "Pareces bueno con los POKÉMON,\n"
+	.string "¿pero que tal en química?$"
+
+
+Route8_Text_NecioDefeated:
+	.string "¡Ow!\n"
+	.string "¡Reducido!$"
+
+
+Route8_Text_NecioPostBattle:
+	.string "¡Soy mejor en la escuela que con\n"
+	.string "los POKÉMON!$"
+
+
+Route8_Text_BikerIntro:
+	.string "Mi bici pide paso chaval.$"
+
+
+Route8_Text_BikerDefeated:
+	.string "Je, te perdono porque eres un\n"
+	.string "ROCKET.$"
+
+
+Route8_Text_BikerPostBattle:
+	.string "¿Así que eres alguien importante\n"
+	.string "dentro del TEAM ROCKET?\l"
+	.string "Interesante.$"
+
+
+Route8_Text_Biker2Intro:
+	.string "¡Heyy ROCKET!\n"
+	.string "¿Que nuevas traes de AZULONA?$"
+
+
+Route8_Text_Biker2Defeated:
+	.string "¡ROCKETS al poder!$"
+
+
+Route8_Text_Biker2PostBattle:
+	.string "¡Sabéis que podéis contar con\n"
+	.string "nosotros cuando lo requiráis!\l"
+	.string "¡KANTO volverá a ser la región\l"
+	.string "libre que era!$"
+
+
+Route8_Text_AncianoIntro:
+	.string "¡Perfecto!\n"
+	.string "¡Juguemos!$"
+
+
+Route8_Text_AncianoDefeated:
+	.string "¡Rayos!\n"
+	.string "¡Me quedé corto!$"
+
+
+Route8_Text_AncianoPostBattle:
+	.string "Las cosas no funcionaron hoy.$"
+
+
+Route8_Text_ChicaIntro:
+	.string "¡Oh, no!\n"
+	.string "¡Quiero demasiado a mis POKÉMON\l"
+	.string "como para que me los quites!$"
+
+
+Route8_Text_ChicaDefeated:
+	.string "¡Mira lo que hiciste!\n"
+	.string "¡Mis pobres POKÉMON!$"
+
+
+Route8_Text_ChicaPostBattle:
+	.string "Los ROCKETS como vosotros jamás\n"
+	.string "podréis acceder a AZAFRÁN, todas\l"
+	.string "las entradas están protegidas por\l"
+	.string "guardias.$"
+
+
+Route8_Text_Necio2Intro:
+	.string "Según mis estudios, vosotros sois\n"
+	.string "la principal causa de la creciente\l"
+	.string "contaminación en CIUDAD AZULONA.$"
+
+
+Route8_Text_Necio2Defeated:
+	.string "¡Tranquilo no se lo diré a nadie!$"
+
+
+Route8_Text_Necio2PostBattle:
+	.string "¿Crees que el TEAM ROCKET me\n"
+	.string "contrataría como científico?$"
+
+
+Route8_Text_Chica2Intro:
+	.string "¡Me encantan los NIDORAN, así que\n"
+	.string "los colecciono!$"
+
+
+Route8_Text_Chica2Defeated:
+	.string "¿Por qué?\n"
+	.string "¿Por qué?$"
+
+
+Route8_Text_Chica2PostBattle:
+	.string "Cuando los POKÉMON evolucionan,\n"
+	.string "¡se vuelven feos!\l"
+	.string "¡No deberían de evolucionar!$"
+
+
+Route8_Text_Chica3Intro:
+	.string "¡MEOWTH es tan mono, meow,\n"
+	.string "meow!$"
+
+
+Route8_Text_Chica3Defeated:
+	.string "¡Meeeeyow!$"
+
+
+Route8_Text_Chica3PostBattle:
+	.string "¡Creo que PIDGEY y RATTATA son\n"
+	.string "también muy monos!$"
+
+
+Route8_Text_Necio3Intro:
+	.string "¡Deberías de saber que se requiere\n"
+	.string "de cierta estrategia para ganar en\l"
+	.string "este juego!$"
+
+
+Route8_Text_Necio3Defeated:
+	.string "¡No es lógico!$"
+
+
+Route8_Text_Necio3PostBattle:
+	.string "Ve con GRIMER primero y...\n"
+	.string "...y...entonces...$"
+
+
+Route8_Text_Anciano2Intro:
+	.string "¡Jah!\n"
+	.string "¡Estoy en racha ven a por mí!$"
+
+
+Route8_Text_Anciano2Defeated:
+	.string "¡Perdí mi gran oportunidad!$"
+
+
+Route8_Text_Anciano2PostBattle:
+	.string "¡Los juegos y los POKÉMON son como\n"
+	.string "comer maní!\l"
+	.string "¡Simplemente no puedo parar!$"
+
+
+Route8_Text_Chica4Intro:
+	.string "¿Qué POKÉMON es lindo, redondo y\n"
+	.string "mullido?$"
+
+
+Route8_Text_Chica4Defeated:
+	.string "¡Para!\n"
+	.string "¡No puedes tratar así a mi\l"
+	.string "CLEFAIRY!$"
+
+
+Route8_Text_Chica4PostBattle:
+	.string "Leí que CLEFAIRY podía evolucionar\n"
+	.string "al ser expuesto a una PIEDRA\l"
+	.string "LUNAR, leí eso en una revista\l"
+	.string "POKÉMON, ¿será cierto?$"
+
+
+Route10_Text_NecioIntro:
+	.string "¿Un ROCKET por aquí?\n"
+	.string "¡Que raro!$"
+
+
+Route10_Text_NecioDefeated:
+	.string "¡Oh, no!\n"
+	.string "¡Mis POKéMON!$"
+
+
+Route10_Text_NecioPostBattle:
+	.string "¡No me gustáis ni tu ni tu\n"
+	.string "organización, os lleváis todos los\l"
+	.string "POKÉMON raros!$"
+
+
+Route10_Text_Hiker2Intro:
+	.string "¡Ah!\n"
+	.string "¡No hay nada como respirar el aire\l"
+	.string "puro de montaña!$"
+
+
+Route10_Text_Hiker2Defeated:
+	.string "¡Eso despejó mi cabeza!$"
+
+
+Route10_Text_Hiker2PostBattle:
+	.string "¡Me siento hinchado de aire de\n"
+	.string "montaña!$"
+
+
+Route10_Text_Hiker3Intro:
+	.string "¡Ha-hahah-ah-ha!$"
+
+
+Route10_Text_Hiker3Defeated:
+	.string "¡Ha-haha!\n"
+	.string "¡No me río!\l"
+	.string "¡Ha-ha-choo! ¡Haha-ha-choo!$"
+
+
+Route10_Text_Hiker3PostBattle:
+	.string "¡Haha-ha-choo!\n"
+	.string "¡Ha-choo!\l"
+	.string "¡Sniff! ¡Sniff!$"
+
+
+Route10_Text_Chica2Intro:
+	.string "Me siento algo cansada.\n"
+	.string "Llevaba tiempo sin practicar la\l"
+	.string "escalada.$"
+
+
+Route10_Text_Chica2Defeated:
+	.string "Estoy demasiado cansada.\n"
+	.string "No estaba preparada para esto.$"
+
+
+Route10_Text_Chica2PostBattle:
+	.string "Los POKÉMON de aquí de las\n"
+	.string "montañas son demasiado robustos...\l"
+	.string "¡Desearía que hubiera un POKÉMON\l"
+	.string "rosa y con flores!\l"
+	.string "...\l"
+	.string "...\l"
+	.string "¡Sí de tipo PSÍQUICO también a ser\l"
+	.string "posible!$"
+
+
+RockTunnel1F_Text_HikerIntro:
+	.string "Hmm.\n"
+	.string "Puede que me haya perdido...$"
+
+
+RockTunnel1F_Text_HikerDefeated:
+	.string "¡Espera!\n"
+	.string "¿Qué estoy haciendo?\l"
+	.string "¿Dónde está la salida?$"
+
+
+RockTunnel1F_Text_HikerPostBattle:
+	.string "Ese maldito POKÉMON durmiente de\n"
+	.string "la RUTA 12 me obligó a tomar el\l"
+	.string "TÚNEL ROCA.$"
+
+
+RockTunnel1F_Text_Hiker2Intro:
+	.string "¡Este túnel llega hasta muy lejos\n"
+	.string "chaval!\l"
+	.string "...\l"
+	.string "¡Espera eres un ROCKET!$"
+
+
+RockTunnel1F_Text_Hiker2Defeated:
+	.string "¡Doh!\n"
+	.string "¡Ganaste!$"
+
+
+RockTunnel1F_Text_Hiker2PostBattle:
+	.string "Cuidado con ONIX.\n"
+	.string "Pueden aparecer algunos, y los de\l"
+	.string "nivel más alto te pondrán en\l"
+	.string "problemas.$"
+
+
+RockTunnel1F_Text_Hiker3Intro:
+	.string "¡Los forasteros como tú deberían\n"
+	.string "de mostrarme algo de respeto!$"
+
+
+RockTunnel1F_Text_Hiker3Defeated:
+	.string "¡Derrotado por un forastero!$"
+
+
+RockTunnel1F_Text_Hiker3PostBattle:
+	.string "¡Parece que tienes talento para la\n"
+	.string "escalada!$"
+
+
+RockTunnel1F_Text_ChicaIntro:
+	.string "¡Vine hasta aquí por los POKÉMON\n"
+	.string "no a enfrentarme a un ROCKET!$"
+
+
+RockTunnel1F_Text_ChicaDefeated:
+	.string "¡Me he quedado sin POKéMON!$"
+
+
+RockTunnel1F_Text_ChicaPostBattle:
+	.string "¡Ya decía yo!\n"
+	.string "¡Los ROCKETS sois demasiado\l"
+	.string "agresivos!$"
+
+
+RockTunnel1F_Text_NecioIntro:
+	.string "¡Lucha POKÉMON!\n"
+	.string "¡Ya!$"
+
+
+RockTunnel1F_Text_NecioDefeated:
+	.string "¡Fin del juego!$"
+
+
+RockTunnel1F_Text_NecioPostBattle:
+	.string "¡Creo que atraparé a un ZUBAT!$"
+
+
+
+RockTunnel1F_Text_Chica2Intro:
+	.string "¡Oh!¡Ahhhh!\n"
+	.string "¡Un ROCKET aquí!\l"
+	.string "¡Ayuda!$"
+
+
+RockTunnel1F_Text_Chica2Defeated:
+	.string "¡Oh que duro!$"
+
+
+RockTunnel1F_Text_Chica2PostBattle:
+	.string "¡Me has hecho sudar de los\n"
+	.string "nervios!$"
+
+
+RockTunnel1F_Text_Chica3Intro:
+	.string "¡Ehh!\n"
+	.string "¡No intentes cosas extrañas en la\l"
+	.string "oscuridad!$"
+
+
+RockTunnel1F_Text_Chica3Defeated:
+	.string "Estaba demasiado oscuro...$"
+
+
+RockTunnel1F_Text_Chica3PostBattle:
+	.string "Vi a un MACHOP en este túnel.$"
+
+
+RockTunnel2F_Text_NecioIntro:
+	.string "Estoy harto de ver a esos niños\n"
+	.string "mimados con sus POKÉDEX.\l"
+	.string "¡Yo también quiero una!$"
+
+
+RockTunnel2F_Text_NecioDefeated:
+	.string "¡Y ahora un ROCKET me da una\n"
+	.string "lección!$"
+
+
+RockTunnel2F_Text_NecioPostBattle:
+	.string "¿Crees que el TEAM ROCKET podría\n"
+	.string "robar una POKÉDEX para mi?\l"
+	.string "¡Os pagaría bien!$"
+
+
+RockTunnel2F_Text_HikerIntro:
+	.string "¡Hahaha!\n"
+	.string "¿Podrás batir mi poder?$"
+
+
+RockTunnel2F_Text_HikerDefeated:
+	.string "¡Vaya!\n"
+	.string "¡Me pasé de fuerza!$"
+
+
+RockTunnel2F_Text_HikerPostBattle:
+	.string "Me decanto por la fuerza bruta\n"
+	.string "porque odio pensar.$"
+
+
+RockTunnel2F_Text_ChicaIntro:
+	.string "¿Sabes como puedes evitar perderte\n"
+	.string "en las montañas?\l"
+	.string "¡Puedes marcar el camino con\l"
+	.string "ramitas!$"
+
+
+RockTunnel2F_Text_ChicaDefeated:
+	.string "¡Ohhh!\n"
+	.string "¡Hice lo que pude!$"
+
+
+RockTunnel2F_Text_ChicaPostBattle:
+	.string "¡Quiero volver a casa!$"
+
+
+RockTunnel2F_Text_Chica2Intro:
+	.string "No suelo venir por aquí, pero\n"
+	.string "lucharé contigo.$"
+
+
+RockTunnel2F_Text_Chica2Defeated:
+	.string "¡Oh!\n"
+	.string "¡Perdí!$"
+
+
+RockTunnel2F_Text_Chica2PostBattle:
+	.string "Me encantan los POKÉMON pequeños.\n"
+	.string "¡Los grandes me dan miedo!$"
+
+
+RockTunnel2F_Text_Necio2Intro:
+	.string "Um...\n"
+	.string "¿Sabes algo acerca del cosplay de\l"
+	.string "POKÉMON?$"
+
+
+RockTunnel2F_Text_Necio2Defeated:
+	.string "Así que eso fue todo...$"
+
+
+RockTunnel2F_Text_Necio2PostBattle:
+	.string "El cosplay de POKÉMON es...\n"
+	.string "¿Cómo?\l"
+	.string "¿Que no te interesan esas\l"
+	.string "tonterías?\l"
+	.string "...\l"
+	.string "...$"
+
+
+RockTunnel2F_Text_Necio3Intro:
+	.string "Hago dibujos de los POKÉMON que\n"
+	.string "aquí veo cuando llego a casa.$"
+
+
+RockTunnel2F_Text_Necio3Defeated:
+	.string "Whew...\n"
+	.string "Estoy exhausto...$"
+
+
+RockTunnel2F_Text_Necio3PostBattle:
+	.string "Soy un artista, no un entrenador.\n"
+	.string "Me iré a casa a dibujar.$"
+
+
+RockTunnel2F_Text_Hiker2Intro:
+	.string "¡Mis técnicas te harán llorar!$"
+
+
+RockTunnel2F_Text_Hiker2Defeated:
+	.string "¡Me rindo!\n"
+	.string "¡Tus técnicas son mejores!$"
+
+
+RockTunnel2F_Text_Hiker2PostBattle:
+	.string "Es muy común encontrar POKÉMON del\n"
+	.string "tipo ROCA en las montañas.$"
+
+
+RockTunnel2F_Text_Hiker3Intro:
+	.string "¡Dame con tu mejor golpe!$"
+
+
+RockTunnel2F_Text_Hiker3Defeated:
+	.string "¡Despedido!$"
+
+
+RockTunnel2F_Text_Hiker3PostBattle:
+	.string "Entrenaré a mis POKÉMON para que\n"
+	.string "puedan vencer a los tuyos chico.$"
