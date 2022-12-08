@@ -8100,3 +8100,84 @@ Route20_Text_Nadadora2Defeated:
 
 Route20_Nadadora2PostBattle:
 	.string "¡Has herido a mi pobre SEAKING!$"
+
+
+
+PowerPlant_Text_PoliciaIntro:
+    .string "Ya va siendo hora de que tú y tu\n"
+	.string "amigita respondáis ante la\l"
+	.string "justicia.$"
+
+
+PowerPlant_Text_PoliciaDefeated:
+	.string "Tiempo al tiempo.$"
+
+
+PowerPlant_PoliciaPostBattle:
+	.string "Nadie escapa a la policía de\n"
+	.string "KANTO, tarde o temprano acabaréis\l"
+	.string "todos entre rejas.$"
+
+
+PowerPlant_Text_Policia2Intro:
+    .string "Así que tú eres el que escapó de\n"
+	.string "milagro de la cadena perpetua por\l"
+	.string "robar en casa de BILL, es muy\l"
+	.string "estúpido de tu parte volver a\l"
+	.string "tentar a la suerte.$"
+
+
+PowerPlant_Text_Policia2Defeated:
+    .string "Esta vez te atraparemos.$"
+
+
+PowerPlant_Policia2PostBattle:
+	.string "Tu destino final es la cárcel.$"
+
+
+PowerPlant_Text_Policia3Intro:
+	.string "¡Todos los traidores al nuevo\n"
+	.string "orden serán silenciados!$"
+
+
+PowerPlant_Text_Policia3Defeated:
+	.string "¡Tú!$"
+
+
+PowerPlant_Policia3PostBattle:
+	.string "¡El TEAM ROCKET tiene los días\n"
+	.string "contados!$"
+
+
+PowerPlant_Text_Policia4Intro:
+	.string "Muy bonito por tu parte venir a\n"
+	.string "rescatar a tu compañera, a pesar\l"
+	.string "de que lo único que vas a\l"
+	.string "conseguir va a ser hacerle\l"
+	.string "compañia en la celda.$"
+
+
+PowerPlant_Text_Policia4Defeated:
+	.string "Así que te resistes...$"
+
+
+PowerPlant_Policia4PostBattle:
+	.string "Un buen acto no anula una vida\n"
+	.string "entera de fechorías.$"
+
+
+PowerPlant_Text_Policia5Intro:
+	.string "Parece que aún no te has dado\n"
+	.string "cuenta de quienes son los\l"
+	.string "verdaderos dueños de esta región.$"
+
+
+PowerPlant_Text_Policia5Defeated:
+	.string "Tu poder es irrelevante.$"
+
+
+PowerPlant_Policia5PostBattle:
+	.string "¡Jah!\n"
+	.string "¡Ni los LÍDERES DE GIMNASIO saben\l"
+	.string "quién manda realmente, va a\l"
+	.string "saberlo un pobre ROCKET como tú!$"
