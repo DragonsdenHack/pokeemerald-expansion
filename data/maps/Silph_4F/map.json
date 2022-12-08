@@ -61,9 +61,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph4F_4",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "5",
+      "script": "Silph4F_EventScript_Policia",
       "flag": "0"
     },
     {
@@ -74,9 +74,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph4F_5",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Silph4F_EventScript_Cientifico",
       "flag": "0"
     },
     {
@@ -100,9 +100,9 @@
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph4F_7",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "Silph4F_EventScript_Policia2",
       "flag": "0"
     },
     {
@@ -121,7 +121,7 @@
   ],
   "warp_events": [
     {
-      "x": 28,
+      "x": 30,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SILPH_5F",
@@ -135,7 +135,7 @@
       "dest_warp_id": 3
     },
     {
-      "x": 30,
+      "x": 28,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SILPH_3F",
