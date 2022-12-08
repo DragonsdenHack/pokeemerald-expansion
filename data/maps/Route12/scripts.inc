@@ -55,3 +55,52 @@ end
 
 Route12_14::
 end
+
+
+
+Route12_EventScript_Pescador::
+	trainerbattle_single TRAINER_JEFFREY_1, Route12_Text_PescadorIntro, Route12_Text_PescadorDefeated
+	msgbox Route12_PescadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route12_EventScript_Pescador2::
+	trainerbattle_single TRAINER_DEREK, Route12_Text_Pescador2Intro, Route12_Text_Pescador2Defeated
+	msgbox Route12_Pescador2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route12_EventScript_Pescador3::
+	trainerbattle_single TRAINER_JEFFREY_2, Route12_Text_Pescador3Intro, Route12_Text_Pescador3Defeated
+	msgbox Route12_Pescador3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route12_EventScript_Pescador4::
+	trainerbattle_single TRAINER_JEFFREY_3, Route12_Text_Pescador4Intro, Route12_Text_Pescador4Defeated
+	msgbox Route12_Pescador4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route12_EventScript_Chico::
+	trainerbattle_single TRAINER_KATE_AND_JOY, Route12_Text_ChicoIntro, Route12_Text_ChicoDefeated
+	msgbox Route12_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route12_EventScript_Chico2::
+	trainerbattle_single TRAINER_DIANA_3, Route12_Text_Chico2Intro, Route12_Text_Chico2Defeated
+	msgbox Route12_Chico2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route12_EventScript_Pescador5::
+	trainerbattle_single TRAINER_VIRGIL, Route12_Text_Pescador5Intro, Route12_Text_Pescador5Defeated
+	msgbox Route12_Pescador5PostBattle, MSGBOX_AUTOCLOSE
+	end

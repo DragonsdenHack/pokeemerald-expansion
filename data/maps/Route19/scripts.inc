@@ -37,3 +37,73 @@ end
 
 Route19_12::
 end
+
+
+
+Route19_EventScript_Nadador::
+	trainerbattle_single TRAINER_WILLIAM, Route19_Text_NadadorIntro, Route19_Text_NadadorDefeated
+	msgbox Route19_NadadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadador2::
+	trainerbattle_single TRAINER_JOSHUA, Route19_Text_Nadador2Intro, Route19_Text_Nadador2Defeated
+	msgbox Route19_Nadador2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadador3::
+	trainerbattle_single TRAINER_CAMERON_4, Route19_Text_Nadador3Intro, Route19_Text_Nadador3Defeated
+	msgbox Route19_Nadador3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadador4::
+	trainerbattle_single TRAINER_CAMERON_3, Route19_Text_Nadador4Intro, Route19_Text_Nadador4Defeated
+	msgbox Route19_Nadador4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadador5::
+	trainerbattle_single TRAINER_CAMERON_2, Route19_Text_Nadador5Intro, Route19_Text_Nadador5Defeated
+	msgbox Route19_Nadador5PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadador6::
+	trainerbattle_single TRAINER_CAMERON_1, Route19_Text_Nadador6Intro, Route19_Text_Nadador6Defeated
+	msgbox Route19_Nadador6PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadador7::
+	trainerbattle_single TRAINER_CAMERON_5, Route19_Text_Nadador7Intro, Route19_Text_Nadador7Defeated
+	msgbox Route19_Nadador7PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadadora::
+	trainerbattle_single TRAINER_JERRY_3, Route19_Text_NadadoraIntro, Route19_Text_NadadoraDefeated
+	msgbox Route19_NadadoraPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadadora2::
+	trainerbattle_single TRAINER_JERRY_5, Route19_Text_Nadadora2Intro, Route19_Text_Nadadora2Defeated
+	msgbox Route19_Nadadora2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Nadadora3::
+	trainerbattle_single TRAINER_JERRY_4, Route19_Text_Nadadora3Intro, Route19_Text_Nadadora3Defeated
+	msgbox Route19_Nadadora3PostBattle, MSGBOX_AUTOCLOSE
+	end

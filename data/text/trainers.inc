@@ -7056,3 +7056,1047 @@ ViridianForest_Cazabichos5PostBattle:
 	.string "cuentas, con un SCYTHER o un\l"
 	.string "PINSIR en mi equipo todo el mundo\l"
 	.string "me respetaría.$"
+
+
+Route12_Text_PescadorIntro:
+	.string "¡Ha picado uno gordo!$"
+
+
+Route12_Text_PescadorDefeated:
+	.string "Solo me faltó un poco más...$"
+
+
+Route12_PescadorPostBattle:
+	.string "¡Por tu culpa se me ha escapado!$"
+
+
+Route12_Text_Pescador2Intro:
+	.string "Es más fácil ver a un DRAGONAIR\n"
+	.string "salvaje por esta zona que a un\l"
+	.string "ROCKET como tú.$"
+
+
+Route12_Text_Pescador2Defeated:
+	.string "¡Perdí la concentración!$"
+
+
+Route12_Pescador2PostBattle:
+	.string "¡Vuestros oscuros planes nunca\n"
+	.string "triunfarán!$"
+
+
+Route12_Text_Pescador3Intro:
+	.string "¡El pescador loco contra el\n"
+	.string "delincuente perdido!$"
+
+
+Route12_Text_Pescador3Defeated:
+	.string "¡Tocado y hundido!$"
+
+
+Route12_Pescador3PostBattle:
+	.string "¡Puede que me hayas ganado pero\n"
+	.string "yo al menos no acabaré en la\l"
+	.string "cárcel!$"
+
+
+Route12_Text_Pescador4Intro:
+	.string "¡Si tuviera un GYARADOS le\n"
+	.string "ordenaría hacer morder el polvo a\l"
+	.string "todos tus malditos Pokémon ROCKET!$"
+
+
+Route12_Text_Pescador4Defeated:
+	.string "¡Perdóname!$"
+
+
+Route12_Pescador4PostBattle:
+	.string "¡La gente como vosotros que va en\n"
+	.string "contra del cauce de las cosas va a\l"
+	.string "acabar muy mal!$"
+
+
+Route12_Text_ChicoIntro:
+	.string "La electricidad es mi\n"
+	.string "especialidad, ¡no me importan los\l"
+	.string "POKÉMON del mar!$"
+
+
+Route12_Text_ChicoDefeated:
+	.string "¡Electrocutado!$"
+
+
+Route12_ChicoPostBattle:
+	.string "Un ELECTABUZZ vendría como anillo\n"
+	.string "al dedo a gente de vuestro perfil.$"
+
+
+Route12_Text_Chico2Intro:
+	.string "He oído que tu jefe tiene un\n"
+	.string "NIDOKING, ¿puedes decirme cómo\l"
+	.string "hizo para evolucionar a NIDORINO?$"
+
+
+Route12_Text_Chico2Defeated:
+	.string "¡Con NIDOKING hubiera ganado!$"
+
+
+Route12_Chico2PostBattle:
+	.string "Así que PIEDRA LUNAR, entiendo...$"
+
+
+Route12_Text_Pescador5Intro:
+	.string "¡Prepárate para conocer al mejor\n"
+	.string "POKÉMON de todos los tiempos!\l"
+	.string "¡Tiembla!$"
+
+
+Route12_Text_Pescador5Defeated:
+	.string "¡Se acabó!$"
+
+
+Route12_Pescador5PostBattle:
+	.string "Ríete, todo son risas hasta que\n"
+	.string "MAGIKARP se convierte en GYARADOS.$"
+
+
+Route13_Text_ChicaIntro:
+	.string "Comprar vitaminas que incrementan\n"
+	.string "las estadísticas es un asco, ¡son\l"
+	.string "carísimas!$"
+
+
+Route13_Text_ChicaDefeated:
+	.string "¡Con vitaminas hubiera ganado!$"
+
+
+Route13_ChicaPostBattle:
+	.string "¿Cómo?\n"
+	.string "¿Vosotros vendéis vitaminas a un\l"
+	.string "tercio del precio de mercado?\l"
+	.string "¡Yo también quiero!$"
+
+
+Route13_Text_OrnitologoIntro:
+	.string "¿Sabías que los POKÉMON más\n"
+	.string "fuertes de esta región comparten\l"
+	.string "el TIPO VOLADOR?\l"
+	.string "¡Incluso el DRAGÓN de LANCE!$"
+
+
+Route13_Text_OrnitologoDefeated:
+	.string "¿Mi combo PIDGEY-PIDGEOTTO perdió?$"
+
+
+Route13_OrnitologoPostBattle:
+	.string "Qué pena que el resto de POKÉMON\n"
+	.string "voladores siquiera se acerquen al\l"
+	.string "nivel de DRAGONITE o las AVES\l"
+	.string "LEGENDARIAS.$"
+
+
+Route13_Text_Chica2Intro:
+	.string "Dicen que soy buena para mi edad.$"
+
+
+Route13_Text_Chica2Defeated:
+	.string "¡Ohh!\n"
+	.string "¡Perdí!$"
+
+
+Route13_Chica2PostBattle:
+	.string "Quiero convertirme en una gran\n"
+	.string "ENTRENADORA, entrenaré duro.\l"
+	.string "¡Solo espera!$"
+
+
+Route13_Text_ModeloIntro:
+	.string "¡Luchemos pero no te pases con mis\n"
+	.string "POKÉMON!$"
+
+
+Route13_Text_ModeloDefeated:
+	.string "¡Eres tan malo!$"
+
+
+Route13_ModeloPostBattle:
+	.string "¡Yo solo quería pasar un buen\n"
+	.string "rato!$"
+
+
+Route13_Text_Modelo2Intro:
+	.string "¡Vamos allá pero no me robes\n"
+	.string "después!$"
+
+
+Route13_Text_Modelo2Defeated:
+	.string "¿Ya se acabó?$"
+
+
+Route13_Modelo2PostBattle:
+	.string "En realidad no sé nada de POKÉMON,\n"
+	.string "solo los eligo por su aspecto.$"
+
+
+Route13_Text_Chica3Intro:
+	.string "Tengo curiosidad por ver los\n"
+	.string "POKÉMON de un fugitivo.$"
+
+
+Route13_Text_Chica3Defeated:
+	.string "¡Fantásticos!$"
+
+
+Route13_Chica3PostBattle:
+	.string "¡Parece que la vida de criminal ha\n"
+	.string "endurecido a tus POKÉMON!$"
+
+
+Route13_Text_Chica4Intro:
+	.string "¡Oh!\n"
+	.string "¡No quiero que mis POKÉMON se vean\l"
+	.string "malinfluenciados por un bandido!$"
+
+
+Route13_Text_Chica4Defeated:
+	.string "¡Mis POKÉMON no se recuperarán de\n"
+	.string "esto!$"
+
+
+Route13_Chica4PostBattle:
+	.string "¡Has envenenado a mi POKÉMON,\n"
+	.string "hazte responsable!$"
+
+
+Route13_Text_Ornitologo2Intro:
+	.string "No voy a perder, ¡el viento sopla\n"
+	.string "a mi favor!$"
+
+
+Route13_Text_Ornitologo2Defeated:
+	.string "¡El viento cambió!$"
+
+
+Route13_Ornitologo2PostBattle:
+	.string "Estoy acabado, creo que volaré a\n"
+	.string "casa.$"
+
+
+Route13_Text_MotoristaIntro:
+	.string "¿Qué estás mirando?$"
+
+
+Route13_Text_MotoristaDefeated:
+	.string "¡Ouch!¡Me equivoqué!$"
+
+
+Route13_MotoristaPostBattle:
+	.string "Perdóname {PLAYER}, pensé que eras\n"
+	.string "uno de esos debiluchos que solo\l"
+	.string "emplean frágiles POKÉMON\l"
+	.string "VOLADORES.$"
+
+
+Route13_Text_Ornitologo3Intro:
+	.string "He dedicado mi vida al estudio de\n"
+	.string "los POKÉMON PÁJARO.$"
+
+
+Route13_Text_Ornitologo3Defeated:
+	.string "¡Me quedé sin fuerzas!$"
+
+
+Route13_Ornitologo3PostBattle:
+	.string "Me encantaría poder volar como\n"
+	.string "PIDGEY o PIDGEOTTO...$"
+
+
+Route14_Text_OrnitologoIntro:
+	.string "Espero que respetes la belleza que\n"
+	.string "esta ruta desprende.$"
+
+
+Route14_Text_OrnitologoDefeated:
+	.string "Aún no soy lo suficientemente\n"
+	.string "bueno...$"
+
+
+Route14_OrnitologoPostBattle:
+	.string "Esta zona es ideal para criar a\n"
+	.string "mis POKÉMON PÁJARO, es muy\l"
+	.string "espaciosa.$"
+
+
+Route14_Text_Ornitologo2Intro:
+	.string "Mis POKÉMON deberían de estar\n"
+	.string "listos.$"
+
+
+Route14_Text_Ornitologo2Defeated:
+	.string "¡Aún no lo estaban!$"
+
+
+Route14_Ornitologo2PostBattle:
+	.string "Necesito que mis POKÉMON aprendan\n"
+	.string "mejores movimientos.$"
+
+
+Route14_Text_Ornitologo3Intro:
+	.string "¡Nadie ha estudiado tanto a los\n"
+	.string "POKÉMON PÁJARO como yo!$"
+
+
+Route14_Text_Ornitologo3Defeated:
+	.string "¡Todo para nada!$"
+
+
+Route14_Ornitologo3PostBattle:
+	.string "He oído que un tal PEGASO en JOHTO\n"
+	.string "es un maestro del tipo VOLADOR.$"
+
+
+Route14_Text_Ornitologo4Intro:
+	.string "¡Tus viles POKÉMON jamás podrán\n"
+	.string "alcanzar a mis aves!$"
+
+
+Route14_Text_Ornitologo4Defeated:
+	.string "¡Me has cortado las alas!$"
+
+
+Route14_Ornitologo4PostBattle:
+	.string "He oído que en JOHTO existe una\n"
+	.string "gran ave cubierta de acero, ¿será\l"
+	.string "cierto?$"
+
+
+Route14_Text_Ornitologo5Intro:
+	.string "¡Nunca hallaréis la ubicación de\n"
+	.string "las AVES SAGRADAS!$"
+
+
+Route14_Text_Ornitologo5Defeated:
+	.string "¿Por qué he perdido?$"
+
+
+Route14_Ornitologo5PostBattle:
+	.string "¿Cómo?\n"
+	.string "¿¡Vais a hacer clones aún más\l"
+	.string "poderosos que las originales AVES\l"
+	.string "SAGRADAS?!$"
+
+
+Route14_Text_Ornitologo6Intro:
+	.string "De modo que GOLBAT es vuestra ave\n"
+	.string "favorita, no está mal.$"
+
+
+Route14_Text_Ornitologo6Defeated:
+	.string "¡Bah, se acabó!$"
+
+
+Route14_Ornitologo6PostBattle:
+	.string "Ganar o perder es irrelevante ante\n"
+	.string "la inmensidad de este cielo.$"
+
+
+Route14_Text_MotoristaIntro:
+	.string "Necesito pasar el rato.\n"
+	.string "Cállate y pelea.$"
+
+
+Route14_Text_MotoristaDefeated:
+	.string "¿¡Qué?!\n"
+	.string "¡Tú!$"
+
+
+Route14_MotoristaPostBattle:
+	.string "Hacer crecer a los POKÉMON es\n"
+	.string "droga chaval.$"
+
+
+Route14_Text_Motorista2Intro:
+	.string "¡Me han dicho que por JOHTO hay un\n"
+	.string "POKÉMON llamado GRANBULL, quiero\l"
+	.string "uno!$"
+
+
+Route14_Text_Motorista2Defeated:
+	.string "¡Tus POKÉMON fueron más fuertes!$"
+
+
+Route14_Motorista2PostBattle:
+	.string "¡Un ARIADOS tampoco me vendría\n"
+	.string "mal!$"
+
+
+Route14_Text_Motorista3Intro:
+	.string "¡FUCSIA está bajo control ALTO\n"
+	.string "RANGO {PLAYER}!$"
+
+
+Route14_Text_Motorista3Defeated:
+	.string "¡He pinchado!$"
+
+
+Route14_Motorista3PostBattle:
+	.string "¡Ha sido un honor combatir contra\n"
+	.string "uno de los ROCKETS del momento!$"
+
+
+Route14_Text_Motorista4Intro:
+	.string "¡WEEZING y MUK son los mejores!$"
+
+
+Route14_Text_Motorista4Defeated:
+	.string "¡Argh!\n"
+	.string "¡Perdí!\l"
+	.string "¡Piérdete!$"
+
+
+Route14_Motorista4PostBattle:
+	.string "¿Cómo?\n"
+	.string "¿GOLBAT puede evolucionar a un\l"
+	.string "POKÉMON aún más poderoso que\l"
+	.string "WEEZING o MUK?$"
+
+
+Route15_Text_MotoristaIntro:
+	.string "Dicen que te estás convirtiendo en\n"
+	.string "uno de los favoritos de GIOVANNI.$"
+
+
+Route15_Text_MotoristaDefeated:
+	.string "Ahora entiendo el porqué.$"
+
+
+Route15_MotoristaPostBattle:
+	.string "La vida es demasiado corta, esta\n"
+	.string "región nos obliga a vivir fuera de\l"
+	.string "la ley.\l"
+	.string "¡Reglas del TEAM ROCKET!$"
+
+
+Route15_Text_Motorista2Intro:
+	.string "¿Cómo va PETREL RECLUTA?$"
+
+
+Route15_Text_Motorista2Defeated:
+	.string "Ya veo.$"
+
+
+Route15_Motorista2PostBattle:
+	.string "¡Estamos disponibles para\n"
+	.string "cualquier trabajo sucio que\l"
+	.string "podamos hacer por estas zonas!$"
+
+
+Route15_Text_BellaIntro:
+	.string "Esta ruta es de las más bellas de\n"
+	.string "la región, ¡no estropees el\l"
+	.string "paisaje!$"
+
+
+Route15_Text_BellaDefeated:
+	.string "Oh era broma no te lo tomes en\n"
+	.string "serio.$"
+
+
+Route15_BellaPostBattle:
+	.string "¡Olvídame!$"
+
+
+Route15_Text_Bella2Intro:
+	.string "¡Crío a mis POKÉMON para que\n"
+	.string "puedan protegerme por si algún día\l"
+	.string "me encuentro con un delincuente\l"
+	.string "como tú!$"
+
+
+Route15_Text_Bella2Defeated:
+	.string "¡No me protegieron!$"
+
+
+Route15_Bella2PostBattle:
+	.string "Por suerte tú no abusas de tu\n"
+	.string "poder, ¡otros de tu organización\l"
+	.string "ya me hubieran robado todo!$"
+
+
+Route15_Text_ChicaIntro:
+	.string "Acabo de intercambiar unos\n"
+	.string "POKÉMON, ¡déjame probarlos\l"
+	.string "contigo!$"
+
+
+Route15_Text_ChicaDefeated:
+	.string "¡No fui lo suficientemente buena!$"
+
+
+Route15_ChicaPostBattle:
+	.string "Creo que me quedaré con ellos.$"
+
+
+Route15_Text_OrnitologoIntro:
+	.string "¡Mis PÁJAROS tiemblan ante el\n"
+	.string "chasquido de tu látigo!$"
+
+
+Route15_Text_OrnitologoDefeated:
+	.string "¡Lo sabía!$"
+
+
+Route15_OrnitologoPostBattle:
+	.string "A los ORNITÓLOGOS como nosotros no\n"
+	.string "nos preocupan movimientos como\l"
+	.string "TERREMOTO o FISURA.$"
+
+
+Route15_Text_Ornitologo2Intro:
+	.string "Vosotros los ROCKETS no apreciáis\n"
+	.string "la belleza de los POKÉMON PÁJARO.$"
+
+
+Route15_Text_Ornitologo2Defeated:
+	.string "¡OW!¡Qué tragedia!$"
+
+
+Route15_Ornitologo2PostBattle:
+	.string "¡Me has envenenado con tus viles\n"
+	.string "POKÉMON!$"
+
+
+Route15_Text_Chica2Intro:
+	.string "¿Quieres jugar con mis POKÉMON?$"
+
+
+Route15_Text_Chica2Defeated:
+	.string "¡Estaba tan impaciente!$"
+
+
+Route15_Chica2PostBattle:
+	.string "Creo que lucharé con ENTRENADORES\n"
+	.string "más débiles.$"
+
+
+Route15_Text_Chica3Intro:
+	.string "¡Oh, no!\n"
+	.string "¡No me hagas daño!$"
+
+
+Route15_Text_Chica3Defeated:
+	.string "¡Qué miedo!$"
+
+
+Route15_Chica3PostBattle:
+	.string "¡Con una PIEDRA LUNAR te habría\n"
+	.string "vencido!$"
+
+
+Route15_Text_Chica4Intro:
+	.string "¡Los MOTORISTAS y ROCKETS como tú\n"
+	.string "me dáis miedo!$"
+
+
+Route15_Text_Chica4Defeated:
+	.string "¡Error!$"
+
+
+Route15_Chica4PostBattle:
+	.string "Tú pareces no tener la maldad de\n"
+	.string "otros ROCKETS a pesar de ser mucho\l"
+	.string "más fuerte.$"
+
+
+Route18_Text_OrnitologoIntro:
+	.string "Lo último que necesitamos es que\n"
+	.string "un ROCKET nos robe nuestro\l"
+	.string "espacio.$"
+
+
+Route18_Text_OrnitologoDefeated:
+	.string "¡Tch!$"
+
+
+Route18_OrnitologoPostBattle:
+	.string "Era broma, aquí en FUCSIA somos\n"
+	.string "PRO-ROCKETS.$"
+
+
+Route18_Text_Ornitologo2Intro:
+	.string "PIDGEOT es el ave más poderosa de\n"
+	.string "KANTO, obviando a los PÁJAROS\l"
+	.string "LEGENDARIOS, claro.$"
+
+
+Route18_Text_Ornitologo2Defeated:
+	.string "¡Mi poderosa ave perdió!$"
+
+
+Route18_Ornitologo2PostBattle:
+	.string "Creo que DODRIO le hace bastante\n"
+	.string "competencia a PIDGEOT por el\l"
+	.string "puesto de mejor ave de la región.$"
+
+
+Route18_Text_Ornitologo3Intro:
+	.string "Este terreno es mío, ¡largo de\n"
+	.string "aquí!$"
+
+
+Route18_Text_Ornitologo3Defeated:
+	.string "¡Maldición!$"
+
+
+Route18_Ornitologo3PostBattle:
+	.string "Esta área es mi favorita para\n"
+	.string "capturar POKÉMON.$"
+
+
+Route17_Text_MotoristaIntro:
+	.string "¡Un honor verle por aquí {PLAYER}!\n"
+	.string "¡Concédame este combate!$"
+
+
+Route17_Text_MotoristaDefeated:
+	.string "¡Puro poder ROCKET!$"
+
+
+Route17_MotoristaPostBattle:
+	.string "¡Vas a ser el próximo ADMIN.\n"
+	.string "ROCKET ya lo verás!$"
+
+
+Route17_Text_Motorista2Intro:
+	.string "Los rumores hablan de un nuevo\n"
+	.string "Rocket muy ducho en el combate.$"
+
+
+Route17_Text_Motorista2Defeated:
+	.string "¡Los rumores eran ciertos!$"
+
+
+Route17_Motorista2PostBattle:
+	.string "¿Es cierto que le diste una\n"
+	.string "lección a ese mimado de BILL?$"
+
+
+Route17_Text_Motorista3Intro:
+	.string "¡Sé rebelde!$"
+
+
+Route17_Text_Motorista3Defeated:
+	.string "¡Aaaargh!$"
+
+
+Route17_Motorista3PostBattle:
+	.string "¡Debemos de estar listos para\n"
+	.string "pelear por nuestras creencias!$"
+
+
+Route17_Text_Motorista4Intro:
+	.string "¡Necesito algo de ejercicio!$"
+
+
+Route17_Text_Motorista4Defeated:
+	.string "¡Buen trabajo!$"
+
+
+Route17_Motorista4PostBattle:
+	.string "¡Creo que he perdido peso después\n"
+	.string "de esto!$"
+
+
+Route17_Text_Motorista5Intro:
+	.string "¡Mi POKéMON no evoluciona!\n"
+	.string "¿Por qué será?$"
+
+
+Route17_Text_Motorista5Defeated:
+	.string "¡Tú tienes la culpa!$"
+
+
+Route17_Motorista5PostBattle:
+	.string "Puede que ciertos POKéMON\n"
+	.string "necesiten PIEDRAS para\l"
+	.string "evolucionar.$"
+
+
+Route17_Text_Motorista6Intro:
+	.string "Me gusta la gente directa como tú.$"
+
+
+Route17_Text_Motorista6Defeated:
+	.string "¡Me has pasado por encima!$"
+
+
+Route17_Motorista6PostBattle:
+	.string "Obtuve a mis VOLTORB en la CENTRAL\n"
+	.string "ENERGÍA, antes de que prohibiesen\l"
+	.string "la entrada.$"
+
+
+Route17_Text_Motorista7Intro:
+	.string "¡Los ROCKETS mandan en las calles\n"
+	.string "y nosotros en las carreteras!$"
+
+
+Route17_Text_Motorista7Defeated:
+	.string "¡He tenido una avería!$"
+
+
+Route17_Motorista7PostBattle:
+	.string "Las últimas políticas que ha\n"
+	.string "adoptado el gobierno de la ÉLITE 4\l"
+	.string "son un asco.$"
+
+
+Route17_Text_Motorista8Intro:
+	.string "Hay que tenerlos bien puestos para\n"
+	.string "meterse con el niño mimado de la\l"
+	.string "ÉLITE 4 {PLAYER}, ¡veamos tu nivel!$"
+
+
+Route17_Text_Motorista8Defeated:
+	.string "¡Guau!$"
+
+
+Route17_Motorista8PostBattle:
+	.string "Todos los MOTORISTAS celebramos\n"
+	.string "cuando entraste por la fuerza en\l"
+	.string "la casa de BILL y le diste una\l"
+	.string "lección, con eso te ganaste\l"
+	.string "nuestro respeto.$"
+
+
+Route17_Text_Motorista9Intro:
+	.string "¡Viva el TEAM ROCKET!\n"
+	.string "¡Salve GIOVANNI!$"
+
+
+Route17_Text_Motorista9Defeated:
+	.string "¡Buen combate camarada!$"
+
+
+Route17_Motorista9PostBattle:
+	.string "¡Me encantan las carreras\n"
+	.string "ilegales!$"
+
+
+Route17_Text_Motorista10Intro:
+	.string "PETREL nos habló muy bien de ti.$"
+
+
+Route17_Text_Motorista10Defeated:
+	.string "¡Whoo!$"
+
+
+Route17_Motorista10PostBattle:
+	.string "Es difícil ganarse la confianza de\n"
+	.string "PETREL, parece que tú lo lograste.$"
+
+
+Route16_Text_MotoristaIntro:
+	.string "¡Así que tú eres la joven promesa\n"
+	.string "ROCKET de la que todo el mundo\l"
+	.string "habla!$"
+
+
+Route16_Text_MotoristaDefeated:
+	.string "¡Mal, mal, mal!$"
+
+
+Route16_MotoristaPostBattle:
+	.string "La lealtad y el honor son lo más\n"
+	.string "importante dentro del TEAM ROCKET,\l"
+	.string "no lo olvides.$"
+
+
+Route16_Text_Motorista2Intro:
+	.string "¡Hey!\n"
+	.string "¡Pasemos un buen rato!$"
+
+
+Route16_Text_Motorista2Defeated:
+	.string "¡No me hagas enfadar!$"
+
+
+Route16_Motorista2PostBattle:
+	.string "¡Los POKÉMON TIPO VENENO como\n"
+	.string "WEEZING o MUK son los mejores!$"
+
+
+Route16_Text_Motorista3Intro:
+	.string "Es raro ver a un Rocket de tu\n"
+	.string "nivel por aquí.$"
+
+
+Route16_Text_Motorista3Defeated:
+	.string "¡Kaboom!$"
+
+
+Route16_Motorista3PostBattle:
+	.string "Esta zona siempre nos perteneció a\n"
+	.string "nosotros, los MOTORISTAS, ni LANCE\l"
+	.string "podrá echarnos de aquí.$"
+
+
+Route16_Text_Motorista4Intro:
+	.string "¡Estamos preparados para el\n"
+	.string "próximo gran golpe señor!$"
+
+
+Route16_Text_Motorista4Defeated:
+	.string "¡Vaya golpe!$"
+
+
+Route16_Motorista4PostBattle:
+	.string "¡Aquí siempre estaremos dispuestos\n"
+	.string "a dar todo por el TEAM ROCKET!$"
+
+
+Route16_Text_Motorista5Intro:
+	.string "KOGA es también afín al TEAM\n"
+	.string "ROCKET y a nosotros, aunque no\l"
+	.string "pueda admitirlo por su puesto de\l"
+	.string "LÍDER DE GIMNASIO.$"
+
+
+Route16_Text_Motorista5Defeated:
+	.string "¡Knockeado!$"
+
+
+Route16_Motorista5PostBattle:
+	.string "Si hemos podido durante tanto\n"
+	.string "tiempo mantener este lugar como\l"
+	.string "territorio nuestro es por los\l"
+	.string "hilos que KOGA ha movido.$"
+
+
+Route16_Text_Motorista6Intro:
+	.string "¡Confía en WEEZING!\n"
+	.string "¡Nunca te fallará!$"
+
+
+Route16_Text_Motorista6Defeated:
+	.string "¡No te rías de mi!$"
+
+
+Route16_Motorista6PostBattle:
+	.string "Lo que de verdad me gusta de\n"
+	.string "WEEZING es que puede explotar si\l"
+	.string "la situación lo requiere.$"
+
+
+Route19_Text_NadadorIntro:
+	.string "Es importante calentar antes de\n"
+	.string "meterse en el agua, aunque en\l"
+	.string "vuestro caso tampoco me importaría\l"
+	.string "que os ahogárais.$"
+
+
+Route19_Text_NadadorDefeated:
+	.string "¡Todos al agua!$"
+
+
+Route19_NadadorPostBattle:
+	.string "Al menos ya estoy listo para\n"
+	.string "nadar.$"
+
+
+Route19_Text_Nadador2Intro:
+	.string "¡Espera!\n"
+	.string "¡Relájate!\l"
+	.string "¡Te va a dar un ataque!$"
+
+
+Route19_Text_Nadador2Defeated:
+	.string "¡Ooh!\n"
+	.string "¡Está fría!$"
+
+
+Route19_Nadador2PostBattle:
+	.string "Cuidado con TENTACOOL, su picadura\n"
+	.string "es muy venenosa.$"
+
+
+Route19_Text_Nadador3Intro:
+	.string "Este agua purifica muchas cosas, tus\n"
+	.string "malas acciones pasadas no es una\l"
+	.string "de ellas.$"
+
+
+Route19_Text_Nadador3Defeated:
+	.string "¡Ooh!\n"
+	.string "¡Traumatizado!$"
+
+
+Route19_Nadador3PostBattle:
+	.string "Miro al mar para olvidar.$"
+
+
+Route19_Text_Nadador4Intro:
+	.string "Parece que es posible bucear con\n"
+	.string "POKÉMON, la pregunta es cómo\l"
+	.string "respiras tú.$"
+
+
+Route19_Text_Nadador4Defeated:
+	.string "¡Ayuda!$"
+
+
+Route19_Nadador4PostBattle:
+	.string "Creo que quedarse pescando es\n"
+	.string "mucho más seguro que bucear.$"
+
+
+Route19_Text_Nadador5Intro:
+	.string "¿Es que no sabes nadar ROCKET?$"
+
+
+Route19_Text_Nadador5Defeated:
+	.string "¡Glub!$"
+
+
+Route19_Nadador5PostBattle:
+	.string "¡Me pregunto qué ocurrirá si te\n"
+	.string "tiro desde tu tan cómoda posición\l"
+	.string "a lomos de tu seguramente robado\l"
+	.string "POKÉMON!$"
+
+
+Route19_Text_Nadador6Intro:
+	.string "¡Me encanta nadar!\n"
+	.string "Ya veo que a ti no.$"
+
+
+Route19_Text_Nadador6Defeated:
+	.string "¡Caída en picado!$"
+
+
+Route19_Nadador6PostBattle:
+	.string "Puedo nadar más rápido incluso que\n"
+	.string "algunos POKÉMON marinos.$"
+
+
+Route19_Text_Nadador7Intro:
+	.string "¡Ten cuidado!\n"
+	.string "¡Estas aguas son traicioneras!$"
+
+
+Route19_Text_Nadador7Defeated:
+	.string "¡Ooh!\n"
+	.string "¡Peligro!$"
+
+
+Route19_Nadador7PostBattle:
+	.string "¡M-mis piernas!\n"
+	.string "¡Se han quedado enganchadas!\l"
+	.string "Glub, glub...$"
+
+
+Route19_Text_NadadoraIntro:
+	.string "Si no sabes nadar se dice y no\n"
+	.string "pasa nada ROCKET.$"
+
+
+Route19_Text_NadadoraDefeated:
+	.string "¡Oh! ¡Perdí!$"
+
+
+Route19_NadadoraPostBattle:
+	.string "Aún queda mucho para llegar a las\n"
+	.string "ISLAS ESPUMA...\l"
+	.string "Creo que me volveré a FUCSIA...$"
+
+
+Route19_Text_Nadadora2Intro:
+	.string "Creía que los ROCKETS teníais\n"
+	.string "prohibido usar SURF, de hecho\l"
+	.string "tenéis prohibido luchar siquiera\l"
+	.string "por la MEDALLA que lo concede.$"
+
+
+Route19_Text_Nadadora2Defeated:
+	.string "Estoy exhausta...$"
+
+
+Route19_Nadadora2PostBattle:
+	.string "Si tuviera que escoger a un\n"
+	.string "POKÉMON para que me llevara por el\l"
+	.string "mar, sin duda escogería a LAPRAS.\l"
+	.string "LAPRAS es muy grande y espacioso,\l"
+	.string "me mantendría alejada del agua.$"
+
+
+Route19_Text_Nadadora3Intro:
+	.string "¡Nadar es genial!\n"
+	.string "¡Las quemaduras no!$"
+
+
+Route19_Text_Nadadora3Defeated:
+	.string "¡Shocker!$"
+
+
+Route19_Nadadora3PostBattle:
+	.string "Mi novio quería ir nadando hasta\n"
+	.string "las ISLAS ESPUMA.$"
+
+
+Route20_Text_NadadorIntro:
+	.string "No es muy común ver a Rockets por\n"
+	.string "aquí, ¿qué tramas?$"
+
+
+Route20_Text_NadadorDefeated:
+	.string "¡Splash!$"
+
+
+Route20_NadadorPostBattle:
+	.string "Me gustaría poder montar a lomos\n"
+	.string "de mi POKÉMON.\l"
+	.string "Espero que tú no estés cansado.$"
+
+
+Route20_Text_Nadador2Intro:
+	.string "¿Por qué estás montado en un\n"
+	.string "POKÉMON?\l"
+	.string "¿Es que no sabes nadar?$"
+
+
+Route20_Text_Nadador2Defeated:
+	.string "Ouch!\n"
+	.string "¡Torpedeado!$"
+
+
+Route20_Nadador2PostBattle:
+	.string "Debe de ser divertido montar en un\n"
+	.string "POKÉMON.$"
+
+
+Route20_Text_NadadoraIntro:
+	.string "Las ISLAS ESPUMA son un lugar\n"
+	.string "tranquilo.\l"
+	.string "Estoy aquí de vacaciones.$"
+
+
+Route20_Text_NadadoraDefeated:
+	.string "¡Oh!¡Déjame!$"
+
+
+Route20_NadadoraPostBattle:
+	.string "Hay una gran caverna debajo de\n"
+	.string "estas islas.$"
+
+
+Route20_Text_Nadadora2Intro:
+	.string "Me encanta flotar junto con los\n"
+	.string "peces entre las olas.$"
+
+
+Route20_Text_Nadadora2Defeated:
+	.string "¡Yowch!$"
+
+
+Route20_Nadadora2PostBattle:
+	.string "¡Has herido a mi pobre SEAKING!$"

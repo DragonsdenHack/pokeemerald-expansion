@@ -111,3 +111,45 @@ end
 
 Route16_Text_16:
 .string "Ya los tenemos donde queríamos…$"
+
+
+
+Route16_EventScript_Motorista::
+	trainerbattle_single TRAINER_JACKI_4, Route16_Text_MotoristaIntro, Route16_Text_MotoristaDefeated
+	msgbox Route16_MotoristaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route16_EventScript_Motorista2::
+	trainerbattle_single TRAINER_AXLE, Route16_Text_Motorista2Intro, Route16_Text_Motorista2Defeated
+	msgbox Route16_Motorista2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route16_EventScript_Motorista3::
+	trainerbattle_single TRAINER_JEFF, Route16_Text_Motorista3Intro, Route16_Text_Motorista3Defeated
+	msgbox Route16_Motorista3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route16_EventScript_Motorista4::
+	trainerbattle_single TRAINER_JACKI_3, Route16_Text_Motorista4Intro, Route16_Text_Motorista4Defeated
+	msgbox Route16_Motorista4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route16_EventScript_Motorista5::
+	trainerbattle_single TRAINER_JACKI_2, Route16_Text_Motorista5Intro, Route16_Text_Motorista5Defeated
+	msgbox Route16_Motorista5PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route16_EventScript_Motorista6::
+	trainerbattle_single TRAINER_DALTON_5, Route16_Text_Motorista6Intro, Route16_Text_Motorista6Defeated
+	msgbox Route16_Motorista6PostBattle, MSGBOX_AUTOCLOSE
+	end
