@@ -855,11 +855,11 @@ gMetatileAttributes_saffron_city::
 	.incbin "data/tilesets/secondary/saffron_city/metatile_attributes.bin"
 	.align 1
 gMetatiles_saffron_gym::
-	.incbin "data/tilesets/primary/saffron_gym/metatiles.bin"
+	.incbin "data/tilesets/secondary/saffron_gym/metatiles.bin"
 
 	.align 1
 gMetatileAttributes_saffron_gym::
-	.incbin "data/tilesets/primary/saffron_gym/metatile_attributes.bin"
+	.incbin "data/tilesets/secondary/saffron_gym/metatile_attributes.bin"
 	.align 1
 gMetatiles_school_fr::
 	.incbin "data/tilesets/secondary/school_fr/metatiles.bin"
