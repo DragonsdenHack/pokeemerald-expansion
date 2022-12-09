@@ -73,3 +73,45 @@ Route20_EventScript_Nadadora2::
 	trainerbattle_single TRAINER_TATE_AND_LIZA_1, Route20_Text_Nadadora2Intro, Route20_Text_Nadadora2Defeated
 	msgbox Route20_Nadadora2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route20_EventScript_Nadadora4::
+	trainerbattle_single TRAINER_JERRY_1, Route20_Text_Nadadora4Intro, Route20_Text_Nadadora4Defeated
+	msgbox Route20_Nadadora4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route20_EventScript_Chica::
+	trainerbattle_single TRAINER_MARTHA, Route20_Text_ChicaIntro, Route20_Text_ChicaDefeated
+	msgbox Route20_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route20_EventScript_Nadador3::
+	trainerbattle_single TRAINER_HANNAH, Route20_Text_Nadador3Intro, Route20_Text_Nadador3Defeated
+	msgbox Route20_Nadador3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route20_EventScript_Nadadora3::
+	trainerbattle_single TRAINER_JUAN_1, Route20_Text_Nadadora3Intro, Route20_Text_Nadadora3Defeated
+	msgbox Route20_Nadadora3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route20_EventScript_Ornitologo::
+	trainerbattle_single TRAINER_TIMOTHY_5, Route20_Text_OrnitologoIntro, Route20_Text_OrnitologoDefeated
+	msgbox Route20_OrnitologoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route20_EventScript_Chica2::
+	trainerbattle_single TRAINER_DIANA_1, Route20_Text_Chica2Intro, Route20_Text_Chica2Defeated
+	msgbox Route20_Chica2PostBattle, MSGBOX_AUTOCLOSE
+	end

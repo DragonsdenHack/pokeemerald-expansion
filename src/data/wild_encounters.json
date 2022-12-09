@@ -13443,13 +13443,13 @@
             "encounter_rate": 2,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 10,
+                "min_level": 15,
+                "max_level": 35,
                 "species": "SPECIES_TENTACOOL"
               },
               {
                 "min_level": 10,
-                "max_level": 20,
+                "max_level": 40,
                 "species": "SPECIES_TENTACOOL"
               },
               {
@@ -13601,13 +13601,13 @@
             "encounter_rate": 2,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 10,
+                "min_level": 15,
+                "max_level": 35,
                 "species": "SPECIES_TENTACOOL"
               },
               {
-                "min_level": 10,
-                "max_level": 20,
+                "min_level": 20,
+                "max_level": 40,
                 "species": "SPECIES_TENTACOOL"
               },
               {
@@ -21490,13 +21490,13 @@
             "encounter_rate": 2,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 10,
+                "min_level": 15,
+                "max_level": 35,
                 "species": "SPECIES_TENTACOOL"
               },
               {
-                "min_level": 10,
-                "max_level": 20,
+                "min_level": 20,
+                "max_level": 40,
                 "species": "SPECIES_TENTACOOL"
               },
               {

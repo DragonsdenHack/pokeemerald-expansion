@@ -8684,3 +8684,324 @@ Silph11F_Policia2PostBattle:
 	.string "ser educado y conciso al hablar,\l"
 	.string "nuestro PRESIDENTE no está para\l"
 	.string "perder el tiempo en tonterías.$"
+
+
+Route21_Text_PescadorIntro:
+	.string "¡Ha picado uno gordo!\n"
+	.string "¿Quieres verlo?$"
+
+
+Route21_Text_PescadorDefeated:
+	.string "Algún día tendré el equipo más\n"
+	.string "temido...$"
+
+
+Route21_PescadorPostBattle:
+	.string "¡No capturo más que MAGIKARP!$"
+
+
+Route21_Text_Pescador2Intro:
+	.string "¿Quieres saber cómo va la pesca?$"
+
+
+Route21_Text_Pescador2Defeated:
+	.string "¡Dang!$"
+
+
+Route21_Pescador2PostBattle:
+	.string "No puedo atrapar nada bueno.\n"
+	.string "¡No pica ni un solo POKÉMON bueno!$"
+
+
+Route21_Text_NadadorIntro:
+	.string "¡El mar limpia mi cuerpo y alma!$"
+
+
+Route21_Text_NadadorDefeated:
+	.string "¡Ayah!$"
+
+
+Route21_NadadorPostBattle:
+	.string "El mar es inmenso y colosal, al\n"
+	.string "igual que las montañas.$"
+
+
+CinnabarPath_Text_PescadorIntro:
+	.string "¡Hey, no asustes a los peces!$"
+
+
+CinnabarPath_Text_PescadorDefeated:
+	.string "¡Perdóname!\n"
+	.string "Solo estoy frustrado por no poder\l"
+	.string "atrapar nada.$"
+
+
+CinnabarPath_PescadorPostBattle:
+	.string "Aún no he atrapado una sola pieza.\n"
+	.string "¿Será este lugar una enorme\l"
+	.string "piscina donde no hay peces?$"
+
+
+CinnabarPath_Text_Pescador2Intro:
+	.string "Hazme compañía mientras veo si\n"
+	.string "pica algo.$"
+
+
+CinnabarPath_Text_Pescador2Defeated:
+	.string "Me has dejado exhausto.$"
+
+
+CinnabarPath_Pescador2PostBattle:
+	.string "¡Oh, espera!\n"
+	.string "¡Ha picado uno gordo!$"
+
+
+CinnabarPath_Text_NadadorIntro:
+	.string "Capturé a mis POKÉMON en el mar.$"
+
+
+CinnabarPath_Text_NadadorDefeated:
+	.string "¡Mis POKÉMON han caído!$"
+
+
+CinnabarPath_NadadorPostBattle:
+	.string "¿Dónde atrapaste a tus POKÉMON?\n"
+	.string "¿Son robados?$"
+
+
+CinnabarPath_Text_Nadador2Intro:
+	.string "¡Ahh!\n"
+	.string "¡Sentir el sol y la brisa del viento!$"
+
+
+CinnabarPath_Text_Nadador2Defeated:
+	.string "¡Yow!\n"
+	.string "¡Perdí!$"
+
+
+CinnabarPath_Nadador2PostBattle:
+	.string "¡Creo que me he quemado!$"
+
+
+CinnabarPath_Text_Nadador3Intro:
+	.string "Ahora mismo estoy en una\n"
+	.string "competición de triatlón.$"
+
+
+CinnabarPath_Text_Nadador3Defeated:
+	.string "Pant...\n"
+	.string "Pant... Pant...$"
+
+
+CinnabarPath_Nadador3PostBattle:
+	.string "¡Me has ganado pero aún me queda\n"
+	.string "la bici y el marathon!$"
+
+
+Route20_Text_Nadadora4Intro:
+	.string "CANELA está al oeste, cuenta con\n"
+	.string "un LABORATORIO POKÉMON.\l"
+	.string "Mi padre trabaja allí.$"
+
+
+Route20_Text_Nadadora4Defeated:
+	.string "¡Se lo diré a mi padre!$"
+
+
+Route20_Nadadora4PostBattle:
+	.string "CANELA es una isla volcánica.\n"
+	.string "He oído que emergió del agua\l"
+	.string "después de que un volcán\l"
+	.string "explotara.$"
+
+
+Route20_Text_ChicaIntro:
+	.string "Nadé hasta aquí desde ISLA CANELA.\n"
+	.string "No fue fácil, ya te lo digo.$"
+
+
+Route20_Text_ChicaDefeated:
+	.string "¡Estoy tan decepcionada!$"
+
+
+Route20_ChicaPostBattle:
+	.string "Los POKÉMON se han apoderado de\n"
+	.string "una mansión abandonada en CANELA.\l"
+	.string "La llaman la MANSIÓN POKÉMON.$"
+
+
+Route20_Text_Nadador3Intro:
+	.string "¡Hecha un vistazo a mi escultural\n"
+	.string "cuerpo!$"
+
+
+Route20_Text_Nadador3Defeated:
+	.string "¡Wimpy!$"
+
+
+Route20_Nadador3PostBattle:
+	.string "¡Debería haber entrenado más a mis\n"
+	.string "POKÉMON, no a mí mismo!$"
+
+
+Route20_Text_Nadadora3Intro:
+	.string "Mi novio me ha regalado unas\n"
+	.string "perlas.$"
+
+
+Route20_Text_Nadadora3Defeated:
+	.string "¡Oh, no!\n"
+	.string "¡Mis perlas estaban dentro!$"
+
+
+Route20_Nadadora3PostBattle:
+	.string "¿Crecerán más mis perlas dentro de\n"
+	.string "un CLOYSTER?$"
+
+
+Route20_Text_OrnitologoIntro:
+	.string "He venido hasta aquí volando con\n"
+	.string "mis aves.$"
+
+
+Route20_Text_OrnitologoDefeated:
+	.string "¡Oh, no!\n"
+	.string "¿Y ahora qué hago?$"
+
+
+Route20_OrnitologoPostBattle:
+	.string "Mis pájaros están exhaustos.\n"
+	.string "¡Ya no pueden llevarme volando de\l"
+	.string "vuelta!$"
+
+
+Route20_Text_Chica2Intro:
+	.string "¿Estás también de vacaciones?$"
+
+
+Route20_Text_Chica2Defeated:
+	.string "¡No tienes compasión!$"
+
+
+Route20_Chica2PostBattle:
+	.string "En el pasado las ISLAS ESPUMA\n"
+	.string "estaban unidas en una sola isla.$"
+
+
+PokemonMansion1F_Text_ChicoIntro:
+	.string "¡W-w-waah! ¡Me has asustado!\n"
+	.string "Pensé que eras un fantasma.$"
+
+
+PokemonMansion1F_Text_ChicoDefeated:
+	.string "¡Tch!\n"
+	.string "No soy capaz de ganar.$"
+
+
+PokemonMansion1F_ChicoPostBattle:
+	.string "Estaba por aquí explorando por mi\n"
+	.string "cuenta, pero me siento observado.\l"
+	.string "Creo que me iré pronto.$"
+
+
+PokemonMansion1F_Text_CientificoIntro:
+	.string "¿Quién eres?\n"
+	.string "No debería de haber nadie aquí.$"
+
+
+PokemonMansion1F_Text_CientificoDefeated:
+	.string "¡Ouch!$"
+
+
+PokemonMansion1F_CientificoPostBattle:
+	.string "¿Una llave?\n"
+	.string "No sé de qué me estás hablando.$"
+
+
+PokemonMansion2F_Text_CientificoIntro:
+	.string "¡No puedo salir de aquí!\n"
+	.string "Este viejo lugar es un enorme\l"
+	.string "puzzle.$"
+
+
+PokemonMansion2F_Text_CientificoDefeated:
+	.string "¡Oh, no!\n"
+	.string "¡Perdí mi mochila!$"
+
+
+PokemonMansion2F_CientificoPostBattle:
+	.string "Las puertas de esta mansión se\n"
+	.string "abren y cierran solas.$"
+
+
+PokemonMansion3F_Text_CientificoIntro:
+	.string "¡Este lugar es enorme!$"
+
+
+PokemonMansion3F_Text_CientificoDefeated:
+	.string "¡Ayah!$"
+
+
+PokemonMansion3F_CientificoPostBattle:
+	.string "Espero poder encontrar a mi\n"
+	.string "compañero.$"
+
+
+PokemonMansion3F_Text_Cientifico2Intro:
+	.string "Mi maestro vivió aquí.$"
+
+
+PokemonMansion3F_Text_Cientifico2Defeated:
+	.string "¡Cortocircuito!$"
+
+
+PokemonMansion3F_Cientifico2PostBattle:
+	.string "¿No sabes por dónde ir?\n"
+	.string "¡Prueba a tirarte por ahí!$"
+
+
+PokemonMansion4F_Text_CientificoIntro:
+	.string "Uh-oh...\n"
+	.string "¿Dónde estoy ahora?$"
+
+
+PokemonMansion4F_Text_CientificoDefeated:
+	.string "¡Awooh!$"
+
+
+PokemonMansion4F_CientificoPostBattle:
+	.string "Hay muchas notas por todo este\n"
+	.string "lugar, quienes vivieron antes aquí\l"
+	.string "deben de haberlas dejado por algún\l"
+	.string "motivo.$"
+
+
+PokemonMansion4F_Text_Cientifico2Intro:
+	.string "Este lugar es perfecto para montar\n"
+	.string "un laboratorio.\l"
+	.string "Mira todo este espacio.$"
+
+
+PokemonMansion4F_Text_Cientifico2Defeated:
+	.string "¿Qué fue eso?$"
+
+
+PokemonMansion4F_Cientifico2PostBattle:
+	.string "Me gusta estar aquí, es conductivo\n"
+	.string "con mis estudios.$"
+
+
+PewterCityGym_Text_ChicoIntro:
+	.string "¡Espera!\n"
+	.string "¡Aún estás a años luz de retar a\l"
+	.string "BROCK!$"
+
+
+PewterCityGym_Text_ChicoDefeated:
+	.string "¡Los años luz no se miden en\n"
+	.string "tiempo sino en distancia!$"
+
+
+PewterCityGym_Text_ChicoPostBattle:
+	.string "Parece que eres bueno...\n"
+	.string "¡Pero no tanto como BROCK!$"
