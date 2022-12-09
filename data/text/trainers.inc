@@ -9005,3 +9005,291 @@ PewterCityGym_Text_ChicoDefeated:
 PewterCityGym_Text_ChicoPostBattle:
 	.string "Parece que eres bueno...\n"
 	.string "¡Pero no tanto como BROCK!$"
+
+
+CeruleanCityGym_Text_ChicoIntro:
+	.string "¡Splash!\n"
+	.string "¡Soy el primero al ataque!$"
+
+
+CeruleanCityGym_Text_ChicoDefeated:
+	.string "¡No puede ser!$"
+
+
+CeruleanCityGym_Text_ChicoPostBattle:
+	.string "MISTY no para de mejorar.\n"
+	.string "¡Ella no perderá con alguien como\l"
+	.string "tú!$"
+
+
+CeruleanCityGym_Text_ChicaIntro:
+	.string "Bonito disfraz, ahora que esos\n"
+	.string "ROCKETS tuvieron su merecido todos\l"
+	.string "les ridiculizan.$"
+
+
+CeruleanCityGym_Text_ChicaDefeated:
+	.string "¡Demasiado para mi!$"
+
+
+CeruleanCityGym_Text_ChicaPostBattle:
+	.string "Para saber hasta dónde puedes\n"
+	.string "llegar deberás de enfrentar a otros\l"
+	.string "ENTRENADORES.$"
+
+
+VermilionCityGym_Text_ChicoIntro:
+	.string "¡Este no es lugar para niños!\n"
+	.string "¡Aunque estén disfrazados de\l"
+	.string "delincuentes!$"
+
+
+VermilionCityGym_Text_ChicoDefeated:
+	.string "¡Wow!\n"
+	.string "¡Me has sorprendido!$"
+
+
+VermilionCityGym_Text_ChicoPostBattle:
+	.string "LT.SURGE colocó cerraduras dobles\n"
+	.string "en el GIMNASIO.\l"
+	.string "¡Las puso por todos sitios!\l"
+	.string "¡Te daré una pista!\l"
+	.string "¡Tras abrir la 1ra cerradura, la\l"
+	.string "2da está al lado!$"
+
+
+VermilionCityGym_Text_Chico2Intro:
+	.string "Se me da bien la electricidad,\n"
+	.string "¡por ello me uní a este GIMNASIO!$"
+
+
+VermilionCityGym_Text_Chico2Defeated:
+	.string "¡Perdí!$"
+
+
+VermilionCityGym_Text_Chico2PostBattle:
+	.string "¡Vale, hablaré!\n"
+	.string "¡LT.SURGE dijo que ocultaría los\l"
+	.string "botones de la puerta dentro de\l"
+	.string "algo!$"
+
+
+VermilionCityGym_Text_Chico3Intro:
+	.string "Cuando estaba en el ejército, el\n"
+	.string "LT.SURGE era muy estricto.$"
+
+
+VermilionCityGym_Text_Chico3Defeated:
+	.string "¡Para!\n"
+	.string "¡Eres demasiado bueno!$"
+
+
+VermilionCityGym_Text_Chico3PostBattle:
+	.string "No es fácil abrir esa puerta...\n"
+	.string "El LT.SURGE siempre fue muy\l"
+	.string "cauteloso en el ejército.$"
+
+
+CeladonCityGym_Text_ChicaIntro:
+	.string "Debes de saber una cosa sobre este\n"
+	.string "GIMNASIO.\l"
+	.string "¡Sólo se permite la entrada a\l"
+	.string "chicas de verdad!$"
+
+
+CeladonCityGym_Text_ChicaDefeated:
+	.string "¡Eres demasiado duro!$"
+
+
+CeladonCityGym_Text_ChicaPostBattle:
+	.string "¡Espero que ERIKA se encarge de\n"
+	.string "ti!$"
+
+
+CeladonCityGym_Text_Chica2Intro:
+	.string "Oh, bienvenido.\n"
+	.string "Perfecto, ya me estaba aburriendo.$"
+
+
+CeladonCityGym_Text_Chica2Defeated:
+	.string "¡Mi maquillaje!$"
+
+
+CeladonCityGym_Text_Chica2PostBattle:
+	.string "¡Me gusta tu cosplay del TEAM\n"
+	.string "ROCKET!$"
+
+
+CeladonCityGym_Text_Chica3Intro:
+	.string "Tu cara me suena, ¿no serás un\n"
+	.string "delincuente de verdad?$"
+
+
+CeladonCityGym_Text_Chica3Defeated:
+	.string "¡No!$"
+
+
+CeladonCityGym_Text_Chica3PostBattle:
+	.string "¡Usamos a nuestros POKÉMON PLANTA\n"
+	.string "para hacer adornos florales!$"
+
+
+CeladonCityGym_Text_Chica4Intro:
+	.string "Nunca te había visto por aquí,\n"
+	.string "¿eres nuevo?$"
+
+
+CeladonCityGym_Text_Chica4Defeated:
+	.string "¡Te has pasado!$"
+
+
+CeladonCityGym_Text_Chica4PostBattle:
+	.string "Así que buscabas a ERIKA, no a\n"
+	.string "mi...$"
+
+
+CeladonCityGym_Text_Chica5Intro:
+	.string "Encantado de conocerte.\n"
+	.string "Mi hobby es entrenar POKÉMON.$"
+
+
+CeladonCityGym_Text_Chica5Defeated:
+	.string "¡Oh!\n"
+	.string "¡Espléndido!$"
+
+
+CeladonCityGym_Text_Chica5PostBattle:
+	.string "¡Esa indumentaria ya pasó de moda!$"
+
+
+CeladonCityGym_Text_Chica6Intro:
+	.string "¡Te lo advierto!\n"
+	.string "¡Los tipos BICHO y FUEGO están\l"
+	.string "prohibidos en este gimnasio!$"
+
+
+CeladonCityGym_Text_Chica6Defeated:
+	.string "¡Oh!\n"
+	.string "¡Tú!$"
+
+
+CeladonCityGym_Text_Chica6PostBattle:
+	.string "Nuestra LÍDER ERIKA podrá ser muy\n"
+	.string "tranquila, pero es famosa por su\l"
+	.string "gran habilidad en el combate.$"
+
+
+CeladonCityGym_Text_Chica7Intro:
+	.string "¡Bienvenido a CIUDAD AZULONA!\n"
+	.string "Más te vale no subestimar a las\l"
+	.string "chicas de por aquí.$"
+
+
+CeladonCityGym_Text_Chica7Defeated:
+	.string "¡Oh!\n"
+	.string "¡Batida!$"
+
+
+CeladonCityGym_Text_Chica7PostBattle:
+	.string "No traje a mis mejores POKÉMON.\n"
+	.string "¡Espera a la próxima vez!$"
+
+
+FuchsiaCityGym_Text_ChicoIntro:
+	.string "La fuerza no es la clave de este\n"
+	.string "juego.\l"
+	.string "¿Lo entiendes?\l"
+	.string "¡Esto va de estrategia!\l"
+	.string "¡Te mostraré cómo la estrategia\l"
+	.string "puede batir a la fuerza bruta!$"
+
+
+FuchsiaCityGym_Text_ChicoDefeated:
+	.string "¿Qué?\n"
+	.string "¡Extraordinario!$"
+
+
+FuchsiaCityGym_Text_ChicoPostBattle:
+	.string "¿Mezclaras fuerza con\n"
+	.string "inteligencia?\l"
+	.string "¡Buena táctica!\l"
+	.string "¡Es increíble lo que sabes para lo\l"
+	.string "joven que eres!$"
+
+
+FuchsiaCityGym_Text_Chico2Intro:
+	.string "¡Quería ser un ninja y por eso\n"
+	.string "vine a este GIMNASIO!$"
+
+
+FuchsiaCityGym_Text_Chico2Defeated:
+	.string "¡Vaya, he perdido!$"
+
+
+FuchsiaCityGym_Text_Chico2PostBattle:
+	.string "¡Seguiré entrenándome con KOGA,\n"
+	.string "mi maestro ninja!$"
+
+
+FuchsiaCityGym_Text_Chico3Intro:
+	.string "¡También estudio técnicas ninja\n"
+	.string "con el maestro KOGA!\p"
+	.string "¡Los ninja llevan mucho tiempo\n"
+	.string "usando animales!$"
+
+
+FuchsiaCityGym_Text_Chico3Defeated:
+	.string "¡Auuuu!$"
+
+
+FuchsiaCityGym_Text_Chico3PostBattle:
+	.string "¡Me queda mucho por aprender!$"
+
+
+FuchsiaCityGym_Text_Chico4Intro:
+	.string "¿Podrás batir mis técnicas\n"
+	.string "especiales?$"
+
+
+FuchsiaCityGym_Text_Chico4Defeated:
+	.string "¡Me has sacudido!$"
+
+
+FuchsiaCityGym_Text_Chico4PostBattle:
+	.string "¡Me gustan los ataques de sueño y\n"
+	.string "veneno porque perduran después del\l"
+	.string "combate!$"
+
+
+FuchsiaCityGym_Text_Chico5Intro:
+	.string "¡Alto ahí!\p"
+	.string "¿Te han agobiado nuestros muros\n"
+	.string "invisibles?$"
+
+
+FuchsiaCityGym_Text_Chico5Defeated:
+	.string "¡Buaaa!\n"
+	.string "¡Qué bien luchas!$"
+
+
+FuchsiaCityGym_Text_Chico5PostBattle:
+	.string "¡Impresionante!\p"
+	.string "Oye, una cosa: mira bien entre\n"
+	.string "los huecos de los muros invisibles.$"
+
+
+FuchsiaCityGym_Text_Chico6Intro:
+	.string "¡El maestro KOGA desciende\n"
+	.string "de una gran familia de ninjas!\p"
+	.string "¿Y tú de qué familia desciendes?$"
+
+
+FuchsiaCityGym_Text_Chico6Defeated:
+	.string "Eres más fuerte de lo que\n"
+	.string "pensaba...$"
+
+
+FuchsiaCityGym_Text_Chico6PostBattle:
+	.string "¡Donde hay luz hay sombras!\p"
+	.string "¡Luz o sombra!\n"
+	.string "¿Cuál eliges?$"
