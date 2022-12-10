@@ -9093,7 +9093,7 @@ VermilionCityGym_Text_Chico3PostBattle:
 CeladonCityGym_Text_ChicaIntro:
 	.string "Debes de saber una cosa sobre este\n"
 	.string "GIMNASIO.\l"
-	.string "¡Sólo se permite la entrada a\l"
+	.string "¡Solo se permite la entrada a\l"
 	.string "chicas de verdad!$"
 
 
@@ -9210,7 +9210,7 @@ FuchsiaCityGym_Text_ChicoDefeated:
 
 
 FuchsiaCityGym_Text_ChicoPostBattle:
-	.string "¿Mezclaras fuerza con\n"
+	.string "¿Mezclarás fuerza con\n"
 	.string "inteligencia?\l"
 	.string "¡Buena táctica!\l"
 	.string "¡Es increíble lo que sabes para lo\l"
@@ -9293,3 +9293,331 @@ FuchsiaCityGym_Text_Chico6PostBattle:
 	.string "¡Donde hay luz hay sombras!\p"
 	.string "¡Luz o sombra!\n"
 	.string "¿Cuál eliges?$"
+
+
+SaffronCityGym_Text_ExorcistaIntro:
+	.string "¡Tú y yo!\n"
+	.string "Nuestros POKéMON deben luchar.$"
+
+
+SaffronCityGym_Text_ExorcistaDefeated:
+	.string "¡He perdido al final!$"
+
+
+SaffronCityGym_Text_ExorcistaPostBattle:
+	.string "Sabía que esto iba a pasar.$"
+
+
+SaffronCityGym_Text_Exorcista2Intro:
+	.string "Los POKéMON acaban pareciéndose\n"
+	.string "a sus ENTRENADORES.\p"
+	.string "¡Pues tus POKéMON parecen fuertes!$"
+
+
+SaffronCityGym_Text_Exorcista2Defeated:
+	.string "¡Lo sabía!$"
+
+
+SaffronCityGym_Text_Exorcista2PostBattle:
+	.string "¡Debo enseñarles mejores técnicas\n"
+	.string "a mis POKéMON!\p"
+	.string "¡Sobre todo del tipo PSÍQUICO!$"
+
+
+SaffronCityGym_Text_Exorcista3Intro:
+	.string "¡SABRINA es más joven que yo,\n"
+	.string "pero la respeto!$"
+
+
+SaffronCityGym_Text_Exorcista3Defeated:
+	.string "¡Vaya fallo!$"
+
+
+SaffronCityGym_Text_Exorcista3PostBattle:
+	.string "¡En una pelea de iguales, ganará\n"
+	.string "quien tenga más voluntad!\p"
+	.string "¡Si quieres ganar a SABRINA,\n"
+	.string "piensa solo en ganar!$"
+
+
+SaffronCityGym_Text_MediumIntro:
+	.string "¡El GIMNASIO POKéMON de AZAFRÁN\n"
+	.string "es famoso por sus médiums!\p"
+	.string "¡Quieres ver a SABRINA!\n"
+	.string "¡Lo sé!$"
+
+
+SaffronCityGym_Text_MediumDefeated:
+	.string "¡Arrrgg!$"
+
+
+SaffronCityGym_Text_MediumPostBattle:
+	.string "¡Tienes razón! ¡Usé la telepatía\n"
+	.string "para leer tu mente!$"
+
+
+SaffronCityGym_Text_Medium2Intro:
+	.string "¿Te asusta nuestro poder oculto?$"
+
+
+SaffronCityGym_Text_Medium2Defeated:
+	.string "¡Jamás lo hubiera pensado!$"
+
+
+SaffronCityGym_Text_Medium2PostBattle:
+	.string "¡Los POKéMON psíquicos temen solo\n"
+	.string "a los bichos y a los fantasmas!$"
+
+
+SaffronCityGym_Text_Medium3Intro:
+	.string "Sabes que tu fuerza no bastará\n"
+	.string "para ganar en el mundo de los\l"
+	.string "POKéMON, ¿no?$"
+
+
+SaffronCityGym_Text_Medium3Defeated:
+	.string "¡No me lo puedo creer!$"
+
+
+SaffronCityGym_Text_Medium3PostBattle:
+	.string "¡SABRINA ganó al MAESTRO de\n"
+	.string "KARATE de la puerta de al lado!$"
+
+
+SaffronCityGym_Text_Medium4Intro:
+	.string "¡SABRINA es joven, pero es nuestra\n"
+	.string "LÍDER!\p"
+	.string "¡No llegarás a ella fácilmente!$"
+
+
+SaffronCityGym_Text_Medium4Defeated:
+	.string "¡No he podido concentrarme!$"
+
+
+SaffronCityGym_Text_Medium4PostBattle:
+	.string "En AZAFRÁN había dos\n"
+	.string "GIMNASIOS POKéMON.\p"
+	.string "¡El DOJO-KARATE de aquí al lado\n"
+	.string "perdió su condición de GIMNASIO\l"
+	.string "cuando los machacamos!$"
+
+
+CinnabarIslandGym_Text_LadronIntro:
+	.string "Yo era ladrón, pero me hice\n"
+	.string "honrado cuando me convertí\l"
+	.string "en ENTRENADOR.$"
+
+
+CinnabarIslandGym_Text_LadronDefeated:
+	.string "¡Me rindo!$"
+
+
+CinnabarIslandGym_Text_LadronPostBattle:
+	.string "¡No puedo evitar robar los POKéMON\n"
+	.string "de otras personas!$"
+
+
+CinnabarIslandGym_Text_CientificoIntro:
+	.string "¿Sabes el calor que puede dar el\n"
+	.string "aliento de fuego de un POKéMON?$"
+
+
+CinnabarIslandGym_Text_CientificoDefeated:
+	.string "¡Ay!\n"
+	.string "¡Quema, quema!$"
+
+
+CinnabarIslandGym_Text_CientificoPostBattle:
+	.string "Fuego o, para ser más preciso,\n"
+	.string "combustión...\p"
+	.string "¡Bla, bla, bla, bla!...$"
+
+
+CinnabarIslandGym_Text_Cientifico2Intro:
+	.string "¡No puedes ganar!\n"
+	.string "¡Soy un experto en POKéMON!$"
+
+
+CinnabarIslandGym_Text_Cientifico2Defeated:
+	.string "¡Au!\n"
+	.string "¡Tanta teoría para nada!$"
+
+
+CinnabarIslandGym_Text_Cientifico2PostBattle:
+	.string "¡Mis teorías son muy complicadas\n"
+	.string "para ti!$"
+
+
+CinnabarIslandGym_Text_Ladron2Intro:
+	.string "¡Me encanta usar POKéMON\n"
+	.string "del TIPO FUEGO!$"
+
+
+CinnabarIslandGym_Text_Ladron2Defeated:
+	.string "¡No hay quien pueda contigo!$"
+
+
+CinnabarIslandGym_Text_Ladron2PostBattle:
+	.string "¡Ojalá hubiera un POKéMON ladrón!\n"
+	.string "¡Me encantaría utilizarlo!$"
+
+
+CinnabarIslandGym_Text_Cientifico3Intro:
+	.string "¡Ya sé por qué BLAINE se hizo\n"
+	.string "ENTRENADOR!$"
+
+
+CinnabarIslandGym_Text_Cientifico3Defeated:
+	.string "¡Auuuuuuuuuu!$"
+
+
+CinnabarIslandGym_Text_Cientifico3PostBattle:
+	.string "BLAINE se perdió en la montaña,\n"
+	.string "y se hizo de noche...\p"
+	.string "¡Pero apareció un feroz pájaro\n"
+	.string "POKéMON...!\p"
+	.string "¡E iluminó el camino a BLAINE\n"
+	.string "para que pudiera bajar!$"
+
+
+CinnabarIslandGym_Text_Ladron3Intro:
+	.string "¡He estado en muchos GIMNASIOS,\n"
+	.string "pero éste es mi preferido!$"
+
+
+CinnabarIslandGym_Text_Ladron3Defeated:
+	.string "¡Vaya!\n"
+	.string "¡Eso quema!$"
+
+
+CinnabarIslandGym_Text_Ladron3PostBattle:
+	.string "¡A nosotros, los seguidores de los\n"
+	.string "POKéMON de fuego, nos gustan\l"
+	.string "PONYTA y NINETALES!$"
+
+
+CinnabarIslandGym_Text_Cientifico4Intro:
+	.string "El fuego es débil contra el H2O.$"
+
+
+CinnabarIslandGym_Text_Cientifico4Defeated:
+	.string "¡Oh!\n"
+	.string "¡Esto se acabó!$"
+
+
+CinnabarIslandGym_Text_Cientifico4PostBattle:
+	.string "¡El agua apaga el fuego!\p"
+	.string "¡Pero el fuego derrite a los\n"
+	.string "POKéMON de hielo!$"
+
+
+ViridianCityGym_Text_DomadorIntro:
+	.string "¡Tus POKéMON se arrodillarán\n"
+	.string "de un solo latigazo!$"
+
+
+ViridianCityGym_Text_DomadorDefeated:
+	.string "¡Auch!\n"
+	.string "¡Vaya latigazo!$"
+
+
+ViridianCityGym_Text_DomadorPostBattle:
+	.string "¡Espera!\n"
+	.string "¡No he tenido ningún cuidado!$"
+
+
+ViridianCityGym_Text_Domador2Intro:
+	.string "¡Mis POKéMON y yo hacemos\n"
+	.string "muy buena música!$"
+
+
+ViridianCityGym_Text_Domador2Defeated:
+	.string "¡Estás en perfecta armonía!$"
+
+
+ViridianCityGym_Text_Domador2PostBattle:
+	.string "¿Sabes quién es el LÍDER de\n"
+	.string "nuestro GIMNASIO?$"
+
+
+ViridianCityGym_Text_KaratekaIntro:
+	.string "¡El karate es lo máximo en artes\n"
+	.string "marciales!$"
+
+
+ViridianCityGym_Text_KaratekaDefeated:
+	.string "¡Ayyyy!$"
+
+
+ViridianCityGym_Text_KaratekaPostBattle:
+	.string "Si mis POKéMON fueran buenos\n"
+	.string "karatekas...$"
+
+
+ViridianCityGym_Text_Karateka2Intro:
+	.string "¡Soy el REY del KARATE!\n"
+	.string "¡Te tengo en mis manos!$"
+
+
+ViridianCityGym_Text_Karateka2Defeated:
+	.string "¡Aaah!$"
+
+
+ViridianCityGym_Text_Karateka2PostBattle:
+	.string "¿La LIGA POKéMON? ¿Tú?\n"
+	.string "¿Pero quién te crees que eres?$"
+
+
+ViridianCityGym_Text_Karateka3Intro:
+	.string "¡Groaar!\n"
+	.string "¡Me estoy mosqueando!$"
+
+
+ViridianCityGym_Text_Karateka3Defeated:
+	.string "¡Rargh!$"
+
+
+ViridianCityGym_Text_Karateka3PostBattle:
+	.string "¡No me merezco nada!$"
+
+
+ViridianCityGym_Text_GuayIntro:
+	.string "¡El GIMNASIO de VERDE estuvo\n"
+	.string "cerrado mucho tiempo, pero nuestro\l"
+	.string "LÍDER ha vuelto!$"
+
+
+ViridianCityGym_Text_GuayDefeated:
+	.string "¿Me has ganado?$"
+
+
+ViridianCityGym_Text_GuayPostBattle:
+	.string "¡Accederás a la LIGA POKéMON\n"
+	.string "si ganas a nuestro LÍDER!$"
+
+
+ViridianCityGym_Text_Guay2Intro:
+	.string "¡Oye!\n"
+	.string "Ya no debe de quedarte nada\l"
+	.string "de energía, ¿no?$"
+
+
+ViridianCityGym_Text_Guay2Defeated:
+	.string "¡Me he quedado sin fuerza!$"
+
+
+ViridianCityGym_Text_Guay2PostBattle:
+	.string "¡Necesitas potencia para luchar\n"
+	.string "contra el LÍDER del GIMNASIO!$"
+
+
+ViridianCityGym_Text_Guay3Intro:
+	.string "¡Los más hábiles ganan con estilo!$"
+
+
+ViridianCityGym_Text_Guay3Defeated:
+	.string "¡He perdido el control!$"
+
+
+ViridianCityGym_Text_Guay3PostBattle:
+	.string "¡El LÍDER me va a reñir!$"
