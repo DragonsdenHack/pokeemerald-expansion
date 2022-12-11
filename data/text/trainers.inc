@@ -9621,3 +9621,263 @@ ViridianCityGym_Text_Guay3Defeated:
 
 ViridianCityGym_Text_Guay3PostBattle:
 	.string "¡El LÍDER me va a reñir!$"
+
+
+RocketHideoutViridian_Text_RocketIntro:
+	.string "Bien, llegó la hora de comprobar\n"
+	.string "si mereces llevar a cabo la misión\l"
+	.string "que te hemos confiado, ¡en\l"
+	.string "guardia!$"
+
+
+RocketHideoutViridian_Text_RocketDefeated:
+	.string "Gran combate, señor.$"
+
+
+RocketHideoutViridian_Text_RocketPostBattle:
+	.string "Una base subterránea justo debajo\n"
+	.string "de un GIMNASIO homologado por la\l"
+	.string "LIGA POKÉMON, ¿no es brillante?$"
+
+
+RocketHideoutViridian_Text_Rocket2Intro:
+	.string "GIOVANNI en persona acaba de\n"
+	.string "entregarle la MEDALLA TIERRA a ese\l"
+	.string "ROJO usando uno de sus peores\l"
+	.string "equipos, a ti no te lo pondrá tan\l"
+	.string "fácil, ¡quiere que estés preparado\l"
+	.string "para lo que te espera en la LIGA!$"
+
+
+RocketHideoutViridian_Text_Rocket2Defeated:
+	.string "Todo un honor servirle de\n"
+	.string "entrenamiento, ADMIN {PLAYER}.$"
+
+
+RocketHideoutViridian_Text_Rocket2PostBattle:
+	.string "Si quieres tener opciones en la\n"
+	.string "LIGA POKÉMON, deberás ir lo más\l"
+	.string "preparado posible.$"
+
+
+RocketHideoutViridian_Text_Rocket3Intro:
+	.string "Bienvenido a nuestra base de\n"
+	.string "CIUDAD VERDE, ¿o debería de decir\l"
+	.string "último GIMNASIO?$"
+
+
+RocketHideoutViridian_Text_Rocket3Defeated:
+	.string "Así que eres tan fuerte como\n"
+	.string "dicen.$"
+
+
+RocketHideoutViridian_Text_Rocket3PostBattle:
+	.string "Tenemos un total de 3 bases\n"
+	.string "subterráneas repartidas por todo\l"
+	.string "KANTO, esta es la más pequeña pero\l"
+	.string "la de mayor importancia logística.$"
+
+
+RocketHideoutViridian_Text_Rocket4Intro:
+	.string "GIOVANNI ha anunciado de forma\n"
+	.string "pública la disolución del TEAM\l"
+	.string "ROCKET después de fingir su\l"
+	.string "derrota por tercera vez ante ROJO,\l"
+	.string "no ha sido más que un movimiento\l"
+	.string "estratégico para que nos pierdan\l"
+	.string "de vista cuando más fuertes\l"
+	.string "estamos.$"
+
+
+RocketHideoutViridian_Text_Rocket4Defeated:
+	.string "Espero que pongas a ese ROJO en su\n"
+	.string "lugar.$"
+
+
+RocketHideoutViridian_Text_Rocket4PostBattle:
+	.string "GIOVANNI ha anunciado de forma\n"
+	.string "pública la disolución del TEAM\l"
+	.string "ROCKET después de fingir su\l"
+	.string "derrota por tercera vez ante ROJO,\l"
+	.string "no ha sido más que un movimiento\l"
+	.string "estratégico para que nos pierdan\l"
+	.string "de vista cuando más fuertes\l"
+	.string "estamos.$"
+
+
+RocketHideoutViridian_Text_Rocket5Intro:
+	.string "Desde aquí controlamos todo lo que\n"
+	.string "ocurre en el suroeste de KANTO, y\l"
+	.string "sobretodo los nuevos aspirantes al\l"
+	.string "título de CAMPEÓN.$"
+
+
+RocketHideoutViridian_Text_Rocket5Defeated:
+	.string "Bien hecho, aspirante al título.$"
+
+
+RocketHideoutViridian_Text_Rocket5PostBattle:
+	.string "Todo el que quiera entrar en la\n"
+	.string "LIGA POKÉMON debe pasar por este\l"
+	.string "GIMNASIO, que a su vez es\l"
+	.string "controlado por nosotros.$"
+
+
+RocketHideoutViridian_Text_Rocket6Intro:
+	.string "¡Más te vale dejar bien alto el\n"
+	.string "nombre del TEAM ROCKET!\l"
+	.string "¡Si es que superas nuestra prueba\l"
+	.string "y obtienes la MEDALLA TIERRA!$"
+
+
+RocketHideoutViridian_Text_Rocket6Defeated:
+	.string "Parece que vas en serio.$"
+
+
+RocketHideoutViridian_Text_Rocket6PostBattle:
+	.string "Algunos de nuestros mejores\n"
+	.string "hombres están aquí, ¿podrás con\l"
+	.string "todos?$"
+
+
+RocketHideoutViridian_Text_Rocket7Intro:
+	.string "Los más destacados miembros del\n"
+	.string "TEAM ROCKET están aquí, tenemos\l"
+	.string "órdenes directas de GIOVANNI de\l"
+	.string "intentar derrotarte, si de verdad\l"
+	.string "eres merecedor de luchar por la\l"
+	.string "LIGA, ¡lo sabremos!$"
+
+
+RocketHideoutViridian_Text_Rocket7Defeated:
+	.string "¡Me honra trabajar para usted,\n"
+	.string "señor!$"
+
+
+RocketHideoutViridian_Text_Rocket7PostBattle:
+	.string "Le deseo suerte en su asalto a la\n"
+	.string "LIGA POKÉMON ADMIN {PLAYER}.$"
+
+
+RocketHideoutViridian_Text_Rocket8Intro:
+	.string "Tranquilo, no te enfrentarás a\n"
+	.string "GIOVANNI, pero si a entrenadores\l"
+	.string "mucho más poderosos que la pobre\l"
+	.string "versión de GIOVANNI que se ve\l"
+	.string "obligada a sacar de cara al\l"
+	.string "público en este GIMNASIO.$"
+
+
+RocketHideoutViridian_Text_Rocket8Defeated:
+	.string "¡Puro poder ROCKET!$"
+
+
+RocketHideoutViridian_Text_Rocket8PostBattle:
+	.string "Ahora es cuando tendrás que\n"
+	.string "demostrar lo que vales, los\l"
+	.string "ENTRENADORES que siguen no te\l"
+	.string "regalarán nada, más vale que te\l"
+	.string "prepares bien.$"
+
+
+RocketHideoutViridian_Text_CientificoIntro:
+	.string "Las ondas de radio son el futuro\n"
+	.string "chico, ¿tienes idea de los\l"
+	.string "potenciales POKÉMON que podemos\l"
+	.string "crear con ellas?$"
+
+
+RocketHideoutViridian_Text_CientificoDefeated:
+	.string "Tus POKÉMON no parecen necesitar\n"
+	.string "ninguna mejora.$"
+
+
+RocketHideoutViridian_Text_CientificoPostBattle:
+	.string "Hiciste un gran trabajo al ayudar\n"
+	.string "a la unión SILPH-ROCKET, todos los\l"
+	.string "científicos de aquí te estamos\l"
+	.string "agradecidos por ello.$"
+
+
+RocketHideoutViridian_Text_Cientifico2Intro:
+	.string "Sin una buena habilidad que les\n"
+	.string "acompañe, los STATS BASE pierden\l"
+	.string "mucho valor, deberías de saberlo.$"
+
+
+RocketHideoutViridian_Text_Cientifico2Defeated:
+	.string "¿Juntarás poder y habilidad?$"
+
+
+RocketHideoutViridian_Text_Cientifico2PostBattle:
+	.string "Más vale un POKÉMON de 480-500\n"
+	.string "STATS BASE con una buena\l"
+	.string "habilidad, que uno de 567 cuya\l"
+	.string "habilidad sea un lastre, pero...\l"
+	.string "¿Por qué no tener ambas?\l"
+	.string "¿Poder y habilidad?$"
+
+
+RocketHideoutViridian_Text_Cientifico3Intro:
+	.string "¿Así que buscas un poco de\n"
+	.string "entrenamiento extra?\l"
+	.string "¡Te daré lo que quieres!$"
+
+
+RocketHideoutViridian_Text_Cientifico3Defeated:
+	.string "Bien, bien, sigue\n"
+	.string "sobrecompensándote.$"
+
+
+RocketHideoutViridian_Text_Cientifico3PostBattle:
+	.string "Aquel al que se le somete\n"
+	.string "constantemente a un estímulo, se\l"
+	.string "ve obligado a adaptarse a él y a\l"
+	.string "mejorar hasta un punto que lo\l"
+	.string "tolere con facilidad, aquel que no\l"
+	.string "se ve sometido al estímulo\l"
+	.string "adecuado, se atrofia y queda a\l"
+	.string "años luz de lo que podría ser,\l"
+	.string "este segundo caso es el que\l"
+	.string "GIOVANNI ha estado poniendo en\l"
+	.string "práctica con ese tal ROJO, nuestro\l"
+	.string "LÍDER se dió cuenta del potencial\l"
+	.string "infinito de mejora de ese chico, y\l"
+	.string "decidió cortárselo de inmediato.$"
+
+
+RocketHideoutViridian_Text_Cientifico4Intro:
+	.string "Muchos científicos únicamente\n"
+	.string "tienen ojos para los POKÉMON ACERO\l"
+	.string "y PSÍQUICO, yo sostengo que la\l"
+	.string "variedad de especies es de por si\l"
+	.string "el más interesante objeto de\l"
+	.string "estudio!$"
+
+
+RocketHideoutViridian_Text_Cientifico4Defeated:
+	.string "Tu equipo si que es digno de\n"
+	.string "estudio.$"
+
+
+RocketHideoutViridian_Text_Cientifico4PostBattle:
+	.string "Los FÓSILES, DRAGONES, las formas\n"
+	.string "de EEVEE, hay tantas preguntas sin\l"
+	.string "respuesta aún.$"
+
+
+Route4_Text_ChicaIntro:
+	.string "¡Ya una no puede ni recoger setas\n"
+	.string "tranquila!$"
+
+
+Route4_Text_ChicaDefeated:
+	.string "¡Después de todo lo que hice para\n"
+	.string "capturarlos!$"
+
+
+Route4_Text_ChicaPostBattle:
+	.string "No deben de quedar muchas setas\n"
+	.string "por aquí.\l"
+	.string "Creo que las he recogido casi\l"
+	.string "todas.$"

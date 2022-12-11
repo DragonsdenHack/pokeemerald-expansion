@@ -168,10 +168,10 @@
       "dest_warp_id": 0
     },
     {
-      "x": 2,
-      "y": 2,
+      "x": 1,
+      "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_ROCKET_HIDEOUT_3F",
+      "dest_map": "MAP_ROCKET_HIDEOUT_VIRIDIAN",
       "dest_warp_id": 0
     }
   ],
