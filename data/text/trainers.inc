@@ -10510,4 +10510,75 @@ MtEmberB3F_Text_SoldadoPostBattle:
 	.string "dará tiempo a llegar hasta mi\l"
 	.string "JEFE, antes tendrás que derrotar a\l"
 	.string "los reclutas más fuertes.$"
+
+
+BondBridge_Text_ChicaIntro:
+	.string "El intenso olor a sal del mar,\n"
+	.string "aaaah... me llega al corazón.$"
+
+
+BondBridge_Text_ChicaDefeated:
+	.string "Pero ahora me huele... ¡a derrota!$"
+
+
+BondBridge_Text_ChicaPostBattle:
+	.string "¿No serán tus POKéMON los que\n"
+	.string "huelen mal?$"
+
+
+BondBridge_Text_NinaIntro:
+	.string "Mi mami me ha dicho que no debo\n"
+	.string "nadar sin flotador.$"
+
+
+BondBridge_Text_NinaDefeated:
+	.string "¡Buaaaaa!\n"
+	.string "¡Buaaaaaaaaaaa!$"
+
+
+BondBridge_Text_NinaPostBattle:
+	.string "Este año, seguro que aprendo\n"
+	.string "a nadar sola.$"
+
+
+BondBridge_Text_Nina2Intro:
+	.string "¡POKéMON, POKéMON!\n"
+	.string "¡A mí me gustan los POKéMON!$"
+
+
+BondBridge_Text_Nina2Defeated:
+	.string "¿Qué ha pasado?$"
+
+
+BondBridge_Text_Nina2PostBattle:
+	.string "¿Mis POKéMON me han fallado?$"
+
+
+BondBridge_Text_Chica2Intro:
+	.string "¿Por qué vas con tanta prisa?$"
+
+
+BondBridge_Text_Chica2Defeated:
+	.string "¡Estás entrenando a tus POKéMON\n"
+	.string "de maravilla!$"
+
+
+BondBridge_Text_Chica2PostBattle:
+	.string "Si sigues el camino que llevas,\n"
+	.string "llegarás al BOSQUE BAYA.$"
+
+
+BondBridge_Text_NadadoraIntro:
+	.string "¡No, no, déjame, por favor!\n"
+	.string "¡Déjame en paz!$"
+
+
+BondBridge_Text_NadadoraDefeated:
+	.string "Vale, has ganado, ¿te irás ahora?$"
+
+
+BondBridge_Text_NadadoraPostBattle:
+	.string "¡Un POKéMON me ha enganchado\n"
+	.string "por el bañador!\p"
+	.string "¡No me puedo mover!$"
   
