@@ -9881,3 +9881,191 @@ Route4_Text_ChicaPostBattle:
 	.string "por aquí.\l"
 	.string "Creo que las he recogido casi\l"
 	.string "todas.$"
+
+
+Route23_Text_PoliciaIntro:
+	.string "¡Alto ahí!\n"
+	.string "...\l"
+	.string "...\l"
+	.string "MEDALLA CASCADA identificada, no\l"
+	.string "obstante no es suficiente, está\l"
+	.string "entrando demasiada gente aquí en\l"
+	.string "estas últimas horas.\l"
+	.string "¡Mi trabajo es asegurarme de que\l"
+	.string "todos los que entran lo hacen de\l"
+	.string "forma legítima!$"
+
+
+Route23_Text_PoliciaDefeated:
+	.string "Comprobación de MEDALLA\n"
+	.string "finalizada.$"
+
+
+Route23_Text_PoliciaPostBattle:
+	.string "Alguien como tú ha podido ganar la\n"
+	.string "MEDALLA CASCADA.\l"
+	.string "¡Sigue adelante!$"
+
+
+Route23_Text_Policia2Intro:
+	.string "¡Ni un paso más!\n"
+	.string "...\l"
+	.string "...\l"
+	.string "MEDALLA TRUENO identificada, te\l"
+	.string "daré un consejo chico, no te\l"
+	.string "vistas así, ni siquiera a modo de\l"
+	.string "burla, en estos lugares nos\l"
+	.string "tomamos muy en serio el TEAM\l"
+	.string "ROCKET, ¡me obligas a asegurarme\l"
+	.string "que no eres uno de ellos!$"
+
+
+Route23_Text_Policia2Defeated:
+	.string "Un ROCKET nunca sería tan fuerte.$"
+
+
+Route23_Text_Policia2PostBattle:
+	.string "Esos inútiles del TEAM ROCKET\n"
+	.string "jamás podrían derrotar a SURGE,\l"
+	.string "sigue tu camino.$"
+
+
+Route23_Text_Policia3Intro:
+	.string "¡Manos arriba!\n"
+	.string "...\l"
+	.string "...\l"
+	.string "MEDALLA ARCOIRIS identificada,\l"
+	.string "hace nada pasó una chica vestida\l"
+	.string "de ROCKET también, disúlpame pero\l"
+	.string "por seguridad debo combatir\l"
+	.string "contigo.$"
+
+
+Route23_Text_Policia3Defeated:
+	.string "Comprobación completada.$"
+
+
+Route23_Text_Policia3PostBattle:
+	.string "Has probado que ganaste esa\n"
+	.string "MEDALLA ARCOIRIS, sigue tu camino.$"
+
+
+Route23_Text_Policia4Intro:
+	.string "¡No te muevas!\n"
+	.string "...\l"
+	.string "...\l"
+	.string "MEDALLA ALMA identificada, no\l"
+	.string "obstante, mi trabajo es asegurarme\l"
+	.string "de que no haya errores, estoy\l"
+	.string "harto de detener a ladrones que\l"
+	.string "quieren pasar con MEDALLAS falsas\l"
+	.string "o robadas, ¡si eres uno de ellos\l"
+	.string "lo sabremos!$"
+
+
+Route23_Text_Policia4Defeated:
+	.string "Bien, puedes pasar.$"
+
+
+Route23_Text_Policia4PostBattle:
+	.string "Definitivamente tienes el nivel\n"
+	.string "para derrotar a KOGA, sigue tu\l"
+	.string "camino.$"
+
+
+Route23_Text_Policia5Intro:
+	.string "¡Quieto ahí!\n"
+	.string "...\l"
+	.string "...\l"
+	.string "MEDALLA PANTANO identificada, ya\l"
+	.string "han pasado por aquí antes ROJO y\l"
+	.string "el nieto de OAK, a ellos los\l"
+	.string "conoce todo el mundo, sin embargo,\l"
+	.string "tú has salido de la nada, como\l"
+	.string "comprenderás no puedo dejarte\l"
+	.string "pasar sin ver siquiera tu equipo\l"
+	.string "POKÉMON.$"
+
+
+Route23_Text_Policia5Defeated:
+	.string "Ese equipo es digno de la MEDALLA\n"
+	.string "PANTANO.$"
+
+
+Route23_Text_Policia5PostBattle:
+	.string "No hará falta que llame a SABRINA\n"
+	.string "para creer que la has derrotado,\l"
+	.string "sigue adelante, chico.$"
+
+
+Route23_Text_Policia6Intro:
+	.string "¡Un paso en falso y quedas\n"
+	.string "detenido!\l"
+	.string "...\l"
+	.string "...\l"
+	.string "MEDALLA VOLCÁN identificada, muy\l"
+	.string "convincente sí, ¿no serás uno de\l"
+	.string "esos coleccionistas que jamás han\l"
+	.string "atrapado a un solo POKÉMON pero\l"
+	.string "tienen colgadas las medallitas\l"
+	.string "por puro postureo?\l"
+	.string "¡Vamos a verlo!$"
+
+
+Route23_Text_Policia6Defeated:
+	.string "Bien, me quedó claro.$"
+
+
+Route23_Text_Policia6PostBattle:
+	.string "Has probado que tienes la MEDALLA\n"
+	.string "VOLCÁN, puedes seguir adelante.$"
+
+
+Route23_Text_Policia7Intro:
+	.string "¿Otro más?\n"
+	.string "...\l"
+	.string "...\l"
+	.string "MEDALLA TIERRA identificada,\l"
+	.string "ultimamente parece que regalan las\l"
+	.string "MEDALLAS, no para de entrar gente\l"
+	.string "a la CALLE VICTORIA como si fuera\l"
+	.string "el lugar más trivial del mundo, ya\l"
+	.string "van 4 contigo en solo unas horas,\l"
+	.string "¡vas a aprender a respetar este\l"
+	.string "lugar!$"
+
+
+Route23_Text_Policia7Defeated:
+	.string "Entonces no era casualidad que tú\n"
+	.string "también llegaras.$"
+
+
+Route23_Text_Policia7PostBattle:
+	.string "Tienes el nivel para acceder a la\n"
+	.string "CALLE VICTORIA, a partir de aquí,\l"
+	.string "la LIGA POKÉMON te espera en el\l"
+	.string "horizonte, buena suerte.$"
+
+
+Route22Path_Text_PoliciaIntro:
+	.string "Un momento...\n"
+	.string "...\l"
+	.string "...\l"
+	.string "Así que tienes la MEDALLA ROCA, en\l"
+	.string "teoría puedes pasar...\l"
+	.string "Sin embargo, nos han alertado de\l"
+	.string "posibles ladrones de MEDALLAS, y,\l"
+	.string "como comprenderás, no puedo fiarme\l"
+	.string "de alguien que va vestido así.\l"
+	.string "¡Vas a tener que demostrarme que\l"
+	.string "ganaste esa MEDALLA de forma\l"
+	.string "legítima!$"
+
+
+Route22Path_Text_PoliciaDefeated:
+	.string "Bien, puedes pasar.$"
+
+
+Route22Path_Text_PoliciaPostBattle:
+	.string "¡Esa es la MEDALLA ROCA!\n"
+	.string "¡Sigue adelante!$"
