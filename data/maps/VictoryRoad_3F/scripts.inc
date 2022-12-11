@@ -38,3 +38,31 @@ end
 
 VictoryRoad3F_11::
 end
+
+
+
+VictoryRoad3F_EventScript_Guay::
+	trainerbattle_single TRAINER_NICOLAS_4, VictoryRoad3F_Text_GuayIntro, VictoryRoad3F_Text_GuayDefeated
+	msgbox VictoryRoad3F_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+VictoryRoad3F_EventScript_Guay2::
+	trainerbattle_single TRAINER_EDWARDO, VictoryRoad3F_Text_Guay2Intro, VictoryRoad3F_Text_Guay2Defeated
+	msgbox VictoryRoad3F_Text_Guay2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+VictoryRoad3F_EventScript_Guay3::
+	trainerbattle_single TRAINER_COLIN, VictoryRoad3F_Text_Guay3Intro, VictoryRoad3F_Text_Guay3Defeated
+	msgbox VictoryRoad3F_Text_Guay3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+VictoryRoad3F_EventScript_Guay4::
+	trainerbattle_single TRAINER_NICOLAS_3, VictoryRoad3F_Text_Guay4Intro, VictoryRoad3F_Text_Guay4Defeated
+	msgbox VictoryRoad3F_Text_Guay4PostBattle, MSGBOX_AUTOCLOSE
+	end

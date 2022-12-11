@@ -10069,3 +10069,157 @@ Route22Path_Text_PoliciaDefeated:
 Route22Path_Text_PoliciaPostBattle:
 	.string "¡Esa es la MEDALLA ROCA!\n"
 	.string "¡Sigue adelante!$"
+
+
+VictoryRoad1F_Text_GuayIntro:
+	.string "¡Me pregunto si eres lo bastante\n"
+	.string "fuerte para mí!$"
+
+
+VictoryRoad1F_Text_GuayDefeated:
+	.string "¡He perdido!$"
+
+
+VictoryRoad1F_Text_GuayPostBattle:
+	.string "¡A mí no me gusta perder, y mucho\n"
+	.string "menos contra alguien tan joven!$"
+
+
+VictoryRoad1F_Text_Guay2Intro:
+	.string "¡Ya veo que eres fuerte!\n"
+	.string "¡Veamos exactamente cuánto!$"
+
+
+VictoryRoad1F_Text_Guay2Defeated:
+	.string "He perdido la oportunidad...$"
+
+
+VictoryRoad1F_Text_Guay2PostBattle:
+	.string "¡Lo admito, eres mejor que yo!$"
+
+
+VictoryRoad2F_Text_NecioIntro:
+	.string "¡Si puedes pasar por aquí, podrás\n"
+	.string "enfrentarte al ALTO MANDO!$"
+
+
+VictoryRoad2F_Text_NecioDefeated:
+	.string "¡No!\n"
+	.string "¡Increíble!$"
+
+
+VictoryRoad2F_Text_NecioPostBattle:
+	.string "¡Puedo vencerte en cuanto a\n"
+	.string "conocimientos sobre los POKéMON!$"
+
+
+VictoryRoad2F_Text_KaratekaIntro:
+	.string "¡La CALLE VICTORIA es la prueba\n"
+	.string "final de todo ENTRENADOR!$"
+
+
+VictoryRoad2F_Text_KaratekaDefeated:
+	.string "¡Ayyyy!$"
+
+
+VictoryRoad2F_Text_KaratekaPostBattle:
+	.string "¡Prueba a mover las rocas\n"
+	.string "si tienes el paso cortado!$"
+
+
+VictoryRoad2F_Text_ChicoIntro:
+	.string "¡Ah!\n"
+	.string "¿Quieres desafiar al ALTO MANDO?$"
+
+
+VictoryRoad2F_Text_ChicoDefeated:
+	.string "¡Me has ganado!$"
+
+
+VictoryRoad2F_Text_ChicoPostBattle:
+	.string "¡ROJO también estuvo aquí!$"
+
+
+VictoryRoad2F_Text_Chico2Intro:
+	.string "¿Es muy dura la CALLE VICTORIA?$"
+
+
+VictoryRoad2F_Text_Chico2Defeated:
+	.string "¡Bien hecho!$"
+
+
+VictoryRoad2F_Text_Chico2PostBattle:
+	.string "¡Muchos de los ENTRENADORES\n"
+	.string "se rinden aquí!$"
+
+
+VictoryRoad2F_Text_DomadorIntro:
+	.string "¡Adelante!\n"
+	.string "¡Te daré una paliza!$"
+
+
+VictoryRoad2F_Text_DomadorDefeated:
+	.string "¡Me has machacado!$"
+
+
+VictoryRoad2F_Text_DomadorPostBattle:
+	.string "¡Ahora puedes recorrer la CALLE\n"
+	.string "VICTORIA!$"
+
+
+VictoryRoad3F_Text_GuayIntro:
+	.string "¡Aquí sólo pueden pasar\n"
+	.string "los elegidos!$"
+
+
+VictoryRoad3F_Text_GuayDefeated:
+	.string "¡No me lo puedo creer!$"
+
+
+VictoryRoad3F_Text_GuayPostBattle:
+	.string "¡Todos estos ENTRENADORES van a\n"
+	.string "participar en la LIGA POKéMON!\p"
+	.string "¡Ten cuidado!$"
+
+
+VictoryRoad3F_Text_Guay2Intro:
+	.string "¡Te demostraré lo fuerte que eres\n"
+	.string "de verdad!$"
+
+
+VictoryRoad3F_Text_Guay2Defeated:
+	.string "¡Argh! ¡Eres increíble!$"
+
+
+VictoryRoad3F_Text_Guay2PostBattle:
+	.string "¡Yo soy la que ha aprendido\n"
+	.string "la lección!$"
+
+
+VictoryRoad3F_Text_Guay3Intro:
+	.string "¡Los ENTRENADORES sólo viven para\n"
+	.string "buscar enemigos más fuertes!$"
+
+
+VictoryRoad3F_Text_Guay3Defeated:
+	.string "¡Oooooh!\n"
+	.string "¡Eres tan fuerte!$"
+
+
+VictoryRoad3F_Text_Guay3PostBattle:
+	.string "¡Librar duros combates te hará\n"
+	.string "más fuerte!$"
+
+
+VictoryRoad3F_Text_Guay4Intro:
+	.string "Un ENTRENADOR espectacular pasó\n"
+	.string "por aquí no hace mucho.$"
+
+
+VictoryRoad3F_Text_Guay4Defeated:
+	.string "¡Tú no eres tan espectacular!$"
+
+
+VictoryRoad3F_Text_Guay4PostBattle:
+	.string "Dicen que ese ENTRENADOR derrotó a\n"
+	.string "GIOVANNI del TEAM ROCKET.$"
