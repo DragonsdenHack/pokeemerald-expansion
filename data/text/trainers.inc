@@ -10223,3 +10223,291 @@ VictoryRoad3F_Text_Guay4Defeated:
 VictoryRoad3F_Text_Guay4PostBattle:
 	.string "Dicen que ese ENTRENADOR derrotó a\n"
 	.string "GIOVANNI del TEAM ROCKET.$"
+
+
+KindleRoad_Text_ChicaIntro:
+	.string "Me estoy empezando a quemar...$"
+
+
+KindleRoad_Text_ChicaDefeated:
+	.string "¡Eres lo peor!$"
+
+
+KindleRoad_Text_ChicaPostBattle:
+	.string "Me gusta la ropa que llevas. Igual\n"
+	.string "me convendría ponerme algo...$"
+
+
+KindleRoad_Text_Chica2Intro:
+	.string "La comida ha sido demasiado\n"
+	.string "abundante. ¿Luchamos?$"
+
+
+KindleRoad_Text_Chica2Defeated:
+	.string "¡Sí que he quemado calorías!$"
+
+
+KindleRoad_Text_Chica2PostBattle:
+	.string "¿Qué hago?\n"
+	.string "¡Otra vez tengo hambre!$"
+
+
+KindleRoad_Text_LuchadoraIntro:
+	.string "No hay un solo día en el que no\n"
+	.string "me entrene.$"
+
+
+KindleRoad_Text_LuchadoraDefeated:
+	.string "¡Qué forma tan tonta de perder!$"
+
+
+KindleRoad_Text_LuchadoraPostBattle:
+	.string "¡A partir de ahora me entrenaré\n"
+	.string "más!$"
+
+
+KindleRoad_Text_Luchadora2Intro:
+	.string "¿Me echas una mano con mi\n"
+	.string "entrenamiento?$"
+
+
+KindleRoad_Text_Luchadora2Defeated:
+	.string "Me has ganado por muy poco.$"
+
+
+KindleRoad_Text_Luchadora2PostBattle:
+	.string "Está claro que sabes lo que haces.\n"
+	.string "¡Te admiro!$"
+
+
+KindleRoad_Text_ChicoIntro:
+	.string "Cuando se está al aire libre,\n"
+	.string "todo sabe mucho mejor.$"
+
+
+KindleRoad_Text_ChicoDefeated:
+	.string "¡Hala!$"
+
+
+KindleRoad_Text_ChicoPostBattle:
+	.string "¿Sabías que el agua de las zonas\n"
+	.string "volcánicas es muy buena?$"
+
+
+KindleRoad_Text_NadadorIntro:
+	.string "¿Y he dejado de nadar para\n"
+	.string "enfrentarme contigo?$"
+
+
+KindleRoad_Text_NadadorDefeated:
+	.string "¡Oye, oye, realmente eres\n"
+	.string "impresionante!$"
+
+
+KindleRoad_Text_NadadorPostBattle:
+	.string "Te recomiendo que nades de vez en\n"
+	.string "cuando y que no uses tanto SURF.$"
+
+
+KindleRoad_Text_Nadador2Intro:
+	.string "Si lo miras desde aquí, parece\n"
+	.string "que el MT. ASCUAS toca el cielo.$"
+
+
+KindleRoad_Text_Nadador2Defeated:
+	.string "¡Ufff, eres fuerte!$"
+
+
+KindleRoad_Text_Nadador2PostBattle:
+	.string "El cielo se puede observar muy\n"
+	.string "bien en esta zona.$"
+
+
+KindleRoad_Text_KaratekaIntro:
+	.string "Para luchar hay que ir vestido\n"
+	.string "en condiciones, ¡y no como tú!$"
+
+
+KindleRoad_Text_KaratekaDefeated:
+	.string "¡¿Por qué?!$"
+
+
+KindleRoad_Text_KaratekaPostBattle:
+	.string "Hasta los profesionales de las\n"
+	.string "artes marciales nos preocupamos\l"
+	.string "de la moda últimamente.$"
+
+
+KindleRoad_Text_Karateka2Intro:
+	.string "Cada mañana, antes de desayunar,\n"
+	.string "rodeo a nado la isla.$"
+
+
+KindleRoad_Text_Karateka2Defeated:
+	.string "Agggg...\n"
+	.string "Agggg...$"
+
+
+KindleRoad_Text_Karateka2PostBattle:
+	.string "He perdido porque esta mañana\n"
+	.string "corrí mucho y estoy cansado.$"
+
+
+KindleRoad_Text_NadadoraIntro:
+	.string "¡Hace un día espléndido!\n"
+	.string "¡El tiempo ideal para luchar!$"
+
+
+KindleRoad_Text_NadadoraDefeated:
+	.string "¡Ayyyyyy!$"
+
+
+KindleRoad_Text_NadadoraPostBattle:
+	.string "¡Bueno, por lo menos no me\n"
+	.string "has quitado el maquillaje!$"
+
+
+KindleRoad_Text_PescadorIntro:
+	.string "¡Eh, un momento!\n"
+	.string "¡Acaba de picar uno enorme!$"
+
+
+KindleRoad_Text_PescadorDefeated:
+	.string "¡Lo he vuelto a perder!$"
+
+
+KindleRoad_Text_PescadorPostBattle:
+	.string "¡No sólo he perdido, también me he\n"
+	.string "quedado sin el ejemplar de antes!$"
+
+
+PlayaTesoro_Text_NadadoraIntro:
+	.string "¡Me encanta quedarme flotando\n"
+	.string "y notar el movimiento de las olas!$"
+
+
+PlayaTesoro_Text_NadadoraDefeated:
+	.string "¡He perdido!\n"
+	.string "¡Eso ya no me gusta nada!$"
+
+
+PlayaTesoro_Text_NadadoraPostBattle:
+	.string "El mar tiene una temperatura\n"
+	.string "increíble en esta zona.$"
+
+
+MtEmberEntrance_Text_ChicaIntro:
+	.string "¿Sabes cómo se forman las cuevas\n"
+	.string "en el interior de los volcanes?$"
+
+
+MtEmberEntrance_Text_ChicaDefeated:
+	.string "¡Aaaah!\n"
+	.string "¡Eres increíble!$"
+
+
+MtEmberEntrance_Text_ChicaPostBattle:
+	.string "Cuando la lava de la superficie se\n"
+	.string "solidifica, aún puede quedar magma\l"
+	.string "por salir.\p"
+	.string "Y son los conductos que abre\n"
+	.string "en su camino al exterior, los que\l"
+	.string "pasan a ser las cuevas.$"
+
+
+MtEmberEntrance_Text_ChicoIntro:
+	.string "Se dice que un volcán está activo,\n"
+	.string "cuando entra en erupción o está\l"
+	.string "a punto.$"
+
+
+MtEmberEntrance_Text_ChicoDefeated:
+	.string "Guau... ¡qué pasada!\n"
+	.string "¡Me ha entrado un calor!$"
+
+
+MtEmberEntrance_Text_ChicoPostBattle:
+	.string "Dicen que hay unos 1.500 volcanes\n"
+	.string "activos en todo el mundo.\p"
+	.string "Cada vez que lo pienso, ¡me entra\n"
+	.string "una cosa!$"
+
+
+MtEmberEntrance_Text_LuchadoraIntro:
+	.string "He estado entrenándome para\n"
+	.string "recuperar mi fuerza interior...\p"
+	.string "¡Y lo que sin duda he conseguido\n"
+	.string "ha sido ponerme en forma!$"
+
+
+MtEmberEntrance_Text_LuchadoraDefeated:
+	.string "Creo que he exagerado...$"
+
+
+MtEmberEntrance_Text_LuchadoraPostBattle:
+	.string "Luchando me recuerdas a mi antiguo\n"
+	.string "noviete...$"
+
+
+MtEmberB1F_Text_SoldadoIntro:
+	.string "Nuestro LÍDER lleva años planeando\n"
+	.string "esto, no va a echarse todo a\l"
+	.string "perder solo porque un mequetrefe\l"
+	.string "como tú aparezca en el último\l"
+	.string "momento.$"
+
+
+MtEmberB1F_Text_SoldadoDefeated:
+	.string "¡Perdóname MAGNO!$"
+
+
+
+MtEmberB1F_Text_SoldadoPostBattle:
+    .string "Nuestro plan maestro está apunto\n"
+	.string "de completarse, cuando volvamos a\l"
+	.string "HOENN nadie podrá pararnos los\l"
+	.string "pies.$"
+
+
+MtEmberB2F_Text_SoldadoIntro:
+	.string "¡Alto ahí, estamos realizando una\n"
+	.string "operación de vital importancia en\l"
+	.string "este lugar!\l"
+	.string "¿El TEAM ROCKET?\l"
+	.string "¡Creía que estábais acabados!$"
+
+
+MtEmberB2F_Text_SoldadoDefeated:
+	.string "Nada detendrá al EQUIPO MAGMA.$"
+
+
+MtEmberB2F_Text_SoldadoPostBattle:
+    .string "Esos canallas del EQUIPO AQUA van\n"
+	.string "a ver lo que es bueno cuando\l"
+	.string "logremos antes que ellos nuestro\l"
+	.string "cometido.$"
+
+
+MtEmberB3F_Text_SoldadoIntro:
+    .string "Todo lo que nace de la tierra\n"
+	.string "vuelve a la tierra antes o\l"
+	.string "después.\l"
+	.string "¿No serás tú el iluso que trata de\l"
+	.string "resistirse a esa ley universal?\l"
+	.string "¿Acaso no ves la belleza de\l"
+	.string "nuestro plan?$"
+
+
+MtEmberB3F_Text_SoldadoDefeated:
+	.string "Tú lo has querido, mis superiores\n"
+	.string "se encargarán de ti.$"
+
+
+MtEmberB3F_Text_SoldadoPostBattle:
+    .string "A estas alturas ya deben de estar\n"
+	.string "apunto de averiguar la entrada\l"
+	.string "secreta que lleva a GROUDON, no te\l"
+	.string "dará tiempo a llegar hasta mi\l"
+	.string "JEFE, antes tendrás que derrotar a\l"
+	.string "los reclutas más fuertes.$"
+  
