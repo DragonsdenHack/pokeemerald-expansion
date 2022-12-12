@@ -11244,4 +11244,165 @@ TrainerTower_Text_ChicoPostBattle:
 	.string "con mucha gente.\p"
 	.string "Establecerás cierta conexión\n"
 	.string "mediante una extraña fuerza.$"
+
+
+SilphS1_Text_CientificoIntro:
+	.string "¿Fuiste tú quién hizo posible la\n"
+	.string "reunión entre GIOVANNI y nuestro\l"
+	.string "PRESIDENTE?$"
+
+
+SilphS1_Text_CientificoDefeated:
+	.string "Impresionante.$"
+
+
+SilphS1_Text_CientificoPostBattle:
+	.string "Fuiste crucial para que esta\n"
+	.string "región recuperase su soberanía de\l"
+	.string "nuevo, por ello SILPH es tu casa,\l"
+	.string "tienes acceso a todo cuanto\l"
+	.string "quieras ver ROCKET.$"
+
+
+SilphS2_Text_PoliciaIntro:
+	.string "Desde vuestro asalto hemos\n"
+	.string "mejorado muy sustancialmente\l"
+	.string "nuestra seguridad.\l"
+	.string "¿No me crees?\l"
+	.string "¡Te lo mostraré!$"
+
+
+SilphS2_Text_PoliciaDefeated:
+	.string "Vaya, la seguridad aún no es\n"
+	.string "perfecta.$"
+
+
+SilphS2_Text_PoliciaPostBattle:
+	.string "Cuando invadiste SILPH y\n"
+	.string "derrotaste a innumerables guardias\l"
+	.string "con esa facilidad también nos\l"
+	.string "hiciste mejorar, nos mostraste que\l"
+	.string "nuestro nivel estaba aún muy lejos\l"
+	.string "de lo que un equipo equilibrado y\l"
+	.string "en sintonía con su entrenador\l"
+	.string "puede llegar.\l"
+	.string "Ahora nuestra seguridad es mucho\l"
+	.string "más efectiva.$"
+
+
+SilphS2_Text_CientificoIntro:
+	.string "Los rumores dicen que BILL se\n"
+	.string "encerró toda una semana en su\l"
+	.string "laboratorio después de su derrota.$"
+
+
+SilphS2_Text_CientificoDefeated:
+	.string "Ya veo el porqué incluso BILL fue\n"
+	.string "derrotado.$"
+
+
+SilphS2_Text_CientificoPostBattle:
+	.string "Hay ciertas cosas que la\n"
+	.string "tecnología dificilmente pueda\l"
+	.string "replicar al 100%, por ejemplo, el\l"
+	.string "vínculo que mantienes con tu\l"
+	.string "equipo.$"
+
+
+SilphS2_Text_Cientifico2Intro:
+	.string "Hay muchos POKÉMON ahí fuera que\n"
+	.string "merecen ser investigados, ¿cuales\l"
+	.string "son los tuyos?$"
+
+
+SilphS2_Text_Cientifico2Defeated:
+	.string "Gracias por el combate, ADMIN\n"
+	.string "{PLAYER}.$"
+
+
+SilphS2_Text_Cientifico2PostBattle:
+	.string "Tampoco necesitas POKÉMON de fuera\n"
+	.string "para alcanzar un nivel\l"
+	.string "extraordinario, KANTO cuenta con\l"
+	.string "muy buenos POKÉMON también, tú lo\l"
+	.string "demostraste en la LIGA POKÉMON.$"
+
+
+SilphS2_Text_Policia2Intro:
+	.string "Un ENTRENADOR de tus\n"
+	.string "características aparece una sola\l"
+	.string "vez cada 20 o 30 años, no\l"
+	.string "esperarás que pierda la\l"
+	.string "oportunidad de combatir contigo\l"
+	.string "ahora que estás de visita.$"
+
+
+SilphS2_Text_Policia2Defeated:
+	.string "Entonces ese es tu poder...$"
+
+
+SilphS2_Text_Policia2PostBattle:
+	.string "Espero que te quedes por aquí\n"
+	.string "durante mucho tiempo, contigo\l"
+	.string "KANTO se mantendrá a salvo y por\l"
+	.string "fin podrá iniciar una verdadera\l"
+	.string "etapa de desarrollo.$"
+
+
+SilphS2_Text_Cientifico3Intro:
+	.string "El todopoderoso LANCE fue\n"
+	.string "derrotado por un chico al que\l"
+	.string "tengo justo delante.\l"
+	.string "¡No voy a perder la ocasión de\l"
+	.string "analizar a tus POKÉMON!$"
+
+
+SilphS2_Text_Cientifico3Defeated:
+	.string "Gracias por el combate, {PLAYER}.$"
+
+
+SilphS2_Text_Cientifico3PostBattle:
+	.string "Debiste de llevar al límite a\n"
+	.string "todos tus POKÉMON para siquiera\l"
+	.string "poder competir contra el elenco de\l"
+	.string "legendarios que LANCE reunió con\l"
+	.string "los años.$"
+
+
+SilphS2_Text_Policia3Intro:
+	.string "¿De verdad eres tan fuerte?$"
+
+
+SilphS2_Text_Policia3Defeated:
+	.string "Ya veo...$"
+
+
+SilphS2_Text_Policia3PostBattle:
+	.string "Más abajo encontrarás la\n"
+	.string "información que buscas {PLAYER},\l"
+	.string "guardada celosamente por nuestros\l"
+	.string "mejores entrenadores.$"
+
+
+SilphS3_Text_PoliciaIntro:
+	.string "¡Alto ahí!\n"
+	.string "Incluso alguien como tú debe de\l"
+	.string "probar que es merecedor de cruzar\l"
+	.string "este punto para acceder al\l"
+	.string "conocimiento que hay aquí\l"
+	.string "archivado.\l"
+	.string "Espero que no te hayas dormido en\l"
+	.string "los laureles desde lo de LANCE.\l"
+	.string "¡En guardia!$"
+
+
+SilphS3_Text_PoliciaDefeated:
+	.string "Tal y como pensaba, puedes pasar.$"
+
+
+SilphS3_Text_PoliciaPostBattle:
+	.string "La mayoría de la población de\n"
+	.string "KANTO quedaría horrorizada de solo\l"
+	.string "leer muchas de las verdades que\l"
+	.string "hay aquí registradas.$"
   
