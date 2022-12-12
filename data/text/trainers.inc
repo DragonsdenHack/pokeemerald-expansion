@@ -10581,4 +10581,410 @@ BondBridge_Text_NadadoraPostBattle:
 	.string "¡Un POKéMON me ha enganchado\n"
 	.string "por el bañador!\p"
 	.string "¡No me puedo mover!$"
+
+
+WaterPath_Text_ChicaIntro:
+	.string "He llegado hasta aquí dejándome\n"
+	.string "llevar por un agradable aroma.$"
+
+
+WaterPath_Text_ChicaDefeated:
+	.string "Ganas en encanto cuando muestras\n"
+	.string "la fuerza que tienes.$"
+
+
+WaterPath_Text_ChicaPostBattle:
+	.string "Me gustaría ir al bosque que hay\n"
+	.string "por ahí, pero...\p"
+	.string "Está lleno de POKéMON del tipo\n"
+	.string "BICHO, y me dan mucho miedo.$"
+
+
+WaterPath_Text_NadadorIntro:
+	.string "¿Perdona? ¿Que no te gusta\n"
+	.string "la gente que hace natación\l"
+	.string "como yo?\p"
+	.string "¡No fastidies!$"
+
+
+WaterPath_Text_NadadorDefeated:
+	.string "¡Vale, me queda claro!$"
+
+
+WaterPath_Text_NadadorPostBattle:
+	.string "Vaya, no he conseguido dejar alto\n"
+	.string "el pabellón de natación...$"
+
+
+WaterPath_Text_NadadoraIntro:
+	.string "Como mi chico está siempre liado,\n"
+	.string "me voy a nadar yo sola.$"
+
+
+WaterPath_Text_NadadoraDefeated:
+	.string "¡Sabía que acabaría así!$"
+
+
+WaterPath_Text_NadadoraPostBattle:
+	.string "Cuando mi chico está ocupado,\n"
+	.string "me entretengo con los POKéMON\l"
+	.string "que me dio.$"
+
+
+WaterPath_Text_ChicoIntro:
+	.string "Practico en secreto para que\n"
+	.string "no me vea nadie.$"
+
+
+WaterPath_Text_ChicoDefeated:
+	.string "No me habrá visto nadie, ¿no?$"
+
+
+WaterPath_Text_ChicoPostBattle:
+	.string "Como artista, no me gusta\n"
+	.string "que nadie me vea cuando ensayo.$"
+
+
+WaterPath_Text_MontaneroIntro:
+	.string "Oye, ¿dónde están las montañas\n"
+	.string "de esta zona?$"
+
+
+WaterPath_Text_MontaneroDefeated:
+	.string "¡Me he perdido con tanta lucha!$"
+
+
+WaterPath_Text_MontaneroPostBattle:
+	.string "¿Hay montañas por aquí o no?$"
+
+
+RuinValley_Text_MontaneroIntro:
+	.string "¿Luchar contigo?\n"
+	.string "¡Ahora mismo!$"
+
+
+RuinValley_Text_MontaneroDefeated:
+	.string "No soporto el sabor de la derrota\n"
+	.string "ante ti...$"
+
+
+RuinValley_Text_MontaneroPostBattle:
+	.string "Deberías hacer escalada.$"
+
+
+RuinValley_Text_Montanero2Intro:
+	.string "Creo que en este mundo quedan\n"
+	.string "misterios por resolver.$"
+
+
+RuinValley_Text_Montanero2Defeated:
+	.string "Mmmm...$"
+
+
+RuinValley_Text_Montanero2PostBattle:
+	.string "Creo que también deberías dedicar\n"
+	.string "un tiempo a pensar en la cantidad\l"
+	.string "de cosas que hay por averiguar.$"
+
+
+RuinValley_Text_Montanero3Intro:
+	.string "Oye, ¿qué te trae hasta aquí?$"
+
+
+RuinValley_Text_Montanero3Defeated:
+	.string "Llevo tanto sin luchar que no\n"
+	.string "tengo reflejos...$"
+
+
+RuinValley_Text_Montanero3PostBattle:
+	.string "Hay varias ruinas en ARCHI7.\p"
+	.string "La mayoría datan de tiempos\n"
+	.string "inmemoriales.$"
+
+
+RuinValley_Text_Montanero4Intro:
+	.string "Dicen que hay misteriosas piedras\n"
+	.string "en esta isla.\p"
+	.string "Supongo que tendrán algo que ver\n"
+	.string "con las ruinas de aquí.$"
+
+
+RuinValley_Text_Montanero4Defeated:
+	.string "Eh... muy interesante.$"
+
+
+RuinValley_Text_Montanero4PostBattle:
+	.string "Las ruinas de ahí...\p"
+	.string "Son rarísimas, yo no he conseguido\n"
+	.string "entrar todavía.$"
+
+
+RuinValley_Text_NecioIntro:
+	.string "Yo me conozco bien toda esta\n"
+	.string "zona.$"
+
+
+RuinValley_Text_NecioDefeated:
+	.string "Tampoco es para ponerse así.\n"
+	.string "Puedes preguntarme lo que quieras.$"
+
+
+RuinValley_Text_NecioPostBattle:
+	.string "La entrada a las ruinas...\n"
+	.string "Tiene unos dibujos extrañísimos\l"
+	.string "grabados.\p"
+	.string "Y no tengo ni idea de lo que\n"
+	.string "significan.$"
+
+
+PatternBush_Text_ChicoIntro:
+	.string "Crees que soy inofensivo, ¿eh?$"
+
+
+PatternBush_Text_ChicoDefeated:
+	.string "Crees que soy débil, ¿no?$"
+
+
+PatternBush_Text_ChicoPostBattle:
+	.string "La gente de ciudad siempre viene\n"
+	.string "dándose demasiados aires...\p"
+	.string "Aunque a mí no me vendrían\n"
+	.string "mal unos pocos...$"
+
+
+PatternBush_Text_CazabichosIntro:
+	.string "He atrapado un POKéMON del tipo\n"
+	.string "BICHO que sólo vive por aquí.$"
+
+
+PatternBush_Text_CazabichosDefeated:
+	.string "Je, je, je...\n"
+	.string "¿No es impresionante mi POKéMON?$"
+
+
+PatternBush_Text_CazabichosPostBattle:
+	.string "Hay una chica cerca del arbusto,\n"
+	.string "que mide las fuerzas de HERACROSS.$"
+
+
+PatternBush_Text_Cazabichos2Intro:
+	.string "¡Mira qué POKéMON del tipo BICHO\n"
+	.string "tengo! ¡Sí, señor!$"
+
+
+PatternBush_Text_Cazabichos2Defeated:
+	.string "¡Me han ganado en plena euforia!$"
+
+
+PatternBush_Text_Cazabichos2PostBattle:
+	.string "La próxima vez, me vengo con mi\n"
+	.string "hermano pequeño.$"
+
+
+PatternBush_Text_Cazabichos3Intro:
+	.string "¿Sabes? Si no uso POKéMON del tipo\n"
+	.string "BICHO, no disfruto los combates.$"
+
+
+PatternBush_Text_Cazabichos3Defeated:
+	.string "No pasa nada, perder tiene también\n"
+	.string "su encanto.$"
+
+
+PatternBush_Text_Cazabichos3PostBattle:
+	.string "A todo esto, lo del -encanto-\n"
+	.string "lo digo porque hay que saber\l"
+	.string "ganar y perder.\p"
+	.string "Es como el blanco y el negro,\n"
+	.string "como el día y la noche. ¿No?$"
+
+
+PatternBush_Text_Chico2Intro:
+	.string "¡Mira al suelo!\n"
+	.string "Qué dibujos más raros... ¿verdad?$"
+
+
+PatternBush_Text_Chico2Defeated:
+	.string "¡Increíble!$"
+
+
+PatternBush_Text_Chico2PostBattle:
+	.string "Los dibujos tan raros del suelo...\p"
+	.string "¡Se parecen al estampado de\n"
+	.string "la ropa de mi abuelo!$"
+
+
+PatternBush_Text_Chico3Intro:
+	.string "Este sitio es estupendo.\n"
+	.string "Voy a colocar la tienda aquí.$"
+
+
+
+PatternBush_Text_Chico3Defeated:
+	.string "Qué paliza...$"
+
+
+PatternBush_Text_Chico3PostBattle:
+	.string "Me quedaré aquí para observar\n"
+	.string "las estrellas.$"
+
+
+PatternBush_Text_ChicaIntro:
+	.string "Oye, que me pica la curiosidad,\n"
+	.string "¿cómo crías a tus POKéMON?$"
+
+
+PatternBush_Text_ChicaDefeated:
+	.string "¡Veo que con mucho cariño!$"
+
+
+PatternBush_Text_ChicaPostBattle:
+	.string "Hay que criarlos con el mismo\n"
+	.string "cariño con el que una madre cría\l"
+	.string "a sus pequeños.$"
+
+
+PatternBush_Text_Chica2Intro:
+	.string "Me encantan los POKéMON del tipo\n"
+	.string "BICHO. Por eso estoy siempre aquí.\p"
+	.string "Supongo que no seré la única...$"
+
+
+PatternBush_Text_Chica2Defeated:
+	.string "No pienso perder la sonrisa.\n"
+	.string "Supongo que no soy la única...$"
+
+
+PatternBush_Text_Chica2PostBattle:
+	.string "Voy a seguir coleccionando\n"
+	.string "POKéMON del tipo BICHO.\p"
+	.string "Supongo que no soy la única...$"
+
+
+PatternBush_Text_Chica3Intro:
+	.string "¡Ay!\n"
+	.string "Creo que me ha picado algo...$"
+
+
+PatternBush_Text_Chica3Defeated:
+	.string "No ha sido ningún bicho, me he\n"
+	.string "cortado con el césped.$"
+
+
+PatternBush_Text_Chica3PostBattle:
+	.string "Un cortecillo así...\n"
+	.string "Se cura con un poco de saliva.$"
+
+
+PatternBush_Text_Chica4Intro:
+	.string "Yo me encargo de preservar el\n"
+	.string "entorno natural de los POKéMON.$"
+
+
+PatternBush_Text_Chica4Defeated:
+	.string "¡Para la edad que tienes,\n"
+	.string "eres increíble!$"
+
+
+PatternBush_Text_Chica4PostBattle:
+	.string "¡Yo no he dicho que no debas\n"
+	.string "atrapar POKéMON!\p"
+	.string "Sólo quiero que la gente los críe\n"
+	.string "de forma responsable.$"
+
+
+PatternBush_Text_Chica5Intro:
+	.string "¡Mmmm, respira hondo!\n"
+	.string "Qué aire tan puro...$"
+
+
+PatternBush_Text_Chica5Defeated:
+	.string "Si quieres, puedo enseñarte\n"
+	.string "técnicas de respiración.$"
+
+
+PatternBush_Text_Chica5PostBattle:
+	.string "Espira...\n"
+	.string "Hasta que no te quede aire...\p"
+	.string "Cuando no puedas espirar más,\n"
+	.string "¡inspira!\p"
+	.string "¿No es una sensación de frescor\n"
+	.string "fantástica?$"
+
+
+PatternBush_Text_MontaneroIntro:
+	.string "¿Has visto algo raro por aquí?$"
+
+
+PatternBush_Text_MontaneroDefeated:
+	.string "Yo que tú, miraría bien\n"
+	.string "por el suelo.$"
+
+
+PatternBush_Text_MontaneroPostBattle:
+	.string "Hay sitios en el BOSQUEJO,\n"
+	.string "en los que no crece la hierba.\p"
+	.string "¿Por qué será?$"
+
+
+GreenPath_Text_ChicaIntro:
+	.string "¿Mmm?...\p"
+	.string "Me pareció haber elegido mi casa\n"
+	.string "con TELETRANSPORTE, pero...\l"
+	.string "¿dónde estoy?$"
+
+
+GreenPath_Text_ChicaDefeated:
+	.string "¡Auuuuuch!$"
+
+
+GreenPath_Text_ChicaPostBattle:
+	.string "No sé muy bien dónde estoy...\p"
+	.string "Debo centrarme en TELETRANSPORTE\n"
+	.string "para volver a mi casa...$"
+
+
+OutcastIsland_Text_ChicaIntro:
+	.string "No es fácil sacar POKéMON mientras\n"
+	.string "se nada, ¿lo sabías?$"
+
+
+OutcastIsland_Text_ChicaDefeated:
+	.string "He perdido, pero seguro que\n"
+	.string "nadando no me ganas.$"
+
+
+OutcastIsland_Text_ChicaPostBattle:
+	.string "¿Vas a la isla que hay al norte?\n"
+	.string "Yo no vi nada de interés.$"
+
+
+OutcastIsland_Text_NadadorIntro:
+	.string "Ufff... Ufff...\p"
+	.string "Vengo nadando desde el PUERTO\n"
+	.string "de ISLA EXTA sin parar.$"
+
+
+OutcastIsland_Text_NadadorDefeated:
+	.string "Ufff...\n"
+	.string "Ufff...$"
+
+
+OutcastIsland_Text_NadadorPostBattle:
+	.string "Voy por la mitad...\n"
+	.string "Y ya no puedo más...$"
+
+
+OutcastIsland_Text_PescadorIntro:
+	.string "¡Qué mala suerte tengo hoy!\n"
+	.string "¡Igual la cosa cambia si luchamos!$"
+
+
+OutcastIsland_Text_PescadorDefeated:
+	.string "Nada, hoy no es mi día.$"
+
+
+OutcastIsland_Text_PescadorPostBattle:
+	.string "¡Pero es que no puedo volver\n"
+	.string "a casa con las manos vacías!$"
   
