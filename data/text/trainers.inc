@@ -11405,4 +11405,195 @@ SilphS3_Text_PoliciaPostBattle:
 	.string "KANTO quedaría horrorizada de solo\l"
 	.string "leer muchas de las verdades que\l"
 	.string "hay aquí registradas.$"
+
+
+CultoS1_Text_MediumIntro:
+	.string "Han llegado rumores de un salvador\n"
+	.string "que acabó con el tirano que\l"
+	.string "gobernaba KANTO, ¿fuiste tú?$"
+
+
+CultoS1_Text_MediumDefeated:
+	.string "Entonces este es el poder del\n"
+	.string "salvador de KANTO.$"
+
+
+CultoS1_Text_MediumPostBattle:
+	.string "Has criado con honradez y cariño a\n"
+	.string "tus POKÉMON, sin embargo no eres\l"
+	.string "más que una mota de polvo ante el\l"
+	.string "equipo de nuestro pastor.$"
+
+
+CultoS1_Text_Medium2Intro:
+	.string "Solo los elegidos pueden ir más\n"
+	.string "allá de esta puerta, KANTO te habrá\l"
+	.string "escogido pero ser el legítimo\l"
+	.string "CAMPEÓN no basta para\l"
+	.string "probar que mereces tener acceso a\l"
+	.string "nuestro conocimiento.$"
+
+
+CultoS1_Text_Medium2Defeated:
+	.string "Muy bien, tú lo has querido.$"
+
+
+CultoS1_Text_Medium2PostBattle:
+	.string "Solo miembros de nuestro culto\n"
+	.string "pueden pasar al último piso, no me\l"
+	.string "hago responsable de lo que te\l"
+	.string "ocurra allí dentro.$"
+
+
+Culto2_Text_MediumIntro:
+	.string "Tú no eres de los nuestros.\n"
+	.string "¿Por qué estas aquí?$"
+
+
+Culto2_Text_MediumDefeated:
+	.string "Ve con cuidado chico.$"
+
+
+Culto2_Text_MediumPostBattle:
+	.string "Por tu bien más vale que tu\n"
+	.string "presencia aquí esté justificada, a\l"
+	.string "este lugar no puede entrar\l"
+	.string "cualquiera.$"
+
+
+Culto2_Text_Medium2Intro:
+	.string "¿Buscas respuestas?\n"
+	.string "Este es tu lugar, lamentablemente\l"
+	.string "puede que tú no estés a la altura.$"
+
+
+Culto2_Text_Medium2Defeated:
+	.string "Bien, si así lo deseas...$"
+
+
+Culto2_Text_Medium2PostBattle:
+	.string "No todos los que buscan respuestas\n"
+	.string "acaban por encontrar lo que\l"
+	.string "esperaban, ándate con ojo.$"
   
+
+CultoS3_Text_MediumIntro:
+    .string "Dicen que eres el verdadero\n"
+	.string "CAMPEÓN de KANTO, seas quien seas,\l"
+	.string "no puedes aportar nada más a este\l"
+	.string "lugar, ya estamos completos.$"
+
+
+CultoS3_Text_MediumDefeated:
+	.string "Tu equipo aún no está en\n"
+	.string "simbiosis.$"
+
+
+CultoS3_Text_MediumPostBattle:
+	.string "Ganar o perder es irrelevante ante\n"
+	.string "la inmensidad de este lugar.$"
+
+
+CultoS3_Text_Medium2Intro:
+	.string "Es irrelevante que seas o no\n"
+	.string "CAMPEÓN, no eres más que sombras y\l"
+	.string "cenizas, como todos.$"
+
+
+CultoS3_Text_Medium2Defeated:
+	.string "Sigue tu camino.$"
+
+
+CultoS3_Text_Medium2PostBattle:
+	.string "Todos los POKÉMON son iguales ante\n"
+	.string "EL CREADOR, nada puedes hacer\l"
+	.string "contra eso.$"
+
+
+CultoS3_Text_ExorcistaIntro:
+	.string "La justicia es lo que mueve al\n"
+	.string "noble, y la codicia al villano.$"
+
+
+CultoS3_Text_ExorcistaDefeated:
+	.string "Ya veo lo que a ti te mueve,\n"
+	.string "CAMPEÓN.$"
+
+
+CultoS3_Text_ExorcistaPostBattle:
+	.string "El mal no está en cometer errores,\n"
+	.string "sino en no tratar de enmendarlos.$"
+
+
+CultoS3_Text_Exorcista2Intro:
+	.string "¡Abraza a la incertidumbre y todo\n"
+	.string "fluirá!$"
+
+
+CultoS3_Text_Exorcista2Defeated:
+	.string "¡Eso es!$"
+
+
+CultoS3_Text_Exorcista2PostBattle:
+	.string "El desorden y la entropía es lo\n"
+	.string "que nos hacer tener libre albedrío\l"
+	.string "para amoldar ese desorden a\l"
+	.string "nuestro antojo, si todo siguiera\l"
+	.string "un patrón ordenado, nosotros\l"
+	.string "también y por tanto solo seríamos\l"
+	.string "complejas máquinas, de modo que\l"
+	.string "cada vez que te veas en una\l"
+	.string "situación caótica, ¡aprovecha para\l"
+	.string "darle la forma que desees!$"
+
+
+CultoS3_Text_Medium3Intro:
+	.string "¿Así que vas tras el POKÉMON\n"
+	.string "ESENCIA?\l"
+	.string "¡Pobre iluso!$"
+
+
+CultoS3_Text_Medium3Defeated:
+	.string "¡Pagarás por tu osadía!$"
+
+
+CultoS3_Text_Medium3PostBattle:
+	.string "El POKÉMON ESENCIA está en todos y\n"
+	.string "a la vez ningún lugar, al momento\l"
+	.string "que creas habérle visto su sombra\l"
+	.string "se desvanecerá en el aire al nada\l"
+	.string "que tu pensamiento trate de\l"
+	.string "procesar qué es lo que ha\l"
+	.string "ocurrido.$"
+
+
+CultoS3_Text_Medium4Intro:
+	.string "Más te vale no pasar de aquí sino\n"
+	.string "quieres escoger la senda del\l"
+	.string "dolor.$"
+
+
+CultoS3_Text_Medium4Defeated:
+	.string "Que así sea pues.$"
+
+
+CultoS3_Text_Medium4PostBattle:
+	.string "No vengas después llorando y\n"
+	.string "arrepintiéndote de tu elección, en\l"
+	.string "ese momento era lo que querías.$"
+
+
+CultoS3_Text_Medium5Intro:
+	.string "Nadie ha interrumpido jamás un\n"
+	.string "ritual de nuestro culto y no serás\l"
+	.string "tú el primero que lo haga.$"
+
+
+CultoS3_Text_Medium5Defeated:
+	.string "Atente a las consecuencias, pues.$"
+
+
+CultoS3_Text_Medium5PostBattle:
+	.string "Los POKÉMON de nuestro pastor no\n"
+	.string "obedecen las leyes de este mundo,\l"
+	.string "están en un plano superior.$"
