@@ -43,4 +43,8 @@ VioletSprotTower_4::
 end
 
 
-
+VioletSprotTower_EventScript_Pensador::
+	trainerbattle_single TRAINER_CLARK, VioletSprotTower_Text_PensadorIntro, VioletSprotTower_Text_PensadorDefeated
+	msgbox VioletSprotTower_Text_PensadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+	

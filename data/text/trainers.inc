@@ -11742,3 +11742,262 @@ CinnabarMansionS2_Text_Cientifico3PostBattle:
 	.string "acaba siendo derrotada, no puedes\l"
 	.string "ganar con los POKÉMON que tienes a\l"
 	.string "tu alcance!$"
+
+
+Route46_Text_ChicaIntro:
+	.string "¡Heyyy!\n"
+	.string "¡No te he visto por esta zona!\l"
+	.string "¿Vienes de bajar CIUDAD ENDRINO?$"
+
+
+Route46_Text_ChicaDefeated:
+	.string "¡Qué POKÉMON tan guays!$"
+
+
+Route46_Text_ChicaPostBattle:
+	.string "Espera, ¿no vienes de CIUDAD\n"
+	.string "ENDRINO?\l"
+	.string "¡Eso es imposible!\l"
+	.string "¡No hay nada más al noreste de\l"
+	.string "aquí!$"
+
+
+Route46_Text_MontaneroIntro:
+	.string "¡Espera!\n"
+	.string "¿¡Por qué tanta prisa?!\l"
+	.string "¿No has visto el paisaje?$"
+
+
+Route46_Text_MontaneroDefeated:
+	.string "Está bien, sigue tu camino.$"
+
+
+Route46_Text_MontaneroPostBattle:
+	.string "A veces vamos tan deprisa que\n"
+	.string "dejamos de apreciar y sentir todo\l"
+	.string "cuanto nos rodea.$"
+
+
+Route29_Text_ChicoIntro:
+	.string "¡Maldición!\n"
+	.string "¡Pensé que en esta ruta había\l"
+	.string "NIDORANs!\l"
+	.string "¿Es que no los hay en todo JOHTO?$"
+
+
+Route29_Text_ChicoDefeated:
+	.string "¡Con un NIDOKING te habría ganado!$"
+
+
+Route29_Text_ChicoPostBattle:
+	.string "Si me dejaran pasar la frontera,\n"
+	.string "iría a KANTO a capturar un\l"
+	.string "NIDORAN, en esa región son\l"
+	.string "bastante más comunes.$"
+
+
+Route29_Text_SabioIntro:
+	.string "Veo cada vez menos especies\n"
+	.string "endémicas por estas rutas.\l"
+	.string "¿No serás tú el responsable de\l"
+	.string "ello?$"
+
+
+Route29_Text_SabioDefeated:
+	.string "¡Qué gran poder!$"
+
+
+Route29_Text_SabioPostBattle:
+	.string "Antes podías ver manadas de\n"
+	.string "CHIKORITA muy facilmente por esta\l"
+	.string "ruta, sea lo que sea que esté\l"
+	.string "provocando esto, cada vez es más\l"
+	.string "complicado verlas, de aquí a pocos\l"
+	.string "años será imposible.$"
+
+
+Route30_Text_SabioIntro:
+	.string "No pareces ser de por aquí.\n"
+	.string "¡Más te vale respetar estas\l"
+	.string "tierras!$"
+
+
+Route30_Text_SabioDefeated:
+	.string "Oh, no todos los días se ven\n"
+	.string "entrenadores como tú.$"
+
+
+Route30_Text_SabioPostBattle:
+	.string "¿Cómo?\n"
+	.string "¿TEAM ROCKET?\l"
+	.string "Jamás había oído hablar de ello.$"
+
+
+Route30_Text_CazabichosIntro:
+	.string "Me he equivocado de lugar.\n"
+	.string "En el ENCINAR seguro que hay\l"
+	.string "insectos que merecen la pena.$"
+
+
+Route30_Text_CazabichosDefeated:
+	.string "¿De dónde has sacado todos esos\n"
+	.string "POKÉMON?$"
+
+
+Route30_Text_CazabichosPostBattle:
+	.string "Dicen que el ENCINAR cuenta con un\n"
+	.string "POKÉMON guardián. También que si\l"
+	.string "tiras un mechero e incendias el\l"
+	.string "bosque, este, enfurecido, hará\l"
+	.string "acto de presencia.\l"
+	.string "¿Será cierto?$"
+
+
+Route31_Text_ChicoIntro:
+	.string "Ahora que tengo la mejor ave no\n"
+	.string "legendaria de KANTO, al fin seré\l"
+	.string "aceptado como discípulo del gran\l"
+	.string "PEGASO.$"
+
+
+Route31_Text_ChicoDefeated:
+	.string "¿Mi fuerte y majestuoso PIDGEOT no\n"
+	.string "fue suficiente?$"
+
+
+Route31_Text_ChicoPostBattle:
+	.string "PEGASO no solo es el mejor\n"
+	.string "entrenador de CIUDAD MALVA,\l"
+	.string "también es considerado como el\l"
+	.string "mayor maestro del TIPO VOLADOR que\l"
+	.string "existe en el mundo.\l"
+	.string "A su hijo, también llamado PEGASO,\l"
+	.string "aún le queda mucho por recorrer\l"
+	.string "para parecerse al padre.$"
+
+
+VioletSprotTower_Text_PensadorIntro:
+	.string "Nuestro maestro demostró que\n"
+	.string "cualquier POKÉMON puede elevarse\l"
+	.string "por encima de un destino adverso.$"
+
+
+VioletSprotTower_Text_PensadorDefeated:
+	.string "Oh, sí, estás para cotas elevadas...$"
+
+
+VioletSprotTower_Text_PensadorPostBattle:
+	.string "El BELLSPROUT de nuestro maestro\n"
+	.string "es el más poderoso que existe.\l"
+	.string "Dicen que es incluso más poderoso\l"
+	.string "que cualquier VICTREBEEL. Tal\l"
+	.string "nivel de desarrollo solo lo\l"
+	.string "obtienen los elegidos.$"
+
+
+VioletSprotTowerP1_Text_PensadorIntro:
+	.string "Fue en este lugar donde nuestro\n"
+	.string "maestro desentrañó los misterios\l"
+	.string "de la armonía y la fuerza.$"
+
+
+VioletSprotTowerP1_Text_PensadorDefeated:
+	.string "¿De qué lugar vienes tú?$"
+
+
+VioletSprotTowerP1_Text_PensadorPostBattle:
+	.string "Este lugar desprende un aura que\n"
+	.string "va más allá de lo que puedas ver a\l"
+	.string "simple vista. ¿No lo sientes?$"
+
+
+VioletSprotTowerP1_Text_Pensador2Intro:
+	.string "Muévete como las hojas del\n"
+	.string "viento...$"
+
+
+VioletSprotTowerP1_Text_Pensador2Defeated:
+	.string "¡No!\n"
+	.string "¡Has destapado mis debilidades!$"
+
+
+VioletSprotTowerP1_Text_Pensador2PostBattle:
+	.string "Quería imitar los pausados\n"
+	.string "movimientos de BELLSPROUT para\l"
+	.string "pelear... Pero no me entrené lo\l"
+	.string "suficiente.$"
+
+
+VioletSprotTowerP2_Text_PensadorIntro:
+	.string "No existen POKÉMON fuertes o\n"
+	.string "débiles.\l"
+	.string "¡Solo voluntades firmes o\l"
+	.string "frágiles!$"
+
+
+VioletSprotTowerP2_Text_PensadorDefeated:
+	.string "El agua pura no contiene peces.$"
+
+
+VioletSprotTowerP2_Text_PensadorPostBattle:
+	.string "Que un simple BELLSPROUT haya\n"
+	.string "llegado tan alto es prueba de que\l"
+	.string "en última instancia las cosas\l"
+	.string "están más en nuestra mano de lo\l"
+	.string "que pudiera parecer.$"
+
+
+VioletSprotTowerP2_Text_Pensador2Intro:
+	.string "Ve con calma chico. El viaje\n"
+	.string "aporta la felicidad, no el\l"
+	.string "destino.$"
+
+
+VioletSprotTowerP2_Text_Pensador2Defeated:
+	.string "¡VICTREBEEL!\n"
+	.string "¿Qué ha ocurrido?$"
+
+
+VioletSprotTowerP2_Text_Pensador2PostBattle:
+	.string "Parece que eres de esos que saben\n"
+	.string "reconocer la vida en cada sorbo de\l"
+	.string "aire. Mi maestro estará encantado\l"
+	.string "de recibirte.$"
+
+
+VioletGym_Text_ChicoIntro:
+	.string "La mayoría de POKÉMON LEGENDARIOS\n"
+	.string "tienen por tipo secundario el\l"
+	.string "VOLADOR, ¿no lo sabías?$"
+
+
+
+VioletGym_Text_ChicoDefeated:
+	.string "¡Mis preciadas aves!$"
+
+
+VioletGym_Text_ChicoPostBattle:
+	.string "Mi equipo no es suficiente para\n"
+	.string "batir a los mejores. Necesito aves\l"
+	.string "más fuertes aún, pero... tendré que\l"
+	.string "emprender un largo viaje,\l"
+	.string "tal y como hizo PEGASO.$"
+
+
+VioletGym_Text_Chico2Intro:
+	.string "Tienes suerte de haber llegado\n"
+	.string "ahora, podrás presenciar la\l"
+	.string "extraordinaria colección de aves\l"
+	.string "que PEGASO ha reunido a lo largo\l"
+	.string "de sus viajes.$"
+
+
+VioletGym_Text_Chico2Defeated:
+	.string "¡No puede ser cierto!$"
+
+
+VioletGym_Text_Chico2PostBattle:
+	.string "Uno de los POKÉMON de PEGASO es\n"
+	.string "incluso capaz de absorber la\l"
+	.string "electricidad.\l"
+	.string "¡El sueño de todo TIPO VOLADOR!$"

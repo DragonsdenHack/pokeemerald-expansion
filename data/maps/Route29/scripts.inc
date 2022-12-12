@@ -165,3 +165,16 @@ Route29_Text_16:
 .string "bonitas de la región. Esperemos\l"
 .string "que pronto la reabran para toda la\l"
 .string "población…$"
+
+
+
+Route29_EventScript_Chico::
+	trainerbattle_single TRAINER_BRICE, Route29_Text_ChicoIntro, Route29_Text_ChicoDefeated
+	msgbox Route29_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+Route29_EventScript_Sabio::
+	trainerbattle_single TRAINER_JAMES_5, Route29_Text_SabioIntro, Route29_Text_SabioDefeated
+	msgbox Route29_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
+	end
