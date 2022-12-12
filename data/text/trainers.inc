@@ -10168,7 +10168,7 @@ VictoryRoad2F_Text_DomadorPostBattle:
 
 
 VictoryRoad3F_Text_GuayIntro:
-	.string "¡Aquí sólo pueden pasar\n"
+	.string "¡Aquí solo pueden pasar\n"
 	.string "los elegidos!$"
 
 
@@ -10197,7 +10197,7 @@ VictoryRoad3F_Text_Guay2PostBattle:
 
 
 VictoryRoad3F_Text_Guay3Intro:
-	.string "¡Los ENTRENADORES sólo viven para\n"
+	.string "¡Los ENTRENADORES solo viven para\n"
 	.string "buscar enemigos más fuertes!$"
 
 
@@ -10377,7 +10377,7 @@ KindleRoad_Text_PescadorDefeated:
 
 
 KindleRoad_Text_PescadorPostBattle:
-	.string "¡No sólo he perdido, también me he\n"
+	.string "¡No solo he perdido, también me he\n"
 	.string "quedado sin el ejemplar de antes!$"
 
 
@@ -10754,7 +10754,7 @@ PatternBush_Text_ChicoPostBattle:
 
 PatternBush_Text_CazabichosIntro:
 	.string "He atrapado un POKéMON del tipo\n"
-	.string "BICHO que sólo vive por aquí.$"
+	.string "BICHO que solo vive por aquí.$"
 
 
 PatternBush_Text_CazabichosDefeated:
@@ -10889,7 +10889,7 @@ PatternBush_Text_Chica4Defeated:
 PatternBush_Text_Chica4PostBattle:
 	.string "¡Yo no he dicho que no debas\n"
 	.string "atrapar POKéMON!\p"
-	.string "Sólo quiero que la gente los críe\n"
+	.string "Solo quiero que la gente los críe\n"
 	.string "de forma responsable.$"
 
 
@@ -11597,3 +11597,148 @@ CultoS3_Text_Medium5PostBattle:
 	.string "Los POKÉMON de nuestro pastor no\n"
 	.string "obedecen las leyes de este mundo,\l"
 	.string "están en un plano superior.$"
+
+
+NavelRoad_Text_PescadorIntro:
+	.string "Nadie aparte de los pocos\n"
+	.string "pescadores que conocemos el\l"
+	.string "secreto debería de estar aquí.$"
+
+
+NavelRoad_Text_PescadorDefeated:
+	.string "Otro miembro más para el club.$"
+
+
+NavelRoad_Text_PescadorPostBattle:
+	.string "La mayoría de personas allí afuera\n"
+	.string "son cobardes y corderitos de las\l"
+	.string "directrices, les da miedo mojarse\l"
+	.string "un poco con las corrientes cuando\l"
+	.string "lo mejor del mar se encuentra\l"
+	.string "aquí.\l"
+	.string "¡Que sigan encerrados en su\l"
+	.string "rebaño, yo me quedaré con las\l"
+	.string "mejores piezas de este lugar!$"
+
+
+NavelRoad_Text_Pescador2Intro:
+	.string "¡Este lugar es un nido de salvajes\n"
+	.string "POKÉMON que han crecido en aguas\l"
+	.string "bravas!\l"
+	.string "¡Mira lo fieros que son!$"
+
+
+NavelRoad_Text_Pescador2Defeated:
+	.string "¡Increíble!$"
+
+
+NavelRoad_Text_Pescador2PostBattle:
+	.string "Tienes valor viniendo hasta aquí\n"
+	.string "tú solo, la naturaleza sabe\l"
+	.string "recompensar a los que toman\l"
+	.string "riesgos, si aprendes a bailar bajo\l"
+	.string "la tormenta, cuando llegue la\l"
+	.string "calma volarás.$"
+
+
+WestBirthIsland_Text_MontaneroIntro:
+	.string "¡Primero esa chica y luego tú!\n"
+	.string "¿Qué esta pasando con el\l"
+	.string "secretismo y la discrección de\l"
+	.string "este lugar?$"
+
+
+WestBirthIsland_Text_MontaneroDefeated:
+	.string "¡Mi equipo hecho ruinas!$"
+
+
+WestBirthIsland_Text_MontaneroPostBattle:
+	.string "Se cree que este lugar guarda una\n"
+	.string "estrecha relación con las RUINAS\l"
+	.string "ALFA de JOHTO, tal vez este lugar\l"
+	.string "sea la llave para liberar un poder\l"
+	.string "indescriptible y ancestral...$"
+
+
+CinnabarMansionS1_Text_CientificoIntro:
+	.string "¿Por qué molestar a OAK cuando\n"
+	.string "puedo ser yo quien te aleccione\l"
+	.string "aquí y ahora?$"
+
+
+CinnabarMansionS1_Text_CientificoDefeated:
+	.string "¡No tiene lógica!$"
+
+
+CinnabarMansionS1_Text_CientificoPostBattle:
+	.string "Todo está dispuesto, las cartas\n"
+	.string "están sobre la mesa, tus opciones\l"
+	.string "de victoria son nulas.$"
+
+
+CinnabarMansionS2_Text_CientificoIntro:
+	.string "Llevábamos décadas en busca del\n"
+	.string "equipo perfecto, ahora que al fin\l"
+	.string "hemos logrado montar el mejor\l"
+	.string "equipo de todos los tiempos nada\l"
+	.string "ni nadie se opondrá a nuestra\l"
+	.string "voluntad.$"
+
+
+CinnabarMansionS2_Text_CientificoDefeated:
+	.string "¡Eso!\n"
+	.string "¡Camina hacia tu fin!$"
+
+
+CinnabarMansionS2_Text_CientificoPostBattle:
+	.string "OAK será recordado como el mejor\n"
+	.string "entrenador de todos los tiempos, a\l"
+	.string "ti en cambio jamás se te\l"
+	.string "reconocerá lo que hiciste en la\l"
+	.string "LIGA.\l"
+	.string "¡Si no quedan registradas para la\l"
+	.string "posteridad, jamas existieron, ni\l"
+	.string "tú ni tus acciones!$"
+
+
+CinnabarMansionS2_Text_Cientifico2Intro:
+	.string "¿Qué se siente al haber ganado la\n"
+	.string "LIGA POKÉMON solo para ver como el\l"
+	.string "nieto de OAK es ahora oficialmente\l"
+	.string "el CAMPEÓN al tiempo que ROJO es\l"
+	.string "tenido como una leyenda?\l"
+	.string "Para la sociedad, ¡no existes!\l"
+	.string "¡No eres más que polvo!$"
+
+
+CinnabarMansionS2_Text_Cientifico2Defeated:
+	.string "Nada puede hacernos la fuerza de\n"
+	.string "tus POKÉMON.$"
+
+
+CinnabarMansionS2_Text_Cientifico2PostBattle:
+	.string "No puedes ganar este juego\n"
+	.string "simplemente siendo el entrenador\l"
+	.string "más poderoso, algo que siquiera\l"
+	.string "ahora tienes, pues OAK ha logrado\l"
+	.string "al fin formar un equipo perfecto.$"
+
+
+CinnabarMansionS2_Text_Cientifico3Intro:
+	.string "¡Tu fin te espera!\n"
+	.string "¡Ve por él y enfréntate a tu\l"
+	.string "destino!$"
+
+
+CinnabarMansionS2_Text_Cientifico3Defeated:
+	.string "¡Solo OAK puede gobernar KANTO!$"
+
+
+CinnabarMansionS2_Text_Cientifico3PostBattle:
+	.string "Solo eres una variable más dentro\n"
+	.string "de nuestro gran plan para que\l"
+	.string "nuestra voluntad se cumpla.\l"
+	.string "¡Variable que en todos los casos\l"
+	.string "acaba siendo derrotada, no puedes\l"
+	.string "ganar con los POKÉMON que tienes a\l"
+	.string "tu alcance!$"

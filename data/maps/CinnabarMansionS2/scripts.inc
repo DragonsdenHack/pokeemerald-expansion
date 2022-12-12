@@ -1,2 +1,21 @@
 CinnabarMansionS2_MapScripts::
 	.byte 0
+
+CinnabarMansionS2_EventScript_Cientifico::
+	trainerbattle_single TRAINER_MARY, CinnabarMansionS2_Text_CientificoIntro, CinnabarMansionS2_Text_CientificoDefeated
+	msgbox CinnabarMansionS2_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CinnabarMansionS2_EventScript_Cientifico2::
+	trainerbattle_single TRAINER_JONAS, CinnabarMansionS2_Text_Cientifico2Intro, CinnabarMansionS2_Text_Cientifico2Defeated
+	msgbox CinnabarMansionS2_Text_Cientifico2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CinnabarMansionS2_EventScript_Cientifico3::
+	trainerbattle_single TRAINER_KAYLEY, CinnabarMansionS2_Text_Cientifico3Intro, CinnabarMansionS2_Text_Cientifico3Defeated
+	msgbox CinnabarMansionS2_Text_Cientifico3PostBattle, MSGBOX_AUTOCLOSE
+	end
