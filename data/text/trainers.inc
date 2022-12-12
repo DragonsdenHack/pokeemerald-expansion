@@ -9841,7 +9841,7 @@ RocketHideoutViridian_Text_Cientifico3PostBattle:
 	.string "este segundo caso es el que\l"
 	.string "GIOVANNI ha estado poniendo en\l"
 	.string "práctica con ese tal ROJO, nuestro\l"
-	.string "LÍDER se dió cuenta del potencial\l"
+	.string "LÍDER se dio cuenta del potencial\l"
 	.string "infinito de mejora de ese chico, y\l"
 	.string "decidió cortárselo de inmediato.$"
 
@@ -10987,4 +10987,261 @@ OutcastIsland_Text_PescadorDefeated:
 OutcastIsland_Text_PescadorPostBattle:
 	.string "¡Pero es que no puedo volver\n"
 	.string "a casa con las manos vacías!$"
+
+
+CanyonEntrance_Text_ChicaIntro:
+	.string "¡Voy a acabar contigo en un abrir\n"
+	.string "y cerrar de ojos!$"
+
+
+CanyonEntrance_Text_ChicaDefeated:
+	.string "¡Ufff... demasiado para mí!$"
+
+
+CanyonEntrance_Text_ChicaPostBattle:
+	.string "¿Cómo? ¿Que las apariencias\n"
+	.string "engañan?\p"
+	.string "¡Eh, es parte de mi estrategia!$"
+
+
+CanyonEntrance_Text_ChicoIntro:
+	.string "¡Hola, cara de bola!\n"
+	.string "¿Eres de mi club de fans?$"
+
+
+CanyonEntrance_Text_ChicoDefeated:
+	.string "O sea, que de fan nada...\p"
+	.string "Pues ¿qué le vamos a hacer?\n"
+	.string "¿Y si te canto un poco?$"
+
+
+CanyonEntrance_Text_ChicoPostBattle:
+	.string "Oye el boom, boom...\p"
+	.string "Oye el boom, boom, boom, de mis\n"
+	.string "POKéMON, ven y dime tú, no me\l"
+	.string "digas no...$"
+
+
+CanyonEntrance_Text_Chico2Intro:
+	.string "Esta isla tiene una extensión muy\n"
+	.string "particular, no es fácil patrullar.$"
+
+
+CanyonEntrance_Text_Chico2Defeated:
+	.string "Vaya...$"
+
+
+CanyonEntrance_Text_Chico2PostBattle:
+	.string "Los ENTRENADORES de ciudad,\n"
+	.string "como tú, deben de ser fuertes.\p"
+	.string "Tú irás a la TORRE, ¿no?$"
+
+
+CanyonEntrance_Text_Chica2Intro:
+	.string "¡La gente que se pasa con los\n"
+	.string "POKéMON se las ve conmigo!$"
+
+
+CanyonEntrance_Text_Chica2Defeated:
+	.string "¡Tú te portas como debe ser!$"
+
+
+CanyonEntrance_Text_Chica2PostBattle:
+	.string "Si tratas a los POKéMON con\n"
+	.string "amabilidad, reaccionarán bien.$"
+
+
+SevaultCanyon_Text_DomadorIntro:
+	.string "Da igual que tengas los POKéMON\n"
+	.string "más fuertes...\p"
+	.string "¡Lo importante es saber cómo\n"
+	.string "tratarlos!$"
+
+
+SevaultCanyon_Text_DomadorDefeated:
+	.string "Sabes bien lo que haces...$"
+
+
+SevaultCanyon_Text_DomadorPostBattle:
+	.string "Hay mucho ENTRENADOR por ahí\n"
+	.string "suelto con POKéMON increíbles y sin\l"
+	.string "idea de cómo hay que tratarlos.\p"
+	.string "Antes de entrenar POKéMON,\n"
+	.string "son los propios ENTRENADORES los\l"
+	.string "que deben crecer como personas.$"
+
+
+SevaultCanyon_Text_GuayIntro:
+	.string "¡Pareces fuerte!\n"
+	.string "¡Vamos a luchar, anda!$"
+
+
+SevaultCanyon_Text_GuayDefeated:
+	.string "¡Lo sabía!\n"
+	.string "¡Sabía que eras increíble!$"
+
+
+SevaultCanyon_Text_GuayPostBattle:
+	.string "La forma de luchar que tienes\n"
+	.string "dice mucho de ti.\p"
+	.string "¡Gracias!$"
+
+
+SevaultCanyon_Text_Guay2Intro:
+	.string "He recibido la mejor educación\n"
+	.string "para tener la fuerza que tengo.\p"
+	.string "¡No pienso perder ante nadie!$"
+
+
+SevaultCanyon_Text_Guay2Defeated:
+	.string "Gracias, ya no tengo la presión\n"
+	.string "de antes.$"
+
+
+SevaultCanyon_Text_Guay2PostBattle:
+	.string "La cosa más mínima, me ponía\n"
+	.string "de mal humor.\p"
+	.string "Ahora, con respirar hondo,\n"
+	.string "se me pasa.$"
+
+
+SevaultCanyon_Text_ChicoIntro:
+	.string "Yo protejo el medio ambiente\n"
+	.string "y él me protege a mí.$"
+
+
+SevaultCanyon_Text_ChicoDefeated:
+	.string "¡Buah, eres fuerte!\n"
+	.string "¿Y a mí quién me protege ahora?$"
+
+
+SevaultCanyon_Text_ChicoPostBattle:
+	.string "Visto desde las estrellas, nuestro\n"
+	.string "planeta es un granito de arena.\p"
+	.string "Y debemos proteger ese granito\n"
+	.string "de arena por el bien de todos.$"
+
+
+SevaultCanyon_Text_ChicaIntro:
+	.string "Tienes unos zapatos muy llamativos.$"
+
+
+SevaultCanyon_Text_ChicaDefeated:
+	.string "¡Cualquiera diría que eres tan\n"
+	.string "fuerte! ¡No lo aparentas!$"
+
+
+SevaultCanyon_Text_ChicaPostBattle:
+	.string "¿Te las dio la organización\n"
+	.string "criminal a la que perteneces?\l"
+	.string "¡Qué guay!$"
+
+
+SevaultCanyon_Text_LuchadoraIntro:
+	.string "¡Estoy realmente en forma!$"
+
+
+SevaultCanyon_Text_LuchadoraDefeated:
+	.string "¿Mmm?\n"
+	.string "Aquí hay algo que falla...$"
+
+
+SevaultCanyon_Text_LuchadoraPostBattle:
+	.string "Así no puedo presentarme a la\n"
+	.string "TORRE DESAFÍO...$"
+
+
+TanobyRuins_Text_DomadorIntro:
+	.string "¿Sabes algo de esta cámara\n"
+	.string "de piedra?$"
+
+
+TanobyRuins_Text_DomadorDefeated:
+	.string "Oye, tampoco había que recurrir\n"
+	.string "a la fuerza.$"
+
+
+TanobyRuins_Text_DomadorPostBattle:
+	.string "Las RUINAS SETE tienen unos\n"
+	.string "1.500 años.\p"
+	.string "Pero nadie ha conseguido averiguar\n"
+	.string "cuál es su razón de ser.$"
+
+
+TanobyRuins_Text_CaballeroIntro:
+	.string "Hoy, como complemento a la clase,\n"
+	.string "hemos venido a visitar la cámara.$"
+
+
+TanobyRuins_Text_CaballeroDefeated:
+	.string "Qué barbaridad...$"
+
+
+TanobyRuins_Text_CaballeroPostBattle:
+	.string "Así que tú estudias a los POKéMON\n"
+	.string "por tu cuenta...\p"
+	.string "La verdad es que es digno\n"
+	.string "de admiración...$"
+
+
+TanobyRuins_Text_PintoraIntro:
+	.string "CLEN está enseñándome a pintar.$"
+
+
+TanobyRuins_Text_PintoraDefeated:
+	.string "Igual nos llaman la atención\n"
+	.string "por haber hecho tanto ruido.$"
+
+
+TanobyRuins_Text_PintoraPostBattle:
+	.string "Yo quería pintar un edificio\n"
+	.string "antiguo.\p"
+	.string "Por eso me trajo CLEN hasta aquí.$"
+
+
+TanobyRuins_Text_Montanero2Intro:
+	.string "Dicen que aquí dentro duerme\n"
+	.string "un mítico POKéMON.$"
+
+
+TanobyRuins_Text_Montanero2Defeated:
+	.string "A mí lo de los combates no se me\n"
+	.string "da bien.$"
+
+
+TanobyRuins_Text_Montanero2PostBattle:
+	.string "Yo he oído que hay otras ruinas\n"
+	.string "como éstas.\p"
+	.string "¿Serán lugares de descanso de\n"
+	.string "otros míticos POKéMON?$"
+
+
+TrainerTower_Text_ChicaIntro:
+	.string "En alguna parte de esta isla,\n"
+	.string "hay extraños POKéMON durmiendo.$"
+
+
+TrainerTower_Text_ChicaDefeated:
+	.string "¡Tú sí que sabes entrenar POKéMON!$"
+
+
+TrainerTower_Text_ChicaPostBattle:
+	.string "En alguna parte de esta isla,\n"
+	.string "hay extraños POKéMON durmiendo.\p"
+	.string "¿Te estarán esperando?$"
+
+
+TrainerTower_Text_ChicoIntro:
+	.string "He notado que te acercabas.$"
+
+
+TrainerTower_Text_ChicoDefeated:
+	.string "Me rindo...$"
+
+
+TrainerTower_Text_ChicoPostBattle:
+	.string "Siento que te vas a encontrar\n"
+	.string "con mucha gente.\p"
+	.string "Establecerás cierta conexión\n"
+	.string "mediante una extraña fuerza.$"
   
