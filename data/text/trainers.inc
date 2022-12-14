@@ -12687,3 +12687,498 @@ Route53_Text_ObreroPostBattle:
 	.string "con AZAFRÁN.\l"
 	.string "La cuestión es, ¿dónde estaremos\l"
 	.string "nosotros entonces?$"
+
+
+Route35_Text_CalvoIntro:
+	.string "Dicen que la LÍDER de TRIGAL va a\n"
+	.string "dejar su puesto.\l"
+	.string "¡Voy a pedir que cambien el TIPO\l"
+	.string "del GIMNASIO de la ciudad al\l"
+	.string "VENENO!$"
+
+
+Route35_Text_CalvoDefeated:
+	.string "¡Menuda paliza!$"
+
+
+Route35_Text_CalvoPostBattle:
+	.string "¿¡Cómo!?\n"
+	.string "¿Ya hay un GIMNASIO TIPO VENENO en\l"
+	.string "KANTO?\l"
+	.string "¡Tengo que visitarlo!$"
+
+
+Route35_Text_ChicaIntro:
+	.string "¿Has estado en el PARQUE NACIONAL?\n"
+	.string "Muchos van allí a relajarse.$"
+
+
+Route35_Text_ChicaDefeated:
+	.string "¡Tranquilo!\n"
+	.string "¡Ya has ganado!$"
+
+
+Route35_Text_ChicaPostBattle:
+	.string "Tienes pinta de tener muchos\n"
+	.string "proyectos entre manos, una pausa en\l"
+	.string "el PARQUE NACIONAL te vendrá\l"
+	.string "bien.$"
+
+
+Route35_Text_ChicoIntro:
+	.string "Ver crecer a los árboles es mi\n"
+	.string "pasatiempo favorito.\l"
+	.string "¡Pero también me gusta combatir!$"
+
+
+Route35_Text_ChicoDefeated:
+	.string "Los tuyos sí que han recibido un\n"
+	.string "buen entrenamiento...$"
+
+
+Route35_Text_ChicoPostBattle:
+	.string "No todo es cuestión de fuerza en\n"
+	.string "lo que respecta a los POKÉMON.\l"
+	.string "También hay que preocuparse de\l"
+	.string "potenciar algún aspecto concreto\l"
+	.string "de su personalidad.$"
+
+
+Route36_Text_ChicaIntro:
+	.string "Me alejé de TRIGAL en busca de\n"
+	.string "buenos combates, las chicas de\l"
+	.string "allí solo hablan de qué POKÉMON es\l"
+	.string "más guapo.\l"
+	.string "¡Yo quiero combatir!$"
+
+
+Route36_Text_ChicaDefeated:
+	.string "¡Oh, qué gran combate!$"
+
+
+Route36_Text_ChicaPostBattle:
+	.string "Esas chicas han arruinado el\n"
+	.string "GIMNASIO de TRIGAL, esa LÍDER me\l"
+	.string "enseñó muchas cosas útiles para el\l"
+	.string "combate. Ahora solo se hablará de\l"
+	.string "POKÉMON monos y guays en ese\l"
+	.string "GIMNASIO, no creo que vuelva.$"
+
+
+Route36_Text_SabioIntro:
+	.string "Desde aquí ya puede verse la\n"
+	.string "legendaria TORRE CAMPANA de CIUDAD\l"
+	.string "IRIS.\l"
+	.string "¿Vas a visitarla?$"
+
+
+Route36_Text_SabioDefeated:
+	.string "Oh, ¡qué gran potencial!$"
+
+
+Route36_Text_SabioPostBattle:
+	.string "Algunos de los mayores sabios de\n"
+	.string "JOHTO están en CIUDAD IRIS, seguro\l"
+	.string "que puedes aprender mucho de\l"
+	.string "ellos.$"
+
+
+Route37_Text_ChicaIntro:
+	.string "Perdona, pero quisiera ver si\n"
+	.string "sabes entrenar a tus POKÉMON como\l"
+	.string "se debe.$"
+
+
+Route37_Text_ChicaDefeated:
+	.string "Pues sí, los entrenas muy bien.$"
+
+
+Route37_Text_ChicaPostBattle:
+	.string "Hay que criar a los POKÉMON\n"
+	.string "teniendo en cuenta su\l"
+	.string "personalidad.$"
+
+
+Route37_Text_JuglarIntro:
+	.string "¿Vas hacia CIUDAD IRIS?\n"
+	.string "¡Voy a dar un espectáculo en el\l"
+	.string "TEATRO DE LA DANZA!\l"
+	.string "¿Quieres verlo?$"
+
+
+Route37_Text_JuglarDefeated:
+	.string "El plan era dar yo el\n"
+	.string "espectáculo...$"
+
+
+Route37_Text_JuglarPostBattle:
+	.string "CIUDAD IRIS es mi favorita de la\n"
+	.string "región, el aire a historia y\l"
+	.string "tradición que allí se respira es\l"
+	.string "único.$"
+
+
+NationalPark_Text_CazabichosIntro:
+	.string "¡Este lugar es el sueño de\n"
+	.string "cualquier CAZABICHOS!\l"
+	.string "¡Mis bichos aquí rebosan de\l"
+	.string "energía!$"
+
+
+NationalPark_Text_CazabichosDefeated:
+	.string "¡Ahhg, me has quemado!$"
+
+
+NationalPark_Text_CazabichosPostBattle:
+	.string "Por aquí viene a veces un tal\n"
+	.string "ANTÓN, dice que quiere convertirse\l"
+	.string "en el mejor CAZABICHOS de JOHTO y\l"
+	.string "ser LÍDER DE GIMNASIO.\l"
+	.string "¡Qué iluso!$"
+
+
+NationalPark_Text_GuardaIntro:
+	.string "¿Sabes cuál es mi trabajo?\n"
+	.string "Asegurarme de que gente como tú no\l"
+	.string "ensucia este lugar.$"
+
+
+NationalPark_Text_GuardaDefeated:
+	.string "¡Mis exóticos POKÉMON!$"
+
+
+NationalPark_Text_GuardaPostBattle:
+	.string "Tú sí tienes pinta de respetar la\n"
+	.string "naturaleza a pesar de ser alguien\l"
+	.string "importante. Algunos altos cargos\l"
+	.string "de la TORRE RADIO que vienen por\l"
+	.string "aquí creen que pueden hacer lo que\l"
+	.string "quieran.$"
+
+
+NationalPark_Text_ChicoIntro:
+	.string "Dicen que quieren organizar\n"
+	.string "concursos de captura de bichos\l"
+	.string "aquí.\l"
+	.string "¡Creo que me apuntaré!$"
+
+
+NationalPark_Text_ChicoDefeated:
+	.string "¡Un par de POKÉMON más y te habría\n"
+	.string "ganado!$"
+
+
+NationalPark_Text_ChicoPostBattle:
+	.string "Cuando compita en el concurso de\n"
+	.string "captura de bichos intentaré\l"
+	.string "atrapar un PINSIR. Siempre quise\l"
+	.string "tener uno.$"
+
+
+EcruteakGym_Text_SabioIntro:
+	.string "Solo unos pocos pueden optar a las\n"
+	.string "enseñanzas del maestro.$"
+
+
+EcruteakGym_Text_SabioDefeated:
+	.string "Sigue tu camino pues.$"
+
+
+EcruteakGym_Text_SabioPostBattle:
+	.string "El TIPO FANTASMA es nuestra\n"
+	.string "especialidad, pero también nos\l"
+	.string "gusta el TIPO PSÍQUICO, incluso el\l"
+	.string "SINIESTRO.$"
+
+
+EcruteakGym_Text_Sabio2Intro:
+	.string "¡La gran ave que iluminó CIUDAD\n"
+	.string "IRIS algún día volverá!$"
+
+
+EcruteakGym_Text_Sabio2Defeated:
+	.string "¡Qué resplandor!$"
+
+
+EcruteakGym_Text_Sabio2PostBattle:
+	.string "Nuestro maestro es una de las\n"
+	.string "poquísimas personas vivas que han\l"
+	.string "llegado a ver al LEGENDARIO HO-OH.\l"
+	.string "Dice que su destino es verlo una\l"
+	.string "última vez antes de dejar este\l"
+	.string "mundo.$"
+
+
+EcruteakGym_Text_ExorcistaIntro:
+	.string "¡Vine desde PUEBLO LAVANDA solo\n"
+	.string "por este GIMNASIO TIPO FANTASMA!$"
+
+
+EcruteakGym_Text_ExorcistaDefeated:
+	.string "¡Ayayayaya!$"
+
+
+EcruteakGym_Text_ExorcistaPostBattle:
+	.string "A pesar de estar tan lejos, la\n"
+	.string "energía que puedo sentir en este\l"
+	.string "lugar es muy similar a la de\l"
+	.string "PUEBLO LAVANDA.$"
+
+
+EcruteakGym_Text_Exorcista2Intro:
+	.string "Vine desde PUEBLO LAVANDA porque\n"
+	.string "decían que aquí estaba el mayor\l"
+	.string "especialista en el TIPO FANTASMA.\l"
+	.string "¡Más aún que AGATHA!$"
+
+
+EcruteakGym_Text_Exorcista2Defeated:
+	.string "¡Ñiñiñiñiñiñi!$"
+
+
+EcruteakGym_Text_Exorcista2PostBattle:
+	.string "El maestro de la TORRE CAMPANA es\n"
+	.string "sensacional, aunque ya se le ve\l"
+	.string "mayor.$"
+
+
+BurnedTower_Text_ChicoIntro:
+	.string "Después de casi 150 años, no\n"
+	.string "hay consenso sobre lo ocurrido\l"
+	.string "aquí.\l"
+	.string "¿Quieres saber qué paso?$"
+
+
+BurnedTower_Text_ChicoDefeated:
+	.string "¡Tranquilo!\n"
+	.string "¡No queremos otro incendio, mi\l"
+	.string "WEEZING va a explotar!$"
+
+
+BurnedTower_Text_ChicoPostBattle:
+	.string "Algunos dicen que el incendio de\n"
+	.string "TORRE QUEMADA fue provocado por el\l"
+	.string "hombre. Otros que fue un rayo el\l"
+	.string "que quemó la torre. Fuera como fuera,\l"
+	.string "ese día el POKÉMON que\l"
+	.string "aquí reposaba perdió la confianza\l"
+	.string "en CIUDAD IRIS.$"
+
+
+Route38_Text_CalvoIntro:
+	.string "Estaría bien crear una asociación\n"
+	.string "en JOHTO igual que la de\l"
+	.string "MOTORISTAS de FUCSIA, ¿no crees?$"
+
+
+Route38_Text_CalvoDefeated:
+	.string "¡Aghh!\n"
+	.string "¡Tú!$"
+
+
+Route38_Text_CalvoPostBattle:
+	.string "Estoy harto de mendigar por los\n"
+	.string "subterráneos de TRIGAL, iré a\l"
+	.string "CIUDAD OLIVO a ver si me contratan\l"
+	.string "de MARINERO. He oído que cada vez\l"
+	.string "atracan más barcos en su puerto.$"
+
+
+Route38_Text_PintoraIntro:
+	.string "Mmm...\n"
+	.string "Me has echado a perder el encuadre\l"
+	.string "de GRANJA MU-MU que estaba\l"
+	.string "buscando.\l"
+	.string "¡Págamelo con un combate!$"
+
+
+Route38_Text_PintoraDefeated:
+	.string "¡Mis POKÉMON también se han echado\n"
+	.string "a perder!$"
+
+
+Route38_Text_PintoraPostBattle:
+	.string "En KANTO es muy difícil ver\n"
+	.string "paisajes y lugares abiertos como\l"
+	.string "este. La RUTA 13 creo que es la\l"
+	.string "excepción, por eso se llena de\l"
+	.string "ORNITÓLOGOS.$"
+
+
+Route38_Text_ChicoIntro:
+	.string "Tú no eres de por aquí, ¿verdad?\n"
+	.string "Esa forma de pisar la hierba alta\l"
+	.string "denota poco respeto por el medio.$"
+
+
+Route38_Text_ChicoDefeated:
+	.string "¡Qué falta de respeto!$"
+
+
+Route38_Text_ChicoPostBattle:
+	.string "Ten cuidado por estas rutas,\n"
+	.string "puedes encontrar a TAUROS y\l"
+	.string "MILTANK. En estado salvaje son muy\l"
+	.string "bravos y agresivos.$"
+
+
+Route39_Text_OrnitologoIntro:
+	.string "Esta ruta es ideal para entrenar a\n"
+	.string "mis aves.\l"
+	.string "¡Al acabar, compramos LECHE MU-MU, y\l"
+	.string "como nuevos!$"
+
+
+Route39_Text_OrnitologoDefeated:
+	.string "Of...\n"
+	.string "Creo que necesitaré comprar una\l"
+	.string "ración extra.$"
+
+
+Route39_Text_OrnitologoPostBattle:
+	.string "Algunos ORNITÓLOGOS puristas dicen\n"
+	.string "que debería quitar a YANMEGA de mi\l"
+	.string "equipo, ¡creo que me tienen\l"
+	.string "envidia porque no saben cómo\l"
+	.string "conseguirlo!$"
+
+
+Route39_Text_MarineroIntro:
+	.string "Van a dar una fiesta de\n"
+	.string "inauguración del PUERTO OLIVO.\l"
+	.string "¿Irás?$"
+
+
+Route39_Text_MarineroDefeated:
+	.string "¡Qué descaro!$"
+
+
+Route39_Text_MarineroPostBattle:
+	.string "Tienes pinta de ser alguien\n"
+	.string "importante, seguro que hasta\l"
+	.string "podrás ver al CAPITÁN, ¿eh?$"
+
+
+OliivineLighthouse_Text_MarineroIntro:
+    .string "Un poderoso POKÉMON ELÉCTRICO\n"
+	.string "ilumina este FARO, ¿lo sabías?$"
+
+
+OliivineLighthouse_Text_MarineroDefeated:
+	.string "¡Gran combate marinero!$"
+
+
+OliivineLighthouse_Text_MarineroPostBattle:
+	.string "Así es, un AMPHAROS ilumina este\n"
+	.string "FARO. La luz que desprende su cola\l"
+	.string "puede verse a decenas de\l"
+	.string "kilómetros.$"
+
+
+OliivineLighthouse_Text_CaballeroIntro:
+	.string "Viajo por el mundo para entrenar\n"
+	.string "mis POKÉMON. ¿Quiere luchar?$"
+
+
+OliivineLighthouse_Text_CaballeroDefeated:
+	.string "Uff... Debo entrenar más.$"
+
+
+OliivineLighthouse_Text_CaballeroPostBattle:
+	.string "Para algunos, ARCANINE es\n"
+	.string "considerado un LEGENDARIO. De ser\l"
+	.string "así, ¡tengo uno!$"
+
+
+OliivineLighthouse_Text_ChicoIntro:
+	.string "¡Ten cuidado!\n"
+	.string "¡Este lugar no es un parque\l"
+	.string "turístico, aquí trabajamos!$"
+
+
+OliivineLighthouse_Text_ChicoDefeated:
+	.string "Se me cruzaron los cables...$"
+
+
+OliivineLighthouse_Text_ChicoPostBattle:
+	.string "Me encanta trabajar aquí, aprendo\n"
+	.string "mucho del farero. Su AMPHAROS es\l"
+	.string "incomparable, ojalá el mío fuera\l"
+	.string "tan fuerte.$"
+
+
+OliivineLighthouse_Text_Caballero2Intro:
+	.string "Vengo a visitar a mi viejo amigo y\n"
+	.string "me encuentro con un joven\l"
+	.string "trajeado.\l"
+	.string "¡Lo que faltaba!$"
+
+
+OliivineLighthouse_Text_Caballero2Defeated:
+	.string "¡Ah, así que vas en serio!$"
+
+
+OliivineLighthouse_Text_Caballero2PostBattle:
+	.string "Este FARO se ha construido en\n"
+	.string "tiempo récord, igual que el\l"
+	.string "PUERTO. Últimamente va todo muy\l"
+	.string "rápido en esta región.$"
+
+
+OliivineLighthouse_Text_Marinero2Intro:
+	.string "¡Pero qué tenemos aquí!\n"
+	.string "Las visitas sin cita previa no\l"
+	.string "están permitidas, estoy aquí para\l"
+	.string "asegurarme de que gente como tú no\l"
+	.string "moleste a nuestro farero con\l"
+	.string "tonterías.$"
+
+
+OliivineLighthouse_Text_Marinero2Defeated:
+	.string "¡Guau! ¡Tu fuerza es increíble!$"
+
+
+OliivineLighthouse_Text_Marinero2PostBattle:
+	.string "Parece que tú y tu equipo sí\n"
+	.string "tenéis algo importante que decir,\l"
+	.string "seguro que a nuestro farero no le\l"
+	.string "importaría tener una charla\l"
+	.string "contigo.$"
+
+
+OliivineLighthouse_Text_NecioIntro:
+	.string "Vine hasta aquí para ver esos\n"
+	.string "POKÉMON tan raros que tiene el\l"
+	.string "dueño del FARO, ¡pero no encuentro\l"
+	.string "la forma de llegar al último piso!$"
+
+
+OliivineLighthouse_Text_NecioDefeated:
+	.string "¡Ay! ¡Mi POKÉMON!$"
+
+
+OliivineLighthouse_Text_NecioPostBattle:
+	.string "Creo que hay que tirarse por\n"
+	.string "alguno de esos agujeros para poder\l"
+	.string "subir después, pero me da miedo\l"
+	.string "intentarlo.$"
+
+
+OliivineLighthouse_Text_Marinero3Intro:
+	.string "Se supone que en este piso ya no\n"
+	.string "debería haber nadie ajeno al\l"
+	.string "personal del FARO.\l"
+	.string "¿A qué has venido?$"
+
+
+OliivineLighthouse_Text_Marinero3Defeated:
+	.string "¡Vaya! Pues lo tuyo era verdad.\n"
+	.string "Venías de visita.$"
+
+
+OliivineLighthouse_Text_Marinero3PostBattle:
+	.string "Las descargas eléctricas del\n"
+	.string "AMPHAROS que ilumina este FARO\l"
+	.string "superan por mucho a las de un\l"
+	.string "ZAPDOS, por eso su luz puede verse\l"
+	.string "desde tan lejos.$"

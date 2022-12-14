@@ -28,3 +28,10 @@ end
 
 BurnedTower6::
 end
+
+
+
+BurnedTower_EventScript_Chico::
+	trainerbattle_single TRAINER_HELENE, BurnedTower_Text_ChicoIntro, BurnedTower_Text_ChicoDefeated
+	msgbox BurnedTower_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end

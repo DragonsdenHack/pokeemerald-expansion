@@ -195,7 +195,7 @@
       "x": 24,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_CITY",
+      "dest_map": "MAP_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE",
       "dest_warp_id": 0
     },
     {
@@ -223,7 +223,7 @@
       "x": 10,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_CITY",
+      "dest_map": "MAP_ECRUTEAK_BURNED_TOWER",
       "dest_warp_id": 0
     },
     {

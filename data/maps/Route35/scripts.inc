@@ -74,3 +74,24 @@ end
 
 Route35_9::
 end
+
+
+
+Route35_EventScript_Calvo::
+	trainerbattle_single TRAINER_MAY_LILYCOVE_TREECKO, Route35_Text_CalvoIntro, Route35_Text_CalvoDefeated
+	msgbox Route35_Text_CalvoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route35_EventScript_Chica::
+	trainerbattle_single TRAINER_TISHA, Route35_Text_ChicaIntro, Route35_Text_ChicaDefeated
+	msgbox Route35_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route35_EventScript_Chico::
+	trainerbattle_single TRAINER_JOHN_AND_JAY_4, Route35_Text_ChicoIntro, Route35_Text_ChicoDefeated
+	msgbox Route35_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
