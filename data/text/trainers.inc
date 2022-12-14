@@ -12364,3 +12364,326 @@ AzaleaGym_Text_SabioPostBattle:
 	.string "A pesar de ser algo más joven que\n"
 	.string "yo, respeto mucho a CÉSAR. Este\l"
 	.string "pueblo no sería lo mismo sin él.$"
+
+
+IlexForest_Text_CazabichosIntro:
+	.string "Este bosque tiene vida propia.\n"
+	.string "¿No lo sientes?$"
+
+
+IlexForest_Text_CazabichosDefeated:
+	.string "¡No!\n"
+	.string "¡YANMEGA no pudo cortarlo!$"
+
+
+IlexForest_Text_CazabichosPostBattle:
+	.string "Me gustaría visitar el BOSQUE\n"
+	.string "VERDE.\l"
+	.string "¡Dicen que es incluso más grande\l"
+	.string "que el ENCINAR!$"
+
+
+IlexForest_Text_ChicoIntro:
+	.string "Hay tantos árboles aquí que apenas\n"
+	.string "se puede ver el cielo.$"
+
+
+IlexForest_Text_ChicoDefeated:
+	.string "¡Eh, espera!\n"
+	.string "¡No tengo más POKÉMON!$"
+
+
+IlexForest_Text_ChicoPostBattle:
+	.string "Con tantos árboles alrededor hay\n"
+	.string "que estar atento a lo que pueda\l"
+	.string "caer de ellos.\l"
+	.string "¡A más de uno le ha picado un\l"
+	.string "SPINARAK así!$"
+
+
+IlexForest_Text_ChicaIntro:
+	.string "¿Por qué no hay más que arañas por\n"
+	.string "aquí?\l"
+	.string "¡No me gustan las arañas!$"
+
+
+IlexForest_Text_ChicaDefeated:
+	.string "¡Y encima pierdo el combate!$"
+
+
+IlexForest_Text_ChicaPostBattle:
+	.string "Yo solo quería atrapar un bonito\n"
+	.string "LEDYBA para enseñárselo a mis\l"
+	.string "amigas de TRIGAL.\l"
+	.string "¡Pero solo me encuentro con\l"
+	.string "SPINARAK, qué asco!$"
+
+
+Route34_Text_GuardaIntro:
+	.string "Espero que no hayas tirado basura\n"
+	.string "al ENCINAR.\l"
+	.string "Nos tomamos muy en serio su\l"
+	.string "mantenimiento.$"
+
+
+Route34_Text_GuardaDefeated:
+	.string "¡Vale, solo quería combatir!$"
+
+
+Route34_Text_GuardaPostBattle:
+	.string "Yo y mis compañeros de PUEBLO\n"
+	.string "AZALEA solemos hacer guardia en el\l"
+	.string "ENCINAR, nos aseguramos de que\l"
+	.string "todo está en orden.$"
+
+
+Route34_Text_Guarda2Intro:
+	.string "Espero que no seas tú el listo al\n"
+	.string "que se le ocurren ideas como la de\l"
+	.string "tirar un mechero en el ENCINAR y\l"
+	.string "ver qué pasa.$"
+
+
+Route34_Text_Guarda2Defeated:
+	.string "¡Respeta al medio!$"
+
+
+Route34_Text_Guarda2PostBattle:
+	.string "JOHTO sigue manteniendo intacta su\n"
+	.string "fauna y flora original debido a\l"
+	.string "nuestro trabajo.$"
+
+
+Route34_Text_KaratekaIntro:
+	.string "¡Has descubierto mi escondite\n"
+	.string "secreto!\l"
+	.string "¡No tienes perdón!\l"
+	.string "¡Fwyaaaaaa!$"
+
+
+Route34_Text_KaratekaDefeated:
+	.string "¿Me han machacado?$"
+
+
+Route34_Text_KaratekaPostBattle:
+	.string "¿SUDOWOODO y URSARING no son TIPO\n"
+	.string "LUCHA?\l"
+	.string "¡Y qué más te da! Si quiero\l"
+	.string "meterlos en mi equipo, lo hago.\l"
+	.string "¡Incluso BRUNO usa otros POKÉMON\l"
+	.string "que no son TIPO LUCHA en su\l"
+	.string "equipo!$"
+
+
+Route34_Text_GuayIntro:
+	.string "Me gusta CIUDAD TRIGAL, hay gente\n"
+	.string "competente allí.\l"
+	.string "¿Y tú qué?$"
+
+
+Route34_Text_GuayDefeated:
+	.string "Pues sí que eres competente.$"
+
+
+Route34_Text_GuayPostBattle:
+	.string "Desde que construyeron la TORRE\n"
+	.string "RADIO, la ciudad no ha hecho más\l"
+	.string "que crecer.$"
+
+
+Route34_Text_RicoIntro:
+	.string "Mi padre es uno de los directivos\n"
+	.string "más importantes en la TORRE RADIO.\l"
+	.string "¿Quieres ver los POKÉMON que me ha\l"
+	.string "comprado?$"
+
+
+Route34_Text_RicoDefeated:
+	.string "¡Buaaahhh!$"
+
+
+Route34_Text_RicoPostBattle:
+	.string "¿Dónde has comprado a tus POKÉMON?\n"
+	.string "...\l"
+	.string "...\l"
+	.string "¿Los has entrenado tú mismo?\l"
+	.string "¿Y eso qué precio tiene?$"
+
+
+GoldenrodUnderground_Text_MatonIntro:
+	.string "¿Cómo?\n"
+	.string "¿No serás del TEAM ROCKET?\l"
+	.string "Mis colegas de FUCSIA me han\l"
+	.string "hablado de vuestra organización y\l"
+	.string "de cómo uno de ellos es realmente\l"
+	.string "el CAMPEÓN de KANTO.\l"
+	.string "¡Quiero ver cómo pelea un ROCKET!$"
+
+
+GoldenrodUnderground_Text_MatonDefeated:
+	.string "¡Tú eres el ROCKET que fue\n"
+	.string "CAMPEÓN!$"
+
+
+GoldenrodUnderground_Text_MatonPostBattle:
+	.string "Esta ciudad está llena de pijos\n"
+	.string "mimados.\l"
+	.string "Ahora que están las obras de\l"
+	.string "tren, les da miedo pasar por\l"
+	.string "aquí y mancharse un poco.\l"
+	.string "Espero que alguien como tú ponga\l"
+	.string "orden desde las altas esferas.$"
+
+
+GoldenrodUnderground_Text_NecioIntro:
+	.string "Te sorprendería la cantidad de\n"
+	.string "raros y fuertes POKÉMON que pueden\l"
+	.string "obtenerse en un lugar como este.\l"
+	.string "¡Por eso mismo suelo pasarme por\l"
+	.string "aquí!$"
+
+
+GoldenrodUnderground_Text_NecioDefeated:
+	.string "Parece que a ti no te hacen falta\n"
+	.string "POKÉMON fuertes...$"
+
+
+GoldenrodUnderground_Text_NecioPostBattle:
+	.string "Ese tipo siempre pone en\n"
+	.string "venta POKÉMON muy raros y\l"
+	.string "poderosos.\l"
+	.string "Tiene incluso no sé qué\l"
+	.string "PSEUDOLEGENDARIO de otra región.\l"
+	.string "¡Si tuviera dinero para comprarlo...!$"
+
+
+GoldenrodUnderground_Text_LadronIntro:
+	.string "Qué oportuno que por las obras\n"
+	.string "solo se pueda acceder al otro lado\l"
+	.string "de la ciudad pasando por aquí.\l"
+	.string "¡A cuántos incautos les habré\l"
+	.string "robado!\l"
+	.string "¡Uajaja, tú serás el siguiente!$"
+
+
+GoldenrodUnderground_Text_LadronDefeated:
+	.string "¡Esto no entraba en mis planes!$"
+
+
+GoldenrodUnderground_Text_LadronPostBattle:
+	.string "Eh, que era broma. No te lo tomes\n"
+	.string "a mal, solo me gusta pasear por\l"
+	.string "aquí.$"
+
+
+GoldenrodRadioTowerP1_Text_NecioIntro:
+	.string "¡El PRESIDENTE me ha contratado\n"
+	.string "para llevar a cabo un trabajo\l"
+	.string "especial!\l"
+	.string "¡Es alto secreto!$"
+
+
+GoldenrodRadioTowerP1_Text_NecioDefeated:
+	.string "¡Vaya!¡No te tomé muy en serio!$"
+
+
+GoldenrodRadioTowerP1_Text_NecioPostBattle:
+	.string "¡Chsht!\n"
+	.string "No se lo digas a nadie, pero ese\l"
+	.string "trabajo tiene que ver con las\l"
+	.string "ondas de radio que aquí se\l"
+	.string "generan.$"
+
+
+GoldenrodRadioTowerP2_Text_CaballeroIntro:
+	.string "Está apareciendo mucha gente nueva\n"
+	.string "últimamente por aquí.\l"
+	.string "Nuestro PRESIDENTE no va a dar\l"
+	.string "abasto para tantas reuniones.\l"
+	.string "¿No tramaréis algo?$"
+
+
+GoldenrodRadioTowerP2_Text_CaballeroDefeated:
+	.string "¿Y esos POKÉMON?$"
+
+
+GoldenrodRadioTowerP2_Text_CaballeroPostBattle:
+	.string "CIUDAD TRIGAL ya era grande, pero\n"
+	.string "ahora con la TORRE DE RADIO se ha\l"
+	.string "consolidado como el centro\l"
+	.string "financiero de JOHTO.$"
+
+
+GoldenrodRadioTowerP2_Text_RicoIntro:
+	.string "Pareces alguien importante.\n"
+	.string "¿Vas a reunirte con el PRESIDENTE?$"
+
+
+GoldenrodRadioTowerP2_Text_RicoDefeated:
+	.string "Vale, ya me ha quedado claro.$"
+
+
+GoldenrodRadioTowerP2_Text_RicoPostBattle:
+	.string "Ya sabía yo que eras alguien\n"
+	.string "importante, esos POKÉMON no los\l"
+	.string "tiene un cualquiera.$"
+
+
+GoldenrodRadioTowerP3_Text_BellaIntro:
+	.string "¿Vienes por mi sesión de fotos?\n"
+	.string "Lo siento, ¡no hay plaza!$"
+
+
+GoldenrodRadioTowerP3_Text_BellaDefeated:
+	.string "Oh, ¡qué descarado!$"
+
+
+GoldenrodRadioTowerP3_Text_BellaPostBattle:
+	.string "Esta ciudad me gusta más que\n"
+	.string "AZULONA, aunque allí había un\l"
+	.string "GIMNASIO muy guay. Espero que\l"
+	.string "mejoren el de TRIGAL con el\l"
+	.string "tiempo.$"
+
+
+GoldenrodCity_Text_ObreroIntro:
+	.string "Aquí no debería de poder pasar\n"
+	.string "nadie.\l"
+	.string "¡Aunque vayan de traje y sean\l"
+	.string "gente importante!$"
+
+
+GoldenrodCity_Text_ObreroDefeated:
+	.string "¡Lo sabía!$"
+
+
+GoldenrodCity_Text_ObreroPostBattle:
+	.string "Las apariencias lo son todo en\n"
+	.string "esta ciudad, si tuvieras el\l"
+	.string "aspecto de uno de esos ladrones de\l"
+	.string "los subterráneos jamás hubieras\l"
+	.string "tenido permiso para estar en las\l"
+	.string "vías de tren.$"
+
+
+Route53_Text_ObreroIntro:
+	.string "Dicen que en 2 años y medio, el\n"
+	.string "MAGNETOTREN ya funcionará con\l"
+	.string "total normalidad conectando TRIGAL\l"
+	.string "con AZAFRÁN.\l"
+	.string "La cuestión es, ¿dónde estaremos\l"
+	.string "nosotros entonces?$"
+
+
+Route53_Text_ObreroDefeated:
+	.string "¡Espero ser mejor ENTRENADOR de\n"
+	.string "aquí a 3 años!$"
+
+
+Route53_Text_ObreroPostBattle:
+	.string "Dicen que en 2 años y medio, el\n"
+	.string "MAGNETOTREN ya funcionará con\l"
+	.string "total normalidad conectando TRIGAL\l"
+	.string "con AZAFRÁN.\l"
+	.string "La cuestión es, ¿dónde estaremos\l"
+	.string "nosotros entonces?$"

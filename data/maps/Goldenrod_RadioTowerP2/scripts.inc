@@ -115,3 +115,17 @@ end
 Goldenrod_RadioTowerP2_Text_10:
 .string "NARDO es un DJ fabuloso.\n"
 .string "¡Su dulce voz me derrite!$"
+
+
+
+GoldenrodRadioTowerP2_EventScript_Caballero::
+	trainerbattle_single TRAINER_JONAH, GoldenrodRadioTowerP2_Text_CaballeroIntro, GoldenrodRadioTowerP2_Text_CaballeroDefeated
+	msgbox GoldenrodRadioTowerP2_Text_CaballeroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+GoldenrodRadioTowerP2_EventScript_Rico::
+	trainerbattle_single TRAINER_BRENDAN_LILYCOVE_TORCHIC, GoldenrodRadioTowerP2_Text_RicoIntro, GoldenrodRadioTowerP2_Text_RicoDefeated
+	msgbox GoldenrodRadioTowerP2_Text_RicoPostBattle, MSGBOX_AUTOCLOSE
+	end
