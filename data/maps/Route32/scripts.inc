@@ -118,3 +118,52 @@ end
 
 Route32_18::
 end
+
+
+
+Route32_EventScript_Chica::
+	trainerbattle_single TRAINER_TRENT_5, Route32_Text_ChicaIntro, Route32_Text_ChicaDefeated
+	msgbox Route32_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route32_EventScript_Chico::
+	trainerbattle_single TRAINER_TRENT_4, Route32_Text_ChicoIntro, Route32_Text_ChicoDefeated
+	msgbox Route32_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route32_EventScript_Pescador::
+	trainerbattle_single TRAINER_DEZ_AND_LUKE, Route32_Text_PescadorIntro, Route32_Text_PescadorDefeated
+	msgbox Route32_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route32_EventScript_Pescador2::
+	trainerbattle_single TRAINER_LEA_AND_JED, Route32_Text_Pescador2Intro, Route32_Text_Pescador2Defeated
+	msgbox Route32_Text_Pescador2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route32_EventScript_Pescador3::
+	trainerbattle_single TRAINER_KIRA_AND_DAN_1, Route32_Text_Pescador3Intro, Route32_Text_Pescador3Defeated
+	msgbox Route32_Text_Pescador3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route32_EventScript_Mecanico::
+	trainerbattle_single TRAINER_KIRA_AND_DAN_3, Route32_Text_MecanicoIntro, Route32_Text_MecanicoDefeated
+	msgbox Route32_Text_MecanicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route32_EventScript_Guay::
+	trainerbattle_single TRAINER_KIRA_AND_DAN_2, Route32_Text_GuayIntro, Route32_Text_GuayDefeated
+	msgbox Route32_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
+	end

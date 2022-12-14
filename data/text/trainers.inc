@@ -12001,3 +12001,366 @@ VioletGym_Text_Chico2PostBattle:
 	.string "incluso capaz de absorber la\l"
 	.string "electricidad.\l"
 	.string "¡El sueño de todo TIPO VOLADOR!$"
+
+
+Route32_Text_ChicaIntro:
+	.string "Este lugar es ideal para montar un\n"
+	.string "campamento.\l"
+	.string "¿No crees?$"
+
+
+Route32_Text_ChicaDefeated:
+	.string "Oh, mis pobres POKÉMON...$"
+
+
+Route32_Text_ChicaPostBattle:
+	.string "Estoy buscando un MAREEP salvaje,\n"
+	.string "me encantaría tener un AMPHAROS\l"
+	.string "igual que el que ilumina el FARO\l"
+	.string "de CIUDAD OLIVO.$"
+
+
+Route32_Text_ChicoIntro:
+	.string "Mis POKÉMON deberían de estar\n"
+	.string "listos para luchar.\l"
+	.string "¡En guardia!$"
+
+
+Route32_Text_ChicoDefeated:
+	.string "¿¡Cómo ha ocurrido!?$"
+
+
+Route32_Text_ChicoPostBattle:
+	.string "Pensé que con NIDOKING podría\n"
+	.string "derrotarte. Antes una ENTRENADORA\l"
+	.string "GUAY me preguntó dónde lo\l"
+	.string "conseguí.$"
+
+
+Route32_Text_PescadorIntro:
+	.string "¡Ajá!\n"
+	.string "¡Admira mi fantástica colección!$"
+
+
+Route32_Text_PescadorDefeated:
+	.string "¡Mi TENTACRUEL se enredó!$"
+
+
+Route32_Text_PescadorPostBattle:
+	.string "Creo que necesito un GYARADOS en\n"
+	.string "mi equipo, se lo he visto al\l"
+	.string "PESCADOR de al lado y es una mala\l"
+	.string "bestia.$"
+
+
+Route32_Text_Pescador2Intro:
+	.string "¡Mis fieros POKÉMON te harán pedir\n"
+	.string "clemencia!$"
+
+
+Route32_Text_Pescador2Defeated:
+	.string "¡Piedad!$"
+
+
+Route32_Text_Pescador2PostBattle:
+	.string "¿Un GYARADOS rojo?\n"
+	.string "Estás de broma, ¿no?$"
+
+
+Route32_Text_Pescador3Intro:
+	.string "El truco para una buena pesca está\n"
+	.string "en el cebo, ¡aunque si no estás en\l"
+	.string "el lugar adecuado no conseguirás\l"
+	.string "nada!$"
+
+
+Route32_Text_Pescador3Defeated:
+	.string "¡Aghhh!$"
+
+
+Route32_Text_Pescador3PostBattle:
+	.string "Un amigo de KANTO me regaló un\n"
+	.string "SHELLDER, ahora CLOYSTER. De lo\l"
+	.string "contrario, no sabría dónde\l"
+	.string "encontrarlos en JOHTO.$"
+
+
+Route32_Text_MecanicoIntro:
+	.string "¡Eh, tú!\n"
+	.string "¡Cuidado con esos cables!$"
+
+
+Route32_Text_MecanicoDefeated:
+	.string "¡Tranquilo, era solo una broma,\n"
+	.string "aquí no hay cables!$"
+
+
+Route32_Text_MecanicoPostBattle:
+	.string "Vine para arreglar un problema con\n"
+	.string "las luces del GIMNASIO de CIUDAD\l"
+	.string "MALVA, pero me gusta pasear por\l"
+	.string "este lugar. Me quedaré.$"
+
+
+Route32_Text_GuayIntro:
+	.string "He oído rumores de un misterioso\n"
+	.string "POKÉMON que duerme en lo más\l"
+	.string "profundo de la CUEVA UNIÓN.\l"
+	.string "¿Sabes algo?$"
+
+
+Route32_Text_GuayDefeated:
+	.string "Esos POKÉMON, ¿de dónde han\n"
+	.string "salido?$"
+
+
+Route32_Text_GuayPostBattle:
+	.string "Los ENTRENADORES GUAY vamos en\n"
+	.string "busca de los mejores POKÉMON para\l"
+	.string "distinguirnos del resto de\l"
+	.string "ENTRENADORES.$"
+
+
+UnionCave_Text_MontaneroIntro:
+	.string "Ejem...\n"
+	.string "¿No sabrás por casualidad dónde\l"
+	.string "encontrar un RHYHORN?\l"
+	.string "Me gustaría tener un RHYDON.$"
+
+
+UnionCave_Text_MontaneroDefeated:
+	.string "¡Qué potencia!$"
+
+
+UnionCave_Text_MontaneroPostBattle:
+	.string "¡¿Cómo?!\n"
+	.string "¡¿RHYDON aún puede evolucionar en\l"
+	.string "otro POKÉMON aún más poderoso?!$"
+
+
+UnionCave_Text_NecioIntro:
+	.string "He venido hasta aquí para estudiar\n"
+	.string "a los POKÉMON.\l"
+	.string "¡Te demostraré todo lo que he\l"
+	.string "aprendido!$"
+
+
+UnionCave_Text_NecioDefeated:
+	.string "¡Has demostrado lo que sabes!$"
+
+
+UnionCave_Text_NecioPostBattle:
+	.string "Debería reunir y publicar mis\n"
+	.string "hallazgos.\l"
+	.string "Podría hacerme tan\l"
+	.string "famoso como el PROF. ELM.$"
+
+
+UnionCave_Text_KaratekaIntro:
+	.string "Por eso me gusta venir a entrenar\n"
+	.string "a cuevas como esta.\l"
+	.string "Nunca sabes lo que puedes\l"
+	.string "encontrarte.\l"
+	.string "¡En guardia!\l"
+	.string "¡Fwhaaaa!$"
+
+
+UnionCave_Text_KaratekaDefeated:
+	.string "¡No esperaba esto!$"
+
+
+UnionCave_Text_KaratekaPostBattle:
+	.string "Así que eres uno de los mejores\n"
+	.string "de todo KANTO...\l"
+	.string "Impresionante.$"
+
+
+UnionCave_Text_Necio2Intro:
+	.string "¡Jah!\n"
+	.string "¡Mi colección es incomparable!\l"
+	.string "¡Observa y llora!$"
+
+
+UnionCave_Text_Necio2Defeated:
+	.string "¡Menuda colección de fuertes\n"
+	.string "POKÉMON!$"
+
+
+UnionCave_Text_Necio2PostBattle:
+	.string "Creo que quitaré a DUNSPARCE de mi\n"
+	.string "equipo. Solo tengo para presumir,\l"
+	.string "porque es un POKÉMON bastante\l"
+	.string "raro, pero es un debilucho.$"
+
+
+UnionCaveS1_Text_MontaneroIntro:
+	.string "¡Uf! Hacía mucho tiempo que no\n"
+	.string "veía a nadie. Acércate. ¡Luchemos!$"
+
+
+UnionCaveS1_Text_MontaneroDefeated:
+	.string "¡Aaarg...!$"
+
+
+UnionCaveS1_Text_MontaneroPostBattle:
+	.string "Llevo perdido mucho tiempo... No\n"
+	.string "es que me importe, ¡pero tengo un\l"
+	.string "hambre que da calambre!$"
+
+
+UnionCaveS2_Text_GuayIntro:
+	.string "Iré donde haga falta para atrapar\n"
+	.string "los Pokémon que me gustan. Eso es\l"
+	.string "lo que hace un gran entrenador.$"
+
+
+UnionCaveS2_Text_GuayDefeated:
+	.string "¡Preferiría mimar a mis Pokémon\n"
+	.string "en lugar de hacerlos combatir!$"
+
+
+UnionCaveS2_Text_GuayPostBattle:
+	.string "Hay un POKÉMON que viene cada\n"
+	.string "semana hasta la orilla. Me\l"
+	.string "gustaría tanto verlo...$"
+
+
+UnionCaveS2_Text_NadadorIntro:
+	.string "¿Tienes algún problema?\n"
+	.string "¿Acaso hay alguna ley que me\l"
+	.string "impida bañarme aquí?$"
+
+
+UnionCaveS2_Text_NadadorDefeated:
+	.string "¡Solo era broma, tranquilo!$"
+
+
+UnionCaveS2_Text_NadadorPostBattle:
+	.string "Esos ENTRENADORES GUAY siempre te\n"
+	.string "miran con aires de superioridad,\l"
+	.string "solo están aquí por si encuentran\l"
+	.string "algún POKÉMON raro. Ellos fueron\l"
+	.string "los que se rieron de mi por\l"
+	.string "bañarme en este lugar.\l"
+	.string "¡No saben lo bien que se siente\l"
+	.string "nadar bajo un paraíso así!$"
+
+
+
+UnionCaveS2_Text_NecioIntro:
+	.string "¡Vine hasta aquí solo para ver si\n"
+	.string "podía encontrar POKÉMON más raros!$"
+
+
+UnionCaveS2_Text_NecioDefeated:
+	.string "¡Lo único que he encontrado es la\n"
+	.string "derrota!$"
+
+
+UnionCaveS2_Text_NecioPostBattle:
+	.string "Dicen que en esta cueva duerme un\n"
+	.string "POKÉMON de gran poder y rareza.\l"
+	.string "¡Tengo que encontrarlo antes de\l"
+	.string "que lo hagan esos entrenadores!$"
+
+
+Route33_Text_GuayIntro:
+	.string "¡Ah!\n"
+	.string "¡Un nuevo rival!\l"
+	.string "¿Fue dura la CUEVA UNIÓN!\l"
+	.string "¡Pues qué pena, tendrás que hacer\l"
+	.string "un último esfuerzo!$"
+
+
+Route33_Text_GuayDefeated:
+	.string "Y aún así he perdido...$"
+
+
+Route33_Text_GuayPostBattle:
+	.string "No te lo tomes a mal, no combato a\n"
+	.string "traición con la gente, solo busco\l"
+	.string "combatir con todo el mundo. La\l"
+	.string "mayoría se escaquea en cuanto\l"
+	.string "puede y evita el contacto visual\l"
+	.string "para no combatir. Es por eso que\l"
+	.string "me he puesto aquí,\l"
+	.string "¡para que nadie pueda escurrir el\l"
+	.string "bulto!$"
+
+
+Route33_Text_SabioIntro:
+	.string "Me gusta salir a andar, cada\n"
+	.string "mañana vengo hasta aquí desde\l"
+	.string "PUEBLO AZALEA.\l"
+	.string "¡Lo hago hasta 3 veces!$"
+
+
+Route33_Text_SabioDefeated:
+	.string "Ah...\n"
+	.string "La juventud...$"
+
+
+Route33_Text_SabioPostBattle:
+	.string "Es raro ver a jóvenes como tú en\n"
+	.string "los días que corren.\l"
+	.string "No pierdas lo que te caracteriza,\l"
+	.string "chico.$"
+
+
+AzaleaGym_Text_CazabichosIntro:
+	.string "Todo lo que sé sobre el TIPO BICHO\n"
+	.string "se lo debo a CÉSAR.\l"
+	.string "¡No te dejaré llegar hasta él tan\l"
+	.string "fácilmente!$"
+
+
+AzaleaGym_Text_CazabichosDefeated:
+	.string "¡Me han exterminado!$"
+
+
+AzaleaGym_Text_CazabichosPostBattle:
+	.string "El ambiente que se respira en\n"
+	.string "PUEBLO AZALEA y alrededores es el\l"
+	.string "idóneo para todo amante del TIPO\l"
+	.string "BICHO.$"
+
+
+AzaleaGym_Text_Cazabichos2Intro:
+	.string "HERACROSS es el mejor TIPO BICHO\n"
+	.string "que hay.\l"
+	.string "¿Sabes por qué es mejor que\l"
+	.string "PINSIR?\l"
+	.string "¡Porque HERACROSS es de JOHTO!$"
+
+
+AzaleaGym_Text_Cazabichos2Defeated:
+	.string "¡No!\n"
+	.string "¡Tenía a HERACROSS conmigo!$"
+
+
+AzaleaGym_Text_Cazabichos2PostBattle:
+	.string "Estaba bromeando. HERACROSS es muy\n"
+	.string "bueno, pero nuestro LÍDER tiene\l"
+	.string "algunos TIPO BICHO aún más\l"
+	.string "potentes. Una vez le vi entrenar\l"
+	.string "con una extraña forma de PINSIR,\l"
+	.string "la potencia y velocidad de sus\l"
+	.string "ataques daban mucho miedo y\l"
+	.string "respeto, la verdad...$"
+
+
+AzaleaGym_Text_SabioIntro:
+	.string "Debes de ser alguien muy especial\n"
+	.string "para haber llamado la atención de\l"
+	.string "CÉSAR.\l"
+	.string "¡Enséñame a tus compañeros!$"
+
+
+AzaleaGym_Text_SabioDefeated:
+	.string "Gran combate joven, gran combate.$"
+
+
+AzaleaGym_Text_SabioPostBattle:
+	.string "A pesar de ser algo más joven que\n"
+	.string "yo, respeto mucho a CÉSAR. Este\l"
+	.string "pueblo no sería lo mismo sin él.$"
