@@ -15996,7 +15996,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Lawrence[] = {
     {
     .iv = 0,
     .lvl = 78,
-    .species = SPECIES_CLOYSTER,
+    .species = SPECIES_BLASTOISE,
     }
 };
 
@@ -16149,7 +16149,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_GruntMagmaHideout1[] = {
     {
     .iv = 0,
     .lvl = 77,
-    .species = SPECIES_GOLDUCK,
+    .species = SPECIES_POLITOED,
     }
 };
 

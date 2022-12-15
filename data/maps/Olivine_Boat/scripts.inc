@@ -117,3 +117,17 @@ OlivineBoat_Text_8:
 
 OlivineBoat9::
 end
+
+
+
+OlivineBoat_EventScript_Caballero::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_6, OlivineBoat_Text_CaballeroIntro, OlivineBoat_Text_CaballeroDefeated
+	msgbox OlivineBoat_Text_CaballeroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+OlivineBoat_EventScript_Marinero::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_7, OlivineBoat_Text_MarineroIntro, OlivineBoat_Text_MarineroDefeated
+	msgbox OlivineBoat_Text_MarineroPostBattle, MSGBOX_AUTOCLOSE
+	end

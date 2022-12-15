@@ -13182,3 +13182,581 @@ OliivineLighthouse_Text_Marinero3PostBattle:
 	.string "superan por mucho a las de un\l"
 	.string "ZAPDOS, por eso su luz puede verse\l"
 	.string "desde tan lejos.$"
+
+
+Route51_Text_PescadorIntro:
+	.string "Con todas estas rocas es imposible\n"
+	.string "meter barcos aquí, este lugar está\l"
+	.string "condenado al olvido, aunque para\l"
+	.string "pescar...$"
+
+
+Route51_Text_PescadorDefeated:
+	.string "Esta ruta es muy traicionera, el\n"
+	.string "NUEVO ORDEN de JOHTO no tardará en\l"
+	.string "cerrarla por completo.$"
+
+
+
+Route51_Text_PescadorPostBattle:
+    .string "¡Tú también eres peligroso!$"
+
+
+Route51_Text_Pescador2Intro:
+    .string "La mayoría de pescadores no lo\n"
+	.string "saben, pero es aquí donde se\l"
+	.string "pescan las mejores piezas, la\l"
+	.string "mayoría no está dispuesta a llegar\l"
+	.string "hasta aquí.\l"
+	.string "¡Mejor para mí!\l"
+	.string "¡Me quedaré con todos!$"
+
+
+Route51_Text_Pescador2Defeated:
+	.string "Estas aguas curten a los POKÉMON\n"
+	.string "de una forma especial, ¿no me\l"
+	.string "crees?\l"
+	.string "¡Mira!$"
+
+
+Route51_Text_Pescador2PostBattle:
+	.string "¿Dónde has atrapado todos esos\n"
+	.string "POKÉMON?$"
+
+
+Route42_Text_NecioIntro:
+	.string "El otro día vi a un gran felino\n"
+	.string "pasar por aquí a la velocidad del\l"
+	.string "viento.\l"
+	.string "¡Me encantaría tener ese POKÉMON!$"
+
+
+Route42_Text_NecioDefeated:
+	.string "¿Y esos POKÉMON?$"
+
+
+Route42_Text_NecioPostBattle:
+	.string "De lo poco que pude ver a ese\n"
+	.string "extraño POKÉMON, se le veía con\l"
+	.string "una fuerza y vigor únicas, como si\l"
+	.string "estuviera soltando toda su energía\l"
+	.string "después de haber estado prisionero\l"
+	.string "por mucho tiempo.$"
+
+
+Route42_Text_PescadorIntro:
+	.string "¡Déjame que te enseñe los POKÉMON\n"
+	.string "que he atrapado con mi caña!$"
+
+
+Route42_Text_PescadorDefeated:
+	.string "¿Qué? Eso no está bien.$"
+
+
+Route42_Text_PescadorPostBattle:
+	.string "Quiero convertirme en un CAMPEÓN\n"
+	.string "con los POKÉMON que he atrapado.\l"
+	.string "¡Eso es lo mejor de la pesca! ¿Tú\l"
+	.string "también estás intentando ser el\l"
+	.string "no va más entrenando POKÉMON?\l"
+	.string "¡Entonces somos camaradas!$"
+
+
+Route42_Text_MontaneroIntro:
+	.string "¡Ah! ¡Qué bien se está fuera! ¡Me\n"
+	.string "siento tan libre!$"
+
+
+Route42_Text_MontaneroDefeated:
+	.string "¡Gahahah!$"
+
+
+Route42_Text_MontaneroPostBattle:
+	.string "¡Qué importa perder ante la\n"
+	.string "inmensidad de este cielo!$"
+
+
+MtMortar2_Text_NecioIntro:
+	.string "¡Mis FÓSILES POKÉMON te harán\n"
+	.string "llorar!$"
+
+
+MtMortar2_Text_NecioDefeated:
+	.string "¡Se supone que debía ganar!$"
+
+
+MtMortar2_Text_NecioPostBattle:
+	.string "Tengo a mis FÓSILES desde hace\n"
+	.string "años, cuando el MT.MOON aún estaba\l"
+	.string "repleto de ellos, sin críos ni\l"
+	.string "ladrones que echaran todo a\l"
+	.string "perder.$"
+
+
+MtMortar2_Text_KaratekaIntro:
+	.string "Vine hasta aquí porque me dijeron\n"
+	.string "que el gran ANÍBAL se entrenaba en\l"
+	.string "lo más profundo del MT.MORTERO,\l"
+	.string "pero no lo encuentro.\l"
+	.string "Entretanto, ¡tú me servirás de\l"
+	.string "entrenamiento!$"
+
+
+MtMortar2_Text_KaratekaDefeated:
+	.string "¡Aaarg! ¡He perdido!$"
+
+
+MtMortar2_Text_KaratekaPostBattle:
+	.string "ANÍBAL debe de estar aún más\n"
+	.string "adentro, me gustaría poder ver sus\l"
+	.string "LEGENDARIOS POKÉMON LUCHA.$"
+
+
+MtMortar3_Text_NecioIntro:
+	.string "¡Admira a mis raros y fuertes\n"
+	.string "POKÉMON!$"
+
+
+MtMortar3_Text_NecioDefeated:
+	.string "¿De dónde han salido tus POKÉMON?$"
+
+
+MtMortar3_Text_NecioPostBattle:
+	.string "Nadie tiene un MAGMORTAR por los\n"
+	.string "alrededores, con eso me basta para\l"
+	.string "mantener intacta mi fama como\l"
+	.string "POKEMANÍACO.$"
+
+
+OlivineBoat_Text_CaballeroIntro:
+	.string "Este barco no está mal, pero el\n"
+	.string "SS.ANNE era más lujoso, ¿no crees?$"
+
+
+OlivineBoat_Text_CaballeroDefeated:
+	.string "¡Qué buenos amigos tienes!$"
+
+
+OlivineBoat_Text_CaballeroPostBattle:
+	.string "KANTO y JOHTO deben unirse, las\n"
+	.string "dos regiones saldrían ganando.$"
+
+
+OlivineBoat_Text_MarineroIntro:
+	.string "No hay nada mejor que un combate\n"
+	.string "en mi tiempo libre.$"
+
+
+OlivineBoat_Text_MarineroDefeated:
+	.string "¡Gane o pierda, se acabó el\n"
+	.string "descanso!$"
+
+
+OlivineBoat_Text_MarineroPostBattle:
+	.string "Me encanta que esto se llene de\n"
+	.string "invitados, ¡así puedo combatir con\l"
+	.string "ellos!$"
+
+
+OlivineBoat2_Text_RicoIntro:
+	.string "He pagado una fortuna para tener a\n"
+	.string "un PSEUDOLEGENDARIO en mi equipo.\l"
+	.string "¿Quieres verlo?$"
+
+
+OlivineBoat2_Text_RicoDefeated:
+	.string "¡TYRANITAR!\n"
+	.string "¡No!$"
+
+
+OlivineBoat2_Text_RicoPostBattle:
+	.string "Supongo que es mejor tener un\n"
+	.string "POKÉMON común bien entrenado que\l"
+	.string "un PSEUDOLEGENDARIO mal\l"
+	.string "entrenado...\l"
+	.string "¡Aunque tener un PSEUDOLEGENDARIO\l"
+	.string "es un símbolo de jerarquía y\l"
+	.string "estatus!\l"
+	.string "¡Jojojo!$"
+
+
+OlivineBoat2_Text_MarineroIntro:
+	.string "¡Aquí es donde trabajamos!$"
+
+
+OlivineBoat2_Text_MarineroDefeated:
+	.string "He perdido en mi propio campo...$"
+
+
+OlivineBoat2_Text_MarineroPostBattle:
+	.string "Vamos a llevar muchos pasajeros\n"
+	.string "por la ruta CARMÍN-OLIVO a partir\l"
+	.string "de ahora.$"
+
+
+OlivineBoat2_Text_GuayIntro:
+	.string "¿Te crees más importante que yo\n"
+	.string "por ir de traje?\l"
+	.string "Deberías saber que nadie supera a\l"
+	.string "un ENTRENADOR GUAY en jerarquía.\l"
+	.string "¡Ahora lo verás!$"
+
+
+OlivineBoat2_Text_GuayDefeated:
+	.string "¿Qué?\n"
+	.string "¿Me han derrotado?$"
+
+
+OlivineBoat2_Text_GuayPostBattle:
+	.string "¿¡Qué!?\n"
+	.string "¿Eres el mejor hombre de GIOVANNI?\l"
+	.string "¡Creí que el TEAM ROCKET se había\l"
+	.string "disuelto!$"
+
+
+Route40_Text_NadadoraIntro:
+	.string "¿Vas a CIUDAD ORQUÍDEA? ¿Te\n"
+	.string "apetece luchar antes?$"
+
+
+Route40_Text_NadadoraDefeated:
+	.string "¡He perdido!$"
+
+
+Route40_Text_NadadoraPostBattle:
+	.string "Nado mejor que tú. ¡Sin\n"
+	.string "duda!$"
+
+
+Route40_Text_ChicoIntro:
+	.string "¡Este claro de tierra es ideal\n"
+	.string "para entrenar a mis AVES\l"
+	.string "POKÉMON!\l"
+	.string "¿Quieres verlas?$"
+
+
+Route40_Text_ChicoDefeated:
+	.string "¡Todo lo que sube baja!$"
+
+
+Route40_Text_ChicoPostBattle:
+	.string "El agua le come cada vez más\n"
+	.string "terreno a esta porción de tierra.\l"
+	.string "Debo aprovechar, porque me da que\l"
+	.string "pronto será engullida por el\l"
+	.string "mar.$"
+
+
+Route40_Text_Nadadora2Intro:
+	.string "Yo no necesito flotador. ¡Voy\n"
+	.string "agarrada a un POKÉMON de mar!$"
+
+
+Route40_Text_Nadadora2Defeated:
+	.string "¡Ooh, estoy mareada!$"
+
+
+Route40_Text_Nadadora2PostBattle:
+	.string "Mientras flote así, las olas me\n"
+	.string "llevarán.$"
+
+
+Route40_Text_Nadadora3Intro:
+	.string "Estoy descansando de tanto nadar,\n"
+	.string "pero aún me quedan energías para\l"
+	.string "acabar con un mequetrefe como tú.$"
+
+
+Route40_Text_Nadadora3Defeated:
+	.string "¡Vale! ¡Me rindo!$"
+
+
+Route40_Text_Nadadora3PostBattle:
+	.string "Pensé que eras otro pijo más de\n"
+	.string "CIUDAD TRIGAL, ya he visto que tus\l"
+	.string "POKÉMON sí que están bien\l"
+	.string "entrenados.$"
+
+
+Route41_Text_NadadoraIntro:
+	.string "Por la noche los STARYU se reunen\n"
+	.string "cerca de la superficie en la\l"
+	.string "playa de CIUDAD OLIVO.$"
+
+
+Route41_Text_NadadoraDefeated:
+	.string "¡Caramba!$"
+
+
+Route41_Text_NadadoraPostBattle:
+	.string "Los grupos de STARYU se iluminan\n"
+	.string "al mismo tiempo. ¡Es tan bonito\l"
+	.string "que casi da miedo!$"
+
+
+Route41_Text_Nadadora2Intro:
+	.string "Voy hacia las ISLAS REMOLINO. Voy\n"
+	.string "a explorarlas con unos amigos.$"
+
+
+Route41_Text_Nadadora2Defeated:
+	.string "¿Así es como lo haces?$"
+
+
+Route41_Text_Nadadora2PostBattle:
+	.string "Dicen que hay un gran POKÉMON\n"
+	.string "bajo las ISLAS REMOLINO. Me\l"
+	.string "pregunto cómo será...$"
+
+
+Route41_Text_Nadadora3Intro:
+	.string "Estás tan elegante sobre tu\n"
+	.string "POKÉMON.$"
+
+
+Route41_Text_Nadadora3Defeated:
+	.string "He perdido...$"
+
+
+Route41_Text_Nadadora3PostBattle:
+	.string "Tampoco te creas la gran cosa.\n"
+	.string "¡Yo también podría montar sobre mi\l"
+	.string "LAPRAS!$"
+
+
+Route41_Text_Nadadora4Intro:
+	.string "No me puedo creer el buen día que\n"
+	.string "hace.$"
+
+
+Route41_Text_Nadadora4Defeated:
+	.string "¡Ooh!$"
+
+
+Route41_Text_Nadadora4PostBattle:
+	.string "CIUDAD ORQUÍDEA aún está bastante\n"
+	.string "lejos de aquí.$"
+
+
+Route41_Text_NadadorIntro:
+	.string "Eres joven y estás en forma, no\n"
+	.string "vayas sobre tu POKÉMON. ¡Ve\l"
+	.string "nadando!$"
+
+
+Route41_Text_NadadorDefeated:
+	.string "Oh... he perdido.$"
+
+
+Route41_Text_NadadorPostBattle:
+	.string "La natación fortalece el cuerpo.\n"
+	.string "Es sana.$"
+
+
+Route41_Text_Nadador2Intro:
+	.string "Estoy cansado. ¿Si gano, me\n"
+	.string "prestas tu POKÉMON?$"
+
+
+Route41_Text_Nadador2Defeated:
+	.string "Uf, uf...$"
+
+
+Route41_Text_Nadador2PostBattle:
+	.string "Obtuve a mi BLASTOISE hace tiempo,\n"
+	.string "cuando aún no era un POKÉMON tan\l"
+	.string "raro. Ahora todos los nadadores\l"
+	.string "darían un brazo por uno.$"
+
+
+Route41_Text_Nadador3Intro:
+	.string "Aquí hay mucho oleaje. Cuesta\n"
+	.string "nadar.$"
+
+
+Route41_Text_Nadador3Defeated:
+	.string "¡Ooh, tienes una gran resistencia!$"
+
+
+Route41_Text_Nadador3PostBattle:
+	.string "La corriente me impide llegar a\n"
+	.string "las islas.$"
+
+
+Route41_Text_Nadador4Intro:
+	.string "¿Ves esas islas aisladas por\n"
+	.string "torbellinos? ¡Tiene que haber un\l"
+	.string "secreto!$"
+
+
+Route41_Text_Nadador4Defeated:
+	.string "¿Cuál es tu secreto?$"
+
+
+Route41_Text_Nadador4PostBattle:
+	.string "Era de noche y llovía... Vi\n"
+	.string "volando un POKÉMON gigante desde\l"
+	.string "las islas. Dejaba caer las plumas\l"
+	.string "de sus alas plateadas.$"
+
+
+CianwoodGym_Text_KaratekaIntro:
+	.string "Las palabras no sirven. ¡Deja que\n"
+	.string "hablen tus puños!$"
+
+
+CianwoodGym_Text_KaratekaDefeated:
+	.string "...$"
+
+
+CianwoodGym_Text_KaratekaPostBattle:
+	.string "Supongo que me falta\n"
+	.string "entrenamiento, esa debe de ser la\l"
+	.string "respuesta.$"
+
+
+CianwoodGym_Text_Karateka2Intro:
+	.string "A mis POKÉMON y a mí nos une una\n"
+	.string "gran amistad. ¡Estamos unidos por\l"
+	.string "un vínculo inquebrantable!$"
+
+
+CianwoodGym_Text_Karateka2Defeated:
+	.string "¡No puede ser!$"
+
+
+CianwoodGym_Text_Karateka2PostBattle:
+	.string "¡Mis Pokémon han perdido! ¡Has\n"
+	.string "herido mi orgullo!$"
+
+
+CianwoodGym_Text_Karateka3Intro:
+	.string "Eres muy valiente o muy estúpido\n"
+	.string "para retar a ANÍBAL.\l"
+	.string "A todo el que lo ha intentado no\l"
+	.string "le ha caído más que una lluvia\l"
+	.string "incesante de golpes, ¡incluso los\l"
+	.string "que usan POKÉMON PSÍQUICOS!$"
+
+
+CianwoodGym_Text_Karateka3Defeated:
+	.string "¡Me has aplastado!$"
+
+
+CianwoodGym_Text_Karateka3PostBattle:
+	.string "Creo que dentro de poco, ANÍBAL\n"
+	.string "se tomará con más calma\l"
+	.string "las artes marciales. Dice que ya\l"
+	.string "no está a la altura de sus mejores\l"
+	.string "POKÉMON.$"
+
+
+CianwoodGym_Text_Karateka4Intro:
+	.string "ANÍBAL es tan exigente que trata\n"
+	.string "de ponerse él mismo al nivel de\l"
+	.string "sus POKÉMON.\l"
+	.string "¿Podrías hacer tú lo mismo?$"
+
+
+CianwoodGym_Text_Karateka4Defeated:
+	.string "¡Qué potencia!$"
+
+
+CianwoodGym_Text_Karateka4PostBattle:
+	.string "A ANÍBAL le cuesta cada vez más\n"
+	.string "seguir el ritmo de entrenamiento\l"
+	.string "de sus POKÉMON, supongo que es ley\l"
+	.string "de vida. Aún así, tiene mucho\l"
+	.string "mérito seguir en esa forma pasados\l"
+	.string "los 50.$"
+
+
+Route52_Text_NadadoraIntro:
+	.string "La sensación de explorar algo que\n"
+	.string "nunca ha sido investigado...\l"
+	.string "La expectativa ante un\l"
+	.string "posible descubrimiento...\l"
+	.string "Creo que estoy aquí por eso.$"
+
+
+Route52_Text_NadadoraDefeated:
+	.string "Me encanta explorar lugares así.\n"
+	.string "¿Y tú?\l"
+	.string "¿Por qué estás aquí?$"
+
+
+Route52_Text_NadadoraPostBattle:
+	.string "¡Mis lindos POKÉMON!$"
+
+
+Route52_Text_Nadadora2Intro:
+	.string "¿Quién construiría algo así aquí?\n"
+	.string "¿Serán del GOBIERNO DE LANCE?$"
+
+
+Route52_Text_Nadadora2Defeated:
+	.string "¿Has visto ese gran almacén en\n"
+	.string "medio de la nada?\l"
+	.string "Da muy mal rollo.$"
+
+
+Route52_Text_Nadadora2PostBattle:
+	.string "¡Oh, descarado!$"
+
+
+Route52_Text_NadadorIntro:
+	.string "Perdóname, pensé que eras otro de\n"
+	.string "esos ejecutivos de TORRE RADIO.\l"
+	.string "Veo que sabes entrenar bien a los\l"
+	.string "tuyos.$"
+
+
+Route52_Text_NadadorDefeated:
+	.string "Estas aguas se mantienen tan puras\n"
+	.string "y cristalinas precisamente porque\l"
+	.string "gente como tú desconoce de su\l"
+	.string "existencia.$"
+
+
+Route52_Text_NadadorPostBattle:
+	.string "¡No contaba con esto!$"
+
+
+Route52_Text_Nadador2Intro:
+	.string "Muchos nadadores empiezan a\n"
+	.string "meterse confiados mar adentro, y\l"
+	.string "acaban tan cansados que no les\l"
+	.string "quedan fuerzas para volver. Para\l"
+	.string "evitar esos sustos creo que\l"
+	.string "cerrarán esta ruta que conecta con\l"
+	.string "TRIGAL, que de todos modos no es\l"
+	.string "navegable...$"
+
+
+Route52_Text_Nadador2Defeated:
+	.string "¡Eh, tú, no tan rápido!\n"
+	.string "Sabes que si vienes hasta aquí,\l"
+	.string "después tienes que volver, ¿no?$"
+
+
+Route52_Text_Nadador2PostBattle:
+	.string "¡Tú sí que no te cansas!$"
+
+
+Route52_Text_Nadador3Intro:
+	.string "¿Sabes lo que has hecho?\n"
+	.string "¡Me has dejado agotado y sin\l"
+	.string "POKÉMON!\l"
+	.string "¿Ahora cómo vuelvo?$"
+
+
+Route52_Text_Nadador3Defeated:
+	.string "¿Tienes idea de lo que significa\n"
+	.string "volver a nado a OLIVO desde aquí?\l"
+	.string "¡Lo sabrás cuando derrote a todos\l"
+	.string "tus POKÉMON y no te quede más\l"
+	.string "remedio que bajarte y nadar!$"
+
+
+Route52_Text_Nadador3PostBattle:
+	.string "¡Ya no puedo volver usando SURF!$"
