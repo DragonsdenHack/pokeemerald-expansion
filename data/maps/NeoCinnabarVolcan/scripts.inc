@@ -1,2 +1,16 @@
 NeoCinnabarVolcan_MapScripts::
 	.byte 0
+
+
+
+NeoCinnabarVolcan_EventScript_Ladron::
+	trainerbattle_single TRAINER_TRAINER_27, NeoCinnabarVolcan_Text_LadronIntro, NeoCinnabarVolcan_Text_LadronDefeated
+	msgbox NeoCinnabarVolcan_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NeoCinnabarVolcan_EventScript_Ladron2::
+	trainerbattle_single TRAINER_TRAINER_28, NeoCinnabarVolcan_Text_Ladron2Intro, NeoCinnabarVolcan_Text_Ladron2Defeated
+	msgbox NeoCinnabarVolcan_Text_Ladron2PostBattle, MSGBOX_AUTOCLOSE
+	end

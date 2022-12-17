@@ -38,3 +38,17 @@ end
 ViasTren3_Text_8:
 .string "Desde aquí puede verse una gran\n"
 .string "montaña al suroeste, ¿habrá algo ahí?$"
+
+
+
+ViasTren3_EventScript_Obrero::
+	trainerbattle_single TRAINER_GABRIELLE_3, ViasTren3_Text_ObreroIntro, ViasTren3_Text_ObreroDefeated
+	msgbox ViasTren3_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+ViasTren3_EventScript_Obrero2::
+	trainerbattle_single TRAINER_GABRIELLE_4, ViasTren3_Text_Obrero2Intro, ViasTren3_Text_Obrero2Defeated
+	msgbox ViasTren3_Text_Obrero2PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -74,3 +74,24 @@ CultoS4_Text_8:
 .string "sueños por recuerdos y acaba con la\l"
 .string "sustitución de recuerdos por otros\l"
 .string "recuerdos.$"
+
+
+
+CultoS4_EventScript_Cultista::
+	trainerbattle_single TRAINER_PABLO_5, CultoS4_Text_CultistaIntro, CultoS4_Text_CultistaDefeated
+	msgbox CultoS4_Text_CultistaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CultoS4_EventScript_Cultista2::
+	trainerbattle_single TRAINER_KOJI_2, CultoS4_Text_Cultista2Intro, CultoS4_Text_Cultista2Defeated
+	msgbox CultoS4_Text_Cultista2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CultoS4_EventScript_Cultista3::
+	trainerbattle_single TRAINER_KOJI_3, CultoS4_Text_Cultista3Intro, CultoS4_Text_Cultista3Defeated
+	msgbox CultoS4_Text_Cultista3PostBattle, MSGBOX_AUTOCLOSE
+	end

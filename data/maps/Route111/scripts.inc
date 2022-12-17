@@ -727,3 +727,59 @@ Route111_Text_TrainerHillSign:
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
 
+
+
+Route111_EventScript_Montanero::
+	trainerbattle_single TRAINER_THALIA_5, Route111_Text_MontaneroIntro, Route111_Text_MontaneroDefeated
+	msgbox Route111_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chico::
+	trainerbattle_single TRAINER_MARIELA, Route111_Text_ChicoIntro, Route111_Text_ChicoDefeated
+	msgbox Route111_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chica::
+	trainerbattle_single TRAINER_ALVARO, Route111_Text_ChicaIntro, Route111_Text_ChicaDefeated
+	msgbox Route111_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Montanero2::
+	trainerbattle_single TRAINER_EVERETT, Route111_Text_Montanero2Intro, Route111_Text_Montanero2Defeated
+	msgbox Route111_Text_Montanero2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chica2::
+	trainerbattle_single TRAINER_RED, Route111_Text_Chica2Intro, Route111_Text_Chica2Defeated
+	msgbox Route111_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chico2::
+	trainerbattle_single TRAINER_LEAF, Route111_Text_Chico2Intro, Route111_Text_Chico2Defeated
+	msgbox Route111_Text_Chico2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chica3::
+	trainerbattle_single TRAINER_BRENDAN_PLACEHOLDER, Route111_Text_Chica3Intro, Route111_Text_Chica3Defeated
+	msgbox Route111_Text_Chica3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Montanero3::
+	trainerbattle_single TRAINER_MAY_PLACEHOLDER, Route111_Text_Montanero3Intro, Route111_Text_Montanero3Defeated
+	msgbox Route111_Text_Montanero3PostBattle, MSGBOX_AUTOCLOSE
+	end
+

@@ -59,3 +59,17 @@ Route49_MazeP2_Text6:
 .string "considerada la primera de las 4 pagodas\l"
 .string "de la región, cuando TORRE LATÓN aún\l"
 .string "estaba en pie.$"
+
+
+
+Route49MazeP2_EventScript_Sabio::
+	trainerbattle_single TRAINER_TRAINER_25, Route49MazeP2_Text_SabioIntro, Route49MazeP2_Text_SabioDefeated
+	msgbox Route49MazeP2_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route49MazeP2_EventScript_Sabio2::
+	trainerbattle_single TRAINER_TRAINER_26, Route49MazeP2_Text_Sabio2Intro, Route49MazeP2_Text_Sabio2Defeated
+	msgbox Route49MazeP2_Text_Sabio2PostBattle, MSGBOX_AUTOCLOSE
+	end

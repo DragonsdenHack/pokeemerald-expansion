@@ -68,3 +68,10 @@ Route49_Maze_Text6:
 .string "¿Nuestros POKÉMON? Pertenecen a la\n"
 .string "antigua JOHTO, es imposible verlos\l"
 .string "fuera de esta zona.$"
+
+
+
+Route49Maze_EventScript_Sabio::
+	trainerbattle_single TRAINER_TRAINER_22, Route49Maze_Text_SabioIntro, Route49Maze_Text_SabioDefeated
+	msgbox Route49Maze_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
+	end

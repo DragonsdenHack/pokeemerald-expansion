@@ -45,3 +45,10 @@ ViasTren1_Text_7:
 .string "la vegetación se hace cada vez más\l"
 .string "espesa, hay muchas zonas por explorar\l"
 .string "aquí.$"
+
+
+
+ViasTren1_EventScript_Obrero::
+	trainerbattle_single TRAINER_SAWYER_4, ViasTren1_Text_ObreroIntro, ViasTren1_Text_ObreroDefeated
+	msgbox ViasTren1_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end

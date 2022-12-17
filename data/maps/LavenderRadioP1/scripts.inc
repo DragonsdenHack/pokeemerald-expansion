@@ -120,3 +120,10 @@ LavenderRadioP1_Text_7:
 .string "formas X e Y. Tal vez si uniéramos sus\l"
 .string "genes podríamos lograr algo incluso\l"
 .string "mejor…$"
+
+
+
+LavenderRadioP1_EventScript_Cientifico::
+	trainerbattle_single TRAINER_CRISTIN_2, LavenderRadioP1_Text_CientificoIntro, LavenderRadioP1_Text_CientificoDefeated
+	msgbox LavenderRadioP1_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end

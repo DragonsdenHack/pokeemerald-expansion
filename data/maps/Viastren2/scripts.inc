@@ -40,3 +40,17 @@ ViasTren2_Text_10:
 .string "El construir estas vías ha llevado a\n"
 .string "darnos cuenta del mucho terreno por\l"
 .string "explorar que aún nos queda.$"
+
+
+
+ViasTren2_EventScript_Obrero::
+	trainerbattle_single TRAINER_GABRIELLE_2, ViasTren2_Text_ObreroIntro, ViasTren2_Text_ObreroDefeated
+	msgbox ViasTren2_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+ViasTren2_EventScript_Obrero2::
+	trainerbattle_single TRAINER_SAWYER_4, ViasTren2_Text_Obrero2Intro, ViasTren2_Text_Obrero2Defeated
+	msgbox ViasTren2_Text_Obrero2PostBattle, MSGBOX_AUTOCLOSE
+	end

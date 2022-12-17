@@ -14677,3 +14677,622 @@ SouthRoute45_Text_MontaneroPostBattle:
 	.string "que está haciendo fortuna con la\l"
 	.string "TORRE RADIO, pero tus POKÉMON\l"
 	.string "están a otro nivel.$"
+
+
+CultoS4_Text_CultistaIntro:
+	.string "Así que has vuelto…me temo que no\n"
+	.string "seremos tan hospitalarios como la\l"
+	.string "primera vez…$"
+
+
+CultoS4_Text_CultistaDefeated:
+	.string "Tu equipo ha cambiado…tú has cambiado…$"
+
+
+CultoS4_Text_CultistaPostBattle:
+	.string "Largo ha sido tu viaje, profundo tu\n"
+	.string "aprendizaje… ¿será suficiente?$"
+
+
+CultoS4_Text_Cultista2Intro:
+	.string "No todos los cultistas son buenos,\n"
+	.string "algunos se malogran, y hubo uno que se\l"
+	.string "malogró hasta más no poder.$"
+
+
+CultoS4_Text_Cultista2Defeated:
+	.string "Eres poderoso, y difícil de malograr.$"
+
+
+CultoS4_Text_Cultista2PostBattle:
+	.string "¿Cuál era su nombre? Tenemos prohibido\n"
+	.string "mencionarlo.$"
+
+
+CultoS4_Text_Cultista3Intro:
+	.string "Así que has visitado TORRE CAMPANA.\n"
+	.string "¿Aprendiste algo?$"
+
+
+CultoS4_Text_Cultista3Defeated:
+	.string "Parece que sí.$"
+
+
+CultoS4_Text_Cultista3PostBattle:
+	.string "¿Un POKÉMON fuerte puede provenir de\n"
+	.string "cualquier lugar? Así es, pero no te\l"
+	.string "hagas ilusiones, hay límites sagrados\l"
+	.string "que los mortales como nosotros no\l"
+	.string "podrán cruzar jamás.$"
+
+
+CultoS6_Text_CultistaIntro:
+	.string "Así que crees haber llegado lejos y\n"
+	.string "dominar el mundo que tienes ante ti… no\l"
+	.string "has aprendido nada.$"
+
+
+CultoS6_Text_CultistaDefeated:
+	.string "Tal vez algo sí que has aprendido…$"
+
+
+CultoS6_Text_CultistaPostBattle:
+	.string "Mantener el espíritu del principiante\n"
+	.string "es la esencia del progreso constante,\l"
+	.string "no lo olvides.$"
+
+
+CultoS7_Text_CultistaIntro:
+	.string "Algunos por aquí empiezan a atribuirte\n"
+	.string "poderes místicos y sagrados, ¿habrá el\l"
+	.string "POKÉMON ESENCIA intervenido sobre tu\l"
+	.string "libre albedrío?$"
+
+
+CultoS7_Text_CultistaDefeated:
+	.string "¡He sentido una presencia!$"
+
+
+CultoS7_Text_CultistaPostBattle:
+	.string "El POKÉMON ESENCIA se limita a\n"
+	.string "observar, jamás guiaría el destino de\l"
+	.string "ningún mortal, ya que acabaría con\l"
+	.string "nuestra libertad de elección.$"
+
+
+Route47_Text_MontaneroIntro:
+	.string "¡Jojojo! ¿Pero cómo un mocoso trajeado\n"
+	.string "como tú ha llegado hasta aquí?$"
+
+
+Route47_Text_MontaneroDefeated:
+	.string "Vaya con los pijos de TRIGAL…$"
+
+
+Route47_Text_MontaneroPostBattle:
+	.string "Así que no eres de TRIGAL. ¿Estás en\n"
+	.string "una importante misión para documentar\l"
+	.string "los misterios y antiguos POKÉMON de\l"
+	.string "JOHTO? Entonces estás en el lugar\l"
+	.string "adecuado.$"
+
+
+Route47_Text_Montanero2Intro:
+	.string "A este lugar solo acceden los más\n"
+	.string "intrépidos aventureros, ¿quién te ha\l"
+	.string "revelado el secreto?$"
+
+
+Route47_Text_Montanero2Defeated:
+	.string "¿Y esos POKÉMON?$"
+
+
+Route47_Text_Montanero2PostBattle:
+	.string "Me gustaría entrar a ese misterioso\n"
+	.string "lugar que hay más al oeste, pero no\l"
+	.string "dejan pasar a nadie.$"
+
+
+Route47_Text_SabioIntro:
+	.string "Jamás afrontarás tu destino hasta que\n"
+	.string "abandones la ilusión del control.$"
+
+
+Route47_Text_SabioDefeated:
+	.string "Estás en el camino correcto.$"
+
+
+Route47_Text_SabioPostBattle:
+	.string "Mira esta cascada, no puedo obligarla a\n"
+	.string "que invierta su dirección, ni a que\l"
+	.string "arroje mayor cantidad de agua de la\l"
+	.string "debida, debemos aceptar lo que no\l"
+	.string "podemos cambiar, para centrarnos en lo\l"
+	.string "que sí.$"
+
+
+Route48_Text_MontaneroIntro:
+	.string "¡Espera! ¿Vas hacia el norte? ¡Es\n"
+	.string "peligroso!$"
+
+
+Route48_Text_MontaneroDefeated:
+	.string "Con esos POKÉMON, puede que no sea tan\n"
+	.string "peligroso…$"
+
+
+Route48_Text_MontaneroPostBattle:
+	.string "Los POKÉMON que hay más al norte son\n"
+	.string "muy extraños. Creo que los ancianos de\l"
+	.string "esa pagoda saben algo, pero mantienen\l"
+	.string "todo en secreto.$"
+
+
+Route50_Text_MontaneroIntro:
+	.string "En esta zona hay demasiada vegetación,\n"
+	.string "¡no sé cómo avanzar!$"
+
+
+Route50_Text_MontaneroDefeated:
+	.string "¡Aghh! ¡Mis POKÉMON!$"
+
+
+Route50_Text_MontaneroPostBattle:
+	.string "Creo que volveré al sur, este lugar es\n"
+	.string "un laberinto.$"
+
+
+Route49Maze_Text_SabioIntro:
+	.string "Nadie había entrado a este lugar desde\n"
+	.string "EUSINE. ¿Crees que lo mereces?$"
+
+
+Route49Maze_Text_SabioDefeated:
+	.string "Oh, si, desde luego.$"
+
+
+Route49Maze_Text_SabioPostBattle:
+	.string "Este lugar pertenece a una época\n"
+	.string "anterior, ajeno a toda la JOHTO tras la\l"
+	.string "montaña del este.$"
+
+
+Route49MazeP1_Text_SabioIntro:
+	.string "Quien reniega del momento presente,\n"
+	.string "rechaza lo único que de verdad tiene.$"
+
+
+Route49MazeP1_Text_SabioDefeated:
+	.string "Sigo esperando la llegada de la\n"
+	.string "primavera…$"
+
+
+Route49MazeP1_Text_SabioPostBattle:
+	.string "Nuestro MAESTRO heredó los POKÉMON\n"
+	.string "que dieron inicio al vínculo con los\l"
+	.string "humanos, ha sido así desde hace más de\l"
+	.string "1000 años.$"
+
+
+Route49MazeP1_Text_Sabio2Intro:
+	.string "Sé amable con todos, pero sé estricto\n"
+	.string "contigo mismo.$"
+
+
+Route49MazeP1_Text_Sabio2Defeated:
+	.string "Parece que llevas un entrenamiento muy\n"
+	.string "estricto.$"
+
+
+Route49MazeP1_Text_Sabio2PostBattle:
+	.string "La adulación es enemiga del progreso,\n"
+	.string "mantente humilde.$"
+
+
+Route49MazeP2_Text_SabioIntro:
+	.string "¿Quieres ver los POKÉMON de mi maestro?$"
+
+
+Route49MazeP2_Text_SabioDefeated:
+	.string "¡He visto la virtud en ti!$"
+
+
+Route49MazeP2_Text_SabioPostBattle:
+	.string "Nadie del este ha visto los POKÉMON de\n"
+	.string "mi maestro, ni siquiera los maestros de\l"
+	.string "TORRE CAMPANA y TORRE BELLSPROUT.$"
+
+
+Route49MazeP2_Text_Sabio2Intro:
+	.string "Algo cambió desde aquel terremoto en\n"
+	.string "RUINAS ALFA. Nuestro maestro cree que\l"
+	.string "vosotros tenéis algo que ver.$"
+
+
+Route49MazeP2_Text_Sabio2Defeated:
+	.string "No está mal… para ser del este.$"
+
+
+Route49MazeP2_Text_Sabio2PostBattle:
+	.string "¿Derrotaste a la ESENCIA? ¿Estás\n"
+	.string "hablando de un POKÉMON?$"
+
+
+Route49MazeP3_Text_SabioIntro:
+	.string "Hay una importante reunión arriba.\n"
+	.string "Deberás demostrar que mereces formar\l"
+	.string "parte de ella.$"
+
+
+Route49MazeP3_Text_SabioDefeated:
+	.string "Sí que lo mereces.$"
+
+
+Route49MazeP3_Text_SabioPostBattle:
+	.string "¿Crees… que un hombre puede cambiar su\n"
+	.string "destino?$"
+
+
+Route49MazeP3_Text_Sabio2Intro:
+	.string "Los 3 POKÉMON que murieron en el\n"
+	.string "incendio de CIUDAD IRIS… ¿Qué sabes\l"
+	.string "de ello?$"
+
+
+Route49MazeP3_Text_Sabio2Defeated:
+	.string "Nosotros sabemos la verdad.$"
+
+
+Route49MazeP3_Text_Sabio2PostBattle:
+	.string "Nos llegaron noticias… el LEGENDARIO\n"
+	.string "HO-OH otorgó una nueva vida a las 3\l"
+	.string "formas de EEVEE que perecieron en las\l"
+	.string "llamas. Los POKÉMON que surgieron por\l"
+	.string "intervención divina tienen algo en\l"
+	.string "común con los de nuestro maestro.$"
+
+
+Route111_Text_MontaneroIntro:
+	.string "¡Espera! ¿¡De dónde has salido tú!?$"
+
+
+Route111_Text_MontaneroDefeated:
+	.string "¿Y esos POKÉMON?$"
+
+
+Route111_Text_MontaneroPostBattle:
+	.string "Más arriba solo hay roca y montaña, ¡no\n"
+	.string "te he visto llegar!$"
+
+
+Route111_Text_ChicoIntro:
+	.string "¡Estoy en racha! ¡Y mis POKÉMON\n"
+	.string "también!$"
+
+
+Route111_Text_ChicoDefeated:
+	.string "Mis POKÉMON ya no va a querer salir ni a\n"
+	.string "la vuelta de la esquina...$"
+
+
+Route111_Text_ChicoPostBattle:
+	.string "Cuando veo a un ENTRENADOR que está en\n"
+	.string "racha, tengo que desafiarle…$"
+
+
+Route111_Text_ChicaIntro:
+	.string "No sé quién eres ni adónde vas, pero sé\n"
+	.string "que vamos a enfrentarnos...$"
+
+
+Route111_Text_ChicaDefeated:
+	.string "Tu técnica es tan buena que estoy\n"
+	.string "muerta de envidia...$"
+
+
+Route111_Text_ChicaPostBattle:
+	.string "Pensaba yo que debería ir al MONTE\n"
+	.string "CENIZO a disfrutar de las vistas, pero\l"
+	.string "aquí tampoco se está mal…$"
+
+
+Route111_Text_Montanero2Intro:
+	.string "Esas rocas de ahí abajo son muy raras,\n"
+	.string "parece que esconden algo. ¿Sabes tú\l"
+	.string "algo?$"
+
+
+Route111_Text_Montanero2Defeated:
+	.string "¡Lo que sí sabes es combatir!$"
+
+
+Route111_Text_Montanero2PostBattle:
+	.string "Antes vinieron unos tíos muy raros a\n"
+	.string "investigar esa zona, creo que aún\l"
+	.string "queda alguien.$"
+
+
+Route111_Text_Chica2Intro:
+	.string "¿Has visitado MALVALONA? ¿No? ¿De\n"
+	.string "dónde vienes entonces?$"
+
+
+Route111_Text_Chica2Defeated:
+	.string "¡Nunca había visto esos POKÉMON!$"
+
+
+Route111_Text_Chica2PostBattle:
+	.string "¿KANTO? Nunca había oído hablar de ese\n"
+	.string "lugar. ¿Esos POKÉMON tan fuertes que\l"
+	.string "tienes vienen de allí?$"
+
+
+Route111_Text_Chico2Intro:
+	.string "No pareces ser de por aquí, esa\n"
+	.string "indumentaria no encaja con un\l"
+	.string "ejecutivo de DEVON.$"
+
+
+Route111_Text_Chico2Defeated:
+	.string "¡Y esos POKÉMON tampoco!$"
+
+
+Route111_Text_Chico2PostBattle:
+	.string "La región de HOENN cuenta con una\n"
+	.string "variedad de POKÉMON sin igual, ¡es un\l"
+	.string "hecho!$"
+
+
+Route111_Text_Chica3Intro:
+	.string "Esas ruinas de ahí abajo me dan mal\n"
+	.string "rollo, gente muy rara viene a\l"
+	.string "visitarlas.$"
+
+
+Route111_Text_Chica3Defeated:
+	.string "¡Oh! ¿No serás también de esos?$"
+
+
+Route111_Text_Chica3PostBattle:
+	.string "Hace unos meses vino una chica de\n"
+	.string "blanco, era alguien importante, creo\l"
+	.string "que logró entrar a esas ruinas.$"
+
+
+Route111_Text_Montanero3Intro:
+	.string "¿Crees que habrá algún FÓSIL por aquí?$"
+
+
+Route111_Text_Montanero3Defeated:
+	.string "¡Nunca había visto esos POKÉMON!$"
+
+
+Route111_Text_Montanero3PostBattle:
+	.string "A veces aparece una gran torre, parece\n"
+	.string "un espejismo, pero puede verse,\l"
+	.string "alzándose sobre la tormenta de arena,\l"
+	.string "la propia torre está hecha de esa misma\l"
+	.string "arena.$"
+
+
+ViasTren1_Text_ObreroIntro:
+	.string "¡Espera! ¿Tienes permiso para estar\n"
+	.string "aquí?$"
+
+
+ViasTren1_Text_ObreroDefeated:
+	.string "¡Menudo combate!$"
+
+
+ViasTren1_Text_ObreroPostBattle:
+	.string "Era broma, estábamos advertidos de tu\n"
+	.string "presencia aquí, solo quería pasar el\l"
+	.string "rato con un combate.$"
+
+
+ViasTren2_Text_ObreroIntro:
+	.string "SILPH ha invertido enormes cantidades\n"
+	.string "en la construcción de estas vías,\l"
+	.string "tiene sentido, ¿no crees?$"
+
+
+ViasTren2_Text_ObreroDefeated:
+	.string "¡Me has dejado seco!$"
+
+
+ViasTren2_Text_ObreroPostBattle:
+	.string "Con TRIGAL y AZAFRÁN conectadas, las\n"
+	.string "operaciones comerciales entre\l"
+	.string "regiones mejorarán de forma\l"
+	.string "exponencial.$"
+
+
+ViasTren2_Text_Obrero2Intro:
+	.string "Mantente alerta por estas zonas.\n"
+	.string "¡Podría haber POKÉMON que no conoces!$"
+
+
+ViasTren2_Text_Obrero2Defeated:
+	.string "Con esos POKÉMON, estás más que\n"
+	.string "protegido.$"
+
+
+ViasTren2_Text_Obrero2PostBattle:
+	.string "Un POKÉMON que jamás había visto se\n"
+	.string "dirijía hacia el noreste, debe haber\l"
+	.string "algo por ahí.$"
+
+
+ViasTren3_Text_ObreroIntro:
+	.string "Algunos creen que usamos POKÉMON\n"
+	.string "similares a esos CIENTÍFICOS de SILPH.$"
+
+
+ViasTren3_Text_ObreroDefeated:
+	.string "¡Tu equipo es muy variado!$"
+
+
+ViasTren3_Text_ObreroPostBattle:
+	.string "Es cierto que usamos POKÉMON TIPO\n"
+	.string "ELÉCTRICO y ACERO como los\l"
+	.string "CIENTÍFICOS, pero también algunos\l"
+	.string "TIPO LUCHA y TIERRA, nos facilitan\l"
+	.string "mucho el trabajo.$"
+
+
+ViasTren3_Text_Obrero2Intro:
+	.string "¿Has estado en el MONTE PLATEADO?\n"
+	.string "Debes ser muy fuerte.$"
+
+
+ViasTren3_Text_Obrero2Defeated:
+	.string "Si que eres fuerte…$"
+
+
+ViasTren3_Text_Obrero2PostBattle:
+	.string "Me gustaría poder entrar al MONTE\n"
+	.string "PLATEADO, tendré que conformarme con\l"
+	.string "verlo desde aquí.$"
+
+
+ViasTren4_Text_ObreroIntro:
+	.string "¿Eres el enviado para derrotar a ese\n"
+	.string "POKÉMON?$"
+
+
+ViasTren4_Text_ObreroDefeated:
+	.string "¡Debes de ser tú!$"
+
+
+ViasTren4_Text_ObreroPostBattle:
+	.string "¿Ya luchaste antes frente a él?\n"
+	.string "Entonces supongo que no debería de\l"
+	.string "ser problema para ti, ¿o sí?$"
+
+
+ViasTren5_Text_ObreroIntro:
+	.string "Los POKÉMON de esta zona son muy\n"
+	.string "fuertes, ¿los has visto?$"
+
+
+ViasTren5_Text_ObreroDefeated:
+	.string "¡Tú también eres fuerte!$"
+
+
+ViasTren5_Text_ObreroPostBattle:
+	.string "A pesar de estar ya en territorio de\n"
+	.string "KANTO, por esta zona se mezclan\l"
+	.string "POKÉMON de KANTO y JOHTO. Ellos no\l"
+	.string "entienden de fronteras como nosotros…$"
+
+
+ViasTren5_Text_Obrero2Intro:
+	.string "Esa especie de ZAPDOS lleva un buen\n"
+	.string "rato poco más al este. ¿Podrás con él\l"
+	.string "de verdad?$"
+
+
+ViasTren5_Text_Obrero2Defeated:
+	.string "Tal vez tengas una oportunidad.$"
+
+
+ViasTren5_Text_Obrero2PostBattle:
+	.string "Ninguno de nosotros pudo tocarlo,\n"
+	.string "parece que al absorber el magnetismo\l"
+	.string "de las vías, se ha hecho más fuerte.$"
+
+
+NeoCinnabarVolcan_Text_LadronIntro:
+	.string "Todo lo que aquí ha sido destruido ya\n"
+	.string "no pertenece a nadie. ¿Sabes lo que eso\l"
+	.string "significa?$"
+
+
+NeoCinnabarVolcan_Text_LadronDefeated:
+	.string "¿Quién eres tú?$"
+
+
+NeoCinnabarVolcan_Text_LadronPostBattle:
+	.string "Es mi oportunidad para coger lo que\n"
+	.string "quiera sin consecuencias legales.$"
+
+
+NeoCinnabarVolcan_Text_Ladron2Intro:
+	.string "Dicen que se perdieron objetos muy\n"
+	.string "valiosos aquí. ¿No habrás venido por\l"
+	.string "eso?$"
+
+
+NeoCinnabarVolcan_Text_Ladron2Defeated:
+	.string "¡Yo llegué primero!$"
+
+
+NeoCinnabarVolcan_Text_Ladron2PostBattle:
+	.string "Algunos se han metido más adentro del\n"
+	.string "volcán, a mi me da miedo, la verdad…$"
+
+
+Mision7Lab3_Text_LadronIntro:
+	.string "Corren rumores de POKÉMON muy\n"
+	.string "poderosos que andan sueltos por aquí.\l"
+	.string "¿Serán raros también?$"
+
+
+Mision7Lab3_Text_LadronDefeated:
+	.string "¡Tus POKÉMON son así también!$"
+
+
+Mision7Lab3_Text_LadronPostBattle:
+	.string "Vi a varios CIENTÍFICOS y hombres de\n"
+	.string "uniforme como tú aparecer por aquí,\l"
+	.string "debéis ir tras algo importante.$"
+
+
+Mision7Lab2_Text_LadronIntro:
+	.string "¡Mira todo esto! ¿Sabes cuánto puedo\n"
+	.string "ganar vendiéndolo?$"
+
+
+Mision7Lab2_Text_LadronDefeated:
+	.string "¡Pero no te lo lleves tú!$"
+
+
+Mision7Lab2_Text_LadronPostBattle:
+	.string "Voy a tardar mucho en movilizar todo\n"
+	.string "esto, y me da palo tener que volver a\l"
+	.string "bajar aquí…$"
+
+
+Mision7Lab4_Text_CientificoIntro:
+	.string "Traté de seguir avanzando, pero hay\n"
+	.string "POKÉMON terroríficos que me impiden\l"
+	.string "seguir, ¿tú sabes algo?$"
+
+
+Mision7Lab4_Text_CientificoDefeated:
+	.string "¡Debes saber algo!$"
+
+
+Mision7Lab4_Text_CientificoPostBattle:
+	.string "¿Qué? No trabajo para nadie, solo vine\n"
+	.string "por interés puramente académico, pero\l"
+	.string "creo que no estoy a la altura de esos\l"
+	.string "POKÉMON tan fuertes…$"
+
+
+LavenderRadioP1_Text_CientificoIntro:
+	.string "Gracias a nuestra tecnología, tenemos\n"
+	.string "información sobre POKÉMON de lejanas\l"
+	.string "regiones. ¿Quieres verlos?$"
+
+
+LavenderRadioP1_Text_CientificoDefeated:
+	.string "Nada como los primeros 151, ¿verdad?$"
+
+
+LavenderRadioP1_Text_CientificoPostBattle:
+	.string "TOXTRICITY tiene atributos muy\n"
+	.string "interesantes, su HABILIDAD incrementa\l"
+	.string "en un 30% los movimientos basados en\l"
+	.string "sonidos, este POKÉMON cuenta con uno\l"
+	.string "de 80 de potencia y STAB.$"

@@ -38,3 +38,10 @@ ViasTren4_Text_7:
 .string "Las vías están ya casi construidas,\n"
 .string "falta establecer el enlace final con\l"
 .string "AZAFRÁN, y todo estará listo.$"
+
+
+
+ViasTren4_EventScript_Obrero::
+	trainerbattle_single TRAINER_GABRIELLE_5, ViasTren4_Text_ObreroIntro, ViasTren4_Text_ObreroDefeated
+	msgbox ViasTren4_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end

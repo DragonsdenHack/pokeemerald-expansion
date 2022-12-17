@@ -13,3 +13,10 @@ CultoS7_Text_7:
 .string "transmuta el metal inferior en oro, el\l"
 .string "sufrimiento en conciencia, el desastre\l"
 .string "en iluminación.$"
+
+
+
+CultoS7_EventScript_Cultista::
+	trainerbattle_single TRAINER_KOJI_5, CultoS7_Text_CultistaIntro, CultoS7_Text_CultistaDefeated
+	msgbox CultoS7_Text_CultistaPostBattle, MSGBOX_AUTOCLOSE
+	end

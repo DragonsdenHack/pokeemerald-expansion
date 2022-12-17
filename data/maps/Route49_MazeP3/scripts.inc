@@ -68,3 +68,17 @@ Route49_MazeP3_Text9:
 .string "ENTEI, RAIKOU y SUICUNE. Sus nombres\n"
 .string "no son casualidad, son una extensión\l"
 .string "de otros POKÉMON, más antiguos.$"
+
+
+
+Route49MazeP3_EventScript_Sabio::
+	trainerbattle_single TRAINER_TRAINER_27, Route49MazeP3_Text_SabioIntro, Route49MazeP3_Text_SabioDefeated
+	msgbox Route49MazeP3_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route49MazeP3_EventScript_Sabio2::
+	trainerbattle_single TRAINER_TRAINER_28, Route49MazeP3_Text_Sabio2Intro, Route49MazeP3_Text_Sabio2Defeated
+	msgbox Route49MazeP3_Text_Sabio2PostBattle, MSGBOX_AUTOCLOSE
+	end
