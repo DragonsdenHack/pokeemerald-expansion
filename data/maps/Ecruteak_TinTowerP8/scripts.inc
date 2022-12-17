@@ -71,3 +71,10 @@ end
 Ecruteak_TinTowerp8_Text_6:
 .string "En las adversidades sale a la luz\n"
 .string "la virtud.$"
+
+
+
+TinTowerP8_EventScript_Monje::
+	trainerbattle_single TRAINER_FABIAN, TinTowerP8_Text_MonjeIntro, TinTowerP8_Text_MonjeDefeated
+	msgbox TinTowerP8_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
+	end

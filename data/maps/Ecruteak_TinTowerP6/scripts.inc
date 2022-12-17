@@ -82,3 +82,10 @@ Ecruteak_TinTowerp6_Text_6:
 .string "pero tampoco conviene enseñar el\l"
 .string "fondo a aquellos no preparados\l"
 .string "para asumirlo…$"
+
+
+
+TinTowerP6_EventScript_Monje::
+	trainerbattle_single TRAINER_AISHA, TinTowerP6_Text_MonjeIntro, TinTowerP6_Text_MonjeDefeated
+	msgbox TinTowerP6_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
+	end

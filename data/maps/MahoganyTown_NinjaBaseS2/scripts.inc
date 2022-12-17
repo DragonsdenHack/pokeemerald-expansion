@@ -137,3 +137,38 @@ MahoganyTown_NinjaBaseS2_Text_14:
 .string "tenemos esparcidas entre KANTO,\l"
 .string "JOHTO e ISLAS SETE!\l"
 .string "¡TEAM ROCKET al poder!$"
+
+
+
+NinjaBaseS2_EventScript_Ninja::
+	trainerbattle_single TRAINER_TONY_4, NinjaBaseS2_Text_NinjaIntro, NinjaBaseS2_Text_NinjaDefeated
+	msgbox NinjaBaseS2_Text_NinjaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NinjaBaseS2_EventScript_Ladron::
+	trainerbattle_single TRAINER_COLE, NinjaBaseS2_Text_LadronIntro, NinjaBaseS2_Text_LadronDefeated
+	msgbox NinjaBaseS2_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NinjaBaseS2_EventScript_Ladron2::
+	trainerbattle_single TRAINER_LARRY, NinjaBaseS2_Text_Ladron2Intro, NinjaBaseS2_Text_Ladron2Defeated
+	msgbox NinjaBaseS2_Text_Ladron2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NinjaBaseS2_EventScript_Ninja2::
+	trainerbattle_single TRAINER_TONY_3, NinjaBaseS2_Text_Ninja2Intro, NinjaBaseS2_Text_Ninja2Defeated
+	msgbox NinjaBaseS2_Text_Ninja2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NinjaBaseS2_EventScript_Calvo::
+	trainerbattle_single TRAINER_PAT, NinjaBaseS2_Text_CalvoIntro, NinjaBaseS2_Text_CalvoDefeated
+	msgbox NinjaBaseS2_Text_CalvoPostBattle, MSGBOX_AUTOCLOSE
+	end

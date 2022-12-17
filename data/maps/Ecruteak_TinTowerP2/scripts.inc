@@ -87,3 +87,10 @@ Ecruteak_TinTowerp2_Text_6:
 .string "salvo a ti mismo.\l"
 .string "Mientras tengas un poco de aire,\l"
 .string "tienes una oportunidad.$"
+
+
+
+TinTowerP2_EventScript_Monje::
+	trainerbattle_single TRAINER_DEVAN, TinTowerP2_Text_MonjeIntro, TinTowerP2_Text_MonjeDefeated
+	msgbox TinTowerP2_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
+	end

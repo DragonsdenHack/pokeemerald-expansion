@@ -13760,3 +13760,679 @@ Route52_Text_Nadador3Defeated:
 
 Route52_Text_Nadador3PostBattle:
 	.string "¡Ya no puedo volver usando SURF!$"
+
+
+Route27_Text_OrnitologoIntro:
+	.string "Al fin mis aves pueden volver a\n"
+	.string "planear en este bello lugar, ¡mira\l"
+	.string "lo contentas que están!$"
+
+
+Route27_Text_OrnitologoDefeated:
+	.string "¡Guau, qué fuerza!$"
+
+
+Route27_Text_OrnitologoPostBattle:
+	.string "PEGASO padre me dio un STARLY hace\n"
+	.string "tiempo, STARAPTOR se ha convertido\l"
+	.string "desde entonces en mi ave favorita.\l"
+	.string "¡Tiene mucha más fuerza y\l"
+	.string "agresividad que PIDGEOT!$"
+
+
+Route27_Text_PescadorIntro:
+	.string "Estas aguas llevan tiempo sin\n"
+	.string "removerse.\l"
+	.string "¡Ahora que he llegado el primero\l"
+	.string "después de la apertura de\l"
+	.string "fronteras aprovecharé para\l"
+	.string "quedarme con las mejores piezas!$"
+
+
+Route27_Text_PescadorDefeated:
+	.string "¡No! ¡En esta batalla, no!$"
+
+
+Route27_Text_PescadorPostBattle:
+	.string "Espera y verás, aún quedan\n"
+	.string "TOTODILE por aquí, con un\l"
+	.string "FERALIGATR en mi equipo te hubiera\l"
+	.string "hecho papilla.$"
+
+
+Route27_Text_GuayIntro:
+	.string "Llegas tarde, algunos ya nos hemos\n"
+	.string "adelantado.\l"
+	.string "¡No serás el primero en volver a\l"
+	.string "ver la famosa RUTA 26!$"
+
+
+Route27_Text_GuayDefeated:
+	.string "¡Eh, espera, esto no estaba\n"
+	.string "planeado!$"
+
+
+Route27_Text_GuayPostBattle:
+	.string "Ojalá pudiera entrar al MONTE\n"
+	.string "PLATEADO...$"
+
+
+Route26_Text_PescadorIntro:
+	.string "¡Uajaja!\n"
+	.string "¡Date prisa o todos los peces\l"
+	.string "gordos habrán volado!$"
+
+
+Route26_Text_PescadorDefeated:
+	.string "¡Me has pasado por encima!$"
+
+
+Route26_Text_PescadorPostBattle:
+	.string "La regla número 1 del pescador\n"
+	.string "es...\l"
+	.string "¡Llegar antes que la competencia!$"
+
+
+Route26_Text_GuardaIntro:
+	.string "RUTA 26 es aún más bella de lo\n"
+	.string "que recordaba, espero que se\l"
+	.string "mantenga así por mucho tiempo.$"
+
+
+Route26_Text_GuardaDefeated:
+	.string "¡Los POKÉMON no son armas de\n"
+	.string "guerra!$"
+
+
+Route26_Text_GuardaPostBattle:
+	.string "¿Crees que este lugar seguirá\n"
+	.string "igual dentro de 3 años?$"
+
+
+Route26_Text_GuayIntro:
+	.string "Es en estos duros combates donde\n"
+	.string "ganas más poder.$"
+
+
+Route26_Text_GuayDefeated:
+	.string "¡La vida es aún más dura!$"
+
+
+Route26_Text_GuayPostBattle:
+	.string "¡Guau, qué duro! No había\n"
+	.string "luchado tan en serio desde hacía\l"
+	.string "mucho.$"
+
+
+Route26_Text_Guarda2Intro:
+	.string "Esta RUTA es un paraje natural\n"
+	.string "único, espero que no empiece a\l"
+	.string "llenarse de turistas como tú.$"
+
+
+Route26_Text_Guarda2Defeated:
+	.string "¡Vale, era broma!$"
+
+
+Route26_Text_Guarda2PostBattle:
+	.string "Este lugar acabará llenándose de\n"
+	.string "gente si o si. Después de todo, es\l"
+	.string "la única forma de hacer el\l"
+	.string "trayecto JOHTO-KANTO a pie, y está\l"
+	.string "al lado de la LIGA POKÉMON.$"
+
+
+Route26_Text_ChicoIntro:
+	.string "Aquí mis POKÉMON son libres.\n"
+	.string "¡Libres como el viento!$"
+
+
+Route26_Text_ChicoDefeated:
+	.string "¡Ouch!\n"
+	.string "¡Me han cortado las alas!$"
+
+
+Route26_Text_ChicoPostBattle:
+	.string "A veces pongo a jugar juntos a\n"
+	.string "GLISCOR y BRAVIARY, no hay un\l"
+	.string "pájaro que embista con la fuerza\l"
+	.string "de BRAVIARY, y el único que tiene\l"
+	.string "la DEFENSA suficiente como para\l"
+	.string "aguantarlas es GLISCOR. Aunque si\l"
+	.string "tuviera un SKARMORY...$"
+
+
+Route26_Text_Guay2Intro:
+	.string "¿Quieres ir al MONTE PLATEADO?\n"
+	.string "¡Solo dejan pasar a contadas\l"
+	.string "personas!$"
+
+
+Route26_Text_Guay2Defeated:
+	.string "¿Quién eres tú?$"
+
+
+Route26_Text_Guay2PostBattle:
+	.string "Para poder explorar el MONTE\n"
+	.string "PLATEADO necesitas ser EX-CAMPEÓN\l"
+	.string "de la LIGA, o tener un permiso\l"
+	.string "especial, casi nada...$"
+
+
+TinTowerP2_Text_MonjeIntro:
+	.string "Nuestro GRAN MAESTRO ya advirtió\n"
+	.string "de tu presencia aquí.\l"
+	.string "La cuestión es, ¿estás preparado?$"
+
+
+TinTowerP2_Text_MonjeDefeated:
+	.string "Ah, si...$"
+
+
+TinTowerP2_Text_MonjePostBattle:
+	.string "Este lugar se ha mantenido en pie\n"
+	.string "por casi un milenio, y seguirá así\l"
+	.string "hasta el fin de los tiempos.$"
+
+
+TinTowerP3_Text_MonjeIntro:
+	.string "Pasé la primavera con mis\n"
+	.string "POKÉMON. Y el verano, otoño e\l"
+	.string "invierno. Luego volvió la\l"
+	.string "primavera. Hemos vivido juntos\l"
+	.string "mucho tiempo.$"
+
+
+TinTowerP3_Text_MonjeDefeated:
+	.string "Viví victorias y derrotas.$"
+
+
+TinTowerP3_Text_MonjePostBattle:
+	.string "¿De dónde vienen los POKÉMON?$"
+
+
+TinTowerP4_Text_MonjeIntro:
+	.string "Solo los elegidos pueden subir a\n"
+	.string "la cima de TORRE CAMPANA.\l"
+	.string "¿Creías que no íbamos a ponerte a\l"
+	.string "prueba?$"
+
+
+TinTowerP4_Text_MonjeDefeated:
+	.string "¡Ah, excelente!$"
+
+
+TinTowerP4_Text_MonjePostBattle:
+	.string "Solo nuestro GRAN MAESTRO ha\n"
+	.string "llegado a ver en persona al\l"
+	.string "LEGENDARIO HO-OH, dice que volverá\l"
+	.string "una última vez antes de su\l"
+	.string "partida.$"
+
+
+TinTowerP5_Text_MonjeIntro:
+	.string "Nuestro LÍDER estará encantado de\n"
+	.string "tener una buena conversación\l"
+	.string "contigo, si llegas hasta arriba\l"
+	.string "del todo, claro.$"
+
+
+TinTowerP5_Text_MonjeDefeated:
+	.string "Mi entrenamiento es incompleto...$"
+
+
+TinTowerP5_Text_MonjePostBattle:
+	.string "TORRE HOJALATA era el nombre que\n"
+	.string "la actual TORRE CAMPANA tenía,\l"
+	.string "antes de que TORRE LATÓN pasara a\l"
+	.string "ser TORRE QUEMADA después del\l"
+	.string "incendio de hace 150 años.$"
+
+
+TinTowerP6_Text_MonjeIntro:
+	.string "Espero que sepas apreciar el mero\n"
+	.string "hecho de estar aquí, la mayoría de\l"
+	.string "habitantes de KANTO no pisarán\l"
+	.string "JOHTO en su vida. Tú, en cambio,\l"
+	.string "estás en el mayor templo de la\l"
+	.string "región.$"
+
+
+TinTowerP6_Text_MonjeDefeated:
+	.string "Ya veo por qué has llegado tan\n"
+	.string "lejos.$"
+
+
+TinTowerP6_Text_MonjePostBattle:
+	.string "Aunque se avecinen cambios\n"
+	.string "inevitables en los próximos años,\l"
+	.string "este lugar mantendrá viva su\l"
+	.string "esencia.$"
+
+
+TinTowerP7_Text_MonjeIntro:
+	.string "¿Así que quieres saber más acerca\n"
+	.string "de la historia de JOHTO?\l"
+	.string "Estás en el lugar adecuado.$"
+
+
+TinTowerP7_Text_MonjeDefeated:
+	.string "Cuánto potencial.$"
+
+
+TinTowerP7_Text_MonjePostBattle:
+	.string "TORRE CAMPANA nace del vínculo\n"
+	.string "entre CIUDAD IRIS y HO-OH, pero\l"
+	.string "HO-OH no es el origen de todo.$"
+
+
+TinTowerP7_Text_Monje2Intro:
+	.string "Una vez oí hablar al GRAN MAESTRO\n"
+	.string "acerca de LUGIA y HO-OH, lo que\l"
+	.string "dijo me sorprendió.$"
+
+
+TinTowerP7_Text_Monje2Defeated:
+	.string "Me falta un largo camino por\n"
+	.string "recorrer.$"
+
+
+TinTowerP7_Text_Monje2PostBattle:
+	.string "El GRAN MAESTRO llegó a decir que\n"
+	.string "LUGIA y HO-OH no eran más que la\l"
+	.string "puerta hacia lo más grande y\l"
+	.string "trascendental de este mundo, que\l"
+	.string "eran solo la expresión material de\l"
+	.string "ello. ¿Qué querrá decir?$"
+
+
+TinTowerP8_Text_MonjeIntro:
+	.string "Después de 700 años, TORRE CAMPANA\n"
+	.string "se sigue elevando por encima de\l"
+	.string "cualquier otra construcción en\l"
+	.string "toda KANTO o JOHTO.$"
+
+
+TinTowerP8_Text_MonjeDefeated:
+	.string "Ya veo, ya...$"
+
+
+TinTowerP8_Text_MonjePostBattle:
+	.string "Ni la gran SILPH, ni la TORRE\n"
+	.string "RADIO, ni el FARO OLIVO, han\l"
+	.string "podido superar en altura a TORRE\l"
+	.string "CAMPANA, construida por aquellos\l"
+	.string "que de verdad creían en la unión\l"
+	.string "entre humanos y POKÉMON.$"
+
+
+TinTowerP9_Text_MonjeIntro:
+	.string "Hay cierta preocupación por el\n"
+	.string "nivel de las nuevas generaciones.\l"
+	.string "¿Eres tú la excepción?$"
+
+
+TinTowerP9_Text_MonjeDefeated:
+	.string "Parece ser que sí.$"
+
+
+TinTowerP9_Text_MonjePostBattle:
+	.string "El ambiente influye, pero los\n"
+	.string "grandes ENTRENADORES pueden\l"
+	.string "provenir de cualquier lugar, tú lo\l"
+	.string "has demostrado.$"
+
+
+TinTowerP9_Text_Monje2Intro:
+	.string "Aquí no creemos en elegidos y\n"
+	.string "demás sandeces.\l"
+	.string "La verdadera pregunta es, ¿crees\l"
+	.string "poder forjar tu propio destino?$"
+
+
+TinTowerP9_Text_Monje2Defeated:
+	.string "Claro es tu propósito.$"
+
+
+TinTowerP9_Text_Monje2PostBattle:
+	.string "Has superado nuestra prueba,\n"
+	.string "mereces subir a la cima de TORRE\l"
+	.string "CAMPANA.$"
+
+
+Route43_Text_GuardaIntro:
+	.string "¿Puedes ver la belleza de este\n"
+	.string "lugar?\l"
+	.string "¡Pues no la estropees!$"
+
+
+Route43_Text_GuardaDefeated:
+	.string "¡Mis plantas!$"
+
+
+Route43_Text_GuardaPostBattle:
+	.string "Perdóname por ser brusco, pero\n"
+	.string "algunos no respetan lugares como\l"
+	.string "este. Hasta pondrían una caseta\l"
+	.string "solo para cobrar 1000 míseros\l"
+	.string "POKÉS por el acceso al LAGO DE LA\l"
+	.string "FURIA. Tú no pareces ser de esos.$"
+
+
+Route43_Text_ChicaIntro:
+	.string "Me encanta pasear por los\n"
+	.string "alrededores del LAGO DE LA FURIA,\l"
+	.string "¡especialmente después de los días\l"
+	.string "lluviosos!$"
+
+
+Route43_Text_ChicaDefeated:
+	.string "Mis POKÉMON no pudieron más...$"
+
+
+Route43_Text_ChicaPostBattle:
+	.string "No hay nada como levantarse\n"
+	.string "temprano después de un día\l"
+	.string "lluvioso, ese olor característico\l"
+	.string "a tierra mojada...\l"
+	.string "Los charcos que se forman\l"
+	.string "alrededor del lago...\l"
+	.string "En esos días, te sientes uno con\l"
+	.string "el medio.$"
+
+
+Route43_Text_PescadorIntro:
+	.string "Dicen que en lo profundo del LAGO\n"
+	.string "DE LA FURIA habita un monstruo.\l"
+	.string "¡No son más que cuentos!$"
+
+
+Route43_Text_PescadorDefeated:
+	.string "¡Creí que ganaría!$"
+
+
+Route43_Text_PescadorPostBattle:
+	.string "El LAGO DE LA FURIA destaca por\n"
+	.string "sus MAGIKARP, por lo que de furia\l"
+	.string "tiene poco...$"
+
+
+LakeofRage_Text_PescadorIntro:
+	.string "¡Este lugar es en realidad un nido\n"
+	.string "de GYARADOS!\l"
+	.string "¿No me crees?\l"
+	.string "¡Mira!$"
+
+
+LakeofRage_Text_PescadorDefeated:
+	.string "¡Aplacaste la furia de GYARADOS!$"
+
+
+LakeofRage_Text_PescadorPostBattle:
+	.string "¡Shhh!\n"
+	.string "La mayoría de pescadores aquí\l"
+	.string "creen que solo hay MAGIKARP, pero\l"
+	.string "eso es solo en la superficie, ¡si\l"
+	.string "usas una SUPER CAÑA, llegarás a\l"
+	.string "las profundidades del lago, donde\l"
+	.string "están los GYARADOS!$"
+
+
+LakeofRage_Text_SabioIntro:
+	.string "Yo y mis POKÉMON estamos listos\n"
+	.string "para un combate más.\l"
+	.string "¡Adelante!\l"
+	.string "¡El LAGO DE LA FURIA está como\l"
+	.string "testigo del nivel desplegado aquí!$"
+
+
+LakeofRage_Text_SabioDefeated:
+	.string "Oh, fue un gran combate, lo\n"
+	.string "recordaré siempre.$"
+
+
+LakeofRage_Text_SabioPostBattle:
+	.string "Gracias por el combate, con el\n"
+	.string "LAGO DE LA FURIA como testigo,\l"
+	.string "nada podrá deshacer las cotas que\l"
+	.string "hoy alcanzamos con nuestros\l"
+	.string "equipos, por mucho que se pierdan\l"
+	.string "en el tiempo.$"
+
+
+LakeofRage_Text_GuayIntro:
+	.string "Creo que vi un MAGIKARP dorado,\n"
+	.string "deben de ser imaginaciones mías.$"
+
+
+LakeofRage_Text_GuayDefeated:
+	.string "¡Muy bien!$"
+
+
+LakeofRage_Text_GuayPostBattle:
+	.string "Este lago debe de tener algún\n"
+	.string "misterio más allá de MAGIKARP y\l"
+	.string "GYARADOS, ¿no crees?$"
+
+
+NinjaBaseS1_Text_LadronIntro:
+	.string "Este es uno de los últimos\n"
+	.string "escondites que quedan libres en\l"
+	.string "JOHTO.\l"
+	.string "¿Crees que vamos a renunciar tan\l"
+	.string "facilmente?$"
+
+
+NinjaBaseS1_Text_LadronDefeated:
+	.string "Nuestros superiores se encargarán\n"
+	.string "de ti.$"
+
+
+NinjaBaseS1_Text_LadronPostBattle:
+	.string "Como ENTRENADOR individual eres\n"
+	.string "excepcional, pero las batallas las\l"
+	.string "ganan los equipos, tú en cambio\l"
+	.string "aquí estás solo.$"
+
+
+NinjaBaseS1_Text_CalvoIntro:
+	.string "¿Otro ROCKET más?\n"
+	.string "¡¿Un oficial?!\l"
+	.string "¡Será lo mismo!$"
+
+
+NinjaBaseS1_Text_CalvoDefeated:
+	.string "Guau, ¡qué potencia!$"
+
+
+NinjaBaseS1_Text_CalvoPostBattle:
+	.string "Esta base no pertence a nadie,\n"
+	.string "nosotros llegamos primero y nos la\l"
+	.string "apropiamos. Si FREDO no estuvo\l"
+	.string "atento, ¡no es nuestro problema!$"
+
+
+NinjaBaseS2_Text_NinjaIntro:
+	.string "Esta base perteneció a los ninjas.\n"
+	.string "¡Y a los ninjas volverá a\l"
+	.string "pertenecer!$"
+
+
+NinjaBaseS2_Text_NinjaDefeated:
+	.string "¡Bomba de humo!$"
+
+
+NinjaBaseS2_Text_NinjaPostBattle:
+	.string "Podrás ser fuerte, pero no podrás\n"
+	.string "con todos nosotros a la vez.$"
+
+
+NinjaBaseS2_Text_LadronIntro:
+	.string "Ningún ROCKET ha logrado pasar de\n"
+	.string "este punto, ¿quién eres tú?$"
+
+
+NinjaBaseS2_Text_LadronDefeated:
+	.string "¡No eres un ROCKET corriente!$"
+
+
+NinjaBaseS2_Text_LadronPostBattle:
+	.string "¡Qué más da mi derrota!\n"
+	.string "¡Estás a años luz de poder tocar a\l"
+	.string "nuestros jefes!$"
+
+
+NinjaBaseS2_Text_Ladron2Intro:
+	.string "Aquí montaremos nuestros negocios.\n"
+	.string "¡Este lugar ya tiene dueño!$"
+
+
+NinjaBaseS2_Text_Ladron2Defeated:
+	.string "¡Salí escaldado!$"
+
+
+NinjaBaseS2_Text_Ladron2PostBattle:
+	.string "Como esto salga mal tendré que\n"
+	.string "volver al SUBTERRÁNEO de TRIGAL...$"
+
+
+NinjaBaseS2_Text_Ninja2Intro:
+	.string "¡Fwaaaa!\n"
+	.string "¡Soy rápido como el rayo, y duro\l"
+	.string "como la roca!$"
+
+
+NinjaBaseS2_Text_Ninja2Defeated:
+	.string "Espera, ¿se acabó?$"
+
+
+NinjaBaseS2_Text_Ninja2PostBattle:
+	.string "FREDO decía que esta base era\n"
+	.string "patrimonio de JOHTO. Cuando nos\l"
+	.string "enteramos de que la cedió al TEAM\l"
+	.string "ROCKET, decidimos actuar por\l"
+	.string "nuestra cuenta.$"
+
+
+NinjaBaseS2_Text_CalvoIntro:
+	.string "Pero, ¿y la seguridad del piso de\n"
+	.string "arriba?\l"
+	.string "Esos ninjas...\l"
+	.string "Ya sabía que no podías confiar en\l"
+	.string "ellos, ¡tendré que ser yo quien te\l"
+	.string "eche de aquí a patadas!$"
+
+
+NinjaBaseS2_Text_CalvoDefeated:
+	.string "¡Menuda paliza!$"
+
+
+NinjaBaseS2_Text_CalvoPostBattle:
+	.string "Hemos montado esta base para que\n"
+	.string "nadie pueda llegar hasta nuestros\l"
+	.string "jefes, ¡tus POKÉMON se agotarán\l"
+	.string "antes!$"
+
+
+NinjaBaseS3_Text_CalvoIntro:
+	.string "¡Vamos, enróllate!\n"
+	.string "¡No seas tonto, hay base para\l"
+	.string "todos!$"
+
+
+NinjaBaseS3_Text_CalvoDefeated:
+	.string "¡Pensé que podríamos llegar a un\n"
+	.string "acuerdo!$"
+
+
+NinjaBaseS3_Text_CalvoPostBattle:
+	.string "De modo que el TEAM ROCKET no hace\n"
+	.string "prisioneros, ¿eh?\l"
+	.string "Por quererlo todo os vamos a dejar\l"
+	.string "sin nada.\l"
+	.string "¡Juajuajua!$"
+
+
+NinjaBaseS3_Text_LadronIntro:
+	.string "¿Tus PP van bien?\n"
+	.string "...\l"
+	.string "...\l"
+	.string "Sí, ya sabía yo que iban bien,\l"
+	.string "¡después de este combate irán aún\l"
+	.string "mejor!$"
+
+
+NinjaBaseS3_Text_LadronDefeated:
+	.string "He contribuido a tu desgaste.$"
+
+
+NinjaBaseS3_Text_LadronPostBattle:
+	.string "Tus POKÉMON no podrán soportar el\n"
+	.string "castigo al que todos juntos te\l"
+	.string "someteremos, por muy ROCKET de\l"
+	.string "ÉLITE que seas.$"
+
+
+MahoganyTownGym_Text_GuayIntro:
+	.string "Todo lo que sé acerca del TIPO\n"
+	.string "HIELO se lo debo a FREDO.\l"
+	.string "¡Ahora verás lo que he aprendido!$"
+
+
+MahoganyTownGym_Text_GuayDefeated:
+	.string "¿No fue suficiente?$"
+
+
+MahoganyTownGym_Text_GuayPostBattle:
+	.string "Aprender a manejar la voluntad es\n"
+	.string "una de las primeras lecciones que\l"
+	.string "FREDO enseña en su GIMNASIO, va\l"
+	.string "antes incluso del propio combate\l"
+	.string "POKÉMON.$"
+
+
+MahoganyTownGym_Text_Guay2Intro:
+	.string "El ave más poderosa del TIPO HIELO\n"
+	.string "escogió a FREDO para representar a\l"
+	.string "este noble TIPO.\l"
+	.string "¿Qué tienes tú contra eso?$"
+
+
+MahoganyTownGym_Text_Guay2Defeated:
+	.string "Ya veo, tienes mucho que decir.$"
+
+
+MahoganyTownGym_Text_Guay2PostBattle:
+	.string "Hay muchos ARTICUNO, pero como el\n"
+	.string "de FREDO solo hay uno.$"
+
+
+MahoganyTownGym_Text_Guay3Intro:
+	.string "Este GIMNASIO tiene un suelo\n"
+	.string "resbaladizo. ¿A que es divertido?\l"
+	.string "¡Pero oye, aquí no estamos\l"
+	.string "jugando!$"
+
+
+MahoganyTownGym_Text_Guay3Defeated:
+	.string "¿Ves lo serios que somos?$"
+
+
+MahoganyTownGym_Text_Guay3PostBattle:
+	.string "Este GIMNASIO es genial. ¡Me\n"
+	.string "encanta patinar con mis POKéMON!$"
+
+
+MahoganyTownGym_Text_Guay4Intro:
+	.string "Conozco el secreto de FREDO.$"
+
+
+MahoganyTownGym_Text_Guay4Defeated:
+	.string "Te contaré el secreto de FREDO.$"
+
+
+MahoganyTownGym_Text_Guay4PostBattle:
+	.string "El secreto del poder de FREDO...\n"
+	.string "Medita todos los días bajo una\l"
+	.string "cascada para fortalecer el cuerpo\l"
+	.string "y la mente.$"
