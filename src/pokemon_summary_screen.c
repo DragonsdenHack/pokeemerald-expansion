@@ -47,6 +47,8 @@
 #include "constants/rgb.h"
 #include "constants/songs.h"
 #include "constants/battle_config.h"
+#include "constants/flags.h"
+
 
 enum {
     PSS_PAGE_INFO,
@@ -3505,14 +3507,24 @@ static void PrintExpPointsNextLevel(void)
     x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar1, 42) + 2;
     PrintTextOnWindow(windowId, gStringVar1, x, 1, 0, 0);
 
-    if (sum->level < MAX_LEVEL)
+    if (sum-> level > 100 && sum->level < MAX_LEVEL)
+    {    
         expToNextLevel = gExperienceTables[gBaseStats[sum->species].growthRate][sum->level + 1] - sum->exp;
-    else
+    }
+    else if (sum->level == 100 && FlagGet(FLAG_EXPAND_MAX_LEVEL) == FALSE)
+    {
         expToNextLevel = 0;
-
+    }
+    else if (sum->level == 100 && FlagGet(FLAG_EXPAND_MAX_LEVEL) == TRUE) 
+    {
+        expToNextLevel = gExperienceTables[gBaseStats[sum->species].growthRate][sum->level + 1] - sum->exp;
+    }
+    else{
+       expToNextLevel = 0; 
+    }
     ConvertIntToDecimalStringN(gStringVar1, expToNextLevel, STR_CONV_MODE_RIGHT_ALIGN, 6);
     x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar1, 42) + 2;
-    PrintTextOnWindow(windowId, gStringVar1, x, 17, 0, 0);
+    PrintTextOnWindow(windowId, gStringVar1, x, 17, 0, 0);  
 }
 
 static void PrintBattleMoves(void)

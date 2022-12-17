@@ -1337,7 +1337,7 @@
 
 // #define TRAINER_FLAGS_START                                         0x500
 // #define TRAINER_FLAGS_END                                           (TRAINER_FLAGS_START + MAX_TRAINERS_COUNT - 1) // 0x85F
-
+#define FLAG_EXPAND_MAX_LEVEL 0x500
 // System Flags
 
 #define SYSTEM_FLAGS                                   (0x85F + 1) // 0x860
