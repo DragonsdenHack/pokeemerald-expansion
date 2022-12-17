@@ -14436,3 +14436,244 @@ MahoganyTownGym_Text_Guay4PostBattle:
 	.string "Medita todos los días bajo una\l"
 	.string "cascada para fortalecer el cuerpo\l"
 	.string "y la mente.$"
+
+
+Route44_Text_DomadorIntro:
+	.string "¡Haré que todo tu equipo se\n"
+	.string "arrodille ante mí a latigazos!$"
+
+
+Route44_Text_DomadorDefeated:
+	.string "¡No, por favor, no sigas!$"
+
+
+Route44_Text_DomadorPostBattle:
+	.string "¡¿Formas parte de la ÉLITE del\n"
+	.string "TEAM ROCKET?!\l"
+	.string "¡Perdóname, no tenía ni idea!$"
+
+
+Route44_Text_GuayIntro:
+	.string "¡Mi sagrado POKÉMON te someterá!$"
+
+
+Route44_Text_GuayDefeated:
+	.string "¿Cómo es posible?$"
+
+
+Route44_Text_GuayPostBattle:
+	.string "Pensé que con un PSEUDOLEGENDARIO\n"
+	.string "como DRAGONITE ningún ENTRENADOR\l"
+	.string "de calle podría tocarme, ¡aunque\l"
+	.string "tú no eres un tipo normal!$"
+
+
+Route44_Text_PescadorIntro:
+	.string "¿Sabes por qué no hay CORSOLA en\n"
+	.string "las aguas de KANTO?\l"
+	.string "¡Te lo diré si me derrotas!$"
+
+
+Route44_Text_PescadorDefeated:
+	.string "¡Qué gran nivel!$"
+
+
+Route44_Text_PescadorPostBattle:
+	.string "Antiguamente, había CORSOLA tanto\n"
+	.string "en KANTO como en JOHTO, pero todos\l"
+	.string "emigraron aquí en cuanto empezaron\l"
+	.string "a construir esa CENTRAL ENERGÍA en\l"
+	.string "RUTA 10 y las aguas de FUCSIA se\l"
+	.string "llenaron de turistas y MOTORISTAS\l"
+	.string "del CAMINO BICIS. JOHTO sigue\l"
+	.string "siendo pura, y espero que continúe\l"
+	.string "así.$"
+
+
+Route44_Text_NecioIntro:
+	.string "¡Voy a hacer lo que sea para\n"
+	.string "conseguir POKÉMON raros!$"
+
+
+Route44_Text_NecioDefeated:
+	.string "Oooh, tu equipo POKÉMON es muy\n"
+	.string "bonito.$"
+
+
+Route44_Text_NecioPostBattle:
+	.string "Los POKÉMON de colores poco\n"
+	.string "habituales tienen más valor.\l"
+	.string "¿Qué? ¿Insinúas que no es cierto?$"
+
+
+Route44_Text_OrnitologoIntro:
+	.string "Pareces alguien de renombre.\n"
+	.string "¡Mis pájaros están temblando!$"
+
+
+Route44_Text_OrnitologoDefeated:
+	.string "¡Pues era cierto!$"
+
+
+Route44_Text_OrnitologoPostBattle:
+	.string "¿Cómo?\n"
+	.string "¿Tú y el TEAM ROCKET estáis\l"
+	.string "elaborando un plan maestro en la\l"
+	.string "TORRE RADIO junto con las\l"
+	.string "personalidades más influyentes de\l"
+	.string "KANTO y JOHTO, para decidir el\l"
+	.string "destino de las 2 regiones?\l"
+	.string "¿Y me cuentas todo esto porque de\l"
+	.string "todas formas nadie me creerá?\l"
+	.string "Oh...$"
+
+
+DragonsdenS2_Text_GuayIntro:
+	.string "Pisar este lugar es un privilegio,\n"
+	.string "¿sabes lo que nuestro GRAN MAESTRO\l"
+	.string "hace con los ilusos que creen\l"
+	.string "haber pasado su prueba?$"
+
+
+DragonsdenS2_Text_GuayDefeated:
+	.string "¡Por algo estás aquí!$"
+
+
+DragonsdenS2_Text_GuayPostBattle:
+	.string "Te lo diré, a aquellos no\n"
+	.string "merecedores de ver este lugar les\l"
+	.string "hace creer que ya han visto todo,\l"
+	.string "realizando una serie de sencillas\l"
+	.string "preguntas que hasta un niño de 6\l"
+	.string "años respondería bien, del tipo:\l"
+	.string "¿cómo debes tratar a tus POKÉMON,\l"
+	.string "bien o mal? Lo mejor es que la\l"
+	.string "mayoría ya cree tener la bendición\l"
+	.string "de nuestro MAESTRO únicamente por\l"
+	.string "responder bien a algo tan obvio.$"
+
+
+DragonsdenS2_Text_Guay2Intro:
+	.string "Los POKÉMON de nuestro MAESTRO\n"
+	.string "DRAGÓN son los más poderosos de\l"
+	.string "JOHTO, pero a él no le gusta\l"
+	.string "mostrarlos en público.$"
+
+
+DragonsdenS2_Text_Guay2Defeated:
+	.string "¡Qué POKÉMON tan poderosos!$"
+
+
+DragonsdenS2_Text_Guay2PostBattle:
+	.string "Dicen que alguno de los dragones\n"
+	.string "de nuestro MAESTRO excede incluso\l"
+	.string "el poder de LUGIA y HO-OH.$"
+
+
+DragonsdenS3_Text_GuayIntro:
+	.string "Los dragones no son resistentes al\n"
+	.string "FUEGO, AGUA y PLANTA por\l"
+	.string "casualidad, son el tipo más\l"
+	.string "dominante y al que aquí rendimos\l"
+	.string "culto.$"
+
+
+DragonsdenS3_Text_GuayDefeated:
+	.string "¡Me has congelado!$"
+
+
+DragonsdenS3_Text_GuayPostBattle:
+	.string "A pesar de sus fortalezas, muchos\n"
+	.string "dragones son muy vulnerables al\l"
+	.string "hielo.$"
+
+
+DragonsdenS3_Text_Guay2Intro:
+	.string "¿Sabías que el TIPO DRAGÓN es el\n"
+	.string "más antiguo y poderoso de los 18\l"
+	.string "TIPOS?\l"
+	.string "Ahora verás por qué.$"
+
+
+DragonsdenS3_Text_Guay2Defeated:
+	.string "¿Cómo puede ser?$"
+
+
+DragonsdenS3_Text_Guay2PostBattle:
+	.string "Creí que con un PSEUDOLEGENDARIO\n"
+	.string "en mi equipo no tendrías nada que\l"
+	.string "hacer, después recordé que el\l"
+	.string "MAESTRO DRAGÓN no deja entrar a un\l"
+	.string "cualquiera a este lugar.$"
+
+
+DragonsdenS4_Text_SabioIntro:
+	.string "Este lugar es más antiguo que\n"
+	.string "TORRE CAMPANA, los confines de\l"
+	.string "GUARIDA DRAGÓN son el último\l"
+	.string "bastión de JOHTO que muchos jamás\l"
+	.string "llegan a ver. ¿Mereces tú verlo?$"
+
+
+DragonsdenS4_Text_SabioDefeated:
+	.string "Un equipo más que interesante.$"
+
+
+DragonsdenS4_Text_SabioPostBattle:
+	.string "Dicen que en este lugar surgió el\n"
+	.string "TIPO DRAGÓN como tal, lo cierto es\l"
+	.string "que ha pasado tanto tiempo que ya\l"
+	.string "es difícil diferenciar el mito de\l"
+	.string "la realidad.$"
+
+
+SouthRoute45_Text_KaratekaIntro:
+	.string "Estaba entrenando aquí solo.\n"
+	.string "¡Observa el fruto de mi\l"
+	.string "trabajo!$"
+
+
+SouthRoute45_Text_KaratekaDefeated:
+	.string "¡Waaaargh!$"
+
+
+SouthRoute45_Text_KaratekaPostBattle:
+	.string "¡Debo entrenarme más para ser el\n"
+	.string "más fuerte!$"
+
+
+SouthRoute45_Text_ChicoIntro:
+	.string "Mis POKÉMON de campo son geniales.\n"
+	.string "¡Mira cómo luchan!$"
+
+
+SouthRoute45_Text_ChicoDefeated:
+	.string "¡Vaya vendaval!$"
+
+
+SouthRoute45_Text_ChicoPostBattle:
+	.string "Tus POKÉMON tienen una fortaleza\n"
+	.string "increíble, ¿cómo es que no he oído\l"
+	.string "hablar de ti?\l"
+	.string "¡Deberías estar en la ÉLITE 4 como\l"
+	.string "mínimo!$"
+
+
+SouthRoute45_Text_MontaneroIntro:
+	.string "No hay MONTAÑERO que me tosa en\n"
+	.string "toda JOHTO.\l"
+	.string "¿Tengo que aplastar a un pobre\l"
+	.string "funcionario de TRIGAL para\l"
+	.string "demostrarlo?\l"
+	.string "¡Adelante!$"
+
+
+SouthRoute45_Text_MontaneroDefeated:
+	.string "¡¿Pero quién eres tú?!$"
+
+
+SouthRoute45_Text_MontaneroPostBattle:
+	.string "Pensé que eras otro ricachón más\n"
+	.string "que está haciendo fortuna con la\l"
+	.string "TORRE RADIO, pero tus POKÉMON\l"
+	.string "están a otro nivel.$"
