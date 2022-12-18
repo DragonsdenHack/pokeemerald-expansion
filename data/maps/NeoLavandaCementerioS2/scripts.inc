@@ -96,3 +96,24 @@ NeoLavandaCementerioS2_Text_18:
 .string "algo que merezcamos. Cuando la vida va\l"
 .string "bien, es un regalo inesperado, no puede\l"
 .string "durar siempre.$"
+
+
+
+NeoLavandaCementerioS2_EventScript_Exorcista::
+	trainerbattle_single TRAINER_TRAINER_37, NeoLavandaCementerioS2_Text_ExorcistaIntro, NeoLavandaCementerioS2_Text_ExorcistaDefeated
+	msgbox NeoLavandaCementerioS2_Text_ExorcistaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NeoLavandaCementerioS2_EventScript_Exorcista2::
+	trainerbattle_single TRAINER_TRAINER_36, NeoLavandaCementerioS2_Text_Exorcista2Intro, NeoLavandaCementerioS2_Text_Exorcista2Defeated
+	msgbox NeoLavandaCementerioS2_Text_Exorcista2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NeoLavandaCementerioS2_EventScript_Exorcista3::
+	trainerbattle_single TRAINER_TRAINER_38, NeoLavandaCementerioS2_Text_Exorcista3Intro, NeoLavandaCementerioS2_Text_Exorcista3Defeated
+	msgbox NeoLavandaCementerioS2_Text_Exorcista3PostBattle, MSGBOX_AUTOCLOSE
+	end

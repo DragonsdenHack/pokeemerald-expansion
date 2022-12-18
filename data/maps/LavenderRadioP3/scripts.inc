@@ -88,3 +88,10 @@ LavenderRadioP3_Text_10:
 .string "personas inteligentes tendrán\l"
 .string "prohibido hablar para no ofender a los\l"
 .string "imbéciles.$"
+
+
+
+LavenderRadioP3_EventScript_Cientifico::
+	trainerbattle_single TRAINER_CRISTIN_3, LavenderRadioP3_Text_CientificoIntro, LavenderRadioP3_Text_CientificoDefeated
+	msgbox LavenderRadioP3_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end

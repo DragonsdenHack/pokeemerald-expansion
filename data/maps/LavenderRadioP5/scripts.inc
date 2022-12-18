@@ -144,3 +144,10 @@ LavenderRadioP5_Text_11:
 .string "hay a mi alrededor, no existe sobre el\l"
 .string "papel, sin embargo, en el futuro dará\l"
 .string "forma a todo el mundo conocido.$"
+
+
+
+LavenderRadioP5_EventScript_Cientifico::
+	trainerbattle_single TRAINER_CRISTIN_4, LavenderRadioP5_Text_CientificoIntro, LavenderRadioP5_Text_CientificoDefeated
+	msgbox LavenderRadioP5_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end

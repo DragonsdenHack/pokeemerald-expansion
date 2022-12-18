@@ -15296,3 +15296,167 @@ LavenderRadioP1_Text_CientificoPostBattle:
 	.string "en un 30% los movimientos basados en\l"
 	.string "sonidos, este POKÉMON cuenta con uno\l"
 	.string "de 80 de potencia y STAB.$"
+
+
+LavenderRadioP3_Text_CientificoIntro:
+	.string "Ejem… Me considero un POLICÍA\n"
+	.string "competente. Comprenderás que no puedo\l"
+	.string "dejar pasar la ocasión de luchar contra\l"
+	.string "una leyenda del TEAM ROCKET para\l"
+	.string "ponerme a prueba.$"
+
+
+LavenderRadioP3_Text_CientificoDefeated:
+	.string "Gracias por el combate, SIR.$"
+
+
+LavenderRadioP3_Text_CientificoPostBattle:
+	.string "La verdadera seguridad está aquí\n"
+	.string "arriba, no permitir la entrada a estos\l"
+	.string "pisos no es más que otra mentira\l"
+	.string "piadosa para que la sociedad siga\l"
+	.string "funcionando.$"
+
+
+LavenderRadioP5_Text_CientificoIntro:
+	.string "La verdad es que llevo un rato sin nada\n"
+	.string "que hacer. ¡Una clase práctica no me\l"
+	.string "vendría nada mal!$"
+
+
+LavenderRadioP5_Text_CientificoDefeated:
+	.string "Vaya, la teoría no tiene nada que ver\n"
+	.string "con la práctica.$"
+
+
+LavenderRadioP5_Text_CientificoPostBattle:
+	.string "Se necesita algo más para ser un gran\n"
+	.string "ENTRENADOR, que simplemente conocer\l"
+	.string "las variables que rijen un combate, tú\l"
+	.string "lo has demostrado.$"
+
+
+LavenderRadioP6_Text_CientificoIntro:
+	.string "¡Permítame este combate, señor! ¡Es\n"
+	.string "usted una leyenda del TEAM ROCKET!$"
+
+
+LavenderRadioP6_Text_CientificoDefeated:
+	.string "Su equipo hace honor a su leyenda,\n"
+	.string "señor.$"
+
+
+LavenderRadioP6_Text_CientificoPostBattle:
+	.string "¿Qué ADMIN.JEFE es más fuerte? ¿ANDRA\n"
+	.string "o usted?$"
+
+
+NeoLavandaCementerioS1_Text_ExorcistaIntro:
+	.string "¡Espera! ¡Yo te conozco!$"
+
+
+NeoLavandaCementerioS1_Text_ExorcistaDefeated:
+	.string "¡Eres del TEAM ROCKET!$"
+
+
+NeoLavandaCementerioS1_Text_ExorcistaPostBattle:
+	.string "Fuiste tú uno de los que formó ese\n"
+	.string "alboroto en TORRE POKÉMON, hace más de\l"
+	.string "un año ya. Siempre hay oportunidad\l"
+	.string "para la redención.$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista2Intro:
+	.string "Todas las almas de TORRE POKÉMON han\n"
+	.string "sido movidas aquí, ¡no ha sido fácil!$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista2Defeated:
+	.string "¡No estropees este lugar!$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista2PostBattle:
+	.string "FUJI ha hecho un trabajo ejemplar, sin\n"
+	.string "él hubiéramos tardado mucho más en\l"
+	.string "construir este gran CEMENTERIO.$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista3Intro:
+	.string "¿Qué espera a PUEBLO LAVANDA a partir\n"
+	.string "de ahora?$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista3Defeated:
+	.string "Esperar… Seguiré esperando…$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista3PostBattle:
+	.string "Tal vez ya hayamos vivido la edad de oro\n"
+	.string "de PUEBLO LAVANDA. Hombres peores\l"
+	.string "gobiernan bajo las sombras, y el resto\l"
+	.string "de la historia no merece ser contada.$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista4Intro:
+    .string "¿Crees que los espíritus pueden torcer\n"
+	.string "nuestra voluntad?$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista4Defeated:
+	.string "¡Yo creo que sí!$"
+
+
+NeoLavandaCementerioS1_Text_Exorcista4PostBattle:
+	.string "Estamos rodeados de tantos estímulos,\n"
+	.string "que el menos esperado puede ejercer un\l"
+	.string "papel determinante en nuestras\l"
+	.string "decisiones.$"
+
+
+NeoLavandaCementerioS2_Text_ExorcistaIntro:
+	.string "PUEBLO LAVANDA ha cambiado, ¡ahora\n"
+	.string "debemos seguir ciertas reglas!$"
+
+
+NeoLavandaCementerioS2_Text_ExorcistaDefeated:
+	.string "¡Kwhaaaaa!$"
+
+
+NeoLavandaCementerioS2_Text_ExorcistaPostBattle:
+	.string "No podemos pasear por el pueblo\n"
+	.string "vestidas así, dicen que choca con la\l"
+	.string "imagen moderna que se quiere dar. La\l"
+	.string "indumentaria de EXORCISTA únicamente\l"
+	.string "la usamos en el CEMENTERIO y en las\l"
+	.string "casas.$"
+
+
+NeoLavandaCementerioS2_Text_Exorcista2Intro:
+	.string "Hay energías muy poderosas en esta\n"
+	.string "sala. ¿Las sientes?$"
+
+
+NeoLavandaCementerioS2_Text_Exorcista2Defeated:
+	.string "¡Una de ellas es la de tus POKÉMON!$"
+
+
+NeoLavandaCementerioS2_Text_Exorcista2PostBattle:
+	.string "El alma de GHOST está ahora en este\n"
+	.string "lugar, lo sé porque lo he sentido.$"
+
+
+NeoLavandaCementerioS2_Text_Exorcista3Intro:
+	.string "Entonces, ¿tú eres el chico que\n"
+	.string "enfrentó a la ESENCIA personificada en\l"
+	.string "POKÉMON?$"
+
+
+NeoLavandaCementerioS2_Text_Exorcista3Defeated:
+	.string "¡Debes ser tú!$"
+
+
+NeoLavandaCementerioS2_Text_Exorcista3PostBattle:
+	.string "FUJI nos contó historias, dice que\n"
+	.string "enfrentaste a las mayores fuerzas de\l"
+	.string "este mundo, ¡y a un déspota que\l"
+	.string "lideraba una secta cerca de aquí!$"

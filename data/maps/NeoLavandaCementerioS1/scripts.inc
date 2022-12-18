@@ -126,3 +126,31 @@ NeoLavandaCementerioS1_Text_15:
 .string "CEMENTERIO de PUEBLO LAVANDA! FUJI ya\l"
 .string "me avisó de que vendrías, eres toda\l"
 .string "una leyenda aquí.$"
+
+
+
+NeoLavandaCementerioS1_EventScript_Exorcista::
+	trainerbattle_single TRAINER_TRAINER_35, NeoLavandaCementerioS1_Text_ExorcistaIntro, NeoLavandaCementerioS1_Text_ExorcistaDefeated
+	msgbox NeoLavandaCementerioS1_Text_ExorcistaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NeoLavandaCementerioS1_EventScript_Exorcista2::
+	trainerbattle_single TRAINER_TRAINER_34, NeoLavandaCementerioS1_Text_Exorcista2Intro, NeoLavandaCementerioS1_Text_Exorcista2Defeated
+	msgbox NeoLavandaCementerioS1_Text_Exorcista2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NeoLavandaCementerioS1_EventScript_Exorcista3::
+	trainerbattle_single TRAINER_TRAINER_32, NeoLavandaCementerioS1_Text_Exorcista3Intro, NeoLavandaCementerioS1_Text_Exorcista3Defeated
+	msgbox NeoLavandaCementerioS1_Text_Exorcista3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NeoLavandaCementerioS1_EventScript_Exorcista4::
+	trainerbattle_single TRAINER_TRAINER_33, NeoLavandaCementerioS1_Text_Exorcista4Intro, NeoLavandaCementerioS1_Text_Exorcista4Defeated
+	msgbox NeoLavandaCementerioS1_Text_Exorcista4PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -41,3 +41,10 @@ LavenderRadioP6_Text_6:
 .string "Estuve allí cuando el TEAM ROCKET llegó\n"
 .string "a AZAFRÁN. La invasión a SILPH hizo\l"
 .string "replantearme muchas cosas.$"
+
+
+
+LavenderRadioP6_EventScript_Cientifico::
+	trainerbattle_single TRAINER_CRISTIN_5, LavenderRadioP6_Text_CientificoIntro, LavenderRadioP6_Text_CientificoDefeated
+	msgbox LavenderRadioP6_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
