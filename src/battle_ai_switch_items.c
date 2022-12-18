@@ -1,4 +1,4 @@
-#include "global.h"
+d#include "global.h"
 #include "battle.h"
 #include "battle_ai_main.h"
 #include "battle_ai_util.h"
@@ -833,6 +833,9 @@ static bool8 ShouldUseItem(void)
 
         if (item == ITEM_ENIGMA_BERRY_E_READER)
             itemEffects = gSaveBlock1Ptr->enigmaBerry.itemEffect;
+            #else
+            itemEffects = 0;
+            #endif
         else
             itemEffects = gItemEffectTable[item - ITEM_POTION];
 
