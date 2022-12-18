@@ -3507,7 +3507,7 @@ static void PrintExpPointsNextLevel(void)
     x = GetStringRightAlignXOffset(FONT_NORMAL, gStringVar1, 42) + 2;
     PrintTextOnWindow(windowId, gStringVar1, x, 1, 0, 0);
 
-    if (sum-> level > 100 && sum->level < MAX_LEVEL)
+    if (sum-> level != 100 && sum->level < MAX_LEVEL)
     {    
         expToNextLevel = gExperienceTables[gBaseStats[sum->species].growthRate][sum->level + 1] - sum->exp;
     }
