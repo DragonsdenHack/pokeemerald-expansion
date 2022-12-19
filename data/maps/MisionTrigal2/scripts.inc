@@ -1,2 +1,30 @@
 MisionTrigal2_MapScripts::
 	.byte 0
+
+
+
+MisionTrigal2_EventScript_Motero::
+	trainerbattle_single TRAINER_TRAINER_79, MisionTrigal2_Text_MoteroIntro, MisionTrigal2_Text_MoteroDefeated
+	msgbox MisionTrigal2_Text_MoteroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+MisionTrigal2_EventScript_Ladron::
+	trainerbattle_single TRAINER_TRAINER_77, MisionTrigal2_Text_LadronIntro, MisionTrigal2_Text_LadronDefeated
+	msgbox MisionTrigal2_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+MisionTrigal2_EventScript_Motero2::
+	trainerbattle_single TRAINER_TRAINER_80, MisionTrigal2_Text_Motero2Intro, MisionTrigal2_Text_Motero2Defeated
+	msgbox MisionTrigal2_Text_Motero2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+MisionTrigal2_EventScript_Ladron2::
+	trainerbattle_single TRAINER_TRAINER_78, MisionTrigal2_Text_Ladron2Intro, MisionTrigal2_Text_Ladron2Defeated
+	msgbox MisionTrigal2_Text_Ladron2PostBattle, MSGBOX_AUTOCLOSE
+	end

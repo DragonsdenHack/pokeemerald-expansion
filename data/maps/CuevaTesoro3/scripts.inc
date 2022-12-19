@@ -1,2 +1,23 @@
 CuevaTesoro3_MapScripts::
 	.byte 0
+
+
+
+CuevaTesoro3_EventScript_Policia::
+	trainerbattle_single TRAINER_TRAINER_96, CuevaTesoro3_Text_PoliciaIntro, CuevaTesoro3_Text_PoliciaDefeated
+	msgbox CuevaTesoro3_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CuevaTesoro3_EventScript_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_97, CuevaTesoro3_Text_CientificoIntro, CuevaTesoro3_Text_CientificoDefeated
+	msgbox CuevaTesoro3_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CuevaTesoro3_EventScript_Policia2::
+	trainerbattle_single TRAINER_TRAINER_98, CuevaTesoro3_Text_Policia2Intro, CuevaTesoro3_Text_Policia2Defeated
+	msgbox CuevaTesoro3_Text_Policia2PostBattle, MSGBOX_AUTOCLOSE
+	end

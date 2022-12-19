@@ -87,3 +87,10 @@ GoldenrodUnderground_EventScript_Ladron::
 	trainerbattle_single TRAINER_WAYNE, GoldenrodUnderground_Text_LadronIntro, GoldenrodUnderground_Text_LadronDefeated
 	msgbox GoldenrodUnderground_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+GoldenrodUnderground_EventScript_Maton2::
+	trainerbattle_single TRAINER_TRAINER_105, GoldenrodUnderground_Text_Maton2Intro, GoldenrodUnderground_Text_Maton2Defeated
+	msgbox GoldenrodUnderground_Text_Maton2PostBattle, MSGBOX_AUTOCLOSE
+	end

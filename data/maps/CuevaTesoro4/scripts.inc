@@ -1,2 +1,37 @@
 CuevaTesoro4_MapScripts::
 	.byte 0
+
+
+
+CuevaTesoro4_EventScript_Policia::
+	trainerbattle_single TRAINER_TRAINER_99, CuevaTesoro4_Text_PoliciaIntro, CuevaTesoro4_Text_PoliciaDefeated
+	msgbox CuevaTesoro4_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CuevaTesoro4_EventScript_Policia2::
+	trainerbattle_single TRAINER_TRAINER_100, CuevaTesoro4_Text_Policia2Intro, CuevaTesoro4_Text_Policia2Defeated
+	msgbox CuevaTesoro4_Text_Policia2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CuevaTesoro4_EventScript_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_101, CuevaTesoro4_Text_CientificoIntro, CuevaTesoro4_Text_CientificoDefeated
+	msgbox CuevaTesoro4_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CuevaTesoro4_EventScript_Cientifico2::
+	trainerbattle_single TRAINER_TRAINER_102, CuevaTesoro4_Text_Cientifico2Intro, CuevaTesoro4_Text_Cientifico2Defeated
+	msgbox CuevaTesoro4_Text_Cientifico2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CuevaTesoro4_EventScript_Cientifico3::
+	trainerbattle_single TRAINER_TRAINER_103, CuevaTesoro4_Text_Cientifico3Intro, CuevaTesoro4_Text_Cientifico3Defeated
+	msgbox CuevaTesoro4_Text_Cientifico3PostBattle, MSGBOX_AUTOCLOSE
+	end

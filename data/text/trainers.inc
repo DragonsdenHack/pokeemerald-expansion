@@ -15460,3 +15460,410 @@ NeoLavandaCementerioS2_Text_Exorcista3PostBattle:
 	.string "enfrentaste a las mayores fuerzas de\l"
 	.string "este mundo, ¡y a un déspota que\l"
 	.string "lideraba una secta cerca de aquí!$"
+
+
+GimnasioAnciana_Text_AncianoIntro:
+	.string "No intentes averiguar en qué lugar del\n"
+	.string "mapa estamos. ¡Es imposible!$"
+
+
+GimnasioAnciana_Text_AncianoDefeated:
+	.string "¡Perdí el juego!$"
+
+
+GimnasioAnciana_Text_AncianoPostBattle:
+	.string "La vegetación rodeó este lugar por\n"
+	.string "completo hace décadas, solo los más\l"
+	.string "ancianos recordamos la época en que\l"
+	.string "llegábamos aquí sin usar el\l"
+	.string "teletransportador. El resto no conoce\l"
+	.string "otra cosa.$"
+
+
+GimnasioAnciana_Text_AncianaIntro:
+	.string "¡Un aspirante! ¡La última vez que dije\n"
+	.string "eso, el hombre aún no había llegado a la\l"
+	.string "Luna!$"
+
+
+GimnasioAnciana_Text_AncianaDefeated:
+	.string "¡Menudo aspirante!$"
+
+
+GimnasioAnciana_Text_AncianaPostBattle:
+	.string "A pesar de esos 30 años sin ningún\n"
+	.string "aspirante, algunos conservamos esa\l"
+	.string "llama competitiva… eso no tiene edad, y\l"
+	.string "nuestra LÍDER es la mayor prueba de\l"
+	.string "ello.$"
+
+
+GimnasioAnciana_Text_Anciano2Intro:
+	.string "Algunos dicen que las nuevas\n"
+	.string "generaciones están en decadencia.\l"
+	.string "¿Qué hay de ti!$"
+
+
+GimnasioAnciana_Text_Anciano2Defeated:
+	.string "Mmmm… no veo esa decadencia…$"
+
+
+GimnasioAnciana_Text_Anciano2PostBattle:
+	.string "Muchos tienden a idealizar el pasado,\n"
+	.string "con ello se pierden las infinitas\l"
+	.string "probabilidades del propio presente al\l"
+	.string "que también idealizarán en el futuro.$"
+
+
+GimnasioAnciana_Text_Anciano3Intro:
+	.string "Algunos de nuestros POKÉMON ya no\n"
+	.string "pueden atraparse en ningún lugar, ¿lo\l"
+	.string "sabías?$"
+
+
+GimnasioAnciana_Text_Anciano3Defeated:
+	.string "¿Dónde atrapaste esos POKÉMON?$"
+
+
+GimnasioAnciana_Text_Anciano3PostBattle:
+	.string "Las ISLAS SETE son formidables, aunque\n"
+	.string "los mejores lugares se siguen\l"
+	.string "manteniendo en secreto.$"
+
+
+GoldenrodUnderground_Text_Maton2Intro:
+	.string "¿Quieres pelea? ¡De nada van a servirte\n"
+	.string "esos POKÉMON comprados!$"
+
+
+GoldenrodUnderground_Text_Maton2Defeated:
+	.string "¿Quién te ha vendido esos POKÉMON?$"
+
+
+GoldenrodUnderground_Text_Maton2PostBattle:
+	.string "¡Puaf, me confié! ¡Espera a que avise al\n"
+	.string "JEFE! ¡Por mucho que hayas comprado\l"
+	.string "POKÉMON de calidad, él siempre se queda\l"
+	.string "con los mejores!$"
+
+
+MisionTrigal2_Text_MoteroIntro:
+	.string "¿Quién eres tú? ¿No teníamos un\n"
+	.string "acuerdo de no intervención?$"
+
+
+MisionTrigal2_Text_MoteroDefeated:
+	.string "¡Espera!$"
+
+
+MisionTrigal2_Text_MoteroPostBattle:
+	.string "A esta ciudad le interesa que este\n"
+	.string "negocio siga, no sé de dónde has salido\l"
+	.string "tú.$"
+
+
+MisionTrigal2_Text_LadronIntro:
+	.string "Hay un gran negocio aquí, ¿no querrás\n"
+	.string "tú acabar con él?$"
+
+
+MisionTrigal2_Text_LadronDefeated:
+	.string "Cuidado por dónde andas.$"
+
+
+MisionTrigal2_Text_LadronPostBattle:
+	.string "Este negocio forma parte de la ciudad.\n"
+	.string "Si acabas con él, acabas con TRIGAL.$"
+
+
+MisionTrigal2_Text_Motero2Intro:
+	.string "Los ejecutivos de TORRE RADIO no\n"
+	.string "suelen bajar al barro. ¿Qué pretendes?$"
+
+
+MisionTrigal2_Text_Motero2Defeated:
+	.string "Los de arriba se enfadarán…$"
+
+
+MisionTrigal2_Text_Motero2PostBattle:
+	.string "Tus POKÉMON son demasiado buenos como\n"
+	.string "para haberlos comprado. ¿De verdad los\l"
+	.string "has criado tú mismo desde 0?$"
+
+
+MisionTrigal2_Text_Ladron2Intro:
+	.string "Hay POKÉMON de otras regiones a muy\n"
+	.string "buen precio. ¡No seas tonto, aprovecha\l"
+	.string "y toma uno! ¿No? ¡Te arrepentirás!$"
+
+
+MisionTrigal2_Text_Ladron2Defeated:
+	.string "Entonces no quieres formar parte del\n"
+	.string "club.$"
+
+
+MisionTrigal2_Text_Ladron2PostBattle:
+	.string "Aquí no ofrecemos nuestra mano dos\n"
+	.string "veces. Ya estás en nuestra lista negra.$"
+
+
+MisionTrigal3_Text_MoteroIntro:
+	.string "Aquí hay cosas que la gente como tú no\n"
+	.string "debería ver.$"
+
+
+MisionTrigal3_Text_MoteroDefeated:
+	.string "¡He quemado rueda!$"
+
+
+MisionTrigal3_Text_MoteroPostBattle:
+	.string "Me gustaría visitar el CAMINO BICIS.\n"
+	.string "Dicen que hay muy buen rollo por ahí.$"
+
+
+MisionTrigal3_Text_Motero2Intro:
+	.string "¿Te has perdido?$"
+
+
+MisionTrigal3_Text_Motero2Defeated:
+	.string "¿Cómo?$"
+
+
+MisionTrigal3_Text_Motero2PostBattle:
+	.string "En este lugar mantenemos a los POKÉMON\n"
+	.string "vendidos a esos ricos de la ciudad. Me\l"
+	.string "pregunto cuántos los comprarían si\l"
+	.string "vieran de primera mano las jaulas. Ojos\l"
+	.string "que no ven, corazón que no siente,\l"
+	.string "¿verdad?$"
+
+
+MisionIrisLab_Text_LadronIntro:
+	.string "Este lugar está abandonado, no\n"
+	.string "deberías haber entrado. .. .. ¿Tienes\l"
+	.string "algún problema? ¡Aquí no hay nada! .. ..\l"
+	.string "Está bien, tendré que echarte de aquí\l"
+	.string "por las malas.$"
+
+
+MisionIrisLab_Text_LadronDefeated:
+	.string "¡Nos descubrieron!$"
+
+
+MisionIrisLab_Text_LadronPostBattle:
+	.string "Yo les mostré este lugar a esos\n"
+	.string "forasteros, ¡ahora por ello me llevaré\l"
+	.string "una parte del botín!$"
+
+
+CuevaTesoro1_Text_PoliciaIntro:
+	.string "Nadie ha entrado aquí en cientos de\n"
+	.string "años. ¿Es una broma?$"
+
+
+CuevaTesoro1_Text_PoliciaDefeated:
+	.string "¿De dónde sales tú?$"
+
+
+CuevaTesoro1_Text_PoliciaPostBattle:
+	.string "Ahora lo entiendo, escuchaste la\n"
+	.string "ubicación de este lugar mientras nos\l"
+	.string "escuchabas a escondidas. ¿Verdad,\l"
+	.string "canalla?$"
+
+
+CuevaTesoro1_Text_Policia2Intro:
+	.string "Se suponía que solo iba a permanecer\n"
+	.string "aquí por si las moscas. ¿No habrás\l"
+	.string "venido a aguarnos la fiesta?$"
+
+
+CuevaTesoro1_Text_Policia2Defeated:
+	.string "¡Aghhh!$"
+
+
+
+CuevaTesoro1_Text_Policia2PostBattle:
+    .string "La curiosidad mató al gato, no eres\n"
+	.string "consciente de las dimensiones de\l"
+	.string "nuestra organización.$"
+
+
+CuevaTesoro1_Text_Policia3Intro:
+	.string "¡Mira esta biodiversidad! ¿No es\n"
+	.string "magnífica? ¡Espera! ¡¿Quién eres tú?!$"
+
+
+CuevaTesoro1_Text_Policia3Defeated:
+	.string "¡Esto no estaba planeado!$"
+
+
+CuevaTesoro1_Text_Policia3PostBattle:
+	.string "Esta gruta lleva milenios ajena a todo\n"
+	.string "contacto con el exterior. Gracias a\l"
+	.string "ello ha podido conservar una variedad\l"
+	.string "de especies única.$"	
+
+
+CuevaTesoro1_Text_Policia4Intro:
+	.string "¿No serás un mercenario de esos que\n"
+	.string "quiere hacerse con el tesoro?$"
+
+
+CuevaTesoro1_Text_Policia4Defeated:
+	.string "Mmm… No lo pareces.$"
+
+
+CuevaTesoro1_Text_Policia4PostBattle:
+	.string "Tus POKÉMON están entrenados con\n"
+	.string "demasiado mimo para ser de un\l"
+	.string "mercenario. Lo que no sé es quién eres.$"
+
+
+CuevaTesoro2_Text_PoliciaIntro:
+	.string "Entonces tú eres la excepción que\n"
+	.string "confirma la regla, ¿no?$"
+
+
+CuevaTesoro2_Text_PoliciaDefeated:
+	.string "Así es…$"
+
+
+CuevaTesoro2_Text_PoliciaPostBattle:
+	.string "Según mis cálculos, hay más de 10\n"
+	.string "especies diferentes de POKÉMON en\l"
+	.string "esta gruta submarina.$"
+
+
+CuevaTesoro3_Text_PoliciaIntro:
+	.string "Ya nos avisaron desde las plantas\n"
+	.string "superiores. ¡No puedes derrotar a\l"
+	.string "todos!$"
+
+
+CuevaTesoro3_Text_PoliciaDefeated:
+	.string "Solo soy uno más.$"
+
+
+CuevaTesoro3_Text_PoliciaPostBattle:
+	.string "Más te vale no cabrear a los de arriba,\n"
+	.string "nuestros altos cargos te reducirían a\l"
+	.string "escombros.$"
+
+
+CuevaTesoro3_Text_CientificoIntro:
+	.string "¿Sabes cuál es el verdadero tesoro de\n"
+	.string "este lugar?$"
+
+
+CuevaTesoro3_Text_CientificoDefeated:
+	.string "Te lo diré.$"
+
+
+CuevaTesoro3_Text_CientificoPostBattle:
+	.string "Te lo diré: el verdadero tesoro de esta\n"
+	.string "gruta es un POKÉMON extraordinario.\l"
+	.string "Por eso vinimos aquí, para capturarlo y\l"
+	.string "estudiarlo.$"
+
+
+CuevaTesoro3_Text_Policia2Intro:
+	.string "Ya has llegado demasiado lejos, ¿no\n"
+	.string "crees?$"
+
+
+CuevaTesoro3_Text_Policia2Defeated:
+	.string "Sigue… sigue…$"
+
+
+CuevaTesoro3_Text_Policia2PostBattle:
+	.string "Ya veo, no eres de los que se quedan a\n"
+	.string "mitad de camino. El problema es que si\l"
+	.string "llegas hasta el final tendremos que\l"
+	.string "acabar contigo.$"
+
+
+CuevaTesoro4_Text_PoliciaIntro:
+	.string "Dicen que la seguridad en las regiones\n"
+	.string "cercanas da pena. ¿Es cierto?$"
+
+
+CuevaTesoro4_Text_PoliciaDefeated:
+	.string "Tú no estarías de POLICÍA…$"
+
+
+CuevaTesoro4_Text_PoliciaPostBattle:
+	.string "En DEVON nunca ocurriría que un niño de\n"
+	.string "10 años se infiltre en nuestra SEDE.\l"
+	.string "Para empezar nuestra SEDE de verdad\l"
+	.string "está oculta al público.$"
+
+
+CuevaTesoro4_Text_Policia2Intro:
+	.string "Tus esfuerzos son fútiles. DEVON se\n"
+	.string "hace más fuerte cuanto más la atacan,\l"
+	.string "¡solo nos estás ayudando a crecer!$"
+
+
+CuevaTesoro4_Text_Policia2Defeated:
+	.string "¡Sigue, sigue!$"
+
+
+CuevaTesoro4_Text_Policia2PostBattle:
+	.string "Nuestro PRESIDENTE nos dio una\n"
+	.string "dilatada charla sobre el principio de\l"
+	.string "antifragilidad. También nos regaló a\l"
+	.string "todos un libro sobre ello, tenía como\l"
+	.string "600 páginas…$"
+
+
+CuevaTesoro4_Text_CientificoIntro:
+	.string "Así que quieres llegar hasta nuestro\n"
+	.string "superior. Me temo que eso no será\l"
+	.string "posible, vamos tras la captura de un\l"
+	.string "POKÉMON con aptitudes muy especiales.$"
+
+
+CuevaTesoro4_Text_CientificoDefeated:
+	.string "Que así sea.$"
+
+
+CuevaTesoro4_Text_CientificoPostBattle:
+	.string "La curiosidad mató al gato, los POKÉMON\n"
+	.string "de nuestro superior son terribles.$"
+
+
+CuevaTesoro4_Text_Cientifico2Intro:
+	.string "Aquí hay especies que no verás a miles\n"
+	.string "de kilómetros a la redonda. Pero esa no\l"
+	.string "es la principal razón de que estemos\l"
+	.string "aquí.$"
+
+
+CuevaTesoro4_Text_Cientifico2Defeated:
+	.string "Tienes especies muy curiosas en tu\n"
+	.string "equipo, también…$"
+
+
+CuevaTesoro4_Text_Cientifico2PostBattle:
+	.string "¿Y tú? ¿Para qué has venido aquí?$"
+
+
+CuevaTesoro4_Text_Cientifico3Intro:
+	.string "Ningún agente externo va a\n"
+	.string "interponerse entre nuestro superior y\l"
+	.string "el objetivo de la misión. Solo eres otro\l"
+	.string "obstáculo casual, y como tal, ¡te\l"
+	.string "quitaremos de en medio!$"
+
+
+CuevaTesoro4_Text_Cientifico3Defeated:
+	.string "Tal vez no seas tan casual.$"
+
+
+CuevaTesoro4_Text_Cientifico3PostBattle:
+	.string "Nuestra presencia aquí es producto de\n"
+	.string "un profundo estudio previo. Alguien\l"
+	.string "como tú, incapaz de apreciar el poder\l"
+	.string "contenido aquí, no merece seguir\l"
+	.string "avanzando.$"

@@ -1,2 +1,30 @@
 GimnasioAnciana_MapScripts::
 	.byte 0
+
+
+
+GimnasioAnciana_EventScript_Anciano::
+	trainerbattle_single TRAINER_TRAINER_22, GimnasioAnciana_Text_AncianoIntro, GimnasioAnciana_Text_AncianoDefeated
+	msgbox GimnasioAnciana_Text_AncianoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+GimnasioAnciana_EventScript_Anciana::
+	trainerbattle_single TRAINER_TRAINER_23, GimnasioAnciana_Text_AncianaIntro, GimnasioAnciana_Text_AncianaDefeated
+	msgbox GimnasioAnciana_Text_AncianaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+GimnasioAnciana_EventScript_Anciano2::
+	trainerbattle_single TRAINER_TRAINER_24, GimnasioAnciana_Text_Anciano2Intro, GimnasioAnciana_Text_Anciano2Defeated
+	msgbox GimnasioAnciana_Text_Anciano2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+GimnasioAnciana_EventScript_Anciano3::
+	trainerbattle_single TRAINER_TRAINER_25, GimnasioAnciana_Text_Anciano3Intro, GimnasioAnciana_Text_Anciano3Defeated
+	msgbox GimnasioAnciana_Text_Anciano3PostBattle, MSGBOX_AUTOCLOSE
+	end
