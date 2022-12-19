@@ -3872,9 +3872,6 @@ static void Cmd_getexp(void)
 
                 if (item == ITEM_ENIGMA_BERRY_E_READER)
                     holdEffect = gSaveBlock1Ptr->enigmaBerry.holdEffect;
-                    #else
-                    holdEffect = 0;
-                    #endif
                 else
                     holdEffect = ItemId_GetHoldEffect(item);
 
@@ -3924,9 +3921,6 @@ static void Cmd_getexp(void)
 
             if (item == ITEM_ENIGMA_BERRY_E_READER)
                 holdEffect = gSaveBlock1Ptr->enigmaBerry.holdEffect;
-                #else
-                holdEffect = 0;
-                #endif
             else
                 holdEffect = ItemId_GetHoldEffect(item);
 

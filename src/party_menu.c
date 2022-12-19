@@ -4217,9 +4217,6 @@ static bool8 IsHPRecoveryItem(u16 item)
 
     if (item == ITEM_ENIGMA_BERRY_E_READER)
         effect = gSaveBlock1Ptr->enigmaBerry.itemEffect;
-        #else
-        effect = 0;
-        #endif
     else
         effect = gItemEffectTable[item - ITEM_POTION];
 
@@ -4643,9 +4640,6 @@ void ItemUseCB_PPRecovery(u8 taskId, TaskFunc task)
 
     if (item == ITEM_ENIGMA_BERRY_E_READER)
         effect = gSaveBlock1Ptr->enigmaBerry.itemEffect;
-        #else
-        effect = 0;
-        #endif
     else
         effect = gItemEffectTable[item - ITEM_POTION];
 
@@ -5425,9 +5419,6 @@ u8 GetItemEffectType(u16 item)
     // Read the item's effect properties.
     if (item == ITEM_ENIGMA_BERRY_E_READER)
         itemEffect = gSaveBlock1Ptr->enigmaBerry.itemEffect;
-        #else
-        itemEffect = 0;
-        #endif
     else
         itemEffect = gItemEffectTable[item - ITEM_POTION];
 
