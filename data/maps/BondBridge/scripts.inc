@@ -60,7 +60,7 @@ BondBridge_EventScript_Nina2::
 
 
 BondBridge_EventScript_Chica2::
-	trainerbattle_single TRAINER_JENNA, BondBridge_Text_Chica2Intro, BondBridge_Text_Chica2Defeated
+	trainerbattle_single TRAINER_CATHERINE_1, BondBridge_Text_Chica2Intro, BondBridge_Text_Chica2Defeated
 	msgbox BondBridge_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
 	end
 

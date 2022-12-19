@@ -6372,7 +6372,7 @@ Route10_Text_Chica2PostBattle:
 	.string "rosa y con flores!\l"
 	.string "...\l"
 	.string "...\l"
-	.string "¡Sí de tipo PSÍQUICO también a ser\l"
+	.string "¡Sí! ¡TIPO PSÍQUICO también a ser\l"
 	.string "posible!$"
 
 
@@ -9856,7 +9856,7 @@ RocketHideoutViridian_Text_Cientifico4Intro:
 
 
 RocketHideoutViridian_Text_Cientifico4Defeated:
-	.string "Tu equipo si que es digno de\n"
+	.string "Tu equipo sí que es digno de\n"
 	.string "estudio.$"
 
 
@@ -13876,7 +13876,7 @@ Route26_Text_Guarda2Defeated:
 
 Route26_Text_Guarda2PostBattle:
 	.string "Este lugar acabará llenándose de\n"
-	.string "gente si o si. Después de todo, es\l"
+	.string "gente sí o sí. Después de todo, es\l"
 	.string "la única forma de hacer el\l"
 	.string "trayecto JOHTO-KANTO a pie, y está\l"
 	.string "al lado de la LIGA POKÉMON.$"

@@ -12,7 +12,7 @@ KindleRoad_Text_1:
 .string "Lo sentimos pero ha habido un\n"
 .string "desprendimiento y el acceso al\l"
 .string "MT.ASCUAS estará cortado hasta que\l"
-.string "se garantize la seguridad, perdona\l"
+.string "se garantice la seguridad, perdona\l"
 .string "las molestias.$"
 
 
@@ -27,7 +27,7 @@ KindleRoad_Text_2:
 .string "Lo sentimos pero ha habido un\n"
 .string "desprendimiento y el acceso al\l"
 .string "MT.ASCUAS estará cortado hasta que\l"
-.string "se garantize la seguridad, perdona\l"
+.string "se garantice la seguridad, perdona\l"
 .string "las molestias.$"
 
 
