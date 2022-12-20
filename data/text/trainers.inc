@@ -15867,3 +15867,18 @@ CuevaTesoro4_Text_Cientifico3PostBattle:
 	.string "como tú, incapaz de apreciar el poder\l"
 	.string "contenido aquí, no merece seguir\l"
 	.string "avanzando.$"
+
+
+SilphS2_Text_Cientifico4Intro:
+	.string "Así que fuiste tú quién derrotó a\n"
+	.string "LANCE, ¡muéstrame como lo hiciste!$"
+
+
+SilphS2_Text_Cientifico4Defeated:
+	.string "Impresionante.$"
+
+
+SilphS2_Text_Cientifico4PostBattle:
+	.string "Nadie pudo romper el equipo de\n"
+	.string "legendarios que LANCE montó hasta\l"
+	.string "que tú llegaste.$"

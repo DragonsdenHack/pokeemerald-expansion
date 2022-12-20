@@ -45,3 +45,42 @@ SilphS1_Text_2:
 .string "que han trabajado para LANCE y\l"
 .string "colaborado en esa maldita\l"
 .string "dictadura enmascarada.$"
+
+
+
+SilphS1_3::
+lock     
+faceplayer     
+msgbox SilphS1_Text_3, MSGBOX_DEFAULT
+release     
+end
+
+
+SilphS1_Text_3:
+.string "Nuestro PRESIDENTE debe tener\n"
+.string "una absoluta confianza en ti, de\l"
+.string "lo contrario jamás habrías podido\l"
+.string "acceder a un lugar como este.$"
+
+
+
+SilphS1_4::
+lock     
+faceplayer     
+msgbox SilphS1_Text_4, MSGBOX_DEFAULT
+release     
+end
+
+
+SilphS1_Text_4:
+.string "Enhorabuena, si has llegado hasta\n"
+.string "aquí quiere decir que has logrado\l"
+.string "escapar de esa parte dormida de\l"
+.string "KANTO que sigue creyendo\l"
+.string "únicamente en la existencia de 150\l"
+.string "POKÉMON y no ve más allá de lo que\l"
+.string "el gobierno de LANCE le muestra,\l"
+.string "el mundo es mucho más amplio, aquí\l"
+.string "tratamos de abarcar y compilar lo\l"
+.string "más reseñable que hemos encontrado\l"
+.string "ahí fuera.$"
