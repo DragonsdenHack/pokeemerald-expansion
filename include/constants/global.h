@@ -31,8 +31,8 @@
 
 // capacities of various saveblock objects
 #define DAYCARE_MON_COUNT 2
-#define POKEBLOCKS_COUNT 4
-#define OBJECT_EVENTS_COUNT 17
+#define POKEBLOCKS_COUNT 5
+#define OBJECT_EVENTS_COUNT 16
 #define MAIL_COUNT 2
 #define SECRET_BASES_COUNT 2
 #define TV_SHOWS_COUNT 2
@@ -138,9 +138,5 @@
 #define DIR_SOUTHEAST   6
 #define DIR_NORTHWEST   7
 #define DIR_NORTHEAST   8
-
-#define DYNAMIC_OW_PALS         FALSE
-#define SLOW_MOVEMENT_ON_STAIRS         TRUE
-#define FOLLOW_ME_IMPLEMENTED           FALSE 
 
 #endif // GUARD_CONSTANTS_GLOBAL_H
