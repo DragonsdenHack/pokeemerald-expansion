@@ -1,6 +1,35 @@
 AzaleaCarbonS1_MapScripts::
 	.byte 0
 
+AzaleaCarbonS1_2::
+lock     
+faceplayer     
+msgbox AzaleaCarbonS1_Text_2, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaCarbonS1_Text_2:
+.string "¿Eres nuevo aquí? Nuestro JEFE es muy\n"
+.string "exigente.$"
+
+
+
+AzaleaCarbonS1_3::
+lock     
+faceplayer     
+msgbox AzaleaCarbonS1_Text_3, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaCarbonS1_Text_3:
+.string "Este lugar pertenecía a dos ancianos,\n"
+.string "tradicionalmente ellos se dedicaban a\l"
+.string "esto. Me pregunto si hicimos bien en\l"
+.string "echarlos tan a la ligera, seguro que\l"
+.string "tenían cosas que aportar.$"
+
+
+
 AzaleaCarbonS1_5::
 lock     
 faceplayer     
@@ -47,6 +76,21 @@ AzaleaCarbonS1_Text_8:
 
 
 
+AzaleaCarbonS1_13::
+lock     
+faceplayer     
+msgbox AzaleaCarbonS1_Text_13, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaCarbonS1_Text_13:
+.string "Es extraño… El viejo horno que\n"
+.string "destruimos para volver a reformar este\l"
+.string "lugar y modernizarlo…fabricaba un\l"
+.string "CARBÓN de mayor calidad que de\l"
+.string "nuestros hornos industriales. ¿Nos\l"
+.string "hemos perdido algo?$"
+
 
 
 AzaleaCarbonS1_14::
@@ -60,3 +104,17 @@ AzaleaCarbonS1_Text_14:
 .string "Realmente no estoy de acuerdo con la\n"
 .string "forma de llevar esto, pero el pastizal\l"
 .string "que me pagan por ello lo vale.$"
+
+
+
+AzaleaCarbonS1_EventScript_Obrero::
+	trainerbattle_single TRAINER_TRAINER_106, AzaleaCarbonS1_Text_ObreroIntro, AzaleaCarbonS1_Text_ObreroDefeated
+	msgbox AzaleaCarbonS1_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+AzaleaCarbonS1_EventScript_Obrero2::
+	trainerbattle_single TRAINER_TRAINER_107, AzaleaCarbonS1_Text_Obrero2Intro, AzaleaCarbonS1_Text_Obrero2Defeated
+	msgbox AzaleaCarbonS1_Text_Obrero2PostBattle, MSGBOX_AUTOCLOSE
+	end

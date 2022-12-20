@@ -23579,21 +23579,21 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER109[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER110[] = {
     {
     .iv = 0,
-    .lvl = 9,
+    .lvl = 85,
     .species = SPECIES_GOLEM,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_BLAST, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 86,
     .species = SPECIES_JOLTEON,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_THUNDERBOLT, MOVE_SHADOW_BALL, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 87,
     .species = SPECIES_MACHAMP,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ROCK_SLIDE, MOVE_CROSS_CHOP, MOVE_BULLET_PUNCH, MOVE_NONE}
     }
 };
 
@@ -23602,41 +23602,46 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER111[] = {
     .iv = 0,
     .lvl = 89,
     .species = SPECIES_EXCADRILL,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_ROCK_SLIDE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 89,
     .species = SPECIES_RHYPERIOR,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_MEGAHORN, MOVE_NONE}
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER112[] = {
+static const struct TrainerMonNoItemCustomMoves sParty_TRAINER112[] = {
     {
     .iv = 0,
     .lvl = 83,
     .species = SPECIES_LANTURN,
+    .moves = {MOVE_RAIN_DANCE, MOVE_THUNDER, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM}
     },
     {
     .iv = 0,
     .lvl = 84,
     .species = SPECIES_MANECTRIC,
+    .moves = {MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 84,
     .species = SPECIES_DUGTRIO,
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_SLASH, MOVE_NONE}
     },
     {
     .iv = 0,
     .lvl = 85,
     .species = SPECIES_BOLTUND,
+    .moves = {MOVE_PSYCHIC_FANGS, MOVE_CRUNCH, MOVE_FIRE_FANG, MOVE_THUNDER_FANG}
     },
     {
     .iv = 0,
     .lvl = 86,
     .species = SPECIES_EELEKTROSS,
+    .moves = {MOVE_FLAMETHROWER, MOVE_THUNDERBOLT, MOVE_DRAIN_PUNCH, MOVE_KNOCK_OFF}
     }
 };
 
@@ -24923,7 +24928,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER229[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER230[] = {

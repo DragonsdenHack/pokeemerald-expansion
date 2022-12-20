@@ -46,3 +46,24 @@ AzaleaCarbonS2_Text_9:
 .string "CARBÓN. La inversión ha sido grande,\l"
 .string "pero este lugar ahora sí que parece un\l"
 .string "lugar de trabajo de verdad, ¿no crees?$"
+
+
+
+AzaleaCarbonS2_EventScript_Obrero::
+	trainerbattle_single TRAINER_TRAINER_110, AzaleaCarbonS2_Text_ObreroIntro, AzaleaCarbonS2_Text_ObreroDefeated
+	msgbox AzaleaCarbonS2_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+AzaleaCarbonS2_EventScript_Obrero2::
+	trainerbattle_single TRAINER_TRAINER_111, AzaleaCarbonS2_Text_Obrero2Intro, AzaleaCarbonS2_Text_Obrero2Defeated
+	msgbox AzaleaCarbonS2_Text_Obrero2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+AzaleaCarbonS2_EventScript_Obrero3::
+	trainerbattle_single TRAINER_TRAINER_112, AzaleaCarbonS2_Text_Obrero3Intro, AzaleaCarbonS2_Text_Obrero3Defeated
+	msgbox AzaleaCarbonS2_Text_Obrero3PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -15882,3 +15882,80 @@ SilphS2_Text_Cientifico4PostBattle:
 	.string "Nadie pudo romper el equipo de\n"
 	.string "legendarios que LANCE montó hasta\l"
 	.string "que tú llegaste.$"
+
+
+AzaleaCarbonS1_Text_ObreroIntro:
+	.string "¿Un enviado? Esos ancianos no tenían\n"
+	.string "apenas dinero, ¿cómo te contrataron?$"
+
+
+AzaleaCarbonS1_Text_ObreroDefeated:
+	.string "Qué equipo tan preparado…$"
+
+
+AzaleaCarbonS1_Text_ObreroPostBattle:
+	.string "Eres un gran ENTRENADOR, debiste\n"
+	.string "salirles muy caro… ¿Lo haces por\l"
+	.string "voluntad propia? Nadie da nada gratis\l"
+	.string "en estos días.$"
+
+
+AzaleaCarbonS1_Text_Obrero2Intro:
+	.string "En el fondo os estamos haciendo un\n"
+	.string "favor, ¿no os dais cuenta?$"
+
+
+AzaleaCarbonS1_Text_Obrero2Defeated:
+	.string "¡Te arrepentirás!$"
+
+
+AzaleaCarbonS1_Text_Obrero2PostBattle:
+	.string "Gracias a nosotros, a nadie le faltará\n"
+	.string "CARBÓN en esta región.$"
+
+
+AzaleaCarbonS2_Text_ObreroIntro:
+    .string "Nuestro JEFE fue muy claro respecto a\n"
+	.string "la presencia de extraños aquí.$"
+
+
+AzaleaCarbonS2_Text_ObreroDefeated:
+	.string "Ya veo… Tú mismo.$"
+
+
+AzaleaCarbonS2_Text_ObreroPostBattle:
+	.string "No puedes echarnos aquí, como mucho\n"
+	.string "podrás llegar a un acuerdo si le caes\l"
+	.string "bien a nuestro JEFE.$"
+
+
+AzaleaCarbonS2_Text_Obrero2Intro:
+	.string "No me pagan por combatir, pero aplastar\n"
+	.string "a caraduras como tú lo haría por nada.$"
+
+
+AzaleaCarbonS2_Text_Obrero2Defeated:
+	.string "¡Plofff!$"
+
+
+AzaleaCarbonS2_Text_Obrero2PostBattle:
+	.string "En este proyecto hay ya mucha gente\n"
+	.string "involucrada, no va a echarse para atrás\l"
+	.string "solo por 2 ancianos.$"
+
+
+AzaleaCarbonS2_Text_Obrero3Intro:
+	.string "¡Jah! ¡No tienes idea de lo terribles que\n"
+	.string "son mis POKÉMON eléctricos! ¡Ellos\l"
+	.string "solos han puesto en marcha los hornos\l"
+	.string "industriales!$"
+
+
+AzaleaCarbonS2_Text_Obrero3Defeated:
+	.string "¡No! ¿Qué ha ocurrido?$"
+
+
+AzaleaCarbonS2_Text_Obrero3PostBattle:
+	.string "¡Espera! ¿Combatiste con ZAPDOS y\n"
+	.string "también con RAIKOU? ¿Cómo es estar en\l"
+	.string "presencia de tales POKÉMON?$"
