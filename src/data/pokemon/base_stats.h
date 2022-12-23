@@ -13913,10 +13913,10 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_VICTINI] =
     {
         .baseHP        = 100,
-        .baseAttack    = 100,
+        .baseAttack    = 125,
         .baseDefense   = 100,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 100,
+        .baseSpeed     = 125,
+        .baseSpAttack  = 50,
         .baseSpDefense = 100,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_FIRE,

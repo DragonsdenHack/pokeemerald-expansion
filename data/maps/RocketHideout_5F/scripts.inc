@@ -942,6 +942,625 @@ RocketHideout5F_Text_57:
 
 
 
+RocketHideout5FDocumento_100::
+lock     
+showmonpic SPECIES_FLAREON, 10, 3   
+playmoncry SPECIES_FLAREON, CRY_MODE_ENCOUNTER
+msgbox RocketHideout5FDocumento_Text_100, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_100:
+.string "NÚMERO 15: FLAREON\p"
+.string "PS: 65\n"
+.string "ATAQUE: 130\l"
+.string "DEFENSA: 60\l"
+.string "ATAQUE ESPECIAL: 95\l"
+.string "DEFENSA ESPECIAL: 110\l"
+.string "VELOCIDAD: 65\l"
+.string "TOTAL: 525\p"
+.string "La forma evolucionada de EEVEE que\n"
+.string "reparte más ineficientemente sus\l"
+.string "cualidades, a pesar de ello, un\l"
+.string "Envite Ígneo de este Pokémon con\l"
+.string "su habilidad agallas activada\l"
+.string "calcinará todo lo que toque, es\l"
+.string "imposible de hallar en estado\l"
+.string "salvaje, solo evolucionable\l"
+.string "mediante un EEVEE al que\l"
+.string "únicamente la élite de la región\l"
+.string "tiene acceso.$"
+
+
+RocketHideout5FDocumento_101::
+lock     
+showmonpic SPECIES_VAPOREON, 10, 3   
+playmoncry SPECIES_VAPOREON, CRY_MODE_ENCOUNTER
+msgbox RocketHideout5FDocumento_Text_101, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_101:
+.string "NÚMERO 14: VAPOREON\p"
+	.string "PS: 130\n"
+	.string "ATAQUE: 65\l"
+	.string "DEFENSA: 60\l"
+	.string "ATAQUE ESPECIAL: 110\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 65\l"
+	.string "TOTAL: 525\p"
+	.string "La forma de EEVEE más equilibrada,\n"
+	.string "capaz tanto de resistir cualquier\l"
+	.string "golpe como de atacar con el\l"
+	.string "Hidrobomba más potente de la\l"
+	.string "región después del FÓSIL OMASTAR,\l"
+	.string "es imposible de hallar en estado\l"
+	.string "salvaje, solo evolucionable\l"
+	.string "mediante un EEVEE al que\l"
+	.string "únicamente la élite de la región\l"
+	.string "tiene acceso.$"
+
+
+RocketHideout5FDocumento_102::
+lock     
+showmonpic SPECIES_JOLTEON, 10, 3  
+playmoncry SPECIES_JOLTEON, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout5FDocumento_Text_102, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_102:
+.string "NÚMERO 13: JOLTEON\p"
+	.string "PS: 65\n"
+	.string "ATAQUE: 65\l"
+	.string "DEFENSA: 60\l"
+	.string "ATAQUE ESPECIAL: 110\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 130\l"
+	.string "TOTAL: 525\p"
+	.string "El rayo de KANTO, con un ataque\n"
+	.string "especial inusualmente alto\l"
+	.string "teniendo en cuenta su velocidad de\l"
+	.string "130 de base, solo superada por\l"
+	.string "ELECTRODE, convirtiéndolo en la\l"
+	.string "mejor opción ante voladores y\l"
+	.string "aguas, aunque algo corto en\l"
+	.string "movimientos de cobertura, es\l"
+	.string "imposible de hallar en estado\l"
+	.string "salvaje, solo evolucionable\l"
+	.string "mediante un EEVEE al que\l"
+	.string "únicamente la élite de la región\l"
+	.string "tiene acceso.$"
+
+
+
+RocketHideout5FDocumento_103::
+lock     
+showmonpic SPECIES_NIDOQUEEN, 10, 3 
+playmoncry SPECIES_NIDOQUEEN, CRY_MODE_ENCOUNTER  
+msgbox RocketHideout5FDocumento_Text_103, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_103:
+.string "NÚMERO 12: NIDOQUEEN\p"
+	.string "PS: 100\n"
+	.string "ATAQUE: 92\l"
+	.string "DEFENSA: 92\l"
+	.string "ATAQUE ESPECIAL: 80\l"
+	.string "DEFENSA ESPECIAL: 90\l"
+	.string "VELOCIDAD: 76\l"
+	.string "TOTAL: 530\p"
+	.string "La reina ROCKET, si tenemos en\n"
+	.string "cuenta su habilidad potencia bruta\l"
+	.string "y el equipamiento de la vidasfera\l"
+	.string "esos 80 en ataque especial\l"
+	.string "ascenderían a una utilidad\l"
+	.string "superior a unos de 120, fuera de\l"
+	.string "ello, sus virtudes defensivas son\l"
+	.string "notables, y su variedad de\l"
+	.string "movimientos, excelente.$"
+
+
+
+RocketHideout5FDocumento_104::
+lock     
+showmonpic SPECIES_NIDOKING, 10, 3   
+playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
+msgbox RocketHideout5FDocumento_Text_104, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_104:
+.string "NÚMERO 11: NIDOKING\p"
+	.string "PS: 91\n"
+	.string "ATAQUE: 102\l"
+	.string "DEFENSA: 77\l"
+	.string "ATAQUE ESPECIAL: 90\l"
+	.string "DEFENSA ESPECIAL: 75\l"
+	.string "VELOCIDAD: 95\l"
+	.string "TOTAL: 530\p"
+	.string "Una máquina de debilitar Pokémon\n"
+	.string "gracias a su mortífera combinación\l"
+	.string "entre la habilidad potencia bruta\l"
+	.string "y la vidasfera, alcanzando la\l"
+	.string "potencia de la mayoría de sus\l"
+	.string "movimientos especiales como Bomba\l"
+	.string "lodo, Rayo, Lanzallamas, Tierra\l"
+	.string "Viva o Rayo Hielo un doble\l"
+	.string "incremento del 30% en su potencia\l"
+	.string "habitual y convirtiendo esos 90 de\l"
+	.string "base en ataque especial en algo\l"
+	.string "mucho más peligroso de lo que el\l"
+	.string "número en sí refleja.$"
+
+
+
+RocketHideout5FDocumento_105::
+lock     
+showmonpic SPECIES_GYARADOS, 10, 3   
+playmoncry SPECIES_GYARADOS, CRY_MODE_ENCOUNTER
+msgbox RocketHideout5FDocumento_Text_105, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_105:
+.string "NÚMERO 10: GYARADOS\p"
+	.string "PS: 95\n"
+	.string "ATAQUE: 125\l"
+	.string "DEFENSA: 79\l"
+	.string "ATAQUE ESPECIAL: 60\l"
+	.string "DEFENSA ESPECIAL: 100\l"
+	.string "VELOCIDAD: 81\l"
+	.string "TOTAL: 540\p"
+	.string "EL terror de los mares, sostiene\n"
+	.string "cierta rivalidad con DRAGONITE, y\l"
+	.string "no es de extrañar que sus medios\l"
+	.string "evolutivos le hayan permitido\l"
+	.string "ganar el punto necesario en\l"
+	.string "velocidad para marcar la\l"
+	.string "diferencia (81 a 80), con el\l"
+	.string "sagrado dragón, domar a un\l"
+	.string "GYARADOS ha sido considerado\l"
+	.string "durante siglos una muestra de\l"
+	.string "poder y jerarquía superior entre\l"
+	.string "los pescadores e incluso\l"
+	.string "domadragones.$"
+
+
+
+RocketHideout5FDocumento_106::
+lock     
+showmonpic SPECIES_SNORLAX, 10, 3   
+playmoncry SPECIES_SNORLAX, CRY_MODE_ENCOUNTER
+msgbox RocketHideout5FDocumento_Text_106, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_106:
+.string "NÚMERO 9: SNORLAX\p"
+	.string "PS: 160\n"
+	.string "ATAQUE: 110\l"
+	.string "DEFENSA: 65\l"
+	.string "ATAQUE ESPECIAL: 65\l"
+	.string "DEFENSA ESPECIAL: 110\l"
+	.string "VELOCIDAD: 30\l"
+	.string "TOTAL: 540\p"
+	.string "Si eliminamos la velocidad de la\n"
+	.string "ecuación, solo DRAGONITE contaría\l"
+	.string "con mayor poder global, (510 a\l"
+	.string "520), incluso así seguiría\l"
+	.string "teniendo un 65 inútil en ataque\l"
+	.string "especial, lo que lo hace\l"
+	.string "extraordinario en el resto, su\l"
+	.string "ingente cantidad de salud y su\l"
+	.string "impactante golpe cuerpo con\l"
+	.string "grandes opciones de paralizar lo\l"
+	.string "vuelven un dolor de cabeza si no\l"
+	.string "llevamos un tipo lucha de gran\l"
+	.string "poder físico.$"
+
+
+
+RocketHideout5FDocumento_107::
+lock     
+showmonpic SPECIES_VENUSAUR, 10, 3   
+playmoncry SPECIES_VENUSAUR, CRY_MODE_ENCOUNTER
+msgbox RocketHideout5FDocumento_Text_107, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_107:
+.string "NÚMERO 8: VENUSAUR\p"
+	.string "PS: 90\n"
+	.string "ATAQUE: 85\l"
+	.string "DEFENSA: 93\l"
+	.string "ATAQUE ESPECIAL: 110\l"
+	.string "DEFENSA ESPECIAL: 110\l"
+	.string "VELOCIDAD: 60\l"
+	.string "TOTAL: 548\p"
+	.string "Uno de los tres iniciales de\n"
+	.string "KANTO, el de mejor relación\l"
+	.string "defensa-ataque, poseedor de 2\l"
+	.string "potentes STABS gracias a su tipo\l"
+	.string "dual, con Bomba Lodo, Gigadrenado\l"
+	.string "o Danza Pétalo como opciones, un\l"
+	.string "VILEPLUME llevado al extremo que\l"
+	.string "puede convertirse en una tortura\l"
+	.string "para quién lo enfrente, después\l"
+	.string "de la guerra solo quedaron unos\l"
+	.string "pocos ejemplares en manos del\l"
+	.string "PROF.OAK de PUEBLO PALETA.$"
+
+
+
+RocketHideout5FDocumento_108::
+lock     
+showmonpic SPECIES_CHARIZARD, 10, 3  
+playmoncry SPECIES_CHARIZARD, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout5FDocumento_Text_108, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_108:
+.string "NÚMERO 7: CHARIZARD\p"
+	.string "PS: 78\n"
+	.string "ATAQUE: 84\l"
+	.string "DEFENSA: 78\l"
+	.string "ATAQUE ESPECIAL: 114\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 100\l"
+	.string "TOTAL: 549\p"
+	.string "Uno de los tres iniciales de\n"
+	.string "KANTO, el de mayor capacidad\l"
+	.string "ofensiva, solo MOLTRES lanza\l"
+	.string "llamaradas más temibles en esta\l"
+	.string "región, su buena velocidad y\l"
+	.string "acceso a movimientos dragón le\l"
+	.string "hace competir de tú a tú frente a\l"
+	.string "este tipo, después de la guerra\l"
+	.string "solo quedaron unos pocos\l"
+	.string "ejemplares en manos del PROF.OAK\l"
+	.string "de PUEBLO PALETA.$"
+
+
+
+RocketHideout5FDocumento_109::
+lock     
+showmonpic SPECIES_BLASTOISE, 10, 3  
+playmoncry SPECIES_BLASTOISE, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout5FDocumento_Text_109, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_109:
+.string "NÚMERO 6: BLASTOISE\p"
+	.string "PS: 99\n"
+	.string "ATAQUE: 83\l"
+	.string "DEFENSA: 120\l"
+	.string "ATAQUE ESPECIAL: 85\l"
+	.string "DEFENSA ESPECIAL: 105\l"
+	.string "VELOCIDAD: 58\l"
+	.string "TOTAL: 550\p"
+	.string "Uno de los tres iniciales de\n"
+	.string "KANTO, quizás el más sólido de los\l"
+	.string "tres, con una defensa física que\l"
+	.string "justifica su gran caparazón, a la\l"
+	.string "altura de los tipo roca\l"
+	.string "defensivamente hablando y\l"
+	.string "resistiendo a diferencia estos\l"
+	.string "igualmente bien por el lado\l"
+	.string "especial, después de la guerra\l"
+	.string "solo quedaron unos pocos\l"
+	.string "ejemplares en manos del PROF.OAK\l"
+	.string "de PUEBLO PALETA.$"
+
+
+
+RocketHideout5FDocumento_110::
+lock     
+showmonpic SPECIES_LAPRAS, 10, 3   
+playmoncry SPECIES_LAPRAS, CRY_MODE_ENCOUNTER
+msgbox RocketHideout5FDocumento_Text_110, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_110:
+.string "NÚMERO 5: LAPRAS\p"
+	.string "PS: 140\n"
+	.string "ATAQUE: 85\l"
+	.string "DEFENSA: 80\l"
+	.string "ATAQUE ESPECIAL: 90\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 60\l"
+	.string "TOTAL: 550\p"
+	.string "El muro de KANTO, capaz de\n"
+	.string "competir contra el mismo ARTICUNO\l"
+	.string "por el trono helado de la región,\l"
+	.string "mantiene intacta su capacidad de\l"
+	.string "golpear a pesar de sus grandes\l"
+	.string "defensas gracias a Rayo, Psíquico,\l"
+	.string "y STABS con Rayo Hielo y Surf,\l"
+	.string "Pokémon característico de la\l"
+	.string "miembro del alto mando LORELEI y\l"
+	.string "que completa el trío de Pokémon\l"
+	.string "singulares de los altos mandos.$"
+
+
+
+RocketHideout5FDocumento_111::
+lock     
+showmonpic SPECIES_MACHAMP, 10, 3  
+playmoncry SPECIES_MACHAMP, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout5FDocumento_Text_111, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_111:
+.string "NÚMERO 4: MACHAMP\p"
+	.string "PS: 100\n"
+	.string "ATAQUE: 136\l"
+	.string "DEFENSA: 110\l"
+	.string "ATAQUE ESPECIAL: 65\l"
+	.string "DEFENSA ESPECIAL: 85\l"
+	.string "VELOCIDAD: 55\l"
+	.string "TOTAL: 551\p"
+	.string "El rompe muros defensivos de\n"
+	.string "KANTO, superando por poco el\l"
+	.string "ataque físico de DRAGONITE se\l"
+	.string "corona como el Pokémon de mayor\l"
+	.string "poder físico de la región,\l"
+	.string "representante del máximo\l"
+	.string "desarrollo alcanzado por un tipo\l"
+	.string "lucha, es el Pokémon predilecto de\l"
+	.string "BRUNO del alto mando, su también\l"
+	.string "gran resistencia física le ha\l"
+	.string "llevado a revertir la aparente\l"
+	.string "debilidad del lucha frente al\l"
+	.string "volador, resistiendo perfectamente\l"
+	.string "las embestidas físicas de estos\l"
+	.string "Pokémon con sus 110 de base en\l"
+	.string "DEFENSA para después tumbarlos con\l"
+	.string "un roca afilada que nunca fallará.$"
+
+
+
+RocketHideout5FDocumento_112::
+lock     
+showmonpic SPECIES_GENGAR, 10, 3  
+playmoncry SPECIES_GENGAR, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout5FDocumento_Text_112, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_112:
+.string "NÚMERO 3: GENGAR\p"
+	.string "PS: 70\n"
+	.string "ATAQUE: 75\l"
+	.string "DEFENSA: 60\l"
+	.string "ATAQUE ESPECIAL: 140\l"
+	.string "DEFENSA ESPECIAL: 97\l"
+	.string "VELOCIDAD: 110\l"
+	.string "TOTAL: 552\p"
+	.string "La esencia y espiritualidad que\n"
+	.string "emana PUEBLO LAVANDA\l"
+	.string "materializada en un Pokémon, el de\l"
+	.string "mayor poder especial de KANTO a\l"
+	.string "pesar de que algunos juran que\l"
+	.string "este era su gran rival ALAKAZAM,\l"
+	.string "Pokémon característico de AGATHA,\l"
+	.string "aprovecha sus STABS perfectamente\l"
+	.string "gracias a bola sombra y bomba lodo\l"
+	.string "por el lado especial, las posibles\l"
+	.string "técnicas y variaciones de este\l"
+	.string "Pokémon van mucho más allá de\l"
+	.string "estos dos movimientos.$"
+
+
+
+RocketHideout5FDocumento_113::
+lock     
+showmonpic SPECIES_ARCANINE, 10, 3  
+playmoncry SPECIES_ARCANINE, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout5FDocumento_Text_113, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_113:
+.string "NÚMERO 2: ARCANINE\p"
+	.string "PS: 90\n"
+	.string "ATAQUE: 110\l"
+	.string "DEFENSA: 80\l"
+	.string "ATAQUE ESPECIAL: 100\l"
+	.string "DEFENSA ESPECIAL: 80\l"
+	.string "VELOCIDAD: 95\l"
+	.string "TOTAL: 555\p"
+	.string "El Pokémon no pseudolegendario de\n"
+	.string "mayor poder global, a pesar de no\l"
+	.string "repartir tan eficientemente sus\l"
+	.string "estadísticas como otros, aprovecha\l"
+	.string "bien su ataque físico con un\l"
+	.string "envite ígneo por stab, velocidad\l"
+	.string "extrema y a bocajarro, su\l"
+	.string "habilidad intimidación, junto con\l"
+	.string "fuego fatuo y acceso a sol matinal\l"
+	.string "le otorgan también buenos\l"
+	.string "atributos defensivos, muchos lo\l"
+	.string "llegaron a confundir con el cuarto\l"
+	.string "legendario de KANTO, sin embargo,\l"
+	.string "se ha confirmado que su\l"
+	.string "procedencia es diferente a la de\l"
+	.string "las tres aves sagradas.$"
+
+
+
+RocketHideout5FDocumento_114::
+lock     
+showmonpic SPECIES_DRAGONITE, 10, 3  
+playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout5FDocumento_Text_114, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout5FDocumento_Text_114:
+.string "NÚMERO 1: DRAGONITE\p"
+	.string "PS: 91\n"
+	.string "ATAQUE: 134\l"
+	.string "DEFENSA: 95\l"
+	.string "ATAQUE ESPECIAL: 100\l"
+	.string "DEFENSA ESPECIAL: 100\l"
+	.string "VELOCIDAD: 80\l"
+	.string "TOTAL: 600\p"
+	.string "El pseudolegendario de KANTO,\n"
+	.string "aunque se cree que con orígenes en\l"
+	.string "la guarida dragón de JOHTO, su\l"
+	.string "línea evolutiva está considerada\l"
+	.string "la más sagrada y pura que existe,\l"
+	.string "y el poder de su forma final a la\l"
+	.string "altura de la mayoría de\l"
+	.string "legendarios, lo que le ha hecho\l"
+	.string "ganar fama como el mayor\l"
+	.string "representante de los Pokémon\l"
+	.string "mortales y lo que estos pueden\l"
+	.string "llegar a lograr.$"
+
+
+
+RocketHideout5FDocumento_115::
+lock      
+msgbox RocketHideout5FDocumento_Text_115, MSGBOX_DEFAULT
+release     
+end
+
+RocketHideout5FDocumento_Text_115:
+.string "OBSERVACIONES:\p"
+	.string "Parece que existe una especie de\n"
+	.string "-línea sagrada-, en los 580 STATS\l"
+	.string "BASE, marcada por las AVES\l"
+	.string "LEGENDARIAS además de otros\l"
+	.string "legendarios menores en otras\l"
+	.string "regiones, que imposibilita al\l"
+	.string "resto de mortales el sobrepasar\l"
+	.string "esta cifra a excepción de los\l"
+	.string "pseudolegendarios...\l"
+	.string "Cualquier intento de elevar de\l"
+	.string "forma selectiva la estadística de\l"
+	.string "un Pokémon provoca una abrupta\l"
+	.string "caída en otra, a modo de\l"
+	.string "compensación, como si la\l"
+	.string "naturaleza no quisiera que nos\l"
+	.string "excediéramos...\l"
+	.string "Todo tiene a la homeostáis...\l"
+	.string "A pesar de ello, es solo una\l"
+	.string "piedra más en nuestro camino...$"
+
+
+
+RocketHideout5FDocumento_116::
+lock      
+msgbox RocketHideout5FDocumento_Text_116, MSGBOX_DEFAULT
+release     
+end
+
+RocketHideout5FDocumento_Text_116:
+.string "EL PODER DE LOS STATS BASE:\n"
+	.string "Los STATS BASE son la más objetiva\l"
+	.string "y medible cualidad de un POKÉMON,\l"
+	.string "cada POKÉMON tiene unos STATS BASE\l"
+	.string "inherentes a su especie, como\l"
+	.string "resultado de la suma final de\l"
+	.string "PS, AT, DEF, AT.ESP, DEF.ESP Y VELOC,\l"
+	.string "los seis parámetros esenciales,\l"
+	.string "algunos POKÉMON tienen mejores\l"
+	.string "STATS BASE que otros, una de las\l"
+	.string "razones por las que MEWTWO llegó\l"
+	.string "a ser tan fuerte, es el hecho\l"
+	.string "de que posee nada más y nada menos\l"
+	.string "que 680 puntos de STATS BASE, con\l"
+	.string "un demencial ATAQUE ESPECIAL y\l"
+	.string "VELOCIDAD, ningún POKÉMON de KANTO\l"
+	.string "pudo alcanzar esa cifra total de\l"
+	.string "STATS BASE.\l"
+	.string "En conclusión, los STATS BASE\l"
+	.string "podrían considerarse como la\l"
+	.string "condición física, la capacidad\l"
+	.string "atlética y mental global de una\l"
+	.string "determinada especie de POKÉMON,\l"
+	.string "si, poder puro y energía, razón de\l"
+	.string "numerosos experimentos en busca de\l"
+	.string "manipular y elevar estos STATS\l"
+	.string "BASE hasta el infinito, MEWTWO es\l"
+	.string "una prueba de ello,¿surgirán\l"
+	.string "nuevos casos?$"
+
+
+
+RocketHideout5FDocumento_117::
+lock      
+msgbox RocketHideout5FDocumento_Text_117, MSGBOX_DEFAULT
+release     
+end
+
+RocketHideout5FDocumento_Text_117:
+.string "La fórmula del daño:\n"
+	.string "Daño (PS) = ( (Nv. 2 / 5) +\l"
+	.string "2 Poder Ataque / 50 /\l"
+	.string "Defensa) 1 Mod. + 2 CH\l"
+	.string "2 Mod. Rnd / 100 STAB\l"
+	.string "Efec.Tipo 1 Efec.Tipo 2\l"
+	.string "3 Mod.;\p"
+	.string "-RND:85-100(92.077 APROX)$"
+
+
+
+RocketHideout5FDocumento_118::
+lock      
+msgbox RocketHideout5FDocumento_Text_118, MSGBOX_DEFAULT
+release     
+end
+
+RocketHideout5FDocumento_Text_118:
+.string "EL PODER DE LA ESTRATEGIA:\n"
+	.string "El segundo pilar de este mundo,\l"
+	.string "solo el hecho de que un vulgar\l"
+	.string "RATATTA al nivel 1, puede derrotar\l"
+	.string "a un pokémon al nivel 100 con el\l"
+	.string "combo Banda Focus+Esfuerzo+Ataque\l"
+	.string "Rápido, da una idea de la crucial\l"
+	.string "importancia que puede tener una\l"
+	.string "buena estrategia.\l"
+	.string "Cualquier POKÉMON existente puede\l"
+	.string "ser vencido con una buena\l"
+	.string "estrategia, centrándote en los\l"
+	.string "puntos débiles del rival y sacando\l"
+	.string "a relucir tus propias virtudes.\l"
+	.string "En conclusión, los STATS BASE son\l"
+	.string "importantes, pero una estrategia\l"
+	.string "adecuada así como el conocimiento\l"
+	.string "del juego son los elementos que te\l"
+	.string "convertirán en un campeón,\l"
+	.string "acompañados, por supuesto, de un\l"
+	.string "equipo poderoso y equilibrado,\l"
+	.string "poderoso o...con altos STATS BASE,\l"
+	.string "como prefieras llamarlo.$"
+
+
+
 RocketHideout5F_58::
 end
 

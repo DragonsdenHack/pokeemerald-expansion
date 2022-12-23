@@ -29,8 +29,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ZIGZAG_CUSHION",
-      "x": 12,
-      "y": 28,
+      "x": -3,
+      "y": 54,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -370,7 +370,7 @@
       "x": 59,
       "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -406,7 +406,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
-      "x": 10,
+      "x": 13,
       "y": 16,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -550,7 +550,7 @@
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_117"
     },
     {
       "type": "sign",
@@ -558,7 +558,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_122"
     },
     {
       "type": "sign",
@@ -566,7 +566,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_126"
     },
     {
       "type": "sign",
@@ -574,7 +574,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_121"
     },
     {
       "type": "sign",
@@ -582,7 +582,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_125"
     },
     {
       "type": "sign",
@@ -590,7 +590,7 @@
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_116"
     },
     {
       "type": "sign",
@@ -598,7 +598,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_120"
     },
     {
       "type": "sign",
@@ -606,7 +606,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_124"
     },
     {
       "type": "sign",
@@ -614,7 +614,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_109"
     },
     {
       "type": "sign",
@@ -622,7 +622,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_108"
     },
     {
       "type": "sign",
@@ -630,7 +630,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_107"
     },
     {
       "type": "sign",
@@ -638,7 +638,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_106"
     },
     {
       "type": "sign",
@@ -646,7 +646,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_105"
     },
     {
       "type": "sign",
@@ -654,7 +654,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_104"
     },
     {
       "type": "sign",
@@ -662,7 +662,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_103"
     },
     {
       "type": "sign",
@@ -670,7 +670,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_102"
     },
     {
       "type": "sign",
@@ -678,7 +678,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_101"
     },
     {
       "type": "sign",
@@ -686,7 +686,7 @@
       "y": 35,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_100"
     },
     {
       "type": "sign",
@@ -694,7 +694,7 @@
       "y": 32,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_110"
     },
     {
       "type": "sign",
@@ -702,7 +702,7 @@
       "y": 32,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_111"
     },
     {
       "type": "sign",
@@ -710,7 +710,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_135"
     },
     {
       "type": "sign",
@@ -718,7 +718,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_134"
     },
     {
       "type": "sign",
@@ -726,7 +726,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_133"
     },
     {
       "type": "sign",
@@ -734,7 +734,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_132"
     },
     {
       "type": "sign",
@@ -742,7 +742,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_131"
     },
     {
       "type": "sign",
@@ -750,7 +750,7 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_114"
     },
     {
       "type": "sign",
@@ -758,7 +758,7 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_115"
     },
     {
       "type": "sign",
@@ -766,7 +766,7 @@
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_118"
     },
     {
       "type": "sign",
@@ -774,7 +774,7 @@
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_119"
     },
     {
       "type": "sign",
@@ -782,7 +782,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_123"
     },
     {
       "type": "sign",
@@ -790,23 +790,71 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_127"
     },
     {
       "type": "sign",
-      "x": 42,
-      "y": 0,
+      "x": 54,
+      "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_129"
     },
     {
       "type": "sign",
-      "x": 23,
-      "y": 20,
+      "x": 12,
+      "y": 31,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BaseRocketHoennDocumento_112"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 28,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoennDocumento_113"
+    },
+    {
+      "type": "sign",
+      "x": 56,
+      "y": 13,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoennDocumento_128"
+    },
+    {
+      "type": "sign",
+      "x": 59,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoennDocumento_130"
+    },
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoennDocumento_136"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoennDocumento_137"
+    },
+    {
+      "type": "sign",
+      "x": 7,
+      "y": 17,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoennDocumento_138"
     }
   ]
 }

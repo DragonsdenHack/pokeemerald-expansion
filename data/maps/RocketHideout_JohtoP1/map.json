@@ -487,10 +487,10 @@
     {
       "type": "sign",
       "x": 25,
-      "y": 39,
+      "y": 40,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_100"
     },
     {
       "type": "sign",
@@ -498,7 +498,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_102"
     },
     {
       "type": "sign",
@@ -506,7 +506,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_103"
     },
     {
       "type": "sign",
@@ -514,7 +514,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_128"
     },
     {
       "type": "sign",
@@ -522,7 +522,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_129"
     },
     {
       "type": "sign",
@@ -530,7 +530,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_130"
     },
     {
       "type": "sign",
@@ -538,7 +538,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_131"
     },
     {
       "type": "sign",
@@ -546,7 +546,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_132"
     },
     {
       "type": "sign",
@@ -554,7 +554,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_133"
     },
     {
       "type": "sign",
@@ -562,7 +562,7 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_122"
     },
     {
       "type": "sign",
@@ -570,7 +570,7 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_123"
     },
     {
       "type": "sign",
@@ -578,7 +578,7 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_124"
     },
     {
       "type": "sign",
@@ -586,7 +586,7 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_125"
     },
     {
       "type": "sign",
@@ -594,7 +594,7 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_126"
     },
     {
       "type": "sign",
@@ -602,7 +602,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_116"
     },
     {
       "type": "sign",
@@ -610,7 +610,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_110"
     },
     {
       "type": "sign",
@@ -618,7 +618,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_104"
     },
     {
       "type": "sign",
@@ -626,7 +626,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_105"
     },
     {
       "type": "sign",
@@ -634,7 +634,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_111"
     },
     {
       "type": "sign",
@@ -642,7 +642,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_117"
     },
     {
       "type": "sign",
@@ -650,7 +650,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_118"
     },
     {
       "type": "sign",
@@ -658,7 +658,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_112"
     },
     {
       "type": "sign",
@@ -666,7 +666,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_106"
     },
     {
       "type": "sign",
@@ -674,7 +674,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_107"
     },
     {
       "type": "sign",
@@ -682,7 +682,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_119"
     },
     {
       "type": "sign",
@@ -690,7 +690,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_113"
     },
     {
       "type": "sign",
@@ -698,7 +698,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_120"
     },
     {
       "type": "sign",
@@ -706,7 +706,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_114"
     },
     {
       "type": "sign",
@@ -714,7 +714,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_108"
     },
     {
       "type": "sign",
@@ -722,7 +722,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_109"
     },
     {
       "type": "sign",
@@ -730,7 +730,7 @@
       "y": 12,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_127"
     },
     {
       "type": "sign",
@@ -738,7 +738,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_121"
     },
     {
       "type": "sign",
@@ -746,7 +746,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideoutJohtoP1Documento_115"
     }
   ]
 }

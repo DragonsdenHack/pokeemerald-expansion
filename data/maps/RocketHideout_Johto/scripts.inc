@@ -581,3 +581,21 @@ RocketHideoutJohto_Text_34:
 .string "ATAQUE de 142 de BASE y VELOCIDAD\l"
 .string "de 125, es una verdadera máquina\l"
 .string "de despedazar enemigos.$"
+
+
+
+RocketHideoutJohtoDocumento_100::
+lock        
+msgbox RocketHideoutJohtoDocumento_Text_100, MSGBOX_DEFAULT
+release     
+end
+
+RocketHideoutJohtoDocumento_Text_100:
+.string ".......\n"
+	.string ".......\l"
+	.string "Técnicas de laboratorio para\l"
+	.string "maximizar el potencial de\l"
+	.string "cualquier POKÉMON.\l"
+	.string ".......\l"
+	.string ".......\l"
+	.string "¡Tiene más de 500 páginas!$"
