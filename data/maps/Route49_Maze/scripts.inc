@@ -75,3 +75,66 @@ Route49Maze_EventScript_Sabio::
 	trainerbattle_single TRAINER_TRAINER_22, Route49Maze_Text_SabioIntro, Route49Maze_Text_SabioDefeated
 	msgbox Route49Maze_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route49MazeDocumento_100::
+lock     
+showmonpic SPECIES_AKUERIA, 10, 3  
+playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER 
+msgbox Route49MazeDocumento_Text_100, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+Route49MazeDocumento_Text_100:
+.string "AKUERIA:\p"
+	.string "PS: 122\n"
+	.string "ATAQUE: 126\l"
+	.string "DEFENSA: 102\l"
+	.string "ATAQUE ESPECIAL: 135\l"
+	.string "DEFENSA ESPECIAL: 74\l"
+	.string "VELOCIDAD: 82\l"
+	.string "TOTAL: 641\p"
+	.string "AGUA/DRAGÓN\n"
+	.string "Se creía extinto hasta hace poco,\l"
+	.string "domina todos los movimientos\l"
+	.string "elementales y es capaz de ejecutarlos\l"
+	.string "sin fallar. Sus stats totales ascienden\l"
+	.string "a 641, todo un descubrimiento si\l"
+	.string "tenemos en cuenta que ARCANINE, con\l"
+	.string "555, siempre ha sido considerado el NO\l"
+	.string "LEGENDARIO de mayor poder global en\l"
+	.string "KANTO-JOHTO.$"
+
+
+
+Route49MazeDocumento_101::
+lock     
+showmonpic SPECIES_BOOHOO, 10, 3  
+playmoncry SPECIES_NOCTOWL, CRY_MODE_ENCOUNTER 
+msgbox Route49MazeDocumento_Text_101, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+Route49MazeDocumento_Text_101:
+.string "BOOHOO:\p"
+	.string "PS: 110\n"
+	.string "ATAQUE: 55\l"
+	.string "DEFENSA: 65\l"
+	.string "ATAQUE ESPECIAL: 111\l"
+	.string "DEFENSA ESPECIAL: 126\l"
+	.string "VELOCIDAD: 60\l"
+	.string "TOTAL: 527\p"
+	.string "PSÍQUICO/VOLADOR\n"
+	.string "Se dice que puede evolucionar de\l"
+	.string "NOCTOWL en condiciones muy concretas\l"
+	.string "de simbiosis y total equilibrio, tanto\l"
+	.string "con su ENTRENADOR como con su\l"
+	.string "entorno. Sus poderes psíquicos están\l"
+	.string "a un nivel muy avanzado, es capaz de\l"
+	.string "almacenar todos sus recuerdos vividos\l"
+	.string "y transportarse a ellos, tal y como si\l"
+	.string "estuviera allí como un mero\l"
+	.string "observador.$"
