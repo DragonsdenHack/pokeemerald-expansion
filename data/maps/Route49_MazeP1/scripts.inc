@@ -72,3 +72,66 @@ Route49MazeP1_EventScript_Sabio2::
 	trainerbattle_single TRAINER_TRAINER_24, Route49MazeP1_Text_Sabio2Intro, Route49MazeP1_Text_Sabio2Defeated
 	msgbox Route49MazeP1_Text_Sabio2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route49MazeP1Documento_100::
+lock     
+showmonpic SPECIES_AKUERIA, 10, 3  
+playmoncry SPECIES_BARRASKEWDA, CRY_MODE_ENCOUNTER 
+msgbox Route49MazeP1Documento_Text_100, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+Route49MazeP1Documento_Text_100:
+.string "AKUERIA:\p"
+	.string "PS: 65\n"
+	.string "ATAQUE: 125\l"
+	.string "DEFENSA: 95\l"
+	.string "ATAQUE ESPECIAL: 35\l"
+	.string "DEFENSA ESPECIAL: 75\l"
+	.string "VELOCIDAD: 95\l"
+	.string "TOTAL: 490\p"
+	.string "AGUA/SINIESTRO\n"
+	.string "Comparte parentesco con la línea\l"
+	.string "evolutiva de CARVANHA, aunque su\l"
+	.string "cerebro es mucho más primitivo. Su TIPO\l"
+	.string "ACERO lo convierte en un rival temible.\l"
+	.string "Se enfrentará a cualquier rival con\l"
+	.string "total descaro, sin medir consecuencias\l"
+	.string "ni nada que perder, por ello todos\l"
+	.string "suelen apartarse a su paso.$"
+
+
+
+Route49MazeP1Documento_101::
+lock     
+showmonpic SPECIES_PURAKKUSU, 10, 3  
+playmoncry SPECIES_PINSIR, CRY_MODE_ENCOUNTER 
+msgbox Route49MazeP1Documento_Text_101, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+Route49MazeP1Documento_Text_101:
+.string "PURAKKUSU:\p"
+	.string "PS: 75\n"
+	.string "ATAQUE: 135\l"
+	.string "DEFENSA: 110\l"
+	.string "ATAQUE ESPECIAL: 35\l"
+	.string "DEFENSA ESPECIAL: 85\l"
+	.string "VELOCIDAD: 85\l"
+	.string "TOTAL: 525\p"
+	.string "BICHO\n"
+	.string "De la familia de PINSIR, se cree que es\l"
+	.string "una antigua adaptación que logró\l"
+	.string "inclinar la rivalidad\l"
+	.string "PINSIR-HERACROSS, debido al aumento\l"
+	.string "de su poder físico y la ganancia de\l"
+	.string "INTIMIDACIÓN como HABILIDAD. Sin\l"
+	.string "embargo, la mayoría de PINSIR no\l"
+	.string "podían sostener esta adaptación en\l"
+	.string "sus cuerpos y acabó extinguiéndose,\l"
+	.string "quedan unos pocos en zonas muy\l"
+	.string "concretas.$"

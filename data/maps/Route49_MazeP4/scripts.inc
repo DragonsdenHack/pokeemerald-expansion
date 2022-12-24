@@ -28,3 +28,33 @@ Route49_MazeP4_Text4:
 .string "La gente tiene tanta necesidad de\n"
 .string "mencionar los defectos porque duele\l"
 .string "mucho que te superen en virtudes.$"
+
+
+
+Route49MazeP4Documento_100::
+lock     
+showmonpic SPECIES_SACRED_DRAGON, 10, 3  
+playmoncry SPECIES_XERNEAS, CRY_MODE_ENCOUNTER 
+msgbox Route49MazeP4Documento_Text_100, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+Route49MazeP4Documento_Text_100:
+.string "DRAGÓN SAGRADO:\p"
+	.string "PS: 145\n"
+	.string "ATAQUE: 80\l"
+	.string "DEFENSA: 105\l"
+	.string "ATAQUE ESPECIAL: 145\l"
+	.string "DEFENSA ESPECIAL: 145\l"
+	.string "VELOCIDAD: 101\l"
+	.string "TOTAL: 721\p"
+	.string "DRAGÓN/BICHO\n"
+	.string "La leyenda dice que surgió a partir de\n"
+	.string "un DUNSPARCE, el cual fue despreciado\l"
+	.string "y juzgado por el resto de POKEMON.\l"
+	.string "Producto de ello y su inquebrantable\l"
+	.string "voluntad, logró trascender más allá de\l"
+	.string "su limitada forma. El proceso y\l"
+	.string "fenómeno por el cual logró esto es todo\l"
+	.string "un misterio.$"
