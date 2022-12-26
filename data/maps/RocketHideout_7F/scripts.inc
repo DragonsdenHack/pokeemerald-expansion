@@ -1285,7 +1285,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_128:
-.string "RHYPERIOR FUERTE VÍNCULO\p"
+.string "RHYPERIOR-&\p"
 	.string "PS: 125\n"
 	.string "ATAQUE: 175\l"
 	.string "DEFENSA: 155\l"
@@ -1323,7 +1323,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_129:
-.string "RAPIDASH FUERTE VÍNCULO:\p"
+.string "RAPIDASH-&:\p"
 	.string "PS: 75\n"
 	.string "ATAQUE: 130\l"
 	.string "DEFENSA: 100\l"
@@ -1357,7 +1357,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_130:
-.string "BUTTERFREE FUERTE VÍNCULO:\p"
+.string "BUTTERFREE-&:\p"
 	.string "PS: 60\n"
 	.string "ATAQUE: 5\l"
 	.string "DEFENSA: 70\l"
@@ -1393,7 +1393,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_131:
-.string "KINGDRA FUERTE VÍNCULO:\p"
+.string "KINGDRA-&:\p"
 	.string "PS: 75\n"
 	.string "ATAQUE: 115\l"
 	.string "DEFENSA: 115\l"
@@ -1424,7 +1424,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_132:
-.string "SKARMORY FUERTE VÍNCULO:\p"
+.string "SKARMORY-&:\p"
 	.string "PS: 75\n"
 	.string "ATAQUE: 110\l"
 	.string "DEFENSA: 160\l"
@@ -1458,7 +1458,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_133:
-	.string "POLIWRATH FUERTE VÍNCULO:\p"
+	.string "POLIWRATH-&:\p"
 	.string "PS: 90\n"
 	.string "ATAQUE: 145\l"
 	.string "DEFENSA: 125\l"
@@ -1493,7 +1493,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_134:
-	.string "ELECTIVIRE-X :\p"
+	.string "ELECTIVIRE-X:\p"
 	.string "PS: 75\n"
 	.string "ATAQUE: 153\l"
 	.string "DEFENSA: 97\l"
@@ -1531,7 +1531,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_135:
-	.string "ELECTRODE-Y :\p"
+	.string "ELECTRODE-Y:\p"
 	.string "PS: 60\n"
 	.string "ATAQUE: 10\l"
 	.string "DEFENSA: 85\l"
@@ -1564,7 +1564,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_136:
-.string "CROBAT FUERTE VÍNCULO :\p"
+.string "CROBAT-&:\p"
 	.string "PS: 95\n"
 	.string "ATAQUE: 125\l"
 	.string "DEFENSA: 95\l"
@@ -1626,7 +1626,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_138:
-	.string "DRAGONITE FUERTE VÍNCULO:\p"
+	.string "DRAGONITE-&:\p"
 	.string "PS: 101\n"
 	.string "ATAQUE: 94\l"
 	.string "DEFENSA: 115\l"
@@ -1726,7 +1726,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_141:
-	.string "DELPHOX FUERTE VÍNCULO:\p"
+	.string "DELPHOX-&:\p"
 	.string "PS: 85\n"
 	.string "ATAQUE: 69\l"
 	.string "DEFENSA: 92\l"
@@ -1757,7 +1757,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_142:
-	.string "VOLCARONA FUERTE VÍNCULO:\p"
+	.string "VOLCARONA-&:\p"
 	.string "PS: 95\n"
 	.string "ATAQUE: 45\l"
 	.string "DEFENSA: 75\l"
@@ -1794,7 +1794,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_143:
-	.string "LAPRAS FUERTE VÍNCULO:\p"
+	.string "LAPRAS-&:\p"
 	.string "PS: 150\n"
 	.string "ATAQUE: 85\l"
 	.string "DEFENSA: 105\l"
@@ -1855,7 +1855,7 @@ release
 end
 
 RocketHideout7FDocumento_Text_145:
-	.string "EEVEE FUERTE VÍNCULO:\p"
+	.string "EEVEE-&:\p"
 	.string "PS: 130\n"
 	.string "ATAQUE: 60\l"
 	.string "DEFENSA: 95\l"

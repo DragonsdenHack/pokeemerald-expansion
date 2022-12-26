@@ -39,21 +39,21 @@
       "x": 54,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_WEST_BIRTH_ISLAND",
-      "dest_warp_id": 0
+      "dest_map": "MAP_CMARA_ESTE_ARCHI",
+      "dest_warp_id": 1
     },
     {
       "x": 72,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_WEST_BIRTH_ISLAND",
+      "dest_map": "MAP_CAMARA_LARVESTA",
       "dest_warp_id": 0
     },
     {
       "x": 6,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_WEST_BIRTH_ISLAND",
+      "dest_map": "MAP_CASA_TRXATU",
       "dest_warp_id": 0
     }
   ],

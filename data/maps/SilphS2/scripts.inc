@@ -903,3 +903,123 @@ SilphS2_Text_53:
 .string "público, perdería su magia, su\l"
 .string "esencia, espero que seas\l"
 .string "consciente de esto.$"
+
+
+
+SilphS2Documento_100::
+lock     
+showmonpic SPECIES_PORYGON_Z, 10, 3  
+playmoncry SPECIES_PORYGON_Z, CRY_MODE_ENCOUNTER 
+msgbox SilphS2Documento_Text_100, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+SilphS2Documento_Text_100:
+.string "PORYGON-Z:\p"
+	.string "PS: 85\n"
+	.string "ATAQUE: 80\l"
+	.string "DEFENSA: 70\l"
+	.string "ATAQUE ESPECIAL: 145\l"
+	.string "DEFENSA ESPECIAL: 75\l"
+	.string "VELOCIDAD: 90\l"
+	.string "TOTAL: 545\p"
+	.string "Surgido a partir de un fallo en\n"
+	.string "busca de un PORYGON3 que\l"
+	.string "exprimiese al máximo el potencial\l"
+	.string "de PORYGON, este PORYGON-Z surgido\l"
+	.string "ha resultado tener una capacidad\l"
+	.string "ofensiva desbordante, con un\l"
+	.string "ATAQUE ESPECIAL de 145 de BASE\l"
+	.string "superando a GENGAR como el no\l"
+	.string "legendario de KANTO con mayor\l"
+	.string "ATAQUE ESPECIAL, únicamente\l"
+	.string "superado por MEWTWO, otro POKÉMON\l"
+	.string "creado por la ciencia.$"
+
+
+
+SilphS2Documento_101::
+lock     
+showmonpic SPECIES_SHARPEDO, 10, 3  
+playmoncry SPECIES_SHARPEDO, CRY_MODE_ENCOUNTER 
+msgbox SilphS2Documento_Text_101, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+SilphS2Documento_Text_101:
+	.string "SHARPEDO:\p"
+	.string "PS: 70\n"
+	.string "ATAQUE: 140\l"
+	.string "DEFENSA: 70\l"
+	.string "ATAQUE ESPECIAL: 75\l"
+	.string "DEFENSA ESPECIAL: 70\l"
+	.string "VELOCIDAD: 115\l"
+	.string "TOTAL: 540\p"
+	.string "El terror de los mares de HOENN,\n"
+	.string "dueño de la mordedura más potente\l"
+	.string "conocida con un triturar por STAB\l"
+	.string "devastador, las salvajes aguas de\l"
+	.string "HOENN obligaron a SHARPEDO a\l"
+	.string "adaptarse hasta convertirse en uno\l"
+	.string "de los POKÉMON más bravos del mar,\l"
+	.string "muy preciado y temido por\l"
+	.string "cualquier marinero.$"
+
+
+
+SilphS2Documento_102::
+lock     
+showmonpic SPECIES_CAMERUPT, 10, 3  
+playmoncry SPECIES_CAMERUPT, CRY_MODE_ENCOUNTER 
+msgbox SilphS2Documento_Text_102, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+SilphS2Documento_Text_102:
+	.string "CAMERUPT:\p"
+	.string "PS: 70\n"
+	.string "ATAQUE: 120\l"
+	.string "DEFENSA: 100\l"
+	.string "ATAQUE ESPECIAL: 145\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 10\l"
+	.string "TOTAL: 540\p"
+	.string "El camello de carga de HOENN, con\n"
+	.string "una relación ATAQUE-DEFENSA\l"
+	.string "inexistente aquí en KANTO, pagando\l"
+	.string "por ello con una velocidad de solo\l"
+	.string "10 puntos, se cree que la enorme\l"
+	.string "potencia de su TIERRA VIVA y\l"
+	.string "ESTALLIDO influyeron en el proceso\l"
+	.string "de emersión de HOENN.$"
+
+
+
+SilphS2Documento_103::
+lock     
+showmonpic SPECIES_FLOETTE_ETERNAL_FLOWER, 10, 3  
+playmoncry SPECIES_FLOETTE_ETERNAL_FLOWER, CRY_MODE_ENCOUNTER 
+msgbox SilphS2Documento_Text_103, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+SilphS2Documento_Text_103:
+	.string "FLOETTE-ETERNO:\p"
+	.string "PS: 74\n"
+	.string "ATAQUE: 65\l"
+	.string "DEFENSA: 67\l"
+	.string "ATAQUE ESPECIAL: 125\l"
+	.string "DEFENSA ESPECIAL: 128\l"
+	.string "VELOCIDAD: 92\l"
+	.string "TOTAL: 551\p"
+	.string "POKÉMON de procedencia única, se\n"
+	.string "cree que su ENTRENADOR logró\l"
+	.string "devolverle a la vida durante la\l"
+	.string "guerra que asoló KALOS, los\l"
+	.string "mecanismos mediante los que\l"
+	.string "supuestamente logró tal hazaña nos\l"
+	.string "son desconocidos.$"

@@ -84,3 +84,34 @@ SilphS1_Text_4:
 .string "tratamos de abarcar y compilar lo\l"
 .string "más reseñable que hemos encontrado\l"
 .string "ahí fuera.$"
+
+
+
+SilphS1Documento_100::
+lock     
+showmonpic SPECIES_DARMANITAN, 10, 3  
+playmoncry SPECIES_DARMANITAN, CRY_MODE_ENCOUNTER 
+msgbox SilphS1Documento_Text_100, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+SilphS1Documento_Text_100:
+.string "DARMANITAN: FUEGO/LUCHA\p"
+	.string "PS: 105\n"
+	.string "ATAQUE: 140\l"
+	.string "DEFENSA: 65\l"
+	.string "ATAQUE ESPECIAL: 30\l"
+	.string "DEFENSA ESPECIAL: 65\l"
+	.string "VELOCIDAD: 95\l"
+	.string "TOTAL: 500\p"
+	.string "La furia y el vigor convertidos en\n"
+	.string "POKÉMON, una energía incombustible\l"
+	.string "corre por sus venas, provocando\l"
+	.string "que en su naturaleza esté el\l"
+	.string "actuar y embestir haciendo uso de\l"
+	.string "toda su fuerza bruta antes incluso\l"
+	.string "de que su mente se lo ordene,\l"
+	.string "motivo de su colosal ATAQUE de 140\l"
+	.string "de BASE, y también de su pésimo\l"
+	.string "ATAQUE ESPECIAL de 30.$"

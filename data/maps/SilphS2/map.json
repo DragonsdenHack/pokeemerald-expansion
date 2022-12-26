@@ -724,6 +724,37 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 25,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SilphS2Documento_100"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 43,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SilphS2Documento_101"
+    },
+    {
+      "type": "sign",
+      "x": 16,
+      "y": 46,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SilphS2Documento_102"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 64,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "SilphS2Documento_103"
+    }
   ]
 }

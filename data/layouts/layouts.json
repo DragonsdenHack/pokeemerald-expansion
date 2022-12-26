@@ -13560,6 +13560,42 @@
       "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/MahoganyHouseCarbon/border.bin",
       "blockdata_filepath": "data/layouts/MahoganyHouseCarbon/map.bin"
+    },
+    {
+      "id": "LAYOUT_CMARA_ESTE_ARCHI",
+      "name": "Cmara_Este_Archi_Layout",
+      "width": 80,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_tanoby_ruins",
+      "border_filepath": "data/layouts/Cmara_Este_Archi/border.bin",
+      "blockdata_filepath": "data/layouts/Cmara_Este_Archi/map.bin"
+    },
+    {
+      "id": "LAYOUT_CAMARA_LARVESTA",
+      "name": "Camara_Larvesta_Layout",
+      "width": 23,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_tanoby_ruins",
+      "border_filepath": "data/layouts/Camara_Larvesta/border.bin",
+      "blockdata_filepath": "data/layouts/Camara_Larvesta/map.bin"
+    },
+    {
+      "id": "LAYOUT_CASA_TRXATU",
+      "name": "Casa_Trxatu_Layout",
+      "width": 14,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_museum_fr",
+      "border_filepath": "data/layouts/Casa_Trxatu/border.bin",
+      "blockdata_filepath": "data/layouts/Casa_Trxatu/map.bin"
     }
   ]
 }

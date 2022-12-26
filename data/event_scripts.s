@@ -2436,3 +2436,9 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/CianwoodEusineHouse/scripts.inc"
 
 	.include "data/maps/MahoganyHouseCarbon/scripts.inc"
+
+	.include "data/maps/Cmara_Este_Archi/scripts.inc"
+
+	.include "data/maps/Camara_Larvesta/scripts.inc"
+
+	.include "data/maps/Casa_Trxatu/scripts.inc"

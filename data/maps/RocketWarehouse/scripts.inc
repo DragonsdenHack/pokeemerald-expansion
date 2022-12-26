@@ -144,4 +144,24 @@ RocketWarehouse_EventScript_Recluta::
 	trainerbattle_single TRAINER_ISAAC_3, RocketWarehouse_Text_ReclutaIntro, RocketWarehouse_Text_ReclutaDefeated
 	msgbox RocketWarehouse_Text_ReclutaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+RocketWarehouseDocumento_106::
+lock     
+msgbox RocketWarehouseDocumento_Text_106, MSGBOX_DEFAULT
+release     
+end
+
+RocketWarehouseDocumento_Text_106:
+	.string "Según nuestros últimos estudios,\n"
+	.string "determinadas frecuencias de radio\l"
+	.string "pueden influir directamente en el\l"
+	.string "proceso de evolución de los\l"
+	.string "POKÉMON, crear mutaciones que\l"
+	.string "afecten a su color original y, en\l"
+	.string "los casos más extremos, disparar\l"
+	.string "sus STATS BASE globales\l"
+	.string "modificando completamente los\l"
+	.string "genes.$"
 	
