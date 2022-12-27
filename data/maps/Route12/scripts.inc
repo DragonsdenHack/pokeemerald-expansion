@@ -104,3 +104,12 @@ Route12_EventScript_Pescador5::
 	trainerbattle_single TRAINER_VIRGIL, Route12_Text_Pescador5Intro, Route12_Text_Pescador5Defeated
 	msgbox Route12_Pescador5PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Route12Documento_100::
+msgbox Route12Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route12Documento_Text_100:
+	.string "RUTA 12\n"
+	.string "Al norte PUEBLO LAVANDA$"

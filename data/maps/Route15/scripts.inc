@@ -110,3 +110,13 @@ Route15_EventScript_Chica4::
 	trainerbattle_single TRAINER_AMY_AND_LIV_1, Route15_Text_Chica4Intro, Route15_Text_Chica4Defeated
 	msgbox Route15_Chica4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route15Documento_100::
+msgbox Route15Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route15Documento_Text_100:
+	.string "RUTA 15\n"
+	.string "Al oeste CIUDAD FUCSIA$"

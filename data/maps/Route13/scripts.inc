@@ -113,3 +113,35 @@ Route13_EventScript_Ornitologo3::
 	trainerbattle_single TRAINER_ISABEL_2, Route13_Text_Ornitologo3Intro, Route13_Text_Ornitologo3Defeated
 	msgbox Route13_Ornitologo3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route13Documento_100::
+msgbox Route13Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route13Documento_Text_100:
+.string "RUTA 13\n"
+	.string "Al norte PUENTE SILENCIO$"
+
+
+
+Route13Documento_101::
+msgbox Route13Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route13Documento_Text_101:
+.string "Consejos entrenador:\p"
+	.string "Usa select para cambiar de\n"
+	.string "Iobjetos en su ventana.$"
+
+
+
+Route13Documento_102::
+msgbox Route13Documento_Text_102, MSGBOX_SIGN   
+end
+
+Route13Documento_Text_102:
+.string "Consejos de entrenador:\n"
+	.string "¡Observa lo que hay al lado\l"
+	.string "derecho de este camino!$"

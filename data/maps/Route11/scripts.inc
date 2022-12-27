@@ -155,3 +155,12 @@ Route11_EventScript_Anciano4::
 	trainerbattle_single TRAINER_SIDNEY, Route11_Text_Anciano4Intro, Route11_Text_Anciano4Defeated
 	msgbox Route11_Text_Anciano4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route11Documento_100::
+msgbox Route11Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route11Documento_Text_100:
+	.string "CUEVA DIGGLET$"

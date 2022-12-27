@@ -169,7 +169,7 @@
       "y": 53,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route17Documento_100"
     },
     {
       "type": "sign",
@@ -177,7 +177,7 @@
       "y": 68,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route17Documento_101"
     },
     {
       "type": "sign",
@@ -185,7 +185,7 @@
       "y": 83,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route17Documento_102"
     },
     {
       "type": "sign",
@@ -193,7 +193,7 @@
       "y": 97,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route17Documento_103"
     },
     {
       "type": "sign",
@@ -201,7 +201,7 @@
       "y": 125,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route17Documento_104"
     },
     {
       "type": "sign",
@@ -209,7 +209,7 @@
       "y": 157,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route17Documento_105"
     }
   ]
 }

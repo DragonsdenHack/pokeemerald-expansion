@@ -102,3 +102,13 @@ Route3_EventScript_Cazabichos3::
 	trainerbattle_single TRAINER_KINDRA, Route3_Text_Cazabichos3Intro, Route3_Text_Cazabichos3Defeated
 	msgbox Route3_Text_Cazabichos3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route3Documento_100::
+msgbox Route3Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route3Documento_Text_100:
+.string "RUTA 3\n"
+	.string "MT.MOON AL NORTE$"

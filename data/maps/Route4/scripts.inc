@@ -64,3 +64,22 @@ Route4_EventScript_Chica::
 	trainerbattle_single TRAINER_CINDY_3, Route4_Text_ChicaIntro, Route4_Text_ChicaDefeated
 	msgbox Route4_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Route4Documento_100::
+msgbox Route4Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route4Documento_Text_100:
+	.string "MT. MOON\n"
+	.string "Entrada al túnel$"
+
+
+
+Route4Documento_101::
+msgbox Route4Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route4Documento_Text_101:
+.string "RUTA 4\n"
+	.string "MT. MOON - CIUDAD CELESTE$"

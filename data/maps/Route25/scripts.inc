@@ -125,3 +125,12 @@ Route25_EventScript_Chica2::
 	trainerbattle_single TRAINER_SHIRLEY, Route25_Text_Chica2Intro, Route25_Text_Chica2Defeated
 	msgbox Route25_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Route25Documento_100::
+msgbox Route25Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route25Documento_Text_100:
+	.string "CASA DEL MAR\n"
+	.string "¡BILL vive aquí!$"

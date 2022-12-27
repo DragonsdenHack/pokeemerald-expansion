@@ -122,3 +122,13 @@ Route14_EventScript_Motorista4::
 	trainerbattle_single TRAINER_BERNIE_3, Route14_Text_Motorista4Intro, Route14_Text_Motorista4Defeated
 	msgbox Route14_Motorista4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route14Documento_100::
+msgbox Route14Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route14Documento_Text_100:
+	.string "RUTA 14\n"
+	.string "Al oeste CIUDAD FUCSIA$"

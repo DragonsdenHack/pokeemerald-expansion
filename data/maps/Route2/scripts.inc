@@ -68,3 +68,22 @@ end
 
 Route2_8::
 end
+
+
+
+Route2Documento_100::
+msgbox Route2Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route2Documento_Text_100:
+.string "CUEVA DIGGLET$"
+
+
+
+Route2Documento_101::
+msgbox Route2Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route2Documento_Text_101:
+.string "RUTA 2\n"
+	.string "CIUDAD VERDE - CIUDAD PLATEADA$"

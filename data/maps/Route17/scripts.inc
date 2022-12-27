@@ -108,3 +108,70 @@ Route17_EventScript_Motorista10::
 	trainerbattle_single TRAINER_WALTER_1, Route17_Text_Motorista10Intro, Route17_Text_Motorista10Defeated
 	msgbox Route17_Motorista10PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Route17Documento_100::
+msgbox Route17Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route17Documento_Text_100:
+	.string "¡CAMINO BICIS - TERRITORIO DE\n"
+	.string "MOTORISTAS!$"
+
+
+
+Route17Documento_101::
+msgbox Route17Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route17Documento_Text_101:
+.string "CONSEJOS DE ENTRENADOR:\n"
+	.string "Cada Pokémon es único.\l"
+	.string "Incluso Pokémon de la misma\l"
+	.string "especie y mismo nivel tienen\l"
+	.string "claras diferencias en sus\l"
+	.string "estadísticas globales, los\l"
+	.string "llamados IVs, así como las\l"
+	.string "naturalezas.$"
+
+
+
+Route17Documento_102::
+msgbox Route17Documento_Text_102, MSGBOX_SIGN   
+end
+
+Route17Documento_Text_102:
+.string "TESTSUO ESTUVO AQUÍ$"
+
+
+
+Route17Documento_103::
+msgbox Route17Documento_Text_103, MSGBOX_SIGN   
+end
+
+Route17Documento_Text_103:
+.string "RUTA 17\n"
+	.string "CIUDAD AZAFRÁN - CIUDAD FUCSIA$"
+
+
+
+
+Route17Documento_104::
+msgbox Route17Documento_Text_104, MSGBOX_SIGN   
+end
+
+Route17Documento_Text_104:
+.string "Cerrada inminente de los\n"
+	.string "subterráneos CELESTE - CARMÍN y\l"
+	.string "LAVANDA - AZULONA, por invasiones\l"
+	.string "de motoristas en ellos.$"
+
+
+
+Route17Documento_105::
+msgbox Route17Documento_Text_105, MSGBOX_SIGN   
+end
+
+Route17Documento_Text_105:
+.string "CAMINO BICIS\n"
+	.string "¡Respeta y te respetaremos!$"

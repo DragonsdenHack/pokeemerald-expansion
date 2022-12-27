@@ -107,3 +107,13 @@ Route19_EventScript_Nadadora3::
 	trainerbattle_single TRAINER_JERRY_4, Route19_Text_Nadadora3Intro, Route19_Text_Nadadora3Defeated
 	msgbox Route19_Nadadora3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route19Documento_100::
+msgbox Route19Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route19Documento_Text_100:
+	.string "RUTA MARINA 19\n"
+	.string "CIUDAD FUCSIA - ISLAS ESPUMA$"

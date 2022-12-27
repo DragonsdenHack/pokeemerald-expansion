@@ -115,3 +115,21 @@ Route20_EventScript_Chica2::
 	trainerbattle_single TRAINER_DIANA_1, Route20_Text_Chica2Intro, Route20_Text_Chica2Defeated
 	msgbox Route20_Chica2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route20Documento_100::
+msgbox Route20Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route20Documento_Text_100:
+.string "ISLAS ESPUMA$"
+
+
+
+Route21Documento_101::
+msgbox Route21Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route21Documento_Text_101:
+.string "ISLAS ESPUMA$"

@@ -71,3 +71,13 @@ Route23_EventScript_Policia7::
 	trainerbattle_single TRAINER_MARIA_5, Route23_Text_Policia7Intro, Route23_Text_Policia7Defeated
 	msgbox Route23_Text_Policia7PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route23Documento_100::
+msgbox Route23Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route23Documento_Text_100:
+	.string "ENTRADA A CALLE VICTORIA - LIGA\n"
+	.string "POKÉMON$"

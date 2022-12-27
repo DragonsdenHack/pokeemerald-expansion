@@ -109,3 +109,13 @@ Route9_EventScript_Hiker3::
 	trainerbattle_single TRAINER_NOB_4, Route9_Text_Hiker3Intro, Route9_Text_Hiker3Defeated
 	msgbox Route9_Text_Hiker3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route9Documento_100::
+msgbox Route9Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route9Documento_Text_100:
+	.string "RUTA 9\n"
+	.string "CIUDAD CELESTE - TÚNEL ROCA$"

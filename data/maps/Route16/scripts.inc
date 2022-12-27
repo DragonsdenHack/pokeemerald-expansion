@@ -153,3 +153,23 @@ Route16_EventScript_Motorista6::
 	trainerbattle_single TRAINER_DALTON_5, Route16_Text_Motorista6Intro, Route16_Text_Motorista6Defeated
 	msgbox Route16_Motorista6PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route16Documento_100::
+msgbox Route16Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route16Documento_Text_100:
+	.string "RUTA 16\n"
+	.string "CIUDAD AZULONA - CIUDAD FUCSIA$"
+
+
+
+Route16Documento_101::
+msgbox Route16Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route16Documento_Text_101:
+	.string "¡Disfruta de la pendiente!\n"
+	.string "CAMINO BICIS$"

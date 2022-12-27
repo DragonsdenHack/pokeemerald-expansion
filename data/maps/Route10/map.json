@@ -294,7 +294,7 @@
       "y": 21,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route10Documento_100"
     },
     {
       "type": "sign",
@@ -302,7 +302,7 @@
       "y": 42,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route10Documento_101"
     },
     {
       "type": "sign",
@@ -310,7 +310,7 @@
       "y": 59,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route10Documento_102"
     }
   ]
 }

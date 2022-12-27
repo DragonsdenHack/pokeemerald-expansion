@@ -60,3 +60,13 @@ Route6_EventScript_Cazabichos2::
 	trainerbattle_single TRAINER_VALERIE_4, Route6_Text_Cazabichos2Intro, Route6_Text_Cazabichos2Defeated
 	msgbox Route6_Text_Cazabichos2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route6Documento_100::
+msgbox Route6Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route6Documento_Text_100:
+	.string "ZONA SUBTERRÁNEA\n"
+	.string "CIUDAD CELESTE-CIUDAD CARMÍN$"

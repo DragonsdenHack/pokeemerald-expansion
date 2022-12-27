@@ -148,3 +148,31 @@ Route10_EventScript_Chica2::
 	trainerbattle_single TRAINER_DAVID, Route10_Text_Chica2Intro, Route10_Text_Chica2Defeated
 	msgbox Route10_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route10Documento_100::
+msgbox Route10Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route10Documento_Text_100:
+	.string "TÚNEL ROCA\n"
+	.string "Desvío a PUEBLO LAVANDA$"
+
+
+
+Route10Documento_101::
+msgbox Route10Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route10Documento_Text_101:
+.string "CENTRAL ENERGÍA$"
+
+
+
+Route10Documento_102::
+msgbox Route10Documento_Text_102, MSGBOX_SIGN   
+end
+
+Route10Documento_Text_102:
+.string "TÚNEL ROCA$"

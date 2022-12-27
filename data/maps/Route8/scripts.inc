@@ -128,3 +128,13 @@ Route8_EventScript_Chica4::
 	trainerbattle_single TRAINER_JESSICA_2, Route8_Text_Chica4Intro, Route8_Text_Chica4Defeated
 	msgbox Route8_Text_Chica4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route8Documento_100::
+msgbox Route8Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route8Documento_Text_100:
+	.string "ZONA SUBTERRÁNEA\n"
+	.string "CIUDAD AZULONA - PUEBLO LAVANDA$"

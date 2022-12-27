@@ -30,3 +30,23 @@ Route18_EventScript_Ornitologo3::
 	trainerbattle_single TRAINER_TIMOTHY_4, Route18_Text_Ornitologo3Intro, Route18_Text_Ornitologo3Defeated
 	msgbox Route18_Ornitologo3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route18Documento_100::
+msgbox Route18Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route18Documento_Text_100:
+	.string "CAMINO BICIS\n"
+	.string "¡No se permiten peatones!$"
+
+
+
+Route18Documento_101::
+msgbox Route18Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route18Documento_Text_101:
+.string "RUTA 18\n"
+	.string "CIUDAD AZULONA - CIUDAD FUCSIA$"
