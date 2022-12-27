@@ -124,7 +124,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "LavenderTownDocumento_103"
     },
     {
       "type": "sign",
@@ -132,7 +132,7 @@
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "LavenderTownDocumento_101"
     },
     {
       "type": "sign",
@@ -140,7 +140,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "LavenderTownDocumento_102"
     },
     {
       "type": "sign",
@@ -148,7 +148,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "LavenderTownDocumento_100"
     }
   ]
 }

@@ -271,7 +271,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VermilionCityDocumento_100"
     },
     {
       "type": "sign",
@@ -279,7 +279,7 @@
       "y": 24,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VermilionCityDocumento_101"
     },
     {
       "type": "sign",
@@ -287,7 +287,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VermilionCityDocumento_103"
     },
     {
       "type": "sign",
@@ -295,7 +295,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VermilionCityDocumento_104"
     },
     {
       "type": "sign",
@@ -303,7 +303,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VermilionCityDocumento_102"
     },
     {
       "type": "sign",

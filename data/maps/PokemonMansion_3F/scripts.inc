@@ -32,3 +32,16 @@ PokemonMansion3F_EventScript_Cientifico2::
 	trainerbattle_single TRAINER_ELLIOT_3, PokemonMansion3F_Text_Cientifico2Intro, PokemonMansion3F_Text_Cientifico2Defeated
 	msgbox PokemonMansion3F_Cientifico2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+PokemonMansion3FDocumento_100::
+lock     
+msgbox PokemonMansion3FDocumento_Text_100, MSGBOX_DEFAULT
+release     
+end
+
+PokemonMansion3FDocumento_Text_100:
+	.string "Diario: 6 de Febrero\n"
+	.string "Mew dió a luz, llamamos al pequeño\l"
+	.string "Mewtwo.$"

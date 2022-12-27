@@ -311,7 +311,7 @@
       "y": 23,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_105"
     },
     {
       "type": "sign",
@@ -319,7 +319,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_102"
     },
     {
       "type": "sign",
@@ -327,7 +327,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_104"
     },
     {
       "type": "sign",
@@ -335,7 +335,7 @@
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_101"
     },
     {
       "type": "sign",
@@ -343,7 +343,7 @@
       "y": 11,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_103"
     },
     {
       "type": "sign",
@@ -351,7 +351,7 @@
       "y": 23,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_106"
     },
     {
       "type": "sign",
@@ -359,7 +359,7 @@
       "y": 31,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_100"
     },
     {
       "type": "sign",
@@ -367,7 +367,7 @@
       "y": 23,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CeladonCityDocumento_107"
     }
   ]
 }

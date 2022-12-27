@@ -359,7 +359,7 @@
       "y": 32,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_100"
     },
     {
       "type": "sign",
@@ -367,7 +367,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_103"
     },
     {
       "type": "sign",
@@ -375,7 +375,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_105"
     },
     {
       "type": "sign",
@@ -383,7 +383,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_106"
     },
     {
       "type": "sign",
@@ -391,7 +391,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_102"
     },
     {
       "type": "sign",
@@ -399,7 +399,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_101"
     },
     {
       "type": "sign",
@@ -407,7 +407,7 @@
       "y": 31,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_107"
     },
     {
       "type": "sign",
@@ -415,7 +415,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_109"
     },
     {
       "type": "sign",
@@ -423,7 +423,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_108"
     },
     {
       "type": "sign",
@@ -431,7 +431,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_110"
     },
     {
       "type": "sign",
@@ -439,7 +439,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_104"
     }
   ]
 }

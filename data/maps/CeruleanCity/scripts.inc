@@ -95,3 +95,58 @@ CeruleanCity_Text9:
 .string "Quiero una bici roja nueva.\n"
 .string "La mantendré en casa para que no\l"
 .string "se ensucie.$"
+
+
+
+CeruleanCityDocumento_100::
+msgbox CeruleanCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeruleanCityDocumento_Text_100:
+.string "¡Una bici nueva y brillante!$"
+
+
+
+CeruleanCityDocumento_101::
+msgbox CeruleanCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+CeruleanCityDocumento_Text_101:
+.string "¡Cruza bosques y cuevas en un\n"
+	.string "suspiro!\l"
+	.string "TIENDA DE BICIS$"
+
+
+
+CeruleanCityDocumento_102::
+msgbox CeruleanCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+CeruleanCityDocumento_Text_102:
+	.string "CONSEJOS DE ENTRENADOR\n"
+	.string "Los POKÉMON pueden llevar objetos\l"
+	.string "equipados.\l"
+	.string "Algunos objetos pueden incluso\l"
+	.string "usarse durante el combate.$"
+
+
+
+CeruleanCityDocumento_103::
+msgbox CeruleanCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+CeruleanCityDocumento_Text_103:
+	.string "CIUDAD CELESTE\n"
+	.string "Una Misteriosa Aurea Azul la\l"
+	.string "rodea.$"
+
+
+
+CeruleanCityDocumento_104::
+msgbox CeruleanCityDocumento_Text_104, MSGBOX_SIGN   
+end
+
+CeruleanCityDocumento_Text_104:
+	.string "LÍDER DE GIMNASIO DE CIUDAD\n"
+	.string "CELESTE: MISTY\l"
+	.string "¡La sirena distorsionada!$"

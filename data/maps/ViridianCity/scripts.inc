@@ -70,3 +70,48 @@ ViridianCity_Text9:
 .string "¡Espero que nuestro LÍDER\n"
 .string "misterioso vuelva pronto y os eche\l"
 .string "a patadas de la ciudad!$"
+
+
+ViridianCityDocumento_100::
+msgbox ViridianCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+ViridianCityDocumento_Text_100:
+.string "Consejos de entrenador:\n"
+	.string "La cantidad de veces que un\l"
+	.string "Pokémon puede ejecutar un\l"
+	.string "movimiento está limitada por los\l"
+	.string "PPs, para restaurarlos acude al\l"
+	.string "Centro Pokémon.$"
+
+
+
+ViridianCityDocumento_101::
+msgbox ViridianCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+ViridianCityDocumento_Text_101:
+	.string "CIUDAD VERDE\n"
+	.string "El eterno paraíso verde.$"
+
+
+
+ViridianCityDocumento_102::
+msgbox ViridianCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+ViridianCityDocumento_Text_102:
+	.string "PISTAS ENTRENADOR\p"
+	.string "¡Atrapa los POKéMON y amplía\n"
+	.string "tu colección!\p"
+	.string "¡Cuantos más tengas, más fácil\n"
+	.string "te será luchar!$"
+
+
+
+ViridianCityDocumento_103::
+msgbox ViridianCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+ViridianCityDocumento_Text_103:
+	.string "Gimnasio de CIUDAD VERDE$"

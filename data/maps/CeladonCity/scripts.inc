@@ -134,3 +134,94 @@ CeladonCity_Text14:
 .string "estúpido CASINO todos nuestros\l"
 .string "intentos por mantener limpia esta\l"
 .string "ciudad!$"
+
+
+
+CeladonCityDocumento_100::
+msgbox CeladonCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_100:
+.string "GIMNASIO DE CIUDAD AZULONA\n"
+	.string "LÍDER: ERIKA\l"
+	.string "¡La princesa de la naturaleza!$"
+
+
+
+CeladonCityDocumento_101::
+msgbox CeladonCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_101:
+	.string "¡Todo lo que necesitas está en\n"
+	.string "el CENTRO COMERCIAL AZULONA!$"
+
+
+
+CeladonCityDocumento_102::
+msgbox CeladonCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_102:
+	.string "CIUDAD AZULONA\n"
+	.string "El arco iris de los sueños.$"
+
+
+
+CeladonCityDocumento_103::
+msgbox CeladonCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_103:
+	.string "MANSIÓN AZULONA$"
+
+
+
+CeladonCityDocumento_104::
+msgbox CeladonCityDocumento_Text_104, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_104:
+	.string "PISTAS ENTRENADOR\p"
+	.string "¡PRECISIÓN X aumenta la precisión\n"
+	.string "de los ataques!\p"
+	.string "¡El DIRECTO aumenta la posibilidad\n"
+	.string "de golpes críticos!\p"
+	.string "¡Compra tus objetos en el\n"
+	.string "CENTRO COMERCIAL de AZULONA!$"
+
+
+
+CeladonCityDocumento_105::
+msgbox CeladonCityDocumento_Text_105, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_105:
+	.string "CASINO ROCKET\n"
+	.string "¡El parque de atracciones para\l"
+	.string "adultos!$"
+
+
+
+CeladonCityDocumento_106::
+msgbox CeladonCityDocumento_Text_106, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_106:
+	.string "¡Las FICHAS son cambiadas por\n"
+	.string "premios!$"
+
+
+
+CeladonCityDocumento_107::
+msgbox CeladonCityDocumento_Text_107, MSGBOX_SIGN   
+end
+
+CeladonCityDocumento_Text_107:
+	.string "CONSEJOS DE ENTRENADOR\n"
+	.string "El PROTECTOR ESPECIAL protege a\l"
+	.string "tus POKÉMON de los movimientos que\l"
+	.string "reducen tus estadísticas en\l"
+	.string "batalla.\l"
+	.string "¡Obtén tus objetos en el CENTRO\l"
+	.string "COMERCIAL AZULONA!$"

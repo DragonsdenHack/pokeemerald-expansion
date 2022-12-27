@@ -28,3 +28,33 @@ CinnabarIsland_Text_2:
 .string "edificio quemado.\l"
 .string "Es el mismo edificio al que llaman\l"
 .string "MANSIÓN POKÉMON.$"
+
+
+
+CinnabarIslandDocumento_100::
+msgbox CinnabarIslandDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CinnabarIslandDocumento_Text_100:
+.string "LABORATORIO POKÉMON$"
+
+
+
+CinnabarIslandDocumento_101::
+msgbox CinnabarIslandDocumento_Text_101, MSGBOX_SIGN   
+end
+
+CinnabarIslandDocumento_Text_101:
+.string "ISLA CANELA\n"
+	.string "El lugar del ardiente deseo.$"
+
+
+
+CinnabarIslandDocumento_102::
+msgbox CinnabarIslandDocumento_Text_102, MSGBOX_SIGN   
+end
+
+CinnabarIslandDocumento_Text_102:
+	.string "LÍDER DE GIMNASIO de CANELA:\n"
+	.string "BLAINE\l"
+	.string "¡El maestro de los acertijos!$"
