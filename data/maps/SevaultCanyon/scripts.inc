@@ -132,3 +132,13 @@ SevaultCanyon_EventScript_Luchadora::
 	trainerbattle_single TRAINER_BRENDAN_RUSTBORO_TREECKO, SevaultCanyon_Text_LuchadoraIntro, SevaultCanyon_Text_LuchadoraDefeated
 	msgbox SevaultCanyon_Text_LuchadoraPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+SevaultCanyonDocumento_100::
+msgbox SevaultCanyonDocumento_Text_100, MSGBOX_SIGN   
+end
+
+SevaultCanyonDocumento_Text_100:
+	.string "CAÑÓN SETE\n"
+	.string "RUINAS SETE al sur$"

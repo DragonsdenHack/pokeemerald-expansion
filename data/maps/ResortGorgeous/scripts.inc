@@ -77,4 +77,12 @@ ResortGorgeus_EventScript_Nadador::
 	trainerbattle_single TRAINER_GRUNT_SEAFLOOR_CAVERN_5, ResortGorgeus_Text_NadadorIntro, ResortGorgeus_Text_NadadorDefeated
 	msgbox ResortGorgeus_Text_NadadorPostBattle, MSGBOX_AUTOCLOSE
     end
+
+
+ResortGorgeusDocumento_100::
+msgbox ResortGorgeusDocumento_Text_100, MSGBOX_SIGN   
+end
+
+ResortGorgeusDocumento_Text_100:
+	.string "CASA DE CÓNSUL$"
 	

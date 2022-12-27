@@ -214,3 +214,23 @@ KindleRoad_EventScript_Pescador::
 	trainerbattle_single TRAINER_JACKSON_1, KindleRoad_Text_PescadorIntro, KindleRoad_Text_PescadorDefeated
 	msgbox KindleRoad_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+KindleRoadDocumento_100::
+msgbox KindleRoadDocumento_Text_100, MSGBOX_SIGN   
+end
+
+KindleRoadDocumento_Text_100:
+	.string "¡Siente el calor en tu corazón!\n"
+	.string "BALNEARIO.$"
+
+
+
+KindleRoadDocumento_101::
+msgbox KindleRoadDocumento_Text_101, MSGBOX_SIGN   
+end
+
+KindleRoadDocumento_Text_101:
+	.string "CAMINO CANDENTE.\n"
+	.string "Al norte el MT.ASCUAS.$"

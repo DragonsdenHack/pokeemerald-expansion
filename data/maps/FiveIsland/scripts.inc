@@ -67,3 +67,14 @@ FiveIsland_Text_4:
 .string "¡No quiero verte intentar nada\l"
 .string "raro fuera de vuestros horarios\l"
 .string "asignados!$"
+
+
+
+FiveIslandDocumento_100::
+msgbox FiveIslandDocumento_Text_100, MSGBOX_SIGN   
+end
+
+FiveIslandDocumento_Text_100:
+.string "ISLA INTA\n"
+	.string "La isla del tiempo: Donde pasa el\l"
+	.string "tiempo.$"

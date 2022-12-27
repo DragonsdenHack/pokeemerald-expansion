@@ -431,7 +431,7 @@
       "y": 59,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "KindleRoadDocumento_100"
     },
     {
       "type": "sign",
@@ -439,7 +439,7 @@
       "y": 115,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "KindleRoadDocumento_101"
     }
   ]
 }

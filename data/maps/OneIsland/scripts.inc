@@ -50,3 +50,22 @@ end
 OneIsland_Text_3:
 .string "¿Qué? ¿Disfrutando del paisaje?\n"
 .string "El tiempo es fabuloso, ¿eh?$"
+
+
+
+OneIslandDocumento_100::
+msgbox OneIslandDocumento_Text_100, MSGBOX_SIGN   
+end
+
+OneIslandDocumento_Text_100:
+.string "¡Expandiendo el mundo POKÉMON!$"
+
+
+
+OneIslandDocumento_101::
+msgbox OneIslandDocumento_Text_101, MSGBOX_SIGN   
+end
+
+OneIslandDocumento_Text_101:
+.string "ISLA PRIMA\n"
+	.string "Donde los amigos se reunen.$"

@@ -239,7 +239,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FourIslandDocumento_100"
     },
     {
       "type": "sign",
@@ -247,7 +247,7 @@
       "y": 23,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FourIslandDocumento_101"
     }
   ]
 }

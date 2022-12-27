@@ -54,3 +54,34 @@ end
 
 TwoIsland6::
 end
+
+
+
+TwoIslandDocumento_100::
+msgbox TwoIslandDocumento_Text_100, MSGBOX_SIGN   
+end
+
+TwoIslandDocumento_Text_100:
+.string "¡PELIGRO!\n"
+	.string "¡CORRIENTES ULTRA-RÁPIDAS!\l"
+	.string "¡La pesca y el surf están\l"
+	.string "prohibidos!$"
+
+
+
+TwoIslandDocumento_101::
+msgbox TwoIslandDocumento_Text_101, MSGBOX_SIGN   
+end
+
+TwoIslandDocumento_Text_101:
+.string "ISLA SECUNDA\n"
+	.string "Bendita isla para dos.$"
+
+
+
+TwoIslandDocumento_102::
+msgbox TwoIslandDocumento_Text_102, MSGBOX_SIGN   
+end
+
+TwoIslandDocumento_Text_102:
+.string "SALÓN DE JUEGOS DE ISLA SECUNDA$"

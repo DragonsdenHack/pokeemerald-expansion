@@ -40,3 +40,12 @@ ThreeIsland_Text_5:
 .string "Vale que no sea la más animada,\n"
 .string "pero mejor así que tener a los\l"
 .string "salvajes de las motos por aquí.$"
+
+
+ThreeIslandDocumento_101::
+msgbox ThreeIslandDocumento_Text_101, MSGBOX_SIGN   
+end
+
+ThreeIslandDocumento_Text_101:
+.string "ISLA TERA\n"
+	.string "La isla de los lazos familiares.$"

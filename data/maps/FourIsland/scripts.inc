@@ -60,3 +60,22 @@ end
 
 FourIsland7::
 end
+
+
+
+FourIslandDocumento_100::
+msgbox FourIslandDocumento_Text_100, MSGBOX_SIGN   
+end
+
+FourIslandDocumento_Text_100:
+.string "ISLA CUARTA\n"
+	.string "El cálido y azul témpano flotante.$"
+
+
+
+FourIslandDocumento_101::
+msgbox FourIslandDocumento_Text_101, MSGBOX_SIGN   
+end
+
+FourIslandDocumento_Text_101:
+.string "Casa de LORELEI$"

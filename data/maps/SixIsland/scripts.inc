@@ -27,3 +27,13 @@ SixIsland_Text_2:
 .string "Al estar tan lejos de las ciudades,\n"
 .string "por la noche el cielo se ve muy\l"
 .string "despejado.$"
+
+
+
+SixIslandDocumento_100::
+msgbox SixIslandDocumento_Text_100, MSGBOX_SIGN   
+end
+
+SixIslandDocumento_Text_100:
+.string "ISLA EXTA\n"
+	.string "Repleta de Sabiduría Ancestral.$"

@@ -18,7 +18,16 @@ TrainerTower_EventScript_Chica::
 
 
 
-	TrainerTower_EventScript_Chico::
+TrainerTower_EventScript_Chico::
 	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_4, TrainerTower_Text_ChicoIntro, TrainerTower_Text_ChicoDefeated
 	msgbox TrainerTower_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+TrainerTowerDocumento_100::
+msgbox TrainerTowerDocumento_Text_100, MSGBOX_SIGN   
+end
+
+TrainerTowerDocumento_Text_100:
+	.string "MAR ABIERTO$"
