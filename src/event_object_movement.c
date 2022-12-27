@@ -439,8 +439,8 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_RS_BRENDAN              0x1122
 #define OBJ_EVENT_PAL_TAG_RS_MAY                  0x1123
 #define OBJ_EVENT_PAL_TAG_ADMIN                   0x1124
-#define OBJ_EVENT_PAL_TAG_GIOVANNI                0x1125
-#define OBJ_EVENT_PAL_TAG_ROCKETS                 0x1126
+#define OBJ_EVENT_PAL_TAG_PROTA                   0x1125
+#define OBJ_EVENT_PAL_TAG_NPC_WHITE               0x1126
 #define OBJ_EVENT_PAL_TAG_AMPHAROS                0x1127
 #define OBJ_EVENT_PAL_TAG_ENTEI                   0x1128
 #define OBJ_EVENT_PAL_TAG_SUICUNE                 0x1129
@@ -452,6 +452,12 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_YVELTAL                 0x112F
 #define OBJ_EVENT_PAL_TAG_ZEKROM                  0x1130
 #define OBJ_EVENT_PAL_TAG_ZEUS                    0x1131
+#define OBJ_EVENT_PAL_TAG_NPC_BLUE 0x1132
+#define OBJ_EVENT_PAL_TAG_NPC_GREEN 0x1133
+#define OBJ_EVENT_PAL_TAG_METEORITE   0x1134 
+#define OBJ_EVENT_PAL_TAG_SEAGALLOP                   0x1135
+#define OBJ_EVENT_PAL_TAG_SS_ANNE                     0x1136
+#define OBJ_EVENT_PAL_TAG_NPC_PINK 0x1137
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/field_effects/field_effect_object_template_pointers.h"
@@ -498,8 +504,15 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Lugia,                 OBJ_EVENT_PAL_TAG_LUGIA},
     {gObjectEventPal_RubySapphireBrendan,   OBJ_EVENT_PAL_TAG_RS_BRENDAN},
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
-    {gObjectEventPal_Giovanni,              OBJ_EVENT_PAL_TAG_GIOVANNI},
-    {gObjectEventPal_Rockets,               OBJ_EVENT_PAL_TAG_ROCKETS},
+    {gObjectEventPal_Giovanni,              OBJ_EVENT_PAL_TAG_NPC_WHITE},
+    {gObjectEventPal_Rockets,               OBJ_EVENT_PAL_TAG_PROTA},
+    {gObjectEventPal_NpcBlue,                 OBJ_EVENT_PAL_TAG_NPC_BLUE},
+    {gObjectEventPal_NpcPink,                 OBJ_EVENT_PAL_TAG_NPC_PINK},
+    {gObjectEventPal_NpcGreen,                OBJ_EVENT_PAL_TAG_NPC_GREEN},
+    {gObjectEventPal_NpcWhite,                OBJ_EVENT_PAL_TAG_NPC_WHITE},
+    {gObjectEventPal_Meteorite,               OBJ_EVENT_PAL_TAG_METEORITE},
+    {gObjectEventPal_SSAnne,                  OBJ_EVENT_PAL_TAG_SS_ANNE},
+    {gObjectEventPal_Seagallop,               OBJ_EVENT_PAL_TAG_SEAGALLOP},
     {},
 };
 

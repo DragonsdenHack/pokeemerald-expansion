@@ -413,8 +413,43 @@
 #define OBJ_EVENT_GFX_YVELTAL                    409
 #define OBJ_EVENT_GFX_ZEKROM                     410
 #define OBJ_EVENT_GFX_ZEUS                       411
+#define OBJ_EVENT_GFX_SNORLAX 412
+#define OBJ_EVENT_GFX_SPEAROW 413
+#define OBJ_EVENT_GFX_CUBONE 414
+#define OBJ_EVENT_GFX_POLIWRATH 415
+#define OBJ_EVENT_GFX_CLEFAIRY 416
+#define OBJ_EVENT_GFX_PIDGEOT 417
+#define OBJ_EVENT_GFX_JIGGLYPUFF 418
+#define OBJ_EVENT_GFX_PIDGEY 419
+#define OBJ_EVENT_GFX_CHANSEY 420
+#define OBJ_EVENT_GFX_OMANYTE 421
+#define OBJ_EVENT_GFX_KANGASKHAN 422
+#define OBJ_EVENT_GFX_PSYDUCK 423
+#define OBJ_EVENT_GFX_NIDORAN_F 424
+#define OBJ_EVENT_GFX_NIDORAN_M 425
+#define OBJ_EVENT_GFX_NIDORINO 426
+#define OBJ_EVENT_GFX_MEOWTH 427
+#define OBJ_EVENT_GFX_SEEL 428
+#define OBJ_EVENT_GFX_VOLTORB 429
+#define OBJ_EVENT_GFX_SLOWPOKE 430
+#define OBJ_EVENT_GFX_SLOWBRO 431
+#define OBJ_EVENT_GFX_MACHOP 432
+#define OBJ_EVENT_GFX_WIGGLYTUFF 433
+#define OBJ_EVENT_GFX_DODUO 434
+#define OBJ_EVENT_GFX_FEAROW 435
+#define OBJ_EVENT_GFX_MACHOKE 436
+#define OBJ_EVENT_GFX_LAPRAS 437
+#define OBJ_EVENT_GFX_ZAPDOS 438
+#define OBJ_EVENT_GFX_MOLTRES 439
+#define OBJ_EVENT_GFX_ARTICUNO 440
+#define OBJ_EVENT_GFX_MEWTWO 441
+#define OBJ_EVENT_GFX_MEW_FR 442
+#define OBJ_EVENT_GFX_CELEBI 443
+#define OBJ_EVENT_GFX_KABUTO 444
+#define OBJ_EVENT_GFX_DEOXYS_D 445
+#define OBJ_EVENT_GFX_DEOXYS_A 446
 
-#define NUM_OBJ_EVENT_GFX                        412                   //añadido 172 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        447                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.

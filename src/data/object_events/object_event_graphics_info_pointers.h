@@ -417,6 +417,42 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Storyteller;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giddy;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan1;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_UnusedMauvilleOldMan2;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Snorlax;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Spearow;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cubone;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Poliwrath;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clefairy;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pidgeot;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jigglypuff;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pidgey;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Chansey;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Omanyte;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kangaskhan;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pikachu;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Psyduck;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NidoranF;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NidoranM;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nidorino;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Meowth;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Seel;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Voltorb;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Slowpoke;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Slowbro;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Machop;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Wigglytuff;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Doduo;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fearow;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Machoke;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lapras;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zapdos;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Moltres;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Articuno;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mewtwo;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew_fr;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Celebi;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kabuto;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysD;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysA;
 
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
@@ -832,6 +868,41 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_YVELTAL] =                  &gObjectEventGraphicsInfo_Yveltal,
     [OBJ_EVENT_GFX_ZEKROM] =                   &gObjectEventGraphicsInfo_Zekrom,
     [OBJ_EVENT_GFX_ZEUS] =                     &gObjectEventGraphicsInfo_Zeus,
+    [OBJ_EVENT_GFX_SNORLAX] =                  &gObjectEventGraphicsInfo_Snorlax,
+    [OBJ_EVENT_GFX_SPEAROW]                  = &gObjectEventGraphicsInfo_Spearow,
+    [OBJ_EVENT_GFX_CUBONE]                   = &gObjectEventGraphicsInfo_Cubone,
+    [OBJ_EVENT_GFX_POLIWRATH]                = &gObjectEventGraphicsInfo_Poliwrath,
+    [OBJ_EVENT_GFX_CLEFAIRY]                 = &gObjectEventGraphicsInfo_Clefairy,
+    [OBJ_EVENT_GFX_PIDGEOT]                  = &gObjectEventGraphicsInfo_Pidgeot,
+    [OBJ_EVENT_GFX_JIGGLYPUFF]               = &gObjectEventGraphicsInfo_Jigglypuff,
+    [OBJ_EVENT_GFX_PIDGEY]                   = &gObjectEventGraphicsInfo_Pidgey,
+    [OBJ_EVENT_GFX_CHANSEY]                  = &gObjectEventGraphicsInfo_Chansey,
+    [OBJ_EVENT_GFX_OMANYTE]                  = &gObjectEventGraphicsInfo_Omanyte,
+    [OBJ_EVENT_GFX_KANGASKHAN]               = &gObjectEventGraphicsInfo_Kangaskhan,
+    [OBJ_EVENT_GFX_PSYDUCK]                  = &gObjectEventGraphicsInfo_Psyduck,
+    [OBJ_EVENT_GFX_NIDORAN_F]                = &gObjectEventGraphicsInfo_NidoranF,
+    [OBJ_EVENT_GFX_NIDORAN_M]                = &gObjectEventGraphicsInfo_NidoranM,
+    [OBJ_EVENT_GFX_NIDORINO]                 = &gObjectEventGraphicsInfo_Nidorino,
+    [OBJ_EVENT_GFX_MEOWTH]                   = &gObjectEventGraphicsInfo_Meowth,
+    [OBJ_EVENT_GFX_SEEL]                     = &gObjectEventGraphicsInfo_Seel,
+    [OBJ_EVENT_GFX_VOLTORB]                  = &gObjectEventGraphicsInfo_Voltorb,
+    [OBJ_EVENT_GFX_SLOWPOKE]                 = &gObjectEventGraphicsInfo_Slowpoke,
+    [OBJ_EVENT_GFX_SLOWBRO]                  = &gObjectEventGraphicsInfo_Slowbro,
+    [OBJ_EVENT_GFX_MACHOP]                   = &gObjectEventGraphicsInfo_Machop,
+    [OBJ_EVENT_GFX_WIGGLYTUFF]               = &gObjectEventGraphicsInfo_Wigglytuff,
+    [OBJ_EVENT_GFX_DODUO]                    = &gObjectEventGraphicsInfo_Doduo,
+    [OBJ_EVENT_GFX_FEAROW]                   = &gObjectEventGraphicsInfo_Fearow,
+    [OBJ_EVENT_GFX_MACHOKE]                  = &gObjectEventGraphicsInfo_Machoke,
+    [OBJ_EVENT_GFX_LAPRAS]                   = &gObjectEventGraphicsInfo_Lapras,
+    [OBJ_EVENT_GFX_ZAPDOS]                   = &gObjectEventGraphicsInfo_Zapdos,
+    [OBJ_EVENT_GFX_MOLTRES]                  = &gObjectEventGraphicsInfo_Moltres,
+    [OBJ_EVENT_GFX_ARTICUNO]                 = &gObjectEventGraphicsInfo_Articuno,
+    [OBJ_EVENT_GFX_MEWTWO]                   = &gObjectEventGraphicsInfo_Mewtwo,
+    [OBJ_EVENT_GFX_MEW_FR]                   = &gObjectEventGraphicsInfo_Mew_fr,
+    [OBJ_EVENT_GFX_CELEBI]                   = &gObjectEventGraphicsInfo_Celebi,
+    [OBJ_EVENT_GFX_KABUTO]                   = &gObjectEventGraphicsInfo_Kabuto,
+    [OBJ_EVENT_GFX_DEOXYS_D]                 = &gObjectEventGraphicsInfo_DeoxysD,
+    [OBJ_EVENT_GFX_DEOXYS_A]                 = &gObjectEventGraphicsInfo_DeoxysA,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
