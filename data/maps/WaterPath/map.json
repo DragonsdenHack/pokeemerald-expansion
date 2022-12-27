@@ -207,7 +207,7 @@
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "WaterPathDocumento_101"
     },
     {
       "type": "sign",
@@ -215,7 +215,7 @@
       "y": 54,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "WaterPathDocumento_100"
     }
   ]
 }

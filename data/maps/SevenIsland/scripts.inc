@@ -33,3 +33,13 @@ SevenIsland_Text_3:
 .string "apenas ha sufrido modificaciones.\p"
 .string "Por ello, es peligroso y difícil\n"
 .string "hacer escalada por aquí.$"
+
+
+
+SevenIslandDocumento_100::
+msgbox SevenIslandDocumento_Text_100, MSGBOX_SIGN   
+end
+
+SevenIslandDocumento_Text_100:
+.string "ISLA SÉPTIMA\n"
+	.string "La Isla de la Búsqueda Infinita.$"

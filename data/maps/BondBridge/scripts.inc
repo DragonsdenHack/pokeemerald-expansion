@@ -70,3 +70,23 @@ BondBridge_EventScript_Nadadora::
 	trainerbattle_single TRAINER_CATHERINE_2, BondBridge_Text_NadadoraIntro, BondBridge_Text_NadadoraDefeated
 	msgbox BondBridge_Text_NadadoraPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+BondBridgeDocumento_100::
+msgbox BondBridgeDocumento_Text_100, MSGBOX_SIGN   
+end
+
+BondBridgeDocumento_Text_100:
+	.string "BOSQUE BAYA$"
+
+
+
+BondBridgeDocumento_101::
+msgbox BondBridgeDocumento_Text_101, MSGBOX_SIGN   
+end
+
+BondBridgeDocumento_Text_101:
+	.string "PUENTE UNIÓN\n"
+	.string "Crucen con cuidado.\p"
+	.string "HACIA EL BOSQUE BAYA$"

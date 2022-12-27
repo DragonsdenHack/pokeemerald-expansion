@@ -164,7 +164,7 @@
       "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BondBridgeDocumento_100"
     },
     {
       "type": "sign",
@@ -172,7 +172,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "BondBridgeDocumento_101"
     }
   ]
 }

@@ -103,3 +103,22 @@ WaterPath_EventScript_Montanero::
 	trainerbattle_single TRAINER_NATE, WaterPath_Text_MontaneroIntro, WaterPath_Text_MontaneroDefeated
 	msgbox WaterPath_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+WaterPathDocumento_100::
+msgbox WaterPathDocumento_Text_100, MSGBOX_SIGN   
+end
+
+WaterPathDocumento_Text_100:
+.string "Camino acuático:\n"
+	.string "Al sur VALLE RUINAS$"
+
+
+
+WaterPathDocumento_101::
+msgbox WaterPathDocumento_Text_101, MSGBOX_SIGN   
+end
+
+WaterPathDocumento_Text_101:
+.string "¡Se busca el cuerno definitivo!$"

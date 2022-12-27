@@ -51,3 +51,15 @@ CanyonEntrance_EventScript_Chica2::
 	trainerbattle_single TRAINER_BRENDAN_ROUTE_103_TREECKO, CanyonEntrance_Text_Chica2Intro, CanyonEntrance_Text_Chica2Defeated
 	msgbox CanyonEntrance_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+CanyonEntranceDocumento_100::
+msgbox CanyonEntranceDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CanyonEntranceDocumento_Text_100:
+	.string "Entrada al Cañón:\n"
+	.string "Se insta a los entrenadores a\l"
+	.string "respetar las plantas de este\l"
+	.string "lugar.$"
