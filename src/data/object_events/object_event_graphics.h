@@ -587,6 +587,22 @@ const u16 gObjectEventPic_Psyduck[] = INCBIN_U16("graphics/object_events/pics/po
 const u16 gObjectEventPic_Lapras[] = INCBIN_U16("graphics/object_events/pics/pokemon/lapras.4bpp");
 const u16 gObjectEventPic_Zapdos[] = INCBIN_U16("graphics/object_events/pics/pokemon/zapdos.4bpp");
 const u16 gObjectEventPic_Moltres[] = INCBIN_U16("graphics/object_events/pics/pokemon/moltres.4bpp");
+//misc
+
+const u16 gObjectEventPic_Fossil2[] = INCBIN_U16("graphics/object_events/pics/misc/fossil2.4bpp");
+const u16 gObjectEventPic_Ruby[] = INCBIN_U16("graphics/object_events/pics/misc/ruby.4bpp");
+const u16 gObjectEventPic_Sapphire[] = INCBIN_U16("graphics/object_events/pics/misc/sapphire.4bpp");
+const u16 gObjectEventPic_OldAmber[] = INCBIN_U16("graphics/object_events/pics/misc/old_amber.4bpp");
+const u16 gObjectEventPic_GymSign[] = INCBIN_U16("graphics/object_events/pics/misc/gym_sign.4bpp");
+const u16 gObjectEventPic_Sign[] = INCBIN_U16("graphics/object_events/pics/misc/sign.4bpp");
+const u16 gObjectEventPic_WoodenSign[] = INCBIN_U16("graphics/object_events/pics/misc/wooden_sign.4bpp");
+const u16 gObjectEventPic_Clipboard[] = INCBIN_U16("graphics/object_events/pics/misc/clipboard.4bpp");
+const u16 gObjectEventPic_Seagallop[] = INCBIN_U16("graphics/object_events/pics/misc/seagallop.4bpp");
+const u16 gObjectEventPic_SSAnne[] = INCBIN_U16("graphics/object_events/pics/misc/ss_anne.4bpp");
+const u16 gObjectEventPic_CutTree[] = INCBIN_U16("graphics/object_events/pics/misc/cut_tree.4bpp");
+const u16 gObjectEventPic_Pokedex[] = INCBIN_U16("graphics/object_events/pics/misc/pokedex.4bpp");
+const u16 gObjectEventPic_TownMap[] = INCBIN_U16("graphics/object_events/pics/misc/town_map.4bpp");
+const u16 gObjectEventPic_RockSmashRock[] = INCBIN_U16("graphics/object_events/pics/misc/rock_smash_rock.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");

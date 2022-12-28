@@ -448,8 +448,22 @@
 #define OBJ_EVENT_GFX_KABUTO 444
 #define OBJ_EVENT_GFX_DEOXYS_D 445
 #define OBJ_EVENT_GFX_DEOXYS_A 446
+#define OBJ_EVENT_GFX_TOWN_MAP 447
+#define OBJ_EVENT_GFX_POKEDEX 448
+#define OBJ_EVENT_GFX_CUT_TREE 449
+#define OBJ_EVENT_GFX_ROCK_SMASH_ROCK 450
+#define OBJ_EVENT_GFX_FOSSIL2 451
+#define OBJ_EVENT_GFX_RUBY 452
+#define OBJ_EVENT_GFX_SAPPHIRE 453
+#define OBJ_EVENT_GFX_OLD_AMBER 454
+#define OBJ_EVENT_GFX_GYM_SIGN 455
+#define OBJ_EVENT_GFX_SIGN 456
+#define OBJ_EVENT_GFX_TRAINER_TIPS 457
+#define OBJ_EVENT_GFX_CLIPBOARD 458
+#define OBJ_EVENT_GFX_SEAGALLOP 459
+#define OBJ_EVENT_GFX_SS_ANNE 460
 
-#define NUM_OBJ_EVENT_GFX                        447                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        461                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.
