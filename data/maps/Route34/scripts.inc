@@ -108,3 +108,38 @@ Route34_EventScript_Rico::
 	trainerbattle_single TRAINER_HENRY, Route34_Text_RicoIntro, Route34_Text_RicoDefeated
 	msgbox Route34_Text_RicoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route34Documento_100::
+msgbox Route34Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route34Documento_Text_100:
+	.string "RUTA 34\n"
+	.string "CIUDAD TRIGAL-PUEBLO AZALEA\l"
+	.string "El ENCINAR entre medias.$"
+
+
+
+Route34Documento_101::
+msgbox Route34Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route34Documento_Text_101:
+	.string "PISTAS ENTRENADOR\n"
+	.string "Las BAYAS de los árboles se\l"
+	.string "regeneran cada cierto tiempo.\l"
+	.string "¡Estad atentos para recoger\l"
+	.string "vuestras favoritas!$"
+
+
+
+Route34Documento_102::
+msgbox Route34Documento_Text_102, MSGBOX_SIGN   
+end
+
+Route34Documento_Text_102:
+	.string "GUARDERÍA\n"
+	.string "¡Déjanos criar a tu POKÉMON por\l"
+	.string "ti!$"

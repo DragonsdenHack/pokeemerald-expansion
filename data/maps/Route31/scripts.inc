@@ -94,3 +94,22 @@ Route31_EventScript_Chico::
 	trainerbattle_single TRAINER_LUCAS_1, Route31_Text_ChicoIntro, Route31_Text_ChicoDefeated
 	msgbox Route31_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route31Documento_100::
+msgbox Route31Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route31Documento_Text_100:
+	.string "RUTA 31\n"
+	.string "Al oeste CIUDAD MALVA$"
+
+
+
+Route31Documento_101::
+msgbox Route31Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route31Documento_Text_101:
+	.string "CUEVA OSCURA$"

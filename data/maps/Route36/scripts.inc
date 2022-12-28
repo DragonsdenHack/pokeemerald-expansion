@@ -101,3 +101,36 @@ Route36_EventScript_Sabio::
 	trainerbattle_single TRAINER_JOHN_AND_JAY_3, Route36_Text_SabioIntro, Route36_Text_SabioDefeated
 	msgbox Route36_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route36Documento_100::
+msgbox Route36Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route36Documento_Text_100:
+	.string "¡SCYTHER y PINSIR son las mejores\n"
+	.string "piezas que puedes atrapar en el\l"
+	.string "PARQUE NACIONAL!$"
+
+
+
+Route36_SudowoodoRest::
+msgbox Route36_SudowoodoRest_Text, MSGBOX_NPC   
+end
+
+Route36_SudowoodoRest_Text:
+	.string "...\n"
+	.string "...\l"
+	.string "(Es un POKÉMON, parece estar\l"
+	.string "reposando)$"
+
+
+
+Route36Documento_101::
+msgbox Route36Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route36Documento_Text_101:
+	.string "RUTA 36\n"
+	.string "Al este CIUDAD MALVA$"

@@ -118,7 +118,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route38Documento_101"
     },
     {
       "type": "sign",
@@ -126,7 +126,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route38Documento_100"
     },
     {
       "type": "sign",

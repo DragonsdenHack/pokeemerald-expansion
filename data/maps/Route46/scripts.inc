@@ -61,3 +61,15 @@ Route46_EventScript_Montanero::
 	trainerbattle_single TRAINER_JAMES_4, Route46_Text_MontaneroIntro, Route46_Text_MontaneroDefeated
 	msgbox Route46_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route46_SudowoodoRest::
+msgbox Route46_SudowoodoRest_Text, MSGBOX_NPC   
+end
+
+Route46_SudowoodoRest_Text:
+	.string "...\n"
+	.string "...\l"
+	.string "(Es un POKÉMON, parece estar\l"
+	.string "reposando)$"

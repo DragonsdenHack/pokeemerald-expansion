@@ -99,3 +99,36 @@ Route39_EventScript_Marinero::
 	trainerbattle_single TRAINER_HAILEY, Route39_Text_MarineroIntro, Route39_Text_MarineroDefeated
 	msgbox Route39_Text_MarineroPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route39_SudowoodoRest::
+msgbox Route39_SudowoodoRest_Text, MSGBOX_NPC   
+end
+
+Route39_SudowoodoRest_Text:
+	.string "...\n"
+	.string "...\l"
+	.string "(Es un POKÉMON, parece estar\l"
+	.string "reposando)$"
+
+
+
+Route39Documento_100::
+msgbox Route39Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route39Documento_Text_100:
+	.string "RUTA 39\n"
+	.string "CIUDAD OLIVO - CIUDAD IRIS$"
+
+
+
+Route39Documento_101::
+msgbox Route39Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route39Documento_Text_101:
+	.string "GRANJA MU-MU\n"
+	.string "¡Prueba nuestra rica leche fresca,\l"
+	.string "al mejor precio!$"

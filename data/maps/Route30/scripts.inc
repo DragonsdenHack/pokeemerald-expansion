@@ -116,3 +116,22 @@ Route30_EventScript_Cazabichos::
 	trainerbattle_single TRAINER_LENNY, Route30_Text_CazabichosIntro, Route30_Text_CazabichosDefeated
 	msgbox Route30_Text_CazabichosPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Route30Documento_100::
+msgbox Route30Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route30Documento_Text_100:
+	.string "RUTA 30\n"
+	.string "Un camino de hierba fresca donde\l"
+	.string "luchan los entrenadores.$"
+
+
+
+Route30Documento_101::
+msgbox Route30Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route30Documento_Text_101:
+	.string "CASA DEL SR.POKÉMON$"

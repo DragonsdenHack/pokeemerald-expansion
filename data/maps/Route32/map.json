@@ -286,7 +286,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route32Documento_100"
     },
     {
       "type": "sign",
@@ -294,7 +294,7 @@
       "y": 112,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route32Documento_101"
     }
   ]
 }

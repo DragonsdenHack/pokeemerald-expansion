@@ -100,3 +100,13 @@ Route26_EventScript_Guay2::
 	trainerbattle_single TRAINER_MAY_ROUTE_103_MUDKIP, Route26_Text_Guay2Intro, Route26_Text_Guay2Defeated
 	msgbox Route26_Text_Guay2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route26Documento_100::
+msgbox Route26Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route26Documento_Text_100:
+	.string "RUTA 26\n"
+	.string "RECEPCIÓN DE LA LIGA POKÉMON$"

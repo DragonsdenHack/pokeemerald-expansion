@@ -167,3 +167,22 @@ Route32_EventScript_Guay::
 	trainerbattle_single TRAINER_KIRA_AND_DAN_2, Route32_Text_GuayIntro, Route32_Text_GuayDefeated
 	msgbox Route32_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route32Documento_100::
+msgbox Route32Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route32Documento_Text_100:
+	.string "RUTA 32\n"
+	.string "CIUDAD MALVA-PUEBLO AZALEA$"
+
+
+
+Route32Documento_101::
+msgbox Route32Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route32Documento_Text_101:
+	.string "Hacia la CUEVA UNIÓN$"

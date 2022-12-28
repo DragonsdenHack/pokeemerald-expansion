@@ -178,3 +178,24 @@ Route29_EventScript_Sabio::
 	trainerbattle_single TRAINER_JAMES_5, Route29_Text_SabioIntro, Route29_Text_SabioDefeated
 	msgbox Route29_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route29Documento_100::
+msgbox Route29Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route29Documento_Text_100:
+	.string "RUTA 29\n"
+	.string "Al oeste CIUDAD CEREZO$"
+
+
+
+Route29Documento_101::
+msgbox Route29Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route29Documento_Text_101:
+	.string "¡Aviso!\n"
+	.string "¡Frontera con KANTO al entrar en\l"
+	.string "RUTA 26, más al este!$"

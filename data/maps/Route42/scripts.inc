@@ -97,3 +97,35 @@ Route42_EventScript_Montanero::
 	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_14, Route42_Text_MontaneroIntro, Route42_Text_MontaneroDefeated
 	msgbox Route42_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route42_SudowoodoRest::
+msgbox Route42_SudowoodoRest_Text, MSGBOX_NPC   
+end
+
+Route42_SudowoodoRest_Text:
+	.string "...\n"
+	.string "...\l"
+	.string "(Es un POKÉMON, parece estar\l"
+	.string "reposando)$"
+
+
+
+Route42Documento_100::
+msgbox Route42Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route42Documento_Text_100:
+	.string "MONTE MORTERO\n"
+	.string "Cueva Cascada Interior$"
+
+
+
+Route42Documento_101::
+msgbox Route42Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route42Documento_Text_101:
+	.string "RUTA 42\n"
+	.string "CIUDAD IRIS-PUEBLO CAOBA$"

@@ -48,3 +48,12 @@ Route33_EventScript_Sabio::
 	trainerbattle_single TRAINER_RILEY, Route33_Text_SabioIntro, Route33_Text_SabioDefeated
 	msgbox Route33_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Route33Documento_100::
+msgbox Route33Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route33Documento_Text_100:
+	.string "RUTA 33\n"
+	.string "Al oeste PUEBLO AZALEA$"

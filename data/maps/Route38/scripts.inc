@@ -69,3 +69,23 @@ Route38_EventScript_Chico::
 	trainerbattle_single TRAINER_SARAH, Route38_Text_ChicoIntro, Route38_Text_ChicoDefeated
 	msgbox Route38_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Route38Documento_100::
+msgbox Route38Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route38Documento_Text_100:
+	.string "¡Recuerda!\n"
+	.string "¡TAUROS es más potente, pero\l"
+	.string "MILTANK es más resistente!$"
+
+
+
+Route38Documento_101::
+msgbox Route38Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route38Documento_Text_101:
+	.string "RUTA 38\n"
+	.string "CIUDAD OLIVO - CIUDAD IRIS$"

@@ -62,3 +62,37 @@ Route43_EventScript_Pescador::
 	trainerbattle_single TRAINER_LAURA, Route43_Text_PescadorIntro, Route43_Text_PescadorDefeated
 	msgbox Route43_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route43_SudowoodoRest::
+msgbox Route43_SudowoodoRest_Text, MSGBOX_NPC   
+end
+
+Route43_SudowoodoRest_Text:
+	.string "...\n"
+	.string "...\l"
+	.string "(Es un POKÉMON, parece estar\l"
+	.string "reposando)$"
+
+
+
+Route43Documento_100::
+msgbox Route43Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route43Documento_Text_100:
+	.string "RUTA 43\n"
+	.string "LAGO DE LA FURIA - PUEBLO CAOBA$"
+
+
+
+Route43Documento_101::
+msgbox Route43Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route43Documento_Text_101:
+	.string "Según la leyenda, MAGIKARP y\n"
+	.string "GYARADOS no son las únicas\l"
+	.string "especies que habitan en el LAGO DE\l"
+	.string "LA FURIA.$"

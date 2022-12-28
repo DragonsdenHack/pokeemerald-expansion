@@ -168,3 +168,24 @@ SouthRoute45_EventScript_Montanero::
 	trainerbattle_single TRAINER_SHELBY_1, SouthRoute45_Text_MontaneroIntro, SouthRoute45_Text_MontaneroDefeated
 	msgbox SouthRoute45_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+SouthRoute45Documento_100::
+msgbox SouthRoute45Documento_Text_100, MSGBOX_SIGN   
+end
+
+SouthRoute45Documento_Text_100:
+	.string "RUTA 45\n"
+	.string "CAMINO MONTAÑA$"
+
+
+SouthRoute45_SudowoodoRest::
+msgbox SouthRoute45_SudowoodoRest_Text, MSGBOX_NPC   
+end
+
+SouthRoute45_SudowoodoRest_Text:
+	.string "...\n"
+	.string "...\l"
+	.string "(Es un POKÉMON, parece estar\l"
+	.string "reposando)$"

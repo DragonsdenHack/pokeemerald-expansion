@@ -95,3 +95,12 @@ Route35_EventScript_Chico::
 	trainerbattle_single TRAINER_JOHN_AND_JAY_4, Route35_Text_ChicoIntro, Route35_Text_ChicoDefeated
 	msgbox Route35_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route35Documento_100::
+msgbox Route35Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route35Documento_Text_100:
+	.string "RUTA 35$"

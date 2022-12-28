@@ -103,3 +103,23 @@ Route44_EventScript_Ornitologo::
 	trainerbattle_single TRAINER_ROBERT_1, Route44_Text_OrnitologoIntro, Route44_Text_OrnitologoDefeated
 	msgbox Route44_Text_OrnitologoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route44Documento_100::
+msgbox Route44Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route44Documento_Text_100:
+	.string "RUTA 44\n"
+	.string "PUEBLO CAOBA - CIUDAD ENDRINO$"
+
+
+
+Route44Documento_101::
+msgbox Route44Documento_Text_101, MSGBOX_SIGN   
+end
+
+Route44Documento_Text_101:
+	.string "RUTA 44\n"
+	.string "Hacia RUTA HELADA$"
