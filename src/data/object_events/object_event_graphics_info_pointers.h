@@ -453,7 +453,21 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Celebi;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Kabuto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysD;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DeoxysA;
-
+//
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TownMap;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Pokedex;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_CutTree;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RockSmashRock;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fossil2;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ruby;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sapphire;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldAmber;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GymSign;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sign;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TrainerTips;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clipboard;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Seagallop;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -903,6 +917,20 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_KABUTO]                   = &gObjectEventGraphicsInfo_Kabuto,
     [OBJ_EVENT_GFX_DEOXYS_D]                 = &gObjectEventGraphicsInfo_DeoxysD,
     [OBJ_EVENT_GFX_DEOXYS_A]                 = &gObjectEventGraphicsInfo_DeoxysA,
+    [OBJ_EVENT_GFX_TOWN_MAP]                 = &gObjectEventGraphicsInfo_TownMap,
+    [OBJ_EVENT_GFX_POKEDEX]                  = &gObjectEventGraphicsInfo_Pokedex,
+    [OBJ_EVENT_GFX_CUT_TREE]                 = &gObjectEventGraphicsInfo_CutTree,
+    [OBJ_EVENT_GFX_ROCK_SMASH_ROCK]          = &gObjectEventGraphicsInfo_RockSmashRock,
+    [OBJ_EVENT_GFX_FOSSIL2]                  = &gObjectEventGraphicsInfo_Fossil2,
+    [OBJ_EVENT_GFX_RUBY]                     = &gObjectEventGraphicsInfo_Ruby,
+    [OBJ_EVENT_GFX_SAPPHIRE]                 = &gObjectEventGraphicsInfo_Sapphire,
+    [OBJ_EVENT_GFX_OLD_AMBER]                = &gObjectEventGraphicsInfo_OldAmber,
+    [OBJ_EVENT_GFX_GYM_SIGN]                 = &gObjectEventGraphicsInfo_GymSign,
+    [OBJ_EVENT_GFX_SIGN]                     = &gObjectEventGraphicsInfo_Sign,
+    [OBJ_EVENT_GFX_TRAINER_TIPS]             = &gObjectEventGraphicsInfo_TrainerTips,
+    [OBJ_EVENT_GFX_CLIPBOARD]                = &gObjectEventGraphicsInfo_Clipboard,
+    [OBJ_EVENT_GFX_SEAGALLOP]                = &gObjectEventGraphicsInfo_Seagallop,
+    [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
