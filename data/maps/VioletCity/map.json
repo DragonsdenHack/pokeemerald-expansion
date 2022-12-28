@@ -250,7 +250,7 @@
       "y": 22,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VioletCityDocumento_101"
     },
     {
       "type": "sign",
@@ -258,7 +258,7 @@
       "y": 24,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VioletCityDocumento_100"
     },
     {
       "type": "hidden_item",

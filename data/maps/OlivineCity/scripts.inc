@@ -84,3 +84,55 @@ OlivineCity_Text_6:
 .string "ninguna otra ciudad costera.\l"
 .string "¿CIUDAD CARMÍN?\l"
 .string "¡No me hagas reir!$"
+
+
+
+OlivineCityDocumento_100::
+msgbox OlivineCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+OlivineCityDocumento_Text_100:
+.string "GIMNASIO de CIUDAD OLIVO\n"
+	.string "LÍDER: CROM\l"
+	.string "El ENTRENADOR que descubrió los\l"
+	.string "secretos del TIPO ACERO.$"
+
+
+
+OlivineCityDocumento_101::
+msgbox OlivineCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+OlivineCityDocumento_Text_101:
+	.string "CIUDAD OLIVO\n"
+	.string "El puerto a tierras lejanas.$"
+
+
+
+OlivineCityDocumento_102::
+msgbox OlivineCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+OlivineCityDocumento_Text_102:
+	.string "PUERTO OLIVO\n"
+	.string "MUELLE DEL FERRY$"
+
+
+
+OlivineCityDocumento_103::
+msgbox OlivineCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+OlivineCityDocumento_Text_103:
+	.string "CASA DE NORMAN$"
+
+
+
+OlivineCityDocumento_104::
+msgbox OlivineCityDocumento_Text_104, MSGBOX_SIGN   
+end
+
+OlivineCityDocumento_Text_104:
+	.string "FARO DE OLIVO\n"
+	.string "También conocido como el FARO\l"
+	.string "BRILLANTE.$"

@@ -156,3 +156,44 @@ BlackthornCity_Text_12:
 .string "ZAPDOS, MOLTRES y los LEGENDARIOS\l"
 .string "ERRANTES ENTEI, RAIKOU y SUICUNE.\l"
 .string "¿No crees?$"
+
+
+
+BlackthornCityDocumento_100::
+msgbox BlackthornCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+BlackthornCityDocumento_Text_100:
+.string "HACIA LA GUARIDA DEL DRAGÓN$"
+
+
+
+BlackthornCityDocumento_101::
+msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+BlackthornCityDocumento_Text_101:
+.string "GIMNASIO de CIUDAD ENDRINO\n"
+	.string "LÍDER: SALAZAR\l"
+	.string "El maestro de maestros.$"
+
+
+
+BlackthornCityDocumento_102::
+msgbox BlackthornCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+BlackthornCityDocumento_Text_102:
+.string "CIUDAD ENDRINO\n"
+	.string "Un legendario refugio oculto por\l"
+	.string "las montañas desde tiempos\l"
+	.string "inmemoriales.$"
+
+
+
+BlackthornCityDocumento_103::
+msgbox BlackthornCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+BlackthornCityDocumento_Text_103:
+	.string "RUTA HELADA$"

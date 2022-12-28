@@ -114,3 +114,69 @@ end
 
 AzaleaTown11::
 end
+
+
+
+AzaleaTownDocumento_100::
+msgbox AzaleaTownDocumento_Text_100, MSGBOX_SIGN   
+end
+
+AzaleaTownDocumento_Text_100:
+.string "El ENCINAR\n"
+	.string "Respeta al bosque y el bosque te\l"
+	.string "respetará a ti.$"
+
+
+
+AzaleaTownDocumento_101::
+msgbox AzaleaTownDocumento_Text_101, MSGBOX_SIGN   
+end
+
+AzaleaTownDocumento_Text_101:
+.string "CASA DE CÉSAR$"
+
+
+
+AzaleaTownDocumento_102::
+msgbox AzaleaTownDocumento_Text_102, MSGBOX_SIGN   
+end
+
+AzaleaTownDocumento_Text_102:
+.string "GIMNASIO de PUEBLO AZALEA\n"
+	.string "LÍDER: CÉSAR\l"
+	.string "¡El último superviviente de la\l"
+	.string "JOHTO más rústica y tradicional!$"
+
+
+
+AzaleaTownDocumento_103::
+msgbox AzaleaTownDocumento_Text_103, MSGBOX_SIGN   
+end
+
+AzaleaTownDocumento_Text_103:
+.string "CASA DEL CARBONERO$"
+
+
+
+AzaleaTownDocumento_104::
+msgbox AzaleaTownDocumento_Text_104, MSGBOX_SIGN   
+end
+
+AzaleaTownDocumento_Text_104:
+.string "PUEBLO AZALEA\n"
+	.string "Donde la gente y los POKÉMON viven\l"
+	.string "en feliz armonía.$"
+
+
+
+AzaleaTownDocumento_105::
+msgbox AzaleaTownDocumento_Text_105, MSGBOX_SIGN   
+end
+
+AzaleaTownDocumento_Text_105:
+	.string "POZO SLOWPOKE\n"
+	.string "También conocido como POZO LLUVIA.\l"
+	.string "Los nativos creen que el BOSTEZO\l"
+	.string "de SLOWPOKE invoca la lluvia.\l"
+	.string "Hace 400 años un BOSTEZO de\l"
+	.string "SLOWPOKE acabó con una sequía.$"

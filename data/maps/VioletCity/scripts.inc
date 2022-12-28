@@ -133,3 +133,26 @@ end
 
 VioletCity12::
 end
+
+
+
+VioletCityDocumento_100::
+msgbox VioletCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+VioletCityDocumento_Text_100:
+.string "CIUDAD MALVA\n"
+	.string "La ciudad de los aromas\l"
+	.string "nostálgicos.$"
+
+
+
+VioletCityDocumento_101::
+msgbox VioletCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+VioletCityDocumento_Text_101:
+.string "GIMNASIO de CIUDAD MALVA\n"
+	.string "LÍDER: PEGASO\l"
+	.string "¡Un genio de altos vuelos y 1001\l"
+	.string "viajes!$"

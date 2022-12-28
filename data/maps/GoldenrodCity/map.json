@@ -200,7 +200,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_CLEFAIRY_DOLL",
+      "graphics_id": "OBJ_EVENT_GFX_CLEFAIRY",
       "x": 15,
       "y": 16,
       "elevation": 3,
@@ -402,7 +402,7 @@
       "y": 26,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GoldenrodCityDocumento_100"
     },
     {
       "type": "sign",
@@ -410,7 +410,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GoldenrodCityDocumento_103"
     },
     {
       "type": "sign",
@@ -418,7 +418,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GoldenrodCityDocumento_104"
     },
     {
       "type": "sign",
@@ -426,7 +426,7 @@
       "y": 45,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GoldenrodCityDocumento_102"
     },
     {
       "type": "sign",
@@ -434,7 +434,39 @@
       "y": 45,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GoldenrodCityDocumento_106"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 16,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodCityDocumento_101"
+    },
+    {
+      "type": "sign",
+      "x": 31,
+      "y": 31,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodCityDocumento_105"
+    },
+    {
+      "type": "sign",
+      "x": 39,
+      "y": 14,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodCityDocumento_107"
+    },
+    {
+      "type": "sign",
+      "x": 52,
+      "y": 11,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "GoldenrodCityDocumento_108"
     }
   ]
 }

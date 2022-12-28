@@ -241,4 +241,93 @@ GoldenrodCity_EventScript_Obrero::
 	trainerbattle_single TRAINER_LILA_AND_ROY_5, GoldenrodCity_Text_ObreroIntro, GoldenrodCity_Text_ObreroDefeated
 	msgbox GoldenrodCity_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+GoldenrodCityDocumento_100::
+msgbox GoldenrodCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_100:
+	.string "TORRE DE RADIO DE CIUDAD TRIGAL$"
+
+
+
+GoldenrodCityDocumento_101::
+msgbox GoldenrodCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_101:
+	.string "ENTRADA SUBTERRÁNEA NORTE$"
+
+
+
+GoldenrodCityDocumento_102::
+msgbox GoldenrodCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_102:
+	.string "ENTRADA SUBTERRÁNEA SUR$"
+
+
+
+GoldenrodCityDocumento_103::
+msgbox GoldenrodCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_103:
+	.string "CIUDAD TRIGAL\n"
+	.string "La alegre ciudad de rico encanto.$"
+
+
+
+GoldenrodCityDocumento_104::
+msgbox GoldenrodCityDocumento_Text_104, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_104:
+.string "RUTA 35 y PARQUE NACIONAL al norte$"
+
+
+
+GoldenrodCityDocumento_105::
+msgbox GoldenrodCityDocumento_Text_105, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_105:
+.string "CASINO DE CIUDAD TRIGAL\n"
+	.string "¡Tu zona de ocio!$"
+
+
+
+GoldenrodCityDocumento_106::
+msgbox GoldenrodCityDocumento_Text_106, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_106:
+	.string "¡El mundo es un camino de bicis!\n"
+	.string "TIENDA DE BICIS$"
+
+
+
+GoldenrodCityDocumento_107::
+msgbox GoldenrodCityDocumento_Text_107, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_107:
+	.string "GIMNASIO de CIUDAD TRIGAL\n"
+	.string "LÍDER: VALERIA\l"
+	.string "¡La chica más fuerte y valiente de\l"
+	.string "TRIGAL!$"
+
+
+
+GoldenrodCityDocumento_108::
+msgbox GoldenrodCityDocumento_Text_108, MSGBOX_SIGN   
+end
+
+GoldenrodCityDocumento_Text_108:
+	.string "FLORISTERÍA TRIGAL\n"
+	.string "¡No encontrarás nuestras BAYAS en\l"
+	.string "ninguna otra parte!$"
 	

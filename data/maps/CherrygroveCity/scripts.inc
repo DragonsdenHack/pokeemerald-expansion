@@ -73,3 +73,14 @@ CherrygroveCity_Text_8:
 .string "brillante ENTRENADOR! Éste es mi\l"
 .string "consejo: ¡Atrapa muchos POKÉMON!\l"
 .string "¡Y trátalos con mucho cariño!$"
+
+
+
+CherrygroveCityDocumento_100::
+msgbox CherrygroveCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CherrygroveCityDocumento_Text_100:
+.string "CIUDAD CEREZO\n"
+	.string "La ciudad de las flores bonitas y\l"
+	.string "flagrantes.$"

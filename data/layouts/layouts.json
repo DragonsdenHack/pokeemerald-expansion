@@ -11601,7 +11601,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/MtSilver_House/border.bin",
       "blockdata_filepath": "data/layouts/MtSilver_House/map.bin"
     },

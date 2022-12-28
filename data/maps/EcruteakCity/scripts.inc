@@ -152,3 +152,48 @@ EcruteakCity_Text_12:
 .string "Adoro pasear por estas calles, es\n"
 .string "como si continuara escribiendo la\l"
 .string "magnífica historia de esta ciudad.$"
+
+
+
+EcruteakCityDocumento_100::
+msgbox EcruteakCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+EcruteakCityDocumento_Text_100:
+.string "TORRE QUEMADA\n"
+	.string "Destruida por un misterioso\l"
+	.string "incendio hace 150 años.\l"
+	.string "¡Atención!\l"
+	.string "¡Peligro!$"
+
+
+
+EcruteakCityDocumento_101::
+msgbox EcruteakCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+EcruteakCityDocumento_Text_101:
+	.string "GIMNASIO de CIUDAD IRIS\n"
+	.string "LÍDER: JADEN\l"
+	.string "Una leyenda del pasado en tiempos\l"
+	.string "presentes.$"
+
+
+
+EcruteakCityDocumento_102::
+msgbox EcruteakCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+EcruteakCityDocumento_Text_102:
+.string "CIUDAD IRIS\n"
+	.string "Una ciudad donde conviven el\l"
+	.string "pasado y el presente.$"
+
+
+
+EcruteakCityDocumento_103::
+msgbox EcruteakCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+EcruteakCityDocumento_Text_103:
+	.string "TEATRO DE DANZA DE CIUDAD IRIS$"

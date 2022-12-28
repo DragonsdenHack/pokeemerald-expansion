@@ -96,3 +96,34 @@ CianwoodCity_Text_12:
 .string "no era más que un POLIWAG. Ese\l"
 .string "tipo de actos dejan huella para\l"
 .string "siempre.$"
+
+
+
+CianwoodCityDocumento_100::
+msgbox CianwoodCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CianwoodCityDocumento_Text_100:
+.string "GIMNASIO de CIUDAD ORQUÍDEA\n"
+	.string "LÍDER: ANÍBAL\l"
+	.string "¡El último samurái!$"
+
+
+
+CianwoodCityDocumento_101::
+msgbox CianwoodCityDocumento_Text_101, MSGBOX_SIGN   
+end
+
+CianwoodCityDocumento_Text_101:
+	.string "FARMACIA OLIVO$"
+
+
+
+CianwoodCityDocumento_102::
+msgbox CianwoodCityDocumento_Text_102, MSGBOX_SIGN   
+end
+
+CianwoodCityDocumento_Text_102:
+	.string "CIUDAD ORQUÍDEA:\n"
+	.string "Eterna resistencia a las aguas\l"
+	.string "agitadas.$"

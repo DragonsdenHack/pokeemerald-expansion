@@ -44,3 +44,35 @@ MahoganyTown_Text_3:
 .string "venderé a los turistas el\l"
 .string "CARAMELOFURIA…\l"
 .string "¡Jojojo!$"
+
+
+
+MahoganyTownDocumento_100::
+msgbox MahoganyTownDocumento_Text_100, MSGBOX_SIGN   
+end
+
+MahoganyTownDocumento_Text_100:
+.string "PUEBLO CAOBA\n"
+	.string "Bienvenido al hogar de los ninja.$"
+
+
+
+MahoganyTownDocumento_101::
+msgbox MahoganyTownDocumento_Text_101, MSGBOX_SIGN   
+end
+
+MahoganyTownDocumento_Text_101:
+	.string "GIMNASIO de PUEBLO CAOBA\n"
+	.string "LÍDER: FREDO\l"
+	.string "El imperturbable maestro del\l"
+	.string "hielo.$"
+
+
+
+MahoganyTownDocumento_102::
+msgbox MahoganyTownDocumento_Text_102, MSGBOX_SIGN   
+end
+
+MahoganyTownDocumento_Text_102:
+.string "¡Si visitas PUEBLO CAOBA, prueba\n"
+	.string "un CARAMELOFURIA!$"
