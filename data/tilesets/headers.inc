@@ -840,7 +840,7 @@ gTileset_gTileset_General_fr::
 	.4byte gTilesetPalettes_gTileset_General_fr
 	.4byte gMetatiles_gTileset_General_fr
 	.4byte gMetatileAttributes_gTileset_General_fr
-	.4byte NULL
+	.4byte InitTilesetAnim_General
 
 	.align 2
 gTileset_gTileset_PalletTown::
