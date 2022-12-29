@@ -73,3 +73,12 @@ Route46_SudowoodoRest_Text:
 	.string "...\l"
 	.string "(Es un POKÉMON, parece estar\l"
 	.string "reposando)$"
+
+
+
+Route46Documento_100::
+msgbox Route46Documento_Text_100, MSGBOX_SIGN   
+end
+
+Route46Documento_Text_100:
+	.string "RUTA 46$"

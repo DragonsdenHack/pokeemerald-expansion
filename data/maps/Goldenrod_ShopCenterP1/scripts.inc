@@ -59,3 +59,12 @@ Goldenrod_ShopP1_Text_5:
 .string "AZULONA es aún más grande que\l"
 .string "este.\l"
 .string "¿Será cierto?$"
+
+
+GoldenrodShopCenterP1Documento_100::
+msgbox GoldenrodShopCenterP1Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodShopCenterP1Documento_Text_100:
+.string "Tu Compañero de Viaje\n"
+	.string "P1 TIENDA DE ENTRENADORES$"

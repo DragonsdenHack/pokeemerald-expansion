@@ -211,7 +211,7 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GoldenrodRadioTowerP3Documento_100"
     },
     {
       "type": "sign",
@@ -219,7 +219,7 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GoldenrodRadioTowerP3Documento_101"
     }
   ]
 }

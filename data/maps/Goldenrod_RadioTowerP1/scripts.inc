@@ -119,3 +119,22 @@ GoldenrodRadioTowerP1_EventScript_Necio::
 	trainerbattle_single TRAINER_ROGER, GoldenrodRadioTowerP1_Text_NecioIntro, GoldenrodRadioTowerP1_Text_NecioDefeated
 	msgbox GoldenrodRadioTowerP1_Text_NecioPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+GoldenrodRadioTowerP1Documento_100::
+msgbox GoldenrodRadioTowerP1Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP1Documento_Text_100:
+.string "P1 VENTAS$"
+
+
+
+GoldenrodRadioTowerP1Documento_101::
+msgbox GoldenrodRadioTowerP1Documento_Text_101, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP1Documento_Text_101:
+.string "Radio POKÉMON.\n"
+	.string "A cualquier hora y en todas\l"
+	.string "partes.$"

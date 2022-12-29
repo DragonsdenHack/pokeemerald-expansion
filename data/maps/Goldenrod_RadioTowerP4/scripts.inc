@@ -83,3 +83,21 @@ end
 
 RadioTowerP4_9::
 end
+
+
+
+GoldenrodRadioTowerP4Documento_100::
+msgbox GoldenrodRadioTowerP4Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP4Documento_Text_100:
+.string "P4 OFICINA DEL DIRECTOR$"
+
+
+
+GoldenrodRadioTowerP4Documento_101::
+msgbox GoldenrodRadioTowerP4Documento_Text_101, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP4Documento_Text_101:
+.string "P4 ESTUDIO 1$"

@@ -34,3 +34,13 @@ Goldenrod_ShopP5_Text_2:
 .string "¡Llevo media hora nada más que\l"
 .string "sacando refrescos y limonadas de\l"
 .string "uno en uno para ahorrar dinero!$"
+
+
+
+GoldenrodShopCenterP5Documento_100::
+msgbox GoldenrodShopCenterP5Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodShopCenterP5Documento_Text_100:
+.string "¡Repón tus fuerzas!\n"
+	.string "P5 DESCANSO$"

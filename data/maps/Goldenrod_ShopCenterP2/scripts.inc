@@ -35,3 +35,13 @@ Goldenrod_ShopP2_Text_3:
 .string "Nunca sabes lo que puedes\n"
 .string "encontrarte cuando vas de compras.\l"
 .string "¡Por eso me encanta estar aquí!$"
+
+
+
+GoldenrodShopCenterP2Documento_100::
+msgbox GoldenrodShopCenterP2Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodShopCenterP2Documento_Text_100:
+.string "Para los amantes de la victoria\n"
+	.string "P2 COLECCIÓN DE COMBATE$"

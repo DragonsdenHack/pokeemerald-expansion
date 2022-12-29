@@ -47,3 +47,13 @@ end
 Goldenrod_ShopP3_Text_4:
 .string "¡Mis padres van a comprarme un\n"
 .string "CYNDAQUIL en el CASINO!$"
+
+
+
+GoldenrodShopCenterP3Documento_100::
+msgbox GoldenrodShopCenterP3Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodShopCenterP3Documento_Text_100:
+.string "¡Curamos a tus POKÉMON!\n"
+	.string "P3 BOTIQUÍN$"

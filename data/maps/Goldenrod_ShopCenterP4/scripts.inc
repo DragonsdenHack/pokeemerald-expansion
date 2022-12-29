@@ -69,3 +69,12 @@ Goldenrod_ShopP4_Text_6:
 .string "¡Jah!\n"
 .string "¡GOLPE CUERPO dice!\l"
 .string "¡Mi GOLEM ni se inmuta con eso!$"
+
+
+GoldenrodShopCenterP4Documento_100::
+msgbox GoldenrodShopCenterP4Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodShopCenterP4Documento_Text_100:
+.string "¡Optimiza a tu equipo!\n"
+	.string "P4 MOVIMIENTOS POKÉMON$"

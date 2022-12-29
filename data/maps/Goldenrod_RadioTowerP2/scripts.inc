@@ -129,3 +129,11 @@ GoldenrodRadioTowerP2_EventScript_Rico::
 	trainerbattle_single TRAINER_BRENDAN_LILYCOVE_TORCHIC, GoldenrodRadioTowerP2_Text_RicoIntro, GoldenrodRadioTowerP2_Text_RicoDefeated
 	msgbox GoldenrodRadioTowerP2_Text_RicoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+GoldenrodRadioTowerP2Documento_100::
+msgbox GoldenrodRadioTowerP2Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP2Documento_Text_100:
+	.string "P2 PERSONAL$"

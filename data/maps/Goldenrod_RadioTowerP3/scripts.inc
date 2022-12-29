@@ -159,3 +159,21 @@ GoldenrodRadioTowerP3_EventScript_Bella::
 	trainerbattle_single TRAINER_KOJI_1, GoldenrodRadioTowerP3_Text_BellaIntro, GoldenrodRadioTowerP3_Text_BellaDefeated
 	msgbox GoldenrodRadioTowerP3_Text_BellaPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+GoldenrodRadioTowerP3Documento_100::
+msgbox GoldenrodRadioTowerP3Documento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP3Documento_Text_100:
+	.string "P3 PRODUCCIÓN$"
+
+
+
+GoldenrodRadioTowerP3Documento_101::
+msgbox GoldenrodRadioTowerP3Documento_Text_101, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerP3Documento_Text_101:
+	.string "P3 ESTUDIO 2$"

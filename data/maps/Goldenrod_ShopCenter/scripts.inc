@@ -51,3 +51,17 @@ Goldenrod_Shop_Text_4:
 .string "Mamá es una experta en gangas.\n"
 .string "Siempre compra cosas a precios más\l"
 .string "bajos.$"
+
+
+
+GoldenrodShopCenterDocumento_100::
+msgbox GoldenrodShopCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodShopCenterDocumento_Text_100:
+.string "PB INFORMACIÓN\n"
+	.string "P1 TIENDA DE ENTRENADORES\l"
+	.string "P2 ARTÍCULOS DE COMBATE\l"
+	.string "P3 BOTIQUÍN\l"
+	.string "P4 MOVIMIENTOS POKÉMON\l"
+	.string "P5 ÚLTIMO PISO$"

@@ -158,3 +158,16 @@ Goldenrod_RadioTower_Text_11:
 .string "la estética y recursos con los que\l"
 .string "cuenta el mayor símbolo financiero\l"
 .string "de KANTO: SILPH.$"
+
+
+
+GoldenrodRadioTowerDocumento_100::
+msgbox GoldenrodRadioTowerDocumento_Text_100, MSGBOX_SIGN   
+end
+
+GoldenrodRadioTowerDocumento_Text_100:
+.string "PB RECEPCIÓN\n"
+	.string "P1 VENTAS\l"
+	.string "P2 PERSONAL\l"
+	.string "P3 PRODUCCIÓN\l"
+	.string "P4 OFICINA DEL DIRECTOR$"

@@ -47,3 +47,16 @@ VioletSprotTowerP2_EventScript_Pensador2::
 	trainerbattle_single TRAINER_TRENT_3, VioletSprotTowerP2_Text_Pensador2Intro, VioletSprotTowerP2_Text_Pensador2Defeated
 	msgbox VioletSprotTowerP2_Text_Pensador2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+VioletSprotTowerP2Documento_100::
+msgbox VioletSprotTowerP2Documento_Text_100, MSGBOX_SIGN   
+end
+
+VioletSprotTowerP2Documento_Text_100:
+	.string "Es la solemne estatua de un\n"
+	.string "BELLSPROUT. Tiene grabado algo en\l"
+	.string "letras de oro: - Todos partimos de\l"
+	.string "puntos diferentes... pero todos\l"
+	.string "podemos tocar el mismo cielo-.$"
