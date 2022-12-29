@@ -119,3 +119,34 @@ NationalPark_EventScript_Chico::
 	trainerbattle_single TRAINER_TYRA_AND_IVY, NationalPark_Text_ChicoIntro, NationalPark_Text_ChicoDefeated
 	msgbox NationalPark_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+NationalParkDocumento_100::
+msgbox NationalParkDocumento_Text_100, MSGBOX_SIGN   
+end
+
+NationalParkDocumento_Text_100:
+	.string "PLAZA DEL DESCANSO\n"
+	.string "PARQUE NACIONAL$"
+
+
+
+NationalParkDocumento_101::
+msgbox NationalParkDocumento_Text_101, MSGBOX_SIGN   
+end
+
+NationalParkDocumento_Text_101:
+	.string "PARQUE NACIONAL\n"
+	.string "Lugar del que brotan las más\l"
+	.string "bellas y brillantes ideas.$"
+
+
+
+NationalParkDocumento_102::
+msgbox NationalParkDocumento_Text_102, MSGBOX_SIGN   
+end
+
+NationalParkDocumento_Text_102:
+	.string "En honor a todos los TIPO BICHO de\n"
+	.string "KANTO y JOHTO.$"

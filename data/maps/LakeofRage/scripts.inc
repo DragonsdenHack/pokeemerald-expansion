@@ -96,3 +96,22 @@ LakeofRage_EventScript_Guay::
 	trainerbattle_single TRAINER_CHESTER, LakeofRage_Text_GuayIntro, LakeofRage_Text_GuayDefeated
 	msgbox LakeofRage_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+LakeofRageDocumento_100::
+msgbox LakeofRageDocumento_Text_100, MSGBOX_SIGN   
+end
+
+LakeofRageDocumento_Text_100:
+	.string "LAGO DE LA FURIA, conocido como\n"
+	.string "LAGO DE IKARY.$"
+
+
+
+LakeofRageDocumento_101::
+msgbox LakeofRageDocumento_Text_101, MSGBOX_SIGN   
+end
+
+LakeofRageDocumento_Text_101:
+	.string "CASA DEL GURÚ PESCADOR$"

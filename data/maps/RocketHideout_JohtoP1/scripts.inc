@@ -1524,3 +1524,12 @@ RocketHideoutJohtoP1Documento_Text_133:
 	.string "BRUTA, será aún más letal con toda\l"
 	.string "la variedad de movimientos que se\l"
 	.string "verán beneficiados.$"
+
+
+RocketHideoutJohtoP1Documento_134::
+msgbox RocketHideoutJohtoP1Documento_Text_134, MSGBOX_SIGN   
+end
+
+RocketHideoutJohtoP1Documento_Text_134:
+	.string "¡Todos los POKÉMON existen por la\n"
+	.string "gloria del TEAM ROCKET!$"

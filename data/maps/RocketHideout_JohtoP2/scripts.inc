@@ -53,3 +53,14 @@ RocketHideoutJohtoP2Documento_Text_101:
 	.string "...\l"
 	.string "...\p"
 	.string "Escoge bien.$"
+
+
+
+RocketHideoutJohtoP2Documento_102::
+msgbox RocketHideoutJohtoP2Documento_Text_102, MSGBOX_SIGN   
+end
+
+RocketHideoutJohtoP2Documento_Text_102:
+	.string "-Este lugar pertenece al ENTRENADOR\n"
+	.string "en el cual se han unido lo viejo y lo\l"
+	.string "nuevo-.$"

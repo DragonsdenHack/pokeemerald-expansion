@@ -28,3 +28,16 @@ end
 
 Route52Maze6::
 end
+
+
+
+Route52MazeDocumento_100::
+msgbox Route52MazeDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Route52MazeDocumento_Text_100:
+.string "TÉCNICAS AVANZADAS DE MANIPULACIÓN\n"
+	.string "DE LOS MERCADOS FINANCIEROS\l"
+	.string "...\l"
+	.string "...\l"
+	.string "¡Tiene más de 700 páginas!$"
