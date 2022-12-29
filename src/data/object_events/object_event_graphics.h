@@ -513,6 +513,7 @@ const u32 gObjectEventPic_RichBoy2[] = INCBIN_U32("graphics/object_events/pics/p
 const u32 gObjectEventPic_Ricojohto[] = INCBIN_U32("graphics/object_events/pics/people/ricojohto.4bpp");
 const u32 gObjectEventPic_Rocker[] = INCBIN_U32("graphics/object_events/pics/people/rocker.4bpp");
 const u32 gObjectEventPic_Rocketf[] = INCBIN_U32("graphics/object_events/pics/people/rocket_f.4bpp");
+const u32 gObjectEventPic_Rocketm[] = INCBIN_U32("graphics/object_events/pics/people/rocket_m.4bpp");
 const u32 gObjectEventPic_Rojo[] = INCBIN_U32("graphics/object_events/pics/people/Rojo.4bpp");
 const u32 gObjectEventPic_Rsbrendan[] = INCBIN_U32("graphics/object_events/pics/people/rs_brendan.4bpp");
 const u32 gObjectEventPic_Rsmay[] = INCBIN_U32("graphics/object_events/pics/people/rs_may.4bpp");

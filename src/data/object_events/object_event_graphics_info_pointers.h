@@ -371,6 +371,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rich_Boy2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RicoJohto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocker;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_F;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_M;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rojo;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RS_Brendan;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RS_May;
@@ -843,6 +844,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_RICOJOHTO] =                &gObjectEventGraphicsInfo_RicoJohto,
     [OBJ_EVENT_GFX_ROCKER] =                   &gObjectEventGraphicsInfo_Rocker,
     [OBJ_EVENT_GFX_ROCKET_F] =                 &gObjectEventGraphicsInfo_Rocket_F,
+    [OBJ_EVENT_GFX_ROCKET_M] =                 &gObjectEventGraphicsInfo_Rocket_M,
     [OBJ_EVENT_GFX_ROJO] =                     &gObjectEventGraphicsInfo_Rojo,
     [OBJ_EVENT_GFX_RS_BRENDAN] =               &gObjectEventGraphicsInfo_RS_Brendan,
     [OBJ_EVENT_GFX_RS_MAY] =                   &gObjectEventGraphicsInfo_RS_May,

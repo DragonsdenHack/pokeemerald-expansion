@@ -462,8 +462,9 @@
 #define OBJ_EVENT_GFX_CLIPBOARD 458
 #define OBJ_EVENT_GFX_SEAGALLOP 459
 #define OBJ_EVENT_GFX_SS_ANNE 460
+#define OBJ_EVENT_GFX_ROCKET_M 461
 
-#define NUM_OBJ_EVENT_GFX                        461                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        462                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.
