@@ -972,7 +972,7 @@ gTileset_celadon_gym::
 	.4byte gTilesetPalettes_celadon_gym
 	.4byte gMetatiles_celadon_gym
 	.4byte gMetatileAttributes_celadon_gym
-	.4byte NULL
+	.4byte InitTilesetAnim_CeladonGym
 
 	.align 2
 gTileset_cinnabar_gym::
@@ -1170,7 +1170,7 @@ gTileset_mt_ember::
 	.4byte gTilesetPalettes_mt_ember
 	.4byte gMetatiles_mt_ember
 	.4byte gMetatileAttributes_mt_ember
-	.4byte NULL
+	.4byte InitTilesetAnim_MtEmber
 
 	.align 2
 gTileset_museum_fr::
@@ -1379,7 +1379,7 @@ gTileset_silph_co::
 	.4byte gTilesetPalettes_silph_co
 	.4byte gMetatiles_silph_co
 	.4byte gMetatileAttributes_silph_co
-	.4byte NULL
+	.4byte InitTilesetAnim_SilphCo
 
 	.align 2
 gTileset_ss_anne::
@@ -1445,7 +1445,7 @@ gTileset_vermilion_gym::
 	.4byte gTilesetPalettes_vermilion_gym
 	.4byte gMetatiles_vermilion_gym
 	.4byte gMetatileAttributes_vermilion_gym
-	.4byte NULL
+	.4byte InitTilesetAnim_VermilionGym
 
 	.align 2
 gTileset_viridian_gym::
@@ -1467,7 +1467,7 @@ gTileset_celadon_city2::
 	.4byte gTilesetPalettes_celadon_city2
 	.4byte gMetatiles_celadon_city2
 	.4byte gMetatileAttributes_celadon_city2
-	.4byte NULL
+	.4byte InitTilesetAnim_CeladonCity
 
 	.align 2
 gTileset_cerulean_city::
