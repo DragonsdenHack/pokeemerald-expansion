@@ -33,3 +33,13 @@ ViridianCity_House1_Text_2:
 
 ViridianCityHouse1_3::
 end
+
+
+
+ViridianCityHouse1Documento_100::
+msgbox ViridianCityHouse1Documento_Text_100, MSGBOX_SIGN   
+end
+
+ViridianCityHouse1Documento_Text_100:
+.string "Spearow\n"
+	.string "Nombre: Speary$"

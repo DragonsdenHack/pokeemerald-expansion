@@ -59,3 +59,21 @@ PewterCity_Museum_Text_5:
 .string "Este mes daremos una exhibición\n"
 .string "espacial, a la que tú, por\l"
 .string "supuesto, no estás invitado.$"
+
+
+PewterMuseum2FDocumento_100::
+msgbox PewterMuseum2FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+PewterMuseum2FDocumento_Text_100:
+.string "NAVE ESPACIAL$"
+
+
+
+PewterMuseum2FDocumento_101::
+msgbox PewterMuseum2FDocumento_Text_101, MSGBOX_SIGN   
+end
+
+PewterMuseum2FDocumento_Text_101:
+.string "Un meteorito que cayó al MT.MOON.\n"
+	.string "Se trata de una PIEDRA LUNAR.$"

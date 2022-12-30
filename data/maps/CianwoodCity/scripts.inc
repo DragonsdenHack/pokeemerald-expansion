@@ -127,3 +127,19 @@ CianwoodCityDocumento_Text_102:
 	.string "CIUDAD ORQUÍDEA:\n"
 	.string "Eterna resistencia a las aguas\l"
 	.string "agitadas.$"
+
+
+
+CianwoodCityDocumento_103::
+msgbox CianwoodCityDocumento_Text_103, MSGBOX_SIGN   
+end
+
+CianwoodCityDocumento_Text_103:
+	.string "...\n"
+	.string "...\l"
+	.string "Un antiguo grabado reza lo\l"
+	.string "siguiente:\l"
+	.string "-No te dejes guiar por las\l"
+	.string "apariencias. El paraíso espera al\l"
+	.string "oeste, detrás de la inhóspita\l"
+	.string "montaña-.$"
