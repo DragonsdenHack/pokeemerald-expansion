@@ -32,3 +32,13 @@ Silph3F_EventScript_Cientifico::
 	trainerbattle_single TRAINER_ELLIOT_1, Silph3F_Text_CientificoIntro, Silph3F_Text_CientificoDefeated
 	msgbox Silph3F_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph3FDocumento_100::
+msgbox Silph3FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph3FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P2$"

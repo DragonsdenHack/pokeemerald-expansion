@@ -135,3 +135,13 @@ RockTunnel1F_EventScript_Chica3::
 	trainerbattle_single TRAINER_DIANA_2, RockTunnel1F_Text_Chica3Intro, RockTunnel1F_Text_Chica3Defeated
 	msgbox RockTunnel1F_Text_Chica3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+RockTunnel1FDocumento_100::
+msgbox RockTunnel1FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+RockTunnel1FDocumento_Text_100:
+.string "TÚNEL ROCA:\n"
+	.string "CIUDAD CELESTE - PUEBLO LAVANDA$"

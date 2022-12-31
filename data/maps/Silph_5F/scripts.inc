@@ -119,3 +119,13 @@ Silph5FDocumento_Text_102:
 	.string "¡Un INFORME sobre los POKéMON!\p"
 	.string "¡Confirmadas más de 350 técnicas\n"
 	.string "POKéMON!$"
+
+
+
+Silph5FDocumento_103::
+msgbox Silph5FDocumento_Text_103, MSGBOX_SIGN   
+end
+
+Silph5FDocumento_Text_103:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P4$"

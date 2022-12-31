@@ -48,3 +48,13 @@ Silph11F_EventScript_Policia2::
 	trainerbattle_single TRAINER_NICOLAS_1, Silph11F_Text_Policia2Intro, Silph11F_Text_Policia2Defeated
 	msgbox Silph11F_Policia2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph11FDocumento_100::
+msgbox Silph11FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph11FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P10$"

@@ -62,3 +62,13 @@ Silph6F_EventScript_Policia2::
 	trainerbattle_single TRAINER_ISAIAH_5, Silph6F_Text_Policia2Intro, Silph6F_Text_Policia2Defeated
 	msgbox Silph6F_Policia2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph6FDocumento_100::
+msgbox Silph6FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph6FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P5$"

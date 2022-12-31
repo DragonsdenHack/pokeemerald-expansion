@@ -62,3 +62,13 @@ Silph8F_EventScript_Cientifico::
 	trainerbattle_single TRAINER_WADE, Silph8F_Text_CientificoIntro, Silph8F_Text_CientificoDefeated
 	msgbox Silph8F_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph8FDocumento_100::
+msgbox Silph8FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph8FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P7$"

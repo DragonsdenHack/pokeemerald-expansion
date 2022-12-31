@@ -51,3 +51,13 @@ Silph2F_EventScript_Cientifico2::
 	trainerbattle_single TRAINER_IVAN, Silph2F_Text_Cientifico2Intro, Silph2F_Text_Cientifico2Defeated
 	msgbox Silph2F_Cientifico2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph2FDocumento_100::
+msgbox Silph2FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph2FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P1$"

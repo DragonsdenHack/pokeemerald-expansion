@@ -29,3 +29,23 @@ end
 
 SsAnne8F_9::
 end
+
+
+
+SsAnne8FDocumento_100::
+msgbox SsAnne8FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+SsAnne8FDocumento_Text_100:
+.string "¡Puaj!\n"
+	.string "¡No debería haber mirado!$"
+
+
+
+SsAnne8FDocumento_101::
+msgbox SsAnne8FDocumento_Text_101, MSGBOX_SIGN   
+end
+
+SsAnne8FDocumento_Text_101:
+.string "Cómo combatir el mareo...\n"
+	.string "¡El CAPITÁN está leyendo esto!$"

@@ -111,3 +111,13 @@ MtMoon1F_EventScript_Cazabichos2::
 	trainerbattle_single TRAINER_VALERIE_2, MtMoon1F_Text_Cazabichos2Intro, MtMoon1F_Text_Cazabichos2Defeated
 	msgbox MtMoon1F_Text_Cazabichos2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+MtMoon1FDocumento_100::
+msgbox MtMoon1FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+MtMoon1FDocumento_Text_100:
+.string "¡Cuidado!\n"
+	.string "¡Los ZUBAT son unos chupasangre!$"

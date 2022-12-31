@@ -81,3 +81,13 @@ Silph7F_EventScript_Cientifico::
 	trainerbattle_single TRAINER_BARNY, Silph7F_Text_CientificoIntro, Silph7F_Text_CientificoDefeated
 	msgbox Silph7F_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph7FDocumento_100::
+msgbox Silph7FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph7FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P6$"

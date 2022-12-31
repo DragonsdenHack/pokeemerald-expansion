@@ -111,3 +111,71 @@ ViridianForest_EventScript_Cazabichos5::
 	trainerbattle_single TRAINER_BROOKE_4, ViridianForest_Text_Cazabichos5Intro, ViridianForest_Text_Cazabichos5Defeated
 	msgbox ViridianForest_Cazabichos5PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+ViridianForestDocumento_100::
+msgbox ViridianForestDocumento_Text_100, MSGBOX_SIGN   
+end
+
+ViridianForestDocumento_Text_100:
+.string "SALIENDO DEL BOSQUE VERDE,\n"
+	.string "SE ENCUENTRA CIUDAD PLATEADA$"
+
+
+
+ViridianForestDocumento_101::
+msgbox ViridianForestDocumento_Text_101, MSGBOX_SIGN   
+end
+
+ViridianForestDocumento_Text_101:
+.string "PISTAS ENTRENADOR\p"
+	.string "¡No robes los POKéMON de otros\n"
+	.string "ENTRENADORES!\p"
+	.string "¡Captura sólo POKéMON salvajes\n"
+	.string "con las POKé BALLS!$"
+
+
+
+ViridianForestDocumento_102::
+msgbox ViridianForestDocumento_Text_102, MSGBOX_SIGN   
+end
+
+ViridianForestDocumento_Text_102:
+.string "PISTAS ENTRENADOR\p"
+	.string "¡Para evaluar tu POKéDEX, llama\n"
+	.string "al PROF. OAK vía PC!$"
+
+
+
+ViridianForestDocumento_103::
+msgbox ViridianForestDocumento_Text_103, MSGBOX_SIGN   
+end
+
+ViridianForestDocumento_Text_103:
+.string "PISTAS ENTRENADOR\p"
+	.string "Si quieres evitar los combates,\n"
+	.string "¡aléjate de las zonas de hierba!$"
+
+
+
+ViridianForestDocumento_104::
+msgbox ViridianForestDocumento_Text_104, MSGBOX_SIGN   
+end
+
+ViridianForestDocumento_Text_104:
+.string "PISTAS ENTRENADOR\p"
+	.string "¡Debilita a los POKéMON antes\n"
+	.string "de intentar capturarlos!\p"
+	.string "¡Si están fuertes, podrían escapar!$"
+
+
+
+ViridianForestDocumento_105::
+msgbox ViridianForestDocumento_Text_105, MSGBOX_SIGN   
+end
+
+ViridianForestDocumento_Text_105:
+.string "¡Usa ANTÍDOTO contra el veneno!\n"
+	.string "¡Lo conseguirás en las TIENDAS\l"
+	.string "POKéMON!$"

@@ -273,3 +273,13 @@ Silph1F_Text_19:
 .string "me extrañaría que muchos de ellos\l"
 .string "se cagaran de miedo, aunque no les\l"
 .string "haremos nada, por supuesto.$"
+
+
+
+Silph1FDocumento_100::
+msgbox Silph1FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph1FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "PB$"

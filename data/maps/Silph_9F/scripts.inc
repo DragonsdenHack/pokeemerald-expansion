@@ -39,3 +39,13 @@ Silph9F_EventScript_Policia2::
 	trainerbattle_single TRAINER_KATELYN_2, Silph9F_Text_Policia2Intro, Silph9F_Text_Policia2Defeated
 	msgbox Silph9F_Policia2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph9FDocumento_100::
+msgbox Silph9FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph9FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P8$"

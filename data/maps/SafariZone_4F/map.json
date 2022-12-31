@@ -143,7 +143,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SafariZone4FDocumento_100"
     },
     {
       "type": "sign",
@@ -151,7 +151,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SafariZone4FDocumento_103"
     },
     {
       "type": "sign",
@@ -159,7 +159,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SafariZone4FDocumento_101"
     },
     {
       "type": "sign",
@@ -167,7 +167,7 @@
       "y": 26,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SafariZone4FDocumento_102"
     }
   ]
 }

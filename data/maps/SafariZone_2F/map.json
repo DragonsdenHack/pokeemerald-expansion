@@ -128,7 +128,7 @@
       "y": 8,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SafariZone2FDocumento_101"
     },
     {
       "type": "sign",
@@ -136,7 +136,7 @@
       "y": 15,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SafariZone2FDocumento_102"
     },
     {
       "type": "sign",
@@ -144,7 +144,7 @@
       "y": 27,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SafariZone2FDocumento_100"
     }
   ]
 }

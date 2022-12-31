@@ -59,3 +59,13 @@ Silph4F_EventScript_Cientifico::
 	trainerbattle_single TRAINER_NED, Silph4F_Text_CientificoIntro, Silph4F_Text_CientificoDefeated
 	msgbox Silph4F_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Silph4FDocumento_100::
+msgbox Silph4FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Silph4FDocumento_Text_100:
+.string "OFICINA CENTRAL DE SILPH S.A.\n"
+	.string "P3$"
