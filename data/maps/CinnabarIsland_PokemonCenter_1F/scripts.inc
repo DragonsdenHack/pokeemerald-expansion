@@ -56,3 +56,20 @@ CinnabarIsland_Center_Text_4:
 .string "¿Estará en la MANSIÓN quemada esa?\l"
 .string "Dicen que está habitada por un\l"
 .string "amigo del LÍDER del GIMNASIO.$"
+
+
+
+CinnabarIslandPokemonCenterDocumento_100::
+msgbox CinnabarIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CinnabarIslandPokemonCenterDocumento_Text_100:
+.string "DIARIO POKéMON\p"
+	.string "Última hora sobre el SR. FUJI,\n"
+	.string "de la CASA POKéMON.\p"
+	.string "Nota del editor: el tímido\n"
+	.string "SR. FUJI no ha querido contestar\l"
+	.string "a nuestras preguntas.\p"
+	.string "Con todo, hay que decir que es una\n"
+	.string "persona muy querida en PUEBLO\l"
+	.string "LAVANDA.$"

@@ -92,3 +92,15 @@ CinnabarIslandGym_EventScript_Cientifico4::
 	trainerbattle_single TRAINER_KIYO, CinnabarIslandGym_Text_Cientifico4Intro, CinnabarIslandGym_Text_Cientifico4Defeated
 	msgbox CinnabarIslandGym_Text_Cientifico4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+CinnabarIslandGymDocumento_100::
+msgbox CinnabarIslandGymDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CinnabarIslandGymDocumento_Text_100:
+.string "Una foto de BLAINE\n"
+	.string "y el SR. FUJI...\p"
+	.string "Aparecen juntos con una sonrisa\n"
+	.string "de oreja a oreja.$"

@@ -91,19 +91,11 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 12,
-      "y": 5,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
-    },
-    {
-      "type": "sign",
       "x": 18,
       "y": 5,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CinnabarIslandLaboratory1Documento_102"
     },
     {
       "type": "sign",
@@ -111,7 +103,7 @@
       "y": 5,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CinnabarIslandLaboratory1Documento_103"
     },
     {
       "type": "sign",
@@ -119,7 +111,15 @@
       "y": 1,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "CinnabarIslandLaboratory1Documento_100"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CinnabarIslandLaboratory1Documento_101"
     }
   ]
 }

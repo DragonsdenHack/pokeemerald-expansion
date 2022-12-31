@@ -26,3 +26,13 @@ CeladonCity_Shop6F_Text_2:
 .string "¡de verdad!\p"
 .string "¡Pero es tan infantil que me vuelve\n"
 .string "loco!$"
+
+
+
+CeladonShop6FDocumento_100::
+msgbox CeladonShop6FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeladonShop6FDocumento_Text_100:
+.string "ÚLTIMO PISO:\n"
+	.string "DISTRIBUIDORES$"

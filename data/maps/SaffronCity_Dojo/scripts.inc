@@ -61,3 +61,30 @@ SaffronCityDojo_EventScript_Karateka4::
 	trainerbattle_single TRAINER_TOMMY, SaffronCityDojo_Text_Karateka4Intro, SaffronCityDojo_Text_Karateka4Defeated
 	msgbox SaffronCityDojo_Karateka4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+SaffronCityDojoDocumento_100::
+msgbox SaffronCityDojoDocumento_Text_100, MSGBOX_SIGN   
+end
+
+SaffronCityDojoDocumento_Text_100:
+	.string "DOJO-KARATE$"
+
+
+
+SaffronCityDojoDocumento_101::
+msgbox SaffronCityDojoDocumento_Text_101, MSGBOX_SIGN   
+end
+
+SaffronCityDojoDocumento_Text_101:
+.string "Hay enemigos por todas partes.$"
+
+
+
+SaffronCityDojoDocumento_102::
+msgbox SaffronCityDojoDocumento_Text_102, MSGBOX_SIGN   
+end
+
+SaffronCityDojoDocumento_Text_102:
+.string "Lo que tenga que venir, vendrá.$"

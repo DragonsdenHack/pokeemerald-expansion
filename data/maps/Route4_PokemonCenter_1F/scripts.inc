@@ -58,3 +58,12 @@ Route4_PokemonCenter_Text_4:
 
 Route4PokemonCenter5::
 end
+
+
+
+Route4PokemonCenterDocumento_100::
+msgbox Route4PokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+Route4PokemonCenterDocumento_Text_100:
+.string "Un periódico...$"

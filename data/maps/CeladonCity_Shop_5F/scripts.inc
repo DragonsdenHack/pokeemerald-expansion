@@ -45,3 +45,12 @@ CeladonCity_Shop5F_Text_4:
 .string "de un POKéMON.\p"
 .string "Usa CARBURANTE para aumentar\n"
 .string "la VELOCIDAD.$"
+
+
+
+CeladonShop5FDocumento_100::
+msgbox CeladonShop5FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeladonShop5FDocumento_Text_100:
+.string "P4: FARMACIA$"

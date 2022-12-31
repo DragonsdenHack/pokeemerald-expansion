@@ -18,3 +18,26 @@ end
 
 SaffronCityHouse12F_4::
 end
+
+
+
+SaffronCityHouse12FDocumento_100::
+msgbox SaffronCityHouse12FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+SaffronCityHouse12FDocumento_Text_100:
+.string "...\p"
+	.string "¡Éstos son mis secretos!\p"
+	.string "Habilidad: imitar.\n"
+	.string "Hobby: coleccionar muñecos.\l"
+	.string "POKéMON favorito: ¡CLEFAIRY!$"
+
+
+
+SaffronCityHouse12FDocumento_101::
+msgbox SaffronCityHouse12FDocumento_Text_101, MSGBOX_SIGN   
+end
+
+SaffronCityHouse12FDocumento_Text_101:
+	.string "¡Un juego de MARIO con un cubo\n"
+	.string "en la cabeza!$"

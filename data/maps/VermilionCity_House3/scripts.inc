@@ -37,3 +37,16 @@ VermilionCity_House3_Text_3:
 
 VermilionCityHouse3_4::
 end
+
+
+
+VermilionCityHouse3Documento_100::
+msgbox VermilionCityHouse3Documento_Text_100, MSGBOX_SIGN   
+end
+
+VermilionCityHouse3Documento_Text_100:
+.string "Querido PIPPI, espero que estés\n"
+	.string "bien.\l"
+	.string "He oído que AZAFRÁN está teniendo\l"
+	.string "problemas con el TEAM ROCKET.\l"
+	.string "CARMÍN parece estar a salvo.$"

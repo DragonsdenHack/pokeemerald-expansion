@@ -60,3 +60,26 @@ LavenderRadio_Text_4:
 .string "buenos programas, aunque nunca he\l"
 .string "tenido ocasión de subir a los pisos de\l"
 .string "arriba.$"
+
+
+
+LavenderRadioDocumento_100::
+msgbox LavenderRadioDocumento_Text_100, MSGBOX_SIGN   
+end
+
+LavenderRadioDocumento_Text_100:
+.string "Anima a tus Pokémon con los\n"
+	.string "melodiosos sonidos de la\l"
+	.string "Poké Flauta en la Cadena 20$"
+
+
+
+LavenderRadioDocumento_101::
+msgbox LavenderRadioDocumento_Text_101, MSGBOX_SIGN   
+end
+
+LavenderRadioDocumento_Text_101:
+	.string "1er Piso - Recepción\n"
+	.string "2do Piso - Producción y Ventas\l"
+	.string "3er Piso - Oficina del Director\l"
+	.string "4to Piso - Terraza$"

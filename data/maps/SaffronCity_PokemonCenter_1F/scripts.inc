@@ -37,3 +37,17 @@ SaffronCity_PokemonCenter_Text_3:
 
 SaffronCityPokemonCenter4::
 end
+
+
+
+SaffronCityPokemonCenterDocumento_100::
+msgbox SaffronCityPokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+SaffronCityPokemonCenterDocumento_Text_100:
+.string "DIARIO POKéMON\p"
+	.string "Última hora sobre SABRINA, LÍDER\n"
+	.string "del GIMNASIO de AZAFRÁN.\p"
+	.string "Según fuentes cercanas, SABRINA\n"
+	.string "se comunica en combate con sus\l"
+	.string "POKéMON, sin necesidad de hablar.$"

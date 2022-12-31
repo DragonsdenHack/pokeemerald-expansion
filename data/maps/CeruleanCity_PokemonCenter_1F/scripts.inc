@@ -60,3 +60,16 @@ CeruleanCity_PokemonCenter_Text_5:
 .string "Dicen que BILL tiene POKÉMON que\n"
 .string "nadie más tiene, ¡me gustaría\l"
 .string "verlos!$"
+
+
+
+CeruleanCityPokemonCenterDocumento_100::
+msgbox CeruleanCityPokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeruleanCityPokemonCenterDocumento_Text_100:
+.string "DIARIO POKéMON\p"
+	.string "Última hora sobre MISTY, LÍDER\n"
+	.string "del GIMNASIO de CELESTE.\p"
+	.string "Según fuentes cercanas, MISTY\n"
+	.string "adora a LORELEI, del ALTO MANDO.$"

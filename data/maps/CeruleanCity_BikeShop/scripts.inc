@@ -31,3 +31,12 @@ CeruleanCity_BikeShop_Text_3:
 .string "BICI con tu sucio dinero ganado de\l"
 .string "forma deshonrosa, ¡vete antes de\l"
 .string "que llame a la POLICÍA!$"
+
+
+
+CeruleanCityBikeShopDocumento_100::
+msgbox CeruleanCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeruleanCityBikeShopDocumento_Text_100:
+.string "¡Una bici nueva y brillante!$"

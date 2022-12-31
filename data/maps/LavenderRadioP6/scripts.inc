@@ -154,3 +154,22 @@ LavenderRadioP6Documento_Text_102:
 	.string "especial (115) e incluso físico (90),\l"
 	.string "son excepcionales teniendo en cuenta\l"
 	.string "el resto.$"
+
+
+
+LavenderRadioP6Documento_103::
+msgbox LavenderRadioP6Documento_Text_103, MSGBOX_SIGN   
+end
+
+LavenderRadioP6Documento_Text_103:
+.string "6to Desarrollo & Reuniones$"
+
+
+
+LavenderRadioP6Documento_104::
+msgbox LavenderRadioP6Documento_Text_104, MSGBOX_SIGN   
+end
+
+LavenderRadioP6Documento_Text_104:
+.string "-Cuanta más luz hay la sombra es más\n"
+	.string "oscura-.$"

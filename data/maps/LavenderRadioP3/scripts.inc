@@ -95,3 +95,21 @@ LavenderRadioP3_EventScript_Cientifico::
 	trainerbattle_single TRAINER_CRISTIN_3, LavenderRadioP3_Text_CientificoIntro, LavenderRadioP3_Text_CientificoDefeated
 	msgbox LavenderRadioP3_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+LavenderRadioP3Documento_100::
+msgbox LavenderRadioP3Documento_Text_100, MSGBOX_SIGN   
+end
+
+LavenderRadioP3Documento_Text_100:
+.string "4to Análisis & Inversión$"
+
+
+
+LavenderRadioP3Documento_101::
+msgbox LavenderRadioP3Documento_Text_101, MSGBOX_SIGN   
+end
+
+LavenderRadioP3Documento_Text_101:
+.string "-Hay una ilusión de poder que produce\n"
+	.string "en tu interior cierta locura-.$"

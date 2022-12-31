@@ -127,3 +127,22 @@ LavenderRadioP1_EventScript_Cientifico::
 	trainerbattle_single TRAINER_CRISTIN_2, LavenderRadioP1_Text_CientificoIntro, LavenderRadioP1_Text_CientificoDefeated
 	msgbox LavenderRadioP1_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+LavenderRadioP1Documento_100::
+msgbox LavenderRadioP1Documento_Text_100, MSGBOX_SIGN   
+end
+
+LavenderRadioP1Documento_Text_100:
+.string "2o Ventas & Producción$"
+
+
+
+LavenderRadioP1Documento_101::
+msgbox LavenderRadioP1Documento_Text_101, MSGBOX_SIGN   
+end
+
+LavenderRadioP1Documento_Text_101:
+.string "-Con la voluntad de la inmadurez se\n"
+	.string "pueden conseguir grandes cosas-.$"

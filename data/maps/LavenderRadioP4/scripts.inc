@@ -64,3 +64,23 @@ LavenderRadioP4_Text_5:
 .string "Oí que queríamos hacer ciertas pruebas\n"
 .string "sobre estas ondas en el LAGO DE LA\l"
 .string "FURIA, en JOHTO. ¿Será cierto?$"
+
+
+
+LavenderRadioP4Documento_100::
+msgbox LavenderRadioP4Documento_Text_100, MSGBOX_SIGN   
+end
+
+LavenderRadioP4Documento_Text_100:
+.string "5to Optimización Ondas$"
+
+
+
+LavenderRadioP4Documento_101::
+msgbox LavenderRadioP4Documento_Text_101, MSGBOX_SIGN   
+end
+
+LavenderRadioP4Documento_Text_101:
+.string "-Hay infinitas variaciones en cada\n"
+	.string "generación, todas creadas por\l"
+	.string "mutaciones-.$"

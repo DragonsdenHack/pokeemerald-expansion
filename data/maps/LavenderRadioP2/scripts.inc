@@ -123,3 +123,22 @@ LavenderRadioP2_Text_7:
 .string "antigua torre. Por suerte tienen el\l"
 .string "TÚNEL ROCA al norte, un buen hábitat\l"
 .string "para que puedan empezar de 0.$"
+
+
+LavenderRadioP2Documento_100::
+msgbox LavenderRadioP2Documento_Text_100, MSGBOX_SIGN   
+end
+
+LavenderRadioP2Documento_Text_100:
+.string "3ro Eficiencia & Rendimiento$"
+
+
+
+LavenderRadioP2Documento_101::
+msgbox LavenderRadioP2Documento_Text_101, MSGBOX_SIGN   
+end
+
+LavenderRadioP2Documento_Text_101:
+.string "-Una vez que te acostumbras, es difícil\n"
+	.string "rendirse. Mejor permanecer\l"
+	.string "hambriento-.$"

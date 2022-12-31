@@ -33,3 +33,16 @@ CeladonCity_Shop4F_Text_3:
 .string "para mi novia!\p"
 .string "Seguro que es el último grito\n"
 .string "en regalos.$"
+
+
+
+CeladonShop4FDocumento_100::
+msgbox CeladonShop4FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeladonShop4FDocumento_Text_100:
+.string "¡Dilo con un regalo!\p"
+	.string "P3: REGALOS\p"
+	.string "¡Evolución Especial!\n"
+	.string "¡Diversas PIEDRAS elementales\l"
+	.string "en venta!$"

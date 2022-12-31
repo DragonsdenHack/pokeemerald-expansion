@@ -62,3 +62,72 @@ CeladonCity_Shop3F_Text_5:
 .string "¿Qué?\p"
 .string "¡GRAVELER se transformó en otro\n"
 .string "POKéMON!$"
+
+
+
+CeladonShop3FDocumento_100::
+msgbox CeladonShop3FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeladonShop3FDocumento_Text_100:
+.string "P2: VIDEOJUEGOS$"
+
+
+
+CeladonShop3FDocumento_101::
+msgbox CeladonShop3FDocumento_Text_101, MSGBOX_SIGN   
+end
+
+CeladonShop3FDocumento_Text_101:
+.string "¡Rojo y Verde!\n"
+	.string "¡Dos juegos de POKéMON!$"
+
+
+
+
+CeladonShop3FDocumento_102::
+msgbox CeladonShop3FDocumento_Text_102, MSGBOX_SIGN   
+end
+
+CeladonShop3FDocumento_Text_102:
+.string "¡Es una SUPER NINTENDO!$"
+
+
+
+CeladonShop3FDocumento_103::
+msgbox CeladonShop3FDocumento_Text_103, MSGBOX_SIGN   
+end
+
+CeladonShop3FDocumento_Text_103:
+.string "Un juego de rol.\n"
+	.string "¡Genial! ¡Pero no tengo tiempo!$"
+
+
+
+CeladonShop3FDocumento_104::
+msgbox CeladonShop3FDocumento_Text_104, MSGBOX_SIGN   
+end
+
+CeladonShop3FDocumento_Text_104:
+	.string "¡Un juego de deportes!$"
+
+
+
+
+CeladonShop3FDocumento_105::
+msgbox CeladonShop3FDocumento_Text_105, MSGBOX_SIGN   
+end
+
+CeladonShop3FDocumento_Text_105:
+.string "¡Un juego de puzzles!\n"
+	.string "¡Parece muy adictivo!$"
+
+
+
+CeladonShop3FDocumento_106::
+msgbox CeladonShop3FDocumento_Text_106, MSGBOX_SIGN   
+end
+
+CeladonShop3FDocumento_Text_106:
+.string "¡Un juego de lucha!\n"
+	.string "¡Parece muy difícil!$"

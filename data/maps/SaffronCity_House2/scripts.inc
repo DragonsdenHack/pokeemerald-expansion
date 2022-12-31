@@ -36,3 +36,16 @@ SafariZone_House2_Text_3:
 
 SaffronCityHouse2_4::
 end
+
+
+
+SaffronCityHouse2Documento_100::
+msgbox SaffronCityHouse2Documento_Text_100, MSGBOX_SIGN   
+end
+
+SaffronCityHouse2Documento_Text_100:
+.string "Te di un Más PP como regalo.\n"
+	.string "Úsalo para incrementar los PP de\l"
+	.string "un movimiento, te aconsejo usarlo\l"
+	.string "con movimientos potentes que\l"
+	.string "tienen pocos PP.$"

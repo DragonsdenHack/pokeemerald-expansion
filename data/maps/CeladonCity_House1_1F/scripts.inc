@@ -30,3 +30,13 @@ CeladonMansion_Text_4:
 .string "solucionan remando todos juntos,\l"
 .string "no declarando la guerra por tu\l"
 .string "cuenta!$"
+
+
+
+CeladonMansionDocumento_100::
+msgbox CeladonMansionDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeladonMansionDocumento_Text_100:
+.string "MANSIÓN AZULONA\n"
+	.string "Suite presidencial$"

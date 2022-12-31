@@ -17,3 +17,43 @@ CinnabarIsland_Laboratory1_Text_1:
 
 CinnabarIslandLaboratory1_2::
 end
+
+
+
+CinnabarIslandLaboratory1Documento_100::
+msgbox CinnabarIslandLaboratory1Documento_Text_100, MSGBOX_SIGN   
+end
+
+CinnabarIslandLaboratory1Documento_Text_100:
+.string "¡Una foto del fundador del\n"
+	.string "LABORATORIO, el DR. FUJI!$"
+
+
+
+CinnabarIslandLaboratory1Documento_101::
+msgbox CinnabarIslandLaboratory1Documento_Text_101, MSGBOX_SIGN   
+end
+
+CinnabarIslandLaboratory1Documento_Text_101:
+.string "LABORATORIO POKéMON\n"
+	.string "Sala de reuniones$"
+
+
+
+CinnabarIslandLaboratory1Documento_102::
+msgbox CinnabarIslandLaboratory1Documento_Text_102, MSGBOX_SIGN   
+end
+
+CinnabarIslandLaboratory1Documento_Text_102:
+	.string "LABORATORIO POKéMON\n"
+	.string "Sala de I + D$"
+
+
+
+CinnabarIslandLaboratory1Documento_103::
+msgbox CinnabarIslandLaboratory1Documento_Text_103, MSGBOX_SIGN   
+end
+
+CinnabarIslandLaboratory1Documento_Text_103:
+.string "LABORATORIO POKéMON\n"
+	.string "Sala de pruebas$"

@@ -122,3 +122,17 @@ SafariZone_House4_Text_8:
 .string "ella; dulce, pero guay a la vez.\p"
 .string "¡Y dominar los poderes psíquicos,\n"
 .string "como ella!$"
+
+
+
+SaffronCityHouse4Documento_100::
+msgbox SaffronCityHouse4Documento_Text_100, MSGBOX_SIGN   
+end
+
+SaffronCityHouse4Documento_Text_100:
+.string "DIARIO POKéMON\p"
+	.string "Última hora sobre BRUNO,\n"
+	.string "miembro del ALTO MANDO.\p"
+	.string "Según fuentes cercanas, BRUNO\n"
+	.string "se unió al ALTO MANDO para luchar\l"
+	.string "contra los mejores ENTRENADORES.$"

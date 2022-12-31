@@ -36,3 +36,14 @@ end
 CeladonCity_Shop2F_Text_4:
 .string "Para viajes largos deberías\n"
 .string "comprar REVIVIR.$"
+
+
+
+CeladonShop2FDocumento_100::
+msgbox CeladonShop2FDocumento_Text_100, MSGBOX_SIGN   
+end
+
+CeladonShop2FDocumento_Text_100:
+.string "Objetos de máxima calidad para los\n"
+	.string "ENTRENADORES.\p"
+	.string "P1: TIENDA DE LOS ENTRENADORES$"

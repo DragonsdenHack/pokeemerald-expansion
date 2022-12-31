@@ -70,3 +70,17 @@ IndigoPlateau_PokemonCenter_Text_6:
 .string "Por lo que sé, un primo de LANCE\n"
 .string "es también LÍDER de un GIMNASIO\l"
 .string "de por ahí.$"
+
+
+
+IndigoPlateauPokemonCenterDocumento_100::
+msgbox IndigoPlateauPokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+IndigoPlateauPokemonCenterDocumento_Text_100:
+.string "DIARIO POKéMON\p"
+	.string "Última hora sobre LANCE,\n"
+	.string "miembro del ALTO MANDO.\p"
+	.string "Según fuentes cercanas, quien fundó\n"
+	.string "el clan de los maestros del tipo\l"
+	.string "DRAGÓN fue el abuelo de LANCE.$"

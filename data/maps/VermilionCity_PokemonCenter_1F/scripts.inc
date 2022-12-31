@@ -66,3 +66,20 @@ VermilionCity_PokemonCenter_Text_5:
 .string "vulnerables ante ciertos tipos.\p"
 .string "Es decir, que no hay POKéMON\n"
 .string "invulnerables.$"
+
+
+
+VermilionCityPokemonCenterDocumento_100::
+msgbox VermilionCityPokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+VermilionCityPokemonCenterDocumento_Text_100:
+.string "DIARIO POKéMON\p"
+	.string "Última hora sobre LT. SURGE, LÍDER\n"
+	.string "del GIMNASIO de CARMÍN.\p"
+	.string "Según fuentes cercanas, LT. SURGE\n"
+	.string "era piloto cuando vivía en Estados\l"
+	.string "Unidos.\p"
+	.string "Y se valía de la electricidad\n"
+	.string "generada por sus POKéMON\l"
+	.string "para poner en marcha su avión.$"
