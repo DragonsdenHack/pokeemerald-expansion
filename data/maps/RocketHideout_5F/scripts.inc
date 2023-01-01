@@ -119,11 +119,6 @@ RocketHideout5F_Text_11:
 
 
 
-RocketHideout5F_12::
-end
-
-
-
 RocketHideout5F_13::
 end
 
@@ -1682,3 +1677,101 @@ end
 
 RocketHideout5FDocumento_Text_124:
 	.string "HOENN$"
+
+
+
+RocketHideout5F_12_EventScript_Hiker::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_HM05, RocketHideout5F_12_EventScript_ReceivedFlash
+	msgbox RocketHideout5F_12_Text_GetsDarkAheadHereYouGo, MSGBOX_DEFAULT
+	giveitem ITEM_TWISTED_SPOON
+	setflag FLAG_RECEIVED_HM05
+	msgbox RocketHideout5F_12_Text_ExplainFlash, MSGBOX_DEFAULT
+	release
+	end
+
+RocketHideout5F_12_EventScript_ReceivedFlash::
+	msgbox RocketHideout5F_12_Text_ExplainFlash, MSGBOX_DEFAULT
+	release
+	end
+
+RocketHideout5F_12_Text_GetsDarkAheadHereYouGo:
+	.string "¡Vaya!\n"
+	.string "¡Me alegra saber que aún hay\l"
+	.string "reclutas que muestran interés por\l"
+	.string "la lectura!\l"
+	.string "¡Alguien como tú seguro que sabe\l"
+	.string "sacarle partido a esto!$"
+
+RocketHideout5F_12_Text_ExplainFlash:
+	.string "La CUCHARA TORCIDA incrementará en\n"
+	.string "un 20% la potencia de los\l"
+	.string "movimientos PSÍQUICOS, ¡imagínate\l"
+	.string "la potencia que un ALAKAZAM\l"
+	.string "alcanzaría con este objeto\l"
+	.string "equipado!$"
+
+
+
+RocketHideout5F_12_EventScript_TM33::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_POKENAV, RocketHideout5F_12_EventScript_ReceivedTM33
+	msgbox RocketHideout5F_12_Text_TM33, MSGBOX_DEFAULT
+	giveitem ITEM_TM33
+	setflag FLAG_RECEIVED_POKENAV
+	msgbox RocketHideout5F_12_Text_ExplainTM33, MSGBOX_DEFAULT
+	release
+	end
+
+RocketHideout5F_12_EventScript_ReceivedTM33::
+	msgbox RocketHideout5F_12_Text_ExplainTM33, MSGBOX_DEFAULT
+	release
+	end
+
+RocketHideout5F_12_Text_TM33:
+	.string "A veces llega un punto en que la\n"
+	.string "única forma de contener a un\l"
+	.string "atacante físico es multiplicando\l"
+	.string "por 2 la propia defensa física de\l"
+	.string "tu equipo, ¿cómo se logra esto?$"
+
+RocketHideout5F_12_Text_ExplainTM33:
+	.string "REFLEJO reducirá durante 5 turnos\n"
+	.string "a la mitad el daño recibido de\l"
+	.string "movimientos físicos, viene muy\l"
+	.string "bien para POKÉMON PSÍQUICOS cuya\l"
+	.string "defensa física no es precisamente\l"
+	.string "su fuerte.$"
+
+
+
+RocketHideout5F_22_EventScript_PP_MAX::
+	lock
+	faceplayer
+	goto_if_set FLAG_RECEIVED_RED_OR_BLUE_ORB, RocketHideout5F_22_EventScript_ReceivedPP_MAX
+	msgbox RocketHideout5F_22_Text_PP_MAX, MSGBOX_DEFAULT
+	giveitem ITEM_PP_MAX
+	setflag FLAG_RECEIVED_RED_OR_BLUE_ORB
+	msgbox RocketHideout5F_22_Text_ExplainPP_MAX, MSGBOX_DEFAULT
+	release
+	end
+
+RocketHideout5F_22_EventScript_ReceivedPP_MAX::
+	msgbox RocketHideout5F_22_Text_ExplainPP_MAX, MSGBOX_DEFAULT
+	release
+	end
+
+RocketHideout5F_22_Text_PP_MAX:
+	.string "Los PP son esenciales, si un\n"
+	.string "POKÉMON se queda sin ellos, se\l"
+	.string "vuelve inútil por más fuerte que\l"
+	.string "sea, toma esto.$"
+
+RocketHideout5F_22_Text_ExplainPP_MAX:
+	.string "Medita bien tu elección antes de\n"
+	.string "aplicar el MÁX.PP, movimientos\l"
+	.string "como PSÍQUICO, HIPERRAYO o\l"
+	.string "LLAMARADA pueden ser buenas\l"
+	.string "elecciones.$"
