@@ -28,10 +28,6 @@ LavenderTown_Text2:
 .string "cabo actos conmemorativos.$"
 
 
-LavenderTown3::
-end
-
-
 
 LavenderTownDocumento_100::
 msgbox LavenderTownDocumento_Text_100, MSGBOX_SIGN   
@@ -70,3 +66,38 @@ end
 LavenderTownDocumento_Text_103:
 	.string "TORRE POKÉMON\n"
 	.string "Reposo de los espíritus caídos$"
+
+
+LavenderTown_3::
+lock
+faceplayer
+msgbox LavenderTown_3_Text_3YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq LavenderTown_3No
+msgbox LavenderTown_3_Text_3Yes, MSGBOX_DEFAULT
+release
+end
+
+
+
+LavenderTown_3_Text_3YesNo:
+    .string "¿Crees en los GHOSTS?$"
+
+
+LavenderTown_3No::
+msgbox LavenderTown_3_Text_3No, MSGBOX_DEFAULT
+release
+end
+
+
+LavenderTown_3_Text_3Yes:
+    .string "¿En serio?\n"
+	.string "Hay quien no cree...$"
+
+
+
+LavenderTown_3_Text_3No:
+    
+	.string "Hahaha, ya lo sabía.\n"
+	.string "Esa mano blanca detrás de tu\l"
+	.string "hombro no es real.$"
