@@ -41,3 +41,13 @@ end
 SaffronCityHouse12FDocumento_Text_101:
 	.string "¡Un juego de MARIO con un cubo\n"
 	.string "en la cabeza!$"
+
+
+
+SaffronCityHouse12FDocumento_102::
+msgbox SaffronCityHouse12FDocumento_Text_102, MSGBOX_DEFAULT  
+end
+
+SaffronCityHouse12FDocumento_Text_102:
+.string "¡Éste es un POKéMON raro!\n"
+	.string "¿Eh? ¡Pero si es un muñeco!$"

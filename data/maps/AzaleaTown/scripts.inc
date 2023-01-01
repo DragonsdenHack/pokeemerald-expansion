@@ -281,7 +281,7 @@ release
 end
 
 AzaleaTownDocumento_Text_113:
-.string "CLEFAIRY: ¡¡faaa!!$"
+.string "CLEFAIRY: ¡¡Faaa!!$"
 
 
 
@@ -372,3 +372,176 @@ end
 
 AzaleaTownDocumento_Text_120:
 .string "MEOWTH: ¡meowth!$"
+
+
+
+AzaleaTownDocumento_121::
+lock    
+faceplayer
+playmoncry SPECIES_AMPHAROS, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_121, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_121:
+.string "AMPHAROS: ¡Amph!\n"
+	.string "(Su cola irradia una gran energía).$"
+
+
+
+AzaleaTownDocumento_122::
+lock    
+faceplayer
+playmoncry SPECIES_DRATINI, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_122, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_122:
+.string "DRATINI: ¡Drag!$"
+
+
+
+AzaleaTownDocumento_123::
+lock    
+faceplayer
+playmoncry SPECIES_NIDORAN_F, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_123, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_123:
+.string "NIDORAN: ¡Dan!$"
+
+
+
+AzaleaTownDocumento_124::
+lock    
+faceplayer
+playmoncry SPECIES_NIDORINO, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_124, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_124:
+.string "NIDORINO: ¡Nidor!$"
+
+
+
+AzaleaTownDocumento_125::
+lock    
+faceplayer
+playmoncry SPECIES_NIDORAN_M, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_125, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_125:
+.string "NIDORAN: ¡Dan!$"
+
+
+
+AzaleaTownDocumento_126::
+lock    
+faceplayer
+playmoncry SPECIES_PSYDUCK, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_126, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_126:
+.string "PSYDUCK: ¡Psydu!$"
+
+
+
+AzaleaTownDocumento_127::
+lock    
+faceplayer
+playmoncry SPECIES_CUBONE, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_127, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_127:
+.string "CUBONE: ¡Cubon!$"
+
+
+
+AzaleaTownDocumento_128::
+lock    
+faceplayer
+playmoncry SPECIES_CHANSEY, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_128, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_128:
+.string "CHANSEY: ¡Chaan! ¡Chaan!$"
+
+
+
+AzaleaTownDocumento_129::
+lock    
+faceplayer
+playmoncry SPECIES_FEAROW, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_129, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_129:
+.string "FEAROW: ¡Fea, row, row!$"
+
+
+
+AzaleaTownDocumento_130::
+lock    
+faceplayer
+playmoncry SPECIES_WIGGLYTUFF, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_130, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_130:
+.string "WIGGLYTUFF: ¡Wig, tuuuf, tuuuf!$"
+
+
+
+AzaleaTownDocumento_131::
+lock    
+faceplayer
+playmoncry SPECIES_MACHOKE, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_131, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_131:
+.string "MACHOKE: ¡Cho! ¡Chokecho!$"
+
+
+
+AzaleaTownDocumento_132::
+lock    
+faceplayer
+playmoncry SPECIES_SEEL, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_132, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_132:
+.string "SEEL: ¡Eel!$"
+
+
+
+AzaleaTownDocumento_133::
+lock    
+playmoncry SPECIES_SNORLAX, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_133, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTownDocumento_Text_133:
+.string "...\n"
+	.string "...\l"
+	.string "(Parece que está durmiendo, se le\l"
+	.string "ve feliz de estar en este\l"
+	.string "paraíso)$"
