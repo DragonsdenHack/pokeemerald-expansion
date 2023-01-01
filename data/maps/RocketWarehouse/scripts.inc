@@ -164,4 +164,28 @@ RocketWarehouseDocumento_Text_106:
 	.string "sus STATS BASE globales\l"
 	.string "modificando completamente los\l"
 	.string "genes.$"
+
+
+
+RocketWarehouseDocumento_100::
+msgbox RocketWarehouseDocumento_Text_100, MSGBOX_SIGN   
+end
+
+RocketWarehouseDocumento_Text_100:
+	.string "Por la energía que desprende esta\n"
+	.string "POKÉ BALL, se ve a leguas que hay\l"
+	.string "un POKÉMON bastante potente en su\l"
+	.string "interior...$"
+
+
+
+RocketWarehouseDocumento_101::
+msgbox RocketWarehouseDocumento_Text_101, MSGBOX_SIGN   
+end
+
+RocketWarehouseDocumento_Text_101:
+	.string "Por la energía que desprende esta\n"
+	.string "POKÉ BALL, se ve a leguas que hay\l"
+	.string "un POKÉMON bastante potente en su\l"
+	.string "interior...$"
 	

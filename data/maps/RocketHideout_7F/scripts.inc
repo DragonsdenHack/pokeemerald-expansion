@@ -2252,3 +2252,40 @@ RocketHideout7FDocumento_Text_156:
 	.string "estado salvaje, pero mortal si es\l"
 	.string "manejado por las manos de un\l"
 	.string "humano susceptible de error.$"
+
+
+
+RocketHideout7FDocumento_157::
+msgbox RocketHideout7FDocumento_Text_157, MSGBOX_SIGN   
+end
+
+RocketHideout7FDocumento_Text_157:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "KANTO$"
+
+
+
+RocketHideout7FDocumento_158::
+msgbox RocketHideout7FDocumento_Text_158, MSGBOX_SIGN   
+end
+
+RocketHideout7FDocumento_Text_158:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "JOHTO$"
+
+
+
+
+RocketHideout7FDocumento_159::
+msgbox RocketHideout7FDocumento_Text_159, MSGBOX_SIGN   
+end
+
+RocketHideout7FDocumento_Text_159:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "HOENN$"

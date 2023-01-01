@@ -131,3 +131,62 @@ RocketHideoutFiveIslandMeadow_Text_10:
 .string "regalásemos un DRATINI de la nada?\l"
 .string "¡Somos una organización criminal,\l"
 .string "no una ONG!$"
+
+
+
+RocketHideoutFiveIslandMeadowDocumento_100::
+msgbox RocketHideoutFiveIslandMeadowDocumento_Text_100, MSGBOX_SIGN   
+end
+
+RocketHideoutFiveIslandMeadowDocumento_Text_100:
+.string "CÓDIGO MORAL Y DE CONDUCTA ROCKET:\n"
+	.string "1.-Mi presencia en la organización\l"
+	.string "es un privilegio, no un derecho, y\l"
+	.string "debo ganármela en la acción.\l"
+	.string "2.-La lealtad y el compromiso\l"
+	.string "total de la organización son\l"
+	.string "innegociables.\l"
+	.string "3.-Las insubordinaciones y\l"
+	.string "traiciones se pagan con la muerte.\l"
+	.string "4.-Actuamos como un solo cuerpo,\l"
+	.string "unidad por encima de\l"
+	.string "individualidad, lo que...\l"
+	.string "5.-No quita que todo Rocket deba\l"
+	.string "de tener iniciativa propia,\l"
+	.string "actitud de búsqueda y mejora\l"
+	.string "constantes por convertirse en un\l"
+	.string "mejor entrenador.\l"
+	.string "6.-Llega, analiza, adáptate y\l"
+	.string "gana.\l"
+	.string "7.-Cada miembro de la organización\l"
+	.string "cuenta, desde el Recluta más\l"
+	.string "básico hasta los más altos cargos,\l"
+	.string "funcionamos como un enorme\l"
+	.string "engranaje donde no se deja a nadie\l"
+	.string "atrás.$"
+
+
+
+RocketHideoutFiveIslandMeadowDocumento_101::
+msgbox RocketHideoutFiveIslandMeadowDocumento_Text_101, MSGBOX_SIGN   
+end
+
+RocketHideoutFiveIslandMeadowDocumento_Text_101:
+    .string "...\n"
+	.string "...\l"
+	.string "(Contiene un NIDORINO en su\l"
+	.string "interior, mejor no tocarla\l"
+	.string "demasiado...).$"
+
+
+
+RocketHideoutFiveIslandMeadowDocumento_102::
+msgbox RocketHideoutFiveIslandMeadowDocumento_Text_102, MSGBOX_SIGN   
+end
+
+RocketHideoutFiveIslandMeadowDocumento_Text_102:
+    .string "...\n"
+	.string "...\l"
+	.string "(Contiene un RHYHORN en su\l"
+	.string "interior, mejor no tocarla\l"
+	.string "demasiado...).$"

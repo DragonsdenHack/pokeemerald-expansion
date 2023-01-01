@@ -33,3 +33,19 @@ FiveIsland_PokemonCenter_Text_3:
 .string "En el mismo cabo vive una señora\n"
 .string "mayor.\p"
 .string "Lleva allí ni se sabe…$"
+
+
+
+FiveIslandPokemonCenterDocumento_100::
+msgbox FiveIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+FiveIslandPokemonCenterDocumento_Text_100:
+.string "DIARIO POKéMON\p"
+	.string "Última hora sobre LORELEI,\n"
+	.string "miembro del ALTO MANDO.\p"
+	.string "Según fuentes cercanas, LORELEI\n"
+	.string "guarda un gran secreto.\p"
+	.string "Lo que sí se conoce de ella es\n"
+	.string "su estilo de lucha elegante, único\l"
+	.string "y calculador.$"

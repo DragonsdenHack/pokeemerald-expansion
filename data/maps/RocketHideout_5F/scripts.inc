@@ -1601,3 +1601,84 @@ RocketHideout5F_EventScript_Rocket4::
 	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_4, RocketHideout5F_Text_Rocket4Intro, RocketHideout5F_Text_Rocket4Defeated
 	msgbox RocketHideout5F_Text_Rocket4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+RocketHideout5FDocumento_119::
+msgbox RocketHideout5FDocumento_Text_119, MSGBOX_SIGN   
+end
+
+RocketHideout5FDocumento_Text_119:
+.string "CÓDIGO MORAL Y DE CONDUCTA ROCKET:\n"
+	.string "1.-Mi presencia en la organización\l"
+	.string "es un privilegio, no un derecho, y\l"
+	.string "debo ganármela en la acción.\l"
+	.string "2.-La lealtad y el compromiso\l"
+	.string "total de la organización son\l"
+	.string "innegociables.\l"
+	.string "3.-Las insubordinaciones y\l"
+	.string "traiciones se pagan con la muerte.\l"
+	.string "4.-Actuamos como un solo cuerpo,\l"
+	.string "unidad por encima de\l"
+	.string "individualidad, lo que...\l"
+	.string "5.-No quita que todo Rocket deba\l"
+	.string "de tener iniciativa propia,\l"
+	.string "actitud de búsqueda y mejora\l"
+	.string "constantes por convertirse en un\l"
+	.string "mejor entrenador.\l"
+	.string "6.-Llega, analiza, adáptate y\l"
+	.string "gana.\l"
+	.string "7.-Cada miembro de la organización\l"
+	.string "cuenta, desde el Recluta más\l"
+	.string "básico hasta los más altos cargos,\l"
+	.string "funcionamos como un enorme\l"
+	.string "engranaje donde no se deja a nadie\l"
+	.string "atrás.$"
+
+
+
+RocketHideout5FDocumento_120::
+msgbox RocketHideout5FDocumento_Text_120, MSGBOX_SIGN   
+end
+
+RocketHideout5FDocumento_Text_120:
+	.string "SALA ESPECIAL DE ENTRENAMIENTO\n"
+	.string "PARA LA ÉLITE ROCKET$"
+
+
+
+RocketHideout5FDocumento_121::
+msgbox RocketHideout5FDocumento_Text_121, MSGBOX_SIGN   
+end
+
+RocketHideout5FDocumento_Text_121:
+.string "DESPACHO PRIVADO DE GIOVANNI$"
+
+
+
+RocketHideout5FDocumento_122::
+msgbox RocketHideout5FDocumento_Text_122, MSGBOX_SIGN   
+end
+
+RocketHideout5FDocumento_Text_122:
+.string "ZONA DE INVESTIGACIÓN ACERCA DEL\n"
+	.string "PODER MÁXIMO ALCANZABLE POR UN\l"
+	.string "POKÉMON$"
+
+
+
+RocketHideout5FDocumento_123::
+msgbox RocketHideout5FDocumento_Text_123, MSGBOX_SIGN   
+end
+
+RocketHideout5FDocumento_Text_123:
+	.string "JOHTO$"
+
+
+
+RocketHideout5FDocumento_124::
+msgbox RocketHideout5FDocumento_Text_124, MSGBOX_SIGN   
+end
+
+RocketHideout5FDocumento_Text_124:
+	.string "HOENN$"

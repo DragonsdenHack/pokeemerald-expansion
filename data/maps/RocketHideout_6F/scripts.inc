@@ -320,3 +320,53 @@ RocketHideout6F_Text_26:
 .string "tiempo suficiente para organizar\l"
 .string "la GUARDERÍA sin levantar\l"
 .string "sospechas!$"
+
+
+
+RocketHideout6FDocumento_100::
+msgbox RocketHideout6FDocumento_Text_100, MSGBOX_DEFAULT  
+end
+
+RocketHideout6FDocumento_Text_100:
+.string "(Parece que contiene un DRATINI,\n"
+	.string "deben de sacar como mínimo 53000\l"
+	.string "POKÉS con la venta de este POKÉMON\l"
+	.string "en el CASINO).$"
+
+
+
+RocketHideout6FDocumento_101::
+msgbox RocketHideout6FDocumento_Text_101, MSGBOX_DEFAULT  
+end
+
+RocketHideout6FDocumento_Text_101:
+.string "(Parece que contiene un SCYTHER,\n"
+	.string "deben de sacar como mínimo 110000\l"
+	.string "POKÉS con la venta de este POKÉMON\l"
+	.string "en el CASINO).$"
+
+
+
+RocketHideout6FDocumento_102::
+msgbox RocketHideout6FDocumento_Text_102, MSGBOX_DEFAULT  
+end
+
+RocketHideout6FDocumento_Text_102:
+.string "VALOR EN FICHAS DE CASINO DE LAS\n"
+	.string "SIGUIENTES MERCANCÍAS:\l"
+	.string "- ABRA(NV:9): 180\l"
+	.string "- CLEFAIRY(NV:8): 500\l"
+	.string "- PEPITA: 500\l"
+	.string "- BOLA HUMO: 800\l"
+	.string "- CARBÓN/SEM.MIL/AG.MÍST: 1000\l"
+	.string "- FLAUTA AMARILLA: 1600\l"
+	.string "- PINSIR(NV:18): 2500\l"
+	.string "- DRATINI(NV:18): 2800\l"
+	.string "- MT.COLA FÉRREA: 3500\l"
+	.string "- MT.RAYO/R.HIELO/LANZALL: 4000\l"
+	.string "- MT.BOLA SOMBRA: 4500\l"
+	.string "- SCYTHER (NV:25): 5500\l"
+	.string "- PORYGON (NV:26): 9999\l"
+	.string "- FÓSIL DOMO/HÉLIX: 15000\l"
+	.string "- ÁMBAR VIEJO: 22500\p"
+	.string "Nota: 1 ficha equivale a 20 POKÉS.$"

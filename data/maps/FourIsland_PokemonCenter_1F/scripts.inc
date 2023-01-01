@@ -50,3 +50,18 @@ FourIsland_PokemonCenter_Text_4:
 .string "sobre eso.\p"
 .string "Dijeron que habían encontrado\n"
 .string "HUEVOS en la propia GUARDERÍA.$"
+
+
+
+FourIslandPokemonCenterDocumento_100::
+msgbox FourIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN   
+end
+
+FourIslandPokemonCenterDocumento_Text_100:
+.string "Un DIARIO POKéMON de hace\n"
+	.string "unos años...\p"
+	.string "¡Especial sobre el CONCURSO\n"
+	.string "del DIARIO POKéMON!\p"
+	.string "¡La campeona de la edición de\n"
+	.string "primavera del CONCURSO POKéMON\l"
+	.string "es DALIA OAK, de PUEBLO PALETA!$"
