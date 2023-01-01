@@ -180,3 +180,195 @@ AzaleaTownDocumento_Text_105:
 	.string "de SLOWPOKE invoca la lluvia.\l"
 	.string "Hace 400 años un BOSTEZO de\l"
 	.string "SLOWPOKE acabó con una sequía.$"
+
+
+
+AzaleaTownDocumento_106::
+lock      
+playmoncry SPECIES_SLOWPOKE, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_106, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTownDocumento_Text_106:
+.string "...\n"
+	.string "...\l"
+	.string "(Está holgazaneando).$"
+
+
+
+AzaleaTownDocumento_107::
+lock      
+playmoncry SPECIES_SLOWBRO, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_107, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTownDocumento_Text_107:
+.string "...\n"
+	.string "...\l"
+	.string "(Está holgazaneando).$"
+
+
+
+AzaleaTownDocumento_108::
+lock      
+playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_108, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTownDocumento_Text_108:
+.string "PIDGEOT: ¡Bi bibii!$"
+
+
+
+AzaleaTownDocumento_109::
+lock      
+playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_109, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTownDocumento_Text_109:
+.string "MOLTRES: Trees!$"
+
+
+
+AzaleaTownDocumento_110::
+lock    
+faceplayer  
+playmoncry SPECIES_MACHOP, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_110, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_110:
+.string "MACHOP: ¡Chop! ¡Chop!$"
+
+
+
+AzaleaTownDocumento_111::
+lock    
+faceplayer  
+playmoncry SPECIES_POLIWRATH, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_111, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_111:
+.string "POLIWRATH: ¡Poli, poli!$"
+
+
+AzaleaTownDocumento_112::
+lock    
+faceplayer  
+playmoncry SPECIES_DODUO, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_112, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_112:
+.string "DODUO: ¡Dodu, odudodu!$"
+
+
+
+AzaleaTownDocumento_113::
+lock    
+playmoncry SPECIES_CLEFAIRY, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_113, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTownDocumento_Text_113:
+.string "CLEFAIRY: ¡¡faaa!!$"
+
+
+
+AzaleaTownDocumento_114::
+lock    
+faceplayer
+playmoncry SPECIES_PIKACHU, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_114, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_114:
+.string "PIKACHU: ¡¡Pikaaa!!$"
+
+
+
+AzaleaTownDocumento_115::
+lock   
+faceplayer   
+playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_115, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_115:
+.string "PIDGEOT: ¡Bi bibii!$"
+
+
+
+AzaleaTownDocumento_116::
+lock   
+faceplayer   
+playmoncry SPECIES_SPEAROW, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_116, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_116:
+.string "SPEAROW: ¡¡Roooooww!!$"
+
+
+
+AzaleaTownDocumento_117::
+lock   
+faceplayer   
+playmoncry SPECIES_PIDGEY, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_117, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_117:
+.string "PIDGEY: ¡¡Geyyyyy!!$"
+
+
+
+AzaleaTownDocumento_118::
+lock   
+faceplayer   
+playmoncry SPECIES_MILTANK, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_118, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_118:
+.string "MILTANK: ¡¡Taaank!!$"
+
+
+
+AzaleaTownDocumento_119::
+lock    
+playmoncry SPECIES_MILTANK, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_119, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaTownDocumento_Text_119:
+.string "MILTANK: ¡¡Taaank!!$"
+
+
+
+AzaleaTownDocumento_120::
+lock    
+faceplayer
+playmoncry SPECIES_MEOWTH, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_120, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_120:
+.string "MEOWTH: ¡meowth!$"

@@ -192,8 +192,8 @@
       "dest_warp_id": 1
     },
     {
-      "x": 24,
-      "y": 5,
+      "x": 21,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_ROUTE27",
       "dest_warp_id": 0
