@@ -223,8 +223,8 @@ CinnabarMansionS2Documento_Text_106:
 	.string "formidables, pero inviables para\l"
 	.string "experimentar con ellos y poner en\l"
 	.string "práctica modificaciones que puedan\l"
-	.string "incrementar su ya de por si vasto\l"
-	.string "poder, en cambio, MEW es otra\l"
+	.string "incrementar su ya de por sí vasto\l"
+	.string "poder. En cambio, MEW es otra\l"
 	.string "historia, posee la mejor base\l"
 	.string "genética, tanto por maleabilidad\l"
 	.string "como por posibles combinaciones,\l"
@@ -234,3 +234,141 @@ CinnabarMansionS2Documento_Text_106:
 	.string "respecto a MEW, pero ni fue la más\l"
 	.string "favorable posible, ni la más\l"
 	.string "óptima.$"
+
+
+
+CinnabarMansionS2Documento_107::
+lock     
+showmonpic SPECIES_METAGROSS, 10, 3  
+playmoncry SPECIES_METAGROSS, CRY_MODE_ENCOUNTER 
+msgbox CinnabarMansionS2Documento_Text_107, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CinnabarMansionS2Documento_107No
+msgbox CinnabarMansionS2Documento_Text_107Yes, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CinnabarMansionS2Documento_107No
+msgbox CinnabarMansionS2Documento_Text_107Yes2, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CinnabarMansionS2Documento_107No
+msgbox CinnabarMansionS2Documento_Text_107Yes3, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CinnabarMansionS2Documento_107No
+msgbox CinnabarMansionS2Documento_Text_107Yes4, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CinnabarMansionS2Documento_107No
+msgbox CinnabarMansionS2Documento_Text_107Yes5, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+CinnabarMansionS2Documento_Text_107:
+.string "METAGROSS Y EL GRAN ENGAÑO DE\n"
+	.string "DEVON EN HOENN:\l"
+	.string "...\l"
+	.string "...\l"
+	.string "Bien es sabido que el\l"
+	.string "PSEUDOLEGENDARIO característico de\l"
+	.string "HOENN es SALAMENCE, dragón que\l"
+	.string "refleja el poder contenido en un\l"
+	.string "lugar como la CASCADA METEORO, de\l"
+	.string "un poder similar a DRAGONITE.\l"
+	.string "Sin embargo, podemos encontrar en\l"
+	.string "HOENN otro POKÉMON con\l"
+	.string "características de\l"
+	.string "PSEUDOLEGENDARIO, y no es otro que\l"
+	.string "METAGROSS.$"
+
+CinnabarMansionS2Documento_Text_107YesNo:
+.string "¿Seguir leyendo?$"
+
+CinnabarMansionS2Documento_107No::
+hidemonpic
+release
+end
+
+CinnabarMansionS2Documento_Text_107Yes:
+    .string "HOENN es la única región en la que\n"
+	.string "esto ocurre, 2 pseudolegendarios\l"
+	.string "compartiendo terreno, algunos\l"
+	.string "achacan esta casualidad a la\l"
+	.string "enorme variedad de fauna y flora\l"
+	.string "que podemos encontrar en HOENN, no\l"
+	.string "obstante, la biología de la línea\l"
+	.string "evolutiva de METAGROSS poco o nada\l"
+	.string "tiene que ver con esta fauna y\l"
+	.string "flora, y nuestras últimas\l"
+	.string "investigaciones apuntan a que los\l"
+	.string "motivos de la existencia de 2\l"
+	.string "pseudolegendarios en una misma\l"
+	.string "región son otros.$"
+
+
+
+CinnabarMansionS2Documento_Text_107Yes2:
+.string "DEVON S.A. es la SILPH S.A. de\n"
+	.string "HOENN, sin embargo, jamás ha hecho\l"
+	.string "públicos logros de mayor\l"
+	.string "trascendencia que POKÉ BALLS como\l"
+	.string "la MALLA BALL, BUCEO BALL, ACOPIO\l"
+	.string "BALL o TURNO BALL, además del\l"
+	.string "POKÉNAV, cuando sabemos que cuenta\l"
+	.string "con recursos y capacidad para, al\l"
+	.string "igual que SILPH, crear un POKÉMON\l"
+	.string "artificial estilo PORYGON.$"
+
+
+
+CinnabarMansionS2Documento_Text_107Yes3:
+    .string "Es aquí donde entra el hijo del\n"
+	.string "PRESIDENTE de DEVON: MÁXIMO, y sus\l"
+	.string "pretensiones de ser reconocido\l"
+	.string "como el mejor ENTRENADOR de HOENN\l"
+	.string "al tiempo que un erudito de los\l"
+	.string "FÓSILES, no obstante, ARMALDO y\l"
+	.string "CRADILY no son suficientes para\l"
+	.string "coronarse CAMPEÓN, y es aquí donde\l"
+	.string "entra la creación de un POKÉMON a\l"
+	.string "la carta por parte de DEVON para\l"
+	.string "asegurar a MÁXIMO la jerarquía\l"
+	.string "suficiente como para ser CAMPEÓN.$"
+
+
+
+CinnabarMansionS2Documento_Text_107Yes4:
+.string "No existe ni un solo BELDUM en\n"
+	.string "todo HOENN excepto el METAGROSS de\l"
+	.string "MÁXIMO, el cual tiene muchos, pero\l"
+	.string "jamás habló de su lugar de\l"
+	.string "procedencia, las características y\l"
+	.string "constitución de su línea\l"
+	.string "evolutiva, comenzando por un\l"
+	.string "BELDUM que solo puede aprender un\l"
+	.string "movimiento (DERRIBO, cualidad que\l"
+	.string "en estado salvaje hubiera\l"
+	.string "propiciado su extinción al no\l"
+	.string "contar con variedad de\l"
+	.string "alternativas con qué defenderse),\l"
+	.string "hasta terminar con un METAGROS de\l"
+	.string "constitución fría, robótica y\l"
+	.string "calculadora, además de una\l"
+	.string "combinación de tipos\l"
+	.string "sospechosamente favorable, como si\l"
+	.string "hubiera sido introducida a la\l"
+	.string "carta.$"
+
+
+
+CinnabarMansionS2Documento_Text_107Yes5:
+.string "De confirmarse todo esto,\n"
+	.string "estaríamos ante el verdadero\l"
+	.string "primer POKÉMON modificado por el\l"
+	.string "hombre, con tal nivel de éxito que\l"
+	.string "logró replicar el poder de todo un\l"
+	.string "PSEUDOLEGENDARIO, haciéndose pasar\l"
+	.string "por ello y siendo considerado por\l"
+	.string "todos como tal.$"
