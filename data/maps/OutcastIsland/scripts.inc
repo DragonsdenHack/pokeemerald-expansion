@@ -73,3 +73,17 @@ OutcastIsland_EventScript_Pescador::
 	trainerbattle_single TRAINER_CRISTIAN, OutcastIsland_Text_PescadorIntro, OutcastIsland_Text_PescadorDefeated
 	msgbox OutcastIsland_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+OutcastIsland_EventScript_Pareja1::
+	trainerbattle_single TRAINER_ATHENA, OutcastIsland_Text_Pareja1Intro, OutcastIsland_Text_Pareja1Defeated
+	msgbox OutcastIsland_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+OutcastIsland_EventScript_Pareja2::
+	trainerbattle_single TRAINER_ATHENA, OutcastIsland_Text_Pareja2Intro, OutcastIsland_Text_Pareja2Defeated
+	msgbox OutcastIsland_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

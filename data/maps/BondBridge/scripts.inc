@@ -90,3 +90,17 @@ BondBridgeDocumento_Text_101:
 	.string "PUENTE UNIÓN\n"
 	.string "Crucen con cuidado.\p"
 	.string "HACIA EL BOSQUE BAYA$"
+
+
+
+BondBridge_EventScript_Pareja1::
+	trainerbattle_single TRAINER_SOPHIA, BondBridge_Text_Pareja1Intro, BondBridge_Text_Pareja1Defeated
+	msgbox BondBridge_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+BondBridge_EventScript_Pareja2::
+	trainerbattle_single TRAINER_SOPHIA, BondBridge_Text_Pareja2Intro, BondBridge_Text_Pareja2Defeated
+	msgbox BondBridge_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

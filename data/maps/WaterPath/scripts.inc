@@ -122,3 +122,17 @@ end
 
 WaterPathDocumento_Text_101:
 .string "¡Se busca el cuerno definitivo!$"
+
+
+
+WaterPath_EventScript_Pareja1::
+	trainerbattle_single TRAINER_TERRY, WaterPath_Text_Pareja1Intro, WaterPath_Text_Pareja1Defeated
+	msgbox WaterPath_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+WaterPath_EventScript_Pareja2::
+	trainerbattle_single TRAINER_TERRY, WaterPath_Text_Pareja2Intro, WaterPath_Text_Pareja2Defeated
+	msgbox WaterPath_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

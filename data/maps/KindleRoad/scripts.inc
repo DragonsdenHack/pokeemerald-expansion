@@ -234,3 +234,17 @@ end
 KindleRoadDocumento_Text_101:
 	.string "CAMINO CANDENTE.\n"
 	.string "Al norte el MT.ASCUAS.$"
+
+
+
+KindleRoad_EventScript_Pareja1::
+	trainerbattle_single TRAINER_JACKSON_5, KindleRoad_Text_Pareja1Intro, KindleRoad_Text_Pareja1Defeated
+	msgbox KindleRoad_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+KindleRoad_EventScript_Pareja2::
+	trainerbattle_single TRAINER_JACKSON_5, KindleRoad_Text_Pareja2Intro, KindleRoad_Text_Pareja2Defeated
+	msgbox KindleRoad_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

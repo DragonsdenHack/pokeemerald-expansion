@@ -16218,3 +16218,286 @@ VictoryRoad3F_Text_Pareja2Defeated:
 VictoryRoad3F_Text_Pareja2PostBattle:
 	.string "TULA: De ti he aprendido la\n"
 	.string "verdadera dimensión de la fuerza.$"
+
+
+
+KindleRoad_Text_Pareja1Intro:
+	.string "FER: ¡Junto a PÍA no tengo miedo\n"
+	.string "de nada!$"
+
+
+
+KindleRoad_Text_Pareja1Defeated:
+	.string "FER: ¡Buaaaah, eres demasiado!$"
+
+
+
+KindleRoad_Text_Pareja1PostBattle:
+	.string "FER: ¿Cómo ha podido fallar\n"
+	.string "nuestro equipo?$"
+
+
+KindleRoad_Text_Pareja2Intro:
+	.string "PÍA: ¡Mi hermano mayor y yo\n"
+	.string "hacemos un equipo increíble!$"
+
+
+
+KindleRoad_Text_Pareja2Defeated:
+	.string "PÍA: ¡No me lo puedo creer!$"
+
+
+
+KindleRoad_Text_Pareja2PostBattle:
+	.string "PÍA: ¿Cómo puede haber alguien\n"
+	.string "mejor que mi hermano?$"
+
+
+
+BondBridge_Text_Pareja1Intro:
+	.string "FELI: Te vamos a enseñar cuál es\n"
+	.string "nuestro POKéMON preferido.$"
+
+
+
+BondBridge_Text_Pareja1Defeated:
+	.string "FELI: Oh..., MATI...$"
+
+
+
+BondBridge_Text_Pareja1PostBattle:
+	.string "FELI: Bueno, me lo he pasado bien.\n"
+	.string "Espero que podamos repetirlo.$"
+
+
+BondBridge_Text_Pareja2Intro:
+	.string "MATI: Te vamos a enseñar cuál es\n"
+	.string "nuestro POKéMON favorito.$"
+
+
+BondBridge_Text_Pareja2Defeated:
+	.string "MATI: Oh..., FELI...$"
+
+
+BondBridge_Text_Pareja2PostBattle:
+	.string "MATI: Con un POKéMON no tienes\n"
+	.string "nada que hacer.\p"
+	.string "Para eso, lucho con FELI.$"
+
+
+Route14_Text_Pareja1Intro:
+	.string "KIRI: JAN, ¡intentémoslo con todas\n"
+	.string "nuestras fuerzas!$"
+
+
+
+Route14_Text_Pareja1Defeated:
+	.string "KIRI: Sniff...\n"
+	.string "¿De verdad perdimos?$"
+
+
+
+Route14_Text_Pareja1PostBattle:
+	.string "KIRI: ¿Perdimos por mi culpa?$"
+
+
+
+Route14_Text_Pareja2Intro:
+	.string "JAN: ¡KIRI, allá vamos!\n"
+	.string "¡Lo daremos todo!$"
+
+
+
+Route14_Text_Pareja2Defeated:
+	.string "JAN: ¡Eeeeh!\n"
+	.string "¡No es justo!$"
+
+
+
+Route14_Text_Pareja2PostBattle:
+	.string "JAN: ¡No llores KIRI!\n"
+	.string "Lo volveremos a intentar la\l"
+	.string "próxima vez.$"
+
+
+
+WaterPath_Text_Pareja1Intro:
+	.string "MARU: ¡Queridos POKéMON!\n"
+	.string "¡Vamos a jugar!$"
+
+
+
+WaterPath_Text_Pareja1Defeated:
+	.string "MARU: ¡Nooooo!\n"
+	.string "¡Mamiiiiiii!$"
+
+
+
+WaterPath_Text_Pareja1PostBattle:
+	.string "MARU: Cuando pierdo me pongo\n"
+	.string "muy triste...$"
+
+
+
+WaterPath_Text_Pareja2Intro:
+	.string "MÍA: ¡Queridos POKéMON!\n"
+	.string "¡Vamos a luchar!$"
+
+
+
+WaterPath_Text_Pareja2Defeated:
+	.string "MÍA: ¡Hay que ver cómo eres!\n"
+	.string "¡No está bien que ganes!$"
+
+
+
+WaterPath_Text_Pareja2PostBattle:
+	.string "MÍA: Ooooh...\n"
+	.string "Lo siento, queridos POKéMON...$"
+
+
+
+OutcastIsland_Text_Pareja1Intro:
+	.string "ALI: ¡Vamos a echarnos un combate\n"
+	.string "disfrutando de la brisa marina!$"
+
+
+
+OutcastIsland_Text_Pareja1Defeated:
+	.string "ALI: ¡Eres increíble! ¡Además\n"
+	.string "no te hace falta nadie de apoyo!$"
+
+
+
+OutcastIsland_Text_Pareja1PostBattle:
+	.string "ALI: Prefiero mil veces el mar\n"
+	.string "antes que la piscina.$"
+
+
+
+OutcastIsland_Text_Pareja2Intro:
+	.string "ROS: Hermanita, ¡ayuda!\n"
+	.string "¡Lucha conmigo!$"
+
+
+
+OutcastIsland_Text_Pareja2Defeated:
+	.string "ROS: Hermanita, ¡qué fuerte es!$"
+
+
+
+OutcastIsland_Text_Pareja2PostBattle:
+	.string "ROS: Yo me agarro a mi hermanita,\n"
+	.string "porque no hago pie.$"
+
+
+
+CanyonEntrance_Text_Pareja1Intro:
+	.string "ELE: Yo formo equipo con RUS\n"
+	.string "para luchar.$"
+
+
+
+CanyonEntrance_Text_Pareja1Defeated:
+	.string "ELE: Pues hemos perdido RUS\n"
+	.string "y yo, je.$"
+
+
+
+CanyonEntrance_Text_Pareja1PostBattle:
+	.string "ELE: Tengo que entrenarme más con\n"
+	.string "RUS.$"
+
+
+
+CanyonEntrance_Text_Pareja2Intro:
+	.string "RUS: Cuando estoy con ELE,\n"
+	.string "creo que no voy a perder nunca.$"
+
+
+
+CanyonEntrance_Text_Pareja2Defeated:
+	.string "RUS: Cuando estoy con ELE,\n"
+	.string "no tengo sensación de derrota.$"
+
+
+
+CanyonEntrance_Text_Pareja2PostBattle:
+	.string "RUS: Cuando estoy con ELE,\n"
+	.string "me da igual ganar o perder.\p"
+	.string "¡Es una sensación inexplicable!$"
+
+
+
+SevaultCanyon_Text_Pareja1Intro:
+	.string "LINO: Mi adorada ABA, ¡no hay\n"
+	.string "nadie que pueda con nosotros!$"
+
+
+
+SevaultCanyon_Text_Pareja1Defeated:
+	.string "LINO: Me parece que he bajado\n"
+	.string "la guardia...$"
+
+
+
+SevaultCanyon_Text_Pareja1PostBattle:
+	.string "LINO: Creo que ha sido una buena\n"
+	.string "experiencia para ABA. Gracias.$"
+
+
+
+SevaultCanyon_Text_Pareja2Intro:
+	.string "ABA: Me esforzaré mucho para no\n"
+	.string "defraudar a mi maestro LINO.$"
+
+
+
+SevaultCanyon_Text_Pareja2Defeated:
+	.string "ABA: Oooh... Lo siento...$"
+
+
+
+SevaultCanyon_Text_Pareja2PostBattle:
+	.string "ABA: Creo que voy a necesitar que\n"
+	.string "LINO me tutele y me oriente más...\p"
+	.string "LINO, ¿te parece bien?...$"
+
+
+
+Route36_Text_Pareja1Intro:
+	.string "ELSA: PAUL y yo vamos a ir a\n"
+	.string "TRIGAL de vacaciones, pero creo\l"
+	.string "que podemos ganar algún combate\l"
+	.string "antes.$"
+
+
+
+Route36_Text_Pareja1Defeated:
+	.string "Oh, no, todo era perfecto.$"
+
+
+
+Route36_Text_Pareja1PostBattle:
+	.string "ELSA: ¿Sabes lo que has hecho?\n"
+	.string "Ahora nuestras vacaciones no\l"
+	.string "sabrán igual de bien.$"
+
+
+
+Route36_Text_Pareja2Intro:
+	.string "PAUL: ¡ELSA, vamos allá!\n"
+	.string "¡Por nuestras vacaciones en\l"
+	.string "TRIGAL!$"
+
+
+
+Route36_Text_Pareja2Defeated:
+	.string "Todo se ha echado a perder...$"
+
+
+
+Route36_Text_Pareja2PostBattle:
+	.string "PAUL: Por tu culpa, a ELSA se le\n"
+	.string "quedará este combate grabado\l"
+	.string "durante las vacaciones.$"

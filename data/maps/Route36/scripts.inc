@@ -134,3 +134,17 @@ end
 Route36Documento_Text_101:
 	.string "RUTA 36\n"
 	.string "Al este CIUDAD MALVA$"
+
+
+
+Route36_EventScript_Pareja1::
+	trainerbattle_single TRAINER_JOHN_AND_JAY_2, Route36_Text_Pareja1Intro, Route36_Text_Pareja1Defeated
+	msgbox Route36_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route36_EventScript_Pareja2::
+	trainerbattle_single TRAINER_JOHN_AND_JAY_2, Route36_Text_Pareja2Intro, Route36_Text_Pareja2Defeated
+	msgbox Route36_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

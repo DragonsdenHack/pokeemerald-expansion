@@ -142,3 +142,17 @@ end
 SevaultCanyonDocumento_Text_100:
 	.string "CAÑÓN SETE\n"
 	.string "RUINAS SETE al sur$"
+
+
+
+SevaultCanyon_EventScript_Pareja1::
+	trainerbattle_single TRAINER_MAXIE_MT_CHIMNEY, SevaultCanyon_Text_Pareja1Intro, SevaultCanyon_Text_Pareja1Defeated
+	msgbox SevaultCanyon_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+SevaultCanyon_EventScript_Pareja2::
+	trainerbattle_single TRAINER_MAXIE_MT_CHIMNEY, SevaultCanyon_Text_Pareja2Intro, SevaultCanyon_Text_Pareja2Defeated
+	msgbox SevaultCanyon_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

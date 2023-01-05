@@ -63,3 +63,17 @@ CanyonEntranceDocumento_Text_100:
 	.string "Se insta a los entrenadores a\l"
 	.string "respetar las plantas de este\l"
 	.string "lugar.$"
+
+
+
+CanyonEntrance_EventScript_Pareja1::
+	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_7, CanyonEntrance_Text_Pareja1Intro, CanyonEntrance_Text_Pareja1Defeated
+	msgbox CanyonEntrance_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+CanyonEntrance_EventScript_Pareja2::
+	trainerbattle_single TRAINER_GRUNT_SPACE_CENTER_7, CanyonEntrance_Text_Pareja2Intro, CanyonEntrance_Text_Pareja2Defeated
+	msgbox CanyonEntrance_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

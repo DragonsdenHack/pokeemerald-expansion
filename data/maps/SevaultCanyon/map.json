@@ -248,15 +248,15 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_F",
-      "x": 14,
+      "x": 13,
       "y": 14,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SevaultCanyon18",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "SevaultCanyon_EventScript_Pareja2",
       "flag": "0"
     },
     {
@@ -267,9 +267,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SevaultCanyon19",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "SevaultCanyon_EventScript_Pareja1",
       "flag": "0"
     },
     {
