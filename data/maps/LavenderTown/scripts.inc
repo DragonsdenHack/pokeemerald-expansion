@@ -97,7 +97,6 @@ LavenderTown_3_Text_3Yes:
 
 
 LavenderTown_3_Text_3No:
-    
 	.string "Hahaha, ya lo sabía.\n"
 	.string "Esa mano blanca detrás de tu\l"
 	.string "hombro no es real.$"

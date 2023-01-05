@@ -138,3 +138,15 @@ end
 Route8Documento_Text_100:
 	.string "ZONA SUBTERRÁNEA\n"
 	.string "CIUDAD AZULONA - PUEBLO LAVANDA$"
+
+Route8_EventScript_Gemela1::
+	trainerbattle_single TRAINER_AMY_AND_LIV_3, Route8_Text_Gemela1Intro, Route8_Text_Gemela1Defeated
+	msgbox Route8_Text_Gemela1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route8_EventScript_Gemela2::
+	trainerbattle_single TRAINER_AMY_AND_LIV_3, Route8_Text_Gemela2Intro, Route8_Text_Gemela2Defeated
+	msgbox Route8_Text_Gemela2PostBattle, MSGBOX_AUTOCLOSE
+	end

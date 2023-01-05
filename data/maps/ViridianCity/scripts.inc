@@ -51,14 +51,6 @@ ViridianCity_Text6:
 .string "¡Seguro que las has robado!$"
 
 
-ViridianCity7::
-end
-
-
-ViridianCity8::
-end
-
-
 ViridianCity9::
 lock     
 faceplayer     
@@ -115,3 +107,40 @@ end
 
 ViridianCityDocumento_Text_103:
 	.string "Gimnasio de CIUDAD VERDE$"
+
+
+
+ViridianCity_7::
+lock
+faceplayer
+msgbox ViridianCity_7_Text_7YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq ViridianCity_7No
+msgbox ViridianCity_7_Text_7Yes, MSGBOX_DEFAULT
+release
+end
+
+
+
+ViridianCity_7_Text_7YesNo:
+    .string "¿Te gustaría conocer acerca de los\n"
+	.string "dos Pokémon insecto?$"
+
+
+ViridianCity_7No::
+msgbox ViridianCity_7_Text_7No, MSGBOX_DEFAULT
+release
+end
+
+
+ViridianCity_7_Text_7Yes:
+    .string "CATERPIE no tiene veneno, pero\n"
+	.string "WEEDLE si.\l"
+	.string "Pon cuidado a que tus Pokémon no\l"
+	.string "sean envenenados por su Picotazo\l"
+	.string "Venenoso.$"
+
+
+
+ViridianCity_7_Text_7No:
+	.string "Oh, vale.$"

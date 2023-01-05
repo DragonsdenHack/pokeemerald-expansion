@@ -113,3 +113,16 @@ end
 Route12Documento_Text_100:
 	.string "RUTA 12\n"
 	.string "Al norte PUEBLO LAVANDA$"
+
+
+Route12_EventScript_Pareja1::
+	trainerbattle_single TRAINER_AMY_AND_LIV_4, Route12_Text_Pareja1Intro, Route12_Text_Pareja1Defeated
+	msgbox Route12_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route12_EventScript_Pareja2::
+	trainerbattle_single TRAINER_AMY_AND_LIV_4, Route12_Text_Pareja2Intro, Route12_Text_Pareja2Defeated
+	msgbox Route12_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

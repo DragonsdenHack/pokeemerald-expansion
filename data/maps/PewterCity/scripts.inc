@@ -110,3 +110,39 @@ PewterCityDocumento_Text_104:
 	.string "Todos los POKÉMON que entren al\l"
 	.string "campo de batalla obtendrán puntos\l"
 	.string "de experiencia.$"
+
+
+
+PewterCity_3::
+lock
+faceplayer
+msgbox PewterCity_3_Text_3YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq PewterCity_3No
+msgbox PewterCity_3_Text_3Yes, MSGBOX_DEFAULT
+release
+end
+
+
+
+PewterCity_3_Text_3YesNo:
+    .string "¡Psssst!\n"
+	.string "¿Sabes qué estoy haciendo?$"
+
+
+PewterCity_3No::
+msgbox PewterCity_3_Text_3No, MSGBOX_DEFAULT
+release
+end
+
+
+PewterCity_3_Text_3Yes:
+    .string "¡Así es!\n"
+	.string "¡Es un duro trabajo!$"
+
+
+
+PewterCity_3_Text_3No:
+	.string "¡Estoy rociando Repelente para\n"
+	.string "mantener a los Pokémon salvajes\l"
+	.string "alejados de mi jardín!$"

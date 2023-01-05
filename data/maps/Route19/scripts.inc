@@ -117,3 +117,17 @@ end
 Route19Documento_Text_100:
 	.string "RUTA MARINA 19\n"
 	.string "CIUDAD FUCSIA - ISLAS ESPUMA$"
+
+
+
+Route19_EventScript_Pareja1::
+	trainerbattle_single TRAINER_EDMOND, Route19_Text_Pareja1Intro, Route19_Text_Pareja1Defeated
+	msgbox Route19_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route19_EventScript_Pareja2::
+	trainerbattle_single TRAINER_EDMOND, Route19_Text_Pareja2Intro, Route19_Text_Pareja2Defeated
+	msgbox Route19_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

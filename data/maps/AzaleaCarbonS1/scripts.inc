@@ -118,3 +118,45 @@ AzaleaCarbonS1_EventScript_Obrero2::
 	trainerbattle_single TRAINER_TRAINER_107, AzaleaCarbonS1_Text_Obrero2Intro, AzaleaCarbonS1_Text_Obrero2Defeated
 	msgbox AzaleaCarbonS1_Text_Obrero2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+AzaleaCarbonS1_EventScript_ReceiveHelioptile::
+lock
+    faceplayer
+	goto_if_set FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG, AzaleaCarbonS1_EventScript_PostHelioptile
+	msgbox AzaleaCarbonS1_Text_TakeHelioptile, MSGBOX_DEFAULT
+	playfanfare MUS_OBTAIN_TMHM
+	msgbox AzaleaCarbonS1_Text_MensajeHelioptile, MSGBOX_DEFAULT
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	givemon SPECIES_HELIOPTILE, 15, ITEM_ELECTRIC_GEM
+	waitfanfare
+	end
+
+
+
+AzaleaCarbonS1_Text_TakeHelioptile:
+.string "Vengo de una lejana región, JOHTO no\n"
+	.string "para de contratar a especialistas de\l"
+	.string "fuera, en todos los ámbitos. Mira, te\l"
+	.string "daré este POKÉMON como prueba.$"
+
+
+
+AzaleaCarbonS1_Text_MensajeHelioptile:
+.string "¡OBTUVISTE UN HELIOPTILE AL NV.15!$"
+
+
+
+
+AzaleaCarbonS1_EventScript_PostHelioptile::
+lock     
+faceplayer     
+msgbox AzaleaCarbonS1_Text_6, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaCarbonS1_Text_6:
+.string "HELIOPTILE es de mis compañeros de\n"
+	.string "trabajo favoritos, aquí es imposible\l"
+	.string "encontrar uno. Supongo que es esa\l"
+	.string "variedad la que buscan los que me\l"
+	.string "contrataron.$"

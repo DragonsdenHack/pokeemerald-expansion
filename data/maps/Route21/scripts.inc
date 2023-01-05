@@ -37,3 +37,17 @@ Route21_EventScript_Nadador::
 	trainerbattle_single TRAINER_MAURA, Route21_Text_NadadorIntro, Route21_Text_NadadorDefeated
 	msgbox Route21_NadadorPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+Route21_EventScript_Pareja1::
+	trainerbattle_single TRAINER_ERNEST_1, Route21_Text_Pareja1Intro, Route21_Text_Pareja1Defeated
+	msgbox Route21_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route21_EventScript_Pareja2::
+	trainerbattle_single TRAINER_ERNEST_1, Route21_Text_Pareja2Intro, Route21_Text_Pareja2Defeated
+	msgbox Route21_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

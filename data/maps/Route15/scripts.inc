@@ -120,3 +120,17 @@ end
 Route15Documento_Text_100:
 	.string "RUTA 15\n"
 	.string "Al oeste CIUDAD FUCSIA$"
+
+
+
+Route15_EventScript_Pareja1::
+	trainerbattle_single TRAINER_AMY_AND_LIV_6, Route15_Text_Pareja1Intro, Route15_Text_Pareja1Defeated
+	msgbox Route15_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route15_EventScript_Pareja2::
+	trainerbattle_single TRAINER_AMY_AND_LIV_6, Route15_Text_Pareja2Intro, Route15_Text_Pareja2Defeated
+	msgbox Route15_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

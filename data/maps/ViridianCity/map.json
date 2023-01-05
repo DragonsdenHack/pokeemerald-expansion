@@ -105,7 +105,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "ViridianCity7",
+      "script": "NULL",
       "flag": "0"
     },
     {
@@ -113,12 +113,12 @@
       "x": 33,
       "y": 26,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "ViridianCity8",
+      "script": "ViridianCity_7",
       "flag": "0"
     },
     {

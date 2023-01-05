@@ -66,3 +66,17 @@ VictoryRoad3F_EventScript_Guay4::
 	trainerbattle_single TRAINER_NICOLAS_3, VictoryRoad3F_Text_Guay4Intro, VictoryRoad3F_Text_Guay4Defeated
 	msgbox VictoryRoad3F_Text_Guay4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+
+VictoryRoad3F_EventScript_Pareja1::
+	trainerbattle_single TRAINER_GINA_AND_MIA_2, VictoryRoad3F_Text_Pareja1Intro, VictoryRoad3F_Text_Pareja1Defeated
+	msgbox VictoryRoad3F_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+VictoryRoad3F_EventScript_Pareja2::
+	trainerbattle_single TRAINER_GINA_AND_MIA_2, VictoryRoad3F_Text_Pareja2Intro, VictoryRoad3F_Text_Pareja2Defeated
+	msgbox VictoryRoad3F_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -173,3 +173,17 @@ end
 Route16Documento_Text_101:
 	.string "¡Disfruta de la pendiente!\n"
 	.string "CAMINO BICIS$"
+
+
+
+Route16_EventScript_Pareja1::
+	trainerbattle_single TRAINER_HUEY, Route16_Text_Pareja1Intro, Route16_Text_Pareja1Defeated
+	msgbox Route16_Text_Pareja1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route16_EventScript_Pareja2::
+	trainerbattle_single TRAINER_HUEY, Route16_Text_Pareja2Intro, Route16_Text_Pareja2Defeated
+	msgbox Route16_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
+	end

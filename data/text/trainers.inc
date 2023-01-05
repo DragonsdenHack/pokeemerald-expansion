@@ -15959,3 +15959,262 @@ AzaleaCarbonS2_Text_Obrero3PostBattle:
 	.string "¡Espera! ¿Combatiste con ZAPDOS y\n"
 	.string "también con RAIKOU? ¿Cómo es estar en\l"
 	.string "presencia de tales POKÉMON?$"
+
+
+
+Route8_Text_Gemela1Intro:
+    .string "ANNE: ¡Vamos a dejarte\n"
+	.string "impresionado con el poder de\l"
+	.string "nuestra unión!$"
+
+
+
+Route8_Text_Gemela1Defeated:
+    .string "ANNE: El poder de nuestra unión...$"
+
+
+
+Route8_Text_Gemela1PostBattle:
+    .string "ANNE: Estoy entrenando POKÉMON con\n"
+	.string "ELI.$"
+
+
+
+Route8_Text_Gemela2Intro:
+    .string "ELI: La unión entre gemelas es\n"
+	.string "fantástica, ¿lo sabías?$"
+
+
+
+Route8_Text_Gemela2Defeated:
+.string "ELI: Pero...\n"
+	.string "Usamos nuestra conexión entre\l"
+	.string "gemelas...$"
+
+
+
+Route8_Text_Gemela2PostBattle:
+    .string "ELI: ¡Capturé a mi POKÉMON con\n"
+	.string "ANNE!$"
+
+
+
+Route16_Text_Pareja1Intro:
+    .string "LEA: A veces me asusta la\n"
+	.string "intensidad de nuestro amor.$"
+
+
+
+Route16_Text_Pareja1Defeated:
+    .string "LEA: ¡Ohh!\n"
+	.string "¡Pero Jed se ve tan mono aún\l"
+	.string "cuando pierde!$"
+
+
+
+Route16_Text_Pareja1PostBattle:
+    .string "LEA: A veces me asusta la\n"
+	.string "intensidad de nuestro amor.$"
+
+
+
+Route16_Text_Pareja2Intro:
+    .string "JED: Nuestro amor no tiene\n"
+	.string "cadenas.\l"
+	.string "¡Te lo vamos a demostrar!$"
+
+
+
+Route16_Text_Pareja2Defeated:
+    .string "JED: ¡Oh, no!\n"
+	.string "¡Mi amor me ha visto como un\l"
+	.string "perdedor!$"
+
+
+
+Route16_Text_Pareja2PostBattle:
+    .string "JED: Escucha, Lea.\n"
+	.string "Tienes que centrarte menos en mi.$"
+
+
+
+Route12_Text_Pareja1Intro:
+    .string "JES: Si gano, le propondré\n"
+	.string "matrimonio a Gia.$"
+
+
+
+Route12_Text_Pareja1Defeated:
+    .string "JES: Oh, vamos, ¿por qué no nos\n"
+	.string "dejaste ganar?$"
+
+
+
+Route12_Text_Pareja1PostBattle:
+    .string "JES: Oh, Gia, ¡perdóname mi amor!$"
+
+
+
+Route12_Text_Pareja2Intro:
+    .string "GIA: Hey, Jes...\n"
+	.string "Si ganamos, ¡me casaré contigo!$"
+
+
+
+Route12_Text_Pareja2Defeated:
+    .string "GIA: Oh, ¿pero por qué?$"
+
+
+
+Route12_Text_Pareja2PostBattle:
+    .string "GIA: ¡Has estropeado todos\n"
+	.string "nuestros planes!$"
+
+
+
+Route15_Text_Pareja1Intro:
+    .string "RON: Mi hermana se pone furiosa\n"
+	.string "cuando perdemos.$"
+
+
+
+Route15_Text_Pareja1Defeated:
+    .string "RON: Oh, no, no...\n"
+	.string "¡Hermana, lo siento!$"
+
+
+
+Route15_Text_Pareja1PostBattle:
+    .string "RON: Si tuviera una hermana\n"
+	.string "mejor...$"
+
+
+
+Route15_Text_Pareja2Intro:
+    .string "MYA: Perfecto.\n"
+	.string "¡Ayúdame a entrenar a mi hermano\l"
+	.string "pequeño!$"
+
+
+
+Route15_Text_Pareja2Defeated:
+    .string "MYA: ¡Ron tienes que concentrarte!\n"
+	.string "¡Concéntrate en lo que estás\l"
+	.string "haciendo!$"
+
+
+
+Route15_Text_Pareja2PostBattle:
+    .string "MYA: Muy bien le daremos la vuelta\n"
+	.string "a esto.\l"
+	.string "¡Te añadiré en mi lista de\l"
+	.string "entrenamiento!$"
+
+
+
+Route21_Text_Pareja1Intro:
+    .string "LIL: ¿Huh?\n"
+	.string "¿Una batalla?\l"
+	.string "Ian, ¿puedes hacerlo solo?$"
+
+
+
+Route21_Text_Pareja1Defeated:
+    .string "LIL: ¿Oh, ves?\n"
+	.string "Perdimo. ¿Contento?$"
+
+
+
+Route21_Text_Pareja1PostBattle:
+    .string "LIL: Estoy cansada.\n"
+	.string "¿Podemos volver a casa?$"
+
+
+
+Route21_Text_Pareja2Intro:
+    .string "IAN: A mi hermana no le gusta\n"
+	.string "hacer mucho ejercicio, así que le\l"
+	.string "hice venir.$"
+
+
+
+Route21_Text_Pareja2Defeated:
+    .string "IAN: ¡Awww, hermana!\n"
+	.string "¡Perdimos juntos!$"
+
+
+
+Route21_Text_Pareja2PostBattle:
+    .string "IAN: ¡Vamos hermana!\n"
+	.string "¡Así nunca vas a perder peso!$"
+
+
+
+Route19_Text_Pareja1Intro:
+.string "LIA: Estoy cuidando de mi hermano,\n"
+	.string "quiere ser entrenador.$"
+
+
+Route19_Text_Pareja1Defeated:
+    .string "LIA: ¡Esa no es forma de tratar a\n"
+	.string "mi hermano pequeño!$"
+
+
+
+Route19_Text_Pareja1PostBattle:
+    .string "LIA: ¿Tienes algún hermano menor?\n"
+	.string "¡Espero que le estés enseñando\l"
+	.string "todo este tipo de cosas!$"
+
+
+
+Route19_Text_Pareja2Intro:
+    .string "LUC: Mi hermana mayor me enseñó\n"
+	.string "cómo nadar y entrenar Pokémon.$"
+
+
+
+Route19_Text_Pareja2Defeated:
+    .string "LUC: ¡Oh, wow!\n"
+	.string "¡Hay alguien más duro que mi\l"
+	.string "hermana mayor!$"
+
+
+
+Route19_Text_Pareja2PostBattle:
+.string "LUC: Mi hermana mayor es fuerte y\n"
+	.string "guay.\l"
+	.string "¡Es increíble!$"
+
+
+VictoryRoad3F_Text_Pareja1Intro:
+	.string "DESI: ¡Juntos lucharemos contra\n"
+	.string "quien sea!$"
+
+
+VictoryRoad3F_Text_Pareja1Defeated:
+	.string "DESI: ¡No me lo puedo creer!$"
+
+
+VictoryRoad3F_Text_Pareja1PostBattle:
+	.string "DESI: Acabaríamos contigo\n"
+	.string "en un abrir y cerrar de ojos.\p"
+	.string "Para luchar con nosotros, hay\n"
+	.string "que tener dos POKéMON.$"
+
+
+
+VictoryRoad3F_Text_Pareja2Intro:
+    .string "TULA: ¡Tenemos intención de\n"
+	.string "convertirnos en campeones!$"
+
+
+
+VictoryRoad3F_Text_Pareja2Defeated:
+	.string "TULA: Eh..., en fin...$"
+
+
+
+VictoryRoad3F_Text_Pareja2PostBattle:
+	.string "TULA: De ti he aprendido la\n"
+	.string "verdadera dimensión de la fuerza.$"
