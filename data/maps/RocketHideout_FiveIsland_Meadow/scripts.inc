@@ -75,7 +75,26 @@ RocketHideoutFiveIslandMeadow_Text_15:
 
 
 RocketHideoutFiveIslanMeadow16::
+lock
+faceplayer
+checkmoncatch SPECIES_MAGIKARP
+goto_if_eq VAR_RESULT, FALSE, MagikarpSi
+msgbox MagikarpNo, MSGBOX_DEFAULT
+release
 end
+
+MagikarpSi::
+msgbox MagikarpSi_Text MSGBOX_DEFAULT
+givemon SPECIES_MAGIKARP, 5, ITEM_NONE
+release
+end 
+
+MagikarpSi_Text:
+.string "Toma un MAGIKARP"
+.string "$"
+
+MagikarpNo:
+.string "¡No te doy nada!$"
 
 
 RocketHideoutFiveIslanMeadow17::
