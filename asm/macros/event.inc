@@ -997,6 +997,13 @@
 	.byte 0
 	.endm
 
+	@ Gives the player a Pokémon of the specified species and level, holding the specified item. The trailing 0s are unused parameters.
+	@ VAR_RESULT will be set to MON_GIVEN_TO_PARTY, MON_GIVEN_TO_PC, or MON_CANT_GIVE depending on the outcome. 
+	.macro checkmoncatch species:req
+	.byte 0xe3
+	.2byte \species
+	.endm
+
 	@ Gives the player an Egg of the specified species.
 	@ VAR_RESULT will be set to MON_GIVEN_TO_PARTY, MON_GIVEN_TO_PC, or MON_CANT_GIVE depending on the outcome. 
 	.macro giveegg species:req

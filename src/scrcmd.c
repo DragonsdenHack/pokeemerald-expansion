@@ -1695,6 +1695,14 @@ bool8 ScrCmd_givemon(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_checkmoncatch(struct ScriptContext *ctx)
+{
+    u16 species = VarGet(ScriptReadHalfword(ctx));
+    
+    gSpecialVar_Result = ScriptCheckMonCatch(species);
+    return FALSE;
+}
+
 bool8 ScrCmd_giveegg(struct ScriptContext *ctx)
 {
     u16 species = VarGet(ScriptReadHalfword(ctx));

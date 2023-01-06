@@ -58,6 +58,18 @@ void HealPlayerParty(void)
     }
 }
 
+bool8 ScriptCheckMonCatch(u16 species)
+{
+    if (GetSetPokedexFlag(SpeciesToNationalPokedexNum(species), FLAG_GET_CAUGHT))
+    {
+        return TRUE;
+    }else
+    {
+        return FALSE;
+    }
+}
+
+
 u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 unused1, u32 unused2, u8 unused3)
 {
     u16 nationalDexNum;
