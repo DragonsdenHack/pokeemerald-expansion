@@ -120,16 +120,24 @@ AzaleaCarbonS1_EventScript_Obrero2::
 	end
 
 AzaleaCarbonS1_EventScript_ReceiveHelioptile::
-lock
+    lock
     faceplayer
-	goto_if_set FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG, AzaleaCarbonS1_EventScript_PostHelioptile
-	msgbox AzaleaCarbonS1_Text_TakeHelioptile, MSGBOX_DEFAULT
-	playfanfare MUS_OBTAIN_TMHM
-	msgbox AzaleaCarbonS1_Text_MensajeHelioptile, MSGBOX_DEFAULT
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
-	givemon SPECIES_HELIOPTILE, 15, ITEM_ELECTRIC_GEM
-	waitfanfare
+	checkmoncatch SPECIES_HELIOPTILE
+	goto_if_eq VAR_RESULT, FALSE, AzaleaCarbonS1_EventScript_TakeHelioptile 
+	msgbox AzaleaCarbonS1_Text_6, MSGBOX_DEFAULT
+	release
 	end
+
+
+
+AzaleaCarbonS1_EventScript_TakeHelioptile::
+    msgbox AzaleaCarbonS1_Text_TakeHelioptile MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox AzaleaCarbonS1_Text_MensajeHelioptile, MSGBOX_DEFAULT
+	givemon SPECIES_HELIOPTILE, 15, ITEM_ELECTRIC_GEM
+	waitfanfare  
+	release
+	end 
 
 
 
@@ -144,15 +152,6 @@ AzaleaCarbonS1_Text_TakeHelioptile:
 AzaleaCarbonS1_Text_MensajeHelioptile:
 .string "¡OBTUVISTE UN HELIOPTILE AL NV.15!$"
 
-
-
-
-AzaleaCarbonS1_EventScript_PostHelioptile::
-lock     
-faceplayer     
-msgbox AzaleaCarbonS1_Text_6, MSGBOX_DEFAULT
-release     
-end
 
 AzaleaCarbonS1_Text_6:
 .string "HELIOPTILE es de mis compañeros de\n"
