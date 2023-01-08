@@ -1631,3 +1631,45 @@ BaseRocketHoennS2Documento_Text_135:
 	.string "boostearse y golpear duro con RAYO\l"
 	.string "UMBRÍO y 137 en ATAQUE ESPECIAL, es un\l"
 	.string "POKÉMON muy completo y variado.$"
+
+
+
+BaseRocketHoennS2_EventScript_ReceiveShinx::
+    lock
+    faceplayer
+	checkmoncatch SPECIES_SHINX
+	goto_if_eq VAR_RESULT, FALSE, BaseRocketHoennS2_EventScript_TakeShinx 
+	msgbox BaseRocketHoennS2_Text_12, MSGBOX_DEFAULT
+	release
+	end
+
+
+
+BaseRocketHoennS2_EventScript_TakeShinx::
+    msgbox BaseRocketHoennS2_Text_TakeShinx MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox BaseRocketHoennS2_Text_MensajeShinx, MSGBOX_DEFAULT
+	givemon SPECIES_SHINX, 5, ITEM_SALAC_BERRY
+	waitfanfare  
+	release
+	end 
+
+
+
+BaseRocketHoennS2_Text_TakeShinx:
+    .string "Poco puedo aportar a un ENTRENADOR tan\n"
+	.string "completo como tú, ¿no crees? Aún así,\l"
+	.string "toma.$"
+
+
+
+BaseRocketHoennS2_Text_MensajeShinx:
+.string "¡OBTUVISTE UN SHINX AL NV.5!$"
+
+
+BaseRocketHoennS2_Text_12:
+    .string "Es un SHINX, viven en SINOHH, me lo\n"
+	.string "regaló un colaborador que vive allí.\l"
+	.string "SHINX es una versión física de\l"
+	.string "ELECTRIKE, más lento, pero bastante\l"
+	.string "más agresivo y peligroso.$"

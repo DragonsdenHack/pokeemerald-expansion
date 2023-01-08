@@ -45,3 +45,58 @@ DragonsdenS1_Text_4:
 .string "como DRAGONITE!\l"
 .string "¡El mundo POKÉMON fuera del TIPO\l"
 .string "DRAGÓN es tan mediocre!$"
+
+
+
+DragonsdenS1_EventScript_ReceiveDrampa::
+    lock
+    faceplayer
+	checkmoncatch SPECIES_DRAMPA
+	goto_if_eq VAR_RESULT, FALSE, DragonsdenS1_EventScript_TakeDrampa 
+	msgbox DragonsdenS1_Text_2, MSGBOX_DEFAULT
+	release
+	end
+
+
+
+DragonsdenS1_EventScript_TakeDrampa::
+    msgbox DragonsdenS1_Text_TakeDrampa MSGBOX_DEFAULT
+	msgbox DragonsdenS1_Text_TakeDrampa2 MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox DragonsdenS1_Text_MensajeDrampa, MSGBOX_DEFAULT
+	givemon SPECIES_DRAMPA, 50, ITEM_DRAGON_GEM
+	waitfanfare  
+	release
+	end 
+
+
+
+DragonsdenS1_Text_TakeDrampa:
+   .string "Muy pocos son los elegidos a los\n"
+	.string "que se les permite la entrada a\l"
+	.string "este lugar sagrado, debes de ser\l"
+	.string "{PLAYER}.$"
+
+
+
+DragonsdenS1_Text_TakeDrampa2:
+	.string "Que este POKÉMON te llene de\n"
+	.string "sabiduría y compañia en tus\l"
+	.string "viajes.$"
+
+
+
+DragonsdenS1_Text_MensajeDrampa:
+.string "¡OBTUVISTE UN DRAMPA AL NV.50!$"
+
+
+DragonsdenS1_Text_2:
+    .string "DRAMPA es un dragón muy singular.\n"
+	.string "Se centra en el ATAQUE ESPECIAL,\l"
+	.string "símbolo de su gran sabíduría. Es\l"
+	.string "muy lento, pero también de buenas\l"
+	.string "defensas. La GUARIDA DRAGÓN\l"
+	.string "siempre contó con algunos\l"
+	.string "ejemplares en lo más profundo de\l"
+	.string "sus cavernas, espero que sepas\l"
+	.string "guardar el secreto.$"

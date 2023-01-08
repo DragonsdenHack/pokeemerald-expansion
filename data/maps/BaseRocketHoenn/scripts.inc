@@ -1712,3 +1712,43 @@ BaseRocketHoennDocumento_Text_138:
 	.string "perder pegada, da como resultado uno\l"
 	.string "de los POKÉMON más incómodos de\l"
 	.string "enfrentar.$"
+
+
+
+BaseRocketHoenn_EventScript_ReceiveTynamo::
+    lock
+    faceplayer
+	checkmoncatch SPECIES_TYNAMO
+	goto_if_eq VAR_RESULT, FALSE, BaseRocketHoenn_EventScript_TakeTynamo 
+	msgbox BaseRocketHoenn_Text_27, MSGBOX_DEFAULT
+	release
+	end
+
+
+
+BaseRocketHoenn_EventScript_TakeTynamo::
+    msgbox BaseRocketHoenn_Text_TakeTynamo MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox BaseRocketHoenn_Text_MensajeTynamo, MSGBOX_DEFAULT
+	givemon SPECIES_TYNAMO, 25, ITEM_CELL_BATTERY
+	waitfanfare  
+	release
+	end 
+
+
+
+BaseRocketHoenn_Text_TakeTynamo:
+   .string "¿Me creerías si te dijera que existe un\n"
+	.string "POKÉMON sin debilidades? ¿No? ¡Toma!$"
+
+
+
+BaseRocketHoenn_Text_MensajeTynamo:
+.string "¡OBTUVISTE UN TYNAMO AL NV.25!$"
+
+
+BaseRocketHoenn_Text_27:
+    .string "La línea evolutiva de TYNAMO es del\n"
+	.string "TIPO ELÉCTRICO puro, y solapa su única\l"
+	.string "debilidad al TIERRA gracias a\l"
+	.string "LEVITACIÓN. ¿No es increíble?$"

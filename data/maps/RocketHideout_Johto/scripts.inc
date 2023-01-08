@@ -599,3 +599,64 @@ RocketHideoutJohtoDocumento_Text_100:
 	.string ".......\l"
 	.string ".......\l"
 	.string "¡Tiene más de 500 páginas!$"
+
+
+
+RocketHideoutJohto_EventScript_ReceiveRalts::
+    lock
+    faceplayer
+	checkmoncatch SPECIES_RALTS
+	goto_if_eq VAR_RESULT, FALSE, RocketHideoutJohto_EventScript_TakeRalts 
+	msgbox RocketHideoutJohto_Text_19, MSGBOX_DEFAULT
+	release
+	end
+
+
+
+RocketHideoutJohto_EventScript_TakeRalts::
+    msgbox RocketHideoutJohto_Text_TakeRalts MSGBOX_DEFAULT
+	msgbox RocketHideoutJohto_Text_TakeRalts2 MSGBOX_DEFAULT
+	msgbox RocketHideoutJohto_Text_TakeRalts3 MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox RocketHideoutJohto_Text_MensajeRalts, MSGBOX_DEFAULT
+	givemon SPECIES_RALTS, 10, ITEM_PSYCHIC_GEM
+	waitfanfare  
+	release
+	end 
+
+
+
+RocketHideoutJohto_Text_TakeRalts:
+.string "Hay muchos POKÉMON PSÍQUICOS más\n"
+	.string "allá de ALAKAZAM o HYPNO, incluso\l"
+	.string "de los ESPEON o XATU en JOHTO.$"
+
+
+
+RocketHideoutJohto_Text_TakeRalts2:
+	.string "El problema es que KANTO y JOHTO\n"
+	.string "han sido siempre muy cerradas a\l"
+	.string "otras regiones.$"
+
+
+
+RocketHideoutJohto_Text_TakeRalts3:
+	.string "Sin embargo, un colega mío que\n"
+	.string "trabaja en DEVON me regaló una\l"
+	.string "pareja de POKÉMON PSÍQUICOS de\l"
+	.string "HOENN.\l"
+	.string "Dijo que era el ALAKAZAM de esa\l"
+	.string "región, me gustaría que un ROCKET\l"
+	.string "como tú se quedara con uno.$"
+
+
+
+
+RocketHideoutJohto_Text_MensajeRalts:
+.string "¡OBTUVISTE UN RALTS AL NV.10!$"
+
+
+RocketHideoutJohto_Text_19:
+.string "He oído que RALTS cuenta con 2\n"
+	.string "evoluciones finales, una ofensiva\l"
+	.string "FÍSICA, y otra ofensiva ESPECIAL.$"

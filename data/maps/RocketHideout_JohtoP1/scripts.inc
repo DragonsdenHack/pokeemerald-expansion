@@ -1533,3 +1533,64 @@ end
 RocketHideoutJohtoP1Documento_Text_134:
 	.string "¡Todos los POKÉMON existen por la\n"
 	.string "gloria del TEAM ROCKET!$"
+
+
+
+RocketHideoutJohtoP1_EventScript_ReceiveKlink::
+    lock
+    faceplayer
+	checkmoncatch SPECIES_KLINK
+	goto_if_eq VAR_RESULT, FALSE, RocketHideoutJohtoP1_EventScript_TakeKlink 
+	msgbox RocketHideoutJohtoP1_Text_33, MSGBOX_DEFAULT
+	release
+	end
+
+
+
+RocketHideoutJohtoP1_EventScript_TakeKlink::
+    msgbox RocketHideoutJohtoP1_Text_TakeKlink MSGBOX_DEFAULT
+	msgbox RocketHideoutJohtoP1_Text_TakeKlink2 MSGBOX_DEFAULT
+	msgbox RocketHideoutJohtoP1_Text_TakeKlink3 MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox RocketHideoutJohtoP1_Text_MensajeKlink, MSGBOX_DEFAULT
+	givemon SPECIES_KLINK, 10, ITEM_STEEL_GEM
+	waitfanfare  
+	release
+	end 
+
+
+
+RocketHideoutJohtoP1_Text_TakeKlink:
+    .string "Por mucho tiempo, MAGNEMITE y\n"
+	.string "MAGNETON fueron los POKÉMON\l"
+	.string "preferidos por los científicos\l"
+	.string "como nosotros.$"
+
+
+
+RocketHideoutJohtoP1_Text_TakeKlink2:
+	.string "Cuando solo conocíamos los POKÉMON\n"
+	.string "de KANTO. Ahora tenemos muchas más\l"
+	.string "opciones para elegir nuestros\l"
+	.string "equipos.$"
+
+
+
+RocketHideoutJohtoP1_Text_TakeKlink3:
+	.string "Un compañero nuestro que viajó a\n"
+	.string "TESELIA trajo una línea evolutiva\l"
+	.string "muy parecida a la de MAGNEMITE.\l"
+	.string "Mira, te daré un ejemplar.$"
+
+
+
+RocketHideoutJohtoP1_Text_MensajeKlink:
+.string "¡OBTUVISTE UN KLINK AL NV.10!$"
+
+
+RocketHideoutJohtoP1_Text_33:
+    .string "A diferencia de MAGNEMITE, KLINK\n"
+	.string "es TIPO ACERO puro, más rápido y\l"
+	.string "centrado en el ATAQUE FÍSICO.\l"
+	.string "Aunque MAGNEZONE es algo mejor\l"
+	.string "defensivamente.$"
