@@ -824,7 +824,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_LavaridgeGym",
       "border_filepath": "data/layouts/LavaridgeTown_Gym_1F/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_1F/map.bin"
@@ -836,7 +836,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_Building",
       "secondary_tileset": "gTileset_LavaridgeGym",
       "border_filepath": "data/layouts/LavaridgeTown_Gym_B1F/border.bin",
       "blockdata_filepath": "data/layouts/LavaridgeTown_Gym_B1F/map.bin"
