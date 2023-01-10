@@ -77,24 +77,46 @@ RocketHideoutFiveIslandMeadow_Text_15:
 RocketHideoutFiveIslanMeadow16::
 lock
 faceplayer
-checkmoncatch SPECIES_MAGIKARP
-goto_if_eq VAR_RESULT, FALSE, MagikarpSi
-msgbox MagikarpNo, MSGBOX_DEFAULT
+setflag FLAG_SYS_POKEMON_GET
+checkitem ITEM_POKE_BALL
+goto_if_eq VAR_RESULT, FALSE, Parte2
+msgbox MagikarpNo1, MSGBOX_DEFAULT
 release
 end
 
-MagikarpSi::
-msgbox MagikarpSi_Text MSGBOX_DEFAULT
-givemon SPECIES_MAGIKARP, 5, ITEM_NONE
+Parte2::
+checkitem2 ITEM_POKE_BALL
+goto_if_eq VAR_RESULT, FALSE, Parte3
+msgbox MagikarpNo2, MSGBOX_DEFAULT
 release
 end 
 
+Parte3::
+checkpcitem ITEM_POKE_BALL
+goto_if_eq VAR_RESULT, FALSE, Parte4
+msgbox MagikarpNo3, MSGBOX_DEFAULT
+release
+end
+
+Parte4::
+msgbox MagikarpSi_Text, MSGBOX_DEFAULT
+giveitem ITEM_POKE_BALL
+release
+end 
+
+
 MagikarpSi_Text:
-.string "Toma un MAGIKARP"
+.string "Toma una pokeball"
 .string "$"
 
-MagikarpNo:
-.string "¡No te doy nada!$"
+MagikarpNo1:
+.string "¡No te doy nada,\n lo tienes en la mochila!$"
+
+MagikarpNo2:
+.string "¡No te doy nada,\n lo tienes equipado!$"
+
+MagikarpNo3:
+.string "¡No te doy nada,\n lo tienes en pc!$"
 
 
 RocketHideoutFiveIslanMeadow17::

@@ -542,6 +542,13 @@
 	.2byte \quantity
 	.endm
 
+	@ Checks if the player has quantity or more of the specified item in their Bag. Sets VAR_RESULT to TRUE if the player has
+	@ enough of the item, or FALSE if they have fewer than quantity of the item.
+	.macro checkitem2 itemId:req
+	.byte 0xe4
+	.2byte \itemId
+	.endm
+
 	@ Checks which Bag pocket the specified item belongs in, and writes the pocket value (POCKET_*) to VAR_RESULT.
 	@ This is used to show the name of the proper Bag pocket when the player receives an item via callstd.
 	.macro checkitemtype itemId:req
