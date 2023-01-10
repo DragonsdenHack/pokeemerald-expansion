@@ -1185,7 +1185,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_generic_building_2",
+      "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/FortreeCity_House1/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_House1/map.bin"
     },
@@ -1209,7 +1209,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/FortreeCity_House2/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_House2/map.bin"
     },
@@ -3057,7 +3057,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/FortreeCity_DecorationShop/border.bin",
       "blockdata_filepath": "data/layouts/FortreeCity_DecorationShop/map.bin"
     },
@@ -3525,7 +3525,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_museum_fr",
+      "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/RustboroCity_Flat2_1F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat2_1F/map.bin"
     },
@@ -3536,8 +3536,8 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RustboroCity_Flat2_2F/border.bin",
       "blockdata_filepath": "data/layouts/RustboroCity_Flat2_2F/map.bin"
     },
@@ -3945,7 +3945,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_GenericBuilding",
+      "secondary_tileset": "gTileset_safari_zone_building",
       "border_filepath": "data/layouts/SafariZone_RestHouse/border.bin",
       "blockdata_filepath": "data/layouts/SafariZone_RestHouse/map.bin"
     },
@@ -13596,6 +13596,18 @@
       "secondary_tileset": "gTileset_museum_fr",
       "border_filepath": "data/layouts/Casa_Trxatu/border.bin",
       "blockdata_filepath": "data/layouts/Casa_Trxatu/map.bin"
+    },
+    {
+      "id": "LAYOUT_GOLDENROD_GYM",
+      "name": "Goldenrod_Gym_Layout",
+      "width": 26,
+      "height": 22,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_fan_club_daycare",
+      "border_filepath": "data/layouts/Goldenrod_Gym/border.bin",
+      "blockdata_filepath": "data/layouts/Goldenrod_Gym/map.bin"
     }
   ]
 }

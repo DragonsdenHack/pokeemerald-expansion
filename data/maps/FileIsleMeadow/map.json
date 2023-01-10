@@ -146,7 +146,7 @@
   "warp_events": [
     {
       "x": 12,
-      "y": 22,
+      "y": 21,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_WAREHOUSE",
       "dest_warp_id": 0

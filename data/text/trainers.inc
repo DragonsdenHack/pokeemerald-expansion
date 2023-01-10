@@ -16501,3 +16501,64 @@ Route36_Text_Pareja2PostBattle:
 	.string "PAUL: Por tu culpa, a ELSA se le\n"
 	.string "quedará este combate grabado\l"
 	.string "durante las vacaciones.$"
+
+
+
+GoldenrodGym_Text_ChicaIntro:
+	.string "Bienvenido al GIMNASIO de CIUDAD\n"
+	.string "TRIGAL. Creo que llegas algo\l"
+	.string "tarde, este GIMNASIO cambiará\l"
+	.string "pronto.$"
+
+
+
+GoldenrodGym_Text_ChicaDefeated:
+	.string "¡Eres muy malo conmigo!$"
+
+
+
+GoldenrodGym_Text_ChicaPostBattle:
+	.string "Este GIMNASIO necesita adaptarse a\n"
+	.string "los nuevos tiempos, el TIPO\l"
+	.string "SINIESTRO no da buena imagen a la\l"
+	.string "ciudad.$"
+
+
+
+GoldenrodGym_Text_Chica2Intro:
+	.string "No me gusta nada el TIPO\n"
+	.string "SINIESTRO. Me he apuntado a este\l"
+	.string "GIMNASIO porque dicen que van a\l"
+	.string "cambiarlo al TIPO NORMAL.\l"
+	.string "¡Esos POKÉMON sí que son monos!$"
+
+
+
+GoldenrodGym_Text_Chica2Defeated:
+	.string "¡Mis pobres POKÉMON!$"
+
+
+
+GoldenrodGym_Text_Chica2PostBattle:
+	.string "La actual LÍDER de TRIGAL es\n"
+	.string "demasiado fuerte.\l"
+	.string "¡Sus POKÉMON me dan miedo!$"
+
+
+
+GoldenrodGym_Text_Chica3Intro:
+	.string "La estética de este GIMNASIO es\n"
+	.string "horrible.\l"
+	.string "¿No crees?$"
+
+
+
+GoldenrodGym_Text_Chica3Defeated:
+	.string "¡No seas maleducado!$"
+
+
+
+GoldenrodGym_Text_Chica3PostBattle:
+	.string "¡Lo primero que haremos cuando el\n"
+	.string "GIMNASIO cambie de manos será\l"
+	.string "laminar el suelo de color rosa!$"

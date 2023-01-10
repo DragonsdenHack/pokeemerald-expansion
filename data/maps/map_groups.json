@@ -291,7 +291,8 @@
     "Goldenrod_UndergroundNorth",
     "Goldenrod_UndergroundSouth",
     "Goldenrod_Underground",
-    "Goldenrod_Houses"
+    "Goldenrod_Houses",
+    "Goldenrod_Gym"
   ],
   "gMapGroup_IndoorEcruteakCity": [
     "Ecruteak_PkmnCenter",

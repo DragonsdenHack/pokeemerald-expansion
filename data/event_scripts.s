@@ -2442,3 +2442,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Camara_Larvesta/scripts.inc"
 
 	.include "data/maps/Casa_Trxatu/scripts.inc"
+
+	.include "data/maps/Goldenrod_Gym/scripts.inc"
