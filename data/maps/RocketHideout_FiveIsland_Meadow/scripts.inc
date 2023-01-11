@@ -99,6 +99,13 @@ release
 end
 
 Parte4::
+checkpcitem2 ITEM_POKE_BALL
+goto_if_eq VAR_RESULT, FALSE, Parte5
+msgbox MagikarpNo4, MSGBOX_DEFAULT
+release
+end
+
+Parte5::
 msgbox MagikarpSi_Text, MSGBOX_DEFAULT
 giveitem ITEM_POKE_BALL
 release
@@ -117,6 +124,9 @@ MagikarpNo2:
 
 MagikarpNo3:
 .string "¡No te doy nada,\n lo tienes en pc!$"
+
+MagikarpNo4:
+.string "¡No te doy nada,\n lo tienes en pc equipado!$"
 
 
 RocketHideoutFiveIslanMeadow17::

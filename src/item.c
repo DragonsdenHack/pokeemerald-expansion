@@ -145,7 +145,20 @@ bool8 CheckBagHasItem2(u16 itemId)
         if (GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, NULL) == itemId)
             return TRUE;
     }
-    return FALSE;
+}
+
+bool8 CheckBagHasItem3(u16 itemId)
+{
+    s32 i, j;
+    for (i = 0; i < TOTAL_BOXES_COUNT; i++)
+    {
+        for ( j = 0; j < IN_BOX_COUNT; j++)
+        {
+            if (GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_HELD_ITEM, NULL) == itemId)
+            return TRUE;  
+        }
+    }
+    
 }
 
 bool8 CheckBagHasItem(u16 itemId, u16 count)

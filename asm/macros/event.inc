@@ -542,10 +542,16 @@
 	.2byte \quantity
 	.endm
 
-	@ Checks if the player has quantity or more of the specified item in their Bag. Sets VAR_RESULT to TRUE if the player has
-	@ enough of the item, or FALSE if they have fewer than quantity of the item.
+	@ Comprueba si el poke tiene equipado ese objeto. Si lo tiene VAR_RESULT devolverá TRUE, si no, FALSE
 	.macro checkitem2 itemId:req
 	.byte 0xe4
+	.2byte \itemId
+	.endm
+
+	@ Comprueba si algun poke del pc tiene equipado ese objeto. Si lo tiene VAR_RESULT devolverá TRUE,
+	@ si no, FALSE
+	.macro checkpcitem2 itemId:req
+	.byte 0xe5
 	.2byte \itemId
 	.endm
 
