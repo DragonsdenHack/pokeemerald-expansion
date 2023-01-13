@@ -7725,9 +7725,9 @@ static const struct TrainerMonItemCustomMoves sParty_Proton[] = {
     {
     .iv = 0,
     .lvl = 50,
-    .species = SPECIES_MURKROW,
-    .heldItem = ITEM_CHOICE_SCARF,
-    .moves = {MOVE_BRAVE_BIRD, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .species = SPECIES_SLOWBRO,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_FLAMETHROWER, MOVE_AMNESIA}
     },
     {
     .iv = 0,

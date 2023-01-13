@@ -741,7 +741,7 @@
 #define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
 
 // Event Flags
-#define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC
+#define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC // RECLUTAS ROCKET INTA
 #define FLAG_HIDE_APPRENTICE                                        0x2BD
 #define FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN                0x2BE
 #define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF
@@ -758,161 +758,161 @@
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC
-#define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD
+#define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // LIBRE
 #define FLAG_HIDE_MEW                                               0x2CE
-#define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF
-#define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2
-#define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3
-#define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4
-#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5
-#define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8
+#define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // LIBRE
+#define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // LIBRE
+#define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3 // LIBRE
+#define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // LIBRE
+#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5 // LIBRE
+#define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6 // LIBRE
+#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7 // LIBRE
+#define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8 // LIBRE
 
 #define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
 
-#define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA
-#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB
-#define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD
-#define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1
-#define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2
-#define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3
-#define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4
-#define FLAG_HIDE_ROUTE_109_MR_BRINEY                               0x2E5
+#define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA // LIBRE
+#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // LIBRE
+#define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC // LIBRE
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD 
+#define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0 // LIBRE
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1 // LIBRE
+#define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2 // LIBRE
+#define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3 // LIBRE
+#define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4 // LIBRE
+#define FLAG_HIDE_ROUTE_109_MR_BRINEY                               0x2E5 // LIBRE
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT                          0x2E6
 #define FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN                       0x2E7
 #define FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT                          0x2E8
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN            0x2E9
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY                    0x2EA
-#define FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION                  0x2EB
-#define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN            0x2E9 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY                    0x2EA // LIBRE
+#define FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION                  0x2EB // LIBRE
+#define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC // LIBRE
 #define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED
-#define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE
-#define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF
-#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2
+#define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE // LIBRE
+#define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0 // LIBRE
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2 
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4
-#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               0x2F5
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               0x2F5 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA // LIBRE
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
-#define FLAG_HIDE_MAUVILLE_CITY_SCOTT                               0x2FD
-#define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE
-#define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF
-#define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300
-#define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301
-#define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302
-#define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303
-#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304
+#define FLAG_HIDE_MAUVILLE_CITY_SCOTT                               0x2FD // LIBRE
+#define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE // LIBRE
+#define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF // LIBRE
+#define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300 // LIBRE
+#define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301 // LIBRE
+#define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302 // LIBRE
+#define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303 // LIBRE
+#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304 // LIBRE
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0x305
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306 
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2                          0x309
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_3                          0x30A
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4                          0x30B
 #define FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS                          0x30C
-#define FLAG_HIDE_PETALBURG_GYM_GREETER                             0x30D
+#define FLAG_HIDE_PETALBURG_GYM_GREETER                             0x30D // LIBRE
 #define FLAG_HIDE_MARINE_CAVE_KYOGRE                                0x30E
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311
-#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312
-#define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313
-#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314
-#define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315
-#define FLAG_HIDE_FANCLUB_BOY                                       0x316
-#define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317
-#define FLAG_HIDE_FANCLUB_LADY                                      0x318
-#define FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT               0x319
-#define FLAG_HIDE_LITTLEROOT_TOWN_RIVAL                             0x31A
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCH                             0x31B
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1                          0x31C
-#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1                          0x31D
-#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311 // LIBRE
+#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // LIBRE
+#define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // LIBRE
+#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // LIBRE
+#define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315 // LIBRE
+#define FLAG_HIDE_FANCLUB_BOY                                       0x316 // LIBRE
+#define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317 // LIBRE
+#define FLAG_HIDE_FANCLUB_LADY                                      0x318 // LIBRE
+#define FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT               0x319 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_RIVAL                             0x31A // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCH                             0x31B // LIBRE
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1                          0x31C // LIBRE
+#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1                          0x31D // LIBRE
+#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E // LIBRE
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F // LIBRE
 #define FLAG_HIDE_LUGIA                                             0x320
-#define FLAG_HIDE_HO_OH                                             0x321
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322
-#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323
-#define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324
-#define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326
-#define FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND                   0x327
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND     0x328
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE         0x329
-#define FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT                           0x32A
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL     0x32B
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE      0x32C
-#define FLAG_HIDE_ROUTE_116_DROPPED_GLASSES_MAN                     0x32D
-#define FLAG_HIDE_RUSTBORO_CITY_RIVAL                               0x32E
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_SWABLU_DOLL     0x32F
-#define FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE                           0x330
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL       0x331
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL           0x332
-#define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0x333
-#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335
-#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336
-#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337
-#define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338
+#define FLAG_HIDE_HO_OH                                             0x321 // LIBRE
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 // LIBRE
+#define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324 // LIBRE
+#define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325 // LIBRE
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326 // LIBRE
+#define FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND                   0x327 // LIBRE
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND     0x328 // LIBRE
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE         0x329 // LIBRE
+#define FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT                           0x32A // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL     0x32B // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE      0x32C // LIBRE
+#define FLAG_HIDE_ROUTE_116_DROPPED_GLASSES_MAN                     0x32D // LIBRE
+#define FLAG_HIDE_RUSTBORO_CITY_RIVAL                               0x32E // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_SWABLU_DOLL     0x32F // LIBRE
+#define FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE                           0x330 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL       0x331 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL           0x332 // LIBRE
+#define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0x333 // LIBRE
+#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334 // LIBRE
+#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335 // LIBRE
+#define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336 // LIBRE
+#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337 // LIBRE
+#define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338 // LIBRE
 #define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0x339 // Unused, leftover from R/S
-#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A
-#define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340
-#define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0x341
-#define FLAG_HIDE_ROUTE_128_STEVEN                                  0x342
-#define FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY                       0x343
-#define FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT              0x344
-#define FLAG_HIDE_ROUTE_110_BIRCH                                   0x345
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA     0x346
-#define FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1                             0x347
-#define FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN                      0x348
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN               0x349
-#define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0x34A
-#define FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY                      0x34B
-#define FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                           0x34C
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0x34D
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                      0x34E
-#define FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD                           0x34F
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW            0x350
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL          0x351
-#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352
-#define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353
-#define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354
+#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A // LIBRE
+#define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B // LIBRE
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C // LIBRE
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D // LIBRE
+#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E // LIBRE
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F // LIBRE
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340 // LIBRE
+#define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0x341 // LIBRE
+#define FLAG_HIDE_ROUTE_128_STEVEN                                  0x342 // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY                       0x343 // LIBRE
+#define FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT              0x344 // LIBRE
+#define FLAG_HIDE_ROUTE_110_BIRCH                                   0x345 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA     0x346 // LIBRE
+#define FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1                             0x347 // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN                      0x348 // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN               0x349 // LIBRE
+#define FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO                         0x34A // LIBRE
+#define FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY                      0x34B // LIBRE
+#define FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                           0x34C // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0x34D // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                      0x34E // LIBRE
+#define FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD                           0x34F // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW            0x350 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL          0x351 // LIBRE
+#define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352 
+#define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353 // LIBRE
+#define FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS                         0x354 // LIBRE
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON                          0x355
-#define FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                         0x356
-#define FLAG_HIDE_SKY_PILLAR_WALLACE                                0x357
-#define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0x358
-#define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359
-#define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A
+#define FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                         0x356 // LIBRE
+#define FLAG_HIDE_SKY_PILLAR_WALLACE                                0x357 // LIBRE
+#define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0x358 // LIBRE
+#define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359 // LIBRE
+#define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A // LIBRE
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0x35B
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C
-#define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0x35E
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN              0x35F
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C // LIBRE
+#define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D // LIBRE
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA          0x35E // LIBRE
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN              0x35F // LIBRE
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_1           0x360
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_ALT_2           0x361
-#define FLAG_HIDE_PETALBURG_GYM_WALLY                               0x362
-#define FLAG_UNKNOWN_0x363                                          0x363 // Set, however has no purpose.
-#define FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN                           0x364
-#define FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY          0x365
+#define FLAG_HIDE_PETALBURG_GYM_WALLY                               0x362 // LIBRE
+#define FLAG_UNKNOWN_0x363                                          0x363 // CLEARFLAG LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN                           0x364 // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY          0x365 // LIBRE
 #define FLAG_HIDE_LANETTES_HOUSE_LANETTE                            0x366
 #define FLAG_HIDE_FALLORBOR_POKEMON_CENTER_LANETTE                  0x367
 #define FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN                          0x368
