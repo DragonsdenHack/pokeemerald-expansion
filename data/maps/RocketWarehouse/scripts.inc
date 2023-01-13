@@ -22,7 +22,17 @@ RocketWarehouse_Text_3:
 
 
 RocketWarehouse4::
+lock     
+faceplayer     
+msgbox RocketWarehouse_Text_4, MSGBOX_DEFAULT
+release     
 end
+
+RocketWarehouse_Text_4:
+.string "ATLAS te está esperando junto con\n"
+	.string "el otro ROCKET que ha podido\l"
+	.string "vencerme, pasa y conoce los\l"
+	.string "detalles de tu misión.$"
 
 
 
@@ -188,4 +198,129 @@ RocketWarehouseDocumento_Text_101:
 	.string "POKÉ BALL, se ve a leguas que hay\l"
 	.string "un POKÉMON bastante potente en su\l"
 	.string "interior...$"
+
+
+RocketWarehouseDocumento_102::
+msgbox RocketWarehouseDocumento_Text_102, MSGBOX_SIGN   
+end
+
+RocketWarehouseDocumento_Text_102:
+	.string "Hay un informe con gráficos\n"
+	.string "y anotaciones en el monitor del PC.\p"
+	.string "- La influencia de las ondas\n"
+	.string "magnéticas en la evolución de los\l"
+	.string "POKéMON - ...\p"
+	.string "... ... ... ... ... ...\p"
+	.string "Cualquiera entiende esto...$"
+
+
+
+RocketWarehouseSoldado::
+lock
+faceplayer
+applymovement 4, move2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, move1
+waitmovement 0x0
+msgbox RocketWarehouseSoldado_Text_Soldado1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LYDIA_1, RocketWarehouseSoldado_Text_Soldado2
+msgbox RocketWarehouseSoldado_Text_Soldado3, MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 3
+release
+end
+
+RocketWarehouseSoldad2::
+lock
+faceplayer
+applymovement 4, move3
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, move1
+waitmovement 0x0
+msgbox RocketWarehouseSoldado_Text_Soldado1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LYDIA_1, RocketWarehouseSoldado_Text_Soldado2
+msgbox RocketWarehouseSoldado_Text_Soldado3, MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 3
+release
+end
+
+RocketWarehouseSoldad3::
+lock
+faceplayer
+applymovement 4, move4
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, move1
+waitmovement 0x0
+msgbox RocketWarehouseSoldado_Text_Soldado1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LYDIA_1, RocketWarehouseSoldado_Text_Soldado2
+msgbox RocketWarehouseSoldado_Text_Soldado3, MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 3
+release
+end
+
+RocketWarehouseSoldad4::
+lock
+faceplayer
+applymovement 4, move5
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, move6
+waitmovement 0x0
+msgbox RocketWarehouseSoldado_Text_Soldado1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LYDIA_1, RocketWarehouseSoldado_Text_Soldado2
+msgbox RocketWarehouseSoldado_Text_Soldado3, MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 3
+release
+end
+
+
+RocketWarehouseSoldado_Text_Soldado1:
+.string "No tan rápido, ATLAS me ha pedido\n"
+	.string "expresamente que me encarge de los\l"
+	.string "4 RECLUTAS novatos, solo\l"
+	.string "venciéndome te ganarás el derecho\l"
+	.string "de competir por una misión\l"
+	.string "exclusiva, de momento 2 de los 3\l"
+	.string "RECLUTAS ya han perdido esa\l"
+	.string "oportunidad puesto que les he\l"
+	.string "vencido.\l"
+	.string "¡Tú eres el último por examinar!$"
+
+
+RocketWarehouseSoldado_Text_Soldado2:
+.string "Vaya, tenemos dos RECLUTAS que\n"
+	.string "valen la pena para variar.$"
+
+
+RocketWarehouseSoldado_Text_Soldado3:
+.string "ATLAS te está esperando junto con\n"
+	.string "el otro ROCKET que ha podido\l"
+	.string "vencerme, pasa y conoce los\l"
+	.string "detalles de tu misión.$"
+
+
+move1:
+walk_in_place_right
+step_end
+
+move2:
+face_left
+step_end
+
+move3:
+face_left
+walk_left
+step_end
+
+move4:
+face_left
+walk_left
+walk_left
+step_end
+
+move5:
+face_down
+step_end
+
+move6:
+walk_in_place_up
+step_end
 	

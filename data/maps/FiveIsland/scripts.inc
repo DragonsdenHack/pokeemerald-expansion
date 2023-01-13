@@ -78,3 +78,27 @@ FiveIslandDocumento_Text_100:
 .string "ISLA INTA\n"
 	.string "La isla del tiempo: Donde pasa el\l"
 	.string "tiempo.$"
+
+
+
+FiveIslandDerecha::     
+applymovement OBJ_EVENT_ID_PLAYER, FiveIslandDerechaMove1
+waitmovement 0
+msgbox FiveIsland_Text_Derecha, MSGBOX_DEFAULT
+applymovement OBJ_EVENT_ID_PLAYER, FiveIslandDerechaMove2
+waitmovement 0
+release     
+end
+
+FiveIsland_Text_Derecha:     
+    .string "(No puedo alejarme del ALMACÉN sin\n"
+	.string "saber qué quiere ATLAS de mi).$"
+
+
+FiveIslandDerechaMove1:
+walk_in_place_slow_left
+step_end
+
+FiveIslandDerechaMove2:
+walk_right
+step_end

@@ -2,7 +2,7 @@
   "id": "MAP_FILE_ISLE_MEADOW",
   "name": "FileIsleMeadow",
   "layout": "LAYOUT_FILE_ISLE_MEADOW",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_ROUTE",
   "region_map_section": "MAPSEC_FIVE_ISLE_MEADOW",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
