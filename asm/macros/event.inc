@@ -542,6 +542,19 @@
 	.2byte \quantity
 	.endm
 
+	@ Comprueba si el poke tiene equipado ese objeto. Si lo tiene VAR_RESULT devolverá TRUE, si no, FALSE
+	.macro checkitem2 itemId:req
+	.byte 0xe4
+	.2byte \itemId
+	.endm
+
+	@ Comprueba si algun poke del pc tiene equipado ese objeto. Si lo tiene VAR_RESULT devolverá TRUE,
+	@ si no, FALSE
+	.macro checkpcitem2 itemId:req
+	.byte 0xe5
+	.2byte \itemId
+	.endm
+
 	@ Checks which Bag pocket the specified item belongs in, and writes the pocket value (POCKET_*) to VAR_RESULT.
 	@ This is used to show the name of the proper Bag pocket when the player receives an item via callstd.
 	.macro checkitemtype itemId:req

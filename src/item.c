@@ -9,6 +9,9 @@
 #include "item_menu.h"
 #include "strings.h"
 #include "load_save.h"
+#include "party_menu.h"
+#include "pokemon.h"
+#include "constants/global.h"
 #include "item_use.h"
 #include "battle_pyramid.h"
 #include "battle_pyramid_bag.h"
@@ -130,6 +133,32 @@ bool8 IsBagPocketNonEmpty(u8 pocket)
             return TRUE;
     }
     return FALSE;
+}
+
+bool8 CheckBagHasItem2(u16 itemId)
+{
+
+    s32 i;
+
+    for (i = 0; i < PARTY_SIZE; i++){
+
+        if (GetMonData(&gPlayerParty[i], MON_DATA_HELD_ITEM, NULL) == itemId)
+            return TRUE;
+    }
+}
+
+bool8 CheckBagHasItem3(u16 itemId)
+{
+    s32 i, j;
+    for (i = 0; i < TOTAL_BOXES_COUNT; i++)
+    {
+        for ( j = 0; j < IN_BOX_COUNT; j++)
+        {
+            if (GetBoxMonData(&gPokemonStoragePtr->boxes[i][j], MON_DATA_HELD_ITEM, NULL) == itemId)
+            return TRUE;  
+        }
+    }
+    
 }
 
 bool8 CheckBagHasItem(u16 itemId, u16 count)

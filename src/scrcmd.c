@@ -521,6 +521,22 @@ bool8 ScrCmd_checkitem(struct ScriptContext *ctx)
     return FALSE;
 }
 
+bool8 ScrCmd_checkitem2(struct ScriptContext *ctx)
+{
+    u16 itemId = VarGet(ScriptReadHalfword(ctx));
+
+    gSpecialVar_Result = CheckBagHasItem2(itemId);
+    return FALSE;
+}
+
+bool8 ScrCmd_checkpcitem2(struct ScriptContext *ctx)
+{
+    u16 itemId = VarGet(ScriptReadHalfword(ctx));
+
+    gSpecialVar_Result = CheckBagHasItem3(itemId);
+    return FALSE;
+}
+
 bool8 ScrCmd_checkitemtype(struct ScriptContext *ctx)
 {
     u16 itemId = VarGet(ScriptReadHalfword(ctx));

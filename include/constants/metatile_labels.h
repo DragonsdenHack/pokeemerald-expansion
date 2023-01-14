@@ -326,7 +326,6 @@
 #define METATILE_MauvilleGym_RedBeamV1_On     0x241
 #define METATILE_MauvilleGym_RedBeamV2_On     0x249
 
-
 // gTileset_Mauville
 #define METATILE_Mauville_DeepSand_BottomMid  0x259
 #define METATILE_Mauville_DeepSand_Center     0x251
@@ -730,9 +729,9 @@
 #define METATILE_Slateport_Door_BattleTent  0x393
 
 // gTileset_SootopolisGym
-#define METATILE_SootopolisGym_Ice_Broken   0x206
-#define METATILE_SootopolisGym_Ice_Cracked  0x20E
-#define METATILE_SootopolisGym_Stairs       0x207
+#define METATILE_SootopolisGym_Ice_Broken   0x286
+#define METATILE_SootopolisGym_Ice_Cracked  0x28E
+#define METATILE_SootopolisGym_Stairs       0x287
 
 // gTileset_Sootopolis
 #define METATILE_Sootopolis_Door             0x21E
