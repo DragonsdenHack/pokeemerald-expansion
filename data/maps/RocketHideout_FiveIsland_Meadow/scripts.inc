@@ -871,29 +871,17 @@ RocketHideoutFiveIslanMeadowPostZubat::
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	fadescreen 1
 	removeobject 1
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 22
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 23
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 2
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 24
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 4
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 3
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 8
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 7
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 6
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 17
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	delay 40
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	fadescreen 0
 	delay 20
     applymovement 13, MovePostZubat8
@@ -902,11 +890,8 @@ RocketHideoutFiveIslanMeadowPostZubat::
 	msgbox RocketHideoutFiveIslanMeadow_Text_PostZubat6 MSGBOX_NPC
 	fadescreen 1
 	removeobject 13
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 10
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	removeobject 12
-	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	delay 40
 	fadescreen 0
 	setflag FLAG_SYS_POKEMON_GET

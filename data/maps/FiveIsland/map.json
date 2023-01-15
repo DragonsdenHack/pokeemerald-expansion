@@ -80,7 +80,7 @@
   ],
   "warp_events": [
     {
-      "x": 13,
+      "x": 12,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_FIVE_ISLAND_PORT",
@@ -162,6 +162,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "3",
       "script": "FiveIslandDerecha"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "6",
+      "script": "FiveIsland_RumboaKanto"
     }
   ],
   "bg_events": [

@@ -102,3 +102,43 @@ step_end
 FiveIslandDerechaMove2:
 walk_right
 step_end
+
+FiveIsland_RumboaKanto::
+applymovement OBJ_EVENT_ID_PLAYER, FiveIsland_RumboaKanto_move1
+waitmovement 0x0
+msgbox FiveIsland_Text_RumboaKanto_1, MSGBOX_AUTOCLOSE
+applymovement 4, FiveIsland_RumboaKanto_move2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, FiveIsland_RumboaKanto_move3
+waitmovement 0x0
+warp MAP_FIVE_ISLAND_PORT, 8, 3
+release
+end
+
+
+FiveIsland_Text_RumboaKanto_1:
+    .string "¡Vamos, están todos esperándote!\n"
+	.string "¡No nos hagas perder más\l"
+	.string "tiempo!$"
+
+
+FiveIsland_RumboaKanto_move1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+step_end
+
+FiveIsland_RumboaKanto_move2:
+walk_left
+walk_in_place_right
+step_end
+
+FiveIsland_RumboaKanto_move3:
+walk_slow_down
+walk_slow_down
+step_end

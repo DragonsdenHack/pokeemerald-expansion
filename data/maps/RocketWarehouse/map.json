@@ -139,9 +139,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketWarehouse10",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "RocketWarehouse_EventScript_Recluta2",
       "flag": "0"
     },
     {
@@ -287,7 +287,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "5",
-      "script": "NULL"
+      "script": "RocketWarehouse_Vuelta_MisionAtlas"
     },
     {
       "type": "trigger",
