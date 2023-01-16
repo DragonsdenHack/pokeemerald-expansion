@@ -123,3 +123,55 @@ VermilionCityDocumento_Text_104:
 	.string "Se deberá de atravesar el TÚNEL\l"
 	.string "ROCA para llegar a PUEBLO LAVANDA.\l"
 	.string "POLICÍA DE CIUDAD CARMÍN$"
+
+VermilionCityDerecha::     
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityDerechaMove1
+waitmovement 0
+msgbox VermilionCity_Text_Derecha, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityDerechaMove2
+waitmovement 0
+release     
+end
+
+VermilionCity_Text_Derecha:     
+    .string "(Debería ir a curar a mi equipo\n"
+	.string "antes por si las moscas).$"
+
+
+VermilionCityDerechaMove1:
+walk_in_place_slow_down
+step_end
+
+VermilionCityDerechaMove2:
+walk_down
+step_end
+
+
+VermilionCityIzq::     
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityIzqMove1
+waitmovement 0
+msgbox VermilionCity_Text_Izq, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityIzqMove2
+waitmovement 0
+release     
+end
+
+VermilionCity_Text_Izq:     
+    .string "(Debería ir a curar a mi equipo\n"
+	.string "antes por si las moscas).$"
+
+
+VermilionCityIzqMove1:
+walk_in_place_slow_left
+step_end
+
+VermilionCityIzqMove2:
+walk_left
+step_end
+
+VermilionCityFlag::     
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+removeobject 7
+removeobject 12
+release     
+end
