@@ -1,5 +1,10 @@
 Route5_House1_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Route5_House1_OnFrame
 	.byte 0
+
+Route5_House1_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 8, Route5_House1_Criador
+	.2byte 0
 
 Route5House1_1::
 end
@@ -179,4 +184,27 @@ walk_up
 walk_up
 walk_left
 walk_in_place_down
+step_end
+
+Route5_House1_Warp::
+msgbox Route5_House1_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Route5_House1_Warp_No
+warp MAP_ROCKET_HIDEOUT_6F, 1, 27
+release
+end
+
+Route5_House1_Warp_No::
+applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Warp_move1
+release
+end
+
+Route5_House1_Warp_Text_YesNo:
+    .string "Hay una trampilla que asoma\n"
+	.string "sutilmente unas escaleras que\l"
+	.string "conducen a una zona subterránea,\l"
+	.string "¿quieres entrar en la BASE ROCKET?$"
+
+Route5_House1_Warp_move1:
+walk_slow_right
 step_end

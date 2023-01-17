@@ -150,3 +150,69 @@ CeruleanCityDocumento_Text_104:
 	.string "LÍDER DE GIMNASIO DE CIUDAD\n"
 	.string "CELESTE: MISTY\l"
 	.string "¡La sirena distorsionada!$"
+
+CeruleanCityIzq::     
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityIzqMove1
+waitmovement 0
+msgbox CeruleanCity_Text_Izq, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityIzqMove2
+waitmovement 0
+release     
+end
+
+CeruleanCity_Text_Izq:     
+    .string "(ANDRA me está esperando en la\n"
+	.string "GUARDERÍA de RUTA 5 para ver qué\l"
+	.string "quiere PETREL, no puedo largarme\l"
+	.string "ahora).$"
+
+
+CeruleanCityIzqMove1:
+walk_in_place_slow_left
+step_end
+
+CeruleanCityIzqMove2:
+walk_left
+step_end
+
+
+CeruleanCity_Rocket_Excavar::
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_Rocket_Excavar_move1
+applymovement 4, CeruleanCity_Rocket_Excavar_move2
+waitmovement 0
+playse SE_PIN
+applymovement 4, CeruleanCity_Rocket_Excavar_move3
+msgbox CeruleanCity_Rocket_Excavar_Text_1, MSGBOX_AUTOCLOSE
+warp MAP_CERULEAN_CITY_HOUSE2, 5, 5
+release
+end
+
+
+
+CeruleanCity_Rocket_Excavar_Text_1:
+.string "¡Hey, ROCKET!\n"
+	.string "¿Te gustaría formar parte de un buen\l"
+	.string "negocio?\l"
+	.string "Nos han encargado a mí y a otro\l"
+	.string "colega una misión en CIUDAD\l"
+	.string "CELESTE y pensamos que nos vendría\l"
+	.string "bien algo de ayuda, ¿qué dices?\l"
+	.string "...\l"
+	.string "...\l"
+	.string "¡Perfecto!\l"
+	.string "¡Allá vamos!$"
+
+CeruleanCity_Rocket_Excavar_move1:
+walk_in_place_up
+step_end
+
+CeruleanCity_Rocket_Excavar_move2:
+walk_slow_right
+walk_slow_left
+face_down
+step_end
+
+CeruleanCity_Rocket_Excavar_move3:
+emote_exclamation_mark
+walk_down
+step_end

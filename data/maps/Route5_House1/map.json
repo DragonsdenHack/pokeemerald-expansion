@@ -67,12 +67,20 @@
       "x": 0,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE5_HOUSE1",
+      "dest_map": "MAP_ROCKET_HIDEOUT_6F",
       "dest_warp_id": 0
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route5_House1_Warp"
+    }
   ],
   "bg_events": [
 
