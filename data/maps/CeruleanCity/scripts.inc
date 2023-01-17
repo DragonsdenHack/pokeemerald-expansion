@@ -153,10 +153,10 @@ CeruleanCityDocumento_Text_104:
 
 CeruleanCityIzq::     
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityIzqMove1
-waitmovement 0
+waitmovement 0x0
 msgbox CeruleanCity_Text_Izq, MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityIzqMove2
-waitmovement 0
+waitmovement 0x0
 release     
 end
 
@@ -183,6 +183,7 @@ waitmovement 0
 playse SE_PIN
 applymovement 4, CeruleanCity_Rocket_Excavar_move3
 msgbox CeruleanCity_Rocket_Excavar_Text_1, MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 warp MAP_CERULEAN_CITY_HOUSE2, 5, 5
 release
 end
