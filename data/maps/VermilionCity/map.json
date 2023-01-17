@@ -171,7 +171,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_LTSURGE",
       "x": 15,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -264,7 +264,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 28,
+      "x": 29,
       "y": 18,
       "elevation": 0,
       "var": "VAR_TEMP_0",
@@ -387,6 +387,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "6",
       "script": "VermilionCityFlag"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "6",
+      "script": "VermilionCitySurge"
     }
   ],
   "bg_events": [

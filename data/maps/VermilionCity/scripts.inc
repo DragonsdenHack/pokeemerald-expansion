@@ -175,3 +175,35 @@ removeobject 7
 removeobject 12
 release     
 end
+
+VermilionCitySurge:: 
+playse SE_SLIDING_DOOR
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+addobject 12
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move1
+waitmovement 0x0
+delay 20
+msgbox VermilionCity_Text_Surge, MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+fadescreen 1
+delay 20
+removeobject 12
+fadescreen 0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_4
+setvar VAR_UNUSED_0x40F7, 7
+release
+end
+
+VermilionCity_Text_Surge:
+    .string "????: Ándate con cuidado chaval,\n"
+	.string "más te vale respetar la\l"
+	.string "tranquilidad de este lugar si no\l"
+	.string "quieres problemas. Advertido\l"
+	.string "quedas.$"
+
+VermilionCitySurge_move1:
+emote_exclamation_mark
+jump_special_down
+face_up
+step_end
