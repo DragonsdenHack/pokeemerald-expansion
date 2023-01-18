@@ -308,7 +308,7 @@ static void Task_Seagallop_2(u8 taskId)
     ScrollBG();
     if (BGMusicStopped() && !gPaletteFade.active)
     {   
-        if (FlagGet(0x500) == TRUE)
+        if (FlagGet(FLAG_CUSTOM_SEAGALLOP) == TRUE)
         {
             Task_Seagallop_3b();
         }
