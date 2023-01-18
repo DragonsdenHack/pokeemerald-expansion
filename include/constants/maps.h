@@ -9,6 +9,8 @@
 #define MAP_GROUP(map) (MAP_##map >> 8)
 #define MAP_NUM(map) (MAP_##map & 0xFF)
 
+#define MAP(map) MAP_GROUP(map), MAP_NUM(map)
+
 // These groups are used by pokedex_area_screen.c to find wild
 // pokemon locations.
 #define MAP_GROUP_OVERWORLD_MONS MAP_GROUP(PETALBURG_CITY)

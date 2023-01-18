@@ -1,0 +1,9 @@
+EventScript_Seagallop_Test::
+setflag 0x500     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 1 @BANCO DE MAPA
+setvar VAR_0x8001 0 @NUMERO DE MAPA
+setvar VAR_0x8002 2 @POSICION X
+setvar VAR_0x8003 3 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+end

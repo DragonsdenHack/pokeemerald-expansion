@@ -366,6 +366,16 @@ waitmovement 0x0
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas12, MSGBOX_NPC
 applymovement OBJ_EVENT_ID_PLAYER, Move16
 waitmovement 0x0
+removeobject 2
+removeobject 24
+removeobject 4
+removeobject 5
+removeobject 17
+removeobject 6
+removeobject 8
+removeobject 3
+applymovement OBJ_EVENT_ID_PLAYER, Move16b
+waitmovement 0x0
 release     
 end
 
@@ -706,6 +716,9 @@ walk_down
 walk_down
 walk_down
 walk_down
+step_end
+
+Move16b:
 walk_down
 walk_down
 walk_down
@@ -811,9 +824,24 @@ RocketHideoutFiveIslanMeadowPostZubat::
 	givemon SPECIES_ZUBAT, 5, ITEM_NONE
 	waitfanfare
 	applymovement 1, MovePostZubat1
-    waitmovement 0x0
     applymovement OBJ_EVENT_ID_PLAYER, MovePostZubat2
-    waitmovement 0x0   
+    waitmovement 0x0
+	addobject 7
+	removeobject 15
+	removeobject 21
+	removeobject 9
+	removeobject 11
+	removeobject 16
+	addobject 2
+	addobject 24
+	addobject 4
+	addobject 17
+	addobject 6
+	addobject 8
+	addobject 3
+
+	applymovement OBJ_EVENT_ID_PLAYER, MovePostZubat2b
+	waitmovement 0x0
 	fadescreen 1
 	delay 40
 	fadescreen 0
@@ -1006,8 +1034,11 @@ MovePostZubat2:
  walk_up
  walk_up
  walk_up
- walk_up
- walk_up
+ step_end
+
+MovePostZubat2b:
+walk_up
+walk_up
  walk_up
  walk_up
  face_down

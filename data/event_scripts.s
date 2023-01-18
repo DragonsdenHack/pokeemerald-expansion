@@ -579,6 +579,7 @@ gStdScripts_End::
 	.include "data/scripts/hall_of_fame.inc"
 
 	.include "data/scripts/debug.inc"
+	.include "data/scripts/seagallop.inc"
 
 EventScript_WhiteOut::
 	call EverGrandeCity_HallOfFame_EventScript_ResetEliteFour
