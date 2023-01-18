@@ -370,3 +370,212 @@ RocketHideout6FDocumento_Text_102:
 	.string "- FÓSIL DOMO/HÉLIX: 15000\l"
 	.string "- ÁMBAR VIEJO: 22500\p"
 	.string "Nota: 1 ficha equivale a 20 POKÉS.$"
+
+RocketHideout_6F_Petrel_Mision_1::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move1
+waitmovement 0x0
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move2
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_1, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move2
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move3
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_3, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move4
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_4, MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Text_Mision_5, MSGBOX_AUTOCLOSE
+applymovement 27, RocketHideout_6F_Petrel_Mision_1_move5
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_6, MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Text_Mision_7, MSGBOX_AUTOCLOSE
+applymovement 27, RocketHideout_6F_Petrel_Mision_1_move5
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_8, MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Text_Mision_9, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_1_move5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move5
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_10, MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Text_Mision_11, MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+fadescreen 1
+delay 20
+removeobject 27
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 10
+release
+end
+
+
+
+RocketHideout_6F_Petrel_Text_Mision_1:
+.string "???: Bienvenidos a nuestra\n"
+	.string "BASE-GUARDERÍA de ruta 5, nuevos\l"
+	.string "RECLUTAS, sois los últimos en\l"
+	.string "incorporaros a nuestra actividad\l"
+	.string "en KANTO. Yo soy PETREL,\l"
+	.string "ADMINISTRADOR ROCKET y jefe al\l"
+	.string "mando de esta base.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2:
+.string "PETREL: Seré muy breve, la\n"
+	.string "principal razón de ser de esta\l"
+	.string "BASE es servir de apoyo financiero\l"
+	.string "para la financiación de nuestros\l"
+	.string "proyectos, aquí únicamente nos\l"
+	.string "limitamos a realizar\l"
+	.string "investigaciones sobre posibles\l"
+	.string "negocios rentables, y a llevarlas\l"
+	.string "a la práctica, todo con el fin de\l"
+	.string "llevar dinero a las\l"
+	.string "investigaciones realmente\l"
+	.string "trascendentales...$"
+
+RocketHideout_6F_Petrel_Text_Mision_3:
+.string "He oído que vuestro rendimiento\n"
+	.string "fue aceptable en ISLA INTA, está\l"
+	.string "por ver vuestra evolución en\l"
+	.string "KANTO.\l"
+	.string "Como RECLUTAS novatos que sóis, os\l"
+	.string "reuniréis en vuestra SEGUNDA\l"
+	.string "MISIÓN OFICIAL, la primera en\l"
+	.string "KANTO, con otros reclutas situados\l"
+	.string "en el MT.MOON, al oeste de CIUDAD\l"
+	.string "CELESTE.$"
+
+RocketHideout_6F_Petrel_Text_Mision_4:
+.string "Una vez allí, limpiaréis el lugar\n"
+	.string "de todo tipo de FÓSILES, PIEDRAS\l"
+	.string "LUNARES, PEPITAS u otros objetos\l"
+	.string "de valor. Dadle prioridad a los\l"
+	.string "FÓSILES. Su valor en el mercado\l"
+	.string "negro es enorme, más que cualquier\l"
+	.string "POKÉMON que podamos vender en el\l"
+	.string "CASINO AZULONA.$"
+
+RocketHideout_6F_Petrel_Text_Mision_5:
+.string "Al terminar el trabajo,\n"
+	.string "volved aquí de nuevo para\l"
+	.string "contabilizar la recolecta, y\l"
+	.string "establecer vuestra recompensa en\l"
+	.string "función de ello, ¿alguna pregunta?$"
+
+RocketHideout_6F_Petrel_Text_Mision_6:
+.string "ANDRA: Me preguntaba, SIR, la\n"
+	.string "forma de evaluar nuestro desempeño\l"
+	.string "en la misión, dado que seremos\l"
+	.string "muchos, ¿se evaluará únicamente al\l"
+	.string "colectivo o también de forma\l"
+	.string "individual?$"
+
+RocketHideout_6F_Petrel_Text_Mision_7:
+.string "PETREL: Así que tenemos a una\n"
+	.string "RECLUTA competitiva, si lo que te\l"
+	.string "preocupa es la imposibilidad de\l"
+	.string "ascender por quedar opacada entre\l"
+	.string "la actuación de una media,\l"
+	.string "ya deberías saber que prima el\l"
+	.string "colectivo, aún así, te lo dejaré\l"
+	.string "muy claro. Tienes dos formas de\l"
+	.string "escalar aquí:\l"
+	.string "1) Para cada misión grupal\l"
+	.string "realizamos evaluaciones de cada\l"
+	.string "rendimiento individual.\l"
+	.string "2) No en todas las misiones\l"
+	.string "enviamos RECLUTAS en masa, algunas\l"
+	.string "son individuales o en pareja, como\l"
+	.string "la vuestra en CASA CÓNSUL, es en\l"
+	.string "esas misiones donde tu mérito, o\l"
+	.string "tu culpa, es mayor.$"
+
+RocketHideout_6F_Petrel_Text_Mision_8:
+.string "Entendido, ¡no\n"
+	.string "defraudaremos al TEAM ROCKET y a\l"
+	.string "sus aspiraciones!$"
+
+RocketHideout_6F_Petrel_Text_Mision_9:
+.string "PETREL: Bien, marchad ya. Vuestra\n"
+	.string "llegada a KANTO y esta misión han\l"
+	.string "coincidido y ahora váis a\l"
+	.string "contrareloj, ya habrá tiempo de\l"
+	.string "explicaros cómo funcionan aquí las\l"
+	.string "cosas.\l"
+	.string "¡Traedme a esos FÓSILES y liquidad\l"
+	.string "a todo el que se oponga!$"
+
+RocketHideout_6F_Petrel_Text_Mision_10:
+.string "ANDRA/{PLAYER}: ¡ENTENDIDO, SIR!$"
+
+RocketHideout_6F_Petrel_Text_Mision_11:
+.string "ANDRA: Estamos de suerte {PLAYER},\n"
+	.string "acabamos de llegar y ya tenemos\l"
+	.string "trabajo. Vamos a hacernos con\l"
+	.string "todos esos FÓSILES sin importar\l"
+	.string "quién se oponga, nos vemos en la\l"
+	.string "entrada este del MT.MOON.$"
+
+RocketHideout_6F_Petrel_Mision_1_move1:
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_down
+walk_in_place_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move2:
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move3:
+walk_up
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move4:
+walk_slow_down
+face_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move5:
+walk_in_place_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move6:
+face_up
+step_end
+
+RocketHideout_6F_Petrel_Mision_1_move7:
+face_down
+step_end
+
+
+RocketHideout_6F_Warp::
+msgbox RocketHideout_6F_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_6F_Warp_No
+warp MAP_ROUTE5_HOUSE1, 0, 2
+release
+end
+
+RocketHideout_6F_Warp_No::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Warp_move1
+release
+end
+
+RocketHideout_6F_Warp_Text_YesNo:
+.string "Basta un leve salto para alcanzar\n"
+	.string "las escaleras que llevan a la\l"
+	.string "GUARDERÍA, ¿quieres salir de la\l"
+	.string "BASE?$"
+
+RocketHideout_6F_Warp_move1:
+walk_slow_right
+step_end

@@ -93,4 +93,59 @@ FileIsleMeadow6_Text_6No:
 	.string "lo mejor del mundo!\l"
 	.string "¡Eres una deshonra!$"
 
+
+FileIsleMeadow_Recluta_Balls::
+lock
+faceplayer
+msgbox FileIsleMeadow_Recluta_Balls_Text_1, MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq FileIsleMeadow_Recluta_Balls_No
+msgbox FileIsleMeadow_Recluta_Balls_Text_Yes, MSGBOX_DEFAULT
+trainerbattle_no_intro TRAINER_RECLUTA_BALL_1, FileIsleMeadow_Recluta_Balls_Text_2
+msgbox FileIsleMeadow_Recluta_Balls_Text_3, MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+giveitem ITEM_POKE_BALL, 5
+waitfanfare
+release
+end
+
+FileIsleMeadow_Recluta_Balls_No::
+msgbox FileIsleMeadow_Recluta_Balls_Text_4, MSGBOX_AUTOCLOSE
+release
+end
+
+
+
+FileIsleMeadow_Recluta_Balls_Text_1:
+    .string "¡Heyy, camarada!\n"
+	.string "¿Vas justo de objetos?\l"
+	.string "Quiero convertirme en un RECLUTA\l"
+	.string "de ALTO RANGO cuanto antes, si me\l"
+	.string "ayudas a entrenar te daré\l"
+	.string "algunas POKÉ BALL, para que tú\l"
+	.string "también puedas mejorar.$"
+
+FileIsleMeadow_Recluta_Balls_Text_YesNo:
+.string "Entonces, ¿echamos un combate?$"
+
+FileIsleMeadow_Recluta_Balls_Text_Yes:
+.string "Esa es la respuesta que esperaba,\n"
+	.string "¡prepárate para ver el poder de un\l"
+	.string "futuro ALTO RANGO!$"
+
+FileIsleMeadow_Recluta_Balls_Text_2:
+    .string "Tienes madera...$"
+
+
+FileIsleMeadow_Recluta_Balls_Text_3:
+	.string "Tienes un gran potencial camarada,\n"
+	.string "si te mantienes en el camino\l"
+	.string "llegarás lejos en el TEAM ROCKET,\l"
+	.string "¡toma esto!$"
+
+FileIsleMeadow_Recluta_Balls_Text_4:
+    .string "Huyendo de los combates solo\n"
+	.string "puedes aspirar a ser un pobre\l"
+	.string "RECLUTA, ¡créeme!$"
 	

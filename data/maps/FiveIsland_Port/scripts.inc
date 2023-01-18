@@ -33,9 +33,9 @@ applymovement OBJ_EVENT_ID_PLAYER, FiveIslandPort_Andra_move5
 waitmovement 0x0
 applymovement 3, FiveIslandPort_Andra_move3
 waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 msgbox FiveIslandPort_Text_Andra_4, MSGBOX_AUTOCLOSE
-delay 40
-warpsilent MAP_CELADON_CITY_SHOP_5F, 3, 6
+warpsilent MAP_CELADON_CITY_SHOP_5F, 0, 16
 release
 end
 

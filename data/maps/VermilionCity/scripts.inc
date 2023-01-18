@@ -123,3 +123,87 @@ VermilionCityDocumento_Text_104:
 	.string "Se deberá de atravesar el TÚNEL\l"
 	.string "ROCA para llegar a PUEBLO LAVANDA.\l"
 	.string "POLICÍA DE CIUDAD CARMÍN$"
+
+VermilionCityDerecha::     
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityDerechaMove1
+waitmovement 0
+msgbox VermilionCity_Text_Derecha, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityDerechaMove2
+waitmovement 0
+release     
+end
+
+VermilionCity_Text_Derecha:     
+    .string "(Debería ir a curar a mi equipo\n"
+	.string "antes por si las moscas).$"
+
+
+VermilionCityDerechaMove1:
+walk_in_place_slow_down
+step_end
+
+VermilionCityDerechaMove2:
+walk_down
+step_end
+
+
+VermilionCityIzq::     
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityIzqMove1
+waitmovement 0
+msgbox VermilionCity_Text_Izq, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCityIzqMove2
+waitmovement 0
+release     
+end
+
+VermilionCity_Text_Izq:     
+    .string "(Debería ir a curar a mi equipo\n"
+	.string "antes por si las moscas).$"
+
+
+VermilionCityIzqMove1:
+walk_in_place_slow_left
+step_end
+
+VermilionCityIzqMove2:
+walk_left
+step_end
+
+VermilionCityFlag::     
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+removeobject 7
+removeobject 12
+release     
+end
+
+VermilionCitySurge:: 
+playse SE_SLIDING_DOOR
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+addobject 12
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move1
+waitmovement 0x0
+delay 20
+msgbox VermilionCity_Text_Surge, MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+fadescreen 1
+delay 20
+removeobject 12
+fadescreen 0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_4
+setvar VAR_UNUSED_0x40F7, 7
+release
+end
+
+VermilionCity_Text_Surge:
+    .string "????: Ándate con cuidado chaval,\n"
+	.string "más te vale respetar la\l"
+	.string "tranquilidad de este lugar si no\l"
+	.string "quieres problemas. Advertido\l"
+	.string "quedas.$"
+
+VermilionCitySurge_move1:
+emote_exclamation_mark
+jump_special_down
+face_up
+step_end
