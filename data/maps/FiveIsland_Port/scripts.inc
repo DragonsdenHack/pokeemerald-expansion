@@ -35,7 +35,13 @@ applymovement 3, FiveIslandPort_Andra_move3
 waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 msgbox FiveIslandPort_Text_Andra_4, MSGBOX_AUTOCLOSE
-warpsilent MAP_CELADON_CITY_SHOP_5F, 0, 16
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 20 @BANCO DE MAPA
+setvar VAR_0x8001 4 @NUMERO DE MAPA
+setvar VAR_0x8002 0 @POSICION X
+setvar VAR_0x8003 16 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
 release
 end
 

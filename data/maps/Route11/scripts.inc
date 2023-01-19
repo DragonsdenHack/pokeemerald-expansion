@@ -164,3 +164,38 @@ end
 
 Route11Documento_Text_100:
 	.string "CUEVA DIGGLET$"
+
+
+Route11_Policias::
+lock
+playse SE_PIN
+applymovement 3, Route11_Policias_move1
+waitmovement 0x0
+msgbox Route11_Policias_Text MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route11_Policias_move2
+waitmovement 0
+applymovement 3, Route11_Policias_move3
+waitmovement 0x0
+release
+end
+
+
+Route11_Policias_Text:
+.string "¿Nos tomas por tontos?\n"
+	.string "¿De verdad crees que no vamos a\l"
+	.string "verte por pasar usando SURF?\l"
+	.string "¡Da media vuelta si no quieres que\l"
+	.string "llame al mismísimo LANCE!$"
+
+Route11_Policias_move1:
+face_down
+emote_exclamation_mark
+step_end
+
+Route11_Policias_move2:
+walk_slow_left
+step_end
+
+Route11_Policias_move3:
+walk_in_place_left
+step_end

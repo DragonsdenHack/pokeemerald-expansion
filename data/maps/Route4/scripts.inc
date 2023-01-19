@@ -56,6 +56,20 @@ Route4_Text_5:
 
 
 Route4_6::
+lock     
+faceplayer     
+msgbox Route4_Text_6, MSGBOX_DEFAULT
+release     
+end
+
+Route4_Text_6:
+.string "Las medias tintas no sirven de\n"
+	.string "nada, si quieres tumbar al rival\l"
+	.string "debes hacerlo con un poder bruto y\l"
+	.string "descontrolado, es la única forma\l"
+	.string "de sorprender y resquebrajar su\l"
+	.string "defensa, no darle tiempo a\l"
+	.string "recuperarse.$"
 end
 
 

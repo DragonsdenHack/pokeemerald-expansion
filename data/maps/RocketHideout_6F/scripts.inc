@@ -348,7 +348,7 @@ RocketHideout6FDocumento_Text_101:
 
 
 RocketHideout6FDocumento_102::
-msgbox RocketHideout6FDocumento_Text_102, MSGBOX_DEFAULT  
+msgbox RocketHideout6FDocumento_Text_102, MSGBOX_AUTOCLOSE 
 end
 
 RocketHideout6FDocumento_Text_102:
@@ -396,10 +396,14 @@ applymovement 27, RocketHideout_6F_Petrel_Mision_1_move5
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_8, MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Text_Mision_9, MSGBOX_AUTOCLOSE
-applymovement 14, RocketHideout_6F_Petrel_Mision_1_move5
+applymovement 27, RocketHideout_6F_Petrel_Mision_1_move5
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move5
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_10, MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move7
+applymovement 27, RocketHideout_6F_Petrel_Mision_1_move6
+waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_11, MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 fadescreen 1

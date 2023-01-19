@@ -59,7 +59,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FD",
+      "var_value": "0",
+      "script": "Route6_Path_Frontera"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FD",
+      "var_value": "0",
+      "script": "Route6_Path_Frontera"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FD",
+      "var_value": "0",
+      "script": "Route6_Path_Frontera"
+    }
   ],
   "bg_events": [
 

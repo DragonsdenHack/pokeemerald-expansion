@@ -129,6 +129,27 @@ walk_down
 walk_down
 step_end
 
+UndergroundPath2F_Andra_move_2.1:
+emote_exclamation_mark
+walk_down
+walk_down
+step_end
+
+UndergroundPath2F_Andra_move_2.2:
+emote_exclamation_mark
+walk_slow_right
+walk_down
+walk_down
+step_end
+
+UndergroundPath2F_Andra_move_2.3:
+emote_exclamation_mark
+walk_slow_right
+walk_down
+walk_slow_right
+walk_down
+step_end
+
 UndergroundPath2F_Andra_move_3:
 walk_in_place_right
 walk_in_place_down
@@ -148,3 +169,104 @@ walk_up
 walk_up
 walk_up
 step_end
+
+UndergroundPath2F_Andra2::
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath2F_Andra_move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 1, UndergroundPath2F_Andra_move_2.1
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_1, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_2, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_3, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_4, MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_2, UndergroundPath2F_Andra_Text_5
+msgbox UndergroundPath2F_Andra_Text_6, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_7, MSGBOX_AUTOCLOSE
+applymovement 1, UndergroundPath2F_Andra_move_5
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+removeobject 1
+setvar VAR_UNUSED_0x40F7, 8
+release
+end
+
+
+UndergroundPath2F_Andra3::
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath2F_Andra_move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 1, UndergroundPath2F_Andra_move_2.2
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_1, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_2, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_3, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_4, MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_2, UndergroundPath2F_Andra_Text_5
+msgbox UndergroundPath2F_Andra_Text_6, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_7, MSGBOX_AUTOCLOSE
+applymovement 1, UndergroundPath2F_Andra_move_5
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+removeobject 1
+setvar VAR_UNUSED_0x40F7, 8
+release
+end
+
+
+UndergroundPath2F_Andra4::
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath2F_Andra_move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 1, UndergroundPath2F_Andra_move_2.3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_1, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_2, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_3, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_4, MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_2, UndergroundPath2F_Andra_Text_5
+msgbox UndergroundPath2F_Andra_Text_6, MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, UndergroundPath2F_Andra_move_3
+waitmovement 0x0
+msgbox UndergroundPath2F_Andra_Text_7, MSGBOX_AUTOCLOSE
+applymovement 1, UndergroundPath2F_Andra_move_5
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+removeobject 1
+setvar VAR_UNUSED_0x40F7, 8
+release
+end

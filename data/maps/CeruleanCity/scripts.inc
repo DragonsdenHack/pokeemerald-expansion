@@ -217,3 +217,40 @@ CeruleanCity_Rocket_Excavar_move3:
 emote_exclamation_mark
 walk_down
 step_end
+
+
+CeruleanCityAbajo::     
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityAbajoMove1
+waitmovement 0
+msgbox CeruleanCity_Text_Abajo, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityAbajoMove2
+waitmovement 0
+release     
+end
+
+CeruleanCity_Text_Abajo:     
+    .string "(Mi misión es ir al MT.MOON para\n"
+	.string "recolectar FÓSILES, no pasearme\l"
+	.string "por CIUDAD CELESTE).$"
+
+
+CeruleanCityAbajoMove1:
+walk_in_place_slow_down
+step_end
+
+CeruleanCityAbajoMove2:
+walk_down
+step_end
+
+CeruleanCityAbajo_2::     
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityAbajoMove1
+waitmovement 0
+msgbox CeruleanCity_Text_Abajo_2, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityAbajoMove2
+waitmovement 0
+release     
+end
+
+CeruleanCity_Text_Abajo_2:
+.string "(PETREL te quiere ya en su\n"
+	.string "despacho, adónde crees que vas).$"

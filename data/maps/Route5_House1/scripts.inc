@@ -10,7 +10,9 @@ Route5House1_1::
 end
 
 Route5_House1_Criador::
-delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move1.1
+waitmovement 0x0
+delay 20
 playse SE_PIN
 applymovement 1, Route5_House1_Criador_1_move1
 applymovement 2, Route5_House1_Criador_1_move1
@@ -144,6 +146,10 @@ Route5_House1_Criador_9:
 Route5_House1_Criador_1_move1:
 emote_exclamation_mark
 face_down
+step_end
+
+Route5_House1_Criador_1_move1.1:
+face_up
 step_end
 
 Route5_House1_Criador_1_move2:

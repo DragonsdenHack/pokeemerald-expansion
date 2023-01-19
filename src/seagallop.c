@@ -330,7 +330,6 @@ static void Task_Seagallop_3(void)
     warpInfo = sSeag[gSpecialVar_0x8006];
     SetWarpDestination(warpInfo[0], warpInfo[1], -1, warpInfo[2], warpInfo[3]);
     PlayRainStoppingSoundEffect();
-    PlaySE(SE_EXIT);
     gFieldCallback = FieldCB_DefaultWarpExit;
     WarpIntoMap();
     SetMainCallback2(CB2_LoadMap);
@@ -345,7 +344,6 @@ static void Task_Seagallop_3b(void)
    
     SetWarpDestination(gSpecialVar_0x8000, gSpecialVar_0x8001, WARP_ID_NONE, gSpecialVar_0x8002, gSpecialVar_0x8003);
     PlayRainStoppingSoundEffect();
-    PlaySE(SE_EXIT);
     gFieldCallback = FieldCB_DefaultWarpExit;
     WarpIntoMap();
     SetMainCallback2(CB2_LoadMap);
