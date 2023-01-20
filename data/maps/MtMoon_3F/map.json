@@ -313,7 +313,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "15",
-      "script": "NULL"
+      "script": "MtMoon_3F_Miguel_Rojo"
     },
     {
       "type": "trigger",
@@ -322,7 +322,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "15",
-      "script": "NULL"
+      "script": "MtMoon_3F_Miguel_Rojo_4"
     },
     {
       "type": "trigger",
@@ -367,7 +367,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "17",
-      "script": "NULL"
+      "script": "MtMoon_3F_Pelea_Frank_4"
     },
     {
       "type": "trigger",
@@ -376,7 +376,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "17",
-      "script": "NULL"
+      "script": "MtMoon_3F_Pelea_Frank_3"
     },
     {
       "type": "trigger",
@@ -385,7 +385,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "17",
-      "script": "NULL"
+      "script": "MtMoon_3F_Pelea_Frank_2"
     },
     {
       "type": "trigger",
@@ -394,7 +394,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "17",
-      "script": "NULL"
+      "script": "MtMoon_3F_Pelea_Frank"
     }
   ],
   "bg_events": [

@@ -228,7 +228,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 35,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "16",
+      "script": "Route4_Frank"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 35,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "16",
+      "script": "Route4_Frank"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 35,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "16",
+      "script": "Route4_Frank"
+    }
   ],
   "bg_events": [
     {

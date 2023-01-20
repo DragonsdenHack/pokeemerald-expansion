@@ -256,3 +256,27 @@ step_end
 Route4_Evento_Karatekas_move8:
 face_left
 step_end
+
+Route4_Frank::
+applymovement OBJ_EVENT_ID_PLAYER, Route4_Frank_move1
+waitmovement 0x0
+playse SE_POKENAV_ON
+msgbox Route4_Frank_Text1 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+setvar VAR_UNUSED_0x40F7, 17
+release
+end
+
+Route4_Frank_Text1:
+.string "FRANK: ¿RECLUTA {PLAYER}?\n"
+	.string "¡¡¿Dónde estás?!!\l"
+	.string "¡¡Vuelve al lugar de los hechos\l"
+	.string "inmediatamente, vas a tener que\l"
+	.string "dar unas cuantas explicaciones\l"
+	.string "sobre lo que ha ocurrido!!$"
+
+Route4_Frank_move1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
