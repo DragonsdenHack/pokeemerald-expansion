@@ -112,3 +112,34 @@ end
 Route3Documento_Text_100:
 .string "RUTA 3\n"
 	.string "MT.MOON AL NORTE$"
+
+Route3_Frontera::    
+ applymovement OBJ_EVENT_ID_PLAYER, Route3_Frontera_Move1.1
+waitmovement 0
+playse SE_PIN
+applymovement 9, Route3_Frontera_Move1
+msgbox Route3_Frontera_Text_1, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route3_Frontera_Move2
+waitmovement 0
+release     
+end
+
+Route3_Frontera_Text_1:
+.string "No te recomiendo pasar por aquí si\n"
+	.string "quieres ser libre ROCKET, ¡la\l"
+	.string "policía está llevando no se qué\l"
+	.string "investigación por toda CIUDAD\l"
+	.string "PLATEADA!$"
+
+Route3_Frontera_Move1.1:
+walk_in_place_down
+step_end
+
+Route3_Frontera_Move1:
+emote_exclamation_mark
+face_up
+step_end
+
+Route3_Frontera_Move2:
+walk_slow_up
+step_end

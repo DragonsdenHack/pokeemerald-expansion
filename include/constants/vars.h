@@ -268,9 +268,9 @@
 #define VAR_UNUSED_0x40F9                    0x40F9 // Unused Var // GIMNASIOS
 #define VAR_UNUSED_0x40FA                    0x40FA // Unused Var // WARPS Y TRAMPILLAS (0)
 #define VAR_UNUSED_0x40FB                    0x40FB // Unused Var // Evento Karatekas en ruta 4 (0)
-#define VAR_UNUSED_0x40FC                    0x40FC // Unused Var // Frontera Celeste (0) // Frontera Celeste antes de Petrel post Mt.moon (1)
+#define VAR_UNUSED_0x40FC                    0x40FC // Unused Var // Frontera Este Carmin// (0) //Frontera Celeste (1) // Frontera Celeste antes de Petrel post Mt.moon (2)
 #define VAR_UNUSED_0x40FD                    0x40FD // Unused Var // Policías Azafrán Fronteras
-#define VAR_UNUSED_0x40FE                    0x40FE // Unused Var
+#define VAR_UNUSED_0x40FE                    0x40FE // Unused Var // Frontera Ruta 4 // Frontera Cueva Digglet
 #define VAR_UNUSED_0x40FF                    0x40FF // Unused Var
 
 #define VARS_END                             0x40FF

@@ -583,3 +583,224 @@ RocketHideout_6F_Warp_Text_YesNo:
 RocketHideout_6F_Warp_move1:
 walk_slow_right
 step_end
+
+RocketHideout_6F_Petrel_Mision_2::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_2_move1
+waitmovement 0x0
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_1, MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_2, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move3
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_3, MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_2, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move4
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_4, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_5, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_6, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move3
+waitmovement 0x0
+showmoneybox 0, 0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_7, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_2_move5
+waitmovement 0x0
+delay 10
+playse SE_SHOP
+paymoney 999999 0
+updatemoneybox
+delay 80
+playse SE_M_EMBER
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_8, MSGBOX_AUTOCLOSE
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_2_move6
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_9, MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_2, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move3
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_10, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move4
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_11, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move4
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_12, MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Text_Mision_2_13, MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 19
+setvar VAR_UNUSED_0x40FC, 2
+release
+end
+
+RocketHideout_6F_Petrel_Text_Mision_2_1:
+.string "PETREL: RECLUTA {PLAYER}, tu\n"
+	.string "numerito en el MT.MOON no ha\l"
+	.string "pasado inadvertido. El RECLUTA de\l"
+	.string "ALTO RANGO FRANK ya me ha dado su\l"
+	.string "versión de los hechos, y de cómo\l"
+	.string "podríamos haber acabado con nada\l"
+	.string "más que dos FÓSILES más en nuestro\l"
+	.string "bolsillo, ¿tienes idea del dinero\l"
+	.string "que es eso {PLAYER}, la de\l"
+	.string "proyectos y recursos que podríamos\l"
+	.string "mantener con ello?$"
+
+
+RocketHideout_6F_Petrel_Text_Mision_2_2:
+.string "...$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_3:
+.string "Ahora mismo podría mandarte\n"
+	.string "directo al calabozo y dejarte ahí\l"
+	.string "lo suficiente como para hacerte\l"
+	.string "reflexionar sobre tus actos, o\l"
+	.string "peor aún, expulsarte de la\l"
+	.string "organización.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_4:
+.string "No obstante, tu jefe al mando en\n"
+	.string "la misión del MT.MOON podrá ser\l"
+	.string "demasiado duro y poco paciente,\l"
+	.string "pero fuera del fragor del terreno\l"
+	.string "de juego sus valoraciones son\l"
+	.string "totalmente objetivas e\l"
+	.string "imparciales.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_5:
+.string "No todos los días un RECLUTA\n"
+	.string "normal se enfrenta y derrota a un\l"
+	.string "superior al mando. Eres\l"
+	.string "increíblemente valiente o\l"
+	.string "increíblemente estúpido, o ambos,\l"
+	.string "sea como sea lo descubriremos.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_6:
+.string "Tengo una misión para ti. Veremos\n"
+	.string "hasta donde llega tu valía como\l"
+	.string "ENTRENADOR y ese -código de honor\l"
+	.string "ROCKET- del que hablaste en el\l"
+	.string "MT.MOON.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_7:
+.string "Pero antes debes de\n"
+	.string "responsabilizarte de tu deficiente\l"
+	.string "rendimiento en la última misión.\l"
+	.string "Has de saber que el valor estimado\l"
+	.string "de los FÓSILES que has dejado\l"
+	.string "escapar es de 600000 POKÉS en el\l"
+	.string "mercado negro, como consecuencia,\l"
+	.string "y para enmendar en parte esas\l"
+	.string "posibles ganancias potenciales,\l"
+	.string "abonarás al TEAM ROCKET todo el\l"
+	.string "dinero físico del que dispones en\l"
+	.string "este momento. Como castigo y\l"
+	.string "prueba de lealtad.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_8:
+.string "(Te has quedado con 0 POKÉS).$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_9:
+.string "PETREL: El pago justo por una\n"
+	.string "nueva oportunidad, ¿no crees?. Te\l"
+	.string "aseguro que si cumples con éxito\l"
+	.string "el encargo que te asignaré, el\l"
+	.string "dinero será el menor de tus\l"
+	.string "problemas, pues su cumplimiento\l"
+	.string "nos ahorraría unos costes enormes.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_10:
+.string "Como sabrás, siempre hemos hecho\n"
+	.string "uso del puerto de CARMÍN como eje\l"
+	.string "conector entre KANTO e ISLA INTA,\l"
+	.string "sin embargo la policía de KANTO\l"
+	.string "está cada vez más al acecho y se\l"
+	.string "hace más y más difícil y caro\l"
+	.string "sobornar a los marineros para\l"
+	.string "importar nuestras mercancías y\l"
+	.string "soldados desde ISLA INTA. A pesar\l"
+	.string "de tu intervención silenciando a\l"
+	.string "la CÓNSUL del lugar, es cuestión\l"
+	.string "de tiempo que nos corten el\l"
+	.string "chiringito por esa vía...$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_11:
+.string "Y es aquí donde entra tu misión,\n"
+	.string "nos han llegado rumores de que\l"
+	.string "BILL, ese estúpido que solo ve a\l"
+	.string "los POKÉMON como cromos\l"
+	.string "coleccionables, ha desarrollado un\l"
+	.string "sistema de teletransporte capaz de\l"
+	.string "cubrir grandes distancias. Tu\l"
+	.string "misión será hacerle una visita a\l"
+	.string "su casa al norte de CIUDAD\l"
+	.string "CELESTE, al final de RUTA 25, y\l"
+	.string "hacerte con la patente o toda\l"
+	.string "información respecto a ese\l"
+	.string "novedoso sistema de\l"
+	.string "teletransportación.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_12:
+.string "Si finalmente consigues obtener\n"
+	.string "información útil que nuestros\l"
+	.string "científicos puedan emplear para\l"
+	.string "desarrollar puntos de conexión vía\l"
+	.string "teletransportación entre ISLA INTA\l"
+	.string "y KANTO, ahorrarías millones de\l"
+	.string "POKÉS en gastos de transporte. He\l"
+	.string "aquí la oportunidad que te doy de\l"
+	.string "enmendar tu falta en el MT.MOON.$"
+
+RocketHideout_6F_Petrel_Text_Mision_2_13:
+.string "Eso es todo por ahora, BILL\n"
+	.string "tratará de proteger su patente a\l"
+	.string "todo costo, por lo que debes de\l"
+	.string "estar alerta y mantener fuertes a\l"
+	.string "tus POKÉMON para someterlo. Más te\l"
+	.string "vale que tu victoria ante FRANK no\l"
+	.string "haya sido casualidad.$"
+
+RocketHideout_6F_Petrel_Mision_2_move1:
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_down
+walk_in_place_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_2_move2:
+walk_in_place_left
+
+RocketHideout_6F_Petrel_Mision_2_move3:
+face_up
+delay_1
+walk_slow_up
+walk_in_place_left
+step_end
+
+
+RocketHideout_6F_Petrel_Mision_2_move4:
+walk_slow_down
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_2_move5:
+walk_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_2_move6:
+walk_left
+walk_in_place_right
+step_end

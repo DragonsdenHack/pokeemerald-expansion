@@ -794,6 +794,7 @@ delay 20
 removeobject 17
 fadescreen 0
 setvar VAR_UNUSED_0x40F7, 18
+setvar VAR_UNUSED_0x40FC, 1
 release
 end
 
