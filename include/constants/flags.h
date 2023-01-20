@@ -741,24 +741,24 @@
 #define FLAG_UNUSED_0x2BB  0x2BB // Unused Flag
 
 // Event Flags
-#define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC // RECLUTAS ROCKET INTA // AZUL INTA //ROCKETS CASA CONSUL // ESCENA 1// Rojo y Surge CARMIN//
+#define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC // RECLUTAS ROCKET INTA // AZUL INTA //ROCKETS CASA CONSUL // ESCENA 1// Rojo y Surge CARMIN//Rockets Celeste
 #define FLAG_HIDE_APPRENTICE                                        0x2BD
 #define FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN                0x2BE
-#define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF // ANDRA CASA CONSUL set// clear andra carmin
-#define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // ANDRA PUERTO ISLA INTA set// clear motero carmin
-#define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO
+#define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF // ANDRA CASA CONSUL set// clear andra carmin //clear fósiles cient.Mtmoon
+#define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // ANDRA PUERTO ISLA INTA set // clear motero carmin // clear Miguel Mt.moon
+#define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO // clear Rojo Mt.moon
 #define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // CLEAR FLAG MISION EEVEES
 #define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA
 #define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4 // ANDRA CUARTEL PETREL
-#define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // RECLUTA CELESTE EXCAVAR
-#define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA
+#define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // RECLUTA CELESTE EXCAVAR //SETEAR EN UN EVENTO PRÓXIMO A ROJO CELESTE
+#define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// 
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F 
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC
-#define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // ANDRA DESPACHO ATLAS
+#define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // ANDRA DESPACHO ATLAS //clearflag rockets post derrota rojo mt.moon
 #define FLAG_HIDE_MEW                                               0x2CE
 #define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // LIBRE
 #define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 
@@ -1329,7 +1329,7 @@
 #define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD
 #define FLAG_DEFEATED_ELITE_4_DRAKE                                 0x4FE
 
-#define FLAG_CUSTOM_SEAGALLOP                                           0x4FF // Unused Flag
+#define FLAG_UNUSED_0x4FF                                           0x4FF // Unused Flag
 
 // Trainer Flags
 // Trainer flags occupy 0x500 - 0x85F, the last 9 of which are unused

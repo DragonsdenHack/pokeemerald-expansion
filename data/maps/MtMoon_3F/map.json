@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon3F_5",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon3F_6",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon3F_9",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FOSSIL2",
@@ -141,8 +141,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon3F_10",
-      "flag": "0"
+      "script": "MtMoon_3F_Fosil",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtMoon3F_11",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FOSSIL2",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -181,7 +181,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -194,7 +194,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -207,7 +207,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -220,7 +220,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
@@ -233,7 +233,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -246,7 +246,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -259,7 +259,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROJO",
@@ -272,7 +272,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     }
   ],
   "warp_events": [
@@ -312,7 +312,7 @@
       "y": 12,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
+      "var_value": "15",
       "script": "NULL"
     },
     {
@@ -321,7 +321,7 @@
       "y": 12,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
+      "var_value": "15",
       "script": "NULL"
     },
     {
@@ -340,7 +340,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "12",
-      "script": "NULL"
+      "script": "MtMoon_3F_Azul_2"
     },
     {
       "type": "trigger",
@@ -349,7 +349,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "12",
-      "script": "NULL"
+      "script": "MtMoon_3F_Azul_3"
     },
     {
       "type": "trigger",
@@ -358,7 +358,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "12",
-      "script": "NULL"
+      "script": "MtMoon_3F_Azul_4"
     },
     {
       "type": "trigger",
@@ -366,7 +366,7 @@
       "y": 13,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
+      "var_value": "17",
       "script": "NULL"
     },
     {
@@ -375,7 +375,7 @@
       "y": 13,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
+      "var_value": "17",
       "script": "NULL"
     },
     {
@@ -384,7 +384,7 @@
       "y": 6,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
+      "var_value": "17",
       "script": "NULL"
     },
     {
@@ -393,7 +393,7 @@
       "y": 6,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
+      "var_value": "17",
       "script": "NULL"
     }
   ],
