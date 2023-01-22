@@ -35,7 +35,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route24_1",
+      "script": "Route24_Recluta_2",
       "flag": "0"
     },
     {
@@ -134,7 +134,24 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "19",
+      "script": "Route24_Recluta"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "19",
+      "script": "Route24_Recluta"
+    }
   ],
   "bg_events": [
 

@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "BillGarden_House1_Detenido",
       "flag": "0"
     },
     {
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BillGardenHouse1_3",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_7"
     }
   ],
   "warp_events": [
@@ -64,7 +64,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "21",
+      "script": "BillGarden_House1_Bill_Combate"
+    }
   ],
   "bg_events": [
 

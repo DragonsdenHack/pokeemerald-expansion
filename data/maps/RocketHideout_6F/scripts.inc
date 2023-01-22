@@ -612,7 +612,7 @@ applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_2_move5
 waitmovement 0x0
 delay 10
 playse SE_SHOP
-paymoney 999999 0
+removemoney 999999 0
 updatemoneybox
 delay 80
 playse SE_M_EMBER
@@ -782,6 +782,7 @@ step_end
 
 RocketHideout_6F_Petrel_Mision_2_move2:
 walk_in_place_left
+step_end
 
 RocketHideout_6F_Petrel_Mision_2_move3:
 face_up

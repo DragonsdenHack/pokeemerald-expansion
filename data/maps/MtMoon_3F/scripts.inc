@@ -53,13 +53,13 @@ lock
 faceplayer    
 compare VAR_UNUSED_0x40F7, 12
 goto_if_gt MtMoon3F_9_2
-msgbox MtMoon3F_Text_9, MSGBOX_DEFAULT
+msgbox MtMoon3F_Text_9, MSGBOX_AUTOCLOSE
 end
 
 MtMoon3F_9_2::
 lock
 faceplayer
-msgbox MtMoon3F_Text_9_2, MSGBOX_DEFAULT
+msgbox MtMoon3F_Text_9_2, MSGBOX_AUTOCLOSE
 release
 end
 
@@ -91,7 +91,7 @@ compare VAR_UNUSED_0x40F7, 14
 goto_if_gt MtMoon3F_11_3  
 compare VAR_UNUSED_0x40F7, 13
 goto_if_gt MtMoon3F_11_2
-msgbox MtMoon3F_Text_11, MSGBOX_DEFAULT
+msgbox MtMoon3F_Text_11, MSGBOX_AUTOCLOSE
 end
 
 MtMoon3F_11_2::
@@ -100,16 +100,16 @@ faceplayer
 delay 15
 playse SE_PIN
 applymovement 11, MtMoon3F_9_2_move1
-playse MUS_OBTAIN_B_POINTS
-msgbox MtMoon3F_Text_11_1, MSGBOX_DEFAULT
+playse MUS_OBTAIN_ITEM
+msgbox MtMoon3F_Text_11_1, MSGBOX_AUTOCLOSE
 waitfanfare
-msgbox MtMoon3F_Text_11_2, MSGBOX_DEFAULT
+msgbox MtMoon3F_Text_11_2, MSGBOX_AUTOCLOSE
 playse SE_POKENAV_ON
 delay 20
-msgbox MtMoon3F_Text_11_3, MSGBOX_DEFAULT
+msgbox MtMoon3F_Text_11_3, MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
 delay 20
-msgbox MtMoon3F_Text_11_4, MSGBOX_DEFAULT
+msgbox MtMoon3F_Text_11_4, MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 15
 release
 end
@@ -117,7 +117,7 @@ end
 MtMoon3F_11_3::
 lock
 faceplayer
-msgbox MtMoon3F_Text_11_5, MSGBOX_DEFAULT
+msgbox MtMoon3F_Text_11_5, MSGBOX_AUTOCLOSE
 release
 end
 
@@ -420,19 +420,19 @@ addobject 13
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 applymovement 13, MtMoon_3F_Miguel_Rojo_move2
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_1 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_1 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 13, MtMoon_3F_Miguel_Rojo_move3
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_2 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_2 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 13, MtMoon_3F_Miguel_Rojo_move4
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_3 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_3 MSGBOX_AUTOCLOSE
 delay 10
 applymovement 13, MtMoon_3F_Miguel_Rojo_move5
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_4 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_4 MSGBOX_AUTOCLOSE
 applymovement 13, MtMoon_3F_Miguel_Rojo_move6
 waitmovement 0
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
@@ -440,14 +440,14 @@ addobject 12
 delay 10
 applymovement 13, MtMoon_3F_Miguel_Rojo_move7
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_5 MSGBOX_DEFAULT
-msgbox MtMoon_3F_Miguel_Rojo_text_6 MSGBOX_YES_NO
+msgbox MtMoon_3F_Miguel_Rojo_text_5 MSGBOX_AUTOCLOSE
+msgbox MtMoon_3F_Miguel_Rojo_text_6 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq MtMoon_3F_Miguel_Rojo_2
 goto MtMoon_3F_Miguel_Rojo_3
 
 MtMoon_3F_Miguel_Rojo_3::
-msgbox MtMoon_3F_Miguel_Rojo_text_7 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_7 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move8
 waitmovement 0
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
@@ -456,19 +456,19 @@ delay 10
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move9
 applymovement 13, MtMoon_3F_Miguel_Rojo_move10
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_8 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_8 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 trainerbattle_no_intro TRAINER_KEVIN, MtMoon_3F_Miguel_Rojo_text_9
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move11
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_10 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_10 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_ON
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move7
 waitmovement 0
 playse SE_PIN
 applymovement 13, MtMoon_3F_Miguel_Rojo_move3
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_11 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_11 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move12
 waitmovement 0
@@ -477,7 +477,7 @@ clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 addobject 20
 applymovement 20, MtMoon_3F_Miguel_Rojo_move13
 waitmovement 0
-msgbox MtMoon_3F_Miguel_Rojo_text_12 MSGBOX_DEFAULT
+msgbox MtMoon_3F_Miguel_Rojo_text_12 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 16
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
@@ -487,8 +487,8 @@ goto MtMoon_3F_Miguel_Rojo_3
 end
 
 MtMoon_3F_Miguel_Rojo_2::
-msgbox MtMoon_3F_Miguel_Rojo_text_14 MSGBOX_DEFAULT
-msgbox MtMoon_3F_Miguel_Rojo_text_6 MSGBOX_YES_NO
+msgbox MtMoon_3F_Miguel_Rojo_text_14 MSGBOX_AUTOCLOSE
+msgbox MtMoon_3F_Miguel_Rojo_text_6 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq MtMoon_3F_Miguel_Rojo_2
 goto MtMoon_3F_Miguel_Rojo_3
@@ -498,7 +498,7 @@ end
 MtMoon_3F_Miguel_Rojo_4::
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move1.1
 waitmovement 0
-goto MtMoon_3F_Miguel_Rojo_1
+goto MtMoon_3F_Miguel_Rojo
 release
 end
 
@@ -520,7 +520,7 @@ MtMoon_3F_Miguel_Rojo_text_3:
 	.string "de aquí con dos FÓSILES).$"
 
 MtMoon_3F_Miguel_Rojo_text_4:
-Te propongo algo, ROCKET.
+.string "Te propongo algo, ROCKET.$"
 
 MtMoon_3F_Miguel_Rojo_text_5:
 .string "Lo que ves ahí es un FÓSIL HELIX,\n"
@@ -557,7 +557,7 @@ MtMoon_3F_Miguel_Rojo_text_9:
 	.string "controlado.$"
 
 MtMoon_3F_Miguel_Rojo_text_10:
-.string "Grrr[.]\n"
+.string "Grrr...\n"
 	.string "Tú no eres un ROCKET normal, no me\l"
 	.string "gusta nada la gente que se sale de\l"
 	.string "las estadísticas. En cuanto los\l"
@@ -773,7 +773,7 @@ applymovement 17, MtMoon_3F_Pelea_Frank_move10
 waitmovement 0
 msgbox MtMoon_3F_Pelea_Frank_texto12 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto13 MSGBOX_AUTOCLOSE
-plyase SE_POKENAV_ON
+playse SE_POKENAV_ON
 applymovement 17, MtMoon_3F_Pelea_Frank_move11
 waitmovement 0
 msgbox MtMoon_3F_Pelea_Frank_texto14 MSGBOX_AUTOCLOSE
@@ -781,7 +781,7 @@ msgbox MtMoon_3F_Pelea_Frank_texto15 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto16 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto17 MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Pelea_Frank_texto18 MSGBOX_AUTOCLOSE
-plyase SE_POKENAV_OFF
+playse SE_POKENAV_OFF
 delay 20
 applymovement 17, MtMoon_3F_Pelea_Frank_move12
 waitmovement 0
@@ -801,7 +801,7 @@ end
 MtMoon_3F_Pelea_Frank_texto1:
 .string "A.R FRANK: Así que al menos tienes\n"
 	.string "el valor de venir. Se te encomendó\l"
-	.string "una misión [player]: proteger el\l"
+	.string "una misión {PLAYER}: proteger el\l"
 	.string "FÓSIL con tu vida, y has fracasado\l"
 	.string "miserablemente, ¿tienes algo que\l"
 	.string "decir al respecto?$"
@@ -828,7 +828,7 @@ MtMoon_3F_Pelea_Frank_texto4:
 .string "ANDRA: Perdone mi interrupción\n"
 	.string "superior FRANK, pero he tenido\l"
 	.string "oportunidad de ver combatir a\l"
-	.string "[player] y no es precisamente un\l"
+	.string "{PLAYER} y no es precisamente un\l"
 	.string "ENTRENADOR débil e incompetente.\l"
 	.string "Todos los que se han cruzado con\l"
 	.string "ese ENTRENADOR misterioso han\l"
@@ -922,7 +922,7 @@ MtMoon_3F_Pelea_Frank_texto12:
 MtMoon_3F_Pelea_Frank_texto13:
 .string "Yo no me he cruzado con ese\n"
 	.string "misterioso ENTRENADOR, ¿llevaba un\l"
-	.string "CHARMELEON?. Parece que aquí hay\l"
+	.string "CHARMELEON? Parece que aquí hay\l"
 	.string "gente verdaderamente fuerte,\l"
 	.string "debemos de mejorar más y\l"
 	.string "prepararnos para que ese tipo no\l"

@@ -64,7 +64,7 @@
       "x": 36,
       "y": 4,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_RUN_IN_PLACE_UP",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -200,7 +200,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 51,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FF",
+      "var_value": "1",
+      "script": "Route25_Casa_Bill_Abajo"
+    }
   ],
   "bg_events": [
     {

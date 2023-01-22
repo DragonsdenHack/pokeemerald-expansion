@@ -47,7 +47,7 @@ DiggletCave1F_Frontera_Text_1:
 	.string "esos lugares!$"
 
 
-DiggletCave1F_Frontera_Move1
+DiggletCave1F_Frontera_Move1:
 emote_exclamation_mark
 face_right
 step_end
@@ -61,5 +61,5 @@ walk_slow_up
 step_end
 
 DiggletCave1F_Frontera_Move3.1:
-walk_left_up
+walk_slow_left
 step_end

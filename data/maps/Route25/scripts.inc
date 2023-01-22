@@ -134,3 +134,26 @@ end
 Route25Documento_Text_100:
 	.string "CASA DEL MAR\n"
 	.string "¡BILL vive aquí!$"
+
+Route25_Casa_Bill_Abajo::     
+applymovement OBJ_EVENT_ID_PLAYER, Route25_Casa_Bill_AbajoMove1
+waitmovement 0
+msgbox Route25_Casa_Bill_Text_Abajo, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route25_Casa_Bill_AbajoMove2
+waitmovement 0
+release     
+end
+
+Route25_Casa_Bill_Text_Abajo:     
+    .string "(Después de todo lo que paso aquí\n"
+	.string "más vale no volver a tentar a la\l"
+	.string "suerte).$"
+
+
+Route25_Casa_Bill_AbajoMove1:
+walk_in_place_slow_up
+step_end
+
+Route25_Casa_Bill_AbajoMove2:
+walk_down
+step_end
