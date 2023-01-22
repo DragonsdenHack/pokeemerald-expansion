@@ -122,6 +122,7 @@ playmoncry SPECIES_SKARMORY, CRY_MODE_ENCOUNTER
 delay 20
 playse SE_M_FLY
 setvar VAR_UNUSED_0x40FF, 1
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 warp MAP_ROUTE5, 23, 26
 release
 end

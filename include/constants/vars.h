@@ -236,7 +236,7 @@
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE             0x40DA
 #define VAR_UNUSED_0x40DB                    0x40DB // Unused Var
-#define VAR_UNUSED_0x40DC                    0x40DC // Unused Var
+#define VAR_UNUSED_0x40DC                    0x40DC // Barrera puerto carmin
 #define VAR_GIFT_PICHU_SLOT                  0x40DD
 #define VAR_GIFT_UNUSED_1                    0x40DE // Var is written to, but never read
 #define VAR_GIFT_UNUSED_2                    0x40DF // Var is written to, but never read
@@ -271,7 +271,7 @@
 #define VAR_UNUSED_0x40FC                    0x40FC // Unused Var // Frontera Este Carmin// (0) //Frontera Celeste (1) // Frontera Celeste antes de Petrel post Mt.moon (2)
 #define VAR_UNUSED_0x40FD                    0x40FD // Unused Var // Policías Azafrán Fronteras
 #define VAR_UNUSED_0x40FE                    0x40FE // Unused Var // Frontera Ruta 4 // Frontera Cueva Digglet
-#define VAR_UNUSED_0x40FF                    0x40FF // Unused Var
+#define VAR_UNUSED_0x40FF                    0x40FF // Unused Var // Casa de bill no entrar después evento
 
 #define VARS_END                             0x40FF
 #define VARS_COUNT                           (VARS_END - VARS_START + 1)

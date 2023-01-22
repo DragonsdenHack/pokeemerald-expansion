@@ -805,3 +805,527 @@ RocketHideout_6F_Petrel_Mision_2_move6:
 walk_left
 walk_in_place_right
 step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill::
+lockall
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
+addobject 28
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_1 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_2
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_3
+waitmovement 0x0
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_4
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_5
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_6
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_2 MSGBOX_AUTOCLOSE
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_7
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_3 MSGBOX_AUTOCLOSE
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_8
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_4 MSGBOX_AUTOCLOSE
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_7
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_9
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_5 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_8
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_9
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_7 MSGBOX_AUTOCLOSE
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_7
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_8 MSGBOX_AUTOCLOSE
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_10
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_9 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_10 MSGBOX_AUTOCLOSE
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_7
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_11 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_8
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_11
+waitmovement 0x0
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_7
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_12
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_12
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_12 MSGBOX_AUTOCLOSE
+applymovement 28, RocketHideout_6F_Petrel_Mision_3_Bill_move_13
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
+removeobject 28
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_13 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_8
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_14 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_14
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_15 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_SYMBOL
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_16 MSGBOX_DEFAULT
+waitfanfare
+showmoneybox 0, 0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_17 MSGBOX_AUTOCLOSE
+playse SE_SHOP
+addmoney 125000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_18 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_15
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_19 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_SHOP
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_16
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_20 MSGBOX_AUTOCLOSE
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_21 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_22 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_8
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_23 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_24 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_17
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_25 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_18
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_26 MSGBOX_AUTOCLOSE
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_27 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_28 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_29 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_17
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_30 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_19
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_19
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_31 MSGBOX_AUTOCLOSE
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_32 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_33 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_34 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_18
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_35 MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_20
+applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_12
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_36 MSGBOX_AUTOCLOSE
+fadescreen 1
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+delay 20
+removeobject 27
+fadescreen 0
+setvar VAR_UNUSED_0x40FC, 1
+setvar VAR_UNUSED_0x40F7, 23
+setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
+release
+end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_1:
+.string "ATLAS: Es inadmisible PETREL.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_2:
+.string "Deberías de saber que BILL es\n"
+	.string "el niñito mimado de las élites de\l"
+	.string "esta región. Ese tipo siempre\l"
+	.string "cuenta con una guardia personal\l"
+	.string "que le vigila a una distancia\l"
+	.string "prudencial, por si fuera poco toda\l"
+	.string "la POLICÍA de CIUDAD CELESTE\l"
+	.string "prioriza su protección ante todo.\l"
+	.string "Ha sido una imprudencia enviar a\l"
+	.string "uno de los nuestros a robar algo\l"
+	.string "de esa importancia de esta manera.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_3:
+.string "Por fortuna para nosotros, pude\n"
+	.string "rescatar a {PLAYER} en el último\l"
+	.string "momento, y con ello la patente que\l"
+	.string "nos permitirá ahorrarnos millones\l"
+	.string "en transporte y logística.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_4:
+.string "ATLAS: La intervención de {PLAYER},\n"
+	.string "batiendo a múltiples policías,\l"
+	.string "obteniendo la patente y siendo\l"
+	.string "capaz de aguantarla hasta el final\l"
+	.string "ha sido determinante para el éxito\l"
+	.string "de esta misión.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_5:
+.string "PETREL: Es cierto, ATLAS.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_6:
+.string "PETREL: Tengo que disculparme\n"
+	.string "contigo {PLAYER}, no fui consciente\l"
+	.string "del riesgo que corrías y debí\l"
+	.string "suponer que una personalidad como\l"
+	.string "BILL estaría más protegido. Me\l"
+	.string "dijeron que eras buen ENTRENADOR y\l"
+	.string "estimé que tu nivel daría para\l"
+	.string "derrotar a ese fanfarrón en un\l"
+	.string "combate, pero no conté con la\l"
+	.string "reacción inmediata de la POLICÍA.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_7:
+.string "PETREL: ¿Cómo supiste de esta\n"
+	.string "misión, ATLAS?\l"
+	.string "Pensaba que aún eras el principal\l"
+	.string "encargado de nuestras bases en\l"
+	.string "ISLAS SETE.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_8:
+.string "ATLAS: Y así es PETREL, ANDRA se\n"
+	.string "enteró de la misión y me avisó\l"
+	.string "inmediatamente. Mi SKARMORY hizo\l"
+	.string "el resto, aunque visto lo visto\l"
+	.string "tal vez no haga más falta hacer\l"
+	.string "uso de VUELO.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_9:
+.string "ATLAS: ...$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_10:
+.string "Bien. Yo me retiro, hay\n"
+	.string "mucho trabajo por hacer en las\l"
+	.string "islas.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_11:
+.string "¡PETREL!\n"
+	.string "Procura recompensar como es debido\l"
+	.string "a estos 2 reclutas. Sus\l"
+	.string "actuaciones van a partir de ahora\l"
+	.string "ahorrarnos un tiempo precioso y\l"
+	.string "millones de POKÉS.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_12:
+.string "ATLAS: No creas que te he salvado\n"
+	.string "por sentir especial predilección\l"
+	.string "hacia ti. Eres un activo valioso\l"
+	.string "para nuestra organización, y has\l"
+	.string "actuado acorde a nuestros valores,\l"
+	.string "con eso basta...\l"
+	.string "Os veré a los dos en próximos\l"
+	.string "eventos.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_13:
+.string "PETREL: ATLAS es la eficiencia\n"
+	.string "personificada, por eso es el\l"
+	.string "ADMINISTRADOR de mayor rango en el\l"
+	.string "TEAM ROCKET.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_14:
+.string "En cuanto a vosotros, me disculpo\n"
+	.string "de nuevo, especialmente contigo,\l"
+	.string "{PLAYER}. Muchos pensaban que en\l"
+	.string "ISLA INTA solo había debiluchos e\l"
+	.string "incompetentes ROCKET. Habéis\l"
+	.string "demostrado que no.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_15:
+.string "Por el desempeño y lealtad\n"
+	.string "mostrados hacia el EQUIPO ROCKET,\l"
+	.string "ambos sois ascendidos.\l"
+	.string "Pasáis de ser unos soldados rasos\l"
+	.string "comunes, a RECLUTAS DE ALTO RANGO.\l"
+	.string "Eso os dará potestad para dirigir\l"
+	.string "ciertas misiones, como hizo FRANK\l"
+	.string "con vosotros en el MT.MOON, además\l"
+	.string "de el rango suficiente para\l"
+	.string "asistir a reuniones privadas con\l"
+	.string "nuestro LÍDER GIOVANNI, así como\l"
+	.string "acceso a cierta información\l"
+	.string "privilegiada, pero todo eso a su\l"
+	.string "tiempo...$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_16:
+.string "¡¡{PLAYER} fue ascendido a RECLUTA\n"
+	.string "DE ALTO RANGO!!$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
+.string "PETREL: Para celebrar vuestro\n"
+	.string "nuevo estatus aquí, y como\l"
+	.string "pago por el éxito en\l"
+	.string "vuestras respectivas misiones,\l"
+	.string "aquí tenéis vuestras recompensas...\l"
+	.string "A ti {PLAYER}, dado el ahorro que\l"
+	.string "supondrá esa patente, y en\l"
+	.string "compensación por dejarte antes a 0\l"
+	.string "POKÉS después de la misión del\l"
+	.string "MT.MOON, te corresponde lo\l"
+	.string "siguiente...$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
+.string "¡Acabas de facturar 125000 POKÉS!$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_19:
+.string "PETREL: Por tu parte ANDRA, tu\n"
+	.string "aviso a ATLAS también fue crucial,\l"
+	.string "y cumpliste con el encargo que te\l"
+	.string "di en CIUDAD CARMÍN. En tu caso la\l"
+	.string "recompensa total es de 75000\l"
+	.string "POKÉS.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_20:
+.string "PETREL: Y ahora...\n"
+	.string "Hablemos de vuestra próxima\l"
+	.string "misión. Ambos sabéis del SS.ANNE,\l"
+	.string "¿cierto?$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_21:
+.string "ANDRA: El famoso transatlántico\n"
+	.string "que acaba de atracar en CIUDAD\l"
+	.string "CARMÍN.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_22:
+.string "PETREL: Exacto. Es tradición el\n"
+	.string "celebrar una gran fiesta en el\l"
+	.string "crucero antes de su partida\l"
+	.string "definitiva de CARMÍN...$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_23:
+.string "PETREL: No quiero que aprovechéis\n"
+	.string "el momento para robar POKÉMON ni\l"
+	.string "mercancías, lo que os voy a pedir\l"
+	.string "es mucho más pequeño y mucho más\l"
+	.string "valioso que todo eso...un frasco.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_24:
+.string "ANDRA: ¿Un frasco?$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_25:
+.string "PETREL: El CAPITÁN del SS.ANNE ha\n"
+	.string "recorrido incontables regiones y\l"
+	.string "realizado innumerables viajes por\l"
+	.string "el mundo a lo largo de 3 décadas.\l"
+	.string "En uno de sus viajes, hallándose\l"
+	.string "en una isla desierta alejada de\l"
+	.string "toda civilización, encontró lo que\l"
+	.string "parece ser el fragmento de un\l"
+	.string "POKÉMON singular, que no se\l"
+	.string "corresponde con ningún POKÉMON que\l"
+	.string "conozcamos.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_26:
+.string "PETREL: Sabemos que dicho\n"
+	.string "fragmento lo guarda en un frasco.\l"
+	.string "Ya lo ha mostrado en múltiples\l"
+	.string "entrevistas, y siempre lo lleva\l"
+	.string "consigo. Deberéis de entrar en su\l"
+	.string "camarote y robárselo por la\l"
+	.string "fuerza, no os quedará otra y por\l"
+	.string "ello os encomiendo a vosotros esta\l"
+	.string "misión.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_27:
+.string "ANDRA: ¿Y cómo nos infiltraremos\n"
+	.string "en el barco?\l"
+	.string "Tengo entendido que sin un TICKET,\l"
+	.string "nunca te dejarán entrar.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_28:
+.string "PETREL: He preparado una maniobra\n"
+	.string "de evasión, algo rudimentaria pero\l"
+	.string "efectiva. Vuestro socio os estará\l"
+	.string "esperando en el puerto de CARMÍN.\l"
+	.string "No os preocupéis sabréis\l"
+	.string "distinguirlo rápidamente sobre el\l"
+	.string "resto.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_29:
+.string "PETREL: ...$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_30:
+.string "PETREL: Debéis saber que esta\n"
+	.string "misión es una petición expresa del\l"
+	.string "mismísimo GIOVANNI...$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_31:
+.string "PETREL: Nuestro LÍDER cree que\n"
+	.string "esos fragmentos podrían pertenecer\l"
+	.string "a un POKÉMON LEGENDARIO\l"
+	.string "extremadamente poderoso, y no\l"
+	.string "quiere perder la oportunidad de\l"
+	.string "hacerse con ellos para\l"
+	.string "investigarlos, antes de que el\l"
+	.string "SS.ANNE desaparezca de KANTO hasta\l"
+	.string "el año siguiente.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_32:
+.string "ANDRA: ¡Eso está hecho!$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_33:
+.string "PETREL: Confío en vosotros. Habéis\n"
+	.string "mostrado habilidad para el\l"
+	.string "combate. Ese CAPITÁN se ha curtido\l"
+	.string "en los mares de todo el mundo y\l"
+	.string "sus POKÉMON reflejarán eso. Deberéis\l"
+	.string "de mantener en forma a vuestros\l"
+	.string "POKÉMON para desarmarlo.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_34:
+.string "ANDRA: No lo dude.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_35:
+.string "PETREL: Eso es todo caballeros,\n"
+	.string "daos prisa, cuanto antes lleguéis\l"
+	.string "al SS.ANNE de más tiempo\l"
+	.string "dispondréis hasta que zarpe,\l"
+	.string "buenas tardes.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_36:
+.string "ANDRA: Vamos allá {PLAYER}, el\n"
+	.string "SS.ANNE es nuestro.$"
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_1:
+walk_in_place_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_2:
+face_up
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_3:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_4:
+walk_in_place_up
+walk_in_place_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_5:
+face_left
+emote_exclamation_mark
+delay_1
+walk_in_place_up
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_6:
+face_left
+delay_1
+walk_in_place_down
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_7:
+walk_in_place_down
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_8:
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_9:
+walk_in_place_up
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_10:
+face_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_11:
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_12:
+face_up
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_13:
+walk_up
+walk_up
+walk_left
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_14:
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_15:
+walk_down
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_16:
+walk_up
+walk_up
+walk_up
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_17:
+walk_up
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_18:
+walk_down
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_19:
+emote_exclamation_mark
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_20:
+face_down
+step_end

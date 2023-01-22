@@ -602,7 +602,7 @@ playse SE_SHOP
 addmoney 250000 0
 updatemoneybox
 delay 80
-playse SE_EXP_MAX
+playfanfare MUS_OBTAIN_ITEM
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas2 MSGBOX_DEFAULT
 waitfanfare
 delay 40
