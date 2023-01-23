@@ -2,12 +2,26 @@ SsAnne_6F_MapScripts::
 	.byte 0
 
 SsAnne6F_1::
+lock         
+msgbox SsAnne6F_Text_1, MSGBOX_SIGN
+release     
 end
+
+SsAnne6F_Text_1:
+.string "Soy el tipo más guay de este\n"
+	.string "lugar...y tú lo sabes.$"
 
 
 
 SsAnne6F_2::
+lock         
+msgbox SsAnne6F_Text_2, MSGBOX_SIGN
+release     
 end
+
+SsAnne6F_Text_2:
+.string "Oh..., ¡qué ENTRENADOR GUAY\n"
+	.string "tan...guay!$"
 
 
 
@@ -24,11 +38,11 @@ end
 SsAnne6F_5::
 lock     
 faceplayer     
-msgbox SsAnne5F_Text_5, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_5, MSGBOX_DEFAULT
 release     
 end
 
-SsAnne5F_Text_5:
+SsAnne6F_Text_5:
 .string "Soy de los que les gusta\n"
 .string "presenciar esta clase de eventos\l"
 .string "como un mero observador, puedes\l"
@@ -41,11 +55,11 @@ SsAnne5F_Text_5:
 SsAnne6F_6::
 lock     
 faceplayer     
-msgbox SsAnne5F_Text_6, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_6, MSGBOX_DEFAULT
 release     
 end
 
-SsAnne5F_Text_6:
+SsAnne6F_Text_6:
 .string "¡JAJAJA!\n"
 .string "¡Camarero!\l"
 .string "¡Otro licor de SHUCKLE!$"
@@ -55,11 +69,11 @@ SsAnne5F_Text_6:
 SsAnne6F_7::
 lock     
 faceplayer     
-msgbox SsAnne5F_Text_7, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_7, MSGBOX_DEFAULT
 release     
 end
 
-SsAnne5F_Text_7:
+SsAnne6F_Text_7:
 .string "¡JA, JA!\n"
 .string "¿Sabías por qué a la gente le\l"
 .string "gusta tanto la fiesta?\l"
@@ -76,11 +90,11 @@ SsAnne5F_Text_7:
 SsAnne6F_8::
 lock     
 faceplayer     
-msgbox SsAnne5F_Text_8, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_8, MSGBOX_DEFAULT
 release     
 end
 
-SsAnne5F_Text_8:
+SsAnne6F_Text_8:
 .string "Entonces después de tanto esfuerzo\n"
 .string "y disciplina se suponía que este\l"
 .string "era el premio final, irónicamente\l"
@@ -95,11 +109,11 @@ SsAnne5F_Text_8:
 SsAnne6F_9::
 lock     
 faceplayer     
-msgbox SsAnne5F_Text_9, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_9, MSGBOX_DEFAULT
 release     
 end
 
-SsAnne5F_Text_9:
+SsAnne6F_Text_9:
 .string "Todo iba perfecto hasta que\n"
 .string "apareció esa parejita con sus\l"
 .string "ñoñerías, ¡me han estropeado el\l"
@@ -110,11 +124,11 @@ SsAnne5F_Text_9:
 SsAnne6F_10::
 lock     
 faceplayer     
-msgbox SsAnne5F_Text_10, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_10, MSGBOX_DEFAULT
 release     
 end
 
-SsAnne5F_Text_10:
+SsAnne6F_Text_10:
 .string "Puafff…\n"
 .string "Ni se te ocurra aceptar el licor\l"
 .string "extraño que sirve ese camarero de\l"
@@ -125,11 +139,11 @@ SsAnne5F_Text_10:
 SsAnne6F_11::
 lock     
 faceplayer     
-msgbox SsAnne5F_Text_11, MSGBOX_DEFAULT
+msgbox SsAnne6F_Text_11, MSGBOX_DEFAULT
 release     
 end
 
-SsAnne5F_Text_11:
+SsAnne6F_Text_11:
 .string "La incertidumbre del momento,\n"
 .string "dejarse llevar por la intuición…\l"
 .string "Aún no logro comprender cuál es la\l"
@@ -140,12 +154,28 @@ SsAnne5F_Text_11:
 
 
 SsAnne6F_12::
+lock         
+msgbox SsAnne6F_Text_12, MSGBOX_SIGN
+release     
 end
+
+SsAnne6F_Text_12:
+.string "¿Estaré soñando?\n"
+	.string "¡He tenido el honor de ver al\l"
+	.string "majestuoso y legendario DRAGONITE\l"
+	.string "de LANCE sobrevolando el SS.ANNE!$"
 
 
 
 SsAnne6F_13::
+lock         
+msgbox SsAnne6F_Text_13, MSGBOX_SIGN
+release     
 end
+
+SsAnne6F_Text_13:
+.string "¡¡Ese de ahí era el mismísimo\n"
+	.string "LANCE en carne y hueso!!$"
 
 SsAnne6F_EventScript_Marinero::
 	trainerbattle_single TRAINER_JESSICA_5, SsAnne6F_Text_MarineroIntro, SsAnne6F_Text_MarineroDefeated

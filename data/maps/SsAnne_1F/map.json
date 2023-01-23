@@ -17,7 +17,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SS_ANNE",
       "x": 30,
-      "y": 16,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -89,6 +89,13 @@
       "elevation": 0,
       "dest_map": "MAP_VERMILION_CITY",
       "dest_warp_id": 2
+    },
+    {
+      "x": 41,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_SS_ANNE_1F",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

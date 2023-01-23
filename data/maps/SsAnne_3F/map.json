@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SsAnne3F_1",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SsAnne3F_3",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SsAnne3F_4",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
@@ -77,10 +77,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SsAnne3F_5",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_POLIWRATH",
       "x": 12,
       "y": 12,
       "elevation": 3,
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SsAnne3F_7",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BATTLE_GIRL",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_6",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY4",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER2",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BUG_CATCHER2",
@@ -168,10 +168,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_NIDORINO",
       "x": 14,
       "y": 12,
       "elevation": 3,
@@ -181,7 +181,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE"
     }
   ],
   "warp_events": [
@@ -250,7 +250,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "25",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "25",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 30,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "25",
+      "script": "NULL"
+    }
   ],
   "bg_events": [
 

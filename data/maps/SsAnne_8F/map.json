@@ -155,7 +155,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "26",
+      "script": "NULL"
+    }
   ],
   "bg_events": [
     {
