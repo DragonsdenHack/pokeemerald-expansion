@@ -431,6 +431,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "22",
       "script": "RocketHideout_6F_Petrel_Mision_3_Bill"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 20,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "28",
+      "script": "RocketHideout_6F_Petrel_Post_SSanne"
     }
   ],
   "bg_events": [

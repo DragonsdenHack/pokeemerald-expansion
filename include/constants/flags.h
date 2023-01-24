@@ -746,7 +746,7 @@
 #define FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN                0x2BE
 #define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF // ANDRA CASA CONSUL set// clear andra carmin //clear fósiles cient.Mtmoon //clear atlas jardin bill
 #define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // ANDRA PUERTO ISLA INTA set // clear motero carmin // clear Miguel Mt.moon
-#define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO // clear Rojo Mt.moon
+#define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO // clear Rojo Mt.moon// clear marineros ssanne
 #define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // CLEAR FLAG MISION EEVEES
 #define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA
 #define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4 // ANDRA CUARTEL PETREL
@@ -754,7 +754,7 @@
 #define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// 
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin 
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE
@@ -763,13 +763,13 @@
 #define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // 
 #define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 // 
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // LIBRE CLEARFLAG
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // CLEARFLAG ANDRA RUTA 10
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3 // ANDRA IDA SSANNE
 #define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // GENTE TAPANDO ACCESO SSANNE 3F + AZUL
 #define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5 // ANDRA DENTRO SSANNE 3F
-#define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6 // LIBRE
-#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7 // LIBRE
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8 // LIBRE
+#define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6 // LIBRE CLEARFLAG
+#define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7 // LIBRE CLEARFLAG
+#define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8 // ANDRA Y CAPITAN SSANNE 8F
 
 #define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
 

@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SsAnne_8F_Capitan_Marineros",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
@@ -38,33 +38,33 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SsAnne8F_2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
       "x": 3,
       "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SsAnne_8F_Capitan_Marineros",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
       "x": 3,
       "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SsAnne_8F_Capitan_Marineros",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAPTAIN",
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_AMBER",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
@@ -102,21 +102,21 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne8F_7",
-      "flag": "0"
+      "script": "SsAnne_8F_Capitan_Marineros",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
       "x": 5,
-      "y": 5,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne8F_8",
-      "flag": "0"
+      "script": "SsAnne_8F_Capitan_Marineros",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
@@ -128,8 +128,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne8F_9",
-      "flag": "0"
+      "script": "SsAnne_8F_Capitan_Marineros",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAPTAIN",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
     }
   ],
   "warp_events": [
@@ -162,7 +162,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "26",
-      "script": "NULL"
+      "script": "SsAnne_8F_Capitan"
     }
   ],
   "bg_events": [
@@ -180,7 +180,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "SsAnne8FDocumento_100"
+      "script": "SsAnne_8F_Capitan_Papelera"
     },
     {
       "type": "sign",

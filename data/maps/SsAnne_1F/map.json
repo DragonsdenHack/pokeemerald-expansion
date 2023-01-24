@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
     }
   ],
   "warp_events": [
@@ -104,9 +104,9 @@
       "x": 32,
       "y": 11,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "27",
+      "script": "SsAnne_1F_Andra_Vuelta"
     },
     {
       "type": "trigger",
@@ -116,6 +116,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "24",
       "script": "SsAnne_1F_Andra_Ida"
+    },
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "28",
+      "script": "SsAnne_1F_Acabado"
     }
   ],
   "bg_events": [

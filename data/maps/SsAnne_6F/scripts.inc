@@ -258,7 +258,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, SSAnne6F_Lance_Surge_move8
 waitmovement 0x0
 special RemoveCameraObject
-setvar VAR_UNUSED_0x40F7, 25
+setvar VAR_UNUSED_0x40F7, 26
 release
 end
 
