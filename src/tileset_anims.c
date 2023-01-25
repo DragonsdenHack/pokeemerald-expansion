@@ -24,6 +24,7 @@ static void (*sSecondaryTilesetAnimCallback)(u16);
 static void _InitPrimaryTilesetAnimation(void);
 static void _InitSecondaryTilesetAnimation(void);
 static void TilesetAnim_General(u16);
+static void TilesetAnim_General2(u16);
 static void TilesetAnim_Building(u16);
 static void TilesetAnim_Rustboro(u16);
 static void TilesetAnim_Dewford(u16);
@@ -43,6 +44,7 @@ static void TilesetAnim_MauvilleGym(u16);
 static void TilesetAnim_BikeShop(u16);
 static void TilesetAnim_BattlePyramid(u16);
 static void TilesetAnim_BattleDome(u16);
+static void QueueAnimTiles_General_Flower(u16);
 static void QueueAnimTiles_General_Flower_fr(u16);
 static void QueueAnimTiles_General_Water(u16);
 static void QueueAnimTiles_General_SandWaterEdge(u16);
@@ -751,6 +753,13 @@ void InitTilesetAnim_General(void)
     sPrimaryTilesetAnimCallback = TilesetAnim_General;
 }
 
+void InitTilesetAnim_General2(void) //animaciones emerald
+{
+    sPrimaryTilesetAnimCounter = 0;
+    sPrimaryTilesetAnimCounterMax = 256;
+    sPrimaryTilesetAnimCallback = TilesetAnim_General2;
+}
+
 void InitTilesetAnim_Building(void)
 {
     sPrimaryTilesetAnimCounter = 0;
@@ -766,6 +775,20 @@ static void TilesetAnim_General(u16 timer)
         QueueAnimTiles_General_Water_Current_LandWatersEdge(timer / 16);
     if (timer % 16 == 2)
         QueueAnimTiles_General_Flower_fr(timer / 16);
+}
+
+static void TilesetAnim_General2(u16 timer)
+{
+    if (timer % 16 == 0)
+        QueueAnimTiles_General_Flower(timer / 16);
+    if (timer % 16 == 1)
+        QueueAnimTiles_General_Water(timer / 16);
+    if (timer % 16 == 2)
+        QueueAnimTiles_General_SandWaterEdge(timer / 16);
+    if (timer % 16 == 3)
+        QueueAnimTiles_General_Waterfall(timer / 16);
+    if (timer % 16 == 4)
+        QueueAnimTiles_General_LandWaterEdge(timer / 16);
 }
 
 static void TilesetAnim_Building(u16 timer)

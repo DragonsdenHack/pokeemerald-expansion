@@ -274,16 +274,16 @@
 #define METATILE_Lavaridge_RockWall             0x274
 
 // gTileset_LilycoveMuseum
-#define METATILE_LilycoveMuseum_Painting0_Left   0x25A
-#define METATILE_LilycoveMuseum_Painting0_Right  0x25B
-#define METATILE_LilycoveMuseum_Painting1_Left   0x25C
-#define METATILE_LilycoveMuseum_Painting1_Right  0x25D
-#define METATILE_LilycoveMuseum_Painting2_Left   0x25E
-#define METATILE_LilycoveMuseum_Painting2_Right  0x25F
-#define METATILE_LilycoveMuseum_Painting3_Left   0x260
-#define METATILE_LilycoveMuseum_Painting3_Right  0x261
-#define METATILE_LilycoveMuseum_Painting4_Left   0x262
-#define METATILE_LilycoveMuseum_Painting4_Right  0x263
+#define METATILE_LilycoveMuseum_Painting0_Left   0x2DA
+#define METATILE_LilycoveMuseum_Painting0_Right  0x2DB
+#define METATILE_LilycoveMuseum_Painting1_Left   0x2DC
+#define METATILE_LilycoveMuseum_Painting1_Right  0x2DD
+#define METATILE_LilycoveMuseum_Painting2_Left   0x2DE
+#define METATILE_LilycoveMuseum_Painting2_Right  0x2DF
+#define METATILE_LilycoveMuseum_Painting3_Left   0x2E0
+#define METATILE_LilycoveMuseum_Painting3_Right  0x2E1
+#define METATILE_LilycoveMuseum_Painting4_Left   0x2E2
+#define METATILE_LilycoveMuseum_Painting4_Right  0x2E3
 
 // gTileset_Lilycove
 #define METATILE_Lilycove_Door             0x246
