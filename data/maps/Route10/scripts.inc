@@ -178,18 +178,60 @@ Route10Documento_Text_102:
 .string "TÚNEL ROCA$"
 
 Route10_Combate_Andra::
+lock
+faceplayer
+applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 14, Route10_Combate_Andra_move_2
+waitmovement 0x0
+applymovement 14, Route10_Combate_Andra_move_3
+waitmovement 0x0
 msgbox Route10_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route10_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 14, Route10_Combate_Andra_move_3
+waitmovement 0x0
 msgbox Route10_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 14, Route10_Combate_Andra_move_4
+applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_4
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route10_Combate_Andra_move_5
+waitmovement 0x0
+special RemoveCameraObject
+delay 30
 msgbox Route10_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route10_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route10_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route10_Combate_Andra_move_6
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Route10_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 14, Route10_Combate_Andra_move_2
+waitmovement 0x0
+applymovement 14, Route10_Combate_Andra_move_3
+applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_1
 msgbox Route10_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Route10_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_3, Route10_Combate_Andra_Texto_9
 msgbox Route10_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 14, Route10_Combate_Andra_move_3
+waitmovement 0x0
 msgbox Route10_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 14, Route10_Combate_Andra_move_7
+waitmovement 0x0
 msgbox Route10_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_7
+fadescreen 1
+delay 20
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+removeobject 14
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 34
 release
 end
 
@@ -227,14 +269,14 @@ Route10_Combate_Andra_Texto_4:
 	.string "se llevaron a cabo en este lugar\l"
 	.string "en tiempos pretéritos, a saber con\l"
 	.string "qué fin, sea como sea no he podido\l"
-	.string "averiguar más, la policía llegó\l"
+	.string "averiguar más. La policía llegó\l"
 	.string "hace poco con una orden oficial de\l"
 	.string "protección, guarda y custodia de\l"
 	.string "la CENTRAL firmada por el COMITÉ\l"
 	.string "DE LA LIGA, según ellos -con el\l"
 	.string "fin de proteger los lugares más\l"
 	.string "icónicos y la diversidad de\l"
-	.string "especies de la región-, tiene\l"
+	.string "especies de la región-. Tiene\l"
 	.string "gracia, seguro que después dejan\l"
 	.string "campar a sus anchas por el lugar a\l"
 	.string "cualquier crío de 10 años.$"
@@ -381,3 +423,10 @@ walk_up
 walk_up
 walk_up
 step_end
+
+Route10Documento_Andra_Parada::
+msgbox Route10Documento_Andra_Parada_text_1, MSGBOX_SIGN   
+end
+
+Route10Documento_Andra_Parada_text_1:
+.string "... ...$"

@@ -6040,9 +6040,9 @@ Route9_Text_Chico2PostBattle:
 
 
 Route9_Text_Cazabichos2Intro:
-	.string "¡A los ROCKETS no les gustan los\n"
-	.string "POKÉMON tipo bicho!\l"
-	.string "¡Pero SCYTHER O PINSIR irían\l"
+	.string "¡A los ROCKET no les gustan los\n"
+	.string "POKÉMON TIPO BICHO!\l"
+	.string "¡Pero SCYTHER o PINSIR irían\l"
 	.string "perfectos para vuestra élite!$"
 
 
@@ -6051,7 +6051,7 @@ Route9_Text_Cazabichos2Defeated:
 
 
 Route9_Text_Cazabichos2PostBattle:
-	.string "¡A los ROCKETS no les gustan los\n"
+	.string "¡A los ROCKET no les gustan los\n"
 	.string "POKÉMON TIPO BICHO!\l"
 	.string "¡Pero SCYTHER o PINSIR irían\l"
 	.string "perfectos para vuestra élite!$"

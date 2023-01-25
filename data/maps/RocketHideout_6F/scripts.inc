@@ -1424,7 +1424,7 @@ waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 removeobject 27
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
-setvar VAR_UNUSED_0x40F7, 28
+setvar VAR_UNUSED_0x40F7, 33
 release
 end
 
