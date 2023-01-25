@@ -423,6 +423,33 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "23",
       "script": "VermilioCity_Motorista_3"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "29",
+      "script": "VermilionCity_Rojo"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "28",
+      "script": "VermilionCity_Rojo"
+    },
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "28",
+      "script": "VermilionCity_Rojo"
     }
   ],
   "bg_events": [

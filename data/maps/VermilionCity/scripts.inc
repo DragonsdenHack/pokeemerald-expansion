@@ -550,3 +550,98 @@ walk_in_place_down
 walk_slow_down
 walk_slow_down
 step_end
+
+VermilionCity_Rojo::
+lockall
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Rojo_move1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, VermilionCity_Rojo_move2
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+playse SE_SLIDING_DOOR
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+addobject 7
+delay 30
+applymovement 7, VermilionCity_Rojo_move3
+waitmovement 0x0
+delay 20
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+removeobject 7
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, VermilionCity_Rojo_move4
+waitmovement 0x0
+special RemoveCameraObject
+clearflag FLAG_HIDE_PETALBURG_CITY_WALLY
+setvar VAR_UNUSED_0x40F7, 29
+release
+end
+
+VermilionCity_Rojo_move1:
+emote_exclamation_mark
+walk_in_place_down
+step_end
+
+VermilionCity_Rojo_move2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+
+VermilionCity_Rojo_move3:
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+
+VermilionCity_Rojo_move4:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+

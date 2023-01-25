@@ -1,5 +1,12 @@
 RocketHideout_6F_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_6F_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_6F_OnFrame
 	.byte 0
+
+RocketHideout_6F_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 29, RocketHideout_6F_Escena_Lance
+map_script_2 VAR_UNUSED_0x40F7, 31, RocketHideout_6F_Escena_Lance_2
+	.2byte 0
 
 RocketHideout6F_1::
 lock     
@@ -1678,4 +1685,173 @@ walk_left
 walk_left
 walk_left
 walk_left
+step_end
+
+RocketHideout_6F_Escena_Lance::
+applymovement 26, RocketHideout_6F_Escena_Lance_move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_move_3
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 33, RocketHideout_6F_Escena_Lance_move_2
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_move_3
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 33, RocketHideout_6F_Escena_Lance_move_4
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 33, RocketHideout_6F_Escena_Lance_move_5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_move_5
+waitmovement 0x0
+delay 20
+setvar VAR_UNUSED_0x40F7, 30
+warpsilent MAP_INDIGO_PLATEAU, 13, 15
+release
+end
+
+RocketHideout_6F_Escena_Lance_Texto_11:
+.string "¡{PLAYER}!¿Te has enterado?$"
+
+RocketHideout_6F_Escena_Lance_Texto_12:
+.string "Al parecer LANCE va a hacer un\n"
+	.string "comunicado oficial, lo están echando\l"
+	.string "por la tele. ¡Nos lo vamos a perder!$"
+
+RocketHideout_6F_Escena_Lance_move_1:
+face_left
+step_end
+
+RocketHideout_6F_Escena_Lance_move_2:
+face_left
+emote_exclamation_mark
+step_end
+
+RocketHideout_6F_Escena_Lance_move_3:
+face_right
+step_end
+
+RocketHideout_6F_Escena_Lance_move_4:
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+RocketHideout_6F_Escena_Lance_move_5:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_in_place_up
+step_end
+
+RocketHideout_6F_Escena_Lance_2::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_2_move7
+delay 20
+applymovement 35, RocketHideout_6F_Escena_Lance_2_move1
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_13 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 31, RocketHideout_6F_Escena_Lance_2_move2
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 31, RocketHideout_6F_Escena_Lance_2_move3
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 33, RocketHideout_6F_Escena_Lance_2_move1
+applymovement 35, RocketHideout_6F_Escena_Lance_2_move1
+applymovement 29, RocketHideout_6F_Escena_Lance_2_move1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_2_move1
+applymovement 32, RocketHideout_6F_Escena_Lance_2_move4
+applymovement 30, RocketHideout_6F_Escena_Lance_2_move4
+applymovement 26, RocketHideout_6F_Escena_Lance_2_move4
+applymovement 36, RocketHideout_6F_Escena_Lance_2_move5
+applymovement 34, RocketHideout_6F_Escena_Lance_2_move5
+applymovement 37, RocketHideout_6F_Escena_Lance_2_move5
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 26, RocketHideout_6F_Escena_Lance_2_move5
+fadescreen 1
+delay 20
+removeobject 35
+removeobject 29
+removeobject 32
+removeobject 30
+removeobject 36
+removeobject 34
+removeobject 37
+fadescreen 0
+delay 15
+applymovement 31, RocketHideout_6F_Escena_Lance_2_move6
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 33, RocketHideout_6F_Escena_Lance_2_move1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_2_move1
+waitmovement 0x0
+msgbox RocketHideout_6F_Escena_Lance_Texto_18 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 31
+removeobject 33
+fadescreen 0
+setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+setvar VAR_UNUSED_0x40F7, 32
+release
+end
+
+RocketHideout_6F_Escena_Lance_Texto_13:
+.string "¡Esto es horrible!¡¿Qué vamos a hacer\n"
+	.string "ahora?$"
+
+RocketHideout_6F_Escena_Lance_Texto_14:
+	.string "PETREL: Tranquilízate RECLUTA.\n"
+	.string "Tenemos recursos más que de sobra\l"
+	.string "para apañárnolas solos. Lo único que\l"
+	.string "esto significa es que nos ven como una\l"
+	.string "amenzaza.$"
+
+RocketHideout_6F_Escena_Lance_Texto_15:
+	.string "¿¡Qué estáis haciendo aquí parados!?\n"
+	.string "¡Todos a seguir trabajando!$"
+
+RocketHideout_6F_Escena_Lance_Texto_16:
+	.string "¡A la orden ADMIN.PETREL!$"
+
+RocketHideout_6F_Escena_Lance_Texto_17:
+	.string "ANDRA, {PLAYER}, a mi despacho\n"
+	.string "inmediatamente. Tengo que daros\l"
+	.string "noticias.$"
+
+RocketHideout_6F_Escena_Lance_Texto_18:
+	.string "ANDRA: ¡Enseguida, SIR!$"
+
+RocketHideout_6F_Escena_Lance_2_move1:
+walk_in_place_up
+step_end
+
+RocketHideout_6F_Escena_Lance_2_move2:
+face_left
+step_end
+
+RocketHideout_6F_Escena_Lance_2_move3:
+walk_in_place_right
+walk_in_place_down
+step_end
+
+RocketHideout_6F_Escena_Lance_2_move4:
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Escena_Lance_2_move5:
+walk_in_place_right
+step_end
+
+RocketHideout_6F_Escena_Lance_2_move6:
+walk_in_place_down
+step_end
+
+RocketHideout_6F_Escena_Lance_2_move7:
+face_up
 step_end
