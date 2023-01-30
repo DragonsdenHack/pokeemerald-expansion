@@ -139,4 +139,6 @@
 #define DIR_NORTHWEST   7
 #define DIR_NORTHEAST   8
 
+#define DYNAMIC_OW_PALS         FALSE
+
 #endif // GUARD_CONSTANTS_GLOBAL_H
