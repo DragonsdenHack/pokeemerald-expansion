@@ -1521,7 +1521,7 @@
 #define FLAG_VISITED_FIVE_ISLAND                           (SYSTEM_FLAGS + 0x96) // Unused Flag
 #define FLAG_VISITED_SIX_ISLAND                           (SYSTEM_FLAGS + 0x97) // Unused Flag
 #define FLAG_VISITED_SEVEN_ISLAND                           (SYSTEM_FLAGS + 0x98) // Unused Flag
-#define FLAG_UNUSED_0x8F9                           (SYSTEM_FLAGS + 0x99) // Unused Flag
+#define FLAG_ENABLE_ENGLISH                           (SYSTEM_FLAGS + 0x99) // Unused Flag
 #define FLAG_UNUSED_0x8FA                           (SYSTEM_FLAGS + 0x9A) // Unused Flag
 #define FLAG_UNUSED_0x8FB                           (SYSTEM_FLAGS + 0x9B) // Unused Flag
 #define FLAG_UNUSED_0x8FC                           (SYSTEM_FLAGS + 0x9C) // Unused Flag
