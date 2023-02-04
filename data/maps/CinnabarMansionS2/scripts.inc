@@ -372,3 +372,514 @@ CinnabarMansionS2Documento_Text_107Yes5:
 	.string "PSEUDOLEGENDARIO, haciéndose pasar\l"
 	.string "por ello y siendo considerado por\l"
 	.string "todos como tal.$"
+
+CinnabarMansionS2_Blaine::
+msgbox CinnabarMansionS2_Blaine_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_4 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_5 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_7 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_8 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_9 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_10 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_11 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_12 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_13 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_14 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Blaine_Texto_15 MSGBOX_AUTOCLOSE
+release
+end
+
+CinnabarMansionS2_Blaine_Texto_1:
+.string "BLAINE: Ya estás aquí.$"
+
+CinnabarMansionS2_Blaine_Texto_2:
+.string "Nadie hubiera pensado que un\n"
+	.string "ROCKET daría tantos problemas,\l"
+	.string "eres un caso único, la excepción\l"
+	.string "que confirma la regla, pero\l"
+	.string "incluso esa excepción responde a\l"
+	.string "unos patrones que buenamente nos\l"
+	.string "hemos encargado de cubrir en este\l"
+	.string "subterráneo...$"
+
+CinnabarMansionS2_Blaine_Texto_3:
+.string "Observa este lugar, su única razón\n"
+	.string "de ser es explorar los límites que\l"
+	.string "las leyes de este mundo nos\l"
+	.string "imponen, al igual que el TEAM\l"
+	.string "ROCKET, nuestro fin último es\l"
+	.string "similar.$"
+
+CinnabarMansionS2_Blaine_Texto_4:
+.string "MAGMAR, CHARIZARD, ARCANINE...\n"
+	.string "Solo son números, lo que les\l"
+	.string "diferencia es un mayor o menor\l"
+	.string "grado en cada uno de los 6\l"
+	.string "parámetros que componen la\l"
+	.string "genética inherente a cada especie,\l"
+	.string "lo único que tienen de especial\l"
+	.string "los LEGENDARIOS es un total mayor\l"
+	.string "en la suma de esos 6 parámetros,\l"
+	.string "no han hecho nada para ganarse ese\l"
+	.string "mayor total, solo -ser\l"
+	.string "legendarios- por -gracia del\l"
+	.string "creador-, un MAGIKARP, por mucho\l"
+	.string "que quiera, jamás se acercará\l"
+	.string "siquiera al peor DRAGONITE que\l"
+	.string "pueda existir, independientemente\l"
+	.string "de lo que cada uno haga.$"
+
+CinnabarMansionS2_Blaine_Texto_5:
+.string "De este modo, quien sea capaz de\n"
+	.string "controlar y manipular estos 6\l"
+	.string "parámetros, al tiempo que las\l"
+	.string "combinaciones de tipos,\l"
+	.string "habilidades y movimientos, tiene\l"
+	.string "el poder de controlar este mundo.\l"
+	.string "Algunos, como LANCE, se rinden a\l"
+	.string "los POKÉMON divinos, buscan que la\l"
+	.string "naturaleza les de todo hecho, sin\l"
+	.string "embargo, nosotros vamos más allá.$"
+
+CinnabarMansionS2_Blaine_Texto_6:
+.string "Un LEGENDARIO únicamente es tal\n"
+	.string "por haber sido el ganador de la\l"
+	.string "lotería de la naturaleza, el más\l"
+	.string "agraciado, como he dicho, por\l"
+	.string "mera gracia del creador, pero\l"
+	.string "aquí, en este lugar no...$"
+
+CinnabarMansionS2_Blaine_Texto_7:
+.string "Si conocemos las reglas del juego,\n"
+	.string "podemos usarlas a nuestro favor,\l"
+	.string "para que esa lotería nos toque no\l"
+	.string "solo una vez, sino varias en el\l"
+	.string "mismo POKÉMON, se acabaron los\l"
+	.string "tiempos de imperfecciones,\l"
+	.string "arbitrariedades y azar dictados\l"
+	.string "por la naturaleza.$"
+
+CinnabarMansionS2_Blaine_Texto_8:
+.string "¡Las reglas del juego ahora las\n"
+	.string "escribimos nosotros!$"
+
+CinnabarMansionS2_Blaine_Texto_9:
+.string "¡No es posible!\n"
+	.string "¡¿De donde viene ese poder!?$"
+
+CinnabarMansionS2_Blaine_Texto_10:
+.string "No tiene sentido, es ridículo, mi\n"
+	.string "MAGMORTAR optimizado al máximo es\l"
+	.string "mejor que cada uno de tus POKÉMON,\l"
+	.string "de un LLAMARADA pulveriza a todo\l"
+	.string "lo que golpee neutral, de un RAYO\l"
+	.string "pone de rodillas a MOLTRES,\l"
+	.string "definitivamente tienes algo que el\l"
+	.string "resto no tiene.$"
+
+CinnabarMansionS2_Blaine_Texto_11:
+.string "... ...$"
+
+CinnabarMansionS2_Blaine_Texto_12:
+.string "Pero esta vez no te será\n"
+	.string "suficiente, OAK ha alcanzado otro\l"
+	.string "nivel, con uno solo de sus POKÉMON\l"
+	.string "podría tumbar a todo mi equipo, no\l"
+	.string "puedes ganar {PLAYER},\l"
+	.string "sencillamente porque sus POKÉMON\l"
+	.string "te tumbarán de un golpe antes de\l"
+	.string "que puedas siquiera ejecutar un\l"
+	.string "movimiento.$"
+
+CinnabarMansionS2_Blaine_Texto_13:
+.string "Hemos pasado años aquí, trabajando\n"
+	.string "desde las sombras para llegar a\l"
+	.string "ese punto, y ahora lo hemos\l"
+	.string "logrado, OAK cuenta con un equipo\l"
+	.string "perfecto.$"
+
+CinnabarMansionS2_Blaine_Texto_14:
+.string "Lo único que has conseguido\n"
+	.string "llegando hasta aquí es tener el\l"
+	.string "privilegio de saber qué se siente\l"
+	.string "al enfrentar a semejante equipo,\l"
+	.string "de tratar de perseguir algo\l"
+	.string "inalcanzable, y ver como\l"
+	.string "inevitablemente todas las\l"
+	.string "posibilidades te conducen a ser\l"
+	.string "masacrado por el mejor equipo\l"
+	.string "jamás comandado por un ENTRENADOR.$"
+
+CinnabarMansionS2_Blaine_Texto_15:
+.string "Buena suerte {PLAYER}, aunque en\n"
+	.string "este caso no tenga sentido hablar\l"
+	.string "de ella, todos los caminos\l"
+	.string "conducirán al mismo resultado.$"
+
+CinnabarMansionS2_Blaine_Move_1:
+walk_in_place_down
+step_end
+
+CinnabarMansionS2_Blaine_Move_2:
+walk_down
+walk_down
+walk_down
+walk_left
+step_end
+
+CinnabarMansionS2_Blaine_Move_3:
+face_right
+step_end
+
+CinnabarMansionS2_Blaine_Move_4:
+walk_in_place_right
+step_end
+
+CinnabarMansionS2_Blaine_Move_5:
+face_up
+step_end
+
+CinnabarMansionS2_Blaine_Move_6:
+walk_right
+step_end
+
+CinnabarMansionS2_Blaine_Move_7:
+face_left
+step_end
+
+CinnabarMansionS2_Blaine_Move_8:
+walk_left
+face_up
+step_end
+
+CinnabarMansionS2_Oak::
+msgbox CinnabarMansionS2_Oak_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_4 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_5 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_7 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_8 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_9 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_10 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_11 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_12 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_13 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_14 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_15 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_16 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_17 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_18 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_19 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_20 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_21 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_22 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_23 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_24 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansionS2_Oak_Texto_25 MSGBOX_AUTOCLOSE
+release
+end
+
+CinnabarMansionS2_Oak_Texto_1:
+.string "OAK: Como esperaba, no has faltado\n"
+	.string "a tu palabra, pondremos fin a todo\l"
+	.string "esto de una vez por todas, y aquí\l"
+	.string "mismo, qué mejor lugar que este.$"
+
+CinnabarMansionS2_Oak_Texto_2:
+.string "Creí haber alcanzado la perfección\n"
+	.string "con ROJO, un ENTRENADOR imbatible,\l"
+	.string "y lo sigo diciendo, el único fallo\l"
+	.string "fue no exponerle al estímulo\l"
+	.string "adecuado, si LANCE hubiera sido\l"
+	.string "inteligente hubiera sabido ver su\l"
+	.string "potencial, y al poco que le dejara\l"
+	.string "sobrecompensarse luchando frente a\l"
+	.string "entrenadores de tu altura, el\l"
+	.string "efecto bola de nieve de su\l"
+	.string "inteligencia le hubiera hecho\l"
+	.string "imbatible manejando a los POKÉMON\l"
+	.string "adecuados.$"
+
+CinnabarMansionS2_Oak_Texto_3:
+.string "Solo unas mejores herramientas te\n"
+	.string "dieron la victoria ante ROJO, pero\l"
+	.string "ahora es imposible, desde este\l"
+	.string "remoto lugar nos hemos encargado\l"
+	.string "de reunir un equipo que marcará un\l"
+	.string "antes y un después, hemos reunido\l"
+	.string "lo mejor de ambos mundos.$"
+
+CinnabarMansionS2_Oak_Texto_4:
+.string "La singular combinación genética de\n"
+	.string "DEOXYS, imposible de replicar con\l"
+	.string "nuestra tecnología actual, es el\l"
+	.string "máximo representante de lo que\l"
+	.string "significa un LEGENDARIO, eso a lo\l"
+	.string "que LANCE y tanta gente adora.$"
+
+CinnabarMansionS2_Oak_Texto_5:
+.string "A pesar de que estos propios\n"
+	.string "legendarios siquiera sepan de\l"
+	.string "donde vienen sus poderes, es un\l"
+	.string "insulto para aquellos que de\l"
+	.string "verdad sabemos observar y detectar\l"
+	.string "como funcionan los mecanismos que\l"
+	.string "permiten a un POKÉMON ser mejor o\l"
+	.string "peor que otro, y a la vez\l"
+	.string "sentir impotencia por la enorme\l"
+	.string "dificultad que implica el poder\l"
+	.string "activarlos para uso propio.$"
+
+CinnabarMansionS2_Oak_Texto_6:
+.string "Por otro lado tenemos al futuro:\n"
+	.string "POKÉMON creados a la carta, que\l"
+	.string "dejarán en evidencia las\l"
+	.string "imperfecciones del resto, incluso\l"
+	.string "demostrando que los propios\l"
+	.string "LEGENDARIOS no son más que POKÉMON\l"
+	.string "con menos imperfecciones que los\l"
+	.string "demás, pero que no hay que pasar\l"
+	.string "por alto, ya que parten de una\l"
+	.string "base mayor sobre la que poder\l"
+	.string "construir, la genética puede\l"
+	.string "ahorrar años de trabajo, y a veces\l"
+	.string "toda una vida.$"
+
+CinnabarMansionS2_Oak_Texto_7:
+.string "De todos ellos quien ha demostrado\n"
+	.string "tener mejor base genética ha sido,\l"
+	.string "por supuesto, MEW, el ancestro de\l"
+	.string "todos los POKÉMON, gracias al cual\l"
+	.string "logramos crear aquí en KANTO un\l"
+	.string "POKÉMON como MEWTWO, del nivel de\l"
+	.string "un LUGIA o HO-OH, inexistentes en\l"
+	.string "esta región.$"
+
+CinnabarMansionS2_Oak_Texto_8:
+.string "Esos estúpidos entrenadores que\n"
+	.string "hablan de -vínculo con tus\l"
+	.string "POKÉMON-, querer a tu equipo y\l"
+	.string "demás chorradas, no se dan cuenta\l"
+	.string "de que lo que hagan es\l"
+	.string "irrelevante, sus POKÉMON no van a\l"
+	.string "aumentar su BASE en ATAQUE por\l"
+	.string "quererlos más, siquiera su\l"
+	.string "genética de IVs particular, están\l"
+	.string "limitados de nacimiento, por una\l"
+	.string "ley tan injusta como arbitraria,\l"
+	.string "que decide a dedo quien es mejor\l"
+	.string "que otro, el entrenar o querer a\l"
+	.string "tus POKÉMON te llevará tan lejos\l"
+	.string "como quiera esta ley...$"
+
+CinnabarMansionS2_Oak_Texto_9:
+.string "Sin embargo, desde aquí acabaremos\n"
+	.string "con eso, quien sea que esté\l"
+	.string "jugando a los dados allí arriba\l"
+	.string "dejará de hacerlo, desde aquí\l"
+	.string "pondremos fin a la lotería\l"
+	.string "genética, todos los POKÉMON serán\l"
+	.string "iguales, iguales a la alza y\l"
+	.string "perfectos, de modo que el mejor de\l"
+	.string "entre ellos lo será porque de\l"
+	.string "verdad mediante su voluntad, o la\l"
+	.string "de su ENTRENADOR, ha sido capaz de\l"
+	.string "ir más allá que el resto, no\l"
+	.string "porque posee un don divino que el\l"
+	.string "resto no posee.\l"
+	.string "¿De verdad crees que esto es tan\l"
+	.string "malo {PLAYER}?\l"
+	.string "Acabaremos con la mayor injusticia\l"
+	.string "de este mundo.$"
+
+CinnabarMansionS2_Oak_Texto_10:
+.string "Después de lo que he dicho,\n"
+	.string "comprenderás que sé apreciar lo\l"
+	.string "que alguien como tú hizo en la\l"
+	.string "LIGA POKÉMON, es muestra de lo\l"
+	.string "lejos que alguien puede llegar si\l"
+	.string "lleva al extremo lo que está en su\l"
+	.string "mano controlar, pero sigues\l"
+	.string "estando limitado por tus POKÉMON,\l"
+	.string "quieras o no, tu CROBAT jamás\l"
+	.string "podrá superar los 374 puntos en\l"
+	.string "SALUD, o los 394 en VELOCIDAD,\l"
+	.string "cifra notable he de añadir.\l"
+	.string "Te pongas como te pongas y por\l"
+	.string "mucho que quieras a tu CROBAT, no\l"
+	.string "pasará de ahí, por ello te he\l"
+	.string "hecho venir hasta aquí {PLAYER}.$"
+
+CinnabarMansionS2_Oak_Texto_11:
+.string "Quiero que seas el primero en ver\n"
+	.string "la nueva generación de POKÉMON,\l"
+	.string "aquellos capaces de estirar ese\l"
+	.string "factor limitante hasta cotas\l"
+	.string "impensables.$"
+
+CinnabarMansionS2_Oak_Texto_12:
+.string "Voy a disfrutar viendo la\n"
+	.string "desesperación en tu rostro,\l"
+	.string "contemplando como esos ideales y\l"
+	.string "principios se vuelven inservibles\l"
+	.string "ante algo que nunca podrás tocar.$"
+
+CinnabarMansionS2_Oak_Texto_13:
+.string "¡Adelante, ROCKET!\n"
+	.string "¡Enfrenta al mejor equipo que la\l"
+	.string "región de KANTO, y el mundo, jamás\l"
+	.string "hayan visto!$"
+
+CinnabarMansionS2_Oak_Texto_14:
+.string "¿Qué acaba de ocurrir aquí?$"
+
+CinnabarMansionS2_Oak_Texto_15:
+.string "No, no tiene sentido, mi equipo es\n"
+	.string "imbatible, nadie, ni LANCE, ni\l"
+	.string "GIOVANNI, ¡ni dios podría\l"
+	.string "derrotarme!$"
+
+CinnabarMansionS2_Oak_Texto_16:
+.string "... ...$"
+
+CinnabarMansionS2_Oak_Texto_17:
+.string "¿Acaso existe otra fuerza?\n"
+	.string "¿Otra ley que he pasado por alto?$"
+
+CinnabarMansionS2_Oak_Texto_18:
+.string "Acabo de ver como producto de la\n"
+	.string "imperfección de tus POKÉMON ha\l"
+	.string "salido como ingrediente final algo\l"
+	.string "perfecto, tal vez no de forma\l"
+	.string "absoluta y eterna, pero si para\l"
+	.string "este combate, este momento\l"
+	.string "concreto.$"
+
+CinnabarMansionS2_Oak_Texto_19:
+.string "Creí que con este combate haría\n"
+	.string "pedazos tus creencias, y\l"
+	.string "demostraría que eran ROJO y LANCE\l"
+	.string "los que no fueron suficiente en la\l"
+	.string "LIGA POKÉMON, pero ha sido todo lo\l"
+	.string "contrario.$"
+
+CinnabarMansionS2_Oak_Texto_20:
+.string "¿Quiere decir esto que el\n"
+	.string "entrenamiento por sí solo puede\l"
+	.string "elevar a niveles incalculables a\l"
+	.string "un POKÉMON?$"
+
+CinnabarMansionS2_Oak_Texto_21:
+.string "Entonces he sido un iluso hablando\n"
+	.string "de límites, en algún punto deben\l"
+	.string "de existir por supuesto, pero,\l"
+	.string "después de lo visto aquí, están\l"
+	.string "mucho más lejos de lo que uno\l"
+	.string "pueda imaginar, quizás de lo que\l"
+	.string "uno pueda llegar a calcular...$"
+
+CinnabarMansionS2_Oak_Texto_22:
+.string "Ya he tenido suficiente.\n"
+	.string "ROJO...\l"
+	.string "La creación de MEWTWO...\l"
+	.string "El mantener con vida este\l"
+	.string "laboratorio en las sombras...\l"
+	.string "Todo para apenas alcanzar a ver la\l"
+	.string "punta del iceberg de como\l"
+	.string "realmente funciona un POKÉMON.$"
+
+CinnabarMansionS2_Oak_Texto_23:
+.string "Haced lo que queráis con este\n"
+	.string "laboratorio ROCKET, quizá logréis\l"
+	.string "ver algo que aquí hemos pasado por\l"
+	.string "alto.$"
+
+CinnabarMansionS2_Oak_Texto_24:
+.string "Sé que está todo el TEAM ROCKET\n"
+	.string "esperándome fuera, no te\l"
+	.string "preocupes, no tengo intención de\l"
+	.string "hacer nada más, MEWTWO pasará a\l"
+	.string "manos de GIOVANNI, quien mejor que\l"
+	.string "mi viejo rival para continuar con\l"
+	.string "este proyecto.$"
+
+CinnabarMansionS2_Oak_Texto_25:
+.string "Me retiro a PUEBLO PALETA,\n"
+	.string "necesito un periodo de reflexión.$"
+
+CinnabarMansionS2_Oak_Move_1:
+walk_in_place_left
+step_end
+
+CinnabarMansionS2_Oak_Move_2:
+walk_left
+walk_left
+walk_left
+walk_left
+face_up
+step_end
+
+CinnabarMansionS2_Oak_Move_3:
+face_down
+step_end
+
+CinnabarMansionS2_Oak_Move_4:
+walk_left
+step_end
+
+CinnabarMansionS2_Oak_Move_5:
+walk_right
+face_down
+step_end
+
+CinnabarMansionS2_Oak_Move_6:
+walk_in_place_down
+step_end
+
+CinnabarMansionS2_Oak_Move_7:
+face_up
+step_end
+
+CinnabarMansionS2_Oak_Move_8:
+walk_down
+step_end
+
+CinnabarMansionS2_Oak_Move_9:
+walk_fast_up
+walk_fast_left
+step_end
+
+CinnabarMansionS2_Oak_Move_10:
+walk_right
+face_up
+step_end
+
+CinnabarMansionS2_Oak_Move_11:
+walk_slow_right
+walk_slow_down
+walk_slow_right
+walk_in_place_right
+step_end
+
+CinnabarMansionS2_Oak_Move_12:
+face_right
+step_end
+
+CinnabarMansionS2_Oak_Move_13:
+walk_slow_down
+walk_slow_right
+walk_in_place_right
+step_end
+
+CinnabarMansionS2_Oak_Move_14:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end

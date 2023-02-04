@@ -79,3 +79,105 @@ end
 
 FourIslandDocumento_Text_101:
 .string "Casa de LORELEI$"
+
+FourIsland_Encuentro_Zeus::
+msgbox FourIsland_Encuentro_Zeus_Texto_1 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_4 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_5 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_6 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_7 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_8 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Encuentro_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+release
+end
+
+FourIsland_Encuentro_Zeus_Texto_1:
+.string "????: Maldición, dónde las habrá\n"
+	.string "guardado...$"
+
+FourIsland_Encuentro_Zeus_Texto_2:
+.string "No pareces ser de por aquí,\n"
+	.string "tampoco pareces ser un entrenador\l"
+	.string "normal y corriente, pero qué\l"
+	.string "importa eso, todos los\l"
+	.string "entrenadores junto a sus POKÉMON\l"
+	.string "son iguales ante el creador de\l"
+	.string "todo.$"
+
+FourIsland_Encuentro_Zeus_Texto_3:
+.string "Voy tras la pista de dos\n"
+	.string "peligrosos delincuentes, alguien\l"
+	.string "muy sabio confinó en estas islas a\l"
+	.string "dos POKÉMON ANCESTRALES hace\l"
+	.string "cientos de años, dos POKÉMON de un\l"
+	.string "poder capaz de hacer temblar al\l"
+	.string "mundo y modificar sus condiciones\l"
+	.string "climáticas.$"
+
+FourIsland_Encuentro_Zeus_Texto_4:
+.string "Estos dos POKÉMON duermen en algún\n"
+	.string "lugar, sellado y alejado de la\l"
+	.string "civilización, pero dentro del\l"
+	.string "territorio de las ISLAS SETE, eso\l"
+	.string "es seguro.$"
+
+FourIsland_Encuentro_Zeus_Texto_5:
+.string "Vine hasta aquí por la leyenda que\n"
+	.string "había acerca de esta cueva de un\l"
+	.string "poderoso POKÉMON del tipo HIELO y\l"
+	.string "AGUA, pero lo máximo que he podido\l"
+	.string "encontrar son LAPRAS salvajes, no\l"
+	.string "parece que haya nada interesante\l"
+	.string "aquí.$"
+
+FourIsland_Encuentro_Zeus_Texto_6:
+.string "Mi próximo destino es la CUEVA\n"
+	.string "CAMBIANTE, al norte de ISLA EXTA,\l"
+	.string "allí hay unas enormes pisadas que\l"
+	.string "coinciden con las de uno de los\l"
+	.string "dos POKÉMON ANCESTRALES.$"
+
+FourIsland_Encuentro_Zeus_Texto_7:
+.string "Debo encontrar a esos POKÉMON\n"
+	.string "antes de que esos fanáticos lo\l"
+	.string "hagan, ahora que saben como\l"
+	.string "despertarlos, no puedo permitir\l"
+	.string "que eso ocurra.$"
+
+FourIsland_Encuentro_Zeus_Texto_8:
+.string "...$"
+
+FourIsland_Encuentro_Zeus_Texto_9:
+.string "Si ves algo fuera de lo normal,\n"
+	.string "avísame de inmediato, estaré\l"
+	.string "investigando en la CUEVA\l"
+	.string "CAMBIANTE, hasta la vista,\l"
+	.string "-ENTRENADOR-.$"
+
+FourIsland_Encuentro_Zeus_Move_1:
+face_right
+step_end
+
+FourIsland_Encuentro_Zeus_Move_2:
+emote_exclamation_mark
+step_end
+
+FourIsland_Encuentro_Zeus_Move_3:
+walk_left
+walk_left
+walk_left
+step_end
+
+FourIsland_Encuentro_Zeus_Move_4:
+face_up
+step_end
+
+FourIsland_Encuentro_Zeus_Move_5:
+face_left
+step_end
+
+FourIsland_Encuentro_Zeus_Move_6:
+walk_in_place_left
+step_end

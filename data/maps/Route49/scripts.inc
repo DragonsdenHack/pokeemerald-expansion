@@ -87,3 +87,142 @@ Route49_Text_7:
 .string "Algo cambió no hace mucho en JOHTO, ese\n"
 .string "cambió modificó las leyes del MUNDO\l"
 .string "POKÉMON para siempre.$"
+
+Route49_Combate_Andra::
+msgbox Route49_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_22 MSGBOX_AUTOCLOSE
+msgbox Route49_Combate_Andra_Texto_23 MSGBOX_AUTOCLOSE
+release
+end
+
+Route49_Combate_Andra_Texto_1:
+.string "PENSADOR: Es…imposible, el último en\n"
+	.string "pasar la prueba fue EUSINE, hace ya\l"
+	.string "más de una década.$"
+
+Route49_Combate_Andra_Texto_2:
+.string "ANDRA: ¿Cómo sabes que la he pasado?\n"
+	.string "He consumido esa extraña piedra\l"
+	.string "dorada, uno de mis POKÉMON reaccionó a\l"
+	.string "ella, no tengo pruebas de que cumplí el\l"
+	.string "reto.$"
+
+Route49_Combate_Andra_Texto_3:
+.string "PENSADOR: Tenemos una conexión muy\n"
+	.string "especial con el POKÉMON SAGRADO, lo que\l"
+	.string "vea, nuestro GRAN MAESTRO también lo\l"
+	.string "verá.$"
+
+Route49_Combate_Andra_Texto_4:
+.string "ANDRA: No era para tanto, ese POKÉMON\n"
+	.string "era muy fuerte. Pero, por muy fuerte\l"
+	.string "que sea, un solo POKÉMON poco puede\l"
+	.string "hacer ante un equipo de 6 bien\l"
+	.string "entrenado.$"
+
+Route49_Combate_Andra_Texto_5:
+.string "PENSADOR: No lo entiendes chica, la\n"
+	.string "dificultad de la prueba estriba en que\l"
+	.string "el dragón sagrado se digne a aparecer,\l"
+	.string "de ningún otro modo podría obtenerse\l"
+	.string "ese objeto.$"
+
+Route49_Combate_Andra_Texto_6:
+.string "…$"
+
+Route49_Combate_Andra_Texto_7:
+.string "¿Qué? ¿Tú también derrotaste al\n"
+	.string "dragón? Eso no es posible, siempre ha\l"
+	.string "bendecido a una única persona a la vez.$"
+
+Route49_Combate_Andra_Texto_8:
+.string "ANDRA: ¿No has dicho que tu GRAN\n"
+	.string "MAESTRO lo sabe todo? Él podrá\l"
+	.string "probarlo.$"
+
+Route49_Combate_Andra_Texto_9:
+.string "PENSADOR: Lo siento, pero nuestras\n"
+	.string "costumbres no contemplan esta\l"
+	.string "excepción, deberéis de combatir por el\l"
+	.string "honor de entrar a este sagrado lugar.$"
+
+Route49_Combate_Andra_Texto_10:
+.string "ANDRA: De modo que así va a ser…$"
+
+Route49_Combate_Andra_Texto_11:
+.string "No creas que combatiré porque ha sido\n"
+	.string "tu voluntad, anciano, tampoco porque\l"
+	.string "esté de acuerdo con esta injusticia. Si\l"
+	.string "combato ahora con {PLAYER} es\l"
+	.string "únicamente por el mero placer de\l"
+	.string "enfrentar a un rival a mi altura.$"
+
+Route49_Combate_Andra_Texto_12:
+.string "Vamos, ¡dejemos con la boca abierta a\n"
+	.string "estos monjes, mostrémosles los frutos\l"
+	.string "de todo nuestro entrenamiento!$"
+
+Route49_Combate_Andra_Texto_13:
+.string "Ja, ja, ja… Incluso rozar la perfección\n"
+	.string "es insuficiente contra ti.$"
+
+Route49_Combate_Andra_Texto_14:
+.string "PENSADOR: Extraordinario, vuestro\n"
+	.string "nivel está casi a la altura de nuestro\l"
+	.string "GRAN MAESTRO.$"
+
+Route49_Combate_Andra_Texto_15:
+.string "ANDRA: ¿Casi? He visto cosas en tu\n"
+	.string "región que tú jamás creerías,\l"
+	.string "{PLAYER} incluso más que yo. Estoy\l"
+	.string "harta de enfrentar a supuestos rivales\l"
+	.string "superiores solo para derrotarlos con mi\l"
+	.string "tenacidad.$"
+
+Route49_Combate_Andra_Texto_16:
+.string "PENSADOR: ¿Cómo osas…?$"
+
+Route49_Combate_Andra_Texto_17:
+.string "EUSINE: Dicen la verdad.$"
+
+Route49_Combate_Andra_Texto_18:
+.string "PENSADOR: ¡EUSINE! ¿Tú?$"
+
+Route49_Combate_Andra_Texto_19:
+.string "EUSINE: El POKÉMON SAGRADO le ha\n"
+	.string "comunicado todo al GRAN MAESTRO. Los\l"
+	.string "dos deben subir, sin excepción.$"
+
+Route49_Combate_Andra_Texto_20:
+.string "PENSADOR: Como el GRAN MAESTRO ordene.$"
+
+Route49_Combate_Andra_Texto_21:
+.string "EUSINE: Bien.$"
+
+Route49_Combate_Andra_Texto_22:
+.string "Os esperamos arriba a los dos…si sois\n"
+	.string "capaces de llegar.$"
+
+Route49_Combate_Andra_Texto_23:
+.string "ANDRA: Veremos de que es capaz ahora\n"
+	.string "tu maestro.$"

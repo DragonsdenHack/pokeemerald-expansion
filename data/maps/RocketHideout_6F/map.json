@@ -557,6 +557,24 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "28",
       "script": "RocketHideout_6F_Petrel_Post_SSanne"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "35",
+      "script": "RocketHideout_6F_Aviso_Cientifico"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 26,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "35",
+      "script": "RocketHideout_6F_Aviso_Cientifico"
     }
   ],
   "bg_events": [
@@ -567,6 +585,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RocketHideout6FDocumento_102"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RocketHideout_6F_Maquina_Teletransporte"
+    },
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RocketHideout_6F_Maquina_Teletransporte"
     }
   ]
 }

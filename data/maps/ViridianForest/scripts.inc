@@ -179,3 +179,157 @@ ViridianForestDocumento_Text_105:
 .string "¡Usa ANTÍDOTO contra el veneno!\n"
 	.string "¡Lo conseguirás en las TIENDAS\l"
 	.string "POKéMON!$"
+
+ViridianForest_Combate_Guays::
+msgbox ViridianForest_Combate_Guays_Texto_1 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_2 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_3 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_4 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_5 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_6 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_7 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_8 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_9 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_10 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_11 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_12 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_13 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_14 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_15 MSGBOX_AUTOCLOSE
+release
+end
+
+ViridianForest_Combate_Guays_Texto_1:
+.string "VERO: ¡Te lo dije!\n"
+	.string "¡PINSIR no era un Pokémon extinto\l"
+	.string "en este bosque!\l"
+	.string "¡Y hemos tenido la suerte de\l"
+	.string "encontrar a una pareja!$"
+
+ViridianForest_Combate_Guays_Texto_2:
+.string "JUAN: Con este último fichaje\n"
+	.string "seremos la envidia de todos los\l"
+	.string "entrenadores guay, nadie tiene ya\l"
+	.string "un equipo como el nuestro, el\l"
+	.string "SCYTHER que logramos atrapar en la\l"
+	.string "ZONA SAFARI es el complemento\l"
+	.string "perfecto, dos tipo bicho con los\l"
+	.string "que no pueden ni soñar la\l"
+	.string "mediocridad de cazabichos que\l"
+	.string "pululan por aquí.$"
+
+
+ViridianForest_Combate_Guays_Texto_3:
+.string "VERO: Yo a ti te conozco, estabas\n"
+	.string "en el TÚNEL ROCA, cuando se\l"
+	.string "propagó el rumor de que había un\l"
+	.string "KANGASKHAN por estos lugares,\l"
+	.string "parece que solo fue un rumor, este\l"
+	.string "en cambio...\l"
+	.string "Nadie creía que pudiera quedar\l"
+	.string "algún PINSIR por aquí y resulta\l"
+	.string "que sí.$"
+
+ViridianForest_Combate_Guays_Texto_4:
+.string "JUAN: ¿Este es el ROCKET que te\n"
+	.string "venció?$"
+
+ViridianForest_Combate_Guays_Texto_5:
+.string "VERO: Así es, debe de ser un\n"
+	.string "comandante o algo así, los ROCKETS\l"
+	.string "normales ni se acercan a su nivel.$"
+
+ViridianForest_Combate_Guays_Texto_6:
+.string "JUAN: Quiero comprobar eso, ¡un\n"
+	.string "ROCKET con buenos Pokémon!\l"
+	.string "¡Eso es más difícil que encontrar\l"
+	.string "un PINSIR por estos lugares!$"
+
+ViridianForest_Combate_Guays_Texto_7:
+.string "VERO: Hemos completado el equipo\n"
+	.string "definitivo que queríamos.\l"
+	.string "¡No hay posibilidad de que puedas\l"
+	.string "detenernos!$"
+
+ViridianForest_Combate_Guays_Texto_8:
+.string "¡Ha tenido que ser un ROCKET quién\n"
+	.string "nos haga morder el polvo!$"
+
+ViridianForest_Combate_Guays_Texto_9:
+.string "JUAN: Esto sí que no me lo\n"
+	.string "esperaba, un ROCKET derrotando a\l"
+	.string "los más guay de entre los\l"
+	.string "entrenadores guay.$"
+
+ViridianForest_Combate_Guays_Texto_10:
+.string "VERO: Parece que eres muy\n"
+	.string "competente, aunque a veces seamos\l"
+	.string "algo arrogantes sabemos reconocer\l"
+	.string "cuando alguien nos supera.$"
+
+ViridianForest_Combate_Guays_Texto_11:
+.string "JUAN: Queremos que tengas el otro\n"
+	.string "PINSIR que hemos encontrado, un\l"
+	.string "ENTRENADOR como tú seguro que sabe\l"
+	.string "sacarle más provecho que\l"
+	.string "cualquiera al que podamos dárselo,\l"
+	.string "y no somos tu organización para ir\l"
+	.string "vendiéndolo por ahí, ya me\l"
+	.string "entiendes.$"
+
+ViridianForest_Combate_Guays_Texto_12:
+.string "¡HAS OBTENIDO UN PINSIR AL NV:5!$"
+
+ViridianForest_Combate_Guays_Texto_13:
+.string "VERO: ¡Tampoco de pases!\n"
+	.string "¡No ibamos a darte al otro PINSIR!\l"
+	.string "¡Hemos gastado todos nuestros\l"
+	.string "caramelosraros en ponerlo al nivel\l"
+	.string "del resto de nuestros POKÉMON!$"
+
+ViridianForest_Combate_Guays_Texto_14:
+.string "JUAN: Vámonos ya VERO, he oído que\n"
+	.string "en JOHTO hay bichos incluso\l"
+	.string "mejores que los de aquí, y un\l"
+	.string "anciano que te da un DRATINI si\l"
+	.string "pasas su prueba.$"
+
+ViridianForest_Combate_Guays_Texto_15:
+.string "VERO: No se hable más entonces.\n"
+	.string "¡Al siguiente destino!$"
+
+ViridianForest_Combate_Guays_Move_1:
+walk_in_place_down
+step_end
+
+ViridianForest_Combate_Guays_Move_2:
+walk_in_place_up
+step_end
+
+ViridianForest_Combate_Guays_Move_3:
+emote_exclamation_mark
+step_end
+
+ViridianForest_Combate_Guays_Move_4:
+face_right
+step_end
+
+ViridianForest_Combate_Guays_Move_5:
+walk_down
+walk_right
+walk_right
+step_end
+
+ViridianForest_Combate_Guays_Move_6:
+walk_in_place_left
+step_end
+
+ViridianForest_Combate_Guays_Move_7:
+walk_in_place_down
+walk_in_place_right
+step_end
+
+ViridianForest_Combate_Guays_Move_8:
+walk_in_place_up
+walk_in_place_right
+step_end

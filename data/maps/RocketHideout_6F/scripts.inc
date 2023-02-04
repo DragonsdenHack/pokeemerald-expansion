@@ -1855,3 +1855,78 @@ step_end
 RocketHideout_6F_Escena_Lance_2_move7:
 face_up
 step_end
+
+RocketHideout_6F_Aviso_Cientifico::
+delay 10
+playse SE_PIN
+applymovement 26, RocketHideout_6F_Aviso_Cientifico_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Aviso_Cientifico_Move_2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout_6F_Aviso_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 26, RocketHideout_6F_Aviso_Cientifico_Move_2
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 36
+release
+end
+
+RocketHideout_6F_Aviso_Cientifico_Texto_1:
+.string "RECLUTA DE ALTO RANGO {PLAYER}, al\n"
+	.string "fin, gracias a la patente que\l"
+	.string "robaste a BILL hemos podido\l"
+	.string "concluir el proyecto de conexión\l"
+	.string "entre bases vía teletransporte,\l"
+	.string "puedes usarlo a partir de ahora\l"
+	.string "cuando quieras, tu compañera\l"
+	.string "ANDRA acaba de teletransportarse a\l"
+	.string "la base de AZULONA tal como se os\l"
+	.string "ha asignado, están a la espera de\l"
+	.string "tu llegada al cuartel para\l"
+	.string "iniciaros en vuestro nuevo\l"
+	.string "entorno.$"
+
+RocketHideout_6F_Aviso_Cientifico_Move_1:
+emote_exclamation_mark
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Aviso_Cientifico_Move_2:
+walk_in_place_right
+step_end
+
+RocketHideout_6F_Maquina_Teletransporte::
+compare VAR_UNUSED_0x40F7, 35
+goto_if_gt RocketHideout_6F_Maquina_Teletransporte_2
+msgbox RocketHideout_6F_Maquina_Teletransporte_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+
+
+RocketHideout_6F_Maquina_Teletransporte_Texto_1:
+.string "...\n"
+	.string "...\l"
+	.string "(Parece que el desarrollo de esta\l"
+	.string "máquina se encuentra aún en fases\l"
+	.string "muy tempranas)$"
+
+RocketHideout_6F_Maquina_Teletransporte_2::
+msgbox RocketHideout_6F_Maquina_Teletransporte_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_6F_Maquina_Teletransporte_No
+delay 10
+playse SE_M_CHARGE
+delay 20
+playse SE_M_TELEPORT
+warpsilent MAP_ROCKET_HIDEOUT_3F, 2, 3
+release
+end
+
+RocketHideout_6F_Maquina_Teletransporte_YesNo:
+.string "La máquina está lista para ser\n"
+	.string "usada, ¿quieres teletransportarte\l"
+	.string "a la BASE AZULONA?$"
+
+RocketHideout_6F_Maquina_Teletransporte_No::
+release
+end

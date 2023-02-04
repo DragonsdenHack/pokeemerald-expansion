@@ -307,3 +307,191 @@ SaffronCityDocumento_Text_108:
 	.string "autorealización, optimización del\l"
 	.string "rendimiento y fidelidad hacia\l"
 	.string "SILPH$"
+
+SaffronCity_Combate_Andra::
+msgbox SaffronCity_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_14 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_15 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
+release
+end
+
+SaffronCity_Combate_Andra_Texto_1:
+.string "PETREL: Bien, ya estamos todos, la\n"
+	.string "invasión a SILPH puede dar\l"
+	.string "comienzo.$"
+
+SaffronCity_Combate_Andra_Texto_2:
+.string "Por lo que hemos podido averiguar,\n"
+	.string "el PRESIDENTE se encuentra en el\l"
+	.string "despacho del décimo piso,\l"
+	.string "protegido por su guardia personal,\l"
+	.string "siendo además imposible acceder\l"
+	.string "únicamente subiendo por el\l"
+	.string "ascensor, hemos de usar las\l"
+	.string "baldosas de teletransporte, y no\l"
+	.string "sólo eso, sólo podremos entrar en\l"
+	.string "su despacho si obtenemos la LLAVE\l"
+	.string "MAGNÉTICA necesaria para abrir su\l"
+	.string "puerta.$"
+
+SaffronCity_Combate_Andra_Texto_3:
+.string "ANDRA: Tenemos entonces que\n"
+	.string "encontrar primero esa llave,\l"
+	.string "¿alguna idea de dónde puede estar?$"
+
+SaffronCity_Combate_Andra_Texto_4:
+.string "PETREL: Un objeto así sólo debe de\n"
+	.string "estar al acceso de miembros\l"
+	.string "importantes dentro de la empresa,\l"
+	.string "no nos quedará otra que registrar\l"
+	.string "a cada uno de los trabajadores.$"
+
+SaffronCity_Combate_Andra_Texto_5:
+.string "SILPH y el gobierno de LANCE no se\n"
+	.string "llevan muy bien, de modo que es de\l"
+	.string "esperar que parte de la ÉLITE 4 no\l"
+	.string "se presente de nuevo como en la\l"
+	.string "CENTRAL ENERGÍA, aún así, hay que\l"
+	.string "estar preparados para todo lo que\l"
+	.string "pueda pasar, una vez encontremos\l"
+	.string "esa LLAVE MAGNÉTICA, avisaremos a\l"
+	.string "GIOVANNI inmediatamente, y\l"
+	.string "vosotros dos, os quedaréis al pie\l"
+	.string "del cañón haciendo de escudo para\l"
+	.string "que GIOVANNI pueda negociar\l"
+	.string "tranquilamente con el PRESIDENTE\l"
+	.string "sin ningún tipo de interferencias,\l"
+	.string "¿ha quedado claro?$"
+
+SaffronCity_Combate_Andra_Texto_6:
+.string "ANDRA: ¡No puedo esperar más,\n"
+	.string "pasemos ya a la acción!$"
+
+SaffronCity_Combate_Andra_Texto_7:
+.string "PETREL: Esa es la actitud, vamos a\n"
+	.string "ello, SILPH es nuestra.$"
+
+SaffronCity_Combate_Andra_Texto_8:
+.string "ANDRA: Una cosa {PLAYER}, aún no te\n"
+	.string "he dado las gracias por lo de la\l"
+	.string "CENTRAL ENERGÍA, con esta son ya 2\l"
+	.string "veces las que has tenido que\l"
+	.string "intervenir debido a mi incapacidad\l"
+	.string "para cumplir la misión yo sola,\l"
+	.string "contando esa primera vez en ISLA\l"
+	.string "INTA con la CÓNSUL.$"
+
+SaffronCity_Combate_Andra_Texto_9:
+.string "Esta región es idónea para\n"
+	.string "progresar y mejorar como\l"
+	.string "entrenador, me sorprende el\l"
+	.string "contraste que hay entre lugares\l"
+	.string "como este y PUEBLO LAVANDA, pero\l"
+	.string "todos al fin y al cabo con un\l"
+	.string "ambiente único que les\l"
+	.string "caracteriza.$"
+
+SaffronCity_Combate_Andra_Texto_10:
+.string "Ahora mismo mi equipo está en\n"
+	.string "óptimas condiciones, ¿recuerdas el\l"
+	.string "discurso de ATLAS nuestro primer\l"
+	.string "día?\l"
+	.string "La verdad es que he llegado ya más\l"
+	.string "lejos de lo que podría imaginar, y\l"
+	.string "aún así sigo viendo margen para\l"
+	.string "seguir mejorando.$"
+
+SaffronCity_Combate_Andra_Texto_11:
+.string "Espero que este lugar y toda su\n"
+	.string "tecnología estén a la altura de lo\l"
+	.string "que puedo esperar, sin embargo...$"
+
+SaffronCity_Combate_Andra_Texto_12:
+.string "No veo ahora mismo mayor reto que\n"
+	.string "enfrentarme a ti {PLAYER}, tú eres\l"
+	.string "la verdadera vara de medir para mi\l"
+	.string "equipo POKÉMON, el único al que\l"
+	.string "aún no he podido derrotar en\l"
+	.string "igualdad de condiciones.$"
+
+SaffronCity_Combate_Andra_Texto_13:
+.string "Desde nuestro combate en la BASE\n"
+	.string "ROCKET he estado entrenando más\l"
+	.string "duro que nunca, informándome\l"
+	.string "acerca de los mejores POKÉMON de\l"
+	.string "esta región, y de cómo mejorar a\l"
+	.string "los que ya tengo...$"
+
+SaffronCity_Combate_Andra_Texto_14:
+.string "De EJECUTIVO ROCKET a EJECUTIVO\n"
+	.string "ROCKET, ¡quiero que veas la fuerza\l"
+	.string "incontenible de mi equipo!$"
+
+SaffronCity_Combate_Andra_Texto_15:
+.string "No puedo creerlo, ¿qué más puedo\n"
+	.string "hacer?$"
+
+SaffronCity_Combate_Andra_Texto_16:
+.string "Esta vez estaba convencida de que\n"
+	.string "podría derrotarte, que estúpida\l"
+	.string "por mi parte, derrotaste a BRUNO y\l"
+	.string "a 2 POKÉMON LEGENDARIOS, tal vez\l"
+	.string "sea demasiado pronto, pero ten\l"
+	.string "esto por cierto {PLAYER}, ¡mi\l"
+	.string "límite está lejos de lo que has\l"
+	.string "visto aquí hoy!$"
+
+SaffronCity_Combate_Andra_Move_1:
+walk_right
+walk_right
+walk_right
+face_up
+step_end
+
+SaffronCity_Combate_Andra_Move_2:
+emote_exclamation_mark
+walk_in_place_down
+step_end
+
+SaffronCity_Combate_Andra_Move_3:
+face_right
+step_end
+
+SaffronCity_Combate_Andra_Move_4:
+face_left
+step_end
+
+SaffronCity_Combate_Andra_Move_5:
+walk_in_place_right
+step_end
+
+SaffronCity_Combate_Andra_Move_6:
+face_up
+step_end
+
+SaffronCity_Combate_Andra_Move_7:
+walk_right
+face_up
+walk_in_place_down
+step_end
+
+SaffronCity_Combate_Andra_Move_8:
+face_down
+step_end
+
+SaffronCity_Combate_Andra_Move_9:
+walk_in_place_down
+step_end

@@ -79,3 +79,95 @@ TinTowerP9_EventScript_Monje2::
 	trainerbattle_single TRAINER_LEONEL, TinTowerP9_Text_Monje2Intro, TinTowerP9_Text_Monje2Defeated
 	msgbox TinTowerP9_Text_Monje2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Ecruteak_TinTowerP9_Combate_Agatha::
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Ecruteak_TinTowerP9_Combate_Agatha_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_1:
+.string "AGATHA: ¡{PLAYER}!\n"
+	.string "¡Eres incansable!$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_2:
+.string "El GRAN MAESTRO está en la cima,\n"
+	.string "contemplando JOHTO. Dio claras\l"
+	.string "indicaciones de no ser molestado\l"
+	.string "salvo fuerza mayor.$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_3:
+.string "¿Sabes cuál fue el único supuesto\n"
+	.string "de fuerza mayor que contempló,\l"
+	.string "{PLAYER}?$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_4:
+.string "Así es, que tú lograses subir\n"
+	.string "hasta aquí y, como prueba de tu\l"
+	.string "habilidad, lograses derrotar una\l"
+	.string "vez más a una exmiembro de la\l"
+	.string "ÉLITE 4.$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_5:
+.string "¡En guardia, {PLAYER}!\n"
+	.string "¡Este período en TORRE CAMPANA me\l"
+	.string "ha permitido volver a conectar con\l"
+	.string "mi equipo POKÉMON!$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_6:
+.string "Ya te lo dije y te lo vuelvo a\n"
+	.string "decir, tienes un don para el\l"
+	.string "combate. Veremos hasta donde\l"
+	.string "llegas.$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_7:
+.string "Llegaste a explorar y conocer cada\n"
+	.string "rincón de KANTO. Ahora te estás\l"
+	.string "adentrando en uno de los lugares\l"
+	.string "más sagrados de JOHTO. ¿Hasta\l"
+	.string "dónde vas a llegar, {PLAYER}?$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Texto_8:
+.string "El GRAN MAESTRO de TORRE CAMPANA\n"
+	.string "te espera. Ándate con ojo, {PLAYER},\l"
+	.string "hay fuerzas en este mundo que\l"
+	.string "harían temblar a cualquier\l"
+	.string "ENTRENADOR, incluso a alguien como\l"
+	.string "tú. Cada vez más lejos, más\l"
+	.string "difíciles los retos, pero, ¿hasta\l"
+	.string "cuándo podrán tus POKÉMON soportar\l"
+	.string "esa presión?$"
+
+Ecruteak_TinTowerP9_Combate_Agatha_Move_1:
+walk_up
+walk_right
+walk_up
+walk_up
+step_end
+
+Ecruteak_TinTowerP9_Combate_Agatha_Move_2:
+emote_exclamation_mark
+face_down
+step_end
+
+Ecruteak_TinTowerP9_Combate_Agatha_Move_3:
+walk_in_place_down
+step_end
+
+Ecruteak_TinTowerP9_Combate_Agatha_Move_4:
+walk_down
+step_end
+
+Ecruteak_TinTowerP9_Combate_Agatha_Move_5:
+face_up
+step_end
+
+Ecruteak_TinTowerP9_Combate_Agatha_Move_6:
+face_right
+step_end

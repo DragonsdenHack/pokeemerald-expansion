@@ -598,3 +598,299 @@ CultoS3_Text_42:
 .string "solo podrás resolver lo que has\l"
 .string "sido hasta ahora llegando al final\l"
 .string "del camino equivocado.$"
+
+Culto_S3_Batalla::
+msgbox Culto_S3_Batalla_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_22 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_23 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_24 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_25 MSGBOX_AUTOCLOSE
+msgbox Culto_S3_Batalla_Texto_26 MSGBOX_AUTOCLOSE
+release
+end
+
+Culto_S3_Batalla_Texto_1:
+.string "????: Acepta, oh creador de todo,\n"
+	.string "nuestro humilde sacrificio en\l"
+	.string "señal de respeto y agradecimiento.$"
+
+Culto_S3_Batalla_Texto_2:
+.string "No hay arrepentimiento, ni miedo,\n"
+	.string "solo la tranquilidad de saber con\l"
+	.string "certeza que tu alma volverá a\l"
+	.string "formar parte del todo.$"
+
+Culto_S3_Batalla_Texto_3:
+.string "Mientras esperamos tu regreso, nos\n"
+	.string "mantendremos ocultos y fieles a tu\l"
+	.string "voluntad, creador de KANTO.\l"
+	.string "¡Que dé comienzo!$"
+
+Culto_S3_Batalla_Texto_4:
+.string "¡VTAAAAAALL!$"
+
+Culto_S3_Batalla_Texto_5:
+.string "Mantendremos tu esencia viva en\n"
+	.string "nuestras mentes, señor de KANTO.$"
+
+Culto_S3_Batalla_Texto_6:
+.string "????: Tú no formas parte de este\n"
+	.string "culto, solo contadas personas han\l"
+	.string "descubierto este lugar, y ninguna\l"
+	.string "de ellas ha vuelto jamás al\l"
+	.string "exterior, ¿sabes lo que eso\l"
+	.string "significa?$"
+
+Culto_S3_Batalla_Texto_7:
+.string "No podemos dejar que te vayas, el\n"
+	.string "mundo no puede saber que este\l"
+	.string "lugar existe, de modo que...$"
+
+Culto_S3_Batalla_Texto_8:
+.string "¿Cómo?\n"
+	.string "¿Eres el actual CAMPEÓN de la\l"
+	.string "región de KANTO?\l"
+	.string "¿Y vas en busca del POKÉMON\l"
+	.string "ESENCIA?$"
+
+Culto_S3_Batalla_Texto_9:
+.string "Estoy al tanto de lo que ocurre en\n"
+	.string "el exterior, -CAMPEÓN-, desde aquí\l"
+	.string "lo vemos todo, sabemos de la\l"
+	.string "situación por la que ha pasado\l"
+	.string "KANTO, y de la caída de LANCE, lo\l"
+	.string "que vosotros no podéis ver es\l"
+	.string "vuestra limitada forma de pensar.$"
+
+Culto_S3_Batalla_Texto_10:
+.string "Toda pregunta que hagas respecto\n"
+	.string "al POKÉMON ESENCIA carece de\l"
+	.string "sentido según tus patrones, ¿crees\l"
+	.string "que es un POKÉMON que pueda\l"
+	.string "encontrarse?\l"
+	.string "¿Que pueda capturarse y exponerlo\l"
+	.string "como otro de tus 6 POKÉMON?\l"
+	.string "¿De verdad tú y tu organización\l"
+	.string "creéis que podéis medir su poder\l"
+	.string "en base al del resto de POKÉMON?$"
+
+Culto_S3_Batalla_Texto_11:
+.string "Podrás haber derrotado a LANCE,\n"
+	.string "pero sigues siendo un principiante\l"
+	.string "en cuanto a conocimiento de las\l"
+	.string "leyes que rijen este mundo...$"
+
+Culto_S3_Batalla_Texto_12:
+.string "Todos vosotros al final lo que\n"
+	.string "buscáis es poder, lo que no sabéis\l"
+	.string "es que el verdadero poder lo\l"
+	.string "obtienen aquellos que están\l"
+	.string "dispuestos a arrodillarse ante él,\l"
+	.string "y con humildad obtenerlo, debe de\l"
+	.string "ser una consecuencia de otras\l"
+	.string "virtudes, nunca el fin último,\l"
+	.string "observa...$"
+
+Culto_S3_Batalla_Texto_13:
+.string "Ahora mismo podría hacerte\n"
+	.string "desaparecer en un abrir y cerrar\l"
+	.string "de ojos, pero sería injusto por mi\l"
+	.string "parte arrojar sobre ti todo el\l"
+	.string "poder y sabiduría de incontables\l"
+	.string "generaciones, a alguien como\l"
+	.string "tú que jamás tuvo acceso a ello.$"
+
+Culto_S3_Batalla_Texto_14:
+.string "...\n"
+	.string "...$"
+
+Culto_S3_Batalla_Texto_15:
+.string "Tengo el presentimiento de que no\n"
+	.string "eres como los demás, podrías\l"
+	.string "llegar a apreciar lo que\l"
+	.string "verdaderamente importa, no solo te\l"
+	.string "daré la oportunidad de regresar al\l"
+	.string "exterior si eres capaz de ir algo\l"
+	.string "más allá de lo que fuiste en tu\l"
+	.string "combate con LANCE, también te diré\l"
+	.string "cómo convocar al llamado -POKÉMON\l"
+	.string "ESENCIA-, algo que jamás ha salido\l"
+	.string "de aquí.$"
+
+Culto_S3_Batalla_Texto_16:
+.string "No haré uso de mis más avanzadas\n"
+	.string "artes chico, tampoco de mis\l"
+	.string "POKÉMON que más se han acercado al\l"
+	.string "conocimiento supremo, pero no será\l"
+	.string "necesario usar más del 50% de mi\l"
+	.string "poder para comprobar si tienes o\l"
+	.string "no lo que hay que tener.$"
+
+Culto_S3_Batalla_Texto_17:
+.string "¡Muéstrame, CAMPEÓN, si eres capaz\n"
+	.string "de ver más allá de todo cuanto te\l"
+	.string "rodea!$"
+
+Culto_S3_Batalla_Texto_18:
+.string "Interesante.$"
+
+Culto_S3_Batalla_Texto_19:
+.string "A pesar de la mediocridad que\n"
+	.string "abunda en KANTO actualmente, tu\l"
+	.string "voluntad no se ha visto torcida\l"
+	.string "por las circunstancias del\l"
+	.string "entorno, eres un caso especial, no\l"
+	.string "hay duda, no creo que más de 2 o 3\l"
+	.string "personas provenientes del exterior\l"
+	.string "en KANTO, contando contigo, puedan\l"
+	.string "salir airosos ante el equipo que\l"
+	.string "acabo de mostrar, te has ganado el\l"
+	.string "derecho a regresar al exterior,\l"
+	.string "con la condición de no contar a\l"
+	.string "nadie lo visto aquí con excepción,\l"
+	.string "por supuesto, de esa otra persona\l"
+	.string "que hubiera sido capaz de batir a\l"
+	.string "este equipo, tú sabras\l"
+	.string "identificarla por supuesto...$"
+
+Culto_S3_Batalla_Texto_20:
+.string "En cuanto al POKÉMON ESENCIA, aquí\n"
+	.string "le rendimos culto, si, el\l"
+	.string "sacrificio que acabas de ver ha\l"
+	.string "sido en su honor, sin embargo, no\l"
+	.string "pretendemos ni podemos -ver- o\l"
+	.string "-poseer-, a tal POKÉMON, como si\l"
+	.string "fuera uno más, eso no es posible.$"
+
+Culto_S3_Batalla_Texto_21:
+.string "No obstante, te daré la\n"
+	.string "información con la que\l"
+	.string "teóricamente es posible convocar a\l"
+	.string "tal POKÉMON y hacer que adquiera\l"
+	.string "una forma material...$"
+
+Culto_S3_Batalla_Texto_22:
+.string "Es necesario reunir a dos POKÉMON,\n"
+	.string "no dos POKÉMON cualquiera por\l"
+	.string "supuesto, estos dos POKÉMON son\l"
+	.string "imposibles de encontrar en KANTO,\l"
+	.string "sin embargo, sus orígenes,\l"
+	.string "historia y tradición están\l"
+	.string "estrechamente ligados con KANTO y\l"
+	.string "el POKÉMON ESENCIA.$"
+
+Culto_S3_Batalla_Texto_23:
+.string "Hablamos de LUGIA y HO-OH,\n"
+	.string "actualmente en paradero\l"
+	.string "desconocido, la leyenda dice que\l"
+	.string "quien reuna a estos dos\l"
+	.string "LEGENDARIOS, la reacción que se\l"
+	.string "desencadenaría producto del\l"
+	.string "contacto entre estas dos criaturas\l"
+	.string "partícipes de la creación misma de\l"
+	.string "KANTO y JOHTO, obligaría a\l"
+	.string "materializarse al creador último\l"
+	.string "de todo lo que conocemos en estas\l"
+	.string "regiones: EL POKÉMON ESENCIA.$"
+
+Culto_S3_Batalla_Texto_24:
+.string "La leyenda no habla, sin embargo,\n"
+	.string "de ningún ritual previo, ni de un\l"
+	.string "lugar concreto en que deben\l"
+	.string "reunirse LUGIA o HO-OH,\l"
+	.string "simplemente habla de unificarlos.$"
+
+Culto_S3_Batalla_Texto_25:
+.string "Y eso es todo, espero que seas\n"
+	.string "consciente de la magnitud de esta\l"
+	.string "información, y la uses sabiamente.$"
+
+Culto_S3_Batalla_Texto_26:
+.string "No tengo nada más que decirte,\n"
+	.string "cuando estés preparado para\l"
+	.string "regresar aquí, lo sabrás, entre\l"
+	.string "medias te queda un largo camino\l"
+	.string "que recorrer, espero que disfrutes\l"
+	.string "de ese proceso, es lo más\l"
+	.string "importante al fin y al cabo.$"
+
+Culto_S3_Batalla_Move_1:
+walk_in_place_up
+step_end
+
+Culto_S3_Batalla_Move_2:
+emote_exclamation_mark
+step_end
+
+Culto_S3_Batalla_Move_3:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_in_place_up
+step_end
+
+Culto_S3_Batalla_Move_4:
+face_up
+step_end
+
+Culto_S3_Batalla_Move_5:
+walk_in_place_down
+step_end
+
+Culto_S3_Batalla_Move_6:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+Culto_S3_Batalla_Move_7:
+walk_down
+walk_down
+walk_down
+step_end
+
+Culto_S3_Batalla_Move_8:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Culto_S3_Batalla_Move_9:
+walk_slow_down
+walk_in_place_down
+step_end
+
+Culto_S3_Batalla_Move_10:
+walk_slow_up
+walk_in_place_up
+step_end
+
+Culto_S3_Batalla_Move_11:
+face_down
+step_end

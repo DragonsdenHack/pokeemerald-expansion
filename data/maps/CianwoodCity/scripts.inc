@@ -143,3 +143,117 @@ CianwoodCityDocumento_Text_103:
 	.string "apariencias. El paraíso espera al\l"
 	.string "oeste, detrás de la inhóspita\l"
 	.string "montaña-.$"
+
+CianwoodCity_Evento_Mirto::
+msgbox CianwoodCity_Evento_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_8 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Evento_Mirto_Texto_9 MSGBOX_AUTOCLOSE
+release
+end
+
+CianwoodCity_Evento_Mirto_Texto_1:
+.string "MIRTO: ¿¿??$"
+
+CianwoodCity_Evento_Mirto_Texto_2:
+.string "Oh, {PLAYER}, qué sorpresa.$"
+
+CianwoodCity_Evento_Mirto_Texto_3:
+.string "Lamento que no pudieras entrar con\n"
+	.string "nosotros a TORRE CAMPANA, esa\l"
+	.string "AGATHA se ve que te aprecia mucho.\l"
+	.string "Solo es cuestión de tiempo que el\l"
+	.string "GRAN MAESTRO te invite a entrar,\l"
+	.string "ha estado muy ocupado últimamente\l"
+	.string "poniendo en orden varios asuntos...$"
+
+CianwoodCity_Evento_Mirto_Texto_4:
+.string "...\n"
+	.string "...$"
+
+CianwoodCity_Evento_Mirto_Texto_5:
+.string "En cuanto a mi POKÉMON, probamos\n"
+	.string "de todo, pero sigue igual. Ninguno\l"
+	.string "de los remedios que con el resto\l"
+	.string "de POKÉMON funcionan tiene\l"
+	.string "aplicación en mi VOLCARONA.\l"
+	.string "Me recomendaron venir a esta\l"
+	.string "FARMACIA, la más antigua de JOHTO,\l"
+	.string "pero nada parece afectarle al\l"
+	.string "cuerpo de mi POKÉMON. Nada más que\l"
+	.string "su propia energía, la misma que le\l"
+	.string "está comiendo por dentro.$"
+
+CianwoodCity_Evento_Mirto_Texto_6:
+.string "Muchos quieren tener POKÉMON más\n"
+	.string "fuertes, hablan del poder como si\l"
+	.string "fueran simples números lanzados al\l"
+	.string "aire, pero no se dan cuenta del\l"
+	.string "enorme costo que supone llegar a\l"
+	.string "ciertos niveles para la fisiología\l"
+	.string "de los POKÉMON. Solo ven el\l"
+	.string "resultado, no las causas y efectos\l"
+	.string "que llevan a él.$"
+
+CianwoodCity_Evento_Mirto_Texto_7:
+.string "Pase lo que pase, no volveré a ver\n"
+	.string "el poder y la fuerza de los\l"
+	.string "POKÉMON de la misma forma, ya he\l"
+	.string "conocido sus límites últimos. Ha\l"
+	.string "sido tal mi vínculo con VOLCARONA,\l"
+	.string "que he cruzado el límite del vigor\l"
+	.string "y la fuerza, para acabar chocando\l"
+	.string "con su antagónico: la enfermedad.$"
+
+CianwoodCity_Evento_Mirto_Texto_8:
+.string "Volveré una vez más a TORRE\n"
+	.string "CAMPANA, {PLAYER}, para agotar todas\l"
+	.string "mis opciones.\l"
+	.string "El ENTRENADOR más sabio y poderoso\l"
+	.string "de la región visitará el lugar\l"
+	.string "dentro de poco. El LÍDER de CIUDAD\l"
+	.string "IRIS me ha hablado de él, es el\l"
+	.string "único con un POKÉMON FUERTE\l"
+	.string "VÍNCULO de mayor poder global que\l"
+	.string "mi VOLCARONA, a pesar de que el\l"
+	.string "suyo es un PSEUDOLEGENDARIO y no\l"
+	.string "podemos medirlo con la misma vara.\l"
+	.string "Tal vez, él sepa algo que hemos\l"
+	.string "pasado por alto.$"
+
+CianwoodCity_Evento_Mirto_Texto_9:
+.string "Adiós, {PLAYER}. Si me doy prisa\n"
+	.string "puede que pueda ver el atardecer\l"
+	.string "en CIUDAD IRIS, quién sabe\l"
+	.string "cuantos más contemplaré con\l"
+	.string "VOLCARONA a mi lado.$"
+
+CianwoodCity_Evento_Mirto_Move_1:
+jump_special_down
+face_up
+step_end
+
+CianwoodCity_Evento_Mirto_Move_2:
+emote_exclamation_mark
+step_end
+
+CianwoodCity_Evento_Mirto_Move_3:
+walk_in_place_down
+step_end
+
+CianwoodCity_Evento_Mirto_Move_4:
+face_right
+step_end
+
+CianwoodCity_Evento_Mirto_Move_5:
+walk_in_place_right
+step_end
+
+CianwoodCity_Evento_Mirto_Move_6:
+face_down
+step_end

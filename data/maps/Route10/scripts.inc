@@ -19,9 +19,8 @@ end
 
 
 Route10_5::
-lock     
-faceplayer     
-msgbox Route5_Text_5, MSGBOX_DEFAULT
+lock         
+msgbox Route5_Text_5, MSGBOX_SIGN
 release     
 end
 
@@ -38,9 +37,8 @@ Route5_Text_5:
 
 
 Route10_6::
-lock     
-faceplayer     
-msgbox Route5_Text_6, MSGBOX_DEFAULT
+lock          
+msgbox Route5_Text_6, MSGBOX_SIGN
 release     
 end
 

@@ -1775,3 +1775,269 @@ RocketHideout5F_22_Text_ExplainPP_MAX:
 	.string "como PSÍQUICO, HIPERRAYO o\l"
 	.string "LLAMARADA pueden ser buenas\l"
 	.string "elecciones.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta::
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1:
+.string "GIOVANNI: {PLAYER} estás aquí.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2:
+.string "La batalla ha acabado, como era de\n"
+	.string "esperar me ha derrotado muy\l"
+	.string "facilmente, ese CHARIZARD es una\l"
+	.string "rareza en nuestra región...solo\l"
+	.string "alguien como OAK ha podido\l"
+	.string "proporcionárselo.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3:
+.string "Aún así, no es invencible, nadie\n"
+	.string "lo es, actualmente nuestros\l"
+	.string "mejores hombres podrían\l"
+	.string "neutralizarlo, pero no le daremos\l"
+	.string "la satisfacción de fortalecer su\l"
+	.string "experiencia con ellos para que más\l"
+	.string "tarde sea él quien doble las\l"
+	.string "tornas.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4:
+.string "Ese ROJO es bueno, muy bueno. Pero\n"
+	.string "tiene un claro punto débil\l"
+	.string "{PLAYER}: para él todo esto es un\l"
+	.string "juego, puede ir de héroe o lo que\l"
+	.string "quiera pero lo cierto es que no\l"
+	.string "sigue ningún tipo de principios ni\l"
+	.string "persige algo en concreto, siquiera\l"
+	.string "ha entrado a nuestra base para\l"
+	.string "-detener nuestros malvados\l"
+	.string "planes-, solo lo ha hecho porque\l"
+	.string "le parecía su mejor hoja de ruta,\l"
+	.string "tal vez incluso se aburriera, no\l"
+	.string "ve mayor diferencia entre\l"
+	.string "derrotarte a ti o a mi que\l"
+	.string "derrotar al DOMINGUERO de turno\l"
+	.string "que se encuentre en la RUTA 9,\l"
+	.string "cree que el ganar un combate le\l"
+	.string "respalda, como un principio\l"
+	.string "universal bajo el que puede hacer\l"
+	.string "y obtener cualquier cosa, y ahí\l"
+	.string "está su error, creer que este\l"
+	.string "mundo le pertenece cuando apenas\l"
+	.string "ha asomado a ver la punta del\l"
+	.string "iceberg.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5:
+.string "... ... ... ... ... ... ...$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6:
+.string "Quiero que hagas una visita a\n"
+	.string "PUEBLO PALETA {PLAYER}, el aparente\l"
+	.string "lugar de origen de ROJO.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7:
+.string "De las 7 misiones que llevas al\n"
+	.string "servicio del TEAM ROCKET, esta\l"
+	.string "puede ser la de mayor importancia,\l"
+	.string "explora ese lugar, su casa, el\l"
+	.string "laboratorio de OAK, en busca de\l"
+	.string "cualquier dato que pueda sernos\l"
+	.string "útil.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
+.string "Si conseguimos averiguar el porqué\n"
+	.string "de sus actos, podremos\l"
+	.string "neutralizarle con garantías...\l"
+	.string "Y otra cosa más {PLAYER}, evita en\l"
+	.string "la medida de lo posible a OAK, el\l"
+	.string "dueño del laboratorio de\l"
+	.string "investigación del pueblo, si no te\l"
+	.string "queda más remedio, entonces\l"
+	.string "recurre a la fuerza de tus\l"
+	.string "POKÉMON.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9:
+.string "Eso es todo, estaré en mi despacho\n"
+	.string "privado esperando resultados, el\l"
+	.string "de verdad, no ese sucio sótano del\l"
+	.string "piso -4 cuya única utilidad es\l"
+	.string "guardar las apariencias.$"
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_1:
+emote_exclamation_mark
+walk_slow_right
+walk_in_place_up
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_2:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_down
+walk_in_place_right
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_3:
+face_left
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_4:
+walk_in_place_down
+step_end
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_5:
+walk_in_place_right
+step_end
+
+
+RocketHideout_5F_Mision_Pueblo_Paleta_move_6:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+RocketHideout_5F_Combate_Andra::
+msgbox RocketHideout_5F_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_5F_Combate_Andra_Texto_1:
+.string "ANDRA: Así que a esto se refería\n"
+	.string "PETREL cuando nos dijo que la base\l"
+	.string "de AZULONA nada tenía que ver con\l"
+	.string "las otras, no solo podemos comprar\l"
+	.string "lo que en una tienda normal hay,\l"
+	.string "la oferta es aún mayor, ¿y has\l"
+	.string "visto todas las zonas de\l"
+	.string "investigación que hay?\l"
+	.string "Parece que se toman muy en serio\l"
+	.string "la ciencia detrás del poder de los\l"
+	.string "POKÉMON.\l"
+	.string "... ... ... ... ... ...\l"
+	.string "Aunque parece que aún no tenemos\l"
+	.string "acceso a las salas de mayor\l"
+	.string "importancia, sabía que el TEAM\l"
+	.string "ROCKET era una organización\l"
+	.string "poderosa, pero el día de la\l"
+	.string "presentación en ISLA INTA, cuando\l"
+	.string "conocimos a ATLAS, no cabía en mi\l"
+	.string "cabeza que existieran lugares\l"
+	.string "así...$"
+
+RocketHideout_5F_Combate_Andra_Texto_2:
+.string "Sea como sea, ambos estamos en\n"
+	.string "plena etapa de descubrimiento, tal\l"
+	.string "vez lleguemos a ser algo más que\l"
+	.string "unos simples ladrones, ¿no?$"
+
+RocketHideout_5F_Combate_Andra_Texto_3:
+.string "ANDRA: Voy a quedarme aquí un rato\n"
+	.string "reflexionando sobre este lugar,\l"
+	.string "tal vez tú deberías hacer lo mismo\l"
+	.string "{PLAYER}, espero volver a coincidir\l"
+	.string "contigo en misiones futuras.$"
+
+RocketHideout_5F_Combate_Andra_Texto_4:
+.string "ANDRA: Sabes que {PLAYER}, creo que\n"
+	.string "detrás de estas puertas se hallan\l"
+	.string "muchas cosas que las élites de\l"
+	.string "esta región no quieren que\l"
+	.string "sepamos, un conocimiento que va\l"
+	.string "mucho más allá de la región de\l"
+	.string "KANTO, yo también quiero formar\l"
+	.string "parte de este lugar y eso pasa por\l"
+	.string "ser la mejor ENTRENADORA posible,\l"
+	.string "no tengo tiempo que perder\l"
+	.string "{PLAYER}, voy a seguir entrenando a\l"
+	.string "mis POKÉMON hasta que nadie de\l"
+	.string "esta organización pueda siquiera\l"
+	.string "acercarse a mi nivel.$"
+
+RocketHideout_5F_Combate_Andra_Texto_5:
+.string "... ... ... ... ... ... ...$"
+
+RocketHideout_5F_Combate_Andra_Texto_6:
+.string "¿El ENTRENADOR misterioso está\n"
+	.string "aquí?\l"
+	.string "¿Y GIOVANNI no quiere que movamos\l"
+	.string "un dedo de este lugar hasta que\l"
+	.string "ese renacuajo se largue?$"
+
+RocketHideout_5F_Combate_Andra_Texto_7:
+.string "ANDRA: No puedo perder más el\n"
+	.string "tiempo, ya he derrotado a todos\l"
+	.string "los ALTOS RANGOS de este lugar,\l"
+	.string "quería seguir mejorando aún más\l"
+	.string "hasta volver a tener un combate\l"
+	.string "contigo pero...\l"
+	.string "¡No te haces una idea de lo mucho\l"
+	.string "que han crecido mis POKÉMON desde\l"
+	.string "nuestro último combate!$"
+
+RocketHideout_5F_Combate_Andra_Texto_8:
+.string "Sigo sin entender cómo lo haces.$"
+
+RocketHideout_5F_Combate_Andra_Texto_9:
+.string "ANDRA: Debí de suponer que tú\n"
+	.string "también sabes sacar provecho de\l"
+	.string "los objetos y recursos que aquí\l"
+	.string "nos ofrecen, y veo que te has\l"
+	.string "endurecido aún más gracias a tus\l"
+	.string "misiones en LAVANDA y el TÚNEL\l"
+	.string "ROCA, tengo el convencimiento de\l"
+	.string "que si tú y yo saliéramos ahora\l"
+	.string "mismo al piso superior y\l"
+	.string "enfrentáramos a ese ROJO le\l"
+	.string "derrotaríamos, ¡hemos cambiado\l"
+	.string "mucho desde la misión del MT.MOON!$"
+
+RocketHideout_5F_Combate_Andra_Texto_10:
+.string "AVISO PARA TODOS LOS RECLUTAS DE\n"
+	.string "ALTO RANGO Y EJECUTIVOS\p"
+	.string "El misterioso ENTRENADOR acaba de\n"
+	.string "abandonar nuestra BASE, ya sois\l"
+	.string "libres de salir al exterior.$"
+
+RocketHideout_5F_Combate_Andra_Texto_11:
+.string "ANDRA: Perfecto, el exterior me\n"
+	.string "espera {PLAYER}, voy a llevar a\l"
+	.string "cabo un entrenamiento especial\l"
+	.string "mientras no me soliciten para\l"
+	.string "ninguna misión, ¡no reconocerás a\l"
+	.string "mis POKÉMON la próxima vez que los\l"
+	.string "tengas delante!$"
+
+RocketHideout_5F_Combate_Andra_Move_1:
+walk_in_place_up
+step_end
+
+RocketHideout_5F_Combate_Andra_Move_2:
+emote_exclamation_mark
+step_end

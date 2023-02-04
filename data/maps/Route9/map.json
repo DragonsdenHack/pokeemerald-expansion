@@ -186,7 +186,15 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "34",
+      "script": "Route9_Aviso_Petrel"
+    }
   ],
   "bg_events": [
     {

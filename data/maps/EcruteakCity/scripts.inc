@@ -197,3 +197,140 @@ end
 
 EcruteakCityDocumento_Text_103:
 	.string "TEATRO DE DANZA DE CIUDAD IRIS$"
+
+EcruteakCity_Encuentro_Maestro::
+msgbox EcruteakCity_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+msgbox EcruteakCity_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+msgbox EcruteakCity_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+msgbox EcruteakCity_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+msgbox EcruteakCity_Encuentro_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+msgbox EcruteakCity_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
+release
+end
+
+EcruteakCity_Encuentro_Maestro_Texto_1:
+.string "MIRTO: ...$"
+
+EcruteakCity_Encuentro_Maestro_Texto_2:
+.string "M.ANCIANO: Oh, {PLAYER}, qué rápido\n"
+	.string "has venido.$"
+
+EcruteakCity_Encuentro_Maestro_Texto_3:
+.string "Es una pena lo de ese POKÉMON. Sin\n"
+	.string "embargo, mientras dure, su brillo\l"
+	.string "será el más intenso de entre los\l"
+	.string "POKÉMON mortales. Creo que MIRTO\l"
+	.string "está empezando a aceptar ese\l"
+	.string "destino, y a darse cuenta de que\l"
+	.string "no puede cambiarlo, pero sí elegir\l"
+	.string "el modo de afrontarlo.$"
+
+EcruteakCity_Encuentro_Maestro_Texto_4:
+.string "Ah, {PLAYER}, mira esto, ¿no es\n"
+	.string "magnífico?$"
+
+EcruteakCity_Encuentro_Maestro_Texto_5:
+.string "Supongo que no hay nada parecido a\n"
+	.string "esto en KANTO, fue construida hace\l"
+	.string "700 años. Aún hoy día existe un\l"
+	.string "estrecho vínculo entre esta torre\l"
+	.string "y HO-OH.$"
+
+EcruteakCity_Encuentro_Maestro_Texto_6:
+.string "El MAESTRO y LÍDER de CIUDAD IRIS\n"
+	.string "está en la cima, esperándote.\l"
+	.string "Adiós, {PLAYER}, seguro que\l"
+	.string "tendremos oportunidad de volver a\l"
+	.string "conversar.$"
+
+EcruteakCity_Encuentro_Maestro_Move_1:
+walk_in_place_right
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_2:
+emote_exclamation_mark
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_3:
+face_left
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_4:
+walk_slow_down
+walk_slow_down
+walk_slow_left
+walk_slow_left
+walk_in_place_left
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_5:
+walk_in_place_up
+walk_in_place_left
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_6:
+face_up
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_7:
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_8:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_9:
+walk_fast_down
+walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_in_place_up
+step_end
+
+EcruteakCity_Encuentro_Maestro_Move_10:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+step_end

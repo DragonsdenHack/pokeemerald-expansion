@@ -123,3 +123,122 @@ end
 Route44Documento_Text_101:
 	.string "RUTA 44\n"
 	.string "Hacia RUTA HELADA$"
+
+Route44_Combate_Mirto::
+msgbox Route44_Combate_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Route44_Combate_Mirto_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+Route44_Combate_Mirto_Texto_1:
+.string "????: ¡{PLAYER}!\n"
+	.string "¡Espera!$"
+
+Route44_Combate_Mirto_Texto_2:
+.string "Sabía que te alcanzaría por aquí,\n"
+	.string "has derrotado a 7 de lo 8 mejores\l"
+	.string "ENTRENADORES de JOHTO, ¿verdad?\l"
+	.string "Solo te queda el último y más\l"
+	.string "difícil: el MAESTRO DRAGÓN de\l"
+	.string "ENDRINO. Por eso vas hacia la RUTA\l"
+	.string "HELADA.$"
+
+Route44_Combate_Mirto_Texto_3:
+.string "Vengo a despedirme, {PLAYER}. Así\n"
+	.string "es, en breve volveré a TESELIA, mi\l"
+	.string "región de origen.$"
+
+Route44_Combate_Mirto_Texto_4:
+.string "Quiero que mi POKÉMON vuelva a ver\n"
+	.string "por última vez la región que le\l"
+	.string "vio crecer.$"
+
+Route44_Combate_Mirto_Texto_5:
+.string "Todos mis intentos por recuperar\n"
+	.string "la salud de mi POKÉMON han\l"
+	.string "fracasado, pero este viaje no ha\l"
+	.string "sido en vano, he aprendido mucho\l"
+	.string "de los mejores maestros de JOHTO.\l"
+	.string "Me han hecho ver que la situación\l"
+	.string "de mi POKÉMON es privilegiada,\l"
+	.string "tiene un don para el combate, y\l"
+	.string "sería un pecado no explorar los\l"
+	.string "límites de un POKÉMON tan\l"
+	.string "singular.$"
+
+Route44_Combate_Mirto_Texto_6:
+.string "Es por ello por lo que he venido\n"
+	.string "hasta aquí, {PLAYER}, no veo mejor\l"
+	.string "forma de honrar a mi POKÉMON que\l"
+	.string "proporcionarle este combate, aún\l"
+	.string "cuando su luz brilla con total\l"
+	.string "intensidad, para que todos\l"
+	.string "recuerden cómo era en su apogeo.$"
+
+Route44_Combate_Mirto_Texto_7:
+.string "No importa que pasen 5 o 50 años.\n"
+	.string "¡Nadie nos podrá arrebatar lo\l"
+	.string "vivido aquí hoy, ni el nivel\l"
+	.string "LEGENDARIO alcanzado!$"
+
+Route44_Combate_Mirto_Texto_8:
+.string "Jamás olvidaré este combate.$"
+
+Route44_Combate_Mirto_Texto_9:
+.string "Eres un ENTRENADOR de época,\n"
+	.string "{PLAYER}. Creo que con este combate\l"
+	.string "daré por concluida una etapa en\l"
+	.string "mi camino.$"
+
+Route44_Combate_Mirto_Texto_10:
+.string "Soltaré a mi actual equipo y\n"
+	.string "empezaré de 0 con el huevo de\l"
+	.string "LARVESTA de mi VOLCARONA. Quiero\l"
+	.string "que tú te quedes con este POKÉMON.$"
+
+Route44_Combate_Mirto_Texto_11:
+.string "¡¡OBTUVISTE UN NOIBAT AL Nv.25!!$"
+
+Route44_Combate_Mirto_Texto_12:
+.string "Hasta la vista, {PLAYER}. Saluda al\n"
+	.string "MAESTRO DRAGÓN de mi parte, seguro\l"
+	.string "que él puede llevarte a cotas aún\l"
+	.string "más altas.$"
+
+Route44_Combate_Mirto_Move_1:
+emote_exclamation_mark
+walk_in_place_left
+step_end
+
+Route44_Combate_Mirto_Move_2:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_right
+walk_right
+step_end
+
+Route44_Combate_Mirto_Move_3:
+walk_in_place_right
+step_end
+
+Route44_Combate_Mirto_Move_4:
+face_down
+step_end
+
+Route44_Combate_Mirto_Move_5:
+face_left
+step_end

@@ -119,3 +119,32 @@ end
 Route9Documento_Text_100:
 	.string "RUTA 9\n"
 	.string "CIUDAD CELESTE - TÚNEL ROCA$"
+
+Route9_Aviso_Petrel::
+playse SE_POKENAV_ON
+delay 20
+playse SE_PIN
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Route9_Aviso_Petrel_Move_1
+waitmovement 0x0
+msgbox Route9_Aviso_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_POKENAV_OFF
+delay 20
+setvar VAR_UNUSED_0x40F7, 35
+release
+end
+
+Route9_Aviso_Petrel_Texto_1:
+.string "PETREL: ¿{PLAYER}?\n"
+	.string "El sistema de teletransporte está\l"
+	.string "listo para ser puesto en práctica,\l"
+	.string "vuelve al cuartel inmediatamente y\l"
+	.string "prepárate para tu traslado\l"
+	.string "inmediato a la base de CIUDAD\l"
+	.string "AZULONA.$"
+
+Route9_Aviso_Petrel_Move_1:
+emote_exclamation_mark
+walk_in_place_left
+step_end

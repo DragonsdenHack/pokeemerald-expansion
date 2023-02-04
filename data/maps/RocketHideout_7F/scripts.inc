@@ -2289,3 +2289,408 @@ RocketHideout7FDocumento_Text_159:
 	.string "POKÉMON MAS PODEROSOS DE CADA\l"
 	.string "REGIÓN:\p"
 	.string "HOENN$"
+
+RocketHideout_7F_Fuerte_Vinculo::
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_4 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_5 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_7 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_8 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_9 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_10 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_11 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_12 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_13 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_14 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_15 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_16 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_17 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_18 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_19 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_20 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_21 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_22 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_23 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_24 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_25 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_26 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_27 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_28 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_29 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_1:
+.string "Supongo que, después de lo\n"
+	.string "ocurrido en ROCA OMBLIGO, esperas\l"
+	.string "noticias acerca de LUGIA y HO-OH,\l"
+	.string "lamento decirte que no tenemos\l"
+	.string "nada, ya he enviado a un grupo a\l"
+	.string "investigar RUINAS ALFA, y el lugar\l"
+	.string "junto con todas sus cámaras sigue\l"
+	.string "exactamente igual.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_2:
+.string "Sea como sea, en JOHTO debe estar\n"
+	.string "la respuesta, LUGIA y HO-OH han\l"
+	.string "vuelto a su región de origen,\l"
+	.string "estoy seguro, tal vez en CIUDAD\l"
+	.string "IRIS, ISLAS REMOLINO...\l"
+	.string "En todos esos lugares se les ha\l"
+	.string "llegado a avistar en el pasado,\l"
+	.string "puede que ahí encontremos\l"
+	.string "respuestas, que finalmente nos\l"
+	.string "conduzcan hacia el POKÉMON\l"
+	.string "ESENCIA.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_3:
+.string "Pero no te he destinado a JOHTO\n"
+	.string "únicamente para cazar LEGENDARIOS,\l"
+	.string "te he enviado también para...dejar\l"
+	.string "registrada una parte de su\l"
+	.string "historia, antes de que se pierda.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_4:
+.string "Observa, {PLAYER}.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_5:
+.string "La mayoría de documentos que ves\n"
+	.string "aquí están vacíos, te preguntarás,\l"
+	.string "¿para qué han sido creados?$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_6:
+.string "Este es NIDOKING-X, ¿lo\n"
+	.string "recuerdas?, lo usé para ponerte a\l"
+	.string "prueba antes de enfrentar a OAK,\l"
+	.string "puedes echar un vistazo a todos\l"
+	.string "sus datos si así lo deseas.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_7:
+.string "También tenemos a NIDOQUEEN-Y,\n"
+	.string "centrado en el ATAQUE ESPECIAL,\l"
+	.string "ambos POKÉMON son producto de\l"
+	.string "mejorar artificialmente el\l"
+	.string "poder base de la familia NIDORAN,\l"
+	.string "en concreto en 100 STATS BASE\l"
+	.string "respecto a NIDOKING y NIDOQUEEN.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_8:
+.string "Otros ejemplos de POKÉMON creados\n"
+	.string "a puro golpe de modificación\l"
+	.string "genética serían el PORYGON3 de\l"
+	.string "BILL, o el MAGMORTAR-Y de BLAINE.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_9:
+.string "Pero no, esta sala no está\n"
+	.string "reservada únicamente para nuestros\l"
+	.string "experimentos más exitosos, también\l"
+	.string "analizaremos a todo POKÉMON al que\l"
+	.string "la naturaleza, y sobre todo, el\l"
+	.string "vínculo con su ENTRENADOR, le haya\l"
+	.string "dado el don de lo extraordinario.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_10:
+.string "El motivo principal por el que\n"
+	.string "recorrerás JOHTO es este {PLAYER}.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_11:
+.string "Así es, RHYPERIOR, no debes\n"
+	.string "confundir a este POKÉMON con los\l"
+	.string "dos anteriores, este POKÉMON era y\l"
+	.string "sigue siendo mi RHYHORN, el mismo\l"
+	.string "que lleva décadas acompañándome,\l"
+	.string "no ha llegado a esta forma por\l"
+	.string "medio de ninguna alteración de la\l"
+	.string "ciencia.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_12:
+.string "Por supuesto, fui el primer\n"
+	.string "sorprendido al ver a mi RHYPERIOR\l"
+	.string "evolucionar una vez más.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_13:
+.string "Nuestros mejores científicos le\n"
+	.string "han hecho innumerables pruebas, y\l"
+	.string "han decidido bautizar a este\l"
+	.string "fenómeno como -FUERTE VÍNCULO-,\l"
+	.string "siendo representado con una -&-,\l"
+	.string "en batalla.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_14:
+.string "El término FUERTE VÍNCULO se lleva\n"
+	.string "usando en JOHTO desde tiempos\l"
+	.string "ancestrales, y ahora es cuando\l"
+	.string "alcanzamos a entender su verdadero\l"
+	.string "significado.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_15:
+.string "Solo una conexión extremadamente\n"
+	.string "potente entre el ENTRENADOR y su\l"
+	.string "POKÉMON, única e irrepetible,\l"
+	.string "parece ser capaz de desencadenar\l"
+	.string "este fenómeno.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_16:
+.string "Recientemente accedimos al\n"
+	.string "conocimiento de la MEGA-EVOLUCIÓN,\l"
+	.string "lo que, unido a los experimentos\l"
+	.string "mencionados, posibilitan\l"
+	.string "incrementar en 100 STATS BASE el\l"
+	.string "poder de un POKÉMON.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_17:
+.string "Sin embargo, el fenómeno del\n"
+	.string "FUERTE VÍNCULO supera a estos dos\l"
+	.string "otros procesos, es el método más\l"
+	.string "potente para incrementar el\l"
+	.string "rendimiento de un POKÉMON que\l"
+	.string "conocemos, las pruebas revelaron\l"
+	.string "que los STATS BASE de mi\l"
+	.string "RHYPERIOR se elevaron en 110.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_18:
+.string "Y no solo eso, el reparto de esos\n"
+	.string "STATS parece ser también más\l"
+	.string "eficiente que en la MEGA-EVOLUCIÓN\l"
+	.string "y la modificación vía artificial.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_19:
+.string "Pero lo más impactante fue\n"
+	.string "descubrir el incremento en PUNTOS\l"
+	.string "DE SALUD, esta estadística ha\l"
+	.string "estado asociada siempre a lo más\l"
+	.string "profundo del código genético de un\l"
+	.string "POKÉMON, es su columna vertebral,\l"
+	.string "inamovible, la esencia que le da\l"
+	.string "identidad a esa especie.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_20:
+.string "Que el FUERTE VÍNCULO sea capaz de\n"
+	.string "modificar los PUNTOS DE SALUD\l"
+	.string "rompe con todos nuestros esquemas,\l"
+	.string "y nos abre un nuevo abanico de\l"
+	.string "posibilidades que recién\l"
+	.string "comenzamos a valorar.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_21:
+.string "¿Entiendes ahora el porqué quiero\n"
+	.string "que viajes por JOHTO?\l"
+	.string "No hay una región con una\l"
+	.string "tradición igual, y el hermetismo\l"
+	.string "que rodea a sus más destacados\l"
+	.string "ENTRENADORES, los cuales siquiera\l"
+	.string "se dignaron a participar en la\l"
+	.string "guerra, me hace sospechar con que\l"
+	.string "el fenómeno del FUERTE VÍNCULO no\l"
+	.string "es algo que haya descubierto yo,\l"
+	.string "en JOHTO siempre se habló de ese\l"
+	.string "-vínculo- con tus POKÉMON era lo\l"
+	.string "más importante, lugares como TORRE\l"
+	.string "BELLSPROUT y TORRE CAMPANA tienen\l"
+	.string "su sentido en honrar a las\l"
+	.string "relaciones, al -vínculo-, entre\l"
+	.string "humanos y POKÉMON.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_22:
+.string "Es por ello {PLAYER}, que quiero\n"
+	.string "que recorras la región en busca de\l"
+	.string "sus mejores ENTRENADORES, podrás\l"
+	.string "identificarlos facilmente, puesto\l"
+	.string "los GIMNASIOS, aunque carecen\l"
+	.string "ahora de validez para la LIGA\l"
+	.string "POKÉMON, siguen estando abiertos\l"
+	.string "en su mayoría.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_23:
+.string "Para eso están todos los\n"
+	.string "documentos que ves aquí, para ser\l"
+	.string "rellenados con la información de\l"
+	.string "todo POKÉMON excepcional y único,\l"
+	.string "si es FUERTE VÍNCULO, mejor.\l"
+	.string "Ten esto, será vital para que\l"
+	.string "podamos llevar a cabo este gran\l"
+	.string "proyecto.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_24:
+.string "Con este aparato toda información\n"
+	.string "acerca de un POKÉMON quedará\l"
+	.string "registrada únicamente con poner a\l"
+	.string "dicho POKÉMON a combatir, los\l"
+	.string "datos que recopile durante el\l"
+	.string "combate serán enviados\l"
+	.string "automáticamente a la base de datos\l"
+	.string "de esta sala.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_25:
+.string "Supongo que no hace falta que te\n"
+	.string "diga que te prepares bien, si de\l"
+	.string "verdad existen más FUERTE VÍNCULO,\l"
+	.string "no quiero imaginarme el poder de\l"
+	.string "un equipo de 6 manejado por tal\l"
+	.string "ENTRENADOR.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_26:
+.string "No tengo nada más que decirte\n"
+	.string "{PLAYER}, te preguntarás ahora cómo\l"
+	.string "llegar a JOHTO, muy fácil,\l"
+	.string "técnicamente lo tienes al lado,\l"
+	.string "solo tienes que usar nuestro\l"
+	.string "sistema de teletransporte, en la\l"
+	.string "sala que se encuentra en el límite\l"
+	.string "este de nuestra BASE PROFUNDA.$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_27:
+.string "Eso es todo, tendrás noticias mías\n"
+	.string "más pronto que tarde {PLAYER}, hay\l"
+	.string "importantes negocios y acuerdos\l"
+	.string "que cerrar en JOHTO también...$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_28:
+.string "...$"
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_29:
+.string "Tal vez el hermetismo y\n"
+	.string "frugalidad con el que estos\l"
+	.string "personajes viven sea una de las\l"
+	.string "claves para alcanzar ese estado de\l"
+	.string "-flujo- con tu POKÉMON.\l"
+	.string "Fue en mi etapa de mayor\l"
+	.string "reclusión, tras todas las mentiras\l"
+	.string "que se vertieron sobre mi persona,\l"
+	.string "cuando yo y RHYPERIOR, sin ya nada\l"
+	.string "que perder, pudimos alcanzar ese\l"
+	.string "punto.$"
+
+RocketHideout_7F_Fuerte_Vinculo_move_1:
+walk_up
+walk_up
+walk_left
+walk_up
+walk_left
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_2:
+face_right
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_3:
+walk_in_place_right
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_4:
+walk_in_place_up
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_5:
+walk_left
+walk_left
+walk_left
+walk_up
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_6:
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_7:
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_8:
+walk_slow_left
+walk_slow_left
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_9:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_10:
+face_left
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_11:
+face_up
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_12:
+walk_in_place_left
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_13:
+walk_right
+walk_right
+walk_down
+walk_in_place_down
+step_end
+
+RocketHideout_7F_Fuerte_Vinculo_move_14:
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end

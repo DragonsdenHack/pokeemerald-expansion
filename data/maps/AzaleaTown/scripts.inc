@@ -545,3 +545,78 @@ AzaleaTownDocumento_Text_133:
 	.string "(Parece que está durmiendo, se le\l"
 	.string "ve feliz de estar en este\l"
 	.string "paraíso)$"
+
+AzaleaTown_Encuentro_Mirto::
+msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+AzaleaTown_Encuentro_Mirto_Texto_1:
+.string "????: No está aquí, debe\n"
+	.string "encontrarse en su casa de PUEBLO\l"
+	.string "AZALEA.$"
+
+AzaleaTown_Encuentro_Mirto_Texto_2:
+.string "????: Tú tampoco tienes pinta de\n"
+	.string "ser de por aquí, ¿verdad?$"
+
+AzaleaTown_Encuentro_Mirto_Texto_3:
+.string "????: Pareces un buen ENTRENADOR.\n"
+	.string "Estaría encantado de conversar\l"
+	.string "contigo, pero tendrás que\l"
+	.string "disculparme.$"
+
+AzaleaTown_Encuentro_Mirto_Texto_4:
+.string "????: He viajado desde muy lejos\n"
+	.string "por los avanzados conocimientos en\l"
+	.string "medicina que esta región ha tenido\l"
+	.string "desde siempre.$"
+
+AzaleaTown_Encuentro_Mirto_Texto_5:
+.string "Es lo único que puede salvar a mi\n"
+	.string "POKÉMON, mi última esperanza.$"
+
+AzaleaTown_Encuentro_Mirto_Move_1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
+
+AzaleaTown_Encuentro_Mirto_Move_2:
+face_up
+step_end
+
+AzaleaTown_Encuentro_Mirto_Move_3:
+face_down
+emote_exclamation_mark
+step_end
+
+AzaleaTown_Encuentro_Mirto_Move_4:
+walk_down
+walk_down
+walk_down
+step_end
+
+AzaleaTown_Encuentro_Mirto_Move_5:
+walk_in_place_down
+step_end
+
+AzaleaTown_Encuentro_Mirto_Move_6:
+face_left
+step_end
+
+AzaleaTown_Encuentro_Mirto_Move_7:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end

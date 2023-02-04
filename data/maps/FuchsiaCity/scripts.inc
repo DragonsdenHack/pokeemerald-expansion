@@ -213,3 +213,116 @@ end
 FuchsiaCityDocumento_Text_110:
 	.string "Nombre: CHANSEY\n"
 	.string "Atrapar uno es cuestión de suerte.$"
+
+FuchsiaCity_Encuentro_Koga::
+msgbox FuchsiaCity_Encuentro_Koga_Texto_1 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Encuentro_Koga_Texto_3 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Encuentro_Koga_Texto_4 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Encuentro_Koga_Texto_5 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Encuentro_Koga_Texto_6 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Encuentro_Koga_Texto_7 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Encuentro_Koga_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+FuchsiaCity_Encuentro_Koga_Texto_1:
+.string "KOGA: ¡{PLAYER}!\n"
+	.string "¡No puedo creer que de verdad\l"
+	.string "hayas echado a BRUNO del CAMINO\l"
+	.string "BICIS!\l"
+	.string "¡No eres consciente de la\l"
+	.string "importancia de lo que has hecho,\l"
+	.string "no dudes de que informaré a\l"
+	.string "GIOVANNI sobre tu hazaña!$"
+
+FuchsiaCity_Encuentro_Koga_Texto_2:
+.string "KOGA: ...$"
+
+FuchsiaCity_Encuentro_Koga_Texto_3:
+.string "Nos ayudaste a mantener el negocio\n"
+	.string "del SAFARI, y ahora gracias a ti\l"
+	.string "la relación entre el TEAM ROCKET y\l"
+	.string "los MOTORISTAS es más fuerte que\l"
+	.string "nunca, te has ganado el mejor\l"
+	.string "regalo que pueda ofrecerte, además\l"
+	.string "de mi respeto.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_4:
+.string "Con este pase podrás entrar\n"
+	.string "siempre que quieras a nuestra ZONA\l"
+	.string "SAFARI sin pagar, y usando tus\l"
+	.string "propias POKÉ BALL sin ningún tipo\l"
+	.string "de limitación, es algo a lo que\l"
+	.string "sólo tienen acceso los principales\l"
+	.string "accionistas y personalidades como\l"
+	.string "BILL por motivos de\l"
+	.string "investigación...considérate\l"
+	.string "afortunado, y no te preocupes por\l"
+	.string "llevar el uniforme ROCKET, siempre\l"
+	.string "puedes alegar al guarda que es un\l"
+	.string "cosplay que usas para ridiculizar\l"
+	.string "al TEAM ROCKET, este estará\l"
+	.string "obligado a dejarte pasar...$"
+
+FuchsiaCity_Encuentro_Koga_Texto_5:
+.string "KOGA: ¿Cómo?\n"
+	.string "¿Las ISLAS ESPUMA?$"
+
+FuchsiaCity_Encuentro_Koga_Texto_6:
+.string "Se encuentran al suroeste de aquí,\n"
+	.string "solo tienes que llegar al mar que\l"
+	.string "hay al sur de FUCSIA y llegarás,\l"
+	.string "no tiene pérdida.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_7:
+.string "KOGA: Gracias por todo de nuevo\n"
+	.string "{PLAYER}, ahora me retiro, no es\l"
+	.string "conveniente que me vean con un\l"
+	.string "ROCKET, debo mantener las\l"
+	.string "apariencias si queréis seguir\l"
+	.string "teniendo a uno de los vuestros\l"
+	.string "infiltrado en puestos de\l"
+	.string "privilegio, estaré encantado de\l"
+	.string "combatir contigo...si se da la\l"
+	.string "ocasión.$"
+
+FuchsiaCity_Encuentro_Koga_Texto_8:
+.string "GIOVANNI: ¿{PLAYER}?\n"
+	.string "¿Cómo va la misión?\l"
+	.string "¿Vas de camino a ISLAS ESPUMA?\l"
+	.string "Perfecto, AZUL tiene todo listo\l"
+	.string "para batir a MOLTRES, y ANDRA ha\l"
+	.string "ultimado los preparativos con\l"
+	.string "nuestros científicos para hacer su\l"
+	.string "equipo más ventajoso frente a\l"
+	.string "ZAPDOS, espero noticias tuyas\l"
+	.string "{PLAYER}.$"
+
+FuchsiaCity_Encuentro_Koga_Move_1:
+walk_in_place_right
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_2:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_3:
+face_down
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_4:
+face_left
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_5:
+emote_exclamation_mark
+step_end

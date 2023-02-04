@@ -68,3 +68,24 @@ end
 
 RocketHideout3F_5::
 end
+
+RocketHideout_3F_Maquina_Teletransporte_2::
+msgbox RocketHideout_3F_Maquina_Teletransporte_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_3F_Maquina_Teletransporte_No
+delay 10
+playse SE_M_CHARGE
+delay 20
+playse SE_M_TELEPORT
+warpsilent MAP_ROCKET_HIDEOUT_6F, 10, 16
+release
+end
+
+RocketHideout_3F_Maquina_Teletransporte_YesNo:
+.string "La máquina está lista para ser\n"
+	.string "usada, ¿quieres teletransportarte\l"
+	.string "a la BASE de RUTA 5?$"
+
+RocketHideout_3F_Maquina_Teletransporte_No::
+release
+end

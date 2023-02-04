@@ -142,3 +142,357 @@ RocketHideoutViridian_EventScript_Cientifico4::
 	trainerbattle_single TRAINER_ABIGAIL_2, RocketHideoutViridian_Text_Cientifico4Intro, RocketHideoutViridian_Text_Cientifico4Defeated
 	msgbox RocketHideoutViridian_Text_Cientifico4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+RocketHideoutViridian_Combate_Proton::
+msgbox RocketHideoutViridian_Combate_Proton_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Proton_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Proton_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Proton_Texto_4 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Proton_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideoutViridian_Combate_Proton_Texto_1:
+.string "PROTÓN: Estás aquí {PLAYER}, viendo\n"
+	.string "tu trayectoria, era de esperar que\l"
+	.string "no tardarías mucho en vencer a los\l"
+	.string "LÍDERES DE GIMNASIO y llegar hasta\l"
+	.string "aquí, nuestra BASE SECRETA con la\l"
+	.string "mejor tapadera de todas.$"
+
+RocketHideoutViridian_Combate_Proton_Texto_2:
+.string "Como ya sabrás, en esta\n"
+	.string "organización hay que demostrar que\l"
+	.string "se está a la altura y se es merecedor\l"
+	.string "de las misiones que se le confían,\l"
+	.string "en este caso la tuya es la más\l"
+	.string "complicada de todas, y eso\l"
+	.string "requiere medidas de prueba\l"
+	.string "extremas...$"
+
+RocketHideoutViridian_Combate_Proton_Texto_3:
+.string "Los LÍDERES DE GIMNASIO son una\n"
+	.string "buena vara de medir, pero debes de\l"
+	.string "demostrar que eres el ROCKET más\l"
+	.string "cualificado para tan importante\l"
+	.string "misión, los EJECUTIVOS y\l"
+	.string "ADMINISTRADORES más fuertes\l"
+	.string "tenemos un poder igual o superior\l"
+	.string "al de cualquier LÍDER DE GIMNASIO,\l"
+	.string "¿no me crees?\l"
+	.string "¡Te lo demostraré!$"
+
+RocketHideoutViridian_Combate_Proton_Texto_4:
+.string "No nos equivocamos contigo\n"
+	.string "{PLAYER}.$"
+
+RocketHideoutViridian_Combate_Proton_Texto_5:
+.string "Fue un acierto trasladarte a\n"
+	.string "nuestra base de AZULONA en su\l"
+	.string "momento, tienes más que merecido\l"
+	.string "ese puesto de ADMINISTRADOR ROCKET\l"
+	.string "{PLAYER}, te recomiendo curar a tu\l"
+	.string "equipo antes de seguir, los\l"
+	.string "ADMINISTRADORES que quedan son más\l"
+	.string "poderosos que yo, apuesto que\l"
+	.string "saltarán chispas en esos\l"
+	.string "combates...$"
+
+RocketHideoutViridian_Combate_Proton_Move_1:
+walk_up
+walk_up
+step_end
+
+RocketHideoutViridian_Combate_Proton_Move_2:
+face_down
+step_end
+
+RocketHideoutViridian_Combate_Proton_Move_3:
+walk_slow_down
+walk_in_place_down
+step_end
+
+RocketHideoutViridian_Combate_Proton_Move_4:
+face_up
+step_end
+
+RocketHideoutViridian_Combate_Petrel::
+msgbox RocketHideoutViridian_Combate_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Petrel_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Petrel_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Petrel_Texto_4 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Petrel_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideoutViridian_Combate_Petrel_Texto_1:
+.string "PETREL: Jamás pensé que pudieras\n"
+	.string "llegar tan lejos, cuando\l"
+	.string "fracasaste en tu primera misión en\l"
+	.string "KANTO y a pesar de ello derrotaste\l"
+	.string "a un ALTO RANGO, vi que tenías\l"
+	.string "potencial y por ello te asigné la\l"
+	.string "peligrosa misión de la CASA DE\l"
+	.string "BILL.$"
+
+RocketHideoutViridian_Combate_Petrel_Texto_2:
+.string "Sin embargo has sobrepasado toda\n"
+	.string "expectativa, a los ADMINISTRADORES\l"
+	.string "ROCKETS se les exigen muchas\l"
+	.string "habilidades, entre ellas está el\l"
+	.string "contar con un equipo POKÉMON digno\l"
+	.string "de la ÉLITE 4, hecho a base de\l"
+	.string "POKÉMON fuertes, bien entrenados y\l"
+	.string "que no encontrarás únicamente\l"
+	.string "merodeando por ahí sin un rumbo\l"
+	.string "fijo como hacen el 95% de los\l"
+	.string "entrenadores.$"
+
+RocketHideoutViridian_Combate_Petrel_Texto_3:
+.string "Tenemos también el deber de usar\n"
+	.string "todo nuestro poder únicamente\l"
+	.string "cuando sea totalmente necesario,\l"
+	.string "el futuro de la región, y del TEAM\l"
+	.string "ROCKET, está en tus manos, ¡me\l"
+	.string "aseguraré personalmente de que\l"
+	.string "irás a la LIGA POKÉMON con todas\l"
+	.string "las garantías!$"
+
+RocketHideoutViridian_Combate_Petrel_Texto_4:
+.string "Gran combate {PLAYER}, eres un\n"
+	.string "ADMIN ROCKET con todas las de la\l"
+	.string "ley.$"
+
+RocketHideoutViridian_Combate_Petrel_Texto_5:
+.string "¡JAH!\n"
+	.string "¡Espléndido!\l"
+	.string "¡No esperaba menos de aquel que\l"
+	.string "derrotó a BRUNO y salvó a mis\l"
+	.string "colegas MOTORISTAS!\l"
+	.string "Me alegra que estés de nuestro\l"
+	.string "lado {PLAYER}, hazme un favor si te\l"
+	.string "llegas a cruzar con ese chico\l"
+	.string "llamado ROJO, si, ese que cree\l"
+	.string "estar una dimensión por encima\l"
+	.string "nuestra, y piensa que es imbatible\l"
+	.string "e intocable, ¡dale una buena dosis\l"
+	.string "de realidad de parte del TEAM\l"
+	.string "ROCKET!$"
+
+RocketHideoutViridian_Combate_Petrel_Move_1:
+walk_up
+walk_right
+walk_up
+step_end
+
+RocketHideoutViridian_Combate_Petrel_Move_2:
+face_down
+step_end
+
+RocketHideoutViridian_Combate_Petrel_Move_3:
+walk_slow_down
+walk_in_place_down
+step_end
+
+RocketHideoutViridian_Combate_Petrel_Move_4:
+walk_in_place_down
+step_end
+
+RocketHideoutViridian_Combate_Petrel_Move_5:
+face_up
+step_end
+
+RocketHideoutViridian_Combate_Atlas::
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_4 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_7 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_9 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_10 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_11 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_12 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_13 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_14 MSGBOX_AUTOCLOSE
+msgbox RocketHideoutViridian_Combate_Atlas_Texto_15 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideoutViridian_Combate_Atlas_Texto_1:
+.string "????: Te estaba esperando, ADMIN\n"
+	.string "{PLAYER}.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_2:
+.string "ATLAS: Vamos pasa, no te quedes\n"
+	.string "ahí, ponte cómodo.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_3:
+.string "Curioso contraste este pequeño\n"
+	.string "espacio con respecto al resto de\l"
+	.string "la BASE, ¿verdad?\l"
+	.string "No fui partidario de construirlo\l"
+	.string "así, dijeron que era una muestra\l"
+	.string "de jerarquía, un reflejo del poder\l"
+	.string "de aquel merecedor de ocuparlo.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_4:
+.string "Pero lejos de ello, un espacio así\n"
+	.string "en manos de alguien débil lejos de\l"
+	.string "darle un plus le hará dormirse en\l"
+	.string "los laureles y lo debilitará, le\l"
+	.string "hará creer que lo tiene todo\l"
+	.string "hecho, que nadie puede tocarle ni\l"
+	.string "hacerle sombra.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_5:
+.string "Esto aplica también por supuesto\n"
+	.string "para niños ingenuos e inocentes,\l"
+	.string "como ese ROJO, cree que con 10\l"
+	.string "años tiene el mundo a sus pies y\l"
+	.string "puede comerle la tostada a toda\l"
+	.string "una organización solo por ganar un\l"
+	.string "par de combates amañados.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_6:
+.string "Espero, {PLAYER}, que no seas como\n"
+	.string "ese ENTRENADOR, ni que te\l"
+	.string "conviertas en él, preferiría 1000\l"
+	.string "veces seguir tu camino escogiendo\l"
+	.string "a un débil ZUBAT como inicial, y\l"
+	.string "verme obligado a aprender a\l"
+	.string "hacerlo fuerte, que comenzar con\l"
+	.string "unos starters que nadie más tiene,\l"
+	.string "con el camino ya preestablecido\l"
+	.string "por OAK y unos LÍDERES usando\l"
+	.string "equipos devaluados.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_7:
+.string "Esa dificultad a la que te has\n"
+	.string "expuesto es la que de verdad te\l"
+	.string "hace crecer, menos placentera pero\l"
+	.string "donde se dan las cosas más\l"
+	.string "importantes, por eso estás aquí\l"
+	.string "hoy {PLAYER}.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_8:
+.string "No esperes un trato justo e igual\n"
+	.string "al de ROJO, o incluso AZUL, en la\l"
+	.string "LIGA POKÉMON, el ALTO MANDO usará\l"
+	.string "todos los POKÉMON a su disposición\l"
+	.string "para derrotar a cualquiera que\l"
+	.string "considere un peligro para el\l"
+	.string "gobierno de LANCE.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_9:
+.string "Por ello yo, ATLAS, ADMINISTRADOR\n"
+	.string "JEFE y mano derecha de GIOVANNI,\l"
+	.string "seré tu prueba final antes de\l"
+	.string "partir a tu misión más importante,\l"
+	.string "¡muéstrame todo lo que has\l"
+	.string "aprendido!$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_10:
+.string "Ah, me siento orgulloso de haber\n"
+	.string "formado a ROCKETS como tú, aquí\l"
+	.string "tienes la MEDALLA TIERRA.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_11:
+.string "Impresionante, en muy poco tiempo\n"
+	.string "has logrado un extraordinario\l"
+	.string "nivel, y lo mejor es que aún no\l"
+	.string "has tocado techo.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_12:
+.string "Ni GIOVANNI ni yo podemos poner un\n"
+	.string "pie en la LIGA POKÉMON, nuestras\l"
+	.string "caras son demasiado mediáticas, y\l"
+	.string "nuestra imagen ha sido demasiado\l"
+	.string "maltratada por los medios como\l"
+	.string "para dejarnos ver, solo serviría\l"
+	.string "para quedar detenidos en el acto,\l"
+	.string "sin embargo, después de lo que\l"
+	.string "acabo de ver, puedo decir que\l"
+	.string "contigo estamos bien representados\l"
+	.string "para esta misión.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_13:
+.string "Hacerse con el campeonato de la\n"
+	.string "LIGA dota a su CAMPEÓN de un poder\l"
+	.string "que ni LANCE y su gobierno podrán\l"
+	.string "cuestionar, es por ello que debes\l"
+	.string "esperar lo peor una vez entres en\l"
+	.string "la LIGA POKÉMON, no dejarán que un\l"
+	.string "extraño se alze con el título tan\l"
+	.string "facilmente...$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_14:
+.string "Vuelvo a ISLA INTA {PLAYER}, tal\n"
+	.string "vez tengas oportunidad de volver\l"
+	.string "por allí tu también algún día,\l"
+	.string "informaré a GIOVANNI de tu\l"
+	.string "victoria aquí.$"
+
+RocketHideoutViridian_Combate_Atlas_Texto_15:
+.string "Juega bien tus cartas.$"
+
+RocketHideoutViridian_Combate_Atlas_Move_1:
+walk_in_place_up
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_2:
+emote_exclamation_mark
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_3:
+walk_up
+walk_up
+walk_right
+walk_right
+walk_up
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_4:
+face_down
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_5:
+walk_down
+walk_down
+walk_left
+walk_left
+walk_down
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_6:
+walk_up
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_right
+walk_in_place_left
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_7:
+walk_down
+walk_down
+walk_left
+walk_in_place_right
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_8:
+walk_left
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_9:
+walk_right
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_10:
+face_left
+step_end
