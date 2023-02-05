@@ -67,3 +67,100 @@ end
 
 Route4PokemonCenterDocumento_Text_100:
 .string "Un periódico...$"
+
+Route4_PokemonCenter_1F_Estafa::
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_1 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Route4_PokemonCenter_1F_Estafa_No
+delay 10
+playse SE_SHOP
+removemoney 500 0
+updatemoneybox
+delay 80
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 5, Route4_PokemonCenter_1F_Estafa_Move_1
+waitmovement 0x0
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 5, Route4_PokemonCenter_1F_Estafa_Move_2
+waitmovement 0x0
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_7 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING
+clearflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY
+fadescreen 1
+delay 20
+removeobject 5
+fadescreen 0
+release
+end
+
+
+Route4_PokemonCenter_1F_Estafa_No::
+hidemoneybox
+msgbox Route4_PokemonCenter_1F_Estafa_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+Route4_PokemonCenter_1F_Estafa_Texto_1:
+.string "Pareces un ROCKET con grandes\n"
+	.string "aspiraciones. De esos que no se\l"
+	.string "conforman con un simple RATATTA o\l"
+	.string "EKANS. Escucha.$"
+
+Route4_PokemonCenter_1F_Estafa_Texto_2:
+.string "¿Te gustaría adquirir un\n"
+	.string "extraordinario POKÉMON que hará\l"
+	.string "que todos te teman y respeten por\l"
+	.string "solo 500 POKÉS?\l"
+	.string "¡Nadie más que yo te hará una\l"
+	.string "oferta como esta!$"
+
+Route4_PokemonCenter_1F_Estafa_Texto_3:
+.string "Perfecto. Otro iluso al que acabo\n"
+	.string "de estafar.$"
+
+Route4_PokemonCenter_1F_Estafa_Texto_4:
+.string "¿De verdad creías que alguien iba\n"
+	.string "a venderte un POKÉMON así por ese\l"
+	.string "precio?\l"
+	.string "Un MAGIKARP es completamente\l"
+	.string "inútil.$"
+
+Route4_PokemonCenter_1F_Estafa_Texto_5:
+.string "Es más, eres un ROCKET, no tengo\n"
+	.string "porqué entregarte nada, quien\l"
+	.string "estafa a un ladrón tiene 1000 años\l"
+	.string "de perdón o algo así dice el\l"
+	.string "dicho, ¿no?$"
+
+Route4_PokemonCenter_1F_Estafa_Texto_6:
+.string "No puedes reclamar nada a la\n"
+	.string "POLICÍA, ya que van tras vuestra,\l"
+	.string "y nadie te hará caso, o siquiera\l"
+	.string "creerá. Es el negocio perfecto,\l"
+	.string "vender aire por 500 POKÉS.\l"
+	.string "¡Jojojojo!$"
+
+Route4_PokemonCenter_1F_Estafa_Texto_7:
+.string "Ahí te quedas ROCKET, jamás podrás\n"
+	.string "encontrarme, la próxima vez\l"
+	.string "piénsate dos veces con quien haces\l"
+	.string "negocios.$"
+
+Route4_PokemonCenter_1F_Estafa_Texto_8:
+.string "Pensaba que los ROCKET teníais\n"
+	.string "buen olfato para detectar un buen\l"
+	.string "negocio cuando lo tienen delante,\l"
+	.string "que decepción.$"
+
+Route4_PokemonCenter_1F_Estafa_Move_1:
+walk_in_place_up
+step_end
+
+Route4_PokemonCenter_1F_Estafa_Move_2:
+face_player
+step_end

@@ -326,3 +326,248 @@ step_end
 FuchsiaCity_Encuentro_Koga_Move_5:
 emote_exclamation_mark
 step_end
+
+FuchsiaCity_Estafado::
+compare VAR_UNUSED_0x4091, 2
+goto_if_eq FuchsiaCity_Estafado_3
+compare VAR_UNUSED_0x4091, 1
+goto_if_eq FuchsiaCity_Estafado_2
+msgbox FuchsiaCity_Estafado_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox FuchsiaCity_Estafado_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 8, FuchsiaCity_Estafado_Move_1
+waitmovement 0x0
+faceplayer
+applymovement 8, FuchsiaCity_Estafado_Move_3
+waitmovement 0x0
+msgbox FuchsiaCity_Estafado_Texto_3 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Estafado_Texto_13 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq FuchsiaCity_Estafado_No
+msgbox FuchsiaCity_Estafado_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 8, FuchsiaCity_Estafado_Move_2
+waitmovement 0x0
+msgbox FuchsiaCity_Estafado_Texto_15 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_Estafado_Move_3
+waitmovement 0x0
+msgbox FuchsiaCity_Estafado_Texto_16 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x4091, 1
+release
+end
+
+FuchsiaCity_Estafado_No::
+msgbox FuchsiaCity_Estafado_Texto_17 MSGBOX_AUTOCLOSE
+release
+end
+
+FuchsiaCity_Estafado_2::
+lock
+faceplayer
+msgbox FuchsiaCity_Estafado_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+FuchsiaCity_Estafado_3::
+lock
+faceplayer
+delay 20
+msgbox FuchsiaCity_Estafado_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 8, FuchsiaCity_Estafado_Move_1
+waitmovement 0x0
+msgbox FuchsiaCity_Estafado_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_SHOP
+msgbox FuchsiaCity_Estafado_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 8, FuchsiaCity_Estafado_Move_1
+waitmovement 0x0
+msgbox FuchsiaCity_Estafado_Texto_6 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Estafado_Texto_7 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
+delay 15
+addmoney 200000 0
+playse SE_SHOP
+delay 15
+updatemoneybox
+delay 15
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox FuchsiaCity_Estafado_Texto_8 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
+msgbox FuchsiaCity_Estafado_Texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox FuchsiaCity_Estafado_Texto_10 MSGBOX_DEFAULT
+givemon SPECIES_SNORLAX, 30, ITEM_LEFTOVERS
+waitfanfare
+delay 15
+msgbox FuchsiaCity_Estafado_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY
+fadescreen 1
+removeobject 8
+delay 20
+fadescreen 0
+release
+end
+
+
+
+
+
+
+
+FuchsiaCity_Estafado_Texto_1:
+.string "Estoy acabado, en la ruina...\n"
+	.string "Y todo por esos estafadores...$"
+
+FuchsiaCity_Estafado_Texto_2:
+.string "...\n"
+	.string "...$"
+
+FuchsiaCity_Estafado_Texto_3:
+.string "¡Eh, espera ROCKET!\n"
+	.string "¡Eres mi última esperanza!\l"
+	.string "¡Escúchame!\l"
+	.string "He sido víctima de un engaño,\l"
+	.string "invertí todos los ahorros que me\l"
+	.string "quedaban: 2 millones de POKÉS, en\l"
+	.string "comprar un auténtio METEORITO\l"
+	.string "proveniente de la CASCADA METEORO,\l"
+	.string "en HOENN, ese METEORITO\l"
+	.string "confirmaría la teoría en la que\l"
+	.string "todo mi proyecto se ha basado, y\l"
+	.string "daría por finalizado dicho proyecto,\l"
+	.string "en el que llevo años trabajando.\l"
+	.string "Pero resulta que esos estafadores\l"
+	.string "me vendieron a precio de oro una\l"
+	.string "de las tantas rocas que puedes\l"
+	.string "encontrar en el MT.MOON, y ahora\l"
+	.string "estoy en la ruina, sin siquiera\l"
+	.string "dinero para reclamar nada.$"
+
+FuchsiaCity_Estafado_Texto_4:
+.string "¿¡Qué dices?!\n"
+	.string "¿Que nos has librado para siempre\l"
+	.string "de esos tramposos y se han mudado\l"
+	.string "a otra región?\l"
+	.string "¡Y has recuperado el dinero que\l"
+	.string "invertí en mi proyecto!$"
+
+FuchsiaCity_Estafado_Texto_5:
+.string "({PLAYER} entregó los 2 millones de\n"
+	.string "POKÉS al científico).$"
+
+FuchsiaCity_Estafado_Texto_6:
+.string "No puedo creer que haya recuperado\n"
+	.string "todo mi dinero, si te soy sincero,\l"
+	.string "tenía mis dudas de si obrarías\l"
+	.string "honradamente ROCKET, de si, aún\l"
+	.string "consiguiendo recuperar mi dinero,\l"
+	.string "no desaparecerías con él,\l"
+	.string "perdiéndose para siempre.$"
+
+FuchsiaCity_Estafado_Texto_7:
+.string "Ahora veo que solo son\n"
+	.string "estereotipos, y que el dinero que\l"
+	.string "robáis realmente tiene un claro\l"
+	.string "objetivo detrás, aquí tienes lo\l"
+	.string "acordado ROCKET.$"
+
+FuchsiaCity_Estafado_Texto_8:
+.string "(Acabas de facturar 200000 POKÉS).$"
+
+FuchsiaCity_Estafado_Texto_9:
+.string "Y el POKÉMON que te prometí.\n"
+	.string "¡Me costó horrores poder atraparlo\l"
+	.string "a pesar de que no se movía nada y\l"
+	.string "se la pasaba durmiendo la mitad\l"
+	.string "del combate!$"
+
+FuchsiaCity_Estafado_Texto_10:
+.string "¡¡OBTUVISTE UN SNORLAX AL\n"
+	.string "NV:35!!$"
+
+FuchsiaCity_Estafado_Texto_11:
+.string "Ahora sí me voy, gracias por todo\n"
+	.string "ROCKET, al fin podré terminar mi\l"
+	.string "proyecto, te estaré siempre\l"
+	.string "agradecido, si algún día\l"
+	.string "logro algo importante, no dudaré\l"
+	.string "en mencionarte.$"
+
+FuchsiaCity_Estafado_Texto_12:
+.string "Recuerda, deben de estar en ISLA\n"
+	.string "CANELA, aparte de ser la mayor\l"
+	.string "cuna de ladrones, es de los\l"
+	.string "últimos lugares que les quedan por\l"
+	.string "asaltar en KANTO.$"
+
+FuchsiaCity_Estafado_Texto_13:
+.string "¿Accederías a intentar recuperar\n"
+	.string "el dinero que injustamente me han\l"
+	.string "robado?\l"
+	.string "Prometo darte el 10% de esos 2\l"
+	.string "millones si tienes éxito, y no\l"
+	.string "solo eso, también te daré un\l"
+	.string "poderoso POKÉMON en señal de\l"
+	.string "agradecimiento.$"
+
+FuchsiaCity_Estafado_Texto_14:
+.string "¡Al fin vuelvo a tener esperanzas\n"
+	.string "de recuperar mi dinero!\l"
+	.string "Mira ROCKET, los que me han\l"
+	.string "estafado son profesionales en\l"
+	.string "esto, cambian constantemente las\l"
+	.string "zonas donde operan y los lugares\l"
+	.string "en los que se reúnen, para que la\l"
+	.string "gente no comienze a sospechar en\l"
+	.string "exceso, y la POLICÍA sea incapaz\l"
+	.string "de detectarles.$"
+
+FuchsiaCity_Estafado_Texto_15:
+.string "Sin embargo, tengo una corazonada,\n"
+	.string "y es que actualmente esos canallas\l"
+	.string "se encuentran en esa MANSIÓN\l"
+	.string "ABANDONADA de ISLA CANELA, por\l"
+	.string "descarte es el último lugar que\l"
+	.string "les queda, ya han actuado en\l"
+	.string "FUCSIA, AZULONA, al pie del\l"
+	.string "MT.MOON...$"
+
+FuchsiaCity_Estafado_Texto_16:
+.string "Espero que seas un gran\n"
+	.string "ENTRENADOR, ROCKET, deben de haber\l"
+	.string "comprado a los mejores POKÉMON en\l"
+	.string "el mercado negro con todo el\l"
+	.string "dinero que han ganado estafando a\l"
+	.string "la gente.\l"
+	.string "Si consigues recuperar mi dinero\l"
+	.string "te daré un 10% del total, y un\l"
+	.string "fabuloso POKÉMON que no\l"
+	.string "encontrarás así como así, estaré\l"
+	.string "aquí esperando con ansias tu\l"
+	.string "actuación.$"
+
+FuchsiaCity_Estafado_Texto_17:
+.string "Oh...\n"
+	.string "No puede ser...\l"
+	.string "¿Y ahora qué haré?$"
+
+FuchsiaCity_Estafado_Move_1:
+emote_exclamation_mark
+step_end
+
+FuchsiaCity_Estafado_Move_2:
+walk_in_place_up
+step_end
+
+FuchsiaCity_Estafado_Move_3:
+face_player
+step_end

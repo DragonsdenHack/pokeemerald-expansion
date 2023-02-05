@@ -645,3 +645,180 @@ walk_left
 walk_left
 step_end
 
+VermilionCity_Secundaria_AncianoMachop::
+lock
+faceplayer
+compare VAR_UNUSED_0x409B, 2
+goto_if_gt VermilionCity_Secundaria_AncianoMachop_6
+compare VAR_UNUSED_0x409B, 2
+goto_if_eq VermilionCity_Secundaria_AncianoMachop_5
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_2 MSGBOX_AUTOCLOSE
+compare VAR_UNUSED_0x409B, 1
+goto_if_eq VermilionCity_Secundaria_AncianoMachop_4
+compare VAR_UNUSED_0x40F7, 22
+goto_if_gt VermilionCity_Secundaria_AncianoMachop_2
+delay 20
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+
+
+
+
+VermilionCity_Secundaria_AncianoMachop_2::
+playse SE_PIN
+applymovement 4, VermilionCity_Secundaria_AncianoMachop_Move_1
+waitmovement 0x0
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_9 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq VermilionCity_Secundaria_AncianoMachop_3
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_10 MSGBOX_AUTOCLOSE
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_11 MSGBOX_AUTOCLOSE
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x409B, 1
+release
+end
+
+
+VermilionCity_Secundaria_AncianoMachop_3::
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Secundaria_AncianoMachop_4::
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Secundaria_AncianoMachop_5:
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 4, VermilionCity_Secundaria_AncianoMachop_Move_1
+waitmovement 0x0
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+playfanfare MUS_OBTAIN_TMHM
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_6 MSGBOX_DEFAULT
+givemon SPECIES_HITMONLEE, 20, ITEM_SCOPE_LENS
+waitfanfare
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_7 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x409B, 3
+release
+end
+
+VermilionCity_Secundaria_AncianoMachop_6:
+msgbox VermilionCity_Secundaria_AncianoMachop_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+
+
+VermilionCity_Secundaria_AncianoMachop_Texto_1:
+.string "Esos pijos del CLUB DE FANS, no\n"
+	.string "paran de burlarse de mi proyecto,\l"
+	.string "se creen los más guays e\l"
+	.string "intocables solo por tener POKÉMON\l"
+	.string "raros. Si tuviera algún POKÉMON\l"
+	.string "más a parte de mi fiel MACHOP me\l"
+	.string "encargaría personalmente de darles\l"
+	.string "una lección.$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_2:
+.string "...\n"
+	.string "...$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_3:
+.string "Tú no pareces tener tampoco la\n"
+	.string "suficiente experiencia como para\l"
+	.string "enfrentar al PRESIDENTE de ese\l"
+	.string "lugar. Vuelve cuando seas más\l"
+	.string "fuerte si quieres hacer un buen\l"
+	.string "negocio.$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_4:
+.string "¡Mi proyecto va como la seda\n"
+	.string "ROCKET!\l"
+	.string "¡En 3 años este solar contará con\l"
+	.string "un edificio aún mayor que la SEDE\l"
+	.string "SILPH de AZAFRÁN!\l"
+	.string "¡Ya lo verás!$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_5:
+.string "¡Así que lo derrotaste!\n"
+	.string "¡Honestamente dudaba de que\l"
+	.string "pudieras tener oportunidad!\l"
+	.string "¡No voy a negar que sus POKÉMON\l"
+	.string "son una rareza en esta ciudad!\l"
+	.string "¡Seguro que se le han bajado esos\l"
+	.string "humos después de perder ante todos\l"
+	.string "sus seguidores!\l"
+	.string "¡Alguien como tú seguro que sabe\l"
+	.string "exprimir el potencial de mi\l"
+	.string "HITMONLEE!$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_6:
+.string "¡¡OBTUVISTE UN HITMONLEE AL\n"
+	.string "NV:20!!$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_7:
+.string "Es uno de los POKÉMON LUCHA más\n"
+	.string "raros y preciados de esta región,\l"
+	.string "la fuerza de sus patadas es\l"
+	.string "inigualable, conmigo estaba\l"
+	.string "desaprovechado, seguro que tú\l"
+	.string "puedes darle un mejor uso.$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_8:
+.string "¿Cómo va la misión?$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_9:
+.string "¡Oh!\n"
+	.string "¿ALTO RANGO ROCKET dices?\l"
+	.string "Sí, tus POKÉMON parecen tener\l"
+	.string "cierto desarrollo, dime, ¿te\l"
+	.string "interesaría hacer un pequeño\l"
+	.string "trabajo?$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_10:
+.string "¡Genial!\n"
+	.string "Escucha, el PRESIDENTE del CLUB DE\l"
+	.string "FANS de esta ciudad es un señor\l"
+	.string "con una gran reputación, que no ha\l"
+	.string "hecho más que boicotear mi\l"
+	.string "proyecto y burlarse de mis\l"
+	.string "aspiraciones, cree que dentro de\l"
+	.string "tres años esta parcela de tierra\l"
+	.string "seguirá como un solar y yo me\l"
+	.string "habré ido.$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_11:
+.string "Lo que quiero que hagas es que le\n"
+	.string "des una lección delante de todos\l"
+	.string "sus seguidores, siempre se jacta\l"
+	.string "de ser un gran ENTRENADOR, haber\l"
+	.string "capturado a más de 100 POKÉMON y\l"
+	.string "tener el nivel de un LÍDER DE\l"
+	.string "GIMNASIO, si le derrotas ahí toda\l"
+	.string "su reputación se irá al garete y\l"
+	.string "perderá toda su credibilidad.$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_12:
+.string "Yo no me moveré de aquí, te estaré\n"
+	.string "esperando con una gran recompensa\l"
+	.string "si haces lo que te he pedido.$"
+
+VermilionCity_Secundaria_AncianoMachop_Texto_13:
+.string "¿No?\n"
+	.string "Vaya...\l"
+	.string "Si cambias de opinión aquí estaré.$"
+
+VermilionCity_Secundaria_AncianoMachop_Move_1:
+emote_exclamation_mark
+step_end
+
