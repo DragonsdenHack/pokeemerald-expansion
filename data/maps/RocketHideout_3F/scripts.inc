@@ -89,3 +89,80 @@ RocketHideout_3F_Maquina_Teletransporte_YesNo:
 RocketHideout_3F_Maquina_Teletransporte_No::
 release
 end
+
+RocketHideout_3F_Cientifico_Bienvenida::
+delay 5
+playse SE_PIN
+applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_3F_Cientifico_Bienvenida_Move_2
+delay 10
+msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_3
+waitmovement 0x0
+msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_3
+waitmovement 0x0
+msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_4
+waitmovement 0x0
+clearflag FLAG_UNKNOWN_0x363
+addobject 4
+msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_3
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 37
+release
+end
+
+RocketHideout_3F_Cientifico_Bienvenida_Texto_1:
+.string "¡Vaya!\n"
+	.string "¡Tú debes de ser {PLAYER}, hay que\l"
+	.string "tener valor para meterse con\l"
+	.string "alguien tan protegido como BILL y\l"
+	.string "salir airoso!$"
+
+RocketHideout_3F_Cientifico_Bienvenida_Texto_2:
+.string "Nuestro LÍDER GIOVANNI se\n"
+	.string "encuentra en su despacho en el\l"
+	.string "PISO -4, uno más abajo de este,\l"
+	.string "dió claras indicaciones de que\l"
+	.string "fueras a verle en cuanto llegaras\l"
+	.string "aquí.$"
+
+RocketHideout_3F_Cientifico_Bienvenida_Texto_3:
+.string "Otra cosa más, para llegar a su\n"
+	.string "despacho no podrás acceder por las\l"
+	.string "escaleras convencionales, a modo\l"
+	.string "de protección el único acceso\l"
+	.string "posible es a través del ascensor\l"
+	.string "que encontrarás una planta más\l"
+	.string "arriba, necesitarás estas llaves\l"
+	.string "para hacerlo funcionar.$"
+
+RocketHideout_3F_Cientifico_Bienvenida_Texto_4:
+.string "Eso es todo {PLAYER}, GIOVANNI te\n"
+	.string "espera.$"
+
+RocketHideout_3F_Cientifico_Bienvenida_Move_1:
+emote_exclamation_mark
+walk_in_place_left
+step_end
+
+RocketHideout_3F_Cientifico_Bienvenida_Move_2:
+walk_in_place_right
+step_end
+
+RocketHideout_3F_Cientifico_Bienvenida_Move_3:
+walk_in_place_up
+walk_in_place_left
+step_end
+
+RocketHideout_3F_Cientifico_Bienvenida_Move_4:
+face_down
+step_end
+
+RocketHideout_3F_Cientifico_Bienvenida_Move_5:
+face_up
+step_end

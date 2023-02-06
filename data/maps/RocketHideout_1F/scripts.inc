@@ -98,3 +98,41 @@ RocketHideout1F_Text_7:
 .string "Así que ISLA INTA eh.\n"
 .string "¿Hay POKÉMON raros por esos\l"
 .string "lugares o qué?$"
+
+RocketHideout1F_Barrera::
+compare VAR_UNUSED_0x40F7, 38
+goto_if_gt RocketHideout1F_Barrera_2
+delay 5
+playse SE_PIN
+applymovement 5, RocketHideout1F_Barrera_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout1F_Barrera_Move_2
+waitmovement 0x0
+delay 10
+msgbox RocketHideout1F_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout1F_Barrera_Move_3
+waitmovement 0x0
+release
+end
+
+RocketHideout1F_Barrera_2::
+release
+end
+
+
+RocketHideout1F_Barrera_Texto_1:
+.string "Tengo entendido que nuestro LÍDER\n"
+	.string "quería verte, ¿no querrás empezar\l"
+	.string "aquí desobedeciendo una orden\l"
+	.string "directa?$"
+
+RocketHideout1F_Barrera_Move_1:
+face_up
+step_end
+
+RocketHideout1F_Barrera_Move_2:
+face_down
+step_end
+
+RocketHideout1F_Barrera_Move_3:
+walk_slow_right
+step_end

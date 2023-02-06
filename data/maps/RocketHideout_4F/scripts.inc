@@ -66,10 +66,53 @@ RocketHideout4F_10::
 end
 
 RocketHideout_4F_Mision_Andra_Fucsia::
+playse SE_PIN
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Andra_Fucsia_move_2
+waitmovement 0x0
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5
+waitmovement 0x0
+delay 20
+playse SE_SLIDING_DOOR
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+removeobject 9
+setvar VAR_UNUSED_0x40F7, 38
+release
+end
+
+RocketHideout_4F_Mision_Andra_Fucsia_2::
+playse SE_PIN
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_1.1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Andra_Fucsia_move_2
+waitmovement 0x0
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_3
+waitmovement 0x0
+msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5.1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Andra_Fucsia_move_6
+waitmovement 0x0
+delay 20
+playse SE_SLIDING_DOOR
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+removeobject 9
+setvar VAR_UNUSED_0x40F7, 38
 release
 end
 
@@ -118,6 +161,17 @@ walk_down
 walk_down
 walk_down
 walk_down
+walk_down
+walk_in_place_right
+step_end
+
+RocketHideout_4F_Mision_Andra_Fucsia_move_1.1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
 walk_in_place_right
 step_end
 
@@ -136,6 +190,14 @@ walk_in_place_right
 step_end
 
 RocketHideout_4F_Mision_Andra_Fucsia_move_5:
+walk_up
+walk_right
+walk_right
+walk_right
+face_up
+step_end
+
+RocketHideout_4F_Mision_Andra_Fucsia_move_5.1:
 walk_right
 walk_right
 walk_right
@@ -147,38 +209,106 @@ walk_down
 walk_in_place_up
 step_end
 
-RocketHideout_4F_Giovanni_Mision_1::
+RocketHideout_4F_Giovanni_Mision_1_1::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_1
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_2
+waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_1_Parte2
+
+RocketHideout_4F_Giovanni_Mision_1_2::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_1
+waitmovement 0x0
+msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_2.1
+waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_1_Parte2
+
+
+RocketHideout_4F_Giovanni_Mision_1_Parte2::
+applymovement 10, RocketHideout_4F_Giovanni_Mision_1_move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_5
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_5 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_6
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_7
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_8 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_8
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_10 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_11 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 60
+fadescreen 0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_6
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_8
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_4F_Giovanni_Mision_1_move_9
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_15 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_4F_Giovanni_Mision_1_move_10
+waitmovement 0x0
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+addobject 4
+applymovement 4, RocketHideout_4F_Giovanni_Mision_1_move_11
+waitmovement 0x0
+playse MUS_RG_SILPH
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_17 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_18 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_12
+waitmovement 0x0
+delay 30
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_19 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_20 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_22 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_5
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_24 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_25 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_4F_Giovanni_Mision_1_move_8
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_4F_Giovanni_Mision_1_move_13
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+removeobject 4
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_7
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_29 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_1
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_8
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_31 MSGBOX_AUTOCLOSE
+fadedefaultbgm
+setvar VAR_UNUSED_0x40F7, 39
 release
 end
 
@@ -243,7 +373,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_6:
 RocketHideout_4F_Giovanni_Mision_1_Texto_7:
 .string "Como ROCKET te enrolaste en\n"
 	.string "nuestra organización con el fin de\l"
-	.string "robar Pokémon u otros objetos\l"
+	.string "robar POKÉMON u otros objetos\l"
 	.string "valiosos que equilibren la balanza\l"
 	.string "de nuestros flujos de efectivo,\l"
 	.string "esa es la función que tienen el\l"
@@ -282,7 +412,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_11:
 	.string "misterioso entrenador, tú fuiste\l"
 	.string "quien más tiempo lo enfrentó,\l"
 	.string "cuéntame todo sobre él, sus\l"
-	.string "Pokémon, objetos y movimientos que\l"
+	.string "POKÉMON, objetos y movimientos que\l"
 	.string "usó, su forma de combatir, rasgos\l"
 	.string "físicos, actitud, posibles puntos\l"
 	.string "débiles...todo lo que se te pase\l"
@@ -292,10 +422,10 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_12:
 .string "GIOVANNI: ... ...\n"
 	.string "Ya veo, no parece alguien\l"
 	.string "convencional, un CHARMELEON no es\l"
-	.string "un Pokémon que se vea tan\l"
+	.string "un POKÉMON que se vea tan\l"
 	.string "facilmente así como así, solo las\l"
 	.string "élites tienen acceso a esa clase\l"
-	.string "de Pokémon, inexistentes desde\l"
+	.string "de POKÉMON, inexistentes desde\l"
 	.string "hace tiempo en estado salvaje\l"
 	.string "desde la gran guerra, por lo que\l"
 	.string "dices llevaba también una Pokédex,\l"
@@ -330,8 +460,8 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_14:
 	.string "hablemos de...$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_15:
-.string "RECLUTA: Disculpe señor, el líder\n"
-	.string "de gimnasio de CIUDAD FUCSIA\l"
+.string "RECLUTA: Disculpe señor, el LIDER\n"
+	.string "DE GIMNASIO de CIUDAD FUCSIA\l"
 	.string "quiere verle inmediatamente, dice\l"
 	.string "que es urgente.$"
 
@@ -357,11 +487,11 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_20:
 .string "KOGA: Si eso llegara a ser cierto,\n"
 	.string "la ZONA SAFARI perdería una enorme\l"
 	.string "cantidad de público lanzándose a\l"
-	.string "la caza del raro Pokémon maternal\l"
+	.string "la caza del raro POKÉMON maternal\l"
 	.string "por su cuenta.\l"
 	.string "Hemos vendido la ZONA SAFARI como\l"
 	.string "un lugar único en el que existen\l"
-	.string "Pokémon que solo pueden\l"
+	.string "POKÉMON que solo pueden\l"
 	.string "encontrarse precisamente allí,\l"
 	.string "vendimos a KANGASKHAN como el\l"
 	.string "símbolo de nuestra flora y fauna,\l"
@@ -370,7 +500,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_20:
 	.string "cautiverio, y a nada más, no\l"
 	.string "pueden surgir de la nada, alguien\l"
 	.string "debió de hacer la gracia soltando\l"
-	.string "al raro Pokémon previamente\l"
+	.string "al raro POKÉMON previamente\l"
 	.string "atrapado en nuestro safari.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_21:
@@ -468,6 +598,14 @@ walk_slow_up
 walk_slow_up
 walk_slow_up
 walk_slow_right
+walk_slow_right
+walk_slow_up
+step_end
+
+RocketHideout_4F_Giovanni_Mision_1_move_2.1:
+walk_slow_up
+walk_slow_up
+walk_slow_up
 walk_slow_right
 walk_slow_up
 step_end

@@ -69,6 +69,8 @@ Route4PokemonCenterDocumento_Text_100:
 .string "Un periódico...$"
 
 Route4_PokemonCenter_1F_Estafa::
+lock
+faceplayer
 msgbox Route4_PokemonCenter_1F_Estafa_Texto_1 MSGBOX_AUTOCLOSE
 showmoneybox 0, 0
 msgbox Route4_PokemonCenter_1F_Estafa_Texto_2 MSGBOX_YESNO
@@ -79,6 +81,7 @@ playse SE_SHOP
 removemoney 500 0
 updatemoneybox
 delay 80
+hidemoneybox
 msgbox Route4_PokemonCenter_1F_Estafa_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Route4_PokemonCenter_1F_Estafa_Texto_4 MSGBOX_AUTOCLOSE

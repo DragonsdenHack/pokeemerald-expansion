@@ -35,7 +35,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VermilionCity1",
+      "script": "Barrera_Tiendas",
       "flag": "0"
     },
     {
@@ -267,9 +267,9 @@
       "x": 29,
       "y": 18,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
-      "script": "NULL"
+      "script": "Barrera_Tiendas"
     },
     {
       "type": "trigger",
@@ -450,6 +450,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "28",
       "script": "VermilionCity_Rojo"
+    },
+    {
+      "type": "trigger",
+      "x": 29,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "Barrera_Tiendas"
     }
   ],
   "bg_events": [
@@ -459,7 +468,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "VermilionCityDocumento_100"
+      "script": "Barrera_Tiendas"
     },
     {
       "type": "sign",

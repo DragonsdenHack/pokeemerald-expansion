@@ -43,10 +43,10 @@ CeruleanCityBikeShopDocumento_Text_100:
 
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta::
-compare VAR_UNUSED_0x409B, 2
+compare VAR_UNUSED_0x409B, 3
 goto_if_gt CeruleanCity_BikeShop_Secundaria_Bicicleta_3
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_1 MSGBOX_AUTOCLOSE
-compare VAR_UNUSED_0x409B, 1
+compare VAR_UNUSED_0x409B, 2
 goto_if_gt CeruleanCity_BikeShop_Secundaria_Bicicleta_2
 release
 end
@@ -73,7 +73,7 @@ playfanfare MUS_RG_OBTAIN_KEY_ITEM
 giveitem ITEM_BICYCLE
 waitfanfare
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_10 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x409B, 3
+setvar VAR_UNUSED_0x409B, 4
 release
 end
 

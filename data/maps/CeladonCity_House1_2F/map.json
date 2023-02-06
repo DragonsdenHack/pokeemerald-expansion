@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeladonMansion2F_1",
+      "script": "CeladonCity_House1_2F_Secundaria_Magikarp",
       "flag": "0"
     }
   ],
@@ -52,7 +52,7 @@
     },
     {
       "x": 12,
-      "y": 2,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_CELADON_CITY_HOUSE1_1F",
       "dest_warp_id": 4

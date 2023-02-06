@@ -225,3 +225,34 @@ CeladonCityDocumento_Text_107:
 	.string "batalla.\l"
 	.string "¡Obtén tus objetos en el CENTRO\l"
 	.string "COMERCIAL AZULONA!$"
+
+Barrera_Tiendas::
+compare VAR_UNUSED_0x40F7, 30
+goto_if_lt Barrera_Tiendas_2
+compare VAR_UNUSED_0x40F7, 100
+goto_if_gt Barrera_Tiendas_2
+applymovement OBJ_EVENT_ID_PLAYER, Barrera_Tiendas_Move_1
+waitmovement 0x0
+msgbox Barrera_Tiendas_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Barrera_Tiendas_Move_2
+waitmovement 0x0
+release
+end
+
+Barrera_Tiendas_Texto_1:
+.string "(Los ROCKET tienen prohibido\n"
+	.string "comprar artículos en las tiendas\l"
+	.string "públicas de KANTO. Mejor no tentar\l"
+	.string "a la suerte).$"
+
+Barrera_Tiendas_2::
+release
+end
+
+Barrera_Tiendas_Move_1:
+walk_in_place_up
+step_end
+
+Barrera_Tiendas_Move_2:
+walk_slow_down
+step_end

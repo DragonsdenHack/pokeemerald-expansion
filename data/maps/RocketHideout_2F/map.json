@@ -125,7 +125,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 28,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "RocketHideout2F_Barrera"
+    }
   ],
   "bg_events": [
 
