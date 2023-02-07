@@ -428,3 +428,36 @@ end
 
 Route10Documento_Andra_Parada_text_1:
 .string "... ...$"
+
+Route10_Entrenadores_Guays::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, Route10_Entrenadores_Guays_Move_1
+waitmovement 0x0
+msgbox Route10_Entrenadores_Guays_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 15, Route10_Entrenadores_Guays_Move_2
+applymovement 16, Route10_Entrenadores_Guays_Move_2
+waitmovement 0x0
+removeobject 15
+removeobject 16
+setflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
+setvar VAR_UNUSED_0x40F7, 40
+release
+end
+
+Route10_Entrenadores_Guays_Texto_1:
+.string "Al parecer ya hay gente que está\n"
+	.string "explorando la cueva en busca de\l"
+	.string "ese KANGASKHAN, el rumor ha\l"
+	.string "corrido como la pólvora, ¡démonos\l"
+	.string "prisa antes de que alguien lo\l"
+	.string "atrape!$"
+
+Route10_Entrenadores_Guays_Move_1:
+walk_in_place_up
+step_end
+
+Route10_Entrenadores_Guays_Move_2:
+walk_up
+walk_up
+walk_up
+step_end

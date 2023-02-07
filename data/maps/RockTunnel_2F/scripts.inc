@@ -150,24 +150,99 @@ RockTunnel2F_EventScript_Hiker3::
 	msgbox RockTunnel2F_Text_Hiker3PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+RockTunnel_2F_Combate_Miguel_Abajo::
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_1.1
+waitmovement 0x0
+goto RockTunnel_2F_Combate_Miguel
+
 RockTunnel_2F_Combate_Miguel::
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_1.2
+waitmovement 0x0
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
 msgbox RockTunnel_2F_Combate_Miguel_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_BALL_THROW
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+addobject 12
+delay 30
+playmoncry SPECIES_KANGASKHAN, CRY_MODE_ENCOUNTER
+delay 15
+playse SE_BALL_OPEN
+setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+removeobject 13
+delay 20
+playse SE_BALL
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+removeobject 12
 msgbox RockTunnel_2F_Combate_Miguel_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_1
+waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2
+waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_4 MSGBOX_AUTOCLOSE
 msgbox RockTunnel_2F_Combate_Miguel_Texto_5 MSGBOX_AUTOCLOSE
 msgbox RockTunnel_2F_Combate_Miguel_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_3
+waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_7 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_4
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2
+waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_8 MSGBOX_AUTOCLOSE
+playse MUS_RG_SILPH
 msgbox RockTunnel_2F_Combate_Miguel_Texto_9 MSGBOX_AUTOCLOSE
-msgbox RockTunnel_2F_Combate_Miguel_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CMIGUEL_1, RockTunnel_2F_Combate_Miguel_Texto_10
 msgbox RockTunnel_2F_Combate_Miguel_Texto_11 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_2
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_2
+waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_12 MSGBOX_AUTOCLOSE
+playse MUS_RG_ROCKET_HIDEOUT
+clearflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+addobject 29
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_1
+applymovement 29, RockTunnel_2F_Combate_Miguel_Move_5
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_7
+applymovement 29, RockTunnel_2F_Combate_Miguel_Move_6
+waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_13 MSGBOX_AUTOCLOSE
-msgbox RockTunnel_2F_Combate_Miguel_Texto_14 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_4
+applymovement 29, RockTunnel_2F_Combate_Miguel_Move_8
+waitmovement 0x0
+playfanfare MUS_OBTAIN_BADGE
+msgbox RockTunnel_2F_Combate_Miguel_Texto_14 MSGBOX_DEFAULT
+waitfanfare
 msgbox RockTunnel_2F_Combate_Miguel_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 29, RockTunnel_2F_Combate_Miguel_Move_9
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_10
+waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 29, RockTunnel_2F_Combate_Miguel_Move_11
+waitmovement 0x0
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+removeobject 29
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_2F_Combate_Miguel_Move_4
+waitmovement 0x0
+applymovement 14, RockTunnel_2F_Combate_Miguel_Move_12
+waitmovement 0x0
+playse MUS_RG_MT_MOON
+fadedefaultbgm
 msgbox RockTunnel_2F_Combate_Miguel_Texto_17 MSGBOX_AUTOCLOSE
+delay 20
+setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
+fadescreen 1
+delay 20
+removeobject 14
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 43
 release
 end
 
@@ -303,6 +378,15 @@ RockTunnel_2F_Combate_Miguel_Texto_17:
 
 RockTunnel_2F_Combate_Miguel_Move_1:
 face_left
+step_end
+
+RockTunnel_2F_Combate_Miguel_Move_1.1:
+walk_down
+walk_in_place_right
+step_end
+
+RockTunnel_2F_Combate_Miguel_Move_1.2:
+walk_in_place_right
 step_end
 
 RockTunnel_2F_Combate_Miguel_Move_2:
