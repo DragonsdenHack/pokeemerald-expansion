@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "PokemonTower2F_1",
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT"
     }
   ],
   "warp_events": [
@@ -71,7 +71,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "45",
+      "script": "PokemonTower2F_Azul"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "45",
+      "script": "PokemonTower2F_Azul_2"
+    }
   ],
   "bg_events": [
 

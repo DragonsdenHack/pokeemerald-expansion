@@ -72,3 +72,16 @@ PokemonTower5F_EventScript_Channeler4::
 	trainerbattle_single TRAINER_ALICE, PokemonTower5F_Text_Channeler4Intro, PokemonTower5F_Text_Channeler4Defeated
 	msgbox PokemonTower5F_Text_Channeler4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Callate1::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower5F_Warp_Escena_4_Move_1
+waitmovement 0x0
+warpsilent MAP_ROCKET_HIDEOUT_4F, 15, 0
+release
+end
+
+PokemonTower5F_Warp_Escena_4_Move_1:
+walk_in_place_right
+step_end

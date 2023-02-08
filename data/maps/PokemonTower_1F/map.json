@@ -111,7 +111,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "44",
+      "script": "PokemonTower_1F_SetFlags"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "44",
+      "script": "PokemonTower_1F_SetFlags"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "44",
+      "script": "PokemonTower_1F_SetFlags"
+    }
   ],
   "bg_events": [
 

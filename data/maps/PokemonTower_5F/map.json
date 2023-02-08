@@ -123,7 +123,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "46",
+      "script": "PokemonTower_4F_Escena"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "46",
+      "script": "PokemonTower_4F_Escena"
+    }
   ],
   "bg_events": [
 

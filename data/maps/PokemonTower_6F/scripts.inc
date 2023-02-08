@@ -46,8 +46,14 @@ PokemonTower6F_EventScript_Channeler3::
 	end
 
 PokemonTower_6F_Combate_Fuji::
+lock
+applymovement 9, PokemonTower_6F_Combate_Fuji_Move_1
+waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonTower_6F_Combate_Fuji_Move_2
+waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonTower_6F_Combate_Fuji_Texto_3 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_6F_Combate_Fuji_Texto_4 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_6F_Combate_Fuji_Texto_5 MSGBOX_AUTOCLOSE

@@ -214,7 +214,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "46",
+      "script": "PokemonTower_6F_Combate_Fuji"
+    }
   ],
   "bg_events": [
 

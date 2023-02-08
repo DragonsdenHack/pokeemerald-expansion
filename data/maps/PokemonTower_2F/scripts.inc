@@ -14,19 +14,133 @@ PokemonTower2F_Text_2:
 .string "Quizás un SCOPE SILPH pueda\l"
 .string "desenmascararlos.$"
 
+PokemonTower2F_1::
+lock     
+faceplayer     
+msgbox PokemonTower2F_Text_1, MSGBOX_DEFAULT
+release     
+end
+
+PokemonTower2F_Text_1:
+.string "Ocúpate de tu parte {PLAYER},\n"
+	.string "¡nadie debe acceder al último\l"
+	.string "piso!$"
+
 PokemonTower2F_Azul::
+lock
+faceplayer
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_1.1
+applymovement 1, PokemonTower2F_Azul_Move_1
+waitmovement 0x0
+applymovement 1, PokemonTower2F_Azul_Move_2
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_3
+waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_1 MSGBOX_AUTOCLOSE
 msgbox PokemonTower2F_Azul_Texto_2 MSGBOX_AUTOCLOSE
 msgbox PokemonTower2F_Azul_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower2F_Azul_Move_2
+waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower2F_Azul_Move_4
+waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_5 MSGBOX_AUTOCLOSE
 msgbox PokemonTower2F_Azul_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower2F_Azul_Move_2
+waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_EXIT
+clearflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+addobject 3
+delay 20
+playse SE_PIN
+applymovement 1, PokemonTower2F_Azul_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_1
+waitmovement 0x0
+applymovement 3, PokemonTower2F_Azul_Move_5
+waitmovement 0x0
+applymovement 1, PokemonTower2F_Azul_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_6
+waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_8 MSGBOX_AUTOCLOSE
 msgbox PokemonTower2F_Azul_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonTower2F_Azul_Move_2
+waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonTower2F_Azul_Move_7
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+removeobject 3
+delay 20
+applymovement 1, PokemonTower2F_Azul_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_3
+waitmovement 0x0
 msgbox PokemonTower2F_Azul_Texto_11 MSGBOX_AUTOCLOSE
 msgbox PokemonTower2F_Azul_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 46
+release
+end
+
+PokemonTower2F_Azul_2::
+lock
+faceplayer
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_1.2
+applymovement 1, PokemonTower2F_Azul_Move_1
+waitmovement 0x0
+applymovement 1, PokemonTower2F_Azul_Move_2.1
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_3.1
+waitmovement 0x0
+msgbox PokemonTower2F_Azul_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PokemonTower2F_Azul_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PokemonTower2F_Azul_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower2F_Azul_Move_2.1
+waitmovement 0x0
+msgbox PokemonTower2F_Azul_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower2F_Azul_Move_4.1
+waitmovement 0x0
+msgbox PokemonTower2F_Azul_Texto_5 MSGBOX_AUTOCLOSE
+msgbox PokemonTower2F_Azul_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower2F_Azul_Move_2.1
+waitmovement 0x0
+msgbox PokemonTower2F_Azul_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_EXIT
+clearflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+addobject 3
+delay 20
+playse SE_PIN
+applymovement 1, PokemonTower2F_Azul_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_1
+waitmovement 0x0
+applymovement 1, PokemonTower2F_Azul_Move_5.1
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_5.1
+waitmovement 0x0
+applymovement 3, PokemonTower2F_Azul_Move_6.1
+waitmovement 0x0
+msgbox PokemonTower2F_Azul_Texto_8 MSGBOX_AUTOCLOSE
+msgbox PokemonTower2F_Azul_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonTower2F_Azul_Move_2.1
+waitmovement 0x0
+msgbox PokemonTower2F_Azul_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonTower2F_Azul_Move_7.1
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+removeobject 3
+delay 20
+applymovement 1, PokemonTower2F_Azul_Move_4.1
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower2F_Azul_Move_3.1
+waitmovement 0x0
+msgbox PokemonTower2F_Azul_Texto_11 MSGBOX_AUTOCLOSE
+msgbox PokemonTower2F_Azul_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 46
 release
 end
 
@@ -112,7 +226,7 @@ PokemonTower2F_Azul_Texto_10:
 	.string "tranquilidad de este lugar.$"
 
 PokemonTower2F_Azul_Texto_11:
-.string "AZUL: Bueno, primera parte de la\n"
+.string "AZUL: Genial, primera parte de la\n"
 	.string "misión conseguida {PLAYER}, FUJI ha\l"
 	.string "mordido el anzuelo, lo único que\l"
 	.string "tienes que hacer es asegurarte de\l"
@@ -129,17 +243,38 @@ PokemonTower2F_Azul_Move_1:
 emote_exclamation_mark
 step_end
 
+PokemonTower2F_Azul_Move_1.1:
+walk_in_place_up
+step_end
+
+PokemonTower2F_Azul_Move_1.2:
+walk_in_place_left
+step_end
+
 PokemonTower2F_Azul_Move_2:
 walk_in_place_down
+step_end
+
+PokemonTower2F_Azul_Move_2.1:
+face_right
 step_end
 
 PokemonTower2F_Azul_Move_3:
 face_up
 step_end
 
+PokemonTower2F_Azul_Move_3.1:
+walk_in_place_left
+step_end
+
 PokemonTower2F_Azul_Move_4:
 walk_in_place_left
 step_end
+
+PokemonTower2F_Azul_Move_4.1:
+walk_in_place_right
+step_end
+
 
 PokemonTower2F_Azul_Move_5:
 walk_slow_up
@@ -150,12 +285,39 @@ walk_slow_up
 walk_slow_left
 step_end
 
+PokemonTower2F_Azul_Move_5.1:
+face_down
+step_end
+
 PokemonTower2F_Azul_Move_6:
 face_right
 step_end
 
+PokemonTower2F_Azul_Move_6.1:
+walk_slow_up
+walk_slow_up
+walk_slow_left
+walk_slow_left
+walk_slow_up
+walk_slow_up
+step_end
+
 PokemonTower2F_Azul_Move_7:
 walk_slow_up
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+step_end
+
+PokemonTower2F_Azul_Move_7.1:
 walk_slow_left
 walk_slow_left
 walk_slow_left

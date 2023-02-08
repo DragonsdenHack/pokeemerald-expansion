@@ -102,7 +102,7 @@ LavenderTown_3_Text_3No:
 	.string "hombro no es real.$"
 
 LavenderTown_Barrera_Mision_Kangaskhan::
-compare VAR_UNUSED_0x40F7, 50
+compare VAR_UNUSED_0x40F7, 43
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_1
 waitmovement 0x0

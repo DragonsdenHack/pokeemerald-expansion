@@ -49,3 +49,15 @@ PokemonTower4F_EventScript_Channeler3::
 	trainerbattle_single TRAINER_BETH, PokemonTower4F_Text_Channeler3Intro, PokemonTower4F_Text_Channeler3Defeated
 	msgbox PokemonTower4F_Text_Channeler3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+PokemonTower_4F_Escena::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_4F_Escena_Move_1
+warpsilent MAP_ROCKET_HIDEOUT_4F, 16, 0
+waitmovement 0x0
+release
+end
+
+PokemonTower_4F_Escena_Move_1:
+walk_in_place_right
+step_end

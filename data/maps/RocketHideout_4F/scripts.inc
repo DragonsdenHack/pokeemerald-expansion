@@ -1,5 +1,13 @@
 RocketHideout_4F_MapScripts::
-	.byte 0
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
+    .byte 0
+
+RocketHideout_4F_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 46, PokemonTower5F_Escena_4_Blaine
+	.2byte 0
+	
+
+
 
 RocketHideout4F_1::
 end
@@ -680,30 +688,100 @@ walk_down
 step_end
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_1
+waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Resto
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_2::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_1.1
+waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Resto
+
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Resto::
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_3 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
+delay 15
+playse SE_SHOP
+addmoney 95000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_3 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_4 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_3
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_4
+waitmovement 0x0
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6.1, MSGBOX_DEFAULT
+givemon SPECIES_KABUTO, 28, ITEM_MYSTIC_WATER
+waitfanfare
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_6
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_8 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_9 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_10 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_7
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_11 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_8
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_12 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_13 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_4
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_6
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_14 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+addobject 8
+applymovement 8, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_9
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_10
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_15 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_16 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_11
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_17 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_18 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_11
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_19 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_2
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_20 MSGBOX_AUTOCLOSE
+applymovement 8, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_21 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_22 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23 MSGBOX_AUTOCLOSE
+playse MUS_RG_RIVAL_EXIT
+applymovement 8, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_12
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+removeobject 8
+delay 15
+playse MUS_RG_ROCKET_HIDEOUT 
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 44
 release
 end
 
@@ -753,6 +831,9 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6:
 .string "PROTÓN: Con gusto, jefe.$"
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6.1:
+.string "¡OBTUVISTE UN KABUTO AL NV.28!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7:
 .string "GIOVANNI: Técnicamente su valor es\n"
@@ -930,6 +1011,17 @@ walk_up
 walk_up
 walk_up
 walk_up
+walk_right
+walk_in_place_up
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_1.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_right
 walk_right
 walk_in_place_up
 step_end
@@ -1914,4 +2006,324 @@ step_end
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_14:
 walk_right
 walk_in_place_down
+step_end
+
+PokemonTower5F_Escena_4_Blaine::
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonTower5F_Escena_4_Blaine_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 6, RocketHideout_4F_Giovanni_Mision_1_move_9
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_4F_Giovanni_Mision_1_move_10
+waitmovement 0x0
+delay 15
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+addobject 12
+applymovement 12, RocketHideout_4F_Giovanni_Mision_1_move_11
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_3 MSGBOX_AUTOCLOSE
+playse MUS_RG_POKE_MANSION
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_4 MSGBOX_AUTOCLOSE
+delay 30
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_2
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_3
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_4
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_5
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_6
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_2
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_11 MSGBOX_AUTOCLOSE
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_11_1 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_5
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_7
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_3
+waitmovement 0x0
+delay 30
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_4
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_5
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_8
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_9
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_18 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_19 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_10
+waitmovement 0x0
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_11
+waitmovement 0x0
+delay 15
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_22 MSGBOX_AUTOCLOSE
+fadedefaultbgm
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonTower5F_Escena_4_Blaine_Move_12
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_12
+waitmovement 0x0
+special RemoveCameraObject
+delay 30
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_23 MSGBOX_AUTOCLOSE
+delay 40
+msgbox PokemonTower5F_Escena_4_Blaine_Texto_24 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 12, PokemonTower5F_Escena_4_Blaine_Move_13
+waitmovement 0x0
+playse SE_SLIDING_DOOR
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+removeobject 12
+delay 60
+setvar VAR_UNUSED_0x40F7, 47
+warpsilent MAP_POKEMON_TOWER_5F, 18, 9
+release
+end
+
+PokemonTower5F_Escena_4_Blaine_Texto_1:
+.string "RECLUTA: El LÍDER de ISLA CANELA ha\n"
+	.string "llegado, señor.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_2:
+.string "GIOVANNI: Hacedle pasar.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_3:
+.string "BLAINE: ¿Querías verme, GIOVANNI?$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_4:
+.string "GIOVANNI: Así es, iré al grano, BLAINE.\n"
+	.string "Me temo que tendré que retirarte los\l"
+	.string "fondos para seguir produciendo\l"
+	.string "PORYGON en masa.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_5:
+.string "BLAINE: P-Pero... ¿A qué se deb...?$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_6:
+.string "GIOVANNI: Has hecho un gran trabajo,\n"
+	.string "ese no es el problema. PORYGON es un\l"
+	.string "artículo de lujo que muy poca gente se\l"
+	.string "puede permitir. Sacamos mucho dinero\l"
+	.string "por cada ejemplar, es cierto, pero\l"
+	.string "tenemos docenas de ellos en la\l"
+	.string "recámara.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_7:
+.string "Bajar el precio es inviable, ya que su\n"
+	.string "costo es grande, no queda otra que\l"
+	.string "adaptar la producción al ritmo de\l"
+	.string "demanda. KANTO apenas tiene para sí\l"
+	.string "misma, era de esperar.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_8:
+.string "No obstante... me consta que SILPH ya ha\n"
+	.string "creado una versión optimizada de\l"
+	.string "PORYGON. La producción del nuevo\l"
+	.string "PORYGON2 cuesta 3 veces la del\l"
+	.string "PORYGON normal, lo cual lo hace inviable\l"
+	.string "como producto de masas.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_9:
+.string "Su valor competitivo es otra historia,\n"
+	.string "aún está por ver. Según parece,\l"
+	.string "PORYGON2 no es el fin, su potencial es\l"
+	.string "mayor.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_10:
+.string "Es por ello que te ofrezco, en\n"
+	.string "compensación a la retirada de fondos,\l"
+	.string "trabajar aquí con nuestro equipo de\l"
+	.string "científicos. No solo en la búsqueda de\l"
+	.string "una mejor versión de PORYGON, también\l"
+	.string "de NIDOK...$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_11:
+.string "BLAINE: Sabes que nada superará al\n"
+	.string "proyecto original, GIOVANNI. $"
+	
+	
+PokemonTower5F_Escena_4_Blaine_Texto_11_1:
+.string "GIOVANNI: Basta con que supere a un\n"
+	.string "LEGENDARIO normal y corriente.$"
+	
+
+PokemonTower5F_Escena_4_Blaine_Texto_12:
+.string "BLAINE: Jah... ¡A 3 más bien!$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_13:
+.string "GIOVANNI: ¿Aceptas entonces mi\n"
+	.string "oferta? Un CIENTÍFICO como tú merece\l"
+	.string "una segunda oportunidad. A diferencia\l"
+	.string "de FUJI, sé que tú aún conservas viva\l"
+	.string "esa llama que te impulsa a querer más.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_14:
+.string "BLAINE: Lo siento, GIOVANNI. Pero lo de\n"
+	.string "MEWTWO también fue demasiado para mí,\l"
+	.string "¿de qué sirve crear tanto poder si\l"
+	.string "después no puede controlarse?$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_15:
+.string "GIOVANNI: Por eso seguimos aquí,\n"
+	.string "BLAINE, para aprender de los errores\l"
+	.string "del pasado y volver más fuertes. Eso no\l"
+	.string "volverá a ocurrir, no con la tecnología\l"
+	.string "de ahora.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_16:
+.string "¿No lo ves, BLAINE? Los dioses del\n"
+	.string "mundo POKÉMON nos perdonaron por algo,\l"
+	.string "pudimos caer en las manos de LANCE\l"
+	.string "durante la gran purga y quedar presos\l"
+	.string "de por vida, o algo peor. Pero por -a- o\l"
+	.string "por -b- tú has logrado conservar tu\l"
+	.string "puesto en CANELA y yo permanecer\l"
+	.string "oculto.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_17:
+.string "BLAINE: ¡¿Qué nos han perdonado?!\n"
+	.string "¡Estamos a su merced! ¡Pueden arrasar\l"
+	.string "hoy con esta base si la descubriesen o\l"
+	.string "quemar mañana mi laboratorio si\l"
+	.string "hicieran una inspección! ¡Somos\l"
+	.string "prófugos!$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_18:
+.string "GIOVANNI: Hacer menos que todo lo que\n"
+	.string "esté en nuestra mano por recuperar la\l"
+	.string "región sería una pobre manera de\l"
+	.string "aprovechar este regalo, BLAINE.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_19:
+.string "BLAINE: ...$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_20:
+.string "Necesito pensarlo, GIOVANNI.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_21:
+.string "GIOVANNI: Aquí estaré, BLAINE. Aún\n"
+	.string "estás a tiempo de hacer el proyecto de\l"
+	.string "tu vida.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_22:
+.string "BLAINE: Eso siempre será una\n"
+	.string "posibilidad, hasta el último de mis\l"
+	.string "días.$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_23:
+.string "... ...$"
+
+PokemonTower5F_Escena_4_Blaine_Texto_24:
+.string "Muy oportuno que no sepas el motivo por\n"
+	.string "el que logré conservar mi puesto en\l"
+	.string "CANELA, ex-CAMPEÓN.$"
+
+PokemonTower5F_Escena_4_Blaine_Move_1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_2:
+face_left
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_3:
+walk_left
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_4:
+walk_in_place_down
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_5:
+face_up
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_6:
+walk_right
+walk_in_place_down
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_7:
+face_right
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_8:
+walk_fast_left
+walk_fast_up
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_9:
+walk_down
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_10:
+walk_up
+walk_right
+walk_in_place_down
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_11:
+face_down
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_12:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+step_end
+
+PokemonTower5F_Escena_4_Blaine_Move_13:
+walk_right
+face_up
 step_end
