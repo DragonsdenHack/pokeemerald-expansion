@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUBONE",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_119_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_MOTEL_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROTON",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MEDIUMMJOHTO",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MEDIUMMJOHTO",
@@ -181,7 +181,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MEDIUMMJOHTO",
@@ -194,7 +194,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     }
   ],
   "warp_events": [
@@ -220,8 +220,26 @@
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "46",
+      "var_value": "47",
       "script": "PokemonTower_6F_Combate_Fuji"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "48",
+      "script": "PokemonTower_6F_Cultistas"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "49",
+      "script": "PokemonTower_6F_Combate_Fantasma_Marowak"
     }
   ],
   "bg_events": [

@@ -54,16 +54,84 @@ applymovement 6, PokemonTower_6F_Combate_Fuji_Move_2
 waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
+playmoncry SPECIES_CUBONE, CRY_MODE_ENCOUNTER
+delay 20
 msgbox PokemonTower_6F_Combate_Fuji_Texto_3 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_6F_Combate_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_3
+playse SE_PIN
+applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
+applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
+applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
+waitmovement 0x0
+delay 20
 msgbox PokemonTower_6F_Combate_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
+applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
+applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
+waitmovement 0x0
+applymovement 8, PokemonTower_6F_Combate_Fuji_Move_2
+applymovement 9, PokemonTower_6F_Combate_Fuji_Move_2
+applymovement 10, PokemonTower_6F_Combate_Fuji_Move_2
+waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonTower_6F_Combate_Fuji_Move_1
+applymovement 9, PokemonTower_6F_Combate_Fuji_Move_5
+applymovement 10, PokemonTower_6F_Combate_Fuji_Move_1
+waitmovement 0x0
+applymovement 6, PokemonTower_6F_Combate_Fuji_Move_2
+waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_7 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_6
+waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_8 MSGBOX_AUTOCLOSE
-msgbox PokemonTower_6F_Combate_Fuji_Texto_9 MSGBOX_AUTOCLOSE
-msgbox PokemonTower_6F_Combate_Fuji_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_FUJI_1, PokemonTower_6F_Combate_Fuji_Texto_9
+delay 15
+playse SE_PIN
+applymovement 6, PokemonTower_6F_Combate_Fuji_Move_4
+waitmovement 0x0
+applymovement 6, PokemonTower_6F_Combate_Fuji_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_3
+waitmovement 0x0
+delay 20
+playmoncry SPECIES_CUBONE, CRY_MODE_ENCOUNTER
+delay 20
+setflag FLAG_HIDE_ROUTE_119_SCOTT
+removeobject 7
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_8
+waitmovement 0x0
+delay 40
+playfanfare MUS_OBTAIN_ITEM
+msgbox PokemonTower_6F_Combate_Fuji_Texto_10 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+playse SE_PIN
+applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
+applymovement 9, PokemonTower_6F_Combate_Fuji_Move_4
+applymovement 10, PokemonTower_6F_Combate_Fuji_Move_4
+waitmovement 0x0
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+addobject 11
+applymovement 11, PokemonTower_6F_Combate_Fuji_Move_9
 msgbox PokemonTower_6F_Combate_Fuji_Texto_11 MSGBOX_AUTOCLOSE
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fuji_Move_10
+waitmovement 0x0
+applymovement 11, PokemonTower_6F_Combate_Fuji_Move_11
+waitmovement 0x0
 msgbox PokemonTower_6F_Combate_Fuji_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+fadescreen 1
+delay 20
+removeobject 6
+removeobject 11
+removeobject 8
+removeobject 9
+removeobject 10
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 48
 release
 end
 
@@ -86,7 +154,7 @@ PokemonTower_6F_Combate_Fuji_Texto_3:
 	.string "nada más!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_4:
-.string "UJI: Ya veo, el resultado es lo\n"
+.string "FUJI: Ya veo, el resultado es lo\n"
 	.string "único que cuenta, ¿no?\l"
 	.string "Bien, entonces os diré lo que\l"
 	.string "vamos a hacer, mi HAUNTER lanzará\l"
@@ -199,18 +267,50 @@ walk_in_place_up
 step_end
 
 PokemonTower_6F_Cultistas::
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+addobject 12
+addobject 13
+addobject 14
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_1
+applymovement 13, PokemonTower_6F_Cultistas_Move_2
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 14, PokemonTower_6F_Cultistas_Move_3
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower_6F_Cultistas_Move_4
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_5
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower_6F_Cultistas_Move_6
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3 
 msgbox PokemonTower_6F_Cultistas_Texto_5 MSGBOX_AUTOCLOSE
-msgbox PokemonTower_6F_Cultistas_Texto_6 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_GRUNT_MUSEUM_2, PokemonTower_6F_Cultistas_Texto_6
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_7
+waitmovement 0x0
+applymovement 14, PokemonTower_6F_Cultistas_Move_6
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_7 MSGBOX_AUTOCLOSE
-msgbox PokemonTower_6F_Cultistas_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_1, PokemonTower_6F_Cultistas_Texto_8
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_7
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_9 MSGBOX_AUTOCLOSE
-msgbox PokemonTower_6F_Cultistas_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_GRUNT_MT_PYRE_1, PokemonTower_6F_Cultistas_Texto_10
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_7
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_11 MSGBOX_AUTOCLOSE
 msgbox PokemonTower_6F_Cultistas_Texto_12 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 12
+removeobject 13
+removeobject 14
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 49
 release
 end
 
@@ -348,4 +448,67 @@ step_end
 
 PokemonTower_6F_Cultistas_Move_8:
 walk_right
+step_end
+
+PokemonTower_6F_Combate_Fantasma_Marowak::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fantasma_Marowak_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fantasma_Marowak_Move_2
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+delay 30
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+delay 30
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+delay 30
+msgbox PokemonTower_6F_Combate_Fantasma_Marowak_Texto_1 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+delay 40
+trainerbattle_no_intro TRAINER_GHOST, PokemonTower_6F_Combate_Fantasma_Marowak_Texto_2
+playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER
+delay 30
+msgbox PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+delay 60
+playse SE_POKENAV_ON
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fantasma_Marowak_Move_1
+waitmovement 0x0
+delay 20
+msgbox PokemonTower_6F_Combate_Fantasma_Marowak_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_POKENAV_OFF
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+setvar VAR_UNUSED_0x40F7, 50
+release
+end
+
+PokemonTower_6F_Combate_Fantasma_Marowak_Texto_1:
+.string "Tú...has...provocado...esto...$"
+
+PokemonTower_6F_Combate_Fantasma_Marowak_Texto_2:
+.string "... ... ... ...$"
+
+PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3:
+.string "¡El espíritu de MAROWAK se ha\n"
+	.string "desatado y está plagando de GHOSTS\l"
+	.string "la TORRE!$"
+
+PokemonTower_6F_Combate_Fantasma_Marowak_Texto_4:
+.string "AZUL: ¡{PLAYER}!\n"
+	.string "¡ROJO acaba de derrotarme!\l"
+	.string "¡Oh, pensaba que estaba vez podría\l"
+	.string "maldita sea!\l"
+	.string "¡Avisa a PROTÓN y salid de ahí\l"
+	.string "cuanto antes!$"
+
+PokemonTower_6F_Combate_Fantasma_Marowak_Move_1:
+emote_exclamation_mark
+step_end
+
+PokemonTower_6F_Combate_Fantasma_Marowak_Move_2:
+walk_in_place_right
+walk_in_place_up
+walk_in_place_left
+walk_in_place_down
 step_end
