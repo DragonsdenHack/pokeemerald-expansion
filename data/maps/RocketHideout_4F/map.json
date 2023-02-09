@@ -262,6 +262,24 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "43",
       "script": "RocketHideout_4F_Giovanni_Mision_Torre_Lavanda"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "51",
+      "script": "RocketHideout_4F_Giovanni_Mision_Base_Profunda"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "51",
+      "script": "RocketHideout_4F_Giovanni_Mision_Base_Profunda"
     }
   ],
   "bg_events": [

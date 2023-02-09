@@ -102,6 +102,10 @@ LavenderTown_3_Text_3No:
 	.string "hombro no es real.$"
 
 LavenderTown_Barrera_Mision_Kangaskhan::
+compare VAR_UNUSED_0x40F7, 54
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+compare VAR_UNUSED_0x40F7, 50
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_3
 compare VAR_UNUSED_0x40F7, 43
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_1
@@ -116,9 +120,22 @@ LavenderTown_Barrera_Mision_Kangaskhan_2::
 release
 end
 
+LavenderTown_Barrera_Mision_Kangaskhan_3::
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_1
+waitmovement 0x0
+msgbox LavenderTown_Barrera_Mision_Kangaskhan_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_2
+waitmovement 0x0
+release
+end
+
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_1:
 .string "(GIOVANNI dejó claro que había que\n"
 	.string "alejarse de la TORRE POKÉMON)$"
+
+LavenderTown_Barrera_Mision_Kangaskhan_Texto_2:
+.string "(ROJO aún puede estar dentro de\n"
+	.string "TORRE POKÉMON)$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Move_1:
 walk_in_place_up
@@ -129,7 +146,7 @@ walk_slow_down
 step_end
 
 LavenderTown_Barrera_Sur::
-compare VAR_UNUSED_0x40F7, 50
+compare VAR_UNUSED_0x40F7, 58
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_1
 waitmovement 0x0
