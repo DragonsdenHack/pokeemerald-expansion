@@ -1,5 +1,24 @@
 RocketHideout_FiveIsland_Meadow_MapScripts::
 	.byte 0
+	
+RocketHideoutFiveIslanMeadow23::     
+call_if_set FLAG_ENABLE_ENGLISH, RocketHideoutFiveIslanMeadow23English
+goto RocketHideoutFiveIslanMeadow23Spanish
+end
+
+RocketHideoutFiveIslanMeadow23English::
+lock
+faceplayer
+msgbox RocketHideoutFiveIslandMeadow_Text_English, MSGBOX_DEFAULT
+release     
+end
+
+RocketHideoutFiveIslanMeadow23Spanish::
+lock
+faceplayer
+msgbox RocketHideoutFiveIslandMeadow_Text_Spanish, MSGBOX_DEFAULT
+release     
+end
 
 RocketHideoutFiveIslanMeadow22::     
 lock     
@@ -7,6 +26,13 @@ faceplayer
 msgbox RocketHideoutFiveIslandMeadow_Text_22, MSGBOX_DEFAULT
 release     
 end
+
+RocketHideoutFiveIslandMeadow_Text_English:
+.string "Text in english.$"
+
+RocketHideoutFiveIslandMeadow_Text_Spanish:
+.string "Texto en ingles.$"
+
 
 RocketHideoutFiveIslandMeadow_Text_22:     
 .string "Encárgate de hacer tu cometido\n"

@@ -17,7 +17,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ATLAS",
       "x": 5,
-      "y": 9,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideoutFiveIslanMeadowZubat",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "script": "NULL",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -116,14 +116,14 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
       "x": 6,
       "y": 18,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideoutFiveIslanMeadow16",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -181,7 +181,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -232,8 +232,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "script": "RocketHideoutFiveIslanMeadow23",
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -298,7 +298,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -311,7 +311,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -324,7 +324,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG"
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -337,69 +337,7 @@
     }
   ],
   "coord_events": [
-    {
-      "type": "trigger",
-      "x": 3,
-      "y": 6,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
-      "script": "RocketHideoutFiveIslanMeadowIzquierda"
-    },
-    {
-      "type": "trigger",
-      "x": 2,
-      "y": 5,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
-      "script": "RocketHideoutFiveIslanMeadowAbajo"
-    },
-    {
-      "type": "trigger",
-      "x": 1,
-      "y": 6,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
-      "script": "RocketHideoutFiveIslanMeadowDerecha"
-    },
-    {
-      "type": "trigger",
-      "x": 2,
-      "y": 7,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "0",
-      "script": "RocketHideoutFiveIslanMeadowAtlas"
-    },
-    {
-      "type": "trigger",
-      "x": 3,
-      "y": 14,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "1",
-      "script": "RocketHideoutFiveIslanMeadowIzquierda2"
-    },
-    {
-      "type": "trigger",
-      "x": 2,
-      "y": 13,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "1",
-      "script": "RocketHideoutFiveIslanMeadowAbajo2"
-    },
-    {
-      "type": "trigger",
-      "x": 1,
-      "y": 14,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "1",
-      "script": "RocketHideoutFiveIslanMeadowDerecha2"
-    }
+
   ],
   "bg_events": [
     {
@@ -412,19 +350,11 @@
     },
     {
       "type": "sign",
-      "x": 2,
-      "y": 15,
+      "x": 18,
+      "y": 7,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "RocketHideoutFiveIslanMeadowZubat"
-    },
-    {
-      "type": "sign",
-      "x": 10,
-      "y": 9,
-      "elevation": 0,
-      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "EventScript_Seagallop_Test"
+      "script": "LittlerootTown_BrendansHouse_2F_EventScript_PC"
     }
   ]
 }
