@@ -47,37 +47,37 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 7,
+      "x": 10,
       "y": 4,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "DiggletCave1F_Frontera"
     },
     {
       "type": "trigger",
-      "x": 6,
+      "x": 10,
       "y": 3,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "DiggletCave1F_Frontera_2"
     },
     {
       "type": "trigger",
-      "x": 6,
+      "x": 9,
       "y": 5,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "DiggletCave1F_Frontera_2"
     },
     {
       "type": "trigger",
-      "x": 5,
-      "y": 4,
+      "x": 10,
+      "y": 2,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "DiggletCave1F_Frontera"
     }

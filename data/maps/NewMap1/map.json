@@ -152,7 +152,7 @@
       "x": 68,
       "y": 6,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Route3_Frontera"
     },
@@ -161,7 +161,7 @@
       "x": 69,
       "y": 6,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Route3_Frontera"
     },
@@ -170,7 +170,7 @@
       "x": 70,
       "y": 6,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Route3_Frontera"
     },
@@ -179,7 +179,7 @@
       "x": 71,
       "y": 6,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Route3_Frontera"
     },
@@ -188,7 +188,7 @@
       "x": 72,
       "y": 6,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40FE",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Route3_Frontera"
     }

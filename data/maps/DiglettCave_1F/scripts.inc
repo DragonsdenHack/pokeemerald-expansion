@@ -14,7 +14,9 @@ DiggletCave1F_Text_1:
 .string "¡Si el DESTELLO de un POKéMON\n"
 .string "pudiera alumbrarlo…!$"
 
-DiggletCave1F_Frontera::    
+DiggletCave1F_Frontera:: 
+compare VAR_UNUSED_0x40F7, 55
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2   
 playse SE_PIN
 applymovement 1, DiggletCave1F_Frontera_Move1
 applymovement OBJ_EVENT_ID_PLAYER, DiggletCave1F_Frontera_Move2
@@ -25,7 +27,9 @@ waitmovement 0
 release     
 end
 
-DiggletCave1F_Frontera_2::    
+DiggletCave1F_Frontera_2:: 
+compare VAR_UNUSED_0x40F7, 55
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2   
 playse SE_PIN
 applymovement 1, DiggletCave1F_Frontera_Move1
 applymovement OBJ_EVENT_ID_PLAYER, DiggletCave1F_Frontera_Move2

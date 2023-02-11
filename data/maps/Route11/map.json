@@ -271,6 +271,15 @@
       "var": "VAR_UNUSED_0x40FC",
       "var_value": "0",
       "script": "Route11_Policias"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route11_Frontera_Tunel"
     }
   ],
   "bg_events": [

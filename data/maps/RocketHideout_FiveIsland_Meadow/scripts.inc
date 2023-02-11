@@ -1,10 +1,6 @@
 RocketHideout_FiveIsland_Meadow_MapScripts::
 	.byte 0
-	
-RocketHideoutFiveIslanMeadow23::     
-call_if_set FLAG_ENABLE_ENGLISH, RocketHideoutFiveIslanMeadow23English
-goto RocketHideoutFiveIslanMeadow23Spanish
-end
+
 
 RocketHideoutFiveIslanMeadow23English::
 lock

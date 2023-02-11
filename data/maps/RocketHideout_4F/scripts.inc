@@ -1090,29 +1090,178 @@ walk_down
 walk_down
 step_end
 
-RocketHideout_4F_Giovanni_Mision_Llegada_Rojo::
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_izq::
+lockall
+playse SE_DING_DONG
+delay 40
+playse SE_PIN
+applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_3
+waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_Llegada_Rojo
+
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_der::
+lockall
+playse SE_DING_DONG
+delay 40
+playse SE_PIN
+applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
+waitmovement 0x0
+msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_3.1
+waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_Llegada_Rojo
+
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo::
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_5
+waitmovement 0x0
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_6
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_1
+waitmovement 0x0
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
+waitmovement 0x0
+delay 15
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_6 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_7 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_8 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_9 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_8
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_10 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_6
+waitmovement 0x0
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_11 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_9
+waitmovement 0x0
+delay 20
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 20
+playse SE_SELECT
+delay 10
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_12 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_10
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_13 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_14 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_15 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_16 MSGBOX_AUTOCLOSE
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_BANG
+setmetatile 20, 8, 0x255, TRUE
+setmetatile 21, 8, 0x256, TRUE
+setmetatile 22, 8, 0x257, TRUE
+setmetatile 22, 9, 0x25F, TRUE
+setmetatile 21, 9, 0x25E, TRUE
+setmetatile 20, 9, 0x25D, FALSE
+setmetatile 20, 10, 0x265, FALSE
+setmetatile 21, 10, 0x266, TRUE
+setmetatile 22, 10, 0x267, TRUE
+special DrawWholeMapView
+delay 60
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_11
+waitmovement 0x0
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_12
+waitmovement 0x0
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
+removeobject 10
+playse SE_EXIT
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_17 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_FANCLUB_OLD_LADY
+fadescreen 1
+delay 20
+playse SE_EXIT
+addobject 10
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_13
+waitmovement 0x0
+fadescreen 0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_18 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_14
+waitmovement 0x0
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_7
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_19 MSGBOX_AUTOCLOSE
+applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_15
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+delay 10
+addobject 5
+applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_15
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+delay 10
+addobject 5
+applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_15
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+delay 10
+addobject 5
+applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_15
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+delay 10
+addobject 5
+applymovement 5, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_15
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+delay 10
+addobject 5
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_16
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_20 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_17
+waitmovement 0x0
+playse SE_EXIT
+removeobject 6
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_21 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_22 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_12
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
+removeobject 10
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_18
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 54
+warp MAP_ROCKET_HIDEOUT_5F, 2, 2
 release
 end
 
@@ -1262,6 +1411,13 @@ walk_right
 walk_up
 step_end
 
+RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_3.1:
+walk_up
+walk_up
+walk_right
+walk_up
+step_end
+
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_4:
 walk_right
 walk_right
@@ -1371,13 +1527,25 @@ walk_right
 walk_right
 step_end
 
-RocketHideout_4F_Giovanni_Mision_Base_Profunda::
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Izq::
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 addobject 2
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_1
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_2
 waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_Base_Profunda
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Der::
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+addobject 2
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_2.1
+waitmovement 0x0
+goto RocketHideout_4F_Giovanni_Mision_Base_Profunda
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda::
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_1 MSGBOX_AUTOCLOSE
 playse SE_SHOP
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_3
@@ -1433,17 +1601,93 @@ delay 40
 playse SE_BANG
 setmetatile 20, 8, 0x255, TRUE
 setmetatile 21, 8, 0x256, TRUE
+setmetatile 22, 8, 0x257, TRUE
+setmetatile 22, 9, 0x25F, TRUE
+setmetatile 21, 9, 0x25E, TRUE
+setmetatile 20, 9, 0x25D, FALSE
+setmetatile 20, 10, 0x265, FALSE
+setmetatile 21, 10, 0x266, TRUE
+setmetatile 22, 10, 0x267, TRUE
+special DrawWholeMapView
 delay 60
 playse SE_PIN
+applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_9
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_16 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_10
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_10
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_18 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_5
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_19 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_6
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_20 MSGBOX_AUTOCLOSE
+applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_9
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_21 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_1
+waitmovement 0x0
+applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_11
+waitmovement 0x0
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_22 MSGBOX_AUTOCLOSE
+applymovement 2, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_12
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+removeobject 2
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 52
 release
 end
+
+RocketHideout_4F_PC::
+compare VAR_UNUSED_0x40F7, 51
+goto_if_gt RocketHideout_4F_Warp
+msgbox RocketHideout_4F_PC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_4F_Warp::
+msgbox RocketHideout_4F_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_BANG
+setmetatile 20, 8, 0x255, TRUE
+setmetatile 21, 8, 0x256, TRUE
+setmetatile 22, 8, 0x257, TRUE
+setmetatile 22, 9, 0x25F, TRUE
+setmetatile 21, 9, 0x25E, TRUE
+setmetatile 20, 9, 0x25D, FALSE
+setmetatile 20, 10, 0x265, FALSE
+setmetatile 21, 10, 0x266, TRUE
+setmetatile 22, 10, 0x267, TRUE
+special DrawWholeMapView
+delay 60
+release
+end
+
+RocketHideout_4F_Warp_No::
+release
+end
+
+RocketHideout_4F_PC_Texto_1:
+.string "Este ordenador parece que cumple\n"
+	.string "una función de gran importancia...$"
+
+RocketHideout_4F_Warp_Text_YesNo:
+.string "¿Quieres activar la entrada\n"
+	.string "secreta?$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_1:
 .string "GIOVANNI: Excelente trabajo en\n"
@@ -1654,6 +1898,16 @@ walk_up
 walk_up
 walk_up
 walk_right
+walk_up
+walk_right
+walk_up
+walk_up
+step_end
+
+RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_2.1:
+walk_up
+walk_up
+walk_up
 walk_up
 walk_right
 walk_up

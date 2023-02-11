@@ -935,6 +935,24 @@ RocketHideout5F_Text_57:
 .string "ahí estan y a más de uno\l"
 .string "sorprenden.$"
 
+RocketHideout5F_61::
+lock         
+msgbox RocketHideout5F_Text_61, MSGBOX_SIGN
+release     
+end
+
+RocketHideout5F_Text_61:
+.string "JOHTO$"
+
+RocketHideout5F_62::
+lock         
+msgbox RocketHideout5F_Text_62, MSGBOX_SIGN
+release     
+end
+
+RocketHideout5F_Text_62:
+.string "HOENN$"
+
 
 
 RocketHideout5FDocumento_100::
@@ -1776,16 +1794,51 @@ RocketHideout5F_22_Text_ExplainPP_MAX:
 	.string "LLAMARADA pueden ser buenas\l"
 	.string "elecciones.$"
 
+RocketHideout_5F_Mision_Pueblo_Paleta_izq::
+lockall
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Mision_Pueblo_Paleta_move_1
+waitmovement 0x0
+delay 15
+goto RocketHideout_5F_Mision_Pueblo_Paleta
+
+RocketHideout_5F_Mision_Pueblo_Paleta_der::
+lockall
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Mision_Pueblo_Paleta_move_1.1
+waitmovement 0x0
+delay 15
+goto RocketHideout_5F_Mision_Pueblo_Paleta
+
 RocketHideout_5F_Mision_Pueblo_Paleta::
+playse SE_EXIT
+clearflag FLAG_HIDE_ROUTE_103_RIVAL
+addobject 1
+delay 20
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Mision_Pueblo_Paleta_move_3
+waitmovement 0x0
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_4
+waitmovement 0x0
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_5
+waitmovement 0x0
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_4
+waitmovement 0x0
 msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_6
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_103_RIVAL
+removeobject 1
+setvar VAR_UNUSED_0x40F7, 56
 release
 end
 
@@ -1878,6 +1931,11 @@ walk_slow_right
 walk_in_place_up
 step_end
 
+RocketHideout_5F_Mision_Pueblo_Paleta_move_1.1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
+
 RocketHideout_5F_Mision_Pueblo_Paleta_move_2:
 walk_down
 walk_down
@@ -1914,19 +1972,76 @@ walk_down
 step_end
 
 RocketHideout_5F_Combate_Andra::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 53
+goto_if_gt RocketHideout_5F_Combate_Andra_3
+compare VAR_UNUSED_0x40F7, 52
+goto_if_gt RocketHideout_5F_Combate_Andra_2
 msgbox RocketHideout_5F_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_5F_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_5F_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 58, RocketHideout_5F_Combate_Andra_Move_1
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 53
 release
 end
+
+RocketHideout_5F_Combate_Andra_2::
+msgbox RocketHideout_5F_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 58, RocketHideout_5F_Combate_Andra_Move_1
+waitmovement 0x0
+release
+end
+
+RocketHideout_5F_Combate_Andra_3::
+msgbox RocketHideout_5F_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_5F_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 58, RocketHideout_5F_Combate_Andra_Move_2
+waitmovement 0x0
+msgbox RocketHideout_5F_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_5F_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_4, RocketHideout_5F_Combate_Andra_Texto_8
+msgbox RocketHideout_5F_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_DING_DONG
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Combate_Andra_Move_2
+applymovement 58, RocketHideout_5F_Combate_Andra_Move_2
+waitmovement 0x0
+msgbox RocketHideout_5F_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_5F_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+fadescreen 1
+delay 20
+removeobject 58
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 55
+release
+end
+
+RocketHideout_5F_Prohibido_Salir::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Prohibido_Salir_Move_1
+msgbox RocketHideout_5F_Prohibido_Salir_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Prohibido_Salir_Move_2
+release
+end
+
+RocketHideout_5F_Prohibido_Salir_Move_1:
+walk_in_place_down
+step_end
+
+RocketHideout_5F_Prohibido_Salir_Move_2:
+walk_slow_down
+step_end
+
+RocketHideout_5F_Prohibido_Salir_Texto_1:
+.string "(Tengo órdenes directas de\n"
+	.string "permanecer en este lugar hasta\l"
+	.string "nuevo aviso)$"
 
 RocketHideout_5F_Combate_Andra_Texto_1:
 .string "ANDRA: Así que a esto se refería\n"
@@ -2026,8 +2141,8 @@ RocketHideout_5F_Combate_Andra_Texto_10:
 	.string "libres de salir al exterior.$"
 
 RocketHideout_5F_Combate_Andra_Texto_11:
-.string "ANDRA: Perfecto, el exterior me\n"
-	.string "espera {PLAYER}, voy a llevar a\l"
+.string "ANDRA: Perfecto. KANTO me\n"
+	.string "espera, {PLAYER}. Voy a llevar a\l"
 	.string "cabo un entrenamiento especial\l"
 	.string "mientras no me soliciten para\l"
 	.string "ninguna misión, ¡no reconocerás a\l"
@@ -2038,6 +2153,80 @@ RocketHideout_5F_Combate_Andra_Move_1:
 walk_in_place_up
 step_end
 
+RocketHideout_5F_Puedes_Pasar::
+release
+end
+
 RocketHideout_5F_Combate_Andra_Move_2:
 emote_exclamation_mark
+step_end
+
+
+RocketHideout_5F_Texto_Prohibido_Pasar:
+.string "(Puede leerse grabado en la\n"
+	.string "puerta: -Sólo personal autorizado\l"
+	.string "de forma directa por GIOVANNI-).$"
+
+RocketHideout_5F_Paso_Despacho_Giovanni::
+compare VAR_UNUSED_0x40F7, 58
+goto_if_gt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox RocketHideout_5F_Texto_Prohibido_Pasar MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+RocketHideout_5F_Paso_Sala_Entrenamiento::
+compare VAR_UNUSED_0x40F7, 58
+goto_if_gt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox RocketHideout_5F_Texto_Prohibido_Pasar MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+RocketHideout_5F_Paso_Sala_Potencial_Maximo::
+compare VAR_UNUSED_0x40F7, 58
+goto_if_gt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox RocketHideout_5F_Texto_Prohibido_Pasar MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+RocketHideout_5F_Paso_Sala_Potencial_Johto::
+compare VAR_UNUSED_0x40F7, 58
+goto_if_gt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox RocketHideout_5F_Texto_Prohibido_Pasar MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+RocketHideout_5F_Paso_Sala_Potencial_Hoenn::
+compare VAR_UNUSED_0x40F7, 58
+goto_if_gt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox RocketHideout_5F_Texto_Prohibido_Pasar MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+
+RocketHideout_5F_Paso_Despacho_Giovanni_Move_1:
+walk_in_place_up
+step_end
+
+RocketHideout_5F_Paso_Despacho_Giovanni_Move_2:
+walk_slow_down
 step_end

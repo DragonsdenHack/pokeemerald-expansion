@@ -113,8 +113,10 @@ Route3Documento_Text_100:
 .string "RUTA 3\n"
 	.string "MT.MOON AL NORTE$"
 
-Route3_Frontera::    
- applymovement OBJ_EVENT_ID_PLAYER, Route3_Frontera_Move1.1
+Route3_Frontera:: 
+compare VAR_UNUSED_0x40F7, 55
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2   
+applymovement OBJ_EVENT_ID_PLAYER, Route3_Frontera_Move1.1
 waitmovement 0
 playse SE_PIN
 applymovement 9, Route3_Frontera_Move1

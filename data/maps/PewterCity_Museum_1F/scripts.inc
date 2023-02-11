@@ -1,5 +1,10 @@
 PewterCity_Museum_1F_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, PewterCity_Museum_1F_OnFrame
 	.byte 0
+
+PewterCity_Museum_1F_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 57, PewterCity_Museum_1F_Miguel
+	.2byte 0
 
 PewterMuseum1::
 end
@@ -79,29 +84,88 @@ PewterMuseumDocumento_Text_102:
 	.string "Un primitivo y raro POKÉMON.$"
 
 PewterCity_Museum_1F_Miguel::
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Museum_1F_Miguel_Move_1
+waitmovement 0x0
+delay 10
+playse MUS_RG_POKE_MANSION
 msgbox PewterCity_Museum_1F_Miguel_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Museum_1F_Miguel_Move_2
+waitmovement 0x0
+playse SE_PIN
+applymovement 7, PewterCity_Museum_1F_Miguel_Move_3
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_4
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_5
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, PewterCity_Museum_1F_Miguel_Move_5
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_5 MSGBOX_AUTOCLOSE
 msgbox PewterCity_Museum_1F_Miguel_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 3, PewterCity_Museum_1F_Miguel_Move_6
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_7 MSGBOX_AUTOCLOSE
 msgbox PewterCity_Museum_1F_Miguel_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 7, PewterCity_Museum_1F_Miguel_Move_7
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_9 MSGBOX_AUTOCLOSE
 msgbox PewterCity_Museum_1F_Miguel_Texto_10 MSGBOX_AUTOCLOSE
-msgbox PewterCity_Museum_1F_Miguel_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 7, PewterCity_Museum_1F_Miguel_Move_6
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_CMIGUEL_2, PewterCity_Museum_1F_Miguel_Texto_11
 msgbox PewterCity_Museum_1F_Miguel_Texto_12 MSGBOX_AUTOCLOSE
 msgbox PewterCity_Museum_1F_Miguel_Texto_13 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_M_TELEPORT
 msgbox PewterCity_Museum_1F_Miguel_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+removeobject 7
+fadescreen 0
+delay 10
 msgbox PewterCity_Museum_1F_Miguel_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 3, PewterCity_Museum_1F_Miguel_Move_8
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_16 MSGBOX_AUTOCLOSE
-msgbox PewterCity_Museum_1F_Miguel_Texto_17 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox PewterCity_Museum_1F_Miguel_Texto_17 MSGBOX_DEFAULT
+givemon SPECIES_OMANYTE, 30, ITEM_MYSTIC_WATER
+waitfanfare
+applymovement 3, PewterCity_Museum_1F_Miguel_Move_9
+waitmovement 0x0
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_4
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_5
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 3, PewterCity_Museum_1F_Miguel_Move_10
+waitmovement 0x0
+playse SE_PIN
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_3
+waitmovement 0x0
 msgbox PewterCity_Museum_1F_Miguel_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_11
+waitmovement 0x0
+delay 40
+removeobject 4
+delay 40
 msgbox PewterCity_Museum_1F_Miguel_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_12
+waitmovement 0x0
+playfanfare MUS_OBTAIN_ITEM
+giveitem ITEM_POISON_BARB
+waitfanfare
 msgbox PewterCity_Museum_1F_Miguel_Texto_22 MSGBOX_AUTOCLOSE
 msgbox PewterCity_Museum_1F_Miguel_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Museum_1F_Miguel_Move_13
+waitmovement 0x0
+setflag FLAG_HIDE_FANCLUB_LITTLE_BOY
+removeobject 6
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 58
 release
 end
 
@@ -216,7 +280,7 @@ PewterCity_Museum_1F_Miguel_Texto_16:
 	.string "agradecimiento joven ROCKET.$"
 
 PewterCity_Museum_1F_Miguel_Texto_17:
-.string "¡HAS RECIBIDO UN OMANYTE AL NV:5!$"
+.string "¡HAS RECIBIDO UN OMANYTE AL NV:30!$"
 
 PewterCity_Museum_1F_Miguel_Texto_18:
 .string "PETREL: Sí que te has hecho más\n"
@@ -258,6 +322,7 @@ PewterCity_Museum_1F_Miguel_Texto_23:
 .string "Nos vemos, {PLAYER}, científicos...$"
 
 PewterCity_Museum_1F_Miguel_Move_1:
+walk_up
 walk_in_place_up
 step_end
 

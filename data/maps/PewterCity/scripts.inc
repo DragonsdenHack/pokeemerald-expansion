@@ -147,17 +147,81 @@ PewterCity_3_Text_3No:
 	.string "mantener a los Pokémon salvajes\l"
 	.string "alejados de mi jardín!$"
 
+PewterCity_Petrel_2::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1
+waitmovement 0
+playse SE_PIN
+applymovement 6, PewterCity_Petrel_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1.1
+goto PewterCity_Petrel
+
+PewterCity_Petrel_3::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1
+waitmovement 0
+playse SE_PIN
+applymovement 6, PewterCity_Petrel_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1.2
+goto PewterCity_Petrel
+
+PewterCity_Petrel_4::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1
+waitmovement 0
+playse SE_PIN
+applymovement 6, PewterCity_Petrel_Move_2
+goto PewterCity_Petrel
+
+PewterCity_Petrel_5::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1
+waitmovement 0
+playse SE_PIN
+applymovement 6, PewterCity_Petrel_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1.3
+waitmovement 0x0
+goto PewterCity_Petrel
+
 PewterCity_Petrel::
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Petrel_Move_1
+waitmovement 0
+delay 20
 msgbox PewterCity_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_3
+waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_4
+waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_5
+waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PewterCity_Petrel_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PewterCity_Petrel_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_6
+waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_4
+waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_7
+waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PewterCity_Petrel_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PewterCity_Petrel_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_7
+waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 6, PewterCity_Petrel_Move_8
+waitmovement 0x0
+setflag FLAG_HIDE_FANCLUB_BOY
+removeobject 6
+setvar VAR_UNUSED_0x40F7, 57
 release
 end
 
@@ -243,14 +307,28 @@ PewterCity_Petrel_Move_1:
 walk_in_place_left
 step_end
 
+PewterCity_Petrel_Move_1.1:
+walk_down
+walk_down
+walk_in_place_left
+step_end
+
+PewterCity_Petrel_Move_1.2:
+walk_down
+walk_in_place_left
+step_end
+
+PewterCity_Petrel_Move_1.3:
+walk_up
+walk_in_place_left
+step_end
+
 PewterCity_Petrel_Move_2:
 emote_exclamation_mark
 walk_in_place_right
 step_end
 
 PewterCity_Petrel_Move_3:
-walk_up
-walk_up
 walk_right
 walk_right
 walk_right

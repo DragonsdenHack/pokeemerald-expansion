@@ -199,3 +199,18 @@ step_end
 Route11_Policias_move3:
 walk_in_place_left
 step_end
+
+Route11_Frontera_Tunel::
+compare VAR_UNUSED_0x40F7, 57
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_1
+waitmovement 0x0
+msgbox Route11_Frontera_Tunel_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_2
+waitmovement 0x0
+release
+end
+
+Route11_Frontera_Tunel_Texto_1:
+.string "(Este lugar no se corresponde con\n"
+	.string "ninguna misión, mejor no perder tiempo).$"

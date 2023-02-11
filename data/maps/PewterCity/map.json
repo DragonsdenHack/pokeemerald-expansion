@@ -101,7 +101,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PewterCity6",
-      "flag": "0"
+      "flag": "FLAG_HIDE_FANCLUB_BOY"
     }
   ],
   "warp_events": [
@@ -164,6 +164,42 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Barrera_Tiendas"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 20,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "56",
+      "script": "PewterCity_Petrel_2"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "56",
+      "script": "PewterCity_Petrel_3"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 22,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "56",
+      "script": "PewterCity_Petrel_4"
+    },
+    {
+      "type": "trigger",
+      "x": 41,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "56",
+      "script": "PewterCity_Petrel_5"
     }
   ],
   "bg_events": [
