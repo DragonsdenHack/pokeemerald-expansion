@@ -144,3 +144,14 @@ ViridianCity_7_Text_7Yes:
 
 ViridianCity_7_Text_7No:
 	.string "Oh, vale.$"
+
+ViridianCity_Escena_5::
+applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Escena_5_Move_1
+warpsilent MAP_ROCKET_HIDEOUT_4F, 16, 0
+waitmovement 0x0
+release
+end
+
+ViridianCity_Escena_5_Move_1:
+walk_in_place_down
+step_end

@@ -1,10 +1,14 @@
 RocketHideout_4F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
     .byte 0
 
 RocketHideout_4F_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 46, PokemonTower5F_Escena_4_Blaine
+map_script_2 VAR_UNUSED_0x40F7, 58, RocketHideout_4F_Escena_Castigo_Reclutas
 	.2byte 0
+
+	
 	
 
 
@@ -1179,7 +1183,7 @@ playse SE_PC_LOGIN
 delay 40
 playse SE_CLICK
 delay 40
-playse SE_BANG
+playse SE_UNLOCK
 setmetatile 20, 8, 0x255, TRUE
 setmetatile 21, 8, 0x256, TRUE
 setmetatile 22, 8, 0x257, TRUE
@@ -1598,7 +1602,7 @@ playse SE_PC_LOGIN
 delay 40
 playse SE_CLICK
 delay 40
-playse SE_BANG
+playse SE_UNLOCK
 setmetatile 20, 8, 0x255, TRUE
 setmetatile 21, 8, 0x256, TRUE
 setmetatile 22, 8, 0x257, TRUE
@@ -1662,7 +1666,7 @@ playse SE_PC_LOGIN
 delay 40
 playse SE_CLICK
 delay 40
-playse SE_BANG
+playse SE_UNLOCK
 setmetatile 20, 8, 0x255, TRUE
 setmetatile 21, 8, 0x256, TRUE
 setmetatile 22, 8, 0x257, TRUE
@@ -2558,6 +2562,18 @@ walk_down
 walk_down
 step_end
 
+PokemonTower5F_Escena_4_Blaine_Move_1.1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+step_end
+
 PokemonTower5F_Escena_4_Blaine_Move_2:
 face_left
 step_end
@@ -2629,3 +2645,292 @@ PokemonTower5F_Escena_4_Blaine_Move_13:
 walk_right
 face_up
 step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas::
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+clearflag FLAG_HIDE_FANCLUB_OLD_LADY
+clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+addobject 10
+addobject 13
+addobject 14
+addobject 15
+addobject 1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonTower5F_Escena_4_Blaine_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
+delay 10
+applymovement 10, RocketHideout_4F_Escena_Castigo_Reclutas_Move_1
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2 MSGBOX_AUTOCLOSE
+delay 30
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_2
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_3
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
+delay 60
+playse SE_PIN
+applymovement 13, RocketHideout_4F_Mision_Andra_Fucsia_move_3
+applymovement 14, RocketHideout_4F_Mision_Andra_Fucsia_move_3
+applymovement 15, RocketHideout_4F_Mision_Andra_Fucsia_move_3
+waitmovement 0x0
+delay 20
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_5
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_5
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_6
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_15 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_3
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_6
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 13, RocketHideout_4F_Giovanni_Mision_1_move_1
+applymovement 14, RocketHideout_4F_Giovanni_Mision_1_move_1
+applymovement 15, RocketHideout_4F_Giovanni_Mision_1_move_1
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 13, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
+applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
+applymovement 15, RocketHideout_4F_Escena_Castigo_Reclutas_Move_7
+waitmovement 0x0
+delay 20
+applymovement 1, RocketHideout_4F_Escena_Castigo_Reclutas_Move_2
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+removeobject 13
+removeobject 14
+removeobject 15
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_21 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_22 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_23 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_24 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_25 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_26 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
+setvar VAR_UNUSED_0x40F7, 59
+warpsilent MAP_VIRIDIAN_CITY, 21, 2
+release
+end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_1:
+.string "PROTÓN: Los RECLUTAS responsables de\n"
+	.string "la misión en PUEBLO LAVANDA se\l"
+	.string "presentan, señor.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2:
+.string "GIOVANNI: ¿Y bien?$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_2.2:
+.string "Y… y bien qué, ¿s-señor?$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
+.string "GIOVANNI: Creí haber dejado claras\n"
+	.string "vuestras funciones en TORRE POKÉMON.\l"
+	.string "No os limitásteis a recoger cráneos de\l"
+	.string "CUBONE y armar ruido, fuisteis más allá.\l"
+	.string "¿Por qué?$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_4:
+.string "RECLUTAS: Fue un accidente, señor. Solo\n"
+	.string "queríamos pasar el rato, la madre de\l"
+	.string "CUBONE se lo tomó muy enserio y… se nos\l"
+	.string "fue de las manos.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_5:
+.string "GIOVANNI: ¿Os dáis cuenta de la pobre\n"
+	.string "imagen que habéis dado a FUJI, con\l"
+	.string "quien estábamos en plena negociación?\l"
+	.string "No solo a FUJI, a toda KANTO. Como si\l"
+	.string "las campañas de LANCE no fueran\l"
+	.string "suficiente, toda la región sabe ya lo\l"
+	.string "que el TEAM ROCKET hizo en PUEBLO\l"
+	.string "LAVANDA.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_6:
+.string "Vuestra incompetencia y falta de ética\n"
+	.string "merecen un castigo ejemplar.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_7:
+.string "Creedme, si os castigara de forma\n"
+	.string "proporcional a vuestro fracaso, mi\l"
+	.string "NIDOKING agotaría antes sus PP en\l"
+	.string "todo su repertorio ofensivo.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_8:
+.string "RECLUTAS: … …$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9:
+.string "GIOVANNI: Aunque…$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10:
+.string "No somos asesinos, a pesar de que\n"
+	.string "vuestras últimas acciones hagan\l"
+	.string "parecer lo contrario. Os daré la\l"
+	.string "oportunidad de redimiros.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
+.string "En compensación al daño causado,\n"
+	.string "donaréis el 70% de vuestro a la\l"
+	.string "beneficencia de PUEBLO LAVANDA, el\l"
+	.string "TEAM ROCKET por otro lado se encargará\l"
+	.string "de cubrir vuestras necesidades\l"
+	.string "básicas… mientras cumpláis vuestra\l"
+	.string "parte del trato.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12:
+.string "RECLUTA: S-señor…gracias por esta\n"
+	.string "segunda oportunidad, le prometo que no\l"
+	.string "se arrepentirá de no haber usado a su\l"
+	.string "NIDOK…$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13:
+.string "GIOVANNI: Aún no he acabado.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_14:
+.string "RECLUTA: …$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_15:
+.string "GIOVANNI: Va a construirse un enorme\n"
+	.string "CEMENTERIO subterráneo, al sur de\l"
+	.string "PUEBLO LAVANDA. FUJI necesitará\l"
+	.string "ayuda, y vosotros estaréis allí para\l"
+	.string "todo lo que requiera. Además de\l"
+	.string "vuestra labor normal como ROCKET, el\l"
+	.string "tiempo libré que os quede irá para esa\l"
+	.string "causa. ¿Algún inconveniente?$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_16:
+.string "RECLUTAS: ¡Ninguno, señor!$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_17:
+.string "GIOVANNI: Aquí tenéis vuestra\n"
+	.string "oportunidad: 1 año de privación\l"
+	.string "económica y lúdica, a cambio de limpiar\l"
+	.string "vuestra mancha. Os aviso de antemano,\l"
+	.string "al mínimo fallo, quedaréis desterrados\l"
+	.string "definitivamente…$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_18:
+.string "Pero si os mantenéis estoicos, al\n"
+	.string "concluir el año no solo os ganaréis el\l"
+	.string "perdón, también seréis ascendidos a\l"
+	.string "ALTO RANGO, puesto que habréis\l"
+	.string "demostrado fortaleza, constancia y,\l"
+	.string "especialmente, capacidad de aprender\l"
+	.string "de vuestros errores.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_19:
+.string "GIOVANNI: Ahora, fuera de mi vista.\n"
+	.string "¡Comienza vuestro día 1!$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_20:
+.string "RECLUTAS: ¡A la orden, señor!$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_21:
+.string "GIOVANNI: Malditos inconscientes,\n"
+	.string "ahora toda KANTO confundirá maldad\l"
+	.string "con ignorancia…$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_22:
+.string "PROTÓN: Por eso la BASE PROFUNDA está\n"
+	.string "solo reservada a unos pocos.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_23:
+.string "PROTON: Pero…$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_24:
+.string "GIOVANNI: ¿Qué ocurre, PROTON?$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_25:
+.string "PROTÓN: Hay algo que no he entendido.\n"
+	.string "¿Un enorme CEMENTERIO subterráneo en\l"
+	.string "PUEBLO LAVANDA? Creí que TORRE\l"
+	.string "POKÉMON ya era más que suficiente para\l"
+	.string "albergar todas las tumbas.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Texto_26:
+.string "GIOVANNI: Aún es pronto para hablar de\n"
+	.string "eso, PROTÓN, muy pronto. Ya llegará su\l"
+	.string "hora.$"
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_1:
+walk_in_place_left
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_2:
+face_left
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_3:
+face_down
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_4:
+walk_in_place_down
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_5:
+walk_fast_up
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_6:
+walk_fast_down
+walk_in_place_up
+step_end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_7:
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+

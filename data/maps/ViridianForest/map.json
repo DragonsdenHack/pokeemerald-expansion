@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "ViridianForest12",
-      "flag": "0"
+      "flag": "FLAG_HIDE_FANCLUB_LADY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
@@ -181,7 +181,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_FANCLUB_LADY"
     }
   ],
   "warp_events": [
@@ -229,7 +229,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 39,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x408B",
+      "var_value": "0",
+      "script": "ViridianForest_Combate_Guays"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 40,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x408B",
+      "var_value": "0",
+      "script": "ViridianForest_Combate_Guays"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 41,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x408B",
+      "var_value": "0",
+      "script": "ViridianForest_Combate_Guays"
+    }
   ],
   "bg_events": [
     {

@@ -181,21 +181,56 @@ ViridianForestDocumento_Text_105:
 	.string "POKéMON!$"
 
 ViridianForest_Combate_Guays::
+applymovement 13, ViridianForest_Combate_Guays_Move_2
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 12, ViridianForest_Combate_Guays_Move_1
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 13, ViridianForest_Combate_Guays_Move_3
+waitmovement 0x0
+applymovement 13, ViridianForest_Combate_Guays_Move_4
+waitmovement 0x0
+applymovement 12, ViridianForest_Combate_Guays_Move_4
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 12, ViridianForest_Combate_Guays_Move_1
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 13, ViridianForest_Combate_Guays_Move_2
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 12, ViridianForest_Combate_Guays_Move_5
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 13, ViridianForest_Combate_Guays_Move_5
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_7 MSGBOX_AUTOCLOSE
-msgbox ViridianForest_Combate_Guays_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_VERO_2, ViridianForest_Combate_Guays_Texto_8
 msgbox ViridianForest_Combate_Guays_Texto_9 MSGBOX_AUTOCLOSE
 msgbox ViridianForest_Combate_Guays_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 12, ViridianForest_Combate_Guays_Move_7
+applymovement 13, ViridianForest_Combate_Guays_Move_8
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_11 MSGBOX_AUTOCLOSE
-msgbox ViridianForest_Combate_Guays_Texto_12 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox ViridianForest_Combate_Guays_Texto_12 MSGBOX_DEFAULT
+givemon SPECIES_PINSIR, 15, ITEM_SILVER_POWDER
+waitfanfare
 msgbox ViridianForest_Combate_Guays_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 12, ViridianForest_Combate_Guays_Move_1
+applymovement 13, ViridianForest_Combate_Guays_Move_2
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_14 MSGBOX_AUTOCLOSE
 msgbox ViridianForest_Combate_Guays_Texto_15 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_FANCLUB_LADY
+fadescreen 1
+delay 20
+removeobject 12
+removeobject 13
+fadescreen 0
+setvar VAR_UNUSED_0x408B, 1
 release
 end
 
@@ -278,7 +313,7 @@ ViridianForest_Combate_Guays_Texto_11:
 	.string "entiendes.$"
 
 ViridianForest_Combate_Guays_Texto_12:
-.string "¡HAS OBTENIDO UN PINSIR AL NV:5!$"
+.string "¡HAS OBTENIDO UN PINSIR AL NV:15!$"
 
 ViridianForest_Combate_Guays_Texto_13:
 .string "VERO: ¡Tampoco de pases!\n"
@@ -300,6 +335,10 @@ ViridianForest_Combate_Guays_Texto_15:
 
 ViridianForest_Combate_Guays_Move_1:
 walk_in_place_down
+step_end
+
+ViridianForest_Combate_Guays_Move_1.1:
+walk_in_place_left
 step_end
 
 ViridianForest_Combate_Guays_Move_2:

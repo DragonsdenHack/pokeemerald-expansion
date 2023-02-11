@@ -1837,6 +1837,8 @@ msgbox RocketHideout_5F_Mision_Pueblo_Paleta_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_5F_Mision_Pueblo_Paleta_move_6
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_103_RIVAL
+setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
 removeobject 1
 setvar VAR_UNUSED_0x40F7, 56
 release

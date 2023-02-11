@@ -835,7 +835,7 @@
 #define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315 // PROTON ROCKET HIDEOUT 4F
 #define FLAG_HIDE_FANCLUB_BOY                                       0x316 // PETREL CIUDAD PLATEADA
 #define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317 // GORDOS BLOQUEANDO ACCESO BOSQUE VERDE, CMIGUEL, FOSIL Y PETREL MUSEO PLATEADA
-#define FLAG_HIDE_FANCLUB_LADY                                      0x318 // LIBRE
+#define FLAG_HIDE_FANCLUB_LADY                                      0x318 // ENTRENADORES GUAY BOSQUE VERDE
 #define FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT               0x319 // LIBRE
 #define FLAG_HIDE_LITTLEROOT_TOWN_RIVAL                             0x31A // LIBRE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCH                             0x31B // LIBRE
