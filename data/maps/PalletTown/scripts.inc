@@ -80,3 +80,73 @@ PalletTownDocumento_Text_104:
 	.string "PUEBLO PALETA\n"
 	.string "¡Donde comienzan las grandes\l"
 	.string "aventuras!$"
+
+PalletTown_Encuentro_Oak::
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+addobject 1
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_Encuentro_Oak_Move_1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Encuentro_Oak_Move_2
+waitmovement 0x0
+delay 20
+applymovement 1, PalletTown_Encuentro_Oak_Move_3
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+removeobject 1
+playse SE_DOOR
+delay 25
+applymovement OBJ_EVENT_ID_CAMERA, PalletTown_Encuentro_Oak_Move_4
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_UNUSED_0x40F7, 60
+release
+end
+
+PalletTown_Encuentro_Oak_Move_1:
+emote_exclamation_mark
+walk_in_place_down
+step_end
+
+PalletTown_Encuentro_Oak_Move_2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+step_end
+
+PalletTown_Encuentro_Oak_Move_3:
+walk_in_place_left
+walk_in_place_right
+walk_in_place_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_in_place_up
+step_end
+
+PalletTown_Encuentro_Oak_Move_4:
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
