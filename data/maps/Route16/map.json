@@ -166,7 +166,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route16_11",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -179,7 +179,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route16_12",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BRUNO",
@@ -192,7 +192,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route16_13",
-      "flag": "0"
+      "flag": "FLAG_HIDE_HO_OH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -205,7 +205,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route16_14",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -218,7 +218,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route16_15",
-      "flag": "0"
+      "flag": "FLAG_HIDE_HO_OH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -231,7 +231,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route16_16",
-      "flag": "0"
+      "flag": "FLAG_HIDE_HO_OH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CALVOMOTOJOHTO",
@@ -243,8 +243,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Route16_17",
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER"
     }
   ],
   "warp_events": [
@@ -285,7 +285,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "65",
+      "script": "Route16_Combate_Bruno_arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "65",
+      "script": "Route16_Combate_Bruno"
+    }
   ],
   "bg_events": [
     {

@@ -429,7 +429,11 @@
 #define METATILE_PokemonCenter_Escalator2F_Tile2_Frame2  0x2AC
 #define METATILE_PokemonCenter_Floor_CounterBarrier      0x266
 #define METATILE_PokemonCenter_Floor_Plain_Alt           0x2E4
+#define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
+#define METATILE_PokemonCenter_Door_CableClub            0x264
 #define METATILE_PokemonCenter_Floor_ShadowTop           0x265
+#define METATILE_PokemonCenter_Floor_CounterBarrier      0x266
+#define METATILE_PokemonCenter_CounterBarrier            0x267
 #define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
 
 // gTileset_RS
@@ -720,7 +724,9 @@
 
 // gTileset_Shop
 #define METATILE_Shop_Door_Elevator   0x285
+#define METATILE_Shop_Laptop1_Flash   0x258
 #define METATILE_Shop_Laptop1_Normal  0x29D
+#define METATILE_Shop_Laptop2_Flash   0x260
 #define METATILE_Shop_Laptop2_Normal  0x2A5
 
 // gTileset_Slateport

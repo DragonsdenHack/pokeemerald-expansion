@@ -53,9 +53,8 @@ Route16_Text_11:
 
 
 Route16_12::
-lock     
-faceplayer     
-msgbox Route16_Text_12, MSGBOX_DEFAULT
+lock         
+msgbox Route16_Text_12, MSGBOX_SIGN
 release     
 end
 
@@ -66,9 +65,8 @@ Route16_Text_12:
 
 
 Route16_13::
-lock     
-faceplayer     
-msgbox Route16_Text_13, MSGBOX_DEFAULT
+lock        
+msgbox Route16_Text_13, MSGBOX_SIGN
 release     
 end
 
@@ -80,9 +78,8 @@ Route16_Text_13:
 
 
 Route16_14::
-lock     
-faceplayer     
-msgbox Route16_Text_14, MSGBOX_DEFAULT
+lock         
+msgbox Route16_Text_14, MSGBOX_SIGN
 release     
 end
 
@@ -91,9 +88,8 @@ Route16_Text_14:
 .string "ÉLITE 4…$"
 
 Route16_15::
-lock     
-faceplayer     
-msgbox Route16_Text_15, MSGBOX_DEFAULT
+lock        
+msgbox Route16_Text_15, MSGBOX_SIGN
 release     
 end
 
@@ -103,14 +99,25 @@ Route16_Text_15:
 
 
 Route16_16::
-lock     
-faceplayer     
-msgbox Route16_Text_16, MSGBOX_DEFAULT
+lock         
+msgbox Route16_Text_16, MSGBOX_SIGN
 release     
 end
 
 Route16_Text_16:
 .string "Ya los tenemos donde queríamos…$"
+
+
+Route16_17::
+lock         
+msgbox Route16_Text_17, MSGBOX_SIGN
+release     
+end
+
+Route16_Text_17:
+.string "Maldición...\n"
+	.string "Mi WEEZING no pudo siquiera tocar\l"
+	.string "a esa enorme serpiente de acero...$"
 
 
 
@@ -189,23 +196,150 @@ Route16_EventScript_Pareja2::
 	end
 
 Route16_Combate_Bruno::
+playse MUS_RG_ROCKET_HIDEOUT
+applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_1
+waitmovement 0x0
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route16_Combate_Bruno_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 17, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_5 MSGBOX_AUTOCLOSE
 msgbox Route16_Combate_Bruno_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_4
+waitmovement 0x0
+playse SE_PIN
+applymovement 13, Route16_Combate_Bruno_Move_5
+applymovement 17, Route16_Combate_Bruno_Move_5
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_9 MSGBOX_AUTOCLOSE
-msgbox Route16_Combate_Bruno_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_BRUNO_1, Route16_Combate_Bruno_Texto_10
+playse MUS_RG_ROCKET_HIDEOUT
 msgbox Route16_Combate_Bruno_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_13 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_HO_OH
+fadescreen 1
+delay 20
+removeobject 13
+removeobject 15
+removeobject 16
+fadescreen 0
+playse MUS_RG_ROUTE3
+applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_7
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 17, Route16_Combate_Bruno_Move_8
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 17, Route16_Combate_Bruno_Move_8
+waitmovement 0x0
 msgbox Route16_Combate_Bruno_Texto_16 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_ITEM
+giveitem ITEM_HM04_STRENGTH
+waitfanfare
+delay 20
 msgbox Route16_Combate_Bruno_Texto_17 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+fadescreen 1
+delay 20
+removeobject 17
+removeobject 11
+removeobject 12
+removeobject 14
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 66
+release
+end
+
+Route16_Combate_Bruno_arriba::
+playse MUS_RG_ROCKET_HIDEOUT
+applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_1.1
+waitmovement 0x0
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route16_Combate_Bruno_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 17, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route16_Combate_Bruno_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_4.1
+waitmovement 0x0
+playse SE_PIN
+applymovement 13, Route16_Combate_Bruno_Move_5
+applymovement 17, Route16_Combate_Bruno_Move_5
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_BRUNO_1, Route16_Combate_Bruno_Texto_10
+playse MUS_RG_ROCKET_HIDEOUT
+msgbox Route16_Combate_Bruno_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_3
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 13, Route16_Combate_Bruno_Move_2
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_13 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_HO_OH
+fadescreen 1
+delay 20
+removeobject 13
+removeobject 15
+removeobject 16
+fadescreen 0
+playse MUS_RG_ROUTE3
+applymovement OBJ_EVENT_ID_PLAYER, Route16_Combate_Bruno_Move_7
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 17, Route16_Combate_Bruno_Move_8
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 17, Route16_Combate_Bruno_Move_8
+waitmovement 0x0
+msgbox Route16_Combate_Bruno_Texto_16 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_ITEM
+giveitem ITEM_HM04_STRENGTH
+waitfanfare
+delay 20
+msgbox Route16_Combate_Bruno_Texto_17 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+fadescreen 1
+delay 20
+removeobject 17
+removeobject 11
+removeobject 12
+removeobject 14
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 66
 release
 end
 
@@ -316,7 +450,7 @@ Route16_Combate_Bruno_Texto_14:
 	.string "todo un miembro de la ÉLITE 4!$"
 
 Route16_Combate_Bruno_Texto_15:
-.string "Y no sólo eso, has salvado este\n"
+.string "Y no solo eso, has salvado este\n"
 	.string "lugar de ser también tragado por\l"
 	.string "esta maldita dictadura\l"
 	.string "encubierta...nuestra lealtad hacia\l"
@@ -342,6 +476,10 @@ Route16_Combate_Bruno_Move_1:
 walk_in_place_up
 step_end
 
+Route16_Combate_Bruno_Move_1.1:
+walk_in_place_down
+step_end
+
 Route16_Combate_Bruno_Move_2:
 walk_in_place_right
 step_end
@@ -352,6 +490,11 @@ step_end
 
 Route16_Combate_Bruno_Move_4:
 walk_up
+face_left
+step_end
+
+Route16_Combate_Bruno_Move_4.1:
+walk_down
 face_left
 step_end
 
