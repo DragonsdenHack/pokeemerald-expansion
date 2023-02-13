@@ -9,6 +9,8 @@ map_script_2 VAR_UNUSED_0x40FA, 0, PalletTown_RedHouse_1F_Encuentro_Madre
 
 PalletTown_RedHouse_1F_Encuentro_Madre::
 lockall
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_RedHouse_1F_Encuentro_Madre_Move_1.1
+waitmovement 0x0
 playse SE_PIN
 applymovement 1, PalletTown_RedHouse_1F_Encuentro_Madre_Move_1
 waitmovement 0x0
@@ -46,6 +48,10 @@ PalletTown_RedHouse_1F_Encuentro_Madre_Texto_3:
 PalletTown_RedHouse_1F_Encuentro_Madre_Move_1:
 emote_exclamation_mark
 face_right
+step_end
+
+PalletTown_RedHouse_1F_Encuentro_Madre_Move_1.1:
+face_up
 step_end
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Move_2:

@@ -83,17 +83,71 @@ PalletTownProfessorLabDocumento_Text_102:
 	.string "CG de la LIGA POKÉMON.\l"
 	.string "Prof.Oak, ¡visítenos por favor!$"
 
+PalletTown_ProfessorLab_Lab_Izq::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_1.1
+waitmovement 0x0
+goto PalletTown_ProfessorLab_Lab
+
+PalletTown_ProfessorLab_Lab_Centro::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_1
+waitmovement 0x0
+goto PalletTown_ProfessorLab_Lab
+
+PalletTown_ProfessorLab_Lab_Der::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_1.2
+waitmovement 0x0
+goto PalletTown_ProfessorLab_Lab
+
 PalletTown_ProfessorLab_Lab::
+delay 20
+playse SE_DOOR
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+addobject 5
+delay 20
 msgbox PalletTown_ProfessorLab_Lab_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_2
+waitmovement 0x0
+playse SE_PIN
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
 msgbox PalletTown_ProfessorLab_Lab_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_2
+waitmovement 0x0
 msgbox PalletTown_ProfessorLab_Lab_Texto_3 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Lab_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_5
+waitmovement 0x0
 msgbox PalletTown_ProfessorLab_Lab_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_6
+waitmovement 0x0
+delay 20
+msgbox PalletTown_ProfessorLab_Lab_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PalletTown_ProfessorLab_Lab_Texto_6 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox PalletTown_ProfessorLab_Lab_Texto_7 MSGBOX_AUTOCLOSE
-msgbox PalletTown_ProfessorLab_Lab_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_DALIA, PalletTown_ProfessorLab_Lab_Texto_8
 msgbox PalletTown_ProfessorLab_Lab_Texto_9 MSGBOX_AUTOCLOSE
 msgbox PalletTown_ProfessorLab_Lab_Texto_10 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_7
+waitmovement 0x0
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_8
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+removeobject 5
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 62
 release
 end
 
@@ -158,6 +212,16 @@ PalletTown_ProfessorLab_Lab_Move_1:
 walk_in_place_down
 step_end
 
+PalletTown_ProfessorLab_Lab_Move_1.1:
+walk_right
+walk_in_place_down
+step_end
+
+PalletTown_ProfessorLab_Lab_Move_1.2:
+walk_left
+walk_in_place_down
+step_end
+
 PalletTown_ProfessorLab_Lab_Move_2:
 walk_slow_up
 walk_slow_up
@@ -193,3 +257,59 @@ walk_down
 walk_down
 walk_down
 step_end
+
+PalletTown_ProfessorLab_Robo_Bulbasaur::
+lock     
+showmonpic SPECIES_BULBASAUR, 10, 3   
+playmoncry SPECIES_BULBASAUR, CRY_MODE_ENCOUNTER
+msgbox PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_1, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq PalletTown_ProfessorLab_Robo_Bulbasaur_No
+hidemonpic
+msgbox PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_2, MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+removeobject 4
+playfanfare MUS_OBTAIN_TMHM
+msgbox PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_3, MSGBOX_DEFAULT
+givemon SPECIES_BULBASAUR, 15, ITEM_NONE
+waitfanfare
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+msgbox PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4, MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 61
+release
+end
+
+
+
+
+PalletTown_ProfessorLab_Robo_Bulbasaur_No::
+hidemonpic
+release
+end
+
+PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_1:
+.string "Al parecer esta POKÉ BALL contiene\n"
+	.string "al raro y poderoso BULBASAUR, no\l"
+	.string "parece que vayan a darle uso,\l"
+	.string "¿quieres robarla?$"
+
+PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_2:
+.string "Este POKÉMON parece tener mucha\n"
+	.string "energía.$"
+
+PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_3:
+.string "¡{PLAYER} robó el BULBASAUR!$"
+
+PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4:
+.string "PROTÓN: ¿{PLAYER}?\n"
+	.string "¿Cómo va tu misión por PUEBLO\l"
+	.string "PALETA, has descubierto algo?\l"
+	.string "GIOVANNI requiere tu presencia, te\l"
+	.string "estará esperando en su despacho\l"
+	.string "dentro de la BASE ROCKET PROFUNDA.$"

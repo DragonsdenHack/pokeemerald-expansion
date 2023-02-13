@@ -824,7 +824,7 @@
   "warp_events": [
     {
       "x": 3,
-      "y": 1,
+      "y": 2,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_4F",
       "dest_warp_id": 3

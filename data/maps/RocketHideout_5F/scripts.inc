@@ -2170,7 +2170,7 @@ RocketHideout_5F_Texto_Prohibido_Pasar:
 	.string "de forma directa por GIOVANNI-).$"
 
 RocketHideout_5F_Paso_Despacho_Giovanni::
-compare VAR_UNUSED_0x40F7, 58
+compare VAR_UNUSED_0x40F7, 61
 goto_if_gt RocketHideout_5F_Puedes_Pasar
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
 waitmovement 0x0
