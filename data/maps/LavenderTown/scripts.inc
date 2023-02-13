@@ -146,7 +146,7 @@ walk_slow_down
 step_end
 
 LavenderTown_Barrera_Sur::
-compare VAR_UNUSED_0x40F7, 58
+compare VAR_UNUSED_0x40F7, 62
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_1
 waitmovement 0x0

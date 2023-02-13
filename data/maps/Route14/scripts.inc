@@ -147,18 +147,79 @@ Route14_EventScript_Pareja2::
 	msgbox Route14_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route14_Combate_Azul_Centro::
+applymovement OBJ_EVENT_ID_PLAYER, Route14_Combate_Azul_Move_1
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 4, Route14_Combate_Azul_Move_2
+waitmovement 0x0
+applymovement 4, Route14_Combate_Azul_Move_3
+waitmovement 0x0
+goto Route14_Combate_Azul
+
+Route14_Combate_Azul_Izq::
+applymovement OBJ_EVENT_ID_PLAYER, Route14_Combate_Azul_Move_1
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 4, Route14_Combate_Azul_Move_2
+waitmovement 0x0
+applymovement 4, Route14_Combate_Azul_Move_3.1
+waitmovement 0x0
+goto Route14_Combate_Azul
+
+Route14_Combate_Azul_Der::
+applymovement OBJ_EVENT_ID_PLAYER, Route14_Combate_Azul_Move_1
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 4, Route14_Combate_Azul_Move_2
+waitmovement 0x0
+applymovement 4, Route14_Combate_Azul_Move_3.2
+waitmovement 0x0
+goto Route14_Combate_Azul
+
 Route14_Combate_Azul::
 msgbox Route14_Combate_Azul_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, Route14_Combate_Azul_Move_4
+waitmovement 0x0
 msgbox Route14_Combate_Azul_Texto_2 MSGBOX_AUTOCLOSE
 msgbox Route14_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, Route14_Combate_Azul_Move_4
+waitmovement 0x0
 msgbox Route14_Combate_Azul_Texto_4 MSGBOX_AUTOCLOSE
-msgbox Route14_Combate_Azul_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route14_Combate_Azul_Texto_5 MSGBOX_DEFAULT
+delay 20
 msgbox Route14_Combate_Azul_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, Route14_Combate_Azul_Move_4
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_RIVAL
 msgbox Route14_Combate_Azul_Texto_7 MSGBOX_AUTOCLOSE
-msgbox Route14_Combate_Azul_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_AZUL_2, Route14_Combate_Azul_Texto_8
 msgbox Route14_Combate_Azul_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 4, Route14_Combate_Azul_Move_4
+waitmovement 0x0
 msgbox Route14_Combate_Azul_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
+delay 60
+setflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1
+fadescreen 1
+playse SE_M_FLY
+delay 20
+removeobject 4
+delay 20
+fadescreen 0
+delay 15
+playse SE_PIN
+applymovement 3, Route14_Combate_Azul_Move_2
+waitmovement 0x0
 msgbox Route14_Combate_Azul_Texto_11 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 64
 release
 end
 
@@ -277,6 +338,20 @@ Route14_Combate_Azul_Move_3:
 walk_right
 walk_right
 walk_up
+walk_up
+step_end
+
+Route14_Combate_Azul_Move_3.1:
+walk_right
+walk_up
+walk_up
+step_end
+
+Route14_Combate_Azul_Move_3.2:
+walk_right
+walk_up
+walk_right
+walk_right
 walk_up
 step_end
 

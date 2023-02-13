@@ -10,34 +10,114 @@ RocketHideout8F_2::
 end
 
 RocketHideout_8F_Mision_Articuno_Zapdos::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_1
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_1 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 40
+fadescreen 0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_2
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+addobject 4
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_6
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_7
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_8
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
+delay 15
+playse SE_SHOP
+addmoney 140000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_ITEM
+giveitem ITEM_EVIOLITE
+waitfanfare
+delay 20
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_8
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_9
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_11
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_20 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_21 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_12
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Articuno_Zapdos_Move_10
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_26 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_27 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_9
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_8F_Mision_Articuno_Zapdos_Move_13
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+removeobject 4
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_14
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Articuno_Zapdos_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 3, RocketHideout_8F_Mision_Articuno_Zapdos_Move_13
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+removeobject 3
+setvar VAR_UNUSED_0x40F7, 63
 release
 end
 
@@ -133,7 +213,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_12:
 	.string "información.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_13:
-.string "¡Acabas de facturar 50000 POKÉS!$"
+.string "¡Acabas de facturar 140000 POKÉS!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14:
 .string "GIOVANNI: Además, ten esto, AZUL y\n"
@@ -143,14 +223,19 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_14:
 	.string "este.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15:
-.string "GIOVANNI: Te irá perfecto para\n"
-	.string "poner al mismo nivel a nuevos\l"
-	.string "Pokémon que quieras incluir en tu\l"
-	.string "equipo, el BULBASAUR que acabas de\l"
-	.string "robar sin ir más lejos podrá\l"
-	.string "crecer de una forma mucho más\l"
-	.string "eficiente llevando este objeto.\l"
-	.string "Y ahora...$"
+.string "GIOVANNI: Un MINERAL EVOLUTIVO,\n"
+	.string "quedan poquísimos en esta región.\l"
+	.string "Incrementará en un 50% ambas\l"
+	.string "defensas, en aquellos POKÉMON que aún\l"
+	.string "pueden evolucionar. Con ello tu GOLBAT\l"
+	.string "aguantará de una forma extraordinaria,\l"
+	.string "no solo GOLBAT, MAGMAR, ELECTABUZZ,\l"
+	.string "SCYTHER o RHYDON son algunos de los\l"
+	.string "mejores usuarios de este objeto. Úsalo\l"
+	.string "sabiamente.$"
+
+RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1:
+.string "GIOVANNI: ...$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 .string "GIOVANNI: Las misiones que a\n"
@@ -261,7 +346,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_24:
 	.string "hasta FUCSIA, y posteriormente el\l"
 	.string "mar que lleva a ISLA ESPUMA, pero\l"
 	.string "te servirá como preparación para\l"
-	.string "hacer frente a tal Pokémon, confío\l"
+	.string "hacer frente a tal POKÉMON, confío\l"
 	.string "en tu habilidad como ENTRENADOR\l"
 	.string "para batir a ARTICUNO {PLAYER}.$"
 
@@ -514,7 +599,7 @@ RocketHideout_8F_Mision_Silph_text_10:
 RocketHideout_8F_Mision_Silph_text_11:
 .string "Toma esto también, alguien de tu\n"
 	.string "categoría debe de poder capturar\l"
-	.string "cualquier Pokémon en cualquier\l"
+	.string "cualquier POKÉMON en cualquier\l"
 	.string "momento, ¡50 ULTRABALLS!$"
 
 RocketHideout_8F_Mision_Silph_text_12:
@@ -564,7 +649,7 @@ RocketHideout_8F_Mision_Silph_text_17:
 	.string "tipo más poderoso y sagrado,\l"
 	.string "mostró un talento innato para\l"
 	.string "exprimir al máximo el poder de\l"
-	.string "DRAGONITE, el considerado pokémon\l"
+	.string "DRAGONITE, el considerado POKÉMON\l"
 	.string "no legendario más poderoso, tanto\l"
 	.string "que sobrepasa incluso el poder de\l"
 	.string "las AVES LEGENDARIAS, LANCE se\l"
@@ -664,10 +749,10 @@ RocketHideout_8F_Mision_Silph_text_25:
 	.string "decidimos juntar todos nuestros\l"
 	.string "recursos, con el único afán de ir\l"
 	.string "tras esa leyenda...ese mítico\l"
-	.string "Pokémon llamado MEW, y, junto\l"
+	.string "POKÉMON llamado MEW, y, junto\l"
 	.string "otras mentes brillantes como la de\l"
 	.string "FUJI, amplificar aún más sus\l"
-	.string "poderes, obtener un Pokémon capaz\l"
+	.string "poderes, obtener un POKÉMON capaz\l"
 	.string "de detener a esas bestias y\l"
 	.string "decantar la guerra a nuestro\l"
 	.string "favor.$"
@@ -677,7 +762,7 @@ RocketHideout_8F_Mision_Silph_text_26:
 	.string "fallidas, finalmente pudimos\l"
 	.string "incluso mejorar al legendario MEW,\l"
 	.string "creando a partir de su ADN un\l"
-	.string "Pokémon hecho específicamente para\l"
+	.string "POKÉMON hecho específicamente para\l"
 	.string "el combate, y para ganar la guerra\l"
 	.string "de KANTO.$"
 
@@ -720,7 +805,7 @@ RocketHideout_8F_Mision_Silph_text_31:
 	.string "fue el primero en arrodillarse\l"
 	.string "ante LANCE una vez este se hizo\l"
 	.string "con el poder, le ofreció todos sus\l"
-	.string "conocimientos sobre los Pokémon\l"
+	.string "conocimientos sobre los POKÉMON\l"
 	.string "prometiendo ayudar a su gobierno,\l"
 	.string "el muy cobarde...$"
 
@@ -729,7 +814,7 @@ RocketHideout_8F_Mision_Silph_text_32:
 	.string "peligro para su gobierno, le habló\l"
 	.string "de nuestros planes acerca de\l"
 	.string "MEWTWO, tengo entendido que nunca\l"
-	.string "le llegó a hablar de dicho Pokémon\l"
+	.string "le llegó a hablar de dicho POKÉMON\l"
 	.string "de forma directa, pero sí de mi\l"
 	.string "conspiración contra LANCE.$"
 
@@ -811,7 +896,7 @@ RocketHideout_8F_Mision_Silph_text_39:
 	.string "aparentar ser una organización\l"
 	.string "endeble y torpe, preocupada por\l"
 	.string "temas triviales como el dinero o\l"
-	.string "el robo de Pokémon, nada más lejos\l"
+	.string "el robo de POKÉMON, nada más lejos\l"
 	.string "de la realidad, con ello lo que\l"
 	.string "conseguimos es que LANCE no centre\l"
 	.string "todas sus energías en aplastarnos,\l"
@@ -838,7 +923,7 @@ RocketHideout_8F_Mision_Silph_text_41:
 
 RocketHideout_8F_Mision_Silph_text_42:
 .string "Su MASTER BALL presumiblemente es\n"
-	.string "capaz de atrapar cualquier Pokémon\l"
+	.string "capaz de atrapar cualquier POKÉMON\l"
 	.string "bajo cualquier condición, una POKÉ\l"
 	.string "BALL infalible, el sueño de\l"
 	.string "cualquier entrenador, más aún de\l"
@@ -846,7 +931,7 @@ RocketHideout_8F_Mision_Silph_text_42:
 
 RocketHideout_8F_Mision_Silph_text_43:
 .string "Un objeto como ese sería crucial\n"
-	.string "para recuperar a un Pokémon como\l"
+	.string "para recuperar a un POKÉMON como\l"
 	.string "MEWTWO, más aún cuando LANCE no\l"
 	.string "sabe de su existencia, nosotros\l"
 	.string "tenemos ciertas sospechas de dónde\l"
