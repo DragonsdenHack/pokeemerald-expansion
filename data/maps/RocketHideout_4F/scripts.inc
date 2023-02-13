@@ -2140,13 +2140,13 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18:
 	.string "esto.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_19:
-.string "¡¡OBTUVISTE UN ARTICUNO AL NV:15!!$"
+.string "¡¡OBTUVISTE UN ARTICUNO AL NV.15!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_20:
-.string "¡¡OBTUVISTE UN ZAPDOS AL NV:15!!$"
+.string "¡¡OBTUVISTE UN ZAPDOS AL NV.15!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21:
-.string "¡¡OBTUVISTE UN MOLTRES AL NV:15!!$"
+.string "¡¡OBTUVISTE UN MOLTRES AL NV.15!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22:
 .string "GIOVANNI: Incorporarlos o no en tu\n"

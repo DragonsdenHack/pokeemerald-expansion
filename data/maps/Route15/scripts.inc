@@ -135,26 +135,85 @@ Route15_EventScript_Pareja2::
 	msgbox Route15_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Route15_Koga_Bruno_medio::
+applymovement OBJ_EVENT_ID_PLAYER, Route15_Koga_Bruno_Move_1
+waitmovement 0x0
+goto Route15_Koga_Bruno
+
+Route15_Koga_Bruno_arriba::
+applymovement OBJ_EVENT_ID_PLAYER, Route15_Koga_Bruno_Move_1.1
+waitmovement 0x0
+goto Route15_Koga_Bruno
+
+Route15_Koga_Bruno_abajo::
+applymovement OBJ_EVENT_ID_PLAYER, Route15_Koga_Bruno_Move_1.2
+waitmovement 0x0
+goto Route15_Koga_Bruno
+
 Route15_Koga_Bruno::
 msgbox Route15_Koga_Bruno_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 15, Route15_Koga_Bruno_Move_1
+waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 14, Route15_Koga_Bruno_Move_3
+waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 15, Route15_Koga_Bruno_Move_4
+waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_5 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_6 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_7 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Route15_Koga_Bruno_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 14, Route15_Koga_Bruno_Move_5
+waitmovement 0x0
+delay 20
+msgbox Route15_Koga_Bruno_Texto_9 MSGBOX_DEFAULT
+delay 20
 msgbox Route15_Koga_Bruno_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 15, Route15_Koga_Bruno_Move_6
+waitmovement 0x0
+removeobject 15
 msgbox Route15_Koga_Bruno_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route15_Koga_Bruno_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 14, Route15_Koga_Bruno_Move_7
+waitmovement 0x0
+delay 20
 msgbox Route15_Koga_Bruno_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 14, Route15_Koga_Bruno_Move_8
+waitmovement 0x0
+playfanfare MUS_OBTAIN_ITEM
+giveitem ITEM_BLACK_GLASSES
+waitfanfare
+delay 20
 msgbox Route15_Koga_Bruno_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route15_Koga_Bruno_Texto_9 MSGBOX_DEFAULT
+delay 20
+applymovement 14, Route15_Koga_Bruno_Move_4
+waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 14, Route15_Koga_Bruno_Move_9
+waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_16 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 14, Route15_Koga_Bruno_Move_5
+waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_17 MSGBOX_AUTOCLOSE
 msgbox Route15_Koga_Bruno_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 14, Route15_Koga_Bruno_Move_4
+waitmovement 0x0
 msgbox Route15_Koga_Bruno_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 14, Route15_Koga_Bruno_Move_10
+waitmovement 0x0
+removeobject 14
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
+setvar VAR_UNUSED_0x40F7, 65
 release
 end
 
@@ -325,6 +384,16 @@ Route15_Koga_Bruno_Texto_19:
 .string "KOGA: Confío en ti, {PLAYER}.$"
 
 Route15_Koga_Bruno_Move_1:
+walk_in_place_left
+step_end
+
+Route15_Koga_Bruno_Move_1.1:
+walk_down
+walk_in_place_left
+step_end
+
+Route15_Koga_Bruno_Move_1.2:
+walk_up
 walk_in_place_left
 step_end
 
