@@ -214,15 +214,72 @@ FuchsiaCityDocumento_Text_110:
 	.string "Nombre: CHANSEY\n"
 	.string "Atrapar uno es cuestión de suerte.$"
 
+FuchsiaCity_Encuentro_Koga_Arriba::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_Encuentro_Koga_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+addobject 15
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_2
+waitmovement 0x0
+goto FuchsiaCity_Encuentro_Koga
+
+FuchsiaCity_Encuentro_Koga_Medio::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_Encuentro_Koga_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+addobject 15
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_2.1
+waitmovement 0x0
+goto FuchsiaCity_Encuentro_Koga
+
+FuchsiaCity_Encuentro_Koga_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_Encuentro_Koga_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+addobject 15
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_2.2
+waitmovement 0x0
+goto FuchsiaCity_Encuentro_Koga
+
 FuchsiaCity_Encuentro_Koga::
 msgbox FuchsiaCity_Encuentro_Koga_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_3 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+giveitem ITEM_CONTEST_PASS
+waitfanfare
+delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_3
+waitmovement 0x0
 msgbox FuchsiaCity_Encuentro_Koga_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 15, FuchsiaCity_Encuentro_Koga_Move_4
+waitmovement 0x0
 msgbox FuchsiaCity_Encuentro_Koga_Texto_7 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+fadescreen 1
+delay 20
+removeobject 15
+fadescreen 0
+delay 20
+playse SE_POKENAV_CALL
+delay 30
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Combate_Fantasma_Marowak_Move_1
+delay 20
+playse SE_POKENAV_HANG_UP
 msgbox FuchsiaCity_Encuentro_Koga_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 67
 release
 end
 
@@ -306,6 +363,27 @@ step_end
 FuchsiaCity_Encuentro_Koga_Move_2:
 walk_up
 walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_2.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+step_end
+
+FuchsiaCity_Encuentro_Koga_Move_2.2:
 walk_up
 walk_up
 walk_up

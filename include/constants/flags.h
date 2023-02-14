@@ -750,7 +750,7 @@
 #define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // CLEAR FLAG MISION EEVEES
 #define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA //clear koga b.rocket //clear cazabichos casa pescador
 #define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4 // ANDRA CUARTEL PETREL // clear andra b.rocket //clear guarda casa pescador
-#define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // RECLUTA CELESTE EXCAVAR //SET PATENTE BILL // clear lance b.rocket
+#define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // RECLUTA CELESTE EXCAVAR //SET PATENTE BILL // clear lance b.rocket //clear Lance y polis Silph
 #define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F // clear azul b.rocket// CLEAR AZUL ROCKET HIDEOUT 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel/clear clefairy proton torre 7F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON // clear lance escena 2//clear Oak y Dalia Pueblo paleta
@@ -829,9 +829,9 @@
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // AZUL TORRE PKMN 2F
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311 // LIBRE
-#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // CUBONE TORRE PKMN 5F
-#define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // FUJI TORRE PKMN 5F
-#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // ANDRA BASE PROFUNDA
+#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // CUBONE TORRE PKMN 5F //clear Miguel y Bill Silph
+#define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // FUJI TORRE PKMN 5F//clear Andra y Giovanni Silph
+#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // ANDRA BASE PROFUNDA //clear Atlas Silph
 #define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315 // PROTON ROCKET HIDEOUT 4F
 #define FLAG_HIDE_FANCLUB_BOY                                       0x316 // PETREL CIUDAD PLATEADA
 #define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317 // GORDOS BLOQUEANDO ACCESO BOSQUE VERDE, CMIGUEL, FOSIL Y PETREL MUSEO PLATEADA
@@ -844,8 +844,8 @@
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E // AZUL RUTA 15
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F // BRUNO Y KOGA ENTRADA FUCSIA
 #define FLAG_HIDE_LUGIA                                             0x320
-#define FLAG_HIDE_HO_OH                                             0x321 // LIBRE
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 // LIBRE
+#define FLAG_HIDE_HO_OH                                             0x321 // BRUNO Y POLICIA CAMINO BICIS
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 // MOTEROS CAMINO BICIS
 #define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 // LIBRE
 #define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324 // LIBRE
 #define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325 // LIBRE

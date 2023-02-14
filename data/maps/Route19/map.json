@@ -186,7 +186,87 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 15,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route19_Barrera_Sur"
+    }
   ],
   "bg_events": [
     {

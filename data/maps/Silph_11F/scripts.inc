@@ -1,5 +1,10 @@
 Silph_11F_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Silph_11F_OnFrame
 	.byte 0
+
+Silph_11F_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 67, Silph_11F_Reunion_Presidente_Lance
+	.2byte 0
 
 Silph11F_1::
 end
@@ -620,4 +625,246 @@ step_end
 Silph_11F_Bill_Presidente_Move_26:
 walk_in_place_left
 walk_in_place_down
+step_end
+
+Silph_11F_Reunion_Presidente_Lance::
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+addobject 10
+addobject 11
+addobject 12
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Silph_11F_Reunión_Presidente_Lance_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 1, Silph_11F_Reunión_Presidente_Lance_Move_2
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 10, Silph_11F_Reunión_Presidente_Lance_Move_3
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 10, Silph_11F_Reunión_Presidente_Lance_Move_4
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER
+delay 60
+playse SE_PIN
+applymovement 1, IndigoPlateau_Lance_Discurso_move_6
+applymovement 2, IndigoPlateau_Lance_Discurso_move_6
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, Silph_11F_Reunión_Presidente_Lance_Move_5
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 10, Silph_11F_Reunión_Presidente_Lance_Move_6
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 10, Silph_11F_Reunión_Presidente_Lance_Move_7
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 10, Silph_11F_Reunión_Presidente_Lance_Move_8
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+fadescreen 1
+delay 20
+removeobject 10
+removeobject 11
+removeobject 12
+fadescreen 0
+delay 30
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+addobject 13
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Silph_11F_Reunión_Presidente_Lance_Move_9
+waitmovement 0x0
+special RemoveCameraObject
+delay 20
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 13, Silph_11F_Reunión_Presidente_Lance_Move_10
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 13, Silph_11F_Reunión_Presidente_Lance_Move_11
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 13, Silph_11F_Reunión_Presidente_Lance_Move_12
+waitmovement 0x0
+msgbox Silph_11F_Reunión_Presidente_Lance_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
+setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+setvar VAR_UNUSED_0x40F7, 68
+fadescreen 1
+playse SE_WARP_IN
+delay 60
+removeobject 13
+fadescreen 0
+delay 60
+warpsilent MAP_SEAFOAM_ISLANDS_1F, 6, 19
+release
+end
+
+Silph_11F_Reunión_Presidente_Lance_Texto_1:
+.string "LANCE: ¿Qué le preocupa, PRESIDENTE?\n"
+	.string "Debería ser motivo de orgullo y\l"
+	.string "celebración que LANCE y el GOBIERNO de\l"
+	.string "KANTO depositen su confianza única y\l"
+	.string "exclusivamente en su empresa.$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_2:
+.string "PRESIDENTE: Oh, no me malinterprete,\n"
+	.string "CAMPEÓN LANCE. Nos sentimos honrados\l"
+	.string "por servir de sostén a nuestra querida\l"
+	.string "región, solo que…$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_3:
+.string "LANCE: Entiendo, es usted un acérrimo\n"
+	.string "defensor de los 150 originales. Un\l"
+	.string "consumado especialista en los POKÉMON\l"
+	.string "de KANTO. Y no ve del todo bien que\l"
+	.string "alguien de fuera tome el mando.\l"
+	.string "¿Verdad, PRESIDENTE?$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_4:
+.string "PRESIDENTE: No quería decir…$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_5:
+.string "LANCE: Déjeme recordarle quién está en\n"
+	.string "posesión del POKÉMON insignia de esta\l"
+	.string "región.$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_6:
+.string "¿Confía ahora en mí, PRESIDENTE?$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_7:
+.string "PRESIDENTE: Ha habido un malentendido,\n"
+	.string "me refería más bien al… resto de la\l"
+	.string "población. Mi empresa no tiene ninguna\l"
+	.string "queja pero… si todo el pastel nos lo\l"
+	.string "repartimos usted y yo… ¿qué quedará\l"
+	.string "para el resto?$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_8:
+.string "LANCE: Me temo que esa no es su\n"
+	.string "competencia, PRESIDENTE. Dejemos las\l"
+	.string "cosas claras, usted y yo no entramos\l"
+	.string "en el mismo saco, salvo para este\l"
+	.string "asunto en particular. El destino de\l"
+	.string "KANTO será cosa mía. ¿Ha quedado\l"
+	.string "claro?$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_9:
+.string "PRESIDENTE: … …$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_10:
+.string "LANCE: Ahora, si me disculpa, tengo una\n"
+	.string "reunión con los miembros de la ÉLITE 4.\l"
+	.string "Si cumple mis expectativas, tal vez le\l"
+	.string "dé un puesto allí. He oído que es usted\l"
+	.string "un ENTRENADOR excelente, y AGATHA se\l"
+	.string "jubilará pronto.$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_11:
+.string "Hasta otra, señor PRESIDENTE, y\n"
+	.string "recuerde mis palabras.$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_12:
+.string "ATLAS: … …$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_13:
+.string "DRAGONITE no es el POKÉMON insignia de\n"
+	.string "KANTO.$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_14:
+.string "El POKÉMON insignia de KANTO es y ha\n"
+	.string "sido siempre RHYDON, por eso su figura\l"
+	.string "aparece en todas las estatuas de la\l"
+	.string "región.$"
+
+Silph_11F_Reunión_Presidente_Lance_Texto_15:
+.string "Por eso GIOVANNI lo porta en su equipo.$"
+
+Silph_11F_Reunión_Presidente_Lance_Move_1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_2:
+walk_in_place_down
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_3:
+walk_left
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_4:
+face_up
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_5:
+walk_down
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_6:
+walk_slow_right
+walk_slow_right
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_7:
+walk_slow_left
+walk_in_place_up
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_8:
+walk_slow_left
+walk_slow_down
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_9:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_10:
+face_right
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_11:
+walk_slow_right
+step_end
+
+Silph_11F_Reunión_Presidente_Lance_Move_12:
+walk_slow_up
+walk_slow_right
 step_end

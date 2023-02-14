@@ -131,3 +131,19 @@ Route19_EventScript_Pareja2::
 	trainerbattle_single TRAINER_EDMOND, Route19_Text_Pareja2Intro, Route19_Text_Pareja2Defeated
 	msgbox Route19_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route19_Barrera_Sur::
+compare VAR_UNUSED_0x40F7, 66
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_1
+waitmovement 0x0
+msgbox Route19_Barrera_Sur_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_2
+waitmovement 0x0
+release
+end
+
+Route19_Barrera_Sur_Texto_1:
+.string "(Debería ayudar a KOGA y\n"
+	.string "después buscarle por las afueras\l"
+	.string "de FUCSIA).$"

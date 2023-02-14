@@ -187,7 +187,7 @@ delay 20
 msgbox Route15_Koga_Bruno_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 14, Route15_Koga_Bruno_Move_8
 waitmovement 0x0
-playfanfare MUS_OBTAIN_ITEM
+playfanfare MUS_OBTAIN_TMHM
 giveitem ITEM_BLACK_GLASSES
 waitfanfare
 delay 20
