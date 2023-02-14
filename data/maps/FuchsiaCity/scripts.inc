@@ -250,9 +250,9 @@ delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_3 MSGBOX_AUTOCLOSE
-playfanfare MUS_RG_OBTAIN_KEY_ITEM
+playse MUS_RG_OBTAIN_KEY_ITEM
 giveitem ITEM_CONTEST_PASS
-waitfanfare
+waitse
 delay 20
 msgbox FuchsiaCity_Encuentro_Koga_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
