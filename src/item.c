@@ -17,6 +17,7 @@
 #include "battle_pyramid_bag.h"
 #include "constants/items.h"
 #include "constants/hold_effects.h"
+#include "constants/vars.h"
 
 extern u16 gUnknown_0203CF30[];
 
@@ -188,6 +189,11 @@ bool8 CheckBagHasItem(u16 itemId, u16 count)
         }
     }
     return FALSE;
+}
+
+void ItemId_GetHoldEffectParam_Script(void)
+{
+    VarSet(VAR_RESULT, ItemId_GetHoldEffectParam(VarGet(VAR_0x8004)));
 }
 
 bool8 HasAtLeastOneBerry(void)
