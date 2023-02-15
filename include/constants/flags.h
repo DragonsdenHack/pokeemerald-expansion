@@ -832,7 +832,7 @@
 #define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // CUBONE TORRE PKMN 5F //clear Miguel y Bill Silph
 #define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // FUJI TORRE PKMN 5F//clear Andra y Giovanni Silph
 #define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // ANDRA BASE PROFUNDA //clear Atlas Silph
-#define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315 // PROTON ROCKET HIDEOUT 4F
+#define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315 // PROTON ROCKET HIDEOUT 4F //clear surge power plant
 #define FLAG_HIDE_FANCLUB_BOY                                       0x316 // PETREL CIUDAD PLATEADA
 #define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317 // GORDOS BLOQUEANDO ACCESO BOSQUE VERDE, CMIGUEL, FOSIL Y PETREL MUSEO PLATEADA
 #define FLAG_HIDE_FANCLUB_LADY                                      0x318 // ENTRENADORES GUAY BOSQUE VERDE
@@ -846,8 +846,8 @@
 #define FLAG_HIDE_LUGIA                                             0x320
 #define FLAG_HIDE_HO_OH                                             0x321 // BRUNO Y POLICIA CAMINO BICIS
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 // MOTEROS CAMINO BICIS
-#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 // LIBRE
-#define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324 // LIBRE
+#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 // PETREL POWER PLANT
+#define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324 // POLICIA ANDRA ATLAS LORELEI POWERPLANT
 #define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325 // LIBRE
 #define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326 // LIBRE
 #define FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND                   0x327 // LIBRE

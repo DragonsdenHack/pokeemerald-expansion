@@ -57,12 +57,32 @@ end
 
 
 PowerPlant13::
+lock
+msgbox PowerPlant13_Texto_1 MSGBOX_SIGN
+release
 end
+
+PowerPlant13_Texto_1:
+.string "Ya estás al límite chiquilla,\n"
+	.string "cuando el LT.SURGE llegue no le\l"
+	.string "tomará más de un POKÉMON\l"
+	.string "rematarte...$"
 
 
 
 PowerPlant14::
+lock
+msgbox PowerPlant14_Texto_1 MSGBOX_SIGN
+release
 end
+
+PowerPlant14_Texto_1:
+.string "¿{PLAYER}?\n"
+	.string "Al fin...\l"
+	.string "Ya he derrotado a 7 POLICÍAS que\l"
+	.string "han huido para avisar al LT.SURGE...\l"
+	.string "Date prisa...\l"
+	.string "Mi equipo no aguantará mucho más...$"
 
 
 
@@ -72,17 +92,45 @@ end
 
 
 PowerPlant16::
+lock
+msgbox PowerPlant16_Texto_1 MSGBOX_SIGN
+release
 end
+
+PowerPlant16_Texto_1:
+.string "PETREL: Ocúpate de ZAPDOS {PLAYER},\n"
+	.string "¡rápido!$"
 
 
 
 PowerPlant17::
+lock
+msgbox PowerPlant17_Texto_1 MSGBOX_SIGN
+release
 end
+
+PowerPlant17_Texto_1:
+.string "LORELEI: Entonces tú eres la mano\n"
+	.string "derecha de GIOVANNI, tengo órdenes\l"
+	.string "de LANCE de usar el 100% de mi\l"
+	.string "capacidad en derrotarte, nadie\l"
+	.string "saldrá de aquí sin mi\l"
+	.string "consentimiento...$"
 
 
 
 PowerPlant18::
+lock
+msgbox PowerPlant18_Texto_1 MSGBOX_SIGN
+release
 end
+
+PowerPlant18_Texto_1:
+.string "ATLAS: No soy uno de esos\n"
+	.string "mediocres ENTRENADORES que abundan\l"
+	.string "por aquí LORELEI, tampoco un LÍDER\l"
+	.string "DE GIMNASIO, vas a tener que\l"
+	.string "hacerlo mejor si quieres batirme...$"
 
 
 
@@ -130,9 +178,23 @@ PowerPlant_EventScript_Policia5::
 	end
 
 PowerPlant_Encuentro_Petrel::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, PowerPlant_Encuentro_Petrel_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 20, PowerPlant_Encuentro_Petrel_Move_2
+waitmovement 0x0
 msgbox PowerPlant_Encuentro_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 20, PowerPlant_Encuentro_Petrel_Move_3
+waitmovement 0x0
 msgbox PowerPlant_Encuentro_Petrel_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PowerPlant_Encuentro_Petrel_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 20, PowerPlant_Encuentro_Petrel_Move_4
+waitmovement 0x0
+setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+removeobject 20
+setvar VAR_UNUSED_0x40F7, 70
 release
 end
 
@@ -149,7 +211,7 @@ PowerPlant_Encuentro_Petrel_Texto_1:
 	.string "plan...$"
 
 PowerPlant_Encuentro_Petrel_Texto_2:
-.string "PETREL: Atlas ahora mismo está\n"
+.string "PETREL: ATLAS ahora mismo está\n"
 	.string "lidiando con LORELEI, y yo voy a\l"
 	.string "quitarle de encima esos\l"
 	.string "policías a ANDRA, tú mientras\l"
@@ -195,23 +257,80 @@ walk_right
 step_end
 
 PowerPlant_Combate_Zapdos_Surge::
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_1 MSGBOX_AUTOCLOSE
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_2 MSGBOX_AUTOCLOSE
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_3 MSGBOX_AUTOCLOSE
+lock
+compare VAR_UNUSED_0x40F7, 70
+goto_if_gt SeafoamIslands_5F_Combate_Articuno_Derrotado
+playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_1 MSGBOX_DEFAULT
+waitmoncry
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+trainerbattle_no_intro TRAINER_ZAPDOS, PowerPlant_Combate_Zapdos_Surge_Texto_2
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox PowerPlant_Combate_Zapdos_Surge_Texto_3 MSGBOX_DEFAULT
+waitse
+clearflag FLAG_HIDE_FANCLUB_OLD_LADY
+addobject 11
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PowerPlant_Combate_Zapdos_Surge_Move_1
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_2
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_3
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_6 MSGBOX_AUTOCLOSE
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_7 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
+trainerbattle_no_intro TRAINER_SURGE_1, PowerPlant_Combate_Zapdos_Surge_Texto_7
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_8 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_1
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_5
+waitmovement 0x0
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_6
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_10 MSGBOX_AUTOCLOSE
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_7
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 11, PowerPlant_Combate_Zapdos_Surge_Move_8
+waitmovement 0x0
+removeobject 11
+playse SE_EXIT
+delay 15
+applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_9
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_10
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_11
+waitmovement 0x0
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 17, PowerPlant_Combate_Zapdos_Surge_Move_4
+waitmovement 0x0
+delay 20
 msgbox PowerPlant_Combate_Zapdos_Surge_Texto_16 MSGBOX_AUTOCLOSE
-msgbox PowerPlant_Combate_Zapdos_Surge_Texto_17 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_MAUVILLE_CITY_WALLY
+fadescreen 1 
+delay 20
+removeobject 17
+removeobject 16
+removeobject 21
+removeobject 14
+removeobject 13
+removeobject 12
+removeobject 10
+removeobject 15
+removeobject 7
+removeobject 6
+removeobject 2
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 71
 release
 end
 
