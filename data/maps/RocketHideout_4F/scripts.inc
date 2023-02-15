@@ -728,7 +728,7 @@ applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavand
 waitmovement 0x0
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6.1, MSGBOX_DEFAULT
-givemon SPECIES_KABUTO, 28, ITEM_MYSTIC_WATER
+givemon SPECIES_KABUTO, 28, ITEM_HARD_STONE
 waitfanfare
 applymovement 10, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_5
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_6

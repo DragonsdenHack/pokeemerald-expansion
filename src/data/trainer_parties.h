@@ -18990,24 +18990,31 @@ static const struct TrainerMonItemCustomMoves sParty_Aquiles2[] = {
 static const struct TrainerMonItemCustomMoves sParty_Presidentesilph[] = {
     {
     .iv = 0,
+    .lvl = 43,
+    .species = SPECIES_DODRIO,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_DRILL_PECK, MOVE_KNOCK_OFF, MOVE_STOMPING_TANTRUM, MOVE_REFLECT}
+    },
+    {
+    .iv = 0,
     .lvl = 44,
     .species = SPECIES_RAPIDASH,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_DRILL_RUN, MOVE_WILD_CHARGE, MOVE_BODY_SLAM, MOVE_FLAMETHROWER}
+    .moves = {MOVE_DRILL_RUN, MOVE_WILD_CHARGE, MOVE_FLAMETHROWER, MOVE_MEGAHORN}
     },
     {
     .iv = 0,
     .lvl = 45,
     .species = SPECIES_RHYDON,
     .heldItem = ITEM_FOCUS_SASH,
-    .moves = {MOVE_ROCK_BLAST, MOVE_DRILL_RUN, MOVE_FIRE_PUNCH, MOVE_MEGAHORN}
+    .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_BLAST, MOVE_MEGAHORN, MOVE_ROCK_WRECKER}
     },
     {
     .iv = 0,
     .lvl = 46,
     .species = SPECIES_VENUSAUR,
     .heldItem = ITEM_BLACK_SLUDGE,
-    .moves = {MOVE_GIGA_DRAIN, MOVE_EARTH_POWER, MOVE_SLUDGE_BOMB, MOVE_FRENZY_PLANT}
+    .moves = {MOVE_GIGA_DRAIN, MOVE_EARTHQUAKE, MOVE_SLUDGE_BOMB, MOVE_FRENZY_PLANT}
     }
 };
 

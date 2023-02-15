@@ -308,23 +308,87 @@ SaffronCityDocumento_Text_108:
 	.string "rendimiento y fidelidad hacia\l"
 	.string "SILPH$"
 
+SaffronCity_Combate_Andra_Izq_Arriba::
+applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_Combate_Andra_Move_1
+waitmovement 0x0
+goto SaffronCity_Combate_Andra
+
+SaffronCity_Combate_Andra_Izq_Centro::
+applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_Combate_Andra_Move_1.1
+waitmovement 0x0
+goto SaffronCity_Combate_Andra
+
+SaffronCity_Combate_Andra_Izq_Abajo::
+applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_Combate_Andra_Move_1.2
+waitmovement 0x0
+goto SaffronCity_Combate_Andra
+
+SaffronCity_Combate_Andra_Der_Arriba::
+applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_Combate_Andra_Move_1.3
+waitmovement 0x0
+goto SaffronCity_Combate_Andra
+
+SaffronCity_Combate_Andra_Der_Centro::
+applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_Combate_Andra_Move_1.4
+waitmovement 0x0
+goto SaffronCity_Combate_Andra
+
+SaffronCity_Combate_Andra_Der_Abajo::
+applymovement OBJ_EVENT_ID_PLAYER, SaffronCity_Combate_Andra_Move_1.5
+waitmovement 0x0
+goto SaffronCity_Combate_Andra
+
 SaffronCity_Combate_Andra::
+playse SE_PIN
+applymovement 15, SaffronCity_Combate_Andra_Move_2
+applymovement 18, SaffronCity_Combate_Andra_Move_2
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
 msgbox SaffronCity_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_3
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 18, SaffronCity_Combate_Andra_Move_4
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
 msgbox SaffronCity_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_5
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
 msgbox SaffronCity_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 18, SaffronCity_Combate_Andra_Move_6
+waitmovement 0x0
+setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
+removeobject 18
+playse SE_SLIDING_DOOR
+delay 20
+applymovement 15, SaffronCity_Combate_Andra_Move_7
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_4
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_8
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_6
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_8
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
 msgbox SaffronCity_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_9
+waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_14 MSGBOX_AUTOCLOSE
-msgbox SaffronCity_Combate_Andra_Texto_15 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_5, SaffronCity_Combate_Andra_Texto_15
 msgbox SaffronCity_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 15, SaffronCity_Combate_Andra_Move_6
+waitmovement 0x0
+removeobject 15
+playse SE_SLIDING_DOOR
+setvar VAR_UNUSED_0x40F7, 73
 release
 end
 
@@ -336,13 +400,13 @@ SaffronCity_Combate_Andra_Texto_1:
 SaffronCity_Combate_Andra_Texto_2:
 .string "Por lo que hemos podido averiguar,\n"
 	.string "el PRESIDENTE se encuentra en el\l"
-	.string "despacho del décimo piso,\l"
+	.string "despacho del 11F,\l"
 	.string "protegido por su guardia personal,\l"
 	.string "siendo además imposible acceder\l"
 	.string "únicamente subiendo por el\l"
 	.string "ascensor, hemos de usar las\l"
-	.string "baldosas de teletransporte, y no\l"
-	.string "sólo eso, sólo podremos entrar en\l"
+	.string "baldosas de teletransporte. Y aún\l"
+	.string "más, solo podremos entrar en\l"
 	.string "su despacho si obtenemos la LLAVE\l"
 	.string "MAGNÉTICA necesaria para abrir su\l"
 	.string "puerta.$"
@@ -353,7 +417,7 @@ SaffronCity_Combate_Andra_Texto_3:
 	.string "¿alguna idea de dónde puede estar?$"
 
 SaffronCity_Combate_Andra_Texto_4:
-.string "PETREL: Un objeto así sólo debe de\n"
+.string "PETREL: Un objeto así solo debe de\n"
 	.string "estar al acceso de miembros\l"
 	.string "importantes dentro de la empresa,\l"
 	.string "no nos quedará otra que registrar\l"
@@ -461,6 +525,50 @@ walk_right
 face_up
 step_end
 
+SaffronCity_Combate_Andra_Move_1.1:
+walk_right
+walk_right
+walk_up
+walk_right
+face_up
+step_end
+
+SaffronCity_Combate_Andra_Move_1.2:
+walk_right
+walk_right
+walk_up
+walk_up
+walk_right
+face_up
+step_end
+
+SaffronCity_Combate_Andra_Move_1.3:
+walk_left
+walk_left
+walk_left
+walk_left
+face_up
+step_end
+
+SaffronCity_Combate_Andra_Move_1.4:
+walk_left
+walk_left
+walk_left
+walk_up
+walk_left
+face_up
+step_end
+
+SaffronCity_Combate_Andra_Move_1.5:
+walk_left
+walk_left
+walk_up
+walk_left
+walk_up
+walk_left
+face_up
+step_end
+
 SaffronCity_Combate_Andra_Move_2:
 emote_exclamation_mark
 walk_in_place_down
@@ -495,3 +603,186 @@ step_end
 SaffronCity_Combate_Andra_Move_9:
 walk_in_place_down
 step_end
+
+SaffronCity_Secundaria_Motorista::
+compare VAR_ROUTE133_STATE, 2
+goto_if_eq SaffronCity_Secundaria_Motorista_3
+compare VAR_ROUTE133_STATE, 1
+goto_if_eq SaffronCity_Secundaria_Motorista_2
+msgbox SaffronCity_Secundaria_Motorista_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox SaffronCity_Secundaria_Motorista_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 17, SaffronCity_Secundaria_Motorista_Move_1
+waitmovement 0x0
+applymovement 17, SaffronCity_Secundaria_Motorista_Move_3
+waitmovement 0x0
+msgbox SaffronCity_Secundaria_Motorista_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SaffronCity_Secundaria_Motorista_Texto_9 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SaffronCity_Secundaria_Motorista_No
+msgbox SaffronCity_Secundaria_Motorista_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 17, SaffronCity_Secundaria_Motorista_Move_2
+waitmovement 0x0
+msgbox SaffronCity_Secundaria_Motorista_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 17, SaffronCity_Secundaria_Motorista_Move_3
+waitmovement 0x0
+msgbox SaffronCity_Secundaria_Motorista_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE133_STATE, 1
+release
+end
+
+SaffronCity_Secundaria_Motorista_2::
+lock
+faceplayer
+msgbox SaffronCity_Secundaria_Motorista_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+SaffronCity_Secundaria_Motorista_3::
+delay 20
+msgbox SaffronCity_Secundaria_Motorista_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 17, SaffronCity_Secundaria_Motorista_Move_1
+waitmovement 0x0
+applymovement 17, SaffronCity_Secundaria_Motorista_Move_3
+waitmovement 0x0
+msgbox SaffronCity_Secundaria_Motorista_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+msgbox SaffronCity_Secundaria_Motorista_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_OBTAIN_TMHM
+msgbox SaffronCity_Secundaria_Motorista_Texto_6 MSGBOX_DEFAULT
+givemon SPECIES_HITMONCHAN, 37, ITEM_MUSCLE_BAND
+waitfanfare
+msgbox SaffronCity_Secundaria_Motorista_Texto_7 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM
+fadescreen 1
+delay 20
+removeobject 17
+fadescreen 0
+release
+end
+
+
+SaffronCity_Secundaria_Motorista_No::
+msgbox SaffronCity_Secundaria_Motorista_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+SaffronCity_Secundaria_Motorista_Move_1:
+emote_exclamation_mark
+step_end
+
+SaffronCity_Secundaria_Motorista_Move_2:
+walk_in_place_right
+step_end
+
+SaffronCity_Secundaria_Motorista_Move_3:
+face_player
+step_end
+
+SaffronCity_Secundaria_Motorista_Texto_1:
+.string "Ese vegestorio...\n"
+	.string "Va lograr que todo KANTO odie a\l"
+	.string "los MOTORISTAS...$"
+
+SaffronCity_Secundaria_Motorista_Texto_2:
+.string "...\n"
+	.string "...$"
+
+SaffronCity_Secundaria_Motorista_Texto_3:
+.string "¡EJECUTIVO ROCKET {PLAYER}!\n"
+	.string "¿No te has enterado?\l"
+	.string "¡Quieren quitar los SUBTERRÁNEOS\l"
+	.string "como punto de conexión entre\l"
+	.string "CELESTE y CARMÍN, también entre\l"
+	.string "AZULONA y LAVANDA!\l"
+	.string "¡Lo peor es que van a echarnos la\l"
+	.string "culpa a nosotros, los MOTORISTAS,\l"
+	.string "por causar supuestos disturbios\l"
+	.string "allí!\l"
+	.string "¡Y todo lo que quieren es que la\l"
+	.string "gente pase por CIUDAD AZAFRÁN,\l"
+	.string "justo donde estará la nueva\l"
+	.string "empresa que van a crear, a costa\l"
+	.string "de nuestra reputación!$"
+
+SaffronCity_Secundaria_Motorista_Texto_4:
+.string "¡Guau!\n"
+	.string "¡Eres increíble {PLAYER}!\l"
+	.string "Entonces ha abandonado por el\l"
+	.string "momento su idea de quitar las VÍAS\l"
+	.string "SUBTERRÁNEAS!\l"
+	.string "¡Espera a ver cuando se lo cuente\l"
+	.string "a los demás!$"
+
+SaffronCity_Secundaria_Motorista_Texto_5:
+.string "Ahora entiendo el porqué de tu\n"
+	.string "fama como ENTRENADOR excepcional,\l"
+	.string "aquí tienes el POKÉMON del que te\l"
+	.string "hablé.$"
+
+SaffronCity_Secundaria_Motorista_Texto_6:
+.string "¡¡OBTUVISTE UN HITMONCHAN AL\n"
+	.string "NV.37!!$"
+
+SaffronCity_Secundaria_Motorista_Texto_7:
+.string "Lo cierto es que fue un regalo de\n"
+	.string "mi amigo el MAESTRO KÁRATE, pero\l"
+	.string "un MOTORISTA como yo no pinta nada\l"
+	.string "con un POKÉMON como HITMONCHAN,\l"
+	.string "espero que tú sepas usarlo mejor.\l"
+	.string "Ahora si me voy {PLAYER}, sabes que\l"
+	.string "el TEAM ROCKET siempre contará con\l"
+	.string "nuestro apoyo.$"
+
+SaffronCity_Secundaria_Motorista_Texto_8:
+.string "¿Cómo va la misión?\n"
+	.string "Recuerda, la persona que buscas\l"
+	.string "suele pasar horas en el MUSEO DE\l"
+	.string "CIUDAD PLATEADA, allí deberías de\l"
+	.string "poder encontrarlo.$"
+
+SaffronCity_Secundaria_Motorista_Texto_9:
+.string "Solo alguien de tu poder e\n"
+	.string "influencia puede poner en su lugar\l"
+	.string "al empresario que está detrás de\l"
+	.string "todo esto.\l"
+	.string "Si nos ayudas con este problema,\l"
+	.string "te daré un fuerte y raro POKÉMON.\l"
+	.string "¿Qué dices?$"
+
+SaffronCity_Secundaria_Motorista_Texto_10:
+.string "¡Sabía que no nos fallarías!\n"
+	.string "¡Ese es el espíritu de cooperación\l"
+	.string "entre compatriotas!\l"
+	.string "¡Escucha {PLAYER}!\l"
+	.string "El hombre responsable de todo esto\l"
+	.string "es un aficionado a los FÓSILES, y\l"
+	.string "pasa horas en el MUSEO DE CIUDAD\l"
+	.string "PLATEADA.$"
+
+SaffronCity_Secundaria_Motorista_Texto_11:
+.string "En realidad es el dueño de una\n"
+	.string "empresa ferroviaria, que quiere\l"
+	.string "conectar JOHTO con KANTO, pero\l"
+	.string "cree que las VÍAS SUBTERRÁNEAS de\l"
+	.string "la región afectarían a su negocio\l"
+	.string "de seguir activas, es por ello por\l"
+	.string "lo que quiere deshacerse de ellas\l"
+	.string "alegando cualquier motivo.$"
+
+SaffronCity_Secundaria_Motorista_Texto_12:
+.string "Si alguien como tú le deja claro\n"
+	.string "como funcionan aquí las cosas,\l"
+	.string "mantendremos las VÍAS SUBTERRÁNEAS\l"
+	.string "y nuestra reputación, confiamos en\l"
+	.string "ti {PLAYER}.$"
+
+SaffronCity_Secundaria_Motorista_Texto_13:
+.string "Vaya, lo entiendo camarada, debes\n"
+	.string "de estar ya muy solicitado por\l"
+	.string "GIOVANNI.$"

@@ -125,6 +125,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "62",
       "script": "RocketHideout_8F_Mision_Articuno_Zapdos"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "71",
+      "script": "RocketHideout_8F_Mision_Silph"
     }
   ],
   "bg_events": [

@@ -107,7 +107,7 @@
   "warp_events": [
     {
       "x": 17,
-      "y": 7,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_PEWTER_CITY_MUSEUM_1F",
       "dest_warp_id": 1

@@ -479,21 +479,66 @@ walk_right
 step_end
 
 RocketHideout_8F_Mision_Silph::
+lock
+clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+addobject 3
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move1
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_1 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move2
+waitmovement 0x0
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox RocketHideout_8F_Mision_Silph_text_2 MSGBOX_DEFAULT
+waitse
 msgbox RocketHideout_8F_Mision_Silph_text_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_move3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_move4
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_5 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_6 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move5
+applymovement 3, RocketHideout_8F_Mision_Silph_move5
+waitmovement 0x0
+playfanfare MUS_OBTAIN_SYMBOL
+msgbox RocketHideout_8F_Mision_Silph_text_6 MSGBOX_DEFAULT
+waitfanfare
+delay 30
+applymovement 1, RocketHideout_8F_Mision_Silph_move3
+waitmovement 0x0
+playse SE_SHOP
+msgbox RocketHideout_8F_Mision_Silph_text_7 MSGBOX_DEFAULT
+waitse
+applymovement 1, RocketHideout_8F_Mision_Silph_move4
+waitmovement 0x0
+showmoneybox 0, 0
 msgbox RocketHideout_8F_Mision_Silph_text_8 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Silph_text_9 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_10 MSGBOX_AUTOCLOSE
+playse SE_SHOP
+addmoney 500000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketHideout_8F_Mision_Silph_text_10 MSGBOX_DEFAULT
+waitfanfare
+hidemoneybox
+delay 40
 msgbox RocketHideout_8F_Mision_Silph_text_11 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_ITEM
+giveitem ITEM_ULTRA_BALL, 50
+waitfanfare
+delay 10
 msgbox RocketHideout_8F_Mision_Silph_text_12 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_13 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_8F_Mision_Silph_text_13 MSGBOX_DEFAULT
+givemon SPECIES_AERODACTYL, 35, ITEM_SHARP_BEAK
+waitfanfare
+delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_14 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_15 MSGBOX_AUTOCLOSE
+playse MUS_CAVE_OF_ORIGIN
 msgbox RocketHideout_8F_Mision_Silph_text_16 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Silph_text_17 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Silph_text_18 MSGBOX_AUTOCLOSE
@@ -532,8 +577,25 @@ msgbox RocketHideout_8F_Mision_Silph_text_50 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Silph_text_51 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Silph_text_52 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Silph_text_53 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move10
+waitmovement 0x0
+applymovement 2, RocketHideout_8F_Mision_Silph_move11
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+removeobject 2
+playse SE_EXIT
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move12
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_54 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Silph_text_55 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move12
+applymovement 3, RocketHideout_8F_Mision_Silph_move13
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+removeobject 3
+setvar VAR_UNUSED_0x40F7, 72
+setvar VAR_UNUSED_0x40FD, 1
 release
 end
 
@@ -548,7 +610,7 @@ RocketHideout_8F_Mision_Silph_text_2:
 RocketHideout_8F_Mision_Silph_text_3:
 .string "GIOVANNI: ¡Qué extraordinario\n"
 	.string "trabajo has hecho {PLAYER}!\l"
-	.string "¡No sólo has cumplido tu misión\l"
+	.string "¡No solo has cumplido tu misión\l"
 	.string "con ARTICUNO, también te has\l"
 	.string "ocupado de ZAPDOS!\l"
 	.string "KOGA también me ha informado de\l"
@@ -611,7 +673,7 @@ RocketHideout_8F_Mision_Silph_text_12:
 
 RocketHideout_8F_Mision_Silph_text_13:
 .string "¡HAS RECIBIDO UN AERODACTYL AL\n"
-	.string "NV:30!$"
+	.string "NV:35!$"
 
 RocketHideout_8F_Mision_Silph_text_14:
 .string "GIOVANNI: ...$"
@@ -640,7 +702,7 @@ RocketHideout_8F_Mision_Silph_text_17:
 	.string "conflicto no fue otro que LANCE,\l"
 	.string "nieto del anciano maestro dragón\l"
 	.string "de CIUDAD ENDRINO, no cabe duda\l"
-	.string "que era un excepcional entrenador,\l"
+	.string "que era un excepcional ENTRENADOR,\l"
 	.string "como no podía ser menos, al ser\l"
 	.string "descendiente directo de la estirpe\l"
 	.string "de domadragones más prestigiosa,\l"
@@ -650,10 +712,10 @@ RocketHideout_8F_Mision_Silph_text_17:
 	.string "mostró un talento innato para\l"
 	.string "exprimir al máximo el poder de\l"
 	.string "DRAGONITE, el considerado POKÉMON\l"
-	.string "no legendario más poderoso, tanto\l"
+	.string "NO LEGENDARIO más poderoso, tanto\l"
 	.string "que sobrepasa incluso el poder de\l"
-	.string "las AVES LEGENDARIAS, LANCE se\l"
-	.string "convirtió en un entrenador de\l"
+	.string "las AVES LEGENDARIAS. LANCE se\l"
+	.string "convirtió en un ENTRENADOR de\l"
 	.string "temer, contando con 3 de estos\l"
 	.string "sagrados dragones en su equipo, no\l"
 	.string "tardó en hacerse con el poder en\l"
@@ -729,7 +791,7 @@ RocketHideout_8F_Mision_Silph_text_23:
 	.string "innumerables vidas, siendo\l"
 	.string "imposibles de atrapar, además de\l"
 	.string "batir en un combate para un\l"
-	.string "entrenador que no fuéramos yo o\l"
+	.string "ENTRENADOR que no fuéramos yo o\l"
 	.string "OAK, LANCE había conseguido que el\l"
 	.string "caos y la muerte se apoderase de\l"
 	.string "KANTO.$"
@@ -926,7 +988,7 @@ RocketHideout_8F_Mision_Silph_text_42:
 	.string "capaz de atrapar cualquier POKÉMON\l"
 	.string "bajo cualquier condición, una POKÉ\l"
 	.string "BALL infalible, el sueño de\l"
-	.string "cualquier entrenador, más aún de\l"
+	.string "cualquier ENTRENADOR, más aún de\l"
 	.string "cualquier coleccionista$"
 
 RocketHideout_8F_Mision_Silph_text_43:
@@ -979,7 +1041,7 @@ RocketHideout_8F_Mision_Silph_text_46:
 	.string "deberéis de contener a la\l"
 	.string "seguridad que quiera acceder al\l"
 	.string "despacho del PRESIDENTE, y a\l"
-	.string "cualquier entrenador que trate de\l"
+	.string "cualquier ENTRENADOR que trate de\l"
 	.string "pasar, mi conversación en ese\l"
 	.string "momento con el PRESIDENTE debe de\l"
 	.string "ser totalmente confidencial, ¿ha\l"
@@ -1006,7 +1068,7 @@ RocketHideout_8F_Mision_Silph_text_49:
 .string "Si todo sigue lo planeado, ese\n"
 	.string "entrometido de ROJO hará acto de\l"
 	.string "presencia, nada mejor que fingir\l"
-	.string "una derrota ante ese entrenador\l"
+	.string "una derrota ante ese ENTRENADOR\l"
 	.string "sin personalidad, vacío de\l"
 	.string "propósito, siendo ROJO el rival,\l"
 	.string "podré perder y acto seguido irme\l"
@@ -1254,7 +1316,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_10:
 	.string "respeto, sino por la imposibilidad\l"
 	.string "de su obtención por medios\l"
 	.string "legales, entendiendo entonces que\l"
-	.string "cualquier entrenador en posesión\l"
+	.string "cualquier ENTRENADOR en posesión\l"
 	.string "de estos LEGENDARIOS habrá\l"
 	.string "incurrido en prácticas ilegales\l"
 	.string "que de ningún modo aprobamos-$"
@@ -1945,7 +2007,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5:
 	.string "mi, no cabe duda de que hay\l"
 	.string "muchísimas cosas que aún\l"
 	.string "desconocemos, dices que ese\l"
-	.string "entrenador contaba con MEW en su\l"
+	.string "ENTRENADOR contaba con MEW en su\l"
 	.string "poder, desaparecido desde la\l"
 	.string "creación de MEWTWO, y aún así\l"
 	.string "decía estar usando el 50% de su\l"
