@@ -59,22 +59,96 @@ CinnabarIslandLaboratory1Documento_Text_103:
 	.string "Sala de pruebas$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee::
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_1 MSGBOX_NPC
+compare VAR_ROUTE127_STATE, 2
+goto_if_eq CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_3
+compare VAR_ROUTE127_STATE, 1
+goto_if_eq CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_2
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_2 MSGBOX_NPC
+delay 20
+playse SE_PIN
+applymovement 2, CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_1
+waitmovement 0x0
+applymovement 2, CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_3
+waitmovement 0x0
 msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_3 MSGBOX_NPC
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_4 MSGBOX_NPC
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_5 MSGBOX_NPC
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_6 MSGBOX_NPC
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_7 MSGBOX_NPC
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_8 MSGBOX_NPC
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_9 MSGBOX_NPC
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10 MSGBOX_NPC
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_No
 msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11 MSGBOX_NPC
+applymovement 2, CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_2
+waitmovement 0x0
 msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_12 MSGBOX_NPC
+applymovement 2, CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_3
+waitmovement 0x0
 msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_13 MSGBOX_NPC
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_4
+setvar VAR_ROUTE127_STATE, 1
+release
+end
+
+CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_3::
+lock
+faceplayer
+delay 20
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_2 MSGBOX_NPC
+delay 20
+playse SE_PIN
+applymovement 2, CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_1
+waitmovement 0x0
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_4 MSGBOX_DEFAULT
+waitse
+playse SE_PIN
+applymovement 2, CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_1
+waitmovement 0x0
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_5 MSGBOX_NPC
+delay 20
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_6 MSGBOX_NPC
+delay 10
+playfanfare MUS_OBTAIN_TMHM
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_7 MSGBOX_NPC
+givemon SPECIES_EEVEE, 25, ITEM_MOON_STONE
+givemon SPECIES_EEVEE, 25, ITEM_THUNDER_STONE
+givemon SPECIES_EEVEE, 25, ITEM_FIRE_STONE
+givemon SPECIES_EEVEE, 25, ITEM_WATER_STONE
+givemon SPECIES_EEVEE, 25, ITEM_SUN_STONE
+waitfanfare
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_8 MSGBOX_NPC
+setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
+fadescreen 1
+delay 20
+removeobject 2
+fadescreen 0
+release
+end
+
+
+CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_2::
+lock
+faceplayer
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_9 MSGBOX_NPC
+release
+end
+
+
+CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_No::
 msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_14 MSGBOX_NPC
 release
 end
+
+CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_1:
+emote_exclamation_mark
+step_end
+
+CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_2:
+walk_in_place_up
+step_end
+
+CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Move_3:
+face_player
+step_end
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_1:
 .string "No puede ser...\n"
@@ -148,7 +222,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10:
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11:
 .string "¡Siempre dispuesto a todo!\n"
 	.string "¡Esa es la actitud!\l"
-	.string "¡Te cuento ADMIN. {PLAYER}!\l"
+	.string "¡Te cuento EJECUTIVO {PLAYER}!\l"
 	.string "Yo y mi compañero de trabajo\l"
 	.string "recibimos ejemplares de EEVEE de\l"
 	.string "forma masiva por parte de SILPH,\l"
