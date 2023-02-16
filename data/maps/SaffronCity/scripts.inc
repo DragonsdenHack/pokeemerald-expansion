@@ -786,3 +786,38 @@ SaffronCity_Secundaria_Motorista_Texto_13:
 .string "Vaya, lo entiendo camarada, debes\n"
 	.string "de estar ya muy solicitado por\l"
 	.string "GIOVANNI.$"
+
+
+Silph_Barrera::
+compare VAR_UNUSED_0x40F7, 80
+goto_if_gt Silph_Barrera_3
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt Silph_Barrera_2
+release
+end
+
+Silph_Barrera_2::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Silph_Barrera_Move_1
+waitmovement 0x0
+msgbox Silph_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Silph_Barrera_Move_2
+waitmovement 0x0
+release
+end
+
+Silph_Barrera_3::
+release
+end
+
+Silph_Barrera_Texto_1:
+.string "(Si entro ahora aquí puedo echar a\n"
+	.string "perder toda la misión).$"
+
+Silph_Barrera_Move_1:
+walk_in_place_down
+step_end
+
+Silph_Barrera_Move_2:
+walk_slow_up
+step_end

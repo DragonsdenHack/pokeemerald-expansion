@@ -106,6 +106,42 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "59",
       "script": "PalletTown_Encuentro_Oak"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Pueblo_Paleta_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Pueblo_Paleta_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Pueblo_Paleta_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Pueblo_Paleta_Barrera_Sur"
     }
   ],
   "bg_events": [

@@ -64,48 +64,204 @@ Silph11FDocumento_Text_100:
 .string "OFICINA CENTRAL DE SILPH S.A.\n"
 	.string "P10$"
 
-Silph_11F_Bill_Presidente::
+Silph_11F_Bill_Presidente_Izq::
+lockall
 msgbox Silph_11F_Bill_Presidente_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_1
+waitmovement 0x0
+goto Silph_11F_Bill_Presidente
+
+Silph_11F_Bill_Presidente_Der::
+lockall
+msgbox Silph_11F_Bill_Presidente_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_1.1
+waitmovement 0x0
+goto Silph_11F_Bill_Presidente
+
+Silph_11F_Bill_Presidente::
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Silph_11F_Bill_Presidente_Move_2
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Silph_11F_Bill_Presidente_Texto_2 MSGBOX_AUTOCLOSE
+delay 40
+msgbox Silph_11F_Bill_Presidente_Texto_2.1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Silph_11F_Bill_Presidente_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Silph_11F_Bill_Presidente_Texto_2.3 MSGBOX_AUTOCLOSE
+applymovement 1, Silph_11F_Bill_Presidente_Move_16
+waitmovement 0x0
+msgbox Silph_11F_Bill_Presidente_Texto_2.4 MSGBOX_AUTOCLOSE
+applymovement 1, Silph_11F_Bill_Presidente_Move_17
+waitmovement 0x0
+msgbox Silph_11F_Bill_Presidente_Texto_2.5 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, Silph_11F_Reunión_Presidente_Lance_Move_2
+waitmovement 0x0
+msgbox Silph_11F_Bill_Presidente_Texto_2.6 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_PRESIDENTE_SILPH, Silph_11F_Bill_Presidente_Texto_2.7
+msgbox Silph_11F_Bill_Presidente_Texto_2.8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Silph_11F_Bill_Presidente_Texto_2.2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Silph_11F_Bill_Presidente_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Silph_11F_Bill_Presidente_Move_3
+applymovement 2, Silph_11F_Bill_Presidente_Move_3
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_4 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+addobject 3
+addobject 8
+applymovement 3, Silph_11F_Bill_Presidente_Move_4
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_5
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_6
+waitmovement 0x0
+applymovement 3, Silph_11F_Bill_Presidente_Move_7
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Silph_11F_Bill_Presidente_Move_8
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_9
+waitmovement 0x0
+playse SE_PIN
+applymovement 8, Silph_11F_Bill_Presidente_Move_10
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_7 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 8, Silph_11F_Bill_Presidente_Move_11
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_9 MSGBOX_AUTOCLOSE
+delay 30
+playse SE_WARP_OUT
+delay 30
+playse SE_WARP_OUT
+waitse
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_3
+applymovement 8, Silph_11F_Bill_Presidente_Move_3
+waitmovement 0x0
+clearflag FLAG_HIDE_ROUTE_119_SCOTT
+addobject 7
+addobject 9
+applymovement 7, Silph_11F_Bill_Presidente_Move_12
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_5
+applymovement 8, Silph_11F_Bill_Presidente_Move_5
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_12
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_13
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 8, Silph_11F_Bill_Presidente_Move_14
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_15
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_15 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_16
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_15
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 8, Silph_11F_Bill_Presidente_Move_14
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_19 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_16
+applymovement 7, Silph_11F_Bill_Presidente_Move_17
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_21 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 7, Silph_11F_Bill_Presidente_Move_18
+waitmovement 0x0
+applymovement 9, Silph_11F_Bill_Presidente_Move_15
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_18
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_119_SCOTT
+setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
 msgbox Silph_11F_Bill_Presidente_Texto_24 MSGBOX_AUTOCLOSE
-msgbox Silph_11F_Bill_Presidente_Texto_25 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_BILL_2, Silph_11F_Bill_Presidente_Texto_25
 msgbox Silph_11F_Bill_Presidente_Texto_26 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_16
+applymovement 7, Silph_11F_Bill_Presidente_Move_17
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 9, Silph_11F_Bill_Presidente_Move_15
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_29 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 7
+removeobject 9
+fadescreen 0
+applymovement 3, Silph_11F_Bill_Presidente_Move_19
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_20
+applymovement 8, Silph_11F_Bill_Presidente_Move_20
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_30 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_31 MSGBOX_AUTOCLOSE
 msgbox Silph_11F_Bill_Presidente_Texto_32 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
 msgbox Silph_11F_Bill_Presidente_Texto_33 MSGBOX_AUTOCLOSE
-msgbox Silph_11F_Bill_Presidente_Texto_34 MSGBOX_AUTOCLOSE
+applymovement 3, Silph_11F_Bill_Presidente_Move_21
+waitmovement 0x0
+playse SE_SHOP
+addmoney 400000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox Silph_11F_Bill_Presidente_Texto_34 MSGBOX_DEFAULT
+waitfanfare
+hidemoneybox
+delay 40
 msgbox Silph_11F_Bill_Presidente_Texto_35 MSGBOX_AUTOCLOSE
-msgbox Silph_11F_Bill_Presidente_Texto_36 MSGBOX_AUTOCLOSE
+delay 20
+playfanfare MUS_OBTAIN_TMHM
+msgbox Silph_11F_Bill_Presidente_Texto_36 MSGBOX_DEFAULT
+givemon SPECIES_PORYGON, 40, ITEM_UPGRADE
+waitfanfare
+delay 20
 msgbox Silph_11F_Bill_Presidente_Texto_37 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Silph_11F_Bill_Presidente_Texto_37.1 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 3, Silph_11F_Bill_Presidente_Move_24
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_38 MSGBOX_AUTOCLOSE
+applymovement 3, Silph_11F_Bill_Presidente_Move_25
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_16
+applymovement 8, Silph_11F_Bill_Presidente_Move_17
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_39 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 8, Silph_11F_Bill_Presidente_Move_3
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_40 MSGBOX_AUTOCLOSE
+applymovement 8, Silph_11F_Bill_Presidente_Move_26
+waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_41 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 75
+warpsilent MAP_ROCKET_HIDEOUT_5F, 2, 2
 release
 end
 
@@ -118,8 +274,58 @@ Silph_11F_Bill_Presidente_Texto_2:
 	.string "miembro del TEAM ROCKET, ¿cómo te\l"
 	.string "llamas chico?$"
 
+Silph_11F_Bill_Presidente_Texto_2.1:
+.string "¿{PLAYER}? Debes ser de fuera,\n"
+	.string "alguien de KANTO jamás tendría la\l"
+	.string "osadía de entrar así en la SEDE de su\l"
+	.string "capital.$"
+
+Silph_11F_Bill_Presidente_Texto_2.2:
+.string "... ...$"
+
+Silph_11F_Bill_Presidente_Texto_2.3:
+.string "Así que el Archi7... Ya entiendo, déjame\n"
+	.string "decirte algo: no has visto nada de esta\l"
+	.string "región aún. Los POKÉMON de KANTO, los\l"
+	.string "de verdad, no son como esos débiles\l"
+	.string "SENTRET o SPINARAK con los que te\l"
+	.string "criaste.$"
+
+Silph_11F_Bill_Presidente_Texto_2.4:
+.string "Es un insulto que alguien como tú, con\n"
+	.string "una cultura y raíces tan pobres en\l"
+	.string "cuanto al COMBATE POKÉMON, haya\l"
+	.string "llegado hasta aquí. No es más que otra\l"
+	.string "prueba de la decadencia que asola esta\l"
+	.string "región, se han perdido completamente\l"
+	.string "los valores y disciplina que nos\l"
+	.string "llevaron a ser grandes.$"
+
+Silph_11F_Bill_Presidente_Texto_2.5:
+	.string "Por desgracia para ti, aún quedan\n"
+	.string "entrenadores que no han sido\l"
+	.string "infectados con el virus de la\l"
+	.string "mediocridad y el alineamiento.$"
+
+Silph_11F_Bill_Presidente_Texto_2.6:
+.string "Por primera vez, ¡vas a sentir lo que es\n"
+	.string "enfrentar un equipo de la vieja escuela\l"
+	.string "de KANTO!$"
+
+Silph_11F_Bill_Presidente_Texto_2.7:
+	.string "El poder de esos POKÉMON... ¿de dónde\n"
+	.string "proviene?$"
+
+Silph_11F_Bill_Presidente_Texto_2.8:
+	.string "Hacía décadas que no veía desplegar a\n"
+	.string "un ENTRENADOR de tus recursos un nivel\l"
+	.string "tal. Me has hecho recordar esos viejos\l"
+	.string "tiempos, cuando todo era posible. Tus\l"
+	.string "aptitudes e ilusión son más propias de\l"
+	.string "otra época.$"
+
 Silph_11F_Bill_Presidente_Texto_3:
-.string "Así que {PLAYER}, escucha {PLAYER},\n"
+.string "Así que {PLAYER}. Escucha {PLAYER},\n"
 	.string "puedo olvidar todo esto y hacer\l"
 	.string "que trabajes para SILPH, un\l"
 	.string "ENTRENADOR de tu nivel no tiene\l"
@@ -406,7 +612,7 @@ Silph_11F_Bill_Presidente_Texto_35:
 	.string "nuestra conversación.$"
 
 Silph_11F_Bill_Presidente_Texto_36:
-.string "¡HAS RECIBIDO UN PORYGON AL NV:35!$"
+.string "¡HAS RECIBIDO UN PORYGON AL NV.40!$"
 
 Silph_11F_Bill_Presidente_Texto_37:
 .string "Es un PORYGON, el primer POKÉMON\n"
@@ -423,6 +629,9 @@ Silph_11F_Bill_Presidente_Texto_37:
 	.string "PRESIDENTE, sólo una persona ha\l"
 	.string "tenido el honor de contar con ese\l"
 	.string "POKÉMON antes que vosotros.$"
+
+Silph_11F_Bill_Presidente_Texto_37.1:
+.string "ANDRA: ...$"
 
 Silph_11F_Bill_Presidente_Texto_38:
 .string "Bien, podéis retiraros, os avisaré\n"
@@ -467,6 +676,18 @@ walk_up
 walk_up
 walk_up
 walk_right
+walk_right
+walk_right
+walk_right
+walk_in_place_up
+step_end
+
+Silph_11F_Bill_Presidente_Move_1.1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
 walk_right
 walk_right
 walk_right
@@ -615,6 +836,9 @@ walk_in_place_down
 step_end
 
 Silph_11F_Bill_Presidente_Move_25:
+walk_up
+walk_up
+walk_up
 walk_up
 walk_up
 walk_up
@@ -868,3 +1092,69 @@ Silph_11F_Reunión_Presidente_Lance_Move_12:
 walk_slow_up
 walk_slow_right
 step_end
+
+Silph_11F_Presidente_Charlas::
+lock
+faceplayer
+compare VAR_ROUTE129_STATE, 0
+goto_if_gt Silph_11F_Presidente_Charlas_2
+msgbox Silph_11F_Presidente_Charlas_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Silph_11F_Presidente_Charlas_Texto_2 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_ITEM
+giveitem ITEM_MASTER_BALL, 5
+waitfanfare
+delay 10
+msgbox Silph_11F_Presidente_Charlas_Texto_3 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE129_STATE, 1
+release
+end
+
+Silph_11F_Presidente_Charlas_2::
+msgbox Silph_11F_Presidente_Charlas_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+Silph_11F_Presidente_Charlas_Texto_1:
+.string "PRESIDENTE: ¡Vaya vaya!\n"
+	.string "¡No deberías de pasear tan\l"
+	.string "alegremente por aquí jovencito!$"
+
+Silph_11F_Presidente_Charlas_Texto_2:
+.string "GIOVANNI resultó tener razón\n"
+	.string "chico, la gente no se da cuenta,\l"
+	.string "pero el gobierno de LANCE solo\l"
+	.string "busca perpetuarse en el poder a\l"
+	.string "costa de todo lo demás, con solo\l"
+	.string "decirte que nos obligan a vender\l"
+	.string "objetos como PROTEÍNA, HIERRO o\l"
+	.string "CARBURANTE a precio de oro,\l"
+	.string "llevándose ellos prácticamente\l"
+	.string "toda la comisión por ello, con el\l"
+	.string "único afán de desproveer de\l"
+	.string "recursos a los entrenadores de\l"
+	.string "esta región para hacer más\l"
+	.string "competentes a sus POKÉMON, gracias\l"
+	.string "a tu intervención GIOVANNI pudo\l"
+	.string "hacerme ver cómo iba a terminar\l"
+	.string "esto si mi empresa no intervenía,\l"
+	.string "ten, tú seguro que haras un gran\l"
+	.string "uso de nuestro producto estrella.$"
+
+Silph_11F_Presidente_Charlas_Texto_3:
+.string "PRESIDENTE: Así es, 5 MASTER BALL,\n"
+	.string "úsalas solamente con aquellos\l"
+	.string "POKÉMON que de verdad no puedas\l"
+	.string "capturar con el resto de BALLS. Le\l"
+	.string "dimos 1 MASTER a ese ROJO después\l"
+	.string "de creer que había ganado por el\l"
+	.string "bien de la justicia, solo para\l"
+	.string "convencerle de que su intervenión\l"
+	.string "realmente me había salvado.$"
+
+Silph_11F_Presidente_Charlas_Texto_4:
+.string "PRESIDENTE: ¿Aún sigues aquí\n"
+	.string "chico?\l"
+	.string "¡Recuerda que no pueden ver a\l"
+	.string "ROCKETS por aquí!\l"
+	.string "¡Sino la gente se empezará a hacer\l"
+	.string "preguntas!$"

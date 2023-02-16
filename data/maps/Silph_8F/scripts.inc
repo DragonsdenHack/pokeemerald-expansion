@@ -34,7 +34,29 @@ end
 
 
 Silph8F_5::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt Silph8F_5_Despues_Invasion
+msgbox Silph8F_5_Texto_1 MSGBOX_NPC
+release
 end
+
+Silph8F_5_Despues_Invasion::
+msgbox Silph8F_5_Texto_2 MSGBOX_NPC
+release
+end
+
+Silph8F_5_Texto_1:
+.string "¡Ten compasión!\n"
+	.string "¡Me quedaré aquí quieto y no daré\l"
+	.string "problemas, de verdad!$"
+
+Silph8F_5_Texto_2:
+.string "¡Ha llegado vuestra hora!\n"
+	.string "¡Todos los implicados en este\l"
+	.string "asalto seréis encontrados y\l"
+	.string "juzgados!$"
 
 
 

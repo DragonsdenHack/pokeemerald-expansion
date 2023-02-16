@@ -22,7 +22,27 @@ end
 
 
 Silph10F_5::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt Silph10F_5_Despues_Invasion
+msgbox Silph10F_5_Texto_1 MSGBOX_NPC
+release
 end
+
+Silph10F_5_Despues_Invasion::
+msgbox Silph10F_5_Texto_2 MSGBOX_NPC
+release
+end
+
+Silph10F_5_Texto_1:
+.string "¡Waaaaa!\n"
+	.string "¡Tengo miedo!$"
+
+Silph10F_5_Texto_2:
+.string "¿De verdad tienes el cinismo de\n"
+	.string "regresar aquí después del numerito\l"
+	.string "que montasteis?$"
 
 
 

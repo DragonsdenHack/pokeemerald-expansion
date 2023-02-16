@@ -27,7 +27,26 @@ end
 
 
 Silph4F_6::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt Silph4F_6_Despues_Invasion
+msgbox Silph4F_6_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
+
+Silph4F_6_Despues_Invasion::
+msgbox Silph4F_6_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Silph4F_6_Texto_1:
+.string "¡Oh, no! ¡Me encontraste!\n"
+	.string "¡No me hagas daño!$"
+
+Silph4F_6_Texto_2:
+.string "¿Huh?\n"
+	.string "¡Aún seguis aquí!$"
 
 
 

@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "Silph9F_EventScript_Policia",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "5",
       "script": "Silph9F_EventScript_Policia2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_7",

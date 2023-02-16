@@ -59,7 +59,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER2",
@@ -85,11 +85,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity4",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 47,
+      "x": 46,
       "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -98,7 +98,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity5",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BOY4",
@@ -137,7 +137,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity8",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -150,7 +150,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity9",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -163,7 +163,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity10",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
@@ -176,7 +176,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity11",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
@@ -189,7 +189,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity12",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -202,20 +202,20 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity13",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 27,
       "y": 16,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity14",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
@@ -241,7 +241,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCity16",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -440,6 +440,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "72",
       "script": "SaffronCity_Combate_Andra_Izq_Abajo"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 31,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Silph_Barrera"
     }
   ],
   "bg_events": [

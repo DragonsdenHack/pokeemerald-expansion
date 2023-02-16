@@ -150,3 +150,28 @@ walk_up
 walk_up
 walk_up
 step_end
+
+
+Pueblo_Paleta_Barrera_Sur::
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Pueblo_Paleta_Barrera_Sur_Move_1
+waitmovement 0x0
+msgbox Pueblo_Paleta_Barrera_Sur_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Pueblo_Paleta_Barrera_Sur_Move_2
+waitmovement 0x0
+release
+end
+
+Pueblo_Paleta_Barrera_Sur_Texto_1:
+.string "(No estoy de vacaciones para\n"
+	.string "ponerme a explorar KANTO, tengo\l"
+	.string "cosas más importantes que hacer).$"
+
+Pueblo_Paleta_Barrera_Sur_Move_1:
+walk_in_place_down
+step_end
+
+Pueblo_Paleta_Barrera_Sur_Move_2:
+walk_slow_up
+step_end

@@ -30,7 +30,27 @@ end
 
 
 Silph5F_5::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt Silph5F_5_Despues_Invasion
+msgbox Silph5F_5_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
+
+Silph5F_5_Despues_Invasion::
+msgbox Silph5F_5_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Silph5F_5_Texto_1:
+.string "SILPH iba tras dos ROCKET que no\n"
+	.string "paran de causar problemas.\l"
+	.string "¿Eres uno de ellos?$"
+
+Silph5F_5_Texto_2:
+.string "¡Deberías de aprender de ese ROJO!\n"
+	.string "¡Os ha dado una buena lección!$"
 
 
 

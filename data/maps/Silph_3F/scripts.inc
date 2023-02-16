@@ -12,9 +12,25 @@ end
 
 
 Silph3F_3::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt Silph3F_3_Despues_Invasion
+msgbox Silph3F_3_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
 
+Silph3F_3_Despues_Invasion::
+msgbox Silph3F_3_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
 
+Silph3F_3_Texto_1:
+.string "¡Os arrepentiréis de esto!$"
+
+Silph3F_3_Texto_2:
+.string "¡Tuvisteis vuestro merecido\n"
+	.string "ROCKETS!$"
 
 Silph3F_4::
 end

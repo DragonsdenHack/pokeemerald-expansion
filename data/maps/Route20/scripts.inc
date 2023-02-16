@@ -133,3 +133,27 @@ end
 
 Route21Documento_Text_101:
 .string "ISLAS ESPUMA$"
+
+Ruta_20_Barrera_Sur::
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_20_Barrera_Sur_Move_1
+waitmovement 0x0
+msgbox Ruta_20_Barrera_Sur_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_20_Barrera_Sur_Move_2
+waitmovement 0x0
+release
+end
+
+Ruta_20_Barrera_Sur_Texto_1:
+.string "(No estoy de vacaciones para\n"
+	.string "ponerme a explorar KANTO, tengo\l"
+	.string "cosas más importantes que hacer).$"
+
+Ruta_20_Barrera_Sur_Move_1:
+walk_in_place_left
+step_end
+
+Ruta_20_Barrera_Sur_Move_2:
+walk_slow_right
+step_end
