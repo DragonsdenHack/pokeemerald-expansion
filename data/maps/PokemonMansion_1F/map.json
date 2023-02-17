@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PokemonMansion1F_6",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LADRONJOHTO",
@@ -103,12 +103,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "PokemonMansion1F_7",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BALDING_MAN",
       "x": 32,
-      "y": 14,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_119_SCOTT"
     }
   ],
   "warp_events": [
@@ -192,7 +192,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x4091",
+      "var_value": "1",
+      "script": "PokemonMansion_1F_Ladrones_Izq"
+    },
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x4091",
+      "var_value": "1",
+      "script": "PokemonMansion_1F_Ladrones_Centro"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x4091",
+      "var_value": "1",
+      "script": "PokemonMansion_1F_Ladrones_Der"
+    }
   ],
   "bg_events": [
     {

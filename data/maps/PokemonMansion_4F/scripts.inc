@@ -57,21 +57,82 @@ PokemonMansion4FDocumento_Text_100:
 	.string "instintos...$"
 
 PokemonMansion_4F_Blaine_Fuji::
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_4F_Blaine_Fuji_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_4F_Blaine_Fuji_Move_2
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_1 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonMansion_4F_Blaine_Fuji_Move_3
+waitmovement 0x0
+special RemoveCameraObject
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_1
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4.1
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_5
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_1
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_6
+waitmovement 0x0
+delay 10
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_4
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_1
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonMansion_4F_Blaine_Fuji_Move_5
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
+fadescreen 1
+playmoncry SPECIES_MAGMAR, CRY_MODE_ENCOUNTER
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_12 MSGBOX_AUTOCLOSE
+waitmoncry
+delay 20
+removeobject 8
+playse SE_WARP_IN
+waitse
+fadescreen 0
+delay 25
+applymovement 7, PokemonMansion_4F_Blaine_Fuji_Move_5
+waitmovement 0x0
+delay 20
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_13 MSGBOX_AUTOCLOSE
+delay 20
+fadescreen 1
+removeobject 7
+playse SE_WARP_IN
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_14 MSGBOX_AUTOCLOSE
+waitse
+fadescreen 0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonMansion_4F_Blaine_Fuji_Move_7
+waitmovement 0x0
+special RemoveCameraObject
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_15 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 76
 release
 end
 
@@ -103,7 +164,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_3:
 
 PokemonMansion_4F_Blaine_Fuji_Texto_4:
 .string "BLAINE: ¡Ilusos!\n"
-	.string "¿Creéis que un legendario basta\l"
+	.string "¿Creéis que un LEGENDARIO basta\l"
 	.string "para detener a LANCE?\l"
 	.string "¿Te tengo que recordar los\l"
 	.string "destrozos que causó usando tres?\l"
@@ -115,7 +176,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_4:
 	.string "día, pero LANCE tiene a toda la\l"
 	.string "ÉLITE 4 protegiéndole, y esos\l"
 	.string "dragones...\l"
-	.string "¿Se te olvida que tiene no 1, sino\l"
+	.string "¿Se te olvida que tiene no 1, si no\l"
 	.string "3 de esos pseudolegendarios\l"
 	.string "guardándole las espaldas?$"
 
@@ -126,7 +187,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_5:
 	.string "demasiado poder a pesar de\l"
 	.string "desconocer la existencia de\l"
 	.string "MEWTWO, ha hecho honor a su fama\l"
-	.string "de entrenador de POKÉMON SAGRADOS.$"
+	.string "de ENTRENADOR de POKÉMON SAGRADOS.$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_6:
 .string "FUJI: GIOVANNI cuenta con\n"
@@ -207,6 +268,10 @@ step_end
 
 PokemonMansion_4F_Blaine_Fuji_Move_4:
 face_right
+step_end
+
+PokemonMansion_4F_Blaine_Fuji_Move_4.1:
+walk_in_place_right
 step_end
 
 PokemonMansion_4F_Blaine_Fuji_Move_5:

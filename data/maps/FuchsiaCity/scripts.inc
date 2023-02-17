@@ -428,7 +428,7 @@ msgbox FuchsiaCity_Estafado_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 8, FuchsiaCity_Estafado_Move_2
 waitmovement 0x0
 msgbox FuchsiaCity_Estafado_Texto_15 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, FuchsiaCity_Estafado_Move_3
+applymovement 8, FuchsiaCity_Estafado_Move_3
 waitmovement 0x0
 msgbox FuchsiaCity_Estafado_Texto_16 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x4091, 1

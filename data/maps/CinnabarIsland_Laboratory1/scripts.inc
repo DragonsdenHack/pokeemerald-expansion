@@ -108,7 +108,7 @@ delay 20
 msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_6 MSGBOX_NPC
 delay 10
 playfanfare MUS_OBTAIN_TMHM
-msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_7 MSGBOX_NPC
+msgbox CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_7 MSGBOX_DEFAULT
 givemon SPECIES_EEVEE, 25, ITEM_MOON_STONE
 givemon SPECIES_EEVEE, 25, ITEM_THUNDER_STONE
 givemon SPECIES_EEVEE, 25, ITEM_FIRE_STONE

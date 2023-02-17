@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLAINE",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SCOTT"
     }
   ],
   "warp_events": [
@@ -141,7 +141,7 @@
       "dest_warp_id": 4
     },
     {
-      "x": 8,
+      "x": 7,
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_POKEMON_MANSION_4F",
@@ -149,7 +149,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "75",
+      "script": "PokemonMansion_4F_Blaine_Fuji"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "75",
+      "script": "PokemonMansion_4F_Blaine_Fuji"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "75",
+      "script": "PokemonMansion_4F_Blaine_Fuji"
+    }
   ],
   "bg_events": [
     {

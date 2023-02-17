@@ -27,12 +27,45 @@ end
 
 
 PokemonMansion1F_6::
+lock
+faceplayer
+msgbox PokemonMansion1F_6_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonMansion1F_6_Move_1
+waitmovement 0x0
+release
 end
+
+PokemonMansion1F_6_Move_1:
+face_left
+step_end
+
+PokemonMansion1F_6_Texto_1:
+.string "Métete en tus asuntos, no estamos\n"
+	.string "cometiendo alguna irregularidad de\l"
+	.string "ningún tipo ni nada por el estilo,\l"
+	.string "así que desaparece.$"
 
 
 
 PokemonMansion1F_7::
+lock
+faceplayer
+msgbox PokemonMansion1F_7_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 7, PokemonMansion1F_7_Move_1
+waitmovement 0x0
+release
 end
+
+PokemonMansion1F_7_Move_1:
+face_up
+step_end
+
+PokemonMansion1F_7_Texto_1:
+.string "¿Quieres algo ROCKET?\n"
+	.string "¿No ves que solo somos dos\l"
+	.string "honrados trabajadores que tratan\l"
+	.string "de ganarse la vida como todos?\l"
+	.string "No nos hagas perder más el tiempo.$"
 
 
 
@@ -48,39 +81,202 @@ PokemonMansion1F_EventScript_Cientifico::
 	msgbox PokemonMansion1F_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
-PokemonMansion_1F_Ladrones::
+PokemonMansion_1F_Ladrones_Centro::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
+waitmovement 0X0
+delay 15
+applymovement 7, PokemonMansion_1F_Ladrones_Move_3
+waitmovement 0X0
 msgbox PokemonMansion_1F_Ladrones_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PokemonMansion_1F_Ladrones_Move_4
+waitmovement 0X0
 msgbox PokemonMansion_1F_Ladrones_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_5
+waitmovement 0X0
+goto PokemonMansion_1F_Ladrones
+
+PokemonMansion_1F_Ladrones_Izq::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
+waitmovement 0X0
+delay 15
+applymovement 7, PokemonMansion_1F_Ladrones_Move_3
+waitmovement 0X0
+msgbox PokemonMansion_1F_Ladrones_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PokemonMansion_1F_Ladrones_Move_4
+waitmovement 0X0
+msgbox PokemonMansion_1F_Ladrones_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_5.1
+waitmovement 0X0
+goto PokemonMansion_1F_Ladrones
+
+PokemonMansion_1F_Ladrones_Der::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_2
+waitmovement 0x0
+delay 15
+applymovement 7, PokemonMansion_1F_Ladrones_Move_3
+waitmovement 0x0
+msgbox PokemonMansion_1F_Ladrones_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, PokemonMansion_1F_Ladrones_Move_4
+waitmovement 0x0
+msgbox PokemonMansion_1F_Ladrones_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_5.2
+waitmovement 0X0
+goto PokemonMansion_1F_Ladrones
+
+PokemonMansion_1F_Ladrones::
+playse SE_PIN
+applymovement 7, PokemonMansion_1F_Ladrones_Move_1
+applymovement 6, PokemonMansion_1F_Ladrones_Move_1
+waitmovement 0x0
+applymovement 7, PokemonMansion_1F_Ladrones_Move_4
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonMansion_1F_Ladrones_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 7, PokemonMansion_1F_Ladrones_Move_1
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonMansion_1F_Ladrones_Move_6
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 7, PokemonMansion_1F_Ladrones_Move_7
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonMansion_1F_Ladrones_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, PokemonMansion_1F_Ladrones_Move_7
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 7, PokemonMansion_1F_Ladrones_Move_1
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 7, PokemonMansion_1F_Ladrones_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_9
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_ROCKET
 msgbox PokemonMansion_1F_Ladrones_Texto_10 MSGBOX_AUTOCLOSE
-msgbox PokemonMansion_1F_Ladrones_Texto_11 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LADRON_1, PokemonMansion_1F_Ladrones_Texto_11
+applymovement 7, PokemonMansion_1F_Ladrones_Move_2
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 6, PokemonMansion_1F_Ladrones_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_3
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_ROCKET
 msgbox PokemonMansion_1F_Ladrones_Texto_13 MSGBOX_AUTOCLOSE
-msgbox PokemonMansion_1F_Ladrones_Texto_14 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LADRON_2, PokemonMansion_1F_Ladrones_Texto_14
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_3
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_1
+applymovement 7, PokemonMansion_1F_Ladrones_Move_1
+applymovement 6, PokemonMansion_1F_Ladrones_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_4
+applymovement 7, PokemonMansion_1F_Ladrones_Move_4
+applymovement 6, PokemonMansion_1F_Ladrones_Move_4
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_16 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_ROUTE_119_SCOTT
+addobject 8
+applymovement 8, PokemonMansion_1F_Ladrones_Move_10
+waitmovement 0x0
+applymovement 6, PokemonMansion_1F_Ladrones_Move_7
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_17 MSGBOX_AUTOCLOSE
 msgbox PokemonMansion_1F_Ladrones_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonMansion_1F_Ladrones_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 8, PokemonMansion_1F_Ladrones_Move_1
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonMansion_1F_Ladrones_Move_11
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonMansion_1F_Ladrones_Move_12
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox PokemonMansion_1F_Ladrones_Texto_21 MSGBOX_AUTOCLOSE
-msgbox PokemonMansion_1F_Ladrones_Texto_22 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_119_SCOTT
+trainerbattle_no_intro TRAINER_LADRON_3, PokemonMansion_1F_Ladrones_Texto_22
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_4
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_23 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_9
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_13
+applymovement 7, PokemonMansion_1F_Ladrones_Move_14
+waitmovement 0x0
+playse SE_PIN
+applymovement 6, PokemonMansion_1F_Ladrones_Move_1
+applymovement 7, PokemonMansion_1F_Ladrones_Move_1
+applymovement 8, PokemonMansion_1F_Ladrones_Move_1
+waitmovement 0x0
+applymovement 6, PokemonMansion_1F_Ladrones_Move_9
+applymovement 8, PokemonMansion_1F_Ladrones_Move_9
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_24 MSGBOX_AUTOCLOSE
-msgbox PokemonMansion_1F_Ladrones_Texto_25 MSGBOX_AUTOCLOSE
-msgbox PokemonMansion_1F_Ladrones_Texto_26 MSGBOX_AUTOCLOSE
-msgbox PokemonMansion_1F_Ladrones_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_15
+waitmovement 0x0
+delay 15
+playse MUS_OBTAIN_ITEM
+additem ITEM_PROTEIN, 10
+msgbox PokemonMansion_1F_Ladrones_Texto_25 MSGBOX_DEFAULT
+waitse
+delay 15
+playse MUS_OBTAIN_ITEM
+additem ITEM_RARE_CANDY, 3
+msgbox PokemonMansion_1F_Ladrones_Texto_26 MSGBOX_DEFAULT
+delay 15
+playfanfare MUS_OBTAIN_TMHM
+msgbox PokemonMansion_1F_Ladrones_Texto_27 MSGBOX_DEFAULT
+givemon SPECIES_CHARMANDER, 5, ITEM_CHARCOAL
+waitfanfare
+playse SE_PIN
+applymovement 6, PokemonMansion_1F_Ladrones_Move_1
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonMansion_1F_Ladrones_Move_15
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_29 MSGBOX_AUTOCLOSE
-msgbox PokemonMansion_1F_Ladrones_Texto_30 MSGBOX_AUTOCLOSE
+delay 15
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox PokemonMansion_1F_Ladrones_Texto_30 MSGBOX_DEFAULT
+waitse
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_1F_Ladrones_Move_16
+applymovement 8, PokemonMansion_1F_Ladrones_Move_15
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 8, PokemonMansion_1F_Ladrones_Move_15
+waitmovement 0x0
 msgbox PokemonMansion_1F_Ladrones_Texto_32 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND
+fadescreen 1
+removeobject 6
+removeobject 7
+removeobject 8
+fadescreen 0
+setvar VAR_UNUSED_0x4091, 2
 release
 end
 
@@ -136,15 +332,15 @@ PokemonMansion_1F_Ladrones_Texto_7:
 
 PokemonMansion_1F_Ladrones_Texto_8:
 .string "De modo que insistes, vosotros los\n"
-	.string "ROCKETS sois unos ignorantes, en\l"
+	.string "ROCKET sois unos ignorantes, en\l"
 	.string "lugar de actuar en la sombra, como\l"
 	.string "nosotros, hacéis públicas vuestras\l"
 	.string "fechorías, y todo el mundo os\l"
 	.string "apedrea mediáticamente por ello.$"
 
 PokemonMansion_1F_Ladrones_Texto_9:
-.string "¿Como?\n"
-	.string "¿Que no se trata de robar a la\l"
+.string "¿Qué dices?\n"
+	.string "¿No se trata de robar a la\l"
 	.string "gente, sino de reunir recursos y\l"
 	.string "mandar un claro mensaje a la\l"
 	.string "región de KANTO?$"
@@ -302,6 +498,24 @@ PokemonMansion_1F_Ladrones_Move_5:
 walk_down
 walk_down
 walk_down
+walk_left
+walk_left
+walk_left
+step_end
+
+PokemonMansion_1F_Ladrones_Move_5.1:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+step_end
+
+PokemonMansion_1F_Ladrones_Move_5.2:
+walk_down
+walk_down
+walk_down
+walk_left
 walk_left
 walk_left
 walk_left
