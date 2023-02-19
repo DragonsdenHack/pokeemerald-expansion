@@ -43,3 +43,90 @@ CinnabarIslandLaboratory2Documento_Text_101:
 	.string "que hay cerca de la CELESTE.\p"
 	.string "De: EQUIPO de INVESTIGACIÓN\n"
 	.string "POKéMON...$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial::
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE117_STATE, 1
+release
+end
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_1:
+.string "No tienes idea de la inmensidad de\n"
+	.string "variables que podemos utilizar a\l"
+	.string "nuestro favor para afrontar una\l"
+	.string "batalla POKÉMON con mayores\l"
+	.string "probabilidades de éxito, si los\l"
+	.string "científicos de este laboratorio al\l"
+	.string "menos tuvieran un mínimo de\l"
+	.string "conocimientos de combate.$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_2:
+.string "...\n"
+	.string "...$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_3:
+.string "No, tú tampoco pareces tenerlos,\n"
+	.string "tal vez si reunes todas las\l"
+	.string "MEDALLAS te de la oportunidad de\l"
+	.string "enfrentarme.$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_4:
+.string "El CHALECO ASALTO aumenta en un\n"
+	.string "50% la DEFENSA ESPECIAL del\l"
+	.string "POKÉMON que lo lleve equipado,\l"
+	.string "pero solo permite emplear\l"
+	.string "movimientos de daño directo, es un\l"
+	.string "objeto perfecto para frenar en\l"
+	.string "seco a atacantes especiales.\l"
+	.string "¡Funciona especialmente bien con\l"
+	.string "POKÉMON con la habilidad\l"
+	.string "REGENERACIÓN, y movimientos como\l"
+	.string "PUÑO DRENAJE o GIGADRENADO!$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_5:
+.string "¡Vaya!\n"
+	.string "Parece que hay algo rescatable\l"
+	.string "dentro de la mediocridad de esta\l"
+	.string "isla, ¿así que aspiras a derrotar\l"
+	.string "a la ÉLITE 4?\l"
+	.string "Si eres capaz de derrotarme en un\l"
+	.string "combate, te daré algo que te\l"
+	.string "ayudará con ello.$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_6:
+.string "Entonces, ¿aceptas el reto?$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_7:
+.string "Así habla un ENTRENADOR de verdad.\n"
+	.string "¡No te arrepentirás!$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_8:
+.string "¡Oh!\n"
+	.string "¡Si que vas en serio con el reto\l"
+	.string "de la ÉLITE 4!$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_9:
+.string "Me ha quedado claro que eres de\n"
+	.string "esos tipos que tienen en cuenta\l"
+	.string "cada detalle dentro de una\l"
+	.string "batalla, y miran minuciosamente\l"
+	.string "los mejores objetos para construir\l"
+	.string "un gran equipo, a alguien como tú\l"
+	.string "jamás le debería de faltar esto en\l"
+	.string "su arsenal de posibles opciones.$"
+
+CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_10:
+.string "No sabes lo que te pierdes chaval,\n"
+	.string "espero que cuando te golpeen con\l"
+	.string "RAYO o PSÍQUICO te tumben de un\l"
+	.string "solo golpe por haberme negado este\l"
+	.string "combate...$"

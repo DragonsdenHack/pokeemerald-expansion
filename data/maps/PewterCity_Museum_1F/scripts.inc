@@ -386,3 +386,85 @@ walk_down
 walk_down
 walk_down
 step_end
+
+PewterCity_Museum_1F_Entrenador_Especial::
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE125_STATE, 1
+release
+end
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
+.string "Te seré sincero MOV.SÍSMICO es un\n"
+	.string "pésimo movimiento, solo sería útil\l"
+	.string "en POKÉMON como CHANSEY que son\l"
+	.string "incapaces de causar daño directo,\l"
+	.string "todo el que lo use en un CHARIZARD\l"
+	.string "es un inepto, estoy dispuesto a\l"
+	.string "darle algo que de verdad causa\l"
+	.string "daño al entrenador capaz de reunir\l"
+	.string "las 8 MEDALLAS de GIMNASIO.$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_2:
+.string "...\n"
+	.string "...$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_3:
+.string "Una pena, perdón por haberte hecho\n"
+	.string "perder el tiempo.$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_4:
+.string "La CINTA ELEGIDA aumenta en un 50%\n"
+	.string "el ataque físico del POKÉMON que\l"
+	.string "la lleve equipada, pero a costa de\l"
+	.string "encerrarle en el uso de un único\l"
+	.string "movimiento, de todos modos.\l"
+	.string "¿A quién le importa esa\l"
+	.string "restricción de poder usar un solo\l"
+	.string "movimiento si con ello te vale\l"
+	.string "para arrasar con todo lo que se te\l"
+	.string "ponga enfrente de un golpe?$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_5:
+.string "¡Vaya!\n"
+	.string "¡No todos los días se ve a alguien\l"
+	.string "con todas las MEDALLAS!\l"
+	.string "¡Estoy cansado de investigar el\l"
+	.string "proceso de formación de PERLAS\l"
+	.string "dentro de la coraza de CLOYSTER!\l"
+	.string "Si eres capaz de derrotarme en un\l"
+	.string "combate, te daré un increíble\l"
+	.string "objeto.$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_6:
+.string "Entonces, ¿aceptas el reto?$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_7:
+.string "¡Bien!\n"
+	.string "¡Al fin!\l"
+	.string "¡Un rival digno!$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_8:
+.string "¡Qué gran combate!$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_9:
+.string "No he visto ENTRENADOR como tú en\n"
+	.string "todos mis años de investigador, si\l"
+	.string "decides afrontar el reto de la\l"
+	.string "LIGA POKÉMON, será mejor que\l"
+	.string "lleves esto contigo, aumentará tus\l"
+	.string "opciones de éxito.$"
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_10:
+.string "¡Puaf!\n"
+	.string "¡Tocará seguir derrotando una y\l"
+	.string "otra vez a mis colegas científicos\l"
+	.string "negados para el combate!$"

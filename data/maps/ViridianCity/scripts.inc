@@ -155,3 +155,85 @@ end
 ViridianCity_Escena_5_Move_1:
 walk_in_place_down
 step_end
+
+ViridianCity_Entrenador_Especial::
+msgbox ViridianCity_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE126_STATE, 1
+release
+end
+
+ViridianCity_Entrenador_Especial_Texto_1:
+.string "COMESUEÑOS es el movimiento de\n"
+	.string "daño y recuperación definitivo,\l"
+	.string "siempre y cuando el rival esté\l"
+	.string "dormido claro, nunca le enseñaría\l"
+	.string "un movimiento con ese potencial a\l"
+	.string "un ROCKET, aunque puedo hacer una\l"
+	.string "excepción y darte algo incluso\l"
+	.string "mejor si reunes todas las\l"
+	.string "MEDALLAS.$"
+
+ViridianCity_Entrenador_Especial_Texto_2:
+.string "...\n"
+	.string "...$"
+
+ViridianCity_Entrenador_Especial_Texto_3:
+.string "¡JAH!\n"
+	.string "¡Lo que imaginaba!\l"
+	.string "¡Un ROCKET con MEDALLAS DE\l"
+	.string "GIMNASIO!\l"
+	.string "¡Lo siento chaval no hay trato!$"
+
+ViridianCity_Entrenador_Especial_Texto_4:
+.string "LODO NEGRO recuperará 1/16 de la\n"
+	.string "salud del POKÉMON que lo lleve\l"
+	.string "equipado a cada turno, ¡pero ten\l"
+	.string "cuidado!\l"
+	.string "¡Únicamente tendrá estos efectos\l"
+	.string "con los tipo VENENO!\l"
+	.string "¡Si otro POKÉMON lo lleva equipado\l"
+	.string "le restará 1/8 de salud!\l"
+	.string "¿No es ideal para castigar a los\l"
+	.string "ladrones que intentan robarte\l"
+	.string "objetos en plena batalla?$"
+
+ViridianCity_Entrenador_Especial_Texto_5:
+.string "¡Imposible!\n"
+	.string "¡Debe de ser una broma!\l"
+	.string "Está bien, yo también sé lo que es\l"
+	.string "haber ganado las 8 MEDALLAS chico,\l"
+	.string "si quieres que te de el objeto\l"
+	.string "deberás de derrotarme en un\l"
+	.string "combate.$"
+
+ViridianCity_Entrenador_Especial_Texto_6:
+.string "Entonces, ¿aceptas el reto?$"
+
+ViridianCity_Entrenador_Especial_Texto_7:
+.string "Perfecto.\n"
+	.string "¡Vamos a comprobar si esas\l"
+	.string "MEDALLAS son de verdad o no eres\l"
+	.string "más que un farsante!$"
+
+ViridianCity_Entrenador_Especial_Texto_8:
+.string "Impresionante, alguien como tú\n"
+	.string "debe de tener lo que te voy a dar.$"
+
+ViridianCity_Entrenador_Especial_Texto_9:
+.string "Vaya, resultó ser cierto, pocos\n"
+	.string "aprovecharán este objeto mejor que\l"
+	.string "tú.$"
+
+ViridianCity_Entrenador_Especial_Texto_10:
+.string "Ya me lo imaginaba, esas MEDALLAS\n"
+	.string "son falsas o robadas.\l"
+	.string "¡Largo de aquí!$"

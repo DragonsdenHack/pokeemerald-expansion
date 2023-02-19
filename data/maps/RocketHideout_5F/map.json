@@ -944,6 +944,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "55",
       "script": "RocketHideout_5F_Mision_Pueblo_Paleta_der"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "76",
+      "script": "RocketHideout_5F_Escena_Detencion_Fuji"
     }
   ],
   "bg_events": [

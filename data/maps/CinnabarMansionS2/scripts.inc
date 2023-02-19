@@ -883,3 +883,90 @@ walk_slow_right
 walk_slow_right
 walk_slow_right
 step_end
+
+CinnabarMansion_S2_Escena_7::
+msgbox CinnabarMansion_S2_Escena_7_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_4 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_5 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_7 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_8 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_9 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_10 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_11 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_12 MSGBOX_AUTOCLOSE
+msgbox CinnabarMansion_S2_Escena_7_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+CinnabarMansion_S2_Escena_7_Texto_1:
+.string "OAK: Sabes que, por lo general, prefiero\n"
+	.string "dejar que la gente actúe bajo su libre\l"
+	.string "albedrío, pero te lo preguntaré:\l"
+	.string "¿crees que has hecho lo correcto\l"
+	.string "entregando tan a la ligera a FUJI?$"
+
+CinnabarMansion_S2_Escena_7_Texto_2:
+.string "BLAINE: Creí que podía proporcionar\n"
+	.string "información vital a GIOVANNI.$"
+
+CinnabarMansion_S2_Escena_7_Texto_3:
+.string "FUJI decía la verdad, no sabe nada.\n"
+	.string "Desde la guerra su faceta como\l"
+	.string "investigador murió.$"
+
+CinnabarMansion_S2_Escena_7_Texto_4:
+.string "BLAINE: Entonces… ¿solo nosotros\n"
+	.string "sabemos la ubicación?$"
+
+CinnabarMansion_S2_Escena_7_Texto_5:
+.string "OAK: Solo nosotros, y así debe\n"
+	.string "permanecer.$"
+
+CinnabarMansion_S2_Escena_7_Texto_6:
+.string "BLAINE: No entiendo, ¿por qué no\n"
+	.string "actuamos y recuperamos KANTO? Puede\l"
+	.string "que GIOVANNI incluso te perdone si\l"
+	.string "logras derrocar a LANCE… a tu modo.$"
+
+CinnabarMansion_S2_Escena_7_Texto_7:
+.string "OAK: Nuestra posición es estable\n"
+	.string "BLAINE. Ahora mismo podemos\l"
+	.string "centrarnos en bajar aún más el grado\l"
+	.string "de incertidumbre en caso de actuar.\l"
+	.string "Aquí podemos centrarnos en ganar aún\l"
+	.string "más poder.$"
+
+CinnabarMansion_S2_Escena_7_Texto_8:
+.string "Además…$"
+
+CinnabarMansion_S2_Escena_7_Texto_9:
+.string "Ya no será necesario recurrir a MEWTWO,\n"
+	.string "podremos ganar incluso sin él….\l"
+	.string "especialmente sin él.$"
+
+CinnabarMansion_S2_Escena_7_Texto_10:
+.string "Nos haremos con el control de KANTO de\n"
+	.string "una manera silenciosa y sibilina, sin\l"
+	.string "comprometernos, sin provocar otra\l"
+	.string "estúpida guerra.$"
+
+CinnabarMansion_S2_Escena_7_Texto_11:
+.string "Todo está dispuesto, después de años\n"
+	.string "en el barro, sin mayor expectativa que\l"
+	.string "seguir otro día más únicamente para\l"
+	.string "evitar que las posibilidades cayeran al\l"
+	.string "0 absoluto… al fin podremos resurgir de\l"
+	.string "nuestras cenizas, recuperar el antiguo\l"
+	.string "esplendor de esta región ¡y rebasarlo!$"
+
+CinnabarMansion_S2_Escena_7_Texto_12:
+.string "BLAINE: ¿Tanto confías en ese\n"
+	.string "ENTRENADOR?$"
+
+CinnabarMansion_S2_Escena_7_Texto_13:
+.string "OAK: No confío, BLAINE, sé. Los números\n"
+	.string "nunca mienten.$"
+

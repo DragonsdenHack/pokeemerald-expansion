@@ -256,3 +256,80 @@ step_end
 Barrera_Tiendas_Move_2:
 walk_slow_down
 step_end
+
+CeladonCity_Entrenador_Especial::
+msgbox CeladonCity_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE124_STATE, 1
+release
+end
+
+CeladonCity_Entrenador_Especial_Texto_1:
+.string "La contaminación en AZULONA es\n"
+	.string "cada vez mayor, debe de haber\l"
+	.string "debajo del suelo que está causando\l"
+	.string "este problema, si mi nieto\l"
+	.string "regresase aquí y viera el\l"
+	.string "panorama...\l"
+	.string "Ah, cómo me gustaría rememorar los\l"
+	.string "viejos tiempos con un combate de\l"
+	.string "verdad.$"
+
+CeladonCity_Entrenador_Especial_Texto_2:
+.string "...\n"
+	.string "...$"
+
+CeladonCity_Entrenador_Especial_Texto_3:
+.string "No, no creo que mis POKÉMON tengan\n"
+	.string "siquiera para empezar contigo.$"
+
+CeladonCity_Entrenador_Especial_Texto_4:
+.string "La LLAMASFERA quema\n"
+	.string "automáticamente al POKÉMON que la\l"
+	.string "lleve equipada, a no ser que sea\l"
+	.string "del TIPO FUEGO o tenga la\l"
+	.string "habilidad VELO AGUA, puede parecer\l"
+	.string "inútil, pero aquellos POKÉMON con\l"
+	.string "la habilidad AGALLAS se\l"
+	.string "convertirán en un peligro, ¡si lo\l"
+	.string "combinas con IMAGEN crearás un\l"
+	.string "combo ofensivo único!$"
+
+CeladonCity_Entrenador_Especial_Texto_5:
+.string "¡Oh!\n"
+	.string "¡No se ven todos los días\l"
+	.string "entrenadores con todas las\l"
+	.string "MEDALLAS!\l"
+	.string "Debes de tener un gran equipo a\l"
+	.string "tus espaldas, si me das el honor\l"
+	.string "de combatir contigo, y logras\l"
+	.string "derrotarme, te daré algo muy útil.$"
+
+CeladonCity_Entrenador_Especial_Texto_6:
+.string "Entonces, ¿aceptas el reto?$"
+
+CeladonCity_Entrenador_Especial_Texto_7:
+.string "¡Voy a comprobar si los jóvenes de\n"
+	.string "KANTO están al nivel de antaño!$"
+
+CeladonCity_Entrenador_Especial_Texto_8:
+.string "Sí, tienes algo especial chico,\n"
+	.string "espero que llegues muy lejos.$"
+
+CeladonCity_Entrenador_Especial_Texto_9:
+.string "Ojalá algún día mi nieto alcanze\n"
+	.string "un nivel parecido al tuyo, ten\l"
+	.string "esto, según la situación puede\l"
+	.string "serte muy útil.$"
+
+CeladonCity_Entrenador_Especial_Texto_10:
+.string "Reusar un combate a un anciano...\n"
+	.string "Habráse visto...$"

@@ -649,3 +649,79 @@ step_end
 FuchsiaCity_Estafado_Move_3:
 face_player
 step_end
+
+FuchsiaCity_Entrenador_Especial::
+msgbox FuchsiaCity_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+release
+setvar VAR_ROUTE122_STATE, 1
+end
+
+FuchsiaCity_Entrenador_Especial_Texto_1:
+.string "Ya me tengo vista la ZONA SAFARI\n"
+	.string "completa, los POKÉMON que allí\l"
+	.string "viven no son ya un misterio para\l"
+	.string "mi, honestamente creo que soy el\l"
+	.string "CAZABICHOS más poderoso de toda la\l"
+	.string "región, POKÉMON como BUTTERFREE o\l"
+	.string "BEEDRILL se me quedan pequeños,\l"
+	.string "¿no me crees?$"
+
+FuchsiaCity_Entrenador_Especial_Texto_2:
+.string "...\n"
+	.string "...$"
+
+FuchsiaCity_Entrenador_Especial_Texto_3:
+.string "Vaya, parece que necesitas algo\n"
+	.string "más de entrenamiento, no lucharé\l"
+	.string "contra nadie que no sea\l"
+	.string "extraordinario, tal vez cuando te\l"
+	.string "vuelvas más fuerte.$"
+
+FuchsiaCity_Entrenador_Especial_Texto_4:
+.string "La CINTA EXPERTO aumenta en un 20%\n"
+	.string "el daño de los movimientos\l"
+	.string "superefectivos, haciendo muy\l"
+	.string "difícil que el rival resista ese\l"
+	.string "movimiento, es ideal para POKÉMON\l"
+	.string "con gran variedad de movimientos\l"
+	.string "como STARMIE, ELECTABUZZ o PINSIR.$"
+
+FuchsiaCity_Entrenador_Especial_Texto_5:
+.string "¡Sí!\n"
+	.string "¡Tú pareces un ENTRENADOR\l"
+	.string "experimentado!\l"
+	.string "¡Si me derrotas de daré algo muy\l"
+	.string "útil!$"
+
+FuchsiaCity_Entrenador_Especial_Texto_6:
+.string "Entonces, ¿aceptas el reto?$"
+
+FuchsiaCity_Entrenador_Especial_Texto_7:
+.string "¡Vamos allá!\n"
+	.string "¡Espero que no me decepciones!$"
+
+FuchsiaCity_Entrenador_Especial_Texto_8:
+.string "¡No sabía que había gente tan\n"
+	.string "fuerte!$"
+
+FuchsiaCity_Entrenador_Especial_Texto_9:
+.string "¿Entonces estás peleando por el\n"
+	.string "CAMPEONATO de la LIGA?\l"
+	.string "¡No me extraña tú y tus POKÉMON\l"
+	.string "sois formidables!\l"
+	.string "¡Esto seguro que te ayudará a\l"
+	.string "perfeccionar aún más tu equipo!$"
+
+FuchsiaCity_Entrenador_Especial_Texto_10:
+.string "Un ENTRENADOR que se precie jamás\n"
+	.string "huye de un gran combate cuando se\l"
+	.string "le presenta...$"

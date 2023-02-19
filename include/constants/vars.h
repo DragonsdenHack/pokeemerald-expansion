@@ -123,24 +123,24 @@
 #define VAR_ROUTE109_STATE                   0x4068 // Unused Var
 #define VAR_ROUTE110_STATE                   0x4069
 #define VAR_ROUTE111_STATE                   0x406A // Unused Var
-#define VAR_ROUTE112_STATE                   0x406B // Unused Var
-#define VAR_ROUTE113_STATE                   0x406C // Unused Var
-#define VAR_ROUTE114_STATE                   0x406D // Unused Var
-#define VAR_ROUTE115_STATE                   0x406E // Unused Var
+#define VAR_ROUTE112_STATE                   0x406B // ENTRENADOR ESPECIAL CENTRO COMERCIAL
+#define VAR_ROUTE113_STATE                   0x406C // ENTRENADOR ESPECIAL ISLA SETIMA
+#define VAR_ROUTE114_STATE                   0x406D // ENTRENADOR ESPECIAL ISLA CUARTA
+#define VAR_ROUTE115_STATE                   0x406E // ENTRENADOR ESPECIAL CALLE VICTORIA
 #define VAR_ROUTE116_STATE                   0x406F
-#define VAR_ROUTE117_STATE                   0x4070 // Unused Var
+#define VAR_ROUTE117_STATE                   0x4070 // ENTRENADOR ESPECIAL ISLA CANELA
 #define VAR_ROUTE118_STATE                   0x4071
 #define VAR_ROUTE119_STATE                   0x4072
-#define VAR_ROUTE120_STATE                   0x4073 // Unused Var
+#define VAR_ROUTE120_STATE                   0x4073 // ENTRENADOR ESPECIAL CIUDAD AZAFRAN
 #define VAR_ROUTE121_STATE                   0x4074
-#define VAR_ROUTE122_STATE                   0x4075 // Unused Var
-#define VAR_ROUTE123_STATE                   0x4076 // Unused Var
-#define VAR_ROUTE124_STATE                   0x4077 // Unused Var
-#define VAR_ROUTE125_STATE                   0x4078 // Unused Var
-#define VAR_ROUTE126_STATE                   0x4079 // Unused Var
-#define VAR_ROUTE127_STATE                   0x407A // Unused Var
+#define VAR_ROUTE122_STATE                   0x4075 // ENTRENADOR ESPECIAL CIUDAD FUCSIA
+#define VAR_ROUTE123_STATE                   0x4076 // ENTRENADOR ESPECIAL TUNER ROCA
+#define VAR_ROUTE124_STATE                   0x4077 // ENTRENADOR ESPECIAL CIUDAD AZULONA
+#define VAR_ROUTE125_STATE                   0x4078 // ENTRENADOR ESPECIAL MUSEO PLATEADA
+#define VAR_ROUTE126_STATE                   0x4079 // ENTRENADOR ESPECIAL CIUDAD VERDE
+#define VAR_ROUTE127_STATE                   0x407A // SECUNDARIA EEVEES
 #define VAR_ROUTE128_STATE                   0x407B
-#define VAR_ROUTE129_STATE                   0x407C // Unused Var
+#define VAR_ROUTE129_STATE                   0x407C // PRESIDENTE SILPH MASTER BALL
 #define VAR_ROUTE130_STATE                   0x407D // CHICA SILPH IMÁN
 #define VAR_ROUTE131_STATE                   0x407E // EMPLEADO SILPH LLAVE MAGNÉTICA
 #define VAR_ROUTE132_STATE                   0x407F // MAESTRO DOJO KARATE

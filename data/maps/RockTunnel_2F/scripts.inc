@@ -460,3 +460,88 @@ RockTunnel_2F_Combate_Miguel_Move_12:
 walk_left
 walk_left
 step_end
+
+RockTunnel_2F_Entrenador_Especial::
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE123_STATE, 1
+release
+end
+
+RockTunnel_2F_Entrenador_Especial_Texto_1:
+.string "AVALANCHA es un gran movimiento,\n"
+	.string "pero a veces peca de falta de\l"
+	.string "potencia, y de ese efecto de\l"
+	.string "retroceso no se verán beneficiados\l"
+	.string "los tipo ROCA como GOLEM o RHYDON\l"
+	.string "por su pésima velocidad, hace rato\l"
+	.string "que busco un ENTRENADOR digno de\l"
+	.string "enfrentarme, no sabes cuánto llevo\l"
+	.string "entrenando en esta cueva, esos\l"
+	.string "MONTAÑEROS y POKEMANÍACOS me\l"
+	.string "aburren ya por su bajo nivel, solo\l"
+	.string "lucharé contra alguien que tenga\l"
+	.string "las 8 MEDALLAS de GIMNASIO, si tú\l"
+	.string "las tienes y me derrotas, te daré\l"
+	.string "algo aún más contundente que\l"
+	.string "AVALANCHA.$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_2:
+.string "...\n"
+	.string "...$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_3:
+.string "No, parece que tú tampoco estás\n"
+	.string "listo, seguiré entrenando aquí en\l"
+	.string "solitario hasta que aparezca un\l"
+	.string "rival digno.$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_4:
+.string "ROCA AFILADA cuenta con 100 de\n"
+	.string "POTENCIA y 80 de PRECISIÓN, a\l"
+	.string "pesar de su mejorable PRECISIÓN,\l"
+	.string "tiene alto índice de crítico, y es\l"
+	.string "una cobertura perfecta para\l"
+	.string "TERREMOTO, POKÉMON como RHYDON,\l"
+	.string "GOLEM, AERODACTYL, o incluso\l"
+	.string "MACHAMP harán destrozos con este\l"
+	.string "movimiento.$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_5:
+.string "¿Eso es lo que creo que es?\n"
+	.string "¡Debes de ser muy fuerte para\l"
+	.string "haber derrotado a todos los\l"
+	.string "LÍDERES!\l"
+	.string "¡Mi equipo está ansioso por\l"
+	.string "conocer su límites de una vez!$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_6:
+.string "Entonces, ¿aceptas el reto?$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_7:
+.string "Veremos si eres capaz de sacarme\n"
+	.string "de la monotonía de este lugar.$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_8:
+.string "¡Ha sido lo mejor que he visto\n"
+	.string "desde que estoy aquí!$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_9:
+.string "Vaya, definitivamente si que\n"
+	.string "tienes el nivel de los mejores\l"
+	.string "ENTRENADORES de esta región, lo\l"
+	.string "prometido es deuda, aquí tienes.$"
+
+RockTunnel_2F_Entrenador_Especial_Texto_10:
+.string "Me temo que tendré que seguir\n"
+	.string "conformándome con derrotar a los\l"
+	.string "mismo MONTAÑEROS y POKEMANÍACOS de\l"
+	.string "nuevo...$"
