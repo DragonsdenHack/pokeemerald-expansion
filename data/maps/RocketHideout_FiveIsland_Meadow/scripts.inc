@@ -1,9 +1,11 @@
 RocketHideout_FiveIsland_Meadow_MapScripts::
 	.byte 0
 	
-RocketHideoutFiveIslanMeadow23::     
-call_if_set FLAG_ENABLE_ENGLISH, RocketHideoutFiveIslanMeadow23English
-goto RocketHideoutFiveIslanMeadow23Spanish
+RocketHideoutFiveIslanMeadow23::
+call Script_SetGrayscaleTint
+@call_if_set FLAG_ENABLE_ENGLISH, RocketHideoutFiveIslanMeadow23English
+call RocketHideoutFiveIslanMeadow23Spanish
+call Script_RemoveTint
 end
 
 RocketHideoutFiveIslanMeadow23English::
@@ -18,7 +20,7 @@ lock
 faceplayer
 msgbox RocketHideoutFiveIslandMeadow_Text_Spanish, MSGBOX_DEFAULT
 release     
-end
+return
 
 RocketHideoutFiveIslanMeadow22::     
 lock     

@@ -60,6 +60,7 @@ extern bool8 (*gFieldCallback2)(void);
 extern u8 gLocalLinkPlayerId;
 extern u8 gFieldLinkPlayerCount;
 extern bool8 gExitStairsMovementDisabled;
+extern u8 gGlobalFieldTintMode;
 
 // Exported ROM declarations
 extern const struct UCoords32 gDirectionToVectors[];
@@ -77,6 +78,8 @@ void LoadObjEventTemplatesFromHeader(void);
 void LoadSaveblockObjEventScripts(void);
 void SetObjEventTemplateCoords(u8 localId, s16 x, s16 y);
 void SetObjEventTemplateMovementType(u8 localId, u8 movementType);
+void InitMapView(void);
+void RemoveTintFromObjectEvents(void);
 const struct MapLayout *GetMapLayout(void);
 void ApplyCurrentWarp(void);
 struct MapHeader const *const Overworld_GetMapHeaderByGroupAndId(u16 mapGroup, u16 mapNum);

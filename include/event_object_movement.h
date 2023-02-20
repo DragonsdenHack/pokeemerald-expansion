@@ -435,6 +435,7 @@ void SetVirtualObjectSpriteAnim(u8 virtualObjId, u8 animNum);
 bool32 IsVirtualObjectAnimating(u8 virtualObjId);
 bool8 IsObjectEventPaletteIndex(u8 paletteIndex);
 u8 GetObjectEventIdByLocalId(u8 localId);
+void RemoveTintFromObjectEventPalettes(void);
 
 // run slow
 u8 GetPlayerRunSlowMovementAction(u32);
