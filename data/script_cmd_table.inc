@@ -230,6 +230,10 @@ gScriptCmdTable::
 	.4byte ScrCmd_checkmoncatch             @ 0xe3
 	.4byte ScrCmd_checkitem2                @ 0xe4
 	.4byte ScrCmd_checkpcitem2              @ 0xe5
+	.4byte SrcCmd_setdisguise              	@ 0xe6
+	.4byte SrcCmd_cleardisguise            	@ 0xe7
+	.4byte SrcCmd_setbacksprite				@ 0xe8
+	.4byte SrcCmd_resetbacksprite			@ 0xe9
 
 gScriptCmdTableEnd::
 	.4byte ScrCmd_nop

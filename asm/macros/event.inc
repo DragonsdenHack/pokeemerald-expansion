@@ -1756,6 +1756,30 @@
 	.2byte \quantity
 	.endm
 
+	@comando cambiar overworld tiempo real
+    .macro setdisguise id:req, canrun=0, canridebike=0, cansurf=0, canfish=0, canirrigate=0
+    .byte 0xe6
+    .2byte \id
+    .byte \canrun
+    .byte \canridebike
+    .byte \cansurf
+    .byte \canfish
+    .byte \canirrigate
+    .endm
+
+    .macro cleardisguise
+    .byte 0xe7
+    .endm
+
+	.macro setbacksprite id:req
+	.byte 0xe8
+	.byte \id
+	.endm
+
+	.macro resetbacksprite
+	.byte 0xe9
+	.endm
+
 
 @ Supplementary
 
