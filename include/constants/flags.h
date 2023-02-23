@@ -754,9 +754,9 @@
 #define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F // clear azul b.rocket// CLEAR AZUL ROCKET HIDEOUT 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel/clear clefairy proton torre 7F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON // clear lance escena 2//clear Oak y Dalia Pueblo paleta
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne // clear rockets torre pkmn 7F
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //ESTADO EN SETFLAG
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL // proton y fuji P7 torre pkmn//CLEAR RECLUTA ROCKET HIDEOUT 8F
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne // clear rockets torre pkmn 7F// clear giovanni rojo gymnasio verde
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //set proton escena 8
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL // proton y fuji P7 torre pkmn//CLEAR RECLUTA ROCKET HIDEOUT 8F//clear giovanni base verde
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE // BALL TUNEL ROCA //proton torre pkmn 6F// Rockets castigo base 4F
 #define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // ANDRA DESPACHO ATLAS //clearflag rockets post derrota rojo mt.moon// policias casa bill
 #define FLAG_HIDE_MEW                                               0x2CE
@@ -777,7 +777,7 @@
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // ANDRA CASA CONSUL //PROTON TUNEL ROCA // FUJI P1 TORRE PKMN// clear oak y blaine Escena 7
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC // CLEARFLAG LIBRE
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD 
-#define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // CLEARFLAG LIBRE
+#define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // CLEARFLAG EJECUTIVO ROCKET GIMNASIO VERDE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF // POLICIAS CENTRAL RUTA 10
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0 // ESTAFADOR MAGIKARP RUTA 4
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1 // ANDRA ROCKET S4

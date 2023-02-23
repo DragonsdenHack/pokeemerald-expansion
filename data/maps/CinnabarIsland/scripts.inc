@@ -110,8 +110,24 @@ delay 30
 playse SE_POKENAV_HANG_UP
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
-msgbox PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4, MSGBOX_AUTOCLOSE
+msgbox CinnabarIsland_Escena_8_Texto_1, MSGBOX_AUTOCLOSE
+delay 10
+msgbox CinnabarIsland_Escena_8_Texto_2, MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
 setvar VAR_UNUSED_0x40F7, 82
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+delay 90
+warpsilent MAP_VIRIDIAN_CITY_GYM, 2, 0
 release
 end
+
+CinnabarIsland_Escena_8_Texto_1:
+.string "PETREL: ¿¡{PLAYER}!? ¿Ya tienes las 7\n"
+	.string "MEDALLAS? ¡Excelente!$"
+
+CinnabarIsland_Escena_8_Texto_2:
+.string "Escucha {PLAYER}, GIOVANNI en estos\n"
+	.string "momentos está muy ocupado, no puedo\l"
+	.string "darte detalles, pero debes dirigirte al\l"
+	.string "GIMNASIO de CIUDAD VERDE. Nada más.$"

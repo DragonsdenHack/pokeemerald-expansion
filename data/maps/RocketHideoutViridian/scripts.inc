@@ -1,5 +1,10 @@
 RocketHideoutViridian_MapScripts::
-	.byte 0
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideoutViridian_OnFrame
+    .byte 0
+
+RocketHideoutViridian_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 83, RocketHideoutViridian_Escena_8
+	.2byte 0
 
 RocketHideoutViridian4::
 end
@@ -496,3 +501,132 @@ step_end
 RocketHideoutViridian_Combate_Atlas_Move_10:
 face_left
 step_end
+
+RocketHideoutViridian_Escena_8::
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideoutViridian_Escena_8_Move_5
+waitmovement 0x0
+delay 50
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
+fadescreen 1
+delay 20
+addobject 16
+fadescreen 0
+delay 30
+msgbox RocketHideoutViridian_Escena_8_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideoutViridian_Escena_8_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 17, RocketHideoutViridian_Escena_8_Move_1
+waitmovement 0x0
+msgbox RocketHideoutViridian_Escena_8_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 16, RocketHideoutViridian_Escena_8_Move_2
+waitmovement 0x0
+msgbox RocketHideoutViridian_Escena_8_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 16, RocketHideoutViridian_Escena_8_Move_4
+waitmovement 0x0
+msgbox RocketHideoutViridian_Escena_8_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 16, RocketHideoutViridian_Escena_8_Move_3
+waitmovement 0x0
+msgbox RocketHideoutViridian_Escena_8_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 17, RocketHideoutViridian_Escena_8_Move_1
+waitmovement 0x0
+msgbox RocketHideoutViridian_Escena_8_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 16, RocketHideoutViridian_Escena_8_Move_1
+waitmovement 0x0
+msgbox RocketHideoutViridian_Escena_8_Texto_8 MSGBOX_AUTOCLOSE
+delay 10
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+clearflag FLAG_HIDE_PLAYERS_HOUSE_DAD
+fadescreen 1
+delay 20
+removeobject 16
+fadescreen 0
+delay 40
+warpsilent MAP_CINNABAR_ISLAND, 20, 5
+release
+end
+
+RocketHideoutViridian_Escena_8_Move_1:
+walk_in_place_down
+step_end
+
+RocketHideoutViridian_Escena_8_Move_2:
+face_right
+step_end
+
+RocketHideoutViridian_Escena_8_Move_3:
+walk_in_place_up
+step_end
+
+RocketHideoutViridian_Escena_8_Move_4:
+face_up
+step_end
+
+RocketHideoutViridian_Escena_8_Move_5:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+RocketHideoutViridian_Escena_8_Texto_1:
+.string "PROTÓN: ¿Se ha acabado?$"
+
+RocketHideoutViridian_Escena_8_Texto_2:
+.string "GIOVANNI: Efectivamente PROTÓN.\n"
+	.string "Oficialmente, para KANTO ya no\l"
+	.string "existimos.$"
+
+RocketHideoutViridian_Escena_8_Texto_3:
+.string "PROTÓN: Se lo ha puesto demasiado\n"
+	.string "fácil, ¿no cree? Siquiera se ha dignado\l"
+	.string "a usar un RHYDON, mucho menos a su\l"
+	.string "RHYPER…$"
+
+RocketHideoutViridian_Escena_8_Texto_4:
+.string "GIOVANNI: No merece ver el menor atisbo\n"
+	.string "de poder físico en esta región. Le han\l"
+	.string "regalado el camino hasta aquí, y yo les\l"
+	.string "devolveré el favor con intereses. Mi\l"
+	.string "hipocresía respecto a ROJO será aún\l"
+	.string "mayor.$"
+
+RocketHideoutViridian_Escena_8_Texto_5:
+.string "Esta región se ha vuelto tan mediocre,\n"
+	.string "que a nadie le chirría ni sorprende que\l"
+	.string "el último LÍDER use a un vulgar RHYHORN\l"
+	.string "sin evolucionar como POKÉMON insignia.\l"
+	.string "Que así sea pues, que se ahoge en las 0\l"
+	.string "exigencias, que se aburra de ganar\l"
+	.string "sabiendo el resultado de antemano.$"
+
+RocketHideoutViridian_Escena_8_Texto_6:
+.string "¡PROTÓN! ¡Quiero todo listo para que el\n"
+	.string "verdadero GIMNASIO de CIUDAD VERDE\l"
+	.string "abra sus puertas a ANDRA y {PLAYER}!$"
+
+RocketHideoutViridian_Escena_8_Texto_7:
+.string "PROTÓN: Está todo dispuesto señor. En\n"
+	.string "cuanto a lo de su…$"
+
+RocketHideoutViridian_Escena_8_Texto_8:
+.string "GIOVANNI: Lo sé, debo salir\n"
+	.string "inmediatamente. El hacer pública mi\l"
+	.string "disolución le ha agitado, necesita ser\l"
+	.string "calmado.$"
+
