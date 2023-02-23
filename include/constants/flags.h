@@ -748,14 +748,14 @@
 #define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // ANDRA PUERTO ISLA INTA set // clear motero carmin // clear Miguel Mt.moon //clear blaine b.rocket
 #define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO // clear Rojo Mt.moon// clear marineros ssanne //clear cultistas torre pkmn
 #define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // CLEAR FLAG MISION EEVEES
-#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA //clear koga b.rocket //clear cazabichos casa pescador
+#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA //clear koga b.rocket //clear cazabichos casa pescador//clear PROTON casa fuji
 #define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4 // ANDRA CUARTEL PETREL // clear andra b.rocket //clear guarda casa pescador
 #define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // RECLUTA CELESTE EXCAVAR //SET PATENTE BILL // clear lance b.rocket //clear Lance y polis Silph
 #define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F // clear azul b.rocket// CLEAR AZUL ROCKET HIDEOUT 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel/clear clefairy proton torre 7F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON // clear lance escena 2//clear Oak y Dalia Pueblo paleta
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne // clear rockets torre pkmn 7F
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //koga afueras fucsia
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //ESTADO EN SETFLAG
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL // proton y fuji P7 torre pkmn//CLEAR RECLUTA ROCKET HIDEOUT 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE // BALL TUNEL ROCA //proton torre pkmn 6F// Rockets castigo base 4F
 #define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // ANDRA DESPACHO ATLAS //clearflag rockets post derrota rojo mt.moon// policias casa bill
@@ -763,7 +763,7 @@
 #define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // 
 #define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 // 
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // CLEARFLAG ANDRA RUTA 10 //clearflag Koga afueras fucsia
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // CLEARFLAG ANDRA RUTA 10 //clearflag Koga afueras fucsia// //clear ltsurgue y policias casa fuji
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3 // ANDRA IDA SSANNE //GIOVANNI BASE PROFUNDA//ANDRA ADMIN ROCKET 8F
 #define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // GENTE TAPANDO ACCESO SSANNE 3F + AZUL//clear Azul Silph 2
 #define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5 // ANDRA DENTRO SSANNE 3F // ROCKETS ESCENA LANCE
@@ -774,7 +774,7 @@
 #define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
 
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA // CONSUL
-#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // ANDRA CASA CONSUL //PROTON TUNEL ROCA // FUJI P1 TORRE PKMN
+#define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // ANDRA CASA CONSUL //PROTON TUNEL ROCA // FUJI P1 TORRE PKMN// clear oak y blaine Escena 7
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC // CLEARFLAG LIBRE
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD 
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // CLEARFLAG LIBRE
@@ -783,7 +783,7 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1 // ANDRA ROCKET S4
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2 // MIGUEL TUNEL ROCA
 #define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3 // KANGASKHAN TUNEL ROCA
-#define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4 // CLEARFLAG LIBRE
+#define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4 // FUJI CASA PUEBLO LAVANDA
 #define FLAG_HIDE_ROUTE_109_MR_BRINEY                               0x2E5 // CLEARFLAG LIBRE
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT                          0x2E6
 #define FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN                       0x2E7
@@ -801,7 +801,7 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4 // CLEARFLAG USADA HABITANTES AZAFRAN DESPUES INVASION SILPH
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               0x2F5 // MOTORISTA SECUNDARIA AZAFRAN
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6 // FUJI BLAINE MANSION Y ROCKET Y POLICIAS EN CIUDAD AZAFRAN 
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7 // LIBRE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8 // LIBRE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9 // LIBRE
@@ -829,9 +829,9 @@
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // AZUL TORRE PKMN 2F
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311 // LIBRE
-#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // CUBONE TORRE PKMN 5F //clear Miguel y Bill Silph
+#define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // CUBONE TORRE PKMN 5F //clear Miguel y Bill Silph//clear Ladron Mansion
 #define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // FUJI TORRE PKMN 5F//clear Andra y Giovanni Silph
-#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // ANDRA BASE PROFUNDA //clear Atlas Silph
+#define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // ANDRA BASE PROFUNDA //clear Atlas Silph //científico mansion canela
 #define FLAG_HIDE_FANCLUB_OLD_LADY                                  0x315 // PROTON ROCKET HIDEOUT 4F //clear surge power plant
 #define FLAG_HIDE_FANCLUB_BOY                                       0x316 // PETREL CIUDAD PLATEADA //clear azul Silph
 #define FLAG_HIDE_FANCLUB_LITTLE_BOY                                0x317 // GORDOS BLOQUEANDO ACCESO BOSQUE VERDE, CMIGUEL, FOSIL Y PETREL MUSEO PLATEADA
@@ -849,8 +849,8 @@
 #define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 // PETREL POWER PLANT
 #define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324 // POLICIA ANDRA ATLAS LORELEI POWERPLANT
 #define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325 // ANDRA Y PETREL CIUDAD AZAFRAN
-#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326 // LIBRE
-#define FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND                   0x327 // LIBRE
+#define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326 // SECUNDARIA CIENTIFICO LABORATORIO CANELA
+#define FLAG_HIDE_RUSTURF_TUNNEL_WANDAS_BOYFRIEND                   0x327 // SECUNDARIA LADRONES MANSION POKEMON
 #define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND     0x328 // LIBRE
 #define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE         0x329 // LIBRE
 #define FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT                           0x32A // LIBRE

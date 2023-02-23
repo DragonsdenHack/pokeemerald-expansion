@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VermilionCityGym1",
+      "script": "Vermilion_City_Lider_Gimnasio",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VermilionCityGym4",
+      "script": "Vermilion_City_Gym_Guy",
       "flag": "0"
     },
     {
@@ -109,7 +109,7 @@
       "x": 0,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -118,7 +118,7 @@
       "x": 1,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -127,7 +127,7 @@
       "x": 2,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -136,7 +136,7 @@
       "x": 4,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -145,7 +145,7 @@
       "x": 5,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -154,7 +154,7 @@
       "x": 6,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -163,7 +163,7 @@
       "x": 8,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -172,7 +172,7 @@
       "x": 9,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
@@ -181,18 +181,90 @@
       "x": 10,
       "y": 17,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40F9",
+      "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
       "script": "VermilionCityGym_NoPass"
     },
     {
       "type": "trigger",
-      "x": 0,
-      "y": 0,
+      "x": 10,
+      "y": 18,
       "elevation": 0,
-      "var": "VAR_TEMP_0",
-      "var_value": "0",
-      "script": "NULL"
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE108_STATE",
+      "var_value": "1",
+      "script": "VermilionCityGym_Can_Pass"
     }
   ],
   "bg_events": [
@@ -202,7 +274,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Vermilion_City_Estatua"
     },
     {
       "type": "sign",
@@ -210,7 +282,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Vermilion_City_Estatua"
     },
     {
       "type": "sign",

@@ -230,6 +230,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "58",
       "script": "ViridianCity_Escena_5"
+    },
+    {
+      "type": "trigger",
+      "x": 36,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Viridian_City_Frontera_Gym"
     }
   ],
   "bg_events": [

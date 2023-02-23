@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeladonCityGym1",
+      "script": "Celadon_Ciyy_Lider_Gimnasio",
       "flag": "0"
     },
     {
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_13"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_11"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_F",
@@ -141,8 +141,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_12"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS2",
@@ -182,7 +182,132 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "0",
+      "script": "CeladonCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "0",
+      "script": "CeladonCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "0",
+      "script": "CeladonCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "0",
+      "script": "CeladonCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "1",
+      "script": "CeladonCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "0",
+      "script": "CeladonCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "0",
+      "script": "CeladonCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "0",
+      "script": "CeladonCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "1",
+      "script": "CeladonCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "1",
+      "script": "CeladonCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "1",
+      "script": "CeladonCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "1",
+      "script": "CeladonCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "1",
+      "script": "CeladonCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_ROUTE107_STATE",
+      "var_value": "1",
+      "script": "CeladonCityGym_Can_Pass"
+    }
   ],
   "bg_events": [
     {
@@ -191,7 +316,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Celadon_Ciyy_Estatua"
     },
     {
       "type": "sign",
@@ -199,7 +324,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Celadon_Ciyy_Estatua"
     }
   ]
 }

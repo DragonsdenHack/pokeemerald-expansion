@@ -1,5 +1,10 @@
 CinnabarIsland_MapScripts::
-	.byte 0
+map_script MAP_SCRIPT_ON_FRAME_TABLE, CinnabarIsland_OnFrame
+    .byte 0
+
+CinnabarIsland_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 81, CinnabarIsland_Escena_8
+	.2byte 0
 
 CinnabardIsland1::
 lock     
@@ -58,3 +63,55 @@ CinnabarIslandDocumento_Text_102:
 	.string "LÍDER DE GIMNASIO de CANELA:\n"
 	.string "BLAINE\l"
 	.string "¡El maestro de los acertijos!$"
+
+
+Cinnabar_Island_Gimnasio_Cerrado::
+compare VAR_ROUTE105_STATE, 3
+goto_if_lt Cinnabar_Island_Gimnasio_Cerrado_2
+compare VAR_ROUTE108_STATE, 3
+goto_if_lt Cinnabar_Island_Gimnasio_Cerrado_2
+compare VAR_ROUTE111_STATE, 3
+goto_if_lt Cinnabar_Island_Gimnasio_Cerrado_2
+compare VAR_ROUTE109_STATE, 3
+goto_if_lt Cinnabar_Island_Gimnasio_Cerrado_2
+compare VAR_ROUTE106_STATE, 3
+goto_if_lt Cinnabar_Island_Gimnasio_Cerrado_2
+compare VAR_ROUTE107_STATE, 3
+goto_if_lt Cinnabar_Island_Gimnasio_Cerrado_2
+release
+end
+
+
+Cinnabar_Island_Gimnasio_Cerrado_2::
+applymovement OBJ_EVENT_ID_PLAYER, Cinnabar_Island_Gimnasio_Cerrado_Move_1
+waitmovement 0x0
+msgbox Cinnabar_Island_Gimnasio_Cerrado_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Cinnabar_Island_Gimnasio_Cerrado_Move_2
+waitmovement 0x0
+release
+end
+
+Cinnabar_Island_Gimnasio_Cerrado_Move_1:
+walk_in_place_up
+step_end
+
+Cinnabar_Island_Gimnasio_Cerrado_Move_2:
+walk_slow_down
+step_end
+
+Cinnabar_Island_Gimnasio_Cerrado_Texto_1:
+.string "(El GIMNASIO parece estar\n"
+	.string "completamente cerrado, mejor ir\l"
+	.string "mientras a por las otras MEDALLAS).$"
+
+CinnabarIsland_Escena_8::
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+msgbox PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4, MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 82
+release
+end

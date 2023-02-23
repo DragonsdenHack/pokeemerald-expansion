@@ -104,3 +104,21 @@ ViridianCityGym_EventScript_Guay3::
 	trainerbattle_single TRAINER_HUMBERTO, ViridianCityGym_Text_Guay3Intro, ViridianCityGym_Text_Guay3Defeated
 	msgbox ViridianCityGym_Text_Guay3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Viridian_City_Frontera_Gym::
+compare VAR_UNUSED_0x40F7, 82
+goto_if_gt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox Viridian_Gym_Texto_Prohibido_Pasar MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Viridian_City_Frontera_Gym_Move_2
+waitmovement 0x0
+release
+end
+
+Viridian_Gym_Texto_Prohibido_Pasar:
+.string "(El GIMNASIO está cerrado).$"
+
+Viridian_City_Frontera_Gym_Move_2:
+walk_slow_right
+step_end

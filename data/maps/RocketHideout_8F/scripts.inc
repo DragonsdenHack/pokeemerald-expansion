@@ -1197,43 +1197,152 @@ walk_down
 step_end
 
 RocketHideout_8F_Mision_Gimnasios::
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+removeobject 2
+clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+addobject 3
+addobject 4
+playse SE_EXIT
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_3
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_4
+waitmovement 0x0
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_6
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_4 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_7
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_5 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_6 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
+addobject 5
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
+applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_8
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_8 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_10
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_9 MSGBOX_AUTOCLOSE
+applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_7
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_10 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_11 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_11
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_12 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_13 MSGBOX_AUTOCLOSE
+applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_7
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_14 MSGBOX_AUTOCLOSE
+applymovement 5, RocketHideout_8F_Mision_Gimnasios_move_12
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
+removeobject 5
+playse SE_EXIT
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_17 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_18 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_19 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_20 MSGBOX_AUTOCLOSE
+applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_13
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_22 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_23 MSGBOX_AUTOCLOSE
+playse MUS_RG_OBTAIN_KEY_ITEM
+addobject ITEM_TRI_PASS
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_23.1 MSGBOX_DEFAULT
+waitse
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_24 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_26 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_27 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_28 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_29 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Gimnasios_texto_30 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
+waitmovement 0x0
+playse MUS_RG_VICTORY_GYM_LEADER
+msgbox RocketHideout_8F_Mision_Gimnasios_texto_30 MSGBOX_DEFAULT
+delay 110
+playse MUS_RG_ROCKET_HIDEOUT
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_31 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_32 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_33 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_15
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+removeobject 4
+applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_34 MSGBOX_AUTOCLOSE
+applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_35 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_14
+waitmovement 0x0
+applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_16
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+removeobject 3
+playse SE_EXIT
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_17
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_36 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_37 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 79
+setvar VAR_ROUTE111_STATE, 1
+setvar VAR_ROUTE107_STATE, 1
+setvar VAR_ROUTE108_STATE, 1
+setvar VAR_ROUTE109_STATE, 1
+setvar VAR_ROUTE106_STATE, 1
+setvar VAR_ROUTE105_STATE, 1
 release
 end
 
@@ -1338,16 +1447,16 @@ RocketHideout_8F_Mision_Gimnasios_texto_14:
 	.string "Ejecutivos...$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
-.string "PROTÓN: Maldito BLAINE, nos ha vendido\n"
-	.string "a todos, FUJI tenía la certeza de\l"
-	.string "que seguía siendo fiel a nosotros,\l"
-	.string "si LANCE sabe lo de MEWTWO estamos\l"
-	.string "todos perdidos.$"
+.string "ANDRA: ¡Maldito BLAINE! ¡Nos ha vendido\n"
+	.string "a todos! FUJI tenía la certeza de\l"
+	.string "que seguía siendo fiel a nosotros.\l"
+	.string "Si LANCE supiera lo de MEWTWO, ¿qué\l"
+	.string "podría llegar a pasar?$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_16:
-.string "GIOVANNI: No PROTÓN, hemos de\n"
+.string "GIOVANNI: No ANDRA, hemos de\n"
 	.string "confiar en que, al igual que OAK,\l"
-	.string "se ha guardado el secreto, LANCE\l"
+	.string "se ha guardado el secreto. LANCE\l"
 	.string "con MEWTWO en su poder sería la\l"
 	.string "mayor catástrofe en la historia de\l"
 	.string "esta región.$"
@@ -1404,6 +1513,10 @@ RocketHideout_8F_Mision_Gimnasios_texto_23:
 	.string "ninguna traba para entrar a\l"
 	.string "cualquier GIMNASIO.$"
 
+RocketHideout_8F_Mision_Gimnasios_texto_23.1:
+.string "¡OBTUVISTE UNA LICENCIA ENTRENADOR DE\n"
+	.string "MANOS DE GIOVANNI!$"
+
 RocketHideout_8F_Mision_Gimnasios_texto_24:
 .string "Aún así, por supuesto que pueden\n"
 	.string "negaros el paso por ser ROCKETS,\l"
@@ -1415,9 +1528,9 @@ RocketHideout_8F_Mision_Gimnasios_texto_24:
 	.string "perfectamente.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_25:
-.string "PROTÓN: Se olerán algo raro, y el\n"
-	.string "LT.SURGE ya ha visto a {PLAYER}\l"
-	.string "varias veces.$"
+.string "ANDRA: Se olerán algo raro, y el\n"
+	.string "LT.SURGE ya nos ha visto varias\l"
+	.string "veces.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_26:
 .string "GIOVANNI: El LT.SURGE cree que\n"

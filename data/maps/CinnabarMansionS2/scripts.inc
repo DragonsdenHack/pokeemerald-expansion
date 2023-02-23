@@ -1,5 +1,10 @@
 CinnabarMansionS2_MapScripts::
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, CinnabarMansionS2_OnFrame
 	.byte 0
+
+CinnabarMansionS2_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 78, CinnabarMansion_S2_Escena_7
+	.2byte 0
 
 CinnabarMansionS2_EventScript_Cientifico::
 	trainerbattle_single TRAINER_MARY, CinnabarMansionS2_Text_CientificoIntro, CinnabarMansionS2_Text_CientificoDefeated
@@ -885,21 +890,94 @@ walk_slow_right
 step_end
 
 CinnabarMansion_S2_Escena_7::
+clearflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+addobject 6
+addobject 7
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, CinnabarMansion_S2_Escena_7_Move_1
+waitmovement 0x0
+special RemoveCameraObject
 msgbox CinnabarMansion_S2_Escena_7_Texto_1 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansion_S2_Escena_7_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, CinnabarMansion_S2_Escena_7_Move_2
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 6, CinnabarMansion_S2_Escena_7_Move_3
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, CinnabarMansion_S2_Escena_7_Move_4
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, CinnabarMansion_S2_Escena_7_Move_3
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_6 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansion_S2_Escena_7_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 7, CinnabarMansion_S2_Escena_7_Move_5
+waitmovement 0x0
+delay 20
 msgbox CinnabarMansion_S2_Escena_7_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 7, CinnabarMansion_S2_Escena_7_Move_6
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 7, CinnabarMansion_S2_Escena_7_Move_2
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 7, CinnabarMansion_S2_Escena_7_Move_7
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 6, CinnabarMansion_S2_Escena_7_Move_3
+waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
 msgbox CinnabarMansion_S2_Escena_7_Texto_13 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+warpsilent MAP_ROCKET_HIDEOUT_5F, 0, 13
 release
 end
+
+CinnabarMansion_S2_Escena_7_Move_2:
+face_down
+step_end
+
+CinnabarMansion_S2_Escena_7_Move_3:
+walk_in_place_left
+step_end
+
+CinnabarMansion_S2_Escena_7_Move_4:
+face_right
+step_end
+
+CinnabarMansion_S2_Escena_7_Move_5:
+face_up
+step_end
+
+CinnabarMansion_S2_Escena_7_Move_6:
+walk_slow_up
+step_end
+
+CinnabarMansion_S2_Escena_7_Move_7:
+walk_slow_down
+walk_in_place_right
+step_end
+
+CinnabarMansion_S2_Escena_7_Move_1:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
 
 CinnabarMansion_S2_Escena_7_Texto_1:
 .string "OAK: Sabes que, por lo general, prefiero\n"

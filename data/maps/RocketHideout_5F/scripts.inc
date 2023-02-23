@@ -2238,7 +2238,7 @@ clearflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Escena_5_Move_1
 setvar VAR_UNUSED_0x40F7, 77
-warpsilent MAP_LAVENDER_TOWN_FUJI_HOUSE, 5, 0
+warpsilent MAP_LAVENDER_TOWN_FUJI_HOUSE, 8, 0
 waitmovement 0x0
 release
 end

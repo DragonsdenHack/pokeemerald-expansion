@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeruleanCityGym3",
+      "script": "Cerulean_City_Lider_Gimnasio",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CeruleanCityGym4",
+      "script": "Cerulean_City_Gym_Guy",
       "flag": "0"
     }
   ],
@@ -77,7 +77,96 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "0",
+      "script": "CeruleanCityGym_NoPass_Der"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "0",
+      "script": "CeruleanCityGym_NoPass_Izq"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "0",
+      "script": "VermilionCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "0",
+      "script": "VermilionCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "0",
+      "script": "VermilionCityGym_NoPass"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "1",
+      "script": "CeruleanCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "1",
+      "script": "CeruleanCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "1",
+      "script": "CeruleanCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "1",
+      "script": "CeruleanCityGym_Can_Pass"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 18,
+      "elevation": 0,
+      "var": "VAR_ROUTE109_STATE",
+      "var_value": "1",
+      "script": "CeruleanCityGym_Can_Pass"
+    }
   ],
   "bg_events": [
     {
@@ -86,7 +175,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Cerulean_City_Estatua"
     },
     {
       "type": "sign",
@@ -94,7 +183,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Cerulean_City_Estatua"
     }
   ]
 }
