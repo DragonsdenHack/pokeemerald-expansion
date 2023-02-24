@@ -258,19 +258,53 @@ walk_slow_down
 step_end
 
 CeladonCity_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE124_STATE, 0
+goto_if_gt CeladonCity_Entrenador_Especial_3
 msgbox CeladonCity_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox CeladonCity_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+compare VAR_UNUSED_0x40F7, 87
+goto_if_gt CeladonCity_Entrenador_Especial_2
 msgbox CeladonCity_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+CeladonCity_Entrenador_Especial_2::
 msgbox CeladonCity_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Entrenador_Especial_Texto_6 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CeladonCity_Entrenador_Especial_2_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox CeladonCity_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LLAMASFERA, CeladonCity_Entrenador_Especial_Texto_8
 msgbox CeladonCity_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_FLAME_ORB
+msgbox CeladonCity_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox CeladonCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE124_STATE, 1
 release
 end
+
+
+CeladonCity_Entrenador_Especial_2_No::
+msgbox CeladonCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+
+CeladonCity_Entrenador_Especial_3::
+msgbox CeladonCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+CeladonCity_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste LLAMASFERA de manos de\n"
+	.string "ANCIANO!$"
 
 CeladonCity_Entrenador_Especial_Texto_1:
 .string "La contaminación en AZULONA es\n"
@@ -325,7 +359,7 @@ CeladonCity_Entrenador_Especial_Texto_8:
 	.string "espero que llegues muy lejos.$"
 
 CeladonCity_Entrenador_Especial_Texto_9:
-.string "Ojalá algún día mi nieto alcanze\n"
+.string "Ojalá algún día mi nieto alcance\n"
 	.string "un nivel parecido al tuyo, ten\l"
 	.string "esto, según la situación puede\l"
 	.string "serte muy útil.$"

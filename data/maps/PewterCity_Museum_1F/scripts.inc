@@ -388,19 +388,51 @@ walk_down
 step_end
 
 PewterCity_Museum_1F_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE125_STATE, 0
+goto_if_gt PewterCity_Museum_1F_Entrenador_Especial_3
 msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+compare VAR_UNUSED_0x40F7, 87
+goto_if_gt PewterCity_Museum_1F_Entrenador_Especial_2
 msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
-msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+PewterCity_Museum_1F_Entrenador_Especial_2::
 msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
-msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_6 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq PewterCity_Museum_1F_Entrenador_Especial_2_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
-msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CINTAELEGIDA, PewterCity_Museum_1F_Entrenador_Especial_Texto_8
 msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
-msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_CHOICE_BAND
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE125_STATE, 1
 release
 end
+
+PewterCity_Museum_1F_Entrenador_Especial_2_No::
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+PewterCity_Museum_1F_Entrenador_Especial_3::
+msgbox PewterCity_Museum_1F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+PewterCity_Museum_1F_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste CINTA ELEGIDA de manos\n"
+	.string "de CIENTÍFICO!$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
 .string "Te seré sincero MOV.SÍSMICO es un\n"
