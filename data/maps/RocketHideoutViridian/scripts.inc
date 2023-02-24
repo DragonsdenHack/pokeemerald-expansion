@@ -148,12 +148,35 @@ RocketHideoutViridian_EventScript_Cientifico4::
 	msgbox RocketHideoutViridian_Text_Cientifico4PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+RocketHideoutViridian_Combate_Proton_Izq::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Proton_Move_1
+waitmovement 0x0
+goto RocketHideoutViridian_Combate_Proton
+
+RocketHideoutViridian_Combate_Proton_Der::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Proton_Move_1.1
+waitmovement 0x0
+goto RocketHideoutViridian_Combate_Proton
+
 RocketHideoutViridian_Combate_Proton::
+applymovement 3, RocketHideoutViridian_Combate_Proton_Move_2
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Proton_Texto_1 MSGBOX_AUTOCLOSE
 msgbox RocketHideoutViridian_Combate_Proton_Texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideoutViridian_Combate_Proton_Texto_3 MSGBOX_AUTOCLOSE
-msgbox RocketHideoutViridian_Combate_Proton_Texto_4 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+applymovement 3, RocketHideoutViridian_Combate_Proton_Move_3
+waitmovement 0x0
+delay 15
+trainerbattle_no_intro TRAINER_PROTON, RocketHideoutViridian_Combate_Proton_Texto_4 
 msgbox RocketHideoutViridian_Combate_Proton_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
+fadescreen 1
+delay 20
+removeobject 3
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 87
 release
 end
 
@@ -208,6 +231,12 @@ walk_up
 walk_up
 step_end
 
+RocketHideoutViridian_Combate_Proton_Move_1.1:
+walk_up
+walk_left
+walk_up
+step_end
+
 RocketHideoutViridian_Combate_Proton_Move_2:
 face_down
 step_end
@@ -221,12 +250,35 @@ RocketHideoutViridian_Combate_Proton_Move_4:
 face_up
 step_end
 
+RocketHideoutViridian_Combate_Petrel_Izq::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Petrel_Move_1
+waitmovement 0x0
+goto RocketHideoutViridian_Combate_Petrel
+
+RocketHideoutViridian_Combate_Petrel_Der::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Petrel_Move_1.1
+waitmovement 0x0
+goto RocketHideoutViridian_Combate_Petrel
+
 RocketHideoutViridian_Combate_Petrel::
+applymovement 2, RocketHideoutViridian_Combate_Petrel_Move_2
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 2, RocketHideoutViridian_Combate_Petrel_Move_3
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Petrel_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 2, RocketHideoutViridian_Combate_Petrel_Move_4
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox RocketHideoutViridian_Combate_Petrel_Texto_3 MSGBOX_AUTOCLOSE
-msgbox RocketHideoutViridian_Combate_Petrel_Texto_4 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_PETREL, RocketHideoutViridian_Combate_Petrel_Texto_4
 msgbox RocketHideoutViridian_Combate_Petrel_Texto_5 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
+fadescreen 1
+delay 20
+removeobject 2
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 88
 release
 end
 
@@ -275,9 +327,9 @@ RocketHideoutViridian_Combate_Petrel_Texto_5:
 	.string "derrotó a BRUNO y salvó a mis\l"
 	.string "colegas MOTORISTAS!\l"
 	.string "Me alegra que estés de nuestro\l"
-	.string "lado {PLAYER}, hazme un favor si te\l"
+	.string "lado {PLAYER}. Hazme un favor si te\l"
 	.string "llegas a cruzar con ese chico\l"
-	.string "llamado ROJO, si, ese que cree\l"
+	.string "llamado ROJO, sí, ese que cree\l"
 	.string "estar una dimensión por encima\l"
 	.string "nuestra, y piensa que es imbatible\l"
 	.string "e intocable, ¡dale una buena dosis\l"
@@ -287,6 +339,11 @@ RocketHideoutViridian_Combate_Petrel_Texto_5:
 RocketHideoutViridian_Combate_Petrel_Move_1:
 walk_up
 walk_right
+walk_up
+step_end
+
+RocketHideoutViridian_Combate_Petrel_Move_1.1:
+walk_up
 walk_up
 step_end
 
@@ -308,21 +365,67 @@ face_up
 step_end
 
 RocketHideoutViridian_Combate_Atlas::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Atlas_Move_1
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Atlas_Move_2
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideoutViridian_Combate_Atlas_Move_3
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_4
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideoutViridian_Combate_Atlas_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Atlas_Move_6
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_7
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_11
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_12
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_6 MSGBOX_AUTOCLOSE
+playse MUS_ENCOUNTER_CHAMPION
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_11
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_7 MSGBOX_AUTOCLOSE
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutViridian_Combate_Atlas_Move_8
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_9 MSGBOX_AUTOCLOSE
-msgbox RocketHideoutViridian_Combate_Atlas_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ATLAS_3, RocketHideoutViridian_Combate_Atlas_Texto_10
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_12
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_13
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideoutViridian_Combate_Atlas_Move_11
+waitmovement 0x0
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideoutViridian_Escena_9_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideoutViridian_Combate_Atlas_Texto_15 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
+setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
+fadescreen 1
+delay 20
+removeobject 1
+addobject 18
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 89
 release
 end
 
@@ -502,6 +605,18 @@ RocketHideoutViridian_Combate_Atlas_Move_10:
 face_left
 step_end
 
+RocketHideoutViridian_Combate_Atlas_Move_11:
+walk_in_place_right
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_12:
+face_up
+step_end
+
+RocketHideoutViridian_Combate_Atlas_Move_13:
+face_right
+step_end
+
 RocketHideoutViridian_Escena_8::
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RocketHideoutViridian_Escena_8_Move_5
@@ -630,3 +745,12 @@ RocketHideoutViridian_Escena_8_Texto_8:
 	.string "disolución le ha agitado, necesita ser\l"
 	.string "calmado.$"
 
+
+
+RocketHideoutViridian_Warp_Escena_9::
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
+warpsilent MAP_ROUTE22, 12, 5
+waitmovement 0x0
+release
+end

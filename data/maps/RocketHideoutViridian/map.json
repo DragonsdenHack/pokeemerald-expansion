@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PETREL",
@@ -38,20 +38,20 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROTON",
       "x": 3,
       "y": 17,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -234,6 +234,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 2,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN"
     }
   ],
   "warp_events": [
@@ -254,6 +267,69 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "Viridian_Gym_Base_Warp"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "85",
+      "script": "RocketHideoutViridian_Warp_Escena_9"
+    },
+    {
+      "type": "trigger",
+      "x": 26,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "85",
+      "script": "RocketHideoutViridian_Warp_Escena_9"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "86",
+      "script": "RocketHideoutViridian_Combate_Proton_Izq"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 21,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "86",
+      "script": "RocketHideoutViridian_Combate_Proton_Der"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "87",
+      "script": "RocketHideoutViridian_Combate_Petrel_Der"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "87",
+      "script": "RocketHideoutViridian_Combate_Petrel_Izq"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "88",
+      "script": "RocketHideoutViridian_Combate_Atlas"
     }
   ],
   "bg_events": [
