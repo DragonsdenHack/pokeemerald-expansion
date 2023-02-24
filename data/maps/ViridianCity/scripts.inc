@@ -157,19 +157,52 @@ walk_in_place_down
 step_end
 
 ViridianCity_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE126_STATE, 0
+goto_if_gt ViridianCity_Entrenador_Especial_3
 msgbox ViridianCity_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox ViridianCity_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+compare VAR_UNUSED_0x40F7, 87
+goto_if_gt ViridianCity_Entrenador_Especial_2
 msgbox ViridianCity_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
-msgbox ViridianCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+ViridianCity_Entrenador_Especial_2::
 msgbox ViridianCity_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
-msgbox ViridianCity_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox ViridianCity_Entrenador_Especial_Texto_6 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq ViridianCity_Entrenador_Especial_2_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox ViridianCity_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
-msgbox ViridianCity_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CALVIN_2, ViridianCity_Entrenador_Especial_Texto_8
 msgbox ViridianCity_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
-msgbox ViridianCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+addobject ITEM_BLACK_SLUDGE
+msgbox ViridianCity_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox ViridianCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE126_STATE, 1
 release
 end
+
+ViridianCity_Entrenador_Especial_3::
+msgbox ViridianCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+
+ViridianCity_Entrenador_Especial_2_No::
+msgbox ViridianCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+ViridianCity_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste LODO NEGRO de manos de\n"
+	.string "ENTRENADOR!$"
 
 ViridianCity_Entrenador_Especial_Texto_1:
 .string "COMESUEÑOS es el movimiento de\n"

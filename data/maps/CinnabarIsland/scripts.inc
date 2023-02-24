@@ -131,3 +131,4 @@ CinnabarIsland_Escena_8_Texto_2:
 	.string "momentos está muy ocupado, no puedo\l"
 	.string "darte detalles, pero debes dirigirte al\l"
 	.string "GIMNASIO de CIUDAD VERDE. Nada más.$"
+	
