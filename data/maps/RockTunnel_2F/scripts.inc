@@ -462,19 +462,54 @@ walk_left
 step_end
 
 RockTunnel_2F_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE123_STATE, 0
+goto_if_gt RockTunnel_2F_Entrenador_Especial_3
 msgbox RockTunnel_2F_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RockTunnel_2F_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+compare VAR_UNUSED_0x40F7, 87
+goto_if_gt RockTunnel_2F_Entrenador_Especial_2
 msgbox RockTunnel_2F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
-msgbox RockTunnel_2F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+RockTunnel_2F_Entrenador_Especial_2::
 msgbox RockTunnel_2F_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
-msgbox RockTunnel_2F_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_6 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RockTunnel_2F_Entrenador_Especial_2_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox RockTunnel_2F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
-msgbox RockTunnel_2F_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ROCAAFILADA, RockTunnel_2F_Entrenador_Especial_Texto_8
 msgbox RockTunnel_2F_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
-msgbox RockTunnel_2F_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM71
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE123_STATE, 1
 release
 end
+
+RockTunnel_2F_Entrenador_Especial_2_No::
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+
+
+
+RockTunnel_2F_Entrenador_Especial_3::
+msgbox RockTunnel_2F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+RockTunnel_2F_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste MT71 ROCA AFILADA\n"
+	.string "de manos de ENTRENADOR!$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_1:
 .string "AVALANCHA es un gran movimiento,\n"
@@ -535,7 +570,7 @@ RockTunnel_2F_Entrenador_Especial_Texto_8:
 	.string "desde que estoy aquí!$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_9:
-.string "Vaya, definitivamente si que\n"
+.string "Vaya, definitivamente, sí que\n"
 	.string "tienes el nivel de los mejores\l"
 	.string "ENTRENADORES de esta región, lo\l"
 	.string "prometido es deuda, aquí tienes.$"

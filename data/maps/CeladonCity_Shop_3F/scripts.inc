@@ -133,16 +133,40 @@ CeladonShop3FDocumento_Text_106:
 	.string "¡Parece muy difícil!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE112_STATE, 0
+goto_if_gt CeladonCity_Shop_3F_Entrenador_Especial_3
 msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CeladonCity_Shop_3F_Entrenador_Especial_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CONTADOR, CeladonCity_Shop_3F_Entrenador_Especial_Texto_5
 msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
-msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM68
+msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE112_STATE, 1
 release
 end
+
+CeladonCity_Shop_3F_Entrenador_Especial_No::
+msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+release
+end
+
+CeladonCity_Shop_3F_Entrenador_Especial_3::
+msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste MT68 GIGA IMPACTO\n"
+	.string "de manos de VENDEDOR!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1:
 .string "Si un POKÉMON resiste un\n"

@@ -82,16 +82,131 @@ Route23Documento_Text_100:
 	.string "ENTRADA A CALLE VICTORIA - LIGA\n"
 	.string "POKÉMON$"
 
-Route23_Combate_Andra:
+Ruta23_No_Puedes_Pasar::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox Ruta23_No_Puedes_Pasar_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+Ruta23_No_Puedes_Pasar_Texto_1:
+.string "(Debería de ver qué quiere\n"
+	.string "GIOVANNI de mi justo antes de\l"
+	.string "afrontar esta misión tan\l"
+	.string "importante).$"
+
+Route23_Llamada_Giovanni::
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+msgbox Route23_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route23_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 92
+release
+end
+
+Route23_Llamada_Giovanni_Texto_1:
+.string "GIOVANNI: ¿{PLAYER}?\n"
+	.string "Así que ya tienes las 8 MEDALLAS\l"
+	.string "DE GIMNASIO, ATLAS me ha puesto al\l"
+	.string "tanto de vuestro combate en\l"
+	.string "nuestra BASE de CIUDAD VERDE, ya\l"
+	.string "tienes todo para afrontar la LIGA\l"
+	.string "POKÉMON.$"
+
+Route23_Llamada_Giovanni_Texto_2:
+.string "Sin embargo, hay algo que\n"
+	.string "necesitas ver antes de entrar a\l"
+	.string "ese lugar, te estaré esperando en\l"
+	.string "la sala especial de entrenamiento,\l"
+	.string "aquella que está al lado de mi\l"
+	.string "despacho, no tardes.$"
+
+
+Route23_Llamada_Giovanni_Move_1:
+emote_exclamation_mark
+walk_in_place_down
+step_end
+
+Route23_Combate_Andra_Centro::
+playse SE_EXIT
+applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_1
+waitmovement 0x0
+delay 15
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+addobject 8
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_2
+applymovement 8, Route23_Combate_Andra_Move_2
+waitmovement 0x0 
+delay 15
+applymovement 8, Route23_Combate_Andra_Move_5
+waitmovement 0x0 
+goto Route23_Combate_Andra
+
+Route23_Combate_Andra_Izq::
+playse SE_EXIT
+applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_1
+waitmovement 0x0
+delay 15
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+addobject 8
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_2
+applymovement 8, Route23_Combate_Andra_Move_2
+waitmovement 0x0 
+delay 15
+applymovement 8, Route23_Combate_Andra_Move_5.2
+waitmovement 0x0 
+goto Route23_Combate_Andra
+
+Route23_Combate_Andra_Der::
+playse SE_EXIT
+applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_1
+waitmovement 0x0
+delay 15
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+addobject 8
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route23_Combate_Andra_Move_2
+applymovement 8, Route23_Combate_Andra_Move_2
+waitmovement 0x0 
+delay 15
+applymovement 8, Route23_Combate_Andra_Move_5.1
+waitmovement 0x0 
+goto Route23_Combate_Andra
+
+Route23_Combate_Andra::
 msgbox Route23_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 8, Route23_Combate_Andra_Move_3
+waitmovement 0x0 
 msgbox Route23_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
 msgbox Route23_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 8, Route23_Combate_Andra_Move_4
+waitmovement 0x0 
 msgbox Route23_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
 msgbox Route23_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
-msgbox Route23_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_6, Route23_Combate_Andra_Texto_6
 msgbox Route23_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 8, Route23_Combate_Andra_Move_4
+waitmovement 0x0
 msgbox Route23_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 8, Route23_Combate_Andra_Move_7
+waitmovement 0x0
 msgbox Route23_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+removeobject 8
+setvar VAR_UNUSED_0x40F7, 91
 release
 end
 
@@ -196,6 +311,16 @@ walk_in_place_down
 step_end
 
 Route23_Combate_Andra_Move_5:
+walk_down
+step_end
+
+Route23_Combate_Andra_Move_5.1:
+walk_left
+walk_down
+step_end
+
+Route23_Combate_Andra_Move_5.2:
+walk_right
 walk_down
 step_end
 

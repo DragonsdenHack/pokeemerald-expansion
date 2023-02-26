@@ -1,5 +1,10 @@
 RocketHideout_9F_MapScripts::
-	.byte 0
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_9F_OnFrame
+.byte 0
+
+RocketHideout_9F_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 92, RocketHideout_9F_Presentacion_Sala
+	.2byte 0
 
 RocketHideout9F_1::
 end
@@ -43,3 +48,95 @@ end
 
 RocketHideout9F_9::
 end
+
+RocketHideout_9F_Presentacion_Sala::
+clearflag FLAG_HIDE_ROUTE_104_MR_BRINEY
+addobject 10
+delay 15
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_9F_Presentacion_Sala_Move_1
+waitmovement 0x0
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_2
+waitmovement 0x0
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_3
+waitmovement 0x0
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_3 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_2
+waitmovement 0x0
+msgbox RocketHideout_9F_Presentacion_Sala_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_9F_Presentacion_Sala_Move_4
+applymovement 10, RocketHideout_9F_Presentacion_Sala_Move_5
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
+removeobject 10
+setvar VAR_UNUSED_0x40F7, 93
+release
+end
+
+RocketHideout_9F_Presentacion_Sala_Texto_1:
+.string "GIOVANNI: Bien, ya estás aquí,\n"
+	.string "observa este lugar {PLAYER}.$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_2:
+.string "Aquí nos centramos en proporcionar\n"
+	.string "a nuestros mejores ROCKETS las\l"
+	.string "herramientas para llevar al límite\l"
+	.string "la única variable que depende\l"
+	.string "exclusivamente de nosotros: el\l"
+	.string "entrenamiento.$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_3:
+.string "Todo cuanto necesitas para llevar\n"
+	.string "a tus POKÉMON al siguiente nivel\l"
+	.string "está aquí, al alcance de tu mano.$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_4:
+.string "En esta sala tú eres quien manda,\n"
+	.string "el que decide si parar o si\l"
+	.string "seguir, espero que le des un gran\l"
+	.string "uso antes de asaltar de forma\l"
+	.string "definitiva la LIGA POKÉMON.$"
+
+RocketHideout_9F_Presentacion_Sala_Texto_5:
+.string "Confío en ti {PLAYER}, no importa\n"
+	.string "la clase de poderes a los que\l"
+	.string "vayas a enfrentarte si sabes\l"
+	.string "mantener la cabeza fría y sacar a\l"
+	.string "relucir lo mejor de tu equipo.\l"
+	.string "Desde aquí estaremos atentos a lo\l"
+	.string "que ocurra {PLAYER}, no estarás\l"
+	.string "solo enfrentando a la ÉLITE 4.$"
+
+RocketHideout_9F_Presentacion_Sala_Move_1:
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_2:
+walk_in_place_down
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_3:
+walk_down
+walk_in_place_down
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_4:
+walk_in_place_left
+walk_in_place_down
+step_end
+
+RocketHideout_9F_Presentacion_Sala_Move_5:
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_down
+step_end

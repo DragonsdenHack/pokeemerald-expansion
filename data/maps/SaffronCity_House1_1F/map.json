@@ -45,7 +45,7 @@
       "x": 4,
       "y": 4,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -66,8 +66,8 @@
       "x": 4,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_SAFFRON_CITY_HOUSE1_1F",
-      "dest_warp_id": 0
+      "dest_map": "MAP_SAFFRON_CITY",
+      "dest_warp_id": 1
     },
     {
       "x": 5,
@@ -80,7 +80,7 @@
       "x": 10,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_SAFFRON_CITY_HOUSE1_1F",
+      "dest_map": "MAP_SAFFRON_CITY_HOUSE1_2F",
       "dest_warp_id": 0
     }
   ],

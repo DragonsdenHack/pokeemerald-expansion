@@ -651,19 +651,54 @@ face_player
 step_end
 
 FuchsiaCity_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE122_STATE, 0
+goto_if_gt FuchsiaCity_Entrenador_Especial_3
 msgbox FuchsiaCity_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FuchsiaCity_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+compare VAR_UNUSED_0x40F7, 87
+goto_if_gt FuchsiaCity_Entrenador_Especial_2
 msgbox FuchsiaCity_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
-msgbox FuchsiaCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+
+FuchsiaCity_Entrenador_Especial_2::
 msgbox FuchsiaCity_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
-msgbox FuchsiaCity_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+msgbox FuchsiaCity_Entrenador_Especial_Texto_6 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq FuchsiaCity_Entrenador_Especial_2_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox FuchsiaCity_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
-msgbox FuchsiaCity_Entrenador_Especial_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CINTAEXPERTO, FuchsiaCity_Entrenador_Especial_Texto_8
 msgbox FuchsiaCity_Entrenador_Especial_Texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_EXPERT_BELT
+msgbox FuchsiaCity_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox FuchsiaCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE122_STATE, 1
+release
+end
+
+FuchsiaCity_Entrenador_Especial_2_No::
 msgbox FuchsiaCity_Entrenador_Especial_Texto_10 MSGBOX_AUTOCLOSE
 release
-setvar VAR_ROUTE122_STATE, 1
 end
+
+FuchsiaCity_Entrenador_Especial_3::
+msgbox FuchsiaCity_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+
+FuchsiaCity_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste CINTA XPERTO de\n"
+	.string "manos de CAZABICHOS!$"
+
 
 FuchsiaCity_Entrenador_Especial_Texto_1:
 .string "Ya me tengo vista la ZONA SAFARI\n"

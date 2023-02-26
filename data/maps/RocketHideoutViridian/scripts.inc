@@ -726,7 +726,7 @@ RocketHideoutViridian_Escena_8_Texto_5:
 	.string "que a nadie le chirría ni sorprende que\l"
 	.string "el último LÍDER use a un vulgar RHYHORN\l"
 	.string "sin evolucionar como POKÉMON insignia.\l"
-	.string "Que así sea pues, que se ahoge en las 0\l"
+	.string "Que así sea pues, que se ahogue en las 0\l"
 	.string "exigencias, que se aburra de ganar\l"
 	.string "sabiendo el resultado de antemano.$"
 

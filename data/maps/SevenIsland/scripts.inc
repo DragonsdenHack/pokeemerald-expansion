@@ -45,16 +45,40 @@ SevenIslandDocumento_Text_100:
 	.string "La Isla de la Búsqueda Infinita.$"
 
 SevenIsland_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE113_STATE, 0
+goto_if_gt SevenIsland_Entrenador_Especial_3
 msgbox SevenIsland_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
-msgbox SevenIsland_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
-msgbox SevenIsland_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SevenIsland_Entrenador_Especial_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SevenIsland_Entrenador_Especial_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox SevenIsland_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
-msgbox SevenIsland_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_PANUELO, SevenIsland_Entrenador_Especial_Texto_5
 msgbox SevenIsland_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
-msgbox SevenIsland_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_CHOICE_SCARF
+msgbox SevenIsland_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox SevenIsland_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE113_STATE, 1
 release
 end
+
+SevenIsland_Entrenador_Especial_3::
+msgbox SevenIsland_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+SevenIsland_Entrenador_Especial_No::
+msgbox SevenIsland_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+release
+end
+
+SevenIsland_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste PAÑUELO ELEGIDO de manos de\n"
+	.string "ENTRENADOR GUAY!$"
 
 SevenIsland_Entrenador_Especial_Texto_1:
 .string "No sirve de nada boostearse al\n"

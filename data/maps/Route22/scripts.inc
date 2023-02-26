@@ -14,18 +14,91 @@ end
 Route22Documento_Text_100:
 .string "ENTRADA A LA LIGA POKÉMON$"
 
+Ruta22_No_Puedes_Pasar::
+compare VAR_UNUSED_0x40F7, 89
+goto_if_gt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox Ruta22_No_Puedes_Pasar_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+Ruta22_No_Puedes_Pasar_Texto_1:
+.string "(Aquí está toda la POLICÍA de la región,\n"
+	.string "no es buena idea entrar).$"
+
+Route22_Combate_Azul_Izq::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route22_Combate_Azul_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
+fadescreen 1
+playse SE_M_FLY
+delay 20
+addobject 1
+fadescreen 0
+applymovement 1, Route22_Combate_Azul_Move_2
+waitmovement 0x0
+goto Route22_Combate_Azul
+
+Route22_Combate_Azul_Der::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route22_Combate_Azul_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
+waitmoncry
+fadescreen 1
+playse SE_M_FLY
+delay 20
+addobject 1
+fadescreen 0
+applymovement 1, Route22_Combate_Azul_Move_4
+waitmovement 0x0
+goto Route22_Combate_Azul
+
 Route22_Combate_Azul::
 msgbox Route22_Combate_Azul_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, Route22_Combate_Azul_Move_4
+waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route22_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, Route22_Combate_Azul_Move_3
+waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, Route22_Combate_Azul_Move_4
+waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_5 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+playse MUS_RG_ENCOUNTER_RIVAL
 msgbox Route22_Combate_Azul_Texto_6 MSGBOX_AUTOCLOSE
-msgbox Route22_Combate_Azul_Texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_AZUL_3, Route22_Combate_Azul_Texto_7
 msgbox Route22_Combate_Azul_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route22_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route22_Combate_Azul_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, Route22_Combate_Azul_Move_6
+waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, Route22_Combate_Azul_Move_7
+waitmovement 0x0
 msgbox Route22_Combate_Azul_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
+waitmoncry
+fadescreen 1
+playse SE_M_FLY
+delay 20
+removeobject 1
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 90
 release
 end
 

@@ -94,7 +94,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "Route23_EventScript_Policia6",
       "flag": "0"
     },
@@ -122,7 +122,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
     }
   ],
   "warp_events": [
@@ -156,7 +156,69 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 32,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "90",
+      "script": "Route23_Combate_Andra_Der"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 32,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "90",
+      "script": "Route23_Combate_Andra_Centro"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 32,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "90",
+      "script": "Route23_Combate_Andra_Izq"
+    },
+    {
+      "type": "trigger",
+      "x": 4,
+      "y": 31,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "91",
+      "script": "Route23_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 31,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "91",
+      "script": "Route23_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 31,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "91",
+      "script": "Route23_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "92",
+      "script": "Ruta23_No_Puedes_Pasar"
+    }
   ],
   "bg_events": [
     {
