@@ -69,40 +69,40 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
       "x": 13,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F_5",
+      "script": "Base_Profunda_Mercado_1_EventScript_Clerk",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 18,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F_6",
+      "script": "Base_Profunda_Mercado_2_EventScript_Clerk",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 22,
-      "y": 6,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F_7",
+      "script": "Base_Profunda_Mercado_3_EventScript_Clerk",
       "flag": "0"
     },
     {
@@ -609,7 +609,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F_46",
+      "script": "Base_Profunda_Mercado_4_EventScript_Clerk",
       "flag": "0"
     },
     {
@@ -635,7 +635,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F_48",
+      "script": "Base_Profunda_Mercado_5_EventScript_Clerk",
       "flag": "0"
     },
     {
@@ -648,7 +648,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout5F_49",
+      "script": "Base_Profunda_Mercado_6_EventScript_Clerk",
       "flag": "0"
     },
     {

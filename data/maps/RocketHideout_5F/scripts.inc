@@ -2242,3 +2242,4 @@ warpsilent MAP_LAVENDER_TOWN_FUJI_HOUSE, 8, 0
 waitmovement 0x0
 release
 end
+
