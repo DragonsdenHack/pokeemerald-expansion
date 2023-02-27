@@ -13076,8 +13076,8 @@
       "height": 40,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Viridian_Forest",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_123",
       "border_filepath": "data/layouts/BosqueGimnasioAnciana/border.bin",
       "blockdata_filepath": "data/layouts/BosqueGimnasioAnciana/map.bin"
     },
