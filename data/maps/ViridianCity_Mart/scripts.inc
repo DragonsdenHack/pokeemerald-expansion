@@ -249,6 +249,29 @@ Base_Profunda_Mercado_8_Pokemart:
 	release
 	end
 
+Base_Profunda_Mercado_9_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Base_Profunda_Mercado_9_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Base_Profunda_Mercado_9_Pokemart:
+    .2byte 79
+    .2byte 73
+	.2byte 74
+	.2byte 75
+	.2byte 76
+	.2byte 77
+	.2byte 78
+	.2byte ITEM_NONE
+	release
+	end
+
 Kanto_Ciudades_Mercados_EventScript_Clerk::
 	lock
 	faceplayer
@@ -882,7 +905,7 @@ Base_Hoenn_Rocket_Mercado_1_EventScript_Clerk::
 	end
 
 	.align 2
-Base_Hoenn_Rocket_Mercado_1:
+Base_Hoenn_Rocket_Mercado_1_Pokemart:
     .2byte 340
 	.2byte 341
 	.2byte 342
@@ -918,7 +941,7 @@ Torre_Radio_Lavanda_Mercado_1_EventScript_Clerk::
 	end
 
 	.align 2
-Torre_Radio_Lavanda_Mercado_1:
+Torre_Radio_Lavanda_Mercado_1_Pokemart:
     .2byte 358
 	.2byte 359
 	.2byte 360
@@ -952,7 +975,7 @@ Torre_Radio_Lavanda_Mercado_2_EventScript_Clerk::
 	end
 
 	.align 2
-Torre_Radio_Lavanda_Mercado_2:
+Torre_Radio_Lavanda_Mercado_2_Pokemart:
     .2byte 505
 	.2byte 506
 	.2byte 507
@@ -980,7 +1003,7 @@ Torre_Radio_Lavanda_Mercado_3_EventScript_Clerk::
 	end
 
 	.align 2
-Torre_Radio_Lavanda_Mercado_3:
+Torre_Radio_Lavanda_Mercado_3_Pokemart:
     .2byte 452
 	.2byte 453
 	.2byte 454
@@ -1006,7 +1029,7 @@ Torre_Radio_Lavanda_Mercado_4_EventScript_Clerk::
 	end
 
 	.align 2
-Torre_Radio_Lavanda_Mercado_4:
+Torre_Radio_Lavanda_Mercado_4_Pokemart:
     .2byte 476
 	.2byte 477
 	.2byte 475
@@ -1031,7 +1054,7 @@ Johto_Floristeria_Trigal_Mercado_EventScript_Clerk::
 	end
 
 	.align 2
-Johto_Floristeria_Trigal_Mercado:
+Johto_Floristeria_Trigal_Mercado_Pokemart:
     .2byte 530
 	.2byte 531
 	.2byte 532
