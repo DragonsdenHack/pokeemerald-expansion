@@ -19889,15 +19889,8 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     .moves = {MOVE_SCALD, MOVE_SHADOW_BALL, MOVE_RECOVER, MOVE_CALM_MIND}
     },
     {
-    .iv = 10,
-    .lvl = 100,
-    .species = SPECIES_MOLTRES_GALARIAN,
-    .heldItem = ITEM_LIFE_ORB,
-    .moves = {MOVE_FIERY_WRATH, MOVE_THUNDERBOLT, MOVE_HEAT_WAVE, MOVE_EXTRASENSORY}
-    },
-    {
     .iv = 0,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_SPECTRIER,
     .heldItem = ITEM_NORMALIUM_Z,
     .moves = {MOVE_SHADOW_BALL, MOVE_WILL_O_WISP, MOVE_HYPER_BEAM, MOVE_NONE}
@@ -19915,6 +19908,13 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     .species = SPECIES_CALYREX_SHADOW_RIDER,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_ASTRAL_BARRAGE, MOVE_GRASS_KNOT, MOVE_PSYCHIC, MOVE_PSYSHOCK}
+    },
+    {
+    .iv = 0,
+    .lvl = 103,
+    .species = SPECIES_NINETALES,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_FIRE_BLAST, MOVE_SCORCHING_SANDS, MOVE_SHADOW_BALL, MOVE_PSYCHIC}
     }
 };
 
@@ -23821,11 +23821,48 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER117[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER118[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER118[] = {
     {
     .iv = 0,
-    .lvl = 24,
-    .species = SPECIES_KOFFING,
+    .lvl = 68,
+    .species = SPECIES_BRONZONG,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_HEAVY_SLAM, MOVE_REFLECT, MOVE_LIGHT_SCREEN}
+    },
+    {
+    .iv = 0,
+    .lvl = 71,
+    .species = SPECIES_BLACEPHALON,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_MIND_BLOWN, MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_FLAMETHROWER}
+    },
+    {
+    .iv = 0,
+    .lvl = 69,
+    .species = SPECIES_REUNICLUS,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_PSYCHIC, MOVE_TRICK_ROOM, MOVE_FOCUS_BLAST, MOVE_SIGNAL_BEAM}
+    },
+    {
+    .iv = 0,
+    .lvl = 69,
+    .species = SPECIES_HATTERENE,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_CALM_MIND, MOVE_DRAINING_KISS, MOVE_PSYSHOCK, MOVE_MYSTICAL_FIRE}
+    },
+    {
+    .iv = 0,
+    .lvl = 70,
+    .species = SPECIES_GIRAFARIG,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_TRICK_ROOM, MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_GRASS_KNOT}
+    },
+    {
+    .iv = 0,
+    .lvl = 72,
+    .species = SPECIES_HYPNO,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_DARK_VOID, MOVE_PSYSHOCK, MOVE_AURA_SPHERE, MOVE_BARRIER}
     }
 };
 
@@ -23845,7 +23882,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER120[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER121[] = {
@@ -23855,7 +23891,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER121[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER122[] = {
@@ -23865,7 +23900,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER122[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER123[] = {
@@ -23875,7 +23909,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER123[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER124[] = {
@@ -23885,7 +23918,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER124[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER125[] = {
@@ -23895,7 +23927,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER125[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER126[] = {
@@ -23905,7 +23936,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER126[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER127[] = {
@@ -23915,7 +23945,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER127[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER128[] = {
@@ -23925,7 +23954,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER128[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER129[] = {
@@ -23935,7 +23963,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER129[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER130[] = {
@@ -23945,7 +23972,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER130[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER131[] = {
@@ -23955,7 +23981,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER131[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER132[] = {
@@ -23965,7 +23990,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER132[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER133[] = {
@@ -23975,7 +23999,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER133[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER134[] = {
@@ -23985,7 +24008,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER134[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER135[] = {
@@ -24005,7 +24027,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER136[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER137[] = {
@@ -24045,7 +24066,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER140[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER141[] = {
@@ -24115,7 +24135,6 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER147[] = {
     .species = SPECIES_ARCANINE,
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
-
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER148[] = {

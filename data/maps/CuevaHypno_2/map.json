@@ -23,12 +23,33 @@
       "elevation": 0,
       "dest_map": "MAP_CUEVA_HYPNO_3",
       "dest_warp_id": 0
+    },
+    {
+      "x": 75,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_GIMNASIO_CUEVA_HYPNO",
+      "dest_warp_id": 1
+    },
+    {
+      "x": 5,
+      "y": 78,
+      "elevation": 0,
+      "dest_map": "MAP_PASO_CUEVA_HYPNO",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 71,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }

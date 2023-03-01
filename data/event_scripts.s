@@ -2445,3 +2445,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Casa_Trxatu/scripts.inc"
 
 	.include "data/maps/Goldenrod_Gym/scripts.inc"
+
+	.include "data/maps/Gimnasio_CuevaHypno/scripts.inc"
+
+	.include "data/maps/Paso_CuevaHypno/scripts.inc"

@@ -124,6 +124,15 @@ Base_Profunda_Mercado_4_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_4_Pokemart:
+    .2byte 467
+    .2byte 470
+	.2byte 482
+    .2byte 245
+	.2byte 474
+	.2byte 440
+	.2byte 469
+	.2byte 523
+	.2byte 524
     .2byte 7
 	.2byte 8
 	.2byte 9
@@ -132,6 +141,7 @@ Base_Profunda_Mercado_4_Pokemart:
 	.2byte 12
 	.2byte 13
 	.2byte 14
+	.2byte 5
 	.2byte 23
 	.2byte ITEM_NONE
 	release
@@ -856,6 +866,184 @@ BaseRocket_Ruta5_Mercado_Pokemart:
 	.2byte 114
 	.2byte 115
 	.2byte 120
+	.2byte ITEM_NONE
+	release
+	end
+
+
+Base_Hoenn_Rocket_Mercado_1_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Base_Hoenn_Rocket_Mercado_1_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Base_Hoenn_Rocket_Mercado_1:
+    .2byte 340
+	.2byte 341
+	.2byte 342
+	.2byte 343
+	.2byte 344
+	.2byte 345
+	.2byte 346
+	.2byte 347
+	.2byte 348
+	.2byte 349
+	.2byte 350
+	.2byte 351
+	.2byte 352
+	.2byte 353
+	.2byte 354
+	.2byte 355
+	.2byte 356
+	.2byte 357
+	.2byte ITEM_NONE
+	release
+	end
+
+
+
+Torre_Radio_Lavanda_Mercado_1_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Torre_Radio_Lavanda_Mercado_1_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Torre_Radio_Lavanda_Mercado_1:
+    .2byte 358
+	.2byte 359
+	.2byte 360
+	.2byte 361
+	.2byte 362
+	.2byte 363
+	.2byte 364
+	.2byte 365
+	.2byte 366
+	.2byte 367
+	.2byte 368
+	.2byte 369
+	.2byte 370
+	.2byte 371
+	.2byte 372
+	.2byte 373
+	.2byte 374
+	.2byte 375
+	.2byte ITEM_NONE
+	release
+	end
+
+Torre_Radio_Lavanda_Mercado_2_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Torre_Radio_Lavanda_Mercado_2_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Torre_Radio_Lavanda_Mercado_2:
+    .2byte 505
+	.2byte 506
+	.2byte 507
+	.2byte 508
+	.2byte 509
+	.2byte 510
+	.2byte 511
+	.2byte 512
+	.2byte 513
+	.2byte 514
+	.2byte ITEM_NONE
+	release
+	end
+
+
+
+Torre_Radio_Lavanda_Mercado_3_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Torre_Radio_Lavanda_Mercado_3_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Torre_Radio_Lavanda_Mercado_3:
+    .2byte 452
+	.2byte 453
+	.2byte 454
+	.2byte 455
+	.2byte 456
+	.2byte 457
+	.2byte 458
+	.2byte 459
+	.2byte ITEM_NONE
+	release
+	end
+
+
+
+Torre_Radio_Lavanda_Mercado_4_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Torre_Radio_Lavanda_Mercado_4_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Torre_Radio_Lavanda_Mercado_4:
+    .2byte 476
+	.2byte 477
+	.2byte 475
+	.2byte 483
+	.2byte 472
+	.2byte 429
+	.2byte 442
+	.2byte ITEM_NONE
+	release
+	end
+
+
+
+Johto_Floristeria_Trigal_Mercado_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Johto_Floristeria_Trigal_Mercado_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Johto_Floristeria_Trigal_Mercado:
+    .2byte 530
+	.2byte 531
+	.2byte 532
+	.2byte 533
+	.2byte 534
+	.2byte 541
+	.2byte 542
+	.2byte 543
+	.2byte 544
+	.2byte 545
+	.2byte 546
+	.2byte 547
 	.2byte ITEM_NONE
 	release
 	end
