@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "IndigoPlateauPokemonCenter4",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT2",
@@ -105,8 +105,8 @@
       "x": 4,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_INDIGO_PLATEAU_POKEMON_CENTER_1F",
-      "dest_warp_id": 0
+      "dest_map": "MAP_POKEMON_LEAGUE_1F",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

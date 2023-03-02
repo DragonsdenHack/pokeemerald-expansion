@@ -2,7 +2,7 @@
   "id": "MAP_PLAYA_TESORO",
   "name": "PlayaTesoro",
   "layout": "LAYOUT_PLAYA_TESORO",
-  "music": "2",
+  "music": "MUS_RG_ROUTE3",
   "region_map_section": "MAPSEC_ONE_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -30,7 +30,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "NULL",
+      "script": "PlayaTesoro_EventScript_Nadadora",
       "flag": "0"
     },
     {
@@ -48,12 +48,33 @@
     }
   ],
   "warp_events": [
-
+    {
+      "x": 9,
+      "y": 34,
+      "elevation": 0,
+      "dest_map": "MAP_PLAYA_TESORO",
+      "dest_warp_id": 0
+    }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 9,
+      "y": 35,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CuevaTesoro_Activador_Entrada"
+    },
+    {
+      "type": "sign",
+      "x": 10,
+      "y": 35,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "CuevaTesoro_Activador_Entrada"
+    }
   ]
 }

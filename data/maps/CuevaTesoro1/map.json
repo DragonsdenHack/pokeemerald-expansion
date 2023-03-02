@@ -2,7 +2,7 @@
   "id": "MAP_CUEVA_TESORO1",
   "name": "CuevaTesoro1",
   "layout": "LAYOUT_CUEVA_TESORO1",
-  "music": "2",
+  "music": "MUS_MT_CHIMNEY",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -32,13 +32,13 @@
       "x": 60,
       "y": 22,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "CuevaTesoro1_EventScript_Policia",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTBORO_CITY_RIVAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "CuevaTesoro1_EventScript_Policia2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTBORO_CITY_RIVAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ADMIN",
@@ -123,13 +123,13 @@
       "x": 21,
       "y": 29,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "CuevaTesoro1_EventScript_Policia3",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTBORO_CITY_RIVAL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "CuevaTesoro1_EventScript_Policia4",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTBORO_CITY_RIVAL"
     }
   ],
   "warp_events": [
@@ -161,11 +161,11 @@
       "dest_warp_id": 0
     },
     {
-      "x": 61,
+      "x": 60,
       "y": 45,
       "elevation": 0,
       "dest_map": "MAP_CUEVA_TESORO1",
-      "dest_warp_id": 0
+      "dest_warp_id": 13
     },
     {
       "x": 58,
@@ -246,9 +246,9 @@
     },
     {
       "x": 39,
-      "y": 19,
+      "y": 20,
       "elevation": 0,
-      "dest_map": "MAP_CUEVA_TESORO1",
+      "dest_map": "MAP_PLAYA_TESORO",
       "dest_warp_id": 0
     },
     {

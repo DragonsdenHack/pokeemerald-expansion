@@ -181,3 +181,79 @@ step_end
 FourIsland_Encuentro_Zeus_Move_6:
 walk_in_place_left
 step_end
+
+
+FourIsland_Secundaria_Anciana::
+msgbox FourIsland_Secundaria_Anciana_Texto_1 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_2 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_3 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_4 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_5 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_6 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_7 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_8 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_9 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_10 MSGBOX_AUTOCLOSE
+msgbox FourIsland_Secundaria_Anciana_Texto_11 MSGBOX_AUTOCLOSE
+release
+end
+
+FourIsland_Secundaria_Anciana_Texto_1:
+.string "¿Qué trae a un jovencito como tú a un\n"
+	.string "lugar como este? Aquí no hay nada que\l"
+	.string "pueda interesarte. Solo LORELEI viene\l"
+	.string "por aquí de vez en cuando, es el lugar\l"
+	.string "que la vio crecer.$"
+
+FourIsland_Secundaria_Anciana_Texto_2:
+.string "… …$"
+
+FourIsland_Secundaria_Anciana_Texto_3:
+.string "Así que derrotaste a LORELEI en un\n"
+	.string "combate, debes ser muy fuerte.$"
+
+FourIsland_Secundaria_Anciana_Texto_4:
+.string "Ella se forjó entrenando en la CUEVA\n"
+	.string "GLACIADA. Muchos creen que solo hay\l"
+	.string "LAPRAS, pero te diré un secreto, un\l"
+	.string "POKÉMON muy poderoso del TIPO HIELO\l"
+	.string "vive ahí. Mis abuelos ya contaban\l"
+	.string "leyendas.$"
+
+FourIsland_Secundaria_Anciana_Texto_5:
+.string "LORELEI nunca pudo encontrarlo,\n"
+	.string "tampoco lo buscó más de la cuenta,\l"
+	.string "siempre se centró en cuidar de su\l"
+	.string "LAPRAS.$"
+
+FourIsland_Secundaria_Anciana_Texto_6:
+.string "Pero más allá del pequeño lago tras\n"
+	.string "subir la cascada, hay algo… de un poder\l"
+	.string "especial.$"
+
+FourIsland_Secundaria_Anciana_Texto_7:
+.string "Si llegaras a encontrar algo, ¿podrías\n"
+	.string "mostrarme ese POKÉMON tan especial?$"
+
+FourIsland_Secundaria_Anciana_Texto_8:
+.string "¡Oh! Así que al fin y al cabo, la leyenda\n"
+	.string "era cierta, nuestra CUEVA GLACIADA\l"
+	.string "escondía un POKÉMON tan majestuoso.$"
+
+FourIsland_Secundaria_Anciana_Texto_9:
+.string "Mira… es puro hielo, LORELEI sentiría\n"
+	.string "muchos celos de ti ahora mismo, chico,\l"
+	.string "te lo puedo asegurar.$"
+
+FourIsland_Secundaria_Anciana_Texto_10:
+.string "Ten esto, mi regalo por hacer que una\n"
+	.string "anciana como yo vuelva a sentir ilusión\l"
+	.string "por los misterios de este mundo.$"
+
+FourIsland_Secundaria_Anciana_Texto_11:
+.string "Ayyy… Cuantos misterios aún por\n"
+	.string "resolver, si LORELEI dedicando toda su\l"
+	.string "vida al TIPO HIELO, no ha sabido\l"
+	.string "encontrar a ese POKÉMON en su propia\l"
+	.string "isla… ¿Cuántos POKÉMON increíbles\l"
+	.string "habrá ahí fuera esperando?$"
