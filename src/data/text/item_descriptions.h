@@ -3508,8 +3508,3 @@ static const u8 sSapphireDesc[] = _(
     "A brilliant blue gem\n"
     "that symbolizes\n"
     "honesty.");
-
-static const u8 sMintDesc[] = _(
-    "Mint for to change\n"
-    "nature's POKéMON.");
-   
