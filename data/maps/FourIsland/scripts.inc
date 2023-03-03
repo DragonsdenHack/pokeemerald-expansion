@@ -184,16 +184,67 @@ step_end
 
 
 FourIsland_Secundaria_Anciana::
+lock
+faceplayer
+compare VAR_ROUTE109_STATE, 6
+goto_if_eq FourIsland_Secundaria_Anciana_4
+compare VAR_ROUTE109_STATE, 5
+goto_if_eq FourIsland_Secundaria_Anciana_3
+compare VAR_ROUTE109_STATE, 3
+goto_if_gt FourIsland_Secundaria_Anciana_2
 msgbox FourIsland_Secundaria_Anciana_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FourIsland_Secundaria_Anciana_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 2, Isla_Cuarta_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
 msgbox FourIsland_Secundaria_Anciana_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, Isla_Cuarta_Activador_Entrada_Pasa_Move_4
+waitmovement 0x0
 msgbox FourIsland_Secundaria_Anciana_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, Isla_Cuarta_Activador_Entrada_Pasa_Move_5
+waitmovement 0x0
 msgbox FourIsland_Secundaria_Anciana_Texto_5 MSGBOX_AUTOCLOSE
 msgbox FourIsland_Secundaria_Anciana_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 2, Isla_Cuarta_Activador_Entrada_Pasa_Move_4
+waitmovement 0x0
+msgbox FourIsland_Secundaria_Anciana_Texto_6.1 MSGBOX_AUTOCLOSE
+applymovement 2, Isla_Cuarta_Activador_Entrada_Pasa_Move_5
+waitmovement 0x0
 msgbox FourIsland_Secundaria_Anciana_Texto_7 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE109_STATE, 4
+release
+end
+
+FourIsland_Secundaria_Anciana_2::
+msgbox FourIsland_Secundaria_Anciana_Texto_7 MSGBOX_AUTOCLOSE
+release
+end
+
+FourIsland_Secundaria_Anciana_3::
+delay 20
+msgbox FourIsland_Secundaria_Anciana_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse MUS_RG_OBTAIN_KEY_ITEM
+msgbox FourIsland_Secundaria_Anciana_Texto_12 MSGBOX_DEFAULT
+waitse
+playse SE_PIN
+applymovement 2, Isla_Cuarta_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
 msgbox FourIsland_Secundaria_Anciana_Texto_8 MSGBOX_AUTOCLOSE
+delay 30
 msgbox FourIsland_Secundaria_Anciana_Texto_9 MSGBOX_AUTOCLOSE
 msgbox FourIsland_Secundaria_Anciana_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM79
+msgbox FourIsland_Secundaria_Anciana_Texto_13 MSGBOX_DEFAULT
+waitfanfare
+setvar VAR_ROUTE109_STATE, 6
+release
+end
+
+FourIsland_Secundaria_Anciana_4::
 msgbox FourIsland_Secundaria_Anciana_Texto_11 MSGBOX_AUTOCLOSE
 release
 end
@@ -231,6 +282,14 @@ FourIsland_Secundaria_Anciana_Texto_6:
 	.string "subir la cascada, hay algo… de un poder\l"
 	.string "especial.$"
 
+FourIsland_Secundaria_Anciana_Texto_6.1:
+	.string "Tal vez si revisas las rocas, puedas\n"
+	.string "encontrar un hueco por el que seguir\l"
+	.string "adelante, aunque parezca que no es\l"
+	.string "posible... Eso es lo que diferencia a los\l"
+	.string "entrenadores de verdad, el ir más allá\l"
+	.string "de los límites aparentes, ¿no?$"
+
 FourIsland_Secundaria_Anciana_Texto_7:
 .string "Si llegaras a encontrar algo, ¿podrías\n"
 	.string "mostrarme ese POKÉMON tan especial?$"
@@ -257,3 +316,89 @@ FourIsland_Secundaria_Anciana_Texto_11:
 	.string "encontrar a ese POKÉMON en su propia\l"
 	.string "isla… ¿Cuántos POKÉMON increíbles\l"
 	.string "habrá ahí fuera esperando?$"
+
+FourIsland_Secundaria_Anciana_Texto_12:
+	.string "¡{PLAYER} mostró el GLASTRIER a la\n"
+	.string "ANCIANA!$"
+
+FourIsland_Secundaria_Anciana_Texto_13:
+	.string "¡Obtuviste MT79 VAHO GÉLIDO\n"
+	.string "de manos de ANCIANA!$"
+
+
+
+Isla_Cuarta_Activador_Entrada::
+compare VAR_ROUTE109_STATE, 3
+goto_if_gt Isla_Cuarta_Activador_Entrada_Pasa
+release
+end
+
+Isla_Cuarta_Activador_Entrada_Pasa::
+delay 15
+msgbox Isla_Cuarta_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Isla_Cuarta_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
+msgbox Isla_Cuarta_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+applymovement OBJ_EVENT_ID_PLAYER, Isla_Cuarta_Activador_Entrada_Pasa_Move_2
+waitmovement 0x0
+release
+end
+
+Isla_Cuarta_Activador_Entrada_Pasa_Move_1:
+emote_exclamation_mark
+step_end
+
+Isla_Cuarta_Activador_Entrada_Pasa_Move_2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+Isla_Cuarta_Activador_Entrada_Pasa_Move_3:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+Isla_Cuarta_Activador_Entrada_Pasa_Move_4:
+face_up
+step_end
+
+Isla_Cuarta_Activador_Entrada_Pasa_Move_5:
+face_player
+step_end
+
+Isla_Cuarta_Activador_Entrada_Texto_1:
+.string "... ...$"
+
+Isla_Cuarta_Activador_Entrada_Pasa_Text_YesNo:
+.string "Esta roca está prácticamente hundida,\n"
+	.string "si vas con cuidado podrías\l"
+	.string "atravesarla. ¿Quieres intentarlo?$"
+
+
+
+Isla_Cuarta_Activador_Entrada_2::
+compare VAR_ROUTE109_STATE, 3
+goto_if_gt Isla_Cuarta_Activador_Entrada_Pasa_2
+release
+end
+
+Isla_Cuarta_Activador_Entrada_Pasa_2::
+delay 15
+msgbox Isla_Cuarta_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Isla_Cuarta_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
+msgbox Isla_Cuarta_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+applymovement OBJ_EVENT_ID_PLAYER, Isla_Cuarta_Activador_Entrada_Pasa_Move_3
+waitmovement 0x0
+release
+end
