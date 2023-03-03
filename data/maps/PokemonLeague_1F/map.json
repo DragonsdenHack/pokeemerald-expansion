@@ -2,7 +2,7 @@
   "id": "MAP_POKEMON_LEAGUE_1F",
   "name": "PokemonLeague_1F",
   "layout": "LAYOUT_POKEMON_LEAGUE_1F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_POKE_TOWER",
   "region_map_section": "MAPSEC_POKEMON_LEAGUE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonLeague_1F_Combate_Lorelei",
+      "script": "PokemonLeague_LoreleisRoom_EventScript_Lorelei",
       "flag": "0"
     }
   ],
@@ -40,8 +40,8 @@
       "x": 6,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_POKEMON_LEAGUE_1F",
-      "dest_warp_id": 0
+      "dest_map": "MAP_INDIGO_PLATEAU_POKEMON_CENTER_1F",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

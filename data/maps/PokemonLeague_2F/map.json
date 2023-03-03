@@ -2,7 +2,7 @@
   "id": "MAP_POKEMON_LEAGUE_2F",
   "name": "PokemonLeague_2F",
   "layout": "LAYOUT_POKEMON_LEAGUE_2F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_POKE_TOWER",
   "region_map_section": "MAPSEC_POKEMON_LEAGUE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonLeague_2F_Combate_Bruno",
+      "script": "PokemonLeague_BrunosRoom_EventScript_Bruno",
       "flag": "0"
     }
   ],
@@ -33,7 +33,7 @@
       "x": 6,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_POKEMON_LEAGUE_2F",
+      "dest_map": "MAP_POKEMON_LEAGUE_1F",
       "dest_warp_id": 0
     },
     {
@@ -41,7 +41,7 @@
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_POKEMON_LEAGUE_3F",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

@@ -60,3 +60,106 @@ PokemonLeague_EliteFour_EventScript_CloseDoor::
 	setmetatile 6, 13, METATILE_EliteFour_EntryDoor_ClosedBottom, TRUE
 	setmetatile 7, 13, METATILE_EliteFour_EntryDoor_ClosedBottom, TRUE
 	return
+
+@@LIGA KANTO
+
+PokemonLeague_EventScript_OpenDoor::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_Delay32
+	waitmovement 0
+	playse SE_DOOR
+	call PokemonLeague_EventScript_SetDoorOpen
+	special DrawWholeMapView
+	return
+
+PokemonLeague_EventScript_EnterRoom::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_WalkUp5
+	waitmovement 0
+	playse SE_UNLOCK
+	call PokemonLeague_EventScript_CloseEntry
+	special DrawWholeMapView
+	return
+
+PokemonLeague_EventScript_SetDoorOpen::
+	setmetatile 6, 1, 0x28E, 1
+	setmetatile 6, 2, 0x296, 0
+	return
+
+PokemonLeague_EventScript_SetDoorOpenLance::
+	setmetatile 6, 4, 0x28E, 1
+	setmetatile 6, 5, 0x296, 0
+	return
+
+PokemonLeague_EventScript_PreventExit::
+	lockall
+	applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_Movement_ForcePlayerIn
+	waitmovement 0
+	releaseall
+	end
+
+PokemonLeague_EventScript_OpenDoorLance::
+	applymovement OBJ_EVENT_ID_PLAYER, Common_Movement_Delay32
+	waitmovement 0
+	playse SE_DOOR
+	setmetatile 6, 4, 0x28E, 1
+	setmetatile 6, 5, 0x296, 0
+	special DrawWholeMapView
+	setflag FLAG_TEMP_4
+	return
+
+PokemonLeague_EventScript_CloseEntry::
+	setmetatile 5, 11, 0x29D, 1
+	setmetatile 6, 11, 0x29E, 1
+	setmetatile 7, 11, 0x29F, 1
+	setmetatile 5, 12, 0x289, 1
+	setmetatile 6, 12, 0x2A6, 1
+	setmetatile 7, 12, 0x288, 1
+	return
+
+PokemonLeague_Movement_ForcePlayerIn::
+	walk_up
+	step_end
+
+Common_Movement_WalkUp5::
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end
+
+PokemonLeague_LancesRoom_Movement_WalkThroughCorridor::
+	walk_up
+	walk_up
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_down
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_left
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	walk_up
+	step_end

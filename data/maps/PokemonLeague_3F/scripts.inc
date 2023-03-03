@@ -1,12 +1,80 @@
 PokemonLeague_3F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, PokemonLeague_AgathasRoom_OnResume
+	map_script MAP_SCRIPT_ON_LOAD, PokemonLeague_AgathasRoom_OnLoad
+	map_script MAP_SCRIPT_ON_TRANSITION, PokemonLeague_AgathasRoom_OnTransition
+	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_AgathasRoom_OnWarp
+	map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_AgathasRoom_OnFrame
 	.byte 0
 
+PokemonLeague_AgathasRoom_OnResume::
+	@setvar VAR_0x8004, 0
+	@call PokemonLeague_EventScript_DoLightingEffect
+	end
+
+PokemonLeague_AgathasRoom_OnLoad::
+	call_if_set FLAG_TEMP_5, PokemonLeague_AgathasRoom_EventScript_SetDoorOpen
+	call_if_eq VAR_TEMP_0, 1, PokemonLeague_AgathasRoom_EventScript_CloseEntry
+	end
+
+PokemonLeague_AgathasRoom_EventScript_CloseEntry::
+	call PokemonLeague_EventScript_CloseEntry
+	return
+
+PokemonLeague_AgathasRoom_EventScript_SetDoorOpen::
+	call PokemonLeague_EventScript_SetDoorOpen
+	return
+
+PokemonLeague_AgathasRoom_OnTransition::
+	@setworldmapflag FLAG_WORLD_MAP_POKEMON_LEAGUE_LORELEIS_ROOM
+	end
+
+PokemonLeague_AgathasRoom_OnWarp::
+	map_script_2 VAR_TEMP_1, 0, PokemonLeague_AgathasRoom_EventScript_TurnPlayerNorth
+	.2byte 0
+
+PokemonLeague_AgathasRoom_EventScript_TurnPlayerNorth::
+	turnobject OBJ_EVENT_ID_PLAYER, DIR_NORTH
+	end
+
+PokemonLeague_AgathasRoom_OnFrame::
+	map_script_2 VAR_TEMP_0, 0, PokemonLeague_AgathasRoom_EventScript_EnterRoom
+	.2byte 0
+
+PokemonLeague_AgathasRoom_EventScript_EnterRoom::
+	lockall
+	call PokemonLeague_EventScript_EnterRoom
+	setvar VAR_TEMP_0, 1
+	releaseall
+	end
+
+PokemonLeague_AgathasRoom_EventScript_Agatha::
+	lock
+	faceplayer
+	goto_if_set FLAG_TEMP_5, PokemonLeague_AgathasRoom_EventScript_PostBattle
+	call PokemonLeague_3F_Combate_Agatha
+	call PokemonLeague_AgathasRoom_EventScript_Battle
+	goto PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha
+	end
+
 PokemonLeague_3F_Combate_Agatha::
-msgbox PokemonLeague_3F_Combate_Agatha_Texto_1 MSGBOX_AUTOCLOSE
-msgbox PokemonLeague_3F_Combate_Agatha_Texto_2 MSGBOX_AUTOCLOSE
-msgbox PokemonLeague_3F_Combate_Agatha_Texto_4 MSGBOX_AUTOCLOSE
-release
-end
+msgbox PokemonLeague_3F_Combate_Agatha_Texto_2
+return
+
+PokemonLeague_AgathasRoom_EventScript_Battle::
+	trainerbattle_no_intro TRAINER_AGATHA, PokemonLeague_3F_Combate_Agatha_Texto_4
+	return
+
+PokemonLeague_AgathasRoom_EventScript_PostBattle::
+	msgbox PokemonLeague_3F_Combate_Agatha_Texto_1
+	release
+	end
+
+PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
+	setflag FLAG_TEMP_5
+	call PokemonLeague_EventScript_OpenDoor
+	msgbox PokemonLeague_3F_Combate_Agatha_Texto_1
+	release
+	end
 
 PokemonLeague_3F_Combate_Agatha_Texto_1:
 .string "No he visto tanto talento junto\n"
