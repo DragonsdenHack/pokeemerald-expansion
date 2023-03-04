@@ -63,14 +63,14 @@ PokemonLeague_LancesRoom_EventScript_Lance::
 	end
 
 PokemonLeague_LancesRoom_EventScript_SetEntryClosed::
-	@setmetatile 5, 14, METATILE_PokemonLeague_Entry_TopLeft_Closed, 1
-	@setmetatile 6, 14, METATILE_PokemonLeague_Entry_TopMid_Closed, 1
-	@setmetatile 7, 14, METATILE_PokemonLeague_Entry_TopRight_Closed, 1
-	@setmetatile 5, 15, METATILE_PokemonLeague_Entry_BottomLeft_Closed, 1
-	@setmetatile 6, 15, METATILE_PokemonLeague_Entry_BottomMid_Closed, 1
-	@setmetatile 7, 15, METATILE_PokemonLeague_Entry_BottomRight_Closed, 1
-	@setmetatile 6, 16, METATILE_PokemonLeague_Floor_ShadeFull_Lance, 0
-	@setmetatile 7, 16, METATILE_PokemonLeague_Floor_ShadeFull_Lance, 0
+	setmetatile 5, 14, 0x29D, 1
+	setmetatile 6, 14, 0x29E, 1
+	setmetatile 7, 14, 0x29F, 1
+	setmetatile 5, 15, 0x289, 1
+	setmetatile 6, 15, 0x2A6, 1
+	setmetatile 7, 15, 0x288, 1
+	setmetatile 6, 16, 0x311, 0
+	setmetatile 7, 16, 0x311, 0
 	return
 
 PokemonLeague_4F_Combate_Lance::
@@ -78,7 +78,7 @@ msgbox PokemonLeague_4F_Combate_Lance_Texto_2
 return
 
 PokemonLeague_LancesRoom_EventScript_Battle::
-	trainerbattle_no_intro TRAINER_LANCE_2, PokemonLeague_4F_Combate_Lance_Texto_4
+	trainerbattle_no_intro TRAINER_LANCE_1, PokemonLeague_4F_Combate_Lance_Texto_4
 	return
 
 PokemonLeague_LancesRoom_EventScript_PostBattle::
@@ -88,7 +88,7 @@ PokemonLeague_LancesRoom_EventScript_PostBattle::
 
 PokemonLeague_LancesRoom_EventScript_DefeatedLance::
 	setflag FLAG_TEMP_5
-	call PokemonLeague_EventScript_OpenDoor
+	call PokemonLeague_EventScript_OpenDoorLance
 	msgbox PokemonLeague_4F_Combate_Lance_Texto_1
 	release
 	end

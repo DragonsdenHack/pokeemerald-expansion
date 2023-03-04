@@ -9,9 +9,9 @@
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": false,
-  "allow_running": false,
-  "show_map_name": true,
-  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_GLACIA",
   "connections": 0,
   "object_events": [
     {
@@ -41,7 +41,7 @@
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_POKEMON_LEAGUE_4F",
-      "dest_warp_id": 1
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
