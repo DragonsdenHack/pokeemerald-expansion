@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SevenIslandHouse1_1",
-      "flag": "0"
+      "script": "SevenIsland_Secundaria_Anciana",
+      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_WALLACE"
     }
   ],
   "warp_events": [
@@ -41,6 +41,13 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Isla_Setima_Activador_Entrada"
+    }
   ]
 }

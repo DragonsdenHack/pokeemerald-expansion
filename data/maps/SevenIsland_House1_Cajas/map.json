@@ -1,0 +1,41 @@
+{
+  "id": "MAP_SEVEN_ISLAND_HOUSE1_CAJAS",
+  "name": "SevenIsland_House1_Cajas",
+  "layout": "LAYOUT_SEVEN_ISLAND_HOUSE1_CAJAS",
+  "music": "2",
+  "region_map_section": "MAPSEC_SEVEN_ISLAND",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_NONE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 11,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_BOSQUE_GIMNASIO_ANCIANA",
+      "dest_warp_id": 1
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Isla_Setima_Activador_Entrada_Pasa_2"
+    }
+  ]
+}

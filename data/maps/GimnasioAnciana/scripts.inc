@@ -28,3 +28,78 @@ GimnasioAnciana_EventScript_Anciano3::
 	trainerbattle_single TRAINER_TRAINER_25, GimnasioAnciana_Text_Anciano3Intro, GimnasioAnciana_Text_Anciano3Defeated
 	msgbox GimnasioAnciana_Text_Anciano3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+GimnasioAnciana_Combate_Gimnasio::
+lock
+faceplayer
+compare VAR_ROUTE108_STATE, 5
+goto_if_gt GimnasioAnciana_Combate_Gimnasio_2
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_1 MSGBOX_NPC
+delay 20
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_2 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_3 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_26, GimnasioAnciana_Combate_Gimnasio_Texto_4
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_5 MSGBOX_AUTOCLOSE
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_7 MSGBOX_DEFAULT
+givemon SPECIES_ZORUA, 50, ITEM_NORMAL_GEM
+waitfanfare
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_8 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE108_STATE, 6
+release
+end
+
+GimnasioAnciana_Combate_Gimnasio_2::
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_9 MSGBOX_NPC
+release
+end
+
+GimnasioAnciana_Combate_Gimnasio_Texto_1:
+.string "¡Ajá! ¡Veo que tienes corazón chico!$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_2:
+.string "En su día era una experta en POKÉMON\n"
+	.string "TIPO NORMAL y BICHO, muchos de los\l"
+	.string "cuales crecían aquí.$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_3:
+.string "No me andaré con rodeos, estoy ansiosa\n"
+	.string "por verte combatir. Siempre digo que\l"
+	.string "los nuevos ENTRENADORES son unos\l"
+	.string "flojos que se rinden ante cualquier\l"
+	.string "contratiempo. ¡Demuéstrame que no es\l"
+	.string "así!$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_4:
+.string "Así que hay relevo, ya era hora…$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_5:
+.string "¡Jah! ¡Ese ATLAS! ¡Cómo se la tenía\n"
+	.string "guardada contigo!$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_6:
+.string "Mi camino se está acabando, y el tuyo\n"
+	.string "recién empieza. Esto es inevitable, es\l"
+	.string "ley de vida, pero ello no nos impide\l"
+	.string "reconocernos mutuamente. Ten, quiero\l"
+	.string "que cuides de este pequeño.$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_7:
+.string "¡¡OBTUVISTE UN ZORUA-HISUI AL NV.50!$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_8:
+.string "Hace casi 4 décadas que no se ve este\n"
+	.string "POKÉMON por las islas, acabo de darte\l"
+	.string "uno nacido de un HUEVO de mi ZOROARK,\l"
+	.string "espero que lo cuides bien.$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_9:
+.string "Cada misterio no abre más que una\n"
+	.string "puerta hacia otro mayor. Lo oculto\l"
+	.string "siempre tendrá lugar en este mundo, el\l"
+	.string "día que sepamos todo estaremos\l"
+	.string "desprovistos de propósito, será el fin\l"
+	.string "del camino.$"

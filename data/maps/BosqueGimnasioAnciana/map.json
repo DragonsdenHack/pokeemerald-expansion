@@ -48,6 +48,13 @@
       "elevation": 0,
       "dest_map": "MAP_GIMNASIO_ANCIANA",
       "dest_warp_id": 0
+    },
+    {
+      "x": 16,
+      "y": 36,
+      "elevation": 0,
+      "dest_map": "MAP_SEVEN_ISLAND_HOUSE1_CAJAS",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

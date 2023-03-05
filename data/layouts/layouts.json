@@ -13632,6 +13632,18 @@
       "secondary_tileset": "gTileset_Viridian_Forest",
       "border_filepath": "data/layouts/Paso_CuevaHypno/border.bin",
       "blockdata_filepath": "data/layouts/Paso_CuevaHypno/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEVEN_ISLAND_HOUSE1_CAJAS",
+      "name": "SevenIsland_House1_Cajas_Layout",
+      "width": 12,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/SevenIsland_House1_Cajas/border.bin",
+      "blockdata_filepath": "data/layouts/SevenIsland_House1_Cajas/map.bin"
     }
   ]
 }

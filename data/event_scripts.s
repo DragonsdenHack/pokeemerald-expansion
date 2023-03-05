@@ -2449,3 +2449,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Gimnasio_CuevaHypno/scripts.inc"
 
 	.include "data/maps/Paso_CuevaHypno/scripts.inc"
+
+	.include "data/maps/SevenIsland_House1_Cajas/scripts.inc"
