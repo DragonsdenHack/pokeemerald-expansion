@@ -2,7 +2,7 @@
   "id": "MAP_POKEMON_LEAGUE_6F",
   "name": "PokemonLeague_6F",
   "layout": "LAYOUT_POKEMON_LEAGUE_6F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_HALL_OF_FAME",
   "region_map_section": "MAPSEC_POKEMON_LEAGUE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
