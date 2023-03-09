@@ -5,22 +5,61 @@ AlteringCaveSevii1::
 end
 
 AlteringCave_Sevii_Commbate_Zeus::
+lock
+faceplayer
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
-msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+compare VAR_ROUTE105_STATE, 4
+goto_if_lt AlteringCave_Sevii_Commbate_Zeus_2
+compare VAR_UNUSED_0x40F7, 97
+goto_if_lt AlteringCave_Sevii_Commbate_Zeus_2
+playse SE_PIN
+applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1
+waitmovement 0x0
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_4 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1
+waitmovement 0x0
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_6 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_9 MSGBOX_AUTOCLOSE
-msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ZEUS_1, AlteringCave_Sevii_Commbate_Zeus_Texto_10
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_11 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_12 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_13 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_2
+waitmovement 0x0
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_16 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
+fadescreen 1
+delay 20
+removeobject 1
+fadescreen 0
+release
+end
+
+
+
+AlteringCave_Sevii_Commbate_Zeus_2::
+msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_3 MSGBOX_AUTOCLOSE
 release
 end
 

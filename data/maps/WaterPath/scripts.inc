@@ -37,27 +37,22 @@ WatherPath9::
 end
 
 
-WatherPath10::
-lock     
-faceplayer     
-msgbox WaterPath_Text_9, MSGBOX_DEFAULT
+WatherPath10::       
+msgbox WaterPath_Text_9, MSGBOX_SIGN
 release     
 end
 
 WaterPath_Text_9:
-.string "¡Buen día camarada!\n"
-.string "ATLAS ya nos ha informado de\l"
-.string "vuestra misión en CASA CÓNSUL, tu\l"
-.string "compañera ya está dentro al\l"
-.string "parecer, deberías de entrar cuanto\l"
-.string "antes a ayudarla.$"
+.string "¿DONPHAN?\n"
+	.string "En KANTO tenemos a GOLEM y RHYDON,\l"
+	.string "nadie les supera en la suma entre\l"
+	.string "DEFENSA y ATAQUE, ¡siquiera\l"
+	.string "DONPHAN!$"
 
 
 
-WatherPath11::
-lock     
-faceplayer     
-msgbox WaterPath_Text_11, MSGBOX_DEFAULT
+WatherPath11::       
+msgbox WaterPath_Text_11, MSGBOX_SIGN
 release     
 end
 

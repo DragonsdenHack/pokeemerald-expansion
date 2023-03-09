@@ -27,3 +27,28 @@ end
 
 Aqua1_9::
 end
+
+Aqua1_EventScript_Aqua_1::
+	trainerbattle_single TRAINER_TRAINER_125, Aqua1_Text_Aqua_1Intro, Aqua1_Text_Aqua_1Defeated
+	msgbox Aqua1_Aqua_1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Aqua1_EventScript_Aqua_2::
+	trainerbattle_single TRAINER_TRAINER_126, Aqua1_Text_Aqua_2Intro, Aqua1_Text_Aqua_2Defeated
+	msgbox Aqua1_Aqua_2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Aqua1_EventScript_Aqua_3::
+	trainerbattle_single TRAINER_TRAINER_127, Aqua1_Text_Aqua_3Intro, Aqua1_Text_Aqua_3Defeated
+	msgbox Aqua1_Aqua_3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Aqua1_EventScript_Aqua_4::
+	trainerbattle_single TRAINER_TRAINER_128, Aqua1_Text_Aqua_4Intro, Aqua1_Text_Aqua_4Defeated
+	msgbox Aqua1_Aqua_4PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Aqua1_EventScript_Magma_5::
+	trainerbattle_single TRAINER_TRAINER_129, Aqua1_Text_Aqua_5Intro, Aqua1_Text_Aqua_5Defeated
+	msgbox Aqua1_Aqua_5PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -2,7 +2,7 @@
   "id": "MAP_OUTCAST_ISLAND",
   "name": "OutcastIsland",
   "layout": "LAYOUT_OUTCAST_ISLAND",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_ROUTE",
   "region_map_section": "MAPSEC_OUTCAST_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -109,7 +109,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OutcastIsland7",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SWIMMER_M_WATER",
@@ -122,7 +122,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OutcastIsland8",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL"
     }
   ],
   "warp_events": [

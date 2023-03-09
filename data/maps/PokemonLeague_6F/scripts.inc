@@ -1,65 +1,293 @@
 PokemonLeague_6F_MapScripts::
 	.byte 0
 
-PokemonLeague_6F_Final::
+PokemonLeague_6F_Final_Centro::
+clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_2
+waitmovement 0x0
+playse SE_ICE_CRACK
 msgbox PokemonLeague_6F_Final_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_3
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+goto PokemonLeague_6F_Final
+
+PokemonLeague_6F_Final_Der::
+clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_2
+waitmovement 0x0
+playse SE_ICE_CRACK
+msgbox PokemonLeague_6F_Final_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_3
+waitmovement 0x0
+msgbox PokemonLeague_6F_Final_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_2.1
+waitmovement 0x0
+special RemoveCameraObject
+goto PokemonLeague_6F_Final
+
+PokemonLeague_6F_Final_Izq::
+clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_2
+waitmovement 0x0
+playse SE_ICE_CRACK
+msgbox PokemonLeague_6F_Final_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_3
+waitmovement 0x0
+msgbox PokemonLeague_6F_Final_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_2.2
+waitmovement 0x0
+special RemoveCameraObject
+goto PokemonLeague_6F_Final
+
+PokemonLeague_6F_Final::
+delay 15
 msgbox PokemonLeague_6F_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, PokemonLeague_6F_Final_Move_4
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_4 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_5
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_6 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_6
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_8 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_3
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_7
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_4
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_12 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+msgbox PokemonLeague_6F_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonLeague_6F_Final_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_8
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+msgbox PokemonLeague_6F_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox PokemonLeague_6F_Final_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_7
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_6
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_3
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_6F_Final_Move_7
+waitmovement 0x0
+applymovement 1, PokemonLeague_6F_Final_Move_9
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 2, PokemonLeague_6F_Final_Move_7
+waitmovement 0x0
+delay 20
+applymovement 2, PokemonLeague_6F_Final_Move_10
+waitmovement 0x0
+delay 30
 msgbox PokemonLeague_6F_Final_Texto_21 MSGBOX_AUTOCLOSE
-msgbox PokemonLeague_6F_Final_Texto_22 MSGBOX_AUTOCLOSE
+delay 30
+trainerbattle_no_intro TRAINER_ANDRA_1, PokemonLeague_6F_Final_Texto_22
+delay 20
+playse SE_PIN
+applymovement 1, PokemonLeague_6F_Final_Move_1
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_23 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 1, PokemonLeague_6F_Final_Move_11
+applymovement 2, PokemonLeague_6F_Final_Move_12
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_24 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 1, PokemonLeague_6F_Final_Move_1
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_25 MSGBOX_AUTOCLOSE
+playse MUS_DUMMY
+delay 20
 msgbox PokemonLeague_6F_Final_Texto_26 MSGBOX_AUTOCLOSE
+delay 40
+clearflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
+addobject 3
+playse SE_PIN
+delay 40
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_13
+applymovement 1, PokemonLeague_6F_Final_Move_13
+waitmovement 0x0
+applymovement 3, PokemonLeague_6F_Final_Move_14
+waitmovement 0x0
+playse MUS_HALL_OF_FAME_ROOM
+applymovement 1, PokemonLeague_6F_Final_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_15
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonLeague_6F_Final_Move_16
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonLeague_6F_Final_Move_17
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_29 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonLeague_6F_Final_Move_18
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_31 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_32 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_33 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonLeague_6F_Final_Move_18
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_34 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonLeague_6F_Final_Texto_35 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_19
+applymovement 3, PokemonLeague_6F_Final_Move_20
+applymovement 1, PokemonLeague_6F_Final_Move_21
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_8
+applymovement 2, PokemonLeague_6F_Final_Move_22
+waitmovement 0x0
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 7, 2, 0x248, TRUE
+setmetatile 7, 1, 0x240, TRUE
+setmetatile 8, 2, 0x16B, TRUE
+setmetatile 8, 1, 0x299, TRUE
+setmetatile 9, 1, 0x240, TRUE
+setmetatile 9, 2, 0x248, TRUE
+special DrawWholeMapView
+delay 30
+applymovement 3, PokemonLeague_6F_Final_Move_24
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_23
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_EXIT
+delay 30
+applymovement 1, PokemonLeague_6F_Final_Move_25
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_36 MSGBOX_AUTOCLOSE
+delay 30
+playse SE_EXIT
+addobject 3
+waitse
+delay 10
+playse SE_PIN
+special SpawnCameraObject
+applymovement 3, PokemonLeague_6F_Final_Move_27
+applymovement 1, PokemonLeague_6F_Final_Move_26
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_28
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_6F_Final_Move_19
+waitmovement 0x0
+special RemoveCameraObject
 msgbox PokemonLeague_6F_Final_Texto_37 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_38 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_39 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_40 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_41 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonLeague_6F_Final_Move_29
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_42 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_6F_Final_Texto_43 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonLeague_6F_Final_Texto_44 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonLeague_6F_Final_Texto_45 MSGBOX_AUTOCLOSE
+playse SE_LEDGE
+special HealPlayerParty
+delay 20
+applymovement 3, PokemonLeague_6F_Final_Move_30
+waitmovement 0x0
+setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
 msgbox PokemonLeague_6F_Final_Texto_46 MSGBOX_AUTOCLOSE
-msgbox PokemonLeague_6F_Final_Texto_47 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LANCE_2, PokemonLeague_6F_Final_Texto_47
+playse MUS_RG_VICTORY_GYM_LEADER
 msgbox PokemonLeague_6F_Final_Texto_48 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonLeague_6F_Final_Texto_49 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_MAUVILLE_CITY_WALLY
+addobject 4
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_13
+applymovement 1, PokemonLeague_6F_Final_Move_13
+applymovement 2, PokemonLeague_6F_Final_Move_13
+applymovement 3, PokemonLeague_6F_Final_Move_13
+applymovement 4, PokemonLeague_6F_Final_Move_14
+waitmovement 0x0
+playse MUS_RG_CREDITS
 msgbox PokemonLeague_6F_Final_Texto_50 MSGBOX_AUTOCLOSE
+applymovement 4, PokemonLeague_6F_Final_Move_31
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_51 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_BALL_THROW
+waitse
+playse SE_BALL_TRAY_EXIT
 msgbox PokemonLeague_6F_Final_Texto_52 MSGBOX_AUTOCLOSE
+applymovement 4, PokemonLeague_6F_Final_Move_18
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_53 MSGBOX_AUTOCLOSE
+applymovement 4, PokemonLeague_6F_Final_Move_3
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_54 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonLeague_6F_Final_Texto_55 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 4, PokemonLeague_6F_Final_Move_28
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_56 MSGBOX_AUTOCLOSE
+delay 20
+msgbox PokemonLeague_6F_Final_Texto_44 MSGBOX_AUTOCLOSE
+applymovement 4, PokemonLeague_6F_Final_Move_32
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_57 MSGBOX_AUTOCLOSE
+applymovement 4, PokemonLeague_6F_Final_Move_32
+waitmovement 0x0
 msgbox PokemonLeague_6F_Final_Texto_58 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_33
+waitmovement 0x0
+setflag FLAG_HIDE_MAUVILLE_CITY_WALLY
+clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+setvar VAR_UNUSED_0x40F7, 94
+dofieldeffect FLDEFF_HALL_OF_FAME_RECORD
+waitfieldeffect FLDEFF_HALL_OF_FAME_RECORD
+delay 40
+setvar VAR_TEMP_1, 1
+call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
+checkplayergender
+goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end
 
@@ -322,7 +550,7 @@ PokemonLeague_6F_Final_Texto_34:
 .string "LANCE: Debí advertir que algo así\n"
 	.string "podría ocurrir contigo, cuando\l"
 	.string "empleé un equipo de un nivel algo\l"
-	.string "superior a lo que hize con los\l"
+	.string "superior a lo que hice con los\l"
 	.string "otros 3 competidores para quitarte\l"
 	.string "rápidamente del medio, y aún así\l"
 	.string "saliste ileso, ya me olía que algo\l"
@@ -508,6 +736,24 @@ emote_exclamation_mark
 step_end
 
 PokemonLeague_6F_Final_Move_2:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+PokemonLeague_6F_Final_Move_2.1:
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+PokemonLeague_6F_Final_Move_2.2:
+walk_right
 walk_up
 walk_up
 walk_up

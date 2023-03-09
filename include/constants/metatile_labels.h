@@ -389,7 +389,7 @@
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalBottom       0x262
 #define METATILE_Pacifidlog_SubmergedLogs_VerticalTop          0x25A
 
-// gTileset_Petalburg
+// gTileset_PetalburgGym
 #define METATILE_PetalburgGym_RoomEntrance_Left   0x210
 #define METATILE_PetalburgGym_RoomEntrance_Right  0x211
 #define METATILE_PetalburgGym_SlidingDoor_Frame0  0x218
@@ -397,6 +397,8 @@
 #define METATILE_PetalburgGym_SlidingDoor_Frame2  0x21A
 #define METATILE_PetalburgGym_SlidingDoor_Frame3  0x21B
 #define METATILE_PetalburgGym_SlidingDoor_Frame4  0x21C
+
+// gTileset_Petalburg
 #define METATILE_Petalburg_Door_BirchsLab   0x249
 #define METATILE_Petalburg_Door_Littleroot  0x248
 #define METATILE_Petalburg_Door_Oldale      0x287
@@ -427,12 +429,8 @@
 #define METATILE_PokemonCenter_Escalator2F_Tile2_Frame2  0x2AC
 #define METATILE_PokemonCenter_Floor_CounterBarrier      0x266
 #define METATILE_PokemonCenter_Floor_Plain_Alt           0x2E4
-#define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
-#define METATILE_PokemonCenter_Door_CableClub            0x264
 #define METATILE_PokemonCenter_Floor_ShadowTop           0x265
 #define METATILE_PokemonCenter_Floor_ShadowTop_Alt       0x2DC
-#define METATILE_PokemonCenter_Floor_CounterBarrier      0x266
-#define METATILE_PokemonCenter_CounterBarrier            0x267
 
 // gTileset_RS
 #define METATILE_RS_MossdeepGym_RedArrow_Down   0x205

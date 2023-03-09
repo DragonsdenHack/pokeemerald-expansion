@@ -5,7 +5,7 @@
   "music": "MUS_NONE",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_FOG_DIAGONAL",
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": true,
@@ -25,25 +25,51 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GROUDON_SIDE",
+      "graphics_id": "OBJ_EVENT_GFX_GROUDON_ASLEEP",
       "x": 17,
       "y": 37,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ZEUS",
+      "x": 9,
+      "y": 42,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_3"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
-      "x": 11,
-      "y": 42,
+      "graphics_id": "OBJ_EVENT_GFX_GROUDON_FRONT",
+      "x": 17,
+      "y": 37,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
+      "movement_range_x": 1,
+      "movement_range_y": 1,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "0x0",
+      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 17,
+      "y": 41,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -51,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_119_SCOTT"
     }
   ],
   "warp_events": [
@@ -59,12 +85,29 @@
       "x": 5,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_MAGMA3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_MAGMA1",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 43,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "98",
+      "script": "Magma3_Combate_Magno_Abajo"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 42,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "98",
+      "script": "Magma3_Combate_Magno_Arriba"
+    }
   ],
   "bg_events": [
 

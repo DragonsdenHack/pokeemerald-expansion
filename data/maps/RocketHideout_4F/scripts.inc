@@ -1966,39 +1966,163 @@ walk_right
 walk_right
 step_end
 
-RocketHideout_4F_Mision_Islas_Sete_Lance::
+RocketHideout_4F_Mision_Islas_Sete_Lance_Izq::
+lock
+clearflag FLAG_HIDE_FANCLUB_OLD_LADY
+addobject 10
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+addobject 11
+clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+addobject 1
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_1
+waitmovement 0x0
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_2
+waitmovement 0x0
+goto RocketHideout_4F_Mision_Islas_Sete_Lance
+
+
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Der::
+lock
+clearflag FLAG_HIDE_FANCLUB_OLD_LADY
+addobject 10
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+addobject 11
+clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+addobject 1
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_1
+waitmovement 0x0
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_2.1
+waitmovement 0x0
+goto RocketHideout_4F_Mision_Islas_Sete_Lance
+
+
+
+RocketHideout_4F_Mision_Islas_Sete_Lance::
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_5
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_5
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_6
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_7 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 11, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_7
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 11, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_8
+waitmovement 0x0
+delay 15
+applymovement 11, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_9
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_10
+waitmovement 0x0
+delay 20
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 11, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_11
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_10
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_11 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_13
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+waitmovement 0x0
+playfanfare MUS_OBTAIN_SYMBOL
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_15 MSGBOX_DEFAULT
+waitfanfare
+showmoneybox 0, 0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_SHOP
+addmoney 1000000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_17 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_19 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_20 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21 MSGBOX_AUTOCLOSE
+delay 20
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_19 MSGBOX_DEFAULT
+givemon SPECIES_ARTICUNO, 15, ITEM_LUM_BERRY
+waitfanfare
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_20 MSGBOX_DEFAULT
+givemon SPECIES_ZAPDOS, 15, ITEM_LUM_BERRY
+waitfanfare
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21 MSGBOX_DEFAULT
+givemon SPECIES_MOLTRES, 15, ITEM_LUM_BERRY
+waitfanfare
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_4
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_14
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_25 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_27 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_28 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_RAINBOW_PASS
+msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_28 MSGBOX_DEFAULT
+waitfanfare
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_30 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+removeobject 11
+setvar VAR_UNUSED_0x40F7, 95
 release
 end
 
@@ -2006,6 +2130,12 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1:
 .string "????: Ya no tienes la sartén por\n"
 	.string "el mango LANCE, sugiero que\l"
 	.string "te calmes.$"
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1:
+	.string "????: Pero... ahora vienes a mí a decir...\n"
+	.string "que lleve todo esto de la forma más\l"
+	.string "justa posible y escuche tus\l"
+	.string "exigencias.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_2:
 .string "GIOVANNI: Si quieres conservar\n"
@@ -2241,6 +2371,19 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Move_2:
 walk_up
 walk_up
 walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Move_2.1:
+walk_up
+walk_up
 walk_up
 walk_up
 walk_up

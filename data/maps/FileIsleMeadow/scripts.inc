@@ -149,19 +149,51 @@ FileIsleMeadow_Recluta_Balls_Text_4:
 	.string "puedes aspirar a ser un pobre\l"
 	.string "RECLUTA, ¡créeme!$"
 
+FileIsleMeadow_Combate_Azul_Der::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, FileIsleMeadow_Combate_Azul_Move_1
+waitmovement 0x0
+goto FileIsleMeadow_Combate_Azul
+
+FileIsleMeadow_Combate_Azul_Izq::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, FileIsleMeadow_Combate_Azul_Move_1.1
+waitmovement 0x0
+goto FileIsleMeadow_Combate_Azul
+
 FileIsleMeadow_Combate_Azul::
+playse SE_DOOR
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+addobject 8
 msgbox FileIsleMeadow_Combate_Azul_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 8, FileIsleMeadow_Combate_Azul_Move_2
+waitmovement 0x0
 msgbox FileIsleMeadow_Combate_Azul_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FileIsleMeadow_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FileIsleMeadow_Combate_Azul_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 8, FileIsleMeadow_Combate_Azul_Move_3
+waitmovement 0x0
 msgbox FileIsleMeadow_Combate_Azul_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 8, FileIsleMeadow_Combate_Azul_Move_4
+waitmovement 0x0
 msgbox FileIsleMeadow_Combate_Azul_Texto_6 MSGBOX_AUTOCLOSE
 msgbox FileIsleMeadow_Combate_Azul_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox FileIsleMeadow_Combate_Azul_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox FileIsleMeadow_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox FileIsleMeadow_Combate_Azul_Texto_9 MSGBOX_AUTOCLOSE
-msgbox FileIsleMeadow_Combate_Azul_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_AZUL_4, FileIsleMeadow_Combate_Azul_Texto_10
 msgbox FileIsleMeadow_Combate_Azul_Texto_11 MSGBOX_AUTOCLOSE
 msgbox FileIsleMeadow_Combate_Azul_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 8, FileIsleMeadow_Combate_Azul_Move_6
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+removeobject 8
+setvar VAR_ROUTE107_STATE, 4
 release
 end
 
@@ -255,6 +287,13 @@ FileIsleMeadow_Combate_Azul_Texto_12:
 	.string "verdad 10 o 100000 personas.$"
 
 FileIsleMeadow_Combate_Azul_Move_1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
+
+FileIsleMeadow_Combate_Azul_Move_1.1:
+emote_exclamation_mark
+walk_right
 walk_in_place_up
 step_end
 

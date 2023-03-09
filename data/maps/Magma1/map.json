@@ -5,7 +5,7 @@
   "music": "MUS_CAVE_OF_ORIGIN",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_FOG_DIAGONAL",
   "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
   "allow_escaping": true,
@@ -24,23 +24,23 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Magma1_1",
-      "flag": "0"
+      "script": "Magma1_Combate_Admin",
+      "flag": "FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON"
     }
   ],
   "warp_events": [
     {
       "x": 10,
-      "y": 19,
+      "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_MAGMA1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_MAGMA2",
+      "dest_warp_id": 1
     },
     {
       "x": 14,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_MAGMA1",
+      "dest_map": "MAP_MAGMA3",
       "dest_warp_id": 0
     }
   ],

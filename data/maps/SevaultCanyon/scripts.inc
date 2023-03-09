@@ -157,24 +157,71 @@ SevaultCanyon_EventScript_Pareja2::
 	msgbox SevaultCanyon_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+SevaultCanyon_Combate_Andra_Izq::
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_1
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_2
+waitmovement 0x0
+clearflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+addobject 20
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_3
+applymovement 20, SevaultCanyon_Combate_Andra_Move_4
+waitmovement 0x0
+goto SevaultCanyon_Combate_Andra
+
+SevaultCanyon_Combate_Andra_Der::
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_1
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_2
+waitmovement 0x0
+clearflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+addobject 20
+applymovement OBJ_EVENT_ID_PLAYER, SevaultCanyon_Combate_Andra_Move_3.1
+applymovement 20, SevaultCanyon_Combate_Andra_Move_4
+waitmovement 0x0
+goto SevaultCanyon_Combate_Andra
+
 SevaultCanyon_Combate_Andra::
 msgbox SevaultCanyon_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 20, SevaultCanyon_Combate_Andra_Move_1
+waitmovement 0x0
 msgbox SevaultCanyon_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox SevaultCanyon_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox SevaultCanyon_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 20, SevaultCanyon_Combate_Andra_Move_5
+waitmovement 0x0
 msgbox SevaultCanyon_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
 msgbox SevaultCanyon_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 20, SevaultCanyon_Combate_Andra_Move_1
+waitmovement 0x0
 msgbox SevaultCanyon_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
 msgbox SevaultCanyon_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 20, SevaultCanyon_Combate_Andra_Move_5
+waitmovement 0x0
 msgbox SevaultCanyon_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
 msgbox SevaultCanyon_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 20, SevaultCanyon_Combate_Andra_Move_1
+waitmovement 0x0
 msgbox SevaultCanyon_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
 msgbox SevaultCanyon_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
 msgbox SevaultCanyon_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
-msgbox SevaultCanyon_Combate_Andra_Texto_14 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_7, SevaultCanyon_Combate_Andra_Texto_14
 msgbox SevaultCanyon_Combate_Andra_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 20, SevaultCanyon_Combate_Andra_Move_7
+waitmovement 0x0
 msgbox SevaultCanyon_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
 msgbox SevaultCanyon_Combate_Andra_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 20, SevaultCanyon_Combate_Andra_Move_8
+waitmovement 0x0
+setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+removeobject 20
+setvar VAR_ROUTE106_STATE, 4
 release
 end
 
@@ -347,6 +394,11 @@ emote_exclamation_mark
 step_end
 
 SevaultCanyon_Combate_Andra_Move_3:
+walk_in_place_down
+step_end
+
+SevaultCanyon_Combate_Andra_Move_3.1:
+walk_left
 walk_in_place_down
 step_end
 

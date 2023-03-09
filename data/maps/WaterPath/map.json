@@ -2,7 +2,7 @@
   "id": "MAP_WATER_PATH",
   "name": "WaterPath",
   "layout": "LAYOUT_WATER_PATH",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_ROUTE",
   "region_map_section": "MAPSEC_WATER_PATH",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -158,7 +158,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "WatherPath10",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER2",
@@ -171,7 +171,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "WatherPath11",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL"
     }
   ],
   "warp_events": [

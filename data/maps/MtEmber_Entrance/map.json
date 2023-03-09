@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtEmberEntrance_1",
+      "script": "MtEmber_Entrance_Entrenador_Especial",
       "flag": "0"
     },
     {
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
@@ -159,7 +159,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAXIE",
-      "x": 41,
+      "x": 42,
       "y": 40,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MtEmberEntrance_12",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_112_TEAM_MAGMA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -312,7 +312,7 @@
       "dest_warp_id": 0
     },
     {
-      "x": 41,
+      "x": 42,
       "y": 39,
       "elevation": 0,
       "dest_map": "MAP_MT_EMBER_1F_PATH",
@@ -320,7 +320,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 46,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "3",
+      "script": "MtEmberEntrance_Encuentro_Magno_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 47,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "3",
+      "script": "MtEmberEntrance_Encuentro_Magno_Abajo"
+    }
   ],
   "bg_events": [
 

@@ -1,42 +1,253 @@
 PokemonLeague_5F_MapScripts::
 	.byte 0
 
-PokemonLeague_5F_Azul_Rojo:
+PokemonLeague_5F_Azul_Rojo::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 3, PokemonLeague_5F_Azul_Rojo_Move_2
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_1 MSGBOX_AUTOCLOSE
-msgbox PokemonLeague_5F_Azul_Rojo_Texto_2 MSGBOX_AUTOCLOSE
-msgbox PokemonLeague_5F_Azul_Rojo_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_3
+applymovement 3, PokemonLeague_5F_Azul_Rojo_Move_4
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_5F_Azul_Rojo_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+delay 20
+playmoncry SPECIES_CHARIZARD, CRY_MODE_ENCOUNTER
+msgbox PokemonLeague_5F_Azul_Rojo_Texto_2 MSGBOX_DEFAULT
+waitmoncry
+delay 20
+playse SE_M_FLAMETHROWER
+delay 20
+playse SE_SUPER_EFFECTIVE
+delay 40
+playmoncry SPECIES_BLASTOISE, CRY_MODE_ENCOUNTER
+msgbox PokemonLeague_5F_Azul_Rojo_Texto_3 MSGBOX_DEFAULT
+waitmoncry
+delay 20
+playse SE_FAINT
+delay 30
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_5 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_5F_Azul_Rojo_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+playse SE_EXIT
+clearflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+addobject 2
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_7
+applymovement 3, PokemonLeague_5F_Azul_Rojo_Move_7
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_9
+applymovement 3, PokemonLeague_5F_Azul_Rojo_Move_9
+applymovement 2, PokemonLeague_5F_Azul_Rojo_Move_8
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_5F_Azul_Rojo_Move_5
+waitmovement 0x0
+special RemoveCameraObject
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_6 MSGBOX_AUTOCLOSE
+playse MUS_RG_PALLET
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 13, PokemonLeague_5F_Azul_Rojo_Move_10
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_11
+applymovement 2, PokemonLeague_5F_Azul_Rojo_Move_12
+waitmovement 0x0
+delay 19
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 2, PokemonLeague_5F_Azul_Rojo_Move_13
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_14
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, PokemonLeague_5F_Azul_Rojo_Move_15
+waitmovement 0x0
+delay 20
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_10 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_11 MSGBOX_AUTOCLOSE
+delay 13
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_5F_Azul_Rojo_Move_18
+applymovement 2, PokemonLeague_5F_Azul_Rojo_Move_16
+applymovement 13, PokemonLeague_5F_Azul_Rojo_Move_17
+delay 110
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+removeobject 2
+playse SE_EXIT
+waitmovement 0x0
+delay 10
+playse SE_EXIT
+setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+removeobject 13
+waitmovement 0x0
+delay 106
+playse SE_UNLOCK
+setmetatile 6, 2, 0x293, FALSE
+setmetatile 6, 1, 0x28B, TRUE
+special DrawWholeMapView
+playse MUS_DUMMY
+delay 64
+clearflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+addobject 14
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_20
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_5F_Azul_Rojo_Move_21
+waitmovement 0x0
+delay 37
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_12 MSGBOX_AUTOCLOSE
+delay 37
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_22
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_23
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_24
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_14
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_16 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_25
+waitmovement 0x0
+playse SE_PIN
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_7
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_26
+applymovement 2, PokemonLeague_5F_Azul_Rojo_Move_15
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_14
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_18 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_HO_OH
+delay 64
+playse SE_EXIT
+delay 21
+playse SE_EXIT
+delay 21
+playse SE_EXIT
+addobject 7
+addobject 8
+addobject 9
+applymovement 9, PokemonLeague_5F_Azul_Rojo_Move_27
+applymovement 8, PokemonLeague_5F_Azul_Rojo_Move_27
+applymovement 7, PokemonLeague_5F_Azul_Rojo_Move_28
+waitmovement 0x0
+playse SE_PIN
+applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_7
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_7
+waitmovement 0x0
+playse MUS_RG_VICTORY_ROAD
+delay 32
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_19 MSGBOX_AUTOCLOSE
+delay 32
+applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_29
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_20 MSGBOX_AUTOCLOSE
+delay 32
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_21 MSGBOX_AUTOCLOSE
+delay 32
+addobject 10
+addobject 11
+addobject 12
+playse SE_EXIT
+applymovement 12, PokemonLeague_5F_Azul_Rojo_Move_30
+applymovement 11, PokemonLeague_5F_Azul_Rojo_Move_31
+applymovement 10, PokemonLeague_5F_Azul_Rojo_Move_32
+waitmovement 0x0
+delay 32
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_22 MSGBOX_AUTOCLOSE
+delay 16
+msgbox PokemonLeague_5F_Azul_Rojo_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_33
+addobject 5
+addobject 6
+addobject 4
+playse SE_EXIT
+delay 26
+playse SE_EXIT
+delay 26
+playse SE_EXIT
+applymovement 4, PokemonLeague_5F_Azul_Rojo_Move_34
+applymovement 5, PokemonLeague_5F_Azul_Rojo_Move_35
+applymovement 6, PokemonLeague_5F_Azul_Rojo_Move_36
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_23 MSGBOX_AUTOCLOSE
+delay 32
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_24 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_37
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_26 MSGBOX_AUTOCLOSE
+delay 24
+playse SE_PIN
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_27 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonLeague_5F_Azul_Rojo_Move_38
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_29 MSGBOX_AUTOCLOSE
-msgbox PokemonLeague_5F_Azul_Rojo_Texto_30 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_HERACROSS, CRY_MODE_ENCOUNTER
+msgbox PokemonLeague_5F_Azul_Rojo_Texto_30 MSGBOX_DEFAULT
+waitmoncry
+applymovement 4, PokemonLeague_5F_Azul_Rojo_Move_38
+applymovement 5, PokemonLeague_5F_Azul_Rojo_Move_38
+applymovement 6, PokemonLeague_5F_Azul_Rojo_Move_38
+applymovement 10, PokemonLeague_5F_Azul_Rojo_Move_38
+applymovement 11, PokemonLeague_5F_Azul_Rojo_Move_38
+applymovement 12, PokemonLeague_5F_Azul_Rojo_Move_38
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_38
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_38
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_M_TAKE_DOWN
+delay 24
+playse SE_UNLOCK
+setmetatile 6, 2, 0x296, FALSE
+setmetatile 6, 1, 0x3F2, TRUE
+special DrawWholeMapView
+playse SE_PIN
+applymovement 4, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 5, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 6, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 10, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 11, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 12, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 1, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 7, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 8, PokemonLeague_5F_Azul_Rojo_Move_39
+applymovement 9, PokemonLeague_5F_Azul_Rojo_Move_39
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_31 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 7, PokemonLeague_5F_Azul_Rojo_Move_40
+applymovement 8, PokemonLeague_5F_Azul_Rojo_Move_40
+applymovement 9, PokemonLeague_5F_Azul_Rojo_Move_41
+applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_42
+applymovement 14, PokemonLeague_5F_Azul_Rojo_Move_43
+applymovement 10, PokemonLeague_5F_Azul_Rojo_Move_44
+applymovement 11, PokemonLeague_5F_Azul_Rojo_Move_45
+applymovement 6, PokemonLeague_5F_Azul_Rojo_Move_46
+applymovement 5, PokemonLeague_5F_Azul_Rojo_Move_47
+waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_33 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+setflag FLAG_HIDE_HO_OH
 release
 end
+
+PokemonLeague_5F_Azul_Rojo_Andra_Seguir::
+lock
+msgbox PokemonLeague_5F_Azul_Rojo_Texto_33 MSGBOX_SIGN
+release
+end
+
 
 PokemonLeague_5F_Azul_Rojo_Texto_1:
 .string "ANDRA: ¡{PLAYER} al fin!\n"
@@ -391,7 +602,6 @@ walk_up
 walk_up
 walk_up
 walk_up
-delay_4
 step_end
 
 PokemonLeague_5F_Azul_Rojo_Move_17:
@@ -559,6 +769,7 @@ walk_up
 walk_up
 walk_right
 walk_right
+walk_up
 walk_up
 walk_up
 walk_up

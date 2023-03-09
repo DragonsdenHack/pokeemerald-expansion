@@ -26,9 +26,8 @@ end
 
 
 OutcastIsland7::
-lock     
-faceplayer     
-msgbox OutcastIsland_Text_7, MSGBOX_DEFAULT
+lock         
+msgbox OutcastIsland_Text_7, MSGBOX_SIGN
 release     
 end
 
@@ -41,9 +40,8 @@ OutcastIsland_Text_7:
 
 
 OutcastIsland8::
-lock     
-faceplayer     
-msgbox OutcastIsland_Text_8, MSGBOX_DEFAULT
+lock         
+msgbox OutcastIsland_Text_8, MSGBOX_SIGN
 release     
 end
 

@@ -16562,3 +16562,174 @@ GoldenrodGym_Text_Chica3PostBattle:
 	.string "¡Lo primero que haremos cuando el\n"
 	.string "GIMNASIO cambie de manos será\l"
 	.string "laminar el suelo de color rosa!$"
+
+
+Magma2_Text_Magma_1Intro:
+.string "Dime un solo POKÉMON de KANTO que\n"
+	.string "supere a GROUDON. ¡Exacto! ¡Ninguno!$"
+
+Magma2_Text_Magma_1Defeated:
+.string "¡Qué importa tu equipo! ¡GROUDON te\n"
+	.string "destruirá!$"
+
+Magma2_Magma_1PostBattle:
+.string "¿RHYDON? ¿GOLEM? ¡Espera a ver el\n"
+	.string "TERREMOTO de GROUDON! ¡Te\l"
+	.string "arrepentirás de haber llegado hasta\l"
+	.string "aquí!$"
+
+Magma2_Text_Magma_2Intro:
+.string "Vuestra región es mediocre en cuanto\n"
+	.string "POKÉMON poderosos se refiere… ¿Qué?\l"
+	.string "¿No los necesitáis porque váis a\l"
+	.string "crearlos vosotros mismos? ¡Iluso!$"
+
+Magma2_Text_Magma_2Defeated:
+.string "¿Y esos POKÉMON, los habéis creado?$"
+
+Magma2_Magma_2PostBattle:
+.string "Entonces crees que dependemos\n"
+	.string "demasiado de la naturaleza para el\l"
+	.string "éxito de nuestros planes… interesante.$"
+
+Magma2_Text_Magma_3Intro:
+.string "Sabemos todo sobre GROUDON, tal\n"
+	.string "vez si supieras lo mismo te\l"
+	.string "replantearías tu presencia aquí.$"
+
+Magma2_Text_Magma_3Defeated:
+.string "¡Espera! ¿Qué?$"
+
+Magma2_Magma_3PostBattle:
+.string "No podrás ganar a GROUDON usando\n"
+	.string "simplemente ataques de agua, ¡en\l"
+	.string "cuanto aparezca el clima será infernal!$"
+
+Magma2_Text_Magma_4Intro:
+.string "Espero ver cómo GROUDON desata su\n"
+	.string "ESTALLIDO sobre tus queridos POKÉMON,\l"
+	.string "con todo el sol pegando a máxima\l"
+	.string "potencia.$"
+
+Magma2_Text_Magma_4Defeated:
+.string "Vaya… tal vez con esos POKÉMON puedas\n"
+	.string "aguantarlo.$"
+
+Magma2_Magma_4PostBattle:
+.string "En realidad, sería mejor que usase\n"
+	.string "TERREMOTO, el ATAQUE de GROUDON es\l"
+	.string "mucho mejor que su ATAQUE ESPECIAL.$"
+
+
+
+Magma2_Text_Magma_5Intro:
+.string "¿Qué dices? ¿Por qué querer más tierra?\n"
+	.string "¿Qué te pasa? ¿Quieres ahogarte en\l"
+	.string "medio del mar? ¡Mejor tener tierra de\l"
+	.string "sobra a que falte!$"
+
+Magma2_Text_Magma_5Defeated:
+.string "¡No! ¡Perdóname GROUDON!$"
+
+Magma2_Magma_5PostBattle:
+.string "Si dejamos que todo siga su curso esos\n"
+	.string "canallas del EQUIPO AQUA acabarán\l"
+	.string "inundando de agua todo, ¿entiendes por\l"
+	.string "qué es tan importante?$"
+
+
+Magma2_Text_Magma_6Intro:
+.string "GROUDON es el POKÉMON con mejor ratio\n"
+	.string "entre SALUD, ATAQUE y DEFENSA del\l"
+	.string "mundo que conocemos. ¿Qué tienes tú\l"
+	.string "contra eso?$"
+
+Magma2_Text_Magma_6Defeated:
+.string "Mucho talento por lo que veo.$"
+
+Magma2_Magma_6PostBattle:
+.string "He de admitir que RHYDON, y\n"
+	.string "especialmente RHYPERIOR, tienen un\l"
+	.string "ratio entre SALUD, ATAQUE y DEFENSA\l"
+	.string "extraordinario para ser no legendarios.\l"
+	.string "RHYPERIOR únicamente se queda a 5\l"
+	.string "puntos en la suma de estos 3 respecto\l"
+	.string "a GROUDON. Aunque muchos aquí\l"
+	.string "desprecien los POKÉMON de KANTO,\l"
+	.string "ningún otro de otra región se acerca a\l"
+	.string "ese poder físico, aquí muy apreciado.$"
+
+
+
+Aqua1_Text_Aqua_1Intro:
+.string "Necio ignorante, pregúntale a tus\n"
+	.string "científicos acerca de la potencia\l"
+	.string "acuática de KYOGRE bajo la lluvia.\l"
+	.string "¡Huirías de aquí si supieras los\l"
+	.string "resultados!$"
+
+Aqua1_Text_Aqua_1Defeated:
+.string "¡Qué potencia!$"
+
+Aqua1_Aqua_1PostBattle:
+.string "¿Contrarrestar potencia con velocidad\n"
+	.string "y estrategia? Tal vez…$"
+
+
+
+Aqua1_Text_Aqua_2Intro:
+.string "GROUDON es pésimo comparado con\n"
+	.string "KYOGRE, siquiera aprovecha bien su\l"
+	.string "SEQUÍA. Nosotros estamos del lado\l"
+	.string "bueno.$"
+
+Aqua1_Text_Aqua_2Defeated:
+.string "Bah, has ganado porque no había lluvia\n"
+	.string "en el campo.$"
+
+Aqua1_Aqua_2PostBattle:
+.string "¿Y tú? ¿ De qué lado estás?$"
+
+
+
+Aqua1_Text_Aqua_3Intro:
+.string "Quién diría de la existencia de esta\n"
+	.string "caverna debajo de las ruinas, ¿verdad?$"
+
+Aqua1_Text_Aqua_3Defeated:
+.string "Quién diría de la existencia de\n"
+	.string "entrenadores como tú por aquí...$"
+
+Aqua1_Aqua_3PostBattle:
+.string "¿Habrá más lugares como este en las\n"
+	.string "otras islas?$"
+
+
+
+Aqua1_Text_Aqua_4Intro:
+.string "¿TEAM ROCKET? ¿ADMINISTRADOR? ¿No\n"
+	.string "estábais acabados?$"
+
+Aqua1_Text_Aqua_4Defeated:
+.string "Parece que no…$"
+
+Aqua1_Aqua_4PostBattle:
+.string "Se nota que no eres un cualquiera, aquí\n"
+	.string "también tenemos rangos. ¿Podrás con\l"
+	.string "nuestro ADMINISTRADOR?$"
+
+
+
+Aqua1_Text_Aqua_5Intro:
+.string "Dime un solo POKÉMON con más ATAQUE\n"
+	.string "ESPECIAL que KYOGRE en KANTO. ¡No\l"
+	.string "puedes! ¡Vuestra región es débil!$"
+
+Aqua1_Text_Aqua_5Defeated:
+.string "¡Qué fuerza!$"
+
+Aqua1_Aqua_5PostBattle:
+.string "¿¡MEWTWO!? No inventes POKÉMON, en\n"
+	.string "KANTO solo están GENGAR y ALAKAZAM\l"
+	.string "como grandes atacantes especiales,\l"
+	.string "lejos de los 150 de KYOGRE.$"

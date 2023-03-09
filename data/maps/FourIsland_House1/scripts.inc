@@ -30,6 +30,11 @@ playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox FourIsland_House1_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CASCO, FourIsland_House1_Entrenador_Especial_Texto_5
 msgbox FourIsland_House1_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
+playfanfare  MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_ROCKY_HELMET
+msgbox FourIsland_House1_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox FourIsland_House1_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE114_STATE, 1
 release
 end
@@ -50,6 +55,10 @@ FourIsland_House1_Entrenador_Especial_Texto_1:
 	.string "pueden causar efectos secundarios\l"
 	.string "interesantes como la parálisis,\l"
 	.string "sin embargo, tienen un problema.$"
+
+FourIsland_House1_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste un CASCO DENTADO\n"
+	.string "de manos de ENTRENADOR!$"
 
 FourIsland_House1_Entrenador_Especial_Texto_2:
 .string "¿Quieres saberlo?$"

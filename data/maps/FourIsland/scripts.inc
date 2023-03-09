@@ -80,16 +80,50 @@ end
 FourIslandDocumento_Text_101:
 .string "Casa de LORELEI$"
 
+FourIsland_Encuentro_Zeus_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, FourIsland_Encuentro_Zeus_Move_1
+waitmovement 0x0
+goto FourIsland_Encuentro_Zeus
+
+FourIsland_Encuentro_Zeus_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, FourIsland_Encuentro_Zeus_Move_1.1
+waitmovement 0x0
+goto FourIsland_Encuentro_Zeus
+
 FourIsland_Encuentro_Zeus::
 msgbox FourIsland_Encuentro_Zeus_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 9, FourIsland_Encuentro_Zeus_Move_2
+waitmovement 0x0
+delay 15
+applymovement 9, FourIsland_Encuentro_Zeus_Move_3
+waitmovement 0x0
 msgbox FourIsland_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox FourIsland_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
 msgbox FourIsland_Encuentro_Zeus_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 9, FourIsland_Encuentro_Zeus_Move_4
+waitmovement 0x0
 msgbox FourIsland_Encuentro_Zeus_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 9, FourIsland_Encuentro_Zeus_Move_5
+waitmovement 0x0
 msgbox FourIsland_Encuentro_Zeus_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 9, FourIsland_Encuentro_Zeus_Move_6
+waitmovement 0x0
 msgbox FourIsland_Encuentro_Zeus_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox FourIsland_Encuentro_Zeus_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox FourIsland_Encuentro_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+fadescreen 1
+delay 20
+removeobject 9
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 96
 release
 end
 
@@ -158,6 +192,11 @@ FourIsland_Encuentro_Zeus_Texto_9:
 
 FourIsland_Encuentro_Zeus_Move_1:
 face_right
+step_end
+
+FourIsland_Encuentro_Zeus_Move_1.1:
+walk_right
+walk_in_place_right
 step_end
 
 FourIsland_Encuentro_Zeus_Move_2:

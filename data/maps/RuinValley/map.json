@@ -2,7 +2,7 @@
   "id": "MAP_RUIN_VALLEY",
   "name": "RuinValley",
   "layout": "LAYOUT_RUIN_VALLEY",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_ROUTE",
   "region_map_section": "MAPSEC_RUIN_VALLEY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -148,7 +148,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RuinValley10",
-      "flag": "0"
+      "flag": "FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
@@ -220,7 +220,7 @@
       "x": 33,
       "y": 16,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -252,7 +252,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RuinValley18",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER"
     }
   ],
   "warp_events": [
@@ -265,7 +265,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "96",
+      "script": "RuinValley_Encuentro_Aquiles"
+    }
   ],
   "bg_events": [
 
