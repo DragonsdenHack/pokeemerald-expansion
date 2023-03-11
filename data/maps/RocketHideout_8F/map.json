@@ -161,6 +161,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "106",
       "script": "RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "108",
+      "script": "RocketHideout8F_Mision_Lugia_Roca_Ombligo"
     }
   ],
   "bg_events": [

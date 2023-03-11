@@ -85,3 +85,57 @@ end
 
 TwoIslandDocumento_Text_102:
 .string "SALÓN DE JUEGOS DE ISLA SECUNDA$"
+
+TwoIsland_Corriente_Arriba::
+compare VAR_UNUSED_0x40F7, 108
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_1
+waitmovement 0x0
+msgbox TwoIsland_Corriente_Arriba_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_2
+waitmovement 0x0
+release
+end
+
+TwoIsland_Corriente_Arriba_Texto_1:
+.string "(Al parecer no es muy recomendable\n"
+	.string "acercarse a esas corrientes).$"
+
+
+TwoIsland_Corriente_Derecha::
+compare VAR_UNUSED_0x40F7, 108
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, TwoIsland_Corriente_Derecha_Move_1
+waitmovement 0x0
+msgbox TwoIsland_Corriente_Arriba_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, TwoIsland_Corriente_Derecha_Move_2
+waitmovement 0x0
+release
+end
+
+TwoIsland_Corriente_Derecha_Move_1:
+walk_in_place_left
+step_end
+
+TwoIsland_Corriente_Derecha_Move_2:
+walk_slow_right
+step_end
+
+TwoIsland_Corriente_Izquierda::
+compare VAR_UNUSED_0x40F7, 108
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, TwoIsland_Corriente_Izquierda_Move_1
+waitmovement 0x0
+msgbox TwoIsland_Corriente_Arriba_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, TwoIsland_Corriente_Izquierda_Move_2
+waitmovement 0x0
+release
+end
+
+TwoIsland_Corriente_Izquierda_Move_1:
+walk_in_place_right
+step_end
+
+TwoIsland_Corriente_Izquierda_Move_2:
+walk_slow_left
+step_end

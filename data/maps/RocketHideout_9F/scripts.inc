@@ -140,3 +140,176 @@ walk_down
 walk_right
 walk_down
 step_end
+
+RocketHideout_9F_Entrenador_Experiencia::
+lock
+faceplayer
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 5000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ENTRENAMIENTO_6, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+RocketHideout_9F_Entrenador_Experiencia_No::
+delay 40
+hidemoneybox
+delay 40
+release
+end
+
+RocketHideout_9F_Entrenador_Experiencia_Texto_1:
+.string "Me especializo en entrenar la\n"
+	.string "EXPERIENCIA, por 5000 POKÉS\l"
+	.string "tendrás una sesión completa de\l"
+	.string "entreno, ¿aceptas?$"
+
+RocketHideout_9F_Entrenador_Experiencia_Texto_2:
+.string "Bien, vamos a ello.$"
+
+RocketHideout_9F_Entrenador_Experiencia_Texto_3:
+.string "Un honor servirle para mejorar su\n"
+	.string "equipo.$"
+
+RocketHideout_9F_Entrenador_Ataque_Especial::
+lock
+faceplayer
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Ataque_Especial_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 2000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ENTRENAMIENTO_1, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+RocketHideout_9F_Entrenador_Ataque_Especial_Texto_1:
+.string "Me especializo en entrenar el\n"
+	.string "AT.ESPECIAL, por 2000 POKÉS\l"
+	.string "tendrás una sesión completa de\l"
+	.string "entreno, ¿aceptas?$"
+
+RocketHideout_9F_Entrenador_Defensa::
+lock
+faceplayer
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Defensa_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 2000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ENTRENAMIENTO_5, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+
+RocketHideout_9F_Entrenador_Defensa_Texto_1:
+.string "Me especializo en entrenar la\n"
+	.string "DEFENSA, por 2000 POKÉS\l"
+	.string "tendrás una sesión completa de\l"
+	.string "entreno, ¿aceptas?$"
+
+RocketHideout_9F_Entrenador_Velocidad::
+lock
+faceplayer
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Velocidad_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 2000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ENTRENAMIENTO_3, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+
+RocketHideout_9F_Entrenador_Velocidad_Texto_1:
+.string "Me especializo en entrenar la\n"
+	.string "VELOCIDAD, por 2000 POKÉS\l"
+	.string "tendrás una sesión completa de\l"
+	.string "entreno, ¿aceptas?$"
+
+RocketHideout_9F_Entrenador_Ataque::
+lock
+faceplayer
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Ataque_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 2000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ENTRENAMIENTO_2, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+RocketHideout_9F_Entrenador_Ataque_Texto_1:
+.string "Me especializo en entrenar el\n"
+	.string "ATAQUE, por 2000 POKÉS\l"
+	.string "tendrás una sesión completa de\l"
+	.string "entreno, ¿aceptas?$"
+
+
+
+RocketHideout_9F_Entrenador_Defensa_Especial::
+lock
+faceplayer
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Defensa_Especial_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 2000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ENTRENAMIENTO_7, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+
+RocketHideout_9F_Entrenador_Defensa_Especial_Texto_1:
+.string "Me especializo en entrenar la\n"
+	.string "DEF.ESPECIAL, por 2000 POKÉS\l"
+	.string "tendrás una sesión completa de\l"
+	.string "entreno, ¿aceptas?$"
+
+RocketHideout_9F_Entrenador_Salud::
+lock
+faceplayer
+showmoneybox 0, 0
+msgbox RocketHideout_9F_Entrenador_Salud_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_9F_Entrenador_Experiencia_No
+delay 10
+playse SE_SHOP
+removemoney 2000 0
+updatemoneybox
+msgbox RocketHideout_9F_Entrenador_Experiencia_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ENTRENAMIENTO_4, RocketHideout_9F_Entrenador_Experiencia_Texto_3 
+release
+end
+
+RocketHideout_9F_Entrenador_Salud_Texto_1:
+.string "Me especializo en entrenar la\n"
+	.string "SALUD, por 2000 POKÉS\l"
+	.string "tendrás una sesión completa de\l"
+	.string "entreno, ¿aceptas?$"
