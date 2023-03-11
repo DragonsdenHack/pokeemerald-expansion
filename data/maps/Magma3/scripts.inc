@@ -139,7 +139,7 @@ waitmovement 0x0
 playse SE_BALL_TRADE
 waitse
 msgbox Magma3_Combate_Magno_Texto_14 MSGBOX_AUTOCLOSE
-playse MUS_MOVE_DELETED
+playse SE_RG_CARD_FLIP
 applymovement 1, Magma3_Combate_Magno_Move_15.1
 waitmovement 0x0
 delay 20

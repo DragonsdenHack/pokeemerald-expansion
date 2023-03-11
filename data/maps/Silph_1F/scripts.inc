@@ -283,3 +283,210 @@ end
 Silph1FDocumento_Text_100:
 .string "OFICINA CENTRAL DE SILPH S.A.\n"
 	.string "PB$"
+
+
+
+Silph_1F_Recepcionista_Pisos_Inferiores::
+compare VAR_UNUSED_0x40F7, 102
+goto_if_gt Silph_1F_Recepcionista_Pisos_Inferiores_3
+compare VAR_UNUSED_0x40F7, 101
+goto_if_gt Silph_1F_Recepcionista_Pisos_Inferiores_2
+msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_3::
+lock
+faceplayer
+msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_6 MSGBOX_AUTOCLOSE
+release
+end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_2::
+delay 20
+msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 1, Silph_1F_Recepcionista_Pisos_Inferiores_Move_1
+waitmovement 0x0
+msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, Silph_1F_Recepcionista_Pisos_Inferiores_Move_2
+waitmovement 0x0
+msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Silph_1F_Recepcionista_Pisos_Inferiores_Move_3
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 10, 3, 0x346, TRUE
+setmetatile 10, 2, 0x33E, TRUE
+setmetatile 10, 1, 0x290, TRUE
+setmetatile 10, 0, 0x288, TRUE
+setmetatile 11, 3, 0x276, FALSE
+setmetatile 11, 2, 0x26F, FALSE
+setmetatile 11, 1, 0x271, TRUE
+setmetatile 11, 0, 0x269, TRUE
+setmetatile 12, 3, 0x266, TRUE
+setmetatile 12, 2, 0x25E, TRUE
+setmetatile 12, 1, 0x274, TRUE
+setmetatile 12, 0, 0x330, TRUE
+setmetatile 13, 3, 0x267, TRUE
+setmetatile 13, 2, 0x25F, TRUE
+setmetatile 13, 1, 0x275, TRUE
+setmetatile 13, 0, 0x330, TRUE
+setmetatile 14, 3, 0x347, TRUE
+setmetatile 14, 2, 0x33F, TRUE
+setmetatile 14, 1, 0x294, TRUE
+setmetatile 14, 0, 0x28C, TRUE
+special DrawWholeMapView
+delay 60
+playse SE_PIN
+applymovement OBJ_EVENT_ID_CAMERA, Silph_1F_Recepcionista_Pisos_Inferiores_Move_1
+waitmovement 0x0
+delay 10
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Silph_1F_Recepcionista_Pisos_Inferiores_Move_4
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 1, Silph_1F_Recepcionista_Pisos_Inferiores_Move_5
+waitmovement 0x0
+msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, Silph_1F_Recepcionista_Pisos_Inferiores_Move_6
+waitmovement 0x0
+msgbox Silph_1F_Recepcionista_Pisos_Inferiores_Texto_6 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 103
+release
+end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Move_1:
+emote_exclamation_mark
+step_end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Move_2:
+walk_right
+walk_up
+walk_right
+step_end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Move_3:
+walk_up
+walk_up
+walk_up
+walk_right
+walk_right
+walk_up
+walk_up
+walk_right
+walk_right
+walk_right
+step_end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Move_4:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+step_end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Move_5:
+walk_left
+walk_down
+walk_left
+walk_in_place_down
+step_end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Move_6:
+walk_in_place_down
+step_end
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Texto_1:
+.string "¡Jamás olvidaré lo que habéis\n"
+	.string "hecho aquí ROCKETS!$"
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2:
+.string "...\n"
+	.string "...$"
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Texto_3:
+.string "¡Ah, sí!\n"
+	.string "¡Tú eres el chico que iba a venir\l"
+	.string "en nombre del TEAM ROCKET a\l"
+	.string "visitar nuestra biblioteca!\l"
+	.string "Eres muy afortunado, ¿lo sabías?$"
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4:
+.string "Nadie de fuera de la empresa ha\n"
+	.string "entrado jamás, y solo nuestros\l"
+	.string "empleados más destacados tienen\l"
+	.string "acceso a ella, pero nuestro\l"
+	.string "PRESIDENTE...$"
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5:
+.string "Me ha hecho saber expresamente su\n"
+	.string "voluntad de que entres siempre que\l"
+	.string "quieras.$"
+
+Silph_1F_Recepcionista_Pisos_Inferiores_Texto_6:
+.string "A partir de ahora podrás acceder a\n"
+	.string "nuestros pisos inferiores solo con\l"
+	.string "interactuar con mi ordenador,\l"
+	.string "¡buena suerte en tu búsqueda!$"
+
+Silph_1F_Activador_Entrada::
+compare VAR_UNUSED_0x40F7, 102
+goto_if_gt Silph_1F_Activador_Entrada_2
+msgbox Silph_1F_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Silph_1F_Activador_Entrada_2:
+msgbox RocketHideout_4F_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 10, 3, 0x346, TRUE
+setmetatile 10, 2, 0x33E, TRUE
+setmetatile 10, 1, 0x290, TRUE
+setmetatile 10, 0, 0x288, TRUE
+setmetatile 11, 3, 0x276, FALSE
+setmetatile 11, 2, 0x26F, FALSE
+setmetatile 11, 1, 0x271, TRUE
+setmetatile 11, 0, 0x269, TRUE
+setmetatile 12, 3, 0x266, TRUE
+setmetatile 12, 2, 0x25E, TRUE
+setmetatile 12, 1, 0x274, TRUE
+setmetatile 12, 0, 0x330, TRUE
+setmetatile 13, 3, 0x267, TRUE
+setmetatile 13, 2, 0x25F, TRUE
+setmetatile 13, 1, 0x275, TRUE
+setmetatile 13, 0, 0x330, TRUE
+setmetatile 14, 3, 0x347, TRUE
+setmetatile 14, 2, 0x33F, TRUE
+setmetatile 14, 1, 0x294, TRUE
+setmetatile 14, 0, 0x28C, TRUE
+special DrawWholeMapView
+delay 60
+release
+end
+
+Silph_1F_Activador_Entrada_Texto_1:
+.string "Este ordenador parece que cumple\n"
+	.string "una función de gran importancia...$"

@@ -302,7 +302,7 @@ CultoS3_Text_19:
 .string "Creemos que lo que hacemos en la\l"
 .string "vida tiene su eco en la eternidad,\l"
 .string "no se trata de minusvalorar al\l"
-.string "resto de almas, sino de resaltar\l"
+.string "resto de almas, si no de resaltar\l"
 .string "aquellas que lograron la\l"
 .string "excelencia.$"
 
@@ -600,32 +600,162 @@ CultoS3_Text_42:
 .string "del camino equivocado.$"
 
 Culto_S3_Batalla::
+lockall
+clearflag FLAG_HIDE_HO_OH
+clearflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+addobject 53
+addobject 55
+applymovement OBJ_EVENT_ID_PLAYER, Culto_S3_Batalla_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Culto_S3_Batalla_Move_2
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_3
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Culto_S3_Batalla_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_4
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_5
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_3 MSGBOX_AUTOCLOSE
-msgbox Culto_S3_Batalla_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+playmoncry SPECIES_YVELTAL, CRY_MODE_ENCOUNTER
+msgbox Culto_S3_Batalla_Texto_4 MSGBOX_DEFAULT
+waitmoncry
+delay 20
+setflag FLAG_HIDE_HO_OH
+fadescreen 3
+delay 20
+playse SE_M_GUST
+delay 40
+playse SE_M_RAZOR_WIND
+delay 40
+removeobject 53
+playse SE_M_CHARGE
+delay 40
+playse SE_M_SOLAR_BEAM
+delay 40
+playse SE_BREAKABLE_DOOR
+delay 40
+fadescreen 2
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_7
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Culto_S3_Batalla_Texto_5 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_8
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Culto_S3_Batalla_Move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement 43, Culto_S3_Batalla_Move_2
+applymovement 44, Culto_S3_Batalla_Move_2
+applymovement 45, Culto_S3_Batalla_Move_2
+applymovement 46, Culto_S3_Batalla_Move_2
+applymovement 47, Culto_S3_Batalla_Move_2
+applymovement 48, Culto_S3_Batalla_Move_2
+applymovement 49, Culto_S3_Batalla_Move_2
+applymovement 50, Culto_S3_Batalla_Move_2
+applymovement 51, Culto_S3_Batalla_Move_2
+applymovement 52, Culto_S3_Batalla_Move_2
+applymovement 54, Culto_S3_Batalla_Move_2
+waitmovement 0x0
+delay 15
 msgbox Culto_S3_Batalla_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_9
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 54, Culto_S3_Batalla_Move_2
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_4
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_5
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Culto_S3_Batalla_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_10
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_12 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_6
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Culto_S3_Batalla_Texto_13 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_BALL_OPEN
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+clearflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+removeobject 55
+addobject 58
+waitse
+delay 15
+playse SE_BALL_TRADE
+delay 15
+setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+removeobject 58
+delay 20
 msgbox Culto_S3_Batalla_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 54, Culto_S3_Batalla_Move_11
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Culto_S3_Batalla_Move_7
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Culto_S3_Batalla_Texto_15 MSGBOX_AUTOCLOSE
 msgbox Culto_S3_Batalla_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_9
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_17 MSGBOX_AUTOCLOSE
-msgbox Culto_S3_Batalla_Texto_18 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CULTO_1, Culto_S3_Batalla_Texto_18
 msgbox Culto_S3_Batalla_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_4
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_5
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_21 MSGBOX_AUTOCLOSE
 msgbox Culto_S3_Batalla_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_4
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_23 MSGBOX_AUTOCLOSE
 msgbox Culto_S3_Batalla_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 54, Culto_S3_Batalla_Move_5
+waitmovement 0x0
 msgbox Culto_S3_Batalla_Texto_25 MSGBOX_AUTOCLOSE
 msgbox Culto_S3_Batalla_Texto_26 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+fadescreen 1
+delay 20
+removeobject 43
+removeobject 44
+removeobject 45
+removeobject 46
+removeobject 47
+removeobject 48
+removeobject 49
+removeobject 50
+removeobject 51
+removeobject 52
+removeobject 54
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 108
 release
 end
 
@@ -667,7 +797,7 @@ Culto_S3_Batalla_Texto_7:
 	.string "lugar existe, de modo que...$"
 
 Culto_S3_Batalla_Texto_8:
-.string "¿Cómo?\n"
+.string "De modo que...\n"
 	.string "¿Eres el actual CAMPEÓN de la\l"
 	.string "región de KANTO?\l"
 	.string "¿Y vas en busca del POKÉMON\l"

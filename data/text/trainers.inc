@@ -8999,7 +8999,7 @@ PewterCityGym_Text_ChicoIntro:
 
 PewterCityGym_Text_ChicoDefeated:
 	.string "¡Los años luz no se miden en\n"
-	.string "tiempo sino en distancia!$"
+	.string "tiempo si no en distancia!$"
 
 
 PewterCityGym_Text_ChicoPostBattle:
@@ -11522,7 +11522,7 @@ CultoS3_Text_ExorcistaDefeated:
 
 CultoS3_Text_ExorcistaPostBattle:
 	.string "El mal no está en cometer errores,\n"
-	.string "sino en no tratar de enmendarlos.$"
+	.string "si no en no tratar de enmendarlos.$"
 
 
 CultoS3_Text_Exorcista2Intro:
@@ -11568,7 +11568,7 @@ CultoS3_Text_Medium3PostBattle:
 
 
 CultoS3_Text_Medium4Intro:
-	.string "Más te vale no pasar de aquí sino\n"
+	.string "Más te vale no pasar de aquí si no\n"
 	.string "quieres escoger la senda del\l"
 	.string "dolor.$"
 
@@ -16733,3 +16733,70 @@ Aqua1_Aqua_5PostBattle:
 	.string "KANTO solo están GENGAR y ALAKAZAM\l"
 	.string "como grandes atacantes especiales,\l"
 	.string "lejos de los 150 de KYOGRE.$"
+
+Aqua1_Text_Aqua_6Intro:
+.string "Del mar surgió la vida, ¡y ahí\n"
+	.string "volveremos!$"
+
+Aqua1_Text_Aqua_6Defeated:
+.string "¡Me has hundido!$"
+
+Aqua1_Aqua_6PostBattle:
+.string "GYARADOS es un POKÉMON increíble,\n"
+	.string "aunque muchos aquí dicen que SHARPEDO\l"
+	.string "es mejor, creo que solo lo dicen porque\l"
+	.string "es de HOENN.$"
+
+DottedHole_B4F_Text_Aqua_1Intro:
+.string "¿Cómo has llegado hasta aquí?\n"
+	.string "Se suponía que solo estábamos aquí\l"
+	.string "por si las moscas.\l"
+	.string "¡No vengas ahora a aguar la\l"
+	.string "fiesta!$"
+
+DottedHole_B4F_Text_Aqua_1Defeated:
+.string "Bah, venga ya.$"
+
+DottedHole_B4F_Aqua_1PostBattle:
+.string "Espero por tu bien que solo te\n"
+	.string "hayas perdido, ni se te ocurra\l"
+	.string "bajar por el agujero que tienes\l"
+	.string "justo detrás de ti.$"
+
+
+DottedHole_B4F_Text_Aqua_2Intro:
+.string "El señor de los mares fue\n"
+	.string "injustamente confinado en este\l"
+	.string "lugar hace milenios, cuando\l"
+	.string "nuestro LÍDER lo libere ya nada\l"
+	.string "impedirá que vuelva a reinar tal y\l"
+	.string "como merece.$"
+
+DottedHole_B4F_Text_Aqua_2Defeated:
+.string "No llegarás muy lejos con esa\n"
+	.string "actitud.$"
+
+DottedHole_B4F_Aqua_2PostBattle:
+.string "Por tu bien espero que no cometas\n"
+	.string "la estupidez de seguir adelante,\l"
+	.string "no existe poder más devastador que\l"
+	.string "los ataques acuáticos de un KYOGRE\l"
+	.string "bajo su infernal tempestad.$"
+
+
+DottedHole_B4F_Text_Aqua_3Intro:
+.string "Confío en nuestro CAPITÁN y\n"
+	.string "nuestro LÍDER, AQUILES, gracias a\l"
+	.string "él el mar por fin tendrá la\l"
+	.string "extensión que merece.$"
+
+DottedHole_B4F_Text_Aqua_3Defeated:
+.string "¡Perdóname AQUILES!\n"
+	.string "¡No pude frenarlo!$"
+
+DottedHole_B4F_Aqua_3PostBattle:
+.string "Aunque llegaras hasta mi JEFE, no\n"
+	.string "hay vuelta atrás, deben de estar\l"
+	.string "apunto de despertar a KYOGRE, y\l"
+	.string "una vez liberado, su furia\l"
+	.string "será incontenible.$"

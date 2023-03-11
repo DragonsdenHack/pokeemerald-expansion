@@ -24364,9 +24364,21 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER129[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER130[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 63,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_POISON_JAB, MOVE_LIQUIDATION, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 64,
+    .species = SPECIES_LANTURN,
+    .moves = {MOVE_DISCHARGE, MOVE_HYDRO_PUMP, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 65,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_AQUA_TAIL, MOVE_BOUNCE, MOVE_EARTHQUAKE, MOVE_NONE}
     }
 };
 

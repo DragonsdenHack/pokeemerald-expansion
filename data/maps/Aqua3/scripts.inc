@@ -1,37 +1,226 @@
 Aqua3_MapScripts::
 	.byte 0
 
+Aqua3_Combate_Aquiles_Arriba::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Aqua3_Combate_Aquiles_Move_1
+waitmovement 0x0
+goto Aqua3_Combate_Aquiles
+
+Aqua3_Combate_Aquiles_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Aqua3_Combate_Aquiles_Move_1.1
+waitmovement 0x0
+goto Aqua3_Combate_Aquiles
+
 Aqua3_Combate_Aquiles::
+clearflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
 msgbox Aqua3_Combate_Aquiles_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Aqua3_Combate_Aquiles_Move_2
+waitmovement 0x0
+playse SE_PIN
+applymovement 1, Aqua3_Combate_Aquiles_Move_3
+waitmovement 0x0
+applymovement 1, Aqua3_Combate_Aquiles_Move_4
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Aqua3_Combate_Aquiles_Move_5
+waitmovement 0x0
+applymovement 1, Aqua3_Combate_Aquiles_Move_6
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_7
+waitmovement 0x0
+special RemoveCameraObject
+playbgm MUS_ENCOUNTER_AQUA, FALSE
 msgbox Aqua3_Combate_Aquiles_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+setvar VAR_RESULT, 1
+playse SE_M_DETECT
+waitse
+dofieldeffectsparkle 17, 42, 0
+waitfieldeffect FLDEFF_SPARKLE
+closemessage
+setvar VAR_RESULT, 1
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+delay 75
+addobject 1
+waitfanfare
+clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+removeobject 2
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_3
+waitmovement 0x0
+goto Aqua3_Combate_Aquiles_2
+delay 150
+removeobject LOCALID_KYOGRE_SLEEPING
+addobject LOCALID_KYOGRE
+addobject 4
+waitstate
+delay 60
+applymovement 4, MagmaHideout_4F_Movement_GroudonApproach
+waitmovement 0
+special FadeOutOrbEffect
+waitstate
+setvar VAR_0x8004, 2  @ vertical pan
+setvar VAR_0x8005, 2  @ horizontal pan
+setvar VAR_0x8006, 8  @ num shakes
+setvar VAR_0x8007, 5  @ shake delay
+special ShakeCamera
+waitstate
+applymovement 4, MagmaHideout_4F_Movement_GroudonExit
+waitmovement 0
+
+Aqua3_Combate_Aquiles_2::
+special SpawnCameraObject
+applymovement 4, TerraCave_End_Movement_GroudonApproach
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9
+waitmovement 0x0
+special RemoveCameraObject
+delay 120
+playse SE_BALL_THROW
+waitse
+playmoncry SPECIES_KYOGRE, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 15
+setflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+removeobject 4
+playse SE_BALL_OPEN
+clearflag FLAG_HIDE_ROUTE_119_SCOTT
+addobject 5
+waitse
+delay 15
+playse SE_RG_BALL_CLICK
+waitse
+playse SE_BALL_TRADE
+delay 15
+setflag FLAG_HIDE_ROUTE_119_SCOTT
+removeobject 5
+delay 15
+playse MUS_B_PYRAMID_TOP
 msgbox Aqua3_Combate_Aquiles_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, Magma3_Combate_Magno_Move_10
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_11
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, Magma3_Combate_Magno_Move_12
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_6 MSGBOX_AUTOCLOSE
-msgbox Aqua3_Combate_Aquiles_Texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_AQUILES, Aqua3_Combate_Aquiles_Texto_7
 msgbox Aqua3_Combate_Aquiles_Texto_8 MSGBOX_AUTOCLOSE
 msgbox Aqua3_Combate_Aquiles_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Magma3_Combate_Magno_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_3
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_10
+waitmovement 0x0
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+addobject 3
+applymovement 3, Magma3_Combate_Magno_Move_13
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Aqua3_Combate_Aquiles_Texto_11 MSGBOX_AUTOCLOSE
 msgbox Aqua3_Combate_Aquiles_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 3, Magma3_Combate_Magno_Move_14
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_15
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_13 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_FLOETTE, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_SUPERSONIC
+waitse
+applymovement 3, Magma3_Combate_Magno_Move_1
+waitmovement 0x0
+playse SE_BALL_TRADE
+waitse
 msgbox Aqua3_Combate_Aquiles_Texto_14 MSGBOX_AUTOCLOSE
+playse SE_RG_CARD_FLIP
+applymovement 1, Magma3_Combate_Magno_Move_15.1
+waitmovement 0x0
+delay 20
 msgbox Aqua3_Combate_Aquiles_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Aqua3_Combate_Aquiles_Texto_16 MSGBOX_AUTOCLOSE
 msgbox Aqua3_Combate_Aquiles_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 1, Magma3_Combate_Magno_Move_3
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_18 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+fadescreen 1
+delay 20
+removeobject 1
+fadescreen 0
+delay 15
+applymovement 3, Magma3_Combate_Magno_Move_17
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_18
+waitmovement 0x0
+delay 20
 msgbox Aqua3_Combate_Aquiles_Texto_20 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Aqua3_Combate_Aquiles_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_4
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_22 MSGBOX_AUTOCLOSE
 msgbox Aqua3_Combate_Aquiles_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Aqua3_Combate_Aquiles_Texto_20 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 3, Aqua3_Combate_Aquiles_Move_17
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_19
+applymovement OBJ_EVENT_ID_PLAYER, Aqua3_Combate_Aquiles_Move_10
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_6
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_20
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_10
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_21
+waitmovement 0x0
+delay 15
+msgbox Aqua3_Combate_Aquiles_Texto_20 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Aqua3_Combate_Aquiles_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 3, Aqua3_Combate_Aquiles_Move_22
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+removeobject 3
+delay 100
+playse SE_POKENAV_CALL
+waitse
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Aqua3_Combate_Aquiles_Move_3
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_30 MSGBOX_AUTOCLOSE
+delay 25
+playse SE_POKENAV_OFF
+setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+setvar VAR_UNUSED_0x40F7, 101
 release
 end
 
@@ -286,13 +475,18 @@ Aqua3_Combate_Aquiles_Texto_29:
 	.string "hacerlo si te pones en medio.$"
 
 Aqua3_Combate_Aquiles_Texto_30:
-.string "GIOVANNI: ¿ADMIN.JEFE {PLAYER}?\n"
-	.string "¿Sigues en las ISLAS SETE?\l"
+.string "GIOVANNI: ¿ADMIN {PLAYER}?\n"
+	.string "¿Sigues en ISLAS SETE?\l"
 	.string "Tenemos muchas cosas de las que\l"
 	.string "hablar, requiero de tu presencia\l"
 	.string "cuanto antes en mi despacho.$"
 
 Aqua3_Combate_Aquiles_Move_1:
+walk_in_place_right
+step_end
+
+Aqua3_Combate_Aquiles_Move_1.1:
+walk_up
 walk_in_place_right
 step_end
 

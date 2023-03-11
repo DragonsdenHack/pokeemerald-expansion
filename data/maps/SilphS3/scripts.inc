@@ -8,6 +8,18 @@ SilphS3_EventScript_Policia::
 
 
 
+SilphS3_3::
+lock         
+msgbox SilphS3_Text_3, MSGBOX_SIGN
+release     
+end
+
+SilphS3_Text_3:
+    .string "...\n"
+	.string "...\l"
+	.string "(Está completamente inmerso en la\l"
+	.string "tarea que está realizando).$"
+
 SilphS3_4::
 lock     
 faceplayer     
@@ -197,18 +209,60 @@ SilphS3Documento_Text_104:
 	.string "inevitablemente cayó hasta los 70\l"
 	.string "de BASE.$"
 
-SilphS3_Miguel_Batalla::
+SilphS3_Miguel_Batalla_Derecha::
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Miguel_Batalla_Move_1
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Miguel_Batalla_Move_2
+waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Miguel_Batalla_Move_3
+waitmovement 0x0
+goto SilphS3_Miguel_Batalla
+
+SilphS3_Miguel_Batalla_Izquierda::
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Miguel_Batalla_Move_1
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Miguel_Batalla_Move_2
+waitmovement 0x0
+msgbox SilphS3_Miguel_Batalla_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Miguel_Batalla_Move_3.1
+waitmovement 0x0
+goto SilphS3_Miguel_Batalla
+
+SilphS3_Miguel_Batalla::
+delay 20
+applymovement 2, SilphS3_Miguel_Batalla_Move_4
+waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SilphS3_Miguel_Batalla_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, SilphS3_Miguel_Batalla_Move_5
+waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 2, SilphS3_Miguel_Batalla_Move_6
+waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 2, SilphS3_Miguel_Batalla_Move_6
+waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_6 MSGBOX_AUTOCLOSE
-msgbox SilphS3_Miguel_Batalla_Texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CMIGUEL_3, SilphS3_Miguel_Batalla_Texto_7
 msgbox SilphS3_Miguel_Batalla_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SilphS3_Miguel_Batalla_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, SilphS3_Miguel_Batalla_Move_5
+waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, SilphS3_Miguel_Batalla_Move_6
+waitmovement 0x0
 msgbox SilphS3_Miguel_Batalla_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, SilphS3_Miguel_Batalla_Move_7
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 104
 release
 end
 
@@ -307,9 +361,14 @@ emote_exclamation_mark
 step_end
 
 SilphS3_Miguel_Batalla_Move_3:
-walk_up
+walk_slow_up
 walk_slow_left
-walk_up
+walk_slow_up
+step_end
+
+SilphS3_Miguel_Batalla_Move_3.1:
+walk_slow_up
+walk_slow_up
 step_end
 
 SilphS3_Miguel_Batalla_Move_4:
@@ -334,25 +393,62 @@ step_end
 
 
 SilphS3_Bill_Batalla::
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_1
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_3
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_4
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_3 MSGBOX_AUTOCLOSE
 msgbox SilphS3_Bill_Batalla_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_2
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_5 MSGBOX_AUTOCLOSE
 msgbox SilphS3_Bill_Batalla_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SilphS3_Bill_Batalla_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 3, SilphS3_Bill_Batalla_Move_5
+waitmovement 0x0
+applymovement 3, SilphS3_Bill_Batalla_Move_4
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_4
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox SilphS3_Bill_Batalla_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
 msgbox SilphS3_Bill_Batalla_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_6
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_7
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_12 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, SilphS3_Bill_Batalla_Move_8
+applymovement 3, SilphS3_Bill_Batalla_Move_2
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_2
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_14 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox SilphS3_Bill_Batalla_Texto_15 MSGBOX_AUTOCLOSE
-msgbox SilphS3_Bill_Batalla_Texto_16 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, SilphS3_Bill_Batalla_Texto_16
 msgbox SilphS3_Bill_Batalla_Texto_17 MSGBOX_AUTOCLOSE
 msgbox SilphS3_Bill_Batalla_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_2
+waitmovement 0x0
 msgbox SilphS3_Bill_Batalla_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 3, SilphS3_Bill_Batalla_Move_9
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 105
 release
 end
 
@@ -579,3 +675,86 @@ step_end
 SilphS3_Bill_Batalla_Move_9:
 face_left
 step_end
+
+SilphS3_Documento_Pokemon_Esencia::
+compare VAR_UNUSED_0x40F7, 105
+goto_if_gt SilphS3_Documento_Pokemon_Esencia_2
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 106
+release
+end
+
+SilphS3_Documento_Pokemon_Esencia_2::
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+msgbox SilphS3_Documento_Pokemon_Esencia_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+SilphS3_Documento_Pokemon_Esencia_Texto_1:
+.string "-LA LEYENDA DEL POKÉMON ESENCIA,\n"
+	.string "AQUEL QUE DA SENTIDO A KANTO:\l"
+	.string "... ...\l"
+	.string "... ...\l"
+	.string "Que PUEBLO LAVANDA y su TORRE\l"
+	.string "POKÉMON se asentaran al sur del\l"
+	.string "TÚNEL ROCA no es mera casualidad,\l"
+	.string "fue allí donde sus primeros\l"
+	.string "habitantes lograron establecer\l"
+	.string "contacto con aquel que llamaron\l"
+	.string "-POKÉMON ESENCIA-, este, a\l"
+	.string "diferencia del resto de POKÉMON,\l"
+	.string "no contaba con una forma definida,\l"
+	.string "podía presentarse en cualquier\l"
+	.string "lugar y forma, un POKÉMON de tal\l"
+	.string "poder y presencia que forma parte\l"
+	.string "de cada uno de los píxeles que\l"
+	.string "conforman KANTO, en cada buena o\l"
+	.string "mala acción, momento de calma o\l"
+	.string "iluminación, el POKÉMON ESENCIA se\l"
+	.string "encontrará allí, simplemente\l"
+	.string "observando el devenir de\l"
+	.string "acontecimientos de la región de\l"
+	.string "KANTO, atento a aquel momento de\l"
+	.string "incertidumbre previo a la acción...$"
+
+SilphS3_Documento_Pokemon_Esencia_Texto_2:
+.string "¿Seguir leyendo?$"
+
+SilphS3_Documento_Pokemon_Esencia_Texto_3:
+.string "Un ser de tal naturaleza,\n"
+	.string "omnipresente y, para algunos,\l"
+	.string "también omnipotente, no podía ser\l"
+	.string "catalogado con los parámetros que\l"
+	.string "rigen al resto de POKÉMON, el mero\l"
+	.string "hecho de ser categorizado\l"
+	.string "produciría automáticamente una\l"
+	.string "reducción de la auténtica\l"
+	.string "complejidad de tal ser, no\l"
+	.string "obstante, aquellos primeros\l"
+	.string "habitantes de PUEBLO LAVANDA\l"
+	.string "alcanzaron tal nivel de\l"
+	.string "espiritualidad que lograron entrar\l"
+	.string "en contacto con -EL POKÉMON\l"
+	.string "ESENCIA-, formando un culto en\l"
+	.string "torno a este ser, estos,\l"
+	.string "iluminados por la sabiduría del\l"
+	.string "POKÉMON ESENCIA, perdieron todo\l"
+	.string "apego por el mundo material, y con\l"
+	.string "ello el contacto con el resto de\l"
+	.string "la población de KANTO, hasta el\l"
+	.string "punto de que, con el paso de las\l"
+	.string "generaciones, nadie vive ahora\l"
+	.string "para recordar la existencia de\l"
+	.string "este culto, mucho menos la del\l"
+	.string "-POKÉMON ESENCIA-, si la leyenda\l"
+	.string "es cierta, dicho culto aún existe,\l"
+	.string "oculto en algún rincón de PUEBLO\l"
+	.string "LAVANDA...$"
+

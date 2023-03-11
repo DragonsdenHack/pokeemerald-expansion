@@ -5,7 +5,7 @@
   "music": "MUS_CAVE_OF_ORIGIN",
   "region_map_section": "MAPSEC_DOTTED_HOLE",
   "requires_flash": false,
-  "weather": "WEATHER_NONE",
+  "weather": "WEATHER_FOG_HORIZONTAL",
   "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": true,
   "allow_escaping": true,
@@ -33,14 +33,14 @@
       "x": 10,
       "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_CUEVA_HYPNO_1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_AQUA1",
+      "dest_warp_id": 1
     },
     {
       "x": 14,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_AQUA2",
+      "dest_map": "MAP_AQUA3",
       "dest_warp_id": 0
     }
   ],

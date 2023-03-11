@@ -1,22 +1,156 @@
 DottedHole_SapphireRoom_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, DottedHole_SapphireRoom_OnFrame
 	.byte 0
 
+DottedHole_SapphireRoom_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 99, DottedHole_SapphireRoom_Encuentro_Aquiles
+	.2byte 0
+
 DottedHoleSaphireRoom2::
+lock
+faceplayer
+msgbox DottedHoleSaphireRoom2_Texto_1 MSGBOX_NPC
+release
 end
 
+DottedHoleSaphireRoom2_Texto_1:
+.string "Espero que te merezcan la pena los\n"
+	.string "segundos en los que podrás\l"
+	.string "presenciar el renacer de KYOGRE\l"
+	.string "antes de acabar a decenas de\l"
+	.string "metros bajo el nivel del mar.$"
+
 DottedHole_SapphireRoom_Encuentro_Aquiles::
+addobject 2
+addobject 3
+addobject 4
+lock
+setmetatile 7, 3, 0x2D9, TRUE
+setmetatile 7, 2, 0x299, TRUE
+setmetatile 7, 1, 0x2C4, TRUE
+special DrawWholeMapView
+applymovement OBJ_EVENT_ID_PLAYER, MtEmber_B5F_Encuentro_Magno_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtEmber_B5F_Encuentro_Magno_Move_2
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MtEmber_B5F_Encuentro_Magno_Move_3
+waitmovement 0x0
+special RemoveCameraObject
+playse MUS_ENCOUNTER_AQUA
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_4
+waitmovement 0x0
+delay 15
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+addobject 1
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_4.1
+waitmovement 0x0
+delay 15
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_3 MSGBOX_AUTOCLOSE
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
+waitmovement 0x0
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
+waitmovement 0x0
+delay 20
+playse SE_M_DETECT
+waitse
+dofieldeffectsparkle 7, 4, 0
+waitfieldeffect FLDEFF_SPARKLE
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+delay 75
+removeobject 1
+waitfanfare
+playse SE_BANG
+setmetatile 7, 3, 0x284, TRUE
+setmetatile 7, 2, 0x294, FALSE
+setmetatile 7, 1, 0x28C, TRUE
+special DrawWholeMapView
+delay 25
+playse SE_PIN
+applymovement 2, MtEmber_B5F_Encuentro_Magno_Move_2
+applymovement 3, MtEmber_B5F_Encuentro_Magno_Move_2
+applymovement 5, MtEmber_B5F_Encuentro_Magno_Move_2
+applymovement 6, MtEmber_B5F_Encuentro_Magno_Move_2
+applymovement 7, MtEmber_B5F_Encuentro_Magno_Move_2
+applymovement 8, MtEmber_B5F_Encuentro_Magno_Move_2
+applymovement 9, MtEmber_B5F_Encuentro_Magno_Move_2
+applymovement 10, MtEmber_B5F_Encuentro_Magno_Move_2
+waitmovement 0x0
+delay 40
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
+waitmovement 0x0
+msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6.1 MSGBOX_AUTOCLOSE
+applymovement 9, MtEmber_B5F_Encuentro_Magno_Move_14
+waitmovement 0x0
+playse SE_EXIT
+removeobject 9
+applymovement 8, MtEmber_B5F_Encuentro_Magno_Move_15
+waitmovement 0x0
+playse SE_EXIT
+removeobject 8
+applymovement 10, MtEmber_B5F_Encuentro_Magno_Move_16
+waitmovement 0x0
+playse SE_EXIT
+removeobject 10
+applymovement 7, MtEmber_B5F_Encuentro_Magno_Move_17
+waitmovement 0x0
+playse SE_EXIT
+removeobject 7
+applymovement 6, MtEmber_B5F_Encuentro_Magno_Move_18
+waitmovement 0x0
+playse SE_EXIT
+removeobject 6
+applymovement 5, MtEmber_B5F_Encuentro_Magno_Move_19
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, MtEmber_B5F_Encuentro_Magno_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, MtEmber_B5F_Encuentro_Magno_Move_7
+waitmovement 0x0
+playse SE_PIN
+applymovement 2, MtEmber_B5F_Encuentro_Magno_Move_8
+applymovement 3, MtEmber_B5F_Encuentro_Magno_Move_8
+waitmovement 0x0
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_9
+waitmovement 0x0
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 2, MtEmber_B5F_Encuentro_Magno_Move_10
+waitmovement 0x0
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_8 MSGBOX_AUTOCLOSE
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_11
+waitmovement 0x0
+setflag FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE
+removeobject 4
+playse SE_EXIT
+applymovement 3, MtEmber_B5F_Encuentro_Magno_Move_12
+waitmovement 0x0
+removeobject 3
+playse SE_EXIT
+applymovement 2, MtEmber_B5F_Encuentro_Magno_Move_13
+waitmovement 0x0
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_10 MSGBOX_AUTOCLOSE
-msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_11 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_KAYLEE, DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_11
 msgbox DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 100
 release
 end
 
@@ -69,6 +203,11 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6:
 	.string "¡Al fin podrás nadar libremente\l"
 	.string "por los 7 mares y hacer uso de\l"
 	.string "todo tu poder!$"
+
+DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6.1:
+.string "¿A qué esperáis, atajo de sabandijas?\n"
+	.string "¡Todos adentro o seréis los primeros en\l"
+	.string "probar el SALPICAR de KYOGRE!$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_7:
 .string "AQUILES: Yo a ti te conozco, eres\n"

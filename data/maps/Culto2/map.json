@@ -2,11 +2,11 @@
   "id": "MAP_CULTO2",
   "name": "Culto2",
   "layout": "LAYOUT_CULTO2",
-  "music": "1",
+  "music": "MUS_MT_PYRE_EXTERIOR",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_UNDERGROUND",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
@@ -32,12 +32,12 @@
       "x": 20,
       "y": 15,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Culto2_NPC_2",
       "flag": "0"
     },
     {
@@ -58,7 +58,7 @@
       "x": 10,
       "y": 14,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Culto2_NPC_5",
       "flag": "0"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Culto2_NPC_6",
       "flag": "0"
     }
   ],
@@ -98,8 +98,8 @@
       "x": 2,
       "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_CULTO2",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ROUTE12",
+      "dest_warp_id": 1
     },
     {
       "x": 21,

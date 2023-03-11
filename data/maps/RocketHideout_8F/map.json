@@ -143,6 +143,24 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "78",
       "script": "RocketHideout_8F_Mision_Gimnasios"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "101",
+      "script": "RocketHideout8F_Mision_Subterraneo_Silph"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "106",
+      "script": "RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez"
     }
   ],
   "bg_events": [

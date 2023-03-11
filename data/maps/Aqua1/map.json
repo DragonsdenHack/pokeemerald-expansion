@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Aqua1_2",
+      "script": "Aqua1_EventScript_Aqua_1",
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
     },
     {
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Aqua1_3",
+      "script": "Aqua1_EventScript_Aqua_4",
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
     },
     {
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "Aqua1_5",
+      "script": "Aqua1_EventScript_Aqua_3",
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Aqua1_6",
+      "script": "Aqua1_EventScript_Aqua_2",
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
     },
     {
@@ -115,7 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Aqua1_8",
+      "script": "Aqua1_EventScript_Aqua_5",
       "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
     },
     {
@@ -130,6 +130,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Aqua1_9",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_F",
+      "x": 42,
+      "y": 34,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "Aqua1_EventScript_Aqua_6",
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA"
     }
   ],
   "warp_events": [
@@ -137,14 +150,14 @@
       "x": 6,
       "y": 47,
       "elevation": 0,
-      "dest_map": "MAP_AQUA1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_DOTTED_HOLE_SAPPHIRE_ROOM",
+      "dest_warp_id": 2
     },
     {
       "x": 19,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_AQUA1",
+      "dest_map": "MAP_AQUA2",
       "dest_warp_id": 0
     }
   ],

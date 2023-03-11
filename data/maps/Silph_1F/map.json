@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph1F_1",
+      "script": "Silph_1F_Recepcionista_Pisos_Inferiores",
       "flag": "0"
     },
     {
@@ -264,10 +264,10 @@
   ],
   "warp_events": [
     {
-      "x": 10,
+      "x": 11,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_SILPH_1F",
+      "dest_map": "MAP_SILPH_S1",
       "dest_warp_id": 0
     },
     {
@@ -278,7 +278,7 @@
       "dest_warp_id": 0
     },
     {
-      "x": 10,
+      "x": 11,
       "y": 4,
       "elevation": 0,
       "dest_map": "MAP_SILPH_1F",
@@ -317,7 +317,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Silph_1F_Activador_Entrada"
     }
   ]
 }

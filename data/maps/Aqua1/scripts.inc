@@ -48,7 +48,12 @@ Aqua1_EventScript_Aqua_4::
 	msgbox Aqua1_Aqua_4PostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Aqua1_EventScript_Magma_5::
+Aqua1_EventScript_Aqua_5::
 	trainerbattle_single TRAINER_TRAINER_129, Aqua1_Text_Aqua_5Intro, Aqua1_Text_Aqua_5Defeated
 	msgbox Aqua1_Aqua_5PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Aqua1_EventScript_Aqua_6::
+	trainerbattle_single TRAINER_TRAINER_130, Aqua1_Text_Aqua_6Intro, Aqua1_Text_Aqua_6Defeated
+	msgbox Aqua1_Aqua_6PostBattle, MSGBOX_AUTOCLOSE
 	end

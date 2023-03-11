@@ -88,7 +88,7 @@ applymovement 10, MtEmber_B5F_Encuentro_Magno_Move_2
 waitmovement 0x0
 delay 40
 msgbox MtEmber_B5F_Encuentro_Magno_Texto_6 MSGBOX_AUTOCLOSE
-applymovement 1, MtEmber_B5F_Encuentro_Magno_Move_5
+applymovement 4, MtEmber_B5F_Encuentro_Magno_Move_5
 waitmovement 0x0
 msgbox MtEmber_B5F_Encuentro_Magno_Texto_6.1 MSGBOX_AUTOCLOSE
 applymovement 9, MtEmber_B5F_Encuentro_Magno_Move_14
