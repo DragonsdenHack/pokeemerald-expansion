@@ -2291,37 +2291,123 @@ RocketHideout7FDocumento_Text_159:
 	.string "HOENN$"
 
 RocketHideout_7F_Fuerte_Vinculo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_1
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_2
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_3
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_3 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_4
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_5
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_6
+waitmovement 0x0
+special RemoveCameraObject
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_5 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_7
+waitmovement 0x0
+special RemoveCameraObject
+showmonpic SPECIES_NIDOKING, 10, 3   
+playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
+delay 20
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+hidemonpic
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_8
+waitmovement 0x0
+special RemoveCameraObject
+showmonpic SPECIES_NIDOQUEEN, 10, 3   
+playmoncry SPECIES_NIDOQUEEN, CRY_MODE_ENCOUNTER
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+hidemonpic
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_8 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_10 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_8
+waitmovement 0x0
+special RemoveCameraObject
+showmonpic SPECIES_RHYPERIOR, 10, 3   
+playmoncry SPECIES_RHYPERIOR, CRY_MODE_ENCOUNTER
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_11 MSGBOX_AUTOCLOSE
+delay 20
+hidemonpic
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_12 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_13 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_9
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_7F_Fuerte_Vinculo_move_2
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_11
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_12
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_11
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_17 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_19 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_12
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_11
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_23 MSGBOX_AUTOCLOSE
+delay 15
+delay 15
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_24.1 MSGBOX_DEFAULT
+waitfanfare
+additem ITEM_VS_SEEKER
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_11
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_10
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_12
+waitmovement 0x0
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_13
+waitmovement 0x0
+delay 15
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 20, RocketHideout_7F_Fuerte_Vinculo_move_14
+waitmovement 0x0
+setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
+removeobject 20
+setvar VAR_UNUSED_0x40F7, 118
 release
 end
+
+RocketHideout_7F_Fuerte_Vinculo_Texto_24.1:
+.string "¡¡{PLAYER} obtuvo un DETECTOR-&\n"
+	.string "de manos de GIOVANNI!$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_1:
 .string "Supongo que, después de lo\n"

@@ -141,11 +141,11 @@
       "dest_warp_id": 4
     },
     {
-      "x": 7,
+      "x": 8,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_POKEMON_MANSION_4F",
-      "dest_warp_id": 0
+      "dest_map": "MAP_CINNABAR_MANSION_S1",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
@@ -175,6 +175,33 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "75",
       "script": "PokemonMansion_4F_Blaine_Fuji"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "113",
+      "script": "PokemonMansion_4F_Entrada_Secreta"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "113",
+      "script": "PokemonMansion_4F_Entrada_Secreta"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "113",
+      "script": "PokemonMansion_4F_Entrada_Secreta"
     }
   ],
   "bg_events": [
@@ -185,6 +212,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PokemonMansion4FDocumento_100"
+    },
+    {
+      "type": "sign",
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "PokemonMansion_4F_PC"
     }
   ]
 }

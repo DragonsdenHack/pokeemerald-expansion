@@ -3,24 +3,109 @@ BirthIsland_MapScripts::
 
 
 BirthIsland_Blaine::
+clearflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
+addobject 2
+applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 2, BirthIsland_Blaine_Move_2
+waitmovement 0x0
+applymovement 2, BirthIsland_Blaine_Move_3
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_1 MSGBOX_AUTOCLOSE
 msgbox BirthIsland_Blaine_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 2, BirthIsland_Blaine_Move_4
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, BirthIsland_Blaine_Move_3
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_4 MSGBOX_AUTOCLOSE
 msgbox BirthIsland_Blaine_Texto_5 MSGBOX_AUTOCLOSE
+delay 40
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_2
+applymovement 2, BirthIsland_Blaine_Move_2
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_6 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+addobject 5
+applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_5
+applymovement 2, BirthIsland_Blaine_Move_6
+waitmovement 0x0
+applymovement 5, BirthIsland_Blaine_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 2, BirthIsland_Blaine_Move_2
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_7 MSGBOX_AUTOCLOSE
 msgbox BirthIsland_Blaine_Texto_8 MSGBOX_AUTOCLOSE
+addobject 3
+addobject 4
+addobject 6
+addobject 7
+delay 10
+applymovement 3, BirthIsland_Blaine_Move_7
+waitmovement 0x0
+applymovement 4, BirthIsland_Blaine_Move_8
+waitmovement 0x0
+applymovement 6, BirthIsland_Blaine_Move_9
+waitmovement 0x0
+applymovement 7, BirthIsland_Blaine_Move_10
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 5, BirthIsland_Blaine_Move_11
+waitmovement 0x0
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+applymovement 5, BirthIsland_Blaine_Move_11.1
+waitmovement 0x0
+delay 15
+removeobject 1
+delay 15
+applymovement 5, BirthIsland_Blaine_Move_12
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_13
+applymovement 5, BirthIsland_Blaine_Move_14
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 5, BirthIsland_Blaine_Move_15
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 5, BirthIsland_Blaine_Move_16
+waitmovement 0x0
+removeobject 5
+applymovement 3, BirthIsland_Blaine_Move_17
+applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_3
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_12 MSGBOX_AUTOCLOSE
-msgbox BirthIsland_Blaine_Texto_13 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANNIKA, BirthIsland_Blaine_Texto_13 
+applymovement 6, BirthIsland_Blaine_Move_18
+applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_14
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_14 MSGBOX_AUTOCLOSE
-msgbox BirthIsland_Blaine_Texto_15 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_JAZMYN, BirthIsland_Blaine_Texto_15
 msgbox BirthIsland_Blaine_Texto_16 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 3
+removeobject 4
+removeobject 6
+removeobject 7
+fadescreen 0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_13
+applymovement 2, BirthIsland_Blaine_Move_19
+waitmovement 0x0
 msgbox BirthIsland_Blaine_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 2, BirthIsland_Blaine_Move_15
+waitmovement 0x0
+delay 20
 msgbox BirthIsland_Blaine_Texto_18 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
+fadescreen 1
+delay 20
+removeobject 2
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 112
 release
 end
 
@@ -138,6 +223,8 @@ walk_up
 walk_up
 walk_up
 walk_up
+walk_up
+walk_up
 step_end
 
 BirthIsland_Blaine_Move_2:
@@ -207,6 +294,10 @@ step_end
 BirthIsland_Blaine_Move_11:
 walk_up
 walk_up
+step_end
+
+BirthIsland_Blaine_Move_11.1:
+walk_in_place_up
 step_end
 
 BirthIsland_Blaine_Move_12:

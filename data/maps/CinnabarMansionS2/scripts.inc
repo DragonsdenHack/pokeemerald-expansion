@@ -379,21 +379,50 @@ CinnabarMansionS2Documento_Text_107Yes5:
 	.string "todos como tal.$"
 
 CinnabarMansionS2_Blaine::
+applymovement OBJ_EVENT_ID_PLAYER, CinnabarMansionS2_Blaine_Move_1
+waitmovement 0x0
+delay 15
 msgbox CinnabarMansionS2_Blaine_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, CinnabarMansionS2_Blaine_Move_2
+applymovement 4, CinnabarMansionS2_Blaine_Move_3
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_4
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_5
+waitmovement 0x0
+delay 20
 msgbox CinnabarMansionS2_Blaine_Texto_4 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Blaine_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_3
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_6
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_4
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_8 MSGBOX_AUTOCLOSE
-msgbox CinnabarMansionS2_Blaine_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_BLAINE_2, CinnabarMansionS2_Blaine_Texto_9
 msgbox CinnabarMansionS2_Blaine_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CinnabarMansionS2_Blaine_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CinnabarMansionS2_Blaine_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_8
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_3
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 4, CinnabarMansionS2_Blaine_Move_4
+waitmovement 0x0
 msgbox CinnabarMansionS2_Blaine_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 4, CinnabarMansionS2_Blaine_Move_5
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 115
 release
 end
 
@@ -561,31 +590,79 @@ face_up
 step_end
 
 CinnabarMansionS2_Oak::
+applymovement OBJ_EVENT_ID_PLAYER, CinnabarMansionS2_Oak_Move_1
+waitmovement 0x0
+delay 20
 msgbox CinnabarMansionS2_Oak_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, CinnabarMansionS2_Oak_Move_2
+waitmovement 0x0
+applymovement 5, CinnabarMansionS2_Oak_Move_3
+waitmovement 0x0
+delay 15
 msgbox CinnabarMansionS2_Oak_Texto_2 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_4
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_4 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_5
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_6
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_7 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_7
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_3
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_6
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_8
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_6
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_13 MSGBOX_AUTOCLOSE
-msgbox CinnabarMansionS2_Oak_Texto_14 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_OAK_1, CinnabarMansionS2_Oak_Texto_14
 msgbox CinnabarMansionS2_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CinnabarMansionS2_Oak_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, CinnabarMansionS2_Oak_Move_9
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_1
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_18 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_19 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_20 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_10
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_11
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, CinnabarMansionS2_Oak_Move_12
+waitmovement 0x0
+delay 20
 msgbox CinnabarMansionS2_Oak_Texto_23 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_13
+waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 5, CinnabarMansionS2_Oak_Move_14
+waitmovement 0x0
+setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
+delay 28
+setvar VAR_UNUSED_0x40F7, 116
+setvar VAR_TEMP_1, 1
+call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
+checkplayergender
+goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end
 
@@ -1047,4 +1124,18 @@ CinnabarMansion_S2_Escena_7_Texto_12:
 CinnabarMansion_S2_Escena_7_Texto_13:
 .string "OAK: No confío, BLAINE, sé. Los números\n"
 	.string "nunca mienten.$"
+
+
+CinnabarMansionS2_Blaine_Derrotado::
+lock
+faceplayer
+msgbox CinnabarMansionS2_Blaine_Derrotado_Texto_1, MSGBOX_NPC
+release     
+end
+
+CinnabarMansionS2_Blaine_Derrotado_Texto_1:
+.string "Buena suerte {PLAYER}, aunque en\n"
+	.string "este caso no tenga sentido hablar\l"
+	.string "de ella, todos los caminos\l"
+	.string "conducirán al mismo resultado.$"
 

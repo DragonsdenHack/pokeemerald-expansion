@@ -776,7 +776,7 @@
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA // CONSUL
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // ANDRA CASA CONSUL //PROTON TUNEL ROCA // FUJI P1 TORRE PKMN// clear oak y blaine Escena 7
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC // CLEARFLAG ENTRENADORA GUAY BLOQUEA PASO LIGA POKEMON
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD 
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD // KYOGRE ASLEEP CUEVA PUNTEADA
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // CLEARFLAG EJECUTIVO ROCKET GIMNASIO VERDE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF // POLICIAS CENTRAL RUTA 10
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0 // ESTAFADOR MAGIKARP RUTA 4
@@ -844,9 +844,9 @@
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E // AZUL RUTA 15
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F // BRUNO Y KOGA ENTRADA FUCSIA
 #define FLAG_HIDE_LUGIA                                             0x320
-#define FLAG_HIDE_HO_OH                                             0x321 // BRUNO Y POLICIA CAMINO BICIS // clear policias liga
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 // MOTEROS CAMINO BICIS //clear oak liga // clear aquiles-magno 1er encuentro
-#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 // PETREL POWER PLANT //clear andra liga 2
+#define FLAG_HIDE_HO_OH                                             0x321 // BRUNO Y POLICIA CAMINO BICIS // clear policias liga // clear cultista sacrificado
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 // MOTEROS CAMINO BICIS //clear oak liga // clear aquiles-magno 1er encuentro // clear yveltal
+#define FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER                   0x323 // PETREL POWER PLANT //clear andra liga 2 // clear ball yveltal
 #define FLAG_HIDE_MAUVILLE_CITY_WALLY                               0x324 // POLICIA ANDRA ATLAS LORELEI POWERPLANT // clear giovanni hall fama
 #define FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE                        0x325 // ANDRA Y PETREL CIUDAD AZAFRAN // clear lance hall fama
 #define FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY                0x326 // SECUNDARIA CIENTIFICO LABORATORIO CANELA
@@ -863,17 +863,17 @@
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL       0x331 // ANDRA BLOQUEO RUINAS SETE
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL           0x332 // PRIMER ENCUENTRO ZEUS EN ISLA CUARTA
 #define FLAG_HIDE_ROUTE_112_TEAM_MAGMA                              0x333 // ZEUS ENCUENTRO CUEVA CAMBIANTE
-#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334 // LIBRE
+#define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334 // AQUILES Y TOLO PUERTA ZAFIRO
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335 // MAGNO Y TATIANO PUERTA RUBY
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336 // MAGNO COMBATE FINAL
 #define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337 // AQUILES COMBATE FINAL
 #define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338 // LIBRE
 #define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0x339 // Unused, leftover from R/S
-#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A // ADMIN TOLO COMBATE
-#define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B // LIBRE
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C // LIBRE
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D // LIBRE
-#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E // LIBRE
+#define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A // ADMIN TOLO COMBATE // Clear Andra isla origen //
+#define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B // CULTISTAS LAVANDA ENCUENTRO 1RA VEZ// clear giovanni roca ombligo// cientificos roca ombligo
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE                     0x33C // OAK Y RESTO EN LAB CANELA
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE                      0x33D // ROCKET SALA POTENCIAL MAXIMO
+#define FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD                         0x33E // GIOVANNI SALA POTENCIAL MAXIMO
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS               0x33F // LIBRE
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER                0x340 // LIBRE
 #define FLAG_HIDE_GRANITE_CAVE_STEVEN                               0x341 // LIBRE

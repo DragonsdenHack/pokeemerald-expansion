@@ -298,3 +298,101 @@ walk_right
 walk_right
 walk_right
 step_end
+
+PokemonMansion_4F_Entrada_Secreta::
+lock
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+addobject 9
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_4F_Entrada_Secreta_Move_1
+waitmovement 0x0
+msgbox PokemonMansion_4F_Entrada_Secreta_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_4F_Entrada_Secreta_Move_2
+waitmovement 0x0
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 6, 3, 0x2D0, TRUE
+setmetatile 6, 4, 0x2D8, TRUE
+setmetatile 7, 3, 0x2D1, TRUE
+setmetatile 7, 4, 0x2D9, TRUE
+setmetatile 8, 3, 0x2D2, FALSE
+setmetatile 8, 2, 0x2B2, TRUE
+special DrawWholeMapView
+delay 20
+msgbox PokemonMansion_4F_Entrada_Secreta_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 9, PokemonMansion_4F_Entrada_Secreta_Move_3
+waitmovement 0x0
+setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+removeobject 9
+playse SE_EXIT
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+setvar VAR_UNUSED_0x40F7, 114
+delay 15
+release
+end
+
+PokemonMansion_4F_Entrada_Secreta_Move_1:
+walk_in_place_left
+step_end
+
+PokemonMansion_4F_Entrada_Secreta_Move_2:
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+PokemonMansion_4F_Entrada_Secreta_Move_3:
+face_left
+step_end
+
+PokemonMansion_4F_Entrada_Secreta_Texto_1:
+.string "Entonces decidiste venir.$"
+
+PokemonMansion_4F_Entrada_Secreta_Texto_2:
+.string "Que así sea, ante el poder que\n"
+	.string "aquí hemos creado, no hay\l"
+	.string "ENTRENADOR que pueda competir.$"
+
+
+PokemonMansion_4F_PC::
+compare VAR_UNUSED_0x40F7, 51
+goto_if_gt PokemonMansion_4F_Warp
+msgbox PokemonMansion_4F_PC_PC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+PokemonMansion_4F_Warp::
+msgbox RocketHideout_4F_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+playse SE_PC_ON
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 6, 3, 0x2D0, TRUE
+setmetatile 6, 4, 0x2D8, TRUE
+setmetatile 7, 3, 0x2D1, FALSE
+setmetatile 7, 4, 0x2D9, TRUE
+setmetatile 8, 3, 0x2D2, FALSE
+setmetatile 8, 2, 0x2B2, TRUE
+special DrawWholeMapView
+delay 60
+release
+end
+
+PokemonMansion_4F_PC_PC_Texto_1:
+.string "No parece una máquina como las otras,\n"
+	.string "parece que cumple una función más\l"
+	.string "importante...$"

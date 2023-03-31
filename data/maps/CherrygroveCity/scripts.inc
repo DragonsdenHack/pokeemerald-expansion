@@ -84,3 +84,26 @@ CherrygroveCityDocumento_Text_100:
 .string "CIUDAD CEREZO\n"
 	.string "La ciudad de las flores bonitas y\l"
 	.string "flagrantes.$"
+
+CherrygroveCity_Corriente::
+compare VAR_UNUSED_0x40F7, 125
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Corriente_Move_1
+waitmovement 0x0
+msgbox CherrygroveCity_Corriente_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Corriente_Move_2
+waitmovement 0x0
+release
+end
+
+CherrygroveCity_Corriente_Texto_1:
+.string "(Las corrientes son\n"
+	.string "demasiado fuertes).$"
+
+CherrygroveCity_Corriente_Move_1:
+walk_in_place_up
+step_end
+
+CherrygroveCity_Corriente_Move_2:
+walk_slow_down
+step_end

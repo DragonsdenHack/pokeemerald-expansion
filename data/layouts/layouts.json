@@ -13644,6 +13644,18 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/SevenIsland_House1_Cajas/border.bin",
       "blockdata_filepath": "data/layouts/SevenIsland_House1_Cajas/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_10F",
+      "name": "RocketHideout_10F_Layout",
+      "width": 18,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/RocketHideout_10F/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_10F/map.bin"
     }
   ]
 }

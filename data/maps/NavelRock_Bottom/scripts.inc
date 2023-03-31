@@ -81,17 +81,111 @@ NavelRock_Bottom_EventScript_RanFromLugia::
 	end
 
 NavelRock_Bottom_Combate_Lugia::
-msgbox NavelRock_Bottom_Combate_Lugia_Texto_1 MSGBOX_AUTOCLOSE
-msgbox NavelRock_Bottom_Combate_Lugia_Texto_2 MSGBOX_AUTOCLOSE
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_1
+waitmovement 0x0
+delay 20
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+	playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER
+	waitmoncry
+	delay 20
+	setvar VAR_0x8004, SPECIES_LUGIA
+	setvar VAR_0x8005, 70  @ level
+	setvar VAR_0x8006, ITEM_NONE
+	special CreateEventLegalEnemyMon
+	setflag FLAG_SYS_CTRL_OBJ_DELETE
+	msgbox NavelRock_Bottom_Combate_Lugia_Texto_1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LUGIA, NavelRock_Bottom_Combate_Lugia_Texto_2
+playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER
+waitmoncry
+setflag FLAG_HIDE_LUGIA
+fadescreen 1
+delay 20
+removeobject 1
+fadescreen 0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_1
+waitmovement 0x0
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+playse SE_BANG
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_4 MSGBOX_AUTOCLOSE
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+delay 40
+playse SE_EXIT
+clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+addobject 2
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_7
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_8
+waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_7
+waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_1
+waitmovement 0x0
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_9
+waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_7
+waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, NavelRock_Bottom_Combate_Lugia_Move_6
+waitmovement 0x0
 msgbox NavelRock_Bottom_Combate_Lugia_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+removeobject 2
+fadescreen 1
+delay 20
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 111
 release
 end
 

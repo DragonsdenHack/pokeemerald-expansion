@@ -2203,7 +2203,7 @@ release
 end
 
 RocketHideout_5F_Paso_Sala_Potencial_Johto::
-compare VAR_UNUSED_0x40F7, 125
+compare VAR_UNUSED_0x40F7, 117
 goto_if_gt RocketHideout_5F_Puedes_Pasar
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
 waitmovement 0x0

@@ -1,5 +1,10 @@
 Pass_Route29_MapScripts::
-	.byte 0
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Pass_Route29_OnFrame
+.byte 0
+
+Pass_Route29_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 118, Pass_Route29_Encuentro_Elm
+	.2byte 0
 
 PassRoute29_1::
 lock     
@@ -42,18 +47,49 @@ Pass_Route29_Text_4:
 .string "de una buena caminata!$"
 
 Pass_Route29_Encuentro_Elm::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Pass_Route29_Encuentro_Elm_Move_1
+waitmovement 0x0
 msgbox Pass_Route29_Encuentro_Elm_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_2
+waitmovement 0x0
 msgbox Pass_Route29_Encuentro_Elm_Texto_2 MSGBOX_AUTOCLOSE
 msgbox Pass_Route29_Encuentro_Elm_Texto_3 MSGBOX_AUTOCLOSE
 msgbox Pass_Route29_Encuentro_Elm_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_3
+waitmovement 0x0
+delay 15
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_4
+waitmovement 0x0
 msgbox Pass_Route29_Encuentro_Elm_Texto_5 MSGBOX_AUTOCLOSE
-msgbox Pass_Route29_Encuentro_Elm_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_5
+waitmovement 0x0
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox Pass_Route29_Encuentro_Elm_Texto_6 MSGBOX_DEFAULT
+waitfanfare
+additem ITEM_MEGA_RING
 msgbox Pass_Route29_Encuentro_Elm_Texto_7 MSGBOX_AUTOCLOSE
 msgbox Pass_Route29_Encuentro_Elm_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_6
+waitmovement 0x0
 msgbox Pass_Route29_Encuentro_Elm_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_7
+waitmovement 0x0
 msgbox Pass_Route29_Encuentro_Elm_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_8
+waitmovement 0x0
 msgbox Pass_Route29_Encuentro_Elm_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_1
+waitmovement 0x0
 msgbox Pass_Route29_Encuentro_Elm_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 2, Pass_Route29_Encuentro_Elm_Move_9
+waitmovement 0x0
+setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
+removeobject 2
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 119
 release
 end
 
