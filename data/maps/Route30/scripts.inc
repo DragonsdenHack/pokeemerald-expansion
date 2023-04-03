@@ -80,7 +80,18 @@ end
 
 
 Route30_12::
+lock          
+msgbox Route30_Text_12, MSGBOX_DEFAULT
+release     
 end
+
+Route30_Text_12:
+.string "Dicen que si das muchos cabezazos\n"
+	.string "contra los árboles puede salirte\l"
+	.string "un HERACROSS salvaje...\l"
+	.string "Aunque creo que esto no funciona,\l"
+	.string "debería hacerlo un POKÉMON, no\l"
+	.string "yo...$"
 
 
 

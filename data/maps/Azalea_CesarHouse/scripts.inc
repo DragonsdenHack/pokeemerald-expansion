@@ -1,8 +1,61 @@
 Azalea_CesarHouse_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Azalea_CesarHouse_OnFrame
 	.byte 0
 
+Azalea_CesarHouse_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 128, Azalea_CesarHouse_Evento_Mirto
+	.2byte 0
+
 AzaleaCesarHouse_1::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 129
+goto_if_gt AzaleaCesarHouse_1_2
+msgbox AzaleaCesarHouse_1_Texto_1 MSGBOX_NPC
+release
 end
+
+AzaleaCesarHouse_1_2::
+msgbox AzaleaCesarHouse_1_Texto_2 MSGBOX_NPC
+delay 20
+msgbox AzaleaCesarHouse_1_Texto_3 MSGBOX_NPC
+delay 20
+msgbox AzaleaCesarHouse_1_Texto_4 MSGBOX_NPC
+msgbox AzaleaCesarHouse_1_Texto_5 MSGBOX_NPC
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
+fadescreen 1
+delay 20
+removeobject 1
+fadescreen 0
+end
+
+AzaleaCesarHouse_1_Texto_1:
+.string "Podrás encontrarle en el POZO\n"
+	.string "SLOWPOKE, si lo derrotas vuelve\l"
+	.string "aquí con el objeto que te dé, y\l"
+	.string "habrá combate.$"
+
+AzaleaCesarHouse_1_Texto_2:
+.string "¿Y bien?$"
+
+AzaleaCesarHouse_1_Texto_3:
+.string "...$"
+
+AzaleaCesarHouse_1_Texto_4:
+.string "Oh...\n"
+	.string "Impresionante, para nada esperaba\l"
+	.string "que pudieras ganar, guarda\l"
+	.string "bien esa SLOWBRONITA, joven,\l"
+	.string "cualquier objeto capaz de expandir\l"
+	.string "los límites de un POKÉMON es\l"
+	.string "sagrado.$"
+
+AzaleaCesarHouse_1_Texto_5:
+.string "Dicho esto, te espero en el\n"
+	.string "GIMNASIO. Cumpliré mi palabra y\l"
+	.string "combatiré contigo, espero que des\l"
+	.string "tu 100%.\l"
+	.string "Te hará falta.$"
 
 
 
@@ -10,26 +63,71 @@ AzaleaCesarHouse_2::
 end
 
 Azalea_CesarHouse_Evento_Mirto::
+lock
+delay 15
+applymovement 2, Azalea_CesarHouse_Evento_Mirto_Move_1
+waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Azalea_CesarHouse_Evento_Mirto_Move_2
+waitmovement 0x0
+special RemoveCameraObject
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 2, Azalea_CesarHouse_Evento_Mirto_Move_3
+applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_4
+waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_8 MSGBOX_AUTOCLOSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, Azalea_CesarHouse_Evento_Mirto_Move_1
+applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_5
+waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Azalea_CesarHouse_Evento_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 2, Azalea_CesarHouse_Evento_Mirto_Move_1
+waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_11 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Azalea_CesarHouse_Evento_Mirto_Move_7
+applymovement OBJ_EVENT_ID_CAMERA, Azalea_CesarHouse_Evento_Mirto_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA
+removeobject 2
+playse SE_EXIT
+delay 40
+playse SE_PIN
+applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_9
+waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_10
+applymovement OBJ_EVENT_ID_PLAYER, Azalea_CesarHouse_Evento_Mirto_Move_11
+waitmovement 0x0
+delay 40
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_13 MSGBOX_AUTOCLOSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_14 MSGBOX_AUTOCLOSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_12
+waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_16 MSGBOX_AUTOCLOSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_17 MSGBOX_AUTOCLOSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_12
+waitmovement 0x0
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_19 MSGBOX_AUTOCLOSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_20 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 129
 release
 end
 

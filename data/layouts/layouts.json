@@ -13028,7 +13028,7 @@
       "height": 20,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_sevii_islands_45",
       "border_filepath": "data/layouts/ViasSur3/border.bin",
       "blockdata_filepath": "data/layouts/ViasSur3/map.bin"
@@ -13656,6 +13656,18 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_10F/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_10F/map.bin"
+    },
+    {
+      "id": "LAYOUT_CUEVA_GIMNASIO_TRIGAL",
+      "name": "Cueva_Gimnasio_Trigal_Layout",
+      "width": 18,
+      "height": 16,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_MtMoon",
+      "border_filepath": "data/layouts/Cueva_Gimnasio_Trigal/border.bin",
+      "blockdata_filepath": "data/layouts/Cueva_Gimnasio_Trigal/map.bin"
     }
   ]
 }

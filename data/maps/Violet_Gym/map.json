@@ -2,7 +2,7 @@
   "id": "MAP_VIOLET_GYM",
   "name": "Violet_Gym",
   "layout": "LAYOUT_VIOLET_GYM",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_GYM",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -17,7 +17,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
       "x": 4,
-      "y": 14,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -30,7 +30,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
       "x": 13,
-      "y": 10,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VioletGym3",
+      "script": "Violet_Gym_Combate_Pegaso",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VioletGym4",
+      "script": "VioletGym_Gym_Dude",
       "flag": "0"
     },
     {
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletGym5",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY"
     }
   ],
   "warp_events": [
@@ -104,24 +104,41 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "VioletGym_Frontera"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "123",
+      "script": "Violet_Gym_Conversacion_Pegaso"
+    }
   ],
   "bg_events": [
     {
       "type": "sign",
       "x": 11,
-      "y": 17,
+      "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VioletGym_Estatua"
     },
     {
       "type": "sign",
       "x": 5,
-      "y": 17,
+      "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "VioletGym_Estatua"
     }
   ]
 }

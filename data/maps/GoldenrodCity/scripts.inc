@@ -154,7 +154,18 @@ end
 
 
 GoldenrodCity13::
+lock        
+msgbox GoldenrodCity_Text_13, MSGBOX_DEFAULT
+release     
 end
+
+GoldenrodCity_Text_13:
+.string "Verás, CLEFAIRY, cuando vuelva de\n"
+	.string "GRANJA MU-MU podremos ser\l"
+	.string "LÍDERES DE GIMNASIO. TRIGAL quiere\l"
+	.string "un LÍDER guay y poderoso. Tú eres\l"
+	.string "guay, pero necesitamos algo\l"
+	.string "poderoso...$"
 
 
 

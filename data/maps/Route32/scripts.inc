@@ -2,8 +2,7 @@ Route32_MapScripts::
 	.byte 0
 
 Route32_1::
-lock     
-faceplayer     
+lock          
 msgbox Route32_Text_1, MSGBOX_DEFAULT
 release     
 end
@@ -16,7 +15,16 @@ Route32_Text_1:
 
 
 Route32_2::
+lock          
+msgbox Route32_Text_2, MSGBOX_DEFAULT
+release     
 end
+
+Route32_Text_2:
+.string "Ya te lo he dicho, los RHYHORN\n"
+	.string "solo habitan en KANTO, tendrás que\l"
+	.string "esperar a que la situación mejore\l"
+	.string "para poder capturar uno allí.$"
 
 
 

@@ -547,11 +547,39 @@ AzaleaTownDocumento_Text_133:
 	.string "paraíso)$"
 
 AzaleaTown_Encuentro_Mirto::
+lock
+playse SE_EXIT
+addobject 11
+clearflag FLAG_HIDE_ROUTE_110_BIRCH
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, AzaleaTown_Encuentro_Mirto_Move_1
+waitmovement 0x0
+delay 15
+applymovement 11, AzaleaTown_Encuentro_Mirto_Move_2
+waitmovement 0x0
 msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
-msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
-msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
-msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
-msgbox AzaleaTown_Encuentro_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 11, AzaleaTown_Encuentro_Mirto_Move_3
+waitmovement 0x0
+applymovement 11, AzaleaTown_Encuentro_Mirto_Move_4
+waitmovement 0x0
+msgbox AzaleaTown_Encuentro_Mirto_Texto_2 MSGBOX_AUTOCLOSE
+delay 40
+applymovement 11, AzaleaTown_Encuentro_Mirto_Move_5
+waitmovement 0x0
+msgbox AzaleaTown_Encuentro_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 11, AzaleaTown_Encuentro_Mirto_Move_6
+waitmovement 0x0
+msgbox AzaleaTown_Encuentro_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 11, AzaleaTown_Encuentro_Mirto_Move_5
+waitmovement 0x0
+msgbox AzaleaTown_Encuentro_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, AzaleaTown_Encuentro_Mirto_Move_7
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_110_BIRCH
+removeobject 11
+setvar VAR_UNUSED_0x40F7, 128
 release
 end
 

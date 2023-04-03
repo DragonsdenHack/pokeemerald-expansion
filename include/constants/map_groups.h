@@ -393,6 +393,7 @@
 #define MAP_MISION_TRIGAL2                 (76 | (13 << 8))
 #define MAP_MISION_TRIGAL3                 (77 | (13 << 8))
 #define MAP_MISION_TRIGAL4                 (78 | (13 << 8))
+#define MAP_CUEVA_GIMNASIO_TRIGAL          (79 | (13 << 8))
 
 // gMapGroup_IndoorPalletTown
 #define MAP_PALLET_TOWN_RED_HOUSE_1F  (0 | (14 << 8))
@@ -1331,6 +1332,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {58, 47, 29, 42, 6, 9, 9, 21, 22, 14, 7, 7, 11, 79, 4, 5, 8, 10, 8, 22, 20, 10, 10, 16, 2, 66, 82, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
+// static const u8 MAP_GROUP_COUNT[] = {58, 47, 29, 42, 6, 9, 9, 21, 22, 14, 7, 7, 11, 80, 4, 5, 8, 10, 8, 22, 20, 10, 10, 16, 2, 66, 82, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

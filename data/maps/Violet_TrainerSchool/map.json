@@ -2,7 +2,7 @@
   "id": "MAP_VIOLET_TRAINER_SCHOOL",
   "name": "Violet_TrainerSchool",
   "layout": "LAYOUT_VIOLET_TRAINER_SCHOOL",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_67",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool1",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PEGASO",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool3",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool4",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool6",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_F",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool7",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool8",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool_EventScript_ReceiveStarly",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_GYM_GREETER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHICAJOHTO",
@@ -142,12 +142,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool10",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_GYM_GREETER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_BOY_2",
       "x": 4,
-      "y": 5,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool11",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_GYM_GREETER"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LITTLE_GIRL2",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletTrainerSchool12",
-      "flag": "0"
+      "flag": "FLAG_HIDE_PETALBURG_GYM_GREETER"
     }
   ],
   "warp_events": [
@@ -176,12 +176,20 @@
       "x": 4,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_VIOLET_TRAINER_SCHOOL",
-      "dest_warp_id": 0
+      "dest_map": "MAP_VIOLET_CITY",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "120",
+      "script": "Violet_TrainerSchool_Discurso_Pegaso"
+    }
   ],
   "bg_events": [
 

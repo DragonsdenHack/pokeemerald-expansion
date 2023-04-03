@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VioletSproutTowerP2_5",
+      "script": "Violet_SproutTower_P2_Encuentro_Maestro",
       "flag": "0"
     },
     {
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VioletSproutTowerP2_6",
-      "flag": "0"
+      "flag": "FLAG_HIDE_GRANITE_CAVE_STEVEN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PEGASO",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VioletSproutTowerP2_7",
-      "flag": "0"
+      "script": "VioletViolet_SproutTower_P2_Pegaso",
+      "flag": "FLAG_HIDE_ROUTE_128_STEVEN"
     }
   ],
   "warp_events": [
@@ -111,12 +111,20 @@
       "x": 10,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_VIOLET_SPROUT_TOWER_P2",
+      "dest_map": "MAP_VIOLET_SPROUT_TOWER_P1",
       "dest_warp_id": 0
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "121",
+      "script": "Violet_SproutTower_P2_Encuentro_Zeus"
+    }
   ],
   "bg_events": [
     {

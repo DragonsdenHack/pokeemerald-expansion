@@ -19,7 +19,7 @@
       "x": 20,
       "y": 5,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -45,7 +45,7 @@
       "x": 15,
       "y": 14,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -71,7 +71,7 @@
       "x": 19,
       "y": 28,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -90,14 +90,14 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_110_BIRCH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEMANIACOJOHTO",
       "x": 3,
       "y": 34,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -163,7 +163,33 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "125",
+      "script": "UnionCave_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 24,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "125",
+      "script": "UnionCave_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 40,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "126",
+      "script": "UnionCave_Combate_Elm"
+    }
   ],
   "bg_events": [
 

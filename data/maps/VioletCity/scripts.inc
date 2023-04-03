@@ -156,3 +156,80 @@ VioletCityDocumento_Text_101:
 	.string "LÍDER: PEGASO\l"
 	.string "¡Un genio de altos vuelos y 1001\l"
 	.string "viajes!$"
+
+
+
+VioletCity_Chicos_Escuela::
+clearflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
+addobject 7
+addobject 8
+applymovement OBJ_EVENT_ID_PLAYER, VioletCity_Chicos_Escuela_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, VioletCity_Chicos_Escuela_Move_2
+waitmovement 0x0
+applymovement 7, VioletCity_Chicos_Escuela_Move_3
+waitmovement 0x0
+msgbox VioletCity_Chicos_Escuela_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 8, VioletCity_Chicos_Escuela_Move_4
+waitmovement 0x0
+msgbox VioletCity_Chicos_Escuela_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, VioletCity_Chicos_Escuela_Move_5
+applymovement 8, VioletCity_Chicos_Escuela_Move_5
+waitmovement 0x0
+playse SE_DOOR
+delay 20
+playse SE_EXIT
+setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD
+removeobject 7
+removeobject 8
+setvar VAR_UNUSED_0x40F7, 120
+release
+end
+
+VioletCity_Chicos_Escuela_Texto_1:
+.string "¡Vamos, date prisa!\n"
+	.string "¡El padre de PEGASO va a dar una\l"
+	.string "clase especial acerca de los\l"
+	.string "POKÉMON TIPO VOLADOR!$"
+
+VioletCity_Chicos_Escuela_Texto_2:
+.string "¡No podemos perder esta\n"
+	.string "oportunidad, quién sabe cuanto\l"
+	.string "tiempo más estará en CIUDAD MALVA\l"
+	.string "antes de que emprenda un nuevo\l"
+	.string "viaje!$"
+
+VioletCity_Chicos_Escuela_Move_1:
+walk_in_place_up
+step_end
+
+VioletCity_Chicos_Escuela_Move_2:
+emote_exclamation_mark
+step_end
+
+VioletCity_Chicos_Escuela_Move_3:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+face_left
+step_end
+
+VioletCity_Chicos_Escuela_Move_4:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+step_end
+
+VioletCity_Chicos_Escuela_Move_5:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+step_end

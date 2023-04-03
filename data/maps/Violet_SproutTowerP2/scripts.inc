@@ -62,18 +62,48 @@ VioletSprotTowerP2Documento_Text_100:
 	.string "podemos tocar el mismo cielo-.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus::
+applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_1
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 7, Violet_SproutTower_P2_Encuentro_Zeus_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_4
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_5
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_6
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_5 MSGBOX_AUTOCLOSE
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_7
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_2
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_8
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_7
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_2
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_9
+waitmovement 0x0
 msgbox Violet_SproutTower_P2_Encuentro_Zeus_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 6, Violet_SproutTower_P2_Encuentro_Zeus_Move_10
+waitmovement 0x0
+setflag FLAG_HIDE_GRANITE_CAVE_STEVEN
+removeobject 6
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 122
 release
 end
 
@@ -219,3 +249,180 @@ walk_down
 walk_down
 walk_down
 step_end
+
+Violet_SproutTower_P2_Encuentro_Maestro::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 122
+goto_if_gt Violet_SproutTower_P2_Encuentro_Maestro_2
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 5, Violet_SproutTower_P2_Encuentro_Maestro_Move_1
+waitmovement 0x0
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_MAESTRO_BELLSPROUT, Violet_SproutTower_P2_Encuentro_Maestro_Texto_5
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 7, Violet_SproutTower_P2_Encuentro_Maestro_Move_2
+applymovement 5, Violet_SproutTower_P2_Encuentro_Maestro_Move_3
+waitmovement 0x0
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_8 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_128_STEVEN
+fadescreen 1
+playse SE_WARP_OUT
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_9 MSGBOX_AUTOCLOSE
+waitse
+removeobject 7
+fadescreen 0
+delay 15
+applymovement 5, Violet_SproutTower_P2_Encuentro_Maestro_Move_4
+waitmovement 0x0
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_10.1 MSGBOX_DEFAULT
+waitfanfare
+additem ITEM_HM05
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_11 MSGBOX_NPC
+setvar VAR_UNUSED_0x40F7, 123
+release
+end
+
+Violet_SproutTower_P2_Encuentro_Maestro_2::
+lock
+faceplayer
+msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_11 MSGBOX_NPC
+release
+end
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_10.1:
+.string "¡¡{PLAYER} obtuvo la MO05 de\n"
+	.string "manos de MAESTRO BELLSPROUT!$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_1:
+.string "Ese chico va a acabar mal, está\n"
+	.string "cegado por una sola de las\l"
+	.string "cualidades que definen a un\l"
+	.string "POKÉMON: los STATS BASE. Y ello le\l"
+	.string "impide ver el resto de virtudes\l"
+	.string "que cada uno de los POKÉMON tiene.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_2:
+.string "Parte de una definición de poder\n"
+	.string "errónea. El verdadero poder puede\l"
+	.string "provenir de cualquier POKÉMON, si\l"
+	.string "eres capaz de conocerlo lo\l"
+	.string "suficiente. Y saber ordenar\l"
+	.string "adecuadamente las infinitas\l"
+	.string "combinaciones que puedes hacer con\l"
+	.string "él, puede derrotar a cualquiera.\l"
+	.string "¿No es eso acaso poder?\l"
+	.string "Dentro de cada POKÉMON está el\l"
+	.string "potencial de ser excelente, solo\l"
+	.string "que algunos son incapaces de\l"
+	.string "desarrollarlo.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
+.string "...\n"
+	.string "...$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
+.string "¡Oh!\n"
+	.string "¿Así que te envía PEGASO? Algo\l"
+	.string "debe de haber visto en ti para\l"
+	.string "enviarte aquí.\l"
+	.string "Sabiendo que seré tú prueba para\l"
+	.string "acceder a algo tan especial como\l"
+	.string "lo es combatir con PEGASO, no me\l"
+	.string "queda otra que usar a mis mejores\l"
+	.string "POKÉMON.\l"
+	.string "¡Muéstrame el vínculo que\l"
+	.string "mantienes con tu equipo!$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_5:
+.string "¡Oh!\n"
+	.string "Así que no todos los entrenadores\l"
+	.string "jóvenes han perdido la esencia del\l"
+	.string "combate...$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_6:
+.string "No esperaba para nada volverme a\n"
+	.string "encontrar con entrenadores así.\l"
+	.string "Alguien como tú merece ser puesto\l"
+	.string "a prueba con rivales que le\l"
+	.string "obliguen a ir más allá.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_7:
+.string "¡PEGASO!\n"
+	.string "¡Avisa a tu padre!\l"
+	.string "¡Este chaval acaba de cumplir su\l"
+	.string "reto!$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_8:
+.string "PEGASO: Voy, maestro.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_9:
+.string "(PEGASO USÓ CUERDA HUIDA).$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_10:
+.string "Y toma esto. Con esta MO podrás\n"
+	.string "iluminar la más oscura de las\l"
+	.string "cuevas.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Texto_11:
+.string "Pase lo que pase, no olvides\n"
+	.string "disfrutar de cada paso en tu\l"
+	.string "viaje. Ese momento presente es lo\l"
+	.string "único que tienes, todas tus\l"
+	.string "expectativas de futuro no son más\l"
+	.string "que una ilusión que solo tomará\l"
+	.string "forma en base a lo que hagas\l"
+	.string "ahora.$"
+
+Violet_SproutTower_P2_Encuentro_Maestro_Move_1:
+emote_exclamation_mark
+step_end
+
+Violet_SproutTower_P2_Encuentro_Maestro_Move_2:
+face_right
+step_end
+
+Violet_SproutTower_P2_Encuentro_Maestro_Move_3:
+face_left
+step_end
+
+Violet_SproutTower_P2_Encuentro_Maestro_Move_4:
+face_player
+step_end
+
+VioletViolet_SproutTower_P2_Pegaso::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 124
+goto_if_gt VioletViolet_SproutTower_P2_Pegaso_2
+msgbox VioletViolet_SproutTower_P2_Pegaso_Texto_1 MSGBOX_NPC
+release
+end
+
+VioletViolet_SproutTower_P2_Pegaso_2::
+msgbox VioletViolet_SproutTower_P2_Pegaso_Texto_2 MSGBOX_NPC
+release
+end
+
+VioletViolet_SproutTower_P2_Pegaso_Texto_1:
+.string "¿Quién era esa persona?\n"
+	.string "Jamás había visto a alguien\l"
+	.string "derrotar así a mi maestro. Sus\l"
+	.string "POKÉMON casi derrumban este lugar\l"
+	.string "de lo grandes que son.$"
+
+VioletViolet_SproutTower_P2_Pegaso_Texto_2:
+.string "Entonces...\n"
+	.string "Solo hay que enseñar tu verdadero\l"
+	.string "poder a quien de verdad lo\l"
+	.string "merece...\l"
+	.string "El resto debe conformarse con no\l"
+	.string "más que un PIDGEOTTO y su BOFETÓN\l"
+	.string "LODO...$"

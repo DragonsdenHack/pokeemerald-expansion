@@ -7,37 +7,91 @@ end
 
 
 VioletTrainerSchool2::
+lock
+msgbox VioletTrainerSchool2_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool2_Texto_1:
+.string "Ya sabía yo que FEAROW no era para\n"
+	.string "tanto...$"
 
 
 
 VioletTrainerSchool3::
+lock
+msgbox VioletTrainerSchool3_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool3_Texto_1:
+.string "...$"
 
 
 
 VioletTrainerSchool4::
+lock
+msgbox VioletTrainerSchool4_Texto_1 MSGBOX_DEFAULT
+release
 end
 
+VioletTrainerSchool4_Texto_1:
+.string "Entonces...\n"
+	.string "¿De verdad puede DODRIO hacer\l"
+	.string "tanto daño?$"
 
 
 VioletTrainerSchool5::
+lock
+msgbox VioletTrainerSchool5_Texto_1 MSGBOX_DEFAULT
+release
 end
 
+VioletTrainerSchool5_Texto_1:
+.string "Verás cuando pueda regresar a la\n"
+	.string "RUTA 13 de KANTO, ningún\l"
+	.string "ORNITÓLOGO de allí creerá que pude\l"
+	.string "asistir a una clase del mismísimo\l"
+	.string "PEGASO en persona...$"
 
 
 VioletTrainerSchool6::
+lock
+msgbox VioletTrainerSchool6_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool6_Texto_1:
+.string "No sabía que NOCTOWL era TIPO\n"
+	.string "PSÍQUICO también...$"
 
 
 
 VioletTrainerSchool7::
+lock
+msgbox VioletTrainerSchool7_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool7_Texto_1:
+.string "No puede ser...\n"
+	.string "El más débil de sus POKÉMON es\l"
+	.string "mucho más fuerte que el mejor de\l"
+	.string "mis POKÉMON...$"
 
 
 
 VioletTrainerSchool8::
+lock
+msgbox VioletTrainerSchool8_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool8_Texto_1:
+.string "Todo eso está muy bien, pero...\n"
+	.string "¿Dónde conseguiste a esa poderosa\l"
+	.string "ave?\l"
+	.string "Le da mil vueltas a PIDGEOT.$"
 
 
 
@@ -47,17 +101,42 @@ end
 
 
 VioletTrainerSchool10::
+lock
+msgbox VioletTrainerSchool10_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool10_Texto_1:
+.string "Y recordad, para despertar a un\n"
+	.string "POKÉMON solo necesitamos usar en\l"
+	.string "él un DESPERTAR, o contar con una\l"
+	.string "POKÉ FLAUTA.$"
 
 
 
 VioletTrainerSchool11::
+lock
+msgbox VioletTrainerSchool11_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool11_Texto_1:
+.string "Qué aburridas que son estas\n"
+	.string "clases, PEGASO seguro que las\l"
+	.string "haría más divertidas...$"
 
 
 
 VioletTrainerSchool12::
+lock
+msgbox VioletTrainerSchool12_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletTrainerSchool12_Texto_1:
+.string "Ya sé que necesito un ANTÍDOTO\n"
+	.string "para curar el ENVENENAMIENTO.\l"
+	.string "¿Podemos pasar a otra cosa?$"
 
 
 
@@ -123,27 +202,116 @@ VioletTrainerSchool_Text_9:
 	.string "agresiva y brava que PIDGEOT!$"
 
 Violet_TrainerSchool_Discurso_Pegaso::
+applymovement OBJ_EVENT_ID_PLAYER, Violet_TrainerSchool_Discurso_Pegaso_Move_1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Violet_TrainerSchool_Discurso_Pegaso_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_3 MSGBOX_AUTOCLOSE
+delay 40
+applymovement 4, Violet_TrainerSchool_Discurso_Pegaso_Move_4
+applymovement 3, Violet_TrainerSchool_Discurso_Pegaso_Move_5
+applymovement 5, Violet_TrainerSchool_Discurso_Pegaso_Move_6
+applymovement 2, Violet_TrainerSchool_Discurso_Pegaso_Move_6
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_4 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 4, Violet_TrainerSchool_Discurso_Pegaso_Move_8
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_7
+applymovement 5, Violet_TrainerSchool_Discurso_Pegaso_Move_8
+applymovement 2, Violet_TrainerSchool_Discurso_Pegaso_Move_8
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_9
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_10
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_11
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_10 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER
+fadescreen 1
+removeobject 2
+removeobject 4
+removeobject 6
+removeobject 7
+removeobject 8
+delay 20
+fadescreen 0
+delay 10
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_7
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_11 MSGBOX_AUTOCLOSE
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_8
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 3, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 3, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
+removeobject 3
+playse SE_EXIT
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Violet_TrainerSchool_Discurso_Pegaso_Move_13
+waitmovement 0x0
+special RemoveCameraObject
+delay 20
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_11
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_14
+waitmovement 0x0
+delay 15
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_15
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_16
+applymovement OBJ_EVENT_ID_PLAYER, Violet_TrainerSchool_Discurso_Pegaso_Move_11
+waitmovement 0x0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_14
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_18 MSGBOX_AUTOCLOSE
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_4
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_11
+waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, Violet_TrainerSchool_Discurso_Pegaso_Move_17
+waitmovement 0x0
+removeobject 1
+removeobject 3
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 121
 release
 end
 

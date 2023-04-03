@@ -80,20 +80,54 @@ UnionCave_EventScript_Necio2::
 	end
 
 UnionCave_Combate_Elm::
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Combate_Elm_Move_1
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox UnionCave_Combate_Elm_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 6, UnionCave_Combate_Elm_Move_2
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Combate_Elm_Move_3
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 6, UnionCave_Combate_Elm_Move_4
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+msgbox UnionCave_Combate_Elm_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 6, UnionCave_Combate_Elm_Move_2
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, UnionCave_Combate_Elm_Move_5
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_7 MSGBOX_AUTOCLOSE
 msgbox UnionCave_Combate_Elm_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 6, UnionCave_Combate_Elm_Move_6
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 6, UnionCave_Combate_Elm_Move_7
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_10 MSGBOX_AUTOCLOSE
-msgbox UnionCave_Combate_Elm_Texto_11 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ELM, UnionCave_Combate_Elm_Texto_11
 msgbox UnionCave_Combate_Elm_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 6, UnionCave_Combate_Elm_Move_7
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_13 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UnionCave_Combate_Elm_Move_8
+applymovement 6, UnionCave_Combate_Elm_Move_9
+waitmovement 0x0
 msgbox UnionCave_Combate_Elm_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 6, UnionCave_Combate_Elm_Move_10
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_ROUTE_110_BIRCH
+removeobject 6
+setvar VAR_UNUSED_0x40F7, 127
 release
 end
 
@@ -242,3 +276,44 @@ walk_right
 walk_right
 walk_right
 step_end
+
+UnionCave_Llamada_Giovanni::
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+msgbox UnionCave_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 126
+release
+end
+
+UnionCave_Llamada_Giovanni_Texto_1:
+.string "GIOVANNI: ¿{PLAYER}?\n"
+	.string "Hemos recibido los datos del\l"
+	.string "RAPIDASH FUERTE VÍNCULO de PEGASO.\l"
+	.string "Debió de ser un duro oponente, ha\l"
+	.string "logrado compensar su debilidad x4\l"
+	.string "a ROCA con la HABILIDAD PELAJE\l"
+	.string "RECIO. Muy impresionante, más con\l"
+	.string "ese ATAQUE y VELOCIDAD de 130-135\l"
+	.string "de BASE también.\l"
+	.string "Ya sabes que puedes pasarte por la\l"
+	.string "sala de la BASE PROFUNDA donde\l"
+	.string "estudiaremos e iremos actualizando\l"
+	.string "toda la información sobre esta\l"
+	.string "clase de POKÉMON.\l"
+	.string "Y una cosa más, ¿has visitado las\l"
+	.string "RUINAS ALFA?\l"
+	.string "Así es, no hemos hallado nada\l"
+	.string "aún, pero no te preocupes, {PLAYER},\l"
+	.string "por el momento céntrate en\l"
+	.string "capturar los datos de los POKÉMON\l"
+	.string "FUERTE VÍNCULO. Tenemos todo el\l"
+	.string "tiempo del mundo para averiguar el\l"
+	.string "misterio de las RUINAS. Los\l"
+	.string "LÍDERES DE GIMNASIO... No sabemos\l"
+	.string "cuanto pueden durar en esta JOHTO\l"
+	.string "tan cambiante.$"

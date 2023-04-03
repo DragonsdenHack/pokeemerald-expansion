@@ -2453,3 +2453,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/SevenIsland_House1_Cajas/scripts.inc"
 
 	.include "data/maps/RocketHideout_10F/scripts.inc"
+
+	.include "data/maps/Cueva_Gimnasio_Trigal/scripts.inc"

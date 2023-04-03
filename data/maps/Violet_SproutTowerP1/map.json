@@ -45,7 +45,7 @@
       "x": 1,
       "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -72,29 +72,29 @@
       "x": 9,
       "y": 13,
       "elevation": 0,
-      "dest_map": "MAP_VIOLET_SPROUT_TOWER_P1",
+      "dest_map": "MAP_VIOLET_SPROUT_TOWER_P2",
       "dest_warp_id": 0
     },
     {
       "x": 1,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_VIOLET_SPROUT_TOWER_P1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_VIOLET_SPROT_TOWER",
+      "dest_warp_id": 1
     },
     {
       "x": 5,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_VIOLET_SPROUT_TOWER_P1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_VIOLET_SPROT_TOWER",
+      "dest_warp_id": 2
     },
     {
       "x": 17,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_VIOLET_SPROUT_TOWER_P1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_VIOLET_SPROT_TOWER",
+      "dest_warp_id": 3
     }
   ],
   "coord_events": [
