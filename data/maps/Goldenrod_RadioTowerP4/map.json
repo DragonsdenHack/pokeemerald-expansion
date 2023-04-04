@@ -71,7 +71,7 @@
       "x": 22,
       "y": 8,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -84,7 +84,7 @@
       "x": 19,
       "y": 3,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1"
     }
   ],
   "warp_events": [
@@ -169,7 +169,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "133",
+      "script": "Goldenrod_RadioTower_P4_Reunion"
+    }
   ],
   "bg_events": [
     {

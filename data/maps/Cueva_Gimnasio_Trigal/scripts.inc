@@ -5,7 +5,7 @@ Cueva_Gimnasio_Trigal_MapScripts::
 Cueva_Gimnasio_Trigal_Combate::
 lock
 faceplayer
-compare VAR_UNUSED_0x40F7, 130
+compare VAR_UNUSED_0x40F7, 136
 goto_if_gt Cueva_Gimnasio_Trigal_Combate_2
 playse SE_PIN
 applymovement 2, Cueva_Gimnasio_Trigal_Combate_Move_1
@@ -28,6 +28,8 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_VULLABY, 25, ITEM_NONE
 waitfanfare
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+setvar VAR_UNUSED_0x40F7, 137
 release
 end
 

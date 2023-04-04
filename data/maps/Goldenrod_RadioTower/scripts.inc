@@ -1,5 +1,10 @@
 Goldenrod_RadioTower_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Goldenrod_RadioTower_OnFrame
 	.byte 0
+
+Goldenrod_RadioTower_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 132, Goldenrod_RadioTower_Encuentro_Atlas
+	.2byte 0
 
 RadioTower_1::
 lock     
@@ -173,19 +178,83 @@ GoldenrodRadioTowerDocumento_Text_100:
 	.string "P4 OFICINA DEL DIRECTOR$"
 
 Goldenrod_RadioTower_Encuentro_Atlas::
+lock
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_1.1
+waitmovement 0x0
+playse SE_PIN
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_2
+waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_3
+waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
+waitmovement 0x0
+delay 15
+showmoneybox 0, 0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_3 MSGBOX_AUTOCLOSE
-msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_SHOP
+addmoney 500000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_4 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
+waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
+waitmovement 0x0
+delay 15
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_6
+waitmovement 0x0
+delay 15
+applymovement 1, Goldenrod_RadioTower_Encuentro_Atlas_Move_7
+waitmovement 0x0
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_RAINBOW_PASS
+msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_7.1 MSGBOX_DEFAULT
+waitfanfare
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_7 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_Encuentro_Atlas_Move_10
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_10
+waitmovement 0x0
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_9
+waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_11
+waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_9
+waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_4
+waitmovement 0x0
 msgbox Goldenrod_RadioTower_Encuentro_Atlas_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_Encuentro_Atlas_Move_5
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 10
+setvar VAR_UNUSED_0x40F7, 133
 release
 end
+
+Goldenrod_RadioTower_Encuentro_Atlas_Texto_7.1:
+.string "¡Obtuviste un PASE RADIO\n"
+	.string "de manos de RECEPCIONISTA!$"
+
+Goldenrod_RadioTower_Encuentro_Atlas_Move_1.1:
+walk_up
+walk_in_place_right
+step_end
 
 Goldenrod_RadioTower_Encuentro_Atlas_Texto_1:
 .string "ATLAS: ¡Ah, {PLAYER}!$"

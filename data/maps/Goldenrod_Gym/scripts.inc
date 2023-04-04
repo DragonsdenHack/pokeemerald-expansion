@@ -21,16 +21,46 @@ GoldenrodGym_EventScript_Chica3::
 	end
 
 GoldenrodGym_Encuentro_Valeria::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, GoldenrodGym_Encuentro_Valeria_Move_1
+waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, GoldenrodGym_Encuentro_Valeria_Move_2
+waitmovement 0x0
+applymovement 4, GoldenrodGym_Encuentro_Valeria_Move_3
+waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_2 MSGBOX_AUTOCLOSE
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_4
+waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_5
+waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_6 MSGBOX_AUTOCLOSE
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, GoldenrodGym_Encuentro_Valeria_Move_7
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_8
+waitmovement 0x0
+applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_9
+waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, GoldenrodGym_Encuentro_Valeria_Move_10
+waitmovement 0x0
 msgbox GoldenrodGym_Encuentro_Valeria_Texto_10 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY
+fadescreen 1
+delay 2
+removeobject 2
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 135
 release
 end
 
@@ -148,3 +178,13 @@ GoldenrodGym_Encuentro_Valeria_Move_10:
 walk_right
 walk_right
 step_end
+
+
+Goldenrod_Gym_Chicas::
+lock
+msgbox Goldenrod_Gym_Chicas_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Goldenrod_Gym_Chicas_Texto_1:
+.string "...$"

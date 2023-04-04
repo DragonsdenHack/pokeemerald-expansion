@@ -85,8 +85,8 @@
       "x": 18,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_TRAIN_STATION",
-      "dest_warp_id": 0
+      "dest_map": "MAP_GOLDENROD_CITY",
+      "dest_warp_id": 14
     },
     {
       "x": 9,
@@ -99,8 +99,8 @@
       "x": 18,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_TRAIN_STATION",
-      "dest_warp_id": 0
+      "dest_map": "MAP_GOLDENROD_CITY",
+      "dest_warp_id": 15
     },
     {
       "x": 16,
@@ -111,7 +111,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Goldenrod_TrainStation_Frontera"
+    }
   ],
   "bg_events": [
 
