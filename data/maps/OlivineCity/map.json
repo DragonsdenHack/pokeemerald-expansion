@@ -48,7 +48,7 @@
       "x": 11,
       "y": 30,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -74,7 +74,7 @@
       "x": 32,
       "y": 25,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -100,12 +100,38 @@
       "x": 29,
       "y": 15,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "OlivineCity6",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 43,
+      "y": 22,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 38,
+      "y": 28,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
       "flag": "0"
     }
   ],
@@ -184,8 +210,15 @@
       "x": 41,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_OLIVINE_CITY",
-      "dest_warp_id": 0
+      "dest_map": "MAP_OLIVINE_LIGHTHOUSE",
+      "dest_warp_id": 40
+    },
+    {
+      "x": 41,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_OLIVINE_LIGHTHOUSE",
+      "dest_warp_id": 41
     }
   ],
   "coord_events": [

@@ -77,9 +77,32 @@ Goldenrod_RadioTowerP4_Text_6:
 
 
 RadioTowerP4_7::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 145
+goto_if_gt RadioTowerP4_7_2
+msgbox RadioTowerP4_7_Texto_1 MSGBOX_NPC
+release
 end
 
+RadioTowerP4_7_2::
+msgbox RadioTowerP4_7_Texto_2 MSGBOX_NPC
+release
+end
 
+RadioTowerP4_7_Texto_1:
+.string "¡{PLAYER}!\n"
+	.string "Explora y disfruta cada rincón de\l"
+	.string "esta región. Todo lo que puedas\l"
+	.string "sacar de ella y sus entrenadores\l"
+	.string "es un regalo.$"
+
+RadioTowerP4_7_Texto_2:
+.string "Entonces, así va a ser...\n"
+	.string "Tenemos mucho trabajo por hacer en\l"
+	.string "los próximos 2 años. Para ese\l"
+	.string "entonces, KANTO y JOHTO formarán\l"
+	.string "una sola unión.$"
 
 RadioTowerP4_9::
 end

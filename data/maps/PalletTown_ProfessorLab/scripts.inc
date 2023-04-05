@@ -230,6 +230,7 @@ step_end
 
 PalletTown_ProfessorLab_Lab_Move_3:
 emote_exclamation_mark
+walk_in_place_down
 step_end
 
 PalletTown_ProfessorLab_Lab_Move_4:

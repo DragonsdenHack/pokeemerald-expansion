@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BurnedTower2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_109_MR_BRINEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN2",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BurnedTower3",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_109_MR_BRINEY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKER",
@@ -91,6 +91,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BurnedTower6",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANCIANAJOHTO",
+      "x": 15,
+      "y": 17,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BurnedTower7",
+      "flag": "FLAG_HIDE_ROUTE_109_MR_BRINEY"
     }
   ],
   "warp_events": [
@@ -105,7 +118,7 @@
       "x": 13,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_BURNED_TOWER",
+      "dest_map": "MAP_ECRUTEAK_BURNED_TOWER_S1",
       "dest_warp_id": 0
     }
   ],

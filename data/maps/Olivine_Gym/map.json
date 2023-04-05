@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OlivineGym3",
-      "flag": "0"
+      "script": "Olivine_Gym_Combate_Crom",
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GYMGUY",
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OlivineGym4",
+      "script": "OlivineGym_Gym_Dude",
       "flag": "0"
     }
   ],
@@ -100,7 +100,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "OlivineGym_Estatua"
     },
     {
       "type": "sign",
@@ -108,7 +108,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "OlivineGym_Estatua"
     }
   ]
 }

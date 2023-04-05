@@ -77,18 +77,42 @@ end
 
 
 Route53_7::
+lock
+msgbox Route53_7_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
 
+Route53_7_Texto_1:
+.string "¡Aún queda mucho trabajo antes de\n"
+	.string "llegar a AZAFRÁN!\l"
+	.string "¡Vamos, seguid!$"
 
 
 Route53_8::
+lock
+msgbox Route53_8_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
 
+Route53_8_Texto_1:
+.string "Este jefe...\n"
+	.string "Si él también se pusiera a picar\l"
+	.string "piedra con nosotros quizás iríamos\l"
+	.string "más rápido...$"
 
 
 Route53_9::
+lock
+msgbox Route53_9_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
 
+Route53_9_Texto_1:
+.string "Un...dos...\n"
+	.string "Un...dos...\l"
+	.string "Paciencia y constancia, agachas la\l"
+	.string "cabeza, te pones a cavar y zas!\l"
+	.string "¡AZAFRÁN a la vista!$"
 
 
 Route53_EventScript_Obrero::

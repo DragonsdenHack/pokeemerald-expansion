@@ -148,3 +148,46 @@ Route36_EventScript_Pareja2::
 	trainerbattle_single TRAINER_JOHN_AND_JAY_2, Route36_Text_Pareja2Intro, Route36_Text_Pareja2Defeated
 	msgbox Route36_Text_Pareja2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route36_Llamada_Giovanni::
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+waitse
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+msgbox Route36_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route36_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 138
+release
+end
+
+Route36_Llamada_Giovanni_Texto_1:
+.string "GIOVANNI: Gran trabajo, {PLAYER}, el\n"
+	.string "equilibrio y total de 650 de BASE\l"
+	.string "de ese KINGDRA está sorprendiendo\l"
+	.string "a nuestros científicos. ¿Sabías\l"
+	.string "que 5 de sus 6 STATS tienen 115 de\l"
+	.string "base?\l"
+	.string "Las bestias de JOHTO que\l"
+	.string "enfrentaste únicamente contaban\l"
+	.string "con 2 115 de BASE como mejores\l"
+	.string "STATS.$"
+
+Route36_Llamada_Giovanni_Texto_2:
+.string "Ahora que has visto CIUDAD TRIGAL,\n"
+	.string "supongo que CIUDAD IRIS es tu\l"
+	.string "próximo destino. Podrías\l"
+	.string "aprovechar para investigar sobre\l"
+	.string "el legendario HO-OH. Mientras\l"
+	.string "tanto, la gran reunión en la TORRE\l"
+	.string "RADIO es ya una realidad, la\l"
+	.string "cuestión es cuando se celebrará.\l"
+	.string "Como uno de los pilares del TEAM\l"
+	.string "ROCKET, tendrás el honor de\l"
+	.string "asistir. Se requerirá pues de tu\l"
+	.string "presencia en la TORRE RADIO a su\l"
+	.string "debido tiempo...$"

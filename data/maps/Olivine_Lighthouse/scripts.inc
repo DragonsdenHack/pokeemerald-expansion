@@ -82,7 +82,13 @@ end
 
 
 OliivineLighthouse11::
+lock
+msgbox OliivineLighthouse11_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
+
+OliivineLighthouse11_Texto_1:
+.string "...$"
 
 
 
@@ -191,24 +197,88 @@ OliivineLighthouse_EventScript_Marinero3::
 	msgbox OliivineLighthouse_Text_Marinero3PostBattle, MSGBOX_AUTOCLOSE
 	end
 
-Olivine_Lighthouse_Combate_Farero::
+Olivine_Lighthouse_Combate_Farero_Izq::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, Olivine_Lighthouse_Combate_Farero_Move_1
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_2
+waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Olivine_Lighthouse_Combate_Farero_Move_3
+waitmovement 0x0
+goto Olivine_Lighthouse_Combate_Farero
+
+Olivine_Lighthouse_Combate_Farero_Der::
+lockall
+applymovement OBJ_EVENT_ID_PLAYER, Olivine_Lighthouse_Combate_Farero_Move_1
+waitmovement 0x0
+msgbox Olivine_Lighthouse_Combate_Farero_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_2
+waitmovement 0x0
+delay 10
+msgbox Olivine_Lighthouse_Combate_Farero_Texto_2 MSGBOX_AUTOCLOSE
+goto Olivine_Lighthouse_Combate_Farero
+
+
+Olivine_Lighthouse_Combate_Farero::
+delay 20
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_4
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_5
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_6
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_6 MSGBOX_AUTOCLOSE
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_7
+waitmovement 0x0
+delay 20
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_8
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_9
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_8
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Olivine_Lighthouse_Combate_Farero_Move_1
+waitmovement 0x0
+delay 10
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 18, Olivine_Lighthouse_Combate_Farero_Move_6
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_14 MSGBOX_AUTOCLOSE
-msgbox Olivine_Lighthouse_Combate_Farero_Texto_15 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, Olivine_Lighthouse_Combate_Farero_Texto_15
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_16 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE
+fadescreen 1
+delay 20
+removeobject 18
+removeobject 17
+fadescreen 0
+delay 10
+applymovement 11, Olivine_Lighthouse_Combate_Farero_Move_11
+waitmovement 0x0
 msgbox Olivine_Lighthouse_Combate_Farero_Texto_17 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
+fadescreen 1
+delay 20
+removeobject 11
+fadescreen 0
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY
+setvar VAR_UNUSED_0x40F7, 142
 release
 end
 
@@ -360,7 +430,50 @@ walk_in_place_down
 step_end
 
 Olivine_Lighthouse_Combate_Farero_Move_11:
-walk_down
 walk_left
 walk_down
 step_end
+
+Olivine_Lighthouse_Ampharosita::
+lock
+faceplayer
+checkitem ITEM_AMPHAROSITE
+goto_if_eq VAR_RESULT, FALSE, Olivine_Lighthouse_Ampharosita_2
+msgbox Olivine_Lighthouse_Ampharosita_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+Olivine_Lighthouse_Ampharosita_2::
+msgbox Olivine_Lighthouse_Ampharosita_Texto_1 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_AMPHAROSITE
+msgbox Olivine_Lighthouse_Ampharosita_Texto_2 MSGBOX_DEFAULT
+waitfanfare
+release
+end
+
+Olivine_Lighthouse_Ampharosita_Texto_1:
+.string "FARERO: ¡Ah!\n"
+	.string "¡{PLAYER}!\l"
+	.string "¡Has vuelto!\l"
+	.string "CROM me puso al tanto de vuestro\l"
+	.string "combate, no puedo creer que al\l"
+	.string "final acabaras derrotándolo, no\l"
+	.string "sabes las veces que mis POKÉMON\l"
+	.string "ELÉCTRICOS han mordido el polvo\l"
+	.string "con ese SKARMORY inmune a sus\l"
+	.string "ataques.\l"
+	.string "Nos has devuelto la ilusión y las\l"
+	.string "ganas por volver a combatir, por\l"
+	.string "ello quiero que aceptes esto.$"
+
+Olivine_Lighthouse_Ampharosita_Texto_2:
+.string "¡¡Obtuviste AMPHAROSITA de\n"
+	.string "manos de FARERO!!$"
+
+Olivine_Lighthouse_Ampharosita_Texto_3:
+.string "Gran POKÉMON, AMPHAROS, ¿no crees?\n"
+	.string "De los pocos capaces de pegar duro\l"
+	.string "y aguantar bien los golpes al\l"
+	.string "mismo tiempo, aunque esa VELOCIDAD\l"
+	.string "a veces le condene...$"

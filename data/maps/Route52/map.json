@@ -101,7 +101,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 112,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "CherrygroveCity_Corriente_Arriba"
+    }
   ],
   "bg_events": [
 

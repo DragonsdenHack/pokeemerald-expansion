@@ -161,7 +161,42 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 37,
+      "y": 49,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "CherrygroveCity_Corriente"
+    },
+    {
+      "type": "trigger",
+      "x": 50,
+      "y": 24,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "CherrygroveCity_Corriente"
+    },
+    {
+      "type": "trigger",
+      "x": 23,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "CherrygroveCity_Corriente_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 30,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "CherrygroveCity_Corriente_Arriba"
+    }
   ],
   "bg_events": [
 

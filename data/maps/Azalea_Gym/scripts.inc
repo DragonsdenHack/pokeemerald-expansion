@@ -58,7 +58,7 @@ delay 20
 msgbox AzaleaGym_Combate_Cesar_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AzaleaGym_Combate_Cesar_Texto_6 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, AzaleaGym_Combate_Cesar_Texto_7
+trainerbattle_no_intro TRAINER_CESAR, AzaleaGym_Combate_Cesar_Texto_7
 msgbox AzaleaGym_Combate_Cesar_Texto_8 MSGBOX_AUTOCLOSE
 msgbox AzaleaGym_Combate_Cesar_Texto_9 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM

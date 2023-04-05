@@ -188,3 +188,64 @@ end
 
 Goldenrod_Gym_Chicas_Texto_1:
 .string "...$"
+
+
+TrigalGym_Gym_Dude::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 136
+goto_if_gt TrigalGym_Gym_Dude_2
+msgbox TrigalGym_Gym_Dude_Texto_1 MSGBOX_NPC
+release
+end
+
+TrigalGym_Gym_Dude_2::
+msgbox TrigalGym_Gym_Dude_Texto_2 MSGBOX_NPC
+release
+end
+
+TrigalGym_Gym_Dude_Texto_1:
+.string "Estas chicas...\n"
+	.string "Están armando una buena por el\l"
+	.string "TIPO de este GIMNASIO, parece que\l"
+	.string "el SINIESTRO no gusta a la\l"
+	.string "mayoría.\l"
+	.string "¡Yo solo quiero ver buenos\l"
+	.string "combates!$"
+
+
+TrigalGym_Gym_Dude_Texto_2:
+.string "¡No creas que me lo perdí!\n"
+	.string "¡Vi como derrotabas a VALERIA!\l"
+	.string "¡Las chicas que vienen tendrán que\l"
+	.string "mejorar mucho para llegar a\l"
+	.string "vuestro nivel!$"
+
+
+
+
+TrigalGym_Estatua::
+lock
+compare VAR_UNUSED_0x40F7, 136
+goto_if_gt TrigalGym_Estatua_2
+msgbox TrigalGym_Estatua_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+TrigalGym_Estatua_2::
+msgbox TrigalGym_Estatua_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+
+TrigalGym_Estatua_Texto_1:
+.string "LÍDER del GIMNASIO POKéMON\n"
+	.string "de CIUDAD TRIGAL: VALERIA\p"
+	.string "ENTRENADORES GANADORES:\n"
+	.string "(¡Está vacío!)$"
+
+TrigalGym_Estatua_Texto_2:
+.string "LÍDER del GIMNASIO POKéMON\n"
+	.string "de CIUDAD TRIGAL: VALERIA\p"
+	.string "ENTRENADORES GANADORES:\n"
+	.string "{PLAYER}$"
