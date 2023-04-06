@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_CRIADORAJOHTO",
       "x": 9,
       "y": 6,
       "elevation": 3,
@@ -58,12 +58,12 @@
       "x": 14,
       "y": 17,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "OlivineBoat3_4",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Olivine_Boat3_EventScript_Cazabichos",
       "flag": "0"
     },
     {
@@ -71,7 +71,7 @@
       "x": 3,
       "y": 15,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -119,7 +119,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANABEL",
+      "graphics_id": "OBJ_EVENT_GFX_CRIADORJOHTO",
       "x": 7,
       "y": 6,
       "elevation": 3,
@@ -180,8 +180,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "OlivineBoat3_13",
-      "flag": "0"
+      "script": "Olivine_Boat3_Capitan",
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_7",
@@ -228,12 +228,20 @@
       "x": 20,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_OLIVINE_BOAT3",
+      "dest_map": "MAP_OLIVINE_BOAT2",
       "dest_warp_id": 0
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "145",
+      "script": "Olivine_Boat_3_Ceremonia"
+    }
   ],
   "bg_events": [
 

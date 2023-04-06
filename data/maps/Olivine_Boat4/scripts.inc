@@ -17,20 +17,46 @@ OlivineBoat4_Text_1:
 .string "poco más de ese iceberg.$"
 
 Olivine_Boat4_Combate_Capitan::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Olivine_Boat4_Combate_Capitan_Move_1
+waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, Olivine_Boat4_Combate_Capitan_Move_2
+waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
+waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, Olivine_Boat4_Combate_Capitan_Move_4
+waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
+waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Olivine_Boat4_Combate_Capitan_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Olivine_Boat4_Combate_Capitan_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
+waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Olivine_Boat4_Combate_Capitan_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CAPITAN_2, Olivine_Boat4_Combate_Capitan_Texto_9
 msgbox Olivine_Boat4_Combate_Capitan_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_SCANNER
+msgbox Olivine_Boat4_Combate_Capitan_Texto_11.1 MSGBOX_DEFAULT
+waitfanfare
 msgbox Olivine_Boat4_Combate_Capitan_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
+waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 147
 release
 end
+
+Olivine_Boat4_Combate_Capitan_Texto_11.1:
+.string "¡¡Obtuviste un CRUZACORRIENTES\n"
+	.string "de manos de CAPITÁN!!$"
 
 Olivine_Boat4_Combate_Capitan_Texto_1:
 .string "CAPITÁN: Debo admitir, {PLAYER},\n"

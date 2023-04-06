@@ -169,7 +169,8 @@ clearflag FLAG_HIDE_ROUTE_111_ROCK_SMASH_TIP_GUY
 clearflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST                          
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                 
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                    
-clearflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD                          
+clearflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD  
+clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW                        
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL        
 clearflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                  
 clearflag FLAG_HIDE_ROUTE_119_RIVAL                                 

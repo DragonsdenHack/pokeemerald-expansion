@@ -201,9 +201,9 @@
     },
     {
       "x": 28,
-      "y": 42,
+      "y": 43,
       "elevation": 0,
-      "dest_map": "MAP_OLIVINE_CITY",
+      "dest_map": "MAP_OLIVINE_PORT",
       "dest_warp_id": 0
     },
     {

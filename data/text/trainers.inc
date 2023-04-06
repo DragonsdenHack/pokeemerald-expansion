@@ -16800,3 +16800,19 @@ DottedHole_B4F_Aqua_3PostBattle:
 	.string "apunto de despertar a KYOGRE, y\l"
 	.string "una vez liberado, su furia\l"
 	.string "será incontenible.$"
+
+Olivine_Boat3_Text_CazabichosIntro:
+.string "No hay nada como un combate\n"
+	.string "inesperado mientras dejo pasar las\l"
+	.string "horas de guardia.$"
+
+
+Olivine_Boat3_Text_CazabichosDefeated:
+.string "¡No se lo digas a mi jefe!$"
+
+
+Olivine_Boat3_Text_CazabichosPostBattle:
+.string "Nuestro CAPITÁN suele ser muy\n"
+	.string "estricto con las guardias, si se\l"
+	.string "entera de que he combatido es\l"
+	.string "capaz de bajarme el sueldo.$"

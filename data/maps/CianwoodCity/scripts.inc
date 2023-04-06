@@ -1,5 +1,10 @@
 CianwoodCity_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, CianwoodCity_OnFrame
 	.byte 0
+
+CianwoodCity_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 150, CianwoodCity_Recluta
+	.2byte 0
 
 CianwoodCity1::
 end
@@ -33,9 +38,22 @@ end
 
 
 CianwoodCity5::
+lock
+faceplayer
+msgbox CianwoodCity5_Texto_1 MSGBOX_NPC
+release
 end
 
-
+CianwoodCity5_Texto_1:
+.string "¿Quieres retar a ANÍBAL?\n"
+	.string "Lo siento, pero hace ya dos\l"
+	.string "semanas que mi marido partió hacia\l"
+	.string "el MONTE MORTERO para entrenarse.\l"
+	.string "Si por casualidad decides explorar\l"
+	.string "la montaña y lo encuentras,\l"
+	.string "¿podrías decirle que vuelva\l"
+	.string "pronto?\l"
+	.string "Gracias.$"
 
 CianwoodCity6::
 end
@@ -145,15 +163,49 @@ CianwoodCityDocumento_Text_103:
 	.string "montaña-.$"
 
 CianwoodCity_Evento_Mirto::
+lock
+clearflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
+addobject 10
+playse SE_EXIT
+applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Evento_Mirto_Move_1
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, CianwoodCity_Evento_Mirto_Move_2
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, CianwoodCity_Evento_Mirto_Move_3
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox CianwoodCity_Evento_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, CianwoodCity_Evento_Mirto_Move_4
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 10, CianwoodCity_Evento_Mirto_Move_5
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 10, CianwoodCity_Evento_Mirto_Move_6
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 10, CianwoodCity_Evento_Mirto_Move_3
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 10, CianwoodCity_Evento_Mirto_Move_4
+waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_9 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS
+fadescreen 1
+playmoncry SPECIES_NOIVERN, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 10
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL
+playse SE_M_FLY
+delay 15
+fadescreen 0
+setvar VAR_UNUSED_0x40FE, 1
 release
 end
 
@@ -257,3 +309,90 @@ step_end
 CianwoodCity_Evento_Mirto_Move_6:
 face_down
 step_end
+
+CianwoodCity_Esposa_Anibal_Heracrosita::
+lock
+faceplayer
+checkitem ITEM_HERACRONITE
+goto_if_eq VAR_RESULT, FALSE, CianwoodCity_Esposa_Anibal_Heracrosita_2
+msgbox CianwoodCity_Esposa_Anibal_Heracrosita_Texto_2 MSGBOX_NPC
+release
+end
+
+CianwoodCity_Esposa_Anibal_Heracrosita_2::
+lock
+msgbox CianwoodCity_Esposa_Anibal_Heracrosita_Texto_1 MSGBOX_NPC
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_HERACRONITE
+lock
+msgbox CianwoodCity_Esposa_Anibal_Heracrosita_Texto_3 MSGBOX_DEFAULT
+waitfanfare
+release
+end
+
+CianwoodCity_Esposa_Anibal_Heracrosita_Texto_3:
+.string "¡¡Obtuviste HERACRONITA de\n"
+	.string "manos de ESPOSA ANÍBAL!!$"
+
+CianwoodCity_Esposa_Anibal_Heracrosita_Texto_1:
+.string "Gracias por avisar a mi marido, ha\n"
+	.string "venido justo a tiempo para\l"
+	.string "celebrar las fiestas de la ciudad\l"
+	.string "y estar con su familia.\l"
+	.string "Toma esto, ANÍBAL dijo que ya no\l"
+	.string "lo usaría más. Lo encontró una vez\l"
+	.string "que se perdió por el ENCINAR.$"
+
+CianwoodCity_Esposa_Anibal_Heracrosita_Texto_2:
+.string "Mi marido dijo que nunca había\n"
+	.string "visto tal fuerza bruta como la de\l"
+	.string "un HERACROSS equipado con ese\l"
+	.string "objeto, aunque también decía que\l"
+	.string "lo volvía más lento. Prefirió a\l"
+	.string "ese POKÉMON samurái de una región\l"
+	.string "lejana.$"
+
+CianwoodCity_Recluta::
+lock
+playse SE_PIN
+applymovement 6, CianwoodCity_Recluta_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Recluta_Move_2
+waitmovement 0x0
+msgbox CianwoodCity_Recluta_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Recluta_Texto_2 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+fadescreen 1
+delay 20
+removeobject 6
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 151
+release
+end
+
+CianwoodCity_Recluta_Move_1:
+face_player
+emote_exclamation_mark
+walk_left
+step_end
+
+CianwoodCity_Recluta_Move_2:
+face_right
+step_end
+
+CianwoodCity_Recluta_Texto_1:
+.string "¡Le estaba buscando, sir!\n"
+	.string "GIOVANNI le envía un recado\l"
+	.string "urgente, la reunión que usted sabe\l"
+	.string "va a celebrarse ya en CIUDAD\l"
+	.string "TRIGAL. Ahora mismo está demasiado\l"
+	.string "ocupado como para llamarle, pero\l"
+	.string "me dijo que le encontraría en\l"
+	.string "ORQUÍDEA.$"
+
+CianwoodCity_Recluta_Texto_2:
+.string "Nuestro LÍDER espera que vaya\n"
+	.string "inmediatamente a TORRE RADIO y\l"
+	.string "asista a la gran reunión como\l"
+	.string "el resto de altos cargos del TEAM\l"
+	.string "ROCKET. Eso es todo, señor.$"

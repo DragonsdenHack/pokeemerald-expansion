@@ -2,8 +2,7 @@ EcruteakCity_MapScripts::
 	.byte 0
 
 EcruteakCity2::
-lock     
-faceplayer     
+lock         
 msgbox EcruteakCity_Text_1, MSGBOX_DEFAULT
 release     
 end
@@ -18,8 +17,7 @@ EcruteakCity_Text_1:
 
 
 EcruteakCity3::
-lock     
-faceplayer     
+lock        
 msgbox EcruteakCity_Text_3, MSGBOX_DEFAULT
 release     
 end

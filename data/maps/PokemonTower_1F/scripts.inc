@@ -70,6 +70,7 @@ PokemonTower1F_Text_5:
 
 PokemonTower_1F_SetFlags::
 lock
+setflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    

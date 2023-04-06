@@ -86,7 +86,7 @@ CherrygroveCityDocumento_Text_100:
 	.string "flagrantes.$"
 
 CherrygroveCity_Corriente::
-compare VAR_UNUSED_0x40F7, 150
+compare VAR_UNUSED_0x40F7, 146
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Corriente_Move_1
 waitmovement 0x0
@@ -111,7 +111,7 @@ step_end
 
 
 CherrygroveCity_Corriente_Arriba::
-compare VAR_UNUSED_0x40F7, 150
+compare VAR_UNUSED_0x40F7, 146
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 applymovement OBJ_EVENT_ID_PLAYER, CherrygroveCity_Corriente_Move_1
 waitmovement 0x0

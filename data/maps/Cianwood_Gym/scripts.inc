@@ -71,3 +71,179 @@ CianwoodGym_EventScript_Karateka4::
 	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_2, CianwoodGym_Text_Karateka4Intro, CianwoodGym_Text_Karateka4Defeated
 	msgbox CianwoodGym_Text_Karateka4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Cianwood_Gym_Combate_Anibal::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 149
+goto_if_gt Cianwood_Gym_Combate_Anibal_2
+msgbox Cianwood_Gym_Combate_Anibal_Texto_1 MSGBOX_NPC
+msgbox Cianwood_Gym_Combate_Anibal_Texto_2 MSGBOX_NPC
+msgbox Cianwood_Gym_Combate_Anibal_Texto_3 MSGBOX_NPC
+delay 20
+msgbox Cianwood_Gym_Combate_Anibal_Texto_4 MSGBOX_NPC
+delay 40
+msgbox Cianwood_Gym_Combate_Anibal_Texto_5 MSGBOX_NPC
+delay 20
+msgbox Cianwood_Gym_Combate_Anibal_Texto_6 MSGBOX_NPC
+trainerbattle_no_intro TRAINER_ANDRA_1, Cianwood_Gym_Combate_Anibal_Texto_7
+msgbox Cianwood_Gym_Combate_Anibal_Texto_8 MSGBOX_NPC
+msgbox Cianwood_Gym_Combate_Anibal_Texto_9 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+msgbox Cianwood_Gym_Combate_Anibal_Texto_10 MSGBOX_DEFAULT
+givemon SPECIES_STUFFUL, 25, ITEM_NONE
+waitfanfare
+msgbox Cianwood_Gym_Combate_Anibal_Texto_11 MSGBOX_NPC
+clearflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+setvar VAR_UNUSED_0x40F7, 150
+release
+end
+
+Cianwood_Gym_Combate_Anibal_2::
+msgbox Cianwood_Gym_Combate_Anibal_Texto_12 MSGBOX_NPC
+release
+end
+
+Cianwood_Gym_Combate_Anibal_Texto_1:
+.string "ANÍBAL: Ah, {PLAYER}, ¿no?\n"
+	.string "Bienvenido a mi humilde GIMNASIO.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_2:
+.string "Aquí, humanos y POKÉMON pelean como\n"
+	.string "iguales. Una de nuestras máximas\l"
+	.string "es que si no puedes predicar con\l"
+	.string "el ejemplo y seguir el ritmo a\l"
+	.string "tus propios POKÉMON, no eres digno\l"
+	.string "de continuar entrenándolos.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_3:
+.string "Por ello, hablar de ENTRENADORES y\n"
+	.string "POKÉMON pierde su sentido. Todos\l"
+	.string "aprendemos y mejoramos juntos, de\l"
+	.string "forma que al combatir frente a\l"
+	.string "otros actuamos como un único\l"
+	.string "cuerpo.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_4:
+.string "...$"
+
+Cianwood_Gym_Combate_Anibal_Texto_5:
+.string "Lamentablemente, la edad me ha\n"
+	.string "alcanzado. No la vejez, pero si el\l"
+	.string "fin de mi plenitud física. A mis\l"
+	.string "51 años, he hecho todo lo posible\l"
+	.string "para mantenerme al nivel de mis\l"
+	.string "mejores POKÉMON, y he comprobado\l"
+	.string "que físicamente ya no puedo dar el\l"
+	.string "100%.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_6:
+.string "Me cuesta más recuperarme de\n"
+	.string "grandes esfuerzos, también\l"
+	.string "arrancar antes de realizarlos,\l"
+	.string "pero te diré una cosa: ¡en el\l"
+	.string "fragor del combate sigo siendo el\l"
+	.string "mismo de siempre!$"
+
+Cianwood_Gym_Combate_Anibal_Texto_7:
+.string "Sí, ¡sabía que podía volver a este\n"
+	.string "nivel!$"
+
+Cianwood_Gym_Combate_Anibal_Texto_8:
+.string "Eres un gran ENTRENADOR, {PLAYER},\n"
+	.string "justo el reto que necesitaba para\l"
+	.string "saber exactamente en qué punto\l"
+	.string "estoy. Me has hecho ver que aún\l"
+	.string "puedo aguantar un poco más, antes\l"
+	.string "de que mis mejores POKÉMON\l"
+	.string "prosigan su viaje sin mí.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_9:
+.string "Me gustaría que te quedaras con\n"
+	.string "este POKÉMON, tiene grandes dotes\l"
+	.string "para la lucha.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_10:
+.string "¡¡OBTUVISTE UN STUFFUL AL Nv.25!!$"
+
+Cianwood_Gym_Combate_Anibal_Texto_11:
+.string "No encontrarás en todo KANTO o\n"
+	.string "JOHTO un POKÉMON LUCHA así. Tiene\l"
+	.string "el don de encajar golpes físicos\l"
+	.string "como ningún otro, al tiempo que\l"
+	.string "pega durísimo.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_12:
+.string "Creo que podré aguantar 1 año más,\n"
+	.string "pasado ese tiempo liberaré a mis\l"
+	.string "POKÉMON y comenzaré de 0 con un\l"
+	.string "MANKEY y un POLIWAG, sin\l"
+	.string "pretensiones ni presión alguna.$"
+
+CianwoodGym_Gym_Dude::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 149
+goto_if_gt CianwoodGym_Gym_Dude_2
+msgbox CianwoodGym_Gym_Dude_Texto_1 MSGBOX_NPC
+release
+end
+
+CianwoodGym_Gym_Dude_2::
+msgbox CianwoodGym_Gym_Dude_Texto_2 MSGBOX_NPC
+release
+end
+
+CianwoodGym_Gym_Dude_Texto_1:
+.string "Parece que ANÍBAL va a tomárselo\n"
+	.string "en serio contigo, chico. Si quieres\l"
+	.string "tener opciones deberías hacerme\l"
+	.string "caso y evitar el cuerpo a cuerpo a\l"
+	.string "toda cosa, ANÍBAL es\l"
+	.string "indestructible por ese lado.\l"
+	.string "Céntrate en ataques del TIPO\l"
+	.string "PSÍQUICO o VOLADOR a distancia.\l"
+	.string "POKÉMON con INTIMIDACIÓN, CASCO\l"
+	.string "DENTADO y con gran resistencia por\l"
+	.string "el lado físico podrán servirte\l"
+	.string "para frenar la portentosa fuerza\l"
+	.string "de sus TIPO LUCHA mejor\l"
+	.string "entrenados.\l"
+	.string "¡Espero que ofrezcas un gran\l"
+	.string "espectáculo!$"
+
+CianwoodGym_Gym_Dude_Texto_2:
+.string "¡Vaya intercambio de golpes!\n"
+	.string "¡Los POKÉMON de ANÍBAL casi acaban\l"
+	.string "partiendo el GIMNASIO por la mitad\l"
+	.string "intentando tumbar a los tuyos!\l"
+	.string "¡Tienes un talento inmenso!$"
+
+
+
+
+CianwoodGym_Estatua::
+lock
+compare VAR_UNUSED_0x40F7, 149
+goto_if_gt CianwoodGym_Estatua_2
+msgbox CianwoodGym_Estatua_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+CianwoodGym_Estatua_2::
+msgbox CianwoodGym_Estatua_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+
+CianwoodGym_Estatua_Texto_1:
+.string "LÍDER del GIMNASIO POKéMON\n"
+	.string "de CIUDAD ORQUÍDEA: ANÍBAL\p"
+	.string "ENTRENADORES GANADORES:\n"
+	.string "(¡Está vacío!)$"
+
+CianwoodGym_Estatua_Texto_2:
+.string "LÍDER del GIMNASIO POKéMON\n"
+	.string "de CIUDAD ORQUÍDEA: ANÍBAL\p"
+	.string "ENTRENADORES GANADORES:\n"
+	.string "{PLAYER}$"
