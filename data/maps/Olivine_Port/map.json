@@ -12,7 +12,23 @@
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
-  "connections": 0,
+  "connections": [
+    {
+      "direction": "up",
+      "offset": -1,
+      "map": "MAP_OLIVINE_CITY"
+    },
+    {
+      "direction": "right",
+      "offset": -57,
+      "map": "MAP_ROUTE52"
+    },
+    {
+      "direction": "left",
+      "offset": -24,
+      "map": "MAP_ROUTE40"
+    }
+  ],
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
@@ -134,7 +150,7 @@
   ],
   "warp_events": [
     {
-      "x": 28,
+      "x": 27,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_OLIVINE_CITY",

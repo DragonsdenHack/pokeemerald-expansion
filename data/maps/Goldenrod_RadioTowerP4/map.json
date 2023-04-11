@@ -177,6 +177,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "133",
       "script": "Goldenrod_RadioTower_P4_Reunion"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "151",
+      "script": "NULL"
     }
   ],
   "bg_events": [

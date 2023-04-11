@@ -22,6 +22,11 @@
       "direction": "left",
       "offset": -14,
       "map": "MAP_OLIVINE_CITY"
+    },
+    {
+      "direction": "left",
+      "offset": 57,
+      "map": "MAP_OLIVINE_PORT"
     }
   ],
   "object_events": [
@@ -109,6 +114,15 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "CherrygroveCity_Corriente_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 95,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route52_Bloqueo_Base"
     }
   ],
   "bg_events": [

@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Violet_Gym_Combate_Pegaso",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GYMGUY",

@@ -77,13 +77,35 @@ Route52_MazeP1_Text_12:
 .string "un acuerdo?$"
 
 Route52_MazeP1_Combate_Ladron::
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combate_Ladron_Move_1
+waitmovement 0x0
 msgbox Route52_MazeP1_Combate_Ladron_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 11, Route52_MazeP1_Combate_Ladron_Move_2
+waitmovement 0x0
+applymovement 11, Route52_MazeP1_Combate_Ladron_Move_3
+waitmovement 0x0
 msgbox Route52_MazeP1_Combate_Ladron_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 11, Route52_MazeP1_Combate_Ladron_Move_4
+waitmovement 0x0
 msgbox Route52_MazeP1_Combate_Ladron_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route52_MazeP1_Combate_Ladron_Texto_4 MSGBOX_AUTOCLOSE
-msgbox Route52_MazeP1_Combate_Ladron_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, Route52_MazeP1_Combate_Ladron_Move_5
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_LADRON_5, Route52_MazeP1_Combate_Ladron_Texto_5
 msgbox Route52_MazeP1_Combate_Ladron_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 11, Route52_MazeP1_Combate_Ladron_Move_1
+waitmovement 0x0
 msgbox Route52_MazeP1_Combate_Ladron_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 11, Route52_MazeP1_Combate_Ladron_Move_7
+waitmovement 0x0
+setflag FLAG_HIDE_SKY_PILLAR_WALLACE
+removeobject 11
+setvar VAR_UNUSED_0x4091, 7
 release
 end
 
@@ -167,29 +189,114 @@ walk_right
 step_end
 
 Route52_MazeP1_Combates_Finales::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combates_Finales_Move_1
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_2
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combates_Finales_Move_4
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route52_MazeP1_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_1
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_3
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route52_MazeP1_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_5
+waitmovement 0x0
+delay 15
+playse MUS_RG_ENCOUNTER_ROCKET
 msgbox Route52_MazeP1_Combates_Finales_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_6
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combates_Finales_Move_1
+applymovement 4, Route52_MazeP1_Combates_Finales_Move_7
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Route52_MazeP1_Combates_Finales_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LADRON_6, Route52_MazeP1_Combates_Finales_Texto_9
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combates_Finales_Move_8
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_9
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox Route52_MazeP1_Combates_Finales_Texto_11 MSGBOX_AUTOCLOSE
-msgbox Route52_MazeP1_Combates_Finales_Texto_12 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_LADRON_4, Route52_MazeP1_Combates_Finales_Texto_12
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combates_Finales_Move_8
+waitmovement 0x0
+playse SE_PIN
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_5
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_13 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_10
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route52_MazeP1_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_11
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_9
+waitmovement 0x0
 msgbox Route52_MazeP1_Combates_Finales_Texto_16 MSGBOX_AUTOCLOSE
-msgbox Route52_MazeP1_Combates_Finales_Texto_17 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x4091, 8
+msgbox Route52_MazeP1_Combates_Finales_Texto_17 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Route52_MazeP1_Combates_Finales_No
+showmoneybox 0, 0
+delay 15
 msgbox Route52_MazeP1_Combates_Finales_Texto_18 MSGBOX_AUTOCLOSE
-msgbox Route52_MazeP1_Combates_Finales_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_3
+waitmovement 0x0
+delay 15
+playse SE_SHOP
+addmoney 2000000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox Route52_MazeP1_Combates_Finales_Texto_19 MSGBOX_DEFAULT
+waitfanfare
+delay 40
+hidemoneybox
+delay 40
 msgbox Route52_MazeP1_Combates_Finales_Texto_20 MSGBOX_AUTOCLOSE
-msgbox Route52_MazeP1_Combates_Finales_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 12, Route52_MazeP1_Combates_Finales_Move_12
+applymovement 4, Route52_MazeP1_Combates_Finales_Move_13
+waitmovement 0x0
 release
 end
+
+Route52_MazeP1_Combates_Finales_No::
+msgbox Route52_MazeP1_Combates_Finales_Texto_21 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS
+fadescreen 1
+delay 20
+removeobject 12
+removeobject 4
+removeobject 2
+removeobject 3
+removeobject 8
+removeobject 9
+removeobject 5
+removeobject 1
+fadescreen 0
+release
+end
+
 
 Route52_MazeP1_Combates_Finales_Texto_1:
 .string "Así que ADMIN.JEFE {PLAYER}, ¿no?$"
@@ -384,3 +491,273 @@ Route52_MazeP1_Combates_Finales_Move_13:
 walk_right
 walk_in_place_left
 step_end
+
+Route52_MazeP1_Combate_Primer_Cientifico::
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combate_Primer_Cientifico_Move_1
+waitmovement 0x0
+msgbox Route52_MazeP1_Combate_Primer_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 3, Route52_MazeP1_Combate_Primer_Cientifico_Move_2
+waitmovement 0x0
+applymovement 3, Route52_MazeP1_Combate_Primer_Cientifico_Move_3
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_ROCKET
+msgbox Route52_MazeP1_Combate_Primer_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, Route52_MazeP1_Combate_Primer_Cientifico_Move_4
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_STEVEN, Route52_MazeP1_Combate_Primer_Cientifico_Texto_3
+setvar VAR_UNUSED_0x4091, 5
+release
+end
+
+Route52_MazeP1_Combate_Primer_Cientifico_Texto_1:
+.string "Bien...\n"
+	.string "Con esta máquina podremos seguir\l"
+	.string "lavando dinero más facilmente...$"
+
+Route52_MazeP1_Combate_Primer_Cientifico_Texto_2:
+.string "¿Quién eres tú?\n"
+	.string "Las auditorías de este lugar ya\l"
+	.string "las hago yo, no necesitamos a\l"
+	.string "nadie vestido de traje para\l"
+	.string "hacerlas.$"
+
+Route52_MazeP1_Combate_Primer_Cientifico_Texto_3:
+.string "¡Qué desastre!$"
+
+
+Route52_MazeP1_Combate_Primer_Cientifico_Move_1:
+face_left
+step_end
+
+Route52_MazeP1_Combate_Primer_Cientifico_Move_2:
+emote_exclamation_mark
+step_end
+
+Route52_MazeP1_Combate_Primer_Cientifico_Move_3:
+face_right
+step_end
+
+Route52_MazeP1_Combate_Primer_Cientifico_Move_4:
+walk_right
+walk_right
+walk_right
+step_end
+
+Route52_Maze_Maquina_1::
+lock
+msgbox Route52_Maze_Combate_1_Texto_7 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Route52_Maze_Combate_1_2_No
+delay 40
+playse SE_PC_ON
+delay 40
+playse SE_WALL_HIT
+setmetatile 12, 7, 0x2A8, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+
+Route52_MazeP1_Combate_Segundo_Cientifico::
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combate_Segundo_Cientifico_Move_1
+waitmovement 0x0
+msgbox Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combate_Segundo_Cientifico_Move_2
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 8, Route52_MazeP1_Combate_Segundo_Cientifico_Move_3
+waitmovement 0x0
+applymovement 8, Route52_MazeP1_Combate_Segundo_Cientifico_Move_4
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_ROCKET
+msgbox Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 8, Route52_MazeP1_Combate_Segundo_Cientifico_Move_5
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_ANABEL, Route52_MazeP1_Combate_Segundo_Cientifico_Texto_3
+setvar VAR_UNUSED_0x4091, 6
+release
+end
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Move_1:
+walk_in_place_down
+step_end
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Move_2:
+walk_left
+walk_down
+step_end
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Move_3:
+emote_exclamation_mark
+step_end
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Move_4:
+face_up
+step_end
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Move_5:
+walk_up
+step_end
+
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1:
+.string "Transacción de 4 millones de pokés\n"
+	.string "por un CHARMANDER cerrada, esto va\l"
+	.string "como la seda...$"
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2:
+.string "¿Cómo has llegado hasta aquí?\n"
+	.string "Todo el que ponga en peligro la\l"
+	.string "salud de nuestro negocio será\l"
+	.string "borrado del mapa.$"
+
+Route52_MazeP1_Combate_Segundo_Cientifico_Texto_3:
+.string "¡No, espera!$"
+
+Route52_Maze_Maquina_2::
+lock
+msgbox Route52_Maze_Combate_1_Texto_7 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Route52_Maze_Combate_1_2_No
+delay 40
+playse SE_PC_ON
+delay 40
+playse SE_WALL_HIT
+setmetatile 8, 3, 0x2A1, FALSE
+special DrawWholeMapView
+delay 20
+release
+end
+
+Route52_Maze_Dialogo_Primer_Cientifico::
+lock
+faceplayer
+compare VAR_UNUSED_0x4091, 7
+goto_if_gt Route52_Maze_Dialogo_Primer_Cientifico_2
+msgbox Route52_Maze_Dialogo_Primer_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Primer_Cientifico_2::
+msgbox Route52_Maze_Dialogo_Primer_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+
+Route52_Maze_Dialogo_Primer_Cientifico_Texto_1:
+.string "Solo satisfacemos de forma privada\n"
+	.string "una demanda de la población,\l"
+	.string "¿tienes algún problema con eso?$"
+
+Route52_Maze_Dialogo_Primer_Cientifico_Texto_2:
+.string "Todos tienen un precio, ¡incluso\n"
+	.string "tú!$"
+
+
+Route52_Maze_Dialogo_Segundo_Cientifico::
+lock
+faceplayer
+compare VAR_UNUSED_0x4091, 7
+goto_if_gt Route52_Maze_Dialogo_Segundo_Cientifico_2
+msgbox Route52_Maze_Dialogo_Segundo_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Segundo_Cientifico_2::
+msgbox Route52_Maze_Dialogo_Segundo_Cientifico_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Segundo_Cientifico_Texto_1:
+.string "Este lugar no existe sobre el\n"
+	.string "papel, ¡pero los ingresos que\l"
+	.string "genera sí que existen!$"
+
+Route52_Maze_Dialogo_Segundo_Cientifico_Texto_2:
+.string "Así que ahora eres uno de nuestros\n"
+	.string "principales accionistas, supongo\l"
+	.string "entonces que ahora también trabajo\l"
+	.string "para ti.$"
+
+
+Route52_Maze_Dialogo_Primer_Trabajador::
+lock
+faceplayer
+compare VAR_UNUSED_0x4091, 7
+goto_if_gt Route52_Maze_Dialogo_Primer_Trabajador_2
+msgbox Route52_Maze_Dialogo_Primer_Trabajador_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Primer_Trabajador_2::
+msgbox Route52_Maze_Dialogo_Primer_Trabajador_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Primer_Trabajador_Texto_1:
+.string "¡Mira todos estos POKÉMON!\n"
+	.string "¡Mi trabajo es mantenerlos en\l"
+	.string "plena forma para cuando sean\l"
+	.string "vendidos!$"
+
+Route52_Maze_Dialogo_Primer_Trabajador_Texto_2:
+.string "El otro día vendimos a nuestro\n"
+	.string "TYRANITAR más poderoso a un tipo\l"
+	.string "que al parecer está subiendo\l"
+	.string "rápido en el TEAM ROCKET, pagó\l"
+	.string "1,25 millones de pokés por él.$"
+
+Route52_Maze_Dialogo_Segundo_Trabajador::
+lock
+faceplayer
+compare VAR_UNUSED_0x4091, 7
+goto_if_gt Route52_Maze_Dialogo_Segundo_Trabajador_2
+msgbox Route52_Maze_Dialogo_Segundo_Trabajador_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Segundo_Trabajador_2::
+msgbox Route52_Maze_Dialogo_Segundo_Trabajador_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Segundo_Trabajador_Texto_1:
+.string "Si usaran un par de MACHAMP yo y\n"
+	.string "mis colegas perderíamos nuestro\l"
+	.string "trabajo aquí, pero con todos los\l"
+	.string "POKÉMON que tienen da la\l"
+	.string "casualidad de que no tienen uno.\l"
+	.string "¡Mejor para nosotros!$"
+
+Route52_Maze_Dialogo_Segundo_Trabajador_Texto_2:
+.string "¿Entonces eres accionista de la\n"
+	.string "empresa?\l"
+	.string "¡Espero que no propongas invertir\l"
+	.string "en MACHAMP para la logística!$"
+
+Route52_Maze_Dialogo_Tercer_Trabajador::
+lock
+compare VAR_UNUSED_0x4091, 7
+goto_if_gt Route52_Maze_Dialogo_Tercer_Trabajador_2
+msgbox Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Tercer_Trabajador_2::
+faceplayer
+msgbox Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1:
+.string "...\n"
+	.string "...\l"
+	.string "(¡Está dormido!)$"
+
+Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2:
+.string "¿De dónde sales tú?\n"
+	.string "¿Me he perdido algo?$"

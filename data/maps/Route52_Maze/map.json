@@ -50,21 +50,21 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route52Maze3",
-      "flag": "0"
+      "script": "Route52_Maze_Cientifico_1",
+      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CALVO2JOHTO",
       "x": 30,
       "y": 6,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route52Maze4",
-      "flag": "0"
+      "script": "Route52_Maze_Trabajador",
+      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MECANICOJOHTO",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route52Maze5",
-      "flag": "0"
+      "script": "Route52_Maze_Electricista",
+      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -89,8 +89,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route52Maze6",
-      "flag": "0"
+      "script": "Route52_Maze_Segundo_Cientifico",
+      "flag": "FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS"
     }
   ],
   "warp_events": [
@@ -110,7 +110,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 22,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x4091",
+      "var_value": "3",
+      "script": "Route52_Maze_Combate_2"
+    }
   ],
   "bg_events": [
     {
@@ -127,7 +135,7 @@
       "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route52_Maze_Combate_1"
     }
   ]
 }

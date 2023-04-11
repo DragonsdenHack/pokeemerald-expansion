@@ -86,7 +86,7 @@ delay 40
 msgbox Cianwood_Gym_Combate_Anibal_Texto_5 MSGBOX_NPC
 delay 20
 msgbox Cianwood_Gym_Combate_Anibal_Texto_6 MSGBOX_NPC
-trainerbattle_no_intro TRAINER_ANDRA_1, Cianwood_Gym_Combate_Anibal_Texto_7
+trainerbattle_no_intro TRAINER_ANIBAL, Cianwood_Gym_Combate_Anibal_Texto_7
 msgbox Cianwood_Gym_Combate_Anibal_Texto_8 MSGBOX_NPC
 msgbox Cianwood_Gym_Combate_Anibal_Texto_9 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM

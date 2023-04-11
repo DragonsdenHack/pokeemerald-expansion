@@ -2,7 +2,7 @@
   "id": "MAP_OLIVINE_PUB",
   "name": "Olivine_Pub",
   "layout": "LAYOUT_OLIVINE_PUB",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_67",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Olivine_Pub_Mision_Secundaria",
       "flag": "0"
     }
   ],

@@ -332,3 +332,9 @@ walk_left
 walk_left
 walk_left
 step_end
+
+Ecruteak_Cientifico_Secundaria::
+lock
+msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
+release
+end

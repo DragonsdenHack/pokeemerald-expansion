@@ -27,6 +27,11 @@
       "direction": "right",
       "offset": 28,
       "map": "MAP_OLIVINE_PORT"
+    },
+    {
+      "direction": "right",
+      "offset": 24,
+      "map": "MAP_OLIVINE_PORT"
     }
   ],
   "object_events": [

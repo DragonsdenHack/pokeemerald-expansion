@@ -67,7 +67,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "AzaleaTownDocumento_109",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
@@ -92,7 +92,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "CherrygroveCity5",
+      "script": "Cherrygrove_Combate_Pidgeot_Perfecto",
       "flag": "0"
     },
     {
@@ -119,7 +119,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "CherrygroveCity7",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CITY_AQUA_GRUNTS"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN2",
@@ -154,8 +154,8 @@
       "x": 41,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_CHERRY_PKMN_CENTER",
-      "dest_warp_id": 1
+      "dest_map": "MAP_ROUTE52_MAZE",
+      "dest_warp_id": 0
     },
     {
       "x": 45,
@@ -170,6 +170,13 @@
       "elevation": 0,
       "dest_map": "MAP_CHERRY_HOUSE2",
       "dest_warp_id": 0
+    },
+    {
+      "x": 22,
+      "y": 74,
+      "elevation": 0,
+      "dest_map": "MAP_CHERRYGROVE_CITY",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
@@ -181,6 +188,24 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "CherrygroveCity_Corriente"
+    },
+    {
+      "type": "trigger",
+      "x": 27,
+      "y": 75,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FD",
+      "var_value": "1",
+      "script": "CherrygroveCity_Entrenamiento_Pegaso"
+    },
+    {
+      "type": "trigger",
+      "x": 27,
+      "y": 74,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FD",
+      "var_value": "1",
+      "script": "CherrygroveCity_Entrenamiento_Pegaso"
     }
   ],
   "bg_events": [
