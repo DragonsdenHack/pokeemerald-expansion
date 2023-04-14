@@ -459,6 +459,9 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_SS_ANNE                     0x1136
 #define OBJ_EVENT_PAL_TAG_NPC_PINK 0x1137
 #define OBJ_EVENT_PAL_TAG_RED_LEAF 0x1138
+#define OBJ_EVENT_PAL_TAG_KYUREM_ORIGEN           0x1139
+#define OBJ_EVENT_PAL_TAG_RESHIRAM 0x113A
+#define OBJ_EVENT_PAL_TAG_ESENCIA 0x113B
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/field_effects/field_effect_object_template_pointers.h"
@@ -507,15 +510,20 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_RubySapphireMay,       OBJ_EVENT_PAL_TAG_RS_MAY},
     {gObjectEventPal_Giovanni,              OBJ_EVENT_PAL_TAG_NPC_WHITE},
     {gObjectEventPal_Rockets,               OBJ_EVENT_PAL_TAG_PROTA},
-    {gObjectEventPal_NpcBlue,                 OBJ_EVENT_PAL_TAG_NPC_BLUE},
-    {gObjectEventPal_NpcPink,                 OBJ_EVENT_PAL_TAG_NPC_PINK},
-    {gObjectEventPal_NpcGreen,                OBJ_EVENT_PAL_TAG_NPC_GREEN},
-    {gObjectEventPal_NpcWhite,                OBJ_EVENT_PAL_TAG_NPC_WHITE},
-    {gObjectEventPal_Meteorite,               OBJ_EVENT_PAL_TAG_METEORITE},
-    {gObjectEventPal_SSAnne,                  OBJ_EVENT_PAL_TAG_SS_ANNE},
-    {gObjectEventPal_Seagallop,               OBJ_EVENT_PAL_TAG_SEAGALLOP},
-	{gObjectEventPal_RedLeaf},				  OBJ_EVENT_PAL_TAG_RED_LEAF},	
-    {},
+    {gObjectEventPal_NpcBlue,               OBJ_EVENT_PAL_TAG_NPC_BLUE},
+    {gObjectEventPal_NpcPink,               OBJ_EVENT_PAL_TAG_NPC_PINK},
+    {gObjectEventPal_NpcGreen,              OBJ_EVENT_PAL_TAG_NPC_GREEN},
+    {gObjectEventPal_NpcWhite,              OBJ_EVENT_PAL_TAG_NPC_WHITE},
+    {gObjectEventPal_Meteorite,             OBJ_EVENT_PAL_TAG_METEORITE},
+    {gObjectEventPal_SSAnne,                OBJ_EVENT_PAL_TAG_SS_ANNE},
+    {gObjectEventPal_Seagallop,             OBJ_EVENT_PAL_TAG_SEAGALLOP},
+	{gObjectEventPal_Arceus},				OBJ_EVENT_PAL_TAG_ARCEUS},
+	{gObjectEventPal_DragonOrigen},	        OBJ_EVENT_PAL_TAG_DRAGONORIGEN},
+	{gObjectEventPal_Kyurem},               OBJ_EVENT_PAL_TAG_KYUREM},
+	{gObjectEventPal_KyuremOrigen},         OBJ_EVENT_PAL_TAG_KYUREM_ORIGEN},
+	{gObjectEventPal_Reshiram},             OBJ_EVENT_PAL_TAG_RESHIRAM},
+	{gObjectEventPal_Esencia},              OBJ_EVENT_PAL_TAG_ESENCIA},
+	{gObjectEventPal_Andraadmin},           OBJ_EVENT_PAL_TAG_ADMINANDRA},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
