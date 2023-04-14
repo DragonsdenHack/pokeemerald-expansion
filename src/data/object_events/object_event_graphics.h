@@ -615,3 +615,4 @@ const u16 gObjectEventPal_NpcWhite[] = INCBIN_U16("graphics/object_events/palett
 const u16 gObjectEventPal_Meteorite[] = INCBIN_U16("graphics/object_events/palettes/meteorite.gbapal");
 const u16 gObjectEventPal_SSAnne[] = INCBIN_U16("graphics/object_events/palettes/ss_anne.gbapal");
 const u16 gObjectEventPal_Seagallop[] = INCBIN_U16("graphics/object_events/palettes/seagallop.gbapal");
+const u16 gObjectEventPal_RedLeaf[] = INCBIN_U16("graphics/object_events/palettes/red_leaf.gbapal");

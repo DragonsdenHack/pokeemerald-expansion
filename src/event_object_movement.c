@@ -458,6 +458,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_SEAGALLOP                   0x1135
 #define OBJ_EVENT_PAL_TAG_SS_ANNE                     0x1136
 #define OBJ_EVENT_PAL_TAG_NPC_PINK 0x1137
+#define OBJ_EVENT_PAL_TAG_RED_LEAF 0x1138
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/field_effects/field_effect_object_template_pointers.h"
@@ -513,6 +514,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Meteorite,               OBJ_EVENT_PAL_TAG_METEORITE},
     {gObjectEventPal_SSAnne,                  OBJ_EVENT_PAL_TAG_SS_ANNE},
     {gObjectEventPal_Seagallop,               OBJ_EVENT_PAL_TAG_SEAGALLOP},
+	{gObjectEventPal_RedLeaf},				  OBJ_EVENT_PAL_TAG_RED_LEAF},	
     {},
 };
 
