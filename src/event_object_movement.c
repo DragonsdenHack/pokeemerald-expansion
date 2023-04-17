@@ -458,10 +458,17 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_SEAGALLOP                   0x1135
 #define OBJ_EVENT_PAL_TAG_SS_ANNE                     0x1136
 #define OBJ_EVENT_PAL_TAG_NPC_PINK 0x1137
-#define OBJ_EVENT_PAL_TAG_RED_LEAF 0x1138
+#define  OBJ_EVENT_PAL_TAG_NPC_CALVOMOTOJOHTO 0x1138
 #define OBJ_EVENT_PAL_TAG_KYUREM_ORIGEN           0x1139
 #define OBJ_EVENT_PAL_TAG_RESHIRAM 0x113A
-#define OBJ_EVENT_PAL_TAG_ESENCIA 0x113B
+#define OBJ_EVENT_PAL_TAG_HO_OH2 0x113B
+#define OBJ_EVENT_PAL_TAG_ESENCIA 0x113C
+#define  OBJ_EVENT_PAL_TAG_ARCEUSP 0x113D
+#define OBJ_EVENT_PAL_TAG_LUGIA2                  0x113E
+
+#define  OBJ_EVENT_PAL_TAG_NPC_CALVO2JOHTO 0x1140
+#define  OBJ_EVENT_PAL_TAG_NPC_CALVOJOHTO 0x1141
+#define  OBJ_EVENT_PAL_TAG_NPC_UNOWNORO 0x1142
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/field_effects/field_effect_object_template_pointers.h"
@@ -517,13 +524,23 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
     {gObjectEventPal_Meteorite,             OBJ_EVENT_PAL_TAG_METEORITE},
     {gObjectEventPal_SSAnne,                OBJ_EVENT_PAL_TAG_SS_ANNE},
     {gObjectEventPal_Seagallop,             OBJ_EVENT_PAL_TAG_SEAGALLOP},
-	{gObjectEventPal_Arceus},				OBJ_EVENT_PAL_TAG_ARCEUS},
-	{gObjectEventPal_DragonOrigen},	        OBJ_EVENT_PAL_TAG_DRAGONORIGEN},
-	{gObjectEventPal_Kyurem},               OBJ_EVENT_PAL_TAG_KYUREM},
-	{gObjectEventPal_KyuremOrigen},         OBJ_EVENT_PAL_TAG_KYUREM_ORIGEN},
-	{gObjectEventPal_Reshiram},             OBJ_EVENT_PAL_TAG_RESHIRAM},
-	{gObjectEventPal_Esencia},              OBJ_EVENT_PAL_TAG_ESENCIA},
-	{gObjectEventPal_Andraadmin},           OBJ_EVENT_PAL_TAG_ADMINANDRA},
+	{gObjectEventPal_Arceus,				OBJ_EVENT_PAL_TAG_ARCEUS},
+	{gObjectEventPal_Arceusp,				OBJ_EVENT_PAL_TAG_ARCEUSP},
+	{gObjectEventPal_DragonOrigen,	        OBJ_EVENT_PAL_TAG_DRAGONORIGEN},
+	{gObjectEventPal_Kyurem,               OBJ_EVENT_PAL_TAG_KYUREM},
+	{gObjectEventPal_KyuremOrigen,         OBJ_EVENT_PAL_TAG_KYUREM_ORIGEN},
+	{gObjectEventPal_Reshiram,             OBJ_EVENT_PAL_TAG_RESHIRAM},
+	{gObjectEventPal_Esencia,              OBJ_EVENT_PAL_TAG_ESENCIA},
+	{gObjectEventPal_Andraadmin,           OBJ_EVENT_PAL_TAG_ADMINANDRA},
+	{gObjectEventPal_Admin,           	   OBJ_EVENT_PAL_TAG_ADMIN},
+	{gObjectEventPal_Calvomotojohto,        OBJ_EVENT_PAL_TAG_NPC_CALVOMOTOJOHTO},
+	{gObjectEventPal_Zekrom,        OBJ_EVENT_PAL_TAG_ZEKROM},
+	{gObjectEventPal_Yveltal,				OBJ_EVENT_PAL_TAG_YVELTAL},
+	{gObjectEventPal_Lugia2,				OBJ_EVENT_PAL_TAG_LUGIA2},
+	{gObjectEventPal_HoOh2,                  OBJ_EVENT_PAL_TAG_HO_OH2},
+	{gObjectEventPal_Calvo2johto,        OBJ_EVENT_PAL_TAG_NPC_CALVO2JOHTO},
+	{gObjectEventPal_Calvojohto,        OBJ_EVENT_PAL_TAG_NPC_CALVOJOHTO},
+	{gObjectEventPal_Unownoro,        OBJ_EVENT_PAL_TAG_NPC_UNOWNORO},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
