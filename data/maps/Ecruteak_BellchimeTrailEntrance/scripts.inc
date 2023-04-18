@@ -496,7 +496,7 @@ step_end
 
 
 Torre_Campana_Frontera_Izquierda::
-compare VAR_UNUSED_0x40F7, 160
+compare VAR_UNUSED_0x40F7, 156
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 lock
 applymovement 4, Torre_Campana_Frontera_Move_1
@@ -531,7 +531,7 @@ walk_slow_down
 step_end
 
 Torre_Campana_Frontera_Derecha::
-compare VAR_UNUSED_0x40F7, 160
+compare VAR_UNUSED_0x40F7, 156
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 lock
 applymovement 4, Torre_Campana_Frontera_Move_2

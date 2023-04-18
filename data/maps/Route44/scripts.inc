@@ -125,18 +125,51 @@ Route44Documento_Text_101:
 	.string "Hacia RUTA HELADA$"
 
 Route44_Combate_Mirto::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Route44_Combate_Mirto_Move_1
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_1 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
+addobject 3
+applymovement 3, Route44_Combate_Mirto_Move_2
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_3
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_4
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_3
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route44_Combate_Mirto_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_3
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_7 MSGBOX_AUTOCLOSE
-msgbox Route44_Combate_Mirto_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, Route44_Combate_Mirto_Texto_8
+applymovement OBJ_EVENT_ID_PLAYER, Route44_Combate_Mirto_Move_5
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_9 MSGBOX_AUTOCLOSE
 msgbox Route44_Combate_Mirto_Texto_10 MSGBOX_AUTOCLOSE
-msgbox Route44_Combate_Mirto_Texto_11 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox Route44_Combate_Mirto_Texto_11 MSGBOX_DEFAULT
+givemon SPECIES_NOIBAT, 25, ITEM_NONE
+waitfanfare
+applymovement 3, Route44_Combate_Mirto_Move_3
+waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_12 MSGBOX_AUTOCLOSE
+fadescreen 1
+playmoncry SPECIES_NOIVERN, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 3
+setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
+playse SE_M_FLY
+delay 15
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 166
 release
 end
 

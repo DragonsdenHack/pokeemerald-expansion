@@ -2,6 +2,27 @@ RocketHideout_5F_MapScripts::
 	.byte 0
 
 RocketHideout5F_2::
+lock
+faceplayer
+msgbox RocketHideout5F_2_Texto_1 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+msgbox RocketHideout5F_2_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout5F_2_Texto_1:
+.string "Bienvenido al CENTRO de curación\n"
+	.string "exprés...$"
+
+RocketHideout5F_2_Texto_2:
+.string "¡Y listo!\n"
+	.string "¡Todos tus POKÉMON están en plena\l"
+	.string "forma de nuevo!$"
+
 end
 
 

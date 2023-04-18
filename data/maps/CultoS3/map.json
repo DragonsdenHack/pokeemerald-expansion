@@ -758,7 +758,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 88,
-      "y": 1,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -779,7 +779,7 @@
     },
     {
       "x": 88,
-      "y": 0,
+      "y": 1,
       "elevation": 0,
       "dest_map": "MAP_CULTO_S4",
       "dest_warp_id": 0
@@ -794,6 +794,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "107",
       "script": "Culto_S3_Batalla"
+    },
+    {
+      "type": "trigger",
+      "x": 88,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Culto_Bloqueo"
     }
   ],
   "bg_events": [

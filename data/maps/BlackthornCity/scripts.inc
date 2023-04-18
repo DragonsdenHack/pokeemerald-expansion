@@ -197,3 +197,33 @@ end
 
 BlackthornCityDocumento_Text_103:
 	.string "RUTA HELADA$"
+
+BlackthornCity_Anciano_Paso::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BlackthornCity_Anciano_Paso_Move_1
+applymovement 2, BlackthornCity_Anciano_Paso_Move_2
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, BlackthornCity_Anciano_Paso_Move_3
+waitmovement 0x0
+msgbox BlackthornCity_Anciano_Paso_Texto_1 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 173
+release
+end
+
+BlackthornCity_Anciano_Paso_Move_1:
+walk_in_place_left
+step_end
+
+BlackthornCity_Anciano_Paso_Move_2:
+face_right
+step_end
+
+BlackthornCity_Anciano_Paso_Move_3:
+face_left
+step_end
+
+BlackthornCity_Anciano_Paso_Texto_1:
+.string "{PLAYER}, ¿no?\n"
+	.string "Nuestro GRAN MAESTRO nos ha\l"
+	.string "hablado de ti, eres más que\l"
+	.string "bienvenido en este lugar.$"

@@ -1,5 +1,10 @@
 EcruteakCity_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, EcruteakCity_OnFrame
 	.byte 0
+
+EcruteakCity_OnFrame:
+map_script_2 VAR_UNUSED_0x40FE, 3, Ecruteak_Conversacion_Agatha_Oak
+	.2byte 0
 
 EcruteakCity2::
 lock         
@@ -197,12 +202,70 @@ EcruteakCityDocumento_Text_103:
 	.string "TEATRO DE DANZA DE CIUDAD IRIS$"
 
 EcruteakCity_Encuentro_Maestro::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_1
+clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
+addobject 1
+playse SE_EXIT
 msgbox EcruteakCity_Encuentro_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+delay 30
+fadescreen 1
+playmoncry SPECIES_NOIVERN, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 1
+setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
+playse SE_M_FLY
+delay 15
+fadescreen 0
+delay 20
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 7
+playse SE_EXIT
+delay 30
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_2
+waitmovement 0x0
+applymovement 7, EcruteakCity_Encuentro_Maestro_Move_3
+waitmovement 0x0
 msgbox EcruteakCity_Encuentro_Maestro_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, EcruteakCity_Encuentro_Maestro_Move_4
+waitmovement 0x0
 msgbox EcruteakCity_Encuentro_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 7, EcruteakCity_Encuentro_Maestro_Move_5
+waitmovement 0x0
 msgbox EcruteakCity_Encuentro_Maestro_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, EcruteakCity_Encuentro_Maestro_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_6
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, EcruteakCity_Encuentro_Maestro_Move_7
+waitmovement 0x0
+special RemoveCameraObject
 msgbox EcruteakCity_Encuentro_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, EcruteakCity_Encuentro_Maestro_Move_8
+waitmovement 0x0
+special RemoveCameraObject
+special SpawnCameraObject
+applymovement 7, EcruteakCity_Encuentro_Maestro_Move_9
+applymovement OBJ_EVENT_ID_CAMERA, EcruteakCity_Encuentro_Maestro_Move_10
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 7, EcruteakCity_Encuentro_Maestro_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_1
+waitmovement 0x0
 msgbox EcruteakCity_Encuentro_Maestro_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+fadescreen 1
+playmoncry SPECIES_SALAMENCE, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 7
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+playse SE_M_FLY
+delay 15
+fadescreen 0
+delay 20
+setvar VAR_UNUSED_0x40F7, 158
 release
 end
 
@@ -338,3 +401,274 @@ lock
 msgbox RuinsOfAlph_House_Mision_Secundaria_Texto_2 MSGBOX_AUTOCLOSE
 release
 end
+
+Ecruteak_Conversacion_Agatha_Oak::
+lock
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, EcruteakCity_Encuentro_Maestro_Move_2
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_Conversacion_Agatha_Oak_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_3
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_4
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 15, Ecruteak_Conversacion_Agatha_Oak_Move_5
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 15, Ecruteak_Conversacion_Agatha_Oak_Move_4
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_6 MSGBOX_AUTOCLOSE
+delay 30
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_7 MSGBOX_AUTOCLOSE
+delay 30
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_8 MSGBOX_AUTOCLOSE
+delay 30
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_6
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 15, Ecruteak_Conversacion_Agatha_Oak_Move_6
+waitmovement 0x0
+delay 20
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_13 MSGBOX_AUTOCLOSE
+fadescreen 1
+playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 15
+playse SE_M_FLY
+delay 15
+fadescreen 0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 14, EcruteakCity_Encuentro_Maestro_Move_2
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_2
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_Conversacion_Agatha_Oak_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_17 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_Conversacion_Agatha_Oak_Move_8
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_4
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_6
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_20 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_GENGARITE
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_21 MSGBOX_DEFAULT
+waitfanfare
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_22 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_23 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 14, Ecruteak_Conversacion_Agatha_Oak_Move_5
+waitmovement 0x0
+msgbox Ecruteak_Conversacion_Agatha_Oak_Texto_25 MSGBOX_AUTOCLOSE
+setflag FLAG_RECEIVED_SHOAL_SALT_3
+fadescreen 1
+playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 14
+playse SE_M_FLY
+delay 15
+fadescreen 0
+setvar VAR_UNUSED_0x40FE, 4
+release
+end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_8:
+walk_in_place_down
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_7:
+walk_down
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_6:
+face_up
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_5:
+face_down
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_4:
+face_right
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_3:
+walk_in_place_up
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Move_2:
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+step_end
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_1:
+.string "AGATHA: Sois incorregibles. El uno peor\n"
+	.string "que el otro.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_2:
+.string "Si pretendías continuar tu rivalidad\n"
+	.string "con él durante todos estos años, al\l"
+	.string "menos haberme avisado, creí que\l"
+	.string "habías perdido todo entusiasmo por el\l"
+	.string "combate.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_3:
+.string "OAK: … …$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_4:
+.string "AGATHA: Típico de ti, hacer todo desde\n"
+	.string "las sombras y aparecer únicamente\l"
+	.string "cuando el resultado hable por sí solo,\l"
+	.string "¿verdad? En el fondo sabía que alguien\l"
+	.string "como tú no caería en desesperanza.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_5:
+.string "OAK: Hemos visto demasiado como para\n"
+	.string "detenernos, no es lo que nuestros\l"
+	.string "antepasados nos enseñaron. En cierto\l"
+	.string "modo ya estamos ligados a ambas\l"
+	.string "regiones, participamos de forma activa\l"
+	.string "en su devenir, y su destino es el\l"
+	.string "nuestro.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_6:
+.string "A ti siempre te gustó CIUDAD IRIS, de\n"
+	.string "niños nos llevaban a visitar TORRE\l"
+	.string "CAMPANA. Ya ahí mostrabas entusiasmo\l"
+	.string "por el TIPO FANTASMA.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_7:
+.string "AGATHA: Fíjate en el paisaje… Es cómo\n"
+	.string "revivir aquellos días, mis sentidos\l"
+	.string "experimentan las mismas sensaciones\l"
+	.string "que antaño, su frescura es similar.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_8:
+.string "Este lugar no ha cambiado nada,\n"
+	.string "¿verdad?$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_9:
+.string "OAK: No... Hemos cambiado nosotros.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_10:
+.string "… …$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_11:
+.string "Sé que es contraria a la razón, pero\n"
+	.string "siento que existe algo… espiritual… en\l"
+	.string "este lugar. Y a pesar de no poder\l"
+	.string "comprenderlo, es imposible ignorar su\l"
+	.string "poder, su presencia.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_12:
+.string "AGATHA: Hombres mayores y más sabios\n"
+	.string "levantaron TORRE CAMPANA, muchos de\l"
+	.string "sus secretos se perdieron en el tiempo.\l"
+	.string "No podemos más que imaginar lo que\l"
+	.string "pudo ser.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_13:
+.string "OAK: Ni siquiera TORRE CAMPANA durará\n"
+	.string "para siempre.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_14:
+.string "AGATHA: Tan terco como siempre. Es ahí\n"
+	.string "donde precisamente reside su valor, en\l"
+	.string "su resistencia ante el cambio, dure lo\l"
+	.string "que dure.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_15:
+.string "…$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_16:
+.string "¡Oh! ¿{PLAYER}?$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_17:
+.string "¿Nos has escuchado?$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_18:
+.string "¡Jah! ¿Qué te parece? Parece que a ese\n"
+	.string "viejo carcamal aún le queda algo de\l"
+	.string "nostalgia dentro de sí, aunque se\l"
+	.string "niegue a reconocerlo.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_19:
+.string "He disfrutado mucho este nuevo viaje a\n"
+	.string "JOHTO. Por desgracia, también me han\l"
+	.string "puesto al día de todo lo acontecido en\l"
+	.string "TRIGAL.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_20:
+.string "Mi renuncia al ALTO MANDO está cada vez\n"
+	.string "más cerca. Por ahora volveré a PUEBLO\l"
+	.string "LAVANDA, pero no quiero irme de JOHTO\l"
+	.string "sin darte esto, {PLAYER}.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_21:
+.string "¡¡OBTUVISTE UNA GENGARITA DE MANOS DE\n"
+	.string "AGATHA!!$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_22:
+.string "Con ese objeto, GENGAR podrá\n"
+	.string "exprimir al 100% su potencial, un\l"
+	.string "poder que aquellos acostumbrados a\l"
+	.string "ver GASTLY y HAUNTER en TORRE\l"
+	.string "LAVANDA nunca podrían imaginar en\l"
+	.string "un TIPO FANTASMA.$"
+
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_23:
+.string "… …$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_24:
+.string "Me consta que a ese engendro al que\n"
+	.string "llaman MEWTWO lo bautizaron\l"
+	.string "erróneamente como el POKÉMON de mayor\l"
+	.string "poder especial, MEGA-GENGAR lo supera\l"
+	.string "y con creces en ese terreno. Pero\l"
+	.string "claro, eso no lo sabían.$"
+
+Ecruteak_Conversacion_Agatha_Oak_Texto_25:
+.string "Así de subestimados están los POKÉMON\n"
+	.string "mortales en estos tiempos.$"
+

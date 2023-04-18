@@ -486,3 +486,329 @@ walk_right
 walk_up
 walk_in_place_down
 step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra::
+lock
+playse SE_EXIT
+clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
+addobject 10
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_2
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_3
+waitmovement 0x0
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_4
+waitmovement 0x0
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_5
+waitmovement 0x0
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
+applymovement 1, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_6
+waitmovement 0x0
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_7
+waitmovement 0x0
+applymovement 1, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_9
+delay 15
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_10
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_11
+waitmovement 0x0
+applymovement 1, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
+waitmovement 0x0
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_EON_TICKET
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_12
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_9
+waitmovement 0x0
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_13
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_14
+waitmovement 0x0
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 11, 8, 0x338, TRUE
+setmetatile 12, 8, 0x350, TRUE
+setmetatile 11, 9, 0x26F, FALSE
+setmetatile 12, 9, 0x358, TRUE
+setmetatile 11, 10, 0x3A9, FALSE
+setmetatile 12, 10, 0x360, TRUE
+special DrawWholeMapView
+delay 60
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_3
+waitmovement 0x0
+delay 15
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_16
+applymovement OBJ_EVENT_ID_PLAYER, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_15
+waitmovement 0x0
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+applymovement 10, Goldenrod_RadioTower_P4_Encuentro_Andra_Move_5
+waitmovement 0x0
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAN_1
+removeobject 10
+setvar VAR_UNUSED_0x40F7, 152
+release
+end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.1:
+.string "¡Obtuviste PASE ÉLITE de manos\n"
+	.string "POLICÍA!$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_1:
+.string "ANDRA: ¡{PLAYER}!\n"
+	.string "¿Tú también?\l"
+	.string "¡Cuánto tiempo!$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_2:
+.string "Después de la caída de OAK,\n"
+	.string "GIOVANNI me destinó a HOENN para\l"
+	.string "estudiar unas ruinas parecidas a\l"
+	.string "las de ISLAS SETE.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_3:
+.string "Veo que tú también has\n"
+	.string "ascendido. Ya no somos parte de la\l"
+	.string "ÉLITE del TEAM ROCKET, {PLAYER},\l"
+	.string "somos el TEAM ROCKET.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
+.string "Solo GIOVANNI y ATLAS asistirán a\n"
+	.string "esta reunión aparte de nosotros.\l"
+	.string "Nuestro buen hacer y habilidad en\l"
+	.string "el combate nos ha llevado a la\l"
+	.string "cima, ahora es cuando podemos usar\l"
+	.string "nuestra posición para resolver los\l"
+	.string "misterios de est...$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5:
+.string "Sois el ADMIN.JEFE {PLAYER}, y la\n"
+	.string "ADMIN.JEFA ANDRA del TEAM ROCKET,\l"
+	.string "¿me equivoco?$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_6:
+.string "ANDRA: Así es.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_7:
+.string "Debéis pasar ya, la reunión está a\n"
+	.string "punto de comenzar.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8:
+.string "ANDRA: P-pero...\n"
+	.string "Si aquí no hay nadie.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9:
+.string "¿En serio creíais que\n"
+	.string "organizaríamos la reunión más\l"
+	.string "importante de los últimos 3 años\l"
+	.string "en un lugar así?\l"
+	.string "Cualquier crío de 10 años podría\l"
+	.string "colarse en este despacho, una\l"
+	.string "reunión de esta magnitud exige la\l"
+	.string "máxima discreción y seguridad.\l"
+	.string "Tomad.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10:
+.string "Ahora, interactuad con el\n"
+	.string "ordenador de la esquina, podréis\l"
+	.string "acceder a la verdadera sala de\l"
+	.string "reuniones de TORRE RADIO.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11:
+.string "ANDRA: No sé por qué esto me\n"
+	.string "es familiar...$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12:
+.string "ANDRA: ¡Vamos allá, {PLAYER}!\n"
+	.string "Las personas más influyentes y\l"
+	.string "poderosas de las 2 regiones\l"
+	.string "estarán aquí. El TEAM\l"
+	.string "ROCKET va a cambiar el curso de la\l"
+	.string "historia.$"
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1:
+face_down
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_2:
+walk_in_place_up
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_3:
+emote_exclamation_mark
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_4:
+walk_in_place_down
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_5:
+face_right
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_6:
+face_up
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_7:
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+face_right
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_8:
+walk_down
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+face_right
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_9:
+face_left
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_10:
+walk_in_place_left
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_11:
+walk_right
+face_up
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_12:
+walk_down
+face_right
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_13:
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_right
+walk_up
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_14:
+face_down
+walk_in_place_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+face_right
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_15:
+walk_left
+walk_down
+walk_down
+walk_down
+walk_right
+face_up
+step_end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Move_16:
+walk_left
+walk_left
+walk_down
+walk_down
+walk_right
+face_down
+step_end
+
+RadioTower_PC::
+compare VAR_UNUSED_0x40F7, 151
+goto_if_gt RadioTower_Warp
+msgbox RocketHideout_4F_PC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RadioTower_Warp::
+msgbox RocketHideout_4F_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 11, 8, 0x338, TRUE
+setmetatile 12, 8, 0x350, TRUE
+setmetatile 11, 9, 0x26F, FALSE
+setmetatile 12, 9, 0x358, TRUE
+setmetatile 11, 10, 0x3A9, FALSE
+setmetatile 12, 10, 0x360, TRUE
+special DrawWholeMapView
+delay 60
+release
+end

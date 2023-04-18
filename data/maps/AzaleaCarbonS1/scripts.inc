@@ -159,3 +159,92 @@ AzaleaCarbonS1_Text_6:
 	.string "encontrar uno. Supongo que es esa\l"
 	.string "variedad la que buscan los que me\l"
 	.string "contrataron.$"
+
+AzaleaCarbonS1_Primer_Combate::
+msgbox AzaleaCarbonS1_Primer_Combate_Texto_1 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Primer_Combate_Texto_2 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Primer_Combate_Texto_3 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Primer_Combate_Texto_4 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Primer_Combate_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+AzaleaCarbonS1_Primer_Combate_Texto_1:
+.string "¿Quién va?$"
+
+AzaleaCarbonS1_Primer_Combate_Texto_2:
+.string "Estás en propiedad privada, lo sabes,\n"
+	.string "¿no?$"
+
+AzaleaCarbonS1_Primer_Combate_Texto_3:
+.string "Te echaré de aquí inmediatamente, igual\n"
+	.string "que se echan a los POKÉMON SALVAJES.$"
+
+AzaleaCarbonS1_Primer_Combate_Texto_4:
+.string "¿De dónde sales tú?$"
+
+AzaleaCarbonS1_Primer_Combate_Texto_5:
+.string "No vamos a renunciar a este lugar, su\n"
+	.string "ubicación es perfecta, aquí contamos\l"
+	.string "con todas las materias primas\l"
+	.string "necesarias.$"
+
+AzaleaCarbonS1_Segundo_Combate::
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_1 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_2 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_3 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_4 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_5 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_6 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_7 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_8 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_9 MSGBOX_AUTOCLOSE
+release
+end
+
+AzaleaCarbonS1_Segundo_Combate_Texto_1:
+.string "¿De dónde sales tú? Ya tenemos\n"
+	.string "abogados y representantes de sobra,\l"
+	.string "este caso ya está lo suficientemente\l"
+	.string "atado como para…$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_2:
+.string "¿Vienes de parte de los antiguos\n"
+	.string "propietarios? ¿Por qué alguien de tu\l"
+	.string "apariencia iba a ayudarles?$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_3:
+.string "Qué más da, no puedes hacer nada. Este\n"
+	.string "lugar ya es oficialmente nuestro.$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_4:
+.string "… …$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_5:
+.string "Así que te niegas. Te diré algo, aunque\n"
+	.string "quisieras tomarte la justicia por tu\l"
+	.string "mano, no podrías. ¡Dudo mucho que tus\l"
+	.string "POKÉMON comprados sean de tan buena\l"
+	.string "calidad como los míos!$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_6:
+.string "¡Esos POKÉMON! ¡No los he visto en el\n"
+	.string "mercado!$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_7:
+.string "¿Cómo dices? No me hagas reir, hoy en\n"
+	.string "día nadie se toma la molestia de\l"
+	.string "entrenar por cuenta propia a su equipo,\l"
+	.string "es ineficiente y aburrido.$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_8:
+.string "Pero me da igual de dónde los hayas\n"
+	.string "sacado, ni con todos los LEGENDARIOS\l"
+	.string "del mundo puedes arrebatarnos este\l"
+	.string "lugar.$"
+
+AzaleaCarbonS1_Segundo_Combate_Texto_9:
+.string "A lo máximo a lo que puedes aspirar es a\n"
+	.string "llegar a un acuerdo, eso si mi JEFE lo\l"
+	.string "estima conveniente.$"
+

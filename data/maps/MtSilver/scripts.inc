@@ -9,20 +9,60 @@ end
 MtSilverDocumento_Text_100:
 	.string "MONTE PLATEADO$"
 
+MtSilver_Combate_Andra_Izq::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_1
+waitmovement 0x0
+goto MtSilver_Combate_Andra
+
+MtSilver_Combate_Andra_Der::
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_1.1
+waitmovement 0x0
+goto MtSilver_Combate_Andra
+
 MtSilver_Combate_Andra::
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 1
+applymovement 1, MtSilver_Combate_Andra_Move_2
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
 msgbox MtSilver_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, MtSilver_Combate_Andra_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_3
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox MtSilver_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, MtSilver_Combate_Andra_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_5
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MtSilver_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, MtSilver_Combate_Andra_Move_3
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, MtSilver_Combate_Andra_Move_3
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
 msgbox MtSilver_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, MtSilver_Combate_Andra_Move_6
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
-msgbox MtSilver_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_8, MtSilver_Combate_Andra_Texto_11
+applymovement OBJ_EVENT_ID_PLAYER, MtSilver_Combate_Andra_Move_7
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, MtSilver_Combate_Andra_Move_8
+waitmovement 0x0
 msgbox MtSilver_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, MtSilver_Combate_Andra_Move_9
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 1
+setvar VAR_UNUSED_0x40F7, 156
 release
 end
 
@@ -119,6 +159,12 @@ MtSilver_Combate_Andra_Texto_13:
 
 MtSilver_Combate_Andra_Move_1:
 emote_exclamation_mark
+walk_in_place_up
+step_end
+
+MtSilver_Combate_Andra_Move_1.1:
+emote_exclamation_mark
+walk_left
 walk_in_place_up
 step_end
 

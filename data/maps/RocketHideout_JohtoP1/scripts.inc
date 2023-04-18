@@ -1594,3 +1594,171 @@ RocketHideoutJohtoP1_Text_33:
 	.string "centrado en el ATAQUE FÍSICO.\l"
 	.string "Aunque MAGNEZONE es algo mejor\l"
 	.string "defensivamente.$"
+
+RocketHideoutJohtoP1_Encuentro_Andra::
+lock
+faceplayer
+playse SE_PIN
+applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_1
+waitmovement 0x0
+msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 16, RocketHideoutJohtoP1_Encuentro_Andra_Move_2
+waitmovement 0x0
+msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideoutJohtoP1_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
+fadescreen 1
+delay 20
+removeobject 16
+fadescreen 0
+release
+end
+
+RocketHideoutJohtoP1_Encuentro_Andra_Texto_1:
+.string "ANDRA: ¿Has visto todo esto,\n"
+	.string "{PLAYER}?\l"
+	.string "¡Estamos creando nuestras propias\l"
+	.string "MEGA-PIEDRAS!\l"
+	.string "¿Hasta dónde vamos a llegar?\l"
+	.string "Ahora disponemos de todo cuanto un\l"
+	.string "ENTRENADOR necesita para optimizar\l"
+	.string "al máximo a sus POKÉMON, más de lo\l"
+	.string "que cualquiera pudiera imaginar.$"
+
+RocketHideoutJohtoP1_Encuentro_Andra_Texto_2:
+.string "¿Sabes qué?\n"
+	.string "Exploraré las rutas del este de\l"
+	.string "JOHTO, las que hacen frontera con\l"
+	.string "KANTO. Dijeron en la reunión que\l"
+	.string "iban a permitir ya el acceso. Si no\l"
+	.string "me equivoco, es ahí donde\l"
+	.string "confinaron a ROJO. Tengo\l"
+	.string "curiosidad por ver qué pasa si le\l"
+	.string "hacemos una visita...$"
+
+RocketHideoutJohtoP1_Encuentro_Andra_Texto_3:
+.string "En fin, deberías terminar de\n"
+	.string "visitar la BASE ROCKET, sube un\l"
+	.string "poco más y verás la sorpresa que\l"
+	.string "el TEAM ROCKET te ha preparado por\l"
+	.string "tu desempeño y lealtad hacia la\l"
+	.string "organización.$"
+
+
+RocketHideoutJohtoP1_Encuentro_Andra_Move_1:
+emote_exclamation_mark
+face_player
+step_end
+
+RocketHideoutJohtoP1_Encuentro_Andra_Move_2:
+walk_in_place_up
+face_player
+step_end
+
+RocketHideoutJohtoP1_Encuentro_Cientifico::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_1
+applymovement 4, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_2
+waitmovement 0x0
+msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1
+applymovement 4, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_3
+waitmovement 0x0
+msgbox RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_BASEMENT_KEY
+msgbox Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.2 MSGBOX_DEFAULT
+waitfanfare
+applymovement 4, RocketHideoutJohtoP1_Encuentro_Cientifico_Move_4
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 154
+release
+end
+
+Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.2:
+.string "¡Obtuviste LLAVE DESPACHO de\n"
+	.string "manos de CIENTÍFICO!$"
+
+RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1:
+.string "ADMIN.JEFE {PLAYER}, le estabamos\n"
+	.string "esperando.$"
+
+RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2:
+.string "Como LÍDER de nuestra sucursal en\n"
+	.string "JOHTO, qué menos que contar con un\l"
+	.string "adecuado lugar de trabajo. Con\l"
+	.string "esto podrá acceder al despacho\l"
+	.string "privado que le hemos preparado.$"
+
+RocketHideoutJohtoP1_Encuentro_Cientifico_Move_1:
+walk_in_place_up
+step_end
+
+RocketHideoutJohtoP1_Encuentro_Cientifico_Move_2:
+walk_in_place_down
+step_end
+
+RocketHideoutJohtoP1_Encuentro_Cientifico_Move_3:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+step_end
+
+RocketHideoutJohtoP1_Encuentro_Cientifico_Move_4:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+step_end
+
+Llave_Despacho_Warp::
+msgbox Llave_Despacho_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_CARD
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 20, 4, 0x335, FALSE
+setmetatile 20, 3, 0x335, FALSE
+setmetatile 21, 4, 0x334, FALSE
+setmetatile 21, 3, 0x334, FALSE
+setmetatile 22, 4, 0x334, FALSE
+setmetatile 22, 3, 0x334, FALSE
+special DrawWholeMapView
+delay 60
+release
+end
+
+Llave_Despacho_Warp_Text_YesNo:
+.string "¿Quieres entrar a tu despacho?$"
+
+Llave_Despacho_2_Warp::
+msgbox Llave_Despacho_Warp_Text_2_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_CARD
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 20, 4, 0x335, FALSE
+setmetatile 20, 3, 0x335, FALSE
+setmetatile 21, 4, 0x334, FALSE
+setmetatile 21, 3, 0x334, FALSE
+setmetatile 22, 4, 0x334, FALSE
+setmetatile 22, 3, 0x334, FALSE
+special DrawWholeMapView
+delay 60
+release
+end
+
+Llave_Despacho_Warp_Text_2_YesNo:
+.string "¿Quieres salir de tu despacho?$"
+

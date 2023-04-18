@@ -119,6 +119,12 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_5
 waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Silph_11F_Bill_Presidente_Texto_5.1 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
 applymovement OBJ_EVENT_ID_PLAYER, Silph_11F_Bill_Presidente_Move_6
 waitmovement 0x0
 applymovement 3, Silph_11F_Bill_Presidente_Move_7
@@ -350,6 +356,10 @@ Silph_11F_Bill_Presidente_Texto_5:
 	.string "haréis guardia hasta que esta\l"
 	.string "pequeña reunión de negocios\l"
 	.string "termine.$"
+
+Silph_11F_Bill_Presidente_Texto_5.1:
+.string "Te necesito en plena forma, deja que\n"
+	.string "cure a tu equipo.$"
 
 Silph_11F_Bill_Presidente_Texto_6:
 .string "Y ahora, señor PRESIDENTE, digame,\n"

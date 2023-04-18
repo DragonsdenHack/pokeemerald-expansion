@@ -53,3 +53,29 @@ MahoganyTown_NinjaBase_Text_4:
 .string "Esos ninjas…\n"
 .string "Con las trampas que han puesto, es\l"
 .string "imposible adentrarse en la BASE…$"
+
+Ninja_Base_Poster::
+msgbox Ninja_Base_Poster_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Ninja_Base_Poster_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 8, 2, 0x163, TRUE
+setmetatile 9, 2, 0x163, TRUE
+setmetatile 8, 3, 0x29E, TRUE
+setmetatile 9, 3, 0x29F, TRUE
+setmetatile 7, 3, 0x2F9, FALSE
+special DrawWholeMapView
+delay 60
+release
+end
+
+Ninja_Base_Poster_Texto_1:
+.string "Detrás de este póster...\n"
+	.string "¡Hay un botón!$"
+
+Ninja_Base_Poster_Text_YesNo:
+.string "¿Quieres pulsarlo?$"

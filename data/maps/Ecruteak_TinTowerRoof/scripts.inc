@@ -3,34 +3,190 @@ Ecruteak_TinTowerRoof_MapScripts::
 
 
 Ecruteak_TinTowerRoof_Zeus::
+lockall
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+addobject 2
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_1
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_2
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_3
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_4 MSGBOX_AUTOCLOSE
-msgbox Ecruteak_TinTowerRoof_Zeus_Texto_5 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, Ecruteak_TinTowerRoof_Zeus_Texto_5
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_4
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_4
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_7 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+addobject 1
+playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_5
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_5
+waitmovement 0x0
+delay 30
+playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_6
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_7
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_8 MSGBOX_AUTOCLOSE
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_7
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_11 MSGBOX_AUTOCLOSE
+delay 30
+playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
+waitmoncry
+applymovement 1, Ecruteak_TinTowerRoof_Zeus_Move_12
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_12 MSGBOX_AUTOCLOSE
+delay 30
+playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_14
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_14
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_TinTowerRoof_Zeus_Move_15
+waitmovement 0x0
+special RemoveCameraObject
+delay 30
+fadescreen 1
+playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+waitmoncry
+addobject 3
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+playse SE_M_FLY
+delay 15
+fadescreen 0
+delay 20
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_13 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_TinTowerRoof_Zeus_Move_16
+applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_16
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_1
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE
+playse SE_BALL
+addobject 6
+delay 20
+playse SE_BALL_OPEN
+setflag FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE
+removeobject 6
+delay 15
+clearflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
+addobject 4
+playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_14 MSGBOX_AUTOCLOSE
+waitmoncry
+playse SE_PIN
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_17
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_15 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_14 MSGBOX_AUTOCLOSE
+waitmoncry
+fadescreen 1
+delay 15
+playse SE_M_ROCK_THROW
+waitse
+playse SE_SUPER_EFFECTIVE
+waitse
+playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+removeobject 1
+delay 15
+setflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
+removeobject 4
+delay 10
+addobject 5
+clearflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE
+fadescreen 0
+applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_18
+waitmovement 0x0
+delay 15
+setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE
+removeobject 5
+delay 15
+applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_19
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_20
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_1
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_17 MSGBOX_AUTOCLOSE
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_4
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_19 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_TinTowerRoof_Zeus_Move_21
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_22
+waitmovement 0x0
+delay 15
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_20 MSGBOX_AUTOCLOSE
-msgbox Ecruteak_TinTowerRoof_Zeus_Texto_21 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, Ecruteak_TinTowerRoof_Zeus_Texto_21
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_4
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 3, Ecruteak_TinTowerRoof_Zeus_Move_21
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_23 MSGBOX_AUTOCLOSE
+fadescreen 1
+playmoncry SPECIES_RAYQUAZA, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 3
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+playse SE_M_FLY
+delay 15
+fadescreen 0
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_23
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_24
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_25
+waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_26 MSGBOX_AUTOCLOSE
-msgbox Ecruteak_TinTowerRoof_Zeus_Texto_27 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_27 MSGBOX_DEFAULT
+givemon SPECIES_FLABEBE, 25, ITEM_NONE
+waitfanfare
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_28 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+fadescreen 1
+delay 20
+removeobject 2
+fadescreen 0
+clearflag FLAG_RECEIVED_SHOAL_SALT_1
+setflag FLAG_HIDE_PETALBURG_GYM_WALLY
+setvar VAR_UNUSED_0x40FE, 3
+setvar VAR_UNUSED_0x40F7, 160
+clearflag FLAG_RECEIVED_SHOAL_SALT_3
 release
 end
 

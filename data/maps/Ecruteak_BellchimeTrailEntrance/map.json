@@ -145,13 +145,13 @@
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE",
-      "dest_warp_id": 0
+      "dest_warp_id": 3
     },
     {
       "x": 23,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE",
+      "dest_map": "MAP_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE2",
       "dest_warp_id": 0
     },
     {
@@ -159,7 +159,7 @@
       "y": 3,
       "elevation": 0,
       "dest_map": "MAP_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE",
-      "dest_warp_id": 0
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

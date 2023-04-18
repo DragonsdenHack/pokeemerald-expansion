@@ -68,15 +68,53 @@ IndigoJohto_Text_5:
 IndigoJohto7::
 end
 
+Indigo_Johto_Atlas_Izq::
+lock
+addobject 6
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_1
+applymovement 1, Indigo_Johto_Atlas_Move_2
+waitmovement 0x0
+goto Indigo_Johto_Atlas
+
+Indigo_Johto_Atlas_Der::
+lock
+addobject 6
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_1.1
+applymovement 1, Indigo_Johto_Atlas_Move_2
+waitmovement 0x0
+goto Indigo_Johto_Atlas
+
 Indigo_Johto_Atlas::
 msgbox Indigo_Johto_Atlas_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 1, Indigo_Johto_Atlas_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, Indigo_Johto_Atlas_Move_4
+waitmovement 0x0
 msgbox Indigo_Johto_Atlas_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 6, Indigo_Johto_Atlas_Move_5
+waitmovement 0x0
 msgbox Indigo_Johto_Atlas_Texto_3 MSGBOX_AUTOCLOSE
 msgbox Indigo_Johto_Atlas_Texto_4 MSGBOX_AUTOCLOSE
 msgbox Indigo_Johto_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, Indigo_Johto_Atlas_Move_2
+applymovement 6, Indigo_Johto_Atlas_Move_6
+waitmovement 0x0
 msgbox Indigo_Johto_Atlas_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, Indigo_Johto_Atlas_Move_2
+waitmovement 0x0
 msgbox Indigo_Johto_Atlas_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, Indigo_Johto_Atlas_Move_7
+waitmovement 0x0
 msgbox Indigo_Johto_Atlas_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 6, Indigo_Johto_Atlas_Move_8
+waitmovement 0x0
+removeobject 6
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 156
 release
 end
 
@@ -130,6 +168,10 @@ Indigo_Johto_Atlas_Texto_8:
 
 Indigo_Johto_Atlas_Move_1:
 face_left
+step_end
+
+Indigo_Johto_Atlas_Move_1.1:
+walk_left
 step_end
 
 Indigo_Johto_Atlas_Move_2:

@@ -76,3 +76,170 @@ end
 MahoganyTownDocumento_Text_102:
 .string "¡Si visitas PUEBLO CAOBA, prueba\n"
 	.string "un CARAMELOFURIA!$"
+
+
+MahoganyTown_Encuentro_Rocket_Abajo::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_Encuentro_Rocket_Move_1
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_2
+waitmovement 0x0
+goto MahoganyTown_Encuentro_Rocket
+
+MahoganyTown_Encuentro_Rocket_Medio::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_Encuentro_Rocket_Move_1.1
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_2
+waitmovement 0x0
+goto MahoganyTown_Encuentro_Rocket
+
+MahoganyTown_Encuentro_Rocket_Arriba::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_Encuentro_Rocket_Move_1.2
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_2
+waitmovement 0x0
+goto MahoganyTown_Encuentro_Rocket
+
+MahoganyTown_Encuentro_Rocket::
+msgbox MahoganyTown_Encuentro_Rocket_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_3
+waitmovement 0x0
+msgbox MahoganyTown_Encuentro_Rocket_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_4
+waitmovement 0x0
+msgbox MahoganyTown_Encuentro_Rocket_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MahoganyTown_Encuentro_Rocket_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_5
+waitmovement 0x0
+msgbox MahoganyTown_Encuentro_Rocket_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 4, MahoganyTown_Encuentro_Rocket_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_Encuentro_Rocket_Move_6
+waitmovement 0x0
+msgbox MahoganyTown_Encuentro_Rocket_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
+removeobject 4
+playse SE_DOOR
+setvar VAR_UNUSED_0x40F7, 161
+release
+end
+
+MahoganyTown_Encuentro_Rocket_Texto_1:
+.string "RECLUTA: ¡ADMIN.JEFE {PLAYER}!\n"
+	.string "¡Qué oportuno!$"
+
+MahoganyTown_Encuentro_Rocket_Texto_2:
+.string "Ejem...\n"
+	.string "Verá.\l"
+	.string "Tal como GIOVANNI nos indicó,\l"
+	.string "FREDO nos ha cedido la antigua\l"
+	.string "BASE NINJA de CAOBA para nuestras\l"
+	.string "investigaciones. Instalamos ya\l"
+	.string "parte del material y adaptamos la\l"
+	.string "base al estilo ROCKET.$"
+
+MahoganyTown_Encuentro_Rocket_Texto_3:
+.string "Pero, en la ausencia de FREDO, la\n"
+	.string "base ha sido ocupada por ladrones,\l"
+	.string "ninjas, y personajes de la peor\l"
+	.string "calaña.$"
+
+MahoganyTown_Encuentro_Rocket_Texto_4:
+.string "Intentamos entrar por la fuerza,\n"
+	.string "pero saben aprovechar bien la\l"
+	.string "estructura de la base para\l"
+	.string "tomarnos siempre por sorpresa y no\l"
+	.string "dejarnos avanzar.$"
+
+MahoganyTown_Encuentro_Rocket_Texto_5:
+.string "Usted seguro que sabe poner orden\n"
+	.string "en esta situación, acompáñeme, le\l"
+	.string "mostraré dónde está la BASE NINJA.$"
+
+MahoganyTown_Encuentro_Rocket_Texto_6:
+.string "Es aqui. Tenemos rodeado el\n"
+	.string "exterior, pero somos incapaces de\l"
+	.string "adentrarnos en lo profundo de la\l"
+	.string "base.$"
+
+MahoganyTown_Encuentro_Rocket_Move_1:
+walk_in_place_right
+step_end
+
+MahoganyTown_Encuentro_Rocket_Move_1.1:
+walk_down
+walk_in_place_right
+step_end
+
+MahoganyTown_Encuentro_Rocket_Move_1.2:
+walk_down
+walk_down
+walk_in_place_right
+step_end
+
+MahoganyTown_Encuentro_Rocket_Move_2:
+emote_exclamation_mark
+face_left
+step_end
+
+MahoganyTown_Encuentro_Rocket_Move_3:
+walk_down
+walk_left
+walk_left
+walk_left
+step_end
+
+MahoganyTown_Encuentro_Rocket_Move_4:
+walk_in_place_left
+step_end
+
+MahoganyTown_Encuentro_Rocket_Move_5:
+walk_left
+step_end
+
+MahoganyTown_Encuentro_Rocket_Move_6:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_in_place_up
+step_end
+
+Caoba_Barrera_Norte::
+compare VAR_UNUSED_0x40F7, 163
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Caoba_Barrera_Move_1
+waitmovement 0x0
+msgbox Caoba_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Caoba_Barrera_Move_2
+waitmovement 0x0
+release
+end
+
+Caoba_Barrera_Texto_1:
+.string "(Debería ayudar antes al TEAM\n"
+	.string "ROCKET a limpiar la BASE CAOBA)$"
+
+Caoba_Barrera_Move_1:
+walk_in_place_down
+step_end
+
+Caoba_Barrera_Move_2:
+walk_slow_down
+step_end

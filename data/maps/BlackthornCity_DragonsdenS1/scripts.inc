@@ -18,7 +18,13 @@ DragonsdenS1_Text_1:
 
 
 DragonsdenS1_2::
+lock
+msgbox DragonsdenS1_2_Text_2, MSGBOX_SIGN
+release
 end
+
+DragonsdenS1_2_Text_2:
+.string "GUARIDA DRAGÓN$"
 
 
 

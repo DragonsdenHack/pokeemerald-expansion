@@ -29,10 +29,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
-      "x": 7,
-      "y": 3,
+      "x": 1,
+      "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -84,7 +84,7 @@
       "x": 19,
       "y": 15,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -98,50 +98,50 @@
       "x": 14,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P8",
+      "dest_warp_id": 2
     },
     {
       "x": 4,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P8",
+      "dest_warp_id": 3
     },
     {
       "x": 9,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P3",
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P9",
       "dest_warp_id": 0
     },
     {
       "x": 14,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P8",
+      "dest_warp_id": 4
     },
     {
       "x": 18,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P7",
+      "dest_warp_id": 1
     },
     {
       "x": 8,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P3",
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P8",
       "dest_warp_id": 0
     },
     {
       "x": 10,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P8",
+      "dest_warp_id": 5
     }
   ],
   "coord_events": [

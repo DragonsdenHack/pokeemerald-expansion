@@ -31,7 +31,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_MAN2",
@@ -109,7 +109,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
@@ -188,6 +188,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Ecruteak_Cientifico_Secundaria",
       "flag": "FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA",
+      "x": 67,
+      "y": 26,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
+      "x": 67,
+      "y": 24,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_RECEIVED_SHOAL_SALT_3"
     }
   ],
   "warp_events": [
@@ -216,8 +242,8 @@
       "x": 28,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_CITY",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE2",
+      "dest_warp_id": 1
     },
     {
       "x": 10,
@@ -237,7 +263,7 @@
       "x": 64,
       "y": 21,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_CITY",
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER",
       "dest_warp_id": 0
     },
     {
@@ -284,7 +310,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 61,
+      "y": 24,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "157",
+      "script": "EcruteakCity_Encuentro_Maestro"
+    }
   ],
   "bg_events": [
     {

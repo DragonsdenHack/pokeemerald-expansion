@@ -117,24 +117,72 @@ NinjaBaseS3_EventScript_Ladron::
 	msgbox NinjaBaseS3_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+NinjaBaseS3_EventScript_Ninja::
+	trainerbattle_single TRAINER_TONY_2, NinjaBaseS3_Text_NinjaIntro, NinjaBaseS3_Text_NinjaDefeated
+	msgbox NinjaBaseS3_Text_NinjaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
 
 MahoganyTown_NinjaBaseS3_Combates_Finales::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_1
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_2
+waitmovement 0x0
+delay 15
+playse SE_PIN
+applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_3
+applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_3
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_2 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_5
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_6 MSGBOX_AUTOCLOSE
-msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_MAY_RUSTBORO_TREECKO, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_4
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 6, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_7
+applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_8
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_10 MSGBOX_AUTOCLOSE
-msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_CELIA, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_2
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 13, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_5
+applymovement 14, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_9
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_13 MSGBOX_AUTOCLOSE
-msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_14 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_BROOKE_3, MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_14
+applymovement OBJ_EVENT_ID_PLAYER, MahoganyTown_NinjaBaseS3_Combates_Finales_Move_6
+waitmovement 0x0
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_15 MSGBOX_AUTOCLOSE
+delay 30
 msgbox MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_16 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
+clearflag FLAG_RECEIVED_SHOAL_SALT_2
+fadescreen 1
+removeobject 6
+removeobject 13
+removeobject 14
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 164
 release
 end
 
@@ -272,3 +320,110 @@ walk_down
 walk_down
 walk_down
 step_end
+
+MahoganyTown_NinjaBaseS3_Llamada_Giovanni::
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+setvar VAR_UNUSED_0x40F7, 162
+release
+end
+
+MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Move_1:
+emote_exclamation_mark
+walk_in_place_down
+
+MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1:
+.string "GIOVANNI: ¿{PLAYER}?\n"
+	.string "¿Estás ya en PUEBLO CAOBA?\l"
+	.string "Perfecto.\l"
+	.string "...\l"
+	.string "...\l"
+	.string "Bien, veo que te has adelantado,\l"
+	.string "iba a enviar a ATLAS y ANDRA a\l"
+	.string "recuperar la BASE CAOBA, pero\l"
+	.string "confío en que contigo sea\l"
+	.string "suficiente, espero que pueda estar\l"
+	.string "despejada y lista para trabajar\l"
+	.string "cuanto antes.$"
+
+MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
+.string "¿Así que has derrotado al\n"
+	.string "GRAN MAESTRO de CIUDAD IRIS? Ese\l"
+	.string "EEVEE suyo parece ser el ancestro\l"
+	.string "de todos los EEVEE, puede\l"
+	.string "transformarse en cada uno de los\l"
+	.string "tipos de los movimientos que\l"
+	.string "ejecute. Te ha debido de poner en\l"
+	.string "problemas, {PLAYER}.\l"
+	.string "...\l"
+	.string "...\l"
+	.string "¡¿HO-OH apareció?!\l"
+	.string "¿En la cima de TORRE CAMPANA?\l"
+	.string "...\l"
+	.string "...\l"
+	.string "¿Un ENTRENADOR que solo usa\l"
+	.string "LEGENDARIOS MAYORES apareció y lo\l"
+	.string "capturó?\l"
+	.string "¿¡También tenía a LUGIA!?$"
+
+MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3:
+.string "Esto rompe todos nuestros\n"
+	.string "esquemas, ¿dices que ya lo conoces\l"
+	.string "de ISLAS SETE y allí ya se hizo\l"
+	.string "con los LEGENDARIOS de HOENN?\l"
+	.string "Debe de ser alguien muy peligroso,\l"
+	.string "tal vez busque lo mismo que\l"
+	.string "nosotros. Haré redoblar la guardia\l"
+	.string "en RUINAS ALFA.$"
+
+MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4:
+.string "Estáte atento, {PLAYER}, debemos\n"
+	.string "actuar en consecuencia. Pronto\l"
+	.string "volveremos a estar en contacto.$"
+
+MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja::
+playse SE_NOTE_C
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_1
+waitmovement 0x0
+delay 30
+playse SE_NOTE_C_HIGH
+delay 15
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
+fadescreen 1
+delay 20
+addobject 4
+fadescreen 0
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Cuarta_Trampa_Move_2
+waitmovement 0x0
+msgbox MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_WATTSON_3, MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_2
+msgbox MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_FAT_MAN
+fadescreen 1
+delay 20
+removeobject 4
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 163
+release
+end
+
+MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_1:
+.string "De modo que tú eres el grueso del\n"
+	.string "TEAM ROCKET, ¡acabaré contigo!$"
+
+MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_2:
+.string "¡Maldición!$"
+
+MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_3:
+.string "Ni un oficial del TEAM ROCKET nos\n"
+	.string "podrá echar de aquí, la unión hace\l"
+	.string "la fuerza.$"

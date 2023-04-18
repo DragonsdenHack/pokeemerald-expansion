@@ -16816,3 +16816,19 @@ Olivine_Boat3_Text_CazabichosPostBattle:
 	.string "estricto con las guardias, si se\l"
 	.string "entera de que he combatido es\l"
 	.string "capaz de bajarme el sueldo.$"
+
+NinjaBaseS3_Text_NinjaIntro:
+.string "No hay forma de que puedas seguir\n"
+	.string "avanzando, y si quieres volver,\l"
+	.string "deberás pasar de nuevo por nuestra\l"
+	.string "seguridad.\l"
+	.string "¡Estás atrapado!$"
+
+NinjaBaseS3_Text_NinjaDefeated:
+.string "Mis compañeros se encargarán de\n"
+	.string "ti.$"
+
+NinjaBaseS3_Text_NinjaPostBattle:
+.string "Vamos a convertir esta base en lo\n"
+	.string "que siempre fue, un verdadero\l"
+	.string "escondite ninja.$"

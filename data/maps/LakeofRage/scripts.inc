@@ -115,3 +115,83 @@ end
 
 LakeofRageDocumento_Text_101:
 	.string "CASA DEL GURÚ PESCADOR$"
+
+LakeofRage_Fredo::
+lock
+faceplayer
+msgbox LakeofRage_Fredo_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 15, LakeofRage_Fredo_Move_1
+waitmovement 0x0
+msgbox LakeofRage_Fredo_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LakeofRage_Fredo_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LakeofRage_Fredo_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 15, LakeofRage_Fredo_Move_2
+waitmovement 0x0
+msgbox LakeofRage_Fredo_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 15, LakeofRage_Fredo_Move_3
+waitmovement 0x0
+msgbox LakeofRage_Fredo_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_SLATEPORT_CITY_STERNS_SHIPYARD_MR_BRINEY
+fadescreen 1
+delay 20
+removeobject 15
+fadescreen 0
+release
+end
+
+LakeofRage_Fredo_Move_1:
+face_player
+emote_exclamation_mark
+step_end
+
+LakeofRage_Fredo_Move_2:
+face_down
+step_end
+
+LakeofRage_Fredo_Move_3:
+face_player
+step_end
+
+LakeofRage_Fredo_Texto_1:
+.string "FREDO: Buenos días, joven, ¿nos\n"
+	.string "hemos visto antes?$"
+
+LakeofRage_Fredo_Texto_2:
+.string "Sí...\n"
+	.string "La reunión de TRIGAL, entonces\l"
+	.string "eres ese ROCKET que ganó la LIGA\l"
+	.string "POKÉMON.$"
+
+LakeofRage_Fredo_Texto_3:
+.string "Como te habrás dado cuenta, los\n"
+	.string "actuales LÍDERES de JOHTO nos\l"
+	.string "mantenemos al margen de lo que\l"
+	.string "ocurre en otros lugares,\l"
+	.string "simplemente nos ocupamos de\l"
+	.string "nuestra vida y dejamos que las\l"
+	.string "cosas caigan por su propio peso.$"
+
+LakeofRage_Fredo_Texto_4:
+.string "Lo que no quita que lo que LANCE\n"
+	.string "hizo en KANTO fue horrible. De\l"
+	.string "haber sabido la verdadera\l"
+	.string "historia, los LÍDERES de JOHTO,\l"
+	.string "especialmente el MAESTRO DRAGÓN,\l"
+	.string "hubiéramos actuado inmediatamente.$"
+
+LakeofRage_Fredo_Texto_5:
+.string "Es por ello que tengo fe en\n"
+	.string "vosotros, sé que no actuáis por puro\l"
+	.string "altruismo, pero tenéis ciertos\l"
+	.string "principios, y con todo lo que\l"
+	.string "vuestro LÍDER planteó en la\l"
+	.string "reunión de TRIGAL, algo como lo\l"
+	.string "ocurrido en KANTO jamás hubiera\l"
+	.string "sucedido.$"
+
+LakeofRage_Fredo_Texto_6:
+.string "Creo que ya he andado bastante, es\n"
+	.string "hora de volver a CAOBA. Disfruta\l"
+	.string "del paseo, {PLAYER}.$"

@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtSilver3_1",
+      "script": "MtSilver3_Combate_Rojo",
       "flag": "0"
     },
     {
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -72,7 +72,7 @@
       "x": 13,
       "y": 39,
       "elevation": 0,
-      "dest_map": "MAP_MT_SILVER2",
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER",
       "dest_warp_id": 2
     },
     {

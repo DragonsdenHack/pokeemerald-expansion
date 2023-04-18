@@ -225,7 +225,7 @@ delay 20
 msgbox PokemonLeague_6F_Final_Texto_44 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PokemonLeague_6F_Final_Texto_45 MSGBOX_AUTOCLOSE
-playse SE_LEDGE
+playse SE_USE_ITEM
 special HealPlayerParty
 delay 20
 applymovement 3, PokemonLeague_6F_Final_Move_30

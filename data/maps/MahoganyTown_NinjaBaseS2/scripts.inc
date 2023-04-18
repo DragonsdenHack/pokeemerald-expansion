@@ -172,3 +172,42 @@ NinjaBaseS2_EventScript_Calvo::
 	trainerbattle_single TRAINER_PAT, NinjaBaseS2_Text_CalvoIntro, NinjaBaseS2_Text_CalvoDefeated
 	msgbox NinjaBaseS2_Text_CalvoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+NinjaBaseS2_Charizardita_X::
+lock
+faceplayer
+checkitem ITEM_CHARIZARDITE_X
+goto_if_eq VAR_RESULT, FALSE, NinjaBaseS2_Charizardita_X_2
+msgbox NinjaBaseS2_Charizardita_X_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+NinjaBaseS2_Charizardita_X_2::
+msgbox NinjaBaseS2_Charizardita_X_Texto_1 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_CHARIZARDITE_X
+msgbox NinjaBaseS2_Charizardita_X_Texto_2 MSGBOX_DEFAULT
+waitfanfare
+release
+end
+
+NinjaBaseS2_Charizardita_X_Texto_1:
+.string "Como ya sabes, estamos trabajando\n"
+	.string "en la creación de varias\l"
+	.string "MEGAPIEDRAS artificiales para\l"
+	.string "distintos POKÉMON. Con ello, hemos\l"
+	.string "logrado crear una variante\l"
+	.string "ofensiva física de CHARIZARD. Aquí\l"
+	.string "tienes su MEGAPIEDRA.$"
+
+NinjaBaseS2_Charizardita_X_Texto_3:
+.string "La CHARIZARDITA-X cumple el sueño\n"
+	.string "de muchos: ver a CHARIZARD\l"
+	.string "convertido en dragón. No hay nada\l"
+	.string "que los científicos del TEAM\l"
+	.string "ROCKET no puedan lograr.$"
+
+NinjaBaseS2_Charizardita_X_Texto_2:
+.string "¡¡Obtuviste CHARIZARDITA-X de\n"
+	.string "manos de CIENTÍFICO ROCKET!!$"
+

@@ -188,6 +188,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "116",
       "script": "RocketHideout8F_Mision_Johto"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "167",
+      "script": "RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez"
     }
   ],
   "bg_events": [

@@ -31,13 +31,51 @@ NewBarkTown_Text_2:
 NewBarkTown3::
 end
 
+NewBarkTown_Encuentro_Elm_Arriba::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, NewBarkTown_Encuentro_Elm_Move_1
+waitmovement 0x0
+goto NewBarkTown_Encuentro_Elm
+
+NewBarkTown_Encuentro_Elm_Abajo::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, NewBarkTown_Encuentro_Elm_Move_1.1
+waitmovement 0x0
+goto NewBarkTown_Encuentro_Elm
+
 NewBarkTown_Encuentro_Elm::
+playse SE_DOOR
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 3
+delay 20
+playse SE_PIN
+applymovement 3, NewBarkTown_Encuentro_Elm_Move_2
+waitmovement 0x0
 msgbox NewBarkTown_Encuentro_Elm_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 3, NewBarkTown_Encuentro_Elm_Move_3
+waitmovement 0x0
 msgbox NewBarkTown_Encuentro_Elm_Texto_2 MSGBOX_AUTOCLOSE
 msgbox NewBarkTown_Encuentro_Elm_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 3, NewBarkTown_Encuentro_Elm_Move_4
+waitmovement 0x0
 msgbox NewBarkTown_Encuentro_Elm_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 3, NewBarkTown_Encuentro_Elm_Move_2
+waitmovement 0x0
+delay 10
+applymovement 3, NewBarkTown_Encuentro_Elm_Move_5
+waitmovement 0x0
 msgbox NewBarkTown_Encuentro_Elm_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 3, NewBarkTown_Encuentro_Elm_Move_4
+waitmovement 0x0
 msgbox NewBarkTown_Encuentro_Elm_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 3, NewBarkTown_Encuentro_Elm_Move_6
+waitmovement 0x0
+playse SE_DOOR
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 3
+setvar VAR_UNUSED_0x40F7, 155
 release
 end
 
@@ -101,6 +139,11 @@ NewBarkTown_Encuentro_Elm_Texto_6:
 	.string "arrojen sus mejores POKÉMON.$"
 
 NewBarkTown_Encuentro_Elm_Move_1:
+walk_in_place_right
+step_end
+
+NewBarkTown_Encuentro_Elm_Move_1.1:
+walk_up
 walk_in_place_right
 step_end
 

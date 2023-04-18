@@ -19,7 +19,7 @@
       "x": 13,
       "y": 17,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -169,7 +169,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "168",
+      "script": "CultoS4_Rezando_Esencia"
+    }
   ],
   "bg_events": [
 

@@ -43,3 +43,44 @@ RuinsOfAlph_Text_2:
 
 RuinsOfAlph3::
 end
+
+RuinsOfAlph_Terremoto::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_Terremoto_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_Terremoto_Move_2
+waitmovement 0x0
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+msgbox RuinsOfAlph_Terremoto_Texto_1 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 175
+release
+end
+
+RuinsOfAlph_Terremoto_Texto_1:
+.string "(Algo que llevaba mucho\n"
+	.string "tiempo cerrado se ha abierto al\l"
+	.string "sur de RUINAS ALFA)$"
+
+RuinsOfAlph_Terremoto_Move_1:
+emote_exclamation_mark
+step_end
+
+RuinsOfAlph_Terremoto_Move_2:
+walk_in_place_down
+step_end

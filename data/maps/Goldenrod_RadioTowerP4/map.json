@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RadioTowerP4_7",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ATLAS",
@@ -164,7 +164,7 @@
       "x": 11,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P4",
+      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P5",
       "dest_warp_id": 0
     }
   ],
@@ -185,7 +185,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "151",
-      "script": "NULL"
+      "script": "Goldenrod_RadioTower_P4_Encuentro_Andra"
     }
   ],
   "bg_events": [
@@ -212,6 +212,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "GoldenrodRadioTowerP4Documento_101"
+    },
+    {
+      "type": "sign",
+      "x": 12,
+      "y": 6,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RadioTower_PC"
     }
   ]
 }

@@ -26,7 +26,25 @@ Ecruteak_TinTowerp4_Text_3:
 
 
 TinTowerP4_4::
+lock
+faceplayer
+msgbox TinTowerP4_4_Texto_1 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+msgbox TinTowerP4_4_Texto_2 MSGBOX_AUTOCLOSE
+release
 end
+
+TinTowerP4_4_Texto_1:
+.string "Un buen descanso no te vendrá mal,\n"
+	.string "TORRE CAMPANA es larga y dura.$"
+
+TinTowerP4_4_Texto_2:
+.string "Tus POKÉMON ya están listos para\n"
+	.string "proseguir vuestro viaje.$"
 
 
 

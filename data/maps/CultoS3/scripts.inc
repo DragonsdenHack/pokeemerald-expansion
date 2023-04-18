@@ -1024,3 +1024,26 @@ step_end
 Culto_S3_Batalla_Move_11:
 face_down
 step_end
+
+Culto_Bloqueo::
+compare VAR_UNUSED_0x40F7, 167
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Culto_Bloqueo_Move_1
+waitmovement 0x0
+msgbox Culto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Culto_Bloqueo_Move_2
+waitmovement 0x0
+release
+end
+
+Culto_Bloqueo_Texto_1:
+.string "(Un aura horrible impide seguir\n"
+	.string "adelante)$"
+
+Culto_Bloqueo_Move_1:
+walk_in_place_down
+step_end
+
+Culto_Bloqueo_Move_2:
+walk_slow_down
+step_end

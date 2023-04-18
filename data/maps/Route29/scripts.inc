@@ -199,3 +199,26 @@ Route29Documento_Text_101:
 	.string "¡Aviso!\n"
 	.string "¡Frontera con KANTO al entrar en\l"
 	.string "RUTA 26, más al este!$"
+
+Primavera_Barrera_Sur::
+compare VAR_UNUSED_0x40F7, 153
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Primavera_Barrera_Sur_Move_1
+waitmovement 0x0
+msgbox Primavera_Barrera_Sur_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Primavera_Barrera_Sur_Move_2
+waitmovement 0x0
+release
+end
+
+Primavera_Barrera_Sur_Texto_1:
+.string "(Aún me faltan por ver los últimos\n"
+	.string "pisos de la BASE ROCKET de JOHTO)$"
+
+Primavera_Barrera_Sur_Move_1:
+walk_in_place_right
+step_end
+
+Primavera_Barrera_Sur_Move_2:
+walk_slow_left
+step_end

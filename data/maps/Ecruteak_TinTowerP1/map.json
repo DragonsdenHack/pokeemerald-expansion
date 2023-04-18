@@ -19,7 +19,7 @@
       "x": 7,
       "y": 19,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -45,7 +45,7 @@
       "x": 10,
       "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_DOWN_AND_UP",
+      "movement_type": "MOVEMENT_TYPE_WANDER_DOWN_AND_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -85,14 +85,14 @@
       "x": 11,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER",
+      "dest_warp_id": 1
     },
     {
       "x": 11,
       "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P1",
+      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P2",
       "dest_warp_id": 0
     }
   ],

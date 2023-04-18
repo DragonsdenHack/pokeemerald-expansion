@@ -362,6 +362,7 @@ waitmovement 0x0
 msgbox CianwoodCity_Recluta_Texto_1 MSGBOX_AUTOCLOSE
 msgbox CianwoodCity_Recluta_Texto_2 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
 fadescreen 1
 delay 20
 removeobject 6

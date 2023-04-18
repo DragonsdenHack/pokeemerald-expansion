@@ -36,7 +36,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route44_1",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
@@ -62,7 +62,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -186,7 +186,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 67,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "165",
+      "script": "Route44_Combate_Mirto"
+    }
   ],
   "bg_events": [
     {

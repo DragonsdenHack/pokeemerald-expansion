@@ -62,3 +62,26 @@ LavenderTown_PokemonCenter_Text_5:
 .string "¡Sois despreciables!\n"
 .string "¡Robando no vais a llegar a\l"
 .string "ninguna parte!$"
+
+Curacion_Centros_Pokemon_Johto::
+lock
+msgbox Curacion_Centros_Pokemon_Johto_Texto_1 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+msgbox Curacion_Centros_Pokemon_Johto_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Curacion_Centros_Pokemon_Johto_Texto_1:
+.string "Bienvenido al CENTRO de curación\n"
+	.string "exprés...$"
+
+Curacion_Centros_Pokemon_Johto_Texto_2:
+.string "¡Y listo!\n"
+	.string "¡Todos tus POKÉMON están en plena\l"
+	.string "forma de nuevo!$"
+
+

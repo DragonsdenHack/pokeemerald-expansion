@@ -8240,7 +8240,7 @@
       "height": 21,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_2F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_2F/map.bin"
@@ -8252,7 +8252,7 @@
       "height": 16,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_3F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_3F/map.bin"
@@ -8264,7 +8264,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_4F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_4F/map.bin"
@@ -8276,7 +8276,7 @@
       "height": 7,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_5F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_5F/map.bin"
@@ -8312,7 +8312,7 @@
       "height": 10,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_8F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_8F/map.bin"
@@ -8324,7 +8324,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_9F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_9F/map.bin"
@@ -8336,7 +8336,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_10F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_10F/map.bin"
@@ -8360,7 +8360,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_12F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_12F/map.bin"
@@ -8372,7 +8372,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_13F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_13F/map.bin"
@@ -8384,7 +8384,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_14F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_14F/map.bin"
@@ -8396,7 +8396,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_15F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_15F/map.bin"
@@ -8408,7 +8408,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_16F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_16F/map.bin"
@@ -8420,7 +8420,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_17F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_17F/map.bin"
@@ -8432,7 +8432,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_18F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_18F/map.bin"
@@ -8444,7 +8444,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_19F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_19F/map.bin"
@@ -8456,7 +8456,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_20F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_20F/map.bin"
@@ -8468,7 +8468,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_21F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_21F/map.bin"
@@ -8480,7 +8480,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_22F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_22F/map.bin"
@@ -8492,7 +8492,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_23F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_23F/map.bin"
@@ -8516,7 +8516,7 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_25F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_25F/map.bin"
@@ -8528,7 +8528,7 @@
       "height": 8,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SsAnne_26F/border.bin",
       "blockdata_filepath": "data/layouts/SsAnne_26F/map.bin"

@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DragonsdenHouse1",
-      "flag": "0"
+      "script": "DragonsdenHouse_Anciano_Trampilla",
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANCIANOJOHTO",
@@ -97,7 +97,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 6,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Dragonsden_Warp"
+    }
   ],
   "bg_events": [
 

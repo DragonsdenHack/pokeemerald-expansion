@@ -129,7 +129,7 @@
       "x": 48,
       "y": 24,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -194,10 +194,10 @@
     },
     {
       "x": 52,
-      "y": 10,
+      "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_BLACKTHORN_CITY",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ICE_PATH",
+      "dest_warp_id": 3
     },
     {
       "x": 21,
@@ -236,7 +236,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 3,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "172",
+      "script": "BlackthornCity_Anciano_Paso"
+    }
   ],
   "bg_events": [
     {
