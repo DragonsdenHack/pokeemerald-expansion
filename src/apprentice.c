@@ -32,7 +32,7 @@
 
 /* Summary of Apprentice, because (as of writing at least) it's not very well documented online
  *
- * ## Basic info
+ * ## Basic infos
  * In the Battle Tower lobby there is an NPC which asks to be taught by the player
  * They can be any 1 of 16 NPC trainers, each with their own name, class, and set of possible party species
  * They ask the player a series of questions once per day, and eventually depart the lobby to be replaced by a new Apprentice
