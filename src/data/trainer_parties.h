@@ -18249,7 +18249,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia1[] = {
     {
     .iv = 0,
     .lvl = 95,
-    .species = SPECIES_KABUTOPS_SKEL,
+    .species = SPECIES_KABUTOPS,
     .heldItem = ITEM_ASSAULT_VEST,
     .moves = {MOVE_ROCK_SLIDE, MOVE_CROSS_CHOP, MOVE_POLTERGEIST, MOVE_CROSS_POISON}
     }
@@ -18266,7 +18266,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia2[] = {
     {
     .iv = 0,
     .lvl = 95,
-    .species = SPECIES_AERODACTYL_SKEL,
+    .species = SPECIES_AERODACTYL,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_ROCK_SLIDE, MOVE_POLTERGEIST, MOVE_EARTHQUAKE, MOVE_NONE}
     }
@@ -18283,7 +18283,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia3[] = {
     {
     .iv = 0,
     .lvl = 95,
-    .species = SPECIES_MAROGHOST,
+    .species = SPECIES_MAROWAK,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_SHADOW_SNEAK, MOVE_ICE_PUNCH, MOVE_POLTERGEIST, MOVE_BONEMERANG}
     }
@@ -18300,7 +18300,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia4[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_GHOST,
+    .species = SPECIES_GENGAR,
     .heldItem = ITEM_LIFE_ORB,
     .moves = {MOVE_SHADOW_BALL, MOVE_HYPER_VOICE, MOVE_PSYCHIC, MOVE_AURA_SPHERE}
     }
@@ -18362,7 +18362,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia6[] = {
     {
     .iv = 0,
     .lvl = 95,
-    .species = SPECIES_TRXATU,
+    .species = SPECIES_XATU,
     .heldItem = ITEM_CHOICE_SPECS,
     .moves = {MOVE_AEROBLAST, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }

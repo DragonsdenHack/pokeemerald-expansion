@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KYUREMORIGEN",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LANETTES_HOUSE_LANETTE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YVELTAL",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ZEUS",
@@ -77,7 +77,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_JASON",
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ZEKROM",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_111_DESERT_FOSSIL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_RESHIRAM",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_111_DESERT_FOSSIL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KYUREM",
@@ -129,7 +129,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_GRANITE_CAVE_STEVEN"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_119_RIVAL"
     }
   ],
   "warp_events": [
@@ -175,7 +175,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LOW_TV_FLAGS",
+      "var_value": "6",
+      "script": "RuinsOfAlph_S4_Combate_Zeus"
+    }
   ],
   "bg_events": [
 

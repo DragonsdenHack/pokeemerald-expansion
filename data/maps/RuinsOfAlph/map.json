@@ -198,6 +198,51 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "174",
       "script": "RuinsOfAlph_Terremoto"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 46,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "174",
+      "script": "RuinsOfAlph_Terremoto"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 46,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "174",
+      "script": "RuinsOfAlph_Terremoto"
+    },
+    {
+      "type": "trigger",
+      "x": 10,
+      "y": 46,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "174",
+      "script": "RuinsOfAlph_Terremoto"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 46,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "174",
+      "script": "RuinsOfAlph_Terremoto"
+    },
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 46,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "174",
+      "script": "RuinsOfAlph_Terremoto"
     }
   ],
   "bg_events": [

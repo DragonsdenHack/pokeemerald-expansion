@@ -2,32 +2,434 @@ RuinsOfAlph_S5_MapScripts::
 	.byte 0
 
 RuinsOfAlph_S5_Final::
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_1
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_2
+waitmovement 0x0
+applymovement 3, RuinsOfAlph_S5_Final_Move_3
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, RuinsOfAlph_S5_Final_Move_4
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 3, RuinsOfAlph_S5_Final_Move_1
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_6 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S5_Final_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
+playse SE_BALL
+addobject 12
+delay 20
+playse SE_BALL_OPEN
+setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
+removeobject 12
+delay 15
+clearflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
+addobject 10
+playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox RuinsOfAlph_S5_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 40
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+playse SE_M_DETECT
+waitse
+playfanfare MUS_AWAKEN_LEGEND
+fadescreen 3
+setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 4
+setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
+removeobject 10
+playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 40
+playse SE_M_TELEPORT
+delay 30
+playse SE_RG_POKE_JUMP_SUCCESS
+delay 40
+playse SE_M_MOONLIGHT
+delay 40
+playse SE_M_CHARGE
+delay 40
+playse SE_M_COSMIC_POWER
+delay 40
+playse SE_BANG
+delay 40
+playse SE_M_EXPLOSION
+delay 40
+playse SE_RG_POKE_JUMP_SUCCESS
+delay 40
+fadescreen 2
+delay 15
+playmoncry SPECIES_NECROZMA, CRY_MODE_ENCOUNTER
+waitmoncry
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S5_Final_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+delay 40
+playse MUS_B_PYRAMID_TOP
 msgbox RuinsOfAlph_S5_Final_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 3, RuinsOfAlph_S5_Final_Move_1
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_9 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_6
+applymovement 3, RuinsOfAlph_S5_Final_Move_6
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S5_Final_Move_7
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+playmoncry SPECIES_RESHIRAM, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 40
 msgbox RuinsOfAlph_S5_Final_Texto_10 MSGBOX_AUTOCLOSE
+delay 40
 msgbox RuinsOfAlph_S5_Final_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_RESHIRAM, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+playse SE_M_DETECT
+waitse
+playfanfare MUS_AWAKEN_LEGEND
+fadescreen 3
+delay 15
+removeobject 1
+addobject 2
+clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
+playmoncry SPECIES_RESHIRAM, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 10
+playse SE_THUNDER
+delay 20
+playse SE_M_FLAMETHROWER
+delay 20
+playse SE_M_BLIZZARD2
+delay 20
+playse SE_M_STAT_INCREASE
+delay 40
+playse SE_M_CHARGE
+delay 40
+playse SE_M_HYPER_BEAM
+delay 40
+playse SE_M_HYPER_BEAM2
+delay 40
+playse SE_M_EXPLOSION
+delay 40
+applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
+waitmovement 0x0
+fadescreen 2
+delay 15
+playmoncry SPECIES_KYUREM, CRY_MODE_ENCOUNTER
+waitmoncry
+playse MUS_B_PYRAMID_TOP
+delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_8
+applymovement 3, RuinsOfAlph_S5_Final_Move_8
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S5_Final_Move_9
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox RuinsOfAlph_S5_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+playse SE_M_DETECT
+waitse
+playfanfare MUS_AWAKEN_LEGEND
+fadescreen 3
+delay 15
+removeobject 7
+addobject 5
+setflag FLAG_HIDE_ROUTE_119_RIVAL
+clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 10
+playse SE_M_RAZOR_WIND
+delay 30
+playse SE_RG_POKE_JUMP_SUCCESS
+delay 40
+playse SE_RG_DEOXYS_MOVE
+delay 40
+playse SE_M_MOONLIGHT
+delay 20
+playse SE_M_SOLAR_BEAM
+delay 30
+playse SE_USE_ITEM
+delay 40
+fadescreen 2
+delay 15
+applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
+waitmovement 0x0
+fadescreen 2
+delay 15
+playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse MUS_B_PYRAMID_TOP
+delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_14 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_10
+applymovement 3, RuinsOfAlph_S5_Final_Move_10
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S5_Final_Move_11
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+playmoncry SPECIES_NECROZMA, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 40
 msgbox RuinsOfAlph_S5_Final_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_NECROZMA, CRY_MODE_ENCOUNTER
+waitmoncry
+applymovement 4, RuinsOfAlph_S5_Final_Move_12
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, RuinsOfAlph_S5_Final_Move_13
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 3, RuinsOfAlph_S5_Final_Move_3
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 3, RuinsOfAlph_S5_Final_Move_10
+waitmovement 0x0
+delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
 msgbox RuinsOfAlph_S5_Final_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 3, RuinsOfAlph_S5_Final_Move_1
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 3, RuinsOfAlph_S5_Final_Move_4
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_21 MSGBOX_AUTOCLOSE
-msgbox RuinsOfAlph_S5_Final_Texto_22 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+setflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
+setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+trainerbattle_no_intro TRAINER_ANDRA_1, RuinsOfAlph_S5_Final_Texto_22
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_10
+waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_23 MSGBOX_AUTOCLOSE
+delay 30
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_14
+applymovement 3, RuinsOfAlph_S5_Final_Move_14
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_10
+applymovement 3, RuinsOfAlph_S5_Final_Move_10
+waitmovement 0x0
+delay 15
+playmoncry SPECIES_NECROZMA, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox RuinsOfAlph_S5_Final_Texto_24 MSGBOX_AUTOCLOSE
+delay 55
 msgbox RuinsOfAlph_S5_Final_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 3, RuinsOfAlph_S5_Final_Move_4
+waitmovement 0x0
+delay 20
 msgbox RuinsOfAlph_S5_Final_Texto_26 MSGBOX_AUTOCLOSE
+delay 15
+playmoncry SPECIES_NECROZMA, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox RuinsOfAlph_S5_Final_Texto_24 MSGBOX_AUTOCLOSE
+delay 20
+setflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
+fadescreen 3
+delay 20
+playse SE_M_GUST
+delay 40
+playse SE_M_RAZOR_WIND
+delay 40
+removeobject 53
+playse SE_M_CHARGE
+delay 40
+playse SE_M_SOLAR_BEAM
+delay 40
+playse SE_BREAKABLE_DOOR
+delay 40
+removeobject 3
+addobject 12
+fadescreen 2
+delay 60
+playse SE_M_EMBER
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
+removeobject 12
+delay 40
+playse SE_THUNDER
+setmetatile 13, 10, 0x334, TRUE
+special DrawWholeMapView
+delay 10
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_14
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_4
+waitmovement 0x0
+setvar VAR_UNUSED_0x40F7, 177
 release
 end
 
@@ -316,3 +718,46 @@ step_end
 RuinsOfAlph_S5_Final_Move_14:
 emote_exclamation_mark
 step_end
+
+
+RuinsOfAlph_S5_Combate_Unown::
+playmoncry SPECIES_UNOWN, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 20
+msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_1 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
+waitmoncry
+trainerbattle_no_intro TRAINER_ANDRA_1, RuinsOfAlph_S5_Combate_Unown_Texto_2
+playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
+waitmoncry
+setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
+removeobject 6
+playse SE_M_EMBER
+msgbox RuinsOfAlph_S5_Combate_Unown_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+RuinsOfAlph_S5_Combate_Unown_Texto_2:
+.string "... ... ... ...$"
+
+RuinsOfAlph_S5_Combate_Unown_Texto_3:
+.string "(La energía misteriosa se ha\n"
+	.string "esfumado)$"
+
+
+RuinsOfAlph_S5_Mensaje_Esencia::
+lockall
+braillemessage RuinsOfAlph_S5_Mensaje_Esencia_Texto_1
+delay 40
+fadescreenspeed FADE_TO_BLACK, 12
+delay 30
+warpsilent MAP_RUINS_OF_ALPH_S3, 14, 10
+release
+end
+
+
+RuinsOfAlph_S5_Mensaje_Esencia_Texto_1:
+brailleformat 5, 0, 25, 19, 8, 3
+	.braille "AHORA\n"
+	.braille "ERES JOHTO.$"
+

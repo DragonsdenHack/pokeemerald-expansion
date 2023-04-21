@@ -150,8 +150,8 @@
       "x": 38,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S3",
-      "dest_warp_id": 1
+      "dest_map": "MAP_RUINS_OF_ALPH",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

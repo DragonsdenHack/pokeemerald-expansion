@@ -1,5 +1,10 @@
 Ecruteak_TinTowerRoof_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Ecruteak_TinTowerRoof_OnFrame
 	.byte 0
+
+Ecruteak_TinTowerRoof_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 178, Ecruteak_TinTowerRoof_Final
+	.2byte 0
 
 
 Ecruteak_TinTowerRoof_Zeus::
@@ -525,4 +530,104 @@ step_end
 
 Ecruteak_TinTowerRoof_Zeus_Move_25:
 walk_in_place_left
+step_end
+
+
+Ecruteak_TinTowerRoof_Final::
+lockall
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+addobject 2
+applymovement 2, Ecruteak_TinTowerRoof_Final_Move_1
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_TinTowerRoof_Final_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+clearflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+fadescreen 1
+playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
+waitmoncry
+addobject 1
+delay 30
+fadescreen 0
+applymovement 1, Ecruteak_TinTowerRoof_Final_Move_3
+waitmovement 0x0
+delay 15
+msgbox Ecruteak_TinTowerRoof_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ecruteak_TinTowerRoof_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 2, Ecruteak_TinTowerRoof_Final_Move_4
+waitmovement 0x0
+msgbox Ecruteak_TinTowerRoof_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+fadescreen 1
+playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 30
+playse SE_M_FLY
+waitse
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+removeobject 2
+removeobject 1
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 179
+delay 28
+setvar VAR_TEMP_1, 1
+call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
+checkplayergender
+goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
+release
+end
+
+Ecruteak_TinTowerRoof_Final_Texto_1:
+.string "M.JADEN: Una vez más, has vuelto.$"
+
+Ecruteak_TinTowerRoof_Final_Texto_2:
+.string "...$"
+
+Ecruteak_TinTowerRoof_Final_Texto_3:
+.string "Parece que JOHTO está en buenas\n"
+	.string "manos.$"
+
+Ecruteak_TinTowerRoof_Final_Move_1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_in_place_up
+step_end
+
+Ecruteak_TinTowerRoof_Final_Move_2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end
+
+Ecruteak_TinTowerRoof_Final_Move_3:
+delay_4
+delay_4
+walk_in_place_fast_down
+walk_in_place_fast_down
+walk_in_place_fast_down
+walk_in_place_fast_down
+step_end
+
+Ecruteak_TinTowerRoof_Final_Move_4:
+face_down
 step_end

@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_1",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_2",
-      "flag": "0"
+      "script": "RuinsOfAlphS1_Unown_Despues",
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MUERTO",
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_3",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_4",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_5",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_6",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -102,7 +102,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_7",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -115,7 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_8",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -128,7 +128,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_9",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -141,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_10",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     },
     {
@@ -154,8 +154,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_11",
-      "flag": "0"
+      "script": "RuinsOfAlph_S1_Combate_UnownDorado",
+      "flag": "FLAG_HIDE_ROUTE_111_PLAYER_DESCENT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANDRAADMIN",
@@ -167,8 +167,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "RuinsOfAlph_Warpsilent",
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ATLAS",
@@ -180,7 +180,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_13",
+      "script": "RuinsOfAlphS1_Atlas_Piedra",
       "flag": "0"
     },
     {
@@ -188,12 +188,12 @@
       "x": 13,
       "y": 50,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_14",
+      "script": "RuinsOfAlphS1_Andra",
       "flag": "0"
     },
     {
@@ -207,7 +207,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MUERTO",
@@ -219,7 +219,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinsOfAlphS1_16",
+      "script": "RuinsOfAlphS1_Rocket_Cadaver",
       "flag": "0"
     }
   ],
@@ -235,12 +235,227 @@
       "x": 20,
       "y": 112,
       "elevation": 0,
-      "dest_map": "MAP_RUINS_OF_ALPH_S1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_RUINS_OF_ALPH_CAVE4",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 92,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LOW_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Kabutops"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 92,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LOW_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Kabutops"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 57,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_STEP_COUNTER",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Marowak"
+    },
+    {
+      "type": "trigger",
+      "x": 21,
+      "y": 57,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_STEP_COUNTER",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Marowak"
+    },
+    {
+      "type": "trigger",
+      "x": 48,
+      "y": 103,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_HIGH_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Aerodactyl"
+    },
+    {
+      "type": "trigger",
+      "x": 48,
+      "y": 104,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_HIGH_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Aerodactyl"
+    },
+    {
+      "type": "trigger",
+      "x": 48,
+      "y": 105,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_HIGH_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Aerodactyl"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 36,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_HIGH_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Aerodactyl"
+    },
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 36,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_HIGH_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Aerodactyl"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FE",
+      "var_value": "5",
+      "script": "RuinsOfAlph_S1_Combate_Xatu"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FE",
+      "var_value": "5",
+      "script": "RuinsOfAlph_S1_Combate_Xatu"
+    },
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FE",
+      "var_value": "5",
+      "script": "RuinsOfAlph_S1_Combate_Xatu"
+    },
+    {
+      "type": "trigger",
+      "x": 37,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LAST_ITEM_USED",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Jirachi"
+    },
+    {
+      "type": "trigger",
+      "x": 37,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LAST_ITEM_USED",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Jirachi"
+    },
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LAST_ITEM_USED",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Jirachi"
+    },
+    {
+      "type": "trigger",
+      "x": 34,
+      "y": 27,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LAST_ITEM_USED",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Jirachi"
+    },
+    {
+      "type": "trigger",
+      "x": 46,
+      "y": 26,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LOW_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Kabutops"
+    },
+    {
+      "type": "trigger",
+      "x": 47,
+      "y": 26,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_LOW_TV_FLAGS",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Kabutops"
+    },
+    {
+      "type": "trigger",
+      "x": 49,
+      "y": 54,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FE",
+      "var_value": "5",
+      "script": "RuinsOfAlph_S1_Combate_Xatu"
+    },
+    {
+      "type": "trigger",
+      "x": 49,
+      "y": 55,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FE",
+      "var_value": "5",
+      "script": "RuinsOfAlph_S1_Combate_Xatu"
+    },
+    {
+      "type": "trigger",
+      "x": 49,
+      "y": 56,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FE",
+      "var_value": "5",
+      "script": "RuinsOfAlph_S1_Combate_Xatu"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 77,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_STEP_COUNTER",
+      "var_value": "1",
+      "script": "NULL"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 76,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_STEP_COUNTER",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Marowak"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 75,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_STEP_COUNTER",
+      "var_value": "1",
+      "script": "RuinsOfAlph_S1_Combate_Marowak"
+    }
   ],
   "bg_events": [
 

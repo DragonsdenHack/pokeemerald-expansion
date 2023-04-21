@@ -5072,7 +5072,7 @@
       "height": 28,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/NavelRock_Top/border.bin",
       "blockdata_filepath": "data/layouts/NavelRock_Top/map.bin"
@@ -11900,7 +11900,7 @@
       "height": 37,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
+      "primary_tileset": "gTileset_Building_fr",
       "secondary_tileset": "gTileset_tanoby_ruins",
       "border_filepath": "data/layouts/RuinsOfAlph_S4/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_S4/map.bin"
@@ -11912,7 +11912,7 @@
       "height": 50,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
+      "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/RuinsOfAlph_S5/border.bin",
       "blockdata_filepath": "data/layouts/RuinsOfAlph_S5/map.bin"
