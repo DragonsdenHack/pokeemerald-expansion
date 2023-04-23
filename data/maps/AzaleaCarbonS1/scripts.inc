@@ -1,5 +1,10 @@
 AzaleaCarbonS1_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, AzaleaCarbonS1_OnFrame
 	.byte 0
+
+AzaleaCarbonS1_OnFrame:
+map_script_2 VAR_TEMP_0, 0, AzaleaCarbonS1_Seteo_Metatiles
+	.2byte 0
 
 AzaleaCarbonS1_2::
 lock     
@@ -87,7 +92,7 @@ AzaleaCarbonS1_Text_13:
 .string "Es extraño… El viejo horno que\n"
 .string "destruimos para volver a reformar este\l"
 .string "lugar y modernizarlo…fabricaba un\l"
-.string "CARBÓN de mayor calidad que de\l"
+.string "CARBÓN de mayor calidad que el de\l"
 .string "nuestros hornos industriales. ¿Nos\l"
 .string "hemos perdido algo?$"
 
@@ -161,13 +166,57 @@ AzaleaCarbonS1_Text_6:
 	.string "contrataron.$"
 
 AzaleaCarbonS1_Primer_Combate::
+lock
+faceplayer
+compare VAR_FORTREE_CITY_STATE, 3
+goto_if_gt AzaleaCarbonS1_Primer_Combate_2
+delay 10
+playse SE_PIN
+delay 10
+applymovement 18, AzaleaCarbonS1_Primer_Combate_Move_1
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_1 MSGBOX_AUTOCLOSE
+delay 30
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_2 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_ROCKET
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_3 MSGBOX_AUTOCLOSE
-msgbox AzaleaCarbonS1_Primer_Combate_Texto_4 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_108, AzaleaCarbonS1_Primer_Combate_Texto_4 
+msgbox AzaleaCarbonS1_Primer_Combate_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 18, AzaleaCarbonS1_Primer_Combate_Move_2
+waitmovement 0x0
+delay 20
+playse SE_PC_ON
+setmetatile 29, 49, 0x63, TRUE
+delay 20
+playse SE_PC_LOGIN
+delay 20
+playse SE_UNLOCK
+setmetatile 14, 36, 0x29B, FALSE
+setmetatile 14, 35, 0x29B, FALSE
+special DrawWholeMapView
+delay 20
+applymovement 18, AzaleaCarbonS1_Primer_Combate_Move_3
+waitmovement 0x0
+msgbox AzaleaCarbonS1_Primer_Combate_Texto_6 MSGBOX_AUTOCLOSE
+setvar VAR_FORTREE_CITY_STATE, 4
+release
+end
+
+AzaleaCarbonS1_Primer_Combate_2::
 msgbox AzaleaCarbonS1_Primer_Combate_Texto_5 MSGBOX_AUTOCLOSE
 release
 end
+
+AzaleaCarbonS1_Primer_Combate_Move_1:
+emote_exclamation_mark
+step_end
+
+AzaleaCarbonS1_Primer_Combate_Move_2:
+face_up
+step_end
+
+AzaleaCarbonS1_Primer_Combate_Move_3:
+face_player
+step_end
 
 AzaleaCarbonS1_Primer_Combate_Texto_1:
 .string "¿Quién va?$"
@@ -177,8 +226,8 @@ AzaleaCarbonS1_Primer_Combate_Texto_2:
 	.string "¿no?$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_3:
-.string "Te echaré de aquí inmediatamente, igual\n"
-	.string "que se echan a los POKÉMON SALVAJES.$"
+.string "Te echaré de aquí inmediatamente, ¡igual\n"
+	.string "que se echan a los POKÉMON SALVAJES!$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_4:
 .string "¿De dónde sales tú?$"
@@ -189,18 +238,62 @@ AzaleaCarbonS1_Primer_Combate_Texto_5:
 	.string "con todas las materias primas\l"
 	.string "necesarias.$"
 
+AzaleaCarbonS1_Primer_Combate_Texto_6:
+.string "Acabo de desactivar el muro que impide\n"
+	.string "seguir más al norte. A nuestro JEFE le\l"
+	.string "gusta la gente activa como tú, tal vez\l"
+	.string "si llegas hasta él acabes cambiando de\l"
+	.string "parecer respecto a este lugar.$"
+
 AzaleaCarbonS1_Segundo_Combate::
+lock
+faceplayer
+compare VAR_FORTREE_CITY_STATE, 4
+goto_if_gt AzaleaCarbonS1_Segundo_Combate_2
+delay 10
+playse SE_PIN
+delay 10
+applymovement 17, AzaleaCarbonS1_Primer_Combate_Move_1
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 17, AzaleaCarbonS1_Primer_Combate_Move_1
+waitmovement 0x0
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_2 MSGBOX_AUTOCLOSE
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+playse MUS_RG_ENCOUNTER_ROCKET
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_5 MSGBOX_AUTOCLOSE
-msgbox AzaleaCarbonS1_Segundo_Combate_Texto_6 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_109, AzaleaCarbonS1_Segundo_Combate_Texto_6
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_7 MSGBOX_AUTOCLOSE
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_8 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS1_Segundo_Combate_Texto_8.1 MSGBOX_AUTOCLOSE
+applymovement 17, AzaleaCarbonS1_Primer_Combate_Move_2
+waitmovement 0x0
+delay 20
+playse SE_PC_ON
+setmetatile 28, 17, 0x63, TRUE
+delay 20
+playse SE_PC_LOGIN
+delay 20
+playse SE_UNLOCK
+setmetatile 24, 8, 0x29B, FALSE
+setmetatile 24, 7, 0x29B, FALSE
+special DrawWholeMapView
+setvar VAR_FORTREE_CITY_STATE, 5
+release
+end
+
+AzaleaCarbonS1_Segundo_Combate_2::
 msgbox AzaleaCarbonS1_Segundo_Combate_Texto_9 MSGBOX_AUTOCLOSE
 release
 end
+
+AzaleaCarbonS1_Segundo_Combate_Texto_8.1:
+.string "Y por ello no tengo el menor problema en\n"
+	.string "abrirte las puertas.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_1:
 .string "¿De dónde sales tú? Ya tenemos\n"
@@ -221,7 +314,7 @@ AzaleaCarbonS1_Segundo_Combate_Texto_4:
 .string "… …$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_5:
-.string "Así que te niegas. Te diré algo, aunque\n"
+.string "Así que te niegas. Te diré algo: aunque\n"
 	.string "quisieras tomarte la justicia por tu\l"
 	.string "mano, no podrías. ¡Dudo mucho que tus\l"
 	.string "POKÉMON comprados sean de tan buena\l"
@@ -240,11 +333,40 @@ AzaleaCarbonS1_Segundo_Combate_Texto_7:
 AzaleaCarbonS1_Segundo_Combate_Texto_8:
 .string "Pero me da igual de dónde los hayas\n"
 	.string "sacado, ni con todos los LEGENDARIOS\l"
-	.string "del mundo puedes arrebatarnos este\l"
-	.string "lugar.$"
+	.string "del mundo puedes arrebatarnos la\l"
+	.string "propiedad de esta fábrica.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_9:
 .string "A lo máximo a lo que puedes aspirar es a\n"
 	.string "llegar a un acuerdo, eso si mi JEFE lo\l"
 	.string "estima conveniente.$"
+
+
+AzaleaCarbonS1_Seteo_Metatiles::
+lock
+compare VAR_FORTREE_CITY_STATE, 4
+goto_if_gt AzaleaCarbonS1_Seteo_Metatiles_3
+compare VAR_FORTREE_CITY_STATE, 3
+goto_if_gt AzaleaCarbonS1_Seteo_Metatiles_2
+setvar VAR_TEMP_0, 1
+release
+end
+
+AzaleaCarbonS1_Seteo_Metatiles_2::
+setmetatile 14, 36, 0x29B, FALSE
+setmetatile 14, 35, 0x29B, FALSE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+AzaleaCarbonS1_Seteo_Metatiles_3::
+setmetatile 24, 8, 0x29B, FALSE
+setmetatile 24, 7, 0x29B, FALSE
+setmetatile 14, 36, 0x29B, FALSE
+setmetatile 14, 35, 0x29B, FALSE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
 

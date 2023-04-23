@@ -12,7 +12,7 @@ PokemonLeague_LancesRoom_OnResume::
 	end
 
 PokemonLeague_LancesRoom_OnLoad::
-	call_if_set FLAG_TEMP_5, PokemonLeague_LancesRoom_EventScript_SetDoorOpen
+	call_if_set FLAG_TEMP_5, PokemonLeague_LancesRoom_EventScript_SetDoorOpen 
 	call_if_eq VAR_TEMP_0, 1, PokemonLeague_LancesRoom_EventScript_CloseEntry
 	end
 

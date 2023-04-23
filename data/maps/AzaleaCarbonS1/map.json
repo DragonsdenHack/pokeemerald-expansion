@@ -32,7 +32,7 @@
       "x": 24,
       "y": 29,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -45,7 +45,7 @@
       "x": 12,
       "y": 8,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -110,7 +110,7 @@
       "x": 11,
       "y": 24,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -175,7 +175,7 @@
       "x": 18,
       "y": 55,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -225,27 +225,27 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",
       "x": 28,
-      "y": 19,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "AzaleaCarbonS1_Segundo_Combate",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",
       "x": 29,
-      "y": 51,
+      "y": 50,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "AzaleaCarbonS1_Primer_Combate",
       "flag": "0"
     },
     {
@@ -275,11 +275,37 @@
       "y": 61,
       "elevation": 0,
       "dest_map": "MAP_AZALEA_HOUSE1",
-      "dest_warp_id": 1
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 47,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "AzaleaCarbonS1_Seteo_Metatiles"
+    },
+    {
+      "type": "trigger",
+      "x": 34,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "AzaleaCarbonS1_Seteo_Metatiles"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "AzaleaCarbonS1_Seteo_Metatiles"
+    }
   ],
   "bg_events": [
 

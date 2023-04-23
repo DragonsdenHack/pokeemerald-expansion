@@ -23998,7 +23998,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER114[] = {
     .lvl = 90,
     .species = SPECIES_TYRANITAR,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_CRUNCH, MOVE_STONE_EDGE, MOVE_EARTHQUAKE, MOVE_FIRE_BLAST}
     }
 };
 

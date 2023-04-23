@@ -1,5 +1,10 @@
 AzaleaCarbonS2_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, AzaleaCarbonS2_OnFrame
 	.byte 0
+
+AzaleaCarbonS2_OnFrame:
+map_script_2 VAR_TEMP_0, 0, AzaleaCarbonS2_Seteo_Metatiles
+	.2byte 0
 
 AzaleaCarbonS2_3::
 lock     
@@ -69,14 +74,38 @@ AzaleaCarbonS2_EventScript_Obrero3::
 	end
 
 AzaleaCarbonS2_Primer_Combate::
+lock
+faceplayer
+compare VAR_FORTREE_CITY_STATE, 5
+goto_if_gt AzaleaCarbonS2_Primer_Combate_2
 msgbox AzaleaCarbonS2_Primer_Combate_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AzaleaCarbonS2_Primer_Combate_Texto_2 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_ROCKET
 msgbox AzaleaCarbonS2_Primer_Combate_Texto_3 MSGBOX_AUTOCLOSE
-msgbox AzaleaCarbonS2_Primer_Combate_Texto_4 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_113, AzaleaCarbonS2_Primer_Combate_Texto_4
 msgbox AzaleaCarbonS2_Primer_Combate_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 10, AzaleaCarbonS1_Primer_Combate_Move_2
+waitmovement 0x0
+delay 20
+playse SE_PC_ON
+setmetatile 13, 24, 0x63, TRUE
+delay 20
+playse SE_PC_LOGIN
+delay 20
+playse SE_UNLOCK
+setmetatile 15, 16, 0x29B, FALSE
+setmetatile 15, 15, 0x29B, FALSE
+special DrawWholeMapView
+setvar VAR_FORTREE_CITY_STATE, 6
+release
+end
+
+AzaleaCarbonS2_Primer_Combate_2::
 msgbox AzaleaCarbonS2_Primer_Combate_Texto_6 MSGBOX_AUTOCLOSE
 release
 end
+
 
 AzaleaCarbonS2_Primer_Combate_Texto_1:
 .string "Ni un paso más.$"
@@ -104,12 +133,53 @@ AzaleaCarbonS2_Primer_Combate_Texto_6:
 	.string "si te apetece.$"
 
 AzaleaCarbonS2_Segundo_Combate::
+lock
+faceplayer
+compare VAR_FORTREE_CITY_STATE, 6
+goto_if_gt AzaleaCarbonS2_Segundo_Combate_2
+playse MUS_RG_ENCOUNTER_ROCKET
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_1 MSGBOX_AUTOCLOSE
-msgbox AzaleaCarbonS2_Segundo_Combate_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_114, AzaleaCarbonS2_Segundo_Combate_Texto_2
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_3 MSGBOX_AUTOCLOSE
+msgbox AzaleaCarbonS2_Segundo_Combate_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 11, AzaleaCarbonS2_Segundo_Combate_Move_2
+waitmovement 0x0
+delay 20
+playse SE_PC_ON
+setmetatile 16, 3, 0x63, TRUE
+delay 20
+playse SE_PC_LOGIN
+delay 20
+playse SE_UNLOCK
+setmetatile 34, 12, 0x29B, FALSE
+setmetatile 34, 11, 0x29B, FALSE
+setmetatile 35, 12, 0x29F, FALSE
+setmetatile 35, 11, 0x29F, FALSE
+special DrawWholeMapView
+delay 20
+applymovement 11, AzaleaCarbonS2_Segundo_Combate_Move_1
+waitmovement 0x0
+msgbox AzaleaCarbonS2_Segundo_Combate_Texto_5 MSGBOX_AUTOCLOSE
+setvar VAR_FORTREE_CITY_STATE, 7
+release
+end
+
+AzaleaCarbonS2_Segundo_Combate_2::
 msgbox AzaleaCarbonS2_Segundo_Combate_Texto_4 MSGBOX_AUTOCLOSE
 release
 end
+
+AzaleaCarbonS2_Segundo_Combate_Move_2:
+face_up
+step_end
+
+AzaleaCarbonS2_Segundo_Combate_Move_1:
+face_player
+step_end
+
+AzaleaCarbonS2_Segundo_Combate_Texto_5:
+.string "Si quieres ver a mi JEFE, adelante. Eres\n"
+	.string "inofensivo para nosotros.$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_1:
 .string "Aunque nos derrotes a todos, no nos\n"
@@ -133,31 +203,137 @@ AzaleaCarbonS2_Segundo_Combate_Texto_4:
 .string "Gente como tú, o esos ancianos, estáis\n"
 	.string "condenados a la extinción.$"
 
-AzaleaCarbonS2_Combate_Final::
+AzaleaCarbonS2_Combate_Final_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, AzaleaCarbonS2_Combate_Final_Move_1
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, AzaleaCarbonS2_Combate_Final_Move_2
+waitmovement 0x0
+goto AzaleaCarbonS2_Combate_Final
+
+AzaleaCarbonS2_Combate_Final_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, AzaleaCarbonS2_Combate_Final_Move_1
+waitmovement 0x0
+msgbox AzaleaCarbonS2_Combate_Final_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, AzaleaCarbonS2_Combate_Final_Move_3
+waitmovement 0x0
+goto AzaleaCarbonS2_Combate_Final
+
+AzaleaCarbonS2_Combate_Final::
 msgbox AzaleaCarbonS2_Combate_Final_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AzaleaCarbonS2_Combate_Final_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_4
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_5
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Segundo_Combate_Move_2
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AzaleaCarbonS2_Combate_Final_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, AzaleaCarbonS2_Segundo_Combate_Move_6
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_4
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_5
+waitmovement 0x0
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox AzaleaCarbonS2_Combate_Final_Texto_10 MSGBOX_AUTOCLOSE
-msgbox AzaleaCarbonS2_Combate_Final_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_7
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_TRAINER_115, AzaleaCarbonS2_Combate_Final_Texto_11
 msgbox AzaleaCarbonS2_Combate_Final_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
 msgbox AzaleaCarbonS2_Combate_Final_Texto_13 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_BREAKABLE_DOOR
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_8
+waitmovement 0x0
+delay 5
 msgbox AzaleaCarbonS2_Combate_Final_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Segundo_Combate_Move_2
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_4
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_5
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_17 MSGBOX_AUTOCLOSE
 msgbox AzaleaCarbonS2_Combate_Final_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, AzaleaCarbonS2_Combate_Final_Move_7
+waitmovement 0x0
 msgbox AzaleaCarbonS2_Combate_Final_Texto_19 MSGBOX_AUTOCLOSE
 msgbox AzaleaCarbonS2_Combate_Final_Texto_20 MSGBOX_AUTOCLOSE
 msgbox AzaleaCarbonS2_Combate_Final_Texto_21 MSGBOX_AUTOCLOSE
-msgbox AzaleaCarbonS2_Combate_Final_Texto_22 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox AzaleaCarbonS2_Combate_Final_Texto_22 MSGBOX_DEFAULT
+givemon SPECIES_LITTEN, 15, ITEM_NONE
+waitfanfare
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW
+setvar VAR_FORTREE_CITY_STATE, 8
 release
 end
+
+AzaleaCarbonS2_Jefe_Despues_Combate::
+lock
+faceplayer
+msgbox AzaleaCarbonS2_Jefe_Despues_Combate_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+AzaleaCarbonS2_Jefe_Despues_Combate_Texto_1:
+.string "¿Crees que los ancianos olvidarán esto\n"
+	.string "y me permitirán ver ese POKÉMON tan\l"
+	.string "especial?$"
+
+
+AzaleaCarbonS2_Combate_Final_Move_8:
+lock_facing_direction
+walk_up
+walk_up
+unlock_facing_direction
+step_end
+
+AzaleaCarbonS2_Combate_Final_Move_7:
+walk_slow_down
+walk_slow_down
+step_end
+
+AzaleaCarbonS2_Segundo_Combate_Move_6:
+face_down
+step_end
+
+AzaleaCarbonS2_Combate_Final_Move_4:
+face_right
+step_end
+
+AzaleaCarbonS2_Combate_Final_Move_5:
+walk_in_place_down
+step_end
+
+AzaleaCarbonS2_Combate_Final_Move_1:
+walk_in_place_up
+step_end
+
+AzaleaCarbonS2_Combate_Final_Move_2:
+walk_right
+walk_up
+step_end
+
+AzaleaCarbonS2_Combate_Final_Move_3:
+walk_up
+step_end
 
 AzaleaCarbonS2_Combate_Final_Texto_1:
 .string "A pesar de toda la seguridad, te las has\n"
@@ -266,3 +442,33 @@ AzaleaCarbonS2_Combate_Final_Texto_21:
 
 AzaleaCarbonS2_Combate_Final_Texto_22:
 .string "¡OBTUVISTE UN LITTEN AL NV.15!$"
+
+
+AzaleaCarbonS2_Seteo_Metatiles::
+compare VAR_FORTREE_CITY_STATE, 6
+goto_if_gt AzaleaCarbonS2_Seteo_Metatiles_3
+compare VAR_FORTREE_CITY_STATE, 5
+goto_if_gt AzaleaCarbonS2_Seteo_Metatiles_2
+setvar VAR_TEMP_0, 1
+release
+end
+
+AzaleaCarbonS2_Seteo_Metatiles_2::
+setmetatile 15, 16, 0x29B, FALSE
+setmetatile 15, 15, 0x29B, FALSE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+AzaleaCarbonS2_Seteo_Metatiles_3::
+setmetatile 34, 12, 0x29B, FALSE
+setmetatile 34, 11, 0x29B, FALSE
+setmetatile 35, 12, 0x29F, FALSE
+setmetatile 35, 11, 0x29F, FALSE
+setmetatile 15, 16, 0x29B, FALSE
+setmetatile 15, 15, 0x29B, FALSE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end

@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "AzaleaHouse1_1",
-      "flag": "0"
+      "script": "Azalea_House1_Anciano",
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_OLD_WOMAN2",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "AzaleaHouse1_2",
-      "flag": "0"
+      "script": "Azalea_House1_Anciana",
+      "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_DOMADORJOHTO",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Azalea_House1_Primer_Empresario",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
@@ -64,7 +64,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Azalea_House1_Segundo_Empresario",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE"
     }
   ],
   "warp_events": [
@@ -76,17 +76,31 @@
       "dest_warp_id": 2
     },
     {
-      "x": 2,
-      "y": 1,
+      "x": 3,
+      "y": 0,
       "elevation": 0,
       "dest_map": "MAP_AZALEA_CARBON_S1",
       "dest_warp_id": 1
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_AZALEA_HOUSE1",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
 
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Azalea_House1_Activacion_Sotano"
+    }
   ]
 }

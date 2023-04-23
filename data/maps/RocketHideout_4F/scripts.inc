@@ -16,6 +16,223 @@ map_script_2 VAR_UNUSED_0x40F7, 58, RocketHideout_4F_Escena_Castigo_Reclutas
 RocketHideout4F_1::
 end
 
+RocketHideout4F_Dialogos_Giovanni::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 167
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda
+compare VAR_UNUSED_0x40F7, 116
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto
+compare VAR_UNUSED_0x40F7, 112
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak
+compare VAR_UNUSED_0x40F7, 106
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera
+compare VAR_UNUSED_0x40F7, 101
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph
+compare VAR_UNUSED_0x40F7, 92
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga
+compare VAR_UNUSED_0x40F7, 94
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas
+compare VAR_UNUSED_0x40F7, 78
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios
+compare VAR_UNUSED_0x40F7, 71
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph
+compare VAR_UNUSED_0x40F7, 62
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves
+compare VAR_UNUSED_0x40F7, 51
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda
+compare VAR_UNUSED_0x40F7, 43
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLavanda
+compare VAR_UNUSED_0x40F7, 38
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda_Texto_1:
+.string "Vamos a desentrañar de una vez por\n"
+	.string "todas el misterio del POKÉMON ESENCIA,\l"
+	.string "una vez descubierto, nada nos impedirá\l"
+	.string "convertir KANTO y JOHTO en las\l"
+	.string "potencias del MUNDO POKÉMON.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1:
+.string "La región de JOHTO es la de mayor\n"
+	.string "historia y tradición que existe en\l"
+	.string "el mundo conocido, es indudable\l"
+	.string "que hay algo...espiritual en ese\l"
+	.string "lugar.\l"
+	.string "Y aunque tal vez nunca podamos\l"
+	.string "llegar a comprenderlo claramente,\l"
+	.string "no podemos ignorar su poder.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1:
+.string "La LIGA POKÉMON se ha mantenido\n"
+	.string "infranqueable desde la guerra, pero el\l"
+	.string "no contar con oposición alguna también\l"
+	.string "les ha debilitado. LANCE confía en la\l"
+	.string "superioridad de sus POKÉMON en cuanto\l"
+	.string "STATS BASE, tú derrotaste a las AVES\l"
+	.string "SAGRADAS, sabes de primera mano que\l"
+	.string "eso no lo es todo en un combate.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak_Texto_1:
+.string "Ve a la MANSIÓN POKÉMON, {PLAYER}, y\n"
+	.string "demuéstrale a OAK cómo pelea un\l"
+	.string "ENTRENADOR en sintonía con los suyos.$"
+
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1:
+.string "Tal vez esa entrada secreta esté a las\n"
+	.string "afueras de PUEBLO LAVANDA, ¿has\l"
+	.string "mirado por el sur, en RUTA 12?$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1:
+.string "Habla con la recepcionista de SILPH,\n"
+	.string "ella te mostrará la gran biblioteca\l"
+	.string "privada que tienen en el sótano. Según\l"
+	.string "me ha dicho el PRESIDENTE, los datos\l"
+	.string "sobre ese POKÉMON ESENCIA están en el\l"
+	.string "S3, en la última sala.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
+.string "Relájate y disfruta de las islas\n"
+	.string "{PLAYER}. Hay mucho por hacer allí, si\l"
+	.string "sabes adonde ir, tal vez si visitas a\l"
+	.string "ATLAS en nuestro cuartel él te muestre\l"
+	.string "algunos de sus secretos, conoce mejor\l"
+	.string "que nadie el ARCHI7.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1:
+.string "Puedes enfrentar los gimnasios en el\n"
+	.string "orden que prefieras, {PLAYER}, pero\l"
+	.string "mi recomendación es que sigas el orden\l"
+	.string "tradicional. Igualmente, el GIMNASIO\l"
+	.string "CANELA está cerrado actualmente,\l"
+	.string "habrá que esperar a que ese canalla de\l"
+	.string "BLAINE lo reabra, recuerda que una vez\l"
+	.string "obtenidas las 7 primeras medallas, aún\l"
+	.string "queda nuestro propio GIMNASIO de\l"
+	.string "CIUDAD VERDE.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1:
+.string "Confío en ti, {PLAYER}. La seguridad\n"
+	.string "de SILPH tiene fama de ser implacable,\l"
+	.string "pero jamás se han enfrentado a\l"
+	.string "entrenadores como ANDRA o tú mismo.\l"
+	.string "¡Ve a SILPH y demuéstrales cómo pelea\l"
+	.string "un ROCKET de verdad!$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1:
+.string "Localizamos un ARTICUNO en ISLAS\n"
+	.string "ESPUMA, para llegar hasta ahí deberás\l"
+	.string "primero cruzar todas las rutas 12, 13,\l"
+	.string "14 y 15, al sur de PUEBLO LAVANDA, y\l"
+	.string "después el mar de CIUDAD FUCSIA. No te\l"
+	.string "confíes {PLAYER}, mi consejo es que\l"
+	.string "uses todo el largo camino hasta\l"
+	.string "ARTICUNO como entrenamiento, hace\l"
+	.string "falta algo más que saber combatir para\l"
+	.string "derrotar a un POKÉMON SAGRADO.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_BaseProfunda_Texto_1:
+.string "GIOVANNI: Así que crees que estoy\n"
+	.string "siendo ineficiente y no doy buen\l"
+	.string "ejemplo estando aquí sentado sin\l"
+	.string "aparentemente hacer nada, a\l"
+	.string "diferencia del resto de ejecutivos\l"
+	.string "que trabajan con todo tipo de\l"
+	.string "tecnología.\l"
+	.string "Te diré algo chico, cuando ya has\l"
+	.string "visto lo que yo he visto llega un\l"
+	.string "punto en que tu propio pensamiento\l"
+	.string "interno es mucho más poderoso y\l"
+	.string "valioso que cualquier información\l"
+	.string "que puedas encontrar ahí fuera.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLavanda::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLavanda_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLavanda_Texto_1:
+.string "La reunión con FUJI es de vital\n"
+	.string "importancia para nosotros {PLAYER}.\l"
+	.string "Una vez en TORRE POKÉMON, AZUL se\l"
+	.string "encargará de asegurar los pisos\l"
+	.string "inferiores, mientras tú harás guardia\l"
+	.string "en los superiores y avisarás a PROTÓN\l"
+	.string "ante cualquier inconveniente.$"
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan_Texto_1:
+.string "¿Y bien? Quiero ese KANGASKHAN fuera\n"
+	.string "del TÚNEL ROCA. Podrás llegar por los\l"
+	.string "subterráneos del este de AZULONA,\l"
+	.string "ellos te llevarán a PUEBLO LAVANDA, una\l"
+	.string "vez ahí el TÚNEL ROCA está justo al\l"
+	.string "norte. Recuerda, no quiero que entres\l"
+	.string "en TORRE POKÉMON, tenemos planes ahí.$"
+
+
 
 
 RocketHideout4F_3::

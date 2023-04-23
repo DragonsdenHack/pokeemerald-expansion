@@ -50,6 +50,7 @@ msgbox Olivine_Boat4_Combate_Capitan_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 1, Olivine_Boat4_Combate_Capitan_Move_3
 waitmovement 0x0
 msgbox Olivine_Boat4_Combate_Capitan_Texto_12 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
 setvar VAR_UNUSED_0x40F7, 147
 release
 end
