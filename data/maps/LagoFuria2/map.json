@@ -84,7 +84,24 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 33,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_MAUVILLE_CITY_STATE",
+      "var_value": "3",
+      "script": "LagoFuria_S2_Combate_Taaban"
+    },
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_MAUVILLE_CITY_STATE",
+      "var_value": "3",
+      "script": "LagoFuria_S2_Combate_Taaban"
+    }
   ],
   "bg_events": [
 

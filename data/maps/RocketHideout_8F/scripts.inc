@@ -3267,37 +3267,178 @@ walk_right
 step_end
 
 RocketHideout_8F_Mision_Lago_Furia::
+lock
+clearflag FLAG_HIDE_ROUTE_103_RIVAL
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+addobject 1
+addobject 6
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_2
+waitmovement 0x0
+playse SE_PIN
+applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_1
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_3 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_4 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_4
+applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_7 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_8 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
+delay 20
+playse SE_SHOP
+addmoney 2000000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_8 MSGBOX_DEFAULT
+waitfanfare
+hidemoneybox
+delay 40
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_10 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_11 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
+waitmovement 0x0
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_11 MSGBOX_DEFAULT
+givemon SPECIES_LUGIA, 60, ITEM_LUM_BERRY
+waitfanfare
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_12 MSGBOX_DEFAULT
+givemon SPECIES_HO_OH, 60, ITEM_LUM_BERRY
+waitfanfare
+applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_13 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_4
+waitmovement 0x0
+delay 20
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_7
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_8
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_9
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_19 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_20 MSGBOX_AUTOCLOSE
+delay 20
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_20 MSGBOX_DEFAULT
+waitfanfare
+playse SE_PIN
+applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_11
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_11
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_6
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_22 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_24 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Lago_Furia_Move_10
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_27 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, RocketHideout_8F_Mision_Lago_Furia_Move_11
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_28 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Lago_Furia_Move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_29 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_103_RIVAL
+fadescreen 1
+delay 20
+removeobject 6
+fadescreen 0
+clearflag FLAG_RECEIVED_SHOAL_SHELL_1
+setvar VAR_VERDANTURF_TOWN_STATE, 1
+setvar VAR_PACIFIDLOG_TOWN_STATE, 1
+setvar VAR_MAUVILLE_CITY_STATE, 1
+clearflag FLAG_RECEIVED_SHOAL_SALT_4
+setvar VAR_UNUSED_0x40F7, 180
+msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_30 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq IcePath_Llamada_Giovanni_No
+warpsilent MAP_ROCKET_HIDEOUT_JOHTO_P2, 9, 9
 release
 end
+
+RocketHideout_8F_Mision_Lago_Furia_Texto_30:
+.string "¿Quieres ir a tu despacho en JOHTO para\n"
+	.string "ver los documentos sobre las nuevas\l"
+	.string "misiones?$"
+
+RocketHideout_8F_Mision_Lago_Furia_Move_11:
+emote_exclamation_mark
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_10:
+walk_up
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_9:
+walk_down
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_8:
+walk_slow_left
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_7:
+walk_slow_right
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_6:
+walk_in_place_right
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_5:
+face_left
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_4:
+face_up
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_3:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_2:
+face_right
+step_end
+
+RocketHideout_8F_Mision_Lago_Furia_Move_1:
+face_down
+emote_exclamation_mark
+step_end
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_1:
 .string "GIOVANNI: ¡{PLAYER}! ¡Eres\n"
@@ -3323,12 +3464,6 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_3:
 	.string "batirles aún siendo un combate\l"
 	.string "POKÉMON. Tú eras el único que podía\l"
 	.string "hacerlo, {PLAYER}...$"
-
-RocketHideout_8F_Mision_Lago_Furia_Texto_4:
-.string "ANDRA: ¿Me ha llamado, GIOVANNI?$"
-
-RocketHideout_8F_Mision_Lago_Furia_Texto_5:
-.string "GIOVANNI: Así es, ANDRA.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_6:
 .string "Como ya es habitual, después de cada\n"
@@ -3357,10 +3492,10 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_10:
 	.string "{PLAYER}.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_11:
-.string "¡¡OBTUVISTE UN LUGIA AL NV.40!!$"
+.string "¡¡OBTUVISTE UN LUGIA AL NV.60!!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_12:
-.string "¡¡OBTUVISTE UN HO-OH AL NV.40!!$"
+.string "¡¡OBTUVISTE UN HO-OH AL NV.60!!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_13:
 .string "ANDRA: No creas que no sabré cómo\n"
@@ -3457,7 +3592,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_26:
 RocketHideout_8F_Mision_Lago_Furia_Texto_27:
 .string "El orden en el que decidáis hacerlas es\n"
 	.string "cosa vuestra, aunque me gustaría que\l"
-	.string "indagárais los máximo posible en cada\l"
+	.string "indagárais lo máximo posible en cada\l"
 	.string "una de ellas. Una vez investigado lo\l"
 	.string "suficiente, regresad a mi despacho.$"
 

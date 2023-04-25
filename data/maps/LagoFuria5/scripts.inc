@@ -2,38 +2,232 @@ LagoFuria5_MapScripts::
 	.byte 0
 
 EventoLagoFuria5_Combate_Final::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LagoFuria_S3_Combates_Cientificos_Move_15
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_1
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox EventoLagoFuria5_Combate_Final_Texto_2 MSGBOX_AUTOCLOSE
 msgbox EventoLagoFuria5_Combate_Final_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_2
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_3
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_5 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LagoFuria_S3_Combates_Cientificos_Move_16
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_PIN
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_5
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_6
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_13
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_13
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_9 MSGBOX_AUTOCLOSE
-msgbox EventoLagoFuria5_Combate_Final_Texto_10 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, EventoLagoFuria5_Combate_Final_Texto_10
 msgbox EventoLagoFuria5_Combate_Final_Texto_11 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_2
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_12 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_9
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_9
+waitmovement 0x0
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+delay 20
+playse SE_M_WATERFALL
+clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+addobject 4
+delay 20
+playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+waitmoncry
+applymovement 4, EventoLagoFuria5_Combate_Final_Move_10
+waitmovement 0x0
+playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+waitmoncry
 msgbox EventoLagoFuria5_Combate_Final_Texto_13 MSGBOX_AUTOCLOSE
-msgbox EventoLagoFuria5_Combate_Final_Texto_14 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, EventoLagoFuria5_Combate_Final_Texto_14
+delay 10
+playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_DIVE
+setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+removeobject 4
 msgbox EventoLagoFuria5_Combate_Final_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
 msgbox EventoLagoFuria5_Combate_Final_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_3
 msgbox EventoLagoFuria5_Combate_Final_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_11
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_18 MSGBOX_AUTOCLOSE
 msgbox EventoLagoFuria5_Combate_Final_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 2, EventoLagoFuria5_Combate_Final_Move_4
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_20 MSGBOX_AUTOCLOSE
 msgbox EventoLagoFuria5_Combate_Final_Texto_21 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 2
+fadescreen 0
+delay 10
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_12
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_11
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_23 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_11
+waitmovement 0x0
+delay 20
 msgbox EventoLagoFuria5_Combate_Final_Texto_24 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_1
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, EventoLagoFuria5_Combate_Final_Move_3
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_26 MSGBOX_AUTOCLOSE
+delay 20
 msgbox EventoLagoFuria5_Combate_Final_Texto_27 MSGBOX_AUTOCLOSE
+applymovement 3, EventoLagoFuria5_Combate_Final_Move_13
+waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_28 MSGBOX_AUTOCLOSE
-msgbox EventoLagoFuria5_Combate_Final_Texto_29 MSGBOX_AUTOCLOSE
-msgbox EventoLagoFuria5_Combate_Final_Texto_30 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox EventoLagoFuria5_Combate_Final_Texto_29 MSGBOX_DEFAULT
+giveegg SPECIES_TOTODILE
+waitfanfare
+setvar VAR_MAUVILLE_CITY_STATE, 8
+addvar VAR_UNUSED_0x40F7, 1
+clearflag FLAG_HIDE_FALLORBOR_POKEMON_CENTER_LANETTE
+msgbox EventoLagoFuria5_Combate_Final_Texto_30 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventoLagoFuria5_Combate_Final_No
+warpsilent MAP_LAKEOF_RAGE, 61, 51
 release
 end
+
+EventoLagoFuria5_Combate_Final_No::
+setflag FLAG_HIDE_RUSTURF_TUNNEL_BRINEY
+fadescreen 1
+delay 20
+removeobject 3
+fadescreen 0
+release
+end
+
+LagoFuria_S3_Combates_Cientificos_Move_16:
+walk_up
+walk_up
+walk_up
+step_end
+
+LagoFuria_S3_Combates_Cientificos_Move_15:
+walk_down
+walk_down
+walk_down
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_13:
+walk_in_place_right
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_12:
+walk_down
+walk_right
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_11:
+face_down
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_10:
+walk_slow_up
+walk_slow_up
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_9:
+emote_exclamation_mark
+face_down
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_8:
+walk_in_place_up
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_7:
+face_right
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_6:
+walk_down
+walk_down
+walk_down
+walk_in_place_left
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_5:
+face_right
+emote_exclamation_mark
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_4:
+face_up
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_3:
+face_left
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_2:
+emote_exclamation_mark
+step_end
+
+EventoLagoFuria5_Combate_Final_Move_1:
+walk_in_place_down
+step_end
 
 EventoLagoFuria5_Combate_Final_Texto_1:
 .string "PESCADOR: Te lo dije, aquí no hay nada.$"
@@ -150,7 +344,7 @@ EventoLagoFuria5_Combate_Final_Texto_21:
 
 EventoLagoFuria5_Combate_Final_Texto_22:
 .string "PESCADOR: Me has salvado.\n"
-	.string "¿{PLAYER}?. Te debo un gran favor,\l"
+	.string "¿{PLAYER}? Te debo un gran favor,\l"
 	.string "quién sabe lo que esos tipos me\l"
 	.string "hubieran hecho una vez obtenido lo que\l"
 	.string "querían.$"

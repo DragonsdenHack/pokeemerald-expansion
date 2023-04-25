@@ -66,12 +66,20 @@
       "x": 9,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_LAGO_FURIA1",
-      "dest_warp_id": 0
+      "dest_map": "MAP_LAKEOF_RAGE_HOUSE1",
+      "dest_warp_id": 4
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 51,
+      "elevation": 0,
+      "var": "VAR_MAUVILLE_CITY_STATE",
+      "var_value": "2",
+      "script": "LagoFuria_S1_Combate_Taaban"
+    }
   ],
   "bg_events": [
 

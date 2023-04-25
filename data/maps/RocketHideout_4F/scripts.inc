@@ -19,6 +19,8 @@ end
 RocketHideout4F_Dialogos_Giovanni::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 178
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC
 compare VAR_UNUSED_0x40F7, 167
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda
 compare VAR_UNUSED_0x40F7, 116
@@ -47,6 +49,20 @@ compare VAR_UNUSED_0x40F7, 38
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan
 release
 end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC_Texto_1:
+.string "Disfruta de JOHTO {PLAYER}, exprime\n"
+	.string "al máximo todos sus rincones y llega\l"
+	.string "hasta donde nadie más ha llegado. Algún\l"
+	.string "día echarás la vista atrás y te darás\l"
+	.string "cuenta de todo lo que has visto y\l"
+	.string "vivido. Toda historia tiene su fin, pero\l"
+	.string "esta... aún no.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda_Texto_1 MSGBOX_AUTOCLOSE

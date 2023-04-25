@@ -84,7 +84,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 5,
+      "y": 23,
+      "elevation": 0,
+      "var": "VAR_MAUVILLE_CITY_STATE",
+      "var_value": "6",
+      "script": "LagoFuria_S4_Combate_Ikary_Final"
+    }
   ],
   "bg_events": [
 

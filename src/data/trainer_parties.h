@@ -20521,19 +20521,19 @@ static const struct TrainerMonNoItemCustomMoves sParty_MayLinkPlaceholder[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_CIENTIFICO1[] = {
     {
     .iv = 0,
-    .lvl = 92,
+    .lvl = 90,
     .species = SPECIES_AGGRON,
     .moves = {MOVE_IRON_TAIL, MOVE_STONE_EDGE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
-    .lvl = 0,
+    .lvl = 91,
     .species = SPECIES_CRADILY,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_EARTH_POWER, MOVE_GIGA_DRAIN, MOVE_ANCIENT_POWER, MOVE_NONE}
     },
     {
     .iv = 0,
-    .lvl = 92,
+    .lvl = 91,
     .species = SPECIES_MANECTRIC,
     .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_SIGNAL_BEAM, MOVE_NONE}
     },
@@ -20562,7 +20562,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_CRIMINAL[] = {
     .iv = 0,
     .lvl = 91,
     .species = SPECIES_CLAYDOL,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ANCIENT_POWER, MOVE_PSYCHIC, MOVE_LIGHT_SCREEN, MOVE_REFLECT}
     },
     {
     .iv = 0,
@@ -24406,36 +24406,84 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER131[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER132[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 95,
+    .species = SPECIES_SLOWBRO,
+    .moves = {MOVE_PSYCHIC, MOVE_SURF, MOVE_ICE_BEAM, MOVE_FIRE_BLAST}
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_CLOYSTER,
+    .moves = {MOVE_ICICLE_SPEAR, MOVE_LIQUIDATION, MOVE_ROCK_BLAST, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_GASTLY,
+    .moves = {MOVE_POLTERGEIST, MOVE_ROCK_BLAST, MOVE_ICICLE_SPEAR, MOVE_LIQUIDATION}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER133[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 95,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_WATERFALL, MOVE_SPIKES, MOVE_AQUA_JET, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_KINGLER,
+    .moves = {MOVE_LIQUIDATION, MOVE_ROCK_SLIDE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_CRUNCH, MOVE_GUNK_SHOT, MOVE_LIQUIDATION, MOVE_NONE}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER134[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 95,
+    .species = SPECIES_KABUTOPS,
+    .moves = {MOVE_ROCK_SLIDE, MOVE_LIQUIDATION, MOVE_AQUA_JET, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_GYARADOS,
+    .moves = {MOVE_OUTRAGE, MOVE_AQUA_TAIL, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_PSYCHIC_FANGS, MOVE_CLOSE_COMBAT}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER135[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 97,
+    .species = SPECIES_QWILFISH,
+    .moves = {MOVE_GUNK_SHOT, MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_GASTLY,
+    .moves = {MOVE_ROCK_BLAST, MOVE_POLTERGEIST, MOVE_LIQUIDATION, MOVE_ICICLE_SPEAR}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_SHARPEDO,
+    .moves = {MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_PSYCHIC_FANGS, MOVE_CLOSE_COMBAT}
     }
 };
 

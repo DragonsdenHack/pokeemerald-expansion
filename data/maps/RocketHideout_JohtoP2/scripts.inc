@@ -160,3 +160,84 @@ RocketHideoutJohtoP2_Obtencion_Regis_Texto_5:
 RocketHideoutJohtoP2_Obtencion_Piedra_Rocket::
 release
 end
+
+RocketHideoutJohtoP2_Documento_Lago::
+msgbox RocketHideoutJohtoP2_Documento_Lago_Texto_1 MSGBOX_SIGN
+msgbox RocketHideoutJohtoP2_Documento_Lago_Texto_2 MSGBOX_SIGN
+msgbox RocketHideoutJohtoP2_Documento_Lago_Texto_3 MSGBOX_SIGN
+release
+end
+
+RocketHideoutJohtoP2_Documento_Lago_Texto_1:
+.string "MISIÓN LAGO DE LA FURIA$"
+
+RocketHideoutJohtoP2_Documento_Lago_Texto_2:
+.string "Información: PUEBLO CAOBA siempre\n"
+	.string "mantuvo la leyenda de un enorme\l"
+	.string "monstruo que habitaba en el interior\l"
+	.string "del ahora llamado LAGO DE LA FURIA. Las\l"
+	.string "descripciones más antiguas no\l"
+	.string "coinciden con GYARADOS. El propio modo\l"
+	.string "en el que sus habitantes se refieren al\l"
+	.string "lago <LAGO DE IKARY> sugiere la\l"
+	.string "existencia de criaturas que\l"
+	.string "desconocemos, en lo más profundo del\l"
+	.string "lugar.$"
+
+RocketHideoutJohtoP2_Documento_Lago_Texto_3:
+.string "¿Qué hacer?: Hablar con los pescadores\n"
+	.string "que habitan en las casas del lago.$"
+
+
+RocketHideoutJohtoP2_Documento_Ruta47::
+msgbox RocketHideoutJohtoP2_Documento_Ruta47_Texto_1 MSGBOX_SIGN
+msgbox RocketHideoutJohtoP2_Documento_Ruta47_Texto_2 MSGBOX_SIGN
+msgbox RocketHideoutJohtoP2_Documento_Ruta47_Texto_3 MSGBOX_SIGN
+release
+end
+
+RocketHideoutJohtoP2_Documento_Ruta47_Texto_1:
+.string "MISIÓN RUTA 47$"
+
+RocketHideoutJohtoP2_Documento_Ruta47_Texto_2:
+.string "Información: Las leyendas hablan de un\n"
+	.string "enorme paso rocoso, que conduce a un\l"
+	.string "lugar paradisíaco, al oeste de\l"
+	.string "ORQUÍDEA. La <RUTA 47>, jamás\l"
+	.string "catalogada por los mapas\l"
+	.string "convencionales, pero sí guardada en\l"
+	.string "secreto por unos pocos.$"
+
+RocketHideoutJohtoP2_Documento_Ruta47_Texto_3:
+.string "¿Qué hacer?: Hablar con ANÍBAL, LÍDER\n"
+	.string "de ORQUÍDEA, e investigar la zona\l"
+	.string "rocosa al noroeste de la ciudad.$"
+
+
+RocketHideoutJohtoP2_Documento_ViasTren::
+msgbox RocketHideoutJohtoP2_Documento_ViasTren_Texto_1 MSGBOX_SIGN
+msgbox RocketHideoutJohtoP2_Documento_ViasTren_Texto_2 MSGBOX_SIGN
+msgbox RocketHideoutJohtoP2_Documento_ViasTren_Texto_3 MSGBOX_SIGN
+release
+end
+
+RocketHideoutJohtoP2_Documento_ViasTren_Texto_1:
+.string "MISIÓN VÍAS DE TREN$"
+
+RocketHideoutJohtoP2_Documento_ViasTren_Texto_2:
+.string "Información: Varios trabajadores han\n"
+	.string "reportado la aparición de un poderoso\l"
+	.string "POKÉMON, al parecer atraído por el\l"
+	.string "magnetismo que generan las vías. Dicho\l"
+	.string "POKÉMON ha causado ya varios daños a\l"
+	.string "la infraestructura, hasta ahora nadie\l"
+	.string "ha podido identificarlo, la principal\l"
+	.string "zona afectada se halla en la frontera\l"
+	.string "entre KANTO y JOHTO.$"
+
+RocketHideoutJohtoP2_Documento_ViasTren_Texto_3:
+.string "¿Qué hacer?: Hablar con los\n"
+	.string "trabajadores de la zona próxima al\l"
+	.string "MT.PLATEADO, y tratar de explorar los\l"
+	.string "alrededores de las vías por esa zona.$"
+

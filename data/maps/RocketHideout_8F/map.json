@@ -197,6 +197,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "167",
       "script": "RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "179",
+      "script": "RocketHideout_8F_Mision_Lago_Furia"
     }
   ],
   "bg_events": [
