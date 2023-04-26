@@ -565,6 +565,11 @@
 #define MUS_UNKNOWN_CHAMBER         628
 #define MUS_GSC_VS_WILD             629
 #define MUS_VS_GIOVANNI             630
+#define MUS_ZEUS_ENCOUNTER			631
+#define MUS_GIOVANNI_ENCOUNTER		632
+#define MUS_VS_BILL					633
+#define MUS_GSC_VS_LEADER			634
+#define MUS_GSC_ROCKET_HIDEOUT		635
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
