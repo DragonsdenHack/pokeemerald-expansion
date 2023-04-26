@@ -581,6 +581,8 @@ gSongTable::
 	song mussaqua 0, 0
 	song mus_gsc_vs_wild 0, 0
 	song mus_vs_giovanni 0, 0
+	song mus_gsc_leader 0, 0
+	song mus_gsc_rocket_hideout 0,0
 	song ph_trap_blend, 2, 2
 	song ph_trap_held, 2, 2
 	song ph_trap_solo, 2, 2
