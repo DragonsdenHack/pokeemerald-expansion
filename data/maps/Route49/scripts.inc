@@ -89,31 +89,162 @@ Route49_Text_7:
 .string "POKÉMON para siempre.$"
 
 Route49_Combate_Andra::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_2
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route49_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 10, Route47_Encuentro_Andra_Move_8
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 10, Route49_Combate_Andra_Move_1
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, Route49_Combate_Andra_Move_2
+applymovement 9, Route49_Combate_Andra_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_3
+waitmovement 0x0
+delay 20
 msgbox Route49_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 9, Route49_Combate_Andra_Move_2
 msgbox Route49_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 9, Route47_Encuentro_Andra_Move_6
+applymovement 10, Route49_Combate_Andra_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_1
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 9, Route49_Combate_Andra_Move_4
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 10, Route49_Combate_Andra_Move_2
+waitmovement 0x0
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_8
+applymovement 10, Route49_Combate_Andra_Move_5
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_BREAKABLE_DOOR
+applymovement 10, Route49_Combate_Andra_Move_6
+waitmovement 0x0
+delay 10
 msgbox Route49_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, Route47_Encuentro_Maestro_Anciano_Move_2
+waitmovement 0x0
+delay 10
 msgbox Route49_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
-msgbox Route49_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, Route49_Combate_Andra_Texto_13
+delay 20
+playse SE_PIN
+applymovement 9, Route49_Combate_Andra_Move_7
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 10, Route49_Combate_Andra_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_1
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_Combate_Andra_Texto_17 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 10, Route49_Combate_Andra_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_7
+applymovement 9, Route49_Combate_Andra_Move_2
+waitmovement 0x0
+delay 15
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 11
+playse SE_EXIT
+waitse
 msgbox Route49_Combate_Andra_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 11, Route47_Encuentro_Andra_Move_8
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 9, Route47_Encuentro_Maestro_Anciano_Move_2
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route49_Combate_Andra_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 9, Route47_Encuentro_Andra_Move_6
+applymovement 11, Route47_Encuentro_Andra_Move_6
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 11, Route49_Combate_Andra_Move_1
+waitmovement 0x0
+playse SE_DOOR
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 11
+delay 15
+applymovement 10, Route49_Combate_Andra_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_8
+waitmovement 0x0
 msgbox Route49_Combate_Andra_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 10, Route49_Combate_Andra_Move_9
+applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_10
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
+removeobject 10
+playse SE_DOOR
+delay 15
+setvar VAR_VERDANTURF_TOWN_STATE, 9
 release
 end
+
+
+Route49_Combate_Andra_Move_10:
+lock_facing_direction
+walk_right
+unlock_facing_direction
+step_end
+
+Route49_Combate_Andra_Move_9:
+walk_right
+walk_up
+step_end
+
+Route49_Combate_Andra_Move_8:
+walk_in_place_up
+step_end
+
+Route49_Combate_Andra_Move_7:
+emote_exclamation_mark
+step_end
+
+Route49_Combate_Andra_Move_6:
+walk_fast_right
+face_up
+step_end
+
+Route49_Combate_Andra_Move_5:
+walk_slow_left
+step_end
+
+Route49_Combate_Andra_Move_4:
+walk_in_place_down
+step_end
+
+Route49_Combate_Andra_Move_3:
+walk_slow_left
+walk_slow_left
+step_end
+
+Route49_Combate_Andra_Move_2:
+face_right
+emote_exclamation_mark
+step_end
+
+Route49_Combate_Andra_Move_1:
+face_up
+step_end
 
 Route49_Combate_Andra_Texto_1:
 .string "PENSADOR: Es…imposible, el último en\n"
@@ -226,3 +357,53 @@ Route49_Combate_Andra_Texto_22:
 Route49_Combate_Andra_Texto_23:
 .string "ANDRA: Veremos de que es capaz ahora\n"
 	.string "tu maestro.$"
+
+
+Route49_Barrera::
+lock
+applymovement 9, Route47_Encuentro_Andra_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_8
+waitmovement 0x0
+msgbox Route49_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_2
+waitmovement 0x0
+setvar VAR_VERDANTURF_TOWN_STATE, 7
+release
+end
+
+Route49_Barrera_2::
+lock
+applymovement 9, Route47_Encuentro_Andra_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_8
+waitmovement 0x0
+msgbox Route49_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Mision_Kangaskhan_Move_2
+waitmovement 0x0
+release
+end
+
+Route49_Barrera_Texto_1:
+.string "Seas quien seas, no puedes entrar a\n"
+	.string "este lugar sagrado. Solo obteniendo el\l"
+	.string "objeto dorado en la ruta del norte\l"
+	.string "demostrarás que mereces un lugar aquí.$"
+
+Route49_Protector_Pagoda::
+lock
+faceplayer
+compare VAR_VERDANTURF_TOWN_STATE, 8
+goto_if_gt Route49_Protector_Pagoda_2
+msgbox Route49_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route49_Protector_Pagoda_2::
+msgbox Route49_Protector_Pagoda_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Route49_Protector_Pagoda_Texto_2:
+.string "Mis más sinceras disculpas. Somos muy\n"
+	.string "estrictos con las normas, de lo\l"
+	.string "contrario este lugar no hubiera\l"
+	.string "permanecido tanto tiempo intacto.$"

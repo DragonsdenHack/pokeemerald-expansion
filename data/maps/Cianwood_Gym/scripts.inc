@@ -75,6 +75,10 @@ CianwoodGym_EventScript_Karateka4::
 Cianwood_Gym_Combate_Anibal::
 lock
 faceplayer
+compare VAR_VERDANTURF_TOWN_STATE, 0
+goto_if_gt Cianwood_Gym_Combate_Anibal_3
+compare VAR_UNUSED_0x40F7, 149
+goto_if_gt Cianwood_Gym_Combate_Anibal_2
 compare VAR_UNUSED_0x40F7, 149
 goto_if_gt Cianwood_Gym_Combate_Anibal_2
 msgbox Cianwood_Gym_Combate_Anibal_Texto_1 MSGBOX_NPC
@@ -103,6 +107,92 @@ Cianwood_Gym_Combate_Anibal_2::
 msgbox Cianwood_Gym_Combate_Anibal_Texto_12 MSGBOX_NPC
 release
 end
+
+Cianwood_Gym_Combate_Anibal_3::
+compare VAR_VERDANTURF_TOWN_STATE, 1
+goto_if_gt Cianwood_Gym_Combate_Anibal_4
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, Cianwood_Gym_Combate_Anibal_3_Move_1
+waitmovement 0x0
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, Cianwood_Gym_Combate_Anibal_3_Move_2
+waitmovement 0x0
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, Cianwood_Gym_Combate_Anibal_3_Move_1
+waitmovement 0x0
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, Cianwood_Gym_Combate_Anibal_3_Move_2
+waitmovement 0x0
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_8 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+setvar VAR_VERDANTURF_TOWN_STATE, 2
+release
+end
+
+Cianwood_Gym_Combate_Anibal_3_Move_1:
+face_right
+step_end
+
+Cianwood_Gym_Combate_Anibal_3_Move_2:
+face_player
+step_end
+
+Cianwood_Gym_Combate_Anibal_4::
+msgbox Cianwood_Gym_Combate_Anibal_3_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+Cianwood_Gym_Combate_Anibal_3_Texto_1:
+.string "ANIBAL: ¡Ah, {PLAYER}! ¿Qué te trae\n"
+	.string "de vuelta? Si deseas volver a combatir\l"
+	.string "conmigo, me temo que ya es demasiado\l"
+	.string "tarde.$"
+
+Cianwood_Gym_Combate_Anibal_3_Texto_2:
+.string "Así es… hace unos días liberé a mis\n"
+	.string "POKÉMON, tal y como te dije en nuestra\l"
+	.string "batalla, hace ya casi 1 año…$"
+
+Cianwood_Gym_Combate_Anibal_3_Texto_3:
+.string "En fin, cada cosa tiene su tiempo, ¿no\n"
+	.string "crees? Ahora estoy, humildemente,\l"
+	.string "criando a dos pequeños POLIWAG y\l"
+	.string "MANKEY, sin ninguna pretensión\l"
+	.string "competitiva.$"
+
+Cianwood_Gym_Combate_Anibal_3_Texto_4:
+.string "Entonces, ¿cuál es el motivo de tu\n"
+	.string "visita?$"
+
+Cianwood_Gym_Combate_Anibal_3_Texto_5:
+.string "…$"
+
+Cianwood_Gym_Combate_Anibal_3_Texto_6:
+.string "Mmm, ya veo, lo que me dices es cierto,\n"
+	.string "ese lugar existe. Fue descubierto por\l"
+	.string "los más avezados MONTAÑEROS de esta\l"
+	.string "ciudad. Pero la historia de ese lugar es\l"
+	.string "mucho más antigua.$"
+
+Cianwood_Gym_Combate_Anibal_3_Texto_7:
+.string "En su día yo mismo entré, hace ya\n"
+	.string "décadas, actualmente no sabría\l"
+	.string "decirte el lugar exacto. Sin embargo, sé\l"
+	.string "de alguien que lo conoce a la\l"
+	.string "perfección.$"
+
+Cianwood_Gym_Combate_Anibal_3_Texto_8:
+.string "El habitante de la pequeña casita que\n"
+	.string "hay al norte de la ciudad ha vuelto, él\l"
+	.string "suele visitar la zona. Seguro que\l"
+	.string "estará encantado de acompañarte, a\l"
+	.string "poco que te conozca. ¡Buena suerte\l"
+	.string "{PLAYER}!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_1:
 .string "ANÍBAL: Ah, {PLAYER}, ¿no?\n"

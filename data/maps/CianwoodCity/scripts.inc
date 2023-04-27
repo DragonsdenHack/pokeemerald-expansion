@@ -397,3 +397,87 @@ CianwoodCity_Recluta_Texto_2:
 	.string "asista a la gran reunión como\l"
 	.string "el resto de altos cargos del TEAM\l"
 	.string "ROCKET. Eso es todo, señor.$"
+
+CianwoodCity_Eusine_Camino_Secreto::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, CianwoodCity_Eusine_Camino_Secreto_Move_1
+waitmovement 0x0
+delay 10
+applymovement 13, CianwoodCity_Eusine_Camino_Secreto_Move_2
+waitmovement 0x0
+msgbox CianwoodCity_Eusine_Camino_Secreto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox CianwoodCity_Eusine_Camino_Secreto_Texto_2 MSGBOX_AUTOCLOSE
+setvar VAR_VERDANTURF_TOWN_STATE, 4
+setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2
+fadescreen 1
+delay 20
+removeobject 13
+fadescreen 0
+release
+end
+
+CianwoodCity_Eusine_Camino_Secreto_Move_2:
+face_right
+walk_in_place_left
+step_end
+
+CianwoodCity_Eusine_Camino_Secreto_Move_1:
+walk_down
+walk_down
+walk_down
+walk_in_place_left
+step_end
+
+CianwoodCity_Eusine_Camino_Secreto_Texto_1:
+.string "EUSINE: Observa, esta roca está hueca,\n"
+	.string "detrás de ella hay un estrecho túnel\l"
+	.string "que conduce al interior de la montaña.$"
+
+CianwoodCity_Eusine_Camino_Secreto_Texto_2:
+.string "Una vez pases al otro lado, asegúrate\n"
+	.string "de volver a colocar la roca en su lugar,\l"
+	.string "no queremos que esto se llene de\l"
+	.string "turistas, ¿verdad?$"
+
+
+
+Ruta_47_Activador_Entrada::
+compare VAR_VERDANTURF_TOWN_STATE, 3
+goto_if_gt Ruta_47_Activador_Entrada_Pasa
+release
+end
+
+Ruta_47_Activador_Entrada_Pasa::
+delay 15
+msgbox CuevaTesoro_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, CuevaTesoro_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
+msgbox CuevaTesoro_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+warp MAP_PASS_ROUTE47, 22, 12
+release
+end
+
+Ruta_48_Activador_Entrada::
+compare VAR_VERDANTURF_TOWN_STATE, 3
+goto_if_gt Ruta_48_Activador_Entrada_Pasa
+release
+end
+
+Ruta_48_Activador_Entrada_Pasa::
+delay 15
+msgbox CuevaTesoro_Activador_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, CuevaTesoro_Activador_Entrada_Pasa_Move_1
+waitmovement 0x0
+msgbox CuevaTesoro_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+warp MAP_CIANWOOD_CITY, 3, 20
+release
+end
+

@@ -59,42 +59,265 @@ Route49MazeP4Documento_Text_100:
 	.string "fenómeno por el cual logró esto es todo\l"
 	.string "un misterio.$"
 
-Route49_MazeP4_Combate_Maestro:
+Route49_MazeP4_Combate_Maestro::
+lock
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP4_Combate_Maestro_Move_1
+applymovement OBJ_EVENT_ID_CAMERA, Route49_MazeP4_Combate_Maestro_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+delay 20
+playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+playse SE_FAINT
+delay 20
+msgbox Route49_MazeP4_Combate_Maestro_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_3
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_2 MSGBOX_AUTOCLOSE
 msgbox Route49_MazeP4_Combate_Maestro_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_4 MSGBOX_AUTOCLOSE
 msgbox Route49_MazeP4_Combate_Maestro_Texto_5 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route49_MazeP4_Combate_Maestro_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP4_Combate_Maestro_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_7
+waitmovement 0x0
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_8
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP4_Combate_Maestro_Move_9
+waitmovement 0x0
+delay 30
 msgbox Route49_MazeP4_Combate_Maestro_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_10
+waitmovement 0x0
+delay 15
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_11
+waitmovement 0x0
+delay 15
 msgbox Route49_MazeP4_Combate_Maestro_Texto_8 MSGBOX_AUTOCLOSE
-msgbox Route49_MazeP4_Combate_Maestro_Texto_9 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, Route49_MazeP4_Combate_Maestro_Texto_9
+playse SE_PIN
+applymovement 6, Route49_MazeP4_Combate_Maestro_Move_13
+waitmovement 0x0
+delay 15
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_12
+waitmovement 0x0
+delay 10
+applymovement 6, Route49_MazeP4_Combate_Maestro_Move_10
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_10
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
 msgbox Route49_MazeP4_Combate_Maestro_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_14
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_15
+waitmovement 0x0
+applymovement 6, Route49_MazeP4_Combate_Maestro_Move_4
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_4
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_13 MSGBOX_AUTOCLOSE
 msgbox Route49_MazeP4_Combate_Maestro_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_15 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Route49_MazeP4_Combate_Maestro_Texto_15.1 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_11
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_16 MSGBOX_AUTOCLOSE
 msgbox Route49_MazeP4_Combate_Maestro_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_1
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_4
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_19 MSGBOX_AUTOCLOSE
 msgbox Route49_MazeP4_Combate_Maestro_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_14
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_11
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_22_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_22 MSGBOX_AUTOCLOSE
+delay 20
 msgbox Route49_MazeP4_Combate_Maestro_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_16
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_24 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_13
+applymovement 6, Route49_MazeP4_Combate_Maestro_Move_13
+applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP4_Combate_Maestro_Move_13
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_25 MSGBOX_AUTOCLOSE
+applymovement 6, Route49_MazeP4_Combate_Maestro_Move_17
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_14
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
 msgbox Route49_MazeP4_Combate_Maestro_Texto_28 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, Route49_MazeP4_Combate_Maestro_Move_18
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 6, Route49_MazeP4_Combate_Maestro_Move_19
+applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP4_Combate_Maestro_Move_14
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 6, Route49_MazeP4_Combate_Maestro_Move_20
+waitmovement 0x0
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_21
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_31 MSGBOX_AUTOCLOSE
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_22
+waitmovement 0x0
 msgbox Route49_MazeP4_Combate_Maestro_Texto_32 MSGBOX_AUTOCLOSE
+applymovement 5, Route49_MazeP4_Combate_Maestro_Move_20
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+removeobject 6
+removeobject 5
+setvar VAR_VERDANTURF_TOWN_STATE, 11
 release
 end
+
+Route49_MazeP4_Combate_Maestro_Move_22:
+walk_in_place_right
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_21:
+walk_down
+walk_down
+face_right
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_20:
+walk_down
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_19:
+walk_down
+face_right
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_18:
+walk_slow_left
+face_down
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_17:
+walk_down
+walk_right
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_16:
+walk_slow_right
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_15:
+walk_left
+walk_down
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_14:
+face_left
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_13:
+emote_exclamation_mark
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_12:
+walk_slow_right
+walk_slow_up
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_11:
+walk_in_place_down
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_10:
+face_right
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_9:
+walk_slow_up
+walk_slow_up
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_8:
+walk_left
+walk_up
+walk_up
+walk_in_place_down
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_7:
+emote_exclamation_mark
+face_up
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_6:
+walk_slow_left
+walk_slow_up
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_5:
+walk_slow_right
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_4:
+face_down
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_3:
+face_up
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_2:
+walk_slow_left
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+Route49_MazeP4_Combate_Maestro_Move_1:
+walk_in_place_up
+step_end
+
+Route49_MazeP4_Combate_Maestro_Texto_1.1:
+.string "ANDRA: ... ...$"
 
 Route49_MazeP4_Combate_Maestro_Texto_1:
 .string "G.MAESTRO: Tienes talento, voluntad y\n"
@@ -176,6 +399,9 @@ Route49_MazeP4_Combate_Maestro_Texto_15:
 .string "ANDRA: ¿Sus FUERTE VÍNCULO de\n"
 	.string "JOLTEON, FLAREON y VAPOREON?$"
 
+Route49_MazeP4_Combate_Maestro_Texto_15.1:
+	.string "… …$"
+
 Route49_MazeP4_Combate_Maestro_Texto_16:
 .string "Por eso EUSINE está tan interesado en\n"
 	.string "los PERROS LEGENDARIOS, ¿verdad?$"
@@ -185,7 +411,7 @@ Route49_MazeP4_Combate_Maestro_Texto_17:
 	.string "joven.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_18:
-.string "En, Rai y Sui fueron los primeros\n"
+.string "EN, RAI y SUI fueron los primeros\n"
 	.string "POKÉMON en experimentar un vínculo\l"
 	.string "similar a vuestros CROBAT. Hace más de\l"
 	.string "1000 años, el primer GRAN MAESTRO de\l"
@@ -269,3 +495,18 @@ Route49_MazeP4_Combate_Maestro_Texto_32:
 	.string "justo lo que andábamos buscando.\l"
 	.string "Buena suerte para lo que te reste,\l"
 	.string "{PLAYER}.$"
+
+
+Route49_MazeP4_Dialogo_Anciano::
+lock
+faceplayer
+msgbox Route49_MazeP4_Dialogo_Anciano_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route49_MazeP4_Dialogo_Anciano_Texto_1:
+.string "Lo que tengáis que hacer, hacedlo. Mi\n"
+	.string "tiempo ya pasó, no me opondré a los\l"
+	.string "nuevos cambios. Espero que EUSINE\l"
+	.string "pueda ayudaros en vuestro propósito,\l"
+	.string "señal será de que es puro.$"

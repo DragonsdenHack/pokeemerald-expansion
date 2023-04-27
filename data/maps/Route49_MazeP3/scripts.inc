@@ -166,3 +166,94 @@ Route49MazeP3Documento_Text_102:
 	.string "JOLTEON, cuyo vínculo con su\l"
 	.string "ENTRENADOR alcanzó el equilibrio\l"
 	.string "perfecto.$"
+
+Route49_MazeP3_Encuentro_Eusine::
+lock
+applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, Route49_MazeP3_Encuentro_Eusine_Move_1
+waitmovement 0x0
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_4
+waitmovement 0x0
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_2
+waitmovement 0x0
+delay 15
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_4
+waitmovement 0x0
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route49_MazeP3_Encuentro_Eusine_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_3
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
+removeobject 10
+setvar VAR_VERDANTURF_TOWN_STATE, 10
+release
+end
+
+Route49_MazeP3_Encuentro_Eusine_Move_3:
+walk_up
+step_end
+
+Route49_MazeP3_Encuentro_Eusine_Move_4:
+face_up
+step_end
+
+Route49_MazeP3_Encuentro_Eusine_Move_1:
+face_right
+step_end
+
+Route49_MazeP3_Encuentro_Eusine_Move_2:
+walk_in_place_left
+step_end
+
+Route49_MazeP3_Encuentro_Eusine_Texto_1:
+.string "EUSINE: Tú también has podido llegar\n"
+	.string "hasta arriba.$"
+
+Route49_MazeP3_Encuentro_Eusine_Texto_2:
+.string "Tu amiga está luchando contra nuestro\n"
+	.string "maestro, pero no te preocupes, luchará\l"
+	.string "contigo también.$"
+
+Route49_MazeP3_Encuentro_Eusine_Texto_3:
+.string "Antes no te lo dije, porque pensé que no\n"
+	.string "volveríamos a vernos, al menos no de\l"
+	.string "esta forma, contigo en la cima de este\l"
+	.string "lugar, pero…$"
+
+Route49_MazeP3_Encuentro_Eusine_Texto_4:
+.string "Uno de los motivos por los que estoy\n"
+	.string "tan interesado por los PERROS\l"
+	.string "LEGENDARIOS, es el hecho de que\l"
+	.string "nuestro GRAN MAESTRO cuenta con 3\l"
+	.string "POKÉMON, mucho más antiguos, pero de\l"
+	.string "características similares.$"
+
+Route49_MazeP3_Encuentro_Eusine_Texto_5:
+.string "En las últimas semanas, vio cómo el\n"
+	.string "poder de estos POKÉMON se\l"
+	.string "incrementaba, después de mantenerse\l"
+	.string "inamovible por siglos, en un supuesto\l"
+	.string "estado de perfección.$"
+
+Route49_MazeP3_Encuentro_Eusine_Texto_6:
+.string "Él cree que el terremoto que tuvo lugar\n"
+	.string "en RUINAS ALFA, y lo que ocurrió allí\l"
+	.string "ese día, son el causante de este hecho.$"
+
+Route49_MazeP3_Encuentro_Eusine_Texto_7:
+.string "Vuestra presencia aquí tal vez pueda\n"
+	.string "arrojar algo de luz a estas cuestiones,\l"
+	.string "¿no lo crees?$"
+
+Route49_MazeP3_Encuentro_Eusine_Texto_8:
+.string "Te esperamos arriba.$"
+

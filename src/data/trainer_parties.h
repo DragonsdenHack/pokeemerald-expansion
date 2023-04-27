@@ -24487,21 +24487,22 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER135[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER136[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER136[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 100,
+    .species = SPECIES_GYARADOS,
+    .heldItem = ITEM_LUM_BERRY,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_AQUA_TAIL, MOVE_IRON_TAIL, MOVE_NONE}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER137[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 100,
+    .species = SPECIES_DUNSPARCE,
+    .moves = {MOVE_BUG_BUZZ, MOVE_SCORCHING_SANDS, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER}
     }
 };
 

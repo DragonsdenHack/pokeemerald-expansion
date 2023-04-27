@@ -16,14 +16,14 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
-      "x": 12,
+      "x": 11,
       "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "1",
+      "trainer_sight_or_berry_tree_id": "0",
       "script": "Route49MazeP3_EventScript_Sabio",
       "flag": "0"
     },
@@ -88,14 +88,14 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
+      "trainer_sight_or_berry_tree_id": "0",
       "script": "Route49MazeP3_EventScript_Sabio2",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ADMIN",
-      "x": 19,
-      "y": 7,
+      "x": 30,
+      "y": -4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -128,7 +128,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route49_MazeP3_9",
       "flag": "0"
     },
     {
@@ -136,13 +136,13 @@
       "x": 14,
       "y": 13,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
@@ -201,7 +201,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_VERDANTURF_TOWN_STATE",
+      "var_value": "9",
+      "script": "Route49_MazeP3_Encuentro_Eusine"
+    }
   ],
   "bg_events": [
     {

@@ -69,7 +69,7 @@
       "x": 6,
       "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -79,10 +79,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
-      "x": 28,
-      "y": 22,
+      "x": 23,
+      "y": 19,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -118,10 +118,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANCIANOJOHTO",
-      "x": 44,
-      "y": 23,
+      "x": 39,
+      "y": 28,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -131,8 +131,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANDRAADMIN",
-      "x": 50,
-      "y": 16,
+      "x": 51,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -140,6 +140,19 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
+      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MANCIANO",
+      "x": 28,
+      "y": 14,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route47_Dialogo_Maestro_Anciano",
       "flag": "0"
     }
   ],
@@ -181,7 +194,60 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 45,
+      "y": 16,
+      "elevation": 0,
+      "var": "VAR_VERDANTURF_TOWN_STATE",
+      "var_value": "4",
+      "script": "Route47_Encuentro_Andra_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 45,
+      "y": 17,
+      "elevation": 0,
+      "var": "VAR_VERDANTURF_TOWN_STATE",
+      "var_value": "4",
+      "script": "Route47_Encuentro_Andra_Abajo"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_VERDANTURF_TOWN_STATE",
+      "var_value": "5",
+      "script": "Route47_Encuentro_Maestro_Anciano"
+    },
+    {
+      "type": "trigger",
+      "x": 25,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_VERDANTURF_TOWN_STATE",
+      "var_value": "5",
+      "script": "Route47_Encuentro_Maestro_Anciano"
+    },
+    {
+      "type": "trigger",
+      "x": 31,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route47_Barrera"
+    },
+    {
+      "type": "trigger",
+      "x": 32,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Route47_Barrera"
+    }
   ],
   "bg_events": [
 
