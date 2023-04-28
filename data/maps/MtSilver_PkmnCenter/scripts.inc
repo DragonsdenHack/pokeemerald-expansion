@@ -38,6 +38,8 @@ MtSilverPkmnCenter3::
 lock     
 faceplayer     
 msgbox MtSilver_PkmnCenter_Text_3, MSGBOX_DEFAULT
+compare VAR_SECRET_BASE_LOW_TV_FLAGS, 7
+goto_if_gt MtSilverPkmnCenter3_2
 release     
 end
 
@@ -51,6 +53,49 @@ MtSilver_PkmnCenter_Text_3:
 .string "están en mi memoria y en la de los\l"
 .string "pocos que quedan de aquella\l"
 .string "época…$"
+
+MtSilverPkmnCenter3_2::
+delay 20
+msgbox MtSilverPkmnCenter3_2_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 3, MtSilverPkmnCenter3_2_Move_1
+waitmovement 0x0
+msgbox MtSilverPkmnCenter3_2_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MtSilverPkmnCenter3_2_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MtSilverPkmnCenter3_2_Texto_4 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE
+clearflag FLAG_RECEIVED_SHOAL_SHELL_2
+fadescreen 1
+delay 20
+removeobject 3
+fadescreen 0
+setvar VAR_SECRET_BASE_LOW_TV_FLAGS, 9
+release
+end
+
+MtSilverPkmnCenter3_2_Move_1:
+emote_exclamation_mark
+step_end
+
+MtSilverPkmnCenter3_2_Texto_1:
+.string "… …$"
+
+MtSilverPkmnCenter3_2_Texto_2:
+.string "Entonces tú también sabes del paso más\n"
+	.string "allá de ORQUÍDEA, para ser tan joven\l"
+	.string "estás bien informado.$"
+
+MtSilverPkmnCenter3_2_Texto_3:
+.string "Si ahí está mi mujer, volveré a nuestra\n"
+	.string "pequeña casa, apartada de todo. Nada\l"
+	.string "me retiene aquí.$"
+
+MtSilverPkmnCenter3_2_Texto_4:
+.string "¿Eres {PLAYER}? Gracias, {PLAYER},\n"
+	.string "si decides volver a pasarte por ahí,\l"
+	.string "serás bien recibido.$"
 
 
 

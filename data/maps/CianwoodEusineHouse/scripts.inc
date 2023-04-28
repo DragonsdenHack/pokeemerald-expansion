@@ -150,8 +150,39 @@ delay 20
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_VERDANTURF_TOWN_STATE, 12
 addvar VAR_UNUSED_0x40F7, 1
+compare VAR_UNUSED_0x40F7, 183
+goto_if_eq Misiones_DLC_Fin_Llamada_Giovanni_Eusine
 release
 end
+
+Misiones_DLC_Fin_Llamada_Giovanni_Eusine::
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, Misiones_DLC_Fin_Llamada_Giovanni_Eusine_Move_1
+waitmovement 0x0
+msgbox Misiones_DLC_Fin_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+delay 20
+msgbox IcePath_Llamada_Giovanni_Texto_3 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq IcePath_Llamada_Giovanni_No
+warpsilent MAP_ROCKET_HIDEOUT_5F, 69, 4
+release
+end
+
+Misiones_DLC_Fin_Llamada_Giovanni_Eusine_Move_1:
+walk_fast_left
+walk_fast_left
+step_end
+
+Misiones_DLC_Fin_Llamada_Giovanni_Texto_1:
+.string "GIOVANNI: ¿{PLAYER}? Según los\n"
+	.string "datos recopilados, acabas de completar\l"
+	.string "todas las misiones asignadas. ¿No es\l"
+	.string "así? En ese caso, nos vemos en mi\l"
+	.string "despacho.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_2::
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_9 MSGBOX_AUTOCLOSE

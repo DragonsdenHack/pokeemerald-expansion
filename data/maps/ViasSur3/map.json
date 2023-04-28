@@ -36,7 +36,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_RUSTURF_TUNNEL_PEEKO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -69,7 +69,24 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 101,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_PACIFIDLOG_TOWN_STATE",
+      "var_value": "2",
+      "script": "ViasSur3_Evento_Pegaso_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 101,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_PACIFIDLOG_TOWN_STATE",
+      "var_value": "2",
+      "script": "ViasSur3_Evento_Pegaso_Abajo"
+    }
   ],
   "bg_events": [
 

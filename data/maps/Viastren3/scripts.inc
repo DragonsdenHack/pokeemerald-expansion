@@ -52,3 +52,134 @@ ViasTren3_EventScript_Obrero2::
 	trainerbattle_single TRAINER_GABRIELLE_4, ViasTren3_Text_Obrero2Intro, ViasTren3_Text_Obrero2Defeated
 	msgbox ViasTren3_Text_Obrero2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ViasTren3_Dialogo_Guia::
+lock
+faceplayer
+msgbox ViasTren3_Rastro_Zapdos_Texto_3 MSGBOX_AUTOCLOSE
+release
+end
+
+ViasTren3_Rastro_Zapdos_Up::
+applymovement OBJ_EVENT_ID_PLAYER, ViasTren3_Rastro_Zapdos_Move_1
+applymovement 10, ViasTren3_Rastro_Zapdos_Move_2
+waitmovement 0x0
+goto ViasTren3_Rastro_Zapdos
+
+ViasTren3_Rastro_Zapdos_Down::
+applymovement OBJ_EVENT_ID_PLAYER, ViasTren3_Rastro_Zapdos_Move_1
+applymovement 10, ViasTren3_Rastro_Zapdos_Move_2.1
+waitmovement 0x0
+goto ViasTren3_Rastro_Zapdos
+
+ViasTren3_Rastro_Zapdos::
+msgbox ViasTren3_Rastro_Zapdos_Texto_1 MSGBOX_AUTOCLOSE
+msgbox ViasTren3_Rastro_Zapdos_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, ViasTren3_Rastro_Zapdos_Move_3
+applymovement 10, ViasTren3_Rastro_Zapdos_Move_3
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, ViasTren3_Rastro_Zapdos_Move_4
+waitmovement 0x0
+special RemoveCameraObject
+msgbox ViasTren3_Rastro_Zapdos_Texto_3 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, ViasTren3_Rastro_Zapdos_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, ViasTren3_Rastro_Zapdos_Move_7
+applymovement 10, ViasTren3_Rastro_Zapdos_Move_6
+waitmovement 0x0
+msgbox ViasTren3_Rastro_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
+setvar VAR_PACIFIDLOG_TOWN_STATE, 2
+release
+end
+
+ViasTren3_Rastro_Zapdos_Move_7:
+face_right
+step_end
+
+ViasTren3_Rastro_Zapdos_Move_6:
+face_left
+step_end
+
+ViasTren3_Rastro_Zapdos_Move_5:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_right
+walk_right
+walk_right
+walk_right
+step_end
+
+ViasTren3_Rastro_Zapdos_Move_4:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+ViasTren3_Rastro_Zapdos_Move_3:
+face_down
+step_end
+
+ViasTren3_Rastro_Zapdos_Move_1:
+walk_in_place_right
+step_end
+
+ViasTren3_Rastro_Zapdos_Move_2.1:
+walk_left
+walk_down
+walk_left
+step_end
+
+ViasTren3_Rastro_Zapdos_Move_2:
+walk_left
+walk_left
+step_end
+
+ViasTren3_Rastro_Zapdos_Texto_1:
+.string "Eres el alto cargo del TEAM ROCKET, ¿no?$"
+
+ViasTren3_Rastro_Zapdos_Texto_2:
+.string "Te lo advierto, ese POKÉMON es muy\n"
+	.string "rápido y poderoso, parece tener\l"
+	.string "debilidad por el magnetismo de las\l"
+	.string "vías. En varias ocasiones ha destruido\l"
+	.string "parte de ellas y está ralentizando el\l"
+	.string "ritmo de construcción.$"
+
+ViasTren3_Rastro_Zapdos_Texto_3:
+.string "Suele aparecer por el sur, más o menos\n"
+	.string "desde este punto es lo más al noreste\l"
+	.string "que ha aparecido, su nido o donde sea\l"
+	.string "que viva debe estar por aquí abajo.$"
+
+ViasTren3_Rastro_Zapdos_Texto_4:
+.string "Buena suerte.$"
+
+ViasTren3_Barrera::
+lock
+faceplayer
+msgbox ViasTren3_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+ViasTren3_Barrera_Texto_1:
+.string "Esta zona ha sido seriamente dañada\n"
+	.string "por el POKÉMON MISTERIOSO, hasta que\l"
+	.string "no la restauremos nadie podrá pasar.$"

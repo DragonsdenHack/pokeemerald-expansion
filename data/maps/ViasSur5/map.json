@@ -22,8 +22,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_LUGIA",
-      "x": 19,
-      "y": 37,
+      "x": 18,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -31,11 +31,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BRINEYS_HOUSE_PEEKO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PEGASO2",
-      "x": 19,
+      "x": 18,
       "y": 46,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -44,14 +44,22 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BRINEYS_HOUSE_PEEKO"
     }
   ],
   "warp_events": [
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 50,
+      "elevation": 0,
+      "var": "VAR_PACIFIDLOG_TOWN_STATE",
+      "var_value": "3",
+      "script": "ViasSur5_Combate_Pegaso"
+    }
   ],
   "bg_events": [
 

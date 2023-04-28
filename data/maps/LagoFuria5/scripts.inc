@@ -42,7 +42,7 @@ msgbox EventoLagoFuria5_Combate_Final_Texto_8 MSGBOX_AUTOCLOSE
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_13
 waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_9 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, EventoLagoFuria5_Combate_Final_Texto_10
+trainerbattle_no_intro TRAINER_EJECUTIVO_DEVON_1, EventoLagoFuria5_Combate_Final_Texto_10
 msgbox EventoLagoFuria5_Combate_Final_Texto_11 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_2
@@ -83,7 +83,7 @@ waitmovement 0x0
 playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
 waitmoncry
 msgbox EventoLagoFuria5_Combate_Final_Texto_13 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, EventoLagoFuria5_Combate_Final_Texto_14
+trainerbattle_no_intro TRAINER_TRAINER_136, EventoLagoFuria5_Combate_Final_Texto_14
 delay 10
 playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
 waitmoncry
@@ -142,7 +142,11 @@ waitfanfare
 setvar VAR_MAUVILLE_CITY_STATE, 8
 addvar VAR_UNUSED_0x40F7, 1
 clearflag FLAG_HIDE_FALLORBOR_POKEMON_CENTER_LANETTE
-msgbox EventoLagoFuria5_Combate_Final_Texto_30 MSGBOX_YESNO
+msgbox EventoLagoFuria5_Combate_Final_Texto_30 MSGBOX_AUTOCLOSE
+delay 20
+compare VAR_UNUSED_0x40F7, 183
+goto_if_eq Misiones_DLC_Fin_Llamada_Giovanni_Lago
+msgbox EventoLagoFuria5_Combate_Final_Texto_31 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq EventoLagoFuria5_Combate_Final_No
 warpsilent MAP_LAKEOF_RAGE, 61, 51
@@ -388,5 +392,29 @@ EventoLagoFuria5_Combate_Final_Texto_29:
 EventoLagoFuria5_Combate_Final_Texto_30:
 .string "Te estaré siempre agradecido, si\n"
 	.string "quieres visitar mi casa del LAGO,\l"
-	.string "estaré encantado de hablar contigo.\l"
+	.string "estaré encantado de hablar contigo.$"
+
+EventoLagoFuria5_Combate_Final_Texto_31:
 	.string "¿Quieres volver al exterior conmigo?$"
+
+Misiones_DLC_Fin_Llamada_Giovanni_Lago::
+setflag FLAG_HIDE_RUSTURF_TUNNEL_BRINEY
+fadescreen 1
+delay 20
+removeobject 3
+fadescreen 0
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, Misiones_DLC_Fin_Llamada_Giovanni_Eusine_Move_1
+waitmovement 0x0
+msgbox Misiones_DLC_Fin_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+delay 20
+msgbox IcePath_Llamada_Giovanni_Texto_3 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq IcePath_Llamada_Giovanni_No
+warpsilent MAP_ROCKET_HIDEOUT_5F, 69, 4
+release
+end

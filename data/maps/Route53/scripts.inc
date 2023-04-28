@@ -1,5 +1,10 @@
 Route53_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Route53_OnFrame
 	.byte 0
+
+Route53_OnFrame:
+map_script_2 VAR_TEMP_0, 0, Ruta_53_Seteo_Metatiles
+	.2byte 0
 
 Route53_1::
 lock     
@@ -119,3 +124,58 @@ Route53_EventScript_Obrero::
 	trainerbattle_single TRAINER_LISA_AND_RAY, Route53_Text_ObreroIntro, Route53_Text_ObreroDefeated
 	msgbox Route53_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Ruta_53_Seteo_Metatiles::
+lock
+compare VAR_UNUSED_0x40F7, 180
+goto_if_lt Ruta_53_Seteo_Metatiles_2
+setvar VAR_TEMP_0, 1
+release
+end
+
+Ruta_53_Seteo_Metatiles_2::
+setmetatile 62, 12, 0x07B, FALSE
+setmetatile 63, 12, 0x07C, FALSE
+setmetatile 64, 12, 0x07C, FALSE
+setmetatile 65, 12, 0x07C, FALSE
+setmetatile 66, 12, 0x07C, FALSE
+setmetatile 67, 12, 0x07C, FALSE
+setmetatile 68, 12, 0x07C, FALSE
+setmetatile 69, 12, 0x07C, FALSE
+setmetatile 62, 11, 0x073, FALSE
+setmetatile 63, 11, 0x071, FALSE
+setmetatile 64, 11, 0x071, FALSE
+setmetatile 65, 11, 0x071, FALSE
+setmetatile 66, 11, 0x071, FALSE
+setmetatile 67, 11, 0x071, FALSE
+setmetatile 68, 11, 0x071, FALSE
+setmetatile 69, 11, 0x071, FALSE
+setmetatile 62, 10, 0x073, FALSE
+setmetatile 63, 10, 0x071, FALSE
+setmetatile 64, 10, 0x071, FALSE
+setmetatile 65, 10, 0x071, FALSE
+setmetatile 66, 10, 0x071, FALSE
+setmetatile 67, 10, 0x071, FALSE
+setmetatile 68, 10, 0x071, FALSE
+setmetatile 69, 10, 0x071, FALSE
+setmetatile 62, 9, 0x068, FALSE
+setmetatile 63, 9, 0x069, FALSE
+setmetatile 64, 9, 0x06C, FALSE
+setmetatile 65, 9, 0x06C, FALSE
+setmetatile 66, 9, 0x06C, FALSE
+setmetatile 67, 9, 0x06C, FALSE
+setmetatile 68, 9, 0x06C, FALSE
+setmetatile 69, 9, 0x06C, FALSE
+setmetatile 62, 13, 0x06C, FALSE
+setmetatile 63, 13, 0x06C, FALSE
+setmetatile 64, 13, 0x06C, FALSE
+setmetatile 65, 13, 0x06C, FALSE
+setmetatile 66, 13, 0x06C, FALSE
+setmetatile 67, 13, 0x06C, FALSE
+setmetatile 68, 13, 0x06C, FALSE
+setmetatile 69, 13, 0x06C, FALSE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
