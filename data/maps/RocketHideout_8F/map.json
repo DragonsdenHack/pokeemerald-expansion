@@ -91,6 +91,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_HIDE_ROUTE_103_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_BLAINE",
+      "x": 11,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",
+      "x": 10,
+      "y": 7,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
     }
   ],
   "warp_events": [
@@ -206,6 +232,24 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "179",
       "script": "RocketHideout_8F_Mision_Lago_Furia"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 12,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "183",
+      "script": "RocketHideout_8F_Mision_Base_Hoenn"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "190",
+      "script": "RocketHideout_8F_Mision_Neo_Canela"
     }
   ],
   "bg_events": [

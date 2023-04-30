@@ -1673,3 +1673,136 @@ BaseRocketHoennS2_Text_12:
 	.string "SHINX es una versión física de\l"
 	.string "ELECTRIKE, más lento, pero bastante\l"
 	.string "más agresivo y peligroso.$"
+
+BaseRocketHoennS2_Dialogo_Andra_Der::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_1
+applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_2
+waitmovement 0x0
+goto BaseRocketHoennS2_Dialogo_Andra
+
+
+BaseRocketHoennS2_Dialogo_Andra_Izq::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_1.1
+applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_2
+waitmovement 0x0
+goto BaseRocketHoennS2_Dialogo_Andra
+
+
+BaseRocketHoennS2_Dialogo_Andra::
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_3
+waitmovement 0x0
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_4
+applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_4
+waitmovement 0x0
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoennS2_Dialogo_Andra_Move_5
+applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_2
+waitmovement 0x0
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 35, BaseRocketHoennS2_Dialogo_Andra_Move_6
+waitmovement 0x0
+msgbox BaseRocketHoennS2_Dialogo_Andra_Texto_9 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS
+fadescreen 1
+delay 20
+removeobject 35
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 188
+release
+end
+
+BaseRocketHoennS2_Dialogo_Andra_Move_6:
+walk_in_place_up
+step_end
+
+BaseRocketHoennS2_Dialogo_Andra_Move_5:
+face_down
+step_end
+
+BaseRocketHoennS2_Dialogo_Andra_Move_4:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+face_left
+step_end
+
+BaseRocketHoennS2_Dialogo_Andra_Move_3:
+walk_in_place_down
+walk_in_place_up
+step_end
+
+BaseRocketHoennS2_Dialogo_Andra_Move_1.1:
+walk_right
+walk_down
+step_end
+
+BaseRocketHoennS2_Dialogo_Andra_Move_1:
+walk_down
+step_end
+
+BaseRocketHoennS2_Dialogo_Andra_Move_2:
+face_up
+step_end
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_1:
+.string "ANDRA: ¿Qué te ha parecido el S1? Si has\n"
+	.string "explorado algo, habrás podido ver que\l"
+	.string "es una expansión de la sala con los\l"
+	.string "POKÉMON más poderosos de cada región,\l"
+	.string "la que tenemos en KANTO.$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_2:
+.string "En el S2 completamos todas las regiones\n"
+	.string "que conocemos a día de hoy, con ello\l"
+	.string "disponemos de una gran base de datos,\l"
+	.string "sobre la que poder crear mejores\l"
+	.string "prototipos a partir de los POKÉMON más\l"
+	.string "fuertes que existen…$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_3:
+.string "Mira, también hemos incluido esto.$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_4:
+.string "La tecnología de ondas de radio que\n"
+	.string "GIOVANNI mencionó en la I GRAN\l"
+	.string "REUNIÓN, hicimos las primeras pruebas\l"
+	.string "aquí. Ya está todo listo para\l"
+	.string "implantarla en los pisos superiores de\l"
+	.string "la TORRE RADIO de LAVANDA.$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_5:
+.string "BILL sabe bien cómo funciona. Tal vez él\n"
+	.string "pueda darte una explicación detallada,\l"
+	.string "si lo vuelves a ver.$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_6:
+.string "…$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_7:
+.string "¿Sabes, {PLAYER}? Me gustaría\n"
+	.string "enseñarte algo. Está fuera de la BASE,\l"
+	.string "tendrás que salir por la misma sala del\l"
+	.string "teletransportador.$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_8:
+.string "Una vez fuera, te esperaré en la zona\n"
+	.string "sur, ¡no tardes! ¿Eh?$"
+
+BaseRocketHoennS2_Dialogo_Andra_Texto_9:
+.string "¡Así podrás pisar HOENN por primera vez,\n"
+	.string "3 regiones ya! ¿Hasta cuándo?$"
+
+

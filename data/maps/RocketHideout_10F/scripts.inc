@@ -37,4 +37,30 @@ RocketHideout_Johto_Maquina_Teletransporte_YesNo:
 .string "La máquina está lista para ser\n"
 	.string "usada, ¿quieres teletransportarte\l"
 	.string "a la BASE de KANTO?$"
+
+
+RocketHideout_10F_Primer_Cientifico::
+lock
+faceplayer
+msgbox RocketHideout_10F_Primer_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_10F_Primer_Cientifico_Texto_1:
+.string "Nos ha costado horrores conectar\n"
+	.string "la BASE de JOHTO con la de KANTO\l"
+	.string "vía teletransporte, pero lo hemos\l"
+	.string "logrado.$"
+
+
+RocketHideout_10F_Segundo_Cientifico::
+lock
+faceplayer
+msgbox RocketHideout_10F_Segundo_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_10F_Segundo_Cientifico_Texto_1:
+.string "Entonces, ¿listo para otra nueva\n"
+	.string "gran aventura?$"
 	

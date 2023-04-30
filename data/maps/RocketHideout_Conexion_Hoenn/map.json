@@ -1,12 +1,12 @@
 {
-  "id": "MAP_ROCKET_HIDEOUT_10F",
-  "name": "RocketHideout_10F",
-  "layout": "LAYOUT_ROCKET_HIDEOUT_10F",
+  "id": "MAP_ROCKET_HIDEOUT_CONEXION_HOENN",
+  "name": "RocketHideout_Conexion_Hoenn",
+  "layout": "LAYOUT_ROCKET_HIDEOUT_CONEXION_HOENN",
   "music": "MUS_RG_POKE_MANSION",
-  "region_map_section": "MAPSEC_CELADON_CITY",
+  "region_map_section": "MAPSEC_ROCKET_HIDEOUT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_SECRET_BASE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -16,7 +16,20 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 6,
+      "x": 7,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RocketHideout_Conexion_Hoenn_Tercer_Cientifico",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
+      "x": 1,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -24,20 +37,20 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout_10F_Primer_Cientifico",
+      "script": "RocketHideout_Conexion_Hoenn_Primer_Cientifico",
       "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
       "x": 1,
-      "y": 3,
+      "y": 6,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout_10F_Segundo_Cientifico",
+      "script": "RocketHideout_Conexion_Hoenn_Segundo_Cientifico",
       "flag": "0"
     }
   ],
@@ -47,7 +60,7 @@
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_5F",
-      "dest_warp_id": 6
+      "dest_warp_id": 5
     }
   ],
   "coord_events": [
@@ -56,19 +69,19 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 4,
+      "x": 7,
       "y": 2,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "RocketHideout_10F_Maquina_Teletransporte_2"
+      "script": "RocketHideout_Conexion_Hoenn_Maquina_Teletransporte_2"
     },
     {
       "type": "sign",
-      "x": 3,
+      "x": 6,
       "y": 2,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "RocketHideout_10F_Maquina_Teletransporte_2"
+      "script": "RocketHideout_Conexion_Hoenn_Maquina_Teletransporte_2"
     }
   ]
 }

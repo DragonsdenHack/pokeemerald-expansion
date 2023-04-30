@@ -321,7 +321,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Mauville",
+      "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/Route111/border.bin",
       "blockdata_filepath": "data/layouts/Route111/map.bin"
     },
@@ -1568,7 +1568,7 @@
       "height": 33,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
+      "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/DesertRuins/border.bin",
       "blockdata_filepath": "data/layouts/DesertRuins/map.bin"
@@ -13668,6 +13668,18 @@
       "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/Cueva_Gimnasio_Trigal/border.bin",
       "blockdata_filepath": "data/layouts/Cueva_Gimnasio_Trigal/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT_CONEXION_HOENN",
+      "name": "RocketHideout_Conexion_Hoenn_Layout",
+      "width": 9,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/RocketHideout_Conexion_Hoenn/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout_Conexion_Hoenn/map.bin"
     }
   ]
 }

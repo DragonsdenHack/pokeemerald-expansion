@@ -8,9 +8,6 @@
 
 Route111_MapScripts::
 	map_script MAP_SCRIPT_ON_LOAD, Route111_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, Route111_OnTransition
-	map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route111_OnWarp
-	map_script MAP_SCRIPT_ON_FRAME_TABLE, Route111_OnFrame
 	.byte 0
 
 Route111_OnLoad:
@@ -19,8 +16,6 @@ Route111_OnLoad:
 	end
 
 Route111_EventScript_CloseDesertRuins::
-	setmetatile 29, 86, METATILE_General_RockWall_RockBase, TRUE
-	setmetatile 29, 87, METATILE_General_RockWall_SandBase, TRUE
 	return
 
 @ Show Mirage Tower just prior to disintegration. Mirage Tower is otherwise handled by the map layout
@@ -782,4 +777,79 @@ Route111_EventScript_Montanero3::
 	trainerbattle_single TRAINER_MAY_PLACEHOLDER, Route111_Text_Montanero3Intro, Route111_Text_Montanero3Defeated
 	msgbox Route111_Text_Montanero3PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+
+Ruta_111_Activador_Entrada_Pasa::
+msgbox Ruta_111_Activador_Entrada_Pasa_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq CuevaTesoro_Activador_Entrada_Pasa_No
+warpsilent MAP_BASE_ROCKET_HOENN, 31, 35
+release
+end
+
+Ruta_111_Activador_Entrada_Pasa_Text_YesNo:
+.string "Esta es la entrada secreta a la BASE\n"
+	.string "HOENN, ¿quieres pasar?$"
+
+
+Ruta_111_Evento_Andra::
+lock
+faceplayer
+msgbox Ruta_111_Evento_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Ruta_111_Evento_Andra_Texto_2 MSGBOX_AUTOCLOSE
+playse SE_EXIT
+applymovement 41, Ruta_111_Evento_Andra_Move_1
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_1
+removeobject 41
+release
+end
+
+Ruta_111_Evento_Andra_Move_1:
+face_up
+step_end
+
+Ruta_111_Evento_Andra_Texto_1:
+.string "ANDRA: Observa estas ruinas, aquí\n"
+	.string "descansa un POKÉMON LEGENDARIO.\l"
+	.string "¿Recuerdas el REGIROCK que te regalé?\l"
+	.string "Es aquí donde duerme el original.$"
+
+Ruta_111_Evento_Andra_Texto_2:
+.string "Encontré la forma de pasar, sin\n"
+	.string "perturbar el orden de este santurario,\l"
+	.string "¡sígueme!$"
+
+
+Ruta_111_Barrera_Noroeste::
+compare VAR_UNUSED_0x40F7, 220
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_2
+waitmovement 0x0
+release
+end
+
+Ruta_111_Barrera_Noroeste_Texto_1:
+.string "(No hay nada que hacer en HOENN, al\n"
+	.string "menos por ahora).$"
+
+
+Ruta_111_Barrera_Noroeste_Move_1:
+walk_up
+step_end
+
+Ruta_111_Barrera_Noroeste_Move_2:
+walk_right
+step_end
+
+Ruta_111_Barrera_Sur::
+compare VAR_UNUSED_0x40F7, 220
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_1
+waitmovement 0x0
+release
+end
+
 

@@ -1,8 +1,10 @@
 DesertRuins_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, DesertRuins_OnResume
-	map_script MAP_SCRIPT_ON_LOAD, DesertRuins_OnLoad
-	map_script MAP_SCRIPT_ON_TRANSITION, DesertRuins_OnTransition
+map_script MAP_SCRIPT_ON_FRAME_TABLE, DesertRuins_OnFrame
 	.byte 0
+
+DesertRuins_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 188, DesertRuins_Evento_Andra
+	.2byte 0
 
 DesertRuins_OnResume:
 	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, DesertRuins_EventScript_TryRemoveRegirock
@@ -86,43 +88,233 @@ DesertRuins_EventScript_RanFromRegirock::
 
 DesertRuins_Evento_CamaraRegirock::
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_1
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_4
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_5
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_5
+waitmovement 0x0
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_6
+waitmovement 0x0
+playse SE_PIN
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_7
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_7
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_3
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_2
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_11 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6
+applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_8
+waitmovement 0x0
+removeobject 4
+playse SE_EXIT
+delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_14 MSGBOX_AUTOCLOSE
+delay 20
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_15 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_9
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_16 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_7
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_17 MSGBOX_AUTOCLOSE
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_18 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, DesertRuins_Evento_CamaraRegirock_Move_16
+waitmovement 0x0
+special RemoveCameraObject
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_10
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_11
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_12
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_20 MSGBOX_AUTOCLOSE
+delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_5.1
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_22 MSGBOX_AUTOCLOSE
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, DesertRuins_Evento_CamaraRegirock_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_13
+waitmovement 0x0
+delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_23 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_9
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_24 MSGBOX_AUTOCLOSE
-msgbox DesertRuins_Evento_CamaraRegirock_Texto_25 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_EJECUTIVO_DEVON_1, DesertRuins_Evento_CamaraRegirock_Texto_25
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_26 MSGBOX_AUTOCLOSE
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_14
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_28 MSGBOX_AUTOCLOSE
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_9
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_30 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_31 MSGBOX_AUTOCLOSE
-msgbox DesertRuins_Evento_CamaraRegirock_Texto_32 MSGBOX_AUTOCLOSE
-msgbox DesertRuins_Evento_CamaraRegirock_Texto_33 MSGBOX_AUTOCLOSE
-msgbox DesertRuins_Evento_CamaraRegirock_Texto_34 MSGBOX_AUTOCLOSE
-msgbox DesertRuins_Evento_CamaraRegirock_Texto_35 MSGBOX_AUTOCLOSE
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6
+waitmovement 0x0
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
+removeobject 3
+playse SE_EXIT
+delay 10
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_3
+waitmovement 0x0
+delay 30
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+applymovement 5, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_36 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+delay 15
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_3
+waitmovement 0x0
+msgbox DesertRuins_Evento_CamaraRegirock_Texto_34 MSGBOX_AUTOCLOSE
+delay 10
+msgbox DesertRuins_Evento_CamaraRegirock_Texto_35 MSGBOX_AUTOCLOSE
+applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_15
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+setvar VAR_UNUSED_0x40F7, 190
 release
 end
+
+DesertRuins_Evento_CamaraRegirock_Move_16:
+walk_down
+walk_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_15:
+walk_down
+walk_left
+walk_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_14:
+walk_slow_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_13:
+walk_right
+walk_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_12:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_11:
+emote_exclamation_mark
+walk_in_place_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_10:
+walk_left
+walk_in_place_right
+walk_in_place_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_9:
+walk_in_place_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_8:
+walk_right
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_7:
+emote_exclamation_mark
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_6:
+face_down
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_5.1:
+walk_up
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_5:
+walk_up
+walk_up
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_4:
+face_up
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_3:
+face_right
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_2:
+walk_in_place_left
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_1:
+face_left
+step_end
 
 DesertRuins_Evento_CamaraRegirock_Texto_1:
 .string "ADMIN.DEVON: Aquí tienes a REGIROCK.\n"
@@ -255,9 +447,9 @@ DesertRuins_Evento_CamaraRegirock_Texto_23:
 DesertRuins_Evento_CamaraRegirock_Texto_24:
 .string "¿{PLAYER}? Nadie en DEVON conoce tu\n"
 	.string "nombre, si de verdad fuerais tan\l"
-	.string "fuertes sabría quiénes sois. Después\l"
-	.string "de arrasar con tu equipo DEVON seguirá\l"
-	.string "sin saber quién eres.$"
+	.string "fuertes sabría quiénes sois.\l"
+	.string "¡Después de borrar a tu equipo\l"
+	.string "DEVON seguirá sin saber quién eres!$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_25:
 .string "No olvidaré tu nombre.$"
@@ -291,24 +483,17 @@ DesertRuins_Evento_CamaraRegirock_Texto_31:
 	.string "créeme.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_32:
-.string "{PLAYER}, se requiere de tu presencia\n"
-	.string "en las vías de tren de nuevo, parece\l"
-	.string "ser que el POKÉMON que ralentizó las\l"
-	.string "obras ha vuelto. Trata de capturarlo\l"
-	.string "esta vez, las obras están apunto de\l"
-	.string "concluir, y el POKÉMON está causando\l"
-	.string "problemas casi a altura de CIUDAD\l"
-	.string "AZAFRÁN, tenlo en cuenta.$"
-
-DesertRuins_Evento_CamaraRegirock_Texto_33:
-.string "ANDRA: Otro LEGENDARIO, supongo.$"
+	.string "ANDRA: Bah, si eso es lo mejor de DEVON,\n"
+	.string "jamás podrán con nosotros. Los\l"
+	.string "LEGENDARIOS y MEGAS ya no son ningún\l"
+	.string "misterio para el TEAM ROCKET.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_34:
 .string "Ve {PLAYER}, yo volveré a mi DESPACHO.\n"
 	.string "GIOVANNI dijo que la II GRAN REUNIÓN\l"
 	.string "en TRIGAL se celebraría después de\l"
 	.string "derrumbar la TORRE POKÉMON, imagino\l"
-	.string "que debe de estar al caer.$"
+	.string "que debe estar al caer.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_35:
 .string "Mientras, recopilaré toda la\n"
@@ -323,4 +508,110 @@ DesertRuins_Evento_CamaraRegirock_Texto_36:
 	.string "presencia inmediatamente en la BASE\l"
 	.string "ROCKET PROFUNDA. Es crucial que vengas\l"
 	.string "cuanto antes.$"
+
+
+DesertRuins_Evento_Andra::
+lock
+delay 40
+applymovement 2, DesertRuins_Evento_Andra_Move_1
+waitmovement 0x0
+msgbox DesertRuins_Evento_Andra_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 2, DesertRuins_Evento_Andra_Move_2
+waitmovement 0x0
+msgbox DesertRuins_Evento_Andra_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 2, DesertRuins_Evento_Andra_Move_3
+waitmovement 0x0
+delay 40
+playse SE_PIN
+applymovement 2, DesertRuins_Evento_Andra_Move_4
+waitmovement 0x0
+delay 30
+msgbox DesertRuins_Evento_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 2, DesertRuins_Evento_Andra_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_6
+waitmovement 0x0
+msgbox DesertRuins_Evento_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, DesertRuins_Evento_Andra_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_2
+waitmovement 0x0
+msgbox DesertRuins_Evento_Andra_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_Andra_Move_3
+applymovement 2, DesertRuins_Evento_Andra_Move_8
+waitmovement 0x0
+playse SE_EXIT
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2
+removeobject 2
+setvar VAR_UNUSED_0x40F7, 189
+release
+end
+
+DesertRuins_Evento_Andra_Move_8:
+walk_up
+walk_up
+step_end
+
+DesertRuins_Evento_Andra_Move_7:
+face_left
+step_end
+
+DesertRuins_Evento_Andra_Move_6:
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+DesertRuins_Evento_Andra_Move_5:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+DesertRuins_Evento_Andra_Move_4:
+emote_exclamation_mark
+step_end
+
+DesertRuins_Evento_Andra_Move_3:
+face_up
+step_end
+
+DesertRuins_Evento_Andra_Move_2:
+face_right
+step_end
+
+DesertRuins_Evento_Andra_Move_1:
+walk_in_place_down
+step_end
+
+DesertRuins_Evento_Andra_Texto_1:
+.string "ANDRA: ¿Qué te parece? Se respira esa\n"
+	.string "atmósfera, de estar cerca de lo\l"
+	.string "sagrado, ¿verdad?$"
+
+DesertRuins_Evento_Andra_Texto_2:
+.string "Hay 2 cuevas más como esta por HOENN,\n"
+	.string "así pudimos obtener el ADN de los\l"
+	.string "REGIS. Aunque sean legendarios como\l"
+	.string "las AVES, el halo de misterio que les\l"
+	.string "rodea es mayor.$"
+
+DesertRuins_Evento_Andra_Texto_3:
+.string "¿Uh?$"
+
+DesertRuins_Evento_Andra_Texto_4:
+.string "Esto no debería de estar abierto,\n"
+	.string "parece que alguien más ha venido de\l"
+	.string "visita. ¿También te haces una idea de\l"
+	.string "lo que puede ser?$"
+
+DesertRuins_Evento_Andra_Texto_5:
+.string "Hay que estar atentos, {PLAYER}.\n"
+	.string "Entremos juntos.$"
+
 

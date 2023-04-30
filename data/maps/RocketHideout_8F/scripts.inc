@@ -3604,3 +3604,419 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_29:
 .string "¿Has oído, {PLAYER}? Los lugares más\n"
 	.string "recónditos de JOHTO nos esperan, ¿qué\l"
 	.string "misterios estarán esperándonos?$"
+
+RocketHideout_8F_Mision_Base_Hoenn::
+lock
+clearflag FLAG_HIDE_ROUTE_103_RIVAL
+addobject 6
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_1
+waitmovement 0x0
+applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+msgbox CianwoodEusineHouse_Combate_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_5
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_8 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Base_Hoenn_Move_7
+applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_7
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_8
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_13 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_15 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Base_Hoenn_Move_7
+applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_7
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_5
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_17 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_8
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_19 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_9
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_10
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_23 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
+applymovement 6, RocketHideout_8F_Mision_Base_Hoenn_Move_1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_24 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_ROUTE_103_RIVAL
+fadescreen 1
+delay 20
+removeobject 6
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 184
+release
+end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_10:
+walk_in_place_right
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_9:
+walk_in_place_left
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_8:
+walk_slow_left
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_7:
+emote_exclamation_mark
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_6:
+face_left
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_5:
+walk_slow_right
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_2:
+face_up
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_3:
+walk_in_place_up
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_4:
+face_down
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Move_1:
+walk_in_place_down
+walk_in_place_right
+step_end
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_1:
+.string "ANDRA: ¡Jah! ¡Sabía que aparecerías\n"
+	.string "pronto, {PLAYER}! ¡Yo acabo de\l"
+	.string "completar también mis misiones!$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_2:
+.string "GIOVANNI: Nuestra base de datos ha\n"
+	.string "recogido información muy valiosa de\l"
+	.string "vuestras expediciones, pero me\l"
+	.string "gustaría oiros a vosotros. Contadme\l"
+	.string "todos los detalles…$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_3:
+.string "Ya veo… Así que JOHTO cuenta con\n"
+	.string "varias especies creidas extintas, y\l"
+	.string "que habitan en ese gran paraíso que es\l"
+	.string "la zona oeste de ORQUÍDEA.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_4:
+.string "No me extraña, únicamente hay\n"
+	.string "catalogadas 100 especies originales de\l"
+	.string "JOHTO, un número muy pequeño si lo\l"
+	.string "comparamos con las 151 de KANTO, o las\l"
+	.string "135 de HOENN.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_5:
+.string "En cuanto a lo de ese tal EUSINE, no te\n"
+	.string "preocupes {PLAYER}, mandaré a\l"
+	.string "buscarle. Todo lo que él ha visto y\l"
+	.string "vivido en esa pagoda nos será de\l"
+	.string "enorme utilidad para nuestras\l"
+	.string "investigaciones.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_6:
+.string "Lo que realmente me preocupa es tu\n"
+	.string "misión en el LAGO DE LA FURIA,\l"
+	.string "{PLAYER}.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_7:
+.string "El resultado ha sido inmejorable, y el\n"
+	.string "POKÉMON hallado ahí excepcional. Pero\l"
+	.string "esos CIENTÍFICOS… no trabajan para\l"
+	.string "nosotros, parecen perseguir objetivos\l"
+	.string "similares a los nuestros.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_8:
+.string "ANDRA: Yo también me crucé con\n"
+	.string "personajes así en HOENN, en plena\l"
+	.string "búsqueda de los REGIS…$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_9:
+.string "GIOVANNI: Tal y como temía, todo apunta\n"
+	.string "a que se trata de DEVON S.A.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_10:
+.string "ANDRA: ¿DEVON?$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_11:
+.string "GIOVANNI: OAK y BLAINE contactaron\n"
+	.string "con ellos en el pasado, antes de que\l"
+	.string "{PLAYER} les derrotara. Gracias a\l"
+	.string "ello obtuvieron la financiación\l"
+	.string "necesaria para clonar de nuevo a\l"
+	.string "MEWTWO y resucitar a DEOXYS.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_12:
+.string "ANDRA: ¿Y…?$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_13:
+.string "GIOVANNI: Y DEVON accedió, con la\n"
+	.string "condición de entregar todo el material\l"
+	.string "referente a DEOXYS. Afortunadamente,\l"
+	.string "de MEWTWO no dijeron una sola palabra.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_14:
+.string "Tal vez sea algo pronto, pero…$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_15:
+.string "¡{PLAYER}! Quiero que acompañes a\n"
+	.string "ANDRA a nuestra sucursal en HOENN, y\l"
+	.string "te dé nociones generales sobre la\l"
+	.string "región.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_16:
+.string "La demolición de TORRE LAVANDA es\n"
+	.string "inminente, en este momento ya deben de\l"
+	.string "haber evacuado todo para llevarla a\l"
+	.string "cabo. Mientras, nada os retiene aquí, y\l"
+	.string "nuestra BASE en HOENN es la única que\l"
+	.string "aún no has visitado.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_17:
+.string "En cuanto TORRE LAVANDA sea demolida,\n"
+	.string "comenzará la construcción en tiempo\l"
+	.string "récord de la nueva TORRE RADIO.\l"
+	.string "Entretanto, os informo de que se\l"
+	.string "celebrará la II GRAN REUNIÓN EN\l"
+	.string "TRIGAL.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_18:
+.string "ANDRA: ¡Wow! Ahora que KANTO y JOHTO\n"
+	.string "están a punto de lograr la unión que se\l"
+	.string "propuso en la I GRAN REUNIÓN…$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_19:
+.string "GIOVANNI: Tenemos todo para convertir\n"
+	.string "al binomio KANTO-JOHTO en la principal\l"
+	.string "potencia del MUNDO POKÉMON.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_20:
+.string "ANDRA: Suena… impactante.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_21:
+.string "GIOVANNI: Y lo será, ya lo verás cuando\n"
+	.string "veas lo que hay por mostrar, pero por el\l"
+	.string "momento… Tenéis a vuestra disposición\l"
+	.string "el teletransporte que manda a HOENN.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_22:
+.string "Espero que guíes correctamente a\n"
+	.string "{PLAYER} por HOENN, estad atentos a\l"
+	.string "mi llamada.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_23:
+.string "ANDRA: No se preocupe, {PLAYER} no\n"
+	.string "perderá el tiempo allí, ¡seguro!$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_24:
+.string "Te espero en la entrada a la base de\n"
+	.string "HOENN, ¡haré de guía turística!$"
+
+RocketHideout_8F_Mision_Neo_Canela::
+lock
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+addobject 7
+addobject 8
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_1
+waitmovement 0x0
+playse SE_PIN
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_5
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Neo_Canela_Move_6
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_5
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 8, RocketHideout_8F_Mision_Neo_Canela_Move_4
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Neo_Canela_Move_7
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 7, RocketHideout_8F_Mision_Neo_Canela_Move_8
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Neo_Canela_Texto_11 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+fadescreen 1
+delay 20
+removeobject 7
+removeobject 8
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 191
+release
+end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_8:
+walk_in_place_left
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_7:
+face_right
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_6:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_5:
+face_up
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_4:
+face_left
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_3:
+walk_in_place_up
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_2:
+walk_slow_up
+walk_slow_up
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Move_1:
+walk_up
+walk_up
+walk_up
+walk_up
+emote_exclamation_mark
+step_end
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_1:
+.string "????: Logré escapar en el último\n"
+	.string "momento, gracias al TELETRANSPORTE de\l"
+	.string "mi MAGMORTAR.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_2:
+.string "GIOVANNI: {PLAYER}, tu ausencia en\n"
+	.string "KANTO-JOHTO te ha impedido enterarte,\l"
+	.string "pero el fenómeno se ha sentido en las\l"
+	.string "dos regiones: el volcán de ISLA CANELA\l"
+	.string "ha estallado, y ha engullido todo a su\l"
+	.string "paso.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_3:
+.string "BLAINE: El LABORATORIO… la MANSIÓN\n"
+	.string "POKÉMON… el GIMNASIO… todo yace ahora\l"
+	.string "en el fondo del mar.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_4:
+.string "OAK: La cuestión es que, después de la I\n"
+	.string "CONFERENCIA DE TRIGAL, continuamos\l"
+	.string "con nuestras investigaciones allí. Una\l"
+	.string "parte muy importante de nuestros\l"
+	.string "últimos proyectos está ahora perdida,\l"
+	.string "decenas de metros bajo tierra.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_5:
+.string "BLAINE: Por suerte, las zonas\n"
+	.string "subterráneas más importantes fueron\l"
+	.string "hechas a prueba de todo desastre\l"
+	.string "natural. Después de que {PLAYER}\l"
+	.string "nos derrotara, construimos\l"
+	.string "muchos pisos subterráneos más, son\l"
+	.string "como un búnker subterráneo.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_6:
+.string "GIOVANNI: Cabe entonces la posibilidad\n"
+	.string "de que no hayan sido destruidos.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_7:
+.string "OAK: Debemos comprobarlo, sabes tan\n"
+	.string "bien como yo la preciada información\l"
+	.string "que guardamos ahí dentro.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_8:
+.string "BLAINE: Pero no puede ir cualquiera, la\n"
+	.string "erupción habrá liberado a todos los\l"
+	.string "prototipos que ahí teníamos en fase\l"
+	.string "de prueba.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_9:
+.string "GIOVANNI: Estamos de acuerdo, el más\n"
+	.string "indicado para realizar esta misión es\l"
+	.string "{PLAYER}. Cuenta con experiencia más que\l"
+	.string "sobrada en esta clase de situaciones.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_10:
+.string "OAK: Así es, te estaré esperando en\n"
+	.string "ISLA CANELA, {PLAYER}, ahí te diré\l"
+	.string "exactamente lo que debes hacer.$"
+
+RocketHideout_8F_Mision_Neo_Canela_Texto_11:
+.string "BLAINE: Es un alivio tener a un\n"
+	.string "ENTRENADOR como tú de nuestro lado,\l"
+	.string "espero que puedas recuperar todo lo\l"
+	.string "posible de esta catástrofe.$"

@@ -1,5 +1,19 @@
 BaseRocketHoenn_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, BaseRocketHoenn_OnFrame
 	.byte 0
+
+BaseRocketHoenn_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 184, BaseRocketHoenn_Escena_Lavanda
+	.2byte 0
+
+
+BaseRocketHoenn_Escena_Lavanda::
+setvar VAR_UNUSED_0x40F7, 185
+warpsilent MAP_LAVENDER_TOWN, 18, 0
+release
+end
+
+
 
 BaseRocketHoenn_1::
 end
@@ -1752,3 +1766,345 @@ BaseRocketHoenn_Text_27:
 	.string "TIPO ELÉCTRICO puro, y solapa su única\l"
 	.string "debilidad al TIERRA gracias a\l"
 	.string "LEVITACIÓN. ¿No es increíble?$"
+
+BaseRocketHoenn_Encuentro_Oak_Der::
+lock
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_1
+waitmovement 0x0
+goto BaseRocketHoenn_Encuentro_Oak
+
+BaseRocketHoenn_Encuentro_Oak_Izq::
+lock
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_1.1
+waitmovement 0x0
+goto BaseRocketHoenn_Encuentro_Oak
+
+
+BaseRocketHoenn_Encuentro_Oak::
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_1 MSGBOX_AUTOCLOSE
+clearflag FLAG_RECEIVED_SHOAL_SALT_3
+addobject 36
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_1
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_4
+waitmovement 0x0
+playse SE_PIN
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_3
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Encuentro_Oak_10
+waitmovement 0x0
+special RemoveCameraObject
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_3 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_5
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_6
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_6 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_7
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_8
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_12 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_13 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_7
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_7
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_9
+applymovement OBJ_EVENT_ID_CAMERA, BaseRocketHoenn_Encuentro_Oak_11
+waitmovement 0x0
+special RemoveCameraObject
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_12
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_16 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_18 MSGBOX_AUTOCLOSE
+delay 15
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_12
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_2
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_21 MSGBOX_AUTOCLOSE
+applymovement 36, BaseRocketHoenn_Encuentro_Oak_Move_13
+waitmovement 0x0
+setflag FLAG_RECEIVED_SHOAL_SALT_3
+removeobject 36
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Encuentro_Oak_Move_14
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_22 MSGBOX_AUTOCLOSE
+applymovement 37, BaseRocketHoenn_Encuentro_Oak_Move_15
+waitmovement 0x0
+msgbox BaseRocketHoenn_Encuentro_Oak_Texto_23 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+waitfanfare
+setflag FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA
+fadescreen 1
+delay 20
+removeobject 37
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 187
+release
+end
+
+BaseRocketHoenn_Encuentro_Oak_Move_15:
+walk_in_place_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_14:
+face_down
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_13:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_12:
+face_right
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_11:
+walk_up
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_10:
+walk_down
+walk_down
+walk_down
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_9:
+walk_slow_up
+face_right
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_8:
+walk_slow_left
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_7:
+face_left
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_6:
+walk_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_5:
+walk_in_place_down
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_4:
+walk_left
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_3:
+emote_exclamation_mark
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_2:
+face_up
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_1.1:
+walk_down
+walk_right
+walk_down
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Move_1:
+walk_down
+walk_down
+step_end
+
+BaseRocketHoenn_Encuentro_Oak_Texto_1:
+.string "ANDRA: Ya estás. ¡Sígueme!$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_2:
+.string "OAK: Vaya, vaya. He aquí yo de nuevo,\n"
+	.string "frente a la nueva generación, y dos\l"
+	.string "jóvenes competentes con ganas de más\l"
+	.string "como máximos exponentes de ella.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_3:
+.string "ANDRA: Tú… ¿Qué haces aquí?$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_4:
+.string "OAK: No deberías dirigirte hacia mí con\n"
+	.string "ese desprecio, joven ADMIN. Ahora\l"
+	.string "trabajamos juntos, y mi compromiso con\l"
+	.string "el futuro es total, ¿lo es el tuyo?$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_5:
+.string "ANDRA: ¡Claro!$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_6:
+.string "OAK: Creí que despreciabas a los\n"
+	.string "LEGENDARIOS por el mero hecho de serlo\l"
+	.string "de nacimiento. ¿No crees que el\l"
+	.string "propósito último de todas estas bases\l"
+	.string "y reuniones es precisamente la\l"
+	.string "construcción de algo mucho más\l"
+	.string "despreciable?$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_7:
+.string "ANDRA: Ni por asomo, ¡serán fruto de\n"
+	.string "nuestro esfuerzo y voluntad!$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_8:
+.string "OAK: La tuya. Los POKÉMON surgidos no\n"
+	.string "tendrán nada que ver, igual que un\l"
+	.string "LEGENDARIO. No, igual no, su privilegio\l"
+	.string "de nacimiento será mucho mayor.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_9:
+.string "ANDRA: …$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_10:
+.string "OAK: Ahh… La voluntad… ¡Qué fácil de\n"
+	.string "torcer ante los estímulos y\l"
+	.string "contratiempos adecuados!$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_11:
+.string "ANDRA: No nos has respondido, ¿qué\n"
+	.string "haces en mi BASE, OAK? No se me ha\l"
+	.string "informado de tu presencia aquí.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_12:
+.string "OAK: Recibí una llamada de GIOVANNI, y\n"
+	.string "me informó sobre el posible choque que\l"
+	.string "habéis tenido con DEVON, algo que\l"
+	.string "parece acabáis de confirmarle. He\l"
+	.string "venido a avisaros.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_13:
+.string "ANDRA: ¿Avisarnos?$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_14:
+.string "OAK: Cuando aquí en KANTO apenas\n"
+	.string "habíamos logrado crear la primera\l"
+	.string "versión de PORYGON, DEVON ya simuló el\l"
+	.string "poder de un PSEUDOLEGENDARIO, creando\l"
+	.string "a METAGROSS.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_15:
+.string "De eso hace ya varios años, quién sabe a\n"
+	.string "día de hoy los medios de los que\l"
+	.string "disponen.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_16:
+.string "Por fortuna no saben nada de MEWTWO,\n"
+	.string "pero BLAINE y yo colaboramos con ellos\l"
+	.string "en el pasado, y están al tanto de todos\l"
+	.string "nuestros avances respecto a DEOXYS.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_17:
+.string "ANDRA: {PLAYER} ya los derrotó, ha\n"
+	.string "derrotado a las mayores fuerzas del\l"
+	.string "MUNDO POKÉMON; nada de lo que puedan\l"
+	.string "crear superará eso.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_18:
+.string "OAK: Tal vez, pero no es necesario crear\n"
+	.string "algo con mayor poder bruto, algo más\l"
+	.string "eficiente y optimizado para las leyes\l"
+	.string "que rigen nuestros combates podría\l"
+	.string "ser suficiente para haceros caer.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_19:
+.string "ANDRA: ¿Qué quieres decir?$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_20:
+.string "OAK: Que andéis con cuidado, no sabemos\n"
+	.string "qué buscan, ni qué poder, ni qué\l"
+	.string "intenciones tienen.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_21:
+.string "Como vosotros, quiero ver a la\n"
+	.string "KANTO-JOHTO de los 251 originales\l"
+	.string "triunfar. Espero que lo tengáis en\l"
+	.string "cuenta y acudamos a la II GRAN REUNIÓN\l"
+	.string "de TRIGAL como aliados de verdad.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_22:
+.string "ANDRA: Este OAK… nos trata como si aún\n"
+	.string "fuéramos reclutas recogiendo FÓSILES\l"
+	.string "en el MT.MOON. Deberíamos callarle la\l"
+	.string "boca de nuevo en un combate.$"
+
+BaseRocketHoenn_Encuentro_Oak_Texto_23:
+.string "En fin, te espero en el S2, toma la\n"
+	.string "TARJETA MAGNÉTICA que da acceso a él.$"
+
+BaseRocketHoenn_Salida_Base::
+compare VAR_UNUSED_0x40F7, 187
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Salida_Base_Move_1
+waitmovement 0x0
+msgbox BaseRocketHoenn_Salida_Base_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, BaseRocketHoenn_Salida_Base_Move_2
+waitmovement 0x0
+release
+end
+
+BaseRocketHoenn_Salida_Base_Texto_1:
+.string "(Esta es la salida, debería ver antes\n"
+.string "la BASE con ANDRA, tal y como\l"
+	.string "acordamos).$"
+
+BaseRocketHoenn_Salida_Base_Move_1:
+walk_in_place_down
+step_end
+
+BaseRocketHoenn_Salida_Base_Move_2:
+walk_slow_left
+step_end
+
+Llave_Despacho_Hoenn_2_Warp::
+msgbox Llave_Despacho_Hoenn_2_Warp_YesNo, MSGBOX_AUTOCLOSE
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 18, 21, 0x335, FALSE
+setmetatile 18, 22, 0x335, FALSE
+setmetatile 19, 22, 0x334, FALSE
+setmetatile 19, 21, 0x334, FALSE
+special DrawWholeMapView
+delay 60
+release
+end
+
+Llave_Despacho_Hoenn_2_Warp_YesNo:
+.string "Usaste la LL.MAGNÉTICA$"
