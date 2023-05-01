@@ -173,3 +173,197 @@ end
 LavenderRadioP6Documento_Text_104:
 .string "-Cuanta más luz hay la sombra es más\n"
 	.string "oscura-.$"
+
+
+LavenderRadioP6_Reunion::
+lock
+msgbox LavenderRadioP6_Reunion_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_6 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_7 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_8 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_9 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_10 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Reunion_Texto_11 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadioP6_Reunion_Texto_1:
+.string "????: ¿De verdad es tan peligrosa\n"
+	.string "DEVON?$"
+
+LavenderRadioP6_Reunion_Texto_2:
+.string "OAK: No sabemos las armas que posee,\n"
+	.string "acabamos de descubrir los MOVIMIENTOS\l"
+	.string "Z, y ellos ya tenían conocimiento de\l"
+	.string "ellos.$"
+
+LavenderRadioP6_Reunion_Texto_3:
+.string "ELM: En los próximos meses pondremos\n"
+	.string "en marcha el plan gestado en PUEBLO\l"
+	.string "PRIMAVERA. Supondrá un antes y un\l"
+	.string "después en la forma en que concebimos\l"
+	.string "el COMBATE POKÉMON, no podrán superar\l"
+	.string "eso.$"
+
+LavenderRadioP6_Reunion_Texto_4:
+.string "BILL: Tampoco conocen la tecnología de\n"
+	.string "ONDAS DE RADIO, que sepamos.$"
+
+LavenderRadioP6_Reunion_Texto_5:
+.string "OAK: ¿Dónde está tu ayudante, BILL?\n"
+	.string "Debería ir preparándose para la\l"
+	.string "ceremonia.$"
+
+LavenderRadioP6_Reunion_Texto_6:
+.string "BILL: Estará con sus FÓSILES, en el S3\n"
+	.string "de SILPH, como siempre.$"
+
+LavenderRadioP6_Reunion_Texto_7:
+.string "OAK: Debería prepararse para la\n"
+	.string "inauguración, después de todo él era\l"
+	.string "uno de los mayores interesados.$"
+
+LavenderRadioP6_Reunion_Texto_8:
+.string "BILL: ¡Bah! Está obsesionado con unos\n"
+	.string "FÓSILES de potencial limitado, hemos\l"
+	.string "demostrado que en PORYGON, MEWTWO y\l"
+	.string "LEGENDARIOS como las BESTIAS de JOHTO\l"
+	.string "está el futuro.$"
+
+LavenderRadioP6_Reunion_Texto_9:
+.string "Incluso los NIDORAN clásicos tienen\n"
+	.string "más potencial.$"
+
+LavenderRadioP6_Reunion_Texto_10:
+.string "PRESIDENTE: ANDRA y {PLAYER} deben\n"
+	.string "de estar al caer. Subamos ya, ambos\l"
+	.string "quedarán sorprendidos con el\l"
+	.string "funcionamiento de las ONDAS DE RADIO.$"
+
+LavenderRadioP6_Reunion_Texto_11:
+.string "OAK: Puede que no tanto.$"
+
+
+LavenderRadioP6_Combate_Bill::
+lock
+msgbox LavenderRadioP6_Combate_Bill_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_6 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_7 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_8 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_9 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_10 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_11 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Combate_Bill_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadioP6_Combate_Bill_Texto_1:
+.string "BILL: Por fin llegas. Te estaba\n"
+	.string "esperando, {PLAYER}. ¿Creías que iba\l"
+	.string "a subir igual que los demás?$"
+
+LavenderRadioP6_Combate_Bill_Texto_2:
+.string "La azotea es la zona de investigación\n"
+	.string "más importante de toda la TORRE RADIO,\l"
+	.string "dónde mejor se puede trabajar con las\l"
+	.string "ondas. Por eso hay una única vía de\l"
+	.string "acceso.$"
+
+LavenderRadioP6_Combate_Bill_Texto_3:
+.string "Eso quiere decir que estás obligado a\n"
+	.string "pasar por aquí para subir a la azotea,\l"
+	.string "pero también…$"
+
+LavenderRadioP6_Combate_Bill_Texto_4:
+.string "¡Que estás obligado a combatir conmigo\n"
+	.string "una vez más!$"
+
+LavenderRadioP6_Combate_Bill_Texto_5:
+.string "¡¿Otra vez?! ¡¿Por qué?!$"
+
+LavenderRadioP6_Combate_Bill_Texto_6:
+.string "BILL: ¿Qué clase de poder tienes? ¿Por\n"
+	.string "qué en las pruebas y en los informes\l"
+	.string "mis POKÉMON machacan a los tuyos, pero\l"
+	.string "después en la práctica no ocurre así?$"
+
+LavenderRadioP6_Combate_Bill_Texto_7:
+.string "…$"
+
+LavenderRadioP6_Combate_Bill_Texto_8:
+.string "¡¿El POKÉMON ESENCIA era real y yo\n"
+	.string "estaba equivocado?! ¿Has sido\l"
+	.string "bendecido por él y por el FUERTE\l"
+	.string "VÍNCULO? ¿Yo nunca seré capaz de\l"
+	.string "experimentar algo similar con ningún\l"
+	.string "POKÉMON?$"
+
+LavenderRadioP6_Combate_Bill_Texto_9:
+.string "¡Bah! Te creía más serio, {PLAYER}.\n"
+	.string "¿De verdad crees toda esa basura\l"
+	.string "sentimental que acabas de mencionar?$"
+
+LavenderRadioP6_Combate_Bill_Texto_10:
+.string "Lo único que vale es lo que podemos\n"
+	.string "medir, y por ende mejorar. El resto de\l"
+	.string "vagos conceptos sin fundamento serán\l"
+	.string "engullidos por el perfeccionamiento de\l"
+	.string "lo que sí podemos controlar.$"
+
+LavenderRadioP6_Combate_Bill_Texto_11:
+.string "Haré que la diferencia sea tan\n"
+	.string "flagrante que esos detalles sin\l"
+	.string "importancia sean despreciables.$"
+
+LavenderRadioP6_Combate_Bill_Texto_12:
+.string "¡Crearé un PORYGON4, PORYGON5 o 10 si\n"
+	.string "es necesario! Cuando matemáticamente\l"
+	.string "te derrote siempre de un solo golpe y\l"
+	.string "tú no puedas hacer nada, ahí me\l"
+	.string "hablarás de vínculos y demás\l"
+	.string "historias.$"
+
+LavenderRadioP6_Encuentro_Andra::
+lock
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_6 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadioP6_Encuentro_Andra_Texto_1:
+.string "ANDRA: Por una vez llegas antes.$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_2:
+.string "…$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_3:
+.string "Ya hemos estado en esta situación\n"
+	.string "muchas veces, {PLAYER}. Estar\l"
+	.string "expectante, apunto de vivir algo sin\l"
+	.string "tener ni idea de qué ocurrirá, esa\l"
+	.string "incertidumbre...$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_4:
+.string "Pero esta vez presiento que será\n"
+	.string "diferente, al menos para mí.$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_5:
+.string "…$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_6:
+.string "No estoy segura de querer ver lo que\n"
+	.string "hay más allá de esas escaleras, pero\l"
+	.string "las cruzaremos juntos.$"
+

@@ -142,3 +142,77 @@ LavenderRadioP2Documento_Text_101:
 .string "-Una vez que te acostumbras, es difícil\n"
 	.string "rendirse. Mejor permanecer\l"
 	.string "hambriento-.$"
+
+LavenderRadioP2_Evento_Fuji::
+lock
+msgbox LavenderRadioP2_Evento_Fuji_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_7 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_8 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_9 MSGBOX_AUTOCLOSE
+msgbox LavenderRadioP2_Evento_Fuji_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadioP2_Evento_Fuji_Texto_1:
+.string "FUJI: ¡Oh! Qué pronto has llegado,\n"
+	.string "{PLAYER}, ANDRA aún no ha llegado.$"
+
+LavenderRadioP2_Evento_Fuji_Texto_2:
+.string "Debería de estar en el nuevo\n"
+	.string "CEMENTERIO, tengo que recolocar todas\l"
+	.string "las tumbas. Quería dar una vuelta por\l"
+	.string "aquí, y comparar el nuevo lugar con el\l"
+	.string "antiguo.$"
+
+LavenderRadioP2_Evento_Fuji_Texto_3:
+.string "La TORRE RADIO ha conservado las\n"
+	.string "medidas y pisos originales de TORRE\l"
+	.string "LAVANDA. Aunque solo será perceptible\l"
+	.string "para los que trabajemos aquí, el resto\l"
+	.string "no podrá pasar de la primera planta, y\l"
+	.string "con motivo…$"
+
+LavenderRadioP2_Evento_Fuji_Texto_4:
+.string "BILL y ELM conocen mejor su\n"
+	.string "funcionamiento. Al parecer estas ondas\l"
+	.string "de radio rastrean posibles mutaciones,\l"
+	.string "el 99,9% perjudiciales para un POKÉMON\l"
+	.string "y su rendimiento. Aquí nos\l"
+	.string "encargaremos de seleccionar ese 0,1%\l"
+	.string "restante, el que nos puede ser útil\l"
+	.string "para producir incrementos en el poder\l"
+	.string "de un POKÉMON…$"
+
+LavenderRadioP2_Evento_Fuji_Texto_5:
+.string "Este tipo de cuestiones a mí ya no me\n"
+	.string "incumben, tuve suficiente con MEWTWO.$"
+
+LavenderRadioP2_Evento_Fuji_Texto_6:
+.string "Solo espero poder ocuparme de las almas\n"
+	.string "desplazadas. Al fin veo atisbos de paz\l"
+	.string "y tranquilidad en PUEBLO LAVANDA,\l"
+	.string "puede que esta torre traiga una\l"
+	.string "inesperada estabilidad, aunque la\l"
+	.string "mayoría desconozca su propósito.$"
+
+LavenderRadioP2_Evento_Fuji_Texto_7:
+.string "…$"
+
+LavenderRadioP2_Evento_Fuji_Texto_8:
+.string "Me haría especial ilusión que visitases\n"
+	.string "el nuevo CEMENTERIO, al sur del pueblo.$"
+
+LavenderRadioP2_Evento_Fuji_Texto_9:
+.string "Según me ha dicho BILL, aún queda para\n"
+	.string "la inauguración. Lo cierto es que me\l"
+	.string "gustaría que hicieras algo por mi, creo\l"
+	.string "que eres el más indicado.$"
+
+LavenderRadioP2_Evento_Fuji_Texto_10:
+.string "Te espero en el CEMENTERIO, al sur del\n"
+	.string "pueblo, no tiene pérdida, {PLAYER}.$"

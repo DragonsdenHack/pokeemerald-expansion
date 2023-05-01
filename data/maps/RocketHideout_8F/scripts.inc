@@ -4020,3 +4020,390 @@ RocketHideout_8F_Mision_Neo_Canela_Texto_11:
 	.string "ENTRENADOR como tú de nuestro lado,\l"
 	.string "espero que puedas recuperar todo lo\l"
 	.string "posible de esta catástrofe.$"
+
+RocketHideout_8F_Mision_Central_Energia::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_2
+waitmovement 0x0
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_1 MSGBOX_DEFAULT
+waitfanfare
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_2 MSGBOX_AUTOCLOSE
+showmoneybox 0, 0
+delay 20
+playse SE_SHOP
+addmoney 2000000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_3 MSGBOX_DEFAULT
+waitfanfare
+hidemoneybox
+delay 40
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_4 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_5 MSGBOX_DEFAULT
+givemon SPECIES_SILVALLY, 70, ITEM_NONE
+waitfanfare
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_3
+waitmovement 0x0
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_10 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_11 MSGBOX_AUTOCLOSE
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_5
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Central_Energia_Texto_15 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+fadescreen 1
+delay 20
+removeobject 1
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 109
+release
+end
+
+RocketHideout_8F_Mision_Central_Energia_Move_5:
+walk_slow_down
+step_end
+
+RocketHideout_8F_Mision_Central_Energia_Move_4:
+face_up
+step_end
+
+RocketHideout_8F_Mision_Central_Energia_Move_3:
+walk_slow_right
+step_end
+
+RocketHideout_8F_Mision_Central_Energia_Move_1:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Central_Energia_Move_2:
+walk_slow_left
+step_end
+
+RocketHideout_8F_Mision_Central_Energia_Texto_1:
+.string "({PLAYER} entregó a GIOVANNI el\n"
+	.string "DISCO DURO)$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_2:
+.string "GIOVANNI: No esperaba menos de ti,\n"
+	.string "{PLAYER}. No hay recompensa que\l"
+	.string "pueda igualar la información que\l"
+	.string "acabas de recuperar. Hay millones\l"
+	.string "invertidos en investigación aquí\l"
+	.string "dentro, qué menos que darte unos\l"
+	.string "tantos de ellos.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_3:
+.string "¡{PLAYER} OBTUVO 2 MILLONES DE\n"
+	.string "POKÉS!$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_4:
+.string "Toma esto también, es un proyecto\n"
+	.string "proveniente de una región lejana,\l"
+	.string "algunos de nuestros mejores\l"
+	.string "científicos han tenido contacto con\l"
+	.string "él.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_5:
+.string "¡OBTUVISTE UN SILVALLY AL NV.70!$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_6:
+.string "Al parecer, puede cambiar de tipo en\n"
+	.string "función del objeto que lleve equipado.\l"
+	.string "En los pisos superiores de la TORRE\l"
+	.string "RADIO de LAVANDA se venderán, dentro\l"
+	.string "de muy poco podrás entrar, {PLAYER}.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_7:
+.string "Volviendo al tema de CANELA…\n"
+	.string "Agradecería que no hablaras con nadie\l"
+	.string "sobre lo que hayas podido ver ahí, ni\l"
+	.string "siquiera con ANDRA.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_8:
+.string "Muchos de los prototipos que ahí\n"
+	.string "dejamos están en fase de prueba, son\l"
+	.string "inestables y están por perfeccionar.\l"
+	.string "Aún así, habrás sentido el tremendo\l"
+	.string "potencial de algunos.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_9:
+.string "Hasta que no estemos seguros de tener\n"
+	.string "algo grande de verdad, que podamos\l"
+	.string "controlar con total garantía… esos\l"
+	.string "proyectos son totalmente\l"
+	.string "confidenciales, ¿me entiendes\l"
+	.string "{PLAYER}?$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_10:
+.string "Ahora, hablemos de tu próxima misión:\n"
+	.string "finiquitar el asunto de las vías hacia\l"
+	.string "AZAFRÁN.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_11:
+.string "Al parecer, ese extraño POKÉMON ha\n"
+	.string "vuelto, y está interfiriendo con la\l"
+	.string "fase final de la construcción.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_12:
+.string "Me temo que no queda otra que\n"
+	.string "capturarlo para que definitivamente no\l"
+	.string "cause más problemas.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_13:
+.string "De modo que tu misión será, a las\n"
+	.string "vísperas de la II GRAN REUNIÓN en\l"
+	.string "TRIGAL, hacerte cargo de ese POKÉMON.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_14:
+.string "Yo partiré ya hacia TRIGAL, debo montar\n"
+	.string "los preparativos de la reunión junto\l"
+	.string "con el PRESIDENTE.$"
+
+RocketHideout_8F_Mision_Central_Energia_Texto_15:
+.string "Es el momento de ir recogiendo los\n"
+	.string "frutos de nuestro trabajo, {PLAYER}.\l"
+	.string "En muy poco tiempo estamos viviendo\l"
+	.string "grandes transformaciones en ambas\l"
+	.string "regiones, esas mismas que llevan 1 año\l"
+	.string "fraguándose, desde la I GRAN REUNIÓN o\l"
+	.string "incluso antes.$"
+
+
+
+RocketHideout_8F_Final_DLC::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_2
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_1 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 40
+fadescreen 0
+msgbox RocketHideout_8F_Final_DLC_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_1
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_2
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Final_DLC_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_5
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Final_DLC_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_5
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_7
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_13 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, RocketHideout_8F_Final_DLC_Texto_14
+applymovement 1, CuevaTesoro4_Jefe_Final_Move_9
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_16 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketHideout_8F_Final_DLC_Texto_17 MSGBOX_DEFAULT
+givemon SPECIES_MEWTWO, 70, ITEM_MEWTWONITE_Y
+waitfanfare
+msgbox RocketHideout_8F_Final_DLC_Texto_18 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_8F_Final_DLC_Texto_19 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_1
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Final_DLC_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Final_DLC_Texto_21 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_8F_Final_DLC_Move_7:
+walk_slow_down
+step_end
+
+RocketHideout_8F_Final_DLC_Move_6:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Final_DLC_Move_5:
+face_up
+step_end
+
+RocketHideout_8F_Final_DLC_Move_4:
+walk_slow_left
+step_end
+
+RocketHideout_8F_Final_DLC_Move_3:
+walk_slow_right
+step_end
+
+RocketHideout_8F_Final_DLC_Move_2:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Final_DLC_Move_1:
+face_right
+step_end
+
+RocketHideout_8F_Final_DLC_Texto_1:
+.string "GIOVANNI: ¡{PLAYER}! Debimos estar\n"
+	.string "ahí ATLAS y yo. Cuéntame todo, ¿y\l"
+	.string "ANDRA?.$"
+
+RocketHideout_8F_Final_DLC_Texto_2:
+.string "Ya veo. Debimos suponer que el ambiente\n"
+	.string "y rol de DEVON eran muy atractivos para\l"
+	.string "alguien como el ayudante de BILL.\l"
+	.string "Supongo que tenía razón, nunca le\l"
+	.string "prestamos la atención suficiente.$"
+
+RocketHideout_8F_Final_DLC_Texto_3:
+.string "En cuanto a ANDRA… tal vez sea mejor\n"
+	.string "así. Después de todo, puede que su\l"
+	.string "búsqueda concluya en un\l"
+	.string "descubrimiento más importante que\l"
+	.string "todas las investigaciones que estamos\l"
+	.string "llevando a cabo…$"
+
+RocketHideout_8F_Final_DLC_Texto_4:
+.string "Por otro lado, DEVON ha movido ficha.\n"
+	.string "Esto no cambia en nada nuestros\l"
+	.string "planes, a pesar de que sepan todo lo\l"
+	.string "hablado en la II GRAN REUNIÓN.$"
+
+RocketHideout_8F_Final_DLC_Texto_5:
+.string "Ante la ausencia de ANDRA, nuestra BASE\n"
+	.string "de HOENN ha quedado sin un LÍDER, tú\l"
+	.string "estarás al mando. Después de lo de\l"
+	.string "RUINAS ALFA, todos los POKÉMON\l"
+	.string "LEGENDARIOS que allí se concentraron\l"
+	.string "volvieron a su lugar de origen. Esto\l"
+	.string "implica que los 3 LEGENDARIOS de\l"
+	.string "HOENN: KYOGRE, GROUDON y RAYQUAZA,\l"
+	.string "estarán allí, uno de tus objetivos será\l"
+	.string "encontrarlos, para poder estudiarlos.\l"
+	.string "Sin embargo…$"
+
+RocketHideout_8F_Final_DLC_Texto_6:
+.string "Tu misión primordial será obtener toda\n"
+	.string "la información posible sobre DEVON.$"
+
+RocketHideout_8F_Final_DLC_Texto_7:
+.string "Dónde opera, en qué lugar asienta sus\n"
+	.string "laboratorios de investigación, cuáles\l"
+	.string "son sus proyectos y ambiciones…$"
+
+RocketHideout_8F_Final_DLC_Texto_8:
+.string "OAK vino poco antes que tú, fue el\n"
+	.string "primero en ponerme al tanto.$"
+
+RocketHideout_8F_Final_DLC_Texto_9:
+.string "Se enfrentó personalmente a su\n"
+	.string "PRESIDENTE, y fue derrotado. Esto al\l"
+	.string "tiempo que sus EJECUTIVOS contuvieron\l"
+	.string "a BILL, ANDRA y ELM.$"
+
+RocketHideout_8F_Final_DLC_Texto_10:
+.string "No hay duda de que cuentan con\n"
+	.string "recursos, y conocen bien el arte del\l"
+	.string "combate POKÉMON.$"
+
+RocketHideout_8F_Final_DLC_Texto_11:
+.string "Tal vez puedan llevarte al límite de tu\n"
+	.string "nivel, más aún que en RUINAS ALFA,\l"
+	.string "quién sabe.$"
+
+RocketHideout_8F_Final_DLC_Texto_12:
+.string "Es por ello, {PLAYER}, que quiero\n"
+	.string "volver a ponerte a prueba, esta vez\l"
+	.string "haciendo uso de nuestros proyectos\l"
+	.string "más punteros.$"
+
+RocketHideout_8F_Final_DLC_Texto_13:
+.string "Ahora, ¡enfrenta todo el poder de la\n"
+	.string "tecnología desarrollada por 2\l"
+	.string "regiones!$"
+
+RocketHideout_8F_Final_DLC_Texto_14:
+.string "Asombroso, sigues estando en la cima.$"
+
+RocketHideout_8F_Final_DLC_Texto_15:
+.string "No hay duda, eres el activo más valioso\n"
+	.string "con el que el TEAM ROCKET cuenta. Tu\l"
+	.string "historia como ENTRENADOR LEGENDARIO\l"
+	.string "tiene aún mucho por ofrecer, créeme.$"
+
+RocketHideout_8F_Final_DLC_Texto_16:
+.string "Quiero que tengas esto, sé que no\n"
+	.string "recurrirás a ello como una panacea que\l"
+	.string "solucionará todo, tal y como nosotros\l"
+	.string "intentamos en el pasado, pero\l"
+	.string "considéralo una opción más.$"
+
+RocketHideout_8F_Final_DLC_Texto_17:
+.string "¡¡OBTUVISTE UN MEWTWO AL NV.70!!$"
+
+RocketHideout_8F_Final_DLC_Texto_18:
+.string "El MEWTWO original es tuyo, {PLAYER}.$"
+
+RocketHideout_8F_Final_DLC_Texto_19:
+.string "Por supuesto, viene con lo último en\n"
+	.string "tecnología: la MEGA-PIEDRA que le\l"
+	.string "convierte en su forma Y. Como dije en la\l"
+	.string "reunión, el &-VOLCARONA que\l"
+	.string "enfrentaste fue vital en la mejora de\l"
+	.string "su ATAQUE ESPECIAL hasta niveles\l"
+	.string "estratosféricos.$"
+
+RocketHideout_8F_Final_DLC_Texto_20:
+.string "Eso es todo, {PLAYER}. Te recomiendo\n"
+	.string "explorar y adaptarte poco a poco a\l"
+	.string "HOENN. La sede de DEVON está en CIUDAD\l"
+	.string "FÉRRICA, sin embargo, no sabemos si ese\l"
+	.string "es o no su centro de operaciones.$"
+
+RocketHideout_8F_Final_DLC_Texto_21:
+.string "Mientras, seguiremos desarrollando los\n"
+	.string "prototipos de nivel II y …III. Hasta\l"
+	.string "entonces… mantente mejorando.$"
+

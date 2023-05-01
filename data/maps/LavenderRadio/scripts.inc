@@ -83,3 +83,36 @@ LavenderRadioDocumento_Text_101:
 	.string "2do Piso - Producción y Ventas\l"
 	.string "3er Piso - Oficina del Director\l"
 	.string "4to Piso - Terraza$"
+
+LavenderRadio_Evento_Guay::
+msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
+msgbox LavenderRadio_Evento_Guay_Texto_2 MSGBOX_AUTOCLOSE
+msgbox LavenderRadio_Evento_Guay_Texto_3 MSGBOX_AUTOCLOSE
+msgbox LavenderRadio_Evento_Guay_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadio_Evento_Guay_Texto_1:
+.string "POLICIA: Lo siento, pero solo puedes\n"
+	.string "dar una vuelta por la planta baja.\l"
+	.string "Desde que una banda criminal asaltó la\l"
+	.string "SEDE SILPH, tuvimos que incrementar\l"
+	.string "las medidas de seguridad.$"
+
+LavenderRadio_Evento_Guay_Texto_2:
+.string "ENTR.GUAY: ¡Jo! ¡Con la ilusión que me\n"
+	.string "hacía ver las plantas de arriba! ¡Ya no\l"
+	.string "se puede entrar tampoco a SILPH, KANTO\l"
+	.string "está vacía!$"
+
+LavenderRadio_Evento_Guay_Texto_3:
+.string "POLICÍA: KANTO está más llena que\n"
+	.string "nunca… para las personas adecuadas.$"
+
+LavenderRadio_Evento_Guay_Texto_4:
+.string "Le estábamos esperando, ADMIN.JEFE\n"
+	.string "{PLAYER}. Tenemos preparada una\l"
+	.string "ceremonia de inauguración en la\l"
+	.string "azotea, puede visitar los pisos\l"
+	.string "superiores cuando guste.$"
+
