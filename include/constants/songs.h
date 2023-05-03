@@ -549,27 +549,33 @@
 #define MUS_BW_CASTILLO             612
 #define MUS_BW_ROUTE10              613
 #define MUS_ENCOUNTER_MIRTO         614
-#define MUS_ENCOUNTER_OAK           615
-#define MUS_MANSION_OAK             616
+
+
 #define MUS_PORTADA                 617
 #define MUS_ROCAOMBLIGO             618
 #define MUS_VS_ANDRA                619
 #define MUS_VS_ATLAS                620
-#define MUS_VS_AZUL                 621
+
 #define MUS_VS_LANCE                622
 #define MUS_VS_LUGIA                623
-#define MUS_VS_LUGIA2               624
+#define MUS_VS_BILL               	624
 #define MUS_VS_OAK                  625
-#define MUS_VS_SECTA                626
+#define MUS_VS_SECTA                626  //cancion final de jones
 #define MUSSAQUA                    627
 #define MUS_UNKNOWN_CHAMBER         628
 #define MUS_GSC_VS_WILD             629
 #define MUS_VS_GIOVANNI             630
 #define MUS_ZEUS_ENCOUNTER			631
 #define MUS_GIOVANNI_ENCOUNTER		632
-#define MUS_VS_BILL					633
+#define MUS_VS_JONES			    633
 #define MUS_GSC_VS_LEADER			634
 #define MUS_GSC_ROCKET_HIDEOUT		635
+#define MUS_VS_RED					636
+#define MUS_UNKNOWN_CHAMBER2        637
+#define MUS_VS_ELM					638
+#define MUS_VS_TRAINER2				639  //cancion especial granjeros johto y mas
+#define MUS_VS_ZEUS					640
+#define MUS_BW_CASTILLO2            641
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

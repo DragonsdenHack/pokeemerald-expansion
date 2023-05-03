@@ -563,26 +563,32 @@ gSongTable::
 	song mus_encounter_andra, 0, 0
 	song mus_baseprofunda, 0, 0
 	song mus_unknown_chamber, 0, 0
+	song mus_unknown_chamber2, 0, 0
 	song mus_bw_castillo 0, 0
+	song mus_bw_castillo2 0, 0
 	song mus_bw_route10 0, 0
 	song mus_encounter_mirto 0, 0
-	song mus_encounter_oak 0, 0
-	song mus_mansion_oak 0, 0
 	song mus_portada 0, 0
 	song mus_rocaombligo, 0, 0
 	song mus_vs_andra 0, 0
 	song mus_vs_atlas 0, 0
-	song mus_vs_azul 0, 0
+	song mus_vs_red 0,0
 	song mus_vs_lance 0, 0
 	song mus_vs_lugia 0, 0
-	song mus_vs_lugia2 0, 0
+	song mus_vs_bill 0, 0
 	song mus_vs_oak 0, 0
 	song mus_vs_secta 0, 0
+	song mus_vs_jones 0, 0
+	song mus_vs_elm 0, 0
+	song mus_vs_trainer2 0, 0
 	song mussaqua 0, 0
 	song mus_gsc_vs_wild 0, 0
+	song mus_giovanni_encounter 0, 0
 	song mus_vs_giovanni 0, 0
 	song mus_gsc_leader 0, 0
-	song mus_gsc_rocket_hideout 0,0
+	song mus_gsc_rocket_hideout 0, 0
+	song mus_zeus_encounter 0, 0
+	song mus_vs_zeus 0,0
 	song ph_trap_blend, 2, 2
 	song ph_trap_held, 2, 2
 	song ph_trap_solo, 2, 2
