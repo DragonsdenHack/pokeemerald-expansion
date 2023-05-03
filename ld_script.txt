@@ -1237,26 +1237,32 @@ SECTIONS {
         sound/songs/midi/mus_encounter_andra.o(.rodata);       
         sound/songs/midi/mus_baseprofunda.o(.rodata);
         sound/songs/midi/mus_bw_castillo.o(.rodata);
+		sound/songs/midi/mus_bw_castillo2.o(.rodata);
         sound/songs/midi/mus_bw_route10.o(.rodata);
         sound/songs/midi/mus_encounter_mirto.o(.rodata);
-        sound/songs/midi/mus_encounter_oak.o(.rodata);
-        sound/songs/midi/mus_mansion_oak.o(.rodata);
         sound/songs/midi/mus_portada.o(.rodata);
         sound/songs/midi/mus_rocaombligo.o(.rodata);
         sound/songs/midi/mus_vs_andra.o(.rodata);
         sound/songs/midi/mus_vs_atlas.o(.rodata);
-        sound/songs/midi/mus_vs_azul.o(.rodata);
         sound/songs/midi/mus_vs_lance.o(.rodata);
         sound/songs/midi/mus_vs_lugia.o(.rodata);
-        sound/songs/midi/mus_vs_lugia2.o(.rodata);
+        sound/songs/midi/mus_vs_bill.o(.rodata);
         sound/songs/midi/mus_vs_oak.o(.rodata);
         sound/songs/midi/mus_vs_secta.o(.rodata);
         sound/songs/midi/mussaqua.o(.rodata);
         sound/songs/midi/mus_unknown_chamber.o(.rodata);
+		sound/songs/midi/mus_unknown_chamber2.o(.rodata);
         sound/songs/midi/mus_gsc_vs_wild.o(.rodata);
         sound/songs/midi/mus_vs_giovanni.o(.rodata);
+		sound/songs/midi/mus_giovanni_encounter.o(.rodata);
+		sound/songs/midi/mus_zeus_encounter.o(.rodata);
+		sound/songs/midi/mus_vs_zeus.o(.rodata);
 		sound/songs/midi/mus_gsc_leader.o(.rodata);
 		sound/songs/midi/mus_gsc_rocket_hideout.o(.rodata);
+		sound/songs/midi/mus_vs_red.o(.rodata);
+		sound/songs/midi/mus_vs_jones.o(.rodata);
+		sound/songs/midi/mus_vs_elm.o(.rodata);
+		sound/songs/midi/mus_vs_trainer2.o(.rodata);
     } =0
 
     lib_rodata :
