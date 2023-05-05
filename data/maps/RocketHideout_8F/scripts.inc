@@ -4079,7 +4079,7 @@ fadescreen 1
 delay 20
 removeobject 1
 fadescreen 0
-setvar VAR_UNUSED_0x40F7, 109
+setvar VAR_UNUSED_0x40F7, 202
 release
 end
 

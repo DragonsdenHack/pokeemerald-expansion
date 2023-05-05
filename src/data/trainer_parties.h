@@ -24506,66 +24506,157 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER137[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER138[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER138[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_NIDOKING,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_GUNK_SHOT, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_NIDOQUEEN,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_EARTH_POWER, MOVE_SLUDGE_WAVE, MOVE_FLAMETHROWER, MOVE_NONE}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER139[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER139[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_ELECTIVIRE,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_THUNDER_PUNCH, MOVE_ICE_PUNCH, MOVE_FIRE_PUNCH, MOVE_CROSS_CHOP}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_MAGMORTAR,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_THUNDER, MOVE_FOCUS_BLAST, MOVE_FIRE_BLAST, MOVE_NONE}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER140[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER140[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_FLY, MOVE_STONE_EDGE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_TAUROS,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .moves = {MOVE_HEAD_SMASH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER141[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER141[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_PORYGON_Z,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_TRI_ATTACK, MOVE_THUNDERBOLT, MOVE_PSYCHIC, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_PORYGON,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_SHADOW_BALL, MOVE_PSYCHIC, MOVE_TRI_ATTACK, MOVE_NONE}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER142[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_NIDOKING,
+    .heldItem = ITEM_POISON_GEM,
+    .moves = {MOVE_GUNK_SHOT, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_MAGMORTAR,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .moves = {MOVE_FIRE_BLAST, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_PORYGON,
+    .heldItem = ITEM_FOCUS_SASH,
+    .moves = {MOVE_HYPER_BEAM, MOVE_SHADOW_BALL, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_AERODACTYL,
+    .heldItem = ITEM_FLYINIUM_Z,
+    .moves = {MOVE_SKY_ATTACK, MOVE_STONE_EDGE, MOVE_AQUA_TAIL, MOVE_DRAGON_CLAW}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_ELECTRODE,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_REFLECT, MOVE_LIGHT_SCREEN, MOVE_THUNDERBOLT, MOVE_FLASH_CANNON}
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_NIDOKING,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_GUNK_SHOT, MOVE_METEOR_MASH, MOVE_CROSS_CHOP, MOVE_NONE}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER143[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER143[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 100,
+    .species = SPECIES_MEWTWO,
+    .heldItem = ITEM_FIGHTINIUM_Z,
+    .moves = {MOVE_PSYSTRIKE, MOVE_ICE_BEAM, MOVE_AURA_SPHERE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_MEWTWO,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_PSYCHIC, MOVE_FLASH_CANNON, MOVE_FLAMETHROWER, MOVE_RECOVER}
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER144[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER144[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 98,
+    .species = SPECIES_DEOXYS_SPEED,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_SPIKES, MOVE_REFLECT, MOVE_PSYCHIC}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_DEOXYS_DEFENSE,
+    .heldItem = ITEM_ROCKY_HELMET,
+    .moves = {MOVE_COSMIC_POWER, MOVE_TAUNT, MOVE_NIGHT_SHADE, MOVE_RECOVER}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_DEOXYS_ATTACK,
+    .heldItem = ITEM_LIFE_ORB,
+    .moves = {MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_AURA_SPHERE, MOVE_SHADOW_BALL}
     }
 };
 

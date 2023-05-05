@@ -85,3 +85,44 @@ NeoPowerPlant_Text_9:
 .string "Ayudé en la construcción de las VÍAS DE\n"
 .string "TREN, ahora me aseguro de que al\l"
 .string "MAGNETOTRÉN no le falte energía.$"
+
+
+NeoPowerPlant_Obtencion_Xurkitree::
+lock
+faceplayer
+checkmoncatch SPECIES_XURKITREE
+goto_if_eq VAR_RESULT, FALSE, NeoPowerPlant_Obtencion_Xurkitree_2
+msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+NeoPowerPlant_Obtencion_Xurkitree_2::
+msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_2 MSGBOX_AUTOCLOSE
+ playfanfare MUS_OBTAIN_TMHM
+msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_3 MSGBOX_DEFAULT
+	givemon SPECIES_XURKITREE, 70, ITEM_FLYING_GEM
+	waitfanfare  
+release
+end
+
+
+NeoPowerPlant_Obtencion_Xurkitree_Texto_1:
+.string "{PLAYER}, no tengo palabras para\n"
+	.string "expresar mi agradecimiento. A alguien\l"
+	.string "como tú es difícil de sorprender con\l"
+	.string "regalos, pero había un POKÉMON muy\l"
+	.string "extraño adherido al generador. Nadie lo\l"
+	.string "conocía, mira.$"
+
+NeoPowerPlant_Obtencion_Xurkitree_Texto_2:
+.string "¡OBTUVISTE UN XURKITREE AL NV.70!$"
+
+NeoPowerPlant_Obtencion_Xurkitree_Texto_3:
+.string "Nuestros mecánicos lo encontraron\n"
+	.string "justo después de que derrotaras a\l"
+	.string "ZAPDOS. Estaba totalmente debilitado,\l"
+	.string "creemos que fue la energía de este\l"
+	.string "POKÉMON, y no del generador, la que\l"
+	.string "atrajo a ZAPDOS. Parece que ZAPDOS-P\l"
+	.string "absorbió toda su electricidad, y por\l"
+	.string "eso lo encontramos así.$"

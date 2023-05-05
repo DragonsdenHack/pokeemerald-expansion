@@ -10,8 +10,49 @@ MtSilverPkmnCenter2::
 lock     
 faceplayer     
 msgbox MtSilver_PkmnCenter_Text_2, MSGBOX_DEFAULT
+compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 3
+goto_if_gt MtSilverPkmnCenter2_Campeona_Anciana
 release     
 end
+
+MtSilverPkmnCenter2_Campeona_Anciana::
+delay 20
+msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_6 MSGBOX_AUTOCLOSE
+setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 5
+release
+end
+
+MtSilverPkmnCenter2_Campeona_Anciana_Texto_2:
+.string "… …$"
+
+MtSilverPkmnCenter2_Campeona_Anciana_Texto_3:
+.string "¿Tienes curiosidad por conocer mi\n"
+	.string "equipo? Me temo que tendrás que\l"
+	.string "convivir con esa curiosidad, jovencito.\l"
+	.string "Pertenezco a otra generación, y solo\l"
+	.string "cabe en la ficción lo que pudo haber\l"
+	.string "ocurrido en un eventual choque entre\l"
+	.string "nuestros equipos en plenitud.$"
+
+MtSilverPkmnCenter2_Campeona_Anciana_Texto_4:
+.string "… …$"
+
+MtSilverPkmnCenter2_Campeona_Anciana_Texto_5:
+.string "Así que AGATHA está en el lugar… Era de\n"
+	.string "esperar, siempre se aferró a TORRE\l"
+	.string "LAVANDA.$"
+
+MtSilverPkmnCenter2_Campeona_Anciana_Texto_6:
+.string "Gracias, chico, iré a hablar con mi vieja\n"
+	.string "amiga. Sé que es un viaje largo, pero si\l"
+	.string "te apetece volver a pasarte por ahí,\l"
+	.string "serás bien recibido.$"
+
 
 MtSilver_PkmnCenter_Text_2:
 .string "Ah, sí…\n"

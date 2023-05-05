@@ -124,7 +124,7 @@
       "x": 9,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_ROCKET_HIDEOUT_5F",
+      "dest_map": "MAP_NEO_CINNABAR_ISLAND",
       "dest_warp_id": 2
     },
     {
@@ -250,6 +250,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "190",
       "script": "RocketHideout_8F_Mision_Neo_Canela"
+    },
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "201",
+      "script": "RocketHideout_8F_Mision_Central_Energia"
     }
   ],
   "bg_events": [

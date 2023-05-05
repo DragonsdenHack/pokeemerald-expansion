@@ -1,5 +1,10 @@
 Mision7Lab4_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Mision7Lab4_OnFrame
 	.byte 0
+
+Mision7Lab4_OnFrame:
+map_script_2 VAR_TEMP_0, 0, Mision7Lab4_Seteo_Metatiles
+	.2byte 0
 
 
 
@@ -7,3 +12,703 @@ Mision7Lab4_EventScript_Cientifico::
 	trainerbattle_single TRAINER_TRAINER_31, Mision7Lab4_Text_CientificoIntro, Mision7Lab4_Text_CientificoDefeated
 	msgbox Mision7Lab4_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Mision7Lab4_Dialogo_Oak::
+lock
+clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
+addobject 2
+addobject 3
+addobject 4
+addobject 5
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+delay 15
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_4
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_3
+applymovement 5, Mision7Lab4_Dialogo_Oak_Move_3
+applymovement 3, Mision7Lab4_Dialogo_Oak_Move_3
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Mision7Lab4_Dialogo_Oak_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Mision7Lab4_Dialogo_Oak_Texto_3 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_5
+waitmovement 0x0
+special RemoveCameraObject
+msgbox Mision7Lab4_Dialogo_Oak_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_6
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_8
+applymovement 5, Mision7Lab4_Dialogo_Oak_Move_7
+applymovement 3, Mision7Lab4_Dialogo_Oak_Move_7
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Mision7Lab4_Dialogo_Oak_Texto_6 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 5, Mision7Lab4_Dialogo_Oak_Move_9
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 3, Mision7Lab4_Dialogo_Oak_Move_10
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 5, Mision7Lab4_Dialogo_Oak_Move_3
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_9 MSGBOX_AUTOCLOSE
+delay 20
+msgbox Mision7Lab4_Dialogo_Oak_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 4, Mision7Lab4_Dialogo_Oak_Move_8
+applymovement 5, Mision7Lab4_Dialogo_Oak_Move_7
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_11
+applymovement 4, Mision7Lab4_Dialogo_Oak_Move_7
+applymovement 3, Mision7Lab4_Dialogo_Oak_Move_7
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Mision7Lab4_Dialogo_Oak_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_12
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_11
+waitmovement 0x0
+delay 10
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_11
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_4
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_16 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 2, Mision7Lab4_Dialogo_Oak_Move_7
+waitmovement 0x0
+msgbox Mision7Lab4_Dialogo_Oak_Texto_17 MSGBOX_AUTOCLOSE
+delay 40
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_13
+waitmovement 0x0
+special RemoveCameraObject
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
+removeobject 2
+removeobject 3
+removeobject 4
+removeobject 5
+setvar VAR_UNUSED_0x40F7, 193
+release
+end
+
+Mision7Lab4_Dialogo_Oak_Move_13:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_12:
+walk_in_place_down
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_11:
+walk_slow_down
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_10:
+face_down
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_9:
+emote_exclamation_mark
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_8:
+face_left
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_7:
+face_right
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_6:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_fast_left
+step_end
+
+
+
+Mision7Lab4_Dialogo_Oak_Move_5:
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+walk_fast_right
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_4:
+walk_in_place_left
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_1:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_2:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_right
+walk_right
+walk_right
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_3:
+face_up
+step_end
+
+Mision7Lab4_Dialogo_Oak_Texto_1:
+.string "OAK: El sistema de seguridad es muy\n"
+	.string "simple, observad.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_2:
+.string "Para acceder a las salas siguientes,\n"
+	.string "deberán ser derrotados las parejas de\l"
+	.string "POKÉMON que se hallan en las cabinas de\l"
+	.string "contención.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_3:
+.string "En total hay 5 cabinas similares a\n"
+	.string "estas, una vez desactivadas todas…$"
+
+Mision7Lab4_Dialogo_Oak_Texto_4:
+.string "Esta puerta se abrirá automáticamente.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_5:
+.string "ELM: ¿Qué prototipos se han empleado\n"
+	.string "para defender el acceso?$"
+
+Mision7Lab4_Dialogo_Oak_Texto_6:
+.string "OAK: Todos los que creamos hasta la I\n"
+	.string "REUNIÓN DE TRIGAL.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_7:
+.string "BILL: ¿Únicamente esos? Si ahora mismo\n"
+	.string "hemos creado algunos mejores.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_8:
+.string "C.MIGUEL: Estamos hablando de POKÉMON\n"
+	.string "con +600 STATS BASE bien repartidos y\l"
+	.string "buenas habilidades. Han sido creados\l"
+	.string "para combatir, solo contados\l"
+	.string "entrenadores podrían pasar esta\l"
+	.string "prueba.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_9:
+.string "BILL: Bah, ya no impactan tanto. Todo\n"
+	.string "avanza y los estándares se están\l"
+	.string "superando cada día. Mira tu MEGA\l"
+	.string "AERODACTYL, la forma PRIMIGENIA es\l"
+	.string "mucho más eficiente.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_10:
+.string "C.MIGUEL: … …$"
+
+Mision7Lab4_Dialogo_Oak_Texto_11:
+.string "ELM: Tampoco exageres, BILL. Tú mismo\n"
+	.string "creías que no tenías más margen de\l"
+	.string "mejora, antes de acceder a toda esta\l"
+	.string "tecnología, y trabajar con nosotros. El\l"
+	.string "estancamiento llegará, no somos\l"
+	.string "infinitos.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_12:
+.string "OAK: Pero… En algo sí que tiene razón.\n"
+	.string "Lo que ayer era considerado fuerte hoy\l"
+	.string "es mediocre. ¿En qué momento un\l"
+	.string "POKÉMON como ZAPDOS dejó de\l"
+	.string "impresionarnos? ¿O un TAUROS a no ser\l"
+	.string "considerado rápido?$"
+
+Mision7Lab4_Dialogo_Oak_Texto_13:
+.string "ELM: ¿A dónde quieres llegar, OAK?$"
+
+Mision7Lab4_Dialogo_Oak_Texto_14:
+.string "OAK: MEWTWO era especial, porque fue el\n"
+	.string "primero en llegar, en ser\l"
+	.string "verdaderamente extraordinario.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_15:
+.string "Pero ahora, ante esta nueva legión de\n"
+	.string "PROTOTIPOS, todos ellos son\l"
+	.string "extraordinarios. La normalización de la\l"
+	.string "excelencia provoca que a ojos del\l"
+	.string "observador no sea considerada como\l"
+	.string "tal, a pesar de que biológica y\l"
+	.string "fisiológicamente, verdaderamente lo\l"
+	.string "sea.$"
+
+Mision7Lab4_Dialogo_Oak_Texto_16:
+.string "Es decir, si todos son extraordinarios…$"
+
+Mision7Lab4_Dialogo_Oak_Texto_17:
+.string "…ya ninguno lo será.$"
+
+
+Mision7Lab4_Primer_Cartel::
+msgbox Mision7Lab4_Primer_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Mision7Lab4_Primer_Cartel_Texto_1:
+.string "CABINA DE SEGURIDAD: NÚMERO 1$"
+
+
+Mision7Lab4_Segundo_Cartel::
+msgbox Mision7Lab4_Segundo_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Mision7Lab4_Segundo_Cartel_Texto_1:
+.string "CABINA DE SEGURIDAD: NÚMERO 2$"
+
+
+Mision7Lab4_Tercer_Cartel::
+msgbox Mision7Lab4_Tercer_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Mision7Lab4_Tercer_Cartel_Texto_1:
+.string "CABINA DE SEGURIDAD: NÚMERO 3$"
+
+
+Mision7Lab4_Cuarto_Cartel::
+msgbox Mision7Lab4_Cuarto_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Mision7Lab4_Cuarto_Cartel_Texto_1:
+.string "CABINA DE SEGURIDAD: NÚMERO 4$"
+
+
+Mision7Lab4_Quinto_Cartel::
+msgbox Mision7Lab4_Quinto_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Mision7Lab4_Quinto_Cartel_Texto_1:
+.string "CABINA DE SEGURIDAD: NÚMERO 5$"
+
+Mision7Lab4_Puerta::
+msgbox Mision7Lab4_Puerta_Texto_1 MSGBOX_SIGN
+release
+end
+
+Mision7Lab4_Puerta_Texto_1:
+.string "PUERTA PRINCIPAL$"
+
+
+Mision7Lab4_Seteo_Metatiles::
+lock
+compare VAR_UNUSED_0x40F7, 197
+goto_if_gt Mision7Lab4_Seteo_Metatiles_1
+compare VAR_UNUSED_0x40F7, 197
+goto_if_eq Mision7Lab4_Seteo_Metatiles_2
+compare VAR_UNUSED_0x40F7, 196
+goto_if_eq Mision7Lab4_Seteo_Metatiles_3
+compare VAR_UNUSED_0x40F7, 195
+goto_if_eq Mision7Lab4_Seteo_Metatiles_4
+compare VAR_UNUSED_0x40F7, 194
+goto_if_eq Mision7Lab4_Seteo_Metatiles_5
+compare VAR_UNUSED_0x40F7, 192
+goto_if_eq Mision7Lab4_Seteo_Metatiles_6
+compare VAR_UNUSED_0x40F7, 193
+goto_if_eq Mision7Lab4_Seteo_Metatiles_6
+setvar VAR_TEMP_0, 1
+release
+end
+
+Mision7Lab4_Seteo_Metatiles_1::
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+Mision7Lab4_Seteo_Metatiles_6::
+setmetatile 18, 21, 0x3B8, TRUE
+setmetatile 18, 20, 0x3B0, TRUE
+setmetatile 19, 21, 0x3B9, TRUE
+setmetatile 19, 20, 0x3B1, TRUE
+setmetatile 25, 21, 0x3B8, TRUE
+setmetatile 25, 20, 0x3B0, TRUE
+setmetatile 26, 21, 0x3B9, TRUE
+setmetatile 26, 20, 0x3B1, TRUE
+setmetatile 6, 44, 0x3B8, TRUE
+setmetatile 6, 43, 0x3B0, TRUE
+setmetatile 7, 44, 0x3B9, TRUE
+setmetatile 7, 43, 0x3B1, TRUE
+setmetatile 47, 6, 0x3B8, TRUE
+setmetatile 47, 5, 0x3B0, TRUE
+setmetatile 48, 6, 0x3B9, TRUE
+setmetatile 48, 5, 0x3B1, TRUE
+setmetatile 39, 21, 0x3B8, TRUE
+setmetatile 39, 20, 0x3B0, TRUE
+setmetatile 40, 21, 0x3B9, TRUE
+setmetatile 40, 20, 0x3B1, TRUE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+
+Mision7Lab4_Seteo_Metatiles_5::
+setmetatile 25, 21, 0x3B8, TRUE
+setmetatile 25, 20, 0x3B0, TRUE
+setmetatile 26, 21, 0x3B9, TRUE
+setmetatile 26, 20, 0x3B1, TRUE
+setmetatile 6, 44, 0x3B8, TRUE
+setmetatile 6, 43, 0x3B0, TRUE
+setmetatile 7, 44, 0x3B9, TRUE
+setmetatile 7, 43, 0x3B1, TRUE
+setmetatile 47, 6, 0x3B8, TRUE
+setmetatile 47, 5, 0x3B0, TRUE
+setmetatile 48, 6, 0x3B9, TRUE
+setmetatile 48, 5, 0x3B1, TRUE
+setmetatile 39, 21, 0x3B8, TRUE
+setmetatile 39, 20, 0x3B0, TRUE
+setmetatile 40, 21, 0x3B9, TRUE
+setmetatile 40, 20, 0x3B1, TRUE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+Mision7Lab4_Seteo_Metatiles_4::
+setmetatile 6, 44, 0x3B8, TRUE
+setmetatile 6, 43, 0x3B0, TRUE
+setmetatile 7, 44, 0x3B9, TRUE
+setmetatile 7, 43, 0x3B1, TRUE
+setmetatile 47, 6, 0x3B8, TRUE
+setmetatile 47, 5, 0x3B0, TRUE
+setmetatile 48, 6, 0x3B9, TRUE
+setmetatile 48, 5, 0x3B1, TRUE
+setmetatile 39, 21, 0x3B8, TRUE
+setmetatile 39, 20, 0x3B0, TRUE
+setmetatile 40, 21, 0x3B9, TRUE
+setmetatile 40, 20, 0x3B1, TRUE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+Mision7Lab4_Seteo_Metatiles_3::
+setmetatile 47, 6, 0x3B8, TRUE
+setmetatile 47, 5, 0x3B0, TRUE
+setmetatile 48, 6, 0x3B9, TRUE
+setmetatile 48, 5, 0x3B1, TRUE
+setmetatile 39, 21, 0x3B8, TRUE
+setmetatile 39, 20, 0x3B0, TRUE
+setmetatile 40, 21, 0x3B9, TRUE
+setmetatile 40, 20, 0x3B1, TRUE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+
+Mision7Lab4_Seteo_Metatiles_2::
+setmetatile 39, 21, 0x3B8, TRUE
+setmetatile 39, 20, 0x3B0, TRUE
+setmetatile 40, 21, 0x3B9, TRUE
+setmetatile 40, 20, 0x3B1, TRUE
+special DrawWholeMapView
+setvar VAR_TEMP_0, 1
+release
+end
+
+Mision7Lab4_Combate_Nidoking::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Mision7Lab4_Combate_Move_1
+delay 20
+playse SE_NOTE_C
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+waitmovement 0x0
+delay 30
+playse SE_NOTE_C_HIGH
+delay 15
+playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_NIDOQUEEN, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+msgbox Mision7Lab4_Combate_Nidoking_Texto_1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_138, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+playmoncry SPECIES_NIDOQUEEN, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 30
+playse SE_UNLOCK
+waitse
+setmetatile 18, 21, 0x335, FALSE
+setmetatile 18, 20, 0x335, FALSE
+setmetatile 19, 21, 0x334, FALSE
+setmetatile 19, 20, 0x334, FALSE
+special DrawWholeMapView
+delay 10
+msgbox Mision7Lab4_Combate_Nidoking_Texto_3 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 194
+release
+end
+
+Mision7Lab4_Combate_Nidoking_Texto_1:
+.string "(¡Has despertado a POKÉMON salvajes!)$"
+
+Mision7Lab4_Combate_Nidoking_Texto_3:
+.string "(¡Se ha abierto la CABINA 2!)$"
+
+Mision7Lab4_Combate_Electivire_Texto_3:
+.string "(¡Se ha abierto la CABINA 3!)$"
+
+Mision7Lab4_Combate_Aerodactyl_Texto_3:
+.string "(¡Se ha abierto la CABINA 4!)$"
+
+Mision7Lab4_Combate_Porygon_Texto_3:
+.string "(¡Se ha abierto la CABINA 5!)$"
+
+Mision7Lab4_Combate_Deoxys_Texto_3:
+.string "(¡Se ha abierto la PUERTA PRINCIPAL!)$"
+
+Mision7Lab4_Combate_Move_1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
+
+
+
+Mision7Lab4_Combate_Electivire::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Mision7Lab4_Combate_Move_1
+delay 20
+playse SE_NOTE_C
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+waitmovement 0x0
+delay 30
+playse SE_NOTE_C_HIGH
+delay 15
+playmoncry SPECIES_ELECTIVIRE, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_MAGMORTAR, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_ELECTIVIRE, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+msgbox Mision7Lab4_Combate_Nidoking_Texto_1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_139, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+playmoncry SPECIES_MAGMORTAR, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 40
+playse SE_UNLOCK
+waitse
+setmetatile 25, 21, 0x335, FALSE
+setmetatile 25, 20, 0x335, FALSE
+setmetatile 26, 21, 0x334, FALSE
+setmetatile 26, 20, 0x334, FALSE
+special DrawWholeMapView
+delay 30
+msgbox Mision7Lab4_Combate_Electivire_Texto_3 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 195
+release
+end
+
+
+
+Mision7Lab4_Combate_Aerodactyl::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Mision7Lab4_Combate_Move_1
+delay 20
+playse SE_NOTE_C
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+waitmovement 0x0
+delay 30
+playse SE_NOTE_C_HIGH
+delay 15
+playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_TAUROS, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+msgbox Mision7Lab4_Combate_Nidoking_Texto_1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_140, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+playmoncry SPECIES_TAUROS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 40
+playse SE_UNLOCK
+waitse
+special DrawWholeMapView
+delay 30
+msgbox Mision7Lab4_Combate_Aerodactyl_Texto_3 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 196
+release
+end
+
+Mision7Lab4_Combate_Porygon::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Mision7Lab4_Combate_Move_1
+delay 20
+playse SE_NOTE_C
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+waitmovement 0x0
+delay 30
+playse SE_NOTE_C_HIGH
+delay 15
+playmoncry SPECIES_PORYGON_Z, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_PORYGON, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_PORYGON_Z, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+msgbox Mision7Lab4_Combate_Nidoking_Texto_1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_141, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+playmoncry SPECIES_PORYGON, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 40
+playse SE_UNLOCK
+waitse
+special DrawWholeMapView
+delay 30
+msgbox Mision7Lab4_Combate_Porygon_Texto_3 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 197
+release
+end
+
+Mision7Lab4_Combate_Deoxys::
+lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Mision7Lab4_Combate_Move_1
+delay 20
+playse SE_NOTE_C
+applymovement OBJ_EVENT_ID_PLAYER, NinjaBaseS1_Primera_Trampa_Move_1
+waitmovement 0x0
+delay 30
+playse SE_NOTE_C_HIGH
+delay 15
+playmoncry SPECIES_DEOXYS, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_DEOXYS, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_DEOXYS, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 10
+msgbox Mision7Lab4_Combate_Nidoking_Texto_1 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_144, RuinsOfAlph_S1_Combate_Kabutops_Texto_2
+playmoncry SPECIES_DEOXYS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_FAINT
+delay 40
+playse SE_UNLOCK
+waitse
+special DrawWholeMapView
+delay 30
+msgbox Mision7Lab4_Combate_Deoxys_Texto_3 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 198
+release
+end
