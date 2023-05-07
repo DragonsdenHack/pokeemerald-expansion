@@ -92,15 +92,15 @@ lock
 faceplayer
 checkmoncatch SPECIES_XURKITREE
 goto_if_eq VAR_RESULT, FALSE, NeoPowerPlant_Obtencion_Xurkitree_2
-msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_1 MSGBOX_AUTOCLOSE
+msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_3 MSGBOX_AUTOCLOSE
 release
 end
 
 NeoPowerPlant_Obtencion_Xurkitree_2::
-msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_2 MSGBOX_AUTOCLOSE
+msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_1 MSGBOX_AUTOCLOSE
  playfanfare MUS_OBTAIN_TMHM
-msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_3 MSGBOX_DEFAULT
-	givemon SPECIES_XURKITREE, 70, ITEM_FLYING_GEM
+msgbox NeoPowerPlant_Obtencion_Xurkitree_Texto_2 MSGBOX_DEFAULT
+	givemon SPECIES_XURKITREE, 70, ITEM_ELECTRIC_GEM
 	waitfanfare  
 release
 end
@@ -126,3 +126,177 @@ NeoPowerPlant_Obtencion_Xurkitree_Texto_3:
 	.string "atrajo a ZAPDOS. Parece que ZAPDOS-P\l"
 	.string "absorbió toda su electricidad, y por\l"
 	.string "eso lo encontramos así.$"
+
+
+NeoPowerPlant_Presidente::
+applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Presidente_Move_5
+waitmovement 0x0
+msgbox NeoPowerPlant_Presidente_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox NeoPowerPlant_Presidente_Texto_3 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement 10, NeoPowerPlant_Presidente_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Presidente_Move_1
+waitmovement 0x0
+delay 15
+applymovement 10, NeoPowerPlant_Presidente_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Presidente_Move_3
+waitmovement 0x0
+msgbox NeoPowerPlant_Presidente_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 10, NeoPowerPlant_Presidente_Move_6
+waitmovement 0x0
+msgbox NeoPowerPlant_Presidente_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 10, NeoPowerPlant_Presidente_Move_4
+waitmovement 0x0
+msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 204
+release
+end
+
+NeoPowerPlant_Presidente_Move_6:
+face_right
+step_end
+
+NeoPowerPlant_Presidente_Move_5:
+walk_in_place_up
+step_end
+
+NeoPowerPlant_Presidente_Move_4:
+walk_in_place_down
+step_end
+
+NeoPowerPlant_Presidente_Move_3:
+face_up
+step_end
+
+NeoPowerPlant_Presidente_Move_2:
+face_down
+step_end
+
+NeoPowerPlant_Presidente_Move_1:
+emote_exclamation_mark
+face_right
+step_end
+
+NeoPowerPlant_Presidente_Texto_1:
+.string "{PLAYER}, ¿no? Soy el nuevo DIRECTOR\n"
+	.string "de la CENTRAL ENERGÍA.$"
+
+NeoPowerPlant_Presidente_Texto_2:
+.string "Hemos tenido que evacuar toda la zona,\n"
+	.string "su poder está totalmente\l"
+	.string "descontrolado.$"
+
+NeoPowerPlant_Presidente_Texto_3:
+.string "Restauramos este lugar usando lo\n"
+	.string "último en tecnología, gracias a ello\l"
+	.string "hemos podido acelerar la unión entre\l"
+	.string "KANTO y JOHTO. Pero parece que también\l"
+	.string "ha atraído a...$"
+
+NeoPowerPlant_Presidente_Texto_4:
+.string "Si continúa así, producirá una\n"
+	.string "sobrecarga en toda la central,\l"
+	.string "afectando a KANTO y por extensión,\l"
+	.string "JOHTO.$"
+
+NeoPowerPlant_Presidente_Texto_5:
+.string "No queda otra opción, debes derrotarlo\n"
+	.string "y capturarlo. Confiamos en ti.$"
+
+
+NeoPowerPlant_Combate_Zapdos::
+lock
+faceplayer
+playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_1 MSGBOX_DEFAULT
+waitmoncry
+trainerbattle_no_intro TRAINER_TRAINER_145, NeoPowerPlant_Combate_Zapdos_Texto_2
+playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_CHARGE
+delay 60
+playse SE_THUNDER2
+delay 40
+setflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+removeobject 7
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NeoPowerPlant_Combate_Zapdos_Move_1
+waitmovement 0x0
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_4 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_5 MSGBOX_DEFAULT
+giveegg SPECIES_ZAPDOS_PRIMAL
+waitfanfare
+delay 20
+playse SE_POKENAV_CALL
+delay 30
+playse SE_POKENAV_HANG_UP
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
+waitmovement 0x0
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_6 MSGBOX_AUTOCLOSE
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+msgbox NeoPowerPlant_Combate_Zapdos_Texto_9 MSGBOX_AUTOCLOSE
+playse SE_POKENAV_OFF
+removeobject 10
+clearflag FLAG_RECEIVED_SHOAL_SHELL_3
+fadescreen 1
+delay 20
+addobject 1
+addobject 2
+addobject 3
+addobject 4
+addobject 5
+addobject 6
+addobject 8
+addobject 9
+fadescreen 0
+clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
+setvar VAR_UNUSED_0x40F7, 204
+release
+end
+
+NeoPowerPlant_Combate_Zapdos_Move_1:
+emote_exclamation_mark
+step_end
+
+NeoPowerPlant_Combate_Zapdos_Texto_1:
+.string "¡Zap!$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_2:
+.string "Zap...$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_3:
+.string "(¡El ZAPDOS-P se consumió por\n"
+	.string "completo!)$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_4:
+	.string "(Hay un HUEVO POKÉMON entre las\n"
+	.string "cenizas)$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_5:
+.string "¡¡OBTUVISTE UN HUEVO MISTERIOSO!!$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_6:
+.string "GIOVANNI: ¿{PLAYER}? Perfecto, ese\n"
+	.string "ZAPDOS no nos causará más problemas.$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_7:
+.string "Todo está listo para celebrar la II\n"
+	.string "REUNIÓN DE TRIGAL, acude a TORRE\l"
+	.string "RADIO a la mayor brevedad posibles.$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_8:
+.string "... ...$"
+
+NeoPowerPlant_Combate_Zapdos_Texto_9:
+.string "Espero que estés preparado.$"
+

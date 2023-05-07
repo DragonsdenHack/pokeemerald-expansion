@@ -15,17 +15,17 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_ANCIANAJOHTO",
       "x": 17,
       "y": 3,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "ViasTrenCasaCampeon_Combate_Campeona",
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AGATHA",
@@ -38,7 +38,20 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_AGATHA",
+      "x": 4,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "ViasTrenCasaCampeon_Agatha",
+      "flag": "FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS"
     }
   ],
   "warp_events": [
@@ -46,12 +59,20 @@
       "x": 3,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_VIAS_BOSQUE",
-      "dest_warp_id": 3
+      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P5",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 12,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_SECRET_BASE_HIGH_TV_FLAGS",
+      "var_value": "5",
+      "script": "ViasTrenCasaCampeon_Dialogo_Agatha_Campeona"
+    }
   ],
   "bg_events": [
 

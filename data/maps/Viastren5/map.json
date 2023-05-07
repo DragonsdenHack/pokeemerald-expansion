@@ -2,7 +2,7 @@
   "id": "MAP_VIASTREN5",
   "name": "Viastren5",
   "layout": "LAYOUT_VIASTREN5",
-  "music": "",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -17,6 +17,11 @@
       "direction": "left",
       "offset": 0,
       "map": "MAP_VAS_TREN4"
+    },
+    {
+      "direction": "right",
+      "offset": -2,
+      "map": "MAP_NEO_SAFFRON_CITY"
     }
   ],
   "object_events": [
@@ -38,7 +43,7 @@
       "x": 18,
       "y": 10,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -51,7 +56,7 @@
       "x": 62,
       "y": 11,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -90,7 +95,7 @@
       "x": 79,
       "y": 10,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_UP_RIGHT_LEFT_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -100,7 +105,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 105,
+      "x": 102,
       "y": 19,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -113,7 +118,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MECANICOJOHTO",
-      "x": 103,
+      "x": 98,
       "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -129,7 +134,7 @@
       "x": 106,
       "y": 11,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -148,10 +153,10 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_119_TEAM_AQUA"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
+      "graphics_id": "OBJ_EVENT_GFX_OLD_MAN3",
       "x": 115,
       "y": 11,
       "elevation": 3,
@@ -160,7 +165,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "ViasTren5_Presidente_Trenes",
       "flag": "FLAG_HIDE_BATTLE_TOWER_OPPONENT"
     }
   ],
@@ -174,7 +179,7 @@
       "y": 11,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "195",
+      "var_value": "202",
       "script": "ViasTren5_Combate_Atlas_Abajo"
     },
     {
@@ -183,7 +188,7 @@
       "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "195",
+      "var_value": "202",
       "script": "ViasTren5_Combate_Atlas_Arriba"
     }
   ],

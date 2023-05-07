@@ -12724,7 +12724,7 @@
     {
       "id": "LAYOUT_VIASTREN5",
       "name": "Viastren5_Layout",
-      "width": 120,
+      "width": 121,
       "height": 20,
       "border_width": 2,
       "border_height": 2,
@@ -12741,7 +12741,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_berry_forest",
+      "secondary_tileset": "gTileset_sevii_islands_123",
       "border_filepath": "data/layouts/ViasTren3Norte/border.bin",
       "blockdata_filepath": "data/layouts/ViasTren3Norte/map.bin"
     },
@@ -13680,6 +13680,30 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/RocketHideout_Conexion_Hoenn/border.bin",
       "blockdata_filepath": "data/layouts/RocketHideout_Conexion_Hoenn/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_SAFFRON_CITY",
+      "name": "NeoSaffronCity_Layout",
+      "width": 65,
+      "height": 54,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/NeoSaffronCity/border.bin",
+      "blockdata_filepath": "data/layouts/NeoSaffronCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_SAFFRON_TRAIN_STATION",
+      "name": "NeoSaffron_TrainStation_Layout",
+      "width": 19,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_trainer_tower",
+      "border_filepath": "data/layouts/NeoSaffron_TrainStation/border.bin",
+      "blockdata_filepath": "data/layouts/NeoSaffron_TrainStation/map.bin"
     }
   ]
 }

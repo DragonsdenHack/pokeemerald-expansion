@@ -20,7 +20,7 @@
     },
     {
       "direction": "left",
-      "offset": 0,
+      "offset": 1,
       "map": "MAP_ROUTE52"
     },
     {
@@ -162,8 +162,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_FISHER",
-      "x": 5,
-      "y": 35,
+      "x": 8,
+      "y": 42,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -350,7 +350,7 @@
       "dest_warp_id": 1
     },
     {
-      "x": 21,
+      "x": 18,
       "y": 24,
       "elevation": 0,
       "dest_map": "MAP_GOLDENROD_TRAIN_STATION",
@@ -395,8 +395,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 0,
-      "y": 48,
+      "x": 6,
+      "y": 53,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",

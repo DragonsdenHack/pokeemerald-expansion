@@ -4025,6 +4025,7 @@ RocketHideout_8F_Mision_Central_Energia::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_2
 waitmovement 0x0
+delay 20
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_1 MSGBOX_DEFAULT
 waitfanfare

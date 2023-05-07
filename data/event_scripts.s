@@ -2457,3 +2457,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/Cueva_Gimnasio_Trigal/scripts.inc"
 
 	.include "data/maps/RocketHideout_Conexion_Hoenn/scripts.inc"
+
+	.include "data/maps/NeoSaffronCity/scripts.inc"
+
+	.include "data/maps/NeoSaffron_TrainStation/scripts.inc"

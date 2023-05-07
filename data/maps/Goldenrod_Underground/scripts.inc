@@ -114,7 +114,7 @@ trainerbattle_no_intro TRAINER_TRAINER_105, Goldenrod_Underground_Motero_Bloqueo
 msgbox Goldenrod_Underground_Motero_Bloqueo_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 12, Goldenrod_Underground_Motero_Bloqueo_Move_1
 waitmovement 0x0
-setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+setflag FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL
 removeobject 12
 playse SE_EXIT
 release

@@ -15,7 +15,7 @@
   "connections": [
     {
       "direction": "right",
-      "offset": 0,
+      "offset": -1,
       "map": "MAP_GOLDENROD_CITY"
     },
     {
@@ -27,6 +27,11 @@
       "direction": "left",
       "offset": 57,
       "map": "MAP_OLIVINE_PORT"
+    },
+    {
+      "direction": "right",
+      "offset": 52,
+      "map": "MAP_ROUTE34"
     }
   ],
   "object_events": [

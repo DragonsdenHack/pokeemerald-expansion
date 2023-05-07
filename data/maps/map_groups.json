@@ -548,7 +548,9 @@
     "SaffronCity_PokemonCenter_1F",
     "SaffronCity_School",
     "SaffronCity_House3",
-    "SaffronCity_House4"
+    "SaffronCity_House4",
+    "NeoSaffronCity",
+    "NeoSaffron_TrainStation"
   ],
   "gMapGroup_IndoorFuchsiaCity": [
     "FuchsiaCity_Path",

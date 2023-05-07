@@ -24660,12 +24660,13 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER144[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER145[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER145[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 100,
+    .species = SPECIES_ZAPDOS,
+    .heldItem = ITEM_LUM_BERRY,
+    .moves = {MOVE_DISCHARGE, MOVE_FIERY_WRATH, MOVE_HEAT_WAVE, MOVE_ROOST}
     }
 };
 

@@ -86,6 +86,7 @@ addobject 9
 applymovement 9, ViasTren5_Combate_Atlas_Move_6
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, ViasTren5_Combate_Atlas_Move_12
 applymovement 9, ViasTren5_Combate_Atlas_Move_7
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_6 MSGBOX_AUTOCLOSE
@@ -101,6 +102,7 @@ waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_10 MSGBOX_AUTOCLOSE
 msgbox ViasTren5_Combate_Atlas_Texto_11 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_1, ViasTren5_Combate_Atlas_Texto_12
+delay 15
 applymovement 9, ViasTren5_Combate_Atlas_Move_3
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_13 MSGBOX_AUTOCLOSE
@@ -116,11 +118,12 @@ removeobject 9
 fadescreen 0
 delay 20
 msgbox ViasTren5_Combate_Atlas_Texto_16 MSGBOX_AUTOCLOSE
-removeobject 1
 delay 20
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
 delay 20
+setflag FLAG_HIDE_ROUTE_119_TEAM_AQUA
+removeobject 10
 playse SE_M_FLY
 msgbox ViasTren5_Combate_Atlas_Texto_17 MSGBOX_AUTOCLOSE
 playse SE_PIN
@@ -148,8 +151,13 @@ playse SE_BREAKABLE_DOOR
 msgbox ViasTren5_Combate_Atlas_Texto_25 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasTren5_Combate_Atlas_Texto_26 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 203
 release
 end
+
+ViasTren5_Combate_Atlas_Move_12:
+face_down
+step_end
 
 ViasTren5_Combate_Atlas_Move_11:
 walk_down
@@ -303,8 +311,8 @@ ViasTren5_Combate_Atlas_Texto_18:
 .string "…$"
 
 ViasTren5_Combate_Atlas_Texto_19:
-.string "PRESIDENTE: ¡Este es un momento único\n"
-	.string "en la historia!$"
+.string "¡Este es un momento único en la \n"
+	.string "historia!$"
 
 ViasTren5_Combate_Atlas_Texto_20:
 .string "Por primera vez y ya para siempre,\n"
@@ -338,3 +346,11 @@ ViasTren5_Combate_Atlas_Texto_25:
 
 ViasTren5_Combate_Atlas_Texto_26:
 .string "Confío en ti.$"
+
+
+ViasTren5_Presidente_Trenes::
+lock
+faceplayer
+msgbox ViasTren5_Combate_Atlas_Texto_26 MSGBOX_AUTOCLOSE
+release
+end

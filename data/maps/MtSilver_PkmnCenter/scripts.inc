@@ -8,8 +8,8 @@ end
 
 MtSilverPkmnCenter2::
 lock     
-faceplayer     
-msgbox MtSilver_PkmnCenter_Text_2, MSGBOX_DEFAULT
+faceplayer  
+msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_3 MSGBOX_AUTOCLOSE   
 compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 3
 goto_if_gt MtSilverPkmnCenter2_Campeona_Anciana
 release     
@@ -17,15 +17,34 @@ end
 
 MtSilverPkmnCenter2_Campeona_Anciana::
 delay 20
-msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_2 MSGBOX_AUTOCLOSE
-delay 20
-msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_3 MSGBOX_AUTOCLOSE
 msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 2, MtSilverPkmnCenter2_Campeona_Anciana_Move_1
+waitmovement 0x0
 msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 2, MtSilverPkmnCenter2_Campeona_Anciana_Move_2
+waitmovement 0x0
 msgbox MtSilverPkmnCenter2_Campeona_Anciana_Texto_6 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+setflag FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS
+setflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
+fadescreen 1
+delay 20
+removeobject 2
+fadescreen 0
 setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 5
 release
 end
+
+MtSilverPkmnCenter2_Campeona_Anciana_Move_1:
+face_up
+step_end
+
+MtSilverPkmnCenter2_Campeona_Anciana_Move_2:
+face_player
+step_end
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_2:
 .string "… …$"

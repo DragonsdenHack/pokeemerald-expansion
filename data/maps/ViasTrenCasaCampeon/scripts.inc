@@ -5,24 +5,32 @@ ViasTrenCasaCampeon_MapScripts::
 ViasTrenCasaCampeon_Agatha::
 lock
 faceplayer
-compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 4
+compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 6
+goto_if_gt ViasTrenCasaCampeon_Agatha_5
+compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 5
+goto_if_gt ViasTrenCasaCampeon_Agatha_4
+compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 3
 goto_if_gt ViasTrenCasaCampeon_Agatha_2
 msgbox ViasTrenCasaCampeon_Agatha_Texto_1 MSGBOX_AUTOCLOSE
 msgbox ViasTrenCasaCampeon_Agatha_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox ViasTrenCasaCampeon_Agatha_Texto_3 MSGBOX_AUTOCLOSE
 msgbox ViasTrenCasaCampeon_Agatha_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, ViasTrenCasaCampeon_Agatha_Move_1
+waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Agatha_Texto_5 MSGBOX_AUTOCLOSE
 setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 4
 release
 end
 
+ViasTrenCasaCampeon_Agatha_Move_1:
+walk_in_place_left
+face_player
+step_end
+
 ViasTrenCasaCampeon_Agatha_2::
 msgbox ViasTrenCasaCampeon_Agatha_Texto_5 MSGBOX_AUTOCLOSE
-release
-end
-
-ViasTrenCasaCampeon_Agatha_3::
-msgbox ViasTrenCasaCampeon_Agatha_Texto_6 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -54,7 +62,7 @@ ViasTrenCasaCampeon_Agatha_Texto_2:
 ViasTrenCasaCampeon_Agatha_Texto_3:
 .string "Pensé en retirarme a TORRE CAMPANA de\n"
 	.string "nuevo, pero necesito volver a mis\l"
-	.string "raices. Aquí aprendí mucho con la que\l"
+	.string "raíces. Aquí aprendí mucho con la que\l"
 	.string "fue mi maestra, la única que llegó a ser\l"
 	.string "CAMPEONA usando POKÉMON TIPO\l"
 	.string "FANTASMA.$"
@@ -92,16 +100,111 @@ ViasTrenCasaCampeon_Agatha_Texto_8:
 
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona::
+lock
+applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_2
+applymovement OBJ_EVENT_ID_PLAYER, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_1
+waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_3
+waitmovement 0x0
+delay 10
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_4
+waitmovement 0x0
+msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1 MSGBOX_AUTOCLOSE
+applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_5
+waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
+waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_8
+waitmovement 0x0
+applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_7
+waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 2, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_9
+waitmovement 0x0
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+removeobject 2
+clearflag FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS
+addobject 3
+applymovement OBJ_EVENT_ID_PLAYER, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_10
+applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
+waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7.1 MSGBOX_AUTOCLOSE
+applymovement 1, ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6
+waitmovement 0x0
 msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_8 MSGBOX_AUTOCLOSE
+setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 6
 release
 end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_10:
+face_up
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_9:
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_8:
+walk_down
+walk_down
+walk_down
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_7:
+face_left
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_6:
+walk_in_place_down
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_5:
+face_right
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_4:
+emote_exclamation_mark
+face_down
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_3:
+face_down
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_2:
+face_left
+step_end
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Move_1:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_1:
 .string "Y tú lo sabes. En el pasado nada se\n"
@@ -114,11 +217,14 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2:
 .string "AGATHA: …$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3:
-.string "Ah… Eras {PLAYER}, ¿no? Si te soy\n"
-	.string "sincero, no esperaba volver a verte, ¿a\l"
-	.string "quién puede interesarle lo que tengan\l"
-	.string "que decir dos viejas glorias como\l"
-	.string "nosotras? ¿Verdad?$"
+.string "Ah… Eras {PLAYER}, ¿no?$"
+
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1:
+.string "Si te soy sincera, no esperaba volver a\n"
+	.string "verte, ¿a quién puede interesarle lo\l"
+	.string "que tengan que decir dos viejas glorias\l"
+	.string "como nosotras? ¿Verdad?$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_4:
 .string "AGATHA: {PLAYER} es un encanto, si lo\n"
@@ -144,7 +250,12 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7:
 	.string "físicamente no es imposible que tal\l"
 	.string "encuentro se diera. En el MT.PLATEADO\l"
 	.string "pequé de no considerar todas las\l"
-	.string "posibilidades, para mi y mi equipo.$"
+	.string "posibilidades, para mí y mi equipo.$"
+
+ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7.1:
+.string "Lo cierto es que, cuando se es joven de\n"
+	.string "verdad, se es joven para toda la vida.\l"
+	.string "El arte de combatir no es menos.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_8:
 .string "Con ello quiero decir que, si estás\n"
@@ -154,15 +265,26 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_8:
 ViasTrenCasaCampeon_Combate_Campeona::
 lock
 faceplayer
+compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 6
+goto_if_gt ViasTrenCasaCampeon_Combate_Campeona_2
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq ViasTrenCasaCampeon_Combate_Campeona_No
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_3 MSGBOX_AUTOCLOSE
-msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_4 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, ViasTrenCasaCampeon_Combate_Campeona_Texto_4
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_5 MSGBOX_AUTOCLOSE
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_6 MSGBOX_AUTOCLOSE
-msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_7 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_7 MSGBOX_DEFAULT
+givemon SPECIES_CALYREX, 70, ITEM_NONE
+waitfanfare
 msgbox ViasTrenCasaCampeon_Combate_Campeona_Texto_8 MSGBOX_AUTOCLOSE
+setvar VAR_SECRET_BASE_HIGH_TV_FLAGS, 7
+release
+end
+
+ViasTrenCasaCampeon_Combate_Campeona_2::
+msgbox ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7.1 MSGBOX_AUTOCLOSE
 release
 end
 

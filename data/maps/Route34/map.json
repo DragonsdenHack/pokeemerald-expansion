@@ -22,6 +22,11 @@
       "direction": "up",
       "offset": 0,
       "map": "MAP_GOLDENROD_CITY"
+    },
+    {
+      "direction": "left",
+      "offset": -52,
+      "map": "MAP_ROUTE52"
     }
   ],
   "object_events": [
@@ -220,8 +225,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 14,
-      "y": 32,
+      "x": 8,
+      "y": 40,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
