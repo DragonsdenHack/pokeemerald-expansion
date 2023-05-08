@@ -802,25 +802,25 @@ $(MID_SUBDIR)/mus_gsc_ruins_of_alph2.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 	
 $(MID_SUBDIR)/mus_gsc_ecruteak_city.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G188 -V084
 	
 $(MID_SUBDIR)/mus_gsc_route30.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+		$(MID) $< $@ -E -R$(STD_REVERB) -G151 -V086
 	
 $(MID_SUBDIR)/mus_gsc_dark_cave.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
 $(MID_SUBDIR)/mus_gsc_goldenrod_city.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G127 -V120 -P4
 
 $(MID_SUBDIR)/mus_gsc_national_park.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G163 -V090
 
 $(MID_SUBDIR)/mus_gsc_route29.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
 $(MID_SUBDIR)/mus_gsc_ruins_of_alph.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090	
+	$(MID) $< $@ -E -R$(STD_REVERB) -G147 -V090
 
 $(MID_SUBDIR)/mus_gsc_route32.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
@@ -832,7 +832,16 @@ $(MID_SUBDIR)/mus_gsc_tin_tower.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
 $(MID_SUBDIR)/mus_gsc_route26.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090	
+	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+
+$(MID_SUBDIR)/mus_end_of_time.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+
+$(MID_SUBDIR)/mus_gsc_gym.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+
+$(MID_SUBDIR)/mus_gsc_route34.s: %.s: %.mid
+	$(MID) $< $@ -E -R$(STD_REVERB) -G153 -V090
 
 $(MID_SUBDIR)/ph_choice_blend.s: %.s: %.mid
 	$(MID) $< $@ -E -G130 -P4
