@@ -121,22 +121,98 @@ NeoLavandaCementerioS2_EventScript_Exorcista3::
 
 NeoLavandaCementerioS2_Combate_Azul::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Combate_Azul_Move_1
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Combate_Azul_Move_2
+waitmovement 0x0
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_4
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_5
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_3
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_6
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_7
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_7 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_8 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, NeoLavandaCementerioS2_Combate_Azul_Texto_8
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_8
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_5
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_7
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_11 MSGBOX_AUTOCLOSE
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_6
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 19, NeoLavandaCementerioS2_Combate_Azul_Move_5
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Combate_Azul_Texto_14 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
+fadescreen 1
+delay 20
+removeobject 19
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 209
 release
 end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_8:
+lock_facing_direction
+walk_slow_left
+unlock_facing_direction
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_7:
+walk_in_place_right
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_6:
+walk_slow_right
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_5:
+face_up
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_4:
+emote_exclamation_mark
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_3:
+face_right
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+face_left
+step_end
+
+NeoLavandaCementerioS2_Combate_Azul_Move_1:
+walk_in_place_down
+step_end
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_1:
 .string "????: Como si fuera TORRE POKÉMON…$"
@@ -164,7 +240,7 @@ NeoLavandaCementerioS2_Combate_Azul_Texto_5:
 NeoLavandaCementerioS2_Combate_Azul_Texto_6:
 .string "Hace mucho que no nos encontramos así,\n"
 	.string "cara a cara. Tus viajes por JOHTO han\l"
-	.string "debido de fortalecerte mucho.$"
+	.string "debido fortalecerte mucho.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_7:
 .string "Siento curiosidad… por ver hasta dónde\n"
@@ -178,8 +254,8 @@ NeoLavandaCementerioS2_Combate_Azul_Texto_9:
 	.string "y vivaz GOLBAT. Tan escurridizo y lleno\l"
 	.string "de potencial ya en ese entonces,\l"
 	.string "cuando ambos iniciábamos nuestro\l"
-	.string "viaje. Nadie creería en el CROBAT-& tan\l"
-	.string "imponente que es hoy día.$"
+	.string "viaje. Nadie creería que este CROBAT-&\l"
+	.string "tan imponente fue una vez ese ZUBAT.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_10:
 .string "Me siento afortunado de haber\n"
@@ -212,13 +288,64 @@ NeoLavandaCementerioS2_Combate_Azul_Texto_14:
 
 NeoLavandaCementerioS2_Evento_Fuji::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Fuji_Move_1
+waitmovement 0x0
+applymovement 20, NeoLavandaCementerioS2_Evento_Fuji_Move_2
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 20, NeoLavandaCementerioS2_Evento_Fuji_Move_3
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 20, NeoLavandaCementerioS2_Evento_Fuji_Move_4
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Fuji_Move_4
+applymovement 5, NeoLavandaCementerioS2_Evento_Fuji_Move_5
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 5, NeoLavandaCementerioS2_Evento_Fuji_Move_6
+waitmovement 0x0
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+waitfanfare
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Fuji_Move_7
+applymovement 20, NeoLavandaCementerioS2_Evento_Fuji_Move_2
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 210
 release
 end
+
+NeoLavandaCementerioS2_Evento_Fuji_Move_7:
+face_left
+step_end
+
+NeoLavandaCementerioS2_Evento_Fuji_Move_6:
+walk_in_place_up
+step_end
+
+NeoLavandaCementerioS2_Evento_Fuji_Move_5:
+walk_right
+face_up
+step_end
+
+NeoLavandaCementerioS2_Evento_Fuji_Move_4:
+face_down
+step_end
+
+NeoLavandaCementerioS2_Evento_Fuji_Move_3:
+face_up
+step_end
+
+NeoLavandaCementerioS2_Evento_Fuji_Move_1:
+walk_down
+walk_down
+walk_down
+face_left
+step_end
+
+NeoLavandaCementerioS2_Evento_Fuji_Move_2:
+face_right
+step_end
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_1:
 .string "FUJI: Ah, {PLAYER}. ¿Qué te parece?\n"
@@ -252,6 +379,14 @@ NeoLavandaCementerioS2_Evento_Fuji_Texto_4:
 NeoLavandaCementerioS2_Evento_Fuji_Texto_5:
 .string "FUJI: Me mantendré cerca tuya,\n"
 	.string "{PLAYER}.$"
+
+
+NeoLavandaCementerioS2_Dialogo_Fuji::
+lock
+faceplayer
+msgbox NeoLavandaCementerioS2_Evento_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
 
 
 NeoLavandaCementerioS2_Evento_Ghost::
@@ -316,3 +451,16 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_11:
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_12:
 .string "FUJI: C-creo… que me ha perdonado.$"
+
+
+NeoLavandaCementerioS2_Novena_Exorciasta::
+lock
+faceplayer
+msgbox NeoLavandaCementerioS2_Novena_Exorciasta_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+NeoLavandaCementerioS2_Novena_Exorciasta_Texto_1:
+.string "No podemos evitar lo inevitable, pero sí\n"
+	.string "prepararnos para que lo inevitable no\l"
+	.string "nos destruya.$"

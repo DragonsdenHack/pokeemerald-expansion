@@ -48,7 +48,7 @@ end
 NeoLavandaCementerioS1_Text_4:
 .string "La mayoría de tumbas trasladadas\n"
 .string "pertenecen ya a almas olvidadas, que\l"
-.string "dejaron de ser visitadas hacer tiempo.\l"
+.string "dejaron de ser visitadas hace tiempo.\l"
 .string "Sin embargo, FUJI trasladó todas sin\l"
 .string "excepción, se siente en deuda con el\l"
 .string "pueblo, pero… la realidad es que este\l"

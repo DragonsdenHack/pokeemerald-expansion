@@ -145,25 +145,70 @@ LavenderRadioP2Documento_Text_101:
 
 LavenderRadioP2_Evento_Fuji::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP2_Evento_Fuji_Move_2
+applymovement 9, LavenderRadioP2_Evento_Fuji_Move_1
+waitmovement 0x0
 msgbox LavenderRadioP2_Evento_Fuji_Texto_1 MSGBOX_AUTOCLOSE
 msgbox LavenderRadioP2_Evento_Fuji_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderRadioP2_Evento_Fuji_Move_3
+waitmovement 0x0
 msgbox LavenderRadioP2_Evento_Fuji_Texto_3 MSGBOX_AUTOCLOSE
 msgbox LavenderRadioP2_Evento_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderRadioP2_Evento_Fuji_Move_4
+waitmovement 0x0
 msgbox LavenderRadioP2_Evento_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderRadioP2_Evento_Fuji_Move_5
+waitmovement 0x0
 msgbox LavenderRadioP2_Evento_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
 msgbox LavenderRadioP2_Evento_Fuji_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
 msgbox LavenderRadioP2_Evento_Fuji_Texto_8 MSGBOX_AUTOCLOSE
 msgbox LavenderRadioP2_Evento_Fuji_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderRadioP2_Evento_Fuji_Move_6
+waitmovement 0x0
 msgbox LavenderRadioP2_Evento_Fuji_Texto_10 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+fadescreen 1
+delay 20
+removeobject 9
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 208
 release
 end
+
+LavenderRadioP2_Evento_Fuji_Move_6:
+walk_slow_right
+step_end
+
+LavenderRadioP2_Evento_Fuji_Move_5:
+walk_in_place_right
+step_end
+
+LavenderRadioP2_Evento_Fuji_Move_4:
+face_right
+step_end
+
+LavenderRadioP2_Evento_Fuji_Move_3:
+face_up
+step_end
+
+LavenderRadioP2_Evento_Fuji_Move_1:
+walk_slow_down
+walk_slow_right
+step_end
+
+LavenderRadioP2_Evento_Fuji_Move_2:
+face_left
+step_end
 
 LavenderRadioP2_Evento_Fuji_Texto_1:
 .string "FUJI: ¡Oh! Qué pronto has llegado,\n"
 	.string "{PLAYER}, ANDRA aún no ha llegado.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_2:
-.string "Debería de estar en el nuevo\n"
+.string "Yo debería estar en el nuevo\n"
 	.string "CEMENTERIO, tengo que recolocar todas\l"
 	.string "las tumbas. Quería dar una vuelta por\l"
 	.string "aquí, y comparar el nuevo lugar con el\l"
@@ -216,3 +261,43 @@ LavenderRadioP2_Evento_Fuji_Texto_9:
 LavenderRadioP2_Evento_Fuji_Texto_10:
 .string "Te espero en el CEMENTERIO, al sur del\n"
 	.string "pueblo, no tiene pérdida, {PLAYER}.$"
+
+
+Radio_P2_Barrera::
+compare VAR_UNUSED_0x40F7, 210
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, Radio_P2_Barrera_Move_1
+waitmovement 0x0
+msgbox Radio_P2_Barrera_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Radio_P2_Barrera_Move_2
+waitmovement 0x0
+release
+end
+
+Radio_P2_Barrera_Move_1:
+walk_in_place_up
+step_end
+
+Radio_P2_Barrera_Move_2:
+walk_slow_up
+step_end
+
+Radio_P2_Barrera_Texto_1:
+.string "(Debería ver antes a FUJI\n"
+	.string "y el CEMENTERIO del pueblo)$"
+
+LavenderRadioP2_Policia_Cartel::
+lock
+faceplayer
+msgbox LavenderRadioP2_Policia_Cartel_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadioP2_Policia_Cartel_Texto_1:
+.string "Hay un cartel orientativo en la planta\n"
+	.string "baja, ahí se indica lo que\l"
+	.string "supuestamente hacemos en cada piso.\l"
+	.string "Por supuesto, ese cartel es pura\l"
+	.string "fachada, si quieres ver lo que\l"
+	.string "verdaderamente se hace en cada piso,\l"
+	.string "observa los carteles a partir del P1.$"

@@ -84,13 +84,116 @@ LavenderRadioDocumento_Text_101:
 	.string "3er Piso - Oficina del Director\l"
 	.string "4to Piso - Terraza$"
 
-LavenderRadio_Evento_Guay::
+LavenderRadio_Evento_Guay_Arriba::
 msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_FAILURE
+applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_1
+waitmovement 0x0
 msgbox LavenderRadio_Evento_Guay_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_2
+waitmovement 0x0
 msgbox LavenderRadio_Evento_Guay_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_3
+waitmovement 0x0
+delay 10
+applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_4
+waitmovement 0x0
 msgbox LavenderRadio_Evento_Guay_Texto_4 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_PETALBURG_GYM_NORMAN
+removeobject 5
+setvar VAR_UNUSED_0x40F7, 207
 release
 end
+
+LavenderRadio_Evento_Guay_Centro::
+msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_FAILURE
+applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_1
+waitmovement 0x0
+msgbox LavenderRadio_Evento_Guay_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_2.1
+waitmovement 0x0
+msgbox LavenderRadio_Evento_Guay_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_3
+waitmovement 0x0
+delay 10
+applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_4
+waitmovement 0x0
+msgbox LavenderRadio_Evento_Guay_Texto_4 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_PETALBURG_GYM_NORMAN
+removeobject 5
+setvar VAR_UNUSED_0x40F7, 207
+release
+end
+
+LavenderRadio_Evento_Guay_Abajo::
+msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
+playse SE_FAILURE
+applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_1
+waitmovement 0x0
+msgbox LavenderRadio_Evento_Guay_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 5, LavenderRadio_Evento_Guay_Arriba_Move_2
+waitmovement 0x0
+msgbox LavenderRadio_Evento_Guay_Texto_3 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_PIN
+applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_3
+waitmovement 0x0
+delay 10
+applymovement 3, LavenderRadio_Evento_Guay_Arriba_Move_4
+waitmovement 0x0
+msgbox LavenderRadio_Evento_Guay_Texto_4 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_PETALBURG_GYM_NORMAN
+removeobject 5
+setvar VAR_UNUSED_0x40F7, 207
+release
+end
+
+LavenderRadio_Evento_Guay_Arriba_Move_4:
+walk_in_place_left
+step_end
+
+LavenderRadio_Evento_Guay_Arriba_Move_3:
+emote_exclamation_mark
+step_end
+
+LavenderRadio_Evento_Guay_Arriba_Move_2.1:
+walk_left
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+LavenderRadio_Evento_Guay_Arriba_Move_2:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+LavenderRadio_Evento_Guay_Arriba_Move_1:
+walk_in_place_right
+step_end
 
 LavenderRadio_Evento_Guay_Texto_1:
 .string "POLICIA: Lo siento, pero solo puedes\n"

@@ -45,15 +45,38 @@ NeoLavandaCementerio_Text_3:
 
 NeoLavandaCementerio_Dialogo_Fuji::
 lock
+faceplayer
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_1 MSGBOX_AUTOCLOSE
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_2 MSGBOX_AUTOCLOSE
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_3 MSGBOX_AUTOCLOSE
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 4, NeoLavandaCementerio_Dialogo_Fuji_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerio_Dialogo_Fuji_Move_1
+waitmovement 0x0
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 4, NeoLavandaCementerio_Dialogo_Fuji_Move_2
+waitmovement 0x0
 msgbox NeoLavandaCementerio_Dialogo_Fuji_Texto_7 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+fadescreen 1
+delay 20
+removeobject 4
+fadescreen 0
 release
 end
+
+NeoLavandaCementerio_Dialogo_Fuji_Move_1:
+face_left
+step_end
+
+NeoLavandaCementerio_Dialogo_Fuji_Move_2:
+face_player
+step_end
+
+
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_1:
 .string "FUJI: Si algo bueno tiene PUEBLO\n"
@@ -91,3 +114,35 @@ NeoLavandaCementerio_Dialogo_Fuji_Texto_7:
 	.string "el S2, estaré con la secretaria de esa\l"
 	.string "planta, allí es donde está el foco de\l"
 	.string "energía.$"
+
+Cementerio_PC::
+compare VAR_UNUSED_0x40F7, 207
+goto_if_gt Cementerio_Warp
+msgbox RocketHideout_4F_PC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Cementerio_Warp::
+msgbox RocketHideout_4F_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_4F_Warp_No
+delay 40
+playse SE_PC_LOGIN
+delay 40
+playse SE_CLICK
+delay 40
+playse SE_UNLOCK
+setmetatile 14, 12, 0x282, FALSE
+setmetatile 14, 11, 0x2C0, FALSE
+setmetatile 14, 10, 0x2B8, FALSE
+setmetatile 14, 9, 0x2B0, FALSE
+setmetatile 15, 11, 0x2C1, TRUE
+setmetatile 15, 10, 0x2B9, TRUE
+setmetatile 15, 9, 0x2B1, TRUE
+setmetatile 16, 11, 0x2C2, TRUE
+setmetatile 16, 10, 0x2BA, TRUE
+setmetatile 16, 9, 0x2B2, TRUE
+special DrawWholeMapView
+delay 60
+release
+end

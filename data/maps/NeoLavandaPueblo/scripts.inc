@@ -61,22 +61,112 @@ NeoLavandaPueblo_Text_4:
 
 NeoLavandaPueblo_Combate_Eusine::
 lock
+playse SE_SLIDING_DOOR
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+addobject 5
+delay 20
+playse SE_PIN
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_2
+waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_3
+waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
+waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_4 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaPueblo_Combate_Eusine_Texto_5 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, NeoLavandaPueblo_Combate_Eusine_Texto_5
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_6
+waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_7 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_1
+waitmovement 0x0
+delay 20
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_8 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_2
+waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
+waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_10 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_6
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_6
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaPueblo_Combate_Eusine_Move_7
+waitmovement 0x0
+special RemoveCameraObject
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_11 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_12 MSGBOX_AUTOCLOSE
+delay 20
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaPueblo_Combate_Eusine_Move_8
+waitmovement 0x0
+special RemoveCameraObject
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_9
+applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
+waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_13 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaPueblo_Combate_Eusine_Texto_14 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+fadescreen 1
+delay 20
+removeobject 5
+playse SE_M_FLY
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 206
 release
 end
+
+NeoLavandaPueblo_Combate_Eusine_Move_9:
+face_right
+step_end
+
+NeoLavandaPueblo_Combate_Eusine_Move_8:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+NeoLavandaPueblo_Combate_Eusine_Move_7:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+NeoLavandaPueblo_Combate_Eusine_Move_6:
+face_up
+step_end
+
+NeoLavandaPueblo_Combate_Eusine_Move_4:
+walk_in_place_left
+step_end
+
+NeoLavandaPueblo_Combate_Eusine_Move_3:
+walk_slow_left
+step_end
+
+NeoLavandaPueblo_Combate_Eusine_Move_2:
+face_left
+emote_exclamation_mark
+step_end
+
+NeoLavandaPueblo_Combate_Eusine_Move_1:
+walk_in_place_right
+step_end
 
 NeoLavandaPueblo_Combate_Eusine_Texto_1:
 .string "EUSINE: Oh, {PLAYER}... Qué alegría\n"
@@ -121,7 +211,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_7:
 	.string "esencia te protege, pero me pregunto\l"
 	.string "si es solo por la leyenda que te\l"
 	.string "alimenta, o si realmente caerías una\l"
-	.string "vez que nuestros mayores creaciones\l"
+	.string "vez que nuestras mayores creaciones\l"
 	.string "estén completas…$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_8:
@@ -149,8 +239,20 @@ NeoLavandaPueblo_Combate_Eusine_Texto_13:
 	.string "SAGRADA de 690 STATS BASE, que deja en\l"
 	.string "pañales a los originales LUGIA y HO-OH?$"
 
-NeoLavandaPueblo_Combate_Eusine_Texto_14:
-.string "Los que se niegen a abrazar la\n"
-	.string "tecnología y la transmutación de los\l"
-	.string "POKÉMON mortales, están condenados a\l"
-	.string "la extinción.$"
+
+NeoLavandaPueblo_Primer_Cartel::
+msgbox NeoLavandaPueblo_Primer_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+NeoLavandaPueblo_Primer_Cartel_Texto_1:
+.string "CEMENTERIO de PUEBLO LAVANDA$"
+
+
+NeoLavandaPueblo_Segundo_Cartel::
+msgbox NeoLavandaPueblo_Segundo_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+NeoLavandaPueblo_Segundo_Cartel_Texto_1:
+.string "TORRE RADIO LAVANDA$"
