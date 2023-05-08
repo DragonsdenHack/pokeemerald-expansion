@@ -490,7 +490,7 @@
 #define MUS_RG_TRAINER_TOWER        556 // MUS_RG_T_TOWER
 #define MUS_RG_SLOW_PALLET          557 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
-#define END_MUS                     MUS_RG_TEACHY_TV_MENU
+#define END_MUS                     MUS_END_OF_TIME
 
 #define PH_TRAP_BLEND               559
 #define PH_TRAP_HELD                560
@@ -543,6 +543,72 @@
 #define PH_NURSE_BLEND              607
 #define PH_NURSE_HELD               608
 #define PH_NURSE_SOLO               609
+/// nuevas canciones
+#define MUS_ENCOUNTER_ANDRA         610
+#define MUS_BASEPROFUNDA            611
+#define MUS_BW_CASTILLO             612
+#define MUS_BW_ROUTE10              613
+#define MUS_ENCOUNTER_MIRTO         614
+#define MUS_GSC_NEW_BARK 			615
+#define MUS_GSC_CHERRYGROVE_CITY 	616
+#define MUS_PORTADA                 617
+#define MUS_ROCAOMBLIGO             618
+#define MUS_VS_ANDRA                619
+#define MUS_VS_ATLAS                620
+#define MUS_GSC_ECRUTEAK_CITY		621
+#define MUS_VS_LANCE                622
+#define MUS_VS_LUGIA                623
+#define MUS_VS_BILL               	624
+#define MUS_VS_OAK                  625
+#define MUS_VS_SECTA                626  //cancion final de jones
+#define MUSSAQUA                    627
+#define MUS_UNKNOWN_CHAMBER         628
+#define MUS_GSC_VS_WILD             629
+#define MUS_VS_GIOVANNI             630
+#define MUS_ZEUS_ENCOUNTER			631
+#define MUS_GIOVANNI_ENCOUNTER		632
+#define MUS_VS_JONES			    633
+#define MUS_GSC_VS_LEADER			634
+#define MUS_GSC_ROCKET_HIDEOUT		635
+#define MUS_VS_RED					636
+#define MUS_UNKNOWN_CHAMBER2        637
+#define MUS_VS_ELM					638
+#define MUS_VS_TRAINER2				639  //cancion especial granjeros johto y mas
+#define MUS_VS_ZEUS					640
+#define MUS_BW_CASTILLO2            641
+#define MUS_GSC_GOLDENROD_CITY		642
+#define MUS_GSC_BELLSPROUT_TOWER	643
+#define MUS_GSC_BELLSPROUT_TOWER2	644
+#define MUS_GSC_TIN_TOWER 			645
+#define MUS_GSC_DARK_CAVE 			646
+#define MUS_GSC_DRAGON_HIDEOUT 		647
+#define MUS_GSC_ENCOUNTER_1 		648
+#define MUS_GSC_ENCOUNTER_2 		649
+#define MUS_GSC_ENCOUNTER_3 		650
+#define MUS_GSC_ENCOUNTER_4 		651
+#define MUS_GSC_ENCOUNTER_KIMONO 	652
+#define MUS_GSC_ENCOUNTER_PENSADOR 	653
+#define MUS_GSC_ENCOUNTER_ROCKET 	654
+#define MUS_GSC_GAME_CORNER 		655
+#define MUS_GSC_GYM 				656
+#define MUS_GSC_INDIGO_PLATEAU 		657
+#define MUS_GSC_LAVENDER_TOWN 		658
+#define MUS_GSC_VS_LEADER_KANTO 	659
+#define MUS_GSC_MT_SILVER 			660
+#define MUS_GSC_NATIONAL_PARK 		661
+#define MUS_GSC_ROUTE26 			662
+#define MUS_GSC_ROUTE29 			663
+#define MUS_GSC_ROUTE30 			664
+#define MUS_GSC_ROUTE32 			665
+#define MUS_GSC_ROUTE34 			666
+#define MUS_GSC_RUINS_OF_ALPH 		667
+#define MUS_GSC_RUINS_OF_ALPH2		668
+#define MUS_GSC_SURF 				669
+#define MUS_GSC_BURN_TOWER 			670
+#define MUS_GSC_VICTORY_ROAD 		671
+#define MUS_GSC_VS_ROCKET 			672
+#define MUS_GSC_VS_TRAINER 			673
+#define MUS_END_OF_TIME 			674
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
