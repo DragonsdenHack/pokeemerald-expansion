@@ -768,7 +768,7 @@ $(MID_SUBDIR)/mus_gsc_encounter_pensador.s: %.s: %.mid
 $(MID_SUBDIR)/mus_gsc_lavender_town.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V076
 
-$(MID_SUBDIR)/mus_gsc_leader_kanto.s: %.s: %.mid
+$(MID_SUBDIR)/mus_gsc_vs_leader_kanto.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V076
 
 $(MID_SUBDIR)/mus_gsc_vs_trainer.s: %.s: %.mid
@@ -826,9 +826,6 @@ $(MID_SUBDIR)/mus_gsc_route32.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 	
 $(MID_SUBDIR)/mus_gsc_burn_tower.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
-
-$(MID_SUBDIR)/mus_gsc_tin_tower.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
 $(MID_SUBDIR)/mus_gsc_route26.s: %.s: %.mid

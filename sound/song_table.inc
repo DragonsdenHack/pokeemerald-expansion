@@ -622,7 +622,7 @@ gSongTable::
 	song mus_gsc_ruins_of_alph2 0,0
 	song mus_gsc_surf 0,0
 	song mus_gsc_ruins_of_alph 0,0
-	song mus_gsc_tin_tower 0,0
+	song mus_gsc_tintower 0,0
 	song mus_gsc_victory_road 0,0
 	song mus_gsc_vs_rocket 0,0
 	song mus_gsc_vs_trainer 0,0
