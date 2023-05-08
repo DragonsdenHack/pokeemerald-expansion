@@ -609,7 +609,6 @@ gSongTable::
 	song mus_gsc_gym 0,0
 	song mus_gsc_indigo_plateau 0,0
 	song mus_gsc_lavender_town 0,0
-	song mus_gsc_game_corner 0,0
 	song mus_gsc_vs_leader_kanto 0,0
 	song mus_gsc_mt_silver 0,0
 	song mus_gsc_national_park 0,0
@@ -621,7 +620,6 @@ gSongTable::
 	song mus_gsc_ruins_of_alph 0,0
 	song mus_gsc_ruins_of_alph2 0,0
 	song mus_gsc_surf 0,0
-	song mus_gsc_ruins_of_alph 0,0
 	song mus_gsc_tintower 0,0
 	song mus_gsc_victory_road 0,0
 	song mus_gsc_vs_rocket 0,0
