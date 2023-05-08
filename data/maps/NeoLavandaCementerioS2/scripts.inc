@@ -391,20 +391,233 @@ end
 
 NeoLavandaCementerioS2_Evento_Ghost::
 lock
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_6
+waitmovement 0x0
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_1
+waitmovement 0x0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaCementerioS2_Evento_Ghost_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaCementerioS2_Evento_Ghost_Move_3
+waitmovement 0x0
+special RemoveCameraObject
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_4
+waitmovement 0x0
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_1 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_2 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_GHOST, NeoLavandaCementerioS2_Evento_Ghost_Texto_2
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_3 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER
+addobject 22
+applymovement 22, NeoLavandaCementerioS2_Evento_Ghost_Move_5
+waitmovement 0x0
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_4 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_5 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_6 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement 22, NeoLavandaCementerioS2_Evento_Ghost_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_1
+waitmovement 0x0
+clearflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
+addobject 21
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaCementerioS2_Evento_Ghost_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_6 MSGBOX_DEFAULT
+waitmoncry
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_M_MOONLIGHT
+delay 40
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_7 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement 21, NeoLavandaCementerioS2_Evento_Ghost_Move_7.1
+applymovement OBJ_EVENT_ID_CAMERA, NeoLavandaCementerioS2_Evento_Ghost_Move_7
+waitmovement 0x0
+special RemoveCameraObject
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_8 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_9 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_9 MSGBOX_DEFAULT
+waitmoncry
+delay 20
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_M_DETECT
+fadescreen 1
+playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
+setflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
+removeobject 21
+waitmoncry
+fadescreen 0
+delay 40
+applymovement 22, NeoLavandaCementerioS2_Evento_Ghost_Move_8
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaCementerioS2_Evento_Ghost_Move_9
+waitmovement 0x0
+delay 15
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+fadescreen 1
+delay 20
+removeobject 22
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 211
 release
 end
+
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_9:
+face_left
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_8:
+face_right
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_7.1:
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_7:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_6:
+walk_slow_up
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_5:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_up
+step_end
+
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_4:
+walk_in_place_up
+walk_in_place_right
+walk_in_place_left
+walk_in_place_down
+walk_in_place_up
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_3:
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+walk_fast_down
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+NeoLavandaCementerioS2_Evento_Ghost_Move_1:
+emote_exclamation_mark
+step_end
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_1:
 .string "(Una energía extremadamente fuerte te\n"
@@ -464,3 +677,42 @@ NeoLavandaCementerioS2_Novena_Exorciasta_Texto_1:
 .string "No podemos evitar lo inevitable, pero sí\n"
 	.string "prepararnos para que lo inevitable no\l"
 	.string "nos destruya.$"
+
+Llave_Cementerio_Warp::
+lock
+compare VAR_UNUSED_0x40F7, 209
+goto_if_gt Llave_Cementerio_Warp_2
+msgbox Llave_Cementerio_Warp_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Llave_Cementerio_Warp_Texto_1:
+.string "(Detrás de esta puerta hay una energía\n"
+	.string "muy fuerte)$"
+
+
+Llave_Cementerio_Warp_2::
+playse SE_CLICK
+delay 20
+playse SE_UNLOCK
+setmetatile 28, 31, 0x285, FALSE
+setmetatile 28, 30, 0x285, FALSE
+setmetatile 29, 31, 0x282, FALSE
+setmetatile 29, 30, 0x282, FALSE
+special DrawWholeMapView
+delay 60
+release
+end
+
+
+NeoLavandaCementerioS2_14_NPC::
+lock
+faceplayer
+msgbox NeoLavandaCementerioS2_14_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+NeoLavandaCementerioS2_14_NPC_Texto_1:
+.string "Tenéis miedo a todo como mortales que\n"
+	.string "sois, y deseáis todo como si fuerais\l"
+	.string "inmortales.$"

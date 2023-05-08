@@ -146,3 +146,18 @@ special DrawWholeMapView
 delay 60
 release
 end
+
+NeoLavandaCementerio_Fuji::
+lock
+faceplayer
+msgbox NeoLavandaCementerio_Fuji_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+NeoLavandaCementerio_Fuji_Texto_1:
+.string "Puedes volver a entrar al CEMENTERIO\n"
+	.string "cuando quieras, {PLAYER}. Aunque ya\l"
+	.string "no será lo mismo, la nueva cara visible\l"
+	.string "es TORRE RADIO, para los que lleguen de\l"
+	.string "fuera, este lugar y sus pisos\l"
+	.string "subterráneos no existen.$"
