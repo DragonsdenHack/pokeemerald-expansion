@@ -811,7 +811,7 @@ $(MID_SUBDIR)/mus_gsc_dark_cave.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
 $(MID_SUBDIR)/mus_gsc_goldenrod_city.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G127 -V120 -P4
+	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
 $(MID_SUBDIR)/mus_gsc_national_park.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G163 -V090
