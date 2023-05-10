@@ -694,7 +694,7 @@ $(MID_SUBDIR)/mus_vs_elm.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G155 -V090
 	
 $(MID_SUBDIR)/mus_vs_trainer2.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G185 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G305 -V080
 
 $(MID_SUBDIR)/mus_zeus_encounter.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080		
