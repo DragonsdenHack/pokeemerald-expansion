@@ -2264,3 +2264,140 @@ waitmovement 0x0
 release
 end
 
+Base_Profunda_Tienda_Pokemon::
+lock
+faceplayer
+msgbox Text_CompraPokemon_Base_Profunda MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_VENTA_BASE_PROFUNDA, 0
+switch VAR_RESULT
+case 0, EventScript_NidoranF
+case 1, EventScript_Shellder
+case 2, EventScript_Rhyhorn
+case 3, EventScript_Nidorino
+case 4, EventScript_Electabuzz
+release
+end
+
+EventScript_Electabuzz::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Electabuzz_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 80000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 80000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_ELECTABUZZ, 30, ITEM_NONE
+release
+end
+
+EventScript_Nidorino::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Nidorino_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 42000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 42000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_NIDORINO, 23, ITEM_NONE
+release
+end
+
+EventScript_Rhyhorn::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Rhyhorn_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 35000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 35000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_RHYHORN, 23, ITEM_NONE
+release
+end
+
+EventScript_Shellder::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Shellder_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 17500
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 17500 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_SHELLDER, 18, ITEM_NONE
+release
+end
+
+EventScript_NidoranF::
+lock
+showmoneybox 0, 0
+msgbox EventScript_NidoranF_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 12000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 12000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_NIDORAN_F, 15, ITEM_NONE
+release
+end
+
+Text_CompraPokemon_Base_Profunda:
+.string "Buenos días. ¿En qué puedo ayudarte?$"
+
+EventScript_Electabuzz_Texto_1:
+.string "¿Seguro que quieres a ELECTABUZZ?\n"
+	.string "Costará 80000 POKÉS.$"
+
+EventScript_Nidorino_Texto_1:
+.string "¿Seguro que quieres a NIDORINO?\n"
+	.string "Costará 42000 POKÉS.$"
+
+EventScript_Rhyhorn_Texto_1:
+.string "¿Seguro que quieres a RHYHORN?\n"
+	.string "Costará 35000 POKÉS.$"
+
+EventScript_Shellder_Texto_1:
+.string "¿Seguro que quieres a SHELLDER?\n"
+	.string "Costará 17500 POKÉS.$"
+
+EventScript_NidoranF_Texto_1:
+.string "¿Seguro que quieres a NIDORAN♀?\n"
+	.string "Costará 12000 POKÉS.$"

@@ -2108,3 +2108,220 @@ end
 
 Llave_Despacho_Hoenn_2_Warp_YesNo:
 .string "Usaste la LL.MAGNÉTICA$"
+
+
+BaseRocketHoenn_Tienda_Pokemon::
+lock
+faceplayer
+msgbox Text_CompraPokemon MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_VENTA_BASE_HOENN, 0
+switch VAR_RESULT
+case 0, EventScript_Rockruff
+case 1, EventScript_Drilbur
+case 2, EventScript_Timburr
+case 3, EventScript_Frosmoth
+case 4, EventScript_Bouffalant
+case 5, EventScript_Oshawott
+case 6, EventScript_Chimchar
+case 7, EventScript_Jangmo 
+release
+end
+
+EventScript_Jangmo::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Jangmo_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 168000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 168000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_JANGMO_O, 32, ITEM_NONE
+release
+end
+
+EventScript_Chimchar::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Chimchar_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 82000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 82000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_CHIMCHAR, 12, ITEM_NONE
+release
+end
+
+EventScript_Oshawott::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Oshawott_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 68000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 68000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_OSHAWOTT, 16, ITEM_NONE
+release
+end
+
+EventScript_Bouffalant::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Bouffalant_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 60000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 60000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_BOUFFALANT, 60, ITEM_NONE
+release
+end
+
+
+EventScript_Frosmoth::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Frosmoth_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 48000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 48000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_FROSMOTH, 55, ITEM_NONE
+release
+end
+
+EventScript_Timburr::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Timburr_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 30000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 30000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_TIMBURR, 24, ITEM_NONE
+release
+end
+
+EventScript_Drilbur::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Drilbur_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 22500
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 22500 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_DRILBUR, 25, ITEM_NONE
+release
+end
+
+EventScript_Rockruff::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Rockruff_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 15000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 15000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_ROCKRUFF, 15, ITEM_NONE
+release
+end
+
+EventScript_Jangmo_Texto_1:
+.string "¿Seguro que quiere a JANGMO-O?\n"
+	.string "Costará 168000 POKÉS.$"
+
+EventScript_Poplio_Texto_1:
+.string "¿Seguro que quiere a POPLIO?\n"
+	.string "Costará 76000 POKÉS.$"
+
+EventScript_Chimchar_Texto_1:
+.string "¿Seguro que quiere a CHIMCHAR?\n"
+	.string "Costará 82000 POKÉS.$"
+
+EventScript_Oshawott_Texto_1:
+.string "¿Seguro que quiere a OSHAWOTT?\n"
+	.string "Costará 68000 POKÉS.$"
+
+EventScript_Bouffalant_Texto_1:
+.string "¿Seguro que quiere a BOUFFALANT?\n"
+	.string "Costará 60000 POKÉS.$"
+
+EventScript_Frosmoth_Texto_1:
+.string "¿Seguro que quiere a FROSMOTH?\n"
+	.string "Costará 48000 POKÉS.$"
+
+EventScript_Timburr_Texto_1:
+.string "¿Seguro que quiere a TIMBURR?\n"
+	.string "Costará 30000 POKÉS.$"
+
+EventScript_Drilbur_Texto_1:
+.string "¿Seguro que quiere a DRILBUR?\n"
+	.string "Costará 22500 POKÉS.$"
+
+EventScript_Rockruff_Texto_1:
+.string "¿Seguro que quiere a ROCKRUFF?\n"
+	.string "Costará 15000 POKÉS.$"
+

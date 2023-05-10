@@ -3022,4 +3022,73 @@ extern const u8 gText_PkmnForSwap[];
 extern const u8 gText_SamePkmnInPartyAlready[];
 extern const u8 gText_Cancel3[];
 
+// Venta Torre Radio
+extern const u8 gText_Espurr[];
+extern const u8 gText_Wooloo[];
+extern const u8 gText_Toxel[];
+extern const u8 gText_Ferroseed[];
+extern const u8 gText_Grookey[];
+extern const u8 gText_Cryogonal[];
+extern const u8 gText_Cramorant[];
+extern const u8 gText_Gible[];
+
+// Venta Base Hoenn
+extern const u8 gText_Rockruff[];
+extern const u8 gText_Drilbur[];
+extern const u8 gText_Timburr[];
+extern const u8 gText_Frosmoth[];
+extern const u8 gText_Bouffalant[];
+extern const u8 gText_Oshawott[];
+extern const u8 gText_Chimchar[];
+extern const u8 gText_Jangmo[];
+
+// Venta Base Johto
+extern const u8 gText_Fletching[];
+extern const u8 gText_Mudbray[];
+extern const u8 gText_Pincurchin[];
+extern const u8 gText_Pawniard[];
+extern const u8 gText_Turtwig[];
+extern const u8 gText_Popplio[];
+extern const u8 gText_Spiritomb[];
+extern const u8 gText_Axew[];
+
+// Venta Base Ruta 5
+extern const u8 gText_Rattata[];
+extern const u8 gText_Mankey[];
+extern const u8 gText_Koffing[];
+
+// Venta Base Profunda
+extern const u8 gText_NidoranF[];
+extern const u8 gText_Shellder[];
+extern const u8 gText_Rhyhorn[];
+extern const u8 gText_Nidorino[];
+extern const u8 gText_Electabuzz[];
+
+// Venta Subterráneo Trigal
+extern const u8 gText_Trapinch[];
+extern const u8 gText_Bagon[];
+extern const u8 gText_Deino[];
+extern const u8 gText_Beldum[];
+extern const u8 gText_Wishiwashi[];
+
+// Items Subterráneo Trigal
+extern const u8 gText_Llamasfera[];
+extern const u8 gText_Cxperto[];
+extern const u8 gText_Chaleco[];
+extern const u8 gText_Gafas[];
+
+// Venta Items Trigal
+extern const u8 gText_Lupa[];
+extern const u8 gText_Toxisfera[];
+extern const u8 gText_Casco[];
+extern const u8 gText_Vidasfera[];
+extern const u8 gText_Cinta[];
+
+// Venta Pokemon Trigal
+extern const u8 gText_Teddiursa[];
+extern const u8 gText_Shuckle[];
+extern const u8 gText_Sudowoodo[];
+extern const u8 gText_Cyndaquil[];
+extern const u8 gText_Larvitar[];
+
 #endif // GUARD_STRINGS_H

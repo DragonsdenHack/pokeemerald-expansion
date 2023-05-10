@@ -1930,3 +1930,93 @@ RocketHideout_6F_Maquina_Teletransporte_YesNo:
 RocketHideout_6F_Maquina_Teletransporte_No::
 release
 end
+
+
+Base_Ruta_5_Tienda_Pokemon::
+lock
+faceplayer
+msgbox Text_CompraPokemon_Ruta_5 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_VENTA_BASE_RUTA_5, 0
+switch VAR_RESULT
+case 0, EventScript_Rattata
+case 1, EventScript_Mankey
+case 2, EventScript_Koffing
+release
+end
+
+EventScript_Koffing::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Koffing_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 11000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 11000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_KOFFING, 13, ITEM_NONE
+release
+end
+
+EventScript_Mankey::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Mankey_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 8000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 8000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_MANKEY, 12, ITEM_NONE
+release
+end
+
+EventScript_Rattata::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Rattata_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 3000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 3000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_RATTATA, 9, ITEM_NONE
+release
+end
+
+Text_CompraPokemon_Ruta_5:
+.string "¿Cómo va todo camarada? ¿En qué puedo\n"
+	.string "ayudarte?$"
+
+EventScript_Koffing_Texto_1:
+.string "¿Seguro que quieres a KOFFING?\n"
+	.string "Costará 11000 POKÉS.$"
+
+EventScript_Mankey_Texto_1:
+.string "¿Seguro que quieres a MANKEY?\n"
+	.string "Costará 8000 POKÉS.$"
+
+EventScript_Rattata_Texto_1:
+.string "¿Seguro que quieres a RATTATA?\n"
+	.string "Costará 3000 POKÉS.$"

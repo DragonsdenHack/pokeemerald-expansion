@@ -776,6 +776,113 @@ static const struct MenuAction MultichoiceList_Exit[] =
     {gText_Exit},
 };
 
+static const struct MenuAction MultichoiceList_VentaPokesTorreRadio[] =
+{
+    {gText_Espurr},
+    {gText_Wooloo},
+    {gText_Toxel},
+    {gText_Ferroseed},
+    {gText_Grookey},
+    {gText_Cryogonal},
+    {gText_Cramorant},
+    {gText_Gible},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_VentaPokesBaseHoenn[] =
+{
+    {gText_Rockruff},
+    {gText_Drilbur},
+    {gText_Timburr},
+    {gText_Frosmoth},
+    {gText_Bouffalant},
+    {gText_Oshawott},
+    {gText_Chimchar},
+    {gText_Jangmo},
+    {gText_Exit},
+    
+};
+
+
+static const struct MenuAction MultichoiceList_VentaPokesBaseJohto[] =
+{
+    {gText_Fletching},
+    {gText_Mudbray},
+    {gText_Pincurchin},
+    {gText_Pawniard},
+    {gText_Turtwig},
+    {gText_Popplio},
+    {gText_Spiritomb},
+    {gText_Axew},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_VentaPokesBaseRuta5[] =
+{
+    {gText_Rattata},
+    {gText_Mankey},
+    {gText_Koffing},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_VentaPokesBaseProfunda[] =
+{
+    {gText_NidoranF},
+    {gText_Shellder},
+    {gText_Rhyhorn},
+    {gText_Nidorino},
+    {gText_Electabuzz},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_VentaSubterraneoTrigal[] =
+{
+    {gText_Trapinch},
+    {gText_Bagon},
+    {gText_Deino},
+    {gText_Beldum},
+    {gText_Wishiwashi},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_ItemsSubterraneoTrigal[] =
+{
+    {gText_Llamasfera},
+    {gText_Cxperto},
+    {gText_Chaleco},
+    {gText_Gafas},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_ItemsTrigal[] =
+{
+    {gText_Lupa},
+    {gText_Toxisfera},
+    {gText_Casco},
+    {gText_Vidasfera},
+    {gText_Cinta},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_PokemonTrigal[] =
+{
+    {gText_Teddiursa},
+    {gText_Shuckle},
+    {gText_Sudowoodo},
+    {gText_Cyndaquil},
+    {gText_Larvitar},
+    {gText_Exit},
+    
+};
+
+
 struct MultichoiceListStruct
 {
     const struct MenuAction *list;
@@ -898,6 +1005,15 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_SLATEPORT_TENT_RULES]       = MULTICHOICE(MultichoiceList_SlateportTentRules),
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
+    [MULTI_VENTA_POKEMON_RADIO]        = MULTICHOICE(MultichoiceList_VentaPokesTorreRadio),
+    [MULTI_VENTA_BASE_HOENN]           = MULTICHOICE(MultichoiceList_VentaPokesBaseHoenn),
+    [MULTI_VENTA_BASE_JOHTO]           = MULTICHOICE(MultichoiceList_VentaPokesBaseJohto),
+    [MULTI_VENTA_BASE_RUTA_5]          = MULTICHOICE(MultichoiceList_VentaPokesBaseRuta5),
+    [MULTI_VENTA_BASE_PROFUNDA]        = MULTICHOICE(MultichoiceList_VentaPokesBaseProfunda),
+    [MULTI_VENTA_SUBTERRANEO_TRIGAL]   = MULTICHOICE(MultichoiceList_VentaSubterraneoTrigal),
+    [MULTI_ITEMS_SUBTERRANEO_TRIGAL]   = MULTICHOICE(MultichoiceList_ItemsSubterraneoTrigal),
+    [MULTI_ITEMS_TRIGAL]               = MULTICHOICE(MultichoiceList_ItemsTrigal),
+    [MULTI_POKEMON_TRIGAL]               = MULTICHOICE(MultichoiceList_PokemonTrigal),
 };
 
 const u8 *const gStdStrings[] =

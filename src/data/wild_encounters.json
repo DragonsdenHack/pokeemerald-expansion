@@ -31788,7 +31788,7 @@
               {
                 "min_level": 40,
                 "max_level": 55,
-                "species": "SPECIES_PANSAGE"
+                "species": "SPECIES_PASSIMIAN"
               },
               {
                 "min_level": 40,
@@ -31803,12 +31803,12 @@
               {
                 "min_level": 30,
                 "max_level": 50,
-                "species": "SPECIES_BLIPBUG"
+                "species": "SPECIES_ORANGURU"
               },
               {
                 "min_level": 30,
                 "max_level": 50,
-                "species": "SPECIES_BLIPBUG"
+                "species": "SPECIES_ORANGURU"
               }
             ]
           },
@@ -32418,6 +32418,144 @@
                 "min_level": 45,
                 "max_level": 75,
                 "species": "SPECIES_GIGALITH"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_PASO_CUEVA_HYPNO",
+          "base_label": "gPaso_CuevaHypno0",
+          "land_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 40,
+                "max_level": 50,
+                "species": "SPECIES_DRIFLOON"
+              },
+              {
+                "min_level": 40,
+                "max_level": 50,
+                "species": "SPECIES_DRIFLOON"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_BRONZOR"
+              },
+              {
+                "min_level": 45,
+                "max_level": 60,
+                "species": "SPECIES_BRONZONG"
+              },
+              {
+                "min_level": 45,
+                "max_level": 60,
+                "species": "SPECIES_BRONZONG"
+              },
+              {
+                "min_level": 45,
+                "max_level": 60,
+                "species": "SPECIES_DRIFBLIM"
+              },
+              {
+                "min_level": 45,
+                "max_level": 60,
+                "species": "SPECIES_DRIFBLIM"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_CAMARA_LARVESTA",
+          "base_label": "gCamara_Larvesta0",
+          "land_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
+              },
+              {
+                "min_level": 15,
+                "max_level": 55,
+                "species": "SPECIES_GOLETT"
               }
             ]
           }

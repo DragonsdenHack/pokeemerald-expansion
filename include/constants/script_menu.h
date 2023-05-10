@@ -122,6 +122,15 @@
 #define MULTI_SLATEPORT_TENT_RULES         111
 #define MULTI_FALLARBOR_TENT_RULES         112
 #define MULTI_TAG_MATCH_TYPE               113
+#define MULTI_VENTA_POKEMON_RADIO          114
+#define MULTI_VENTA_BASE_HOENN             115
+#define MULTI_VENTA_BASE_JOHTO             116
+#define MULTI_VENTA_BASE_RUTA_5            117
+#define MULTI_VENTA_BASE_PROFUNDA          118
+#define MULTI_VENTA_SUBTERRANEO_TRIGAL     119
+#define MULTI_ITEMS_SUBTERRANEO_TRIGAL     120
+#define MULTI_ITEMS_TRIGAL                 121
+#define MULTI_POKEMON_TRIGAL               122
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

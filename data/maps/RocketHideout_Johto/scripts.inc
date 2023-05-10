@@ -660,3 +660,205 @@ RocketHideoutJohto_Text_19:
 .string "He oído que RALTS cuenta con 2\n"
 	.string "evoluciones finales, una ofensiva\l"
 	.string "FÍSICA, y otra ofensiva ESPECIAL.$"
+
+BaseRocketJohto_Tienda_Pokemon::
+lock
+faceplayer
+msgbox Text_CompraPokemon MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_VENTA_BASE_JOHTO, 0
+switch VAR_RESULT
+case 0, EventScript_Fletching
+case 1, EventScript_Mudbray
+case 2, EventScript_Pincurchin
+case 3, EventScript_Pawniard
+case 4, EventScript_Turtwig
+case 5, EventScript_Popplio
+case 6, EventScript_Spiritomb
+case 7, EventScript_Axew
+release
+end
+
+EventScript_Axew::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Axew_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 140000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 140000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_AXEW, 34, ITEM_NONE
+release
+end
+
+EventScript_Spiritomb::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Spiritomb_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 115000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 115000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_SPIRITOMB, 62, ITEM_NONE
+release
+end
+
+EventScript_Popplio::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Poplio_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 76000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 76000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_POPPLIO, 16, ITEM_NONE
+release
+end
+
+
+EventScript_Turtwig::
+showmoneybox 0, 0
+msgbox EventScript_Turtwig_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 75000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 75000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_TURTWIG, 17, ITEM_NONE
+release
+end
+
+EventScript_Pawniard::
+showmoneybox 0, 0
+msgbox EventScript_Pawniard_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 65000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 65000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_PAWNIARD, 50, ITEM_NONE
+release
+end
+
+EventScript_Pincurchin::
+showmoneybox 0, 0
+msgbox EventScript_Pincurchin_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 52000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 52000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_PINCURCHIN, 45, ITEM_NONE
+release
+end
+
+EventScript_Mudbray::
+showmoneybox 0, 0
+msgbox EventScript_Mudbray_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 32000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 32000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_MUDBRAY, 28, ITEM_NONE
+release
+end
+
+EventScript_Fletching::
+showmoneybox 0, 0
+msgbox EventScript_Fletching_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 18000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 18000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_FLETCHLING, 16, ITEM_NONE
+release
+end
+
+EventScript_Axew_Texto_1:
+.string "¿Seguro que quiere a AXEW?\n"
+	.string "Costará 140000 POKÉS.$"
+
+EventScript_Spiritomb_Texto_1:
+.string "¿Seguro que quiere a SPIRITOMB?\n"
+	.string "Costará 115000 POKÉS.$"
+
+EventScript_Turtwig_Texto_1:
+.string "¿Seguro que quiere a TURTWIG?\n"
+	.string "Costará 75000 POKÉS.$"
+
+EventScript_Pawniard_Texto_1:
+.string "¿Seguro que quiere a PAWNIARD?\n"
+	.string "Costará 65000 POKÉS.$"
+
+EventScript_Pincurchin_Texto_1:
+.string "¿Seguro que quiere a PINCURCHIN?\n"
+	.string "Costará 52000 POKÉS.$"
+
+EventScript_Mudbray_Texto_1:
+.string "¿Seguro que quiere a MUDBRAY?\n"
+	.string "Costará 32000 POKÉS.$"
+
+EventScript_Fletching_Texto_1:
+.string "¿Seguro que quiere a FLETCHLING?\n"
+	.string "Costará 18000 POKÉS.$"
