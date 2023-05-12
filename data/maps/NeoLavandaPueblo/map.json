@@ -145,6 +145,13 @@
       "elevation": 0,
       "dest_map": "MAP_NEO_LAVANDA_TIENDA",
       "dest_warp_id": 0
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_LAVANDA_PUEBLO",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

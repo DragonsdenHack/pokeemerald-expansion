@@ -177,19 +177,143 @@ LavenderRadioP6Documento_Text_104:
 
 LavenderRadioP6_Reunion::
 lock
+removeobject 3
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Reunion_Move_1
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP6_Reunion_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 10, LavenderRadioP6_Reunion_Move_3
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 9, LavenderRadioP6_Reunion_Move_4
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 11, LavenderRadioP6_Reunion_Move_5
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderRadioP6_Reunion_Move_6
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 11, LavenderRadioP6_Reunion_Move_7
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 10, LavenderRadioP6_Reunion_Move_8
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 11, LavenderRadioP6_Reunion_Move_8
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 11, LavenderRadioP6_Reunion_Move_9
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 11, LavenderRadioP6_Reunion_Move_10
+waitmovement 0x0
+applymovement 10, LavenderRadioP6_Reunion_Move_11
+applymovement 5, LavenderRadioP6_Reunion_Move_8
+waitmovement 0x0
 msgbox LavenderRadioP6_Reunion_Texto_10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 10, LavenderRadioP6_Reunion_Move_8
+waitmovement 0x0
+delay 15
 msgbox LavenderRadioP6_Reunion_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+setflag FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND
+fadescreen 1
+delay 20
+removeobject 5
+removeobject 10
+removeobject 11
+removeobject 9
+addobject 3
+fadescreen 0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LavenderRadioP6_Reunion_Move_2.1
+waitmovement 0x0
+special RemoveCameraObject
+setvar VAR_UNUSED_0x40F7, 212
 release
 end
+
+LavenderRadioP6_Reunion_Move_11:
+face_right
+step_end
+
+LavenderRadioP6_Reunion_Move_10:
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+LavenderRadioP6_Reunion_Move_9:
+walk_slow_down
+walk_slow_down
+step_end
+
+LavenderRadioP6_Reunion_Move_8:
+walk_in_place_down
+step_end
+
+LavenderRadioP6_Reunion_Move_7:
+face_left
+step_end
+
+LavenderRadioP6_Reunion_Move_6:
+face_down
+step_end
+
+LavenderRadioP6_Reunion_Move_5:
+walk_in_place_up
+step_end
+
+LavenderRadioP6_Reunion_Move_4:
+walk_in_place_left
+step_end
+
+
+LavenderRadioP6_Reunion_Move_3:
+walk_in_place_right
+step_end
+
+LavenderRadioP6_Reunion_Move_2:
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_down
+walk_slow_down
+step_end
+
+LavenderRadioP6_Reunion_Move_2.1:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_up
+walk_slow_up
+step_end
+
+LavenderRadioP6_Reunion_Move_1:
+emote_exclamation_mark
+face_left
+step_end
 
 LavenderRadioP6_Reunion_Texto_1:
 .string "????: ¿De verdad es tan peligrosa\n"
@@ -250,20 +374,120 @@ LavenderRadioP6_Reunion_Texto_11:
 
 LavenderRadioP6_Combate_Bill::
 lock
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_1
+waitmovement 0x0
+delay 20
 msgbox LavenderRadioP6_Combate_Bill_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_3
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_4
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_3 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_5
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_4 MSGBOX_AUTOCLOSE
-msgbox LavenderRadioP6_Combate_Bill_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+trainerbattle_no_intro TRAINER_ANDRA_1, LavenderRadioP6_Combate_Bill_Texto_5
+delay 10
+playse SE_BREAKABLE_DOOR
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_6
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
+waitmovement 0x0
+delay 20
 msgbox LavenderRadioP6_Combate_Bill_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_PIN
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_7
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_3
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_4
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_10 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_3
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_8
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_9
+waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_10
+waitmovement 0x0
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2
+removeobject 3
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 213
 release
 end
+
+LavenderRadioP6_Combate_Bill_Move_10:
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+face_right
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_9:
+walk_down
+walk_left
+walk_left
+walk_left
+walk_in_place_right
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_8:
+walk_left
+walk_down
+walk_down
+walk_left
+walk_in_place_right
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_7:
+emote_exclamation_mark
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_6:
+lock_facing_direction
+walk_fast_up
+unlock_facing_direction
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_5:
+walk_down
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_4:
+walk_in_place_down
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_3:
+face_left
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_2:
+walk_slow_up
+step_end
+
+LavenderRadioP6_Combate_Bill_Move_1:
+emote_exclamation_mark
+walk_in_place_up
+step_end
 
 LavenderRadioP6_Combate_Bill_Texto_1:
 .string "BILL: Por fin llegas. Te estaba\n"
@@ -333,14 +557,80 @@ LavenderRadioP6_Combate_Bill_Texto_12:
 
 LavenderRadioP6_Encuentro_Andra::
 lock
+clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
+addobject 12
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Encuentro_Andra_Move_1
+waitmovement 0x0
+delay 40
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Encuentro_Andra_Move_3
+applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_2
+waitmovement 0x0
+delay 20
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_4
+waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_5
+waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_5 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_4
+waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Encuentro_Andra_Move_7
+applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_6
+waitmovement 0x0
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
+removeobject 12
+playse SE_EXIT
+setvar VAR_UNUSED_0x40F7, 214
 release
 end
+
+LavenderRadioP6_Encuentro_Andra_Move_7:
+walk_in_place_up
+step_end
+
+LavenderRadioP6_Encuentro_Andra_Move_6:
+walk_slow_up
+walk_slow_up
+face_right
+step_end
+
+LavenderRadioP6_Encuentro_Andra_Move_5:
+walk_in_place_right
+step_end
+
+LavenderRadioP6_Encuentro_Andra_Move_4:
+face_up
+step_end
+
+LavenderRadioP6_Encuentro_Andra_Move_3:
+walk_slow_right
+walk_in_place_left
+step_end
+
+LavenderRadioP6_Encuentro_Andra_Move_2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+face_right
+step_end
+
+LavenderRadioP6_Encuentro_Andra_Move_1:
+emote_exclamation_mark
+face_down
+step_end
 
 LavenderRadioP6_Encuentro_Andra_Texto_1:
 .string "ANDRA: Por una vez llegas antes.$"
@@ -367,3 +657,16 @@ LavenderRadioP6_Encuentro_Andra_Texto_6:
 	.string "hay más allá de esas escaleras, pero\l"
 	.string "las cruzaremos juntos.$"
 
+
+
+LavenderRadioP6_Octavo_NPC::
+lock
+faceplayer
+msgbox LavenderRadioP6_Octavo_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadioP6_Octavo_NPC_Texto_1:
+.string "Lo extraordinario es que no ocurra nada\n"
+	.string "extraordinario en un largo periodo de\l"
+	.string "tiempo.$"

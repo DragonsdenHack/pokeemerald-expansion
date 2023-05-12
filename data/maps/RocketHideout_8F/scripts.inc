@@ -4197,6 +4197,8 @@ RocketHideout_8F_Mision_Central_Energia_Texto_15:
 
 RocketHideout_8F_Final_DLC::
 lock
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+addobject 1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Final_DLC_Texto_1 MSGBOX_AUTOCLOSE
@@ -4255,6 +4257,7 @@ msgbox RocketHideout_8F_Final_DLC_Texto_20 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Final_DLC_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Final_DLC_Texto_21 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40F7, 216
 release
 end
 
