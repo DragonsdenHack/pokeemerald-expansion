@@ -24785,9 +24785,9 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER150[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER151[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .lvl = 100,
+    .species = SPECIES_ZAPDOS_PRIMAL,
+    .moves = {MOVE_FIERY_WRATH, MOVE_DISCHARGE, MOVE_HEAT_WAVE, MOVE_ROOST}
     }
 };
 

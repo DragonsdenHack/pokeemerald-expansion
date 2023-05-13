@@ -391,7 +391,7 @@ applymovement 3, LavenderRadioP6_Combate_Bill_Move_5
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
-trainerbattle_no_intro TRAINER_ANDRA_1, LavenderRadioP6_Combate_Bill_Texto_5
+trainerbattle_no_intro TRAINER_BILL_4, LavenderRadioP6_Combate_Bill_Texto_5
 delay 10
 playse SE_BREAKABLE_DOOR
 applymovement 3, LavenderRadioP6_Combate_Bill_Move_6

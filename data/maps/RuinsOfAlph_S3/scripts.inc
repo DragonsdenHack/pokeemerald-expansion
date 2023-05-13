@@ -394,7 +394,7 @@ msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_1 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
 delay 20
-trainerbattle_no_intro TRAINER_ANDRA_1, RuinsOfAlphS3_Combate_Unown_Texto_2
+trainerbattle_no_intro TRAINER_ESENCIA_LUGIA, RuinsOfAlphS3_Combate_Unown_Texto_2
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlphS3_Combate_Unown_Move_1
 applymovement 1, RuinsOfAlphS3_Combate_Unown_Move_1
 waitmovement 0x0

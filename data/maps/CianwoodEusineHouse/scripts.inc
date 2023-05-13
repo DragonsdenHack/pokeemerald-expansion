@@ -28,7 +28,7 @@ playse MUS_RG_ENCOUNTER_GYM_LEADER
 applymovement 1, CianwoodEusineHouse_Combate_Move_1
 waitmovement 0x0
 msgbox CianwoodEusineHouse_Combate_Texto_7 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, CianwoodEusineHouse_Combate_Texto_1.1
+trainerbattle_no_intro TRAINER_EUSINE, CianwoodEusineHouse_Combate_Texto_1.1
 msgbox CianwoodEusineHouse_Combate_Texto_8 MSGBOX_AUTOCLOSE
 delay 10
 msgbox CianwoodEusineHouse_Combate_Texto_9 MSGBOX_AUTOCLOSE

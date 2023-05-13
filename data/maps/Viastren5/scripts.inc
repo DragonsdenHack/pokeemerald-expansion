@@ -101,7 +101,7 @@ applymovement 9, ViasTren5_Combate_Atlas_Move_10
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_10 MSGBOX_AUTOCLOSE
 msgbox ViasTren5_Combate_Atlas_Texto_11 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, ViasTren5_Combate_Atlas_Texto_12
+trainerbattle_no_intro TRAINER_ATLAS_2, ViasTren5_Combate_Atlas_Texto_12
 delay 15
 applymovement 9, ViasTren5_Combate_Atlas_Move_3
 waitmovement 0x0

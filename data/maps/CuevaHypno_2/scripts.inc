@@ -48,3 +48,15 @@ CuevaTesoro4_Combate_Blacephalon::
     fadescreen 0
 	release
 	end
+
+CuevaHypno_2_Descripcion_Gym::
+lock
+msgbox CuevaHypno_2_Descripcion_Gym_Texto_1 MSGBOX_SIGN
+release
+end
+
+CuevaHypno_2_Descripcion_Gym_Texto_1:
+.string "GIMNASIO de ISLA TERA\n"
+	.string "LÍDER: MORFEO\l"
+	.string "¡El gran maestro de los sueños,\l"
+	.string "las ilusiones y las esperanzas!$"

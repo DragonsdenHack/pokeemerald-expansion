@@ -106,7 +106,7 @@ applymovement 1, Route49_MazeP4_Combate_Maestro_Move_11
 waitmovement 0x0
 delay 15
 msgbox Route49_MazeP4_Combate_Maestro_Texto_8 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, Route49_MazeP4_Combate_Maestro_Texto_9
+trainerbattle_no_intro TRAINER_TRAINER_17, Route49_MazeP4_Combate_Maestro_Texto_9
 playse SE_PIN
 applymovement 6, Route49_MazeP4_Combate_Maestro_Move_13
 waitmovement 0x0

@@ -370,7 +370,7 @@ msgbox RuinsOfAlph_S5_Final_Texto_21 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 setflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
 setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
-trainerbattle_no_intro TRAINER_ANDRA_1, RuinsOfAlph_S5_Final_Texto_22
+trainerbattle_no_intro TRAINER_CULTO_3, RuinsOfAlph_S5_Final_Texto_22
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_10
 waitmovement 0x0
 msgbox RuinsOfAlph_S5_Final_Texto_23 MSGBOX_AUTOCLOSE
@@ -728,7 +728,7 @@ delay 20
 msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_1 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
-trainerbattle_no_intro TRAINER_ANDRA_1, RuinsOfAlph_S5_Combate_Unown_Texto_2
+trainerbattle_no_intro TRAINER_ESENCIA_ZIGARDE, RuinsOfAlph_S5_Combate_Unown_Texto_2
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
 setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS

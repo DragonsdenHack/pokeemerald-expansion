@@ -20,7 +20,7 @@ msgbox ViasSur5_Combate_Pegaso_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 2, ViasSur5_Combate_Pegaso_Move_5
 waitmovement 0x0
 msgbox ViasSur5_Combate_Pegaso_Texto_6 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, ViasSur5_Combate_Pegaso_Texto_7
+trainerbattle_no_intro TRAINER_PEGASO_2, ViasSur5_Combate_Pegaso_Texto_7
 msgbox ViasSur5_Combate_Pegaso_Texto_8 MSGBOX_AUTOCLOSE
 msgbox ViasSur5_Combate_Pegaso_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 2, ViasSur5_Combate_Pegaso_Move_6
@@ -55,7 +55,7 @@ waitmovement 0x0
 msgbox ViasSur5_Combate_Pegaso_Texto_16 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
-trainerbattle_no_intro TRAINER_ANDRA_1, ViasSur5_Combate_Pegaso_Texto_17
+trainerbattle_no_intro TRAINER_TRAINER_151, ViasSur5_Combate_Pegaso_Texto_17
 msgbox ViasSur5_Combate_Pegaso_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 2, ViasSur5_Combate_Pegaso_Move_8
 waitmovement 0x0

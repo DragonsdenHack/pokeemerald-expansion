@@ -141,7 +141,7 @@ applymovement 10, Route47_Encuentro_Maestro_Anciano_Move_2
 waitmovement 0x0
 delay 10
 msgbox Route49_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, Route49_Combate_Andra_Texto_13
+trainerbattle_no_intro TRAINER_ANDRA_9, Route49_Combate_Andra_Texto_13
 delay 20
 playse SE_PIN
 applymovement 9, Route49_Combate_Andra_Move_7
