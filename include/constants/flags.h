@@ -474,7 +474,7 @@
 #define FLAG_MOVE_TUTOR_TAUGHT_DOUBLE_EDGE   0x1B9
 #define FLAG_MOVE_TUTOR_TAUGHT_EXPLOSION     0x1BA
 #define FLAG_DEFEATED_REGIROCK               0x1BB // COMBATE GUZZLORD
-#define FLAG_DEFEATED_REGICE                 0x1BC
+#define FLAG_DEFEATED_REGICE                 0x1BC // COMBATE BLACEPHALON
 #define FLAG_DEFEATED_REGISTEEL              0x1BD
 #define FLAG_DEFEATED_KYOGRE                 0x1BE
 #define FLAG_DEFEATED_GROUDON                0x1BF
@@ -755,7 +755,7 @@
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel/clear clefairy proton torre 7F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON // clear lance escena 2//clear Oak y Dalia Pueblo paleta
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne // clear rockets torre pkmn 7F// clear giovanni rojo gymnasio verde//clear giovanni 2 ruta 22
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //set proton escena 8//clear andra C.Victoria
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //set proton escena 8//clear andra C.Victoria// clear Blaine Rocket 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL // proton y fuji P7 torre pkmn//CLEAR RECLUTA ROCKET HIDEOUT 8F//clear giovanni base verde
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE // BALL TUNEL ROCA //proton torre pkmn 6F// Rockets castigo base 4F
 #define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // ANDRA DESPACHO ATLAS //clearflag rockets post derrota rojo mt.moon// policias casa bill // Rojo Liga pkmn
@@ -780,55 +780,55 @@
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // CLEARFLAG EJECUTIVO ROCKET GIMNASIO VERDE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF // POLICIAS CENTRAL RUTA 10
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0 // ESTAFADOR MAGIKARP RUTA 4
-#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1 // ANDRA ROCKET S4
+#define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE             0x2E1 // ANDRA ROCKET S4// //clear niños bosque baya
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY                               0x2E2 // MIGUEL TUNEL ROCA//clear Giovanni Sala Entreno
 #define FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY                           0x2E3 // KANGASKHAN TUNEL ROCA//clear ARCEUSP
 #define FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN                            0x2E4 // FUJI CASA PUEBLO LAVANDA
-#define FLAG_HIDE_ROUTE_109_MR_BRINEY                               0x2E5 // CLEAR GENTE EN TORRE QUEMADA PENSADORES Y ZEUS
+#define FLAG_HIDE_ROUTE_109_MR_BRINEY                               0x2E5 // CLEAR GENTE EN TORRE QUEMADA PENSADORES Y ZEUS//clear morfeo bosque baya
 #define FLAG_HIDE_ROUTE_104_MR_BRINEY_BOAT                          0x2E6
 #define FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN                       0x2E7
 #define FLAG_HIDE_ROUTE_109_MR_BRINEY_BOAT                          0x2E8
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN            0x2E9 // CLEARFLAG MT 26 TERREMOTO DESPUES DE DERROTAR A ATLAS EN BASE CIUDAD VERDE
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY                    0x2EA // CLEAR CROM GIMNASIO OLIVO
-#define FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION                  0x2EB // LIBRE
-#define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC // CLEAR MIRTO PASO DINDON
+#define FLAG_HIDE_SAFARI_ZONE_SOUTH_EAST_EXPANSION                  0x2EB // LIBRE PARA USAR SET
+#define FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER                0x2EC // CLEAR MIRTO PASO DINDON// clear fuji S2 cementerio
 #define FLAG_HIDE_SLATEPORT_CITY_SCOTT                              0x2ED
-#define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE // ENTRENADORES GUAYS RUTA 10
+#define FLAG_HIDE_ROUTE_101_ZIGZAGOON                               0x2EE // ENTRENADORES GUAYS RUTA 10// clear mew cementerio
 #define FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY                           0x2EF // CLEAR MUJER ANIBAL DESPUES MTMORTERO
-#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0 // CLEARFLAG LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE                       0x2F0 // CAMPEONA FANTASMA CASA VIAS TREN
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN              0x2F1 // ROCKETS ESCENA 3// GUAYS TUNEL ROCA//JONES MUERTO
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1          0x2F2 
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2          0x2F3
 #define FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA          0x2F4 // CLEARFLAG USADA HABITANTES AZAFRAN DESPUES INVASION SILPH
 #define FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM               0x2F5 // MOTORISTA SECUNDARIA AZAFRAN
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM                0x2F6 // FUJI BLAINE MANSION Y ROCKET Y POLICIAS EN CIUDAD AZAFRAN 
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7 // LIBRE
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8 // LIBRE
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9 // LIBRE
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM                    0x2F7 // TRXATU BALL
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM      0x2F8 // CLEAR EUSINE DLC RUTA 47
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK              0x2F9 // FUJI P2 TORRE RADIO LAVANDA
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK                  0x2FA // AZUL CEMENTERIO LAVANDA S2
 #define FLAG_HIDE_DEOXYS                                            0x2FB
 #define FLAG_HIDE_BIRTH_ISLAND_DEOXYS_TRIANGLE                      0x2FC
 #define FLAG_HIDE_MAUVILLE_CITY_SCOTT                               0x2FD // LIBRE ANDRA JOHTO
-#define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE // LIBRE
-#define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF // LIBRE
-#define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300 // LIBRE
-#define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301 // LIBRE
-#define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302 // LIBRE
-#define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303 // LIBRE
-#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304 // LIBRE
+#define FLAG_HIDE_VERDANTURF_TOWN_SCOTT                             0x2FE // ANDRA RUTA 50// clear eusine neolavanda
+#define FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT                  0x2FF // EUSINE PAGODA RUTA 49 P3
+#define FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE                        0x300 // EUSINE ANDRA RUTA 49 PAGODA FINAL
+#define FLAG_HIDE_ROUTE_111_VICTORIA_WINSTRATE                      0x301 // EX CAMPEON VENENO MTPLATEADO
+#define FLAG_HIDE_ROUTE_111_VIVI_WINSTRATE                          0x302 // OBRAS VIAS TRIGAL
+#define FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE                         0x303 // M.IRIS Y M.DRAGON REUNION TRIGAL
+#define FLAG_HIDE_PETALBURG_GYM_NORMAN                              0x304 // GUAY PISO 1 TORRE RADIO
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0x305
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306 
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308 // POLICIAS CUEVA DIGGLET //CLEAR ANDRA SSANNE VUELTA
-#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2                          0x309 // CLEARFLAG LIBRE
+#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2                          0x309 // EUSINE ORQUIDEA MUESTRA CAMINO SECRETO DLC RUTA 47
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_3                          0x30A
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4                          0x30B
 #define FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS                          0x30C
 #define FLAG_HIDE_PETALBURG_GYM_GREETER                             0x30D // ESCUELA MALVA DESPUES GANAR GYM
 #define FLAG_HIDE_MARINE_CAVE_KYOGRE                                0x30E
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // AZUL TORRE PKMN 2F
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311 // LIBRE
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // AZUL TORRE PKMN 2F//clear cientificos torre radio
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311 // TORRE RADIO FINAL OAK
 #define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // CUBONE TORRE PKMN 5F //clear Miguel y Bill Silph//clear Ladron Mansion// clear ball groudon
 #define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // FUJI TORRE PKMN 5F//clear Andra y Giovanni Silph // clear Andra canon sete
 #define FLAG_HIDE_MOSSDEEP_CITY_SCOTT                               0x314 // ANDRA BASE PROFUNDA //clear Atlas Silph //científico mansion canela
@@ -842,7 +842,7 @@
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1                          0x31C // PROTON ROCKET HIDEOUT 8F
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1                          0x31D // ANDRA ROCKET HIDEOUT 8F
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1                          0x31E // AZUL RUTA 15
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F // BRUNO Y KOGA ENTRADA FUCSIA
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3                          0x31F // BRUNO Y KOGA ENTRADA FUCSIA//clear ANDRA DLC Ruta 47
 #define FLAG_HIDE_LUGIA                                             0x320
 #define FLAG_HIDE_HO_OH                                             0x321 // BRUNO Y POLICIA CAMINO BICIS // clear policias liga // clear cultista sacrificado
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER                    0x322 // MOTEROS CAMINO BICIS //clear oak liga // clear aquiles-magno 1er encuentro // clear yveltal
@@ -866,8 +866,8 @@
 #define FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        0x334 // AQUILES Y TOLO PUERTA ZAFIRO // BALL GROUDON CTORRE
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         0x335 // MAGNO Y TATIANO PUERTA RUBY // HOOH CTORRE
 #define FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         0x336 // MAGNO COMBATE FINAL // BALL HOOH CTORRE
-#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337 // AQUILES COMBATE FINAL
-#define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338 // LIBRE CLEARFLAG
+#define FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          0x337 // AQUILES COMBATE FINAL // POKEMON LAGO MISION
+#define FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          0x338 // CLEAR CIERRE TORRE LAVANDA
 #define FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                         0x339 // Unused, leftover from R/S
 #define FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                            0x33A // ADMIN TOLO COMBATE // Clear Andra isla origen //
 #define FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                             0x33B // CULTISTAS LAVANDA ENCUENTRO 1RA VEZ// clear giovanni roca ombligo// cientificos roca ombligo
@@ -891,7 +891,7 @@
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT                  0x34D // MILTANK BLOQUEO CIUDAD OLIVO// ROCKETS REUNION TRIGAL// YVELTAL RUINAS
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE                      0x34E // FARERO Y AMPHAROS FARO
 #define FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD                           0x34F // LIDER CROM FARO // CLEAR MIRTO FINAL// CLEAR CULTISTA FINAL
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW            0x350 // CAPITAN SSANNE Y BLOQUEO CAMAROTE
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW            0x350 // CAPITAN SSANNE Y BLOQUEO CAMAROTE// ANCIANOS CASA MISION AZALEA
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_PICHU_DOLL          0x351 // ANCIANOS BLOQUEO CIUDAD IRIS// clear andra pelea unown
 #define FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON_ASLEEP                   0x352 
 #define FLAG_HIDE_ROUTE_119_RIVAL                                   0x353 // ANIBAL Y MACHOKE MTMORTERO, BLOQUEO GYM ORQUIDEA//ZEUS MUERTO
@@ -901,7 +901,7 @@
 #define FLAG_HIDE_SKY_PILLAR_WALLACE                                0x357 // PRIMER LADRON ESTAFADOR 
 #define FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                              0x358 // CIENTIFICO BLOQUEO CIUDAD IRIS
 #define FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                              0x359 // CIENTIFICOS DENTRO LAB CIUDAD IRIS
-#define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A // LIBRE CLEARFLAG 
+#define FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                       0x35A // TRABAJADOR LAVANDA 
 #define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                     0x35B 
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                    0x35C // NPCS SECUNDARIA MISION TRIGAL
 #define FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                           0x35D // MOTORISTA BLOQUEO SUBTERRANEO TRIGAL
@@ -917,41 +917,41 @@
 #define FLAG_HIDE_FALLORBOR_POKEMON_CENTER_LANETTE                  0x367 // PESCADOR LAGO FURIA
 #define FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN                          0x368 // POLICIA BLOQUEO CUEVA HELADA// ZEUS GYM DRAGON// ZEUS FINAL
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT    0x369 // ANCIANO TRAMPILLA GUARIDA DRAGON //BALL KYUREM
-#define FLAG_HIDE_DESERT_UNDERPASS_FOSSIL                           0x36A // MAESTRO DRAGON GIMNASIO
+#define FLAG_HIDE_DESERT_UNDERPASS_FOSSIL                           0x36A // MAESTRO DRAGON GIMNASIO// clear jefe devon lago
 #define FLAG_HIDE_ROUTE_111_PLAYER_DESCENT                          0x36B // UNOWN DORADO SALA 1
 #define FLAG_HIDE_ROUTE_111_DESERT_FOSSIL                           0x36C // RESHIRAM Y ZEKROM
 #define FLAG_HIDE_MT_CHIMNEY_TRAINERS                               0x36D // UNOWN FINAL
 #define FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT                         0x36E // JONES FINAL
-#define FLAG_HIDE_RUSTURF_TUNNEL_BRINEY                             0x36F // LIBRE
-#define FLAG_HIDE_RUSTURF_TUNNEL_PEEKO                              0x370 // LIBRE
-#define FLAG_HIDE_BRINEYS_HOUSE_PEEKO                               0x371 // LIBRE
-#define FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA                          0x372 // LIBRE
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS         0x373 // LIBRE
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_1     0x374 // LIBRE
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2     0x375 // LIBRE
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE           0x376 // LIBRE
-#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN    0x377 // LIBRE
-#define FLAG_HIDE_BATTLE_TOWER_OPPONENT                             0x378 // LIBRE
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL                  0x379 // LIBRE
-#define FLAG_HIDE_ROUTE_119_TEAM_AQUA                               0x37A // LIBRE
-#define FLAG_HIDE_ROUTE_116_MR_BRINEY                               0x37B // LIBRE
-#define FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS                      0x37C // LIBRE
-#define FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS                      0x37D // LIBRE
-#define FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND                        0x37E // LIBRE
-#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2         0x37F // LIBRE HASTA AQUI INCLUIDO ULTIMO SET DEL SSAQUA
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380          0x380
-#define FLAG_HIDE_ROUTE_101_BIRCH                                   0x381
-#define FLAG_HIDE_ROUTE_103_BIRCH                                   0x382
-#define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0x383
-#define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384
-#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385
-#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387
-#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388
-#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389
-#define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A
-#define FLAG_HIDE_FALLARBOR_AZURILL                                 0x38B
-#define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0x38C
+#define FLAG_HIDE_RUSTURF_TUNNEL_BRINEY                             0x36F // CIENTIFICOS DEVON MISION LAGO
+#define FLAG_HIDE_RUSTURF_TUNNEL_PEEKO                              0x370 // PEGASO MISION VIAS TREN
+#define FLAG_HIDE_BRINEYS_HOUSE_PEEKO                               0x371 // PEGASO FINAL MISION VIAS TREN
+#define FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA                          0x372 // ANDRA BASE HOENN
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_AQUA_GRUNTS         0x373 // ANDRA BASE HOENN S2
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_1     0x374 // ANDRA RUTA 111
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2     0x375 // DESERT RUINS
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE           0x376 // ANDRA, EJECUTIVO Y MAXIMO REGIROCK/ clear atlas vias tren// ANDRA RADIO LAVANDA P6
+#define FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN    0x377 // OAK NEO CINNABAR// CLEAR ESCENA MANSION
+#define FLAG_HIDE_BATTLE_TOWER_OPPONENT                             0x378 // PRESIDENTE VIAS TREN
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL                  0x379 // MEWTWO MANSION// clear agatha discusion
+#define FLAG_HIDE_ROUTE_119_TEAM_AQUA                               0x37A // ZAPDOS VIAS TREN 5 
+#define FLAG_HIDE_ROUTE_116_MR_BRINEY                               0x37B // ZAPDOS NEO POWER PLANT
+#define FLAG_HIDE_WEATHER_INSTITUTE_1F_WORKERS                      0x37C // AGATHA SECUNDARIA VIAS BOSQUE
+#define FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS                      0x37D // ANCIANA CAMPEONA MTSILVER
+#define FLAG_HIDE_ROUTE_116_WANDAS_BOYFRIEND                        0x37E // REUNION P6 RADIO LAVANDA
+#define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2         0x37F // BILL P6 RADIO LAVANDA
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_UNKNOWN_0x380          0x380 // libre clearflag
+#define FLAG_HIDE_ROUTE_101_BIRCH                                   0x381 // libre clearflag
+#define FLAG_HIDE_ROUTE_103_BIRCH                                   0x382 // libre clearflag
+#define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0x383 // MORFEO CUEVA 4
+#define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384 // MORFEO GYM 1
+#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385 // libre clearflag
+#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386 // libre clearflag
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387 // libre clearflag
+#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388 // libre clearflag
+#define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389 // flag libre
+#define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A // libre clearflag
+#define FLAG_HIDE_FALLARBOR_AZURILL                                 0x38B // flag libre
+#define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT                   0x38C // flag libre
 #define FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR                      0x38D
 #define FLAG_HIDE_SOUTHERN_ISLAND_EON_STONE                         0x38E
 #define FLAG_HIDE_SOUTHERN_ISLAND_UNCHOSEN_EON_DUO_MON              0x38F
@@ -997,12 +997,12 @@
 #define FLAG_HIDE_SS_TIDAL_ROOMS_SNATCH_GIVER                       0x3B7
 #define FLAG_RECEIVED_SHOAL_SALT_1                                  0x3B8 // MAESTRO TORRE CAMPANA P9
 #define FLAG_RECEIVED_SHOAL_SALT_2                                  0x3B9 // ROCKETS BASE CAOBA
-#define FLAG_RECEIVED_SHOAL_SALT_3                                  0x3BA // AGATHA IRIS
+#define FLAG_RECEIVED_SHOAL_SALT_3                                  0x3BA // AGATHA IRIS// OAK BASE HOENN
 #define FLAG_RECEIVED_SHOAL_SALT_4                                  0x3BB // DEVON LAGO FURIA
-#define FLAG_RECEIVED_SHOAL_SHELL_1                                 0x3BC // LIBRE CLEAR
-#define FLAG_RECEIVED_SHOAL_SHELL_2                                 0x3BD // LIBRE CLEAR
-#define FLAG_RECEIVED_SHOAL_SHELL_3                                 0x3BE // LIBRE CLEAR
-#define FLAG_RECEIVED_SHOAL_SHELL_4                                 0x3BF // LIBRE CLEAR
+#define FLAG_RECEIVED_SHOAL_SHELL_1                                 0x3BC // DOCUMENTOS MISIONES DLC DESPACHO PRIVADO
+#define FLAG_RECEIVED_SHOAL_SHELL_2                                 0x3BD // CLEAR EX CAMPEON VENENO CASA RUTA 50
+#define FLAG_RECEIVED_SHOAL_SHELL_3                                 0x3BE // CLEAR NEO POWER ANTES DERROTAR ZAPDOS
+#define FLAG_RECEIVED_SHOAL_SHELL_4                                 0x3BF // INVITADOS 2DA REUNION TRIGAL
 #define FLAG_HIDE_ROUTE_111_SECRET_POWER_MAN                        0x3C0
 #define FLAG_HIDE_SLATEPORT_MUSEUM_POPULATION                       0x3C1
 #define FLAG_HIDE_LILYCOVE_DEPARTMENT_STORE_ROOFTOP_SALE_WOMAN      0x3C2

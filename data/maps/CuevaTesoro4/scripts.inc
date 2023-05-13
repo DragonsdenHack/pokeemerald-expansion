@@ -307,8 +307,8 @@ CuevaTesoro4_Combate_Guzzlord::
 	goto_if_eq VAR_RESULT, B_OUTCOME_WON, CuevaTesoro4_Combate_Guzzlord_2
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, CuevaTesoro4_Combate_Guzzlord_2
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, CuevaTesoro4_Combate_Guzzlord_2
-	setflag FLAG_DEFEATED_REGIROCK
-	setflag FLAG_HIDE_REGIROCK
+	setflag FLAG_DEFEATED_REGICE
+	setflag FLAG_HIDE_REGICE
 	fadescreen 1
 	removeobject 12
 	delay 20

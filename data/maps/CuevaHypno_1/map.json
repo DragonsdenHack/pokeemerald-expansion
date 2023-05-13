@@ -18,7 +18,7 @@
   ],
   "warp_events": [
     {
-      "x": 1,
+      "x": 2,
       "y": 5,
       "elevation": 0,
       "dest_map": "MAP_CUEVA_HYPNO_3",
