@@ -661,3 +661,15 @@ MagmaHideout_3F_3R_EventScript_ItemEscapeRope::
 ViridianCity_EventScript_ItemPocion::
 finditem ITEM_POTION
 	end
+
+Route2_EventScript_ItemTM44::
+finditem ITEM_TM44_REST
+	end
+
+Route2_EventScript_ItemEther::
+finditem ITEM_ETHER
+	end
+
+Route3_EventScript_ItemTM16::
+finditem ITEM_TM16_LIGHT_SCREEN
+	end

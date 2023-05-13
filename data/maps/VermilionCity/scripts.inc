@@ -17,7 +17,26 @@ VermilionCity_Text1:
 
 
 VermilionCity2::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 32
+goto_if_gt VermilionCity2_2
+msgbox VermilionCity2_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
+
+VermilionCity2_2::
+msgbox VermilionCity2_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity2_Texto_2:
+.string "El barco zarpó, volverá a CARMÍN\n"
+	.string "dentro de un año.$"
+
+VermilionCity2_Texto_1:
+.string "¿Has visto al SS.ANNE amarrado en\n"
+	.string "el puerto?$"
 
 
 VermilionCity3::
@@ -822,3 +841,17 @@ VermilionCity_Secundaria_AncianoMachop_Move_1:
 emote_exclamation_mark
 step_end
 
+
+VermilionCity_Primer_NPC::
+lock
+faceplayer
+msgbox VermilionCity_Primer_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Primer_NPC_Texto_1:
+.string "¡Toda esta contaminación que\n"
+	.string "últimamente se aprecia por la\l"
+	.string "región debe ser culpa vuestra!\l"
+	.string "¡Vuestros GRIMER y KOFFING acaban\l"
+	.string "con el medio ambiente!$"

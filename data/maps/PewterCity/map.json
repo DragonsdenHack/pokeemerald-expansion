@@ -242,6 +242,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PewterCityDocumento_102"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 3,
+      "elevation": 3,
+      "item": "ITEM_POKE_BALL",
+      "flag": "FLAG_UNUSED_0x494"
     }
   ]
 }

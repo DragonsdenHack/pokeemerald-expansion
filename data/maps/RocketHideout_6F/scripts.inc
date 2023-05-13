@@ -946,7 +946,6 @@ setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 delay 20
 removeobject 27
 fadescreen 0
-setvar VAR_UNUSED_0x40FC, 1
 setvar VAR_UNUSED_0x40F7, 23
 setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
 release

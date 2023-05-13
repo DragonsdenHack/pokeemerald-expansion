@@ -1218,8 +1218,8 @@
 #define FLAG_ITEM_SAFARI_ZONE_SOUTH_EAST_BIG_PEARL                  0x492
 
 #define FLAG_UNUSED_0x493                                           0x493 // VIRIDIAN POCION
-#define FLAG_UNUSED_0x494                                           0x494 // Unused Flag
-#define FLAG_UNUSED_0x495                                           0x495 // Unused Flag
+#define FLAG_UNUSED_0x494                                           0x494 // PLATEADA POKE BALL - INVISIBLE
+#define FLAG_UNUSED_0x495                                           0x495 // CELESTE CARAMELO RARO - INVISIBLE
 #define FLAG_UNUSED_0x496                                           0x496 // Unused Flag
 #define FLAG_UNUSED_0x497                                           0x497 // Unused Flag
 #define FLAG_UNUSED_0x498                                           0x498 // Unused Flag
@@ -1647,3 +1647,57 @@
 #define SPECIAL_FLAGS_END                       (SPECIAL_FLAGS_START + 0x7F)
 
 #endif // GUARD_CONSTANTS_FLAGS_H
+
+
+// FLAGS NUEVAS
+
+#define FLAG_NUEVA_1 0x500 // RUTA 2 - MT 44 DESCANSO
+#define FLAG_NUEVA_2 0x501 // RUTA 2 - ETHER
+#define FLAG_NUEVA_3 0x502 // RUTA 3 - BAYA ARANJA - INVISIBLE
+#define FLAG_NUEVA_4 0x503 // RUTA 3 - BAYA CAQUIC - INVISIBLE
+#define FLAG_NUEVA_5 0x504 // RUTA 3 - SUPER BALL - INVISIBLE
+#define FLAG_NUEVA_6 0x505 // RUTA 3 - SUPER POCION - INVISIBLE
+#define FLAG_NUEVA_7 0x506 // RUTA 3 - TM16 
+#define FLAG_NUEVA_8 0x507 // RUTA 6 - BAYA ZIDRA - INVISIBLE
+#define FLAG_NUEVA_9 0x508 // RUTA 6 - CARAMELORARO - INVISIBLE
+#define FLAG_NUEVA_10 0x509 // RUTA 7 - HYPER POCION - INVISIBLE
+#define FLAG_NUEVA_11 0x50A
+#define FLAG_NUEVA_12 0x50B
+#define FLAG_NUEVA_13 0x50C
+#define FLAG_NUEVA_14 0x50D
+#define FLAG_NUEVA_15 0x50E
+#define FLAG_NUEVA_16 0x50F
+#define FLAG_NUEVA_17 0x510
+#define FLAG_NUEVA_18 0x511
+#define FLAG_NUEVA_19 0x512
+#define FLAG_NUEVA_20 0x513
+#define FLAG_NUEVA_21 0x514
+#define FLAG_NUEVA_22 0x515
+#define FLAG_NUEVA_23 0x516
+#define FLAG_NUEVA_24 0x517
+#define FLAG_NUEVA_25 0x518
+#define FLAG_NUEVA_26 0x519
+#define FLAG_NUEVA_27 0x51A
+#define FLAG_NUEVA_28 0x51B
+#define FLAG_NUEVA_29 0x51C
+#define FLAG_NUEVA_30 0x51D
+#define FLAG_NUEVA_31 0x51E
+#define FLAG_NUEVA_32 0x51F
+#define FLAG_NUEVA_33 0x520
+#define FLAG_NUEVA_34 0x521
+#define FLAG_NUEVA_35 0x522
+#define FLAG_NUEVA_36 0x523
+#define FLAG_NUEVA_37 0x524
+#define FLAG_NUEVA_38 0x525
+#define FLAG_NUEVA_39 0x526
+#define FLAG_NUEVA_40 0x527
+#define FLAG_NUEVA_41 0x528
+#define FLAG_NUEVA_42 0x529
+#define FLAG_NUEVA_43 0x52A
+#define FLAG_NUEVA_44 0x52B
+#define FLAG_NUEVA_45 0x52C
+#define FLAG_NUEVA_46 0x52D
+#define FLAG_NUEVA_47 0x52E
+#define FLAG_NUEVA_48 0x52F
+#define FLAG_NUEVA_49 0x530
+#define FLAG_NUEVA_50 0x531

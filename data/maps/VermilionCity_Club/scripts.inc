@@ -177,3 +177,110 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_12:
 VermilionCity_Club_Secundaria_AncianoMachop_Move_1:
 emote_exclamation_mark
 step_end
+
+VermilionCity_Seel::
+lock
+faceplayer
+playmoncry SPECIES_SEEL, CRY_MODE_ENCOUNTER
+msgbox VermilionCity_Seel_Texto_1 MSGBOX_DEFAULT
+waitmoncry
+release
+end
+
+VermilionCity_Seel_Texto_1:
+.string "SEEL: ¡KYUUUO!$"
+
+
+VermilionCity_Pikachu::
+lock
+faceplayer
+playmoncry SPECIES_PIKACHU, CRY_MODE_ENCOUNTER
+msgbox VermilionCity_Pikachu_Texto_1 MSGBOX_DEFAULT
+waitmoncry
+release
+end
+
+VermilionCity_Pikachu_Texto_1:
+.string "PIKACHU: ¡CHU! ¡PIKACHU!$"
+
+
+
+VermilionCity_Tercer_NPC::
+lock
+faceplayer
+compare VAR_UNUSED_0x409B, 1
+goto_if_gt VermilionCity_Tercer_NPC_2
+msgbox VermilionCity_Tercer_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Tercer_NPC_2::
+msgbox VermilionCity_Tercer_NPC_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Tercer_NPC_Texto_1:
+.string "¿Quién eres tú?\n"
+	.string "¡No mereces compartir espacio con\l"
+	.string "nosotros!$"
+
+VermilionCity_Tercer_NPC_Texto_2:
+.string "¡Eso ha sido increíble!\n"
+	.string "¡Queda claro que los grandes\l"
+	.string "entrenadores pueden venir de\l"
+	.string "cualquier lugar!\l"
+	.string "¡Incluso del TEAM ROCKET!$"
+
+
+
+VermilionCity_Cuarto_NPC::
+lock
+faceplayer
+compare VAR_UNUSED_0x409B, 1
+goto_if_gt VermilionCity_Cuarto_NPC_2
+msgbox VermilionCity_Cuarto_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Cuarto_NPC_2::
+msgbox VermilionCity_Cuarto_NPC_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Cuarto_NPC_Texto_1:
+.string "Espero no tener que recurrir a mi\n"
+	.string "SNORLAX ROCKET, a la mínima\l"
+	.string "acabarás aplastado así que cuida\l"
+	.string "tus modales.$"
+
+VermilionCity_Cuarto_NPC_Texto_2:
+.string "Vaya, pensaba que nuestro\n"
+	.string "PRESIDENTE era más fuerte...$"
+
+
+
+VermilionCity_Segundo_NPC::
+lock
+faceplayer
+compare VAR_UNUSED_0x409B, 1
+goto_if_gt VermilionCity_Segundo_NPC_2
+msgbox VermilionCity_Segundo_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Segundo_NPC_2::
+msgbox VermilionCity_Segundo_NPC_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Segundo_NPC_Texto_1:
+.string "Sé educado y muestra respeto a la\n"
+	.string "hora de dirijirte a nuestro\l"
+	.string "PRESIDENTE, si quisiera te\l"
+	.string "enterraría a ti junto con el resto\l"
+	.string "del TEAM ROCKET.$"
+
+
+VermilionCity_Segundo_NPC_Texto_2:
+.string "No esperaba que nuestro PRESIDENTE\n"
+	.string "perdiera...$"
