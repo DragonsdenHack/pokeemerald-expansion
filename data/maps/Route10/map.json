@@ -362,6 +362,14 @@
       "elevation": 3,
       "item": "ITEM_PERSIM_BERRY",
       "flag": "FLAG_NUEVA_20"
+    },
+    {
+      "type": "hidden_item",
+      "x": 20,
+      "y": 57,
+      "elevation": 3,
+      "item": "ITEM_REVIVE",
+      "flag": "FLAG_NUEVA_21"
     }
   ]
 }

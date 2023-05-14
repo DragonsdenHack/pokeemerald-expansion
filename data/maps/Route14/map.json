@@ -274,6 +274,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route14Documento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 20,
+      "elevation": 3,
+      "item": "ITEM_ZINC",
+      "flag": "FLAG_NUEVA_31"
     }
   ]
 }

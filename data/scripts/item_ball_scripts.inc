@@ -681,3 +681,23 @@ finditem ITEM_TM40_AERIAL_ACE
 Route9_EventScript_ItemAntiquemar::
 finditem ITEM_BURN_HEAL
 	end
+
+Route11_EventScript_ItemDespertar::
+finditem ITEM_AWAKENING
+	end
+
+Route11_EventScript_ItemDefensaX::
+finditem ITEM_X_DEFENSE
+	end
+
+Route11_EventScript_ItemTM31::
+finditem ITEM_TM31_BRICK_BREAK
+	end
+
+Route12_EventScript_ItemTM48::
+finditem ITEM_TM48
+	end
+
+Route12_EventScript_ItemHierro::
+finditem ITEM_IRON
+	end
