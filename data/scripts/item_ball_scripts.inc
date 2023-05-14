@@ -705,3 +705,7 @@ finditem ITEM_IRON
 Route15_EventScript_ItemTM18::
 finditem ITEM_TM18_RAIN_DANCE
 	end
+
+Route24_EventScript_ItemRevive::
+finditem ITEM_REVIVE
+	end

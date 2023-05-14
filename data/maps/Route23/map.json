@@ -228,6 +228,70 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route23Documento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_MAX_ELIXIR",
+      "flag": "FLAG_NUEVA_41"
+    },
+    {
+      "type": "hidden_item",
+      "x": 3,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_LUM_BERRY",
+      "flag": "FLAG_NUEVA_42"
+    },
+    {
+      "type": "hidden_item",
+      "x": 2,
+      "y": 29,
+      "elevation": 3,
+      "item": "ITEM_SITRUS_BERRY",
+      "flag": "FLAG_NUEVA_43"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 42,
+      "elevation": 3,
+      "item": "ITEM_FULL_RESTORE",
+      "flag": "FLAG_NUEVA_44"
+    },
+    {
+      "type": "hidden_item",
+      "x": 10,
+      "y": 67,
+      "elevation": 3,
+      "item": "ITEM_MAX_REVIVE",
+      "flag": "FLAG_NUEVA_45"
+    },
+    {
+      "type": "hidden_item",
+      "x": 20,
+      "y": 72,
+      "elevation": 3,
+      "item": "ITEM_ULTRA_BALL",
+      "flag": "FLAG_NUEVA_46"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 101,
+      "elevation": 3,
+      "item": "ITEM_MAX_ETHER",
+      "flag": "FLAG_NUEVA_47"
+    },
+    {
+      "type": "hidden_item",
+      "x": 3,
+      "y": 128,
+      "elevation": 3,
+      "item": "ITEM_LEPPA_BERRY",
+      "flag": "FLAG_NUEVA_48"
     }
   ]
 }

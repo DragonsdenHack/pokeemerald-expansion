@@ -292,7 +292,7 @@
     },
     {
       "type": "trigger",
-      "x": 24,
+      "x": 25,
       "y": 7,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FC",
@@ -319,7 +319,7 @@
     },
     {
       "type": "trigger",
-      "x": 24,
+      "x": 25,
       "y": 6,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FC",
@@ -439,8 +439,8 @@
     },
     {
       "type": "hidden_item",
-      "x": 14,
-      "y": 17,
+      "x": 12,
+      "y": 0,
       "elevation": 3,
       "item": "ITEM_NONE",
       "flag": "FLAG_TEMP_1"
