@@ -709,3 +709,24 @@ finditem ITEM_TM18_RAIN_DANCE
 Route24_EventScript_ItemRevive::
 finditem ITEM_REVIVE
 	end
+
+Route25_EventScript_ItemTM43::
+finditem ITEM_TM43_SECRET_POWER
+	end
+
+Route25_EventScript_ItemRevive::
+finditem ITEM_REVIVE
+	end
+
+IslaTera_EventScript_ItemZinc::
+finditem ITEM_ZINC
+	end
+
+IslaCuarta_EventScript_ItemStarPiece::
+finditem ITEM_STAR_PIECE
+	end
+
+IslaCuarta_EventScript_ItemStardust::
+finditem ITEM_STARDUST
+	end
+
