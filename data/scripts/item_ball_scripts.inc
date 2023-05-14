@@ -673,3 +673,11 @@ finditem ITEM_ETHER
 Route3_EventScript_ItemTM16::
 finditem ITEM_TM16_LIGHT_SCREEN
 	end
+
+Route9_EventScript_ItemTM40::
+finditem ITEM_TM40_AERIAL_ACE
+	end
+
+Route9_EventScript_ItemAntiquemar::
+finditem ITEM_BURN_HEAL
+	end
