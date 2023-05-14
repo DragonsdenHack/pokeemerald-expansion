@@ -230,6 +230,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route20Documento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_STARDUST",
+      "flag": "FLAG_NUEVA_40"
     }
   ]
 }

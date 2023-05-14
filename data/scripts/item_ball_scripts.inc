@@ -701,3 +701,7 @@ finditem ITEM_TM48
 Route12_EventScript_ItemHierro::
 finditem ITEM_IRON
 	end
+
+Route15_EventScript_ItemTM18::
+finditem ITEM_TM18_RAIN_DANCE
+	end

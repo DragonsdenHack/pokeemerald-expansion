@@ -282,6 +282,14 @@
       "elevation": 3,
       "item": "ITEM_ZINC",
       "flag": "FLAG_NUEVA_31"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 53,
+      "elevation": 3,
+      "item": "ITEM_PP_UP",
+      "flag": "FLAG_NUEVA_32"
     }
   ]
 }

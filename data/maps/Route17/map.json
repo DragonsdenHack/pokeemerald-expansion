@@ -210,6 +210,46 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route17Documento_105"
+    },
+    {
+      "type": "hidden_item",
+      "x": 10,
+      "y": 53,
+      "elevation": 3,
+      "item": "ITEM_FULL_RESTORE",
+      "flag": "FLAG_NUEVA_35"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 68,
+      "elevation": 3,
+      "item": "ITEM_PP_UP",
+      "flag": "FLAG_NUEVA_36"
+    },
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 83,
+      "elevation": 3,
+      "item": "ITEM_RARE_CANDY",
+      "flag": "FLAG_NUEVA_37"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 125,
+      "elevation": 3,
+      "item": "ITEM_MAX_REVIVE",
+      "flag": "FLAG_NUEVA_38"
+    },
+    {
+      "type": "hidden_item",
+      "x": 14,
+      "y": 157,
+      "elevation": 3,
+      "item": "ITEM_MAX_ELIXIR",
+      "flag": "FLAG_NUEVA_39"
     }
   ]
 }
