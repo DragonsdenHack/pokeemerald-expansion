@@ -790,3 +790,23 @@ Canon_EventScript_RocaRey::
 finditem ITEM_KINGS_ROCK
 	end
 
+CiudadMalva_EventScript_MasPP::
+finditem ITEM_PP_UP
+	end
+
+CiudadMalva_EventScript_Alakazamita::
+finditem ITEM_ALAKAZITE
+	end
+
+CiudadTrigal_EventScript_Venusaurita::
+finditem ITEM_VENUSAURITE
+	end
+
+CiudadTrigal_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+CiudadIris_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+	end
+

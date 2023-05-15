@@ -35,8 +35,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VioletCity1",
-      "flag": "0"
+      "script": "CiudadMalva_EventScript_MasPP",
+      "flag": "FLAG_NUEVA_114"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANCIANOJOHTO",
@@ -165,8 +165,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VioletCity11",
-      "flag": "0"
+      "script": "CiudadMalva_EventScript_Alakazamita",
+      "flag": "FLAG_NUEVA_115"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ZEUS",
@@ -274,7 +274,7 @@
       "y": 34,
       "elevation": 3,
       "item": "ITEM_KELPSY_BERRY",
-      "flag": "FLAG_TEMP_1"
+      "flag": "FLAG_NUEVA_116"
     }
   ]
 }
