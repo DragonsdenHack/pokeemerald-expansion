@@ -766,3 +766,27 @@ NorteExta_EventScript_ItemMaspp::
 finditem ITEM_PP_UP
 	end
 
+RuinValley_EventScript_ItemTM12::
+finditem ITEM_TM12_TAUNT
+	end
+
+RuinValley_EventScript_FullRestore::
+finditem ITEM_FULL_RESTORE
+	end
+
+RuinValley_EventScript_PiedraSolar::
+finditem ITEM_SUN_STONE
+	end
+
+Canon_EventScript_Pepita::
+finditem ITEM_NUGGET
+	end
+
+Canon_EventScript_MaxElixir::
+finditem ITEM_MAX_ELIXIR
+	end
+
+Canon_EventScript_RocaRey::
+finditem ITEM_KINGS_ROCK
+	end
+

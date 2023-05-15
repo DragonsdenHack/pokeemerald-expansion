@@ -118,6 +118,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CanyonEntranceDocumento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 29,
+      "elevation": 3,
+      "item": "ITEM_RAWST_BERRY",
+      "flag": "FLAG_NUEVA_97"
     }
   ]
 }

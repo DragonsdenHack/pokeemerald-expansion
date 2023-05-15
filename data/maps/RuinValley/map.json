@@ -30,8 +30,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinValley1",
-      "flag": "0"
+      "script": "RuinValley_EventScript_ItemTM12",
+      "flag": "FLAG_NUEVA_91"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
@@ -121,8 +121,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinValley8",
-      "flag": "0"
+      "script": "RuinValley_EventScript_FullRestore",
+      "flag": "FLAG_NUEVA_92"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER2",
@@ -199,8 +199,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RuinValley14",
-      "flag": "0"
+      "script": "RuinValley_EventScript_PiedraSolar",
+      "flag": "FLAG_NUEVA_93"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_HIKER2",
