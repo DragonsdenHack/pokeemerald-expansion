@@ -730,3 +730,27 @@ IslaCuarta_EventScript_ItemStardust::
 finditem ITEM_STARDUST
 	end
 
+KindleRoad_EventScript_ItemEther::
+finditem ITEM_ETHER
+	end
+
+KindleRoad_EventScript_ItemMaxRepel::
+finditem ITEM_MAX_REPEL
+	end
+
+KindleRoad_EventScript_ItemCarburante::
+finditem ITEM_CARBOS
+	end
+
+PradoInta_EventScript_ItemMaxpocion::
+finditem ITEM_MAX_POTION
+	end
+
+PradoInta_EventScript_ItemTM07::
+finditem ITEM_TM07_HAIL
+	end
+
+PilarRecuerdo_EventScript_ItemRevMetalico::
+finditem ITEM_METAL_COAT
+	end
+

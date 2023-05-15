@@ -61,8 +61,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "FileIsleMeadow3",
-      "flag": "0"
+      "script": "PradoInta_EventScript_ItemTM07",
+      "flag": "FLAG_NUEVA_76"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -74,8 +74,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "FileIsleMeadow4",
-      "flag": "0"
+      "script": "PradoInta_EventScript_ItemMaxpocion",
+      "flag": "FLAG_NUEVA_75"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
