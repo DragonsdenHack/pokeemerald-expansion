@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NinjaBaseS2_8",
-      "flag": "0"
+      "script": "BaseNinja_EventScript_PPUP",
+      "flag": "FLAG_NUEVA_183"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_NINJA_BOY",

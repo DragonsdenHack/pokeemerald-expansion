@@ -926,3 +926,88 @@ TorreBellsprout_EventScript_Restautodo::
 finditem ITEM_FULL_RESTORE
 	end
 
+TorreBellsprout_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+	end
+
+Pozo_EventScript_Eter::
+finditem ITEM_ETHER
+	end
+
+TorreRadio_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+TorreRadio_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+Trigal_EventScript_Restos::
+finditem ITEM_LEFTOVERS
+	end
+
+TorreQuemada_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+TorreQuemada_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+	end
+
+Faro_EventScript_PPUP::
+finditem ITEM_PP_UP
+	end
+
+Faro_EventScript_Pepita::
+finditem ITEM_NUGGET
+	end
+
+Faro_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+	end
+
+Faro_EventScript_Hyperpocion::
+finditem ITEM_HYPER_POTION
+	end
+
+Faro_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+BaseNinja_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+BaseNinja_EventScript_PPUP::
+finditem ITEM_PP_UP
+	end
+
+BaseNinja_EventScript_Gyaradosita::
+finditem ITEM_GYARADOSITE
+	end
+
+BaseNinja_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+BaseNinja_EventScript_Eter::
+finditem ITEM_ETHER
+	end
+
+
+Dragonsden_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+	end
+
+Dragonsden_EventScript_ElixirMax::
+finditem ITEM_MAX_ELIXIR
+	end
+
+Dragonsden_EventScript_Pepita::
+finditem ITEM_NUGGET
+	end
+
+Dragonsden_EventScript_PPUP::
+finditem ITEM_PP_UP
+	end
+
