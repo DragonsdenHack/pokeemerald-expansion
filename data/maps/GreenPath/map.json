@@ -88,6 +88,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "GreenPathDocumento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_ULTRA_BALL",
+      "flag": "FLAG_NUEVA_87"
     }
   ]
 }

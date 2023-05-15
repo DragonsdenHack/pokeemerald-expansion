@@ -754,3 +754,15 @@ PilarRecuerdo_EventScript_ItemRevMetalico::
 finditem ITEM_METAL_COAT
 	end
 
+WaterPath_EventScript_ItemElixir::
+finditem ITEM_ELIXIR
+	end
+
+WaterPath_EventScript_ItemEscamadragon::
+finditem ITEM_DRAGON_SCALE
+	end
+
+NorteExta_EventScript_ItemMaspp::
+finditem ITEM_PP_UP
+	end
+
