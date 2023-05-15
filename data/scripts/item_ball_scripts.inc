@@ -890,3 +890,19 @@ Ruta35_EventScript_CuerdaHuida::
 finditem ITEM_ESCAPE_ROPE
 	end
 
+Ruta36_EventScript_HierbaBlanca::
+finditem ITEM_WHITE_HERB
+	end
+
+Ruta42_EventScript_Proteina::
+finditem ITEM_PROTEIN
+	end
+
+Ruta43_EventScript_Revive::
+finditem ITEM_REVIVE
+	end
+
+Ruta44_EventScript_MasPs::
+finditem ITEM_HP_UP
+	end
+

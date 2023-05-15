@@ -86,7 +86,7 @@
       "y": 8,
       "elevation": 3,
       "item": "ITEM_TAMATO_BERRY",
-      "flag": "FLAG_TEMP_1"
+      "flag": "FLAG_NUEVA_152"
     },
     {
       "type": "hidden_item",
@@ -94,7 +94,7 @@
       "y": 8,
       "elevation": 3,
       "item": "ITEM_GREPA_BERRY",
-      "flag": "FLAG_TEMP_1"
+      "flag": "FLAG_NUEVA_153"
     },
     {
       "type": "hidden_item",
@@ -102,7 +102,7 @@
       "y": 11,
       "elevation": 3,
       "item": "ITEM_HONDEW_BERRY",
-      "flag": "FLAG_TEMP_1"
+      "flag": "FLAG_NUEVA_154"
     }
   ]
 }
