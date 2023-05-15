@@ -141,8 +141,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DragonsdenS3_10",
-      "flag": "0"
+      "script": "Dragonsden_2_EventScript_Restautodo",
+      "flag": "FLAG_NUEVA_192"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
@@ -167,8 +167,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DragonsdenS3_12",
-      "flag": "0"
+      "script": "Dragonsden_EventScript_UltraBall",
+      "flag": "FLAG_NUEVA_191"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_F",

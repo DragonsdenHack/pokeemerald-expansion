@@ -1011,3 +1011,43 @@ Dragonsden_EventScript_PPUP::
 finditem ITEM_PP_UP
 	end
 
+Dragonsden_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+Dragonsden_2_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+	end
+
+Dragonsden_2_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+Dragonsden_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+MtSilver_EventScript_Pepita::
+finditem ITEM_NUGGET
+	end
+
+MtSilver_EventScript_MasPs::
+finditem ITEM_HP_UP
+	end
+
+MtSilver_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+	end
+
+MtSilver_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+MtSilver_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+MtSilver2_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+	end
+
