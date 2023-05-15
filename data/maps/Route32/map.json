@@ -256,8 +256,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route32_18",
-      "flag": "0"
+      "script": "Ruta32_EventScript_MaxRevivir",
+      "flag": "FLAG_NUEVA_141"
     }
   ],
   "warp_events": [

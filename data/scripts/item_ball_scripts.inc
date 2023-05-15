@@ -810,3 +810,55 @@ CiudadIris_EventScript_CenSagrada::
 finditem ITEM_SACRED_ASH
 	end
 
+CiudadOlivo_EventScript_Pinsirita::
+finditem ITEM_PINSIRITE
+	end
+
+Ruta45_EventScript_MaxRepel::
+finditem ITEM_MAX_REPEL
+	end
+
+Ruta45_EventScript_Revive::
+finditem ITEM_REVIVE
+	end
+
+Ruta45_EventScript_MasPP::
+finditem ITEM_PP_UP
+	end
+
+Ruta45_EventScript_Maxipepita::
+finditem ITEM_BIG_NUGGET
+	end
+
+Ruta26_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+Ruta26_EventScript_Houndomita::
+finditem ITEM_HOUNDOOMINITE
+	end
+
+Ruta26_EventScript_Ultraball::
+finditem ITEM_ULTRA_BALL
+	end
+
+Ruta27_EventScript_Elixir::
+finditem ITEM_ELIXIR
+	end
+
+Ruta29_EventScript_Ether::
+finditem ITEM_ETHER
+	end
+
+Ruta30_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+Ruta31_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+Ruta31_EventScript_HyperPocion::
+finditem ITEM_HYPER_POTION
+	end
+

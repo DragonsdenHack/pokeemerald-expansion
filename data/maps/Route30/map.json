@@ -53,8 +53,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route30_2",
-      "flag": "0"
+      "script": "Ruta30_EventScript_UltraBall",
+      "flag": "FLAG_NUEVA_132"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PIDGEOT",
@@ -235,8 +235,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 13,
-      "y": 44,
+      "x": 5,
+      "y": 39,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
@@ -251,11 +251,43 @@
     },
     {
       "type": "sign",
-      "x": 23,
-      "y": 6,
+      "x": 27,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_QUALOT_BERRY",
+      "flag": "FLAG_NUEVA_133"
+    },
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 25,
+      "elevation": 3,
+      "item": "ITEM_LUM_BERRY",
+      "flag": "FLAG_NUEVA_134"
+    },
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 37,
+      "elevation": 3,
+      "item": "ITEM_REVIVAL_HERB",
+      "flag": "FLAG_NUEVA_135"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 44,
+      "elevation": 3,
+      "item": "ITEM_KELPSY_BERRY",
+      "flag": "FLAG_NUEVA_136"
     }
   ]
 }

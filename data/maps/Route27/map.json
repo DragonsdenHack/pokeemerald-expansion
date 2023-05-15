@@ -48,8 +48,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route27_2",
-      "flag": "0"
+      "script": "Ruta26_EventScript_Ultraball",
+      "flag": "FLAG_NUEVA_129"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -61,8 +61,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route27_3",
-      "flag": "0"
+      "script": "Ruta27_EventScript_Elixir",
+      "flag": "FLAG_NUEVA_130"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANABEL",

@@ -74,8 +74,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45_4",
-      "flag": "0"
+      "script": "Ruta45_EventScript_MaxRepel",
+      "flag": "FLAG_NUEVA_123"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -87,8 +87,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45_5",
-      "flag": "0"
+      "script": "Ruta45_EventScript_Revive",
+      "flag": "FLAG_NUEVA_124"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLACK_BELT2",
@@ -113,8 +113,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45_7",
-      "flag": "0"
+      "script": "Ruta45_EventScript_MasPP",
+      "flag": "FLAG_NUEVA_125"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -126,8 +126,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SouthRoute45_8",
-      "flag": "0"
+      "script": "Ruta45_EventScript_Maxipepita",
+      "flag": "FLAG_NUEVA_126"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
