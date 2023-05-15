@@ -35,8 +35,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route46_1",
-      "flag": "0"
+      "script": "Ruta46_EventScript_CuerdaHuida",
+      "flag": "FLAG_NUEVA_164"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TRAINER_TIPS",
@@ -157,6 +157,13 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 14,
+      "elevation": 3,
+      "item": "ITEM_ENERGY_ROOT",
+      "flag": "FLAG_NUEVA_163"
+    }
   ]
 }

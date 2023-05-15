@@ -906,3 +906,23 @@ Ruta44_EventScript_MasPs::
 finditem ITEM_HP_UP
 	end
 
+Ruta44_EventScript_HyperPocion::
+finditem ITEM_HYPER_POTION
+	end
+
+Ruta44_EventScript_Elixir::
+finditem ITEM_ELIXIR
+	end
+
+Ruta46_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+	end
+
+TorreBellsprout_EventScript_Elixir::
+finditem ITEM_ELIXIR
+	end
+
+TorreBellsprout_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+	end
+
