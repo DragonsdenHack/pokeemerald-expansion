@@ -862,3 +862,31 @@ Ruta31_EventScript_HyperPocion::
 finditem ITEM_HYPER_POTION
 	end
 
+Ruta32_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+Ruta32_EventScript_Proteina::
+finditem ITEM_PROTEIN
+	end
+
+Ruta32_EventScript_Pepita::
+finditem ITEM_NUGGET
+	end
+
+Ruta33_EventScript_ElixirMax::
+finditem ITEM_MAX_ELIXIR
+	end
+
+Ruta34_EventScript_PiedraOval::
+finditem ITEM_OVAL_STONE
+	end
+
+Ruta35_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+	end
+
+Ruta35_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+	end
+

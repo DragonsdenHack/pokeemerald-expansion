@@ -30,8 +30,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route33_1",
-      "flag": "0"
+      "script": "Ruta33_EventScript_ElixirMax",
+      "flag": "FLAG_NUEVA_146"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_COOLTRAINER_M",
@@ -120,8 +120,8 @@
       "x": 19,
       "y": 18,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_QUALOT_BERRY",
+      "flag": "FLAG_NUEVA_147"
     }
   ]
 }
