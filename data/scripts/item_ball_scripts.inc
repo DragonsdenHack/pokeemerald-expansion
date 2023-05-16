@@ -1286,3 +1286,35 @@ finditem ITEM_POKEMON_BOX_LINK
 
 Ruta52Maze_EventScript_PiedraAlba::
 finditem ITEM_DAWN_STONE
+
+Ruta52Maze_EventScript_CharizarditaY::
+finditem ITEM_CHARIZARDITE_Y
+
+Ruta52Maze_EventScript_Maxipepita::
+finditem ITEM_BIG_NUGGET
+
+CuevaTrigal_EventScript_PiedraDura::
+finditem ITEM_HARD_STONE
+
+CuevaTrigal_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+
+Fucsia_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+BosqueVerde_EventScript_PokeBall::
+finditem ITEM_POKE_BALL
+	end
+
+BosqueVerde_EventScript_Pocion::
+finditem ITEM_POTION
+	end
+
+BosqueVerde_EventScript_Pocion_2::
+finditem ITEM_POTION
+	end
+
+BosqueVerde_EventScript_Antidoto::
+finditem ITEM_ANTIDOTE
+	end
