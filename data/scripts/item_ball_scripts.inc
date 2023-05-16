@@ -1207,5 +1207,44 @@ Mtmortar_EventScript_Revivir_2::
 finditem ITEM_REVIVE
 	end
 
+Mtmortar_EventScript_Hyperpocion::
+finditem ITEM_HYPER_POTION
+	end
 
+Mtmortar_EventScript_TrozoEstrella::
+finditem ITEM_STAR_PIECE
+	end
+
+Mtmortar_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+	end
+
+
+Mtmortar_EventScript_MaxElixir::
+finditem ITEM_MAX_ELIXIR
+	end
+
+Mtmortar_EventScript_SacredAsh::
+finditem ITEM_SACRED_ASH
+	end
+
+Mtmortar_EventScript_Maxipepita::
+finditem ITEM_BIG_NUGGET
+	end
+
+Mtmortar_EventScript_Proteina::
+finditem ITEM_PROTEIN
+	end
+
+LagoFuria_EventScript_Starpiece::
+finditem ITEM_STAR_PIECE
+	end
+
+LagoFuria_EventScript_Elixir::
+finditem ITEM_ELIXIR
+	end
+
+LagoFuria_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
 
