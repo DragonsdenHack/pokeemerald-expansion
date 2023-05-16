@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtSilver3_3",
-      "flag": "0"
+      "script": "MtSilver_EventScript_CenSagrada",
+      "flag": "FLAG_NUEVA_202"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtSilver3_4",
-      "flag": "0"
+      "script": "MtSilver_EventScript_Tyranitarita",
+      "flag": "FLAG_NUEVA_203"
     }
   ],
   "warp_events": [

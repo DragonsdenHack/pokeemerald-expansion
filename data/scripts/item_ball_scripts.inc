@@ -1051,3 +1051,43 @@ MtSilver2_EventScript_Restautodo::
 finditem ITEM_FULL_RESTORE
 	end
 
+MtSilver_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+MtSilver_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+	end
+
+MtSilver_EventScript_Tyranitarita::
+finditem ITEM_TYRANITARITE
+	end
+
+Cataratas_EventScript_Hyperpocion::
+finditem ITEM_HYPER_POTION
+	end
+
+CuevaOscura_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+CuevaOscura_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+	end
+
+CuevaOscura_EventScript_PPUP::
+finditem ITEM_PP_UP
+	end
+
+CuevaOscura_EventScript_Kangaskhanita::
+finditem ITEM_KANGASKHANITE
+	end
+
+RocketJohto_EventScript_PiedraAlba::
+finditem ITEM_DAWN_STONE
+	end
+
+RuinasAlfa_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+	end
+
