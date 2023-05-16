@@ -706,7 +706,7 @@ $(MID_SUBDIR)/mus_vs_secta.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
 
 $(MID_SUBDIR)/mussaqua.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V080
 
 $(MID_SUBDIR)/mus_gsc_vs_wild.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G157 -V090
@@ -715,7 +715,7 @@ $(MID_SUBDIR)/mus_giovanni_encounter.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G309 -V080	
 
 $(MID_SUBDIR)/mus_vs_giovanni.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V090
 
 $(MID_SUBDIR)/mus_gsc_leader.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
@@ -832,7 +832,7 @@ $(MID_SUBDIR)/mus_gsc_route26.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
 
 $(MID_SUBDIR)/mus_end_of_time.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V090
 
 $(MID_SUBDIR)/mus_gsc_gym.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
