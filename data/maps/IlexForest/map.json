@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "IlexForest5",
-      "flag": "0"
+      "script": "Encinar_EventScript_MaxEther",
+      "flag": "FLAG_NUEVA_216"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_YOUNGSTER2",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "IlexForest7",
-      "flag": "0"
+      "script": "Encinar_EventScript_Antidoto",
+      "flag": "FLAG_NUEVA_217"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PICNICKER2",
@@ -154,8 +154,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "IlexForest11",
-      "flag": "0"
+      "script": "Encinar_EventScript_Puerro",
+      "flag": "FLAG_NUEVA_215"
     }
   ],
   "warp_events": [

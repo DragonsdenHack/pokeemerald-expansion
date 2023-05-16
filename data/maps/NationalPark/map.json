@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NationalPark1",
-      "flag": "0"
+      "script": "ParqueNacional_EventScript_Beedrillita",
+      "flag": "FLAG_NUEVA_219"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GUARDIAFJOHTO",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NationalPark4",
-      "flag": "0"
+      "script": "ParqueNacional_EventScript_Maxipepita",
+      "flag": "FLAG_NUEVA_218"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ORNITOLOGOJOHTO",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NationalPark7",
-      "flag": "0"
+      "script": "ParqueNacional_EventScript_Periscopio",
+      "flag": "FLAG_NUEVA_220"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BEAUTY2",

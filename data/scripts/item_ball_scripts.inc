@@ -1091,3 +1091,47 @@ RuinasAlfa_EventScript_CenSagrada::
 finditem ITEM_SACRED_ASH
 	end
 
+CuevaUnion_EventScript_Pepita::
+finditem ITEM_NUGGET
+	end
+
+CuevaUnion_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+	end
+
+CuevaUnion_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+CuevaUnion_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+CuevaUnion_EventScript_Blastoisinita::
+finditem ITEM_BLASTOISINITE
+	end
+
+Encinar_EventScript_Puerro::
+finditem ITEM_LEEK
+	end
+
+Encinar_EventScript_MaxEther::
+finditem ITEM_MAX_ETHER
+	end
+
+Encinar_EventScript_Antidoto::
+finditem ITEM_ANTIDOTE
+	end
+
+ParqueNacional_EventScript_Maxipepita::
+finditem ITEM_BIG_NUGGET
+	end
+
+ParqueNacional_EventScript_Beedrillita::
+finditem ITEM_BEEDRILLITE
+	end
+
+ParqueNacional_EventScript_Periscopio::
+finditem ITEM_SCOPE_LENS
+	end
+
