@@ -712,7 +712,7 @@ $(MID_SUBDIR)/mus_gsc_vs_wild.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G157 -V090
 	
 $(MID_SUBDIR)/mus_giovanni_encounter.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G304 -V080	
+	$(MID) $< $@ -E -R$(STD_REVERB) -G309 -V080	
 
 $(MID_SUBDIR)/mus_vs_giovanni.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
@@ -817,7 +817,7 @@ $(MID_SUBDIR)/mus_gsc_national_park.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G163 -V090
 
 $(MID_SUBDIR)/mus_gsc_route29.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V090
 
 $(MID_SUBDIR)/mus_gsc_ruins_of_alph.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G147 -V090

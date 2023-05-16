@@ -490,7 +490,7 @@
 #define MUS_RG_TRAINER_TOWER        556 // MUS_RG_T_TOWER
 #define MUS_RG_SLOW_PALLET          557 // MUS_RG_SLOWMASARA
 #define MUS_RG_TEACHY_TV_MENU       558 // MUS_RG_TVNOIZE
-#define END_MUS                     MUS_END_OF_TIME
+#define END_MUS                     MUS_RG_VS_LEGEND2
 
 #define PH_TRAP_BLEND               559
 #define PH_TRAP_HELD                560
@@ -609,6 +609,7 @@
 #define MUS_GSC_VS_ROCKET 			672
 #define MUS_GSC_VS_TRAINER 			673
 #define MUS_END_OF_TIME 			674
+#define MUS_RG_VS_LEGEND2			675
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

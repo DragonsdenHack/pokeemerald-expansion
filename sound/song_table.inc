@@ -624,7 +624,8 @@ gSongTable::
 	song mus_gsc_victory_road 0,0
 	song mus_gsc_vs_rocket 0,0
 	song mus_gsc_vs_trainer 0,0
-	song mus_end_of_time 0,0
+	song mus_end_of_time 0, 0
+	song mus_rg_vs_legend2 0, 0
 	song ph_trap_blend, 2, 2
 	song ph_trap_held, 2, 2
 	song ph_trap_solo, 2, 2

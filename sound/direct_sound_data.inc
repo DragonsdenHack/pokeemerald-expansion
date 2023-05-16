@@ -7132,3 +7132,8 @@ DirectSoundWaveData_1165b49::
 	.align 2
 DirectSoundWaveData_Zeus::
 	.incbin "sound/direct_sound_samples/zeus.bin"
+
+	.align 2
+DirectSoundWaveData_Zeus2::
+	.incbin "sound/direct_sound_samples/zeus2.bin"
+
