@@ -1171,3 +1171,41 @@ IslasEspuma_EventScript_Elixir::
 finditem ITEM_ELIXIR
 	end
 
+Mtmortar_EventScript_EscapeRope::
+finditem ITEM_ESCAPE_ROPE
+	end
+
+Mtmortar_EventScript_HPUP::
+finditem ITEM_HP_UP
+	end
+
+Mtmortar_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+Mtmortar_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+Mtmortar_EventScript_Hierro::
+finditem ITEM_IRON
+	end
+
+Mtmortar_EventScript_PPUP::
+finditem ITEM_PP_UP
+	end
+
+Mtmortar_EventScript_Revivir::
+finditem ITEM_REVIVE
+	end
+
+Mtmortar_EventScript_Elixir::
+finditem ITEM_ELIXIR
+	end
+
+Mtmortar_EventScript_Revivir_2::
+finditem ITEM_REVIVE
+	end
+
+
+
