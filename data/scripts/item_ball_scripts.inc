@@ -1248,3 +1248,41 @@ LagoFuria_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
 	end
 
+PasoHelado_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+	end
+
+PasoHelado_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+	end
+
+PasoHelado_EventScript_PiedraOval::
+finditem ITEM_OVAL_STONE
+	end
+
+PasoHelado_EventScript_Antihielo::
+finditem ITEM_ICE_HEAL
+	end
+
+PasoHelado_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+PasoHelado_EventScript_TrozoEstrella::
+finditem ITEM_STAR_PIECE
+	end
+
+PasoHelado_EventScript_Revivir::
+finditem ITEM_REVIVE
+
+
+PasoHelado_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+
+
+Ruta52Maze_EventScript_CableLink::
+finditem ITEM_POKEMON_BOX_LINK
+
+
+Ruta52Maze_EventScript_PiedraAlba::
+finditem ITEM_DAWN_STONE
