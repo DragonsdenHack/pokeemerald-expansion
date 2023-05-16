@@ -1135,3 +1135,39 @@ ParqueNacional_EventScript_Periscopio::
 finditem ITEM_SCOPE_LENS
 	end
 
+IslasEspuma_EventScript_Cascada::
+finditem ITEM_HM07_WATERFALL
+	end
+
+IslasEspuma_EventScript_PerlaGrande::
+finditem ITEM_BIG_PEARL
+	end
+
+IslasEspuma_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+IslasEspuma_EventScript_Revivir::
+finditem ITEM_REVIVE
+	end
+
+IslasEspuma_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+	end
+
+IslasEspuma_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+	end
+
+IslasEspuma_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+	end
+
+IslasEspuma_EventScript_Pepita::
+finditem ITEM_NUGGET
+	end
+
+IslasEspuma_EventScript_Elixir::
+finditem ITEM_ELIXIR
+	end
+

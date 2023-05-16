@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_2",
-      "flag": "0"
+      "script": "IslasEspuma_EventScript_UltraBall",
+      "flag": "FLAG_NUEVA_226"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_3",
-      "flag": "0"
+      "script": "IslasEspuma_EventScript_Carameloraro",
+      "flag": "FLAG_NUEVA_224"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_4",
-      "flag": "0"
+      "script": "IslasEspuma_EventScript_Revivir",
+      "flag": "FLAG_NUEVA_225"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "WhirlIslands3_5",
-      "flag": "0"
+      "script": "IslasEspuma_EventScript_CuerdaHuida",
+      "flag": "FLAG_NUEVA_227"
     }
   ],
   "warp_events": [
