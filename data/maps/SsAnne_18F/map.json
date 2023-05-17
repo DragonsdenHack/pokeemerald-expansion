@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne18F_2",
-      "flag": "0"
+      "script": "Ssanne_EventScript_AtaqueX",
+      "flag": "FLAG_NUEVA_298"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LASS2",

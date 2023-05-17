@@ -1359,3 +1359,27 @@ finditem ITEM_STAR_PIECE
 MtMoon_EventScript_TM46::
 finditem ITEM_TM46_THIEF
     end
+
+Ssanne_EventScript_Superball::
+finditem ITEM_GREAT_BALL
+    end
+
+Ssanne_EventScript_Superball_2::
+finditem ITEM_GREAT_BALL
+    end
+
+Ssanne_EventScript_Polvoestelar::
+finditem ITEM_STARDUST
+    end
+
+Ssanne_EventScript_AtaqueX::
+finditem ITEM_X_ATTACK
+    end
+
+Ssanne_EventScript_Antiparaliz::
+finditem ITEM_PARALYZE_HEAL
+    end
+
+Ssanne_EventScript_Eter::
+finditem ITEM_ETHER
+    end
