@@ -1620,4 +1620,40 @@ TunelRoca_EventScript_MaxEter::
 finditem ITEM_MAX_ETHER
     end
 
+Espuma_EventScript_Antihielo::
+finditem ITEM_ICE_HEAL
+    end
+
+Espuma_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+Espuma_EventScript_TM45::
+finditem ITEM_TM45_ATTRACT
+    end
+
+Espuma_EventScript_PerlaGrande::
+finditem ITEM_BIG_PEARL
+    end
+
+Espuma_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+    end
+
+TorreLavanda_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+    end
+
+TorreLavanda_EventScript_Superball::
+finditem ITEM_GREAT_BALL
+    end
+
+TorreLavanda_EventScript_Elixir::
+finditem ITEM_ELIXIR
+    end
+
+TorreLavanda_EventScript_Despertar::
+finditem ITEM_AWAKENING
+    end
+
 
