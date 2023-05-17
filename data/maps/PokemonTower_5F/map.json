@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonTower5F_1",
-      "flag": "0"
+      "script": "TorreLavanda_EventScript_Amuleto",
+      "flag": "FLAG_NUEVA_403"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonTower5F_7",
-      "flag": "0"
+      "script": "TorreLavanda_EventScript_Pepita",
+      "flag": "FLAG_NUEVA_404"
     }
   ],
   "warp_events": [
@@ -143,6 +143,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 7,
+      "y": 3,
+      "elevation": 3,
+      "item": "ITEM_BIG_MUSHROOM",
+      "flag": "FLAG_NUEVA_402"
+    }
   ]
 }

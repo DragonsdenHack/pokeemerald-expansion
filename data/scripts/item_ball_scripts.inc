@@ -1656,4 +1656,28 @@ TorreLavanda_EventScript_Despertar::
 finditem ITEM_AWAKENING
     end
 
+TorreLavanda_EventScript_Amuleto::
+finditem ITEM_CLEANSE_TAG
+    end
+
+TorreLavanda_EventScript_Pepita::
+finditem ITEM_NUGGET
+    end
+
+TorreLavanda_EventScript_PrecisionX::
+finditem ITEM_X_ACCURACY
+    end
+
+TorreLavanda_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+TorreLavanda_EventScript_MaxPocion::
+finditem ITEM_MAX_POTION
+    end
+
+Central_EventScript_Elixir::
+finditem ITEM_ELIXIR
+    end
+
 

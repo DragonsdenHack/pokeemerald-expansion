@@ -132,6 +132,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 3,
+      "elevation": 3,
+      "item": "ITEM_SOOTHE_BELL",
+      "flag": "FLAG_NUEVA_407"
+    }
   ]
 }
