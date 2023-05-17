@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout3F_5",
-      "flag": "0"
+      "script": "RocketBase_EventScript_TM21",
+      "flag": "FLAG_NUEVA_331"
     }
   ],
   "warp_events": [

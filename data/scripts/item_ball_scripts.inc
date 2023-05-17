@@ -1436,3 +1436,33 @@ finditem ITEM_HP_UP
 RocketBase_EventScript_Superpocion::
 finditem ITEM_SUPER_POTION
     end
+
+RocketBase_EventScript_TM21::
+finditem ITEM_TM21_FRUSTRATION
+    end
+
+RocketBase_EventScript_TM49::
+finditem ITEM_TM49_SNATCH
+    end
+
+Silph3_EventScript_Hyperpocion::
+finditem ITEM_HYPER_POTION
+    end
+
+Silph4_EventScript_CuraTotal::
+finditem ITEM_FULL_HEAL
+    end
+
+
+Silph4_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+    end
+
+
+Silph4_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+    end
+
+Silph4_EventScript_TM41::
+finditem ITEM_TM41_TORMENT
+    end

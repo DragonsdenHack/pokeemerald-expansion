@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph5F_2",
-      "flag": "0"
+      "script": "Silph5_EventScript_TM01",
+      "flag": "FLAG_NUEVA_341"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -314,6 +314,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 16,
+      "elevation": 3,
+      "item": "ITEM_ELIXIR",
+      "flag": "FLAG_NUEVA_340"
     }
   ]
 }
