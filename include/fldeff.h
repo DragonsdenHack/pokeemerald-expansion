@@ -28,6 +28,8 @@ void CB2_DoChangeMap(void);
 bool8 GetMapPairFadeToType(u8 a1, u8 a2);
 bool8 GetMapPairFadeFromType(u8 a1, u8 a2);
 
+void Task_EnterCaveTransition2(u8 taskId);
+
 // strength
 bool8 SetUpFieldMove_Strength(void);
 bool8 FldEff_UseStrength(void);
