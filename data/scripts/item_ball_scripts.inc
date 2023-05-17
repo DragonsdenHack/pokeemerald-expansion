@@ -1547,3 +1547,39 @@ finditem ITEM_IRON
 MansionCanela_EventScript_Restauratodo::
 finditem ITEM_FULL_RESTORE
     end
+
+MansionCanela_EventScript_TM22::
+finditem ITEM_TM22_SOLAR_BEAM
+    end
+
+MansionCanela_EventScript_TM14::
+finditem ITEM_TM14_BLIZZARD
+    end
+
+MansionCanela_EventScript_TM10::
+finditem ITEM_TM10_HIDDEN_POWER
+    end
+
+ZonaSafari_EventScript_MaxPocion::
+finditem ITEM_MAX_POTION
+    end
+
+ZonaSafari_EventScript_TM11::
+finditem ITEM_TM11_SUNNY_DAY
+    end
+
+ZonaSafari_EventScript_PiedraHoja::
+finditem ITEM_LEAF_STONE
+    end
+
+ZonaSafari_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+    end
+
+ZonaSafari_EventScript_Proteina::
+finditem ITEM_PROTEIN
+    end
+
+ZonaSafari_EventScript_TM47::
+finditem ITEM_TM47_STEEL_WING
+    end
