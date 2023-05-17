@@ -135,6 +135,61 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_ANTIDOTE",
+      "flag": "FLAG_NUEVA_302"
+    },
+    {
+      "type": "hidden_item",
+      "x": 3,
+      "y": 15,
+      "elevation": 3,
+      "item": "ITEM_PARALYZE_HEAL",
+      "flag": "FLAG_NUEVA_303"
+    },
+    {
+      "type": "hidden_item",
+      "x": 1,
+      "y": 23,
+      "elevation": 3,
+      "item": "ITEM_AWAKENING",
+      "flag": "FLAG_NUEVA_304"
+    },
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 31,
+      "elevation": 3,
+      "item": "ITEM_POTION",
+      "flag": "FLAG_NUEVA_305"
+    },
+    {
+      "type": "hidden_item",
+      "x": 3,
+      "y": 39,
+      "elevation": 3,
+      "item": "ITEM_ETHER",
+      "flag": "FLAG_NUEVA_306"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 53,
+      "elevation": 3,
+      "item": "ITEM_ICE_HEAL",
+      "flag": "FLAG_NUEVA_307"
+    },
+    {
+      "type": "hidden_item",
+      "x": 2,
+      "y": 57,
+      "elevation": 3,
+      "item": "ITEM_BURN_HEAL",
+      "flag": "FLAG_NUEVA_308"
+    }
   ]
 }

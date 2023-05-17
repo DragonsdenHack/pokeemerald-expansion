@@ -1383,3 +1383,8 @@ finditem ITEM_PARALYZE_HEAL
 Ssanne_EventScript_Eter::
 finditem ITEM_ETHER
     end
+
+
+Ssanne_EventScript_Superpocion::
+finditem ITEM_SUPER_POTION
+    end
