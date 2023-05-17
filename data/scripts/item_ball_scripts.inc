@@ -1744,4 +1744,56 @@ BosqueBaya_EventScript_CuraTotal::
 finditem ITEM_FULL_HEAL
     end
 
+CuevaGlaciada_EventScript_Ultraball::
+finditem ITEM_ULTRA_BALL
+    end
+
+CuevaGlaciada_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+    end
+
+CuevaGlaciada_EventScript_Antiderretir::
+finditem ITEM_NEVER_MELT_ICE
+    end
+
+RocketInta_EventScript_Pocion::
+finditem ITEM_POTION
+    end
+
+RocketInta_EventScript_Perla::
+finditem ITEM_PEARL
+    end
+
+RocketInta_EventScript_PerlaGrande::
+finditem ITEM_BIG_PEARL
+    end
+
+RocketInta_EventScript_RocaRey::
+finditem ITEM_KINGS_ROCK
+    end
+
+CuevaPerdida_EventScript_BolaHumo::
+finditem ITEM_SMOKE_BALL
+    end
+
+CuevaPerdida_EventScript_IncieSuave::
+finditem ITEM_LAX_INCENSE
+    end
+
+CuevaPerdida_EventScript_IncieMar::
+finditem ITEM_SEA_INCENSE
+    end
+
+CuevaPerdida_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+    end
+
+CuevaPerdida_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+Spa_EventScript_GolpeRoca::
+finditem ITEM_HM06_ROCK_SMASH
+    end
+
 
