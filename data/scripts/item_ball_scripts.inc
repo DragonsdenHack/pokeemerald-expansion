@@ -1388,3 +1388,23 @@ finditem ITEM_ETHER
 Ssanne_EventScript_Superpocion::
 finditem ITEM_SUPER_POTION
     end
+
+CalleVictoria_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+CalleVictoria_EventScript_MT02::
+finditem ITEM_TM02_DRAGON_CLAW
+    end
+
+CalleVictoria_EventScript_MT37::
+finditem ITEM_TM37_SANDSTORM
+    end
+
+CalleVictoria_EventScript_GuardSpecial::
+finditem ITEM_GUARD_SPEC
+    end
+
+CalleVictoria_EventScript_CuraTotal::
+finditem ITEM_FULL_HEAL
+    end

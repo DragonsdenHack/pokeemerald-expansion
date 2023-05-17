@@ -83,6 +83,14 @@
       "elevation": 3,
       "item": "ITEM_ANTIDOTE",
       "flag": "FLAG_NUEVA_314"
+    },
+    {
+      "type": "hidden_item",
+      "x": 70,
+      "y": 3,
+      "elevation": 3,
+      "item": "ITEM_ICE_HEAL",
+      "flag": "FLAG_NUEVA_315"
     }
   ]
 }
