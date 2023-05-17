@@ -1408,3 +1408,31 @@ finditem ITEM_GUARD_SPEC
 CalleVictoria_EventScript_CuraTotal::
 finditem ITEM_FULL_HEAL
     end
+
+CalleVictoria_EventScript_Restos::
+finditem ITEM_LEFTOVERS
+    end
+
+CalleVictoria_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+    end
+
+CalleVictoria_EventScript_MT50::
+finditem ITEM_TM50_OVERHEAT
+    end
+
+CalleVictoria_EventScript_Hyperpocion::
+finditem ITEM_HYPER_POTION
+    end
+
+RocketBase_EventScript_PiedraLunar::
+finditem ITEM_MOON_STONE
+    end
+
+RocketBase_EventScript_MasPs::
+finditem ITEM_HP_UP
+    end
+
+RocketBase_EventScript_Superpocion::
+finditem ITEM_SUPER_POTION
+    end

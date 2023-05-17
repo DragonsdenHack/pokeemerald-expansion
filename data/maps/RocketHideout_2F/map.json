@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout2F_3",
-      "flag": "0"
+      "script": "RocketBase_EventScript_PiedraLunar",
+      "flag": "FLAG_NUEVA_328"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout2F_4",
-      "flag": "0"
+      "script": "RocketBase_EventScript_MasPs",
+      "flag": "FLAG_NUEVA_329"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout2F_5",
-      "flag": "0"
+      "script": "RocketBase_EventScript_Superpocion",
+      "flag": "FLAG_NUEVA_330"
     }
   ],
   "warp_events": [
