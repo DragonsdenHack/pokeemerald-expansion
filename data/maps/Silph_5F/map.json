@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph5F_4",
-      "flag": "0"
+      "script": "Silph5_EventScript_Proteina",
+      "flag": "FLAG_NUEVA_342"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
@@ -322,6 +322,14 @@
       "elevation": 3,
       "item": "ITEM_ELIXIR",
       "flag": "FLAG_NUEVA_340"
+    },
+    {
+      "type": "hidden_item",
+      "x": 32,
+      "y": 9,
+      "elevation": 3,
+      "item": "ITEM_PP_UP",
+      "flag": "FLAG_NUEVA_343"
     }
   ]
 }

@@ -243,6 +243,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_CALCIUM",
+      "flag": "FLAG_NUEVA_352"
+    },
+    {
+      "type": "hidden_item",
+      "x": 11,
+      "y": 14,
+      "elevation": 3,
+      "item": "ITEM_MAX_POTION",
+      "flag": "FLAG_NUEVA_353"
     }
   ]
 }

@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph7F_5",
-      "flag": "0"
+      "script": "Silph7_EventScript_TM08",
+      "flag": "FLAG_NUEVA_349"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_F",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph7F_7",
-      "flag": "0"
+      "script": "Silph7_EventScript_Hierro",
+      "flag": "FLAG_NUEVA_347"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
@@ -339,6 +339,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 11,
+      "elevation": 3,
+      "item": "ITEM_ZINC",
+      "flag": "FLAG_NUEVA_348"
     }
   ]
 }

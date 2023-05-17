@@ -1466,3 +1466,48 @@ finditem ITEM_ESCAPE_ROPE
 Silph4_EventScript_TM41::
 finditem ITEM_TM41_TORMENT
     end
+
+
+Silph5_EventScript_TM01::
+finditem ITEM_TM01_FOCUS_PUNCH
+    end
+
+Silph5_EventScript_Proteina::
+finditem ITEM_PROTEIN
+    end
+
+Silph6_EventScript_MasPs::
+finditem ITEM_HP_UP
+    end
+
+Silph6_EventScript_Xspecial::
+finditem ITEM_X_SP_DEF
+    end
+
+Silph7_EventScript_Hierro::
+finditem ITEM_IRON
+    end
+
+Silph7_EventScript_TM08::
+finditem ITEM_TM08_BULK_UP
+    end
+
+Silph8_EventScript_Hierro::
+finditem ITEM_IRON
+    end
+
+Silph10_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+    end
+
+Silph10_EventScript_Carburante::
+finditem ITEM_CARBOS
+    end
+
+Silph10_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+Silph11_EventScript_Zinc::
+finditem ITEM_ZINC
+    end
