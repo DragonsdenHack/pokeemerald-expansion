@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonMansion3F_1",
-      "flag": "0"
+      "script": "MansionCanela_EventScript_MaxPotion",
+      "flag": "FLAG_NUEVA_367"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PokemonMansion3F_3",
-      "flag": "0"
+      "script": "MansionCanela_EventScript_Hierro",
+      "flag": "FLAG_NUEVA_368"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SUPER_NERD",
@@ -136,6 +136,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "PokemonMansion3FDocumento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 36,
+      "y": 13,
+      "elevation": 3,
+      "item": "ITEM_RARE_CANDY",
+      "flag": "FLAG_NUEVA_369"
     }
   ]
 }

@@ -1511,3 +1511,39 @@ finditem ITEM_RARE_CANDY
 Silph11_EventScript_Zinc::
 finditem ITEM_ZINC
     end
+
+MansionCanela_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+    end
+
+MansionCanela_EventScript_Proteina::
+finditem ITEM_PROTEIN
+    end
+
+MansionCanela_EventScript_Carburante::
+finditem ITEM_CARBOS
+    end
+
+MansionCanela_EventScript_Zinc::
+finditem ITEM_ZINC
+    end
+
+MansionCanela_EventScript_MasPs::
+finditem ITEM_HP_UP
+    end
+
+MansionCanela_EventScript_Calcio::
+finditem ITEM_CALCIUM
+    end
+
+MansionCanela_EventScript_MaxPotion::
+finditem ITEM_MAX_POTION
+    end
+
+MansionCanela_EventScript_Hierro::
+finditem ITEM_IRON
+    end
+
+MansionCanela_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+    end
