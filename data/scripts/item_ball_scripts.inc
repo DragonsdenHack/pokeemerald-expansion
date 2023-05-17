@@ -1736,4 +1736,12 @@ BosqueBaya_EventScript_EterMax::
 finditem ITEM_MAX_ETHER
     end
 
+BosqueBaya_EventScript_MaxPP::
+finditem ITEM_PP_MAX
+    end
+
+BosqueBaya_EventScript_CuraTotal::
+finditem ITEM_FULL_HEAL
+    end
+
 
