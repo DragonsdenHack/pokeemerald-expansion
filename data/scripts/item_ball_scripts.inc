@@ -1680,4 +1680,60 @@ Central_EventScript_Elixir::
 finditem ITEM_ELIXIR
     end
 
+Central_EventScript_Piedratrueno::
+finditem ITEM_THUNDER_STONE
+    end
+
+Central_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+Central_EventScript_TM25::
+finditem ITEM_TM25_THUNDER
+    end
+
+BaseProfunda_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+BaseProfunda_EventScript_Vestidura::
+finditem ITEM_MACHO_BRACE
+    end
+
+Culto_EventScript_MT30::
+finditem ITEM_TM30_SHADOW_BALL
+    end
+
+Culto_EventScript_PrecisionX::
+finditem ITEM_X_ACCURACY
+    end
+
+SilphSotano_EventScript_PPMAX::
+finditem ITEM_PP_MAX
+    end
+
+SilphSotano_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+Setima_EventScript_Punosuerte::
+finditem ITEM_LUCKY_PUNCH
+    end
+
+MtAscuas_EventScript_Ultraball::
+finditem ITEM_ULTRA_BALL
+    end
+
+MtAscuas_EventScript_Directo::
+finditem ITEM_DIRE_HIT
+    end
+
+MtAscuas_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+    end
+
+BosqueBaya_EventScript_EterMax::
+finditem ITEM_MAX_ETHER
+    end
+
 

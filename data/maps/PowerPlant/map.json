@@ -56,7 +56,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 30,
-      "y": 38,
+      "y": 40,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant6",
-      "flag": "0"
+      "script": "Central_EventScript_Carameloraro",
+      "flag": "FLAG_NUEVA_412"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -108,7 +108,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 36,
-      "y": 5,
+      "y": 0,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -128,8 +128,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant10",
-      "flag": "0"
+      "script": "Central_EventScript_Piedratrueno",
+      "flag": "FLAG_NUEVA_411"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -271,8 +271,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "PowerPlant21",
-      "flag": "0"
+      "script": "Central_EventScript_TM25",
+      "flag": "FLAG_NUEVA_413"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -337,6 +337,14 @@
       "elevation": 3,
       "item": "ITEM_THUNDER_STONE",
       "flag": "FLAG_NUEVA_408"
+    },
+    {
+      "type": "hidden_item",
+      "x": 29,
+      "y": 16,
+      "elevation": 3,
+      "item": "ITEM_MAX_ELIXIR",
+      "flag": "FLAG_NUEVA_414"
     }
   ]
 }

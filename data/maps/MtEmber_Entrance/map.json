@@ -180,8 +180,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtEmberEntrance_13",
-      "flag": "0"
+      "script": "MtAscuas_EventScript_Carameloraro",
+      "flag": "FLAG_NUEVA_426"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BREAKABLE_ROCK",
@@ -258,8 +258,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtEmberEntrance_19",
-      "flag": "0"
+      "script": "MtAscuas_EventScript_Directo",
+      "flag": "FLAG_NUEVA_425"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -271,8 +271,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtEmberEntrance_20",
-      "flag": "0"
+      "script": "MtAscuas_EventScript_Ultraball",
+      "flag": "FLAG_NUEVA_423"
     }
   ],
   "warp_events": [
@@ -340,6 +340,21 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_FIRE_STONE",
+      "flag": "FLAG_NUEVA_422"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 30,
+      "elevation": 3,
+      "item": "ITEM_ULTRA_BALL",
+      "flag": "FLAG_NUEVA_424"
+    }
   ]
 }
