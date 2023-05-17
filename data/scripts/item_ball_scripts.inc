@@ -1318,3 +1318,36 @@ finditem ITEM_POTION
 BosqueVerde_EventScript_Antidoto::
 finditem ITEM_ANTIDOTE
 	end
+
+
+MtMoon_EventScript_Antiparaliz::
+finditem ITEM_PARALYZE_HEAL
+	end
+
+MtMoon_EventScript_TM09::
+finditem ITEM_TM09_BULLET_SEED
+	end
+
+MtMoon_EventScript_Pocion::
+finditem ITEM_POTION
+	end
+
+MtMoon_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+	end
+
+MtMoon_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+	end
+
+MtMoon_EventScript_PiedraLunar::
+finditem ITEM_MOON_STONE
+	end
+
+MtMoon_EventScript_Revivir::
+finditem ITEM_REVIVE
+    end
+
+MtMoon_EventScript_Antidoto::
+finditem ITEM_ANTIDOTE
+    end
