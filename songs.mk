@@ -718,7 +718,7 @@ $(MID_SUBDIR)/mus_vs_giovanni.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V090
 
 $(MID_SUBDIR)/mus_gsc_leader.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G308 -V090
 	
 $(MID_SUBDIR)/mus_gsc_rocket_hideout.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G166 -V076
