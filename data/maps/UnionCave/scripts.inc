@@ -50,31 +50,3 @@ end
 
 UnionCave9::
 end
-
-
-
-UnionCave_EventScript_Montanero::
-	trainerbattle_single TRAINER_JOHANNA, UnionCave_Text_MontaneroIntro, UnionCave_Text_MontaneroDefeated
-	msgbox UnionCave_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-UnionCave_EventScript_Necio::
-	trainerbattle_single TRAINER_KIRA_AND_DAN_4, UnionCave_Text_NecioIntro, UnionCave_Text_NecioDefeated
-	msgbox UnionCave_Text_NecioPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-UnionCave_EventScript_Karateka::
-	trainerbattle_single TRAINER_GERALD, UnionCave_Text_KaratekaIntro, UnionCave_Text_KaratekaDefeated
-	msgbox UnionCave_Text_KaratekaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-UnionCave_EventScript_Necio2::
-	trainerbattle_single TRAINER_KIRA_AND_DAN_5, UnionCave_Text_Necio2Intro, UnionCave_Text_Necio2Defeated
-	msgbox UnionCave_Text_Necio2PostBattle, MSGBOX_AUTOCLOSE
-	end

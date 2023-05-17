@@ -52,12 +52,12 @@ Route113_EventScript_Jaylen::
 	end
 
 Route113_EventScript_Dillon::
-	trainerbattle_single TRAINER_BRUNO_1, Route113_Text_DillonIntro, Route113_Text_DillonDefeat
+	trainerbattle_single TRAINER_DILLON, Route113_Text_DillonIntro, Route113_Text_DillonDefeat
 	msgbox Route113_Text_DillonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route113_EventScript_Madeline::
-	trainerbattle_single TRAINER_AYUDANTE_5, Route113_Text_MadelineIntro, Route113_Text_MadelineDefeat, Route113_EventScript_RegisterMadeline
+	trainerbattle_single TRAINER_MADELINE_1, Route113_Text_MadelineIntro, Route113_Text_MadelineDefeat, Route113_EventScript_RegisterMadeline
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route113_EventScript_RematchMadeline
 	msgbox Route113_Text_MadelinePostBattle, MSGBOX_DEFAULT
@@ -68,17 +68,17 @@ Route113_EventScript_RegisterMadeline::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route113_Text_MadelineRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_AYUDANTE_5
+	register_matchcall TRAINER_MADELINE_1
 	release
 	end
 
 Route113_EventScript_RematchMadeline::
-	trainerbattle_rematch TRAINER_AYUDANTE_5, Route113_Text_MadelineRematchIntro, Route113_Text_MadelineRematchDefeat
+	trainerbattle_rematch TRAINER_MADELINE_1, Route113_Text_MadelineRematchIntro, Route113_Text_MadelineRematchDefeat
 	msgbox Route113_Text_MadelinePostRematch, MSGBOX_AUTOCLOSE
 	end
 
 Route113_EventScript_Lao::
-	trainerbattle_single TRAINER_KOGA, Route113_Text_LaoIntro, Route113_Text_LaoDefeat, Route113_EventScript_RegisterLao
+	trainerbattle_single TRAINER_LAO_1, Route113_Text_LaoIntro, Route113_Text_LaoDefeat, Route113_EventScript_RegisterLao
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route113_EventScript_RematchLao
 	msgbox Route113_Text_LaoPostBattle, MSGBOX_DEFAULT
@@ -89,17 +89,17 @@ Route113_EventScript_RegisterLao::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route113_Text_LaoRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_KOGA
+	register_matchcall TRAINER_LAO_1
 	release
 	end
 
 Route113_EventScript_RematchLao::
-	trainerbattle_rematch TRAINER_KOGA, Route113_Text_LaoRematchIntro, Route113_Text_LaoRematchDefeat
+	trainerbattle_rematch TRAINER_LAO_1, Route113_Text_LaoRematchIntro, Route113_Text_LaoRematchDefeat
 	msgbox Route113_Text_LaoPostRematch, MSGBOX_AUTOCLOSE
 	end
 
 Route113_EventScript_Lung::
-	trainerbattle_single TRAINER_BRUNO_1, Route113_Text_LungIntro, Route113_Text_LungDefeat
+	trainerbattle_single TRAINER_LUNG, Route113_Text_LungIntro, Route113_Text_LungDefeat
 	msgbox Route113_Text_LungPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -85,10 +85,3 @@ Ecruteak_TinTowerp3_Text_6:
 .string "Adormecer el dolor por un rato te\n"
 .string "haría sentirlo luego con mayor\l"
 .string "intensidad.$"
-
-
-
-TinTowerP3_EventScript_Monje::
-	trainerbattle_single TRAINER_JOHNSON, TinTowerP3_Text_MonjeIntro, TinTowerP3_Text_MonjeDefeated
-	msgbox TinTowerP3_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
-	end

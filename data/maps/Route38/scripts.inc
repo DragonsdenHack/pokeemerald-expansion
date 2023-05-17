@@ -48,24 +48,3 @@ Route37_Text_5:
 
 Route38_6::
 end
-
-
-
-Route38_EventScript_Calvo::
-	trainerbattle_single TRAINER_DAWSON, Route38_Text_CalvoIntro, Route38_Text_CalvoDefeated
-	msgbox Route38_Text_CalvoPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route38_EventScript_Pintora::
-	trainerbattle_single TRAINER_CHRIS, Route38_Text_PintoraIntro, Route38_Text_PintoraDefeated
-	msgbox Route38_Text_PintoraPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route38_EventScript_Chico::
-	trainerbattle_single TRAINER_SARAH, Route38_Text_ChicoIntro, Route38_Text_ChicoDefeated
-	msgbox Route38_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
-	end

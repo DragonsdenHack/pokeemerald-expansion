@@ -2,7 +2,7 @@
   "id": "MAP_MT_EMBER_1F_PATH",
   "name": "MtEmber_1F_Path",
   "layout": "LAYOUT_MT_EMBER_1F_PATH",
-  "music": "MUS_RG_MT_MOON",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_MT_EMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -162,17 +162,3 @@ end
 
 NinjaBaseS1_18::
 end
-
-
-
-NinjaBaseS1_EventScript_Ladron::
-	trainerbattle_single TRAINER_DREW, NinjaBaseS1_Text_LadronIntro, NinjaBaseS1_Text_LadronDefeated
-	msgbox NinjaBaseS1_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-NinjaBaseS1_EventScript_Calvo::
-	trainerbattle_single TRAINER_MYLES, NinjaBaseS1_Text_CalvoIntro, NinjaBaseS1_Text_CalvoDefeated
-	msgbox NinjaBaseS1_Text_CalvoPostBattle, MSGBOX_AUTOCLOSE
-	end

@@ -2,7 +2,7 @@
   "id": "MAP_SILPH_2F",
   "name": "Silph_2F",
   "layout": "LAYOUT_SILPH_2F",
-  "music": "MUS_RG_SILPH",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_SILPH_CO",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -35,9 +35,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
-      "script": "Silph2F_EventScript_Policia2",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Silph2F_2",
       "flag": "0"
     },
     {
@@ -48,9 +48,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "4",
-      "script": "Silph2F_EventScript_Cientifico",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Silph2F_3",
       "flag": "0"
     },
     {
@@ -61,9 +61,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "5",
-      "script": "Silph2F_EventScript_Policia",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Silph2F_4",
       "flag": "0"
     },
     {
@@ -74,15 +74,15 @@
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph2F_EventScript_Cientifico2",
+      "script": "Silph2F_5",
       "flag": "0"
     }
   ],
   "warp_events": [
     {
-      "x": 30,
+      "x": 28,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SILPH_3F",
@@ -103,7 +103,7 @@
       "dest_warp_id": 5
     },
     {
-      "x": 28,
+      "x": 30,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SILPH_1F",

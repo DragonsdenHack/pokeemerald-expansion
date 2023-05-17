@@ -2,7 +2,7 @@
   "id": "MAP_DILFORD_CHAMBER",
   "name": "DilfordChamber",
   "layout": "LAYOUT_DILFORD_CHAMBER",
-  "music": "MUS_RG_VIRIDIAN_FOREST",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_DILFORD_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

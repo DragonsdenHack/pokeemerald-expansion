@@ -74,9 +74,9 @@
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
-      "script": "OlivineBoat_EventScript_Marinero",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OlivineBoat5",
       "flag": "0"
     },
     {
@@ -126,9 +126,9 @@
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "1",
-      "script": "OlivineBoat_EventScript_Caballero",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "OlivineBoat9",
       "flag": "0"
     }
   ],
@@ -137,14 +137,14 @@
       "x": 19,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_OLIVINE_PORT",
-      "dest_warp_id": 1
+      "dest_map": "MAP_OLIVINE_BOAT",
+      "dest_warp_id": 0
     },
     {
       "x": 27,
       "y": 16,
       "elevation": 0,
-      "dest_map": "MAP_OLIVINE_BOAT2",
+      "dest_map": "MAP_OLIVINE_BOAT",
       "dest_warp_id": 0
     }
   ],

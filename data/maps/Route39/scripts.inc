@@ -85,17 +85,3 @@ Route39_Text_12:
 
 Route39_13::
 end
-
-
-
-Route39_EventScript_Ornitologo::
-	trainerbattle_single TRAINER_DARIAN, Route39_Text_OrnitologoIntro, Route39_Text_OrnitologoDefeated
-	msgbox Route39_Text_OrnitologoPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route39_EventScript_Marinero::
-	trainerbattle_single TRAINER_HAILEY, Route39_Text_MarineroIntro, Route39_Text_MarineroDefeated
-	msgbox Route39_Text_MarineroPostBattle, MSGBOX_AUTOCLOSE
-	end

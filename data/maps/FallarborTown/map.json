@@ -80,7 +80,7 @@
   ],
   "warp_events": [
     {
-      "x": 15,
+      "x": 16,
       "y": 15,
       "elevation": 0,
       "dest_map": "MAP_FALLARBOR_TOWN_MART",
@@ -94,7 +94,7 @@
       "dest_warp_id": 0
     },
     {
-      "x": 14,
+      "x": 15,
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F",

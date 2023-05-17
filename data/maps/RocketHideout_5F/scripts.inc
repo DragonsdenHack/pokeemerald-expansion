@@ -954,31 +954,3 @@ end
 
 RocketHideout5F_60::
 end
-
-
-
-RocketHideout5F_EventScript_Rocket::
-	trainerbattle_single TRAINER_GRUNT_MT_PYRE_2, RocketHideout5F_Text_RocketIntro, RocketHideout5F_Text_RocketDefeated
-	msgbox RocketHideout5F_Text_RocketPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-RocketHideout5F_EventScript_Rocket2::
-	trainerbattle_single TRAINER_GRUNT_MT_PYRE_3, RocketHideout5F_Text_Rocket2Intro, RocketHideout5F_Text_Rocket2Defeated
-	msgbox RocketHideout5F_Text_Rocket2PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-RocketHideout5F_EventScript_Rocket3::
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_4, RocketHideout5F_Text_Rocket3Intro, RocketHideout5F_Text_Rocket3Defeated
-	msgbox RocketHideout5F_Text_Rocket3PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-RocketHideout5F_EventScript_Rocket4::
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_4, RocketHideout5F_Text_Rocket4Intro, RocketHideout5F_Text_Rocket4Defeated
-	msgbox RocketHideout5F_Text_Rocket4PostBattle, MSGBOX_AUTOCLOSE
-	end

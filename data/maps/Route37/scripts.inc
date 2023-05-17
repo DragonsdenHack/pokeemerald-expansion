@@ -13,17 +13,3 @@ end
 
 Route37_3::
 end
-
-
-
-Route37_EventScript_Chica::
-	trainerbattle_single TRAINER_JOHN_AND_JAY_5, Route37_Text_ChicaIntro, Route37_Text_ChicaDefeated
-	msgbox Route37_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route37_EventScript_Juglar::
-	trainerbattle_single TRAINER_JOHN_AND_JAY_1, Route37_Text_JuglarIntro, Route37_Text_JuglarDefeated
-	msgbox Route37_Text_JuglarPostBattle, MSGBOX_AUTOCLOSE
-	end

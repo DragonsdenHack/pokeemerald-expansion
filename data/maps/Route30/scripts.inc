@@ -102,17 +102,3 @@ Route30_Text_14:
 .string "te da este lugar es única. Mi\l"
 .string "marido prefiere contemplar el\l"
 .string "paisaje desde más arriba.$"
-
-
-
-Route30_EventScript_Sabio::
-	trainerbattle_single TRAINER_TRENT_1, Route30_Text_SabioIntro, Route30_Text_SabioDefeated
-	msgbox Route30_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route30_EventScript_Cazabichos::
-	trainerbattle_single TRAINER_LENNY, Route30_Text_CazabichosIntro, Route30_Text_CazabichosDefeated
-	msgbox Route30_Text_CazabichosPostBattle, MSGBOX_AUTOCLOSE
-	end

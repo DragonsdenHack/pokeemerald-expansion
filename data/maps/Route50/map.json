@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE50",
   "name": "Route50",
   "layout": "LAYOUT_ROUTE50",
-  "music": "MUS_ABNORMAL_WEATHER",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -145,9 +145,9 @@
       "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route50_EventScript_Montanero",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
       "flag": "0"
     },
     {
@@ -169,7 +169,7 @@
       "x": 21,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE50_CASA_CAMPEON",
+      "dest_map": "MAP_ROUTE50",
       "dest_warp_id": 0
     }
   ],

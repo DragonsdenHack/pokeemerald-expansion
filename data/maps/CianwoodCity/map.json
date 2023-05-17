@@ -226,13 +226,6 @@
       "elevation": 0,
       "dest_map": "MAP_CIANWOOD_HOUSE1",
       "dest_warp_id": 0
-    },
-    {
-      "x": 29,
-      "y": 2,
-      "elevation": 0,
-      "dest_map": "MAP_CIANWOOD_EUSINE_HOUSE",
-      "dest_warp_id": 0
     }
   ],
   "coord_events": [

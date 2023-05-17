@@ -2,7 +2,7 @@
   "id": "MAP_MONEAN_CHAMBER",
   "name": "MoneanChamber",
   "layout": "LAYOUT_MONEAN_CHAMBER",
-  "music": "MUS_RG_VIRIDIAN_FOREST",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_MONEAN_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

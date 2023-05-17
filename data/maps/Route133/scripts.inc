@@ -17,12 +17,12 @@ Route133_EventScript_Linda::
 	end
 
 Route133_EventScript_Warren::
-	trainerbattle_single TRAINER_BRUNO_1, Route133_Text_WarrenIntro, Route133_Text_WarrenDefeat
+	trainerbattle_single TRAINER_WARREN, Route133_Text_WarrenIntro, Route133_Text_WarrenDefeat
 	msgbox Route133_Text_WarrenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route133_EventScript_Beck::
-	trainerbattle_single TRAINER_BRUNO_1, Route133_Text_BeckIntro, Route133_Text_BeckDefeat
+	trainerbattle_single TRAINER_BECK, Route133_Text_BeckIntro, Route133_Text_BeckDefeat
 	msgbox Route133_Text_BeckPostBattle, MSGBOX_AUTOCLOSE
 	end
 

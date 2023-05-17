@@ -2,7 +2,7 @@
   "id": "MAP_PALLET_TOWN_PROFESSOR_LAB",
   "name": "PalletTown_ProfessorLab",
   "layout": "LAYOUT_PALLET_TOWN_PROFESSOR_LAB",
-  "music": "MUS_RG_OAK_LAB",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_PALLET_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

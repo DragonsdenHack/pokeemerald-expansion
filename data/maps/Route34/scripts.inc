@@ -73,38 +73,3 @@ end
 
 Route34_14::
 end
-
-
-
-Route34_EventScript_Guarda::
-	trainerbattle_single TRAINER_REED, Route34_Text_GuardaIntro, Route34_Text_GuardaDefeated
-	msgbox Route34_Text_GuardaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route34_EventScript_Guarda2::
-	trainerbattle_single TRAINER_CALLIE, Route34_Text_Guarda2Intro, Route34_Text_Guarda2Defeated
-	msgbox Route34_Text_Guarda2PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route34_EventScript_Karateka::
-	trainerbattle_single TRAINER_CALE, Route34_Text_KaratekaIntro, Route34_Text_KaratekaDefeated
-	msgbox Route34_Text_KaratekaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route34_EventScript_Guay::
-	trainerbattle_single TRAINER_HENRY, Route34_Text_GuayIntro, Route34_Text_GuayDefeated
-	msgbox Route34_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route34_EventScript_Rico::
-	trainerbattle_single TRAINER_HENRY, Route34_Text_RicoIntro, Route34_Text_RicoDefeated
-	msgbox Route34_Text_RicoPostBattle, MSGBOX_AUTOCLOSE
-	end

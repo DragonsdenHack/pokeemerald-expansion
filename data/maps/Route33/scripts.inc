@@ -34,17 +34,3 @@ Route33_Text_5:
 .string "profundidades de CUEVA UNIÓN atrae\l"
 .string "a muchos entrenadores por los\l"
 .string "alrededores.$"
-
-
-
-Route33_EventScript_Guay::
-	trainerbattle_single TRAINER_VIVIAN, Route33_Text_GuayIntro, Route33_Text_GuayDefeated
-	msgbox Route33_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route33_EventScript_Sabio::
-	trainerbattle_single TRAINER_RILEY, Route33_Text_SabioIntro, Route33_Text_SabioDefeated
-	msgbox Route33_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
-	end

@@ -66,24 +66,3 @@ end
 
 GoldenrodUnderground11::
 end
-
-
-
-GoldenrodUnderground_EventScript_Maton::
-	trainerbattle_single TRAINER_MAY_LILYCOVE_MUDKIP, GoldenrodUnderground_Text_MatonIntro, GoldenrodUnderground_Text_MatonDefeated
-	msgbox GoldenrodUnderground_Text_MatonPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-GoldenrodUnderground_EventScript_Necio::
-	trainerbattle_single TRAINER_MAY_LILYCOVE_TORCHIC, GoldenrodUnderground_Text_NecioIntro, GoldenrodUnderground_Text_NecioDefeated
-	msgbox GoldenrodUnderground_Text_NecioPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-GoldenrodUnderground_EventScript_Ladron::
-	trainerbattle_single TRAINER_WAYNE, GoldenrodUnderground_Text_LadronIntro, GoldenrodUnderground_Text_LadronDefeated
-	msgbox GoldenrodUnderground_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
-	end

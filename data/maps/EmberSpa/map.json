@@ -2,7 +2,7 @@
   "id": "MAP_EMBER_SPA",
   "name": "EmberSpa",
   "layout": "LAYOUT_EMBER_SPA",
-  "music": "MUS_RG_FUCHSIA",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_EMBER_SPA",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

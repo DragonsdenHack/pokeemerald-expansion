@@ -2,7 +2,7 @@
   "id": "MAP_DIGLETT_CAVE_1F",
   "name": "DiglettCave_1F",
   "layout": "LAYOUT_DIGLETT_CAVE_1F",
-  "music": "MUS_RG_VIRIDIAN_FOREST",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_DIGLETTS_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -57,10 +57,3 @@ Route4_Text_5:
 
 Route4_6::
 end
-
-
-
-Route4_EventScript_Chica::
-	trainerbattle_single TRAINER_CINDY_3, Route4_Text_ChicaIntro, Route4_Text_ChicaDefeated
-	msgbox Route4_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
-	end

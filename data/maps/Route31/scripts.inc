@@ -87,10 +87,3 @@ Route31_Text_10:
 
 Route31_11::
 end
-
-
-
-Route31_EventScript_Chico::
-	trainerbattle_single TRAINER_LUCAS_1, Route31_Text_ChicoIntro, Route31_Text_ChicoDefeated
-	msgbox Route31_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
-	end

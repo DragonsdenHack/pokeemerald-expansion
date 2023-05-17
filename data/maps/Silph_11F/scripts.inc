@@ -35,16 +35,3 @@ end
 
 Silph11F_6::
 end
-
-
-Silph11F_EventScript_Policia::
-	trainerbattle_single TRAINER_KATELYN_5, Silph11F_Text_PoliciaIntro, Silph11F_Text_PoliciaDefeated
-	msgbox Silph11F_PoliciaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Silph11F_EventScript_Policia2::
-	trainerbattle_single TRAINER_NICOLAS_1, Silph11F_Text_Policia2Intro, Silph11F_Text_Policia2Defeated
-	msgbox Silph11F_Policia2PostBattle, MSGBOX_AUTOCLOSE
-	end

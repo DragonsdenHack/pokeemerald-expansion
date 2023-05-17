@@ -234,11 +234,3 @@ end
 GoldenrodCity_Text_19:
 .string "No deberías estar aquí.\n"
 .string "¡Puede ser peligroso!$"
-
-
-
-GoldenrodCity_EventScript_Obrero::
-	trainerbattle_single TRAINER_LILA_AND_ROY_5, GoldenrodCity_Text_ObreroIntro, GoldenrodCity_Text_ObreroDefeated
-	msgbox GoldenrodCity_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
-	end
-	

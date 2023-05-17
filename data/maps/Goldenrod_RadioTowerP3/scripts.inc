@@ -152,10 +152,3 @@ Goldenrod_RadioTowerP3_Text_12:
 .string "dentro de las RUINAS ALFA…\l"
 .string "¡Escucharás ruidos muy\l"
 .string "extraños!$"
-
-
-
-GoldenrodRadioTowerP3_EventScript_Bella::
-	trainerbattle_single TRAINER_KOJI_1, GoldenrodRadioTowerP3_Text_BellaIntro, GoldenrodRadioTowerP3_Text_BellaDefeated
-	msgbox GoldenrodRadioTowerP3_Text_BellaPostBattle, MSGBOX_AUTOCLOSE
-	end

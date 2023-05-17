@@ -27,7 +27,7 @@ Route132_EventScript_Paxton::
 	end
 
 Route132_EventScript_Darcy::
-	trainerbattle_single TRAINER_BRUNO_1, Route132_Text_DarcyIntro, Route132_Text_DarcyDefeat
+	trainerbattle_single TRAINER_DARCY, Route132_Text_DarcyIntro, Route132_Text_DarcyDefeat
 	msgbox Route132_Text_DarcyPostBattle, MSGBOX_AUTOCLOSE
 	end
 

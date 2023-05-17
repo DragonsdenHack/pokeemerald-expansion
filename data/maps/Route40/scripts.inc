@@ -99,31 +99,3 @@ Route40_Text_12:
 
 Route40_13::
 end
-
-
-
-Route40_EventScript_Nadadora::
-	trainerbattle_single TRAINER_HAYDEN, Route40_Text_NadadoraIntro, Route40_Text_NadadoraDefeated
-	msgbox Route40_Text_NadadoraPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route40_EventScript_Chico::
-	trainerbattle_single TRAINER_SOPHIE, Route40_Text_ChicoIntro, Route40_Text_ChicoDefeated
-	msgbox Route40_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route40_EventScript_Nadadora2::
-	trainerbattle_single TRAINER_BIANCA, Route40_Text_Nadadora2Intro, Route40_Text_Nadadora2Defeated
-	msgbox Route40_Text_Nadadora2PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route40_EventScript_Nadadora3::
-	trainerbattle_single TRAINER_CELINA, Route40_Text_Nadadora3Intro, Route40_Text_Nadadora3Defeated
-	msgbox Route40_Text_Nadadora3PostBattle, MSGBOX_AUTOCLOSE
-	end

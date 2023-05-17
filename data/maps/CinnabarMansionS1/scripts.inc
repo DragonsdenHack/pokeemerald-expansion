@@ -1,7 +1,2 @@
 CinnabarMansionS1_MapScripts::
 	.byte 0
-
-CinnabarMansionS1_EventScript_Cientifico::
-	trainerbattle_single TRAINER_CINDY_1, CinnabarMansionS1_Text_CientificoIntro, CinnabarMansionS1_Text_CientificoDefeated
-	msgbox CinnabarMansionS1_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
-	end

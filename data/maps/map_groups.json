@@ -114,8 +114,7 @@
     "Underwater_Route128",
     "Underwater_Route129",
     "Underwater_Route105",
-    "Underwater_Route125",
-    "CuevaHypno_2"
+    "Underwater_Route125"
   ],
   "gMapGroup_TownsAndRoutesKANTO": [
     "PalletTown",
@@ -163,8 +162,7 @@
     "ViasSur2",
     "ViasSur3",
     "ViasSur4",
-    "ViasSur5",
-    "ViasTrenCasaCampeon"
+    "ViasSur5"
   ],
   "gMapGroup_TownsAndRoutesSEVII": [
     "OneIsland",
@@ -194,8 +192,7 @@
     "CanyonEntrance",
     "SevaultCanyon",
     "TanobyRuins",
-    "WestBirthIsland",
-    "PlayaTesoro"
+    "WestBirthIsland"
   ],
   "gMapGroup_TownsAndRoutesJOHTO": [
     "NewBarkTown",
@@ -238,8 +235,7 @@
     "Route52",
     "Route53",
     "ViasTren1",
-    "ViasTren2",
-    "Route50_CasaCampeon"
+    "ViasTren2"
   ],
   "gMapGroup_IndoorCherryNewbark": [
     "Newbark_ElmLaboratory",
@@ -267,9 +263,7 @@
     "Azalea_CesarHouse",
     "Azalea_Gym",
     "Azalea_SlowpokeWell",
-    "Azalea_SlowpokeWellS1",
-    "AzaleaCarbonS1",
-    "AzaleaCarbonS2"
+    "Azalea_SlowpokeWellS1"
   ],
   "gMapGroup_IndoorGoldenrodCity": [
     "Goldenrod_PkmnCenter",
@@ -314,8 +308,7 @@
     "Ecruteak_TinTowerP7",
     "Ecruteak_TinTowerP8",
     "Ecruteak_TinTowerP9",
-    "Ecruteak_TinTowerRoof",
-    "MisionIrisLab"
+    "Ecruteak_TinTowerRoof"
   ],
   "gMapGroup_IndoorOlivineCity": [
     "Olivine_PkmnCenter",
@@ -339,8 +332,7 @@
     "Cianwood_Gym",
     "Cianwood_House1",
     "Cianwood_House2",
-    "Cianwood_House3",
-    "CianwoodEusineHouse"
+    "Cianwood_House3"
   ],
   "gMapGroup_IndoorMahoganyTown": [
     "MahoganyTown_PkmnCenter",
@@ -348,8 +340,7 @@
     "MahoganyTown_NinjaBase",
     "MahoganyTown_NinjaBaseS1",
     "MahoganyTown_NinjaBaseS2",
-    "MahoganyTown_NinjaBaseS3",
-    "MahoganyHouseCarbon"
+    "MahoganyTown_NinjaBaseS3"
   ],
   "gMapGroup_IndoorBlackthornCity": [
     "BlackthornCity_PkmnCenter",
@@ -439,11 +430,7 @@
     "LagoFuria2",
     "LagoFuria3",
     "LagoFuria4",
-    "LagoFuria5",
-    "MisionTrigal1",
-    "MisionTrigal2",
-    "MisionTrigal3",
-    "MisionTrigal4"
+    "LagoFuria5"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",
@@ -503,16 +490,7 @@
     "LavenderRadioP3",
     "LavenderRadioP4",
     "LavenderRadioP5",
-    "LavenderRadioP6",
-    "NeoLavandaPueblo",
-    "NeoLavandaPkmnCenter",
-    "NeoLavandaTienda",
-    "NeoLavandaCasa1",
-    "NeoLavandaCasa2",
-    "NeoLavandaCasa3",
-    "NeoLavandaCementerio",
-    "NeoLavandaCementerioS1",
-    "NeoLavandaCementerioS2"
+    "LavenderRadioP6"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",
@@ -568,15 +546,7 @@
     "CinnabarIsland_Laboratory3",
     "CinnabarIsland_PokemonCenter_1F",
     "CinnabarIsland_School",
-    "CinnabarIsland_Mart",
-    "Mision7Lab1",
-    "Mision7Lab2",
-    "Mision7Lab3",
-    "Mision7Lab4",
-    "Mision7Lab5",
-    "NeoCinnabarIsland",
-    "NeoCinnabarPkmnCenter",
-    "NeoCinnabarVolcan"
+    "CinnabarIsland_Mart"
   ],
   "gMapGroup_IndoorIndigoPlateau": [
     "IndigoPlateau_PokemonCenter_1F",
@@ -730,8 +700,7 @@
     "SilphS2",
     "SilphS3",
     "CinnabarMansionS1",
-    "CinnabarMansionS2",
-    "NeoPowerPlant"
+    "CinnabarMansionS2"
   ],
   "gMapGroup_IndoorOneIsland": [
     "OneIsland_PokemonCenter_1F",
@@ -847,17 +816,7 @@
     "Magma3",
     "Aqua1",
     "Aqua2",
-    "Aqua3",
-    "IcefallCave_Lapras",
-    "BosqueGimnasioAnciana",
-    "GimnasioAnciana",
-    "CuevaHypno_1",
-    "CuevaHypno_3",
-    "CuevaHypno_4",
-    "CuevaTesoro1",
-    "CuevaTesoro2",
-    "CuevaTesoro3",
-    "CuevaTesoro4"
+    "Aqua3"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -1370,7 +1329,6 @@
     "DEVONS6",
     "DevonS7",
     "DevonS8",
-    "DevonS9",
-    "DevonS10"
+    "DevonS9"
   ]
 }

@@ -132,16 +132,3 @@ RocketWarehouse_Text_16:
 .string "moscas, a los niños de hoy en día\l"
 .string "les gusta meter las narices donde\l"
 .string "no les llaman.$"
-
-RocketWarehouse_EventScript_Isaac::
-	trainerbattle_single TRAINER_ISAAC_5, RocketWarehouse_Text_IsaacIntro, RocketWarehouse_Text_IsaacDefeated
-	msgbox RocketWarehouse_Text_IsaacPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-RocketWarehouse_EventScript_Recluta::
-	trainerbattle_single TRAINER_ISAAC_3, RocketWarehouse_Text_ReclutaIntro, RocketWarehouse_Text_ReclutaDefeated
-	msgbox RocketWarehouse_Text_ReclutaPostBattle, MSGBOX_AUTOCLOSE
-	end
-	

@@ -2,7 +2,7 @@
   "id": "MAP_CINNABAR_ISLAND_LABORATORY3",
   "name": "CinnabarIsland_Laboratory3",
   "layout": "LAYOUT_CINNABAR_ISLAND_LABORATORY3",
-  "music": "MUS_RG_CINNABAR",
+  "music": "MUS_ABANDONED_SHIP",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

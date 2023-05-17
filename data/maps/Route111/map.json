@@ -92,7 +92,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route111_EventScript_Chica",
+      "script": "Route111_EventScript_Heidi",
       "flag": "0"
     },
     {
@@ -144,7 +144,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route111_EventScript_Chico2",
+      "script": "Route111_EventScript_Drew",
       "flag": "0"
     },
     {
@@ -157,7 +157,7 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route111_EventScript_Montanero2",
+      "script": "Route111_EventScript_Dusty",
       "flag": "0"
     },
     {
@@ -170,7 +170,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
-      "script": "Route111_EventScript_Chico",
+      "script": "Route111_EventScript_Beau",
       "flag": "0"
     },
     {
@@ -183,7 +183,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "Route111_EventScript_Chica3",
+      "script": "Route111_EventScript_Becky",
       "flag": "0"
     },
     {
@@ -534,7 +534,7 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "7",
-      "script": "Route111_EventScript_Montanero3",
+      "script": "Route111_EventScript_Bryan",
       "flag": "0"
     },
     {
@@ -547,12 +547,12 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "6",
-      "script": "Route111_EventScript_Chica2",
+      "script": "Route111_EventScript_Celia",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANDRAADMIN",
-      "x": 30,
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
+      "x": 29,
       "y": 88,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -584,9 +584,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_UP_AND_RIGHT",
       "movement_range_x": 1,
       "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
-      "script": "Route111_EventScript_Montanero",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route111_EventScript_Hiker",
       "flag": "0"
     },
     {

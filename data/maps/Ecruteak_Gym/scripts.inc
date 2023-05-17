@@ -56,31 +56,3 @@ Ecruteak_Gym_Text_5:
 
 EcruteakGym6::
 end
-
-
-
-EcruteakGym_EventScript_Sabio::
-	trainerbattle_single TRAINER_RELI_AND_IAN, EcruteakGym_Text_SabioIntro, EcruteakGym_Text_SabioDefeated
-	msgbox EcruteakGym_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-EcruteakGym_EventScript_Sabio2::
-	trainerbattle_single TRAINER_LILA_AND_ROY_2, EcruteakGym_Text_Sabio2Intro, EcruteakGym_Text_Sabio2Defeated
-	msgbox EcruteakGym_Text_Sabio2PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-EcruteakGym_EventScript_Exorcista::
-	trainerbattle_single TRAINER_LILA_AND_ROY_3, EcruteakGym_Text_ExorcistaIntro, EcruteakGym_Text_ExorcistaDefeated
-	msgbox EcruteakGym_Text_ExorcistaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-EcruteakGym_EventScript_Exorcista2::
-	trainerbattle_single TRAINER_LILA_AND_ROY_1, EcruteakGym_Text_Exorcista2Intro, EcruteakGym_Text_Exorcista2Defeated
-	msgbox EcruteakGym_Text_Exorcista2PostBattle, MSGBOX_AUTOCLOSE
-	end

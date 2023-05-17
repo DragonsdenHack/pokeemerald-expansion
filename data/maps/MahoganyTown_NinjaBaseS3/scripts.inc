@@ -102,17 +102,3 @@ end
 
 NinjaBaseS3_15::
 end
-
-
-
-NinjaBaseS3_EventScript_Calvo::
-	trainerbattle_single TRAINER_CRISTIN_1, NinjaBaseS3_Text_CalvoIntro, NinjaBaseS3_Text_CalvoDefeated
-	msgbox NinjaBaseS3_Text_CalvoPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-NinjaBaseS3_EventScript_Ladron::
-	trainerbattle_single TRAINER_BEAU, NinjaBaseS3_Text_LadronIntro, NinjaBaseS3_Text_LadronDefeated
-	msgbox NinjaBaseS3_Text_LadronPostBattle, MSGBOX_AUTOCLOSE
-	end

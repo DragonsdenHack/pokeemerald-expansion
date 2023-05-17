@@ -75,24 +75,3 @@ end
 
 LakeofRage15::
 end
-
-
-
-LakeofRage_EventScript_Pescador::
-	trainerbattle_single TRAINER_JOCELYN, LakeofRage_Text_PescadorIntro, LakeofRage_Text_PescadorDefeated
-	msgbox LakeofRage_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-LakeofRage_EventScript_Sabio::
-	trainerbattle_single TRAINER_ROBERT_2, LakeofRage_Text_SabioIntro, LakeofRage_Text_SabioDefeated
-	msgbox LakeofRage_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-LakeofRage_EventScript_Guay::
-	trainerbattle_single TRAINER_CHESTER, LakeofRage_Text_GuayIntro, LakeofRage_Text_GuayDefeated
-	msgbox LakeofRage_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
-	end

@@ -112,10 +112,3 @@ Goldenrod_RadioTowerP1_Text_8:
 .string "PSEUDOLEGENDARIOS de allí. Creo\l"
 .string "que debería ir antes de que se\l"
 .string "agoten.$"
-
-
-
-GoldenrodRadioTowerP1_EventScript_Necio::
-	trainerbattle_single TRAINER_ROGER, GoldenrodRadioTowerP1_Text_NecioIntro, GoldenrodRadioTowerP1_Text_NecioDefeated
-	msgbox GoldenrodRadioTowerP1_Text_NecioPostBattle, MSGBOX_AUTOCLOSE
-	end

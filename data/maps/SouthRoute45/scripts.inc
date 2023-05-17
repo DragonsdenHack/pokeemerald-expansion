@@ -147,24 +147,3 @@ end
 
 SouthRoute45_16::
 end
-
-
-
-SouthRoute45_EventScript_Karateka::
-	trainerbattle_single TRAINER_VICKY, SouthRoute45_Text_KaratekaIntro, SouthRoute45_Text_KaratekaDefeated
-	msgbox SouthRoute45_Text_KaratekaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-SouthRoute45_EventScript_Chico::
-	trainerbattle_single TRAINER_WALLACE, SouthRoute45_Text_ChicoIntro, SouthRoute45_Text_ChicoDefeated
-	msgbox SouthRoute45_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-SouthRoute45_EventScript_Montanero::
-	trainerbattle_single TRAINER_SHELBY_1, SouthRoute45_Text_MontaneroIntro, SouthRoute45_Text_MontaneroDefeated
-	msgbox SouthRoute45_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
-	end

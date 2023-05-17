@@ -87,17 +87,3 @@ end
 
 Route36_11::
 end
-
-
-
-Route36_EventScript_Chica::
-	trainerbattle_single TRAINER_MEL_AND_PAUL, Route36_Text_ChicaIntro, Route36_Text_ChicaDefeated
-	msgbox Route36_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-Route36_EventScript_Sabio::
-	trainerbattle_single TRAINER_JOHN_AND_JAY_3, Route36_Text_SabioIntro, Route36_Text_SabioDefeated
-	msgbox Route36_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
-	end

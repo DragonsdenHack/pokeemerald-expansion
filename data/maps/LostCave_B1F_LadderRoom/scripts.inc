@@ -3,8 +3,3 @@ LostCave_B1F_LadderRoom_MapScripts::
 
 LostCaveLadderRoom1::
 end
-
-LostCaveLadderRoom1_EventScript_Hiker::
-	trainerbattle_single TRAINER_HALEY_3, LostCaveLadderRoom1_Text_HikerIntro, LostCaveLadderRoom1_Text_HikerDefeated
-	msgbox LostCaveLadderRoom1_Text_HikerPostBattle, MSGBOX_AUTOCLOSE
-	end

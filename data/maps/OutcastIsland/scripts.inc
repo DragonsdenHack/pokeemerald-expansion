@@ -52,24 +52,3 @@ OutcastIsland_Text_8:
 .string "mares!\l"
 .string "¡No hay POKÉMON NO LEGENDARIO que\l"
 .string "iguale su fuerza y ferocidad!$"
-
-
-
-OutcastIsland_EventScript_Chica::
-	trainerbattle_single TRAINER_LEONARDO, OutcastIsland_Text_ChicaIntro, OutcastIsland_Text_ChicaDefeated
-	msgbox OutcastIsland_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-OutcastIsland_EventScript_Nadador::
-	trainerbattle_single TRAINER_SYLVIA, OutcastIsland_Text_NadadorIntro, OutcastIsland_Text_NadadorDefeated
-	msgbox OutcastIsland_Text_NadadorPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-OutcastIsland_EventScript_Pescador::
-	trainerbattle_single TRAINER_CRISTIAN, OutcastIsland_Text_PescadorIntro, OutcastIsland_Text_PescadorDefeated
-	msgbox OutcastIsland_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
-	end

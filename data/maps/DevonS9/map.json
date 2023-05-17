@@ -406,8 +406,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 14,
-      "y": 13,
+      "x": 0,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -451,13 +451,6 @@
       "elevation": 0,
       "dest_map": "MAP_DEVON_S8",
       "dest_warp_id": 1
-    },
-    {
-      "x": 1,
-      "y": 1,
-      "elevation": 0,
-      "dest_map": "MAP_DEVON_S10",
-      "dest_warp_id": 0
     }
   ],
   "coord_events": [

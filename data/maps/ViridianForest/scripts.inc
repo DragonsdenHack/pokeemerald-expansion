@@ -76,38 +76,3 @@ end
 
 ViridianForest12::
 end
-
-
-
-ViridianForest_EventScript_Cazabichos::
-	trainerbattle_single TRAINER_PATRICIA, ViridianForest_Text_CazabichosIntro, ViridianForest_Text_CazabichosDefeated
-	msgbox ViridianForest_CazabichosPostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-ViridianForest_EventScript_Cazabichos2::
-	trainerbattle_single TRAINER_MAY_ROUTE_110_TREECKO, ViridianForest_Text_Cazabichos2Intro, ViridianForest_Text_Cazabichos2Defeated
-	msgbox ViridianForest_Cazabichos2PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-ViridianForest_EventScript_Cazabichos3::
-	trainerbattle_single TRAINER_MAY_ROUTE_103_TREECKO, ViridianForest_Text_Cazabichos3Intro, ViridianForest_Text_Cazabichos3Defeated
-	msgbox ViridianForest_Cazabichos3PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-ViridianForest_EventScript_Cazabichos4::
-	trainerbattle_single TRAINER_BROOKE_5, ViridianForest_Text_Cazabichos4Intro, ViridianForest_Text_Cazabichos4Defeated
-	msgbox ViridianForest_Cazabichos4PostBattle, MSGBOX_AUTOCLOSE
-	end
-
-
-
-ViridianForest_EventScript_Cazabichos5::
-	trainerbattle_single TRAINER_BROOKE_4, ViridianForest_Text_Cazabichos5Intro, ViridianForest_Text_Cazabichos5Defeated
-	msgbox ViridianForest_Cazabichos5PostBattle, MSGBOX_AUTOCLOSE
-	end
