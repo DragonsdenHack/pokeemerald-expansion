@@ -1583,3 +1583,41 @@ finditem ITEM_PROTEIN
 ZonaSafari_EventScript_TM47::
 finditem ITEM_TM47_STEEL_WING
     end
+
+ZonaSafari_EventScript_GarraRapida::
+finditem ITEM_QUICK_CLAW
+    end
+
+ZonaSafari_EventScript_TM05::
+finditem ITEM_TM05_ROAR
+    end
+
+ZonaSafari_EventScript_MaxPocion_2::
+finditem ITEM_MAX_POTION
+    end
+
+ZonaSafari_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+    end
+
+TunelRoca_EventScript_CuerdaHuida::
+finditem ITEM_ESCAPE_ROPE
+    end
+
+TunelRoca_EventScript_TM23::
+finditem ITEM_TM23_IRON_TAIL
+    end
+
+TunelRoca_EventScript_Repelente::
+finditem ITEM_REPEL
+    end
+
+TunelRoca_EventScript_Revivir::
+finditem ITEM_REVIVE
+    end
+
+TunelRoca_EventScript_MaxEter::
+finditem ITEM_MAX_ETHER
+    end
+
+
