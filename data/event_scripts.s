@@ -2352,3 +2352,87 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/ViasSur4/scripts.inc"
 
 	.include "data/maps/ViasSur5/scripts.inc"
+
+	.include "data/maps/IcefallCave_Lapras/scripts.inc"
+
+	.include "data/maps/BosqueGimnasioAnciana/scripts.inc"
+
+	.include "data/maps/GimnasioAnciana/scripts.inc"
+
+	.include "data/maps/Mision7Lab1/scripts.inc"
+
+	.include "data/maps/Mision7Lab2/scripts.inc"
+
+	.include "data/maps/Mision7Lab3/scripts.inc"
+
+	.include "data/maps/Mision7Lab4/scripts.inc"
+
+	.include "data/maps/Mision7Lab5/scripts.inc"
+
+	.include "data/maps/NeoCinnabarIsland/scripts.inc"
+
+	.include "data/maps/NeoCinnabarPkmnCenter/scripts.inc"
+
+	.include "data/maps/NeoCinnabarVolcan/scripts.inc"
+
+	.include "data/maps/NeoLavandaPueblo/scripts.inc"
+
+	.include "data/maps/NeoLavandaPkmnCenter/scripts.inc"
+
+	.include "data/maps/NeoLavandaTienda/scripts.inc"
+
+	.include "data/maps/NeoLavandaCasa1/scripts.inc"
+
+	.include "data/maps/NeoLavandaCasa2/scripts.inc"
+
+	.include "data/maps/NeoLavandaCasa3/scripts.inc"
+
+	.include "data/maps/NeoLavandaCementerio/scripts.inc"
+
+	.include "data/maps/NeoLavandaCementerioS1/scripts.inc"
+
+	.include "data/maps/NeoLavandaCementerioS2/scripts.inc"
+
+	.include "data/maps/NeoPowerPlant/scripts.inc"
+
+	.include "data/maps/ViasTrenCasaCampeon/scripts.inc"
+
+	.include "data/maps/Route50_CasaCampeon/scripts.inc"
+
+	.include "data/maps/CuevaHypno_1/scripts.inc"
+
+	.include "data/maps/CuevaHypno_2/scripts.inc"
+
+	.include "data/maps/CuevaHypno_3/scripts.inc"
+
+	.include "data/maps/CuevaHypno_4/scripts.inc"
+
+	.include "data/maps/MisionTrigal1/scripts.inc"
+
+	.include "data/maps/MisionTrigal2/scripts.inc"
+
+	.include "data/maps/MisionTrigal3/scripts.inc"
+
+	.include "data/maps/MisionTrigal4/scripts.inc"
+
+	.include "data/maps/MisionIrisLab/scripts.inc"
+
+	.include "data/maps/CuevaTesoro1/scripts.inc"
+
+	.include "data/maps/CuevaTesoro2/scripts.inc"
+
+	.include "data/maps/CuevaTesoro3/scripts.inc"
+
+	.include "data/maps/CuevaTesoro4/scripts.inc"
+
+	.include "data/maps/PlayaTesoro/scripts.inc"
+
+	.include "data/maps/DevonS10/scripts.inc"
+
+	.include "data/maps/AzaleaCarbonS1/scripts.inc"
+
+	.include "data/maps/AzaleaCarbonS2/scripts.inc"
+
+	.include "data/maps/CianwoodEusineHouse/scripts.inc"
+
+	.include "data/maps/MahoganyHouseCarbon/scripts.inc"

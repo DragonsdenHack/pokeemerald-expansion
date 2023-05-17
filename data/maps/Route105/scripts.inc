@@ -26,7 +26,7 @@ Route105_OnFrame:
 	.2byte 0
 
 Route105_EventScript_Foster::
-	trainerbattle_single TRAINER_FOSTER, Route105_Text_FosterIntro, Route105_Text_FosterDefeated
+	trainerbattle_single TRAINER_BRUNO_1, Route105_Text_FosterIntro, Route105_Text_FosterDefeated
 	msgbox Route105_Text_FosterPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -41,7 +41,7 @@ Route105_EventScript_Dominik::
 	end
 
 Route105_EventScript_Beverly::
-	trainerbattle_single TRAINER_BEVERLY, Route105_Text_BeverlyIntro, Route105_Text_BeverlyDefeated
+	trainerbattle_single TRAINER_BRUNO_1, Route105_Text_BeverlyIntro, Route105_Text_BeverlyDefeated
 	msgbox Route105_Text_PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -51,12 +51,12 @@ Route105_EventScript_Imani::
 	end
 
 Route105_EventScript_Josue::
-	trainerbattle_single TRAINER_JOSUE, Route105_Text_JosueIntro, Route105_Text_JosueDefeated
+	trainerbattle_single TRAINER_BRUNO_1, Route105_Text_JosueIntro, Route105_Text_JosueDefeated
 	msgbox Route105_Text_JosuePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route105_EventScript_Andres::
-	trainerbattle_single TRAINER_ANDRES_1, Route105_Text_AndresIntro, Route105_Text_AndresDefeated, Route105_EventScript_AndresRegisterMatchCallAfterBattle
+	trainerbattle_single TRAINER_LADRON_3, Route105_Text_AndresIntro, Route105_Text_AndresDefeated, Route105_EventScript_AndresRegisterMatchCallAfterBattle
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route105_EventScript_AndresRematch
 	msgbox Route105_Text_AndresPostBattle, MSGBOX_DEFAULT
@@ -67,12 +67,12 @@ Route105_EventScript_AndresRegisterMatchCallAfterBattle::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route105_Text_AndresRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_ANDRES_1
+	register_matchcall TRAINER_LADRON_3
 	release
 	end
 
 Route105_EventScript_AndresRematch::
-	trainerbattle_rematch TRAINER_ANDRES_1, Route105_Text_AndresRematchIntro, Route105_Text_AndresRematchDefeated
+	trainerbattle_rematch TRAINER_LADRON_3, Route105_Text_AndresRematchIntro, Route105_Text_AndresRematchDefeated
 	msgbox Route105_Text_AndresRematchPostBattle, MSGBOX_AUTOCLOSE
 	end
 

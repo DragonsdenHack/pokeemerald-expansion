@@ -2,7 +2,7 @@
   "id": "MAP_SS_ANNE_6F",
   "name": "SsAnne_6F",
   "layout": "LAYOUT_SS_ANNE_6F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SS_ANNE",
   "region_map_section": "MAPSEC_S_S_ANNE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -49,8 +49,8 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne6F_3",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "SsAnne6F_EventScript_Marinero2",
       "flag": "0"
     },
     {
@@ -61,9 +61,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne6F_4",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "SsAnne6F_EventScript_Marinero",
       "flag": "0"
     },
     {

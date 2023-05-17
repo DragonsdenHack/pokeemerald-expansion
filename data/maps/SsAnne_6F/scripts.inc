@@ -146,3 +146,15 @@ end
 
 SsAnne6F_13::
 end
+
+SsAnne6F_EventScript_Marinero::
+	trainerbattle_single TRAINER_JESSICA_5, SsAnne6F_Text_MarineroIntro, SsAnne6F_Text_MarineroDefeated
+	msgbox SsAnne6F_Text_MarineroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+SsAnne6F_EventScript_Marinero2::
+	trainerbattle_single TRAINER_WINSTON_1, SsAnne6F_Text_Marinero2Intro, SsAnne6F_Text_Marinero2Defeated
+	msgbox SsAnne6F_Text_Marinero2PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -63,3 +63,24 @@ end
 
 Route27_11::
 end
+
+
+
+Route27_EventScript_Ornitologo::
+	trainerbattle_single TRAINER_HALLE, Route27_Text_OrnitologoIntro, Route27_Text_OrnitologoDefeated
+	msgbox Route27_Text_OrnitologoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route27_EventScript_Pescador::
+	trainerbattle_single TRAINER_ISAAC_2, Route27_Text_PescadorIntro, Route27_Text_PescadorDefeated
+	msgbox Route27_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route27_EventScript_Guay::
+	trainerbattle_single TRAINER_MITCHELL, Route27_Text_GuayIntro, Route27_Text_GuayDefeated
+	msgbox Route27_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
+	end

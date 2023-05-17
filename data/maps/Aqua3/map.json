@@ -2,7 +2,7 @@
   "id": "MAP_AQUA3",
   "name": "Aqua3",
   "layout": "LAYOUT_AQUA3",
-  "music": "2",
+  "music": "MUS_NONE",
   "region_map_section": "MAPSEC_DOTTED_HOLE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

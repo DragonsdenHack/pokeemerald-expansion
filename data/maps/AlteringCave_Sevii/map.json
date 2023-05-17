@@ -2,7 +2,7 @@
   "id": "MAP_ALTERING_CAVE_SEVII",
   "name": "AlteringCave_Sevii",
   "layout": "LAYOUT_ALTERING_CAVE_SEVII",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_MT_MOON",
   "region_map_section": "MAPSEC_ALTERING_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

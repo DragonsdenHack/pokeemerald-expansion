@@ -33,3 +33,17 @@ end
 
 PokemonMansion1F_7::
 end
+
+
+
+PokemonMansion1F_EventScript_Chico::
+	trainerbattle_single TRAINER_MAY_ROUTE_103_TORCHIC, PokemonMansion1F_Text_ChicoIntro, PokemonMansion1F_Text_ChicoDefeated
+	msgbox PokemonMansion1F_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+PokemonMansion1F_EventScript_Cientifico::
+	trainerbattle_single TRAINER_ANDREW, PokemonMansion1F_Text_CientificoIntro, PokemonMansion1F_Text_CientificoDefeated
+	msgbox PokemonMansion1F_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end

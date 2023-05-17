@@ -106,3 +106,45 @@ end
 
 Route10_13::
 end
+
+
+
+Route10_EventScript_Chica::
+	trainerbattle_single TRAINER_MATTHEW, Route10_Text_ChicaIntro, Route10_Text_ChicaDefeated
+	msgbox Route10_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route10_EventScript_Hiker::
+	trainerbattle_single TRAINER_BARRY, Route10_Text_HikerIntro, Route10_Text_HikerDefeated
+	msgbox Route10_Text_HikerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route10_EventScript_Necio::
+	trainerbattle_single TRAINER_DEAN, Route10_Text_NecioIntro, Route10_Text_NecioDefeated
+	msgbox Route10_Text_NecioPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route10_EventScript_Hiker2::
+	trainerbattle_single TRAINER_DAISUKE, Route10_Text_Hiker2Intro, Route10_Text_Hiker2Defeated
+	msgbox Route10_Text_Hiker2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route10_EventScript_Hiker3::
+	trainerbattle_single TRAINER_YUJI, Route10_Text_Hiker3Intro, Route10_Text_Hiker3Defeated
+	msgbox Route10_Text_Hiker3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route10_EventScript_Chica2::
+	trainerbattle_single TRAINER_DAVID, Route10_Text_Chica2Intro, Route10_Text_Chica2Defeated
+	msgbox Route10_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
+	end

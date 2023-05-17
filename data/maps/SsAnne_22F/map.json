@@ -2,7 +2,7 @@
   "id": "MAP_SS_ANNE_22F",
   "name": "SsAnne_22F",
   "layout": "LAYOUT_SS_ANNE_22F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SS_ANNE",
   "region_map_section": "MAPSEC_S_S_ANNE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -22,9 +22,9 @@
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "SsAnne22F_1",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "1",
+      "script": "SsAnne22F_EventScript_Marinero",
       "flag": "0"
     },
     {

@@ -88,3 +88,10 @@ end
 
 Route53_9::
 end
+
+
+
+Route53_EventScript_Obrero::
+	trainerbattle_single TRAINER_LISA_AND_RAY, Route53_Text_ObreroIntro, Route53_Text_ObreroDefeated
+	msgbox Route53_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end

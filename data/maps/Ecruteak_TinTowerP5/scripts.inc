@@ -64,3 +64,10 @@ Ecruteak_TinTowerp5_Text_6:
 .string "reside la genialidad del combate\l"
 .string "POKÉMON, lo que lo convierte en\l"
 .string "mágico, en arte.$"
+
+
+
+TinTowerP5_EventScript_Monje::
+	trainerbattle_single TRAINER_BRANDI, TinTowerP5_Text_MonjeIntro, TinTowerP5_Text_MonjeDefeated
+	msgbox TinTowerP5_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
+	end

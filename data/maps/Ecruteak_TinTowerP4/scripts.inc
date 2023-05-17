@@ -49,3 +49,10 @@ Ecruteak_TinTowerp4_Text_5:
 
 TinTowerP4_6::
 end
+
+
+
+TinTowerP4_EventScript_Monje::
+	trainerbattle_single TRAINER_MELINA, TinTowerP4_Text_MonjeIntro, TinTowerP4_Text_MonjeDefeated
+	msgbox TinTowerP4_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
+	end

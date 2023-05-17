@@ -29,3 +29,17 @@ VioletCity_SproutTowerP1_Text_3:
 
 VioletSproutTowerP1_4::
 end
+
+
+
+VioletSprotTowerP1_EventScript_Pensador::
+	trainerbattle_single TRAINER_ALAN, VioletSprotTowerP1_Text_PensadorIntro, VioletSprotTowerP1_Text_PensadorDefeated
+	msgbox VioletSprotTowerP1_Text_PensadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+VioletSprotTowerP1_EventScript_Pensador2::
+	trainerbattle_single TRAINER_ERIC, VioletSprotTowerP1_Text_Pensador2Intro, VioletSprotTowerP1_Text_Pensador2Defeated
+	msgbox VioletSprotTowerP1_Text_Pensador2PostBattle, MSGBOX_AUTOCLOSE
+	end

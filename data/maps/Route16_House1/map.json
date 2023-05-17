@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE16_HOUSE1",
   "name": "Route16_House1",
   "layout": "LAYOUT_ROUTE16_HOUSE1",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_PEWTER",
   "region_map_section": "MAPSEC_ROUTE_16",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_VIAPOIS_CHAMBER",
   "name": "ViapoisChamber",
   "layout": "LAYOUT_VIAPOIS_CHAMBER",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_VIRIDIAN_FOREST",
   "region_map_section": "MAPSEC_VIAPOIS_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

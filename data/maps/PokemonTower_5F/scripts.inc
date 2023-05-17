@@ -44,3 +44,31 @@ end
 
 PokemonTower5F_7::
 end
+
+
+
+PokemonTower5F_EventScript_Channeler::
+	trainerbattle_single TRAINER_GRACE, PokemonTower5F_Text_ChannelerIntro, PokemonTower5F_Text_ChannelerDefeated
+	msgbox PokemonTower5F_Text_ChannelerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+PokemonTower5F_EventScript_Channeler2::
+	trainerbattle_single TRAINER_TANYA, PokemonTower5F_Text_Channeler2Intro, PokemonTower5F_Text_Channeler2Defeated
+	msgbox PokemonTower5F_Text_Channeler2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+PokemonTower5F_EventScript_Channeler3::
+	trainerbattle_single TRAINER_JENNY_1, PokemonTower5F_Text_Channeler3Intro, PokemonTower5F_Text_Channeler3Defeated
+	msgbox PokemonTower5F_Text_Channeler3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+PokemonTower5F_EventScript_Channeler4::
+	trainerbattle_single TRAINER_ALICE, PokemonTower5F_Text_Channeler4Intro, PokemonTower5F_Text_Channeler4Defeated
+	msgbox PokemonTower5F_Text_Channeler4PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -98,3 +98,24 @@ NationalPark_Text_12:
 
 NationalPark13::
 end
+
+
+
+NationalPark_EventScript_Cazabichos::
+	trainerbattle_single TRAINER_KIM_AND_IRIS, NationalPark_Text_CazabichosIntro, NationalPark_Text_CazabichosDefeated
+	msgbox NationalPark_Text_CazabichosPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NationalPark_EventScript_Guarda::
+	trainerbattle_single TRAINER_TORI_AND_TIA, NationalPark_Text_GuardaIntro, NationalPark_Text_GuardaDefeated
+	msgbox NationalPark_Text_GuardaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+NationalPark_EventScript_Chico::
+	trainerbattle_single TRAINER_TYRA_AND_IVY, NationalPark_Text_ChicoIntro, NationalPark_Text_ChicoDefeated
+	msgbox NationalPark_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end

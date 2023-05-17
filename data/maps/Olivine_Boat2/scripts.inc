@@ -191,3 +191,24 @@ OlivineBoat2_Text_13:
 
 OlivineBoat2_14::
 end
+
+
+
+OlivineBoat2_EventScript_Rico::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_8, OlivineBoat2_Text_RicoIntro, OlivineBoat2_Text_RicoDefeated
+	msgbox OlivineBoat2_Text_RicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+OlivineBoat2_EventScript_Marinero::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_9, OlivineBoat2_Text_MarineroIntro, OlivineBoat2_Text_MarineroDefeated
+	msgbox OlivineBoat2_Text_MarineroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+OlivineBoat2_EventScript_Guay::
+	trainerbattle_single TRAINER_GRUNT_MAGMA_HIDEOUT_10, OlivineBoat2_Text_GuayIntro, OlivineBoat2_Text_GuayDefeated
+	msgbox OlivineBoat2_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
+	end

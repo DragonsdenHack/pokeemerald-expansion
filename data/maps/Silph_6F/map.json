@@ -2,7 +2,7 @@
   "id": "MAP_SILPH_6F",
   "name": "Silph_6F",
   "layout": "LAYOUT_SILPH_6F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SILPH",
   "region_map_section": "MAPSEC_SILPH_CO",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -48,9 +48,9 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph6F_3",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Silph6F_EventScript_Policia2",
       "flag": "0"
     },
     {
@@ -113,15 +113,15 @@
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "Silph6F_8",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
+      "script": "Silph6F_EventScript_Policia",
       "flag": "0"
     }
   ],
   "warp_events": [
     {
-      "x": 14,
+      "x": 26,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SILPH_7F",
@@ -135,7 +135,7 @@
       "dest_warp_id": 4
     },
     {
-      "x": 26,
+      "x": 14,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_SILPH_5F",

@@ -47,3 +47,17 @@ end
 
 Route46_8::
 end
+
+
+
+Route46_EventScript_Chica::
+	trainerbattle_single TRAINER_JAMES_3, Route46_Text_ChicaIntro, Route46_Text_ChicaDefeated
+	msgbox Route46_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route46_EventScript_Montanero::
+	trainerbattle_single TRAINER_JAMES_4, Route46_Text_MontaneroIntro, Route46_Text_MontaneroDefeated
+	msgbox Route46_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
+	end

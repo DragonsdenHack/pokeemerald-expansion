@@ -51,3 +51,31 @@ end
 
 Silph5F_9::
 end
+
+
+
+Silph5F_EventScript_Cientifico::
+	trainerbattle_single TRAINER_NED, Silph5F_Text_CientificoIntro, Silph5F_Text_CientificoDefeated
+	msgbox Silph5F_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Silph5F_EventScript_Policia::
+	trainerbattle_single TRAINER_ISAIAH_2, Silph5F_Text_PoliciaIntro, Silph5F_Text_PoliciaDefeated
+	msgbox Silph5F_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Silph5F_EventScript_Policia2::
+	trainerbattle_single TRAINER_ISAIAH_3, Silph5F_Text_Policia2Intro, Silph5F_Text_Policia2Defeated
+	msgbox Silph5F_Policia2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Silph5F_EventScript_Chico::
+	trainerbattle_single TRAINER_ANNA_AND_MEG_1, Silph5F_Text_ChicoIntro, Silph5F_Text_ChicoDefeated
+	msgbox Silph5F_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end

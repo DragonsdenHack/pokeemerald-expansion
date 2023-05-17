@@ -65,3 +65,17 @@ Ecruteak_TinTowerp9_Text_7:
 
 TinTowerP9_8::
 end
+
+
+
+TinTowerP9_EventScript_Monje::
+	trainerbattle_single TRAINER_RACHEL, TinTowerP9_Text_MonjeIntro, TinTowerP9_Text_MonjeDefeated
+	msgbox TinTowerP9_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+TinTowerP9_EventScript_Monje2::
+	trainerbattle_single TRAINER_LEONEL, TinTowerP9_Text_Monje2Intro, TinTowerP9_Text_Monje2Defeated
+	msgbox TinTowerP9_Text_Monje2PostBattle, MSGBOX_AUTOCLOSE
+	end

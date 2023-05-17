@@ -35,3 +35,9 @@ end
 
 FileIsleMeadow9::
 end
+
+FileIsleMeadow_EventScript_Grunt::
+	trainerbattle_single TRAINER_GRUNT_UNUSED, FileIsleMeadow_Text_GruntIntro, FileIsleMeadow_Text_GruntDefeated
+	msgbox FileIsleMeadow_Text_GruntPostBattle, MSGBOX_AUTOCLOSE
+	end
+	

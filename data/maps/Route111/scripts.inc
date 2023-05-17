@@ -457,7 +457,7 @@ Route111_EventScript_Becky::
 	end
 
 Route111_EventScript_Dusty::
-	trainerbattle_single TRAINER_DUSTY_1, Route111_Text_DustyIntro, Route111_Text_DustyDefeat, Route111_EventScript_RegisterDusty
+	trainerbattle_single TRAINER_BRUNO_1, Route111_Text_DustyIntro, Route111_Text_DustyDefeat, Route111_EventScript_RegisterDusty
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route111_EventScript_RematchDusty
 	msgbox Route111_Text_DustyPostBattle, MSGBOX_DEFAULT
@@ -468,12 +468,12 @@ Route111_EventScript_RegisterDusty::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route111_Text_DustyRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_DUSTY_1
+	register_matchcall TRAINER_BRUNO_1
 	release
 	end
 
 Route111_EventScript_RematchDusty::
-	trainerbattle_rematch TRAINER_DUSTY_1, Route111_Text_DustyRematchIntro, Route111_Text_DustyRematchDefeat
+	trainerbattle_rematch TRAINER_BRUNO_1, Route111_Text_DustyRematchIntro, Route111_Text_DustyRematchDefeat
 	msgbox Route111_Text_DustyPostRematch, MSGBOX_AUTOCLOSE
 	end
 
@@ -493,7 +493,7 @@ Route111_EventScript_Daisuke::
 	end
 
 Route111_EventScript_Wilton::
-	trainerbattle_single TRAINER_WILTON_1, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat, Route111_EventScript_RegisterWilton
+	trainerbattle_single TRAINER_JADEN, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat, Route111_EventScript_RegisterWilton
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route111_EventScript_RematchWilton
 	msgbox Route111_Text_WiltonPostBattle, MSGBOX_DEFAULT
@@ -504,12 +504,12 @@ Route111_EventScript_RegisterWilton::
 	special PlayerFaceTrainerAfterBattle
 	waitmovement 0
 	msgbox Route111_Text_WiltonRegister, MSGBOX_DEFAULT
-	register_matchcall TRAINER_WILTON_1
+	register_matchcall TRAINER_JADEN
 	release
 	end
 
 Route111_EventScript_RematchWilton::
-	trainerbattle_rematch TRAINER_WILTON_1, Route111_Text_WiltonRematchIntro, Route111_Text_WiltonRematchDefeat
+	trainerbattle_rematch TRAINER_JADEN, Route111_Text_WiltonRematchIntro, Route111_Text_WiltonRematchDefeat
 	msgbox Route111_Text_WiltonPostRematch, MSGBOX_AUTOCLOSE
 	end
 
@@ -726,4 +726,60 @@ Route111_Text_TrainerHillSign:
 	.string "{RIGHT_ARROW} TRAINER HILL ENTRANCE\p"
 	.string "“Scale the heights, you hot-blooded\n"
 	.string "TRAINERS!”$"
+
+
+
+Route111_EventScript_Montanero::
+	trainerbattle_single TRAINER_THALIA_5, Route111_Text_MontaneroIntro, Route111_Text_MontaneroDefeated
+	msgbox Route111_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chico::
+	trainerbattle_single TRAINER_MARIELA, Route111_Text_ChicoIntro, Route111_Text_ChicoDefeated
+	msgbox Route111_Text_ChicoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chica::
+	trainerbattle_single TRAINER_ALVARO, Route111_Text_ChicaIntro, Route111_Text_ChicaDefeated
+	msgbox Route111_Text_ChicaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Montanero2::
+	trainerbattle_single TRAINER_EVERETT, Route111_Text_Montanero2Intro, Route111_Text_Montanero2Defeated
+	msgbox Route111_Text_Montanero2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chica2::
+	trainerbattle_single TRAINER_RED, Route111_Text_Chica2Intro, Route111_Text_Chica2Defeated
+	msgbox Route111_Text_Chica2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chico2::
+	trainerbattle_single TRAINER_LEAF, Route111_Text_Chico2Intro, Route111_Text_Chico2Defeated
+	msgbox Route111_Text_Chico2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Chica3::
+	trainerbattle_single TRAINER_BRENDAN_PLACEHOLDER, Route111_Text_Chica3Intro, Route111_Text_Chica3Defeated
+	msgbox Route111_Text_Chica3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+
+Route111_EventScript_Montanero3::
+	trainerbattle_single TRAINER_MAY_PLACEHOLDER, Route111_Text_Montanero3Intro, Route111_Text_Montanero3Defeated
+	msgbox Route111_Text_Montanero3PostBattle, MSGBOX_AUTOCLOSE
+	end
 
