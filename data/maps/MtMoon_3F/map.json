@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon3F_4",
-      "flag": "0"
+      "script": "MtMoon_EventScript_Trozoestrella",
+      "flag": "FLAG_NUEVA_286"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon3F_7",
-      "flag": "0"
+      "script": "MtMoon_EventScript_TM46",
+      "flag": "FLAG_NUEVA_287"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLUE",
@@ -398,6 +398,21 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 39,
+      "y": 12,
+      "elevation": 3,
+      "item": "ITEM_ETHER",
+      "flag": "FLAG_NUEVA_288"
+    },
+    {
+      "type": "hidden_item",
+      "x": 20,
+      "y": 16,
+      "elevation": 3,
+      "item": "ITEM_MOON_STONE",
+      "flag": "FLAG_NUEVA_289"
+    }
   ]
 }

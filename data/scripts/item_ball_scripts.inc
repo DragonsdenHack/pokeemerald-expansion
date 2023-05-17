@@ -1351,3 +1351,11 @@ finditem ITEM_REVIVE
 MtMoon_EventScript_Antidoto::
 finditem ITEM_ANTIDOTE
     end
+
+MtMoon_EventScript_Trozoestrella::
+finditem ITEM_STAR_PIECE
+    end
+
+MtMoon_EventScript_TM46::
+finditem ITEM_TM46_THIEF
+    end

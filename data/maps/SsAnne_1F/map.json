@@ -128,6 +128,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 58,
+      "y": 28,
+      "elevation": 3,
+      "item": "ITEM_LAVA_COOKIE",
+      "flag": "FLAG_NUEVA_290"
+    }
   ]
 }
