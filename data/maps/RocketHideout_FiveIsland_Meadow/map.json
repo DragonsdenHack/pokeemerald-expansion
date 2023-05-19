@@ -17,7 +17,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ATLAS",
       "x": 5,
-      "y": 8,
+      "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -337,7 +337,69 @@
     }
   ],
   "coord_events": [
-
+	 {
+      "type": "trigger",
+      "x": 3,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "0",
+      "script": "RocketHideoutFiveIslanMeadowIzquierda"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "0",
+      "script": "RocketHideoutFiveIslanMeadowAbajo"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "0",
+      "script": "RocketHideoutFiveIslanMeadowDerecha"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "0",
+      "script": "RocketHideoutFiveIslanMeadowAtlas"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "1",
+      "script": "RocketHideoutFiveIslanMeadowIzquierda2"
+    },
+    {
+      "type": "trigger",
+      "x": 2,
+      "y": 13,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "1",
+      "script": "RocketHideoutFiveIslanMeadowAbajo2"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "1",
+      "script": "RocketHideoutFiveIslanMeadowDerecha2"
+    }
   ],
   "bg_events": [
     {
