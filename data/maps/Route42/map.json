@@ -219,6 +219,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_SHINY_STONE",
+      "flag": "FLAG_NUEVA_493"
+    },
+    {
+      "type": "hidden_item",
+      "x": 62,
+      "y": 19,
+      "elevation": 3,
+      "item": "ITEM_QUALOT_BERRY",
+      "flag": "FLAG_NUEVA_494"
     }
   ]
 }

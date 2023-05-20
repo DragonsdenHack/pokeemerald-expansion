@@ -520,6 +520,30 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RocketHideout_Johto_Maquina_Teletransporte_2"
+    },
+    {
+      "type": "hidden_item",
+      "x": 36,
+      "y": 36,
+      "elevation": 3,
+      "item": "ITEM_ULTRA_BALL",
+      "flag": "FLAG_NUEVA_523"
+    },
+    {
+      "type": "hidden_item",
+      "x": 43,
+      "y": 47,
+      "elevation": 3,
+      "item": "ITEM_HYPER_POTION",
+      "flag": "FLAG_NUEVA_524"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 2,
+      "elevation": 3,
+      "item": "ITEM_MENTAL_HERB",
+      "flag": "FLAG_NUEVA_525"
     }
   ]
 }

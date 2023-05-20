@@ -160,6 +160,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 2,
+      "elevation": 3,
+      "item": "ITEM_MAX_ELIXIR",
+      "flag": "FLAG_NUEVA_545"
+    }
   ]
 }

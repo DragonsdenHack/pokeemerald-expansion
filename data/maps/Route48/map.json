@@ -48,8 +48,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Ruta48_EventScript_RocaGema",
+      "flag": "FLAG_NUEVA_587"
     }
   ],
   "warp_events": [
@@ -66,6 +66,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 26,
+      "y": 24,
+      "elevation": 3,
+      "item": "ITEM_ENERGY_ROOT",
+      "flag": "FLAG_NUEVA_503"
+    },
+    {
+      "type": "hidden_item",
+      "x": 10,
+      "y": 0,
+      "elevation": 3,
+      "item": "ITEM_DAWN_STONE",
+      "flag": "FLAG_NUEVA_504"
     }
   ]
 }

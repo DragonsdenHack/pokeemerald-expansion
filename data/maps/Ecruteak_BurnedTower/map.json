@@ -141,6 +141,38 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "BurnedTowerDocumento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_BURN_HEAL",
+      "flag": "FLAG_NUEVA_546"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_REVIVE",
+      "flag": "FLAG_NUEVA_547"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_ETHER",
+      "flag": "FLAG_NUEVA_548"
+    },
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_DUSK_STONE",
+      "flag": "FLAG_NUEVA_554"
     }
   ]
 }

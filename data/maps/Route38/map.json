@@ -135,6 +135,22 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
+    },
+    {
+      "type": "hidden_item",
+      "x": 40,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_APICOT_BERRY",
+      "flag": "FLAG_NUEVA_480"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 20,
+      "elevation": 3,
+      "item": "ITEM_MOOMOO_MILK",
+      "flag": "FLAG_NUEVA_481"
     }
   ]
 }

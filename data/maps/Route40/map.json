@@ -212,6 +212,53 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 65,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_STAR_PIECE",
+      "flag": "FLAG_NUEVA_487"
+    },
+    {
+      "type": "hidden_item",
+      "x": 57,
+      "y": 15,
+      "elevation": 3,
+      "item": "ITEM_PEARL",
+      "flag": "FLAG_NUEVA_488"
+    },
+    {
+      "type": "hidden_item",
+      "x": 14,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_SITRUS_BERRY",
+      "flag": "FLAG_NUEVA_489"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_STARDUST",
+      "flag": "FLAG_NUEVA_490"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 30,
+      "elevation": 3,
+      "item": "ITEM_HEART_SCALE",
+      "flag": "FLAG_NUEVA_491"
+    },
+    {
+      "type": "hidden_item",
+      "x": 35,
+      "y": 37,
+      "elevation": 3,
+      "item": "ITEM_HEART_SCALE",
+      "flag": "FLAG_NUEVA_492"
+    }
   ]
 }

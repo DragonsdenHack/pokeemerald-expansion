@@ -13704,6 +13704,18 @@
       "secondary_tileset": "gTileset_trainer_tower",
       "border_filepath": "data/layouts/NeoSaffron_TrainStation/border.bin",
       "blockdata_filepath": "data/layouts/NeoSaffron_TrainStation/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_D_ESCAN",
+      "name": "Route49_dESCAN_Layout",
+      "width": 8,
+      "height": 8,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_dESCAN/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_dESCAN/map.bin"
     }
   ]
 }

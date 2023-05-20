@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_622"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "ViasBosque_EventScript_Seta",
+      "flag": "FLAG_NUEVA_623"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "ViasBosque_EventScript_Gema",
+      "flag": "FLAG_NUEVA_624"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "ViasBosque_EventScript_HierbaRev",
+      "flag": "FLAG_NUEVA_625"
     }
   ],
   "warp_events": [
@@ -101,6 +101,61 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 60,
+      "elevation": 3,
+      "item": "ITEM_RINDO_BERRY",
+      "flag": "FLAG_NUEVA_626"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 60,
+      "elevation": 3,
+      "item": "ITEM_APICOT_BERRY",
+      "flag": "FLAG_NUEVA_627"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 60,
+      "elevation": 3,
+      "item": "ITEM_MARANGA_BERRY",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 60,
+      "elevation": 3,
+      "item": "ITEM_MARANGA_BERRY",
+      "flag": "FLAG_NUEVA_628"
+    },
+    {
+      "type": "hidden_item",
+      "x": 25,
+      "y": 60,
+      "elevation": 3,
+      "item": "ITEM_KELPSY_BERRY",
+      "flag": "FLAG_NUEVA_629"
+    },
+    {
+      "type": "hidden_item",
+      "x": 4,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_TANGA_BERRY",
+      "flag": "FLAG_NUEVA_630"
+    },
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_KASIB_BERRY",
+      "flag": "FLAG_NUEVA_631"
+    }
   ]
 }

@@ -64,6 +64,7 @@
 #define MAP_UNDERWATER_ROUTE105 (55 | (0 << 8))
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
 #define MAP_CUEVA_HYPNO_2       (57 | (0 << 8))
+#define MAP_ROUTE49_D_ESCAN     (58 | (0 << 8))
 
 // gMapGroup_TownsAndRoutesKANTO
 #define MAP_PALLET_TOWN            (0 | (1 << 8))
@@ -1334,5 +1335,7 @@
 #define MAP_DEVON_S10                                    (46 | (54 << 8))
 
 #define MAP_GROUPS_COUNT 55
+
+// static const u8 MAP_GROUP_COUNT[] = {59, 47, 29, 42, 6, 9, 9, 21, 22, 14, 7, 7, 11, 80, 4, 5, 8, 10, 8, 22, 20, 12, 10, 16, 2, 66, 83, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

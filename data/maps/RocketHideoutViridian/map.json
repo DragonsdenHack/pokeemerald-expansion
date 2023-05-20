@@ -333,6 +333,21 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 16,
+      "elevation": 3,
+      "item": "ITEM_PP_UP",
+      "flag": "FLAG_NUEVA_555"
+    },
+    {
+      "type": "hidden_item",
+      "x": 1,
+      "y": 2,
+      "elevation": 3,
+      "item": "ITEM_MAX_ETHER",
+      "flag": "FLAG_NUEVA_556"
+    }
   ]
 }

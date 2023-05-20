@@ -48,8 +48,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "ViasSur_EventScript_Maxipepita",
+      "flag": "FLAG_NUEVA_637"
     }
   ],
   "warp_events": [
@@ -59,6 +59,13 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 4,
+      "elevation": 3,
+      "item": "ITEM_TAMATO_BERRY",
+      "flag": "FLAG_NUEVA_636"
+    }
   ]
 }

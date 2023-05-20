@@ -1796,4 +1796,239 @@ Spa_EventScript_GolpeRoca::
 finditem ITEM_HM06_ROCK_SMASH
     end
 
+Ruta47_EventScript_PiedraPomez::
+finditem ITEM_FLOAT_STONE
+    end
+
+Ruta49_EventScript_Anfora::
+finditem ITEM_RELIC_VASE
+    end
+
+BaseJohto_EventScript_Lupa::
+finditem ITEM_WIDE_LENS
+    end
+
+BaseJohto_EventScript_MasPs::
+finditem ITEM_HP_UP
+    end
+
+CultoS4_EventScript_MaxRevive::
+finditem ITEM_MAX_REVIVE
+    end
+
+CultoS5_EventScript_Botas::
+finditem ITEM_HEAVY_DUTY_BOOTS
+    end
+
+CultoS6_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+    end
+
+CultoS7_EventScript_Banetita::
+finditem ITEM_BANETTITE
+    end
+
+CultoItems_EventScript_Efigie::
+finditem ITEM_RELIC_STATUE
+    end
+
+CultoItems_EventScript_Telaterrible::
+finditem ITEM_REAPER_CLOTH
+    end
+
+Lago1_EventScript_PerlaGrande::
+finditem ITEM_BIG_PEARL
+    end
+
+Lago1_EventScript_MaxRepel::
+finditem ITEM_MAX_REPEL
+    end
+
+Lago2_EventScript_BuceoBall::
+finditem ITEM_DIVE_BALL
+    end
+
+Lago2_EventScript_RocaLluvia::
+finditem ITEM_DAMP_ROCK
+    end
+
+Lago2_EventScript_ElixirMax::
+finditem ITEM_MAX_ELIXIR
+    end
+
+Lago2_EventScript_GemaAgua::
+finditem ITEM_WATER_GEM
+    end
+
+Lago3_EventScript_Cuerda::
+finditem ITEM_ESCAPE_ROPE
+
+Lago3_EventScript_SartaPerlas::
+finditem ITEM_PEARL_STRING
+
+Lago3_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+
+Lago3_EventScript_Piedra::
+finditem ITEM_WATER_STONE
+
+Lago4_EventScript_TrozoEstrella::
+finditem ITEM_STAR_PIECE
+
+Lago4_EventScript_MAXPP::
+finditem ITEM_PP_MAX
+
+Lago4_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+
+Lago4_EventScript_PerlaGrande::
+finditem ITEM_BIG_PEARL
+
+Lago5_EventScript_Elixir::
+finditem ITEM_ELIXIR
+
+Lago5_EventScript_FragmentoCometa::
+finditem ITEM_COMET_SHARD
+
+Ruta47_EventScript_RocaSuave::
+finditem ITEM_SMOOTH_ROCK
+
+Ruta48_EventScript_RocaGema::
+finditem ITEM_ROCK_GEM
+
+Ruta49_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+
+Ruta49_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+
+Ruta50_EventScript_Elixir::
+finditem ITEM_ELIXIR
+
+Ruta50_EventScript_MaxPotion::
+finditem ITEM_MAX_POTION
+
+Ruta50_EventScript_BalmSeta::
+finditem ITEM_BALM_MUSHROOM
+
+Ruta50_EventScript_Hierba::
+finditem ITEM_POWER_HERB
+
+Ruta50_EventScript_MaxRepel::
+finditem ITEM_MAX_REPEL
+
+Ruta50_EventScript_Gema::
+finditem ITEM_GRASS_GEM
+
+Ruta50_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+
+Ruta50_EventScript_MaxEther::
+finditem ITEM_MAX_ETHER
+
+Ruta53_EventScript_Steelexita::
+finditem ITEM_STEELIXITE
+
+Vias1_EventScript_Ziuela::
+finditem ITEM_LUM_BERRY
+
+Vias1_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+
+Vias1_EventScript_Terrain::
+finditem ITEM_TERRAIN_EXTENDER
+
+Vias2_EventScript_SetaGrande::
+finditem ITEM_BIG_MUSHROOM
+
+Vias2_EventScript_MaxEther::
+finditem ITEM_MAX_ETHER
+
+Vias2_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+
+Vias2_EventScript_PPUP::
+finditem ITEM_PP_UP
+
+Vias3_EventScript_SetaGrande::
+finditem ITEM_BIG_MUSHROOM
+
+Vias3_EventScript_Elixir::
+finditem ITEM_ELIXIR
+
+Vias3_EventScript_MallaBall::
+finditem ITEM_NET_BALL
+
+Vias3_EventScript_HierbaBlanca::
+finditem ITEM_WHITE_HERB
+
+Vias4_EventScript_PolvoPlata::
+finditem ITEM_SILVER_POWDER
+
+Vias4_EventScript_SetaGrande::
+finditem ITEM_BIG_MUSHROOM
+
+Vias4_EventScript_MaxRepel::
+finditem ITEM_MAX_REPEL
+
+Vias4_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+
+Vias4_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+
+Vias5_EventScript_SetaGrande::
+finditem ITEM_BIG_MUSHROOM
+
+Vias5_EventScript_Pepita::
+finditem ITEM_NUGGET
+
+Vias5_EventScript_GemaPlanta::
+finditem ITEM_GRASS_GEM
+
+ViasBosque_EventScript_Seta::
+finditem ITEM_BALM_MUSHROOM
+
+ViasBosque_EventScript_Gema::
+finditem ITEM_BUG_GEM
+
+ViasBosque_EventScript_HierbaRev::
+finditem ITEM_REVIVAL_HERB
+
+ViasSur_EventScript_SemMilagro::
+finditem ITEM_MIRACLE_SEED
+
+ViasSur_EventScript_PowerHerb::
+finditem ITEM_POWER_HERB
+
+ViasSur_EventScript_SetaGigante::
+finditem ITEM_BALM_MUSHROOM
+
+ViasSur_EventScript_Maxipepita::
+finditem ITEM_BIG_NUGGET
+
+ViasSur3_EventScript_Gafas::
+finditem ITEM_SAFETY_GOGGLES
+
+ViasSur3_EventScript_GemaTierra::
+finditem ITEM_GROUND_GEM
+
+ViasSur4_EventScript_Paracontacto::
+finditem ITEM_PROTECTIVE_PADS
+
+ViasSur4_EventScript_PPMAX::
+finditem ITEM_PP_MAX
+
+LavandaRadio2_EventScript_SeguroFallo::
+finditem ITEM_BLUNDER_POLICY
+
+LavandaRadio4_EventScript_Tarjeta::
+finditem ITEM_RED_CARD
+
+LavandaRadio5_EventScript_Pila::
+finditem ITEM_CELL_BATTERY
+
+
+
+
 
