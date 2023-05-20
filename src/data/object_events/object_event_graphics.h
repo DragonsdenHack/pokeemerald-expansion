@@ -615,6 +615,7 @@ const u16 gObjectEventPal_Meteorite[] = INCBIN_U16("graphics/object_events/palet
 const u16 gObjectEventPal_SSAnne[] = INCBIN_U16("graphics/object_events/palettes/ss_anne.gbapal");
 const u16 gObjectEventPal_Seagallop[] = INCBIN_U16("graphics/object_events/palettes/seagallop.gbapal");
 const u16 gObjectEventPal_RedLeaf[] = INCBIN_U16("graphics/object_events/palettes/red_leaf.gbapal");
+const u16 gObjectEventPal_Atlas[] = INCBIN_U16("graphics/object_events/palettes/atlas.gbapal");
 const u16 gObjectEventPal_Arceus[] = INCBIN_U16("graphics/object_events/palettes/arceus.gbapal");
 const u16 gObjectEventPal_Arceusp[] = INCBIN_U16("graphics/object_events/palettes/arceusp.gbapal");
 const u16 gObjectEventPal_DragonOrigen[] = INCBIN_U16("graphics/object_events/palettes/dragonorigen.gbapal");

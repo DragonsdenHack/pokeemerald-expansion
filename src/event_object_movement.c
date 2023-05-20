@@ -465,7 +465,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_ESENCIA 0x113C
 #define  OBJ_EVENT_PAL_TAG_ARCEUSP 0x113D
 #define OBJ_EVENT_PAL_TAG_LUGIA2                  0x113E
-
+#define OBJ_EVENT_PAL_TAG_ATLAS					0x113F
 #define  OBJ_EVENT_PAL_TAG_NPC_CALVO2JOHTO 0x1140
 #define  OBJ_EVENT_PAL_TAG_NPC_CALVOJOHTO 0x1141
 #define  OBJ_EVENT_PAL_TAG_NPC_UNOWNORO 0x1142
@@ -541,6 +541,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Calvo2johto,        OBJ_EVENT_PAL_TAG_NPC_CALVO2JOHTO},
 	{gObjectEventPal_Calvojohto,        OBJ_EVENT_PAL_TAG_NPC_CALVOJOHTO},
 	{gObjectEventPal_Unownoro,        OBJ_EVENT_PAL_TAG_NPC_UNOWNORO},
+	{gObjectEventPal_Atlas,               OBJ_EVENT_PAL_TAG_ATLAS},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

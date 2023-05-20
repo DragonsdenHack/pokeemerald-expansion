@@ -93,8 +93,8 @@ static bool8 PlayerAnimIsMultiFrameStationaryAndStateNotTurning(void);
 static bool8 PlayerIsAnimActive(void);
 static bool8 PlayerCheckIfAnimFinishedOrInactive(void);
 
-static void PlayerGoSlow(u8 direction);
-static void PlayerRunSlow(u8 direction);
+//static void PlayerGoSlow(u8 direction);
+//static void PlayerRunSlow(u8 direction);
 static void PlayerRun(u8);
 static void PlayerNotOnBikeCollide(u8);
 static void PlayerNotOnBikeCollideWithFarawayIslandMew(u8);
@@ -632,10 +632,6 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
             PlayerNotOnBikeCollideWithFarawayIslandMew(direction);
             return;
         }
-        else if (collision == COLLISION_STAIR_WARP)
-        {
-            PlayerFaceDirection(direction);
-        }
         else
         {
             u8 adjustedCollision = collision - COLLISION_STOP_SURFING;
@@ -653,8 +649,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
 
     if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER) && (heldKeys & B_BUTTON) && FlagGet(FLAG_SYS_B_DASH)
-     && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0 && CanDisguiseRun())
-
+     && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0)
     {
         PlayerRun(direction);
         gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
@@ -662,10 +657,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
     else
     {
-        if (ObjectMovingOnRockStairs(&gObjectEvents[gPlayerAvatar.objectEventId], direction))
-            PlayerGoSlow(direction);
-        else
-            PlayerWalkNormal(direction);
+        PlayerWalkNormal(direction);
     }
 }
 
@@ -977,18 +969,6 @@ void PlayerSetAnimId(u8 movementActionId, u8 copyableMovement)
         ObjectEventSetHeldMovement(&gObjectEvents[gPlayerAvatar.objectEventId], movementActionId);
     }
 }
-
-// slow
-static void PlayerGoSlow(u8 direction)
-{
-    PlayerSetAnimId(GetWalkSlowMovementAction(direction), 2);
-}
-static void PlayerRunSlow(u8 direction)
-{
-    PlayerSetAnimId(GetPlayerRunSlowMovementAction(direction), 2);
-}
-
-
 void PlayerWalkNormal(u8 direction)
 {
     PlayerSetAnimId(GetWalkNormalMovementAction(direction), COPY_MOVE_WALK);
