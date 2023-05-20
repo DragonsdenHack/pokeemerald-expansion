@@ -1,5 +1,10 @@
 CeladonCity_Casino_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_Casino_OnTransition
 	.byte 0
+	
+CeladonCity_Casino_OnTransition:
+	setrespawn HEAL_LOCATION_CASINO_AZULONA
+	end
 
 CeladonCasino_1::
 lock     
