@@ -53,6 +53,8 @@ void CopySecondaryTilesetToVram(const struct MapLayout *);
 struct MapHeader const *const GetMapHeaderFromConnection(struct MapConnection *connection);
 struct MapConnection *GetConnectionAtCoords(s16 x, s16 y);
 void MapGridSetMetatileImpassabilityAt(int x, int y, bool32 impassable);
+void QuestLog_BackupPalette(u16,u16);
+void ResetPalettes(void);
 
 // field_region_map.c
 void FieldInitRegionMap(MainCallback callback);

@@ -43,6 +43,7 @@
 #include "constants/item_effects.h"
 #include "constants/items.h"
 #include "constants/songs.h"
+#include "constants/vars.h"
 
 static void SetUpItemUseCallback(u8 taskId);
 static void FieldCB_UseItemOnField(void);
@@ -195,6 +196,13 @@ void ItemUseOutOfBattle_Mail(u8 taskId)
     Task_FadeAndCloseBagMenu(taskId);
 }
 
+static bool8 CanDisguiseRideBike()
+{
+    if (gSaveBlock2Ptr->playerDisguise.enabled && !gSaveBlock2Ptr->playerDisguise.canRideBike)
+        return FALSE;
+    return TRUE;
+}
+
 void ItemUseOutOfBattle_Bike(u8 taskId)
 {
     s16* data = gTasks[taskId].data;
@@ -207,7 +215,7 @@ void ItemUseOutOfBattle_Bike(u8 taskId)
         DisplayCannotDismountBikeMessage(taskId, tUsingRegisteredKeyItem);
     else
     {
-        if (Overworld_IsBikingAllowed() == TRUE && IsBikingDisallowedByPlayer() == 0)
+        if (Overworld_IsBikingAllowed() == TRUE && IsBikingDisallowedByPlayer() == 0 && CanDisguiseRideBike())
         {
             sItemUseOnFieldCB = ItemUseOnFieldCB_Bike;
             SetUpItemUseOnFieldCallback(taskId);
@@ -258,9 +266,16 @@ static bool32 CanFish(void)
     return FALSE;
 }
 
+static bool8 CanDisguiseFish()
+{
+    if (gSaveBlock2Ptr->playerDisguise.enabled && !gSaveBlock2Ptr->playerDisguise.canFish)
+        return FALSE;
+    return TRUE;
+}
+
 void ItemUseOutOfBattle_Rod(u8 taskId)
 {
-    if (CanFish() == TRUE)
+    if (CanFish() && CanDisguiseFish())
     {
         sItemUseOnFieldCB = ItemUseOnFieldCB_Rod;
         SetUpItemUseOnFieldCallback(taskId);
@@ -699,14 +714,21 @@ static void ItemUseOnFieldCB_Berry(u8 taskId)
     DestroyTask(taskId);
 }
 
+static bool8 CanDisguiseIrrigate()
+{
+    if (gSaveBlock2Ptr->playerDisguise.enabled && !gSaveBlock2Ptr->playerDisguise.canIrrigate)
+        return FALSE;
+    return TRUE;
+}
+
 void ItemUseOutOfBattle_WailmerPail(u8 taskId)
 {
-    if (TryToWaterSudowoodo() == TRUE)
+    if (TryToWaterSudowoodo() && CanDisguiseIrrigate())
     {
         sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailSudowoodo;
         SetUpItemUseOnFieldCallback(taskId);
     }
-    else if (TryToWaterBerryTree() == TRUE)
+    else if (TryToWaterBerryTree() && CanDisguiseIrrigate())
     {
         sItemUseOnFieldCB = ItemUseOnFieldCB_WailmerPailBerry;
         SetUpItemUseOnFieldCallback(taskId);
@@ -866,6 +888,7 @@ static void Task_UseRepel(u8 taskId)
     if (!IsSEPlaying())
     {
         VarSet(VAR_REPEL_STEP_COUNT, ItemId_GetHoldEffectParam(gSpecialVar_ItemId));
+        VarSet(VAR_UNUSED_0x40FF, gSpecialVar_ItemId);
         RemoveUsedItem();
         if (!InBattlePyramid())
             DisplayItemMessage(taskId, FONT_NORMAL, gStringVar4, CloseItemMessage);
@@ -1197,6 +1220,12 @@ void ItemUseOutOfBattle_FormChange_ConsumedOnUse(u8 taskId)
 void ItemUseOutOfBattle_CannotUse(u8 taskId)
 {
     DisplayDadsAdviceCannotUseItemMessage(taskId, gTasks[taskId].tUsingRegisteredKeyItem);
+}
+
+void ItemUseOutOfBattle_Mints(u8 taskId)
+{
+    gItemUseCB = ItemUseCB_Mints;
+    SetUpItemUseCallback(taskId);
 }
 
 #undef tUsingRegisteredKeyItem

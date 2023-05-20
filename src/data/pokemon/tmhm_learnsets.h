@@ -1,5 +1,5 @@
 #define TMHM_LEARNSET(moves) {(u32)(moves), ((u64)(moves) >> 32)}
-#define TMHM(tmhm) ((u64)1 << (ITEM_##tmhm - ITEM_TM01_FOCUS_PUNCH - ((ITEM_##tmhm > ITEM_TM100) ? 50 : 0)))
+#define TMHM(tmhm) ((u64)1 << (ITEM_##tmhm - ITEM_TM01_FOCUS_PUNCH - ((ITEM_##tmhm > ITEM_TM100) ? 100 : 0)))
 
 // This table determines which TMs and HMs a species is capable of learning.
 // Each entry is a 64-bit bit array spread across two 32-bit values, with
@@ -103,6 +103,7 @@ const u32 gTMHMLearnsets[][2] =
                                             | TMHM(TM10_HIDDEN_POWER)
                                             | TMHM(TM23_IRON_TAIL)
                                             | TMHM(TM50_OVERHEAT)
+                                            | TMHM(TM64_OVERHEAT)
                                             | TMHM(TM17_PROTECT)
                                             | TMHM(TM33_REFLECT)
                                             | TMHM(TM44_REST)

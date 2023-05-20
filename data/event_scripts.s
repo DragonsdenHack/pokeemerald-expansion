@@ -54,6 +54,7 @@
 #include "constants/union_room.h"
 #include "constants/vars.h"
 #include "constants/weather.h"
+#include "constants/rgb.h"
 	.include "asm/macros.inc"
 	.include "asm/macros/event.inc"
 	.include "constants/constants.inc"
@@ -1004,6 +1005,218 @@ Common_EventScript_LegendaryFlewAway::
 	msgbox gText_LegendaryFlewAway, MSGBOX_DEFAULT
 	release
 	end
+
+Script_SetGrayscaleTint::
+	setptr GLOBAL_FIELD_TINT_GRAYSCALE, gGlobalFieldTintMode
+	callnative InitMapView
+	return
+
+Script_SetSepiaTint::
+	setptr GLOBAL_FIELD_TINT_SEPIA, gGlobalFieldTintMode
+	callnative InitMapView
+	return
+
+Script_RemoveTint::
+	setptr GLOBAL_FIELD_TINT_NONE, gGlobalFieldTintMode
+	callnative RemoveTintFromObjectEvents
+	callnative InitMapView
+	return
+
+SetEVs::
+	special ChoosePartyMon
+	waitstate
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge ButIRefuseEVs
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	compare VAR_RESULT, SPECIES_EGG
+	goto_if_eq RejectedEVs
+	goto SetEVs_Proceed
+SetEVs_Proceed:
+	lockall
+	faceplayer
+	setvar VAR_0x8000, 252
+	setvar VAR_0x8001, 252
+	setvar VAR_0x8002, 252
+	setvar VAR_0x8003, 252
+	setvar VAR_0x8005, 252
+	setvar VAR_0x8006, 252
+	special SetHpEvs
+	special SetAtkEvs
+	special SetDefEvs
+	special SetSpdEvs
+	special SetSpAtkEvs
+	special SetSpDefEvs
+	msgbox EVsSetSuccessfully 4
+	closemessage
+	releaseall
+	end
+
+ButIRefuseEVs:
+	lockall
+	faceplayer
+	msgbox ComeBackAnytimeEVs 6
+	releaseall
+	end
+
+RejectedEVs:
+	lockall
+	faceplayer
+	msgbox RejectEVs 6
+	releaseall
+	end
+
+EVsSetSuccessfully:
+	.string "The EVs of your Pokémon's stats\n"
+	.string "have been successfully set to 252.\p"
+	.string "Come back anytime.$"
+
+RejectEVs:
+	.string "Sorry, I can't modify the stats\n"
+	.string "of an EGG.$"
+
+ComeBackAnytimeEVs:
+	.string "Come back anytime.$"
+
+
+SetIVs::
+	special ChoosePartyMon
+	waitstate
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge ButIRefuseIVs
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	compare VAR_RESULT, SPECIES_EGG
+	goto_if_eq RejectedIVs
+	goto SetIVs_Proceed
+SetIVs_Proceed:
+	lockall
+	faceplayer
+	setvar VAR_0x8000, 31
+	setvar VAR_0x8001, 31
+	setvar VAR_0x8002, 31
+	setvar VAR_0x8003, 31
+	setvar VAR_0x8005, 31
+	setvar VAR_0x8006, 31
+	special SetHpIvs
+	special SetAtkIvs
+	special SetDefIvs
+	special SetSpdIvs
+	special SetSpAtkIvs
+	special SetSpDefIvs
+	msgbox IVsSetSuccessfully 4
+	closemessage
+	releaseall
+	end
+
+ButIRefuseIVs:
+	lockall
+	faceplayer
+	msgbox ComeBackAnytimeIvs 6
+	releaseall
+	end
+
+RejectedIVs:
+	lockall
+	faceplayer
+	msgbox RejectIVs 6
+	releaseall
+	end
+
+IVsSetSuccessfully:
+	.string "The EVs of your Pokémon's stats\n"
+	.string "have been successfully set to 31.\p"
+	.string "Come back anytime.$"
+
+RejectIVs:
+	.string "Sorry, I can't modify the stats\n"
+	.string "of an EGG.$"
+
+ComeBackAnytimeIvs:
+	.string "Come back anytime.$"
+
+CheckIvs::
+	special ChoosePartyMon
+	waitstate
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge ButIRefuseIVs
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	compare VAR_RESULT, SPECIES_EGG
+	goto_if_eq RejectedIVs
+	goto SetIVs_Proceed2
+SetIVs_Proceed2:
+	msgbox Text_IVChecker_1, MSGBOX_DEFAULT
+	specialvar VAR_RESULT, GetHpIV
+	buffernumberstring 0, VAR_RESULT
+	specialvar VAR_RESULT, GetAtkIV
+	buffernumberstring 1, VAR_RESULT
+	specialvar VAR_RESULT, GetDefIV
+	buffernumberstring 2, VAR_RESULT
+	msgbox Text_IVChecker_2, MSGBOX_DEFAULT
+	specialvar VAR_RESULT, GetSpAtkIV
+	buffernumberstring 0, VAR_RESULT
+	specialvar VAR_RESULT, GetSpDefIV
+	buffernumberstring 1, VAR_RESULT
+	specialvar VAR_RESULT, GetSpeedIV
+	buffernumberstring 2, VAR_RESULT
+	msgbox Text_IVChecker_3, MSGBOX_DEFAULT
+	release
+	end
+
+Text_IVChecker_1:
+	.string "Your {STR_VAR_1}...$"
+
+Text_IVChecker_2:
+	.string "Its HP IV is {STR_VAR_1}.\p"
+	.string "Its Attack IV is {STR_VAR_2}.\p"
+	.string "Its Defense IV is {STR_VAR_3}.$"
+
+Text_IVChecker_3:
+	.string "Its Special Attack IV is {STR_VAR_1}.\p"
+	.string "Its Special Defense IV is {STR_VAR_2}.\p"
+	.string "Its Speed IV is {STR_VAR_3}.\n"
+	.string "You're welcome.$"	
+
+
+CheckEvs::
+	special ChoosePartyMon
+	waitstate
+	compare VAR_0x8004, PARTY_SIZE
+	goto_if_ge ButIRefuseIVs
+	specialvar VAR_RESULT, ScriptGetPartyMonSpecies
+	compare VAR_RESULT, SPECIES_EGG
+	goto_if_eq RejectedIVs
+	goto SetEVs_Proceed2
+SetEVs_Proceed2:
+	msgbox Text_EVChecker_1, MSGBOX_DEFAULT
+	specialvar VAR_RESULT, GetHpEV
+	buffernumberstring 0, VAR_RESULT
+	specialvar VAR_RESULT, GetAtkEV
+	buffernumberstring 1, VAR_RESULT
+	specialvar VAR_RESULT, GetDefEV
+	buffernumberstring 2, VAR_RESULT
+	msgbox Text_EVChecker_2, MSGBOX_DEFAULT
+	specialvar VAR_RESULT, GetSpAtkEV
+	buffernumberstring 0, VAR_RESULT
+	specialvar VAR_RESULT, GetSpDefEV
+	buffernumberstring 1, VAR_RESULT
+	specialvar VAR_RESULT, GetSpeedEV
+	buffernumberstring 2, VAR_RESULT
+	msgbox Text_EVChecker_3, MSGBOX_DEFAULT
+	release
+	end
+
+Text_EVChecker_1:
+	.string "Your {STR_VAR_1}...$"
+
+Text_EVChecker_2:
+	.string "Its HP EV is {STR_VAR_1}.\p"
+	.string "Its Attack EV is {STR_VAR_2}.\p"
+	.string "Its Defense EV is {STR_VAR_3}.$"
+
+Text_EVChecker_3:
+	.string "Its Special Attack EV is {STR_VAR_1}.\p"
+	.string "Its Special Defense EV is {STR_VAR_2}.\p"
+	.string "Its Speed EV is {STR_VAR_3}.\n"
+	.string "You're welcome.$"	
 
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"
