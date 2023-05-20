@@ -203,6 +203,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 100,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_ELIXIR",
+      "flag": "FLAG_NUEVA_464"
+    },
+    {
+      "type": "hidden_item",
+      "x": 47,
+      "y": 14,
+      "elevation": 3,
+      "item": "ITEM_CHERI_BERRY",
+      "flag": "FLAG_NUEVA_465"
+    }
   ]
 }

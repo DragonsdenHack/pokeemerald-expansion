@@ -195,7 +195,7 @@
     },
     {
       "x": 1,
-      "y": 1,
+      "y": 0,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_FIVE_ISLAND_MEADOW",
       "dest_warp_id": 0
@@ -273,6 +273,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "ViridianCity_Gym_Estatuas"
+    },
+    {
+      "type": "hidden_item",
+      "x": 2,
+      "y": 2,
+      "elevation": 3,
+      "item": "ITEM_MACHO_BRACE",
+      "flag": "FLAG_NUEVA_517"
     }
   ]
 }

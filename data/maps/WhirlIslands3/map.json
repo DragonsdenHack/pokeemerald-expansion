@@ -156,6 +156,21 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 16,
+      "elevation": 3,
+      "item": "ITEM_ULTRA_BALL",
+      "flag": "FLAG_NUEVA_540"
+    },
+    {
+      "type": "hidden_item",
+      "x": 37,
+      "y": 20,
+      "elevation": 3,
+      "item": "ITEM_FULL_RESTORE",
+      "flag": "FLAG_NUEVA_541"
+    }
   ]
 }

@@ -223,6 +223,14 @@
       "elevation": 3,
       "item": "ITEM_PECHA_BERRY",
       "flag": "FLAG_NUEVA_138"
+    },
+    {
+      "type": "hidden_item",
+      "x": 37,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_ETHER",
+      "flag": "FLAG_NUEVA_469"
     }
   ]
 }

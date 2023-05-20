@@ -2401,3 +2401,17 @@ EventScript_Shellder_Texto_1:
 EventScript_NidoranF_Texto_1:
 .string "¿Seguro que quieres a NIDORAN♀?\n"
 	.string "Costará 12000 POKÉS.$"
+
+
+RocketHideout5F_64_NPC::
+lock
+faceplayer
+msgbox RocketHideout5F_64_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout5F_64_NPC_Texto_1:
+.string "Cuando la acción es necesaria, el\n"
+	.string "optimismo, incluso en su variedad\l"
+	.string "ligeramente ilusoria, puede resultar\l"
+	.string "positivo.$"

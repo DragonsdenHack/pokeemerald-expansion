@@ -40,7 +40,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MONTANEROJOHTO",
-      "x": 10,
+      "x": 9,
       "y": 106,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
@@ -314,11 +314,11 @@
     },
     {
       "type": "hidden_item",
-      "x": 16,
-      "y": 44,
+      "x": 22,
+      "y": 27,
       "elevation": 3,
-      "item": "ITEM_NONE",
-      "flag": "FLAG_TEMP_1"
+      "item": "ITEM_LEPPA_BERRY",
+      "flag": "FLAG_NUEVA_470"
     },
     {
       "type": "hidden_item",
@@ -327,6 +327,22 @@
       "elevation": 3,
       "item": "ITEM_POMEG_BERRY",
       "flag": "FLAG_NUEVA_144"
+    },
+    {
+      "type": "hidden_item",
+      "x": 19,
+      "y": 90,
+      "elevation": 3,
+      "item": "ITEM_SACRED_ASH",
+      "flag": "FLAG_NUEVA_471"
+    },
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 113,
+      "elevation": 3,
+      "item": "ITEM_MENTAL_HERB",
+      "flag": "FLAG_NUEVA_472"
     }
   ]
 }

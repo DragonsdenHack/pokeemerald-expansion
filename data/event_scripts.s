@@ -2674,3 +2674,5 @@ Text_EVChecker_3:
 	.include "data/maps/NeoSaffronCity/scripts.inc"
 
 	.include "data/maps/NeoSaffron_TrainStation/scripts.inc"
+
+	.include "data/maps/Route49_dESCAN/scripts.inc"

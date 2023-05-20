@@ -103,6 +103,14 @@
       "elevation": 3,
       "item": "ITEM_HONDEW_BERRY",
       "flag": "FLAG_NUEVA_154"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 16,
+      "elevation": 3,
+      "item": "ITEM_WHITE_HERB",
+      "flag": "FLAG_NUEVA_479"
     }
   ]
 }

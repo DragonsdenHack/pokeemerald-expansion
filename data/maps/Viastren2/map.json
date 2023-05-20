@@ -48,8 +48,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Vias2_EventScript_SetaGrande",
+      "flag": "FLAG_NUEVA_604"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -61,8 +61,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Vias2_EventScript_MaxEther",
+      "flag": "FLAG_NUEVA_605"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MECANICOJOHTO",
@@ -100,8 +100,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Vias2_EventScript_Carameloraro",
+      "flag": "FLAG_NUEVA_606"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -114,7 +114,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_607"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MECANICOJOHTO",
@@ -139,8 +139,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Vias2_EventScript_PPUP",
+      "flag": "FLAG_NUEVA_608"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MECANICOJOHTO",

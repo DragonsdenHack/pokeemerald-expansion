@@ -164,6 +164,14 @@
       "elevation": 3,
       "item": "ITEM_ENERGY_ROOT",
       "flag": "FLAG_NUEVA_163"
+    },
+    {
+      "type": "hidden_item",
+      "x": 20,
+      "y": 23,
+      "elevation": 3,
+      "item": "ITEM_QUALOT_BERRY",
+      "flag": "FLAG_NUEVA_500"
     }
   ]
 }

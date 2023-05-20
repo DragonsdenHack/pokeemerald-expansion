@@ -100,8 +100,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Ruta47_EventScript_PiedraPomez",
+      "flag": "FLAG_NUEVA_501"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -113,8 +113,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Ruta47_EventScript_RocaSuave",
+      "flag": "FLAG_NUEVA_586"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANCIANOJOHTO",
@@ -250,6 +250,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 55,
+      "y": 24,
+      "elevation": 3,
+      "item": "ITEM_PEARL_STRING",
+      "flag": "FLAG_NUEVA_502"
+    }
   ]
 }

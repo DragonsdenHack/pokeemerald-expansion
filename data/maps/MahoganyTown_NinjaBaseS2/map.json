@@ -245,6 +245,13 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 11,
+      "elevation": 3,
+      "item": "ITEM_CALCIUM",
+      "flag": "FLAG_NUEVA_552"
+    }
   ]
 }

@@ -124,8 +124,8 @@
       "x": 9,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_BERRY_FOREST",
-      "dest_warp_id": 3
+      "dest_map": "MAP_ROCKET_HIDEOUT_5F",
+      "dest_warp_id": 2
     },
     {
       "x": 1,
@@ -271,6 +271,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 2,
+      "elevation": 3,
+      "item": "ITEM_BIG_NUGGET",
+      "flag": "FLAG_NUEVA_539"
+    }
   ]
 }
