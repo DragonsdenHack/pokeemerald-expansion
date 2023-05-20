@@ -1,5 +1,10 @@
 RocketHideout_Johto_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, RocketHideout_Johto_OnTransition
 	.byte 0
+
+RocketHideout_Johto_OnTransition:
+	setrespawn HEAL_LOCATION_GUARIDA_ROCKET_JOHTO
+	end
 
 RocketHideoutJohto1::
 end

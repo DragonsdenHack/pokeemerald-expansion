@@ -1,6 +1,11 @@
 RocketHideout_FiveIsland_Meadow_MapScripts::
+	map_script MAP_SCRIPT_ON_TRANSITION, RocketHideout_FiveIsland_Meadow_OnTransition
 	.byte 0
 
+
+RocketHideout_FiveIsland_Meadow_OnTransition:
+	setrespawn HEAL_LOCATION_FIVE_ISLAND_ROCKET_MEADOW
+	end
 
 RocketHideoutFiveIslanMeadow23English::
 lock
@@ -363,6 +368,7 @@ applymovement 23, Move9
 applymovement 22, Move9
 applymovement 5, Move9
 waitmovement 0x0
+
 removeobject 5
 playse SE_EXIT
 msgbox RocketHideoutFiveIslandMeadow_Text_Atlas7, MSGBOX_NPC
