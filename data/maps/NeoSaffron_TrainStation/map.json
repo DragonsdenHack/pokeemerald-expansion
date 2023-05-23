@@ -2,7 +2,7 @@
   "id": "MAP_NEO_SAFFRON_TRAIN_STATION",
   "name": "NeoSaffron_TrainStation",
   "layout": "LAYOUT_NEO_SAFFRON_TRAIN_STATION",
-  "music": "MUS_RG_PEWTER",
+  "music": "MUS_GSC_PEWTER",
   "region_map_section": "MAPSEC_SAFFRON_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

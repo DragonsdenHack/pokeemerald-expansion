@@ -2,7 +2,7 @@
   "id": "MAP_BOSQUE_GIMNASIO_ANCIANA",
   "name": "BosqueGimnasioAnciana",
   "layout": "LAYOUT_BOSQUE_GIMNASIO_ANCIANA",
-  "music": "1",
+  "music": "MUS_GSC_RUINS_OF_ALPH",
   "region_map_section": "MAPSEC_SEVEN_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -15,29 +15,68 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 29,
-      "y": 12,
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 24,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "BosqueGym_EventScript_Musgo",
+      "flag": "FLAG_NUEVA_685"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 0,
+      "y": 29,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BosqueGym_EventScript_Incienso",
+      "flag": "FLAG_NUEVA_684"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 45,
+      "y": 37,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BosqueGym_EventScript_Setagigante",
+      "flag": "FLAG_NUEVA_683"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANCIANAJOHTO",
+      "x": 42,
+      "y": 3,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "BosqueGimnasio_EventScript_Clerk_2",
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
-      "x": 20,
-      "y": 25,
+      "graphics_id": "OBJ_EVENT_GFX_ANCIANOJOHTO",
+      "x": 41,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "BosqueGimnasio_EventScript_Clerk",
       "flag": "0"
     }
   ],
@@ -68,6 +107,46 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "CuevaHypno_2_Descripcion_Gym_2"
+    },
+    {
+      "type": "hidden_item",
+      "x": 46,
+      "y": 12,
+      "elevation": 3,
+      "item": "ITEM_ABSORB_BULB",
+      "flag": "FLAG_NUEVA_785"
+    },
+    {
+      "type": "hidden_item",
+      "x": 39,
+      "y": 30,
+      "elevation": 3,
+      "item": "ITEM_KEBIA_BERRY",
+      "flag": "FLAG_NUEVA_786"
+    },
+    {
+      "type": "hidden_item",
+      "x": 8,
+      "y": 22,
+      "elevation": 3,
+      "item": "ITEM_LUMINOUS_MOSS",
+      "flag": "FLAG_NUEVA_787"
+    },
+    {
+      "type": "hidden_item",
+      "x": 29,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_LEPPA_BERRY",
+      "flag": "FLAG_NUEVA_788"
+    },
+    {
+      "type": "hidden_item",
+      "x": 2,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_LUM_BERRY",
+      "flag": "FLAG_NUEVA_789"
     }
   ]
 }

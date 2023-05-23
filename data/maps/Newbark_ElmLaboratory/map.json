@@ -2,7 +2,7 @@
   "id": "MAP_NEWBARK_ELM_LABORATORY",
   "name": "Newbark_ElmLaboratory",
   "layout": "LAYOUT_NEWBARK_ELM_LABORATORY",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_OAK_LAB",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

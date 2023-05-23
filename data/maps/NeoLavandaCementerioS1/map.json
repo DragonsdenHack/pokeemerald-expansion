@@ -2,7 +2,7 @@
   "id": "MAP_NEO_LAVANDA_CEMENTERIO_S1",
   "name": "NeoLavandaCementerioS1",
   "layout": "LAYOUT_NEO_LAVANDA_CEMENTERIO_S1",
-  "music": "2",
+  "music": "MUS_END_OF_TIME",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "BaseHoenn_EventScript_Hechizo",
+      "flag": "FLAG_NUEVA_671"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Cementerio_EventScript_MaxEther",
+      "flag": "FLAG_NUEVA_675"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BALLORO",
@@ -116,7 +116,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_676"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -154,8 +154,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Cementerio_EventScript_MaxRepel",
+      "flag": "FLAG_NUEVA_673"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -180,8 +180,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Cementerio_EventScript_Blanco",
+      "flag": "FLAG_NUEVA_672"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CHANNELER",
@@ -232,8 +232,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "Cementerio_EventScript_Carameloraro",
+      "flag": "FLAG_NUEVA_674"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",

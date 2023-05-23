@@ -2,7 +2,7 @@
   "id": "MAP_VIASTREN5",
   "name": "Viastren5",
   "layout": "LAYOUT_VIASTREN5",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -193,6 +193,77 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_GRASSY_SEED",
+      "flag": "FLAG_NUEVA_749"
+    },
+    {
+      "type": "hidden_item",
+      "x": 22,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_LUM_BERRY",
+      "flag": "FLAG_NUEVA_750"
+    },
+    {
+      "type": "hidden_item",
+      "x": 25,
+      "y": 4,
+      "elevation": 3,
+      "item": "ITEM_POWER_HERB",
+      "flag": "FLAG_NUEVA_751"
+    },
+    {
+      "type": "hidden_item",
+      "x": 40,
+      "y": 2,
+      "elevation": 3,
+      "item": "ITEM_SALAC_BERRY",
+      "flag": "FLAG_NUEVA_752"
+    },
+    {
+      "type": "hidden_item",
+      "x": 56,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_ENIGMA_BERRY",
+      "flag": "FLAG_NUEVA_753"
+    },
+    {
+      "type": "hidden_item",
+      "x": 63,
+      "y": 5,
+      "elevation": 3,
+      "item": "ITEM_GRASS_GEM",
+      "flag": "FLAG_NUEVA_754"
+    },
+    {
+      "type": "hidden_item",
+      "x": 119,
+      "y": 5,
+      "elevation": 3,
+      "item": "ITEM_PSYCHIC_SEED",
+      "flag": "FLAG_NUEVA_755"
+    },
+    {
+      "type": "hidden_item",
+      "x": 91,
+      "y": 8,
+      "elevation": 3,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_NUEVA_756"
+    },
+    {
+      "type": "hidden_item",
+      "x": 75,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_LEPPA_BERRY",
+      "flag": "FLAG_NUEVA_757"
+    }
   ]
 }

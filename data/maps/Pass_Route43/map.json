@@ -2,7 +2,7 @@
   "id": "MAP_PASS_ROUTE43",
   "name": "Pass_Route43",
   "layout": "LAYOUT_PASS_ROUTE43",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_ROUTE",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

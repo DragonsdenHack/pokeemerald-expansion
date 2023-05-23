@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_BOSQUE",
   "name": "ViasBosque",
   "layout": "LAYOUT_VIAS_BOSQUE",
-  "music": "2",
+  "music": "MUS_GSC_RUINS_OF_ALPH",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -156,6 +156,62 @@
       "elevation": 3,
       "item": "ITEM_KASIB_BERRY",
       "flag": "FLAG_NUEVA_631"
+    },
+    {
+      "type": "hidden_item",
+      "x": 12,
+      "y": 48,
+      "elevation": 3,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_NUEVA_761"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 61,
+      "elevation": 3,
+      "item": "ITEM_PECHA_BERRY",
+      "flag": "FLAG_NUEVA_762"
+    },
+    {
+      "type": "hidden_item",
+      "x": 49,
+      "y": 56,
+      "elevation": 3,
+      "item": "ITEM_BUG_GEM",
+      "flag": "FLAG_NUEVA_763"
+    },
+    {
+      "type": "hidden_item",
+      "x": 34,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_LUMINOUS_MOSS",
+      "flag": "FLAG_NUEVA_764"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 19,
+      "elevation": 3,
+      "item": "ITEM_GRASSY_SEED",
+      "flag": "FLAG_NUEVA_765"
+    },
+    {
+      "type": "hidden_item",
+      "x": 27,
+      "y": 30,
+      "elevation": 3,
+      "item": "ITEM_LUM_BERRY",
+      "flag": "FLAG_NUEVA_766"
+    },
+    {
+      "type": "hidden_item",
+      "x": 6,
+      "y": 26,
+      "elevation": 3,
+      "item": "ITEM_ABSORB_BULB",
+      "flag": "FLAG_NUEVA_767"
     }
   ]
 }

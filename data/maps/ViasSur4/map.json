@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_SUR4",
   "name": "ViasSur4",
   "layout": "LAYOUT_VIAS_SUR4",
-  "music": "2",
+  "music": "MUS_B_PYRAMID",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

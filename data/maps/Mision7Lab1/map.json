@@ -2,7 +2,7 @@
   "id": "MAP_MISION7LAB1",
   "name": "Mision7Lab1",
   "layout": "LAYOUT_MISION7LAB1",
-  "music": "MUS_AQUA_MAGMA_HIDEOUT",
+  "music": "MUS_GSC_BURN_TOWER",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": true,
   "weather": "WEATHER_NONE",
@@ -26,6 +26,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Mision7Lab4_Combate_Mewtwo",
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 3,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Lab1_EventScript_BurnRom",
+      "flag": "FLAG_NUEVA_665"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 23,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Lab1_EventScript_Telescopio",
+      "flag": "FLAG_NUEVA_666"
     }
   ],
   "warp_events": [

@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_SUR",
   "name": "ViasSur",
   "layout": "LAYOUT_VIAS_SUR",
-  "music": "1",
+  "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -72,6 +72,29 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_COLBUR_BERRY",
+      "flag": "FLAG_NUEVA_768"
+    },
+    {
+      "type": "hidden_item",
+      "x": 5,
+      "y": 43,
+      "elevation": 3,
+      "item": "ITEM_AGUAV_BERRY",
+      "flag": "FLAG_NUEVA_769"
+    },
+    {
+      "type": "hidden_item",
+      "x": 13,
+      "y": 77,
+      "elevation": 3,
+      "item": "ITEM_RAWST_BERRY",
+      "flag": "FLAG_NUEVA_770"
+    }
   ]
 }

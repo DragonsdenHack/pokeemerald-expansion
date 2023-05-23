@@ -2,7 +2,7 @@
   "id": "MAP_CULTO_S4",
   "name": "CultoS4",
   "layout": "LAYOUT_CULTO_S4",
-  "music": "1",
+  "music": "MUS_BASEPROFUNDA",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

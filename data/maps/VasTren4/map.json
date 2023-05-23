@@ -2,7 +2,7 @@
   "id": "MAP_VAS_TREN4",
   "name": "VasTren4",
   "layout": "LAYOUT_VAS_TREN4",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -150,6 +150,61 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 26,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_LUMINOUS_MOSS",
+      "flag": "FLAG_NUEVA_742"
+    },
+    {
+      "type": "hidden_item",
+      "x": 42,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_WHITE_HERB",
+      "flag": "FLAG_NUEVA_743"
+    },
+    {
+      "type": "hidden_item",
+      "x": 59,
+      "y": 3,
+      "elevation": 3,
+      "item": "ITEM_LEPPA_BERRY",
+      "flag": "FLAG_NUEVA_744"
+    },
+    {
+      "type": "hidden_item",
+      "x": 70,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_ELECTRIC_SEED",
+      "flag": "FLAG_NUEVA_745"
+    },
+    {
+      "type": "hidden_item",
+      "x": 91,
+      "y": 4,
+      "elevation": 3,
+      "item": "ITEM_CHESTO_BERRY",
+      "flag": "FLAG_NUEVA_746"
+    },
+    {
+      "type": "hidden_item",
+      "x": 116,
+      "y": 18,
+      "elevation": 3,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_NUEVA_747"
+    },
+    {
+      "type": "hidden_item",
+      "x": 110,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_BIG_ROOT",
+      "flag": "FLAG_NUEVA_748"
+    }
   ]
 }

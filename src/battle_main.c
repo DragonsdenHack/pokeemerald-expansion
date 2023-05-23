@@ -4913,6 +4913,8 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_CHAMPION:
             PlayBGM(MUS_VICTORY_LEAGUE);
             break;
+        case TRAINER_CLASS_MIGUEL:
+        case TRAINER_CLASS_CULTISTA:
         case TRAINER_CLASS_TEAM_AQUA:
         case TRAINER_CLASS_TEAM_MAGMA:
         case TRAINER_CLASS_AQUA_ADMIN:
@@ -4923,6 +4925,12 @@ static void HandleEndTurn_BattleWon(void)
             break;
         case TRAINER_CLASS_LEADER:
             PlayBGM(MUS_VICTORY_GYM_LEADER);
+            break;
+        case TRAINER_CLASS_EMPERADOR:
+        case TRAINER_CLASS_GIOVANNI:
+        case TRAINER_CLASS_OAK:
+        case TRAINER_CLASS_ATLAS:
+            PlayBGM(MUS_RG_VICTORY_GYM_LEADER);
             break;
         default:
             PlayBGM(MUS_VICTORY_TRAINER);

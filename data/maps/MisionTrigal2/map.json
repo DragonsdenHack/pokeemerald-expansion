@@ -2,7 +2,7 @@
   "id": "MAP_MISION_TRIGAL2",
   "name": "MisionTrigal2",
   "layout": "LAYOUT_MISION_TRIGAL2",
-  "music": "2",
+  "music": "MUS_GSC_RUINS_OF_ALPH",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionTrigal2_EventScript_MaxRevivir",
+      "flag": "FLAG_NUEVA_695"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionTrigal2_EventScript_Ether",
+      "flag": "FLAG_NUEVA_696"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionTrigal2_EventScript_Restauratodo",
+      "flag": "FLAG_NUEVA_694"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",

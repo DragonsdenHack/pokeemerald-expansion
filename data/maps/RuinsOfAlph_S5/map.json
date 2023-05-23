@@ -2,7 +2,7 @@
   "id": "MAP_RUINS_OF_ALPH_S5",
   "name": "RuinsOfAlph_S5",
   "layout": "LAYOUT_RUINS_OF_ALPH_S5",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_BASEPROFUNDA",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

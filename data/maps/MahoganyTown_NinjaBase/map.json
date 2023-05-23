@@ -2,7 +2,7 @@
   "id": "MAP_MAHOGANY_TOWN_NINJA_BASE",
   "name": "MahoganyTown_NinjaBase",
   "layout": "LAYOUT_MAHOGANY_TOWN_NINJA_BASE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_SEVII_67",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

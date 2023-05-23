@@ -2,7 +2,7 @@
   "id": "MAP_LAVENDER_RADIO_P6",
   "name": "LavenderRadioP6",
   "layout": "LAYOUT_LAVENDER_RADIO_P6",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GSC_ROCKET_HIDEOUT",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "LavandaRadio6_EventScript_Paraguas",
+      "flag": "FLAG_NUEVA_647"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",

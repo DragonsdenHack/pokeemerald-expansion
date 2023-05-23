@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_SUR3",
   "name": "ViasSur3",
   "layout": "LAYOUT_VIAS_SUR3",
-  "music": "2",
+  "music": "MUS_B_PYRAMID",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -89,6 +89,13 @@
     }
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 137,
+      "y": 4,
+      "elevation": 3,
+      "item": "ITEM_LEPPA_BERRY",
+      "flag": "FLAG_NUEVA_774"
+    }
   ]
 }

@@ -7273,6 +7273,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_AQUA_LEADER:
         case TRAINER_CLASS_MAGMA_LEADER:
             return MUS_VS_AQUA_MAGMA_LEADER;
+        case TRAINER_CLASS_CULTISTA:
         case TRAINER_CLASS_TEAM_AQUA:
         case TRAINER_CLASS_TEAM_MAGMA:
         case TRAINER_CLASS_AQUA_ADMIN:
@@ -7298,6 +7299,22 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PIKE_QUEEN:
         case TRAINER_CLASS_PYRAMID_KING:
             return MUS_VS_FRONTIER_BRAIN;
+         case TRAINER_CLASS_EMPERADOR:
+            return 572;
+        case TRAINER_CLASS_ALTOMANDO:
+            return MUS_RG_VS_GYM_LEADER; 
+        case TRAINER_CLASS_PRESIDENTE:
+            return MUS_RG_SILPH;
+        case TRAINER_CLASS_GIOVANNI:
+            return 583;
+         case TRAINER_CLASS_ANDRA:
+            return 569;
+        case TRAINER_CLASS_MIGUEL:
+            return 574;
+        case TRAINER_CLASS_ATLAS:
+            return 570;
+        case TRAINER_CLASS_OAK:
+            return 575;
         default:
             return MUS_VS_TRAINER;
         }

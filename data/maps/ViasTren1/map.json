@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_TREN1",
   "name": "ViasTren1",
   "layout": "LAYOUT_VIAS_TREN1",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -119,7 +119,7 @@
   ],
   "warp_events": [
     {
-      "x": 17,
+      "x": 18,
       "y": 0,
       "elevation": 0,
       "dest_map": "MAP_CUEVA_GIMNASIO_TRIGAL",
@@ -130,6 +130,37 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 30,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_REVIVAL_HERB",
+      "flag": "FLAG_NUEVA_721"
+    },
+    {
+      "type": "hidden_item",
+      "x": 55,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_ELECTRIC_SEED",
+      "flag": "FLAG_NUEVA_722"
+    },
+    {
+      "type": "hidden_item",
+      "x": 83,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_LUMINOUS_MOSS",
+      "flag": "FLAG_NUEVA_723"
+    },
+    {
+      "type": "hidden_item",
+      "x": 120,
+      "y": 6,
+      "elevation": 3,
+      "item": "ITEM_HEART_SCALE",
+      "flag": "FLAG_NUEVA_724"
+    }
   ]
 }

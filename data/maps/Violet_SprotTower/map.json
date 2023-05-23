@@ -2,7 +2,7 @@
   "id": "MAP_VIOLET_SPROT_TOWER",
   "name": "Violet_SprotTower",
   "layout": "LAYOUT_VIOLET_SPROT_TOWER",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GSC_BELLSPROUT_TOWER",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

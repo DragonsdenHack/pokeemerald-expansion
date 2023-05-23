@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_BURNED_TOWER",
   "name": "Ecruteak_BurnedTower",
   "layout": "LAYOUT_ECRUTEAK_BURNED_TOWER",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GSC_BURN_TOWER",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

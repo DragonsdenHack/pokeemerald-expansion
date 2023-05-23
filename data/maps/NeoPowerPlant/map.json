@@ -2,7 +2,7 @@
   "id": "MAP_NEO_POWER_PLANT",
   "name": "NeoPowerPlant",
   "layout": "LAYOUT_NEO_POWER_PLANT",
-  "music": "2",
+  "music": "MUS_GSC_PEWTER",
   "region_map_section": "MAPSEC_POWER_PLANT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -1070,3 +1070,65 @@ Johto_Floristeria_Trigal_Mercado_Pokemart:
 	.2byte ITEM_NONE
 	release
 	end
+
+
+
+BosqueGimnasio_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart BosqueGimnasio_Mercado_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BosqueGimnasio_Mercado_Pokemart:
+    .2byte 550
+    .2byte 551
+	.2byte 552
+	.2byte 553
+	.2byte 554
+	.2byte 555
+	.2byte 556
+	.2byte 557
+	.2byte 558
+	.2byte 559
+	.2byte 560
+	.2byte 561
+	.2byte 562
+	.2byte 563
+	.2byte 564
+	.2byte 565
+	.2byte 566
+	.2byte 567
+	.2byte ITEM_NONE
+	release
+	end
+
+
+BosqueGimnasio_EventScript_Clerk_2::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart BosqueGimnasio_Mercado_2_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+BosqueGimnasio_Mercado_2_Pokemart:
+    .2byte 458
+    .2byte 430
+	.2byte 452
+	.2byte 453
+	.2byte 454
+	.2byte 455
+	.2byte 580
+	.2byte 581
+	.2byte ITEM_NONE
+	release
+	end
+

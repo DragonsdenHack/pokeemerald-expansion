@@ -2028,6 +2028,220 @@ finditem ITEM_RED_CARD
 LavandaRadio5_EventScript_Pila::
 finditem ITEM_CELL_BATTERY
 
+LavandaRadio5_EventScript_Refleluz::
+finditem ITEM_LIGHT_CLAY
+
+LavandaRadio6_EventScript_Paraguas::
+finditem ITEM_UTILITY_UMBRELLA
+
+NeoCinnabar_EventScript_PolvoBrillo::
+finditem ITEM_BRIGHT_POWDER
+
+NeoCinnabar_EventScript_Carbon::
+finditem ITEM_CHARCOAL
+
+Volcan_EventScript_Roca::
+finditem ITEM_HEAT_ROCK
+
+Volcan_EventScript_Gafas::
+finditem ITEM_WISE_GLASSES
+
+Lab4_EventScript_Magmatizer::
+finditem ITEM_MAGMARIZER
+
+Volcan_EventScript_Llamasfera::
+finditem ITEM_FLAME_ORB
+
+Lab4_EventScript_Escape::
+finditem ITEM_EJECT_BUTTON
+
+Lab4_EventScript_Elixir::
+finditem ITEM_ELIXIR
+
+Lab4_EventScript_MasterBall::
+finditem ITEM_MASTER_BALL
+
+Lab5_EventScript_CrioRom::
+finditem ITEM_CHILL_DRIVE
+
+Lab5_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+
+Lab5_EventScript_Chaleco::
+finditem ITEM_ASSAULT_VEST
+
+Lab5_EventScript_PPUP::
+finditem ITEM_PP_UP
+
+Lab5_EventScript_ShowRom::
+finditem ITEM_SHOCK_DRIVE
+
+Lab2_EventScript_HydroRom::
+finditem ITEM_DOUSE_DRIVE
+
+Lab1_EventScript_BurnRom::
+finditem ITEM_BURN_DRIVE
+
+Lab1_EventScript_Telescopio::
+finditem ITEM_ZOOM_LENS
+
+BaseHoenn_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+
+BaseHoenn_EventScript_Garra::
+finditem ITEM_RAZOR_CLAW
+
+BaseHoenn_EventScript_UltraBall::
+finditem ITEM_ULTRA_BALL
+
+BaseHoenn_EventScript_Hechizo::
+finditem ITEM_SPELL_TAG
+
+Cementerio_EventScript_Blanco::
+finditem ITEM_RING_TARGET
+
+Cementerio_EventScript_MaxRepel::
+finditem ITEM_MAX_REPEL
+
+Cementerio_EventScript_Carameloraro::
+finditem ITEM_RARE_CANDY
+
+Cementerio_EventScript_MaxEther::
+finditem ITEM_MAX_ETHER
+
+Cementerio2_EventScript_Piedraeterna::
+finditem ITEM_EVERSTONE
+
+Cementerio2_EventScript_DuskBall::
+finditem ITEM_DUSK_BALL
+
+Cementerio2_EventScript_Atadura::
+finditem ITEM_BINDING_BAND
+
+Cementerio2_EventScript_MaxRepel::
+finditem ITEM_MAX_REPEL
+
+Cementerio2_EventScript_Incienso::
+finditem ITEM_ODD_INCENSE
+
+
+BosqueGym_EventScript_Setagigante::
+finditem ITEM_BALM_MUSHROOM
+
+BosqueGym_EventScript_Incienso::
+finditem ITEM_PURE_INCENSE
+
+BosqueGym_EventScript_Musgo::
+finditem ITEM_LUMINOUS_MOSS
+
+Magma2_EventScript_PiedraFuego::
+finditem ITEM_FIRE_STONE
+
+Magma2_EventScript_Gema::
+finditem ITEM_FIRE_GEM
+
+Magma2_EventScript_Roca::
+finditem ITEM_HEAT_ROCK
+
+Magma2_EventScript_PPUP::
+finditem ITEM_PP_UP
+
+Aqua1_EventScript_PiedraAgua::
+finditem ITEM_WATER_STONE
+
+Aqua1_EventScript_Gema::
+finditem ITEM_WATER_GEM
+
+Aqua1_EventScript_Roca::
+finditem ITEM_DAMP_ROCK
+
+Aqua1_EventScript_PPUP::
+finditem ITEM_PP_UP
+
+MisionTrigal2_EventScript_Restauratodo::
+finditem ITEM_FULL_RESTORE
+
+MisionTrigal2_EventScript_MaxRevivir::
+finditem ITEM_MAX_REVIVE
+
+MisionTrigal2_EventScript_Ether::
+finditem ITEM_ETHER
+
+MisionTrigal3_EventScript_PPMAX::
+finditem ITEM_PP_MAX
+
+MisionTrigal4_EventScript_Pepita::
+finditem ITEM_NUGGET
+
+MisionTrigal4_EventScript_Protector::
+finditem ITEM_PROTECTOR
+
+MisionIrisLab_EventScript_Sharpedonite::
+finditem ITEM_SHARPEDONITE
+
+CuevaTesoro1_EventScript_TrozoEstrella::
+finditem ITEM_STAR_PIECE
+
+CuevaTesoro1_EventScript_PerlaGrande::
+finditem ITEM_BIG_PEARL
+
+CuevaTesoro1_EventScript_Ether::
+finditem ITEM_ETHER
+
+CuevaTesoro1_EventScript_Maxpocion::
+finditem ITEM_MAX_POTION
+
+CuevaTesoro2_EventScript_SartaPerlas::
+finditem ITEM_PEARL_STRING
+
+CuevaTesoro3_EventScript_PerlaGrande::
+finditem ITEM_BIG_PEARL
+
+CuevaTesoro3_EventScript_MaxRevive::
+finditem ITEM_MAX_REVIVE
+
+CuevaTesoro3_EventScript_CometShard::
+finditem ITEM_COMET_SHARD
+
+CuevaTesoro4_EventScript_StarPiece::
+finditem ITEM_STAR_PIECE
+
+CuevaTesoro4_EventScript_Pepita::
+finditem ITEM_NUGGET
+
+CuevaTesoro4_EventScript_NetBall::
+finditem ITEM_NET_BALL
+
+CuevaTesoro4_EventScript_Elixir::
+finditem ITEM_ELIXIR
+
+TinTower4_EventScript_CenSagrada::
+finditem ITEM_SACRED_ASH
+
+Carbon1_EventScript_MaxPocion::
+finditem ITEM_MAX_POTION
+
+Carbon1_EventScript_Semilla::
+finditem ITEM_ELECTRIC_SEED
+
+Carbon1_EventScript_Piedratrueno::
+finditem ITEM_THUNDER_STONE
+
+Carbon1_EventScript_Ether::
+finditem ITEM_ETHER
+
+Carbon2_EventScript_PiedraFuego::
+finditem ITEM_FIRE_STONE
+
+Carbon2_EventScript_MaxElixir::
+finditem ITEM_MAX_ELIXIR
+
+Carbon2_EventScript_Magnet::
+finditem ITEM_MAGNET
+
+Carbon2_EventScript_Electrizador::
+finditem ITEM_ELECTIRIZER
+
 
 
 

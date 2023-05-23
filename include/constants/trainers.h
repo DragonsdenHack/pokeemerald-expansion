@@ -458,6 +458,15 @@
 #define TRAINER_CLASS_PIKE_QUEEN     0x3f
 #define TRAINER_CLASS_PYRAMID_KING   0x40
 #define TRAINER_CLASS_RS_PROTAG      0x41
+#define TRAINER_CLASS_EMPERADOR      0x42
+#define TRAINER_CLASS_ALTOMANDO      0x43
+#define TRAINER_CLASS_CULTISTA       0x44
+#define TRAINER_CLASS_PRESIDENTE     0x45
+#define TRAINER_CLASS_GIOVANNI       0x46
+#define TRAINER_CLASS_ANDRA          0x47
+#define TRAINER_CLASS_MIGUEL         0x48
+#define TRAINER_CLASS_ATLAS          0x49
+#define TRAINER_CLASS_OAK            0x4a
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

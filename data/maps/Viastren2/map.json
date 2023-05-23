@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_TREN2",
   "name": "ViasTren2",
   "layout": "LAYOUT_VIAS_TREN2",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -163,6 +163,69 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 5,
+      "elevation": 3,
+      "item": "ITEM_LUM_BERRY",
+      "flag": "FLAG_NUEVA_725"
+    },
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 16,
+      "elevation": 3,
+      "item": "ITEM_TINY_MUSHROOM",
+      "flag": "FLAG_TEMP_1"
+    },
+    {
+      "type": "hidden_item",
+      "x": 41,
+      "y": 7,
+      "elevation": 3,
+      "item": "ITEM_GRASS_GEM",
+      "flag": "FLAG_NUEVA_727"
+    },
+    {
+      "type": "hidden_item",
+      "x": 49,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_ROCK_INCENSE",
+      "flag": "FLAG_NUEVA_728"
+    },
+    {
+      "type": "hidden_item",
+      "x": 71,
+      "y": 13,
+      "elevation": 3,
+      "item": "ITEM_PERSIM_BERRY",
+      "flag": "FLAG_NUEVA_729"
+    },
+    {
+      "type": "hidden_item",
+      "x": 81,
+      "y": 3,
+      "elevation": 3,
+      "item": "ITEM_GRASSY_SEED",
+      "flag": "FLAG_NUEVA_730"
+    },
+    {
+      "type": "hidden_item",
+      "x": 102,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_BIG_MUSHROOM",
+      "flag": "FLAG_NUEVA_731"
+    },
+    {
+      "type": "hidden_item",
+      "x": 119,
+      "y": 1,
+      "elevation": 3,
+      "item": "ITEM_AGUAV_BERRY",
+      "flag": "FLAG_NUEVA_732"
+    }
   ]
 }

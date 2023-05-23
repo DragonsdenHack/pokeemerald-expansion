@@ -1805,4 +1805,29 @@ BaseRocketHoennS2_Dialogo_Andra_Texto_9:
 .string "¡Así podrás pisar HOENN por primera vez,\n"
 	.string "3 regiones ya! ¿Hasta cuándo?$"
 
+BaseRocketHoennS2_7_NPC::
+lock
+faceplayer
+msgbox BaseRocketHoennS2_7_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+BaseRocketHoennS2_7_NPC_Texto_1:
+.string "El trabajo te destruye el alma\n"
+	.string "invadiéndote furtivamente el cerebro\l"
+	.string "durante las horas que, oficialmente, no\l"
+	.string "dedicas a trabajar; sé selectivo con\l"
+	.string "las profesiones.$"
+
+BaseRocketHoennS2_14_NPC::
+lock
+faceplayer
+msgbox BaseRocketHoennS2_14_NPC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+BaseRocketHoennS2_14_NPC_Texto_1:
+.string "Solo puedes insultar a un paleto en su\n"
+	.string "propio lenguaje.$"
+
 

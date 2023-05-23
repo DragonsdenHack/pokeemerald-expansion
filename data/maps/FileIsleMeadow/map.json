@@ -118,7 +118,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BLUE",
-      "x": 12,
+      "x": 11,
       "y": 22,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -141,6 +141,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FileIsleMeadow_Recluta_Balls",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "x": 13,
+      "y": 30,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route51_Combate_Chica",
+      "flag": "0"
     }
   ],
   "warp_events": [
@@ -148,7 +161,7 @@
       "x": 12,
       "y": 21,
       "elevation": 0,
-      "dest_map": "MAP_ROCKET_WAREHOUSE",
+      "dest_map": "MAP_ROCKET_HIDEOUT_5F",
       "dest_warp_id": 0
     }
   ],

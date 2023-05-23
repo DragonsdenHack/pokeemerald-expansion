@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_RADIO_TOWER_P5",
   "name": "Goldenrod_RadioTowerP5",
   "layout": "LAYOUT_GOLDENROD_RADIO_TOWER_P5",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_BASEPROFUNDA",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

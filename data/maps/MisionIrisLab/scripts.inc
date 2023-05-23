@@ -272,3 +272,16 @@ faceplayer
 msgbox MisionIrisLab_Primer_Cientifico_Texto_12 MSGBOX_AUTOCLOSE
 release
 end
+
+MisionIrisLab_Tirtouga::
+setflag FLAG_NUEVA_702
+removeobject 5
+playfanfare MUS_OBTAIN_TMHM
+msgbox MisionIrisLab_Tirtouga_Texto_1, MSGBOX_DEFAULT
+givemon SPECIES_TIRTOUGA, 30, ITEM_NONE
+waitfanfare
+release
+end
+
+MisionIrisLab_Tirtouga_Texto_1:
+.string "¡{PLAYER} obtuvo un TIRTOUGA al Nv.30!$"

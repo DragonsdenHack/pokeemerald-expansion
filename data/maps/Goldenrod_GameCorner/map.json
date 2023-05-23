@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_GAME_CORNER",
   "name": "Goldenrod_GameCorner",
   "layout": "LAYOUT_GOLDENROD_GAME_CORNER",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GSC_GAME_CORNER",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

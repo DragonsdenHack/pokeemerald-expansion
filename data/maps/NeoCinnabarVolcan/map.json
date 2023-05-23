@@ -2,7 +2,7 @@
   "id": "MAP_NEO_CINNABAR_VOLCAN",
   "name": "NeoCinnabarVolcan",
   "layout": "LAYOUT_NEO_CINNABAR_VOLCAN",
-  "music": "2",
+  "music": "MUS_GSC_BURN_TOWER",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -39,6 +39,32 @@
       "trainer_sight_or_berry_tree_id": "4",
       "script": "NeoCinnabarVolcan_EventScript_Ladron2",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 13,
+      "y": 10,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Volcan_EventScript_Roca",
+      "flag": "FLAG_NUEVA_650"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 16,
+      "y": 30,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Volcan_EventScript_Llamasfera",
+      "flag": "FLAG_NUEVA_654"
     }
   ],
   "warp_events": [

@@ -2,7 +2,7 @@
   "id": "MAP_NEO_LAVANDA_TIENDA",
   "name": "NeoLavandaTienda",
   "layout": "LAYOUT_NEO_LAVANDA_TIENDA",
-  "music": "2",
+  "music": "MUS_RG_POKE_CENTER",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_SUR2",
   "name": "ViasSur2",
   "layout": "LAYOUT_VIAS_SUR2",
-  "music": "1",
+  "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -66,6 +66,30 @@
       "elevation": 3,
       "item": "ITEM_TAMATO_BERRY",
       "flag": "FLAG_NUEVA_636"
+    },
+    {
+      "type": "hidden_item",
+      "x": 17,
+      "y": 27,
+      "elevation": 3,
+      "item": "ITEM_REVIVAL_HERB",
+      "flag": "FLAG_NUEVA_771"
+    },
+    {
+      "type": "hidden_item",
+      "x": 9,
+      "y": 56,
+      "elevation": 3,
+      "item": "ITEM_ENERGY_ROOT",
+      "flag": "FLAG_NUEVA_772"
+    },
+    {
+      "type": "hidden_item",
+      "x": 20,
+      "y": 82,
+      "elevation": 3,
+      "item": "ITEM_ASPEAR_BERRY",
+      "flag": "FLAG_NUEVA_773"
     }
   ]
 }

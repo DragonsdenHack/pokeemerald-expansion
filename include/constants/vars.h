@@ -98,22 +98,22 @@
 #define VAR_LOTAD_SIZE_RECORD                0x404F
 #define VAR_LITTLEROOT_TOWN_STATE            0x4050
 #define VAR_OLDALE_TOWN_STATE                0x4051
-#define VAR_DEWFORD_TOWN_STATE               0x4052 // Unused Var
+#define VAR_DEWFORD_TOWN_STATE               0x4052 // SECUNDARIA HYPNO ISLA TERA
 #define VAR_LAVARIDGE_TOWN_STATE             0x4053
 #define VAR_CURRENT_SECRET_BASE              0x4054 // was probably allocated for VAR_FALLARBOR_TOWN_STATE at one point
-#define VAR_VERDANTURF_TOWN_STATE            0x4055 // Unused Var
-#define VAR_PACIFIDLOG_TOWN_STATE            0x4056 // Unused Var
+#define VAR_VERDANTURF_TOWN_STATE            0x4055 // MISION RUTA 47
+#define VAR_PACIFIDLOG_TOWN_STATE            0x4056 // MISION VIAS TREN
 #define VAR_PETALBURG_CITY_STATE             0x4057
 #define VAR_SLATEPORT_CITY_STATE             0x4058
-#define VAR_MAUVILLE_CITY_STATE              0x4059 // Unused Var
+#define VAR_MAUVILLE_CITY_STATE              0x4059 // MISION LAGO
 #define VAR_RUSTBORO_CITY_STATE              0x405A
-#define VAR_FORTREE_CITY_STATE               0x405B // Unused Var
-#define VAR_LILYCOVE_CITY_STATE              0x405C // Unused Var
+#define VAR_FORTREE_CITY_STATE               0x405B // SECUNDARIA CARBON AZALEA
+#define VAR_LILYCOVE_CITY_STATE              0x405C // CASA TRXATU
 #define VAR_MOSSDEEP_CITY_STATE              0x405D
 #define VAR_SOOTOPOLIS_CITY_STATE            0x405E
-#define VAR_EVER_GRANDE_CITY_STATE           0x405F // Unused Var
+#define VAR_EVER_GRANDE_CITY_STATE           0x405F // SECUNDARIA JOHTO PUB CIUDAD OLIVO SUBTERRANEOS TRIGAL
 #define VAR_ROUTE101_STATE                   0x4060
-#define VAR_ROUTE102_STATE                   0x4061 // Unused Var
+#define VAR_ROUTE102_STATE                   0x4061 // SECUNDARIA JOHTO FOSILES RUINAS ALFA
 #define VAR_ROUTE103_STATE                   0x4062 // ENTRENADOR ESPECIAL MT.ASCUAS
 #define VAR_ROUTE104_STATE                   0x4063
 #define VAR_ROUTE105_STATE                   0x4064 // GIMNASIO AZAFRAN // ENCUENTRO MAGNO, INICIO EN VALOR 3 // 4//
@@ -252,10 +252,10 @@
 #define VAR_DAILY_PLANTED_BERRIES            0x40E9
 #define VAR_DAILY_PICKED_BERRIES             0x40EA
 #define VAR_DAILY_ROULETTE                   0x40EB
-#define VAR_SECRET_BASE_STEP_COUNTER         0x40EC // Used by Secret Base TV programs
-#define VAR_SECRET_BASE_LAST_ITEM_USED       0x40ED // Used by Secret Base TV programs
-#define VAR_SECRET_BASE_LOW_TV_FLAGS         0x40EE // Used by Secret Base TV programs
-#define VAR_SECRET_BASE_HIGH_TV_FLAGS        0x40EF // Used by Secret Base TV programs
+#define VAR_SECRET_BASE_STEP_COUNTER         0x40EC // Combate Maroghost
+#define VAR_SECRET_BASE_LAST_ITEM_USED       0x40ED // Combate Ghost
+#define VAR_SECRET_BASE_LOW_TV_FLAGS         0x40EE // Combate Kabutops Skel// valor 7// SECUNDARIA CAMPEON VENENO
+#define VAR_SECRET_BASE_HIGH_TV_FLAGS        0x40EF // Combate Aerodactyl Skel// SECUNDARIA CAMPEONA FANTASMA
 #define VAR_SECRET_BASE_IS_NOT_LOCAL         0x40F0 // Set to TRUE while in another player's secret base.
 #define VAR_DAILY_BP                         0x40F1
 #define VAR_WALLY_CALL_STEP_COUNTER          0x40F2
@@ -270,7 +270,7 @@
 #define VAR_UNUSED_0x40FB                    0x40FB // Unused Var // Evento Karatekas en ruta 4 (0)
 #define VAR_UNUSED_0x40FC                    0x40FC // Unused Var // Frontera Este Carmin// (0) //Frontera Celeste (1) // Frontera Celeste antes de Petrel post Mt.moon (2)
 #define VAR_UNUSED_0x40FD                    0x40FD // Unused Var // Policías Azafrán Fronteras (1), Pegaso entrenando (2)
-#define VAR_UNUSED_0x40FE                    0x40FE // Unused Var // Encuentro Mirto (1)
+#define VAR_UNUSED_0x40FE                    0x40FE // Unused Var // Encuentro Mirto (1) // 4 
 #define VAR_UNUSED_0x40FF                    0x40FF // Unused Var // Casa de bill no entrar después evento
 
 #define VARS_END                             0x40FF

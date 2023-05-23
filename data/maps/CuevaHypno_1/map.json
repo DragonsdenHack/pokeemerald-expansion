@@ -2,7 +2,7 @@
   "id": "MAP_CUEVA_HYPNO_1",
   "name": "CuevaHypno_1",
   "layout": "LAYOUT_CUEVA_HYPNO_1",
-  "music": "2",
+  "music": "MUS_WEATHER_GROUDON",
   "region_map_section": "MAPSEC_THREE_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

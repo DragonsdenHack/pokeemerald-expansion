@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_HOUSE1",
   "name": "Ecruteak_House1",
   "layout": "LAYOUT_ECRUTEAK_HOUSE1",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GSC_ECRUTEAK_CITY",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

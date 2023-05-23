@@ -2,7 +2,7 @@
   "id": "MAP_CAMARA_LARVESTA",
   "name": "Camara_Larvesta",
   "layout": "LAYOUT_CAMARA_LARVESTA",
-  "music": "2",
+  "music": "MUS_BW_CASTILLO",
   "region_map_section": "MAPSEC_SEVII_ISLE_8",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

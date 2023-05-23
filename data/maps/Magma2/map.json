@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Magma2_5",
-      "flag": "0"
+      "script": "Magma2_EventScript_Roca",
+      "flag": "FLAG_NUEVA_688"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAGMA_MEMBER_M",
@@ -115,8 +115,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Magma2_8",
-      "flag": "0"
+      "script": "Magma2_EventScript_Gema",
+      "flag": "FLAG_NUEVA_687"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -128,8 +128,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Magma2_9",
-      "flag": "0"
+      "script": "Magma2_EventScript_PiedraFuego",
+      "flag": "FLAG_NUEVA_686"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -141,8 +141,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Magma2_10",
-      "flag": "0"
+      "script": "Magma2_EventScript_PPUP",
+      "flag": "FLAG_NUEVA_689"
     }
   ],
   "warp_events": [

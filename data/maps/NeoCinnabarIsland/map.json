@@ -2,7 +2,7 @@
   "id": "MAP_NEO_CINNABAR_ISLAND",
   "name": "NeoCinnabarIsland",
   "layout": "LAYOUT_NEO_CINNABAR_ISLAND",
-  "music": "2",
+  "music": "MUS_RG_CINNABAR",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -30,8 +30,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "NeoCinnabar_EventScript_PolvoBrillo",
+      "flag": "FLAG_NUEVA_648"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -43,8 +43,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "NeoCinnabar_EventScript_Carbon",
+      "flag": "FLAG_NUEVA_649"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROF_OAK",

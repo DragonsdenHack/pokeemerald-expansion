@@ -314,3 +314,35 @@ PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4:
 	.string "GIOVANNI requiere tu presencia, te\l"
 	.string "estará esperando en su despacho\l"
 	.string "dentro de la BASE ROCKET PROFUNDA.$"
+
+
+PalletTown_ProfessorLab_Genesect::
+lock     
+showmonpic SPECIES_GENESECT, 10, 3   
+playmoncry SPECIES_GENESECT, CRY_MODE_ENCOUNTER
+msgbox PalletTown_ProfessorLab_Genesect_Texto_1, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq PalletTown_ProfessorLab_Genesect_No
+hidemonpic
+setflag FLAG_NUEVA_658
+removeobject 1
+playfanfare MUS_OBTAIN_TMHM
+msgbox PalletTown_ProfessorLab_Genesect_Texto_3, MSGBOX_DEFAULT
+givemon SPECIES_GENESECT, 70, ITEM_CHOICE_SCARF
+waitfanfare
+release
+end
+
+PalletTown_ProfessorLab_Genesect_Texto_3:
+.string "¡{PLAYER} obtuvo un GENESECT al Nv.70!$"
+
+PalletTown_ProfessorLab_Genesect_No::
+hidemonpic
+release
+end
+
+PalletTown_ProfessorLab_Genesect_Texto_1:
+.string "Esta POKÉ BALL contiene a GENESECT, un\n"
+	.string "raro experimento de una región lejana.\l"
+	.string "Nadie la necesita ya, ¿quieres\l"
+	.string "quedarte con el pOKÉMON?$"

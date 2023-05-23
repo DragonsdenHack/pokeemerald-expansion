@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_TREN_CASA_CAMPEON",
   "name": "ViasTrenCasaCampeon",
   "layout": "LAYOUT_VIAS_TREN_CASA_CAMPEON",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_GSC_RUINS_OF_ALPH",
   "region_map_section": "MAPSEC_ROUTE_4_FLYDUP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -59,8 +59,8 @@
       "x": 3,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_GOLDENROD_RADIO_TOWER_P5",
-      "dest_warp_id": 0
+      "dest_map": "MAP_VIAS_BOSQUE",
+      "dest_warp_id": 3
     }
   ],
   "coord_events": [

@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_TREN3NORTE",
   "name": "ViasTren3Norte",
   "layout": "LAYOUT_VIAS_TREN3NORTE",
-  "music": "1",
+  "music": "MUS_ROUTE120",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -54,6 +54,29 @@
 
   ],
   "bg_events": [
-
+    {
+      "type": "hidden_item",
+      "x": 15,
+      "y": 21,
+      "elevation": 3,
+      "item": "ITEM_GREPA_BERRY",
+      "flag": "FLAG_NUEVA_758"
+    },
+    {
+      "type": "hidden_item",
+      "x": 21,
+      "y": 17,
+      "elevation": 3,
+      "item": "ITEM_POMEG_BERRY",
+      "flag": "FLAG_NUEVA_759"
+    },
+    {
+      "type": "hidden_item",
+      "x": 18,
+      "y": 28,
+      "elevation": 3,
+      "item": "ITEM_MISTY_SEED",
+      "flag": "FLAG_NUEVA_760"
+    }
   ]
 }
