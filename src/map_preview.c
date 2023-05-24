@@ -99,6 +99,9 @@ static const u8 sIcefallCaveMapPreviewTilemap[] = INCBIN_U8("graphics/map_previe
 static const u8 sAlteringCaveMapPreviewPalette[] = INCBIN_U8("graphics/map_preview/altering_cave_pal.gbapal");
 static const u8 sAlteringCaveMapPreviewTiles[] = INCBIN_U8("graphics/map_preview/altering_cave_tiles.4bpp.lz");
 static const u8 sAlteringCaveMapPreviewTilemap[] = INCBIN_U8("graphics/map_preview/altering_cave_tilemap.bin");
+static const u8 sRuinsOfAlphMapPreviewTiles[] = INCBIN_U8("graphics/map_preview/alpha2.4bpp.lz");
+static const u8 sRuinsOfAlphMapPreviewPalette[] = INCBIN_U8("graphics/map_preview/alpha2.gbapal");
+static const u8 sRuinsOfAlphMapPreviewTilemap[] = INCBIN_U8("graphics/map_preview/alpha2.bin");
 
 static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
 {
@@ -131,9 +134,9 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
         #if FLAG_BASED_MAP_PREVIEW_TIME
         .flagId = FLAG_VISITED_METEOR_FALLS, //flag needs to be added to constants/flags.h
         #endif
-        .tilesptr = sRockTunnelMapPreviewTiles,
-        .tilemapptr = sRockTunnelMapPreviewTilemap,
-        .palptr = sRocketHideoutMapPreviewPalette
+        .tilesptr = sRuinsOfAlphMapPreviewTiles,
+        .tilemapptr = sRuinsOfAlphMapPreviewTilemap,
+        .palptr = sRuinsOfAlphMapPreviewPalette
     },
 	
     //etc...
