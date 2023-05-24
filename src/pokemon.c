@@ -7270,17 +7270,19 @@ u16 GetBattleBGM(void)
 
         switch (trainerClass)
         {
-        case TRAINER_CLASS_AQUA_LEADER:
-        case TRAINER_CLASS_MAGMA_LEADER:
+        case TRAINER_CLASS_ADMINISTRADOR:
+        case TRAINER_CLASS_AQUA_ADMIN:
+        case TRAINER_CLASS_MAGMA_ADMIN:
             return MUS_VS_AQUA_MAGMA_LEADER;
         case TRAINER_CLASS_CULTISTA:
         case TRAINER_CLASS_TEAM_AQUA:
         case TRAINER_CLASS_TEAM_MAGMA:
-        case TRAINER_CLASS_AQUA_ADMIN:
-        case TRAINER_CLASS_MAGMA_ADMIN:
+    
             return MUS_VS_AQUA_MAGMA;
         case TRAINER_CLASS_LEADER:
             return MUS_VS_GYM_LEADER;
+        case TRAINER_CLASS_AQUA_LEADER:
+        case TRAINER_CLASS_MAGMA_LEADER:
         case TRAINER_CLASS_CHAMPION:
             return MUS_VS_CHAMPION;
         case TRAINER_CLASS_RIVAL:
@@ -7290,6 +7292,7 @@ u16 GetBattleBGM(void)
                 return MUS_VS_TRAINER;
             return MUS_VS_RIVAL;
         case TRAINER_CLASS_ELITE_FOUR:
+        case TRAINER_CLASS_CAPITAN:
             return MUS_VS_ELITE_FOUR;
         case TRAINER_CLASS_SALON_MAIDEN:
         case TRAINER_CLASS_DOME_ACE:
@@ -7300,6 +7303,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_PYRAMID_KING:
             return MUS_VS_FRONTIER_BRAIN;
          case TRAINER_CLASS_EMPERADOR:
+         case TRAINER_CLASS_EXCAMPEON:
             return 572;
         case TRAINER_CLASS_ALTOMANDO:
             return MUS_RG_VS_GYM_LEADER; 
@@ -7315,8 +7319,56 @@ u16 GetBattleBGM(void)
             return 570;
         case TRAINER_CLASS_OAK:
             return 575;
+        case TRAINER_CLASS_KANTO:
+            return MUS_RG_VS_GYM_LEADER;
+        case TRAINER_CLASS_SEVII:
+        case TRAINER_CLASS_JOHTO:
+            return 584;
+        case TRAINER_CLASS_PROTON:
+        case TRAINER_CLASS_RECLUTA:
+            return 621;
+        case TRAINER_CLASS_ZEUS:
+            return 587;
+        case TRAINER_CLASS_JONES:
+            return 576;
+        case TRAINER_CLASS_DIOS:
+            return 577;
+        case TRAINER_CLASS_RIVALES:
+            return 571;
+        case TRAINER_CLASS_ESENCIA:
+            return 573;
+        case TRAINER_CLASS_AVES:
+            return 624;
+        case TRAINER_CLASS_LIDER:
+            return 608;
+        case TRAINER_CLASS_CAMPEON:
+            return MUS_RG_VS_CHAMPION;
+        case TRAINER_CLASS_SINGULAR:
+            return 579;
+        case TRAINER_CLASS_BILL:
+            return 551;
+        case TRAINER_CLASS_FUJI:
+            return 434;
+        case TRAINER_CLASS_ANCIENT:
+            return MUS_VS_KYOGRE_GROUDON;
+        case TRAINER_CLASS_EXCULTISTA:
+            return MUS_VS_REGI;
+        case TRAINER_CLASS_NINJA:
+        case TRAINER_CLASS_LADRONJOHTO:
+        case TRAINER_CLASS_SABIO:
+        case TRAINER_CLASS_GUAYJOHTO:
+        case TRAINER_CLASS_KARATEKAJOHTO:
+        case TRAINER_CLASS_MONTANEROJOHTO:
+        case TRAINER_CLASS_JOVENJOHTO:
+        case TRAINER_CLASS_DOMADORJOHTO:
+        case TRAINER_CLASS_POKEMANIACOJOHTO:
+        case TRAINER_CLASS_PESCADORJOHTO:
+        case TRAINER_CLASS_ORNITOLOGOJOHTO:
+        case TRAINER_CLASS_DOMINGUERAJOHTO:
+        case TRAINER_CLASS_POKEGUARDAJOHTO:
+            return 622;
         default:
-            return MUS_VS_TRAINER;
+            return MUS_RG_VS_TRAINER;
         }
     }
     else

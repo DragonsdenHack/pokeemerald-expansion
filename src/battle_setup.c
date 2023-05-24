@@ -1507,6 +1507,33 @@ void PlayTrainerEncounterMusic(void)
         case TRAINER_ENCOUNTER_MUSIC_RICH:
             music = MUS_ENCOUNTER_RICH;
             break;
+        case TRAINER_ENCOUNTER_MUSIC_ROCKET:
+            music = 603;
+            break;
+        case TRAINER_ENCOUNTER_MUSIC_CHICOKANTO:
+            music = 497;
+            break;
+        case TRAINER_ENCOUNTER_MUSIC_CHICAKANTO:
+            music = 496;
+            break;
+        case TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO:
+            music = 495;
+        case TRAINER_ENCOUNTER_MUSIC_CULTISTA:
+            music = 458;
+            break;
+        case TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO:
+            music = 600;
+        case TRAINER_ENCOUNTER_MUSIC_NECIOJOHTO:
+            music = 599;
+        case TRAINER_ENCOUNTER_MUSIC_SABIOJOHTO:
+            music = 601;
+        case TRAINER_ENCOUNTER_MUSIC_CHICAJOHTO:
+            music = 598;
+        case TRAINER_ENCOUNTER_MUSIC_MATONJOHTO:
+            music = 597;
+        case TRAINER_ENCOUNTER_MUSIC_PENSADOR:
+            music = 602;
+            break;
         default:
             music = MUS_ENCOUNTER_SUSPICIOUS;
         }
