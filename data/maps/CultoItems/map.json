@@ -2,7 +2,7 @@
   "id": "MAP_CULTO_ITEMS",
   "name": "CultoItems",
   "layout": "LAYOUT_CULTO_ITEMS",
-  "music": "MUS_BASEPROFUNDA",
+  "music": "560",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

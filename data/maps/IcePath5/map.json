@@ -2,7 +2,7 @@
   "id": "MAP_ICE_PATH5",
   "name": "IcePath5",
   "layout": "LAYOUT_ICE_PATH5",
-  "music": "MUS_ROCAOMBLIGO",
+  "music": "568",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

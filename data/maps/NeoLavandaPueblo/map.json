@@ -2,7 +2,7 @@
   "id": "MAP_NEO_LAVANDA_PUEBLO",
   "name": "NeoLavandaPueblo",
   "layout": "LAYOUT_NEO_LAVANDA_PUEBLO",
-  "music": "MUS_GSC_LAVENDER_TOWN",
+  "music": "607",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

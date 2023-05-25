@@ -2,7 +2,7 @@
   "id": "MAP_CMARA_ESTE_ARCHI",
   "name": "Cmara_Este_Archi",
   "layout": "LAYOUT_CMARA_ESTE_ARCHI",
-  "music": "MUS_BW_CASTILLO",
+  "music": "563",
   "region_map_section": "MAPSEC_SEVII_ISLE_7",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_CIANWOOD_EUSINE_HOUSE",
   "name": "CianwoodEusineHouse",
   "layout": "LAYOUT_CIANWOOD_EUSINE_HOUSE",
-  "music": "MUS_GSC_ECRUTEAK_CITY",
+  "music": "590",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

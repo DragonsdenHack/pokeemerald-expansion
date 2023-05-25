@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_TIN_TOWER_P3",
   "name": "Ecruteak_TinTowerP3",
   "layout": "LAYOUT_ECRUTEAK_TIN_TOWER_P3",
-  "music": "MUS_GSC_TIN_TOWER",
+  "music": "594",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_OLIVINE_GYM",
   "name": "Olivine_Gym",
   "layout": "LAYOUT_OLIVINE_GYM",
-  "music": "MUS_GSC_GYM",
+  "music": "605",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

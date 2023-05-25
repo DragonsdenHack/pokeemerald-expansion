@@ -2,7 +2,7 @@
   "id": "MAP_MT_MORTAR",
   "name": "MtMortar",
   "layout": "LAYOUT_MT_MORTAR",
-  "music": "MUS_GSC_DARK_CAVE",
+  "music": "595",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

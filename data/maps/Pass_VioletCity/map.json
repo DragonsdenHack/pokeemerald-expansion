@@ -2,7 +2,7 @@
   "id": "MAP_PASS_VIOLET_CITY",
   "name": "Pass_VioletCity",
   "layout": "LAYOUT_PASS_VIOLET_CITY",
-  "music": "MUS_GSC_ROUTE30",
+  "music": "613",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_NEO_LAVANDA_CASA3",
   "name": "NeoLavandaCasa3",
   "layout": "LAYOUT_NEO_LAVANDA_CASA3",
-  "music": "MUS_GSC_LAVENDER_TOWN",
+  "music": "607",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

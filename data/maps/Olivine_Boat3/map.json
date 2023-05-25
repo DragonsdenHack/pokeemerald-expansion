@@ -2,7 +2,7 @@
   "id": "MAP_OLIVINE_BOAT3",
   "name": "Olivine_Boat3",
   "layout": "LAYOUT_OLIVINE_BOAT3",
-  "music": "MUSSAQUA",
+  "music": "580",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
