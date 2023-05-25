@@ -7277,7 +7277,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_CULTISTA:
         case TRAINER_CLASS_TEAM_AQUA:
         case TRAINER_CLASS_TEAM_MAGMA:
-    
+        case TRAINER_CLASS_CIENTIFICOHOENN:
             return MUS_VS_AQUA_MAGMA;
         case TRAINER_CLASS_LEADER:
             return MUS_VS_GYM_LEADER;
@@ -7323,6 +7323,7 @@ u16 GetBattleBGM(void)
             return MUS_RG_VS_GYM_LEADER;
         case TRAINER_CLASS_SEVII:
         case TRAINER_CLASS_JOHTO:
+        case TRAINER_CLASS_MAESTRO:
             return 584;
         case TRAINER_CLASS_PROTON:
         case TRAINER_CLASS_RECLUTA:
@@ -7366,7 +7367,43 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_ORNITOLOGOJOHTO:
         case TRAINER_CLASS_DOMINGUERAJOHTO:
         case TRAINER_CLASS_POKEGUARDAJOHTO:
+        case TRAINER_CLASS_JUGONJOHTO:
+        case TRAINER_CLASS_CAZABICHOSJOHTO:
+        case TRAINER_CLASS_PENSADOR:
+        case TRAINER_CLASS_MECANICOJOHTO:
+        case TRAINER_CLASS_RUINAMANIACOJOHTO:
+        case TRAINER_CLASS_NADADORJOHTO:
+        case TRAINER_CLASS_RICO:
+        case TRAINER_CLASS_CALVOJOHTO:
+        case TRAINER_CLASS_SUPERNECIOJOHTO:
+        case TRAINER_CLASS_CABALLEROJOHTO:
+        case TRAINER_CLASS_BELLAJOHTO:
+        case TRAINER_CLASS_CHICAJOHTO:
+        case TRAINER_CLASS_MALABARISTAJOHTO:
+        case TRAINER_CLASS_PAREJAJOHTO:
+        case TRAINER_CLASS_MENTALISTAJOHTO:
+        case TRAINER_CLASS_PINTORAJOHTO:
+        case TRAINER_CLASS_MARINEROJOHTO:
+        case TRAINER_CLASS_NADADORAJOHTO:
+        case TRAINER_CLASS_CHICAFUERTEJOHTO:
+        case TRAINER_CLASS_KIMONO:
+        case TRAINER_CLASS_COMEFUEGO:
+        case TRAINER_CLASS_FARERO:
+        case TRAINER_CLASS_POKEABU:
+        case TRAINER_CLASS_MOTORISTAJOHTO:
+        case TRAINER_CLASS_CIENTIFICOJOHTO:
             return 622;
+        case TRAINER_CLASS_ELM:
+            return 578;
+        case TRAINER_CLASS_MONTANEROHOENN:
+        case TRAINER_CLASS_CAMPER:
+        case TRAINER_CLASS_PICNICKER:
+        case TRAINER_CLASS_POLICIAHOENN:
+            return 476;
+        case TRAINER_CLASS_SALVAJE:
+            return 581;
+        case TRAINER_CLASS_EXPERIMENTO:
+            return 555;
         default:
             return MUS_RG_VS_TRAINER;
         }

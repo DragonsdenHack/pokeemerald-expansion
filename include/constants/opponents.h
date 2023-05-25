@@ -949,7 +949,7 @@
 #define TRAINER_TRAINER_87                   945
 #define TRAINER_TRAINER_88                   946
 #define TRAINER_TRAINER_89                   947
-#define TRAINER_TRAINER_90                   948
+#define TRAINER_TRAINER_90                   948 // LIBRE
 #define TRAINER_TRAINER_91                   949
 #define TRAINER_TRAINER_92                   950
 #define TRAINER_TRAINER_93                   951

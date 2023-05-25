@@ -14848,7 +14848,7 @@ Route49Maze_Text_SabioIntro:
 
 
 Route49Maze_Text_SabioDefeated:
-	.string "Oh, si, desde luego.$"
+	.string "Oh, sí, desde luego.$"
 
 
 Route49Maze_Text_SabioPostBattle:

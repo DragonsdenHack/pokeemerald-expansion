@@ -292,6 +292,8 @@ MisionTrigal4_Segundo_Encuentro_Texto_9:
 
 MisionTrigal4_Tercer_Encuentro::
 lock
+compare VAR_EVER_GRANDE_CITY_STATE, 3
+goto_if_gt MisionTrigal_Jefe_Final
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Segundo_Encuentro_Move_7
 msgbox MisionTrigal4_Tercer_Encuentro_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, MisionTrigal4_Tercer_Encuentro_Move_1

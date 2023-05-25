@@ -72,7 +72,7 @@ Route49_Maze_Text6:
 
 
 Route49Maze_EventScript_Sabio::
-	trainerbattle_single TRAINER_TRAINER_22, Route49Maze_Text_SabioIntro, Route49Maze_Text_SabioDefeated
+	trainerbattle_single TRAINER_TRAINER_152, Route49Maze_Text_SabioIntro, Route49Maze_Text_SabioDefeated
 	msgbox Route49Maze_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
 
