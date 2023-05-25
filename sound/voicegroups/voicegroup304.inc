@@ -80,6 +80,7 @@ voicegroup304::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
+	voice_square_1_alt 60, 0, 0, 3, 1, 0, 10, 0
 	voice_programmable_wave_alt 60, 0, ProgrammableWaveData_50782c, 0, 7, 15, 0
 	voice_square_1_alt 60, 0, 0, 3, 0, 1, 9, 1
 	voice_programmable_wave_alt 60, 0, ProgrammableWaveData_5078cc, 0, 7, 15, 0
@@ -94,7 +95,6 @@ voicegroup304::
 	voice_programmable_wave_alt 60, 0, ProgrammableWaveData_5077ec, 0, 7, 15, 0
 	voice_directsound 60, 0, DirectSoundWaveData_510550, 255, 165, 206, 127
 	voice_programmable_wave_alt 60, 0, ProgrammableWaveData_50780c, 0, 7, 15, 0
-	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0

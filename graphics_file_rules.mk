@@ -19,6 +19,7 @@ WALLPAPERGFXDIR := graphics/pokemon_storage/wallpapers
 OBJEVENTGFXDIR := graphics/object_events
 MISCGFXDIR := graphics/misc
 JPCONTESTGFXDIR := graphics/contest/japanese
+MAPPREVIEWSGFXDIR := graphics/map_preview
 
 types := normal fight flying poison ground rock bug ghost steel mystery fire water grass electric psychic ice dragon dark fairy
 contest_types := cool beauty cute smart tough
@@ -253,6 +254,11 @@ $(TILESETGFXDIR)/secondary/battle_frontier_ranking_hall/tiles.4bpp: %.4bpp: %.pn
 $(TILESETGFXDIR)/secondary/mystery_events_house/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 509
 
+
+### Map previews ###
+
+$(MAPPREVIEWSGFXDIR)/alpha2.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 400
 
 
 ### Fonts ###

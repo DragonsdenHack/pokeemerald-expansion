@@ -685,7 +685,7 @@ $(MID_SUBDIR)/mus_vs_zeus.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
 
 $(MID_SUBDIR)/mus_vs_jones.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
+	$(MID) $< $@ -E -R$(STD_REVERB) -G158 -V080	
 
 $(MID_SUBDIR)/mus_vs_bill.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G304 -V080
