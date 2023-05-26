@@ -54,7 +54,7 @@ compare VAR_RESULT, 0
 goto_if_eq Route51_Combate_Chica_No_2
 playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox Route51_Combate_Chica_Texto_6 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, Route51_Combate_Chica_Texto_7
+trainerbattle_no_intro TRAINER_ANDRA_2, Route51_Combate_Chica_Texto_7
 msgbox Route51_Combate_Chica_Texto_8 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_CHOICE_BAND

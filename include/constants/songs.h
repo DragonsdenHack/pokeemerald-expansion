@@ -598,7 +598,7 @@
 #define MUS_GSC_NATIONAL_PARK 		661 // 610
 #define MUS_GSC_ROUTE26 			662 // 611
 #define MUS_GSC_ROUTE29 			663 // 612
-#define MUS_GSC_ROUTE30 			664 // 613
+#define MUS_GSC_ROUTE30 			664 // 613 --------
 #define MUS_GSC_ROUTE32 			665 // 614
 #define MUS_GSC_ROUTE34 			666 // 615
 #define MUS_GSC_RUINS_OF_ALPH 		667 // 616 - Cueva union
