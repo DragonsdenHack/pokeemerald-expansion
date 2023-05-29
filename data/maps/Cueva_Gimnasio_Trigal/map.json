@@ -2,7 +2,7 @@
   "id": "MAP_CUEVA_GIMNASIO_TRIGAL",
   "name": "Cueva_Gimnasio_Trigal",
   "layout": "LAYOUT_CUEVA_GIMNASIO_TRIGAL",
-  "music": "595",
+  "music": "MUS_GSC_DARK_CAVE",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

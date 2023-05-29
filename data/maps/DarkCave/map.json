@@ -2,7 +2,7 @@
   "id": "MAP_DARK_CAVE",
   "name": "DarkCave",
   "layout": "LAYOUT_DARK_CAVE",
-  "music": "595",
+  "music": "MUS_GSC_DARK_CAVE",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": true,
   "weather": "WEATHER_NONE",

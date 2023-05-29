@@ -2,7 +2,7 @@
   "id": "MAP_CIANWOOD_PHARMACY",
   "name": "Cianwood_Pharmacy",
   "layout": "LAYOUT_CIANWOOD_PHARMACY",
-  "music": "590",
+  "music": "MUS_GSC_ECRUTEAK_CITY",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

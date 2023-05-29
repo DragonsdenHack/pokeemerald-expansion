@@ -2,7 +2,7 @@
   "id": "MAP_NATIONAL_PARK",
   "name": "NationalPark",
   "layout": "LAYOUT_NATIONAL_PARK",
-  "music": "610",
+  "music": "MUS_GSC_NATIONAL_PARK",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

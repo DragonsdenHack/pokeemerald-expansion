@@ -2,7 +2,7 @@
   "id": "MAP_VIOLET_SPROUT_TOWER_P1",
   "name": "Violet_SproutTowerP1",
   "layout": "LAYOUT_VIOLET_SPROUT_TOWER_P1",
-  "music": "592",
+  "music": "MUS_GSC_BELLSPROUT_TOWER",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

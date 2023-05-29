@@ -2,7 +2,7 @@
   "id": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S4",
   "name": "BlackthornCity_DragonsdenS4",
   "layout": "LAYOUT_BLACKTHORN_CITY_DRAGONSDEN_S4",
-  "music": "596",
+  "music": "MUS_GSC_DRAGON_HIDEOUT",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

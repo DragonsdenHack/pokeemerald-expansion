@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE2",
   "name": "Ecruteak_BellchimeTrailEntrance2",
   "layout": "LAYOUT_ECRUTEAK_BELLCHIME_TRAIL_ENTRANCE2",
-  "music": "590",
+  "music": "MUS_GSC_ECRUTEAK_CITY",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_NEO_CINNABAR_VOLCAN",
   "name": "NeoCinnabarVolcan",
   "layout": "LAYOUT_NEO_CINNABAR_VOLCAN",
-  "music": "619",
+  "music": "MUS_GSC_BURN_TOWER",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

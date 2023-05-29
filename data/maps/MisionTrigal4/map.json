@@ -2,7 +2,7 @@
   "id": "MAP_MISION_TRIGAL4",
   "name": "MisionTrigal4",
   "layout": "LAYOUT_MISION_TRIGAL4",
-  "music": "585",
+  "music": "MUS_GSC_ROCKET_HIDEOUT",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MisionTrigal_Jefe_Final",
+      "script": "MisionTrigal4_Tercer_Encuentro",
       "flag": "FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL"
     },
     {

@@ -2,7 +2,7 @@
   "id": "MAP_RUINS_OF_ALPH_S1",
   "name": "RuinsOfAlph_S1",
   "layout": "LAYOUT_RUINS_OF_ALPH_S1",
-  "music": "561",
+  "music": "MUS_UNKNOWN_CHAMBER",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

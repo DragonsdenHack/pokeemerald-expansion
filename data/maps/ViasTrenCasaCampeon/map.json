@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_TREN_CASA_CAMPEON",
   "name": "ViasTrenCasaCampeon",
   "layout": "LAYOUT_VIAS_TREN_CASA_CAMPEON",
-  "music": "616",
+  "music": "MUS_GSC_RUINS_OF_ALPH",
   "region_map_section": "MAPSEC_ROUTE_4_FLYDUP",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

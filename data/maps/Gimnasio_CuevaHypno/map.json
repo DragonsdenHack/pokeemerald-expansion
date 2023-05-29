@@ -2,7 +2,7 @@
   "id": "MAP_GIMNASIO_CUEVA_HYPNO",
   "name": "Gimnasio_CuevaHypno",
   "layout": "LAYOUT_GIMNASIO_CUEVA_HYPNO",
-  "music": "605",
+  "music": "MUS_GSC_GYM",
   "region_map_section": "MAPSEC_THREE_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

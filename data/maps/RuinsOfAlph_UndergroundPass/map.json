@@ -2,7 +2,7 @@
   "id": "MAP_RUINS_OF_ALPH_UNDERGROUND_PASS",
   "name": "RuinsOfAlph_UndergroundPass",
   "layout": "LAYOUT_RUINS_OF_ALPH_UNDERGROUND_PASS",
-  "music": "560",
+  "music": "MUS_BASEPROFUNDA",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

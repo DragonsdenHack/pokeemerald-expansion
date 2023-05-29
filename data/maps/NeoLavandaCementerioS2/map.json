@@ -2,7 +2,7 @@
   "id": "MAP_NEO_LAVANDA_CEMENTERIO_S2",
   "name": "NeoLavandaCementerioS2",
   "layout": "LAYOUT_NEO_LAVANDA_CEMENTERIO_S2",
-  "music": "623",
+  "music": "MUS_END_OF_TIME",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

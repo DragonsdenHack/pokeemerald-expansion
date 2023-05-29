@@ -2,7 +2,7 @@
   "id": "MAP_MISION7LAB5",
   "name": "Mision7Lab5",
   "layout": "LAYOUT_MISION7LAB5",
-  "music": "619",
+  "music": "MUS_GSC_BURN_TOWER",
   "region_map_section": "MAPSEC_CINNABAR_ISLAND",
   "requires_flash": true,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_MT_SILVER3",
   "name": "MtSilver3",
   "layout": "LAYOUT_MT_SILVER3",
-  "music": "609",
+  "music": "MUS_GSC_MT_SILVER",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
