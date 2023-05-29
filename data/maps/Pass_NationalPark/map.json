@@ -2,7 +2,7 @@
   "id": "MAP_PASS_NATIONAL_PARK",
   "name": "Pass_NationalPark",
   "layout": "LAYOUT_PASS_NATIONAL_PARK",
-  "music": "MUS_GSC_ROUTE34",
+  "music": "615",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

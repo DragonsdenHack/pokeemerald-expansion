@@ -117,6 +117,8 @@ waitmovement 0x0
 msgbox Aqua3_Combate_Aquiles_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_AQUILES, Aqua3_Combate_Aquiles_Texto_7
 msgbox Aqua3_Combate_Aquiles_Texto_8 MSGBOX_AUTOCLOSE
+fadeoutbgm 0
+playse 586
 msgbox Aqua3_Combate_Aquiles_Texto_9 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Magma3_Combate_Magno_Move_3
@@ -204,6 +206,8 @@ applymovement 3, Aqua3_Combate_Aquiles_Move_22
 waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 removeobject 3
+fadeoutbgm 0
+playse 0
 delay 100
 playse SE_POKENAV_CALL
 waitse

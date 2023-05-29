@@ -2,7 +2,7 @@
   "id": "MAP_MISION_TRIGAL2",
   "name": "MisionTrigal2",
   "layout": "LAYOUT_MISION_TRIGAL2",
-  "music": "MUS_GSC_RUINS_OF_ALPH",
+  "music": "616",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -175,6 +175,8 @@ applymovement 10, CianwoodCity_Evento_Mirto_Move_2
 waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
+fadeoutbgm 0
+playse 566
 applymovement 10, CianwoodCity_Evento_Mirto_Move_3
 waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_3 MSGBOX_AUTOCLOSE
@@ -190,6 +192,8 @@ msgbox CianwoodCity_Evento_Mirto_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 10, CianwoodCity_Evento_Mirto_Move_6
 waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+fadeoutbgm 0
+playse 590
 applymovement 10, CianwoodCity_Evento_Mirto_Move_3
 waitmovement 0x0
 msgbox CianwoodCity_Evento_Mirto_Texto_8 MSGBOX_AUTOCLOSE

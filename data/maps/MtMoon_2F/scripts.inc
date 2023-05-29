@@ -14,6 +14,8 @@ delay 10
 playse SE_PIN
 applymovement 6, MtMoon_2F_AltoRango_move2
 waitmovement 0x0
+fadeoutbgm 0
+playse 486
 msgbox MtMoon_2F_AltoRango_Text_2, MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_2F_AltoRango_move1
 waitmovement 0x0
@@ -42,6 +44,8 @@ waitmovement 0x0
 msgbox MtMoon_2F_AltoRango_Text_7, MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
+fadeoutbgm 0
+playse 495
 removeobject 6
 fadescreen 0
 applymovement 3, MtMoon_2F_AltoRango_move6

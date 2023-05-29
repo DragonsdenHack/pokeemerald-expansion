@@ -185,6 +185,7 @@ applymovement 14, Route10_Combate_Andra_move_2
 waitmovement 0x0
 applymovement 14, Route10_Combate_Andra_move_3
 waitmovement 0x0
+playse 559
 msgbox Route10_Combate_Andra_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route10_Combate_Andra_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 14, Route10_Combate_Andra_move_3

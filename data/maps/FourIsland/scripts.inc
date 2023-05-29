@@ -101,6 +101,8 @@ waitmovement 0x0
 delay 15
 applymovement 9, FourIsland_Encuentro_Zeus_Move_3
 waitmovement 0x0
+fadeoutbgm 0
+playse 586
 msgbox FourIsland_Encuentro_Zeus_Texto_2 MSGBOX_AUTOCLOSE
 delay 15
 msgbox FourIsland_Encuentro_Zeus_Texto_3 MSGBOX_AUTOCLOSE
@@ -123,6 +125,8 @@ fadescreen 1
 delay 20
 removeobject 9
 fadescreen 0
+fadeoutbgm 0
+playse 548
 setvar VAR_UNUSED_0x40F7, 96
 release
 end

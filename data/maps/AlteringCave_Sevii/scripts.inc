@@ -27,6 +27,8 @@ playse SE_PIN
 applymovement 1, AlteringCave_Sevii_Commbate_Zeus_Move_1
 waitmovement 0x0
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_6 MSGBOX_AUTOCLOSE
+fadeoutbgm 0
+playse 586
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_2 MSGBOX_AUTOCLOSE
@@ -38,6 +40,8 @@ delay 20
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_9 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ZEUS_1, AlteringCave_Sevii_Commbate_Zeus_Texto_10
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_11 MSGBOX_AUTOCLOSE
+fadeoutbgm 0
+playse 586
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_12 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_13 MSGBOX_AUTOCLOSE
 msgbox AlteringCave_Sevii_Commbate_Zeus_Texto_14 MSGBOX_AUTOCLOSE
@@ -53,6 +57,8 @@ fadescreen 1
 delay 20
 removeobject 1
 fadescreen 0
+fadeoutbgm 0
+playse 500
 release
 end
 
@@ -94,7 +100,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_6:
 	.string "hasta donde llegan sus poderes?$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_7:
-.string "No seas estúpido entrenador, esta\n"
+.string "No seas estúpido ENTRENADOR, esta\n"
 	.string "misión no es para cualquiera, solo\l"
 	.string "aquellos elegidos que han sido\l"
 	.string "preparados durante toda una vida,\l"

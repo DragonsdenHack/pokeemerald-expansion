@@ -25,6 +25,7 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 1, UndergroundPath2F_Andra_move_2
 waitmovement 0x0
+playse 559
 msgbox UndergroundPath2F_Andra_Text_1, MSGBOX_AUTOCLOSE
 delay 10
 applymovement 1, UndergroundPath2F_Andra_move_3
@@ -176,6 +177,8 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 1, UndergroundPath2F_Andra_move_2.1
 waitmovement 0x0
+fadeoutbgm 0
+playse 559
 msgbox UndergroundPath2F_Andra_Text_1, MSGBOX_AUTOCLOSE
 delay 10
 applymovement 1, UndergroundPath2F_Andra_move_3
@@ -210,6 +213,8 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 1, UndergroundPath2F_Andra_move_2.2
 waitmovement 0x0
+fadeoutbgm 0
+playse 559
 msgbox UndergroundPath2F_Andra_Text_1, MSGBOX_AUTOCLOSE
 delay 10
 applymovement 1, UndergroundPath2F_Andra_move_3
@@ -244,6 +249,8 @@ waitmovement 0x0
 playse SE_PIN
 applymovement 1, UndergroundPath2F_Andra_move_2.3
 waitmovement 0x0
+fadeoutbgm 0
+playse 559
 msgbox UndergroundPath2F_Andra_Text_1, MSGBOX_AUTOCLOSE
 delay 10
 applymovement 1, UndergroundPath2F_Andra_move_3

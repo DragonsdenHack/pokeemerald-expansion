@@ -80,8 +80,8 @@ removeobject 3
 removeobject 4
 delay 20
 fadescreen 0
+fadeoutbgm 0
 playse MUS_RG_SEVII_45
-waitfanfare 
 applymovement 2, ResortGeorgeous_House1_Consul_move_11
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_12
 waitmovement 0x0

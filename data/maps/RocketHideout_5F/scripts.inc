@@ -2025,6 +2025,7 @@ playse SE_PIN
 applymovement 58, RocketHideout_5F_Combate_Andra_Move_2
 waitmovement 0x0
 msgbox RocketHideout_5F_Combate_Andra_Texto_6 MSGBOX_AUTOCLOSE
+playse 559
 msgbox RocketHideout_5F_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_4, RocketHideout_5F_Combate_Andra_Texto_8
 msgbox RocketHideout_5F_Combate_Andra_Texto_9 MSGBOX_AUTOCLOSE

@@ -42,6 +42,7 @@ end
 
 
 CeladonCity_House1_2F_Secundaria_Magikarp_3::
+playse 495
 msgbox CeladonCity_House1_2F_Secundaria_Magikarp_Texto_8 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_DOMADOR, CeladonCity_House1_2F_Secundaria_Magikarp_Texto_9
 delay 15

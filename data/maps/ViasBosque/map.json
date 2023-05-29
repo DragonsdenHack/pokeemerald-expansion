@@ -2,7 +2,7 @@
   "id": "MAP_VIAS_BOSQUE",
   "name": "ViasBosque",
   "layout": "LAYOUT_VIAS_BOSQUE",
-  "music": "MUS_GSC_RUINS_OF_ALPH",
+  "music": "616",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

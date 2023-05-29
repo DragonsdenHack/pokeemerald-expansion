@@ -183,14 +183,18 @@ playse SE_PIN
 applymovement 8, MtMoon_3F_Azul_move5
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Azul_move6
 waitmovement 0x0
+playse 527
 msgbox MtMoon_3F_Azul_Text_4, MSGBOX_AUTOCLOSE
 msgbox MtMoon_3F_Azul_Text_5, MSGBOX_AUTOCLOSE
 delay 20
+playse 528
 applymovement 8, MtMoon_3F_Azul_move7
 waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 removeobject 8
+fadeoutbgm 0
+playse 500
 setvar VAR_UNUSED_0x40F7, 13
 release
 end
@@ -222,6 +226,8 @@ waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 removeobject 8
+fadeoutbgm 0
+playse 500
 setvar VAR_UNUSED_0x40F7, 13
 release
 end
@@ -253,6 +259,8 @@ waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 removeobject 8
+fadeoutbgm 0
+playse 500
 setvar VAR_UNUSED_0x40F7, 13
 release
 end
@@ -284,6 +292,8 @@ waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 removeobject 8
+fadeoutbgm 0
+playse 500
 setvar VAR_UNUSED_0x40F7, 13
 release
 end
@@ -315,7 +325,7 @@ MtMoon_3F_Azul_Text_3:
 	.string "BLASTOISE.$"
 
 MtMoon_3F_Azul_Text_4:
-.string "¿Cómo?\n"
+.string "¿Qué?\n"
 	.string "¿Soy un arrogante y peco de exceso\l"
 	.string "de confianza por dejar viva a la\l"
 	.string "competencia?$"
@@ -753,6 +763,7 @@ msgbox MtMoon_3F_Pelea_Frank_texto7 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 14, MtMoon_3F_Pelea_Frank_move8
 waitmovement 0
+playse 500
 msgbox MtMoon_3F_Pelea_Frank_texto8 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ALTORANGO, MtMoon_3F_Pelea_Frank_texto9
 msgbox MtMoon_3F_Pelea_Frank_texto10 MSGBOX_AUTOCLOSE

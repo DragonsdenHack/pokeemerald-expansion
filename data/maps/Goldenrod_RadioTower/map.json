@@ -2,7 +2,7 @@
   "id": "MAP_GOLDENROD_RADIO_TOWER",
   "name": "Goldenrod_RadioTower",
   "layout": "LAYOUT_GOLDENROD_RADIO_TOWER",
-  "music": "MUS_GSC_GOLDENROD_CITY",
+  "music": "591",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE49_MAZE",
   "name": "Route49_Maze",
   "layout": "LAYOUT_ROUTE49_MAZE",
-  "music": "MUS_GSC_BELLSPROUT_TOWER2",
+  "music": "593",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

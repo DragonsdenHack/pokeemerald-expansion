@@ -194,6 +194,9 @@ msgbox Route23_Combate_Andra_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 8, Route23_Combate_Andra_Move_4
 waitmovement 0x0 
 msgbox Route23_Combate_Andra_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 8, Route23_Combate_Andra_Move_4
+waitmovement 0x0
+playse 559
 msgbox Route23_Combate_Andra_Texto_5 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_6, Route23_Combate_Andra_Texto_6
 msgbox Route23_Combate_Andra_Texto_7 MSGBOX_AUTOCLOSE

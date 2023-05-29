@@ -2,7 +2,7 @@
   "id": "MAP_ROCKET_HIDEOUT_JOHTO_P1",
   "name": "RocketHideout_JohtoP1",
   "layout": "LAYOUT_ROCKET_HIDEOUT_JOHTO_P1",
-  "music": "MUS_GSC_ROCKET_HIDEOUT",
+  "music": "585",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -112,6 +112,8 @@ waitmovement 0x0
 msgbox Magma3_Combate_Magno_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MAGNO, Magma3_Combate_Magno_Texto_7
 msgbox Magma3_Combate_Magno_Texto_8 MSGBOX_AUTOCLOSE
+fadeoutbgm 0
+playse 586
 msgbox Magma3_Combate_Magno_Texto_9 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, Magma3_Combate_Magno_Move_3
@@ -171,6 +173,8 @@ fadescreen 1
 delay 20
 removeobject 3
 fadescreen 0
+fadeoutbgm 0
+playse 0
 setvar VAR_UNUSED_0x40F7, 99
 release
 end

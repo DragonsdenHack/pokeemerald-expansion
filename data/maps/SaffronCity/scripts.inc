@@ -377,6 +377,7 @@ waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_11 MSGBOX_AUTOCLOSE
 applymovement 15, SaffronCity_Combate_Andra_Move_8
 waitmovement 0x0
+playse 559
 msgbox SaffronCity_Combate_Andra_Texto_12 MSGBOX_AUTOCLOSE
 msgbox SaffronCity_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 15, SaffronCity_Combate_Andra_Move_9

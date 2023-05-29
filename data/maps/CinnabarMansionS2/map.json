@@ -2,7 +2,7 @@
   "id": "MAP_CINNABAR_MANSION_S2",
   "name": "CinnabarMansionS2",
   "layout": "LAYOUT_CINNABAR_MANSION_S2",
-  "music": "MUS_BW_CASTILLO2",
+  "music": "564",
   "region_map_section": "MAPSEC_POKEMON_MANSION",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -458,7 +458,11 @@ RocketHideout_4F_Giovanni_Mision_1_1::
 lockall
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_1
 waitmovement 0x0
+fadeoutbgm 0
+playse 0
+delay 20
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_2
 waitmovement 0x0
 goto RocketHideout_4F_Giovanni_Mision_1_Parte2
@@ -467,7 +471,11 @@ RocketHideout_4F_Giovanni_Mision_1_2::
 lockall
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_1
 waitmovement 0x0
+fadeoutbgm 0
+playse 0
+delay 20
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Giovanni_Mision_1_move_2.1
 waitmovement 0x0
 goto RocketHideout_4F_Giovanni_Mision_1_Parte2
@@ -476,6 +484,8 @@ goto RocketHideout_4F_Giovanni_Mision_1_Parte2
 RocketHideout_4F_Giovanni_Mision_1_Parte2::
 applymovement 10, RocketHideout_4F_Giovanni_Mision_1_move_3
 waitmovement 0x0
+fadeoutbgm 0
+playse 582
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_2 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_4

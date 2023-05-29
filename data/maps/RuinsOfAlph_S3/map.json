@@ -2,7 +2,7 @@
   "id": "MAP_RUINS_OF_ALPH_S3",
   "name": "RuinsOfAlph_S3",
   "layout": "LAYOUT_RUINS_OF_ALPH_S3",
-  "music": "MUS_ROCAOMBLIGO",
+  "music": "568",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

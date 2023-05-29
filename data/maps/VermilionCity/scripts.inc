@@ -202,6 +202,8 @@ addobject 12
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move1
 waitmovement 0x0
+fadeoutbgm 0
+playse 507
 delay 20
 msgbox VermilionCity_Text_Surge, MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
@@ -209,6 +211,9 @@ fadescreen 1
 delay 20
 removeobject 12
 fadescreen 0
+delay 10
+fadeoutbgm 0
+playse 525
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_4
 setvar VAR_UNUSED_0x40F7, 7
 release

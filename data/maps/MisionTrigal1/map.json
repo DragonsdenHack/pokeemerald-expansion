@@ -2,7 +2,7 @@
   "id": "MAP_MISION_TRIGAL1",
   "name": "MisionTrigal1",
   "layout": "LAYOUT_MISION_TRIGAL1",
-  "music": "MUS_GSC_GOLDENROD_CITY",
+  "music": "591",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
