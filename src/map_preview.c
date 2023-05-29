@@ -102,6 +102,36 @@ static const u8 sAlteringCaveMapPreviewTilemap[] = INCBIN_U8("graphics/map_previ
 static const u8 sRuinsOfAlphMapPreviewTiles[] = INCBIN_U8("graphics/map_preview/alpha2.4bpp.lz");
 static const u8 sRuinsOfAlphMapPreviewPalette[] = INCBIN_U8("graphics/map_preview/alpha2.gbapal");
 static const u8 sRuinsOfAlphMapPreviewTilemap[] = INCBIN_U8("graphics/map_preview/alpha2.bin.lz");
+static const u8 sBellsproutTowerPreviewTiles[] = INCBIN_U8("graphics/map_preview/bellsprout2.4bpp.lz");
+static const u8 sBellsproutTowerPreviewPalette[] = INCBIN_U8("graphics/map_preview/bellsprout2.gbapal");
+static const u8 sBellsproutTowerPreviewTilemap[] = INCBIN_U8("graphics/map_preview/bellsprout2.bin.lz");
+static const u8 sBosquePreviewTiles[] = INCBIN_U8("graphics/map_preview/bosque2.4bpp.lz");
+static const u8 sBosquePreviewPalette[] = INCBIN_U8("graphics/map_preview/bosque2.gbapal");
+static const u8 sBosquePreviewTilemap[] = INCBIN_U8("graphics/map_preview/bosque2.bin.lz");
+static const u8 sCataratasPreviewTiles[] = INCBIN_U8("graphics/map_preview/cataratas2.4bpp.lz");
+static const u8 sCataratasPreviewPalette[] = INCBIN_U8("graphics/map_preview/cataratas2.gbapal");
+static const u8 sCataratasPreviewTilemap[] = INCBIN_U8("graphics/map_preview/cataratas2.bin.lz");
+static const u8 sDragonsdenPreviewTiles[] = INCBIN_U8("graphics/map_preview/dragonsden2.4bpp.lz");
+static const u8 sDragonsdenPreviewPalette[] = INCBIN_U8("graphics/map_preview/dragonsden2.gbapal");
+static const u8 sDragonsdenPreviewTilemap[] = INCBIN_U8("graphics/map_preview/dragonsden2.bin.lz");
+static const u8 sIslasRemolinoTiles[] = INCBIN_U8("graphics/map_preview/islasremolino2.4bpp.lz");
+static const u8 sIslasRemolinoPreviewPalette[] = INCBIN_U8("graphics/map_preview/islasremolino2.gbapal");
+static const u8 sIslasRemolinoPreviewTilemap[] = INCBIN_U8("graphics/map_preview/islasremolino2.bin.lz");
+static const u8 sParqueNacionalTiles[] = INCBIN_U8("graphics/map_preview/parquenacional2.4bpp.lz");
+static const u8 sParqueNacionalPreviewPalette[] = INCBIN_U8("graphics/map_preview/parquenacional2.gbapal");
+static const u8 sParqueNacionalPreviewTilemap[] = INCBIN_U8("graphics/map_preview/parquenacional2.bin.lz");
+static const u8 sPozoSlowpokePreviewTiles[] = INCBIN_U8("graphics/map_preview/pozoslowpoke2.4bpp.lz");
+static const u8 sPozoSlowpokePreviewPalette[] = INCBIN_U8("graphics/map_preview/pozoslowpoke2.gbapal");
+static const u8 sPozoSlowpokePreviewTilemap[] = INCBIN_U8("graphics/map_preview/pozoslowpoke2.bin.lz");
+static const u8 sRutaHeladaPreviewTiles[] = INCBIN_U8("graphics/map_preview/rutahelada2.4bpp.lz");
+static const u8 sRutaHeladaPreviewPalette[] = INCBIN_U8("graphics/map_preview/rutahelada2.gbapal");
+static const u8 sRutaHeladaPreviewTilemap[] = INCBIN_U8("graphics/map_preview/rutahelada2.bin.lz");
+static const u8 sTorreIrisPreviewTiles[] = INCBIN_U8("graphics/map_preview/torreiris2.4bpp.lz");
+static const u8 sTorreIrisPreviewPalette[] = INCBIN_U8("graphics/map_preview/torreiris2.gbapal");
+static const u8 sTorreIrisPreviewTilemap[] = INCBIN_U8("graphics/map_preview/torreiris2.bin.lz");
+static const u8 sTorreQuemadaPreviewTiles[] = INCBIN_U8("graphics/map_preview/torrequemada2.4bpp.lz");
+static const u8 sTorreQuemadaPreviewPalette[] = INCBIN_U8("graphics/map_preview/torrequemada2.gbapal");
+static const u8 sTorreQuemadaPreviewTilemap[] = INCBIN_U8("graphics/map_preview/torrequemada2.bin.lz");
 
 static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
 {
@@ -127,17 +157,366 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
         .tilemapptr = sMtMoonMapPreviewTilemap,
         .palptr = sMtMoonMapPreviewPalette
     },
-	[MPS_ROCKET_HIDEOUT] = 
+	[MPS_VIRIDIAN_FOREST] = 
+    {
+        .mapsec = MAPSEC_VIRIDIAN_FOREST,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_VIRIDIAN_FOREST,
+        .tilesptr = sViridianForestMapPreviewTiles,
+        .tilemapptr = sViridianForestMapPreviewTilemap,
+        .palptr = sViridianForestMapPreviewPalette
+    },
+    [MPS_MT_MOON] = 
+    {
+        .mapsec = MAPSEC_MT_MOON,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_MT_MOON_1F,
+        .tilesptr = sMtMoonMapPreviewTiles,
+        .tilemapptr = sMtMoonMapPreviewTilemap,
+        .palptr = sMtMoonMapPreviewPalette
+    },
+    [MPS_DIGLETTS_CAVE] = 
+    {
+        .mapsec = MAPSEC_DIGLETTS_CAVE,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_DIGLETTS_CAVE_B1F,
+        .tilesptr = sDiglettsCaveMapPreviewTiles,
+        .tilemapptr = sDiglettsCaveMapPreviewTilemap,
+        .palptr = sDiglettsCaveMapPreviewPalette
+    },
+    [MPS_ROCK_TUNNEL] = 
+    {
+        .mapsec = MAPSEC_ROCK_TUNNEL,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_ROCK_TUNNEL_1F,
+        .tilesptr = sRockTunnelMapPreviewTiles,
+        .tilemapptr = sRockTunnelMapPreviewTilemap,
+        .palptr = sRockTunnelMapPreviewPalette
+    },
+    [MPS_POKEMON_TOWER] = 
+    {
+        .mapsec = MAPSEC_POKEMON_TOWER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_POKEMON_TOWER_1F,
+        .tilesptr = sPokemonTowerMapPreviewTiles,
+        .tilemapptr = sPokemonTowerMapPreviewTilemap,
+        .palptr = sPokemonTowerMapPreviewPalette
+    },
+    [MPS_SAFARI_ZONE] = 
+    {
+        .mapsec = MAPSEC_KANTO_SAFARI_ZONE,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_SAFARI_ZONE_CENTER,
+        .tilesptr = sKantoSafariZoneMapPreviewTiles,
+        .tilemapptr = sKantoSafariZoneMapPreviewTilemap,
+        .palptr = sKantoSafariZoneMapPreviewPalette
+    },
+    [MPS_SEAFOAM_ISLANDS] = 
+    {
+        .mapsec = MAPSEC_SEAFOAM_ISLANDS,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEAFOAM_ISLANDS_1F,
+        .tilesptr = sSeafoamIslandsMapPreviewTiles,
+        .tilemapptr = sSeafoamIslandsMapPreviewTilemap,
+        .palptr = sSeafoamIslandsMapPreviewPalette
+    },
+    [MPS_POKEMON_MANSION] = 
+    {
+        .mapsec = MAPSEC_POKEMON_MANSION,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_POKEMON_MANSION_1F,
+        .tilesptr = sPokemonMansionMapPreviewTiles,
+        .tilemapptr = sPokemonMansionMapPreviewTilemap,
+        .palptr = sPokemonMansionMapPreviewPalette
+    },
+    [MPS_ROCKET_HIDEOUT] = 
+    {
+        .mapsec = MAPSEC_ROCKET_HIDEOUT,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_ROCKET_HIDEOUT_B1F,
+        .tilesptr = sRocketHideoutMapPreviewTiles,
+        .tilemapptr = sRocketHideoutMapPreviewTilemap,
+        .palptr = sRocketHideoutMapPreviewPalette
+    },
+    [MPS_SILPH_CO] = 
+    {
+        .mapsec = MAPSEC_SILPH_CO,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SILPH_CO_1F,
+        .tilesptr = sSilphCoMapPreviewTiles,
+        .tilemapptr = sSilphCoMapPreviewTilemap,
+        .palptr = sSilphCoMapPreviewPalette
+    },
+    [MPS_VICTORY_ROAD] = 
+    {
+        .mapsec = MAPSEC_KANTO_VICTORY_ROAD,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_VICTORY_ROAD_1F,
+        .tilesptr = sKantoVictoryRoadMapPreviewTiles,
+        .tilemapptr = sKantoVictoryRoadMapPreviewTilemap,
+        .palptr = sKantoVictoryRoadMapPreviewPalette
+    },
+    [MPS_CERULEAN_CAVE] = 
+    {
+        .mapsec = MAPSEC_CERULEAN_CAVE,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_CERULEAN_CAVE_1F,
+        .tilesptr = sCeruleanCaveMapPreviewTiles,
+        .tilemapptr = sCeruleanCaveMapPreviewTilemap,
+        .palptr = sCeruleanCaveMapPreviewPalette
+    },
+    [MPS_POWER_PLANT] = 
+    {
+        .mapsec = MAPSEC_POWER_PLANT,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_POWER_PLANT,
+        .tilesptr = sPowerPlantMapPreviewTiles,
+        .tilemapptr = sPowerPlantMapPreviewTilemap,
+        .palptr = sPowerPlantMapPreviewPalette
+    },
+    [MPS_MT_EMBER] = 
+    {
+        .mapsec = MAPSEC_MT_EMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_MT_EMBER_EXTERIOR,
+        .tilesptr = sMtEmberMapPreviewTiles,
+        .tilemapptr = sMtEmberMapPreviewTilemap,
+        .palptr = sMtEmberMapPreviewPalette
+    },
+    [MPS_ROCKET_WAREHOUSE] = 
     {
         .mapsec = MAPSEC_ROCKET_WAREHOUSE,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_THREE_ISLAND_BERRY_FOREST,
+        .tilesptr = sRocketWarehouseMapPreviewTiles,
+        .tilemapptr = sRocketWarehouseMapPreviewTilemap,
+        .palptr = sRocketWarehouseMapPreviewPalette
+    },
+    [MPS_MONEAN_CHAMBER] = 
+    {
+        .mapsec = MAPSEC_MONEAN_CHAMBER,
         .type = MPS_TYPE_CAVE,
-        #if FLAG_BASED_MAP_PREVIEW_TIME
-        .flagId = FLAG_VISITED_METEOR_FALLS, //flag needs to be added to constants/flags.h
-        #endif
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+    [MPS_DOTTED_HOLE] = 
+    {
+        .mapsec = MAPSEC_DOTTED_HOLE,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SIX_ISLAND_DOTTED_HOLE_1F,
+        .tilesptr = sDottedHoleMapPreviewTiles,
+        .tilemapptr = sDottedHoleMapPreviewTilemap,
+        .palptr = sDottedHoleMapPreviewPalette
+    },
+    [MPS_BERRY_FOREST] = 
+    {
+        .mapsec = MAPSEC_BERRY_FOREST,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_THREE_ISLAND_BERRY_FOREST,
+        .tilesptr = sBerryForestMapPreviewTiles,
+        .tilemapptr = sBerryForestMapPreviewTilemap,
+        .palptr = sBerryForestMapPreviewPalette
+    },
+    [MPS_ICEFALL_CAVE] = 
+    {
+        .mapsec = MAPSEC_ICEFALL_CAVE,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_FOUR_ISLAND_ICEFALL_CAVE_ENTRANCE,
+        .tilesptr = sIcefallCaveMapPreviewTiles,
+        .tilemapptr = sIcefallCaveMapPreviewTilemap,
+        .palptr = sIcefallCaveMapPreviewPalette
+    },
+    [MPS_LOST_CAVE] = 
+    {
+        .mapsec = MAPSEC_LOST_CAVE,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_FIVE_ISLAND_LOST_CAVE_ENTRANCE,
+        .tilesptr = sLostCaveMapPreviewTiles,
+        .tilemapptr = sLostCaveMapPreviewTilemap,
+        .palptr = sLostCaveMapPreviewPalette
+    },
+    [MPS_ALTERING_CAVE] = 
+    {
+        .mapsec = MAPSEC_ALTERING_CAVE,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SIX_ISLAND_ALTERING_CAVE,
+        .tilesptr = sAlteringCaveMapPreviewTiles,
+        .tilemapptr = sAlteringCaveMapPreviewTilemap,
+        .palptr = sAlteringCaveMapPreviewPalette
+    },
+    [MPS_PATTERN_BUSH] = 
+    {
+        .mapsec = MAPSEC_PATTERN_BUSH,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_SIX_ISLAND_PATTERN_BUSH,
+        .tilesptr = sViridianForestMapPreviewTiles,
+        .tilemapptr = sViridianForestMapPreviewTilemap,
+        .palptr = sViridianForestMapPreviewPalette
+    },
+    [MPS_LIPTOO_CHAMBER] = 
+    {
+        .mapsec = MAPSEC_LIPTOO_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+    [MPS_WEEPTH_CHAMBER] = 
+    {
+        .mapsec = MAPSEC_WEEPTH_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+    [MPS_TDILFORD_CHAMBER] = 
+    {
+        .mapsec = MAPSEC_DILFORD_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+    [MPS_SCUFIB_CHAMBER] = 
+    {
+        .mapsec = MAPSEC_SCUFIB_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+    [MPS_RIXY_CHAMBER] = 
+    {
+        .mapsec = MAPSEC_RIXY_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+    [MPS_VIAPOIS_CHAMBER] = 
+    {
+        .mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sMoneanChamberMapPreviewTiles,
+        .tilemapptr = sMoneanChamberMapPreviewTilemap,
+        .palptr = sMoneanChamberMapPreviewPalette
+    },
+	[MPS_RUINS_OF_ALPH] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
         .tilesptr = sRuinsOfAlphMapPreviewTiles,
         .tilemapptr = sRuinsOfAlphMapPreviewTilemap,
         .palptr = sRuinsOfAlphMapPreviewPalette
     },
+	[MPS_TIN_TOWER] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sTorreIrisPreviewTiles,
+        .tilemapptr = sTorreIrisPreviewTilemap,
+        .palptr = sTorreIrisPreviewPalette
+    },
+	[MPS_BURN_TOWER] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sTorreQuemadaPreviewTiles,
+        .tilemapptr = sTorreQuemadaPreviewTilemap,
+        .palptr = sTorreQuemadaPreviewPalette
+    },
+	[MPS_BELLSPROUT_TOWER] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sBellsproutTowerPreviewTiles,
+        .tilemapptr = sBellsproutTowerPreviewTilemap,
+        .palptr = sBellsproutTowerPreviewPalette
+    },
+	[MPS_TOHJO_FALLS] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sCataratasPreviewTiles,
+        .tilemapptr = sCataratasPreviewTilemap,
+        .palptr = sCataratasPreviewPalette
+    },
+	[MPS_NATIONAL_PARK] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sParqueNacionalTiles,
+        .tilemapptr = sParqueNacionalPreviewTilemap,
+        .palptr = sParqueNacionalPreviewPalette
+    },
+	[MPS_ILEX_FOREST] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_FOREST,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sBosquePreviewTiles,
+        .tilemapptr = sBosquePreviewTilemap,
+        .palptr = sBosquePreviewPalette
+    },
+	[MPS_DRAGONSDEN] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sDragonsdenPreviewTiles,
+        .tilemapptr = sDragonsdenPreviewTilemap,
+        .palptr = sDragonsdenPreviewPalette
+    },
+	[MPS_WHIRPOOL_ISLAND] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sIslasRemolinoTiles,
+        .tilemapptr = sIslasRemolinoPreviewTilemap,
+        .palptr = sIslasRemolinoPreviewPalette
+    },
+	[MPS_SLOWPOKE_WELL] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sPozoSlowpokePreviewTiles,
+        .tilemapptr = sPozoSlowpokePreviewTilemap,
+        .palptr = sPozoSlowpokePreviewPalette
+    },
+	[MPS_ICE_PATH] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sRutaHeladaPreviewTiles,
+        .tilemapptr = sRutaHeladaPreviewTilemap,
+        .palptr = sRutaHeladaPreviewPalette
+    },
+	[MPS_LAVENDER_RADIO_TOWER] = 
+    {
+        //.mapsec = MAPSEC_VIAPOIS_CHAMBER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
+        .tilesptr = sPokemonTowerMapPreviewTiles,
+        .tilemapptr = sPokemonTowerMapPreviewTilemap,
+        .palptr = sPokemonTowerMapPreviewPalette
+    }
 	
     //etc...
     
