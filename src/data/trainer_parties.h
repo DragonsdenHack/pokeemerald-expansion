@@ -34,7 +34,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Consul[] = {
     .moves = {MOVE_WATER_GUN, MOVE_POUND, MOVE_MUD_SLAP, MOVE_NONE}
     },
     {
-    .iv = 20,
+    .iv = 120,
     .lvl = 11,
     .species = SPECIES_MAREEP,
     .evs = {8, 8, 8, 8, 8, 8},
@@ -47,7 +47,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra2[] = {
     {
     .iv = 30,
     .lvl = 14,
-    .species = SPECIES_MEW,
+    .species = SPECIES_TENTACOOL,
     .evs = {12, 12, 12, 12, 12, 12},
     .heldItem = ITEM_ORAN_BERRY,
     .nature = NATURE_SERIOUS,
@@ -2351,7 +2351,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aquiles[] = {
     .lvl = 71,
     .species = SPECIES_GYARADOS,
     .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {88, 94, 88, 64, 88, 88},
+    .evs = {88, 94, 88, 88, 64, 88},
     .nature = NATURE_JOLLY,
     .moves = {MOVE_OUTRAGE, MOVE_EARTHQUAKE, MOVE_WATERFALL, MOVE_POWER_WHIP}
     },
@@ -2483,7 +2483,7 @@ static const struct TrainerMonItemCustomMoves sParty_Pegaso[] = {
     .lvl = 80,
     .species = SPECIES_PIDGEOT,
     .heldItem = ITEM_PIDGEOTITE,
-    .evs = {6, 0, 0, 252, 252, 0},
+    .evs = {5, 5, 5, 252, 252, 5},
     .nature = NATURE_TIMID,
     .moves = {MOVE_HURRICANE, MOVE_HEAT_WAVE, MOVE_HYPER_BEAM, MOVE_NONE}
     },
@@ -2558,7 +2558,7 @@ static const struct TrainerMonItemCustomMoves sParty_Cesar[] = {
     .lvl = 83,
     .species = SPECIES_PINSIR,
     .heldItem = ITEM_PINSIRITE,
-    .evs = {6, 252, 0, 252, 0, 0},
+    .evs = {10, 252, 10, 252, 10, 10},
     .nature = NATURE_JOLLY,
     .moves = {MOVE_THRASH, MOVE_EARTHQUAKE, MOVE_KNOCK_OFF, MOVE_CLOSE_COMBAT}
     },
@@ -2588,7 +2588,7 @@ static const struct TrainerMonItemCustomMoves sParty_Salazar[] = {
     .lvl = 95,
     .species = SPECIES_SALAMENCE,
     .heldItem = ITEM_SALAMENCITE,
-    .evs = {6, 252, 0, 252, 0, 0},
+    .evs = {50, 252, 50, 252, 50, 50},
     .nature = NATURE_LONELY,
     .moves = {MOVE_DOUBLE_EDGE, MOVE_FLAMETHROWER, MOVE_DRAGON_CLAW, MOVE_EARTHQUAKE}
     },
@@ -2672,7 +2672,7 @@ static const struct TrainerMonItemCustomMoves sParty_Anibal[] = {
     .lvl = 89,
     .species = SPECIES_GALLADE,
     .heldItem = ITEM_GALLADITE,
-    .evs = {6, 252, 0, 252, 0, 0},
+    .evs = {25, 252, 25, 252, 25, 25},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_DRAIN_PUNCH, MOVE_ICE_PUNCH, MOVE_PSYCHO_CUT, MOVE_KNOCK_OFF}
     },
@@ -2702,7 +2702,7 @@ static const struct TrainerMonItemCustomMoves sParty_Jaden[] = {
     .lvl = 91,
     .species = SPECIES_ALAKAZAM,
     .heldItem = ITEM_ALAKAZITE,
-    .evs = {0, 0, 6, 252, 252, 0},
+    .evs = {35, 35, 35, 252, 252, 35},
     .nature = NATURE_TIMID,
     .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_REFLECT, MOVE_DAZZLING_GLEAM}
     },
@@ -2750,7 +2750,7 @@ static const struct TrainerMonItemCustomMoves sParty_Fredo[] = {
     .lvl = 92,
     .species = SPECIES_STARMIE,
     .heldItem = ITEM_NONE,
-    .evs = {6, 0, 0, 252, 252, 0},
+    .evs = {50, 50, 50, 252, 252, 50},
     .nature = NATURE_MODEST,
     .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_PSYCHIC}
     },
@@ -2843,7 +2843,7 @@ static const struct TrainerMonItemCustomMoves sParty_Crom[] = {
     .lvl = 87,
     .species = SPECIES_STEELIX,
     .heldItem = ITEM_STEELIXITE,
-    .evs = {6, 252, 0, 0, 0, 252},
+    .evs = {20, 252, 20, 20, 20, 252},
     .nature = NATURE_CAREFUL,
     .moves = {MOVE_EARTHQUAKE, MOVE_ROCK_SLIDE, MOVE_IRON_HEAD, MOVE_IRON_TAIL}
     },
@@ -2891,7 +2891,7 @@ static const struct TrainerMonItemCustomMoves sParty_Valeria[] = {
     .lvl = 85,
     .species = SPECIES_ABSOL,
     .heldItem = ITEM_ABSOLITE,
-    .evs = {6, 0, 0, 252, 252, 0},
+    .evs = {15, 15, 15, 252, 252, 15},
     .nature = NATURE_JOLLY,
     .moves = {MOVE_KNOCK_OFF, MOVE_STONE_EDGE, MOVE_CLOSE_COMBAT, MOVE_PSYCHO_CUT}
     },
@@ -10836,7 +10836,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra8[] = {
     .lvl = 88,
     .species = SPECIES_MILOTIC,
     .heldItem = ITEM_NONE,
-    .evs = {252, 0, 252, 6, 0, 0},
+    .evs = {252, 30, 252, 30, 30, 30},
     .nature = NATURE_BOLD,
     .moves = {MOVE_MOONBLAST, MOVE_SURF, MOVE_ICE_BEAM, MOVE_NONE}
     },
@@ -18053,7 +18053,7 @@ static const struct TrainerMonItemCustomMoves sParty_Rojo2[] = {
     .species = SPECIES_CHARIZARD,
     .heldItem = ITEM_SITRUS_BERRY,
     .evs = {6, 0, 0, 252, 0, 252},
-    .nature = NATURE_SERIOUS,
+    .nature = NATURE_MODEST,
     .moves = {MOVE_FIRE_BLAST, MOVE_AIR_SLASH, MOVE_DRAGON_PULSE, MOVE_SUNNY_DAY}
     }
 };
@@ -18110,7 +18110,7 @@ static const struct TrainerMonItemCustomMoves sParty_Lance2[] = {
     .species = SPECIES_DRAGONITE,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {0, 252, 128, 128, 0, 0},
-    .nature = NATURE_SERIOUS,
+    .nature = NATURE_ADAMANT,
     .moves = {MOVE_FLY, MOVE_DRAGON_CLAW, MOVE_EXTREME_SPEED, MOVE_EARTHQUAKE}
     }
 };
@@ -30838,4 +30838,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER400[] = {
     .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
+
+
+
 
