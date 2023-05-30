@@ -152,7 +152,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtMoon_3F_Azul",
+      "script": "IslaSetima_Barco",
       "flag": "0"
     }
   ],
@@ -161,7 +161,7 @@
       "x": 12,
       "y": 21,
       "elevation": 0,
-      "dest_map": "MAP_ROCKET_WAREHOUSE",
+      "dest_map": "MAP_RUINS_OF_ALPH",
       "dest_warp_id": 0
     }
   ],

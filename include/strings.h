@@ -3062,6 +3062,7 @@ extern const u8 gText_NidoranF[];
 extern const u8 gText_Shellder[];
 extern const u8 gText_Rhyhorn[];
 extern const u8 gText_Nidorino[];
+extern const u8 gText_Sneasel[];
 extern const u8 gText_Electabuzz[];
 
 // Venta Subterráneo Trigal
@@ -3090,5 +3091,21 @@ extern const u8 gText_Shuckle[];
 extern const u8 gText_Sudowoodo[];
 extern const u8 gText_Cyndaquil[];
 extern const u8 gText_Larvitar[];
+
+// Islas
+extern const u8 gText_Carmin[];
+extern const u8 gText_Prima[];
+extern const u8 gText_Secunda[];
+extern const u8 gText_Tera[];
+extern const u8 gText_Mas[];
+
+// Islas 2
+extern const u8 gText_Cuarta[];
+extern const u8 gText_Inta[];
+extern const u8 gText_Exta[];
+extern const u8 gText_Setima[];
+extern const u8 gText_Mas2[];
+
+
 
 #endif // GUARD_STRINGS_H

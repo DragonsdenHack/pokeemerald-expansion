@@ -1143,3 +1143,19 @@ MovePostZubat2.1:
 face_down
 walk_in_place_down
 step_end
+
+Curacion_Guarida_Rocket::
+lock
+msgbox Curacion_Curacion_Guarida_Rocket_Texto_1 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+msgbox Curacion_Centros_Pokemon_Johto_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Curacion_Curacion_Guarida_Rocket_Texto_1:
+.string "Bienvenido al CENTRO ROCKET de\n"
+	.string "curación exprés...$"

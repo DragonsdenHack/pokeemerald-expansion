@@ -860,3 +860,355 @@ VermilionCity_Primer_NPC_Texto_1:
 	.string "región debe ser culpa vuestra!\l"
 	.string "¡Vuestros GRIMER y KOFFING acaban\l"
 	.string "con el medio ambiente!$"
+
+VermilionCity_Barco::
+lock
+compare VAR_UNUSED_0x40F7, 24
+goto_if_eq VermilionCity_Barco_3
+compare VAR_UNUSED_0x40F7, 25
+goto_if_eq VermilionCity_Barco_3
+compare VAR_UNUSED_0x40F7, 26
+goto_if_eq VermilionCity_Barco_3
+compare VAR_UNUSED_0x40F7, 27
+goto_if_eq VermilionCity_Barco_3
+compare VAR_UNUSED_0x40F7, 28
+goto_if_eq VermilionCity_Barco_3
+compare VAR_UNUSED_0x40F7, 95
+goto_if_lt VermilionCity_Barco_2
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLAS, 0
+switch VAR_RESULT
+case 0, EventScript_Prima
+case 1, EventScript_Secunda
+case 2, EventScript_Tera
+case 3, EventScript_Mas
+release
+end
+
+VermilionCity_Marinero::
+lock
+compare VAR_UNUSED_0x40F7, 24
+goto_if_eq VermilionCity_Marinero_3
+compare VAR_UNUSED_0x40F7, 25
+goto_if_eq VermilionCity_Marinero_3
+compare VAR_UNUSED_0x40F7, 26
+goto_if_eq VermilionCity_Marinero_3
+compare VAR_UNUSED_0x40F7, 27
+goto_if_eq VermilionCity_Marinero_3
+compare VAR_UNUSED_0x40F7, 28
+goto_if_eq VermilionCity_Marinero_3
+compare VAR_UNUSED_0x40F7, 95
+goto_if_lt VermilionCity_Marinero_2
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLAS, 0
+switch VAR_RESULT
+case 0, EventScript_Prima
+case 1, EventScript_Secunda
+case 2, EventScript_Tera
+case 3, EventScript_Mas
+release
+end
+
+VermilionCity_Marinero_2::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+VermilionCity_Marinero_3::
+msgbox VermilionCity_Marinero_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+VermilionCity_Marinero_Texto_1:
+.string "¡Insolente motorista!\n"
+	.string "¡Que una manada de WAILORDS se\l"
+	.string "abalance con su SALPICAR sobre\l"
+	.string "vuestro CAMINO BICIS y quede\l"
+	.string "inundado, me dirás ahí si los\l"
+	.string "POKÉMON marinos sirven o no\l"
+	.string "sirven!$"
+
+VermilionCity_Barco_3::
+release
+end
+
+VermilionCity_Barco_2::
+applymovement 5, VermilionCity_Barco_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Barco_Move_2
+waitmovement 0x0
+msgbox VermilionCity_Barco_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 5, VermilionCity_Barco_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Barco_Move_4
+waitmovement 0x0
+release
+end
+
+VermilionCity_Barco_Move_1:
+face_left
+step_end
+
+VermilionCity_Barco_Move_2:
+face_right
+step_end
+
+VermilionCity_Barco_Move_3:
+face_up
+step_end
+
+VermilionCity_Barco_Move_4:
+walk_slow_up
+walk_slow_up
+step_end
+
+EventScript_Mas::
+multichoice 22, 0, MULTI_ISLAS2, 0
+switch VAR_RESULT
+case 0, EventScript_Cuarta
+case 1, EventScript_Inta
+case 2, EventScript_Exta
+case 3, EventScript_Setima
+release
+end
+
+VermilionCity_Barco_Texto_1:
+.string "¡Nadie entra al muelle sin mi\n"
+	.string "permiso ROCKET!\l"
+	.string "¡Largo de aquí!$"
+
+VermilionCity_Barco_Texto_2:
+.string "Ah, tienes el IRIS-TICKET.\p"
+	.string "¿Quieres subir a bordo del\n"
+	.string "SURCAMAR?$"
+
+VermilionCity_Barco_Texto_3:
+.string "Estupendo, todo en regla.\p"
+	.string "El SURCAMAR VELOCE 7\n"
+	.string "va a zarpar en breve.$"
+
+VermilionCity_Barco_Texto_4:
+.string "¡Muy bien!\n"
+	.string "¡Todos a bordo del SURCAMAR\l"
+	.string "VELOCE 7!$"
+
+EventScript_Setima::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 33 @BANCO DE MAPA
+setvar VAR_0x8001 4 @NUMERO DE MAPA
+setvar VAR_0x8002 8 @POSICION X
+setvar VAR_0x8003 5 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+EventScript_Exta::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 32 @BANCO DE MAPA
+setvar VAR_0x8001 1 @NUMERO DE MAPA
+setvar VAR_0x8002 8 @POSICION X
+setvar VAR_0x8003 5 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+EventScript_Inta::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 31 @BANCO DE MAPA
+setvar VAR_0x8001 1 @NUMERO DE MAPA
+setvar VAR_0x8002 8 @POSICION X
+setvar VAR_0x8003 5 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+EventScript_Cuarta::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 30 @BANCO DE MAPA
+setvar VAR_0x8001 4 @NUMERO DE MAPA
+setvar VAR_0x8002 8 @POSICION X
+setvar VAR_0x8003 5 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+
+EventScript_Prima::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 27 @BANCO DE MAPA
+setvar VAR_0x8001 3 @NUMERO DE MAPA
+setvar VAR_0x8002 8 @POSICION X
+setvar VAR_0x8003 5 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+EventScript_Secunda::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 28 @BANCO DE MAPA
+setvar VAR_0x8001 3 @NUMERO DE MAPA
+setvar VAR_0x8002 8 @POSICION X
+setvar VAR_0x8003 5 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+EventScript_Tera::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 34 @BANCO DE MAPA
+setvar VAR_0x8001 0 @NUMERO DE MAPA
+setvar VAR_0x8002 8 @POSICION X
+setvar VAR_0x8003 5 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+
+IslaPrima_Barco::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLAPRIMA, 0
+switch VAR_RESULT
+case 0, EventScript_Carmin
+case 1, EventScript_Secunda
+case 2, EventScript_Tera
+case 3, EventScript_Mas
+release
+end
+
+EventScript_Carmin::
+msgbox VermilionCity_Barco_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_CUSTOM_SEAGALLOP     @FLAG QUE HAY QUE ACTIVAR PARA COMPORTAMIENTO ESPECIAL
+setvar VAR_0x8000 1 @BANCO DE MAPA
+setvar VAR_0x8001 5 @NUMERO DE MAPA
+setvar VAR_0x8002 23 @POSICION X
+setvar VAR_0x8003 31 @POSICION Y
+callnative DoSeagallopFerryScene
+waitstate
+release
+end
+
+IslaPrima_Secunda::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLASECUNDA, 0
+switch VAR_RESULT
+case 0, EventScript_Carmin
+case 1, EventScript_Prima
+case 2, EventScript_Tera
+case 3, EventScript_Mas
+release
+end
+
+IslaTera_Barco::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLATERA, 0
+switch VAR_RESULT
+case 0, EventScript_Carmin
+case 1, EventScript_Prima
+case 2, EventScript_Secunda
+case 3, EventScript_Mas
+release
+end
+
+IslaCuarta_Barco::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLACUARTA, 0
+switch VAR_RESULT
+case 0, EventScript_Inta
+case 1, EventScript_Exta
+case 2, EventScript_Setima
+case 3, EventScript_Mas2
+release
+end
+
+EventScript_Mas2::
+multichoice 22, 0, MULTI_ISLASCLASIC, 0
+switch VAR_RESULT
+case 0, EventScript_Carmin
+case 1, EventScript_Prima
+case 2, EventScript_Secunda
+case 3, EventScript_Tera
+release
+end
+
+IslaInta_Barco::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLAINTA, 0
+switch VAR_RESULT
+case 0, EventScript_Cuarta
+case 1, EventScript_Exta
+case 2, EventScript_Setima
+case 3, EventScript_Mas2
+release
+end
+
+IslaExta_Barco::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLAEXTA, 0
+switch VAR_RESULT
+case 0, EventScript_Cuarta
+case 1, EventScript_Inta
+case 2, EventScript_Setima
+case 3, EventScript_Mas2
+release
+end
+
+IslaSetima_Barco::
+lock
+faceplayer
+msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_ISLASETIMA, 0
+switch VAR_RESULT
+case 0, EventScript_Cuarta
+case 1, EventScript_Inta
+case 2, EventScript_Exta
+case 3, EventScript_Mas2
+release
+end
+
+Vermilion_Motorista::
+lock
+msgbox Vermilion_Motorista_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Vermilion_Motorista_Texto_1:
+.string "¿Sabías que WEEZING puede aprender\n"
+	.string "RAYO?\l"
+	.string "¡Voy a fundir a todos tus POKÉMON\l"
+	.string "acuáticos solo con ese bendito\l"
+	.string "movimiento!$"

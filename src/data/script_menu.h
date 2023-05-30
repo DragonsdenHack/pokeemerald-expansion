@@ -834,6 +834,7 @@ static const struct MenuAction MultichoiceList_VentaPokesBaseProfunda[] =
     {gText_Shellder},
     {gText_Rhyhorn},
     {gText_Nidorino},
+    {gText_Sneasel},
     {gText_Electabuzz},
     {gText_Exit},
     
@@ -878,6 +879,108 @@ static const struct MenuAction MultichoiceList_PokemonTrigal[] =
     {gText_Sudowoodo},
     {gText_Cyndaquil},
     {gText_Larvitar},
+    {gText_Exit},
+
+
+    
+};
+
+static const struct MenuAction MultichoiceList_Islas[] =
+{
+    {gText_Prima},
+    {gText_Secunda},
+    {gText_Tera},
+    {gText_Mas},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_Islas2[] =
+{
+    {gText_Cuarta},
+    {gText_Inta},
+    {gText_Exta},
+    {gText_Setima},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslaPrima[] =
+{
+    {gText_Carmin},
+    {gText_Secunda},
+    {gText_Tera},
+    {gText_Mas},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslaSecunda[] =
+{
+    {gText_Carmin},
+    {gText_Prima},
+    {gText_Tera},
+    {gText_Mas},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslaTera[] =
+{
+    {gText_Carmin},
+    {gText_Prima},
+    {gText_Secunda},
+    {gText_Mas},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslaCuarta[] =
+{
+    {gText_Inta},
+    {gText_Exta},
+    {gText_Setima},
+    {gText_Mas2},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslasClasic[] =
+{
+    {gText_Carmin},
+    {gText_Prima},
+    {gText_Secunda},
+    {gText_Tera},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslaInta[] =
+{
+    {gText_Cuarta},
+    {gText_Exta},
+    {gText_Setima},
+    {gText_Mas2},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslaExta[] =
+{
+    {gText_Cuarta},
+    {gText_Inta},
+    {gText_Setima},
+    {gText_Mas2},
+    {gText_Exit},
+    
+};
+
+static const struct MenuAction MultichoiceList_IslaSetima[] =
+{
+    {gText_Cuarta},
+    {gText_Inta},
+    {gText_Exta},
+    {gText_Mas2},
     {gText_Exit},
     
 };
@@ -1013,7 +1116,17 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_VENTA_SUBTERRANEO_TRIGAL]   = MULTICHOICE(MultichoiceList_VentaSubterraneoTrigal),
     [MULTI_ITEMS_SUBTERRANEO_TRIGAL]   = MULTICHOICE(MultichoiceList_ItemsSubterraneoTrigal),
     [MULTI_ITEMS_TRIGAL]               = MULTICHOICE(MultichoiceList_ItemsTrigal),
-    [MULTI_POKEMON_TRIGAL]               = MULTICHOICE(MultichoiceList_PokemonTrigal),
+    [MULTI_POKEMON_TRIGAL]              = MULTICHOICE(MultichoiceList_PokemonTrigal),
+    [MULTI_ISLAS]                      = MULTICHOICE(MultichoiceList_Islas),
+    [MULTI_ISLAS2]                     = MULTICHOICE(MultichoiceList_Islas2),
+    [MULTI_ISLAPRIMA]                     = MULTICHOICE(MultichoiceList_IslaPrima),
+    [MULTI_ISLASECUNDA]                     = MULTICHOICE(MultichoiceList_IslaSecunda),
+    [MULTI_ISLATERA]                     = MULTICHOICE(MultichoiceList_IslaTera),
+    [MULTI_ISLACUARTA]                     = MULTICHOICE(MultichoiceList_IslaCuarta),
+    [MULTI_ISLASCLASIC]                     = MULTICHOICE(MultichoiceList_IslasClasic),
+    [MULTI_ISLAINTA]                     = MULTICHOICE(MultichoiceList_IslaInta),
+    [MULTI_ISLAEXTA]                     = MULTICHOICE(MultichoiceList_IslaExta),
+    [MULTI_ISLASETIMA]                     = MULTICHOICE(MultichoiceList_IslaSetima),
 };
 
 const u8 *const gStdStrings[] =

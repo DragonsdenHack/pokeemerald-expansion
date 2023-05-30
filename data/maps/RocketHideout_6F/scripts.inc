@@ -332,6 +332,7 @@ RocketHideout6F_Text_26:
 
 RocketHideout6FDocumento_100::
 msgbox RocketHideout6FDocumento_Text_100, MSGBOX_DEFAULT  
+release
 end
 
 RocketHideout6FDocumento_Text_100:
@@ -344,6 +345,7 @@ RocketHideout6FDocumento_Text_100:
 
 RocketHideout6FDocumento_101::
 msgbox RocketHideout6FDocumento_Text_101, MSGBOX_DEFAULT  
+release
 end
 
 RocketHideout6FDocumento_Text_101:
@@ -356,6 +358,7 @@ RocketHideout6FDocumento_Text_101:
 
 RocketHideout6FDocumento_102::
 msgbox RocketHideout6FDocumento_Text_102, MSGBOX_AUTOCLOSE 
+release
 end
 
 RocketHideout6FDocumento_Text_102:
@@ -2019,3 +2022,68 @@ EventScript_Mankey_Texto_1:
 EventScript_Rattata_Texto_1:
 .string "¿Seguro que quieres a RATTATA?\n"
 	.string "Costará 3000 POKÉS.$"
+
+RocketHideout_6F_Petrel::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 35
+goto_if_gt RocketHideout_6F_Petrel_2
+msgbox RocketHideout_6F_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_6F_Petrel_2::
+msgbox RocketHideout_6F_Petrel_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_6F_Petrel_Texto_1:
+.string "PETREL: Chico, deberías de saber\n"
+	.string "que a los ADMINISTRADORES ROCKET\l"
+	.string "no se les interrumpe por\l"
+	.string "banalidades, nuestro tiempo es\l"
+	.string "demasiado valioso.$"
+
+RocketHideout_6F_Petrel_Texto_2:
+.string "PETREL: Ha sido un orgullo para mí\n"
+	.string "ser vuestro administrador jefe en\l"
+	.string "vuestra primera toma de contacto\l"
+	.string "con KANTO, habéis demostrado que\l"
+	.string "aún quedan ROCKETS que valgan la\l"
+	.string "pena, solo espero que tú y ANDRA\l"
+	.string "estéis a la altura de las\l"
+	.string "exigencias de nuestro gran líder\l"
+	.string "GIOVANNI.$"
+
+RocketHideout_6F_Cientifico_Maquina::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 35
+goto_if_gt RocketHideout_6F_Cientifico_Maquina_2
+msgbox RocketHideout_6F_Cientifico_Maquina_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_6F_Cientifico_Maquina_2::
+msgbox RocketHideout_6F_Cientifico_Maquina_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_6F_Cientifico_Maquina_Texto_1:
+.string "Estamos trabajando en un sistema\n"
+	.string "de teletransporte a larga\l"
+	.string "distancia, que conecte las bases\l"
+	.string "de CIUDAD AZULONA y esta misma.\l"
+	.string "¿Sabes la cantidad de dinero en\l"
+	.string "transporte que nos ahorraríamos si\l"
+	.string "llegamos a lograrlo?$"
+
+RocketHideout_6F_Cientifico_Maquina_Texto_2:
+.string "¡Lo logramos!\n"
+	.string "¡Todo gracias al éxito de tu\l"
+	.string "misión robándole la patente a ese\l"
+	.string "mimado de BILL!\l"
+	.string "¡Haz uso del sistema todo cuando\l"
+	.string "quieras, solo tienes que\l"
+	.string "interactuar con la máquina para\l"
+	.string "acceder al modo de teletransporte!$"

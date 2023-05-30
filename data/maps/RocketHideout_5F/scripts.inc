@@ -2276,7 +2276,28 @@ case 0, EventScript_NidoranF
 case 1, EventScript_Shellder
 case 2, EventScript_Rhyhorn
 case 3, EventScript_Nidorino
-case 4, EventScript_Electabuzz
+case 4, EventScript_Sneasel
+case 5, EventScript_Electabuzz
+release
+end
+
+EventScript_Sneasel::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Sneasel_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 55000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 55000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_SNEASEL, 26, ITEM_NONE
 release
 end
 
@@ -2382,6 +2403,10 @@ end
 
 Text_CompraPokemon_Base_Profunda:
 .string "Buenos días. ¿En qué puedo ayudarte?$"
+
+EventScript_Sneasel_Texto_1:
+.string "¿Seguro que quieres a SNEASEL?\n"
+	.string "Costará 55000 POKÉS.$"
 
 EventScript_Electabuzz_Texto_1:
 .string "¿Seguro que quieres a ELECTABUZZ?\n"

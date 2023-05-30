@@ -87,7 +87,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VermilionCity5",
+      "script": "VermilionCity_Marinero",
       "flag": "0"
     },
     {
@@ -165,7 +165,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "VermilionCity11",
+      "script": "Vermilion_Motorista",
       "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1"
     },
     {
@@ -375,18 +375,18 @@
       "x": 22,
       "y": 33,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40DC",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
-      "script": "VermilionCityFlag"
+      "script": "VermilionCity_Barco"
     },
     {
       "type": "trigger",
       "x": 23,
       "y": 33,
       "elevation": 0,
-      "var": "VAR_UNUSED_0x40DC",
+      "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
-      "script": "VermilionCityFlag"
+      "script": "VermilionCity_Barco"
     },
     {
       "type": "trigger",

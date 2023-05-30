@@ -131,6 +131,16 @@
 #define MULTI_ITEMS_SUBTERRANEO_TRIGAL     120
 #define MULTI_ITEMS_TRIGAL                 121
 #define MULTI_POKEMON_TRIGAL               122
+#define MULTI_ISLAS                        123
+#define MULTI_ISLAS2                       124
+#define MULTI_ISLAPRIMA                    125
+#define MULTI_ISLASECUNDA                  126
+#define MULTI_ISLATERA                     127
+#define MULTI_ISLACUARTA                   128
+#define MULTI_ISLASCLASIC                  129
+#define MULTI_ISLAINTA                     130
+#define MULTI_ISLAEXTA                     131
+#define MULTI_ISLASETIMA                   132
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0
