@@ -1,5 +1,10 @@
 Route27_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Route27_OnFrame
 	.byte 0
+
+Route27_OnFrame:
+map_script_2 VAR_UNUSED_0x40DC, 0, Route27_Escena_Lance
+	.2byte 0
 
 Route27_1::
 lock     
@@ -84,3 +89,168 @@ Route27_EventScript_Guay::
 	trainerbattle_single TRAINER_MITCHELL, Route27_Text_GuayIntro, Route27_Text_GuayDefeated
 	msgbox Route27_Text_GuayPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+Route27_Escena_Lance::
+call Script_SetGrayscaleTint
+playse MUS_CAVE_OF_ORIGIN
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route27_Escena_Lance_Move_1
+msgbox RocketHideout_8F_Mision_Silph_text_16 MSGBOX_AUTOCLOSE
+waitmovement 0x0
+special RemoveCameraObject
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route27_Escena_Lance_Move_3
+delay 80
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 12, Route27_Escena_Lance_Move_2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_17 MSGBOX_AUTOCLOSE
+applymovement 12, Route27_Escena_Lance_Move_2.1
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_17.1 MSGBOX_AUTOCLOSE
+applymovement 12, Route27_Escena_Lance_Move_2.2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_17.2 MSGBOX_AUTOCLOSE
+applymovement 12, Route27_Escena_Lance_Move_4
+waitmovement 0x0
+delay 10
+applymovement 14, Route27_Escena_Lance_Move_5
+applymovement 13, Route27_Escena_Lance_Move_5
+waitmovement 0x0
+delay 20
+applymovement 12, Route27_Escena_Lance_Move_6
+waitmovement 0x0
+delay 20
+applymovement 12, Route27_Escena_Lance_Move_7.1
+applymovement 14, Route27_Escena_Lance_Move_7.2
+applymovement 13, Route27_Escena_Lance_Move_7
+delay 80
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Route27_Escena_Lance_Move_8
+delay 10
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 15, Route27_Escena_Lance_Move_10
+applymovement 16, Route27_Escena_Lance_Move_9
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_18 MSGBOX_AUTOCLOSE
+applymovement 15, Route27_Escena_Lance_Move_11
+waitmovement 0x0
+delay 20
+applymovement 16, Route27_Escena_Lance_Move_12
+waitmovement 0x0
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_18.1 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40DC, 1
+warpsilent MAP_TIN_TOWER_LANCE, 9, 9
+call Script_SetGrayscaleTint
+release
+end
+
+Route27_Escena_Lance_Move_2.2:
+walk_down
+walk_down
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+walk_in_place_slow_left
+step_end
+
+Route27_Escena_Lance_Move_2.1:
+walk_slow_up
+walk_slow_up
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+walk_in_place_slow_up
+step_end
+
+Route27_Escena_Lance_Move_12:
+walk_in_place_slow_up
+step_end
+
+Route27_Escena_Lance_Move_11:
+walk_in_place_slow_down
+step_end
+
+Route27_Escena_Lance_Move_10:
+face_down
+step_end
+
+Route27_Escena_Lance_Move_9:
+face_up
+step_end
+
+Route27_Escena_Lance_Move_8:
+walk_right
+walk_right
+step_end
+
+
+Route27_Escena_Lance_Move_7:
+walk_slow_up
+walk_slow_up
+walk_slow_left
+walk_slow_left
+walk_slow_left
+step_end
+
+Route27_Escena_Lance_Move_7.1:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_left
+walk_slow_left
+walk_slow_left
+step_end
+
+Route27_Escena_Lance_Move_7.2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_left
+walk_slow_left
+walk_slow_left
+step_end
+
+Route27_Escena_Lance_Move_6:
+walk_in_place_slow_up
+step_end
+
+Route27_Escena_Lance_Move_5:
+walk_right
+face_up
+step_end
+
+Route27_Escena_Lance_Move_4:
+face_up
+step_end
+
+Route27_Escena_Lance_Move_3:
+walk_slow_left
+walk_slow_left
+walk_slow_left
+step_end
+
+
+Route27_Escena_Lance_Move_2:
+walk_in_place_slow_right
+step_end
+
+Route27_Escena_Lance_Move_1:
+walk_slow_left
+walk_slow_left
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end

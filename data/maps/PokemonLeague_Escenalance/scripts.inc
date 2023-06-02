@@ -1,0 +1,125 @@
+PokemonLeague_Escenalance_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_Escenalance_OnFrame
+	.byte 0
+
+PokemonLeague_Escenalance_OnFrame:
+map_script_2 VAR_UNUSED_0x40DC, 4, PokemonLeague_Escenalance_Derrota
+	.2byte 0
+
+
+
+PokemonLeague_Escenalance_Derrota::
+call Script_SetGrayscaleTint
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_Escenalance_Derrota_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 1, PokemonLeague_Escenalance_Derrota_Move_2
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_30 MSGBOX_AUTOCLOSE
+applymovement 3, PokemonLeague_Escenalance_Derrota_Move_4
+applymovement 2, PokemonLeague_Escenalance_Derrota_Move_3
+waitmovement 0x0
+delay 20
+applymovement 2, PokemonLeague_Escenalance_Derrota_Move_5
+waitmovement 0x0
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_31 MSGBOX_AUTOCLOSE
+applymovement 2, PokemonLeague_Escenalance_Derrota_Move_6
+waitmovement 0x0
+delay 10
+applymovement 1, PokemonLeague_Escenalance_Derrota_Move_6
+applymovement 3, PokemonLeague_Escenalance_Derrota_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_32 MSGBOX_AUTOCLOSE
+applymovement 2, PokemonLeague_Escenalance_Derrota_Move_7
+applymovement 1, PokemonLeague_Escenalance_Derrota_Move_8
+waitmovement 0x0
+delay 20
+applymovement 1, PokemonLeague_Escenalance_Derrota_Move_9
+waitmovement 0x0
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_33 MSGBOX_AUTOCLOSE
+applymovement 1, PokemonLeague_Escenalance_Derrota_Move_9
+waitmovement 0x0
+delay 20
+applymovement 1, PokemonLeague_Escenalance_Derrota_Move_10
+msgbox RocketHideout_8F_Mision_Silph_text_34 MSGBOX_AUTOCLOSE
+waitmovement 0x0
+setvar VAR_UNUSED_0x40DC, 5
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
+warpsilent MAP_INDIGO_PLATEAU, 16, 4
+call Script_SetGrayscaleTint
+release
+end
+
+PokemonLeague_Escenalance_Derrota_Move_10:
+walk_slow_up
+walk_slow_up
+walk_slow_right
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_9:
+walk_in_place_down
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_8:
+walk_down
+walk_down
+walk_left
+walk_down
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_7:
+walk_left
+walk_up
+walk_left
+face_right
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_6:
+face_right
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_5:
+walk_in_place_slow_up
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_4:
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+emote_exclamation_mark
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_3:
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_up
+walk_slow_up
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_2:
+walk_in_place_slow_down
+step_end
+
+PokemonLeague_Escenalance_Derrota_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end

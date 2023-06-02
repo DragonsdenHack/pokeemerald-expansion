@@ -4820,8 +4820,8 @@
       "height": 46,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Rustboro",
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_vermilion_city",
       "border_filepath": "data/layouts/FarawayIsland_Entrance/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Entrance/map.bin"
     },
@@ -4832,7 +4832,7 @@
       "height": 26,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_Fortree",
       "border_filepath": "data/layouts/FarawayIsland_Interior/border.bin",
       "blockdata_filepath": "data/layouts/FarawayIsland_Interior/map.bin"
@@ -13716,6 +13716,78 @@
       "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_dESCAN/border.bin",
       "blockdata_filepath": "data/layouts/Route49_dESCAN/map.bin"
+    },
+    {
+      "id": "LAYOUT_TIN_TOWER_LANCE",
+      "name": "TinTower_Lance_Layout",
+      "width": 24,
+      "height": 22,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/TinTower_Lance/border.bin",
+      "blockdata_filepath": "data/layouts/TinTower_Lance/map.bin"
+    },
+    {
+      "id": "LAYOUT_POKEMON_LEAGUE_ESCENALANCE",
+      "name": "PokemonLeague_Escenalance_Layout",
+      "width": 13,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_pokemon_league_fr",
+      "border_filepath": "data/layouts/PokemonLeague_Escenalance/border.bin",
+      "blockdata_filepath": "data/layouts/PokemonLeague_Escenalance/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_P1",
+      "name": "TorreDunsparce_P1_Layout",
+      "width": 21,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_P1/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_P1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_P2",
+      "name": "TorreDunsparce_P2_Layout",
+      "width": 19,
+      "height": 19,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_P2/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_P2/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_P3",
+      "name": "TorreDunsparce_P3_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_P3/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_P3/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_P4",
+      "name": "TorreDunsparce_P4_Layout",
+      "width": 27,
+      "height": 24,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_digletts_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_P4/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_P4/map.bin"
     }
   ]
 }

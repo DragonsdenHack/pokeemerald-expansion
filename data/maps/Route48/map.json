@@ -78,7 +78,7 @@
     {
       "type": "hidden_item",
       "x": 10,
-      "y": 0,
+      "y": 2,
       "elevation": 3,
       "item": "ITEM_DAWN_STONE",
       "flag": "FLAG_NUEVA_504"

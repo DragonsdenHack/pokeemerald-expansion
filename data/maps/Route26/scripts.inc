@@ -1,5 +1,5 @@
 Route26_MapScripts::
-	.byte 0
+.byte 0
 
 Route26_1::
 end
@@ -110,3 +110,4 @@ end
 Route26Documento_Text_100:
 	.string "RUTA 26\n"
 	.string "RECEPCIÓN DE LA LIGA POKÉMON$"
+

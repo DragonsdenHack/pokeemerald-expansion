@@ -1,9 +1,11 @@
 IndigoPlateau_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_OnFrame
 	.byte 0
 
 IndigoPlateau_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 30, IndigoPlateau_Lance_Discurso
+map_script_2 VAR_UNUSED_0x40DC, 5, IndigoPlateau_Escena_Lance
 	.2byte 0
 
 IndigoPlateau_Lance_Discurso::
@@ -180,4 +182,53 @@ step_end
 
 IndigoPlateau_Lance_Discurso_move_6:
 emote_exclamation_mark
+step_end
+
+IndigoPlateau_Escena_Lance::
+call Script_SetGrayscaleTint
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, IndigoPlateau_Escena_Lance_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox RocketHideout_8F_Mision_Silph_text_36 MSGBOX_AUTOCLOSE
+applymovement 19, IndigoPlateau_Escena_Lance_Move_2
+waitmovement 0x0
+applymovement 19, IndigoPlateau_Escena_Lance_Move_3
+waitmovement 0x0
+applymovement 19, IndigoPlateau_Escena_Lance_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_37 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40DC, 6
+fadescreen 0x1
+warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
+release
+end
+
+IndigoPlateau_Escena_Lance_Move_4:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+IndigoPlateau_Escena_Lance_Move_3:
+walk_slow_down
+walk_slow_down
+step_end
+
+IndigoPlateau_Escena_Lance_Move_2:
+walk_in_place_slow_down
+step_end
+
+IndigoPlateau_Escena_Lance_Move_1:
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_left
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
 step_end

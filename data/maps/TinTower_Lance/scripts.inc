@@ -1,0 +1,70 @@
+TinTower_Lance_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, TinTower_Lance_OnFrame
+	.byte 0
+
+TinTower_Lance_OnFrame:
+map_script_2 VAR_UNUSED_0x40DC, 1, TinTower_Escena_Lance
+	.2byte 0
+
+TinTower_Escena_Lance::
+call Script_SetGrayscaleTint
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, TinTower_Escena_Lance_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_19 MSGBOX_AUTOCLOSE
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, TinTower_Escena_Lance_Move_2
+applymovement 1, TinTower_Escena_Lance_Move_2
+waitmovement 0x0
+special RemoveCameraObject
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_20 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 1, TinTower_Escena_Lance_Move_3
+waitmovement 0x0
+delay 30
+msgbox RocketHideout_8F_Mision_Silph_text_21 MSGBOX_AUTOCLOSE
+applymovement 1, TinTower_Escena_Lance_Move_4
+waitmovement 0x0
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_22 MSGBOX_AUTOCLOSE
+delay 40
+setvar VAR_UNUSED_0x40DC, 2
+warpsilent MAP_ROUTE28, 47, 6
+call Script_SetGrayscaleTint
+release
+end
+
+TinTower_Escena_Lance_Move_4:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+TinTower_Escena_Lance_Move_3:
+face_down
+step_end
+
+TinTower_Escena_Lance_Move_2:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_up
+step_end
+
+TinTower_Escena_Lance_Move_1:
+walk_slow_up
+walk_slow_up
+walk_slow_up
+walk_slow_right
+walk_slow_right
+walk_slow_right
+step_end
+

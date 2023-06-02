@@ -2676,3 +2676,15 @@ Text_EVChecker_3:
 	.include "data/maps/NeoSaffron_TrainStation/scripts.inc"
 
 	.include "data/maps/Route49_dESCAN/scripts.inc"
+
+	.include "data/maps/TinTower_Lance/scripts.inc"
+
+	.include "data/maps/PokemonLeague_Escenalance/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P1/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P2/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P3/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P4/scripts.inc"

@@ -1,13 +1,10 @@
-.set LOCALID_SAILOR, 1
-.set LOCALID_SS_TIDAL, 2
-
 FarawayIsland_Entrance_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, FarawayIsland_Entrance_OnTransition
+map_script MAP_SCRIPT_ON_FRAME_TABLE, FarawayIsland_Entrance_OnFrame
 	.byte 0
 
-FarawayIsland_Entrance_OnTransition:
-	setflag FLAG_ARRIVED_ON_FARAWAY_ISLAND
-	end
+FarawayIsland_Entrance_OnFrame:
+map_script_2 VAR_UNUSED_0x40DC, 3, FarawayIsland_Entrance_Escena_Lance
+	.2byte 0
 
 FarawayIsland_Entrance_EventScript_SetCloudsWeather::
 	setweather WEATHER_SUNNY_CLOUDS
@@ -45,4 +42,91 @@ FarawayIsland_Entrance_EventScript_AsYouLike::
 FarawayIsland_Entrance_EventScript_Sign::
 	msgbox FarawayIsland_Entrance_Text_Sign, MSGBOX_SIGN
 	end
+
+FarawayIsland_Entrance_Escena_Lance::
+call Script_SetGrayscaleTint
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, FarawayIsland_Entrance_Escena_Lance_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox RocketHideout_8F_Mision_Silph_text_25 MSGBOX_AUTOCLOSE
+applymovement 3, FarawayIsland_Entrance_Escena_Lance_Move_2
+waitmovement 0x0
+applymovement 5, FarawayIsland_Entrance_Escena_Lance_Move_3
+waitmovement 0x0
+delay 20
+applymovement 3, FarawayIsland_Entrance_Escena_Lance_Move_4
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_25.1 MSGBOX_AUTOCLOSE
+applymovement 3, FarawayIsland_Entrance_Escena_Lance_Move_5
+waitmovement 0x0
+applymovement 1, FarawayIsland_Entrance_Escena_Lance_Move_6
+applymovement 5, FarawayIsland_Entrance_Escena_Lance_Move_7
+applymovement 4, FarawayIsland_Entrance_Escena_Lance_Move_8
+waitmovement 0x0
+delay 10
+applymovement 1, FarawayIsland_Entrance_Escena_Lance_Move_9
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_25.2 MSGBOX_AUTOCLOSE
+applymovement 5, FarawayIsland_Entrance_Escena_Lance_Move_3
+waitmovement 0x0
+clearflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+setvar VAR_UNUSED_0x40DC, 3
+warpsilent MAP_MISION7LAB4, 27, 27
+call Script_SetGrayscaleTint
+release
+end
+
+FarawayIsland_Entrance_Escena_Lance_Move_9:
+walk_in_place_right
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_8:
+face_right
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_7:
+delay_4
+delay_4
+delay_4
+delay_4
+face_left
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_6:
+walk_up
+face_right
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_5:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_4:
+walk_in_place_down
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_3:
+walk_in_place_up
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_2:
+walk_slow_up
+face_down
+step_end
+
+FarawayIsland_Entrance_Escena_Lance_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_left
+walk_slow_left
+walk_slow_left
+step_end
 

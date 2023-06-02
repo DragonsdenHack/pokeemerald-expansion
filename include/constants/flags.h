@@ -757,16 +757,16 @@
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne // clear rockets torre pkmn 7F// clear giovanni rojo gymnasio verde//clear giovanni 2 ruta 22
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //set proton escena 8//clear andra C.Victoria// clear Blaine Rocket 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL // proton y fuji P7 torre pkmn//CLEAR RECLUTA ROCKET HIDEOUT 8F//clear giovanni base verde
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE // BALL TUNEL ROCA //proton torre pkmn 6F// Rockets castigo base 4F
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE // BALL TUNEL ROCA //proton torre pkmn 6F// Rockets castigo base 4F //Giovanni indigo escena
 #define FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS            0x2CD // ANDRA DESPACHO ATLAS //clearflag rockets post derrota rojo mt.moon// policias casa bill // Rojo Liga pkmn
 #define FLAG_HIDE_MEW                                               0x2CE
 #define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // 
 #define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 
 #define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 // 
-#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // CLEARFLAG ANDRA RUTA 10 //clearflag Koga afueras fucsia// //clear ltsurgue y policias casa fuji
+#define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // CLEARFLAG ANDRA RUTA 10 //clearflag Koga afueras fucsia// //clear ltsurgue y policias casa fuji // clear ditto escena lance
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3 // ANDRA IDA SSANNE //GIOVANNI BASE PROFUNDA//ANDRA ADMIN ROCKET 8F
-#define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // GENTE TAPANDO ACCESO SSANNE 3F + AZUL//clear Azul Silph 2
-#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5 // ANDRA DENTRO SSANNE 3F // ROCKETS ESCENA LANCE
+#define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // GENTE TAPANDO ACCESO SSANNE 3F + AZUL//clear Azul Silph 2 // clear Mewtwo escena lance
+#define FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT                        0x2D5 // ANDRA DENTRO SSANNE 3F // ROCKETS ESCENA LANCE // PERSONAJES ESCENA GUERRA
 #define FLAG_HIDE_PETALBURG_CITY_WALLY                              0x2D6 // ROCKETS ESCENA LANCE BASE RUTA 5
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7 // CLEARFLAG CIENTIFICO FUCSIA LAPRAS
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8 // ANDRA Y CAPITAN SSANNE 8F
@@ -2440,20 +2440,20 @@
 #define FLAG_NUEVA_787 0x813 // BOSQUE GYM - MUSGO - INVISIBLE
 #define FLAG_NUEVA_788 0x814 // BOSQUE GYM - LEPPA BERRY - INVISIBLE
 #define FLAG_NUEVA_789 0x815 // BOSQUE GYM - LUM BERRY - INVISIBLE
-#define FLAG_NUEVA_790 0x816
-#define FLAG_NUEVA_791 0x817
-#define FLAG_NUEVA_792 0x818
-#define FLAG_NUEVA_793 0x819
-#define FLAG_NUEVA_794 0x81A
-#define FLAG_NUEVA_795 0x81B
-#define FLAG_NUEVA_796 0x81C
-#define FLAG_NUEVA_797 0x81D
-#define FLAG_NUEVA_798 0x81E
-#define FLAG_NUEVA_799 0x81F
-#define FLAG_NUEVA_800 0x820
-#define FLAG_NUEVA_801 0x821
-#define FLAG_NUEVA_802 0x822
-#define FLAG_NUEVA_803 0x823
+#define FLAG_NUEVA_790 0x816 // FLAG EVENTO HISTORIA GUERRA
+#define FLAG_NUEVA_791 0x817 // RUTA 50 - BALM MUSHROOM - INVISIBLE
+#define FLAG_NUEVA_792 0x818 // RUTA 50 - GRASSY SEED - INVISIBLE
+#define FLAG_NUEVA_793 0x819 // RUTA 50 - MISTY SEED - INVISIBLE
+#define FLAG_NUEVA_794 0x81A // RUTA 50 - REVIVAL HERB - INVISIBLE
+#define FLAG_NUEVA_795 0x81B // RUTA 50 - SITRUS BERRY - INVISIBLE
+#define FLAG_NUEVA_796 0x81C // RUTA 50 - LUM BERRY - INVISIBLE
+#define FLAG_NUEVA_797 0x81D // RUTA 50 - PSYCHIC SEED - INVISIBLE
+#define FLAG_NUEVA_798 0x81E // RUTA 50 - POWER HERB - INVISIBLE
+#define FLAG_NUEVA_799 0x81F // RUTA 50 - ENERGY ROOT - INVISIBLE
+#define FLAG_NUEVA_800 0x820 // RUTA 50 - CHERI BERRY - INVISIBLE
+#define FLAG_NUEVA_801 0x821 // RUTA 50 - WHITE HERB - INVISIBLE
+#define FLAG_NUEVA_802 0x822 // RUTA 50 - BUG GEM - INVISIBLE
+#define FLAG_NUEVA_803 0x823 // RUTA 50 - ASPEAR BERRY - INVISIBLE
 #define FLAG_NUEVA_804 0x824
 #define FLAG_NUEVA_805 0x825
 #define FLAG_NUEVA_806 0x826
