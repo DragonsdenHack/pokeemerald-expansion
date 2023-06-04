@@ -11,6 +11,7 @@
 #define DOOR_SOUND_NORMAL  0
 #define DOOR_SOUND_SLIDING 1
 #define DOOR_SOUND_ARENA   2
+#define DOOR_TILE_START (NUM_TILES_TOTAL - 8)
 
 struct DoorGraphics
 {
@@ -28,6 +29,7 @@ struct DoorAnimFrame
 };
 
 static bool8 ShouldUseMultiCorridorDoor(void);
+static void BuildDoorTiles(u16 *tiles, u16 tileNum, const u8 *paletteNums);
 
 static const u8 sDoorAnimTiles_Littleroot[] = INCBIN_U8("graphics/door_anims/littleroot.4bpp");
 static const u16 sDoorNullPalette1[16] = {};
@@ -132,6 +134,73 @@ static const u16 sDoorNullPalette48[16] = {};
 static const u8 sDoorAnimTiles_TrainerHillRoofElevator[] = INCBIN_U8("graphics/door_anims/trainer_hill_roof_elevator.4bpp");
 static const u16 sDoorNullPalette49[16] = {};
 
+//insertadas
+static const u8 sDoorAnimTiles_General2[] = INCBIN_U8("graphics/door_anims2/general.4bpp");
+static const u16 sDoorNullPalette1b[16] = {};
+static const u8 sDoorAnimTiles_SlidingSingle[] = INCBIN_U8("graphics/door_anims2/sliding_single.4bpp");
+static const u16 sDoorNullPalette2b[16] = {};
+static const u8 sDoorAnimTiles_SlidingDouble[] = INCBIN_U8("graphics/door_anims2/sliding_double.4bpp");
+static const u16 sDoorNullPalette3b[16] = {};
+static const u8 sDoorAnimTiles_Pallet[] = INCBIN_U8("graphics/door_anims2/pallet.4bpp");
+static const u16 sDoorNullPalette4b[16] = {};
+static const u8 sDoorAnimTiles_OaksLab[] = INCBIN_U8("graphics/door_anims2/oaks_lab.4bpp");
+static const u16 sDoorNullPalette5b[16] = {};
+static const u8 sDoorAnimTiles_Viridian[] = INCBIN_U8("graphics/door_anims2/viridian.4bpp");
+static const u16 sDoorNullPalette6b[16] = {};
+static const u8 sDoorAnimTiles_Pewter[] = INCBIN_U8("graphics/door_anims2/pewter.4bpp");
+static const u16 sDoorNullPalette7b[16] = {};
+static const u8 sDoorAnimTiles_Saffron[] = INCBIN_U8("graphics/door_anims2/saffron.4bpp");
+static const u16 sDoorNullPalette8b[16] = {};
+static const u8 sDoorAnimTiles_SilphCo[] = INCBIN_U8("graphics/door_anims2/silph_co.4bpp");
+static const u16 sDoorNullPalette9b[16] = {};
+static const u8 sDoorAnimTiles_Cerulean[] = INCBIN_U8("graphics/door_anims2/cerulean.4bpp");
+static const u16 sDoorNullPalette10b[16] = {};
+static const u8 sDoorAnimTiles_Lavender[] = INCBIN_U8("graphics/door_anims2/lavender.4bpp");
+static const u16 sDoorNullPalette11b[16] = {};
+static const u8 sDoorAnimTiles_Vermilion[] = INCBIN_U8("graphics/door_anims2/vermilion.4bpp");
+static const u16 sDoorNullPalette12b[16] = {};
+static const u8 sDoorAnimTiles_PokemonFanClub[] = INCBIN_U8("graphics/door_anims2/pokemon_fan_club.4bpp");
+static const u16 sDoorNullPalette13b[16] = {};
+static const u8 sDoorAnimTiles_DeptStore[] = INCBIN_U8("graphics/door_anims2/dept_store.4bpp");
+static const u16 sDoorNullPalette14b[16] = {};
+static const u8 sDoorAnimTiles_Fuchsia[] = INCBIN_U8("graphics/door_anims2/fuchsia.4bpp");
+static const u16 sDoorNullPalette15b[16] = {};
+static const u8 sDoorAnimTiles_SafariZone2[] = INCBIN_U8("graphics/door_anims2/safari_zone.4bpp");
+static const u16 sDoorNullPalette16b[16] = {};
+static const u8 sDoorAnimTiles_CinnabarLab[] = INCBIN_U8("graphics/door_anims2/cinnabar_lab.4bpp");
+static const u16 sDoorNullPalette17b[16] = {};
+static const u8 sDoorAnimTiles_DeptStoreElevator[] = INCBIN_U8("graphics/door_anims2/dept_store_elevator.4bpp");
+static const u16 sDoorNullPalette18b[16] = {};
+static const u8 sDoorAnimTiles_CableClub2[] = INCBIN_U8("graphics/door_anims2/cable_club.4bpp");
+static const u16 sDoorNullPalette19b[16] = {};
+static const u8 sDoorAnimTiles_HideoutElevator[] = INCBIN_U8("graphics/door_anims2/hideout_elevator.4bpp");
+static const u16 sDoorNullPalette20b[16] = {};
+static const u8 sDoorAnimTiles_SSAnne[] = INCBIN_U8("graphics/door_anims2/ss_anne.4bpp");
+static const u16 sDoorNullPalette21b[16] = {};
+//firered
+static const u8 sDoorAnimTiles_SilphCoElevator[] = INCBIN_U8("graphics/door_anims2/silph_co_elevator.4bpp");
+static const u16 sDoorNullPalette54[16] = {};
+static const u8 sDoorAnimTiles_Sevii123[] = INCBIN_U8("graphics/door_anims2/sevii_123.4bpp");
+static const u16 sDoorNullPalette55[16] = {};
+static const u8 sDoorAnimTiles_JoyfulGameCorner[] = INCBIN_U8("graphics/door_anims2/joyful_game_corner.4bpp");
+static const u16 sDoorNullPalette56[16] = {};
+static const u8 sDoorAnimTiles_OneIslandPokeCenter[] = INCBIN_U8("graphics/door_anims2/one_island_poke_center.4bpp");
+static const u16 sDoorNullPalette57[16] = {};
+static const u8 sDoorAnimTiles_Sevii45[] = INCBIN_U8("graphics/door_anims2/sevii_45.4bpp");
+static const u16 sDoorNullPalette58[16] = {};
+static const u8 sDoorAnimTiles_FourIslandDayCare[] = INCBIN_U8("graphics/door_anims2/four_island_day_care.4bpp");
+static const u16 sDoorNullPalette59[16] = {};
+static const u8 sDoorAnimTiles_RocketWarehouse[] = INCBIN_U8("graphics/door_anims2/rocket_warehouse.4bpp");
+static const u16 sDoorNullPalette60[16] = {};
+static const u8 sDoorAnimTiles_Sevii67[] = INCBIN_U8("graphics/door_anims2/sevii_67.4bpp");
+static const u16 sDoorNullPalette61[16] = {};
+static const u8 sDoorAnimTiles_Teleporter[] = INCBIN_U8("graphics/door_anims2/teleporter.4bpp");
+static const u16 sDoorNullPalette62[16] = {};
+static const u8 sDoorAnimTiles_TrainerTowerLobbyElevator[] = INCBIN_U8("graphics/door_anims2/trainer_tower_lobby_elevator.4bpp");
+static const u16 sDoorNullPalette63[16] = {};
+static const u8 sDoorAnimTiles_TrainerTowerRoofElevator[] = INCBIN_U8("graphics/door_anims2/trainer_tower_roof_elevator.4bpp");
+static const u16 sDoorNullPalette64[16] = {};
+
 static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
     {4, -1},
@@ -220,9 +289,45 @@ static const u8 sDoorAnimPalettes_BattleTentInterior[] = {9, 9, 9, 9, 9, 9, 9, 9
 static const u8 sDoorAnimPalettes_TrainerHillLobbyElevator[] = {7, 7, 7, 7, 7, 7, 7, 7};
 static const u8 sDoorAnimPalettes_TrainerHillRoofElevator[] = {9, 9, 7, 7, 7, 7, 7, 7};
 
+//fire red
+
+static const u8 sDoorAnimPalettes_General2[] = {2, 2, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_SlidingSingle2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_SlidingDouble2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Pallet2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_OaksLab2[] = {10, 10, 10, 10, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Viridian2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_Pewter2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_Saffron2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_SilphCo2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Cerulean2[] = {12, 12, 12, 12, 12, 12, 12, 12};
+static const u8 sDoorAnimPalettes_Lavender2[] = {9, 9, 9, 9, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_Vermilion2[] = {9, 9, 9, 9, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_PokemonFanClub2[] = {9, 9, 9, 9, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_DeptStore2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Fuchsia2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_SafariZone2[] = {9, 9, 9, 9, 9, 9, 9, 9};
+static const u8 sDoorAnimPalettes_CinnabarLab2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_DeptStoreElevator2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_CableClub2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_HideoutElevator2[] = {12, 12, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_SSAnne2[] = {7, 7, 7, 7, 7, 7, 7, 7};
+static const u8 sDoorAnimPalettes_SilphCoElevator2[] = {8, 8, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_Sevii123[] = {5, 5, 5, 5, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_JoyfulGameCorner2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_OneIslandPokeCenter2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_Sevii452[] = {5, 5, 5, 5, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_FourIslandDayCare2[] = {3, 3, 3, 3, 3, 3, 3, 3};
+static const u8 sDoorAnimPalettes_RocketWarehouse2[] = {10, 10, 10, 10, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_Sevii67[] = {5, 5, 5, 5, 5, 5, 5, 5};
+static const u8 sDoorAnimPalettes_Teleporter2[] = {8, 8, 8, 8, 8, 8, 8, 8};
+static const u8 sDoorAnimPalettes_TrainerTowerLobbyElevator2[] = {8, 8, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_TrainerTowerRoofElevator2[] = {11, 11, 2, 2, 2, 2, 2, 2};
+
 static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 {
     {METATILE_General_Door,                                 DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_General, sDoorAnimPalettes_General},
+	{METATILE_General_Door2,                                DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_General2, sDoorAnimPalettes_General2},
     {METATILE_General_Door_PokeCenter,                      DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_PokeCenter, sDoorAnimPalettes_PokeCenter},
     {METATILE_General_Door_Gym,                             DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_Gym, sDoorAnimPalettes_Gym},
     {METATILE_General_Door_PokeMart,                        DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_PokeMart, sDoorAnimPalettes_PokeMart},
@@ -275,6 +380,9 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_BattleTent_Door,                              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_BattleTentInterior, sDoorAnimPalettes_BattleTentInterior},
     {METATILE_TrainerHill_Door_Elevator_Lobby,              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillLobbyElevator, sDoorAnimPalettes_TrainerHillLobbyElevator},
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
+	{METATILE_CeruleanCity_Door,            			    DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Cerulean, sDoorAnimPalettes_Cerulean2},
+	{METATILE_General_SlidingSingleDoor,            		DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SlidingSingle, sDoorAnimPalettes_SlidingSingle2},
+	{METATILE_General_SlidingDoubleDoor,						DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SlidingDouble, sDoorAnimPalettes_SlidingDouble2},
     {},
 };
 
@@ -306,37 +414,72 @@ static void door_build_blockdef(u16 *a, u16 b, const u8 *c)
 static void DrawCurrentDoorAnimFrame(const struct DoorGraphics *gfx, u32 x, u32 y, const u8 *pal)
 {
     u16 arr[24];
+	u16 tiles[8];
 
     if (gfx->size == 2)
     {
-        door_build_blockdef(&arr[8], 0x3F0, pal);
-        DrawDoorMetatileAt(x, y - 1, &arr[8]);
-        door_build_blockdef(&arr[8], 0x3F4, pal + 4);
-        DrawDoorMetatileAt(x, y, &arr[8]);
-        door_build_blockdef(&arr[8], 0x3F8, pal);
-        DrawDoorMetatileAt(x + 1, y - 1, &arr[8]);
-        door_build_blockdef(&arr[8], 0x3FC, pal + 4);
-        DrawDoorMetatileAt(x + 1, y, &arr[8]);
+        // door_build_blockdef(&arr[8], 0x3F0, pal);
+        // DrawDoorMetatileAt(x, y - 1, &arr[8]);
+        // door_build_blockdef(&arr[8], 0x3F4, pal + 4);
+        // DrawDoorMetatileAt(x, y, &arr[8]);
+        // door_build_blockdef(&arr[8], 0x3F8, pal);
+        // DrawDoorMetatileAt(x + 1, y - 1, &arr[8]);
+        // door_build_blockdef(&arr[8], 0x3FC, pal + 4);
+        // DrawDoorMetatileAt(x + 1, y, &arr[8]);
+		 BuildDoorTiles(tiles, DOOR_TILE_START, pal);
+		 DrawDoorMetatileAt(x, y - 1, tiles);
+		 BuildDoorTiles(tiles, DOOR_TILE_START + 4, &pal[4]);
     }
     else
     {
-        door_build_blockdef(&arr[0], 0x3F8, pal);
-        DrawDoorMetatileAt(x, y - 1, &arr[0]);
-        door_build_blockdef(&arr[0], 0x3FC, pal + 4);
-        DrawDoorMetatileAt(x, y, &arr[0]);
+        // door_build_blockdef(&arr[0], 0x3F8, pal);
+        // DrawDoorMetatileAt(x, y - 1, &arr[0]);
+        // door_build_blockdef(&arr[0], 0x3FC, pal + 4);
+        // DrawDoorMetatileAt(x, y, &arr[0]);
+		 BuildDoorTiles(tiles, DOOR_TILE_START, pal);
+		DrawDoorMetatileAt(x, y, tiles);
+    }
+}
+
+static void BuildDoorTiles(u16 *tiles, u16 tileNum, const u8 *paletteNums)
+{
+    int i;
+    u16 tile;
+
+    // Only the first 4 tiles of each metatile (bottom layer) actually use the door tiles
+    for (i = 0; i < 4; i++)
+    {
+        tile = *(paletteNums++) << 12;
+        tiles[i] = tile | (tileNum + i);
+    }
+
+    // The remaining tiles (top layer) always use tile 0 (with the same palette)
+    for (; i < 8; i++)
+    {
+        tile = *(paletteNums++) << 12;
+        tiles[i] = tile;
     }
 }
 
 static void DrawClosedDoorTiles(const struct DoorGraphics *gfx, u32 x, u32 y)
 {
-    CurrentMapDrawMetatileAt(x, y - 1);
-    CurrentMapDrawMetatileAt(x, y);
+    // CurrentMapDrawMetatileAt(x, y - 1);
+    // CurrentMapDrawMetatileAt(x, y);
 
-    if (gfx->size == 2)
-    {
-        CurrentMapDrawMetatileAt(x + 1, y - 1);
-        CurrentMapDrawMetatileAt(x + 1, y);
-    }
+    // if (gfx->size == 2)
+    // {
+        // CurrentMapDrawMetatileAt(x + 1, y - 1);
+        // CurrentMapDrawMetatileAt(x + 1, y);
+    // }
+	
+	if (gfx->size == 1 )
+	{
+		CurrentMapDrawMetatileAt(x, y);
+	}else
+	{
+		CurrentMapDrawMetatileAt(x, y);
+        CurrentMapDrawMetatileAt(x, y - 1);
+	}
 }
 
 static void DrawDoor(const struct DoorGraphics *gfx, const struct DoorAnimFrame *frame, u32 x, u32 y)

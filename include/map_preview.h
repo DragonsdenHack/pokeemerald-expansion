@@ -20,6 +20,8 @@ enum MapPreviewScreenId
 	MPS_SLOWPOKE_WELL,
 	MPS_ICE_PATH,
 	MPS_LAVENDER_RADIO_TOWER,
+	MPS_FARO_OLIVO,
+	MPS_MT_SILVER,
 	
 	
 	//kanto y sevii
