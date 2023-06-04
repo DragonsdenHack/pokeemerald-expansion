@@ -411,7 +411,7 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
     },
 	[MPS_RUINS_OF_ALPH] = 
     {
-        mapsec = MAPSEC_RUINAS_ALFA,
+        .mapsec = MAPSEC_RUINAS_ALFA,
         .type = MPS_TYPE_CAVE,
         //.flagId = FLAG_WORLD_MAP_SEVEN_ISLAND_TANOBY_RUINS_MONEAN_CHAMBER,
         .tilesptr = sRuinsOfAlphMapPreviewTiles,
