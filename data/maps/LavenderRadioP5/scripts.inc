@@ -151,3 +151,37 @@ LavenderRadioP5_EventScript_Cientifico::
 	trainerbattle_single TRAINER_CRISTIN_4, LavenderRadioP5_Text_CientificoIntro, LavenderRadioP5_Text_CientificoDefeated
 	msgbox LavenderRadioP5_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+LavenderRadioP5_OndaToxica::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_819, LavenderRadioP5_OndaToxica_Despues
+msgbox LavenderRadioP5_OndaToxica_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM63
+msgbox LavenderRadioP5_OndaToxica_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_819
+release     
+end
+
+LavenderRadioP5_OndaToxica_Despues::
+msgbox LavenderRadioP5_OndaToxica_Texto_2, MSGBOX_NPC
+release
+end
+
+LavenderRadioP5_OndaToxica_Texto_2:
+.string "BOMBA LODO ya era potente, pero ONDA\n"
+	.string "TOXICA logra serlo incluso más.\l"
+	.string "Los nuevos tiempos, ¿no?$"
+
+LavenderRadioP5_OndaToxica_Texto_1.1:
+.string "¡¡{PLAYER} obtuvo la MT93 ONDA\n"
+	.string "TOXICA de manos de científico!!$"
+
+LavenderRadioP5_OndaToxica_Texto_1:
+.string "Este lugar optimiza un 5% todo lo que\n"
+	.string "conocíamos hasta ahora. Los\l"
+	.string "movimientos POKÉMON no son menos.\l"
+	.string "Mira.$"
+

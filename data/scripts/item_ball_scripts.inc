@@ -2242,7 +2242,80 @@ finditem ITEM_MAGNET
 Carbon2_EventScript_Electrizador::
 finditem ITEM_ELECTIRIZER
 
+Carbon2_EventScript_MT64::
+finditem ITEM_TM64
 
+CultoS4_EventScript_MT75::
+finditem ITEM_TM75
+
+Lago_EventScript_MT96::
+finditem ITEM_TM96
+
+Ruta50_EventScript_MT62::
+finditem ITEM_TM62
+
+Ruta47_EventScript_MT71::
+finditem ITEM_TM71
+
+Ruta49_EventScript_MT52::
+finditem ITEM_TM52
+
+Lab3_EventScript_MT73::
+finditem ITEM_TM73
+
+ViasSur4_EventScript_MT95::
+finditem ITEM_TM95
+
+ViasTren5_EventScript_MT67::
+finditem ITEM_TM67
+
+ViasTren5_EventScript_MT90::
+finditem ITEM_TM90
+
+ViasTren2_EventScript_MT88::
+finditem ITEM_TM88
+
+BaseHoenn_EventScript_MT55::
+finditem ITEM_TM55
+
+Cementerio_EventScript_Elixir::
+finditem ITEM_ELIXIR
+
+CementerioS2_EventScript_TM76::
+finditem ITEM_TM76
+
+MisionTrigal3_EventScript_TM58::
+finditem ITEM_TM58
+
+CuevaTesoro4_EventScript_TM69::
+finditem ITEM_TM69
+
+CuevaTesoro4_EventScript_PiedraAgua::
+finditem ITEM_WATER_STONE
+
+CuevaRuta50_EventScript_TM86::
+finditem ITEM_TM86
+
+Carbon2_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+
+OlivineCity_Event_Script_TM57::
+finditem ITEM_TM57
+
+OlivineCity_Event_Script_Diente::
+finditem ITEM_DEEP_SEA_TOOTH
+
+LavenderRadioP6_Event_Script_TM79::
+finditem ITEM_TM79
+
+SilphS3_Event_Script_TM51::
+finditem ITEM_TM51
+
+RocketJohto_Event_Script_TM87::
+finditem ITEM_TM87
+
+RocketHoenn_Event_Script_TM80::
+finditem ITEM_TM80
 
 
 

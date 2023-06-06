@@ -280,7 +280,7 @@ delay 30
 msgbox FourIsland_Secundaria_Anciana_Texto_9 MSGBOX_AUTOCLOSE
 msgbox FourIsland_Secundaria_Anciana_Texto_10 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM79
+additem ITEM_TM85
 msgbox FourIsland_Secundaria_Anciana_Texto_13 MSGBOX_DEFAULT
 waitfanfare
 setvar VAR_ROUTE109_STATE, 6
@@ -365,7 +365,7 @@ FourIsland_Secundaria_Anciana_Texto_12:
 	.string "ANCIANA!$"
 
 FourIsland_Secundaria_Anciana_Texto_13:
-	.string "¡Obtuviste MT79 VAHO GÉLIDO\n"
+	.string "¡Obtuviste MT85 AVALANCHA\n"
 	.string "de manos de ANCIANA!$"
 
 

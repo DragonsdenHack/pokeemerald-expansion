@@ -117,6 +117,17 @@ applymovement OBJ_EVENT_ID_PLAYER, BlakthornCity_DragonsdenS4_Combate_MaestroDra
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_14
 waitmovement 0x0
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1.1
+waitmovement 0x0
+msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM99
+msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+delay 10
+applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1.1
+waitmovement 0x0
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_28 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_DESERT_UNDERPASS_FOSSIL
 fadescreen 1
@@ -126,6 +137,14 @@ fadescreen 0
 setvar VAR_UNUSED_0x40F7, 174
 release
 end
+
+BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT99 PULSO\n"
+	.string "DRAGON de manos de M.DRAGON!!$"
+
+BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.1:
+.string "Iba a darte esto, antes de que ese loco\n"
+	.string "nos interrumpiera.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_1:
 .string "M.DRAGÓN: ¡{PLAYER}!\n"
@@ -318,6 +337,10 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_28:
 	.string "tu organización se presenta,\l"
 	.string "mejor, hay que detenerle a todo\l"
 	.string "costo.$"
+
+BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1.1:
+walk_in_place_left
+step_end
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1:
 face_up

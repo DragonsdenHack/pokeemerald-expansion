@@ -195,3 +195,42 @@ LakeofRage_Fredo_Texto_6:
 .string "Creo que ya he andado bastante, es\n"
 	.string "hora de volver a CAOBA. Disfruta\l"
 	.string "del paseo, {PLAYER}.$"
+
+
+
+LakeofRage_Drenaje::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_809, LakeofRage_Drenaje_Despues
+msgbox LakeofRage_Drenaje_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM98
+msgbox LakeofRage_Drenaje_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_809
+release     
+end
+
+LakeofRage_Drenaje_Despues::
+msgbox LakeofRage_Drenaje_Texto_2, MSGBOX_NPC
+release
+end
+
+LakeofRage_Drenaje_Texto_1.1:
+.string "¡¡{PLAYER} obtuvo la MT98 PUÑO\n"
+	.string "DRENAJE de manos de karateka!!$"
+
+LakeofRage_Drenaje_Texto_1:
+	.string "Me pregunto qué ocurriría si\n"
+	.string "pudiéramos drenar toda el agua de\l"
+	.string "lago y ver qué hay en lo más\l"
+	.string "profundo, creo que sorprendería a\l"
+	.string "todos.$"
+
+LakeofRage_Drenaje_Texto_2:
+.string "Los TIPO LUCHA suelen tener mala\n"
+	.string "DEF.ESPECIAL, si combinas este\l"
+	.string "movimiento con el CHAL.ASALTO, ¡tu\l"
+	.string "POKÉMON será todo un muro al\l"
+	.string "tiempo que golpea duro y recupera\l"
+	.string "vida!$"

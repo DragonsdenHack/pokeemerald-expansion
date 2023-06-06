@@ -66,10 +66,31 @@ msgbox AzaleaGym_Combate_Cesar_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_GRUBBIN, 25, ITEM_NONE
 waitfanfare
 msgbox AzaleaGym_Combate_Cesar_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox AzaleaGym_Combate_Cesar_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM82
+msgbox AzaleaGym_Combate_Cesar_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox AzaleaGym_Combate_Cesar_Texto_11.3 MSGBOX_NPC
 setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 setvar VAR_UNUSED_0x40F7, 131
 release
 end
+
+AzaleaGym_Combate_Cesar_Texto_11.1:
+.string "Ah, y una cosa más. Toma.$"
+
+AzaleaGym_Combate_Cesar_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT82 ESTOICISMO\n"
+	.string "de manos de CESAR!!$"
+
+AzaleaGym_Combate_Cesar_Texto_11.3:
+.string "No es muy potente, pero agotará el\n"
+	.string "ATAQUE ESPECIAL del rival. Si sabes\l"
+	.string "darle un buen uso te puede sacar de\l"
+	.string "muchos apuros, ¡créeme!$"
+
 
 Azalea_Gym_Combate_Cesar_2::
 msgbox AzaleaGym_Combate_Cesar_Texto_12 MSGBOX_AUTOCLOSE

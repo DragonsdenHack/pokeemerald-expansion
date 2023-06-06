@@ -205,15 +205,15 @@ static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
     {4, -1},
     {4, 0},
+    {4, 0x80},
     {4, 0x100},
-    {4, 0x200},
     {0, 0},
 };
 
 static const struct DoorAnimFrame sDoorCloseAnimFrames[] =
 {
-    {4, 0x200},
     {4, 0x100},
+    {4, 0x80},
     {4, 0},
     {4, -1},
     {0, 0},
@@ -223,15 +223,15 @@ static const struct DoorAnimFrame sBigDoorOpenAnimFrames[] =
 {
     {4, -1},
     {4, 0},
+    {4, 0x100},
     {4, 0x200},
-    {4, 0x400},
     {0, 0},
 };
 
 static const struct DoorAnimFrame sBigDoorCloseAnimFrames[] =
 {
-    {4, 0x400},
     {4, 0x200},
+    {4, 0x100},
     {4, 0},
     {4, -1},
     {0, 0},

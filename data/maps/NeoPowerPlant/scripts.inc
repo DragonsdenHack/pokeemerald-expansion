@@ -300,3 +300,44 @@ NeoPowerPlant_Combate_Zapdos_Texto_8:
 NeoPowerPlant_Combate_Zapdos_Texto_9:
 .string "Espero que estés preparado.$"
 
+NeoPowerPlant_RayoCarga::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_814, NeoPowerPlant_RayoCarga_Despues
+msgbox NeoPowerPlant_RayoCarga_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM97
+msgbox NeoPowerPlant_RayoCarga_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_814
+release     
+end
+
+NeoPowerPlant_RayoCarga_Despues::
+msgbox NeoPowerPlant_RayoCarga_Texto_2, MSGBOX_NPC
+release
+end
+
+NeoPowerPlant_RayoCarga_Texto_1:
+.string "Aunque se ha renovado, esta CENTRAL\n"
+	.string "es bastante antigua, debemos evitar\l"
+	.string "cualquier sobrecarga del sistema.\l"
+	.string "Toma esto.$"
+
+NeoPowerPlant_RayoCarga_Texto_1.1:
+.string "¡¡{PLAYER} obtuvo la MT70 RAYO\n"
+	.string "CARGA de manos de mecánico!!$"
+
+NeoPowerPlant_RayoCarga_Texto_2:
+.string "Los POKÉMON TIPO ELÉCTRICO suelen ser\n"
+	.string "rápidos y peligrosos, pero no suelen\l"
+	.string "tener ninguna forma de elevar su\l"
+	.string "ATAQUE ESPECIAL.\l"
+	.string "Con RAYO CARGA podrán hacerlo al\l"
+	.string "tiempo que siguen causando daño.$"
+
+
+
+
+
+

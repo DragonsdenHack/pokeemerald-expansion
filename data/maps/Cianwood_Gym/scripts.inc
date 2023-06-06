@@ -98,10 +98,30 @@ msgbox Cianwood_Gym_Combate_Anibal_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_STUFFUL, 25, ITEM_NONE
 waitfanfare
 msgbox Cianwood_Gym_Combate_Anibal_Texto_11 MSGBOX_NPC
+delay 10
+msgbox Cianwood_Gym_Combate_Anibal_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM65
+msgbox Cianwood_Gym_Combate_Anibal_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox Cianwood_Gym_Combate_Anibal_Texto_11.3 MSGBOX_NPC
 clearflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setvar VAR_UNUSED_0x40F7, 150
 release
 end
+
+Cianwood_Gym_Combate_Anibal_Texto_11.1:
+.string "¡Jah! ¡Llévate también esta MT!$"
+
+Cianwood_Gym_Combate_Anibal_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT65 PUNTAPIE\n"
+	.string "de manos de ANIBAL!!$"
+
+Cianwood_Gym_Combate_Anibal_Texto_11.3:
+.string "Los TIPO LUCHA no suelen tener la mejor\n"
+	.string "VELOCIDAD. Con este movimiento no solo\l"
+	.string "causarás daño, ¡también volverás\l"
+	.string "lentos a tus rivales!$"
 
 Cianwood_Gym_Combate_Anibal_2::
 msgbox Cianwood_Gym_Combate_Anibal_Texto_12 MSGBOX_NPC

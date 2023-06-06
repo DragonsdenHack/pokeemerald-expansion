@@ -146,7 +146,7 @@ msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CONTADOR, CeladonCity_Shop_3F_Entrenador_Especial_Texto_5
 msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM68
+additem ITEM_TM53
 msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
 waitfanfare
 msgbox CeladonCity_Shop_3F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
@@ -165,7 +165,7 @@ release
 end
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste MT68 GIGA IMPACTO\n"
+.string "¡Obtuviste MT53 GIGA IMPACTO\n"
 	.string "de manos de VENDEDOR!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1:

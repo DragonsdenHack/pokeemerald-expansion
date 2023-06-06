@@ -278,11 +278,35 @@ msgbox Violet_Gym_Combate_Pegaso_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_RUFFLET, 25, ITEM_NONE
 waitfanfare
 msgbox Violet_Gym_Combate_Pegaso_Texto_11 MSGBOX_NPC
+delay 10
+msgbox Violet_Gym_Combate_Pegaso_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM61
+msgbox Violet_Gym_Combate_Pegaso_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox Violet_Gym_Combate_Pegaso_Texto_11.3 MSGBOX_NPC
 clearflag FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT
 setflag FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT
 setvar VAR_UNUSED_0x40F7, 125
 release
 end
+
+Violet_Gym_Combate_Pegaso_Texto_11.3:
+.string "Con RESPIRO los POKÉMON voladores\n"
+	.string "podrán recuperar salud durante el\l"
+	.string "combate. Durante ese turno perderán\l"
+	.string "todas sus resistencias y debilidades\l"
+	.string "de su TIPO VOLADOR, úsalo sabiamente\l"
+	.string "para aprovecharte de ello.$"
+
+Violet_Gym_Combate_Pegaso_Texto_11.1:
+.string "Toma, quiero que también te lleves esto.$"
+
+Violet_Gym_Combate_Pegaso_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT61 RESPIRO de\n"
+	.string "manos de PEGASO!!$"
+
+
 
 Violet_Gym_Combate_Pegaso_2::
 lock

@@ -282,7 +282,7 @@
       "x": 22,
       "y": 14,
       "elevation": 0,
-      "dest_map": "MAP_SAFFRON_CITY_HOUSE1_1F",
+      "dest_map": "MAP_SAFFRON_CITY_HOUSE2",
       "dest_warp_id": 3
     },
     {
@@ -324,8 +324,8 @@
       "x": 43,
       "y": 38,
       "elevation": 0,
-      "dest_map": "MAP_SAFFRON_CITY",
-      "dest_warp_id": 0
+      "dest_map": "MAP_SAFFRON_CITY_HOUSE3",
+      "dest_warp_id": 1
     },
     {
       "x": 8,

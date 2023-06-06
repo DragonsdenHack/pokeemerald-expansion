@@ -51,6 +51,13 @@ givemon SPECIES_RIOLU, 25, ITEM_NONE
 waitfanfare
 msgbox Olivine_Gym_Combate_Crom_Texto_11 MSGBOX_NPC
 delay 15
+msgbox Olivine_Gym_Combate_Crom_Texto_11.10 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM77
+msgbox Olivine_Gym_Combate_Crom_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox Olivine_Gym_Combate_Crom_Texto_11.3 MSGBOX_NPC
+delay 10
 msgbox Olivine_Gym_Combate_Crom_Texto_12 MSGBOX_NPC
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_SS_TICKET
@@ -61,6 +68,20 @@ clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE
 setvar VAR_UNUSED_0x40F7, 143
 release
 end
+
+Olivine_Gym_Combate_Crom_Texto_11.3:
+.string "Con PULIMENTO despertarás el\n"
+	.string "potencial ofensivo de muchos POKÉMON\l"
+	.string "ROCA y ACERO.\l"
+	.string "¡RHYPERIOR y METAGROSS serán un\l"
+	.string "peligro!$"
+
+Olivine_Gym_Combate_Crom_Texto_11.10:
+.string "Ten también esta MT.$"
+
+Olivine_Gym_Combate_Crom_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT77 PULIMENTO\n"
+	.string "de manos de CROM!!$"
 
 Olivine_Gym_Combate_Crom_Texto_11.1:
 .string "¡¡Obtuviste TICKET FIESTA de manos\n"

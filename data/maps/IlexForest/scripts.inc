@@ -161,3 +161,39 @@ IlexForestDocumento_Text_100:
 	.string "que no se ve ni el cielo.\l"
 	.string "Por favor, busca objetos que\l"
 	.string "puedan haber caído.$"
+
+IlexForest_IdaVuelta::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_808, IlexForest_Despues
+msgbox IlexForest_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM91
+msgbox IlexForest_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_808
+release     
+end
+
+IlexForest_Despues::
+msgbox IlexForest_Texto_2, MSGBOX_NPC
+release
+end
+
+IlexForest_Texto_1.1:
+.string "¡{PLAYER} obtuvo la MT91 IDA Y\n"
+	.string "VUELTA de manos de cazabichos!$"
+
+IlexForest_Texto_1:
+.string "Estoy aquí desarrollando\n"
+	.string "en secreto el movimiento TIPO\l"
+	.string "BICHO defintivo en cuanto\l"
+	.string "estrategia. IDA Y VUELTA marcará\l"
+	.string "un antes y un después en el ritmo\l"
+	.string "de los combates. Mira.$"
+
+IlexForest_Texto_2:
+.string "¡Vas a tener a los POKÉMON más\n"
+	.string "escurridizos e impredecibles\l"
+	.string "gracias a IDA Y VUELTA, ya lo\l"
+	.string "verás!$"

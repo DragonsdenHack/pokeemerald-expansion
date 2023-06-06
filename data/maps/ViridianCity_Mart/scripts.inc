@@ -1132,3 +1132,43 @@ BosqueGimnasio_Mercado_2_Pokemart:
 	release
 	end
 
+
+Subterraneo_Trigal_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Subterraneo_Trigal_Mercado_7_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Subterraneo_Trigal_Mercado_7_Pokemart:
+    .2byte 650
+	.2byte 656
+	.2byte 671
+	.2byte ITEM_NONE
+	release
+	end
+
+
+Comercial_Trigal_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Comercial_Trigal_Mercado_7_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Comercial_Trigal_Mercado_7_Pokemart:
+    .2byte 648
+	.2byte 674
+	.2byte 682
+	.2byte ITEM_NONE
+	release
+	end
+

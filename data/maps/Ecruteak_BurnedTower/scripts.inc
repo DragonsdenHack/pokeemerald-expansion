@@ -80,3 +80,35 @@ BurnedTowerDocumento_Text_100:
 	.string "perdieron la vida. Vuestra esencia aquí\l"
 	.string "permanece, y JOHTO os honra desde la\l"
 	.string "pagoda del oeste.$"
+
+BurnedTower_FuegoFatuo::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_811, BurnedTower_FuegoFatuo_Despues
+msgbox BurnedTower_FuegoFatuo_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM72
+msgbox BurnedTower_FuegoFatuo_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_811
+release     
+end
+
+BurnedTower_FuegoFatuo_Despues::
+msgbox BurnedTower_FuegoFatuo_Texto_2, MSGBOX_NPC
+release
+end
+
+BurnedTower_FuegoFatuo_Texto_2:
+.string "FUEGO FATUO quema al rival, anulando\n"
+	.string "ese ímpetu físico, incluso a los\l"
+	.string "atacantes más feroces.$"
+
+BurnedTower_FuegoFatuo_Texto_1.1:
+.string "¡¡{PLAYER} obtuvo la MT72 FUEGO\n"
+	.string "FATUO de manos de exorcista!!$"
+
+BurnedTower_FuegoFatuo_Texto_1:
+.string "Aún puedo sentir la energía de\n"
+	.string "aquellos que sufrieron la tragedia\l"
+	.string "de hace 150 años.$"

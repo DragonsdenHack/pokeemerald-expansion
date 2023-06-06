@@ -71,3 +71,37 @@ TinTowerP5_EventScript_Monje::
 	trainerbattle_single TRAINER_BRANDI, TinTowerP5_Text_MonjeIntro, TinTowerP5_Text_MonjeDefeated
 	msgbox TinTowerP5_Text_MonjePostBattle, MSGBOX_AUTOCLOSE
 	end
+
+TinTowerP5_Foco::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_816, TinTowerP5_Foco_Despues
+msgbox TinTowerP5_Foco_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM93
+msgbox TinTowerP5_Foco_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_816
+release     
+end
+
+TinTowerP5_Foco_Despues::
+msgbox TinTowerP5_Foco_Texto_2, MSGBOX_NPC
+release
+end
+
+TinTowerP5_Foco_Texto_1:
+.string "El cuerpo y la mente van de la\n"
+	.string "mano. Mientras ambas estén en\l"
+	.string "equilibrio, todo fluirá.$"
+
+TinTowerP5_Foco_Texto_1.1:
+.string "¡¡{PLAYER} obtuvo la MT93 FOCO\n"
+	.string "RESPLANDOR de manos de pensador!!$"
+
+TinTowerP5_Foco_Texto_2:
+.string "FOCO RESPLANDOR saca el lado especial\n"
+	.string "que incluso los TIPO ACERO tienen.$"
+
+
+
