@@ -205,15 +205,15 @@ static const struct DoorAnimFrame sDoorOpenAnimFrames[] =
 {
     {4, -1},
     {4, 0},
+    {4, 0x80},
     {4, 0x100},
-    {4, 0x200},
     {0, 0},
 };
 
 static const struct DoorAnimFrame sDoorCloseAnimFrames[] =
 {
-    {4, 0x200},
     {4, 0x100},
+    {4, 0x80},
     {4, 0},
     {4, -1},
     {0, 0},
@@ -223,15 +223,15 @@ static const struct DoorAnimFrame sBigDoorOpenAnimFrames[] =
 {
     {4, -1},
     {4, 0},
+    {4, 0x100},
     {4, 0x200},
-    {4, 0x400},
     {0, 0},
 };
 
 static const struct DoorAnimFrame sBigDoorCloseAnimFrames[] =
 {
-    {4, 0x400},
     {4, 0x200},
+    {4, 0x100},
     {4, 0},
     {4, -1},
     {0, 0},
@@ -382,7 +382,31 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_TrainerHill_Door_Elevator_Roof,               DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_TrainerHillRoofElevator, sDoorAnimPalettes_TrainerHillRoofElevator},
 	{METATILE_CeruleanCity_Door,            			    DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Cerulean, sDoorAnimPalettes_Cerulean2},
 	{METATILE_General_SlidingSingleDoor,            		DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SlidingSingle, sDoorAnimPalettes_SlidingSingle2},
-	{METATILE_General_SlidingDoubleDoor,						DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SlidingDouble, sDoorAnimPalettes_SlidingDouble2},
+	{METATILE_General_SlidingDoubleDoor,					DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SlidingDouble, sDoorAnimPalettes_SlidingDouble2},
+	{METATILE_PalletTown_Door,            	     		    DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Pallet, sDoorAnimPalettes_Pallet2},
+	{METATILE_CeladonCity_DeptStoreDoor,					DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_DeptStore, sDoorAnimPalettes_DeptStore2},
+	{METATILE_CinnabarIsland_LabDoor,						DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_CinnabarLab, sDoorAnimPalettes_CinnabarLab2},
+	{METATILE_DepartmentStore_ElevatorDoor,					DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_DeptStoreElevator, sDoorAnimPalettes_DeptStoreElevator2},
+	{METATILE_FuchsiaCity_Door,								DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Fuchsia, sDoorAnimPalettes_Fuchsia2},
+	{METATILE_FuchsiaCity_SafariZoneDoor,					DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_SafariZone, sDoorAnimPalettes_SafariZone2},
+	{METATILE_LavenderTown_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Lavender, sDoorAnimPalettes_Lavender2},
+	{METATILE_PalletTown_OaksLabDoor,						DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_OaksLab, sDoorAnimPalettes_OaksLab2},
+	{METATILE_PewterCity_Door,								DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Pewter, sDoorAnimPalettes_Pewter2},
+	{METATILE_SSAnne_Door,									DOOR_SOUND_NORMAL, 2, sDoorAnimTiles_SSAnne, sDoorAnimPalettes_SSAnne2},
+	{METATILE_SaffronCity_Door,								DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Saffron, sDoorAnimPalettes_Saffron2},
+	{METATILE_SaffronCity_SilphCoDoor,						DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SilphCo, sDoorAnimPalettes_SilphCo2},
+	{METATILE_SeviiIslands123_GameCornerDoor,              DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_JoyfulGameCorner, sDoorAnimPalettes_JoyfulGameCorner2},
+    {METATILE_SeviiIslands123_PokeCenterDoor,              DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_OneIslandPokeCenter, sDoorAnimPalettes_OneIslandPokeCenter2},
+	{METATILE_SeviiIslands45_Door,                         DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_Sevii45, sDoorAnimPalettes_Sevii452},
+    {METATILE_SeviiIslands45_DayCareDoor,                  DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_FourIslandDayCare, sDoorAnimPalettes_FourIslandDayCare2},
+	{METATILE_SeviiIslands123_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Sevii123, sDoorAnimPalettes_Sevii123},
+	{METATILE_SeviiIslands67_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Sevii67, sDoorAnimPalettes_Sevii67},
+	{METATILE_SilphCo_HideoutElevatorDoor,					DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_HideoutElevator, sDoorAnimPalettes_HideoutElevator2},
+	{METATILE_VermilionCity_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Vermilion, sDoorAnimPalettes_Vermilion2},
+	{METATILE_ViridianCity_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Viridian, sDoorAnimPalettes_Viridian2},
+	{METATILE_SaffronCity_SilphCoDoor,                      DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_SilphCo, sDoorAnimPalettes_SilphCo2},
+	{METATILE_SeaCottage_Teleporter_Door,                  DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_Teleporter, sDoorAnimPalettes_Teleporter2},
+	{METATILE_VermilionCity_SSAnneWarp,                    DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_PokemonFanClub, sDoorAnimPalettes_PokemonFanClub2},
     {},
 };
 
