@@ -633,3 +633,6 @@ const u16 gObjectEventPal_HoOh2[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPal_Calvo2johto[] = INCBIN_U16("graphics/object_events/palettes/calvo2johto.gbapal");
 const u16 gObjectEventPal_Calvojohto[] = INCBIN_U16("graphics/object_events/palettes/calvojohto.gbapal");
 const u16 gObjectEventPal_Unownoro[] = INCBIN_U16("graphics/object_events/palettes/unownoro.gbapal");
+const u16 gObjectEventPal_Rojo[] = INCBIN_U16("graphics/object_events/palettes/rojo.gbapal");
+const u16 gObjectEventPal_Petrel[] = INCBIN_U16("graphics/object_events/palettes/petrel.gbapal");
+const u16 gObjectEventPal_Proton[] = INCBIN_U16("graphics/object_events/palettes/proton.gbapal");
