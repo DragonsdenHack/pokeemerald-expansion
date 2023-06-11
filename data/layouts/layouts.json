@@ -13788,6 +13788,66 @@
       "secondary_tileset": "gTileset_digletts_cave",
       "border_filepath": "data/layouts/TorreDunsparce_P4/border.bin",
       "blockdata_filepath": "data/layouts/TorreDunsparce_P4/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_SECUNDARIO",
+      "name": "TwoIsland_Secundario_Layout",
+      "width": 17,
+      "height": 17,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_sevii_islands_123",
+      "border_filepath": "data/layouts/TwoIsland_Secundario/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_Secundario/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_TORRE_P1",
+      "name": "TwoIsland_Torre_P1_Layout",
+      "width": 18,
+      "height": 18,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/TwoIsland_Torre_P1/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_Torre_P1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_TORRE_P2",
+      "name": "TwoIsland_Torre_P2_Layout",
+      "width": 18,
+      "height": 18,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/TwoIsland_Torre_P2/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_Torre_P2/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_TORRE_P3",
+      "name": "TwoIsland_Torre_P3_Layout",
+      "width": 18,
+      "height": 18,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/TwoIsland_Torre_P3/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_Torre_P3/map.bin"
+    },
+    {
+      "id": "LAYOUT_TWO_ISLAND_TORRE_P4",
+      "name": "TwoIsland_Torre_P4_Layout",
+      "width": 18,
+      "height": 18,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/TwoIsland_Torre_P4/border.bin",
+      "blockdata_filepath": "data/layouts/TwoIsland_Torre_P4/map.bin"
     }
   ]
 }

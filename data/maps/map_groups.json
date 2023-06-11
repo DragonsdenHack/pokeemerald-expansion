@@ -197,7 +197,12 @@
     "SevaultCanyon",
     "TanobyRuins",
     "WestBirthIsland",
-    "PlayaTesoro"
+    "PlayaTesoro",
+    "TwoIsland_Secundario",
+    "TwoIsland_Torre_P1",
+    "TwoIsland_Torre_P2",
+    "TwoIsland_Torre_P3",
+    "TwoIsland_Torre_P4"
   ],
   "gMapGroup_TownsAndRoutesJOHTO": [
     "NewBarkTown",

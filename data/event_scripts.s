@@ -2688,3 +2688,13 @@ Text_EVChecker_3:
 	.include "data/maps/TorreDunsparce_P3/scripts.inc"
 
 	.include "data/maps/TorreDunsparce_P4/scripts.inc"
+
+	.include "data/maps/TwoIsland_Secundario/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P1/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P2/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P3/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P4/scripts.inc"

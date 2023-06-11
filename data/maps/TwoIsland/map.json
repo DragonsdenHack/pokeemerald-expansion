@@ -22,6 +22,11 @@
       "direction": "down",
       "offset": -1,
       "map": "MAP_SOUTH_TWO_ISLAND"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_TWO_ISLAND_SECUNDARIO"
     }
   ],
   "object_events": [
