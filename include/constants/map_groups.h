@@ -65,7 +65,6 @@
 #define MAP_UNDERWATER_ROUTE125 (56 | (0 << 8))
 #define MAP_CUEVA_HYPNO_2       (57 | (0 << 8))
 #define MAP_ROUTE49_D_ESCAN     (58 | (0 << 8))
-#define MAP_TORRE_DUNSPARCE_P3  (59 | (0 << 8))
 
 // gMapGroup_TownsAndRoutesKANTO
 #define MAP_PALLET_TOWN            (0 | (1 << 8))
@@ -117,40 +116,35 @@
 #define MAP_VIAS_TREN_CASA_CAMPEON (46 | (1 << 8))
 
 // gMapGroup_TownsAndRoutesSEVII
-#define MAP_ONE_ISLAND            (0 | (2 << 8))
-#define MAP_TWO_ISLAND            (1 | (2 << 8))
-#define MAP_THREE_ISLAND          (2 | (2 << 8))
-#define MAP_FOUR_ISLAND           (3 | (2 << 8))
-#define MAP_FIVE_ISLAND           (4 | (2 << 8))
-#define MAP_SIX_ISLAND            (5 | (2 << 8))
-#define MAP_SEVEN_ISLAND          (6 | (2 << 8))
-#define MAP_NAVEL_ROCK            (7 | (2 << 8))
-#define MAP_BIRTH_ISLAND          (8 | (2 << 8))
-#define MAP_KINDLE_ROAD           (9 | (2 << 8))
-#define MAP_CAPE_BRINK            (10 | (2 << 8))
-#define MAP_SOUTH_TWO_ISLAND      (11 | (2 << 8))
-#define MAP_NAVEL_ROAD            (12 | (2 << 8))
-#define MAP_THREE_ISLE_PORT       (13 | (2 << 8))
-#define MAP_BOND_BRIDGE           (14 | (2 << 8))
-#define MAP_WATER_LABYRINTH       (15 | (2 << 8))
-#define MAP_RESORT_GORGEOUS       (16 | (2 << 8))
-#define MAP_FILE_ISLE_MEADOW      (17 | (2 << 8))
-#define MAP_MEMORIAL_PILLAR       (18 | (2 << 8))
-#define MAP_WATER_PATH            (19 | (2 << 8))
-#define MAP_GREEN_PATH            (20 | (2 << 8))
-#define MAP_OUTCAST_ISLAND        (21 | (2 << 8))
-#define MAP_RUIN_VALLEY           (22 | (2 << 8))
-#define MAP_TRAINER_TOWER         (23 | (2 << 8))
-#define MAP_CANYON_ENTRANCE       (24 | (2 << 8))
-#define MAP_SEVAULT_CANYON        (25 | (2 << 8))
-#define MAP_TANOBY_RUINS          (26 | (2 << 8))
-#define MAP_WEST_BIRTH_ISLAND     (27 | (2 << 8))
-#define MAP_PLAYA_TESORO          (28 | (2 << 8))
-#define MAP_TWO_ISLAND_SECUNDARIO (29 | (2 << 8))
-#define MAP_TWO_ISLAND_TORRE_P1   (30 | (2 << 8))
-#define MAP_TWO_ISLAND_TORRE_P2   (31 | (2 << 8))
-#define MAP_TWO_ISLAND_TORRE_P3   (32 | (2 << 8))
-#define MAP_TWO_ISLAND_TORRE_P4   (33 | (2 << 8))
+#define MAP_ONE_ISLAND        (0 | (2 << 8))
+#define MAP_TWO_ISLAND        (1 | (2 << 8))
+#define MAP_THREE_ISLAND      (2 | (2 << 8))
+#define MAP_FOUR_ISLAND       (3 | (2 << 8))
+#define MAP_FIVE_ISLAND       (4 | (2 << 8))
+#define MAP_SIX_ISLAND        (5 | (2 << 8))
+#define MAP_SEVEN_ISLAND      (6 | (2 << 8))
+#define MAP_NAVEL_ROCK        (7 | (2 << 8))
+#define MAP_BIRTH_ISLAND      (8 | (2 << 8))
+#define MAP_KINDLE_ROAD       (9 | (2 << 8))
+#define MAP_CAPE_BRINK        (10 | (2 << 8))
+#define MAP_SOUTH_TWO_ISLAND  (11 | (2 << 8))
+#define MAP_NAVEL_ROAD        (12 | (2 << 8))
+#define MAP_THREE_ISLE_PORT   (13 | (2 << 8))
+#define MAP_BOND_BRIDGE       (14 | (2 << 8))
+#define MAP_WATER_LABYRINTH   (15 | (2 << 8))
+#define MAP_RESORT_GORGEOUS   (16 | (2 << 8))
+#define MAP_FILE_ISLE_MEADOW  (17 | (2 << 8))
+#define MAP_MEMORIAL_PILLAR   (18 | (2 << 8))
+#define MAP_WATER_PATH        (19 | (2 << 8))
+#define MAP_GREEN_PATH        (20 | (2 << 8))
+#define MAP_OUTCAST_ISLAND    (21 | (2 << 8))
+#define MAP_RUIN_VALLEY       (22 | (2 << 8))
+#define MAP_TRAINER_TOWER     (23 | (2 << 8))
+#define MAP_CANYON_ENTRANCE   (24 | (2 << 8))
+#define MAP_SEVAULT_CANYON    (25 | (2 << 8))
+#define MAP_TANOBY_RUINS      (26 | (2 << 8))
+#define MAP_WEST_BIRTH_ISLAND (27 | (2 << 8))
+#define MAP_PLAYA_TESORO      (28 | (2 << 8))
 
 // gMapGroup_TownsAndRoutesJOHTO
 #define MAP_NEW_BARK_TOWN        (0 | (3 << 8))
@@ -272,7 +266,6 @@
 #define MAP_ECRUTEAK_TIN_TOWER_P9              (19 | (8 << 8))
 #define MAP_ECRUTEAK_TIN_TOWER_ROOF            (20 | (8 << 8))
 #define MAP_MISION_IRIS_LAB                    (21 | (8 << 8))
-#define MAP_TIN_TOWER_LANCE                    (22 | (8 << 8))
 
 // gMapGroup_IndoorOlivineCity
 #define MAP_OLIVINE_PKMN_CENTER  (0 | (9 << 8))
@@ -402,9 +395,6 @@
 #define MAP_MISION_TRIGAL3                 (77 | (13 << 8))
 #define MAP_MISION_TRIGAL4                 (78 | (13 << 8))
 #define MAP_CUEVA_GIMNASIO_TRIGAL          (79 | (13 << 8))
-#define MAP_TORRE_DUNSPARCE_P1             (80 | (13 << 8))
-#define MAP_TORRE_DUNSPARCE_P2             (81 | (13 << 8))
-#define MAP_TORRE_DUNSPARCE_P4             (82 | (13 << 8))
 
 // gMapGroup_IndoorPalletTown
 #define MAP_PALLET_TOWN_RED_HOUSE_1F  (0 | (14 << 8))
@@ -697,7 +687,6 @@
 #define MAP_NEO_POWER_PLANT               (80 | (26 << 8))
 #define MAP_ROCKET_HIDEOUT_10F            (81 | (26 << 8))
 #define MAP_ROCKET_HIDEOUT_CONEXION_HOENN (82 | (26 << 8))
-#define MAP_POKEMON_LEAGUE_ESCENALANCE    (83 | (26 << 8))
 
 // gMapGroup_IndoorOneIsland
 #define MAP_ONE_ISLAND_POKEMON_CENTER_1F (0 | (27 << 8))
@@ -1346,7 +1335,5 @@
 #define MAP_DEVON_S10                                    (46 | (54 << 8))
 
 #define MAP_GROUPS_COUNT 55
-
-// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 42, 6, 9, 9, 21, 23, 14, 7, 7, 11, 83, 4, 5, 8, 10, 8, 22, 20, 12, 10, 16, 2, 66, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

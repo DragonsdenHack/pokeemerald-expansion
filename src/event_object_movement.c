@@ -469,6 +469,24 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define  OBJ_EVENT_PAL_TAG_NPC_CALVO2JOHTO 0x1140
 #define  OBJ_EVENT_PAL_TAG_NPC_CALVOJOHTO 0x1141
 #define  OBJ_EVENT_PAL_TAG_NPC_UNOWNORO 0x1142
+#define OBJ_EVENT_PAL_TAG_ROJO          0x1143
+#define OBJ_EVENT_PAL_TAG_PETREL		0x1144
+#define OBJ_EVENT_PAL_TAG_PROTON		0x1145
+#define OBJ_EVENT_PAL_TAG_ALTO_RANGO		0x1146
+#define OBJ_EVENT_PAL_TAG_EJECUTIVO		0x1147
+#define OBJ_EVENT_PAL_TAG_SUBADMIN		0x1148
+#define OBJ_EVENT_PAL_TAG_ADMIN2		0x1149
+#define OBJ_EVENT_PAL_TAG_ANDRA_ALTO_RANGO		0x114A
+#define OBJ_EVENT_PAL_TAG_ANDRA_EJECUTIVA		0x114B
+#define OBJ_EVENT_PAL_TAG_ANDRA_SUBADMIN		0x114C
+#define OBJ_EVENT_PAL_TAG_ADMINANDRA2			0x114D
+#define OBJ_EVENT_PAL_TAG_JONES					0X144E
+#define OBJ_EVENT_PAL_TAG_CULTO			0x114D
+
+#define OBJ_EVENT_PAL_TAG_MANCIANO		0x114F
+#define OBJ_EVENT_PAL_TAG_MUERTO		0x1150
+#define OBJ_EVENT_PAL_TAG_BIDEN			0x1151
+
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
 #include "data/field_effects/field_effect_object_template_pointers.h"
@@ -542,6 +560,17 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Calvojohto,        OBJ_EVENT_PAL_TAG_NPC_CALVOJOHTO},
 	{gObjectEventPal_Unownoro,        OBJ_EVENT_PAL_TAG_NPC_UNOWNORO},
 	{gObjectEventPal_Atlas,               OBJ_EVENT_PAL_TAG_ATLAS},
+	{gObjectEventPal_Rojo,               OBJ_EVENT_PAL_TAG_ROJO},
+	{gObjectEventPal_Petrel,               OBJ_EVENT_PAL_TAG_PETREL},
+	{gObjectEventPal_Proton,               OBJ_EVENT_PAL_TAG_PROTON},
+	// {gObjectEventPal_AltoRango,               OBJ_EVENT_PAL_TAG_ALTO_RANGO},	
+	// {gObjectEventPal_Ejecutivo,               OBJ_EVENT_PAL_TAG_EJECUTIVO},		
+	// {gObjectEventPal_Subadmin,               OBJ_EVENT_PAL_TAG_SUBADMIN},		
+	// {gObjectEventPal_Admin2,               OBJ_EVENT_PAL_TAG_ADMIN2},	
+	// {gObjectEventPal_Andra_AltoRango,               OBJ_EVENT_PAL_TAG_ANDRA_ALTO_RANGO},		
+	// {gObjectEventPal_Andra_Ejecutivo,               OBJ_EVENT_PAL_TAG_ANDRA_EJECUTIVA},		
+	// {gObjectEventPal_Andra_Subadmin,               OBJ_EVENT_PAL_TAG_ANDRA_SUBADMIN},		
+	// {gObjectEventPal_Andraadmin2,               OBJ_EVENT_PAL_TAG_ADMINANDRA2},			
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
