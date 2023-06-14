@@ -143,6 +143,22 @@ Base_Profunda_Mercado_4_Pokemart:
 	.2byte 14
 	.2byte 5
 	.2byte 23
+	.2byte 114
+	.2byte 115
+	.2byte 116
+	.2byte 120
+	.2byte 211
+	.2byte 212
+	.2byte 213
+	.2byte 214
+	.2byte 121
+	.2byte 122
+	.2byte 123
+	.2byte 124
+	.2byte 125
+	.2byte 126
+	.2byte 127
+	.2byte 128
 	.2byte ITEM_NONE
 	release
 	end
@@ -159,22 +175,6 @@ Base_Profunda_Mercado_5_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_5_Pokemart:
-    .2byte 114
-	.2byte 115
-	.2byte 116
-	.2byte 120
-	.2byte 211
-	.2byte 212
-	.2byte 213
-	.2byte 214
-	.2byte 121
-	.2byte 122
-	.2byte 123
-	.2byte 124
-	.2byte 125
-	.2byte 126
-	.2byte 127
-	.2byte 128
 	.2byte ITEM_NONE
 	release
 	end

@@ -28067,33 +28067,81 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER155[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER156[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 55,
+    .species = SPECIES_WEEZING,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT, MOVE_NONE}
+    },
+        {
+    .iv = 0,
+    .lvl = 56,
+    .species = SPECIES_MUK,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_ACID_ARMOR, MOVE_TOXIC, MOVE_NONE}
+    },
+        {
+    .iv = 0,
+    .lvl = 57,
+    .species = SPECIES_TENTACRUEL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_BUBBLE_BEAM, MOVE_BARRIER, MOVE_SLUDGE_BOMB, MOVE_NONE}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER157[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 54,
+    .species = SPECIES_PRIMEAPE,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_CROSS_CHOP, MOVE_SUBMISSION, MOVE_ROCK_SLIDE, MOVE_NONE}
+    },
+        {
+    .iv = 0,
+    .lvl = 54,
+    .species = SPECIES_ELECTRODE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_THUNDERBOLT, MOVE_SIGNAL_BEAM, MOVE_LIGHT_SCREEN, MOVE_REFLECT}
+    },
+        {
+    .iv = 55,
+    .lvl = 9,
+    .species = SPECIES_WEEZING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_EXPLOSION, MOVE_FLAMETHROWER, MOVE_PAIN_SPLIT}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER158[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 55,
+    .species = SPECIES_MACHOKE,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_CROSS_CHOP, MOVE_THROAT_CHOP, MOVE_PAIN_SPLIT, MOVE_NONE}
+    },
+        {
+    .iv = 0,
+    .lvl = 56,
+    .species = SPECIES_PRIMEAPE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_CROSS_CHOP, MOVE_KNOCK_OFF, MOVE_ROCK_SLIDE, MOVE_NONE}
+    },
+        {
+    .iv = 0,
+    .lvl = 57,
+    .species = SPECIES_MACHAMP,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_CROSS_CHOP, MOVE_STONE_EDGE, MOVE_BULK_UP, MOVE_THROAT_CHOP}
     }
 };
 

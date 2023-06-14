@@ -16832,3 +16832,27 @@ NinjaBaseS3_Text_NinjaPostBattle:
 .string "Vamos a convertir esta base en lo\n"
 	.string "que siempre fue, un verdadero\l"
 	.string "escondite ninja.$"
+
+TwoIsland_Text_BikerIntro:
+.string "¿Dónde crees que vas?\n"
+	.string "¡Este terreno es privado!$"
+
+TwoIsland_Text_BikerDefeated:
+.string "¡Qué poderío!$"
+
+TwoIsland_Text_BikerPostBattle:
+.string "¿Adónde vas?\n"
+	.string "En ese edificio de 4 plantas no hay\l"
+	.string "nada, está vacío.$"
+
+TwoIsland_Text_Biker2Intro:
+.string "¿Pero a ti qué te pasa, no eras de\n"
+	.string "KANTO también?\l"
+	.string "¡Se supone que debes apoyarnos!$"
+
+TwoIsland_Text_Biker2Defeated:
+.string "¡Venga ya!$"
+
+TwoIsland_Text_Biker2PostBattle:
+.string "Puede que no te guste lo que encuentres\n"
+	.string "ahí arriba.$"

@@ -241,6 +241,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM02_FLY)
@@ -1189,6 +1190,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
@@ -1244,6 +1246,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
@@ -1306,7 +1309,8 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM72_WILL_O_WISP)
                                             | TMHM2(TM75_PAYBACK)
                                             | TMHM2(TM89_SWAGGER)
-                                            | TMHM2(TM92_SUBSTITUTE)),
+                                            | TMHM2(TM92_SUBSTITUTE)
+                                            | TMHM2(TM112_AURA_SPHERE)),
 
     [SPECIES_JIGGLYPUFF]  = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                             | TMHM(TM03_WATER_PULSE)
@@ -1872,6 +1876,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM97_BRINE)
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM107_ICE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
@@ -1915,6 +1920,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM97_BRINE)
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM107_ICE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
@@ -2231,6 +2237,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -2275,6 +2282,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -2322,6 +2330,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -3255,6 +3264,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)),
 
     [SPECIES_HAUNTER]     = TMHM_LEARNSET(TMHM(TM06_TOXIC)
@@ -3298,6 +3308,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)),
 
     [SPECIES_GENGAR]      = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
@@ -3348,6 +3359,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -3430,6 +3442,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -3475,6 +3488,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -4330,6 +4344,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM97_BRINE)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM07_WATERFALL)
@@ -4371,6 +4386,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM97_BRINE)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM07_WATERFALL)
@@ -4425,6 +4441,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -4507,6 +4524,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -5399,6 +5417,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM115_IRON_HEAD)
@@ -6422,6 +6441,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM06_ROCK_SMASH)),
 
@@ -6465,6 +6485,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM102_SMART_STRIKE)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM05_FLASH)
@@ -6504,6 +6525,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM05_FLASH)),
 
@@ -6543,6 +6565,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM05_FLASH)),
@@ -6824,6 +6847,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM06_ROCK_SMASH)
@@ -7151,6 +7175,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM05_FLASH)),
@@ -7184,6 +7209,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM05_FLASH)),
 
@@ -7315,6 +7341,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_UNOWN]       = TMHM_LEARNSET(TMHM(TM10_HIDDEN_POWER), 0),
@@ -9091,6 +9118,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM97_BRINE)
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM02_FLY)
@@ -9145,6 +9173,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM90_PLUCK)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM02_FLY)
@@ -10145,6 +10174,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -10186,6 +10216,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -11799,6 +11830,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -11846,6 +11878,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -12267,6 +12300,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM95_STEALTH_ROCK)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -12314,6 +12348,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM95_STEALTH_ROCK)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -12865,6 +12900,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(HM05_FLASH)),
 
@@ -12905,6 +12941,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(HM05_FLASH)),
 
@@ -12938,6 +12975,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_DUSCLOPS]    = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
@@ -12982,6 +13020,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -13015,6 +13054,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM99_DRAGON_PULSE)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM117_GRASSY_TERRAIN)
                                             | TMHM2(HM01_CUT)
@@ -13057,6 +13097,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_ABSOL]       = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
@@ -13512,6 +13553,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM01_CUT)
@@ -13782,6 +13824,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM99_DRAGON_PULSE)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM111_PSYWAVE)
                                             | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
@@ -13837,6 +13880,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM99_DRAGON_PULSE)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM111_PSYWAVE)
                                             | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
@@ -13991,6 +14035,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM96_AVALANCHE)
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM02_FLY)
@@ -15788,6 +15833,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM95_STEALTH_ROCK)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -15831,6 +15877,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM95_STEALTH_ROCK)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM04_STRENGTH)
@@ -17264,6 +17311,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_GALLADE]     = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
@@ -17417,6 +17465,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -17457,6 +17506,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM96_AVALANCHE)
                                             | TMHM2(TM103_AURORA_VEIL)
                                             | TMHM2(TM107_ICE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_ROTOM]       = TMHM_LEARNSET(TMHM(TM06_TOXIC)
@@ -17485,6 +17535,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM79_THUNDER_WAVE)
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM116_ELECTRIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -17532,6 +17583,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_MESPRIT]     = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
@@ -17578,6 +17630,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_AZELF]       = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
@@ -17628,6 +17681,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_DIALGA]      = TMHM_LEARNSET(TMHM(TM02_DRAGON_CLAW)
@@ -17899,6 +17953,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -18011,6 +18066,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM98_DRAIN_PUNCH)
                                             | TMHM2(TM105_SNARL)
                                             | TMHM2(TM106_POWER_UP_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
@@ -18971,6 +19027,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_MUSHARNA]    = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -19007,6 +19064,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -19260,6 +19318,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM05_FLASH)),
@@ -19304,6 +19363,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM05_FLASH)),
@@ -20452,6 +20512,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM05_FLASH)),
@@ -20484,6 +20545,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_COFAGRIGUS]  = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -20518,6 +20580,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_TIRTOUGA]    = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
@@ -20771,6 +20834,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM01_CUT)),
 
     [SPECIES_ZOROARK]     = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -20811,6 +20875,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM06_ROCK_SMASH)),
 
@@ -20917,6 +20982,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_GOTHORITA]   = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -20955,6 +21021,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_GOTHITELLE]  = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -20999,6 +21066,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM106_POWER_UP_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_SOLOSIS]     = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -21035,6 +21103,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM104_INFESTATION)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -21072,6 +21141,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM104_INFESTATION)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -21119,6 +21189,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
@@ -21878,6 +21949,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_BEHEEYEM]    = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -21916,6 +21988,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -21949,6 +22022,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_LAMPENT]     = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -21981,6 +22055,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_CHANDELURE]  = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -22015,6 +22090,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)),
 
     [SPECIES_AXEW]        = TMHM_LEARNSET(TMHM(TM02_DRAGON_CLAW)
@@ -22502,6 +22578,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -22548,6 +22625,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
@@ -22980,6 +23058,8 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM03_SURF)
@@ -23199,6 +23279,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM04_STRENGTH)
@@ -23246,6 +23327,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM102_SMART_STRIKE)
                                             | TMHM2(TM108_THUNDER_PUNCH)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM116_ELECTRIC_TERRAIN)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM04_STRENGTH)
@@ -23382,6 +23464,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM95_STEALTH_ROCK)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -23560,6 +23643,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM93_FLASH_CANNON)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM02_FLY)
@@ -23820,6 +23904,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM01_CUT)),
 
@@ -24123,6 +24208,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)),
 
@@ -24318,6 +24404,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM117_GRASSY_TERRAIN)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -24602,6 +24689,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM106_POWER_UP_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM05_FLASH)),
@@ -24660,6 +24748,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM93_FLASH_CANNON)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -24693,6 +24782,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM93_FLASH_CANNON)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -24763,6 +24853,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM98_DRAIN_PUNCH)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
@@ -24818,6 +24909,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM98_DRAIN_PUNCH)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM05_FLASH)),
 
@@ -25402,6 +25494,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM05_FLASH)),
@@ -25723,6 +25816,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM98_DRAIN_PUNCH)
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM106_POWER_UP_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -25804,6 +25898,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM06_ROCK_SMASH)),
 
@@ -25992,6 +26087,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM93_FLASH_CANNON)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM102_SMART_STRIKE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM05_FLASH)),
@@ -26031,6 +26127,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM105_SNARL)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM02_FLY)),
@@ -26146,6 +26243,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM106_POWER_UP_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
@@ -27447,6 +27545,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)),
 
     [SPECIES_PASSIMIAN]   = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
@@ -27605,6 +27704,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM95_STEALTH_ROCK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM104_INFESTATION)),
 
     [SPECIES_PYUKUMUKU]   = TMHM_LEARNSET(TMHM(TM06_TOXIC)
@@ -27745,6 +27845,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(TM115_IRON_HEAD)),
 
@@ -27855,6 +27956,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM98_DRAIN_PUNCH)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)),
 
     [SPECIES_BRUXISH]     = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
@@ -27891,6 +27993,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM07_WATERFALL)),
@@ -27939,6 +28042,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM03_SURF)),
@@ -28139,6 +28243,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM108_THUNDER_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(TM116_ELECTRIC_TERRAIN)
                                             | TMHM2(HM02_FLY)),
@@ -28175,6 +28280,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM111_PSYWAVE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)),
 
     [SPECIES_TAPU_BULU]   = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
@@ -28214,6 +28320,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM102_SMART_STRIKE)
                                             | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM117_GRASSY_TERRAIN)),
 
     [SPECIES_TAPU_FINI]   = TMHM_LEARNSET(TMHM(TM03_WATER_PULSE)
@@ -28245,6 +28352,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM102_SMART_STRIKE)
                                             | TMHM2(TM107_ICE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM07_WATERFALL)),
@@ -28334,6 +28442,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)),
 
@@ -28597,6 +28706,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM102_SMART_STRIKE)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)),
 
     [SPECIES_MAGEARNA]    = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
@@ -29132,6 +29242,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM93_FLASH_CANNON)
+                                            | TMHM2(TM110_SKY_ATTACK)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM02_FLY)),
@@ -29976,6 +30087,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)
                                             | TMHM2(TM119_MISTY_TERRAIN)),
 
@@ -30011,7 +30123,8 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM95_STEALTH_ROCK)
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM101_BRUTAL_SWING)
-                                            | TMHM2(TM104_INFESTATION)),
+                                            | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)),
 
     [SPECIES_MILCERY]     = TMHM_LEARNSET(TMHM(TM17_PROTECT)
                                             | TMHM(TM42_FACADE)
@@ -30039,6 +30152,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM98_DRAIN_PUNCH)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM119_MISTY_TERRAIN)),
 
     [SPECIES_FALINKS]     = TMHM_LEARNSET(TMHM(TM08_BULK_UP)
@@ -30112,6 +30226,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM100_DAZZLING_GLEAM)
                                             | TMHM2(TM103_AURORA_VEIL)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM113_TAILWIND)),
 
     [SPECIES_STONJOURNER] = TMHM_LEARNSET(TMHM(TM15_HYPER_BEAM)
@@ -30165,6 +30280,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM98_DRAIN_PUNCH)
                                             | TMHM2(TM100_DAZZLING_GLEAM)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)),
 
     [SPECIES_MORPEKO]     = TMHM_LEARNSET(TMHM(TM09_BULLET_SEED)
@@ -30422,6 +30538,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM99_DRAGON_PULSE)
                                             | TMHM2(TM104_INFESTATION)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(HM02_FLY)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM08_DIVE)),
@@ -30513,6 +30630,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM107_ICE_PUNCH)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM109_FIRE_PUNCH)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM115_IRON_HEAD)
                                             | TMHM2(HM06_ROCK_SMASH)),
 
@@ -30648,7 +30766,8 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM83_BULLDOZE)
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
-                                            | TMHM2(TM105_SNARL)),
+                                            | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM112_AURA_SPHERE)),
 
     [SPECIES_CALYREX]     = TMHM_LEARNSET(TMHM(TM04_CALM_MIND)
                                             | TMHM(TM09_BULLET_SEED)
@@ -36387,6 +36506,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM94_TRICK_ROOM)
                                             | TMHM2(TM105_SNARL)
+                                            | TMHM2(TM112_AURA_SPHERE)
                                             | TMHM2(TM117_GRASSY_TERRAIN)
                                             | TMHM2(TM118_PSYCHIC_TERRAIN)),
 };

@@ -49,3 +49,93 @@ end
 ThreeIslandDocumento_Text_101:
 .string "ISLA TERA\n"
 	.string "La isla de los lazos familiares.$"
+
+ThreeIsland_Secundaria_Recreativos::
+lock
+faceplayer
+compare VAR_UNUSED_0x404E, 1
+goto_if_gt ThreeIsland_Secundaria_Recreativos_2
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_1 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_2 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_3 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_4 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_5 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_6 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_7 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_8 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_9 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_10 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_11 MSGBOX_AUTOCLOSE
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x404E, 2
+release
+end
+
+ThreeIsland_Secundaria_Recreativos_2::
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+
+ThreeIsland_Secundaria_Recreativos_Texto_1:
+.string "No podemos hacer nada, los RECREATIVOS\n"
+	.string "son suyos.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_2:
+.string "¡Eh, espera! ¡Eres uno de ellos!$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_3:
+.string "Ah… ¿no?$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_4:
+.string "Creí que eras uno de esos tipos de\n"
+	.string "KANTO, por su culpa tendremos que\l"
+	.string "dejar el negocio en ISLA SECUNDA.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_5:
+.string "… …$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_6:
+.string "Es comprensible, un solo ENTRENADOR\n"
+	.string "poco puede hacer.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_7:
+.string "Tienes agallas, debes ser un gran\n"
+	.string "ENTRENADOR, pero ni con esas tienes el\l"
+	.string "éxito garantizado. Escucha.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_8:
+.string "Hace ya un tiempo vinieron de KANTO\n"
+	.string "unos tipos. Estaban muy interesados en\l"
+	.string "los RECREATIVOS y en cómo este\l"
+	.string "negocio podía prosperar en unas islas\l"
+	.string "alejadas de la urbe.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_9:
+.string "No tardaron en proponernos vendérselo\n"
+	.string "a ellos. Pero… cuando nos negamos, nos\l"
+	.string "obligaron por la fuerza, y empezaron a\l"
+	.string "construir su propio negocio.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_10:
+.string "Ahora ni siquiera nos han pagado, y los\n"
+	.string "RECREATIVOS se han llenado de chusma.\l"
+	.string "No podemos ni acercarnos a ISLA\l"
+	.string "SECUNDA sin que manden sus POKÉMON\l"
+	.string "contra nosotros.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_11:
+.string "Si todo sigue así, pronto abrirán y no\n"
+	.string "podremos hacer nada para evitar que\l"
+	.string "todos olviden nuestro antiguo negocio.$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_12:
+.string "Solo queda entrar ahí y echarlos por la\n"
+	.string "fuerza, igual que hicieron ellos con\l"
+	.string "nosotros. ¿Podrás hacerlo?$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_13:
+.string "¿Lograste encontrarlos? Nuestros\n"
+	.string "RECREATIVOS están en ISLA SECUNDA, es\l"
+	.string "un lugar pequeño, no tiene pérdida.$"
+

@@ -94,7 +94,7 @@
 #define VAR_POKELOT_RND1                     0x404B
 #define VAR_POKELOT_RND2                     0x404C
 #define VAR_POKELOT_PRIZE_PLACE              0x404D
-#define VAR_UNUSED_0x404E                    0x404E // Unused Var EVENTOS 
+#define VAR_UNUSED_0x404E                    0x404E // SECUNDARIA FRANK
 #define VAR_LOTAD_SIZE_RECORD                0x404F
 #define VAR_LITTLEROOT_TOWN_STATE            0x4050
 #define VAR_OLDALE_TOWN_STATE                0x4051
@@ -139,7 +139,7 @@
 #define VAR_ROUTE125_STATE                   0x4078 // ENTRENADOR ESPECIAL MUSEO PLATEADA
 #define VAR_ROUTE126_STATE                   0x4079 // ENTRENADOR ESPECIAL CIUDAD VERDE
 #define VAR_ROUTE127_STATE                   0x407A // SECUNDARIA EEVEES
-#define VAR_ROUTE128_STATE                   0x407B
+#define VAR_ROUTE128_STATE                   0x407B // SECUNDARIA FRANK
 #define VAR_ROUTE129_STATE                   0x407C // PRESIDENTE SILPH MASTER BALL
 #define VAR_ROUTE130_STATE                   0x407D // CHICA SILPH IMÁN
 #define VAR_ROUTE131_STATE                   0x407E // EMPLEADO SILPH LLAVE MAGNÉTICA

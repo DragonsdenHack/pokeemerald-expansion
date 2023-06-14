@@ -42,10 +42,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 8,
-      "y": 12,
+      "x": 62,
+      "y": 50,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -56,7 +56,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
       "x": 4,
-      "y": 13,
+      "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -601,7 +601,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 37,
+      "x": 39,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -627,16 +627,16 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 40,
-      "y": 6,
+      "x": 8,
+      "y": 14,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Base_Profunda_Mercado_5_EventScript_Clerk",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
@@ -783,8 +783,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 4,
-      "y": 4,
+      "x": 1,
+      "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -822,7 +822,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
-      "x": 33,
+      "x": 34,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -919,7 +919,7 @@
     },
     {
       "type": "trigger",
-      "x": 53,
+      "x": 52,
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",
@@ -979,6 +979,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "76",
       "script": "RocketHideout_5F_Escena_Detencion_Fuji"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 14,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x404E",
+      "var_value": "0",
+      "script": "RocketHideout5F_Secundaria_Frank"
     }
   ],
   "bg_events": [
