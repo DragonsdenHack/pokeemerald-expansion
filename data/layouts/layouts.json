@@ -13841,7 +13841,7 @@
       "id": "LAYOUT_TWO_ISLAND_TORRE_P4",
       "name": "TwoIsland_Torre_P4_Layout",
       "width": 18,
-      "height": 18,
+      "height": 20,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
