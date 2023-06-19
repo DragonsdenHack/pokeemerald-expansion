@@ -52,29 +52,129 @@ ThreeIslandDocumento_Text_101:
 
 ThreeIsland_Secundaria_Recreativos::
 lock
-faceplayer
+compare VAR_UNUSED_0x404E, 2
+goto_if_gt ThreeIsland_Secundaria_Recreativos_3
 compare VAR_UNUSED_0x404E, 1
-goto_if_gt ThreeIsland_Secundaria_Recreativos_2
+goto_if_gt ThreeIsland_Secundaria_Recreativos_1
+applymovement 7, ThreeIsland_Secundaria_Recreativos_Move_1
+waitmovement 0x0
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 7, ThreeIsland_Secundaria_Recreativos_Move_2
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement 7, ThreeIsland_Secundaria_Recreativos_Move_4
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_4
+waitmovement 0x0
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_5
+waitmovement 0x0
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, ThreeIsland_Secundaria_Recreativos_Move_6
+waitmovement 0x0
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_3 MSGBOX_AUTOCLOSE
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_4 MSGBOX_AUTOCLOSE
+delay 20
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_5 MSGBOX_AUTOCLOSE
-msgbox ThreeIsland_Secundaria_Recreativos_Texto_6 MSGBOX_AUTOCLOSE
+delay 20
+setvar VAR_UNUSED_0x404E, 2
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_5.1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq ThreeIsland_Secundaria_Recreativos_No
+goto ThreeIsland_Secundaria_Recreativos_2
+
+ThreeIsland_Secundaria_Recreativos_1::
+applymovement 7, ThreeIsland_Secundaria_Recreativos_Move_2
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_2
+waitmovement 0x0
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_5.2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq ThreeIsland_Secundaria_Recreativos_No
+goto ThreeIsland_Secundaria_Recreativos_2
+
+ThreeIsland_Secundaria_Recreativos_Texto_5.2:
+.string "¿Has cambiado de opinión?\n"
+	.string "¿Nos ayudarías a recuperar los\l"
+	.string "RECREATIVOS?$"
+
+ThreeIsland_Secundaria_Recreativos_3::
+faceplayer
+applymovement 7, ThreeIsland_Secundaria_Recreativos_Move_2
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_2
+waitmovement 0x0
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+
+ThreeIsland_Secundaria_Recreativos_2::
+playse SE_PIN
+applymovement 7, ThreeIsland_Secundaria_Recreativos_Move_4
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_4
+waitmovement 0x0
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_5
+waitmovement 0x0
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_9
+waitmovement 0x0
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_9 MSGBOX_AUTOCLOSE
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_10 MSGBOX_AUTOCLOSE
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_11 MSGBOX_AUTOCLOSE
 msgbox ThreeIsland_Secundaria_Recreativos_Texto_12 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x404E, 2
+setvar VAR_UNUSED_0x404E, 3
 release
 end
 
-ThreeIsland_Secundaria_Recreativos_2::
-msgbox ThreeIsland_Secundaria_Recreativos_Texto_13 MSGBOX_AUTOCLOSE
+ThreeIsland_Secundaria_Recreativos_No::
+msgbox ThreeIsland_Secundaria_Recreativos_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, ThreeIsland_Secundaria_Recreativos_Move_7
+applymovement 7, ThreeIsland_Secundaria_Recreativos_Move_8
+waitmovement 0x0
 release
 end
+
+ThreeIsland_Secundaria_Recreativos_Move_9:
+delay_8
+face_up
+delay_8
+face_right
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_8:
+face_down
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_7:
+face_up
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_6:
+walk_in_place_left
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_5:
+walk_in_place_right
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_4:
+emote_exclamation_mark
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_3:
+delay_8
+delay_8
+face_right
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_2:
+face_right
+step_end
+
+ThreeIsland_Secundaria_Recreativos_Move_1:
+walk_in_place_down
+step_end
 
 
 ThreeIsland_Secundaria_Recreativos_Texto_1:
@@ -94,6 +194,9 @@ ThreeIsland_Secundaria_Recreativos_Texto_4:
 
 ThreeIsland_Secundaria_Recreativos_Texto_5:
 .string "… …$"
+
+ThreeIsland_Secundaria_Recreativos_Texto_5.1:
+.string "¿Tú nos ayudarías a recuperarlo?$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_6:
 .string "Es comprensible, un solo ENTRENADOR\n"

@@ -2,7 +2,7 @@
   "id": "MAP_TWO_ISLAND_TORRE_P4",
   "name": "TwoIsland_Torre_P4",
   "layout": "LAYOUT_TWO_ISLAND_TORRE_P4",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "585",
   "region_map_section": "MAPSEC_TWO_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -25,11 +25,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 4,
+      "x": 5,
       "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TwoIsland_Torre_P4_EventScript_Rocket_2",
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ADMIN",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ADMIN",
@@ -64,11 +64,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 11,
+      "x": 12,
       "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -76,21 +76,21 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TwoIsland_Torre_P4_Dormido",
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": 17,
-      "y": 14,
+      "x": 18,
+      "y": 15,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TwoIsland_Torre_P4_EventScript_Rocket",
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -102,13 +102,13 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TorreSecundaP4_Event_Script_TM102",
+      "flag": "FLAG_NUEVA_828"
     }
   ],
   "warp_events": [
     {
-      "x": 14,
+      "x": 15,
       "y": 18,
       "elevation": 0,
       "dest_map": "MAP_TWO_ISLAND_TORRE_P3",
@@ -116,7 +116,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 15,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x404E",
+      "var_value": "3",
+      "script": "TwoIsland_Torre_P4_Evento_Final"
+    }
   ],
   "bg_events": [
 

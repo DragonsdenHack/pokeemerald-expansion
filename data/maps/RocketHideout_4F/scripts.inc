@@ -2365,6 +2365,7 @@ waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
 removeobject 11
+setflag FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR
 setvar VAR_UNUSED_0x40F7, 95
 release
 end

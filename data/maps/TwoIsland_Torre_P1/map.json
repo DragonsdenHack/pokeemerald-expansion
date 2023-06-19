@@ -2,7 +2,7 @@
   "id": "MAP_TWO_ISLAND_TORRE_P1",
   "name": "TwoIsland_Torre_P1",
   "layout": "LAYOUT_TWO_ISLAND_TORRE_P1",
-  "music": "MUS_RG_SILPH",
+  "music": "MUS_RG_ROCKET_HIDEOUT",
   "region_map_section": "MAPSEC_TWO_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TwoIsland_Torre_P1_Cientifico",
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "RocketHoenn_Event_Script_RazorClaw",
+      "flag": "FLAG_NUEVA_825"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MOTEROJOHTO",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TwoIsland_Torre_P1_Primer_Motero",
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WORKER_M",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TwoIsland_Torre_P1_Trabajador",
+      "flag": "FLAG_NUEVA_829"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CALVO2JOHTO",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "TwoIsland_Torre_P1_Segundo_Motero",
+      "flag": "FLAG_NUEVA_829"
     }
   ],
   "warp_events": [

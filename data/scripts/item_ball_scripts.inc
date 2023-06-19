@@ -2468,5 +2468,21 @@ RocketHoenn_Event_Script_TM80::
 finditem ITEM_TM80
    end
 
+RocketHoenn_Event_Script_RazorClaw::
+finditem ITEM_RAZOR_CLAW
+   end
+
+TorreSecundaP2_Event_Script_Restautodo::
+finditem ITEM_FULL_RESTORE
+   end
+
+TorreSecundaP3_Event_Script_MaxRepel::
+finditem ITEM_MAX_REPEL
+   end
+
+TorreSecundaP4_Event_Script_TM102::
+finditem ITEM_TM102_SMART_STRIKE
+   end
+
 
 

@@ -154,3 +154,91 @@ NeoLavandaCementerioS1_EventScript_Exorcista4::
 	trainerbattle_single TRAINER_TRAINER_33, NeoLavandaCementerioS1_Text_Exorcista4Intro, NeoLavandaCementerioS1_Text_Exorcista4Defeated
 	msgbox NeoLavandaCementerioS1_Text_Exorcista4PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+NeoLavandaCementerioS1_Rocket_Redencion::
+lock
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_1 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_2 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_3 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_4 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_5 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_6 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_7 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_8 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_9 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_10 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_11 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_12 MSGBOX_AUTOCLOSE
+setflag FLAG_NUEVA_830
+fadescreen 1
+delay 20
+removeobject 18
+fadescreen 0
+release
+end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_1:
+.string "No se preocupe, me encargaré de ello.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_2:
+.string "… …$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_3:
+.string "¡Oh, señor! No esperaba verle por aquí.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_4:
+.string "Dudo que me recuerde, estuve presente\n"
+	.string "en su misión de TORRE LAVANDA. De no\l"
+	.string "ser por usted, FUJI nos lo hubiera\l"
+	.string "hecho pasar realmente mal.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_5:
+.string "Lo cierto es que hicimos algo horrible\n"
+	.string "allí, en aquel momento no éramos\l"
+	.string "conscientes, todo valía porque éramos\l"
+	.string "el -TEAM ROCKET- y adoptamos el rol\l"
+	.string "que la sociedad esperaba de nosotros,\l"
+	.string "pero no el que la propia organización\l"
+	.string "inculcaba desde dentro.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_6:
+.string "Poco después GIOVANNI nos destinó\n"
+	.string "aquí como castigo.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_7:
+.string "Nos vimos obligados a colaborar en la\n"
+	.string "construcción de este gran CEMENTERIO,\l"
+	.string "despojados de nuestro sueldo y\l"
+	.string "viviendo de la caridad. Sin nada a\l"
+	.string "cambio, solo una vaga promesa de\l"
+	.string "redención sostenía nuestra voluntad.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_8:
+.string "Mis otros dos compañeros abandonaron\n"
+	.string "al poco, yo fui el único que logró\l"
+	.string "mantenerse, y ahora puedo decir con\l"
+	.string "orgullo que mi papel en la construcción\l"
+	.string "de este CEMENTERIO ha sido clave, y\l"
+	.string "GIOVANNI me ascendió a ALTO RANGO por\l"
+	.string "ello.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_9:
+.string "De no ser por esa segunda oportunidad,\n"
+	.string "¿quién sabe dónde estaría ahora?$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_10:
+.string "A usted también le estoy agradecido, me\n"
+	.string "gustaría darle esta MT que encontré\l"
+	.string "durante la construcción.$"
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_11:
+.string "¡¡{PLAYER} obtuvo la MT105 ALARIDO\n"
+	.string "de manos de Alto Rango Rocket!!$"
+
+
+NeoLavandaCementerioS1_Rocket_Redencion_Texto_12:
+.string "Es un honor contar con su presencia\n"
+	.string "aquí, espero verle más a menudo ahora\l"
+	.string "que PUEBLO LAVANDA se ha vuelto uno de\l"
+	.string "nuestros centros de operaciones. Ya\l"
+	.string "sabe a lo que me refiero.$"

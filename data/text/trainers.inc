@@ -16856,3 +16856,85 @@ TwoIsland_Text_Biker2Defeated:
 TwoIsland_Text_Biker2PostBattle:
 .string "Puede que no te guste lo que encuentres\n"
 	.string "ahí arriba.$"
+
+TwoIsland_Torre_P2_Text_BikerIntro:
+.string "Los RECREATIVOS de aquí siempre han\n"
+	.string "dado pena.\l"
+	.string "¿No querrás dejarlos como estaban?$"
+
+TwoIsland_Torre_P2_Text_BikerDefeated:
+.string "¡Bah! ¡He luchado de pena!$"
+
+TwoIsland_Torre_P2_Text_BikerPostBattle:
+.string "Esta isla por fin tendrá unos\n"
+	.string "RECREATIVOS de verdad.\l"
+	.string "¡Ya lo verás!$"
+
+TwoIsland_Torre_P2_Text_CalvoIntro:
+.string "El DODRIO A POR BAYAS es lo peor que\n"
+	.string "le ha pasado a esta isla.\l"
+	.string "¿Y tú quieres que siga? ¡No tienes\l"
+	.string "perdón!$"
+
+TwoIsland_Torre_P2_Text_CalvoDefeated:
+.string "Menudo asco de combate.$"
+
+TwoIsland_Torre_P2_Text_CalvoPostBattle:
+.string "Debí hacer atrapado un KOFFING, así\n"
+	.string "al menos me hubiera llevado por\l"
+	.string "delante a alguno de tus POKÉMON con\l"
+	.string "EXPLOSION.$"
+
+TwoIsland_Torre_P3_Text_CalvoIntro:
+.string "Se acabó, voy a aplastarte a base de\n"
+	.string "fuerza bruta.$"
+
+TwoIsland_Torre_P3_Text_CalvoDefeated:
+.string "¡URSARING! ¡Sigue!$"
+
+TwoIsland_Torre_P3_Text_CalvoPostBattle:
+.string "¿Crees que puedes venir aquí y hacer lo\n"
+	.string "que quieras?$"
+
+TwoIsland_Torre_P3_Text_RocketIntro:
+.string "Ni un paso más, nuestros altos cargos\n"
+	.string "están teniendo una importante\l"
+	.string "reunión.$"
+
+TwoIsland_Torre_P3_Text_RocketDefeated:
+.string "¡Espera! ¡Te he visto antes!$"
+
+TwoIsland_Torre_P3_Text_RocketPostBattle:
+.string "¡¿Eres ADMIN del TEAM ROCKET!? Pues\n"
+	.string "has debido subir muy rápido, cuando yo\l"
+	.string "aún estaba jamás oí hablar de ti.$"
+
+TwoIsland_Torre_P4_Text_RocketIntro:
+.string "¿Quién eres tú? ¿Del TEAM ROCKET\n"
+	.string "también?\l"
+	.string "No me suenas, llevamos meses en estas\l"
+	.string "islas planeando esto, solo sé que tú\l"
+	.string "no nos lo vas a impedir.$"
+
+TwoIsland_Torre_P4_Text_RocketDefeated:
+.string "¡Sí que peleas como un ROCKET!$"
+
+TwoIsland_Torre_P4_Text_RocketPostBattle:
+.string "¿ADMINISTRADOR?\n"
+	.string "Eso es imposible, solo PETREL Y ATLAS\l"
+	.string "ocupaban ese cargo, y ahora nuestro\l"
+	.string "nuevo JEFE también.$"
+
+
+TwoIsland_Torre_P4_Text_Rocket2Intro:
+.string "¿Qué clase de tomadura de pelo es esta?\n"
+	.string "¿Y la seguridad?$"
+
+TwoIsland_Torre_P4_Text_Rocket2Defeated:
+.string "Ya veo...$"
+
+TwoIsland_Torre_P4_Text_Rocket2PostBattle:
+.string "Pareces alguien importante, nuestro\n"
+	.string "JEFE es conocido por ser de mecha\l"
+	.string "corta, así que si tienes algo que\l"
+	.string "decirle, dilo claro.$"
