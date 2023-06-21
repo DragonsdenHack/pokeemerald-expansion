@@ -933,6 +933,14 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_CLIPBOARD]                = &gObjectEventGraphicsInfo_Clipboard,
     [OBJ_EVENT_GFX_SEAGALLOP]                = &gObjectEventGraphicsInfo_Seagallop,
     [OBJ_EVENT_GFX_SS_ANNE]                  = &gObjectEventGraphicsInfo_SSAnne,
+	[OBJ_EVENT_GFX_ANDRA]                 	 = &gObjectEventGraphicsInfo_Andra,
+	[OBJ_EVENT_GFX_ANDRA_ALTORANGO]        	 = &gObjectEventGraphicsInfo_Andra_AltoRango,
+	[OBJ_EVENT_GFX_ANDRA_EJECUTIVO]        	 = &gObjectEventGraphicsInfo_Andra_Ejecutivo,
+	[OBJ_EVENT_GFX_ANDRA_ADMIN]        	 	= &gObjectEventGraphicsInfo_Andra_Admin,
+	[OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE]        	 = &gObjectEventGraphicsInfo_Andra_Admin_Jefe,
+	[OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO] =                 &gObjectEventGraphicsInfo_Rocket_AltoRango,
+	[OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO] =                 &gObjectEventGraphicsInfo_Rocket_Ejecutivo,
+	[OBJ_EVENT_GFX_ROCKET_M_ADMIN] =                 &gObjectEventGraphicsInfo_Rocket_Admin,	
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
