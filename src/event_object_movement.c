@@ -472,20 +472,29 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_ROJO          0x1143
 #define OBJ_EVENT_PAL_TAG_PETREL		0x1144
 #define OBJ_EVENT_PAL_TAG_PROTON		0x1145
-#define OBJ_EVENT_PAL_TAG_ALTO_RANGO		0x1146
-#define OBJ_EVENT_PAL_TAG_EJECUTIVO		0x1147
-#define OBJ_EVENT_PAL_TAG_SUBADMIN		0x1148
-#define OBJ_EVENT_PAL_TAG_ADMIN2		0x1149
+#define OBJ_EVENT_PAL_TAG_PLAYER_ALTO_RANGO		0x1146
+#define OBJ_EVENT_PAL_TAG_PLAYER_EJECUTIVO		0x1147
+#define OBJ_EVENT_PAL_TAG_PLAYER_ADMIN		0x1148
+#define OBJ_EVENT_PAL_TAG_PLAYER_ADMIN_JEFE		0x1149
 #define OBJ_EVENT_PAL_TAG_ANDRA_ALTO_RANGO		0x114A
 #define OBJ_EVENT_PAL_TAG_ANDRA_EJECUTIVA		0x114B
-#define OBJ_EVENT_PAL_TAG_ANDRA_SUBADMIN		0x114C
-#define OBJ_EVENT_PAL_TAG_ADMINANDRA2			0x114D
+#define OBJ_EVENT_PAL_TAG_ANDRA_ADMIN		0x114C
+#define OBJ_EVENT_PAL_TAG_ANDRA_ADMIN_JEFE			0x114D
 #define OBJ_EVENT_PAL_TAG_JONES					0X144E
 #define OBJ_EVENT_PAL_TAG_CULTO			0x114D
-
+#define OBJ_EVENT_PAL_TAG_ANCIANO_JOHTO	0x114E
 #define OBJ_EVENT_PAL_TAG_MANCIANO		0x114F
 #define OBJ_EVENT_PAL_TAG_MUERTO		0x1150
 #define OBJ_EVENT_PAL_TAG_BIDEN			0x1151
+#define OBJ_EVENT_PAL_TAG_ANIBAL			0x1152
+#define OBJ_EVENT_PAL_TAG_ANTON			0x1153
+#define OBJ_EVENT_PAL_TAG_ARIANA			0x1154
+#define OBJ_EVENT_PAL_TAG_ARTISTAJOHTO			0x1155
+#define OBJ_EVENT_PAL_TAG_BALLORO			0x1156
+#define OBJ_EVENT_PAL_TAG_ALTO_RANGO		0x1157
+#define OBJ_EVENT_PAL_TAG_EJECUTIVO		0x1158
+#define OBJ_EVENT_PAL_TAG_ANDRA		0x1159
+#define OBJ_EVENT_PAL_TAG_ANCIANA_JOHTO	0x115A
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -563,14 +572,19 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Rojo,               OBJ_EVENT_PAL_TAG_ROJO},
 	{gObjectEventPal_Petrel,               OBJ_EVENT_PAL_TAG_PETREL},
 	{gObjectEventPal_Proton,               OBJ_EVENT_PAL_TAG_PROTON},
-	// {gObjectEventPal_AltoRango,               OBJ_EVENT_PAL_TAG_ALTO_RANGO},	
-	// {gObjectEventPal_Ejecutivo,               OBJ_EVENT_PAL_TAG_EJECUTIVO},		
-	// {gObjectEventPal_Subadmin,               OBJ_EVENT_PAL_TAG_SUBADMIN},		
-	// {gObjectEventPal_Admin2,               OBJ_EVENT_PAL_TAG_ADMIN2},	
-	// {gObjectEventPal_Andra_AltoRango,               OBJ_EVENT_PAL_TAG_ANDRA_ALTO_RANGO},		
-	// {gObjectEventPal_Andra_Ejecutivo,               OBJ_EVENT_PAL_TAG_ANDRA_EJECUTIVA},		
-	// {gObjectEventPal_Andra_Subadmin,               OBJ_EVENT_PAL_TAG_ANDRA_SUBADMIN},		
-	// {gObjectEventPal_Andraadmin2,               OBJ_EVENT_PAL_TAG_ADMINANDRA2},			
+	{gObjectEventPal_AncianoJohto,         OBJ_EVENT_PAL_TAG_ANCIANO_JOHTO},
+	// {gObjectEventPal_AncianaJohto,         OBJ_EVENT_PAL_TAG_ANCIANA_JOHTO},
+	// {gObjectEventPal_PlayerAltoRango,      OBJ_EVENT_PAL_TAG_PLAYER_ALTO_RANGO},
+	// {gObjectEventPal_PlayerEjecutivo,      OBJ_EVENT_PAL_TAG_PLAYER_EJECUTIVO},
+	// {gObjectEventPal_PlayerAdmin,			OBJ_EVENT_PAL_TAG_PLAYER_ADMIN},
+	// {gObjectEventPal_Jones,                 OBJ_EVENT_PAL_TAG_ALTO_JONES},
+	 {gObjectEventPal_AltoRango,             OBJ_EVENT_PAL_TAG_ALTO_RANGO},
+	// {gObjectEventPal_Ejecutivo,				OBJ_EVENT_PAL_TAG_EJECUTIVO},
+	// {gObjectEventPal_AndraAdminJefe,             OBJ_EVENT_PAL_TAG_ANDRA_ADMIN_JEFE},
+	// {gObjectEventPal_PlayerAdminJefe,        OBJ_EVENT_PAL_TAG_ANDRA_PLAYER_JEFE},
+	{gObjectEventPal_Andra,             OBJ_EVENT_PAL_TAG_ANDRA},	
+	{gObjectEventPal_AndraAdmin,             OBJ_EVENT_PAL_TAG_ANDRA_ADMIN},
+	{gObjectEventPal_AndraAltoRango,             OBJ_EVENT_PAL_TAG_ANDRA_ALTO_RANGO},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

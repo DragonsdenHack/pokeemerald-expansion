@@ -463,8 +463,20 @@
 #define OBJ_EVENT_GFX_SEAGALLOP 459
 #define OBJ_EVENT_GFX_SS_ANNE 460
 #define OBJ_EVENT_GFX_ROCKET_M 461
+#define OBJ_EVENT_GFX_ANDRA 462
+#define OBJ_EVENT_GFX_ANDRA_ALTORANGO 463
+#define OBJ_EVENT_GFX_ANDRA_EJECUTIVO 464
+#define OBJ_EVENT_GFX_ANDRA_ADMIN 465
+#define OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE 466
+#define OBJ_EVENT_GFX_PLAYER_ALTO_RANGO 467
+#define OBJ_EVENT_GFX_PLAYER_EJECUTIVO 468
+#define OBJ_EVENT_GFX_PLAYER_ADMIN 469
+#define OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE 470
+#define OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO 471
+#define OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO 472
+#define OBJ_EVENT_GFX_ROCKET_M_ADMIN 473
 
-#define NUM_OBJ_EVENT_GFX                        462                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        474                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.
