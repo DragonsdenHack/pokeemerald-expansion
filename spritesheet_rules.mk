@@ -808,14 +808,8 @@ $(OBJEVENTGFXDIR)/people/player/alto_rango/field_move.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 	
 $(OBJEVENTGFXDIR)/people/player/alto_rango/bike.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
+	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-
-$(OBJEVENTGFXDIR)/people/player/normal/walking.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
-	
-$(OBJEVENTGFXDIR)/people/player/normal/running.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
 	
 $(OBJEVENTGFXDIR)/people/player/admin/running.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
@@ -824,7 +818,7 @@ $(OBJEVENTGFXDIR)/people/player/admin/field_move.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 	
 $(OBJEVENTGFXDIR)/people/player/admin/bike.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4	
+	$(GFX) $< $@ -mwidth 4 -mheight 4	
 	
 $(OBJEVENTGFXDIR)/people/player/admin_jefe/walking.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
@@ -836,7 +830,7 @@ $(OBJEVENTGFXDIR)/people/player/admin_jefe/field_move.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/player/admin_jefe/bike.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
+	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 
 $(OBJEVENTGFXDIR)/people/andra/ejecutivo/walking.4bpp: %.4bpp: %.png
@@ -887,13 +881,13 @@ $(OBJEVENTGFXDIR)/people/rocket_f.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/rocket_m.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 	
-$(OBJEVENTGFXDIR)/people/rocket_altorango.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/rocket_m_altorango.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 	
-$(OBJEVENTGFXDIR)/people/rocket_ejecutivo.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/rocket_m_ejecutivo.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
 	
-$(OBJEVENTGFXDIR)/people/rocket_admin.4bpp: %.4bpp: %.png
+$(OBJEVENTGFXDIR)/people/rocket_m_admin.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
 	
 

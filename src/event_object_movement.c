@@ -574,17 +574,16 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Proton,               OBJ_EVENT_PAL_TAG_PROTON},
 	{gObjectEventPal_AncianoJohto,         OBJ_EVENT_PAL_TAG_ANCIANO_JOHTO},
 	// {gObjectEventPal_AncianaJohto,         OBJ_EVENT_PAL_TAG_ANCIANA_JOHTO},
-	// {gObjectEventPal_PlayerAltoRango,      OBJ_EVENT_PAL_TAG_PLAYER_ALTO_RANGO},
-	// {gObjectEventPal_PlayerEjecutivo,      OBJ_EVENT_PAL_TAG_PLAYER_EJECUTIVO},
-	// {gObjectEventPal_PlayerAdmin,			OBJ_EVENT_PAL_TAG_PLAYER_ADMIN},
-	// {gObjectEventPal_Jones,                 OBJ_EVENT_PAL_TAG_ALTO_JONES},
+	 {gObjectEventPal_PlayerAltoRango,      OBJ_EVENT_PAL_TAG_PLAYER_ALTO_RANGO},
+	 {gObjectEventPal_PlayerEjecutivo,      OBJ_EVENT_PAL_TAG_PLAYER_EJECUTIVO},
+	 {gObjectEventPal_PlayerAdmin,			OBJ_EVENT_PAL_TAG_PLAYER_ADMIN},
 	 {gObjectEventPal_AltoRango,             OBJ_EVENT_PAL_TAG_ALTO_RANGO},
-	// {gObjectEventPal_Ejecutivo,				OBJ_EVENT_PAL_TAG_EJECUTIVO},
-	// {gObjectEventPal_AndraAdminJefe,             OBJ_EVENT_PAL_TAG_ANDRA_ADMIN_JEFE},
-	// {gObjectEventPal_PlayerAdminJefe,        OBJ_EVENT_PAL_TAG_ANDRA_PLAYER_JEFE},
+	 {gObjectEventPal_AndraAdminJefe,             OBJ_EVENT_PAL_TAG_ANDRA_ADMIN_JEFE},
+	 {gObjectEventPal_PlayerAdminJefe,        OBJ_EVENT_PAL_TAG_PLAYER_ADMIN_JEFE},
 	{gObjectEventPal_Andra,             OBJ_EVENT_PAL_TAG_ANDRA},	
 	{gObjectEventPal_AndraAdmin,             OBJ_EVENT_PAL_TAG_ANDRA_ADMIN},
 	{gObjectEventPal_AndraAltoRango,             OBJ_EVENT_PAL_TAG_ANDRA_ALTO_RANGO},
+	{gObjectEventPal_AndraEjecutivo,             OBJ_EVENT_PAL_TAG_ANDRA_EJECUTIVA},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
