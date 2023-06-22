@@ -2698,3 +2698,19 @@ Text_EVChecker_3:
 	.include "data/maps/TwoIsland_Torre_P3/scripts.inc"
 
 	.include "data/maps/TwoIsland_Torre_P4/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Norte/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Sur/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Sur_2/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Oeste/scripts.inc"
+
+	.include "data/maps/LavenderRadioP7/scripts.inc"
+
+	.include "data/maps/LavenderRadioP8/scripts.inc"
+
+	.include "data/maps/LavenderRadioP9/scripts.inc"
+
+	.include "data/maps/LavenderRadioP10/scripts.inc"

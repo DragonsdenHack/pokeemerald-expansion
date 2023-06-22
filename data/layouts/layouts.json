@@ -13848,6 +13848,102 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/TwoIsland_Torre_P4/border.bin",
       "blockdata_filepath": "data/layouts/TwoIsland_Torre_P4/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_RUTA_NORTE",
+      "name": "NeoLavanda_Ruta_Norte_Layout",
+      "width": 24,
+      "height": 80,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/NeoLavanda_Ruta_Norte/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavanda_Ruta_Norte/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_RUTA_SUR",
+      "name": "NeoLavanda_Ruta_Sur_Layout",
+      "width": 24,
+      "height": 120,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/NeoLavanda_Ruta_Sur/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavanda_Ruta_Sur/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_RUTA_SUR_2",
+      "name": "NeoLavanda_Ruta_Sur_2_Layout",
+      "width": 72,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/NeoLavanda_Ruta_Sur_2/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavanda_Ruta_Sur_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_LAVANDA_RUTA_OESTE",
+      "name": "NeoLavanda_Ruta_Oeste_Layout",
+      "width": 72,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_saffron_city",
+      "border_filepath": "data/layouts/NeoLavanda_Ruta_Oeste/border.bin",
+      "blockdata_filepath": "data/layouts/NeoLavanda_Ruta_Oeste/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P7",
+      "name": "LavenderRadioP7_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/LavenderRadioP7/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP7/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P8",
+      "name": "LavenderRadioP8_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/LavenderRadioP8/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP8/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P9",
+      "name": "LavenderRadioP9_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/LavenderRadioP9/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP9/map.bin"
+    },
+    {
+      "id": "LAYOUT_LAVENDER_RADIO_P10",
+      "name": "LavenderRadioP10_Layout",
+      "width": 24,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/LavenderRadioP10/border.bin",
+      "blockdata_filepath": "data/layouts/LavenderRadioP10/map.bin"
     }
   ]
 }

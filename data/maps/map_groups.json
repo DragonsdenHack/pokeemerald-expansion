@@ -525,7 +525,15 @@
     "NeoLavandaCasa3",
     "NeoLavandaCementerio",
     "NeoLavandaCementerioS1",
-    "NeoLavandaCementerioS2"
+    "NeoLavandaCementerioS2",
+    "NeoLavanda_Ruta_Norte",
+    "NeoLavanda_Ruta_Sur",
+    "NeoLavanda_Ruta_Sur_2",
+    "NeoLavanda_Ruta_Oeste",
+    "LavenderRadioP7",
+    "LavenderRadioP8",
+    "LavenderRadioP9",
+    "LavenderRadioP10"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",

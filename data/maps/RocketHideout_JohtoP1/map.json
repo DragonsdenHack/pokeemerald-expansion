@@ -67,7 +67,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 22,
       "y": 26,
       "elevation": 3,
@@ -171,7 +171,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 34,
       "y": 20,
       "elevation": 3,
@@ -184,7 +184,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 37,
       "y": 26,
       "elevation": 3,
@@ -197,7 +197,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 40,
       "y": 26,
       "elevation": 3,
@@ -223,7 +223,7 @@
       "flag": "FLAG_HIDE_MAUVILLE_CITY_SCOTT"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 42,
       "y": 41,
       "elevation": 3,
@@ -236,7 +236,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 33,
       "y": 50,
       "elevation": 3,
@@ -249,7 +249,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 36,
       "y": 54,
       "elevation": 3,
@@ -275,7 +275,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 34,
       "y": 34,
       "elevation": 3,
@@ -444,7 +444,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 20,
       "y": 17,
       "elevation": 3,

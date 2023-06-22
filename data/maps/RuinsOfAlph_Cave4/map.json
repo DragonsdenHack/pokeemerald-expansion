@@ -41,7 +41,7 @@
       "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 7,
       "y": 11,
       "elevation": 3,
@@ -158,7 +158,7 @@
       "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 7,
       "y": 12,
       "elevation": 3,

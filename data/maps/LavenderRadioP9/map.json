@@ -1,0 +1,41 @@
+{
+  "id": "MAP_LAVENDER_RADIO_P9",
+  "name": "LavenderRadioP9",
+  "layout": "LAYOUT_LAVENDER_RADIO_P9",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_LAVENDER_TOWN",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_INDOOR",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 12,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_RADIO_P8",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 21,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_LAVENDER_RADIO_P10",
+      "dest_warp_id": 0
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

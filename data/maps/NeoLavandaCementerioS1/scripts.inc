@@ -157,17 +157,42 @@ NeoLavandaCementerioS1_EventScript_Exorcista4::
 
 NeoLavandaCementerioS1_Rocket_Redencion::
 lock
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_1
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_2
+waitmovement 0x0
+playse SE_PIN
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_3
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_4
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_5
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_6
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_4
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_5
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_7
+waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_10 MSGBOX_AUTOCLOSE
-msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_11 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM61
+msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_11 MSGBOX_DEFAULT
+waitfanfare
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_12 MSGBOX_AUTOCLOSE
 setflag FLAG_NUEVA_830
 fadescreen 1
@@ -176,6 +201,40 @@ removeobject 18
 fadescreen 0
 release
 end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Move_7:
+delay_8
+face_player
+delay_8
+step_end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Move_6:
+walk_in_place_down
+step_end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Move_5:
+face_down
+step_end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Move_4:
+face_up
+delay_8
+face_player
+step_end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Move_3:
+emote_exclamation_mark
+step_end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Move_2:
+face_player
+delay_8
+delay_8
+step_end
+
+NeoLavandaCementerioS1_Rocket_Redencion_Move_1:
+walk_in_place_up
+step_end
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_1:
 .string "No se preocupe, me encargaré de ello.$"
