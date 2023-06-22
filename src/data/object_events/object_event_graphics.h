@@ -610,6 +610,17 @@ const u16 gObjectEventPic_Rocket_AltoRango[] = INCBIN_U16("graphics/object_event
 const u16 gObjectEventPic_RocketEjecutivo[] = INCBIN_U16("graphics/object_events/pics/people/rocket_m_ejecutivo.4bpp");
 const u16 gObjectEventPic_RocketAdmin[] = INCBIN_U16("graphics/object_events/pics/people/rocket_m_admin.4bpp");
 
+const u16 gObjectEventPic_Andra[] = INCBIN_U16("graphics/object_events/pics/people/andra/normal/walking.4bpp");
+const u16 gObjectEventPic_AndraEjecutivo[] = INCBIN_U16("graphics/object_events/pics/people/andra/ejecutivo/walking.4bpp");
+const u16 gObjectEventPic_AndraAltoRango[] = INCBIN_U16("graphics/object_events/pics/people/andra/alto_rango/walking.4bpp");
+const u16 gObjectEventPic_AndraAdmin[] = INCBIN_U16("graphics/object_events/pics/people/andra/admin/walking.4bpp");
+const u16 gObjectEventPic_AndraAdminJefe[] = INCBIN_U16("graphics/object_events/pics/people/andra/admin_jefe/walking.4bpp");
+
+const u16 gObjectEventPic_Prota_AltoRango[] = INCBIN_U16("graphics/object_events/pics/people/player/alto_rango/walking.4bpp");
+const u16 gObjectEventPic_Prota_Ejecutivo[] = INCBIN_U16("graphics/object_events/pics/people/player/ejecutivo/walking.4bpp");
+const u16 gObjectEventPic_Prota_Admin[] = INCBIN_U16("graphics/object_events/pics/people/player/admin/walking.4bpp");
+const u16 gObjectEventPic_Prota_AdminJefe[] = INCBIN_U16("graphics/object_events/pics/people/player/admin_jefe/walking.4bpp");
+
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
 const u16 gObjectEventPal_Rockets[] = INCBIN_U16("graphics/object_events/pics/people/prota.gbapal");
@@ -654,12 +665,13 @@ const u16 gObjectEventPal_Muerto[] = INCBIN_U16("graphics/object_events/palettes
 const u16 gObjectEventPal_Manciano[] = INCBIN_U16("graphics/object_events/palettes/manciano.gbapal");
 //const u16 gObjectEventPal_Biden[] = INCBIN_U16("graphics/object_events/palettes/biden.gbapal");
 const u16 gObjectEventPal_AndraAltoRango[] = INCBIN_U16("graphics/object_events/palettes/andra_altorango.gbapal");
-const u16 gObjectEventPal_AndraEjecutiva[] = INCBIN_U16("graphics/object_events/palettes/andra_ejecutivo.gbapal");
+const u16 gObjectEventPal_AndraEjecutivo[] = INCBIN_U16("graphics/object_events/palettes/andra_ejecutivo.gbapal");
 const u16 gObjectEventPal_AndraAdmin[] = INCBIN_U16("graphics/object_events/palettes/andra_admin.gbapal");
 const u16 gObjectEventPal_AndraAdminJefe[] = INCBIN_U16("graphics/object_events/palettes/andra_adminjefe.gbapal");
-//const u16 gObjectEventPal_PlayerAltoRango[] = INCBIN_U16("graphics/object_events/palettes/player_alto_rango.gbapal");
-//const u16 gObjectEventPal_PlayerEjecutivo[] = INCBIN_U16("graphics/object_events/palettes/player_ejecutivo.gbapal");
-//const u16 gObjectEventPal_PlayerAdmin[] = INCBIN_U16("graphics/object_events/palettes/player_admin.gbapal");
+const u16 gObjectEventPal_PlayerAltoRango[] = INCBIN_U16("graphics/object_events/palettes/player_alto_rango.gbapal");
+const u16 gObjectEventPal_PlayerEjecutivo[] = INCBIN_U16("graphics/object_events/palettes/player_ejecutivo.gbapal");
+const u16 gObjectEventPal_PlayerAdmin[] = INCBIN_U16("graphics/object_events/palettes/player_admin.gbapal");
+const u16 gObjectEventPal_PlayerAdminJefe[] = INCBIN_U16("graphics/object_events/palettes/player_admin_jefe.gbapal");
 //const u16 gObjectEventPal_Jones[] = INCBIN_U16("graphics/object_events/palettes/jones.gbapal");
 const u16 gObjectEventPal_AltoRango[] = INCBIN_U16("graphics/object_events/palettes/rocket_altorango.gbapal");
 const u16 gObjectEventPal_Ejecutivo[] = INCBIN_U16("graphics/object_events/palettes/rocket_ejecutivo.gbapal");

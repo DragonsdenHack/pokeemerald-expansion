@@ -469,6 +469,14 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_TrainerTips;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Clipboard;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Seagallop;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SSAnne;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Andra;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Andra_AltoRango;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Andra_Ejecutivo;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Andra_Admin;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Andra_Admin_Jefe;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AltoRango;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Ejecutivo;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Admin;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -940,7 +948,11 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE]        	 = &gObjectEventGraphicsInfo_Andra_Admin_Jefe,
 	[OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO] =                 &gObjectEventGraphicsInfo_Rocket_AltoRango,
 	[OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO] =                 &gObjectEventGraphicsInfo_Rocket_Ejecutivo,
-	[OBJ_EVENT_GFX_ROCKET_M_ADMIN] =                 &gObjectEventGraphicsInfo_Rocket_Admin,	
+	[OBJ_EVENT_GFX_ROCKET_M_ADMIN] =                 &gObjectEventGraphicsInfo_Rocket_Admin,
+	[OBJ_EVENT_GFX_PLAYER_ALTO_RANGO] =	&gObjectEventGraphicsInfo_Player_AltoRango,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO] = &gObjectEventGraphicsInfo_Player_Ejecutivo,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN] = &gObjectEventGraphicsInfo_Player_Admin,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE] =	&gObjectEventGraphicsInfo_Player_AdminJefe,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
