@@ -16960,3 +16960,59 @@ NeoLavanda_Ruta_Oeste_Text_Motorista_2Defeated:
 NeoLavanda_Ruta_Oeste_Text_Motorista_2PostBattle:
 .string "¡Destruido por alguien trajeado!...$"
 
+NeoLavanda_Ruta_Oeste_Text_Motorista_3Intro:
+.string "Somos la FEDERACION POKÉMON de KANTO.\n"
+	.string "¡Allá vamos!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_3Defeated:
+.string "¡Vaya! ¡Perdona!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_3PostBattle:
+.string "¡Vaaale! Intentaremos no molestar a\n"
+	.string "nadie a partir de ahora.$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_1Intro:
+	.string "¿Cómo funciona el MAGNETOTREN?$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_1Defeated:
+.string "Quiero ver el MAGNETOTREN...$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_1PostBattle:
+.string "¡El poder de los imanes es inmenso!$"
+
+NeoLavanda_Ruta_Oeste_Text_CaballeroIntro:
+.string "¿Tendría a bien enfrentarse en combate\n"
+	.string "con un duque como yo?$"
+
+NeoLavanda_Ruta_Oeste_Text_CaballeroDefeated:
+.string "¡Ha demostrado una destreza singular!$"
+
+NeoLavanda_Ruta_Oeste_Text_CaballeroPostBattle:
+.string "Bien en el viaje, bien en el combate, un\n"
+	.string "duque como yo ha de cuidar las buenas\l"
+	.string "maneras en todo momento.$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_2Intro:
+.string "Mmm... Tienes muchas MEDALLAS de\n"
+	.string "GIMNASIO.$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_2Defeated:
+.string "Tal y como pensaba. ¡Eres fuerte!$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_2PostBattle:
+.string "¡No es de extrañar que tengas tantas\n"
+	.string "MEDALLAS de GIMNASIO!$"
+
+NeoLavanda_Ruta_Norte_Text_JugadorIntro:
+.string "Te gustan los POKÉMON, ¿verdad? ¡A mí\n"
+	.string "también!$"
+
+NeoLavanda_Ruta_Norte_Text_JugadorDefeated:
+.string "Debo admitir mi derrota.$"
+
+NeoLavanda_Ruta_Norte_Text_JugadorPostBattle:
+.string "Mira lo que le has hecho a mi POKéMON. No\n"
+	.string "lo olvidaré...$"
+
+
+

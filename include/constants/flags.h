@@ -1646,8 +1646,6 @@
 // FLAG_SPECIAL_FLAG_0x4005 - 0x407F also exist and are unused
 #define SPECIAL_FLAGS_END                       (SPECIAL_FLAGS_START + 0x7F)
 
-#endif // GUARD_CONSTANTS_FLAGS_H
-
 
 // FLAGS NUEVAS
 
@@ -2514,3 +2512,5 @@
 #define FLAG_NUEVA_861 0x85D
 #define FLAG_NUEVA_862 0x85E
 #define FLAG_NUEVA_863 0x85F // FLAG CHICA RUTA 51
+
+#endif // GUARD_CONSTANTS_FLAGS_H

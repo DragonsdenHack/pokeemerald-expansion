@@ -1,2 +1,8 @@
 NeoLavanda_Ruta_Norte_MapScripts::
 	.byte 0
+
+
+NeoLavanda_Ruta_Norte_EventScript_Jugador::
+	trainerbattle_single TRAINER_TRAINER_171, NeoLavanda_Ruta_Norte_Text_JugadorIntro, NeoLavanda_Ruta_Norte_Text_JugadorDefeated
+	msgbox NeoLavanda_Ruta_Norte_Text_JugadorPostBattle, MSGBOX_AUTOCLOSE
+	end
