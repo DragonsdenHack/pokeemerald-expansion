@@ -14338,10 +14338,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_166] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER166"),
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("NINO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,

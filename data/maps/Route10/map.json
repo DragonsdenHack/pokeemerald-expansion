@@ -22,11 +22,6 @@
       "direction": "down",
       "offset": 0,
       "map": "MAP_LAVENDER_TOWN"
-    },
-    {
-      "direction": "down",
-      "offset": 0,
-      "map": "MAP_NEO_LAVANDA_PUEBLO"
     }
   ],
   "object_events": [

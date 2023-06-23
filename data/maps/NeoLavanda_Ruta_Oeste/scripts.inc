@@ -1,2 +1,12 @@
 NeoLavanda_Ruta_Oeste_MapScripts::
 	.byte 0
+
+NeoLavanda_Ruta_Oeste_EventScript_Motorista_1::
+	trainerbattle_single TRAINER_TRAINER_166, NeoLavanda_Ruta_Oeste_Text_Motorista_1Intro, NeoLavanda_Ruta_Oeste_Text_Motorista_1Defeated
+	msgbox NeoLavanda_Ruta_Oeste_Text_Motorista_1PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoLavanda_Ruta_Oeste_EventScript_Motorista_2::
+	trainerbattle_single TRAINER_TRAINER_165, NeoLavanda_Ruta_Oeste_Text_Motorista_2Intro, NeoLavanda_Ruta_Oeste_Text_Motorista_2Defeated
+	msgbox NeoLavanda_Ruta_Oeste_Text_Motorista_2PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -28318,50 +28318,55 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER164[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER165[] = {
     {
     .iv = 180,
-    .lvl = 60,
+    .lvl = 89,
     .species = SPECIES_WEEZING,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {80, 80, 80, 80, 80, 80},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB, MOVE_PAIN_SPLIT, MOVE_EXPLOSION}
     },
-        {
-    .iv = 180,
-    .lvl = 61,
-    .species = SPECIES_KINGLER,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {80, 80, 80, 80, 80, 80},
+    {
+    .iv = 0,
+    .lvl = 93,
+    .species = SPECIES_FLAREON,
+    .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_LIQUIDATION, MOVE_ROCK_SLIDE, MOVE_NONE, MOVE_NONE}
-    },
-        {
-    .iv = 180,
-    .lvl = 61,
-    .species = SPECIES_HITMONTOP,
-    .heldItem = ITEM_LIFE_ORB,
-    .evs = {80, 80, 80, 80, 80, 80},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_TRIPLE_AXEL, MOVE_CLOSE_COMBAT, MOVE_MACH_PUNCH, MOVE_NONE}
-    },
-        {
-    .iv = 255,
-    .lvl = 62,
-    .species = SPECIES_NIDOQUEEN,
-    .heldItem = ITEM_LIFE_ORB,
-    .evs = {90, 80, 80, 80, 80, 80},
-    .nature = NATURE_MODEST,
-    .moves = {MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB, MOVE_THUNDERBOLT, MOVE_EARTH_POWER}
+    .moves = {MOVE_MEGA_KICK, MOVE_ROCK_SLIDE, MOVE_NONE, MOVE_NONE}
     }
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER166[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 85,
+    .species = SPECIES_WEEZING,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB, MOVE_PAIN_SPLIT, MOVE_WILL_O_WISP}
+    },
+    {
+    .iv = 0,
+    .lvl = 87,
+    .species = SPECIES_WEEZING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB, MOVE_PAIN_SPLIT, MOVE_WILL_O_WISP}
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_WEEZING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB, MOVE_PAIN_SPLIT, MOVE_WILL_O_WISP}
+    },
+    {
+    .iv = 0,
+    .lvl = 91,
+    .species = SPECIES_WEEZING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_FLAMETHROWER, MOVE_SLUDGE_BOMB, MOVE_PAIN_SPLIT, MOVE_WILL_O_WISP}
     }
 };
 

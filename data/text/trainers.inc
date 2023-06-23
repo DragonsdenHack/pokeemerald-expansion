@@ -16938,3 +16938,25 @@ TwoIsland_Torre_P4_Text_Rocket2PostBattle:
 	.string "JEFE es conocido por ser de mecha\l"
 	.string "corta, así que si tienes algo que\l"
 	.string "decirle, dilo claro.$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_1Intro:
+.string "Somos el grupo de Entrenadores de la\n"
+	.string "FEDERACION de POKÉMON de KANTO. ¡Te\l"
+	.string "vamos a arrollar!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_1Defeated:
+.string "¡L-lo siento!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_1PostBattle:
+.string "¡Viva la FEDERACION POKÉMON de KANTO!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_2Intro:
+.string "La policía ha cerrado la Vía\n"
+	.string "Subterránea. ¡Qué fastidio!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_2Defeated:
+.string "¡P-perdóname!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_2PostBattle:
+.string "¡Destruido por alguien trajeado!...$"
+
