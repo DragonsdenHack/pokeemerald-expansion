@@ -22,7 +22,12 @@ struct MultiPartnerMenuPokemon
     /*0x1D*/ u8 language;
 };
 
-#define TYPE_NAME_LENGTH 6
+
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
+    #define TYPE_NAME_LENGTH 9
+#else
+    #define TYPE_NAME_LENGTH 6
+#endif
 
 #if B_EXPANDED_ABILITY_NAMES
 #define ABILITY_NAME_LENGTH 16

@@ -610,7 +610,12 @@
 #define STRINGID_TARGETTOOHEAVY                       608
 #define STRINGID_PKMNTOOKTARGETHIGH                   609
 
-#define BATTLESTRINGS_COUNT                           610
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
+    #define STRINGID_DOT                              610
+    #define BATTLESTRINGS_COUNT                       611
+#else
+    #define BATTLESTRINGS_COUNT                       610
+#endif	
 
 // This is the string id that gBattleStringsTable starts with.
 // String ids before this (e.g. STRINGID_INTROMSG) are not in the table,
