@@ -2,7 +2,7 @@
   "id": "MAP_NEO_LAVANDA_RUTA_NORTE",
   "name": "NeoLavanda_Ruta_Norte",
   "layout": "LAYOUT_NEO_LAVANDA_RUTA_NORTE",
-  "music": "1",
+  "music": "MUS_RG_ROUTE3",
   "region_map_section": "MAPSEC_ROUTE_10",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -48,7 +48,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "NULL",
+      "script": "NeoLavanda_Ruta_Norte_EventScript_Montanero",
       "flag": "0"
     }
   ],

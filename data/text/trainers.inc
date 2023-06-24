@@ -17014,5 +17014,61 @@ NeoLavanda_Ruta_Norte_Text_JugadorPostBattle:
 .string "Mira lo que le has hecho a mi POKéMON. No\n"
 	.string "lo olvidaré...$"
 
+NeoLavanda_Ruta_Norte_Text_MontaneroIntro:
+.string "¡Ja, ja, ja!$"
+
+NeoLavanda_Ruta_Norte_Text_MontaneroDefeated:
+.string "¡Aaaaaaachís!$"
+
+NeoLavanda_Ruta_Norte_Text_MontaneroPostBattle:
+.string "¡La alergia me hace estornudar!\n"
+	.string "¡AAACHÚS!$"
+
+NeoLavanda_Ruta_Sur_Text_PescadorIntro:
+.string "¿Te acuerdas?$"
+
+NeoLavanda_Ruta_Sur_Text_PescadorDefeated:
+.string "Te acuerdas, ¿no?$"
+
+NeoLavanda_Ruta_Sur_Text_PescadorPostBattle:
+.string "El tirón de la CAÑA cuando ha picado un\n"
+	.string "POKéMON... Ésa es la mejor sensación\l"
+	.string "para un pescador como yo.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_2Intro:
+.string "La paciencia es la clave para pescar y\n"
+	.string "criar POKéMON.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_2Defeated:
+.string "¡Guaaa!$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_2PostBattle:
+.string "No tengo paciencia para la pesca...$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_3Intro:
+.string "Me gusta pescar mientras escucho\n"
+	.string "canciones por la radio.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_3Defeated:
+.string "¡Mi estúpida radio me ha distraído!$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_3PostBattle:
+.string "¿Conoces las emisoras de radio de\n"
+	.string "KANTO? Tenemos muchas.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_4Intro:
+.string "¿Qué es lo más importante en nuestras\n"
+	.string "vidas?$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_4Defeated:
+.string "¡La respuesta vendrá luego!$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_4PostBattle:
+.string "Creo que la electricidad es lo más\n"
+	.string "importante en nuestras vidas. Si no lo\l"
+	.string "fuera, no se habría montado tanto\l"
+	.string "follón cuando se estropeó la CENTRAL\l"
+	.string "ENERGÍA.$"
+
 
 

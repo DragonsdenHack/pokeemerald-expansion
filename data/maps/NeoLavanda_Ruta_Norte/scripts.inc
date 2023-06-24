@@ -6,3 +6,8 @@ NeoLavanda_Ruta_Norte_EventScript_Jugador::
 	trainerbattle_single TRAINER_TRAINER_171, NeoLavanda_Ruta_Norte_Text_JugadorIntro, NeoLavanda_Ruta_Norte_Text_JugadorDefeated
 	msgbox NeoLavanda_Ruta_Norte_Text_JugadorPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+NeoLavanda_Ruta_Norte_EventScript_Montanero::
+	trainerbattle_single TRAINER_TRAINER_173, NeoLavanda_Ruta_Norte_Text_MontaneroIntro, NeoLavanda_Ruta_Norte_Text_MontaneroDefeated
+	msgbox NeoLavanda_Ruta_Norte_Text_MontaneroPostBattle, MSGBOX_AUTOCLOSE
+	end
