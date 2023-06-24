@@ -341,4 +341,3 @@ GoldenrodCityDocumento_Text_108:
 	.string "FLORISTERÍA TRIGAL\n"
 	.string "¡No encontrarás nuestras BAYAS en\l"
 	.string "ninguna otra parte!$"
-	

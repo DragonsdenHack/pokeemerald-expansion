@@ -63,4 +63,3 @@ end
 RocketHideout_10F_Segundo_Cientifico_Texto_1:
 .string "Entonces, ¿listo para otra nueva\n"
 	.string "gran aventura?$"
-	
