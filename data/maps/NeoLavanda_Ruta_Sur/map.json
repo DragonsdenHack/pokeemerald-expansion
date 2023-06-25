@@ -21,11 +21,6 @@
     {
       "direction": "down",
       "offset": -48,
-      "map": "MAP_ROUTE13"
-    },
-    {
-      "direction": "down",
-      "offset": -48,
       "map": "MAP_NEO_LAVANDA_RUTA_SUR_2"
     }
   ],

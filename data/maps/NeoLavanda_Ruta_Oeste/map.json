@@ -69,8 +69,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_11"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -82,8 +82,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_10"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SUPER_NERD",
@@ -134,7 +134,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NeoLavanda_Ruta_Oeste_Policia",
       "flag": "0"
     }
   ],
@@ -157,7 +157,31 @@
       "y": 5,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route8Documento_100"
+    },
+    {
+      "type": "hidden_item",
+      "x": 38,
+      "y": 11,
+      "elevation": 3,
+      "item": "ITEM_LUM_BERRY",
+      "flag": "FLAG_NUEVA_11"
+    },
+    {
+      "type": "hidden_item",
+      "x": 42,
+      "y": 10,
+      "elevation": 3,
+      "item": "ITEM_RAWST_BERRY",
+      "flag": "FLAG_NUEVA_12"
+    },
+    {
+      "type": "hidden_item",
+      "x": 42,
+      "y": 15,
+      "elevation": 3,
+      "item": "ITEM_LEPPA_BERRY",
+      "flag": "FLAG_NUEVA_13"
     }
   ]
 }

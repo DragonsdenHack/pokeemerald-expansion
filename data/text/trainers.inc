@@ -17070,5 +17070,60 @@ NeoLavanda_Ruta_Sur_Text_Pescador_4PostBattle:
 	.string "follón cuando se estropeó la CENTRAL\l"
 	.string "ENERGÍA.$"
 
+NeoLavanda_Ruta_Sur_2_Text_OrnitologoIntro:
+.string "Mira mis POKéMON. Fíjate en su color y\n"
+	.string "en su plumaje.$"
+
+NeoLavanda_Ruta_Sur_2_Text_OrnitologoDefeated:
+.string "¡Vaya! ¡No soy lo bastante bueno!$"
+
+NeoLavanda_Ruta_Sur_2_Text_OrnitologoPostBattle:
+.string "Los POKéMON son felices si los pones\n"
+	.string "guapos.$"
+
+NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2Intro:
+.string "La agilidad es la clave de los POKéMON\n"
+	.string "pájaro.$"
+
+NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2Defeated:
+.string "Me venciste con tu velocidad...$"
+
+NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2PostBattle:
+.string "Tus POKéMON están muy bien entrenados.$"
+
+NeoLavanda_Ruta_Sur_2_Text_JugadorIntro:
+.string "¡Jijiji! ¿Quieres luchar contra mi grupo\n"
+	.string "de RAICHU?$"
+
+NeoLavanda_Ruta_Sur_2_Text_JugadorDefeated:
+.string "¡RA, RAICHU!$"
+
+NeoLavanda_Ruta_Sur_2_Text_JugadorPostBattle:
+.string "Parece que tienes muchos POKéMON, pero\n"
+	.string "RAICHU es el mejor.$"
+
+NeoLavanda_Ruta_Sur_2_Text_Jugador_2Intro:
+.string "¡Arrodíllate ante mi regio POKéMON!$"
+
+NeoLavanda_Ruta_Sur_2_Text_Jugador_2Defeated:
+.string "¿Qué? ¡Te burlas de la realeza!$"
+
+NeoLavanda_Ruta_Sur_2_Text_Jugador_2PostBattle:
+.string "¿Acaso no quieres ser rey todo el\n"
+	.string "mundo?$"
+
+NeoLavanda_Ruta_Sur_2_Text_MontaneroIntro:
+.string "Debería ir al TÚNEL ROCA para conseguir\n"
+	.string "un ONIX.$"
+
+NeoLavanda_Ruta_Sur_2_Text_MontaneroDefeated:
+.string "He perdido...$"
+
+NeoLavanda_Ruta_Sur_2_Text_MontaneroPostBattle:
+.string "Parece que las formas geológicas no\n"
+	.string "cambian. Pero sí que cambian, aunque\l"
+	.string "poco a poco.$"
+
+
 
 

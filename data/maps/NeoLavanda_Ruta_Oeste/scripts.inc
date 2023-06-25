@@ -30,3 +30,15 @@ NeoLavanda_Ruta_Oeste_EventScript_Necio_2::
 	trainerbattle_single TRAINER_TRAINER_170, NeoLavanda_Ruta_Oeste_Text_Necio_2Intro, NeoLavanda_Ruta_Oeste_Text_Necio_2Defeated
 	msgbox NeoLavanda_Ruta_Oeste_Text_Necio_2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+NeoLavanda_Ruta_Oeste_Policia::
+lock
+faceplayer
+msgbox NeoLavanda_Ruta_Oeste_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+NeoLavanda_Ruta_Oeste_Policia_Texto_1:
+.string "La VIA SUBTERRANEA queda cerrada de\n"
+	.string "forma indefinida. Si quieres ir a\l"
+	.string "AZULONA, deberás pasar por AZAFRÁN.$"
