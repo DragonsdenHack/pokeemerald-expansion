@@ -10226,27 +10226,50 @@ static u32 ChangeStatBuffs(s8 statValue, u32 statId, u32 flags, const u8 *BS_ptr
                 statValue = -2;
             gBattleTextBuff2[0] = B_BUFF_PLACEHOLDER_BEGIN;
             index = 1;
-            if (statValue == -2)
-            {
+            #if GAME_LANGUAGE == LANGUAGE_SPANISH
                 gBattleTextBuff2[1] = B_BUFF_STRING;
-                gBattleTextBuff2[2] = STRINGID_STATHARSHLY;
-                gBattleTextBuff2[3] = STRINGID_STATHARSHLY >> 8;
+                gBattleTextBuff2[2] = STRINGID_STATFELL;
+                gBattleTextBuff2[3] = STRINGID_STATFELL >> 8;
                 index = 4;
-            }
-            else if (statValue <= -3)
-            {
-                gBattleTextBuff2[1] = B_BUFF_STRING;
-                gBattleTextBuff2[2] = STRINGID_SEVERELY & 0xFF;
-                gBattleTextBuff2[3] = STRINGID_SEVERELY >> 8;
-                index = 4;
-            }
-            gBattleTextBuff2[index] = B_BUFF_STRING;
-            index++;
-            gBattleTextBuff2[index] = STRINGID_STATFELL;
-            index++;
-            gBattleTextBuff2[index] = STRINGID_STATFELL >> 8;
-            index++;
-            gBattleTextBuff2[index] = B_BUFF_EOS;
+             if (statValue == -2)
+                {
+                    gBattleTextBuff2[4] = B_BUFF_STRING;
+                    gBattleTextBuff2[5] = STRINGID_STATHARSHLY;
+                    gBattleTextBuff2[6] = STRINGID_STATHARSHLY >> 8;
+                    index = 7;
+                }
+                else if (statValue <= -3)
+                {
+                    gBattleTextBuff2[4] = B_BUFF_STRING;
+                    gBattleTextBuff2[5] = STRINGID_SEVERELY & 0xFF;
+                    gBattleTextBuff2[6] = STRINGID_SEVERELY >> 8;
+                    index = 7;
+                }
+                gBattleTextBuff2[index++] = B_BUFF_STRING;
+                gBattleTextBuff2[index++] = STRINGID_DOT & 0xFF;
+                gBattleTextBuff2[index++] = STRINGID_DOT >> 8;
+                gBattleTextBuff2[index] = B_BUFF_EOS;
+            #else 
+                if (statValue == -2)
+                {
+                    gBattleTextBuff2[1] = B_BUFF_STRING;
+                    gBattleTextBuff2[2] = STRINGID_STATHARSHLY;
+                    gBattleTextBuff2[3] = STRINGID_STATHARSHLY >> 8;
+                    index = 4;
+                }
+                else if (statValue <= -3)
+                {
+                    gBattleTextBuff2[1] = B_BUFF_STRING;
+                    gBattleTextBuff2[2] = STRINGID_SEVERELY & 0xFF;
+                    gBattleTextBuff2[3] = STRINGID_SEVERELY >> 8;
+                    index = 4;
+                }
+                gBattleTextBuff2[index++] = B_BUFF_STRING;
+                gBattleTextBuff2[index++] = STRINGID_STATFELL;
+                gBattleTextBuff2[index++] = STRINGID_STATFELL >> 8;
+                gBattleTextBuff2[index] = B_BUFF_EOS;
+            #endif
+            
             
             if (gBattleMons[gActiveBattler].statStages[statId] == MIN_STAT_STAGE)
             {
@@ -10267,28 +10290,49 @@ static u32 ChangeStatBuffs(s8 statValue, u32 statId, u32 flags, const u8 *BS_ptr
         else if (gBattleMons[gActiveBattler].statStages[statId] == 10 && statValue > 2)
             statValue = 2;
         gBattleTextBuff2[0] = B_BUFF_PLACEHOLDER_BEGIN;
-        index = 1;
-        if (statValue == 2)
-        {
-            gBattleTextBuff2[1] = B_BUFF_STRING;
-            gBattleTextBuff2[2] = STRINGID_STATSHARPLY;
-            gBattleTextBuff2[3] = STRINGID_STATSHARPLY >> 8;
-            index = 4;
-        }
-        else if (statValue >= 3)
-        {
-            gBattleTextBuff2[1] = B_BUFF_STRING;
-            gBattleTextBuff2[2] = STRINGID_DRASTICALLY & 0xFF;
-            gBattleTextBuff2[3] = STRINGID_DRASTICALLY >> 8;
-            index = 4;
-        }
-        gBattleTextBuff2[index] = B_BUFF_STRING;
-        index++;
-        gBattleTextBuff2[index] = STRINGID_STATROSE;
-        index++;
-        gBattleTextBuff2[index] = STRINGID_STATROSE >> 8;
-        index++;
-        gBattleTextBuff2[index] = B_BUFF_EOS;
+		#if GAME_LANGUAGE == LANGUAGE_SPANISH
+		gBattleTextBuff2[2] = STRINGID_STATROSE;
+        gBattleTextBuff2[3] = STRINGID_STATROSE >> 8;
+		index = 4;
+		if (statValue == 2)
+            {
+                gBattleTextBuff2[4] = B_BUFF_STRING;
+                gBattleTextBuff2[5] = STRINGID_STATSHARPLY;
+                gBattleTextBuff2[6] = STRINGID_STATSHARPLY >> 8;
+                index = 7;
+            }
+            else if (statValue >= 3)
+            {
+                gBattleTextBuff2[4] = B_BUFF_STRING;
+                gBattleTextBuff2[5] = STRINGID_DRASTICALLY & 0xFF;
+                gBattleTextBuff2[6] = STRINGID_DRASTICALLY >> 8;
+                index = 7;
+            }
+            gBattleTextBuff2[index++] = B_BUFF_STRING;
+            gBattleTextBuff2[index++] = STRINGID_DOT & 0xFF;
+            gBattleTextBuff2[index++] = STRINGID_DOT >> 8;
+            gBattleTextBuff2[index] = B_BUFF_EOS;
+        #else
+            index = 1;
+            if (statValue == 2)
+            {
+                gBattleTextBuff2[1] = B_BUFF_STRING;
+                gBattleTextBuff2[2] = STRINGID_STATSHARPLY;
+                gBattleTextBuff2[3] = STRINGID_STATSHARPLY >> 8;
+                index = 4;
+            }
+            else if (statValue >= 3)
+            {
+                gBattleTextBuff2[1] = B_BUFF_STRING;
+                gBattleTextBuff2[2] = STRINGID_DRASTICALLY & 0xFF;
+                gBattleTextBuff2[3] = STRINGID_DRASTICALLY >> 8;
+                index = 4;
+            }
+            gBattleTextBuff2[index++] = B_BUFF_STRING;
+            gBattleTextBuff2[index++] = STRINGID_STATROSE;
+            gBattleTextBuff2[index++] = STRINGID_STATROSE >> 8;
+            gBattleTextBuff2[index] = B_BUFF_EOS;
+        #endif	
 
         if (gBattleMons[gActiveBattler].statStages[statId] == MAX_STAT_STAGE)
         {
