@@ -17151,6 +17151,19 @@ LavenderRadioP9_Text_RocketPostBattle:
 .string "Con ANDRA y usted, ¡el TEAM ROCKET\n"
 	.string "jamás será derrotado!$"
 
+LavenderRadioP10_Text_RocketIntro:
+.string "Este es ya el P10, ha llegado muy\n"
+	.string "lejos, ¿no le da vértigo seguir\l"
+	.string "subiendo?$"
+
+LavenderRadioP10_Text_RocketDefeated:
+.string "Ya veo que no.$"
+
+LavenderRadioP10_Text_RocketPostBattle:
+.string "Está claro, alguien como usted está\n"
+	.string "hecho para soportar la presión de las\l"
+	.string "grandes citas.$"
+
 
 
 

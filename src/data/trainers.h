@@ -14604,10 +14604,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_185] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER185"),
+        .trainerClass = TRAINER_CLASS_PROTON,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M,
+        .trainerName = _("TEAM ROCKET"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,

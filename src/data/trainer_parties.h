@@ -28934,11 +28934,43 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER184[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER185[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 95,
+    .species = SPECIES_TYPE_NULL,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_MULTI_ATTACK, MOVE_CRUNCH, MOVE_U_TURN, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 96,
+    .species = SPECIES_RHYPERIOR,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_STONE_EDGE, MOVE_ROCK_WRECKER, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 96,
+    .species = SPECIES_ELECTIVIRE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_WILD_CHARGE, MOVE_CROSS_CHOP, MOVE_ICE_PUNCH, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_TYRANITAR,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_STONE_EDGE, MOVE_CRUNCH, MOVE_FIRE_BLAST, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 98,
+    .species = SPECIES_NIDOKING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_GUNK_SHOT, MOVE_NIGHT_SLASH, MOVE_EARTHQUAKE, MOVE_NONE}
     }
 
 };
