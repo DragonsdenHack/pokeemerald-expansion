@@ -1264,3 +1264,15 @@ LavenderRadioP4_Devon_Combates_Texto_89:
 LavenderRadioP4_Devon_Combates_Texto_90:
 .string "Aún así… me mantendré fiel a mis\n"
 	.string "ideales.$"
+
+LavenderRadioP4_Cuarto_Cientifico::
+lock
+faceplayer
+msgbox LavenderRadioP4_Cuarto_Cientifico_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+LavenderRadioP4_Cuarto_Cientifico_Texto_1:
+.string "Al elogiar a alguien por su falta de\n"
+	.string "defectos también insinúas su falta de\l"
+	.string "virtudes.$"

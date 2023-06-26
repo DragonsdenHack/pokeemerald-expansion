@@ -130,6 +130,19 @@
       "trainer_sight_or_berry_tree_id": "2",
       "script": "LavenderRadioP10_EventScript_Rocket",
       "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 7,
+      "y": 12,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RadioTowerP10_Event_Script_TM111",
+      "flag": "FLAG_NUEVA_832"
     }
   ],
   "warp_events": [
@@ -175,6 +188,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LavenderRadioP10Documento_101"
+    },
+    {
+      "type": "hidden_item",
+      "x": 23,
+      "y": 3,
+      "elevation": 3,
+      "item": "ITEM_MAX_REVIVE",
+      "flag": "FLAG_NUEVA_831"
     }
   ]
 }

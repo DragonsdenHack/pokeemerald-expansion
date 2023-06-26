@@ -2484,5 +2484,21 @@ TorreSecundaP4_Event_Script_TM102::
 finditem ITEM_TM102_SMART_STRIKE
    end
 
+RadioTowerP10_Event_Script_TM111::
+finditem ITEM_TM111_PSYWAVE
+   end
+
+RadioTowerP9_Event_Script_Manectita::
+finditem ITEM_MANECTITE
+   end
+
+Mision7Lab4_Event_Script_Cameruptita::
+finditem ITEM_CAMERUPTITE
+   end
+
+RadioTowerP8_Event_Script_RareCandy::
+finditem ITEM_RARE_CANDY
+   end
+
 
 
