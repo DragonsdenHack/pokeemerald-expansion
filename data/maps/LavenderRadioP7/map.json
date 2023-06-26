@@ -2,7 +2,7 @@
   "id": "MAP_LAVENDER_RADIO_P7",
   "name": "LavenderRadioP7",
   "layout": "LAYOUT_LAVENDER_RADIO_P7",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "560",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

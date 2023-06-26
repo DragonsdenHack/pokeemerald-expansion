@@ -17124,6 +17124,34 @@ NeoLavanda_Ruta_Sur_2_Text_MontaneroPostBattle:
 	.string "cambian. Pero sí que cambian, aunque\l"
 	.string "poco a poco.$"
 
+LavenderRadioP8_Text_PoliciaIntro:
+.string "Los avances científicos de los\n"
+	.string "últimos meses han sido asombrosos,\l"
+	.string "¿quieres verlos?$"
+
+LavenderRadioP8_Text_PoliciaDefeated:
+.string "Creí que te sorprendería...$"
+
+LavenderRadioP8_Text_PoliciaPostBattle:
+.string "Si seguimos este ritmo, SILVALLY\n"
+	.string "pronto sustituirá a ARCANINE como\l"
+	.string "acompañante ideal de un POLICIA.\l"
+	.string "Objetivamente es superior para esta\l"
+	.string "función, el resto pasará a un segundo\l"
+	.string "plano.$"
+
+LavenderRadioP9_Text_RocketIntro:
+.string "¿Es verdad que derrotó al mismísimo\n"
+	.string "GIOVANNI en su propio despacho?$"
+
+LavenderRadioP9_Text_RocketDefeated:
+.string "Un honor perder ante usted señor.$"
+
+LavenderRadioP9_Text_RocketPostBattle:
+.string "Con ANDRA y usted, ¡el TEAM ROCKET\n"
+	.string "jamás será derrotado!$"
+
+
 
 
 

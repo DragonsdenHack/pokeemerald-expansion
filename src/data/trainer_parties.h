@@ -21490,7 +21490,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Cristin3[] = {
     },
     {
     .iv = 120,
-    .lvl = 37,
+    .lvl = 91,
     .species = SPECIES_FLOATZEL,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
@@ -28878,11 +28878,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER182[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER183[] = {
     {
     .iv = 0,
-    .lvl = 9,
+    .lvl = 94,
     .species = SPECIES_ARCANINE,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_CLOSE_COMBAT, MOVE_EXTREME_SPEED, MOVE_FLARE_BLITZ, MOVE_WILD_CHARGE}
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_ELECTIVIRE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_WILD_CHARGE, MOVE_CROSS_CHOP, MOVE_PSYCHIC, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 96,
+    .species = SPECIES_SILVALLY,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_MULTI_ATTACK, MOVE_IRON_TAIL, MOVE_NONE, MOVE_NONE}
     }
 
 };
@@ -28890,11 +28906,27 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER183[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER184[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 95,
+    .species = SPECIES_KABUTOPS,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ROCK_SLIDE, MOVE_LIQUIDATION, MOVE_AQUA_JET, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 96,
+    .species = SPECIES_SALAZZLE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_FLAMETHROWER, MOVE_SLUDGE_WAVE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 97,
+    .species = SPECIES_WEEZING_GALARIAN,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_DAZZLING_GLEAM, MOVE_SLUDGE_BOMB, MOVE_FIRE_BLAST, MOVE_NONE}
     }
 
 };
