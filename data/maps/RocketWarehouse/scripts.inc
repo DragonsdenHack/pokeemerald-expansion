@@ -428,7 +428,7 @@ end
 
 RocketWarehouseSoldado_Text_Soldado1:
 .string "No tan rápido, ATLAS me ha pedido\n"
-	.string "expresamente que me encarge de los\l"
+	.string "expresamente que me encargue de los\l"
 	.string "4 RECLUTAS novatos, solo\l"
 	.string "venciéndome te ganarás el derecho\l"
 	.string "de competir por una misión\l"

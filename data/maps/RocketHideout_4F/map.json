@@ -28,7 +28,7 @@
       "flag": "FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ALTORANGO",
       "x": 17,
       "y": 6,
       "elevation": 3,
@@ -119,7 +119,7 @@
       "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_8"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ALTORANGO",
       "x": 17,
       "y": 18,
       "elevation": 3,

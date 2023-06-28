@@ -721,7 +721,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_8:
 
 RocketHideout_6F_Petrel_Text_Mision_2_9:
 .string "PETREL: El pago justo por una\n"
-	.string "nueva oportunidad, ¿no crees?. Te\l"
+	.string "nueva oportunidad, ¿no crees? Te\l"
 	.string "aseguro que si cumples con éxito\l"
 	.string "el encargo que te asignaré, el\l"
 	.string "dinero será el menor de tus\l"
@@ -993,7 +993,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_6:
 	.string "contigo {PLAYER}, no fui consciente\l"
 	.string "del riesgo que corrías y debí\l"
 	.string "suponer que una personalidad como\l"
-	.string "BILL estaría más protegido. Me\l"
+	.string "BILL estaría más protegida. Me\l"
 	.string "dijeron que eras buen ENTRENADOR y\l"
 	.string "estimé que tu nivel daría para\l"
 	.string "derrotar a ese fanfarrón en un\l"
@@ -1690,6 +1690,7 @@ walk_left
 step_end
 
 RocketHideout_6F_Escena_Lance::
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 applymovement 26, RocketHideout_6F_Escena_Lance_move_1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_move_3
 waitmovement 0x0

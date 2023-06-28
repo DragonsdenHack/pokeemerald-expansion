@@ -53,6 +53,9 @@ applymovement 6, IndigoPlateau_Lance_Discurso_move_6
 applymovement 21, IndigoPlateau_Lance_Discurso_move_6
 applymovement 3, IndigoPlateau_Lance_Discurso_move_6
 applymovement 2, IndigoPlateau_Lance_Discurso_move_6
+applymovement 10, IndigoPlateau_Lance_Discurso_move_6
+applymovement 4, IndigoPlateau_Lance_Discurso_move_6
+applymovement 7, IndigoPlateau_Lance_Discurso_move_6
 waitmovement 0x0
 delay 60
 applymovement 1, IndigoPlateau_Lance_Discurso_move_2

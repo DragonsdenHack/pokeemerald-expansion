@@ -81,3 +81,12 @@ LavenderRadioP9_Policia_Texto_1:
 	.string "hay que pasar por todos los pisos\l"
 	.string "anteriores, ¡y su seguridad!$"
 
+LavenderRadioP9_Cambio_Skin::
+msgbox LavenderRadioP9_Cambio_Skin_Texto MSGBOX_AUTOCLOSE
+setdisguise [467]
+release
+end
+
+LavenderRadioP9_Cambio_Skin_Texto:
+.string "CALLATE$"
+

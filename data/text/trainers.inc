@@ -9102,7 +9102,7 @@ CeladonCityGym_Text_ChicaDefeated:
 
 
 CeladonCityGym_Text_ChicaPostBattle:
-	.string "¡Espero que ERIKA se encarge de\n"
+	.string "¡Espero que ERIKA se encargue de\n"
 	.string "ti!$"
 
 

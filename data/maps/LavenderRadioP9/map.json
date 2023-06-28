@@ -111,7 +111,7 @@
       "x": 12,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_LAVENDER_RADIO_P8",
+      "dest_map": "MAP_POKEMON_TOWER_5F",
       "dest_warp_id": 1
     },
     {
@@ -140,6 +140,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "212",
       "script": "LavenderRadioP6_Combate_Bill"
+    },
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_MAUVILLE_CITY_STATE",
+      "var_value": "0",
+      "script": "LavenderRadioP9_Cambio_Skin"
     }
   ],
   "bg_events": [

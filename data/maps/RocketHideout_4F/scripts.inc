@@ -2898,7 +2898,7 @@ PokemonTower5F_Escena_4_Blaine_Texto_16:
 	.string "oculto.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_17:
-.string "BLAINE: ¡¿Qué nos han perdonado?!\n"
+.string "BLAINE: ¡¿Nos han perdonado?!\n"
 	.string "¡Estamos a su merced! ¡Pueden arrasar\l"
 	.string "hoy con esta base si la descubriesen o\l"
 	.string "quemar mañana mi laboratorio si\l"
