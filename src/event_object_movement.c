@@ -495,6 +495,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_EJECUTIVO		0x1158
 #define OBJ_EVENT_PAL_TAG_ANDRA		0x1159
 #define OBJ_EVENT_PAL_TAG_ANCIANA_JOHTO	0x115A
+#define OBJ_EVENT_PAL_TAG_ROCKET_ADMIN 0x115B
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -584,6 +585,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_AndraAdmin,             OBJ_EVENT_PAL_TAG_ANDRA_ADMIN},
 	{gObjectEventPal_AndraAltoRango,             OBJ_EVENT_PAL_TAG_ANDRA_ALTO_RANGO},
 	{gObjectEventPal_AndraEjecutivo,             OBJ_EVENT_PAL_TAG_ANDRA_EJECUTIVA},
+	{gObjectEventPal_AltoRango, OBJ_EVENT_PAL_TAG_ALTO_RANGO},
+	{gObjectEventPal_Ejecutivo, OBJ_EVENT_PAL_TAG_EJECUTIVO},
+	{gObjectEventPal_Rocket_Admin, OBJ_EVENT_PAL_TAG_ROCKET_ADMIN},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
