@@ -888,8 +888,10 @@ $(OBJEVENTGFXDIR)/people/rocket_m_ejecutivo.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
 	
 $(OBJEVENTGFXDIR)/people/rocket_m_admin.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/silver.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
-	
 
 $(OBJEVENTGFXDIR)/people/Rojo.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4

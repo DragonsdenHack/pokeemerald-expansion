@@ -1,5 +1,134 @@
 CinnabarIsland_Gym_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, CinnabarIsland_Gym_OnLoad
 	.byte 0
+	
+CinnabarIsland_Gym_OnLoad::
+	@@goto_if_set FLAG_DEFEATED_BLAINE, CinnabarIsland_Gym_OnLoadOpenAllDoors
+	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_OnLoadOpenDoor1
+	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_OnLoadOpenDoor2
+	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_OnLoadOpenDoor3
+	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_OnLoadOpenDoor4
+	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_OnLoadOpenDoor5
+	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_OnLoadOpenDoor6
+	end
+
+CinnabarIsland_Gym_OnLoadOpenAllDoors::
+	call CinnabarIsland_Gym_EventScript_OpenDoor1
+	call CinnabarIsland_Gym_EventScript_OpenDoor2
+	call CinnabarIsland_Gym_EventScript_OpenDoor3
+	call CinnabarIsland_Gym_EventScript_OpenDoor4
+	call CinnabarIsland_Gym_EventScript_OpenDoor5
+	call CinnabarIsland_Gym_EventScript_OpenDoor6
+	end
+
+CinnabarIsland_Gym_OnLoadOpenDoor1::
+	call CinnabarIsland_Gym_EventScript_OpenDoor1
+	return
+
+CinnabarIsland_Gym_OnLoadOpenDoor2::
+	call CinnabarIsland_Gym_EventScript_OpenDoor2
+	return
+
+CinnabarIsland_Gym_OnLoadOpenDoor3::
+	call CinnabarIsland_Gym_EventScript_OpenDoor3
+	return
+
+CinnabarIsland_Gym_OnLoadOpenDoor4::
+	call CinnabarIsland_Gym_EventScript_OpenDoor4
+	return
+
+CinnabarIsland_Gym_OnLoadOpenDoor5::
+	call CinnabarIsland_Gym_EventScript_OpenDoor5
+	return
+
+CinnabarIsland_Gym_OnLoadOpenDoor6::
+	call CinnabarIsland_Gym_EventScript_OpenDoor6
+	return
+
+CinnabarIsland_Gym_EventScript_OpenDoor1::
+	setmetatile 26,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+	setmetatile 27,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+	setmetatile 26,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+	setmetatile 27,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+	setmetatile 26, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
+	setmetatile 27, 10, METATILE_CinnabarGym_Floor, 0
+	setmetatile 28, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+	return
+
+CinnabarIsland_Gym_EventScript_OpenDoor2::
+	setmetatile 17,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+	setmetatile 18,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+	setmetatile 17,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+	setmetatile 18,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+	setmetatile 17, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
+	setmetatile 18, 10, METATILE_CinnabarGym_Floor, 0
+	setmetatile 19, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+	return
+
+CinnabarIsland_Gym_EventScript_OpenDoor3::
+	setmetatile 17, 15, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+	setmetatile 18, 15, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+	setmetatile 17, 16, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+	setmetatile 18, 16, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+	setmetatile 17, 17, METATILE_CinnabarGym_Floor_ShadeFull, 0
+	setmetatile 18, 17, METATILE_CinnabarGym_Floor, 0
+	setmetatile 19, 17, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+	return
+
+CinnabarIsland_Gym_EventScript_OpenDoor4::
+	setmetatile 11, 21, METATILE_CinnabarGym_Wall_RetractedBarrier, 1
+	setmetatile 11, 22, METATILE_CinnabarGym_Floor_ShadeFull, 0
+	setmetatile 11, 23, METATILE_CinnabarGym_Floor, 0
+	return
+
+CinnabarIsland_Gym_EventScript_OpenDoor5::
+	setmetatile  5, 16, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+	setmetatile  6, 16, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+	setmetatile  5, 17, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+	setmetatile  6, 17, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+	setmetatile  5, 18, METATILE_CinnabarGym_Floor_ShadeFull, 0
+	setmetatile  6, 18, METATILE_CinnabarGym_Floor, 0
+	setmetatile  7, 18, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+	return
+
+CinnabarIsland_Gym_EventScript_OpenDoor6::
+	setmetatile  5,  8, METATILE_CinnabarGym_Floor_WallLeftCorner, 0
+	setmetatile  6,  8, METATILE_CinnabarGym_Floor_WallRightCorner, 0
+	setmetatile  5,  9, METATILE_CinnabarGym_Floor_WallLeftEdge, 0
+	setmetatile  6,  9, METATILE_CinnabarGym_Floor_WallRightEdge, 0
+	setmetatile  5, 10, METATILE_CinnabarGym_Floor_ShadeFull, 0
+	setmetatile  6, 10, METATILE_CinnabarGym_Floor, 0
+	setmetatile  7, 10, METATILE_CinnabarGym_Floor_ShadeDiagonal, 0
+	return
+
+CinnabarIsland_Gym_EventScript_Quz1Left::
+end
+CinnabarIsland_Gym_EventScript_Quz1Right::
+end
+CinnabarIsland_Gym_EventScript_Quz2Left::
+end
+CinnabarIsland_Gym_EventScript_Quz2Right::
+end
+CinnabarIsland_Gym_EventScript_Quiz3Left::
+end
+CinnabarIsland_Gym_EventScript_Quiz3Right::
+end
+CinnabarIsland_Gym_EventScript_Quiz4Left::
+end
+CinnabarIsland_Gym_EventScript_Quiz4Right::
+end
+CinnabarIsland_Gym_EventScript_Quiz2Left::
+end
+CinnabarIsland_Gym_EventScript_Quiz2Right::
+end
+CinnabarIsland_Gym_EventScript_Quiz6Left::
+end
+CinnabarIsland_Gym_EventScript_Quiz6Right::
+end
+CinnabarIsland_Gym_EventScript_Quiz5Left::
+end
+CinnabarIsland_Gym_EventScript_Quiz5Right::	
+end
 
 CinnabarIslandGym1::
 end

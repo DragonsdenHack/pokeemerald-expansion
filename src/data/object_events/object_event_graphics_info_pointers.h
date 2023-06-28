@@ -477,6 +477,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Andra_Admin_Jefe;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AltoRango;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Ejecutivo;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Admin;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Silver;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -953,6 +954,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO] = &gObjectEventGraphicsInfo_Player_Ejecutivo,
 	[OBJ_EVENT_GFX_PLAYER_ADMIN] = &gObjectEventGraphicsInfo_Player_Admin,
 	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE] =	&gObjectEventGraphicsInfo_Player_AdminJefe,
+	[OBJ_EVENT_GFX_SILVER] = &gObjectEventGraphicsInfo_Silver,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

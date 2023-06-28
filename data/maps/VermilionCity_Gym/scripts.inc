@@ -1,5 +1,205 @@
 VermilionCity_Gym_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, VermilionCity_Gym_OnLoad
+	map_script MAP_SCRIPT_ON_TRANSITION, VermilionCity_Gym_OnTransition
 	.byte 0
+	
+VermilionCity_Gym_OnLoad::
+	call_if_set FLAG_TEMP_1, VermilionCity_Gym_EventScript_SetOneBeamOff
+	call_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_SetBeamsOff
+	end
+
+VermilionCity_Gym_EventScript_SetOneBeamOff::
+	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_HalfOn, 1
+	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_HalfOn, 1
+	setmetatile 5, 6, METATILE_VermilionGym_Beam_MidTop_HalfOn, 1
+	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_HalfOn, 1
+	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_HalfOn, 1
+	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_HalfOn, 1
+	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_HalfOn, 1
+	setmetatile 5, 7, METATILE_VermilionGym_Beam_MidBottom_HalfOn, 1
+	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_HalfOn, 1
+	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_HalfOn, 1
+	return
+
+VermilionCity_Gym_EventScript_SetBeamsOff::
+	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Off, 1
+	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_Off, 0
+	setmetatile 5, 6, METATILE_VermilionGym_Floor, 0
+	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_Off, 0
+	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_Off, 1
+	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Off, 1
+	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_Off, 0
+	setmetatile 5, 7, METATILE_VermilionGym_Floor, 0
+	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_Off, 0
+	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Off, 1
+	return
+
+VermilionCity_Gym_OnTransition::
+	call VermilionCity_Gym_EventScript_InitTrashCans
+	end
+
+VermilionCity_Gym_EventScript_InitTrashCans::
+	goto_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, EventScript_Return
+	@@special SetVermilionTrashCans
+	copyvar VAR_TEMP_0, VAR_0x8004
+	copyvar VAR_TEMP_1, VAR_0x8005
+	return
+	
+EventScript_Return::
+	return	
+
+VermilionCity_Gym_EventScript_TrashCan1::
+	lockall
+	setvar VAR_0x8008, 1
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan2::
+	lockall
+	setvar VAR_0x8008, 2
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan3::
+	lockall
+	setvar VAR_0x8008, 3
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan4::
+	lockall
+	setvar VAR_0x8008, 4
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan5::
+	lockall
+	setvar VAR_0x8008, 5
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan6::
+	lockall
+	setvar VAR_0x8008, 6
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan7::
+	lockall
+	setvar VAR_0x8008, 7
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan8::
+	lockall
+	setvar VAR_0x8008, 8
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan9::
+	lockall
+	setvar VAR_0x8008, 9
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan10::
+	lockall
+	setvar VAR_0x8008, 10
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan11::
+	lockall
+	setvar VAR_0x8008, 11
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan12::
+	lockall
+	setvar VAR_0x8008, 12
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan13::
+	lockall
+	setvar VAR_0x8008, 13
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan14::
+	lockall
+	setvar VAR_0x8008, 14
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan15::
+	lockall
+	setvar VAR_0x8008, 15
+	goto VermilionCity_Gym_EventScript_TrashCan
+	end
+
+VermilionCity_Gym_EventScript_TrashCan::
+	copyvar VAR_0x8004, VAR_TEMP_0
+	copyvar VAR_0x8005, VAR_TEMP_1
+	goto_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_LocksAlreadyOpen
+	goto_if_set FLAG_TEMP_1, VermilionCity_Gym_EventScript_TrySwitchTwo
+	goto_if_eq VAR_0x8004, VAR_0x8008, VermilionCity_Gym_EventScript_FoundSwitchOne
+	msgbox VermilionCity_Gym_Text_NopeOnlyTrashHere
+	releaseall
+	end	
+
+VermilionCity_Gym_EventScript_FoundSwitchOne::
+	@@msgbox VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened
+	playse SE_PIN
+	waitse
+	call VermilionCity_Gym_EventScript_SetOneBeamOff
+	special DrawWholeMapView
+	setflag FLAG_TEMP_1
+	releaseall
+	end
+
+VermilionCity_Gym_EventScript_TrySwitchTwo::
+	goto_if_eq VAR_0x8005, VAR_0x8008, VermilionCity_Gym_EventScript_FoundSwitchTwo
+	@@msgbox VermilionCity_Gym_Text_OnlyTrashLocksWereReset
+	clearflag FLAG_TEMP_1
+	@@special SetVermilionTrashCans
+	copyvar VAR_TEMP_0, VAR_0x8004
+	copyvar VAR_TEMP_1, VAR_0x8005
+	call VermilionCity_Gym_EventScript_SetBeamsOn
+	special DrawWholeMapView
+	releaseall
+	end
+
+VermilionCity_Gym_EventScript_FoundSwitchTwo::
+	@@msgbox VermilionCity_Gym_Text_SecondLockOpened
+	closemessage
+	call VermilionCity_Gym_EventScript_SetBeamsOff
+	special DrawWholeMapView
+	playse SE_UNLOCK
+	waitse
+	setflag FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES
+	releaseall
+	end
+
+VermilionCity_Gym_EventScript_LocksAlreadyOpen::
+	@@msgbox VermilionCity_Gym_Text_NopeOnlyTrashHere
+	releaseall
+	end
+
+VermilionCity_Gym_EventScript_SetBeamsOn::
+	setmetatile 3, 6, METATILE_VermilionGym_Beam_Node_TopLeft_On, 1
+	setmetatile 4, 6, METATILE_VermilionGym_Beam_Node_TopLeft_Edge_On, 1
+	setmetatile 5, 6, METATILE_VermilionGym_Beam_MidTop, 1
+	setmetatile 6, 6, METATILE_VermilionGym_Beam_Node_TopRight_Edge_On, 1
+	setmetatile 7, 6, METATILE_VermilionGym_Beam_Node_TopRight_On, 1
+	setmetatile 3, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_On, 1
+	setmetatile 4, 7, METATILE_VermilionGym_Beam_Node_BottomLeft_Edge_On, 1
+	setmetatile 5, 7, METATILE_VermilionGym_Beam_MidBottom, 1
+	setmetatile 6, 7, METATILE_VermilionGym_Beam_Node_BottomRight_Edge_On, 1
+	setmetatile 7, 7, METATILE_VermilionGym_Beam_Node_BottomRight_On, 1
+	return
+
+
 
 VermilionCityGym1::
 end
@@ -304,6 +504,10 @@ VermilionCityGym_NoPass_Text_3:
 	.string "a las autoridades, ningún LÍDER DE\l"
 	.string "GIMNASIO va a perder el tiempo con\l"
 	.string "un mísero ROCKET!$"
+	
+	
+VermilionCity_Gym_Text_NopeOnlyTrashHere:
+.string "Aquí solo hay basura.$"	
 
 
 VermilionCityGym_NoPass_move_1:
