@@ -144,57 +144,57 @@
 #define MAPSEC_POKEMON_TOWER                0x8C
 #define MAPSEC_CERULEAN_CAVE                0x8D
 #define MAPSEC_POWER_PLANT                  0x8E
-#define MAPSEC_ONE_ISLAND                   0x8F
-#define MAPSEC_TWO_ISLAND                   0x90
-#define MAPSEC_THREE_ISLAND                 0x91
-#define MAPSEC_FOUR_ISLAND                  0x92
+#define MAPSEC_ONE_ISLAND                   0x8F  //SEVI123
+#define MAPSEC_TWO_ISLAND                   0x90	//SEVI123
+#define MAPSEC_THREE_ISLAND                 0x91 //SEVI123
+#define MAPSEC_FOUR_ISLAND                  0x92 //SEVI45
 #define MAPSEC_FIVE_ISLAND                  0x93
 #define MAPSEC_SIX_ISLAND                   0x94
 #define MAPSEC_SEVEN_ISLAND                 0x95
-#define MAPSEC_KINDLE_ROAD                  0x96
-#define MAPSEC_TREASURE_BEACH               0x97
-#define MAPSEC_CAPE_BRINK                   0x98
+#define MAPSEC_KINDLE_ROAD                  0x96 //SEVI123
+#define MAPSEC_TREASURE_BEACH               0x97 //SEVI123
+#define MAPSEC_CAPE_BRINK                   0x98 //SEVI123
 #define MAPSEC_BOND_BRIDGE                  0x99
-#define MAPSEC_THREE_ISLE_PORT              0x9A
+#define MAPSEC_THREE_ISLE_PORT              0x9A //SEVI123
 #define MAPSEC_SEVII_ISLE_6                 0x9B //MAPSEC_ROUTE_44
 #define MAPSEC_SEVII_ISLE_7                 0x9C //MAPSEC_ROUTE_45
 #define MAPSEC_SEVII_ISLE_8                 0x9D //MAPSEC_ROUTE_46	
 #define MAPSEC_SEVII_ISLE_9                 0x9E //MAPSEC_ROUTE_47
-#define MAPSEC_RESORT_GORGEOUS              0x9F
-#define MAPSEC_WATER_LABYRINTH              0xA0
-#define MAPSEC_FIVE_ISLE_MEADOW             0xA1
-#define MAPSEC_MEMORIAL_PILLAR              0xA2
-#define MAPSEC_OUTCAST_ISLAND               0xA3
-#define MAPSEC_GREEN_PATH                   0xA4
-#define MAPSEC_WATER_PATH                   0xA5
-#define MAPSEC_RUIN_VALLEY                  0xA6
-#define MAPSEC_TRAINER_TOWER                0xA7
+#define MAPSEC_RESORT_GORGEOUS              0x9F //SEVI45
+#define MAPSEC_WATER_LABYRINTH              0xA0 //SEVI45
+#define MAPSEC_FIVE_ISLE_MEADOW             0xA1 //SEVI45
+#define MAPSEC_MEMORIAL_PILLAR              0xA2 //SEVI45
+#define MAPSEC_OUTCAST_ISLAND               0xA3 //SEVI67
+#define MAPSEC_GREEN_PATH                   0xA4 //SEVI67
+#define MAPSEC_WATER_PATH                   0xA5 //SEVI67
+#define MAPSEC_RUIN_VALLEY                  0xA6 //SEVI67
+#define MAPSEC_TRAINER_TOWER                0xA7 //SEVI67
 #define MAPSEC_CANYON_ENTRANCE              0xA8
-#define MAPSEC_SEVAULT_CANYON               0xA9
-#define MAPSEC_TANOBY_RUINS                 0xAA
+#define MAPSEC_SEVAULT_CANYON               0xA9 //SEVI67
+#define MAPSEC_TANOBY_RUINS                 0xAA //SEVI67
 #define MAPSEC_SEVII_ISLE_22                0xAB //MAPSEC_ROUTE_48
 #define MAPSEC_SEVII_ISLE_23                0xAC //MAPSEC_CUEVA_UNION
 #define MAPSEC_SEVII_ISLE_24                0xAD //MAPSEC_CUEVA_OSCURA
 #define MAPSEC_NAVEL_ROCK_FRLG              0xAE //MAPSEC_MONTE_MORTERO
-#define MAPSEC_MT_EMBER                     0xAF
-#define MAPSEC_BERRY_FOREST                 0xB0
-#define MAPSEC_ICEFALL_CAVE                 0xB1
+#define MAPSEC_MT_EMBER                     0xAF //SEVI123
+#define MAPSEC_BERRY_FOREST                 0xB0 //SEVI123
+#define MAPSEC_ICEFALL_CAVE                 0xB1 //SEVI45
 #define MAPSEC_ROCKET_WAREHOUSE             0xB2
 #define MAPSEC_TRAINER_TOWER_2              0xB3
-#define MAPSEC_DOTTED_HOLE                  0xB4
-#define MAPSEC_LOST_CAVE                    0xB5
-#define MAPSEC_PATTERN_BUSH                 0xB6
+#define MAPSEC_DOTTED_HOLE                  0xB4 //SEVI67
+#define MAPSEC_LOST_CAVE                    0xB5 //SEVI45
+#define MAPSEC_PATTERN_BUSH                 0xB6 //SEVI67
 #define MAPSEC_ALTERING_CAVE_FRLG           0xB7 //MAPSEC_TORRE_RADIO_TRIGAL
-#define MAPSEC_TANOBY_CHAMBERS              0xB8
+#define MAPSEC_TANOBY_CHAMBERS              0xB8 //SEVI67
 #define MAPSEC_THREE_ISLE_PATH              0xB9
 #define MAPSEC_TANOBY_KEY                   0xBA
 #define MAPSEC_BIRTH_ISLAND_FRLG            0xBB //MAPSEC_TORRE_RADIO_LAVANDA
-#define MAPSEC_MONEAN_CHAMBER               0xBC
-#define MAPSEC_LIPTOO_CHAMBER               0xBD
-#define MAPSEC_WEEPTH_CHAMBER               0xBE
-#define MAPSEC_DILFORD_CHAMBER              0xBF
-#define MAPSEC_SCUFIB_CHAMBER               0xC0
-#define MAPSEC_RIXY_CHAMBER                 0xC1
+#define MAPSEC_MONEAN_CHAMBER               0xBC //SEVI67
+#define MAPSEC_LIPTOO_CHAMBER               0xBD //SEVI67
+#define MAPSEC_WEEPTH_CHAMBER               0xBE //SEVI67
+#define MAPSEC_DILFORD_CHAMBER              0xBF //SEVI67
+#define MAPSEC_SCUFIB_CHAMBER               0xC0 //SEVI67
+#define MAPSEC_RIXY_CHAMBER                 0xC1 //SEVI67
 #define MAPSEC_VIAPOIS_CHAMBER              0xC2
 #define MAPSEC_EMBER_SPA                    0xC3
 #define MAPSEC_SPECIAL_AREA                 0xC4
@@ -211,7 +211,7 @@
 #define MAPSEC_UNDERWATER_125               0xCF
 #define MAPSEC_UNDERWATER_129               0xD0
 #define MAPSEC_DESERT_UNDERPASS             0xD1
-#define MAPSEC_ALTERING_CAVE                0xD2
+#define MAPSEC_ALTERING_CAVE                0xD2 //SEVI67
 #define MAPSEC_NAVEL_ROCK                   0xD3
 #define MAPSEC_TRAINER_HILL                 0xD4
 #define MAPSEC_RUINAS_ALFA                  0xD5
