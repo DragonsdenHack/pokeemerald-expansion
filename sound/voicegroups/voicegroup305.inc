@@ -128,4 +128,3 @@ voicegroup305::
 	voice_square_1 60, 0, 0, 2, 0, 0, 15, 0
 	voice_noise_alt 60, 0, 0, 0, 2, 6, 0
 	voice_noise_alt 60, 0, 0, 0, 1, 8, 1
-	
