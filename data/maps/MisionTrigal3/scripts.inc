@@ -14,4 +14,3 @@ MisionTrigal3_EventScript_Motero2::
 	trainerbattle_single TRAINER_TRAINER_82, MisionTrigal3_Text_Motero2Intro, MisionTrigal3_Text_Motero2Defeated
 	msgbox MisionTrigal3_Text_Motero2PostBattle, MSGBOX_AUTOCLOSE
 	end
-	

@@ -10852,7 +10852,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra8[] = {
     {
     .iv = 255,
     .lvl = 90,
-    .species = SPECIES_CROBAT_BOND_F,
+    .species = SPECIES_CROBAT2_BOND,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {60, 252, 60, 252, 60, 60},
     .nature = NATURE_ADAMANT,
@@ -21114,7 +21114,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     {
     .iv = 255,
     .lvl = 101,
-    .species = SPECIES_CROBAT_BOND_F,
+    .species = SPECIES_CROBAT2_BOND,
     .heldItem = ITEM_FLYING_GEM,
     .evs = {110, 252, 252, 110, 110, 110},
     .nature = NATURE_ADAMANT,
@@ -23561,7 +23561,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER20[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_CROBAT_BOND_F,
+    .species = SPECIES_CROBAT2_BOND,
     .heldItem = ITEM_FLYINIUM_Z,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_ADAMANT,

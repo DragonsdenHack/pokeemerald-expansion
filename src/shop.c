@@ -741,17 +741,17 @@ static void BuyMenuDrawMapBg(void)
         {
             metatile = MapGridGetMetatileIdAt(x + i, y + j);
             if (BuyMenuCheckForOverlapWithMenuBg(i, j) == TRUE)
-                metatileLayerType = MapGridGetMetatileLayerTypeAt(x + i, y + j);
+                metatileLayerType = 0;
             else
                 metatileLayerType = 1;
 
             if (metatile < NUM_METATILES_IN_PRIMARY)
             {
-                BuyMenuDrawMapMetatile(i, j, (u16*)mapLayout->primaryTileset->metatiles + metatile * 12, metatileLayerType);
+                BuyMenuDrawMapMetatile(i, j, (u16*)mapLayout->primaryTileset->metatiles + metatile * NUM_TILES_PER_METATILE, metatileLayerType);
             }
             else
             {
-                BuyMenuDrawMapMetatile(i, j, (u16*)mapLayout->secondaryTileset->metatiles + ((metatile - NUM_METATILES_IN_PRIMARY) * 12), metatileLayerType);
+                BuyMenuDrawMapMetatile(i, j, (u16*)mapLayout->secondaryTileset->metatiles + ((metatile - NUM_METATILES_IN_PRIMARY) * NUM_TILES_PER_METATILE), metatileLayerType);
             }
         }
     }
@@ -760,7 +760,7 @@ static void BuyMenuDrawMapBg(void)
 static bool8 IsMetatileLayerEmpty(const u16 *src)
 {
     u32 i = 0;
-    for(i = 0; i < 4; ++i)
+    for(i = 0; i < 4; i++)
     {
         if((src[i] & 0x3FF) != 0)
             return FALSE;
@@ -771,7 +771,7 @@ static bool8 IsMetatileLayerEmpty(const u16 *src)
 static void BuyMenuDrawMapMetatile(s16 x, s16 y, const u16 *src, u8 metatileLayerType)
 {
     u16 offset1 = x * 2;
-    u16 offset2 = y * 64 + 64;
+    u16 offset2 = y * 64;
 
     //switch (metatileLayerType)
     if(metatileLayerType == 0)

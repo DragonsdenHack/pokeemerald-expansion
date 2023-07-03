@@ -64,4 +64,3 @@ EcruteakHouse2Documento_Text_100Yes2:
 	.string "rayo. Pero como no podían\l"
 	.string "contener su enorme fuerza...\l"
 	.string "huyeron hacia los pastos.$"
-	

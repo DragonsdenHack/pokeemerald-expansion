@@ -1233,8 +1233,8 @@ CableClub_EventScript_OpenUnionRoomBarrier::
 	return
 
 CableClub_EventScript_CloseUnionRoomBarrier::
-	setmetatile 5, 2, METATILE_PokemonCenter_Floor_ShadowTop, TRUE
-	setmetatile 5, 3, METATILE_PokemonCenter_CounterBarrier, TRUE
+	setmetatile 5, 2, METATILE_PokemonCenter_Floor_ShadowTop_Alt, TRUE
+	setmetatile 5, 3, METATILE_PokemonCenter_CounterBarrier2, TRUE
 	return
 
 CableClub_EventScript_OpenDirectCornerBarrier::
@@ -1243,8 +1243,8 @@ CableClub_EventScript_OpenDirectCornerBarrier::
 	return
 
 CableClub_EventScript_CloseDirectCornerBarrier::
-	setmetatile 9, 2, METATILE_PokemonCenter_Floor_ShadowTop, TRUE
-	setmetatile 9, 3, METATILE_PokemonCenter_CounterBarrier, TRUE
+	setmetatile 9, 2, METATILE_PokemonCenter_Floor_ShadowTop_Alt, TRUE
+	setmetatile 9, 3, METATILE_PokemonCenter_CounterBarrier2, TRUE
 	return
 
 EventScript_OpenMossdeepGameCornerBarrier::
