@@ -123,7 +123,7 @@
       "x": 13,
       "y": 10,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_LEFT_AND_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
@@ -283,7 +283,7 @@
       "y": 7,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "85",
+      "var_value": "2",
       "script": "RocketHideoutViridian_Warp_Escena_9"
     },
     {

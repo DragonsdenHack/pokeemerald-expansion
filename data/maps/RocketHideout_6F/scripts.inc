@@ -1811,9 +1811,9 @@ RocketHideout_6F_Escena_Lance_Texto_13:
 RocketHideout_6F_Escena_Lance_Texto_14:
 	.string "PETREL: Tranquilízate RECLUTA.\n"
 	.string "Tenemos recursos más que de sobra\l"
-	.string "para apañárnolas solos. Lo único que\l"
+	.string "para apañárnoslas solos. Lo único que\l"
 	.string "esto significa es que nos ven como una\l"
-	.string "amenzaza.$"
+	.string "amenaza.$"
 
 RocketHideout_6F_Escena_Lance_Texto_15:
 	.string "¿¡Qué estáis haciendo aquí parados!?\n"

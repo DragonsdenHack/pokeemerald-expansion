@@ -1008,6 +1008,7 @@ waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_12 MSGBOX_AUTOCLOSE
 delay 20
 msgbox CinnabarMansion_S2_Escena_7_Texto_13 MSGBOX_AUTOCLOSE
+delay 50
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 warpsilent MAP_ROCKET_HIDEOUT_5F, 0, 13
 release
@@ -1099,7 +1100,7 @@ CinnabarMansion_S2_Escena_7_Texto_8:
 
 CinnabarMansion_S2_Escena_7_Texto_9:
 .string "Ya no será necesario recurrir a MEWTWO,\n"
-	.string "podremos ganar incluso sin él….\l"
+	.string "podremos ganar incluso sin él…\l"
 	.string "especialmente sin él.$"
 
 CinnabarMansion_S2_Escena_7_Texto_10:
@@ -1115,7 +1116,7 @@ CinnabarMansion_S2_Escena_7_Texto_11:
 	.string "evitar que las posibilidades cayeran al\l"
 	.string "0 absoluto… al fin podremos resurgir de\l"
 	.string "nuestras cenizas, recuperar el antiguo\l"
-	.string "esplendor de esta región ¡y rebasarlo!$"
+	.string "esplendor de esta región, ¡y rebasarlo!$"
 
 CinnabarMansion_S2_Escena_7_Texto_12:
 .string "BLAINE: ¿Tanto confías en ese\n"

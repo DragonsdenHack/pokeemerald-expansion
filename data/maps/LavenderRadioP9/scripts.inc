@@ -82,8 +82,11 @@ LavenderRadioP9_Policia_Texto_1:
 	.string "anteriores, ¡y su seguridad!$"
 
 LavenderRadioP9_Cambio_Skin::
+setvar VAR_UNUSED_0x40FE, 3
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
 msgbox LavenderRadioP9_Cambio_Skin_Texto MSGBOX_AUTOCLOSE
-setdisguise [467]
+setdisguise [470]
 release
 end
 

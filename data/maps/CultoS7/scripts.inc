@@ -73,14 +73,11 @@ step_end
 CultoS7_Escena_Esencia_Move_4:
 lock_facing_direction
 walk_slow_down
-unlock_facing_direction
-lock_facing_direction
 walk_slow_down
 unlock_facing_direction
 step_end
 
 CultoS7_Escena_Esencia_Move_3:
-walk_slow_down
 walk_slow_down
 step_end
 

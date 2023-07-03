@@ -748,6 +748,9 @@ RocketHideoutViridian_Escena_8_Texto_8:
 
 
 RocketHideoutViridian_Warp_Escena_9::
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+setvar VAR_UNUSED_0x40F7, 85
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
 warpsilent MAP_ROUTE22, 12, 5

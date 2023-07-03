@@ -3094,7 +3094,7 @@ msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_5
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13 MSGBOX_AUTOCLOSE
-applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_6
+applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_6.1
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_14 MSGBOX_AUTOCLOSE
 delay 15
@@ -3146,6 +3146,12 @@ setvar VAR_UNUSED_0x40F7, 59
 warpsilent MAP_VIRIDIAN_CITY, 21, 2
 release
 end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_6.1:
+lock_facing_direction
+walk_down
+unlock_facing_direction
+step_end
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_1:
 .string "PROTÓN: Los RECLUTAS responsables de\n"
@@ -3205,7 +3211,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10:
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
 .string "En compensación al daño causado,\n"
-	.string "donaréis el 70% de vuestro a la\l"
+	.string "donaréis el 70% de vuestro sueldo a la\l"
 	.string "beneficencia de PUEBLO LAVANDA, el\l"
 	.string "TEAM ROCKET por otro lado se encargará\l"
 	.string "de cubrir vuestras necesidades\l"
@@ -3231,7 +3237,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_15:
 	.string "ayuda, y vosotros estaréis allí para\l"
 	.string "todo lo que requiera. Además de\l"
 	.string "vuestra labor normal como ROCKET, el\l"
-	.string "tiempo libré que os quede irá para esa\l"
+	.string "tiempo libre que os quede irá para esa\l"
 	.string "causa. ¿Algún inconveniente?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_16:

@@ -181,6 +181,20 @@ setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 removeobject 7
 waitse
 delay 20
+playse SE_PIN
+applymovement 14, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5.1
+delay 5
+applymovement 13, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5.1
+delay 5
+applymovement 12, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5.1
+delay 5
+applymovement 11, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5.1
+delay 5
+applymovement 10, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5.1
+delay 5
+applymovement 9, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5.1
+waitmovement 0x0
+delay 10
 msgbox LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_21 MSGBOX_NPC
 delay 20
 applymovement 8, LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_11
@@ -218,6 +232,10 @@ step_end
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_4:
 walk_in_place_right
+step_end
+
+LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5.1:
+emote_exclamation_mark
 step_end
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Move_5:
