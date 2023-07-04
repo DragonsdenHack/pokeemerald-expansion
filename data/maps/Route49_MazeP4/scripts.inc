@@ -510,3 +510,8 @@ Route49_MazeP4_Dialogo_Anciano_Texto_1:
 	.string "nuevos cambios. Espero que EUSINE\l"
 	.string "pueda ayudaros en vuestro propósito,\l"
 	.string "señal será de que es puro.$"
+
+Route49MazeP4_EventScript_Sabio::
+	trainerbattle_single TRAINER_TRAINER_192, Route49MazeP4_Text_SabioIntro, Route49MazeP4_Text_SabioDefeated
+	msgbox Route49MazeP4_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -72,14 +72,14 @@ Route49_MazeP3_Text9:
 
 
 Route49MazeP3_EventScript_Sabio::
-	trainerbattle_single TRAINER_TRAINER_27, Route49MazeP3_Text_SabioIntro, Route49MazeP3_Text_SabioDefeated
+	trainerbattle_single TRAINER_TRAINER_191, Route49MazeP3_Text_SabioIntro, Route49MazeP3_Text_SabioDefeated
 	msgbox Route49MazeP3_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 
 
 Route49MazeP3_EventScript_Sabio2::
-	trainerbattle_single TRAINER_TRAINER_28, Route49MazeP3_Text_Sabio2Intro, Route49MazeP3_Text_Sabio2Defeated
+	trainerbattle_single TRAINER_TRAINER_192, Route49MazeP3_Text_Sabio2Intro, Route49MazeP3_Text_Sabio2Defeated
 	msgbox Route49MazeP3_Text_Sabio2PostBattle, MSGBOX_AUTOCLOSE
 	end
 

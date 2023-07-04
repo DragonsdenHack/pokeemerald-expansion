@@ -63,14 +63,14 @@ Route49_MazeP2_Text6:
 
 
 Route49MazeP2_EventScript_Sabio::
-	trainerbattle_single TRAINER_TRAINER_155, Route49MazeP2_Text_SabioIntro, Route49MazeP2_Text_SabioDefeated
+	trainerbattle_single TRAINER_TRAINER_189, Route49MazeP2_Text_SabioIntro, Route49MazeP2_Text_SabioDefeated
 	msgbox Route49MazeP2_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 
 
 Route49MazeP2_EventScript_Sabio2::
-	trainerbattle_single TRAINER_TRAINER_156, Route49MazeP2_Text_Sabio2Intro, Route49MazeP2_Text_Sabio2Defeated
+	trainerbattle_single TRAINER_TRAINER_190, Route49MazeP2_Text_Sabio2Intro, Route49MazeP2_Text_Sabio2Defeated
 	msgbox Route49MazeP2_Text_Sabio2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -144,13 +144,13 @@ end
 
 Route49MazeP2Documento_Text_102:
 .string "MADAAMU:\p"
-	.string "PS: 72\n"
+	.string "PS: 77\n"
 	.string "ATAQUE: 145\l"
 	.string "DEFENSA: 95\l"
 	.string "ATAQUE ESPECIAL: 63\l"
 	.string "DEFENSA ESPECIAL: 82\l"
 	.string "VELOCIDAD: 85\l"
-	.string "TOTAL: 542\p"
+	.string "TOTAL: 547\p"
 	.string "NORMAL/VOLADOR\n"
 	.string "El GRAN MAESTRO del CARBÓN en AZALEA\l"
 	.string "solía contar con uno. Sus movimientos\l"
