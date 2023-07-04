@@ -17164,6 +17164,20 @@ LavenderRadioP10_Text_RocketPostBattle:
 	.string "hecho para soportar la presión de las\l"
 	.string "grandes citas.$"
 
+Route49MazeP4_Text_SabioIntro:
+.string "La victoria pertenece a los más\n"
+	.string "tenaces, ¿qué clase de ENTRENADOR\l"
+	.string "eres?$"
+
+Route49MazeP4_Text_SabioDefeated:
+.string "Así que eres de esos pocos.$"
+
+Route49MazeP4_Text_SabioPostBattle:
+.string "La única manera de ganar realmente es\n"
+	.string "volverse un poco mejor cada día de\l"
+	.string "entrenamiento.$"
+
+
 
 
 

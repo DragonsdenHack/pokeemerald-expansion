@@ -25717,11 +25717,11 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_NIDOGOD] =
     {
-        .baseHP        = 116,
-        .baseDefense   = 102,
-        .baseSpeed     = 120,
-        .baseSpAttack  = 140,
-        .baseSpDefense = 100,
+        .baseHP        = 111,
+        .baseDefense   = 147,
+        .baseSpeed     = 50,
+        .baseSpAttack  = 85,
+        .baseSpDefense = 115,
         #if P_UPDATED_STATS >= GEN_6
             .baseAttack    = 172,
         #else
@@ -26050,8 +26050,8 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 110,
         .baseDefense   = 160,
         .baseSpeed     = 120,
-        .baseSpAttack  = 154,
-        .baseSpDefense = 110,
+        .baseSpAttack  = 164,
+        .baseSpDefense = 120,
         .type1 = TYPE_PSYCHIC,
         .type2 = TYPE_STEEL,
         .catchRate = 3,

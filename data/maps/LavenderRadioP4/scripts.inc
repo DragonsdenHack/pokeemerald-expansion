@@ -142,6 +142,8 @@ applymovement 23, LavenderRadioP4_Devon_Combates_Move_10
 applymovement 24, LavenderRadioP4_Devon_Combates_Move_10
 waitmovement 0x0
 delay 15
+msgbox LavenderRadioP4_Devon_Combates_Texto_14.1 MSGBOX_AUTOCLOSE
+delay 15
 applymovement 7, LavenderRadioP4_Devon_Combates_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_15 MSGBOX_AUTOCLOSE
@@ -870,8 +872,13 @@ LavenderRadioP4_Devon_Combates_Texto_13:
 LavenderRadioP4_Devon_Combates_Texto_14:
 .string "Sin embargo, debido a estos procesos,\n"
 	.string "estamos convencidos de poder\l"
-	.string "incrementar en al menos 120 STATS BASE\l"
-	.string "el poder inicial del POKÉMON objetivo.$"
+	.string "incrementar en 150 STATS BASE el\l"
+	.string "poder inicial del POKÉMON objetivo.$"
+
+LavenderRadioP4_Devon_Combates_Texto_14.1:
+.string "Además, podremos manipular también los\n"
+	.string "PS, estadística hasta ahora solo\l"
+	.string "modificada por el FUERTE VÍNCULO.$"
 
 LavenderRadioP4_Devon_Combates_Texto_15:
 .string "BILL: Así de reservada es la naturaleza\n"

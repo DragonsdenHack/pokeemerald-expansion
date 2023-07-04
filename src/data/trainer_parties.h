@@ -27412,7 +27412,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER132[] = {
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_GASTLY,
+    .species = SPECIES_TAABAN,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 0, 0, 252},
     .nature = NATURE_ADAMANT,
@@ -27442,7 +27442,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER133[] = {
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_QWILFISH,
+    .species = SPECIES_OVERQWIL,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -27472,7 +27472,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER134[] = {
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_SHARPEDO,
+    .species = SPECIES_IKARY,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -27484,7 +27484,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER135[] = {
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_QWILFISH,
+    .species = SPECIES_OVERQWIL,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -27493,7 +27493,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER135[] = {
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_GASTLY,
+    .species = SPECIES_TAABAN,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 0, 0, 252},
     .nature = NATURE_ADAMANT,
@@ -27502,7 +27502,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER135[] = {
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_SHARPEDO,
+    .species = SPECIES_IKARY,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
@@ -27514,7 +27514,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER136[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_GYARADOS,
+    .species = SPECIES_AKUERIA,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_JOLLY,
@@ -27526,7 +27526,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER137[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_DUNSPARCE,
+    .species = SPECIES_SACRED_DRAGON,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_MODEST,
@@ -27538,7 +27538,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER138[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_NIDOKING,
+    .species = SPECIES_NIDOKING_X,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -27547,7 +27547,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER138[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_NIDOQUEEN,
+    .species = SPECIES_NIDOQUEEN_Y,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 0, 0, 6, 252, 0},
     .nature = NATURE_BOLD,
@@ -27559,7 +27559,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER139[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_ELECTIVIRE,
+    .species = SPECIES_ELECTIVIRE_X,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -27568,7 +27568,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER139[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_MAGMORTAR,
+    .species = SPECIES_MAGMORTAR_Y,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_MODEST,
@@ -27580,7 +27580,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER140[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_AERODACTYL,
+    .species = SPECIES_AERODACTYL_PRIMAL,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
@@ -27589,7 +27589,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER140[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_TAUROS,
+    .species = SPECIES_TAUROS_X,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -27610,7 +27610,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER141[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_PORYGON,
+    .species = SPECIES_PORYGON3,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_BOLD,
@@ -27622,7 +27622,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_NIDOKING,
+    .species = SPECIES_NIDOKING_X,
     .heldItem = ITEM_POISON_GEM,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
@@ -27631,7 +27631,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_MAGMORTAR,
+    .species = SPECIES_MAGMORTAR_Y,
     .heldItem = ITEM_CHOICE_SPECS,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_TIMID,
@@ -27640,7 +27640,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_PORYGON,
+    .species = SPECIES_PORYGON3,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_MODEST,
@@ -27649,7 +27649,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_AERODACTYL,
+    .species = SPECIES_AERODACTYL_PRIMAL,
     .heldItem = ITEM_FLYINIUM_Z,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_ADAMANT,
@@ -27658,7 +27658,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_ELECTRODE,
+    .species = SPECIES_ELECTRODE_Y,
     .heldItem = ITEM_LIGHT_CLAY,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_MODEST,
@@ -27667,10 +27667,10 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_NIDOKING,
-    .heldItem = ITEM_LIFE_ORB,
-    .evs = {6, 252, 0, 252, 0, 0},
-    .nature = NATURE_MODEST,
+    .species = SPECIES_NIDOGOD,
+    .heldItem = ITEM_AIR_BALLOON,
+    .evs = {252, 252, 6, 0, 0, 0},
+    .nature = NATURE_ADAMANT,
     .moves = {MOVE_GUNK_SHOT, MOVE_METEOR_MASH, MOVE_CROSS_CHOP, MOVE_NONE}
     }
 };
@@ -27697,7 +27697,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER143[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_MEWTWO,
+    .species = SPECIES_MEWTWO_ARM,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 0, 0, 0, 252, 6},
     .nature = NATURE_MODEST,
