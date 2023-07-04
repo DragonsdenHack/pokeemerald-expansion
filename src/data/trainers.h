@@ -14618,10 +14618,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_186] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER186"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("NAIN"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14632,10 +14632,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_187] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER187"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("JOANIX"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14646,10 +14646,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_188] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER188"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("ENEAS"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14660,10 +14660,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_189] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER189"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("MOISES"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14674,10 +14674,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_190] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER190"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("EDGAR"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14688,10 +14688,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_191] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER191"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("ASHUR"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14702,10 +14702,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_192] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER192"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("SAUL"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14716,10 +14716,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_193] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER193"),
+        .trainerClass = TRAINER_CLASS_PENSADOR,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_PENSADOR,
+        .trainerPic = TRAINER_PIC_PENSADOR,
+        .trainerName = _("UXIO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14730,29 +14730,29 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_194] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_ADMINISTRADOR,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER194"),
+        .trainerPic = TRAINER_PIC_PETREL,
+        .trainerName = _("PETREL"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER194),
-        .party = {.NoItemCustomMoves = sParty_TRAINER194},
+        .party = {.ItemCustomMoves = sParty_TRAINER194},
     },
 
     [TRAINER_TRAINER_195] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_KANTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER195"),
+        .trainerPic = TRAINER_PIC_LEADER_KOGA,
+        .trainerName = _("KOGA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER195),
-        .party = {.NoItemCustomMoves = sParty_TRAINER195},
+        .party = {.ItemCustomMoves = sParty_TRAINER195},
     },
 
     [TRAINER_TRAINER_196] =
