@@ -3,7 +3,7 @@
   "name": "Route50_CasaCampeon",
   "layout": "LAYOUT_ROUTE50_CASA_CAMPEON",
   "music": "607",
-  "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
+  "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

@@ -3,7 +3,7 @@
   "name": "MahoganyTown",
   "layout": "LAYOUT_MAHOGANY_TOWN",
   "music": "MUS_RG_SEVII_45",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_MAHOGANY_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

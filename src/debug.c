@@ -928,7 +928,19 @@ static void DebugAction_Util_Fly(u8 taskId)
     FlagSet(FLAG_VISITED_FOUR_ISLAND);                       
     FlagSet(FLAG_VISITED_FIVE_ISLAND);                          
     FlagSet(FLAG_VISITED_SIX_ISLAND);                        
-    FlagSet(FLAG_VISITED_SEVEN_ISLAND); 
+    FlagSet(FLAG_VISITED_SEVEN_ISLAND);
+	FlagSet(FLAG_VISITED_NEW_BARK_TOWN);
+	FlagSet(FLAG_VISITED_CHERRYGROVE_CITY);
+	FlagSet(FLAG_VISITED_VIOLET_CITY);
+	FlagSet(FLAG_VISITED_AZALEA_TOWN);
+	FlagSet(FLAG_VISITED_GOLDENROD_CITY);
+	FlagSet(FLAG_VISITED_OLIVINE_CITY);
+	FlagSet(FLAG_VISITED_CIANWOOD_CITY);
+	FlagSet(FLAG_VISITED_ECRUTEAK_CITY);
+	FlagSet(FLAG_VISITED_MT_SILVER);
+	FlagSet(FLAG_VISITED_ROCKET_HIDEOUT_JOHTO);
+	FlagSet(FLAG_VISITED_MAHOGANY_CITY);
+	FlagSet(FLAG_VISITED_BLACKTHORN_CITY);
     Debug_DestroyMenu(taskId);
     SetMainCallback2(CB2_OpenFlyMap);
 }
@@ -1442,7 +1454,19 @@ static void DebugAction_Flags_ToggleFlyFlags(u8 taskId)
     FlagToggle(FLAG_VISITED_FOUR_ISLAND);                       
     FlagToggle(FLAG_VISITED_FIVE_ISLAND);                          
     FlagToggle(FLAG_VISITED_SIX_ISLAND);                        
-    FlagToggle(FLAG_VISITED_SEVEN_ISLAND); 
+    FlagToggle(FLAG_VISITED_SEVEN_ISLAND);
+	FlagToggle(FLAG_VISITED_NEW_BARK_TOWN);
+	FlagToggle(FLAG_VISITED_CHERRYGROVE_CITY);
+	FlagToggle(FLAG_VISITED_VIOLET_CITY);
+	FlagToggle(FLAG_VISITED_AZALEA_TOWN);
+	FlagToggle(FLAG_VISITED_GOLDENROD_CITY);
+	FlagToggle(FLAG_VISITED_OLIVINE_CITY);
+	FlagToggle(FLAG_VISITED_CIANWOOD_CITY);
+	FlagToggle(FLAG_VISITED_ECRUTEAK_CITY);
+	FlagToggle(FLAG_VISITED_MT_SILVER);
+	FlagToggle(FLAG_VISITED_ROCKET_HIDEOUT_JOHTO);
+	FlagToggle(FLAG_VISITED_MAHOGANY_CITY);
+	FlagToggle(FLAG_VISITED_BLACKTHORN_CITY);	
 }
 static void DebugAction_Flags_ToggleBadgeFlags(u8 taskId)
 {

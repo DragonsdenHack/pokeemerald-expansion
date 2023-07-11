@@ -623,6 +623,7 @@ const u16 gObjectEventPic_Prota_AdminJefe[] = INCBIN_U16("graphics/object_events
 
 const u16 gObjectEventPic_Silver[] = INCBIN_U16("graphics/object_events/pics/people/silver.4bpp");
 
+
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
 const u16 gObjectEventPal_Rockets[] = INCBIN_U16("graphics/object_events/pics/people/prota.gbapal");
@@ -680,3 +681,4 @@ const u16 gObjectEventPal_Ejecutivo[] = INCBIN_U16("graphics/object_events/palet
 const u16 gObjectEventPal_Rocket_Admin[] = INCBIN_U16("graphics/object_events/palettes/rocket_admin.gbapal");
 const u16 gObjectEventPal_Andra[] = INCBIN_U16("graphics/object_events/palettes/andra.gbapal");
 const u16 gObjectEventPal_Silver[] = INCBIN_U16("graphics/object_events/palettes/silver.gbapal");
+const u16 gObjectEventPal_Pensador[] = INCBIN_U16("graphics/object_events/palettes/pensador.gbapal");

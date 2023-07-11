@@ -443,7 +443,6 @@ static const u8 sMapsecToRegion[] = {
 	[MAPSEC_MAHOGANY_CITY]                 = REGION_JOHTO,
 	[MAPSEC_VIOLET_CITY]                 = REGION_JOHTO,
 	[MAPSEC_MT_SILVER]                 = REGION_JOHTO,
-	[MAPSEC_ROUTE_26]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_27]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_28]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_29]                = REGION_JOHTO,
@@ -458,6 +457,8 @@ static const u8 sMapsecToRegion[] = {
 	[MAPSEC_ROUTE_39]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_40]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_41]                 = REGION_JOHTO,
+	[MAPSEC_BLACKTHORN_CITY]		  = REGION_JOHTO,
+	[MAPSEC_ROCKET_HIDEOUT_JOHTO]     = REGION_JOHTO,
    [MAPSEC_TRAINER_HILL]               = REGION_HOENN
 };
 
@@ -1432,7 +1433,24 @@ void Overworld_PlaySpecialMapMusic(void)
         else if (GetCurrentMapType() == MAP_TYPE_UNDERWATER)
             music = MUS_UNDERWATER;
         else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
-            music = MUS_SURF;
+            switch (gMapHeader.region){
+				case REGION_HOENN:
+					music = MUS_SURF;
+					break;
+				case REGION_JOHTO:
+					music =	617;
+					break;
+				case REGION_KANTO:
+				case SEVII_123:
+				case SEVII_45:
+				case SEVII_67:
+					music = MUS_RG_SURF;
+					break;
+				default:
+					music = MUS_RG_SURF;
+					break;
+			}
+			
     }
 
     if (music != GetCurrentMapMusic())
@@ -1457,10 +1475,27 @@ static void TransitionMapMusic(void)
         u16 currentMusic = GetCurrentMapMusic();
         if (newMusic != MUS_ABNORMAL_WEATHER && newMusic != MUS_NONE)
         {
-            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF)
+            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF || currentMusic == 617 || currentMusic == MUS_RG_SURF)
                 return;
-            if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
-                newMusic = MUS_SURF;
+            if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING)){
+				  switch(gMapHeader.region){
+					case REGION_KANTO:
+					case SEVII_123:
+					case SEVII_45:
+					case SEVII_67:
+						newMusic = MUS_RG_SURF;
+						break;
+					case REGION_JOHTO:
+						newMusic = 617;
+						break;
+					case REGION_HOENN:
+						newMusic = MUS_SURF;
+						break;
+					default:
+						newMusic = MUS_RG_SURF;
+						break;
+				  }
+			}
         }
         if (newMusic != currentMusic)
         {
