@@ -30,7 +30,9 @@ enum {
    REGION_HOENN,
    REGION_KANTO,
    REGION_JOHTO,
-   REGION_SEVII
+   SEVII_123,
+   SEVII_45,
+   SEVII_67
 };
 
 struct InitialPlayerAvatarState

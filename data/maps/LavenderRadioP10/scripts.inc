@@ -119,4 +119,4 @@ LavenderRadioP10_Rocket_Texto_1:
 	.string "sabes que está al nivel y jerarquía\l"
 	.string "de todo un LEGENDARIO, y además\l"
 	.string "representa el estilo ROCKET.$"
-	
+

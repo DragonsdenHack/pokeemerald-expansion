@@ -2997,7 +2997,24 @@ u8 FldEff_UseSurf(void)
     u8 taskId = CreateTask(Task_SurfFieldEffect, 0xff);
     gTasks[taskId].tMonId = gFieldEffectArguments[0];
     Overworld_ClearSavedMusic();
-    Overworld_ChangeMusicTo(MUS_SURF);
+	switch(gMapHeader.region){
+		case REGION_KANTO:
+		case SEVII_123:
+		case SEVII_45:
+		case SEVII_67:
+			Overworld_ChangeMusicTo(MUS_RG_SURF);
+			break;
+		case REGION_JOHTO:
+			Overworld_ChangeMusicTo(617);
+			break;
+		case REGION_HOENN:
+			Overworld_ChangeMusicTo(MUS_SURF);
+			break;
+		default:
+			Overworld_ChangeMusicTo(MUS_RG_SURF);
+			break;
+	}
+   
     return FALSE;
 }
 

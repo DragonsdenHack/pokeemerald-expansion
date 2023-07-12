@@ -158,6 +158,10 @@ static bool8 TryDoMapTransition(void)
     u8 fromType = GetLastUsedWarpMapType();
     u8 toType = GetCurrentMapType();
 	
+	if(gMapHeader.regionMapSectionId == MAPSEC_LITTLEROOT_TOWN){
+		return FALSE;
+	}
+	
 	if (GetLastUsedWarpMapSectionId() != gMapHeader.regionMapSectionId && MapHasPreviewScreen(gMapHeader.regionMapSectionId, MPS_TYPE_CAVE) == TRUE)
     {
         RunMapPreviewScreen(gMapHeader.regionMapSectionId);

@@ -351,64 +351,64 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_POKEMON_TOWER]              = REGION_KANTO,
     [MAPSEC_CERULEAN_CAVE]              = REGION_KANTO,
     [MAPSEC_POWER_PLANT]                = REGION_KANTO,
-    [MAPSEC_ONE_ISLAND]                 = REGION_SEVII,
-    [MAPSEC_TWO_ISLAND]                 = REGION_SEVII,
-    [MAPSEC_THREE_ISLAND]               = REGION_SEVII,
-    [MAPSEC_FOUR_ISLAND]                = REGION_SEVII,
-    [MAPSEC_FIVE_ISLAND]                = REGION_SEVII,
-    [MAPSEC_SEVEN_ISLAND]               = REGION_SEVII,
-    [MAPSEC_SIX_ISLAND]                 = REGION_SEVII,
-    [MAPSEC_KINDLE_ROAD]                = REGION_SEVII,
-    [MAPSEC_TREASURE_BEACH]             = REGION_SEVII,
-    [MAPSEC_CAPE_BRINK]                 = REGION_SEVII,
-    [MAPSEC_BOND_BRIDGE]                = REGION_SEVII,
-    [MAPSEC_THREE_ISLE_PORT]            = REGION_SEVII,
-    [MAPSEC_SEVII_ISLE_6]               = REGION_SEVII,
-    [MAPSEC_SEVII_ISLE_7]               = REGION_SEVII,
-    [MAPSEC_SEVII_ISLE_8]               = REGION_SEVII,
-    [MAPSEC_SEVII_ISLE_9]               = REGION_SEVII,
-    [MAPSEC_RESORT_GORGEOUS]            = REGION_SEVII,
-    [MAPSEC_WATER_LABYRINTH]            = REGION_SEVII,
-    [MAPSEC_FIVE_ISLE_MEADOW]           = REGION_SEVII,
-    [MAPSEC_MEMORIAL_PILLAR]            = REGION_SEVII,
-    [MAPSEC_OUTCAST_ISLAND]             = REGION_SEVII,
-    [MAPSEC_GREEN_PATH]                 = REGION_SEVII,
-    [MAPSEC_WATER_PATH]                 = REGION_SEVII,
-    [MAPSEC_RUIN_VALLEY]                = REGION_SEVII,
-    [MAPSEC_TRAINER_TOWER]              = REGION_SEVII,
-    [MAPSEC_CANYON_ENTRANCE]            = REGION_SEVII,
-    [MAPSEC_SEVAULT_CANYON]             = REGION_SEVII,
-    [MAPSEC_TANOBY_RUINS]               = REGION_SEVII,
-    [MAPSEC_SEVII_ISLE_22]              = REGION_SEVII,
-    [MAPSEC_SEVII_ISLE_23]              = REGION_SEVII,
-    [MAPSEC_SEVII_ISLE_24]              = REGION_SEVII,
-    [MAPSEC_NAVEL_ROCK_FRLG]            = REGION_SEVII,
-    [MAPSEC_MT_EMBER]                   = REGION_SEVII,
-    [MAPSEC_BERRY_FOREST]               = REGION_SEVII,
-    [MAPSEC_ICEFALL_CAVE]               = REGION_SEVII,
-    [MAPSEC_ROCKET_WAREHOUSE]           = REGION_SEVII,
-    [MAPSEC_TRAINER_TOWER_2]            = REGION_SEVII,
-    [MAPSEC_DOTTED_HOLE]                = REGION_SEVII,
-    [MAPSEC_LOST_CAVE]                  = REGION_SEVII,
-    [MAPSEC_PATTERN_BUSH]               = REGION_SEVII,
-    [MAPSEC_ALTERING_CAVE_FRLG]         = REGION_SEVII,
-    [MAPSEC_TANOBY_CHAMBERS]            = REGION_SEVII,
-    [MAPSEC_THREE_ISLE_PATH]            = REGION_SEVII,
-    [MAPSEC_TANOBY_KEY]                 = REGION_SEVII,
-    [MAPSEC_BIRTH_ISLAND_FRLG]          = REGION_SEVII,
-    [MAPSEC_MONEAN_CHAMBER]             = REGION_SEVII,
-    [MAPSEC_LIPTOO_CHAMBER]             = REGION_SEVII,
-    [MAPSEC_WEEPTH_CHAMBER]             = REGION_SEVII,
-    [MAPSEC_DILFORD_CHAMBER]            = REGION_SEVII,
-    [MAPSEC_SCUFIB_CHAMBER]             = REGION_SEVII,
-    [MAPSEC_RIXY_CHAMBER]               = REGION_SEVII,
-    [MAPSEC_VIAPOIS_CHAMBER]            = REGION_SEVII,
-    [MAPSEC_EMBER_SPA]                  = REGION_SEVII,
+    [MAPSEC_ONE_ISLAND]                 = SEVII_123,
+    [MAPSEC_TWO_ISLAND]                 = SEVII_123,
+    [MAPSEC_THREE_ISLAND]               = SEVII_123,
+    [MAPSEC_FOUR_ISLAND]                = SEVII_45,
+    [MAPSEC_FIVE_ISLAND]                = SEVII_45,
+    [MAPSEC_SEVEN_ISLAND]               = SEVII_67,
+    [MAPSEC_SIX_ISLAND]                 = SEVII_67,
+    [MAPSEC_KINDLE_ROAD]                = SEVII_123,
+    [MAPSEC_TREASURE_BEACH]             = SEVII_123,
+    [MAPSEC_CAPE_BRINK]                 = SEVII_123,
+    [MAPSEC_BOND_BRIDGE]                = SEVII_123,
+    [MAPSEC_THREE_ISLE_PORT]            = SEVII_123,
+    [MAPSEC_SEVII_ISLE_6]               = SEVII_123,
+    [MAPSEC_SEVII_ISLE_7]               = SEVII_123,
+    [MAPSEC_SEVII_ISLE_8]               = SEVII_123,
+    [MAPSEC_SEVII_ISLE_9]               = SEVII_123,
+    [MAPSEC_RESORT_GORGEOUS]            = SEVII_45,
+    [MAPSEC_WATER_LABYRINTH]            = SEVII_45,
+    [MAPSEC_FIVE_ISLE_MEADOW]           = SEVII_45,
+    [MAPSEC_MEMORIAL_PILLAR]            = SEVII_45,
+    [MAPSEC_OUTCAST_ISLAND]             = SEVII_67,
+    [MAPSEC_GREEN_PATH]                 = SEVII_67,
+    [MAPSEC_WATER_PATH]                 = SEVII_67,
+    [MAPSEC_RUIN_VALLEY]                = SEVII_67,
+    [MAPSEC_TRAINER_TOWER]              = SEVII_67,
+    [MAPSEC_CANYON_ENTRANCE]            = SEVII_67,
+    [MAPSEC_SEVAULT_CANYON]             = SEVII_67,
+    [MAPSEC_TANOBY_RUINS]               = SEVII_67,
+    [MAPSEC_SEVII_ISLE_22]              = SEVII_67,
+    [MAPSEC_SEVII_ISLE_23]              = SEVII_67,
+    [MAPSEC_SEVII_ISLE_24]              = SEVII_67,
+    [MAPSEC_NAVEL_ROCK_FRLG]            = SEVII_45,
+    [MAPSEC_MT_EMBER]                   = SEVII_123,
+    [MAPSEC_BERRY_FOREST]               = SEVII_123,
+    [MAPSEC_ICEFALL_CAVE]               = SEVII_45,
+    [MAPSEC_ROCKET_WAREHOUSE]           = SEVII_45,
+    [MAPSEC_TRAINER_TOWER_2]            = SEVII_67,
+    [MAPSEC_DOTTED_HOLE]                = SEVII_67,
+    [MAPSEC_LOST_CAVE]                  = SEVII_45,
+    [MAPSEC_PATTERN_BUSH]               = SEVII_67,
+    [MAPSEC_ALTERING_CAVE_FRLG]         = SEVII_67,
+    [MAPSEC_TANOBY_CHAMBERS]            = SEVII_67,
+    [MAPSEC_THREE_ISLE_PATH]            = SEVII_123,
+    [MAPSEC_TANOBY_KEY]                 = SEVII_67,
+    [MAPSEC_BIRTH_ISLAND_FRLG]          = SEVII_67,
+    [MAPSEC_MONEAN_CHAMBER]             = SEVII_67,
+    [MAPSEC_LIPTOO_CHAMBER]             = SEVII_67,
+    [MAPSEC_WEEPTH_CHAMBER]             = SEVII_67,
+    [MAPSEC_DILFORD_CHAMBER]            = SEVII_67,
+    [MAPSEC_SCUFIB_CHAMBER]             = SEVII_67,
+    [MAPSEC_RIXY_CHAMBER]               = SEVII_67,
+    [MAPSEC_VIAPOIS_CHAMBER]            = SEVII_67,
+    [MAPSEC_EMBER_SPA]                  = SEVII_123,
     [MAPSEC_SPECIAL_AREA]               = REGION_KANTO,
     [MAPSEC_AQUA_HIDEOUT]               = REGION_HOENN,
     [MAPSEC_MAGMA_HIDEOUT]              = REGION_HOENN,
     [MAPSEC_MIRAGE_TOWER]               = REGION_HOENN,
-    [MAPSEC_BIRTH_ISLAND]               = REGION_SEVII,
+    [MAPSEC_BIRTH_ISLAND]               = SEVII_67,
     [MAPSEC_FARAWAY_ISLAND]             = REGION_HOENN,
     [MAPSEC_ARTISAN_CAVE]               = REGION_HOENN,
     [MAPSEC_MARINE_CAVE]                = REGION_HOENN,
@@ -419,7 +419,46 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_UNDERWATER_129]             = REGION_HOENN,
     [MAPSEC_DESERT_UNDERPASS]           = REGION_HOENN,
     [MAPSEC_ALTERING_CAVE]              = REGION_HOENN,
-    [MAPSEC_NAVEL_ROCK]                 = REGION_SEVII,
+    [MAPSEC_NAVEL_ROCK]                 = SEVII_45,
+	[MAPSEC_RUINAS_ALFA]                 = REGION_JOHTO,
+	[MAPSEC_BELLSPROUT_TOWER]               = REGION_JOHTO,
+	[MAPSEC_ILEX_FOREST]                 = REGION_JOHTO,
+	[MAPSEC_TOHJO_FALLS]                 = REGION_JOHTO,
+	[MAPSEC_DRAGONSDEN]                 = REGION_JOHTO,
+	[MAPSEC_WHIRPOOL_ISLAND]                 = REGION_JOHTO,
+	[MAPSEC_NATIONAL_PARK]                 = REGION_JOHTO,
+	[MAPSEC_SLOWPOKE_WELL]                 = REGION_JOHTO,
+	[MAPSEC_ICE_PATH]                 = REGION_JOHTO,
+	[MAPSEC_TIN_TOWER]                = REGION_JOHTO,
+	[MAPSEC_BURN_TOWER]                 = REGION_JOHTO,
+	[MAPSEC_NEW_BARK_TOWN]                 = REGION_JOHTO,
+	[MAPSEC_CHERRYGROVE_CITY]                 = REGION_JOHTO,
+	[MAPSEC_AZALEA_TOWN]                 = REGION_JOHTO,
+	[MAPSEC_ECRUTEAK_CITY]                 = REGION_JOHTO,
+	[MAPSEC_OLIVINE_CITY]                 = REGION_JOHTO,
+	[MAPSEC_SSAQUA]                 = REGION_JOHTO,
+	[MAPSEC_FARO_OLIVO]                 = REGION_JOHTO,
+	[MAPSEC_GOLDENROD_CITY]                 = REGION_JOHTO,
+	[MAPSEC_CIANDWOOD_CITY]                 = REGION_JOHTO,
+	[MAPSEC_MAHOGANY_CITY]                 = REGION_JOHTO,
+	[MAPSEC_VIOLET_CITY]                 = REGION_JOHTO,
+	[MAPSEC_MT_SILVER]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_27]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_28]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_29]                = REGION_JOHTO,
+	[MAPSEC_ROUTE_30]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_31]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_32]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_33]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_34]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_36]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_37]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_38]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_39]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_40]                 = REGION_JOHTO,
+	[MAPSEC_ROUTE_41]                 = REGION_JOHTO,
+	[MAPSEC_BLACKTHORN_CITY]		  = REGION_JOHTO,
+	[MAPSEC_ROCKET_HIDEOUT_JOHTO]     = REGION_JOHTO,
    [MAPSEC_TRAINER_HILL]               = REGION_HOENN
 };
 
@@ -1394,7 +1433,24 @@ void Overworld_PlaySpecialMapMusic(void)
         else if (GetCurrentMapType() == MAP_TYPE_UNDERWATER)
             music = MUS_UNDERWATER;
         else if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
-            music = MUS_SURF;
+            switch (gMapHeader.region){
+				case REGION_HOENN:
+					music = MUS_SURF;
+					break;
+				case REGION_JOHTO:
+					music =	617;
+					break;
+				case REGION_KANTO:
+				case SEVII_123:
+				case SEVII_45:
+				case SEVII_67:
+					music = MUS_RG_SURF;
+					break;
+				default:
+					music = MUS_RG_SURF;
+					break;
+			}
+			
     }
 
     if (music != GetCurrentMapMusic())
@@ -1419,10 +1475,27 @@ static void TransitionMapMusic(void)
         u16 currentMusic = GetCurrentMapMusic();
         if (newMusic != MUS_ABNORMAL_WEATHER && newMusic != MUS_NONE)
         {
-            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF)
+            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF || currentMusic == 617 || currentMusic == MUS_RG_SURF)
                 return;
-            if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
-                newMusic = MUS_SURF;
+            if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING)){
+				  switch(gMapHeader.region){
+					case REGION_KANTO:
+					case SEVII_123:
+					case SEVII_45:
+					case SEVII_67:
+						newMusic = MUS_RG_SURF;
+						break;
+					case REGION_JOHTO:
+						newMusic = 617;
+						break;
+					case REGION_HOENN:
+						newMusic = MUS_SURF;
+						break;
+					default:
+						newMusic = MUS_RG_SURF;
+						break;
+				  }
+			}
         }
         if (newMusic != currentMusic)
         {
