@@ -421,6 +421,7 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_ALTERING_CAVE]              = REGION_HOENN,
     [MAPSEC_NAVEL_ROCK]                 = SEVII_45,
 	[MAPSEC_RUINAS_ALFA]                 = REGION_JOHTO,
+	[MAPSEC_ECRUTEAK_CITY]				= REGION_JOHTO,
 	[MAPSEC_BELLSPROUT_TOWER]               = REGION_JOHTO,
 	[MAPSEC_ILEX_FOREST]                 = REGION_JOHTO,
 	[MAPSEC_TOHJO_FALLS]                 = REGION_JOHTO,
@@ -434,7 +435,6 @@ static const u8 sMapsecToRegion[] = {
 	[MAPSEC_NEW_BARK_TOWN]                 = REGION_JOHTO,
 	[MAPSEC_CHERRYGROVE_CITY]                 = REGION_JOHTO,
 	[MAPSEC_AZALEA_TOWN]                 = REGION_JOHTO,
-	[MAPSEC_ECRUTEAK_CITY]                 = REGION_JOHTO,
 	[MAPSEC_OLIVINE_CITY]                 = REGION_JOHTO,
 	[MAPSEC_SSAQUA]                 = REGION_JOHTO,
 	[MAPSEC_FARO_OLIVO]                 = REGION_JOHTO,
@@ -870,6 +870,9 @@ static void LoadCurrentMapData(void)
     gSaveBlock1Ptr->mapLayoutId = gMapHeader.mapLayoutId;
     gMapHeader.mapLayout = GetMapLayout();
     gMapHeader.region = sMapsecToRegion[gMapHeader.regionMapSectionId];
+	if (gMapHeader.regionMapSectionId == MAPSEC_ECRUTEAK_CITY){
+		gMapHeader.region = REGION_JOHTO;
+	}
 }
 
 static void LoadSaveblockMapHeader(void)
@@ -1438,7 +1441,7 @@ void Overworld_PlaySpecialMapMusic(void)
 					music = MUS_SURF;
 					break;
 				case REGION_JOHTO:
-					music =	617;
+					music =	618;
 					break;
 				case REGION_KANTO:
 				case SEVII_123:
@@ -1475,7 +1478,7 @@ static void TransitionMapMusic(void)
         u16 currentMusic = GetCurrentMapMusic();
         if (newMusic != MUS_ABNORMAL_WEATHER && newMusic != MUS_NONE)
         {
-            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF || currentMusic == 617 || currentMusic == MUS_RG_SURF)
+            if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF || currentMusic == 618 || currentMusic == MUS_RG_SURF)
                 return;
             if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING)){
 				  switch(gMapHeader.region){
@@ -1486,7 +1489,7 @@ static void TransitionMapMusic(void)
 						newMusic = MUS_RG_SURF;
 						break;
 					case REGION_JOHTO:
-						newMusic = 617;
+						newMusic = 618;
 						break;
 					case REGION_HOENN:
 						newMusic = MUS_SURF;

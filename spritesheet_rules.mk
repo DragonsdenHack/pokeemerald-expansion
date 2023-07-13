@@ -852,7 +852,7 @@ $(OBJEVENTGFXDIR)/people/andra/admin_jefe/walking.4bpp: %.4bpp: %.png
 
 
 $(OBJEVENTGFXDIR)/people/protapokeball.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
+	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/Proton.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
