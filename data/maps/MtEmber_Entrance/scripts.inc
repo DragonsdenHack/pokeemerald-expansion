@@ -120,7 +120,7 @@ release
 end
 
 MtEmberEntrance_Encuentro_Magno_Texto_1:
-.string "????: Debe de ser aquí.$"
+.string "????: Debe ser aquí.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_2:
 .string "Esta gran montaña resultó ser el\n"

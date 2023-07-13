@@ -82,11 +82,15 @@ LavenderRadioP9_Policia_Texto_1:
 	.string "anteriores, ¡y su seguridad!$"
 
 LavenderRadioP9_Cambio_Skin::
-setvar VAR_UNUSED_0x40FE, 3
-setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
-setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN
+setvar VAR_UNUSED_0x40F7, 168
+setflag FLAG_HIDE_FANCLUB_OLD_LADY
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+setvar VAR_ROUTE105_STATE, 5
 msgbox LavenderRadioP9_Cambio_Skin_Texto MSGBOX_AUTOCLOSE
-setdisguise [470]
 release
 end
 

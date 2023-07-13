@@ -111,8 +111,8 @@
       "x": 12,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_ECRUTEAK_TIN_TOWER_P1",
-      "dest_warp_id": 1
+      "dest_map": "MAP_CULTO_S5",
+      "dest_warp_id": 0
     },
     {
       "x": 21,

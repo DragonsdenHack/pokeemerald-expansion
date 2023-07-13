@@ -2663,4 +2663,4 @@ RocketHideout5F_Secundaria_Frank_Texto_15:
 	.string "tú sigas estancado en ALTO RANGO, ¡lo\l"
 	.string "primero que haré para celebrarlo será\l"
 	.string "enviarte de vuelta a recoger fósiles\l"
-	.string "como un vulgar RECLUTA!$"
+	.string "como a un vulgar RECLUTA!$"
