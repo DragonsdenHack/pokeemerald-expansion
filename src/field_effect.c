@@ -3005,7 +3005,7 @@ u8 FldEff_UseSurf(void)
 			Overworld_ChangeMusicTo(MUS_RG_SURF);
 			break;
 		case REGION_JOHTO:
-			Overworld_ChangeMusicTo(617);
+			Overworld_ChangeMusicTo(618);
 			break;
 		case REGION_HOENN:
 			Overworld_ChangeMusicTo(MUS_SURF);

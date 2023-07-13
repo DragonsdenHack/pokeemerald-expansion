@@ -481,8 +481,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_ANDRA_ADMIN		0x114C
 #define OBJ_EVENT_PAL_TAG_ANDRA_ADMIN_JEFE			0x114D
 #define OBJ_EVENT_PAL_TAG_JONES					0X144E
-#define OBJ_EVENT_PAL_TAG_CULTO			0x114D
-#define OBJ_EVENT_PAL_TAG_ANCIANO_JOHTO	0x114E
+
 #define OBJ_EVENT_PAL_TAG_MANCIANO		0x114F
 #define OBJ_EVENT_PAL_TAG_MUERTO		0x1150
 #define OBJ_EVENT_PAL_TAG_BIDEN			0x1151
@@ -498,6 +497,11 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_ROCKET_ADMIN 0x115B
 #define OBJ_EVENT_PAL_TAG_SILVER 0x115C
 #define OBJ_EVENT_PAL_TAG_PENSADOR 0x115D
+#define OBJ_EVENT_PAL_TAG_CULTO			0x115E
+
+#define OBJ_EVENT_PAL_TAG_RICA_JOHTO 0x1160
+#define OBJ_EVENT_PAL_TAG_RICO_JOHTO 0x1161
+#define OBJ_EVENT_PAL_TAG_ELM 0x1162
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -575,8 +579,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Rojo,               OBJ_EVENT_PAL_TAG_ROJO},
 	{gObjectEventPal_Petrel,               OBJ_EVENT_PAL_TAG_PETREL},
 	{gObjectEventPal_Proton,               OBJ_EVENT_PAL_TAG_PROTON},
-	{gObjectEventPal_AncianoJohto,         OBJ_EVENT_PAL_TAG_ANCIANO_JOHTO},
-	// {gObjectEventPal_AncianaJohto,         OBJ_EVENT_PAL_TAG_ANCIANA_JOHTO},
+	 {gObjectEventPal_AncianaJohto,         OBJ_EVENT_PAL_TAG_ANCIANA_JOHTO},
 	 {gObjectEventPal_PlayerAltoRango,      OBJ_EVENT_PAL_TAG_PLAYER_ALTO_RANGO},
 	 {gObjectEventPal_PlayerEjecutivo,      OBJ_EVENT_PAL_TAG_PLAYER_EJECUTIVO},
 	 {gObjectEventPal_PlayerAdmin,			OBJ_EVENT_PAL_TAG_PLAYER_ADMIN},
@@ -593,6 +596,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Silver, OBJ_EVENT_PAL_TAG_SILVER},
 	{gObjectEventPal_Pensador, OBJ_EVENT_PAL_TAG_PENSADOR},
 	{gObjectEventPal_Cultista, OBJ_EVENT_PAL_TAG_CULTO},
+	{gObjectEventPal_RicaJohto, OBJ_EVENT_PAL_TAG_RICA_JOHTO},
+	{gObjectEventPal_RicoJohto, OBJ_EVENT_PAL_TAG_RICO_JOHTO},
+	{gObjectEventPal_Elm, OBJ_EVENT_PAL_TAG_ELM},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
