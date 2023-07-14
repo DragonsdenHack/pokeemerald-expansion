@@ -2714,3 +2714,7 @@ Text_EVChecker_3:
 	.include "data/maps/LavenderRadioP9/scripts.inc"
 
 	.include "data/maps/LavenderRadioP10/scripts.inc"
+
+	.include "data/maps/UndergroundPath_7F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_8F/scripts.inc"

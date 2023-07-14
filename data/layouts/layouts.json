@@ -13944,6 +13944,30 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/LavenderRadioP10/border.bin",
       "blockdata_filepath": "data/layouts/LavenderRadioP10/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERGROUND_PATH_7F",
+      "name": "UndergroundPath_7F_Layout",
+      "width": 65,
+      "height": 114,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_underground_path",
+      "border_filepath": "data/layouts/UndergroundPath_7F/border.bin",
+      "blockdata_filepath": "data/layouts/UndergroundPath_7F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERGROUND_PATH_8F",
+      "name": "UndergroundPath_8F_Layout",
+      "width": 30,
+      "height": 114,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_underground_path",
+      "border_filepath": "data/layouts/UndergroundPath_8F/border.bin",
+      "blockdata_filepath": "data/layouts/UndergroundPath_8F/map.bin"
     }
   ]
 }

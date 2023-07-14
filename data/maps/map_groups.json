@@ -671,7 +671,9 @@
     "UndergroundPath_6F",
     "DiglettCave_1F",
     "DiglettCave_2F",
-    "DiglettCave_3F"
+    "DiglettCave_3F",
+    "UndergroundPath_7F",
+    "UndergroundPath_8F"
   ],
   "gMapGroup_IndoorKANTO2": [
     "NewMap4",

@@ -620,6 +620,8 @@
 #define MAP_DIGLETT_CAVE_1F           (63 | (25 << 8))
 #define MAP_DIGLETT_CAVE_2F           (64 | (25 << 8))
 #define MAP_DIGLETT_CAVE_3F           (65 | (25 << 8))
+#define MAP_UNDERGROUND_PATH_7F       (66 | (25 << 8))
+#define MAP_UNDERGROUND_PATH_8F       (67 | (25 << 8))
 
 // gMapGroup_IndoorKANTO2
 #define MAP_NEW_MAP4                      (0 | (26 << 8))
@@ -1355,6 +1357,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 42, 6, 9, 9, 21, 23, 14, 7, 7, 11, 83, 4, 5, 8, 10, 8, 30, 20, 12, 10, 16, 2, 66, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
+// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 42, 6, 9, 9, 21, 23, 14, 7, 7, 11, 83, 4, 5, 8, 10, 8, 30, 20, 12, 10, 16, 2, 68, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

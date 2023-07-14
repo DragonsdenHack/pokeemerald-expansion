@@ -30,6 +30,7 @@ addobject 4
 applymovement OBJ_EVENT_ID_PLAYER, CultoS7_Escena_Esencia_Move_2
 waitmovement 0x0
 waitse
+delay 10
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, CultoS7_Escena_Esencia_Move_1
 waitmovement 0x0
@@ -55,19 +56,23 @@ end
 
 CultoS7_Escena_Esencia_Move_6:
 delay_8
+delay_8
+delay_8
+delay_8
 face_right
 step_end
 
 CultoS7_Escena_Esencia_Move_5:
-walk_right
-walk_right
-walk_right
-walk_right
-walk_right
-walk_right
-walk_right
-walk_right
-walk_right
+walk_slow_right
+walk_slow_right
+walk_slow_down
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
 step_end
 
 CultoS7_Escena_Esencia_Move_4:
@@ -98,4 +103,4 @@ CultoS7_Escena_Esencia_Texto_2:
 
 CultoS7_Escena_Esencia_Texto_3:
 	.string "...ello no implica una pérdida de su\n"
-	.string "potencialidad$"
+	.string "potencialidad.$"
