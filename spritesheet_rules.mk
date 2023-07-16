@@ -572,9 +572,6 @@ $(OBJEVENTGFXDIR)/people/Electricistajohto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/Elm.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
-
-$(OBJEVENTGFXDIR)/people/Entei.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/entreguayjohto.4bpp: %.4bpp: %.png
@@ -778,9 +775,6 @@ $(OBJEVENTGFXDIR)/people/protarunning.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/protafieldmove.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/protasurf.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
-
 $(OBJEVENTGFXDIR)/people/protabike.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4		
 
@@ -848,7 +842,6 @@ $(OBJEVENTGFXDIR)/people/andra/admin/walking.4bpp: %.4bpp: %.png
 	
 $(OBJEVENTGFXDIR)/people/andra/admin_jefe/walking.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
-	
 
 
 $(OBJEVENTGFXDIR)/people/protapokeball.4bpp: %.4bpp: %.png
@@ -857,8 +850,14 @@ $(OBJEVENTGFXDIR)/people/protapokeball.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/Proton.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/Raikou.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
+$(OBJEVENTGFXDIR)/people/raikou.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+	
+$(OBJEVENTGFXDIR)/people/entei.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/suicune.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/Reshiram.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
@@ -914,9 +913,6 @@ $(OBJEVENTGFXDIR)/people/scientist.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/sitting_boy.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
-$(OBJEVENTGFXDIR)/people/Suicune.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
-
 $(OBJEVENTGFXDIR)/people/super_nerd.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
@@ -924,7 +920,7 @@ $(OBJEVENTGFXDIR)/people/Surfadmin.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/surfprota.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 2 -mheight 4
+	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/swimmer_f_land.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
