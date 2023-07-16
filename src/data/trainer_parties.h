@@ -29719,12 +29719,28 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER206[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER207[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .iv = 255,
+    .lvl = 89,
+    .species = SPECIES_OCTILLERY,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_OCTAZOOKA, MOVE_FLAMETHROWER, MOVE_SCALD, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 90,
+    .species = SPECIES_MAGMAR,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_FIRE_BLAST, MOVE_PSYCHIC, MOVE_FOCUS_BLAST, MOVE_CLEAR_SMOG}
+    },
+    {
+    .iv = 255,
+    .lvl = 91,
+    .species = SPECIES_SLOWBRO_GALARIAN,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SLUDGE_BOMB, MOVE_PSYSHOCK, MOVE_FLAMETHROWER, MOVE_SLACK_OFF}
     }
 
 };

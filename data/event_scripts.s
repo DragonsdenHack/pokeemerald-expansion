@@ -2718,3 +2718,9 @@ Text_EVChecker_3:
 	.include "data/maps/UndergroundPath_7F/scripts.inc"
 
 	.include "data/maps/UndergroundPath_8F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_9F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_10F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_11F/scripts.inc"

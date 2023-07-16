@@ -761,7 +761,7 @@ RocketHideout_8F_Mision_Silph_text_4:
 .string "GIOVANNI: Ambos, tú y ANDRA,\n"
 	.string "habéis demostrado un desempeño y\l"
 	.string "valor hacia el TEAM ROCKET que no\l"
-	.string "tiene precio, PETREL ya me ha\l"
+	.string "tienen precio, PETREL ya me ha\l"
 	.string "puesto al día de cómo 10 policías\l"
 	.string "juntos no fueron suficiente para\l"
 	.string "reducirte ANDRA, y resististe el\l"

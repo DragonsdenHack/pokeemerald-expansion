@@ -1,0 +1,39 @@
+{
+  "id": "MAP_UNDERGROUND_PATH_10F",
+  "name": "UndergroundPath_10F",
+  "layout": "LAYOUT_UNDERGROUND_PATH_10F",
+  "music": "MUS_ABANDONED_SHIP",
+  "region_map_section": "MAPSEC_UNDERGROUND_PATH",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": true,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "direction": "right",
+      "offset": -24,
+      "map": "MAP_UNDERGROUND_PATH_9F"
+    },
+    {
+      "direction": "left",
+      "offset": -52,
+      "map": "MAP_UNDERGROUND_PATH_11F"
+    }
+  ],
+  "object_events": [
+
+  ],
+  "warp_events": [
+
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

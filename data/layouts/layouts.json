@@ -13968,6 +13968,42 @@
       "secondary_tileset": "gTileset_underground_path",
       "border_filepath": "data/layouts/UndergroundPath_8F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_8F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERGROUND_PATH_9F",
+      "name": "UndergroundPath_9F_Layout",
+      "width": 7,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_underground_path",
+      "border_filepath": "data/layouts/UndergroundPath_9F/border.bin",
+      "blockdata_filepath": "data/layouts/UndergroundPath_9F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERGROUND_PATH_10F",
+      "name": "UndergroundPath_10F_Layout",
+      "width": 40,
+      "height": 6,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_underground_path",
+      "border_filepath": "data/layouts/UndergroundPath_10F/border.bin",
+      "blockdata_filepath": "data/layouts/UndergroundPath_10F/map.bin"
+    },
+    {
+      "id": "LAYOUT_UNDERGROUND_PATH_11F",
+      "name": "UndergroundPath_11F_Layout",
+      "width": 58,
+      "height": 58,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_underground_path",
+      "border_filepath": "data/layouts/UndergroundPath_11F/border.bin",
+      "blockdata_filepath": "data/layouts/UndergroundPath_11F/map.bin"
     }
   ]
 }

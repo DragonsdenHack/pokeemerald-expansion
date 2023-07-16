@@ -82,7 +82,7 @@ LavenderRadioP9_Policia_Texto_1:
 	.string "anteriores, ¡y su seguridad!$"
 
 LavenderRadioP9_Cambio_Skin::
-setvar VAR_UNUSED_0x40F7, 168
+setvar VAR_UNUSED_0x40F7, 71
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_7

@@ -2484,11 +2484,11 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14:
 	.string "junto con ATLAS y ANDRA, has\l"
 	.string "alcanzado el rango más alto que\l"
 	.string "puedo ofrecerle a un miembro del\l"
-	.string "TEAM ROCKET: ADMINISTRADOR JEFE.$"
+	.string "TEAM ROCKET en KANTO: ADMINISTRADOR.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_15:
-.string "¡¡{PLAYER} HA SIDO ASCENDIDO HA\n"
-	.string "ADMINISTRADOR JEFE!!$"
+.string "¡¡{PLAYER} HA SIDO ASCENDIDO A\n"
+	.string "ADMINISTRADOR!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16:
 .string "GIOVANNI: El TEAM ROCKET es tu\n"
