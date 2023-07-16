@@ -599,6 +599,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_RicaJohto, OBJ_EVENT_PAL_TAG_RICA_JOHTO},
 	{gObjectEventPal_RicoJohto, OBJ_EVENT_PAL_TAG_RICO_JOHTO},
 	{gObjectEventPal_Elm, OBJ_EVENT_PAL_TAG_ELM},
+	{gObjectEventPal_Raikou, OBJ_EVENT_PAL_TAG_RAIKOU},
+	{gObjectEventPal_Entei, OBJ_EVENT_PAL_TAG_ENTEI},
+	{gObjectEventPal_Suicune, OBJ_EVENT_PAL_TAG_SUICUNE},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

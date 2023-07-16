@@ -2,7 +2,9 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanNormal = {T
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanMachBike = {TAG_NONE, OBJ_EVENT_PAL_TAG_BRENDAN, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_BIKE_TIRE, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Standard, sPicTable_BrendanMachBike, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanAcroBike = {TAG_NONE, OBJ_EVENT_PAL_TAG_BRENDAN, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_BIKE_TIRE, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_AcroBike, sPicTable_BrendanAcroBike, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanSurfing = {TAG_NONE, OBJ_EVENT_PAL_TAG_BRENDAN, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, TRUE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Surfing, sPicTable_BrendanSurfing, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SurfProta = {TAG_NONE, OBJ_EVENT_PAL_TAG_PROTA, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 14, SHADOW_SIZE_M, FALSE, TRUE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_Surfing, sPicTable_Surfprota, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BrendanFieldMove = {TAG_NONE, OBJ_EVENT_PAL_TAG_BRENDAN, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_FieldMove, sPicTable_BrendanFieldMove, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProtaPokeball = {TAG_NONE, OBJ_EVENT_PAL_TAG_PROTA, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 32, 32, 14, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_FieldMove, sPicTable_Protapokeball, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_QuintyPlump = {TAG_NONE, OBJ_EVENT_PAL_TAG_QUINTY_PLUMP, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 10, SHADOW_SIZE_L, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_QuintyPlump, sPicTable_QuintyPlump, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NinjaBoy = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_1, OBJ_EVENT_PAL_TAG_NONE, 128, 16, 16, 2, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x16, sOamTables_16x16, sAnimTable_Standard, sPicTable_NinjaBoy, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Twin = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_2, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 3, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Twin, gDummySpriteAffineAnimTable};
@@ -368,8 +370,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Picnicker2 = {TAG_
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_PokemaniacoJohto = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_WHITE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Pokemaniacojohto, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Policeman = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_BLUE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Policeman, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProfOak = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_WHITE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Profoak, gDummySpriteAffineAnimTable};
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Prota = {TAG_NONE, OBJ_EVENT_PAL_TAG_PROTA, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Prota, gDummySpriteAffineAnimTable};
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ProtaPokeball = {TAG_NONE, OBJ_EVENT_PAL_TAG_PROTA, OBJ_EVENT_PAL_TAG_NONE, 512, 32, 32, 10, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_32x32, sOamTables_32x32, sAnimTable_FieldMove, sPicTable_Protapokeball, gDummySpriteAffineAnimTable};
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Prota = {TAG_NONE, OBJ_EVENT_PAL_TAG_PROTA, OBJ_EVENT_PAL_TAG_BRIDGE_REFLECTION, 512, 16, 32, 0, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_BrendanMayNormal, sPicTable_Prota, gDummySpriteAffineAnimTable};
+
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Proton = {TAG_NONE, OBJ_EVENT_PAL_TAG_PROTON, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Proton, gDummySpriteAffineAnimTable};
 //const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Raikou = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_WHITE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Raikou, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Reshiram = {TAG_NONE, OBJ_EVENT_PAL_TAG_RESHIRAM, OBJ_EVENT_PAL_TAG_NONE, 2048, 64, 64, 4, SHADOW_SIZE_M, FALSE, TRUE, TRACKS_FOOT, &gObjectEventBaseOam_64x64, sOamTables_64x64, sAnimTable_Standard, sPicTable_Reshiram, gDummySpriteAffineAnimTable};
@@ -394,7 +396,6 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Sudowoodo2 = {TAG_
 //const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Suicune = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_WHITE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Suicune, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SuperNerd = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_PINK, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Supernerd, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SurfAdmin = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_WHITE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Surfadmin, gDummySpriteAffineAnimTable};
-const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SurfProta = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_WHITE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_Surfprota, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerFLand = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_BLUE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_SwimmerFland, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerFWater = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_GREEN, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_SwimmerFwater, gDummySpriteAffineAnimTable};
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_SwimmerMLand = {TAG_NONE, OBJ_EVENT_PAL_TAG_NPC_WHITE, OBJ_EVENT_PAL_TAG_NONE, 256, 16, 32, 4, SHADOW_SIZE_M, FALSE, FALSE, TRACKS_FOOT, &gObjectEventBaseOam_16x32, sOamTables_16x32, sAnimTable_Standard, sPicTable_SwimmerMland, gDummySpriteAffineAnimTable};
@@ -890,18 +891,18 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mew_fr = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Entei = {
      TAG_NONE,
-     OBJ_EVENT_PAL_TAG_NPC_BLUE,
+     OBJ_EVENT_PAL_TAG_ENTEI,
      OBJ_EVENT_PAL_TAG_NONE,
-     128,
-     16,
-     16,
+     512,
+     32,
+     32,
      2,
      SHADOW_SIZE_M,
      FALSE,
      FALSE,
      TRACKS_FOOT,
-     &gObjectEventBaseOam_16x16,
-     sOamTables_16x16,
+     &gObjectEventBaseOam_32x32,
+     sOamTables_32x32,
      sAnimTable_Standard,
      sPicTable_Entei,
      gDummySpriteAffineAnimTable,
@@ -909,18 +910,18 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Entei = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Raikou = {
      TAG_NONE,
-     OBJ_EVENT_PAL_TAG_NPC_GREEN,
+     OBJ_EVENT_PAL_TAG_RAIKOU,
      OBJ_EVENT_PAL_TAG_NONE,
-     128,
-     16,
-     16,
+     512,
+     32,
+     32,
      4,
      SHADOW_SIZE_M,
      FALSE,
      FALSE,
      TRACKS_FOOT,
-     &gObjectEventBaseOam_16x16,
-     sOamTables_16x16,
+     &gObjectEventBaseOam_32x32,
+     sOamTables_32x32,
      sAnimTable_Standard,
      sPicTable_Raikou,
      gDummySpriteAffineAnimTable,
@@ -928,18 +929,18 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Raikou = {
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Suicune = {
      TAG_NONE,
-     OBJ_EVENT_PAL_TAG_NPC_PINK,
+     OBJ_EVENT_PAL_TAG_SUICUNE,
      OBJ_EVENT_PAL_TAG_NONE,
-     128,
-     16,
-     16,
+     512,
+     32,
+     32,
      3,
      SHADOW_SIZE_M,
      FALSE,
      FALSE,
      TRACKS_FOOT,
-     &gObjectEventBaseOam_16x16,
-     sOamTables_16x16,
+     &gObjectEventBaseOam_32x32,
+     sOamTables_32x32,
      sAnimTable_Standard,
      sPicTable_Suicune,
      gDummySpriteAffineAnimTable,

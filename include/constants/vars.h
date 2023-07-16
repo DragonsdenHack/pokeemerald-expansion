@@ -152,14 +152,14 @@
 #define VAR_PETALBURG_GYM_STATE              0x4085 // 0-1: Wally tutorial, 2-6: 0-4 badges, 7: Defeated Norman, 8: Rematch Norman
 #define VAR_CONTEST_HALL_STATE               0x4086
 #define VAR_CABLE_CLUB_STATE                 0x4087
-#define VAR_CONTEST_TYPE                     0x4088
+#define VAR_CONTEST_TYPE                     0x4088 
 #define VAR_SECRET_BASE_INITIALIZED          0x4089
 #define VAR_CONTEST_PRIZE_PICKUP             0x408A
 #define VAR_UNUSED_0x408B                    0x408B // GUAYS BOSQUE VERDE
 #define VAR_LITTLEROOT_HOUSES_STATE_BRENDAN  0x408C
 #define VAR_LITTLEROOT_RIVAL_STATE           0x408D
 #define VAR_BOARD_BRINEY_BOAT_STATE          0x408E
-#define VAR_DEVON_CORP_3F_STATE              0x408F
+#define VAR_DEVON_CORP_3F_STATE              0x408F //variable que cambia conforme cambia de rango
 #define VAR_BRINEY_HOUSE_STATE               0x4090
 #define VAR_UNUSED_0x4091                    0x4091 // ESTAFADORES EN KANTO - CIENTIFICO FUSCIA // ENCUENTRO ZINNIA VALOR 9 
 #define VAR_LITTLEROOT_INTRO_STATE           0x4092
