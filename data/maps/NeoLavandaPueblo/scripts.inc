@@ -256,3 +256,277 @@ end
 
 NeoLavandaPueblo_Segundo_Cartel_Texto_1:
 .string "TORRE RADIO LAVANDA$"
+
+NeoLavandaPueblo_Policia::
+compare VAR_ROUTE105_STATE, 6
+goto_if_eq NeoLavandaPueblo_Policia_2
+compare VAR_ROUTE105_STATE, 10
+goto_if_lt NeoLavandaPueblo_Policia_3
+release
+end
+
+NeoLavandaPueblo_Policia_3:
+applymovement 6, NeoLavandaPueblo_Policia_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_1.1 MSGBOX_AUTOCLOSE
+release
+end
+
+NeoLavandaPueblo_Policia_2::
+applymovement 6, NeoLavandaPueblo_Policia_Move_1
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_1 MSGBOX_AUTOCLOSE
+msgbox NeoLavandaPueblo_Policía_Texto_2 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 7
+playse SE_PIN
+applymovement 6, NeoLavandaPueblo_Policia_Move_3
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_3
+waitmovement 0x0
+delay 10
+applymovement 7, NeoLavandaPueblo_Policia_Move_4
+waitmovement 0x0
+delay 15
+applymovement 6, NeoLavandaPueblo_Policia_Move_5
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 7, NeoLavandaPueblo_Policia_Move_6
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_4 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 6, NeoLavandaPueblo_Policia_Move_3
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 7, NeoLavandaPueblo_Policia_Move_6
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, NeoLavandaPueblo_Policia_Move_5
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, NeoLavandaPueblo_Policia_Move_5
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_8 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_7
+waitmovement 0x0
+delay 10
+applymovement 6, NeoLavandaPueblo_Policia_Move_8
+waitmovement 0x0
+delay 10
+msgbox NeoLavandaPueblo_Policía_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_9
+waitmovement 0x0
+delay 10
+msgbox NeoLavandaPueblo_Policía_Texto_12 MSGBOX_AUTOCLOSE
+delay 10
+msgbox NeoLavandaPueblo_Policía_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 6, NeoLavandaPueblo_Policia_Move_1
+waitmovement 0x0
+delay 10
+msgbox NeoLavandaPueblo_Policía_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 6, NeoLavandaPueblo_Policia_Move_1
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 7, NeoLavandaPueblo_Policia_Move_6
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_11
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 7, NeoLavandaPueblo_Policia_Move_12
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_13
+waitmovement 0x0
+applymovement 7, NeoLavandaPueblo_Policia_Move_14
+waitmovement 0x0
+msgbox NeoLavandaPueblo_Policía_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 7, NeoLavandaPueblo_Policia_Move_15
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 7
+setvar VAR_ROUTE105_STATE, 7
+release
+end
+
+NeoLavandaPueblo_Policía_Texto_1.1:
+.string "¿Cómo va el asalto a la VÍA\n"
+	.string "SUBTERRÁNEA, señor? Cuente con\l"
+	.string "nosotros para todo lo que necesite.$"
+
+NeoLavandaPueblo_Policia_Move_15:
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+NeoLavandaPueblo_Policia_Move_14:
+face_right
+delay_8
+delay_8
+face_left
+step_end
+
+NeoLavandaPueblo_Policia_Move_13:
+walk_left
+walk_left
+walk_left
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+NeoLavandaPueblo_Policia_Move_12:
+walk_left
+walk_up
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+NeoLavandaPueblo_Policia_Move_11:
+face_left
+step_end
+
+NeoLavandaPueblo_Policia_Move_10:
+walk_in_place_down
+step_end
+
+NeoLavandaPueblo_Policia_Move_9:
+walk_in_place_up
+step_end
+
+NeoLavandaPueblo_Policia_Move_8:
+face_down
+step_end
+
+NeoLavandaPueblo_Policia_Move_7:
+face_up
+step_end
+
+NeoLavandaPueblo_Policia_Move_6:
+walk_in_place_right
+step_end
+
+NeoLavandaPueblo_Policia_Move_5:
+walk_in_place_left
+step_end
+
+NeoLavandaPueblo_Policia_Move_4:
+walk_right
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+walk_up
+walk_right
+step_end
+
+NeoLavandaPueblo_Policia_Move_3:
+emote_exclamation_mark
+delay_8
+delay_8
+face_left
+step_end
+
+NeoLavandaPueblo_Policia_Move_1:
+walk_in_place_down
+step_end
+
+NeoLavandaPueblo_Policia_Move_2:
+delay_8
+face_up
+step_end
+
+NeoLavandaPueblo_Policía_Texto_1:
+.string "Lo sentimos, señor. A la torre radio le\n"
+	.string "quedan unos últimos retoques antes de\l"
+	.string "ser abierta de forma definitiva, ¿por\l"
+	.string "qué no visita el CEM…?$"
+
+NeoLavandaPueblo_Policía_Texto_2:
+.string "????: ¡Necesitamos refuerzos!$"
+
+NeoLavandaPueblo_Policía_Texto_3:
+.string "¡¿Qué ocurre?!$"
+
+NeoLavandaPueblo_Policía_Texto_4:
+.string "El desalojo de la VIA SUBTERRANEA, todo\n"
+	.string "ha salido mal.$"
+
+NeoLavandaPueblo_Policía_Texto_5:
+.string "¡Eso no puede ser!$"
+
+NeoLavandaPueblo_Policía_Texto_6:
+.string "Los MOTORISTAS… se han atrincherado\n"
+	.string "dentro, han reabierto los extensos\l"
+	.string "túneles que sirvieron de refugio\l"
+	.string "durante la guerra… ¡y no hay forma de\l"
+	.string "sacarles de ahí!$"
+
+NeoLavandaPueblo_Policía_Texto_7:
+.string "Acordamos con los altos cargos de\n"
+	.string "JOHTO tener todo cerrado antes de la\l"
+	.string "inauguración de la TORRE RADIO\l"
+	.string "LAVANDA. Esto es inadmisible.$"
+
+NeoLavandaPueblo_Policía_Texto_8:
+.string "¡Llama a la SEDE SILPH! ¡Qué te pongan\n"
+	.string "con el PRESIDENTE, exigimos refuerz…!$"
+
+NeoLavandaPueblo_Policía_Texto_9:
+.string "… …$"
+
+NeoLavandaPueblo_Policía_Texto_11:
+.string "… …$"
+
+NeoLavandaPueblo_Policía_Texto_12:
+.string "Oh… Usted… Señor…$"
+
+NeoLavandaPueblo_Policía_Texto_13:
+.string "Ya veo, quiere encargarse\n"
+	.string "personalmente de ello, después de todo\l"
+	.string "los MOTORISTAS han sido aliados del\l"
+	.string "TEAM ROCKET desde sus inicios.$"
+
+NeoLavandaPueblo_Policía_Texto_14:
+.string "Confiamos en usted para que resuelva\n"
+	.string "esto de la mejor manera posible.$"
+
+NeoLavandaPueblo_Policía_Texto_15:
+.string "Venga conmigo, ADMIN.JEFE {PLAYER}.$"
+
+NeoLavandaPueblo_Policía_Texto_16:
+.string "No tiene pérdida, debe haber pasado por\n"
+	.string "ahí varias veces en sus inicios como\l"
+	.string "ROCKET, la VÍA SUBTERRÁNEA está un\l"
+	.string "poco más al oeste, le espero allí.$"
+

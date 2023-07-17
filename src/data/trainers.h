@@ -14926,10 +14926,10 @@ const struct Trainer gTrainers[] = {
 [TRAINER_TRAINER_208] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER208"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("TADEU"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14940,10 +14940,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_209] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER209"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("FILIPE"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14954,10 +14954,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_210] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER210"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("EDER"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14968,10 +14968,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_211] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER211"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("JURGEN"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14982,10 +14982,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_212] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER212"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("TETSUO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -14996,43 +14996,43 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_213] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER213"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("MATEO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER213),
-        .party = {.NoItemCustomMoves = sParty_TRAINER213},
+        .party = {.ItemCustomMoves = sParty_TRAINER213},
     },
 
     [TRAINER_TRAINER_214] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER214"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("JOAO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER214),
-        .party = {.NoItemCustomMoves = sParty_TRAINER214},
+        .party = {.ItemCustomMoves = sParty_TRAINER214},
     },
 
     [TRAINER_TRAINER_215] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_MOTORISTA,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER215"),
+        .trainerPic = TRAINER_PIC_BIKER,
+        .trainerName = _("VICIUS"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER215),
-        .party = {.NoItemCustomMoves = sParty_TRAINER215},
+        .party = {.ItemCustomMoves = sParty_TRAINER215},
     },
 
     [TRAINER_TRAINER_216] =

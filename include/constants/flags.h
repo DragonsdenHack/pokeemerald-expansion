@@ -776,7 +776,7 @@
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA // CONSUL
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // ANDRA CASA CONSUL //PROTON TUNEL ROCA // FUJI P1 TORRE PKMN// clear oak y blaine Escena 7
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC // CLEARFLAG ENTRENADORA GUAY BLOQUEA PASO LIGA POKEMON
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD // KYOGRE ASLEEP CUEVA PUNTEADA
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD // KYOGRE ASLEEP CUEVA PUNTEADA// policia oculto tuneles
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // CLEARFLAG EJECUTIVO ROCKET GIMNASIO VERDE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF // POLICIAS CENTRAL RUTA 10
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0 // ESTAFADOR MAGIKARP RUTA 4
@@ -944,7 +944,7 @@
 #define FLAG_HIDE_ROUTE_103_BIRCH                                   0x382 // libre clearflag
 #define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0x383 // MORFEO CUEVA 4
 #define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384 // MORFEO GYM 1
-#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385 // libre clearflag
+#define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385 // policia bloqueo neo tuneles
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386 // libre clearflag
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387 // libre clearflag
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388 // libre clearflag

@@ -31,7 +31,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "NeoLavanda_Ruta_Oeste_EventScript_Motorista_1",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -44,7 +44,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "NeoLavanda_Ruta_Oeste_EventScript_Motorista_2",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -57,7 +57,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "NeoLavanda_Ruta_Oeste_EventScript_Motorista_3",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -126,8 +126,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
-      "x": 13,
-      "y": 5,
+      "x": 0,
+      "y": 0,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -135,7 +135,20 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NeoLavanda_Ruta_Oeste_Policia",
-      "flag": "0"
+      "flag": "FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
+      "x": 12,
+      "y": 5,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Route8Documento_100",
+      "flag": "FLAG_NUEVA_839"
     }
   ],
   "warp_events": [
@@ -145,10 +158,25 @@
       "elevation": 0,
       "dest_map": "MAP_ROUTE8_PATH",
       "dest_warp_id": 2
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_UNDERGROUND_PATH_6F",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 13,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "6",
+      "script": "NULL"
+    }
   ],
   "bg_events": [
     {
