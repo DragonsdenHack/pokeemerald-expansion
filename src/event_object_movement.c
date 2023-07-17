@@ -481,7 +481,6 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_ANDRA_ADMIN		0x114C
 #define OBJ_EVENT_PAL_TAG_ANDRA_ADMIN_JEFE			0x114D
 #define OBJ_EVENT_PAL_TAG_JONES					0X144E
-
 #define OBJ_EVENT_PAL_TAG_MANCIANO		0x114F
 #define OBJ_EVENT_PAL_TAG_MUERTO		0x1150
 #define OBJ_EVENT_PAL_TAG_BIDEN			0x1151
@@ -498,10 +497,16 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_SILVER 0x115C
 #define OBJ_EVENT_PAL_TAG_PENSADOR 0x115D
 #define OBJ_EVENT_PAL_TAG_CULTO			0x115E
-
+#define OBJ_EVENT_PAL_TAG_DOMADOR_JOHTO 0x115F
 #define OBJ_EVENT_PAL_TAG_RICA_JOHTO 0x1160
 #define OBJ_EVENT_PAL_TAG_RICO_JOHTO 0x1161
 #define OBJ_EVENT_PAL_TAG_ELM 0x1162
+#define OBJ_EVENT_PAL_TAG_DRAGONITE 0x1163
+#define OBJ_EVENT_PAL_TAG_ELECTRICISTA_JOHTO 0x1164
+#define OBJ_EVENT_PAL_TAG_DEBORA 0x1165
+#define OBJ_EVENT_PAL_TAG_VALERIA 0x1166
+#define OBJ_EVENT_PAL_TAG_VENDEDORA_JOHTO 0x1167
+#define OBJ_EVENT_PAL_TAG_VENDEDOR_JOHTO 0x1168
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -602,6 +607,14 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Raikou, OBJ_EVENT_PAL_TAG_RAIKOU},
 	{gObjectEventPal_Entei, OBJ_EVENT_PAL_TAG_ENTEI},
 	{gObjectEventPal_Suicune, OBJ_EVENT_PAL_TAG_SUICUNE},
+	{gObjectEventPal_Dragonite, OBJ_EVENT_PAL_TAG_DRAGONITE},
+	{gObjectEventPal_ElectricistaJohto, OBJ_EVENT_PAL_TAG_ELECTRICISTA_JOHTO},
+	{gObjectEventPal_DomadorJohto, OBJ_EVENT_PAL_TAG_DOMADOR_JOHTO},
+	{gObjectEventPal_Debora, OBJ_EVENT_PAL_TAG_DEBORA},
+	{gObjectEventPal_Zeus, OBJ_EVENT_PAL_TAG_ZEUS},
+	{gObjectEventPal_Valeria, OBJ_EVENT_PAL_TAG_VALERIA},
+	{gObjectEventPal_VendedoraJohto, OBJ_EVENT_PAL_TAG_VENDEDORA_JOHTO},
+	{gObjectEventPal_VendedorJohto, OBJ_EVENT_PAL_TAG_VENDEDOR_JOHTO},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
