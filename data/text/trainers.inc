@@ -17177,6 +17177,178 @@ Route49MazeP4_Text_SabioPostBattle:
 	.string "volverse un poco mejor cada día de\l"
 	.string "entrenamiento.$"
 
+UndergroundPath_7F_Text_Primer_MoteroIntro:
+.string "¡No deberías estar aquí!$"
+
+UndergroundPath_7F_Text_Primer_MoteroDefeated:
+.string "¡He pinchado!$"
+
+UndergroundPath_7F_Text_Primer_MoteroPostBattle:
+.string "Convertimos estos refugios en un gran\n"
+	.string "mercado negro, ¡y ahora nos quieren\l"
+	.string "tumbar el negocio!$"
+
+UndergroundPath_7F_Text_Segundo_MoteroIntro:
+.string "¡Si nos atacas, te trataremos como a la\n"
+	.string "POLICÍA de SILPH!$"
+
+UndergroundPath_7F_Text_Segundo_MoteroDefeated:
+.string "¡Menuda paliza!$"
+
+UndergroundPath_7F_Text_Segundo_MoteroPostBattle:
+.string "¿Estás perdido? En realidad yo también\n"
+	.string "lo estoy, este lugar es enorme.$"
+
+UndergroundPath_7F_Text_Tercer_MoteroIntro:
+.string "Ya propuse apagar las luces\n"
+	.string "completamente, y mira por dónde. ¡Se\l"
+	.string "nos ha colado alguien!$"
+
+UndergroundPath_7F_Text_Tercer_MoteroDefeated:
+.string "¡Vaya birria de combate!$"
+
+UndergroundPath_7F_Text_Tercer_MoteroPostBattle:
+.string "Sabes que si esto fuera completamente\n"
+	.string "oscuro, jamás llegarías hasta nuestros\l"
+	.string "LÍDERES, ¿verdad?$"
+
+UndergroundPath_7F_Text_Cuarto_MoteroIntro:
+.string "¡No tan rápido! ¡Voy a envenenar a tus\n"
+	.string "POKÉMON!$"
+
+UndergroundPath_7F_Text_Cuarto_MoteroDefeated:
+.string "Para envenenar primero tengo que\n"
+	.string "atacar...$"
+
+UndergroundPath_7F_Text_Cuarto_MoteroPostBattle:
+.string "Nos quedaremos aquí pegados como\n"
+	.string "garrapatas hasta que los de arriba nos\l"
+	.string "escuchen.$"
+
+UndergroundPath_7F_Text_Quinto_MoteroIntro:
+.string "Se suponía que nuestra seguridad era\n"
+	.string "infalible. Tendremos que sacarte de\l"
+	.string "aquí a patadas.$"
+
+UndergroundPath_7F_Text_Quinto_MoteroDefeated:
+.string "¡Bah! ¡He perdido enseguida!$"
+
+
+UndergroundPath_7F_Text_Quinto_MoteroPostBattle:
+.string "Si has derrotado a VICIUS, al menos\n"
+	.string "nadie podrá echarme en cara haber\l"
+	.string "perdido también.$"
+
+UndergroundPath_7F_Text_Sexto_MoteroIntro:
+.string "Se acabó el juego. Creí que eras uno de\n"
+	.string "los nuestros, ¡pero no has demostrado\l"
+	.string "ser más que otro títere de los de\l"
+	.string "arriba!$"
+
+UndergroundPath_7F_Text_Sexto_MoteroDefeated:
+.string "No sabía que los títeres pegaran tan\n"
+	.string "fuerte...$"
+
+UndergroundPath_7F_Text_Sexto_MoteroPostBattle:
+.string "Nosotros al menos somos fieles a\n"
+	.string "nuestros ideales y tenemos\l"
+	.string "personalidad.$"
+
+UndergroundPath_7F_Text_Septimo_MoteroIntro:
+.string "El TEAM ROCKET nos ha decepcionado. ¡Os\n"
+	.string "habéis vendido al NUEVO ORDEN!$"
+
+UndergroundPath_7F_Text_Septimo_MoteroDefeated:
+.string "¿Osas traicionarnos?$"
+
+UndergroundPath_7F_Text_Septimo_MoteroPostBattle:
+.string "Nosotros aún recordamos cómo era la\n"
+	.string "KANTO pre-guerra, ¡en ella podíamos\l"
+	.string "vender aquí lo que nos fuera en gana!$"
+
+UndergroundPath_7F_Text_Octavo_MoteroIntro:
+.string "Con todo respeto, alguien que viene del\n"
+	.string "ARCHI7 jamás podrá entender el porqué\l"
+	.string "luchamos por este lugar. ¡Te haré\l"
+	.string "papilla!$"
+
+UndergroundPath_7F_Text_Octavo_MoteroDefeated:
+.string "¡Sigues sin entenderlo!$"
+
+UndergroundPath_7F_Text_Octavo_MoteroPostBattle:
+.string "Puede que seas bueno, ¡pero te\n"
+	.string "aplastaremos entre todos si es\l"
+	.string "necesario!$"
+
+UndergroundPath_7F_Text_Noveno_MoteroIntro:
+.string "En el TEAM ROCKET os habéis pasado de\n"
+	.string "listos, ¡aquí dentro mandamos\l"
+	.string "nosotros!$"
+
+UndergroundPath_7F_Text_Noveno_MoteroDefeated:
+.string "¡Puaf! ¡Mis POKÉMON dan pena peleando!$"
+
+UndergroundPath_7F_Text_Noveno_MoteroPostBattle:
+.string "Pensamos que el TEAM ROCKET nos\n"
+	.string "respaldaría más ante la llegada de\l"
+	.string "extranjeros a la región, pero nos han\l"
+	.string "dejado indefensos ante los nuevos\l"
+	.string "cambios.$"
+
+UndergroundPath_7F_Text_Decimo_MoteroIntro:
+.string "¡GIOVANNI nos ha traicionado! ¡Tú\n"
+	.string "también!$"
+
+UndergroundPath_7F_Text_Decimo_MoteroDefeated:
+.string "¡No tenéis perdón!$"
+
+UndergroundPath_7F_Text_Decimo_MoteroPostBattle:
+.string "Nosotros os dimos ese pequeño impulso\n"
+	.string "cuando no érais nadie, y ahora nos\l"
+	.string "devolvéis el favor tratándonos como a\l"
+	.string "ratas callejeras.$"
+
+UndergroundPath_7F_Text_Undecimo_MoteroIntro:
+.string "Este gran refugio ya ayudó a la\n"
+	.string "población de KANTO a resistir durante\l"
+	.string "la guerra. ¡Y de nuevo resistiremos\l"
+	.string "nosotros aquí!$"
+
+UndergroundPath_7F_Text_Undecimo_MoteroDefeated:
+.string "¡No nos sacaréis de aquí!$"
+
+UndergroundPath_7F_Text_Undecimo_MoteroPostBattle:
+.string "Tenemos provisiones para varios meses;\n"
+	.string "los subterráneos deben cerrarse ya,\l"
+	.string "por lo que los que estáis obligados a\l"
+	.string "ceder sois vosotros.$"
+
+UndergroundPath_7F_Text_Duodecimo_MoteroIntro:
+.string "{PLAYER}... Te conocí cuando no eras\n"
+	.string "nadie, ¿recuerdas? En la misión del\l"
+	.string "SSANNE. Yo os ayudé a entrar. Una\l"
+	.string "lástima que con los años esto haya\l"
+	.string "terminado así. ¡No tendré piedad\l"
+	.string "contigo!$"
+
+UndergroundPath_7F_Text_Duodecimo_MoteroDefeated:
+.string "Por algo llegaste tan lejos...$"
+
+UndergroundPath_7F_Text_Duodecimo_MoteroPostBattle:
+.string "Las pequeñas asociaciones siempre\n"
+	.string "funcionan mejor, cuando se vuelven\l"
+	.string "grandes, todo se corrompe y cada uno\l"
+	.string "busca su propio interés.$"
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -74,7 +74,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
+      "script": "UndergroundPath_7F_EventScript_Primer_Motero",
       "flag": "0"
     },
     {
@@ -113,7 +113,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
+      "script": "UndergroundPath_7F_EventScript_Cuarto_Motero",
       "flag": "0"
     },
     {
@@ -164,8 +164,8 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
+      "trainer_sight_or_berry_tree_id": "3",
+      "script": "UndergroundPath_7F_EventScript_Segundo_Motero",
       "flag": "0"
     },
     {
@@ -178,7 +178,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "9",
-      "script": "NULL",
+      "script": "UndergroundPath_7F_EventScript_Tercer_Motero",
       "flag": "0"
     },
     {
@@ -269,7 +269,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
+      "script": "UndergroundPath_7F_EventScript_Quinto_Motero",
       "flag": "0"
     },
     {
@@ -282,7 +282,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
-      "script": "NULL",
+      "script": "UndergroundPath_7F_EventScript_Sexto_Motero",
       "flag": "0"
     },
     {

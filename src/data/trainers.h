@@ -14829,7 +14829,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("ENZO"),
         .items = {},
@@ -14843,7 +14843,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("TEO"),
         .items = {},
@@ -14857,7 +14857,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("MATEU"),
         .items = {},
@@ -14871,7 +14871,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("ARTUR"),
         .items = {},
@@ -14885,7 +14885,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("ROI"),
         .items = {},
@@ -14899,7 +14899,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("JULIEN"),
         .items = {},
@@ -14913,7 +14913,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("ELIAS"),
         .items = {},
@@ -14927,7 +14927,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("TADEU"),
         .items = {},
@@ -14941,7 +14941,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("FILIPE"),
         .items = {},
@@ -14955,7 +14955,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("EDER"),
         .items = {},
@@ -14969,7 +14969,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("JURGEN"),
         .items = {},
@@ -14983,7 +14983,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("TETSUO"),
         .items = {},
@@ -14997,7 +14997,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("MATEO"),
         .items = {},
@@ -15011,7 +15011,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("JOAO"),
         .items = {},
