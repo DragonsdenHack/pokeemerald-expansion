@@ -1610,6 +1610,7 @@ fadescreen 1
 delay 20
 removeobject 3
 fadescreen 0
+setflag FLAG_NUEVA_840
 setvar VAR_UNUSED_0x40F7, 205
 release
 end

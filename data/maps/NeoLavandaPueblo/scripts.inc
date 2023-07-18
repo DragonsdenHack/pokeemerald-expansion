@@ -345,6 +345,7 @@ msgbox NeoLavandaPueblo_Policía_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 7, NeoLavandaPueblo_Policia_Move_15
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+clearflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2
 removeobject 7
 setvar VAR_ROUTE105_STATE, 7
 release
@@ -529,4 +530,19 @@ NeoLavandaPueblo_Policía_Texto_16:
 	.string "ahí varias veces en sus inicios como\l"
 	.string "ROCKET, la VÍA SUBTERRÁNEA está un\l"
 	.string "poco más al oeste, le espero allí.$"
+
+NeoLavandaPueblo_Segundo_Policia::
+lock
+faceplayer
+msgbox NeoLavandaPueblo_Segundo_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+NeoLavandaPueblo_Segundo_Policia_Texto_1:
+.string "Perdone señor, la TORRE RADIO LAVANDA\n"
+	.string "se encuentra aún en etapas tempranas\l"
+	.string "de construcción. No tardaremos mucho,\l"
+	.string "puesto que se hará en tiempo récord,\l"
+	.string "pero tendrá que esperar un poco para\l"
+	.string "entrar.$"
 

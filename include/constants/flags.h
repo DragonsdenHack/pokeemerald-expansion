@@ -945,7 +945,7 @@
 #define FLAG_HIDE_TRICK_HOUSE_END_MAN                               0x383 // MORFEO CUEVA 4
 #define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384 // MORFEO GYM 1
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385 // policia bloqueo neo tuneles
-#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386 // libre clearflag
+#define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386 // policias guia entrada refugio
 #define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387 // libre clearflag
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388 // libre clearflag
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389 // flag libre
@@ -2487,7 +2487,7 @@
 #define FLAG_NUEVA_837 0x845 // NEO LAVANDA P8 - MAX ELIXIR
 #define FLAG_NUEVA_838 0x846 // PRESIDENTE DEVON NEO LAVANDA P8
 #define FLAG_NUEVA_839 0x847 // POLICIA ENTRADA TORRE LAVANDA
-#define FLAG_NUEVA_840 0x848
+#define FLAG_NUEVA_840 0x848 // POLICIA 2 NEO LAVANDA
 #define FLAG_NUEVA_841 0x849
 #define FLAG_NUEVA_842 0x84A
 #define FLAG_NUEVA_843 0x84B
