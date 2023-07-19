@@ -507,6 +507,30 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_VALERIA 0x1166
 #define OBJ_EVENT_PAL_TAG_VENDEDORA_JOHTO 0x1167
 #define OBJ_EVENT_PAL_TAG_VENDEDOR_JOHTO 0x1168
+#define OBJ_EVENT_PAL_TAG_BEAUTY2 0x1169
+#define OBJ_EVENT_PAL_TAG_BLANCA 0x116A
+
+#define OBJ_EVENT_PAL_TAG_CAMERAMAN2 0x116C
+#define OBJ_EVENT_PAL_TAG_CESAR 0x116D
+#define OBJ_EVENT_PAL_TAG_CHICA_JOHTO 0x116E
+#define OBJ_EVENT_PAL_TAG_CROM 0x116F
+#define OBJ_EVENT_PAL_TAG_DRATINI 0x1170
+#define OBJ_EVENT_PAL_TAG_ENTRENADORA_GUAY_JOHTO 0x1171
+#define OBJ_EVENT_PAL_TAG_EUSINE 0x1172
+#define OBJ_EVENT_PAL_TAG_FREDO 0x1173
+#define OBJ_EVENT_PAL_TAG_LADRON_JOHTO 0x1174
+#define OBJ_EVENT_PAL_TAG_MJADEN 0x1175
+#define OBJ_EVENT_PAL_TAG_MORTY 0x1176
+#define OBJ_EVENT_PAL_TAG_PEGASO 0x1177
+#define OBJ_EVENT_PAL_TAG_PEGASO_PADRE 0x1178
+#define OBJ_EVENT_PAL_TAG_AKUERIA 0x1179
+#define OBJ_EVENT_PAL_TAG_JUGLAR 0x117F
+#define OBJ_EVENT_PAL_TAG_ZAPDOS_PRIMAL 0x1180
+#define OBJ_EVENT_PAL_TAG_KAREN 0x1181
+#define OBJ_EVENT_PAL_TAG_BRUNO 0x1182
+#define OBJ_EVENT_PAL_TAG_MECANICO_JOHTO 0x1183
+#define OBJ_EVENT_PAL_TAG_KIMONO 0x1184
+
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -615,6 +639,29 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Valeria, OBJ_EVENT_PAL_TAG_VALERIA},
 	{gObjectEventPal_VendedoraJohto, OBJ_EVENT_PAL_TAG_VENDEDORA_JOHTO},
 	{gObjectEventPal_VendedorJohto, OBJ_EVENT_PAL_TAG_VENDEDOR_JOHTO},
+	{gObjectEventPal_Beauty2, OBJ_EVENT_PAL_TAG_BEAUTY2},
+	{gObjectEventPal_Blanca,  OBJ_EVENT_PAL_TAG_BLANCA},
+	{gObjectEventPal_Cameraman2,  OBJ_EVENT_PAL_TAG_CAMERAMAN2},
+	{gObjectEventPal_Cesar,  OBJ_EVENT_PAL_TAG_CESAR},
+	{gObjectEventPal_ChicaJohto,  OBJ_EVENT_PAL_TAG_CHICA_JOHTO},
+	{gObjectEventPal_Crom,  OBJ_EVENT_PAL_TAG_CROM},
+	{gObjectEventPal_Dratini,  OBJ_EVENT_PAL_TAG_DRATINI},
+	{gObjectEventPal_EntrenadoraGuayJohto,  OBJ_EVENT_PAL_TAG_ENTRENADORA_GUAY_JOHTO},
+	{gObjectEventPal_Eusine,  OBJ_EVENT_PAL_TAG_EUSINE},
+	{gObjectEventPal_Fredo,  OBJ_EVENT_PAL_TAG_FREDO},
+	{gObjectEventPal_LadronJohto,  OBJ_EVENT_PAL_TAG_LADRON_JOHTO},
+	{gObjectEventPal_MJaden,  OBJ_EVENT_PAL_TAG_MJADEN},
+	{gObjectEventPal_Morty,  OBJ_EVENT_PAL_TAG_MORTY},
+	{gObjectEventPal_Pegaso,  OBJ_EVENT_PAL_TAG_PEGASO},
+	{gObjectEventPal_PegasoPadre,  OBJ_EVENT_PAL_TAG_PEGASO_PADRE},
+	{gObjectEventPal_Akueria,  OBJ_EVENT_PAL_TAG_AKUERIA},
+	{gObjectEventPal_Ampharos, OBJ_EVENT_PAL_TAG_AMPHAROS}, 
+	{gObjectEventPal_JuglarJohto,  OBJ_EVENT_PAL_TAG_JUGLAR},
+	{gObjectEventPal_ZapdosPrimal, OBJ_EVENT_PAL_TAG_ZAPDOS_PRIMAL},
+	{gObjectEventPal_Karen, OBJ_EVENT_PAL_TAG_KAREN},
+	{gObjectEventPal_Bruno, OBJ_EVENT_PAL_TAG_BRUNO},
+	{gObjectEventPal_MecanicoJohto, OBJ_EVENT_PAL_TAG_MECANICO_JOHTO},
+	
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

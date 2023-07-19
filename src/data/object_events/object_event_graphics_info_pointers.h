@@ -240,6 +240,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AdminPokeball;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Admin;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Agatha;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Agatha2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ampharos;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AncianaJohto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_AncianoJohto;
@@ -249,6 +250,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Anton;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Arceus;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ArceusP;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ariana;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Akueria;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ArtistaJohto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Atlas;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_BaldingMan;
@@ -446,6 +448,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fearow;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Machoke;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lapras;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zapdos;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zapdos2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Moltres;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Articuno;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mewtwo;
@@ -955,6 +958,9 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_PLAYER_ADMIN] = &gObjectEventGraphicsInfo_Player_Admin,
 	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE] =	&gObjectEventGraphicsInfo_Player_AdminJefe,
 	[OBJ_EVENT_GFX_SILVER] = &gObjectEventGraphicsInfo_Silver,
+	[OBJ_EVENT_GFX_AKUERIA] = &gObjectEventGraphicsInfo_Akueria,
+	[OBJ_EVENT_GFX_ZAPDOS_PRIMAL] = &gObjectEventGraphicsInfo_Zapdos2,
+	[OBJ_EVENT_GFX_AGATHA2] = &gObjectEventGraphicsInfo_Agatha2,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
