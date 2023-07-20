@@ -2485,24 +2485,34 @@ static void CB_ExitFlyMap(void)
 				case MAPSEC_LAVENDER_TOWN:
 					if(VarGet(VAR_UNUSED_0x40F7) >= 203){
 						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_LAVANDA_PUEBLO);
+					}else{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_LAVENDER_TOWN);
 					}
 					break;
 					
 				case MAPSEC_SAFFRON_CITY:
 					if(VarGet(VAR_UNUSED_0x40F7) >= 203){
 						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_SAFFRON_CITY);
+					}else{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_SAFFRON_CITY);
 					}
 					break;
 					
 				case MAPSEC_ROUTE_10:
-					//SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_LAVANDA_PUEBLO);
+					if(VarGet(VAR_UNUSED_0x40F7) >= 203){
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_ROUTE10);
+					}else{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_ROUTE10);	
+					}
 					break;
 					
 				case MAPSEC_CINNABAR_ISLAND:
-				if(VarGet(VAR_UNUSED_0x40F7) >= 187)
-				{
-					//SetWarpDestinationToHealLocation(HEAL_LOCATION_SOUTHERN_ISLAND_EXTERIOR);
-				}
+					if(VarGet(VAR_UNUSED_0x40F7) >= 187)
+					{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_CINNABAR_ISLAND);
+					}else{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_CINNABAR_ISLAND);
+					}
 					break;
 					
                 case MAPSEC_SOUTHERN_ISLAND:
