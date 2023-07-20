@@ -409,7 +409,7 @@
       "y": 70,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "UndergroundPath_7F_Activacion_Zona_Norte"
     },
     {
       "type": "sign",
@@ -417,7 +417,7 @@
       "y": 70,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "UndergroundPath_7F_Activacion_Zona_Norte"
     },
     {
       "type": "sign",
@@ -425,7 +425,7 @@
       "y": 69,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "UndergroundPath_7F_Activacion_Zona_Norte"
     },
     {
       "type": "sign",
@@ -433,7 +433,7 @@
       "y": 69,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "UndergroundPath_7F_Activacion_Zona_Norte"
     }
   ]
 }

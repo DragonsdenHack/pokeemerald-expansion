@@ -36,27 +36,14 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_CALVOJOHTO",
       "x": 10,
-      "y": 5,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "FLAG_NUEVA_841"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_CALVOMOTOJOHTO",
-      "x": 7,
-      "y": 6,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "UndergroundPath_7F_Primer_Motorista",
       "flag": "FLAG_NUEVA_841"
     },
     {
@@ -69,12 +56,25 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "UndergroundPath_7F_Segundo_Motorista",
+      "flag": "FLAG_NUEVA_841"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_CALVOMOTOJOHTO",
+      "x": 7,
+      "y": 4,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UndergroundPath_7F_Tercer_Motorista",
       "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 13,
+      "x": 14,
       "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -82,15 +82,23 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionMoteros_Event_Script_TM104",
+      "flag": "FLAG_NUEVA_853"
     }
   ],
   "warp_events": [
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "11",
+      "script": "UndergroundPath_12F_Combates_Moteros"
+    }
   ],
   "bg_events": [
 

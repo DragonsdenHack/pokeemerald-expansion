@@ -88,8 +88,7 @@ waitfanfare
 delay 10
 msgbox UndergroundPath_7F_Cajas_Texto_1 MSGBOX_AUTOCLOSE
 delay 10
-playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM106_POWER_UP_PUNCH
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
 msgbox UndergroundPath_7F_Cajas_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 setvar VAR_ROUTE105_STATE, 11
