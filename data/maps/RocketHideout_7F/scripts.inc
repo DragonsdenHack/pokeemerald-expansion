@@ -344,8 +344,48 @@ RocketHideout7F_Text_18:
 
 
 
-RocketHideout7F_19::
+RocketHideout7F_Bombalodo::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_815, RocketHideout7F_Bombalodo_Despues
+msgbox RocketHideout7F_Bombalodo_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM36
+msgbox RocketHideout7F_Bombalodo_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_815
+release     
 end
+
+RocketHideout7F_Bombalodo_Despues::
+msgbox RocketHideout7F_Bombalodo_Texto_2, MSGBOX_NPC
+release
+end
+
+RocketHideout7F_Bombalodo_Texto_1:
+.string "Le dije a GIOVANNI hace tiempo de\n"
+	.string "incluir BOMBA LODO como MT\l"
+	.string "obtenible en nuestra tienda, pero\l"
+	.string "es tan difícil de producir que no\l"
+	.string "fue posible.\l"
+	.string "Un ENTRENADOR y ROCKET destacado\l"
+	.string "como tú debería de contar con esa\l"
+	.string "MT, con ella infundirás aún más\l"
+	.string "temor y respeto a tus enemigos,\l"
+	.string "¿no crees?\l"
+	.string "¡Toma!$"
+
+RocketHideout7F_Bombalodo_Texto_1.1:
+.string "¡¡{PLAYER} obtuvo la MT36 BOMBA\n"
+	.string "LODO de manos de científico!!$"
+
+RocketHideout7F_Bombalodo_Texto_2:
+.string "BOMBA LODO cuenta con una gran\n"
+	.string "potencia, además de envenenar en\l"
+	.string "un 30% de las ocasiones, NIDOKING\l"
+	.string "con VIDASFERA es ideal para este\l"
+	.string "movimiento, ¡ahogará en veneno a\l"
+	.string "todos tus enemigos!$"
 
 
 

@@ -241,7 +241,7 @@ static void DrawMetatileAt(const struct MapLayout *mapLayout, u16 offset, int x,
         metatiles = mapLayout->secondaryTileset->metatiles;
         metatileId -= NUM_METATILES_IN_PRIMARY;
     }
-    DrawMetatile(MapGridGetMetatileLayerTypeAt(x, y), metatiles + metatileId * 12, offset);
+    DrawMetatile(MapGridGetMetatileLayerTypeAt(x, y), metatiles + metatileId * NUM_TILES_PER_METATILE, offset);
 }
 
 static void DrawMetatile(s32 metatileLayerType, u16 *tiles, u16 offset)
@@ -249,7 +249,7 @@ static void DrawMetatile(s32 metatileLayerType, u16 *tiles, u16 offset)
     //switch (metatileLayerType)
     if(metatileLayerType == 0xFF)
     {
-         gBGTilemapBuffers3[offset] = tiles[0];
+        gBGTilemapBuffers3[offset] = tiles[0];
         gBGTilemapBuffers3[offset + 1] = tiles[1];
         gBGTilemapBuffers3[offset + 0x20] = tiles[2];
         gBGTilemapBuffers3[offset + 0x21] = tiles[3];

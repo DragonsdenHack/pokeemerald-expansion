@@ -1,5 +1,10 @@
 RocketHideout_8F_MapScripts::
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_8F_OnFrame
 	.byte 0
+
+RocketHideout_8F_OnFrame:
+map_script_2 VAR_UNUSED_0x40DC, 6, RocketHideout_8F_Mision_Silph_Despues
+	.2byte 0
 
 RocketHideout8F_1::
 end
@@ -480,6 +485,7 @@ step_end
 
 RocketHideout_8F_Mision_Silph::
 lock
+setvar VAR_UNUSED_0x40F7, 71
 clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
 addobject 3
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move1
@@ -538,44 +544,61 @@ delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_14 MSGBOX_AUTOCLOSE
 delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_15 MSGBOX_AUTOCLOSE
-playse MUS_CAVE_OF_ORIGIN
-msgbox RocketHideout_8F_Mision_Silph_text_16 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_17 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_18 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_19 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_20 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_21 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_22 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_23 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_24 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_25 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_26 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_27 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_28 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_29 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_30 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_31 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_32 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_33 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_34 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_35 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_36 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_37 MSGBOX_AUTOCLOSE
+setflag FLAG_NUEVA_790
+clearflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+warpsilent MAP_ROUTE27, 37, 12
+call Script_SetGrayscaleTint
+release
+end
+
+RocketHideout_8F_Mision_Silph_Despues::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_Despues_Move_3
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_2
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_38 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_4
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_39 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_5
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_40 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_6
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_41 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_42 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_7
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_43 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_8
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_44 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_9
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_45 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_10
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_46 MSGBOX_AUTOCLOSE
+applymovement 3, RocketHideout_8F_Mision_Silph_Despues_Move_11
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_47 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_12
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_48 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_13
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_49 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_11
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_50 MSGBOX_AUTOCLOSE
+delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_51 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_3
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_52 MSGBOX_AUTOCLOSE
+applymovement 2, RocketHideout_8F_Mision_Silph_Despues_Move_4
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_53 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move10
 waitmovement 0x0
@@ -586,18 +609,134 @@ removeobject 2
 playse SE_EXIT
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move12
 waitmovement 0x0
-msgbox RocketHideout_8F_Mision_Silph_text_54 MSGBOX_AUTOCLOSE
-msgbox RocketHideout_8F_Mision_Silph_text_55 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move12
-applymovement 3, RocketHideout_8F_Mision_Silph_move13
+applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_14
 waitmovement 0x0
-playse SE_EXIT
+msgbox RocketHideout_8F_Mision_Silph_text_54 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_Despues_Move_15
+applymovement 3, RocketHideout_8F_Mision_Silph_Despues_Move_13
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_55 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
 setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
 removeobject 3
+fadescreen 0
+setvar VAR_UNUSED_0x40DC, 7
 setvar VAR_UNUSED_0x40F7, 72
 setvar VAR_UNUSED_0x40FD, 1
 release
 end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_15:
+walk_in_place_up
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_14:
+walk_slow_left
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+face_down
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+walk_in_place_slow_down
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_13:
+walk_slow_right
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_12:
+walk_slow_up
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+face_down
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_11:
+walk_in_place_right
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_10:
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+face_left
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+face_down
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+walk_in_place_slow_down
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_9:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_8:
+walk_down
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_7:
+walk_in_place_slow_up
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_6:
+walk_right
+face_down
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_5:
+face_down
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_4:
+walk_in_place_slow_left
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_3:
+face_up
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_2:
+walk_slow_left
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_1:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_left
+step_end
 
 RocketHideout_8F_Mision_Silph_text_1:
 .string "GIOVANNI: ¡Ah, {PLAYER}!, estábamos\n"
@@ -622,7 +761,7 @@ RocketHideout_8F_Mision_Silph_text_4:
 .string "GIOVANNI: Ambos, tú y ANDRA,\n"
 	.string "habéis demostrado un desempeño y\l"
 	.string "valor hacia el TEAM ROCKET que no\l"
-	.string "tiene precio, PETREL ya me ha\l"
+	.string "tienen precio, PETREL ya me ha\l"
 	.string "puesto al día de cómo 10 policías\l"
 	.string "juntos no fueron suficiente para\l"
 	.string "reducirte ANDRA, y resististe el\l"
@@ -701,12 +840,14 @@ RocketHideout_8F_Mision_Silph_text_17:
 .string "El que provocó este\n"
 	.string "conflicto no fue otro que LANCE,\l"
 	.string "nieto del anciano maestro dragón\l"
-	.string "de CIUDAD ENDRINO, no cabe duda\l"
-	.string "que era un excepcional ENTRENADOR,\l"
-	.string "como no podía ser menos, al ser\l"
+	.string "de CIUDAD ENDRINO. No cabe duda,\l"
+	.string "era un excepcional ENTRENADOR, y\l"
+	.string "no podía ser menos, ya que como\l"
 	.string "descendiente directo de la estirpe\l"
-	.string "de domadragones más prestigiosa,\l"
-	.string "se le educó desde pequeño en el\l"
+	.string "de domadragones más prestigiosa...$"
+
+RocketHideout_8F_Mision_Silph_text_17.1:
+	.string "...se le educó desde pequeño en el\n"
 	.string "arte de entrenar al para muchos\l"
 	.string "tipo más poderoso y sagrado,\l"
 	.string "mostró un talento innato para\l"
@@ -714,9 +855,11 @@ RocketHideout_8F_Mision_Silph_text_17:
 	.string "DRAGONITE, el considerado POKÉMON\l"
 	.string "NO LEGENDARIO más poderoso, tanto\l"
 	.string "que sobrepasa incluso el poder de\l"
-	.string "las AVES LEGENDARIAS. LANCE se\l"
-	.string "convirtió en un ENTRENADOR de\l"
-	.string "temer, contando con 3 de estos\l"
+	.string "las AVES LEGENDARIAS.$" 
+	
+RocketHideout_8F_Mision_Silph_text_17.2:
+	.string "LANCE se convirtió en un temido\n"
+	.string "ENTRENADOR, contando con 3 de estos\l"
 	.string "sagrados dragones en su equipo, no\l"
 	.string "tardó en hacerse con el poder en\l"
 	.string "JOHTO.$"
@@ -724,10 +867,12 @@ RocketHideout_8F_Mision_Silph_text_17:
 RocketHideout_8F_Mision_Silph_text_18:
 .string "Esto sin embargo no era suficiente\n"
 	.string "para someter a KANTO como él\l"
-	.string "quería, esta región siempre ha\l"
+	.string "quería, nuestra región siempre ha\l"
 	.string "contado con entrenadores\l"
-	.string "sobresalientes y de gran talento,\l"
-	.string "por ese entonces tanto yo como OAK\l"
+	.string "sobresalientes y de gran talento.$"
+
+RocketHideout_8F_Mision_Silph_text_18.1:
+	.string "Por ese entonces tanto OAK como yo\n"
 	.string "llevábamos años disputándonos el\l"
 	.string "título de CAMPEÓN, cambiando\l"
 	.string "constantemente de manos por la\l"
@@ -736,8 +881,8 @@ RocketHideout_8F_Mision_Silph_text_18:
 	.string "de nosotros no era el CAMPEÓN, el\l"
 	.string "otro pasaba a ocupar el actual\l"
 	.string "puesto de BRUNO en la ÉLITE 4,\l"
-	.string "especializándome yo en el tipo\l"
-	.string "tierra y OAK en el normal...$"
+	.string "especializándome yo en el TIPO\l"
+	.string "TIERRA y OAK en el NORMAL...$"
 
 RocketHideout_8F_Mision_Silph_text_19:
 .string "LANCE sabía que con nosotros dos\n"
@@ -746,7 +891,7 @@ RocketHideout_8F_Mision_Silph_text_19:
 	.string "dragones, fue ahí cuando empezó a\l"
 	.string "buscar ese poder que no podía\l"
 	.string "lograr en lo divino, en lo\l"
-	.string "legendario...$"
+	.string "sagrado...$"
 
 RocketHideout_8F_Mision_Silph_text_20:
 .string "Se informó acerca de los\n"
@@ -782,10 +927,12 @@ RocketHideout_8F_Mision_Silph_text_22:
 RocketHideout_8F_Mision_Silph_text_23:
 .string "El resto es ya historia, con las\n"
 	.string "BESTIAS DE JOHTO bajo su mando, se\l"
-	.string "dispuso a invadir KANTO,\l"
-	.string "contratando también a un experto\l"
-	.string "en técnicas bélicas: el LT.SURGE,\l"
-	.string "esto desató un caos en la región\l"
+	.string "dispuso a invadir KANTO.$"
+
+RocketHideout_8F_Mision_Silph_text_23.1:
+	.string "Contrató también a un experto\n"
+	.string "en técnicas bélicas: el LT.SURGE.\l"
+	.string "Todo unido desató en KANTO un caos\l"
 	.string "sin precedentes, esas bestias bajo\l"
 	.string "las órdenes de LANCE se cobraron\l"
 	.string "innumerables vidas, siendo\l"
@@ -793,11 +940,11 @@ RocketHideout_8F_Mision_Silph_text_23:
 	.string "batir en un combate para un\l"
 	.string "ENTRENADOR que no fuéramos yo o\l"
 	.string "OAK, LANCE había conseguido que el\l"
-	.string "caos y la muerte se apoderase de\l"
+	.string "caos y la muerte se apoderasen de\l"
 	.string "KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_24:
-.string "Fue en ese momento cuando yo y OAK\n"
+.string "Fue en ese momento cuando OAK y yo\n"
 	.string "decidimos tomar cartas en el\l"
 	.string "asunto, viendo que era imposible\l"
 	.string "apaciguar la furia de esas\l"
@@ -807,36 +954,75 @@ RocketHideout_8F_Mision_Silph_text_24:
 RocketHideout_8F_Mision_Silph_text_25:
 .string "Yo en ese momento era el hombre de\n"
 	.string "negocios más importante de KANTO,\l"
-	.string "y OAK el investigador más famoso,\l"
+	.string "y OAK el investigador más famoso:\l"
 	.string "decidimos juntar todos nuestros\l"
 	.string "recursos, con el único afán de ir\l"
 	.string "tras esa leyenda...ese mítico\l"
-	.string "POKÉMON llamado MEW, y, junto\l"
-	.string "otras mentes brillantes como la de\l"
-	.string "FUJI, amplificar aún más sus\l"
-	.string "poderes, obtener un POKÉMON capaz\l"
-	.string "de detener a esas bestias y\l"
-	.string "decantar la guerra a nuestro\l"
-	.string "favor.$"
+	.string "POKÉMON llamado MEW...$"
+	
+RocketHideout_8F_Mision_Silph_text_25.1:
+.string "La iniciativa fue de FUJI, quien\n"
+	.string "conocía más que nadie al POKÉMON.\l"
+	.string "Gracias a él pudimos llegar a ISLA\l"
+	.string "SUPREMA, y capturar a MEW...$"
+
+RocketHideout_8F_Mision_Silph_text_25.2:
+.string "Pero MEW por sí solo no iba a darnos la\n"
+	.string "victoria. Su propia naturaleza le\l"
+	.string "impedía ser partícipe de cualquier\l"
+	.string "clase de conflicto, necesitábamos algo\l"
+	.string "más.$"
+
+RocketHideout_8F_Mision_Silph_text_25.3:
+.string "Fue aquí cuando nació el -PROYECTO\n"
+	.string "MEWTWO-. Con la finalidad de exprimir\l"
+	.string "al máximo el potencial de MEW y poder\l"
+	.string "usarlo en la guerra.$"
+
+RocketHideout_8F_Mision_Silph_text_25.4:
+.string "No fue nada fácil, los resultados\n"
+	.string "dejaban anomalías y deformidades de\l"
+	.string "lo que inicialmente era MEW.\l"
+	.string "Conservando únicamente el 48% de su\l"
+	.string "poder base global, únicamente\l"
+	.string "heredaron el poder de transformación\l"
+	.string "del LEGENDARIO, algo insuficiente que\l"
+	.string "nos llevó a deshechar a estos\l"
+	.string "prototipos iniciales.$"
+
+RocketHideout_8F_Mision_Silph_text_25.5:
+.string "Es lo que comúnmente se conoce como\n"
+	.string "DITTO, se han reportado varios\l"
+	.string "ejemplares en la propia MANSION\l"
+	.string "CANELA y algunas rutas al este de\l"
+	.string "FUCSIA.$"
+
+
+RocketHideout_8F_Mision_Silph_text_25.6:
+.string "Todas las combinaciones nos conducían\n"
+	.string "a DITTO, se nos agotaba el tiempo y\l"
+	.string "los fondos.\l"
+	.string "Si no sacábamos algo pronto, a KANTO\l"
+	.string "no le quedaba otra vía: rendirse.$"
 
 RocketHideout_8F_Mision_Silph_text_26:
-.string "Tras muchos fracasos y pruebas\n"
-	.string "fallidas, finalmente pudimos\l"
+.string "Fue en ese momento...tras muchos\n"
+	.string "fracasos, cuando finalmente pudimos\l"
 	.string "incluso mejorar al legendario MEW,\l"
 	.string "creando a partir de su ADN un\l"
 	.string "POKÉMON hecho específicamente para\l"
-	.string "el combate, y para ganar la guerra\l"
-	.string "de KANTO.$"
+	.string "el combate... y para ganar la\l"
+	.string "guerra de KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_27:
 .string "Más rápido, más potente y\n"
 	.string "polivalente que las bestias de\l"
-	.string "KANTO, estimamos su poder a la par\l"
+	.string "JOHTO, estimamos su poder a la par\l"
 	.string "que los mismísimos LUGIA y HO-OH\l"
-	.string "que LANCE nunca pudo encontrar, y\l"
+	.string "que LANCE nunca pudo encontrar. Y\l"
 	.string "unas capacidades mentales que no\l"
-	.string "se parecen en nada que hayamos\l"
-	.string "visto...$"
+	.string "se parecían a nada de lo que\l"
+	.string "habíamos visto...$"
 
 RocketHideout_8F_Mision_Silph_text_28:
 .string "Con MEWTWO, podíamos acabar con\n"
@@ -858,38 +1044,37 @@ RocketHideout_8F_Mision_Silph_text_30:
 	.string "más remedio que rendirse ante\l"
 	.string "LANCE, el cual se autoproclamó\l"
 	.string "campeón de JOHTO y KANTO\l"
-	.string "simultáneamente, entonces llegó el\l"
-	.string "momento de quitarse del medio\l"
+	.string "simultáneamente. Entonces, llegó\l"
+	.string "el momento de quitarse del medio\l"
 	.string "todas sus posibles amenazas...$"
 
 RocketHideout_8F_Mision_Silph_text_31:
 .string "Sin embargo, para mi sorpresa, OAK\n"
 	.string "fue el primero en arrodillarse\l"
-	.string "ante LANCE una vez este se hizo\l"
-	.string "con el poder, le ofreció todos sus\l"
+	.string "una vez LANCE se hizo con el\l"
+	.string "poder, ofreciéndole todos sus\l"
 	.string "conocimientos sobre los POKÉMON\l"
-	.string "prometiendo ayudar a su gobierno,\l"
-	.string "el muy cobarde...$"
+	.string "prometiendo ayudar al nuevo\l"
+	.string "gobierno. Lo peor es que...$"
 
 RocketHideout_8F_Mision_Silph_text_32:
-.string "Me señaló a mí como el principal\n"
+.string "...me señaló a mí como el principal\n"
 	.string "peligro para su gobierno, le habló\l"
-	.string "de nuestros planes acerca de\l"
-	.string "MEWTWO, tengo entendido que nunca\l"
-	.string "le llegó a hablar de dicho POKÉMON\l"
-	.string "de forma directa, pero sí de mi\l"
-	.string "conspiración contra LANCE.$"
+	.string "de nuestros planes para intentar\l"
+	.string "derrocarle. Aunque nunca mencionó\l"
+	.string "a MEWTWO, sí que me culpó de\l"
+	.string "conspirar, incluso tras la guerra.$"
 
 RocketHideout_8F_Mision_Silph_text_33:
-.string "Este no tardó en lanzar contra mí\n"
-	.string "una tremenda campaña de\l"
-	.string "desprestigio hacia mi persona, a\l"
-	.string "pesar de haber dado todo por\l"
+.string "LANCE no tardó en lanzar contra mi\n"
+	.string "persona una tremenda campaña de\l"
+	.string "desprestigio.\l"
+	.string "A pesar de haber dado todo por\l"
 	.string "mantener KANTO en manos de sus\l"
 	.string "habitantes, LANCE logró convencer\l"
 	.string "a la opinión pública de que yo era\l"
 	.string "el malo, y él el salvador, según la\l"
-	.string "versión oficial, LANCE sólo se vió\l"
+	.string "versión oficial, LANCE solo se vio\l"
 	.string "obligado a intervenir después de\l"
 	.string "un descarado intento de Golpe de\l"
 	.string "Estado por mi parte al revalidar\l"
@@ -897,7 +1082,7 @@ RocketHideout_8F_Mision_Silph_text_33:
 
 RocketHideout_8F_Mision_Silph_text_34:
 .string "Esto, por supuesto, es una\n"
-	.string "absoluta estupidez y sin sentido\l"
+	.string "absoluta estupidez y un sin sentido\l"
 	.string "para cualquiera que haya vivido la\l"
 	.string "guerra, pero, entre que la gente\l"
 	.string "calla por miedo a represalias del\l"
@@ -906,24 +1091,18 @@ RocketHideout_8F_Mision_Silph_text_34:
 	.string "de hechos falsos, por puro\l"
 	.string "desgaste han conseguido ir\l"
 	.string "difuminando la verdad con el paso\l"
-	.string "del tiempo, hasta el punto que\l"
-	.string "incluso los que de verdad\l"
-	.string "estuvieron en la guerra a día de\l"
+	.string "del tiempo, hasta el punto en que\l"
+	.string "incluso aquellos que en realidad\l"
+	.string "estuvieron presentesen la guerra,\l"
 	.string "hoy dudan de lo que realmente\l"
-	.string "vieron.$"
-
-RocketHideout_8F_Mision_Silph_text_35:
-.string "PROTÓN: Técnicas de control\n"
-	.string "social, muy efectivas, más aún si\l"
-	.string "cuentas con alguien como OAK\l"
-	.string "administrándolas.$"
+	.string "vivieron.$"
 
 RocketHideout_8F_Mision_Silph_text_36:
 .string "GIOVANNI: Desde ese entonces, todo\n"
 	.string "lo asociado a mi nombre, en su día\l"
 	.string "uno de los más prestigiosos de la\l"
-	.string "región, es ahora la mayor deshonra\l"
-	.string "y verguenza para KANTO.$"
+	.string "región, se convirtió en la mayor\l"
+	.string "deshonra y verguenza para KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_37:
 .string "De este modo, y así las cosas,\n"

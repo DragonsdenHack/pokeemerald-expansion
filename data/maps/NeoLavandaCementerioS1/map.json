@@ -106,7 +106,7 @@
       "flag": "FLAG_NUEVA_675"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BALLORO",
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
       "x": 47,
       "y": 11,
       "elevation": 3,
@@ -115,7 +115,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Cementerio_EventScript_Elixir",
       "flag": "FLAG_NUEVA_676"
     },
     {
@@ -236,17 +236,17 @@
       "flag": "FLAG_NUEVA_674"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
-      "x": -1,
-      "y": 46,
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
+      "x": 8,
+      "y": 51,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "NeoLavandaCementerioS1_Rocket_Redencion",
+      "flag": "FLAG_NUEVA_830"
     }
   ],
   "warp_events": [

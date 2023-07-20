@@ -1517,20 +1517,26 @@ void PlayTrainerEncounterMusic(void)
             music = 496;
             break;
         case TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO:
-            music = 495;
+            music = MUS_RG_ENCOUNTER_ROCKET;
+            break;
         case TRAINER_ENCOUNTER_MUSIC_CULTISTA:
             music = 458;
             break;
         case TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO:
             music = 600;
+            break;
         case TRAINER_ENCOUNTER_MUSIC_NECIOJOHTO:
             music = 599;
+            break;
         case TRAINER_ENCOUNTER_MUSIC_SABIOJOHTO:
             music = 601;
+            break;
         case TRAINER_ENCOUNTER_MUSIC_CHICAJOHTO:
             music = 598;
+            break;
         case TRAINER_ENCOUNTER_MUSIC_MATONJOHTO:
             music = 597;
+            break;
         case TRAINER_ENCOUNTER_MUSIC_PENSADOR:
             music = 602;
             break;

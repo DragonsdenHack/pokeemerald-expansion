@@ -2676,3 +2676,53 @@ Text_EVChecker_3:
 	.include "data/maps/NeoSaffron_TrainStation/scripts.inc"
 
 	.include "data/maps/Route49_dESCAN/scripts.inc"
+
+	.include "data/maps/TinTower_Lance/scripts.inc"
+
+	.include "data/maps/PokemonLeague_Escenalance/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P1/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P2/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P3/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_P4/scripts.inc"
+
+	.include "data/maps/TwoIsland_Secundario/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P1/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P2/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P3/scripts.inc"
+
+	.include "data/maps/TwoIsland_Torre_P4/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Norte/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Sur/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Sur_2/scripts.inc"
+
+	.include "data/maps/NeoLavanda_Ruta_Oeste/scripts.inc"
+
+	.include "data/maps/LavenderRadioP7/scripts.inc"
+
+	.include "data/maps/LavenderRadioP8/scripts.inc"
+
+	.include "data/maps/LavenderRadioP9/scripts.inc"
+
+	.include "data/maps/LavenderRadioP10/scripts.inc"
+
+	.include "data/maps/UndergroundPath_7F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_8F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_9F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_10F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_11F/scripts.inc"
+
+	.include "data/maps/UndergroundPath_12F/scripts.inc"

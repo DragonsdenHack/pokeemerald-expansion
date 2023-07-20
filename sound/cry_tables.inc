@@ -898,6 +898,84 @@ gCryTable::
 	cry_uncomp Cry_Glastrier
 	cry_uncomp Cry_Spectrier
 	cry_uncomp Cry_Calyrex
+	cry Cry_Eoneon
+	cry Cry_Trxatu
+	cry Cry_ElectrodeY
+	cry Cry_TaurosX
+	cry Cry_Porygon3
+	cry Cry_ElectivireX
+	cry Cry_MagmortarY
+	cry Cry_NidoqueenY
+	cry Cry_NidokingX
+	cry Cry_PorygonZX
+	cry Cry_PorygonZY
+	cry Cry_Nidogod
+	cry Cry_AerodactylSkel
+	cry Cry_CradilyY
+	cry Cry_RampardosX
+	cry Cry_BastiodonX
+	cry Cry_TyrantrumX
+	cry Cry_ArcheopsX
+	cry Cry_RegirockX
+	cry Cry_RegiceY
+	cry Cry_RegisteelZ
+	cry Cry_DeoxysAttackY
+	cry Cry_DeoxysSpeedY
+	cry Cry_MewtwoArm
+	cry Cry_GenesectX
+	cry Cry_GenesectY
+	cry Cry_UltimateProyect
+	cry Cry_PoliwrathBond
+	cry Cry_ButterfreeBond
+	cry Cry_FeraligatrBond
+	cry Cry_RapidashBond
+	cry Cry_KingdraBond
+	cry Cry_SkarmoryBond
+	cry Cry_EeveeBond
+	cry Cry_HypnoBond
+	cry Cry_DunsparceOld
+	cry Cry_DelphoxBond
+	cry Cry_RhyperiorBond
+	cry Cry_LaprasBond
+	cry Cry_EmpoleonBond
+	cry Cry_InfernapeBond
+	cry Cry_MespritBond
+	cry Cry_SerperiorBond
+	cry Cry_HaxorusBond
+	cry Cry_WeavileBond
+	cry Cry_AegislashBond
+	cry Cry_VolcaronaBond
+	cry Cry_GoodraBond
+	cry Cry_HydreigonBond
+	cry Cry_DragoniteBond
+	cry Cry_Maroghost
+	cry Cry_KabutopsSkel
+	cry Cry_Dudunsparce
+	cry Cry_Ghost
+	cry Cry_UnownGold
+	cry Cry_UnownKing
+	cry Cry_ArticunoPrimal
+	cry Cry_ZapdosPrimal
+	cry Cry_MoltresPrimal
+	cry Cry_RaikouBond
+	cry Cry_EnteiBond
+	cry Cry_SuicuneBond
+	cry Cry_Kurusu
+	cry Cry_Akua
+	cry Cry_Akueria
+	cry Cry_Boohoo
+	cry Cry_Ikary
+	cry Cry_Purakkusu
+	cry Cry_Taaban
+	cry Cry_Bomushikaa
+	cry Cry_Madaamu
+	cry Cry_Sui
+	cry Cry_Rai
+	cry Cry_En
+	cry Cry_SacredDragon
+	cry Cry_OriginalDragon
+	cry Cry_ArceusPrimal
+	cry Cry_MissingNo
 	@ Megas
 	cry_uncomp Cry_VenusaurMega
 	cry_uncomp Cry_CharizardMegaX
@@ -946,10 +1024,29 @@ gCryTable::
 	cry_uncomp Cry_GalladeMega
 	cry_uncomp Cry_AudinoMega
 	cry_uncomp Cry_DiancieMega
+	cry Cry_DusknoirMega
+	cry Cry_FlygonMega
+	cry Cry_StarmieMega
+	cry Cry_ButterfreeMega
+	cry Cry_NoivernMega
+	cry Cry_MiloticMega
+	cry Cry_PorygonZMega
+	cry Cry_CofagrigusMega
+	cry Cry_DuraludonMega
 	@ Special Mega + Primals
 	cry_uncomp Cry_RayquazaMega
 	cry_uncomp Cry_KyogrePrimal
 	cry_uncomp Cry_GroudonPrimal
+	cry Cry_DarkraiPrimal
+	cry Cry_HoOhPrimal
+	cry Cry_LugiaPrimal
+	cry Cry_CelebiPrimal
+	cry Cry_JirachiPrimal
+	cry Cry_VictiniPrimal
+	cry Cry_RegigigasPrimal
+	cry Cry_DialgaPrimal
+	cry Cry_PalkiaPrimal
+	cry Cry_KyuremPrimal
 	@ Alolan Forms
 	cry Cry_Rattata
 	cry Cry_Raticate
@@ -1271,6 +1368,82 @@ gCryTable::
 	@ Calyrex
 	cry_uncomp Cry_CalyrexIceRider
 	cry_uncomp Cry_CalyrexShadowRider
+	cry Cry_AerodactylPrimal
+	cry Cry_CrobatBond
+	cry Cry_Crobat2Bond
+	cry Cry_KabutopsPrimal
+	cry Cry_GhostPrimal
+	cry Cry_MamoswineBond
+	cry Cry_DecidueyeHisui
+	cry Cry_TyphlosionHisui
+	cry Cry_SamurottHisui
+	cry Cry_Wyrdeer
+	cry Cry_Kleavor
+	cry Cry_QwilfishHisui
+	cry Cry_Overqwil
+	cry Cry_LilligantHisui
+	cry Cry_Ursaluna
+	cry Cry_SliggooHisui
+	cry Cry_GoodraHisui
+	cry Cry_GrowlitheHisui
+	cry Cry_ArcanineHisui
+	cry Cry_BasculinWhiteStriped
+	cry Cry_Basculegion
+	cry Cry_BasculegionFemale
+	cry Cry_VoltorbHisui
+	cry Cry_ElectrodeHisui
+	cry Cry_SneaselHisui
+	cry Cry_Sneasler
+	cry Cry_AvaluggHisui
+	cry Cry_ZoruaHisui
+	cry Cry_ZoroarkHisui
+	cry Cry_BraviaryHisui
+	cry Cry_Enamorus
+	cry Cry_EnamorusTherian
+	cry Cry_DialgaOrigin
+	cry Cry_PalkiaOrigin
+	cry Cry_WooperPaldea
+	cry Cry_Clodsire
+	cry Cry_Annihilape
+	cry Cry_Farigiraf
+	cry Cry_TaurosPaldeaCombat
+	cry Cry_TaurosPaldeaBlaze
+	cry Cry_TaurosPaldeaAqua
+	cry Cry_Toedscool
+	cry Cry_Toedscruel
+	cry Cry_Wiglett
+	cry Cry_Wugtrio
+	cry Cry_Kingambit
+	cry Cry_Frigibax
+	cry Cry_Arctibax
+	cry Cry_Baxcalibur
+	cry Cry_GreatTusk
+	cry Cry_ScreamTail
+	cry Cry_BruteBonnet
+	cry Cry_FlutterMane
+	cry Cry_SlitherWing
+	cry Cry_SandyShocks
+	cry Cry_IronTreads
+	cry Cry_IronBundle
+	cry Cry_IronHands
+	cry Cry_IronJugulis
+	cry Cry_IronMoth
+	cry Cry_IronThorns
+	cry Cry_WoChien
+	cry Cry_ChienPao
+	cry Cry_TingLu
+	cry Cry_ChiYu
+	cry Cry_RoaringMoon
+	cry Cry_IronValiant
+	cry Cry_Koraidon
+	cry Cry_Miraidon
+	cry Cry_WalkingWake
+	cry Cry_IronLeaves
+	cry Cry_Ogerpon
+	cry Cry_Okidogi
+	cry Cry_Munkidori
+	cry Cry_Fezandipiti
+	cry Cry_Terapagos
 
 	.align 2
 gCryTable_Reverse::
@@ -2172,6 +2345,84 @@ gCryTable_Reverse::
 	cry_reverse_uncomp Cry_Glastrier
 	cry_reverse_uncomp Cry_Spectrier
 	cry_reverse_uncomp Cry_Calyrex
+	cry_reverse Cry_Eoneon
+	cry_reverse Cry_Trxatu
+	cry_reverse Cry_ElectrodeY
+	cry_reverse Cry_TaurosX
+	cry_reverse Cry_Porygon3
+	cry_reverse Cry_ElectivireX
+	cry_reverse Cry_MagmortarY
+	cry_reverse Cry_NidoqueenY
+	cry_reverse Cry_NidokingX
+	cry_reverse Cry_PorygonZX
+	cry_reverse Cry_PorygonZY
+	cry_reverse Cry_Nidogod
+	cry_reverse Cry_AerodactylSkel
+	cry_reverse Cry_CradilyY
+	cry_reverse Cry_RampardosX
+	cry_reverse Cry_BastiodonX
+	cry_reverse Cry_TyrantrumX
+	cry_reverse Cry_ArcheopsX
+	cry_reverse Cry_RegirockX
+	cry_reverse Cry_RegiceY
+	cry_reverse Cry_RegisteelZ
+	cry_reverse Cry_DeoxysAttackY
+	cry_reverse Cry_DeoxysSpeedY
+	cry_reverse Cry_MewtwoArm
+	cry_reverse Cry_GenesectX
+	cry_reverse Cry_GenesectY
+	cry_reverse Cry_UltimateProyect
+	cry_reverse Cry_PoliwrathBond
+	cry_reverse Cry_ButterfreeBond
+	cry_reverse Cry_FeraligatrBond
+	cry_reverse Cry_RapidashBond
+	cry_reverse Cry_KingdraBond
+	cry_reverse Cry_SkarmoryBond
+	cry_reverse Cry_EeveeBond
+	cry_reverse Cry_HypnoBond
+	cry_reverse Cry_DunsparceOld
+	cry_reverse Cry_DelphoxBond
+	cry_reverse Cry_RhyperiorBond
+	cry_reverse Cry_LaprasBond
+	cry_reverse Cry_EmpoleonBond
+	cry_reverse Cry_InfernapeBond
+	cry_reverse Cry_MespritBond
+	cry_reverse Cry_SerperiorBond
+	cry_reverse Cry_HaxorusBond
+	cry_reverse Cry_WeavileBond
+	cry_reverse Cry_AegislashBond
+	cry_reverse Cry_VolcaronaBond
+	cry_reverse Cry_GoodraBond
+	cry_reverse Cry_HydreigonBond
+	cry_reverse Cry_DragoniteBond
+	cry_reverse Cry_Maroghost
+	cry_reverse Cry_KabutopsSkel
+	cry_reverse Cry_Dudunsparce
+	cry_reverse Cry_Ghost
+	cry_reverse Cry_UnownGold
+	cry_reverse Cry_UnownKing
+	cry_reverse Cry_ArticunoPrimal
+	cry_reverse Cry_ZapdosPrimal
+	cry_reverse Cry_MoltresPrimal
+	cry_reverse Cry_RaikouBond
+	cry_reverse Cry_EnteiBond
+	cry_reverse Cry_SuicuneBond
+	cry_reverse Cry_Kurusu
+	cry_reverse Cry_Akua
+	cry_reverse Cry_Akueria
+	cry_reverse Cry_Boohoo
+	cry_reverse Cry_Ikary
+	cry_reverse Cry_Purakkusu
+	cry_reverse Cry_Taaban
+	cry_reverse Cry_Bomushikaa
+	cry_reverse Cry_Madaamu
+	cry_reverse Cry_Sui
+	cry_reverse Cry_Rai
+	cry_reverse Cry_En
+	cry_reverse Cry_SacredDragon
+	cry_reverse Cry_OriginalDragon
+	cry_reverse Cry_ArceusPrimal
+	cry_reverse Cry_MissingNo
 	@ Megas
 	cry_reverse_uncomp Cry_VenusaurMega
 	cry_reverse_uncomp Cry_CharizardMegaX
@@ -2220,10 +2471,29 @@ gCryTable_Reverse::
 	cry_reverse_uncomp Cry_GalladeMega
 	cry_reverse_uncomp Cry_AudinoMega
 	cry_reverse_uncomp Cry_DiancieMega
+	cry_reverse Cry_DusknoirMega
+	cry_reverse Cry_FlygonMega
+	cry_reverse Cry_StarmieMega
+	cry_reverse Cry_ButterfreeMega
+	cry_reverse Cry_NoivernMega
+	cry_reverse Cry_MiloticMega
+	cry_reverse Cry_PorygonZMega
+	cry_reverse Cry_CofagrigusMega
+	cry_reverse Cry_DuraludonMega
 	@ Special Mega + Primals
 	cry_reverse_uncomp Cry_RayquazaMega
 	cry_reverse_uncomp Cry_KyogrePrimal
 	cry_reverse_uncomp Cry_GroudonPrimal
+	cry_reverse Cry_DarkraiPrimal
+	cry_reverse Cry_HoOhPrimal
+	cry_reverse Cry_LugiaPrimal
+	cry_reverse Cry_CelebiPrimal
+	cry_reverse Cry_JirachiPrimal
+	cry_reverse Cry_VictiniPrimal
+	cry_reverse Cry_RegigigasPrimal
+	cry_reverse Cry_DialgaPrimal
+	cry_reverse Cry_PalkiaPrimal
+	cry_reverse Cry_KyuremPrimal
 	@ Alolan Forms
 	cry_reverse Cry_Rattata
 	cry_reverse Cry_Raticate
@@ -2545,3 +2815,79 @@ gCryTable_Reverse::
 	@ Calyrex
 	cry_reverse_uncomp Cry_CalyrexIceRider
 	cry_reverse_uncomp Cry_CalyrexShadowRider
+	cry_reverse Cry_AerodactylPrimal
+	cry_reverse Cry_CrobatBond
+	cry_reverse Cry_Crobat2Bond
+	cry_reverse Cry_KabutopsPrimal
+	cry_reverse Cry_GhostPrimal
+	cry_reverse Cry_MamoswineBond
+	cry_reverse Cry_DecidueyeHisui
+	cry_reverse Cry_TyphlosionHisui
+	cry_reverse Cry_SamurottHisui
+	cry_reverse Cry_Wyrdeer
+	cry_reverse Cry_Kleavor
+	cry_reverse Cry_QwilfishHisui
+	cry_reverse Cry_Overqwil
+	cry_reverse Cry_LilligantHisui
+	cry_reverse Cry_Ursaluna
+	cry_reverse Cry_SliggooHisui
+	cry_reverse Cry_GoodraHisui
+	cry_reverse Cry_GrowlitheHisui
+	cry_reverse Cry_ArcanineHisui
+	cry_reverse Cry_BasculinWhiteStriped
+	cry_reverse Cry_Basculegion
+	cry_reverse Cry_BasculegionFemale
+	cry_reverse Cry_VoltorbHisui
+	cry_reverse Cry_ElectrodeHisui
+	cry_reverse Cry_SneaselHisui
+	cry_reverse Cry_Sneasler
+	cry_reverse Cry_AvaluggHisui
+	cry_reverse Cry_ZoruaHisui
+	cry_reverse Cry_ZoroarkHisui
+	cry_reverse Cry_BraviaryHisui
+	cry_reverse Cry_Enamorus
+	cry_reverse Cry_EnamorusTherian
+	cry_reverse Cry_DialgaOrigin
+	cry_reverse Cry_PalkiaOrigin
+	cry_reverse Cry_WooperPaldea
+	cry_reverse Cry_Clodsire
+	cry_reverse Cry_Annihilape
+	cry_reverse Cry_Farigiraf
+	cry_reverse Cry_TaurosPaldeaCombat
+	cry_reverse Cry_TaurosPaldeaBlaze
+	cry_reverse Cry_TaurosPaldeaAqua
+	cry_reverse Cry_Toedscool
+	cry_reverse Cry_Toedscruel
+	cry_reverse Cry_Wiglett
+	cry_reverse Cry_Wugtrio
+	cry_reverse Cry_Kingambit
+	cry_reverse Cry_Frigibax
+	cry_reverse Cry_Arctibax
+	cry_reverse Cry_Baxcalibur
+	cry_reverse Cry_GreatTusk
+	cry_reverse Cry_ScreamTail
+	cry_reverse Cry_BruteBonnet
+	cry_reverse Cry_FlutterMane
+	cry_reverse Cry_SlitherWing
+	cry_reverse Cry_SandyShocks
+	cry_reverse Cry_IronTreads
+	cry_reverse Cry_IronBundle
+	cry_reverse Cry_IronHands
+	cry_reverse Cry_IronJugulis
+	cry_reverse Cry_IronMoth
+	cry_reverse Cry_IronThorns
+	cry_reverse Cry_WoChien
+	cry_reverse Cry_ChienPao
+	cry_reverse Cry_TingLu
+	cry_reverse Cry_ChiYu
+	cry_reverse Cry_RoaringMoon
+	cry_reverse Cry_IronValiant
+	cry_reverse Cry_Koraidon
+	cry_reverse Cry_Miraidon
+	cry_reverse Cry_WalkingWake
+	cry_reverse Cry_IronLeaves
+	cry_reverse Cry_Ogerpon
+	cry_reverse Cry_Okidogi
+	cry_reverse Cry_Munkidori
+	cry_reverse Cry_Fezandipiti
+	cry_reverse Cry_Terapagos

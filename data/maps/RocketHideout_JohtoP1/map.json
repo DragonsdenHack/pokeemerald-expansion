@@ -67,7 +67,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 22,
       "y": 26,
       "elevation": 3,
@@ -171,7 +171,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 34,
       "y": 20,
       "elevation": 3,
@@ -184,7 +184,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 37,
       "y": 26,
       "elevation": 3,
@@ -197,7 +197,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 40,
       "y": 26,
       "elevation": 3,
@@ -223,7 +223,7 @@
       "flag": "FLAG_HIDE_MAUVILLE_CITY_SCOTT"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 42,
       "y": 41,
       "elevation": 3,
@@ -236,7 +236,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 33,
       "y": 50,
       "elevation": 3,
@@ -249,7 +249,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 36,
       "y": 54,
       "elevation": 3,
@@ -275,7 +275,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 34,
       "y": 34,
       "elevation": 3,
@@ -316,7 +316,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
       "x": 2,
-      "y": 54,
+      "y": 56,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -328,10 +328,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
-      "x": 8,
-      "y": 51,
+      "x": 9,
+      "y": 50,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -444,7 +444,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 20,
       "y": 17,
       "elevation": 3,
@@ -481,6 +481,19 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "BaseJohto_EventScript_MasPs",
       "flag": "FLAG_NUEVA_529"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 4,
+      "y": 44,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RocketJohto_Event_Script_TM87",
+      "flag": "FLAG_NUEVA_822"
     }
   ],
   "warp_events": [

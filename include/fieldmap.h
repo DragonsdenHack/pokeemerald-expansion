@@ -13,6 +13,8 @@
 #define NUM_PALS_TOTAL 13
 #define MAX_MAP_DATA_SIZE 0x2800
 
+#define NUM_TILES_PER_METATILE 12
+
 // Map coordinates are offset by 7 when using the map
 // buffer because it needs to load sufficient border
 // metatiles to fill the player's view (the player has

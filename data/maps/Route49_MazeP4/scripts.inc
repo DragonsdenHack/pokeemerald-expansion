@@ -50,7 +50,7 @@ Route49MazeP4Documento_Text_100:
 	.string "VELOCIDAD: 109\l"
 	.string "TOTAL: 721\p"
 	.string "DRAGÓN/PSÍQUICO\n"
-	.string "La leyenda dice que surgió a partir de\n"
+	.string "La leyenda dice que surgió a partir de\l"
 	.string "un DUNSPARCE, el cual fue despreciado\l"
 	.string "y juzgado por el resto de POKEMON.\l"
 	.string "Producto de ello y su inquebrantable\l"
@@ -510,3 +510,38 @@ Route49_MazeP4_Dialogo_Anciano_Texto_1:
 	.string "nuevos cambios. Espero que EUSINE\l"
 	.string "pueda ayudaros en vuestro propósito,\l"
 	.string "señal será de que es puro.$"
+
+Route49MazeP4_EventScript_Sabio::
+	trainerbattle_single TRAINER_TRAINER_192, Route49MazeP4_Text_SabioIntro, Route49MazeP4_Text_SabioDefeated
+	msgbox Route49MazeP4_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route49MazeP4Documento_101::
+lock     
+showmonpic SPECIES_DUNSPARCE_OLD, 10, 3  
+playmoncry SPECIES_DUNSPARCE, CRY_MODE_ENCOUNTER 
+msgbox Route49MazeP4Documento_Text_101, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+Route49MazeP4Documento_Text_101:
+.string "DUN:\p"
+	.string "PS: 135\n"
+	.string "ATAQUE: 60\l"
+	.string "DEFENSA: 85\l"
+	.string "ATAQUE ESPECIAL: 115\l"
+	.string "DEFENSA ESPECIAL: 125\l"
+	.string "VELOCIDAD: 90\l"
+	.string "TOTAL: 610\p"
+	.string "DRAGÓN/NORMAL\n"
+	.string "Evolución de DUDUNSPARCE que solo los\l"
+	.string "elegidos pueden alcanzar. Posee\l"
+	.string "mimbres de PSEUDOLEGENDARIO, aunque\l"
+	.string "todos sus atributos en conjunto\l"
+	.string "muestran una jerarquía incluso\l"
+	.string "superior. Fue señalado por los antiguos\l"
+	.string "como el NO LEGENDARIO con mayor\l"
+	.string "potencial puro, ignorando fenómenos\l"
+	.string "como la MEGAEVOLUCION y el FUERTE\l"
+	.string "VINCULO.$"

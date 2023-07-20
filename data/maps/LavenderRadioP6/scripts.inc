@@ -380,7 +380,7 @@ waitmovement 0x0
 delay 20
 msgbox LavenderRadioP6_Combate_Bill_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_3
+applymovement 3, LavenderRadioP6_Combate_Bill_Move_3.1
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 3, LavenderRadioP6_Combate_Bill_Move_4
@@ -429,33 +429,39 @@ setvar VAR_UNUSED_0x40F7, 213
 release
 end
 
+LavenderRadioP6_Combate_Bill_Move_3.1:
+walk_slow_left
+walk_slow_down
+step_end
+
 LavenderRadioP6_Combate_Bill_Move_10:
-walk_left
+walk_right
+walk_right
 walk_up
 walk_up
-walk_up
-walk_up
-walk_up
-walk_up
+walk_right
+walk_right
+walk_right
 walk_up
 walk_up
 face_right
 step_end
 
 LavenderRadioP6_Combate_Bill_Move_9:
-walk_down
 walk_left
 walk_left
 walk_left
+delay_8
 walk_in_place_right
+delay_8
 step_end
 
 LavenderRadioP6_Combate_Bill_Move_8:
-walk_left
-walk_down
-walk_down
-walk_left
-walk_in_place_right
+walk_up
+walk_up
+delay_8
+walk_in_place_down
+delay_8
 step_end
 
 LavenderRadioP6_Combate_Bill_Move_7:

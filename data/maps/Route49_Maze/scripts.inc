@@ -72,7 +72,7 @@ Route49_Maze_Text6:
 
 
 Route49Maze_EventScript_Sabio::
-	trainerbattle_single TRAINER_TRAINER_152, Route49Maze_Text_SabioIntro, Route49Maze_Text_SabioDefeated
+	trainerbattle_single TRAINER_TRAINER_186, Route49Maze_Text_SabioIntro, Route49Maze_Text_SabioDefeated
 	msgbox Route49Maze_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -120,13 +120,13 @@ end
 
 Route49MazeDocumento_Text_101:
 .string "BOOHOO:\p"
-	.string "PS: 110\n"
+	.string "PS: 120\n"
 	.string "ATAQUE: 55\l"
 	.string "DEFENSA: 65\l"
-	.string "ATAQUE ESPECIAL: 111\l"
+	.string "ATAQUE ESPECIAL: 116\l"
 	.string "DEFENSA ESPECIAL: 126\l"
 	.string "VELOCIDAD: 60\l"
-	.string "TOTAL: 527\p"
+	.string "TOTAL: 542\p"
 	.string "PSÍQUICO/VOLADOR\n"
 	.string "Se dice que puede evolucionar de\l"
 	.string "NOCTOWL en condiciones muy concretas\l"

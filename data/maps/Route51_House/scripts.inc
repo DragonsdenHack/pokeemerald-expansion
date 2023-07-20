@@ -121,10 +121,22 @@ msgbox Route51HouseDocumento_Text_100YesNo2, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Route51HouseDocumento_100No
 msgbox Route51HouseDocumento_Text_100Yes16, MSGBOX_DEFAULT
+compare VAR_UNUSED_0x40F7, 152
+goto_if_gt Route51House_Post_Reunion
+release
+end
+
+Route51House_Post_Reunion::
 msgbox Route51HouseDocumento_Text_100YesNo2, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Route51HouseDocumento_100No
 msgbox Route51HouseDocumento_Text_100Yes17, MSGBOX_DEFAULT
+compare VAR_UNUSED_0x40F7, 176
+goto_if_gt Route51House_Post_Esencia
+release
+end
+
+Route51House_Post_Esencia::
 msgbox Route51HouseDocumento_Text_100YesNo2, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Route51HouseDocumento_100No

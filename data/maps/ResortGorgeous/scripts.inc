@@ -85,4 +85,3 @@ end
 
 ResortGorgeusDocumento_Text_100:
 	.string "CASA DE CÓNSUL$"
-	

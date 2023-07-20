@@ -394,6 +394,9 @@ walk_left
 walk_left
 walk_left
 walk_left
+walk_down
+walk_down
+walk_down
 step_end
 
 RocketHideoutViridian_Escena_9_Texto_1:

@@ -94,7 +94,7 @@
 #define VAR_POKELOT_RND1                     0x404B
 #define VAR_POKELOT_RND2                     0x404C
 #define VAR_POKELOT_PRIZE_PLACE              0x404D
-#define VAR_UNUSED_0x404E                    0x404E // Unused Var EVENTOS 
+#define VAR_UNUSED_0x404E                    0x404E // SECUNDARIA FRANK
 #define VAR_LOTAD_SIZE_RECORD                0x404F
 #define VAR_LITTLEROOT_TOWN_STATE            0x4050
 #define VAR_OLDALE_TOWN_STATE                0x4051
@@ -116,7 +116,7 @@
 #define VAR_ROUTE102_STATE                   0x4061 // SECUNDARIA JOHTO FOSILES RUINAS ALFA
 #define VAR_ROUTE103_STATE                   0x4062 // ENTRENADOR ESPECIAL MT.ASCUAS
 #define VAR_ROUTE104_STATE                   0x4063
-#define VAR_ROUTE105_STATE                   0x4064 // GIMNASIO AZAFRAN // ENCUENTRO MAGNO, INICIO EN VALOR 3 // 4//
+#define VAR_ROUTE105_STATE                   0x4064 // GIMNASIO AZAFRAN // ENCUENTRO MAGNO, INICIO EN VALOR 3 // 4// ESCENA BICIS
 #define VAR_ROUTE106_STATE                   0x4065 // GIMNASIO FUCSIA // ENCUENTRO ANDRA EN CANON SETE, INICIO EN VALOR 3 // 4//
 #define VAR_ROUTE107_STATE                   0x4066 // GIMNASIO AZULONA // ENCUENTRO AZUL EN ISLA INTA, INICIO EN VALOR 3 //4//
 #define VAR_ROUTE108_STATE                   0x4067 // GIMNASIO CARMIN // MISION SECUNDARIA DADA POR ATLAS POST LIGA, INICIO EN VALOR 3
@@ -139,7 +139,7 @@
 #define VAR_ROUTE125_STATE                   0x4078 // ENTRENADOR ESPECIAL MUSEO PLATEADA
 #define VAR_ROUTE126_STATE                   0x4079 // ENTRENADOR ESPECIAL CIUDAD VERDE
 #define VAR_ROUTE127_STATE                   0x407A // SECUNDARIA EEVEES
-#define VAR_ROUTE128_STATE                   0x407B
+#define VAR_ROUTE128_STATE                   0x407B // SECUNDARIA FRANK
 #define VAR_ROUTE129_STATE                   0x407C // PRESIDENTE SILPH MASTER BALL
 #define VAR_ROUTE130_STATE                   0x407D // CHICA SILPH IMÁN
 #define VAR_ROUTE131_STATE                   0x407E // EMPLEADO SILPH LLAVE MAGNÉTICA
@@ -161,7 +161,7 @@
 #define VAR_BOARD_BRINEY_BOAT_STATE          0x408E
 #define VAR_DEVON_CORP_3F_STATE              0x408F //variable que cambia conforme cambia de rango
 #define VAR_BRINEY_HOUSE_STATE               0x4090
-#define VAR_UNUSED_0x4091                    0x4091 // ESTAFADORES EN KANTO - CIENTIFICO FUSCIA
+#define VAR_UNUSED_0x4091                    0x4091 // ESTAFADORES EN KANTO - CIENTIFICO FUSCIA // ENCUENTRO ZINNIA VALOR 9 
 #define VAR_LITTLEROOT_INTRO_STATE           0x4092
 #define VAR_MAUVILLE_GYM_STATE               0x4093
 #define VAR_LILYCOVE_MUSEUM_2F_STATE         0x4094
@@ -236,7 +236,7 @@
 #define VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT 0x40D9
 #define VAR_REGISTER_BIRCH_STATE             0x40DA
 #define VAR_UNUSED_0x40DB                    0x40DB // AYUDANTE OAK RUTA 10
-#define VAR_UNUSED_0x40DC                    0x40DC // Barrera puerto carmin
+#define VAR_UNUSED_0x40DC                    0x40DC // HISTORIA GUERRA KANTO
 #define VAR_GIFT_PICHU_SLOT                  0x40DD
 #define VAR_GIFT_UNUSED_1                    0x40DE // Var is written to, but never read
 #define VAR_GIFT_UNUSED_2                    0x40DF // Var is written to, but never read

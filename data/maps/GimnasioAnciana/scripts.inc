@@ -48,9 +48,33 @@ msgbox GimnasioAnciana_Combate_Gimnasio_Texto_7 MSGBOX_DEFAULT
 givemon SPECIES_ZORUA, 50, ITEM_NORMAL_GEM
 waitfanfare
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM81
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_11.3 MSGBOX_NPC
 setvar VAR_ROUTE108_STATE, 6
 release
 end
+
+GimnasioAnciana_Combate_Gimnasio_Texto_11.3:
+.string "Con DANZA ESPADA elevarás\n"
+	.string "drásticamente el ATAQUE.\l"
+	.string "Si tu POKÉMON ya es rápido de por sí\l"
+	.string "o cuenta con buenos movimientos de\l"
+	.string "prioridad, puede acabar rápido con el\l"
+	.string "combate.$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT81 DANZA\n"
+	.string "ESPADA de manos de ZINNIA!!$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_11.1:
+.string "¡Jah!\n"
+	.string "¿Creías que eso era todo?\l"
+	.string "¡Te daré algo más!$"
 
 GimnasioAnciana_Combate_Gimnasio_2::
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_9 MSGBOX_NPC

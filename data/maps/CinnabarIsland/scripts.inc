@@ -105,6 +105,7 @@ Cinnabar_Island_Gimnasio_Cerrado_Texto_1:
 	.string "mientras a por las otras MEDALLAS).$"
 
 CinnabarIsland_Escena_8::
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
@@ -131,4 +132,3 @@ CinnabarIsland_Escena_8_Texto_2:
 	.string "momentos está muy ocupado, no puedo\l"
 	.string "darte detalles, pero debes dirigirte al\l"
 	.string "GIMNASIO de CIUDAD VERDE. Nada más.$"
-	

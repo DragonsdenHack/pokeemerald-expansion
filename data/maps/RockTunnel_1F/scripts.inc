@@ -148,6 +148,7 @@ RockTunnel1FDocumento_Text_100:
 
 RockTunnel_1F_Escena_3::
 applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
+setvar VAR_UNUSED_0x40F7, 40
 warpsilent MAP_SAFARI_ZONE_1F, 30, 23
 waitmovement 0x0
 release

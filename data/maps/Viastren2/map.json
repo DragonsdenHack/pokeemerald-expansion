@@ -113,7 +113,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "ViasTren2_EventScript_MT88",
       "flag": "FLAG_NUEVA_607"
     },
     {
@@ -160,7 +160,24 @@
 
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 65,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "4",
+      "script": "ViasTren2_Escena"
+    },
+    {
+      "type": "trigger",
+      "x": 65,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "4",
+      "script": "ViasTren2_Escena"
+    }
   ],
   "bg_events": [
     {

@@ -1579,6 +1579,8 @@ applymovement 2, GoldenrodRadioTowerP5_Segunda_Reunion_Move_4
 waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_82 MSGBOX_AUTOCLOSE
 delay 15
+msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_82.1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox GoldenrodRadioTowerP5_Segunda_Reunion_texto_83 MSGBOX_AUTOCLOSE
 applymovement 5, GoldenrodRadioTowerP5_Segunda_Reunion_Move_5
 waitmovement 0x0
@@ -1608,6 +1610,7 @@ fadescreen 1
 delay 20
 removeobject 3
 fadescreen 0
+setflag FLAG_NUEVA_840
 setvar VAR_UNUSED_0x40F7, 205
 release
 end
@@ -2224,6 +2227,14 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_82:
 	.string "aún no está todo, tiene lo esencial\l"
 	.string "para que os hagáis una idea de lo que\l"
 	.string "se viene en el futuro.$"
+
+GoldenrodRadioTowerP5_Segunda_Reunion_texto_82.1:
+.string "Aún no está del todo terminada por\n"
+	.string "dentro, pero pronto lo estará.\l"
+	.string "Entretanto, os recomiendo revisitar\l"
+	.string "PUEBLO LAVANDA y... ver de primera mano\l"
+	.string "el nuevo lavado de cara que le hemos\l"
+	.string "hecho.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_83:
 .string "ANDRA: No fallaré en esa cita con la\n"

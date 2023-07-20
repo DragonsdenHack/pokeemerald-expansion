@@ -301,3 +301,15 @@ LavenderRadioP2_Policia_Cartel_Texto_1:
 	.string "fachada, si quieres ver lo que\l"
 	.string "verdaderamente se hace en cada piso,\l"
 	.string "observa los carteles a partir del P1.$"
+
+LavenderRadioP2_11::
+lock     
+faceplayer     
+msgbox LavenderRadioP2_Text_11, MSGBOX_DEFAULT
+release     
+end
+
+LavenderRadioP2_Text_11:
+.string "Ningún RECLUTA común tiene acceso a\n"
+	.string "los pisos superiores, como mínimo\l"
+	.string "debes ser ALTO RANGO.$"

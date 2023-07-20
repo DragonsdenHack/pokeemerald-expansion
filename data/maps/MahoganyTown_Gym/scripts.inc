@@ -79,10 +79,32 @@ msgbox MahoganyTown_Gym_Combate_Fredo_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_BERGMITE, 25, ITEM_NONE
 waitfanfare
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox MahoganyTown_Gym_Combate_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM84
+msgbox MahoganyTown_Gym_Combate_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox MahoganyTown_Gym_Combate_Texto_11.3 MSGBOX_NPC
 setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
 setvar VAR_UNUSED_0x40F7, 165
 release
 end
+
+MahoganyTown_Gym_Combate_Texto_11.1:
+.string "Mmm... mereces esta MT, sin duda.$"
+
+MahoganyTown_Gym_Combate_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT60 VAHO\n"
+	.string "GELIDO de manos de ANIBAL!!$"
+
+MahoganyTown_Gym_Combate_Texto_11.3:
+.string "VAHO GELIDO siempre golpeará crítico,\n"
+	.string "asegurándote siempre causar un buen\l"
+	.string "daño.$"
+
+
+
 
 MahoganyTown_Gym_Combate_Fredo_2::
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_12 MSGBOX_AUTOCLOSE

@@ -11,4 +11,3 @@ NavelRoad_EventScript_Pescador2::
 	trainerbattle_single TRAINER_EDWIN_4, NavelRoad_Text_Pescador2Intro, NavelRoad_Text_Pescador2Defeated
 	msgbox NavelRoad_Text_Pescador2PostBattle, MSGBOX_AUTOCLOSE
 	end
-	

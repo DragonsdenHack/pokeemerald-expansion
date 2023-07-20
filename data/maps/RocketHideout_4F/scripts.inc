@@ -1,11 +1,13 @@
 RocketHideout_4F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
     .byte 0
 
 RocketHideout_4F_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 46, PokemonTower5F_Escena_4_Blaine
 map_script_2 VAR_UNUSED_0x40F7, 58, RocketHideout_4F_Escena_Castigo_Reclutas
+map_script_2 VAR_ROUTE105_STATE, 5, RocketHideout_4F_Escena_Motoristas
 	.2byte 0
 
 	
@@ -2365,6 +2367,7 @@ waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
 removeobject 11
+setflag FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR
 setvar VAR_UNUSED_0x40F7, 95
 release
 end
@@ -2481,11 +2484,11 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14:
 	.string "junto con ATLAS y ANDRA, has\l"
 	.string "alcanzado el rango más alto que\l"
 	.string "puedo ofrecerle a un miembro del\l"
-	.string "TEAM ROCKET: ADMINISTRADOR JEFE.$"
+	.string "TEAM ROCKET en KANTO: ADMINISTRADOR.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_15:
-.string "¡¡{PLAYER} HA SIDO ASCENDIDO HA\n"
-	.string "ADMINISTRADOR JEFE!!$"
+.string "¡¡{PLAYER} HA SIDO ASCENDIDO A\n"
+	.string "ADMINISTRADOR!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16:
 .string "GIOVANNI: El TEAM ROCKET es tu\n"
@@ -2897,7 +2900,7 @@ PokemonTower5F_Escena_4_Blaine_Texto_16:
 	.string "oculto.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_17:
-.string "BLAINE: ¡¿Qué nos han perdonado?!\n"
+.string "BLAINE: ¡¿Nos han perdonado?!\n"
 	.string "¡Estamos a su merced! ¡Pueden arrasar\l"
 	.string "hoy con esta base si la descubriesen o\l"
 	.string "quemar mañana mi laboratorio si\l"
@@ -3093,7 +3096,7 @@ msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 1, PokemonTower5F_Escena_4_Blaine_Move_5
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13 MSGBOX_AUTOCLOSE
-applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_6
+applymovement 14, RocketHideout_4F_Escena_Castigo_Reclutas_Move_6.1
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_14 MSGBOX_AUTOCLOSE
 delay 15
@@ -3145,6 +3148,12 @@ setvar VAR_UNUSED_0x40F7, 59
 warpsilent MAP_VIRIDIAN_CITY, 21, 2
 release
 end
+
+RocketHideout_4F_Escena_Castigo_Reclutas_Move_6.1:
+lock_facing_direction
+walk_down
+unlock_facing_direction
+step_end
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_1:
 .string "PROTÓN: Los RECLUTAS responsables de\n"
@@ -3204,7 +3213,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_10:
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
 .string "En compensación al daño causado,\n"
-	.string "donaréis el 70% de vuestro a la\l"
+	.string "donaréis el 70% de vuestro sueldo a la\l"
 	.string "beneficencia de PUEBLO LAVANDA, el\l"
 	.string "TEAM ROCKET por otro lado se encargará\l"
 	.string "de cubrir vuestras necesidades\l"
@@ -3230,7 +3239,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_15:
 	.string "ayuda, y vosotros estaréis allí para\l"
 	.string "todo lo que requiera. Además de\l"
 	.string "vuestra labor normal como ROCKET, el\l"
-	.string "tiempo libré que os quede irá para esa\l"
+	.string "tiempo libre que os quede irá para esa\l"
 	.string "causa. ¿Algún inconveniente?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_16:
@@ -3319,4 +3328,245 @@ walk_fast_down
 walk_fast_down
 walk_fast_down
 step_end
+
+RocketHideout_4F_Escena_Motoristas::
+lock
+delay 20
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, PokemonTower5F_Escena_4_Blaine_Move_1.1
+waitmovement 0x0
+special RemoveCameraObject
+applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_1
+waitmovement 0x0
+delay 20
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_1.1 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_2
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_3
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_2 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_5
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_5 MSGBOX_AUTOCLOSE
+delay 10
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_4
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_7 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_6
+waitmovement 0x0
+delay 15
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_7
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_2
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_8
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_10 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_11 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_9
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_13 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_10
+waitmovement 0x0
+addobject 16
+applymovement 16, RocketHideout_4F_Escena_Motoristas_Move_11
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 4, RocketHideout_4F_Escena_Motoristas_Move_7
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_8
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_16 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_12
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_4F_Escena_Motoristas_Move_8
+waitmovement 0x0
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_18 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_4F_Escena_Motoristas_Texto_19 MSGBOX_AUTOCLOSE
+delay 20
+setvar VAR_ROUTE105_STATE, 6
+setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+warpsilent MAP_VIAS_TREN2, 65, 11
+release
+end
+
+RocketHideout_4F_Escena_Motoristas_Move_12:
+face_right
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_11:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_10:
+emote_exclamation_mark
+face_down
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_9:
+walk_up
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_8:
+walk_in_place_down
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_7:
+face_up
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_6:
+emote_exclamation_mark
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_5:
+walk_slow_left
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_4:
+face_down
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_3:
+face_left
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_2:
+walk_in_place_up
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Move_1:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_right
+walk_right
+walk_up
+step_end
+
+RocketHideout_4F_Escena_Motoristas_Texto_1.1:
+.string "GIOVANNI: ¿Y bien?$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_1:
+.string "KOGA: Es irreversible, ZONA SAFARI\n"
+	.string "cerrará sus puertas en las próximas\l"
+	.string "semanas.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_2:
+.string "GIOVANNI: Era de esperar, ahora que las\n"
+	.string "fronteras con JOHTO se han abierto,\l"
+	.string "todos querrán visitar la región vecina\l"
+	.string "y sus exóticos POKÉMON.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_3:
+.string "KOGA: Sin mencionar que más de uno ha\n"
+	.string "capturado ya un KANGASKHAN en el\l"
+	.string "TÚNEL ROCA, y lo ha hecho público.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_4:
+.string "GIOVANNI: Los nuevos tiempos KOGA,\n"
+	.string "muchas cosas van a cambiar, no todas\l"
+	.string "para bien.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_5:
+.string "Ni siquiera el TEAM ROCKET escapa a los\n"
+	.string "cambios, nos hemos vuelto grandes,\l"
+	.string "tanto que nos será imposible contentar\l"
+	.string "a todos…$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_6:
+.string "KOGA: ¿Te refieres a…?$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_7:
+.string "GIOVANNI: Así es, el cierre de las VÍAS\n"
+	.string "SUBTERRÁNEAS.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_8:
+.string "Antaño sirvieron de refugio durante la\n"
+	.string "guerra, y más recientemente resultaron\l"
+	.string "ser una gran red de tráfico para\l"
+	.string "nosotros.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_9:
+.string "Gracias a ellas obtuvimos enormes\n"
+	.string "ingresos de los productos importados\l"
+	.string "por mar desde nuestra base de ISLAS\l"
+	.string "SETE, algo que fue optimizado vía\l"
+	.string "teletransporte gracias a la patente de\l"
+	.string "BILL.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_10:
+.string "Ahora, con la unión de KANTO y JOHTO, no\n"
+	.string "son más que un lastre para el comercio\l"
+	.string "entre regiones, ya he recibido\l"
+	.string "presiones desde TORRE RADIO y el\l"
+	.string "MAGNETOTREN para que sean cerradas, y\l"
+	.string "así se hará.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_11:
+.string "KOGA: Pero…$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_12:
+.string "GIOVANNI: El TEAM ROCKET se ha hecho\n"
+	.string "grande. En su día nos fue de gran ayuda\l"
+	.string "para mantenernos a flote, pero hoy\l"
+	.string "podemos prescindir de ellas.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_13:
+.string "KOGA: ¿Qué hay de los MOTORISTAS? Su\n"
+	.string "rol principal era el de vender los\l"
+	.string "productos importados, las vías eran\l"
+	.string "como su segunda cas…$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_14:
+.string "PETREL: ¿Me ha llamado, JEFE?$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_15:
+.string "GIOVANNI: Así es, ambos habéis sido el\n"
+	.string "enlace entre el TEAM ROCKET y los\l"
+	.string "MOTORISTAS.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_16:
+.string "Por ello, os pido que les comuniquéis la\n"
+	.string "dura decisión del cierre de las vías.\l"
+	.string "Prescindimos de sus servicios, pero el\l"
+	.string "TEAM ROCKET no olvida.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_17:
+.string "A pesar de haber quedado obsoletos en\n"
+	.string "la KANTO actual, todo MOTORISTA que\l"
+	.string "desee convertirse en miembro del TEAM\l"
+	.string "ROCKET y trabajar en nuestras\l"
+	.string "distintas bases y sucursales, será más\l"
+	.string "que bienvenido.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_18:
+.string "Con ello zanjamos este tema. KOGA,\n"
+	.string "PETREL… eso es todo.$"
+
+RocketHideout_4F_Escena_Motoristas_Texto_19:
+.string "PETREL: … …$"
 

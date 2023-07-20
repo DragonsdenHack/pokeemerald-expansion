@@ -292,7 +292,7 @@
     },
     {
       "type": "trigger",
-      "x": 25,
+      "x": 24,
       "y": 7,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FC",
@@ -319,7 +319,7 @@
     },
     {
       "type": "trigger",
-      "x": 25,
+      "x": 24,
       "y": 6,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FC",

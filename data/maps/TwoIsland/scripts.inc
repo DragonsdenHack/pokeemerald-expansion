@@ -139,3 +139,14 @@ step_end
 TwoIsland_Corriente_Izquierda_Move_2:
 walk_slow_left
 step_end
+
+
+TwoIsland_EventScript_Biker::
+	trainerbattle_single TRAINER_TRAINER_157, TwoIsland_Text_BikerIntro, TwoIsland_Text_BikerDefeated
+	msgbox TwoIsland_Text_BikerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+TwoIsland_EventScript_Biker2::
+	trainerbattle_single TRAINER_TRAINER_158, TwoIsland_Text_Biker2Intro, TwoIsland_Text_Biker2Defeated
+	msgbox TwoIsland_Text_Biker2PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -1,11 +1,12 @@
 Mision7Lab4_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, Mision7Lab4_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, Mision7Lab4_OnFrame
 	.byte 0
 
 Mision7Lab4_OnFrame:
 map_script_2 VAR_TEMP_0, 0, Mision7Lab4_Seteo_Metatiles
+map_script_2 VAR_UNUSED_0x40DC, 3, Mision7Lab4_Escena_Lance
 	.2byte 0
-
 
 
 Mision7Lab4_EventScript_Cientifico::
@@ -712,3 +713,189 @@ msgbox Mision7Lab4_Combate_Deoxys_Texto_3 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 198
 release
 end
+
+Mision7Lab4_Escena_Lance::
+call Script_SetGrayscaleTint
+playse 501
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Escena_Lance_Move_1
+waitmovement 0x0
+special RemoveCameraObject
+msgbox RocketHideout_8F_Mision_Silph_text_25.2 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 11
+msgbox RocketHideout_8F_Mision_Silph_text_25.3 MSGBOX_AUTOCLOSE
+fadescreen 0
+addobject 16
+call Script_SetGrayscaleTint
+msgbox RocketHideout_8F_Mision_Silph_text_25.4 MSGBOX_AUTOCLOSE
+applymovement 14, Mision7Lab4_Escena_Lance_Move_2
+waitmovement 0x0
+delay 15
+applymovement 15, Mision7Lab4_Escena_Lance_Move_4
+applymovement 13, Mision7Lab4_Escena_Lance_Move_4
+applymovement 12, Mision7Lab4_Escena_Lance_Move_4
+applymovement 14, Mision7Lab4_Escena_Lance_Move_3
+waitmovement 0x0
+setmetatile 38, 27, 0x63, TRUE
+call Script_SetGrayscaleTint
+special DrawWholeMapView
+showmonpic SPECIES_DITTO, 10, 4  
+call Script_SetGrayscaleTint
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_25.5 MSGBOX_AUTOCLOSE
+hidemonpic
+applymovement 15, Mision7Lab4_Escena_Lance_Move_9
+applymovement 14, Mision7Lab4_Escena_Lance_Move_5
+applymovement 13, Mision7Lab4_Escena_Lance_Move_7
+applymovement 12, Mision7Lab4_Escena_Lance_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_25.6 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 20
+removeobject 16
+setmetatile 38, 27, 0x62, TRUE
+call Script_SetGrayscaleTint
+fadescreen 0
+addobject 17
+call Script_SetGrayscaleTint
+applymovement 15, Mision7Lab4_Escena_Lance_Move_8
+applymovement 13, Mision7Lab4_Escena_Lance_Move_8
+applymovement 12, Mision7Lab4_Escena_Lance_Move_8
+applymovement 14, Mision7Lab4_Escena_Lance_Move_8
+waitmovement 0x0
+call Script_SetGrayscaleTint
+msgbox RocketHideout_8F_Mision_Silph_text_26 MSGBOX_AUTOCLOSE
+applymovement 14, Mision7Lab4_Escena_Lance_Move_2
+waitmovement 0x0
+delay 15
+applymovement 15, Mision7Lab4_Escena_Lance_Move_4
+applymovement 13, Mision7Lab4_Escena_Lance_Move_4
+applymovement 12, Mision7Lab4_Escena_Lance_Move_4
+applymovement 14, Mision7Lab4_Escena_Lance_Move_3
+waitmovement 0x0
+setmetatile 38, 27, 0x63, TRUE
+call Script_SetGrayscaleTint
+special DrawWholeMapView
+showmonpic SPECIES_MEWTWO, 10, 4  
+call Script_SetGrayscaleTint
+delay 20
+applymovement 15, Mision7Lab4_Escena_Lance_Move_8
+applymovement 13, Mision7Lab4_Escena_Lance_Move_8
+applymovement 12, Mision7Lab4_Escena_Lance_Move_8
+applymovement 14, Mision7Lab4_Escena_Lance_Move_8
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_27 MSGBOX_AUTOCLOSE
+hidemonpic
+applymovement 14, Mision7Lab4_Escena_Lance_Move_12
+applymovement 12, Mision7Lab4_Escena_Lance_Move_10
+applymovement 13, Mision7Lab4_Escena_Lance_Move_11
+applymovement 15, Mision7Lab4_Escena_Lance_Move_13
+waitmovement 0x0
+delay 20
+applymovement 15, Mision7Lab4_Escena_Lance_Move_14
+applymovement 13, Mision7Lab4_Escena_Lance_Move_3
+applymovement 12, Mision7Lab4_Escena_Lance_Move_3
+applymovement 14, Mision7Lab4_Escena_Lance_Move_15
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_28 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout_8F_Mision_Silph_text_29 MSGBOX_AUTOCLOSE
+setvar VAR_UNUSED_0x40DC, 4
+warpsilent MAP_POKEMON_LEAGUE_ESCENALANCE, 4, 3
+call Script_SetGrayscaleTint
+release
+end
+
+Mision7Lab4_Escena_Lance_Move_15:
+walk_in_place_left
+step_end
+
+Mision7Lab4_Escena_Lance_Move_14:
+walk_in_place_right
+step_end
+
+Mision7Lab4_Escena_Lance_Move_13:
+walk_right
+walk_right
+walk_right
+step_end
+
+Mision7Lab4_Escena_Lance_Move_12:
+walk_down
+walk_left
+step_end
+
+Mision7Lab4_Escena_Lance_Move_11:
+face_up
+step_end
+
+Mision7Lab4_Escena_Lance_Move_10:
+walk_right
+walk_up
+step_end
+
+Mision7Lab4_Escena_Lance_Move_9:
+face_down
+step_end
+
+Mision7Lab4_Escena_Lance_Move_8:
+emote_exclamation_mark
+step_end
+
+Mision7Lab4_Escena_Lance_Move_7:
+face_down
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+face_left
+step_end
+
+Mision7Lab4_Escena_Lance_Move_6:
+face_up
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+delay_4
+face_left
+step_end
+
+Mision7Lab4_Escena_Lance_Move_5:
+walk_down
+walk_left
+walk_left
+step_end
+
+Mision7Lab4_Escena_Lance_Move_4:
+face_right
+step_end
+
+Mision7Lab4_Escena_Lance_Move_3:
+walk_in_place_up
+step_end
+
+Mision7Lab4_Escena_Lance_Move_2:
+walk_right
+walk_right
+walk_up
+step_end
+
+Mision7Lab4_Escena_Lance_Move_1:
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_right
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end

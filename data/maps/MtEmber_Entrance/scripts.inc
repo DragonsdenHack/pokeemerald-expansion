@@ -120,7 +120,7 @@ release
 end
 
 MtEmberEntrance_Encuentro_Magno_Texto_1:
-.string "????: Debe de ser aquí.$"
+.string "????: Debe ser aquí.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_2:
 .string "Esta gran montaña resultó ser el\n"
@@ -227,7 +227,7 @@ msgbox MtEmber_Entrance_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TERREMOTO, MtEmber_Entrance_Entrenador_Especial_Texto_5
 msgbox MtEmber_Entrance_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM78
+additem ITEM_TM83
 msgbox MtEmber_Entrance_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
 waitfanfare
 msgbox MtEmber_Entrance_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
@@ -262,7 +262,7 @@ MtEmber_Entrance_Entrenador_Especial_Texto_1:
 	.string "ese calibre.$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste MT78 TERRATEMBLOR\n"
+.string "¡Obtuviste MT83 TERRATEMBLOR\n"
 	.string "de manos de MONTAÑERO!$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_2:

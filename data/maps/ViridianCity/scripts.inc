@@ -147,6 +147,12 @@ ViridianCity_7_Text_7No:
 
 ViridianCity_Escena_5::
 applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Escena_5_Move_1
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+setvar VAR_UNUSED_0x40F7, 58
 warpsilent MAP_ROCKET_HIDEOUT_4F, 16, 0
 waitmovement 0x0
 release

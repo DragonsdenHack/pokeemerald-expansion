@@ -853,7 +853,7 @@ MtMoon_3F_Pelea_Frank_texto4:
 
 MtMoon_3F_Pelea_Frank_texto5:
 .string "A.R FRANK: No le estamos juzgando\n"
-	.string "por su nivel como ENTRENADOR\l"
+	.string "por su nivel como ENTRENADOR,\l"
 	.string "ANDRA, sino por su pésima astucia\l"
 	.string "e inteligencia a la hora de\l"
 	.string "afrontar esta situación.$"
@@ -924,7 +924,7 @@ MtMoon_3F_Pelea_Frank_texto11:
 MtMoon_3F_Pelea_Frank_texto12:
 .string "ANDRA: ¡Guau, viste eso!\n"
 	.string "¡Se han quedado todos atónitos, el\l"
-	.string "SUB.ADMIN FRANK tiene fama de ser\l"
+	.string "ALTO RANGO FRANK tiene fama de ser\l"
 	.string "muy sanguinario y poco paciente\l"
 	.string "con los nuevos, pero tú no te has\l"
 	.string "amedrentado y has mantenido firme\l"

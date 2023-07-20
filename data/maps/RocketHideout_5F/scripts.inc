@@ -2441,3 +2441,226 @@ RocketHideout5F_64_NPC_Texto_1:
 	.string "optimismo, incluso en su variedad\l"
 	.string "ligeramente ilusoria, puede resultar\l"
 	.string "positivo.$"
+
+
+RocketHideout5F_Secundaria_Frank::
+lock
+addobject 48
+clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout5F_Secundaria_Frank_Move_1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout5F_Secundaria_Frank_Move_2
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout5F_Secundaria_Frank_Move_3
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_4
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_5
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_6
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_7
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout5F_Secundaria_Frank_Move_9
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_8
+waitmovement 0x0
+delay 15
+msgbox RocketHideout5F_Secundaria_Frank_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_2
+waitmovement 0x0
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_10
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout5F_Secundaria_Frank_Texto_8 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout5F_Secundaria_Frank_Move_11
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_1
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_12
+waitmovement 0x0
+trainerbattle_no_intro TRAINER_TRAINER_153, RocketHideout5F_Secundaria_Frank_Texto_11
+msgbox RocketHideout5F_Secundaria_Frank_Texto_12 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout5F_Secundaria_Frank_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_6
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_1
+waitmovement 0x0
+msgbox RocketHideout5F_Secundaria_Frank_Texto_15 MSGBOX_AUTOCLOSE
+applymovement 48, RocketHideout5F_Secundaria_Frank_Move_13
+waitmovement 0x0
+removeobject 48
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+setvar VAR_UNUSED_0x404E, 1
+release
+end
+
+RocketHideout5F_Secundaria_Frank_Move_13:
+walk_left
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_12:
+walk_right
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_11:
+walk_slow_up
+face_left
+delay_8
+delay_8
+delay_8
+walk_in_place_left
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_10:
+face_right
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_9:
+walk_down
+face_up
+delay_8
+delay_8
+delay_8
+walk_in_place_left
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_8:
+walk_left
+walk_left
+walk_left
+walk_left
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_7:
+walk_slow_left
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_6:
+face_up
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_5:
+walk_in_place_left
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_4:
+walk_left
+walk_left
+walk_left
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_3:
+walk_slow_right
+walk_slow_right
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_2:
+emote_exclamation_mark
+step_end
+
+RocketHideout5F_Secundaria_Frank_Move_1:
+delay_8
+delay_8
+walk_in_place_right
+delay_8
+delay_8
+step_end
+
+RocketHideout5F_Secundaria_Frank_Texto_1:
+.string "????: Vaya, vaya. Entonces, no eras tan\n"
+	.string "incompetente como parecía.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_2:
+.string "FRANK: ¿Qué te pasa? ¿Sorprendido de\n"
+	.string "verme?$"
+
+RocketHideout5F_Secundaria_Frank_Texto_3:
+.string "No eres el único que asciende aquí,\n"
+	.string "{PLAYER}. Ahora eres ALTO RANGO,\l"
+	.string "como yo lo era en la misión del MT.MOON.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_4:
+.string "Pero, como puedes ver, ahora soy\n"
+	.string "EJECUTIVO. Sabes lo que eso significa,\l"
+	.string "¿no?$"
+
+RocketHideout5F_Secundaria_Frank_Texto_5:
+.string "Que sigues siendo mi inferior, y estando\n"
+	.string "bajo mis órdenes. ¡Más te vale\l"
+	.string "guardarme el debido respeto, RECLUTA!\l"
+	.string "¡Ahora fuera de mi camino!$"
+
+RocketHideout5F_Secundaria_Frank_Texto_6:
+.string "…$"
+
+RocketHideout5F_Secundaria_Frank_Texto_7:
+.string "¿Por poco tiempo? ¿De verdad crees que\n"
+	.string "vas a seguir subiendo escalones tan\l"
+	.string "fácilmente? Entre tú y yo hay un mundo\l"
+	.string "de diferencia, que quede claro.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_8:
+.string "Parece que el poco éxito que has tenido\n"
+	.string "se te ha subido a la cabeza, cuando ni\l"
+	.string "siquiera eres el mejor de tu promoción.\l"
+	.string "La ALTO RANGO ANDRA es mejor\l"
+	.string "entrenadora y llegará más lejos que tú.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_9:
+.string "Cuidadito con lo que dices, muchacho.\n"
+	.string "Como EJECUTIVO, he tenido acceso a\l"
+	.string "POKÉMON de un poder que tú aún no has\l"
+	.string "visto. Los ALTO RANGO tenéis que\l"
+	.string "conformaros con las sobras que nadie\l"
+	.string "quiere en la región, sobras de calidad\l"
+	.string "por ser ALTO RANGO, pero sobras al fin y\l"
+	.string "al cabo.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_10:
+.string "Vas a ver de lo que te estoy hablando.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_11:
+.string "¿Entonces mi derrota en el MT.MOON no\n"
+	.string "fue casualidad?$"
+
+RocketHideout5F_Secundaria_Frank_Texto_12:
+.string "¿Sabes cuál es tu problema, {PLAYER}?$"
+
+RocketHideout5F_Secundaria_Frank_Texto_13:
+.string "Crees que puedes ganar a todos\n"
+	.string "combatiendo, e imponer lo que quieres\l"
+	.string "solo porque tus POKÉMON derrotaron a\l"
+	.string "los de tu rival.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_14:
+.string "Tal vez eso valga para dejar de ser un\n"
+	.string "RECLUTA común, pero en las altas\l"
+	.string "esferas del TEAM ROCKET la cosa no\l"
+	.string "funciona así. Necesitas algo más que\l"
+	.string "saber combatir si quieres ir subiendo.$"
+
+RocketHideout5F_Secundaria_Frank_Texto_15:
+.string "Cuando me vuelvan a ascender a ADMIN, y\n"
+	.string "tú sigas estancado en ALTO RANGO, ¡lo\l"
+	.string "primero que haré para celebrarlo será\l"
+	.string "enviarte de vuelta a recoger fósiles\l"
+	.string "como a un vulgar RECLUTA!$"

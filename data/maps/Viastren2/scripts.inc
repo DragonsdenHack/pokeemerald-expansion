@@ -54,3 +54,13 @@ ViasTren2_EventScript_Obrero2::
 	trainerbattle_single TRAINER_SAWYER_4, ViasTren2_Text_Obrero2Intro, ViasTren2_Text_Obrero2Defeated
 	msgbox ViasTren2_Text_Obrero2PostBattle, MSGBOX_AUTOCLOSE
 	end
+
+ViasTren2_Escena::
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+setvar VAR_ROUTE105_STATE, 5
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_4F_Escena_Move_1
+warpsilent MAP_ROCKET_HIDEOUT_4F, 16, 0
+waitmovement 0x0
+release
+end

@@ -1,0 +1,22 @@
+NeoLavanda_Ruta_Sur_MapScripts::
+	.byte 0
+
+NeoLavanda_Ruta_Sur_EventScript_Pescador::
+	trainerbattle_single TRAINER_TRAINER_174, NeoLavanda_Ruta_Sur_Text_PescadorIntro, NeoLavanda_Ruta_Sur_Text_PescadorDefeated
+	msgbox NeoLavanda_Ruta_Sur_Text_PescadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoLavanda_Ruta_Sur_EventScript_Pescador_2::
+	trainerbattle_single TRAINER_TRAINER_175, NeoLavanda_Ruta_Sur_Text_Pescador_2Intro, NeoLavanda_Ruta_Sur_Text_Pescador_2Defeated
+	msgbox NeoLavanda_Ruta_Sur_Text_Pescador_2PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoLavanda_Ruta_Sur_EventScript_Pescador_3::
+	trainerbattle_single TRAINER_TRAINER_176, NeoLavanda_Ruta_Sur_Text_Pescador_3Intro, NeoLavanda_Ruta_Sur_Text_Pescador_3Defeated
+	msgbox NeoLavanda_Ruta_Sur_Text_Pescador_3PostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoLavanda_Ruta_Sur_EventScript_Pescador_4::
+	trainerbattle_single TRAINER_TRAINER_177, NeoLavanda_Ruta_Sur_Text_Pescador_4Intro, NeoLavanda_Ruta_Sur_Text_Pescador_4Defeated
+	msgbox NeoLavanda_Ruta_Sur_Text_Pescador_4PostBattle, MSGBOX_AUTOCLOSE
+	end

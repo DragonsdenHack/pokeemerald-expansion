@@ -28,10 +28,33 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_VULLABY, 25, ITEM_NONE
 waitfanfare
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM59
+msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.3 MSGBOX_NPC
 setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setvar VAR_UNUSED_0x40F7, 137
 release
 end
+
+Cueva_Gimnasio_Trigal_Combate_Texto_11.1:
+.string "Y por cierto, toma esto también.$"
+
+Cueva_Gimnasio_Trigal_Combate_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT59 AFILARGARRAS\n"
+	.string "de manos de VALERIA!!$"
+
+Cueva_Gimnasio_Trigal_Combate_Texto_11.3:
+.string "Con AFILARGARRAS no solo aumentarás el\n"
+	.string "ATAQUE del POKÉMON, también su\l"
+	.string "PRECISION. ¡Va genial si llevas\l"
+	.string "movimientos como ROCA AFILADA, COLA\l"
+	.string "FERREA O CARGA DRAGON!$"
+
+
 
 Cueva_Gimnasio_Trigal_Combate_2::
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_12 MSGBOX_AUTOCLOSE

@@ -143,6 +143,22 @@ Base_Profunda_Mercado_4_Pokemart:
 	.2byte 14
 	.2byte 5
 	.2byte 23
+	.2byte 114
+	.2byte 115
+	.2byte 116
+	.2byte 120
+	.2byte 211
+	.2byte 212
+	.2byte 213
+	.2byte 214
+	.2byte 121
+	.2byte 122
+	.2byte 123
+	.2byte 124
+	.2byte 125
+	.2byte 126
+	.2byte 127
+	.2byte 128
 	.2byte ITEM_NONE
 	release
 	end
@@ -159,22 +175,6 @@ Base_Profunda_Mercado_5_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_5_Pokemart:
-    .2byte 114
-	.2byte 115
-	.2byte 116
-	.2byte 120
-	.2byte 211
-	.2byte 212
-	.2byte 213
-	.2byte 214
-	.2byte 121
-	.2byte 122
-	.2byte 123
-	.2byte 124
-	.2byte 125
-	.2byte 126
-	.2byte 127
-	.2byte 128
 	.2byte ITEM_NONE
 	release
 	end
@@ -1128,6 +1128,46 @@ BosqueGimnasio_Mercado_2_Pokemart:
 	.2byte 455
 	.2byte 580
 	.2byte 581
+	.2byte ITEM_NONE
+	release
+	end
+
+
+Subterraneo_Trigal_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Subterraneo_Trigal_Mercado_7_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Subterraneo_Trigal_Mercado_7_Pokemart:
+    .2byte 650
+	.2byte 656
+	.2byte 671
+	.2byte ITEM_NONE
+	release
+	end
+
+
+Comercial_Trigal_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Comercial_Trigal_Mercado_7_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Comercial_Trigal_Mercado_7_Pokemart:
+    .2byte 648
+	.2byte 674
+	.2byte 682
 	.2byte ITEM_NONE
 	release
 	end

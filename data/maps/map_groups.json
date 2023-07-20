@@ -116,7 +116,8 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "CuevaHypno_2",
-    "Route49_dESCAN"
+    "Route49_dESCAN",
+    "TorreDunsparce_P3"
   ],
   "gMapGroup_TownsAndRoutesKANTO": [
     "PalletTown",
@@ -196,7 +197,12 @@
     "SevaultCanyon",
     "TanobyRuins",
     "WestBirthIsland",
-    "PlayaTesoro"
+    "PlayaTesoro",
+    "TwoIsland_Secundario",
+    "TwoIsland_Torre_P1",
+    "TwoIsland_Torre_P2",
+    "TwoIsland_Torre_P3",
+    "TwoIsland_Torre_P4"
   ],
   "gMapGroup_TownsAndRoutesJOHTO": [
     "NewBarkTown",
@@ -317,7 +323,8 @@
     "Ecruteak_TinTowerP8",
     "Ecruteak_TinTowerP9",
     "Ecruteak_TinTowerRoof",
-    "MisionIrisLab"
+    "MisionIrisLab",
+    "TinTower_Lance"
   ],
   "gMapGroup_IndoorOlivineCity": [
     "Olivine_PkmnCenter",
@@ -446,7 +453,10 @@
     "MisionTrigal2",
     "MisionTrigal3",
     "MisionTrigal4",
-    "Cueva_Gimnasio_Trigal"
+    "Cueva_Gimnasio_Trigal",
+    "TorreDunsparce_P1",
+    "TorreDunsparce_P2",
+    "TorreDunsparce_P4"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",
@@ -515,7 +525,15 @@
     "NeoLavandaCasa3",
     "NeoLavandaCementerio",
     "NeoLavandaCementerioS1",
-    "NeoLavandaCementerioS2"
+    "NeoLavandaCementerioS2",
+    "NeoLavanda_Ruta_Norte",
+    "NeoLavanda_Ruta_Sur",
+    "NeoLavanda_Ruta_Sur_2",
+    "NeoLavanda_Ruta_Oeste",
+    "LavenderRadioP7",
+    "LavenderRadioP8",
+    "LavenderRadioP9",
+    "LavenderRadioP10"
   ],
   "gMapGroup_IndoorCeladonCity": [
     "CeladonCity_Shop_1F",
@@ -653,7 +671,13 @@
     "UndergroundPath_6F",
     "DiglettCave_1F",
     "DiglettCave_2F",
-    "DiglettCave_3F"
+    "DiglettCave_3F",
+    "UndergroundPath_7F",
+    "UndergroundPath_8F",
+    "UndergroundPath_9F",
+    "UndergroundPath_10F",
+    "UndergroundPath_11F",
+    "UndergroundPath_12F"
   ],
   "gMapGroup_IndoorKANTO2": [
     "NewMap4",
@@ -738,7 +762,8 @@
     "CinnabarMansionS2",
     "NeoPowerPlant",
     "RocketHideout_10F",
-    "RocketHideout_Conexion_Hoenn"
+    "RocketHideout_Conexion_Hoenn",
+    "PokemonLeague_Escenalance"
   ],
   "gMapGroup_IndoorOneIsland": [
     "OneIsland_PokemonCenter_1F",

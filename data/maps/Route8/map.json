@@ -14,14 +14,14 @@
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": [
     {
-      "direction": "right",
-      "offset": 0,
-      "map": "MAP_LAVENDER_TOWN"
-    },
-    {
       "direction": "left",
       "offset": -17,
       "map": "MAP_SAFFRON_CITY"
+    },
+    {
+      "direction": "right",
+      "offset": 0,
+      "map": "MAP_LAVENDER_TOWN"
     }
   ],
   "object_events": [
@@ -205,7 +205,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "EventScript_CutTree",
-      "flag": "FLAG_TEMP_11"
+      "flag": "FLAG_TEMP_10"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",

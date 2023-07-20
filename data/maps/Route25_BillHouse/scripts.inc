@@ -145,7 +145,7 @@ Route25_BillHouse_Evento_Policia_text_1:
 
 Route25_BillHouse_Evento_Policia_text_2:
 .string "¿Qué clase de broma es esta?\n"
-	.string "Sal inmediatamente de mi casa\l"
+	.string "Sal inmediatamente de mi casa,\l"
 	.string "ROCKET. Yo no hago negocios con\l"
 	.string "delincuentes, todos los POKÉMON\l"
 	.string "que tenéis para ofrecerme ya los\l"
@@ -173,7 +173,7 @@ Route25_BillHouse_Evento_Policia_text_5:
 	.string "propiedad intelectual de uno de\l"
 	.string "sus grandes inventos?\l"
 	.string "Esto queda demasiado grande para\l"
-	.string "ti ROCKET.$"
+	.string "ti, ROCKET.$"
 
 Route25_BillHouse_Evento_Policia_text_6:
 .string "¡GUARDIAS!\n"

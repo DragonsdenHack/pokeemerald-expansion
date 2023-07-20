@@ -52,6 +52,13 @@ PokemonTower4F_EventScript_Channeler3::
 
 PokemonTower_4F_Escena::
 lock
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_8
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+setvar VAR_UNUSED_0x40F7, 46
 applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_4F_Escena_Move_1
 warpsilent MAP_ROCKET_HIDEOUT_4F, 16, 0
 waitmovement 0x0

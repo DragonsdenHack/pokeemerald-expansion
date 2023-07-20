@@ -63,7 +63,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "LavenderRadioP4_Cuarto_Cientifico",
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM"
     },
     {
@@ -314,7 +314,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 13,
       "y": 11,
       "elevation": 3,
@@ -358,7 +358,7 @@
       "x": 3,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_LAVENDER_RADIO_P6",
+      "dest_map": "MAP_LAVENDER_RADIO_P10",
       "dest_warp_id": 1
     }
   ],

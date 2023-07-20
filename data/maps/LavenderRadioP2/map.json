@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 13,
       "y": 8,
       "elevation": 3,
@@ -145,7 +145,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
       "x": 9,
       "y": 6,
       "elevation": 3,
@@ -154,7 +154,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "LavenderRadioP2_11",
       "flag": "0"
     }
   ],
@@ -195,7 +195,7 @@
     },
     {
       "type": "trigger",
-      "x": 21,
+      "x": 20,
       "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",

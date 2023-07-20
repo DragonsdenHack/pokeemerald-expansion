@@ -563,11 +563,36 @@ msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_9 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_FENNEKIN, 15, ITEM_NONE
-msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_11 MSGBOX_AUTOCLOSE
 waitfanfare
+msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM94
+msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
+msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_11.3 MSGBOX_NPC
 setvar VAR_DEWFORD_TOWN_STATE, 4
 release
 end
+
+Gimnasio_CuevaHypno_Combate_Lider_Texto_11.3:
+.string "Cuanto más lento sea el POKÉMON,\n"
+	.string "antes atacará bajo los efectos del\l"
+	.string "ESPACIO RARO.\l"
+	.string "Es un movimiento que puede romper los\l"
+	.string "esquemas de muchos equipos, con\l"
+	.string "muchos POKÉMON que pueden\l"
+	.string "beneficiarse de ello.$"
+
+Gimnasio_CuevaHypno_Combate_Lider_Texto_11.1:
+.string "¿Sabes?\n"
+	.string "También te daré esta MT, alguien como\l"
+	.string "tú seguro que sabe sacarle provecho.$"
+
+Gimnasio_CuevaHypno_Combate_Lider_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT94 ESPACIO\n"
+	.string "RARO de manos de MORFEO!!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_2::
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_12 MSGBOX_AUTOCLOSE

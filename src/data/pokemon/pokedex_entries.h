@@ -10787,4 +10787,868 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_EONEON] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gEoneonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_TRXATU] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gTrxatuPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_PORYGON3] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gPorygon3PokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_NIDOGOD] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gNidogodPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_AERODACTYL_SKEL] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gAerodactylSkelPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MEWTWO_ARM] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gMewtwoArmPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ULTIMATE_PROYECT] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gUltimateProyectPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DUNSPARCE_OLD] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gDunsparceOldPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MAROGHOST] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gMaroghostPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_KABUTOPS_SKEL] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gKabutopsSkelPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DUDUNSPARCE] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gDudunsparcePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_GHOST] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gGhostPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_KURUSU] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gKurusuPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_AKUA] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gAkuaPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_AKUERIA] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gAkueriaPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_BOOHOO] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gBoohooPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IKARY] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIkaryPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_PURAKKUSU] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gPurakkusuPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_TAABAN] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gTaabanPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_BOMUSHIKAA] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gBomushikaaPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MADAAMU] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gMadaamuPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_SUI] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gSuiPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_RAI] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gRaiPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_EN] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gEnPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_SACRED_DRAGON] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gSacredDragonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ORIGINAL_DRAGON] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gOriginalDragonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MISSINGNO] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gMissingNoPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_WYRDEER] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gWyrdeerPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_KLEAVOR] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gKleavorPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_OVERQWIL] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gOverqwilPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_URSALUNA] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gUrsalunaPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_BASCULEGION] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gBasculegionPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_SNEASLER] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gSneaslerPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ENAMORUS] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gEnamorusPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_CLODSIRE] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gClodsirePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ANNIHILAPE] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gAnnihilapePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_FARIGIRAF] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gFarigirafPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_TOEDSCOOL] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gToedscoolPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_TOEDSCRUEL] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gToedscruelPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_WIGLETT] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gWiglettPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_WUGTRIO] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gWugtrioPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_KINGAMBIT] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gKingambitPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_FRIGIBAX] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gFrigibaxPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ARCTIBAX] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gArctibaxPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_BAXCALIBUR] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gBaxcaliburPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+    
+    [NATIONAL_DEX_GREAT_TUSK] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gGreatTuskPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_SCREAM_TAIL] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gScreamTailPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_BRUTE_BONNET] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gBruteBonnetPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_FLUTTER_MANE] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gFlutterManePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_SLITHER_WING] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gSlitherWingPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_SANDY_SHOCKS] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gSandyShocksPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_TREADS] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronTreadsPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_BUNDLE] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronBundlePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_HANDS] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronHandsPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_JUGULIS] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronJugulisPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_MOTH] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronMothPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_THORNS] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronThornsPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_WO_CHIEN] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gWoChienPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_CHIEN_PAO] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gChienPaoPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_TING_LU] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gTingLuPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_CHI_YU] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gChiYuPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_ROARING_MOON] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gRoaringMoonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_VALIANT] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronValiantPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_KORAIDON] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gKoraidonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MIRAIDON] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gMiraidonPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_WALKING_WAKE] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gWalkingWakePokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_IRON_LEAVES] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gIronLeavesPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_OGERPON] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gOgerponPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_OKIDOGI] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gOkidogiPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_MUNKIDORI] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gMunkidoriPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_FEZANDIPITI] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gFezandipitiPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_TERAPAGOS] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gTerapagosPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

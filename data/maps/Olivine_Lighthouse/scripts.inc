@@ -477,3 +477,42 @@ Olivine_Lighthouse_Ampharosita_Texto_3:
 	.string "y aguantar bien los golpes al\l"
 	.string "mismo tiempo, aunque esa VELOCIDAD\l"
 	.string "a veces le condene...$"
+
+
+
+Faro_Voltiocambio::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_807, Faro_Voltiocambio_Despues
+msgbox Faro_Voltiocambio_Texto_1, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM78
+msgbox Faro_Voltiocambio_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_807
+release     
+end
+
+Faro_Voltiocambio_Despues::
+msgbox Faro_Voltiocambio_Texto_2, MSGBOX_NPC
+release
+end
+
+Faro_Voltiocambio_Texto_1.1:
+.string "¡{PLAYER} obtuvo la MT78 VOLTIOCAMBIO\n"
+	.string "de manos de mecánico!$"
+
+
+Faro_Voltiocambio_Texto_1:
+	.string "Llevo trabajando aquí desde que el\n"
+	.string "FARO se inauguró, sé perfectamente\l"
+	.string "cómo funcionan todas las\l"
+	.string "conexiones eléctricas del lugar.$"
+
+Faro_Voltiocambio_Texto_2:
+.string "Si usas las GAFAS ELEGIDAS no solo\n"
+	.string "marearás al rival con los cambios,\l"
+	.string "también potenciarás el daño\l"
+	.string "causado. ¡Pero cuidado con quedar\l"
+	.string "atrapado por el TIPO TIERRA o la\l"
+	.string "HABILIDAD ABSORBER.ELÉC!$"

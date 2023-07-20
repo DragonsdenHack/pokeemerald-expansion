@@ -100,7 +100,7 @@ BillGarden_House1_Bill_Combate_Text_9:
 	.string "llevároslo.$"
 
 BillGarden_House1_Bill_Combate_Text_10:
-.string "Se acabó. Haz lo que quieras tu\n"
+.string "Se acabó. Haz lo que quieras, tu\n"
 	.string "única opción es salir y\l"
 	.string "entregarte. Disfruta de tus\l"
 	.string "últimos momentos con la patente en\l"

@@ -181,6 +181,12 @@ playfanfare MUS_OBTAIN_TMHM
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_27 MSGBOX_DEFAULT
 givemon SPECIES_FLABEBE, 25, ITEM_NONE
 waitfanfare
+delay 10
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_11.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM60
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_11.2 MSGBOX_DEFAULT
+waitfanfare
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_28 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
 fadescreen 1
@@ -194,6 +200,13 @@ setvar VAR_UNUSED_0x40F7, 160
 clearflag FLAG_RECEIVED_SHOAL_SALT_3
 release
 end
+
+Ecruteak_TinTowerRoof_Zeus_Texto_11.2:
+.string "¡¡{PLAYER} obtuvo la MT60 PSICOCARGA\n"
+	.string "de manos de JADEN!!$"
+
+Ecruteak_TinTowerRoof_Zeus_Texto_11.1:
+.string "Y esta MT también, sabrás usarla.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_1:
 .string "????: Acércate, {PLAYER}, estaba\n"

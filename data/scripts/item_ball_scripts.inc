@@ -1862,387 +1862,679 @@ finditem ITEM_WATER_GEM
 
 Lago3_EventScript_Cuerda::
 finditem ITEM_ESCAPE_ROPE
+   end
 
 Lago3_EventScript_SartaPerlas::
 finditem ITEM_PEARL_STRING
+   end
 
 Lago3_EventScript_MaxRevivir::
 finditem ITEM_MAX_REVIVE
+   end
 
 Lago3_EventScript_Piedra::
 finditem ITEM_WATER_STONE
+   end
 
 Lago4_EventScript_TrozoEstrella::
 finditem ITEM_STAR_PIECE
+   end
 
 Lago4_EventScript_MAXPP::
 finditem ITEM_PP_MAX
+   end
 
 Lago4_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
+   end
 
 Lago4_EventScript_PerlaGrande::
 finditem ITEM_BIG_PEARL
+   end
 
 Lago5_EventScript_Elixir::
 finditem ITEM_ELIXIR
+   end
 
 Lago5_EventScript_FragmentoCometa::
 finditem ITEM_COMET_SHARD
+   end
 
 Ruta47_EventScript_RocaSuave::
 finditem ITEM_SMOOTH_ROCK
+   end
 
 Ruta48_EventScript_RocaGema::
 finditem ITEM_ROCK_GEM
+   end
 
 Ruta49_EventScript_MaxRevivir::
 finditem ITEM_MAX_REVIVE
+   end
 
 Ruta49_EventScript_CenSagrada::
 finditem ITEM_SACRED_ASH
+   end
 
 Ruta50_EventScript_Elixir::
 finditem ITEM_ELIXIR
+   end
 
 Ruta50_EventScript_MaxPotion::
 finditem ITEM_MAX_POTION
+   end
 
 Ruta50_EventScript_BalmSeta::
 finditem ITEM_BALM_MUSHROOM
+   end
 
 Ruta50_EventScript_Hierba::
 finditem ITEM_POWER_HERB
+   end
 
 Ruta50_EventScript_MaxRepel::
 finditem ITEM_MAX_REPEL
+   end
 
 Ruta50_EventScript_Gema::
 finditem ITEM_GRASS_GEM
+   end
 
 Ruta50_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
+   end
 
 Ruta50_EventScript_MaxEther::
 finditem ITEM_MAX_ETHER
+   end
 
 Ruta53_EventScript_Steelexita::
 finditem ITEM_STEELIXITE
+   end
 
 Vias1_EventScript_Ziuela::
 finditem ITEM_LUM_BERRY
+   end
 
 Vias1_EventScript_CenSagrada::
 finditem ITEM_SACRED_ASH
+   end
 
 Vias1_EventScript_Terrain::
 finditem ITEM_TERRAIN_EXTENDER
+   end
 
 Vias2_EventScript_SetaGrande::
 finditem ITEM_BIG_MUSHROOM
+   end
 
 Vias2_EventScript_MaxEther::
 finditem ITEM_MAX_ETHER
+   end
 
 Vias2_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
+   end
 
 Vias2_EventScript_PPUP::
 finditem ITEM_PP_UP
+   end
 
 Vias3_EventScript_SetaGrande::
 finditem ITEM_BIG_MUSHROOM
+   end
 
 Vias3_EventScript_Elixir::
 finditem ITEM_ELIXIR
+   end
 
 Vias3_EventScript_MallaBall::
 finditem ITEM_NET_BALL
+   end
 
 Vias3_EventScript_HierbaBlanca::
 finditem ITEM_WHITE_HERB
+   end
 
 Vias4_EventScript_PolvoPlata::
 finditem ITEM_SILVER_POWDER
+   end
 
 Vias4_EventScript_SetaGrande::
 finditem ITEM_BIG_MUSHROOM
+   end
 
 Vias4_EventScript_MaxRepel::
 finditem ITEM_MAX_REPEL
+   end
 
 Vias4_EventScript_Restauratodo::
 finditem ITEM_FULL_RESTORE
+   end
 
 Vias4_EventScript_MaxRevivir::
 finditem ITEM_MAX_REVIVE
+   end
 
 Vias5_EventScript_SetaGrande::
 finditem ITEM_BIG_MUSHROOM
+   end
 
 Vias5_EventScript_Pepita::
 finditem ITEM_NUGGET
+   end
 
 Vias5_EventScript_GemaPlanta::
 finditem ITEM_GRASS_GEM
+   end
 
 ViasBosque_EventScript_Seta::
 finditem ITEM_BALM_MUSHROOM
+   end
 
 ViasBosque_EventScript_Gema::
 finditem ITEM_BUG_GEM
+   end
 
 ViasBosque_EventScript_HierbaRev::
 finditem ITEM_REVIVAL_HERB
+   end
 
 ViasSur_EventScript_SemMilagro::
 finditem ITEM_MIRACLE_SEED
+   end
 
 ViasSur_EventScript_PowerHerb::
 finditem ITEM_POWER_HERB
+   end
 
 ViasSur_EventScript_SetaGigante::
 finditem ITEM_BALM_MUSHROOM
+   end
 
 ViasSur_EventScript_Maxipepita::
 finditem ITEM_BIG_NUGGET
+   end
 
 ViasSur3_EventScript_Gafas::
 finditem ITEM_SAFETY_GOGGLES
+   end
 
 ViasSur3_EventScript_GemaTierra::
 finditem ITEM_GROUND_GEM
+   end
 
 ViasSur4_EventScript_Paracontacto::
 finditem ITEM_PROTECTIVE_PADS
+   end
 
 ViasSur4_EventScript_PPMAX::
 finditem ITEM_PP_MAX
+   end
 
 LavandaRadio2_EventScript_SeguroFallo::
 finditem ITEM_BLUNDER_POLICY
+   end
 
 LavandaRadio4_EventScript_Tarjeta::
 finditem ITEM_RED_CARD
+   end
 
 LavandaRadio5_EventScript_Pila::
 finditem ITEM_CELL_BATTERY
+   end
 
 LavandaRadio5_EventScript_Refleluz::
 finditem ITEM_LIGHT_CLAY
+   end
 
 LavandaRadio6_EventScript_Paraguas::
 finditem ITEM_UTILITY_UMBRELLA
+   end
 
 NeoCinnabar_EventScript_PolvoBrillo::
 finditem ITEM_BRIGHT_POWDER
+   end
 
 NeoCinnabar_EventScript_Carbon::
 finditem ITEM_CHARCOAL
+   end
 
 Volcan_EventScript_Roca::
 finditem ITEM_HEAT_ROCK
+   end
 
 Volcan_EventScript_Gafas::
 finditem ITEM_WISE_GLASSES
+   end
 
 Lab4_EventScript_Magmatizer::
 finditem ITEM_MAGMARIZER
+   end
 
 Volcan_EventScript_Llamasfera::
 finditem ITEM_FLAME_ORB
+   end
 
 Lab4_EventScript_Escape::
 finditem ITEM_EJECT_BUTTON
+   end
 
 Lab4_EventScript_Elixir::
 finditem ITEM_ELIXIR
+   end
 
 Lab4_EventScript_MasterBall::
 finditem ITEM_MASTER_BALL
+   end
 
 Lab5_EventScript_CrioRom::
 finditem ITEM_CHILL_DRIVE
+   end
 
 Lab5_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
+   end
 
 Lab5_EventScript_Chaleco::
 finditem ITEM_ASSAULT_VEST
+   end
 
 Lab5_EventScript_PPUP::
 finditem ITEM_PP_UP
+   end
 
 Lab5_EventScript_ShowRom::
 finditem ITEM_SHOCK_DRIVE
+   end
 
 Lab2_EventScript_HydroRom::
 finditem ITEM_DOUSE_DRIVE
+   end
 
 Lab1_EventScript_BurnRom::
 finditem ITEM_BURN_DRIVE
+   end
 
 Lab1_EventScript_Telescopio::
 finditem ITEM_ZOOM_LENS
+   end
 
 BaseHoenn_EventScript_Restauratodo::
 finditem ITEM_FULL_RESTORE
+   end
 
 BaseHoenn_EventScript_Garra::
 finditem ITEM_RAZOR_CLAW
+   end
 
 BaseHoenn_EventScript_UltraBall::
 finditem ITEM_ULTRA_BALL
+   end
 
 BaseHoenn_EventScript_Hechizo::
 finditem ITEM_SPELL_TAG
+   end
 
 Cementerio_EventScript_Blanco::
 finditem ITEM_RING_TARGET
+   end
 
 Cementerio_EventScript_MaxRepel::
 finditem ITEM_MAX_REPEL
+   end
 
 Cementerio_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
+   end
 
 Cementerio_EventScript_MaxEther::
 finditem ITEM_MAX_ETHER
+   end
 
 Cementerio2_EventScript_Piedraeterna::
 finditem ITEM_EVERSTONE
+   end
 
 Cementerio2_EventScript_DuskBall::
 finditem ITEM_DUSK_BALL
+   end
 
 Cementerio2_EventScript_Atadura::
 finditem ITEM_BINDING_BAND
+   end
 
 Cementerio2_EventScript_MaxRepel::
 finditem ITEM_MAX_REPEL
+   end
 
 Cementerio2_EventScript_Incienso::
 finditem ITEM_ODD_INCENSE
-
+   end
 
 BosqueGym_EventScript_Setagigante::
 finditem ITEM_BALM_MUSHROOM
+   end
 
 BosqueGym_EventScript_Incienso::
 finditem ITEM_PURE_INCENSE
+   end
 
 BosqueGym_EventScript_Musgo::
 finditem ITEM_LUMINOUS_MOSS
+   end
 
 Magma2_EventScript_PiedraFuego::
 finditem ITEM_FIRE_STONE
+   end
 
 Magma2_EventScript_Gema::
 finditem ITEM_FIRE_GEM
+   end
 
 Magma2_EventScript_Roca::
 finditem ITEM_HEAT_ROCK
+   end
 
 Magma2_EventScript_PPUP::
 finditem ITEM_PP_UP
+   end
 
 Aqua1_EventScript_PiedraAgua::
 finditem ITEM_WATER_STONE
+   end
 
 Aqua1_EventScript_Gema::
 finditem ITEM_WATER_GEM
+   end
 
 Aqua1_EventScript_Roca::
 finditem ITEM_DAMP_ROCK
+   end
 
 Aqua1_EventScript_PPUP::
 finditem ITEM_PP_UP
+   end
 
 MisionTrigal2_EventScript_Restauratodo::
 finditem ITEM_FULL_RESTORE
+   end
 
 MisionTrigal2_EventScript_MaxRevivir::
 finditem ITEM_MAX_REVIVE
+   end
 
 MisionTrigal2_EventScript_Ether::
 finditem ITEM_ETHER
+   end
 
 MisionTrigal3_EventScript_PPMAX::
 finditem ITEM_PP_MAX
+   end
 
 MisionTrigal4_EventScript_Pepita::
 finditem ITEM_NUGGET
+   end
 
 MisionTrigal4_EventScript_Protector::
 finditem ITEM_PROTECTOR
+   end
 
 MisionIrisLab_EventScript_Sharpedonite::
 finditem ITEM_SHARPEDONITE
+   end
 
 CuevaTesoro1_EventScript_TrozoEstrella::
 finditem ITEM_STAR_PIECE
+   end
 
 CuevaTesoro1_EventScript_PerlaGrande::
 finditem ITEM_BIG_PEARL
+   end
 
 CuevaTesoro1_EventScript_Ether::
 finditem ITEM_ETHER
+   end
 
 CuevaTesoro1_EventScript_Maxpocion::
 finditem ITEM_MAX_POTION
+   end
 
 CuevaTesoro2_EventScript_SartaPerlas::
 finditem ITEM_PEARL_STRING
+   end
 
 CuevaTesoro3_EventScript_PerlaGrande::
 finditem ITEM_BIG_PEARL
+   end
 
 CuevaTesoro3_EventScript_MaxRevive::
 finditem ITEM_MAX_REVIVE
+   end
 
 CuevaTesoro3_EventScript_CometShard::
 finditem ITEM_COMET_SHARD
+   end
 
 CuevaTesoro4_EventScript_StarPiece::
 finditem ITEM_STAR_PIECE
+   end
 
 CuevaTesoro4_EventScript_Pepita::
 finditem ITEM_NUGGET
+   end
 
 CuevaTesoro4_EventScript_NetBall::
 finditem ITEM_NET_BALL
+   end
 
 CuevaTesoro4_EventScript_Elixir::
 finditem ITEM_ELIXIR
+   end
 
 TinTower4_EventScript_CenSagrada::
 finditem ITEM_SACRED_ASH
+   end
 
 Carbon1_EventScript_MaxPocion::
 finditem ITEM_MAX_POTION
+   end
 
 Carbon1_EventScript_Semilla::
 finditem ITEM_ELECTRIC_SEED
+   end
 
 Carbon1_EventScript_Piedratrueno::
 finditem ITEM_THUNDER_STONE
+   end
 
 Carbon1_EventScript_Ether::
 finditem ITEM_ETHER
+   end
 
 Carbon2_EventScript_PiedraFuego::
 finditem ITEM_FIRE_STONE
+   end
 
 Carbon2_EventScript_MaxElixir::
 finditem ITEM_MAX_ELIXIR
+   end
 
 Carbon2_EventScript_Magnet::
 finditem ITEM_MAGNET
+   end
 
 Carbon2_EventScript_Electrizador::
 finditem ITEM_ELECTIRIZER
+   end
 
+Carbon2_EventScript_MT64::
+finditem ITEM_TM64
+   end
 
+CultoS4_EventScript_MT75::
+finditem ITEM_TM75
+   end
+
+Lago_EventScript_MT96::
+finditem ITEM_TM96
+   end
+
+Ruta50_EventScript_MT62::
+finditem ITEM_TM62
+   end
+
+Ruta47_EventScript_MT71::
+finditem ITEM_TM71
+   end
+
+Ruta49_EventScript_MT52::
+finditem ITEM_TM52
+   end
+
+Lab3_EventScript_MT73::
+finditem ITEM_TM73
+   end
+
+ViasSur4_EventScript_MT95::
+finditem ITEM_TM95
+   end
+
+ViasTren5_EventScript_MT67::
+finditem ITEM_TM67
+   end
+
+ViasTren5_EventScript_MT90::
+finditem ITEM_TM90
+   end
+
+ViasTren2_EventScript_MT88::
+finditem ITEM_TM88
+   end
+
+BaseHoenn_EventScript_MT55::
+finditem ITEM_TM55
+   end
+
+Cementerio_EventScript_Elixir::
+finditem ITEM_ELIXIR
+   end
+
+CementerioS2_EventScript_TM76::
+finditem ITEM_TM76
+   end
+
+MisionTrigal3_EventScript_TM58::
+finditem ITEM_TM58
+   end
+
+CuevaTesoro4_EventScript_TM69::
+finditem ITEM_TM69
+   end
+
+CuevaTesoro4_EventScript_PiedraAgua::
+finditem ITEM_WATER_STONE
+   end
+
+CuevaRuta50_EventScript_TM86::
+finditem ITEM_TM86
+   end
+
+Carbon2_EventScript_Restautodo::
+finditem ITEM_FULL_RESTORE
+   end
+
+OlivineCity_Event_Script_TM57::
+finditem ITEM_TM57
+   end
+
+OlivineCity_Event_Script_Diente::
+finditem ITEM_DEEP_SEA_TOOTH
+   end
+
+LavenderRadioP6_Event_Script_TM79::
+finditem ITEM_TM79
+   end
+
+SilphS3_Event_Script_TM51::
+finditem ITEM_TM51
+   end
+
+RocketJohto_Event_Script_TM87::
+finditem ITEM_TM87
+   end
+
+RocketHoenn_Event_Script_TM80::
+finditem ITEM_TM80
+   end
+
+RocketHoenn_Event_Script_RazorClaw::
+finditem ITEM_RAZOR_CLAW
+   end
+
+TorreSecundaP2_Event_Script_Restautodo::
+finditem ITEM_FULL_RESTORE
+   end
+
+TorreSecundaP3_Event_Script_MaxRepel::
+finditem ITEM_MAX_REPEL
+   end
+
+TorreSecundaP4_Event_Script_TM102::
+finditem ITEM_TM102_SMART_STRIKE
+   end
+
+RadioTowerP10_Event_Script_TM111::
+finditem ITEM_TM111_PSYWAVE
+   end
+
+RadioTowerP9_Event_Script_Manectita::
+finditem ITEM_MANECTITE
+   end
+
+Mision7Lab4_Event_Script_Cameruptita::
+finditem ITEM_CAMERUPTITE
+   end
+
+RadioTowerP8_Event_Script_RareCandy::
+finditem ITEM_RARE_CANDY
+   end
+
+MisionMoteros_Event_Script_TM101::
+finditem ITEM_TM101
+   end
+
+MisionMoteros_Event_Script_Carameloraro::
+finditem ITEM_RARE_CANDY
+   end
+
+MisionMoteros_Event_Script_PPUP::
+finditem ITEM_PP_UP
+   end
+
+MisionMoteros_Event_Script_Ether::
+finditem ITEM_ETHER
+   end
+
+MisionMoteros_Event_Script_ElixirMax::
+finditem ITEM_MAX_ELIXIR
+   end
+
+MisionMoteros_Event_Script_Maxpotion::
+finditem ITEM_MAX_POTION
+   end
+
+MisionMoteros_Event_Script_Fullheal::
+finditem ITEM_FULL_HEAL
+   end
+
+MisionMoteros_Event_Script_Revivir::
+finditem ITEM_REVIVE
+   end
+
+MisionMoteros_Event_Script_Restauratodo::
+finditem ITEM_FULL_RESTORE
+   end
 
 
 

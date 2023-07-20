@@ -20,4 +20,3 @@ PlayaTesoro_Text2:
 	.string "de gran valor a la playa.\p"
 	.string "Por eso vengo con frecuencia\n"
 	.string "a peinar la arena.$"
-	

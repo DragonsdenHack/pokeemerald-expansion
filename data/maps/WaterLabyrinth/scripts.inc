@@ -19,4 +19,3 @@ WaterLabyrinth_EventScript_Gentleman::
 	trainerbattle_single TRAINER_SAWYER_1, WaterLabyrinth_Text_GentlemanIntro, WaterLabyrinth_Text_GentlemanDefeated
 	msgbox WaterLabyrinth_Text_GentlemanPostBattle, MSGBOX_AUTOCLOSE
 	end
-	

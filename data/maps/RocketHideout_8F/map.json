@@ -2,7 +2,7 @@
   "id": "MAP_ROCKET_HIDEOUT_8F",
   "name": "RocketHideout_8F",
   "layout": "LAYOUT_ROCKET_HIDEOUT_8F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "560",
   "region_map_section": "MAPSEC_ROCKET_HIDEOUT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout4F_Dialogos_Giovanni",
-      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCH"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROTON",
@@ -172,7 +172,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 8,
       "y": 11,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -181,7 +181,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 8,
       "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -190,7 +190,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 10,
       "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -217,7 +217,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 10,
       "y": 11,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -235,7 +235,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 10,
       "y": 12,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -244,7 +244,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 10,
       "y": 13,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -253,7 +253,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 10,
       "y": 12,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -262,7 +262,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 8,
       "y": 12,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",

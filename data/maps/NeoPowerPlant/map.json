@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NeoPowerPlant_RayoCarga",
       "flag": "FLAG_RECEIVED_SHOAL_SHELL_3"
     },
     {
@@ -150,7 +150,7 @@
       "x": 4,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_VIAS_TREN_CASA_CAMPEON",
+      "dest_map": "MAP_NEO_LAVANDA_RUTA_NORTE",
       "dest_warp_id": 0
     }
   ],

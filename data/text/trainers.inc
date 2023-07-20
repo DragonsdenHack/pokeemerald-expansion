@@ -9102,7 +9102,7 @@ CeladonCityGym_Text_ChicaDefeated:
 
 
 CeladonCityGym_Text_ChicaPostBattle:
-	.string "¡Espero que ERIKA se encarge de\n"
+	.string "¡Espero que ERIKA se encargue de\n"
 	.string "ti!$"
 
 
@@ -16832,3 +16832,525 @@ NinjaBaseS3_Text_NinjaPostBattle:
 .string "Vamos a convertir esta base en lo\n"
 	.string "que siempre fue, un verdadero\l"
 	.string "escondite ninja.$"
+
+TwoIsland_Text_BikerIntro:
+.string "¿Dónde crees que vas?\n"
+	.string "¡Este terreno es privado!$"
+
+TwoIsland_Text_BikerDefeated:
+.string "¡Qué poderío!$"
+
+TwoIsland_Text_BikerPostBattle:
+.string "¿Adónde vas?\n"
+	.string "En ese edificio de 4 plantas no hay\l"
+	.string "nada, está vacío.$"
+
+TwoIsland_Text_Biker2Intro:
+.string "¿Pero a ti qué te pasa, no eras de\n"
+	.string "KANTO también?\l"
+	.string "¡Se supone que debes apoyarnos!$"
+
+TwoIsland_Text_Biker2Defeated:
+.string "¡Venga ya!$"
+
+TwoIsland_Text_Biker2PostBattle:
+.string "Puede que no te guste lo que encuentres\n"
+	.string "ahí arriba.$"
+
+TwoIsland_Torre_P2_Text_BikerIntro:
+.string "Los RECREATIVOS de aquí siempre han\n"
+	.string "dado pena.\l"
+	.string "¿No querrás dejarlos como estaban?$"
+
+TwoIsland_Torre_P2_Text_BikerDefeated:
+.string "¡Bah! ¡He luchado de pena!$"
+
+TwoIsland_Torre_P2_Text_BikerPostBattle:
+.string "Esta isla por fin tendrá unos\n"
+	.string "RECREATIVOS de verdad.\l"
+	.string "¡Ya lo verás!$"
+
+TwoIsland_Torre_P2_Text_CalvoIntro:
+.string "El DODRIO A POR BAYAS es lo peor que\n"
+	.string "le ha pasado a esta isla.\l"
+	.string "¿Y tú quieres que siga? ¡No tienes\l"
+	.string "perdón!$"
+
+TwoIsland_Torre_P2_Text_CalvoDefeated:
+.string "Menudo asco de combate.$"
+
+TwoIsland_Torre_P2_Text_CalvoPostBattle:
+.string "Debí hacer atrapado un KOFFING, así\n"
+	.string "al menos me hubiera llevado por\l"
+	.string "delante a alguno de tus POKÉMON con\l"
+	.string "EXPLOSION.$"
+
+TwoIsland_Torre_P3_Text_CalvoIntro:
+.string "Se acabó, voy a aplastarte a base de\n"
+	.string "fuerza bruta.$"
+
+TwoIsland_Torre_P3_Text_CalvoDefeated:
+.string "¡URSARING! ¡Sigue!$"
+
+TwoIsland_Torre_P3_Text_CalvoPostBattle:
+.string "¿Crees que puedes venir aquí y hacer lo\n"
+	.string "que quieras?$"
+
+TwoIsland_Torre_P3_Text_RocketIntro:
+.string "Ni un paso más, nuestros altos cargos\n"
+	.string "están teniendo una importante\l"
+	.string "reunión.$"
+
+TwoIsland_Torre_P3_Text_RocketDefeated:
+.string "¡Espera! ¡Te he visto antes!$"
+
+TwoIsland_Torre_P3_Text_RocketPostBattle:
+.string "¡¿Eres ADMIN del TEAM ROCKET!? Pues\n"
+	.string "has debido subir muy rápido, cuando yo\l"
+	.string "aún estaba jamás oí hablar de ti.$"
+
+TwoIsland_Torre_P4_Text_RocketIntro:
+.string "¿Quién eres tú? ¿Del TEAM ROCKET\n"
+	.string "también?\l"
+	.string "No me suenas, llevamos meses en estas\l"
+	.string "islas planeando esto, solo sé que tú\l"
+	.string "no nos lo vas a impedir.$"
+
+TwoIsland_Torre_P4_Text_RocketDefeated:
+.string "¡Sí que peleas como un ROCKET!$"
+
+TwoIsland_Torre_P4_Text_RocketPostBattle:
+.string "¿ADMINISTRADOR?\n"
+	.string "Eso es imposible, solo PETREL Y ATLAS\l"
+	.string "ocupaban ese cargo, y ahora nuestro\l"
+	.string "nuevo JEFE también.$"
+
+
+TwoIsland_Torre_P4_Text_Rocket2Intro:
+.string "¿Qué clase de tomadura de pelo es esta?\n"
+	.string "¿Y la seguridad?$"
+
+TwoIsland_Torre_P4_Text_Rocket2Defeated:
+.string "Ya veo...$"
+
+TwoIsland_Torre_P4_Text_Rocket2PostBattle:
+.string "Pareces alguien importante, nuestro\n"
+	.string "JEFE es conocido por ser de mecha\l"
+	.string "corta, así que si tienes algo que\l"
+	.string "decirle, dilo claro.$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_1Intro:
+.string "Somos el grupo de Entrenadores de la\n"
+	.string "FEDERACION de POKÉMON de KANTO. ¡Te\l"
+	.string "vamos a arrollar!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_1Defeated:
+.string "¡L-lo siento!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_1PostBattle:
+.string "¡Viva la FEDERACION POKÉMON de KANTO!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_2Intro:
+.string "La policía ha cerrado la Vía\n"
+	.string "Subterránea. ¡Qué fastidio!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_2Defeated:
+.string "¡P-perdóname!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_2PostBattle:
+.string "¡Destruido por alguien trajeado!...$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_3Intro:
+.string "Somos la FEDERACION POKÉMON de KANTO.\n"
+	.string "¡Allá vamos!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_3Defeated:
+.string "¡Vaya! ¡Perdona!$"
+
+NeoLavanda_Ruta_Oeste_Text_Motorista_3PostBattle:
+.string "¡Vaaale! Intentaremos no molestar a\n"
+	.string "nadie a partir de ahora.$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_1Intro:
+	.string "¿Cómo funciona el MAGNETOTREN?$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_1Defeated:
+.string "Quiero ver el MAGNETOTREN...$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_1PostBattle:
+.string "¡El poder de los imanes es inmenso!$"
+
+NeoLavanda_Ruta_Oeste_Text_CaballeroIntro:
+.string "¿Tendría a bien enfrentarse en combate\n"
+	.string "con un duque como yo?$"
+
+NeoLavanda_Ruta_Oeste_Text_CaballeroDefeated:
+.string "¡Ha demostrado una destreza singular!$"
+
+NeoLavanda_Ruta_Oeste_Text_CaballeroPostBattle:
+.string "Bien en el viaje, bien en el combate, un\n"
+	.string "duque como yo ha de cuidar las buenas\l"
+	.string "maneras en todo momento.$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_2Intro:
+.string "Mmm... Tienes muchas MEDALLAS de\n"
+	.string "GIMNASIO.$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_2Defeated:
+.string "Tal y como pensaba. ¡Eres fuerte!$"
+
+NeoLavanda_Ruta_Oeste_Text_Necio_2PostBattle:
+.string "¡No es de extrañar que tengas tantas\n"
+	.string "MEDALLAS de GIMNASIO!$"
+
+NeoLavanda_Ruta_Norte_Text_JugadorIntro:
+.string "Te gustan los POKÉMON, ¿verdad? ¡A mí\n"
+	.string "también!$"
+
+NeoLavanda_Ruta_Norte_Text_JugadorDefeated:
+.string "Debo admitir mi derrota.$"
+
+NeoLavanda_Ruta_Norte_Text_JugadorPostBattle:
+.string "Mira lo que le has hecho a mi POKéMON. No\n"
+	.string "lo olvidaré...$"
+
+NeoLavanda_Ruta_Norte_Text_MontaneroIntro:
+.string "¡Ja, ja, ja!$"
+
+NeoLavanda_Ruta_Norte_Text_MontaneroDefeated:
+.string "¡Aaaaaaachís!$"
+
+NeoLavanda_Ruta_Norte_Text_MontaneroPostBattle:
+.string "¡La alergia me hace estornudar!\n"
+	.string "¡AAACHÚS!$"
+
+NeoLavanda_Ruta_Sur_Text_PescadorIntro:
+.string "¿Te acuerdas?$"
+
+NeoLavanda_Ruta_Sur_Text_PescadorDefeated:
+.string "Te acuerdas, ¿no?$"
+
+NeoLavanda_Ruta_Sur_Text_PescadorPostBattle:
+.string "El tirón de la CAÑA cuando ha picado un\n"
+	.string "POKéMON... Ésa es la mejor sensación\l"
+	.string "para un pescador como yo.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_2Intro:
+.string "La paciencia es la clave para pescar y\n"
+	.string "criar POKéMON.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_2Defeated:
+.string "¡Guaaa!$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_2PostBattle:
+.string "No tengo paciencia para la pesca...$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_3Intro:
+.string "Me gusta pescar mientras escucho\n"
+	.string "canciones por la radio.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_3Defeated:
+.string "¡Mi estúpida radio me ha distraído!$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_3PostBattle:
+.string "¿Conoces las emisoras de radio de\n"
+	.string "KANTO? Tenemos muchas.$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_4Intro:
+.string "¿Qué es lo más importante en nuestras\n"
+	.string "vidas?$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_4Defeated:
+.string "¡La respuesta vendrá luego!$"
+
+NeoLavanda_Ruta_Sur_Text_Pescador_4PostBattle:
+.string "Creo que la electricidad es lo más\n"
+	.string "importante en nuestras vidas. Si no lo\l"
+	.string "fuera, no se habría montado tanto\l"
+	.string "follón cuando se estropeó la CENTRAL\l"
+	.string "ENERGÍA.$"
+
+NeoLavanda_Ruta_Sur_2_Text_OrnitologoIntro:
+.string "Mira mis POKéMON. Fíjate en su color y\n"
+	.string "en su plumaje.$"
+
+NeoLavanda_Ruta_Sur_2_Text_OrnitologoDefeated:
+.string "¡Vaya! ¡No soy lo bastante bueno!$"
+
+NeoLavanda_Ruta_Sur_2_Text_OrnitologoPostBattle:
+.string "Los POKéMON son felices si los pones\n"
+	.string "guapos.$"
+
+NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2Intro:
+.string "La agilidad es la clave de los POKéMON\n"
+	.string "pájaro.$"
+
+NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2Defeated:
+.string "Me venciste con tu velocidad...$"
+
+NeoLavanda_Ruta_Sur_2_Text_Ornitologo_2PostBattle:
+.string "Tus POKéMON están muy bien entrenados.$"
+
+NeoLavanda_Ruta_Sur_2_Text_JugadorIntro:
+.string "¡Jijiji! ¿Quieres luchar contra mi grupo\n"
+	.string "de RAICHU?$"
+
+NeoLavanda_Ruta_Sur_2_Text_JugadorDefeated:
+.string "¡RA, RAICHU!$"
+
+NeoLavanda_Ruta_Sur_2_Text_JugadorPostBattle:
+.string "Parece que tienes muchos POKéMON, pero\n"
+	.string "RAICHU es el mejor.$"
+
+NeoLavanda_Ruta_Sur_2_Text_Jugador_2Intro:
+.string "¡Arrodíllate ante mi regio POKéMON!$"
+
+NeoLavanda_Ruta_Sur_2_Text_Jugador_2Defeated:
+.string "¿Qué? ¡Te burlas de la realeza!$"
+
+NeoLavanda_Ruta_Sur_2_Text_Jugador_2PostBattle:
+.string "¿Acaso no quieres ser rey todo el\n"
+	.string "mundo?$"
+
+NeoLavanda_Ruta_Sur_2_Text_MontaneroIntro:
+.string "Debería ir al TÚNEL ROCA para conseguir\n"
+	.string "un ONIX.$"
+
+NeoLavanda_Ruta_Sur_2_Text_MontaneroDefeated:
+.string "He perdido...$"
+
+NeoLavanda_Ruta_Sur_2_Text_MontaneroPostBattle:
+.string "Parece que las formas geológicas no\n"
+	.string "cambian. Pero sí que cambian, aunque\l"
+	.string "poco a poco.$"
+
+LavenderRadioP8_Text_PoliciaIntro:
+.string "Los avances científicos de los\n"
+	.string "últimos meses han sido asombrosos,\l"
+	.string "¿quieres verlos?$"
+
+LavenderRadioP8_Text_PoliciaDefeated:
+.string "Creí que te sorprendería...$"
+
+LavenderRadioP8_Text_PoliciaPostBattle:
+.string "Si seguimos este ritmo, SILVALLY\n"
+	.string "pronto sustituirá a ARCANINE como\l"
+	.string "acompañante ideal de un POLICIA.\l"
+	.string "Objetivamente es superior para esta\l"
+	.string "función, el resto pasará a un segundo\l"
+	.string "plano.$"
+
+LavenderRadioP9_Text_RocketIntro:
+.string "¿Es verdad que derrotó al mismísimo\n"
+	.string "GIOVANNI en su propio despacho?$"
+
+LavenderRadioP9_Text_RocketDefeated:
+.string "Un honor perder ante usted señor.$"
+
+LavenderRadioP9_Text_RocketPostBattle:
+.string "Con ANDRA y usted, ¡el TEAM ROCKET\n"
+	.string "jamás será derrotado!$"
+
+LavenderRadioP10_Text_RocketIntro:
+.string "Este es ya el P10, ha llegado muy\n"
+	.string "lejos, ¿no le da vértigo seguir\l"
+	.string "subiendo?$"
+
+LavenderRadioP10_Text_RocketDefeated:
+.string "Ya veo que no.$"
+
+LavenderRadioP10_Text_RocketPostBattle:
+.string "Está claro, alguien como usted está\n"
+	.string "hecho para soportar la presión de las\l"
+	.string "grandes citas.$"
+
+Route49MazeP4_Text_SabioIntro:
+.string "La victoria pertenece a los más\n"
+	.string "tenaces, ¿qué clase de ENTRENADOR\l"
+	.string "eres?$"
+
+Route49MazeP4_Text_SabioDefeated:
+.string "Así que eres de esos pocos.$"
+
+Route49MazeP4_Text_SabioPostBattle:
+.string "La única manera de ganar realmente es\n"
+	.string "volverse un poco mejor cada día de\l"
+	.string "entrenamiento.$"
+
+UndergroundPath_7F_Text_Primer_MoteroIntro:
+.string "¡No deberías estar aquí!$"
+
+UndergroundPath_7F_Text_Primer_MoteroDefeated:
+.string "¡He pinchado!$"
+
+UndergroundPath_7F_Text_Primer_MoteroPostBattle:
+.string "Convertimos estos refugios en un gran\n"
+	.string "mercado negro, ¡y ahora nos quieren\l"
+	.string "tumbar el negocio!$"
+
+UndergroundPath_7F_Text_Segundo_MoteroIntro:
+.string "¡Si nos atacas, te trataremos como a la\n"
+	.string "POLICÍA de SILPH!$"
+
+UndergroundPath_7F_Text_Segundo_MoteroDefeated:
+.string "¡Menuda paliza!$"
+
+UndergroundPath_7F_Text_Segundo_MoteroPostBattle:
+.string "¿Estás perdido? En realidad yo también\n"
+	.string "lo estoy, este lugar es enorme.$"
+
+UndergroundPath_7F_Text_Tercer_MoteroIntro:
+.string "Ya propuse apagar las luces\n"
+	.string "completamente, y mira por dónde. ¡Se\l"
+	.string "nos ha colado alguien!$"
+
+UndergroundPath_7F_Text_Tercer_MoteroDefeated:
+.string "¡Vaya birria de combate!$"
+
+UndergroundPath_7F_Text_Tercer_MoteroPostBattle:
+.string "Sabes que si esto fuera completamente\n"
+	.string "oscuro, jamás llegarías hasta nuestros\l"
+	.string "LÍDERES, ¿verdad?$"
+
+UndergroundPath_7F_Text_Cuarto_MoteroIntro:
+.string "¡No tan rápido! ¡Voy a envenenar a tus\n"
+	.string "POKÉMON!$"
+
+UndergroundPath_7F_Text_Cuarto_MoteroDefeated:
+.string "Para envenenar primero tengo que\n"
+	.string "atacar...$"
+
+UndergroundPath_7F_Text_Cuarto_MoteroPostBattle:
+.string "Nos quedaremos aquí pegados como\n"
+	.string "garrapatas hasta que los de arriba nos\l"
+	.string "escuchen.$"
+
+UndergroundPath_7F_Text_Quinto_MoteroIntro:
+.string "Se suponía que nuestra seguridad era\n"
+	.string "infalible. Tendremos que sacarte de\l"
+	.string "aquí a patadas.$"
+
+UndergroundPath_7F_Text_Quinto_MoteroDefeated:
+.string "¡Bah! ¡He perdido enseguida!$"
+
+
+UndergroundPath_7F_Text_Quinto_MoteroPostBattle:
+.string "Si has derrotado a VICIUS, al menos\n"
+	.string "nadie podrá echarme en cara haber\l"
+	.string "perdido también.$"
+
+UndergroundPath_7F_Text_Sexto_MoteroIntro:
+.string "Se acabó el juego. Creí que eras uno de\n"
+	.string "los nuestros, ¡pero no has demostrado\l"
+	.string "ser más que otro títere de los de\l"
+	.string "arriba!$"
+
+UndergroundPath_7F_Text_Sexto_MoteroDefeated:
+.string "No sabía que los títeres pegaran tan\n"
+	.string "fuerte...$"
+
+UndergroundPath_7F_Text_Sexto_MoteroPostBattle:
+.string "Nosotros al menos somos fieles a\n"
+	.string "nuestros ideales y tenemos\l"
+	.string "personalidad.$"
+
+UndergroundPath_7F_Text_Septimo_MoteroIntro:
+.string "El TEAM ROCKET nos ha decepcionado. ¡Os\n"
+	.string "habéis vendido al NUEVO ORDEN!$"
+
+UndergroundPath_7F_Text_Septimo_MoteroDefeated:
+.string "¿Osas traicionarnos?$"
+
+UndergroundPath_7F_Text_Septimo_MoteroPostBattle:
+.string "Nosotros aún recordamos cómo era la\n"
+	.string "KANTO pre-guerra, ¡en ella podíamos\l"
+	.string "vender aquí lo que nos fuera en gana!$"
+
+UndergroundPath_7F_Text_Octavo_MoteroIntro:
+.string "Con todo respeto, alguien que viene del\n"
+	.string "ARCHI7 jamás podrá entender el porqué\l"
+	.string "luchamos por este lugar. ¡Te haré\l"
+	.string "papilla!$"
+
+UndergroundPath_7F_Text_Octavo_MoteroDefeated:
+.string "¡Sigues sin entenderlo!$"
+
+UndergroundPath_7F_Text_Octavo_MoteroPostBattle:
+.string "Puede que seas bueno, ¡pero te\n"
+	.string "aplastaremos entre todos si es\l"
+	.string "necesario!$"
+
+UndergroundPath_7F_Text_Noveno_MoteroIntro:
+.string "En el TEAM ROCKET os habéis pasado de\n"
+	.string "listos, ¡aquí dentro mandamos\l"
+	.string "nosotros!$"
+
+UndergroundPath_7F_Text_Noveno_MoteroDefeated:
+.string "¡Puaf! ¡Mis POKÉMON dan pena peleando!$"
+
+UndergroundPath_7F_Text_Noveno_MoteroPostBattle:
+.string "Pensamos que el TEAM ROCKET nos\n"
+	.string "respaldaría más ante la llegada de\l"
+	.string "extranjeros a la región, pero nos han\l"
+	.string "dejado indefensos ante los nuevos\l"
+	.string "cambios.$"
+
+UndergroundPath_7F_Text_Decimo_MoteroIntro:
+.string "¡GIOVANNI nos ha traicionado! ¡Tú\n"
+	.string "también!$"
+
+UndergroundPath_7F_Text_Decimo_MoteroDefeated:
+.string "¡No tenéis perdón!$"
+
+UndergroundPath_7F_Text_Decimo_MoteroPostBattle:
+.string "Nosotros os dimos ese pequeño impulso\n"
+	.string "cuando no érais nadie, y ahora nos\l"
+	.string "devolvéis el favor tratándonos como a\l"
+	.string "ratas callejeras.$"
+
+UndergroundPath_7F_Text_Undecimo_MoteroIntro:
+.string "Este gran refugio ya ayudó a la\n"
+	.string "población de KANTO a resistir durante\l"
+	.string "la guerra. ¡Y de nuevo resistiremos\l"
+	.string "nosotros aquí!$"
+
+UndergroundPath_7F_Text_Undecimo_MoteroDefeated:
+.string "¡No nos sacaréis de aquí!$"
+
+UndergroundPath_7F_Text_Undecimo_MoteroPostBattle:
+.string "Tenemos provisiones para varios meses;\n"
+	.string "los subterráneos deben cerrarse ya,\l"
+	.string "por lo que los que estáis obligados a\l"
+	.string "ceder sois vosotros.$"
+
+UndergroundPath_7F_Text_Duodecimo_MoteroIntro:
+.string "{PLAYER}... Te conocí cuando no eras\n"
+	.string "nadie, ¿recuerdas? En la misión del\l"
+	.string "SSANNE. Yo os ayudé a entrar. Una\l"
+	.string "lástima que con los años esto haya\l"
+	.string "terminado así. ¡No tendré piedad\l"
+	.string "contigo!$"
+
+UndergroundPath_7F_Text_Duodecimo_MoteroDefeated:
+.string "Por algo llegaste tan lejos...$"
+
+UndergroundPath_7F_Text_Duodecimo_MoteroPostBattle:
+.string "Las pequeñas asociaciones siempre\n"
+	.string "funcionan mejor, cuando se vuelven\l"
+	.string "grandes, todo se corrompe y cada uno\l"
+	.string "busca su propio interés.$"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
