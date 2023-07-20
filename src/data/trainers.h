@@ -15041,12 +15041,12 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_LEADER,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER216"),
+        .trainerName = _("EXPLOSIVOS"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER216),
-        .party = {.NoItemCustomMoves = sParty_TRAINER216},
+        .party = {.ItemCustomMoves = sParty_TRAINER216},
     },
 
     [TRAINER_TRAINER_217] =

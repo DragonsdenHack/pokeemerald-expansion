@@ -30031,14 +30031,60 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER215[] = {
 
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER216[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER216[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .evs = {0, 0, 0, 0, 0, 0},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_GOLEM_ALOLAN,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {0, 252, 0, 252, 0, 6},
+    .nature = NATURE_JOLLY,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_EXPLOSION, MOVE_EARTHQUAKE, MOVE_STONE_EDGE}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_ELECTRODE,
+    .heldItem = ITEM_CHOICE_BAND,
+    .evs = {0, 252, 0, 252, 0, 0},
+    .nature = NATURE_JOLLY,
+    .moves = {MOVE_EXPLOSION, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_WEEZING,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {0, 252, 0, 252, 0, 6},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_EXPLOSION, MOVE_WILL_O_WISP, MOVE_PAIN_SPLIT, MOVE_TOXIC_SPIKES}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_ELECTRODE_HISUI,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .evs = {0, 0, 0, 252, 252, 6},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_LEAF_STORM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_MAGNEZONE,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .evs = {0, 252, 0, 252, 0, 6},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_STEEL_BEAM, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 95,
+    .species = SPECIES_TYPHLOSION_HISUI,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {0, 0, 0, 252, 252, 6},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_MIND_BLOWN, MOVE_MIND_BLOWN, MOVE_MIND_BLOWN, MOVE_MIND_BLOWN}
     }
 
 };

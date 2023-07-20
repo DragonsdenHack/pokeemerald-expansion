@@ -190,7 +190,7 @@ applymovement 18, NeoLavandaCementerioS1_Rocket_Redencion_Move_7
 waitmovement 0x0
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_10 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM61
+additem ITEM_TM105_SNARL
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_11 MSGBOX_DEFAULT
 waitfanfare
 msgbox NeoLavandaCementerioS1_Rocket_Redencion_Texto_12 MSGBOX_AUTOCLOSE

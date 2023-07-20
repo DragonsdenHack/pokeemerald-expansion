@@ -946,7 +946,7 @@
 #define FLAG_HIDE_ROUTE_110_TEAM_AQUA                               0x384 // MORFEO GYM 1
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2                          0x385 // policia bloqueo neo tuneles
 #define FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2                          0x386 // policias guia entrada refugio
-#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387 // libre clearflag
+#define FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2                          0x387 // motero que activa llave para zona sur
 #define FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3                          0x388 // libre clearflag
 #define FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS                     0x389 // flag libre
 #define FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST                      0x38A // libre clearflag
@@ -2488,16 +2488,16 @@
 #define FLAG_NUEVA_838 0x846 // PRESIDENTE DEVON NEO LAVANDA P8
 #define FLAG_NUEVA_839 0x847 // POLICIA ENTRADA TORRE LAVANDA
 #define FLAG_NUEVA_840 0x848 // POLICIA 2 NEO LAVANDA
-#define FLAG_NUEVA_841 0x849
-#define FLAG_NUEVA_842 0x84A
-#define FLAG_NUEVA_843 0x84B
-#define FLAG_NUEVA_844 0x84C
-#define FLAG_NUEVA_845 0x84D
-#define FLAG_NUEVA_846 0x84E
-#define FLAG_NUEVA_847 0x84F
-#define FLAG_NUEVA_848 0x850
-#define FLAG_NUEVA_849 0x851
-#define FLAG_NUEVA_850 0x852
+#define FLAG_NUEVA_841 0x849 // FINAL MISION MOTORISTAS
+#define FLAG_NUEVA_842 0x84A // UNDERGROUND PATH - TM101 GOLPE VIL
+#define FLAG_NUEVA_843 0x84B // UNDERGROUND PATH - CARAMELORARO
+#define FLAG_NUEVA_844 0x84C // UNDERGROUND PATH - ELIXIR MAX
+#define FLAG_NUEVA_845 0x84D // UNDERGROUND PATH - PPUP
+#define FLAG_NUEVA_846 0x84E // UNDERGROUND PATH - ETHER
+#define FLAG_NUEVA_847 0x84F // UNDERGROUND PATH - MAXPOTION
+#define FLAG_NUEVA_848 0x850 // UNDERGROUND PATH - CURA TOTAL
+#define FLAG_NUEVA_849 0x851 // UNDERGROUND PATH - REVIVIR
+#define FLAG_NUEVA_850 0x852 // UNDERGROUND PATH - RESTAURATODO
 #define FLAG_NUEVA_851 0x853
 #define FLAG_NUEVA_852 0x854
 #define FLAG_NUEVA_853 0x855

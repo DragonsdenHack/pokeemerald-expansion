@@ -2500,5 +2500,41 @@ RadioTowerP8_Event_Script_RareCandy::
 finditem ITEM_RARE_CANDY
    end
 
+MisionMoteros_Event_Script_TM101::
+finditem ITEM_TM101
+   end
+
+MisionMoteros_Event_Script_Carameloraro::
+finditem ITEM_RARE_CANDY
+   end
+
+MisionMoteros_Event_Script_PPUP::
+finditem ITEM_PP_UP
+   end
+
+MisionMoteros_Event_Script_Ether::
+finditem ITEM_ETHER
+   end
+
+MisionMoteros_Event_Script_ElixirMax::
+finditem ITEM_MAX_ELIXIR
+   end
+
+MisionMoteros_Event_Script_Maxpotion::
+finditem ITEM_MAX_POTION
+   end
+
+MisionMoteros_Event_Script_Fullheal::
+finditem ITEM_FULL_HEAL
+   end
+
+MisionMoteros_Event_Script_Revivir::
+finditem ITEM_REVIVE
+   end
+
+MisionMoteros_Event_Script_Restauratodo::
+finditem ITEM_FULL_RESTORE
+   end
+
 
 

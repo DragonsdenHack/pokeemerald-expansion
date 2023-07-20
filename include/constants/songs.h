@@ -22,8 +22,8 @@
 #define SE_FAINT                    16 // SE_POKE_DEAD
 #define SE_FLEE                     17 // SE_NIGERU
 #define SE_SLIDING_DOOR             18 // SE_JIDO_DOA
-#define SE_SHIP                     19 // SE_NAMINORI
-#define SE_BANG                     20 // SE_BAN
+#define SE_SHIP                     19 // SE_NAMINORI // SONIDOS INSECTOS REVOLOTEANDO
+#define SE_BANG                     20 // SE_BAN // cueva enorme y misteriosa abriéndose
 #define SE_PIN                      21 // SE_PIN (General "good", commonly for "!")
 #define SE_BOO                      22 // SE_BOO (General "bad")
 #define SE_BALL                     23 // SE_BOWA (Giving Poké Ball to nurse, Poké Ball shake, etc)
@@ -45,11 +45,11 @@
 #define SE_LAVARIDGE_FALL_WARP      39 // SE_FU_ZUZUZU
 #define SE_ICE_STAIRS               40 // SE_RU_GASHIN
 #define SE_ICE_BREAK                41 // SE_RU_GASYAN
-#define SE_ICE_CRACK                42 // SE_RU_BARI
-#define SE_FALL                     43 // SE_RU_HYUU
-#define SE_UNLOCK                   44 // SE_KI_GASYAN
-#define SE_WARP_IN                  45 // SE_TK_WARPIN
-#define SE_WARP_OUT                 46 // SE_TK_WARPOUT
+#define SE_ICE_CRACK                42 // SE_RU_BARI // Click al desactivar algo
+#define SE_FALL                     43 // SE_RU_HYUU // caída libre
+#define SE_UNLOCK                   44 // SE_KI_GASYAN // portazo - cuando algo muy grande se abre, equivalente a cave regis pero en edificios
+#define SE_WARP_IN                  45 // SE_TK_WARPIN // BALDOSA TELETRANSPORTE IDA
+#define SE_WARP_OUT                 46 // SE_TK_WARPOUT // BALDOSA TELETRANSPORTE VUELTA - CUERDA HUIDA
 #define SE_REPEL                    47 // SE_TU_SAA
 #define SE_ROTATING_GATE            48 // SE_HI_TURUN
 #define SE_TRUCK_MOVE               49 // SE_TRACK_MOVE
@@ -80,7 +80,7 @@
 #define SE_BALLOON_RED              74 // SE_FUUSEN1
 #define SE_BALLOON_BLUE             75 // SE_FUUSEN2
 #define SE_BALLOON_YELLOW           76 // SE_FUUSEN3
-#define SE_BREAKABLE_DOOR           77 // SE_TOY_KABE
+#define SE_BREAKABLE_DOOR           77 // SE_TOY_KABE // giovanni cabreado
 #define SE_MUD_BALL                 78 // SE_TOY_DANGO
 #define SE_FIELD_POISON             79 // SE_DOKU
 #define SE_ESCALATOR                80 // SE_ESUKA
@@ -97,7 +97,7 @@
 #define SE_EXP_MAX                  91 // SE_EXPMAX
 #define SE_ROULETTE_BALL            92 // SE_TAMAKORO
 #define SE_ROULETTE_BALL2           93 // SE_TAMAKORO_E
-#define SE_TAILLOW_WING_FLAP        94 // SE_BASABASA
+#define SE_TAILLOW_WING_FLAP        94 // SE_BASABASA //aleteo constante
 #define SE_SHOP                     95 // SE_REGI
 #define SE_CONTEST_HEART            96 // SE_C_GAJI
 #define SE_CONTEST_CURTAIN_RISE     97 // SE_C_MAKU_U
@@ -107,7 +107,7 @@
 #define SE_CONTEST_MONS_TURN        101 // SE_C_PIKON
 #define SE_SHINY                    102 // SE_REAPOKE
 #define SE_INTRO_BLAST              103 // SE_OP_BASYU
-#define SE_MUGSHOT                  104 // SE_BT_START
+#define SE_MUGSHOT                  104 // SE_BT_START // carga energia, posible uso para ultraentes o pokemon poderoso
 #define SE_APPLAUSE                 105 // SE_DENDOU
 #define SE_VEND                     106 // SE_JIHANKI
 #define SE_ORB                      107 // SE_TAMA

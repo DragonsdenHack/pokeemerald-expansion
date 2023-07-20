@@ -36,7 +36,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "UndergroundPath_7F_Primer_Motorista",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -49,7 +49,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "UndergroundPath_7F_Cuarto_Motorista",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -62,7 +62,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "UndergroundPath_7F_Tercer_Motorista",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -75,7 +75,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "UndergroundPath_7F_EventScript_Primer_Motero",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -87,8 +87,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionMoteros_Event_Script_PPUP",
+      "flag": "FLAG_NUEVA_845"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -100,8 +100,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionMoteros_Event_Script_TM101",
+      "flag": "FLAG_NUEVA_842"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -114,7 +114,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "UndergroundPath_7F_EventScript_Cuarto_Motero",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -126,8 +126,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionMoteros_Event_Script_Ether",
+      "flag": "FLAG_NUEVA_846"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -140,7 +140,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -152,8 +152,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionMoteros_Event_Script_Carameloraro",
+      "flag": "FLAG_NUEVA_843"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -166,7 +166,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
       "script": "UndergroundPath_7F_EventScript_Segundo_Motero",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -179,7 +179,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "9",
       "script": "UndergroundPath_7F_EventScript_Tercer_Motero",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -191,13 +191,13 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "MisionMoteros_Event_Script_ElixirMax",
+      "flag": "FLAG_NUEVA_844"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CALVO2JOHTO",
-      "x": 5,
-      "y": 87,
+      "x": -7,
+      "y": 76,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -209,7 +209,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_LTSURGE",
-      "x": 51,
+      "x": 52,
       "y": 64,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -218,7 +218,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KOGA",
@@ -231,7 +231,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PETREL",
@@ -244,7 +244,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -270,7 +270,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "UndergroundPath_7F_EventScript_Quinto_Motero",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -283,7 +283,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "1",
       "script": "UndergroundPath_7F_EventScript_Sexto_Motero",
-      "flag": "0"
+      "flag": "FLAG_NUEVA_841"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_BIKER",
@@ -296,6 +296,32 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "UndergroundPath_7F_Segundo_Motorista",
+      "flag": "FLAG_NUEVA_841"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_MOTEROJOHTO",
+      "x": 8,
+      "y": 89,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "UndergroundPath_7F_Motero_Llave",
+      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_LTSURGE",
+      "x": 47,
+      "y": 55,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
       "flag": "0"
     }
   ],
@@ -309,9 +335,105 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 52,
+      "y": 71,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "8",
+      "script": "UndergroundPath_7F_Combate_LtSurge_2"
+    },
+    {
+      "type": "trigger",
+      "x": 53,
+      "y": 71,
+      "elevation": 0,
+      "var": "VAR_ROUTE105_STATE",
+      "var_value": "8",
+      "script": "UndergroundPath_7F_Combate_LtSurge"
+    }
   ],
   "bg_events": [
-
+    {
+      "type": "sign",
+      "x": 36,
+      "y": 110,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UndergroundPath_7F_Activacion_Zona_Sur"
+    },
+    {
+      "type": "sign",
+      "x": 35,
+      "y": 111,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UndergroundPath_7F_Activacion_Zona_Sur"
+    },
+    {
+      "type": "sign",
+      "x": 36,
+      "y": 111,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UndergroundPath_7F_Activacion_Zona_Sur"
+    },
+    {
+      "type": "sign",
+      "x": 37,
+      "y": 111,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UndergroundPath_7F_Activacion_Zona_Sur"
+    },
+    {
+      "type": "sign",
+      "x": 35,
+      "y": 110,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UndergroundPath_7F_Activacion_Zona_Sur"
+    },
+    {
+      "type": "sign",
+      "x": 37,
+      "y": 110,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "UndergroundPath_7F_Activacion_Zona_Sur"
+    },
+    {
+      "type": "sign",
+      "x": 53,
+      "y": 70,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 52,
+      "y": 70,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 53,
+      "y": 69,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    },
+    {
+      "type": "sign",
+      "x": 52,
+      "y": 69,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "NULL"
+    }
   ]
 }
