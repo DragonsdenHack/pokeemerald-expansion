@@ -857,7 +857,7 @@ struct MapHeader const *const Overworld_GetMapHeaderByGroupAndId(u16 mapGroup, u
 {
     return gMapGroups[mapGroup][mapNum];
 }
-
+	
 struct MapHeader const *const GetDestinationWarpMapHeader(void)
 {
     return Overworld_GetMapHeaderByGroupAndId(sWarpDestination.mapGroup, sWarpDestination.mapNum);
@@ -867,12 +867,52 @@ static void LoadCurrentMapData(void)
 {
     sLastMapSectionId = gMapHeader.regionMapSectionId;
     gMapHeader = *Overworld_GetMapHeaderByGroupAndId(gSaveBlock1Ptr->location.mapGroup, gSaveBlock1Ptr->location.mapNum);
+	if(VarGet(VAR_UNUSED_0x40F7) >= 187 && VarGet(VAR_UNUSED_0x40F7) < 203){
+		if(gMapHeader.mapLayoutId == LAYOUT_CINNABAR_ISLAND){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(23, 13);
+		}
+	}else{
+			
+	
     gSaveBlock1Ptr->mapLayoutId = gMapHeader.mapLayoutId;
     gMapHeader.mapLayout = GetMapLayout();
     gMapHeader.region = sMapsecToRegion[gMapHeader.regionMapSectionId];
-	if (gMapHeader.regionMapSectionId == MAPSEC_ECRUTEAK_CITY){
-		gMapHeader.region = REGION_JOHTO;
 	}
+	
+	if(VarGet(VAR_UNUSED_0x40F7) >= 203){
+		if(gMapHeader.mapLayoutId == LAYOUT_CINNABAR_ISLAND){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(23, 13);
+		}
+		
+		if(gMapHeader.mapLayoutId == LAYOUT_ROUTE10){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 22);
+		}
+		
+		
+		if(gMapHeader.mapLayoutId == LAYOUT_LAVENDER_TOWN){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 13);
+		}	
+		
+		
+		if(gMapHeader.mapLayoutId == LAYOUT_ROUTE12){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 23);
+		}
+		
+		if(gMapHeader.mapLayoutId == LAYOUT_ROUTE8){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 25);
+		}
+		
+		
+		if(gMapHeader.mapLayoutId == LAYOUT_SAFFRON_CITY){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(21, 10);
+		}
+	}else{
+			
+	
+    gSaveBlock1Ptr->mapLayoutId = gMapHeader.mapLayoutId;
+    gMapHeader.mapLayout = GetMapLayout();
+    gMapHeader.region = sMapsecToRegion[gMapHeader.regionMapSectionId];
+	}	
 }
 
 static void LoadSaveblockMapHeader(void)

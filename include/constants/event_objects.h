@@ -476,9 +476,13 @@
 #define OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO 472
 #define OBJ_EVENT_GFX_ROCKET_M_ADMIN 473
 #define OBJ_EVENT_GFX_SILVER 474
+#define OBJ_EVENT_GFX_AKUERIA 475
+#define OBJ_EVENT_GFX_ZAPDOS_PRIMAL 476
+#define OBJ_EVENT_GFX_AGATHA2 477
 
 
-#define NUM_OBJ_EVENT_GFX                        475                   //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+
+#define NUM_OBJ_EVENT_GFX                        478                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.
