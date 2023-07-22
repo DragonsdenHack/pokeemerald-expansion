@@ -757,14 +757,40 @@ UndergroundPath_7F_Combate_LtSurge_Texto_27:
 	.string "de todo este asunto.$"
 
 UndergroundPath_7F_Escena_Final::
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_3
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_3
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_2
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
 msgbox UndergroundPath_7F_Escena_Final_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_6
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_5 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_7
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_8
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_9 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_10 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
@@ -821,8 +847,45 @@ msgbox UndergroundPath_7F_Escena_Final_Texto_61 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_62 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_63 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_64 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE105_STATE, 13
 release
 end
+
+UndergroundPath_7F_Escena_Final_Move_8:
+emote_exclamation_mark
+
+UndergroundPath_7F_Escena_Final_Move_7:
+walk_slow_up
+walk_slow_up
+walk_slow_left
+walk_slow_up
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_6:
+face_left
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_5:
+face_up
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_4:
+walk_in_place_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_3:
+face_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_2:
+emote_exclamation_mark
+delay_8
+face_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_1:
+walk_in_place_up
+step_end
 
 UndergroundPath_7F_Escena_Final_Texto_1:
 .string "LT.SURGE: ¿Cómo es posible?$"
