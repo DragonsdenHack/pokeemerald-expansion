@@ -1,15 +1,24 @@
 PokemonLeague_Escenalance_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, PokemonLeague_Escenalance_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, PokemonLeague_Escenalance_OnFrame
 	.byte 0
 
 PokemonLeague_Escenalance_OnFrame:
-map_script_2 VAR_UNUSED_0x40DC, 4, PokemonLeague_Escenalance_Derrota
+map_script_2 VAR_UNUSED_0x40DC, 10, PokemonLeague_Escenalance_Derrota
 	.2byte 0
+
+PokemonLeague_Escenalance_OnResume:
+map_script_2 VAR_UNUSED_0x40DC, 9, PokemonLeague_Escenalance_2
+	.2byte 0
+
+PokemonLeague_Escenalance_2::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40DC, 10
+end
 
 
 
 PokemonLeague_Escenalance_Derrota::
-call Script_SetGrayscaleTint
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, PokemonLeague_Escenalance_Derrota_Move_1
 waitmovement 0x0
@@ -46,9 +55,10 @@ delay 20
 applymovement 1, PokemonLeague_Escenalance_Derrota_Move_10
 msgbox RocketHideout_8F_Mision_Silph_text_34 MSGBOX_AUTOCLOSE
 waitmovement 0x0
-setvar VAR_UNUSED_0x40DC, 5
+setvar VAR_UNUSED_0x40DC, 11
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
-warpsilent MAP_INDIGO_PLATEAU, 16, 4
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+warpsilent MAP_INDIGO_PLATEAU, 16, 5
 call Script_SetGrayscaleTint
 release
 end

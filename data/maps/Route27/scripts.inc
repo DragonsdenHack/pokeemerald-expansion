@@ -1,10 +1,20 @@
 Route27_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route27_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, Route27_OnFrame
 	.byte 0
 
-Route27_OnFrame:
-map_script_2 VAR_UNUSED_0x40DC, 0, Route27_Escena_Lance
+Route27_OnResume:
+map_script_2 VAR_UNUSED_0x40DC, 0, Route27_Escena_Lance_2
 	.2byte 0
+
+Route27_OnFrame:
+map_script_2 VAR_UNUSED_0x40DC, 1, Route27_Escena_Lance
+	.2byte 0
+
+Route27_Escena_Lance_2::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40DC, 1
+end
 
 Route27_1::
 lock     
@@ -91,7 +101,6 @@ Route27_EventScript_Guay::
 	end
 
 Route27_Escena_Lance::
-call Script_SetGrayscaleTint
 playse MUS_CAVE_OF_ORIGIN
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route27_Escena_Lance_Move_1
@@ -142,7 +151,7 @@ applymovement 16, Route27_Escena_Lance_Move_12
 waitmovement 0x0
 delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_18.1 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40DC, 1
+setvar VAR_UNUSED_0x40DC, 2
 warpsilent MAP_TIN_TOWER_LANCE, 9, 9
 call Script_SetGrayscaleTint
 release

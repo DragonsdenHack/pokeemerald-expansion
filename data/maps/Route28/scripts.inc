@@ -1,9 +1,19 @@
 Route28_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Route28_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, Route28_OnFrame
 	.byte 0
 
+Route28_OnResume:
+map_script_2 VAR_UNUSED_0x40DC, 4, Route28_2
+	.2byte 0
+
+Route28_2::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40DC, 5
+end
+
 Route28_OnFrame:
-map_script_2 VAR_UNUSED_0x40DC, 2, Route28_Escena_Lance
+map_script_2 VAR_UNUSED_0x40DC, 5, Route28_Escena_Lance
 	.2byte 0
 
 
@@ -16,7 +26,6 @@ Route28Documento_Text_100:
 
 
 Route28_Escena_Lance::
-call Script_SetGrayscaleTint
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route28_Escena_Lance_Move_1
 waitmovement 0x0
@@ -40,7 +49,7 @@ applymovement 8, Route28_Escena_Lance_Move_5
 waitmovement 0x0
 removeobject 8
 msgbox RocketHideout_8F_Mision_Silph_text_24 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40DC, 3
+setvar VAR_UNUSED_0x40DC, 6
 warpsilent MAP_FARAWAY_ISLAND_ENTRANCE, 18, 33
 call Script_SetGrayscaleTint
 release

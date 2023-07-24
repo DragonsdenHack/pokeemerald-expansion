@@ -3,7 +3,7 @@ map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_8F_OnFrame
 	.byte 0
 
 RocketHideout_8F_OnFrame:
-map_script_2 VAR_UNUSED_0x40DC, 6, RocketHideout_8F_Mision_Silph_Despues
+map_script_2 VAR_UNUSED_0x40DC, 12, RocketHideout_8F_Mision_Silph_Despues
 	.2byte 0
 
 RocketHideout8F_1::
@@ -621,7 +621,7 @@ delay 20
 setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
 removeobject 3
 fadescreen 0
-setvar VAR_UNUSED_0x40DC, 7
+setvar VAR_UNUSED_0x40DC, 13
 setvar VAR_UNUSED_0x40F7, 72
 setvar VAR_UNUSED_0x40FD, 1
 release
@@ -938,8 +938,8 @@ RocketHideout_8F_Mision_Silph_text_23.1:
 	.string "innumerables vidas, siendo\l"
 	.string "imposibles de atrapar, además de\l"
 	.string "batir en un combate para un\l"
-	.string "ENTRENADOR que no fuéramos yo o\l"
-	.string "OAK, LANCE había conseguido que el\l"
+	.string "ENTRENADOR que no fuéramos OAK o\l"
+	.string "yo; LANCE había conseguido que el\l"
 	.string "caos y la muerte se apoderasen de\l"
 	.string "KANTO.$"
 
@@ -1093,7 +1093,7 @@ RocketHideout_8F_Mision_Silph_text_34:
 	.string "difuminando la verdad con el paso\l"
 	.string "del tiempo, hasta el punto en que\l"
 	.string "incluso aquellos que en realidad\l"
-	.string "estuvieron presentesen la guerra,\l"
+	.string "estuvieron presentes en la guerra,\l"
 	.string "hoy dudan de lo que realmente\l"
 	.string "vivieron.$"
 
@@ -1112,6 +1112,10 @@ RocketHideout_8F_Mision_Silph_text_37:
 	.string "reunir un poder aún mayor que el\l"
 	.string "suyo para así devolverle el favor\l"
 	.string "con la misma moneda.$"
+
+RocketHideout_8F_Mision_Silph_text_37.1:
+.string "Bajo esa premisa mantuve vivo al TEAM\n"
+	.string "ROCKET, y bajo ella sigue a día de hoy.$"
 
 RocketHideout_8F_Mision_Silph_text_38:
 .string "He ahí la razón de todas estas\n"

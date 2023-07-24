@@ -793,13 +793,24 @@ msgbox UndergroundPath_7F_Escena_Final_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_9 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_10 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_65 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_66 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_67 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_68 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_69 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_70 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_71 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_72 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_12 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_13 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_14 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_73 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_15 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_16 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_17 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_74 MSGBOX_AUTOCLOSE
+msgbox UndergroundPath_7F_Escena_Final_Texto_75 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_18 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_19 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_20 MSGBOX_AUTOCLOSE
@@ -946,12 +957,50 @@ UndergroundPath_7F_Escena_Final_Texto_10:
 	.string "icónicos! ¡O desaparecerán o no podrán\l"
 	.string "visitarse!$"
 
+UndergroundPath_7F_Escena_Final_Texto_65:
+.string "… …$"
+
+UndergroundPath_7F_Escena_Final_Texto_66:
+.string "LT.SURGE: ¿Hablar a solas con PETREL?\n"
+	.string "¿¡Estás bromeando!?$"
+
+UndergroundPath_7F_Escena_Final_Texto_67:
+.string "¡Jah! ¿Qué te has creído chico? Las\n"
+	.string "condiciones aquí las ponemos\l"
+	.string "nosotros, no vas a volver a campar a\l"
+	.string "tus anch…$"
+
+UndergroundPath_7F_Escena_Final_Texto_68:
+.string "PETREL: ¡SURGE!$"
+
+UndergroundPath_7F_Escena_Final_Texto_69:
+.string "Está bien, {PLAYER} ahora mismo está\n"
+	.string "confuso. Ambos somos miembros del TEAM\l"
+	.string "ROCKET y merece una explicación en\l"
+	.string "privado.$"
+
+UndergroundPath_7F_Escena_Final_Texto_70:
+	.string "KOGA: No intentará nada, {PLAYER} ha\n"
+	.string "demostrado ser un hombre de palabra.\l"
+	.string "SURGE y yo saldremos, tomaos el tiempo\l"
+	.string "que consideréis.$"
+
+UndergroundPath_7F_Escena_Final_Texto_71:
+	.string "LT.SURGE: …$"
+
 UndergroundPath_7F_Escena_Final_Texto_11:
-.string "PETREL: Pero eso no es lo importante,\n"
-	.string "{PLAYER}. El TEAM ROCKET se ha\l"
-	.string "masificado, ahora tenemos sucursales\l"
-	.string "en varias regiones… incontables bases\l"
-	.string "secretas… Pero…$"
+.string "PETREL: Escucha, {PLAYER}. Que KANTO\n"
+	.string "esté vacía o no, eso no es lo\l"
+	.string "verdaderamente importante, he sido\l"
+	.string "testigo de la tendencia que lleva\l"
+	.string "nuestra organización desde que\l"
+	.string "derrotaras a LANCE.$"
+
+UndergroundPath_7F_Escena_Final_Texto_72:
+	.string "El TEAM ROCKET se ha masificado. Ahora\n"
+	.string "tenemos sucursales en varias regiones,\l"
+	.string "incontables bases secretas, nuevos\l"
+	.string "contactos… Pero…$"
 
 UndergroundPath_7F_Escena_Final_Texto_12:
 .string "Temo por el hecho de que esta\n"
@@ -963,10 +1012,9 @@ UndergroundPath_7F_Escena_Final_Texto_12:
 	.string "hizo replantearme muchas cosas.$"
 
 UndergroundPath_7F_Escena_Final_Texto_13:
-.string "KOGA: Es cierto que GIOVANNI tiene mil\n"
-	.string "cosas en la cabeza, y no le dio la\l"
-	.string "importancia que en otra situación\l"
-	.string "hubiera tenido…$"
+.string "Es cierto que GIOVANNI tiene mil cosas\n"
+	.string "en la cabeza, y no le dio la importancia\l"
+	.string "que en otra situación hubiera tenido…$"
 
 UndergroundPath_7F_Escena_Final_Texto_14:
 .string "PETREL: Y para eso estamos nosotros,\n"
@@ -975,17 +1023,31 @@ UndergroundPath_7F_Escena_Final_Texto_14:
 	.string "merecen algo mejor después de sus años\l"
 	.string "de lealtad al TEAM ROCKET.$"
 
+UndergroundPath_7F_Escena_Final_Texto_73:
+	.string "Es su identidad la que está en juego, no\n"
+	.string "solo su futuro. Parte de KANTO son\l"
+	.string "ellos también.$"
+
 UndergroundPath_7F_Escena_Final_Texto_15:
-.string "KOGA: Tú nos entiendes, ¿verdad?\n"
+.string "Tú nos entiendes, ¿verdad?\n"
 	.string "¿{PLAYER}?$"
 
 UndergroundPath_7F_Escena_Final_Texto_16:
 .string "… …$"
 
 UndergroundPath_7F_Escena_Final_Texto_17:
-.string "KOGA: Ya veo. Quieres que primero nos\n"
+.string "Ya veo. Quieres que primero nos\n"
 	.string "entreguemos y pidamos clemencia a\l"
 	.string "GIOVANNI. Sabes que eso no es posible.$"
+
+UndergroundPath_7F_Escena_Final_Texto_74:
+	.string "Lo siento {PLAYER}, pero no nos dejas\n"
+	.string "elección. Nos obligas a hablar en un\l"
+	.string "lenguaje que aquí todos podemos\l"
+	.string "entender.$"
+
+UndergroundPath_7F_Escena_Final_Texto_75:
+	.string "LT.SURGE: ¡El lenguaje de la guerra!$"
 
 UndergroundPath_7F_Escena_Final_Texto_18:
 .string "Me temo que… ¡no nos queda otra que\n"
