@@ -792,12 +792,28 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_10 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_65 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_8
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_66 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_10
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_67 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_68 MSGBOX_AUTOCLOSE
+delay 20
 msgbox UndergroundPath_7F_Escena_Final_Texto_69 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_5
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_11
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_70 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_71 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
@@ -862,8 +878,23 @@ setvar VAR_ROUTE105_STATE, 13
 release
 end
 
+UndergroundPath_7F_Escena_Final_Move_11:
+walk_right
+walk_down
+walk_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_10:
+walk_left
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_9:
+walk_in_place_left
+step_end
+
 UndergroundPath_7F_Escena_Final_Move_8:
 emote_exclamation_mark
+step_end
 
 UndergroundPath_7F_Escena_Final_Move_7:
 walk_slow_up
@@ -902,7 +933,7 @@ UndergroundPath_7F_Escena_Final_Texto_1:
 .string "LT.SURGE: ¿Cómo es posible?$"
 
 UndergroundPath_7F_Escena_Final_Texto_2:
-.string "Esos incompetentes, ya les ordene que\n"
+.string "Esos incompetentes, ya les ordené que\n"
 	.string "se deshicieran de todas las llaves.\l"
 	.string "Errores como estos son los que\l"
 	.string "declinan la balanza.$"
