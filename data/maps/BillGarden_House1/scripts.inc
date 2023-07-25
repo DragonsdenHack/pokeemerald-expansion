@@ -44,7 +44,7 @@ playse SE_POKENAV_OFF
 applymovement OBJ_EVENT_ID_PLAYER, BillGarden_House1_Bill_Combate_move9
 waitmovement 0x0
 msgbox BillGarden_House1_Bill_Combate_Text_10 MSGBOX_AUTOCLOSE
-clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
 setvar VAR_UNUSED_0x40F7, 22
 release

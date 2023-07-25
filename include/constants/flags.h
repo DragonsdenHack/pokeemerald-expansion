@@ -754,7 +754,7 @@
 #define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F // clear azul b.rocket// CLEAR AZUL ROCKET HIDEOUT 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel/clear clefairy proton torre 7F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON // clear lance escena 2//clear Oak y Dalia Pueblo paleta // clear Zinnia 
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne // clear rockets torre pkmn 7F// clear giovanni rojo gymnasio verde//clear giovanni 2 ruta 22
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne //clear andra alto rango// clear rockets torre pkmn 7F// clear giovanni rojo gymnasio verde//clear giovanni 2 ruta 22
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //set proton escena 8//clear andra C.Victoria// clear Blaine Rocket 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL // proton y fuji P7 torre pkmn//CLEAR RECLUTA ROCKET HIDEOUT 8F//clear giovanni base verde
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE // BALL TUNEL ROCA //proton torre pkmn 6F// Rockets castigo base 4F //Giovanni indigo escena
@@ -2486,7 +2486,7 @@
 #define FLAG_NUEVA_836 0x844 // NEO LAVANDA P8 - CARAMELORARO
 #define FLAG_NUEVA_837 0x845 // NEO LAVANDA P8 - MAX ELIXIR
 #define FLAG_NUEVA_838 0x846 // PRESIDENTE DEVON NEO LAVANDA P8
-#define FLAG_NUEVA_839 0x847 // 
+#define FLAG_NUEVA_839 0x847 // PETREL Y KOGA EN SUS RESPECTIVAS BASES GIMNASIOS
 #define FLAG_NUEVA_840 0x848 // POLICIA 2 NEO LAVANDA
 #define FLAG_NUEVA_841 0x849 // FINAL MISION MOTORISTAS
 #define FLAG_NUEVA_842 0x84A // UNDERGROUND PATH - TM101 GOLPE VIL

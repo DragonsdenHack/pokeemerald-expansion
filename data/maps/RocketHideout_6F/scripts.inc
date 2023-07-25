@@ -1,12 +1,27 @@
 RocketHideout_6F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_6F_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_6F_OnFrame
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_6F_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_6F_OnFrame
 	.byte 0
+
 
 RocketHideout_6F_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 29, RocketHideout_6F_Escena_Lance
 map_script_2 VAR_UNUSED_0x40F7, 31, RocketHideout_6F_Escena_Lance_2
+map_script_2 VAR_UNUSED_0x40F7, 801, RocketHideout_6F_Disguise_Player
 	.2byte 0
+
+RocketHideout_6F_Disguise_Player_OnResume:
+map_script_2 VAR_UNUSED_0x40F7, 800, RocketHideout_6F_Disguise_Player_2
+	.2byte 0
+
+RocketHideout_6F_Disguise_Player_2::
+setobjectxy 14, 29, 25
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+setvar VAR_UNUSED_0x40F7, 801
+end
 
 RocketHideout6F_1::
 lock     
@@ -879,9 +894,79 @@ msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_14 MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_14
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_15 MSGBOX_AUTOCLOSE
+playse SE_M_COSMIC_POWER
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_14.1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 100
+setdisguise [467]
+setvar VAR_UNUSED_0x40F7, 800
+warpsilent MAP_ROCKET_HIDEOUT_6F, 28, 25
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_14.1:
+walk_in_place_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_14.2:
+walk_down
+face_left
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_14.3:
+walk_up
+face_left
+step_end
+
+RocketHideout8F_Mision_Johto_move_12.2:
+face_up
+step_end
+
+RocketHideout8F_Mision_Johto_move_12.3:
+emote_exclamation_mark
+step_end
+
+RocketHideout8F_Mision_Johto_move_12.4:
+face_right
+step_end
+
+RocketHideout_6F_Petrel_Mision_3_Bill_texto_19.1:
+.string "PETREL: Ahora tú, ANDRA.$"
+
+
+RocketHideout_6F_Disguise_Player::
+applymovement 27, RocketHideout8F_Mision_Johto_move_12.2
+waitmovement 0x0
+playse SE_PIN
+applymovement 27, RocketHideout8F_Mision_Johto_move_12.3
+waitmovement 0x0
 playfanfare MUS_OBTAIN_SYMBOL
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_16 MSGBOX_DEFAULT
 waitfanfare
+applymovement 27, RocketHideout8F_Mision_Johto_move_12.4
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_14.2
+waitmovement 0x0
+msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_19.1 MSGBOX_AUTOCLOSE
+playse SE_M_COSMIC_POWER
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_14.1
+applymovement 27, RocketHideout8F_Mision_Johto_move_12.1
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement 27, RocketHideout8F_Mision_Johto_move_12
+waitmovement 0x0
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+removeobject 27
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+addobject 39
+playse SE_M_STAT_INCREASE
+applymovement 39, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+playfanfare MUS_OBTAIN_SYMBOL
+waitfanfare
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_14.3
+waitmovement 0x0
 showmoneybox 0, 0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_17 MSGBOX_AUTOCLOSE
 playse SE_SHOP
@@ -953,6 +1038,50 @@ setvar VAR_UNUSED_0x40F7, 23
 setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
 release
 end
+
+RocketHideout8F_Mision_Johto_move_12.1:
+face_left
+delay_4
+face_up
+delay_4
+face_right
+delay_4
+face_down
+delay_4
+face_left
+delay_4
+face_up
+delay_4
+face_right
+delay_4
+face_down
+delay_8
+face_left
+delay_8
+face_up
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_left
+delay_8
+face_up
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_left
+delay_8
+delay_8
+face_up
+delay_8
+delay_8
+face_right
+delay_8
+delay_8
+step_end
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_1:
 .string "ATLAS: Es inadmisible PETREL.$"
