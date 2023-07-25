@@ -128,6 +128,10 @@ compare VAR_ROUTE105_STATE, 9
 goto_if_eq UndergroundPath_7F_Seteo_Metatiles_2
 compare VAR_ROUTE105_STATE, 10
 goto_if_eq UndergroundPath_7F_Seteo_Metatiles_2
+compare VAR_ROUTE105_STATE, 11
+goto_if_eq UndergroundPath_7F_Seteo_Metatiles_2
+compare VAR_ROUTE105_STATE, 12
+goto_if_eq UndergroundPath_7F_Seteo_Metatiles_2
 setvar VAR_TEMP_0, 1
 release
 end
@@ -815,68 +819,362 @@ applymovement 23, UndergroundPath_7F_Escena_Final_Move_5
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_11
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_70 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_71 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_13
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_14
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_12
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_12
+waitmovement 0x0
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_11 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_72 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_14
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_12 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_14 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_73 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_15 MSGBOX_AUTOCLOSE
+delay 15
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_9
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_16 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_16
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_17
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_74 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_3
+waitmovement 0x0
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_18
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_18
+waitmovement 0x0
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_20
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_19
+waitmovement 0x0
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_75 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_GYM_LEADER
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_20
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_18 MSGBOX_AUTOCLOSE
-msgbox UndergroundPath_7F_Escena_Final_Texto_19 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, UndergroundPath_7F_Escena_Final_Texto_19
+msgbox UndergroundPath_7F_Escena_Final_Texto_19.1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_6
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_20 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_21 MSGBOX_AUTOCLOSE
+playse 603
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_22 MSGBOX_AUTOCLOSE
-msgbox UndergroundPath_7F_Escena_Final_Texto_23 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, UndergroundPath_7F_Escena_Final_Texto_23
 msgbox UndergroundPath_7F_Escena_Final_Texto_24 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_25 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_BREAKABLE_DOOR
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_20
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_26 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
+waitmovement 0x0
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_14
+waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_14
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_21
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_27 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_28 MSGBOX_AUTOCLOSE
+playse SE_BREAKABLE_DOOR
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_29 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_30 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_22
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_22
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_22
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_22
 msgbox UndergroundPath_7F_Escena_Final_Texto_31 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 24
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_23
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_32 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_33 MSGBOX_AUTOCLOSE
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_34 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Escena_Final_Texto_35 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_36 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_37 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_38 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_39 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
+waitmovement 0x0
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_24
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_40 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_25
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_41 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_42 MSGBOX_AUTOCLOSE
+delay 15
 msgbox UndergroundPath_7F_Escena_Final_Texto_43 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_26
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_44 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_45 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
+delay 15
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_46 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_25
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_47 MSGBOX_AUTOCLOSE
+delay 10
 msgbox UndergroundPath_7F_Escena_Final_Texto_48 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_24
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_49 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_50 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_51 MSGBOX_AUTOCLOSE
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_52 MSGBOX_AUTOCLOSE
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_4
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_53 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_14
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_27
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_54 MSGBOX_AUTOCLOSE
+setflag FLAG_NUEVA_841
+fadescreen 1
+removeobject 1
+removeobject 2
+removeobject 3
+removeobject 4
+removeobject 7
+removeobject 9
+removeobject 11
+removeobject 12
+removeobject 14
+removeobject 19
+removeobject 20
+removeobject 21
+removeobject 22
+removeobject 16
+removeobject 17
+delay 20
+fadescreen 0
+delay 10
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_28
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_55 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_9
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_56 MSGBOX_AUTOCLOSE
+applymovement 23, UndergroundPath_7F_Escena_Final_Move_29
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_57 MSGBOX_AUTOCLOSE
+removeobject 23
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_30
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_58 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_59 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_6
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_60 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_31
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_61 MSGBOX_AUTOCLOSE
+delay 20
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_62 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_1
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_63 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_3
+waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_64 MSGBOX_AUTOCLOSE
+applymovement 24, UndergroundPath_7F_Escena_Final_Move_29
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 24
+removeobject 15
 setvar VAR_ROUTE105_STATE, 13
 release
 end
+
+UndergroundPath_7F_Escena_Final_Move_31:
+walk_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_30:
+walk_right
+walk_up
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_29:
+walk_down
+walk_right
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_28:
+walk_down
+walk_down
+walk_left
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_27:
+walk_down
+face_left
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_26:
+walk_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_24:
+walk_slow_right
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_25:
+walk_slow_left
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_23:
+walk_up
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_left
+walk_left
+walk_up
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_22:
+emote_exclamation_mark
+face_down
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_21:
+walk_up
+face_left
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_20:
+walk_up
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_19:
+walk_left
+face_up
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_18:
+walk_right
+walk_right
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_17:
+walk_right
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_16:
+lock_facing_direction
+walk_slow_left
+unlock_facing_direction
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_15:
+walk_in_place_right
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_14:
+face_right
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_13:
+walk_slow_up
+walk_slow_up
+face_left
+step_end
+
+UndergroundPath_7F_Escena_Final_Move_12:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_left
+walk_left
+walk_down
+walk_down
+step_end
+
 
 UndergroundPath_7F_Escena_Final_Move_11:
 walk_right
@@ -1081,12 +1379,19 @@ UndergroundPath_7F_Escena_Final_Texto_75:
 	.string "LT.SURGE: ¡El lenguaje de la guerra!$"
 
 UndergroundPath_7F_Escena_Final_Texto_18:
-.string "Me temo que… ¡no nos queda otra que\n"
-	.string "volver a luchar por recuperar la vieja\l"
-	.string "KANTO!$"
+.string "KOGA: Me temo que… ¡no nos queda otra \n"
+	.string "que volver a luchar por recuperar\l"
+	.string "la vieja KANTO!$"
 
 UndergroundPath_7F_Escena_Final_Texto_19:
 .string "¡Mantente fiel a lo que crees!$"
+
+UndergroundPath_7F_Escena_Final_Texto_19.1:
+.string "KOGA: Tu trayectoria es\n"
+	.string "inconmensurable {PLAYER}. Fue un\l"
+	.string "lujo tenerte como aliado pero no esta\l"
+	.string "vez. No dejaremos el destino de KANTO\l"
+	.string "al azar.$"
 
 UndergroundPath_7F_Escena_Final_Texto_20:
 .string "PETREL: Lo siento, {PLAYER}. En este\n"
@@ -1101,7 +1406,7 @@ UndergroundPath_7F_Escena_Final_Texto_21:
 	.string "que es nuestro.$"
 
 UndergroundPath_7F_Escena_Final_Texto_22:
-.string "¡Haremos esto a nuestro modo!$"
+.string "¡Lo haremos a nuestro modo!$"
 
 UndergroundPath_7F_Escena_Final_Texto_23:
 .string "WEEZING… defendiste el honor de los\n"
