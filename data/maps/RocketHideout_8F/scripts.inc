@@ -2,15 +2,19 @@ RocketHideout_8F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_8F_OnFrame
 map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_8F_Disguise_Player_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_8F_OnFrame
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_8F_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_8F_OnFrame
 	.byte 0
 
 RocketHideout_8F_OnFrame:
 map_script_2 VAR_UNUSED_0x40DC, 12, RocketHideout_8F_Mision_Silph_Despues
 map_script_2 VAR_UNUSED_0x40F7, 803, RocketHideout_8F_Disguise_Player
+map_script_2 VAR_UNUSED_0x40F7, 809, RocketHideout_8F_Disguise_Player_3
 	.2byte 0
 
 RocketHideout_8F_Disguise_Player_OnResume:
 map_script_2 VAR_UNUSED_0x40F7, 802, RocketHideout_8F_Disguise_Player_2
+map_script_2 VAR_UNUSED_0x40F7, 808, RocketHideout_8F_Disguise_Player_4
 	.2byte 0
 
 RocketHideout_8F_Disguise_Player_2::
@@ -18,8 +22,15 @@ setobjectxy 1, 8, 7
 playse SE_M_STAT_INCREASE
 applymovement 1, RocketHideout_6F_Disguise_Player_2_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.5
-waitse
 setvar VAR_UNUSED_0x40F7, 803
+end
+
+RocketHideout_8F_Disguise_Player_4::
+setobjectxy 1, 8, 7
+playse SE_M_STAT_INCREASE
+applymovement 1, RocketHideout_6F_Disguise_Player_2_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.5
+setvar VAR_UNUSED_0x40F7, 809
 end
 
 RocketHideout_6F_Disguise_Player_2_Move_1:
@@ -564,6 +575,7 @@ walk_left
 walk_down
 step_end
 
+
 RocketHideout_8F_Mision_Silph_move4.2:
 walk_in_place_down
 step_end
@@ -655,6 +667,7 @@ step_end
 
 
 RocketHideout_8F_Disguise_Player::
+delay 40
 playfanfare MUS_OBTAIN_SYMBOL
 msgbox RocketHideout_8F_Mision_Silph_text_6 MSGBOX_DEFAULT
 waitfanfare
@@ -2992,7 +3005,7 @@ msgbox RocketHideout8F_Mision_Johto_Text_16 MSGBOX_AUTOCLOSE
 msgbox RocketHideout8F_Mision_Johto_Text_17 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_9
-applymovement 3, RocketHideout8F_Mision_Johto_move_9
+applymovement 10, RocketHideout8F_Mision_Johto_move_9
 waitmovement 0x0
 applymovement 10, RocketHideout8F_Mision_Johto_move_10
 applymovement 1, RocketHideout8F_Mision_Johto_move_11
@@ -3001,19 +3014,15 @@ msgbox RocketHideout8F_Mision_Johto_Text_18 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_3
 waitmovement 0x0
-msgbox RocketHideout8F_Mision_Johto_Text_18.1 MSGBOX_DEFAULT
-playse SE_PIN
-applymovement 10, RocketHideout_8F_Mision_Silph_move5.10
-waitmovement 0x0
 applymovement 10, RocketHideout_8F_Mision_Silph_move5.1
-applymovement 1, RocketHideout_8F_Mision_Silph_move4.1
+applymovement 1, RocketHideout_8F_Mision_Silph_move4.2
 waitmovement 0x0
 playse SE_M_COSMIC_POWER
 applymovement 10, RocketHideout8F_Mision_Johto_move_12.1
 applymovement 1, RocketHideout_8F_Mision_Silph_move4.2
 waitse
 playse SE_M_SOLAR_BEAM
-applymovement 3, RocketHideout8F_Mision_Johto_move_12
+applymovement 10, RocketHideout8F_Mision_Johto_move_12
 waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 removeobject 10
@@ -3027,6 +3036,8 @@ playfanfare MUS_OBTAIN_SYMBOL
 applymovement 6, RocketHideout_8F_Mision_Silph_move5.1
 waitmovement 0x0
 waitfanfare
+playse SE_SHOP
+waitse
 applymovement 6, RocketHideout8F_Mision_Johto_move_10
 waitmovement 0x0
 delay 15
@@ -3073,16 +3084,36 @@ waitfanfare
 additem ITEM_TOWN_MAP
 msgbox RocketHideout8F_Mision_Johto_Text_27 MSGBOX_AUTOCLOSE
 msgbox RocketHideout8F_Mision_Johto_Text_28 MSGBOX_AUTOCLOSE
+delay 20
+msgbox RocketHideout8F_Mision_Johto_Text_29 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_9
+waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_18
 applymovement 1, RocketHideout8F_Mision_Johto_move_19
 waitmovement 0x0
-msgbox RocketHideout8F_Mision_Johto_Text_29 MSGBOX_AUTOCLOSE
-playse SE_MUGSHOT
-applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+playse SE_M_COSMIC_POWER
+applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
 waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 100
+setdisguise [240]
+setvar VAR_UNUSED_0x40F7, 808
+warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
+
+
+
+RocketHideout_8F_Disguise_Player_3::
+delay 40
 playfanfare MUS_OBTAIN_SYMBOL
 msgbox RocketHideout8F_Mision_Johto_Text_29.1 MSGBOX_DEFAULT
 waitfanfare
+applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Move_6
+waitmovement 0x0
+msgbox RocketHideout8F_Mision_Johto_Text_30 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
 fadescreen 1
@@ -3092,6 +3123,10 @@ fadescreen 0
 setvar VAR_UNUSED_0x40F7, 117
 release
 end
+
+RocketHideout8F_Mision_Johto_Text_30:
+.string "GIOVANNI: Te espero en la SALA DEL\n"
+	.string "POTENCIAL MÁXIMO ALCANZABLE.$"
 
 RocketHideout8F_Mision_Johto_Text_27.1:
 .string "¡¡{PLAYER} obtuvo un MAPA de\n"

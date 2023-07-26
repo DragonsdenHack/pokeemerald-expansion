@@ -762,7 +762,7 @@
 #define FLAG_HIDE_MEW                                               0x2CE
 #define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // 
 #define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 // 
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // CLEARFLAG ANDRA RUTA 10 //clearflag Koga afueras fucsia// //clear ltsurgue y policias casa fuji // clear ditto escena lance
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3 // ANDRA IDA SSANNE //GIOVANNI BASE PROFUNDA//ANDRA ADMIN ROCKET 8F
 #define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // GENTE TAPANDO ACCESO SSANNE 3F + AZUL//clear Azul Silph 2 // clear Mewtwo escena lance
