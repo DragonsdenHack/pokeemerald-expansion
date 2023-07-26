@@ -2656,12 +2656,12 @@ face_up
 step_end
 
 RocketHideout8F_Mision_Mansion_Oak::
-clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 addobject 1
 addobject 2
-addobject 3
+addobject 10
 applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Mansion_Oak_Move_2
 waitmovement 0x0
@@ -2674,11 +2674,11 @@ applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_3
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_4 MSGBOX_AUTOCLOSE
 delay 15
-setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 fadescreen 1
 removeobject 2
-removeobject 3
+removeobject 10
 delay 20
 fadescreen 0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_5 MSGBOX_AUTOCLOSE
@@ -2710,11 +2710,11 @@ applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_8
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_16 MSGBOX_AUTOCLOSE
 delay 15
-clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 fadescreen 1
 addobject 2
-addobject 3
+addobject 10
 delay 20
 fadescreen 0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_17 MSGBOX_AUTOCLOSE
@@ -2723,11 +2723,11 @@ waitmovement 0x0
 msgbox RocketHideout8F_Mision_Mansion_Oak_Text_18 MSGBOX_AUTOCLOSE
 delay 15
 delay 15
-setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 fadescreen 1
 removeobject 2
-removeobject 3
+removeobject 10
 delay 20
 fadescreen 0
 delay 15
@@ -2917,19 +2917,24 @@ RocketHideout8F_Mision_Mansion_Oak_Move_9:
 walk_in_place_left
 step_end
 
+RocketHideout_8F_Mision_Silph_move5.10:
+emote_exclamation_mark
+face_up
+step_end
+
 
 RocketHideout8F_Mision_Johto::
 lock
-clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
-addobject 3
+addobject 10
 addobject 2
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_1
 waitmovement 0x0
-applymovement 3, RocketHideout8F_Mision_Johto_move_2
+applymovement 10, RocketHideout8F_Mision_Johto_move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Johto_Text_1 MSGBOX_AUTOCLOSE
-applymovement 3, RocketHideout8F_Mision_Johto_move_3
+applymovement 10, RocketHideout8F_Mision_Johto_move_3
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_4
 waitmovement 0x0
 applymovement 1, RocketHideout8F_Mision_Johto_move_5
@@ -2989,21 +2994,38 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_9
 applymovement 3, RocketHideout8F_Mision_Johto_move_9
 waitmovement 0x0
-applymovement 3, RocketHideout8F_Mision_Johto_move_10
+applymovement 10, RocketHideout8F_Mision_Johto_move_10
 applymovement 1, RocketHideout8F_Mision_Johto_move_11
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Johto_Text_18 MSGBOX_AUTOCLOSE
 delay 20
-playse SE_MUGSHOT
+applymovement 1, RocketHideout8F_Mision_Mansion_Oak_Move_3
+waitmovement 0x0
+msgbox RocketHideout8F_Mision_Johto_Text_18.1 MSGBOX_DEFAULT
+playse SE_PIN
+applymovement 10, RocketHideout_8F_Mision_Silph_move5.10
+waitmovement 0x0
+applymovement 10, RocketHideout_8F_Mision_Silph_move5.1
+applymovement 1, RocketHideout_8F_Mision_Silph_move4.1
+waitmovement 0x0
+playse SE_M_COSMIC_POWER
+applymovement 10, RocketHideout8F_Mision_Johto_move_12.1
+applymovement 1, RocketHideout_8F_Mision_Silph_move4.2
+waitse
+playse SE_M_SOLAR_BEAM
 applymovement 3, RocketHideout8F_Mision_Johto_move_12
 waitmovement 0x0
-setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
-removeobject 3
-addobject 6
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+removeobject 10
 clearflag FLAG_HIDE_ROUTE_103_RIVAL
+addobject 6
+playse SE_M_STAT_INCREASE
+applymovement 6, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
 waitse
 playfanfare MUS_OBTAIN_SYMBOL
-msgbox RocketHideout8F_Mision_Johto_Text_18.1 MSGBOX_DEFAULT
+applymovement 6, RocketHideout_8F_Mision_Silph_move5.1
+waitmovement 0x0
 waitfanfare
 applymovement 6, RocketHideout8F_Mision_Johto_move_10
 waitmovement 0x0
@@ -3452,6 +3474,7 @@ walk_right
 walk_right
 walk_right
 walk_up
+delay_8
 walk_in_place_down
 step_end
 
