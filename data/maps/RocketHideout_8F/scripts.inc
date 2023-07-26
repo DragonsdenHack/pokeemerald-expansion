@@ -1,10 +1,79 @@
 RocketHideout_8F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_8F_OnFrame
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_8F_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_8F_OnFrame
 	.byte 0
 
 RocketHideout_8F_OnFrame:
 map_script_2 VAR_UNUSED_0x40DC, 12, RocketHideout_8F_Mision_Silph_Despues
+map_script_2 VAR_UNUSED_0x40F7, 803, RocketHideout_8F_Disguise_Player
 	.2byte 0
+
+RocketHideout_8F_Disguise_Player_OnResume:
+map_script_2 VAR_UNUSED_0x40F7, 802, RocketHideout_8F_Disguise_Player_2
+	.2byte 0
+
+RocketHideout_8F_Disguise_Player_2::
+setobjectxy 1, 8, 7
+playse SE_M_STAT_INCREASE
+applymovement 1, RocketHideout_6F_Disguise_Player_2_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.5
+waitse
+setvar VAR_UNUSED_0x40F7, 803
+end
+
+RocketHideout_6F_Disguise_Player_2_Move_1:
+face_right
+step_end
+
+RocketHideout8F_Mision_Johto_move_12.5:
+face_left
+delay_4
+face_up
+delay_4
+face_right
+delay_4
+face_down
+delay_4
+face_left
+delay_4
+face_up
+delay_4
+face_right
+delay_4
+face_down
+delay_8
+face_left
+delay_8
+face_up
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_left
+delay_8
+face_up
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_left
+delay_8
+delay_8
+face_up
+delay_8
+delay_8
+face_right
+delay_8
+delay_8
+face_down
+delay_8
+delay_8
+face_left
+delay_8
+step_end
 
 RocketHideout8F_1::
 end
@@ -483,6 +552,35 @@ walk_right
 walk_right
 step_end
 
+RocketHideout_8F_Mision_Silph_move5.1:
+face_up
+step_end
+
+RocketHideout_8F_Mision_Silph_move4.1:
+walk_down
+walk_left
+walk_left
+walk_left
+walk_down
+step_end
+
+RocketHideout_8F_Mision_Silph_move4.2:
+walk_in_place_down
+step_end
+
+RocketHideout_8F_Mision_Silph_move5.2:
+walk_left
+walk_down
+walk_down
+walk_right
+walk_right
+walk_right
+step_end
+
+RocketHideout_8F_Mision_Silph_move5.3:
+face_right
+step_end
+
 RocketHideout_8F_Mision_Silph::
 lock
 setvar VAR_UNUSED_0x40F7, 71
@@ -507,19 +605,63 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move5
 applymovement 3, RocketHideout_8F_Mision_Silph_move5
 waitmovement 0x0
+applymovement 3, RocketHideout_8F_Mision_Silph_move5.1
+applymovement 1, RocketHideout_8F_Mision_Silph_move4.1
+waitmovement 0x0
+playse SE_M_COSMIC_POWER
+applymovement 3, RocketHideout8F_Mision_Johto_move_12.1
+applymovement 1, RocketHideout_8F_Mision_Silph_move4.2
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement 3, RocketHideout8F_Mision_Johto_move_12
+waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+removeobject 3
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+addobject 9
+playse SE_M_STAT_INCREASE
+applymovement 9, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playfanfare MUS_OBTAIN_SYMBOL
+applymovement 9, RocketHideout_8F_Mision_Silph_move5.1
+waitmovement 0x0
+waitfanfare
+msgbox RocketHideout_8F_Mision_Silph_text_7 MSGBOX_AUTOCLOSE
+playse SE_SHOP
+waitse
+delay 10
+applymovement 9, RocketHideout_8F_Mision_Silph_move5.3
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_9
+applymovement 1, RocketHideout_8F_Mision_Silph_move5.2
+waitmovement 0x0
+playse SE_M_COSMIC_POWER
+applymovement 14, RocketHideout8F_Mision_Johto_move_12.6
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 100
+setdisguise [468]
+setvar VAR_UNUSED_0x40F7, 802
+warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
+
+RocketHideout8F_Mision_Johto_move_12.6:
+walk_in_place_right
+step_end
+
+
+
+
+RocketHideout_8F_Disguise_Player::
 playfanfare MUS_OBTAIN_SYMBOL
 msgbox RocketHideout_8F_Mision_Silph_text_6 MSGBOX_DEFAULT
 waitfanfare
-delay 30
-applymovement 1, RocketHideout_8F_Mision_Silph_move3
-waitmovement 0x0
-playse SE_SHOP
-msgbox RocketHideout_8F_Mision_Silph_text_7 MSGBOX_DEFAULT
-waitse
-applymovement 1, RocketHideout_8F_Mision_Silph_move4
-waitmovement 0x0
 showmoneybox 0, 0
 msgbox RocketHideout_8F_Mision_Silph_text_8 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout8F_Mision_Johto_move_12.6
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_9 MSGBOX_AUTOCLOSE
 playse SE_SHOP
 addmoney 500000 0
@@ -535,6 +677,8 @@ playfanfare MUS_OBTAIN_ITEM
 giveitem ITEM_ULTRA_BALL, 50
 waitfanfare
 delay 10
+applymovement 1, RocketHideout8F_Mision_Johto_move_12.6
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_12 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_8F_Mision_Silph_text_13 MSGBOX_DEFAULT
@@ -543,6 +687,8 @@ waitfanfare
 delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_14 MSGBOX_AUTOCLOSE
 delay 20
+applymovement 1, RocketHideout8F_Mision_Johto_move_12.7
+waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_15 MSGBOX_AUTOCLOSE
 setflag FLAG_NUEVA_790
 clearflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
@@ -550,6 +696,22 @@ warpsilent MAP_ROUTE27, 37, 12
 call Script_SetGrayscaleTint
 release
 end
+
+RocketHideout8F_Mision_Johto_move_12.7:
+walk_left
+walk_left
+walk_left
+walk_up
+walk_up
+walk_up
+walk_right
+walk_right
+walk_right
+walk_right
+walk_up
+delay_8
+walk_in_place_down
+step_end
 
 RocketHideout_8F_Mision_Silph_Despues::
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_Despues_Move_3
@@ -613,13 +775,13 @@ applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_14
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_54 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_Despues_Move_15
-applymovement 3, RocketHideout_8F_Mision_Silph_Despues_Move_13
+applymovement 9, RocketHideout_8F_Mision_Silph_Despues_Move_13
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_55 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
-setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
-removeobject 3
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+removeobject 9
 fadescreen 0
 setvar VAR_UNUSED_0x40DC, 13
 setvar VAR_UNUSED_0x40F7, 72
@@ -1382,9 +1544,9 @@ step_end
 RocketHideout_8F_Mision_Gimnasios::
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 removeobject 2
-clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_8
-addobject 3
+addobject 9
 addobject 4
 playse SE_EXIT
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_1
@@ -1417,7 +1579,7 @@ msgbox RocketHideout_8F_Mision_Gimnasios_texto_7 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 2, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_8 MSGBOX_AUTOCLOSE
@@ -1454,11 +1616,11 @@ msgbox RocketHideout_8F_Mision_Gimnasios_texto_18 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_19 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_20 MSGBOX_AUTOCLOSE
-applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_13
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_13
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_21 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_14
@@ -1490,7 +1652,7 @@ playse MUS_RG_ROCKET_HIDEOUT
 delay 15
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
-applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_9
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_9
 applymovement 4, RocketHideout_8F_Mision_Gimnasios_move_9
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_31 MSGBOX_AUTOCLOSE
@@ -1505,15 +1667,15 @@ removeobject 4
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_34 MSGBOX_AUTOCLOSE
-applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_5
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_35 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_14
 waitmovement 0x0
-applymovement 3, RocketHideout_8F_Mision_Gimnasios_move_16
+applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_16
 waitmovement 0x0
-setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
-removeobject 3
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+removeobject 9
 playse SE_EXIT
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_17
 waitmovement 0x0

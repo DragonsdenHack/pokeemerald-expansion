@@ -987,7 +987,7 @@ playse SE_SHOP
 applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_16
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_20 MSGBOX_AUTOCLOSE
-applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+applymovement 39, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_21 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_22 MSGBOX_AUTOCLOSE
@@ -1002,7 +1002,7 @@ msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_25 MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_18
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_26 MSGBOX_AUTOCLOSE
-applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+applymovement 39, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_27 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_28 MSGBOX_AUTOCLOSE
@@ -1011,12 +1011,12 @@ applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_17
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_30 MSGBOX_AUTOCLOSE
 playse SE_PIN
-applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_19
+applymovement 39, RocketHideout_6F_Petrel_Mision_3_Bill_move_19
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_19
 waitmovement 0x0
 delay 10
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_31 MSGBOX_AUTOCLOSE
-applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
+applymovement 39, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_32 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_33 MSGBOX_AUTOCLOSE
@@ -1026,13 +1026,13 @@ waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_35 MSGBOX_AUTOCLOSE
 delay 20
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_20
-applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_12
+applymovement 39, RocketHideout_6F_Petrel_Mision_3_Bill_move_12
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_36 MSGBOX_AUTOCLOSE
 fadescreen 1
-setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 delay 20
-removeobject 27
+removeobject 39
 fadescreen 0
 setvar VAR_UNUSED_0x40F7, 23
 setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
@@ -1518,10 +1518,10 @@ waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_10 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Post_SSanne_move_7
-applymovement 27, RocketHideout_6F_Petrel_Post_SSanne_move_7
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_7
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_11 MSGBOX_AUTOCLOSE
-applymovement 27, RocketHideout_6F_Petrel_Post_SSanne_move_8
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_8
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_12 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_13 MSGBOX_AUTOCLOSE
@@ -1534,7 +1534,7 @@ msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_2
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_15 MSGBOX_AUTOCLOSE
-applymovement 27, RocketHideout_6F_Petrel_Post_SSanne_move_8
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_8
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_16 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_17 MSGBOX_AUTOCLOSE
@@ -1543,17 +1543,17 @@ waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_4
 waitmovement 0x0
-applymovement 27, RocketHideout_6F_Petrel_Post_SSanne_move_8
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_8
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_19 MSGBOX_AUTOCLOSE
-applymovement 27, RocketHideout_6F_Petrel_Post_SSanne_move_9
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_9
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Post_SSanne_move_10
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Post_SSanne_Texto_20 MSGBOX_AUTOCLOSE
-applymovement 27, RocketHideout_6F_Petrel_Post_SSanne_move_11
+applymovement 39, RocketHideout_6F_Petrel_Post_SSanne_move_11
 waitmovement 0x0
-setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
-removeobject 27
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+removeobject 39
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
 setvar VAR_UNUSED_0x40F7, 33
 release
@@ -1921,6 +1921,7 @@ applymovement 33, RocketHideout_6F_Escena_Lance_2_move1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Escena_Lance_2_move1
 waitmovement 0x0
 msgbox RocketHideout_6F_Escena_Lance_Texto_18 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 fadescreen 1
 delay 20
 removeobject 31
@@ -1928,7 +1929,6 @@ removeobject 33
 fadescreen 0
 setflag FLAG_HIDE_PETALBURG_CITY_WALLY
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
-clearflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 setvar VAR_UNUSED_0x40F7, 32
 release
 end
@@ -2217,3 +2217,4 @@ RocketHideout_6F_Cientifico_Maquina_Texto_2:
 	.string "quieras, solo tienes que\l"
 	.string "interactuar con la máquina para\l"
 	.string "acceder al modo de teletransporte!$"
+

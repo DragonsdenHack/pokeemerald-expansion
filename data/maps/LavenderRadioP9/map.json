@@ -111,15 +111,15 @@
       "x": 12,
       "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_ROCKET_HIDEOUT_6F",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ROCKET_HIDEOUT_4F",
+      "dest_warp_id": 1
     },
     {
       "x": 21,
       "y": 2,
       "elevation": 0,
       "dest_map": "MAP_LAVENDER_RADIO_P10",
-      "dest_warp_id": 1
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
