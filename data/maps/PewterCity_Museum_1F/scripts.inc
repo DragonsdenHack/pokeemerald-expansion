@@ -162,6 +162,7 @@ msgbox PewterCity_Museum_1F_Miguel_Texto_22 MSGBOX_AUTOCLOSE
 msgbox PewterCity_Museum_1F_Miguel_Texto_23 MSGBOX_AUTOCLOSE
 applymovement 6, PewterCity_Museum_1F_Miguel_Move_13
 waitmovement 0x0
+clearflag FLAG_NUEVA_839
 setflag FLAG_HIDE_FANCLUB_LITTLE_BOY
 removeobject 6
 playse SE_EXIT

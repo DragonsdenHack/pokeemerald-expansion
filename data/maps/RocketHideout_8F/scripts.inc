@@ -597,6 +597,7 @@ RocketHideout_8F_Mision_Silph::
 lock
 setvar VAR_UNUSED_0x40F7, 71
 clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+setflag FLAG_NUEVA_839
 addobject 3
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_move1
 waitmovement 0x0

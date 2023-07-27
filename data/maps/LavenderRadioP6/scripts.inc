@@ -564,7 +564,7 @@ LavenderRadioP6_Combate_Bill_Texto_12:
 LavenderRadioP6_Encuentro_Andra::
 lock
 clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
-addobject 12
+addobject 3
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Encuentro_Andra_Move_1
 waitmovement 0x0
@@ -572,33 +572,54 @@ delay 40
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Encuentro_Andra_Move_3
-applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_2
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_2
 waitmovement 0x0
 delay 20
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
-applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_4
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_8
+waitmovement 0x0
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.1 MSGBOX_AUTOCLOSE
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_9
+waitmovement 0x0
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.2 MSGBOX_AUTOCLOSE
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_5
+waitmovement 0x0
+msgbox LavenderRadioP6_Encuentro_Andra_Texto_2.3 MSGBOX_AUTOCLOSE
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_4
 waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_3 MSGBOX_AUTOCLOSE
-applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_5
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_5
 waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
-applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_4
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_4
 waitmovement 0x0
 msgbox LavenderRadioP6_Encuentro_Andra_Texto_6 MSGBOX_AUTOCLOSE
 delay 20
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Encuentro_Andra_Move_7
-applymovement 12, LavenderRadioP6_Encuentro_Andra_Move_6
+applymovement 3, LavenderRadioP6_Encuentro_Andra_Move_6
 waitmovement 0x0
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
-removeobject 12
+clearflag FLAG_NUEVA_839
+removeobject 3
 playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 214
 release
 end
+
+LavenderRadioP6_Encuentro_Andra_Move_9:
+walk_in_place_right
+delay_8
+delay_8
+face_down
+step_end
+
+LavenderRadioP6_Encuentro_Andra_Move_8:
+walk_in_place_down
+step_end
 
 LavenderRadioP6_Encuentro_Andra_Move_7:
 walk_in_place_up
@@ -643,6 +664,26 @@ LavenderRadioP6_Encuentro_Andra_Texto_1:
 
 LavenderRadioP6_Encuentro_Andra_Texto_2:
 .string "…$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_2.1:
+.string "He hablado con GIOVANNI y no hay\n"
+	.string "problema respecto a los MOTORISTAS. Al\l"
+	.string "final, podrán asentarse en su ciudad\l"
+	.string "favorita: FUCSIA.$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_2.2:
+.string "Creo que el propio GIOVANNI quedó\n"
+	.string "sorprendido. Tanto por la ligereza con\l"
+	.string "la que trató el tema en un inicio, como\l"
+	.string "por su fácil solución.$"
+
+LavenderRadioP6_Encuentro_Andra_Texto_2.3:
+.string "Sinceramente, creo que todos estos\n"
+	.string "cambios tan repentinos nos están\l"
+	.string "cegando un poco a todos. Y todo esto\l"
+	.string "de las ondas de radio, a mí me genera\l"
+	.string "inquietud...$"
+
 
 LavenderRadioP6_Encuentro_Andra_Texto_3:
 .string "Ya hemos estado en esta situación\n"
