@@ -2536,5 +2536,17 @@ MisionMoteros_Event_Script_Restauratodo::
 finditem ITEM_FULL_RESTORE
    end
 
+MisionMoteros_Event_Script_Pila::
+finditem ITEM_CELL_BATTERY
+   end
+
+MisionMoteros_Event_Script_TrozoEstrella::
+finditem ITEM_STAR_PIECE
+   end
+
+MisionMoteros_Event_Script_TM104::
+finditem ITEM_TM104
+   end
+
 
 

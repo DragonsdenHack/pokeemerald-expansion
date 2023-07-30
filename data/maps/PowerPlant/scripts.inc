@@ -330,6 +330,7 @@ removeobject 7
 removeobject 6
 removeobject 2
 fadescreen 0
+clearflag FLAG_NUEVA_839
 setvar VAR_UNUSED_0x40F7, 71
 release
 end

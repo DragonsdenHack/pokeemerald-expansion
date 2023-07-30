@@ -1,11 +1,21 @@
 Mision7Lab4_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, Mision7Lab4_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, Mision7Lab4_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, Mision7Lab4_OnFrame
 	.byte 0
 
+Mision7Lab4_OnResume:
+map_script_2 VAR_UNUSED_0x40DC, 7, Mision7Lab4_2
+	.2byte 0
+
+Mision7Lab4_2::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40DC, 8
+end
+
 Mision7Lab4_OnFrame:
 map_script_2 VAR_TEMP_0, 0, Mision7Lab4_Seteo_Metatiles
-map_script_2 VAR_UNUSED_0x40DC, 3, Mision7Lab4_Escena_Lance
+map_script_2 VAR_UNUSED_0x40DC, 8, Mision7Lab4_Escena_Lance
 	.2byte 0
 
 
@@ -715,13 +725,11 @@ release
 end
 
 Mision7Lab4_Escena_Lance::
-call Script_SetGrayscaleTint
 playse 501
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Escena_Lance_Move_1
 waitmovement 0x0
 special RemoveCameraObject
-msgbox RocketHideout_8F_Mision_Silph_text_25.2 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
 removeobject 11
@@ -741,6 +749,7 @@ waitmovement 0x0
 setmetatile 38, 27, 0x63, TRUE
 call Script_SetGrayscaleTint
 special DrawWholeMapView
+delay 30
 showmonpic SPECIES_DITTO, 10, 4  
 call Script_SetGrayscaleTint
 delay 20
@@ -755,10 +764,11 @@ msgbox RocketHideout_8F_Mision_Silph_text_25.6 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
 removeobject 16
+addobject 17
+delay 20
 setmetatile 38, 27, 0x62, TRUE
 call Script_SetGrayscaleTint
 fadescreen 0
-addobject 17
 call Script_SetGrayscaleTint
 applymovement 15, Mision7Lab4_Escena_Lance_Move_8
 applymovement 13, Mision7Lab4_Escena_Lance_Move_8
@@ -778,9 +788,10 @@ waitmovement 0x0
 setmetatile 38, 27, 0x63, TRUE
 call Script_SetGrayscaleTint
 special DrawWholeMapView
+delay 30
 showmonpic SPECIES_MEWTWO, 10, 4  
 call Script_SetGrayscaleTint
-delay 20
+delay 30
 applymovement 15, Mision7Lab4_Escena_Lance_Move_8
 applymovement 13, Mision7Lab4_Escena_Lance_Move_8
 applymovement 12, Mision7Lab4_Escena_Lance_Move_8
@@ -801,8 +812,10 @@ applymovement 14, Mision7Lab4_Escena_Lance_Move_15
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_28 MSGBOX_AUTOCLOSE
 delay 20
+fadescreen 1
+delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_29 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40DC, 4
+setvar VAR_UNUSED_0x40DC, 9
 warpsilent MAP_POKEMON_LEAGUE_ESCENALANCE, 4, 3
 call Script_SetGrayscaleTint
 release

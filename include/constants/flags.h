@@ -748,13 +748,13 @@
 #define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // ANDRA PUERTO ISLA INTA set // clear motero carmin // clear Miguel Mt.moon //clear blaine b.rocket 
 #define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO // clear Rojo Mt.moon// clear marineros ssanne //clear cultistas torre pkmn// clear Ruby //clear zeus magno aquiles
 #define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // CLEAR FLAG MISION EEVEES
-#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA //clear koga b.rocket //clear cazabichos casa pescador//clear PROTON casa fuji
+#define FLAG_HIDE_UNION_ROOM_PLAYER_5                               0x2C3 // ANDRA GUARDERIA //clear koga b.rocket //clear cazabichos casa pescador//clear PROTON casa fuji// clear Andra admin rocket f8
 #define FLAG_HIDE_UNION_ROOM_PLAYER_6                               0x2C4 // ANDRA CUARTEL PETREL // clear andra b.rocket //clear guarda casa pescador//clear giovanni y plata ruta 22
 #define FLAG_HIDE_UNION_ROOM_PLAYER_7                               0x2C5 // RECLUTA CELESTE EXCAVAR //SET PATENTE BILL // clear lance b.rocket //clear Lance y polis Silph
 #define FLAG_HIDE_UNION_ROOM_PLAYER_8                               0x2C6 // ROCKETS MTMOON 2F // clear azul b.rocket// CLEAR AZUL ROCKET HIDEOUT 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1               0x2C7 // CONSUL set// clear motero 2 carmin/clear atlas despacho Petrel/clear clefairy proton torre 7F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2               0x2C8 // AZUL MTMOON // clear lance escena 2//clear Oak y Dalia Pueblo paleta // clear Zinnia 
-#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne // clear rockets torre pkmn 7F// clear giovanni rojo gymnasio verde//clear giovanni 2 ruta 22
+#define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3               0x2C9 // FOSIL AZUL MTMOON// clear marineros 2 ssanne //clear andra alto rango// clear rockets torre pkmn 7F// clear giovanni rojo gymnasio verde//clear giovanni 2 ruta 22
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4               0x2CA // Rockets MTMOON 3F //bill jardin //set proton escena 8//clear andra C.Victoria// clear Blaine Rocket 8F
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5               0x2CB // BILL CASA BILL // proton y fuji P7 torre pkmn//CLEAR RECLUTA ROCKET HIDEOUT 8F//clear giovanni base verde
 #define FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6               0x2CC // LT.SURGE SSANNE // BALL TUNEL ROCA //proton torre pkmn 6F// Rockets castigo base 4F //Giovanni indigo escena
@@ -762,7 +762,7 @@
 #define FLAG_HIDE_MEW                                               0x2CE
 #define FLAG_HIDE_ROUTE_104_RIVAL                                   0x2CF // 
 #define FLAG_HIDE_ROUTE_101_BIRCH_ZIGZAGOON_BATTLE                  0x2D0 
-#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 // 
+#define FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH                  0x2D1 
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM          0x2D2 // CLEARFLAG ANDRA RUTA 10 //clearflag Koga afueras fucsia// //clear ltsurgue y policias casa fuji // clear ditto escena lance
 #define FLAG_HIDE_ROUTE_103_RIVAL                                   0x2D3 // ANDRA IDA SSANNE //GIOVANNI BASE PROFUNDA//ANDRA ADMIN ROCKET 8F
 #define FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE                    0x2D4 // GENTE TAPANDO ACCESO SSANNE 3F + AZUL//clear Azul Silph 2 // clear Mewtwo escena lance
@@ -2486,7 +2486,7 @@
 #define FLAG_NUEVA_836 0x844 // NEO LAVANDA P8 - CARAMELORARO
 #define FLAG_NUEVA_837 0x845 // NEO LAVANDA P8 - MAX ELIXIR
 #define FLAG_NUEVA_838 0x846 // PRESIDENTE DEVON NEO LAVANDA P8
-#define FLAG_NUEVA_839 0x847 // POLICIA ENTRADA TORRE LAVANDA
+#define FLAG_NUEVA_839 0x847 // PETREL Y KOGA EN SUS RESPECTIVAS BASES GIMNASIOS
 #define FLAG_NUEVA_840 0x848 // POLICIA 2 NEO LAVANDA
 #define FLAG_NUEVA_841 0x849 // FINAL MISION MOTORISTAS
 #define FLAG_NUEVA_842 0x84A // UNDERGROUND PATH - TM101 GOLPE VIL
@@ -2498,10 +2498,10 @@
 #define FLAG_NUEVA_848 0x850 // UNDERGROUND PATH - CURA TOTAL
 #define FLAG_NUEVA_849 0x851 // UNDERGROUND PATH - REVIVIR
 #define FLAG_NUEVA_850 0x852 // UNDERGROUND PATH - RESTAURATODO
-#define FLAG_NUEVA_851 0x853
-#define FLAG_NUEVA_852 0x854
-#define FLAG_NUEVA_853 0x855
-#define FLAG_NUEVA_854 0x856
+#define FLAG_NUEVA_851 0x853 // UNDERGROUND PATH - PILA
+#define FLAG_NUEVA_852 0x854 // UNDERGROUND PATH - TROZO ESTRELLA
+#define FLAG_NUEVA_853 0x855 // UNDERGROUND PATH - TM104 ACOSO
+#define FLAG_NUEVA_854 0x856 
 #define FLAG_NUEVA_855 0x857
 #define FLAG_NUEVA_856 0x858
 #define FLAG_NUEVA_857 0x859

@@ -260,7 +260,7 @@ NeoLavandaPueblo_Segundo_Cartel_Texto_1:
 NeoLavandaPueblo_Policia::
 compare VAR_ROUTE105_STATE, 6
 goto_if_eq NeoLavandaPueblo_Policia_2
-compare VAR_ROUTE105_STATE, 10
+compare VAR_ROUTE105_STATE, 13
 goto_if_lt NeoLavandaPueblo_Policia_3
 release
 end

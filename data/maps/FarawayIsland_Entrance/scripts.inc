@@ -3,7 +3,7 @@ map_script MAP_SCRIPT_ON_FRAME_TABLE, FarawayIsland_Entrance_OnFrame
 	.byte 0
 
 FarawayIsland_Entrance_OnFrame:
-map_script_2 VAR_UNUSED_0x40DC, 3, FarawayIsland_Entrance_Escena_Lance
+map_script_2 VAR_UNUSED_0x40DC, 6, FarawayIsland_Entrance_Escena_Lance
 	.2byte 0
 
 FarawayIsland_Entrance_EventScript_SetCloudsWeather::
@@ -71,7 +71,10 @@ msgbox RocketHideout_8F_Mision_Silph_text_25.2 MSGBOX_AUTOCLOSE
 applymovement 5, FarawayIsland_Entrance_Escena_Lance_Move_3
 waitmovement 0x0
 clearflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
-setvar VAR_UNUSED_0x40DC, 3
+setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+setvar VAR_UNUSED_0x40DC, 7
 warpsilent MAP_MISION7LAB4, 27, 27
 call Script_SetGrayscaleTint
 release

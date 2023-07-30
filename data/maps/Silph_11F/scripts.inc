@@ -265,6 +265,7 @@ waitmovement 0x0
 msgbox Silph_11F_Bill_Presidente_Texto_40 MSGBOX_AUTOCLOSE
 applymovement 8, Silph_11F_Bill_Presidente_Move_26
 waitmovement 0x0
+clearflag FLAG_NUEVA_839
 msgbox Silph_11F_Bill_Presidente_Texto_41 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 75
 warpsilent MAP_ROCKET_HIDEOUT_5F, 2, 2

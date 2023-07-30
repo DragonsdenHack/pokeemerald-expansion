@@ -1,11 +1,21 @@
 IndigoPlateau_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, IndigoPlateau_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_OnFrame
 	.byte 0
 
+IndigoPlateau_OnResume:
+map_script_2 VAR_UNUSED_0x40DC, 11, IndigoPlateau_2
+	.2byte 0
+
+IndigoPlateau_2::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40DC, 12
+end
+
 IndigoPlateau_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 30, IndigoPlateau_Lance_Discurso
-map_script_2 VAR_UNUSED_0x40DC, 5, IndigoPlateau_Escena_Lance
+map_script_2 VAR_UNUSED_0x40DC, 12, IndigoPlateau_Escena_Lance
 	.2byte 0
 
 IndigoPlateau_Lance_Discurso::
@@ -188,26 +198,33 @@ emote_exclamation_mark
 step_end
 
 IndigoPlateau_Escena_Lance::
-call Script_SetGrayscaleTint
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, IndigoPlateau_Escena_Lance_Move_1
 waitmovement 0x0
 special RemoveCameraObject
 msgbox RocketHideout_8F_Mision_Silph_text_36 MSGBOX_AUTOCLOSE
-applymovement 19, IndigoPlateau_Escena_Lance_Move_2
-waitmovement 0x0
-applymovement 19, IndigoPlateau_Escena_Lance_Move_3
-waitmovement 0x0
-applymovement 19, IndigoPlateau_Escena_Lance_Move_4
+applymovement 16, IndigoPlateau_Escena_Lance_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_37 MSGBOX_AUTOCLOSE
-setvar VAR_UNUSED_0x40DC, 6
-fadescreen 0x1
+applymovement 16, IndigoPlateau_Escena_Lance_Move_4
+waitmovement 0x0
+delay 20
+fadescreen 1
+delay 20
+call Script_RemoveTint
+delay 20
+fadescreen 0
+msgbox RocketHideout_8F_Mision_Silph_text_37.1 MSGBOX_DEFAULT
+delay 100
 warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
 release
 end
 
 IndigoPlateau_Escena_Lance_Move_4:
+walk_down
+walk_down
+walk_down
+walk_down
 walk_down
 walk_down
 walk_down
@@ -221,7 +238,7 @@ walk_slow_down
 step_end
 
 IndigoPlateau_Escena_Lance_Move_2:
-walk_in_place_slow_down
+face_down
 step_end
 
 IndigoPlateau_Escena_Lance_Move_1:

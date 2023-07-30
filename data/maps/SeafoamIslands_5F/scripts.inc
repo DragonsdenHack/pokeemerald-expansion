@@ -60,6 +60,7 @@ delay 20
 playse SE_POKENAV_HANG_UP
 msgbox SeafoamIslands_5F_Combate_Articuno_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
+setflag FLAG_NUEVA_839
 playse SE_POKENAV_OFF
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING
 setvar VAR_UNUSED_0x40F7, 69

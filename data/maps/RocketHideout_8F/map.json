@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RocketHideout4F_Dialogos_Giovanni",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BIRCH"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PROTON",
@@ -41,7 +41,7 @@
       "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ALTORANGO",
       "x": 6,
       "y": 6,
       "elevation": 3,
@@ -80,7 +80,7 @@
       "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANDRAADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
       "x": 6,
       "y": 6,
       "elevation": 3,
@@ -117,6 +117,32 @@
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
       "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_EJECUTIVO",
+      "x": 6,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN",
+      "x": 6,
+      "y": 6,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_UNION_ROOM_PLAYER_5"
     }
   ],
   "warp_events": [
@@ -199,7 +225,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 7,
       "y": 12,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
@@ -226,7 +252,7 @@
     },
     {
       "type": "trigger",
-      "x": 9,
+      "x": 11,
       "y": 12,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",

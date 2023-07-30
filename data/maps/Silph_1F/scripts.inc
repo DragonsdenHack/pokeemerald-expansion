@@ -490,3 +490,5 @@ end
 Silph_1F_Activador_Entrada_Texto_1:
 .string "Este ordenador parece que cumple\n"
 	.string "una función de gran importancia...$"
+
+

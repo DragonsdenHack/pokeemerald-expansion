@@ -2,14 +2,82 @@ RocketHideout_4F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, RocketHideout_4F_Disguise_Player_OnResume
+map_script MAP_SCRIPT_ON_FRAME_TABLE, RocketHideout_4F_OnFrame
     .byte 0
 
 RocketHideout_4F_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 46, PokemonTower5F_Escena_4_Blaine
 map_script_2 VAR_UNUSED_0x40F7, 58, RocketHideout_4F_Escena_Castigo_Reclutas
 map_script_2 VAR_ROUTE105_STATE, 5, RocketHideout_4F_Escena_Motoristas
+map_script_2 VAR_UNUSED_0x40F7, 805, RocketHideout_4F_Disguise_Player
 	.2byte 0
 
+
+RocketHideout_4F_Disguise_Player_OnResume:
+map_script_2 VAR_UNUSED_0x40F7, 804, RocketHideout_4F_Disguise_Player_2
+	.2byte 0
+
+RocketHideout_4F_Disguise_Player_2::
+setobjectxy 1, 18, 8
+applymovement 1, RocketHideout_4F_Disguise_Player_2_move_1
+playse SE_M_STAT_INCREASE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.10
+setvar VAR_UNUSED_0x40F7, 805
+end
+
+RocketHideout_4F_Disguise_Player_2_move_1:
+face_right
+step_end
+
+RocketHideout8F_Mision_Johto_move_12.10:
+face_left
+delay_4
+face_up
+delay_4
+face_right
+delay_4
+face_down
+delay_4
+face_left
+delay_4
+face_up
+delay_4
+face_right
+delay_4
+face_down
+delay_8
+face_left
+delay_8
+face_up
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_left
+delay_8
+face_up
+delay_8
+face_right
+delay_8
+face_down
+delay_8
+face_left
+delay_8
+delay_8
+face_up
+delay_8
+delay_8
+face_right
+delay_8
+delay_8
+face_down
+delay_8
+delay_8
+face_left
+delay_8
+step_end
 	
 	
 
@@ -2223,6 +2291,7 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_1
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_2
 waitmovement 0x0
@@ -2242,6 +2311,7 @@ playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_1
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1.1 MSGBOX_AUTOCLOSE
+delay 10
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_2.1
 waitmovement 0x0
@@ -2300,11 +2370,69 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_12 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13 MSGBOX_AUTOCLOSE
 delay 15
-applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12
-waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14 MSGBOX_AUTOCLOSE
-applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+removeobject 11
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_8
 waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_8.1
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.1
+waitmovement 0x0
+delay 10
+playse SE_M_COSMIC_POWER
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.2
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.1
+waitmovement 0x0
+waitse
+playse SE_M_SOLAR_BEAM
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
+delay 100
+setdisguise [469]
+setvar VAR_UNUSED_0x40F7, 804
+warpsilent MAP_ROCKET_HIDEOUT_4F, 19, 8
+
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.2:
+walk_in_place_right
+step_end
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Move_8.1:
+delay_8
+delay_8
+face_left
+step_end
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.1:
+walk_down
+walk_left
+walk_left
+walk_down
+walk_down
+walk_down
+walk_right
+step_end
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.3:
+face_up
+step_end
+
+RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.4:
+walk_up
+walk_left
+walk_up
+walk_up
+walk_right
+walk_right
+walk_up
+delay_8
+walk_in_place_down
+step_end
+
+
+
+RocketHideout_4F_Disguise_Player::
+delay 10
 playfanfare MUS_OBTAIN_SYMBOL
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_15 MSGBOX_DEFAULT
 waitfanfare
@@ -2320,6 +2448,8 @@ waitfanfare
 delay 40
 hidemoneybox
 delay 40
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.2
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
@@ -2334,8 +2464,12 @@ playfanfare MUS_OBTAIN_TMHM
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_21 MSGBOX_DEFAULT
 givemon SPECIES_MOLTRES, 15, ITEM_LUM_BERRY
 waitfanfare
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.3
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22 MSGBOX_AUTOCLOSE
-delay 15
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.3
+applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_12.4
+waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
@@ -2365,8 +2499,6 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32 MSGBOX_AUTOCLOSE
-setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
-removeobject 11
 setflag FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR
 setvar VAR_UNUSED_0x40F7, 95
 release
@@ -2693,7 +2825,6 @@ step_end
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Move_13:
 walk_right
-walk_up
 walk_right
 walk_up
 step_end
@@ -3404,6 +3535,7 @@ delay 20
 setvar VAR_ROUTE105_STATE, 6
 setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+setflag FLAG_NUEVA_839
 warpsilent MAP_VIAS_TREN2, 65, 11
 release
 end

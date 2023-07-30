@@ -29981,7 +29981,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER215[] = {
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {0, 252, 0, 252, 0, 6},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_STEALTH_ROCK, MOVE_EXPLOSION, MOVE_EARTHQUAKE, MOVE_NONE}
+    .moves = {MOVE_STEALTH_ROCK, MOVE_EXPLOSION, MOVE_EARTHQUAKE, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 255,

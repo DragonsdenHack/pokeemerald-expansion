@@ -1,13 +1,22 @@
 TinTower_Lance_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, TinTower_Lance_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, TinTower_Lance_OnFrame
 	.byte 0
 
+TinTower_Lance_OnResume:
+map_script_2 VAR_UNUSED_0x40DC, 2, TinTower_Lance_Lance_2
+	.2byte 0
+
+TinTower_Lance_Lance_2::
+call Script_SetGrayscaleTint
+setvar VAR_UNUSED_0x40DC, 3
+end
+
 TinTower_Lance_OnFrame:
-map_script_2 VAR_UNUSED_0x40DC, 1, TinTower_Escena_Lance
+map_script_2 VAR_UNUSED_0x40DC, 3, TinTower_Escena_Lance
 	.2byte 0
 
 TinTower_Escena_Lance::
-call Script_SetGrayscaleTint
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, TinTower_Escena_Lance_Move_1
 waitmovement 0x0
@@ -31,7 +40,7 @@ waitmovement 0x0
 delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_22 MSGBOX_AUTOCLOSE
 delay 40
-setvar VAR_UNUSED_0x40DC, 2
+setvar VAR_UNUSED_0x40DC, 4
 warpsilent MAP_ROUTE28, 47, 6
 call Script_SetGrayscaleTint
 release

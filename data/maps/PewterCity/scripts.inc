@@ -219,6 +219,7 @@ waitmovement 0x0
 msgbox PewterCity_Petrel_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 6, PewterCity_Petrel_Move_8
 waitmovement 0x0
+setflag FLAG_NUEVA_839
 setflag FLAG_HIDE_FANCLUB_BOY
 removeobject 6
 setvar VAR_UNUSED_0x40F7, 57
