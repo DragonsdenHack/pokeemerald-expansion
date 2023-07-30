@@ -244,8 +244,12 @@ extern u8 *gFieldEffectScriptPointers[];
 extern const struct SpriteTemplate *const gFieldEffectObjectTemplatePointers[];
 
 static const u32 sNewGameBirch_Gfx[] = INCBIN_U32("graphics/birch_speech/birch.4bpp");
+static const u32 sNewGameAtlas_Gfx[] = INCBIN_U32("graphics/birch_speech/atlas.4bpp");
+static const u32 sNewGameGiovanni_Gfx[] = INCBIN_U32("graphics/trainers/front_pics/leader_giovanni_front_pic.4bpp");
 static const u32 sUnusedBirchBeauty[] = INCBIN_U32("graphics/unused/intro_birch_beauty.4bpp");
 static const u16 sNewGameBirch_Pal[16] = INCBIN_U16("graphics/birch_speech/birch.gbapal");
+static const u16 sNewGameAtlas_Pal[16] = INCBIN_U16("graphics/birch_speech/atlas.gbapal");
+static const u16 sNewGameGiovanni_Pal[16] = INCBIN_U16("graphics/trainers/palettes/leader_giovanni.gbapal");
 static const u32 sPokeballGlow_Gfx[] = INCBIN_U32("graphics/misc/pokeball_glow.4bpp");
 static const u16 sPokeballGlow_Pal[16] = INCBIN_U16("graphics/field_effects/palettes/pokeball_glow.gbapal");
 static const u32 sPokecenterMonitor0_Gfx[] = INCBIN_U32("graphics/misc/pokecenter_monitor/0.4bpp");
@@ -327,16 +331,33 @@ static const struct OamData sOam_16x16 =
 
 static const struct SpriteFrameImage sPicTable_NewGameBirch[] =
 {
-    obj_frame_tiles(sNewGameBirch_Gfx)
+    obj_frame_tiles(sNewGameAtlas_Gfx)
 };
 
 static const struct SpritePalette sSpritePalette_NewGameBirch =
 {
-    .data = sNewGameBirch_Pal,
+    .data = sNewGameAtlas_Pal,
     .tag = 0x1006
 };
 
+static const struct SpriteFrameImage sPicTable_NewGameGiovanni[] =
+{
+    obj_frame_tiles(sNewGameGiovanni_Gfx)
+};
+
+static const struct SpritePalette sSpritePalette_NewGameGiovanni =
+{
+    .data = sNewGameGiovanni_Pal,
+    .tag = 0x1007
+};
+
 static const union AnimCmd sAnim_NewGameBirch[] =
+{
+    ANIMCMD_FRAME(.imageValue = 0, .duration = 1),
+    ANIMCMD_END
+};
+
+static const union AnimCmd sAnim_NewGameGiovanni[] =
 {
     ANIMCMD_FRAME(.imageValue = 0, .duration = 1),
     ANIMCMD_END
@@ -347,6 +368,11 @@ static const union AnimCmd *const sAnimTable_NewGameBirch[] =
     sAnim_NewGameBirch
 };
 
+static const union AnimCmd *const sAnimTable_NewGameGiovanni[] =
+{
+    sAnim_NewGameGiovanni
+};
+
 static const struct SpriteTemplate sSpriteTemplate_NewGameBirch =
 {
     .tileTag = TAG_NONE,
@@ -354,6 +380,17 @@ static const struct SpriteTemplate sSpriteTemplate_NewGameBirch =
     .oam = &sOam_64x64,
     .anims = sAnimTable_NewGameBirch,
     .images = sPicTable_NewGameBirch,
+    .affineAnims = gDummySpriteAffineAnimTable,
+    .callback = SpriteCallbackDummy
+};
+
+static const struct SpriteTemplate sSpriteTemplate_NewGameGiovanni =
+{
+    .tileTag = TAG_NONE,
+    .paletteTag = 0x1007,
+    .oam = &sOam_64x64,
+    .anims = sAnimTable_NewGameGiovanni,
+    .images = sPicTable_NewGameGiovanni,
     .affineAnims = gDummySpriteAffineAnimTable,
     .callback = SpriteCallbackDummy
 };
@@ -923,6 +960,12 @@ u8 AddNewGameBirchObject(s16 x, s16 y, u8 subpriority)
 {
     LoadSpritePalette(&sSpritePalette_NewGameBirch);
     return CreateSprite(&sSpriteTemplate_NewGameBirch, x, y, subpriority);
+}
+
+u8 AddNewGameGiovanniObject(s16 x, s16 y, u8 subpriority)
+{
+    LoadSpritePalette(&sSpritePalette_NewGameGiovanni);
+    return CreateSprite(&sSpriteTemplate_NewGameGiovanni, x, y, subpriority);
 }
 
 u8 CreateMonSprite_PicBox(u16 species, s16 x, s16 y, u8 subpriority)

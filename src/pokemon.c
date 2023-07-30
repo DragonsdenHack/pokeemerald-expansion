@@ -7771,7 +7771,17 @@ u16 GetBattleBGM(void)
         }
     }
     else
-        return MUS_VS_WILD;
+	{
+			if(gMapHeader.region == REGION_JOHTO)
+			{
+				return 581;
+			}else if(gMapHeader.region == REGION_KANTO || gMapHeader.region == SEVII_123 || gMapHeader.region == SEVII_45 || gMapHeader.region == SEVII_67)
+			{
+				return MUS_RG_VS_WILD;
+			}else{
+				return MUS_VS_WILD;
+			}  
+	}
 }
 
 void PlayBattleBGM(void)

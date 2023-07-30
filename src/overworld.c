@@ -890,7 +890,9 @@ static void LoadCurrentMapData(void)
 		
 		
 		if(gMapHeader.mapLayoutId == LAYOUT_LAVENDER_TOWN){
+			
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 13);
+			gMapHeader.region = REGION_KANTO; 
 		}	
 		
 		
@@ -1516,6 +1518,7 @@ static void TransitionMapMusic(void)
     {
         u16 newMusic = GetWarpDestinationMusic();
         u16 currentMusic = GetCurrentMapMusic();
+
         if (newMusic != MUS_ABNORMAL_WEATHER && newMusic != MUS_NONE)
         {
             if (currentMusic == MUS_UNDERWATER || currentMusic == MUS_SURF || currentMusic == 618 || currentMusic == MUS_RG_SURF)

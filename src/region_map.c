@@ -2498,7 +2498,7 @@ static void CB_ExitFlyMap(void)
 					}
 					break;
 					
-				case MAPSEC_ROUTE_10:
+				case MAPSEC_ROUTE_10_FLYDUP:
 					if(VarGet(VAR_UNUSED_0x40F7) >= 203){
 						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_ROUTE10);
 					}else{
