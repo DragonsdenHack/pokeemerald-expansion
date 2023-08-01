@@ -17,7 +17,7 @@ end
 
 
 SilphS1_Text_1:
-.string "La inmensa mayoría sólo vivirá\n"
+.string "La inmensa mayoría solo vivirá\n"
 .string "para mantener girando la necesaria\l"
 .string "rueda de la sociedad, desde aquí\l"
 .string "intentamos formar parte de ese\l"

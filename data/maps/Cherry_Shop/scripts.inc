@@ -45,7 +45,7 @@ end
 CherryShop_Text_4:
 .string "Estoy buscando algunos objetos que\n"
 .string "aumenten las habilidades de los\l"
-.string "POKéMON en un sólo combate.\p"
+.string "POKéMON en un solo combate.\p"
 .string "Estoy buscando ATAQUE X,\n"
 .string "DEFENSA X, VELOCIDAD X y\l"
 .string "ESPECIAL X.\p"

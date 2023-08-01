@@ -79,7 +79,7 @@ MemorialPillar_Text_Onyx:
 	.string "mismo espectáculo 100 o 200 años,\l"
 	.string "la otra, que el anciano y el que\l"
 	.string "muere prematuramente experimentan\l"
-	.string "la misma pérdida, puesto que sólo\l"
+	.string "la misma pérdida, puesto que solo\l"
 	.string "se nos priva del presente que es\l"
 	.string "lo único que poseemos, visto que\l"
 	.string "no se puede perder lo que no se\l"

@@ -42,7 +42,7 @@ end
 
 CeladonCity_Shop5F_Text_4:
 .string "¡Los dispositivos de mejora de los\n"
-.string "POKéMON sólo se venden aquí!\p"
+.string "POKéMON solo se venden aquí!\p"
 .string "MÁS PS aumenta los PS básicos\n"
 .string "de un POKéMON.\p"
 .string "Usa CALCIO para aumentar las\n"

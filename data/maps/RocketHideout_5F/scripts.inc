@@ -2188,7 +2188,7 @@ step_end
 
 RocketHideout_5F_Texto_Prohibido_Pasar:
 .string "(Puede leerse grabado en la\n"
-	.string "puerta: -Sólo personal autorizado\l"
+	.string "puerta: -Solo personal autorizado\l"
 	.string "de forma directa por GIOVANNI-).$"
 
 RocketHideout_5F_Paso_Despacho_Giovanni::

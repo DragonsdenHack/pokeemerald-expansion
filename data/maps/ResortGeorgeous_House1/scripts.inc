@@ -17,7 +17,7 @@ ResortGeorgeousDocumento_Text_100:
 	.string "Última hora sobre BLAINE, LÍDER\n"
 	.string "del GIMNASIO de CANELA.\p"
 	.string "Según fuentes cercanas, BLAINE\n"
-	.string "sólo se quita las gafas de sol\l"
+	.string "solo se quita las gafas de sol\l"
 	.string "cuando contesta a preguntas.$"
 
 

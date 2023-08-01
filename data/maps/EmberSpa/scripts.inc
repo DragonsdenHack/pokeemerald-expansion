@@ -19,7 +19,7 @@ EmberSpa_Text_2:
 .string "termal.\p"
 .string "BRUNO, ejemplo al que sigo, viene\n"
 .string "al BALNEARIO cada vez que puede.\p"
-.string "No sólo para recuperarse él,\n"
+.string "No solo para recuperarse él,\n"
 .string "también lo hace por sus POKéMON.$"
 
 

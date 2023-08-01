@@ -179,7 +179,7 @@ PalletTown_ProfessorLab_Lab_Texto_5:
 
 PalletTown_ProfessorLab_Lab_Texto_6:
 .string "¿Cómo?\n"
-	.string "¿No quieres problemas, sólo habías\l"
+	.string "¿No quieres problemas, solo habías\l"
 	.string "venido a hacerle una visita a OAK?$"
 
 PalletTown_ProfessorLab_Lab_Texto_7:

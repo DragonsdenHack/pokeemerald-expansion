@@ -439,7 +439,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_14:
 	.string "inmediatamente, deberías\l"
 	.string "presentarte en su despacho cuanto\l"
 	.string "antes, después de derrotar a dos\l"
-	.string "legendarios y cumplir no sólo tu\l"
+	.string "legendarios y cumplir no solo tu\l"
 	.string "misión, sino esta también, no\l"
 	.string "quiero imaginarme cómo te recibirá\l"
 	.string "nuestro líder...$"

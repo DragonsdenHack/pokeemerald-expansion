@@ -99,7 +99,7 @@ release
 end
 
 SafariZone_House4_Text_7:
-.string "¡Hiyah! Sólo tengo respeto por\n"
+.string "¡Hiyah! Solo tengo respeto por\n"
 .string "un ENTRENADOR.\p"
 .string "Por mi MAESTRO. No hay nadie\n"
 .string "como él sobre el DOJO.\p"

@@ -132,7 +132,7 @@ ViridianForestDocumento_Text_101:
 .string "PISTAS ENTRENADOR\p"
 	.string "¡No robes los POKéMON de otros\n"
 	.string "ENTRENADORES!\p"
-	.string "¡Captura sólo POKéMON salvajes\n"
+	.string "¡Captura solo POKéMON salvajes\n"
 	.string "con las POKé BALLS!$"
 
 

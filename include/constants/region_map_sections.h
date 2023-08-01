@@ -144,8 +144,8 @@
 #define MAPSEC_POKEMON_TOWER                0x8C
 #define MAPSEC_CERULEAN_CAVE                0x8D
 #define MAPSEC_POWER_PLANT                  0x8E
-#define MAPSEC_ONE_ISLAND                   0x8F  //SEVI123
-#define MAPSEC_TWO_ISLAND                   0x90	//SEVI123
+#define MAPSEC_ONE_ISLAND                   0x8F //SEVI123
+#define MAPSEC_TWO_ISLAND                   0x90 //SEVI123
 #define MAPSEC_THREE_ISLAND                 0x91 //SEVI123
 #define MAPSEC_FOUR_ISLAND                  0x92 //SEVI45
 #define MAPSEC_FIVE_ISLAND                  0x93
@@ -189,11 +189,11 @@
 #define MAPSEC_THREE_ISLE_PATH              0xB9
 #define MAPSEC_TANOBY_KEY                   0xBA
 #define MAPSEC_BIRTH_ISLAND_FRLG            0xBB //MAPSEC_TORRE_RADIO_LAVANDA
-#define MAPSEC_MONEAN_CHAMBER               0xBC //SEVI67
-#define MAPSEC_LIPTOO_CHAMBER               0xBD //SEVI67
-#define MAPSEC_WEEPTH_CHAMBER               0xBE //SEVI67
-#define MAPSEC_DILFORD_CHAMBER              0xBF //SEVI67
-#define MAPSEC_SCUFIB_CHAMBER               0xC0 //SEVI67
+#define MAPSEC_MONEAN_CHAMBER               0xBC //ROUTE 26
+#define MAPSEC_LIPTOO_CHAMBER               0xBD //CUEVA OSCURA
+#define MAPSEC_WEEPTH_CHAMBER               0xBE //CUEVA UNION
+#define MAPSEC_DILFORD_CHAMBER              0xBF //RUTA 35
+#define MAPSEC_SCUFIB_CHAMBER               0xC0 //MT MORTERO
 #define MAPSEC_RIXY_CHAMBER                 0xC1 //SEVI67
 #define MAPSEC_VIAPOIS_CHAMBER              0xC2
 #define MAPSEC_EMBER_SPA                    0xC3
@@ -217,25 +217,25 @@
 #define MAPSEC_RUINAS_ALFA                  0xD5
 #define MAPSEC_BELLSPROUT_TOWER             0xD6
 #define MAPSEC_ILEX_FOREST					0xD7
-#define MAPSEC_TOHJO_FALLS							0xD8
-#define MAPSEC_DRAGONSDEN							0xD9
-#define MAPSEC_WHIRPOOL_ISLAND						0xDA
-#define MAPSEC_NATIONAL_PARK						0xDB
-#define MAPSEC_SLOWPOKE_WELL						0xDC
-#define MAPSEC_ICE_PATH							0xDD
-#define MAPSEC_TIN_TOWER							0xDE
-#define MAPSEC_BURN_TOWER							0xDF
-#define MAPSEC_NEW_BARK_TOWN						0xE0
-#define MAPSEC_CHERRYGROVE_CITY					0xE1
-#define MAPSEC_AZALEA_TOWN							0xE2
-#define MAPSEC_ECRUTEAK_CITY 0xE3
-#define MAPSEC_OLIVINE_CITY						0xE4
-#define MAPSEC_GOLDENROD_CITY						0xE5
-#define MAPSEC_CIANDWOOD_CITY						0xE6
-#define MAPSEC_MAHOGANY_CITY						0xE7
-#define MAPSEC_VIOLET_CITY							0xE8
-#define MAPSEC_MT_SILVER							0xE9
-#define MAPSEC_ROCKET_HIDEOUT_JOHTO					0xEA
+#define MAPSEC_TOHJO_FALLS					0xD8
+#define MAPSEC_DRAGONSDEN				    0xD9
+#define MAPSEC_WHIRPOOL_ISLAND			    0xDA
+#define MAPSEC_NATIONAL_PARK				0xDB
+#define MAPSEC_SLOWPOKE_WELL				0xDC
+#define MAPSEC_ICE_PATH						0xDD
+#define MAPSEC_TIN_TOWER					0xDE
+#define MAPSEC_BURN_TOWER					0xDF
+#define MAPSEC_NEW_BARK_TOWN				0xE0
+#define MAPSEC_CHERRYGROVE_CITY				0xE1
+#define MAPSEC_AZALEA_TOWN					0xE2
+#define MAPSEC_ECRUTEAK_CITY                0xE3
+#define MAPSEC_OLIVINE_CITY					0xE4
+#define MAPSEC_GOLDENROD_CITY				0xE5
+#define MAPSEC_CIANDWOOD_CITY				0xE6
+#define MAPSEC_MAHOGANY_CITY				0xE7
+#define MAPSEC_VIOLET_CITY					0xE8
+#define MAPSEC_MT_SILVER					0xE9
+#define MAPSEC_ROCKET_HIDEOUT_JOHTO			0xEA
 #define MAPSEC_BLACKTHORN_CITY				0xEB
 #define MAPSEC_SSAQUA						0xEC
 #define MAPSEC_FARO_OLIVO					0xED

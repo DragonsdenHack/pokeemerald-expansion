@@ -111,9 +111,9 @@ end
 
 LavenderRadioP10_Rocket_Texto_1:
 .string "La PIEDRA ROCKET es extremadamente\n"
-	.string "excasa, incluso para los altos cargos\l"
+	.string "escasa, incluso para los altos cargos\l"
 	.string "ROCKET.\l"
-	.string "solo a partir de EJECUTIVO se\l"
+	.string "Solo a partir de EJECUTIVO se\l"
 	.string "te concede una sola, pero debe ser\l"
 	.string "increíble contar con un POKÉMON que\l"
 	.string "sabes que está al nivel y jerarquía\l"

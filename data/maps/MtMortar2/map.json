@@ -3,7 +3,7 @@
   "name": "MtMortar2",
   "layout": "LAYOUT_MT_MORTAR2",
   "music": "595",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_SCUFIB_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

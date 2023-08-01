@@ -37,7 +37,7 @@ end
 
 SafariZone2FDocumento_Text_101:
 .string "PISTAS ENTRENADOR\p"
-	.string "¡El tiempo restante sólo se verá\n"
+	.string "¡El tiempo restante solo se verá\n"
 	.string "reducido cuando camines!$"
 
 

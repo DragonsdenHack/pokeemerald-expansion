@@ -3,7 +3,7 @@
   "name": "NeoLavanda_Ruta_Norte",
   "layout": "LAYOUT_NEO_LAVANDA_RUTA_NORTE",
   "music": "MUS_RG_ROUTE3",
-  "region_map_section": "MAPSEC_ROUTE_10_FLYDUP",
+  "region_map_section": "MAPSEC_ROUTE_10",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",

@@ -30,11 +30,11 @@ gText_Birch_AndYouAre::
 	.string "And you are?$"	
 
 gText_Birch_BoyOrGirl::
-	.string "Sólo debes inscribirte con un nombre\n"
+	.string "Solo debes inscribirte con un nombre\n"
 	.string "que será tu seña de identidad aquí.$"
 
 gText_Birch_WhatsYourName::
-	.string "Sólo debes inscribirte con un nombre\n"
+	.string "Solo debes inscribirte con un nombre\n"
 	.string "que será tu seña de identidad aquí.$"
 
 gText_Birch_SoItsPlayer::
@@ -44,13 +44,13 @@ gText_Birch_YourePlayer::
 	.string "{PAUSE 50}Este es nuestro LÍDER, Giovanni.\p"
 	.string "No encontrarás mejor ni más sabio\n"
 	.string "entrenador en todo KANTO…\p"
-	.string "Sólo los mejores ROCKETS tienen acceso\n"
+	.string "Solo los mejores ROCKETS tienen acceso\n"
 	.string "a él.\p"
 	.string "Si de verdad quieres subir en esta\n"
 	.string "organización, deberás de hacer\l"
 	.string "méritos con cada misión que se te\l"
 	.string "confíe, sin atajos ni favoritismos.\p"
-	.string "Sólo entonces quizás puedas algún día\n"
+	.string "Solo entonces quizás puedas algún día\n"
 	.string "conocer en persona a nuestro LÍDER.\p"
 	.string "$"
 

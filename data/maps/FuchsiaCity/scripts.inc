@@ -311,7 +311,7 @@ FuchsiaCity_Encuentro_Koga_Texto_4:
 	.string "SAFARI sin pagar, y usando tus\l"
 	.string "propias POKÉ BALL sin ningún tipo\l"
 	.string "de limitación, es algo a lo que\l"
-	.string "sólo tienen acceso los principales\l"
+	.string "solo tienen acceso los principales\l"
 	.string "accionistas y personalidades como\l"
 	.string "BILL por motivos de\l"
 	.string "investigación...considérate\l"

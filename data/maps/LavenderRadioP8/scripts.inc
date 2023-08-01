@@ -14,11 +14,11 @@ release
 end
 
 LavenderRadioP8_Primer_Cientifico_Texto_1:
-.string "El P8 se eleva ya más alto de lo que\n"
+.string "El P8 se eleva más alto de lo que\n"
 	.string "jamás se elevó la ya otrora TORRE\l"
 	.string "POKÉMON.\l"
 	.string "Esto es, ahora mismo vemos PUEBLO\l"
-	.string "LAVANDA desde un prisma que jamás\l"
+	.string "LAVANDA desde una altura que jamás\l"
 	.string "vieron sus habitantes.$"
 
 LavenderRadioP8_Segundo_Cientifico::

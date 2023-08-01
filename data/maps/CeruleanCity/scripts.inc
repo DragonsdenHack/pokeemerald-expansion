@@ -13,7 +13,7 @@ CeruleanCity_Text1:
 .string "Un POKÉMON terriblemente fuerte\l"
 .string "reside aquí.\l"
 .string "La entrada está prohibida para\l"
-.string "toda la población de KANTO, sólo\l"
+.string "toda la población de KANTO, solo\l"
 .string "la ÉLITE 4 tiene el permiso para\l"
 .string "entrar aquí.\l"
 .string "¡Imagínate el permiso que tienes\l"

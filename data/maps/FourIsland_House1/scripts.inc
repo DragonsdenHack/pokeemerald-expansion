@@ -71,7 +71,7 @@ FourIsland_House1_Entrenador_Especial_Texto_3:
 	.string "equipado, combinado con\l"
 	.string "habilidades como PIEL TOSCA o\l"
 	.string "PUNTA ACERO generará un daño más\l"
-	.string "que considerable sólo por aguantar\l"
+	.string "que considerable solo por aguantar\l"
 	.string "el golpe.\l"
 	.string "¿Te imaginas un CLEFABLE usando\l"
 	.string "DOBLEBOFETÓN contra un FERROTHORN\l"
