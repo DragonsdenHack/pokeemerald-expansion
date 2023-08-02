@@ -3,7 +3,7 @@
   "name": "Cianwood_House3",
   "layout": "LAYOUT_CIANWOOD_HOUSE3",
   "music": "590",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_CIANDWOOD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

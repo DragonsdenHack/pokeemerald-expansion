@@ -3,7 +3,7 @@
   "name": "Ecruteak_BurnedTowerS1",
   "layout": "LAYOUT_ECRUTEAK_BURNED_TOWER_S1",
   "music": "619",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_BURN_TOWER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

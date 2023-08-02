@@ -190,11 +190,11 @@
 #define MAPSEC_TANOBY_KEY                   0xBA
 #define MAPSEC_BIRTH_ISLAND_FRLG            0xBB //MAPSEC_TORRE_RADIO_LAVANDA
 #define MAPSEC_MONEAN_CHAMBER               0xBC //ROUTE 26
-#define MAPSEC_LIPTOO_CHAMBER               0xBD //CUEVA OSCURA
-#define MAPSEC_WEEPTH_CHAMBER               0xBE //CUEVA UNION
+#define MAPSEC_LIPTOO_CHAMBER               0xBD //RUTA 52
+#define MAPSEC_WEEPTH_CHAMBER               0xBE //RUTA 51
 #define MAPSEC_DILFORD_CHAMBER              0xBF //RUTA 35
 #define MAPSEC_SCUFIB_CHAMBER               0xC0 //MT MORTERO
-#define MAPSEC_RIXY_CHAMBER                 0xC1 //SEVI67
+#define MAPSEC_RIXY_CHAMBER                 0xC1 //LAGO FURIA
 #define MAPSEC_VIAPOIS_CHAMBER              0xC2
 #define MAPSEC_EMBER_SPA                    0xC3
 #define MAPSEC_SPECIAL_AREA                 0xC4
@@ -203,7 +203,7 @@
 #define MAPSEC_MIRAGE_TOWER                 0xC7
 #define MAPSEC_BIRTH_ISLAND                 0xC8
 #define MAPSEC_FARAWAY_ISLAND               0xC9
-#define MAPSEC_ARTISAN_CAVE                 0xCA
+#define MAPSEC_ARTISAN_CAVE                 0xCA // TORRE DUN
 #define MAPSEC_MARINE_CAVE                  0xCB
 #define MAPSEC_UNDERWATER_MARINE_CAVE       0xCC
 #define MAPSEC_TERRA_CAVE                   0xCD

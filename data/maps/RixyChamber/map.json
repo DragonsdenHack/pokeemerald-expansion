@@ -3,7 +3,7 @@
   "name": "RixyChamber",
   "layout": "LAYOUT_RIXY_CHAMBER",
   "music": "MUS_RG_VIRIDIAN_FOREST",
-  "region_map_section": "MAPSEC_RIXY_CHAMBER",
+  "region_map_section": "MAPSEC_TANOBY_RUINS",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",

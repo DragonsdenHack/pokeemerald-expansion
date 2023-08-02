@@ -3,7 +3,7 @@
   "name": "SouthRoute45",
   "layout": "LAYOUT_SOUTH_ROUTE45",
   "music": "MUS_RG_SEVII_ROUTE",
-  "region_map_section": "MAPSEC_ROCKET_HIDEOUT_JOHTO",
+  "region_map_section": "MAPSEC_SEVII_ISLE_7",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

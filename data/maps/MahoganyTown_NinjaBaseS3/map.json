@@ -3,7 +3,7 @@
   "name": "MahoganyTown_NinjaBaseS3",
   "layout": "LAYOUT_MAHOGANY_TOWN_NINJA_BASE_S3",
   "music": "585",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_MAHOGANY_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

@@ -3,7 +3,7 @@
   "name": "Azalea_House1",
   "layout": "LAYOUT_AZALEA_HOUSE1",
   "music": "MUS_RG_SEVII_45",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_AZALEA_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

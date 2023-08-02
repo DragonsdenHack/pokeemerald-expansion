@@ -3,7 +3,7 @@
   "name": "Route52",
   "layout": "LAYOUT_ROUTE52",
   "music": "618",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_LIPTOO_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_ROUTE",
