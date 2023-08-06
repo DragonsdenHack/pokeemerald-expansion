@@ -268,22 +268,12 @@ static const u16 sPlayerAvatarGfxToStateFlag[2][5][2] =
 {
     [MALE] =
     {
-		//if(VarSet(VAR_DEVON_CORP_3F_STATE) == 0){
-			{OBJ_EVENT_GFX_PROTA,     PLAYER_AVATAR_FLAG_ON_FOOT},
-			{OBJ_EVENT_GFX_BRENDAN_MACH_BIKE,  PLAYER_AVATAR_FLAG_MACH_BIKE},
-			{OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
-			{OBJ_EVENT_GFX_SURFPROTA,    PLAYER_AVATAR_FLAG_SURFING},
-			{OBJ_EVENT_GFX_BRENDAN_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
-		//}
-
-		// if(VarSet(VAR_DEVON_CORP_3F_STATE) == 1){
-			// {OBJ_EVENT_GFX_MAY_NORMAL,     PLAYER_AVATAR_FLAG_ON_FOOT},
-			// {OBJ_EVENT_GFX_MAY_MACH_BIKE,  PLAYER_AVATAR_FLAG_MACH_BIKE},
-			// {OBJ_EVENT_GFX_MAY_ACRO_BIKE,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
-			// {OBJ_EVENT_GFX_MAY_SURFING,    PLAYER_AVATAR_FLAG_SURFING},
-			// {OBJ_EVENT_GFX_MAY_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},
-		// }	
-    
+		
+		{OBJ_EVENT_GFX_PROTA,     PLAYER_AVATAR_FLAG_ON_FOOT},
+		{OBJ_EVENT_GFX_BRENDAN_MACH_BIKE,  PLAYER_AVATAR_FLAG_MACH_BIKE},
+		{OBJ_EVENT_GFX_BRENDAN_ACRO_BIKE,  PLAYER_AVATAR_FLAG_ACRO_BIKE},
+		{OBJ_EVENT_GFX_SURFPROTA,    PLAYER_AVATAR_FLAG_SURFING},
+		{OBJ_EVENT_GFX_BRENDAN_UNDERWATER, PLAYER_AVATAR_FLAG_UNDERWATER},    
 	},
     [FEMALE] =
     {
@@ -660,7 +650,7 @@ static void PlayerNotOnBikeMoving(u8 direction, u16 heldKeys)
     }
 
     if (!(gPlayerAvatar.flags & PLAYER_AVATAR_FLAG_UNDERWATER) && (heldKeys & B_BUTTON) && FlagGet(FLAG_SYS_B_DASH)
-     && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0)
+     && IsRunningDisallowed(gObjectEvents[gPlayerAvatar.objectEventId].currentMetatileBehavior) == 0 && CanDisguiseRun())
     {
         PlayerRun(direction);
         gPlayerAvatar.flags |= PLAYER_AVATAR_FLAG_DASH;
@@ -1265,10 +1255,11 @@ u16 GetRSAvatarGraphicsIdByGender(u8 gender)
 
 u16 GetPlayerAvatarGraphicsIdByStateId(u8 state)
 {
-    if (gSaveBlock2Ptr->playerDisguise.enabled)
-        return gSaveBlock2Ptr->playerDisguise.npcId;
-    else
+    if (gSaveBlock2Ptr->playerDisguise.enabled){
+		return gSaveBlock2Ptr->playerDisguise.npcId;
+    }else{
         return GetPlayerAvatarGraphicsIdByStateIdAndGender(state, gPlayerAvatar.gender);
+	}
 }
 
 u8 unref_GetRivalAvatarGenderByGraphicsId(u16 gfxId)
@@ -1399,9 +1390,31 @@ void InitPlayerAvatar(s16 x, s16 y, u8 direction, u8 gender)
 
     playerObjEventTemplate.localId = OBJ_EVENT_ID_PLAYER;
     //playerObjEventTemplate.graphicsId = GetPlayerAvatarGraphicsIdByStateIdAndGender(PLAYER_AVATAR_STATE_NORMAL, gender);
-    if (gSaveBlock2Ptr->playerDisguise.enabled)
+    if (gSaveBlock2Ptr->playerDisguise.enabled){
         playerObjEventTemplate.graphicsId = gSaveBlock2Ptr->playerDisguise.npcId;
-    else
+		playerObjEventTemplate.x = x - MAP_OFFSET;
+		playerObjEventTemplate.y = y - MAP_OFFSET;
+		playerObjEventTemplate.elevation = 0;
+		playerObjEventTemplate.movementType = MOVEMENT_TYPE_PLAYER;
+		playerObjEventTemplate.movementRangeX = 0;
+		playerObjEventTemplate.movementRangeY = 0;
+		playerObjEventTemplate.trainerType = TRAINER_TYPE_NONE;
+		playerObjEventTemplate.trainerRange_berryTreeId = 0;
+		playerObjEventTemplate.script = NULL;
+		playerObjEventTemplate.flagId = 0;
+		objectEventId = SpawnSpecialObjectEvent(&playerObjEventTemplate);
+		objectEvent = &gObjectEvents[objectEventId];
+		objectEvent->isPlayer = TRUE;
+		objectEvent->warpArrowSpriteId = CreateWarpArrowSprite();
+		ObjectEventTurn(objectEvent, direction);
+		ClearPlayerAvatarInfo();
+		gPlayerAvatar.runningState = NOT_MOVING;
+		gPlayerAvatar.tileTransitionState = T_NOT_MOVING;
+		gPlayerAvatar.objectEventId = objectEventId;
+		gPlayerAvatar.spriteId = objectEvent->spriteId;
+		gPlayerAvatar.gender = gender;
+		SetPlayerAvatarStateMask(PLAYER_AVATAR_FLAG_CONTROLLABLE | PLAYER_AVATAR_FLAG_ON_FOOT);
+    }else{
         playerObjEventTemplate.graphicsId = GetPlayerAvatarGraphicsIdByStateIdAndGender(PLAYER_AVATAR_STATE_NORMAL, gender);
     playerObjEventTemplate.x = x - MAP_OFFSET;
     playerObjEventTemplate.y = y - MAP_OFFSET;
@@ -1425,6 +1438,7 @@ void InitPlayerAvatar(s16 x, s16 y, u8 direction, u8 gender)
     gPlayerAvatar.spriteId = objectEvent->spriteId;
     gPlayerAvatar.gender = gender;
     SetPlayerAvatarStateMask(PLAYER_AVATAR_FLAG_CONTROLLABLE | PLAYER_AVATAR_FLAG_ON_FOOT);
+	}
 }
 
 void SetPlayerInvisibility(bool8 invisible)
