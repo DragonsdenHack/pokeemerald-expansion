@@ -684,7 +684,7 @@ static void Task_MainMenuCheckSaveFile(u8 taskId)
         }
         sCurrItemAndOptionMenuCheck &= ~OPTION_MENU_FLAG;  // turn off the "returning from options menu" flag
         tCurrItem = sCurrItemAndOptionMenuCheck;
-        tItemCount = tMenuType + 2;
+        tItemCount = tMenuType + 3;
     }
 }
 
@@ -780,8 +780,8 @@ static void Task_DisplayMainMenu(u8 taskId)
             default:
                 FillWindowPixelBuffer(0, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(1, PIXEL_FILL(0xA));
-                AddTextPrinterParameterized3(0, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
-                AddTextPrinterParameterized3(1, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
+                AddTextPrinterParameterized3(0, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
+                AddTextPrinterParameterized3(1, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
                 PutWindowTilemap(0);
                 PutWindowTilemap(1);
                 CopyWindowToVram(0, COPYWIN_GFX);
@@ -793,29 +793,34 @@ static void Task_DisplayMainMenu(u8 taskId)
                 FillWindowPixelBuffer(2, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(3, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(4, PIXEL_FILL(0xA));
-                AddTextPrinterParameterized3(2, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuContinue);
-                AddTextPrinterParameterized3(3, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
-                AddTextPrinterParameterized3(4, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
+				FillWindowPixelBuffer(5, PIXEL_FILL(0xA));
+                AddTextPrinterParameterized3(2, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuContinue);
+                AddTextPrinterParameterized3(3, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
+                AddTextPrinterParameterized3(4, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
+				AddTextPrinterParameterized3(5, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuMysteryGift);
                 MainMenu_FormatSavegameText();
                 PutWindowTilemap(2);
                 PutWindowTilemap(3);
                 PutWindowTilemap(4);
+				PutWindowTilemap(5);
                 CopyWindowToVram(2, COPYWIN_GFX);
                 CopyWindowToVram(3, COPYWIN_GFX);
                 CopyWindowToVram(4, COPYWIN_GFX);
+				CopyWindowToVram(5, COPYWIN_GFX);
                 DrawMainMenuWindowBorder(&sWindowTemplates_MainMenu[2], MAIN_MENU_BORDER_TILE);
                 DrawMainMenuWindowBorder(&sWindowTemplates_MainMenu[3], MAIN_MENU_BORDER_TILE);
                 DrawMainMenuWindowBorder(&sWindowTemplates_MainMenu[4], MAIN_MENU_BORDER_TILE);
+				DrawMainMenuWindowBorder(&sWindowTemplates_MainMenu[5], MAIN_MENU_BORDER_TILE);
                 break;
             case HAS_MYSTERY_GIFT:
                 FillWindowPixelBuffer(2, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(3, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(4, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(5, PIXEL_FILL(0xA));
-                AddTextPrinterParameterized3(2, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuContinue);
-                AddTextPrinterParameterized3(3, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
-                AddTextPrinterParameterized3(4, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuMysteryGift);
-                AddTextPrinterParameterized3(5, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
+                AddTextPrinterParameterized3(2, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuContinue);
+                AddTextPrinterParameterized3(3, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
+                AddTextPrinterParameterized3(4, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuMysteryGift);
+                AddTextPrinterParameterized3(5, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
                 MainMenu_FormatSavegameText();
                 PutWindowTilemap(2);
                 PutWindowTilemap(3);
@@ -836,11 +841,11 @@ static void Task_DisplayMainMenu(u8 taskId)
                 FillWindowPixelBuffer(4, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(5, PIXEL_FILL(0xA));
                 FillWindowPixelBuffer(6, PIXEL_FILL(0xA));
-                AddTextPrinterParameterized3(2, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuContinue);
-                AddTextPrinterParameterized3(3, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
-                AddTextPrinterParameterized3(4, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuMysteryGift2);
-                AddTextPrinterParameterized3(5, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuMysteryEvents);
-                AddTextPrinterParameterized3(6, FONT_NORMAL, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
+                AddTextPrinterParameterized3(2, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuContinue);
+                AddTextPrinterParameterized3(3, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuNewGame);
+                AddTextPrinterParameterized3(4, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuMysteryGift2);
+                AddTextPrinterParameterized3(5, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuMysteryEvents);
+                AddTextPrinterParameterized3(6, FONT_SHORT, 0, 1, sTextColor_Headers, TEXT_SKIP_DRAW, gText_MainMenuOption);
                 MainMenu_FormatSavegameText();
                 PutWindowTilemap(2);
                 PutWindowTilemap(3);
@@ -976,6 +981,9 @@ static void Task_HandleMainMenuAPressed(u8 taskId)
                     case 2:
                         action = ACTION_OPTION;
                         break;
+					case 3:
+						action = ACTION_MYSTERY_GIFT;
+						break;
                 }
                 break;
             case HAS_MYSTERY_GIFT:
@@ -1196,6 +1204,9 @@ static void HighlightSelectedMainMenuItem(u8 menuType, u8 selectedMenuItem, s16 
                 case 2:
                     SetGpuReg(REG_OFFSET_WIN0V, MENU_WIN_VCOORDS(4));
                     break;
+				case 3:
+                    SetGpuReg(REG_OFFSET_WIN0V, MENU_WIN_VCOORDS(5));
+                    break;	
             }
             break;
         case HAS_MYSTERY_GIFT:
@@ -1259,6 +1270,29 @@ static void HighlightSelectedMainMenuItem(u8 menuType, u8 selectedMenuItem, s16 
 #define tBrendanSpriteId data[10]
 #define tMaySpriteId data[11]
 #define tGiovanniSpriteId data[12]
+
+static void Task_NewGameBirchSpeech_PreInit(u8 taskId)
+{
+	SetGpuReg(REG_OFFSET_DISPCNT, 0);
+    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
+    InitBgFromTemplate(&sBirchBgTemplate);
+    SetGpuReg(REG_OFFSET_WIN0H, 0);
+    SetGpuReg(REG_OFFSET_WIN0V, 0);
+    SetGpuReg(REG_OFFSET_WININ, 0);
+    SetGpuReg(REG_OFFSET_WINOUT, 0);
+    SetGpuReg(REG_OFFSET_BLDCNT, 0);
+    SetGpuReg(REG_OFFSET_BLDALPHA, 0);
+    SetGpuReg(REG_OFFSET_BLDY, 0);
+	InitWindows(gNewGameBirchSpeechTextWindows);
+            LoadMainMenuWindowFrameTiles(0, 0xF3);
+            LoadMessageBoxGfx(0, 0xFC, 0xF0);
+            NewGameBirchSpeech_ShowDialogueWindow(0, 1);
+            PutWindowTilemap(0);
+            CopyWindowToVram(0, COPYWIN_GFX);
+            NewGameBirchSpeech_ClearWindow(0);
+            StringExpandPlaceholders(gStringVar4, gText_Birch_Welcome);
+            AddTextPrinterForMessage(1);
+}
 
 static void Task_NewGameBirchSpeech_Init(u8 taskId)
 {
