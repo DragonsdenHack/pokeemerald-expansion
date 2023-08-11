@@ -12,6 +12,21 @@ Route49_MazeP3_Text3:
 .string "La frugalidad fortalece al espíritu en\n"
 .string "la búsqueda de la virtud.$"
 
+Route49_MazeP3_2::
+lock     
+faceplayer     
+msgbox Route49_MazeP3_Text2, MSGBOX_DEFAULT
+release     
+end
+
+Route49_MazeP3_Text2:
+.string "La PIEDRA DORADA reacciona ante\n"
+	.string "muchos de los clásicos POKÉMON de\l"
+	.string "JOHTO, y algunos otros: NOCTOWL,\l"
+	.string "URSARING, GIRAFARIG, STANTLER,\l"
+	.string "BISHARP, PRIMEAPE o DUNSPARCE son\l"
+	.string "algunos de ellos.$"
+
 
 
 Route49_MazeP3_4::
@@ -86,7 +101,9 @@ Route49MazeP3_EventScript_Sabio2::
 
 
 Route49MazeP3Documento_100::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_EN, 10, 3  
 playmoncry SPECIES_FLAREON, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP3Documento_Text_100, MSGBOX_DEFAULT
@@ -114,7 +131,9 @@ Route49MazeP3Documento_Text_100:
 
 
 Route49MazeP3Documento_101::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_SUI, 10, 3  
 playmoncry SPECIES_VAPOREON, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP3Documento_Text_101, MSGBOX_DEFAULT
@@ -142,7 +161,9 @@ Route49MazeP3Documento_Text_101:
 
 
 Route49MazeP3Documento_102::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_RAI, 10, 3  
 playmoncry SPECIES_RAIKOU, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP3Documento_Text_102, MSGBOX_DEFAULT

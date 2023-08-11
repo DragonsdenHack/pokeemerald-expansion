@@ -154,8 +154,8 @@
       "x": 41,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE52_MAZE",
-      "dest_warp_id": 0
+      "dest_map": "MAP_CHERRY_PKMN_CENTER",
+      "dest_warp_id": 1
     },
     {
       "x": 45,

@@ -32,7 +32,9 @@ Route49_MazeP4_Text4:
 
 
 Route49MazeP4Documento_100::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_SACRED_DRAGON, 10, 3  
 playmoncry SPECIES_XERNEAS, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP4Documento_Text_100, MSGBOX_DEFAULT
@@ -517,7 +519,9 @@ Route49MazeP4_EventScript_Sabio::
 	end
 
 Route49MazeP4Documento_101::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_DUNSPARCE_OLD, 10, 3  
 playmoncry SPECIES_DUNSPARCE, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP4Documento_Text_101, MSGBOX_DEFAULT
@@ -527,13 +531,13 @@ end
 
 Route49MazeP4Documento_Text_101:
 .string "DUN:\p"
-	.string "PS: 135\n"
-	.string "ATAQUE: 60\l"
+	.string "PS: 153\n"
+	.string "ATAQUE: 43\l"
 	.string "DEFENSA: 85\l"
 	.string "ATAQUE ESPECIAL: 115\l"
 	.string "DEFENSA ESPECIAL: 125\l"
 	.string "VELOCIDAD: 90\l"
-	.string "TOTAL: 610\p"
+	.string "TOTAL: 611\p"
 	.string "DRAGÓN/NORMAL\n"
 	.string "Evolución de DUDUNSPARCE que solo los\l"
 	.string "elegidos pueden alcanzar. Posee\l"

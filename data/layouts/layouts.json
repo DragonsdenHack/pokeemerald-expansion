@@ -9988,8 +9988,8 @@
     {
       "id": "LAYOUT_BILL_GARDEN",
       "name": "BillGarden_Layout",
-      "width": 18,
-      "height": 30,
+      "width": 50,
+      "height": 55,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",

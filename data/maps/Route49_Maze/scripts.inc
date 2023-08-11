@@ -79,7 +79,9 @@ Route49Maze_EventScript_Sabio::
 
 
 Route49MazeDocumento_100::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_AKUERIA, 10, 3  
 playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeDocumento_Text_100, MSGBOX_DEFAULT
@@ -110,7 +112,9 @@ Route49MazeDocumento_Text_100:
 
 
 Route49MazeDocumento_101::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando    
 showmonpic SPECIES_BOOHOO, 10, 3  
 playmoncry SPECIES_NOCTOWL, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeDocumento_Text_101, MSGBOX_DEFAULT

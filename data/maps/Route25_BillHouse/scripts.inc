@@ -337,7 +337,7 @@ waitmovement 0x0
 msgbox Route25_BillHouse_Warp_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Route25_BillHouse_Warp_No
-warp MAP_BILL_GARDEN, 7, 28
+warp MAP_BILL_GARDEN, 6, 47
 release
 end
 

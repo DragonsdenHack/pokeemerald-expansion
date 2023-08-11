@@ -1351,10 +1351,22 @@ RocketHideout7FDocumento_Text_128:
 	.string "enorme taladradora que funciona a\l"
 	.string "cada vez más revoluciones.$"
 
+RocketHideout7FDocumento_Esperando::
+lock
+msgbox RocketHideout7FDocumento_Esperando_Texto_1, MSGBOX_DEFAULT
+release
+end
+
+RocketHideout7FDocumento_Esperando_Texto_1:
+.string "Es un documento en blanco. Espera a ser\n"
+	.string "rellenado con valiosa información.$"
+
 
 
 RocketHideout7FDocumento_129::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 124
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_RAPIDASH_BOND, 10, 3  
 playmoncry SPECIES_RAPIDASH, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_129, MSGBOX_DEFAULT
@@ -1388,7 +1400,9 @@ RocketHideout7FDocumento_Text_129:
 
 
 RocketHideout7FDocumento_130::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 130
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_BUTTERFREE_BOND, 10, 3  
 playmoncry SPECIES_BUTTERFREE, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_130, MSGBOX_DEFAULT
@@ -1424,7 +1438,9 @@ RocketHideout7FDocumento_Text_130:
 
 
 RocketHideout7FDocumento_131::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 137
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_KINGDRA_BOND, 10, 3  
 playmoncry SPECIES_KINGDRA, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_131, MSGBOX_DEFAULT
@@ -1455,7 +1471,9 @@ RocketHideout7FDocumento_Text_131:
 
 
 RocketHideout7FDocumento_132::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 143
+goto_if_lt RocketHideout7FDocumento_Esperando    
 showmonpic SPECIES_SKARMORY_BOND, 10, 3  
 playmoncry SPECIES_SKARMORY, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_132, MSGBOX_DEFAULT
@@ -1489,7 +1507,9 @@ RocketHideout7FDocumento_Text_132:
 
 
 RocketHideout7FDocumento_133::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 150
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_POLIWRATH_BOND, 10, 3  
 playmoncry SPECIES_POLIWRATH, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_133, MSGBOX_DEFAULT
@@ -1499,32 +1519,34 @@ end
 
 RocketHideout7FDocumento_Text_133:
 	.string "POLIWRATH-&:\p"
-	.string "PS: 90\n"
+	.string "PS: 100\n"
 	.string "ATAQUE: 145\l"
 	.string "DEFENSA: 125\l"
-	.string "ATAQUE ESPECIAL: 70\l"
+	.string "ATAQUE ESPECIAL: 60\l"
 	.string "DEFENSA ESPECIAL: 110\l"
 	.string "VELOCIDAD: 80\l"
 	.string "TOTAL: 620\p"
 	.string "AGUA/LUCHA\n"
 	.string "Solo la férrea disciplina de\l"
 	.string "ANÍBAL a lo largo de 4 décadas ha\l"
-	.string "podido forjar tal POKÉMON,\l"
-	.string "reuniendo las mejores cualidades\l"
+	.string "podido forjar tal POKÉMON.\l"
+	.string "Reúne las mejores cualidades\l"
 	.string "de entre los TIPO LUCHA con un\l"
 	.string "ATAQUE mayor que el de CONKELDURR,\l"
 	.string "una DEFENSA similar al\l"
 	.string "PSEUDOLEGENDARIO KOMMO-O, la\l"
 	.string "DEFENSA ESPECIAL de GALLADE y un\l"
 	.string "PUÑO FÉRREO por habilidad que le\l"
-	.string "volverá devastador, no pudo\l"
+	.string "volverá devastador. No pudo\l"
 	.string "recuperar del todo su VELOCIDAD\l"
 	.string "inicial como POLIWAG.$"
 
 
 
 RocketHideout7FDocumento_134::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 157
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_ELECTIVIRE_X, 10, 3  
 playmoncry SPECIES_ELECTIVIRE, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_134, MSGBOX_DEFAULT
@@ -1562,7 +1584,9 @@ RocketHideout7FDocumento_Text_134:
 
 
 RocketHideout7FDocumento_135::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 157
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_ELECTRODE_Y, 10, 3  
 playmoncry SPECIES_ELECTRODE, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_135, MSGBOX_DEFAULT
@@ -1586,16 +1610,18 @@ RocketHideout7FDocumento_Text_135:
 	.string "adecuadas, y así lograr una\l"
 	.string "VELOCIDAD insuperable que se\l"
 	.string "retroalimenta por levitación\l"
-	.string "magnética, de igual forma que un\l"
-	.string "tren bala, volviéndolo también\l"
-	.string "inmune al TIPO TIERRA, y dotándole\l"
-	.string "de unas descargas eléctricas\l"
-	.string "superiores a las de MAGNEZONE.$"
+	.string "magnética, similar a la tecnología\l"
+	.string "del MAGNETOTRÉN. Con LEVITACIÓN será\l"
+	.string "inmune al TIPO TIERRA, dotándole este\l"
+	.string "magnetismo de una carga eléctrica\l"
+	.string "superior a la de MAGNEZONE.$"
 
 
 
 RocketHideout7FDocumento_136::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 157
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_CROBAT_BOND, 10, 3  
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_136, MSGBOX_DEFAULT
@@ -1606,15 +1632,15 @@ end
 RocketHideout7FDocumento_Text_136:
 .string "CROBAT-&:\p"
 	.string "PS: 95\n"
-	.string "ATAQUE: 125\l"
+	.string "ATAQUE: 120\l"
 	.string "DEFENSA: 95\l"
-	.string "ATAQUE ESPECIAL: 90\l"
+	.string "ATAQUE ESPECIAL: 80\l"
 	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 150\l"
-	.string "TOTAL: 650\p"
+	.string "VELOCIDAD: 160\l"
+	.string "TOTAL: 645\p"
 	.string "VENENO/VOLADOR\n"
-	.string "Los POKÉMON insignia de los\l"
-	.string "ADMIN.JEFE ANDRA y {PLAYER}, que\l"
+	.string "El POKÉMON insignia del\l"
+	.string "ADMIN.JEFE {PLAYER}, que\l"
 	.string "demuestran lo lejos que un ROCKET\l"
 	.string "común puede llegar, con 650 de\l"
 	.string "BASE está más cerca de un\l"
@@ -1627,7 +1653,9 @@ RocketHideout7FDocumento_Text_136:
 
 
 RocketHideout7FDocumento_137::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 176
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_KABUTOPS_SKEL, 10, 3  
 playmoncry SPECIES_KABUTOPS, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_137, MSGBOX_DEFAULT
@@ -1657,7 +1685,9 @@ RocketHideout7FDocumento_Text_137:
 
 
 RocketHideout7FDocumento_138::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 174
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_DRAGONITE_BOND, 10, 3  
 playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_138, MSGBOX_DEFAULT
@@ -1681,17 +1711,19 @@ RocketHideout7FDocumento_Text_138:
 	.string "cambio ganó el TIPO HADA,\l"
 	.string "volviéndose inmune a su propio\l"
 	.string "TIPO DRAGÓN, y una combinación\l"
-	.string "ATAQUE/DEFENSA ESPECIAL única,\l"
-	.string "pudiendo golpear con movimientos\l"
+	.string "ATAQUE/DEFENSA ESPECIAL única.\l"
+	.string "Capaz de golpear con movimientos\l"
 	.string "como TRUENO, LLAMARADA o VENTISCA\l"
 	.string "sin fallar gracias a su habilidad,\l"
-	.string "un dragón total que domina todos\l"
-	.string "los elementos de la naturaleza.$"
+	.string "un dragón total que domina los\l"
+	.string "elementos de la naturaleza.$"
 
 
 
 RocketHideout7FDocumento_139::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 174
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_MOLTRES_PRIMAL, 10, 3  
 playmoncry SPECIES_MOLTRES, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_139, MSGBOX_DEFAULT
@@ -1715,13 +1747,15 @@ RocketHideout7FDocumento_Text_139:
 	.string "perteneciente al TIPO DRAGÓN, su\l"
 	.string "capacidad ofensiva está a la\l"
 	.string "altura de la defensiva de ARTICUNO\l"
-	.string "PRIMIGENIO, nivel de LEGENDARIO\l"
+	.string "PRIMIGENIO. Nivel de LEGENDARIO\l"
 	.string "MAYOR en toda regla.$"
 
 
 
 RocketHideout7FDocumento_140::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 171
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_DARKRAI_PRIMAL, 10, 3  
 playmoncry SPECIES_DARKRAI, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_140, MSGBOX_DEFAULT
@@ -1757,7 +1791,9 @@ RocketHideout7FDocumento_Text_140:
 
 
 RocketHideout7FDocumento_141::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 171
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_DELPHOX_BOND, 10, 3  
 playmoncry SPECIES_DELPHOX, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_141, MSGBOX_DEFAULT
@@ -1788,7 +1824,9 @@ RocketHideout7FDocumento_Text_141:
 
 
 RocketHideout7FDocumento_142::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 166
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_VOLCARONA_BOND, 10, 3  
 playmoncry SPECIES_VOLCARONA, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_142, MSGBOX_DEFAULT
@@ -1811,7 +1849,7 @@ RocketHideout7FDocumento_Text_142:
 	.string "roto todos los esquemas superando\l"
 	.string "el que pensábamos límite\l"
 	.string "alcanzable en ATAQUE ESPECIAL por\l"
-	.string "DEOXYS (180), no nos equivocamos\l"
+	.string "DEOXYS (180). No nos equivocamos\l"
 	.string "al decir que este POKÉMON tiene el\l"
 	.string "poder del sol con 190 en ATAQUE\l"
 	.string "ESPECIAL, su infernal DANZA LLAMA\l"
@@ -1825,24 +1863,26 @@ RocketHideout7FDocumento_Text_142:
 
 
 RocketHideout7FDocumento_143::
-lock     
-showmonpic SPECIES_LAPRAS_BOND, 10, 3  
-playmoncry SPECIES_LAPRAS, CRY_MODE_ENCOUNTER 
+lock
+compare VAR_UNUSED_0x40F7, 165
+goto_if_lt RocketHideout7FDocumento_Esperando
+showmonpic SPECIES_MAMOSWINE_BOND, 10, 3  
+playmoncry SPECIES_MAMOSWINE, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_143, MSGBOX_DEFAULT
 hidemonpic
 release     
 end
 
 RocketHideout7FDocumento_Text_143:
-	.string "LAPRAS-&:\p"
-	.string "PS: 150\n"
-	.string "ATAQUE: 85\l"
+	.string "MAMOSWINE-&:\p"
+	.string "PS: 120\n"
+	.string "ATAQUE: 170\l"
 	.string "DEFENSA: 105\l"
-	.string "ATAQUE ESPECIAL: 115\l"
-	.string "DEFENSA ESPECIAL: 115\l"
-	.string "VELOCIDAD: 90\l"
-	.string "TOTAL: 660\p"
-	.string "HIELO/PSÍQUICO\n"
+	.string "ATAQUE ESPECIAL: 60\l"
+	.string "DEFENSA ESPECIAL: 85\l"
+	.string "VELOCIDAD: 100\l"
+	.string "TOTAL: 640\p"
+	.string "HIELO/TIERRA\n"
 	.string "FREDO logró llevar la resistencia\l"
 	.string "de LAPRAS al extremo, y no solo\l"
 	.string "eso, gracias a ganar el TIPO\l"
@@ -1854,7 +1894,9 @@ RocketHideout7FDocumento_Text_143:
 
 
 RocketHideout7FDocumento_144::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 165
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_ARTICUNO_PRIMAL, 10, 3  
 playmoncry SPECIES_ARTICUNO, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_144, MSGBOX_DEFAULT
@@ -1886,7 +1928,9 @@ RocketHideout7FDocumento_Text_144:
 
 
 RocketHideout7FDocumento_145::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 160
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_EEVEE_BOND, 10, 3  
 playmoncry SPECIES_EEVEE, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_145, MSGBOX_DEFAULT
@@ -1921,7 +1965,9 @@ RocketHideout7FDocumento_Text_145:
 
 
 RocketHideout7FDocumento_146::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 176
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_AERODACTYL_SKEL, 10, 3  
 playmoncry SPECIES_AERODACTYL, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_146, MSGBOX_DEFAULT
@@ -1952,7 +1998,9 @@ RocketHideout7FDocumento_Text_146:
 
 
 RocketHideout7FDocumento_147::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 176
+goto_if_lt RocketHideout7FDocumento_Esperando 
 showmonpic SPECIES_MAROGHOST, 10, 3  
 playmoncry SPECIES_MAROWAK, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_147, MSGBOX_DEFAULT
@@ -1973,14 +2021,16 @@ RocketHideout7FDocumento_Text_147:
 	.string "Espíritu de un MAROWAK que no\l"
 	.string "puede cruzar al más allá hasta\l"
 	.string "arreglar el agravio cometido en\l"
-	.string "vida, entretanto, su poder es\l"
+	.string "vida. Entretanto, su poder es\l"
 	.string "empleado para guardar los rincones\l"
 	.string "más ocultos de RUINAS ALFA.$"
 
 
 
 RocketHideout7FDocumento_148::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 176
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_GHOST, 10, 3  
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_148, MSGBOX_DEFAULT
@@ -2012,7 +2062,9 @@ RocketHideout7FDocumento_Text_148:
 
 
 RocketHideout7FDocumento_149::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_UNOWN_GOLD, 10, 3  
 playmoncry SPECIES_UNOWN, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_149, MSGBOX_DEFAULT
@@ -2046,7 +2098,9 @@ RocketHideout7FDocumento_Text_149:
 
 
 RocketHideout7FDocumento_150::
-lock     
+lock
+compare VAR_SECRET_BASE_LOW_TV_FLAGS, 7
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_KYUREM_PRIMAL, 10, 3  
 playmoncry SPECIES_KYUREM_BLACK, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_150, MSGBOX_DEFAULT
@@ -2081,7 +2135,9 @@ RocketHideout7FDocumento_Text_150:
 
 
 RocketHideout7FDocumento_151::
-lock     
+lock
+compare VAR_SECRET_BASE_LOW_TV_FLAGS, 3
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_HO_OH_PRIMAL, 10, 3  
 playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_151, MSGBOX_DEFAULT
@@ -2116,7 +2172,9 @@ RocketHideout7FDocumento_Text_151:
 
 
 RocketHideout7FDocumento_152::
-lock     
+lock
+compare VAR_SECRET_BASE_LOW_TV_FLAGS, 4
+goto_if_lt RocketHideout7FDocumento_Esperando 
 showmonpic SPECIES_LUGIA_PRIMAL, 10, 3  
 playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_152, MSGBOX_DEFAULT
@@ -2154,7 +2212,9 @@ RocketHideout7FDocumento_Text_152:
 
 
 RocketHideout7FDocumento_153::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_UNOWN_KING, 10, 3  
 playmoncry SPECIES_UNOWN, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_153, MSGBOX_DEFAULT
@@ -2186,7 +2246,9 @@ RocketHideout7FDocumento_Text_153:
 
 
 RocketHideout7FDocumento_154::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando 
 showmonpic SPECIES_ARCEUS_PRIMAL, 10, 3  
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_154, MSGBOX_DEFAULT
@@ -2224,7 +2286,9 @@ RocketHideout7FDocumento_Text_154:
 
 
 RocketHideout7FDocumento_155::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_ORIGINAL_DRAGON, 10, 3  
 playmoncry SPECIES_KYUREM_WHITE, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_155, MSGBOX_DEFAULT
@@ -2244,12 +2308,12 @@ RocketHideout7FDocumento_Text_155:
 	.string "DRAGÓN\n"
 	.string "Uno de los 3 GRANDES CREADORES, ya\l"
 	.string "existía antes incluso del\l"
-	.string "nacimiento de nuestro universo, su\l"
+	.string "nacimiento de nuestro universo. Su\l"
 	.string "poder de destrucción es\l"
 	.string "incomparable, llevándole a un\l"
 	.string "total de 905 STATS BASE, el de\l"
 	.string "mayor poder global de entre los 3\l"
-	.string "CREADORES, todo en ÉL es superior\l"
+	.string "CREADORES. Todo en ÉL es superior\l"
 	.string "a MEGA-RAYQUAZA, hecho que\l"
 	.string "refuerza su posición como ancestro\l"
 	.string "de todos los dragones.$"
@@ -2257,7 +2321,9 @@ RocketHideout7FDocumento_Text_155:
 
 
 RocketHideout7FDocumento_156::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_MISSINGNO, 10, 3  
 playmoncry SPECIES_MISSINGNO, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_156, MSGBOX_DEFAULT

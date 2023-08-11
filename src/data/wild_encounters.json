@@ -21457,28 +21457,28 @@
             "mons": [
               {
                 "min_level": 5,
-                "max_level": 5,
+                "max_level": 10,
                 "species": "SPECIES_HORSEA"
               },
               {
                 "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_GOLDEEN"
+                "max_level": 10,
+                "species": "SPECIES_SLOWPOKE"
               },
               {
                 "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_MANTYKE"
+                "max_level": 10,
+                "species": "SPECIES_OMANYTE"
               },
               {
                 "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_MAGIKARP"
+                "max_level": 10,
+                "species": "SPECIES_KABUTO"
               },
               {
                 "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_MAGIKARP"
+                "max_level": 10,
+                "species": "SPECIES_DRATINI"
               }
             ]
           }

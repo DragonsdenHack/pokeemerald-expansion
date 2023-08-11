@@ -76,8 +76,10 @@ Route49MazeP1_EventScript_Sabio2::
 
 
 Route49MazeP1Documento_100::
-lock     
-showmonpic SPECIES_AKUERIA, 10, 3  
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando
+showmonpic SPECIES_IKARY, 10, 3  
 playmoncry SPECIES_BARRASKEWDA, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP1Documento_Text_100, MSGBOX_DEFAULT
 hidemonpic
@@ -85,7 +87,7 @@ release
 end
 
 Route49MazeP1Documento_Text_100:
-.string "AKUERIA:\p"
+.string "IKARY:\p"
 	.string "PS: 65\n"
 	.string "ATAQUE: 125\l"
 	.string "DEFENSA: 95\l"
@@ -106,7 +108,9 @@ Route49MazeP1Documento_Text_100:
 
 
 Route49MazeP1Documento_101::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_PURAKKUSU, 10, 3  
 playmoncry SPECIES_PINSIR, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP1Documento_Text_101, MSGBOX_DEFAULT

@@ -213,7 +213,7 @@ BaseRocketHoenn_Text_17:
 .string "MUNDO POKÉMON debieron concederle la\l"
 .string "jerarquía de un PSEUDOLEGENDARIO, ¿o\l"
 .string "crees que eso no lo deciden los dioses,\l"
-.string "si no la voluntad de los mortales?$"
+.string "sino la voluntad de los mortales?$"
 
 
 

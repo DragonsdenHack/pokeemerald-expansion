@@ -519,10 +519,10 @@ BaseRocketHoennS3Documento_Text_116:
 	.string "VELOCIDAD: 140\l"
 	.string "TOTAL: 780\p"
 	.string "Logró superar el tope en AT.ESPECIAL de\n"
-	.string "DEOXYS (180), gracias al descubrimiento\l"
+	.string "DEOXYS (180); gracias al descubrimiento\l"
 	.string "del VOLCARONA-&, que amplificó\l"
 	.string "nuestros conocimientos sobre este\l"
-	.string "STAT, permitiendo dejar el límite en\l"
+	.string "STAT, y permitiendo dejar el límite en\l"
 	.string "194. A pesar de intentar reducir su\l"
 	.string "ATAQUE FÍSICO para un reparto más\l"
 	.string "eficiente, fue imposible controlar sus\l"
@@ -573,7 +573,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_118:
-    .string "NINETALES FUERTE VÍNCULO\p"
+    .string "NINETALES-&\p"
 	.string "PS: 83\n"
 	.string "ATAQUE: 57\l"
 	.string "DEFENSA: 75\l"
@@ -625,7 +625,9 @@ BaseRocketHoennS3Documento_Text_119:
 
 
 BaseRocketHoennS3Documento_120::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 203
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_FERALIGATR_BOND, 10, 3  
 playmoncry SPECIES_FERALIGATR, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_120, MSGBOX_DEFAULT
@@ -651,3 +653,115 @@ BaseRocketHoennS3Documento_Text_120:
 	.string "VIDASFERA excede en capacidad\l"
 	.string "destructiva a los TRITURAR de\l"
 	.string "GYARADOS-MEGA y SHARPEDO-MEGA.$"
+
+BaseRocketHoennS3Documento_121::
+lock
+compare VAR_UNUSED_0x40F7, 215
+goto_if_lt RocketHideout7FDocumento_Esperando
+showmonpic SPECIES_CRADILY_Y, 10, 3  
+playmoncry SPECIES_CRADILY, CRY_MODE_ENCOUNTER 
+msgbox BaseRocketHoennS3Documento_Text_121, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+BaseRocketHoennS3Documento_Text_121:
+    .string "CRADILY-Y\p"
+	.string "PS: 86\n"
+	.string "ATAQUE: 41\l"
+	.string "DEFENSA: 137\l"
+	.string "ATAQUE ESPECIAL: 111\l"
+	.string "DEFENSA ESPECIAL: 167\l"
+	.string "VELOCIDAD: 53\l"
+	.string "TOTAL: 595\p"
+	.string "PLANTA/ROCA\n"
+	.string "La reducción de 40 puntos en ATAQUE\l"
+	.string "permitió invertir 140 en sus otros 5\l"
+	.string "STATS, desarrolló una monstruosa\l"
+	.string "DEF.ESPECIAL (167). Superando a LUGIA\l"
+	.string "en ambas defensas, también supera a\l"
+	.string "HO-OH en ATAQUE ESPECIAL, causando\l"
+	.string "buen daño con GIGADRENADO. Si logra\l"
+	.string "boostearse con PODER PASADO, será\l"
+	.string "prácticamente imposible tumbarle.$"
+
+BaseRocketHoennS3Documento_122::
+lock
+compare VAR_UNUSED_0x40F7, 206
+goto_if_lt RocketHideout7FDocumento_Esperando  
+showmonpic SPECIES_SUICUNE_BOND, 10, 3  
+playmoncry SPECIES_SUICUNE, CRY_MODE_ENCOUNTER 
+msgbox BaseRocketHoennS3Documento_Text_122, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+BaseRocketHoennS3Documento_Text_122:
+    .string "SUICUNE-&\p"
+	.string "PS: 110\n"
+	.string "ATAQUE: 75\l"
+	.string "DEFENSA: 145\l"
+	.string "ATAQUE ESPECIAL: 110\l"
+	.string "DEFENSA ESPECIAL: 155\l"
+	.string "VELOCIDAD: 95\l"
+	.string "TOTAL: 645\p"
+	.string "AGUA/HADA\n"
+	.string "Llevamos a tal nivel su exposición a la\l"
+	.string "radiación y ondas de radio, que acabó\l"
+	.string "chocando con su antagónico: la máxima\l"
+	.string "pureza. Con el TIPO HADA como\l"
+	.string "secundario, logramos el tan buscado\l"
+	.string "combo de PIEL FEÉRICA + ESTRUENDO,\l"
+	.string "golpeando así, con 110 en ATAQUE\l"
+	.string "ESPECIAL, más duro que varios con 150\l"
+	.string "en este stat. Si tenemos también en\l"
+	.string "cuenta sus extraordinarias defensas,\l"
+	.string "es una de las mejores máquinas de\l"
+	.string "combate jamás creadas.$"
+
+BaseRocketHoennS3Documento_123::
+lock
+compare VAR_UNUSED_0x40F7, 206
+goto_if_lt RocketHideout7FDocumento_Esperando  
+showmonpic SPECIES_GHOST_PRIMAL, 10, 3  
+playmoncry SPECIES_GHOST, CRY_MODE_ENCOUNTER 
+msgbox BaseRocketHoennS3Documento_Text_123, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+BaseRocketHoennS3Documento_Text_123:
+.string "GHOST-P\p"
+	.string "PS: 90\n"
+	.string "ATAQUE: 80\l"
+	.string "DEFENSA: 80\l"
+	.string "ATAQUE ESPECIAL: 205\l"
+	.string "DEFENSA ESPECIAL: 150\l"
+	.string "VELOCIDAD: 135\l"
+	.string "TOTAL: 740\p"
+	.string "NORMAL/FANTASMA\n"
+	.string "combate jamás creadas.$"
+
+BaseRocketHoennS3Documento_124::
+lock
+compare VAR_ROUTE105_STATE, 13
+goto_if_lt RocketHideout7FDocumento_Esperando  
+showmonpic SPECIES_TOXTRICITY, 10, 3  
+playmoncry SPECIES_TOXTRICITY, CRY_MODE_ENCOUNTER 
+msgbox BaseRocketHoennS3Documento_Text_124, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+BaseRocketHoennS3Documento_Text_124:
+.string "TOXTRICITY-MEGA\p"
+	.string "PS: 75\n"
+	.string "ATAQUE: 78\l"
+	.string "DEFENSA: 85\l"
+	.string "ATAQUE ESPECIAL: 154\l"
+	.string "DEFENSA ESPECIAL: 95\l"
+	.string "VELOCIDAD: 115\l"
+	.string "TOTAL: 602\p"
+	.string "ELÉCTRICO/VENENO\n"
+	.string "combate jamás creadas.$"
+

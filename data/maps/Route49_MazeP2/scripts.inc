@@ -77,7 +77,9 @@ Route49MazeP2_EventScript_Sabio2::
 
 
 Route49MazeP2Documento_100::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_TAABAN, 10, 3  
 playmoncry SPECIES_SLOWKING, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP2Documento_Text_100, MSGBOX_DEFAULT
@@ -106,7 +108,9 @@ Route49MazeP2Documento_Text_100:
 
 
 Route49MazeP2Documento_101::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando
 showmonpic SPECIES_BOMUSHIKAA, 10, 3  
 playmoncry SPECIES_SEALEO, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP2Documento_Text_101, MSGBOX_DEFAULT
@@ -134,7 +138,9 @@ Route49MazeP2Documento_Text_101:
 
 
 Route49MazeP2Documento_102::
-lock     
+lock
+compare VAR_VERDANTURF_TOWN_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando 
 showmonpic SPECIES_MADAAMU, 10, 3  
 playmoncry SPECIES_SIRFETCHD, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP2Documento_Text_102, MSGBOX_DEFAULT

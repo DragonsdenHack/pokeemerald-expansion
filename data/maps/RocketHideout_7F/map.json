@@ -80,7 +80,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO",
       "x": 28,
       "y": 29,
       "elevation": 3,
@@ -334,6 +334,13 @@
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_5F",
       "dest_warp_id": 3
+    },
+    {
+      "x": 3,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_BASE_ROCKET_HOENN_S3",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

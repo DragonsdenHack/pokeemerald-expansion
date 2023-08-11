@@ -51,7 +51,9 @@ LavenderRadioP6_EventScript_Cientifico::
 
 
 LavenderRadioP6Documento_100::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 212
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_PORYGONZ_X, 10, 3  
 playmoncry SPECIES_PORYGON, CRY_MODE_ENCOUNTER 
 msgbox LavenderRadioP6Documento_Text_100, MSGBOX_DEFAULT
@@ -82,7 +84,9 @@ LavenderRadioP6Documento_Text_100:
 
 
 LavenderRadioP6Documento_101::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 212
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_PORYGONZ_Y, 10, 3  
 playmoncry SPECIES_PORYGON2, CRY_MODE_ENCOUNTER 
 msgbox LavenderRadioP6Documento_Text_101, MSGBOX_DEFAULT
@@ -118,7 +122,9 @@ LavenderRadioP6Documento_Text_101:
 
 
 LavenderRadioP6Documento_102::
-lock     
+lock
+compare VAR_UNUSED_0x40F7, 212
+goto_if_lt RocketHideout7FDocumento_Esperando 
 showmonpic SPECIES_PORYGONZ_Y, 10, 3  
 playmoncry SPECIES_PORYGON_Z, CRY_MODE_ENCOUNTER 
 msgbox LavenderRadioP6Documento_Text_102, MSGBOX_DEFAULT

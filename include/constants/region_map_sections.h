@@ -197,7 +197,7 @@
 #define MAPSEC_RIXY_CHAMBER                 0xC1 //LAGO FURIA
 #define MAPSEC_VIAPOIS_CHAMBER              0xC2
 #define MAPSEC_EMBER_SPA                    0xC3
-#define MAPSEC_SPECIAL_AREA                 0xC4
+#define MAPSEC_SPECIAL_AREA                 0xC4 // RUTA 50
 #define MAPSEC_AQUA_HIDEOUT                 0xC5
 #define MAPSEC_MAGMA_HIDEOUT                0xC6
 #define MAPSEC_MIRAGE_TOWER                 0xC7
@@ -213,7 +213,7 @@
 #define MAPSEC_DESERT_UNDERPASS             0xD1
 #define MAPSEC_ALTERING_CAVE                0xD2 //SEVI67
 #define MAPSEC_NAVEL_ROCK                   0xD3
-#define MAPSEC_TRAINER_HILL                 0xD4
+#define MAPSEC_TRAINER_HILL                 0xD4 // RUTA 53
 #define MAPSEC_RUINAS_ALFA                  0xD5
 #define MAPSEC_BELLSPROUT_TOWER             0xD6
 #define MAPSEC_ILEX_FOREST					0xD7
