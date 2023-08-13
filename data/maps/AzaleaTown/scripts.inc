@@ -540,11 +540,8 @@ release
 end
 
 AzaleaTownDocumento_Text_133:
-.string "...\n"
-	.string "...\l"
-	.string "(Parece que está durmiendo, se le\l"
-	.string "ve feliz de estar en este\l"
-	.string "paraíso)$"
+.string "(Este SNORLAX parece llevar mucho\n"
+	.string "tiempo sin moverse de aquí...)$"
 
 AzaleaTown_Encuentro_Mirto::
 lock
@@ -652,3 +649,100 @@ walk_left
 walk_left
 walk_left
 step_end
+
+
+AzaleaTownDocumento_Kabuto::
+lock    
+playmoncry SPECIES_KABUTO, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox AzaleaTownDocumento_Text_Kabuto, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_Kabuto:
+.string "(El POKÉMON parece estar cavando un\n"
+	.string "túnel para escapar)$"
+
+AzaleaTownDocumento_Omanyte::
+lock    
+playmoncry SPECIES_OMANYTE, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox AzaleaTownDocumento_Text_Omanyte, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_Omanyte:
+.string "(Este POKÉMON está extinto en la\n"
+	.string "actualidad. No parece estar en su\l"
+	.string "hábitat natural)$"
+
+AzaleaTownDocumento_Machoke::
+lock
+faceplayer   
+playmoncry SPECIES_MACHOKE, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox AzaleaTownDocumento_Text_Machoke, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_Machoke:
+.string "(A este MACHOKE le encanta jugar con\n"
+	.string "esas rocas)$"
+
+AzaleaTownDocumento_Lapras::
+lock
+faceplayer   
+playmoncry SPECIES_LAPRAS, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox AzaleaTownDocumento_Text_Lapras, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_Lapras:
+.string "(Este LAPRAS no se mueve con mucha\n"
+	.string "soltura. Puede que este lugar se le\l"
+	.string "quede pequeño)$"
+
+AzaleaTownDocumento_Pidgeot::
+lock
+faceplayer   
+playmoncry SPECIES_PIDGEOT, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox AzaleaTownDocumento_Text_Pidgeot, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_Pidgeot:
+.string "(Es un PIDGEOT. Se ve sano, atlético,\n"
+	.string "fuerte y de apariencia triunfadora)$"
+
+AzaleaTownDocumento_Chansey::
+lock
+faceplayer   
+playmoncry SPECIES_CHANSEY, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox AzaleaTownDocumento_Text_Chansey, MSGBOX_NPC
+msgbox AzaleaTownDocumento_Text_Chansey_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Chansey_3No
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+release     
+end
+
+AzaleaTownDocumento_Text_Chansey:
+.string "(Este CHANSEY parece querer curar a\n"
+	.string "tus POKÉMON)$"
+
+AzaleaTownDocumento_Text_Chansey_YesNo:
+.string "¿Dejas al CHANSEY curar a tu equipo?$"
+
+Chansey_3No::
+release
+end
+
+
+

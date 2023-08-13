@@ -765,3 +765,69 @@ BaseRocketHoennS3Documento_Text_124:
 	.string "ELÉCTRICO/VENENO\n"
 	.string "combate jamás creadas.$"
 
+BaseRocketHoennS3_Primer_Ejecutivo::
+lock
+faceplayer
+msgbox BaseRocketHoennS3_Primer_Ejecutivo_Texto_1 MSGBOX_NPC
+release
+end
+
+BaseRocketHoennS3_Primer_Ejecutivo_Texto_1:
+.string "Discúlpeme SIR. El piso inferior está\n"
+	.string "aún en obras, en él introduciremos los\l"
+	.string "datos de todos los nuevos POKÉMON que\l"
+	.string "no quepan aquí. El mundo es muy amplio,\l"
+	.string "seguro que con esta sala no es\l"
+	.string "suficiente. ¿No cree?$"
+
+BaseRocketHoennS3_Informe_Megas::
+lock
+msgbox BaseRocketHoennS3_Informe_Megas_Texto_1 MSGBOX_SIGN
+release
+end
+
+BaseRocketHoennS3_Informe_Megas_Texto_1:
+.string "MEGAEVOLUCIONES DESCUBIERTAS\n"
+	.string "RECIENTEMENTE$"
+
+BaseRocketHoennS3_Informe_Vinculo::
+lock
+msgbox BaseRocketHoennS3_Informe_Vinculo_Texto_1 MSGBOX_SIGN
+release
+end
+
+BaseRocketHoennS3_Informe_Vinculo_Texto_1:
+.string "NUEVOS FUERTE VÍNCULO Y PRIMIGENIOS$"
+
+BaseRocketHoennS3_Informe_Antiguos::
+lock
+msgbox BaseRocketHoennS3_Informe_Antiguos_Texto_1 MSGBOX_SIGN
+release
+end
+
+BaseRocketHoennS3_Informe_Antiguos_Texto_1:
+.string "ANTIGUOS POKÉMON DE JOHTO$"
+
+BaseRocketHoennS3_Informe_Experimentos::
+lock
+msgbox BaseRocketHoennS3_Informe_Experimentos_Texto_1 MSGBOX_SIGN
+release
+end
+
+BaseRocketHoennS3_Informe_Experimentos_Texto_1:
+.string "NUEVOS EXPERIMENTOS Y PROTOTIPOS$"
+
+BaseRocketHoennS3_Primer_Cientifico::
+lock
+faceplayer
+msgbox BaseRocketHoennS3_Primer_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+BaseRocketHoennS3_Primer_Cientifico_Texto_1:
+.string "La variedad en los STATS de los\n"
+	.string "antiiguos POKÉMON de JOHTO es\l"
+	.string "fascinante. Hoy en día son mucho más\l"
+	.string "regulares y predecibles, quizás por\l"
+	.string "carecer de las salvajes condiciones de\l"
+	.string "antaño.$"
