@@ -626,6 +626,22 @@ gSongTable::
 	song mus_gsc_vs_trainer 0,0
 	song mus_end_of_time 0, 0
 	song mus_rg_vs_legend2 0, 0
+	song mus_dragonspiral_tower 0,0
+	song mus_sinjoh_ruins 0,0
+	song mus_vs_devon_boss 0,0
+	song mus_galactic_victory 0,0
+	song mus_vs_galactic_grunt 0,0
+	song mus_hgss_route47 0,0
+	song mus_vs_hooh 0,0
+	song mus_hooh_encounter 0,0
+	song mus_hooh_summoning 0,0
+	song mus_vs_eusine 0,0
+	song mus_vs_colress 0,0
+	song mus_ns_castle 0,0
+	song mus_vs_kyurem_fusion 0,0
+	song mus_victory_plasma 0,0
+	song mus_ns_castle_bridge 0,0
+	song mus_vs_mirto 0,0
 	song ph_trap_blend, 2, 2
 	song ph_trap_held, 2, 2
 	song ph_trap_solo, 2, 2
