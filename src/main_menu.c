@@ -189,6 +189,9 @@ static void Task_HandleMainMenuInput(u8);
 static void Task_HandleMainMenuAPressed(u8);
 static void Task_HandleMainMenuBPressed(u8);
 static void Task_NewGameBirchSpeech_Init(u8);
+static void Task_NewGameBirchSpeech_PreInit(u8);
+static void Task_NewGameBirchSpeech_PreInit3(u8);
+static void Task_NewGameBirchSpeech_PreInit4(u8);
 static void Task_DisplayMainMenuInvalidActionError(u8);
 static void AddBirchSpeechObjects(u8);
 static void Task_NewGameBirchSpeech_WaitToShowBirch(u8);
@@ -1273,16 +1276,7 @@ static void HighlightSelectedMainMenuItem(u8 menuType, u8 selectedMenuItem, s16 
 
 static void Task_NewGameBirchSpeech_PreInit(u8 taskId)
 {
-	SetGpuReg(REG_OFFSET_DISPCNT, 0);
-    SetGpuReg(REG_OFFSET_DISPCNT, DISPCNT_OBJ_ON | DISPCNT_OBJ_1D_MAP);
-    InitBgFromTemplate(&sBirchBgTemplate);
-    SetGpuReg(REG_OFFSET_WIN0H, 0);
-    SetGpuReg(REG_OFFSET_WIN0V, 0);
-    SetGpuReg(REG_OFFSET_WININ, 0);
-    SetGpuReg(REG_OFFSET_WINOUT, 0);
-    SetGpuReg(REG_OFFSET_BLDCNT, 0);
-    SetGpuReg(REG_OFFSET_BLDALPHA, 0);
-    SetGpuReg(REG_OFFSET_BLDY, 0);
+	HideBg(0);
 	InitWindows(gNewGameBirchSpeechTextWindows);
             LoadMainMenuWindowFrameTiles(0, 0xF3);
             LoadMessageBoxGfx(0, 0xFC, 0xF0);
@@ -1290,8 +1284,27 @@ static void Task_NewGameBirchSpeech_PreInit(u8 taskId)
             PutWindowTilemap(0);
             CopyWindowToVram(0, COPYWIN_GFX);
             NewGameBirchSpeech_ClearWindow(0);
-            StringExpandPlaceholders(gStringVar4, gText_Birch_Welcome);
+            StringExpandPlaceholders(gStringVar4, gText_Prologo);
             AddTextPrinterForMessage(1);
+	ShowBg(0);
+	gTasks[taskId].func = Task_NewGameBirchSpeech_PreInit3;	
+}
+
+static void Task_NewGameBirchSpeech_PreInit3(u8 taskId)
+{
+	if (!RunTextPrintersAndIsPrinter0Active())
+    {
+       gTasks[taskId].func = Task_NewGameBirchSpeech_WaitToShowBirch;
+	   PlayBGM(MUS_RG_NEW_GAME_EXIT);
+	   HideBg(0);
+    }
+	
+}
+
+static void Task_NewGameBirchSpeech_PreInit4(u8 taskId)
+{
+	
+	CreateTask(Task_NewGameBirchSpeech_Init,0);
 }
 
 static void Task_NewGameBirchSpeech_Init(u8 taskId)
@@ -1306,7 +1319,6 @@ static void Task_NewGameBirchSpeech_Init(u8 taskId)
     SetGpuReg(REG_OFFSET_BLDCNT, 0);
     SetGpuReg(REG_OFFSET_BLDALPHA, 0);
     SetGpuReg(REG_OFFSET_BLDY, 0);
-
     LZ77UnCompVram(sBirchSpeechShadowGfx, (void*)VRAM);
     LZ77UnCompVram(sBirchSpeechBgMap, (void*)(BG_SCREEN_ADDR(7)));
     LoadPalette(sBirchSpeechBgPals, 0, 64);
@@ -1316,15 +1328,14 @@ static void Task_NewGameBirchSpeech_Init(u8 taskId)
     FreeAllSpritePalettes();
     ResetAllPicSprites();
     AddBirchSpeechObjects(taskId);
-    BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
-    gTasks[taskId].tBG1HOFS = 0;
-    gTasks[taskId].func = Task_NewGameBirchSpeech_WaitToShowBirch;
+     BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
+     gTasks[taskId].tBG1HOFS = 0;
+    gTasks[taskId].func = Task_NewGameBirchSpeech_PreInit;
     gTasks[taskId].tPlayerSpriteId = SPRITE_NONE;
     gTasks[taskId].data[3] = 0xFF;
     gTasks[taskId].tTimer = 0xD8;
-    PlayBGM(MUS_RG_ENCOUNTER_DEOXYS);
-    ShowBg(0);
-    ShowBg(1);
+     PlayBGM(MUS_RG_NEW_GAME_INTRO);
+
 }
 
 static void Task_NewGameBirchSpeech_WaitToShowBirch(u8 taskId)
@@ -1337,6 +1348,9 @@ static void Task_NewGameBirchSpeech_WaitToShowBirch(u8 taskId)
     }
     else
     {
+		BeginNormalPaletteFade(PALETTES_ALL, 0, 16, 0, RGB_BLACK);
+		ShowBg(1);
+		PlayBGM(MUS_RG_ENCOUNTER_DEOXYS);
         spriteId = gTasks[taskId].tBirchSpriteId;
         gSprites[spriteId].x = 136;
         gSprites[spriteId].y = 60;
@@ -1346,6 +1360,7 @@ static void Task_NewGameBirchSpeech_WaitToShowBirch(u8 taskId)
         NewGameBirchSpeech_StartFadePlatformOut(taskId, 20);
         gTasks[taskId].tTimer = 80;
         gTasks[taskId].func = Task_NewGameBirchSpeech_WaitForSpriteFadeInWelcome;
+		
     }
 }
 
@@ -1360,6 +1375,7 @@ static void Task_NewGameBirchSpeech_WaitForSpriteFadeInWelcome(u8 taskId)
         }
         else
         {
+			ShowBg(0);
             InitWindows(gNewGameBirchSpeechTextWindows);
             LoadMainMenuWindowFrameTiles(0, 0xF3);
             LoadMessageBoxGfx(0, 0xFC, 0xF0);
