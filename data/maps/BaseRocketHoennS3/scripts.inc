@@ -831,3 +831,106 @@ BaseRocketHoennS3_Primer_Cientifico_Texto_1:
 	.string "regulares y predecibles, quizás por\l"
 	.string "carecer de las salvajes condiciones de\l"
 	.string "antaño.$"
+
+BillGarden_Poste::
+lock
+msgbox BillGarden_Poste_Texto_1 MSGBOX_SIGN
+msgbox BillGarden_Poste_Texto_2 MSGBOX_SIGN
+release
+end
+
+BillGarden_Poste_Texto_2:
+.string "Prohibido capturar POKÉMON sin permiso\n"
+	.string "expreso del SR.BILL$"
+
+BillGarden_Poste_Texto_1:
+.string "JARDÍN DE BILL$"
+
+RocketHideout5F_Primer_Cartel::
+lock
+msgbox RocketHideout5F_Primer_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+RocketHideout5F_Primer_Cartel_Texto_1:
+.string "ZONA 1: RENDIMIENTO DE LOS MEJORES NO\n"
+	.string "LEGENDARIOS DE KANTO$"
+
+RocketHideout5F_Segundo_Cartel::
+lock
+msgbox RocketHideout5F_Segundo_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+RocketHideout5F_Segundo_Cartel_Texto_1:
+.string "ZONA 2: MEGAEVOLUCIÓN$"
+
+RocketHideout5F_Tercer_Cartel::
+lock
+msgbox RocketHideout5F_Tercer_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+RocketHideout5F_Tercer_Cartel_Texto_1:
+.string "ZONA 3: EFICIENCIA EN LOS STATS BASE$"
+
+RocketHideout5F_Cuarto_Cartel::
+lock
+msgbox RocketHideout5F_Cuarto_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+RocketHideout5F_Cuarto_Cartel_Texto_1:
+.string "ZONA 4: ESTRATEGIA EN COMBATE$"
+
+BaseRocketHoennS3_Segundo_Cientifico::
+lock
+faceplayer
+msgbox BaseRocketHoennS3_Segundo_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+BaseRocketHoennS3_Segundo_Cientifico_Texto_1:
+.string "A la gente no le gusta que le pidas\n"
+	.string "ayuda; también se siente excluida\l"
+	.string "cuando no se la pides.$"
+
+BaseRocketHoennS3_Tercer_Cientifico::
+lock
+faceplayer
+msgbox BaseRocketHoennS3_Tercer_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+BaseRocketHoennS3_Tercer_Cientifico_Texto_1:
+.string "El hecho de exigir una MEGAPIEDRA para\n"
+	.string "activar la MEGAEVOLUCIÓN es un gran\l"
+	.string "hándicap. En ese sentido un FUERTE\l"
+	.string "VÍNCULO o POKÉMON ARTIFICIAL cuentan\l"
+	.string "con ventaja.$"
+
+BaseRocketHoennS3_Cuarto_Cientifico::
+lock
+faceplayer
+msgbox BaseRocketHoennS3_Cuarto_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+BaseRocketHoennS3_Cuarto_Cientifico_Texto_1:
+.string "Estamos en el S6 de esta, nuestra base\n"
+	.string "principal. ¿Cuántos pisos más se harán\l"
+	.string "hacia abajo? Nadie lo sabe.$"
+
+BaseRocketHoennS3_Quinto_Cientifico::
+lock
+faceplayer
+msgbox BaseRocketHoennS3_Quinto_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+BaseRocketHoennS3_Quinto_Cientifico_Texto_1:
+.string "Cuando no puedas ganar por ser mejor,\n"
+	.string "puedes ganar por ser diferente. Al\l"
+	.string "combinar tus habilidades, reduces la\l"
+	.string "cantidad de competencia, lo cual hace\l"
+	.string "que sea más fácil destacar.$"

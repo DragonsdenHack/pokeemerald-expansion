@@ -1159,3 +1159,4 @@ end
 Curacion_Curacion_Guarida_Rocket_Texto_1:
 .string "Bienvenido al CENTRO ROCKET de\n"
 	.string "curación exprés...$"
+
