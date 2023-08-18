@@ -1311,6 +1311,20 @@ SECTIONS {
 		sound/songs/midi/mus_end_of_time.o(.rodata);
 		sound/songs/midi/mus_rg_vs_legend2.o(.rodata);
 		sound/songs/midi/mus_gsc_kimono.o(.rodata);
+		sound/songs/midi/mus_vs_mirto.o(.rodata);
+		sound/songs/midi/mus_ns_castle_bridge.o(.rodata);
+		sound/songs/midi/mus_victory_plasma.o(.rodata);
+		sound/songs/midi/mus_vs_kyurem.o(.rodata);
+		sound/songs/midi/mus_ns_castle.o(.rodata);
+		sound/songs/midi/mus_vs_colress.o(.rodata);
+		sound/songs/midi/mus_vs_eusine.o(.rodata);
+		sound/songs/midi/mus_hooh_summoning.o(.rodata);
+		sound/songs/midi/mus_hooh_battle.o(.rodata);
+		sound/songs/midi/mus_hgss_route47.o(.rodata);
+		sound/songs/midi/mus_vs_devon.o(.rodata);
+		sound/songs/midi/mus_victory_devon.o(.rodata);
+		sound/songs/midi/mus_sinjoh_ruins.o(.rodata);
+		sound/songs/midi/mus_tower.o(.rodata);
     } =0
 
     lib_rodata :

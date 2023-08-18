@@ -531,12 +531,12 @@ static bool8 CanDisguiseSurf()
 
 static const u8 *GetInteractedWaterScript(struct MapPosition *unused1, u8 metatileBehavior, u8 direction)
 {
-    if (/*FlagGet(FLAG_BADGE05_GET) == TRUE && */PartyHasMonWithSurf() == TRUE && IsPlayerFacingSurfableFishableWater() && CanDisguiseSurf() == TRUE)
+    if (/*FlagGet(FLAG_BADGE05_GET) == TRUE && */PartyHasMonWithSurf() == TRUE && IsPlayerFacingSurfableFishableWater() && CanDisguiseSurf())
         return EventScript_UseSurf;
 
     if (MetatileBehavior_IsWaterfall(metatileBehavior) == TRUE)
     {
-        if (/*FlagGet(FLAG_BADGE08_GET) == TRUE && */IsPlayerSurfingNorth() == TRUE && CanDisguiseSurf() == TRUE)
+        if (/*FlagGet(FLAG_BADGE08_GET) == TRUE && */IsPlayerSurfingNorth() && CanDisguiseSurf())
             return EventScript_UseWaterfall;
         else
             return EventScript_CannotUseWaterfall;

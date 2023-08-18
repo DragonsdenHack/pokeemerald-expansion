@@ -61,12 +61,15 @@ Debug_CheatStart::
 	end
 
 Debug_Script_1::
-	end
+setdisguise 89, 0, 0, 1, 0, 0
+	end	
 
 Debug_Script_2::
+cleardisguise
 	end
 
 Debug_Script_3::
+setdisguise 363, 0, 0, 1, 0, 0
 	end
 
 Debug_Script_4::

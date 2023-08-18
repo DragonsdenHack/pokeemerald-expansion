@@ -610,6 +610,21 @@
 #define MUS_GSC_VS_TRAINER 			673 // 622
 #define MUS_END_OF_TIME 			674 // 623
 #define MUS_RG_VS_LEGEND2			675 // 624
+#define MUS_GSC_KIMONO				676 // 625
+#define MUS_VS_MIRTO				676 // 626
+#define MUS_NS_CASTLE_BRIDGE   		677 // 627
+#define MUS_VICTORY_PLASMA			678 // 628
+#define MUS_VS_KYUREM				679 // 629
+#define MUS_NS_CASTLE				680 // 630
+#define MUS_VS_COLRESS				681 // 631
+#define MUS_VS_EUSINE				682 // 632
+#define MUS_HOOH_SUMMONING			683 // 633
+#define MUS_HOOH_BATTLE 			684 // 634
+#define MUS_HGSS_ROUTE47            685 // 635
+#define MUS_VS_DEVON                686 // 636
+#define MUS_VICTORY_DEVON           687 // 637
+#define MUS_SINJOH_RUINS            688 // 638
+#define MUS_TOWER      				689 // 639
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 
