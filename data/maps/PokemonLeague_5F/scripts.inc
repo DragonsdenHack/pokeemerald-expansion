@@ -226,6 +226,7 @@ applymovement 9, PokemonLeague_5F_Azul_Rojo_Move_39
 waitmovement 0x0
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_31 MSGBOX_AUTOCLOSE
 msgbox PokemonLeague_5F_Azul_Rojo_Texto_32 MSGBOX_AUTOCLOSE
+fadenewbgm 627
 applymovement 7, PokemonLeague_5F_Azul_Rojo_Move_40
 applymovement 8, PokemonLeague_5F_Azul_Rojo_Move_40
 applymovement 9, PokemonLeague_5F_Azul_Rojo_Move_41

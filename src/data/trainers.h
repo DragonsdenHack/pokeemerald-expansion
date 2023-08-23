@@ -730,7 +730,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_MIRTO] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CAMPEON,
+        .trainerClass = TRAINER_CLASS_MIRTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTERVIEWER,
         .trainerPic = TRAINER_PIC_MIRTO,
         .trainerName = _("MIRTO"),
@@ -11440,7 +11440,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_CMIGUEL_4] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_SAILOR,
+        .trainerClass = TRAINER_CLASS_MIGUEL_1,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SAILOR,
         .trainerName = _("MIGUEL"),
@@ -11972,7 +11972,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_CIENTIFICO_1] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
+        .trainerClass = TRAINER_CLASS_DEVON_CIENTIFICO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
@@ -11986,9 +11986,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_CRIMINAL] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
+        .trainerClass = TRAINER_CLASS_DEVON_CIENTIFICO,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_RS_MAY,
+        .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
         .items = {},
         .doubleBattle = FALSE,
@@ -12000,9 +12000,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_CIENTIFICO_3] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
+        .trainerClass = TRAINER_CLASS_DEVON_CIENTIFICO,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_RS_MAY,
+        .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
         .items = {},
         .doubleBattle = FALSE,
@@ -12210,7 +12210,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_14] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
+        .trainerClass = TRAINER_CLASS_DEVON_CIENTIFICO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
@@ -12224,7 +12224,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_15] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
+        .trainerClass = TRAINER_CLASS_DEVON_CIENTIFICO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
@@ -14058,10 +14058,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_146] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_SALVAJE,
+        .trainerClass = TRAINER_CLASS_MIGUEL_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("HYPNO"),
+        .trainerName = _("MIGUEL"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,

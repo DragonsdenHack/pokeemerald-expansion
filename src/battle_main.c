@@ -4930,6 +4930,15 @@ static void HandleEndTurn_BattleWon(void)
 
         switch (gTrainers[gTrainerBattleOpponent_A].trainerClass)
         {
+        case TRAINER_CLASS_DEVON_CIENTIFICO:
+        case TRAINER_CLASS_MIGUEL_1:
+        case TRAINER_CLASS_MIGUEL_2:
+            PlayBGM(637);
+            break;
+        case TRAINER_CLASS_CULTISTA:
+        case TRAINER_CLASS_JONES:
+            PlayBGM(628);
+            break;
         case TRAINER_CLASS_ZEUS:
         case TRAINER_CLASS_ELITE_FOUR:
         case TRAINER_CLASS_CHAMPION:
@@ -4938,7 +4947,6 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_ADMINISTRADOR:
         case TRAINER_CLASS_PROTON:
         case TRAINER_CLASS_MIGUEL:
-        case TRAINER_CLASS_CULTISTA:
         case TRAINER_CLASS_TEAM_AQUA:
         case TRAINER_CLASS_TEAM_MAGMA:
         case TRAINER_CLASS_AQUA_ADMIN:
@@ -4950,11 +4958,11 @@ static void HandleEndTurn_BattleWon(void)
             PlayBGM(MUS_VICTORY_AQUA_MAGMA);
             break;
         case TRAINER_CLASS_DIOS:
-        case TRAINER_CLASS_JONES:
         case TRAINER_CLASS_LEADER:
         case TRAINER_CLASS_CAMPEON:
             PlayBGM(MUS_VICTORY_GYM_LEADER);
             break;
+        case TRAINER_CLASS_MIRTO:
         case TRAINER_CLASS_EXCAMPEON:    
         case TRAINER_CLASS_EMPERADOR:
         case TRAINER_CLASS_KANTO:

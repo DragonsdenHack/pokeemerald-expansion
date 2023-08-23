@@ -2,7 +2,7 @@
   "id": "MAP_TORRE_DUNSPARCE_P3",
   "name": "TorreDunsparce_P3",
   "layout": "LAYOUT_TORRE_DUNSPARCE_P3",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "639",
   "region_map_section": "MAPSEC_LITTLEROOT_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

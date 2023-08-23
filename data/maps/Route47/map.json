@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE47",
   "name": "Route47",
   "layout": "LAYOUT_ROUTE47",
-  "music": "565",
+  "music": "635",
   "region_map_section": "MAPSEC_SEVII_ISLE_9",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -576,6 +576,10 @@
 #define TRAINER_CLASS_POLICIAHOENN       0xB5
 #define TRAINER_CLASS_SALVAJE            0xB6
 #define TRAINER_CLASS_EXPERIMENTO        0xB7
+#define TRAINER_CLASS_MIRTO              0xB8
+#define TRAINER_CLASS_MIGUEL_1           0xB9
+#define TRAINER_CLASS_MIGUEL_2           0xBA
+#define TRAINER_CLASS_DEVON_CIENTIFICO   0xBB
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music
