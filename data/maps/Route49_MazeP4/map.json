@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE49_MAZE_P4",
   "name": "Route49_MazeP4",
   "layout": "LAYOUT_ROUTE49_MAZE_P4",
-  "music": "593",
+  "music": "633",
   "region_map_section": "MAPSEC_ARTISAN_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

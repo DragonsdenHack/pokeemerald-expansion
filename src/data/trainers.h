@@ -11468,9 +11468,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_EUSINE] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_SAILOR,
+        .trainerClass = TRAINER_CLASS_EUSINE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_SAILOR,
+        .trainerPic = TRAINER_PIC_BILL,
         .trainerName = _("EUSINE"),
         .items = {},
         .doubleBattle = FALSE,
@@ -12252,10 +12252,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_17] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_MAESTRO,
+        .trainerClass = TRAINER_CLASS_MAESTRO_DUN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_MAESTRO_BELLSPROUT,
-        .trainerName = _("JOHTO"),
+        .trainerName = _("DUN"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -13078,7 +13078,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_76] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_EUSINE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_AQUA_ADMIN_F,
         .trainerName = _("EUSINE"),

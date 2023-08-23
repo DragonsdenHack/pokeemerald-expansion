@@ -624,7 +624,7 @@
 #define MUS_VS_DEVON                686 // 636
 #define MUS_VICTORY_DEVON           687 // 637
 #define MUS_SINJOH_RUINS            688 // 638
-#define MUS_TOWER      				689 // 639
+#define MUS_TOWER      				689 // 639 // FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 
 #define MUS_ROUTE118                0x7FFF  // Map is split into 2 music sections. controlled by GetCurrLocationDefaultMusic().
 

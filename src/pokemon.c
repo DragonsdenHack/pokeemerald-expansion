@@ -7632,6 +7632,10 @@ u16 GetBattleBGM(void)
 
         switch (trainerClass)
         {
+        case TRAINER_CLASS_MAESTRO_DUN:
+            return 634;
+        case TRAINER_CLASS_EUSINE:
+            return 632;
         case TRAINER_CLASS_DEVON_CIENTIFICO:
             return 636;
         case TRAINER_CLASS_MIGUEL_2:
