@@ -97,6 +97,8 @@ FileIsleMeadow6_Text_6No:
 FileIsleMeadow_Recluta_Balls::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 4
+goto_if_lt FileIsleMeadow_Recluta_Balls_Debil
 msgbox FileIsleMeadow_Recluta_Balls_Text_1, MSGBOX_AUTOCLOSE
 msgbox FileIsleMeadow_Recluta_Balls_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -109,6 +111,17 @@ giveitem ITEM_POKE_BALL, 5
 waitfanfare
 release
 end
+
+FileIsleMeadow_Recluta_Balls_Debil::
+msgbox FileIsleMeadow_Recluta_Balls_Debil_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+FileIsleMeadow_Recluta_Balls_Debil_Texto_1:
+.string "Pareces ser otro ROCKET más del montón.\n"
+	.string "Si logras que ATLAS te asigne una\l"
+	.string "misión especial, vuelve a hablar\l"
+	.string "conmigo.$"
 
 FileIsleMeadow_Recluta_Balls_No::
 msgbox FileIsleMeadow_Recluta_Balls_Text_4, MSGBOX_AUTOCLOSE

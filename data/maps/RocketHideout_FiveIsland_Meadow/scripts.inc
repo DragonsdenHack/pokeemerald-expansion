@@ -400,6 +400,7 @@ removeobject 8
 removeobject 3
 applymovement OBJ_EVENT_ID_PLAYER, Move16b
 waitmovement 0x0
+clearflag FLAG_NUEVA_854
 release     
 end
 
@@ -1146,6 +1147,7 @@ step_end
 
 Curacion_Guarida_Rocket::
 lock
+faceplayer
 msgbox Curacion_Curacion_Guarida_Rocket_Texto_1 MSGBOX_AUTOCLOSE
 fadescreen 1
 playse SE_USE_ITEM

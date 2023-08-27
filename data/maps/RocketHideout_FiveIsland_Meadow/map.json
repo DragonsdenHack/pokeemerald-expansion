@@ -3,7 +3,7 @@
   "name": "RocketHideout_FiveIsland_Meadow",
   "layout": "LAYOUT_ROCKET_HIDEOUT_FIVE_ISLAND_MEADOW",
   "music": "MUS_RG_ROCKET_HIDEOUT",
-  "region_map_section": "MAPSEC_FIVE_ISLE_MEADOW",
+  "region_map_section": "MAPSEC_ROCKET_WAREHOUSE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -380,7 +380,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "1",
-      "script": "NULL"
+      "script": "RocketHideoutFiveIslanMeadowDerecha2"
     },
     {
       "type": "trigger",
@@ -398,7 +398,7 @@
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "1",
-      "script": "NULL"
+      "script": "RocketHideoutFiveIslanMeadowIzquierda2"
     }
   ],
   "bg_events": [
