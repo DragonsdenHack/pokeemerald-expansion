@@ -22,6 +22,7 @@ struct Item
     u8 battleUsage;
     ItemUseFunc battleUseFunc;
     u8 secondaryId;
+    u8 flingPower;
 };
 
 struct BagPocket
