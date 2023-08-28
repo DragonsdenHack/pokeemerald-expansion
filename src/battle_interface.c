@@ -2438,11 +2438,7 @@ s32 MoveBattleBar(u8 battlerId, u8 healthboxSpriteId, u8 whichBar, u8 unused)
                     gBattleSpritesDataPtr->battleBars[battlerId].oldValue,
                     gBattleSpritesDataPtr->battleBars[battlerId].receivedValue,
                     &gBattleSpritesDataPtr->battleBars[battlerId].currValue,
-                #if B_FAST_HP_DRAIN == TRUE
-                    B_HEALTHBAR_PIXELS / 8, max(gBattleSpritesDataPtr->battleBars[battlerId].maxValue / B_HEALTHBAR_PIXELS, 1));
-                #else
                     B_HEALTHBAR_PIXELS / 8, 1);
-                #endif
     }
     else // exp bar
     {
@@ -2857,15 +2853,15 @@ static const struct SpriteTemplate sSpriteTemplate_AbilityPopUp2 =
 static const s16 sAbilityPopUpCoordsDoubles[MAX_BATTLERS_COUNT][2] =
 {
     {29, 80}, // player left
-    {186, 19}, // opponent left
+    {204, 19}, // opponent left
     {29, 97}, // player right
-    {186, 36}, // opponent right
+    {204, 36}, // opponent right
 };
 
 static const s16 sAbilityPopUpCoordsSingles[MAX_BATTLERS_COUNT][2] =
 {
-    {29, 97}, // player
-    {186, 57}, // opponent
+    {29, 93}, // player
+    {204, 23}, // opponent
 };
 
 static u8* AddTextPrinterAndCreateWindowOnAbilityPopUp(const u8 *str, u32 x, u32 y, u32 color1, u32 color2, u32 color3, u32 *windowId)
@@ -2876,7 +2872,7 @@ static u8* AddTextPrinterAndCreateWindowOnAbilityPopUp(const u8 *str, u32 x, u32
     winTemplate.height = 2;
 
     *windowId = AddWindow(&winTemplate);
-    FillWindowPixelBuffer(*windowId, PIXEL_FILL(color1));
+    FillWindowPixelBuffer(*windowId, (color1 << 4) | (color1));
 
     AddTextPrinterParameterized4(*windowId, 0, x, y, 0, 0, color, -1, str);
     return (u8*)(GetWindowAttribute(*windowId, WINDOW_TILE_DATA));
@@ -2905,10 +2901,10 @@ static void PrintOnAbilityPopUp(const u8 *str, u8 *spriteTileData1, u8 *spriteTi
 {
     u32 windowId, i;
     u8 *windowTileData;
-    u8 text1[MAX_CHARS_PRINTED];
-    u8 text2[MAX_CHARS_PRINTED];
+    u8 text1[MAX_CHARS_PRINTED + 2];
+    u8 text2[MAX_CHARS_PRINTED + 2];
 
-    for (i = 0; i < MAX_CHARS_PRINTED; i++)
+    for (i = 0; i < MAX_CHARS_PRINTED + 1; i++)
     {
         text1[i] = str[i];
         if (text1[i] == EOS)
@@ -2920,7 +2916,7 @@ static void PrintOnAbilityPopUp(const u8 *str, u8 *spriteTileData1, u8 *spriteTi
     TextIntoAbilityPopUp(spriteTileData1, windowTileData, 8, (y == 0));
     RemoveWindow(windowId);
 
-    if (i == MAX_CHARS_PRINTED)
+    if (i == MAX_CHARS_PRINTED + 1)
     {
         for (i = 0; i < MAX_CHARS_PRINTED; i++)
         {
@@ -2931,20 +2927,9 @@ static void PrintOnAbilityPopUp(const u8 *str, u8 *spriteTileData1, u8 *spriteTi
         text2[i] = EOS;
 
         windowTileData = AddTextPrinterAndCreateWindowOnAbilityPopUp(text2, x2, y, color1, color2, color3, &windowId);
-        TextIntoAbilityPopUp(spriteTileData2, windowTileData, 3, (y == 0));
+        TextIntoAbilityPopUp(spriteTileData2, windowTileData, 1, (y == 0));
         RemoveWindow(windowId);
     }
-}
-
-static const u8 sText_Space16[]= _("                ");
-static void ClearAbilityName(u8 spriteId1, u8 spriteId2)
-{
-    PrintOnAbilityPopUp(sText_Space16,
-                        (void*)(OBJ_VRAM0) + (gSprites[spriteId1].oam.tileNum * 32) + 256,
-                        (void*)(OBJ_VRAM0) + (gSprites[spriteId2].oam.tileNum * 32) + 256,
-                        6, 1,
-                        4,
-                        7, 9, 1);
 }
 
 static void PrintBattlerOnAbilityPopUp(u8 battlerId, u8 spriteId1, u8 spriteId2)
@@ -2989,7 +2974,7 @@ static void PrintAbilityOnAbilityPopUp(u32 ability, u8 spriteId1, u8 spriteId2)
     PrintOnAbilityPopUp(gAbilityNames[ability],
                         (void*)(OBJ_VRAM0) + (gSprites[spriteId1].oam.tileNum * 32) + 256,
                         (void*)(OBJ_VRAM0) + (gSprites[spriteId2].oam.tileNum * 32) + 256,
-                        6, 1,
+                        7, 1,
                         4,
                         7, 9, 1);
 }
@@ -3050,20 +3035,6 @@ static const u16 sOverwrittenPixelsTable[][2] =
     {PIXEL_COORDS_TO_OFFSET(0, 24), 3},
     {PIXEL_COORDS_TO_OFFSET(0, 25), 3},
     {PIXEL_COORDS_TO_OFFSET(0, 26), 3},
-
-//Second Row Of Image
-    {PIXEL_COORDS_TO_OFFSET(0, 45), 8},
-    {PIXEL_COORDS_TO_OFFSET(0, 46), 8},
-    {PIXEL_COORDS_TO_OFFSET(0, 47), 8},
-    //{PIXEL_COORDS_TO_OFFSET(0, 48), 8},   // cuts off the top of the 'G' in Neutralizing Gas
-    {PIXEL_COORDS_TO_OFFSET(8, 45), 8},
-    {PIXEL_COORDS_TO_OFFSET(8, 46), 8},
-    {PIXEL_COORDS_TO_OFFSET(8, 47), 8},
-    {PIXEL_COORDS_TO_OFFSET(8, 48), 8},
-    {PIXEL_COORDS_TO_OFFSET(16, 45), 8},
-    {PIXEL_COORDS_TO_OFFSET(16, 46), 8},
-    {PIXEL_COORDS_TO_OFFSET(16, 47), 8},
-    {PIXEL_COORDS_TO_OFFSET(16, 48), 8},
 };
 
 static inline void CopyPixels(u8 *dest, const u8 *src, u32 pixelCount)
@@ -3190,7 +3161,6 @@ void UpdateAbilityPopup(u8 battlerId)
     u8 spriteId2 = gBattleStruct->abilityPopUpSpriteIds[battlerId][1];
     u16 ability = (gBattleScripting.abilityPopupOverwrite != 0) ? gBattleScripting.abilityPopupOverwrite : gBattleMons[battlerId].ability;
     
-    ClearAbilityName(spriteId1, spriteId2);
     PrintAbilityOnAbilityPopUp(ability, spriteId1, spriteId2);
     RestoreOverwrittenPixels((void*)(OBJ_VRAM0) + (gSprites[spriteId1].oam.tileNum * 32));
 }
@@ -3256,19 +3226,19 @@ static void Task_FreeAbilityPopUpGfx(u8 taskId)
 
 static const struct OamData sOamData_LastUsedBall =
 {
-    .y = 0,
-    .affineMode = 0,
-    .objMode = 0,
-    .mosaic = 0,
-    .bpp = 0,
-    .shape = SPRITE_SHAPE(32x32),
-    .x = 0,
-    .matrixNum = 0,
-    .size = SPRITE_SIZE(32x32),
-    .tileNum = 0,
-    .priority = 1,
-    .paletteNum = 0,
-    .affineParam = 0,
+	.y = 0,
+	.affineMode = 0,
+	.objMode = 0,
+	.mosaic = 0,
+	.bpp = 0,
+	.shape = SPRITE_SHAPE(32x32),
+	.x = 0,
+	.matrixNum = 0,
+	.size = SPRITE_SIZE(32x32),
+	.tileNum = 0,
+	.priority = 1,
+	.paletteNum = 0,
+	.affineParam = 0,
 };
 
 static const struct SpriteTemplate sSpriteTemplate_LastUsedBallWindow =
@@ -3304,23 +3274,19 @@ static const struct SpriteSheet sSpriteSheet_LastUsedBallWindow =
 
 bool32 CanThrowLastUsedBall(void)
 {
-#if B_LAST_USED_BALL == FALSE
-    return FALSE;
-#else
-    if (!CanThrowBall())
+    #if B_LAST_USED_BALL == FALSE
         return FALSE;
-    if (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-        return FALSE;
-    if (!CheckBagHasItem(gLastThrownBall, 1))
-        return FALSE;
-
-    return TRUE;
-#endif
+    #else
+        return (!(CanThrowBall() != 0
+         || (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+         || !CheckBagHasItem(gLastThrownBall, 1)));
+     #endif
 }
+
 
 void TryAddLastUsedBallItemSprites(void)
 {
-#if B_LAST_USED_BALL == TRUE
+    #if B_LAST_USED_BALL == TRUE
     if (gLastThrownBall == 0
       || (gLastThrownBall != 0 && !CheckBagHasItem(gLastThrownBall, 1)))
     {
@@ -3329,8 +3295,10 @@ void TryAddLastUsedBallItemSprites(void)
         CompactItemsInBagPocket(&gBagPockets[BALLS_POCKET]);
         gLastThrownBall = gBagPockets[BALLS_POCKET].itemSlots[0].itemId;
     }
-
-    if (!CanThrowLastUsedBall())
+    
+    if (CanThrowBall() != 0
+     || (gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+     || !CheckBagHasItem(gLastThrownBall, 1))
         return;
 
     // ball
@@ -3351,11 +3319,11 @@ void TryAddLastUsedBallItemSprites(void)
     if (gBattleStruct->ballSpriteIds[1] == MAX_SPRITES)
     {
         gBattleStruct->ballSpriteIds[1] = CreateSprite(&sSpriteTemplate_LastUsedBallWindow,
-                                                       LAST_BALL_WIN_X_0,
-                                                       LAST_USED_WIN_Y, 5);
+           LAST_BALL_WIN_X_0,
+           LAST_USED_WIN_Y, 5);
         gSprites[gBattleStruct->ballSpriteIds[0]].sHide = FALSE;   // restore
     }
-#endif
+    #endif
 }
 
 static void DestroyLastUsedBallWinGfx(struct Sprite *sprite)
@@ -3410,7 +3378,7 @@ static void SpriteCB_LastUsedBall(struct Sprite *sprite)
 
 static void TryHideOrRestoreLastUsedBall(u8 caseId)
 {
-#if B_LAST_USED_BALL == TRUE
+    #if B_LAST_USED_BALL == TRUE
     if (gBattleStruct->ballSpriteIds[0] == MAX_SPRITES)
         return;
 
@@ -3429,22 +3397,23 @@ static void TryHideOrRestoreLastUsedBall(u8 caseId)
             gSprites[gBattleStruct->ballSpriteIds[1]].sHide = FALSE;   // restore
         break;
     }
-#endif
+    #endif
 }
 
 void TryHideLastUsedBall(void)
 {
-#if B_LAST_USED_BALL == TRUE
+    #if B_LAST_USED_BALL == TRUE
     TryHideOrRestoreLastUsedBall(0);
-#endif
+    #endif
 }
 
 void TryRestoreLastUsedBall(void)
 {
-#if B_LAST_USED_BALL == TRUE
+    #if B_LAST_USED_BALL == TRUE
     if (gBattleStruct->ballSpriteIds[0] != MAX_SPRITES)
         TryHideOrRestoreLastUsedBall(1);
     else
         TryAddLastUsedBallItemSprites();
-#endif
+    #endif
 }
+

@@ -140,16 +140,6 @@ TOOLS = $(foreach tool,$(TOOLBASE),tools/$(tool)/$(tool)$(EXE))
 
 MAKEFLAGS += --no-print-directory
 
-# Language-specific flags
-ifndef LANG
-LANG := ES
-endif
-ifeq ($(LANG),ES)
-override CPPFLAGS += -D GAME_LANGUAGE=LANGUAGE_SPANISH
-else
-override CPPFLAGS += -D GAME_LANGUAGE=LANGUAGE_ENGLISH
-endif
-
 # Clear the default suffixes
 .SUFFIXES:
 # Don't delete intermediate files

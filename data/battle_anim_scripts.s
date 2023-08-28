@@ -828,7 +828,6 @@ gBattleAnims_General::
 	.4byte General_GulpMissile              @ B_ANIM_GULP_MISSILE
 	.4byte General_StrongWinds              @ B_ANIM_STRONG_WINDS
 	.4byte General_PrimalReversion          @ B_ANIM_PRIMAL_REVERSION
-	.4byte General_AquaRingHeal             @ B_ANIM_AQUA_RING_HEAL
 
 	.align 2
 gBattleAnims_Special::
@@ -1709,12 +1708,10 @@ Move_HEART_SWAP:
 	end
 
 Move_AQUA_RING:
-General_AquaRingHeal:
 	loadspritegfx ANIM_TAG_BLUE_STAR
 	loadspritegfx ANIM_TAG_SMALL_BUBBLES
 	loadspritegfx ANIM_TAG_ICE_CRYSTALS
 	loadspritegfx ANIM_TAG_GUARD_RING
-	createvisualtask AnimTask_BlendParticle, 5, ANIM_TAG_GUARD_RING, 0, 14, 14, RGB_BLUE
 	monbg ANIM_ATK_PARTNER
 	setalpha 12, 8
 	createvisualtask AnimTask_ShakeMon, 5, ANIM_ATTACKER, 0, 2, 23, 1
@@ -1755,6 +1752,9 @@ General_AquaRingHeal:
 	waitforvisualfinish
 	clearmonbg ANIM_ATK_PARTNER
 	blendoff
+	delay 1
+	call HealingEffect
+	waitforvisualfinish
 	end
 
 Move_MAGNET_RISE:
@@ -6134,22 +6134,17 @@ Move_STRUGGLE_BUG:
 	loadspritegfx ANIM_TAG_IMPACT
 	monbg ANIM_TARGET
 	setalpha 12, 8
-	createvisualtask AnimTask_BlendBattleAnimPal, 10, ANIM_PAL_ATK, 2, 0, 9, 0x0a1f
+	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_ATK 0x2 0x0 0x9 0x0a1f
 	waitforvisualfinish
-	createvisualtask AnimTask_FlailMovement, 2, 0
-	createsprite gMovementWavesSpriteTemplate, ANIM_ATTACKER, 2, 0, 0, 2
-	createsprite gMovementWavesSpriteTemplate, ANIM_ATTACKER, 2, 0, 1, 2
+	launchtask AnimTask_FlailMovement 0x2 0x1 0x0
+	launchtemplate gMovementWavesSpriteTemplate 0x2 0x3 0x0 0x0 0x2
+	launchtemplate gMovementWavesSpriteTemplate 0x2 0x3 0x0 0x1 0x2
 	loopsewithpan SE_M_HEADBUTT, SOUND_PAN_ATTACKER, 0x8, 0x2
 	waitforvisualfinish
-	createsprite gRandomPosHitSplatSpriteTemplate, ANIM_TARGET, 3, ANIM_TARGET, 1
-	createvisualtask AnimTask_ShakeTargetBasedOnMovePowerOrDmg, 2, FALSE, 1, 0x1e, 1, 0
-	createvisualtask AnimTask_ShakeTargetPartnerBasedOnMovePowerOrDmg, 2, FALSE, 1, 0x1e, 1, 0
+	launchtemplate gRandomPosHitSplatSpriteTemplate 0x83 0x2 0x1 0x3
+	launchtask AnimTask_ShakeTargetBasedOnMovePowerOrDmg 0x2 0x5 0x0 0x1 0x1e 0x1 0x0
 	playsewithpan SE_M_MEGA_KICK2, SOUND_PAN_TARGET
-	createvisualtask AnimTask_BlendBattleAnimPal, 10, ANIM_PAL_ATK, 2, 9, 0, 0x0a1f
-	delay 5
-	createsprite gRandomPosHitSplatSpriteTemplate, ANIM_TARGET, 3, ANIM_TARGET, 1
-	delay 5
-	createsprite gRandomPosHitSplatSpriteTemplate, ANIM_TARGET, 3, ANIM_TARGET, 1
+	launchtask AnimTask_BlendBattleAnimPal 0xa 0x5 ANIM_PAL_ATK 0x2 0x9 0x0 0x0a1f
 	waitforvisualfinish
 	clearmonbg ANIM_TARGET
 	blendoff

@@ -294,7 +294,6 @@ struct BattleHistory
     u8 moveHistoryIndex[MAX_BATTLERS_COUNT];
     u16 trainerItems[MAX_BATTLERS_COUNT];
     u8 itemsNo;
-    u16 heldItems[MAX_BATTLERS_COUNT];
 };
 
 struct BattleScriptsStack
@@ -605,8 +604,6 @@ struct BattleStruct
     u8 blunderPolicy:1; // should blunder policy activate
     u8 ballSpriteIds[2];    // item gfx, window gfx
     u8 stickyWebUser;
-    u8 appearedInBattle; // Bitfield to track which Pokemon appeared in battle. Used for Burmy's form change
-    u8 skyDropTargets[MAX_BATTLERS_COUNT]; // For Sky Drop, to account for if multiple Pokemon use Sky Drop in a double battle.
 };
 
 #define F_DYNAMIC_TYPE_1 (1 << 6)

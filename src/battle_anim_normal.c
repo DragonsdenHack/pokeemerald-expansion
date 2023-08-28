@@ -258,7 +258,7 @@ const struct SpriteTemplate gRandomPosHitSplatSpriteTemplate =
     .anims = gDummySpriteAnimTable,
     .images = NULL,
     .affineAnims = gAffineAnims_HitSplat,
-    .callback = SpriteCB_RandomCentredHits,
+    .callback = AnimHitSplatRandom,
 };
 
 const struct SpriteTemplate gMonEdgeHitSplatSpriteTemplate =

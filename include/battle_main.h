@@ -22,14 +22,8 @@ struct MultiPartnerMenuPokemon
     /*0x1D*/ u8 language;
 };
 
-
-#if GAME_LANGUAGE == LANGUAGE_SPANISH
-    #define TYPE_NAME_LENGTH 9
-#else
-    #define TYPE_NAME_LENGTH 6
-#endif
-
-#if B_EXPANDED_ABILITY_NAMES
+#define TYPE_NAME_LENGTH 6
+#ifdef BATTLE_ENGINE
 #define ABILITY_NAME_LENGTH 16
 #else
 #define ABILITY_NAME_LENGTH 12
@@ -78,7 +72,6 @@ void RunBattleScriptCommands(void);
 bool8 TryRunFromBattle(u8 battlerId);
 void SpecialStatusesClear(void);
 void SetTypeBeforeUsingMove(u16 move, u8 battlerAtk);
-bool32 IsWildMonSmart(void);
 
 extern struct MultiPartnerMenuPokemon gMultiPartnerParty[MULTI_PARTY_SIZE];
 
