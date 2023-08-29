@@ -116,3 +116,15 @@ walk_down
 walk_down
 walk_down
 step_end
+
+MemorialPillar_ChicoOnix::
+lock
+faceplayer
+msgbox MemorialPillar_ChicoOnix_Texto_1 MSGBOX_NPC
+release
+end
+
+MemorialPillar_ChicoOnix_Texto_1:
+.string "Aquí yace mi ONIX, llamado TECTONIX.\n"
+	.string "Levanté este lugar en su honor, para\l"
+	.string "que todos recuerden su nombre.$"

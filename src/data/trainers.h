@@ -17,7 +17,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_GENTLEMAN,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_HIKER,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_GENTLEMAN,
         .trainerName = _("AUGUSTO"),
         .items = {},

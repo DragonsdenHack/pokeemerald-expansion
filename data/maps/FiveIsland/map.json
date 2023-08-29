@@ -75,12 +75,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FiveIsland4",
-      "flag": "FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER"
+      "flag": "FLAG_NUEVA_854"
     }
   ],
   "warp_events": [
     {
-      "x": 12,
+      "x": 13,
       "y": 14,
       "elevation": 0,
       "dest_map": "MAP_FIVE_ISLAND_PORT",

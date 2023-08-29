@@ -5128,7 +5128,7 @@ LostCaveB1FLastRoom_Text_RicaDefeated:
 LostCaveB1FLastRoom_Text_RicaPostBattle:
 	.string "CÓNSUL: Algún día vendrá alguien y\n"
 	.string "me rescatará de este lugar, ¡los\l"
-	.string "ROCKETS solo sóis hormigas!$"
+	.string "ROCKET solo sóis hormigas!$"
 
 Route6_Text_Joven1Intro:
 	.string "¿Después de todo lo que habéis\n"

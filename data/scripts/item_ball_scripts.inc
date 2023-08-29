@@ -2548,5 +2548,9 @@ MisionMoteros_Event_Script_TM104::
 finditem ITEM_TM104
    end
 
+CasaConsul_Event_Script_Exp::
+finditem ITEM_EXP_SHARE
+   end
+
 
 

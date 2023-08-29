@@ -45,13 +45,16 @@ msgbox ResortGeorgeous_House1_Text_Consul_5, MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_6
 waitmovement 0x0
 trainerbattle_no_intro TRAINER_CONSUL, ResortGeorgeous_House1_Text_Consul_6
+delay 5
+applymovement 1, CuevaTesoro4_Jefe_Final_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_7
+waitmovement 0x0
 msgbox ResortGeorgeous_House1_Text_Consul_7, MSGBOX_AUTOCLOSE
 delay 40
 playse MUS_RG_ROCKET_HIDEOUT
 waitfanfare 
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
-playse SE_EXIT
+playse SE_DOOR
 addobject 3
 delay 20
 playse SE_PIN
@@ -74,10 +77,13 @@ msgbox ResortGeorgeous_House1_Text_Consul_11, MSGBOX_AUTOCLOSE
 playse SE_EXIT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
 setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+clearflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
 fadescreen 1
+playse SE_BALL_THROW
 removeobject 1
 removeobject 3
 removeobject 4
+addobject 5
 delay 20
 fadescreen 0
 fadeoutbgm 0
