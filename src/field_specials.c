@@ -2035,6 +2035,7 @@ bool8 UsedPokemonCenterWarp(void)
     static const u16 sPokemonCenters[] =
     {
         MAP_OLDALE_TOWN_POKEMON_CENTER_1F,
+        MAP_VERMILION_CITY_POKEMON_CENTER_1F,
         MAP_DEWFORD_TOWN_POKEMON_CENTER_1F,
         MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F,
         MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F,
@@ -3977,7 +3978,7 @@ void ResetHealLocationFromDewford(void)
 {
     if (gSaveBlock1Ptr->lastHealLocation.mapGroup == MAP_GROUP(DEWFORD_TOWN) && gSaveBlock1Ptr->lastHealLocation.mapNum == MAP_NUM(DEWFORD_TOWN))
     {
-        SetLastHealLocationWarp(HEAL_LOCATION_PETALBURG_CITY);
+        SetLastHealLocationWarp(HEAL_LOCATION_FIVE_ISLAND);
     }
 }
 
@@ -3986,6 +3987,7 @@ bool8 InPokemonCenter(void)
     static const u16 sPokemonCenters[] =
     {
         MAP_OLDALE_TOWN_POKEMON_CENTER_1F,
+        MAP_VERMILION_CITY_POKEMON_CENTER_1F,
         MAP_DEWFORD_TOWN_POKEMON_CENTER_1F,
         MAP_LAVARIDGE_TOWN_POKEMON_CENTER_1F,
         MAP_FALLARBOR_TOWN_POKEMON_CENTER_1F,

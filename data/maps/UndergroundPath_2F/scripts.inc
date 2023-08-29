@@ -89,7 +89,7 @@ UndergroundPath2F_Andra_Text_4:
 	.string "quiero probar si el desenlace de\l"
 	.string "nuestro primer combate en\l"
 	.string "presencia de ATLAS fue casualidad\l"
-	.string "o no, ¡prepárate iré con todo!$"
+	.string "o no, ¡prepárate, iré con todo!$"
 
 UndergroundPath2F_Andra_Text_5:
     .string "De modo que no era casualidad,\n"

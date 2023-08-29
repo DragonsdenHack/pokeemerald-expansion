@@ -958,7 +958,7 @@ applymovement 27, RocketHideout8F_Mision_Johto_move_12
 waitmovement 0x0
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
 removeobject 27
-clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 addobject 39
 playse SE_M_STAT_INCREASE
 applymovement 39, RocketHideout8F_Mision_Johto_move_12.1
@@ -2159,8 +2159,14 @@ faceplayer
 compare VAR_UNUSED_0x40F7, 35
 goto_if_gt RocketHideout_6F_Petrel_2
 msgbox RocketHideout_6F_Petrel_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 14, RocketHideout_6F_Petrel_Move_Izq
+waitmovement 0x0
 release
 end
+
+RocketHideout_6F_Petrel_Move_Izq:
+face_left
+step_end
 
 RocketHideout_6F_Petrel_2::
 msgbox RocketHideout_6F_Petrel_Texto_2 MSGBOX_AUTOCLOSE
@@ -2168,8 +2174,8 @@ release
 end
 
 RocketHideout_6F_Petrel_Texto_1:
-.string "PETREL: Chico, deberías de saber\n"
-	.string "que a los ADMINISTRADORES ROCKET\l"
+.string "PETREL: Chico, deberías saber que\n"
+	.string "a los ADMINISTRADORES ROCKET\l"
 	.string "no se les interrumpe por\l"
 	.string "banalidades, nuestro tiempo es\l"
 	.string "demasiado valioso.$"

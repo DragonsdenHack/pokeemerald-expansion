@@ -40,7 +40,9 @@ EventScript_PkmnCenterNurse_TakeAndHealPkmn::
 	applymovement VAR_0x800B, Common_Movement_WalkInPlaceFasterDown
 	waitmovement 0
 	special HealPlayerParty
-	return
+	msgbox Curacion_Centros_Pokemon_Kanto_Texto_5 MSGBOX_NPC
+	release
+	end
 
 EventScript_PkmnCenterNurse_CheckTrainerHillAndUnionRoom::
 	specialvar VAR_RESULT, PlayerNotAtTrainerHillEntrance

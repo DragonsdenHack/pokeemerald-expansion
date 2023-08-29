@@ -197,7 +197,7 @@ end
 
 VermilionCitySurge:: 
 playse SE_SLIDING_DOOR
-clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 addobject 12
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, VermilionCitySurge_move1
@@ -206,7 +206,7 @@ fadeoutbgm 0
 playse 507
 delay 20
 msgbox VermilionCity_Text_Surge, MSGBOX_AUTOCLOSE
-setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 fadescreen 1
 delay 20
 removeobject 12
@@ -215,6 +215,7 @@ delay 10
 fadeoutbgm 0
 playse 525
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_4
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 setvar VAR_UNUSED_0x40F7, 7
 release
 end
@@ -586,13 +587,13 @@ waitmovement 0x0
 special RemoveCameraObject
 delay 15
 playse SE_SLIDING_DOOR
-clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 addobject 7
 delay 30
 applymovement 7, VermilionCity_Rojo_move3
 waitmovement 0x0
 delay 20
-setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 removeobject 7
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, VermilionCity_Rojo_move4

@@ -167,6 +167,8 @@ Route11Documento_Text_100:
 
 
 Route11_Policias::
+compare VAR_UNUSED_0x40F7, 22
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 lock
 playse SE_PIN
 applymovement 3, Route11_Policias_move1

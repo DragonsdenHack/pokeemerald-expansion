@@ -119,7 +119,9 @@ CeruleanCityDocumento_Text_101:
 
 
 CeruleanCityDocumento_102::
-msgbox CeruleanCityDocumento_Text_102, MSGBOX_SIGN   
+lock
+msgbox CeruleanCityDocumento_Text_102, MSGBOX_SIGN 
+release  
 end
 
 CeruleanCityDocumento_Text_102:
@@ -254,3 +256,40 @@ end
 CeruleanCity_Text_Abajo_2:
 .string "(PETREL te quiere ya en su\n"
 	.string "despacho, adónde crees que vas).$"
+
+CeruleanCity_Nino::
+lock
+faceplayer
+msgbox CeruleanCity_Nino_Texto_1 MSGBOX_NPC
+release
+end
+
+CeruleanCity_Nino_Texto_1:
+.string "Mi madre dice que los hombres que\n"
+	.string "tenéis una R en vuestra ropa sois\l"
+	.string "malos.$"
+
+CeruleanCity_Bayas::
+lock
+faceplayer
+msgbox CeruleanCity_Bayas_Texto_1 MSGBOX_NPC
+release
+end
+
+CeruleanCity_Bayas_Texto_1:
+.string "Valiente osado. ¿Sabías que esta\n"
+	.string "ciudad tiene la mayor base policial de\l"
+	.string "KANTO? Vamos... ROCKET, dame una\l"
+	.string "excusa para llamarla.$"
+
+CeruleanCity_Nina::
+lock
+faceplayer
+msgbox CeruleanCity_Nina_Texto_1 MSGBOX_NPC
+release
+end
+
+CeruleanCity_Nina_Texto_1:
+.string "Mi SLOWBRO es un holgazán. Un poco de\n"
+	.string "mano dura no le vendría mal, vosotros\l"
+	.string "los ROCKET sois expertos en eso. ¿No?$"

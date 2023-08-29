@@ -85,3 +85,48 @@ Curacion_Centros_Pokemon_Johto_Texto_2:
 	.string "forma de nuevo!$"
 
 
+Curacion_Centros_Pokemon_Kanto::
+lock
+msgbox Curacion_Centros_Pokemon_Kanto_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Curacion_Centros_Pokemon_Kanto_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Curacion_Centros_Pokemon_Kanto_No
+msgbox Curacion_Centros_Pokemon_Kanto_Texto_3 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+msgbox Curacion_Centros_Pokemon_Kanto_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Curacion_Centros_Pokemon_Kanto_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+Curacion_Centros_Pokemon_Kanto_No::
+msgbox Curacion_Centros_Pokemon_Kanto_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+
+Curacion_Centros_Pokemon_Kanto_Texto_1:
+    .string "¡Éste es el CENTRO POKÉMON!\p"
+    .string "Nosotros curamos a los POKÉMON\n"
+    .string "debilitados.\n"
+
+Curacion_Centros_Pokemon_Kanto_Texto_2:
+    .string "¿Quieres que nos ocupemos de los\n"
+    .string "POKÉMON de tu equipo?$"
+
+Curacion_Centros_Pokemon_Kanto_Texto_3:
+    .string "Muy bien. Ten un poco de\n"
+    .string "paciencia. Será solo un momento.$"
+
+Curacion_Centros_Pokemon_Kanto_Texto_4:
+    .string "Misión cumplida. Somos especialistas\p"
+    .string "en devolver la forma a los\n"
+    .string "POKÉMON.$"
+
+Curacion_Centros_Pokemon_Kanto_Texto_5::
+    .string "¡Vuelve siempre que quieras!$"
+
+

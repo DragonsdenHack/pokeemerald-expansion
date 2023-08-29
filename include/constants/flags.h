@@ -744,7 +744,7 @@
 #define FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG                      0x2BC // RECLUTAS ROCKET INTA // AZUL INTA //ROCKETS CASA CONSUL // ESCENA 1// Rojo y Surge CARMIN//Rockets Celeste// policias casa bill// clear Lance ssanne//clear Azul Ruta 22 // clear kyogre y groudon
 #define FLAG_HIDE_APPRENTICE                                        0x2BD
 #define FLAG_HIDE_POKEMON_CENTER_2F_MYSTERY_GIFT_MAN                0x2BE
-#define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF // ANDRA CASA CONSUL set// clear andra carmin //clear fósiles cient.Mtmoon //clear atlas jardin bill 
+#define FLAG_HIDE_UNION_ROOM_PLAYER_1                               0x2BF // ANDRA CASA CONSUL set// clear andra carmin //clear fósiles cient.Mtmoon //clear atlas jardin bill //andra alto rango primera vez
 #define FLAG_HIDE_UNION_ROOM_PLAYER_2                               0x2C0 // ANDRA PUERTO ISLA INTA set // clear motero carmin // clear Miguel Mt.moon //clear blaine b.rocket 
 #define FLAG_HIDE_UNION_ROOM_PLAYER_3                               0x2C1 // ANDRA SUBTERRANEO // clear Rojo Mt.moon// clear marineros ssanne //clear cultistas torre pkmn// clear Ruby //clear zeus magno aquiles
 #define FLAG_HIDE_UNION_ROOM_PLAYER_4                               0x2C2 // CLEAR FLAG MISION EEVEES
