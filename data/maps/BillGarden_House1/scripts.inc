@@ -21,6 +21,7 @@ msgbox BillGarden_House1_Bill_Combate_Text_3 MSGBOX_AUTOCLOSE
 applymovement 2, BillGarden_House1_Bill_Combate_move4
 waitmovement 0x0
 msgbox BillGarden_House1_Bill_Combate_Text_4 MSGBOX_AUTOCLOSE
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 applymovement 2, BillGarden_House1_Bill_Combate_move5
 applymovement OBJ_EVENT_ID_PLAYER, BillGarden_House1_Bill_Combate_move6
 waitmovement 0x0

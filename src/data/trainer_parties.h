@@ -281,8 +281,8 @@ static const struct TrainerMonNoItemCustomMoves sParty_Bill1[] = {
     .moves = {MOVE_TACKLE, MOVE_MEGA_DRAIN, MOVE_ROCK_THROW, MOVE_NONE}
     },
     {
-    .iv = 0,
-    .lvl = 50,
+    .iv = 50,
+    .lvl = 18,
     .species = SPECIES_CLEFAIRY,
     .evs = {20, 20, 20, 20, 20, 20},
     .nature = NATURE_SERIOUS,
