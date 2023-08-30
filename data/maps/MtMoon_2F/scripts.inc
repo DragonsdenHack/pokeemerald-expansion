@@ -45,7 +45,7 @@ msgbox MtMoon_2F_AltoRango_Text_7, MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
 fadeoutbgm 0
-playse 495
+playse 500
 removeobject 6
 fadescreen 0
 applymovement 3, MtMoon_2F_AltoRango_move6

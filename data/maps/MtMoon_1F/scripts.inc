@@ -121,3 +121,16 @@ end
 MtMoon1FDocumento_Text_100:
 .string "¡Cuidado!\n"
 	.string "¡Los ZUBAT son unos chupasangre!$"
+
+MtMoon1F_Balding::
+lock
+faceplayer
+msgbox MtMoon1F_Balding_Texto_1 MSGBOX_NPC
+release
+end
+
+MtMoon1F_Balding_Texto_1:
+.string "Tened cuidado con lo que hacéis. Soy\n"
+	.string "amigo de BROCK, si intentas robarme,\l"
+	.string "nuestro LÍDER te aplastará con sus\l"
+	.string "TIPO ROCA.$"

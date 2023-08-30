@@ -113,7 +113,7 @@ delay 10
 applymovement 5, Route4_Evento_Karatekas_move4
 waitmovement 0x0
 msgbox Route4_Evento_Karatekas_Text_2, MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_MEGAPATADA, Route4_Evento_Karatekas_Text_3
+trainerbattle_no_intro TRAINER_MEGAPUNO, Route4_Evento_Karatekas_Text_3
 msgbox Route4_Evento_Karatekas_Text_4, MSGBOX_AUTOCLOSE
 delay 10
 applymovement 6, Route4_Evento_Karatekas_move5
@@ -123,7 +123,7 @@ msgbox Route4_Evento_Karatekas_Text_5, MSGBOX_AUTOCLOSE
 applymovement 6, Route4_Evento_Karatekas_move7
 waitmovement 0x0
 msgbox Route4_Evento_Karatekas_Text_6, MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_MEGAPUNO, Route4_Evento_Karatekas_Text_7
+trainerbattle_no_intro TRAINER_MEGAPATADA, Route4_Evento_Karatekas_Text_7
 applymovement 5, Route4_Evento_Karatekas_move6
 waitmovement 0x0
 msgbox Route4_Evento_Karatekas_Text_8, MSGBOX_AUTOCLOSE

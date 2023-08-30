@@ -457,8 +457,12 @@ goto_if_eq MtMoon_3F_Miguel_Rojo_2
 goto MtMoon_3F_Miguel_Rojo_3
 
 MtMoon_3F_Miguel_Rojo_3::
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 msgbox MtMoon_3F_Miguel_Rojo_text_7 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move8
+waitmovement 0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move8.9
 waitmovement 0
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 addobject 1
@@ -466,6 +470,7 @@ delay 10
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move9
 applymovement 13, MtMoon_3F_Miguel_Rojo_move10
 waitmovement 0
+playse 495
 msgbox MtMoon_3F_Miguel_Rojo_text_8 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 trainerbattle_no_intro TRAINER_KEVIN, MtMoon_3F_Miguel_Rojo_text_9
@@ -495,6 +500,10 @@ setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 trainerbattle_no_intro TRAINER_ROJO_1, MtMoon_3F_Miguel_Rojo_text_13
 goto MtMoon_3F_Miguel_Rojo_3
 end
+
+MtMoon_3F_Miguel_Rojo_move8.9:
+walk_in_place_up
+step_end
 
 MtMoon_3F_Miguel_Rojo_2::
 msgbox MtMoon_3F_Miguel_Rojo_text_14 MSGBOX_AUTOCLOSE
@@ -763,7 +772,7 @@ msgbox MtMoon_3F_Pelea_Frank_texto7 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 14, MtMoon_3F_Pelea_Frank_move8
 waitmovement 0
-playse 500
+playse 495
 msgbox MtMoon_3F_Pelea_Frank_texto8 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ALTORANGO, MtMoon_3F_Pelea_Frank_texto9
 msgbox MtMoon_3F_Pelea_Frank_texto10 MSGBOX_AUTOCLOSE
