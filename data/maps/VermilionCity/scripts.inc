@@ -411,7 +411,7 @@ VermilioCity_Motorista_Text_10:
 	.string "dedicando tu vida a POKÉMON tipo\l"
 	.string "AGUA que de nada sirven y solo\l"
 	.string "estorban.\l"
-	.string "¡Malditos TENTACOOLS, solo están\l"
+	.string "¡Malditos TENTACOOL, solo están\l"
 	.string "para arruinarnos los veranos!$"
 
 VermilioCity_Motorista_Text_11:
@@ -441,7 +441,7 @@ VermilioCity_Motorista_Text_13:
 	.string "hables de los POKÉMON acuáticos en\l"
 	.string "ese tono sucio motorista\l"
 	.string "corrompido por el hedor de sus\l"
-	.string "WEEZINGS!\l"
+	.string "WEEZING!\l"
 	.string "¡Te voy a demostrar lo equivocado\l"
 	.string "que estás!$"
 
@@ -872,8 +872,6 @@ compare VAR_UNUSED_0x40F7, 26
 goto_if_eq VermilionCity_Barco_3
 compare VAR_UNUSED_0x40F7, 27
 goto_if_eq VermilionCity_Barco_3
-compare VAR_UNUSED_0x40F7, 28
-goto_if_eq VermilionCity_Barco_3
 compare VAR_UNUSED_0x40F7, 95
 goto_if_lt VermilionCity_Barco_2
 msgbox VermilionCity_Barco_Texto_2 MSGBOX_AUTOCLOSE
@@ -896,8 +894,6 @@ goto_if_eq VermilionCity_Marinero_3
 compare VAR_UNUSED_0x40F7, 26
 goto_if_eq VermilionCity_Marinero_3
 compare VAR_UNUSED_0x40F7, 27
-goto_if_eq VermilionCity_Marinero_3
-compare VAR_UNUSED_0x40F7, 28
 goto_if_eq VermilionCity_Marinero_3
 compare VAR_UNUSED_0x40F7, 95
 goto_if_lt VermilionCity_Marinero_2

@@ -431,6 +431,7 @@ applymovement 27, RocketHideout_6F_Petrel_Mision_1_move6
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_11, MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
 fadescreen 1
 delay 20
 removeobject 27

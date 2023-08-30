@@ -161,3 +161,11 @@ Route12_Activador_Entrada_Texto_2:
 Route12_Activador_Entrada_2_Move_1:
 emote_exclamation_mark
 step_end
+
+Route12_Cartel::
+msgbox Route12_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+Route12_Cartel_Texto_1:
+.string "RUTA 12$"

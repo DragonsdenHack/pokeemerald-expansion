@@ -20,7 +20,16 @@ SsAnne7F_Text_2:
 
 
 SsAnne7F_3::
+lock     
+faceplayer     
+msgbox SsAnne7F_Text_3, MSGBOX_DEFAULT
+release     
 end
+
+SsAnne7F_Text_3:
+.string "A nuestro CAPITÁN le encantan los\n"
+	.string "POKÉMON de HOENN, ¡especialmente los\l"
+	.string "de agua!$"
 
 
 

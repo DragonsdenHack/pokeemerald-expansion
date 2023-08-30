@@ -195,7 +195,7 @@ SsAnne4F_Text_14:
 	.string "flora y fauna incomparable.$"
 
 SsAnne_4F_Combate_Azul::
-msgbox SsAnne_4F_Combate_Azul_text_1 MSGBOX_NPC
+msgbox SsAnne_4F_Combate_Azul_text_1 MSGBOX_DEFAULT
 delay 15
 playse SE_PIN
 applymovement 12, SsAnne_4F_Combate_Azul_move1
@@ -203,21 +203,25 @@ waitmovement 0x0
 msgbox SsAnne_4F_Combate_Azul_text_2 MSGBOX_DEFAULT
 applymovement 12, SsAnne_4F_Combate_Azul_move2
 waitmovement 0x0
+playse 527
 msgbox SsAnne_4F_Combate_Azul_text_3 MSGBOX_DEFAULT
-trainerbattle_no_intro TRAINER_AZUL_1, SsAnne_4F_Combate_Azul_text_4
+trainerbattle_no_intro TRAINER_ANDRA_1, SsAnne_4F_Combate_Azul_text_4
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_4F_Combate_Azul_move3
 waitmovement 0x0
 msgbox SsAnne_4F_Combate_Azul_text_5 MSGBOX_AUTOCLOSE
 applymovement 12, SsAnne_4F_Combate_Azul_move3
 waitmovement 0x0
 msgbox SsAnne_4F_Combate_Azul_text_6 MSGBOX_AUTOCLOSE
+playbgm 528, FALSE
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_4F_Combate_Azul_move4
 waitmovement 0x0
 applymovement 12, SsAnne_4F_Combate_Azul_move5
 waitmovement 0x0
 playse SE_EXIT
+waitse
 setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
 removeobject 12
+fadedefaultbgm
 release
 end
 
