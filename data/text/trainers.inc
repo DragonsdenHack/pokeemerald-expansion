@@ -6318,7 +6318,7 @@ Route10_Text_NecioDefeated:
 
 
 Route10_Text_NecioPostBattle:
-	.string "¡No me gustáis ni tu ni tu\n"
+	.string "¡No me gustáis ni tú ni tu\n"
 	.string "organización, os lleváis todos los\l"
 	.string "POKÉMON raros!$"
 
@@ -6437,7 +6437,7 @@ RockTunnel1F_Text_ChicaDefeated:
 
 RockTunnel1F_Text_ChicaPostBattle:
 	.string "¡Ya decía yo!\n"
-	.string "¡Los ROCKETS sois demasiado\l"
+	.string "¡Los ROCKET sois demasiado\l"
 	.string "agresivos!$"
 
 
@@ -6844,7 +6844,7 @@ RocketHideout5F_Text_Rocket4Intro:
 
 
 RocketHideout5F_Text_Rocket4Defeated:
-	.string "Parece que si mereces ese\n"
+	.string "Parece que sí mereces ese\n"
 	.string "privilegio.$"
 
 

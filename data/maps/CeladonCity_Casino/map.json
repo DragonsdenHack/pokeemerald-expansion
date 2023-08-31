@@ -160,17 +160,24 @@
   ],
   "warp_events": [
     {
-      "x": 12,
-      "y": 1,
+      "x": 15,
+      "y": 2,
       "elevation": 0,
-      "dest_map": "MAP_POKEMON_MANSION_4F",
+      "dest_map": "MAP_ROCKET_HIDEOUT_1F",
       "dest_warp_id": 0
     },
     {
-      "x": 15,
+      "x": 12,
       "y": 1,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_4F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_CELADON_CITY",
       "dest_warp_id": 0
     }
   ],

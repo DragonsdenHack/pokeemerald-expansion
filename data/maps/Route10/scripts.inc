@@ -215,6 +215,8 @@ applymovement 14, Route10_Combate_Andra_move_2
 waitmovement 0x0
 applymovement 14, Route10_Combate_Andra_move_3
 applymovement OBJ_EVENT_ID_PLAYER, Route10_Combate_Andra_move_1
+waitmovement 0
+playse 559
 msgbox Route10_Combate_Andra_Texto_8 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_3, Route10_Combate_Andra_Texto_9
 msgbox Route10_Combate_Andra_Texto_10 MSGBOX_AUTOCLOSE

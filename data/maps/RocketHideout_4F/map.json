@@ -141,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RocketHideout4F_10",
+      "script": "RocketHideout_4F_Dialogo_Proton",
       "flag": "FLAG_HIDE_FANCLUB_OLD_LADY"
     },
     {
@@ -225,8 +225,8 @@
   ],
   "warp_events": [
     {
-      "x": 18,
-      "y": 16,
+      "x": 11,
+      "y": 15,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_3F",
       "dest_warp_id": 1
@@ -256,7 +256,7 @@
       "x": 10,
       "y": 19,
       "elevation": 0,
-      "dest_map": "MAP_CELADON_CITY",
+      "dest_map": "MAP_ROCKET_HIDEOUT_3F",
       "dest_warp_id": 0
     }
   ],

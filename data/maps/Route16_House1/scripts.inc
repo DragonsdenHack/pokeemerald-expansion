@@ -14,6 +14,7 @@ lock
 faceplayer
 compare VAR_UNUSED_0x40A1, 0
 goto_if_gt Route16_House1_Combate_Vuelo_2
+delay 10
 playse SE_PIN
 applymovement 1, Route16_House1_Combate_Vuelo_Move_1
 waitmovement 0x0
@@ -26,14 +27,19 @@ compare VAR_RESULT, 0
 goto_if_eq Route16_House1_Combate_Vuelo_3
 msgbox Route16_House1_Combate_Vuelo_Texto_5 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_VUELO, Route16_House1_Combate_Vuelo_Texto_6
-playfanfare MUS_OBTAIN_TMHM
-giveitem ITEM_AMULET_COIN
-waitfanfare
 msgbox Route16_House1_Combate_Vuelo_Texto_7 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_HM02_FLY
+msgbox Route16_House1_Combate_Vuelo_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
 msgbox Route16_House1_Combate_Vuelo_Texto_8 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40A1, 1
 release
 end
+
+Route16_House1_Combate_Vuelo_Texto_1.1:
+.string "¡¡Obtuviste la MO02 VUELO de manos de\n"
+	.string "ORNITÓLOGA!!$"
 
 Route16_House1_Combate_Vuelo_2::
 lock

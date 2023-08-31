@@ -104,7 +104,14 @@ end
 
 
 CeladonCity12::
+lock
+msgbox CeladonCity12_Texto_1, MSGBOX_DEFAULT
+release
 end
+
+CeladonCity12_Texto_1:
+.string "Este GIMNASIO es el paraíso. ¡Está\n"
+	.string "repleto de chicas!$"
 
 
 CeladonCity13::
@@ -129,7 +136,7 @@ release
 end
 
 CeladonCity_Text14:
-.string "Nadie os quiere aquí ROCKETS.\n"
+.string "Nadie os quiere aquí ROCKET.\n"
 .string "¡Estáis destruyendo con vuestro\l"
 .string "estúpido CASINO todos nuestros\l"
 .string "intentos por mantener limpia esta\l"

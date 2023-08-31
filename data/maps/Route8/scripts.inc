@@ -90,7 +90,7 @@ Route8_EventScript_Chica::
 
 
 Route8_EventScript_Necio2::
-	trainerbattle_single TRAINER_TRAINER_118, Route8_Text_Necio2Intro, Route8_Text_Necio2Defeated
+	trainerbattle_single TRAINER_TRAINER_217, Route8_Text_Necio2Intro, Route8_Text_Necio2Defeated
 	msgbox Route8_Text_Necio2PostBattle, MSGBOX_AUTOCLOSE
 	end
 

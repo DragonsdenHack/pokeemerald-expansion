@@ -1010,7 +1010,7 @@
 #define ITEM_BIKE_VOUCHER 769
 #define ITEM_GOLD_TEETH 770
 #define ITEM_CARD_KEY 771 // llave magnética de silph
-#define ITEM_LIFT_KEY 772
+#define ITEM_LIFT_KEY 772 // llave ascensor guarida rocket
 #define ITEM_SILPH_SCOPE 773
 #define ITEM_TRI_PASS 774 // Licencia entrenador de giovanni
 #define ITEM_RAINBOW_PASS 775 // Pase radio Trigal

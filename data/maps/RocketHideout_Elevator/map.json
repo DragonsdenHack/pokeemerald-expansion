@@ -28,8 +28,8 @@
       "x": 2,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_ROCKET_HIDEOUT_ELEVATOR",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ROCKET_HIDEOUT_4F",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

@@ -105,10 +105,12 @@ delay 10
 applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_3
 waitmovement 0x0
 msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_3 MSGBOX_AUTOCLOSE
-applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_4
+applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_1.1
 waitmovement 0x0
-clearflag FLAG_UNKNOWN_0x363
-addobject 4
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem 772
+msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_3.1 MSGBOX_DEFAULT
+waitfanfare
 msgbox RocketHideout_3F_Cientifico_Bienvenida_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 2, RocketHideout_3F_Cientifico_Bienvenida_Move_3
 waitmovement 0x0
@@ -127,7 +129,7 @@ RocketHideout_3F_Cientifico_Bienvenida_Texto_2:
 .string "Nuestro LÍDER GIOVANNI se\n"
 	.string "encuentra en su despacho en el\l"
 	.string "PISO -4, uno más abajo de este,\l"
-	.string "dió claras indicaciones de que\l"
+	.string "dio claras indicaciones de que\l"
 	.string "fueras a verle en cuanto llegaras\l"
 	.string "aquí.$"
 
@@ -141,12 +143,21 @@ RocketHideout_3F_Cientifico_Bienvenida_Texto_3:
 	.string "arriba, necesitarás estas llaves\l"
 	.string "para hacerlo funcionar.$"
 
+RocketHideout_3F_Cientifico_Bienvenida_Texto_3.1:
+.string "¡Obtuviste LLAVE ASCENSOR de manos de\n"
+	.string "CIENTÍFICO ROCKET!$"
+
+
 RocketHideout_3F_Cientifico_Bienvenida_Texto_4:
 .string "Eso es todo {PLAYER}, GIOVANNI te\n"
 	.string "espera.$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Move_1:
 emote_exclamation_mark
+walk_in_place_left
+step_end
+
+RocketHideout_3F_Cientifico_Bienvenida_Move_1.1:
 walk_in_place_left
 step_end
 

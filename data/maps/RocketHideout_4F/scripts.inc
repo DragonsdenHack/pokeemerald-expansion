@@ -382,8 +382,14 @@ end
 
 RocketHideout_4F_Mision_Andra_Fucsia::
 playse SE_PIN
-applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Andra_Fucsia_move_2
+waitmovement 0x0
+clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+clearflag FLAG_HIDE_FANCLUB_OLD_LADY
+addobject 1
+addobject 10
+playbgm 559, FALSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_1
 waitmovement 0x0
 applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_3
 waitmovement 0x0
@@ -397,6 +403,7 @@ waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5
 waitmovement 0x0
+fadedefaultbgm
 delay 20
 playse SE_SLIDING_DOOR
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
@@ -407,8 +414,14 @@ end
 
 RocketHideout_4F_Mision_Andra_Fucsia_2::
 playse SE_PIN
-applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_1.1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Andra_Fucsia_move_2
+waitmovement 0x0
+clearflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
+clearflag FLAG_HIDE_FANCLUB_OLD_LADY
+addobject 1
+addobject 10
+playbgm 559, FALSE
+applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_1.1
 waitmovement 0x0
 applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_3
 waitmovement 0x0
@@ -423,6 +436,7 @@ msgbox RocketHideout_4F_Mision_Andra_Fucsia_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 9, RocketHideout_4F_Mision_Andra_Fucsia_move_5.1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_4F_Mision_Andra_Fucsia_move_6
 waitmovement 0x0
+fadedefaultbgm
 delay 20
 playse SE_SLIDING_DOOR
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
@@ -601,6 +615,7 @@ msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_17 MSGBOX_AUTOCLOSE
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_18 MSGBOX_AUTOCLOSE
 playse SE_PIN
 applymovement 1, RocketHideout_4F_Giovanni_Mision_1_move_12
+applymovement 10, RocketHideout_4F_Giovanni_Mision_1_move_12
 waitmovement 0x0
 delay 30
 msgbox RocketHideout_4F_Giovanni_Mision_1_Texto_19 MSGBOX_AUTOCLOSE
@@ -653,7 +668,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_3:
 	.string "CÓNSUL de ISLA INTA antes de que\l"
 	.string "comprometiese nuestra situación\l"
 	.string "comercial, fue clave en el robo a\l"
-	.string "la patente de Bill que ha mejorado\l"
+	.string "la patente de BILL que ha mejorado\l"
 	.string "exponencialmente nuestras\l"
 	.string "comunicaciones, autor también del\l"
 	.string "robo a la famosa reliquia del\l"
@@ -706,8 +721,8 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_7:
 	.string "pero necesaria he de decir.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_8:
-.string "No obstante, tanto tú como Andra\n"
-	.string "fuisteis ascendidos a ALTOS\l"
+.string "No obstante, tanto ANDRA como tú\n"
+	.string "fuisteis ascendidos a ALTO\l"
 	.string "RANGOS, lo que os aleja de este\l"
 	.string "tipo de misiones para ser parte de\l"
 	.string "cuestiones mucho más relevantes\l"
@@ -719,7 +734,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_9:
 	.string "privilegiado a información acerca\l"
 	.string "del propósito último de nuestra\l"
 	.string "organización, la situación actual\l"
-	.string "en Kanto y la verdadera historia\l"
+	.string "en KANTO y la verdadera historia\l"
 	.string "de esta región.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_10:
@@ -753,21 +768,21 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_12:
 	.string "de POKÉMON, inexistentes desde\l"
 	.string "hace tiempo en estado salvaje\l"
 	.string "desde la gran guerra, por lo que\l"
-	.string "dices llevaba también una Pokédex,\l"
+	.string "dices llevaba también una POKÉDEX,\l"
 	.string "todo indica a que ese niño viene\l"
 	.string "de PUEBLO PALETA, el equipo que me\l"
 	.string "has descrito es absurdamente\l"
 	.string "poderoso si tenemos en cuenta la\l"
 	.string "distancia entre PUEBLO PALETA y el\l"
-	.string "MT.MOON y el poco bagaje que debe\l"
-	.string "de llevar como entrenador.$"
+	.string "MT.MOON, además del poco bagaje que\l"
+	.string "debe llevar como entrenador.$"
 
 RocketHideout_4F_Giovanni_Mision_1_Texto_13:
 .string "Tal vez veas a alguien de esas\n"
 	.string "dimensiones como inalcanzable, y\l"
 	.string "ciertamente es una amenaza, pero\l"
 	.string "créeme cuando te digo que KANTO es\l"
-	.string "mucho más que un entrenador por\l"
+	.string "mucho más que un entrenador. Por\l"
 	.string "muy fuerte que sea, nadie,\l"
 	.string "absolutamente nadie, es intocable\l"
 	.string "y todos de una manera u otra\l"
@@ -997,6 +1012,8 @@ step_end
 
 RocketHideout_4F_Giovanni_Mision_1_move_13:
 walk_left
+walk_down
+walk_down
 walk_down
 walk_down
 walk_down
@@ -3701,4 +3718,30 @@ RocketHideout_4F_Escena_Motoristas_Texto_18:
 
 RocketHideout_4F_Escena_Motoristas_Texto_19:
 .string "PETREL: … …$"
+
+RocketHideout_4F_Dialogo_Proton::
+lock
+faceplayer
+msgbox RocketHideout_4F_Dialogo_Proton_Texto_1 MSGBOX_NPC
+msgbox RocketHideout_4F_Dialogo_Proton_Texto_2 MSGBOX_NPC
+release
+end
+
+RocketHideout_4F_Dialogo_Proton_Texto_2:
+.string "Yo, aunque sigo siendo EJECUTIVO, soy\n"
+	.string "el de mayor confianza para GIOVANNI.\l"
+	.string "Por otro lado, ADMIN únicamente están\l"
+	.string "PETREL y ATLAS, este último siendo\l"
+	.string "ADMIN.JEFE, ya que dentro de nuestra\l"
+	.string "sucursal en ISLAS SETE es la máxima\l"
+	.string "autoridad.$"
+
+RocketHideout_4F_Dialogo_Proton_Texto_1:
+.string "Los distintos rangos de esta\n"
+	.string "organización son, de menos a más:\l"
+	.string "RECLUTA, RECLUTA ALTO RANGO,\l"
+	.string "EJECUTIVO, ADMINISTRADOR,\l"
+	.string "ADMINISTRADOR JEFE, LÍDER.$"
+
+
 

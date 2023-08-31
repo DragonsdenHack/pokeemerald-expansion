@@ -2552,5 +2552,9 @@ CasaConsul_Event_Script_Exp::
 finditem ITEM_EXP_SHARE
    end
 
+CeladonCity_Event_Script_Eter::
+finditem ITEM_ETHER
+   end
+
 
 
