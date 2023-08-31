@@ -1472,6 +1472,8 @@ step_end
 
 RocketHideout_6F_Petrel_Post_SSanne::
 lockall
+clearflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+addobject 39
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Post_SSanne_move_1
 waitmovement 0x0
 applymovement 14, RocketHideout_6F_Petrel_Post_SSanne_move_2

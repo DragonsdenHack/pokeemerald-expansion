@@ -205,7 +205,7 @@ applymovement 12, SsAnne_4F_Combate_Azul_move2
 waitmovement 0x0
 playse 527
 msgbox SsAnne_4F_Combate_Azul_text_3 MSGBOX_DEFAULT
-trainerbattle_no_intro TRAINER_ANDRA_1, SsAnne_4F_Combate_Azul_text_4
+trainerbattle_no_intro TRAINER_AZUL_1, SsAnne_4F_Combate_Azul_text_4
 applymovement OBJ_EVENT_ID_PLAYER, SsAnne_4F_Combate_Azul_move3
 waitmovement 0x0
 msgbox SsAnne_4F_Combate_Azul_text_5 MSGBOX_AUTOCLOSE

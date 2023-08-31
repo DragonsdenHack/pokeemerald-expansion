@@ -5990,7 +5990,7 @@ Route9_Text_HikerDefeated:
 
 Route9_Text_HikerPostBattle:
 	.string "Debes de tener agallas para\n"
-	.string "dirigirte hacia mi así.$"
+	.string "dirigirte hacia mí así.$"
 
 
 Route9_Text_ChicoIntro:
