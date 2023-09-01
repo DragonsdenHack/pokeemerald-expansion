@@ -295,7 +295,7 @@ RocketHideoutViridian_Combate_Petrel_Texto_1:
 RocketHideoutViridian_Combate_Petrel_Texto_2:
 .string "Sin embargo has sobrepasado toda\n"
 	.string "expectativa, a los ADMINISTRADORES\l"
-	.string "ROCKETS se les exigen muchas\l"
+	.string "ROCKET se les exigen muchas\l"
 	.string "habilidades, entre ellas está el\l"
 	.string "contar con un equipo POKÉMON digno\l"
 	.string "de la ÉLITE 4, hecho a base de\l"
@@ -504,7 +504,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_9:
 
 RocketHideoutViridian_Combate_Atlas_Texto_10:
 .string "Ah, me siento orgulloso de haber\n"
-	.string "formado a ROCKETS como tú, aquí\l"
+	.string "formado a miembros como tú, aquí\l"
 	.string "tienes la MEDALLA TIERRA.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_11:

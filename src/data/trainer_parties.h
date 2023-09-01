@@ -27888,7 +27888,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER152[] = {
     .lvl = 32,
     .species = SPECIES_NIDORINO,
     .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {32, 32, 32, 32, 32, 32},
+    .evs = {24, 24, 24, 24, 24, 24},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_TOXIC_SPIKES, MOVE_SLUDGE, MOVE_WATER_PULSE, MOVE_THUNDERBOLT}
     },
@@ -27897,7 +27897,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER152[] = {
     .lvl = 33,
     .species = SPECIES_RATICATE,
     .heldItem = ITEM_SITRUS_BERRY,
-    .evs = {32, 32, 32, 32, 32, 32},
+    .evs = {24, 24, 24, 24, 24, 24},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_HYPER_FANG, MOVE_SUCKER_PUNCH, MOVE_CRUNCH, MOVE_NONE}
     },
@@ -27906,7 +27906,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER152[] = {
     .lvl = 33,
     .species = SPECIES_ARBOK,
     .heldItem = ITEM_BLACK_SLUDGE,
-    .evs = {32, 32, 32, 32, 32, 32},
+    .evs = {24, 24, 24, 24, 24, 24},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_POISON_FANG, MOVE_CRUNCH, MOVE_GLARE, MOVE_GIGA_DRAIN}
     },
@@ -27915,7 +27915,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER152[] = {
     .lvl = 34,
     .species = SPECIES_KABUTOPS,
     .heldItem = ITEM_FOCUS_SASH,
-    .evs = {32, 32, 32, 32, 32, 32},
+    .evs = {24, 24, 24, 24, 24, 24},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_ROCK_SLIDE, MOVE_AQUA_JET, MOVE_KNOCK_OFF, MOVE_LIQUIDATION}
     }

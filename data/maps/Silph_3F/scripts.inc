@@ -30,7 +30,7 @@ Silph3F_3_Texto_1:
 
 Silph3F_3_Texto_2:
 .string "¡Tuvisteis vuestro merecido\n"
-	.string "ROCKETS!$"
+	.string "ROCKET!$"
 
 Silph3F_4::
 end

@@ -111,7 +111,7 @@ Route11_Path_2F_Combate_Ayudante_Oak_Texto_5:
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_6:
 .string "¡Debe de ser un error!\n"
-	.string "¡Los ROCKETS no pasan del RATTATA\l"
+	.string "¡Los ROCKET no pasan del RATTATA\l"
 	.string "o ZUBAT!$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_7:

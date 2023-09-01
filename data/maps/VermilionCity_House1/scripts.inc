@@ -186,7 +186,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_12:
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_13:
 .string "¿No?\n"
-	.string "Pensaba que los ROCKETS adoraban\l"
+	.string "Pensaba que los ROCKET adoraban\l"
 	.string "este tipo de trabajos.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Move_1:

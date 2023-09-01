@@ -1166,6 +1166,6 @@ Silph_11F_Presidente_Charlas_Texto_4:
 .string "PRESIDENTE: ¿Aún sigues aquí\n"
 	.string "chico?\l"
 	.string "¡Recuerda que no pueden ver a\l"
-	.string "ROCKETS por aquí!\l"
+	.string "un ROCKET por aquí!\l"
 	.string "¡Sino la gente se empezará a hacer\l"
 	.string "preguntas!$"

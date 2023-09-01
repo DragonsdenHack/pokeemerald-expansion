@@ -84,7 +84,7 @@ end
 PewterCityDocumento_Text_102:
 	.string "¡Aviso!\n"
 	.string "Unos ladrones han estado robando\l"
-	.string "fósiles en el Mt.Moon.\l"
+	.string "fósiles en el MT.MOON.\l"
 	.string "Por favor, contactar con la\l"
 	.string "policía si disponen de alguna\l"
 	.string "información.$"

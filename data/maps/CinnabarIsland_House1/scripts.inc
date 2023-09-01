@@ -10,7 +10,7 @@ end
 
 _CinnabarIsland_House1_Text_1:
 .string "Aquí no hacemos intercambios con\n"
-.string "ROCKETS chico, no queremos a\l"
+.string "los ROCKET chico, no queremos a\l"
 .string "vuestros POKÉMON robados y\l"
 .string "obtenidos de forma ilegítima,\l"
 .string "jamás dejaremos que los nuestros\l"

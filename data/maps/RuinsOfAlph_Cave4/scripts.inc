@@ -211,7 +211,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_2:
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_3:
 .string "GIOVANNI, ATLAS y varios de los\n"
-	.string "mejores ROCKETS están al caer, ya\l"
+	.string "mejores ROCKET están al caer, ya\l"
 	.string "les he avisado.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_4:

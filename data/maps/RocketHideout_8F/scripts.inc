@@ -327,9 +327,9 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 	.string "partir de ahora os asigne en este\l"
 	.string "lugar son totalmente\l"
 	.string "confidenciales para todo ser ajeno\l"
-	.string "al S5 de esta base, eso\l"
-	.string "incluye también a la mayoría de\l"
-	.string "ROCKETS, no debéis hablar de esto\l"
+	.string "al S5 de esta base, eso incluye\l"
+	.string "también a la mayoría de los\l"
+	.string "ROCKET, no debéis hablar de esto\l"
 	.string "fuera con nadie, siempre se habla\l"
 	.string "de que el TEAM ROCKET roba y\l"
 	.string "comete crímenes con el fin de\l"
@@ -1850,7 +1850,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_20:
 
 RocketHideout_8F_Mision_Gimnasios_texto_21:
 .string "ANDRA: Pero señor, creía que los\n"
-	.string "ROCKETS no podían enfrentar a los\l"
+	.string "ROCKET no podían enfrentar a los\l"
 	.string "LÍDERES DE GIMNASIO por MEDALLAS.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_22:
@@ -1864,7 +1864,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_22:
 	.string "licencia, y por ello se os echa de\l"
 	.string "los GIMNASIOS, por no tener\l"
 	.string "LICENCIA, realmente no por ser\l"
-	.string "ROCKETS.$"
+	.string "un ROCKET.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_23:
 .string "GIOVANNI: Aquí tenéis, totalmente\n"
@@ -1878,7 +1878,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_23.1:
 
 RocketHideout_8F_Mision_Gimnasios_texto_24:
 .string "Aún así, por supuesto que pueden\n"
-	.string "negaros el paso por ser ROCKETS,\l"
+	.string "negaros entrar por ser un ROCKET,\l"
 	.string "lo que haréis será llevar nuestro\l"
 	.string "uniforme -a modo de mofa-,\l"
 	.string "riéndoos del TEAM ROCKET y\l"

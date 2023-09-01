@@ -28,7 +28,7 @@ release
 end
 
 PewterCity_House2_Text_2:
-.string "Los Pokémon aprenden nuevas\n"
+.string "Los POKÉMON aprenden nuevas\n"
 .string "técnicas cuando van creciendo,\l"
 .string "Pero existen ciertos movimientos\l"
 .string "que solo podemos enseñárselos\l"

@@ -4955,7 +4955,7 @@ WaterLabyrinth_Text_GentlemanDefeated:
 
 
 WaterLabyrinth_Text_GentlemanPostBattle:
-    .string "Los ROCKETS de por aquí suelen ser\n"
+    .string "Los ROCKET de por aquí suelen ser\n"
 	.string "más débiles, si lo haces bien\l"
 	.string "seguro que vuestro general te\l"
 	.string "recompensará como es debido.$"
@@ -5295,7 +5295,7 @@ MtMoon1F_Text_Chica2Defeated:
 
 
 MtMoon1F_Text_Chica2PostBattle:
-	.string "Algunos ROCKETS abusan de los\n"
+	.string "Algunos ROCKET abusan de los\n"
 	.string "entrenadores derrotados robándoles\l"
 	.string "todos sus POKÉMON, al menos no\l"
 	.string "todos sois iguales...$"
@@ -6947,7 +6947,7 @@ Route3_Text_Chica3PostBattle:
 
 
 Route3_Text_Chico2Intro:
-	.string "Pensaba que los ROCKETS como\n"
+	.string "Pensaba que los ROCKET como\n"
 	.string "vosotros no podían dejarse ver así\l"
 	.string "como así en espacios públicos.$"
 
@@ -7620,7 +7620,7 @@ Route18_Text_OrnitologoDefeated:
 
 Route18_OrnitologoPostBattle:
 	.string "Era broma, aquí en FUCSIA somos\n"
-	.string "PRO-ROCKETS.$"
+	.string "PRO-ROCKET.$"
 
 
 Route18_Text_Ornitologo2Intro:
@@ -8390,7 +8390,7 @@ Silph5F_CientificoPostBattle:
 
 Silph5F_Text_PoliciaIntro:
 	.string "Dicen que hay un par de EJECUTIVOS\n"
-	.string "ROCKETS que están dando muchos\l"
+	.string "ROCKET que están dando muchos\l"
 	.string "problemas.$"
 
 

@@ -60,7 +60,7 @@ end
 OneIsland_PokemonCenter_Text_5:
 .string "La gente como tú no pinta nada\n"
 .string "aquí, BILL me habló de vosotros\l"
-.string "ROCKETS, y del lastre que sois\l"
+.string "ROCKET, y del lastre que sois\l"
 .string "para la región, más te vale no\l"
 .string "permanecer en esta isla mucho\l"
 .string "tiempo si no quieres problemas.$"

@@ -240,7 +240,7 @@
       "x": 55,
       "y": 41,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -757,7 +757,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ANDRA_ALTORANGO",
-      "x": 84,
+      "x": 85,
       "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -919,7 +919,7 @@
     },
     {
       "type": "trigger",
-      "x": 52,
+      "x": 53,
       "y": 4,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",

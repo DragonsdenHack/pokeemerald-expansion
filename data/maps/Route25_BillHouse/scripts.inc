@@ -218,7 +218,7 @@ Route25_BillHouse_Evento_Policia_text_12:
 
 Route25_BillHouse_Evento_Policia_text_13:
 .string "¿Qué clase de broma es esta?\n"
-	.string "Los ROCKETS comunes no oponen\l"
+	.string "Los ROCKET comunes no oponen\l"
 	.string "tanta resistencia.\l"
 	.string "¡No vas a salirte con la tuya!$"
 
