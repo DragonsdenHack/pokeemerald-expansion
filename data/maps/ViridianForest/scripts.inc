@@ -188,23 +188,23 @@ applymovement 12, ViridianForest_Combate_Guays_Move_1
 waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_2 MSGBOX_AUTOCLOSE
 playse SE_PIN
-applymovement 13, ViridianForest_Combate_Guays_Move_3
-waitmovement 0x0
-applymovement 13, ViridianForest_Combate_Guays_Move_4
+applymovement 12, ViridianForest_Combate_Guays_Move_3
 waitmovement 0x0
 applymovement 12, ViridianForest_Combate_Guays_Move_4
 waitmovement 0x0
-msgbox ViridianForest_Combate_Guays_Texto_3 MSGBOX_AUTOCLOSE
-applymovement 12, ViridianForest_Combate_Guays_Move_1
+applymovement 13, ViridianForest_Combate_Guays_Move_4
 waitmovement 0x0
-msgbox ViridianForest_Combate_Guays_Texto_4 MSGBOX_AUTOCLOSE
+msgbox ViridianForest_Combate_Guays_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 13, ViridianForest_Combate_Guays_Move_2
 waitmovement 0x0
+msgbox ViridianForest_Combate_Guays_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 12, ViridianForest_Combate_Guays_Move_1
+waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_5 MSGBOX_AUTOCLOSE
-applymovement 12, ViridianForest_Combate_Guays_Move_5
+applymovement 13, ViridianForest_Combate_Guays_Move_5
 waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_6 MSGBOX_AUTOCLOSE
-applymovement 13, ViridianForest_Combate_Guays_Move_5
+applymovement 12, ViridianForest_Combate_Guays_Move_5
 waitmovement 0x0
 msgbox ViridianForest_Combate_Guays_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_VERO_2, ViridianForest_Combate_Guays_Texto_8
@@ -236,7 +236,7 @@ end
 
 ViridianForest_Combate_Guays_Texto_1:
 .string "VERO: ¡Te lo dije!\n"
-	.string "¡PINSIR no era un Pokémon extinto\l"
+	.string "¡PINSIR no era un POKÉMON extinto\l"
 	.string "en este bosque!\l"
 	.string "¡Y hemos tenido la suerte de\l"
 	.string "encontrar a una pareja!$"
@@ -248,7 +248,7 @@ ViridianForest_Combate_Guays_Texto_2:
 	.string "un equipo como el nuestro, el\l"
 	.string "SCYTHER que logramos atrapar en la\l"
 	.string "ZONA SAFARI es el complemento\l"
-	.string "perfecto, dos tipo bicho con los\l"
+	.string "perfecto, dos TIPO BICHO con los\l"
 	.string "que no pueden ni soñar la\l"
 	.string "mediocridad de cazabichos que\l"
 	.string "pululan por aquí.$"
@@ -276,7 +276,7 @@ ViridianForest_Combate_Guays_Texto_5:
 
 ViridianForest_Combate_Guays_Texto_6:
 .string "JUAN: Quiero comprobar eso, ¡un\n"
-	.string "ROCKET con buenos Pokémon!\l"
+	.string "ROCKET con buenos POKÉMON!\l"
 	.string "¡Eso es más difícil que encontrar\l"
 	.string "un PINSIR por estos lugares!$"
 

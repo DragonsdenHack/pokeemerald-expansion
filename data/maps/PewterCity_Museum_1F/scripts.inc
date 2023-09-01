@@ -7,7 +7,30 @@ map_script_2 VAR_UNUSED_0x40F7, 57, PewterCity_Museum_1F_Miguel
 	.2byte 0
 
 PewterMuseum1::
+lock
+faceplayer
+compare VAR_UNUSED_0x40F7, 57
+goto_if_gt PewterMuseum1_2
+msgbox PewterMuseum1_Texto_1 MSGBOX_NPC
+release
 end
+
+PewterMuseum1_2::
+msgbox PewterMuseum1_Texto_2 MSGBOX_NPC
+release
+end
+
+PewterMuseum1_Texto_2:
+.string "Está claro que las apariencias engañan,\n"
+	.string "en el nombre del MUSEO PLATEADA, te doy\l"
+	.string "las gracias por lo que has hecho.\l"
+	.string "Puedes entrar gratis cuando quieras.$"
+
+PewterMuseum1_Texto_1:
+.string "¿Por qué no te cobro la entrada?\n"
+	.string "Sabemos que no váis a pagar de todos\l"
+	.string "modos, pero no te preocupes, cuando os\l"
+	.string "llegue la hora pagaréis todo de golpe.$"
 
 
 

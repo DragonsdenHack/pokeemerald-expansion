@@ -2,7 +2,16 @@ Route1_MapScripts::
 	.byte 0
 
 Route1_1::
+lock
+faceplayer
+msgbox Route1_1_Texto_1 MSGBOX_NPC
+release
 end
+
+Route1_1_Texto_1:
+.string "¿Darte una POCIÓN promocional yo?\n"
+	.string "¡Para qué si ni siquiera podéis entrar a\l"
+	.string "las tiendas!$"
 
 
 Route1_2::

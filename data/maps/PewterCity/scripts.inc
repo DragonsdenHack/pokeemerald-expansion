@@ -367,3 +367,27 @@ walk_up
 walk_up
 walk_up
 step_end
+
+PewterCity_Ayuda::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Ayuda_Move_1
+waitmovement 0x0
+msgbox PewterCity_Ayuda_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Ayuda_Move_2
+waitmovement 0x0
+release
+end
+
+PewterCity_Ayuda_Move_2:
+walk_slow_down
+step_end
+
+PewterCity_Ayuda_Move_1:
+walk_in_place_up
+step_end
+
+
+
+PewterCity_Ayuda_Texto_1:
+.string "(Debería asistir a la reunión de PETREL,\n"
+	.string "en la otra caseta)$"

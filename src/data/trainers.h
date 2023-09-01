@@ -7451,7 +7451,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_CAZABICHOS,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_BUG_CATCHER,
         .trainerName = _("ANTHONY"),
         .items = {},
@@ -7465,7 +7465,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_CAZABICHOS,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_BUG_CATCHER,
         .trainerName = _("CHARLIE"),
         .items = {},

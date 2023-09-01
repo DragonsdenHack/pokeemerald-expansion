@@ -200,6 +200,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "56",
       "script": "PewterCity_Petrel_5"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 7,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "57",
+      "script": "PewterCity_Ayuda"
     }
   ],
   "bg_events": [

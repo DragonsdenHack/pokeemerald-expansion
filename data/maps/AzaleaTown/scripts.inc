@@ -413,6 +413,17 @@ end
 AzaleaTownDocumento_Text_123:
 .string "NIDORAN: ¡Dan!$"
 
+AzaleaTownDocumento_JIGGLYPUFF::
+lock    
+faceplayer
+playmoncry SPECIES_JIGGLYPUFF, CRY_MODE_ENCOUNTER
+msgbox AzaleaTownDocumento_Text_JIGGLYPUFF, MSGBOX_NPC
+release     
+end
+
+AzaleaTownDocumento_Text_JIGGLYPUFF:
+.string "JIGGLYPUFF: ¡Puff!$"
+
 
 
 AzaleaTownDocumento_124::

@@ -2,7 +2,18 @@ PewterCity_House1_MapScripts::
 	.byte 0
 
 PewterCityHouse1_1::
+lock
+faceplayer
+msgbox PewterCityHouse1_1_Texto_1 MSGBOX_NPC
+release
 end
+
+PewterCityHouse1_1_Texto_1:
+.string "No se lo digas a mi padre, pero cuando mi\n"
+	.string "NIDORAN se convierta en NIDOKING me\l"
+	.string "uniré a vosotros. ¡GIOVANNI seguro que\l"
+	.string "me felicita por tener un NIDOKING\l"
+	.string "siendo tan joven! ¿Verdad?$"
 
 
 

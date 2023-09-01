@@ -78,7 +78,7 @@
       "y": 7,
       "elevation": 0,
       "dest_map": "MAP_PALLET_TOWN_BLUE_HOUSE_1F",
-      "dest_warp_id": 1
+      "dest_warp_id": 0
     },
     {
       "x": 16,
@@ -137,6 +137,24 @@
     {
       "type": "trigger",
       "x": 7,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Pueblo_Paleta_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 11,
+      "y": 19,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Pueblo_Paleta_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 6,
       "y": 19,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",
