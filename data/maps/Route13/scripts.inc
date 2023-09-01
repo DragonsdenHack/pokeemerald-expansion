@@ -133,7 +133,7 @@ end
 Route13Documento_Text_101:
 .string "Consejos entrenador:\p"
 	.string "Usa select para cambiar de\n"
-	.string "Iobjetos en su ventana.$"
+	.string "objetos en su ventana.$"
 
 
 

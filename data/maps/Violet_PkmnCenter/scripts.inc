@@ -1,5 +1,18 @@
 Violet_PkmnCenter_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, Violet_PokemonCenter_1F_OnTransition
 	.byte 0
+
+Violet_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_VIOLET_CITY
+	end
+
+Violet_PokemonCenter_1F_EventScript_Nurse::
+    setvar VAR_0x800B, 1
+    call Common_EventScript_PkmnCenterNurse
+    waitmessage
+    waitbuttonpress
+    release
+    end
 
 VioletPkmnCenter_1::
 end

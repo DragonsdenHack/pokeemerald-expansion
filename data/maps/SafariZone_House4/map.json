@@ -2,7 +2,7 @@
   "id": "MAP_SAFARI_ZONE_HOUSE4",
   "name": "SafariZone_House4",
   "layout": "LAYOUT_SAFARI_ZONE_HOUSE4",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_EVOLUTION",
   "region_map_section": "MAPSEC_SAFARI_ZONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

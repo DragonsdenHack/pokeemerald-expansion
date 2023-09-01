@@ -182,18 +182,18 @@ lock
 applymovement OBJ_EVENT_ID_PLAYER, PowerPlant_Encuentro_Petrel_Move_1
 waitmovement 0x0
 playse SE_PIN
-applymovement 20, PowerPlant_Encuentro_Petrel_Move_2
+applymovement 19, PowerPlant_Encuentro_Petrel_Move_2
 waitmovement 0x0
 msgbox PowerPlant_Encuentro_Petrel_Texto_1 MSGBOX_AUTOCLOSE
-applymovement 20, PowerPlant_Encuentro_Petrel_Move_3
+applymovement 19, PowerPlant_Encuentro_Petrel_Move_3
 waitmovement 0x0
 msgbox PowerPlant_Encuentro_Petrel_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PowerPlant_Encuentro_Petrel_Texto_3 MSGBOX_AUTOCLOSE
-applymovement 20, PowerPlant_Encuentro_Petrel_Move_4
+applymovement 19, PowerPlant_Encuentro_Petrel_Move_4
 waitmovement 0x0
 setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
-removeobject 20
+removeobject 19
 setvar VAR_UNUSED_0x40F7, 70
 release
 end

@@ -9,8 +9,8 @@ release
 end
 
 Route16_Path2F_Text_1:
-.string "¡No te acerques a mi ROCKET, como\n"
-.string "me vean relacionarme con alguien\l"
+.string "¡No te acerques a mí ROCKET, como\n"
+.string "me vean interactuando con alguien\l"
 .string "como tú nadie querrá ser mi amigo!$"
 
 

@@ -1,5 +1,18 @@
 Azalea_PkmnCenter_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, Azalea_PokemonCenter_1F_OnTransition
 	.byte 0
+
+Azalea_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_AZALEA_TOWN
+	end
+
+Azalea_PokemonCenter_1F_EventScript_Nurse::
+    setvar VAR_0x800B, 1
+    call Common_EventScript_PkmnCenterNurse
+    waitmessage
+    waitbuttonpress
+    release
+    end
 
 AzaleaPkmnCenter1::
 end

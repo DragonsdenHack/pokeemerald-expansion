@@ -95,6 +95,9 @@ RocketHideout8F_2::
 end
 
 RocketHideout_8F_Mision_Articuno_Zapdos::
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4
+removeobject 7
+removeobject 8
 lockall
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Articuno_Zapdos_Move_1
 waitmovement 0x0
@@ -314,7 +317,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15:
 	.string "defensas, en aquellos POKÉMON que aún\l"
 	.string "pueden evolucionar. Con ello tu GOLBAT\l"
 	.string "aguantará de una forma extraordinaria,\l"
-	.string "no solo GOLBAT, MAGMAR, ELECTABUZZ,\l"
+	.string "no solo GOLBAT; MAGMAR, ELECTABUZZ,\l"
 	.string "SCYTHER o RHYDON son algunos de los\l"
 	.string "mejores usuarios de este objeto. Úsalo\l"
 	.string "sabiamente.$"
@@ -481,6 +484,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_28:
 	.string "mismo!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Move_1:
+walk_up
 walk_up
 walk_up
 walk_up

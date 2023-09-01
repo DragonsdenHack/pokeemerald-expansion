@@ -7441,7 +7441,7 @@ Route14_Text_Motorista3Defeated:
 
 Route14_Motorista3PostBattle:
 	.string "¡Ha sido un honor combatir contra\n"
-	.string "uno de los ROCKETS del momento!$"
+	.string "uno de los ROCKET del momento!$"
 
 
 Route14_Text_Motorista4Intro:
@@ -7478,7 +7478,7 @@ Route15_MotoristaPostBattle:
 
 
 Route15_Text_Motorista2Intro:
-	.string "¿Cómo va PETREL RECLUTA?$"
+	.string "¿Cómo va PETREL, RECLUTA?$"
 
 
 Route15_Text_Motorista2Defeated:
@@ -7553,7 +7553,7 @@ Route15_OrnitologoPostBattle:
 
 
 Route15_Text_Ornitologo2Intro:
-	.string "Vosotros los ROCKETS no apreciáis\n"
+	.string "Vosotros los ROCKET no apreciáis\n"
 	.string "la belleza de los POKÉMON PÁJARO.$"
 
 
@@ -7594,7 +7594,7 @@ Route15_Chica3PostBattle:
 
 
 Route15_Text_Chica4Intro:
-	.string "¡Los MOTORISTAS y ROCKETS como tú\n"
+	.string "¡Los MOTORISTAS y ROCKET como tú\n"
 	.string "me dáis miedo!$"
 
 
@@ -7604,7 +7604,7 @@ Route15_Text_Chica4Defeated:
 
 Route15_Chica4PostBattle:
 	.string "Tú pareces no tener la maldad de\n"
-	.string "otros ROCKETS a pesar de ser mucho\l"
+	.string "otros ROCKET a pesar de ser mucho\l"
 	.string "más fuerte.$"
 
 
@@ -7737,7 +7737,7 @@ Route17_Motorista6PostBattle:
 
 
 Route17_Text_Motorista7Intro:
-	.string "¡Los ROCKETS mandan en las calles\n"
+	.string "¡Los ROCKET mandan en las calles\n"
 	.string "y nosotros en las carreteras!$"
 
 
@@ -7827,7 +7827,7 @@ Route16_Motorista2PostBattle:
 
 
 Route16_Text_Motorista3Intro:
-	.string "Es raro ver a un Rocket de tu\n"
+	.string "Es raro ver a un ROCKET de tu\n"
 	.string "nivel por aquí.$"
 
 
@@ -8011,7 +8011,7 @@ Route19_NadadoraPostBattle:
 
 
 Route19_Text_Nadadora2Intro:
-	.string "Creía que los ROCKETS teníais\n"
+	.string "Creía que los ROCKET teníais\n"
 	.string "prohibido usar SURF, de hecho\l"
 	.string "tenéis prohibido luchar siquiera\l"
 	.string "por la MEDALLA que lo concede.$"
@@ -8044,7 +8044,7 @@ Route19_Nadadora3PostBattle:
 
 
 Route20_Text_NadadorIntro:
-	.string "No es muy común ver a Rockets por\n"
+	.string "No es muy común ver un ROCKET por\n"
 	.string "aquí, ¿qué tramas?$"
 
 

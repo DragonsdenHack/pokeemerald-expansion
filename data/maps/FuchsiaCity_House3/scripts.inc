@@ -7,7 +7,20 @@ end
 
 
 FuchsiaCityHouse3_3::
+lock
+faceplayer
+msgbox FuchsiaCityHouse3_3_Texto_1 MSGBOX_NPC
+release
 end
+
+FuchsiaCityHouse3_3_Texto_1:
+.string "Todo se basa en contactos, yo me llevo\n"
+	.string "bien con el mismísimo OAK y le hago\l"
+	.string "favores. El GURÚ de FUCSIA es famoso\l"
+	.string "en todo el mundo gracias a mis\l"
+	.string "influencias, el mundo funciona así. Los\l"
+	.string "que no tienen nada que ofrecer, como\l"
+	.string "tú, son borrados de la historia.$"
 
 
 

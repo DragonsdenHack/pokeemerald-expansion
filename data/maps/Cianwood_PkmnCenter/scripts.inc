@@ -1,5 +1,18 @@
 Cianwood_PkmnCenter_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, Cianwood_PokemonCenter_1F_OnTransition
 	.byte 0
+
+Cianwood_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_CIANWOOD_CITY
+	end
+
+Cianwood_PokemonCenter_1F_EventScript_Nurse::
+    setvar VAR_0x800B, 1
+    call Common_EventScript_PkmnCenterNurse
+    waitmessage
+    waitbuttonpress
+    release
+    end
 
 CianwoodPkmnCenter1::
 end

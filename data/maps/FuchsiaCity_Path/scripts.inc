@@ -122,10 +122,10 @@ FuchsiaCity_Path_Barrera_Texto_1:
 	.string "creíste que ibamos a dejarte\l"
 	.string "entrar?\l"
 	.string "Las leyes del COMITÉ de la LIGA\l"
-	.string "son claras: los ROCKETS no tienen\l"
+	.string "son claras: los ROCKET no tienen\l"
 	.string "acceso a ningún servicio\l"
 	.string "exceptuando el CENTRO POKÉMON,\l"
-	.string "¡date media vuelta sino quieres\l"
+	.string "¡date media vuelta si no quieres\l"
 	.string "problemas!$"
 
 FuchsiaCity_Path_Barrera_Texto_2:
