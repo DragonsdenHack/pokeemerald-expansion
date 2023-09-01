@@ -10,7 +10,7 @@ end
 
 PokemonTower2F_Text_2:
 .string "Ni siquiera pudimos identificar a\n"
-.string "los GHOSTS.\l"
+.string "los GHOST.\l"
 .string "Quizás un SCOPE SILPH pueda\l"
 .string "desenmascararlos.$"
 
@@ -148,7 +148,7 @@ PokemonTower2F_Azul_Texto_1:
 .string "AZUL: Así que ya estás aquí...$"
 
 PokemonTower2F_Azul_Texto_2:
-.string "Los otros Reclutas están ya en los\n"
+.string "Los otros ROCKET están ya en los\n"
 	.string "pisos superiores causando\l"
 	.string "disturbios y atrapando CUBONES, si\l"
 	.string "ese tal FUJI adora tanto este\l"

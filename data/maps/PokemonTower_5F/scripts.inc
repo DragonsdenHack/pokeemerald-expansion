@@ -73,6 +73,22 @@ PokemonTower5F_EventScript_Channeler4::
 	msgbox PokemonTower5F_Text_Channeler4PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+PokemonTower5F_Curacion::
+fadescreen 3
+delay 30
+special HealPlayerParty
+fadescreen 2
+msgbox PokemonTower5F_Curacion_Texto_1 MSGBOX_AUTOCLOSE
+lock
+release
+end
+
+PokemonTower5F_Curacion_Texto_1:
+.string "Has entrado en una zona de pureza y\n"
+	.string "seguridad. ¡Todos tus POKÉMON\l"
+	.string "volvieron a recuperar la forma!$"
+
+
 
 Callate1::
 lock

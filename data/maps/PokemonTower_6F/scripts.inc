@@ -269,50 +269,58 @@ step_end
 PokemonTower_6F_Cultistas::
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_3
 addobject 12
-addobject 13
-addobject 14
 playse SE_PIN
+special HealPlayerParty
 applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_1
-applymovement 13, PokemonTower_6F_Cultistas_Move_2
+applymovement 12, PokemonTower_6F_Cultistas_Move_2
 waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_1 MSGBOX_AUTOCLOSE
-applymovement 14, PokemonTower_6F_Cultistas_Move_3
-waitmovement 0x0
+delay 20
 msgbox PokemonTower_6F_Cultistas_Texto_2 MSGBOX_AUTOCLOSE
-applymovement 12, PokemonTower_6F_Cultistas_Move_4
-waitmovement 0x0
+delay 20
 msgbox PokemonTower_6F_Cultistas_Texto_3 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_5
-waitmovement 0x0
-msgbox PokemonTower_6F_Cultistas_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 12, PokemonTower_6F_Cultistas_Move_6
 waitmovement 0x0
+msgbox PokemonTower_6F_Cultistas_Texto_4 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3 
 msgbox PokemonTower_6F_Cultistas_Texto_5 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_GRUNT_MUSEUM_2, PokemonTower_6F_Cultistas_Texto_6
-applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_7
-waitmovement 0x0
-applymovement 14, PokemonTower_6F_Cultistas_Move_6
-waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_7 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_GRUNT_SPACE_CENTER_1, PokemonTower_6F_Cultistas_Texto_8
-applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_7
+applymovement 12, PokemonTower_6F_Cultistas_Move_2.1
+waitmovement 0x0
+msgbox PokemonTower_6F_Cultistas_Texto_8 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower_6F_Cultistas_Move_6
 waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_9 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_GRUNT_MT_PYRE_1, PokemonTower_6F_Cultistas_Texto_10
-applymovement OBJ_EVENT_ID_PLAYER, PokemonTower_6F_Cultistas_Move_7
+delay 15
+msgbox PokemonTower_6F_Cultistas_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 12, PokemonTower_6F_Cultistas_Move_6
 waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_11 MSGBOX_AUTOCLOSE
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+applymovement 12, PokemonTower_6F_Cultistas_Move_2.2
+waitmovement 0x0
 msgbox PokemonTower_6F_Cultistas_Texto_12 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
 removeobject 12
-removeobject 13
-removeobject 14
 fadescreen 0
 setvar VAR_UNUSED_0x40F7, 49
 release
 end
+
+PokemonTower_6F_Cultistas_Move_2.2:
+face_left
+delay_8
+delay_8
+walk_in_place_left
+step_end
+
+PokemonTower_6F_Cultistas_Move_2.1:
+face_up
+step_end
 
 PokemonTower_6F_Cultistas_Texto_1:
 .string "????: De modo que tú eres el tipo\n"
@@ -320,58 +328,57 @@ PokemonTower_6F_Cultistas_Texto_1:
 	.string "alboroto en este lugar sagrado.$"
 
 PokemonTower_6F_Cultistas_Texto_2:
-.string "????: Y el tipo que tiene\n"
-	.string "secuestrado a FUJI.$"
+.string "... ...$"
 
 PokemonTower_6F_Cultistas_Texto_3:
-.string "????: Nadie que atente contra la\n"
-	.string "espiritualidad de este bendito\l"
-	.string "lugar sale de aquí.$"
+.string "Hmm... Ciertamente, esperaba otra cosa.\n"
+	.string "No pareces estar atado por las mismas\l"
+	.string "cadenas que dominan la vida de la gran\l"
+	.string "mayoría.$"
 
 PokemonTower_6F_Cultistas_Texto_4:
-.string "????: De modo que nos desafías,\n"
-	.string "acabas de condenar tu alma chico.$"
+.string "A pesar del pobre entorno que domina la\n"
+	.string "KANTO actual, tu voluntad permanece\l"
+	.string "intacta. Más aún, tu potencialidad no\l"
+	.string "se ha malogrado.$"
 
 PokemonTower_6F_Cultistas_Texto_5:
-.string "????: Nuestro CULTO no hace\n"
-	.string "prisioneros, ¡prepárate para la\l"
-	.string "aniquilación de tu espíritu!$"
+.string "Pero... nada te exhime de lo que acabas\n"
+	.string "de hacer. Deberás explicarte en el\l"
+	.string "campo de batalla.$"
 
 PokemonTower_6F_Cultistas_Texto_6:
-.string "¡Perdóname milord!$"
+.string "Ya veo... nada es lo que parece.$"
 
 PokemonTower_6F_Cultistas_Texto_7:
-.string "Pobre ROCKET, no reirás tanto\n"
-	.string "cuando seas ofrecido en sacrificio\l"
-	.string "a nuestro señor.\l"
-	.string "¡En guardia!$"
+.string "Entonces tus actos responden a un fin\n"
+	.string "mayor... No es la primera vez que oigo\l"
+	.string "eso, pero está claro que estás en una\l"
+	.string "capa de la realidad superior a la que\l"
+	.string "pensaba.$"
 
 PokemonTower_6F_Cultistas_Texto_8:
-.string "¡No!\n"
-	.string "¡Seré sacrificado por mi derrota!$"
+.string "Déjame darte un consejo, chico. Mantén\n"
+	.string "esa esencia que te carateriza, no\l"
+	.string "dejes que nadie la corrompa.$"
 
 PokemonTower_6F_Cultistas_Texto_9:
-.string "Así que tenemos a un hereje que se\n"
-	.string "niega a dejarnos pasar, como\l"
-	.string "CULTISTA de mayor rango aquí te\l"
-	.string "daré el golpe de gracia.\l"
-	.string "¡Siglos de historia se abalanzarán\l"
-	.string "sobre ti!$"
+.string "Eres bueno, pero no tanto como crees;\n"
+	.string "podrías ser magnífico si te mantienes\l"
+	.string "en el camino que dicte tu voluntad.$"
 
 PokemonTower_6F_Cultistas_Texto_10:
-.string "¡No es posible!$"
+.string "Solo entonces... podrás ver KANTO y\n"
+	.string "PUEBLO LAVANDA en todo su esplendor.$"
 
 PokemonTower_6F_Cultistas_Texto_11:
-.string "... ... ...$"
+.string "Este mundo es mucho más amplio que los\n"
+	.string "yugos que someten KANTO, solo espero\l"
+	.string "que puedas vivir para verlo. Deja que\l"
+	.string "cure a tu equipo POKÉMON.$"
 
 PokemonTower_6F_Cultistas_Texto_12:
-.string "CULTISTA: Tu nivel no encaja con\n"
-	.string "el paradigma establecido, nos has\l"
-	.string "pillado por sorpresa pero te lo\l"
-	.string "advierto: no te metas con poderes\l"
-	.string "más grandes que tu propia\l"
-	.string "existencia si quieres seguir\l"
-	.string "viviendo.$"
+.string "Prosigue tu camino.$"
 
 PokemonTower_6F_Cultistas_Move_1:
 emote_exclamation_mark

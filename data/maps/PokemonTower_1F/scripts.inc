@@ -123,8 +123,7 @@ clearflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
 clearflag FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE                        
 clearflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE         
 clearflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE         
-clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                          
-clearflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                          
+clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA                                                    
 setvar VAR_UNUSED_0x40F7, 45
 release
 end                 

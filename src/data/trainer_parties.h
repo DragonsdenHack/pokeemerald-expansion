@@ -562,28 +562,20 @@ static const struct TrainerMonNoItemCustomMoves sParty_Ghost[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_GruntMuseum2[] = {
     {
-    .iv = 0,
-    .lvl = 28,
-    .species = SPECIES_DROWZEE,
+    .iv = 255,
+    .lvl = 32,
+    .species = SPECIES_MISDREAVUS,
     .evs = {0, 0, 0, 0, 0, 0},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_PSYBEAM, MOVE_ICE_PUNCH, MOVE_THUNDER_PUNCH, MOVE_HYPNOSIS}
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_PSYBEAM, MOVE_SHADOW_BALL, MOVE_CONFUSE_RAY, MOVE_HYPNOSIS}
     },
     {
-    .iv = 0,
-    .lvl = 29,
-    .species = SPECIES_KADABRA,
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_XATU,
     .evs = {0, 0, 0, 0, 0, 0},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_PSYBEAM, MOVE_SUBMISSION, MOVE_SHOCK_WAVE, MOVE_REFLECT}
-    },
-    {
-    .iv = 0,
-    .lvl = 30,
-    .species = SPECIES_GOLBAT,
-    .evs = {0, 0, 0, 0, 0, 0},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_WING_ATTACK, MOVE_BITE, MOVE_GIGA_DRAIN, MOVE_HEAT_WAVE}
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_PSYBEAM, MOVE_AIR_SLASH, MOVE_ROOST, MOVE_REFLECT}
     }
 };
 

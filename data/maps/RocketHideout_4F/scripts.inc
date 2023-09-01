@@ -1120,7 +1120,7 @@ release
 end
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_1:
-.string "GIOVANNI: ¡{PLAYER} qué oportuno!\n"
+.string "GIOVANNI: ¡{PLAYER}, qué oportuno!\n"
 	.string "Ya me han informado de tu\l"
 	.string "excelente trabajo quitándole de\l"
 	.string "las manos a ese oportunista al\l"
@@ -1880,6 +1880,7 @@ waitmovement 0x0
 goto RocketHideout_4F_Giovanni_Mision_Base_Profunda
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda::
+setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_1 MSGBOX_AUTOCLOSE
 playse SE_SHOP
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_3
@@ -1899,7 +1900,7 @@ delay 40
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_OBTAIN_TMHM
-givemon SPECIES_KABUTO, 28, ITEM_MYSTIC_WATER
+givemon SPECIES_CUBONE, 20, ITEM_THICK_CLUB
 msgbox RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_5 MSGBOX_DEFAULT
 waitfanfare
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Base_Profunda_Move_4
