@@ -11,7 +11,7 @@ end
 Route2_House1_Text_1:
 .string "Cuando el sistema legal funcione\n"
 .string "como debe de funcionar de una\l"
-.string "maldita vez vosotros los ROCKETS\l"
+.string "maldita vez vosotros los ROCKET\l"
 .string "dejaréis al fin de carroñear las\l"
 .string "migajas que os dejamos, es lo\l"
 .string "único que os queda dentro de\l"

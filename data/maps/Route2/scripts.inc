@@ -87,3 +87,14 @@ end
 Route2Documento_Text_101:
 .string "RUTA 2\n"
 	.string "CIUDAD VERDE - CIUDAD PLATEADA$"
+
+Route2_Cazabichos::
+lock
+msgbox Route2_Cazabichos_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Route2_Cazabichos_Texto_1:
+.string "Si tuviera un SCYTHER, todos en el\n"
+	.string "BOSQUE VERDE me respetarían, y este\l"
+	.string "árbol desaparecería de un solo tajo...$"

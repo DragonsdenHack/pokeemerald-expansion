@@ -6441,7 +6441,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_viridian_gym",
+      "secondary_tileset": "gTileset_PokemonCenter",
       "border_filepath": "data/layouts/NewMap2/border.bin",
       "blockdata_filepath": "data/layouts/NewMap2/map.bin"
     },

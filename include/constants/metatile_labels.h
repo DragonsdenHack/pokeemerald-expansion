@@ -104,7 +104,13 @@
 #define METATILE_BikeShop_Wall_Edge_Top            0x281
 
 // gTileset_BrendansMaysHouse
-#define METATILE_BrendansMaysHouse_BookOnTable  0x293
+#define METATILE_BrendansMaysHouse_BookOnTable       0x293
+#define METATILE_BrendansMaysHouse_BrendanPC_Off     0x25A
+#define METATILE_BrendansMaysHouse_BrendanPC_On      0x27F
+#define METATILE_BrendansMaysHouse_MayPC_Off         0x259
+#define METATILE_BrendansMaysHouse_MayPC_On          0x27E
+#define METATILE_BrendansMaysHouse_MovingBox_Closed  0x268
+#define METATILE_BrendansMaysHouse_MovingBox_Open    0x270
 
 // gTileset_Building
 #define METATILE_Building_PC_Off  0x004
@@ -257,16 +263,13 @@
 #define METATILE_General_Door_Gym                0x1CD
 #define METATILE_General_Door_PokeCenter         0x061
 #define METATILE_General_Door_PokeMart           0x041
-#define METATILE_General_Grass                   0x001
 #define METATILE_General_Grass_TreeLeft          0x1CE
 #define METATILE_General_Grass_TreeRight         0x1CF
-#define METATILE_General_Grass_TreeUp            0x00E
 #define METATILE_General_LongGrass               0x015
 #define METATILE_General_MuddySlope_Frame0       0x0E8
 #define METATILE_General_MuddySlope_Frame1       0x0E9
 #define METATILE_General_MuddySlope_Frame2       0x0EA
 #define METATILE_General_MuddySlope_Frame3       0x0EB
-#define METATILE_General_Plain_Grass             0x00D
 #define METATILE_General_Plain_Mowed             0x001
 #define METATILE_General_RedCaveIndent           0x1A0
 #define METATILE_General_RedCaveOpen             0x1A1
