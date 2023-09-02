@@ -73,6 +73,7 @@ msgbox RocketHideout_6F_Escena_Lance_Texto_10 MSGBOX_AUTOCLOSE
 applymovement 1, IndigoPlateau_Lance_Discurso_move_5
 delay 30
 playse SE_SLIDING_DOOR
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 removeobject 1
 setvar VAR_UNUSED_0x40F7, 31

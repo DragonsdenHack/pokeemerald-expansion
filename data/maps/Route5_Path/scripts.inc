@@ -2,7 +2,26 @@ Route5_Path_MapScripts::
 	.byte 0
 
 Route5Path_1::
+lock
+compare VAR_UNUSED_0x40F7, 74
+goto_if_gt Route5Path_2
+msgbox Route5Path_1_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
+
+Route5Path_2::
+msgbox Route5Path_1_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Route5Path_1_Texto_2:
+.string "Los ROCKET tenéis los días contados.\n"
+	.string "No habrá lugar en KANTO para vosotros.$"
+
+Route5Path_1_Texto_1:
+.string "Os creéis muy graciosos por invadir la\n"
+	.string "ciudad, ¿verdad, ROCKET? Solo espera y\l"
+	.string "verás.$"
 
 Route5_Path_Frontera::
 lock

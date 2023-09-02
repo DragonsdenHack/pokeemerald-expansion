@@ -8260,7 +8260,7 @@ Silph2F_PoliciaPostBattle:
 
 Silph2F_Text_Policia2Intro:
 	.string "¡Os habéis metido con la empresa\n"
-	.string "equivocada ROCKETS!$"
+	.string "equivocada ROCKET!$"
 
 
 Silph2F_Text_Policia2Defeated:
@@ -8268,7 +8268,7 @@ Silph2F_Text_Policia2Defeated:
 
 
 Silph2F_Policia2PostBattle:
-	.string "Nuestra seguridad en\n"
+	.string "Nuestra seguridad es\n"
 	.string "infranqueable, jamás llegaréis\l"
 	.string "hasta nuestro PRESIDENTE.$"
 

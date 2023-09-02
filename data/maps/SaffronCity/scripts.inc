@@ -820,5 +820,5 @@ walk_in_place_down
 step_end
 
 Silph_Barrera_Move_2:
-walk_slow_up
+walk_slow_down
 step_end

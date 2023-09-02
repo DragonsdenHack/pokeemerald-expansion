@@ -660,7 +660,6 @@ waitse
 playse SE_M_SOLAR_BEAM
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
 delay 100
-setdisguise [468]
 setvar VAR_UNUSED_0x40F7, 802
 warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
 
@@ -706,14 +705,20 @@ delay 20
 msgbox RocketHideout_8F_Mision_Silph_text_14 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 1, RocketHideout8F_Mision_Johto_move_12.7
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12.75
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_15 MSGBOX_AUTOCLOSE
 setflag FLAG_NUEVA_790
 clearflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
-warpsilent MAP_ROUTE27, 37, 12
 call Script_SetGrayscaleTint
+warpsilent MAP_ROUTE27, 37, 12
+delay 200
 release
 end
+
+RocketHideout8F_Mision_Johto_move_12.75:
+walk_in_place_up
+step_end
 
 RocketHideout8F_Mision_Johto_move_12.7:
 walk_left
@@ -3105,7 +3110,6 @@ waitse
 playse SE_M_SOLAR_BEAM
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
 delay 100
-setdisguise [240]
 setvar VAR_UNUSED_0x40F7, 808
 warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
 

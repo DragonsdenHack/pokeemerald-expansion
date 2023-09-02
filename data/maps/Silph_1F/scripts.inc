@@ -413,7 +413,7 @@ step_end
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_1:
 .string "¡Jamás olvidaré lo que habéis\n"
-	.string "hecho aquí ROCKETS!$"
+	.string "hecho aquí ROCKET!$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2:
 .string "...\n"

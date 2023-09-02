@@ -17,7 +17,17 @@ end
 
 
 Silph9F_4::
+lock
+msgbox Silph9F_4_Texto_1 MSGBOX_AUTOCLOSE
+release
 end
+
+Silph9F_4_Texto_1:
+.string "¿Curarte? ¿Para que nos sigas\n"
+	.string "invadiendo? En los centros públicos os\l"
+	.string "curan porque se ven obligados por ley,\l"
+	.string "nosotros somos una empresa privada,\l"
+	.string "¡ojalá todos tus POKÉMON se debiliten!$"
 
 
 

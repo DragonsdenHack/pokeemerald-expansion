@@ -101,6 +101,7 @@ Route27_EventScript_Guay::
 	end
 
 Route27_Escena_Lance::
+call Script_SetGrayscaleTint
 playse MUS_CAVE_OF_ORIGIN
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route27_Escena_Lance_Move_1
