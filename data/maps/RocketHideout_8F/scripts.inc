@@ -1565,6 +1565,8 @@ walk_down
 step_end
 
 RocketHideout_8F_Mision_Gimnasios::
+setflag FLAG_HIDE_ROUTE_103_RIVAL
+removeobject 6
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
 removeobject 2
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
@@ -1654,6 +1656,8 @@ playse MUS_RG_OBTAIN_KEY_ITEM
 addobject ITEM_TRI_PASS
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_23.1 MSGBOX_DEFAULT
 waitse
+setflag FLAG_HIDE_ROUTE_103_RIVAL
+removeobject 6
 applymovement 1, RocketHideout_8F_Mision_Gimnasios_move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_24 MSGBOX_AUTOCLOSE
@@ -1671,7 +1675,7 @@ waitmovement 0x0
 playse MUS_RG_VICTORY_GYM_LEADER
 msgbox RocketHideout_8F_Mision_Gimnasios_texto_30 MSGBOX_DEFAULT
 delay 110
-playse MUS_RG_ROCKET_HIDEOUT
+playse 560
 delay 15
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_9
@@ -1796,7 +1800,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_10:
 	.string "cualquier ENTRENADOR en posesión\l"
 	.string "de estos LEGENDARIOS habrá\l"
 	.string "incurrido en prácticas ilegales\l"
-	.string "que de ningún modo aprobamos-$"
+	.string "que de ningún modo aprobamos-.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_11:
 .string "GIOVANNI: ...$"
@@ -1953,7 +1957,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_34:
 	.string "derrotad a todos los LÍDERES de\l"
 	.string "KANTO, y os daré la última MEDALLA\l"
 	.string "de igual forma que he hecho con\l"
-	.string "AZUL$"
+	.string "AZUL.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_35:
 .string "ANDRA: ¡No puedo aguantar más!\n"

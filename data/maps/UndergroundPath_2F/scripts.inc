@@ -7,17 +7,42 @@ end
 
 
 UndergroundPath2F_3::
+lock
+msgbox UndergroundPath2F_3_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+UndergroundPath2F_3_Texto_1:
+.string "Jojojo... Verás cuando todos vean mi\n"
+	.string "reluciente FLAREON.$"
 
 
 
 UndergroundPath2F_4::
+lock
+msgbox UndergroundPath2F_4_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+UndergroundPath2F_4_Texto_1:
+.string "La especulación con EEVEE está en\n"
+	.string "auge, si compro 5 y los mantengo varios\l"
+	.string "años, puedo ganar el doble de lo\l"
+	.string "invertido.$"
 
 
 
 UndergroundPath2F_5::
+lock
+msgbox UndergroundPath2F_5_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+UndergroundPath2F_5_Texto_1:
+.string "Un VAPOREON es lo que necesito para\n"
+	.string "completar mi espectáculo, cuando use\l"
+	.string "ARMADURA ÁCIDA bajo el agua, todos\l"
+	.string "quedarán impresionados.$"
 
 UndergroundPath2F_Andra::
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath2F_Andra_move_1
@@ -381,9 +406,9 @@ UndergroundPath2F_Secundaria_Eevees_Texto_4:
 .string "¿Qué problema tienes ROCKET?\n"
 	.string "¡Si quieres un EEVEE ponte a la\l"
 	.string "cola como todos, espero que tengas\l"
-	.string "el millón de POKÉS que cuesta,\l"
-	.string "sino no me hagas perder más el\l"
-	.string "tiempo y regresa a tu...$"
+	.string "el millón de POKÉS que cuesta.\l"
+	.string "De lo contrario, no me hagas perder\l"
+	.string "más el tiempo y regresa a tu...$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_5:
 .string "¿Te envía ese ingenuo CIENTÍFICO\n"

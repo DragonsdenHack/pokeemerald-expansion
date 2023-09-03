@@ -131,6 +131,7 @@ playse SE_POKENAV_HANG_UP
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 msgbox PokemonMansion_4F_Blaine_Fuji_Texto_15 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 playse SE_POKENAV_OFF
 setvar VAR_UNUSED_0x40F7, 76
 release

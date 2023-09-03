@@ -268,6 +268,7 @@ waitmovement 0x0
 clearflag FLAG_NUEVA_839
 msgbox Silph_11F_Bill_Presidente_Texto_41 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 setvar VAR_UNUSED_0x40F7, 75
 warpsilent MAP_ROCKET_HIDEOUT_5F, 2, 2
 release
