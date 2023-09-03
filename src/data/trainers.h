@@ -5631,7 +5631,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_GUAY,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_COOL_TRAINER_M,
         .trainerName = _("WARREN"),
         .items = {},

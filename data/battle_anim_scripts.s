@@ -38,7 +38,7 @@ gBattleAnims_Moves::
 	.4byte Move_GUST
 	.4byte Move_WING_ATTACK
 	.4byte Move_WHIRLWIND
-	.4byte Move_FLY
+	.4byte 
 	.4byte Move_BIND
 	.4byte Move_SLAM
 	.4byte Move_VINE_WHIP

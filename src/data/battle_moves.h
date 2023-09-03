@@ -1382,7 +1382,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_THUNDER] =
     {
         #if B_UPDATED_MOVE_DATA >= GEN_6
-            .power = 110,
+            .power = 120,
         #else
             .power = 120,
         #endif
@@ -7274,7 +7274,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_ROAR_OF_TIME] =
     {
         .effect = EFFECT_RECHARGE,
-        .power = 150,
+        .power = 180,
         .type = TYPE_DRAGON,
         .accuracy = 90,
         .pp = 5,
@@ -7288,7 +7288,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
     [MOVE_SPACIAL_REND] =
     {
         .effect = EFFECT_HIT,
-        .power = 100,
+        .power = 110,
         .type = TYPE_DRAGON,
         .accuracy = 95,
         .pp = 5,

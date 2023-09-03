@@ -46,6 +46,7 @@ SaffronCityHouse12FDocumento_Text_101:
 
 SaffronCityHouse12FDocumento_102::
 msgbox SaffronCityHouse12FDocumento_Text_102, MSGBOX_DEFAULT  
+release
 end
 
 SaffronCityHouse12FDocumento_Text_102:

@@ -117,7 +117,7 @@ end
 
 SafariZone_House4_Text_8:
 .string "No pienso dejar nunca a SABRINA.\n"
-.string "¡Aunque sea su única fan!.\p"
+.string "¡Aunque sea su única fan!\p"
 .string "Mi sueño es llegar a ser como\n"
 .string "ella; dulce, pero guay a la vez.\p"
 .string "¡Y dominar los poderes psíquicos,\n"
