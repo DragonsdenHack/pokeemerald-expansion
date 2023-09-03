@@ -320,8 +320,8 @@ end
 CeruleanCityGym_Can_Pass_Texto_1:
 .string "¡Es imposible! ... ... LICENCIA forjada en\n"
 	.string "los históricos despachos del CG de la\l"
-	.string "LIGA POKÉMON de KANTO. ... ... ¡Disúlpeme\l"
-	.string "señor! ¡Puede uster entrar a nuestro\l"
+	.string "LIGA POKÉMON de KANTO. ... ¡Disúlpeme\l"
+	.string "señor! ¡Puede usted entrar a nuestro\l"
 	.string "humilde GIMNASIO!$"
 
 
@@ -616,7 +616,7 @@ release
 end
 
 Cinnabar_Gym_Can_Pass_Texto_1:
-.string "... ... ¡No puede ser! ¡LICENCIA aprobada\n"
+.string "... ¡No puede ser! ¡LICENCIA aprobada\n"
 	.string "y firmada por el propio LANCE! ¡Sale\l"
 	.string "incluso tu foto y número de\l"
 	.string "ENTRENADOR! Perdone el malentendido\l"

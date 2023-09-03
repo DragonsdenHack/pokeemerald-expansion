@@ -142,6 +142,7 @@ delay 15
 applymovement 12, ViridianCity_Gym_Escena_8_Move_1
 setvar VAR_UNUSED_0x40F7, 83
 delay 50
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 warpsilent MAP_ROCKET_HIDEOUT_VIRIDIAN, 24, 7
 release
 end

@@ -199,6 +199,13 @@ addobject ITEM_TM04_CALM_MIND
 msgbox SaffronCity_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox SaffronCity_Lider_Gimnasio_Texto_3 MSGBOX_AUTOCLOSE
+settrainerflag TRAINER_JENNY_2
+settrainerflag TRAINER_CARLEE
+settrainerflag TRAINER_LAUREL
+settrainerflag TRAINER_KAREN_4
+settrainerflag TRAINER_GEORGIA
+settrainerflag TRAINER_KAREN_2
+settrainerflag TRAINER_KAREN_3
 setvar VAR_ROUTE105_STATE, 3
 release
 end
@@ -369,6 +376,9 @@ addobject ITEM_TM34_SHOCK_WAVE
 msgbox Vermilion_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Vermilion_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+settrainerflag TRAINER_WINSTON_5
+settrainerflag TRAINER_ETHAN_4
+settrainerflag TRAINER_LAO_5
 setvar VAR_ROUTE108_STATE, 3
 release
 end
@@ -507,6 +517,7 @@ msgbox Pewter_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Pewter_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE111_STATE, 3
+settrainerflag TRAINER_STEVE_1
 release
 end
 
@@ -650,6 +661,8 @@ addobject ITEM_TM03_WATER_PULSE
 msgbox Cerulean_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 setvar VAR_ROUTE109_STATE, 3
+settrainerflag TRAINER_BLAKE
+settrainerflag TRAINER_LUIS
 release
 end
 
@@ -777,6 +790,12 @@ addobject ITEM_TM06_TOXIC
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+settrainerflag TRAINER_MIGUEL_1
+settrainerflag TRAINER_ANNA_AND_MEG_3
+settrainerflag TRAINER_MIGUEL_3
+settrainerflag TRAINER_COLTON
+settrainerflag TRAINER_MIGUEL_2
+settrainerflag TRAINER_ANNA_AND_MEG_4
 setvar VAR_ROUTE106_STATE, 3
 release
 end
@@ -857,6 +876,13 @@ addobject ITEM_TM38_FIRE_BLAST
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+settrainerflag TRAINER_SHANE
+settrainerflag TRAINER_TONY_5
+settrainerflag TRAINER_TAKAO
+settrainerflag TRAINER_JUSTIN
+settrainerflag TRAINER_HITOSHI
+settrainerflag TRAINER_ETHAN_1
+settrainerflag TRAINER_KIYO
 setvar VAR_UNUSED_0x40F7, 81
 release
 end
@@ -1015,6 +1041,13 @@ msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE107_STATE, 3
+settrainerflag TRAINER_JESSICA_3
+settrainerflag TRAINER_BRAWLY_1
+settrainerflag TRAINER_WATTSON_1
+settrainerflag TRAINER_NOLEN
+settrainerflag TRAINER_FLANNERY_1
+settrainerflag TRAINER_JESSICA_4
+settrainerflag TRAINER_PRESLEY
 release
 end
 

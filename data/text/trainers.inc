@@ -9024,7 +9024,7 @@ CeruleanCityGym_Text_ChicoPostBattle:
 
 CeruleanCityGym_Text_ChicaIntro:
 	.string "Bonito disfraz, ahora que esos\n"
-	.string "ROCKETS tuvieron su merecido todos\l"
+	.string "ROCKET tuvieron su merecido todos\l"
 	.string "les ridiculizan.$"
 
 
