@@ -236,7 +236,7 @@ CeladonCityDocumento_Text_107:
 Barrera_Tiendas::
 compare VAR_UNUSED_0x40F7, 30
 goto_if_lt Barrera_Tiendas_2
-compare VAR_UNUSED_0x40F7, 100
+compare VAR_UNUSED_0x40F7, 94
 goto_if_gt Barrera_Tiendas_2
 applymovement OBJ_EVENT_ID_PLAYER, Barrera_Tiendas_Move_1
 waitmovement 0x0

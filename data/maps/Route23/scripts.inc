@@ -106,6 +106,7 @@ waitmovement 0x0
 msgbox Route23_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route23_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 delay 10
+setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 playse SE_POKENAV_OFF
 setvar VAR_UNUSED_0x40F7, 92
 release

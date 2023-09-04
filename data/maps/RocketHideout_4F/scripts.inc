@@ -2406,7 +2406,6 @@ waitse
 playse SE_M_SOLAR_BEAM
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
 delay 100
-setdisguise [469]
 setvar VAR_UNUSED_0x40F7, 804
 warpsilent MAP_ROCKET_HIDEOUT_4F, 19, 8
 
