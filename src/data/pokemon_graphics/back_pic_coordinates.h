@@ -5133,7 +5133,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_FLYGON_MEGA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 3,
     },
     [SPECIES_STARMIE_MEGA] =
     {
@@ -5143,7 +5143,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_BUTTERFREE_MEGA] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 5,
     },
     [SPECIES_NOIVERN_MEGA] =
     {
@@ -6597,7 +6597,7 @@ const struct MonCoords gMonBackPicCoords[] =
     [SPECIES_CROBAT_BOND] =
     {
         .size = MON_COORDS_SIZE(64, 64),
-        .y_offset = 0,
+        .y_offset = 1,
     },
     [SPECIES_CROBAT2_BOND] =
     {
