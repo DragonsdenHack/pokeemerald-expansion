@@ -105,7 +105,7 @@ face_left
 step_end
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_1:
-.string "ATLAS: El hijo pródigo vuelve a casa!\n"
+.string "ATLAS: El hijo pródigo vuelve a casa.\n"
 	.string "¿Eh, {PLAYER}?$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_2:

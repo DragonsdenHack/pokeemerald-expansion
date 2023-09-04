@@ -14241,7 +14241,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MOTORISTA,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MATONJOHTO,
         .trainerPic = TRAINER_PIC_BIKER,
         .trainerName = _("RUBEN"),
         .items = {},

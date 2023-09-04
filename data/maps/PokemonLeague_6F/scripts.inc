@@ -280,6 +280,7 @@ applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_6F_Final_Move_33
 waitmovement 0x0
 setflag FLAG_HIDE_MAUVILLE_CITY_WALLY
 clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+setflag FLAG_NUEVA_854
 setvar VAR_UNUSED_0x40F7, 94
 dofieldeffect FLDEFF_HALL_OF_FAME_RECORD
 waitfieldeffect FLDEFF_HALL_OF_FAME_RECORD

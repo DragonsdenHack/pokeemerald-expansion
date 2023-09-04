@@ -127,3 +127,36 @@ GimnasioAnciana_Combate_Gimnasio_Texto_9:
 	.string "día que sepamos todo estaremos\l"
 	.string "desprovistos de propósito, será el fin\l"
 	.string "del camino.$"
+
+GimnasioAnciana_Anciano::
+lock
+faceplayer
+compare VAR_ROUTE108_STATE, 5
+goto_if_gt GimnasioAnciana_Anciano_2
+msgbox GimnasioAnciana_Anciano_Texto_1 MSGBOX_NPC
+msgbox GimnasioAnciana_Anciano_Texto_2 MSGBOX_NPC
+release
+end
+
+GimnasioAnciana_Anciano_2::
+.string "¡Dios mío! Queda claro que no eres un\n"
+	.string "cualquiera, nadie había podido igualar\l"
+	.string "la potencia física del URSALUNA de\l"
+	.string "nuestra LÍDER. Al parecer, su URSARING\l"
+	.string "evolucionó durante un viaje a un\l"
+	.string "antiguo lugar de JOHTO.$"
+
+GimnasioAnciana_Anciano_Texto_2:
+.string "Nuestra LÍDER era y sigue siendo\n"
+	.string "especialista en el TIPO NORMAL, si\l"
+	.string "entras en el cuerpo a cuerpo con ella\l"
+	.string "sin usar movimientos TIPO LUCHA lo\l"
+	.string "pasarás muy mal, todos sus POKÉMON son\l"
+	.string "muy sólidos y duros de vencer. ¡Suerte!$"
+
+GimnasioAnciana_Anciano_Texto_1:
+.string "Creí que jamás volvería a decir esto\n"
+	.string "pero... ¡bienvenido al GIMNASIO de ISLA\l"
+	.string "SÉTIMA!$"
+
+
