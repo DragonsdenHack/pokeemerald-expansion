@@ -85,25 +85,48 @@ VictoryRoad2F_EventScript_Domador::
 	end
 
 VictoryRoad_2F_Entrenador_Especial::
+lock
+faceplayer
+compare VAR_ROUTE115_STATE, 0
+goto_if_gt VictoryRoad_2F_Entrenador_Especial_2
 msgbox VictoryRoad_2F_Entrenador_Especial_Texto_1 MSGBOX_AUTOCLOSE
-msgbox VictoryRoad_2F_Entrenador_Especial_Texto_2 MSGBOX_AUTOCLOSE
-msgbox VictoryRoad_2F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
+msgbox VictoryRoad_2F_Entrenador_Especial_Texto_2 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq VictoryRoad_2F_Entrenador_Especial_2_No
+playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox VictoryRoad_2F_Entrenador_Especial_Texto_4 MSGBOX_AUTOCLOSE
-msgbox VictoryRoad_2F_Entrenador_Especial_Texto_5 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_JACOB, VictoryRoad_2F_Entrenador_Especial_Texto_5
 msgbox VictoryRoad_2F_Entrenador_Especial_Texto_6 MSGBOX_AUTOCLOSE
-msgbox VictoryRoad_2F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_LIFE_ORB
+msgbox VictoryRoad_2F_Entrenador_Especial_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
 setvar VAR_ROUTE115_STATE, 1
+release
+end
+
+VictoryRoad_2F_Entrenador_Especial_Texto_1.1:
+.string "¡Obtuviste VIDASFERA de manos de\n"
+	.string "ENTRENADOR GUAY!$"
+
+VictoryRoad_2F_Entrenador_Especial_2_No::
+msgbox VictoryRoad_2F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
+release
+end
+
+VictoryRoad_2F_Entrenador_Especial_2::
+msgbox VictoryRoad_2F_Entrenador_Especial_Texto_3 MSGBOX_AUTOCLOSE
 release
 end
 
 VictoryRoad_2F_Entrenador_Especial_Texto_1:
 .string "Los movimientos de daño de\n"
 	.string "retroceso tienen una potencia casi\l"
-	.string "incomparable, pero como el nombre\l"
-	.string "de su versión del tipo normal\l"
+	.string "incomparable, pero como su propia\l"
+	.string "versión del TIPO NORMAL\l"
 	.string "indica, son un arma de DOBLE-FILO,\l"
 	.string "que usada con sabiduría es una\l"
-	.string "gran herramienta ofensiva, estaría\l"
+	.string "gran herramienta ofensiva. Estaría\l"
 	.string "encantado de enseñarte DOBLE-FILO\l"
 	.string "de no ser porque ya se lo he\l"
 	.string "enseñado a un chico antes, sin\l"

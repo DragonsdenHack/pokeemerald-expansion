@@ -4918,7 +4918,7 @@ const struct Trainer gTrainers[] = {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_GUAY,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
-        .trainerPic = TRAINER_PIC_CYCLING_TRIATHLETE_M,
+        .trainerPic = TRAINER_PIC_COOLTRAINER_M,
         .trainerName = _("BARTOLO"),
         .items = {},
         .doubleBattle = FALSE,
@@ -5659,7 +5659,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_GUAY,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_COOL_TRAINER_F,
         .trainerName = _("CAROLINE"),
         .items = {},
@@ -5673,7 +5673,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_GUAY,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOKANTO,
         .trainerPic = TRAINER_PIC_FR_COOL_TRAINER_F,
         .trainerName = _("ALEXA"),
         .items = {},
