@@ -31,7 +31,7 @@ end
 
 PewterCity_House1_Text_3:
 .string "Hay niños en esta casa ROCKET,\n"
-.string "debería darte verguenza irrumpir\l"
+.string "debería darte vergüenza irrumpir\l"
 .string "así en una propiedad privada, al\l"
 .string "más mínimo indicio de intentar\l"
 .string "algo llamo a las autoridades.$"

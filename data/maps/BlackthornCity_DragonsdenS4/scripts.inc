@@ -232,7 +232,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_13:
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_14:
 .string "M.DRAGÓN: Fuiste tú quién atrapó a\n"
 	.string "HO-OH a sangre fría, debería darte\l"
-	.string "verguenza encerrar así algo tan\l"
+	.string "vergüenza encerrar así algo tan\l"
 	.string "puro, aprovechando el gran combate\l"
 	.string "que el M.IRIS y {PLAYER} tuvieron.$"
 

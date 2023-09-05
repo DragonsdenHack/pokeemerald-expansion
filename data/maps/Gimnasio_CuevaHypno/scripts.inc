@@ -608,8 +608,8 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_12:
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11:
 .string "Descubrí este POKÉMON gracias a uno\n"
 	.string "de mis mejores alumnos.\l"
-	.string "Su evolución evolución final domina\l"
-	.string "por completo los poderes mentales.$"
+	.string "Su evolución final domina por\l"
+	.string "completo los poderes mentales.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_10:
 .string "¡¡OBTUVISTE UN FENNEKIN AL NV:15!!$"

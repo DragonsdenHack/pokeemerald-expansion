@@ -14,7 +14,7 @@ release
 end
 
 LavenderTown_Text1:
-.string "¡No tenéis verguenza ni respeto\n"
+.string "¡No tenéis vergüenza ni respeto\n"
 .string "alguno por las costumbres de\l"
 .string "nuestra región!$"
 

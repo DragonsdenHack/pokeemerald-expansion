@@ -408,7 +408,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_21:
 
 PokemonLeague_5F_Azul_Rojo_Texto_22:
 .string "POLICÍA: Tú aparta, eres una\n"
-	.string "verguenza para OAK y su familia.$"
+	.string "vergüenza para OAK y su familia.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_23:
 .string "POLICÍA: BRUNO nos ha informado de\n"

@@ -1287,7 +1287,7 @@ RocketHideout_8F_Mision_Silph_text_36:
 	.string "lo asociado a mi nombre, en su día\l"
 	.string "uno de los más prestigiosos de la\l"
 	.string "región, se convirtió en la mayor\l"
-	.string "deshonra y verguenza para KANTO.$"
+	.string "deshonra y vergüenza para KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_37:
 .string "De este modo, y así las cosas,\n"

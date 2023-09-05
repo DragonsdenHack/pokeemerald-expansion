@@ -69,7 +69,7 @@ Olivine_Boat4_Combate_Capitan_Texto_2:
 	.string "y no tuvo palabras muy agradables\l"
 	.string "hacia el TEAM ROCKET. Me advirtió\l"
 	.string "acerca de unos ladrones de la peor\l"
-	.string "calaña, la verguenza de KANTO\l"
+	.string "calaña, la vergüenza de KANTO\l"
 	.string "según él.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_3:

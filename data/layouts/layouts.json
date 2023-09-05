@@ -9416,7 +9416,7 @@
       "height": 19,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
+      "primary_tileset": "gTileset_gTileset_General_fr",
       "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/MtEmber_1F_Path/border.bin",
       "blockdata_filepath": "data/layouts/MtEmber_1F_Path/map.bin"

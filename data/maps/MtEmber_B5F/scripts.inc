@@ -21,7 +21,7 @@ MtEmber1FPath_3_Texto_1:
 
 MtEmber_B5F_Encuentro_Magno::
 lock
-setmetatile 7, 3, 0x2D9, TRUE
+setmetatile 7, 3, 0x2D9, FALSE
 setmetatile 7, 2, 0x299, TRUE
 setmetatile 7, 1, 0x2C4, TRUE
 special DrawWholeMapView
@@ -71,7 +71,7 @@ delay 75
 removeobject 1
 waitfanfare
 playse SE_BANG
-setmetatile 7, 3, 0x284, TRUE
+setmetatile 7, 3, 0x284, FALSE
 setmetatile 7, 2, 0x294, FALSE
 setmetatile 7, 1, 0x28C, TRUE
 special DrawWholeMapView

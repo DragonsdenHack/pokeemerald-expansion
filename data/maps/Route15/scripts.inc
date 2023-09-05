@@ -218,7 +218,7 @@ release
 end
 
 Route15_Koga_Bruno_Texto_1:
-.string "????: Eres una verguenza para los\n"
+.string "????: Eres una vergüenza para los\n"
 	.string "LÍDERES DE GIMNASIO KOGA, y debes\l"
 	.string "estarme agradecido de que no\l"
 	.string "informe de esto a LANCE, no solo\l"

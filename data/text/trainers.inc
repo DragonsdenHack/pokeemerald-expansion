@@ -11211,7 +11211,7 @@ TanobyRuins_Text_Montanero2Defeated:
 
 TanobyRuins_Text_Montanero2PostBattle:
 	.string "Yo he oído que hay otras ruinas\n"
-	.string "como éstas.\p"
+	.string "como estas.\p"
 	.string "¿Serán lugares de descanso de\n"
 	.string "otros míticos POKéMON?$"
 

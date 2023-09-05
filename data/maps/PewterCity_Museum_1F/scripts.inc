@@ -239,7 +239,7 @@ PewterCity_Museum_1F_Miguel_Texto_6:
 	.string "envidia de los POKÉMANÍACOS!$"
 
 PewterCity_Museum_1F_Miguel_Texto_7:
-.string "¡Eres una verguenza para la\n"
+.string "¡Eres una vergüenza para la\n"
 	.string "comunidad científica!$"
 
 PewterCity_Museum_1F_Miguel_Texto_8:
