@@ -125,7 +125,7 @@
       "y": 4,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GimnasioAnciana_Documento_100"
     },
     {
       "type": "sign",
@@ -133,7 +133,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "GimnasioAnciana_Documento_101"
     },
     {
       "type": "sign",

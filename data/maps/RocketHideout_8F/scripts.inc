@@ -2393,6 +2393,8 @@ msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 setvar VAR_UNUSED_0x40F7, 107
 release
 end

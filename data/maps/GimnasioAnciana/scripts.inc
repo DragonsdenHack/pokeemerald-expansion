@@ -164,4 +164,45 @@ GimnasioAnciana_Anciano_Texto_1:
 	.string "pero... ¡bienvenido al GIMNASIO de ISLA\l"
 	.string "SÉTIMA!$"
 
+GimnasioAnciana_Documento_100::
+lock  
+showmonpic SPECIES_URSALUNA, 10, 3  
+playmoncry SPECIES_URSARING, CRY_MODE_ENCOUNTER 
+msgbox GimnasioAnciana_Documento_Text_100, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+GimnasioAnciana_Documento_Text_100:
+.string "URSALUNA:\p"
+	.string "PS: 130\n"
+	.string "ATAQUE: 140\l"
+	.string "DEFENSA: 105\l"
+	.string "ATAQUE ESPECIAL: 45\l"
+	.string "DEFENSA ESPECIAL: 80\l"
+	.string "VELOCIDAD: 50\l"
+	.string "TOTAL: 550\p"
+	.string "TIERRA/NORMAL$"
+
+GimnasioAnciana_Documento_101::
+lock  
+showmonpic SPECIES_URSALUNA, 10, 3  
+playmoncry SPECIES_URSARING, CRY_MODE_ENCOUNTER 
+msgbox GimnasioAnciana_Documento_Text_101, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+GimnasioAnciana_Documento_Text_101:
+.string "URSALUNA:\p"
+	.string "PS: 130\n"
+	.string "ATAQUE: 140\l"
+	.string "DEFENSA: 105\l"
+	.string "ATAQUE ESPECIAL: 45\l"
+	.string "DEFENSA ESPECIAL: 80\l"
+	.string "VELOCIDAD: 50\l"
+	.string "TOTAL: 550\p"
+	.string "TIERRA/NORMAL$"
+
+
 

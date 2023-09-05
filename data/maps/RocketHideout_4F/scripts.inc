@@ -2516,6 +2516,8 @@ msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_4F_Mision_Islas_Sete_Lance_Move_3
 waitmovement 0x0
 msgbox RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_FANCLUB_BOY
+setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
 setflag FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR
 setvar VAR_UNUSED_0x40F7, 95
 release
