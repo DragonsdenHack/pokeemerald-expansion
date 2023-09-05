@@ -2,7 +2,7 @@
   "id": "MAP_ICEFALL_CAVE_BACK_CAVE",
   "name": "IcefallCave_BackCave",
   "layout": "LAYOUT_ICEFALL_CAVE_BACK_CAVE",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_MT_MOON",
   "region_map_section": "MAPSEC_ICEFALL_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
