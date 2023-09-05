@@ -13330,9 +13330,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_94] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_POLICIAHOENN,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
-        .trainerPic = TRAINER_PIC_HGSS_OFFICER,
+        .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
         .items = {},
         .doubleBattle = FALSE,
@@ -13344,9 +13344,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_95] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_POLICIAHOENN,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
-        .trainerPic = TRAINER_PIC_HGSS_OFFICER,
+        .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
         .items = {},
         .doubleBattle = FALSE,

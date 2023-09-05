@@ -139,6 +139,11 @@ release
 end
 
 GimnasioAnciana_Anciano_2::
+msgbox GimnasioAnciana_Anciano_Texto_3 MSGBOX_NPC
+release
+end
+
+GimnasioAnciana_Anciano_Texto_3:
 .string "¡Dios mío! Queda claro que no eres un\n"
 	.string "cualquiera, nadie había podido igualar\l"
 	.string "la potencia física del URSALUNA de\l"
