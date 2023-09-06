@@ -53,7 +53,7 @@ release
 end
 
 CinnabarMansionS1_Text_4:
-.string "Sino acaban contigo, puedes\n"
+.string "Si no acaban contigo, puedes\n"
 .string "recuperarte de los más duros\l"
 .string "golpes, y volver incluso más\l"
 .string "fuerte que antes, la forma en que\l"

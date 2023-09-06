@@ -255,7 +255,7 @@ end
 CasaTrxatu_Ball_Trxatu_2::
 playfanfare MUS_OBTAIN_TMHM
 msgbox CasaTrxatu_Ball_Trxatu_Texto_2 MSGBOX_DEFAULT
-givemon SPECIES_XATU, 50, ITEM_NONE
+givemon SPECIES_TRXATU, 50, ITEM_NONE
 waitfanfare
 delay 20
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM
@@ -265,7 +265,7 @@ end
 
 CasaTrxatu_Ball_Trxatu_Texto_1:
 .string "(No debería robar un POKÉMON\n"
-	.string "ajeno, los ROCKETS tenemos\l"
+	.string "ajeno, los ROCKET tenemos\l"
 	.string "principios)$"
 
 CasaTrxatu_Ball_Trxatu_Texto_2:

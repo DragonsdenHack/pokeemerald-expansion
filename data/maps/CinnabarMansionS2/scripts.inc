@@ -39,11 +39,11 @@ end
 CinnabarMansionS2Documento_Text_100:
 	.string "TAUROS-X: ROCA\p"
 	.string "PS: 75\n"
-	.string "ATAQUE: 170\l"
-	.string "DEFENSA: 165\l"
-	.string "ATAQUE ESPECIAL: 40\l"
+	.string "ATAQUE: 155\l"
+	.string "DEFENSA: 150\l"
+	.string "ATAQUE ESPECIAL: 30\l"
 	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 50\l"
+	.string "VELOCIDAD: 90\l"
 	.string "TOTAL: 590\p"
 	.string "Logramos amplificar la salvaje\n"
 	.string "capacidad de embestida del TAUROS\l"
@@ -86,12 +86,12 @@ CinnabarMansionS2Documento_Text_101:
 	.string "con mayor potencial especial de\l"
 	.string "todo KANTO por encima de MOLTRES\l"
 	.string "ha quedado de sobra demostrada,\l"
-	.string "los llamaradas de MAGMORTAR-Z\l"
-	.string "harán parecer a los del LEGENDARIO\l"
+	.string "las llamaradas de MAGMORTAR-Y\l"
+	.string "harán parecer a las del LEGENDARIO\l"
 	.string "mediocres, a ello se le suma mayor\l"
 	.string "velocidad y una mejorada\l"
 	.string "resistencia respecto a la línea\l"
-	.string "evolutiva de MAGMAR, todo objetivo\l"
+	.string "evolutiva de MAGMAR. Todo objetivo\l"
 	.string "al que sus enormes cañones apunten\l"
 	.string "será alcanzado sin posibilidad de\l"
 	.string "fallo.$"
@@ -599,6 +599,7 @@ waitmovement 0x0
 applymovement 5, CinnabarMansionS2_Oak_Move_3
 waitmovement 0x0
 delay 15
+playse 564
 msgbox CinnabarMansionS2_Oak_Texto_2 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansionS2_Oak_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 5, CinnabarMansionS2_Oak_Move_4
