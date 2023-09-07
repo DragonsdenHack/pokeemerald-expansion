@@ -60,3 +60,30 @@ VioletSprotTowerDocumento_Text_100:
 	.string "letras de oro: - Todos partimos de\l"
 	.string "puntos diferentes... pero todos\l"
 	.string "podemos tocar el mismo cielo-.$"
+
+VioletSprotTower_5::
+lock     
+faceplayer     
+msgbox VioletCity_SproutTower_Text_5, MSGBOX_DEFAULT
+release     
+end
+
+VioletCity_SproutTower_Text_5:
+.string "He oído que KANTO respeta cada vez\n"
+	.string "menos sus propias tradiciones e\l"
+	.string "historia, espero que aquí no lleguemos\l"
+	.string "a eso.$"
+
+VioletSprotTower_6::
+lock     
+faceplayer     
+msgbox VioletCity_SproutTower_Text_6, MSGBOX_DEFAULT
+release     
+end
+
+VioletCity_SproutTower_Text_6:
+.string "El enorme pilar que sostiene esta torre\n"
+	.string "está basado en el tallo de BELLSPROUT,\l"
+	.string "su gran flexibilidad lo hace inmune a\l"
+	.string "terremotos. Si esta torre sigue a día\l"
+	.string "de hoy en pie, es gracias a eso.$"

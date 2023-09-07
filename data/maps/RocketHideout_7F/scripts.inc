@@ -2420,7 +2420,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_7
 waitmovement 0x0
 special RemoveCameraObject
-showmonpic SPECIES_NIDOKING, 10, 3   
+showmonpic SPECIES_NIDOKING_X, 10, 3   
 playmoncry SPECIES_NIDOKING, CRY_MODE_ENCOUNTER
 delay 20
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_6 MSGBOX_AUTOCLOSE
@@ -2430,7 +2430,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_8
 waitmovement 0x0
 special RemoveCameraObject
-showmonpic SPECIES_NIDOQUEEN, 10, 3   
+showmonpic SPECIES_NIDOQUEEN_Y, 10, 3   
 playmoncry SPECIES_NIDOQUEEN, CRY_MODE_ENCOUNTER
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
@@ -2443,7 +2443,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, RocketHideout_7F_Fuerte_Vinculo_move_8
 waitmovement 0x0
 special RemoveCameraObject
-showmonpic SPECIES_RHYPERIOR, 10, 3   
+showmonpic SPECIES_RHYPERIOR_BOND, 10, 3   
 playmoncry SPECIES_RHYPERIOR, CRY_MODE_ENCOUNTER
 msgbox RocketHideout_7F_Fuerte_Vinculo_Texto_11 MSGBOX_AUTOCLOSE
 delay 20

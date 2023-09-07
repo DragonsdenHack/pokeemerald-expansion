@@ -14016,6 +14016,30 @@
       "secondary_tileset": "gTileset_underground_path",
       "border_filepath": "data/layouts/UndergroundPath_12F/border.bin",
       "blockdata_filepath": "data/layouts/UndergroundPath_12F/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE30_HOUSE_1",
+      "name": "Route30_House_1_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Route30_House_1/border.bin",
+      "blockdata_filepath": "data/layouts/Route30_House_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE30_HOUSE_2",
+      "name": "Route30_House_2_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/Route30_House_2/border.bin",
+      "blockdata_filepath": "data/layouts/Route30_House_2/map.bin"
     }
   ]
 }

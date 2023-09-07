@@ -55,7 +55,17 @@ end
 
 
 Route31_7::
+lock
+faceplayer
+msgbox Route31_7_Texto_1, MSGBOX_NPC
+release
 end
+
+Route31_7_Texto_1:
+.string "Capturé un DUNSPARCE creyendo que era\n"
+	.string "del TIPO BICHO, pero resulta que es\l"
+	.string "NORMAL. ¿En serio esa lenta y torpe\l"
+	.string "serpiente no tiene nada de especial?$"
 
 
 

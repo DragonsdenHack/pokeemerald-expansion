@@ -84,3 +84,24 @@ step_end
 RuinsOfAlph_Terremoto_Move_2:
 walk_in_place_down
 step_end
+
+RuinsOfAlph_Casa::
+lock
+msgbox RuinsOfAlph_Casa_texto_1, MSGBOX_SIGN
+release
+end
+
+RuinsOfAlph_Casa_texto_1:
+.string "C.INVESTIGACIÓN DE LAS RUINAS ALFA\n"
+	.string "LA AUTORIDAD EN LAS RUINAS ALFA$"
+
+RuinsOfAlph_Cartel::
+lock
+msgbox RuinsOfAlph_Cartel_texto_1, MSGBOX_SIGN
+release
+end
+
+RuinsOfAlph_Cartel_texto_1:
+.string "RUINAS ALFA\n"
+	.string "¡Bienvenidos!$"
+

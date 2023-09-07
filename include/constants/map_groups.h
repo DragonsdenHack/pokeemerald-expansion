@@ -405,6 +405,8 @@
 #define MAP_TORRE_DUNSPARCE_P1             (80 | (13 << 8))
 #define MAP_TORRE_DUNSPARCE_P2             (81 | (13 << 8))
 #define MAP_TORRE_DUNSPARCE_P4             (82 | (13 << 8))
+#define MAP_ROUTE30_HOUSE_1                (83 | (13 << 8))
+#define MAP_ROUTE30_HOUSE_2                (84 | (13 << 8))
 
 // gMapGroup_IndoorPalletTown
 #define MAP_PALLET_TOWN_RED_HOUSE_1F  (0 | (14 << 8))
@@ -1361,6 +1363,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 42, 6, 9, 9, 21, 23, 14, 7, 7, 11, 83, 4, 5, 8, 10, 8, 30, 20, 12, 10, 16, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
+// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 42, 6, 9, 9, 21, 23, 14, 7, 7, 11, 85, 4, 5, 8, 10, 8, 30, 20, 12, 10, 16, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

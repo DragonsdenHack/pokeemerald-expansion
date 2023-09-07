@@ -23,13 +23,16 @@ Gimnasio_CuevaHypno_Equipo_Lavanda_Texto_2:
 	.string "HAUNTER - Nv.27\l"
 	.string "HYPNO - Nv.28$"
 
-
 Gimnasio_CuevaHypno_Equipo_Tera::
 lock
-msgbox Gimnasio_CuevaHypno_Equipo_Lavanda_Texto_1 MSGBOX_SIGN
+msgbox Gimnasio_CuevaHypno_Equipo_Tera_Texto_1 MSGBOX_SIGN
 msgbox Gimnasio_CuevaHypno_Equipo_Tera_Texto_2 MSGBOX_SIGN
 release
 end
+
+Gimnasio_CuevaHypno_Equipo_Tera_Texto_1:
+.string "EQUIPO COMO LÍDER DE GIMNASIO EN\n"
+	.string "ISLA TERA$"
 
 Gimnasio_CuevaHypno_Equipo_Tera_Texto_2:
 .string "HYPNO - Nv.43\n"
