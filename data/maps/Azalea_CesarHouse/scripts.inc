@@ -72,6 +72,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Azalea_CesarHouse_Evento_Mirto_Move_2
 waitmovement 0x0
 special RemoveCameraObject
+playbgm 438, FALSE
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_2 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Azalea_CesarHouse_Evento_Mirto_Texto_3 MSGBOX_AUTOCLOSE
@@ -101,11 +102,13 @@ msgbox Azalea_CesarHouse_Evento_Mirto_Texto_11 MSGBOX_AUTOCLOSE
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_PLAYER, Azalea_CesarHouse_Evento_Mirto_Move_7
 applymovement OBJ_EVENT_ID_CAMERA, Azalea_CesarHouse_Evento_Mirto_Move_6
+applymovement 2, Azalea_CesarHouse_Evento_Mirto_Move_8
 waitmovement 0x0
 special RemoveCameraObject
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA
 removeobject 2
 playse SE_EXIT
+fadedefaultbgm
 delay 40
 playse SE_PIN
 applymovement 1, Azalea_CesarHouse_Evento_Mirto_Move_9
@@ -305,6 +308,8 @@ walk_left
 step_end
 
 Azalea_CesarHouse_Evento_Mirto_Move_7:
+delay_16
+delay_16
 walk_right
 face_up
 step_end

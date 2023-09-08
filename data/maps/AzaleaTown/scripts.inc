@@ -589,6 +589,7 @@ msgbox AzaleaTown_Encuentro_Mirto_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 11, AzaleaTown_Encuentro_Mirto_Move_7
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_110_BIRCH
+removeobject 11
 fadeoutbgm 0
 playse MUS_RG_SEVII_45
 setvar VAR_UNUSED_0x40F7, 128
