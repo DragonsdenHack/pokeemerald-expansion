@@ -52,7 +52,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_11.3:
 	.string "ATAQUE del POKÉMON, también su\l"
 	.string "PRECISION. ¡Va genial si llevas\l"
 	.string "movimientos como ROCA AFILADA, COLA\l"
-	.string "FERREA O CARGA DRAGON!$"
+	.string "FÉRREA O CARGA DRAGÓN!$"
 
 
 
