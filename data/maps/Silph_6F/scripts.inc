@@ -36,7 +36,7 @@ Silph6F_4_Texto_1:
 	.string "cederá.$"
 
 Silph6F_4_Texto_2:
-.string "¡Ese niño os dió a todos vuestro\n"
+.string "¡Ese niño os dio a todos vuestro\n"
 	.string "merecido!$"
 
 

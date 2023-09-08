@@ -364,7 +364,7 @@ Route51HouseDocumento_Text_100Yes13:
 	.string "retando también al joven recluta,\l"
 	.string "pero igualmente perdiendo a pesar\l"
 	.string "de la brutalidad de su equipo, la\l"
-	.string "cual se vió frenada por el ingenio\l"
+	.string "cual se vio frenada por el ingenio\l"
 	.string "del joven ENTRENADOR, obligando\l"
 	.string "con ello a la cesión de ciertos\l"
 	.string "poderes por parte de LANCE.$"

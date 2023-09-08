@@ -2,7 +2,7 @@
   "id": "MAP_PASS_ROUTE36",
   "name": "Pass_Route36",
   "layout": "LAYOUT_PASS_ROUTE36",
-  "music": "615",
+  "music": "610",
   "region_map_section": "MAPSEC_NATIONAL_PARK",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

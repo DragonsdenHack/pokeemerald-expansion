@@ -105,7 +105,7 @@ Route34_EventScript_Guay::
 
 
 Route34_EventScript_Rico::
-	trainerbattle_single TRAINER_HENRY, Route34_Text_RicoIntro, Route34_Text_RicoDefeated
+	trainerbattle_single TRAINER_BRENDAN_LILYCOVE_TREECKO, Route34_Text_RicoIntro, Route34_Text_RicoDefeated
 	msgbox Route34_Text_RicoPostBattle, MSGBOX_AUTOCLOSE
 	end
 

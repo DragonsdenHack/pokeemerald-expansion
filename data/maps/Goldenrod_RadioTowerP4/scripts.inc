@@ -2,7 +2,16 @@ Goldenrod_RadioTowerP4_MapScripts::
 	.byte 0
 
 RadioTowerP4_1::
+lock
+faceplayer
+msgbox RadioTowerP4_1_Texto_1 MSGBOX_NPC
+release
 end
+
+RadioTowerP4_1_Texto_1:
+.string "He oído que SILPH tiene varios pisos\n"
+	.string "subterráneos, aquí no sería posible\l"
+	.string "por la cercanía al mar.$"
 
 
 

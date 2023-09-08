@@ -498,7 +498,7 @@ RuinsOfAlph_S5_Final_Texto_10:
 	.string "perfección, ÉL es el ancestro de\l"
 	.string "todos los dragones, ya estaba\l"
 	.string "antes de que el otro dios creador\l"
-	.string "naciera del huevo que dió origen a\l"
+	.string "naciera del huevo que dio origen a\l"
 	.string "este universo.$"
 
 RuinsOfAlph_S5_Final_Texto_11:

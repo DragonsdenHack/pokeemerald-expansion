@@ -75,7 +75,7 @@ end
 Goldenrod_RadioTower_Text_5:
 .string "Hemos aprendido de lo que le\n"
 .string "ocurrió a SILPH. Un asalto como el\l"
-.string "que se dió allí no se dará en un\l"
+.string "que se dio allí no se dará en un\l"
 .string "lugar como éste.\l"
 .string "¡Y menos a manos de esos ROCKET!$"
 

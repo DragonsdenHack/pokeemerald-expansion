@@ -2556,5 +2556,13 @@ CeladonCity_Event_Script_Eter::
 finditem ITEM_ETHER
    end
 
+ZapdosP_Event_Script_Ataqueaereo::
+finditem ITEM_TM110
+   end
+
+IcefallCave_Event_Script_VeloAurora::
+finditem ITEM_TM103
+   end
+
 
 

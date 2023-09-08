@@ -241,7 +241,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_5:
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6:
 .string "El GRAN MAESTRO de TORRE CAMPANA\n"
 	.string "es una de esas personas que podría\l"
-	.string "ayudarme. El vió al LEGENDARIO\l"
+	.string "ayudarme. El vio al LEGENDARIO\l"
 	.string "HO-OH, y maneja a la perfección\l"
 	.string "las propiedades curativas de su\l"
 	.string "CENIZA SAGRADA, pero para hablar\l"
