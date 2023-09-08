@@ -10,7 +10,7 @@ end
 
 OlivineCity_House2_Text_1:
 .string "No hay voluntad como la de nuestro\n"
-.string "LÍDER, inquebrantable, si…\l"
+.string "LÍDER, inquebrantable, sí…\l"
 .string "Digna de manejar el TIPO ACERO.$"
 
 

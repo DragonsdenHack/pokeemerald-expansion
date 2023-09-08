@@ -169,13 +169,20 @@
       "elevation": 0,
       "dest_map": "MAP_OLIVINE_BOAT",
       "dest_warp_id": 0
+    },
+    {
+      "x": 28,
+      "y": 43,
+      "elevation": 0,
+      "dest_map": "MAP_OLIVINE_PORT",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [
     {
       "type": "trigger",
       "x": 27,
-      "y": 18,
+      "y": 19,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",

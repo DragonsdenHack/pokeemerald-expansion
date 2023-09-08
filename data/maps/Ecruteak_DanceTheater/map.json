@@ -2,7 +2,7 @@
   "id": "MAP_ECRUTEAK_DANCE_THEATER",
   "name": "Ecruteak_DanceTheater",
   "layout": "LAYOUT_ECRUTEAK_DANCE_THEATER",
-  "music": "MUS_GSC_ENCOUNTER_KIMONO",
+  "music": "625",
   "region_map_section": "MAPSEC_ECRUTEAK_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -15,7 +15,7 @@
   "connections": 0,
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_KIMONO",
+      "graphics_id": "OBJ_EVENT_GFX_CHICAJOHTO",
       "x": 10,
       "y": 3,
       "elevation": 3,
@@ -28,7 +28,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KIMONO",
+      "graphics_id": "OBJ_EVENT_GFX_CHICAJOHTO",
       "x": 8,
       "y": 2,
       "elevation": 3,
@@ -41,7 +41,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KIMONO",
+      "graphics_id": "OBJ_EVENT_GFX_CHICAJOHTO",
       "x": 6,
       "y": 3,
       "elevation": 3,
@@ -54,7 +54,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KIMONO",
+      "graphics_id": "OBJ_EVENT_GFX_CHICAJOHTO",
       "x": 4,
       "y": 2,
       "elevation": 3,
@@ -67,7 +67,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_KIMONO",
+      "graphics_id": "OBJ_EVENT_GFX_CHICAJOHTO",
       "x": 2,
       "y": 3,
       "elevation": 3,
@@ -106,7 +106,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ARTISTAJOHTO",
+      "graphics_id": "OBJ_EVENT_GFX_ANCIANAJOHTO",
       "x": 10,
       "y": 7,
       "elevation": 3,
@@ -165,6 +165,13 @@
       "elevation": 0,
       "dest_map": "MAP_ECRUTEAK_CITY",
       "dest_warp_id": 10
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "elevation": 0,
+      "dest_map": "MAP_ECRUTEAK_DANCE_THEATER",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

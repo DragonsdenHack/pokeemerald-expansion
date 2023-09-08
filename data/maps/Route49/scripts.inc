@@ -85,7 +85,7 @@ end
 
 Route49_Text_7:
 .string "Algo cambió no hace mucho en JOHTO, ese\n"
-.string "cambió modificó las leyes del MUNDO\l"
+.string "cambio modificó las leyes del MUNDO\l"
 .string "POKÉMON para siempre.$"
 
 Route49_Combate_Andra::

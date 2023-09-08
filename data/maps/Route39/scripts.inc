@@ -76,7 +76,7 @@ end
 Route39_Text_12:
 .string "TAUROS y MILTANK cuentan con un\n"
 .string "pariente lejano, llamado\l"
-.string "BOUFFALAND. Es mucho más lento,\l"
+.string "BOUFFALANT. Es mucho más lento,\l"
 .string "pero aguanta incluso más que\l"
 .string "MILTANK, ¡y embiste más duro que\l"
 .string "TAUROS!$"

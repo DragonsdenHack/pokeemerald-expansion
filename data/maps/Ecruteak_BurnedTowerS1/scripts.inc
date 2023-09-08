@@ -147,7 +147,7 @@ applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_10
 waitmovement 0x0
 special SpawnCameraObject
-applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.1
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
 waitmovement 0x0
 special RemoveCameraObject
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15 MSGBOX_AUTOCLOSE
@@ -175,7 +175,7 @@ removeobject 7
 removeobject 9
 fadescreen 0
 special SpawnCameraObject
-applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.1
 waitmovement 0x0
 special RemoveCameraObject
 setvar VAR_UNUSED_0x40F7, 141

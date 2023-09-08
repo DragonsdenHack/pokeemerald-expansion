@@ -129,6 +129,8 @@ lock
 applymovement OBJ_EVENT_ID_PLAYER, OlivinePort_Barrera_Move_1
 applymovement 7, OlivinePort_Barrera_Move_2
 waitmovement 0x0
+applymovement OBJ_EVENT_ID_PLAYER, OlivinePort_Barrera_Move_1.1
+waitmovement 0x0
 msgbox OlivinePort_Barrera_Texto_1 MSGBOX_NPC
 applymovement OBJ_EVENT_ID_PLAYER, OlivinePort_Barrera_Move_4
 applymovement 7, OlivinePort_Barrera_Move_3
@@ -160,6 +162,10 @@ OlivinePort_Barrera_Texto_3:
 .string "¡Ah!\n"
 	.string "¡Veo que tienes el TICKET FIESTA!\l"
 	.string "¡Pasa, llegas en el mejor momento!$"
+
+OlivinePort_Barrera_Move_1.1:
+walk_in_place_up
+step_end
 
 OlivinePort_Barrera_Move_1:
 face_right
