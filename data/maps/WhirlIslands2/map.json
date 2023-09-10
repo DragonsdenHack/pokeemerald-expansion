@@ -59,36 +59,36 @@
       "x": 35,
       "y": 32,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS2",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 9
     },
     {
       "x": 6,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_map": "MAP_WHIRL_ISLANDS3",
       "dest_warp_id": 0
     },
     {
       "x": 29,
       "y": 26,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS2",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 6
     },
     {
       "x": 2,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_map": "MAP_WHIRL_ISLANDS",
       "dest_warp_id": 0
     },
     {
       "x": 33,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS2",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS3",
+      "dest_warp_id": 5
     },
     {
       "x": 6,
@@ -108,8 +108,8 @@
       "x": 29,
       "y": 12,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS2",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS3",
+      "dest_warp_id": 3
     }
   ],
   "coord_events": [

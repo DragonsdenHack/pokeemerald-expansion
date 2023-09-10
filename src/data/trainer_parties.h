@@ -17402,7 +17402,7 @@ static const struct TrainerMonItemCustomMoves sParty_Capitan2[] = {
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_CRABHAMMER, MOVE_KNOCK_OFF, MOVE_AQUA_JET, MOVE_NONE}
     },
-    {
+    { 
     .iv = 255,
     .lvl = 86,
     .species = SPECIES_MILOTIC,
@@ -17442,7 +17442,7 @@ static const struct TrainerMonItemCustomMoves sParty_Capitan2[] = {
     .iv = 255,
     .lvl = 87,
     .species = SPECIES_FLYGON,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_FLYGONITE,
     .evs = {0, 128, 0, 252, 128, 0},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_BUG_BUZZ, MOVE_EARTHQUAKE, MOVE_FLAMETHROWER, MOVE_NONE}

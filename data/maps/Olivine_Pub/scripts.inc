@@ -224,6 +224,6 @@ Olivine_Pub_Mision_Secundaria_Texto_14:
 
 Olivine_Pub_Mision_Secundaria_Texto_15:
 .string "Seguir una vida íntegra te dará mayor\n"
-	.string "satisfacción que una vida de trampas.\l"
-	.string "Aún con todas las recompensas del,\l"
-	.string "mundo lo hará, no lo olvides.$"
+.string "satisfacción que una vida de trampas.\l"
+.string "Aún con todas las recompensas del mundo,\l"
+.string "esta última no lo hará, tenlo en cuenta.$"
