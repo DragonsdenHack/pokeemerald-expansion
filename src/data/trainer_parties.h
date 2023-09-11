@@ -2741,7 +2741,7 @@ static const struct TrainerMonItemCustomMoves sParty_Fredo[] = {
     .iv = 255,
     .lvl = 92,
     .species = SPECIES_STARMIE,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_STARMIETITE,
     .evs = {50, 50, 50, 252, 252, 50},
     .nature = NATURE_MODEST,
     .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_PSYCHIC}
@@ -2785,11 +2785,11 @@ static const struct TrainerMonItemCustomMoves sParty_Fredo[] = {
     {
     .iv = 255,
     .lvl = 94,
-    .species = SPECIES_LAPRAS_BOND,
+    .species = SPECIES_MAMOSWINE_BOND,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {80, 80, 80, 252, 252, 80},
     .nature = NATURE_BOLD,
-    .moves = {MOVE_PSYCHIC, MOVE_ICE_BEAM, MOVE_SURF, MOVE_THUNDERBOLT}
+    .moves = {MOVE_EARTHQUAKE, MOVE_ICICLE_CRASH, MOVE_STONE_EDGE, MOVE_THUNDERBOLT}
     }
 };
 
@@ -10827,7 +10827,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra8[] = {
     .iv = 255,
     .lvl = 88,
     .species = SPECIES_MILOTIC,
-    .heldItem = ITEM_NONE,
+    .heldItem = ITEM_MILOTICITE,
     .evs = {252, 30, 252, 30, 30, 30},
     .nature = NATURE_BOLD,
     .moves = {MOVE_MOONBLAST, MOVE_SURF, MOVE_ICE_BEAM, MOVE_NONE}

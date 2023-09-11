@@ -17,7 +17,9 @@ end
 MtSilver3_Combate_Rojo::
 lock
 faceplayer
-compare VAR_UNUSED_0x40F7, 156
+compare VAR_RECYCLE_GOODS, 0
+goto_if_gt MtSilver3_Combate_Rojo_2
+compare VAR_UNUSED_0x40F7, 157
 goto_if_gt MtSilver3_Combate_Rojo_2
 msgbox MtSilver3_Combate_Rojo_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ROJO_3, MtSilver3_Combate_Rojo_Texto_2
@@ -59,6 +61,7 @@ setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 removeobject 2
 playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 157
+setvar VAR_RECYCLE_GOODS, 1
 release
 end
 

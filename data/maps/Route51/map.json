@@ -115,7 +115,7 @@
     {
       "type": "hidden_item",
       "x": 7,
-      "y": 22,
+      "y": 23,
       "elevation": 3,
       "item": "ITEM_POMEG_BERRY",
       "flag": "FLAG_NUEVA_513"

@@ -22,7 +22,7 @@ msgbox Ecruteak_TinTowerRoof_Zeus_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_3
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_4 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_JADEN, Ecruteak_TinTowerRoof_Zeus_Texto_5
+trainerbattle_no_intro TRAINER_ANDRA_1, Ecruteak_TinTowerRoof_Zeus_Texto_5
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_4
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_6 MSGBOX_AUTOCLOSE
@@ -42,13 +42,38 @@ delay 30
 playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
 waitmoncry
 delay 15
-applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_6
+applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_6.1
 applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_7
 waitmovement 0x0
+delay 40
+setvar VAR_TEMP_1, 1
+special SpawnCameraObject
+setvar VAR_0x8004, 4  @ num loops
+setvar VAR_0x8005, 35 @ delay
+applymovement 1, NavelRock_Top_Movement_HoOhAppear
+applymovement 1, LugiaBattle_Move_1
+applymovement OBJ_EVENT_ID_CAMERA, NavelRock_Top_Movement_CameraPanUp
+waitmovement 0
+setvar VAR_0x8004, 4  @ num loops
+	setvar VAR_0x8005, 35 @ delay
+	special LoopWingFlapSE
+	applymovement OBJ_EVENT_ID_CAMERA, NavelRock_Top_Movement_CameraPanDown
+	applymovement 1, NavelRock_Top_Movement_HoOhApproach
+	waitmovement 0
+special RemoveCameraObject
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LugiaBattle_Move_3
+applymovement 1, LugiaBattle_Move_2
+waitmovement 0
+special RemoveCameraObject
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LugiaBattle_Move_4
+waitmovement 0
+special RemoveCameraObject
+delay 40
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_8 MSGBOX_AUTOCLOSE
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_9 MSGBOX_AUTOCLOSE
-applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_7
-waitmovement 0x0
+delay 30
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_10 MSGBOX_AUTOCLOSE
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_11 MSGBOX_AUTOCLOSE
 delay 30
@@ -152,7 +177,7 @@ special HealPlayerParty
 delay 20
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_20 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ZEUS_3, Ecruteak_TinTowerRoof_Zeus_Texto_21
+trainerbattle_no_intro TRAINER_ANDRA_1, Ecruteak_TinTowerRoof_Zeus_Texto_21
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_4
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_22 MSGBOX_AUTOCLOSE
@@ -437,10 +462,15 @@ walk_right
 walk_in_place_up
 step_end
 
-Ecruteak_TinTowerRoof_Zeus_Move_7:
+Ecruteak_TinTowerRoof_Zeus_Move_6.1:
 walk_left
 walk_up
 walk_up
+walk_in_place_up
+step_end
+
+Ecruteak_TinTowerRoof_Zeus_Move_7:
+walk_right
 walk_in_place_up
 step_end
 
@@ -494,15 +524,9 @@ Ecruteak_TinTowerRoof_Zeus_Move_15:
 walk_fast_down
 walk_fast_down
 walk_fast_left
-walk_fast_down
-walk_fast_down
-walk_fast_down
 step_end
 
 Ecruteak_TinTowerRoof_Zeus_Move_16:
-walk_up
-walk_up
-walk_up
 walk_up
 walk_up
 step_end

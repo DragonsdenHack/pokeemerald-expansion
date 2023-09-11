@@ -316,7 +316,16 @@ end
 
 
 RocketHideoutP1_23::
+lock
+faceplayer
+msgbox RocketHideoutP1_23_Texto_1, MSGBOX_NPC
+release
 end
+
+RocketHideoutP1_23_Texto_1:
+.string "Es mucho más inteligente eludir el dolor\n"
+	.string "por prudencia, que buscar el placer por\l"
+	.string "impaciencia.$"
 
 
 
@@ -326,7 +335,15 @@ end
 
 
 RocketHideoutP1_25::
+lock
+faceplayer
+msgbox RocketHideoutP1_25_Texto_1, MSGBOX_NPC
+release
 end
+
+RocketHideoutP1_25_Texto_1:
+.string "El mayor riesgo es no cometer riesgo\n"
+	.string "alguno.$"
 
 
 
@@ -1761,4 +1778,44 @@ end
 
 Llave_Despacho_Warp_Text_2_YesNo:
 .string "¿Quieres salir de tu despacho?$"
+
+RocketHideoutJohtoP1_LanzaMugre::
+lock     
+faceplayer  
+goto_if_set FLAG_NUEVA_858, RocketHideoutJohtoP1_LanzaMugre_Despues
+msgbox RocketHideoutJohtoP1_LanzaMugre_Texto_1, MSGBOX_NPC
+msgbox RocketHideoutJohtoP1_LanzaMugre_Texto_1.2, MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+additem ITEM_TM114
+msgbox RocketHideoutJohtoP1_LanzaMugre_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_NUEVA_858
+release     
+end
+
+RocketHideoutJohtoP1_LanzaMugre_Despues::
+msgbox RocketHideoutJohtoP1_LanzaMugre_Texto_2, MSGBOX_NPC
+release
+end
+
+RocketHideoutJohtoP1_LanzaMugre_Texto_1.2:
+.string "LANZA MUGRE es la solución a eso, ese\n"
+	.string "movimiento es capaz de corromper todo\l"
+	.string "lo bueno y puro de este mundo. Toma.$"
+
+RocketHideoutJohtoP1_LanzaMugre_Texto_1:
+.string "Da rabia que VENENO X sea el movimiento\n"
+	.string "TIPO VENENO de mayor potencia por el\l"
+	.string "lado físico, ¿verdad?$"
+
+RocketHideoutJohtoP1_LanzaMugre_Texto_1.1:
+.string "¡¡{PLAYER} obtuvo la MT114 LANZA\n"
+	.string "MUGRE de manos de científico!!$"
+
+RocketHideoutJohtoP1_LanzaMugre_Texto_2:
+.string "Además de su excepcional potencia,\n"
+	.string "LANZA MUGRE no establece contacto con\l"
+	.string "el rival. El único punto en contra es su\l"
+	.string "precisión, ¿te imaginas poder usarla\l"
+	.string "sin fallar?$"
 

@@ -496,6 +496,8 @@ step_end
 
 
 Torre_Campana_Frontera_Izquierda::
+compare VAR_RECYCLE_GOODS, 0
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 compare VAR_UNUSED_0x40F7, 156
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 lock
@@ -531,6 +533,8 @@ walk_slow_down
 step_end
 
 Torre_Campana_Frontera_Derecha::
+compare VAR_RECYCLE_GOODS, 0
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 compare VAR_UNUSED_0x40F7, 156
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 lock

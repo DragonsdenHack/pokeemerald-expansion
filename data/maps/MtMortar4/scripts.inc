@@ -148,6 +148,7 @@ msgbox MtMortar4_Encuentro_Anibal_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 6, MtMortar4_Encuentro_Anibal_Move_14
 waitmovement 0x0
 msgbox MtMortar4_Encuentro_Anibal_Texto_10 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
 clearflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 setflag FLAG_HIDE_ROUTE_119_RIVAL
 fadescreen 1
