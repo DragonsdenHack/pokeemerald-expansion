@@ -1519,8 +1519,8 @@ static const struct TrainerMonItemCustomMoves sParty_Mirto[] = {
     .iv = 255,
     .lvl = 94,
     .species = SPECIES_NOIVERN,
-    .heldItem = ITEM_NONE,
-    .evs = {6, 0, 0, 252, 252, 0},
+    .heldItem = ITEM_NOIVERNITA,
+    .evs = {45, 45, 45, 252, 252, 45},
     .nature = NATURE_TIMID,
     .moves = {MOVE_DRAGON_PULSE, MOVE_HURRICANE, MOVE_FIRE_BLAST, MOVE_FOCUS_BLAST}
     },
@@ -2742,7 +2742,7 @@ static const struct TrainerMonItemCustomMoves sParty_Fredo[] = {
     .lvl = 92,
     .species = SPECIES_STARMIE,
     .heldItem = ITEM_STARMIETITE,
-    .evs = {50, 50, 50, 252, 252, 50},
+    .evs = {40, 40, 40, 252, 252, 40},
     .nature = NATURE_MODEST,
     .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_PSYCHIC}
     },

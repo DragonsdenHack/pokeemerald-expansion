@@ -410,6 +410,7 @@
 #define ITEM_STARMIETITE 781
 #define ITEM_BUTTERFRITA 782
 #define ITEM_DUSKNOIRITA 783
+#define ITEM_NOIVERNITA  784
 
 // Gems
 #define ITEM_NORMAL_GEM 340 // BASE ROCKET HOENN
@@ -1023,7 +1024,7 @@
 #define ITEM_RUBY 777
 #define ITEM_SAPPHIRE 778
 
-#define ITEMS_COUNT 784
+#define ITEMS_COUNT 785
 #define ITEM_FIELD_ARROW ITEMS_COUNT
 
 // Range of berries given out by various NPCS

@@ -1274,30 +1274,38 @@ finditem ITEM_STAR_PIECE
 
 PasoHelado_EventScript_Revivir::
 finditem ITEM_REVIVE
+   end
 
 
 PasoHelado_EventScript_MaxRevivir::
 finditem ITEM_MAX_REVIVE
+  end
 
 
 Ruta52Maze_EventScript_CableLink::
 finditem ITEM_POKEMON_BOX_LINK
+end
 
 
 Ruta52Maze_EventScript_PiedraAlba::
 finditem ITEM_DAWN_STONE
+end
 
 Ruta52Maze_EventScript_CharizarditaY::
 finditem ITEM_CHARIZARDITE_Y
+end
 
 Ruta52Maze_EventScript_Maxipepita::
 finditem ITEM_BIG_NUGGET
+end
 
 CuevaTrigal_EventScript_PiedraDura::
 finditem ITEM_HARD_STONE
+end
 
 CuevaTrigal_EventScript_CenSagrada::
 finditem ITEM_SACRED_ASH
+end
 
 Fucsia_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
@@ -2570,6 +2578,10 @@ finditem ITEM_MAWILITE
 
 Carbon2_EventScript_Carbon::
 finditem ITEM_CHARCOAL
+   end
+
+CultoS8_EventScript_Dusknoirita::
+finditem ITEM_DUSKNOIRITA
    end
 
 
