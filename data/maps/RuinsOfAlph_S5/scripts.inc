@@ -91,8 +91,6 @@ waitse
 playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
 setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
-clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
-addobject 4
 setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
 removeobject 10
 playmoncry SPECIES_MEW, CRY_MODE_ENCOUNTER
@@ -115,6 +113,8 @@ playse SE_M_EXPLOSION
 delay 40
 playse SE_RG_POKE_JUMP_SUCCESS
 delay 40
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 4
 fadescreen 2
 delay 15
 playmoncry SPECIES_NECROZMA, CRY_MODE_ENCOUNTER
@@ -200,8 +200,6 @@ playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
 delay 15
 removeobject 1
-addobject 2
-clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
 playmoncry SPECIES_RESHIRAM, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_FAINT
@@ -224,6 +222,8 @@ playse SE_M_EXPLOSION
 delay 40
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
+addobject 2
+clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
 fadescreen 2
 delay 15
 playmoncry SPECIES_KYUREM, CRY_MODE_ENCOUNTER
@@ -300,9 +300,7 @@ playfanfare MUS_AWAKEN_LEGEND
 fadescreen 3
 delay 15
 removeobject 7
-addobject 5
 setflag FLAG_HIDE_ROUTE_119_RIVAL
-clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_FAINT
@@ -319,10 +317,11 @@ playse SE_M_SOLAR_BEAM
 delay 30
 playse SE_USE_ITEM
 delay 40
-fadescreen 2
 delay 15
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
+addobject 5
+clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 fadescreen 2
 delay 15
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER

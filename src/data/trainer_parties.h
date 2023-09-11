@@ -19520,7 +19520,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia1[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_KABUTOPS,
+    .species = SPECIES_KABUTOPS_SKEL,
     .heldItem = ITEM_COLBUR_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
@@ -19541,7 +19541,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia2[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_AERODACTYL,
+    .species = SPECIES_AERODACTYL_SKEL,
     .heldItem = ITEM_COLBUR_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
@@ -19562,7 +19562,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia3[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_MAROWAK,
+    .species = SPECIES_MAROGHOST,
     .heldItem = ITEM_SITRUS_BERRY,
     .evs = {128, 252, 0, 0, 0, 128},
     .nature = NATURE_ADAMANT,
@@ -19583,7 +19583,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia4[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_GENGAR,
+    .species = SPECIES_GHOST,
     .heldItem = ITEM_COLBUR_BERRY,
     .evs = {0, 0, 6, 252, 252, 0},
     .nature = NATURE_MODEST,
@@ -19661,7 +19661,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esencia6[] = {
     {
     .iv = 255,
     .lvl = 95,
-    .species = SPECIES_XATU,
+    .species = SPECIES_TRXATU,
     .heldItem = ITEM_CHOICE_SPECS,
     .evs = {252, 0, 6, 252, 0, 0},
     .nature = NATURE_TIMID,

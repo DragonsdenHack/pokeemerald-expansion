@@ -22,7 +22,7 @@ msgbox Ecruteak_TinTowerRoof_Zeus_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 2, Ecruteak_TinTowerRoof_Zeus_Move_3
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_4 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, Ecruteak_TinTowerRoof_Zeus_Texto_5
+trainerbattle_no_intro TRAINER_JADEN, Ecruteak_TinTowerRoof_Zeus_Texto_5
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_4
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_6 MSGBOX_AUTOCLOSE
@@ -177,7 +177,7 @@ special HealPlayerParty
 delay 20
 setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_20 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, Ecruteak_TinTowerRoof_Zeus_Texto_21
+trainerbattle_no_intro TRAINER_ZEUS_3, Ecruteak_TinTowerRoof_Zeus_Texto_21
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_TinTowerRoof_Zeus_Move_4
 waitmovement 0x0
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_22 MSGBOX_AUTOCLOSE
@@ -583,9 +583,12 @@ clearflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
 fadescreen 1
 playmoncry SPECIES_HO_OH, CRY_MODE_ENCOUNTER
 waitmoncry
-addobject 1
 delay 30
+addobject 1
 fadescreen 0
+setvar VAR_0x8004, 3  @ num loops
+	setvar VAR_0x8005, 40 @ delay
+	special LoopWingFlapSE
 applymovement 1, Ecruteak_TinTowerRoof_Final_Move_3
 waitmovement 0x0
 delay 15
@@ -657,12 +660,12 @@ walk_slow_right
 step_end
 
 Ecruteak_TinTowerRoof_Final_Move_3:
+walk_slow_down
+walk_in_place_down
+walk_in_place_down
+walk_in_place_down
+walk_in_place_down
 delay_4
-delay_4
-walk_in_place_fast_down
-walk_in_place_fast_down
-walk_in_place_fast_down
-walk_in_place_fast_down
 step_end
 
 Ecruteak_TinTowerRoof_Final_Move_4:
