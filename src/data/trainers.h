@@ -7395,7 +7395,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_POKEGUARDAJOHTO,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICAJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
         .trainerPic = TRAINER_PIC_FR_POKEMON_RANGER_M,
         .trainerName = _("FERN"),
         .items = {},

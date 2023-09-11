@@ -44,7 +44,7 @@ goto_if_gt Azalea_House1_Anciano_2
 msgbox Azalea_House1_Anciano_Texto_1 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Azalea_House1_Anciano_Texto_2 MSGBOX_DEFAULT
-givemon SPECIES_SIRFETCHD, 70, ITEM_NONE
+givemon SPECIES_MADAAMU, 70, ITEM_NONE
 waitfanfare
 msgbox Azalea_House1_Anciano_Texto_3 MSGBOX_AUTOCLOSE
 msgbox Azalea_House1_Anciano_Texto_4 MSGBOX_AUTOCLOSE

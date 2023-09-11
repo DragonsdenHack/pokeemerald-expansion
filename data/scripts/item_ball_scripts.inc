@@ -2564,5 +2564,13 @@ IcefallCave_Event_Script_VeloAurora::
 finditem ITEM_TM103
    end
 
+Carbon2_Event_Script_Mawilita::
+finditem ITEM_MAWILITE
+   end
+
+Carbon2_EventScript_Carbon::
+finditem ITEM_CHARCOAL
+   end
+
 
 

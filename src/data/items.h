@@ -9600,7 +9600,7 @@ const struct Item gItems[] =
     },
     [ITEM_STARMIETITE] =
     {
-        .name = _("Miloticita"),
+        .name = _("Starmietita"),
         .itemId = ITEM_STARMIETITE,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
@@ -9613,6 +9613,17 @@ const struct Item gItems[] =
     {
         .name = _("Butterfrita"),
         .itemId = ITEM_BUTTERFRITA,
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sBeedrilliteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_DUSKNOIRITA] =
+    {
+        .name = _("Dusknoirita"),
+        .itemId = ITEM_DUSKNOIRITA,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sBeedrilliteDesc,

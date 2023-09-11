@@ -33,6 +33,19 @@ AzaleaCarbonS1_Text_3:
 .string "echarlos tan a la ligera, seguro que\l"
 .string "tenían cosas que aportar.$"
 
+AzaleaCarbonS1_4::
+lock     
+faceplayer     
+msgbox AzaleaCarbonS1_Text_4, MSGBOX_DEFAULT
+release     
+end
+
+AzaleaCarbonS1_Text_4:
+.string "Anhelamos nuevas sensaciones, pero\n"
+	.string "pronto nos volvemos indiferentes a\l"
+	.string "ellas. Las maravillas de ayer son hoy\l"
+	.string "sucesos comunes.$"
+
 
 
 AzaleaCarbonS1_5::

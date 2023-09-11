@@ -7,7 +7,31 @@ map_script_2 VAR_MAUVILLE_CITY_STATE, 1, LakeofRageHouse1_Evento_Devon
 	.2byte 0
 
 LakeofRageHouse1_1::
+lock
+compare VAR_MAUVILLE_CITY_STATE, 1
+goto_if_gt LakeofRageHouse1_1_2
+faceplayer
+msgbox LakeofRageHouse1_1_Texto_1 MSGBOX_NPC
+release
 end
+
+LakeofRageHouse1_1_2:
+msgbox LakeofRageHouse1_1_Texto_2 MSGBOX_NPC
+release
+end
+
+LakeofRageHouse1_1_Texto_2:
+.string "Te estaré eternamente agradecido,\n"
+	.string "gente como tú sí que merece descubrir\l"
+	.string "los antiguos secretos del mundo.\l"
+	.string "Espero que prevalezcas por encima de\l"
+	.string "esos lunáticos de HOENN.$"
+
+LakeofRageHouse1_1_Texto_1:
+.string "Tienes pinta de venir de KANTO,\n"
+	.string "¿verdad? Esta región puede guardarte\l"
+	.string "muchas sorpresas, si la ves con los\l"
+	.string "ojos adecuados.$"
 
 LakeofRageHouse1_Evento_Devon::
 lock
