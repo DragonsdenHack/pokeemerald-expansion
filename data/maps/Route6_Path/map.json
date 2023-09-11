@@ -3,7 +3,7 @@
   "name": "Route6_Path",
   "layout": "LAYOUT_ROUTE6_PATH",
   "music": "MUS_RG_PEWTER",
-  "region_map_section": "MAPSEC_ROUTE_6",
+  "region_map_section": "MAPSEC_SAFFRON_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
@@ -40,8 +40,8 @@
       "x": 5,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE6_PATH",
-      "dest_warp_id": 0
+      "dest_map": "MAP_SAFFRON_CITY",
+      "dest_warp_id": 11
     },
     {
       "x": 4,
@@ -54,8 +54,8 @@
       "x": 5,
       "y": 9,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE6_PATH",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ROUTE6",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

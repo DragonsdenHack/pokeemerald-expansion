@@ -1,5 +1,11 @@
 Silph_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, SilphCo_2F_OnLoad
 	.byte 0
+	
+SilphCo_2F_OnLoad:: @ 8161647
+	@call_if_unset FLAG_UNUSED_0x935, EventScript_Close2FDoor1
+	@call_if_unset FLAG_UNUSED_0x936, EventScript_Close2FDoor2
+	end	
 
 Chica_Iman::
 lock

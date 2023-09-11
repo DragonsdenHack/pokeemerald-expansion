@@ -3,7 +3,7 @@
   "name": "Route5_Path",
   "layout": "LAYOUT_ROUTE5_PATH",
   "music": "MUS_RG_PEWTER",
-  "region_map_section": "MAPSEC_ROUTE_5",
+  "region_map_section": "MAPSEC_SAFFRON_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

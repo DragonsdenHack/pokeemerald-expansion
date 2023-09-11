@@ -46,6 +46,7 @@
 #include "constants/trainers.h"
 #include "constants/trainer_hill.h"
 #include "constants/weather.h"
+#include "constants/layouts.h"
 
 enum {
     TRANSITION_TYPE_NORMAL,
@@ -677,6 +678,8 @@ u8 BattleSetup_GetTerrainId(void)
             return BATTLE_TERRAIN_POND;
         return BATTLE_TERRAIN_CAVE;
     case MAP_TYPE_INDOOR:
+		 if(gMapHeader.mapLayoutId == LAYOUT_RESORT_GEORGEOUS_HOUSE1)
+			return BATTLE_TERRAIN_CAVE;
     case MAP_TYPE_SECRET_BASE:
         return BATTLE_TERRAIN_BUILDING;
     case MAP_TYPE_UNDERWATER:

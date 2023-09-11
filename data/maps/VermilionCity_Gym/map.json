@@ -106,8 +106,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 0,
-      "y": 17,
+      "x": 1,
+      "y": 16,
       "elevation": 0,
       "var": "VAR_ROUTE108_STATE",
       "var_value": "0",
@@ -259,8 +259,8 @@
     },
     {
       "type": "trigger",
-      "x": 0,
-      "y": 18,
+      "x": 2,
+      "y": 16,
       "elevation": 0,
       "var": "VAR_ROUTE108_STATE",
       "var_value": "1",
