@@ -295,7 +295,7 @@ static const u8 sDoorAnimPalettes_General2[] = {2, 2, 2, 2, 2, 2, 2, 2};
 static const u8 sDoorAnimPalettes_SlidingSingle2[] = {3, 3, 3, 3, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_SlidingDouble2[] = {3, 3, 3, 3, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_Pallet2[] = {8, 8, 8, 8, 8, 8, 8, 8};
-static const u8 sDoorAnimPalettes_OaksLab2[] = {10, 10, 10, 10, 10, 10, 10, 10};
+static const u8 sDoorAnimPalettes_OaksLab2[] = {1, 1, 1, 1, 1, 1, 1, 1};
 static const u8 sDoorAnimPalettes_Viridian2[] = {8, 8, 8, 8, 8, 8, 8, 8};
 static const u8 sDoorAnimPalettes_Pewter2[] = {8, 8, 8, 8, 8, 8, 8, 8};
 static const u8 sDoorAnimPalettes_Saffron2[] = {8, 8, 8, 8, 8, 8, 8, 8};
@@ -406,7 +406,7 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 	{METATILE_ViridianCity_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Viridian, sDoorAnimPalettes_Viridian2},
 	{METATILE_SaffronCity_SilphCoDoor,                      DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_SilphCo, sDoorAnimPalettes_SilphCo2},
 	{METATILE_SeaCottage_Teleporter_Door,                  DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_Teleporter, sDoorAnimPalettes_Teleporter2},
-	{METATILE_VermilionCity_SSAnneWarp,                    DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_PokemonFanClub, sDoorAnimPalettes_PokemonFanClub2},
+	{METATILE_VermilionCity_SSAnneWarp,                    DOOR_SOUND_NORMAL,  2, sDoorAnimTiles_PokemonFanClub, sDoorAnimPalettes_PokemonFanClub2},
     {},
 };
 
