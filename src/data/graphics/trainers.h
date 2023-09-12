@@ -583,6 +583,42 @@ const u32 gTrainerPalette_RocketAdminPlayer[] = INCBIN_U32("graphics/trainers/pa
 const u32 gTrainerFrontPic_RocketGruntAndra[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_andra_front_pic.4bpp.lz");
 const u32 gTrainerPalette_RocketGruntAndra[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_andra.gbapal.lz");
 
+///// nuevos rocket ////
+
+const u32 gTrainerFrontPic_RocketGruntAndra2[] = INCBIN_U32("graphics/trainers/front_pics/andra_front_pic.4bpp.lz");
+const u32 gTrainerPalette_RocketGruntAndra2[] = INCBIN_U32("graphics/trainers/palettes/andra.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketGruntAndraAltoRango[] = INCBIN_U32("graphics/trainers/front_pics/andra_alto_rango_front_pic.4bpp.lz");
+const u32 gTrainerPalette_RocketGruntAndraAltoRango[] = INCBIN_U32("graphics/trainers/palettes/andra_alto_rango.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketGruntAndraEjecutiva[] = INCBIN_U32("graphics/trainers/front_pics/andra_ejecutiva_front_pic.4bpp.lz");
+const u32 gTrainerPalette_RocketGruntAndraEjecutiva[] = INCBIN_U32("graphics/trainers/palettes/andra_ejecutiva.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketGruntAndraAdmin[] = INCBIN_U32("graphics/trainers/front_pics/andra_admin_front_pic.4bpp.lz");
+const u32 gTrainerPalette_RocketGruntAndraAdmin[] = INCBIN_U32("graphics/trainers/palettes/andra_admin.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketGruntAndraAdminJefe[] = INCBIN_U32("graphics/trainers/front_pics/andra_admin_jefe_front_pic.4bpp.lz");
+const u32 gTrainerPalette_RocketGruntAndraAdminJefe[] = INCBIN_U32("graphics/trainers/palettes/andra_admin_jefe.gbapal.lz");
+
+//////////
+
+const u32 gTrainerFrontPic_ProtaAltoRango[] = INCBIN_U32("graphics/trainers/front_pics/prota_alto_rango_front_pic.4bpp.lz");
+const u32 gTrainerPalette_ProtaAltoRango[] = INCBIN_U32("graphics/trainers/palettes/alto_rango.gbapal.lz");
+
+const u32 gTrainerFrontPic_ProtaEjecutivo[] = INCBIN_U32("graphics/trainers/front_pics/ejecutivo_front_pic.4bpp.lz");
+const u32 gTrainerPalette_ProtaEjecutivo[] = INCBIN_U32("graphics/trainers/palettes/ejecutivo.gbapal.lz");
+
+const u32 gTrainerFrontPic_ProtaAdmin[] = INCBIN_U32("graphics/trainers/front_pics/admin_front_pic.4bpp.lz");
+const u32 gTrainerPalette_ProtaAdmin[] = INCBIN_U32("graphics/trainers/palettes/admin_player.gbapal.lz");
+
+const u32 gTrainerFrontPic_ProtaAdminJefe[] = INCBIN_U32("graphics/trainers/front_pics/admin_jefe_front_pic.4bpp.lz");
+const u32 gTrainerPalette_ProtaAdminJefe[] = INCBIN_U32("graphics/trainers/palettes/admin_jefe_player.gbapal.lz");
+
+const u32 gTrainerFrontPic_Hypno[] = INCBIN_U32("graphics/trainers/front_pics/hypno.4bpp.lz");
+const u32 gTrainerPalette_Hypno[] = INCBIN_U32("graphics/trainers/palettes/hypno.gbapal.lz");
+
+///////////////////////
+
 const u32 gTrainerFrontPic_RocketGruntPlayer[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_player_front_pic.4bpp.lz");
 const u32 gTrainerPalette_RocketGruntPlayer[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_player.gbapal.lz");
 

@@ -676,6 +676,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Anibal, OBJ_EVENT_PAL_TAG_ANIBAL},
     {gObjectEventPal_Manciano, OBJ_EVENT_PAL_TAG_MANCIANO},
 	{gObjectEventPal_Muerto, OBJ_EVENT_PAL_TAG_MUERTO},
+	{gObjectEventPal_ArtistaJohto, OBJ_EVENT_PAL_TAG_ARTISTAJOHTO},
 	
 };
 

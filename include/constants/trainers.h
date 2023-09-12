@@ -216,6 +216,16 @@
 #define TRAINER_PIC_VALERIA               196
 #define TRAINER_PIC_ZAPDOS                197
 #define TRAINER_PIC_ZEUS                  198
+#define TRAINER_PIC_ROCKET_GRUNT_ANDRA2	  199
+#define TRAINER_PIC_ANDRA_ALTO_RANGO	  200
+#define TRAINER_PIC_ANDRA_EJECUTIVA	      201
+#define TRAINER_PIC_ANDRA_ADMIN	  		  202
+#define TRAINER_PIC_ANDRA_ADMIN_JEFE      203
+#define TRAINER_PIC_ALTO_RANGO	          204
+#define TRAINER_PIC_EJECUTIVO	          205
+#define TRAINER_PIC_ADMIN	  		  	  206
+#define TRAINER_PIC_ADMIN_JEFE		      207
+#define TRAINER_PIC_HYPNO				  208
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

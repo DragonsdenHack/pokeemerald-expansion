@@ -7953,6 +7953,17 @@ extern const u32 gTrainerFrontPic_RocketAdminAtlas[];
 extern const u32 gTrainerFrontPic_RocketAdminPlayer[];
 extern const u32 gTrainerFrontPic_RocketGruntAndra[];
 extern const u32 gTrainerFrontPic_RocketGruntPlayer[];
+extern const u32 gTrainerFrontPic_RocketGruntAndra2[];
+extern const u32 gTrainerFrontPic_RocketGruntAndraAltoRango[];
+extern const u32 gTrainerFrontPic_RocketGruntAndraEjecutiva[];
+extern const u32 gTrainerFrontPic_RocketGruntAndraAdmin[];
+extern const u32 gTrainerFrontPic_RocketGruntAndraAdminJefe[];
+extern const u32 gTrainerFrontPic_ProtaAltoRango[];
+extern const u32 gTrainerFrontPic_ProtaEjecutivo[];
+extern const u32 gTrainerFrontPic_ProtaAdmin[];
+extern const u32 gTrainerFrontPic_ProtaAdminJefe[];
+extern const u32 gTrainerFrontPic_Hypno[];
+
 extern const u32 gTrainerFrontPic_Valeria[];
 extern const u32 gTrainerFrontPic_Zapdos[];
 extern const u32 gTrainerFrontPic_Zeus[];

@@ -1349,25 +1349,25 @@ static void InitMapBasedOnPlayerLocation(void)
         {
 			x = 20;
 			y = 4;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LAKEOF_RAGE))
         {
 			x = 20;
 			y = 4;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LAKEOF_RAGE_HOUSE1))
         {
 			x = 20;
 			y = 4;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LAKEOF_RAGE_HOUSE2))
         {
 			x = 20;
 			y = 4;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
 	case MAPSEC_BLACKTHORN_CITY:
@@ -1375,25 +1375,25 @@ static void InitMapBasedOnPlayerLocation(void)
         {
 			x = 24;
 			y = 3;
-			gSaveBlock1Ptr->region == REGION_JOHTO;	
+			gMapHeader.region == REGION_JOHTO;	
 		}
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S2))
         {
 			x = 24;
 			y = 3;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S3))
         {
 			x = 24;
 			y = 3;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S4))
         {
 			x = 24;
 			y = 3;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
 	case MAPSEC_GOLDENROD_CITY:
@@ -1401,7 +1401,7 @@ static void InitMapBasedOnPlayerLocation(void)
         {
 			x = 15;
 			y = 9;
-			gSaveBlock1Ptr->region == REGION_JOHTO;
+			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
 	case MAPSEC_UNDERGROUND_PATH:

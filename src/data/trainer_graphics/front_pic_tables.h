@@ -199,6 +199,16 @@ const struct MonCoords gTrainerFrontPicCoords[] =
     [TRAINER_PIC_VALERIA] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_ZAPDOS] = {.size = 8, .y_offset = 1},
     [TRAINER_PIC_ZEUS] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ROCKET_GRUNT_ANDRA2] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ANDRA_ALTO_RANGO] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ANDRA_EJECUTIVA] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ANDRA_ADMIN] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ANDRA_ADMIN_JEFE] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ALTO_RANGO] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_EJECUTIVO] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ADMIN] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ADMIN_JEFE] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_HYPNO] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
