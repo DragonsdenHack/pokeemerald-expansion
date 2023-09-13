@@ -741,8 +741,8 @@ end
 
 BaseRocketHoennDocumento_Text_108:
 .string "NÚMERO 6: DARKRAI\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 90\l"
+	.string "PS: 90\n"
+	.string "ATAQUE: 70\l"
 	.string "DEFENSA: 90\l"
 	.string "ATAQUE ESPECIAL: 135\l"
 	.string "DEFENSA ESPECIAL: 90\l"
