@@ -14040,6 +14040,66 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/Route30_House_2/border.bin",
       "blockdata_filepath": "data/layouts/Route30_House_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE50_NORTE",
+      "name": "Route50_Norte_Layout",
+      "width": 30,
+      "height": 30,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_NavelRock",
+      "border_filepath": "data/layouts/Route50_Norte/border.bin",
+      "blockdata_filepath": "data/layouts/Route50_Norte/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_S1",
+      "name": "TorreDunsparce_S1_Layout",
+      "width": 21,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_cerulean_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_S1/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_S1/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_S2",
+      "name": "TorreDunsparce_S2_Layout",
+      "width": 21,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_cerulean_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_S2/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_S2/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_S3",
+      "name": "TorreDunsparce_S3_Layout",
+      "width": 21,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_cerulean_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_S3/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_S3/map.bin"
+    },
+    {
+      "id": "LAYOUT_TORRE_DUNSPARCE_S4",
+      "name": "TorreDunsparce_S4_Layout",
+      "width": 21,
+      "height": 21,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_cerulean_cave",
+      "border_filepath": "data/layouts/TorreDunsparce_S4/border.bin",
+      "blockdata_filepath": "data/layouts/TorreDunsparce_S4/map.bin"
     }
   ]
 }

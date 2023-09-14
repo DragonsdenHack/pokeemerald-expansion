@@ -17,6 +17,11 @@
       "direction": "down",
       "offset": 62,
       "map": "MAP_ROUTE48"
+    },
+    {
+      "direction": "up",
+      "offset": 56,
+      "map": "MAP_ROUTE50_NORTE"
     }
   ],
   "object_events": [
@@ -164,9 +169,9 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANDRAADMIN",
-      "x": 86,
-      "y": 0,
+      "graphics_id": "OBJ_EVENT_GFX_DRAGONITE",
+      "x": 73,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -174,7 +179,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Route50_Encuentro_Dunsparce",
-      "flag": "FLAG_HIDE_VERDANTURF_TOWN_SCOTT"
+      "flag": "0"
     }
   ],
   "warp_events": [
