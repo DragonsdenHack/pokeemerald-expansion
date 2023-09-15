@@ -404,8 +404,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 12,
-      "y": 16,
+      "x": 36,
+      "y": 21,
       "elevation": 4,
       "movement_type": "MOVEMENT_TYPE_INVISIBLE",
       "movement_range_x": 1,
@@ -482,8 +482,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON_BRIDGE_SHADOW",
-      "x": 12,
-      "y": 16,
+      "x": 35,
+      "y": 21,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -495,8 +495,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 20,
-      "y": 11,
+      "x": 38,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_INVISIBLE",
       "movement_range_x": 1,
@@ -534,8 +534,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 7,
-      "y": 51,
+      "x": 4,
+      "y": 45,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_INVISIBLE",
       "movement_range_x": 1,
@@ -547,8 +547,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_KECLEON",
-      "x": 19,
-      "y": 48,
+      "x": 5,
+      "y": 45,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_INVISIBLE",
       "movement_range_x": 1,
@@ -573,7 +573,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
-      "x": 14,
+      "x": 16,
       "y": 34,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
@@ -617,14 +617,14 @@
   "coord_events": [
     {
       "type": "weather",
-      "x": 7,
+      "x": 8,
       "y": 15,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_RAIN"
     },
     {
       "type": "weather",
-      "x": 7,
+      "x": 8,
       "y": 16,
       "elevation": 0,
       "weather": "COORD_EVENT_WEATHER_RAIN"
@@ -680,6 +680,13 @@
     },
     {
       "type": "weather",
+      "x": 35,
+      "y": 19,
+      "elevation": 0,
+      "weather": "COORD_EVENT_WEATHER_SUNNY"
+    },
+    {
+      "type": "weather",
       "x": 28,
       "y": 15,
       "elevation": 0,
@@ -689,13 +696,6 @@
       "type": "weather",
       "x": 28,
       "y": 16,
-      "elevation": 0,
-      "weather": "COORD_EVENT_WEATHER_SUNNY"
-    },
-    {
-      "type": "weather",
-      "x": 28,
-      "y": 17,
       "elevation": 3,
       "weather": "COORD_EVENT_WEATHER_SUNNY"
     },
@@ -768,29 +768,29 @@
     },
     {
       "type": "secret_base",
-      "x": 28,
-      "y": 62,
+      "x": 42,
+      "y": 57,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_BLUE_CAVE3_1"
     },
     {
       "type": "secret_base",
-      "x": 30,
-      "y": 62,
+      "x": 42,
+      "y": 58,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_BLUE_CAVE4_1"
     },
     {
       "type": "secret_base",
-      "x": 26,
-      "y": 10,
+      "x": 37,
+      "y": 19,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB3_2"
     },
     {
       "type": "secret_base",
-      "x": 29,
-      "y": 85,
+      "x": 34,
+      "y": 82,
       "elevation": 5,
       "secret_base_id": "SECRET_BASE_SHRUB4_2"
     },
@@ -803,15 +803,15 @@
     },
     {
       "type": "secret_base",
-      "x": 38,
-      "y": 54,
+      "x": 41,
+      "y": 53,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB1_3"
     },
     {
       "type": "secret_base",
-      "x": 31,
-      "y": 23,
+      "x": 36,
+      "y": 19,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB2_3"
     },

@@ -377,7 +377,7 @@
     },
     {
       "type": "hidden_item",
-      "x": 3,
+      "x": 4,
       "y": 18,
       "elevation": 3,
       "item": "ITEM_REPEL",

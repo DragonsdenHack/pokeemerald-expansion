@@ -1622,7 +1622,7 @@ RocketHideout7FDocumento_136::
 lock
 compare VAR_UNUSED_0x40F7, 157
 goto_if_lt RocketHideout7FDocumento_Esperando
-showmonpic SPECIES_CROBAT_BOND, 10, 3  
+showmonpic SPECIES_CROBAT2_BOND, 10, 3  
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_136, MSGBOX_DEFAULT
 hidemonpic
@@ -1642,14 +1642,47 @@ RocketHideout7FDocumento_Text_136:
 	.string "El POKÉMON insignia del\l"
 	.string "ADMIN.JEFE {PLAYER}, que\l"
 	.string "demuestran lo lejos que un ROCKET\l"
-	.string "común puede llegar, con 650 de\l"
+	.string "común puede llegar, con 645 de\l"
 	.string "BASE está más cerca de un\l"
 	.string "LEGENDARIO MAYOR que de uno MENOR,\l"
 	.string "con una VELOCIDAD casi\l"
-	.string "insuperable, gracias a CROMOLENTE\l"
+	.string "insuperable. Gracias a OJOCOMPUESTO\l"
 	.string "ningún POKÉMON estará a salvo de\l"
-	.string "sus potentes STABS del TIPO VENENO\l"
-	.string "y VOLADOR.$"
+	.string "sus potentes VUELO y LANZA MUGRE que\l"
+	.string "siempre acertarán.$"
+
+RocketHideout7FDocumento_136_2::
+lock
+compare VAR_UNUSED_0x40F7, 157
+goto_if_lt RocketHideout7FDocumento_Esperando
+showmonpic SPECIES_CROBAT_BOND, 10, 3  
+playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER 
+msgbox RocketHideout7FDocumento_Text_136_2, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+RocketHideout7FDocumento_Text_136_2:
+.string "CROBAT-&:\p"
+	.string "PS: 95\n"
+	.string "ATAQUE: 140\l"
+	.string "DEFENSA: 105\l"
+	.string "ATAQUE ESPECIAL: 80\l"
+	.string "DEFENSA ESPECIAL: 85\l"
+	.string "VELOCIDAD: 140\l"
+	.string "TOTAL: 645\p"
+	.string "VENENO/VOLADOR\n"
+	.string "El POKÉMON insignia del\l"
+	.string "ADMIN.JEFE ANDRA, que\l"
+	.string "demuestran lo lejos que un ROCKET\l"
+	.string "común puede llegar, con 645 de\l"
+	.string "BASE está más cerca de un\l"
+	.string "LEGENDARIO MAYOR que de uno MENOR,\l"
+	.string "con una VELOCIDAD casi\l"
+	.string "insuperable. Gracias a OJOCOMPUESTO\l"
+	.string "ningún POKÉMON estará a salvo de\l"
+	.string "sus potentes VUELO y LANZA MUGRE que\l"
+	.string "siempre acertarán.$"
 
 
 RocketHideout7FDocumento_137::
@@ -1792,34 +1825,32 @@ RocketHideout7FDocumento_Text_140:
 
 RocketHideout7FDocumento_141::
 lock
-compare VAR_UNUSED_0x40F7, 171
+compare VAR_DEWFORD_TOWN_STATE, 3
 goto_if_lt RocketHideout7FDocumento_Esperando  
-showmonpic SPECIES_DELPHOX_BOND, 10, 3  
-playmoncry SPECIES_DELPHOX, CRY_MODE_ENCOUNTER 
+showmonpic SPECIES_HYPNO_BOND, 10, 3  
+playmoncry SPECIES_HYPNO, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_141, MSGBOX_DEFAULT
 hidemonpic
 release     
 end
 
 RocketHideout7FDocumento_Text_141:
-	.string "DELPHOX-&:\p"
-	.string "PS: 85\n"
-	.string "ATAQUE: 69\l"
-	.string "DEFENSA: 92\l"
-	.string "ATAQUE ESPECIAL: 164\l"
-	.string "DEFENSA ESPECIAL: 110\l"
-	.string "VELOCIDAD: 124\l"
-	.string "TOTAL: 644\p"
-	.string "FUEGO/PSÍQUICO\n"
-	.string "Primer INICIAL FUERTE VÍNCULO\l"
-	.string "registrado, no baja del notable en\l"
-	.string "ninguno de sus STATS útiles,\l"
-	.string "mientras que su lado especial está\l"
-	.string "extraordinariamente desarrollado,\l"
-	.string "con mayor ATAQUE ESPECIAL que\l"
-	.string "MEWTWO, gran DEFENSA ESPECIAL y\l"
-	.string "VELOCIDAD un punto inferior a\l"
-	.string "DARKRAI.$"
+	.string "HYPNO-&:\p"
+	.string "PS: 95\n"
+	.string "ATAQUE: 53\l"
+	.string "DEFENSA: 100\l"
+	.string "ATAQUE ESPECIAL: 143\l"
+	.string "DEFENSA ESPECIAL: 165\l"
+	.string "VELOCIDAD: 37\l"
+	.string "TOTAL: 593\p"
+	.string "PSÍQUICO\n"
+	.string "Elevó drásticamente sus poderes\l"
+	.string "psíquicos gracias a la sincronización\l"
+	.string "con su ENTRENADOR y a las décadas de\l"
+	.string "reclusión. Todo ello lo volvió inmune a\l"
+	.string "cualquier cambio de estado, lo que\l"
+	.string "unico a BARRERA y RECUPERACIÓN, puede\l"
+	.string "volverlo un POKÉMON indestructible.$"
 
 
 
@@ -1883,13 +1914,16 @@ RocketHideout7FDocumento_Text_143:
 	.string "VELOCIDAD: 100\l"
 	.string "TOTAL: 640\p"
 	.string "HIELO/TIERRA\n"
-	.string "FREDO logró llevar la resistencia\l"
-	.string "de LAPRAS al extremo, y no solo\l"
-	.string "eso, gracias a ganar el TIPO\l"
-	.string "PSÍQUICO su VELOCIDAD se eleva\l"
-	.string "hasta los 90 de BASE, acabando con\l"
-	.string "su mayor debilidad como LAPRAS\l"
-	.string "(60).$"
+	.string "Sorprendentemente, alcaza cotas de\l"
+	.string "poder equivalente a toda una MEGA de\l"
+	.string "PSEUDOLEGENDARIO, la comparación con\l"
+	.string "MEGA-GARCHOMP se hace inevitable.\l"
+	.string "MAMOSWINE-& lo iguala en ATAQUE (170),\l"
+	.string "supera en VELOCIDAD y sus defensas\l"
+	.string "son similares. Pasó tanto tiempo bajo\l"
+	.string "temperaturas extremas que su propio\l"
+	.string "cuerpo acabó adaptándose, ganando\l"
+	.string "con ello NEVADA por habilidad.$"
 
 
 

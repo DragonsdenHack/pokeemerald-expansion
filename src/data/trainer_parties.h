@@ -27731,7 +27731,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER145[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_ZAPDOS,
+    .species = SPECIES_ZAPDOS_PRIMAL,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_MODEST,
@@ -27873,12 +27873,12 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER150[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER151[] = {
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 95,
     .species = SPECIES_ZAPDOS_PRIMAL,
-    .heldItem = ITEM_ASSAULT_VEST,
+    .heldItem = ITEM_SITRUS_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_FIERY_WRATH, MOVE_DISCHARGE, MOVE_HEAT_WAVE, MOVE_ROOST}
+    .moves = {MOVE_DISCHARGE, MOVE_FIERY_WRATH, MOVE_HEAT_WAVE, MOVE_ROOST}
     }
 };
 

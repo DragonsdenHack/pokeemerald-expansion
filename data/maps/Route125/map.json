@@ -176,29 +176,29 @@
   "bg_events": [
     {
       "type": "secret_base",
-      "x": 53,
-      "y": 10,
+      "x": 44,
+      "y": 2,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_RED_CAVE1_2"
     },
     {
       "type": "secret_base",
-      "x": 55,
-      "y": 11,
+      "x": 44,
+      "y": 3,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_RED_CAVE4_2"
     },
     {
       "type": "secret_base",
-      "x": 7,
-      "y": 25,
+      "x": 29,
+      "y": 16,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_YELLOW_CAVE2_2"
     },
     {
       "type": "secret_base",
-      "x": 24,
-      "y": 32,
+      "x": 30,
+      "y": 16,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_YELLOW_CAVE4_2"
     }

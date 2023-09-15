@@ -16,7 +16,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_EXPERT_M",
-      "x": 31,
+      "x": 32,
       "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -95,7 +95,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_STEVEN",
       "x": 20,
-      "y": 36,
+      "y": 37,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 1,
@@ -237,7 +237,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WALLACE",
-      "x": 31,
+      "x": 30,
       "y": 18,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
@@ -258,7 +258,7 @@
       "dest_warp_id": 0
     },
     {
-      "x": 17,
+      "x": 18,
       "y": 29,
       "elevation": 0,
       "dest_map": "MAP_SOOTOPOLIS_CITY_MART",
@@ -357,7 +357,7 @@
     {
       "type": "sign",
       "x": 19,
-      "y": 29,
+      "y": 28,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemartSign"
@@ -381,7 +381,7 @@
     {
       "type": "sign",
       "x": 18,
-      "y": 29,
+      "y": 28,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
       "script": "Common_EventScript_ShowPokemartSign"

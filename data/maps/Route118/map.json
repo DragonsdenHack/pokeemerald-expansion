@@ -323,8 +323,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 43,
-      "y": 11,
+      "x": 44,
+      "y": 19,
       "elevation": 3,
       "var": "VAR_ROUTE118_STATE",
       "var_value": "0",
@@ -332,8 +332,8 @@
     },
     {
       "type": "trigger",
-      "x": 44,
-      "y": 11,
+      "x": 46,
+      "y": 19,
       "elevation": 3,
       "var": "VAR_ROUTE118_STATE",
       "var_value": "0",
@@ -342,7 +342,7 @@
     {
       "type": "trigger",
       "x": 45,
-      "y": 11,
+      "y": 19,
       "elevation": 3,
       "var": "VAR_ROUTE118_STATE",
       "var_value": "0",
@@ -382,22 +382,22 @@
     },
     {
       "type": "secret_base",
-      "x": 29,
-      "y": 5,
+      "x": 32,
+      "y": 2,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_YELLOW_CAVE1_2"
     },
     {
       "type": "secret_base",
       "x": 47,
-      "y": 5,
+      "y": 2,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_TREE1_3"
     },
     {
       "type": "secret_base",
       "x": 46,
-      "y": 5,
+      "y": 2,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_TREE2_1"
     },

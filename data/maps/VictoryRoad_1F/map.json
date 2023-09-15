@@ -172,7 +172,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 2,
+      "x": 0,
       "y": 23,
       "elevation": 4,
       "var": "VAR_VICTORY_ROAD_1F_STATE",
@@ -181,8 +181,8 @@
     },
     {
       "type": "trigger",
-      "x": 3,
-      "y": 23,
+      "x": 0,
+      "y": 22,
       "elevation": 4,
       "var": "VAR_VICTORY_ROAD_1F_STATE",
       "var_value": "0",

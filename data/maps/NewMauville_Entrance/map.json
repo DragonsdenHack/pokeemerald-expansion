@@ -35,7 +35,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 4,
+      "x": 0,
       "y": 2,
       "elevation": 3,
       "var": "VAR_NEW_MAUVILLE_STATE",
