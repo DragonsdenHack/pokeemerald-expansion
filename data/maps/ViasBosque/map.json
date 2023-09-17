@@ -70,21 +70,21 @@
   "warp_events": [
     {
       "x": 45,
-      "y": 62,
+      "y": 63,
       "elevation": 0,
       "dest_map": "MAP_VIAS_TREN3NORTE",
       "dest_warp_id": 0
     },
     {
       "x": 46,
-      "y": 62,
+      "y": 63,
       "elevation": 0,
       "dest_map": "MAP_VIAS_TREN3NORTE",
       "dest_warp_id": 1
     },
     {
       "x": 47,
-      "y": 62,
+      "y": 63,
       "elevation": 0,
       "dest_map": "MAP_VIAS_TREN3NORTE",
       "dest_warp_id": 1

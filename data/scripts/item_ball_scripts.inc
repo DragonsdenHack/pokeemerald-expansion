@@ -2584,5 +2584,17 @@ CultoS8_EventScript_Dusknoirita::
 finditem ITEM_DUSKNOIRITA
    end
 
+DunsparceS4_Event_Script_VientoAfin::
+finditem ITEM_TM113
+   end
+
+Route49MazeP2_Event_Script_EsferaAural::
+finditem ITEM_TM112
+   end
+
+Mision7Lab2_Event_Script_Cabezahierro::
+finditem ITEM_TM115
+   end
+
 
 

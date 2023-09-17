@@ -191,3 +191,38 @@ CultoS4_Rezando_Esencia_Texto_3:
 	.string "implica que es una entidad distinta a\l"
 	.string "nosotros. El POKÉMON ESENCIA no es un\l"
 	.string "ser, es EL SER mismo.$"
+
+CultoS4_Huevo::
+lock
+faceplayer
+goto_if_set FLAG_NUEVA_862, CultoS4_Huevo_2
+msgbox CultoS4_Huevo_Texto_1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketWarehouse_Text_Vuelta_MisionAtlas12 MSGBOX_DEFAULT
+giveegg SPECIES_SPECTRIER
+setflag FLAG_NUEVA_862
+waitfanfare
+release
+end
+
+CultoS4_Huevo_2::
+msgbox CultoS4_Huevo_Texto_2 MSGBOX_NPC
+release
+end
+
+CultoS4_Huevo_Texto_1:
+.string "El otro día sentí una poderosa\n"
+	.string "presencia en este lugar, cuando quise\l"
+	.string "darme cuenta, ese aura espectral\l"
+	.string "desapareció, y encontré esto.$"
+
+CultoS4_Huevo_Texto_2:
+.string "Este lugar es el más antiguo de KANTO,\n"
+	.string "no me extraña que esa espectral\l"
+	.string "presencia haya venido para rendir\l"
+	.string "tributo a alguna alma, ya olvidada por\l"
+	.string "todos. La energía que sentí era\l"
+	.string "imponente, pero también aterradora, no\l"
+	.string "me extrañaría que perteneciera a algún\l"
+	.string "POKÉMON LEGENDARIO.$"
+
