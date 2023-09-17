@@ -1405,6 +1405,7 @@ const u8 *const gMonIconTable[] =
     [SPECIES_MUNKIDORI] = gMonIcon_Munkidori,
     [SPECIES_FEZANDIPITI] = gMonIcon_Fezandipiti,
     [SPECIES_TERAPAGOS] = gMonIcon_Terapagos,
+    [SPECIES_NINETALES_BOND] = gMonIcon_NinetalesBond,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2766,6 +2767,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_MUNKIDORI] = 1,
     [SPECIES_FEZANDIPITI] = 1,
     [SPECIES_TERAPAGOS] = 1,
+    [SPECIES_NINETALES_BOND] = 3,
     [SPECIES_EGG] = 1,
 };
 

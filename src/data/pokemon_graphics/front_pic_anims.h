@@ -10354,6 +10354,12 @@ static const union AnimCmd sAnim_TERAPAGOS_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_NINETALES_BOND_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd *const sAnims_NONE[] ={
     sAnim_GeneralFrame0,
     sAnim_NONE_1,
@@ -16571,6 +16577,11 @@ static const union AnimCmd *const sAnims_TERAPAGOS[] ={
     sAnim_TERAPAGOS_1,
 };
 
+static const union AnimCmd *const sAnims_NINETALES_BOND[] ={
+    sAnim_GeneralFrame0,
+    sAnim_NINETALES_BOND_1,
+};
+
 #define ANIM_CMD(name)             [SPECIES_##name] = sAnims_##name
 #define ANIM_CMD_FULL(name, anims) [SPECIES_##name] = anims
 
@@ -17956,6 +17967,7 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD_FULL(MUNKIDORI, sAnims_MUNKIDORI),
     ANIM_CMD_FULL(FEZANDIPITI, sAnims_FEZANDIPITI),
     ANIM_CMD_FULL(TERAPAGOS, sAnims_TERAPAGOS),
+    ANIM_CMD_FULL(NINETALES_BOND, sAnims_NINETALES_BOND),
     ANIM_CMD(EGG),
 };
 

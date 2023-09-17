@@ -1515,8 +1515,9 @@
 #define SPECIES_MUNKIDORI                    FORMS_START + 401
 #define SPECIES_FEZANDIPITI                  FORMS_START + 402
 #define SPECIES_TERAPAGOS                    FORMS_START + 403
+#define SPECIES_NINETALES_BOND               FORMS_START + 404
 
-#define SPECIES_EGG SPECIES_TERAPAGOS + 1
+#define SPECIES_EGG SPECIES_NINETALES_BOND + 1
 #define NUM_SPECIES SPECIES_EGG
 
 // National Dex Index Defines

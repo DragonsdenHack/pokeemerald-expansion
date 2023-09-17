@@ -5590,6 +5590,10 @@ Cry_Terapagos::
 	.incbin "sound/direct_sound_samples/cries/terapagos.bin"
 
 	.align 2
+Cry_NinetalesBond::
+	.incbin "sound/direct_sound_samples/cries/ninetales_bond.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

@@ -1315,6 +1315,7 @@ const u32 gMonFrontPic_Okidogi[] = INCBIN_U32("graphics/pokemon/okidogi/front.4b
 const u32 gMonFrontPic_Munkidori[] = INCBIN_U32("graphics/pokemon/munkidori/front.4bpp.lz");
 const u32 gMonFrontPic_Fezandipiti[] = INCBIN_U32("graphics/pokemon/fezandipiti/front.4bpp.lz");
 const u32 gMonFrontPic_Terapagos[] = INCBIN_U32("graphics/pokemon/terapagos/front.4bpp.lz");
+const u32 gMonFrontPic_NinetalesBond[] = INCBIN_U32("graphics/pokemon/ninetales_bond/front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");
@@ -2634,6 +2635,7 @@ const u32 gMonBackPic_Okidogi[] = INCBIN_U32("graphics/pokemon/okidogi/back.4bpp
 const u32 gMonBackPic_Munkidori[] = INCBIN_U32("graphics/pokemon/munkidori/back.4bpp.lz");
 const u32 gMonBackPic_Fezandipiti[] = INCBIN_U32("graphics/pokemon/fezandipiti/back.4bpp.lz");
 const u32 gMonBackPic_Terapagos[] = INCBIN_U32("graphics/pokemon/terapagos/back.4bpp.lz");
+const u32 gMonBackPic_NinetalesBond[] = INCBIN_U32("graphics/pokemon/ninetales_bond/back.4bpp.lz");
 
 const u32 gMonPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/normal.gbapal.lz");
 const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/normal.gbapal.lz");
@@ -3977,6 +3979,7 @@ const u32 gMonPalette_Okidogi[] = INCBIN_U32("graphics/pokemon/okidogi/normal.gb
 const u32 gMonPalette_Munkidori[] = INCBIN_U32("graphics/pokemon/munkidori/normal.gbapal.lz");
 const u32 gMonPalette_Fezandipiti[] = INCBIN_U32("graphics/pokemon/fezandipiti/normal.gbapal.lz");
 const u32 gMonPalette_Terapagos[] = INCBIN_U32("graphics/pokemon/terapagos/normal.gbapal.lz");
+const u32 gMonPalette_NinetalesBond[] = INCBIN_U32("graphics/pokemon/ninetales_bond/normal.gbapal.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
 const u32 gMonShinyPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/shiny.gbapal.lz");
@@ -5315,6 +5318,7 @@ const u32 gMonShinyPalette_Okidogi[] = INCBIN_U32("graphics/pokemon/okidogi/shin
 const u32 gMonShinyPalette_Munkidori[] = INCBIN_U32("graphics/pokemon/munkidori/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Fezandipiti[] = INCBIN_U32("graphics/pokemon/fezandipiti/shiny.gbapal.lz");
 const u32 gMonShinyPalette_Terapagos[] = INCBIN_U32("graphics/pokemon/terapagos/shiny.gbapal.lz");
+const u32 gMonShinyPalette_NinetalesBond[] = INCBIN_U32("graphics/pokemon/ninetales_bond/shiny.gbapal.lz");
 
 const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/icon.4bpp");
 const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/pokemon/bulbasaur/icon.4bpp");
@@ -6642,6 +6646,7 @@ const u8 gMonIcon_Okidogi[] = INCBIN_U8("graphics/pokemon/okidogi/icon.4bpp");
 const u8 gMonIcon_Munkidori[] = INCBIN_U8("graphics/pokemon/munkidori/icon.4bpp");
 const u8 gMonIcon_Fezandipiti[] = INCBIN_U8("graphics/pokemon/fezandipiti/icon.4bpp");
 const u8 gMonIcon_Terapagos[] = INCBIN_U8("graphics/pokemon/terapagos/icon.4bpp");
+const u8 gMonIcon_NinetalesBond[] = INCBIN_U8("graphics/pokemon/ninetales_bond/icon.4bpp");
 const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
 
 const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/footprint.1bpp");
@@ -7539,3 +7544,4 @@ const u8 gMonFootprint_Okidogi[] = INCBIN_U8("graphics/pokemon/okidogi/footprint
 const u8 gMonFootprint_Munkidori[] = INCBIN_U8("graphics/pokemon/munkidori/footprint.1bpp");
 const u8 gMonFootprint_Fezandipiti[] = INCBIN_U8("graphics/pokemon/fezandipiti/footprint.1bpp");
 const u8 gMonFootprint_Terapagos[] = INCBIN_U8("graphics/pokemon/terapagos/footprint.1bpp");
+const u8 gMonFootprint_NinetalesBond[] = INCBIN_U8("graphics/pokemon/ninetales_bond/footprint.1bpp");

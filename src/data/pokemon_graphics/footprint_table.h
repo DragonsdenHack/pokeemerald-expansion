@@ -895,5 +895,6 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_MUNKIDORI] = gMonFootprint_Munkidori,
     [SPECIES_FEZANDIPITI] = gMonFootprint_Fezandipiti,
     [SPECIES_TERAPAGOS] = gMonFootprint_Terapagos,
+    [SPECIES_NINETALES_BOND] = gMonFootprint_NinetalesBond,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

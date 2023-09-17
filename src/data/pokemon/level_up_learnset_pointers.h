@@ -1445,4 +1445,5 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_MUNKIDORI] = sMunkidoriLevelUpLearnset,
     [SPECIES_FEZANDIPITI] = sFezandipitiLevelUpLearnset,
     [SPECIES_TERAPAGOS] = sTerapagosLevelUpLearnset,
+    [SPECIES_NINETALES_BOND] = sNinetalesBondLevelUpLearnset,
 };

@@ -1448,4 +1448,5 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_MUNKIDORI] = _("Munkidori"),
     [SPECIES_FEZANDIPITI] = _("Fezandipit"),
     [SPECIES_TERAPAGOS] = _("Terapagos"),
+    [SPECIES_NINETALES_BOND] = _("Ninetales&"),
 };

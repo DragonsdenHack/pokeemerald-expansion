@@ -1444,6 +1444,7 @@ gCryTable::
 	cry Cry_Munkidori
 	cry Cry_Fezandipiti
 	cry Cry_Terapagos
+	cry Cry_NinetalesBond
 
 	.align 2
 gCryTable_Reverse::
@@ -2891,3 +2892,4 @@ gCryTable_Reverse::
 	cry_reverse Cry_Munkidori
 	cry_reverse Cry_Fezandipiti
 	cry_reverse Cry_Terapagos
+	cry_reverse Cry_NinetalesBond
