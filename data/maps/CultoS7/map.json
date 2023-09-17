@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_UNDERGROUND",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
@@ -79,7 +79,7 @@
       "x": 18,
       "y": 1,
       "elevation": 0,
-      "dest_map": "MAP_LAVENDER_RADIO_P9",
+      "dest_map": "MAP_CULTO_ITEMS",
       "dest_warp_id": 0
     },
     {

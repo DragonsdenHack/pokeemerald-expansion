@@ -246,7 +246,8 @@
     "Route53",
     "ViasTren1",
     "ViasTren2",
-    "Route50_CasaCampeon"
+    "Route50_CasaCampeon",
+    "Route50_Norte"
   ],
   "gMapGroup_IndoorCherryNewbark": [
     "Newbark_ElmLaboratory",
@@ -456,7 +457,13 @@
     "Cueva_Gimnasio_Trigal",
     "TorreDunsparce_P1",
     "TorreDunsparce_P2",
-    "TorreDunsparce_P4"
+    "TorreDunsparce_P4",
+    "Route30_House_1",
+    "Route30_House_2",
+    "TorreDunsparce_S1",
+    "TorreDunsparce_S2",
+    "TorreDunsparce_S3",
+    "TorreDunsparce_S4"
   ],
   "gMapGroup_IndoorPalletTown": [
     "PalletTown_RedHouse_1F",

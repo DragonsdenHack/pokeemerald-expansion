@@ -2,7 +2,20 @@ BlackthornCity_House1_MapScripts::
 	.byte 0
 
 BlackthornCityHouse1_1::
+lock
+faceplayer
+msgbox BlackthornCityHouse1_1_Texto_1, MSGBOX_DEFAULT
+release
 end
+
+BlackthornCityHouse1_1_Texto_1:
+.string "Las nuevas generaciones se lo tienen\n"
+	.string "muy creído, y subestiman sobremanera a\l"
+	.string "las anteriores. Esa DÉBORA cree que\l"
+	.string "cuando tenga un KINGDRA y un\l"
+	.string "DRAGONITE habrá resuelto todos los\l"
+	.string "misterios del TIPO DRAGÓN. Si viera los\l"
+	.string "POKÉMON más fuertes del maestro...$"
 
 
 BlackthornCityHouse1_2::

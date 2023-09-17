@@ -357,8 +357,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MAN_3",
-      "x": 65,
-      "y": 9,
+      "x": 64,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_RIGHT",
       "movement_range_x": 1,
@@ -371,7 +371,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_WOMAN_5",
       "x": 72,
-      "y": 9,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN_AND_LEFT",
       "movement_range_x": 1,
@@ -383,8 +383,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 60,
-      "y": 10,
+      "x": 67,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -421,7 +421,7 @@
     {
       "type": "trigger",
       "x": 25,
-      "y": 5,
+      "y": 2,
       "elevation": 3,
       "var": "VAR_ROUTE121_STATE",
       "var_value": "0",
@@ -430,7 +430,7 @@
     {
       "type": "trigger",
       "x": 25,
-      "y": 6,
+      "y": 3,
       "elevation": 3,
       "var": "VAR_ROUTE121_STATE",
       "var_value": "0",
@@ -438,8 +438,8 @@
     },
     {
       "type": "trigger",
-      "x": 25,
-      "y": 7,
+      "x": 24,
+      "y": 3,
       "elevation": 3,
       "var": "VAR_ROUTE121_STATE",
       "var_value": "0",
@@ -447,8 +447,8 @@
     },
     {
       "type": "trigger",
-      "x": 25,
-      "y": 8,
+      "x": 24,
+      "y": 2,
       "elevation": 3,
       "var": "VAR_ROUTE121_STATE",
       "var_value": "0",
@@ -466,29 +466,29 @@
     },
     {
       "type": "secret_base",
-      "x": 40,
-      "y": 11,
+      "x": 38,
+      "y": 2,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_RED_CAVE2_2"
     },
     {
       "type": "secret_base",
-      "x": 18,
-      "y": 13,
+      "x": 22,
+      "y": 1,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_RED_CAVE3_2"
     },
     {
       "type": "secret_base",
-      "x": 43,
-      "y": 7,
+      "x": 42,
+      "y": 3,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_TREE1_2"
     },
     {
       "type": "secret_base",
-      "x": 42,
-      "y": 7,
+      "x": 41,
+      "y": 3,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_TREE2_2"
     },

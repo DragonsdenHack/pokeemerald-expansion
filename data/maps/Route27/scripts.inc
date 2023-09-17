@@ -264,3 +264,18 @@ walk_slow_down
 walk_slow_down
 walk_slow_down
 step_end
+
+Route27_Cartel::
+lock
+msgbox Route27_Cartel_Texto_1 MSGBOX_SIGN
+delay 10
+msgbox Route27_Cartel_Texto_2 MSGBOX_SIGN
+release
+end
+
+Route27_Cartel_Texto_2:
+.string "(Esto último está tachado)$"
+
+Route27_Cartel_Texto_1:
+.string "FRONTERA CON KANTO: PROHIBIDO PASAR A\n"
+	.string "PARTIR DE ESTE PUNTO$"

@@ -85,6 +85,8 @@ lock
 playse SE_PIN
 applymovement OBJ_EVENT_ID_PLAYER, NavelRock_Bottom_Combate_Lugia_Move_1
 waitmovement 0x0
+clearflag FLAG_HIDE_LUGIA
+addobject 1
 delay 20
 	playse SE_THUNDERSTORM_STOP
 	setvar VAR_0x8004, 0  @ vertical pan
@@ -110,6 +112,31 @@ delay 20
 	setvar VAR_0x8006, ITEM_NONE
 	special CreateEventLegalEnemyMon
 	setflag FLAG_SYS_CTRL_OBJ_DELETE
+setvar VAR_TEMP_1, 1
+special SpawnCameraObject
+setvar VAR_0x8004, 4  @ num loops
+setvar VAR_0x8005, 35 @ delay
+applymovement 1, NavelRock_Top_Movement_HoOhAppear
+applymovement 1, LugiaBattle_Move_1
+applymovement OBJ_EVENT_ID_CAMERA, NavelRock_Top_Movement_CameraPanUp
+waitmovement 0
+setvar VAR_0x8004, 4  @ num loops
+	setvar VAR_0x8005, 35 @ delay
+	special LoopWingFlapSE
+	applymovement OBJ_EVENT_ID_CAMERA, NavelRock_Top_Movement_CameraPanDown
+	applymovement 1, NavelRock_Top_Movement_HoOhApproach
+	waitmovement 0
+special RemoveCameraObject
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LugiaBattle_Move_3
+applymovement 1, LugiaBattle_Move_2
+waitmovement 0
+special RemoveCameraObject
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, LugiaBattle_Move_4
+waitmovement 0
+special RemoveCameraObject
+delay 40
 	msgbox NavelRock_Bottom_Combate_Lugia_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_LUGIA, NavelRock_Bottom_Combate_Lugia_Texto_2
 playmoncry SPECIES_LUGIA, CRY_MODE_ENCOUNTER
@@ -320,3 +347,33 @@ step_end
 NavelRock_Bottom_Combate_Lugia_Move_9:
 walk_fast_up
 step_end
+
+LugiaBattle_Move_1:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+
+LugiaBattle_Move_2:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+LugiaBattle_Move_3:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+LugiaBattle_Move_4:
+walk_slow_down
+walk_slow_down
+walk_slow_down
+step_end
+

@@ -7395,7 +7395,7 @@ const struct Trainer gTrainers[] = {
     {
         .partyFlags = 0,
         .trainerClass = TRAINER_CLASS_POKEGUARDAJOHTO,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICAJOHTO,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
         .trainerPic = TRAINER_PIC_FR_POKEMON_RANGER_M,
         .trainerName = _("FERN"),
         .items = {},
@@ -9553,9 +9553,9 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_PAREJAJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICAJOHTO,
         .trainerPic = TRAINER_PIC_YOUNG_COUPLE,
-        .trainerName = _("PAREJA JOV"),
+        .trainerName = _("PAUL & ELSA"),
         .items = {},
-        .doubleBattle = FALSE,
+        .doubleBattle = TRUE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_JohnAndJay2),
         .party = {.NoItemDefaultMoves = sParty_JohnAndJay2},
@@ -10768,8 +10768,8 @@ const struct Trainer gTrainers[] = {
     [TRAINER_MAY_RUSTBORO_TORCHIC] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_RIVAL,
-        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
+        .trainerClass = TRAINER_CLASS_NADADORJOHTO,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
         .trainerPic = TRAINER_PIC_FR_SWIMMER_M,
         .trainerName = _("KOICHI"),
         .items = {},
@@ -13330,9 +13330,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_94] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_POLICIAHOENN,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
-        .trainerPic = TRAINER_PIC_HGSS_OFFICER,
+        .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
         .items = {},
         .doubleBattle = FALSE,
@@ -13344,9 +13344,9 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_95] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_POLICIAHOENN,
+        .trainerClass = TRAINER_CLASS_CIENTIFICOHOENN,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
-        .trainerPic = TRAINER_PIC_HGSS_OFFICER,
+        .trainerPic = TRAINER_PIC_SCIENTIST,
         .trainerName = _("DEVON"),
         .items = {},
         .doubleBattle = FALSE,
@@ -13792,7 +13792,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_127] =
     {
         .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .trainerClass = TRAINER_CLASS_TEAM_AQUA,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_AQUA,
         .trainerPic = TRAINER_PIC_AQUA_GRUNT_M,
         .trainerName = _("SOLDADO"),
@@ -14127,10 +14127,10 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TRAINER_151] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_AVES,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_FEMALE,
+        .trainerPic = TRAINER_PIC_LEADER_PEGASO,
         .trainerName = _("ZAPDOS-P"),
         .items = {},
         .doubleBattle = FALSE,

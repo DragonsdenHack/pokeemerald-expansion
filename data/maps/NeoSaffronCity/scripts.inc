@@ -44,7 +44,7 @@ NeoSaffronCity_Segundo_Chico_Texto_1:
 	.string "entrenadores...\l"
 	.string "Y acabé en el viejo GIMNASIO que hay\l"
 	.string "al lado.\l"
-	.string "¡Vaya, qué verguenza pasé!$"
+	.string "¡Vaya, qué vergüenza pasé!$"
 
 
 NeoSaffronCity_Primera_Chica::
@@ -59,7 +59,7 @@ NeoSaffronCity_Primera_Chica_Texto_1:
 	.string "de radio.\l"
 	.string "Está bien oír alabanzas sobre tu\l"
 	.string "ciudad, pero también da un poco de\l"
-	.string "verguenza.$"
+	.string "vergüenza.$"
 
 NeoSaffronCity_Segunda_Chica::
 lock

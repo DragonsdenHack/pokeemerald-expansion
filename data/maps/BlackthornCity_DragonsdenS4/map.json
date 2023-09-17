@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_DRAGONSDEN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
   "allow_escaping": true,
   "allow_running": true,
@@ -150,8 +150,8 @@
       "x": 38,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_RUINS_OF_ALPH",
-      "dest_warp_id": 2
+      "dest_map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S3",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

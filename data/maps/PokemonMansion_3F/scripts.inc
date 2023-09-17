@@ -43,5 +43,5 @@ end
 
 PokemonMansion3FDocumento_Text_100:
 	.string "Diario: 6 de Febrero\n"
-	.string "Mew dió a luz, llamamos al pequeño\l"
+	.string "Mew dio a luz, llamamos al pequeño\l"
 	.string "Mewtwo.$"

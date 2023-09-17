@@ -21,7 +21,7 @@ MtEmber1FPath_3_Texto_1:
 
 MtEmber_B5F_Encuentro_Magno::
 lock
-setmetatile 7, 3, 0x2D9, TRUE
+setmetatile 7, 3, 0x2D9, FALSE
 setmetatile 7, 2, 0x299, TRUE
 setmetatile 7, 1, 0x2C4, TRUE
 special DrawWholeMapView
@@ -71,7 +71,7 @@ delay 75
 removeobject 1
 waitfanfare
 playse SE_BANG
-setmetatile 7, 3, 0x284, TRUE
+setmetatile 7, 3, 0x284, FALSE
 setmetatile 7, 2, 0x294, FALSE
 setmetatile 7, 1, 0x28C, TRUE
 special DrawWholeMapView
@@ -145,8 +145,7 @@ applymovement 2, MtEmber_B5F_Encuentro_Magno_Move_13
 waitmovement 0x0
 msgbox MtEmber_B5F_Encuentro_Magno_Texto_10 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_DANA, MtEmber_B5F_Encuentro_Magno_Texto_11
-msgbox MtEmber_B5F_Encuentro_Magno_Texto_12 MSGBOX_AUTOCLOSE
-clearflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD                         
+msgbox MtEmber_B5F_Encuentro_Magno_Texto_12 MSGBOX_AUTOCLOSE                         
 clearflag FLAG_HIDE_LEGEND_MON_CAVE_OF_ORIGIN                      
 clearflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE                           
 clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE                            
@@ -179,8 +178,7 @@ clearflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
 clearflag FLAG_HIDE_SOOTOPOLIS_CITY_RESIDENTS                        
 clearflag FLAG_HIDE_SKY_PILLAR_WALLACE                              
 clearflag FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE                            
-clearflag FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                            
-clearflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY                     
+clearflag FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS                    
 clearflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE                    
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL                   
 clearflag FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL                          

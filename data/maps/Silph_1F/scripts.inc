@@ -85,7 +85,7 @@ release
 end
 
 Silph1F_Text_7:
-.string "¡Esta fuente es una verguenza\n"
+.string "¡Esta fuente es una vergüenza\n"
 .string "comparada con la nuestra!$"
 
 

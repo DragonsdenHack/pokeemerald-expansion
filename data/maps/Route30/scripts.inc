@@ -36,7 +36,16 @@ Route30_Text_4:
 
 
 Route30_5::
+lock
+faceplayer
+msgbox Route30_5_Texto_1, MSGBOX_NPC
+release
 end
+
+Route30_5_Texto_1:
+.string "¡Entrenaré a mi PIDGEY y algún día\n"
+	.string "podré combatir en esta ruta contra\l"
+	.string "otro ENTRENADOR!$"
 
 
 
@@ -184,7 +193,11 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route30_Anciano_Togepi_Move_6
 waitmovement 0x0
 special RemoveCameraObject
+applymovement 10, Route30_Anciano_Togepi_Move_1.1
+waitmovement 0x0
 msgbox Route30_Anciano_Togepi_Texto_7 MSGBOX_NPC
+applymovement 10, Route30_Anciano_Togepi_Move_1.2
+waitmovement 0x0
 msgbox Route30_Anciano_Togepi_Texto_8 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
 msgbox Route30_Anciano_Togepi_Texto_9, MSGBOX_DEFAULT
@@ -249,6 +262,14 @@ Route30_Anciano_Togepi_Texto_10:
 
 Route30_Anciano_Togepi_Move_1:
 face_right
+step_end
+
+Route30_Anciano_Togepi_Move_1.1:
+face_left
+step_end
+
+Route30_Anciano_Togepi_Move_1.2:
+walk_in_place_left
 step_end
 
 Route30_Anciano_Togepi_Move_2:

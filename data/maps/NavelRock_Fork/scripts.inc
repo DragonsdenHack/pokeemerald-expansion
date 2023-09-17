@@ -114,7 +114,7 @@ NavelRock_Fork_Giovanni_Texto_6:
 	.string "legendarios de otro nivel, hechos\l"
 	.string "de una pasta diferente, que solo\l"
 	.string "MEWTWO por la tecnología pudo\l"
-	.string "igualar, en cuanto a LUGIA, es\l"
+	.string "igualar. En cuanto a LUGIA, es\l"
 	.string "extraordinariamente resistente,\l"
 	.string "necesitarás algo más que potencia\l"
 	.string "y fuerza bruta para tumbarle a\l"

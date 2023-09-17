@@ -1274,30 +1274,38 @@ finditem ITEM_STAR_PIECE
 
 PasoHelado_EventScript_Revivir::
 finditem ITEM_REVIVE
+   end
 
 
 PasoHelado_EventScript_MaxRevivir::
 finditem ITEM_MAX_REVIVE
+  end
 
 
 Ruta52Maze_EventScript_CableLink::
 finditem ITEM_POKEMON_BOX_LINK
+end
 
 
 Ruta52Maze_EventScript_PiedraAlba::
 finditem ITEM_DAWN_STONE
+end
 
 Ruta52Maze_EventScript_CharizarditaY::
 finditem ITEM_CHARIZARDITE_Y
+end
 
 Ruta52Maze_EventScript_Maxipepita::
 finditem ITEM_BIG_NUGGET
+end
 
 CuevaTrigal_EventScript_PiedraDura::
 finditem ITEM_HARD_STONE
+end
 
 CuevaTrigal_EventScript_CenSagrada::
 finditem ITEM_SACRED_ASH
+end
 
 Fucsia_EventScript_Carameloraro::
 finditem ITEM_RARE_CANDY
@@ -2554,6 +2562,38 @@ finditem ITEM_EXP_SHARE
 
 CeladonCity_Event_Script_Eter::
 finditem ITEM_ETHER
+   end
+
+ZapdosP_Event_Script_Ataqueaereo::
+finditem ITEM_TM110
+   end
+
+IcefallCave_Event_Script_VeloAurora::
+finditem ITEM_TM103
+   end
+
+Carbon2_Event_Script_Mawilita::
+finditem ITEM_MAWILITE
+   end
+
+Carbon2_EventScript_Carbon::
+finditem ITEM_CHARCOAL
+   end
+
+CultoS8_EventScript_Dusknoirita::
+finditem ITEM_DUSKNOIRITA
+   end
+
+DunsparceS4_Event_Script_VientoAfin::
+finditem ITEM_TM113
+   end
+
+Route49MazeP2_Event_Script_EsferaAural::
+finditem ITEM_TM112
+   end
+
+Mision7Lab2_Event_Script_Cabezahierro::
+finditem ITEM_TM115
    end
 
 

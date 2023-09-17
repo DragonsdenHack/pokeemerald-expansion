@@ -13,7 +13,7 @@ release
 end
 
 RuinsOfAlphS1_Rocket_Cadaver_Texto_1:
-.string "(Parece uno de los ROCKETS que\n"
+.string "(Parece uno de los ROCKET que\n"
 	.string "entraron a las ruinas...)$"
 
 RuinsOfAlphS1_Atlas_Piedra::

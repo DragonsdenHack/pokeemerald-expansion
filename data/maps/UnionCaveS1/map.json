@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_SEVII_ISLE_23",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_UNDERGROUND",
   "allow_cycling": true,
   "allow_escaping": true,
   "allow_running": true,
@@ -50,7 +50,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "EventScript_StrengthBoulder",
       "flag": "0"
     },
     {
@@ -84,7 +84,7 @@
     },
     {
       "x": 13,
-      "y": 23,
+      "y": 22,
       "elevation": 0,
       "dest_map": "MAP_UNION_CAVE",
       "dest_warp_id": 2

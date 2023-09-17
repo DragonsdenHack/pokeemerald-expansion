@@ -601,6 +601,7 @@ CultoS3_Text_42:
 
 Culto_S3_Batalla::
 lockall
+clearflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 clearflag FLAG_HIDE_HO_OH
 clearflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
 addobject 53
@@ -741,6 +742,8 @@ msgbox Culto_S3_Batalla_Texto_25 MSGBOX_AUTOCLOSE
 msgbox Culto_S3_Batalla_Texto_26 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+removeobject 55
 fadescreen 1
 delay 20
 removeobject 43

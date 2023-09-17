@@ -494,7 +494,7 @@ VermilionCityGym_NoPass_Text_1:
 
 VermilionCityGym_NoPass_Text_2:
    .string "¡Eres un ROCKET!\n"
-	.string "¡Tienes la poca verguenza de\l"
+	.string "¡Tienes la poca vergüenza de\l"
 	.string "entrar como si nada a un lugar\l"
 	.string "oficial y homologado por la LIGA\l"
 	.string "POKÉMON!$"

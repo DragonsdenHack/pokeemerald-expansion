@@ -22,6 +22,8 @@ playse SE_POKENAV_HANG_UP
 applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 msgbox IcePath_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+msgbox IcePath_Llamada_Giovanni_Texto_1.1 MSGBOX_AUTOCLOSE
+msgbox IcePath_Llamada_Giovanni_Texto_1.2 MSGBOX_AUTOCLOSE
 msgbox IcePath_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
 setvar VAR_UNUSED_0x40F7, 167
@@ -39,21 +41,33 @@ end
 
 IcePath_Llamada_Giovanni_Texto_1:
 .string "GIOVANNI: {PLAYER}, hemos\n"
-	.string "registrado los datos del LAPRAS\l"
+	.string "registrado los datos del MAMOSWINE\l"
 	.string "FUERTE VÍNCULO de FREDO, pero,\l"
 	.string "¿con qué clase de POKÉMON acabas\l"
 	.string "de combatir?\l"
 	.string "Está rompiendo los esquemas de\l"
-	.string "todos nuestros científicos. El\l"
-	.string "LAPRAS de FREDO es extraordinario,\l"
-	.string "cuenta con 660 de BASE bien\l"
-	.string "repartidos, pero este último, es\l"
-	.string "único, {PLAYER}.$"
+	.string "todos nuestros científicos.$"
+
+IcePath_Llamada_Giovanni_Texto_1.1:
+.string "El MAMOSWINE-& de FREDO es\n"
+	.string "extraordinario, cuenta con el mismo\l"
+	.string "ATAQUE y mejor VELOCIDAD que\l"
+	.string "GARCHOMP-MEGA, y defensas similares,\l"
+	.string "en stats útiles es completamente\l"
+	.string "equiparable a la MEGA de un\l"
+	.string "PSEUDOLEGENDARIO.$"
+
+IcePath_Llamada_Giovanni_Texto_1.2:
+.string "Pero... el POKÉMON con el que acabas de\n"
+	.string "combatir va incluso más allá, su\l"
+	.string "poderío por el lado especial es\l"
+	.string "inigualable, algo único.$"
+
 
 IcePath_Llamada_Giovanni_Texto_2:
-.string "Te he llamado no para hablar de\n"
-	.string "esto, quiero que vengas a mi\l"
-	.string "despacho de la BASE ROCKET\l"
+.string "Cambiando de tema, te he llamado\n"
+	.string "por otra razón. Quiero que vengas\l"
+	.string "a mi despacho de la BASE ROCKET\l"
 	.string "PROFUNDA. Hay que tomar cartas en\l"
 	.string "el asunto respecto a lo que me\l"
 	.string "contaste de ese ENTRENADOR que\l"

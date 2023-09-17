@@ -458,7 +458,7 @@ RocketHideoutViridian_Escena_9_Texto_10:
 .string "????: ¡Bah! Una organización repleta de\n"
 	.string "esbirros que en el momento de la verdad\l"
 	.string "se deja vencer por alguien tan joven.\l"
-	.string "¡Qué verguenza!$"
+	.string "¡Qué vergüenza!$"
 
 RocketHideoutViridian_Escena_9_Texto_11:
 .string "GIOVANNI: Una organización bien\n"

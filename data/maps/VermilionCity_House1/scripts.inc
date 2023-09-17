@@ -84,7 +84,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_2:
 VermilionCity_House1_Secundaria_Magikarp_Texto_3:
 .string "¡Eres un ROCKET!\n"
 	.string "¡No tendrás problema en poner en\l"
-	.string "su lugar a un sinverguenza que\l"
+	.string "su lugar a un sinvergüenza que\l"
 	.string "está acabando con mi reputación!\l"
 	.string "¿Verdad?$"
 

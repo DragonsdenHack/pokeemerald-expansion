@@ -40694,6 +40694,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)),
 
@@ -40731,6 +40732,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM91_U_TURN)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM110_SKY_ATTACK)
+                                            | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(TM113_TAILWIND)
                                             | TMHM2(HM02_FLY)),
 

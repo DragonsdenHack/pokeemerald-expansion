@@ -2,7 +2,7 @@
   "id": "MAP_ICEFALL_CAVE_1F",
   "name": "IcefallCave_1F",
   "layout": "LAYOUT_ICEFALL_CAVE_1F",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_RG_MT_MOON",
   "region_map_section": "MAPSEC_ICEFALL_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -69,6 +69,69 @@
       "y": 6,
       "elevation": 0,
       "dest_map": "MAP_ICEFALL_CAVE_BACK_CAVE",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "elevation": 0,
+      "dest_map": "MAP_ICEFALL_CAVE_1F",
       "dest_warp_id": 0
     }
   ],

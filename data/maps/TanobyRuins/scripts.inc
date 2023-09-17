@@ -47,7 +47,7 @@ TanobyRuins_EventScript_Caballero::
 
 
 TanobyRuins_EventScript_Pintora::
-	trainerbattle_single TRAINER_VIVI, TanobyRuins_Text_PintoraIntro, TanobyRuins_Text_PintoraDefeated
+	trainerbattle_single TRAINER_JANICE, TanobyRuins_Text_PintoraIntro, TanobyRuins_Text_PintoraDefeated
 	msgbox TanobyRuins_Text_PintoraPostBattle, MSGBOX_AUTOCLOSE
 	end
 

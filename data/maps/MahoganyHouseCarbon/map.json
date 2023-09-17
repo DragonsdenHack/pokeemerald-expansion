@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "MahoganyHouseCarbon_Secundaria",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MOM_OUTSIDE"
     }
   ],
   "warp_events": [
@@ -46,7 +46,7 @@
       "x": 2,
       "y": 5,
       "elevation": 0,
-      "dest_map": "MAP_AZALEA_TOWN",
+      "dest_map": "MAP_ROUTE44",
       "dest_warp_id": 1
     }
   ],

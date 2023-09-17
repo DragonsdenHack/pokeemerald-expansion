@@ -123,8 +123,6 @@ setflag FLAG_HIDE_GRANITE_CAVE_STEVEN
 removeobject 7
 removeobject 8
 removeobject 9
-clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
-addobject 3
 playmoncry SPECIES_RESHIRAM, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_FAINT
@@ -149,6 +147,8 @@ playse SE_M_EXPLOSION
 delay 40
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
+clearflag FLAG_HIDE_LANETTES_HOUSE_LANETTE
+addobject 3
 fadescreen 2
 delay 15
 playmoncry SPECIES_KYUREM, CRY_MODE_ENCOUNTER
@@ -176,7 +176,7 @@ msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_12 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ZEUS_4, RuinsOfAlph_S4_Combate_Zeus_Texto_13
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_3
 waitmovement 0x0
-playse MUS_RG_VICTORY_GYM_LEADER
+playbgm MUS_RG_VICTORY_GYM_LEADER, FALSE
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 waitmovement 0x0
@@ -195,8 +195,8 @@ msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_13
 waitmovement 0x0
 msgbox RuinsOfAlph_S4_Combate_Zeus_Texto_15 MSGBOX_AUTOCLOSE
-fadeoutbgm 0
-delay 80
+fadedefaultbgm
+delay 100
 playse SE_PIN
 applymovement 5, RuinsOfAlph_S4_Combate_Zeus_Move_10
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S4_Combate_Zeus_Move_10

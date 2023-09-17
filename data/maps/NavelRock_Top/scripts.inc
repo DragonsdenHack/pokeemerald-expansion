@@ -86,7 +86,9 @@ NavelRock_Top_EventScript_RanFromHoOh::
 	end
 
 NavelRock_Top_Movement_CameraPanUp:
-	walk_up
+	walk_fast_up
+	walk_fast_up
+	walk_fast_up
 	walk_up
 	walk_up
 	step_end

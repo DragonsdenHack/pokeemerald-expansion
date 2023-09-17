@@ -128,4 +128,13 @@ CuevaHypno_4_Lider_Texto_9:
 	.string "De entrar, serás el primer aspirante\l"
 	.string "en casi 4 décadas...$"
 
+CuevaHypno_4_Cartel::
+lock
+msgbox CuevaHypno_4_Cartel_Texto_1 MSGBOX_SIGN
+release
+end
+
+CuevaHypno_4_Cartel_Texto_1:
+.string "CUEVA DE HYPNO$"
+
 

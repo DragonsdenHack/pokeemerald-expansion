@@ -65,7 +65,7 @@ end
 
 PokemonTower1F_Text_5:
 .string "¡No tenéis ni respeto, ni memoria,\n"
-.string "ni verguenza!\l"
+.string "ni vergüenza!\l"
 .string "¡Sucios criminales!$"
 
 PokemonTower_1F_SetFlags::

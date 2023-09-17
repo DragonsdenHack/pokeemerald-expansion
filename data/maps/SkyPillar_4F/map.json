@@ -19,24 +19,31 @@
   "warp_events": [
     {
       "x": 11,
-      "y": 1,
+      "y": 2,
       "elevation": 3,
       "dest_map": "MAP_SKY_PILLAR_3F",
       "dest_warp_id": 1
     },
     {
       "x": 7,
-      "y": 1,
+      "y": 2,
       "elevation": 3,
       "dest_map": "MAP_SKY_PILLAR_3F",
       "dest_warp_id": 2
     },
     {
       "x": 3,
-      "y": 1,
+      "y": 2,
       "elevation": 3,
       "dest_map": "MAP_SKY_PILLAR_5F",
       "dest_warp_id": 0
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "elevation": 0,
+      "dest_map": "MAP_SKY_PILLAR_3F",
+      "dest_warp_id": 3
     }
   ],
   "coord_events": [

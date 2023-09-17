@@ -608,7 +608,7 @@ BaseRocketHoennS3Documento_Text_119:
 	.string "ATAQUE ESPECIAL: 130\l"
 	.string "DEFENSA ESPECIAL: 210\l"
 	.string "VELOCIDAD: 30\l"
-	.string "TOTAL: 700\p"
+	.string "TOTAL: 710\p"
 	.string "DRAGÓN/VENENO\n"
 	.string "El grado de viscosidad en su cuerpo le\l"
 	.string "hace absorber la mayor parte de los\l"

@@ -59,8 +59,8 @@
       "x": 45,
       "y": 36,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_warp_id": 3
     },
     {
       "x": 2,
@@ -73,15 +73,15 @@
       "x": 43,
       "y": 24,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS3",
+      "dest_warp_id": 2
     },
     {
       "x": 41,
       "y": 36,
       "elevation": 0,
       "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 0
+      "dest_warp_id": 8
     },
     {
       "x": 43,
@@ -94,50 +94,50 @@
       "x": 12,
       "y": 11,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS3",
+      "dest_warp_id": 6
     },
     {
       "x": 11,
       "y": 35,
       "elevation": 0,
-      "dest_map": "MAP_MT_MORTAR4",
-      "dest_warp_id": 1
+      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_warp_id": 2
     },
     {
       "x": 16,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 6
+      "dest_map": "MAP_WHIRL_ISLANDS3",
+      "dest_warp_id": 9
     },
     {
       "x": 26,
       "y": 15,
       "elevation": 0,
       "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 0
+      "dest_warp_id": 3
     },
     {
       "x": 41,
       "y": 15,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_map": "MAP_WHIRL_ISLANDS2",
       "dest_warp_id": 0
     },
     {
       "x": 27,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS3",
+      "dest_warp_id": 8
     },
     {
       "x": 41,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS3",
+      "dest_warp_id": 7
     },
     {
       "x": 29,

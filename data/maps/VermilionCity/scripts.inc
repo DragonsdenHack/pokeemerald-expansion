@@ -906,6 +906,8 @@ case 0, EventScript_Prima
 case 1, EventScript_Secunda
 case 2, EventScript_Tera
 case 3, EventScript_Mas
+applymovement OBJ_EVENT_ID_PLAYER, VermilionCity_Barco_Move_4
+waitmovement 0x0
 release
 end
 

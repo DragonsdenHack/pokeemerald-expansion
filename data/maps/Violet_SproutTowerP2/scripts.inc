@@ -12,7 +12,13 @@ end
 
 
 VioletSproutTowerP2_3::
+lock
+msgbox VioletSproutTowerP2_3_Texto_1 MSGBOX_DEFAULT
+release
 end
+
+VioletSproutTowerP2_3_Texto_1:
+.string "Parece estar meditando...$"
 
 
 

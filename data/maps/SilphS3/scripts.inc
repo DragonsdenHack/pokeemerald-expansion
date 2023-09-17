@@ -758,3 +758,34 @@ SilphS3_Documento_Pokemon_Esencia_Texto_3:
 	.string "oculto en algún rincón de PUEBLO\l"
 	.string "LAVANDA...$"
 
+SilphS3_Sotano::
+lock
+msgbox SilphS3_Sotano_Texto_1 MSGBOX_SIGN
+release
+end
+
+SilphS3_Sotano_Texto_1:
+.string "ARCHIVOS PRIVADOS DE SILPH S.A.\n"
+	.string "S3$"
+
+SilphS2_Sotano::
+lock
+msgbox SilphS2_Sotano_Texto_1 MSGBOX_SIGN
+release
+end
+
+SilphS2_Sotano_Texto_1:
+.string "ARCHIVOS PRIVADOS DE SILPH S.A.\n"
+	.string "S2$"
+
+
+SilphS1_Sotano::
+lock
+msgbox SilphS1_Sotano_Texto_1 MSGBOX_SIGN
+release
+end
+
+SilphS1_Sotano_Texto_1:
+.string "ARCHIVOS PRIVADOS DE SILPH S.A.\n"
+	.string "S1$"
+

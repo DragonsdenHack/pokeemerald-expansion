@@ -41,7 +41,7 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_3:
-.string "¡Debería darte verguenza andar\n"
+.string "¡Debería darte vergüenza andar\n"
 .string "como si nada con esa vestimenta!$"
 
 

@@ -183,3 +183,16 @@ Route50_Encuentro_Dunsparce_Texto_7:
 Route50_Encuentro_Dunsparce_Texto_8:
 	.string "¡¡{PLAYER} obtuvo un PIEDRA DORADA!!$"
 
+
+Route50_Dragonite::
+lock
+playmoncry SPECIES_DRAGONITE, CRY_MODE_ENCOUNTER
+waitmoncry
+msgbox Route50_Dragonite_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Route50_Dragonite_Texto_1:
+.string "Es un DRAGONITE, está bloqueando el\n"
+	.string "paso a una zona aún más al norte.$"
+

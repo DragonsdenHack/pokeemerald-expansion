@@ -11211,7 +11211,7 @@ TanobyRuins_Text_Montanero2Defeated:
 
 TanobyRuins_Text_Montanero2PostBattle:
 	.string "Yo he oído que hay otras ruinas\n"
-	.string "como éstas.\p"
+	.string "como estas.\p"
 	.string "¿Serán lugares de descanso de\n"
 	.string "otros míticos POKéMON?$"
 
@@ -17332,13 +17332,26 @@ UndergroundPath_7F_Text_Duodecimo_MoteroIntro:
 	.string "contigo!$"
 
 UndergroundPath_7F_Text_Duodecimo_MoteroDefeated:
-.string "Por algo llegaste tan lejos...$"
+ .string "Por algo llegaste tan lejos...$"
 
 UndergroundPath_7F_Text_Duodecimo_MoteroPostBattle:
 .string "Las pequeñas asociaciones siempre\n"
 	.string "funcionan mejor, cuando se vuelven\l"
 	.string "grandes, todo se corrompe y cada uno\l"
 	.string "busca su propio interés.$"
+
+Ruinas_Text_MontaneroIntro:
+.string "¡Aquí nadie parece haberse enterado\n"
+	.string "del verdadero misterio de estas ruinas!$"
+
+Ruinas_Text_MontaneroDefeated:
+.string "¡Menuda paliza!$"
+
+Ruinas_Text_MontaneroPostBattle:
+.string "El verdadero misterio de estas ruinas\n"
+	.string "es... ¡XATU! ¡Estas ruinas están\l"
+	.string "plagadas de NATU, deben de tener algo\l"
+	.string "que ver!$"
 
 
 

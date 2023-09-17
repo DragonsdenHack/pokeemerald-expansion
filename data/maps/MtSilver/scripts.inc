@@ -61,8 +61,9 @@ msgbox MtSilver_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 1, MtSilver_Combate_Andra_Move_9
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
 removeobject 1
-setvar VAR_UNUSED_0x40F7, 156
+setvar VAR_UNUSED_0x40F7, 157
 release
 end
 

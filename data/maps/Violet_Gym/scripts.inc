@@ -103,10 +103,10 @@ VioletGym_Estatua_Texto_2:
 VioletGym_Gym_Dude::
 lock
 faceplayer
-compare VAR_UNUSED_0x40F7, 122
-goto_if_gt VioletGym_Gym_Dude_3
 compare VAR_UNUSED_0x40F7, 124
 goto_if_gt VioletGym_Gym_Dude_2
+compare VAR_UNUSED_0x40F7, 122
+goto_if_gt VioletGym_Gym_Dude_3
 msgbox VioletGym_Gym_Dude_Texto_1 MSGBOX_NPC
 release
 end

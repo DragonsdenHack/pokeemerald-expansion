@@ -396,7 +396,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_9:
 	.string "de opinión.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_10:
-.string "ATLAS: Debería de darte verguenza\n"
+.string "ATLAS: Debería de darte vergüenza\n"
 	.string "no ser capaz con uno de los\l"
 	.string "nuestros siquiera después de\l"
 	.string "tener un encuentro legendario, los\l"
@@ -410,7 +410,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_11:
 .string "LT.SURGE: Tú debes de ser ATLAS,\n"
 	.string "si, LANCE ya me advirtió de que\l"
 	.string "pudieras aparecer por aquí,\l"
-	.string "debería darte verguenza no apoyar\l"
+	.string "debería darte vergüenza no apoyar\l"
 	.string "a alguien de tu misma región.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_12:

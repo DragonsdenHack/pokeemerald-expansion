@@ -194,3 +194,25 @@ end
 
 Route32Documento_Text_101:
 	.string "Hacia la CUEVA UNIÓN$"
+
+Curacion_Route32::
+lock
+faceplayer
+msgbox Curacion_Curacion_Curacion_Route32_Texto_1 MSGBOX_AUTOCLOSE
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+msgbox Curacion_Centros_Johto_Texto_2 MSGBOX_AUTOCLOSE
+release
+end
+
+Curacion_Curacion_Curacion_Route32_Texto_1:
+.string "Tus POKÉMON parecen muy cansados, deja\n"
+	.string "que los cure...$"
+
+Curacion_Centros_Johto_Texto_2:
+.string "¡Ahora están radiantes de vida! ¡Igual\n"
+	.string "que la vegetación de este lugar!$"
+

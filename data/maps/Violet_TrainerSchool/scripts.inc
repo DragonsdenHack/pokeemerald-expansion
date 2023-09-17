@@ -264,7 +264,7 @@ msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 3, Violet_TrainerSchool_Discurso_Pegaso_Move_3
 waitmovement 0x0
 msgbox Violet_TrainerSchool_Discurso_Pegaso_Texto_14 MSGBOX_AUTOCLOSE
-applymovement 3, Violet_TrainerSchool_Discurso_Pegaso_Move_3
+applymovement 3, Violet_TrainerSchool_Discurso_Pegaso_Move_3.1
 waitmovement 0x0
 removeobject 3
 playse SE_EXIT
@@ -504,6 +504,13 @@ step_end
 
 Violet_TrainerSchool_Discurso_Pegaso_Move_3:
 walk_in_place_down
+step_end
+
+Violet_TrainerSchool_Discurso_Pegaso_Move_3.1:
+walk_in_place_down
+walk_down
+walk_down
+walk_down
 step_end
 
 Violet_TrainerSchool_Discurso_Pegaso_Move_4:

@@ -17,6 +17,11 @@
       "direction": "down",
       "offset": 62,
       "map": "MAP_ROUTE48"
+    },
+    {
+      "direction": "up",
+      "offset": 56,
+      "map": "MAP_ROUTE50_NORTE"
     }
   ],
   "object_events": [
@@ -151,9 +156,9 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_BALLORO",
-      "x": 47,
-      "y": 44,
+      "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
+      "x": 84,
+      "y": 65,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -161,20 +166,46 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANDRAADMIN",
-      "x": 86,
-      "y": 0,
+      "graphics_id": "OBJ_EVENT_GFX_DRAGONITE",
+      "x": 73,
+      "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Route50_Encuentro_Dunsparce",
-      "flag": "FLAG_HIDE_VERDANTURF_TOWN_SCOTT"
+      "script": "Route50_Dragonite",
+      "flag": "FLAG_NUEVA_861"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_3",
+      "x": 77,
+      "y": 0,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
+      "x": 73,
+      "y": 8,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO"
     }
   ],
   "warp_events": [

@@ -49,5 +49,5 @@ end
 Ecruteak_ShopText_4:
 .string "Cambio…\n"
 .string "Cambio…\l"
-.string "Y más cambió…\l"
+.string "Y más cambio…\l"
 .string "¡Todo es cambio!$"

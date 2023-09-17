@@ -1287,7 +1287,7 @@ RocketHideout_8F_Mision_Silph_text_36:
 	.string "lo asociado a mi nombre, en su día\l"
 	.string "uno de los más prestigiosos de la\l"
 	.string "región, se convirtió en la mayor\l"
-	.string "deshonra y verguenza para KANTO.$"
+	.string "deshonra y vergüenza para KANTO.$"
 
 RocketHideout_8F_Mision_Silph_text_37:
 .string "De este modo, y así las cosas,\n"
@@ -2393,6 +2393,8 @@ msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_move_2
 waitmovement 0x0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
+setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
 setvar VAR_UNUSED_0x40F7, 107
 release
 end

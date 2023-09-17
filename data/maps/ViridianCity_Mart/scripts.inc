@@ -1172,3 +1172,25 @@ Comercial_Trigal_Mercado_7_Pokemart:
 	release
 	end
 
+Johto_Centro_Mercado_6_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Johto_Centro_Mercado_6_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Johto_Centro_Mercado_6_Pokemart:
+.2byte 648
+.2byte 674
+    .2byte 689
+	.2byte 690
+	.2byte 691
+	.2byte 682
+	.2byte ITEM_NONE
+	release
+	end
+

@@ -269,6 +269,8 @@ clearflag FLAG_NUEVA_839
 msgbox Silph_11F_Bill_Presidente_Texto_41 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+setflag FLAG_HIDE_FANCLUB_BOY
+setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
 setvar VAR_UNUSED_0x40F7, 75
 warpsilent MAP_ROCKET_HIDEOUT_5F, 2, 2
 release
@@ -1170,5 +1172,5 @@ Silph_11F_Presidente_Charlas_Texto_4:
 	.string "chico?\l"
 	.string "¡Recuerda que no pueden ver a\l"
 	.string "un ROCKET por aquí!\l"
-	.string "¡Sino la gente se empezará a hacer\l"
+	.string "¡Si no la gente se empezará a hacer\l"
 	.string "preguntas!$"

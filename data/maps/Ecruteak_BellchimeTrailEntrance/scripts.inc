@@ -241,7 +241,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_5:
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6:
 .string "El GRAN MAESTRO de TORRE CAMPANA\n"
 	.string "es una de esas personas que podría\l"
-	.string "ayudarme. El vió al LEGENDARIO\l"
+	.string "ayudarme. El vio al LEGENDARIO\l"
 	.string "HO-OH, y maneja a la perfección\l"
 	.string "las propiedades curativas de su\l"
 	.string "CENIZA SAGRADA, pero para hablar\l"
@@ -496,6 +496,8 @@ step_end
 
 
 Torre_Campana_Frontera_Izquierda::
+compare VAR_RECYCLE_GOODS, 0
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 compare VAR_UNUSED_0x40F7, 156
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 lock
@@ -531,6 +533,8 @@ walk_slow_down
 step_end
 
 Torre_Campana_Frontera_Derecha::
+compare VAR_RECYCLE_GOODS, 0
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 compare VAR_UNUSED_0x40F7, 156
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 lock

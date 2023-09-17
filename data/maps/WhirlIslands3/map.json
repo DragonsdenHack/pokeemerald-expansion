@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "EventScript_StrengthBoulder",
       "flag": "0"
     },
     {
@@ -85,8 +85,8 @@
       "x": 17,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_warp_id": 1
     },
     {
       "x": 14,
@@ -99,15 +99,15 @@
       "x": 5,
       "y": 6,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 2
     },
     {
       "x": 13,
       "y": 28,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_warp_id": 7
     },
     {
       "x": 29,
@@ -120,36 +120,36 @@
       "x": 25,
       "y": 22,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS2",
+      "dest_warp_id": 4
     },
     {
       "x": 31,
       "y": 31,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 5
     },
     {
       "x": 23,
       "y": 32,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 11
     },
     {
       "x": 8,
       "y": 31,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 10
     },
     {
       "x": 34,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_WHIRL_ISLANDS3",
-      "dest_warp_id": 0
+      "dest_map": "MAP_WHIRL_ISLANDS",
+      "dest_warp_id": 7
     }
   ],
   "coord_events": [

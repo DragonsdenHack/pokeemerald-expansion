@@ -14,7 +14,7 @@ release
 end
 
 LavenderTown_Text1:
-.string "¡No tenéis verguenza ni respeto\n"
+.string "¡No tenéis vergüenza ni respeto\n"
 .string "alguno por las costumbres de\l"
 .string "nuestra región!$"
 
@@ -149,6 +149,25 @@ step_end
 LavenderTown_Barrera_Mision_Kangaskhan_Move_2:
 walk_slow_down
 step_end
+
+VermilionCity_Barco_Zarpa::
+compare VAR_UNUSED_0x40F7, 94
+goto_if_gt VermilionCity_Barco_Zarpa_2
+release
+end
+
+VermilionCity_Barco_Zarpa_2::
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_1
+waitmovement 0x0
+msgbox VermilionCity_Barco_Zarpa_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, LavenderTown_Barrera_Sur_Move_2
+waitmovement 0x0
+release
+end
+
+VermilionCity_Barco_Zarpa_Texto_1:
+.string "El barco zarpó.$"
+
 
 LavenderTown_Barrera_Sur::
 compare VAR_UNUSED_0x40F7, 62

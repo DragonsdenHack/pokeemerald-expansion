@@ -43,6 +43,10 @@ end
 
 RocketWarehouse6::
 lock
+compare VAR_ROUTE108_STATE, 6
+goto_if_gt RocketWarehouse_Atlas_Mision_Secundaria_4
+compare VAR_ROUTE108_STATE, 5
+goto_if_gt RocketWarehouse_Atlas_Mision_Secundaria_3
 compare VAR_ROUTE108_STATE, 3
 goto_if_gt RocketWarehouse_Atlas_Mision_Secundaria_2
 compare VAR_ROUTE108_STATE, 2
@@ -73,20 +77,46 @@ release
 end
 
 RocketWarehouse_Atlas_Mision_Secundaria_2::
+faceplayer
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_6 MSGBOX_AUTOCLOSE
 release
 end
 
 
+RocketWarehouse_Atlas_Mision_Secundaria_3::
+faceplayer
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_7 MSGBOX_AUTOCLOSE
-msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_8 MSGBOX_AUTOCLOSE
+playse SE_SHOP
+addmoney 50000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_ITEM
+msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_8 MSGBOX_DEFAULT
+waitfanfare
+applymovement 6, Atlas_Move_1
+waitmovement 0x0
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_9 MSGBOX_AUTOCLOSE
-msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_10 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_10 MSGBOX_DEFAULT
+givemon SPECIES_BOMUSHIKAA, 60, ITEM_FIRE_GEM
+waitfanfare
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_11 MSGBOX_AUTOCLOSE 
+applymovement 6, Atlas_Move_1
+waitmovement 0x0
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_12 MSGBOX_AUTOCLOSE
+setvar VAR_ROUTE108_STATE, 7
+release
+end
+
+RocketWarehouse_Atlas_Mision_Secundaria_4::
+faceplayer
 msgbox RocketWarehouse_Atlas_Mision_Secundaria_Texto_13 MSGBOX_AUTOCLOSE
 release
 end
+
+Atlas_Move_1:
+walk_in_place_down
+step_end
 
 RocketWarehouse_Atlas_Mision_Secundaria_Move_1:
 walk_in_place_left
@@ -745,7 +775,7 @@ fadescreen 0
 showmoneybox 0, 0
 msgbox RocketWarehouse_Text_Vuelta_MisionAtlas1 MSGBOX_AUTOCLOSE
 playse SE_SHOP
-addmoney 250000 0
+addmoney 25000 0
 updatemoneybox
 delay 80
 playfanfare MUS_OBTAIN_ITEM

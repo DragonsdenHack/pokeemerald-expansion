@@ -19,7 +19,7 @@
   "warp_events": [
     {
       "x": 7,
-      "y": 14,
+      "y": 15,
       "elevation": 3,
       "dest_map": "MAP_CAVE_OF_ORIGIN_UNUSED_RUBY_SAPPHIRE_MAP2",
       "dest_warp_id": 1

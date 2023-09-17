@@ -85,7 +85,7 @@ end
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_1:
 .string "La lacra social como tú es una\n"
-	.string "verguenza para esta región, largo\l"
+	.string "vergüenza para esta región, largo\l"
 	.string "de aquí antes de que tu presencia\l"
 	.string "contamine aún más mi estatus.$"
 

@@ -84,6 +84,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, GoldenrodRadioTowerP5_Primera_Reunion_move_14
 waitmovement 0x0
 special RemoveCameraObject
+playbgm 567, FALSE
 msgbox GoldenrodRadioTowerP5_Primera_Reunion_Texto_10 MSGBOX_AUTOCLOSE
 delay 15
 applymovement 2, GoldenrodRadioTowerP5_Primera_Reunion_move_3
@@ -303,6 +304,7 @@ msgbox GoldenrodRadioTowerP5_Primera_Reunion_Texto_73 MSGBOX_AUTOCLOSE
 applymovement 1, GoldenrodRadioTowerP5_Primera_Reunion_move_3
 waitmovement 0x0
 msgbox GoldenrodRadioTowerP5_Primera_Reunion_Texto_74 MSGBOX_AUTOCLOSE
+fadedefaultbgm
 setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN
 setflag FLAG_HIDE_ROUTE_111_VICKY_WINSTRATE
 fadescreen 1

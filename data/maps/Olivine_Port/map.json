@@ -15,7 +15,7 @@
   "connections": [
     {
       "direction": "up",
-      "offset": -1,
+      "offset": 0,
       "map": "MAP_OLIVINE_CITY"
     },
     {
@@ -168,6 +168,13 @@
       "y": 20,
       "elevation": 0,
       "dest_map": "MAP_OLIVINE_BOAT",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 28,
+      "y": 43,
+      "elevation": 0,
+      "dest_map": "MAP_OLIVINE_PORT",
       "dest_warp_id": 0
     }
   ],

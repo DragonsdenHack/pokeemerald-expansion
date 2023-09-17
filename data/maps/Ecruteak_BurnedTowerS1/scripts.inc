@@ -147,7 +147,7 @@ applymovement 9, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_10
 waitmovement 0x0
 special SpawnCameraObject
-applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.1
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
 waitmovement 0x0
 special RemoveCameraObject
 msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15 MSGBOX_AUTOCLOSE
@@ -166,6 +166,7 @@ msgbox Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
 setflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT
+setflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 fadescreen 1
 delay 20
 removeobject 3
@@ -175,7 +176,7 @@ removeobject 7
 removeobject 9
 fadescreen 0
 special SpawnCameraObject
-applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.2
+applymovement OBJ_EVENT_ID_CAMERA, Ecruteak_BurnedTower_S1_Zeus_Combate_Move_7.1
 waitmovement 0x0
 special RemoveCameraObject
 setvar VAR_UNUSED_0x40F7, 141

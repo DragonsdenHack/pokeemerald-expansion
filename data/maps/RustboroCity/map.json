@@ -201,8 +201,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 16,
-      "y": 50,
+      "x": 38,
+      "y": 47,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
@@ -400,8 +400,8 @@
     },
     {
       "type": "trigger",
-      "x": 30,
-      "y": 12,
+      "x": 37,
+      "y": 31,
       "elevation": 3,
       "var": "VAR_RUSTBORO_CITY_STATE",
       "var_value": "2",

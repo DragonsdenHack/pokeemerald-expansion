@@ -2726,3 +2726,17 @@ Text_EVChecker_3:
 	.include "data/maps/UndergroundPath_11F/scripts.inc"
 
 	.include "data/maps/UndergroundPath_12F/scripts.inc"
+
+	.include "data/maps/Route30_House_1/scripts.inc"
+
+	.include "data/maps/Route30_House_2/scripts.inc"
+
+	.include "data/maps/Route50_Norte/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_S1/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_S2/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_S3/scripts.inc"
+
+	.include "data/maps/TorreDunsparce_S4/scripts.inc"

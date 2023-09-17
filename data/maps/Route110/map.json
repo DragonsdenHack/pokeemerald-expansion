@@ -305,8 +305,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 6,
-      "y": 84,
+      "x": 5,
+      "y": 83,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -318,7 +318,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 6,
+      "x": 5,
       "y": 81,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -383,8 +383,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_0",
-      "x": 34,
-      "y": 54,
+      "x": 23,
+      "y": 53,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -396,8 +396,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_VAR_3",
-      "x": 34,
-      "y": 54,
+      "x": 23,
+      "y": 52,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -564,8 +564,8 @@
     },
     {
       "type": "trigger",
-      "x": 33,
-      "y": 56,
+      "x": 23,
+      "y": 54,
       "elevation": 3,
       "var": "VAR_ROUTE110_STATE",
       "var_value": "0",
@@ -573,8 +573,8 @@
     },
     {
       "type": "trigger",
-      "x": 34,
-      "y": 56,
+      "x": 23,
+      "y": 55,
       "elevation": 3,
       "var": "VAR_ROUTE110_STATE",
       "var_value": "0",
@@ -582,8 +582,8 @@
     },
     {
       "type": "trigger",
-      "x": 35,
-      "y": 56,
+      "x": 23,
+      "y": 54,
       "elevation": 3,
       "var": "VAR_ROUTE110_STATE",
       "var_value": "0",
@@ -677,15 +677,15 @@
     },
     {
       "type": "secret_base",
-      "x": 16,
-      "y": 25,
+      "x": 5,
+      "y": 7,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_TREE3_1"
     },
     {
       "type": "secret_base",
-      "x": 17,
-      "y": 25,
+      "x": 6,
+      "y": 7,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_TREE4_1"
     },

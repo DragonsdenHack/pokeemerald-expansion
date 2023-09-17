@@ -42,44 +42,70 @@ playmoncry SPECIES_MACHOKE, CRY_MODE_ENCOUNTER
 msgbox MtMortar4_Encuentro_Anibal_Texto_2 MSGBOX_DEFAULT
 waitmoncry
 playse SE_M_CUT
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_3
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_4
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
 waitmovement 0x0
 delay 20
 playse SE_M_COMET_PUNCH
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_5
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_6
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_5
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_6
 waitmovement 0x0
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_7
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_8
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
 delay 20
 playse SE_M_MEGA_KICK
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_3
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_4
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
 waitmovement 0x0
 delay 20
 playse SE_M_JUMP_KICK
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_5
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_6
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_5
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_6
 waitmovement 0x0
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_7
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_8
-waitmovement 0x0
-delay 20
-playse SE_M_TAKE_DOWN
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_3
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_4
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
 waitmovement 0x0
 delay 20
 playse SE_M_SKY_UPPERCUT
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_5
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_6
-waitmovement 0x0
-applymovement 8, MtMortar4_Encuentro_Anibal_Move_7
-applymovement 6, MtMortar4_Encuentro_Anibal_Move_8
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
 waitmovement 0x0
 delay 20
+playse SE_M_TAKE_DOWN
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_5
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_6
+waitmovement 0x0
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
+waitmovement 0x0
+delay 20
+playse SE_M_FLY
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
+waitmovement 0x0
+delay 20
+playse SE_M_WING_ATTACK
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_5
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_6
+waitmovement 0x0
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
+waitmovement 0x0
+delay 20
+playse SE_M_FLY
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_3
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_4
+waitmovement 0x0
+delay 20
+playse SE_M_TWISTER
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_5
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_6
+waitmovement 0x0
+applymovement 8, CherrygroveCity_Entrenamiento_Pegaso_Move_7
+applymovement 6, CherrygroveCity_Entrenamiento_Pegaso_Move_8
+waitmovement 0x0
+playse SE_M_TAKE_DOWN
 msgbox MtMortar4_Encuentro_Anibal_Texto_3 MSGBOX_AUTOCLOSE
 msgbox MtMortar4_Encuentro_Anibal_Texto_4 MSGBOX_AUTOCLOSE
 delay 15
@@ -122,6 +148,7 @@ msgbox MtMortar4_Encuentro_Anibal_Texto_9 MSGBOX_AUTOCLOSE
 applymovement 6, MtMortar4_Encuentro_Anibal_Move_14
 waitmovement 0x0
 msgbox MtMortar4_Encuentro_Anibal_Texto_10 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
 clearflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
 setflag FLAG_HIDE_ROUTE_119_RIVAL
 fadescreen 1
