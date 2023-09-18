@@ -625,7 +625,13 @@ const u32 gObjectEventPic_Prota_AdminJefe[] = INCBIN_U32("graphics/object_events
 
 const u16 gObjectEventPic_Silver[] = INCBIN_U16("graphics/object_events/pics/people/silver.4bpp");
 const u16 gObjectEventPic_Akueria[] = INCBIN_U16("graphics/object_events/pics/people/Akueria.4bpp");
-
+const u16 gObjectEventPic_Glastrier[] = INCBIN_U16("graphics/object_events/pics/people/glastrier.4bpp");
+const u16 gObjectEventPic_Guzzlord[] = INCBIN_U16("graphics/object_events/pics/people/guzzlord.4bpp");
+const u16 gObjectEventPic_Nihilego[] = INCBIN_U16("graphics/object_events/pics/people/Nihilego.4bpp");
+const u16 gObjectEventPic_Devon1[] = INCBIN_U16("graphics/object_events/pics/people/devon1.4bpp");
+const u16 gObjectEventPic_Devon2[] = INCBIN_U16("graphics/object_events/pics/people/devon2.4bpp");
+const u16 gObjectEventPic_Devon3[] = INCBIN_U16("graphics/object_events/pics/people/devon3.4bpp");
+const u16 gObjectEventPic_Devon4[] = INCBIN_U16("graphics/object_events/pics/people/devon4.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -668,7 +674,7 @@ const u16 gObjectEventPal_Balloro[] = INCBIN_U16("graphics/object_events/palette
 const u16 gObjectEventPal_ArtistaJohto[] = INCBIN_U16("graphics/object_events/palettes/artistajohto.gbapal");
 const u16 gObjectEventPal_AncianoJohto[] = INCBIN_U16("graphics/object_events/palettes/ancianojohto.gbapal");
 const u16 gObjectEventPal_Muerto[] = INCBIN_U16("graphics/object_events/palettes/muerto.gbapal");
-const u16 gObjectEventPal_Manciano[] = INCBIN_U16("graphics/object_events/palettes/manciano.gbapal");
+const u16 gObjectEventPal_Manciano[] = INCBIN_U16("graphics/object_events/palettes/Manciano.gbapal");
 const u16 gObjectEventPal_AndraAltoRango[] = INCBIN_U16("graphics/object_events/palettes/andra_altorango.gbapal");
 const u16 gObjectEventPal_AndraEjecutivo[] = INCBIN_U16("graphics/object_events/palettes/andra_ejecutivo.gbapal");
 const u16 gObjectEventPal_AndraAdmin[] = INCBIN_U16("graphics/object_events/palettes/andra_admin.gbapal");
@@ -723,4 +729,17 @@ const u16 gObjectEventPal_Karen[] = INCBIN_U16("graphics/object_events/palettes/
 const u16 gObjectEventPal_Bruno[] = INCBIN_U16("graphics/object_events/palettes/bruno.gbapal");
 const u16 gObjectEventPal_MecanicoJohto[] = INCBIN_U16("graphics/object_events/palettes/mecanicojohto.gbapal");
 const u16 gObjectEventPal_ZapdosPrimal[] = INCBIN_U16("graphics/object_events/palettes/zapdos2.gbapal");
-const u16 gObjectEventPal_Jason[] = INCBIN_U16("graphics/object_events/pics/people/jason.gbapal");
+const u16 gObjectEventPal_Jason[] = INCBIN_U16("graphics/object_events/palettes/jason.gbapal");
+const u16 gObjectEventPal_Montanerojohto[] = INCBIN_U16("graphics/object_events/palettes/Montanerojohto.gbapal");
+const u16 gObjectEventPal_Mirto[] = INCBIN_U16("graphics/object_events/palettes/mirto.gbapal");
+const u16 gObjectEventPal_Criadorjohto[] = INCBIN_U16("graphics/object_events/palettes/criadorjohto.gbapal");
+const u16 gObjectEventPal_Miltank[] = INCBIN_U16("graphics/object_events/palettes/miltank.gbapal");
+const u16 gObjectEventPal_Kimono[] = INCBIN_U16("graphics/object_events/palettes/kimono.gbapal");
+const u16 gObjectEventPal_Yasmina[] = INCBIN_U16("graphics/object_events/palettes/yasmina.gbapal");
+const u16 gObjectEventPal_Glastrier[] = INCBIN_U16("graphics/object_events/palettes/glastrier.gbapal");
+const u16 gObjectEventPal_Guzzlord[] = INCBIN_U16("graphics/object_events/palettes/guzzlord.gbapal");
+const u16 gObjectEventPal_Nihilego[] = INCBIN_U16("graphics/object_events/palettes/nihilego.gbapal");
+const u16 gObjectEventPal_Devon1[] = INCBIN_U16("graphics/object_events/palettes/devon1.gbapal");
+const u16 gObjectEventPal_Devon2[] = INCBIN_U16("graphics/object_events/palettes/devon2.gbapal");
+const u16 gObjectEventPal_Devon3[] = INCBIN_U16("graphics/object_events/palettes/devon3.gbapal");
+const u16 gObjectEventPal_Devon4[] = INCBIN_U16("graphics/object_events/palettes/devon4.gbapal");

@@ -3,10 +3,10 @@
   "name": "BlackthornCity_DragonsdenS4",
   "layout": "LAYOUT_BLACKTHORN_CITY_DRAGONSDEN_S4",
   "music": "596",
-  "region_map_section": "MAPSEC_DRAGONSDEN",
+  "region_map_section": "MAPSEC_BLACKTHORN_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_UNDERGROUND",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": true,
   "allow_escaping": true,
   "allow_running": true,
@@ -150,8 +150,8 @@
       "x": 38,
       "y": 4,
       "elevation": 0,
-      "dest_map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S3",
-      "dest_warp_id": 1
+      "dest_map": "MAP_RUINS_OF_ALPH",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

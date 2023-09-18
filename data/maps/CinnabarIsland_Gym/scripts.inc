@@ -3,13 +3,14 @@ map_script MAP_SCRIPT_ON_LOAD, CinnabarIsland_Gym_OnLoad
 	.byte 0
 	
 CinnabarIsland_Gym_OnLoad::
-	@@goto_if_set FLAG_DEFEATED_BLAINE, CinnabarIsland_Gym_OnLoadOpenAllDoors
-	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_1, CinnabarIsland_Gym_OnLoadOpenDoor1
-	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_2, CinnabarIsland_Gym_OnLoadOpenDoor2
-	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_3, CinnabarIsland_Gym_OnLoadOpenDoor3
-	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_4, CinnabarIsland_Gym_OnLoadOpenDoor4
-	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_5, CinnabarIsland_Gym_OnLoadOpenDoor5
-	@@call_if_set FLAG_CINNABAR_GYM_QUIZ_6, CinnabarIsland_Gym_OnLoadOpenDoor6
+	compare VAR_UNUSED_0x40F7, 81
+	goto_if_gt CinnabarIsland_Gym_OnLoadOpenAllDoors
+	call_if_set FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MASTER_BALL, CinnabarIsland_Gym_OnLoadOpenDoor1
+	call_if_set FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MAX_ELIXIR, CinnabarIsland_Gym_OnLoadOpenDoor2
+	@@call_if_set FLAG_ITEM_OLD_MAGMA_HIDEOUT_B2F_NEST_BALL, CinnabarIsland_Gym_OnLoadOpenDoor3
+	@@call_if_set FLAG_UNUSED_0x468, CinnabarIsland_Gym_OnLoadOpenDoor4
+	@@call_if_set FLAG_ITEM_MT_PYRE_2F_ULTRA_BALL, CinnabarIsland_Gym_OnLoadOpenDoor5
+	@@call_if_set FLAG_ITEM_MT_PYRE_4F_SEA_INCENSE, CinnabarIsland_Gym_OnLoadOpenDoor6
 	end
 
 CinnabarIsland_Gym_OnLoadOpenAllDoors::
@@ -102,31 +103,134 @@ CinnabarIsland_Gym_EventScript_OpenDoor6::
 	return
 
 CinnabarIsland_Gym_EventScript_Quz1Left::
+lockall
+setvar VAR_TEMP_1, 0
+goto CinnabarIsland_Gym_EventScript_Quiz1
 end
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+CinnabarIsland_Gym_EventScript_Quiz1::
+	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules
+	msgbox CinnabarIsland_Gym_Text_QuizQuestion1, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz1Correct
+	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz1Incorrect
+	end
+	
+CinnabarIsland_Gym_EventScript_CorrectAnswer::
+	playfanfare MUS_LEVEL_UP
+	waitfanfare
+	msgbox CinnabarIsland_Gym_Text_CorrectGoOnThrough
+	return
+
+CinnabarIsland_Gym_EventScript_IncorrectAnswer::
+	waitse
+	playse SE_BOO
+	waitse
+	msgbox CinnabarIsland_Gym_Text_SorryBadCall
+	closemessage
+	return
+
+CinnabarIsland_Gym_EventScript_Quiz1Correct::
+	call CinnabarIsland_Gym_EventScript_CorrectAnswer
+	goto_if_set FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MASTER_BALL, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	call CinnabarIsland_Gym_EventScript_Quiz1Complete
+	releaseall
+	end
+
+CinnabarIsland_Gym_EventScript_Quiz1Complete::
+	playse SE_UNLOCK
+	waitse
+	call CinnabarIsland_Gym_EventScript_OpenDoor1
+	special DrawWholeMapView
+	setflag FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MASTER_BALL
+	return
+
+CinnabarIsland_Gym_EventScript_DoorAlreadyOpen::
+	releaseall
+	end
+
+CinnabarIsland_Gym_EventScript_Quiz1Incorrect::
+	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
+	goto_if_not_defeated TRAINER_SHANE, CinnabarIslandGym_EventScript_Ladron
+	releaseall
+	end
+@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+CinnabarIsland_Gym_EventScript_Quiz2::
+	msgbox CinnabarIsland_Gym_Text_PokemonQuizRules2
+	msgbox CinnabarIsland_Gym_Text_QuizQuestion2, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, YES, CinnabarIsland_Gym_EventScript_Quiz2Correct
+	goto_if_eq VAR_RESULT, NO, CinnabarIsland_Gym_EventScript_Quiz2Incorrect
+	end
+	
+CinnabarIsland_Gym_EventScript_Quiz2Correct::
+	call CinnabarIsland_Gym_EventScript_CorrectAnswer
+	goto_if_set FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MAX_ELIXIR, CinnabarIsland_Gym_EventScript_DoorAlreadyOpen
+	call CinnabarIsland_Gym_EventScript_Quiz2Complete
+	releaseall
+	end
+
+CinnabarIsland_Gym_EventScript_Quiz2Complete::
+	playse SE_UNLOCK
+	waitse
+	call CinnabarIsland_Gym_EventScript_OpenDoor2
+	special DrawWholeMapView
+	setflag FLAG_ITEM_OLD_MAGMA_HIDEOUT_B1F_MAX_ELIXIR
+	return
+
+CinnabarIsland_Gym_EventScript_Quiz2Incorrect::
+	call CinnabarIsland_Gym_EventScript_IncorrectAnswer
+	goto_if_not_defeated TRAINER_TAKAO, CinnabarIslandGym_EventScript_Cientifico2
+	releaseall
+	end
+@@@@@@@@@@@@@@@@@@@@@@@@@@	
+
 CinnabarIsland_Gym_EventScript_Quz1Right::
+lockall
+setvar VAR_TEMP_1, 0
+goto CinnabarIsland_Gym_EventScript_Quiz1
 end
+
 CinnabarIsland_Gym_EventScript_Quz2Left::
+lockall
+setvar VAR_TEMP_1, 0
+goto CinnabarIsland_Gym_EventScript_Quiz2
 end
+
 CinnabarIsland_Gym_EventScript_Quz2Right::
+lockall
+setvar VAR_TEMP_1, 0
+goto CinnabarIsland_Gym_EventScript_Quiz2
 end
+
 CinnabarIsland_Gym_EventScript_Quiz3Left::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz3Right::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz4Left::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz4Right::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz2Left::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz2Right::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz6Left::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz6Right::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz5Left::
 end
+
 CinnabarIsland_Gym_EventScript_Quiz5Right::	
 end
 
@@ -233,3 +337,28 @@ CinnabarIslandGymDocumento_Text_100:
 	.string "y el SR. FUJI...\p"
 	.string "Aparecen juntos con una sonrisa\n"
 	.string "de oreja a oreja.$"
+	
+
+CinnabarIsland_Gym_Text_PokemonQuizRules:
+.string "Dragonsden es guapo."
+.string "$"
+
+CinnabarIsland_Gym_Text_PokemonQuizRules2:
+.string "Jenni Hermoso me besó."
+.string "$"		
+
+CinnabarIsland_Gym_Text_CorrectGoOnThrough:
+.string "CLARO QUE SÍ, HOHO."
+.string "$"
+
+CinnabarIsland_Gym_Text_SorryBadCall:
+.string "LO SIENTO, XAXO."
+.string "$"
+
+CinnabarIsland_Gym_Text_QuizQuestion1:
+.string "¿Esto no es falso o sí?"
+.string "$"
+
+CinnabarIsland_Gym_Text_QuizQuestion2:
+.string "¿Esto no es falso o sí?"
+.string "$"

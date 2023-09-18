@@ -290,6 +290,10 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Crom;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Cultista;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Daisy;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Debora;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Devon1;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Devon2;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Devon3;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Devon4;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DomadorJohto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Dragonite;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DragonOrigen;
@@ -307,8 +311,10 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Fredo;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GameboyKid2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gentleman2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giovanni;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Glastrier;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GuardiaFJohto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GuardiaMJohto;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Guzzlord;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Gyarados;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GyaradosRojo;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_GymGuy;
@@ -347,6 +353,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Morty;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MoteroJohto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_MrFuji;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Muerto;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nihilego;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_NinaJohto;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Nurse2;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_OldMan2;
@@ -961,6 +968,13 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_AKUERIA] = &gObjectEventGraphicsInfo_Akueria,
 	[OBJ_EVENT_GFX_ZAPDOS_PRIMAL] = &gObjectEventGraphicsInfo_Zapdos2,
 	[OBJ_EVENT_GFX_AGATHA2] = &gObjectEventGraphicsInfo_Agatha2,
+	[OBJ_EVENT_GFX_GLASTRIER] = &gObjectEventGraphicsInfo_Glastrier,
+	[OBJ_EVENT_GFX_GUZZLORD] = &gObjectEventGraphicsInfo_Guzzlord,
+	[OBJ_EVENT_GFX_NIHILEGO] = &gObjectEventGraphicsInfo_Nihilego,
+	[OBJ_EVENT_GFX_DEVON1] = &gObjectEventGraphicsInfo_Devon1,
+	[OBJ_EVENT_GFX_DEVON2] = &gObjectEventGraphicsInfo_Devon2,
+	[OBJ_EVENT_GFX_DEVON3] = &gObjectEventGraphicsInfo_Devon3,
+	[OBJ_EVENT_GFX_DEVON4] = &gObjectEventGraphicsInfo_Devon4,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

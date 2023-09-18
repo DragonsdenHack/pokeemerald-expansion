@@ -1306,6 +1306,122 @@ static void InitMapBasedOnPlayerLocation(void)
         if (y != 0)
             x = 0;
         break;
+	case MAPSEC_ROUTE_6:	
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE6_PATH))
+        {
+			x = 14;
+			y = 7;
+		}
+		break;
+	case MAPSEC_ROUTE_5:	
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROUTE5_PATH))
+        {
+			x = 14;
+			y = 5;
+		}
+		break;
+	case MAPSEC_ROCKET_HIDEOUT:
+		if(gSaveBlock1Ptr->location.mapNum == MAP_NUM(ROCKET_HIDEOUT_6F))
+		{
+			x = 14;
+			y = 4;
+		}
+		break;
+	case MAPSEC_MT_MOON:
+		if(gSaveBlock1Ptr->location.mapNum == MAP_NUM(MT_MOON_1F))
+		{
+			x = 9;
+			y = 3;
+		}
+		if(gSaveBlock1Ptr->location.mapNum == MAP_NUM(MT_MOON_2F))
+		{
+			x = 10;
+			y = 3;
+		}
+		if(gSaveBlock1Ptr->location.mapNum == MAP_NUM(MT_MOON_3F))
+		{
+			x = 11;
+			y = 3;
+		}
+		break;
+	case MAPSEC_MAHOGANY_CITY:
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(PASS_ROUTE43))
+        {
+			x = 20;
+			y = 4;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LAKEOF_RAGE))
+        {
+			x = 20;
+			y = 4;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LAKEOF_RAGE_HOUSE1))
+        {
+			x = 20;
+			y = 4;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(LAKEOF_RAGE_HOUSE2))
+        {
+			x = 20;
+			y = 4;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		break;
+	case MAPSEC_BLACKTHORN_CITY:
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S1))
+        {
+			x = 24;
+			y = 3;
+			gMapHeader.region == REGION_JOHTO;	
+		}
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S2))
+        {
+			x = 24;
+			y = 3;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S3))
+        {
+			x = 24;
+			y = 3;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S4))
+        {
+			x = 24;
+			y = 3;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		break;
+	case MAPSEC_GOLDENROD_CITY:
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(CUEVA_GIMNASIO_TRIGAL))
+        {
+			x = 15;
+			y = 9;
+			gMapHeader.region == REGION_JOHTO;
+		}
+		break;
+	case MAPSEC_UNDERGROUND_PATH:
+        x = 14;
+        y = 7;
+        if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNDERGROUND_PATH_1F))
+        {
+            x = 14; // optimized out but required to match
+            y = 5;
+        }
+        break;
+	case MAPSEC_UNDERGROUND_PATH_2:
+        x = 14;
+        y = 7;
+        if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNDERGROUND_PATH_2F))
+        {
+            x = 14;
+            y = 7; // optimized out but required to match
+        }
+        break;	
     case MAPSEC_ROUTE_126:
     case MAPSEC_UNDERWATER_126:
         x = 0;

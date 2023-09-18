@@ -50,111 +50,79 @@ EventScript_Return::
 
 VermilionCity_Gym_EventScript_TrashCan1::
 	lockall
-	setvar VAR_0x8008, 1
-	goto VermilionCity_Gym_EventScript_TrashCan
+	checkflag FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES
+	goto_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_TrashCan
+	goto VermilionCity_Gym_EventScript_FoundSwitchOne
 	end
 
 VermilionCity_Gym_EventScript_TrashCan2::
-	lockall
-	setvar VAR_0x8008, 2
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan3::
-	lockall
-	setvar VAR_0x8008, 3
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan4::
-	lockall
-	setvar VAR_0x8008, 4
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan5::
-	lockall
-	setvar VAR_0x8008, 5
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan6::
-	lockall
-	setvar VAR_0x8008, 6
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan7::
-	lockall
-	setvar VAR_0x8008, 7
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan8::
-	lockall
-	setvar VAR_0x8008, 8
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan9::
-	lockall
-	setvar VAR_0x8008, 9
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan10::
-	lockall
-	setvar VAR_0x8008, 10
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan11::
-	lockall
-	setvar VAR_0x8008, 11
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan12::
-	lockall
-	setvar VAR_0x8008, 12
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan13::
-	lockall
-	setvar VAR_0x8008, 13
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan14::
-	lockall
-	setvar VAR_0x8008, 14
 	goto VermilionCity_Gym_EventScript_TrashCan
 	end
 
 VermilionCity_Gym_EventScript_TrashCan15::
 	lockall
-	setvar VAR_0x8008, 15
-	goto VermilionCity_Gym_EventScript_TrashCan
+	goto VermilionCity_Gym_EventScript_FoundSwitchTwo
 	end
 
 VermilionCity_Gym_EventScript_TrashCan::
-	copyvar VAR_0x8004, VAR_TEMP_0
-	copyvar VAR_0x8005, VAR_TEMP_1
-	goto_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_LocksAlreadyOpen
-	goto_if_set FLAG_TEMP_1, VermilionCity_Gym_EventScript_TrySwitchTwo
-	goto_if_eq VAR_0x8004, VAR_0x8008, VermilionCity_Gym_EventScript_FoundSwitchOne
 	msgbox VermilionCity_Gym_Text_NopeOnlyTrashHere
 	releaseall
 	end	
 
 VermilionCity_Gym_EventScript_FoundSwitchOne::
-	@@msgbox VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened
+	msgbox VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened
 	playse SE_PIN
 	waitse
 	call VermilionCity_Gym_EventScript_SetOneBeamOff
 	special DrawWholeMapView
-	setflag FLAG_TEMP_1
 	releaseall
 	end
 
@@ -171,7 +139,9 @@ VermilionCity_Gym_EventScript_TrySwitchTwo::
 	end
 
 VermilionCity_Gym_EventScript_FoundSwitchTwo::
-	@@msgbox VermilionCity_Gym_Text_SecondLockOpened
+	checkflag FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES
+	goto_if_set FLAG_FOUND_BOTH_VERMILION_GYM_SWITCHES, VermilionCity_Gym_EventScript_TrashCan
+	msgbox VermilionCity_Gym_Text_SecondLockOpened
 	closemessage
 	call VermilionCity_Gym_EventScript_SetBeamsOff
 	special DrawWholeMapView
@@ -286,6 +256,14 @@ msgbox VermilionCityGym_NoPass_Text_4, MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE108_STATE, 2
 release
 end
+
+VermilionCity_Gym_Text_SwitchUnderTrashFirstLockOpened:
+.string "¡Primera puerta abierta!"
+.string "$"
+
+VermilionCity_Gym_Text_SecondLockOpened:
+.string "¡Segunda puerta abierta!"
+.string "$"
 
 VermilionCityGym_NoPass_Text_4:
 .string "No es posible... Con el sello del\n"
