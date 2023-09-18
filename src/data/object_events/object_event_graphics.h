@@ -625,7 +625,13 @@ const u32 gObjectEventPic_Prota_AdminJefe[] = INCBIN_U32("graphics/object_events
 
 const u16 gObjectEventPic_Silver[] = INCBIN_U16("graphics/object_events/pics/people/silver.4bpp");
 const u16 gObjectEventPic_Akueria[] = INCBIN_U16("graphics/object_events/pics/people/Akueria.4bpp");
-
+const u16 gObjectEventPic_Glastrier[] = INCBIN_U16("graphics/object_events/pics/people/glastrier.4bpp");
+const u16 gObjectEventPic_Guzzlord[] = INCBIN_U16("graphics/object_events/pics/people/guzzlord.4bpp");
+const u16 gObjectEventPic_Nihilego[] = INCBIN_U16("graphics/object_events/pics/people/Nihilego.4bpp");
+const u16 gObjectEventPic_Devon1[] = INCBIN_U16("graphics/object_events/pics/people/devon1.4bpp");
+const u16 gObjectEventPic_Devon2[] = INCBIN_U16("graphics/object_events/pics/people/devon2.4bpp");
+const u16 gObjectEventPic_Devon3[] = INCBIN_U16("graphics/object_events/pics/people/devon3.4bpp");
+const u16 gObjectEventPic_Devon4[] = INCBIN_U16("graphics/object_events/pics/people/devon4.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -730,3 +736,10 @@ const u16 gObjectEventPal_Criadorjohto[] = INCBIN_U16("graphics/object_events/pa
 const u16 gObjectEventPal_Miltank[] = INCBIN_U16("graphics/object_events/palettes/miltank.gbapal");
 const u16 gObjectEventPal_Kimono[] = INCBIN_U16("graphics/object_events/palettes/kimono.gbapal");
 const u16 gObjectEventPal_Yasmina[] = INCBIN_U16("graphics/object_events/palettes/yasmina.gbapal");
+const u16 gObjectEventPal_Glastrier[] = INCBIN_U16("graphics/object_events/palettes/glastrier.gbapal");
+const u16 gObjectEventPal_Guzzlord[] = INCBIN_U16("graphics/object_events/palettes/guzzlord.gbapal");
+const u16 gObjectEventPal_Nihilego[] = INCBIN_U16("graphics/object_events/palettes/nihilego.gbapal");
+const u16 gObjectEventPal_Devon1[] = INCBIN_U16("graphics/object_events/palettes/devon1.gbapal");
+const u16 gObjectEventPal_Devon2[] = INCBIN_U16("graphics/object_events/palettes/devon2.gbapal");
+const u16 gObjectEventPal_Devon3[] = INCBIN_U16("graphics/object_events/palettes/devon3.gbapal");
+const u16 gObjectEventPal_Devon4[] = INCBIN_U16("graphics/object_events/palettes/devon4.gbapal");
