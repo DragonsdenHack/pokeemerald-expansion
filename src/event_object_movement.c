@@ -535,7 +535,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_CRIADORJOHTO 0x1187
 #define OBJ_EVENT_PAL_TAG_CRIADORAJOHTO 0x1188
 #define OBJ_EVENT_PAL_TAG_MILTANK 0x1189
-
+#define OBJ_EVENT_PAL_TAG_BLACEPHALON 0x118A
 
 
 
@@ -697,6 +697,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Devon2, OBJ_EVENT_PAL_TAG_DEVON2},
 	{gObjectEventPal_Devon3, OBJ_EVENT_PAL_TAG_DEVON3},
 	{gObjectEventPal_Devon4, OBJ_EVENT_PAL_TAG_DEVON4},
+	{gObjectEventPal_Blacephalon, OBJ_EVENT_PAL_TAG_BLACEPHALON},
 	
 };
 

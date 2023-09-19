@@ -628,6 +628,8 @@ const u16 gObjectEventPic_Akueria[] = INCBIN_U16("graphics/object_events/pics/pe
 const u16 gObjectEventPic_Glastrier[] = INCBIN_U16("graphics/object_events/pics/people/glastrier.4bpp");
 const u16 gObjectEventPic_Guzzlord[] = INCBIN_U16("graphics/object_events/pics/people/guzzlord.4bpp");
 const u16 gObjectEventPic_Nihilego[] = INCBIN_U16("graphics/object_events/pics/people/Nihilego.4bpp");
+const u16 gObjectEventPic_Blacephalon[] = INCBIN_U16("graphics/object_events/pics/people/blacephalon.4bpp");
+
 const u16 gObjectEventPic_Devon1[] = INCBIN_U16("graphics/object_events/pics/people/devon1.4bpp");
 const u16 gObjectEventPic_Devon2[] = INCBIN_U16("graphics/object_events/pics/people/devon2.4bpp");
 const u16 gObjectEventPic_Devon3[] = INCBIN_U16("graphics/object_events/pics/people/devon3.4bpp");
@@ -739,6 +741,8 @@ const u16 gObjectEventPal_Yasmina[] = INCBIN_U16("graphics/object_events/palette
 const u16 gObjectEventPal_Glastrier[] = INCBIN_U16("graphics/object_events/palettes/glastrier.gbapal");
 const u16 gObjectEventPal_Guzzlord[] = INCBIN_U16("graphics/object_events/palettes/guzzlord.gbapal");
 const u16 gObjectEventPal_Nihilego[] = INCBIN_U16("graphics/object_events/palettes/nihilego.gbapal");
+const u16 gObjectEventPal_Blacephalon[] = INCBIN_U16("graphics/object_events/palettes/blacephalon.gbapal");
+
 const u16 gObjectEventPal_Devon1[] = INCBIN_U16("graphics/object_events/palettes/devon1.gbapal");
 const u16 gObjectEventPal_Devon2[] = INCBIN_U16("graphics/object_events/palettes/devon2.gbapal");
 const u16 gObjectEventPal_Devon3[] = INCBIN_U16("graphics/object_events/palettes/devon3.gbapal");

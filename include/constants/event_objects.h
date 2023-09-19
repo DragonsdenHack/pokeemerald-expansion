@@ -486,10 +486,11 @@
 #define OBJ_EVENT_GFX_DEVON2 482
 #define OBJ_EVENT_GFX_DEVON3 483
 #define OBJ_EVENT_GFX_DEVON4 484
+#define OBJ_EVENT_GFX_BLACEPHALON 485
 
 
 
-#define NUM_OBJ_EVENT_GFX                        485                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        486                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.

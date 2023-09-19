@@ -421,7 +421,7 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
     TRAINER_SPRITE(VALERIA, gTrainerFrontPic_Valeria, 0x800),
     TRAINER_SPRITE(ZAPDOS, gTrainerFrontPic_Zapdos, 0x800),
     TRAINER_SPRITE(ZEUS, gTrainerFrontPic_Zeus, 0x800),
-	TRAINER_SPRITE(ROCKET_GRUNT_ANDRA2, gTrainerFrontPic_Hypno, 0x800),
+	TRAINER_SPRITE(ROCKET_GRUNT_ANDRA2, gTrainerFrontPic_RocketGruntAndra2, 0x800),
 	TRAINER_SPRITE(ANDRA_ALTO_RANGO, gTrainerFrontPic_RocketGruntAndraAltoRango, 0x800),
 	TRAINER_SPRITE(ANDRA_EJECUTIVA, gTrainerFrontPic_RocketGruntAndraEjecutiva, 0x800),
 	TRAINER_SPRITE(ANDRA_ADMIN, gTrainerFrontPic_RocketGruntAndraAdmin, 0x800),

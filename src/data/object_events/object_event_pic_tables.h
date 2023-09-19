@@ -3873,14 +3873,18 @@ static const struct SpriteFrameImage sPicTable_Ricajohto[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_Glastrier[] = {
-    overworld_frame(gObjectEventPic_Glastrier, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Glastrier, 8, 8, 0),
 };
 
 static const struct SpriteFrameImage sPicTable_Guzzlord[] = {
-    overworld_frame(gObjectEventPic_Guzzlord, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Guzzlord, 8, 8, 0),
 };
 
 static const struct SpriteFrameImage sPicTable_Nihilego[] = {
+    overworld_frame(gObjectEventPic_Nihilego, 8, 8, 0),
+};
+
+static const struct SpriteFrameImage sPicTable_Blacephalon[] = {
     overworld_frame(gObjectEventPic_Nihilego, 4, 4, 0),
 };
 
