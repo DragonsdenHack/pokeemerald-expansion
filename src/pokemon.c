@@ -7691,6 +7691,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_MIGUEL:
             return 574;
         case TRAINER_CLASS_ATLAS:
+        case TRAINER_CLASS_ADMINDEVON:
             return 570;
         case TRAINER_CLASS_OAK:
             return 575;

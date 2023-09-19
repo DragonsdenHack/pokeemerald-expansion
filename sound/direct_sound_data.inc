@@ -4827,7 +4827,7 @@ Cry_Akua::
 
 	.align 2
 Cry_Akueria::
-	.incbin "sound/direct_sound_samples/cries/akueria.bin"
+	.incbin "sound/direct_sound_samples/cries/druddigon.bin"
 
 	.align 2
 Cry_Boohoo::
@@ -4835,7 +4835,7 @@ Cry_Boohoo::
 
 	.align 2
 Cry_Ikary::
-	.incbin "sound/direct_sound_samples/cries/ikary.bin"
+	.incbin "sound/direct_sound_samples/cries/carracosta.bin"
 
 	.align 2
 Cry_Purakkusu::
@@ -4843,7 +4843,7 @@ Cry_Purakkusu::
 
 	.align 2
 Cry_Taaban::
-	.incbin "sound/direct_sound_samples/cries/taaban.bin"
+	.incbin "sound/direct_sound_samples/cries/cloyster.bin"
 
 	.align 2
 Cry_Bomushikaa::

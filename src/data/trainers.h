@@ -12014,10 +12014,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_EJECUTIVO_DEVON_1] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ADMINISTRADOR,
+        .trainerClass = TRAINER_CLASS_ADMINDEVON,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
-        .trainerName = _("DEVON G1"),
+        .trainerName = _("ZAFIRO"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -13861,7 +13861,7 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TRAINER_132] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_SALVAJE,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_FAKEMON2,

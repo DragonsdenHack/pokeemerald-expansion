@@ -10688,7 +10688,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_STURDY},
+        .abilities = {ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY},
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = TRUE,
     },
@@ -10713,9 +10713,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_ICE_BODY},
+            .abilities = {ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY},
         #else
-            .abilities = {ABILITY_CLEAR_BODY, ABILITY_NONE},
+            .abilities = {ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY},
         #endif
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
@@ -10742,9 +10742,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_CLEAR_BODY, ABILITY_NONE, ABILITY_LIGHT_METAL},
+            .abilities = {ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY},
         #else
-            .abilities = {ABILITY_CLEAR_BODY, ABILITY_NONE},
+            .abilities = {ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY},
         #endif
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
@@ -27333,7 +27333,7 @@ const struct BaseStats gBaseStats[] =
         .type1 = TYPE_WATER,
         .type2 = TYPE_GHOST,
         .catchRate = 75,
-        .expYield = 202,
+        .expYield = 204,
         .evYield_Defense   = 2,
         .item2 = ITEM_KINGS_ROCK,
         .genderRatio = PERCENT_FEMALE(50),
@@ -37048,7 +37048,7 @@ const struct BaseStats gBaseStats[] =
         .type1 = TYPE_DARK,
         .type2 = TYPE_POISON,
         .catchRate = 45,
-        .expYield = 88,
+        .expYield = 207,
         .evYield_Attack    = 1,
         .item2 = ITEM_POISON_BARB,
         .genderRatio = PERCENT_FEMALE(50),

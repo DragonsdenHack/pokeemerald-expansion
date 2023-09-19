@@ -48,7 +48,7 @@ playse SE_PIN
 applymovement 2, EventoLagoFuria5_Combate_Final_Move_2
 waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_12 MSGBOX_AUTOCLOSE
-playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+playmoncry SPECIES_DRUDDIGON, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_PIN
 applymovement 3, EventoLagoFuria5_Combate_Final_Move_9
@@ -76,16 +76,16 @@ playse SE_M_WATERFALL
 clearflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
 addobject 4
 delay 20
-playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+playmoncry SPECIES_DRUDDIGON, CRY_MODE_ENCOUNTER
 waitmoncry
 applymovement 4, EventoLagoFuria5_Combate_Final_Move_10
 waitmovement 0x0
-playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+playmoncry SPECIES_DRUDDIGON, CRY_MODE_ENCOUNTER
 waitmoncry
 msgbox EventoLagoFuria5_Combate_Final_Texto_13 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_TRAINER_136, EventoLagoFuria5_Combate_Final_Texto_14
 delay 10
-playmoncry SPECIES_DRACOVISH, CRY_MODE_ENCOUNTER
+playmoncry SPECIES_DRUDDIGON, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_M_DIVE
 setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
