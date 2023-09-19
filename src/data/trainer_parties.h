@@ -19206,7 +19206,7 @@ static const struct TrainerMonItemCustomMoves sParty_Zeus4[] = {
     .species = SPECIES_FLOETTE_ETERNAL_FLOWER,
     .heldItem = ITEM_CHOICE_SCARF,
     .evs = {6, 0, 0, 252, 252, 0},
-    .nature = NATURE_BOLD,
+    .nature = NATURE_MODEST,
     .moves = {MOVE_LIGHT_OF_RUIN, MOVE_LIGHT_OF_RUIN, MOVE_LIGHT_OF_RUIN, MOVE_LIGHT_OF_RUIN}
     },
     {
@@ -19391,11 +19391,11 @@ static const struct TrainerMonItemCustomMoves sParty_Esenciahooh[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_NECROZMA_ULTRA,
-    .heldItem = ITEM_ULTRANECROZIUM_Z,
+    .species = SPECIES_DIALGA_ORIGIN,
+    .heldItem = ITEM_ASSAULT_VEST,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_PHOTON_GEYSER, MOVE_DRAGON_PULSE, MOVE_HEAT_WAVE, MOVE_NONE}
+    .moves = {MOVE_ROAR_OF_TIME, MOVE_FLASH_CANNON, MOVE_AURA_SPHERE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -19421,11 +19421,11 @@ static const struct TrainerMonItemCustomMoves sParty_Esencialugia[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_ETERNATUS,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .species = SPECIES_PALKIA_ORIGIN,
+    .heldItem = ITEM_LIFE_ORB,
     .evs = {0, 0, 0, 252, 252, 0},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_DYNAMAX_CANNON, MOVE_SLUDGE_WAVE, MOVE_FLAMETHROWER, MOVE_FLASH_CANNON}
+    .moves = {MOVE_SPACIAL_REND, MOVE_SURF, MOVE_AURA_SPHERE, MOVE_SPACIAL_REND}
     },
     {
     .iv = 255,
@@ -19451,11 +19451,11 @@ static const struct TrainerMonItemCustomMoves sParty_Esenciazigarde[] = {
     {
     .iv = 255,
     .lvl = 98,
-    .species = SPECIES_ZYGARDE_COMPLETE,
-    .heldItem = ITEM_LEFTOVERS,
+    .species = SPECIES_GIRATINA_ORIGIN,
+    .heldItem = ITEM_GRISEOUS_ORB,
     .evs = {252, 0, 6, 0, 0, 252},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_DRAGON_DANCE, MOVE_THOUSAND_ARROWS, MOVE_REST, MOVE_SLEEP_TALK}
+    .moves = {MOVE_SHADOW_FORCE, MOVE_THOUSAND_ARROWS, MOVE_REST, MOVE_SLEEP_TALK}
     },
     {
     .iv = 255,
@@ -27731,11 +27731,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER145[] = {
     {
     .iv = 255,
     .lvl = 100,
-    .species = SPECIES_ZAPDOS_PRIMAL,
-    .heldItem = ITEM_LUM_BERRY,
+    .species = SPECIES_GHOST,
+    .heldItem = ITEM_JADE_ORB,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_DISCHARGE, MOVE_FIERY_WRATH, MOVE_HEAT_WAVE, MOVE_ROOST}
+    .moves = {MOVE_HYPERSPACE_HOLE, MOVE_MOONGEIST_BEAM, MOVE_SLUDGE_WAVE, MOVE_ROOST}
     }
 };
 

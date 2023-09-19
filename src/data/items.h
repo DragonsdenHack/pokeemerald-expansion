@@ -3381,7 +3381,7 @@ const struct Item gItems[] =
 
     [ITEM_JADE_ORB] = // Todo
     {
-        .name = _("????????"),
+        .name = _("Orbe Aciago"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,

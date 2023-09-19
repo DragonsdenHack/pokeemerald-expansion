@@ -2596,5 +2596,9 @@ Mision7Lab2_Event_Script_Cabezahierro::
 finditem ITEM_TM115
    end
 
+PassRoute47_Event_Script_Colmagudo::
+finditem ITEM_RAZOR_FANG
+   end
+
 
 

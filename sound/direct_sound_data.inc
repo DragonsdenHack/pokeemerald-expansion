@@ -4831,7 +4831,7 @@ Cry_Akueria::
 
 	.align 2
 Cry_Boohoo::
-	.incbin "sound/direct_sound_samples/cries/boohoo.bin"
+	.incbin "sound/direct_sound_samples/cries/noctowl.bin"
 
 	.align 2
 Cry_Ikary::

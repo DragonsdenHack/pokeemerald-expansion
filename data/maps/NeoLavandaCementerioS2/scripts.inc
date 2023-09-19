@@ -444,7 +444,7 @@ playse SE_THUNDERSTORM_STOP
 	special ShakeCamera
 	delay 30
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_1 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_GHOST, NeoLavandaCementerioS2_Evento_Ghost_Texto_2
+trainerbattle_no_intro TRAINER_TRAINER_145, NeoLavandaCementerioS2_Evento_Ghost_Texto_2
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER
 waitmoncry
 playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER

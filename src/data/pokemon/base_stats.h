@@ -36821,7 +36821,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 205,
         .baseSpDefense = 150,
         .type1 = TYPE_GHOST,
-        .type2 = TYPE_NORMAL,
+        .type2 = TYPE_DARK,
         .catchRate = 45,
         .expYield = 325,
         .evYield_SpAttack  = 3,
@@ -36833,9 +36833,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
         #if P_UPDATED_ABILITIES >= GEN_7
             #ifdef BATTLE_ENGINE
-                .abilities = {ABILITY_LEVITATE, ABILITY_NONE},
+                .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
             #else
-                .abilities = {ABILITY_NONE, ABILITY_NONE},
+                .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
             #endif
         #else
             .abilities = {ABILITY_LEVITATE, ABILITY_NONE},
