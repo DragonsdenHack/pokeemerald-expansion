@@ -21625,7 +21625,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     {
     .iv = 255,
     .lvl = 103,
-    .species = SPECIES_NINETALES,
+    .species = SPECIES_NINETALES_BOND,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {120, 120, 120, 252, 252, 120},
     .nature = NATURE_TIMID,

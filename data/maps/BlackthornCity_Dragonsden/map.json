@@ -3,7 +3,7 @@
   "name": "BlackthornCity_Dragonsden",
   "layout": "LAYOUT_BLACKTHORN_CITY_DRAGONSDEN",
   "music": "568",
-  "region_map_section": "MAPSEC_BLACKTHORN_CITY",
+  "region_map_section": "MAPSEC_DRAGONSDEN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",
