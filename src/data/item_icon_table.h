@@ -265,6 +265,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_STAR_SWEET] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     [ITEM_RIBBON_SWEET] = {gItemIcon_QuestionMark, gItemIconPalette_QuestionMark}, // Todo
     [ITEM_EVERSTONE] = {gItemIcon_Everstone, gItemIconPalette_Everstone},
+    [ITEM_PIEDRA_SAGRADA] = {gItemIcon_Altarianite, gItemIconPalette_Altarianite},
     // Nectars
     [ITEM_RED_NECTAR] = {gItemIcon_RedNectar, gItemIconPalette_RedNectar},
     [ITEM_YELLOW_NECTAR] = {gItemIcon_YellowNectar, gItemIconPalette_YellowNectar},
@@ -371,6 +372,7 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_MILOTICITE] = {gItemIcon_Altarianite, gItemIconPalette_Altarianite},
     [ITEM_DUSKNOIRITA] = {gItemIcon_Sablenite, gItemIconPalette_Sablenite},
     [ITEM_NOIVERNITA] = {gItemIcon_Garchompite, gItemIconPalette_Garchompite},
+    [ITEM_TOXTRICITIT] = {gItemIcon_Garchompite, gItemIconPalette_Garchompite},
     // Gems
     [ITEM_NORMAL_GEM] = {gItemIcon_NormalGem, gItemIconPalette_NormalGem},
     [ITEM_FIRE_GEM] = {gItemIcon_FireGem, gItemIconPalette_FireGem},

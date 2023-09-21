@@ -44,7 +44,7 @@ LavenderRadioP9_Segundo_Cientifico_Texto_1:
 	.string "La tecnología ha mejorado los equipos\n"
 	.string "de nuestros mejores hombres.\l"
 	.string "PROTON ahora cuenta con un OVERQWILL\l"
-	.string "y un BOOHOO, PETREL con un PURAKUSSU\l"
+	.string "y un BOOHOO, PETREL con un PURAKUSU\l"
 	.string "y un WEEZING-GALAR.\l"
 	.string "Nada de esto hubiera sido posible sin\l"
 	.string "toda la información recolectada por\l"

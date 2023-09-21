@@ -972,7 +972,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_SUI] = _("Sui"),
     [SPECIES_RAI] = _("Rai"),
     [SPECIES_EN] = _("En"),
-    [SPECIES_SACRED_DRAGON] = _("Dun"),
+    [SPECIES_SACRED_DRAGON] = _("Dun-O"),
     [SPECIES_ORIGINAL_DRAGON] = _("Dragón-O"),
     [SPECIES_ARCEUS_PRIMAL] = _("Arceus-P"),
     [SPECIES_MISSINGNO] = _("????"),
@@ -1034,6 +1034,7 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_PORYGON_Z_MEGA] = _("Porygon-Z"),
     [SPECIES_COFAGRIGUS_MEGA] = _("Cofagrigus"),
     [SPECIES_DURALUDON_MEGA] = _("Duraludon"),
+    [SPECIES_TOXTRICITY_MEGA] = _("Toxtricity"),
 
     // Special Mega + Primals
     [SPECIES_RAYQUAZA_MEGA] = _("Rayquaza"),
@@ -1449,4 +1450,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_FEZANDIPITI] = _("Fezandipit"),
     [SPECIES_TERAPAGOS] = _("Terapagos"),
     [SPECIES_NINETALES_BOND] = _("Ninetales&"),
+    [SPECIES_DUNSPARCE_OLD_PREEVO] = _("Blessparce"),
+    [SPECIES_DUDUNSPARCE_EVO] = _("Wrongsparc"),
 };
