@@ -21107,10 +21107,10 @@ static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     .iv = 255,
     .lvl = 101,
     .species = SPECIES_CROBAT2_BOND,
-    .heldItem = ITEM_FLYING_GEM,
+    .heldItem = ITEM_ASSAULT_VEST,
     .evs = {110, 252, 252, 110, 110, 110},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_ACROBATICS, MOVE_GUNK_SHOT, MOVE_ROOST, MOVE_LEECH_LIFE}
+    .moves = {MOVE_FLY, MOVE_GUNK_SHOT, MOVE_CRUNCH, MOVE_LEECH_LIFE}
     }
 };
 

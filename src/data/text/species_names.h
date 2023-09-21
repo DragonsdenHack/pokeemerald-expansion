@@ -1452,7 +1452,6 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_NINETALES_BOND] = _("Ninetales&"),
     [SPECIES_FINIZEN] = _("Finizen"),
     [SPECIES_PALAFIN] = _("Palafin"),
-    [SPECIES_TOXTRICITY_MEGA] = _("Toxtricity"),
     [SPECIES_DUNSPARCE_OLD_PREEVO] = _("Blessparce"),
     [SPECIES_DUDUNSPARCE_EVO] = _("Wrongsparc"),
 };
