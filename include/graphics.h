@@ -1383,6 +1383,11 @@ extern const u32 gMonFrontPic_Munkidori[];
 extern const u32 gMonFrontPic_Fezandipiti[];
 extern const u32 gMonFrontPic_Terapagos[];
 extern const u32 gMonFrontPic_NinetalesBond[];
+extern const u32 gMonFrontPic_Finizen[];
+extern const u32 gMonFrontPic_Palafin[];
+extern const u32 gMonFrontPic_ToxtricityMega[];
+extern const u32 gMonFrontPic_DunsparceOldPreevo[];
+extern const u32 gMonFrontPic_DudunsparceEvo[];
 extern const u32 gMonFrontPic_Egg[];
 
 extern const u32 gMonBackPic_CircledQuestionMark[];
@@ -2703,6 +2708,11 @@ extern const u32 gMonBackPic_Munkidori[];
 extern const u32 gMonBackPic_Fezandipiti[];
 extern const u32 gMonBackPic_Terapagos[];
 extern const u32 gMonBackPic_NinetalesBond[];
+extern const u32 gMonBackPic_Finizen[];
+extern const u32 gMonBackPic_Palafin[];
+extern const u32 gMonBackPic_ToxtricityMega[];
+extern const u32 gMonBackPic_DunsparceOldPreevo[];
+extern const u32 gMonBackPic_DudunsparceEvo[];
 
 extern const u32 gMonPalette_CircledQuestionMark[];
 extern const u32 gMonPalette_DoubleQuestionMark[];
@@ -4047,6 +4057,11 @@ extern const u32 gMonPalette_Munkidori[];
 extern const u32 gMonPalette_Fezandipiti[];
 extern const u32 gMonPalette_Terapagos[];
 extern const u32 gMonPalette_NinetalesBond[];
+extern const u32 gMonPalette_Finizen[];
+extern const u32 gMonPalette_Palafin[];
+extern const u32 gMonPalette_ToxtricityMega[];
+extern const u32 gMonPalette_DunsparceOldPreevo[];
+extern const u32 gMonPalette_DudunsparceEvo[];
 extern const u32 gMonPalette_Egg[];
 
 extern const u32 gMonShinyPalette_CircledQuestionMark[];
@@ -5387,6 +5402,11 @@ extern const u32 gMonShinyPalette_Munkidori[];
 extern const u32 gMonShinyPalette_Fezandipiti[];
 extern const u32 gMonShinyPalette_Terapagos[];
 extern const u32 gMonShinyPalette_NinetalesBond[];
+extern const u32 gMonShinyPalette_Finizen[];
+extern const u32 gMonShinyPalette_Palafin[];
+extern const u32 gMonShinyPalette_ToxtricityMega[];
+extern const u32 gMonShinyPalette_DunsparceOldPreevo[];
+extern const u32 gMonShinyPalette_DudunsparceEvo[];
 
 extern const u8 gMonIcon_QuestionMark[];
 extern const u8 gMonIcon_Bulbasaur[];
@@ -6715,6 +6735,11 @@ extern const u8 gMonIcon_Munkidori[];
 extern const u8 gMonIcon_Fezandipiti[];
 extern const u8 gMonIcon_Terapagos[];
 extern const u8 gMonIcon_NinetalesBond[];
+extern const u8 gMonIcon_Finizen[];
+extern const u8 gMonIcon_Palafin[];
+extern const u8 gMonIcon_ToxtricityMega[];
+extern const u8 gMonIcon_DunsparceOldPreevo[];
+extern const u8 gMonIcon_DudunsparceEvo[];
 extern const u8 gMonIcon_Egg[];
 
 extern const u8 gMonFootprint_QuestionMark[];
@@ -7613,6 +7638,11 @@ extern const u8 gMonFootprint_Munkidori[];
 extern const u8 gMonFootprint_Fezandipiti[];
 extern const u8 gMonFootprint_Terapagos[];
 extern const u8 gMonFootprint_NinetalesBond[];
+extern const u8 gMonFootprint_Finizen[];
+extern const u8 gMonFootprint_Palafin[];
+extern const u8 gMonFootprint_ToxtricityMega[];
+extern const u8 gMonFootprint_DunsparceOldPreevo[];
+extern const u8 gMonFootprint_DudunsparceEvo[];
 
 // trainer sprites
 extern const u32 gTrainerFrontPic_AquaLeaderArchie[];

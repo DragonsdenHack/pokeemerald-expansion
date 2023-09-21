@@ -11651,4 +11651,52 @@ const struct PokedexEntry gPokedexEntries[] =
         .trainerScale = 256,
         .trainerOffset = 0,
     },
+
+    [NATIONAL_DEX_FINIZEN] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gFinizenPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_PALAFIN] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gPalafinPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DUNSPARCE_OLD_PREEVO] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gDunsparceOldPreevoPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
+
+    [NATIONAL_DEX_DUDUNSPARCE_EVO] =
+    {
+        .categoryName = _("King"),
+        .height = 11,
+        .weight = 77,
+        .description = gDudunsparceEvoPokedexText,
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+    },
 };

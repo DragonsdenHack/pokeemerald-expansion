@@ -23097,3 +23097,53 @@ static const struct LevelUpMove sNinetalesBondLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_SAFEGUARD),
     LEVEL_UP_END
 };
+
+static const struct LevelUpMove sFinizenLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_IMPRISON),
+    LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),
+    LEVEL_UP_MOVE( 1, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE( 1, MOVE_SAFEGUARD),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sPalafinLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_IMPRISON),
+    LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),
+    LEVEL_UP_MOVE( 1, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE( 1, MOVE_SAFEGUARD),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sToxtricityMegaLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_IMPRISON),
+    LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),
+    LEVEL_UP_MOVE( 1, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE( 1, MOVE_SAFEGUARD),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sDunsparceOldPreevoLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_IMPRISON),
+    LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),
+    LEVEL_UP_MOVE( 1, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE( 1, MOVE_SAFEGUARD),
+    LEVEL_UP_END
+};
+
+static const struct LevelUpMove sDudunsparceEvoLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_IMPRISON),
+    LEVEL_UP_MOVE( 1, MOVE_NASTY_PLOT),
+    LEVEL_UP_MOVE( 1, MOVE_FLAMETHROWER),
+    LEVEL_UP_MOVE( 1, MOVE_QUICK_ATTACK),
+    LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
+    LEVEL_UP_MOVE( 1, MOVE_SAFEGUARD),
+    LEVEL_UP_END
+};

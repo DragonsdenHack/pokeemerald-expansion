@@ -10360,6 +10360,36 @@ static const union AnimCmd sAnim_NINETALES_BOND_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_FINIZEN_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_PALAFIN_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_TOXTRICITY_MEGA_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DUNSPARCE_OLD_PREEVO_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_DUDUNSPARCE_EVO_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd *const sAnims_NONE[] ={
     sAnim_GeneralFrame0,
     sAnim_NONE_1,
@@ -16582,6 +16612,31 @@ static const union AnimCmd *const sAnims_NINETALES_BOND[] ={
     sAnim_NINETALES_BOND_1,
 };
 
+static const union AnimCmd *const sAnims_FINIZEN[] ={
+    sAnim_GeneralFrame0,
+    sAnim_FINIZEN_1,
+};
+
+static const union AnimCmd *const sAnims_PALAFIN[] ={
+    sAnim_GeneralFrame0,
+    sAnim_PALAFIN_1,
+};
+
+static const union AnimCmd *const sAnims_TOXTRICITY_MEGA[] ={
+    sAnim_GeneralFrame0,
+    sAnim_TOXTRICITY_MEGA_1,
+};
+
+static const union AnimCmd *const sAnims_DUNSPARCE_OLD_PREEVO[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DUNSPARCE_OLD_PREEVO_1,
+};
+
+static const union AnimCmd *const sAnims_DUDUNSPARCE_EVO[] ={
+    sAnim_GeneralFrame0,
+    sAnim_DUDUNSPARCE_EVO_1,
+};
+
 #define ANIM_CMD(name)             [SPECIES_##name] = sAnims_##name
 #define ANIM_CMD_FULL(name, anims) [SPECIES_##name] = anims
 
@@ -17968,6 +18023,11 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD_FULL(FEZANDIPITI, sAnims_FEZANDIPITI),
     ANIM_CMD_FULL(TERAPAGOS, sAnims_TERAPAGOS),
     ANIM_CMD_FULL(NINETALES_BOND, sAnims_NINETALES_BOND),
+    ANIM_CMD_FULL(FINIZEN, sAnims_FINIZEN),
+    ANIM_CMD_FULL(PALAFIN, sAnims_PALAFIN),
+    ANIM_CMD_FULL(TOXTRICITY_MEGA, sAnims_TOXTRICITY_MEGA),
+    ANIM_CMD_FULL(DUNSPARCE_OLD_PREEVO, sAnims_DUNSPARCE_OLD_PREEVO),
+    ANIM_CMD_FULL(DUDUNSPARCE_EVO, sAnims_DUDUNSPARCE_EVO),
     ANIM_CMD(EGG),
 };
 

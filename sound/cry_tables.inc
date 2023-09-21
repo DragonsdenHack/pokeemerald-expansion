@@ -1445,6 +1445,11 @@ gCryTable::
 	cry Cry_Fezandipiti
 	cry Cry_Terapagos
 	cry Cry_NinetalesBond
+	cry Cry_Finizen
+	cry Cry_Palafin
+	cry Cry_ToxtricityMega
+	cry Cry_DunsparceOldPreevo
+	cry Cry_DudunsparceEvo
 
 	.align 2
 gCryTable_Reverse::
@@ -2893,3 +2898,8 @@ gCryTable_Reverse::
 	cry_reverse Cry_Fezandipiti
 	cry_reverse Cry_Terapagos
 	cry_reverse Cry_NinetalesBond
+	cry_reverse Cry_Finizen
+	cry_reverse Cry_Palafin
+	cry_reverse Cry_ToxtricityMega
+	cry_reverse Cry_DunsparceOldPreevo
+	cry_reverse Cry_DudunsparceEvo

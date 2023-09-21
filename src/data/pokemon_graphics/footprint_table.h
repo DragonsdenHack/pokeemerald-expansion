@@ -896,5 +896,10 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_FEZANDIPITI] = gMonFootprint_Fezandipiti,
     [SPECIES_TERAPAGOS] = gMonFootprint_Terapagos,
     [SPECIES_NINETALES_BOND] = gMonFootprint_NinetalesBond,
+    [SPECIES_FINIZEN] = gMonFootprint_Finizen,
+    [SPECIES_PALAFIN] = gMonFootprint_Palafin,
+    [SPECIES_TOXTRICITY_MEGA] = gMonFootprint_ToxtricityMega,
+    [SPECIES_DUNSPARCE_OLD_PREEVO] = gMonFootprint_DunsparceOldPreevo,
+    [SPECIES_DUDUNSPARCE_EVO] = gMonFootprint_DudunsparceEvo,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

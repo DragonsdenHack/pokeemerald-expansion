@@ -5594,6 +5594,26 @@ Cry_NinetalesBond::
 	.incbin "sound/direct_sound_samples/cries/ninetales_bond.bin"
 
 	.align 2
+Cry_Finizen::
+	.incbin "sound/direct_sound_samples/cries/finizen.bin"
+
+	.align 2
+Cry_Palafin::
+	.incbin "sound/direct_sound_samples/cries/palafin.bin"
+
+	.align 2
+Cry_ToxtricityMega::
+	.incbin "sound/direct_sound_samples/cries/toxtricity_mega.bin"
+
+	.align 2
+Cry_DunsparceOldPreevo::
+	.incbin "sound/direct_sound_samples/cries/dunsparce_old_preevo.bin"
+
+	.align 2
+Cry_DudunsparceEvo::
+	.incbin "sound/direct_sound_samples/cries/dudunsparce_evo.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

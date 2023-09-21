@@ -1449,4 +1449,9 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_FEZANDIPITI] = _("Fezandipit"),
     [SPECIES_TERAPAGOS] = _("Terapagos"),
     [SPECIES_NINETALES_BOND] = _("Ninetales&"),
+    [SPECIES_FINIZEN] = _("Finizen"),
+    [SPECIES_PALAFIN] = _("Palafin"),
+    [SPECIES_TOXTRICITY_MEGA] = _("Toxtricity"),
+    [SPECIES_DUNSPARCE_OLD_PREEVO] = _("Terapagos"),
+    [SPECIES_DUDUNSPARCE_EVO] = _("Terapagos"),
 };
