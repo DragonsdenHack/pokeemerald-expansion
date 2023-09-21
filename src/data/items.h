@@ -3381,7 +3381,7 @@ const struct Item gItems[] =
 
     [ITEM_JADE_ORB] = // Todo
     {
-        .name = _("????????"),
+        .name = _("Orbe Aciago"),
         .itemId = ITEM_NONE,
         .price = 0,
         .description = sDummyDesc,
@@ -9634,12 +9634,33 @@ const struct Item gItems[] =
     [ITEM_NOIVERNITA] =
     {
         .name = _("Noivernita"),
-        .itemId = ITEM_DUSKNOIRITA,
+        .itemId = ITEM_NOIVERNITA,
         .price = 0,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sBeedrilliteDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_TOXTRICITIT] =
+    {
+        .name = _("Toxtricitit"),
+        .itemId = ITEM_TOXTRICITIT,
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sBeedrilliteDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_PIEDRA_SAGRADA] =
+    {
+        .name = _("Thunder Stone"),
+        .itemId = ITEM_PIEDRA_SAGRADA,
+        .price = 9800,
+        .description = sThunderStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 };

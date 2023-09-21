@@ -794,6 +794,74 @@ static const union AnimCmd *const sAnims_Zeus[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Fakemon1[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Fakemon2[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Fakemon3[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Fakemon4[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Fakemon5[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Fakemon6[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Fakemon7[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Hypno[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_AdminJefe[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Admin[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Ejecutivo[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_AltoRango[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_AndraAdminJefe[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_AndraAdmin[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_AndraEjecutiva[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_AndraAltoRango[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_RocketGruntAndra2[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -995,4 +1063,22 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_VALERIA] = sAnims_Valeria,
     [TRAINER_PIC_ZAPDOS] = sAnims_Zapdos,
     [TRAINER_PIC_ZEUS] = sAnims_Zeus,
+    [TRAINER_PIC_FAKEMON1] = sAnims_Fakemon1,
+    [TRAINER_PIC_FAKEMON2] = sAnims_Fakemon2,
+    [TRAINER_PIC_FAKEMON3] = sAnims_Fakemon3,
+    [TRAINER_PIC_FAKEMON4] = sAnims_Fakemon4,
+    [TRAINER_PIC_FAKEMON5] = sAnims_Fakemon5,
+    [TRAINER_PIC_FAKEMON6] = sAnims_Fakemon6,
+    [TRAINER_PIC_FAKEMON7] = sAnims_Fakemon7,
+    [TRAINER_PIC_HYPNO] = sAnims_Hypno,
+    [TRAINER_PIC_ADMIN_JEFE] = sAnims_AdminJefe,
+    [TRAINER_PIC_ADMIN] = sAnims_Admin,
+    [TRAINER_PIC_EJECUTIVO] = sAnims_Ejecutivo,
+    [TRAINER_PIC_ALTO_RANGO] = sAnims_AltoRango,
+    [TRAINER_PIC_ANDRA_ADMIN_JEFE] = sAnims_AndraAdminJefe,
+    [TRAINER_PIC_ANDRA_ADMIN] = sAnims_AndraAdmin,
+    [TRAINER_PIC_ANDRA_EJECUTIVA] = sAnims_AndraEjecutiva,
+    [TRAINER_PIC_ANDRA_ALTO_RANGO] = sAnims_AndraAltoRango,
+    [TRAINER_PIC_ROCKET_GRUNT_ANDRA2] = sAnims_RocketGruntAndra2,
+
 };

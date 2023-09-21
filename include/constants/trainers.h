@@ -216,6 +216,23 @@
 #define TRAINER_PIC_VALERIA               196
 #define TRAINER_PIC_ZAPDOS                197
 #define TRAINER_PIC_ZEUS                  198
+#define TRAINER_PIC_ROCKET_GRUNT_ANDRA2	  199
+#define TRAINER_PIC_ANDRA_ALTO_RANGO	  200
+#define TRAINER_PIC_ANDRA_EJECUTIVA	      201
+#define TRAINER_PIC_ANDRA_ADMIN	  		  202
+#define TRAINER_PIC_ANDRA_ADMIN_JEFE      203
+#define TRAINER_PIC_ALTO_RANGO	          204
+#define TRAINER_PIC_EJECUTIVO	          205
+#define TRAINER_PIC_ADMIN	  		  	  206
+#define TRAINER_PIC_ADMIN_JEFE		      207
+#define TRAINER_PIC_HYPNO				  208
+#define TRAINER_PIC_FAKEMON1			  209
+#define TRAINER_PIC_FAKEMON2			  210
+#define TRAINER_PIC_FAKEMON3			  211
+#define TRAINER_PIC_FAKEMON4			  212
+#define TRAINER_PIC_FAKEMON5			  213
+#define TRAINER_PIC_FAKEMON6			  214
+#define TRAINER_PIC_FAKEMON7			  215
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -582,6 +599,7 @@
 #define TRAINER_CLASS_DEVON_CIENTIFICO   0xBB
 #define TRAINER_CLASS_EUSINE             0xBC
 #define TRAINER_CLASS_MAESTRO_DUN        0xBD
+#define TRAINER_CLASS_ADMINDEVON         0xBE
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

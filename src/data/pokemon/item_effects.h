@@ -575,5 +575,6 @@ const u8 *const gItemEffectTable[] =
     [ITEM_HONDEW_BERRY - ITEM_POTION]   = gItemEffect_HondewBerry,
     [ITEM_GREPA_BERRY - ITEM_POTION]    = gItemEffect_GrepaBerry,
     [ITEM_TAMATO_BERRY - ITEM_POTION]   = gItemEffect_TamatoBerry,
+    [ITEM_PIEDRA_SAGRADA - ITEM_POTION]  = gItemEffect_EvoStone,
     [LAST_BERRY_INDEX - ITEM_POTION]    = NULL
 };

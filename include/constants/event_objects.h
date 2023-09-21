@@ -479,10 +479,17 @@
 #define OBJ_EVENT_GFX_AKUERIA 475
 #define OBJ_EVENT_GFX_ZAPDOS_PRIMAL 476
 #define OBJ_EVENT_GFX_AGATHA2 477
+#define OBJ_EVENT_GFX_GLASTRIER 478
+#define OBJ_EVENT_GFX_GUZZLORD 479
+#define OBJ_EVENT_GFX_NIHILEGO 480
+#define OBJ_EVENT_GFX_DEVON1 481
+#define OBJ_EVENT_GFX_DEVON2 482
+#define OBJ_EVENT_GFX_DEVON3 483
+#define OBJ_EVENT_GFX_DEVON4 484
 
 
 
-#define NUM_OBJ_EVENT_GFX                        478                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        485                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.

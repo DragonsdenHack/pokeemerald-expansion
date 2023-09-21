@@ -530,7 +530,25 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_BRUNO 0x1182
 #define OBJ_EVENT_PAL_TAG_MECANICO_JOHTO 0x1183
 #define OBJ_EVENT_PAL_TAG_KIMONO 0x1184
+#define OBJ_EVENT_PAL_TAG_MONTANEROJOHTO 0x1185
+#define OBJ_EVENT_PAL_TAG_MIRTO 0x1186
+#define OBJ_EVENT_PAL_TAG_CRIADORJOHTO 0x1187
+#define OBJ_EVENT_PAL_TAG_CRIADORAJOHTO 0x1188
+#define OBJ_EVENT_PAL_TAG_MILTANK 0x1189
 
+
+
+
+
+
+#define OBJ_EVENT_PAL_TAG_YASMINA 0x1190
+#define OBJ_EVENT_PAL_TAG_GLASTRIER 0x1191
+#define OBJ_EVENT_PAL_TAG_GUZZLORD 0x1192
+#define OBJ_EVENT_PAL_TAG_NIHILEGO 0x1193
+#define OBJ_EVENT_PAL_TAG_DEVON1   0x1194
+#define OBJ_EVENT_PAL_TAG_DEVON2   0x1195
+#define OBJ_EVENT_PAL_TAG_DEVON3   0x1196
+#define OBJ_EVENT_PAL_TAG_DEVON4   0x1197
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -661,6 +679,24 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Karen, OBJ_EVENT_PAL_TAG_KAREN},
 	{gObjectEventPal_Bruno, OBJ_EVENT_PAL_TAG_BRUNO},
 	{gObjectEventPal_MecanicoJohto, OBJ_EVENT_PAL_TAG_MECANICO_JOHTO},
+	{gObjectEventPal_Montanerojohto, OBJ_EVENT_PAL_TAG_MONTANEROJOHTO},
+	{gObjectEventPal_Mirto, OBJ_EVENT_PAL_TAG_MIRTO},
+	{gObjectEventPal_Anton, OBJ_EVENT_PAL_TAG_ANTON},
+	{gObjectEventPal_Criadorjohto, OBJ_EVENT_PAL_TAG_CRIADORJOHTO},
+	{gObjectEventPal_Miltank, OBJ_EVENT_PAL_TAG_MILTANK},
+	{gObjectEventPal_Kimono, OBJ_EVENT_PAL_TAG_KIMONO},
+	{gObjectEventPal_Yasmina, OBJ_EVENT_PAL_TAG_YASMINA},
+	{gObjectEventPal_Anibal, OBJ_EVENT_PAL_TAG_ANIBAL},
+    {gObjectEventPal_Manciano, OBJ_EVENT_PAL_TAG_MANCIANO},
+	{gObjectEventPal_Muerto, OBJ_EVENT_PAL_TAG_MUERTO},
+	{gObjectEventPal_ArtistaJohto, OBJ_EVENT_PAL_TAG_ARTISTAJOHTO},
+	{gObjectEventPal_Glastrier, OBJ_EVENT_PAL_TAG_GLASTRIER},
+	{gObjectEventPal_Guzzlord, OBJ_EVENT_PAL_TAG_GUZZLORD},
+	{gObjectEventPal_Nihilego, OBJ_EVENT_PAL_TAG_NIHILEGO},
+	{gObjectEventPal_Devon1, OBJ_EVENT_PAL_TAG_DEVON1},
+	{gObjectEventPal_Devon2, OBJ_EVENT_PAL_TAG_DEVON2},
+	{gObjectEventPal_Devon3, OBJ_EVENT_PAL_TAG_DEVON3},
+	{gObjectEventPal_Devon4, OBJ_EVENT_PAL_TAG_DEVON4},
 	
 };
 

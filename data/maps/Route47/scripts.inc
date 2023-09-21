@@ -402,3 +402,9 @@ Route47_Dialogo_Maestro_Anciano_2_Texto_5:
 	.string "¿Podrás continuar el viaje cuando\l"
 	.string "flaqueen tus fuerzas?$"
 
+Route47_Flag_Nivel::
+lock
+setflag FLAG_EXPAND_MAX_LEVEL
+release
+end
+
