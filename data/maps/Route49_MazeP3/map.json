@@ -146,8 +146,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
-      "x": 12,
-      "y": 8,
+      "x": 0,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -159,8 +159,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CLIPBOARD",
-      "x": 6,
-      "y": 7,
+      "x": 14,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -193,8 +193,8 @@
       "dest_warp_id": 1
     },
     {
-      "x": 14,
-      "y": 12,
+      "x": 17,
+      "y": 11,
       "elevation": 0,
       "dest_map": "MAP_ROUTE49_MAZE_P4",
       "dest_warp_id": 0
@@ -214,16 +214,16 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 12,
-      "y": 8,
+      "x": 0,
+      "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route49MazeP3Documento_100"
     },
     {
       "type": "sign",
-      "x": 6,
-      "y": 7,
+      "x": 14,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route49MazeP3Documento_101"

@@ -10325,7 +10325,7 @@
       "id": "LAYOUT_ROUTE49",
       "name": "Route49_Layout",
       "width": 40,
-      "height": 50,
+      "height": 70,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
@@ -14100,6 +14100,30 @@
       "secondary_tileset": "gTileset_cerulean_cave",
       "border_filepath": "data/layouts/TorreDunsparce_S4/border.bin",
       "blockdata_filepath": "data/layouts/TorreDunsparce_S4/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_PAGODA_P4",
+      "name": "Route49_Pagoda_P4_Layout",
+      "width": 25,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_Pagoda_P4/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_Pagoda_P4/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_PAGODA_P5",
+      "name": "Route49_Pagoda_P5_Layout",
+      "width": 25,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_Pagoda_P5/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_Pagoda_P5/map.bin"
     }
   ]
 }

@@ -2525,14 +2525,13 @@ const struct Item gItems[] =
 
     [ITEM_UPGRADE] =
     {
-        .name = _("Upgrade"),
+        .name = _("Mejora"),
         .itemId = ITEM_UPGRADE,
         .price = 11000,
-        .holdEffect = HOLD_EFFECT_UPGRADE,
-        .description = sUpgradeDesc,
+        .description = sThunderStoneDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_PROTECTOR] =
@@ -2570,13 +2569,13 @@ const struct Item gItems[] =
 
     [ITEM_DUBIOUS_DISC] =
     {
-        .name = _("Dubious Disc"),
-        .itemId = ITEM_DUBIOUS_DISC,
+        .name = _("Mejora"),
+        .itemId = ITEM_UPGRADE,
         .price = 14000,
-        .description = sDubiousDiscDesc,
+        .description = sThunderStoneDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_REAPER_CLOTH] =
@@ -9657,6 +9656,16 @@ const struct Item gItems[] =
     {
         .name = _("Thunder Stone"),
         .itemId = ITEM_PIEDRA_SAGRADA,
+        .price = 9800,
+        .description = sThunderStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
+    },
+    [ITEM_PIEDRA_LINK] =
+    {
+        .name = _("Piedra Link"),
+        .itemId = ITEM_PIEDRA_LINK,
         .price = 9800,
         .description = sThunderStoneDesc,
         .pocket = POCKET_ITEMS,

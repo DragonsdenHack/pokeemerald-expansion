@@ -23,7 +23,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
       "x": 7,
-      "y": 38,
+      "y": 37,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -61,8 +61,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
-      "x": 13,
-      "y": 22,
+      "x": 9,
+      "y": 17,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -75,7 +75,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
       "x": 19,
-      "y": 40,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 0,
@@ -113,8 +113,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 8,
-      "y": 33,
+      "x": 7,
+      "y": 44,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -127,7 +127,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
       "x": 9,
-      "y": 41,
+      "y": 55,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -140,7 +140,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN",
       "x": 9,
-      "y": 42,
+      "y": 56,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 0,
@@ -153,7 +153,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_EUSINE",
       "x": 10,
-      "y": 41,
+      "y": 55,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -167,7 +167,7 @@
   "warp_events": [
     {
       "x": 10,
-      "y": 40,
+      "y": 54,
       "elevation": 0,
       "dest_map": "MAP_ROUTE49_MAZE",
       "dest_warp_id": 0
@@ -183,8 +183,8 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 12,
-      "y": 42,
+      "x": 10,
+      "y": 56,
       "elevation": 0,
       "var": "VAR_VERDANTURF_TOWN_STATE",
       "var_value": "8",
@@ -193,7 +193,7 @@
     {
       "type": "trigger",
       "x": 10,
-      "y": 41,
+      "y": 55,
       "elevation": 0,
       "var": "VAR_VERDANTURF_TOWN_STATE",
       "var_value": "6",
@@ -202,7 +202,7 @@
     {
       "type": "trigger",
       "x": 10,
-      "y": 41,
+      "y": 55,
       "elevation": 0,
       "var": "VAR_VERDANTURF_TOWN_STATE",
       "var_value": "7",
@@ -212,8 +212,8 @@
   "bg_events": [
     {
       "type": "hidden_item",
-      "x": 16,
-      "y": 40,
+      "x": 19,
+      "y": 51,
       "elevation": 3,
       "item": "ITEM_HEART_SCALE",
       "flag": "FLAG_NUEVA_510"

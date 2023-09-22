@@ -553,6 +553,7 @@ const u8 *const gItemEffectTable[] =
     [ITEM_MOON_STONE - ITEM_POTION]     = gItemEffect_EvoStone,
     [ITEM_FIRE_STONE - ITEM_POTION]     = gItemEffect_EvoStone,
     [ITEM_THUNDER_STONE - ITEM_POTION]  = gItemEffect_EvoStone,
+    [ITEM_UPGRADE - ITEM_POTION]  = gItemEffect_EvoStone,
     [ITEM_WATER_STONE - ITEM_POTION]    = gItemEffect_EvoStone,
     [ITEM_LEAF_STONE - ITEM_POTION]     = gItemEffect_EvoStone,
     [ITEM_DAWN_STONE - ITEM_POTION]     = gItemEffect_EvoStone,
@@ -576,5 +577,8 @@ const u8 *const gItemEffectTable[] =
     [ITEM_GREPA_BERRY - ITEM_POTION]    = gItemEffect_GrepaBerry,
     [ITEM_TAMATO_BERRY - ITEM_POTION]   = gItemEffect_TamatoBerry,
     [ITEM_PIEDRA_SAGRADA - ITEM_POTION]  = gItemEffect_EvoStone,
+    [ITEM_PIEDRA_LINK - ITEM_POTION]  =    gItemEffect_EvoStone,
+    [ITEM_PIEDRA_ROCKET - ITEM_POTION]  = gItemEffect_EvoStone,
+    [ITEM_DUBIOUS_DISC - ITEM_POTION]  = gItemEffect_EvoStone,
     [LAST_BERRY_INDEX - ITEM_POTION]    = NULL
 };

@@ -2740,3 +2740,7 @@ Text_EVChecker_3:
 	.include "data/maps/TorreDunsparce_S3/scripts.inc"
 
 	.include "data/maps/TorreDunsparce_S4/scripts.inc"
+
+	.include "data/maps/Route49_Pagoda_P4/scripts.inc"
+
+	.include "data/maps/Route49_Pagoda_P5/scripts.inc"
