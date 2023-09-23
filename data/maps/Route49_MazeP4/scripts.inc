@@ -376,8 +376,8 @@ Route49_MazeP4_Combate_Maestro_Texto_10:
 
 Route49_MazeP4_Combate_Maestro_Texto_11:
 .string "ANDRA: ¿Se refiere a nuestros CROBAT?\n"
-	.string "Los dos obtuvimos uno el mismo día, han\l"
-	.string "crecido mucho.$"
+	.string "{PLAYER} y yo obtuvimos uno el mismo día,\l"
+	.string "han crecido mucho desde entonces.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_12:
 .string "G.MAESTRO: ¡Oh, sí! Desde luego, la\n"
@@ -430,7 +430,7 @@ Route49_MazeP4_Combate_Maestro_Texto_19:
 Route49_MazeP4_Combate_Maestro_Texto_20:
 .string "EUSINE: Y aún así, tienen un poder\n"
 	.string "menor que los surgidos producto de la\l"
-	.string "interacción humano-POKÉMON.$"
+	.string "interacción entre humanos y POKÉMON.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_21:
 .string "G.MAESTRO: Una interacción muy\n"

@@ -1,7 +1,7 @@
 {
-  "id": "MAP_ROUTE49_PAGODA_P7",
-  "name": "Route49_Pagoda_P7",
-  "layout": "LAYOUT_ROUTE49_PAGODA_P7",
+  "id": "MAP_ROUTE49_PAGODA_P8",
+  "name": "Route49_Pagoda_P8",
+  "layout": "LAYOUT_ROUTE49_PAGODA_P8",
   "music": "633",
   "region_map_section": "MAPSEC_ARTISAN_CAVE",
   "requires_flash": false,
@@ -18,18 +18,18 @@
   ],
   "warp_events": [
     {
-      "x": 21,
-      "y": 21,
+      "x": 12,
+      "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE49_PAGODA_P6",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ROUTE49_PAGODA_P7",
+      "dest_warp_id": 1
     },
     {
-      "x": 12,
-      "y": 1,
+      "x": 5,
+      "y": 20,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE49_PAGODA_P8",
-      "dest_warp_id": 0
+      "dest_map": "MAP_ROUTE49_PAGODA_P9",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

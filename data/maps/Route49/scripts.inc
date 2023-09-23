@@ -253,10 +253,12 @@ Route49_Combate_Andra_Texto_1:
 
 Route49_Combate_Andra_Texto_2:
 .string "ANDRA: ¿Cómo sabes que la he pasado?\n"
-	.string "He consumido esa extraña piedra\l"
-	.string "dorada, uno de mis POKÉMON reaccionó a\l"
-	.string "ella, no tengo pruebas de que cumplí el\l"
-	.string "reto.$"
+	.string "Es cierto que ese POKÉMON dejó caer\l"
+	.string "una extraña piedra dorada, después de\l"
+	.string "derrotarla. Sin embargo, uno de mis\l"
+	.string "POKÉMON reaccionó a ella, y fue\l"
+	.string "consumida. No tengo pruebas de que\l"
+	.string "cumplí el reto.$"
 
 Route49_Combate_Andra_Texto_3:
 .string "PENSADOR: Tenemos una conexión muy\n"

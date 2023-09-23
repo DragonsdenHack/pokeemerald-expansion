@@ -17,7 +17,20 @@
 
   ],
   "warp_events": [
-
+    {
+      "x": 22,
+      "y": 19,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE49_PAGODA_P7",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE49_PAGODA_P5",
+      "dest_warp_id": 1
+    }
   ],
   "coord_events": [
 
