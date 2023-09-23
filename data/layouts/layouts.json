@@ -14124,6 +14124,30 @@
       "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_Pagoda_P5/border.bin",
       "blockdata_filepath": "data/layouts/Route49_Pagoda_P5/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_PAGODA_P6",
+      "name": "Route49_Pagoda_P6_Layout",
+      "width": 25,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_Pagoda_P6/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_Pagoda_P6/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_PAGODA_P7",
+      "name": "Route49_Pagoda_P7_Layout",
+      "width": 25,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_Pagoda_P7/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_Pagoda_P7/map.bin"
     }
   ]
 }

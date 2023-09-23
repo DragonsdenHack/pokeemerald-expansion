@@ -2744,3 +2744,7 @@ Text_EVChecker_3:
 	.include "data/maps/Route49_Pagoda_P4/scripts.inc"
 
 	.include "data/maps/Route49_Pagoda_P5/scripts.inc"
+
+	.include "data/maps/Route49_Pagoda_P6/scripts.inc"
+
+	.include "data/maps/Route49_Pagoda_P7/scripts.inc"
