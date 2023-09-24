@@ -17353,6 +17353,16 @@ Ruinas_Text_MontaneroPostBattle:
 	.string "plagadas de NATU, deben de tener algo\l"
 	.string "que ver!$"
 
+ViasSur_Text_ObreroIntro:
+.string "¡Menuda paliza!$"
+
+ViasSur_Text_ObreroDefeated:
+.string "¡Menuda paliza!$"
+
+ViasSur_Text_ObreroPostBattle:
+.string "¡Menuda paliza!$"
+
+
 
 
 

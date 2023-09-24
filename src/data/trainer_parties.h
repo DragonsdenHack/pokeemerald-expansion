@@ -30315,12 +30315,36 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER220[] = {
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER221[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .iv = 20,
+    .lvl = 91,
+    .species = SPECIES_GOLEM,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ROCK_BLAST, MOVE_EARTHQUAKE, MOVE_EXPLOSION, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 91,
+    .species = SPECIES_GOLEM,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_ROCK_BLAST, MOVE_EARTHQUAKE, MOVE_EXPLOSION, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 91,
+    .species = SPECIES_GOLEM,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_ROCK_BLAST, MOVE_EARTHQUAKE, MOVE_EXPLOSION, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 91,
+    .species = SPECIES_GOLEM,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_ROCK_BLAST, MOVE_EARTHQUAKE, MOVE_EXPLOSION, MOVE_NONE}
     }
 
 };
