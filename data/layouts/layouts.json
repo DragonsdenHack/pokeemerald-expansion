@@ -14172,6 +14172,42 @@
       "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route49_Pagoda_P9/border.bin",
       "blockdata_filepath": "data/layouts/Route49_Pagoda_P9/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_PAGODA_P10",
+      "name": "Route49_Pagoda_P10_Layout",
+      "width": 25,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_Pagoda_P10/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_Pagoda_P10/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_PAGODA_P11",
+      "name": "Route49_Pagoda_P11_Layout",
+      "width": 25,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_Pagoda_P11/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_Pagoda_P11/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROUTE49_PAGODA_P12",
+      "name": "Route49_Pagoda_P12_Layout",
+      "width": 25,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_bell_tower",
+      "border_filepath": "data/layouts/Route49_Pagoda_P12/border.bin",
+      "blockdata_filepath": "data/layouts/Route49_Pagoda_P12/map.bin"
     }
   ]
 }
