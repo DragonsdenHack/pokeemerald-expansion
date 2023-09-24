@@ -312,6 +312,7 @@ const bool8 SpeciesHasGenderDifference[NUM_SPECIES] =
     [SPECIES_FRILLISH] = TRUE,
     [SPECIES_JELLICENT] = TRUE,
     [SPECIES_PYROAR] = TRUE,
+    [SPECIES_DUNSPARCE_OLD] = TRUE,
 };
 
 #include "data/pokemon_graphics/front_pic_coordinates.h"
