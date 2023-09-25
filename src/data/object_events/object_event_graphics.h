@@ -635,6 +635,10 @@ const u16 gObjectEventPic_Devon2[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventPic_Devon3[] = INCBIN_U16("graphics/object_events/pics/people/devon3.4bpp");
 const u16 gObjectEventPic_Devon4[] = INCBIN_U16("graphics/object_events/pics/people/devon4.4bpp");
 
+const u16 gObjectEventPic_Cultista2[] = INCBIN_U16("graphics/object_events/pics/people/cultista2.4bpp");
+const u16 gObjectEventPic_MaestroPagoda[] = INCBIN_U16("graphics/object_events/pics/people/maestro_pagoda.4bpp");
+const u16 gObjectEventPic_LiderSete[] = INCBIN_U16("graphics/object_events/pics/people/lidersete.4bpp");
+
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
 const u16 gObjectEventPal_Rockets[] = INCBIN_U16("graphics/object_events/pics/people/prota.gbapal");
@@ -747,3 +751,7 @@ const u16 gObjectEventPal_Devon1[] = INCBIN_U16("graphics/object_events/palettes
 const u16 gObjectEventPal_Devon2[] = INCBIN_U16("graphics/object_events/palettes/devon2.gbapal");
 const u16 gObjectEventPal_Devon3[] = INCBIN_U16("graphics/object_events/palettes/devon3.gbapal");
 const u16 gObjectEventPal_Devon4[] = INCBIN_U16("graphics/object_events/palettes/devon4.gbapal");
+
+const u16 gObjectEventPal_Cultista2[] = INCBIN_U16("graphics/object_events/palettes/cultista2.gbapal");
+const u16 gObjectEventPal_MaestroPagoda[] = INCBIN_U16("graphics/object_events/palettes/maestro_pagoda.gbapal");
+const u16 gObjectEventPal_LiderSete[] = INCBIN_U16("graphics/object_events/palettes/lidersete.gbapal");

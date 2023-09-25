@@ -536,9 +536,9 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_CRIADORAJOHTO 0x1188
 #define OBJ_EVENT_PAL_TAG_MILTANK 0x1189
 #define OBJ_EVENT_PAL_TAG_BLACEPHALON 0x118A
-
-
-
+#define OBJ_EVENT_PAL_TAG_CULTO2 0x118B
+#define OBJ_EVENT_PAL_TAG_MAESTRO_PAGODA 0x118C
+#define OBJ_EVENT_PAL_TAG_LIDERSETE 0x118D
 
 
 #define OBJ_EVENT_PAL_TAG_YASMINA 0x1190
@@ -698,7 +698,9 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Devon3, OBJ_EVENT_PAL_TAG_DEVON3},
 	{gObjectEventPal_Devon4, OBJ_EVENT_PAL_TAG_DEVON4},
 	{gObjectEventPal_Blacephalon, OBJ_EVENT_PAL_TAG_BLACEPHALON},
-	
+	{gObjectEventPal_Cultista2, OBJ_EVENT_PAL_TAG_CULTO2},
+	{gObjectEventPal_MaestroPagoda, OBJ_EVENT_PAL_TAG_MAESTRO_PAGODA},
+	{gObjectEventPal_LiderSete, OBJ_EVENT_PAL_TAG_LIDERSETE},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
