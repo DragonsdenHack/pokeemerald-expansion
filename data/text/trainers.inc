@@ -17354,12 +17354,113 @@ Ruinas_Text_MontaneroPostBattle:
 	.string "que ver!$"
 
 ViasSur_Text_ObreroIntro:
-.string "¡Menuda paliza!$"
+.string "¿Eres tú al que han enviado? ¡No\n"
+	.string "pareces tan fuerte!$"
 
 ViasSur_Text_ObreroDefeated:
-.string "¡Menuda paliza!$"
+.string "¡Las apariencias engañan!$"
 
 ViasSur_Text_ObreroPostBattle:
+.string "Aún queda un largo trecho por el sur, y\n"
+	.string "después al oeste. Encontrarás a\l"
+	.string "algunos de los nuestros más adelante.$"
+
+ViasSur2_Text_ObreroIntro:
+.string "El proyecto MAGNETOTRÉN no puede\n"
+	.string "retrasarse más. Hay importantes\l"
+	.string "acuerdos firmados entre SILPH y TORRE\l"
+	.string "RADIO.$"
+
+ViasSur2_Text_ObreroDefeated:
+.string "¡Vas en serio!$"
+
+ViasSur2_Text_ObreroPostBattle:
+.string "Cuando ese POKÉMON esté bajo control,\n"
+	.string "nada impedirá terminar de unir TRIGAL\l"
+	.string "con AZAFRÁN. Una nueva era comienza.$"
+
+ViasSur3_Text_ObreroIntro:
+.string "Mis POKÉMON ROCA están deseando\n"
+	.string "encontrarse con esa bestia. ¡Necesito\l"
+	.string "que calienten!$"
+
+ViasSur3_Text_ObreroDefeated:
+.string "¡Era calentar, no mandarme al CENTRO\n"
+	.string "PKMN!$"
+
+ViasSur3_Text_ObreroPostBattle:
+.string "Aunque lleve POKÉMON ROCA y ELÉCTRICO\n"
+	.string "conmigo, no me fío ni un pelo. Acaba de\l"
+	.string "pasar un ENTRENADOR con un par de\l"
+	.string "POKÉMON VOLADOR, y su presencia era\l"
+	.string "muy poderosa.$"
+
+Route49_Pagoda_P4_Text_Pensador1Intro:
+.string "Continué entrenando a mi DUNSPARCE en\n"
+	.string "lugar de darle una PIEDRA DORADA.\l"
+	.string "Acabó evolucionando en otro POKÉMON.$"
+
+Route49_Pagoda_P4_Text_Pensador1Defeated:
+.string "¡Cuánta energía!$"
+
+Route49_Pagoda_P4_Text_Pensador1PostBattle:
+.string "Solo los elegidos pueden convertir un\n"
+	.string "DUNSPARCE normal a su forma sagrada\l"
+	.string "por nivel, para obtener a esta última es\l"
+	.string "necesario hacer uso de la PIEDRA\l"
+	.string "DORADA. En caso contrario, DUNSPARCE\l"
+	.string "evolucionará en su forma carente de\l"
+	.string "esencia: DUDUNSPARCE.$"
+
+Route49_Pagoda_P4_Text_Pensador2Intro:
+.string "¿Qué sabes acerca de los antiguos\n"
+	.string "POKÉMON de JOHTO?$"
+
+Route49_Pagoda_P4_Text_Pensador2Defeated:
+.string "¡Veo que sabes mucho!$"
+
+Route49_Pagoda_P4_Text_Pensador2PostBattle:
+.string "Hace siglos muchos de los POKÉMON de\n"
+	.string "JOHTO podían evolucionar, otros\l"
+	.string "contaban incluso con otras formas. Se\l"
+	.string "cree que cambios adaptativos y\l"
+	.string "climáticos provocaron la desaparición\l"
+	.string "de estos POKÉMON.$"
+
+Route49_Pagoda_P5_Text_Pensador1Intro:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P5_Text_Pensador1Defeated:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P5_Text_Pensador1PostBattle:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P6_Text_Pensador1Intro:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P6_Text_Pensador1Defeated:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P6_Text_Pensador1PostBattle:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P6_Text_Pensador2Intro:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P6_Text_Pensador2Defeated:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P6_Text_Pensador2PostBattle:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P7_Text_Pensador1Intro:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P7_Text_Pensador1Defeated:
+.string "¡Menuda paliza!$"
+
+Route49_Pagoda_P7_Text_Pensador1PostBattle:
 .string "¡Menuda paliza!$"
 
 

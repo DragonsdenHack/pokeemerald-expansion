@@ -183,7 +183,7 @@
   "coord_events": [
     {
       "type": "trigger",
-      "x": 10,
+      "x": 12,
       "y": 56,
       "elevation": 0,
       "var": "VAR_VERDANTURF_TOWN_STATE",

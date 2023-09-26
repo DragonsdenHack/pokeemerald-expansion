@@ -23995,64 +23995,64 @@
             "encounter_rate": 5,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_FARFETCHD"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_FEAROW"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_RATICATE"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_GIRAFARIG"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_NOCTOWL"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_STANTLER"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 55,
+                "max_level": 75,
+                "species": "SPECIES_TAUROS"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_JUMPLUFF"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_MADAAMU"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_WYRDEER"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_BOOHOO"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
-                "species": "SPECIES_NONE"
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FARIGIRAF"
               }
             ]
           }
@@ -27326,9 +27326,9 @@
                 "species": "SPECIES_ARIADOS"
               },
               {
-                "min_level": 69,
-                "max_level": 74,
-                "species": "SPECIES_SHUCKLE"
+                "min_level": 49,
+                "max_level": 64,
+                "species": "SPECIES_VENIPEDE"
               },
               {
                 "min_level": 70,
@@ -27358,7 +27358,7 @@
               {
                 "min_level": 75,
                 "max_level": 80,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_PURAKKUSU"
               }
             ]
           },
@@ -33087,6 +33087,765 @@
                 "min_level": 35,
                 "max_level": 55,
                 "species": "SPECIES_KINGDRA"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE50",
+          "base_label": "gRoute500",
+          "land_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_FARFETCHD"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_RATICATE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_GIRAFARIG"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_NOCTOWL"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_STANTLER"
+              },
+              {
+                "min_level": 55,
+                "max_level": 75,
+                "species": "SPECIES_TAUROS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_JUMPLUFF"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_MADAAMU"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_WYRDEER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_BOOHOO"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FARIGIRAF"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE49",
+          "base_label": "gRoute490",
+          "land_mons": {
+            "encounter_rate": 6,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_THROH"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SAWK"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_MIENFOO"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_MIENSHAO"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SKIDDO"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_GOGOAT"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_FOMANTIS"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_FOMANTIS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_LURANTIS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_FOMANTIS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_FOMANTIS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_FOMANTIS"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_ROUTE50_NORTE",
+          "base_label": "gRoute50_Norte0",
+          "land_mons": {
+            "encounter_rate": 6,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_KLEFKI"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_MORGREM"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_DWEBBLE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_CRUSTLE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SIGILYPH"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SIGILYPH"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SCRAGGY"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SCRAGGY"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SCRAGGY"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SCRAGGY"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_S1",
+          "base_label": "gTorreDunsparce_S10",
+          "land_mons": {
+            "encounter_rate": 6,
+            "mons": [
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SANDILE"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_WOOBAT"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_KROKOROK"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_WOOBAT"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_ELGYEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BEHEEYEM"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_MORPEKO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_MORPEKO_HANGRY"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_S2",
+          "base_label": "gTorreDunsparce_S20",
+          "land_mons": {
+            "encounter_rate": 6,
+            "mons": [
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SANDILE"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_WOOBAT"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_KROKOROK"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_WOOBAT"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_ELGYEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BEHEEYEM"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_MORPEKO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_MORPEKO_HANGRY"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_S3",
+          "base_label": "gTorreDunsparce_S30",
+          "land_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_SANDILE"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_WOOBAT"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_KROKOROK"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_WOOBAT"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_ELGYEM"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BEHEEYEM"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_MORPEKO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_MORPEKO_HANGRY"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 40,
+                "max_level": 60,
+                "species": "SPECIES_IMPIDIMP"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_DUDUNSPARCE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_S4",
+          "base_label": "gTorreDunsparce_S40",
+          "land_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_DUDUNSPARCE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_SPIRITOMB"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_SPIRITOMB"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_SPIRITOMB"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_P1",
+          "base_label": "gTorreDunsparce_P10",
+          "land_mons": {
+            "encounter_rate": 6,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_KOMALA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DEDENNE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_INDEEDEE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_INDEEDEE_FEMALE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_P2",
+          "base_label": "gTorreDunsparce_P20",
+          "land_mons": {
+            "encounter_rate": 0,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_KOMALA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DEDENNE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_INDEEDEE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_INDEEDEE_FEMALE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_P3",
+          "base_label": "gTorreDunsparce_P30",
+          "land_mons": {
+            "encounter_rate": 6,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_KOMALA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DEDENNE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_INDEEDEE"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_INDEEDEE_FEMALE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 65,
+                "species": "SPECIES_DUNSPARCE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_TORRE_DUNSPARCE_P4",
+          "base_label": "gTorreDunsparce_P40",
+          "land_mons": {
+            "encounter_rate": 6,
+            "mons": [
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE_OLD_PREEVO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE_OLD_PREEVO"
+              },
+              {
+                "min_level": 5,
+                "max_level": 5,
+                "species": "SPECIES_DUNSPARCE_OLD_PREEVO"
               }
             ]
           }

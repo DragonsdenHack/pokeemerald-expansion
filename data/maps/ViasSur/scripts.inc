@@ -14,4 +14,8 @@ release
 end
 
 ViasSur_Primer_Obrero_Texto_1:
-.string "...$"
+.string "Ese POKÉMON es tan ágil y escurridizo\n"
+	.string "que nadie ha podido verlo con claridad,\l"
+	.string "pero damos por hecho que es TIPO\l"
+	.string "VOLADOR.$"
+	

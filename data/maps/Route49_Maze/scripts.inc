@@ -142,3 +142,19 @@ Route49MazeDocumento_Text_101:
 	.string "y transportarse a ellos, tal y como si\l"
 	.string "estuviera allí como un mero\l"
 	.string "observador.$"
+
+Route49_Maze_Noveno_Pensador::
+lock
+faceplayer
+msgbox Route49_Maze_Noveno_Pensador_Texto_1 MSGBOX_NPC
+release
+end
+
+Route49_Maze_Noveno_Pensador_Texto_1:
+.string "La columna que sostiene la TORRE DUN es\n"
+	.string "extremadamente gruesa y resistente,\l"
+	.string "más que las otras pagodas de JOHTO.\l"
+	.string "Fue creada así con el único objetivo de\l"
+	.string "predicar con su mensaje: cuanto más\l"
+	.string "trabajada esté la base, más alto\l"
+	.string "podrás llegar.$"

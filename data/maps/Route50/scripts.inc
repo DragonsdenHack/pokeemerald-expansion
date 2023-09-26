@@ -57,7 +57,7 @@ playse SE_MUGSHOT
 applymovement 3, Route50_Encuentro_Dunsparce_Move_7
 waitmovement 0x0
 waitse
-trainerbattle_no_intro TRAINER_ANDRA_1, Route50_Encuentro_Dunsparce_Texto_4
+trainerbattle_no_intro TRAINER_TRAINER_137, Route50_Encuentro_Dunsparce_Texto_4
 playmoncry SPECIES_DUNSPARCE, CRY_MODE_ENCOUNTER
 msgbox Route50_Encuentro_Dunsparce_Texto_4 MSGBOX_DEFAULT
 waitmoncry
@@ -181,7 +181,7 @@ Route50_Encuentro_Dunsparce_Texto_7:
 	.string "detenidamente...$"
 
 Route50_Encuentro_Dunsparce_Texto_8:
-	.string "¡¡{PLAYER} obtuvo un PIEDRA DORADA!!$"
+	.string "¡¡{PLAYER} obtuvo una PIEDRA DORADA!!$"
 
 
 Route50_Dragonite::

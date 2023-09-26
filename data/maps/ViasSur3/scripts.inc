@@ -190,3 +190,24 @@ ViasSur3_Evento_Pegaso_Texto_9:
 	.string "deseo aguarles la fiesta, en una región\l"
 	.string "cada vez más predecible.$"
 
+ViasSur3_EventScript_Obrero::
+	trainerbattle_single TRAINER_TRAINER_223, ViasSur3_Text_ObreroIntro, ViasSur3_Text_ObreroDefeated
+	msgbox ViasSur3_Text_ObreroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+
+ViasSur3_Primer_Obrero::
+lock
+faceplayer
+msgbox ViasSur3_Primer_Obrero_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+ViasSur3_Primer_Obrero_Texto_1:
+.string "¿Quién era ese tío? Me ha despachado\n"
+	.string "en un instante usando un ave extraña.\l"
+	.string "Y yo que me sentía seguro con mis TIPO\l"
+	.string "ROCA, no quiero imaginar qué hubiera\l"
+	.string "pasado en caso de aparecer ese otro\l"
+	.string "ave que andamos buscando...$"
+

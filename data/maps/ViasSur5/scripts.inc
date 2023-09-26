@@ -98,6 +98,8 @@ playse SE_M_FLY
 removeobject 1
 delay 20
 msgbox ViasSur5_Combate_Pegaso_Texto_25 MSGBOX_AUTOCLOSE
+delay 20
+msgbox ViasSur5_Combate_Pegaso_Texto_26 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
 setvar VAR_PACIFIDLOG_TOWN_STATE, 4
 addvar VAR_UNUSED_0x40F7, 1
@@ -277,6 +279,9 @@ ViasSur5_Combate_Pegaso_Texto_23:
 ViasSur5_Combate_Pegaso_Texto_24:
 .string "Contigo JOHTO está en buenas manos, no\n"
 	.string "me cabe duda.$"
+
+ViasSur5_Combate_Pegaso_Texto_26:
+.string "(Mi misión aquí parece haber terminado).$"
 
 Misiones_DLC_Fin_Llamada_Giovanni_Zapdos::
 delay 30
