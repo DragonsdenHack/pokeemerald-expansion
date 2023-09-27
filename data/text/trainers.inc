@@ -17428,13 +17428,16 @@ Route49_Pagoda_P4_Text_Pensador2PostBattle:
 	.string "de estos POKÉMON.$"
 
 Route49_Pagoda_P5_Text_Pensador1Intro:
-.string "¡Menuda paliza!$"
+.string "Aún no has llegado ni a la mitad del\n"
+	.string "camino.$"
 
 Route49_Pagoda_P5_Text_Pensador1Defeated:
-.string "¡Menuda paliza!$"
+.string "No dejes de respirar.$"
 
 Route49_Pagoda_P5_Text_Pensador1PostBattle:
-.string "¡Menuda paliza!$"
+.string "No me refería solo a la mitad de la\n"
+	.string "pagoda, me refería a tu aventura en\l"
+	.string "general.$"
 
 Route49_Pagoda_P6_Text_Pensador1Intro:
 .string "¡Menuda paliza!$"

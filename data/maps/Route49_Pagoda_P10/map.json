@@ -31,7 +31,7 @@
   "warp_events": [
     {
       "x": 18,
-      "y": 20,
+      "y": 19,
       "elevation": 0,
       "dest_map": "MAP_ROUTE49_PAGODA_P9",
       "dest_warp_id": 0
