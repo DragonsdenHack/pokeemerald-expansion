@@ -17440,31 +17440,49 @@ Route49_Pagoda_P5_Text_Pensador1PostBattle:
 	.string "general.$"
 
 Route49_Pagoda_P6_Text_Pensador1Intro:
-.string "¡Menuda paliza!$"
+.string "¿Quieres ver a nuestro GRAN MAESTRO?$"
 
 Route49_Pagoda_P6_Text_Pensador1Defeated:
-.string "¡Menuda paliza!$"
+.string "Parece que vas en serio.$"
 
 Route49_Pagoda_P6_Text_Pensador1PostBattle:
-.string "¡Menuda paliza!$"
+.string "El equipo de nuestro GRAN MAESTRO está\n"
+	.string "lleno de poderosos POKÉMON ANTIGUOS,\l"
+	.string "puede que por el mero hecho de haber\l"
+	.string "nacido en esta época, ya no tengas\l"
+	.string "oportunidad. Aunque limitar a alguien\l"
+	.string "por el ambiente en el que creció va en\l"
+	.string "contra de nuestra filosofía.$"
 
 Route49_Pagoda_P6_Text_Pensador2Intro:
-.string "¡Menuda paliza!$"
+.string "Cuando nos consideramos a nosotros\n"
+	.string "mismos como un objeto, llegamos a la\l"
+	.string "conclusión de que no podemos movernos,\l"
+	.string "detenernos o cambiar de dirección a\l"
+	.string "menos que una fuerza externa actúe\l"
+	.string "sobre nosotros.$"
 
 Route49_Pagoda_P6_Text_Pensador2Defeated:
-.string "¡Menuda paliza!$"
+.string "Ese poder. ¿De dónde viene?$"
 
 Route49_Pagoda_P6_Text_Pensador2PostBattle:
-.string "¡Menuda paliza!$"
+.string "¡No te imaginas, joven ENTRENADOR, todo\n"
+	.string "lo que este mundo aún te reserva!$"
 
 Route49_Pagoda_P7_Text_Pensador1Intro:
-.string "¡Menuda paliza!$"
+.string "Esa chica y tú habéis llamado la\n"
+	.string "atención de nuestro gran maestro. Eso\l"
+	.string "es algo muy raro.$"
 
 Route49_Pagoda_P7_Text_Pensador1Defeated:
-.string "¡Menuda paliza!$"
+.string "Tan raro como la flor perfecta...$"
 
 Route49_Pagoda_P7_Text_Pensador1PostBattle:
-.string "¡Menuda paliza!$"
+.string "El paso del tiempo ha degradado el lugar\n"
+	.string "de descanso del DRAGÓN SAGRADO, pero\l"
+	.string "desde aquí seguimos honrándole con la\l"
+	.string "misma intensidad del primer día.$"
+	
 
 
 

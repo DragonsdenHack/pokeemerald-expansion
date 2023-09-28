@@ -39,7 +39,8 @@ release
 end
 
 Route49_Pagoda_P7_Tercer_Pensador_Texto_1:
-.string "...$"
+.string "Es muy difícil someter a la obediencia a\n"
+	.string "aquel que no busca mandar.$"
 
 Route49_Pagoda_P7_Cuarto_Pensador::
 lock
@@ -50,7 +51,7 @@ end
 
 Route49_Pagoda_P7_Cuarto_Pensador_Texto_1:
 .string "En sus tratos con el hombre, el Destino\n"
-	.string "nunca cancelaba sus cuentas.$"
+	.string "nunca cancela sus cuentas.$"
 
 Route49_Pagoda_P7_Quinto_Pensador::
 lock
@@ -60,7 +61,12 @@ release
 end
 
 Route49_Pagoda_P7_Quinto_Pensador_Texto_1:
-.string "...$"
+.string "Gracias a la PIEDRA DORADA del DRAGÓN\n"
+	.string "SAGRADO, los antiguos POKÉMON de\l"
+	.string "JOHTO no se han perdido para siempre.\l"
+	.string "Además, reacciona ante ciertos\l"
+	.string "POKÉMON, convirtiéndolos en formas\l"
+	.string "exóticas.$"
 
 Route49_Pagoda_P7_Sexto_Pensador::
 lock
@@ -70,7 +76,10 @@ release
 end
 
 Route49_Pagoda_P7_Sexto_Pensador_Texto_1:
-.string "...$"
+.string "La PIEDRA DORADA reacciona con\n"
+	.string "DUNSPARCE, pero el POKÉMON resultante\l"
+	.string "puede evolucionar una vez más, solo\l"
+	.string "que muy pocos saben como.$"
 
 Route49_Pagoda_P7_EventScript_Pensador_1::
 	trainerbattle_single TRAINER_TRAINER_229, Route49_Pagoda_P7_Text_Pensador1Intro, Route49_Pagoda_P7_Text_Pensador1Defeated

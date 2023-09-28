@@ -11,12 +11,14 @@ release
 end
 
 Route49_Pagoda_P6_Primer_Pensador_Texto_1:
-.string "...$"
+.string "Lo que los tontos llaman -perder el\n"
+	.string "tiempo- es casi siempre la mejor\l"
+	.string "inversión.$"
 
 Route49_Pagoda_P6_Segundo_Pensador::
 lock
 faceplayer
-msgbox Route49_Pagoda_P6_Primer_Pensador_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route49_Pagoda_P6_Segundo_Pensador_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -35,7 +37,9 @@ release
 end
 
 Route49_Pagoda_P6_Tercer_Pensador_Texto_1:
-.string "...$"
+.string "La PIEDRA DORADA que genera el DRAGÓN\n"
+	.string "SAGRADO es, en cierto modo, parecida a\l"
+	.string "la CENIZA SAGRADA de HO-OH.$"
 
 Route49_Pagoda_P6_Cuarto_Pensador::
 lock

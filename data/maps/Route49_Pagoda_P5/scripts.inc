@@ -15,7 +15,7 @@ Route49_Pagoda_P5_Primer_Pensador_Texto_1:
 Route49_Pagoda_P5_Segundo_Pensador::
 lock
 faceplayer
-msgbox Route49_Pagoda_P5_Primer_Pensador_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route49_Pagoda_P5_Segundo_Pensador_Texto_1 MSGBOX_AUTOCLOSE
 release
 end
 
@@ -137,10 +137,10 @@ Route49_Pagoda_P5_Encuentro_Texto_3:
 	.string "me temo que se perderá, la mayoría de\l"
 	.string "pensadores apenas tienen constancia\l"
 	.string "de que existe, ni hablemos del resto de\l"
-	.string "ciudadanos. La brecha que separa esta\l"
-	.string "JOHTO de la actual es demasiado\l"
-	.string "grande, no precisamente por su\l"
-	.string "montaña.$"
+	.string "ciudadanos. La brecha entre esta JOHTO\l"
+	.string "y la actual es demasiado grande, no\l"
+	.string "precisamente por la montaña que las\l"
+	.string "separa.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_4:
 .string "… …$"

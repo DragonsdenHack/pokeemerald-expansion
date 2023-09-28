@@ -9654,7 +9654,7 @@ const struct Item gItems[] =
     },
     [ITEM_PIEDRA_SAGRADA] =
     {
-        .name = _("Thunder Stone"),
+        .name = _("Piedra Dorada"),
         .itemId = ITEM_PIEDRA_SAGRADA,
         .price = 9800,
         .description = sThunderStoneDesc,

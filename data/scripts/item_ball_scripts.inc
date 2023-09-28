@@ -2600,5 +2600,9 @@ PassRoute47_Event_Script_Colmagudo::
 finditem ITEM_RAZOR_FANG
    end
 
+Route49PagodaP5_Event_Script_PSagrada::
+finditem ITEM_PIEDRA_SAGRADA
+   end
+
 
 
