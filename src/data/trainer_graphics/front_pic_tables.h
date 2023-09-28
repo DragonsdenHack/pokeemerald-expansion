@@ -216,6 +216,10 @@ const struct MonCoords gTrainerFrontPicCoords[] =
 	[TRAINER_PIC_FAKEMON5] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_FAKEMON6] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_FAKEMON7] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_CULTISTA2] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_MAESTRO_PAGODA] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_LIDERSETE] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_EUSINE] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -438,6 +442,10 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
 	TRAINER_SPRITE(FAKEMON5, gTrainerFrontPic_Fakemon5, 0x800),
 	TRAINER_SPRITE(FAKEMON6, gTrainerFrontPic_Fakemon6, 0x800),
 	TRAINER_SPRITE(FAKEMON7, gTrainerFrontPic_Fakemon7, 0x800),
+	TRAINER_SPRITE(EUSINE, gTrainerFrontPic_Eusine, 0x800),
+	TRAINER_SPRITE(CULTISTA2, gTrainerFrontPic_Cultista2, 0x800),
+	TRAINER_SPRITE(LIDERSETE, gTrainerFrontPic_LiderSete, 0x800),
+	TRAINER_SPRITE(MAESTRO_PAGODA, gTrainerFrontPic_MaestroPagoda, 0x800),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -660,4 +668,8 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
 	TRAINER_PAL(FAKEMON5, gTrainerPalette_Fakemon5),
 	TRAINER_PAL(FAKEMON6, gTrainerPalette_Fakemon6),
 	TRAINER_PAL(FAKEMON7, gTrainerPalette_Fakemon7),
+	TRAINER_PAL(EUSINE, gTrainerPalette_Eusine),
+	TRAINER_PAL(CULTISTA2, gTrainerPalette_Cultista2),
+	TRAINER_PAL(LIDERSETE, gTrainerPalette_LiderSete),
+	TRAINER_PAL(MAESTRO_PAGODA, gTrainerPalette_MaestroPagoda),
 };

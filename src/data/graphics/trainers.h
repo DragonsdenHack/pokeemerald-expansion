@@ -638,6 +638,18 @@ const u32 gTrainerPalette_Fakemon6[] = INCBIN_U32("graphics/trainers/palettes/fa
 const u32 gTrainerFrontPic_Fakemon7[] = INCBIN_U32("graphics/trainers/front_pics/fakemon7.4bpp.lz");
 const u32 gTrainerPalette_Fakemon7[] = INCBIN_U32("graphics/trainers/palettes/fakemon7.gbapal.lz");
 
+const u32 gTrainerFrontPic_Cultista2[] = INCBIN_U32("graphics/trainers/front_pics/cultista2_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Cultista2[] = INCBIN_U32("graphics/trainers/palettes/cultista2.gbapal.lz");
+
+const u32 gTrainerFrontPic_LiderSete[] = INCBIN_U32("graphics/trainers/front_pics/lidersete_front_pic.4bpp.lz");
+const u32 gTrainerPalette_LiderSete[] = INCBIN_U32("graphics/trainers/palettes/lidersete.gbapal.lz");
+
+const u32 gTrainerFrontPic_MaestroPagoda[] = INCBIN_U32("graphics/trainers/front_pics/maestro_pagoda_front_pic.4bpp.lz");
+const u32 gTrainerPalette_MaestroPagoda[] = INCBIN_U32("graphics/trainers/palettes/maestro_pagoda.gbapal.lz");
+
+const u32 gTrainerFrontPic_Eusine[] = INCBIN_U32("graphics/trainers/front_pics/eusine_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Eusine[] = INCBIN_U32("graphics/trainers/palettes/eusine.gbapal.lz");
+
 ///////////////////////
 
 const u32 gTrainerFrontPic_RocketGruntPlayer[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_player_front_pic.4bpp.lz");

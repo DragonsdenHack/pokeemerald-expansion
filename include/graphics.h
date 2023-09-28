@@ -8009,6 +8009,10 @@ extern const u32 gTrainerFrontPic_Fakemon4[];
 extern const u32 gTrainerFrontPic_Fakemon5[];
 extern const u32 gTrainerFrontPic_Fakemon6[];
 extern const u32 gTrainerFrontPic_Fakemon7[];
+extern const u32 gTrainerFrontPic_Cultista2[];
+extern const u32 gTrainerFrontPic_MaestroPagoda[];
+extern const u32 gTrainerFrontPic_LiderSete[];
+extern const u32 gTrainerFrontPic_Eusine[];
 
 
 extern const u32 gTrainerFrontPic_Valeria[];
@@ -8231,6 +8235,11 @@ extern const u32 gTrainerPalette_Fakemon4[];
 extern const u32 gTrainerPalette_Fakemon5[];
 extern const u32 gTrainerPalette_Fakemon6[];
 extern const u32 gTrainerPalette_Fakemon7[];
+extern const u32 gTrainerPalette_Cultista2[];
+extern const u32 gTrainerPalette_MaestroPagoda[];
+extern const u32 gTrainerPalette_LiderSete[];
+extern const u32 gTrainerPalette_Eusine[];
+
 
 extern const u8 gTrainerBackPic_Brendan[];
 extern const u8 gTrainerBackPic_May[];

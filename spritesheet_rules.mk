@@ -1014,6 +1014,9 @@ $(OBJEVENTGFXDIR)/people/glastrier.4bpp: %.4bpp: %.png
 	
 $(OBJEVENTGFXDIR)/people/guzzlord.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
+	
+$(OBJEVENTGFXDIR)/people/blacephalon.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4	
 
 $(OBJEVENTGFXDIR)/people/Nihilego.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8
@@ -1028,6 +1031,15 @@ $(OBJEVENTGFXDIR)/people/devon3.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/devon4.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/cultista2.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
+	
+$(OBJEVENTGFXDIR)/people/maestro_pagoda.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4	
+
+$(OBJEVENTGFXDIR)/people/lidersete.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	
 
 $(OBJEVENTGFXDIR)/pokemon/azumarill.4bpp: %.4bpp: %.png

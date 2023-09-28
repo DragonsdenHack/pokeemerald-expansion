@@ -233,6 +233,10 @@
 #define TRAINER_PIC_FAKEMON5			  213
 #define TRAINER_PIC_FAKEMON6			  214
 #define TRAINER_PIC_FAKEMON7			  215
+#define TRAINER_PIC_CULTISTA2			  216
+#define TRAINER_PIC_MAESTRO_PAGODA        217
+#define TRAINER_PIC_LIDERSETE             218
+#define TRAINER_PIC_EUSINE				  219
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
