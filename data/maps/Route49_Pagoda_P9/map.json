@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE49_PAGODA_P9",
   "name": "Route49_Pagoda_P9",
   "layout": "LAYOUT_ROUTE49_PAGODA_P9",
-  "music": "633",
+  "music": "456",
   "region_map_section": "MAPSEC_ARTISAN_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route49_Pagoda_P9_Dialogo_Maestro",
       "flag": "0"
     }
   ],
@@ -45,7 +45,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_VERDANTURF_TOWN_STATE",
+      "var_value": "11",
+      "script": "Route49_Pagoda_P9_Combate_Maestro"
+    }
   ],
   "bg_events": [
 

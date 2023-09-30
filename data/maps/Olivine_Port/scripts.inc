@@ -114,7 +114,7 @@ waitmovement 0x0
 playfanfare MUS_OBTAIN_ITEM
 msgbox OlivinePort_Barrera_Texto_3.1 MSGBOX_DEFAULT
 waitfanfare
-msgbox OlivinePort_Barrera_Texto_3 MSGBOX_NPC
+msgbox OlivinePort_Barrera_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 7, OlivinePort_Barrera_Move_3
 waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 144
@@ -131,7 +131,7 @@ applymovement 7, OlivinePort_Barrera_Move_2
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, OlivinePort_Barrera_Move_1.1
 waitmovement 0x0
-msgbox OlivinePort_Barrera_Texto_1 MSGBOX_NPC
+msgbox OlivinePort_Barrera_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, OlivinePort_Barrera_Move_4
 applymovement 7, OlivinePort_Barrera_Move_3
 waitmovement 0x0
@@ -143,7 +143,7 @@ lock
 applymovement OBJ_EVENT_ID_PLAYER, OlivinePort_Barrera_Move_1
 applymovement 7, OlivinePort_Barrera_Move_2
 waitmovement 0x0
-msgbox OlivinePort_Barrera_Texto_2 MSGBOX_NPC
+msgbox OlivinePort_Barrera_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 7, OlivinePort_Barrera_Move_3
 applymovement OBJ_EVENT_ID_PLAYER, OlivinePort_Barrera_Move_4
 waitmovement 0x0

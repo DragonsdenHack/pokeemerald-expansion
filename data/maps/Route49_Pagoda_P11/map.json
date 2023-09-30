@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE49_PAGODA_P11",
   "name": "Route49_Pagoda_P11",
   "layout": "LAYOUT_ROUTE49_PAGODA_P11",
-  "music": "633",
+  "music": "518",
   "region_map_section": "MAPSEC_ARTISAN_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_FOG_DIAGONAL",
@@ -45,7 +45,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NULL"
+    }
   ],
   "bg_events": [
 

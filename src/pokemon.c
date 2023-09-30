@@ -7708,6 +7708,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_SEVII:
         case TRAINER_CLASS_JOHTO:
         case TRAINER_CLASS_MAESTRO:
+        case TRAINER_CLASS_MAESTRO_TORRE:
             return 584;
         case TRAINER_CLASS_PROTON:
         case TRAINER_CLASS_RECLUTA:

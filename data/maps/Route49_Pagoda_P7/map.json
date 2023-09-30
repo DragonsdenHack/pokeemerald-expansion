@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_UNUSED_0x26A"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EUSINE",
@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_UNUSED_0x26A"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PENSADOR",
@@ -169,7 +169,7 @@
       "elevation": 0,
       "var": "VAR_VERDANTURF_TOWN_STATE",
       "var_value": "10",
-      "script": "NULL"
+      "script": "Route49_Pagoda_P7_Encuentro_Maestro"
     }
   ],
   "bg_events": [
