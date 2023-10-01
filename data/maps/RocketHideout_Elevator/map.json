@@ -20,16 +20,16 @@
     {
       "x": 1,
       "y": 5,
-      "elevation": 0,
-      "dest_map": "MAP_ROCKET_HIDEOUT_ELEVATOR",
-      "dest_warp_id": 0
+      "elevation": 3,
+      "dest_map": "MAP_NONE",
+      "dest_warp_id": 127
     },
     {
       "x": 2,
       "y": 5,
-      "elevation": 0,
-      "dest_map": "MAP_ROCKET_HIDEOUT_ELEVATOR",
-      "dest_warp_id": 0
+      "elevation": 3,
+      "dest_map": "MAP_NONE",
+      "dest_warp_id": 127
     }
   ],
   "coord_events": [
@@ -42,7 +42,7 @@
       "y": 2,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "RocketHideout_Elevator_EventScript_FloorSelect"
     }
   ]
 }
