@@ -23336,7 +23336,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER16[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER17[] = {
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 102,
     .species = SPECIES_DUNSPARCE_OLD,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 60, 60, 252, 60, 60},
@@ -23354,16 +23354,16 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER17[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_GOODRA_HISUI,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 60, 60, 252, 60, 60},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_ACID_ARMOR, MOVE_FLASH_CANNON, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT}
+    .moves = {MOVE_ACID_ARMOR, MOVE_STEEL_BEAM, MOVE_FLAMETHROWER, MOVE_THUNDERBOLT}
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 103,
     .species = SPECIES_EN,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {120, 252, 120, 252, 120, 120},
@@ -23372,7 +23372,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER17[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 103,
     .species = SPECIES_RAI,
     .heldItem = ITEM_LIGHT_CLAY,
     .evs = {120, 120, 120, 252, 252, 120},
@@ -23381,7 +23381,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER17[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 103,
     .species = SPECIES_SUI,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {120, 120, 120, 252, 252, 120},

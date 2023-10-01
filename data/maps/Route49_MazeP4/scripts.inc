@@ -198,7 +198,7 @@ setflag FLAG_HIDE_ROUTE_111_VICTOR_WINSTRATE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
 removeobject 6
 removeobject 5
-setvar VAR_VERDANTURF_TOWN_STATE, 11
+setvar VAR_VERDANTURF_TOWN_STATE, 17
 release
 end
 
@@ -217,6 +217,10 @@ walk_down
 walk_down
 walk_down
 walk_right
+walk_right
+walk_right
+walk_right
+walk_up
 walk_right
 walk_right
 walk_down
@@ -514,7 +518,7 @@ Route49_MazeP4_Dialogo_Anciano_Texto_1:
 	.string "señal será de que es puro.$"
 
 Route49MazeP4_EventScript_Sabio::
-	trainerbattle_single TRAINER_TRAINER_192, Route49MazeP4_Text_SabioIntro, Route49MazeP4_Text_SabioDefeated
+	trainerbattle_single TRAINER_TRAINER_193, Route49MazeP4_Text_SabioIntro, Route49MazeP4_Text_SabioDefeated
 	msgbox Route49MazeP4_Text_SabioPostBattle, MSGBOX_AUTOCLOSE
 	end
 

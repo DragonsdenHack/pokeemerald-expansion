@@ -120,10 +120,10 @@ Route49_Pagoda_P10_Combate_Maestro_Texto_10:
 .string "Cuando tú y tus POKÉMON reconozcáis la\n"
 	.string "realidad presente, recreándose a sí\l"
 	.string "misma perpetuamente, inmersa en una\l"
-	.string "danza de movimiento inexorable.$"
+	.string "danza de movimiento inexorable…$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_11:
-.string "Cuando lleguéis a ese punto, vuestras\n"
+.string "…cuando lleguéis a ese punto,vuestras\n"
 	.string "posibilidades serán infinitas.$"
 
 Route49_Pagoda_P10_Encuentro_Maestro::

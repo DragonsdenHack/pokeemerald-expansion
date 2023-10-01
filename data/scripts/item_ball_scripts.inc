@@ -2608,5 +2608,9 @@ Route49PagodaP7_Event_Script_CSagrada::
 finditem ITEM_SACRED_ASH
    end
 
+Route49PagodaP14_Event_Script_PSagrada::
+finditem ITEM_PIEDRA_SAGRADA
+   end
+
 
 

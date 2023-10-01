@@ -3,7 +3,7 @@ CianwoodEusineHouse_MapScripts::
 
 CianwoodEusineHouse_Combate::
 lock
-compare VAR_VERDANTURF_TOWN_STATE, 10
+compare VAR_VERDANTURF_TOWN_STATE, 16
 goto_if_gt CianwoodEusineHouse_Dialogo_Post_Mision
 delay 20
 msgbox CianwoodEusineHouse_Combate_Texto_1 MSGBOX_AUTOCLOSE
@@ -132,7 +132,7 @@ CianwoodEusineHouse_Combate_Texto_12:
 CianwoodEusineHouse_Dialogo_Post_Mision::
 lock
 faceplayer
-compare VAR_VERDANTURF_TOWN_STATE, 11
+compare VAR_VERDANTURF_TOWN_STATE, 17
 goto_if_gt CianwoodEusineHouse_Dialogo_Post_Mision_2
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_1 MSGBOX_AUTOCLOSE
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_2 MSGBOX_AUTOCLOSE
@@ -148,7 +148,7 @@ msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_6 MSGBOX_AUTOCLOSE
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8 MSGBOX_AUTOCLOSE
-setvar VAR_VERDANTURF_TOWN_STATE, 12
+setvar VAR_VERDANTURF_TOWN_STATE, 18
 addvar VAR_UNUSED_0x40F7, 1
 compare VAR_UNUSED_0x40F7, 183
 goto_if_eq Misiones_DLC_Fin_Llamada_Giovanni_Eusine

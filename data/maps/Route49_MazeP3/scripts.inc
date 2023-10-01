@@ -210,14 +210,22 @@ waitmovement 0x0
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_7 MSGBOX_AUTOCLOSE
 delay 15
 msgbox Route49_MazeP3_Encuentro_Eusine_Texto_8 MSGBOX_AUTOCLOSE
-applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_3
+applymovement 10, Route49_MazeP3_Encuentro_Eusine_Move_3.1
 waitmovement 0x0
 playse SE_EXIT
 setflag FLAG_HIDE_FALLARBOR_TOWN_BATTLE_TENT_SCOTT
 removeobject 10
-setvar VAR_VERDANTURF_TOWN_STATE, 10
+setvar VAR_VERDANTURF_TOWN_STATE, 16
 release
 end
+
+Route49_MazeP3_Encuentro_Eusine_Move_3.1:
+walk_right
+walk_up
+walk_right
+walk_right
+walk_up
+step_end
 
 Route49_MazeP3_Encuentro_Eusine_Move_3:
 walk_up

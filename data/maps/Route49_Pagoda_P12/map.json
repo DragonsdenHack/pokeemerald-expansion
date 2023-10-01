@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Route49_Pagoda_P12_Encuentro_Maestro",
       "flag": "0"
     }
   ],
@@ -157,7 +157,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 20,
+      "elevation": 0,
+      "var": "VAR_VERDANTURF_TOWN_STATE",
+      "var_value": "14",
+      "script": "Route49_Pagoda_P12_Combate_Maestro"
+    }
   ],
   "bg_events": [
 
