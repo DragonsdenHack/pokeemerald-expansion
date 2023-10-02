@@ -26,6 +26,11 @@ Mision7Lab4_EventScript_Cientifico::
 
 Mision7Lab4_Dialogo_Oak::
 lock
+setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+removeobject 17
+removeobject 16
+call Script_SetGrayscaleTint
 clearflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
 addobject 2
 addobject 3
@@ -33,6 +38,7 @@ addobject 4
 addobject 5
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_1
+call Script_SetGrayscaleTint
 waitmovement 0x0
 special RemoveCameraObject
 delay 15
@@ -58,6 +64,9 @@ msgbox Mision7Lab4_Dialogo_Oak_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_6
+waitmovement 0x0
+call Script_SetGrayscaleTint
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_6.1
 waitmovement 0x0
 special RemoveCameraObject
 applymovement 2, Mision7Lab4_Dialogo_Oak_Move_8
@@ -107,15 +116,22 @@ applymovement 2, Mision7Lab4_Dialogo_Oak_Move_7
 waitmovement 0x0
 msgbox Mision7Lab4_Dialogo_Oak_Texto_17 MSGBOX_AUTOCLOSE
 delay 40
-special SpawnCameraObject
-applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_13
-waitmovement 0x0
-special RemoveCameraObject
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_CAPTAIN_STERN
+fadescreen 1
+delay 20
+call Script_RemoveTint
 removeobject 2
 removeobject 3
 removeobject 4
 removeobject 5
+delay 20
+fadescreen 0
+special SpawnCameraObject
+applymovement OBJ_EVENT_ID_CAMERA, Mision7Lab4_Dialogo_Oak_Move_13
+call Script_RemoveTint
+waitmovement 0x0
+special RemoveCameraObject
+special DrawWholeMapView
 setvar VAR_UNUSED_0x40F7, 193
 release
 end
@@ -171,22 +187,25 @@ walk_fast_left
 walk_fast_left
 walk_fast_left
 walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
-walk_fast_left
 walk_fast_down
 walk_fast_down
 walk_fast_down
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
+step_end
+
+Mision7Lab4_Dialogo_Oak_Move_6.1:
+walk_fast_left
+walk_fast_left
+walk_fast_left
+walk_fast_left
 walk_fast_down
 walk_fast_down
 walk_fast_down
@@ -524,6 +543,26 @@ setvar VAR_TEMP_0, 1
 release
 end
 
+Proteccion_Segunda_Cabina::
+playse SE_UNLOCK
+waitse
+setmetatile 18, 21, 0x3B8, TRUE
+setmetatile 18, 20, 0x3B0, TRUE
+setmetatile 19, 21, 0x3B9, TRUE
+setmetatile 19, 20, 0x3B1, TRUE
+special DrawWholeMapView
+delay 5
+playse SE_M_THUNDER_WAVE
+applymovement OBJ_EVENT_ID_PLAYER, Cabina_Move_1
+waitmovement 0x0
+release
+end
+
+Cabina_Move_1:
+walk_fast_down
+step_end
+
+
 Mision7Lab4_Combate_Nidoking::
 lock
 playse SE_PIN
@@ -584,6 +623,21 @@ emote_exclamation_mark
 walk_in_place_up
 step_end
 
+Proteccion_Tercera_Cabina::
+playse SE_UNLOCK
+waitse
+setmetatile 25, 21, 0x3B8, TRUE
+setmetatile 25, 20, 0x3B0, TRUE
+setmetatile 26, 21, 0x3B9, TRUE
+setmetatile 26, 20, 0x3B1, TRUE
+special DrawWholeMapView
+delay 5
+playse SE_M_THUNDER_WAVE
+applymovement OBJ_EVENT_ID_PLAYER, Cabina_Move_1
+waitmovement 0x0
+release
+end
+
 
 
 Mision7Lab4_Combate_Electivire::
@@ -620,6 +674,51 @@ special DrawWholeMapView
 delay 30
 msgbox Mision7Lab4_Combate_Electivire_Texto_3 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 195
+release
+end
+
+Proteccion_Cuarta_Cabina::
+playse SE_UNLOCK
+waitse
+setmetatile 6, 44, 0x3B8, TRUE
+setmetatile 6, 43, 0x3B0, TRUE
+setmetatile 7, 44, 0x3B9, TRUE
+setmetatile 7, 43, 0x3B1, TRUE
+special DrawWholeMapView
+delay 5
+playse SE_M_THUNDER_WAVE
+applymovement OBJ_EVENT_ID_PLAYER, Cabina_Move_1
+waitmovement 0x0
+release
+end
+
+Proteccion_Quinta_Cabina::
+playse SE_UNLOCK
+waitse
+setmetatile 47, 6, 0x3B8, TRUE
+setmetatile 47, 5, 0x3B0, TRUE
+setmetatile 48, 6, 0x3B9, TRUE
+setmetatile 48, 5, 0x3B1, TRUE
+special DrawWholeMapView
+delay 5
+playse SE_M_THUNDER_WAVE
+applymovement OBJ_EVENT_ID_PLAYER, Cabina_Move_1
+waitmovement 0x0
+release
+end
+
+Proteccion_Sexta_Cabina::
+playse SE_UNLOCK
+waitse
+setmetatile 39, 21, 0x3B8, TRUE
+setmetatile 39, 20, 0x3B0, TRUE
+setmetatile 40, 21, 0x3B9, TRUE
+setmetatile 40, 20, 0x3B1, TRUE
+special DrawWholeMapView
+delay 5
+playse SE_M_THUNDER_WAVE
+applymovement OBJ_EVENT_ID_PLAYER, Cabina_Move_1
+waitmovement 0x0
 release
 end
 

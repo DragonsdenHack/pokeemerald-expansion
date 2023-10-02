@@ -15229,7 +15229,7 @@ NeoCinnabarVolcan_Text_Ladron2Defeated:
 
 NeoCinnabarVolcan_Text_Ladron2PostBattle:
 	.string "Algunos se han metido más adentro del\n"
-	.string "volcán, a mi me da miedo, la verdad…$"
+	.string "volcán, a mí me da miedo, la verdad…$"
 
 
 Mision7Lab3_Text_LadronIntro:
@@ -17482,7 +17482,7 @@ Route49_Pagoda_P7_Text_Pensador1PostBattle:
 	.string "de descanso del DRAGÓN SAGRADO, pero\l"
 	.string "desde aquí seguimos honrándole con la\l"
 	.string "misma intensidad del primer día.$"
-	
+
 
 
 

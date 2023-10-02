@@ -25668,7 +25668,7 @@ const struct BaseStats gBaseStats[] =
             .baseAttack    = 142,
         #endif
         .type1 = TYPE_POISON,
-        .type2 = TYPE_GROUND,
+        .type2 = TYPE_DARK,
         .catchRate = 45,
         .expYield = 248,
         .evYield_Attack    = 3,
