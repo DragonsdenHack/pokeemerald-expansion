@@ -1,5 +1,18 @@
 NeoCinnabarPkmnCenter_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, NeoCinnabarPkmnCenter_PokemonCenter_1F_OnTransition
 	.byte 0
+
+NeoCinnabarPkmnCenter_PokemonCenter_1F_OnTransition:
+	setrespawn HEAL_LOCATION_NEO_CINNABAR_ISLAND
+	end
+
+NeoCinnabarPkmnCenter_PokemonCenter_1F_EventScript_Nurse::
+    setvar VAR_0x800B, 1
+    call Common_EventScript_PkmnCenterNurse
+    waitmessage
+    waitbuttonpress
+    release
+    end
 
 NeoCinnabarPkmnCenter_2::
 lock     

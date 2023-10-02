@@ -284,6 +284,18 @@ msgbox LavenderTown_Cierre_Torre_Texto_18 MSGBOX_AUTOCLOSE
 applymovement 9, LavenderTown_Cierre_Torre_Move_13
 waitmovement 0x0
 msgbox LavenderTown_Cierre_Torre_Texto_19 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
+delay 10
+fadescreen 1
+playmoncry SPECIES_SKARMORY, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 9
+playse SE_M_FLY
+delay 15
+fadescreen 0
+delay 20
+applymovement 11, LavenderTown_Cierre_Torre_Move_16
+waitmovement 0x0
 delay 10
 msgbox LavenderTown_Cierre_Torre_Texto_20 MSGBOX_AUTOCLOSE
 addobject 13
@@ -302,6 +314,10 @@ setvar VAR_UNUSED_0x40F7, 186
 warpsilent MAP_BASE_ROCKET_HOENN, 29, 34
 release
 end
+
+LavenderTown_Cierre_Torre_Move_16:
+walk_in_place_up
+step_end
 
 LavenderTown_Cierre_Torre_Move_15:
 walk_up
@@ -453,7 +469,7 @@ LavenderTown_Cierre_Torre_Texto_11:
 
 LavenderTown_Cierre_Torre_Texto_12:
 .string "AGATHA: Así que… No queda ya nada para\n"
-	.string "mi en esta región pues…$"
+	.string "mí en esta región pues…$"
 
 LavenderTown_Cierre_Torre_Texto_13:
 .string "AGATHA: Adiós, FUJI.$"

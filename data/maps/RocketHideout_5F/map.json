@@ -16,7 +16,7 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
-      "x": 3,
+      "x": 4,
       "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -988,6 +988,24 @@
       "var": "VAR_UNUSED_0x404E",
       "var_value": "0",
       "script": "RocketHideout5F_Secundaria_Frank"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "190",
+      "script": "Bloqueo_Neo_Canela"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 8,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "190",
+      "script": "Bloqueo_Neo_Canela"
     }
   ],
   "bg_events": [

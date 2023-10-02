@@ -10,7 +10,7 @@
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
-  "show_map_name": true,
+  "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
@@ -863,6 +863,22 @@
       "elevation": 3,
       "item": "ITEM_PP_UP",
       "flag": "FLAG_NUEVA_522"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 18,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoenn_Potencial_Alola"
+    },
+    {
+      "type": "sign",
+      "x": 18,
+      "y": 45,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "BaseRocketHoenn_Potencial_Galar"
     }
   ]
 }

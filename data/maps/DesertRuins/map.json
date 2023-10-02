@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "DesertRuins_EventScript_Regirock",
+      "script": "DesertRuins_Dialogo_Regirock",
       "flag": "0"
     },
     {
@@ -41,7 +41,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_AQUA_GRUNT_2"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_DEVON2",
       "x": 8,
       "y": 7,
       "elevation": 3,

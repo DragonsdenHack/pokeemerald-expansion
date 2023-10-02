@@ -166,6 +166,6 @@ NeoCinnabarIsland_Evento_Oak_Texto_9:
 	.string "CONFERENCIA de TRIGAL.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_10:
-.string "No te entretengo más, PLAYER, espero\n"
+.string "No te entretengo más, {PLAYER}, espero\n"
 	.string "que demuestres una vez más porqué\l"
 	.string "eres el mejor ENTRENADOR.$"

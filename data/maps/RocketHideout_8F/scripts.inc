@@ -4074,12 +4074,23 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_1 MSGBOX_AUTOCLOSE
 delay 15
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_2 MSGBOX_AUTOCLOSE
+fadescreen 1
+delay 60
+fadescreen 0
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_2
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_3
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_3
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.1 MSGBOX_AUTOCLOSE
+applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_6
+waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_4.3 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Base_Hoenn_Move_4
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Base_Hoenn_Texto_5 MSGBOX_AUTOCLOSE
@@ -4201,12 +4212,12 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_2:
 .string "GIOVANNI: Nuestra base de datos ha\n"
 	.string "recogido información muy valiosa de\l"
 	.string "vuestras expediciones, pero me\l"
-	.string "gustaría oiros a vosotros. Contadme\l"
+	.string "gustaría oíros a vosotros. Contadme\l"
 	.string "todos los detalles…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_3:
 .string "Ya veo… Así que JOHTO cuenta con\n"
-	.string "varias especies creidas extintas, y\l"
+	.string "varias especies creídas extintas, y\l"
 	.string "que habitan en ese gran paraíso que es\l"
 	.string "la zona oeste de ORQUÍDEA.$"
 
@@ -4217,10 +4228,29 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_4:
 	.string "comparamos con las 151 de KANTO, o las\l"
 	.string "135 de HOENN.$"
 
+RocketHideout_8F_Mision_Base_Hoenn_Texto_4.1:
+	.string "Por otro lado, ese DRAGÓN SAGRADO...\n"
+	.string "ANDRA ya me ha hablado de cómo su\l"
+	.string "URSARING evolucionó gracias a la\l"
+	.string "PIEDRA DORADA.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_4.2:
+	.string "La cantidad de POKÉMON a la que pueda\n"
+	.string "reaccionar es todo un misterio, enviaré\l"
+	.string "a ATLAS a ese lugar para que lo\l"
+	.string "investigue y encuentre una. Después,\l"
+	.string "nuestros mejores científicos tratarán\l"
+	.string "de reproducir ese objeto sagrado, para\l"
+	.string "así poder comercializarlo entre los\l"
+	.string "mejores ROCKET.$"
+
+RocketHideout_8F_Mision_Base_Hoenn_Texto_4.3:
+	.string "ANDRA: Oh...$"
+
 RocketHideout_8F_Mision_Base_Hoenn_Texto_5:
-.string "En cuanto a lo de ese tal EUSINE, no te\n"
-	.string "preocupes {PLAYER}, mandaré a\l"
-	.string "buscarle. Todo lo que él ha visto y\l"
+.string "GIOVANNI: En cuanto a lo de ese tal\n"
+	.string "EUSINE, no te preocupes {PLAYER}, mandaré\l"
+	.string "a buscarle. Todo lo que él ha visto y\l"
 	.string "vivido en esa pagoda nos será de\l"
 	.string "enorme utilidad para nuestras\l"
 	.string "investigaciones.$"

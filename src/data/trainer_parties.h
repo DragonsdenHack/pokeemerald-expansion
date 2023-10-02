@@ -22563,8 +22563,8 @@ static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon1[] = {
     {
     .iv = 255,
     .lvl = 99,
-    .species = SPECIES_KYOGRE,
-    .heldItem = ITEM_BLUE_ORB,
+    .species = SPECIES_KYOGRE_PRIMAL,
+    .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 252, 252, 0, 0},
     .nature = NATURE_MODEST,
     .moves = {MOVE_ORIGIN_PULSE, MOVE_THUNDER, MOVE_ICE_BEAM, MOVE_ORIGIN_PULSE}
@@ -22631,7 +22631,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER3[] = {
 static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon2[] = {
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_REGIROCK,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {6, 252, 0, 0, 0, 252},
@@ -22640,16 +22640,16 @@ static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon2[] = {
     },
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 102,
     .species = SPECIES_BLAZIKEN,
-    .heldItem = ITEM_LIFE_ORB,
-    .evs = {0, 252, 0, 252, 0, 6},
+    .heldItem = ITEM_BLAZIKENITE,
+    .evs = {50, 252, 50, 252, 50, 50},
     .nature = NATURE_JOLLY,
     .moves = {MOVE_CLOSE_COMBAT, MOVE_FLARE_BLITZ, MOVE_PROTECT, MOVE_STONE_EDGE}
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_LATIOS,
     .heldItem = ITEM_DRAGONIUM_Z,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -22658,7 +22658,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon2[] = {
     },
     {
     .iv = 255,
-    .lvl = 98,
+    .lvl = 100,
     .species = SPECIES_SHARPEDO,
     .heldItem = ITEM_POWER_HERB,
     .evs = {0, 252, 6, 252, 0, 0},
@@ -22667,7 +22667,7 @@ static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon2[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_AIR_BALLOON,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -22676,12 +22676,12 @@ static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon2[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
-    .species = SPECIES_GARDEVOIR,
-    .heldItem = ITEM_GARDEVOIRITE,
-    .evs = {50, 50, 50, 252, 252, 50},
-    .nature = NATURE_TIMID,
-    .moves = {MOVE_HYPER_VOICE, MOVE_PSYSHOCK, MOVE_FOCUS_BLAST, MOVE_WILL_O_WISP}
+    .lvl = 103,
+    .species = SPECIES_GROUDON_PRIMAL,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {50, 252, 50, 252, 50, 50},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_PRECIPICE_BLADES, MOVE_STONE_EDGE, MOVE_OVERHEAT, MOVE_ROCK_POLISH}
     }
 };
 

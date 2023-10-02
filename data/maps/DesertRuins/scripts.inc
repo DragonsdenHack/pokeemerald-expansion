@@ -182,7 +182,7 @@ msgbox DesertRuins_Evento_CamaraRegirock_Texto_23 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_9
 waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_24 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_EJECUTIVO_DEVON_1, DesertRuins_Evento_CamaraRegirock_Texto_25
+trainerbattle_no_intro TRAINER_EJECUTIVO_DEVON_2, DesertRuins_Evento_CamaraRegirock_Texto_25
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_26 MSGBOX_AUTOCLOSE
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_14
 waitmovement 0x0
@@ -198,7 +198,7 @@ msgbox DesertRuins_Evento_CamaraRegirock_Texto_30 MSGBOX_AUTOCLOSE
 applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_4
 waitmovement 0x0
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_31 MSGBOX_AUTOCLOSE
-applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6
+applymovement 3, DesertRuins_Evento_CamaraRegirock_Move_6.1
 waitmovement 0x0
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 removeobject 3
@@ -285,6 +285,13 @@ step_end
 
 DesertRuins_Evento_CamaraRegirock_Move_7:
 emote_exclamation_mark
+step_end
+
+DesertRuins_Evento_CamaraRegirock_Move_6.1:
+face_down
+delay_4
+walk_down
+delay_4
 step_end
 
 DesertRuins_Evento_CamaraRegirock_Move_6:
@@ -613,5 +620,39 @@ DesertRuins_Evento_Andra_Texto_4:
 DesertRuins_Evento_Andra_Texto_5:
 .string "Hay que estar atentos, {PLAYER}.\n"
 	.string "Entremos juntos.$"
+
+
+DesertRuins_Dialogo_Regirock::
+lock
+msgbox DesertRuins_Dialogo_Regirock_Texto_1 MSGBOX_NPC
+release
+end
+
+DesertRuins_Dialogo_Regirock_Texto_1:
+.string "El POKÉMON parece estar inmerso en un\n"
+	.string "profundo sueño. Mejor no molestarlo.$"
+
+
+Bloqueo_Neo_Canela::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, Bloqueo_Neo_Canela_Move_1
+waitmovement 0x0
+msgbox Bloqueo_Neo_Canela_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Bloqueo_Neo_Canela_Move_2
+waitmovement 0x0
+release
+end
+
+Bloqueo_Neo_Canela_Move_1:
+walk_in_place_down
+step_end
+
+Bloqueo_Neo_Canela_Move_2:
+walk_down
+step_end
+
+Bloqueo_Neo_Canela_Texto_1:
+.string "(GIOVANNI me ha convocado en su\n"
+	.string "despacho urgentemente).$"
 
 

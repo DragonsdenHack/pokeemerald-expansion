@@ -2325,3 +2325,58 @@ EventScript_Rockruff_Texto_1:
 .string "¿Seguro que quiere a ROCKRUFF?\n"
 	.string "Costará 15000 POKÉS.$"
 
+BaseRocketHoenn_Potencial_Sinohh::
+lock
+msgbox BaseRocketHoenn_Potencial_Sinohh_Texto, MSGBOX_SIGN   
+end
+
+BaseRocketHoenn_Potencial_Sinohh_Texto:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "SINNOH$"
+
+BaseRocketHoenn_Potencial_Teselia::
+lock
+msgbox BaseRocketHoenn_Potencial_Teselia_Texto, MSGBOX_SIGN   
+end
+
+BaseRocketHoenn_Potencial_Teselia_Texto:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "TESELIA$"
+
+BaseRocketHoenn_Potencial_Kalos::
+lock
+msgbox BaseRocketHoenn_Potencial_Kalos_Texto, MSGBOX_SIGN   
+end
+
+BaseRocketHoenn_Potencial_Kalos_Texto:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "KALOS$"
+
+BaseRocketHoenn_Potencial_Alola::
+lock
+msgbox BaseRocketHoenn_Potencial_Alola_Texto, MSGBOX_SIGN   
+end
+
+BaseRocketHoenn_Potencial_Alola_Texto:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "ALOLA$"
+
+BaseRocketHoenn_Potencial_Galar::
+lock
+msgbox BaseRocketHoenn_Potencial_Galar_Texto, MSGBOX_SIGN   
+end
+
+BaseRocketHoenn_Potencial_Galar_Texto:
+	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
+	.string "POKÉMON MAS PODEROSOS DE CADA\l"
+	.string "REGIÓN:\p"
+	.string "GALAR$"
+
