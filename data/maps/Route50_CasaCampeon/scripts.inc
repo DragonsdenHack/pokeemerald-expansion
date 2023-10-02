@@ -47,7 +47,7 @@ Route50_CasaCampeon_Dialogo_Anciana_Texto_4:
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_5:
 	.string "Gracias a ti, volvemos a estar juntos en\n"
-	.string "este lugar. Hace tiempo que habíamos\l"
+	.string "este lugar. Hacía tiempo que habíamos\l"
 	.string "perdido el contacto, cada uno con sus\l"
 	.string "propios objetivos… Ahora podremos\l"
 	.string "disfrutar juntos de esta tranquilidad.$"
@@ -92,12 +92,12 @@ Route50_CasaCampeon_Combate_Campeon_Texto_1:
 
 Route50_CasaCampeon_Combate_Campeon_Texto_2:
 .string "Tú sin embargo pareces querer indagar\n"
-	.string "más allà de la superficie. Dime,\l"
+	.string "más allá de la superficie. Dime,\l"
 	.string "¿echarías un combate con este viejo\l"
 	.string "CAMPEÓN?$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_3:
-.string "Tranquilo, no me moveré de aquí. ¡Jo, jo.\n"
+.string "Tranquilo, no me moveré de aquí. ¡Jo, jo,\n"
 	.string "jo!$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_4:

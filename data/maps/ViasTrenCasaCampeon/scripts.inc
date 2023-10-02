@@ -88,7 +88,7 @@ ViasTrenCasaCampeon_Agatha_Texto_7:
 .string "AGATHA: Mi maestra llevaba décadas sin\n"
 	.string "sentir entusiasmo por combatir. Si le\l"
 	.string "haces el honor, también me lo harás a\l"
-	.string "mi, siento mucha curiosidad por ver ese\l"
+	.string "mí, siento mucha curiosidad por ver ese\l"
 	.string "combate.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_8:

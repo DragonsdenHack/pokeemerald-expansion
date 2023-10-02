@@ -4839,7 +4839,7 @@ Cry_Ikary::
 
 	.align 2
 Cry_Purakkusu::
-	.incbin "sound/direct_sound_samples/cries/purakkusu.bin"
+	.incbin "sound/direct_sound_samples/cries/pinsir.bin"
 
 	.align 2
 Cry_Taaban::
@@ -4847,11 +4847,11 @@ Cry_Taaban::
 
 	.align 2
 Cry_Bomushikaa::
-	.incbin "sound/direct_sound_samples/cries/bomushikaa.bin"
+	.incbin "sound/direct_sound_samples/cries/dewgong.bin"
 
 	.align 2
 Cry_Madaamu::
-	.incbin "sound/direct_sound_samples/cries/madaamu.bin"
+	.incbin "sound/direct_sound_samples/cries/farfetchd.bin"
 
 	.align 2
 Cry_Sui::

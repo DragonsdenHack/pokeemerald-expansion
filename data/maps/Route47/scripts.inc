@@ -354,7 +354,7 @@ Route47_Barrera_Texto_1:
 Route47_Dialogo_Maestro_Anciano::
 lock
 faceplayer
-compare VAR_VERDANTURF_TOWN_STATE, 10
+compare VAR_VERDANTURF_TOWN_STATE, 16
 goto_if_gt Route47_Dialogo_Maestro_Anciano_2
 msgbox Route47_Encuentro_Maestro_Anciano_Texto_5 MSGBOX_AUTOCLOSE
 release

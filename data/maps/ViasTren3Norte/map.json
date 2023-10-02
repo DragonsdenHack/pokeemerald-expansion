@@ -22,8 +22,8 @@
   "object_events": [
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 27,
-      "y": 16,
+      "x": 41,
+      "y": 11,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -37,14 +37,14 @@
   "warp_events": [
     {
       "x": 16,
-      "y": 10,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_VIAS_BOSQUE",
       "dest_warp_id": 0
     },
     {
       "x": 17,
-      "y": 10,
+      "y": 9,
       "elevation": 0,
       "dest_map": "MAP_VIAS_BOSQUE",
       "dest_warp_id": 2

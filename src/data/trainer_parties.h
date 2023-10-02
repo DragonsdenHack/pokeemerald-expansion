@@ -1019,7 +1019,7 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Rose1[] = {
 static const struct TrainerMonItemCustomMoves sParty_Atlas2[] = {
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 101,
     .species = SPECIES_KLEAVOR,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 0, 252, 0, 4, 0},
@@ -1028,7 +1028,7 @@ static const struct TrainerMonItemCustomMoves sParty_Atlas2[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 102,
     .species = SPECIES_TAUROS_X,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 252, 0, 0, 0, 0},
@@ -1037,7 +1037,7 @@ static const struct TrainerMonItemCustomMoves sParty_Atlas2[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 103,
     .species = SPECIES_HO_OH,
     .heldItem = ITEM_HEAVY_DUTY_BOOTS,
     .evs = {128, 252, 128, 0, 0, 0},
@@ -1046,7 +1046,7 @@ static const struct TrainerMonItemCustomMoves sParty_Atlas2[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 102,
     .species = SPECIES_RAIKOU,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {4, 0, 0, 252, 0, 252},
@@ -1055,7 +1055,7 @@ static const struct TrainerMonItemCustomMoves sParty_Atlas2[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 103,
     .species = SPECIES_HOUNDOOM,
     .heldItem = ITEM_HOUNDOOMINITE,
     .evs = {45, 45, 45, 252, 45, 252},
@@ -1064,7 +1064,7 @@ static const struct TrainerMonItemCustomMoves sParty_Atlas2[] = {
     },
     {
     .iv = 255,
-    .lvl = 102,
+    .lvl = 104,
     .species = SPECIES_FERALIGATR_BOND,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {90, 252, 90, 90, 90, 252},
@@ -21579,7 +21579,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Cristin5[] = {
 static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 101,
     .species = SPECIES_DRAGAPULT,
     .heldItem = ITEM_POWER_HERB,
     .evs = {60, 252, 60, 252, 60, 60},
@@ -21588,7 +21588,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 102,
     .species = SPECIES_TAABAN,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {60, 60, 60, 60, 252, 252},
@@ -21597,7 +21597,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 103,
     .species = SPECIES_SPECTRIER,
     .heldItem = ITEM_NORMALIUM_Z,
     .evs = {60, 60, 60, 252, 252, 60},
@@ -21606,7 +21606,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 103,
     .species = SPECIES_GENGAR,
     .heldItem = ITEM_GENGARITE,
     .evs = {90, 90, 90, 252, 252, 90},
@@ -21615,7 +21615,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     },
     {
     .iv = 255,
-    .lvl = 102,
+    .lvl = 104,
     .species = SPECIES_CALYREX_SHADOW_RIDER,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {60, 60, 60, 252, 252, 60},
@@ -21624,7 +21624,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
     },
     {
     .iv = 255,
-    .lvl = 103,
+    .lvl = 105,
     .species = SPECIES_NINETALES_BOND,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {120, 120, 120, 252, 252, 120},
@@ -21636,7 +21636,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonfantasma[] = {
 static const struct TrainerMonItemCustomMoves sParty_Campeonveneno[] = {
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 100,
     .species = SPECIES_NIHILEGO,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {60, 60, 60, 252, 252, 60},
@@ -21645,7 +21645,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonveneno[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_PURAKKUSU,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {60, 252, 60, 252, 60, 60},
@@ -21654,7 +21654,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonveneno[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_NAGANADEL,
     .heldItem = ITEM_DRAGONIUM_Z,
     .evs = {60, 60, 60, 252, 252, 60},
@@ -21663,7 +21663,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonveneno[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_ZARUDE,
     .heldItem = ITEM_HEAVY_DUTY_BOOTS,
     .evs = {60, 252, 60, 252, 60, 60},
@@ -21672,7 +21672,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonveneno[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 102,
     .species = SPECIES_VENUSAUR,
     .heldItem = ITEM_VENUSAURITE,
     .evs = {90, 90, 252, 90, 252, 90},
@@ -21681,7 +21681,7 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonveneno[] = {
     },
     {
     .iv = 255,
-    .lvl = 102,
+    .lvl = 103,
     .species = SPECIES_GOODRA_BOND,
     .heldItem = ITEM_HABAN_BERRY,
     .evs = {252, 120, 120, 120, 252, 120},
