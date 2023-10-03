@@ -427,6 +427,7 @@
 #define MAP_PALLET_TOWN_RED_HOUSE_2F  (1 | (14 << 8))
 #define MAP_PALLET_TOWN_BLUE_HOUSE_1F (2 | (14 << 8))
 #define MAP_PALLET_TOWN_PROFESSOR_LAB (3 | (14 << 8))
+#define MAP_NEO_PALLET_TOWN           (4 | (14 << 8))
 
 // gMapGroup_IndoorViridianCity
 #define MAP_VIRIDIAN_CITY_HOUSE1            (0 | (15 << 8))
@@ -434,6 +435,10 @@
 #define MAP_VIRIDIAN_CITY_SCHOOL            (2 | (15 << 8))
 #define MAP_VIRIDIAN_CITY_MART              (3 | (15 << 8))
 #define MAP_VIRIDIAN_CITY_POKEMON_CENTER_1F (4 | (15 << 8))
+#define MAP_NEO_ROUTE1                      (5 | (15 << 8))
+#define MAP_NEO_VIRIDIAN_CITY               (6 | (15 << 8))
+#define MAP_NEO_ROUTE2                      (7 | (15 << 8))
+#define MAP_NEO_ROUTE22                     (8 | (15 << 8))
 
 // gMapGroup_IndoorPewterCity
 #define MAP_PEWTER_CITY_MUSEUM_1F (0 | (16 << 8))
@@ -546,6 +551,11 @@
 #define MAP_FUCHSIA_CITY_HOUSE3            (7 | (22 << 8))
 #define MAP_FUCHSIA_CITY_HOUSE4            (8 | (22 << 8))
 #define MAP_FUCHSIA_CITY_HOUSE5            (9 | (22 << 8))
+#define MAP_NEO_FUCHSIA_CITY               (10 | (22 << 8))
+#define MAP_NEO_ROUTE18                    (11 | (22 << 8))
+#define MAP_NEO_ROUTE15                    (12 | (22 << 8))
+#define MAP_NEO_ROUTE15_PATH               (13 | (22 << 8))
+#define MAP_NEO_ROUTE14                    (14 | (22 << 8))
 
 // gMapGroup_IndoorCinnabarIsland
 #define MAP_CINNABAR_ISLAND_GYM               (0 | (23 << 8))
@@ -564,6 +574,11 @@
 #define MAP_NEO_CINNABAR_ISLAND               (13 | (23 << 8))
 #define MAP_NEO_CINNABAR_PKMN_CENTER          (14 | (23 << 8))
 #define MAP_NEO_CINNABAR_VOLCAN               (15 | (23 << 8))
+#define MAP_NEO_CINNABAR_PATH                 (16 | (23 << 8))
+#define MAP_NEO_ROUTE20                       (17 | (23 << 8))
+#define MAP_NEO_ROUTE19                       (18 | (23 << 8))
+#define MAP_NEO_ROUTE21                       (19 | (23 << 8))
+#define MAP_NEO_CINNABAR_GYM                  (20 | (23 << 8))
 
 // gMapGroup_IndoorIndigoPlateau
 #define MAP_INDIGO_PLATEAU_POKEMON_CENTER_1F (0 | (24 << 8))
@@ -1377,6 +1392,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 4, 5, 8, 10, 8, 30, 20, 12, 10, 16, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
+// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 9, 8, 10, 8, 30, 20, 12, 15, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

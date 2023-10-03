@@ -63,7 +63,7 @@ NeoPowerPlant_Text_5:
 NeoPowerPlant_8::
 lock     
 faceplayer     
-msgbox NeoPowerPlant_Text_9, MSGBOX_DEFAULT
+msgbox NeoPowerPlant_Text_8, MSGBOX_NPC
 release     
 end
 
@@ -77,7 +77,7 @@ NeoPowerPlant_Text_8:
 NeoPowerPlant_9::
 lock     
 faceplayer     
-msgbox NeoPowerPlant_Text_9, MSGBOX_DEFAULT
+msgbox NeoPowerPlant_Text_9, MSGBOX_NPC
 release     
 end
 
@@ -213,7 +213,7 @@ faceplayer
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_1 MSGBOX_DEFAULT
 waitmoncry
-trainerbattle_no_intro TRAINER_TRAINER_145, NeoPowerPlant_Combate_Zapdos_Texto_2
+trainerbattle_no_intro TRAINER_TRAINER_231, NeoPowerPlant_Combate_Zapdos_Texto_2
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
 waitmoncry
 playse SE_M_CHARGE

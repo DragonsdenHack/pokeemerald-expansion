@@ -536,7 +536,7 @@ const struct Trainer gTrainers[] = {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_ATLAS,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKETKANTO,
-        .trainerPic = TRAINER_PIC_HGSS_OFFICER,
+        .trainerPic = TRAINER_PIC_ROCKET_ADMIN_ATLAS,
         .trainerName = _("ATLAS"),
         .items = {ITEM_FULL_RESTORE, ITEM_NONE, ITEM_NONE, ITEM_NONE},
         .doubleBattle = FALSE,
@@ -15247,16 +15247,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TRAINER_231] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_LEADER,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .trainerClass = TRAINER_CLASS_AVES,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
-        .trainerName = _("TRAINER231"),
+        .trainerName = _("ZAPDOS-P"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
         .partySize = ARRAY_COUNT(sParty_TRAINER231),
-        .party = {.NoItemCustomMoves = sParty_TRAINER231},
+        .party = {.ItemCustomMoves = sParty_TRAINER231},
     },
 
     [TRAINER_TRAINER_232] =

@@ -30616,14 +30616,15 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER230[] = {
 
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER231[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER231[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
-    .evs = {0, 0, 0, 0, 0, 0},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .iv = 255,
+    .lvl = 108,
+    .species = SPECIES_ZAPDOS_PRIMAL,
+    .heldItem = ITEM_ELECTRIC_SEED,
+    .evs = {252, 252, 252, 252, 252, 252},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_DISCHARGE, MOVE_FIERY_WRATH, MOVE_HEAT_WAVE, MOVE_ROOST}
     }
 
 };

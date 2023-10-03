@@ -22,11 +22,6 @@
       "direction": "down",
       "offset": 0,
       "map": "MAP_CINNABAR_ISLAND_PATH"
-    },
-    {
-      "direction": "down",
-      "offset": 0,
-      "map": "MAP_NEO_CINNABAR_ISLAND"
     }
   ],
   "object_events": [

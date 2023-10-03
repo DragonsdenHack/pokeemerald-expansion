@@ -478,14 +478,19 @@
     "PalletTown_RedHouse_1F",
     "PalletTown_RedHouse_2F",
     "PalletTown_BlueHouse_1F",
-    "PalletTown_ProfessorLab"
+    "PalletTown_ProfessorLab",
+    "NeoPalletTown"
   ],
   "gMapGroup_IndoorViridianCity": [
     "ViridianCity_House1",
     "ViridianCity_Gym",
     "ViridianCity_School",
     "ViridianCity_Mart",
-    "ViridianCity_PokemonCenter_1F"
+    "ViridianCity_PokemonCenter_1F",
+    "NeoRoute1",
+    "NeoViridianCity",
+    "NeoRoute2",
+    "NeoRoute22"
   ],
   "gMapGroup_IndoorPewterCity": [
     "PewterCity_Museum_1F",
@@ -597,7 +602,12 @@
     "FuchsiaCity_School",
     "FuchsiaCity_House3",
     "FuchsiaCity_House4",
-    "FuchsiaCity_House5"
+    "FuchsiaCity_House5",
+    "Neo_FuchsiaCity",
+    "NeoRoute18",
+    "NeoRoute15",
+    "NeoRoute15_Path",
+    "NeoRoute14"
   ],
   "gMapGroup_IndoorCinnabarIsland": [
     "CinnabarIsland_Gym",
@@ -615,7 +625,12 @@
     "Mision7Lab5",
     "NeoCinnabarIsland",
     "NeoCinnabarPkmnCenter",
-    "NeoCinnabarVolcan"
+    "NeoCinnabarVolcan",
+    "NeoCinnabar_Path",
+    "NeoRoute20",
+    "Neo_Route19",
+    "NeoRoute21",
+    "NeoCinnabar_Gym"
   ],
   "gMapGroup_IndoorIndigoPlateau": [
     "IndigoPlateau_PokemonCenter_1F",

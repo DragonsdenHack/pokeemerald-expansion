@@ -54,13 +54,6 @@
   ],
   "warp_events": [
     {
-      "x": 2,
-      "y": 40,
-      "elevation": 0,
-      "dest_map": "MAP_NEO_POWER_PLANT",
-      "dest_warp_id": 0
-    },
-    {
       "x": 8,
       "y": 19,
       "elevation": 0,
@@ -68,11 +61,25 @@
       "dest_warp_id": 0
     },
     {
-      "x": 13,
+      "x": 2,
+      "y": 40,
+      "elevation": 0,
+      "dest_map": "MAP_NEO_POWER_PLANT",
+      "dest_warp_id": 0
+    },
+    {
+      "x": 1,
       "y": 22,
       "elevation": 0,
       "dest_map": "MAP_ROUTE10_POKEMON_CENTER_1F",
       "dest_warp_id": 0
+    },
+    {
+      "x": 13,
+      "y": 22,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE10_POKEMON_CENTER_1F",
+      "dest_warp_id": 1
     }
   ],
   "coord_events": [

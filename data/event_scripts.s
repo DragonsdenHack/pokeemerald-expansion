@@ -2758,3 +2758,33 @@ Text_EVChecker_3:
 	.include "data/maps/Route49_Pagoda_P11/scripts.inc"
 
 	.include "data/maps/Route49_Pagoda_P12/scripts.inc"
+
+	.include "data/maps/NeoCinnabar_Path/scripts.inc"
+
+	.include "data/maps/NeoRoute20/scripts.inc"
+
+	.include "data/maps/Neo_Route19/scripts.inc"
+
+	.include "data/maps/Neo_FuchsiaCity/scripts.inc"
+
+	.include "data/maps/NeoRoute18/scripts.inc"
+
+	.include "data/maps/NeoRoute15/scripts.inc"
+
+	.include "data/maps/NeoRoute15_Path/scripts.inc"
+
+	.include "data/maps/NeoPalletTown/scripts.inc"
+
+	.include "data/maps/NeoRoute21/scripts.inc"
+
+	.include "data/maps/NeoRoute1/scripts.inc"
+
+	.include "data/maps/NeoViridianCity/scripts.inc"
+
+	.include "data/maps/NeoRoute2/scripts.inc"
+
+	.include "data/maps/NeoRoute22/scripts.inc"
+
+	.include "data/maps/NeoRoute14/scripts.inc"
+
+	.include "data/maps/NeoCinnabar_Gym/scripts.inc"
