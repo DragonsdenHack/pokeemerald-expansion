@@ -99,6 +99,15 @@ Text_18:
 .string "demostró que la existencia de un\l"
 .string "KANGASKHAN allí era un bulo!$"
 
+NeoFuchsiaCityDocumento_100::
+msgbox NeoFuchsiaCityDocumento_Text_100, MSGBOX_SIGN   
+end
+
+NeoFuchsiaCityDocumento_Text_100:
+.string "Gimnasio de CIUDAD FUCSIA\n"
+	.string "LÍDER: SACHIKO\l"
+	.string "La venenosa maestra ninja.$"
+
 
 
 FuchsiaCityDocumento_100::
@@ -152,6 +161,18 @@ end
 FuchsiaCityDocumento_Text_104:
 	.string "ZONA SAFARI\n"
 	.string "¡Hazte con todos!$"
+
+NeoFuchsiaCityDocumento_105::
+msgbox NeoFuchsiaCityDocumento_Text_105, MSGBOX_SIGN
+msgbox NeoFuchsiaCityDocumento_Texto_2, MSGBOX_SIGN      
+end
+
+NeoFuchsiaCityDocumento_Text_105:
+.string "Aquí hay una nota...$"
+
+NeoFuchsiaCityDocumento_Texto_2:
+.string "El PUESTO GUARDA DE LA ZONA SAFARI\n"
+	.string "está cerrado hasta nuevo aviso.$"
 
 
 
@@ -760,3 +781,28 @@ FuchsiaCity_Entrenador_Especial_Texto_10:
 .string "Un ENTRENADOR que se precie jamás\n"
 	.string "huye de un gran combate cuando se\l"
 	.string "le presenta...$"
+
+FuchsiaCity_Basura::
+lock
+msgbox FuchsiaCity_Basura_Texto_1 MSGBOX_SIGN
+msgbox FuchsiaCity_Basura_Texto_2 MSGBOX_SIGN
+release
+end
+
+FuchsiaCity_Basura_Texto_1:
+.string "No ensuciar.$"
+
+FuchsiaCity_Basura_Texto_2:
+.string "Por favor, no tirar basura.$"
+
+FuchsiaCity_MentiraViaje::
+lock
+msgbox FuchsiaCity_MentiraViaje_Texto_1 MSGBOX_SIGN
+release
+end
+
+FuchsiaCity_MentiraViaje_Texto_1:
+.string "El GUARDA está de viaje. Esa es la razón\n"
+	.string "por la que la ZONA SAFARI está cerrada.$"
+
+

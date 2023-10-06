@@ -40,7 +40,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "NeoViridianCity_Primer_Npc",
       "flag": "0"
     },
     {
@@ -79,7 +79,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "ViridianCity_Entrenador_Especial",
       "flag": "0"
     },
     {
@@ -92,7 +92,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "EventScript_CutTree",
       "flag": "0"
     },
     {
@@ -105,7 +105,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "EventScript_CutTree",
       "flag": "0"
     }
   ],
@@ -128,8 +128,8 @@
       "x": 36,
       "y": 10,
       "elevation": 0,
-      "dest_map": "MAP_VIRIDIAN_CITY_GYM",
-      "dest_warp_id": 1
+      "dest_map": "MAP_NEO_VIRIDIAN_GYM",
+      "dest_warp_id": 0
     },
     {
       "x": 25,

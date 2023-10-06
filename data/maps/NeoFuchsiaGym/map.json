@@ -1,14 +1,14 @@
 {
-  "id": "MAP_NEO_CINNABAR_GYM",
-  "name": "NeoCinnabar_Gym",
-  "layout": "LAYOUT_NEO_CINNABAR_GYM",
-  "music": "MUS_RG_MT_MOON",
-  "region_map_section": "MAPSEC_CINNABAR_ISLAND",
+  "id": "MAP_NEO_FUCHSIA_GYM",
+  "name": "NeoFuchsiaGym",
+  "layout": "LAYOUT_NEO_FUCHSIA_GYM",
+  "music": "MUS_RG_GYM",
+  "region_map_section": "MAPSEC_FUCHSIA_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_UNDERGROUND",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
-  "allow_escaping": true,
+  "allow_escaping": false,
   "allow_running": true,
   "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
@@ -18,11 +18,11 @@
   ],
   "warp_events": [
     {
-      "x": 4,
-      "y": 4,
+      "x": 7,
+      "y": 21,
       "elevation": 0,
-      "dest_map": "MAP_NEO_ROUTE20",
-      "dest_warp_id": 0
+      "dest_map": "MAP_NEO_FUCHSIA_CITY",
+      "dest_warp_id": 4
     }
   ],
   "coord_events": [

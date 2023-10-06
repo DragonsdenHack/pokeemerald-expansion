@@ -605,6 +605,9 @@
 #define TRAINER_CLASS_MAESTRO_DUN        0xBD
 #define TRAINER_CLASS_ADMINDEVON         0xBE
 #define TRAINER_CLASS_MAESTRO_TORRE      0xBF
+#define TRAINER_CLASS_COLEGIAL           0xC0
+#define TRAINER_CLASS_MAESTRA            0xC1
+#define TRAINER_CLASS_POKEFAN_2          0xC2
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music

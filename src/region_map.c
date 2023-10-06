@@ -2630,6 +2630,33 @@ static void CB_ExitFlyMap(void)
 						SetWarpDestinationToHealLocation(HEAL_LOCATION_CINNABAR_ISLAND);
 					}
 					break;
+
+                case MAPSEC_VIRIDIAN_CITY:
+					if(VarGet(VAR_UNUSED_0x40F7) >= 187)
+					{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_VIRIDIAN_CITY);
+					}else{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_VIRIDIAN_CITY);
+					}
+					break;
+
+                case MAPSEC_PALLET_TOWN:
+					if(VarGet(VAR_UNUSED_0x40F7) >= 187)
+					{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_PALLET_TOWN);
+					}else{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_PALLET_TOWN);
+					}
+					break;
+
+                case MAPSEC_FUCHSIA_CITY:
+					if(VarGet(VAR_UNUSED_0x40F7) >= 203)
+					{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_NEO_FUCHSIA_CITY);
+					}else{
+						SetWarpDestinationToHealLocation(HEAL_LOCATION_FUCHSIA_CITY);
+					}
+					break;
 					
                 case MAPSEC_SOUTHERN_ISLAND:
                     SetWarpDestinationToHealLocation(HEAL_LOCATION_SOUTHERN_ISLAND_EXTERIOR);

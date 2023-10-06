@@ -14388,6 +14388,30 @@
       "secondary_tileset": "gTileset_MtMoon",
       "border_filepath": "data/layouts/NeoCinnabar_Gym/border.bin",
       "blockdata_filepath": "data/layouts/NeoCinnabar_Gym/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_VIRIDIAN_GYM",
+      "name": "NeoViridianGym_Layout",
+      "width": 12,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_viridian_gym",
+      "border_filepath": "data/layouts/NeoViridianGym/border.bin",
+      "blockdata_filepath": "data/layouts/NeoViridianGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_FUCHSIA_GYM",
+      "name": "NeoFuchsiaGym_Layout",
+      "width": 15,
+      "height": 23,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_fuchsia_gym",
+      "border_filepath": "data/layouts/NeoFuchsiaGym/border.bin",
+      "blockdata_filepath": "data/layouts/NeoFuchsiaGym/map.bin"
     }
   ]
 }

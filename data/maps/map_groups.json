@@ -490,7 +490,8 @@
     "NeoRoute1",
     "NeoViridianCity",
     "NeoRoute2",
-    "NeoRoute22"
+    "NeoRoute22",
+    "NeoViridianGym"
   ],
   "gMapGroup_IndoorPewterCity": [
     "PewterCity_Museum_1F",
@@ -607,7 +608,8 @@
     "NeoRoute18",
     "NeoRoute15",
     "NeoRoute15_Path",
-    "NeoRoute14"
+    "NeoRoute14",
+    "NeoFuchsiaGym"
   ],
   "gMapGroup_IndoorCinnabarIsland": [
     "CinnabarIsland_Gym",

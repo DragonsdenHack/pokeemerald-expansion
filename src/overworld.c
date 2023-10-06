@@ -883,18 +883,24 @@ static void LoadCurrentMapData(void)
 		if(gMapHeader.mapLayoutId == LAYOUT_CINNABAR_ISLAND){
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(23, 13);
 		}
-		
+
+        if(gMapHeader.mapLayoutId == LAYOUT_FUCHSIA_CITY){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(22, 10);
+		}
+
+        if(gMapHeader.mapLayoutId == LAYOUT_ROUTE18){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(22, 11);
+		}
+	
 		if(gMapHeader.mapLayoutId == LAYOUT_ROUTE10){
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 22);
 		}
-		
 		
 		if(gMapHeader.mapLayoutId == LAYOUT_LAVENDER_TOWN){
 			
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 13);
 			gMapHeader.region = REGION_KANTO; 
 		}	
-		
 		
 		if(gMapHeader.mapLayoutId == LAYOUT_ROUTE12){
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(19, 23);

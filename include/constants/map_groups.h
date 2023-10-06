@@ -439,6 +439,7 @@
 #define MAP_NEO_VIRIDIAN_CITY               (6 | (15 << 8))
 #define MAP_NEO_ROUTE2                      (7 | (15 << 8))
 #define MAP_NEO_ROUTE22                     (8 | (15 << 8))
+#define MAP_NEO_VIRIDIAN_GYM                (9 | (15 << 8))
 
 // gMapGroup_IndoorPewterCity
 #define MAP_PEWTER_CITY_MUSEUM_1F (0 | (16 << 8))
@@ -556,6 +557,7 @@
 #define MAP_NEO_ROUTE15                    (12 | (22 << 8))
 #define MAP_NEO_ROUTE15_PATH               (13 | (22 << 8))
 #define MAP_NEO_ROUTE14                    (14 | (22 << 8))
+#define MAP_NEO_FUCHSIA_GYM                (15 | (22 << 8))
 
 // gMapGroup_IndoorCinnabarIsland
 #define MAP_CINNABAR_ISLAND_GYM               (0 | (23 << 8))
@@ -1392,6 +1394,6 @@
 
 #define MAP_GROUPS_COUNT 55
 
-// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 9, 8, 10, 8, 30, 20, 12, 15, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
+// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 30, 20, 12, 16, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 8, 17, 10, 23, 13, 15, 15, 108, 61, 89, 47, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

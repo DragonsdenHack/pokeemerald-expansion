@@ -1,2 +1,17 @@
 NeoRoute14_MapScripts::
 	.byte 0
+
+NeoRoute14_EventScript_Ornitologo::
+	trainerbattle_single TRAINER_TRAINER_238, NeoRoute14_Text_OrnitologoIntro, NeoRoute14_Text_OrnitologoDefeated
+	msgbox NeoRoute14_OrnitologoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute14_EventScript_Pokefan::
+	trainerbattle_single TRAINER_TRAINER_239, NeoRoute14_Text_PokefanIntro, NeoRoute14_Text_PokefanDefeated
+	msgbox NeoRoute14_PokefanPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute14_EventScript_Pokefan2::
+	trainerbattle_single TRAINER_TRAINER_240, NeoRoute14_Text_Pokefan2Intro, NeoRoute14_Text_Pokefan2Defeated
+	msgbox NeoRoute14_Pokefan2PostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -1,2 +1,12 @@
 NeoRoute2_MapScripts::
 	.byte 0
+
+NeoRoute2_EventScript_Cazabichos::
+	trainerbattle_single TRAINER_TRAINER_245, NeoRoute2_Text_CazabichosIntro, NeoRoute2_Text_CazabichosDefeated
+	msgbox NeoRoute2_CazabichosPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute2_EventScript_Cazabichos2::
+	trainerbattle_single TRAINER_TRAINER_246, NeoRoute2_Text_Cazabichos2Intro, NeoRoute2_Text_Cazabichos2Defeated
+	msgbox NeoRoute2_Cazabichos2PostBattle, MSGBOX_AUTOCLOSE
+	end

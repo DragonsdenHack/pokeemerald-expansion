@@ -31,7 +31,7 @@
   ],
   "object_events": [
     {
-      "graphics_id": "OBJ_EVENT_GFX_ROCKER",
+      "graphics_id": "OBJ_EVENT_GFX_BOY4",
       "x": 29,
       "y": 23,
       "elevation": 3,
@@ -40,7 +40,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "FuchsiaCityDocumento_106",
       "flag": "0"
     },
     {
@@ -53,7 +53,7 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Neo_FuchsiaCity_Segundo_Npc",
       "flag": "0"
     },
     {
@@ -66,7 +66,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "Neo_FuchsiaCity_Tercer_Npc",
       "flag": "0"
     },
     {
@@ -79,8 +79,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_14"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CUT_TREE",
@@ -92,8 +92,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "EventScript_CutTree",
+      "flag": "FLAG_TEMP_12"
     }
   ],
   "warp_events": [
@@ -129,8 +129,8 @@
       "x": 9,
       "y": 32,
       "elevation": 0,
-      "dest_map": "MAP_FUCHSIA_CITY_GYM",
-      "dest_warp_id": 1
+      "dest_map": "MAP_NEO_FUCHSIA_GYM",
+      "dest_warp_id": 0
     },
     {
       "x": 14,
@@ -185,7 +185,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "FuchsiaCityDocumento_106"
+      "script": "NeoFuchsiaCityDocumento_105"
     },
     {
       "type": "sign",
@@ -193,23 +193,39 @@
       "y": 32,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "FuchsiaCityDocumento_100"
+      "script": "NeoFuchsiaCityDocumento_100"
     },
     {
       "type": "sign",
-      "x": 26,
+      "x": 27,
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "FuchsiaCityDocumento_105"
+      "script": "FuchsiaCityDocumento_106"
     },
     {
       "type": "sign",
-      "x": 31,
-      "y": 31,
+      "x": 33,
+      "y": 33,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "FuchsiaCityDocumento_107"
+    },
+    {
+      "type": "sign",
+      "x": 17,
+      "y": 18,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "FuchsiaCity_Basura"
+    },
+    {
+      "type": "sign",
+      "x": 22,
+      "y": 7,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "FuchsiaCity_MentiraViaje"
     }
   ]
 }

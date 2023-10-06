@@ -1,12 +1,12 @@
 {
-  "id": "MAP_NEO_CINNABAR_GYM",
-  "name": "NeoCinnabar_Gym",
-  "layout": "LAYOUT_NEO_CINNABAR_GYM",
-  "music": "MUS_RG_MT_MOON",
-  "region_map_section": "MAPSEC_CINNABAR_ISLAND",
+  "id": "MAP_NEO_VIRIDIAN_GYM",
+  "name": "NeoViridianGym",
+  "layout": "LAYOUT_NEO_VIRIDIAN_GYM",
+  "music": "MUS_RG_GYM",
+  "region_map_section": "MAPSEC_VIRIDIAN_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_UNDERGROUND",
+  "map_type": "MAP_TYPE_INDOOR",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
@@ -18,11 +18,11 @@
   ],
   "warp_events": [
     {
-      "x": 4,
-      "y": 4,
+      "x": 5,
+      "y": 18,
       "elevation": 0,
-      "dest_map": "MAP_NEO_ROUTE20",
-      "dest_warp_id": 0
+      "dest_map": "MAP_NEO_VIRIDIAN_CITY",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

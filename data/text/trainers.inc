@@ -17484,6 +17484,170 @@ Route49_Pagoda_P7_Text_Pensador1PostBattle:
 	.string "misma intensidad del primer día.$"
 
 
+NeoRoute15_Text_ColegialIntro:
+.string "Iremos a la TORRE RADIO de LAVANDA para\n"
+	.string "realizar unos estudios sociales.$"
+
+NeoRoute15_Text_ColegialDefeated:
+.string "¡Eres demasiado fuerte!$"
+
+NeoRoute15_ColegialPostBattle:
+.string "Estoy cansado de caminar. Necesito un\n"
+	.string "descanso.$"
+
+NeoRoute15_Text_Colegial2Intro:
+.string "¡Mi asignatura favorita es la gimnasia!$"
+
+NeoRoute15_Text_Colegial2Defeated:
+.string "¡Oh, no! ¿Cómo he podido perder?$"
+
+NeoRoute15_Colegial2PostBattle:
+.string "¡Si los POKÉMON fueran una asignatura,\n"
+	.string "yo sería el mejor!$"
+
+NeoRoute15_Text_Colegial3Intro:
+.string "Luchemos. ¡No perderé!$"
+
+NeoRoute15_Text_Colegial3Defeated:
+.string "¡Me olvidé de hacer los deberes!$"
+
+NeoRoute15_Colegial3PostBattle:
+.string "¡Sayonara! Lo he aprendido en la clase\n"
+	.string "de japonés.$"
+
+NeoRoute15_Text_Colegial4Intro:
+.string "Espera. Tengo que llamar a mamá.$"
+
+NeoRoute15_Text_Colegial4Defeated:
+.string "¡Lo siento, mamá! ¡Me han vencido!$"
+
+NeoRoute15_Colegial4PostBattle:
+.string "Mi madre se preocupa mucho por mí,\n"
+	.string "tengo que llamarla siempre.$"
+
+NeoRoute15_Text_ProfesoraIntro:
+.string "¿Has olvidado algo?$"
+
+NeoRoute15_Text_ProfesoraDefeated:
+.string "¡Kiaaa!$"
+
+NeoRoute15_ProfesoraPostBattle:
+.string "Antes de ser maestra, solía olvidarme\n"
+	.string "de muchas cosas.$"
+
+NeoRoute15_Text_Profesora2Intro:
+.string "Creo que si hace sol, los niños deberían\n"
+	.string "estar jugando en el patio en lugar de\l"
+	.string "estar en clase.$"
+
+NeoRoute15_Text_Profesora2Defeated:
+.string "No quería perder...$"
+
+NeoRoute15_Profesora2PostBattle:
+.string "Es importante estudiar, pero hacer\n"
+	.string "deporte también.$"
+
+NeoRoute14_Text_OrnitologoIntro:
+.string "Mi sueño es volar con mi querido\n"
+	.string "POKéMON pájaro.$"
+
+NeoRoute14_Text_OrnitologoDefeated:
+.string "Puedo soñar, pero nunca podré volar.$"
+
+NeoRoute14_OrnitologoPostBattle:
+.string "¿Tienes POKéMON que conozcan la MO\n"
+	.string "VUELO? ¿Sí? ¡Qué envidia!$"
+
+NeoRoute14_Text_PokefanIntro:
+.string "¿Sabes qué? Los POKéMON son más\n"
+	.string "amigables si los entrenas en un lugar\l"
+	.string "que ellos recuerden.$"
+
+NeoRoute14_Text_PokefanDefeated:
+.string "¿Dónde conocí a este PSYDUCK?$"
+
+NeoRoute14_PokefanPostBattle:
+.string "Si hubiera un sistema fácil de\n"
+	.string "identificar dónde obtuve mi POKéMON...$"
+
+NeoRoute14_Text_Pokefan2Intro:
+.string "Que sepas que me costó mucho atrapar a\n"
+	.string "mis queridos POKéMON.$"
+
+NeoRoute14_Text_Pokefan2Defeated:
+.string "¡Auuuu!$"
+
+NeoRoute14_Pokefan2PostBattle:
+.string "BLASTOISE, CHARIZARD y VENUSAUR. Creo\n"
+	.string "que es una buena combinación.$"
+
+NeoRoute18_Text_OrnitologoIntro:
+.string "El CAMINO de BICIS es un atajo a CIUDAD\n"
+	.string "AZULONA.$"
+
+NeoRoute18_Text_OrnitologoDefeated:
+.string "¡Uau...!$"
+
+NeoRoute18_OrnitologoPostBattle:
+.string "Si no tienes una BICI, no podrás usar el\n"
+	.string "atajo.$"
+
+NeoRoute18_Text_Ornitologo2Intro:
+.string "Si estás buscando POKÉMON, mira en las\n"
+	.string "zonas de hierba alta.$"
+
+NeoRoute18_Text_Ornitologo2Defeated:
+.string "¡Ayyyy!$"
+
+NeoRoute18_Ornitologo2PostBattle:
+.string "Siendo tan fuerte, debe de ser muy\n"
+	.string "divertido luchar.$"
+
+NeoRoute1_Text_ColegialIntro:
+.string "Luchar es lo primero que hacen los\n"
+	.string "entrenadores si se encuentran.$"
+
+NeoRoute1_Text_ColegialDefeated:
+.string "Tengo el récord de combates perdidos.$"
+
+NeoRoute1_ColegialPostBattle:
+.string "Es obvio que los entrenadores luchemos\n"
+	.string "cuando nos encontremos.$"
+
+NeoRoute1_Text_GuayIntro:
+.string "¡Estás ahí! ¿Quieres luchar?$"
+
+NeoRoute1_Text_GuayDefeated:
+.string "He perdido...$"
+
+NeoRoute1_GuayPostBattle:
+.string "Eres fuerte. Seguro que te has\n"
+	.string "entrenado mucho.$"
+
+NeoRoute2_Text_CazabichosIntro:
+.string "Mis Pokémon bicho son muy fuertes.\n"
+	.string "¡Prepárate para perder!$"
+
+NeoRoute2_Text_CazabichosDefeated:
+.string "Me vencieron...$"
+
+NeoRoute2_CazabichosPostBattle:
+.string "Voy a buscar a Pokémon bicho más\n"
+	.string "fuertes.$"
+
+NeoRoute2_Text_Cazabichos2Intro:
+.string "¿Por qué a las chicas no les gustan los\n"
+	.string "Pokémon bicho?$"
+
+NeoRoute2_Text_Cazabichos2Defeated:
+.string "¡Muy mal!$"
+
+NeoRoute2_Cazabichos2PostBattle:
+.string "Los Pokémon bicho parecen muñecos de\n"
+	.string "goma cuando les aprietas la tripa. ¡Me\l"
+	.string "encanta tocarlos!$"
+
+
 
 
 

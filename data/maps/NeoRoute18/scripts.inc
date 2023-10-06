@@ -1,2 +1,12 @@
 NeoRoute18_MapScripts::
 	.byte 0
+
+NeoRoute18_EventScript_Ornitologo::
+	trainerbattle_single TRAINER_TRAINER_241, NeoRoute18_Text_OrnitologoIntro, NeoRoute18_Text_OrnitologoDefeated
+	msgbox NeoRoute18_OrnitologoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute18_EventScript_Ornitologo2::
+	trainerbattle_single TRAINER_TRAINER_242, NeoRoute18_Text_Ornitologo2Intro, NeoRoute18_Text_Ornitologo2Defeated
+	msgbox NeoRoute18_Ornitologo2PostBattle, MSGBOX_AUTOCLOSE
+	end
