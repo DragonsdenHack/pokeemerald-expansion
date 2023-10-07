@@ -234,6 +234,7 @@ gScriptCmdTable::
 	.4byte SrcCmd_cleardisguise            	@ 0xe7
 	.4byte SrcCmd_setbacksprite				@ 0xe8
 	.4byte SrcCmd_resetbacksprite			@ 0xe9
+	.4byte SrcCmd_changeavatar				@ 0xea
 
 gScriptCmdTableEnd::
 	.4byte ScrCmd_nop
