@@ -2792,3 +2792,5 @@ Text_EVChecker_3:
 	.include "data/maps/NeoViridianGym/scripts.inc"
 
 	.include "data/maps/NeoFuchsiaGym/scripts.inc"
+
+	.include "data/maps/NeoRoute19_Path/scripts.inc"

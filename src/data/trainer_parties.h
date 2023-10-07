@@ -31060,47 +31060,127 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER246[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER247[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 86,
+    .species = SPECIES_MARILL,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_KNOCK_OFF, MOVE_HYDRO_PUMP, MOVE_SUPERPOWER, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_MARILL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_KNOCK_OFF, MOVE_HYDRO_PUMP, MOVE_SUPERPOWER, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_MARILL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_KNOCK_OFF, MOVE_HYDRO_PUMP, MOVE_SUPERPOWER, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_MARILL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_KNOCK_OFF, MOVE_HYDRO_PUMP, MOVE_SUPERPOWER, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_MARILL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_KNOCK_OFF, MOVE_HYDRO_PUMP, MOVE_SUPERPOWER, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_MARILL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_KNOCK_OFF, MOVE_HYDRO_PUMP, MOVE_SUPERPOWER, MOVE_NONE}
     }
 
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER248[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .iv = 20,
+    .lvl = 91,
+    .species = SPECIES_STARMIE,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_PSYCHIC, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 91,
+    .species = SPECIES_STARMIE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_PSYCHIC, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_NONE}
     }
 
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER249[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .iv = 20,
+    .lvl = 86,
+    .species = SPECIES_MARILL,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_PLAY_ROUGH, MOVE_SUPERPOWER, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 88,
+    .species = SPECIES_AZUMARILL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_PLAY_ROUGH, MOVE_SUPERPOWER, MOVE_AQUA_TAIL, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 90,
+    .species = SPECIES_LAPRAS,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_BODY_SLAM, MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_NONE}
     }
 
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER250[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .iv = 20,
+    .lvl = 86,
+    .species = SPECIES_SEADRA,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_ICE_BEAM, MOVE_OUTRAGE, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 88,
+    .species = SPECIES_OCTILLERY,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_OCTAZOOKA, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 90,
+    .species = SPECIES_KINGDRA,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_OUTRAGE, MOVE_ICE_BEAM, MOVE_NONE}
     }
 
 };
@@ -31108,23 +31188,63 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER250[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER251[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 84,
+    .species = SPECIES_SEAKING,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_MEGAHORN, MOVE_AQUA_TAIL, MOVE_POISON_JAB, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 0,
+    .lvl = 85,
+    .species = SPECIES_SEAKING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_MEGAHORN, MOVE_AQUA_TAIL, MOVE_POISON_JAB, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_SEAKING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_MEGAHORN, MOVE_AQUA_TAIL, MOVE_POISON_JAB, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 0,
+    .lvl = 87,
+    .species = SPECIES_SEAKING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_MEGAHORN, MOVE_AQUA_TAIL, MOVE_POISON_JAB, MOVE_KNOCK_OFF}
+    },
+    {
+    .iv = 0,
+    .lvl = 88,
+    .species = SPECIES_SEAKING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_MEGAHORN, MOVE_AQUA_TAIL, MOVE_POISON_JAB, MOVE_KNOCK_OFF}
     }
 
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER252[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .iv = 20,
+    .lvl = 89,
+    .species = SPECIES_CLOYSTER,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ICICLE_SPEAR, MOVE_ROCK_BLAST, MOVE_HYDRO_PUMP, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 93,
+    .species = SPECIES_CLOYSTER,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_ICICLE_SPEAR, MOVE_ROCK_BLAST, MOVE_HYDRO_PUMP, MOVE_NONE}
     }
 
 };
@@ -31132,23 +31252,63 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER252[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER253[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 83,
+    .species = SPECIES_TENTACRUEL,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_TOXIC_SPIKES, MOVE_BARRIER}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_SEADRA,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_OUTRAGE, MOVE_ICE_BEAM, MOVE_NONE}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_SEAKING,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_MEGAHORN, MOVE_KNOCK_OFF, MOVE_AQUA_TAIL, MOVE_POISON_JAB}
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_TENTACRUEL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_TOXIC_SPIKES, MOVE_BARRIER}
     }
 
 };
 
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER254[] = {
     {
-    .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .iv = 20,
+    .lvl = 87,
+    .species = SPECIES_QUAGSIRE,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_MUDDY_WATER, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 88,
+    .species = SPECIES_OCTILLERY,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_OCTAZOOKA, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 20,
+    .lvl = 89,
+    .species = SPECIES_QUAGSIRE,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_ICE_BEAM, MOVE_MUDDY_WATER, MOVE_NONE}
     }
 
 };
@@ -31156,11 +31316,35 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER254[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER255[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 83,
+    .species = SPECIES_CORSOLA,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ANCIENT_POWER, MOVE_HYDRO_PUMP, MOVE_ROCK_BLAST, MOVE_HEAD_SMASH}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_TENTACRUEL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_TOXIC_SPIKES, MOVE_BARRIER}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_TENTACRUEL,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_TOXIC_SPIKES, MOVE_BARRIER}
+    },
+    {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_KINGLER,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_CRABHAMMER, MOVE_ROCK_SLIDE, MOVE_SUPERPOWER, MOVE_CRABHAMMER}
     }
 
 };
@@ -31168,11 +31352,43 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER255[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER256[] = {
     {
     .iv = 0,
-    .lvl = 9,
-    .species = SPECIES_ARCANINE,
+    .lvl = 84,
+    .species = SPECIES_DEWGONG,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_FLAMETHROWER, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_MEGAHORN}
+    },
+    {
+    .iv = 0,
+    .lvl = 85,
+    .species = SPECIES_DEWGONG,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_MEGAHORN}
+    },
+    {
+    .iv = 0,
+    .lvl = 86,
+    .species = SPECIES_DEWGONG,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_MEGAHORN}
+    },
+    {
+    .iv = 0,
+    .lvl = 87,
+    .species = SPECIES_DEWGONG,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_MEGAHORN}
+    },
+    {
+    .iv = 0,
+    .lvl = 88,
+    .species = SPECIES_DEWGONG,
+    .evs = {0, 0, 0, 0, 0, 0},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_SURF, MOVE_ICE_BEAM, MOVE_BODY_SLAM, MOVE_MEGAHORN}
     }
 
 };

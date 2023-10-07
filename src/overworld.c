@@ -871,6 +871,18 @@ static void LoadCurrentMapData(void)
 		if(gMapHeader.mapLayoutId == LAYOUT_CINNABAR_ISLAND){
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(23, 13);
 		}
+
+        if(gMapHeader.mapLayoutId == LAYOUT_VIRIDIAN_CITY){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(15, 6);
+		}
+
+        if(gMapHeader.mapLayoutId == LAYOUT_PALLET_TOWN){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(14, 4);
+		}
+
+        if(gMapHeader.mapLayoutId == LAYOUT_ROUTE19){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(23, 18);
+		}
 	}else{
 			
 	
@@ -882,6 +894,18 @@ static void LoadCurrentMapData(void)
 	if(VarGet(VAR_UNUSED_0x40F7) >= 203){
 		if(gMapHeader.mapLayoutId == LAYOUT_CINNABAR_ISLAND){
 			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(23, 13);
+		}
+
+        if(gMapHeader.mapLayoutId == LAYOUT_VIRIDIAN_CITY){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(15, 6);
+		}
+
+        if(gMapHeader.mapLayoutId == LAYOUT_PALLET_TOWN){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(14, 4);
+		}
+
+        if(gMapHeader.mapLayoutId == LAYOUT_ROUTE19){
+			gMapHeader = *Overworld_GetMapHeaderByGroupAndId(23, 18);
 		}
 
         if(gMapHeader.mapLayoutId == LAYOUT_FUCHSIA_CITY){

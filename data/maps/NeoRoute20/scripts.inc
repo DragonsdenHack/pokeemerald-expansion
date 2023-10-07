@@ -1,2 +1,17 @@
 NeoRoute20_MapScripts::
 	.byte 0
+
+NeoRoute20_EventScript_Nadador::
+	trainerbattle_single TRAINER_TRAINER_247, NeoRoute20_Text_NadadorIntro, NeoRoute20_Text_NadadorDefeated
+	msgbox NeoRoute20_NadadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute20_EventScript_Nadadora::
+	trainerbattle_single TRAINER_TRAINER_248, NeoRoute20_Text_NadadoraIntro, NeoRoute20_Text_NadadoraDefeated
+	msgbox NeoRoute20_NadadoraPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute20_EventScript_Nadadora2::
+	trainerbattle_single TRAINER_TRAINER_249, NeoRoute20_Text_Nadadora2Intro, NeoRoute20_Text_Nadadora2Defeated
+	msgbox NeoRoute20_Nadadora2PostBattle, MSGBOX_AUTOCLOSE
+	end

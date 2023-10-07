@@ -17647,6 +17647,114 @@ NeoRoute2_Cazabichos2PostBattle:
 	.string "goma cuando les aprietas la tripa. ¡Me\l"
 	.string "encanta tocarlos!$"
 
+NeoRoute20_Text_NadadorIntro:
+.string "Supongo que es imposible ir nadando\n"
+	.string "hasta JOHTO.$"
+
+NeoRoute20_Text_NadadorDefeated:
+.string "¡Aiyaa!$"
+
+NeoRoute20_NadadorPostBattle:
+.string "Además de nadar en el mar, puedo nadar\n"
+	.string "en varios estanques y ríos.$"
+
+NeoRoute20_Text_NadadoraIntro:
+.string "¡Vaya colección de MEDALLAS de\n"
+	.string "GIMNASIO! ¡Luchemos!$"
+
+NeoRoute20_Text_NadadoraDefeated:
+.string "¡No!$"
+
+NeoRoute20_NadadoraPostBattle:
+.string "SURF ya no es el único movimiento que se\n"
+	.string "utiliza en el agua.$"
+
+NeoRoute20_Text_Nadadora2Intro:
+.string "Me siento más ligera en el agua.$"
+
+NeoRoute20_Text_Nadadora2Defeated:
+.string "¡Oh, no!$"
+
+NeoRoute20_Nadadora2PostBattle:
+.string "La natación fortalece todo tu cuerpo.\n"
+	.string "¡Es muy sana!$"
+
+NeoRoute19_Text_NadadorIntro:
+.string "¿Has nadado alguna vez en el mar por la\n"
+	.string "noche?$"
+
+NeoRoute19_Text_NadadorDefeated:
+.string "¡Glup...!$"
+
+NeoRoute19_NadadorPostBattle:
+.string "De noche, el mar está oscuro. Da la\n"
+	.string "impresión de que te va a tragar.$"
+
+NeoRoute19_Text_NadadoraIntro:
+	.string "¡No me gustan los peques!$"
+
+NeoRoute19_Text_NadadoraDefeated:
+.string "Podría ganarte nadando...$"
+
+NeoRoute19_NadadoraPostBattle:
+.string "No hay que nadar mucho desde CIUDAD\n"
+	.string "FUCSIA a las ISLAS ESPUMA... ¡Con todo\l"
+	.string "lo grande que es, menudo blandengue!$"
+
+NeoRoute19_Text_Nadador2Intro:
+	.string "Un... poco más... y... llegaré... a\n"
+	.string "CIUDAD FUCSIA...$"
+
+NeoRoute19_Text_Nadador2Defeated:
+.string "¡Me ahogo!$"
+
+NeoRoute19_Nadador2PostBattle:
+.string "Le... pedí a mi novia que nadara a CIUDAD\n"
+	.string "FUCSIA...$"
+
+NeoRoute19_Text_Nadador3Intro:
+.string "Soy malísimo nadando. Sólo estoy\n"
+	.string "chapoteando por estas aguas poco\l"
+	.string "profundas.$"
+
+NeoRoute19_Text_Nadador3Defeated:
+.string "Creía que podía ganar.$"
+
+NeoRoute19_Nadador3PostBattle:
+.string "Puede que no nade muy bien, pero me\n"
+	.string "encanta el mar.$"
+
+NeoRoute21_Text_NadadorIntro:
+.string "Tierra a la vista. ¡Sigamos adelante!$"
+
+NeoRoute21_Text_NadadorDefeated:
+.string "¡Glup...!$"
+
+NeoRoute21_NadadorPostBattle:
+.string "Ese chico tan arrogante estaba en el\n"
+	.string "volcán de ISLA CANELA.$"
+
+NeoRoute21_Text_PescadorIntro:
+.string "Estoy aburrido de pescar. ¡Luchemos!$"
+
+NeoRoute21_Text_PescadorDefeated:
+.string "Qué fracaso...$"
+
+NeoRoute21_PescadorPostBattle:
+.string "Voy a volver a pescar...$"
+
+NeoRoute21_Text_NadadoraIntro:
+.string "¡Si gano, tienes que ayudarme con la\n"
+	.string "loción solar!$"
+
+NeoRoute21_Text_NadadoraDefeated:
+.string "No quiero quemarme...$"
+
+NeoRoute21_NadadoraPostBattle:
+.string "Debería tener cuidado con las manchas\n"
+	.string "causadas por el sol.$"
+
+
 
 
 

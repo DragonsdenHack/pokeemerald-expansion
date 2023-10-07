@@ -22,6 +22,11 @@
       "direction": "right",
       "offset": -60,
       "map": "MAP_ROUTE12"
+    },
+    {
+      "direction": "right",
+      "offset": -60,
+      "map": "MAP_NEO_LAVANDA_RUTA_SUR"
     }
   ],
   "object_events": [

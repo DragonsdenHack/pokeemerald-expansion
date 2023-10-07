@@ -366,12 +366,24 @@ walk_in_place_up
 step_end
 
 Viridian_Gym_Base_Warp::
+compare VAR_UNUSED_0x40F7, 187
+goto_if_gt Viridian_Gym_Base_Warp_2
 applymovement OBJ_EVENT_ID_PLAYER, Viridian_Gym_Base_Warp_move2
 waitmovement 0x0
 msgbox Viridian_Gym_Base_Warp_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Viridian_Gym_Base_Warp_No
 warp MAP_VIRIDIAN_CITY_GYM, 2, 2
+release
+end
+
+Viridian_Gym_Base_Warp_2::
+applymovement OBJ_EVENT_ID_PLAYER, Viridian_Gym_Base_Warp_move2
+waitmovement 0x0
+msgbox Viridian_Gym_Base_Warp_Text_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Viridian_Gym_Base_Warp_No
+warp MAP_NEO_VIRIDIAN_GYM, 5, 2
 release
 end
 

@@ -211,7 +211,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
-      "x": 25,
+      "x": 26,
       "y": 25,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
@@ -251,7 +251,7 @@
   ],
   "warp_events": [
     {
-      "x": 25,
+      "x": 24,
       "y": 25,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_VIRIDIAN",

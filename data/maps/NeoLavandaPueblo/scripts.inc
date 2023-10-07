@@ -546,3 +546,13 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 	.string "pero tendrá que esperar un poco para\l"
 	.string "entrar.$"
 
+NeoLavandaPueblo_Prueba::
+lock
+setvar VAR_UNUSED_0x40F7, 192
+msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
+release
+end
+
+NeoLavandaPueblo_Segundo_Policia_Texto_111::
+.string "seteado.$"
+

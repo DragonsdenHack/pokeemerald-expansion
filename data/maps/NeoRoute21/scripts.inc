@@ -1,2 +1,17 @@
 NeoRoute21_MapScripts::
 	.byte 0
+
+NeoRoute21_EventScript_Nadador::
+	trainerbattle_single TRAINER_TRAINER_254, NeoRoute21_Text_NadadorIntro, NeoRoute21_Text_NadadorDefeated
+	msgbox NeoRoute21_NadadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute21_EventScript_Pescador::
+	trainerbattle_single TRAINER_TRAINER_255, NeoRoute21_Text_PescadorIntro, NeoRoute21_Text_PescadorDefeated
+	msgbox NeoRoute21_PescadorPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NeoRoute21_EventScript_Nadadora::
+	trainerbattle_single TRAINER_TRAINER_256, NeoRoute21_Text_NadadoraIntro, NeoRoute21_Text_NadadoraDefeated
+	msgbox NeoRoute21_NadadoraPostBattle, MSGBOX_AUTOCLOSE
+	end

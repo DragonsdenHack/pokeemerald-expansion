@@ -14412,6 +14412,18 @@
       "secondary_tileset": "gTileset_fuchsia_gym",
       "border_filepath": "data/layouts/NeoFuchsiaGym/border.bin",
       "blockdata_filepath": "data/layouts/NeoFuchsiaGym/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_ROUTE19_PATH",
+      "name": "NeoRoute19_Path_Layout",
+      "width": 9,
+      "height": 11,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_2",
+      "border_filepath": "data/layouts/NeoRoute19_Path/border.bin",
+      "blockdata_filepath": "data/layouts/NeoRoute19_Path/map.bin"
     }
   ]
 }

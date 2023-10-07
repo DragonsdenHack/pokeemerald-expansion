@@ -129,7 +129,7 @@
 #define VAR_ROUTE115_STATE                   0x406E // ENTRENADOR ESPECIAL CALLE VICTORIA
 #define VAR_ROUTE116_STATE                   0x406F
 #define VAR_ROUTE117_STATE                   0x4070 // ENTRENADOR ESPECIAL ISLA CANELA
-#define VAR_ROUTE118_STATE                   0x4071
+#define VAR_ROUTE118_STATE                   0x4071 // ENCUENTRO ZINNIA
 #define VAR_ROUTE119_STATE                   0x4072
 #define VAR_ROUTE120_STATE                   0x4073 // ENTRENADOR ESPECIAL CIUDAD AZAFRAN
 #define VAR_ROUTE121_STATE                   0x4074
@@ -161,7 +161,7 @@
 #define VAR_BOARD_BRINEY_BOAT_STATE          0x408E
 #define VAR_DEVON_CORP_3F_STATE              0x408F //variable que cambia conforme cambia de rango
 #define VAR_BRINEY_HOUSE_STATE               0x4090
-#define VAR_UNUSED_0x4091                    0x4091 // ESTAFADORES EN KANTO - CIENTIFICO FUSCIA // ENCUENTRO ZINNIA VALOR 9 
+#define VAR_UNUSED_0x4091                    0x4091 // ESTAFADORES EN KANTO - CIENTIFICO FUSCIA //
 #define VAR_LITTLEROOT_INTRO_STATE           0x4092
 #define VAR_MAUVILLE_GYM_STATE               0x4093
 #define VAR_LILYCOVE_MUSEUM_2F_STATE         0x4094
