@@ -1764,38 +1764,38 @@ const u8 *const gDeptStoreFloorNames[] =
 static const u16 sElevatorWindowTiles_Ascending[][3] =
 {
     {
-        METATILE_BattleFrontier_Elevator_Top0,
-        METATILE_BattleFrontier_Elevator_Top1,
-        METATILE_BattleFrontier_Elevator_Top2
+        METATILE_SilphCo_ElevatorWindow_Top0,
+        METATILE_SilphCo_ElevatorWindow_Top1,
+        METATILE_SilphCo_ElevatorWindow_Top2
     },
     {
-        METATILE_BattleFrontier_Elevator_Mid0,
-        METATILE_BattleFrontier_Elevator_Mid1,
-        METATILE_BattleFrontier_Elevator_Mid2
+        METATILE_SilphCo_ElevatorWindow_Mid0,
+        METATILE_SilphCo_ElevatorWindow_Mid1,
+        METATILE_SilphCo_ElevatorWindow_Mid2
     },
     {
-        METATILE_BattleFrontier_Elevator_Bottom0,
-        METATILE_BattleFrontier_Elevator_Bottom1,
-        METATILE_BattleFrontier_Elevator_Bottom2
+        METATILE_SilphCo_ElevatorWindow_Bottom0,
+        METATILE_SilphCo_ElevatorWindow_Bottom1,
+        METATILE_SilphCo_ElevatorWindow_Bottom2
     },
 };
 
 static const u16 sElevatorWindowTiles_Descending[][3] =
 {
     {
-        METATILE_BattleFrontier_Elevator_Top0,
-        METATILE_BattleFrontier_Elevator_Top2,
-        METATILE_BattleFrontier_Elevator_Top1
+        METATILE_SilphCo_ElevatorWindow_Top0,
+        METATILE_SilphCo_ElevatorWindow_Top2,
+        METATILE_SilphCo_ElevatorWindow_Top1
     },
     {
-        METATILE_BattleFrontier_Elevator_Mid0,
-        METATILE_BattleFrontier_Elevator_Mid2,
-        METATILE_BattleFrontier_Elevator_Mid1
+        METATILE_SilphCo_ElevatorWindow_Mid0,
+        METATILE_SilphCo_ElevatorWindow_Mid2,
+        METATILE_SilphCo_ElevatorWindow_Mid1
     },
     {
-        METATILE_BattleFrontier_Elevator_Bottom0,
-        METATILE_BattleFrontier_Elevator_Bottom2,
-        METATILE_BattleFrontier_Elevator_Bottom1
+        METATILE_SilphCo_ElevatorWindow_Bottom0,
+        METATILE_SilphCo_ElevatorWindow_Bottom2,
+        METATILE_SilphCo_ElevatorWindow_Bottom1
     },
 };
 
@@ -1822,6 +1822,18 @@ void SetDeptStoreFloor(void)
         case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_ROOFTOP):
             deptStoreFloor = DEPT_STORE_FLOORNUM_ROOFTOP;
             break;
+		case MAP_NUM(ROCKET_HIDEOUT_1F):
+            deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
+            break;	
+		case MAP_NUM(ROCKET_HIDEOUT_2F):
+            deptStoreFloor = DEPT_STORE_FLOORNUM_2F;
+            break;
+		case MAP_NUM(ROCKET_HIDEOUT_3F):
+            deptStoreFloor = DEPT_STORE_FLOORNUM_3F;
+            break;
+		case MAP_NUM(ROCKET_HIDEOUT_4F):
+            deptStoreFloor = DEPT_STORE_FLOORNUM_4F;
+            break;	
         default:
             deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
             break;
@@ -1860,7 +1872,28 @@ u16 GetDeptStoreDefaultFloorChoice(void)
                 break;
         }
     }
-
+	if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(ROCKET_HIDEOUT_ELEVATOR))
+    {
+		switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
+        {
+			case MAP_NUM(ROCKET_HIDEOUT_4F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 0;
+                break;
+			case MAP_NUM(ROCKET_HIDEOUT_3F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 1;
+                break;
+			case MAP_NUM(ROCKET_HIDEOUT_2F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 2;
+                break;
+			case MAP_NUM(ROCKET_HIDEOUT_1F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 3;
+                break;		
+		}	
+	}
     return sLilycoveDeptStore_DefaultFloorChoice;
 }
 

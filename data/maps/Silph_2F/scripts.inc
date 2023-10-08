@@ -3,8 +3,8 @@ Silph_2F_MapScripts::
 	.byte 0
 	
 SilphCo_2F_OnLoad:: @ 8161647
-	@call_if_unset FLAG_UNUSED_0x935, EventScript_Close2FDoor1
-	@call_if_unset FLAG_UNUSED_0x936, EventScript_Close2FDoor2
+	call_if_unset FLAG_UNUSED_0x028, EventScript_Close2FDoor1
+	call_if_unset FLAG_UNUSED_0x029, EventScript_Close2FDoor2
 	end	
 
 Chica_Iman::

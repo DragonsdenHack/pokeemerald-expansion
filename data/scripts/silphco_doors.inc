@@ -1,4 +1,6 @@
 EventScript_NeedCardKey::
+	checkitem ITEM_CARD_KEY
+	goto_if_eq VAR_RESULT, TRUE, EventScript_TryUnlockDoor
 	msgbox Text_ItNeedsCardKey
 	releaseall
 	end
@@ -349,165 +351,165 @@ EventScript_Open11FDoor::
 SilphCo_2F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 1
-	setvar VAR_0x8004, FLAG_UNUSED_0x935
-	goto_if_set FLAG_UNUSED_0x935, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x028
+	goto_if_set FLAG_UNUSED_0x028, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_2F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 2
-	setvar VAR_0x8004, FLAG_UNUSED_0x936
-	goto_if_set FLAG_UNUSED_0x936, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x029
+	goto_if_set FLAG_UNUSED_0x029, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_3F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 3
-	setvar VAR_0x8004, FLAG_UNUSED_0x937
-	goto_if_set FLAG_UNUSED_0x937, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x02A
+	goto_if_set FLAG_UNUSED_0x02A, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_3F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 4
-	setvar VAR_0x8004, FLAG_UNUSED_0x938
-	goto_if_set FLAG_UNUSED_0x938, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x02B
+	goto_if_set FLAG_UNUSED_0x02B, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_4F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 5
-	setvar VAR_0x8004, FLAG_UNUSED_0x939
-	goto_if_set FLAG_UNUSED_0x939, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x02C
+	goto_if_set FLAG_UNUSED_0x02C, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_4F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 6
-	setvar VAR_0x8004, FLAG_UNUSED_0x93A
-	goto_if_set FLAG_UNUSED_0x93A, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x02D
+	goto_if_set FLAG_UNUSED_0x02D, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_5F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 7
-	setvar VAR_0x8004, FLAG_UNUSED_0x93B
-	goto_if_set FLAG_UNUSED_0x93B, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x02E
+	goto_if_set FLAG_UNUSED_0x02E, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_5F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 8
-	setvar VAR_0x8004, FLAG_UNUSED_0x93C
-	goto_if_set FLAG_UNUSED_0x93C, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x02F
+	goto_if_set FLAG_UNUSED_0x02F, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_5F_EventScript_Door3::
 	lockall
 	setvar VAR_TEMP_1, 9
-	setvar VAR_0x8004, FLAG_UNUSED_0x93D
-	goto_if_set FLAG_UNUSED_0x93D, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x030
+	goto_if_set FLAG_UNUSED_0x030, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_6F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 10
-	setvar VAR_0x8004, FLAG_UNUSED_0x93E
-	goto_if_set FLAG_UNUSED_0x93E, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x031
+	goto_if_set FLAG_UNUSED_0x031, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_7F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 11
-	setvar VAR_0x8004, FLAG_UNUSED_0x93F
-	goto_if_set FLAG_UNUSED_0x93F, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x032
+	goto_if_set FLAG_UNUSED_0x032, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_7F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 12
-	setvar VAR_0x8004, FLAG_UNUSED_0x940
-	goto_if_set FLAG_UNUSED_0x940, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x033
+	goto_if_set FLAG_UNUSED_0x033, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_7F_EventScript_Door3::
 	lockall
 	setvar VAR_TEMP_1, 13
-	setvar VAR_0x8004, FLAG_UNUSED_0x941
-	goto_if_set FLAG_UNUSED_0x941, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x034
+	goto_if_set FLAG_UNUSED_0x034, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_8F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 14
-	setvar VAR_0x8004, FLAG_UNUSED_0x942
-	goto_if_set FLAG_UNUSED_0x942, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x035
+	goto_if_set FLAG_UNUSED_0x035, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door1::
 	lockall
 	setvar VAR_TEMP_1, 15
-	setvar VAR_0x8004, FLAG_UNUSED_0x943
-	goto_if_set FLAG_UNUSED_0x943, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x036
+	goto_if_set FLAG_UNUSED_0x036, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door2::
 	lockall
 	setvar VAR_TEMP_1, 16
-	setvar VAR_0x8004, FLAG_UNUSED_0x944
-	goto_if_set FLAG_UNUSED_0x944, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x037
+	goto_if_set FLAG_UNUSED_0x037, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door3::
 	lockall
 	setvar VAR_TEMP_1, 17
-	setvar VAR_0x8004, FLAG_UNUSED_0x945
-	goto_if_set FLAG_UNUSED_0x945, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x038
+	goto_if_set FLAG_UNUSED_0x038, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_9F_EventScript_Door4::
 	lockall
 	setvar VAR_TEMP_1, 18
-	setvar VAR_0x8004, FLAG_UNUSED_0x946
-	goto_if_set FLAG_UNUSED_0x946, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x039
+	goto_if_set FLAG_UNUSED_0x039, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_10F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 19
-	setvar VAR_0x8004, FLAG_UNUSED_0x947
-	goto_if_set FLAG_UNUSED_0x947, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x03A
+	goto_if_set FLAG_UNUSED_0x03A, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 SilphCo_11F_EventScript_Door::
 	lockall
 	setvar VAR_TEMP_1, 20
-	setvar VAR_0x8004, FLAG_UNUSED_0x948
-	goto_if_set FLAG_UNUSED_0x948, EventScript_DoorUnlocked
+	setvar VAR_0x8004, FLAG_UNUSED_0x03B
+	goto_if_set FLAG_UNUSED_0x03B, EventScript_DoorUnlocked
 	goto EventScript_TryUnlockDoor
 	end
 
 EventScript_TryUnlockDoor::
-	goto_if_set FLAG_UNUSED_0x949, EventScript_OpenDoor
+	goto_if_set FLAG_UNUSED_0x03C, EventScript_OpenDoor
 	goto EventScript_NeedCardKey
 	end
 
@@ -539,6 +541,16 @@ EventScript_OpenDoor::
 	playse SE_UNLOCK
 	special DrawWholeMapView
 	waitse
-	special SetHiddenItemFlag
 	releaseall
 	end
+	
+	Text_CardKeyOpenedDoor:
+	.string "The card key opened door.$"
+	
+	Text_ItNeedsCardKey:
+	.string "It needs card key.$"
+	
+	Text_TheDoorIsOpen:
+	.string "The door is open.$"
+	
+	

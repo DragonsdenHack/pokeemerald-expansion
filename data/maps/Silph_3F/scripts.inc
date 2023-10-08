@@ -1,5 +1,11 @@
 Silph_3F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_3F_OnLoad
 	.byte 0
+	
+SilphCo_3F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x02A, EventScript_Close3FDoor1
+	call_if_unset FLAG_UNUSED_0x02B, EventScript_Close3FDoor2
+	end	
 
 Silph3F_1::
 end

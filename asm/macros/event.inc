@@ -1779,6 +1779,11 @@
 	.macro resetbacksprite
 	.byte 0xe9
 	.endm
+	
+	.macro changeavatar id:req
+	.byte 0xea
+	.2byte \id
+	.endm
 
 
 @ Supplementary

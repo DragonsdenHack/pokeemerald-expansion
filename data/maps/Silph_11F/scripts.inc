@@ -1,6 +1,11 @@
 Silph_11F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_11F_OnLoad
 map_script MAP_SCRIPT_ON_FRAME_TABLE, Silph_11F_OnFrame
 	.byte 0
+
+SilphCo_11F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x03B, EventScript_Close11FDoor
+	end
 
 Silph_11F_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 67, Silph_11F_Reunion_Presidente_Lance

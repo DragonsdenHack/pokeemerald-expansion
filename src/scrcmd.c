@@ -2397,3 +2397,10 @@ bool8 SrcCmd_resetbacksprite(struct ScriptContext *ctx)
     gSaveBlock2Ptr->playerBacksprite.enabled = FALSE;
     return TRUE;
 }
+
+bool8 SrcCmd_changeavatar(struct ScriptContext *ctx)
+{
+	u16 id = ScriptReadHalfword(ctx);
+	gSaveBlock2Ptr->playerGender = id;
+	return FALSE;
+}

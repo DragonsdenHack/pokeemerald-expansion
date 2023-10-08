@@ -1,5 +1,11 @@
 Silph_8F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_8F_OnLoad
 	.byte 0
+
+SilphCo_8F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x035, EventScript_Close8FDoor
+	end
+
 
 Silph8F_1::
 end
