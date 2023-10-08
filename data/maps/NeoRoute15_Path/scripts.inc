@@ -104,5 +104,19 @@ waitmovement 0x0
 release
 end
 
+NeoFucsia_Gym_Cerrado::
+compare VAR_UNUSED_0x40F7, 300
+goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, NeoRoute19_Obras_Move_3
+waitmovement 0x0
+msgbox NeoFucsia_Gym_Cerrado_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NeoRoute19_Obras_Move_4
+waitmovement 0x0
+release
+end
+
+NeoFucsia_Gym_Cerrado_Texto_1:
+.string "La puerta está cerrada.$"
+
 
 

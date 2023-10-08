@@ -34543,6 +34543,213 @@
               }
             ]
           }
+        },
+        {
+          "map": "MAP_NEO_ROUTE18",
+          "base_label": "gNeoRoute180",
+          "land_mons": {
+            "encounter_rate": 14,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_DODRIO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_RATICATE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_DODUO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_GRIMER"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_MUK"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_GRIMER"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_FEAROW"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_FEAROW"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_NEO_ROUTE15",
+          "base_label": "gNeoRoute150",
+          "land_mons": {
+            "encounter_rate": 14,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_NIDORINA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_NIDORINO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_CHANSEY"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_SKIPLOOM"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_PIDGEOTTO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_JUMPLUFF"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_JUMPLUFF"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_PIDGEOT"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_NIDORINA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_QUAGSIRE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_QUAGSIRE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_PIDGEOT"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_NEO_ROUTE14",
+          "base_label": "gNeoRoute140",
+          "land_mons": {
+            "encounter_rate": 14,
+            "mons": [
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_NIDORINA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_NIDORINO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_VENOMOTH"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_CHANSEY"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_PIDGEOTTO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_SKIPLOOM"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_PIDGEOT"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_QUAGSIRE"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_NIDORINA"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_NIDORINO"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_VENOMOTH"
+              },
+              {
+                "min_level": 45,
+                "max_level": 75,
+                "species": "SPECIES_PIDGEOT"
+              }
+            ]
+          }
         }
       ]
     },

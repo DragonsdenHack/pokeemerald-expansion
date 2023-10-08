@@ -151,6 +151,7 @@ msgbox NeoPowerPlant_Presidente_Texto_4 MSGBOX_AUTOCLOSE
 applymovement 10, NeoPowerPlant_Presidente_Move_4
 waitmovement 0x0
 msgbox NeoPowerPlant_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA
 setvar VAR_UNUSED_0x40F7, 204
 release
 end

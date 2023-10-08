@@ -4221,9 +4221,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE, ABILITY_MULTISCALE},
+            .abilities = {ABILITY_MULTISCALE, ABILITY_MULTISCALE, ABILITY_MULTISCALE},
         #else
-            .abilities = {ABILITY_INNER_FOCUS, ABILITY_NONE},
+            .abilities = {ABILITY_MULTISCALE, ABILITY_MULTISCALE},
         #endif
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,
@@ -4249,9 +4249,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_PRESSURE, ABILITY_PRESSURE, ABILITY_PRESSURE},
+            .abilities = {ABILITY_INSOMNIA, ABILITY_INSOMNIA, ABILITY_INSOMNIA},
         #else
-            .abilities = {ABILITY_PRESSURE, ABILITY_PRESSURE},
+            .abilities = {ABILITY_INSOMNIA, ABILITY_INSOMNIA},
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
@@ -7057,9 +7057,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_MULTISCALE},
+            .abilities = {ABILITY_MULTISCALE, ABILITY_MULTISCALE, ABILITY_MULTISCALE},
         #else
-            .abilities = {ABILITY_PRESSURE, ABILITY_NONE},
+            .abilities = {ABILITY_MULTISCALE, ABILITY_MULTISCALE},
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
@@ -29394,9 +29394,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
+            .abilities = {ABILITY_MULTISCALE, ABILITY_MULTISCALE, ABILITY_MULTISCALE},
         #else
-            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_NONE},
+            .abilities = {ABILITY_MULTISCALE, ABILITY_MULTISCALE},
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,

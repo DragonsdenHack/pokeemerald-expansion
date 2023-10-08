@@ -40,7 +40,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "FuchsiaCityDocumento_106",
+      "script": "Neo_FuchsiaCity_Primer_Npc",
       "flag": "0"
     },
     {
@@ -176,7 +176,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 33,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "NeoFucsia_Gym_Cerrado"
+    }
   ],
   "bg_events": [
     {
