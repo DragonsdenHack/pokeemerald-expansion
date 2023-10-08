@@ -1,5 +1,13 @@
 Silph_9F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_9F_OnLoad
 	.byte 0
+	
+SilphCo_9F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x036, EventScript_Close9FDoor1
+	call_if_unset FLAG_UNUSED_0x037, EventScript_Close9FDoor2
+	call_if_unset FLAG_UNUSED_0x038, EventScript_Close9FDoor3
+	call_if_unset FLAG_UNUSED_0x039, EventScript_Close9FDoor4
+	end	
 
 Silph9F_1::
 end

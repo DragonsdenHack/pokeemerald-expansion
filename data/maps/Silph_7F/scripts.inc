@@ -1,5 +1,12 @@
 Silph_7F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_7F_OnLoad
 	.byte 0
+
+SilphCo_7F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x032, EventScript_Close7FDoor1
+	call_if_unset FLAG_UNUSED_0x033, EventScript_Close7FDoor2
+	call_if_unset FLAG_UNUSED_0x034, EventScript_Close7FDoor3
+	end
 
 Silph7F_2::
 end

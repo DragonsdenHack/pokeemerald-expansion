@@ -1,5 +1,11 @@
 Silph_4F_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, SilphCo_4F_OnLoad
 	.byte 0
+
+SilphCo_4F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x02C, EventScript_Close4FDoor1
+	call_if_unset FLAG_UNUSED_0x02D, EventScript_Close4FDoor2
+	end
 
 Silph4F_1::
 end

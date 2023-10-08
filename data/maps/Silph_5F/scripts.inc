@@ -1,5 +1,12 @@
 Silph_5F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_5F_OnLoad
 	.byte 0
+	
+SilphCo_5F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x02E, EventScript_Close5FDoor1
+	call_if_unset FLAG_UNUSED_0x02F, EventScript_Close5FDoor2
+	call_if_unset FLAG_UNUSED_0x030, EventScript_Close5FDoor3
+	end	
 
 Silph5F_1::
 end

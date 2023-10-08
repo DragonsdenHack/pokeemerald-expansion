@@ -1,5 +1,10 @@
 Silph_10F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_10F_OnLoad
 	.byte 0
+	
+SilphCo_10F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x03A, EventScript_Close10FDoor
+	end	
 
 Silph10F_1::
 end

@@ -1,5 +1,10 @@
 Silph_6F_MapScripts::
+map_script MAP_SCRIPT_ON_LOAD, SilphCo_6F_OnLoad
 	.byte 0
+
+SilphCo_6F_OnLoad::
+	call_if_unset FLAG_UNUSED_0x031, EventScript_Close6FDoor
+	end
 
 Silph6F_1::
 end
