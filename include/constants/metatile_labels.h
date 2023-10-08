@@ -1065,4 +1065,16 @@
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Grass  0x284
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Mowed  0x281
 
+// gTileset_pokemon
+#define METATILE_pokemon_mansion_Barrier_Horizontal_BottomLeft     0x300
+#define METATILE_pokemon_mansion_Barrier_Horizontal_BottomMid      0x301
+#define METATILE_pokemon_mansion_Barrier_Horizontal_BottomRight    0x302
+#define METATILE_pokemon_mansion_Barrier_Horizontal_TopLeft        0x2F8
+#define METATILE_pokemon_mansion_Barrier_Horizontal_TopMid         0x2F9
+#define METATILE_pokemon_mansion_Barrier_Horizontal_TopRight       0x2FA
+#define METATILE_pokemon_mansion_Barrier_Vertical_Bottom_Basement  0x372
+#define METATILE_pokemon_mansion_Barrier_Vertical_Mid_Basement     0x36A
+#define METATILE_pokemon_mansion_Barrier_Vertical_TopBase          0x358
+#define METATILE_pokemon_mansion_Barrier_Vertical_TopWall          0x350
+
 #endif // GUARD_METATILE_LABELS_H
