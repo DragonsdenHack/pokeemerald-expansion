@@ -10,7 +10,7 @@
 #include "strings.h"
 #include "decompress.h"
 
-#define MAX_MONEY 9999999
+#define MAX_MONEY 99999999
 
 EWRAM_DATA static u8 sMoneyBoxWindowId = 0;
 EWRAM_DATA static u8 sMoneyLabelSpriteId = 0;
@@ -140,9 +140,9 @@ void PrintMoneyAmount(u8 windowId, u8 x, u8 y, int amount, u8 speed)
     u8 *txtPtr;
     s32 strLength;
 
-    ConvertIntToDecimalStringN(gStringVar1, amount, STR_CONV_MODE_LEFT_ALIGN, 7);
+    ConvertIntToDecimalStringN(gStringVar1, amount, STR_CONV_MODE_LEFT_ALIGN, 8);
 
-    strLength = 7 - StringLength(gStringVar1);
+    strLength = 8 - StringLength(gStringVar1);
     txtPtr = gStringVar4;
 
     while (strLength-- > 0)

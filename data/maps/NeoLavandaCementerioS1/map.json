@@ -266,7 +266,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 52,
+      "y": 40,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "PokemonTower5F_Curacion"
+    }
   ],
   "bg_events": [
 

@@ -242,7 +242,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_11F_EventScript_Door"
     },
     {
       "type": "sign",
@@ -250,7 +250,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_11F_EventScript_Door"
     },
     {
       "type": "sign",
@@ -258,7 +258,7 @@
       "y": 16,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_11F_EventScript_Door"
     },
     {
       "type": "sign",
@@ -266,7 +266,7 @@
       "y": 17,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_11F_EventScript_Door"
     },
     {
       "type": "hidden_item",

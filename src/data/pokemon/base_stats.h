@@ -36917,12 +36917,12 @@ const struct BaseStats gBaseStats[] =
         .eggGroup2 = EGG_GROUP_AMORPHOUS,
         #if P_UPDATED_ABILITIES >= GEN_7
             #ifdef BATTLE_ENGINE
-                .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
+                .abilities = {ABILITY_DARK_AURA, ABILITY_DARK_AURA},
             #else
-                .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
+                .abilities = {ABILITY_DARK_AURA, ABILITY_DARK_AURA},
             #endif
         #else
-            .abilities = {ABILITY_LEVITATE, ABILITY_NONE},
+            .abilities = {ABILITY_DARK_AURA, ABILITY_NONE},
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,

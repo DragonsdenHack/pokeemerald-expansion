@@ -7358,7 +7358,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
         #if B_UPDATED_MOVE_DATA >= GEN_7
             .accuracy = 90,
         #else
-            .accuracy = 80,
+            .accuracy = 90,
         #endif
         .effect = EFFECT_SLEEP,
         .power = 0,

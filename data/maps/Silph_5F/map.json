@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "Silph5F_3",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
@@ -201,7 +201,7 @@
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door3"
     },
     {
       "type": "sign",
@@ -209,7 +209,7 @@
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door3"
     },
     {
       "type": "sign",
@@ -225,7 +225,7 @@
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door3"
     },
     {
       "type": "sign",
@@ -249,7 +249,7 @@
       "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door3"
     },
     {
       "type": "sign",
@@ -257,7 +257,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -265,7 +265,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -273,7 +273,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -281,7 +281,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -289,7 +289,7 @@
       "y": 9,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -297,7 +297,7 @@
       "y": 18,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door2"
     },
     {
       "type": "sign",
@@ -305,7 +305,7 @@
       "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door1"
     },
     {
       "type": "sign",
@@ -313,7 +313,7 @@
       "y": 19,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "SilphCo_5F_EventScript_Door2"
     },
     {
       "type": "hidden_item",

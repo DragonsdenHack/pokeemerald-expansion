@@ -8137,8 +8137,8 @@ static u32 CalcMoveBasePowerAfterModifiers(u16 move, u8 battlerAtk, u8 battlerDe
     }
 
     // field abilities
-    if ((IsAbilityOnField(ABILITY_DARK_AURA) && moveType == TYPE_DARK)
-        || (IsAbilityOnField(ABILITY_FAIRY_AURA) && moveType == TYPE_FAIRY))
+    if ((IsAbilityOnField(ABILITY_DARK_AURA) && moveType == TYPE_DARK, TYPE_GHOST)
+        || (IsAbilityOnField(ABILITY_FAIRY_AURA) && moveType == TYPE_FAIRY, TYPE_GRASS))
     {
         if (IsAbilityOnField(ABILITY_AURA_BREAK))
             MulModifier(&modifier, UQ_4_12(0.75));

@@ -3383,6 +3383,7 @@ const struct Item gItems[] =
         .name = _("Orbe Aciago"),
         .itemId = ITEM_NONE,
         .price = 0,
+        .holdEffect = HOLD_EFFECT_PRIMAL_ORB,
         .description = sDummyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
