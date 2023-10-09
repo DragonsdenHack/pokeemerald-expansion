@@ -964,6 +964,41 @@ Torre_Radio_Lavanda_Mercado_1_Pokemart:
 	release
 	end
 
+Torre_Radio_Lavanda_Mercado_Silvally_EventScript_Clerk::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Torre_Radio_Lavanda_Mercado_Silvally_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	
+	.align 2
+Torre_Radio_Lavanda_Mercado_Silvally_Pokemart:
+    .2byte 271
+	.2byte 272
+	.2byte 273
+	.2byte 274
+	.2byte 275
+	.2byte 276
+	.2byte 277
+	.2byte 278
+	.2byte 279
+	.2byte 280
+	.2byte 281
+	.2byte 282
+	.2byte 283
+	.2byte 284
+	.2byte 285
+	.2byte 286
+	.2byte 287
+	.2byte ITEM_NONE
+	release
+	end
+
+
 Torre_Radio_Lavanda_Mercado_2_EventScript_Clerk::
 	lock
 	faceplayer
@@ -976,6 +1011,7 @@ Torre_Radio_Lavanda_Mercado_2_EventScript_Clerk::
 
 	.align 2
 Torre_Radio_Lavanda_Mercado_2_Pokemart:
+    .2byte 786
     .2byte 505
 	.2byte 506
 	.2byte 507

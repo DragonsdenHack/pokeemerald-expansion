@@ -2,7 +2,7 @@
   "id": "MAP_LAVENDER_RADIO_P4",
   "name": "LavenderRadioP4",
   "layout": "LAYOUT_LAVENDER_RADIO_P4",
-  "music": "MUS_NONE",
+  "music": "560",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
@@ -158,7 +158,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_DEVON1",
       "x": 13,
       "y": 10,
       "elevation": 3,
@@ -171,7 +171,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_DEVON2",
       "x": 9,
       "y": 10,
       "elevation": 3,
@@ -184,7 +184,7 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_DEVON3",
       "x": 8,
       "y": 12,
       "elevation": 3,
@@ -327,7 +327,7 @@
       "flag": "FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_GENTLEMAN",
+      "graphics_id": "OBJ_EVENT_GFX_DEVON4",
       "x": 8,
       "y": 9,
       "elevation": 3,

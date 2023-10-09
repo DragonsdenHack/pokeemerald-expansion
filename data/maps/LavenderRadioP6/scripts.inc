@@ -386,21 +386,21 @@ waitmovement 0x0
 delay 20
 msgbox LavenderRadioP6_Combate_Bill_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_3.1
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_3.1
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_2 MSGBOX_AUTOCLOSE
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_4
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_4
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_3 MSGBOX_AUTOCLOSE
 playse MUS_RG_ENCOUNTER_GYM_LEADER
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_5
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_5
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
-trainerbattle_no_intro TRAINER_BILL_4, LavenderRadioP6_Combate_Bill_Texto_5
+trainerbattle_no_intro TRAINER_ANDRA_1, LavenderRadioP6_Combate_Bill_Texto_5
 delay 10
 playse SE_BREAKABLE_DOOR
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_6
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_6
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_6 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_2
@@ -409,27 +409,26 @@ delay 20
 msgbox LavenderRadioP6_Combate_Bill_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
 playse SE_PIN
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_7
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_7
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_3
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_3
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_9 MSGBOX_AUTOCLOSE
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_4
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_4
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_10 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, LavenderRadioP6_Combate_Bill_Move_3
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_8
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_8
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_11 MSGBOX_AUTOCLOSE
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_9
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_9
 waitmovement 0x0
 msgbox LavenderRadioP6_Combate_Bill_Texto_12 MSGBOX_AUTOCLOSE
-applymovement 3, LavenderRadioP6_Combate_Bill_Move_10
+applymovement 1, LavenderRadioP6_Combate_Bill_Move_10
 waitmovement 0x0
 setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2
-removeobject 3
+removeobject 1
 playse SE_EXIT
 setvar VAR_UNUSED_0x40F7, 213
 release
@@ -444,21 +443,20 @@ LavenderRadioP6_Combate_Bill_Move_10:
 walk_right
 walk_right
 walk_up
-walk_up
 walk_right
 walk_right
 walk_right
 walk_up
 walk_up
-face_right
 step_end
 
 LavenderRadioP6_Combate_Bill_Move_9:
-walk_left
-walk_left
-walk_left
+walk_right
+walk_right
+walk_up
+walk_right
 delay_8
-walk_in_place_right
+walk_in_place_up
 delay_8
 step_end
 
