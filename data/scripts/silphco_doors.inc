@@ -1,6 +1,4 @@
 EventScript_NeedCardKey::
-	checkitem ITEM_CARD_KEY
-	goto_if_eq VAR_RESULT, TRUE, EventScript_TryUnlockDoor
 	msgbox Text_ItNeedsCardKey
 	releaseall
 	end
@@ -509,7 +507,8 @@ SilphCo_11F_EventScript_Door::
 	end
 
 EventScript_TryUnlockDoor::
-	goto_if_set FLAG_UNUSED_0x03C, EventScript_OpenDoor
+	checkitem ITEM_CARD_KEY
+	goto_if_eq VAR_RESULT, TRUE, EventScript_OpenDoor
 	goto EventScript_NeedCardKey
 	end
 
