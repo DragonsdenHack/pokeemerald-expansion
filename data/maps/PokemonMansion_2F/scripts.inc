@@ -1,5 +1,10 @@
 PokemonMansion_2F_MapScripts::
+	map_script MAP_SCRIPT_ON_LOAD, PokemonMansion_2F_OnLoad
 	.byte 0
+	
+PokemonMansion_2F_OnLoad::
+	call_if_set FLAG_UNUSED_0x041, PokemonMansion_EventScript_PressSwitch_2F
+	end	
 
 PokemonMansion2F_1::
 end
