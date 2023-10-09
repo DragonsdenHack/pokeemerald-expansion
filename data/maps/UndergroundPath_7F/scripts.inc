@@ -518,14 +518,15 @@ applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_7
 waitmovement 0x0
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_14 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
-trainerbattle_no_intro TRAINER_ANDRA_1, UndergroundPath_7F_Combate_LtSurge_Texto_15
+trainerbattle_no_intro TRAINER_TRAINER_216, UndergroundPath_7F_Combate_LtSurge_Texto_15
 delay 15
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_16 MSGBOX_AUTOCLOSE
 playse MUS_RG_ENCOUNTER_GYM_LEADER
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_9
 waitmovement 0x0
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_17 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, UndergroundPath_7F_Combate_LtSurge_Texto_18
+trainerbattle_no_intro TRAINER_TRAINER_196, UndergroundPath_7F_Combate_LtSurge_Texto_18
+msgbox UndergroundPath_7F_Combate_LtSurge_Texto_18.1 MSGBOX_AUTOCLOSE
 msgbox UndergroundPath_7F_Combate_LtSurge_Texto_19 MSGBOX_AUTOCLOSE
 applymovement 15, UndergroundPath_7F_Combate_LtSurge_Move_11
 waitmovement 0x0
@@ -716,6 +717,13 @@ UndergroundPath_7F_Combate_LtSurge_Texto_17:
 UndergroundPath_7F_Combate_LtSurge_Texto_18:
 .string "Perdí la batalla y… ¿la guerra?$"
 
+UndergroundPath_7F_Combate_LtSurge_Texto_18.1:
+.string "¿Cómo puede ser? Cuando mi fiel RAICHU\n"
+	.string "reaccionó a esa nueva PIEDRA\l"
+	.string "desarrollada por vosotros, creí que al\l"
+	.string "fin podría hacerte caer. Pero ni eso ni\l"
+	.string "mis explosivos han sido suficiente.$"
+
 UndergroundPath_7F_Combate_LtSurge_Texto_19:
 .string "Grrrr… parece que te has vuelto aún\n"
 	.string "mejor ENTRENADOR, no me dejas\l"
@@ -875,7 +883,7 @@ playse MUS_RG_ENCOUNTER_GYM_LEADER
 applymovement 16, UndergroundPath_7F_Escena_Final_Move_20
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_18 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, UndergroundPath_7F_Escena_Final_Texto_19
+trainerbattle_no_intro TRAINER_TRAINER_195, UndergroundPath_7F_Escena_Final_Texto_19
 msgbox UndergroundPath_7F_Escena_Final_Texto_19.1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_6
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
@@ -888,7 +896,7 @@ playse 603
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_15
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_22 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, UndergroundPath_7F_Escena_Final_Texto_23
+trainerbattle_no_intro TRAINER_TRAINER_194, UndergroundPath_7F_Escena_Final_Texto_23
 msgbox UndergroundPath_7F_Escena_Final_Texto_24 MSGBOX_AUTOCLOSE
 applymovement 17, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
@@ -978,6 +986,13 @@ msgbox UndergroundPath_7F_Escena_Final_Texto_48 MSGBOX_AUTOCLOSE
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_24
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_49 MSGBOX_AUTOCLOSE
+delay 10
+msgbox UndergroundPath_7F_Escena_Final_Texto_49.1 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement 17, UndergroundPath_7F_Escena_Final_Move_8
+applymovement 16, UndergroundPath_7F_Escena_Final_Move_8
+waitmovement 0x0
+msgbox UndergroundPath_7F_Escena_Final_Texto_49.2 MSGBOX_AUTOCLOSE
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_5
 waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_50 MSGBOX_AUTOCLOSE
@@ -1048,8 +1063,10 @@ waitmovement 0x0
 msgbox UndergroundPath_7F_Escena_Final_Texto_64 MSGBOX_AUTOCLOSE
 applymovement 24, UndergroundPath_7F_Escena_Final_Move_29
 waitmovement 0x0
+setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_2
 setflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_2
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 22
 removeobject 24
 removeobject 15
 setvar VAR_ROUTE105_STATE, 13
@@ -1523,6 +1540,15 @@ UndergroundPath_7F_Escena_Final_Texto_49:
 	.string "aún no es consciente de lo que habéis\l"
 	.string "hecho. Estáis a tiempo de rectificar, y\l"
 	.string "convencer a todos los MOTORISTAS.$"
+
+UndergroundPath_7F_Escena_Final_Texto_49.1:
+.string "Además, él confía en vosotros. ¿Sabes\n"
+	.string "lo que dijo en TRIGAL, KOGA? Que tú\l"
+	.string "ibas a ocupar la plaza vacante de\l"
+	.string "AGATHA en el ALTO MANDO.$"
+
+UndergroundPath_7F_Escena_Final_Texto_49.2:
+.string "KOGA: Oh...$"
 
 UndergroundPath_7F_Escena_Final_Texto_50:
 .string "Ya sabéis que contáis con la palabra de\n"

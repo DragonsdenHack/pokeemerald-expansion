@@ -2301,7 +2301,8 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.7:
 	.string "podrán adquirirla.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.8:
-.string "De ese lugar quería hablaros precisamente.$"
+.string "Además, de la TORRE RADIO LAVANDA\n"
+	.string "quería hablaros precisamente.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.9:
 .string "ANDRA: ¿Es nuestro próximo destino?$"

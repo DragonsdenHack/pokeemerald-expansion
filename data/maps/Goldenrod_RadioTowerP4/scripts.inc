@@ -88,9 +88,16 @@ Goldenrod_RadioTowerP4_Text_6:
 RadioTowerP4_7::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 204
+goto_if_gt RadioTowerP4_7_3
 compare VAR_UNUSED_0x40F7, 145
 goto_if_gt RadioTowerP4_7_2
 msgbox RadioTowerP4_7_Texto_1 MSGBOX_NPC
+release
+end
+
+RadioTowerP4_7_3::
+msgbox RadioTowerP4_7_Texto_3 MSGBOX_NPC
 release
 end
 
@@ -98,6 +105,13 @@ RadioTowerP4_7_2::
 msgbox RadioTowerP4_7_Texto_2 MSGBOX_NPC
 release
 end
+
+RadioTowerP4_7_Texto_3:
+.string "Que rápido pasa el tiempo, ¿no crees?\n"
+	.string "Parece que fue ayer cuando celebramos\l"
+	.string "la I CONFERENCIA de TRIGAL, pero KANTO\l"
+	.string "y JOHTO ya han cambiado mucho desde\l"
+	.string "ese entonces.$"
 
 RadioTowerP4_7_Texto_1:
 .string "¡{PLAYER}!\n"

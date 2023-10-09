@@ -54,6 +54,20 @@ NeoRoute15_EventScript_Profesora2::
 	msgbox NeoRoute15_Profesora2PostBattle, MSGBOX_AUTOCLOSE
 	end
 
+Subterraneo_Bloqueo::
+compare VAR_UNUSED_0x40F7, 202
+goto_if_lt LavenderTown_Barrera_Mision_Kangaskhan_2
+applymovement OBJ_EVENT_ID_PLAYER, NeoRoute19_Obras_Move_1
+waitmovement 0x0
+msgbox Subterraneo_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NeoRoute19_Obras_Move_4
+waitmovement 0x0
+release
+end
+
+Subterraneo_Bloqueo_Texto_1:
+.string "El SUBTERRÁNEO ha sido cerrado.$"
+
 NeoRoute19_Obras::
 compare VAR_UNUSED_0x40F7, 202
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2

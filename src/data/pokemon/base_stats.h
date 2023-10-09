@@ -30008,9 +30008,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_MINERAL,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGNET_PULL, ABILITY_STURDY, ABILITY_GALVANIZE},
+            .abilities = {ABILITY_GALVANIZE, ABILITY_GALVANIZE, ABILITY_GALVANIZE},
         #else
-            .abilities = {ABILITY_MAGNET_PULL, ABILITY_STURDY},
+            .abilities = {ABILITY_GALVANIZE, ABILITY_GALVANIZE},
         #endif
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,

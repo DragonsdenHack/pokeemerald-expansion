@@ -34,11 +34,18 @@ NeoLavanda_Ruta_Oeste_EventScript_Necio_2::
 NeoLavanda_Ruta_Oeste_Policia::
 lock
 faceplayer
+compare VAR_ROUTE105_STATE, 12
+goto_if_gt NeoLavanda_Ruta_Oeste_Policia_4
 compare VAR_ROUTE105_STATE, 7
 goto_if_lt NeoLavanda_Ruta_Oeste_Policia_2
 compare VAR_ROUTE105_STATE, 11
 goto_if_lt NeoLavanda_Ruta_Oeste_Policia_3
 msgbox NeoLavanda_Ruta_Oeste_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+NeoLavanda_Ruta_Oeste_Policia_4:
+msgbox NeoLavanda_Ruta_Oeste_Policia_Texto_4 MSGBOX_NPC
 release
 end
 
@@ -51,6 +58,11 @@ NeoLavanda_Ruta_Oeste_Policia_2:
 msgbox NeoLavanda_Ruta_Oeste_Policia_Texto_2 MSGBOX_NPC
 release
 end
+
+NeoLavanda_Ruta_Oeste_Policia_Texto_4:
+.string "La VÍA SUBTERRÁNEA está cerrada, pero\n"
+	.string "con alguien como usted podemos hacer\l"
+	.string "una excepción.$"
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_3:
 .string "Mis compañeros están dentro, están\n"
