@@ -1,10 +1,19 @@
 CianwoodCity_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, CianwoodCity_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, CianwoodCity_OnFrame
 	.byte 0
 
 CianwoodCity_OnFrame:
+map_script_2 VAR_VERDANTURF_TOWN_STATE, 18, CianwoodCity_Miguel_Warp
 map_script_2 VAR_UNUSED_0x40F7, 150, CianwoodCity_Recluta
 	.2byte 0
+
+CianwoodCity_Miguel_Warp::
+setvar VAR_VERDANTURF_TOWN_STATE, 19
+warpsilent MAP_ROUTE50, 55, 21
+waitmovement 0x0
+release
+end
 
 CianwoodCity1::
 end

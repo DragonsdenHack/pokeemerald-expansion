@@ -68,6 +68,7 @@
 #define HOLD_EFFECT_METAL_POWDER   64
 #define HOLD_EFFECT_THICK_CLUB     65
 #define HOLD_EFFECT_LEEK           66
+#define HOLD_EFFECT_PROTECTOR      175
 
 // Gen4 hold effects.
 #define HOLD_EFFECT_CHOICE_SCARF   67

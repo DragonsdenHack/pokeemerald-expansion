@@ -2,7 +2,7 @@
   "id": "MAP_TORRE_DUNSPARCE_S1",
   "name": "TorreDunsparce_S1",
   "layout": "LAYOUT_TORRE_DUNSPARCE_S1",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_WEATHER_GROUDON",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

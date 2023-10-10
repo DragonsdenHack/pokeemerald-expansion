@@ -133,7 +133,7 @@
       "x": 13,
       "y": 3,
       "elevation": 0,
-      "dest_map": "MAP_SILPH_10F",
+      "dest_map": "MAP_SILPH_ELEVATOR",
       "dest_warp_id": 0
     }
   ],

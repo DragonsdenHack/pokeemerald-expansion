@@ -2,7 +2,7 @@
   "id": "MAP_TORRE_DUNSPARCE_S4",
   "name": "TorreDunsparce_S4",
   "layout": "LAYOUT_TORRE_DUNSPARCE_S4",
-  "music": "MUS_NONE",
+  "music": "MUS_WEATHER_GROUDON",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_FOG_DIAGONAL",
@@ -10,7 +10,7 @@
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
-  "show_map_name": true,
+  "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [

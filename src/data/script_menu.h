@@ -327,7 +327,6 @@ static const struct MenuAction MultichoiceList_Floors[] =
 static const struct MenuAction MultichoiceList_Ascensor[] =
 {
     {gText_4F},
-    {gText_3F},
     {gText_2F},
     {gText_1F},
     {gText_Exit},
@@ -994,6 +993,23 @@ static const struct MenuAction MultichoiceList_IslaSetima[] =
     
 };
 
+static const struct MenuAction MultichoiceList_SilphAscensor[] =
+{
+    {gText_11F},
+    {gText_10F},
+    {gText_9F},
+    {gText_8F},
+    {gText_7F},
+    {gText_6F},
+    {gText_5F},
+    {gText_4F},
+    {gText_3F},
+    {gText_2F},
+    {gText_1F},
+    {gText_Exit},
+    
+};
+
 
 struct MultichoiceListStruct
 {
@@ -1137,6 +1153,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_ISLAINTA]                     = MULTICHOICE(MultichoiceList_IslaInta),
     [MULTI_ISLAEXTA]                     = MULTICHOICE(MultichoiceList_IslaExta),
     [MULTI_ISLASETIMA]                     = MULTICHOICE(MultichoiceList_IslaSetima),
+    [MULTI_SILPH_ASCENSOR]                     = MULTICHOICE(MultichoiceList_SilphAscensor),
 };
 
 const u8 *const gStdStrings[] =

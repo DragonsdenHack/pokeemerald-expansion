@@ -2539,6 +2539,7 @@ const struct Item gItems[] =
         .name = _("Protector"),
         .itemId = ITEM_PROTECTOR,
         .price = 15000,
+        .holdEffect = HOLD_EFFECT_PROTECTOR,
         .description = sProtectorDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
