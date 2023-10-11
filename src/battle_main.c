@@ -4414,6 +4414,20 @@ u32 GetBattlerTotalSpeedStat(u8 battlerId)
         speed = (speed * 150) / 100;
     else if (holdEffect == HOLD_EFFECT_QUICK_POWDER && gBattleMons[battlerId].species == SPECIES_DITTO && !(gBattleMons[battlerId].status2 & STATUS2_TRANSFORMED))
         speed *= 2;
+    else if (holdEffect == HOLD_EFFECT_REAPER_CLOTH && gBattleMons[battlerId].species == SPECIES_DUSKNOIR)
+        speed = (speed * 130) / 100;
+    else if (holdEffect == HOLD_EFFECT_DRAGON_SCALE && gBattleMons[battlerId].species == SPECIES_KINGDRA)
+        speed = (speed * 130) / 100;
+    else if (holdEffect == HOLD_EFFECT_UPGRADE && gBattleMons[battlerId].species == SPECIES_PORYGON2)
+        speed = (speed * 130) / 100;
+    else if (holdEffect == HOLD_EFFECT_PRISM_SCALE && gBattleMons[battlerId].species == SPECIES_MILOTIC)
+        speed = (speed * 130) / 100;
+    else if (holdEffect == HOLD_EFFECT_DEEP_SEA_TOOTH && gBattleMons[battlerId].species == SPECIES_HUNTAIL)
+        speed = (speed * 130) / 100;
+    else if (holdEffect == HOLD_EFFECT_DEEP_SEA_SCALE && gBattleMons[battlerId].species == SPECIES_GOREBYSS)
+        speed = (speed * 130) / 100;
+    else if (holdEffect == HOLD_EFFECT_BLACK_AUGURITE && gBattleMons[battlerId].species == SPECIES_KLEAVOR)
+        speed = (speed * 130) / 100;
 
     // various effects
     if (gSideStatuses[GET_BATTLER_SIDE(battlerId)] & SIDE_STATUS_TAILWIND)

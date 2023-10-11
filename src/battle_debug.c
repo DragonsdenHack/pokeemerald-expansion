@@ -2038,6 +2038,19 @@ static const u8 sText_HoldEffectBlunderPolicy[] = _("Blunder Policy");
 static const u8 sText_HoldEffectHeavyDutyBoots[] = _("Heavy Duty Boots");
 static const u8 sText_HoldEffectThroatSpray[] = _("Throat Spray");
 static const u8 sText_HoldEffectProtector[] = _("Protector");
+static const u8 sText_HoldEffectMagmarizer[] = _("Magmarizer");
+static const u8 sText_HoldEffectElectirizer[] = _("Electirizer");
+static const u8 sText_HoldEffectReapercloth[] = _("Reaper Cloth");
+static const u8 sText_HoldEffectKingsrock[] = _("Kings Rock");
+static const u8 sText_HoldEffectDubiousdisc[] = _("Dubious Disc");
+static const u8 sText_HoldEffectPrismscale[] = _("Prism Scale");
+static const u8 sText_HoldEffectRazorfang[] = _("Razor Fang");
+static const u8 sText_HoldEffectRazorclaw[] = _("Razor Claw");
+static const u8 sText_HoldEffectWhippeddream[] = _("Whipped Dream");
+static const u8 sText_HoldEffectSachet[] = _("Sachet");
+static const u8 sText_HoldEffectBlackaugurite[] = _("Mineral Negro");
+static const u8 sText_HoldEffectRedscale[] = _("Escama Roja");
+static const u8 sText_HoldEffectCondensadorgas[] = _("Condensad.Gas");
 static const u8 *const sHoldEffectNames[] = 
 {
     [HOLD_EFFECT_NONE] = sText_HoldEffectNone,
@@ -2179,6 +2192,19 @@ static const u8 *const sHoldEffectNames[] =
     [HOLD_EFFECT_HEAVY_DUTY_BOOTS] = sText_HoldEffectHeavyDutyBoots,
     [HOLD_EFFECT_THROAT_SPRAY] = sText_HoldEffectThroatSpray,
     [HOLD_EFFECT_PROTECTOR] = sText_HoldEffectProtector,
+    [HOLD_EFFECT_MAGMARIZER] = sText_HoldEffectMagmarizer,
+    [HOLD_EFFECT_ELECTIRIZER] = sText_HoldEffectElectirizer,
+    [HOLD_EFFECT_REAPER_CLOTH] = sText_HoldEffectReapercloth,
+    [HOLD_EFFECT_KINGS_ROCK] = sText_HoldEffectKingsrock,
+    [HOLD_EFFECT_DUBIOUS_DISC] = sText_HoldEffectDubiousdisc,
+    [HOLD_EFFECT_PRISM_SCALE] = sText_HoldEffectPrismscale,
+    [HOLD_EFFECT_RAZOR_FANG] = sText_HoldEffectRazorfang,
+    [HOLD_EFFECT_RAZOR_CLAW] = sText_HoldEffectRazorclaw,
+    [HOLD_EFFECT_WHIPPED_DREAM] = sText_HoldEffectWhippeddream,
+    [HOLD_EFFECT_SACHET] = sText_HoldEffectSachet,
+    [HOLD_EFFECT_BLACK_AUGURITE] = sText_HoldEffectBlackaugurite,
+    [HOLD_EFFECT_RED_SCALE] = sText_HoldEffectRedscale,
+    [HOLD_EFFECT_CONDENSADOR_GAS] = sText_HoldEffectCondensadorgas,
 };
 static const u8 *GetHoldEffectName(u16 holdEffect)
 {

@@ -307,3 +307,101 @@ Silph_Elevator_EventScript_1thFloor::
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
+Celadon_Elevator_EventScript_FloorSelect::
+	lockall
+	setvar VAR_0x8004, 0
+	call_if_unset FLAG_TEMP_3, RocketHideout_Elevator_EventScript_SetFloor
+	copyvar VAR_0x8005, VAR_DEPT_STORE_FLOOR
+	special ShowDeptStoreElevatorFloorSelect
+	message gText_WhichFloorWouldYouLike2
+	waitmessage
+	setvar VAR_0x8004, 0
+	specialvar VAR_RESULT, GetDeptStoreDefaultFloorChoice
+	switch VAR_RESULT
+	case 0, Celadon_Elevator_EventScript_ChooseFloorFrom5th
+	case 1, Celadon_Elevator_EventScript_ChooseFloorFrom4th
+	case 2, Celadon_Elevator_EventScript_ChooseFloorFrom3th
+	case 3, Celadon_Elevator_EventScript_ChooseFloorFrom2th
+	case 4, Celadon_Elevator_EventScript_ChooseFloorFrom1th
+	end
+
+Celadon_Elevator_EventScript_ChooseFloorFrom5th::
+    multichoicedefault 0, 0, MULTI_CELADON_ASCENSOR, 0, FALSE
+	goto Celadon_Elevator_EventScript_ChooseFloor
+	end
+
+Celadon_Elevator_EventScript_ChooseFloorFrom4th::
+    multichoicedefault 0, 0, MULTI_CELADON_ASCENSOR, 1, FALSE
+	goto Celadon_Elevator_EventScript_ChooseFloor
+	end
+
+Celadon_Elevator_EventScript_ChooseFloorFrom3th::
+    multichoicedefault 0, 0, MULTI_CELADON_ASCENSOR, 2, FALSE
+	goto Celadon_Elevator_EventScript_ChooseFloor
+	end
+
+Celadon_Elevator_EventScript_ChooseFloorFrom2th::
+    multichoicedefault 0, 0, MULTI_CELADON_ASCENSOR, 3, FALSE
+	goto Celadon_Elevator_EventScript_ChooseFloor
+	end
+
+Celadon_Elevator_EventScript_ChooseFloorFrom1th::
+    multichoicedefault 0, 0, MULTI_CELADON_ASCENSOR, 4, FALSE
+	goto Celadon_Elevator_EventScript_ChooseFloor
+	end
+
+Celadon_Elevator_EventScript_ChooseFloor::
+	switch VAR_RESULT
+	case 0, Celadon_Elevator_EventScript_5thFloor
+	case 1, Celadon_Elevator_EventScript_4thFloor
+	case 2, Celadon_Elevator_EventScript_3thFloor
+	case 3, Celadon_Elevator_EventScript_2thFloor
+	case 4, Celadon_Elevator_EventScript_1thFloor
+	case MULTI_B_PRESSED, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+Celadon_Elevator_EventScript_5thFloor::
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setdynamicwarp MAP_CELADON_CITY_SHOP_5F, 6, 2
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+Celadon_Elevator_EventScript_4thFloor::
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setdynamicwarp MAP_CELADON_CITY_SHOP_4F, 6, 2
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+Celadon_Elevator_EventScript_3thFloor::
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setdynamicwarp MAP_CELADON_CITY_SHOP_3F, 6, 2
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+Celadon_Elevator_EventScript_2thFloor::
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setdynamicwarp MAP_CELADON_CITY_SHOP_2F, 6, 2
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+
+Celadon_Elevator_EventScript_1thFloor::
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setdynamicwarp MAP_CELADON_CITY_SHOP_1F, 6, 2
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	call RocketHideout_Elevator_EventScript_MoveElevator
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+

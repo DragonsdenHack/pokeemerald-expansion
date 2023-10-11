@@ -8487,9 +8487,67 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
          && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(2.0));
         break;
-    case HOLD_EFFECT_DEEP_SEA_TOOTH:
-        if (gBattleMons[battlerAtk].species == SPECIES_CLAMPERL && IS_MOVE_SPECIAL(move))
+    case HOLD_EFFECT_CONDENSADOR_GAS:
+        if ((GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_WEEZING
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_WEEZING_GALARIAN)
+         && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        if ((GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_WEEZING
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_WEEZING_GALARIAN)
+         && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(0.75));
+        break;
+    case HOLD_EFFECT_DEEP_SEA_SCALE:
+        if (gBattleMons[battlerAtk].species == SPECIES_GOREBYSS && IS_MOVE_SPECIAL(move))
             MulModifier(&modifier, UQ_4_12(2.0));
+        break;
+    case HOLD_EFFECT_DEEP_SEA_TOOTH:
+        if (gBattleMons[battlerAtk].species == SPECIES_HUNTAIL && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_MAGMARIZER:
+        if (gBattleMons[battlerAtk].species == SPECIES_MAGMORTAR && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_WHIPPED_DREAM:
+        if (gBattleMons[battlerAtk].species == SPECIES_SLURPUFF && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;
+    case HOLD_EFFECT_UPGRADE:
+        if (gBattleMons[battlerAtk].species == SPECIES_PORYGON2 && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_DUBIOUS_DISC:
+        if (gBattleMons[battlerAtk].species == SPECIES_PORYGON_Z && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_ELECTIRIZER:
+        if (gBattleMons[battlerAtk].species == SPECIES_ELECTIVIRE && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_RAZOR_FANG:
+        if (gBattleMons[battlerAtk].species == SPECIES_GLISCOR && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_RAZOR_CLAW:
+        if (gBattleMons[battlerAtk].species == SPECIES_WEAVILE && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_REAPER_CLOTH:
+        if (gBattleMons[battlerAtk].species == SPECIES_DUSKNOIR && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_KINGS_ROCK:
+        if ((GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_POLITOED
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_SLOWKING)
+         && IS_MOVE_SPECIAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_STEEL_POWER:
+        if ((GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_SCIZOR
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerAtk].species) == SPECIES_STEELIX)
+         && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_LIGHT_BALL:
         if (gBattleMons[battlerAtk].species == SPECIES_PIKACHU)
@@ -8502,10 +8560,6 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
     case HOLD_EFFECT_CHOICE_SPECS:
         if (IS_MOVE_SPECIAL(move))
             MulModifier(&modifier, UQ_4_12(1.5));
-        break;
-    case HOLD_EFFECT_PROTECTOR:
-        if (gBattleMons[battlerAtk].species == SPECIES_RHYPERIOR && IS_MOVE_PHYSICAL(move))
-            MulModifier(&modifier, UQ_4_12(1.3));
         break;
     }
 
@@ -8636,6 +8690,71 @@ static u32 CalcDefenseStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, 
     case HOLD_EFFECT_DEEP_SEA_SCALE:
         if (gBattleMons[battlerDef].species == SPECIES_CLAMPERL && !usesDefStat)
             MulModifier(&modifier, UQ_4_12(2.0));
+        break;
+    case HOLD_EFFECT_MAGMARIZER:
+        if (gBattleMons[battlerDef].species == SPECIES_MAGMORTAR && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_BLACK_AUGURITE:
+        if (gBattleMons[battlerDef].species == SPECIES_KLEAVOR && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_WHIPPED_DREAM:
+        if (gBattleMons[battlerDef].species == SPECIES_SLURPUFF && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;
+    case HOLD_EFFECT_PRISM_SCALE:
+        if (gBattleMons[battlerDef].species == SPECIES_MILOTIC && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_DUBIOUS_DISC:
+        if (gBattleMons[battlerDef].species == SPECIES_PORYGON_Z && usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_DRAGON_SCALE:
+        if (gBattleMons[battlerDef].species == SPECIES_KINGDRA && usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_RAZOR_FANG:
+        if (gBattleMons[battlerDef].species == SPECIES_GLISCOR && usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_RAZOR_CLAW:
+        if (gBattleMons[battlerDef].species == SPECIES_WEAVILE && usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_ELECTIRIZER:
+        if (gBattleMons[battlerDef].species == SPECIES_ELECTIVIRE && !usesDefStat)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_PROTECTOR:
+        if (gBattleMons[battlerDef].species == SPECIES_RHYPERIOR)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_RED_SCALE:
+        if (gBattleMons[battlerDef].species == SPECIES_GYARADOS)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_SACHET:
+        if (gBattleMons[battlerDef].species == SPECIES_AROMATISSE)
+            MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_KINGS_ROCK:
+    if ((GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_POLITOED
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SLOWKING)
+        && usesDefStat)
+        MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_CONDENSADOR_GAS:
+    if ((GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_WEEZING
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_WEEZING_GALARIAN))
+        MulModifier(&modifier, UQ_4_12(1.3));
+        break;
+    case HOLD_EFFECT_STEEL_POWER:
+    if ((GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_SCIZOR
+         || GET_BASE_SPECIES_ID(gBattleMons[battlerDef].species) == SPECIES_STEELIX)
+        && usesDefStat)
+        MulModifier(&modifier, UQ_4_12(1.3));
         break;
     case HOLD_EFFECT_METAL_POWDER:
         if (gBattleMons[battlerDef].species == SPECIES_DITTO && usesDefStat && !(gBattleMons[battlerDef].status2 & STATUS2_TRANSFORMED))

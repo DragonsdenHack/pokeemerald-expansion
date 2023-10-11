@@ -1010,6 +1010,17 @@ static const struct MenuAction MultichoiceList_SilphAscensor[] =
     
 };
 
+static const struct MenuAction MultichoiceList_CeladonAscensor[] =
+{
+    {gText_5F},
+    {gText_4F},
+    {gText_3F},
+    {gText_2F},
+    {gText_1F},
+    {gText_Exit},
+    
+};
+
 
 struct MultichoiceListStruct
 {
@@ -1154,6 +1165,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_ISLAEXTA]                     = MULTICHOICE(MultichoiceList_IslaExta),
     [MULTI_ISLASETIMA]                     = MULTICHOICE(MultichoiceList_IslaSetima),
     [MULTI_SILPH_ASCENSOR]                     = MULTICHOICE(MultichoiceList_SilphAscensor),
+    [MULTI_CELADON_ASCENSOR]                     = MULTICHOICE(MultichoiceList_CeladonAscensor),
 };
 
 const u8 *const gStdStrings[] =

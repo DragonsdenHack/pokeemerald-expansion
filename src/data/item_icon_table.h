@@ -267,6 +267,10 @@ const u32 *const gItemIconTable[][2] =
     [ITEM_EVERSTONE] = {gItemIcon_Everstone, gItemIconPalette_Everstone},
     [ITEM_PIEDRA_SAGRADA] = {gItemIcon_Altarianite, gItemIconPalette_Altarianite},
     [ITEM_PIEDRA_LINK] = {gItemIcon_OvalStone, gItemIconPalette_OvalStone},
+    [ITEM_PIEDRA_ROCKET] = {gItemIcon_DuskStone, gItemIconPalette_DuskStone},
+    [ITEM_BLACK_AUGURITE] = {gItemIcon_SilverPowder, gItemIconPalette_SilverPowder},
+    [ITEM_RED_SCALE] = {gItemIcon_PrismScale, gItemIconPalette_PrismScale},
+    [ITEM_CONDENSADOR_GAS] = {gItemIcon_PPMax, gItemIconPalette_PPMax},
     // Nectars
     [ITEM_RED_NECTAR] = {gItemIcon_RedNectar, gItemIconPalette_RedNectar},
     [ITEM_YELLOW_NECTAR] = {gItemIcon_YellowNectar, gItemIconPalette_YellowNectar},
