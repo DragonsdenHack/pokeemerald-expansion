@@ -5995,11 +5995,19 @@ static u8 RandomStatRaiseBerry(u32 battlerId, u32 itemId, bool32 end2)
         stringId = (GetBattlerAbility(battlerId) == ABILITY_CONTRARY) ? STRINGID_STATFELL : STRINGID_STATROSE;
         gBattleTextBuff2[0] = B_BUFF_PLACEHOLDER_BEGIN;
         gBattleTextBuff2[1] = B_BUFF_STRING;
-        gBattleTextBuff2[2] = STRINGID_STATSHARPLY;
-        gBattleTextBuff2[3] = STRINGID_STATSHARPLY >> 8;
-        gBattleTextBuff2[4] = B_BUFF_STRING;
-        gBattleTextBuff2[5] = stringId;
-        gBattleTextBuff2[6] = stringId >> 8;
+        #if GAME_LANGUAGE == LANGUAGE_SPANISH
+            gBattleTextBuff2[2] = stringId;
+            gBattleTextBuff2[3] = stringId >> 8;
+            gBattleTextBuff2[4] = B_BUFF_STRING;
+            gBattleTextBuff2[5] = STRINGID_STATSHARPLY;
+            gBattleTextBuff2[6] = STRINGID_STATSHARPLY >> 8;
+        #else
+            gBattleTextBuff2[2] = STRINGID_STATSHARPLY;
+            gBattleTextBuff2[3] = STRINGID_STATSHARPLY >> 8;
+            gBattleTextBuff2[4] = B_BUFF_STRING;
+            gBattleTextBuff2[5] = stringId;
+            gBattleTextBuff2[6] = stringId >> 8;
+        #endif
         gBattleTextBuff2[7] = EOS;
         gEffectBattler = battlerId;
         if (GetBattlerAbility(battlerId) == ABILITY_RIPEN)
