@@ -655,19 +655,19 @@ static const u8 sHeartScaleDesc[] = _(
    	"coleccionistas.");
 
 static const u8 sHoneyDesc[] = _(
-    "Sweet honey that\n"
-    "attracts wild\n"
-    "Pokémon when used.");
+    "Dulce miel que\n"
+    "atrae a los\n"
+    "POKÉMON salvajes.");
 
 static const u8 sRareBoneDesc[] = _(
-    "A very rare bone.\n"
-    "It can be sold at\n"
-    "a high price.");
+    "Hueso muy raro.\n"
+    "Puede ser vendido\n"
+    "a un alto precio.");
 
 static const u8 sOddKeystoneDesc[] = _(
-    "Voices can be heard\n"
-    "from this odd stone\n"
-    "occasionally.");
+    "Pueden oírse voces\n"
+    "en el interior de\n"
+    "esta piedra.");
 
 static const u8 sPrettyFeatherDesc[] = _(
     "A beautiful yet\n"
@@ -730,29 +730,29 @@ static const u8 sArmorFossilDesc[] = _(
     "mon's head.");
 
 static const u8 sSkullFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's head.");
+    "Fósil de un POKéMON\n"
+   	"ancestral que moró\n"
+   	"en el fondo del mar.");
 
 static const u8 sCoverFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's back.");
+    "Fósil de un POKéMON\n"
+   	"ancestral que moró\n"
+   	"en el fondo del mar.");
 
 static const u8 sPlumeFossilDesc[] = _(
-    "A piece of a\n"
-    "prehistoric Poké-\n"
-    "mon's wing.");
+    "Fósil de un POKéMON\n"
+   	"ancestral que moró\n"
+   	"en el fondo del mar.");
 
 static const u8 sJawFossilDesc[] = _(
-    "A piece of a prehis-\n"
-    "toric Pokémon's\n"
-    "large jaw.");
+    "Fósil de un POKéMON\n"
+   	"ancestral que moró\n"
+   	"en el fondo del mar.");
 
 static const u8 sSailFossilDesc[] = _(
-    "A piece of a prehis-\n"
-    "toric Pokémon's\n"
-    "skin sail.");
+    "Fósil de un POKéMON\n"
+   	"ancestral que moró\n"
+   	"en el fondo del mar.");
 
 static const u8 sFossilizedBirdDesc[] = _( // Todo
     "?????");
@@ -1019,9 +1019,9 @@ static const u8 sSachetDesc[] = _(
    	"AROMATISSE.");
 
 static const u8 sOvalStoneDesc[] = _(
-    "Makes a certain\n"
-    "Pokémon evolve. It's\n"
-    "shaped like an egg.");
+    "Hace evolucionar\n"
+   	"a varias especies\n"
+   	"de POKéMON.");
 
 static const u8 sStrawberrySweetDesc[] = _( // Todo
     "?????");
@@ -1158,110 +1158,110 @@ static const u8 sPixiePlateDesc[] = _(
 
 // Drives
 static const u8 sDouseDriveDesc[] = _(
-    "Changes Genesect's\n"
-    "Techno Blast to\n"
-    "Water-type.");
+    "Cambia el TECNO\n"
+    "SHOCK de GENESECT\n"
+    "al tipo AGUA.");
 
 static const u8 sShockDriveDesc[] = _(
-    "Changes Genesect's\n"
-    "Techno Blast to\n"
-    "Electric-type.");
+    "Cambia el TECNO\n"
+    "SHOCK de GENESECT\n"
+    "al tipo ELÉCTRICO.");
 
 static const u8 sBurnDriveDesc[] = _(
-    "Changes Genesect's\n"
-    "Techno Blast to\n"
-    "Fire-type.");
+    "Cambia el TECNO\n"
+    "SHOCK de GENESECT\n"
+    "al tipo FUEGO.");
 
 static const u8 sChillDriveDesc[] = _(
-    "Changes Genesect's\n"
-    "Techno Blast to\n"
-    "Ice-type.");
+    "Cambia el TECNO\n"
+    "SHOCK de GENESECT\n"
+    "al tipo HIELO.");
 
 // Memories
 static const u8 sFireMemoryDesc[] = _(
-    "A disc with Fire\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo FUEGO.");
 
 static const u8 sWaterMemoryDesc[] = _(
-    "A disc with Water\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo AGUA.");
 
 static const u8 sElectricMemoryDesc[] = _(
-    "A disc with Electric\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo ELÉCTRICO.");
 
 static const u8 sGrassMemoryDesc[] = _(
-    "A disc with Grass\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo PLANTA.");
 
 static const u8 sIceMemoryDesc[] = _(
-    "A disc with Ice\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo HIELO.");
 
 static const u8 sFightingMemoryDesc[] = _(
-    "A disc with Fighting\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo LUCHA.");
 
 static const u8 sPoisonMemoryDesc[] = _(
-    "A disc with Poison\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo VENENO.");
 
 static const u8 sGroundMemoryDesc[] = _(
-    "A disc with Ground\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo TIERRA.");
 
 static const u8 sFlyingMemoryDesc[] = _(
-    "A disc with Flying\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo VOLADOR.");
 
 static const u8 sPsychicMemoryDesc[] = _(
-    "A disc with Psychic\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo PSÍQUICO.");
 
 static const u8 sBugMemoryDesc[] = _(
-    "A disc with Bug\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo BICHO.");
 
 static const u8 sRockMemoryDesc[] = _(
-    "A disc with Rock\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo ROCA.");
 
 static const u8 sGhostMemoryDesc[] = _(
-    "A disc with Ghost\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo FANTASMA.");
 
 static const u8 sDragonMemoryDesc[] = _(
-    "A disc with Dragon\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo DRAGÓN.");
 
 static const u8 sDarkMemoryDesc[] = _(
-    "A disc with Dark\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo SINIESTRO.");
 
 static const u8 sSteelMemoryDesc[] = _(
-    "A disc with Steel\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo ACERO.");
 
 static const u8 sFairyMemoryDesc[] = _(
-    "A disc with Fairy\n"
-    "type data. It swaps\n"
-    "Silvally's type.");
+    "Disco que cambia.\n"
+    "a SILVALLY al\n"
+    "tipo HADA.");
 
 static const u8 sRustedSwordDesc[] = _( // Todo
     "?????");
@@ -2033,93 +2033,93 @@ static const u8 sMetalCoatDesc[] = _(
 
 // Choice Items
 static const u8 sChoiceBandDesc[] = _(
-    "Raises a move's\n"
-    "power, but permits\n"
-    "only that move.");
+    "Eleva en un 50% el\n"
+    "ATAQUE, pero solo\n"
+    "puede usar un mov.");
 
 static const u8 sChoiceSpecsDesc[] = _(
-    "Boosts Sp. Atk, but\n"
-    "allows the use of\n"
-    "only one move.");
+    "Eleva en un 50% el\n"
+    "AT.ESP, pero solo\n"
+    "puede usar un mov.");
 
 static const u8 sChoiceScarfDesc[] = _(
-    "Boosts Speed, but\n"
-    "allows the use of\n"
-    "only one move.");
+    "Eleva en un 50% la\n"
+    "VELOC., pero solo\n"
+    "puede usar un mov.");
 
 // Status Orbs
 static const u8 sFlameOrbDesc[] = _(
-    "A bizarre orb that\n"
-    "inflicts a burn on\n"
-    "holder in battle.");
+    "Extraño orbe que\n"
+    "quema al usuario\n"
+    "en combate.");
 
 static const u8 sToxicOrbDesc[] = _(
-    "A bizarre orb that\n"
-    "badly poisons the\n"
-    "holder in battle.");
+    "Extraño orbe que\n"
+    "envenena al\n"
+    "usuario en combate.");
 
 // Weather Rocks
 static const u8 sDampRockDesc[] = _(
-    "Extends the length\n"
-    "of Rain Dance if\n"
-    "used by the holder.");
+    "Extiende la duración\n"
+    "de la LLUVIA hasta\n"
+    "los 8 turnos.");
 
 static const u8 sHeatRockDesc[] = _(
-    "Extends the length\n"
-    "of Sunny Day if\n"
-    "used by the holder.");
+    "Extiende la duración\n"
+    "del SOL hasta los\n"
+    "8 turnos.");
 
 static const u8 sSmoothRockDesc[] = _(
-    "Extends the length\n"
-    "of Sandstorm if\n"
-    "used by the holder.");
+    "Extiende la duración\n"
+    "de la T.ARENA hasta\n"
+    "los 8 turnos.");
 
 static const u8 sIcyRockDesc[] = _(
-    "Extends the length\n"
-    "of the move Hail\n"
-    "used by the holder.");
+    "Extiende la duración\n"
+    "del GRANIZO hasta\n"
+    "los 8 turnos.");
 
 // Terrain Seeds
 static const u8 sElectricSeedDesc[] = _(
-    "Boosts Defense on\n"
-    "Electric Terrain,\n"
-    "but only one time.");
+    "Eleva la DEFENSA\n"
+    "en CAMPO ELÉCTRICO.\n"
+    "De un solo uso.");
 
 static const u8 sPsychicSeedDesc[] = _(
-    "Boosts Sp. Def. on\n"
-    "Psychic Terrain,\n"
-    "but only one time.");
+    "Eleva la DEF.ESP\n"
+    "en CAMPO PSÍQUICO.\n"
+    "De un solo uso.");
 
 static const u8 sMistySeedDesc[] = _(
-    "Boosts Sp. Def. on\n"
-    "Misty Terrain,\n"
-    "but only one time.");
+    "Eleva la DEF.ESP\n"
+    "en CAMPO NIEBLA.\n"
+    "De un solo uso.");
 
 static const u8 sGrassySeedDesc[] = _(
-    "Boosts Defense on\n"
-    "Grassy Terrain,\n"
-    "but only one time.");
+    "Eleva la DEFENSA\n"
+    "en CAMPO HIERBA.\n"
+    "De un solo uso.");
 
 // Type-activated Stat Modifiers
 static const u8 sAbsorbBulbDesc[] = _(
-    "Raises Sp. Atk if\n"
-    "the holder is hit by\n"
-    "a Water-type move.");
+    "Eleva el AT.ESP si\n"
+    "el usuario recibe\n"
+    "un mov. tipo AGUA.");
 
 static const u8 sCellBatteryDesc[] = _(
-    "Raises Atk if the\n"
-    "holder is hit by an\n"
-    "Electric-type move.");
+    "Eleva el ATAQUE si\n"
+    "el usuario recibe\n"
+    "un mov. tipo ELÉC.");
 
 static const u8 sLuminousMossDesc[] = _(
-    "Raises Sp. Def if\n"
-    "the holder is hit by\n"
-    "a Water-type move.");
+    "Eleva la DEF.ESP si\n"
+    "el usuario recibe\n"
+    "un mov. tipo AGUA.");
 
 static const u8 sSnowballDesc[] = _(
-    "Raises Atk if its\n"
-    "holder is hit by an\n"
-    "Ice-type move.");
+    "Eleva el ATAQUE si\n"
+    "el usuario recibe\n"
+    "un mov. tipo HIELO.");
 
 // Misc. Held Items
 static const u8 sBrightPowderDesc[] = _(
@@ -2204,94 +2204,94 @@ static const u8 sShellBellDesc[] = _(
    	"restaura los PS.");
 
 static const u8 sWideLensDesc[] = _(
-    "A magnifying lens\n"
-    "that boosts the\n"
-    "accuracy of moves.");
+    "Lentes que elevan\n"
+    "la precisión en un\n"
+    "10%.");
 
 static const u8 sMuscleBandDesc[] = _(
-    "A headband that\n"
-    "boosts the power of\n"
-    "physical moves.");
+    "Fortalece en un\n"
+   	"10% los ataques\n"
+   	"físicos.");
 
 static const u8 sWiseGlassesDesc[] = _(
-    "A pair of glasses\n"
-    "that ups the power\n"
-    "of special moves.");
+    "Fortalece en un\n"
+   	"10% los ataques\n"
+   	"especiales.");
 
 static const u8 sExpertBeltDesc[] = _(
-    "A belt that boosts\n"
-    "the power of super\n"
-    "effective moves.");
+    "Potencia en un 20%\n"
+    "el poder de los mov.\n"
+    "superefectivos.");
 
 static const u8 sLightClayDesc[] = _(
-    "Extends the length\n"
-    "of barrier moves\n"
-    "used by the holder.");
+    "Extiende a 8 turnos\n"
+    "la duración de P.LUZ\n"
+    "REFLEJO y V.AURORA.");
 
 static const u8 sLifeOrbDesc[] = _(
-    "Boosts the power of\n"
-    "moves at the cost\n"
-    "of some HP per turn.");
+    "Aumenta en un 30% el\n"
+    "daño global. Baja un\n"
+    "10% los PS al atacar.");
 
 static const u8 sPowerHerbDesc[] = _(
-    "Allows immediate\n"
-    "use of a move that\n"
-    "charges first.");
+    "Permite usar mov.\n"
+    "que requieren carga\n"
+    "en un solo turno.");
 
 static const u8 sFocusSashDesc[] = _(
-    "If the holder has\n"
-    "full HP, it endures\n"
-    "KO hits with 1 HP.");
+    "Si el usuario tiene\n"
+    "todos sus PS, no\n"
+    "se le podrá dar KO.");
 
 static const u8 sZoomLensDesc[] = _(
-    "If the holder moves\n"
-    "after the foe, it'll\n"
-    "boost accuracy.");
+    "Si el usuario ataca\n"
+    "después, eleva en un\n"
+    "20% su precisión.");
 
 static const u8 sMetronomeDesc[] = _(
-    "A held item that\n"
-    "boosts a move used\n"
-    "consecutively.");
+    "+20% cada turno de\n"
+    "un ataque si este\n"
+    "se usa seguido.");
 
 static const u8 sIronBallDesc[] = _(
-    "Cuts Speed and lets\n"
-    "Flying-types be hit\n"
-    "by Ground moves.");
+    "Reduce VELOC. y\n"
+    "elimina inmunidad\n"
+    "del tipo VOLADOR.");
 
 static const u8 sLaggingTailDesc[] = _(
-    "A held item that\n"
-    "makes the holder\n"
-    "move slower.");
+    "Hace que el\n"
+    "usuario mueva\n"
+    "el último.");
 
 static const u8 sDestinyKnotDesc[] = _(
-    "If the holder falls\n"
-    "in love, the foe\n"
-    "does too.");
+    "Si el usuario se\n"
+    "enamora, el ene-\n"
+    "migo también.");
 
 static const u8 sBlackSludgeDesc[] = _(
-    "Gradually restores\n"
-    "HP of Poison-types.\n"
-    "Damages others.");
+    "Cura 1/16 de PS en\n"
+    "tipo VENENO/turno.\n"
+    "Daña a otros.");
 
 static const u8 sGripClawDesc[] = _(
-    "Makes binding moves\n"
-    "used by the holder\n"
-    "go on for 7 turns.");
+    "Extiende los mov.\n"
+    "que atrapan hasta\n"
+    "los 7 turnos.");
 
 static const u8 sStickyBarbDesc[] = _(
-    "Damages the holder\n"
-    "each turn. May latch\n"
-    "on to foes.");
+    "Resta 1/8 de PS\n"
+    "al usuario cada\n"
+    "turno.");
 
 static const u8 sShedShellDesc[] = _(
-    "Enables the holder\n"
-    "to switch out of\n"
-    "battle without fail.");
+    "Permite siempre\n"
+    "cambiar al POK.\n"
+    "en un combate.");
 
 static const u8 sBigRootDesc[] = _(
-    "A held item that\n"
-    "boosts the power of\n"
-    "HP-stealing moves.");
+    "Mov. que absorben PS\n"
+    "recuperan un 30%\n"
+    "más de lo normal.");
 
 static const u8 sRazorClawDesc[] = _(
     "Fortalece en un 30%\n"
@@ -2304,74 +2304,74 @@ static const u8 sRazorFangDesc[] = _(
    	"GLISCOR.");
 
 static const u8 sEvioliteDesc[] = _(
-    "Raises the Def and\n"
-    "Sp. Def of Pokémon\n"
-    "that can evolve.");
+    "Eleva en un 50% DEF\n"
+    "y DEF.ESP en POK que\n"
+    "tienen evolución.");
 
 static const u8 sFloatStoneDesc[] = _(
-    "It's so light that\n"
-    "when held, it halves\n"
-    "a Pokémon's weight.");
+    "Es tan liviana que\n"
+    "si se equipa, reduce\n"
+    "el peso a la mitad.");
 
 static const u8 sRockyHelmetDesc[] = _(
-    "Hurts the foe if\n"
-    "they touch its\n"
-    "holder.");
+    "Resta 1/6 de salud\n"
+    "si el rival usa un\n"
+    "mov. de contacto.");
 
 static const u8 sAirBalloonDesc[] = _(
-    "Elevates the holder\n"
-    "in the air. If hit,\n"
-    "this item will burst.");
+    "Da inmunidad al\n"
+    "tipo TIERRA. Si es\n"
+    "golpeado, se rompe.");
 
 static const u8 sRedCardDesc[] = _(
-    "Switches out the\n"
-    "foe if they hit the\n"
-    "holder.");
+    "Cambia al azar al\n"
+    "rival si golpea al\n"
+    "usuario.");
 
 static const u8 sRingTargetDesc[] = _(
-    "Moves that wouldn't\n"
-    "have effect will\n"
-    "land on its holder.");
+    "El usuario pierde\n"
+    "toda inmunidad\n"
+    "propia de su tipo.");
 
 static const u8 sBindingBandDesc[] = _(
-    "Increases the\n"
-    "power of binding\n"
-    "moves when held.");
+    "Duplica el daño\n"
+    "residual de los\n"
+    "mov. que atrapan.");
 
 static const u8 sEjectButtonDesc[] = _(
-    "Switches out the\n"
-    "user if they're hit\n"
-    "by the foe.");
+    "Vuelve a la BALL\n"
+    "al usuario si es\n"
+    "golpeado.");
 
 static const u8 sWeaknessPolicyDesc[] = _(
-    "If hit by a Super\n"
-    "Effective move, ups\n"
-    "Atk and Sp. Atk.");
+    "Eleva en 2 niveles\n"
+    "AT. y AT.ESP si\n"
+    "recibe daño x2.");
 
 static const u8 sAssaultVestDesc[] = _(
-    "Raises Sp. Def but\n"
-    "prevents the use\n"
-    "of status moves.");
+    "Eleva en un 50% la\n"
+    "DEF.ESPECIAL, pero\n"
+    "obliga a atacar.");
 
 static const u8 sSafetyGogglesDesc[] = _(
-    "Protect from\n"
-    "weather damage and\n"
-    "powder moves.");
+    "Protege del daño\n"
+    "de climas y efectos\n"
+    "basados en polvos.");
 
 static const u8 sAdrenalineOrbDesc[] = _(
-    "Boosts Speed if the\n"
-    "user is intimidated,\n"
-    "but only one time.");
+    "Eleva la VELOC. si\n"
+    "se es intimidado.\n"
+    "Un solo uso.");
 
 static const u8 sTerrainExtenderDesc[] = _(
-    "Extends the length\n"
-    "of the active\n"
-    "battle terrain.");
+    "Extiende la duración\n"
+    "de un clima activo\n"
+    "a 8 turnos.");
 
 static const u8 sProtectivePadsDesc[] = _(
-    "Guard the holder\n"
-    "from contact move\n"
-    "effects.");
+    "Protege al usuario\n"
+    "del daño de sus\n"
+    "mov. de contacto.");
 
 static const u8 sThroatSprayDesc[] = _( // Todo
     "?????");
