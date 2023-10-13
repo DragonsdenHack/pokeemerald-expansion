@@ -26,7 +26,7 @@ struct MultiPartnerMenuPokemon
 #if GAME_LANGUAGE == LANGUAGE_SPANISH
     #define TYPE_NAME_LENGTH 9
 #else
-    #define TYPE_NAME_LENGTH 6
+    #define TYPE_NAME_LENGTH 9
 #endif
 #ifdef BATTLE_ENGINE
 #define ABILITY_NAME_LENGTH 16
