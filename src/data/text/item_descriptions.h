@@ -2983,154 +2983,342 @@ static const u8 sTM50Desc[] = _(
    	"mucho el AT. ESP.");
 
 static const u8 sTM51Desc[] = _( // Todo
-    "?????");
+    "Ataque a plena\n"
+    "potencia. Puede\n"
+    "bajar la Def. Esp.");
 
 static const u8 sTM52Desc[] = _( // Todo
-    "?????");
+    "Doble de daño si\n"
+   	"el usuario no\n"
+   	"lleva ningún objeto.");
 
 static const u8 sTM53Desc[] = _( // Todo
-    "?????");
+    "Es eficaz, pero\n"
+   	"deja inmóvil al\n"
+   	"atacante 1 turno.");
 
 static const u8 sTM54Desc[] = _( // Todo
-    "?????");
+    "Ataca con un aura\n"
+   	"oscura. Puede\n"
+   	"causar retroceso.");
 
 static const u8 sTM55Desc[] = _( // Todo
-    "?????");
+    "Embestida eléctrica\n"
+   	"que también hiere\n"
+   	"al agresor.");
 
 static const u8 sTM56Desc[] = _( // Todo
-    "?????");
+    "Apuñala con muchas\n"
+   	"piedras. Probabi-\n"
+   	"lidad de crítico.");
 
 static const u8 sTM57Desc[] = _( // Todo
-    "?????");
+    "Corte que puede\n"
+   	"envenenar y hacer\n"
+   	"un golpe crítico.");
 
 static const u8 sTM58Desc[] = _( // Todo
-    "?????");
+    "Corta al enemigo\n"
+   	"con cuchillas,\n"
+   	"guadañas, etc.");
 
 static const u8 sTM59Desc[] = _( // Todo
-    "?????");
+    "Afila las garras\n"
+   	"para subir el\n"
+   	"Ataque y Precis.");
 
 static const u8 sTM60Desc[] = _( // Todo
-    "?????");
+    "Ataca con una onda\n"
+   	"psíquica que causa\n"
+   	"daño físico.");
 
 static const u8 sTM61Desc[] = _( // Todo
-    "?????");
+    "Recupera hasta la\n"
+   	"mitad de los PS\n"
+   	"del usuario.");
 
 static const u8 sTM62Desc[] = _( // Todo
-    "?????");
+    "Lanza una roca y\n"
+   	"tumba al enemigo\n"
+   	"en el suelo.");
 
 static const u8 sTM63Desc[] = _( // Todo
-    "?????");
+    "Inunda al enemigo\n"
+   	"con una ola que\n"
+   	"puede envenenar.");
 
 static const u8 sTM64Desc[] = _( // Todo
-    "?????");
+    "Ataca envuelto en\n"
+   	"llamas. Sube la\n"
+   	"Velocidad.");
 
 static const u8 sTM65Desc[] = _( // Todo
-    "?????");
+    "Golpea las piernas\n"
+   	"para bajar la\n"
+   	"Velocidad.");
 
 static const u8 sTM66Desc[] = _( // Todo
-    "?????");
+    "A cada turno que\n"
+   	"se use, hará más\n"
+   	"daño.");
 
 static const u8 sTM67Desc[] = _( // Todo
-    "?????");
+    "Ataca con poder\n"
+   	"natural. Puede bajar\n"
+   	"la Def. Esp.");
 
 static const u8 sTM68Desc[] = _( // Todo
-    "?????");
+    "Deja al enemigo\n"
+   	"con al menos\n"
+   	"1 PS.");
 
 static const u8 sTM69Desc[] = _( // Todo
-    "?????");
+    "Lanza agua hir-\n"
+   	"viendo al enemigo.\n"
+   	"Puede quemar.");
 
 static const u8 sTM70Desc[] = _( // Todo
-    "?????");
+    "Un rayo eléctrico\n"
+   	"que puede subir\n"
+   	"el At. Esp.");
 
 static const u8 sTM71Desc[] = _( // Todo
-    "?????");
+    "Se lleva al enemigo\n"
+   	"en el aire hasta\n"
+   	"el próximo turno.");
 
 static const u8 sTM72Desc[] = _( // Todo
-    "?????");
+    "Fuego muy intenso\n"
+   	"que produce\n"
+   	"quemaduras.");
 
 static const u8 sTM73Desc[] = _( // Todo
-    "?????");
+    "Causa mucho daño,\n"
+   	"pero te debilita.");
 
 static const u8 sTM74Desc[] = _( // Todo
-    "?????");
+    "Golpea con una garra\n"
+   	"umbría. Probabilidad\n"
+   	"de crítico.");
 
 static const u8 sTM75Desc[] = _( // Todo
-    "?????");
+    "Gana potencia si\n"
+   	"el usuario ataca el\n"
+   	"último este turno.");
 
 static const u8 sTM76Desc[] = _( // Todo
-    "?????");
+    "Hace más daño si\n"
+   	"hay un aliado\n"
+   	"caído en combate.");
 
 static const u8 sTM77Desc[] = _( // Todo
-    "?????");
+    "Pule el cuerpo para\n"
+   	"subir mucho la\n"
+   	"Velocidad.");
 
 static const u8 sTM78Desc[] = _( // Todo
-    "?????");
+    "Hace daño y luego\n"
+   	"se cambia con\n"
+   	"otro Pokémon.");
 
 static const u8 sTM79Desc[] = _( // Todo
-    "?????");
+    "Una descarga que\n"
+   	"puede paralizar\n"
+   	"al enemigo.");
 
 static const u8 sTM80Desc[] = _( // Todo
-    "?????");
+    "Un giro rápido que\n"
+   	"hace más daño a\n"
+   	"rivales más rápidos.");
 
 static const u8 sTM81Desc[] = _( // Todo
-    "?????");
+    "Baile que mejora\n"
+    "el Ataque.");
 
 static const u8 sTM82Desc[] = _( // Todo
-    "?????");
+    "Ataca resistiendo\n"
+   	"al enemigo y baja\n"
+   	"el At. Esp.");
 
 static const u8 sTM83Desc[] = _( // Todo
-    "?????");
+    "Pisotea el suelo\n"
+   	"con fuerza. Baja\n"
+   	"la Velocidad.");
 
 static const u8 sTM84Desc[] = _( // Todo
-    "?????");
+    "Este ataque siempre\n"
+   	"hace un golpe\n"
+   	"crítico.");
 
 static const u8 sTM85Desc[] = _( // Todo
-    "?????");
+    "Lanza grandes\n"
+   	"pedruscos. Puede\n"
+   	"causar retroceso.");
 
 static const u8 sTM86Desc[] = _( // Todo
-    "?????");
+    "Lanza al enemigo\n"
+   	"y termina el\n"
+   	"combate.");
 
 static const u8 sTM87Desc[] = _( // Todo
-    "?????");
+    "Ataque punzante\n"
+   	"que puede envene-\n"
+   	"nar al enemigo.");
 
 static const u8 sTM88Desc[] = _( // Todo
-    "?????");
+    "Un lazo que hace\n"
+   	"más daño a enemigos\n"
+   	"más pesados.");
 
 static const u8 sTM89Desc[] = _( // Todo
-    "?????");
+    "Provoca confusión,\n"
+   	"pero también sube\n"
+   	"el Ataque.");
 
 static const u8 sTM90Desc[] = _( // Todo
-    "?????");
+    "Se come la Baya del\n"
+   	"rival, adquiriendo\n"
+   	"sus efectos.");
 
 static const u8 sTM91Desc[] = _( // Todo
-    "?????");
+    "Hace daño y luego\n"
+   	"se cambia con\n"
+   	"otro Pokémon.");
 
 static const u8 sTM92Desc[] = _( // Todo
-    "?????");
+    "Crea un señuelo\n"
+   	"con 1/4 de tus\n"
+   	"PS máximos.");
 
 static const u8 sTM93Desc[] = _( // Todo
-    "?????");
+    "Lanza un golpe\n"
+   	"luminoso que puede\n"
+   	"bajar la Def. Esp.");
 
 static const u8 sTM94Desc[] = _( // Todo
-    "?????");
+    "Los Pokémon lentos\n"
+   	"se mueven primero\n"
+   	"5 turnos.");
 
 static const u8 sTM95Desc[] = _( // Todo
-    "?????");
+    "Esparce rocas que\n"
+   	"hieren cuando el\n"
+   	"enemigo cambia.");
 
 static const u8 sTM96Desc[] = _( // Todo
-    "?????");
+    "Ataque que gana\n"
+   	"fuerza si el\n"
+   	"enemigo te hiere.");
 
 static const u8 sTM97Desc[] = _( // Todo
-    "?????");
+    "Hace doble de daño\n"
+   	"al que tiene la\n"
+   	"mitad de los PS.");
 
 static const u8 sTM98Desc[] = _( // Todo
-    "?????");
+    "Absorbe la mitad\n"
+   	"del daño producido.");
 
 static const u8 sTM99Desc[] = _( // Todo
-    "?????");
+    "Genera una onda\n"
+   	"de choque para\n"
+   	"dañar al enemigo.");
 
 static const u8 sTM100Desc[] = _( // Todo
-    "?????");
+    "Daña a los enemi-\n"
+   	"gos con una haz de\n"
+   	"luz brillante.");
+
+static const u8 sTM101Desc[] = _( // Todo
+    "Movimiento violento\n"
+   	"que golpea con\n"
+   	"todo el alrededor.");
+
+static const u8 sTM102Desc[] = _( // Todo
+    "Golpea con un\n"
+   	"cuerno preciso\n"
+   	"que nunca falla.");
+
+static const u8 sTM103Desc[] = _( // Todo
+    "Debilita los ataques.\n"
+   	"Solo funciona\n"
+   	"bajo el granizo.");
+
+static const u8 sTM104Desc[] = _( // Todo
+    "Acosa al enemigo\n"
+   	"y lo ataca de 2\n"
+   	"a 5 turnos.");
+
+static const u8 sTM105Desc[] = _( // Todo
+    "Grita al enemigo\n"
+   	"y baja su\n"
+   	"At. Esp.");
+
+static const u8 sTM106Desc[] = _( // Todo
+    "Fuerte puñetazo\n"
+   	"que sube el Ataque\n"
+   	"del usuario.");
+
+static const u8 sTM107Desc[] = _( // Todo
+    "Puñetazo helado.\n"
+    "Puede congelar.");
+
+static const u8 sTM108Desc[] = _( // Todo
+    "Puñetazo eléctrico.\n"
+    "Puede paralizar.");
+
+static const u8 sTM109Desc[] = _( // Todo
+    "Puñetazo ardiente.\n"
+    "Puede quemar.");
+
+static const u8 sTM110Desc[] = _( // Todo
+    "1: busca punto flaco.\n"
+    "2: va a por él.");
+
+static const u8 sTM111Desc[] = _( // Todo
+    "Ataque con onda\n"
+   	"psíquica de inten-\n"
+   	"sidad variable.");
+
+static const u8 sTM112Desc[] = _( // Todo
+    "Esfera imbuida en\n"
+   	"aura totalmente\n"
+   	"ineludible.");
+
+static const u8 sTM113Desc[] = _( // Todo
+    "Levanta un aire\n"
+   	"turbulento que\n"
+   	"sube la Velocidad.");
+
+static const u8 sTM114Desc[] = _( // Todo
+    "Lanza basura al\n"
+   	"enemigo. También\n"
+   	"puede envenenar");
+
+static const u8 sTM115Desc[] = _( // Todo
+    "Gran cabezazo al\n"
+   	"enemigo. Puede\n"
+   	"hacer retroceder.");
+
+static const u8 sTM116Desc[] = _( // Todo
+    "Electrifica el campo\n"
+   	"por 5 turnos. Evita\n"
+   	"dormirse");
+
+static const u8 sTM117Desc[] = _( // Todo
+    "Crea un campo de\n"
+   	"hierba por 5 turnos.\n"
+   	"Restaura PS.");
+
+static const u8 sTM118Desc[] = _( // Todo
+    "Invoca un campo ex-\n"
+   	"traño por 5 turnos.\n"
+   	"Evita prioridad");
+
+static const u8 sTM119Desc[] = _( // Todo
+    "Cubre campo con\n"
+   	"niebla por 5 turnos.\n"
+   	"Evita estados.");
 
 static const u8 sHM01Desc[] = _(
    	"Corta con finas\n"
