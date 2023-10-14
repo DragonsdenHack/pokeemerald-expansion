@@ -509,7 +509,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_VENDEDOR_JOHTO 0x1168
 #define OBJ_EVENT_PAL_TAG_BEAUTY2 0x1169
 #define OBJ_EVENT_PAL_TAG_BLANCA 0x116A
-
+#define OBJ_EVENT_PAL_TAG_MEWTWOARM 0x116B
 #define OBJ_EVENT_PAL_TAG_CAMERAMAN2 0x116C
 #define OBJ_EVENT_PAL_TAG_CESAR 0x116D
 #define OBJ_EVENT_PAL_TAG_CHICA_JOHTO 0x116E
@@ -539,7 +539,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_CULTO2 0x118B
 #define OBJ_EVENT_PAL_TAG_MAESTRO_PAGODA 0x118C
 #define OBJ_EVENT_PAL_TAG_LIDERSETE 0x118D
-
+#define OBJ_EVENT_PAL_TAG_ZINNIA 0x118E
 
 #define OBJ_EVENT_PAL_TAG_YASMINA 0x1190
 #define OBJ_EVENT_PAL_TAG_GLASTRIER 0x1191
@@ -701,6 +701,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Cultista2, OBJ_EVENT_PAL_TAG_CULTO2},
 	{gObjectEventPal_MaestroPagoda, OBJ_EVENT_PAL_TAG_MAESTRO_PAGODA},
 	{gObjectEventPal_LiderSete, OBJ_EVENT_PAL_TAG_LIDERSETE},
+	{gObjectEventPal_MewtwoArm, OBJ_EVENT_PAL_TAG_MEWTWOARM},
+	{gObjectEventPal_Zinnia, OBJ_EVENT_PAL_TAG_ZINNIA},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

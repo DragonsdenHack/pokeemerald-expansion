@@ -3,7 +3,7 @@
   "name": "ViasTren3",
   "layout": "LAYOUT_VIAS_TREN3",
   "music": "MUS_ROUTE120",
-  "region_map_section": "MAPSEC_TRAINER_HILL",
+  "region_map_section": "MAPSEC_GOLDENROD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_NONE",

@@ -1833,7 +1833,55 @@ void SetDeptStoreFloor(void)
             break;
 		case MAP_NUM(ROCKET_HIDEOUT_4F):
             deptStoreFloor = DEPT_STORE_FLOORNUM_4F;
-            break;	
+            break;
+		case MAP_NUM(SILPH_1F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
+			break;
+		case MAP_NUM(SILPH_2F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_2F;
+			break;
+		case MAP_NUM(SILPH_3F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_3F;
+			break;
+		case MAP_NUM(SILPH_4F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_4F;
+			break;
+		case MAP_NUM(SILPH_5F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_5F;
+			break;
+		case MAP_NUM(SILPH_6F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_6F;
+			break;
+		case MAP_NUM(SILPH_7F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_7F;
+			break;
+		case MAP_NUM(SILPH_8F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_8F;
+			break;
+		case MAP_NUM(CELADON_CITY_SHOP_1F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
+			break;
+		case MAP_NUM(CELADON_CITY_SHOP_2F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_2F;
+			break;
+		case MAP_NUM(CELADON_CITY_SHOP_3F):
+			deptStoreFloor = DEPT_STORE_FLOORNUM_3F;
+			break;
+		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(CELADON_CITY_SHOP_4F))
+			deptStoreFloor = DEPT_STORE_FLOORNUM_4F;
+			break;
+		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(CELADON_CITY_SHOP_5F))
+			deptStoreFloor = DEPT_STORE_FLOORNUM_5F;
+			break;
+		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_9F))
+			deptStoreFloor = DEPT_STORE_FLOORNUM_9F;
+			break;
+		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_10F))
+			deptStoreFloor = DEPT_STORE_FLOORNUM_10F;
+			break;
+		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_11F))
+			deptStoreFloor = DEPT_STORE_FLOORNUM_11F;
+			break;	
         default:
             deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
             break;
@@ -1894,6 +1942,83 @@ u16 GetDeptStoreDefaultFloorChoice(void)
                 break;		
 		}	
 	}
+	
+	if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(CELADON_CITY_SHOP_1F))
+    {
+		switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
+        {
+			case MAP_NUM(CELADON_CITY_SHOP_5F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 0;
+                break;
+			case MAP_NUM(CELADON_CITY_SHOP_4F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 1;
+                break;
+			case MAP_NUM(CELADON_CITY_SHOP_3F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 2;
+                break;
+			case MAP_NUM(CELADON_CITY_SHOP_2F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 3;
+                break;
+			case MAP_NUM(CELADON_CITY_SHOP_1F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 4;
+                break;			
+		}
+	}
+	if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_1F))
+    {
+		switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
+        {
+			case MAP_NUM(SILPH_11F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 0;
+                break;
+			case MAP_NUM(SILPH_10F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 1;
+                break;
+			case MAP_NUM(SILPH_9F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 2;
+                break;
+			case MAP_NUM(SILPH_8F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 3;
+                break;
+			case MAP_NUM(SILPH_7F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 4;
+                break;
+			case MAP_NUM(SILPH_6F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 5;
+                break;
+			case MAP_NUM(SILPH_5F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 6;
+                break;
+			case MAP_NUM(SILPH_4F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 7;
+                break;
+			case MAP_NUM(SILPH_3F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 8;
+                break;
+			case MAP_NUM(SILPH_2F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 9;
+                break;
+			case MAP_NUM(SILPH_1F):
+				sLilycoveDeptStore_NeverRead = 0;
+                sLilycoveDeptStore_DefaultFloorChoice = 10;
+                break;	
+		}
+	}	
     return sLilycoveDeptStore_DefaultFloorChoice;
 }
 

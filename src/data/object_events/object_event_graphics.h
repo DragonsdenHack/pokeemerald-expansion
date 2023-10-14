@@ -638,6 +638,7 @@ const u16 gObjectEventPic_Devon4[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventPic_Cultista2[] = INCBIN_U16("graphics/object_events/pics/people/cultista2.4bpp");
 const u16 gObjectEventPic_MaestroPagoda[] = INCBIN_U16("graphics/object_events/pics/people/maestro_pagoda.4bpp");
 const u16 gObjectEventPic_LiderSete[] = INCBIN_U16("graphics/object_events/pics/people/lidersete.4bpp");
+const u16 gObjectEventPic_Zinnia[] = INCBIN_U16("graphics/object_events/pics/people/zinnia.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -755,3 +756,6 @@ const u16 gObjectEventPal_Devon4[] = INCBIN_U16("graphics/object_events/palettes
 const u16 gObjectEventPal_Cultista2[] = INCBIN_U16("graphics/object_events/palettes/cultista2.gbapal");
 const u16 gObjectEventPal_MaestroPagoda[] = INCBIN_U16("graphics/object_events/palettes/maestro_pagoda.gbapal");
 const u16 gObjectEventPal_LiderSete[] = INCBIN_U16("graphics/object_events/palettes/lidersete.gbapal");
+
+const u16 gObjectEventPal_MewtwoArm[] = INCBIN_U16("graphics/object_events/palettes/mewtwoarm.gbapal");
+const u16 gObjectEventPal_Zinnia[] = INCBIN_U16("graphics/object_events/palettes/zinnia.gbapal");
