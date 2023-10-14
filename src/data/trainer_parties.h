@@ -2609,7 +2609,7 @@ static const struct TrainerMonItemCustomMoves sParty_Salazar[] = {
     .heldItem = ITEM_CHOICE_SPECS,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_BLIZZARD, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_ICE_BURN, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -19243,7 +19243,7 @@ static const struct TrainerMonItemCustomMoves sParty_Zeus4[] = {
     .heldItem = ITEM_LIFE_ORB,
     .evs = {0, 128, 0, 252, 128, 0},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_BLUE_FLARE, MOVE_BOLT_STRIKE, MOVE_ICE_BEAM, MOVE_DRACO_METEOR}
+    .moves = {MOVE_BLUE_FLARE, MOVE_ROOST, MOVE_ICE_BURN, MOVE_ICE_BURN}
     }
 };
 
@@ -23440,10 +23440,10 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER18[] = {
     .iv = 255,
     .lvl = 100,
     .species = SPECIES_KYUREM_PRIMAL,
-    .heldItem = ITEM_POWER_HERB,
+    .heldItem = ITEM_LIFE_ORB,
     .evs = {0, 252, 0, 252, 6, 0},
-    .nature = NATURE_NAIVE,
-    .moves = {MOVE_FREEZE_SHOCK, MOVE_DRACO_METEOR, MOVE_IRON_TAIL, MOVE_FUSION_BOLT}
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_FREEZE_SHOCK, MOVE_ROOST, MOVE_FREEZE_SHOCK, MOVE_BOLT_STRIKE}
     }
 };
 

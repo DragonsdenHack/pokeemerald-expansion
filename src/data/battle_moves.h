@@ -8699,7 +8699,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_FREEZE_SHOCK] =
     {
-        .effect = EFFECT_TWO_TURNS_ATTACK,
+        .effect = EFFECT_RECOIL_25,
         .power = 140,
         .type = TYPE_ICE,
         .accuracy = 90,
@@ -8714,7 +8714,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_ICE_BURN] =
     {
-        .effect = EFFECT_TWO_TURNS_ATTACK,
+        .effect = EFFECT_RECOIL_25,
         .power = 140,
         .type = TYPE_ICE,
         .accuracy = 90,

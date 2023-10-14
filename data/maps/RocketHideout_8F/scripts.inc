@@ -3799,7 +3799,9 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_19 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
-setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+setflag FLAG_SYS_POKEDEX_GET
+setflag FLAG_SYS_NATIONAL_DEX
+special EnableNationalPokedex
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_20 MSGBOX_DEFAULT
 waitfanfare
 playse SE_PIN

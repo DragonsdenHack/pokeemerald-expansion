@@ -273,3 +273,12 @@ end
 
 UndergroundPath_7F_Tercero_Motorista_Texto_1:
 .string "Al final, JOHTO sigue dándonos órdenes…$"
+
+Pokedex_Set::
+lock
+setflag FLAG_SYS_POKEDEX_GET
+setflag FLAG_SYS_NATIONAL_DEX
+special EnableNationalPokedex
+msgbox UndergroundPath_7F_Tercero_Motorista_Texto_1 MSGBOX_NPC
+release
+end
