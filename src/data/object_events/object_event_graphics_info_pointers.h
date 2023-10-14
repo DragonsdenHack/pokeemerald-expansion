@@ -488,6 +488,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AltoRango;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Ejecutivo;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Admin;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Silver;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zinnia;
 
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
@@ -979,6 +980,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_CULTISTA2] = &gObjectEventGraphicsInfo_Cultista2,
 	[OBJ_EVENT_GFX_MAESTRO_PAGODA] = &gObjectEventGraphicsInfo_MaestroPagoda,
 	[OBJ_EVENT_GFX_LIDERSETE] = &gObjectEventGraphicsInfo_LiderSete,
+	[OBJ_EVENT_GFX_ZINNIA] = &gObjectEventGraphicsInfo_Zinnia,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
