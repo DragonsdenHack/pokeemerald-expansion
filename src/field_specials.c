@@ -1802,6 +1802,23 @@ static const u16 sElevatorWindowTiles_Descending[][3] =
 void SetDeptStoreFloor(void)
 {
     u8 deptStoreFloor;
+	
+	if(gSaveBlock1Ptr->dynamicWarp.mapNum ==  MAP_GROUP(SILPH_9F))
+	{
+		deptStoreFloor = DEPT_STORE_FLOORNUM_9F;
+	}	
+	if(gSaveBlock1Ptr->dynamicWarp.mapNum ==  MAP_GROUP(SILPH_10F))
+		deptStoreFloor = DEPT_STORE_FLOORNUM_10F;
+	
+	if(gSaveBlock1Ptr->dynamicWarp.mapNum ==  MAP_GROUP(SILPH_11F))
+		deptStoreFloor = DEPT_STORE_FLOORNUM_11F;
+
+	if(gSaveBlock1Ptr->dynamicWarp.mapNum ==  MAP_GROUP(CELADON_CITY_SHOP_4F))
+		deptStoreFloor = DEPT_STORE_FLOORNUM_4F;
+
+	if(gSaveBlock1Ptr->dynamicWarp.mapNum ==  MAP_GROUP(CELADON_CITY_SHOP_5F))
+		deptStoreFloor = DEPT_STORE_FLOORNUM_5F;
+       	
     switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
     {
         case MAP_NUM(LILYCOVE_CITY_DEPARTMENT_STORE_1F):
@@ -1857,7 +1874,7 @@ void SetDeptStoreFloor(void)
 			break;
 		case MAP_NUM(SILPH_8F):
 			deptStoreFloor = DEPT_STORE_FLOORNUM_8F;
-			break;
+			break;	
 		case MAP_NUM(CELADON_CITY_SHOP_1F):
 			deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
 			break;
@@ -1867,21 +1884,6 @@ void SetDeptStoreFloor(void)
 		case MAP_NUM(CELADON_CITY_SHOP_3F):
 			deptStoreFloor = DEPT_STORE_FLOORNUM_3F;
 			break;
-		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(CELADON_CITY_SHOP_4F))
-			deptStoreFloor = DEPT_STORE_FLOORNUM_4F;
-			break;
-		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(CELADON_CITY_SHOP_5F))
-			deptStoreFloor = DEPT_STORE_FLOORNUM_5F;
-			break;
-		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_9F))
-			deptStoreFloor = DEPT_STORE_FLOORNUM_9F;
-			break;
-		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_10F))
-			deptStoreFloor = DEPT_STORE_FLOORNUM_10F;
-			break;
-		if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_11F))
-			deptStoreFloor = DEPT_STORE_FLOORNUM_11F;
-			break;	
         default:
             deptStoreFloor = DEPT_STORE_FLOORNUM_1F;
             break;
@@ -1969,7 +1971,7 @@ u16 GetDeptStoreDefaultFloorChoice(void)
                 break;			
 		}
 	}
-	if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_1F))
+	if (gSaveBlock1Ptr->dynamicWarp.mapGroup == MAP_GROUP(SILPH_ELEVATOR))
     {
 		switch (gSaveBlock1Ptr->dynamicWarp.mapNum)
         {
@@ -1984,39 +1986,39 @@ u16 GetDeptStoreDefaultFloorChoice(void)
 			case MAP_NUM(SILPH_9F):
 				sLilycoveDeptStore_NeverRead = 0;
                 sLilycoveDeptStore_DefaultFloorChoice = 2;
-                break;
+                break;	
 			case MAP_NUM(SILPH_8F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 3;
+                sLilycoveDeptStore_DefaultFloorChoice = 0;
                 break;
 			case MAP_NUM(SILPH_7F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 4;
+                sLilycoveDeptStore_DefaultFloorChoice = 1;
                 break;
 			case MAP_NUM(SILPH_6F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 5;
+                sLilycoveDeptStore_DefaultFloorChoice = 2;
                 break;
 			case MAP_NUM(SILPH_5F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 6;
+                sLilycoveDeptStore_DefaultFloorChoice = 3;
                 break;
 			case MAP_NUM(SILPH_4F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 7;
+                sLilycoveDeptStore_DefaultFloorChoice = 0;
                 break;
 			case MAP_NUM(SILPH_3F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 8;
+                sLilycoveDeptStore_DefaultFloorChoice = 1;
                 break;
 			case MAP_NUM(SILPH_2F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 9;
+                sLilycoveDeptStore_DefaultFloorChoice = 2;
                 break;
 			case MAP_NUM(SILPH_1F):
 				sLilycoveDeptStore_NeverRead = 0;
-                sLilycoveDeptStore_DefaultFloorChoice = 10;
-                break;	
+                sLilycoveDeptStore_DefaultFloorChoice = 3;
+                break;		
 		}
 	}	
     return sLilycoveDeptStore_DefaultFloorChoice;
