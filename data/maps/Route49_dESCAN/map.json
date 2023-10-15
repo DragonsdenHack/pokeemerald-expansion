@@ -3,7 +3,7 @@
   "name": "Route49_dESCAN",
   "layout": "LAYOUT_ROUTE49_D_ESCAN",
   "music": "594",
-  "region_map_section": "MAPSEC_SEVII_ISLE_9",
+  "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_INDOOR",

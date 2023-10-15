@@ -942,24 +942,27 @@ Torre_Radio_Lavanda_Mercado_1_EventScript_Clerk::
 
 	.align 2
 Torre_Radio_Lavanda_Mercado_1_Pokemart:
-    .2byte 358
-	.2byte 359
-	.2byte 360
-	.2byte 361
-	.2byte 362
-	.2byte 363
-	.2byte 364
-	.2byte 365
-	.2byte 366
-	.2byte 367
-	.2byte 368
-	.2byte 369
-	.2byte 370
-	.2byte 371
-	.2byte 372
-	.2byte 373
-	.2byte 374
-	.2byte 375
+    .2byte 81
+	.2byte 82
+	.2byte 83
+	.2byte 84
+	.2byte 85
+	.2byte 86
+	.2byte 87
+	.2byte 88
+	.2byte 89
+	.2byte 90
+	.2byte 91
+	.2byte 92
+	.2byte 93
+	.2byte 94
+	.2byte 95
+	.2byte 96
+	.2byte 97
+	.2byte 98
+	.2byte 99
+	.2byte 100
+	.2byte 101
 	.2byte ITEM_NONE
 	release
 	end

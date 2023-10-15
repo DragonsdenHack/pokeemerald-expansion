@@ -366,67 +366,109 @@ static const u8 sAbilityPatchDesc[] = _( // Todo
 
 // Mints
 static const u8 sLonelyMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el ATAQUE pero\n"
+    "baja la DEFENSA.");
 
 static const u8 sAdamantMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el ATAQUE pero\n"
+    "baja el AT.ESP.");
 
 static const u8 sNaughtyMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el ATAQUE pero\n"
+    "baja la DEF.ESP.");
 
 static const u8 sBraveMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el ATAQUE pero\n"
+    "baja la VELOCIDAD.");
 
 static const u8 sBoldMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEFENSA y\n"
+    "baja el ATAQUE.");
 
 static const u8 sImpishMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEFENSA y\n"
+    "baja el AT.ESP.");
 
 static const u8 sLaxMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEFENSA y\n"
+    "baja la DEF.ESP.");
 
 static const u8 sRelaxedMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEFENSA y\n"
+    "baja la VELOCIDAD.");
 
 static const u8 sModestMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el AT.ESP y\n"
+    "baja el ATAQUE.");
 
 static const u8 sMildMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el AT.ESP y\n"
+    "baja la DEFENSA.");
 
 static const u8 sRashMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el AT.ESP y\n"
+    "baja la DEF.ESP.");
 
 static const u8 sQuietMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube el AT.ESP y\n"
+    "baja la VELOCIDAD.");
 
 static const u8 sCalmMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEF.ESP y\n"
+    "baja el ATAQUE.");
 
 static const u8 sGentleMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEF.ESP y\n"
+    "baja la DEFENSA.");
 
 static const u8 sCarefulMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEF.ESP y\n"
+    "baja el AT.ESP.");
 
 static const u8 sSassyMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la DEF.ESP y\n"
+    "baja la VELOCIDAD.");
 
 static const u8 sTimidMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la VELOCIDAD y\n"
+    "baja el ATAQUE.");
 
 static const u8 sHastyMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la VELOCIDAD y\n"
+    "baja la DEFENSA.");
 
 static const u8 sJollyMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la VELOCIDAD y\n"
+    "baja el AT.ESP.");
 
 static const u8 sNaiveMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Sube la VELOCIDAD y\n"
+    "baja la DEF.ESP.");
 
 static const u8 sSeriousMintDesc[] = _( // Todo
-    "?????");
+    "Cambia el carácter.\n"
+    "Mantiene estables\n"
+    "todos los stats.");
 
 // Candy
 static const u8 sRareCandyDesc[] = _(
@@ -1023,6 +1065,21 @@ static const u8 sOvalStoneDesc[] = _(
    	"a varias especies\n"
    	"de POKéMON.");
 
+static const u8 sMinnegroDesc[] = _(
+    "Fortalece en un 30%\n"
+   	"DEF.ESP y VELOC. de\n"
+   	"KLEAVOR.");
+
+static const u8 sEscrojaDesc[] = _(
+    "Fortalece en un 30%\n"
+   	"DEF y DEF.ESP de\n"
+   	"GYARADOS.");
+
+static const u8 sCondgasDesc[] = _(
+    "+30% AT.ESP, DEF.ESP\n"
+   	"y DEF en WEEZING y\n"
+   	"WEEZ-G. Baja 30% AT.");
+
 static const u8 sStrawberrySweetDesc[] = _( // Todo
     "?????");
 
@@ -1508,6 +1565,41 @@ static const u8 sDianciteDesc[] = _(
     "Transforma a\n"
     "DIANCE en su\n"
     "forma MEGA.");
+
+static const u8 sFlygoniteDesc[] = _(
+    "Transforma a\n"
+    "FLYGON en su\n"
+    "forma MEGA.");
+
+static const u8 sMiloticiteDesc[] = _(
+    "Transforma a\n"
+    "MILOTIC en su\n"
+    "forma MEGA.");
+
+static const u8 sStarmietiteDesc[] = _(
+    "Transforma a\n"
+    "STARMIE en su\n"
+    "forma MEGA.");
+
+static const u8 sButterfriteDesc[] = _(
+    "Transforma a\n"
+    "BUTTERFREE en\n"
+    "su forma MEGA.");
+
+static const u8 sDusknoiriteDesc[] = _(
+    "Transforma a\n"
+    "DUSKNOIR en\n"
+    "su forma MEGA.");
+
+static const u8 sNoiverniteDesc[] = _(
+    "Transforma a\n"
+    "NOIVERN en su\n"
+    "forma MEGA.");
+
+static const u8 sToxtriciteDesc[] = _(
+    "Transforma a\n"
+    "TOXTRICITY en\n"
+    "su forma MEGA.");
 
 // Gems
 static const u8 sNormalGemDesc[] = _(
@@ -2374,22 +2466,33 @@ static const u8 sProtectivePadsDesc[] = _(
     "mov. de contacto.");
 
 static const u8 sThroatSprayDesc[] = _( // Todo
-    "?????");
+    "Eleva 1 nivel el\n"
+    "AT.ESP si se usa\n"
+    "un mov. de sonido.");
 
 static const u8 sEjectPackDesc[] = _( // Todo
-    "?????");
+    "Se cambia por otro\n"
+    "al bajar algún stat.");
 
 static const u8 sHeavyDutyBootsDesc[] = _( // Todo
-    "?????");
+    "Protege al usuario\n"
+    "de las trampas en\n"
+    "el campo.");
 
 static const u8 sBlunderPolicyDesc[] = _( // Todo
-    "?????");
+    "Si el usuario falla,\n"
+    "eleva en dos niveles\n"
+    "su VELOCIDAD.");
 
 static const u8 sRoomServiceDesc[] = _( // Todo
-    "?????");
+    "Baja un nivel la,\n"
+    "VELOC. del usuario\n"
+    "en ESPACIO RARO.");
 
 static const u8 sUtilityUmbrellaDesc[] = _( // Todo
-    "?????");
+    "Ignora los efectos\n"
+    "de los climas\n"
+    "lluvia y sol.");
 
 // Berries
 static const u8 sCheriBerryDesc[] = _(

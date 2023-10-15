@@ -115,13 +115,13 @@ gText_WhichFloorWouldYouLike2:
 
 Silph_Elevator_EventScript_FloorSelect::
 	lockall
-	setvar VAR_0x8004, 0
+	setvar VAR_0x8004, 10
 	call_if_unset FLAG_TEMP_2, RocketHideout_Elevator_EventScript_SetFloor
 	copyvar VAR_0x8005, VAR_DEPT_STORE_FLOOR
 	special ShowDeptStoreElevatorFloorSelect
 	message gText_WhichFloorWouldYouLike2
 	waitmessage
-	setvar VAR_0x8004, 0
+	setvar VAR_0x8004, 10
 	specialvar VAR_RESULT, GetDeptStoreDefaultFloorChoice
 	switch VAR_RESULT
 	case 0, Silph_Elevator_EventScript_ChooseFloorFrom4th

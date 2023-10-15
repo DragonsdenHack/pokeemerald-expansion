@@ -3,7 +3,7 @@
   "name": "TorreDunsparce_P4",
   "layout": "LAYOUT_TORRE_DUNSPARCE_P4",
   "music": "639",
-  "region_map_section": "MAPSEC_SEVII_ISLE_8",
+  "region_map_section": "MAPSEC_SPECIAL_AREA",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
   "map_type": "MAP_TYPE_UNDERGROUND",
@@ -41,7 +41,7 @@
       "flag": "FLAG_HIDE_VERDANTURF_TOWN_SCOTT"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_LUGIA2",
+      "graphics_id": "OBJ_EVENT_GFX_DUSCLOPS",
       "x": 14,
       "y": -2,
       "elevation": 3,
