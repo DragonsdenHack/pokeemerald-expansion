@@ -86,7 +86,7 @@ RocketHideout_Elevator_EventScript_4thFloor::
 
 RocketHideout_Elevator_EventScript_ExitFloorSelect::
 	special CloseDeptStoreElevatorWindow
-	release
+	releaseall
 	end
 
 RocketHideout_Elevator_EventScript_MoveElevator::
@@ -121,48 +121,40 @@ Silph_Elevator_EventScript_FloorSelect::
 	special ShowDeptStoreElevatorFloorSelect
 	message gText_WhichFloorWouldYouLike2
 	waitmessage
-	setvar VAR_0x8004, 0
+	setvar VAR_0x8004, MULTI_SILPH_ASCENSOR
 	specialvar VAR_RESULT, GetDeptStoreDefaultFloorChoice
 	switch VAR_RESULT
 	case 0, Silph_Elevator_EventScript_ChooseFloorFrom4th
 	case 1, Silph_Elevator_EventScript_ChooseFloorFrom3th
 	case 2, Silph_Elevator_EventScript_ChooseFloorFrom2th
 	case 3, Silph_Elevator_EventScript_ChooseFloorFrom1th
-	case 4, Silph_Elevator_EventScript_ChooseFloorMas
-	case 5, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_ChooseFloorMas::
-	multichoice 22, 0, MULTI_SILPH_ASCENSOR2, 0
+	multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 3, FALSE
 	switch VAR_RESULT
-	case 0, Silph_Elevator_EventScript_ChooseFloorFrom8th
-	case 1, Silph_Elevator_EventScript_ChooseFloorFrom7th
-	case 2, Silph_Elevator_EventScript_ChooseFloorFrom6th
-	case 3, Silph_Elevator_EventScript_ChooseFloorFrom5th
+	case 0, Silph_Elevator_EventScript_8thFloor
+	case 1, Silph_Elevator_EventScript_7thFloor
+	case 2, Silph_Elevator_EventScript_6thFloor
+	case 3, Silph_Elevator_EventScript_5thFloor
 	case 4, Silph_Elevator_EventScript_ChooseFloorMas2
 	case 5, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case MULTI_B_PRESSED, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 	
 Silph_Elevator_EventScript_ChooseFloorMas2::
-	multichoice 22, 0, MULTI_SILPH_ASCENSOR3, 0
+	multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR3, 3, FALSE
 	switch VAR_RESULT
-	case 0, Silph_Elevator_EventScript_ChooseFloorFrom11th
-	case 1, Silph_Elevator_EventScript_ChooseFloorFrom10th
-	case 2, Silph_Elevator_EventScript_ChooseFloorFrom9th
-	case 3, Silph_Elevator_EventScript_ChooseFloorFrom5th
-	case 4, Silph_Elevator_EventScript_ChooseFloorMas3
-	case 5, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case 0, Silph_Elevator_EventScript_11thFloor
+	case 1, Silph_Elevator_EventScript_10thFloor
+	case 2, Silph_Elevator_EventScript_9thFloor
+	case 3, Silph_Elevator_EventScript_ChooseFloorMas3
+	case 4, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case MULTI_B_PRESSED, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_ChooseFloorMas3::
-	multichoice 22, 0, MULTI_SILPH_ASCENSOR, 0
-	switch VAR_RESULT
-	case 0, Silph_Elevator_EventScript_ChooseFloorFrom4th
-	case 1, Silph_Elevator_EventScript_ChooseFloorFrom3th
-	case 2, Silph_Elevator_EventScript_ChooseFloorFrom2th
-	case 3, Silph_Elevator_EventScript_ChooseFloorFrom1th
-	case 4, Silph_Elevator_EventScript_ChooseFloorMas
-	case 5, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto Silph_Elevator_EventScript_FloorSelect
 	end
 	
 Silph_Elevator_EventScript_ChooseFloorFrom11th::
@@ -181,148 +173,164 @@ Silph_Elevator_EventScript_ChooseFloorFrom9th::
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom8th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 3, FALSE
-	goto Silph_Elevator_EventScript_ChooseFloor
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 0, FALSE
+	goto Silph_Elevator_EventScript_ChooseFloor2
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom7th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 4, FALSE
-	goto Silph_Elevator_EventScript_ChooseFloor
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 1, FALSE
+	goto Silph_Elevator_EventScript_ChooseFloor2
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom6th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 5, FALSE
-	goto Silph_Elevator_EventScript_ChooseFloor
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 2, FALSE
+	goto Silph_Elevator_EventScript_ChooseFloor2
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom5th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 6, FALSE
-	goto Silph_Elevator_EventScript_ChooseFloor
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR2, 3, FALSE
+	goto Silph_Elevator_EventScript_5thFloor
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom4th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 7, FALSE
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 0, FALSE
 	goto Silph_Elevator_EventScript_ChooseFloor
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom3th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 8, FALSE
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 1, FALSE
 	goto Silph_Elevator_EventScript_ChooseFloor
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom2th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 9, FALSE
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 2, FALSE
 	goto Silph_Elevator_EventScript_ChooseFloor
 	end
 
 Silph_Elevator_EventScript_ChooseFloorFrom1th::
-    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 10, FALSE
+    multichoicedefault 0, 0, MULTI_SILPH_ASCENSOR, 3, FALSE
 	goto Silph_Elevator_EventScript_ChooseFloor
 	end
 
 Silph_Elevator_EventScript_ChooseFloor::
 	switch VAR_RESULT
-	case 0, Silph_Elevator_EventScript_11thFloor
-	case 1, Silph_Elevator_EventScript_10thFloor
-	case 2, Silph_Elevator_EventScript_9thFloor
-	case 3, Silph_Elevator_EventScript_8thFloor
-	case 4, Silph_Elevator_EventScript_7thFloor
-	case 5, Silph_Elevator_EventScript_6thFloor
-	case 6, Silph_Elevator_EventScript_5thFloor
-	case 7, Silph_Elevator_EventScript_4thFloor
-	case 8, Silph_Elevator_EventScript_3thFloor
-	case 9, Silph_Elevator_EventScript_2thFloor
-	case 10, Silph_Elevator_EventScript_1thFloor
+	case 0, Silph_Elevator_EventScript_4thFloor
+	case 1, Silph_Elevator_EventScript_3thFloor
+	case 2, Silph_Elevator_EventScript_2thFloor
+	case 3, Silph_Elevator_EventScript_1thFloor
+	case 4, Silph_Elevator_EventScript_ChooseFloorMas
+	case 5, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case MULTI_B_PRESSED, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end
+	
+Silph_Elevator_EventScript_ChooseFloor2::
+	switch VAR_RESULT
+	case 0, Silph_Elevator_EventScript_8thFloor
+	case 1, Silph_Elevator_EventScript_7thFloor
+	case 2, Silph_Elevator_EventScript_6thFloor
+	case 3, Silph_Elevator_EventScript_5thFloor
+	case 4, Silph_Elevator_EventScript_ChooseFloorMas
+	case 5, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	case MULTI_B_PRESSED, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
+Silph_Elevator_EventScript_ChooseFloor3::
+	switch VAR_RESULT
+	case 0, Silph_Elevator_EventScript_11thFloor
+	case 1, Silph_Elevator_EventScript_10thFloor
+	case 2, Silph_Elevator_EventScript_9thFloor
+	case 3, Silph_Elevator_EventScript_ChooseFloorMas
+	case 4, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case MULTI_B_PRESSED, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	end		
+
 Silph_Elevator_EventScript_11thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_11F
 	setdynamicwarp MAP_SILPH_11F, 13, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_11F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_11F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_10thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_10F
 	setdynamicwarp MAP_SILPH_10F, 13, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_10F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_10F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_9thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_9F
 	setdynamicwarp MAP_SILPH_9F, 24, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_9F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_9F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_8thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_8F
 	setdynamicwarp MAP_SILPH_8F, 22, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_8F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_8F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_7thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_7F
 	setdynamicwarp MAP_SILPH_7F, 23, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_7F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_7F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_6thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_6F
 	setdynamicwarp MAP_SILPH_6F, 20, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_6F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_6F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_5thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_5F
 	setdynamicwarp MAP_SILPH_5F, 22, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_5F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_5F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_4thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_4F
 	setdynamicwarp MAP_SILPH_4F, 22, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_4F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_4F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_3thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_3F
 	setdynamicwarp MAP_SILPH_3F, 22, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_3F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_3F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
 Silph_Elevator_EventScript_2thFloor::
-	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_0x8006, DEPT_STORE_FLOORNUM_2F
 	setdynamicwarp MAP_SILPH_2F, 22, 4
-	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	goto_if_eq VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_2F, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	call RocketHideout_Elevator_EventScript_MoveElevator
-	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_1F
+	setvar VAR_DEPT_STORE_FLOOR, DEPT_STORE_FLOORNUM_2F
 	goto RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 
