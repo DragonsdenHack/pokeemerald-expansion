@@ -20816,7 +20816,7 @@ static const struct TrainerMonItemCustomMoves sParty_Giovanni2[] = {
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {110, 252, 110, 110, 110, 252},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_NONE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_IRON_HEAD, MOVE_STONE_EDGE, MOVE_ROCK_WRECKER}
     },
     {
     .iv = 255,
@@ -20992,8 +20992,8 @@ static const struct TrainerMonItemCustomMoves sParty_Bill4[] = {
     {
     .iv = 255,
     .lvl = 108,
-    .species = SPECIES_PORYGON_Z_MEGA,
-    .heldItem = ITEM_LEFTOVERS,
+    .species = SPECIES_PORYGON_Z,
+    .heldItem = ITEM_PORYGONITA,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
     .moves = {MOVE_DOUBLE_EDGE, MOVE_ZEN_HEADBUTT, MOVE_IRON_TAIL, MOVE_GIGA_IMPACT}

@@ -220,9 +220,7 @@ Base_Profunda_Mercado_7_Pokemart:
 	.2byte 215
 	.2byte 218
 	.2byte 219
-	.2byte 229
-	.2byte 230
-	.2byte 231
+	.2byte 223
 	.2byte ITEM_NONE
 	release
 	end
@@ -1014,7 +1012,7 @@ Torre_Radio_Lavanda_Mercado_2_EventScript_Clerk::
 
 	.align 2
 Torre_Radio_Lavanda_Mercado_2_Pokemart:
-    .2byte 786
+    .2byte 222
     .2byte 505
 	.2byte 506
 	.2byte 507

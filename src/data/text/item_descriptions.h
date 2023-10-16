@@ -327,39 +327,39 @@ static const u8 sPPMaxDesc[] = _(
 
 // EV Feathers
 static const u8 sHealthFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base HP of\n"
-    "a Pokémon.");
+    "Eleva en 2 EVs\n"
+    "la base de PS\n"
+    "del POKÉMON.");
 
 static const u8 sMuscleFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Attack of\n"
-    "a Pokémon.");
+    "Eleva en 2 EVs\n"
+    "la base de ATAQUE\n"
+    "del POKÉMON.");
 
 static const u8 sResistFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Defense\n"
-    "of a Pokémon.");
+    "Eleva en 2 EVs\n"
+    "la base de DEFENSA\n"
+    "del POKÉMON.");
 
 static const u8 sGeniusFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Sp. Atk.\n"
-    "of a Pokémon.");
+    "Eleva en 2 EVs\n"
+    "la base de AT.ESP\n"
+    "del POKÉMON.");
 
 static const u8 sCleverFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Sp. Def.\n"
-    "of a Pokémon.");
+    "Eleva en 2 EVs\n"
+    "la base de DEF.ESP\n"
+    "del POKÉMON.");
 
 static const u8 sSwiftFeatherDesc[] = _(
-    "An item that raises\n"
-    "the base Speed of\n"
-    "a Pokémon.");
+    "Eleva en 2 EVs\n"
+    "la base de VELOC.\n"
+    "del POKÉMON.");
 
 // Ability Modifiers
 static const u8 sAbilityCapsuleDesc[] = _(
-    "Switches a Poké-\n"
-    "mon's ability.");
+    "Cambia la habi-\n"
+    "lidad del POKÉMON.");
 
 static const u8 sAbilityPatchDesc[] = _( // Todo
     "?????");
@@ -1601,6 +1601,11 @@ static const u8 sToxtriciteDesc[] = _(
     "TOXTRICITY en\n"
     "su forma MEGA.");
 
+static const u8 sPorygonitDesc[] = _(
+    "Transforma a\n"
+    "PORYGON-Z en\n"
+    "su forma MEGA.");
+
 // Gems
 static const u8 sNormalGemDesc[] = _(
     "+40% potencia en\n"
@@ -2008,34 +2013,34 @@ static const u8 sMachoBraceDesc[] = _(
    	"baja la VELOCIDAD.");
 
 static const u8 sPowerWeightDesc[] = _(
-    "A hold item that\n"
-    "promotes HP gain,\n"
-    "but reduces Speed.");
+    "Da 4 EVs extra en\n"
+    "SALUD, pero reduce\n"
+    "la VELOCIDAD.");
 
 static const u8 sPowerBracerDesc[] = _(
-    "A hold item that\n"
-    "promotes Atk gain,\n"
-    "but reduces Speed.");
+    "Da 4 EVs extra en\n"
+    "ATAQUE, pero reduce\n"
+    "la VELOCIDAD.");
 
 static const u8 sPowerBeltDesc[] = _(
-    "A hold item that\n"
-    "promotes Def gain,\n"
-    "but reduces Speed.");
+    "Da 4 EVs extra en\n"
+    "DEFENSA, reduce\n"
+    "la VELOCIDAD.");
 
 static const u8 sPowerLensDesc[] = _(
-    "Hold item that pro-\n"
-    "motes Sp. Atk gain,\n"
-    "but reduces Speed.");
+    "Da 4 EVs extra en\n"
+    "AT.ESP, pero reduce\n"
+    "la VELOCIDAD.");
 
 static const u8 sPowerBandDesc[] = _(
-    "Hold item that pro-\n"
-    "motes Sp. Def gain,\n"
-    "but reduces Speed.");
+    "Da 4 EVs extra en\n"
+    "DEF.ESP, reduce\n"
+    "la VELOCIDAD.");
 
 static const u8 sPowerAnkletDesc[] = _(
-    "A hold item that\n"
-    "promotes Spd gain,\n"
-    "but reduces Speed.");
+    "Da 4 EVs extra en\n"
+    "VELOC., pero la\n"
+    "baja en combate.");
 
 // Type-boosting Held Items
 static const u8 sSilkScarfDesc[] = _(

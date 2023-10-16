@@ -76,6 +76,7 @@
 #define ITEM_DIANCITE            ITEM_NONE
 #define ITEM_NOIVERNITA          ITEM_NONE
 #define ITEM_TOXTRICITIT         ITEM_NONE
+#define ITEM_PORYGONITA         ITEM_NONE
 
 //EVO_TRADE_ITEM
 #define ITEM_PROTECTOR           ITEM_NONE

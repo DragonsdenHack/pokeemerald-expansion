@@ -29148,11 +29148,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_PORYGON_Z_MEGA] =
     {
         .baseHP        = 85,
-        .baseAttack    = 80,
-        .baseDefense   = 70,
-        .baseSpeed     = 90,
-        .baseSpAttack  = 145,
-        .baseSpDefense = 75,
+        .baseAttack    = 100,
+        .baseDefense   = 90,
+        .baseSpeed     = 110,
+        .baseSpAttack  = 165,
+        .baseSpDefense = 95,
         .type1 = TYPE_NORMAL,
         .type2 = TYPE_NORMAL,
         .catchRate = 30,
@@ -29165,7 +29165,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_MINERAL,
         .eggGroup2 = EGG_GROUP_MINERAL,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_ADAPTABILITY, ABILITY_DOWNLOAD, ABILITY_ANALYTIC},
+            .abilities = {ABILITY_HUGE_POWER, ABILITY_HUGE_POWER, ABILITY_HUGE_POWER},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif

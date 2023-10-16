@@ -947,7 +947,7 @@ const struct Item gItems[] =
     {
         .name = _("Pluma Vigor"),
         .itemId = ITEM_HEALTH_FEATHER,
-        .price = 500,
+        .price = 1000,
         .description = sHealthFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -958,7 +958,7 @@ const struct Item gItems[] =
     {
         .name = _("Pluma Músculo"),
         .itemId = ITEM_MUSCLE_FEATHER,
-        .price = 500,
+        .price = 1000,
         .description = sMuscleFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -969,7 +969,7 @@ const struct Item gItems[] =
     {
         .name = _("Pluma Aguante"),
         .itemId = ITEM_RESIST_FEATHER,
-        .price = 500,
+        .price = 1000,
         .description = sResistFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -980,7 +980,7 @@ const struct Item gItems[] =
     {
         .name = _("P.Intelecto"),
         .itemId = ITEM_GENIUS_FEATHER,
-        .price = 500,
+        .price = 1000,
         .description = sGeniusFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -991,7 +991,7 @@ const struct Item gItems[] =
     {
         .name = _("Pluma Mente"),
         .itemId = ITEM_CLEVER_FEATHER,
-        .price = 500,
+        .price = 1000,
         .description = sCleverFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -1002,7 +1002,7 @@ const struct Item gItems[] =
     {
         .name = _("Pluma Ímpetu"),
         .itemId = ITEM_SWIFT_FEATHER,
-        .price = 500,
+        .price = 1000,
         .description = sSwiftFeatherDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
@@ -2457,35 +2457,35 @@ const struct Item gItems[] =
 
     [ITEM_TART_APPLE] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Piedra Sagr."),
+        .itemId = ITEM_TART_APPLE,
+        .price = 9800,
+        .description = sDawnStoneDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_CRACKED_POT] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Piedra Link"),
+        .itemId = ITEM_CRACKED_POT,
+        .price = 9800,
+        .description = sDawnStoneDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_CHIPPED_POT] = // Todo
     {
-        .name = _("????????"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .name = _("Piedra Rocket"),
+        .itemId = ITEM_CHIPPED_POT,
+        .price = 9800,
+        .description = sDawnStoneDesc,
         .pocket = POCKET_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_GALARICA_CUFF] = // Todo
@@ -9158,14 +9158,13 @@ const struct Item gItems[] =
 
     [ITEM_KEY_TO_ROOM_6] =
     {
-        .name = _("Key to Room 6"),
+        .name = _("Piedra Dor"),
         .itemId = ITEM_KEY_TO_ROOM_6,
-        .price = 0,
-        .description = sKeyToRoom6Desc,
-        .importance = 1,
-        .pocket = POCKET_KEY_ITEMS,
-        .type = ITEM_USE_BAG_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+        .price = 9800,
+        .description = sThunderStoneDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_PARTY_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_EvolutionStone,
     },
 
     [ITEM_METEORITE] =
@@ -9664,7 +9663,7 @@ const struct Item gItems[] =
     },
     [ITEM_PIEDRA_SAGRADA] =
     {
-        .name = _("Piedra Dorada"),
+        .name = _("Bug"),
         .itemId = ITEM_PIEDRA_SAGRADA,
         .price = 9800,
         .description = sThunderStoneDesc,
@@ -9674,7 +9673,7 @@ const struct Item gItems[] =
     },
     [ITEM_PIEDRA_LINK] =
     {
-        .name = _("Piedra Link"),
+        .name = _("Bug"),
         .itemId = ITEM_PIEDRA_LINK,
         .price = 9800,
         .description = sThunderStoneDesc,
@@ -9684,7 +9683,7 @@ const struct Item gItems[] =
     },
     [ITEM_PIEDRA_ROCKET] =
     {
-        .name = _("Piedra Rocket"),
+        .name = _("Bug"),
         .itemId = ITEM_PIEDRA_ROCKET,
         .price = 9800,
         .description = sThunderStoneDesc,
@@ -9721,6 +9720,17 @@ const struct Item gItems[] =
         .price = 12000,
         .holdEffect = HOLD_EFFECT_CONDENSADOR_GAS,
         .description = sCondgasDesc,
+        .pocket = POCKET_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+    [ITEM_PORYGONITA] =
+    {
+        .name = _("Porygonita"),
+        .itemId = ITEM_PORYGONITA,
+        .price = 0,
+        .holdEffect = HOLD_EFFECT_MEGA_STONE,
+        .description = sPorygonitDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

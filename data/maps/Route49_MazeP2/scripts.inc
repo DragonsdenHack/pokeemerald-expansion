@@ -129,7 +129,7 @@ Route49MazeP2Documento_Text_101:
 	.string "TOTAL: 529\p"
 	.string "AGUA/FUEGO\n"
 	.string "Pertenece a la misma rama familiar de\l"
-	.string "DEWGON y WALREIN, aunque intercambia\l"
+	.string "DEWGONG y WALREIN, aunque intercambia\l"
 	.string "el TIPO HIELO por el FUEGO. Su\l"
 	.string "HABILIDAD le hará inmune al propio TIPO\l"
 	.string "AGUA, al tiempo que es capaz de lanzar\l"
