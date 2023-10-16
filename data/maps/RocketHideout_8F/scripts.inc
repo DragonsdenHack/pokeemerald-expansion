@@ -4782,7 +4782,7 @@ step_end
 RocketHideout_8F_Final_DLC_Texto_1:
 .string "GIOVANNI: ¡{PLAYER}! Debimos estar\n"
 	.string "ahí ATLAS y yo. Cuéntame todo, ¿y\l"
-	.string "ANDRA?.$"
+	.string "ANDRA?$"
 
 RocketHideout_8F_Final_DLC_Texto_2:
 .string "Ya veo. Debimos suponer que el ambiente\n"

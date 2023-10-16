@@ -544,12 +544,12 @@ EventScript_OpenDoor::
 	end
 	
 	Text_CardKeyOpenedDoor:
-	.string "The card key opened door.$"
+	.string "La LL.MAGNÉTICA abrió la puerta.$"
 	
 	Text_ItNeedsCardKey:
-	.string "It needs card key.$"
+	.string "Se necesita una llave.$"
 	
 	Text_TheDoorIsOpen:
-	.string "The door is open.$"
+	.string "La puerta está abierta.$"
 	
 	

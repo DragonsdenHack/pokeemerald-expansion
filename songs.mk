@@ -652,7 +652,7 @@ $(MID_SUBDIR)/mus_bw_castillo2.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080	
 
 $(MID_SUBDIR)/mus_bw_route10.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V020
 
 $(MID_SUBDIR)/mus_encounter_mirto.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V080
@@ -868,7 +868,7 @@ $(MID_SUBDIR)/mus_hooh_battle.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V080
 
 $(MID_SUBDIR)/mus_hgss_route47.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G191 -V070
 	
 $(MID_SUBDIR)/mus_vs_devon.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V090

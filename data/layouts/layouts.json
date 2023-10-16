@@ -5405,7 +5405,7 @@
       "id": "LAYOUT_LAVENDER_RADIO_P4",
       "name": "LavenderTownRadioP4_Layout",
       "width": 24,
-      "height": 20,
+      "height": 24,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
