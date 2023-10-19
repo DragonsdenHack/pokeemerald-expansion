@@ -839,9 +839,106 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_SECRET_BASE)
         return B_TRANSITION_CHAMPION;
 
+    if (gTrainerBattleOpponent_A == TRAINER_EJECUTIVO_DEVON_1)
+        return B_TRANSITION_KYOGRE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_EJECUTIVO_DEVON_2)
+        return B_TRANSITION_GROUDON;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ESENCIA_ZIGARDE)
+        return B_TRANSITION_REGIROCK;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ESENCIA_5)
+        return B_TRANSITION_REGIROCK;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ESENCIA_LUGIA)
+        return B_TRANSITION_REGIROCK;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ESENCIA_HOOH)
+        return B_TRANSITION_REGIROCK;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_145)
+        return B_TRANSITION_REGISTEEL;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_104)
+        return B_TRANSITION_REGISTEEL;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_136)
+        return B_TRANSITION_REGICE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_137)
+        return B_TRANSITION_RAYQUAZA;
+
+    if (gTrainerBattleOpponent_A == TRAINER_PROTON)
+        return B_TRANSITION_PROTON;
+
+    if (gTrainerBattleOpponent_A == TRAINER_MIRTO)
+        return B_TRANSITION_MIRTO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_LANCE_2)
+        return B_TRANSITION_LANCE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ROJO_2)
+        return B_TRANSITION_ROJO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ROJO_3)
+        return B_TRANSITION_ROJO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_CULTO_1)
+        return B_TRANSITION_JONES;
+
+    if (gTrainerBattleOpponent_A == TRAINER_CULTO_2)
+        return B_TRANSITION_JONES;
+
+    if (gTrainerBattleOpponent_A == TRAINER_CULTO_3)
+        return B_TRANSITION_JONES;
+
+    if (gTrainerBattleOpponent_A == TRAINER_PRESIDENTE_SILPH)
+        return B_TRANSITION_PRESIDENTE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_AQUILES)
+        return B_TRANSITION_AQUILES;
+
+    if (gTrainerBattleOpponent_A == TRAINER_MAGNO)
+        return B_TRANSITION_MAGNO;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_17)
+        return B_TRANSITION_MAESTRODUN;
+
+    if (gTrainerBattleOpponent_A == TRAINER_CAPITAN_1)
+        return B_TRANSITION_CAPITAN;
+
+    if (gTrainerBattleOpponent_A == TRAINER_CAPITAN_2)
+        return B_TRANSITION_CAPITAN;
+
+    if (gTrainerBattleOpponent_A == TRAINER_FUJI_1)
+        return B_TRANSITION_FUJI;
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ZEUS)
+    {
+        if (gTrainerBattleOpponent_A == TRAINER_ZEUS_1)
+            return B_TRANSITION_ZEUS;
+        if (gTrainerBattleOpponent_A == TRAINER_ZEUS_2)
+            return B_TRANSITION_ZEUS;
+        if (gTrainerBattleOpponent_A == TRAINER_ZEUS_3)
+            return B_TRANSITION_ZEUS;
+        if (gTrainerBattleOpponent_A == TRAINER_ZEUS_4)
+            return B_TRANSITION_ZEUS;
+        return B_TRANSITION_CHAMPION;
+    }
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_GIOVANNI)
+    {
+        if (gTrainerBattleOpponent_A == TRAINER_GIOVANNI_1)
+            return B_TRANSITION_GIOVANNI;
+        if (gTrainerBattleOpponent_A == TRAINER_GIOVANNI_2)
+            return B_TRANSITION_GIOVANNI;
+        return B_TRANSITION_CHAMPION;
+    }
+
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ELITE_FOUR)
     {
-        if (gTrainerBattleOpponent_A == TRAINER_SIDNEY)
+        if (gTrainerBattleOpponent_A == TRAINER_ANDRA_1)
             return B_TRANSITION_SIDNEY;
         if (gTrainerBattleOpponent_A == TRAINER_PHOEBE)
             return B_TRANSITION_PHOEBE;
@@ -852,8 +949,104 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_CHAMPION;
     }
 
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_JOHTO)
+    {
+        if (gTrainerBattleOpponent_A == TRAINER_PEGASO)
+            return B_TRANSITION_PEGASO;
+        if (gTrainerBattleOpponent_A == TRAINER_PEGASO_2)
+            return B_TRANSITION_PEGASO;
+        if (gTrainerBattleOpponent_A == TRAINER_CESAR)
+            return B_TRANSITION_CESAR;
+        if (gTrainerBattleOpponent_A == TRAINER_VALERIA)
+            return B_TRANSITION_VALERIA;
+        if (gTrainerBattleOpponent_A == TRAINER_CROM)
+            return B_TRANSITION_CROM;
+        if (gTrainerBattleOpponent_A == TRAINER_ANIBAL)
+            return B_TRANSITION_ANIBAL;
+        if (gTrainerBattleOpponent_A == TRAINER_JADEN)
+            return B_TRANSITION_JADEN;
+        if (gTrainerBattleOpponent_A == TRAINER_FREDO)
+            return B_TRANSITION_FREDO;
+        if (gTrainerBattleOpponent_A == TRAINER_SALAZAR)
+            return B_TRANSITION_SALAZAR;
+        return B_TRANSITION_CHAMPION;
+    }
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ATLAS)
+    {
+        if (gTrainerBattleOpponent_A == TRAINER_ATLAS_2)
+            return B_TRANSITION_ATLAS;
+        if (gTrainerBattleOpponent_A == TRAINER_ATLAS_3)
+            return B_TRANSITION_ATLAS;
+        return B_TRANSITION_CHAMPION;
+    }
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ADMINISTRADOR)
+    {
+        if (gTrainerBattleOpponent_A == TRAINER_PETREL)
+            return B_TRANSITION_PETREL;
+        if (gTrainerBattleOpponent_A == TRAINER_TRAINER_194)
+            return B_TRANSITION_PETREL;
+        return B_TRANSITION_CHAMPION;
+    }
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ALTOMANDO)
+    {
+        if (gTrainerBattleOpponent_A == TRAINER_LORELEI)
+            return B_TRANSITION_LORELEI;
+        if (gTrainerBattleOpponent_A == TRAINER_BRUNO_2)
+            return B_TRANSITION_BRUNO;
+        if (gTrainerBattleOpponent_A == TRAINER_BRUNO_1)
+            return B_TRANSITION_BRUNO;
+        if (gTrainerBattleOpponent_A == TRAINER_AGATHA_2)
+            return B_TRANSITION_AGATHA;
+        if (gTrainerBattleOpponent_A == TRAINER_AGATHA)
+            return B_TRANSITION_AGATHA;
+        if (gTrainerBattleOpponent_A == TRAINER_LANCE_1)
+            return B_TRANSITION_LANCE;
+        return B_TRANSITION_CHAMPION;
+    }
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_KANTO)
+    {
+    if (gTrainerBattleOpponent_A == TRAINER_BROCK)
+        return B_TRANSITION_BROCK;
+    if (gTrainerBattleOpponent_A == TRAINER_SURGE_1)
+        return B_TRANSITION_SURGE;
+    if (gTrainerBattleOpponent_A == TRAINER_MISTY)
+        return B_TRANSITION_MISTY;
+    if (gTrainerBattleOpponent_A == TRAINER_SURGE_2)
+        return B_TRANSITION_SURGE;
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_196)
+        return B_TRANSITION_SURGE;
+    if (gTrainerBattleOpponent_A == TRAINER_ERIKA)
+        return B_TRANSITION_ERIKA;
+    if (gTrainerBattleOpponent_A == TRAINER_KOGA)
+        return B_TRANSITION_KOGA;
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_195)
+        return B_TRANSITION_KOGA;
+    if (gTrainerBattleOpponent_A == TRAINER_SABRINA)
+        return B_TRANSITION_SABRINA;
+    if (gTrainerBattleOpponent_A == TRAINER_BLAINE_1)
+        return B_TRANSITION_BLAINE;
+    if (gTrainerBattleOpponent_A == TRAINER_BLAINE_2)
+        return B_TRANSITION_BLAINE;
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_216)
+        return B_TRANSITION_SURGE;
+return B_TRANSITION_CHAMPION;
+    }
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_LEADER)
+        return B_TRANSITION_CONSUL;
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_BILL)
+        return B_TRANSITION_DRAKE;
+
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
         return B_TRANSITION_CHAMPION;
+
+    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ANDRA)
+        return B_TRANSITION_SIDNEY;
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_TEAM_MAGMA
         || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_MAGMA_LEADER

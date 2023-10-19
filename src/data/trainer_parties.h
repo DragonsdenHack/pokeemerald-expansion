@@ -1047,11 +1047,11 @@ static const struct TrainerMonItemCustomMoves sParty_Atlas2[] = {
     {
     .iv = 255,
     .lvl = 102,
-    .species = SPECIES_RAIKOU,
-    .heldItem = ITEM_LIFE_ORB,
-    .evs = {4, 0, 0, 252, 0, 252},
-    .nature = NATURE_TIMID,
-    .moves = {MOVE_THUNDERBOLT, MOVE_SCALD, MOVE_EXTRASENSORY, MOVE_NONE}
+    .species = SPECIES_REGISTEEL,
+    .heldItem = ITEM_CHOICE_BAND,
+    .evs = {252, 252, 0, 0, 0, 6},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_METEOR_MASH, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -26533,7 +26533,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER104[] = {
     .heldItem = ITEM_CHOICE_SPECS,
     .evs = {6, 0, 128, 0, 252, 128},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_STEEL_BEAM, MOVE_STEEL_BEAM, MOVE_STEEL_BEAM, MOVE_STEEL_BEAM}
+    .moves = {MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -27517,7 +27517,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER136[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER137[] = {
     {
     .iv = 255,
-    .lvl = 102,
+    .lvl = 105,
     .species = SPECIES_SACRED_DRAGON,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
@@ -27873,7 +27873,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER150[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER151[] = {
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 102,
     .species = SPECIES_ZAPDOS_PRIMAL,
     .heldItem = ITEM_ELECTRIC_SEED,
     .evs = {252, 252, 252, 252, 252, 252},

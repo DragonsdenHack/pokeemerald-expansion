@@ -200,7 +200,7 @@
       "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
-      "var_value": "205",
+      "var_value": "217",
       "script": "NeoLavandaPueblo_Combate_Eusine"
     },
     {
@@ -214,12 +214,12 @@
     },
     {
       "type": "trigger",
-      "x": 0,
-      "y": 6,
+      "x": 1,
+      "y": 8,
       "elevation": 0,
       "var": "VAR_TEMP_0",
       "var_value": "0",
-      "script": "Pokedex_Set"
+      "script": "NeoLavandaPueblo_Prueba"
     }
   ],
   "bg_events": [
