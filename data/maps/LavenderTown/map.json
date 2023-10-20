@@ -324,6 +324,15 @@
       "var": "VAR_UNUSED_0x40FA",
       "var_value": "0",
       "script": "LavenderTown_Barrera_Sur"
+    },
+    {
+      "type": "trigger",
+      "x": 1,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "NeoLavandaPueblo_Prueba"
     }
   ],
   "bg_events": [

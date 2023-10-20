@@ -6349,12 +6349,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_OCTILLERY] =
     {
-        .baseHP        = 75,
+        .baseHP        = 85,
         .baseAttack    = 105,
-        .baseDefense   = 75,
-        .baseSpeed     = 45,
+        .baseDefense   = 105,
+        .baseSpeed     = 35,
         .baseSpAttack  = 105,
-        .baseSpDefense = 75,
+        .baseSpDefense = 105,
         .type1 = TYPE_WATER,
         .type2 = TYPE_WATER,
         .catchRate = 75,
@@ -6368,9 +6368,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_WATER_2,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SUCTION_CUPS, ABILITY_SNIPER, ABILITY_MOODY},
+            .abilities = {ABILITY_MEGA_LAUNCHER, ABILITY_MEGA_LAUNCHER, ABILITY_MEGA_LAUNCHER},
         #else
-            .abilities = {ABILITY_SUCTION_CUPS, ABILITY_NONE},
+            .abilities = {ABILITY_MEGA_LAUNCHER, ABILITY_MEGA_LAUNCHER},
         #endif
         .bodyColor = BODY_COLOR_RED,
         .noFlip = FALSE,
@@ -27403,6 +27403,92 @@ const struct BaseStats gBaseStats[] =
             .abilities = {ABILITY_INTIMIDATE, ABILITY_NONE},
         #endif
         .bodyColor = BODY_COLOR_BROWN,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_OCTILLERY_EVO] =
+    {
+        .baseHP        = 75,
+        .baseAttack    = 105,
+        .baseDefense   = 75,
+        .baseSpeed     = 45,
+        .baseSpAttack  = 105,
+        .baseSpDefense = 75,
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_WATER,
+        .catchRate = 75,
+        .expYield = 164,
+        .evYield_Attack    = 1,
+        .evYield_SpAttack  = 1,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_WATER_1,
+        .eggGroup2 = EGG_GROUP_WATER_2,
+        #ifdef BATTLE_ENGINE
+            .abilities = {ABILITY_SUCTION_CUPS, ABILITY_SNIPER, ABILITY_MOODY},
+        #else
+            .abilities = {ABILITY_SUCTION_CUPS, ABILITY_NONE},
+        #endif
+        .bodyColor = BODY_COLOR_RED,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_RAICHU_EVO] =
+    {
+        .baseHP        = 70,
+        .baseAttack    = 100,
+        .baseDefense   = 65,
+        .baseSpAttack  = 125,
+        .baseSpDefense = 90,
+        #if P_UPDATED_STATS >= GEN_6
+            .baseSpeed     = 105,
+        #else
+            .baseSpeed     = 105,
+        #endif
+        .type1 = TYPE_ELECTRIC,
+        .type2 = TYPE_ELECTRIC,
+        .catchRate = 75,
+        .expYield = 122,
+        .evYield_Speed     = 3,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 10,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_FIELD,
+        .eggGroup2 = EGG_GROUP_FAIRY,
+        .abilities = {ABILITY_TRANSISTOR, ABILITY_TRANSISTOR, ABILITY_TRANSISTOR},
+        .bodyColor = BODY_COLOR_YELLOW,
+        .noFlip = FALSE,
+    },
+
+    [SPECIES_QWILFISH_EVO] =
+    {
+        .baseHP        = 95,
+        .baseAttack    = 65,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 115,
+        .baseSpDefense = 85,
+        #if P_UPDATED_STATS >= GEN_7
+            .baseDefense   = 85,
+        #else
+            .baseDefense   = 85,
+        #endif
+        .type1 = TYPE_WATER,
+        .type2 = TYPE_ELECTRIC,
+        .catchRate = 45,
+        .expYield = 100,
+        .evYield_Attack    = 1,
+        .item2 = ITEM_POISON_BARB,
+        .genderRatio = PERCENT_FEMALE(50),
+        .eggCycles = 20,
+        .friendship = 70,
+        .growthRate = GROWTH_MEDIUM_FAST,
+        .eggGroup1 = EGG_GROUP_WATER_2,
+        .eggGroup2 = EGG_GROUP_WATER_2,
+        .abilities = {ABILITY_WATER_BUBBLE, ABILITY_WATER_BUBBLE, ABILITY_WATER_BUBBLE},
+        .bodyColor = BODY_COLOR_GRAY,
         .noFlip = FALSE,
     },
 
