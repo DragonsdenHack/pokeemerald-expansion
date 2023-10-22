@@ -237,6 +237,8 @@
 #define TRAINER_PIC_MAESTRO_PAGODA        217
 #define TRAINER_PIC_LIDERSETE             218
 #define TRAINER_PIC_EUSINE				  219
+#define TRAINER_PIC_ROCKET_GRUNT_ANDRA3   220
+#define TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO 221
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -330,8 +332,14 @@
 #define FACILITY_CLASS_LEAF                  0x4f
 #define FACILITY_CLASS_RS_BRENDAN            0x50
 #define FACILITY_CLASS_RS_MAY                0x51
+#define FACILITY_CLASS_PLAYER_RECLUTA        0x52
+#define FACILITY_CLASS_PLAYER_ALTO_RANGO     0x53
+#define FACILITY_CLASS_PLAYER_EJECUTIVO      0x54
+#define FACILITY_CLASS_PLAYER_ADMIN          0x55
+#define FACILITY_CLASS_PLAYER_ADMIN_JEFE     0x56
+#define FACILITY_CLASS_PLAYER_ADMIN_JEFE2    0x57
 
-#define FACILITY_CLASSES_COUNT               0x52
+#define FACILITY_CLASSES_COUNT               0x58
 
 #define RS_FACILITY_CLASS_AQUA_LEADER_ARCHIE    0x0
 #define RS_FACILITY_CLASS_AQUA_GRUNT_M          0x1

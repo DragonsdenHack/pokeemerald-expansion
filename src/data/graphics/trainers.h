@@ -650,6 +650,11 @@ const u32 gTrainerPalette_MaestroPagoda[] = INCBIN_U32("graphics/trainers/palett
 const u32 gTrainerFrontPic_Eusine[] = INCBIN_U32("graphics/trainers/front_pics/eusine_front_pic.4bpp.lz");
 const u32 gTrainerPalette_Eusine[] = INCBIN_U32("graphics/trainers/palettes/eusine.gbapal.lz");
 
+const u32 gTrainerFrontPic_Andra2[] = INCBIN_U32("graphics/trainers/front_pics/andra2_front_pic.4bpp.lz");
+const u32 gTrainerPalette_Andra2[] = INCBIN_U32("graphics/trainers/palettes/andra2.gbapal.lz");
+
+const u32 gTrainerFrontPic_RocketGruntM_AltoRango[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_m_altorango.4bpp.lz");
+
 ///////////////////////
 
 const u32 gTrainerFrontPic_RocketGruntPlayer[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_player_front_pic.4bpp.lz");

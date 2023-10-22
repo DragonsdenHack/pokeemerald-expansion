@@ -540,7 +540,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_MAESTRO_PAGODA 0x118C
 #define OBJ_EVENT_PAL_TAG_LIDERSETE 0x118D
 #define OBJ_EVENT_PAL_TAG_ZINNIA 0x118E
-
+#define OBJ_EVENT_PAL_TAG_DRAGONSAGRADO 0x118F
 #define OBJ_EVENT_PAL_TAG_YASMINA 0x1190
 #define OBJ_EVENT_PAL_TAG_GLASTRIER 0x1191
 #define OBJ_EVENT_PAL_TAG_GUZZLORD 0x1192
@@ -549,6 +549,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_DEVON2   0x1195
 #define OBJ_EVENT_PAL_TAG_DEVON3   0x1196
 #define OBJ_EVENT_PAL_TAG_DEVON4   0x1197
+#define OBJ_EVENT_PAL_TAG_REYUNOWN 0x1198
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -702,7 +703,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_MaestroPagoda, OBJ_EVENT_PAL_TAG_MAESTRO_PAGODA},
 	{gObjectEventPal_LiderSete, OBJ_EVENT_PAL_TAG_LIDERSETE},
 	{gObjectEventPal_MewtwoArm, OBJ_EVENT_PAL_TAG_MEWTWOARM},
-	{gObjectEventPal_Zinnia, OBJ_EVENT_PAL_TAG_ZINNIA},
+	{gObjectEventPal_DragonSagrado, OBJ_EVENT_PAL_TAG_DRAGONSAGRADO},
+	{gObjectEventPal_ReyUnown, OBJ_EVENT_PAL_TAG_REYUNOWN},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {

@@ -1149,7 +1149,7 @@ release
 end
 
 EventScript_Mas2::
-multichoice 22, 0, MULTI_ISLASCLASIC, 0
+multichoice 22, 0, MULTI_ISLASCLASIC, 0	
 switch VAR_RESULT
 case 0, EventScript_Carmin
 case 1, EventScript_Prima

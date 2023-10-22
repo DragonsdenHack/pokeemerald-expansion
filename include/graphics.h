@@ -7758,6 +7758,7 @@ extern const u32 gTrainerFrontPic_Rival1[];
 extern const u32 gTrainerFrontPic_Scientist[];
 extern const u32 gTrainerFrontPic_LeaderGiovanni[];
 extern const u32 gTrainerFrontPic_RocketGruntM[];
+extern const u32 gTrainerFrontPic_RocketGruntM_AltoRango[];
 extern const u32 gTrainerFrontPic_CooltrainerM[];
 extern const u32 gTrainerFrontPic_CooltrainerF[];
 extern const u32 gTrainerFrontPic_EliteFourLorelei[];
@@ -8013,6 +8014,7 @@ extern const u32 gTrainerFrontPic_Cultista2[];
 extern const u32 gTrainerFrontPic_MaestroPagoda[];
 extern const u32 gTrainerFrontPic_LiderSete[];
 extern const u32 gTrainerFrontPic_Eusine[];
+extern const u32 gTrainerFrontPic_Andra2[];
 
 
 extern const u32 gTrainerFrontPic_Valeria[];
@@ -8239,6 +8241,7 @@ extern const u32 gTrainerPalette_Cultista2[];
 extern const u32 gTrainerPalette_MaestroPagoda[];
 extern const u32 gTrainerPalette_LiderSete[];
 extern const u32 gTrainerPalette_Eusine[];
+extern const u32 gTrainerPalette_Andra2[];
 
 
 extern const u8 gTrainerBackPic_Brendan[];
