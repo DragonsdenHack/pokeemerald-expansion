@@ -491,9 +491,11 @@
 #define OBJ_EVENT_GFX_MAESTRO_PAGODA 487
 #define OBJ_EVENT_GFX_LIDERSETE 488
 #define OBJ_EVENT_GFX_ZINNIA 489
+#define OBJ_EVENT_GFX_KINGUNOWN 490
+#define OBJ_EVENT_GFX_DRAGONSAGRADO 491
 
 
-#define NUM_OBJ_EVENT_GFX                        490                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        492                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.
