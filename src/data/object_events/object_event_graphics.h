@@ -623,6 +623,21 @@ const u32 gObjectEventPic_Prota_Ejecutivo[] = INCBIN_U32("graphics/object_events
 const u32 gObjectEventPic_Prota_Admin[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/walking.4bpp");
 const u32 gObjectEventPic_Prota_AdminJefe[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/walking.4bpp");
 
+const u32 gObjectEventPic_Prota_AltoRango_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/bike.4bpp");
+const u32 gObjectEventPic_Prota_Ejecutivo_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/bike.4bpp");
+const u32 gObjectEventPic_Prota_Admin_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/bike.4bpp");
+const u32 gObjectEventPic_Prota_AdminJefe_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/bike.4bpp");
+
+const u32 gObjectEventPic_Prota_AltoRango_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/surfing.4bpp");
+const u32 gObjectEventPic_Prota_Ejecutivo_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/surfing.4bpp");
+const u32 gObjectEventPic_Prota_Admin_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/surfing.4bpp");
+const u32 gObjectEventPic_Prota_AdminJefe_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/surfing.4bpp");
+
+const u32 gObjectEventPic_Prota_AltoRango_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/fieldmove.4bpp");
+const u32 gObjectEventPic_Prota_Ejecutivo_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/fieldmove.4bpp");
+const u32 gObjectEventPic_Prota_Admin_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/fieldmove.4bpp");
+const u32 gObjectEventPic_Prota_AdminJefe_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/fieldmove.4bpp");
+
 const u16 gObjectEventPic_Silver[] = INCBIN_U16("graphics/object_events/pics/people/silver.4bpp");
 const u16 gObjectEventPic_Akueria[] = INCBIN_U16("graphics/object_events/pics/people/Akueria.4bpp");
 const u16 gObjectEventPic_Glastrier[] = INCBIN_U16("graphics/object_events/pics/people/glastrier.4bpp");

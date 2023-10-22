@@ -287,7 +287,11 @@ static const u8 sTrainerPicOffset[2][GENDER_COUNT][2] =
     // Hoenn
     {
         [MALE]   = {1, 0},
-        [FEMALE] = {1, 0}
+        [FEMALE] = {1, 0},
+		[EJECUTIVO] = {1, 0},
+		[ADMIN] = {1, 0},
+		[ADMIN_JEFE] = {1, 0},
+		[ADMIN_JEFE2] = {1, 0},
     },
 };
 
@@ -305,8 +309,12 @@ static const u8 sTrainerPicFacilityClass[][GENDER_COUNT] =
     },
     [CARD_TYPE_EMERALD] =
     {
-        [MALE]   = FACILITY_CLASS_BRENDAN,
-        [FEMALE] = FACILITY_CLASS_MAY
+        [MALE]   = FACILITY_CLASS_PLAYER_RECLUTA,
+        [FEMALE] = FACILITY_CLASS_PLAYER_ALTO_RANGO,
+		[EJECUTIVO] = FACILITY_CLASS_PLAYER_EJECUTIVO,
+		[ADMIN] = FACILITY_CLASS_PLAYER_ADMIN,
+		[ADMIN_JEFE] = FACILITY_CLASS_PLAYER_ADMIN_JEFE,
+		[ADMIN_JEFE2] = FACILITY_CLASS_PLAYER_ADMIN_JEFE2,
     }
 };
 

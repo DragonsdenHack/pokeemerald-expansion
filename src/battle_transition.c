@@ -906,7 +906,11 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
 static const u16 *const sPlayerMugshotsPals[GENDER_COUNT] =
 {
     [MALE] = sMugshotPal_Brendan,
-    [FEMALE] = sMugshotPal_May
+    [FEMALE] = sMugshotPal_Brendan,
+	[EJECUTIVO] = sMugshotPal_Brendan,
+	[ADMIN] = sMugshotPal_Brendan,
+	[ADMIN_JEFE] = sMugshotPal_Brendan,
+	[ADMIN_JEFE2] = sMugshotPal_Brendan
 };
 
 static const u16 sUnusedTrainerPalette[] = INCBIN_U16("graphics/battle_transitions/unused_trainer.gbapal");
