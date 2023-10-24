@@ -845,6 +845,12 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_EJECUTIVO_DEVON_2)
         return B_TRANSITION_GROUDON;
 
+    if (gTrainerBattleOpponent_A == TRAINER_CMIGUEL_4)
+        return B_TRANSITION_MIGUEL;
+
+    if (gTrainerBattleOpponent_A == TRAINER_CMIGUEL_3)
+        return B_TRANSITION_REGIROCK;
+
     if (gTrainerBattleOpponent_A == TRAINER_ESENCIA_ZIGARDE)
         return B_TRANSITION_REGIROCK;
 
@@ -913,6 +919,12 @@ u8 GetTrainerBattleTransition(void)
 
     if (gTrainerBattleOpponent_A == TRAINER_FUJI_1)
         return B_TRANSITION_FUJI;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_118)
+        return B_TRANSITION_SETE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_26)
+        return B_TRANSITION_FRONTIER_LOGO_WIGGLE;
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ZEUS)
     {

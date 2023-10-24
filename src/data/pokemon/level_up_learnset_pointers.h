@@ -1451,4 +1451,7 @@ const struct LevelUpMove *const gLevelUpLearnsets[NUM_SPECIES] =
     [SPECIES_TOXTRICITY_MEGA] = sToxtricityMegaLevelUpLearnset,
     [SPECIES_DUNSPARCE_OLD_PREEVO] = sDunsparceOldPreevoLevelUpLearnset,
     [SPECIES_DUDUNSPARCE_EVO] = sDudunsparceEvoLevelUpLearnset,
+    [SPECIES_GOROCHU] = sGorochuLevelUpLearnset,
+    [SPECIES_WARTILLERY] = sWartilleryLevelUpLearnset,
+    [SPECIES_QWOLTFISH] = sQwoltfishLevelUpLearnset,
 };

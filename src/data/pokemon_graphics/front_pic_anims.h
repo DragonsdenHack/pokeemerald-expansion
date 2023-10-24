@@ -10390,6 +10390,24 @@ static const union AnimCmd sAnim_DUDUNSPARCE_EVO_1[] =
     ANIMCMD_END,
 };
 
+static const union AnimCmd sAnim_GOROCHU_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_WARTILLERY_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
+static const union AnimCmd sAnim_QWOLTFISH_1[] =
+{
+    ANIMCMD_FRAME(0, 1),
+    ANIMCMD_END,
+};
+
 static const union AnimCmd *const sAnims_NONE[] ={
     sAnim_GeneralFrame0,
     sAnim_NONE_1,
@@ -16637,6 +16655,21 @@ static const union AnimCmd *const sAnims_DUDUNSPARCE_EVO[] ={
     sAnim_DUDUNSPARCE_EVO_1,
 };
 
+static const union AnimCmd *const sAnims_GOROCHU[] ={
+    sAnim_GeneralFrame0,
+    sAnim_GOROCHU_1,
+};
+
+static const union AnimCmd *const sAnims_WARTILLERY[] ={
+    sAnim_GeneralFrame0,
+    sAnim_WARTILLERY_1,
+};
+
+static const union AnimCmd *const sAnims_QWOLTFISH[] ={
+    sAnim_GeneralFrame0,
+    sAnim_QWOLTFISH_1,
+};
+
 #define ANIM_CMD(name)             [SPECIES_##name] = sAnims_##name
 #define ANIM_CMD_FULL(name, anims) [SPECIES_##name] = anims
 
@@ -18028,6 +18061,9 @@ const union AnimCmd *const *const gMonFrontAnimsPtrTable[] =
     ANIM_CMD_FULL(TOXTRICITY_MEGA, sAnims_TOXTRICITY_MEGA),
     ANIM_CMD_FULL(DUNSPARCE_OLD_PREEVO, sAnims_DUNSPARCE_OLD_PREEVO),
     ANIM_CMD_FULL(DUDUNSPARCE_EVO, sAnims_DUDUNSPARCE_EVO),
+    ANIM_CMD_FULL(GOROCHU, sAnims_GOROCHU),
+    ANIM_CMD_FULL(WARTILLERY, sAnims_WARTILLERY),
+    ANIM_CMD_FULL(QWOLTFISH, sAnims_QWOLTFISH),
     ANIM_CMD(EGG),
 };
 

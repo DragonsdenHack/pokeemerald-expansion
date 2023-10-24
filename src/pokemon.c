@@ -3107,6 +3107,9 @@ static const u8 sMonFrontAnimIdsTable[NUM_SPECIES - 1] =
     [SPECIES_PALAFIN - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_DUNSPARCE_OLD_PREEVO - 1]   = ANIM_V_SQUISH_AND_BOUNCE,
     [SPECIES_DUDUNSPARCE_EVO - 1]        = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_GOROCHU - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_WARTILLERY - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
+    [SPECIES_QWOLTFISH - 1]                = ANIM_V_SQUISH_AND_BOUNCE,
 };
 
 static const u8 sMonAnimationDelayTable[NUM_SPECIES - 1] =

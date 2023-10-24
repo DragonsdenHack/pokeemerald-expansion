@@ -5614,6 +5614,18 @@ Cry_DudunsparceEvo::
 	.incbin "sound/direct_sound_samples/cries/dudunsparce_evo.bin"
 
 	.align 2
+Cry_Gorochu::
+	.incbin "sound/direct_sound_samples/cries/gorochu.bin"
+
+	.align 2
+Cry_Wartillery::
+	.incbin "sound/direct_sound_samples/cries/wartillery.bin"
+
+	.align 2
+Cry_Qwoltfish::
+	.incbin "sound/direct_sound_samples/cries/qwoltfish.bin"
+
+	.align 2
 DirectSoundWaveData_register_noise::
 	.incbin "sound/direct_sound_samples/register_noise.bin"
 

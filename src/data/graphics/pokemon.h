@@ -1322,6 +1322,9 @@ const u32 gMonFrontPic_Palafin[] = INCBIN_U32("graphics/pokemon/palafin/front.4b
 const u32 gMonFrontPic_ToxtricityMega[] = INCBIN_U32("graphics/pokemon/toxtricity_mega/front.4bpp.lz");
 const u32 gMonFrontPic_DunsparceOldPreevo[] = INCBIN_U32("graphics/pokemon/dunsparce_old_preevo/front.4bpp.lz");
 const u32 gMonFrontPic_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunsparce_evo/front.4bpp.lz");
+const u32 gMonFrontPic_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/front.4bpp.lz");
+const u32 gMonFrontPic_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/front.4bpp.lz");
+const u32 gMonFrontPic_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/front.4bpp.lz");
 const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.lz");
 
 const u32 gMonBackPic_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/back.4bpp.lz");
@@ -2648,6 +2651,9 @@ const u32 gMonBackPic_Palafin[] = INCBIN_U32("graphics/pokemon/palafin/back.4bpp
 const u32 gMonBackPic_ToxtricityMega[] = INCBIN_U32("graphics/pokemon/toxtricity_mega/back.4bpp.lz");
 const u32 gMonBackPic_DunsparceOldPreevo[] = INCBIN_U32("graphics/pokemon/dunsparce_old_preevo/back.4bpp.lz");
 const u32 gMonBackPic_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunsparce_evo/back.4bpp.lz");
+const u32 gMonBackPic_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/back.4bpp.lz");
+const u32 gMonBackPic_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/back.4bpp.lz");
+const u32 gMonBackPic_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/back.4bpp.lz");
 
 const u32 gMonPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/normal.gbapal.lz");
 const u32 gMonPalette_DoubleQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/double/normal.gbapal.lz");
@@ -3997,6 +4003,9 @@ const u32 gMonPalette_Palafin[] = INCBIN_U32("graphics/pokemon/palafin/normal.gb
 const u32 gMonPalette_ToxtricityMega[] = INCBIN_U32("graphics/pokemon/toxtricity_mega/normal.gbapal.lz");
 const u32 gMonPalette_DunsparceOldPreevo[] = INCBIN_U32("graphics/pokemon/dunsparce_old_preevo/normal.gbapal.lz");
 const u32 gMonPalette_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunsparce_evo/normal.gbapal.lz");
+const u32 gMonPalette_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/normal.gbapal.lz");
+const u32 gMonPalette_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/normal.gbapal.lz");
+const u32 gMonPalette_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/normal.gbapal.lz");
 const u32 gMonPalette_Egg[] = INCBIN_U32("graphics/pokemon/egg/normal.gbapal.lz");
 
 const u32 gMonShinyPalette_CircledQuestionMark[] = INCBIN_U32("graphics/pokemon/question_mark/circled/shiny.gbapal.lz");
@@ -5341,6 +5350,9 @@ const u32 gMonShinyPalette_Palafin[] = INCBIN_U32("graphics/pokemon/palafin/shin
 const u32 gMonShinyPalette_ToxtricityMega[] = INCBIN_U32("graphics/pokemon/toxtricity_mega/shiny.gbapal.lz");
 const u32 gMonShinyPalette_DunsparceOldPreevo[] = INCBIN_U32("graphics/pokemon/dunsparce_old_preevo/shiny.gbapal.lz");
 const u32 gMonShinyPalette_DudunsparceEvo[] = INCBIN_U32("graphics/pokemon/dudunsparce_evo/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Gorochu[] = INCBIN_U32("graphics/pokemon/gorochu/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Wartillery[] = INCBIN_U32("graphics/pokemon/wartillery/shiny.gbapal.lz");
+const u32 gMonShinyPalette_Qwoltfish[] = INCBIN_U32("graphics/pokemon/qwoltfish/shiny.gbapal.lz");
 
 const u8 gMonIcon_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/icon.4bpp");
 const u8 gMonIcon_Bulbasaur[] = INCBIN_U8("graphics/pokemon/bulbasaur/icon.4bpp");
@@ -6675,6 +6687,9 @@ const u8 gMonIcon_Palafin[] = INCBIN_U8("graphics/pokemon/palafin/icon.4bpp");
 const u8 gMonIcon_ToxtricityMega[] = INCBIN_U8("graphics/pokemon/toxtricity_mega/icon.4bpp");
 const u8 gMonIcon_DunsparceOldPreevo[] = INCBIN_U8("graphics/pokemon/dunsparce_old_preevo/icon.4bpp");
 const u8 gMonIcon_DudunsparceEvo[] = INCBIN_U8("graphics/pokemon/dudunsparce_evo/icon.4bpp");
+const u8 gMonIcon_Gorochu[] = INCBIN_U8("graphics/pokemon/gorochu/icon.4bpp");
+const u8 gMonIcon_Wartillery[] = INCBIN_U8("graphics/pokemon/wartillery/icon.4bpp");
+const u8 gMonIcon_Qwoltfish[] = INCBIN_U8("graphics/pokemon/qwoltfish/icon.4bpp");
 const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
 
 const u8 gMonFootprint_QuestionMark[] = INCBIN_U8("graphics/pokemon/question_mark/footprint.1bpp");
@@ -7578,3 +7593,6 @@ const u8 gMonFootprint_Palafin[] = INCBIN_U8("graphics/pokemon/palafin/footprint
 const u8 gMonFootprint_ToxtricityMega[] = INCBIN_U8("graphics/pokemon/toxtricity_mega/footprint.1bpp");
 const u8 gMonFootprint_DunsparceOldPreevo[] = INCBIN_U8("graphics/pokemon/dunsparce_old_preevo/footprint.1bpp");
 const u8 gMonFootprint_DudunsparceEvo[] = INCBIN_U8("graphics/pokemon/dudunsparce_evo/footprint.1bpp");
+const u8 gMonFootprint_Gorochu[] = INCBIN_U8("graphics/pokemon/gorochu/footprint.1bpp");
+const u8 gMonFootprint_Wartillery[] = INCBIN_U8("graphics/pokemon/wartillery/footprint.1bpp");
+const u8 gMonFootprint_Qwoltfish[] = INCBIN_U8("graphics/pokemon/qwoltfish/footprint.1bpp");
