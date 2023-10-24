@@ -506,6 +506,7 @@
 #define OBJ_EVENT_GFX_PLAYER_ADMIN_SURF 502
 #define OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_SURF 503
 
+
 #define NUM_OBJ_EVENT_GFX                        504                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 

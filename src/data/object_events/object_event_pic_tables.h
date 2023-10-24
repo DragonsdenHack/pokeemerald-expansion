@@ -3921,27 +3921,27 @@ static const struct SpriteFrameImage sPicTable_Ricajohto[] = {
 };
 
 static const struct SpriteFrameImage sPicTable_DragonSagrado[] = {
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 0),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 1),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 2),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 3),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 4),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 5),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 6),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 7),
-    overworld_frame(gObjectEventic_DragonSagrado, 4, 4, 8),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 0),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 1),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 2),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 3),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 4),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 5),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 6),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 7),
+    overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 8),
 };
 
 static const struct SpriteFrameImage sPicTable_ReyUnown[] = {
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 0),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 1),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 2),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 3),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 4),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 5),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 6),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 7),
-    overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 8),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 0),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 1),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 2),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 3),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 4),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 5),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 6),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 7),
+    overworld_frame(gObjectEventPic_ReyUnown, 8, 8, 8),
 };
 
 
