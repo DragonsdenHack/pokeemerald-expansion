@@ -884,7 +884,7 @@ $(OBJEVENTGFXDIR)/people/ricajohto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 	
 $(OBJEVENTGFXDIR)/people/kingunown.4bpp: %.4bpp: %.png
-	$(GFX) $< $@ -mwidth 8 -mheight 8
+	$(GFX) $< $@ -mwidth 4 -mheight 4
 
 $(OBJEVENTGFXDIR)/people/dragonsagrado.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8	

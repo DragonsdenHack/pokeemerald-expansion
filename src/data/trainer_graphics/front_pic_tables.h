@@ -221,7 +221,10 @@ const struct MonCoords gTrainerFrontPicCoords[] =
 	[TRAINER_PIC_LIDERSETE] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_EUSINE] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_ROCKET_GRUNT_ANDRA3] = {.size = 8, .y_offset = 1},
-	[TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO] = {.size = 8, .y_offset = 1},	
+	[TRAINER_PIC_ROCKET_GRUNT_M_EJECUTIVO] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_FRANK_EJECUTIVO] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_FRANK_ADMIN] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -450,6 +453,9 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
 	TRAINER_SPRITE(MAESTRO_PAGODA, gTrainerFrontPic_MaestroPagoda, 0x800),
 	TRAINER_SPRITE(ROCKET_GRUNT_ANDRA3, gTrainerFrontPic_Andra2, 0x800),
 	TRAINER_SPRITE(ROCKET_GRUNT_M_ALTORANGO, gTrainerFrontPic_RocketGruntM_AltoRango, 0x800),
+	TRAINER_SPRITE(ROCKET_GRUNT_M_EJECUTIVO, gTrainerFrontPic_RocketGruntM_Ejecutivo, 0x800),
+	TRAINER_SPRITE(FRANK_EJECUTIVO, gTrainerFrontPic_Frank_Ejecutivo, 0x800),
+	TRAINER_SPRITE(FRANK_ADMIN, gTrainerFrontPic_Frank_Admin, 0x800),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -678,4 +684,7 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
 	TRAINER_PAL(MAESTRO_PAGODA, gTrainerPalette_MaestroPagoda),
 	TRAINER_PAL(ROCKET_GRUNT_ANDRA3, gTrainerPalette_Andra2),
 	TRAINER_PAL(ROCKET_GRUNT_M_ALTORANGO, gTrainerPalette_ProtaAltoRango),
+	TRAINER_PAL(ROCKET_GRUNT_M_EJECUTIVO, gTrainerPalette_RocketGruntM_Ejecutivo),
+	TRAINER_PAL(FRANK_EJECUTIVO, gTrainerPalette_Frank_Ejecutivo),
+	TRAINER_PAL(FRANK_ADMIN, gTrainerPalette_Frank_Admin),
 };
