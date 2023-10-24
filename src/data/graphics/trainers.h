@@ -654,6 +654,9 @@ const u32 gTrainerFrontPic_Andra2[] = INCBIN_U32("graphics/trainers/front_pics/a
 const u32 gTrainerPalette_Andra2[] = INCBIN_U32("graphics/trainers/palettes/andra2.gbapal.lz");
 
 const u32 gTrainerFrontPic_RocketGruntM_AltoRango[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_m_altorango.4bpp.lz");
+const u32 gTrainerPalette_RocketGruntM_AltoRango[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_m_alto_rango.gbapal.lz");
+
+
 
 ///////////////////////
 

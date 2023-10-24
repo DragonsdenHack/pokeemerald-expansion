@@ -866,6 +866,10 @@ static const union AnimCmd *const sAnims_RocketGruntAndra3[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_RocketGruntAltoRango[] ={
+    sAnim_GeneralFrame0,
+};
+
 
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
@@ -1086,4 +1090,5 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_ANDRA_ALTO_RANGO] = sAnims_AndraAltoRango,
     [TRAINER_PIC_ROCKET_GRUNT_ANDRA2] = sAnims_RocketGruntAndra2,
 	[TRAINER_PIC_ROCKET_GRUNT_ANDRA3] = sAnims_RocketGruntAndra3,
+	[TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO] = sAnims_RocketGruntAltoRango,
 };
