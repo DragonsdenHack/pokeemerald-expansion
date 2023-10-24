@@ -239,6 +239,9 @@
 #define TRAINER_PIC_EUSINE				  219
 #define TRAINER_PIC_ROCKET_GRUNT_ANDRA3   220
 #define TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO 221
+#define TRAINER_PIC_ROCKET_GRUNT_M_EJECUTIVO 222
+#define TRAINER_PIC_FRANK_EJECUTIVO 223
+#define TRAINER_PIC_FRANK_ADMIN 224
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

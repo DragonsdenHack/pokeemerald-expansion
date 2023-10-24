@@ -657,6 +657,15 @@ const u32 gTrainerFrontPic_RocketGruntM_AltoRango[] = INCBIN_U32("graphics/train
 const u32 gTrainerPalette_RocketGruntM_AltoRango[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_m_alto_rango.gbapal.lz");
 
 
+const u32 gTrainerFrontPic_RocketGruntM_Ejecutivo[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_m_ejecutivo.4bpp.lz");
+
+const u32 gTrainerFrontPic_Frank_Ejecutivo[] = INCBIN_U32("graphics/trainers/front_pics/frank_ejecutivo.4bpp.lz");
+
+const u32 gTrainerFrontPic_Frank_Admin[] = INCBIN_U32("graphics/trainers/front_pics/frank_admin.4bpp.lz");
+
+const u32 gTrainerPalette_RocketGruntM_Ejecutivo[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_m_alto_rango.gbapal.lz");
+const u32 gTrainerPalette_Frank_Ejecutivo[] = INCBIN_U32("graphics/trainers/palettes/frank_ejecutivo.gbapal.lz");
+const u32 gTrainerPalette_Frank_Admin[] = INCBIN_U32("graphics/trainers/palettes/frank_admin.gbapal.lz");
 
 ///////////////////////
 
