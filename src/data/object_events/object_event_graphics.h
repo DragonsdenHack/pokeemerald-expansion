@@ -631,12 +631,12 @@ const u32 gObjectEventPic_Prota_AdminJefe_Bici[] = INCBIN_U32("graphics/object_e
 const u32 gObjectEventPic_Prota_AltoRango_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/surfing.4bpp");
 const u32 gObjectEventPic_Prota_Ejecutivo_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/surfing.4bpp");
 const u32 gObjectEventPic_Prota_Admin_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/surfing.4bpp");
-const u32 gObjectEventPic_Prota_AdminJefe_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/surfing.4bpp");
+const u32 gObjectEventPic_Prota_Admin_Jefe_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/surfing.4bpp");
 
 const u32 gObjectEventPic_Prota_AltoRango_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/fieldmove.4bpp");
 const u32 gObjectEventPic_Prota_Ejecutivo_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/fieldmove.4bpp");
 const u32 gObjectEventPic_Prota_Admin_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/fieldmove.4bpp");
-const u32 gObjectEventPic_Prota_AdminJefe_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/fieldmove.4bpp");
+const u32 gObjectEventPic_Prota_Admin_Jefe_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/fieldmove.4bpp");
 
 const u16 gObjectEventPic_Silver[] = INCBIN_U16("graphics/object_events/pics/people/silver.4bpp");
 const u16 gObjectEventPic_Akueria[] = INCBIN_U16("graphics/object_events/pics/people/Akueria.4bpp");
@@ -779,3 +779,13 @@ const u16 gObjectEventPal_Zinnia[] = INCBIN_U16("graphics/object_events/palettes
 
 const u16 gObjectEventPal_DragonSagrado[] = INCBIN_U16("graphics/object_events/palettes/dragonsagrado.gbapal");
 const u16 gObjectEventPal_ReyUnown[] = INCBIN_U16("graphics/object_events/palettes/reyunown.gbapal");
+
+const u16 gObjectEventPal_PlayerAdminJefe2[] = INCBIN_U16("graphics/object_events/palettes/player_admin_jefe_fieldmove_running_surfing.gbapal");
+
+const u16 gObjectEventPal_PlayerAdminJefe3[] = INCBIN_U16("graphics/object_events/palettes/player_admin_jefe_bike.gbapal");
+
+const u16 gObjectEventPal_PlayerAltoRango2[] = INCBIN_U16("graphics/object_events/palettes/player_alto_rango_fieldmove_running_surfing.gbapal");
+
+const u16 gObjectEventPal_PlayerEjecutivo2[] = INCBIN_U16("graphics/object_events/palettes/player_ejecutivo_fieldmove_running_surfing.gbapal");
+
+const u16 gObjectEventPal_PlayerAdmin2[] = INCBIN_U16("graphics/object_events/palettes/player_admin_bike.gbapal");

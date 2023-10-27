@@ -985,6 +985,18 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_ZINNIA] = &gObjectEventGraphicsInfo_Zinnia,
 	[OBJ_EVENT_GFX_KINGUNOWN] = &gObjectEventGraphicsInfo_KingUnown,
 	[OBJ_EVENT_GFX_DRAGONSAGRADO] = &gObjectEventGraphicsInfo_DragonSagrado,
+	[OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_BICI] = &gObjectEventGraphicsInfo_Rocket_AltoRango_Bici,
+	[OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_FIELDMOVE] = &gObjectEventGraphicsInfo_Rocket_AltoRango_Fieldmove,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_BICI] = &gObjectEventGraphicsInfo_Rocket_Ejecutivo_Bici,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_FIELDMOVE] = &gObjectEventGraphicsInfo_Rocket_Ejecutivo_Fieldmove,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_BICI] = &gObjectEventGraphicsInfo_Rocket_Admin_Bici,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_FIELDMOVE] = &gObjectEventGraphicsInfo_Rocket_Admin_Fieldmove,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_BICI] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Bici,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_FIELDMOVE] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Fieldmove,
+	[OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_SURF] = &gObjectEventGraphicsInfo_Rocket_AltoRango_Surf,
+	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_SURF] = &gObjectEventGraphicsInfo_Rocket_Ejecutivo_Surf,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_SURF] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Surf,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_SURF] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Surf,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
