@@ -176,20 +176,20 @@
     {
       "type": "trigger",
       "x": 112,
-      "y": 11,
-      "elevation": 0,
-      "var": "VAR_UNUSED_0x40F7",
-      "var_value": "202",
-      "script": "ViasTren5_Combate_Atlas_Abajo"
-    },
-    {
-      "type": "trigger",
-      "x": 112,
       "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "202",
       "script": "ViasTren5_Combate_Atlas_Arriba"
+    },
+    {
+      "type": "trigger",
+      "x": 112,
+      "y": 11,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "202",
+      "script": "ViasTren5_Combate_Atlas_Abajo"
     }
   ],
   "bg_events": [

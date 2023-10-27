@@ -80,7 +80,7 @@
       "flag": "FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_UNOWNORO",
+      "graphics_id": "OBJ_EVENT_GFX_KINGUNOWN",
       "x": 13,
       "y": 25,
       "elevation": 3,
@@ -90,7 +90,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "RuinsOfAlph_S5_Combate_Unown",
-      "flag": "FLAG_HIDE_MT_CHIMNEY_TRAINERS"
+      "flag": "0"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ARCEUS",

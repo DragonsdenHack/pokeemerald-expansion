@@ -722,10 +722,36 @@ step_end
 
 
 RuinsOfAlph_S5_Combate_Unown::
+playse MUS_DUMMY
+delay 50
+playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	playse SE_THUNDERSTORM_STOP
+	setvar VAR_0x8004, 0  @ vertical pan
+	setvar VAR_0x8005, 3  @ horizontal pan
+	setvar VAR_0x8006, 4  @ num shakes
+	setvar VAR_0x8007, 2  @ shake delay
+	special ShakeCamera
+	delay 30
+	delay 50
+	waitse
+applymovement 6, RuinsOfAlph_S5_Combate_Unown_Despierta
 playmoncry SPECIES_UNOWN, CRY_MODE_ENCOUNTER
 waitmoncry
+playmoncry SPECIES_UNOWN, CRY_MODE_ENCOUNTER
+waitmoncry
+waitmovement 0x0
 delay 20
 msgbox RuinsOfAlph_S1_Combate_UnownDorado_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 6, RuinsOfAlph_S5_Combate_Unown_Despierta2
+waitmovement 0x0
+playse SE_BANG
+waitse
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
 trainerbattle_no_intro TRAINER_ESENCIA_ZIGARDE, RuinsOfAlph_S5_Combate_Unown_Texto_2
@@ -744,6 +770,34 @@ RuinsOfAlph_S5_Combate_Unown_Texto_2:
 RuinsOfAlph_S5_Combate_Unown_Texto_3:
 .string "(La energía misteriosa se ha\n"
 	.string "esfumado)$"
+
+RuinsOfAlph_S5_Combate_Unown_Despierta2:
+walk_in_place_down
+delay_4
+face_left
+step_end
+
+
+RuinsOfAlph_S5_Combate_Unown_Despierta:
+face_down
+delay_4
+face_up
+delay_4
+face_left
+delay_4
+walk_in_place_down
+delay_4
+walk_in_place_down
+delay_4
+walk_in_place_up
+delay_4
+walk_in_place_down
+delay_4
+walk_in_place_left
+delay_4
+walk_in_place_left
+delay_4
+step_end
 
 
 RuinsOfAlph_S5_Mensaje_Esencia::

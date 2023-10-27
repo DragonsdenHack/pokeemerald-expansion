@@ -124,7 +124,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 13,
-      "y": 10,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -182,7 +182,7 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_NEO_LAVANDA_TIENDA",
+      "dest_map": "MAP_RUINS_OF_ALPH_S5",
       "dest_warp_id": 0
     },
     {

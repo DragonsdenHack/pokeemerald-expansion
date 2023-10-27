@@ -914,6 +914,39 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_FUJI_1)
         return B_TRANSITION_FUJI;
 
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_1)
+        return B_TRANSITION_SIDNEY;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_2)
+        return B_TRANSITION_ANDRA2;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_3)
+        return B_TRANSITION_ANDRA3;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_4)
+        return B_TRANSITION_ANDRA3;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_5)
+        return B_TRANSITION_ANDRA4;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_6)
+        return B_TRANSITION_ANDRA4;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_7)
+        return B_TRANSITION_ANDRA5;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_8)
+        return B_TRANSITION_ANDRA6;
+
+    if (gTrainerBattleOpponent_A == TRAINER_ANDRA_9)
+        return B_TRANSITION_ANDRA6;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_118)
+        return B_TRANSITION_LIDERSETE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_26)
+        return B_TRANSITION_FRONTIER_CIRCLES_SYMMETRIC_SPIRAL_IN_SEQ;
+
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ZEUS)
     {
         if (gTrainerBattleOpponent_A == TRAINER_ZEUS_1)
@@ -1044,9 +1077,6 @@ return B_TRANSITION_CHAMPION;
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_CHAMPION)
         return B_TRANSITION_CHAMPION;
-
-    if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_ANDRA)
-        return B_TRANSITION_SIDNEY;
 
     if (gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_TEAM_MAGMA
         || gTrainers[gTrainerBattleOpponent_A].trainerClass == TRAINER_CLASS_MAGMA_LEADER

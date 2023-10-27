@@ -145,6 +145,12 @@ static void Task_Capitan(u8);
 static void Task_Aquiles(u8);
 static void Task_Maestrodun(u8);
 static void Task_Fuji(u8);
+static void Task_Andra2(u8);
+static void Task_Andra3(u8);
+static void Task_Andra4(u8);
+static void Task_Andra5(u8);
+static void Task_Andra6(u8);
+static void Task_LiderSete(u8);
 static void Task_Aqua(u8);
 static void Task_Magma(u8);
 static void Task_Regice(u8);
@@ -430,6 +436,12 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_CAPITAN] = Task_Capitan,
     [B_TRANSITION_MAESTRODUN] = Task_Maestrodun,
     [B_TRANSITION_FUJI] = Task_Fuji,
+    [B_TRANSITION_ANDRA2] = Task_Andra2,
+    [B_TRANSITION_ANDRA3] = Task_Andra3,
+    [B_TRANSITION_ANDRA4] = Task_Andra4,
+    [B_TRANSITION_ANDRA5] = Task_Andra5,
+    [B_TRANSITION_ANDRA6] = Task_Andra6,
+    [B_TRANSITION_LIDERSETE] = Task_LiderSete,
     [B_TRANSITION_AQUA] = Task_Aqua,
     [B_TRANSITION_MAGMA] = Task_Magma,
     [B_TRANSITION_REGICE] = Task_Regice,
@@ -610,7 +622,7 @@ static const TransitionStateFunc sMugshot_Funcs[] =
 
 static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
 {
-    [MUGSHOT_SIDNEY]   = TRAINER_PIC_ROCKET_GRUNT_ANDRA,
+    [MUGSHOT_SIDNEY]   = TRAINER_PIC_ROCKET_GRUNT_ANDRA3,
     [MUGSHOT_PHOEBE]   = TRAINER_PIC_ELITE_FOUR_PHOEBE,
     [MUGSHOT_GLACIA]   = TRAINER_PIC_ELITE_FOUR_GLACIA,
     [MUGSHOT_DRAKE]    = TRAINER_PIC_BILL,
@@ -649,6 +661,12 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_AQUILES] = TRAINER_PIC_AQUA_LEADER_ARCHIE,
     [MUGSHOT_MAESTRODUN] = TRAINER_PIC_MAESTRO_BELLSPROUT,
     [MUGSHOT_FUJI] = TRAINER_PIC_MR_FUJI,
+    [MUGSHOT_ANDRA2] = TRAINER_PIC_ROCKET_GRUNT_ANDRA2,
+    [MUGSHOT_ANDRA3] = TRAINER_PIC_ANDRA_ALTO_RANGO,
+    [MUGSHOT_ANDRA4] = TRAINER_PIC_ANDRA_EJECUTIVA,
+    [MUGSHOT_ANDRA5] = TRAINER_PIC_ANDRA_ADMIN,
+    [MUGSHOT_ANDRA6] = TRAINER_PIC_ANDRA_ADMIN_JEFE,
+    [MUGSHOT_LIDERSETE] = TRAINER_PIC_LIDERSETE,
 };
 static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
 {
@@ -690,11 +708,17 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_AQUILES] = {0x200, 0x200},
     [MUGSHOT_MAESTRODUN] = {0x200, 0x200},
     [MUGSHOT_FUJI] = {0x200, 0x200},
+    [MUGSHOT_ANDRA2] = {0x200, 0x200},
+    [MUGSHOT_ANDRA3] = {0x200, 0x200},
+    [MUGSHOT_ANDRA4] = {0x200, 0x200},
+    [MUGSHOT_ANDRA5] = {0x200, 0x200},
+    [MUGSHOT_ANDRA6] = {0x200, 0x200},
+    [MUGSHOT_LIDERSETE] = {0x200, 0x200},
     [MUGSHOT_CAPITAN] = {0x200, 0x200},
 };
 static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
 {
-    [MUGSHOT_SIDNEY] =   { 0,  0},
+    [MUGSHOT_SIDNEY] =   { -15,  0},
     [MUGSHOT_PHOEBE] =   { 0,  0},
     [MUGSHOT_GLACIA] =   {-4,  4},
     [MUGSHOT_DRAKE] =    { 0,  5},
@@ -732,6 +756,12 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_AQUILES] =    { -8,  0},
     [MUGSHOT_MAESTRODUN] =    { -8,  0},
     [MUGSHOT_FUJI] =    { -8,  0},
+    [MUGSHOT_ANDRA2] =    { -8,  0},
+    [MUGSHOT_ANDRA3] =    { -8,  0},
+    [MUGSHOT_ANDRA4] =    { -15,  0},
+    [MUGSHOT_ANDRA5] =    { -20,  0},
+    [MUGSHOT_ANDRA6] =    { -8,  0},
+    [MUGSHOT_LIDERSETE] =    { -8,  0},
     [MUGSHOT_CAPITAN] =    { -8,  0},
 };
 
@@ -1103,6 +1133,12 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_AQUILES] = sMugshotPal_Drake,
     [MUGSHOT_MAESTRODUN] = sMugshotPal_Phoebe,
     [MUGSHOT_FUJI] = sMugshotPal_Glacia,
+    [MUGSHOT_ANDRA2] = sMugshotPal_Sidney,
+    [MUGSHOT_ANDRA3] = sMugshotPal_Sidney,
+    [MUGSHOT_ANDRA4] = sMugshotPal_Sidney,
+    [MUGSHOT_ANDRA5] = sMugshotPal_Sidney,
+    [MUGSHOT_ANDRA6] = sMugshotPal_Champion,
+    [MUGSHOT_LIDERSETE] = sMugshotPal_Glacia,
     [MUGSHOT_CAPITAN] = sMugshotPal_Drake,
 };
 
@@ -2692,6 +2728,42 @@ static void Task_Maestrodun(u8 taskId)
 static void Task_Fuji(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_FUJI;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Andra2(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ANDRA2;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Andra3(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ANDRA3;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Andra4(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ANDRA4;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Andra5(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ANDRA5;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Andra6(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_ANDRA6;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_LiderSete(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_LIDERSETE;
     DoMugshotTransition(taskId);
 }
 
