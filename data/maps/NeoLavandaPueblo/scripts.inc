@@ -79,7 +79,7 @@ msgbox NeoLavandaPueblo_Combate_Eusine_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_4 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_2, NeoLavandaPueblo_Combate_Eusine_Texto_5
+trainerbattle_no_intro TRAINER_ALTORANGO, NeoLavandaPueblo_Combate_Eusine_Texto_5
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_6
 waitmovement 0x0
@@ -549,7 +549,9 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-changeavatar 4
+giveitem ITEM_MACH_BIKE
+setflag FLAG_RECEIVED_BIKE
+changeavatar 5
 release
 end
 
