@@ -1450,6 +1450,9 @@ gCryTable::
 	cry Cry_ToxtricityMega
 	cry Cry_DunsparceOldPreevo
 	cry Cry_DudunsparceEvo
+	cry Cry_Gorochu
+	cry Cry_Wartillery
+	cry Cry_Qwoltfish
 
 	.align 2
 gCryTable_Reverse::
@@ -2903,3 +2906,6 @@ gCryTable_Reverse::
 	cry_reverse Cry_ToxtricityMega
 	cry_reverse Cry_DunsparceOldPreevo
 	cry_reverse Cry_DudunsparceEvo
+	cry_reverse Cry_Gorochu
+	cry_reverse Cry_Wartillery
+	cry_reverse Cry_Qwoltfish

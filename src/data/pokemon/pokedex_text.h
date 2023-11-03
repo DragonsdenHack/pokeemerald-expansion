@@ -5486,3 +5486,21 @@ const u8 gDudunsparceEvoPokedexText[] = _(
     "providing healing and blessings. It\n"
     "reigned over the Galar region in times\n"
     "of yore.");
+
+const u8 gGorochuPokedexText[] = _(
+    "Calyrex is a merciful Pokémon, capable of\n"
+    "providing healing and blessings. It\n"
+    "reigned over the Galar region in times\n"
+    "of yore.");
+
+const u8 gWartilleryPokedexText[] = _(
+    "Calyrex is a merciful Pokémon, capable of\n"
+    "providing healing and blessings. It\n"
+    "reigned over the Galar region in times\n"
+    "of yore.");
+
+const u8 gQwoltfishPokedexText[] = _(
+    "Calyrex is a merciful Pokémon, capable of\n"
+    "providing healing and blessings. It\n"
+    "reigned over the Galar region in times\n"
+    "of yore.");

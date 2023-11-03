@@ -901,5 +901,8 @@ const u8 *const gMonFootprintTable[] =
     [SPECIES_TOXTRICITY_MEGA] = gMonFootprint_ToxtricityMega,
     [SPECIES_DUNSPARCE_OLD_PREEVO] = gMonFootprint_DunsparceOldPreevo,
     [SPECIES_DUDUNSPARCE_EVO] = gMonFootprint_DudunsparceEvo,
+    [SPECIES_GOROCHU] = gMonFootprint_Gorochu,
+    [SPECIES_WARTILLERY] = gMonFootprint_Wartillery,
+    [SPECIES_QWOLTFISH] = gMonFootprint_Qwoltfish,
     [SPECIES_EGG] = gMonFootprint_Bulbasaur,
 };

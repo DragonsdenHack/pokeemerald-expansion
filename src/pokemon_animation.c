@@ -781,6 +781,9 @@ static const u8 sSpeciesToBackAnimSet[NUM_SPECIES] =
     [SPECIES_TOXTRICITY_MEGA]        = BACK_ANIM_V_SHAKE,
     [SPECIES_DUNSPARCE_OLD_PREEVO]   = BACK_ANIM_V_SHAKE,
     [SPECIES_DUDUNSPARCE_EVO]        = BACK_ANIM_V_SHAKE,
+    [SPECIES_GOROCHU]                = BACK_ANIM_V_SHAKE,
+    [SPECIES_WARTILLERY]             = BACK_ANIM_V_SHAKE,
+    [SPECIES_QWOLTFISH]        = BACK_ANIM_V_SHAKE,
 };
 
 // Equivalent to struct YellowFlashData, but doesn't match as a struct
