@@ -125,7 +125,7 @@ LavenderRadioP6Documento_102::
 lock
 compare VAR_UNUSED_0x40F7, 212
 goto_if_lt RocketHideout7FDocumento_Esperando 
-showmonpic SPECIES_PORYGONZ_Y, 10, 3  
+showmonpic SPECIES_PORYGON_Z_MEGA, 10, 3  
 playmoncry SPECIES_PORYGON_Z, CRY_MODE_ENCOUNTER 
 msgbox LavenderRadioP6Documento_Text_102, MSGBOX_DEFAULT
 hidemonpic
@@ -135,10 +135,10 @@ end
 LavenderRadioP6Documento_Text_102:
 .string "PORYGONZ-MEGA:\p"
 	.string "PS: 85\n"
-	.string "ATAQUE: 80\l"
+	.string "ATAQUE: 100\l"
 	.string "DEFENSA: 90\l"
 	.string "ATAQUE ESPECIAL: 165\l"
-	.string "DEFENSA ESPECIAL: 115\l"
+	.string "DEFENSA ESPECIAL: 95\l"
 	.string "VELOCIDAD: 110\l"
 	.string "TOTAL: 645\p"
 	.string "NORMAL/PSÍQUICO\n"
@@ -146,8 +146,8 @@ LavenderRadioP6Documento_Text_102:
 	.string "hasta la última gota de rendimiento a\l"
 	.string "la que un PORYGON podría aspirar en la\l"
 	.string "concepción de esta MEGAEVOLUCIÓN. A\l"
-	.string "pesar de mantener su ATAQUE como\l"
-	.string "PORYGON-Z (80), esta será su mejor\l"
+	.string "pesar de solo elevar en 20 su ATAQUE\l"
+	.string "como PORYGON-Z, esta será su mejor\l"
 	.string "opción ofensiva, gracias al milagro de\l"
 	.string "insertar POTENCIA a un POKÉMON de\l"
 	.string "estas características sin que todo su\l"
@@ -157,7 +157,7 @@ LavenderRadioP6Documento_Text_102:
 	.string "caracterizado, ascendiendo a 165 y\l"
 	.string "colocándolo en el debate por el mejor\l"
 	.string "ATACANTE MIXTO existente. Su bulk\l"
-	.string "especial (115) e incluso físico (90),\l"
+	.string "especial (95) e incluso físico (90),\l"
 	.string "son excepcionales teniendo en cuenta\l"
 	.string "el resto.$"
 

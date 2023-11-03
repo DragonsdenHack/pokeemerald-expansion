@@ -2612,5 +2612,9 @@ Route49PagodaP14_Event_Script_PSagrada::
 finditem ITEM_PIEDRA_SAGRADA
    end
 
+BaseJohto_EventScript_Procket::
+finditem ITEM_CHIPPED_POT
+    end
+
 
 

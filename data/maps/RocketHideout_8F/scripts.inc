@@ -3799,7 +3799,9 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_19 MSGBOX_AUTOCLOSE
 delay 20
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
-setflag FLAG_RECEIVED_POKEDEX_FROM_BIRCH
+setflag FLAG_SYS_POKEDEX_GET
+setflag FLAG_SYS_NATIONAL_DEX
+special EnableNationalPokedex
 msgbox RocketHideout_8F_Mision_Lago_Furia_Texto_20 MSGBOX_DEFAULT
 waitfanfare
 playse SE_PIN
@@ -4746,6 +4748,7 @@ applymovement 1, RocketHideout_8F_Final_DLC_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Final_DLC_Texto_21 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 216
+warpsilent MAP_DEVON_S9, 40, 7
 release
 end
 
@@ -4780,7 +4783,7 @@ step_end
 RocketHideout_8F_Final_DLC_Texto_1:
 .string "GIOVANNI: ¡{PLAYER}! Debimos estar\n"
 	.string "ahí ATLAS y yo. Cuéntame todo, ¿y\l"
-	.string "ANDRA?.$"
+	.string "ANDRA?$"
 
 RocketHideout_8F_Final_DLC_Texto_2:
 .string "Ya veo. Debimos suponer que el ambiente\n"

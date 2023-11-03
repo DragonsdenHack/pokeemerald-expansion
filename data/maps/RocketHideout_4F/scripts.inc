@@ -89,6 +89,8 @@ end
 RocketHideout4F_Dialogos_Giovanni::
 lock
 faceplayer
+compare VAR_UNUSED_0x40F7, 216
+goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC
 compare VAR_UNUSED_0x40F7, 178
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC
 compare VAR_UNUSED_0x40F7, 167
@@ -119,6 +121,29 @@ compare VAR_UNUSED_0x40F7, 38
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_Kangaskhan
 release
 end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC::
+msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1:
+.string "Estoy sorprendido de que hayas logrado\n"
+	.string "llegar tan lejos. Grandes cambios se\l"
+	.string "avecinan, el futuro de KANTO es\l"
+	.string "incierto, y lo que puedas encontrarte\l"
+	.string "en HOENN una incógnita. Espero que\l"
+	.string "hayas disfrutado de este DLC, que\l"
+	.string "marca la transición hacia el final del\l"
+	.string "hack. Como siempre, puedes encontrarme\l"
+	.string "tanto en el canal de youtube\l"
+	.string "DragonsdenTV, como en el foro Whack a\l"
+	.string "hack. HOENN espera, toda historia tiene\l"
+	.string "su fin, pero esta... aún no, sigues\l"
+	.string "participando en su devenir, de modo\l"
+	.string "que...mantente mejorando hasta la\l"
+	.string "próxima versión.$"
+
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC_Texto_1 MSGBOX_AUTOCLOSE

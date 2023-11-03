@@ -147,7 +147,7 @@ endif
 ifeq ($(LANG),ES)
 override CPPFLAGS += -D GAME_LANGUAGE=LANGUAGE_SPANISH
 else
-override CPPFLAGS += -D GAME_LANGUAGE=LANGUAGE_ENGLISH
+override CPPFLAGS += -D GAME_LANGUAGE=LANGUAGE_SPANISH
 endif
 
 # Clear the default suffixes
