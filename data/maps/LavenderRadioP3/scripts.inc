@@ -314,7 +314,6 @@ EventScript_Ferroseed_Texto_1:
 .string "¿Seguro que quiere a FERROSEED?\n"
 	.string "Costará 60000 POKÉS.$"
 
-
 EventScript_Toxel_Texto_1:
 .string "¿Seguro que quiere a TOXEL? Costará\n"
 	.string "57000 POKÉS.$"

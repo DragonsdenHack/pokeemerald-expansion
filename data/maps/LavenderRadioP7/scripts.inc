@@ -30,17 +30,12 @@ LavenderRadioP7_Text_TakeDarumaka:
 	.string "envenenar incluso al porpio TIPO\l"
 	.string "VENENO.$"
 
-
-
 LavenderRadioP7_Text_TakeDarumaka2:
 	.string "Dada tu elevada posición, sin duda\n"
 	.string "mereces contar con ejemplar. Toma.$"
 
-
-
 LavenderRadioP7_Text_MensajeDarumaka:
 .string "¡OBTUVISTE UN SALANDIT AL NV.30!$"
-
 
 LavenderRadioP7_Text_1:
    .string "Todo puede corromperse, incluso aquello\n"

@@ -51,8 +51,6 @@ MtSilverHouse_Text_TakeDarumaka:
 	.string "POKÉMON, a atacar sin miedo a\l"
 	.string "recibir daño.$"
 
-
-
 MtSilverHouse_Text_TakeDarumaka2:
 	.string "De entre todos mis POKÉMON, había\n"
 	.string "uno que llevaba al extremo como\l"
@@ -61,11 +59,8 @@ MtSilverHouse_Text_TakeDarumaka2:
 	.string "¿te gustaría quedarte con una?\l"
 	.string "¡Toma!$"
 
-
-
 MtSilverHouse_Text_MensajeDarumaka:
 .string "¡OBTUVISTE UN DARUMAKA AL NV.25!$"
-
 
 MtSilverHouse_Text_1:
     .string "El ENVITE ÍGNEO de un DARMANITAN\n"

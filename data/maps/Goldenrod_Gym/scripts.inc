@@ -213,7 +213,6 @@ TrigalGym_Gym_Dude_Texto_1:
 	.string "¡Yo solo quiero ver buenos\l"
 	.string "combates!$"
 
-
 TrigalGym_Gym_Dude_Texto_2:
 .string "¡No creas que me lo perdí!\n"
 	.string "¡Vi como derrotabas a VALERIA!\l"

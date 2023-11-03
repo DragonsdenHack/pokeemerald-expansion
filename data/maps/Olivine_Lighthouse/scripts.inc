@@ -502,7 +502,6 @@ Faro_Voltiocambio_Texto_1.1:
 .string "¡{PLAYER} obtuvo la MT78 VOLTIOCAMBIO\n"
 	.string "de manos de mecánico!$"
 
-
 Faro_Voltiocambio_Texto_1:
 	.string "Llevo trabajando aquí desde que el\n"
 	.string "FARO se inauguró, sé perfectamente\l"

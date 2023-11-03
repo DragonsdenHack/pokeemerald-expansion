@@ -83,8 +83,6 @@ AzaleaPkmnCenter_EventScript_TakeWimpod::
 AzaleaPkmnCenter_Text_TakeWimpod:
    .string "¡Un forastero, bienvenido!$"
 
-
-
 AzaleaPkmnCenter_Text_TakeWimpod2:
    .string "Debes saber que este lugar y el\n"
 	.string "ENCINAR antes estaban unidos. Todo\l"
@@ -92,8 +90,6 @@ AzaleaPkmnCenter_Text_TakeWimpod2:
 	.string "jugábamos y vivíamos en pleno\l"
 	.string "bosque, rodeados de POKÉMON TIPO\l"
 	.string "BICHO.$"
-
-
 
 AzaleaPkmnCenter_Text_TakeWimpod3:
 	.string "En ese ambiente creció CÉSAR, que\n"
@@ -105,11 +101,8 @@ AzaleaPkmnCenter_Text_TakeWimpod3:
 	.string "allegados. Quiero que tú tengas\l"
 	.string "uno también.$"
 
-
-
 AzaleaPkmnCenter_Text_MensajeWimpod:
 .string "¡OBTUVISTE UN WIMPOD AL NV.10!$"
-
 
 AzaleaPkmnCenter_Text_1:
     .string "¡Ni se te ocurra subestimar a ese\n"

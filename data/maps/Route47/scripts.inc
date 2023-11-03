@@ -67,8 +67,6 @@ Route47_5_Text_5Yes:
 	.string "rebasado por la calidad y la\l"
 	.string "experiencia.$"
 
-
-
 Route47_5_Text_5No:
     .string "¡Eso es! ¡Mantén viva esa ilusión del\n"
 	.string "principiante que inicia su aventura!\l"
@@ -210,7 +208,6 @@ step_end
 
 Route47_Encuentro_Andra_Texto_1:
 .string "¿Tú también por aquí, {PLAYER}?$"
-
 
 Route47_Encuentro_Andra_Texto_1.1:
 .string "JOHTO no deja de sorprenderme, esta\n"

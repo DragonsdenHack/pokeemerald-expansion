@@ -175,8 +175,6 @@ Route51HouseDocumento_Text_100Yes:
 	.string "los que se destacan OAK y\l"
 	.string "GIOVANNI.$"
 
-
-
 Route51HouseDocumento_Text_100Yes2:
     .string "6 de Mayo de 1992: LANCE realiza\n"
 	.string "una nueva ofensiva, esta vez con\l"
@@ -186,8 +184,6 @@ Route51HouseDocumento_Text_100Yes2:
 	.string "efectivos de JOHTO debido al\l"
 	.string "liderazgo del LT.SURGE equilibran\l"
 	.string "la balanza.$"
-
-
 
 Route51HouseDocumento_Text_100Yes3:
     .string "1 de Junio de 1992: Viendo el\n"
@@ -203,8 +199,6 @@ Route51HouseDocumento_Text_100Yes3:
 	.string "para manipular el poder de un\l"
 	.string "POKÉMON.$"
 
-
-
 Route51HouseDocumento_Text_100Yes4:
     .string "5 de Julio de 1992: Después de una\n"
 	.string "exhaustiva búsqueda, GIOVANNI y su\l"
@@ -212,8 +206,6 @@ Route51HouseDocumento_Text_100Yes4:
 	.string "obtener su ADN, la victoria en la\l"
 	.string "guerra comienza a decantarse a\l"
 	.string "favor de JOHTO.$"
-
- 
 
 Route51HouseDocumento_Text_100Yes5:
     .string "6 de Febrero de 1993: Miles de\n"
@@ -225,8 +217,6 @@ Route51HouseDocumento_Text_100Yes5:
 	.string "inferiores en poder base.\l"
 	.string "No obstante, aún está lejos de ser\l"
 	.string "viable para el combate.$"
-
- 
 
 Route51HouseDocumento_Text_100Yes6:
     .string "1 de Septiembre de 1993: Después\n"
@@ -243,8 +233,6 @@ Route51HouseDocumento_Text_100Yes6:
 	.string "laboratorio y desapareciendo para\l"
 	.string "siempre.$"
 
-
-
 Route51HouseDocumento_Text_100Yes7:
     .string "17 de Septiembre de 1993: A KANTO\n"
 	.string "no le queda más remedio que\l"
@@ -256,8 +244,6 @@ Route51HouseDocumento_Text_100Yes7:
 	.string "GIOVANNI desaparece antes de ser\l"
 	.string "detenido.$"
 
-
-
 Route51HouseDocumento_Text_100Yes8:
     .string "12 de Marzo de 1994: Primeras\n"
 	.string "actuaciones del TEAM ROCKET como\l"
@@ -265,8 +251,6 @@ Route51HouseDocumento_Text_100Yes8:
 	.string "escala muy pequeña, insuficientes\l"
 	.string "como para llegar a oídos del nuevo\l"
 	.string "gobierno.$"
-
-
 
 Route51HouseDocumento_Text_100Yes9:
     .string "26 de Septiembre de 1996: Casi 3 años\n"
@@ -280,8 +264,6 @@ Route51HouseDocumento_Text_100Yes9:
 	.string "histórico sin darle información\l"
 	.string "alguna del pasado, pareciere que\l"
 	.string "tal guerra jamás hubiere ocurrido.$"
-
-
 
 Route51HouseDocumento_Text_100Yes10:
     .string "15 de Octubre de 1996: Un joven\n"
@@ -306,7 +288,6 @@ Route51HouseDocumento_Text_100Yes10:
 	.string "vitales para la paz verdadera\l"
 	.string "entre KANTO y JOHTO.$"
 
-
 Route51HouseDocumento_Text_100Yes11:
     .string "20 de Enero de 1996: El TEAM\n"
 	.string "ROCKET invade SILPH, en un\l"
@@ -320,8 +301,6 @@ Route51HouseDocumento_Text_100Yes11:
 	.string "por parte del TEAM ROCKET, y el\l"
 	.string "Golpe de Estado a la LIGA POKÉMON\l"
 	.string "comienza a planearse.$"
-
-
 
 Route51HouseDocumento_Text_100Yes12:
     .string "25 de Enero de 1996: BLAINE\n"
@@ -338,8 +317,6 @@ Route51HouseDocumento_Text_100Yes12:
 	.string "POKÉMON, para hacerse con el\l"
 	.string "título de la LIGA POKÉMON de forma\l"
 	.string "clandestina.$"
-
-
 
 Route51HouseDocumento_Text_100Yes13:
     .string "9 de Marzo de 1997: Apenas 5 meses\n"
@@ -369,8 +346,6 @@ Route51HouseDocumento_Text_100Yes13:
 	.string "con ello a la cesión de ciertos\l"
 	.string "poderes por parte de LANCE.$"
 
-
-
 Route51HouseDocumento_Text_100Yes14:
     .string "12 de Marzo de 1997: Se ratifica\n"
 	.string "la cesión de poderes por parte de\l"
@@ -382,8 +357,6 @@ Route51HouseDocumento_Text_100Yes14:
 	.string "acuerdo que, en las sombras, el\l"
 	.string "TEAM ROCKET obligó a LANCE\l"
 	.string "a aceptar.$"
-
-
 
 Route51HouseDocumento_Text_100Yes15:
     .string "1 de Mayo de 1997: OAK y BLAINE\n"
@@ -397,8 +370,6 @@ Route51HouseDocumento_Text_100Yes15:
 	.string "instaurar un despotismo\l"
 	.string "científico.$"
 
-
-
 Route51HouseDocumento_Text_100Yes16:
     .string "30 de Junio de 1997: OAK es\n"
 	.string "derrotado por el joven recluta,\l"
@@ -410,8 +381,6 @@ Route51HouseDocumento_Text_100Yes16:
 	.string "pre-guerra con KANTO, y\l"
 	.string "expandirlas vía telecomunicaciones\l"
 	.string "y medios de transporte.$"
-
-
 
 Route51HouseDocumento_Text_100Yes17:
     .string "12 de Octubre de 1997: I\n"
@@ -427,9 +396,6 @@ Route51HouseDocumento_Text_100Yes17:
 	.string "de JOHTO, alcanzando poco a poco\l"
 	.string "ese punto de equilibrio y estado\l"
 	.string "de flujo con sus POKÉMON.$"
-
-
-
 
 Route51HouseDocumento_Text_100Yes18:
     .string "17 de Noviembre de 1997: El\n"

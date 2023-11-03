@@ -111,7 +111,6 @@ UndergroundPath_7F_Cajas_Texto_2:
 UndergroundPath_7F_Cajas_Texto_1:
 .string "... ...$"
 
-
 UndergroundPath_7F_Motero_Llave_Texto_1:
 .string "¿Ves esas cajas? Es lo que queda del\n"
 	.string "antiguo mercado negro. Estas aún\l"

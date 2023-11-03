@@ -174,7 +174,6 @@ CultoS4_Rezando_Esencia_Texto_1:
 	.string "es, una nada que es potencialmente\l"
 	.string "todo.$"
 
-
 CultoS4_Rezando_Esencia_Texto_2:
 .string "Mientras que otros solo aspiran a\n"
 	.string "alargar la vista o subyugar los\l"

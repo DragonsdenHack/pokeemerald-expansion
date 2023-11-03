@@ -75,26 +75,19 @@ DragonsdenS1_EventScript_TakeDrampa::
 	release
 	end 
 
-
-
 DragonsdenS1_Text_TakeDrampa:
    .string "Muy pocos son los elegidos a los\n"
 	.string "que se les permite la entrada a\l"
 	.string "este lugar sagrado, debes de ser\l"
 	.string "{PLAYER}.$"
 
-
-
 DragonsdenS1_Text_TakeDrampa2:
 	.string "Que este POKÉMON te llene de\n"
 	.string "sabiduría y compañia en tus\l"
 	.string "viajes.$"
 
-
-
 DragonsdenS1_Text_MensajeDrampa:
 .string "¡OBTUVISTE UN DRAMPA AL NV.50!$"
-
 
 DragonsdenS1_Text_2:
     .string "DRAMPA es un dragón muy singular.\n"

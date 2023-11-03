@@ -67,20 +67,14 @@ OlivineNormanHouse_Text_TakeSlakoth:
 	.string "HOENN. Es lo mejor para nuestra\l"
 	.string "familia.$"
 
-
-
 OlivineNormanHouse_Text_TakeSlakoth2:
 	.string "Tú también deberías visitar esa\n"
 	.string "región algún día, tiene POKÉMON\l"
 	.string "excepcionales que no encontrarás\l"
 	.string "en ningua otra región, como este.$"
 
-
-
 OlivineNormanHouse_Text_MensajeSlakoth:
 .string "¡OBTUVISTE UN SLAKOTH AL NV.5!$"
-
-
 
 OlivineNormanHouse_Text_6:
     .string "SLAKOTH guarda dentro de sí un\n"
@@ -91,8 +85,6 @@ OlivineNormanHouse_Text_6:
 	.string "un letargo al siguiente turno, el\l"
 	.string "costo por hacer uso de tal fuerza\l"
 	.string "bruta...$"
-
-
 
 OlivineNormanHouse_Text_6b:
 	.string "Mi hijo quiere ser ENTRENADOR, es\n"

@@ -165,11 +165,8 @@ AzaleaCarbonS1_Text_TakeHelioptile:
 	.string "fuera, en todos los ámbitos. Mira, te\l"
 	.string "daré este POKÉMON como prueba.$"
 
-
-
 AzaleaCarbonS1_Text_MensajeHelioptile:
 .string "¡OBTUVISTE UN HELIOPTILE AL NV.15!$"
-
 
 AzaleaCarbonS1_Text_6:
 .string "HELIOPTILE es de mis compañeros de\n"

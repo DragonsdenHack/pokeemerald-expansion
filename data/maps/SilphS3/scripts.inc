@@ -267,7 +267,7 @@ release
 end
 
 SilphS3_Miguel_Batalla_Texto_1:
-.string "????: ¿Tú otra vez {PLAYER}?$"
+.string "????: ¿Tú otra vez, {PLAYER}?$"
 
 SilphS3_Miguel_Batalla_Texto_2:
 .string "C.MIGUEL: Ya nos avisó el\n"

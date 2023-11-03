@@ -1583,15 +1583,11 @@ RocketHideoutJohtoP1_Text_TakeKlink:
 	.string "preferidos por los científicos\l"
 	.string "como nosotros.$"
 
-
-
 RocketHideoutJohtoP1_Text_TakeKlink2:
 	.string "Cuando solo conocíamos los POKÉMON\n"
 	.string "de KANTO. Ahora tenemos muchas más\l"
 	.string "opciones para elegir nuestros\l"
 	.string "equipos.$"
-
-
 
 RocketHideoutJohtoP1_Text_TakeKlink3:
 	.string "Un compañero nuestro que viajó a\n"
@@ -1599,11 +1595,8 @@ RocketHideoutJohtoP1_Text_TakeKlink3:
 	.string "muy parecida a la de MAGNEMITE.\l"
 	.string "Mira, te daré un ejemplar.$"
 
-
-
 RocketHideoutJohtoP1_Text_MensajeKlink:
 .string "¡OBTUVISTE UN KLINK AL NV.10!$"
-
 
 RocketHideoutJohtoP1_Text_33:
     .string "A diferencia de MAGNEMITE, KLINK\n"
