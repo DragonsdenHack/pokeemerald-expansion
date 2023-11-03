@@ -492,6 +492,22 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zinnia;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_DragonSagrado;
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_ReyUnown;
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Admin_Surf;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Admin_Bici;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Admin_Fieldmove;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Ejecutivo_Surf;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Ejecutivo_Bici;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_Ejecutivo_Fieldmove;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AdminJefe_Surf;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AdminJefe_Bici;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AdminJefe_Fieldmove;
+
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AltoRango_Surf;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AltoRango_Bici;
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AltoRango_Fieldmove;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -995,7 +1011,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_FIELDMOVE] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Fieldmove,
 	[OBJ_EVENT_GFX_PLAYER_ALTO_RANGO_SURF] = &gObjectEventGraphicsInfo_Rocket_AltoRango_Surf,
 	[OBJ_EVENT_GFX_PLAYER_EJECUTIVO_SURF] = &gObjectEventGraphicsInfo_Rocket_Ejecutivo_Surf,
-	[OBJ_EVENT_GFX_PLAYER_ADMIN_SURF] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Surf,
+	[OBJ_EVENT_GFX_PLAYER_ADMIN_SURF] = &gObjectEventGraphicsInfo_Rocket_Admin_Surf,
 	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_SURF] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Surf,
 };
 
