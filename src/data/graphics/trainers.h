@@ -687,8 +687,23 @@ const u8 gTrainerBackPic_Red[] = INCBIN_U8("graphics/trainers/back_pics/red_back
 const u8 gTrainerBackPic_Leaf[] = INCBIN_U8("graphics/trainers/back_pics/leaf_back_pic.4bpp");
 const u8 gTrainerBackPic_RubySapphireBrendan[] = INCBIN_U8("graphics/trainers/back_pics/ruby_sapphire_brendan_back_pic.4bpp");
 const u8 gTrainerBackPic_RubySapphireMay[] = INCBIN_U8("graphics/trainers/back_pics/ruby_sapphire_may_back_pic.4bpp");
+
+const u8 gTrainerBackPic_Recluta[] = INCBIN_U8("graphics/trainers/back_pics/brendan_back_pic1.4bpp");
+const u8 gTrainerBackPic_AltoRango[] = INCBIN_U8("graphics/trainers/back_pics/may_back_pic1.4bpp");
+const u8 gTrainerBackPic_Ejecutivo[] = INCBIN_U8("graphics/trainers/back_pics/red_back_pic1.4bpp");
+const u8 gTrainerBackPic_Admin[] = INCBIN_U8("graphics/trainers/back_pics/leaf_back_pic1.4bpp");
+const u8 gTrainerBackPic_AdminJefe[] = INCBIN_U8("graphics/trainers/back_pics/ruby_sapphire_brendan_back_pic1.4bpp");
+const u8 gTrainerBackPic_AdminJefe2[] = INCBIN_U8("graphics/trainers/back_pics/ruby_sapphire_may_back_pic1.4bpp");
+
 const u8 gTrainerBackPic_Wally[] = INCBIN_U8("graphics/trainers/back_pics/wally_back_pic.4bpp");
 const u8 gTrainerBackPic_Steven[] = INCBIN_U8("graphics/trainers/back_pics/steven_back_pic.4bpp");
 
 const u32 gTrainerBackPicPalette_Red[] = INCBIN_U32("graphics/trainers/palettes/red_back_pic.gbapal.lz");
 const u32 gTrainerBackPicPalette_Leaf[] = INCBIN_U32("graphics/trainers/palettes/leaf_back_pic.gbapal.lz");
+
+const u32 gTrainerBackPicPalette_Recluta[] = INCBIN_U32("graphics/trainers/palettes/backsprite_recluta.gbapal.lz");
+const u32 gTrainerBackPicPalette_AltoRango[] = INCBIN_U32("graphics/trainers/palettes/backsprite_altorango.gbapal.lz");
+const u32 gTrainerBackPicPalette_Ejecutivo[] = INCBIN_U32("graphics/trainers/palettes/backsprite_ejecutivo.gbapal.lz");
+const u32 gTrainerBackPicPalette_Admin[] = INCBIN_U32("graphics/trainers/palettes/backsprite_admin.gbapal.lz");
+const u32 gTrainerBackPicPalette_AdminJefe[] = INCBIN_U32("graphics/trainers/palettes/backsprite_adminjefe.gbapal.lz");
+const u32 gTrainerBackPicPalette_AdminJefe2[] = INCBIN_U32("graphics/trainers/palettes/backsprite_adminjefe2.gbapal.lz");

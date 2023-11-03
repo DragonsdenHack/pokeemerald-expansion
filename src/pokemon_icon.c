@@ -1411,6 +1411,9 @@ const u8 *const gMonIconTable[] =
     [SPECIES_TOXTRICITY_MEGA] = gMonIcon_ToxtricityMega,
     [SPECIES_DUNSPARCE_OLD_PREEVO] = gMonIcon_DunsparceOldPreevo,
     [SPECIES_DUDUNSPARCE_EVO] = gMonIcon_DudunsparceEvo,
+    [SPECIES_GOROCHU] = gMonIcon_Gorochu,
+    [SPECIES_WARTILLERY] = gMonIcon_Wartillery,
+    [SPECIES_QWOLTFISH] = gMonIcon_Qwoltfish,
     [SPECIES_EGG] = gMonIcon_Egg,
 };
 
@@ -2389,7 +2392,7 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_RAIKOU_BOND] = 1,
     [SPECIES_ENTEI_BOND] = 1,
     [SPECIES_SUICUNE_BOND] = 1,
-    [SPECIES_KURUSU] = 0,
+    [SPECIES_KURUSU] = 2,
     [SPECIES_AKUA] = 0,
     [SPECIES_AKUERIA] = 0,
     [SPECIES_BOOHOO] = 2,
@@ -2779,6 +2782,9 @@ const u8 gMonIconPaletteIndices[] =
     [SPECIES_TOXTRICITY_MEGA] = 2,
     [SPECIES_DUNSPARCE_OLD_PREEVO] = 0,
     [SPECIES_DUDUNSPARCE_EVO] = 0,
+    [SPECIES_GOROCHU] = 0,
+    [SPECIES_WARTILLERY] = 0,
+    [SPECIES_QWOLTFISH] = 0,
     [SPECIES_EGG] = 1,
 };
 

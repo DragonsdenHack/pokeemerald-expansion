@@ -17,12 +17,12 @@ const struct MonCoords gTrainerBackPicCoords[] =
 
 const struct CompressedSpriteSheet gTrainerBackPicTable[] =
 {
-    TRAINER_BACK_SPRITE(BRENDAN, gTrainerBackPic_Brendan, 0x2000),
-    TRAINER_BACK_SPRITE(MAY, gTrainerBackPic_May, 0x2000),
-    TRAINER_BACK_SPRITE(RED, gTrainerBackPic_Red, 0x2800),
-    TRAINER_BACK_SPRITE(LEAF, gTrainerBackPic_Leaf, 0x2800),
-    TRAINER_BACK_SPRITE(RUBY_SAPPHIRE_BRENDAN, gTrainerBackPic_RubySapphireBrendan, 0x2000),
-    TRAINER_BACK_SPRITE(RUBY_SAPPHIRE_MAY, gTrainerBackPic_RubySapphireMay, 0x2000),
+    TRAINER_BACK_SPRITE(BRENDAN, gTrainerBackPic_Recluta, 0x2000),
+    TRAINER_BACK_SPRITE(MAY, gTrainerBackPic_AltoRango, 0x2000),
+    TRAINER_BACK_SPRITE(RED, gTrainerBackPic_Ejecutivo, 0x2800),
+    TRAINER_BACK_SPRITE(LEAF, gTrainerBackPic_Admin, 0x2800),
+    TRAINER_BACK_SPRITE(RUBY_SAPPHIRE_BRENDAN, gTrainerBackPic_AdminJefe, 0x2000),
+    TRAINER_BACK_SPRITE(RUBY_SAPPHIRE_MAY, gTrainerBackPic_AdminJefe2, 0x2000),
     TRAINER_BACK_SPRITE(WALLY, gTrainerBackPic_Wally, 0x2000),
     TRAINER_BACK_SPRITE(STEVEN, gTrainerBackPic_Steven, 0x2000),
 };
@@ -31,12 +31,12 @@ const struct CompressedSpriteSheet gTrainerBackPicTable[] =
 
 const struct CompressedSpritePalette gTrainerBackPicPaletteTable[] =
 {
-    TRAINER_BACK_PAL(BRENDAN, gTrainerPalette_Brendan),
-    TRAINER_BACK_PAL(MAY, gTrainerPalette_May),
-    TRAINER_BACK_PAL(RED, gTrainerBackPicPalette_Red),
-    TRAINER_BACK_PAL(LEAF, gTrainerBackPicPalette_Leaf),
-    TRAINER_BACK_PAL(RUBY_SAPPHIRE_BRENDAN, gTrainerPalette_RubySapphireBrendan),
-    TRAINER_BACK_PAL(RUBY_SAPPHIRE_MAY, gTrainerPalette_RubySapphireMay),
+    TRAINER_BACK_PAL(BRENDAN, gTrainerBackPicPalette_Recluta),
+    TRAINER_BACK_PAL(MAY, gTrainerBackPicPalette_AltoRango),
+    TRAINER_BACK_PAL(RED, gTrainerBackPicPalette_Ejecutivo),
+    TRAINER_BACK_PAL(LEAF, gTrainerBackPicPalette_Admin),
+    TRAINER_BACK_PAL(RUBY_SAPPHIRE_BRENDAN, gTrainerBackPicPalette_AdminJefe),
+    TRAINER_BACK_PAL(RUBY_SAPPHIRE_MAY, gTrainerBackPicPalette_AdminJefe2),
     TRAINER_BACK_PAL(WALLY, gTrainerPalette_Wally),
     TRAINER_BACK_PAL(STEVEN, gTrainerPalette_Steven),
 };

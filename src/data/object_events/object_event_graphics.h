@@ -380,6 +380,7 @@ const u16 gObjectEventPal_HoOh[] = INCBIN_U16("graphics/object_events/palettes/h
 //Si no quieres una nueva paleta solo hay que dejar el grafico y ya, el juego creara automaticamente la paleta
 const u32 gObjectEventPic_Adminpokeball[] = INCBIN_U32("graphics/object_events/pics/people/Adminpokeball.4bpp");
 const u32 gObjectEventPic_Adminprota[] = INCBIN_U32("graphics/object_events/pics/people/Adminprota.4bpp");
+const u32 gObjectEventPic_AdminprotaRunning[] = INCBIN_U32("graphics/object_events/pics/people/Adminprotarunning.4bpp");
 const u32 gObjectEventPic_Agatha[] = INCBIN_U32("graphics/object_events/pics/people/agatha.4bpp");
 const u32 gObjectEventPic_Agatha2[] = INCBIN_U32("graphics/object_events/pics/people/agatha2.4bpp");
 const u32 gObjectEventPic_Ampharos[] = INCBIN_U32("graphics/object_events/pics/people/Ampharos.4bpp");
@@ -505,6 +506,7 @@ const u32 gObjectEventPic_Pokemaniacojohto[] = INCBIN_U32("graphics/object_event
 const u32 gObjectEventPic_Policeman[] = INCBIN_U32("graphics/object_events/pics/people/policeman.4bpp");
 const u32 gObjectEventPic_Profoak[] = INCBIN_U32("graphics/object_events/pics/people/prof_oak.4bpp");
 const u32 gObjectEventPic_Prota[] = INCBIN_U32("graphics/object_events/pics/people/prota.4bpp");
+const u32 gObjectEventPic_ProtaRunning[] = INCBIN_U32("graphics/object_events/pics/people/player/normal/running.4bpp");
 const u32 gObjectEventPic_Protapokeball[] = INCBIN_U32("graphics/object_events/pics/people/protapokeball.4bpp");
 const u32 gObjectEventPic_Proton[] = INCBIN_U32("graphics/object_events/pics/people/Proton.4bpp");
 const u32 gObjectEventPic_Raikou[] = INCBIN_U32("graphics/object_events/pics/people/raikou.4bpp");
@@ -609,7 +611,7 @@ const u16 gObjectEventPic_RockSmashRock[] = INCBIN_U16("graphics/object_events/p
 
 
 const u16 gObjectEventPic_Rocket_AltoRango[] = INCBIN_U16("graphics/object_events/pics/people/rocket_m_altorango.4bpp");
-const u32 gObjectEventPic_RocketEjecutivo[] = INCBIN_U32("graphics/object_events/pics/people/rocket_m_ejecutivo.4bpp");
+const u16 gObjectEventPic_RocketEjecutivo[] = INCBIN_U16("graphics/object_events/pics/people/rocket_m_ejecutivo.4bpp");
 const u16 gObjectEventPic_RocketAdmin[] = INCBIN_U16("graphics/object_events/pics/people/rocket_m_admin.4bpp");
 
 const u16 gObjectEventPic_Andra[] = INCBIN_U16("graphics/object_events/pics/people/andra/normal/walking.4bpp");
@@ -618,25 +620,30 @@ const u16 gObjectEventPic_AndraAltoRango[] = INCBIN_U16("graphics/object_events/
 const u16 gObjectEventPic_AndraAdmin[] = INCBIN_U16("graphics/object_events/pics/people/andra/admin/walking.4bpp");
 const u16 gObjectEventPic_AndraAdminJefe[] = INCBIN_U16("graphics/object_events/pics/people/andra/admin_jefe/walking.4bpp");
 
-const u32 gObjectEventPic_Prota_AltoRango[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/walking.4bpp");
-const u32 gObjectEventPic_Prota_Ejecutivo[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/walking.4bpp");
-const u32 gObjectEventPic_Prota_Admin[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/walking.4bpp");
-const u32 gObjectEventPic_Prota_AdminJefe[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/walking.4bpp");
+const u16 gObjectEventPic_Prota_AltoRango[] = INCBIN_U16("graphics/object_events/pics/people/player/alto_rango/walking.4bpp");
+const u16 gObjectEventPic_Prota_Ejecutivo[] = INCBIN_U16("graphics/object_events/pics/people/player/ejecutivo/walking.4bpp");
+const u16 gObjectEventPic_Prota_Admin[] = INCBIN_U16("graphics/object_events/pics/people/player/admin/walking.4bpp");
+const u16 gObjectEventPic_Prota_AdminJefe[] = INCBIN_U16("graphics/object_events/pics/people/player/admin_jefe/walking.4bpp");
 
-const u32 gObjectEventPic_Prota_AltoRango_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/bike.4bpp");
-const u32 gObjectEventPic_Prota_Ejecutivo_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/bike.4bpp");
-const u32 gObjectEventPic_Prota_Admin_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/bike.4bpp");
-const u32 gObjectEventPic_Prota_AdminJefe_Bici[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/bike.4bpp");
+const u16 gObjectEventPic_Prota_AltoRango_Bici[] = INCBIN_U16("graphics/object_events/pics/people/player/alto_rango/bike.4bpp");
+const u16 gObjectEventPic_Prota_Ejecutivo_Bici[] = INCBIN_U16("graphics/object_events/pics/people/player/ejecutivo/bike.4bpp");
+const u16 gObjectEventPic_Prota_Admin_Bici[] = INCBIN_U16("graphics/object_events/pics/people/player/admin/bike.4bpp");
+const u16 gObjectEventPic_Prota_AdminJefe_Bici[] = INCBIN_U16("graphics/object_events/pics/people/player/admin_jefe/bike.4bpp");
 
-const u32 gObjectEventPic_Prota_AltoRango_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/surfing.4bpp");
-const u32 gObjectEventPic_Prota_Ejecutivo_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/surfing.4bpp");
-const u32 gObjectEventPic_Prota_Admin_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/surfing.4bpp");
-const u32 gObjectEventPic_Prota_Admin_Jefe_Surf[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/surfing.4bpp");
+const u16 gObjectEventPic_Prota_AltoRango_Surf[] = INCBIN_U16("graphics/object_events/pics/people/player/alto_rango/surfing.4bpp");
+const u16 gObjectEventPic_Prota_Ejecutivo_Surf[] = INCBIN_U16("graphics/object_events/pics/people/player/ejecutivo/surfing.4bpp");
+const u16 gObjectEventPic_Prota_Admin_Surf[] = INCBIN_U16("graphics/object_events/pics/people/player/admin/surfing.4bpp");
+const u16 gObjectEventPic_Prota_Admin_Jefe_Surf[] = INCBIN_U16("graphics/object_events/pics/people/player/admin_jefe/surfing.4bpp");
 
-const u32 gObjectEventPic_Prota_AltoRango_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/alto_rango/fieldmove.4bpp");
-const u32 gObjectEventPic_Prota_Ejecutivo_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/ejecutivo/fieldmove.4bpp");
-const u32 gObjectEventPic_Prota_Admin_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/admin/fieldmove.4bpp");
-const u32 gObjectEventPic_Prota_Admin_Jefe_Fieldmove[] = INCBIN_U32("graphics/object_events/pics/people/player/admin_jefe/fieldmove.4bpp");
+const u16 gObjectEventPic_Prota_AltoRango_Fieldmove[] = INCBIN_U16("graphics/object_events/pics/people/player/alto_rango/fieldmove.4bpp");
+const u16 gObjectEventPic_Prota_Ejecutivo_Fieldmove[] = INCBIN_U16("graphics/object_events/pics/people/player/ejecutivo/fieldmove.4bpp");
+const u16 gObjectEventPic_Prota_Admin_Fieldmove[] = INCBIN_U16("graphics/object_events/pics/people/player/admin/fieldmove.4bpp");
+const u16 gObjectEventPic_Prota_Admin_Jefe_Fieldmove[] = INCBIN_U16("graphics/object_events/pics/people/player/admin_jefe/fieldmove.4bpp");
+
+const u16 gObjectEventPic_Prota_AltoRango_Running[] = INCBIN_U16("graphics/object_events/pics/people/player/alto_rango/running.4bpp");
+const u16 gObjectEventPic_Prota_Ejecutivo_Running[] = INCBIN_U16("graphics/object_events/pics/people/player/ejecutivo/running.4bpp");
+const u16 gObjectEventPic_Prota_Admin_Running[] = INCBIN_U16("graphics/object_events/pics/people/player/admin/running.4bpp");
+const u16 gObjectEventPic_Prota_Admin_Jefe_Running[] = INCBIN_U16("graphics/object_events/pics/people/player/admin_jefe/running.4bpp");
 
 const u16 gObjectEventPic_Silver[] = INCBIN_U16("graphics/object_events/pics/people/silver.4bpp");
 const u16 gObjectEventPic_Akueria[] = INCBIN_U16("graphics/object_events/pics/people/Akueria.4bpp");
@@ -789,3 +796,5 @@ const u16 gObjectEventPal_PlayerAltoRango2[] = INCBIN_U16("graphics/object_event
 const u16 gObjectEventPal_PlayerEjecutivo2[] = INCBIN_U16("graphics/object_events/palettes/player_ejecutivo_fieldmove_running_surfing.gbapal");
 
 const u16 gObjectEventPal_PlayerAdmin2[] = INCBIN_U16("graphics/object_events/palettes/player_admin_bike.gbapal");
+
+const u16 gObjectEventPal_AdminJefeCaco[] = INCBIN_U16("graphics/object_events/palettes/adminjefecaco.gbapal");

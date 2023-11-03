@@ -258,10 +258,10 @@ static const struct WindowTemplate sTrainerCardWindowTemplates[] =
 static const u16 *const sHoennTrainerCardStarPals[] =
 {
     gHoennTrainerCard0Star_Pal,
-    sHoennTrainerCard1Star_Pal,
-    sHoennTrainerCard2Star_Pal,
-    sHoennTrainerCard3Star_Pal,
-    sHoennTrainerCard4Star_Pal,
+    gHoennTrainerCard0Star_Pal,
+    gHoennTrainerCard0Star_Pal,
+    gHoennTrainerCard0Star_Pal,
+    gHoennTrainerCard0Star_Pal,
 };
 
 static const u16 *const sKantoTrainerCardStarPals[] =
@@ -273,8 +273,8 @@ static const u16 *const sKantoTrainerCardStarPals[] =
     sKantoTrainerCard4Star_Pal,
 };
 
-static const u8 sTrainerCardTextColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_DARK_GRAY, TEXT_COLOR_LIGHT_GRAY};
-static const u8 sTrainerCardStatColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_RED, TEXT_COLOR_LIGHT_RED};
+static const u8 sTrainerCardTextColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE, TEXT_COLOR_TRANSPARENT};
+static const u8 sTrainerCardStatColors[] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_WHITE, TEXT_COLOR_TRANSPARENT};
 static const u8 sTimeColonInvisibleTextColors[6] = {TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT, TEXT_COLOR_TRANSPARENT};
 
 static const u8 sTrainerPicOffset[2][GENDER_COUNT][2] =
@@ -1011,7 +1011,7 @@ static void PrintNameOnCardFront(void)
     if (sData->cardType == CARD_TYPE_FRLG)
         AddTextPrinterParameterized3(1, FONT_NORMAL, 20, 28, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
     else
-        AddTextPrinterParameterized3(1, FONT_NORMAL, 16, 33, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
+        AddTextPrinterParameterized3(1, FONT_NORMAL, 16, 28, sTrainerCardTextColors, TEXT_SKIP_DRAW, buffer);
 }
 
 static void PrintIdOnCard(void)
