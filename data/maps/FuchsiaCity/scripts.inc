@@ -720,7 +720,6 @@ FuchsiaCity_Entrenador_Especial_Texto_1.1:
 .string "¡Obtuviste CINTA XPERTO de\n"
 	.string "manos de CAZABICHOS!$"
 
-
 FuchsiaCity_Entrenador_Especial_Texto_1:
 .string "Ya me tengo vista la ZONA SAFARI\n"
 	.string "completa, los POKÉMON que allí\l"

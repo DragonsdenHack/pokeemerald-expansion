@@ -414,6 +414,9 @@ $(OBJEVENTGFXDIR)/people/Adminpokeball.4bpp: %.4bpp: %.png
 
 $(OBJEVENTGFXDIR)/people/Adminprota.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
+
+$(OBJEVENTGFXDIR)/people/Adminprotarunning.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
 	
 $(OBJEVENTGFXDIR)/people/Akueria.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4	
@@ -853,10 +856,8 @@ $(OBJEVENTGFXDIR)/people/player/admin_jefe/fieldmove.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/player/admin_jefe/bike.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
-
 $(OBJEVENTGFXDIR)/people/andra/ejecutivo/walking.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
-	
 	
 $(OBJEVENTGFXDIR)/people/andra/normal/walking.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4	

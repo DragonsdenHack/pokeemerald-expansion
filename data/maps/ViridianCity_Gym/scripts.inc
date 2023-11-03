@@ -263,7 +263,6 @@ ViridianCity_Gym_Estatuas_Texto_1:
 	.string "ENTRENADORES GANADORES:\n"
 	.string "AZUL, ROJO y ANDRA$"
 
-
 ViridianCity_Gym_Estatuas_Texto_2:
 	.string "LÍDER del GIMNASIO POKéMON\n"
 	.string "de C.VERDE: ????\p"

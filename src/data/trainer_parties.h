@@ -29235,11 +29235,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER194[] = {
     {
     .iv = 255,
     .lvl = 101,
-    .species = SPECIES_SNEASLER,
-    .heldItem = ITEM_FOCUS_SASH,
-    .evs = {0, 252, 6, 252, 0, 0},
-    .nature = NATURE_JOLLY,
-    .moves = {MOVE_U_TURN, MOVE_CLOSE_COMBAT, MOVE_GUNK_SHOT, MOVE_FAKE_OUT}
+    .species = SPECIES_WARTILLERY,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {0, 0, 6, 252, 252, 0},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_OCTAZOOKA, MOVE_FLASH_CANNON, MOVE_ENERGY_BALL, MOVE_NONE}
     },
     {
     .iv = 255,
@@ -29351,11 +29351,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER196[] = {
     {
     .iv = 255,
     .lvl = 101,
-    .species = SPECIES_MAGNEZONE,
+    .species = SPECIES_QWOLTFISH,
     .heldItem = ITEM_TERRAIN_EXTENDER,
-    .evs = {252, 0, 0, 0, 252, 6},
-    .nature = NATURE_SERIOUS,
-    .moves = {MOVE_ELECTRIC_TERRAIN, MOVE_VOLT_SWITCH, MOVE_FLASH_CANNON, MOVE_RISING_VOLTAGE}
+    .evs = {252, 0, 128, 0, 0, 128},
+    .nature = NATURE_BOLD,
+    .moves = {MOVE_HYDRO_PUMP, MOVE_VOLT_SWITCH, MOVE_TOXIC_SPIKES, MOVE_SPIKES}
     },
     {
     .iv = 255,
@@ -29396,11 +29396,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER196[] = {
     {
     .iv = 255,
     .lvl = 105,
-    .species = SPECIES_RAICHU,
+    .species = SPECIES_GOROCHU,
     .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {252, 252, 252, 252, 252, 252},
+    .evs = {110, 110, 110, 252, 252, 110},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_FOCUS_BLAST, MOVE_RISING_VOLTAGE}
+    .moves = {MOVE_THUNDERBOLT, MOVE_GRASS_KNOT, MOVE_FOCUS_BLAST, MOVE_SURF}
     }
 
 };

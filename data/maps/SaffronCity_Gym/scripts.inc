@@ -96,7 +96,6 @@ SaffronCity_No_Pass_Gym_Texto_1:
 	.string "¡Da un paso más y te devolveré a las\l"
 	.string "cloacas de AZULONA de un PSÍQUICO!$"
 
-
 SaffronCity_No_Pass_Gym_Texto_2:
 .string "¡Un momento! Esa LICENCIA... Solo las\n"
 	.string "altas esferas del COMITÉ de la LIGA\l"
@@ -910,7 +909,6 @@ Cinnabar_Island_Gym_Estatuas_Texto_1:
 	.string "ENTRENADORES GANADORES:\n"
 	.string "AZUL, ROJO y ANDRA$"
 
-
 Cinnabar_Island_Gym_Estatuas_Texto_2:
 	.string "LÍDER del GIMNASIO POKéMON\n"
 	.string "de CANELA: BLAINE\p"
@@ -1069,7 +1067,6 @@ Celadon_Ciyy_Lider_Gimnasio_Texto_1:
 	.string "¡Oh, perdona! ¡No tenía ni idea de\n"
 	.string "que quisieras desafiarme!$"
 	
-
 Celadon_Ciyy_Lider_Gimnasio_Texto_1.1:
 .string "¡Como quieras! ¡No pienso perder!$"
 

@@ -551,7 +551,8 @@ lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
 giveitem ITEM_MACH_BIKE
 setflag FLAG_RECEIVED_BIKE
-changeavatar 2
+setvar VAR_UNUSED_0x40F7, 217
+changeavatar 3
 release
 end
 
