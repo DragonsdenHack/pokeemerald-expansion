@@ -429,6 +429,8 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, RuinsOfAlph_S5_Final_Move_4
 waitmovement 0x0
 setvar VAR_UNUSED_0x40F7, 177
+setflag FLAG_UNUSED_0x26E
+clearflag FLAG_UNUSED_0x26F
 setflag FLAG_EXPAND_MAX_LEVEL
 setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 release

@@ -131,12 +131,18 @@ release
 end
 
 RocketHideout5F_Text_11:
-.string "-1984-, de George Orwell, -Un\n"
-.string "mundo Feliz-, de Aldous Huxley y\l"
-.string "-El hombre en busca de sentido-,\l"
-.string "de Victor Frankl, son libros base\l"
-.string "que recomendaría a cualquiera,\l"
-.string "camarada.$"
+.string "KANTO ahora mismo parece una parodia\n"
+	.string "de aquellas grandes obras distópicas\l"
+	.string "de principios del siglo XX: -1984- y -Un\l"
+	.string "mundo feliz-. KANTO no está tan\l"
+	.string "controlada como describe Orwell,\l"
+	.string "aunque sus ciudadanos sí que están\l"
+	.string "desbordados con el exceso de trabajo.\l"
+	.string "En cuanto a -Un mundo feliz-... la\l"
+	.string "ilusión de la liga POKÉMON y el sueño de\l"
+	.string "ser maestro POKÉMON podrían ser la\l"
+	.string "dosis de soma moderno que mantiene\l"
+	.string "cuerda a KANTO.$"
 
 
 

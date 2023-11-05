@@ -660,6 +660,7 @@ waitse
 playse SE_M_SOLAR_BEAM
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
 delay 100
+changeavatar 2
 setvar VAR_UNUSED_0x40F7, 802
 warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
 
@@ -3116,6 +3117,7 @@ waitse
 playse SE_M_SOLAR_BEAM
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
 delay 100
+changeavatar 4
 setvar VAR_UNUSED_0x40F7, 808
 warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
 

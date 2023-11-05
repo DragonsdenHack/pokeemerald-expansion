@@ -122,6 +122,8 @@ static void Task_Sete(u8);
 static void Task_Sabrina(u8);
 static void Task_Blaine(u8);
 static void Task_Petrel(u8);
+static void Task_Frank(u8);
+static void Task_Frank2(u8);
 static void Task_Proton(u8);
 static void Task_Atlas(u8);
 static void Task_Lorelei(u8);
@@ -416,6 +418,8 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_SABRINA] = Task_Sabrina,
     [B_TRANSITION_BLAINE] = Task_Blaine,
     [B_TRANSITION_PETREL] = Task_Petrel,
+    [B_TRANSITION_FRANK] = Task_Frank,
+    [B_TRANSITION_FRANK2] = Task_Frank2,
     [B_TRANSITION_PROTON] = Task_Proton,
     [B_TRANSITION_ATLAS] = Task_Atlas,
     [B_TRANSITION_LORELEI] = Task_Lorelei,
@@ -644,6 +648,8 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_SABRINA] = TRAINER_PIC_LEADER_SABRINA,
     [MUGSHOT_BLAINE] = TRAINER_PIC_LEADER_BLAINE,
     [MUGSHOT_PETREL] = TRAINER_PIC_PETREL,
+    [MUGSHOT_FRANK] = TRAINER_PIC_FRANK_ADMIN,
+    [MUGSHOT_FRANK2] = TRAINER_PIC_FRANK_EJECUTIVO,
     [MUGSHOT_PROTON] = TRAINER_PIC_PROTON,
     [MUGSHOT_ATLAS] = TRAINER_PIC_ROCKET_ADMIN_ATLAS,
     [MUGSHOT_LORELEI] = TRAINER_PIC_ELITE_FOUR_LORELEI,
@@ -695,6 +701,8 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SABRINA] = {0x200, 0x200},
     [MUGSHOT_BLAINE] = {0x200, 0x200},
     [MUGSHOT_PETREL] = {0x200, 0x200},
+    [MUGSHOT_FRANK] = {0x200, 0x200},
+    [MUGSHOT_FRANK2] = {0x200, 0x200},
     [MUGSHOT_PROTON] = {0x200, 0x200},
     [MUGSHOT_ATLAS] = {0x200, 0x200},
     [MUGSHOT_LORELEI] = {0x200, 0x200},
@@ -746,6 +754,8 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SABRINA] =    { -8,  5},
     [MUGSHOT_BLAINE] =    { -8,  0},
     [MUGSHOT_PETREL] =    { -8,  0},
+    [MUGSHOT_FRANK] =    { -8,  0},
+    [MUGSHOT_FRANK2] =    { -8,  0},
     [MUGSHOT_PROTON] =    { -8,  0},
     [MUGSHOT_ATLAS] =    { -8,  0},
     [MUGSHOT_LORELEI] =    { -8,  0},
@@ -1126,6 +1136,8 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_SABRINA] = sMugshotPal_Glacia,
     [MUGSHOT_BLAINE] = sMugshotPal_Drake,
     [MUGSHOT_PETREL] = sMugshotPal_Phoebe,
+    [MUGSHOT_FRANK] = sMugshotPal_Drake,
+    [MUGSHOT_FRANK2] = sMugshotPal_Drake,
     [MUGSHOT_PROTON] = sMugshotPal_Drake,
     [MUGSHOT_ATLAS] = sMugshotPal_Champion,
     [MUGSHOT_LORELEI] = sMugshotPal_Sidney,
@@ -2608,6 +2620,18 @@ static void Task_Sabrina(u8 taskId)
 static void Task_Petrel(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_PETREL;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Frank(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_FRANK;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Frank2(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_FRANK2;
     DoMugshotTransition(taskId);
 }
 

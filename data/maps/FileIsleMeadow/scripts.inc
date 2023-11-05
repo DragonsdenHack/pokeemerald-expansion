@@ -107,10 +107,196 @@ msgbox FileIsleMeadow_Recluta_Balls_Text_Yes, MSGBOX_DEFAULT
 trainerbattle_no_intro TRAINER_RECLUTA_BALL_1, FileIsleMeadow_Recluta_Balls_Text_2
 msgbox FileIsleMeadow_Recluta_Balls_Text_3, MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-giveitem ITEM_POKE_BALL, 5
+additem ITEM_POKE_BALL, 5
+msgbox FileIsleMeadow_Recluta_Balls_Text_3.1, MSGBOX_DEFAULT
 waitfanfare
 release
 end
+
+FileIsleMeadow_Recluta_Balls_Text_3.1:
+.string "¡¡{PLAYER} obtuvo 5 POKÉ BALL\n"
+	.string "de manos de Recluta Rocket!!$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo::
+lock
+faceplayer
+compare VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 1
+goto_if_gt FileIsleMeadow_Recluta_Balls_Ejecutivo_2
+setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 2
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_1 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_3 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_4 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_5 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq FileIsleMeadow_Recluta_Balls_Ejecutivo_No
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_257, FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_8
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_10 MSGBOX_DEFAULT
+additem ITEM_ULTRA_BALL, 5
+waitfanfare
+release
+end
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_No::
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_6 MSGBOX_AUTOCLOSE
+release
+end
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_2::
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_4 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_5 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq FileIsleMeadow_Recluta_Balls_Ejecutivo_No
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_TRAINER_257, FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_8
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_10 MSGBOX_DEFAULT
+giveitem ITEM_ULTRA_BALL, 5
+waitfanfare
+release
+end
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_10:
+.string "¡¡{PLAYER} obtuvo 5 ULTRA BALL\n"
+	.string "de manos de Ejecutivo Rocket!!$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_1:
+.string "¡ADMIN.JEFE {PLAYER}!$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_2:
+.string "Ha pasado mucho tiempo, pero se ha\n"
+	.string "convertido usted en la mayor leyenda\l"
+	.string "del TEAM ROCKET. Aquí en ISLA INTA es\l"
+	.string "un ídolo.$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_3:
+.string "Como puede ver, yo he podido escalar\n"
+	.string "también, ahora mismo soy EJECUTIVO\l"
+	.string "ROCKET y mano derecha de ATLAS en\l"
+	.string "SEVII.$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_4:
+.string "Perdone mi indiscrección, señor, pero\n"
+	.string "sería todo un honor poder combatir\l"
+	.string "contra usted, y así fortalecer aún más\l"
+	.string "mis POKÉMON.$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_5:
+.string "¿Le gustaría combatir?$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_6:
+.string "Entiendo, alguien como usted debe\n"
+	.string "tener asuntos de gran importancia\l"
+	.string "esperándole.$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_7:
+.string "¡No le decepcionaré, SIR!$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_8:
+.string "Entonces, este es el poder de la élite\n"
+	.string "del TEAM ROCKET.$"
+
+FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_9:
+.string "No olvidaré esta lección, señor. Tome en\n"
+	.string "agradecimiento por su tiempo, alguien\l"
+	.string "de su categoría lo mínimo que debería\l"
+	.string "usar son ULTRA BALL.$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango::
+lock
+faceplayer
+compare VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 0
+goto_if_gt FileIsleMeadow_Recluta_Balls_AltoRango_2
+setvar VAR_LITTLEROOT_HOUSES_STATE_BRENDAN, 1
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_1 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_3 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_4 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_5 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq FileIsleMeadow_Recluta_Balls_AltoRango_No
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_RECLUTA_BALL_2, FileIsleMeadow_Recluta_Balls_AltoRango_texto_8
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_10 MSGBOX_DEFAULT
+additem ITEM_GREAT_BALL, 5
+waitfanfare
+release
+end
+
+FileIsleMeadow_Recluta_Balls_AltoRango_No::
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_6 MSGBOX_AUTOCLOSE
+release
+end
+
+
+FileIsleMeadow_Recluta_Balls_AltoRango_2::
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_4 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_5 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq FileIsleMeadow_Recluta_Balls_AltoRango_No
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_7 MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_RECLUTA_BALL_2, FileIsleMeadow_Recluta_Balls_AltoRango_texto_8
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_9 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_TMHM
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_10 MSGBOX_DEFAULT
+giveitem ITEM_GREAT_BALL, 5
+waitfanfare
+release
+end
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_10:
+.string "¡¡{PLAYER} obtuvo 5 SUPER BALL\n"
+	.string "de manos de Alto Rango Rocket!!$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_1:
+.string "¡{PLAYER}!$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_2:
+.string "¡Te has convertido en una leyenda\n"
+	.string "desde que abandonaste la isla! ¡Quién\l"
+	.string "diría que llegarías a ADMINISTRADOR\l"
+	.string "ROCKET tumbando el gobierno de LANCE!$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_3:
+.string "Yo también he logrado subir en la\n"
+	.string "organización, ¡ahora soy ALTO RANGO!$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_4:
+.string "Perdone mi indiscrección, señor, pero\n"
+	.string "sería todo un honor poder combatir\l"
+	.string "contra usted, y así fortalecer aún más\l"
+	.string "mis POKÉMON.$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_5:
+.string "¿Le gustaría combatir?$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_6:
+.string "Entiendo, alguien como usted debe\n"
+	.string "tener asuntos de gran importancia\l"
+	.string "esperándole.$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_7:
+.string "¡No le decepcionaré, SIR!$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_8:
+.string "Entonces, este es el poder de la élite\n"
+	.string "del TEAM ROCKET.$"
+
+FileIsleMeadow_Recluta_Balls_AltoRango_texto_9:
+.string "¡Gracias por la lección, señor! Tome\n"
+	.string "esto, puede que no sea la mejor BALL\l"
+	.string "para alguien de su categoría, ¡pero al\l"
+	.string "menos le ahorrará tener que usar ULTRA\l"
+	.string "BALL o MASTER BALL con POKÉMON que no\l"
+	.string "lo merecen!$"
 
 FileIsleMeadow_Recluta_Balls_Debil::
 msgbox FileIsleMeadow_Recluta_Balls_Debil_Texto_1 MSGBOX_AUTOCLOSE
@@ -149,7 +335,6 @@ FileIsleMeadow_Recluta_Balls_Text_Yes:
 
 FileIsleMeadow_Recluta_Balls_Text_2:
     .string "Tienes madera...$"
-
 
 FileIsleMeadow_Recluta_Balls_Text_3:
 	.string "Tienes un gran potencial camarada,\n"

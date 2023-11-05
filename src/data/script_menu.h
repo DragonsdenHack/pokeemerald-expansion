@@ -326,9 +326,9 @@ static const struct MenuAction MultichoiceList_Floors[] =
 
 static const struct MenuAction MultichoiceList_Ascensor[] =
 {
-    {gText_4F},
-    {gText_2F},
-    {gText_1F},
+    {gText_B4F},
+    {gText_B2F},
+    {gText_B1F},
     {gText_Exit},
 };
 

@@ -515,49 +515,71 @@ faceplayer
 applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove1
 applymovement 6, RocketWarehouseMisionAtlasmove2
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas1 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas1 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouseMisionAtlasmove2
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas2 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas2 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouseMisionAtlasmove3
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas3 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas3 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouseMisionAtlasmove4
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas4 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas4 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouseMisionAtlasmove5
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas5 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas5 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouseMisionAtlasmove6
 waitmovement 0x0
 applymovement 6, RocketWarehouseMisionAtlasmove2
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas6 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas6 MSGBOX_AUTOCLOSE
 lock
 faceplayer
 applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
 applymovement 17, RocketWarehouseMisionAtlasmove7
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas7 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANDRA_1, RocketWarehouse_Text_MisionAtlas8
 msgbox RocketWarehouse_Text_MisionAtlas9 MSGBOX_DEFAULT
 applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove9
 applymovement 17, RocketWarehouseMisionAtlasmove9
-msgbox RocketWarehouse_Text_MisionAtlas10 MSGBOX_DEFAULT
+waitmovement 0x0
+msgbox RocketWarehouse_Text_MisionAtlas10 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, RocketWarehouseMisionAtlasmove9.2
+waitmovement 0x0
+msgbox RocketWarehouse_Text_MisionAtlas10_1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, RocketWarehouseMisionAtlasmove9.1
+waitmovement 0x0
+msgbox RocketWarehouse_Text_MisionAtlas10_2 MSGBOX_AUTOCLOSE
+applymovement 6, RocketWarehouseMisionAtlasmove9.3
+waitmovement 0x0
+msgbox RocketWarehouse_Text_MisionAtlas10_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 6, RocketWarehouseMisionAtlasmove9.4
+waitmovement 0x0
+msgbox RocketWarehouse_Text_MisionAtlas10_4 MSGBOX_AUTOCLOSE
+applymovement 6, RocketWarehouseMisionAtlasmove9.5
+waitmovement 0x0
+msgbox RocketWarehouse_Text_MisionAtlas10_5 MSGBOX_AUTOCLOSE
+applymovement 6, RocketWarehouseMisionAtlasmove9.5
+waitmovement 0x0
+msgbox RocketWarehouse_Text_MisionAtlas10_6 MSGBOX_AUTOCLOSE
 delay 20
-playfanfare MUS_OBTAIN_ITEM
-giveitem ITEM_POKE_BALL, 15
+playfanfare MUS_OBTAIN_TMHM
+givemon SPECIES_SENTRET, 5, ITEM_NONE
 waitfanfare
-msgbox RocketWarehouse_Text_MisionAtlas11 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas11 MSGBOX_AUTOCLOSE
 applymovement 6, RocketWarehouseMisionAtlasmove2
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas12 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas12 MSGBOX_AUTOCLOSE
 applymovement 17, RocketWarehouseMisionAtlasmove10
 waitmovement 0x0
-msgbox RocketWarehouse_Text_MisionAtlas13 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas13 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketWarehouseMisionAtlasmove8
 applymovement 17, RocketWarehouseMisionAtlasmove7
-msgbox RocketWarehouse_Text_MisionAtlas14 MSGBOX_DEFAULT
+msgbox RocketWarehouse_Text_MisionAtlas14 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
 fadescreen 1
 delay 30
@@ -574,6 +596,26 @@ clearflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
 setvar VAR_UNUSED_0x40F7, 4
 release
 end
+
+RocketWarehouseMisionAtlasmove9.5:
+walk_in_place_left
+step_end
+
+RocketWarehouseMisionAtlasmove9.4:
+walk_slow_down
+step_end
+
+RocketWarehouseMisionAtlasmove9.3:
+walk_slow_up
+step_end
+
+RocketWarehouseMisionAtlasmove9.2:
+face_right
+step_end
+
+RocketWarehouseMisionAtlasmove9.1:
+walk_in_place_right
+step_end
 
 RocketWarehouse_Text_MisionAtlas1:
 .string "ATLAS: Bien, parece que no\n"
@@ -668,7 +710,7 @@ RocketWarehouse_Text_MisionAtlas10:
 	.string "más por los alrededores, os\l"
 	.string "vendría bien otro POKÉMON aparte\l"
 	.string "de ZUBAT si queréis ser\l"
-	.string "competentes, os informo de que por\l"
+	.string "competentes. Os informo de que por\l"
 	.string "el prado podréis encontrar\l"
 	.string "MEOWTH, PIDGEY, RATTATA, SENTRET e\l"
 	.string "incluso VULPIX o PSYDUCK si sabéis\l"
@@ -678,20 +720,47 @@ RocketWarehouse_Text_MisionAtlas10:
 	.string "necesitáis tener un POKÉMON con\l"
 	.string "SURF, es sabido que los SENTRET\l"
 	.string "del prado son famosos por conocer\l"
-	.string "este movimiento, lo que haréis\l"
-	.string "será capturar uno que os sirva\l"
-	.string "para llegar hasta ahí, usad esto\l"
-	.string "para ello.$"
+	.string "este movimiento...$"
+
+RocketWarehouse_Text_MisionAtlas10_1:
+.string "Antiguamente, los ROCKET atrapaban uno\n"
+	.string "del PRADO, con sus propias manos.$"
+
+RocketWarehouse_Text_MisionAtlas10_2:
+.string "Pero esta práctica, que tenía el\n"
+	.string "objetivo de instruir al ROCKET en\l"
+	.string "cualidades tan importantes como la\l"
+	.string "improvisación, el adaptarse y no dar\l"
+	.string "nada por sentado... dejó de hacerse.$"
+
+RocketWarehouse_Text_MisionAtlas10_3:
+.string "En un inicio por ser ineficiente: podían\n"
+	.string "atraparse ingentes cantidades de\l"
+	.string "SENTRET a la vez y usarlas como\l"
+	.string "reserva para nuevos reclutas, pero...$"
+
+RocketWarehouse_Text_MisionAtlas10_4:
+.string "El principal motivo son las nuevas\n"
+	.string "generaciones: lo quieren todo hecho,\l"
+	.string "son incapaces de soportar una pequeña\l"
+	.string "incomodidad que sirve a un fin mayor.$"
+
+RocketWarehouse_Text_MisionAtlas10_5:
+.string "Al TEAM ROCKET, como organización que\n"
+	.string "pretende seguir vigente, no le queda\l"
+	.string "más remedio que ceder. Si la gente\l"
+	.string "juzga un libro por su portada, no habrá\l"
+	.string "más remedio que colorearla, aunque sea\l"
+	.string "un poco. Tal vez así aquellos que solo\l"
+	.string "aspiran a alargar la vista, puedan\l"
+	.string "adentrarse en la superficie.$"
+
+RocketWarehouse_Text_MisionAtlas10_6:
+.string "Dicho esto, aquí tenéis vuestros\n"
+	.string "SENTRET.$"
 
 RocketWarehouse_Text_MisionAtlas11:
-.string "Con esto podréis atrapar un\n"
-	.string "SENTRET salvaje, más os vale\l"
-	.string "hacerlo antes de gastar las 15 POKÉ\l"
-	.string "BALL, recordad que las\l"
-	.string "oportunidades hay que cogerlas en\l"
-	.string "el momento o perderlas para\l"
-	.string "siempre.\l"
-	.string "No debéis preocuparos por tener\l"
+	.string "No debéis preocuparos por tener\n"
 	.string "problemas al usar SURF, somos del\l"
 	.string "TEAM ROCKET, no estamos sujetos a\l"
 	.string "ese estúpido código de tener\l"
@@ -702,7 +771,10 @@ RocketWarehouse_Text_MisionAtlas11:
 RocketWarehouse_Text_MisionAtlas12:
 .string "Ya no tengo nada más que deciros,\n"
 	.string "volved aquí cuando hayáis cumplido\l"
-	.string "vuestra misión, podéis retiraros.$"
+	.string "la misión y recordad: las\l"
+	.string "oportunidades hay que cogerlas en el\l"
+	.string "momento o perderlas para siempre.\l"
+	.string "Podéis retiraros.$"
 
 RocketWarehouse_Text_MisionAtlas13:
 .string "¡A LA ÓRDEN ADMIN.JEFE ATLAS!$"
@@ -713,8 +785,7 @@ RocketWarehouse_Text_MisionAtlas14:
 	.string "me adelante.\l"
 	.string "¡Yo le dejaré las cosas claras y\l"
 	.string "obtendré la recompensa por cumplir\l"
-	.string "la misión, no te necesito!$"
-
+	.string "la misión! ¡No te necesito!$"
 
 RocketWarehouseMisionAtlasmove1:
 walk_up

@@ -140,20 +140,33 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "FileIsleMeadow_Recluta_Balls",
-      "flag": "0"
+      "flag": "FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ADMIN",
-      "x": 13,
-      "y": 30,
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
+      "x": 18,
+      "y": 34,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "Carbon2_EventScript_MT64",
-      "flag": "FLAG_NUEVA_812"
+      "script": "FileIsleMeadow_Recluta_Balls_AltoRango",
+      "flag": "FLAG_UNUSED_0x26E"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO",
+      "x": 17,
+      "y": 34,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "FileIsleMeadow_Recluta_Balls_Ejecutivo",
+      "flag": "FLAG_UNUSED_0x26F"
     }
   ],
   "warp_events": [

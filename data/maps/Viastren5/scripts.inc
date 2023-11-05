@@ -110,6 +110,15 @@ applymovement 9, ViasTren5_Combate_Atlas_Move_10
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_14 MSGBOX_AUTOCLOSE
 delay 15
+applymovement 9, ViasTren5_Combate_Atlas_Move_10.1
+waitmovement 0x0
+msgbox ViasTren5_Combate_Atlas_Texto_14.1 MSGBOX_AUTOCLOSE
+applymovement 9, ViasTren5_Combate_Atlas_Move_10.3
+waitmovement 0x0
+msgbox ViasTren5_Combate_Atlas_Texto_14.2 MSGBOX_AUTOCLOSE
+applymovement 9, ViasTren5_Combate_Atlas_Move_10.2
+waitmovement 0x0
+msgbox ViasTren5_Combate_Atlas_Texto_14.3 MSGBOX_AUTOCLOSE
 msgbox ViasTren5_Combate_Atlas_Texto_15 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
 fadescreen 1
@@ -127,6 +136,7 @@ removeobject 10
 playse SE_M_FLY
 msgbox ViasTren5_Combate_Atlas_Texto_17 MSGBOX_AUTOCLOSE
 playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, ViasTren5_Combate_Atlas_Move_9
 applymovement 11, ViasTren5_Combate_Atlas_Move_2
 waitmovement 0x0
 msgbox ViasTren5_Combate_Atlas_Texto_18 MSGBOX_AUTOCLOSE
@@ -166,6 +176,24 @@ step_end
 
 ViasTren5_Combate_Atlas_Move_10:
 walk_in_place_right
+step_end
+
+ViasTren5_Combate_Atlas_Move_10.1:
+delay_8
+face_up
+delay_8
+step_end
+
+ViasTren5_Combate_Atlas_Move_10.2:
+delay_8
+walk_slow_left
+delay_8
+step_end
+
+ViasTren5_Combate_Atlas_Move_10.3:
+delay_8
+face_left
+delay_8
 step_end
 
 ViasTren5_Combate_Atlas_Move_8:
@@ -289,13 +317,39 @@ ViasTren5_Combate_Atlas_Texto_13:
 	.string "más y más no es suficiente contigo. Se\l"
 	.string "necesita algo más para romper ese aura\l"
 	.string "que has construido en torno a los\l"
-	.string "tuyos, espero que no la pierdas nunca.$"
+	.string "tuyos.$"
 
 ViasTren5_Combate_Atlas_Texto_14:
 .string "Que este ZAPDOS-P colabore en tu\n"
 	.string "eterno viaje, {PLAYER}, solo espero\l"
 	.string "que no te acomodes al verte con\l"
 	.string "tremendo POKÉMON bajo tu poder.$"
+
+ViasTren5_Combate_Atlas_Texto_14.1:
+.string "Porque… a diferencia de la justicia, a\n"
+	.string "la fuerza se la reconoce bien y sin\l"
+	.string "discusión. La búsqueda de sus frutos,\l"
+	.string "así como el evitar que otros los\l"
+	.string "obtengan, es lo que de verdad nos\l"
+	.string "impulsa a mejorar.$"
+
+ViasTren5_Combate_Atlas_Texto_14.2:
+.string "Ya lo intuirás, pero ANDRA se niega\n"
+	.string "a admitir esto. Su fuerza radica en\l"
+	.string "un optimismo desbordante y gran\l"
+	.string "espíritu de superación. Cree en ella y\l"
+	.string "sus POKÉMON como nadie, y confía en el\l"
+	.string "proceso. Pero todo eso tiene un límite\l"
+	.string "… biológico.$"
+
+ViasTren5_Combate_Atlas_Texto_14.3:
+.string "Aunque suene duro, tú sabes que\n"
+	.string "siempre fue así, {PLAYER}. Por eso\l"
+	.string "vamos todos a reunirnos en TRIGAL. La\l"
+	.string "debilidad no tiene lugar aquí, y por\l"
+	.string "ello… no concibo una existencia\l"
+	.string "distinta a la plena búsqueda de esa\l"
+	.string "fuerza, aunque sea artificial.$"
 
 ViasTren5_Combate_Atlas_Texto_15:
 .string "Nos vemos en TORRE RADIO. Hay mucho de\n"

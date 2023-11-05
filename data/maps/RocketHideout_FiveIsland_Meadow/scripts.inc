@@ -400,6 +400,8 @@ removeobject 8
 removeobject 3
 applymovement OBJ_EVENT_ID_PLAYER, Move16b
 waitmovement 0x0
+setflag FLAG_UNUSED_0x26E
+setflag FLAG_UNUSED_0x26F
 clearflag FLAG_NUEVA_854
 release     
 end

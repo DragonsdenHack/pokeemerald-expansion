@@ -49,3 +49,16 @@ NeoSaffron_TrainStation_Guay_Texto_1:
 	.string "comprara sería un ENTRENADOR aún más\l"
 	.string "GUAY.$"
 
+NeoSaffron_TrainStation_Policia::
+lock
+faceplayer
+msgbox NeoSaffron_TrainStation_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+NeoSaffron_TrainStation_Policia_Texto_1:
+.string "Cuando el MAGNETOTRÉN sea inaugurado,\n"
+	.string "las vías de tren quedarán\l"
+	.string "inaccesibles, incluso para peces\l"
+	.string "gordos como usted.$"
+

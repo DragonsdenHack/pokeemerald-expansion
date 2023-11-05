@@ -934,3 +934,105 @@ BaseRocketHoennS3_Quinto_Cientifico_Texto_1:
 	.string "combinar tus habilidades, reduces la\l"
 	.string "cantidad de competencia, lo cual hace\l"
 	.string "que sea más fácil destacar.$"
+
+BaseRocketHoennS3Documento_Wartillery::
+lock
+compare VAR_ROUTE105_STATE, 13
+goto_if_lt RocketHideout7FDocumento_Esperando  
+showmonpic SPECIES_WARTILLERY, 10, 3  
+playmoncry SPECIES_OCTILLERY, CRY_MODE_ENCOUNTER 
+msgbox BaseRocketHoennS3Documento_Wartillery_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+BaseRocketHoennS3Documento_Wartillery_Texto_1:
+    .string "WARTILLERY\p"
+	.string "PS: 85\n"
+	.string "ATAQUE: 105\l"
+	.string "DEFENSA: 105\l"
+	.string "ATAQUE ESPECIAL: 105\l"
+	.string "DEFENSA ESPECIAL: 105\l"
+	.string "VELOCIDAD: 35\l"
+	.string "TOTAL: 540\p"
+	.string "AGUA/ACERO\n"
+    .string "Estudiando las profundidades del LAGO\l"
+	.string "FURIA, se han descubierto corazas de\l"
+	.string "acero similares a las de OCTILLERY tras\l"
+	.string "reaccionar a la PIEDRA DORADA. Por ello,\l"
+	.string "se cree que evolucionaron como\l"
+	.string "respuesta a ser cazados en masa por\l"
+	.string "AKUERIA. A pesar de ello, acabaron\l"
+	.string "extinguiéndose. Su notable incremento\l"
+	.string "defensivo, unido a adquirir MEGA\l"
+	.string "DISPARADOR como habilidad, le\l"
+	.string "convierten en lo más parecido a un\l"
+	.string "POKÉMON tanque.$"
+
+BaseRocketHoennS3Documento_Gorochu::
+lock
+compare VAR_ROUTE105_STATE, 9
+goto_if_lt RocketHideout7FDocumento_Esperando  
+showmonpic SPECIES_GOROCHU, 10, 3  
+playmoncry SPECIES_RAICHU, CRY_MODE_ENCOUNTER 
+msgbox BaseRocketHoennS3Documento_Gorochu_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+BaseRocketHoennS3Documento_Gorochu_Texto_1:
+    .string "GOROCHU\p"
+	.string "PS: 70\n"
+	.string "ATAQUE: 100\l"
+	.string "DEFENSA: 65\l"
+	.string "ATAQUE ESPECIAL: 125\l"
+	.string "DEFENSA ESPECIAL: 90\l"
+	.string "VELOCIDAD: 105\l"
+	.string "TOTAL: 555\p"
+	.string "ELÉCTRICO\n"
+    .string "Descubierto gracias a la PIEDRA DORADA,\l"
+	.string "desconocemos los motivos por los que\l"
+	.string "RAICHU pudo evolucionar a GOROCHU en\l"
+	.string "un pasado lejano. Su total de STATS\l"
+	.string "BASE (555) es similar a ARCANINE, lo que\l"
+	.string "le coloca en la cumbre de la jerarquía\l"
+	.string "en cuanto NO LEGENDARIOS de KANTO. A\l"
+	.string "pesar de una mínima pérdida de\l"
+	.string "VELOCIDAD respecto a RAICHU, la\l"
+	.string "capacidad ofensiva que gana es\l"
+	.string "notoria. Gracias a TRANSISTOR, sus\l"
+	.string "descargas eléctricas no tienen\l"
+	.string "parangón, alcanzando los 500000\l"
+	.string "voltios.$"
+
+BaseRocketHoennS3Documento_Qwoltfish::
+lock
+compare VAR_MAUVILLE_CITY_STATE, 1
+goto_if_lt RocketHideout7FDocumento_Esperando  
+showmonpic SPECIES_QWOLTFISH, 10, 3  
+playmoncry SPECIES_QWILFISH, CRY_MODE_ENCOUNTER 
+msgbox BaseRocketHoennS3Documento_Qwoltfish_Texto_1, MSGBOX_DEFAULT
+hidemonpic
+release     
+end
+
+BaseRocketHoennS3Documento_Qwoltfish_Texto_1:
+    .string "QWOLTFISH\p"
+	.string "PS: 95\n"
+	.string "ATAQUE: 65\l"
+	.string "DEFENSA: 65\l"
+	.string "ATAQUE ESPECIAL: 115\l"
+	.string "DEFENSA ESPECIAL: 85\l"
+	.string "VELOCIDAD: 85\l"
+	.string "TOTAL: 510\p"
+	.string "AGUA/ELÉCTRICO\n"
+    .string "Actualmente solo en estado salvaje en\l"
+	.string "las profundidades del LAGO FURIA, se\l"
+	.string "cree que desarrolló el TIPO ELÉCTRICO\l"
+	.string "para defenderse de sus depredadores\l"
+	.string "acuáticos. Gracias a su\l"
+	.string "ELECTROGÉNESIS será un activo muy\l"
+	.string "valioso para ciertos equipos, esto,\l"
+	.string "unido a su notable incremento de stats\l"
+	.string "respecto a QWILFISH, lo convierten en\l"
+	.string "un POKÉMON digno de estudio.$"

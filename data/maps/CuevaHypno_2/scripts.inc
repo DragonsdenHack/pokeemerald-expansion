@@ -43,7 +43,7 @@ CuevaTesoro4_Combate_Blacephalon::
 	setflag FLAG_DEFEATED_REGIROCK
 	setflag FLAG_HIDE_REGIROCK
 	fadescreen 1
-	removeobject 12
+	removeobject 1
 	delay 20
     fadescreen 0
 	release
