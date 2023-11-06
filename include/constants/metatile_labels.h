@@ -263,13 +263,16 @@
 #define METATILE_General_Door_Gym                0x1CD
 #define METATILE_General_Door_PokeCenter         0x061
 #define METATILE_General_Door_PokeMart           0x041
+#define METATILE_General_Grass                   0x001
 #define METATILE_General_Grass_TreeLeft          0x1CE
 #define METATILE_General_Grass_TreeRight         0x1CF
+#define METATILE_General_Grass_TreeUp            0x00E
 #define METATILE_General_LongGrass               0x015
 #define METATILE_General_MuddySlope_Frame0       0x0E8
 #define METATILE_General_MuddySlope_Frame1       0x0E9
 #define METATILE_General_MuddySlope_Frame2       0x0EA
 #define METATILE_General_MuddySlope_Frame3       0x0EB
+#define METATILE_General_Plain_Grass             0x00D
 #define METATILE_General_Plain_Mowed             0x001
 #define METATILE_General_RedCaveIndent           0x1A0
 #define METATILE_General_RedCaveOpen             0x1A1
@@ -1061,5 +1064,18 @@
 // gTileset_ViridianForest
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Grass  0x284
 #define METATILE_ViridianForest_HugeTreeTopMiddle_Mowed  0x281
+
+// gTileset_pokemon
+#define METATILE_pokemon_mansion_Barrier_Horizontal_BottomLeft     0x300
+#define METATILE_pokemon_mansion_Barrier_Horizontal_BottomMid      0x301
+#define METATILE_pokemon_mansion_Barrier_Horizontal_BottomRight    0x302
+#define METATILE_pokemon_mansion_Barrier_Horizontal_TopLeft        0x2F8
+#define METATILE_pokemon_mansion_Barrier_Horizontal_TopMid         0x2F9
+#define METATILE_pokemon_mansion_Barrier_Horizontal_TopRight       0x2FA
+#define METATILE_pokemon_mansion_Barrier_Vertical_Bottom_Basement  0x372
+#define METATILE_pokemon_mansion_Barrier_Vertical_Mid_Basement     0x36A
+#define METATILE_pokemon_mansion_Barrier_Vertical_TopBase          0x358
+#define METATILE_pokemon_mansion_Barrier_Vertical_TopWall          0x350
+
 
 #endif // GUARD_METATILE_LABELS_H
