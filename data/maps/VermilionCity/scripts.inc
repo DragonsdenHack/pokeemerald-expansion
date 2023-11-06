@@ -9,11 +9,10 @@ release
 end
 
 VermilionCity_Text1:
-.string "¡Toda esta contaminación que\n"
-.string "últimamente se aprecia por la\l"
-.string "región debe ser culpa vuestra!\l"
-.string "¡Vuestros GRIMER y KOFFING acaban\l"
-.string "con el medio ambiente!$"
+.string "All this pollution that has been seen in\n"
+	.string "the region must be your fault! Your\l"
+	.string "GRIMERs and KOFFINGs destroy the\l"
+	.string "environment!$"
 
 
 VermilionCity2::

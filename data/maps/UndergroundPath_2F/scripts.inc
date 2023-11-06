@@ -110,7 +110,7 @@ UndergroundPath2F_Andra_Text_4:
     .string "He tenido tiempo desde mi derrota\n"
 	.string "ante la CÓNSUL de mejorar a mi\l"
 	.string "EQUIPO POKÉMON, dudo mucho que\l"
-	.string "ahora pueda vencerme, sin embargo,\l"
+	.string "ahora pueda vencerme. Sin embargo,\l"
 	.string "quiero probar si el desenlace de\l"
 	.string "nuestro primer combate en\l"
 	.string "presencia de ATLAS fue casualidad\l"

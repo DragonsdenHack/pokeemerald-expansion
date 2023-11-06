@@ -163,7 +163,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_11:
 	.string "precisamente su virtud, ninguna\l"
 	.string "otra caña te permite pescar a un\l"
 	.string "POKÉMON tan común y con tanto\l"
-	.string "potencial, ese DOMADOR a\l"
+	.string "potencial, ese DOMADOR ha\l"
 	.string "tergiversado la utilidad de mi\l"
 	.string "CAÑA VIEJA y ha hecho creer a\l"
 	.string "todos que soy un chiste en\l"
