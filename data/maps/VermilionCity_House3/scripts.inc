@@ -9,10 +9,9 @@ release
 end
 
 VermilionCity_House3_Text_1:
-.string "Me gustaría intercambiar cartas\n"
-.string "con gente de todo el mundo.\l"
-.string "Envié a mi PIDGEY a la SALA UNIÓN\l"
-.string "para hacerlo por mí.$"
+.string "I want to exchange MAIL with all sorts\n"
+	.string "of people. I send my PIDGEY to a UNION\l"
+	.string "ROOM to exchange MAIL for me.$"
 
 
 
@@ -29,9 +28,8 @@ release
 end
 
 VermilionCity_House3_Text_3:
-.string "¡Mi PIDGEY volará al norte,\n"
-.string "a CIUDAD AZAFRÁN, para llevar\l"
-.string "una carta!$"
+.string "I'm getting my PIDGEY to fly a letter to\n"
+	.string "SAFFRON in the north.$"
 
 
 
@@ -45,8 +43,6 @@ msgbox VermilionCityHouse3Documento_Text_100, MSGBOX_SIGN
 end
 
 VermilionCityHouse3Documento_Text_100:
-.string "Querido PIPPI, espero que estés\n"
-	.string "bien.\l"
-	.string "He oído que AZAFRÁN está teniendo\l"
-	.string "problemas con el TEAM ROCKET.\l"
-	.string "CARMÍN parece estar a salvo.$"
+.string "Dear PIPPI, I hope to see you soon. I\n"
+	.string "heard SAFFRON has problems with TEAM\l"
+	.string "ROCKET. VERMILION appears to be safe.$"

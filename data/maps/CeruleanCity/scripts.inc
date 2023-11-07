@@ -9,17 +9,12 @@ release
 end
 
 CeruleanCity_Text1:
-.string "Esta es la CUEVA CELESTE.\n"
-.string "Un POKÉMON terriblemente fuerte\l"
-.string "reside aquí.\l"
-.string "La entrada está prohibida para\l"
-.string "toda la población de KANTO, solo\l"
-.string "la ÉLITE 4 tiene el permiso para\l"
-.string "entrar aquí.\l"
-.string "¡Imagínate el permiso que tienes\l"
-.string "tú, ROCKET!\l"
-.string "¡Más te vale guardar las\l"
-.string "distancias!$"
+.string "This is the CERULEAN CAVE. A very\n"
+	.string "powerful POKÉMON resides here. Entry\l"
+	.string "is prohibited for the entire population\l"
+	.string "of KANTO, just the ELITE 4 has\l"
+	.string "permission to enter here. Better you\l"
+	.string "keep the distances!$"
 
 
 CeruleanCity2::
@@ -38,15 +33,13 @@ release
 end
 
 CeruleanCity_Text4:
-.string "¡Eres increíble, {PLAYER}!\n"
-.string "¿Viste su cara cuando tumbaste\l"
-.string "facilmente a sus supuestos POKÉMON\l"
-.string "de élite con EXCAVAR?\l"
-.string "Espero que nuestra recompensa haya\l"
-.string "sido de tu agrado, yo me quedaré\l"
-.string "un rato más por aquí. ¡Tranquilo,\l"
-.string "nadie va a quitarme ya esta MT\l"
-.string "EXCAVAR!$"
+.string "You are incredible, {PLAYER}! Did you\n"
+	.string "see his face when you defeated his\l"
+	.string "elite POKÉMON with DIG? I hope that\l"
+	.string "our reward would be enough of your\l"
+	.string "grace, I will stay here for a bit longer.\l"
+	.string "Be careful, no one will take off me this\l"
+	.string "TM DIG!$"
 
 
 CeruleanCity5::
@@ -57,10 +50,9 @@ release
 end
 
 CeruleanCity_Text5:
-.string "¿Eres un ROCKET?\n"
-.string "Robar, defraudar, extorsionar y\l"
-.string "mentir, ¡qué vida tan dura la\l"
-.string "vuestra!$"
+.string "You are a ROCKET? Thief, defraud,\n"
+	.string "extort and lie. It's a tough life, isn't\l"
+	.string "it?$"
 
 
 CeruleanCity6::
@@ -79,9 +71,9 @@ release
 end
 
 CeruleanCity_Text8:
-.string "¿Quieres todos los POKÉMON y todo\n"
-.string "el dinero del mundo para ti?\l"
-.string "Interesante.$"
+.string "So you want all POKÉMON and all the\n"
+	.string "money of the world for yourself?\l"
+	.string "Interesting.$"
 
 
 CeruleanCity9::
@@ -92,9 +84,8 @@ release
 end
 
 CeruleanCity_Text9:
-.string "Quiero una bici roja nueva.\n"
-.string "La mantendré en casa para que no\l"
-.string "se ensucie.$"
+.string "I want a bright red bicycle. I'll keep it\n"
+	.string "at home, so it won't get dirty.$"
 
 
 
@@ -103,8 +94,7 @@ msgbox CeruleanCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeruleanCityDocumento_Text_100:
-.string "¡Una bici nueva y brillante!$"
-
+.string "A new and shiny bicycle!$"
 
 
 CeruleanCityDocumento_101::
@@ -112,9 +102,8 @@ msgbox CeruleanCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeruleanCityDocumento_Text_101:
-.string "¡Cruza bosques y cuevas en un\n"
-	.string "suspiro!\l"
-	.string "TIENDA DE BICIS$"
+.string "Grass and caves handled easily!\n"
+	.string "BIKE SHOP$"
 
 
 
@@ -125,22 +114,18 @@ release
 end
 
 CeruleanCityDocumento_Text_102:
-	.string "CONSEJOS DE ENTRENADOR\n"
-	.string "Los POKÉMON pueden llevar objetos\l"
-	.string "equipados.\l"
-	.string "Algunos objetos pueden incluso\l"
-	.string "usarse durante el combate.$"
-
-
+	.string "TRAINER TIPS\n"
+.string "A POKéMON can be made to hold an item.\l"
+	.string "Some items can even be used by the\l"
+	.string "holding POKéMON in battle.$"
 
 CeruleanCityDocumento_103::
 msgbox CeruleanCityDocumento_Text_103, MSGBOX_SIGN   
 end
 
 CeruleanCityDocumento_Text_103:
-	.string "CIUDAD CELESTE\n"
-	.string "Una Misteriosa Aurea Azul la\l"
-	.string "rodea.$"
+	.string "CERULEAN CITY\n"
+	.string "A Mysterious, Blue Aura Surrounds It.$"
 
 
 
@@ -149,9 +134,9 @@ msgbox CeruleanCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 CeruleanCityDocumento_Text_104:
-	.string "LÍDER DE GIMNASIO DE CIUDAD\n"
-	.string "CELESTE: MISTY\l"
-	.string "¡La sirena distorsionada!$"
+	.string "CERULEAN CITY POKéMON GYM\n"
+	.string "LEADER: MISTY\l"
+	.string "The Tomboyish Mermaid!$"
 
 CeruleanCityIzq::     
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCityIzqMove1
@@ -163,10 +148,9 @@ release
 end
 
 CeruleanCity_Text_Izq:     
-    .string "(ANDRA me está esperando en la\n"
-	.string "GUARDERÍA de RUTA 5 para ver qué\l"
-	.string "quiere PETREL, no puedo largarme\l"
-	.string "ahora).$"
+.string "(ANDRA is waiting for me in ROUTE 5\n"
+	.string "DAYCARE to see what PETREL wants from\l"
+	.string "us, I can't leave her now).$"
 
 
 CeruleanCityIzqMove1:
@@ -193,17 +177,15 @@ end
 
 
 CeruleanCity_Rocket_Excavar_Text_1:
-.string "¡Hey, ROCKET!\n"
-	.string "¿Te gustaría formar parte de un buen\l"
-	.string "negocio?\l"
-	.string "Nos han encargado a mí y a otro\l"
-	.string "colega una misión en CIUDAD\l"
-	.string "CELESTE y pensamos que nos vendría\l"
-	.string "bien algo de ayuda, ¿qué dices?\l"
+.string "Hey, ROCKET! Would you like to do a good\n"
+	.string "deal? PETREL ordered me and another\l"
+	.string "GRUNT a mission on CERULEAN CITY and\l"
+	.string "we thought that would be good having\l"
+	.string "some extra help, are you in?l"
 	.string "...\l"
 	.string "...\l"
-	.string "¡Perfecto!\l"
-	.string "¡Allá vamos!$"
+	.string "Nice!\l"
+	.string "Let's go!$"
 
 CeruleanCity_Rocket_Excavar_move1:
 walk_in_place_up
@@ -231,9 +213,9 @@ release
 end
 
 CeruleanCity_Text_Abajo:     
-    .string "(Mi misión es ir al MT.MOON para\n"
-	.string "recolectar FÓSILES, no pasearme\l"
-	.string "por CIUDAD CELESTE).$"
+.string "(My mission is going to MT.MOON to\n"
+	.string "collect FOSSILS, not walking around\l"
+	.string "CERULEAN CITY).$"
 
 
 CeruleanCityAbajoMove1:
@@ -254,8 +236,8 @@ release
 end
 
 CeruleanCity_Text_Abajo_2:
-.string "(PETREL te quiere ya en su\n"
-	.string "despacho, adónde crees que vas).$"
+.string "(PETREL wants you on his office, where\n"
+	.string "are you going?).$"
 
 CeruleanCity_Nino::
 lock
@@ -265,9 +247,8 @@ release
 end
 
 CeruleanCity_Nino_Texto_1:
-.string "Mi madre dice que los hombres que\n"
-	.string "tenéis una R en vuestra ropa sois\l"
-	.string "malos.$"
+.string "My mom said that men like you that have\n"
+	.string "a R on your clothes are bad people.$"
 
 CeruleanCity_Bayas::
 lock
@@ -277,10 +258,10 @@ release
 end
 
 CeruleanCity_Bayas_Texto_1:
-.string "Valiente osado. ¿Sabías que esta\n"
-	.string "ciudad tiene la mayor base policial de\l"
-	.string "KANTO? Vamos... ROCKET, dame una\l"
-	.string "excusa para llamarla.$"
+.string "Brave daring. Did you know this city has\n"
+	.string "the biggest policial base in KANTO?.\l"
+	.string "Come on… ROCKET, just give me an\l"
+	.string "excuse to call them here.$"
 
 CeruleanCity_Nina::
 lock
@@ -290,6 +271,6 @@ release
 end
 
 CeruleanCity_Nina_Texto_1:
-.string "Mi SLOWBRO es un holgazán. Un poco de\n"
-	.string "mano dura no le vendría mal, vosotros\l"
-	.string "los ROCKET sois expertos en eso. ¿No?$"
+.string "My SLOWBRO is a lazy POKÉMON. A bit of\n"
+	.string "curtness would work, you ROCKET\l"
+	.string "probably are experts, aren't you.$"

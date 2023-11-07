@@ -68,5 +68,5 @@ msgbox Route6Documento_Text_100, MSGBOX_SIGN
 end
 
 Route6Documento_Text_100:
-	.string "ZONA SUBTERRÁNEA\n"
-	.string "CIUDAD CELESTE-CIUDAD CARMÍN$"
+	.string "UNDERGROUND PATH\n"
+	.string "CERULEAN CITY - VERMILION CITY$"

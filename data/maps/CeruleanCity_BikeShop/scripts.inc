@@ -14,8 +14,8 @@ release
 end
 
 CeruleanCity_BikeShop_Text_2:
-.string "¡Un ROCKET!\n"
-.string "¡No me hagas daño!$"
+.string "¡A ROCKET!\n"
+.string "Don't hurt me!$"
 
 
 
@@ -27,10 +27,10 @@ release
 end
 
 CeruleanCity_BikeShop_Text_3:
-.string "Nadie va a dejarte comprar una\n"
-.string "BICI con tu sucio dinero ganado de\l"
-.string "forma deshonrosa, ¡vete antes de\l"
-.string "que llame a la POLICÍA!$"
+.string "No one will let you buy a BICYCLE with\n"
+	.string "your dirty money obtained\l"
+	.string "dishonorably, get away before I call\l"
+	.string "POLICE!$"
 
 
 
@@ -39,7 +39,7 @@ msgbox CeruleanCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeruleanCityBikeShopDocumento_Text_100:
-.string "¡Una bici nueva y brillante!$"
+.string "A new and shiny bicycle!$"
 
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta::
@@ -83,58 +83,48 @@ release
 end
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_1:
-.string "Este lugar no es para mendigos\n"
-	.string "como vosotros que apenas podéis\l"
-	.string "pagar por vuestra existencia, si no\l"
-	.string "tienes el millón de POKES que\l"
-	.string "cuesta la bici básica, no pintas\l"
-	.string "nada aquí.$"
+.string "This place is not for beggar people like\n"
+	.string "you that can barely pay for your own\l"
+	.string "existence, if you don't have the million\l"
+	.string "POKES that cost the BICYCLE, this is\l"
+	.string "not your place.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
-.string "Voy a tener una charla con ese\n"
-	.string "PRESIDENTE del CLUB DE FANS, eres\l"
-	.string "el tercero que me viene mendigando\l"
-	.string "una BICI gratis gracias a ese\l"
-	.string "BONO, no importa que lo haya\l"
-	.string "pagado él antes.\l"
-	.string "¿Sabes cómo se resiente la\l"
-	.string "reputación de mi negocio al\l"
-	.string "enterarse la gente de que un par\l"
-	.string "de críos vulgares y un ROCKET van\l"
-	.string "con BICIS de mi marca?\l"
-	.string "¡Eso condiciona la decisión final\l"
-	.string "de los que de verdad me compran,\l"
-	.string "solo comprarán la BICI si saben\l"
-	.string "que es un producto que muy pocos\l"
-	.string "tienen!$"
+.string "I will have a conversation with that\n"
+	.string "FANS CLUB CHAIRMAN, you are the third\l"
+	.string "that comes asking for a new free BIKE\l"
+	.string "due to that BIKE VOUCHER, I don't care\l"
+	.string "about if he paid it before. Do you know\l"
+	.string "how my business reputation goes down\l"
+	.string "when people notice that 2 beggar kids\l"
+	.string "and a ROCKET goes with my trademark\l"
+	.string "BIKES? That affects the final decision\l"
+	.string "of those who really buy it, they will\l"
+	.string "just buy the BIKE if they know that is\l"
+	.string "a product that not many have!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_3:
 .string "...\n"
 	.string "...$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4:
-.string "¡No puede ser!\n"
-	.string "¡Un BONO BICI!\l"
-	.string "¿De dónde lo has sacado?$"
+.string "It can't be! A BIKE VOUCHER! Where did\n"
+	.string "you get it from?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5:
-.string "¿El PRESIDENTE del CLUB de FANS de\n"
-	.string "CARMÍN?\l"
-	.string "¿Y quién es él para determinar que\l"
-	.string "eso tiene validez en mi tienda?\l"
-	.string "Yo dirijo aquí un negocio no un\l"
-	.string "asilo, ¿comprendes?\l"
-	.string "No puedo dejar que vengan cada dos\l"
-	.string "por tres con un BONO de regalo,\l"
-	.string "eso supone una perdida de 1 MILLÓN\l"
-	.string "de POKÉS, algo que no ganarás en\l"
-	.string "tu vida, si esta tienda tiene\l"
-	.string "éxito es por ricachones que no\l"
-	.string "conocen el valor real de las cosas\l"
-	.string "y están dispuestos a pagar\l"
-	.string "cualquier precio por cualquier\l"
-	.string "producto, no por ladrones que\l"
-	.string "viven al día como tú.$"
+.string "The FANS CLUB CHAIRMAN from\n"
+	.string "VERMILION? And who is he to decide\l"
+	.string "that is valid in my shop? I lead a\l"
+	.string "serious business not an asylum, do you\l"
+	.string "get it? I can't let that people come\l"
+	.string "often with a gift VOUCHER, that means\l"
+	.string "a one million POKES lose, so much money\l"
+	.string "that you will never be able to have it,\l"
+	.string "if this shop is successfully it is\l"
+	.string "because rich people that doesn't know\l"
+	.string "the real value of things and they would\l"
+	.string "pay any price for any product, not for\l"
+	.string "thieves like you.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_6:
 .string "¡Has hecho que me irrite!\n"

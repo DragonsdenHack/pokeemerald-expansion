@@ -9,6 +9,6 @@ release
 end
 
 UndergroundPath3F_UndergroundPath3F_Text_1:
-.string "La gente suele perder cosas en\n"
-.string "medio de la oscuridad de la VÍA\l"
-.string "SUBTERRÁNEA.$"
+.string "People often lose things in the\n"
+	.string "darkness of the UNDERGROUND PATH.$"
+

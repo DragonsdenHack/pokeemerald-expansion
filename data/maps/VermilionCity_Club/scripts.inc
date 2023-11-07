@@ -36,8 +36,8 @@ msgbox VermilionClubDocumento_Text_100, MSGBOX_SIGN
 end
 
 VermilionClubDocumento_Text_100:
-.string "¡Escuchemos educadamente al resto\n"
-	.string "de entrenadores!$"
+.string "Let's listen politely to the rest of the\n"
+	.string "trainers!$"
 
 
 
@@ -46,8 +46,7 @@ msgbox VermilionClubDocumento_Text_101, MSGBOX_SIGN
 end
 
 VermilionClubDocumento_Text_101:
-	.string "Si alguien se rie, devuélvele la\n"
-	.string "sonrisa.$"
+	.string "If someone laughs, laugh back.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop::
 lock
@@ -102,77 +101,69 @@ end
 
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_1:
-.string "Como ROCKET debe de ser difícil el\n"
-	.string "tener que conformarse con RATATTA\l"
-	.string "y ZUBAT. Espero que no vuelvas a\l"
-	.string "poner un pie en este lugar, aquí\l"
-	.string "solo tratamos con gente\l"
-	.string "distinguida con POKÉMON que valgan\l"
-	.string "la pena. Como ese chico que hace\l"
-	.string "no mucho vino aquí con su\l"
-	.string "WARTORTLE, un gran ejemplar, sí...$"
+.string "As a ROCKET must be hard to have\n"
+	.string "enough with a RATATTA and ZUBAT. I\l"
+	.string "hope you don't come back to this place,\l"
+	.string "here we only deal with distinguished\l"
+	.string "people with worthy POKÉMON. Like that\l"
+	.string "guy who came back a few earlier with\l"
+	.string "his WARTORTLE, a good specimen, yes…$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_2:
-.string "El mundo de los POKÉMON es\n"
-	.string "inmenso, a pesar de todo lo que he\l"
-	.string "visto, no estoy ni cerca de\l"
-	.string "conocer a todos los POKÉMON que\l"
-	.string "existen.\l"
-	.string "¡POKÉMON mucho más fuertes e\l"
-	.string "impresionantes esperan ahí fuera!$"
+.string "The POKÉMON world is so big, even from\n"
+	.string "all I saw, I'm not even close to meeting\l"
+	.string "all kinds of POKÉMON that exist.\l"
+	.string "Stronger and more impressive POKÉMON\l"
+	.string "exists there!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_3:
 .string "...\n"
 	.string "...$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_4:
-.string "¿¡Me estás retando a un combate?!$"
+.string "Are you challenging me to a fight?!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_5:
-.string "Chico no sabes lo que dices, tengo\n"
-	.string "a más de 100 POKÉMON a mi\l"
-	.string "disposición, gracias a mis\l"
-	.string "incontables viajes he podido\l"
-	.string "reunir a los mejores ejemplares de\l"
-	.string "esta gran región.$"
+.string "Boy you don't know what you are asking\n"
+	.string "for, I have more than 100 POKÉMON in my\l"
+	.string "hands, I had a chance to get the best\l"
+	.string "specimens of this region by my many\l"
+	.string "journeys through this region.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_6:
-.string "¿Aún así te atreves a desafiarme?$"
+.string "Do you wanna still challenge me?$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_7:
-.string "No reconoces a un gran ENTRENADOR\n"
-	.string "cuando lo tienes delante, ¿eh?\l"
-	.string "¡Te mostraré que hay personas con\l"
-	.string "las que es mejor no cruzar POKÉ\l"
-	.string "BALLS!$"
+.string "You can't recognize a great TRAINER\n"
+	.string "when is ahead of you, eh? I will show\l"
+	.string "you that there are people that are\l"
+	.string "better off not dealing with them!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_8:
-.string "¡Mis majestuosos POKÉMON!\n"
-	.string "¿Cómo?$"
+.string "My majestic POKÉMON!\n"
+	.string "¿How?!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_9:
-.string "Vaya, pensé que con 3 POKÉMON te\n"
-	.string "derrotaría facilmente, la potencia\l"
-	.string "de mi RAPIDASH suele ser más que\l"
-	.string "suficiente para tumbar a todo\l"
-	.string "ENTRENADOR de los alrededores,\l"
-	.string "admito que estoy impresionado.$"
+.string "Well, I thought that I could've beaten\n"
+	.string "you easily with 3 POKÉMON, my RAPIDASH\l"
+	.string "potency should be more than enough to\l"
+	.string "overthrow any close TRAINER, I admit\l"
+	.string "that I am impressed.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_10:
-.string "Acepta esto como un regalo de\n"
-	.string "buena fe, podrás canjearlo en la\l"
-	.string "TIENDA DE BICIS de CIUDAD CELESTE\l"
-	.string "por una BICI nueva, seas ROCKET o\l"
-	.string "no, tu colección es de admirar.$"
+.string "Accept this as a good faith gift, you\n"
+	.string "could exchange it at the BICYCLE SHOP\l"
+	.string "in CERULEAN CITY for a new BIKE, even\l"
+	.string "if you are a ROCKET or not, your\l"
+	.string "collection is impressive.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_11:
-.string "¡{PLAYER} recibió el BONO BICI\n"
-	.string "de manos del PRESIDENTE!$"
+.string "{PLAYER} received a BIKE VOUCHER\n"
+	.string "from the CHAIRMAN!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_12:
-.string "Chico listo, si te portas bien y\n"
-	.string "desapareces no llamaré a la\l"
-	.string "policía.$"
+.string "Clever boy, if you behave well I won't\n"
+	.string "call the police.$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Move_1:
 emote_exclamation_mark
@@ -220,16 +211,13 @@ release
 end
 
 VermilionCity_Tercer_NPC_Texto_1:
-.string "¿Quién eres tú?\n"
-	.string "¡No mereces compartir espacio con\l"
-	.string "nosotros!$"
+.string "Who are you? You don't deserve to stay\n"
+	.string "in this place!$"
 
 VermilionCity_Tercer_NPC_Texto_2:
-.string "¡Eso ha sido increíble!\n"
-	.string "¡Queda claro que los grandes\l"
-	.string "entrenadores pueden venir de\l"
-	.string "cualquier lugar!\l"
-	.string "¡Incluso del TEAM ROCKET!$"
+.string "That was amazing! The great TRAINERS\n"
+	.string "can come from everywhere! Even from\l"
+	.string "TEAM ROCKET!$"
 
 
 
@@ -248,14 +236,13 @@ release
 end
 
 VermilionCity_Cuarto_NPC_Texto_1:
-.string "Espero no tener que recurrir a mi\n"
-	.string "SNORLAX ROCKET, a la mínima\l"
-	.string "acabarás aplastado así que cuida\l"
-	.string "tus modales.$"
+.string "I hope to not use my SNORLAX, ROCKET,\n"
+	.string "to any move you will end up crushed so\l"
+	.string "be careful about your manners.$"
 
 VermilionCity_Cuarto_NPC_Texto_2:
-.string "Vaya, pensaba que nuestro\n"
-	.string "PRESIDENTE era más fuerte...$"
+.string "Wow, I thought our CHAIRMAN was much\n"
+	.string "stronger…$"
 
 
 
@@ -274,13 +261,12 @@ release
 end
 
 VermilionCity_Segundo_NPC_Texto_1:
-.string "Sé educado y muestra respeto a la\n"
-	.string "hora de dirijirte a nuestro\l"
-	.string "PRESIDENTE, si quisiera te\l"
-	.string "enterraría a ti junto con el resto\l"
-	.string "del TEAM ROCKET.$"
+.string "Be polite and show respect when you\n"
+	.string "talk to our CHAIRMAN, if he wants to, he\l"
+	.string "would bury you with all the TEAM\l"
+	.string "ROCKET.$"
 
 
 VermilionCity_Segundo_NPC_Texto_2:
-.string "No esperaba que nuestro PRESIDENTE\n"
-	.string "perdiera...$"
+.string "I didn't expect our CHAIRMAN could be\n"
+	.string "defeated…$"
