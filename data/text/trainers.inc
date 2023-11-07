@@ -4781,72 +4781,67 @@ Route134_Text_HudsonPostBattle:
 	.string "worried about him.$"
 
 RocketWarehouse_Text_IsaacIntro:
-    .string "Aquí en ISLA INTA tenemos por\n"
-	.string "costumbre probar las habilidades\l"
-	.string "de los nuevos reclutas nada más\l"
-	.string "empezar.\l"
-	.string "¡En guardia!$"
+.string "Here in FIVE ISLAND is a habit to\n"
+    .string "testing the skills of new recruits,\l"
+    .string "right out of the gate. On guard!$"
 
 
 
 RocketWarehouse_Text_IsaacDefeated:
-    .string "Bien, recluta. Sigue adelante.$"
+  .string "Good job recruit, go ahead.$"
 
 
 
 RocketWarehouse_Text_IsaacPostBattle:
-    .string "No todos los que estábais en la\n"
-	.string "presentación acabaréis siendo\l"
-	.string "merecedores de pertenecer a\l"
-	.string "nuestra organización, tú por el\l"
-	.string "momento te estás salvando.$"
+.string "Not all of you who were at the\n"
+    .string "presentation will be worthy of\l"
+    .string "belonging to the organization, you are\l"
+    .string "fine for the moment.$"
+
 
 
 
 RocketWarehouse_Text_ReclutaIntro:
-    .string "La confidencialidad de nuestro\n"
-	.string "ALMACÉN subterráneo es vital.$"
-
-
+.string "The confidentiality of our underground\n"
+    .string "WAREHOUSE is vital.$"
 
 RocketWarehouse_Text_ReclutaDefeated:
-    .string "Parece que los RECLUTAS de este\n"
-	.string "año vienen fuertes.$"
-
-
+.string "Seems like new RECRUITS from this year\n"
+    .string "are strong.$"
 
 RocketWarehouse_Text_ReclutaPostBattle:
-   .string "En caso de invasión, colocaríamos\n"
-	.string "las celdas de al lado de forma que\l"
-	.string "taparían el acceso a las escaleras\l"
-	.string "que dan a nuestro subterráneo\l"
-	.string "secreto, nadie puede acceder a uno\l"
-	.string "de nuestros centros de exportación\l"
-	.string "principales.$"
+    .string "In case of invasion, we would place the\n"
+    .string "cells next to the stairs so they would\l"
+    .string "block access to the stairs that lead\l"
+    .string "to our secret basement. No one can\l"
+    .string "access one of our main import centers.$"
+
 
 
 
 RocketWarehouse_Text_Isaac_4Intro:
-    .string "De modo que ATLAS te ha convocado\n"
-	.string "en su despacho junto con los otros\l"
-	.string "tres reclutas que se quedan\l"
-	.string "aquí...\l"
-	.string "¡Lo que no te ha dicho es que\l"
-	.string "vamos a poneros a prueba antes!$"
+    .string "So ARCHER has called you to his office\n"
+    .string "along with the other three recruits\l"
+    .string "who are staying here... But he hasn't\l"
+    .string "told you is that we are going to test\l"
+    .string "you first!$"
+
 
 
 
 RocketWarehouse_Text_Isaac_4Defeated:
-    .string "Esto es lo que esperamos de\n"
-	.string "vosotros.$"
+    .string "This is what we expect from you,\n"
+    .string "recruits.$"
+
 
 
 
 RocketWarehouse_Text_Isaac_4PostBattle:
-    .string "ATLAS os tiene reservada una\n"
-	.string "misión especial aquí en ISLA INTA,\l"
-	.string "aprovechad esta oportunidad que a\l"
-	.string "pocos se les da.$"
+    .string "ARCHER has a special mission for you,\n"
+    .string "here on FIVE ISLAND, take this\l"
+    .string "opportunity that not a much people\l"
+    .string "has.$"
+
 
 
 

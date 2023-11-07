@@ -14,10 +14,10 @@ release
 end
 
 RocketWarehouse_Text_3:
-.string "Por la energía que desprende esta\n"
-.string "POKÉ BALL, se ve a leguas que hay\l"
-.string "un POKÉMON bastante potente en su\l"
-.string "interior…$"
+    .string "By the energy that this POKE BALL gives\n"
+    .string "off, clearly see that there is a quite\l"
+    .string "powerful POKEMON inside…$"
+
 
 
 
@@ -241,9 +241,10 @@ release
 end
 
 RocketWarehouse_Text_9:
-.string "El control de datos es el petróleo\n"
-.string "del siglo XXI chaval, ¡el que lo\l"
-.string "controle dominará el mundo!$"
+    .string "Data control is 21 century oil, who is\n"
+    .string "able to control it, will dominate the\l"
+    .string "entire world!$"
+
 
 
 
@@ -270,10 +271,10 @@ release
 end
 
 RocketWarehouse_Text_13:
-.string "Por la energía que desprende esta\n"
-.string "POKÉ BALL, se ve a leguas que hay\l"
-.string "un POKÉMON bastante potente en su\l"
-.string "interior…$"
+    .string "By the energy that this POKE BALL gives\n"
+    .string "off, clearly see that there is a quite\l"
+    .string "powerful POKEMON inside…$"
+
 
 
 
@@ -285,11 +286,11 @@ release
 end
 
 RocketWarehouse_Text_14:
-.string "El TEAM ROCKET no escatima en\n"
-.string "gastos de investigación,\l"
-.string "innovación y desarrollo.\l"
-.string "¡Por eso somos la organización\l"
-.string "referente de KANTO!$"
+    .string "TEAM ROCKET does not skimp on\n"
+    .string "research, innovation and development\l"
+    .string "expenses. That's why we are a\l"
+    .string "reference organization on KANTO!$"
+
 
 
 
@@ -301,9 +302,9 @@ release
 end
 
 RocketWarehouse_Text_15:
-.string "¡Mi vida de criminal me hace\n"
-.string "sentir tan vivo!\l"
-.string "¿No sientes lo mismo, colega?$"
+    .string "My life as a criminal makes me feel so\n"
+    .string "alive! Do you feel the same, mate?$"
+
 
 
 
@@ -315,10 +316,10 @@ release
 end
 
 RocketWarehouse_Text_16:
-.string "Estoy de guardia por si las\n"
-.string "moscas, a los niños de hoy en día\l"
-.string "les gusta meter las narices donde\l"
-.string "no les llaman.$"
+    .string "I'm on guard just in case, some kids\n"
+    .string "these days like to be nosy where they\l"
+    .string "shouldn't be$"
+
 
 RocketWarehouse_EventScript_Isaac::
 	trainerbattle_single TRAINER_ISAAC_5, RocketWarehouse_Text_IsaacIntro, RocketWarehouse_Text_IsaacDefeated
@@ -366,10 +367,10 @@ msgbox RocketWarehouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 RocketWarehouseDocumento_Text_100:
-	.string "Por la energía que desprende esta\n"
-	.string "POKÉ BALL, se ve a leguas que hay\l"
-	.string "un POKÉMON bastante potente en su\l"
-	.string "interior...$"
+    .string "By the energy that this POKE BALL gives\n"
+    .string "off, clearly see that there is a quite\l"
+    .string "powerful POKEMON inside…$"
+
 
 
 
@@ -378,10 +379,10 @@ msgbox RocketWarehouseDocumento_Text_101, MSGBOX_SIGN
 end
 
 RocketWarehouseDocumento_Text_101:
-	.string "Por la energía que desprende esta\n"
-	.string "POKÉ BALL, se ve a leguas que hay\l"
-	.string "un POKÉMON bastante potente en su\l"
-	.string "interior...$"
+    .string "By the energy that this POKE BALL gives\n"
+    .string "off, clearly see that there is a quite\l"
+    .string "powerful POKEMON inside…$"
+
 
 
 RocketWarehouseDocumento_102::
@@ -457,28 +458,29 @@ end
 
 
 RocketWarehouseSoldado_Text_Soldado1:
-.string "No tan rápido, ATLAS me ha pedido\n"
-	.string "expresamente que me encargue de los\l"
-	.string "4 RECLUTAS novatos, solo\l"
-	.string "venciéndome te ganarás el derecho\l"
-	.string "de competir por una misión\l"
-	.string "exclusiva, de momento 2 de los 3\l"
-	.string "RECLUTAS ya han perdido esa\l"
-	.string "oportunidad puesto que les he\l"
-	.string "vencido.\l"
-	.string "¡Tú eres el último por examinar!$"
+    .string "Not so fast, ARCHER has expressly\n"
+    .string "asked me to take care of the 4 new\l"
+    .string "RECRUITS, only by defeating me, you\l"
+    .string "will earn the right to compete for an\l"
+    .string "exclusive mission, actually 2 of the 3\l"
+    .string "RECRUITS have already lost that\l"
+    .string "opportunity since I have defeated\l"
+    .string "them . You are the last one to examine!$"
+
 
 
 RocketWarehouseSoldado_Text_Soldado2:
-.string "Vaya, tenemos dos RECLUTAS que\n"
-	.string "valen la pena para variar.$"
+    .string "Wow, so we have 2 RECRUITS that are\n"
+    .string "worthy. Interesting.$"
+
 
 
 RocketWarehouseSoldado_Text_Soldado3:
-.string "ATLAS te está esperando junto con\n"
-	.string "el otro ROCKET que ha podido\l"
-	.string "vencerme, pasa y conoce los\l"
-	.string "detalles de tu misión.$"
+    .string "ARCHER is waiting for you and the other\n"
+    .string "ROCKET who was able to defeat me, go\l"
+    .string "ahead and listen carefully to the\l"
+    .string "details of the mission$"
+
 
 
 RocketWarehouse_Soldadomove1:
@@ -618,109 +620,101 @@ walk_in_place_right
 step_end
 
 RocketWarehouse_Text_MisionAtlas1:
-.string "ATLAS: Bien, parece que no\n"
-	.string "esperamos a nadie más, seréis\l"
-	.string "vosotros dos los que tendréis la\l"
-	.string "oportunidad de comenzar con buen\l"
-	.string "pie en esta organización, os daré\l"
-	.string "los detalles de vuestra misión,\l"
-	.string "escuchad.$"
+.string "Well, it looks like we are not expecting\n"
+    .string "anyone else, it will be you two who will\l"
+    .string "have the opportunity to get off to a\l"
+    .string "good start in this organization, I will\l"
+    .string "give you the details of your mission,\l"
+    .string "listen up.$" 
 
 RocketWarehouse_Text_MisionAtlas2:
-.string "Al norte de esta isla, en la ZONA\n"
-	.string "RECREO, ha instalado recientemente\l"
-	.string "su casa la nueva CÓNSUL del lugar,\l"
-	.string "encargada de tramitar las\l"
-	.string "relaciones de KANTO con las ISLAS\l"
-	.string "SETE.\l"
-	.string "En su día nosotros movimos ciertos\l"
-	.string "hilos para lograr que la enviasen\l"
-	.string "aquí, todo para obtener carta\l"
-	.string "blanca para realizar todo tipo de\l"
-	.string "exportaciones a KANTO sin pasar\l"
-	.string "aduanas ni ningún tipo de\l"
-	.string "impuesto, lo cual nos ha venido\l"
-	.string "perfecto para nuestro negocio.$"
+.string "To the north of this island, in the\n"
+    .string "RESORT GORGEOUS, the new local CONSUL,\l"
+    .string "who is in charge of handling KANTO's\l"
+    .string "relations with the SEVII ISLANDS, has\l"
+    .string "recently set up house here. At the time\l"
+    .string "we pulled some strings to get her sent\l"
+    .string "here, all in order to obtain carte\l"
+    .string "blanche to carry out all kinds of\l"
+    .string "exports to KANTO without passing\l"
+    .string "customs or any kind of tax, which has\l"
+    .string "been perfect for our business.$"
+
 
 RocketWarehouse_Text_MisionAtlas3:
-.string "Sin embargo, últimamente ha\n"
-	.string "cortado su relación con nosotros,\l"
-	.string "y tenemos indicios de que pueda en\l"
-	.string "cualquier momento informar a las\l"
-	.string "autoridades de KANTO de nuestros\l"
-	.string "movimientos en las ISLAS SETE, lo\l"
-	.string "que disminuiría mucho la\l"
-	.string "rentabilidad de nuestro negocio\l"
-	.string "aquí.$"
+.string "However, he has recently cut his ties\n"
+    .string "with us, and we have indications that\l"
+    .string "he may at any time inform the KANTO\l"
+    .string "authorities of our movements in the\l"
+    .string "SEVII ISLANDS, which would greatly\l"
+    .string "diminish the profitability of our\l"
+    .string "business here.$"
+
 
 RocketWarehouse_Text_MisionAtlas4:
-.string "Vuestra misión es clara, ir allí y\n"
-	.string "hacerle recordar gracias a quién\l"
-	.string "está donde actualmente está, es\l"
-	.string "decir nosotros.\l"
-	.string "Hacedle ver que tiene nuestro\l"
-	.string "apoyo, ofrecedle ser accionista de\l"
-	.string "nuestra empresa, debido a su\l"
-	.string "posición dejadle claro que\l"
-	.string "dispondrá de una serie de\l"
-	.string "privilegios y ofertas\l"
-	.string "especiales.$"
+.string "Your mission is clear, go there and make\n"
+    .string "her remember thanks to who is where\l"
+    .string "she currently is, that is us. Make her\l"
+    .string "see that she has our support, offer\l"
+    .string "her to be a shareholder of our company,\l"
+    .string "make it clear to her that she will have\l"
+    .string "a series of privileges and special\l"
+    .string "offers due to her position.$"
+
 
 RocketWarehouse_Text_MisionAtlas5:
-.string "Si aún así se niega, y deja claro\n"
-	.string "que dará el chivatazo a las\l"
-	.string "autoridades de nuestros\l"
-	.string "movimientos, no le déis cuartel,\l"
-	.string "nadie amenaza al TEAM ROCKET, en\l"
-	.string "ese caso deberéis silenciarla\l"
-	.string "derrotándola en un combate, acabad\l"
-	.string "con todos sus POKÉMON TIPO AGUA\l"
-	.string "para evitar que huya usando SURF,\l"
-	.string "una vez hecho eso, nosotros nos\l"
-	.string "encargaremos del resto.$"
+.string "If she still refuses, and makes it clear\n"
+    .string "that she will inform the authorities of\l"
+    .string "our plans, show no mercy, no one\l"
+    .string "threatens TEAM ROCKET, in that case\l"
+    .string "you must silence her by defeating her\l"
+    .string "in a fight, defeat all her WATER TYPE\l"
+    .string "POKEMONS to prevent her from running\l"
+    .string "away using SURF, once that is done, we\l"
+    .string "will take care of the rest.$"
+
 
 RocketWarehouse_Text_MisionAtlas6:
-.string "Suficiente charla, antes de daros\n"
-	.string "las herramientas para afrontar la\l"
-	.string "misión, quiero veros combatir aquí\l"
-	.string "y ahora, debo asegurarme en\l"
-	.string "persona de que cumplís un nivel\l"
-	.string "mínimo de competencia.\l"
-	.string "¡Mostradme lo que habéis\l"
-	.string "aprendido!$"
+.string "Enough talk, before I give you the\n"
+    .string "tools to face up to the mission, I want\l"
+    .string "to see you fight here and now, I must\l"
+    .string "make sure in person that you meet a\l"
+    .string "minimum level of competence. Show me\l"
+    .string "what you have learned!$"
+
 
 RocketWarehouse_Text_MisionAtlas7:
-.string "Ya he derrotado a los otros dos\n"
-	.string "reclutas antes, no hay forma de\l"
-	.string "que tú puedas derrotarme.\l"
-	.string "¡He entrenado más que tú!$"
+.string "I've defeated the other two recruits\n"
+    .string "before, there's no way you can beat me,\l"
+    .string "I've trained harder than you!$"
+
 
 RocketWarehouse_Text_MisionAtlas8:
-.string "¿Cómo?\n"
-	.string "¿Tu ZUBAT es más fuerte que el\l"
-	.string "mío?$"
+.string "How? Is your ZUBAT stronger than mine?$"
 
 RocketWarehouse_Text_MisionAtlas9:
-.string "No tiene sentido, ¿por qué has\n"
-	.string "vencido si partimos de las mismas\l"
-	.string "condiciones?$"
+.string "It doesn't make sense, why did you beat\n"
+.string "me if we started from the same\l"
+.string "conditions?$"
+
 
 RocketWarehouse_Text_MisionAtlas10:
-.string "Suficiente, espero que entrenéis\n"
-	.string "más por los alrededores, os\l"
-	.string "vendría bien otro POKÉMON aparte\l"
-	.string "de ZUBAT si queréis ser\l"
-	.string "competentes. Os informo de que por\l"
-	.string "el prado podréis encontrar\l"
-	.string "MEOWTH, PIDGEY, RATTATA, SENTRET e\l"
-	.string "incluso VULPIX o PSYDUCK si sabéis\l"
-	.string "buscar, y es aquí donde viene la\l"
-	.string "segunda parte de la misión.\l"
-	.string "Para llegar a ZONA RECREO\l"
-	.string "necesitáis tener un POKÉMON con\l"
-	.string "SURF, es sabido que los SENTRET\l"
-	.string "del prado son famosos por conocer\l"
-	.string "este movimiento...$"
+.string "Enough, I hope you will train more in the\n"
+.string "surrounding area, you could use\l"
+.string "another POKEMON apart from ZUBAT if\l"
+.string "you want to be competent, I inform you\l"
+.string "that in the meadow you can find\l"
+.string "MEOWTH, PIDGEY, RATTATA, SENTRET and\l"
+.string "even VULPIX or PSYDUCK if you know how\l"
+.string "to look for them, and this is where the\l"
+.string "second part of the mission comes. To\l"
+.string "get to RESORT GORGEOUS you need to\l"
+.string "have a POKEMON with SURF, it is known\l"
+.string "that the SENTRET of the meadow are\l"
+.string "famous for knowing this move, what you\l"
+.string "will do is capture one that will help you\l"
+.string "to get there, use this to do it.$"
+
 
 RocketWarehouse_Text_MisionAtlas10_1:
 .string "Antiguamente, los ROCKET atrapaban uno\n"
@@ -760,32 +754,29 @@ RocketWarehouse_Text_MisionAtlas10_6:
 	.string "SENTRET.$"
 
 RocketWarehouse_Text_MisionAtlas11:
-	.string "No debéis preocuparos por tener\n"
-	.string "problemas al usar SURF, somos del\l"
-	.string "TEAM ROCKET, no estamos sujetos a\l"
-	.string "ese estúpido código de tener\l"
-	.string "determinadas medallas para usar\l"
-	.string "MOs, las usaréis cuando lo\l"
-	.string "requiráis y punto.$"
+.string "You don't have to worry about having\n"
+.string "problems using SURF, we are TEAM\l"
+.string "ROCKET, we are not bound by that\l"
+.string "stupid code of having certain medals\l"
+.string "to use MOs, you will use them when you\l"
+.string "need them and that's it.$"
 
 RocketWarehouse_Text_MisionAtlas12:
-.string "Ya no tengo nada más que deciros,\n"
-	.string "volved aquí cuando hayáis cumplido\l"
-	.string "la misión y recordad: las\l"
-	.string "oportunidades hay que cogerlas en el\l"
-	.string "momento o perderlas para siempre.\l"
-	.string "Podéis retiraros.$"
+.string "I have nothing more to say to you, come\n"
+.string "back here when you have accomplished\l"
+.string "your mission, you may leave.$"
 
 RocketWarehouse_Text_MisionAtlas13:
-.string "¡A LA ÓRDEN ADMIN.JEFE ATLAS!$"
+ .string "At your service, ADMIN.ARCHER!$"
 
 RocketWarehouse_Text_MisionAtlas14:
-.string "Nos vemos en CASA CÓNSUL, no\n"
-	.string "voy a permitir que otro RECLUTA se\l"
-	.string "me adelante.\l"
-	.string "¡Yo le dejaré las cosas claras y\l"
-	.string "obtendré la recompensa por cumplir\l"
-	.string "la misión! ¡No te necesito!$"
+.string "We'll meet at the CONSUL'S HOUSE. I\n"
+.string "won't allow another RECRUIT to get\l"
+.string "ahead of me. I will make things clear\l"
+.string "with her and get the reward for\l"
+.string "completing the mission. I don't need\l"
+.string "you!$"
+
 
 RocketWarehouseMisionAtlasmove1:
 walk_up
