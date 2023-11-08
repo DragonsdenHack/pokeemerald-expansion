@@ -1456,5 +1456,5 @@ const u8 gSpeciesNames[][POKEMON_NAME_LENGTH + 1] = {
     [SPECIES_DUDUNSPARCE_EVO] = _("Wrongsparc"),
     [SPECIES_GOROCHU] = _("Gorochu"),
     [SPECIES_WARTILLERY] = _("Wartillery"),
-    [SPECIES_QWOLTFISH] = _("Qwoltfish"),
+    [SPECIES_QWOLTFISH] = _("Shibirefugu"),
 };

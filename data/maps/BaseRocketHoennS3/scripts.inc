@@ -1017,7 +1017,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Qwoltfish_Texto_1:
-    .string "QWOLTFISH\p"
+    .string "SHIBIREFUGU\p"
 	.string "PS: 95\n"
 	.string "ATAQUE: 65\l"
 	.string "DEFENSA: 65\l"
