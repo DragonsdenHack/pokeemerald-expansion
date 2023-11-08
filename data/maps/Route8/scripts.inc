@@ -136,8 +136,8 @@ msgbox Route8Documento_Text_100, MSGBOX_SIGN
 end
 
 Route8Documento_Text_100:
-	.string "ZONA SUBTERRÁNEA\n"
-	.string "CIUDAD AZULONA - PUEBLO LAVANDA$"
+.string "UNDERGROUND PATH\n"
+    .string "CELADON CITY - LAVENDER TOWN$"
 
 Route8_EventScript_Gemela1::
 	trainerbattle_single TRAINER_AMY_AND_LIV_3, Route8_Text_Gemela1Intro, Route8_Text_Gemela1Defeated

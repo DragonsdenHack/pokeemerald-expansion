@@ -9,10 +9,10 @@ release
 end
 
 PokemonTower2F_Text_2:
-.string "Ni siquiera pudimos identificar a\n"
-.string "los GHOST.\l"
-.string "Quizás un SCOPE SILPH pueda\l"
-.string "desenmascararlos.$"
+.string "Even we could not identify the\n"
+    .string "wayward ghosts.\p"
+    .string "A SILPH SCOPE might be able to\n"
+    .string "unmask them.$"
 
 PokemonTower2F_1::
 lock     

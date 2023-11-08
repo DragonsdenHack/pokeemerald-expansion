@@ -9,9 +9,9 @@ release
 end
 
 PokemonTower1F_Text_1:
-.string "Soy una exorcista, siento la\n"
-.string "presencia de espíritus malvados en\l"
-.string "lo alto de esta torre…$"
+.string "I am a CHANNELER.\p"
+    .string "There are spirits up to mischief.\n"
+    .string "I sense them high in the TOWER.$"
 
 
 
@@ -23,9 +23,8 @@ release
 end
 
 PokemonTower1F_Text_2:
-.string "La TORRE POKÉMON fue construida en\n"
-.string "memoria de los POKÉMON que\l"
-.string "fallecieron.$"
+.string "POKéMON TOWER was erected in the\n"
+    .string "memory of POKéMON that died.$"
 
 
 
@@ -37,8 +36,8 @@ release
 end
 
 PokemonTower1F_Text_3:
-.string "Mi GROWLITHE…\n"
-.string "¿Por qué moriste?$"
+.string "My GROWLITHE…\n"
+    .string "Why did you die?$"
 
 
 

@@ -163,7 +163,7 @@ msgbox Route11Documento_Text_100, MSGBOX_SIGN
 end
 
 Route11Documento_Text_100:
-	.string "CUEVA DIGGLET$"
+.string "DIGLETT'S CAVE$"
 
 
 Route11_Policias::

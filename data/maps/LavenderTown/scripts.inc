@@ -27,10 +27,10 @@ release
 end
 
 LavenderTown_Text2:
-.string "Este pueblo es conocido como el\n"
-.string "lugar de descanso de los POKÉMON.\l"
-.string "En la TORRE POKÉMON se llevan a\l"
-.string "cabo actos conmemorativos.$"
+.string "This town is known as the grave\n"
+    .string "site of POKéMON.\p"
+    .string "Memorial services are held in\n"
+    .string "POKéMON TOWER.$"
 
 
 
@@ -39,7 +39,8 @@ msgbox LavenderTownDocumento_Text_100, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_100:
-.string "CASA DE VOLUNTARIOS DE LAVANDA$"
+.string "LAVENDER VOLUNTEER\n"
+    .string "POKéMON HOUSE$"
 
 
 
@@ -48,9 +49,9 @@ msgbox LavenderTownDocumento_Text_101, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_101:
-.string "¡Nuevo SILPH SCOPE!\n"
-	.string "¡Hace visible lo invisible!\p"
-	.string "SILPH CO.$"
+.string "New SILPH SCOPE!\n"
+    .string "Make the Invisible Plain to See!\p"
+    .string "SILPH CO.$"
 
 
 
@@ -59,8 +60,8 @@ msgbox LavenderTownDocumento_Text_102, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_102:
-	.string "PUEBLO LAVANDA\n"
-	.string "El noble pueblo púrpura.$"
+.string "LAVENDER TOWN\n"
+    .string "The Noble Purple Town$"
 
 
 
@@ -69,9 +70,8 @@ msgbox LavenderTownDocumento_Text_103, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_103:
-	.string "TORRE POKÉMON\n"
-	.string "Reposo de los espíritus caídos$"
-
+.string "POKéMON TOWER\n"
+    .string "Becalm the Spirits of POKéMON$"
 
 LavenderTown_3::
 lock
@@ -86,7 +86,7 @@ end
 
 
 LavenderTown_3_Text_3YesNo:
-    .string "¿Crees en los GHOSTS?$"
+.string "Do you believe in ghosts?$"
 
 
 LavenderTown_3No::
@@ -96,15 +96,13 @@ end
 
 
 LavenderTown_3_Text_3Yes:
-    .string "¿En serio?\n"
-	.string "Hay quien no cree...$"
-
-
+.string "Really?\n"
+    .string "So there are believers…$"
 
 LavenderTown_3_Text_3No:
-	.string "Hahaha, ya lo sabía.\n"
-	.string "Esa mano blanca detrás de tu\l"
-	.string "hombro no es real.$"
+.string "Hahaha, I guess not.\p"
+    .string "That white hand on your shoulder…\n"
+    .string "I'm just imagining it.$"
 
 LavenderTown_Barrera_Mision_Kangaskhan::
 compare VAR_UNUSED_0x40F7, 54

@@ -38,9 +38,9 @@ msgbox Route16Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route16Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
-	.string "¡Es el CENTRO COMERCIAL\n"
-	.string "de CIUDAD AZULONA!$"
+.string "Let's see what the binoculars have\n"
+    .string "to show…\p"
+    .string "It's the CELADON DEPT. STORE!$"
 
 
 

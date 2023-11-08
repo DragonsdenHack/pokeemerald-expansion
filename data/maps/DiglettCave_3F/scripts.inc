@@ -9,6 +9,7 @@ release
 end
 
 DiggletCave3F_Text_1:
-.string "Esta cueva fue construida por\n"
-.string "DIGLETTS y DUGTRIOS, llega hasta\l"
-.string "las afueras de CIUDAD PLATEADA.$"
+.string "Well, isn't this a surprise!\n"
+    .string "DIGLETT dug this long tunnel!\p"
+    .string "It goes right to VIRIDIAN CITY,\n"
+    .string "they tell me.$"

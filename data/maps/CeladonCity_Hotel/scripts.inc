@@ -24,8 +24,8 @@ release
 end
 
 CeladonCity_Hotel_Text_2:
-.string "¿Por qué ha tenido que traerse a\n"
-.string "su hermano?$"
+.string "Why?\n"
+    .string "Why did she bring her brother?$"
 
 
 

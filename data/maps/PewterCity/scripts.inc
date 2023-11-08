@@ -82,12 +82,11 @@ msgbox PewterCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_102:
-	.string "¡Aviso!\n"
-	.string "Unos ladrones han estado robando\l"
-	.string "fósiles en el MT.MOON.\l"
-	.string "Por favor, contactar con la\l"
-	.string "policía si disponen de alguna\l"
-	.string "información.$"
+.string "NOTICE!\p"
+    .string "Thieves have been stealing POKéMON\n"
+    .string "fossils from MT. MOON.\p"
+    .string "Please call the PEWTER POLICE if\n"
+    .string "you have any information.$"
 
 
 
@@ -126,8 +125,8 @@ end
 
 
 PewterCity_3_Text_3YesNo:
-    .string "¡Psssst!\n"
-	.string "¿Sabes qué estoy haciendo?$"
+.string "Psssst!\n"
+    .string "Do you know what I'm doing?$"
 
 
 PewterCity_3No::
@@ -137,15 +136,14 @@ end
 
 
 PewterCity_3_Text_3Yes:
-    .string "¡Así es!\n"
-	.string "¡Es un duro trabajo!$"
+.string "That's right!\n"
+    .string "It's hard work!$"
 
 
 
 PewterCity_3_Text_3No:
-	.string "¡Estoy rociando Repelente para\n"
-	.string "mantener a los Pokémon salvajes\l"
-	.string "alejados de mi jardín!$"
+.string "I'm spraying REPEL to keep wild\n"
+    .string "POKéMON out of my garden!$"
 
 PewterCity_Petrel_2::
 lockall

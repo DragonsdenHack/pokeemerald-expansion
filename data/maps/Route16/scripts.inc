@@ -168,8 +168,8 @@ msgbox Route16Documento_Text_100, MSGBOX_SIGN
 end
 
 Route16Documento_Text_100:
-	.string "RUTA 16\n"
-	.string "CIUDAD AZULONA - CIUDAD FUCSIA$"
+.string "ROUTE 16\n"
+    .string "CELADON CITY - FUCHSIA CITY$"
 
 
 
@@ -178,8 +178,8 @@ msgbox Route16Documento_Text_101, MSGBOX_SIGN
 end
 
 Route16Documento_Text_101:
-	.string "¡Disfruta de la pendiente!\n"
-	.string "CAMINO BICIS$"
+	.string "Enjoy the slope!\n"
+    .string "CYCLING ROAD$"
 
 
 

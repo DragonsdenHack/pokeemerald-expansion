@@ -8,4 +8,4 @@ msgbox CeladonMansion4FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonMansion4FDocumento_Text_100:
-	.string "¡LO SÉ TODO!$"
+.string "I KNOW EVERYTHING!$"

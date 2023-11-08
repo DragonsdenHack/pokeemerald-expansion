@@ -9,10 +9,10 @@ release
 end
 
 CeladonCity_Shop3F_Text_1:
-.string "¡Los POKéMON capturados tienen un\n"
-.string "N.º IDENTIDAD y un EO, el nombre\p"
-.string "del ENTRENADOR ORIGINAL\n"
-.string "que lo atrapó!$"
+.string "Captured POKéMON are registered\n"
+    .string "with an ID No. and the OT.\p"
+    .string "OT stands for “Original TRAINER” -\n"
+    .string "the TRAINER that caught it first.$"
 
 
 
@@ -29,8 +29,8 @@ release
 end
 
 CeladonCity_Shop3F_Text_3:
-.string "¡Puedes identificar a los POKéMON\n"
-.string "que hayas cambiado por su N.º ID!$"
+.string "You can identify POKéMON you get\n"
+    .string "in trades by their ID Numbers.$"
 
 
 
@@ -42,9 +42,9 @@ release
 end
 
 CeladonCity_Shop3F_Text_4:
-.string "¡Muy bien!\p"
-.string "¡Mi compañero va a cambiarme su\n"
-.string "KANGASKHAN por mi GRAVELER!$"
+.string "All right!\p"
+    .string "My buddy's going to trade me his\n"
+    .string "KANGASKHAN for my HAUNTER!$"
 
 
 
@@ -56,12 +56,12 @@ release
 end
 
 CeladonCity_Shop3F_Text_5:
-.string "¡Un GRAVELER!\p"
-.string "¡Me gustan los GRAVELER!\n"
-.string "¡Los colecciono!\p"
-.string "¿Qué?\p"
-.string "¡GRAVELER se transformó en otro\n"
-.string "POKéMON!$"
+.string "Come on, HAUNTER!\p"
+    .string "I love HAUNTER!\n"
+    .string "I collect them!\p"
+    .string "Huh?\p"
+    .string "HAUNTER turned into a different\n"
+    .string "POKéMON while being traded!$"
 
 
 
@@ -70,7 +70,7 @@ msgbox CeladonShop3FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_100:
-.string "P2: VIDEOJUEGOS$"
+.string "3F: TV GAME SHOP$"
 
 
 
@@ -79,8 +79,8 @@ msgbox CeladonShop3FDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_101:
-.string "¡Rojo y Verde!\n"
-	.string "¡Dos juegos de POKéMON!$"
+.string "Red and Green!\n"
+    .string "Both are POKéMON!$"
 
 
 
@@ -90,7 +90,7 @@ msgbox CeladonShop3FDocumento_Text_102, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_102:
-.string "¡Es una SUPER NINTENDO!$"
+.string "It's a Super NES.$"
 
 
 
@@ -99,8 +99,8 @@ msgbox CeladonShop3FDocumento_Text_103, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_103:
-.string "Un juego de rol.\n"
-	.string "¡Genial! ¡Pero no tengo tiempo!$"
+.string "An RPG!\n"
+    .string "There's no time for that!$"
 
 
 
@@ -109,18 +109,16 @@ msgbox CeladonShop3FDocumento_Text_104, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_104:
-	.string "¡Un juego de deportes!$"
-
-
-
+.string "A sports game!\n"
+    .string "Dad'll like that!$"
 
 CeladonShop3FDocumento_105::
 msgbox CeladonShop3FDocumento_Text_105, MSGBOX_SIGN   
 end
 
 CeladonShop3FDocumento_Text_105:
-.string "¡Un juego de puzzles!\n"
-	.string "¡Parece muy adictivo!$"
+.string "A puzzle game!\n"
+    .string "Looks addictive!$"
 
 
 
@@ -129,8 +127,8 @@ msgbox CeladonShop3FDocumento_Text_106, MSGBOX_SIGN
 end
 
 CeladonShop3FDocumento_Text_106:
-.string "¡Un juego de lucha!\n"
-	.string "¡Parece muy difícil!$"
+.string "A fighting game!\n"
+    .string "Looks tough!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial::
 lock

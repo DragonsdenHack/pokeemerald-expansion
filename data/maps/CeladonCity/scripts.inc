@@ -17,11 +17,9 @@ release
 end
 
 CeladonCity_Text3:
-.string "Este es mi fiel compañero,\n"
-.string "POLIWRATH.\l"
-.string "Evolucionó de POLIWHIRL cuando usé\l"
-.string "una PIEDRA AGUA.$"
-
+.string "This is my trusted pal, POLIWRATH.\p"
+    .string "It evolved from a POLIWHIRL when\n"
+    .string "I used a WATER STONE.$"
 
 CeladonCity4::
 lock     
@@ -73,10 +71,10 @@ release
 end
 
 CeladonCity_Text8:
-.string "¡Ayyy! ¡Lo he perdido todo\n"
-.string "en las tragaperras!\p"
-.string "¡Debería haber cambiado todas\n"
-.string "mis fichas por premios!$"
+.string "Moan…\n"
+    .string "I blew it all at the slots!\p"
+    .string "I knew I should have cashed in my\n"
+    .string "COINS for prizes!$"
 
 
 CeladonCity9::
@@ -91,12 +89,12 @@ release
 end
 
 CeladonCity_Text10:
-.string "¡Aaaagh, ayyyy...!\n"
-.string "¡Me he achicharrado la lengua!\p"
-.string "La ancianita tan agradable que hay\n"
-.string "en la MANSIÓN, me ha dado un TÉ.\p"
-.string "¡Pero está hirviendo!\n"
-.string "Voy a esperar a ver si se enfría...$"
+.string "Aaaagh, ow…\n"
+    .string "I scalded my tongue!\p"
+    .string "This nice old lady in the MANSION\n"
+    .string "gave me some TEA.\p"
+    .string "But it was boiling hot!\n"
+    .string "Gotta cool it to drink it.$"
 
 
 CeladonCity11::
@@ -110,8 +108,8 @@ release
 end
 
 CeladonCity12_Texto_1:
-.string "Este GIMNASIO es el paraíso. ¡Está\n"
-	.string "repleto de chicas!$"
+.string "Heheh! This GYM is great!\n"
+    .string "It's full of women!$"
 
 
 CeladonCity13::
@@ -122,10 +120,9 @@ release
 end
 
 CeladonCity_Text13:
-.string "Conseguí a mi KOFFING en ISLA\n"
-.string "CANELA.\l"
-.string "Normalmente es muy bueno, pero\l"
-.string "suelta veneno cuando se enfada.$"
+.string "I got my KOFFING in CINNABAR.\p"
+    .string "It's usually nice, but it breathes\n"
+    .string "poison when it's angry.$"
 
 
 CeladonCity14::
@@ -149,9 +146,9 @@ msgbox CeladonCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_100:
-.string "GIMNASIO DE CIUDAD AZULONA\n"
-	.string "LÍDER: ERIKA\l"
-	.string "¡La princesa de la naturaleza!$"
+ .string "CELADON CITY POKéMON GYM\n"
+    .string "LEADER: ERIKA\l"
+    .string "The Nature-Loving Princess!$"
 
 
 
@@ -160,8 +157,8 @@ msgbox CeladonCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_101:
-	.string "¡Todo lo que necesitas está en\n"
-	.string "el CENTRO COMERCIAL AZULONA!$"
+.string "Find what you need at the\n"
+    .string "CELADON DEPT. STORE!$"
 
 
 
@@ -170,8 +167,8 @@ msgbox CeladonCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_102:
-	.string "CIUDAD AZULONA\n"
-	.string "El arco iris de los sueños.$"
+	.string "CELADON CITY\n"
+    .string "The City of Rainbow Dreams$"
 
 
 
@@ -180,7 +177,7 @@ msgbox CeladonCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_103:
-	.string "MANSIÓN AZULONA$"
+.string "CELADON MANSION$"
 
 
 
@@ -189,13 +186,12 @@ msgbox CeladonCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_104:
-	.string "PISTAS ENTRENADOR\p"
-	.string "¡PRECISIÓN X aumenta la precisión\n"
-	.string "de los ataques!\p"
-	.string "¡El DIRECTO aumenta la posibilidad\n"
-	.string "de golpes críticos!\p"
-	.string "¡Compra tus objetos en el\n"
-	.string "CENTRO COMERCIAL de AZULONA!$"
+.string "TRAINER TIPS\p"
+    .string "GUARD SPEC. protects POKéMON\n"
+    .string "from status-reduction moves during\l"
+    .string "battle.\p"
+    .string "Get your items at the\n"
+    .string "CELADON DEPT. STORE!$"
 
 
 
@@ -204,9 +200,8 @@ msgbox CeladonCityDocumento_Text_105, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_105:
-	.string "CASINO ROCKET\n"
-	.string "¡El parque de atracciones para\l"
-	.string "adultos!$"
+.string "ROCKET GAME CORNER\n"
+    .string "The playground for grown-ups!$"
 
 
 
@@ -215,8 +210,8 @@ msgbox CeladonCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_106:
-	.string "¡Las FICHAS son cambiadas por\n"
-	.string "premios!$"
+.string "COINS exchanged for prizes!\n"
+    .string "PRIZE EXCHANGE$"
 
 
 
@@ -225,13 +220,13 @@ msgbox CeladonCityDocumento_Text_107, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_107:
-	.string "CONSEJOS DE ENTRENADOR\n"
-	.string "El PROTECTOR ESPECIAL protege a\l"
-	.string "tus POKÉMON de los movimientos que\l"
-	.string "reducen tus estadísticas en\l"
-	.string "batalla.\l"
-	.string "¡Obtén tus objetos en el CENTRO\l"
-	.string "COMERCIAL AZULONA!$"
+.string "TRAINER TIPS\p"
+    .string "X ACCURACY boosts the accuracy of\n"
+    .string "techniques.\p"
+    .string "DIRE HIT jacks up the likelihood\n"
+    .string "of critical hits.\p"
+    .string "Get your items at the CELADON\n"
+    .string "DEPT. STORE!$"
 
 Barrera_Tiendas::
 compare VAR_UNUSED_0x40F7, 30

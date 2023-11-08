@@ -110,8 +110,8 @@ msgbox Route3Documento_Text_100, MSGBOX_SIGN
 end
 
 Route3Documento_Text_100:
-.string "RUTA 3\n"
-	.string "MT.MOON AL NORTE$"
+.string "ROUTE 3\n"
+    .string "MT. MOON AHEAD$"
 
 Route3_Frontera:: 
 compare VAR_UNUSED_0x40F7, 55

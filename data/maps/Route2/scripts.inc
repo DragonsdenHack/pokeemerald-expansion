@@ -76,7 +76,7 @@ msgbox Route2Documento_Text_100, MSGBOX_SIGN
 end
 
 Route2Documento_Text_100:
-.string "CUEVA DIGGLET$"
+.string "DIGLETT'S CAVE$"
 
 
 

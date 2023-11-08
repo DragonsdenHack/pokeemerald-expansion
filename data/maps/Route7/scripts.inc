@@ -8,5 +8,5 @@ msgbox Route7Documento_Text_100, MSGBOX_SIGN
 end
 
 Route7Documento_Text_100:
-	.string "ZONA SUBTERRÁNEA\n"
-	.string "CIUDAD AZULONA - PUEBLO LAVANDA$"
+.string "UNDERGROUND PATH\n"
+    .string "CELADON CITY - LAVENDER TOWN$"

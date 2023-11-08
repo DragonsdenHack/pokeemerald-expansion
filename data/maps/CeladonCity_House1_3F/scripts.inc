@@ -9,11 +9,11 @@ release
 end
 
 CeladonCity_House1_3F_Text_1:
-.string "¿Sabes?\p"
-.string "¡Soy el diseñador del juego!\p"
-.string "¡Completar tu POKéDEX es difícil,\n"
-.string "pero no te rindas!\p"
-.string "¡Cuando termines ven a decírmelo!$"
+.string "Is that right?\p"
+    .string "I'm the game designer!\p"
+    .string "Filling up your POKéDEX is tough,\n"
+    .string "but don't quit!\p"
+    .string "When you finish, come tell me!$"
 
 
 
@@ -25,8 +25,8 @@ release
 end
 
 CeladonCity_House1_3F_Text_2:
-.string "¿Yo?\n"
-.string "¡Soy el programador!$"
+.string "Me?\n"
+    .string "I'm the programmer!$"
 
 
 
@@ -38,8 +38,8 @@ release
 end
 
 CeladonCity_House1_3F_Text_3:
-.string "¡Soy el diseñador gráfico!\n"
-.string "¡Pero no te dibujé a ti!$"
+.string "I'm the graphic artist!\n"
+    .string "But I don't drew you!$"
 
 
 
@@ -51,10 +51,10 @@ release
 end
 
 CeladonCity_House1_3F_Text_4:
-.string "¡Yo escribí la historia!\n"
-.string "¿A que es guapa ERIKA?\p"
-.string "¡También me gusta mucho MISTY!\n"
-.string "¡Y también me gusta SABRINA!$"
+.string "I wrote the story!\n"
+    .string "Isn't ERIKA cute?\p"
+    .string "I like MISTY a lot, too!\n"
+    .string "Oh, and SABRINA, I like her!$"
 
 
 
@@ -63,35 +63,28 @@ msgbox CeladonMansion3FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonMansion3FDocumento_Text_100:
-.string "Sala de desarrollo de GAME FREAK$"
-
-
+.string "GAME FREAK Development Room$"
 
 CeladonMansion3FDocumento_101::
 msgbox CeladonMansion3FDocumento_Text_101, MSGBOX_SIGN   
 end
 
 CeladonMansion3FDocumento_Text_101:
-.string "¡Es el guión del juego!\n"
-	.string "¡No leas el final!$"
-
-
+.string "It's the script!\n"
+    .string "Better not look at the ending!$"
 
 CeladonMansion3FDocumento_102::
 msgbox CeladonMansion3FDocumento_Text_102, MSGBOX_SIGN   
 end
 
 CeladonMansion3FDocumento_Text_102:
-.string "¡Alguien está jugando en lugar\n"
-	.string "de trabajar!$"
-
-
+.string "Someone's playing a game instead of\n"
+    .string "working!$"
 
 CeladonMansion3FDocumento_103::
 msgbox CeladonMansion3FDocumento_Text_103, MSGBOX_SIGN   
 end
 
 CeladonMansion3FDocumento_Text_103:
-.string "¡Es el programa del juego!\n"
-	.string "¡No lo toques, no vaya a ser que\l"
-	.string "se estropee!$"
+.string "It's the game program! Messing with\n"
+    .string "it could bug out the game!$"

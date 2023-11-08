@@ -85,8 +85,8 @@ msgbox Route4Documento_Text_100, MSGBOX_SIGN
 end
 
 Route4Documento_Text_100:
-	.string "MT. MOON\n"
-	.string "Entrada al túnel$"
+.string "MT. MOON\n"
+    .string "Tunnel Entrance$"
 
 
 
@@ -95,8 +95,8 @@ msgbox Route4Documento_Text_101, MSGBOX_SIGN
 end
 
 Route4Documento_Text_101:
-.string "RUTA 4\n"
-	.string "MT. MOON - CIUDAD CELESTE$"
+    .string "ROUTE 4\n"
+    .string "MT. MOON - CERULEAN CITY$"
 
 Route4_Evento_Karatekas::
 applymovement OBJ_EVENT_ID_PLAYER, Route4_Evento_Karatekas_move1

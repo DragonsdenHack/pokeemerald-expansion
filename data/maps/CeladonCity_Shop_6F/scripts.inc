@@ -22,10 +22,10 @@ release
 end
 
 CeladonCity_Shop6F_Text_2:
-.string "Mi hermana es ENTRENADORA,\n"
-.string "¡de verdad!\p"
-.string "¡Pero es tan infantil que me vuelve\n"
-.string "loco!$"
+.string "My sister is a TRAINER, believe it\n"
+    .string "or not.\p"
+    .string "But, she's so immature, she drives\n"
+    .string "me nuts!$"
 
 
 
@@ -34,5 +34,5 @@ msgbox CeladonShop6FDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonShop6FDocumento_Text_100:
-.string "ÚLTIMO PISO:\n"
-	.string "DISTRIBUIDORES$"
+.string "ROOFTOP SQUARE:\n"
+    .string "VENDING MACHINES$"

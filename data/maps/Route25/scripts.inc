@@ -132,8 +132,8 @@ msgbox Route25Documento_Text_100, MSGBOX_SIGN
 end
 
 Route25Documento_Text_100:
-	.string "CASA DEL MAR\n"
-	.string "¡BILL vive aquí!$"
+.string "SEA COTTAGE\n"
+    .string "BILL lives here!$"
 
 Route25_Casa_Bill_Abajo::     
 applymovement OBJ_EVENT_ID_PLAYER, Route25_Casa_Bill_AbajoMove1

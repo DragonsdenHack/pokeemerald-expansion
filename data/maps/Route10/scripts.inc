@@ -154,8 +154,8 @@ msgbox Route10Documento_Text_100, MSGBOX_SIGN
 end
 
 Route10Documento_Text_100:
-	.string "TÚNEL ROCA\n"
-	.string "Desvío a PUEBLO LAVANDA$"
+.string "ROCK TUNNEL\n"
+    .string "Detour to LAVENDER TOWN$"
 
 
 
@@ -164,7 +164,7 @@ msgbox Route10Documento_Text_101, MSGBOX_SIGN
 end
 
 Route10Documento_Text_101:
-.string "CENTRAL ENERGÍA$"
+.string "POWER PLANT$"
 
 
 
@@ -173,7 +173,7 @@ msgbox Route10Documento_Text_102, MSGBOX_SIGN
 end
 
 Route10Documento_Text_102:
-.string "TÚNEL ROCA$"
+.string "ROCK TUNNEL$"
 
 Route10_Combate_Andra::
 lock
