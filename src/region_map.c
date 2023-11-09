@@ -153,6 +153,21 @@ static const u16 sRegionMapPlayerIcon_BrendanPal[] = INCBIN_U16("graphics/pokena
 static const u8 sRegionMapPlayerIcon_BrendanGfx[] = INCBIN_U8("graphics/pokenav/region_map/brendan_icon.4bpp");
 static const u16 sRegionMapPlayerIcon_MayPal[] = INCBIN_U16("graphics/pokenav/region_map/may_icon.gbapal");
 static const u8 sRegionMapPlayerIcon_MayGfx[] = INCBIN_U8("graphics/pokenav/region_map/may_icon.4bpp");
+
+static const u8 sRegionMapPlayerIcon_ReclutaGfx[] = INCBIN_U8("graphics/pokenav/region_map/recluta_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AltoRangoGfx[] = INCBIN_U8("graphics/pokenav/region_map/altorango_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_EjecutivoGfx[] = INCBIN_U8("graphics/pokenav/region_map/ejecutivo_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AdminGfx[] = INCBIN_U8("graphics/pokenav/region_map/admin_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AdminJefeGfx[] = INCBIN_U8("graphics/pokenav/region_map/adminjefe_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AdminJefe2Gfx[] = INCBIN_U8("graphics/pokenav/region_map/adminjefe2_icon.4bpp");
+
+static const u16 sRegionMapPlayerIcon_ReclutaPal[] = INCBIN_U16("graphics/object_events/pics/people/prota.gbapal");
+static const u16 sRegionMapPlayerIcon_AltoRangoPal[] = INCBIN_U16("graphics/object_events/palettes/player_alto_rango.gbapal");
+static const u16 sRegionMapPlayerIcon_EjecutivoPal[] = INCBIN_U16("graphics/object_events/palettes/player_ejecutivo.gbapal");
+static const u16 sRegionMapPlayerIcon_AdminPal[] = INCBIN_U16("graphics/object_events/palettes/player_admin.gbapal");
+static const u16 sRegionMapPlayerIcon_AdminJefePal[] = INCBIN_U16("graphics/object_events/palettes/admin.gbapal");
+static const u16 sRegionMapPlayerIcon_AdminJefe2Pal[] = INCBIN_U16("graphics/object_events/palettes/player_admin_jefe.gbapal");
+
 static const u8 sRegionMap_MapSectionLayout[] = INCBIN_U8("graphics/pokenav/region_map_section_layout_kanto.bin");
 static const u8 sRegionMap_MapSectionLayout2[] = INCBIN_U8("graphics/pokenav/region_map_section_layout_hoenn.bin");
 static const u8 sRegionMap_MapSectionLayout3[] = INCBIN_U8("graphics/pokenav/region_map_section_layout_johto.bin");
@@ -1847,8 +1862,8 @@ static void ClearUnkCursorSpriteData(void)
 void CreateRegionMapPlayerIcon(u16 tileTag, u16 paletteTag)
 {
     u8 spriteId;
-    struct SpriteSheet sheet = {sRegionMapPlayerIcon_BrendanGfx, 0x80, tileTag};
-    struct SpritePalette palette = {sRegionMapPlayerIcon_BrendanPal, paletteTag};
+    struct SpriteSheet sheet = {sRegionMapPlayerIcon_ReclutaGfx, 0x80, tileTag};
+    struct SpritePalette palette = {sRegionMapPlayerIcon_ReclutaPal, paletteTag};
     struct SpriteTemplate template = {tileTag, paletteTag, &sRegionMapPlayerIconOam, sRegionMapPlayerIconAnimTable, NULL, gDummySpriteAffineAnimTable, SpriteCallbackDummy};
 
     if (IsEventIslandMapSecId(gMapHeader.regionMapSectionId))
@@ -1858,9 +1873,27 @@ void CreateRegionMapPlayerIcon(u16 tileTag, u16 paletteTag)
     }
     if (gSaveBlock2Ptr->playerGender == FEMALE)
     {
-        sheet.data = sRegionMapPlayerIcon_MayGfx;
-        palette.data = sRegionMapPlayerIcon_MayPal;
-    }
+        sheet.data = sRegionMapPlayerIcon_AltoRangoGfx;
+        palette.data = sRegionMapPlayerIcon_AltoRangoPal;
+    }else if (gSaveBlock2Ptr->playerGender == EJECUTIVO)
+	{
+		sheet.data = sRegionMapPlayerIcon_EjecutivoGfx;
+        palette.data = sRegionMapPlayerIcon_EjecutivoPal;
+	}else if (gSaveBlock2Ptr->playerGender == ADMIN)
+	{
+		sheet.data = sRegionMapPlayerIcon_AdminGfx;
+        palette.data = sRegionMapPlayerIcon_AdminPal;
+	}else if (gSaveBlock2Ptr->playerGender == ADMIN_JEFE)
+	{
+		sheet.data = sRegionMapPlayerIcon_AdminJefeGfx;
+        palette.data = sRegionMapPlayerIcon_AdminJefePal;
+	}else if (gSaveBlock2Ptr->playerGender == ADMIN_JEFE2)
+	{
+		sheet.data = sRegionMapPlayerIcon_AdminJefe2Gfx;
+        palette.data = sRegionMapPlayerIcon_AdminJefe2Pal;
+	}	
+	
+	
     LoadSpriteSheet(&sheet);
     LoadSpritePalette(&palette);
     spriteId = CreateSprite(&template, 0, 0, 1);
