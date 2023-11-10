@@ -9,10 +9,9 @@ release
 end
 
 PewterCity_Museum_Text_1:
-.string "¡Quiero un PIKACHU!\n"
-.string "¡Es tan mono!\l"
-.string "¡Le diré a mi padre que me atrape\l"
-.string "uno!$"
+.string "I want a PIKACHU!\n"
+    .string "It's so cute!\p"
+    .string "I asked my daddy to catch me one!$"
 
 
 
@@ -24,8 +23,7 @@ release
 end
 
 PewterCity_Museum_Text_2:
-.string "¡Si hija, te prometo que tendrás\n"
-.string "un PIKACHU!$"
+.string "Yeah, a PIKACHU soon, I promise!$"
 
 
 
@@ -66,7 +64,7 @@ msgbox PewterMuseum2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 PewterMuseum2FDocumento_Text_100:
-.string "NAVE ESPACIAL$"
+.string "Space Shuttle$"
 
 
 
@@ -75,8 +73,8 @@ msgbox PewterMuseum2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 PewterMuseum2FDocumento_Text_101:
-.string "Un meteorito que cayó al MT.MOON.\n"
-	.string "Se trata de una PIEDRA LUNAR.$"
+.string "A meteorite that fell on MT. MOON.\n"
+    .string "It is thought to be a MOON STONE.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran::
 lock

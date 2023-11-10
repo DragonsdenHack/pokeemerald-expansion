@@ -34,5 +34,5 @@ msgbox Route1Documento_Text_100, MSGBOX_SIGN
 end
 
 Route1Documento_Text_100:
-.string "RUTA 1:\n"
-	.string "PUEBLO PALETA - CIUDAD VERDE$"
+.string "ROUTE 1\n"
+    .string "PALLET TOWN - VIRIDIAN CITY$"

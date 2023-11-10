@@ -130,9 +130,9 @@ msgbox SaffronCityHouse4Documento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityHouse4Documento_Text_100:
-.string "DIARIO POKéMON\p"
-	.string "Última hora sobre BRUNO,\n"
-	.string "miembro del ALTO MANDO.\p"
-	.string "Según fuentes cercanas, BRUNO\n"
-	.string "se unió al ALTO MANDO para luchar\l"
-	.string "contra los mejores ENTRENADORES.$"
+.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's BRUNO!\p"
+	.string "BRUNO apparently joined the ELITE\n"
+	.string "FOUR out of his burning ambition to\l"
+	.string "battle the best TRAINERS.$"

@@ -141,7 +141,7 @@ msgbox Route17Documento_Text_102, MSGBOX_SIGN
 end
 
 Route17Documento_Text_102:
-.string "TESTSUO ESTUVO AQUÍ$"
+.string "TESTSUO WAS HERE$"
 
 
 
@@ -150,8 +150,8 @@ msgbox Route17Documento_Text_103, MSGBOX_SIGN
 end
 
 Route17Documento_Text_103:
-.string "RUTA 17\n"
-	.string "CIUDAD AZAFRÁN - CIUDAD FUCSIA$"
+.string "ROUTE 17\n"
+    .string "CELADON CITY - FUCHSIA CITY$"
 
 
 

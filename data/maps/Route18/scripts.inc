@@ -38,8 +38,8 @@ msgbox Route18Documento_Text_100, MSGBOX_SIGN
 end
 
 Route18Documento_Text_100:
-	.string "CAMINO BICIS\n"
-	.string "¡No se permiten peatones!$"
+.string "CYCLING ROAD\n"
+    .string "No pedestrians permitted!$"
 
 
 
@@ -48,5 +48,5 @@ msgbox Route18Documento_Text_101, MSGBOX_SIGN
 end
 
 Route18Documento_Text_101:
-.string "RUTA 18\n"
-	.string "CIUDAD AZULONA - CIUDAD FUCSIA$"
+.string "ROUTE 18\n"
+    .string "CELADON CITY - FUCHSIA CITY$"

@@ -69,13 +69,11 @@ msgbox ViridianCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_100:
-.string "Consejos de entrenador:\n"
-	.string "La cantidad de veces que un\l"
-	.string "Pokémon puede ejecutar un\l"
-	.string "movimiento está limitada por los\l"
-	.string "PPs, para restaurarlos acude al\l"
-	.string "Centro Pokémon.$"
-
+.string "TRAINER TIPS\p"
+    .string "The battle moves of POKéMON are\n"
+    .string "limited by their POWER POINTS, PP.\p"
+    .string "To replenish PP, rest your tired\n"
+    .string "POKéMON at a POKéMON CENTER.$"
 
 
 ViridianCityDocumento_101::
@@ -83,8 +81,8 @@ msgbox ViridianCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_101:
-	.string "CIUDAD VERDE\n"
-	.string "El eterno paraíso verde.$"
+.string "VIRIDIAN CITY \n"
+    .string "The Eternally Green Paradise$"
 
 
 
@@ -93,11 +91,11 @@ msgbox ViridianCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_102:
-	.string "PISTAS ENTRENADOR\p"
-	.string "¡Atrapa los POKéMON y amplía\n"
-	.string "tu colección!\p"
-	.string "¡Cuantos más tengas, más fácil\n"
-	.string "te será luchar!$"
+.string "TRAINER TIPS\p"
+    .string "Catch POKéMON and expand your\n"
+    .string "collection.\p"
+    .string "The more you have, the easier it\n"
+    .string "is to battle.$"
 
 
 
@@ -106,7 +104,7 @@ msgbox ViridianCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_103:
-	.string "Gimnasio de CIUDAD VERDE$"
+.string "VIRIDIAN CITY POKéMON GYM$"
 
 
 
@@ -123,8 +121,8 @@ end
 
 
 ViridianCity_7_Text_7YesNo:
-    .string "¿Te gustaría conocer acerca de los\n"
-	.string "dos Pokémon insecto?$"
+.string "You want to know about the two\n"
+    .string "kinds of caterpillar POKéMON?$"
 
 
 ViridianCity_7No::
@@ -134,16 +132,15 @@ end
 
 
 ViridianCity_7_Text_7Yes:
-    .string "CATERPIE no tiene veneno, pero\n"
-	.string "WEEDLE si.\l"
-	.string "Pon cuidado a que tus Pokémon no\l"
-	.string "sean envenenados por su Picotazo\l"
-	.string "Venenoso.$"
+.string "CATERPIE has no poison,\n"
+    .string "but WEEDLE does.\p"
+    .string "Watch that your POKéMON aren't\n"
+    .string "stabbed by WEEDLE's POISON STING.$"
 
 
 
 ViridianCity_7_Text_7No:
-	.string "Oh, vale.$"
+.string "Oh, okay then!$"
 
 ViridianCity_Escena_5::
 applymovement OBJ_EVENT_ID_PLAYER, ViridianCity_Escena_5_Move_1

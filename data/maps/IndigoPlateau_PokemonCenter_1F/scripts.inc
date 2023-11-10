@@ -91,9 +91,9 @@ msgbox IndigoPlateauPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 IndigoPlateauPokemonCenterDocumento_Text_100:
-.string "DIARIO POKéMON\p"
-	.string "Última hora sobre LANCE,\n"
-	.string "miembro del ALTO MANDO.\p"
-	.string "Según fuentes cercanas, quien fundó\n"
-	.string "el clan de los maestros del tipo\l"
-	.string "DRAGÓN fue el abuelo de LANCE.$"
+.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's LANCE!\p"
+	.string "LANCE's grandfather is thought to\n"
+	.string "be the elder of a famous clan of\l"
+	.string "dragon masters.$"

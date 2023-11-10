@@ -60,7 +60,7 @@ msgbox PewterCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_100:
-.string "MUSEO DE CIENCIA DE PLATEADA$"
+.string "PEWTER MUSEUM OF SCIENCE$"
 
 
 
@@ -70,10 +70,9 @@ msgbox PewterCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_101:
-.string "GIMNASIO de CIUDAD PLATEADA\n"
-	.string "LÍDER: BROCK\l"
-	.string "¡El entrenador más duro que una\l"
-	.string "roca!$"
+.string "PEWTER CITY POKéMON GYM\n"
+    .string "LEADER: BROCK\l"
+    .string "The Rock-Solid POKéMON TRAINER!$"
 
 
 
@@ -95,8 +94,8 @@ msgbox PewterCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_103:
-	.string "CIUDAD PLATEADA\n"
-	.string "La ciudad de la piedra gris.$"
+	.string "PEWTER CITY\n"
+    .string "A Stone Gray City$"
 
 
 
@@ -105,10 +104,9 @@ msgbox PewterCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_104:
-	.string "Consejos de entrenador:\n"
-	.string "Todos los POKÉMON que entren al\l"
-	.string "campo de batalla obtendrán puntos\l"
-	.string "de experiencia.$"
+.string "TRAINER TIPS\p"
+    .string "All POKéMON that appear in battle,\n"
+    .string "however briefly, earn EXP Points.$"
 
 
 
@@ -238,11 +236,11 @@ PewterCity_Petrel_Texto_3:
 .string "... ... ... ... ... ... ...$"
 
 PewterCity_Petrel_Texto_4:
-.string "PETREL: -¡Aviso! Unos ladrones han\n"
-	.string "estado robando FÓSILES en el\l"
-	.string "MT.MOON. Por favor, contactar con\l"
-	.string "la POLICÍA si disponen de alguna\l"
-	.string "información-.$"
+.string "PETREL: -NOTICE!\p"
+    .string "Thieves have been stealing POKéMON\n"
+    .string "fossils from MT. MOON.\p"
+    .string "Please call the PEWTER POLICE if\n"
+    .string "you have any information-.$"
 
 PewterCity_Petrel_Texto_5:
 .string "Obvio que con -ladrones- se\n"

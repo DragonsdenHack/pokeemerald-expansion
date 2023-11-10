@@ -26,8 +26,8 @@ release
 end
 
 Route12Path2F_1_Texto_1.1:
-.string "¡{PLAYER} obtuvo la MT27\n"
-	.string "de manos de la chica!$"
+.string "{PLAYER} received TM27\n"
+    .string "from the little girl.$"
 
 Route12Path2F_Text_1:
 .string "No eres consciente del poder de la\n"
@@ -41,8 +41,9 @@ msgbox Route12Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route12Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
-	.string "¡Un hombre está pescando!$"
+.string "Let's see what the binoculars have\n"
+    .string "to show…\p"
+    .string "There's a man fishing!$"
 
 
 
@@ -51,5 +52,6 @@ msgbox Route12Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route12Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
-	.string "¡Es la TORRE POKéMON!$"
+.string "Let's see what the binoculars have\n"
+    .string "to show…\p"
+    .string "It's POKéMON TOWER!$"

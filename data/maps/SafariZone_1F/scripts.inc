@@ -16,9 +16,9 @@ msgbox SafariZone1FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SafariZone1FDocumento_Text_100:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡Pulsa START para saber cuánto\n"
-	.string "tiempo te queda!$"
+.string "TRAINER TIPS\p"
+    .string "Press START to check\n"
+    .string "remaining time.$"
 
 
 
@@ -27,7 +27,7 @@ msgbox SafariZone1FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SafariZone1FDocumento_Text_101:
-.string "CASA DE REPOSO$"
+.string "REST HOUSE$"
 
 
 
@@ -36,7 +36,7 @@ msgbox SafariZone1FDocumento_Text_102, MSGBOX_SIGN
 end
 
 SafariZone1FDocumento_Text_102:
-.string "ZONA CENTRAL$"
+.string "CENTER AREA$"
 
 SafariZone_1F_Escena_3_Andra::
 special SpawnCameraObject

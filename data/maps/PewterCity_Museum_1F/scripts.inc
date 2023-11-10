@@ -73,12 +73,11 @@ msgbox PewterMuseumDocumento_Text_100, MSGBOX_SIGN
 end
 
 PewterMuseumDocumento_Text_100:
-.string "DIARIO POKéMON\p"
-	.string "Última hora sobre BROCK, LÍDER\n"
-	.string "del GIMNASIO de PLATEADA.\p"
-	.string "Según fuentes cercanas, BROCK\n"
-	.string "casi nunca se ríe, ¡pero una vez\l"
-	.string "que empieza, no para!$"
+.string "POKéMON JOURNAL\p"
+	.string "Special Feature: PEWTER GYM\n"
+	.string "LEADER BROCK!\p"
+	.string "BROCK rarely laughs, but is said to\n"
+	.string "be unable to stop if he starts.$"
 
 
 
@@ -90,8 +89,8 @@ hidemonpic
 end
 
 PewterMuseumDocumento_Text_101:
-	.string "FÓSIL de AERODACTYL\n"
-	.string "Un primitivo y raro POKÉMON.$"
+.string "AERODACTYL Fossil\n"
+    .string "A primitive and rare POKéMON.$"
 
 
 
@@ -103,8 +102,8 @@ hidemonpic
 end
 
 PewterMuseumDocumento_Text_102:
-	.string "FÓSIL de KABUTOPS\n"
-	.string "Un primitivo y raro POKÉMON.$"
+	.string "KABUTOPS Fossil\n"
+    .string "A primitive and rare POKéMON.$"
 
 PewterCity_Museum_1F_Miguel::
 applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Museum_1F_Miguel_Move_1

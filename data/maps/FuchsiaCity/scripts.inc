@@ -29,11 +29,10 @@ release
 end
 
 Text_11:
-.string "Mi padre es el LÍDER DE GIMNASIO\n"
-.string "de esta ciudad.\l"
-.string "Estoy entrenándome para usar\l"
-.string "POKÉMON TIPO VENENO igual que\l"
-.string "hace él.$"
+.string "My father is the GYM LEADER of\n"
+    .string "this town.\p"
+    .string "I'm training to use POISON POKéMON\n"
+    .string "as well as my father.$"
 
 
 
@@ -104,9 +103,9 @@ msgbox NeoFuchsiaCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 NeoFuchsiaCityDocumento_Text_100:
-.string "Gimnasio de CIUDAD FUCSIA\n"
-	.string "LÍDER: SACHIKO\l"
-	.string "La venenosa maestra ninja.$"
+.string "FUCHSIA CITY POKéMON GYM\n"
+    .string "LEADER: SACHIKO\l"
+    .string "The Poisonous Ninja Master$"
 
 
 
@@ -115,9 +114,9 @@ msgbox FuchsiaCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_100:
-.string "Gimnasio de CIUDAD FUCSIA\n"
-	.string "LÍDER: KOGA\l"
-	.string "El maestro ninja.$"
+.string "FUCHSIA CITY POKéMON GYM\n"
+    .string "LEADER: KOGA\l"
+    .string "The Poisonous Ninja Master$"
 
 
 
@@ -126,9 +125,9 @@ msgbox FuchsiaCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_101:
-	.string "Nombre: KABUTO\n"
-	.string "POKÉMON extremadamente raro\l"
-	.string "regenerado a partir de un FÓSIL.$"
+.string "Name: KABUTO\n"
+    .string "An extremely rare POKéMON that was\l"
+    .string "regenerated from a fossil.$"
 
 
 
@@ -137,9 +136,9 @@ msgbox FuchsiaCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_102:
-	.string "Nombre: KANGASKHAN\n"
-	.string "Un POKÉMON maternal que cuidará a\l"
-	.string "su pequeño hasta el final.$"
+.string "Name: KANGASKHAN\p"
+    .string "A maternal POKéMON that raises its\n"
+    .string "young in a pouch on its belly.$"
 
 
 
@@ -148,9 +147,8 @@ msgbox FuchsiaCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_103:
-	.string "Nombre: LAPRAS\n"
-	.string "También conocido como el rey\l"
-	.string "de los mares.$"
+	.string "Name: LAPRAS\n"
+    .string "AKA the king of the seas.$"
 
 
 
@@ -159,8 +157,8 @@ msgbox FuchsiaCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_104:
-	.string "ZONA SAFARI\n"
-	.string "¡Hazte con todos!$"
+.string "SAFARI GAME\n"
+    .string "POKéMON-U-CATCH!$"
 
 NeoFuchsiaCityDocumento_105::
 msgbox NeoFuchsiaCityDocumento_Text_105, MSGBOX_SIGN
@@ -181,8 +179,8 @@ msgbox FuchsiaCityDocumento_Text_105, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_105:
-	.string "El paraíso POKÉMON\n"
-	.string "ZONA SAFARI$"
+.string "POKéMON PARADISE\n"
+    .string "SAFARI ZONE$"
 
 
 
@@ -191,8 +189,8 @@ msgbox FuchsiaCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_106:
-	.string "CIUDAD FUCSIA\n"
-	.string "¡Mirad!¡Es rosa pasión!$"
+.string "FUCHSIA CITY\n"
+    .string "Behold! It's Passion Pink!$"
 
 
 
@@ -201,8 +199,8 @@ msgbox FuchsiaCityDocumento_Text_107, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_107:
-	.string "ZONA SAFARI\n"
-	.string "Casa del guarda$"
+.string "SAFARI ZONE\n"
+    .string "WARDEN'S HOME$"
 
 
 
@@ -211,8 +209,8 @@ msgbox FuchsiaCityDocumento_Text_108, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_108:
-	.string "Nombre: VOLTORB\n"
-	.string "La viva imagen de una POKé BALL.$"
+.string "Name: VOLTORB\n"
+    .string "The very image of a POKé BALL.$"
 
 
 
@@ -221,9 +219,8 @@ msgbox FuchsiaCityDocumento_Text_109, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_109:
-	.string "Nombre: SLOWPOKE\n"
-	.string "Amigable y de movimientos muy\l"
-	.string "lentos.$"
+	.string "Name: SLOWPOKE\n"
+    .string "Friendly and very slow moving.$"
 
 
 
@@ -232,8 +229,8 @@ msgbox FuchsiaCityDocumento_Text_110, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_110:
-	.string "Nombre: CHANSEY\n"
-	.string "Atrapar uno es cuestión de suerte.$"
+	.string "Name: CHANSEY\n"
+    .string "Catching one is all up to chance.$"
 
 FuchsiaCity_Encuentro_Koga_Arriba::
 lock

@@ -9,14 +9,10 @@ release
 end
 
 PewterCity_House2_Text_1:
-.string "Un POKÉMON se vuelve más fácil de\n"
-.string "capturar si tiene un problema de\l"
-.string "estado.\l"
-.string "Dormido, envenenado, quemado o\l"
-.string "paralizado…\l"
-.string "Todos ellos son efectivos.\l"
-.string "¡Pero no hay nada que te garantize\l"
-.string "capturarlo!$"
+.string "POKéMON learn new techniques as\n"
+    .string "they grow.\p"
+    .string "But some moves must be taught to\n"
+    .string "them by people.$"
 
 
 

@@ -26,8 +26,8 @@ msgbox SafariZone2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SafariZone2FDocumento_Text_100:
-.string "ZONA 1\n"
-	.string "OESTE: ZONA CENTRAL$"
+.string "AREA 1\n"
+    .string "WEST: CENTER AREA$"
 
 
 
@@ -36,9 +36,9 @@ msgbox SafariZone2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SafariZone2FDocumento_Text_101:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡El tiempo restante solo se verá\n"
-	.string "reducido cuando camines!$"
+.string "TRAINER TIPS\p"
+    .string "The remaining time declines only\n"
+    .string "while you walk.$"
 
 
 
@@ -47,4 +47,4 @@ msgbox SafariZone2FDocumento_Text_102, MSGBOX_SIGN
 end
 
 SafariZone2FDocumento_Text_102:
-.string "CASA DE REPOSO$"
+.string "REST HOUSE$"

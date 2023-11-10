@@ -118,8 +118,8 @@ msgbox Route15Documento_Text_100, MSGBOX_SIGN
 end
 
 Route15Documento_Text_100:
-	.string "RUTA 15\n"
-	.string "Al oeste CIUDAD FUCSIA$"
+.string "ROUTE 15\n"
+    .string "West to FUCHSIA CITY$"
 
 
 

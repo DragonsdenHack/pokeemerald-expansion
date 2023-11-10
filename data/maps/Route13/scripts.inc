@@ -121,8 +121,8 @@ msgbox Route13Documento_Text_100, MSGBOX_SIGN
 end
 
 Route13Documento_Text_100:
-.string "RUTA 13\n"
-	.string "Al norte PUENTE SILENCIO$"
+.string "ROUTE 13\n"
+    .string "North to SILENCE BRIDGE$"
 
 
 
@@ -131,9 +131,9 @@ msgbox Route13Documento_Text_101, MSGBOX_SIGN
 end
 
 Route13Documento_Text_101:
-.string "Consejos entrenador:\p"
-	.string "Usa select para cambiar de\n"
-	.string "objetos en su ventana.$"
+.string "TRAINER TIPS\p"
+    .string "Use SELECT to switch items in the\n"
+    .string "ITEMS window.$"
 
 
 
@@ -142,6 +142,6 @@ msgbox Route13Documento_Text_102, MSGBOX_SIGN
 end
 
 Route13Documento_Text_102:
-.string "Consejos de entrenador:\n"
-	.string "¡Observa lo que hay al lado\l"
-	.string "derecho de este camino!$"
+.string "TRAINER TIPS\p"
+    .string "Look, look!\n"
+    .string "Look to the left of that post!$"

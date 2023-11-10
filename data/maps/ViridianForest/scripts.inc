@@ -119,8 +119,8 @@ msgbox ViridianForestDocumento_Text_100, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_100:
-.string "SALIENDO DEL BOSQUE VERDE,\n"
-	.string "SE ENCUENTRA CIUDAD PLATEADA$"
+.string "LEAVING VIRIDIAN FOREST\n"
+    .string "PEWTER CITY AHEAD$"
 
 
 
@@ -129,11 +129,11 @@ msgbox ViridianForestDocumento_Text_101, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_101:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡No robes los POKéMON de otros\n"
-	.string "ENTRENADORES!\p"
-	.string "¡Captura solo POKéMON salvajes\n"
-	.string "con las POKé BALLS!$"
+.string "TRAINER TIPS\p"
+    .string "You can't catch a POKéMON that\n"
+    .string "belongs to someone else.\p"
+    .string "Throw POKé BALLS only at wild\n"
+    .string "POKéMON to catch them!$"
 
 
 
@@ -142,9 +142,9 @@ msgbox ViridianForestDocumento_Text_102, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_102:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡Para evaluar tu POKéDEX, llama\n"
-	.string "al PROF. OAK vía PC!$"
+.string "TRAINER TIPS\p"
+    .string "Contact PROF. OAK via a PC to\n"
+    .string "get your POKéDEX evaluated!$"
 
 
 
@@ -153,9 +153,10 @@ msgbox ViridianForestDocumento_Text_103, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_103:
-.string "PISTAS ENTRENADOR\p"
-	.string "Si quieres evitar los combates,\n"
-	.string "¡aléjate de las zonas de hierba!$"
+.string "TRAINER TIPS\p"
+    .string "If your POKéMON are weak and you\n"
+    .string "want to avoid battles, stay away\l"
+    .string "from grassy areas!$"
 
 
 
@@ -164,10 +165,10 @@ msgbox ViridianForestDocumento_Text_104, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_104:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡Debilita a los POKéMON antes\n"
-	.string "de intentar capturarlos!\p"
-	.string "¡Si están fuertes, podrían escapar!$"
+.string "TRAINER TIPS\p"
+    .string "If your POKéMON are weak and you\n"
+    .string "want to avoid battles, stay away\l"
+    .string "from grassy areas!$"
 
 
 
@@ -176,9 +177,8 @@ msgbox ViridianForestDocumento_Text_105, MSGBOX_SIGN
 end
 
 ViridianForestDocumento_Text_105:
-.string "¡Usa ANTÍDOTO contra el veneno!\n"
-	.string "¡Lo conseguirás en las TIENDAS\l"
-	.string "POKéMON!$"
+.string "For poison, use ANTIDOTE!\n"
+    .string "Get it at POKéMON MARTS!$"
 
 ViridianForest_Combate_Guays::
 applymovement 13, ViridianForest_Combate_Guays_Move_2

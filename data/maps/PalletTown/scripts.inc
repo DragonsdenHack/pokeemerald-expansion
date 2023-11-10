@@ -53,8 +53,7 @@ msgbox PalletTownDocumento_Text_102, MSGBOX_SIGN
 end
 
 PalletTownDocumento_Text_102:
-    .string "LABORATORIO DE INVESTIGACIÓN DE\n"
-	.string "OAK$"
+.string "OAK POKéMON RESEARCH LAB$"
 
 
 
@@ -77,9 +76,8 @@ release
 end
 
 PalletTownDocumento_Text_104:
-	.string "PUEBLO PALETA\n"
-	.string "¡Donde comienzan las grandes\l"
-	.string "aventuras!$"
+.string "PALLET TOWN\n"
+    .string "Shades of your journey await!$"
 
 PalletTown_Encuentro_Oak::
 clearflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2

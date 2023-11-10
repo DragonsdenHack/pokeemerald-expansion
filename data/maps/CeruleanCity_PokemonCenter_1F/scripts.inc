@@ -81,8 +81,8 @@ msgbox CeruleanCityPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeruleanCityPokemonCenterDocumento_Text_100:
-.string "DIARIO POKéMON\p"
-	.string "Última hora sobre MISTY, LÍDER\n"
-	.string "del GIMNASIO de CELESTE.\p"
-	.string "Según fuentes cercanas, MISTY\n"
-	.string "adora a LORELEI, del ALTO MANDO.$"
+.string "POKéMON JOURNAL\p"
+	.string "Special Feature: CERULEAN GYM\n"
+	.string "LEADER MISTY!\p"
+	.string "MISTY is said to worship LORELEI\n"
+	.string "of the ELITE FOUR.$"

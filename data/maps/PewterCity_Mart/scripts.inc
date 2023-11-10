@@ -14,9 +14,10 @@ release
 end
 
 PewterCity_Mart_Text_2:
-.string "¡Podrían suceder cosas buenas si\n"
-.string "entrenaras rápidamente a tus\l"
-.string "POKéMON, hasta a los más débiles!$"
+.string "Good things can happen if you raise\n"
+    .string "POKéMON diligently.\p"
+    .string "Even the weak ones can surprise\n"
+    .string "you if you don't give up on them.$"
 
 
 
@@ -28,6 +29,6 @@ release
 end
 
 PewterCity_Mart_Text_3:
-.string "¡Un misterioso anciano me vendió\n"
-.string "este extraño pez POKéMON!\p"
-.string "¡Es muy débil y cuesta 500!$"
+.string "A shady old guy sucked me into\n"
+    .string "buying this weird fish POKéMON!\p"
+    .string "It's totally weak and it cost ¥500!$"

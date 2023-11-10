@@ -27,10 +27,11 @@ release
 end
 
 FuchsiaCity_PokemonCenter_Text_2:
-.string "No puedes ser un buen ENTRENADOR\n"
-.string "con un solo POKÉMON fuerte.\l"
-.string "Aunque entrenar a la vez a varios\l"
-.string "POKÉMON no es tampoco tarea fácil.$"
+.string "You can't become a good TRAINER\n"
+    .string "with just one strong POKéMON.\p"
+    .string "But raising many POKéMON evenly\n"
+    .string "is no easy task, either.$"
+
 
 
 
@@ -57,8 +58,7 @@ release
 end
 
 FuchsiaCity_PokemonCenter_Text_4:
-.string "Hay un estrecho al oeste de CIUDAD\n"
-.string "VERDE.\l"
-.string "Lleva al CG de la LIGA POKÉMON.\l"
-.string "El CG gobierna a todos los\l"
-.string "ENTRENADORES.$"
+.string "There's a narrow trail west of\n"
+    .string "VIRIDIAN CITY.\p"
+    .string "It goes to the POKéMON LEAGUE HQ.\n"
+    .string "The HQ governs all TRAINERS.$"

@@ -47,11 +47,10 @@ msgbox FuchsiaCityHouseDocumento_Text_102, MSGBOX_SIGN
 end
 
 FuchsiaCityHouseDocumento_Text_102:
-.string "DIARIO POKéMON\p"
-	.string "Última hora sobre KOGA, LÍDER\n"
-	.string "del GIMNASIO de FUCSIA.\p"
-	.string "Según fuentes cercanas, KOGA\n"
-	.string "tiene grandes conocimientos\l"
-	.string "de medicina.\p"
-	.string "Incluso elabora las medicinas\n"
-	.string "que sus POKéMON necesitan.$"
+.string "POKéMON JOURNAL\p"
+	.string "Special Feature: FUCHSIA GYM\n"
+	.string "LEADER KOGA!\p"
+	.string "KOGA is said to have a thorough\n"
+	.string "knowledge of medicine.\p"
+	.string "He even concocts medicine to nurse\n"
+	.string "his POKéMON to health.$"
