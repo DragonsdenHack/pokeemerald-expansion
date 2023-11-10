@@ -949,7 +949,7 @@ static const u8 sText_TwoInGameTrainersDefeated[];
 static const u8 sText_Trainer2LoseText[];
 
 // New battle strings.
-#if GAME_LANGUAGE == LANGUAGE_ENGLISH
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
  static const s8 sText_EnduredViaSturdy[] = _("¡{B_DEF_NAME_WITH_PREFIX} aguantó\nel golpe con {B_DEF_ABILITY}!");
     static const s8 sText_PowerHerbActivation[] = _("¡{B_ATK_NAME_WITH_PREFIX} fue cargado\ngracias a {B_LAST_ITEM}!");
     static const s8 sText_HurtByItem[] = _("¡{B_ATK_NAME_WITH_PREFIX} ha resultado\nherido por {B_LAST_ITEM}!");
@@ -976,7 +976,7 @@ static const u8 sText_Trainer2LoseText[];
     static const u8 sText_PkmnSurroundedWithVeilOfWater[] = _("¡{B_ATK_NAME_WITH_PREFIX} se ha rodeado\ncon un velo de agua!");
     static const u8 sText_PkmnLevitatedOnElectromagnetism[] = _("¡{B_ATK_NAME_WITH_PREFIX} levita con\nelectromagnetismo!");
     static const u8 sText_PkmnTwistedDimensions[] = _("¡{B_ATK_NAME_WITH_PREFIX} ha alterado\nlas dimensiones!");
-    static const u8 sText_PointedStonesFloat[] =_("¡Se han esparcido rocas alrededor\ndel equipo {B_DEF_TEAM2}!");
+    static const u8 sText_PointedStonesFloat[] =_("¡Se han esparcido rocas alrededor\nde tu equipo!");
     static const u8 sText_CloakedInMysticalMoonlight[] =_("¡Ha sido envuelto en un místico halo\nde luz de luna!");
     static const u8 sText_TrappedBySwirlingMagma[] =_("¡{B_DEF_NAME_WITH_PREFIX} ha quedado\natrapado en la lluvia ígnea!");
     static const u8 sText_VanishedInstantly[] =_("¡{B_ATK_NAME_WITH_PREFIX} desaparece en\nun abrir y cerrar de ojos!");
@@ -1204,7 +1204,7 @@ static const u8 sText_PkmnSwitchedStatChanges[] = _("{B_ATK_NAME_WITH_PREFIX} sw
 static const u8 sText_PkmnSurroundedWithVeilOfWater[] = _("{B_ATK_NAME_WITH_PREFIX} surrounded itself\nwith a veil of water!");
 static const u8 sText_PkmnLevitatedOnElectromagnetism[] = _("{B_ATK_NAME_WITH_PREFIX} levitated on\nelectromagnetism!");
 static const u8 sText_PkmnTwistedDimensions[] = _("{B_ATK_NAME_WITH_PREFIX} twisted\nthe dimensions!");
-static const u8 sText_PointedStonesFloat[] =_("Pointed stones float in the air\naround {B_DEF_TEAM2} team!");
+static const u8 sText_PointedStonesFloat[] =_("¡Se han instalado piedras puntiagudas\nen tu campo!");
 static const u8 sText_CloakedInMysticalMoonlight[] =_("It became cloaked in mystical\nmoonlight!");
 static const u8 sText_TrappedBySwirlingMagma[] =_("{B_DEF_NAME_WITH_PREFIX} became\ntrapped by swirling magma!");
 static const u8 sText_VanishedInstantly[] =_("{B_ATK_NAME_WITH_PREFIX} vanished\ninstantly!");

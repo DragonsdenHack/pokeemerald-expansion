@@ -675,7 +675,7 @@ u8 BattleSetup_GetTerrainId(void)
      
     case MAP_TYPE_UNDERGROUND:
         if (MetatileBehavior_IsIndoorEncounter(tileBehavior))
-            return BATTLE_TERRAIN_BUILDING;
+            return BATTLE_TERRAIN_CAVE;
         if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
             return BATTLE_TERRAIN_POND;
         return BATTLE_TERRAIN_CAVE;
@@ -694,7 +694,7 @@ u8 BattleSetup_GetTerrainId(void)
     if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
         return BATTLE_TERRAIN_WATER;
     if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
-        return BATTLE_TERRAIN_POND;
+        return BATTLE_TERRAIN_WATER;
     if (MetatileBehavior_IsMountain(tileBehavior))
         return BATTLE_TERRAIN_MOUNTAIN;
     if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
