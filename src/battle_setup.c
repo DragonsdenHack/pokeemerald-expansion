@@ -669,9 +669,14 @@ u8 BattleSetup_GetTerrainId(void)
     {
     case MAP_TYPE_TOWN:
     case MAP_TYPE_CITY:
+    if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
+        return BATTLE_TERRAIN_WATER;
+        return BATTLE_TERRAIN_GRASS;
 	   break;
     case MAP_TYPE_ROUTE:
-		return BATTLE_TERRAIN_GRASS;
+    if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
+        return BATTLE_TERRAIN_WATER;
+		return BATTLE_TERRAIN_SAND;
      
     case MAP_TYPE_UNDERGROUND:
         if (MetatileBehavior_IsIndoorEncounter(tileBehavior))
@@ -680,7 +685,6 @@ u8 BattleSetup_GetTerrainId(void)
             return BATTLE_TERRAIN_POND;
         return BATTLE_TERRAIN_CAVE;
     case MAP_TYPE_INDOOR:
-		 if(gMapHeader.mapLayoutId == LAYOUT_RESORT_GEORGEOUS_HOUSE1)
 			return BATTLE_TERRAIN_CAVE;
     case MAP_TYPE_SECRET_BASE:
         return BATTLE_TERRAIN_BUILDING;

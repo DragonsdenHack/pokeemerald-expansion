@@ -23,7 +23,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Consul[] = {
     .species = SPECIES_MEOWTH,
     .evs = {8, 8, 8, 8, 8, 8},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_ACID_ARMOR, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_FAKE_OUT, MOVE_SCRATCH, MOVE_GROWL, MOVE_NONE}
     },
     {
     .iv = 20,
