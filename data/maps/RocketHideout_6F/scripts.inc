@@ -839,8 +839,11 @@ addobject 28
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_1 MSGBOX_AUTOCLOSE
-applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_2
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_2.1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_2
 waitmovement 0x0
 applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_4
 applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_5
@@ -906,6 +909,11 @@ delay 100
 changeavatar 1
 setvar VAR_UNUSED_0x40F7, 800
 warpsilent MAP_ROCKET_HIDEOUT_6F, 28, 25
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_2.1:
+delay_8
+face_up
+step_end
 
 RocketHideout_6F_Petrel_Mision_3_Bill_move_14.1:
 walk_in_place_left
@@ -2076,7 +2084,28 @@ multichoice 22, 0, MULTI_VENTA_BASE_RUTA_5, 0
 switch VAR_RESULT
 case 0, EventScript_Rattata
 case 1, EventScript_Mankey
-case 2, EventScript_Koffing
+case 2, EventScript_Voltorb
+case 3, EventScript_Koffing
+release
+end
+
+EventScript_Voltorb::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Voltorb_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 9000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 9000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_VOLTORB, 12, ITEM_NONE
 release
 end
 
@@ -2143,6 +2172,10 @@ end
 Text_CompraPokemon_Ruta_5:
 .string "¿Cómo va todo camarada? ¿En qué puedo\n"
 	.string "ayudarte?$"
+
+EventScript_Voltorb_Texto_1:
+.string "¿Seguro que quieres a VOLTORB?\n"
+	.string "Costará 9000 POKÉS.$"
 
 EventScript_Koffing_Texto_1:
 .string "¿Seguro que quieres a KOFFING?\n"
@@ -2226,4 +2259,15 @@ RocketHideout_6F_Cientifico_Maquina_Texto_2:
 	.string "quieras, solo tienes que\l"
 	.string "interactuar con la máquina para\l"
 	.string "acceder al modo de teletransporte!$"
+
+
+SeteoIvs::
+msgbox SeteoIvs_Texto_1 MSGBOX_AUTOCLOSE
+goto SetIVs
+release
+end
+
+SeteoIvs_Texto_1:
+.string "Seteo$"
+
 

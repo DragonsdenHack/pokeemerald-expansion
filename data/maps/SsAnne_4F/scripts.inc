@@ -266,7 +266,7 @@ SsAnne_4F_Combate_Azul_text_5:
 	.string "...\l"
 	.string "Entonces no eres un ROCKET\l"
 	.string "cualquiera...¿ALTO RANGO?\l"
-	.string "¡Para mi todos lucís iguales!\l"
+	.string "¡Para mí todos lucís iguales!\l"
 	.string "De todos modos, eres el único que\l"
 	.string "ha podido derrotarme después de\l"
 	.string "ese palurdo de ROJO, te tendré en\l"

@@ -70,7 +70,7 @@ applymovement 1, CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_2
 waitmovement 0x0
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_9 MSGBOX_AUTOCLOSE
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
-giveitem ITEM_BICYCLE
+giveitem ITEM_MACH_BIKE
 waitfanfare
 msgbox CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_10 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x409B, 4

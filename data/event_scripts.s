@@ -1091,12 +1091,12 @@ SetIVs::
 SetIVs_Proceed:
 	lockall
 	faceplayer
-	setvar VAR_0x8000, 31
-	setvar VAR_0x8001, 31
-	setvar VAR_0x8002, 31
-	setvar VAR_0x8003, 31
-	setvar VAR_0x8005, 31
-	setvar VAR_0x8006, 31
+	setvar VAR_0x8000, 31 @HP
+	setvar VAR_0x8001, 31 @Attack
+	setvar VAR_0x8002, 31 @Defense
+	setvar VAR_0x8003, 31 @Speed
+	setvar VAR_0x8005, 31 @Sp.atk
+	setvar VAR_0x8006, 31 @defesp
 	special SetHpIvs
 	special SetAtkIvs
 	special SetDefIvs

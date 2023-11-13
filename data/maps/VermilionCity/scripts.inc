@@ -886,8 +886,6 @@ release
 end
 
 VermilionCity_Marinero::
-lock
-faceplayer
 compare VAR_UNUSED_0x40F7, 24
 goto_if_eq VermilionCity_Marinero_3
 compare VAR_UNUSED_0x40F7, 25
@@ -895,6 +893,8 @@ goto_if_eq VermilionCity_Marinero_3
 compare VAR_UNUSED_0x40F7, 26
 goto_if_eq VermilionCity_Marinero_3
 compare VAR_UNUSED_0x40F7, 27
+lock
+faceplayer
 goto_if_eq VermilionCity_Marinero_3
 compare VAR_UNUSED_0x40F7, 95
 goto_if_lt VermilionCity_Marinero_2

@@ -101,15 +101,15 @@ delay 15
 playse SE_PIN
 applymovement 11, MtMoon3F_9_2_move1
 playse MUS_OBTAIN_ITEM
-msgbox MtMoon3F_Text_11_1, MSGBOX_AUTOCLOSE
+msgbox MtMoon3F_Text_11_1, MSGBOX_NPC
 waitfanfare
-msgbox MtMoon3F_Text_11_2, MSGBOX_AUTOCLOSE
+msgbox MtMoon3F_Text_11_2, MSGBOX_NPC
 playse SE_POKENAV_ON
 delay 20
-msgbox MtMoon3F_Text_11_3, MSGBOX_AUTOCLOSE
+msgbox MtMoon3F_Text_11_3, MSGBOX_NPC
 playse SE_POKENAV_OFF
 delay 20
-msgbox MtMoon3F_Text_11_4, MSGBOX_AUTOCLOSE
+msgbox MtMoon3F_Text_11_4, MSGBOX_NPC
 setvar VAR_UNUSED_0x40F7, 15
 release
 end
@@ -117,7 +117,7 @@ end
 MtMoon3F_11_3::
 lock
 faceplayer
-msgbox MtMoon3F_Text_11_5, MSGBOX_AUTOCLOSE
+msgbox MtMoon3F_Text_11_5, MSGBOX_NPC
 release
 end
 
@@ -430,7 +430,9 @@ addobject 13
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 applymovement 13, MtMoon_3F_Miguel_Rojo_move2
 waitmovement 0
+delay 10
 msgbox MtMoon_3F_Miguel_Rojo_text_1 MSGBOX_AUTOCLOSE
+delay 15
 playse SE_PIN
 applymovement 13, MtMoon_3F_Miguel_Rojo_move3
 waitmovement 0
@@ -522,7 +524,7 @@ release
 end
 
 MtMoon_3F_Miguel_Rojo_text_1:
-.string "¿Qué se te ha perdido por aquí\n"
+.string "¿Qué se te ha perdido por aquí,\n"
 	.string "ROCKET?\l"
 	.string "...\l"
 	.string "...$"
@@ -623,7 +625,7 @@ walk_down
 walk_down
 walk_down
 walk_in_place_down
-emote_exclamation_mark
+delay_4
 step_end
 
 MtMoon_3F_Miguel_Rojo_move3:

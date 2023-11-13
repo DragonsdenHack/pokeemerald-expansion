@@ -3056,6 +3056,7 @@ extern const u8 gText_Axew[];
 // Venta Base Ruta 5
 extern const u8 gText_Rattata[];
 extern const u8 gText_Mankey[];
+extern const u8 gText_Voltorb[];
 extern const u8 gText_Koffing[];
 
 // Venta Base Profunda
