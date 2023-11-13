@@ -1359,8 +1359,8 @@ end
 
 BaseRocketHoennS2Documento_Text_127:
 .string "NÚMERO 9: BLACEPHALON:\p"
-    .string "PS: 53\n"
-	.string "ATAQUE: 127\l"
+    .string "PS: 127\n"
+	.string "ATAQUE: 53\l"
 	.string "DEFENSA: 53\l"
 	.string "ATAQUE ESPECIAL: 151\l"
 	.string "DEFENSA ESPECIAL: 79\l"

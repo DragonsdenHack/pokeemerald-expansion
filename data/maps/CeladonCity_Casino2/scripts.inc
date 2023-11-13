@@ -52,6 +52,6 @@ release
 end
 
 CeladonCity_Casino2_Text_4:
-.string "La venta de fICHAS está prohibida\n"
+.string "La venta de FICHAS está prohibida\n"
 .string "para los miembros del TEAM ROCKET,\l"
 .string "normas del CASINO.$"

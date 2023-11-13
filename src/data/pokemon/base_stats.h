@@ -22414,8 +22414,8 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_NIHILEGO] =
     {
         .baseHP        = 109,
-        .baseAttack    = 53,
-        .baseDefense   = 47,
+        .baseAttack    = 47,
+        .baseDefense   = 53,
         .baseSpeed     = 103,
         .baseSpAttack  = 127,
         .baseSpDefense = 131,
@@ -22502,8 +22502,8 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_XURKITREE] =
     {
         .baseHP        = 83,
-        .baseAttack    = 89,
-        .baseDefense   = 71,
+        .baseAttack    = 71,
+        .baseDefense   = 89,
         .baseSpeed     = 83,
         .baseSpAttack  = 173,
         .baseSpDefense = 71,
@@ -22565,8 +22565,8 @@ const struct BaseStats gBaseStats[] =
         .baseAttack    = 181,
         .baseDefense   = 131,
         .baseSpeed     = 109,
-        .baseSpAttack  = 59,
-        .baseSpDefense = 31,
+        .baseSpAttack  = 31,
+        .baseSpDefense = 59,
         .type1 = TYPE_GRASS,
         .type2 = TYPE_STEEL,
         .catchRate = 45,
@@ -22792,8 +22792,8 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_BLACEPHALON] =
     {
-        .baseHP        = 53,
-        .baseAttack    = 127,
+        .baseHP        = 127,
+        .baseAttack    = 53,
         .baseDefense   = 53,
         .baseSpeed     = 107,
         .baseSpAttack  = 151,
@@ -25282,11 +25282,11 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_REGIELEKI] =
     {
         .baseHP        = 80,
-        .baseAttack    = 100,
-        .baseDefense   = 50,
+        .baseAttack    = 50,
+        .baseDefense   = 75,
         .baseSpeed     = 200,
         .baseSpAttack  = 100,
-        .baseSpDefense = 50,
+        .baseSpDefense = 75,
         .type1 = TYPE_ELECTRIC,
         .type2 = TYPE_ELECTRIC,
         .catchRate = 3,
@@ -25311,10 +25311,10 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 200,
         .baseAttack    = 100,
-        .baseDefense   = 50,
+        .baseDefense   = 75,
         .baseSpeed     = 80,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 50,
+        .baseSpAttack  = 50,
+        .baseSpDefense = 75,
         .type1 = TYPE_DRAGON,
         .type2 = TYPE_DRAGON,
         .catchRate = 3,
@@ -29043,9 +29043,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_3,
         .eggGroup2 = EGG_GROUP_WATER_3,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SHEER_FORCE, ABILITY_SHEER_FORCE, ABILITY_SHEER_FORCE},
+            .abilities = {ABILITY_REFRIGERATE, ABILITY_REFRIGERATE, ABILITY_REFRIGERATE},
         #else
-            .abilities = {ABILITY_SHEER_FORCE, ABILITY_SHEER_FORCE},
+            .abilities = {ABILITY_REFRIGERATE, ABILITY_REFRIGERATE},
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
@@ -36948,9 +36948,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_FIELD,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SNOW_WARNING, ABILITY_SNOW_WARNING, ABILITY_SNOW_WARNING},
+            .abilities = {ABILITY_REFRIGERATE, ABILITY_REFRIGERATE, ABILITY_REFRIGERATE},
         #else
-            .abilities = {ABILITY_SNOW_WARNING, ABILITY_SNOW_WARNING, ABILITY_SNOW_WARNING},
+            .abilities = {ABILITY_REFRIGERATE, ABILITY_REFRIGERATE, ABILITY_REFRIGERATE},
         #endif
         .bodyColor = BODY_COLOR_BROWN,
         .noFlip = FALSE,

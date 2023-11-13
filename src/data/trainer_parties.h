@@ -2753,7 +2753,7 @@ static const struct TrainerMonItemCustomMoves sParty_Fredo[] = {
     .heldItem = ITEM_STARMIETITE,
     .evs = {40, 40, 40, 252, 252, 40},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_PSYCHIC}
+    .moves = {MOVE_SCALD, MOVE_THUNDERBOLT, MOVE_TRI_ATTACK, MOVE_PSYCHIC}
     },
     {
     .iv = 255,
@@ -2786,10 +2786,10 @@ static const struct TrainerMonItemCustomMoves sParty_Fredo[] = {
     .iv = 255,
     .lvl = 94,
     .species = SPECIES_MAMOSWINE_BOND,
-    .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {80, 80, 80, 252, 252, 80},
-    .nature = NATURE_BOLD,
-    .moves = {MOVE_EARTHQUAKE, MOVE_ICICLE_CRASH, MOVE_STONE_EDGE, MOVE_ICICLE_CRASH}
+    .heldItem = ITEM_CHOICE_SCARF,
+    .evs = {80, 252, 80, 252, 80, 80},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_HEAD_CHARGE, MOVE_HEAD_CHARGE, MOVE_HEAD_CHARGE, MOVE_HEAD_CHARGE}
     }
 };
 
