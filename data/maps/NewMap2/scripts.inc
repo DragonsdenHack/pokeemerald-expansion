@@ -62,3 +62,15 @@ NewMap2_Chico_Texto_1:
 	.string "Cuando JIGGLYPUFF canta, los POKÉMON\n"
 	.string "se duermen y... también los humanos. Qué\l"
 	.string "sueño...$"
+
+NewMap2_Chica_Personalidades::
+lock
+faceplayer
+msgbox NewMap2_Chica_Personalidades_Texto_1 MSGBOX_NPC
+release
+end
+
+NewMap2_Chica_Personalidades_Texto_1:
+.string "¡Oh, no te acerques! La gente que va en\n"
+	.string "contra de la sociedad no conviene a mi\l"
+	.string "personalidad.$"

@@ -1631,7 +1631,7 @@ RocketHideout5F_EventScript_Rocket2::
 
 
 RocketHideout5F_EventScript_Rocket3::
-	trainerbattle_single TRAINER_GRUNT_WEATHER_INST_4, RocketHideout5F_Text_Rocket3Intro, RocketHideout5F_Text_Rocket3Defeated
+	trainerbattle_single TRAINER_GRUNT_AQUA_HIDEOUT_5, RocketHideout5F_Text_Rocket3Intro, RocketHideout5F_Text_Rocket3Defeated
 	msgbox RocketHideout5F_Text_Rocket3PostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -2055,8 +2055,10 @@ end
 RocketHideout_5F_Prohibido_Salir::
 lock
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Prohibido_Salir_Move_1
+waitmovement 0x0
 msgbox RocketHideout_5F_Prohibido_Salir_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Prohibido_Salir_Move_2
+waitmovement 0x0
 release
 end
 

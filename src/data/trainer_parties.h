@@ -552,8 +552,8 @@ static const struct TrainerMonItemCustomMoves sParty_Fuji1[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_Ghost[] = {
     {
     .iv = 255,
-    .lvl = 37,
-    .species = SPECIES_MAROWAK,
+    .lvl = 35,
+    .species = SPECIES_MAROGHOST,
     .evs = {32, 32, 32, 32, 32, 32},
     .nature = NATURE_CAREFUL,
     .moves = {MOVE_SHADOW_SNEAK, MOVE_ICE_PUNCH, MOVE_BULLDOZE, MOVE_THUNDER_PUNCH}
@@ -571,11 +571,19 @@ static const struct TrainerMonNoItemCustomMoves sParty_GruntMuseum2[] = {
     },
     {
     .iv = 255,
-    .lvl = 34,
+    .lvl = 33,
     .species = SPECIES_XATU,
-    .evs = {0, 0, 0, 0, 0, 0},
+    .evs = {50, 50, 50, 50, 50, 50},
     .nature = NATURE_MODEST,
     .moves = {MOVE_PSYBEAM, MOVE_AIR_SLASH, MOVE_ROOST, MOVE_REFLECT}
+    },
+    {
+    .iv = 255,
+    .lvl = 34,
+    .species = SPECIES_DUSCLOPS,
+    .evs = {6, 0, 252, 0, 0, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_POLTERGEIST, MOVE_PAIN_SPLIT, MOVE_HYPNOSIS, MOVE_DRAIN_PUNCH}
     }
 };
 

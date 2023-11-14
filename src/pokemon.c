@@ -7627,6 +7627,7 @@ u16 GetBattleBGM(void)
             return 631;
         case TRAINER_CLASS_MIRTO:
             return 626;
+        case TRAINER_CLASS_PROTON:
         case TRAINER_CLASS_ADMINISTRADOR:
         case TRAINER_CLASS_AQUA_ADMIN:
         case TRAINER_CLASS_MAGMA_ADMIN:
@@ -7684,7 +7685,6 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_MAESTRO:
         case TRAINER_CLASS_MAESTRO_TORRE:
             return 584;
-        case TRAINER_CLASS_PROTON:
         case TRAINER_CLASS_RECLUTA:
             return 621;
         case TRAINER_CLASS_ZEUS:
