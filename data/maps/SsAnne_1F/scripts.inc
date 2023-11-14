@@ -20,21 +20,19 @@ release
 end
 
 SsAnne_1F_Andra_Ida_Text_1:
-.string "ANDRA: Ha sido más fácil entrar de\n"
-	.string "lo que parecía, ¿eh?$"
+.string "ANDRA: It was easier to enter than it\n"
+	.string "seemed, eh?$"
 
 SsAnne_1F_Andra_Ida_Text_2:
-.string "La mayoría de pasajeros de este\n"
-	.string "crucero de lujo no son de KANTO,\l"
-	.string "eso nos dará la ventaja de pasar\l"
-	.string "desapercibidos y acceder al\l"
-	.string "camarote del CAPITÁN sin levantar\l"
-	.string "sospechas, una vez allí\l"
-	.string "identificamos el frasco y nos lo\l"
-	.string "llevamos.$"
+.string "Most of this luxury cruise passengers\n"
+	.string "are not from KANTO, that will give us\l"
+	.string "some advantage of going unnoticed and\l"
+	.string "entering CAPTAIN's cabin with no\l"
+	.string "suspicions, once there we will identify\l"
+	.string "the jar and we will take it.$"
 
 SsAnne_1F_Andra_Ida_Text_3:
-.string "Vamos allá.$"
+.string "Let's go.$"
 
 SsAnne_1F_Andra_Ida_move_1:
 walk_in_place_down
@@ -85,30 +83,26 @@ release
 end
 
 SsAnne_1F_Andra_Vuelta_Text_1:
-.string "ANDRA: ¡Lo hemos conseguido,\n"
-	.string "{PLAYER}!\l"
-	.string "Ese CAPITÁN era duro, eh. Nunca\l"
-	.string "había visto esos POKÉMON, deben de\l"
-	.string "venir de otras regiones. Sea como\l"
-	.string "sea, tenemos esa reliquia...$"
+.string "ANDRA: We did it, {PLAYER}! That\n"
+	.string "CAPTAIN was a rock, eh. I have never\l"
+	.string "seen POKÉMON like those, they should be\l"
+	.string "from other regions. Anyways, we have\l"
+	.string "that relic…$"
 
 SsAnne_1F_Andra_Vuelta_Text_2:
-.string "SS.ANNE: Aviso para todos los\n"
-	.string "tripulantes del barco. La fiesta\l"
-	.string "se da por finalizada por favor\l"
-	.string "vuelvan todos a sus camarotes para\l"
-	.string "facilitar al personal la recogida\l"
-	.string "de mesas y demás material.$"
+.string "SS.ANNE: Notice to all ship's crew. Party\n"
+	.string "finished, please everyone go back to\l"
+	.string "their cabins to facilitate staff\l"
+	.string "cleaning tables and other things.$"
 
 SsAnne_1F_Andra_Vuelta_Text_3:
-.string "ANDRA: Más nos vale irnos ya. Por\n"
-	.string "cierto, encontré varias de estas en\l"
-	.string "la mesa del CAPITÁN, seguro que te\l"
-	.string "son de utilidad a ti también.$"
+.string "ANDRA: We better go away now. By the\n"
+	.string "way I found a lot of this on the\l"
+	.string "CAPTAIN board, I am sure it would be\l"
+	.string "helpful for you too.$"
 
 SsAnne_1F_Andra_Vuelta_Text_4:
-.string "ANDRA: Nos vemos en el cuartel\n"
-	.string "{PLAYER}.$"
+	.string "See you in the HQ {PLAYER}..$"
 
 SsAnne_1F_Andra_Vuelta_move_1:
 walk_up
@@ -149,7 +143,7 @@ release
 end
 
 SsAnne_1F_Acabado_Text_1:
-.string "(Ya no tengo nada más que hacer aquí).$"
+.string "(I have nothing else to do here).$"
 
 
 SsAnne_1F_Acabado_move_1:

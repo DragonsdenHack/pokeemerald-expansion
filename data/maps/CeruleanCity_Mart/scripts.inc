@@ -14,13 +14,12 @@ release
 end
 
 CeruleanCity_Mart_Text_2:
-.string "Usa el REPELENTE para evitar a los\n"
-.string "bichos y a los POKéMON débiles.\p"
-.string "¡Pon a tu POKéMON más fuerte el\n"
-.string "primero de la lista para conseguir\l"
-.string "mejores resultados!\p"
-.string "Si tu primer POKéMON es fuerte,\n"
-.string "el REPELENTE tendrá mayor efecto.$"
+.string "Use REPELS to avoid bugs and weak\n"
+	.string "POKéMON. Place your strongest POKéMON\l"
+	.string "at the top of the list to achieve\l"
+	.string "better results! If your first POKéMON\l"
+	.string "is strong, the REPELENTE will have a\l"
+	.string "greater effect.$"
 
 
 
@@ -32,6 +31,5 @@ release
 end
 
 CeruleanCity_Mart_Text_3:
-.string "¿Has visto algún CARAMELORARO?\p"
-.string "¡Dicen que los POKéMON suben\n"
-.string "un nivel si se comen uno!$"
+.string "Have you seen any RARE CANDY? They say\n"
+	.string "POKéMON level up if they eat one!$"

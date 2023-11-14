@@ -27,9 +27,9 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_2:
-.string "Deja de perder el tiempo sirviendo\n"
-.string "a una panda de ladrones sin futuro\l"
-.string "y haz algo con tu vida, niño.$"
+.string "Stop wasting your time belonging to a\n"
+	.string "bunch of thieves with no future and do\l"
+	.string "something with your life, kid.$"
 
 
 
@@ -41,8 +41,8 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_3:
-.string "¡Debería darte vergüenza andar\n"
-.string "como si nada con esa vestimenta!$"
+.string "You should be ashamed of wearing those\n"
+	.string "clothes in public!$"
 
 
 
@@ -54,11 +54,10 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_4:
-.string "Si por mi fuera, os prohibiría\n"
-.string "entrar incluso a los CENTROS\l"
-.string "POKÉMON, los ROCKET no merecen\l"
-.string "siquiera los servicios de primera\l"
-.string "necesidad.$"
+.string "If that would depend on me, I would ban\n"
+	.string "you from even entering POKÉMON\l"
+	.string "CENTERS, you ROCKETs don't deserve\l"
+	.string "even essential services.$"
 
 
 
@@ -70,9 +69,8 @@ release
 end
 
 CeruleanCity_PokemonCenter_Text_5:
-.string "Dicen que BILL tiene POKÉMON que\n"
-.string "nadie más tiene, ¡me gustaría\l"
-.string "verlos!$"
+.string "They say that BILL has POKÉMON that no\n"
+	.string "one else has. I would like to see them!$"
 
 
 

@@ -9,10 +9,9 @@ release
 end
 
 Route25_Text_1:
-.string "Este cabo es un buen lugar para\n"
-.string "venir en pareja.\l"
-.string "MISTY, nuestra LÍDER DE GIMNASIO,\l"
-.string "suele pasarse por aquí.$"
+.string "This cape is a nice place to come with\n"
+	.string "your mate. MISTY, our GYM LEADER comes\l"
+	.string "here often.$"
 
 
 Route25_2::
@@ -23,12 +22,10 @@ release
 end
 
 Route25_Text_2:
-.string "¿Cómo?\n"
-.string "¿Vienes solo al CABO CELESTE?\l"
+.string "Are you coming alone?\n"
 .string "…\l"
 .string "…\l"
-.string "Bueno, se supone que a este lugar\l"
-.string "se viene en pareja…$"
+.string "Well, you're supposed to come with someone.$"
 
 
 Route25_3::
@@ -145,9 +142,8 @@ release
 end
 
 Route25_Casa_Bill_Text_Abajo:     
-    .string "(Después de todo lo que paso aquí\n"
-	.string "más vale no volver a tentar a la\l"
-	.string "suerte).$"
+.string "(After all events here, it's better not\n"
+	.string "to tempt luck).$"
 
 
 Route25_Casa_Bill_AbajoMove1:

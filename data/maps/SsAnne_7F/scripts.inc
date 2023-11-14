@@ -14,8 +14,7 @@ release
 end
 
 SsAnne7F_Text_2:
-.string "¡Marchando el OCTILLERY a la\n"
-.string "gallega!$"
+.string "Going the galician OCTILLERY!$"
 
 
 
@@ -27,9 +26,8 @@ release
 end
 
 SsAnne7F_Text_3:
-.string "A nuestro CAPITÁN le encantan los\n"
-	.string "POKÉMON de HOENN, ¡especialmente los\l"
-	.string "de agua!$"
+.string "Our CAPTAIN loves HOENN POKÉMON,\n"
+	.string "especially water type!$"
 
 
 
@@ -41,9 +39,8 @@ release
 end
 
 SsAnne7F_Text_4:
-.string "Enrólate de marinero decían…\n"
-.string "Vivirás grandes aventuras\l"
-.string "decían…$"
+.string "Enlist as a sailor, they said… It will be\n"
+	.string "so fun, they said…$"
 
 
 
@@ -57,7 +54,7 @@ end
 SsAnne7F_Text_5:
 .string "Sniff…\n"
 .string "Sniff…\l"
-.string "Yo solo pelo cebolla…$"
+.string "I only get to peel onions…$"
 
 
 
@@ -69,8 +66,9 @@ release
 end
 
 SsAnne7F_Text_6:
-.string "¡Yo solo pelo patatas!\n"
-.string "¡Tengo las manos llenas de tierra!$"
+.string "Hum-de-hum-de-ho…\n"
+.string "I peel spuds every day!l"
+.string "Hum-hum…$"
 
 
 

@@ -27,15 +27,12 @@ release
 end
 
 Route4_PokemonCenter_Text_2:
-.string "-El TEAM ROCKET atraca a mano\n"
-.string "armada a los ciudadanos de CIUDAD\l"
-.string "CELESTE-\l"
-.string "Debería de darte vergüenza salir\l"
-.string "en las noticias por motivos así,\l"
-.string "habéis puesto patas arriba una\l"
-.string "vivienda y robado todas sus MT\l"
-.string "EXCAVAR, ¡espero al menos que tú\l"
-.string "no hayas tenido nada que ver!$"
+.string "-TEAM ROCKET robs CERULEAN citizens-\n"
+	.string "You should be ashamed of appearing in\l"
+	.string "the news because of that, you have\l"
+	.string "turned a house upside down and stole\l"
+	.string "all their TM DIG, I hope you weren't\l"
+	.string "involved in that!$"
 
 
 
@@ -47,11 +44,11 @@ release
 end
 
 Route4_PokemonCenter_Text_3:
-.string "El PC es otro servicio básico que\n"
-.string "los ROCKET pueden usar, junto con\l"
-.string "los CENTROS POKÉMON es lo único\l"
-.string "público a lo que tenéis acceso,\l"
-.string "¡yo no os daría ni eso!$"
+.string "PC is another basic service that you\n"
+	.string "ROCKETs can use; along with POKÉMON\l"
+	.string "CENTERS these are the only public\l"
+	.string "services that you have access to. I\l"
+	.string "wouldn't give you even those!$"
 
 
 
@@ -63,9 +60,8 @@ release
 end
 
 Route4_PokemonCenter_Text_4:
-.string "¡Hey, deja de mirar las 6 POKÉ\n"
-.string "BALL de mi cinturón!\l"
-.string "¡No me las robarás!$"
+.string "Hey yo! Stop staring at my 6 belt's POKÉ\n"
+	.string "BALLS! You ain't stealing ‘em!$"
 
 
 
@@ -122,56 +118,48 @@ release
 end
 
 Route4_PokemonCenter_1F_Estafa_Texto_1:
-.string "Pareces un ROCKET con grandes\n"
-	.string "aspiraciones. De esos que no se\l"
-	.string "conforman con un simple RATATTA o\l"
-	.string "EKANS. Escucha.$"
+.string "You look like a ROCKET with big\n"
+	.string "aspirations. One of those that doesn't\l"
+	.string "settle with a normal RATATTA nor EKANS.\l"
+	.string "Listen up.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_2:
-.string "¿Te gustaría adquirir un\n"
-	.string "extraordinario POKÉMON que hará\l"
-	.string "que todos te teman y respeten por\l"
-	.string "solo 500 POKÉS?\l"
-	.string "¡Nadie más que yo te hará una\l"
-	.string "oferta como esta!$"
+.string "Would you like to obtain an\n"
+	.string "extraordinary POKÉMON that will make\l"
+	.string "you feared and respected, for just 500\l"
+	.string "POKÉS? No one but me will make you such\l"
+	.string "an offer!$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_3:
-.string "Perfecto. Otro iluso al que acabo\n"
-	.string "de estafar.$"
+.string "Nice. Another fool that I've just\n"
+	.string "scammed.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_4:
-.string "¿De verdad creías que alguien iba\n"
-	.string "a venderte un POKÉMON así por ese\l"
-	.string "precio?\l"
-	.string "Un MAGIKARP es completamente\l"
-	.string "inútil.$"
+.string "You really tought that anyone would\n"
+	.string "sell a POKÉMON for that price? MAGIKARP\l"
+	.string "is completely useless.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_5:
-.string "Es más, eres un ROCKET, no tengo\n"
-	.string "porqué entregarte nada, quien\l"
-	.string "estafa a un ladrón tiene 1000 años\l"
-	.string "de perdón o algo así dice el\l"
-	.string "dicho, ¿no?$"
+.string "In addition, you are a ROCKET, I don't\n"
+	.string "have to give you anything, “steal from\l"
+	.string "the crook, a millennium off the hook” is\l"
+	.string "what is said, isn't it?$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_6:
-.string "No puedes reclamar nada a la\n"
-	.string "POLICÍA, ya que van tras vuestra,\l"
-	.string "y nadie te hará caso, o siquiera\l"
-	.string "creerá. Es el negocio perfecto,\l"
-	.string "vender aire por 500 POKÉS.\l"
-	.string "¡Jojojojo!$"
+.string "You can't claim anything to the police,\n"
+	.string "because they're after you, and no one\l"
+	.string "will listen, nor believe in you. It's the\l"
+	.string "ultimate business, selling air for 500\l"
+	.string "POKÉS. Hahahaha!$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_7:
-.string "Ahí te quedas ROCKET, jamás podrás\n"
-	.string "encontrarme, la próxima vez\l"
-	.string "piénsate dos veces con quien haces\l"
-	.string "negocios.$"
+.string "Until never, ROCKET, you can't find me.\n"
+	.string "Next time, think twice about who you do\l"
+	.string "business with.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_8:
-.string "Pensaba que los ROCKET teníais\n"
-	.string "buen olfato para detectar un buen\l"
-	.string "negocio cuando lo tienen delante,\l"
-	.string "que decepción.$"
+.string "And I thought you ROCKET had a good\n"
+	.string "nose for business. How disappointing.$"
 
 Route4_PokemonCenter_1F_Estafa_Move_1:
 walk_in_place_up

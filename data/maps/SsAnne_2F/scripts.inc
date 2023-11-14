@@ -9,10 +9,9 @@ release
 end
 
 SsAnne2F_Text_1:
-.string "No es muy común ver a gente de por\n"
-.string "aquí con esa vestimenta.\l"
-.string "¿Es alguna costumbre de algún\l"
-.string "pueblo de esta región?$"
+.string "It is not common to see people around\n"
+	.string "here with those clothes. Is it some kind\l"
+	.string "of habit in any town in this region?$"
 
 
 
@@ -24,5 +23,4 @@ release
 end
 
 SsAnne2F_Text_2:
-.string "La fiesta de lujo del SS.ANNE es\n"
-.string "incomparable.$"
+.string "The SS.ANNE luxury party is matchless.$"

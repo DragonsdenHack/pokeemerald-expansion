@@ -11,7 +11,7 @@ end
 
 Route4_Text_1:
 .string "¡Ouch!\n"
-.string "¡Me tropecé con un POKÉMON rocoso,\l"
+.string "I stumbled upon a rocky Pokémon,\l"
 .string "GEODUDE!$"
 
 
@@ -23,13 +23,12 @@ release
 end
 
 Route4_Text_2:
-.string "Si no fuera por la imposibilidad\n"
-.string "de entrar a los GIMNASIOS POKÉMON,\l"
-.string "quizás me plantearía incluso ser\l"
-.string "RECLUTA ROCKET. Esa vida de\l"
-.string "criminal al margen de la ley\l"
-.string "siempre me llamó la atención,\l"
-.string "¡pero prefiero retar a BROCK!$"
+.string "If it weren't for the impossibility of\n"
+	.string "entering POKÉMON GYMS, maybe I would\l"
+	.string "even consider becoming a ROCKET GRUNT.\l"
+	.string "That life of crime on the wrong side of\l"
+	.string "the law has always intrigued me, but I\l"
+	.string "prefer challenging BROCK!$"
 
 
 Route4_3::
@@ -48,11 +47,10 @@ release
 end
 
 Route4_Text_5:
-.string "¡Recuerda!\n"
-.string "¡Más vale potencia sostenida,\l"
-.string "constante y controlada que\l"
-.string "desgaste permanentemente al rival\l"
-.string "que el poder sin control!$"
+.string "Better to have sustained, constant and\n"
+	.string "controlled power that causes\l"
+	.string "permanent wear and tear on the\l"
+	.string "opponent than power without control!$"
 
 
 Route4_6::
@@ -63,14 +61,12 @@ release
 end
 
 Route4_Text_6:
-.string "Las medias tintas no sirven de\n"
-	.string "nada, si quieres tumbar al rival\l"
-	.string "debes hacerlo con un poder bruto y\l"
-	.string "descontrolado, es la única forma\l"
-	.string "de sorprender y resquebrajar su\l"
-	.string "defensa, no darle tiempo a\l"
-	.string "recuperarse.$"
-end
+.string "Half-measures won't get you anywhere.\n"
+	.string "If you want to bring down the opponent,\l"
+	.string "you must do it with raw and unbridled\l"
+	.string "power. It's the only way to surprise and\l"
+	.string "shatter their defense, not giving them\l"
+	.string "time to recover.$"
 
 
 
@@ -145,81 +141,66 @@ release
 end
 
 Route4_Evento_Karatekas_Text_1:
-.string "¿Qué quieres, ROCKET?\n"
-	.string "...\l"
-	.string "...\l"
-	.string "¿MEGAPUÑO Y MEGAPATADA?\l"
-	.string "Claro, somos expertos en esos\l"
-	.string "movimientos, nada como una buena\l"
-	.string "patada para dar OKKO al rival, ¿no\l"
-	.string "crees?$"
+.string "What do you want, ROCKET? ... MEGA PUNCH\n"
+	.string "AND MEGA KICK? Of course, we're experts\l"
+	.string "in those moves, nothing like a good kick\l"
+	.string "to give the opponent a KO, don't you\l"
+	.string "think?$"
 
 Route4_Evento_Karatekas_Text_2:
-.string "No le hagas caso, MEGAPUÑO es el\n"
-	.string "mejor movimiento que existe,\l"
-	.string "tenemos prohibido ofrecer nuestros\l"
-	.string "servicios de tutor de movimientos\l"
-	.string "a los ROCKET, ¡pero podemos\l"
-	.string "hacerte una demostración!$"
+.string "Don't pay attention, MEGA PUNCH is the\n"
+	.string "best move that exists. We are forbidden\l"
+	.string "from offering our move tutoring\l"
+	.string "services to ROCKETS, but we can give\l"
+	.string "you a demonstration!$"
 
 Route4_Evento_Karatekas_Text_3:
-.string "¿Mi ofensiva no fue suficiente?$"
+.string "Wasn't my offense enough?$"
 
 Route4_Evento_Karatekas_Text_4:
-.string "¡No puede ser!\n"
-	.string "¡Solo los POKÉMON rocosos resisten\l"
-	.string "mi MEGAPUÑO!$"
+.string "No way!\n"
+	.string "Only rocky POKÉMON withstand my MEGAPUNCH!$"
 
 Route4_Evento_Karatekas_Text_5:
-.string "¡JA!\n"
-	.string "¡Ya te dije que tu movimiento no\l"
-	.string "tiene la potencia suficiente como\l"
-	.string "para desbordar!$"
+.string "HA! I told you already that your move\n"
+	.string "doesn't have enough power to subdue!$"
 
 Route4_Evento_Karatekas_Text_6:
-.string "Vas a aprender lo que es un\n"
-	.string "movimiento de verdad, ¡todos tus\l"
-	.string "POKÉMON caerán de un solo golpe!$"
+.string "You're going to learn what a real move\n"
+	.string "is, all your POKÉMON will fall in one fell\l"
+	.string "swoop!$"
 
 Route4_Evento_Karatekas_Text_7:
-.string "¿También fallé?$"
+.string "Did I fail too?$"
 
 Route4_Evento_Karatekas_Text_8:
-.string "¡Te lo dije!\n"
-	.string "¡Tu MEGAPATADA no hace más que\l"
-	.string "fallar!\l"
-	.string "¿Para qué quieres tanta potencia\l"
-	.string "si después no das en el blanco la\l"
-	.string "mitad de las veces?$"
+.string "I told you! Your MEGA KICK just misses!\n"
+	.string "Why do you want so much power if you\l"
+	.string "don't hit the target half the time?$"
 
 Route4_Evento_Karatekas_Text_9:
-.string "Prefiero caer por haber fallado yo\n"
-	.string "que hundirme en la pésima potencia\l"
-	.string "de MEGAPUÑO, con eso no vas a\l"
-	.string "tumbar ni a un METAPOD.$"
+.string "I'd rather fall because I failed than\n"
+	.string "sink in the lousy power of MEGAPUNCH,\l"
+	.string "with that you won't even knock down a\l"
+	.string "METAPOD.$"
 
 Route4_Evento_Karatekas_Text_10:
 .string "...\n"
 	.string "...$"
 
 Route4_Evento_Karatekas_Text_11:
-.string "Gracias por ayudarnos a poner en\n"
-	.string "práctica nuestros nuevos\l"
-	.string "movimientos, no podemos por ley\l"
-	.string "enseñártelos, pero podemos darte\l"
-	.string "esto.$"
+.string "Thank you for helping us put our new\n"
+	.string "moves into practice, we can't teach you\l"
+	.string "them by law, but we can give you this.$"
 
 Route4_Evento_Karatekas_Text_12:
-.string "Es nuestro pequeño secreto para\n"
-	.string "pegar aún más duro con nuestros\l"
-	.string "movimientos, aumentará en un 20%\l"
-	.string "la potencia de los movimientos\l"
-	.string "tipo normal. Si alguna vez llegas\l"
-	.string "a contar con un TAUROS o un\l"
-	.string "KANGASKHAN, no dudes en equiparles\l"
-	.string "con esto, ¡embestirán con mucha más\l"
-	.string "fuerza!$"
-
+.string "It is our little secret to hit even\n"
+	.string "harder with our movements, it will\l"
+	.string "increase the power of normal type\l"
+	.string "movements by 20%. If you ever have a\l"
+	.string "TAUROS or a KANGASKHAN, don't hesitate\l"
+	.string "to equip them with this, they will\l"
+	.string "charge much harder!$"
 
 Route4_Evento_Karatekas_move1:
 walk_in_place_up
@@ -269,12 +250,11 @@ release
 end
 
 Route4_Frank_Text1:
-.string "FRANK: ¿RECLUTA {PLAYER}?\n"
-	.string "¡¡¿Dónde estás?!!\l"
-	.string "¡¡Vuelve al lugar de los hechos\l"
-	.string "inmediatamente, vas a tener que\l"
-	.string "dar unas cuantas explicaciones\l"
-	.string "sobre lo que ha ocurrido!!$"
+.string "FRANK: GRUNT {PLAYER}? Where the\n"
+	.string "heck are you?! Come back here right\l"
+	.string "now, you need to give me some\l"
+	.string "explanations about what just\l"
+	.string "happened!!$"
 
 Route4_Frank_move1:
 emote_exclamation_mark

@@ -26,9 +26,8 @@ release
 end
 
 CeruleanCity_House2_Text_2:
-.string "¡Mira lo que has hecho!\n"
-.string "¡Nos va a costar meses\l"
-.string "recuperarnos de esto!$"
+.string "Look what you've done! It will take us\n"
+	.string "several months to recover from this!$"
 
 CeruleanCityHouse2_Montanero::
 applymovement OBJ_EVENT_ID_PLAYER, CeruleanCity_House2_Batalla_Montañero_move1
@@ -80,75 +79,66 @@ release
 end
 
 CeruleanCity_House2_Batalla_Montañero_Text_1:
-.string "Se acabó MONTAÑERO, esto es lo que\n"
-	.string "pasa cuando vas fardando por ahí\l"
-	.string "de contar con MTs exclusivas, por\l"
-	.string "desgracia para ti esa MT EXCAVAR\l"
-	.string "puede sernos de gran ayuda, si\l"
-	.string "hubieras colaborado y nos la\l"
-	.string "hubieras entregado por las buenas\l"
-	.string "no hubiéramos puesto tu casa patas\l"
-	.string "arriba. Ahora por tu actitud te\l"
-	.string "robaremos todas, sabemos que\l"
-	.string "tienes decenas de esas MTs y eres\l"
-	.string "tan posesivo que no eres capaz de\l"
-	.string "darnos unas cuantas cuando te lo\l"
-	.string "pedimos por las buenas.$"
+.string "It's over HIKER, this is what happens\n"
+	.string "when you are going to show off about\l"
+	.string "your exclusive TMs, unfortunately for\l"
+	.string "you, that TM DIG would be pretty useful\l"
+	.string "for us, if you had been nice we wouldn't\l"
+	.string "have messed up your house. Now for\l"
+	.string "being like that we will steal all those\l"
+	.string "MT's and you are that possessive that\l"
+	.string "you don't want to share a few with us\l"
+	.string "when we asked gently.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_2:
-.string "MONTAÑERO: No os daré ni una sola MT.\n"
-	.string "Si os damos la mano nos\l"
-	.string "tomáis el brazo entero, ya sabemos\l"
-	.string "cómo os las gastáis. No váis a\l"
-	.string "encontrar las MTs porque las tengo\l"
-	.string "yo, deberéis de vencerme en un\l"
-	.string "combate. Qué pena que seáis tan\l"
-	.string "debiluchos, mi EXCAVAR hará\l"
-	.string "papilla a vuestros miserables\l"
-	.string "EKANS y RATTATA. ¡Vamos, venid!$"
+.string "HIKER: I won't give you even one TM. If\n"
+	.string "we are nice with you, you abuse us, we\l"
+	.string "already know how you spend them. You\l"
+	.string "are not going to find the TMs because I\l"
+	.string "have them, you must beat me in combat.\l"
+	.string "What a pity that you are so weaklings,\l"
+	.string "my DIG will crush your poor EKANS and\l"
+	.string "RATTATA. Come on!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_3:
-.string "¿Y este de dónde ha salido?\n"
-	.string "¿Quieres retarme?\l"
-	.string "¡Vas a arrepentirte!$"
+.string "And this street thrash? Who are you?\n"
+	.string "Do you want to challenge me?\l"
+	.string "You will regret!!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
-.string "Oh... No... Por favor...$"
+.string "Oh… No… Please…$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_5:
-.string "Eso es lo que pasa cuando\n"
-	.string "subestimas a los ROCKET. Pagarás\l"
-	.string "tu arrogancia como es debido.$"
+.string "That's what happens when you\n"
+	.string "underestimate ROCKETs. You will pay for\l"
+	.string "your arrogance.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_6:
-.string "¿Cómo era tu nombre?\n"
+.string "What is your name?\n"
 	.string "¿{PLAYER}?\l"
-	.string "¡Fíjate!\l"
-	.string "¡Este MONTAÑERO tenía nada más y\l"
-	.string "nada menos que 20 MTs EXCAVAR!\l"
+	.string "Wow!\l"
+	.string "This HIKER had 20 TMs DIG!\l"
+	.string "And he wanted it all for himself!\l"
 	.string "¡Y las quería todas para él!\l"
 	.string "Gracias a tí hemos podido\l"
-	.string "sacárselas. Ten por seguro que\l"
-	.string "hablaré de ti a PETREL.\l"
-	.string "Toma esto, lo mereces.$"
+    .string "Due to you we were able to get them. Be\l"
+	.string "sure that I will talk to PETREL about\l"
+	.string "this. Take this, you deserve it.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_7:
-.string "Tenía también este otro objeto, al\n"
-	.string "parecer potencia los movimientos\l"
-	.string "tipo TIERRA, el muy granuja seguro\l"
-	.string "que lo usaba para hacer más daño\l"
-	.string "con su EXCAVAR, quédatelo.$"
+.string "I had this other item, which seems to be\n"
+	.string "to maximize GROUND type movements,\l"
+	.string "that rascal for sure used it to do more\l"
+	.string "damage with DIG, keep it for you.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_8:
-.string "Nada más camarada, con estas MTs\n"
-	.string "podremos abastecer y agilizar\l"
-	.string "nuestras investigaciones en\l"
-	.string "lugares cerrados y salir de cuevas\l"
-	.string "más facilmente, has colaborado en\l"
-	.string "aprovisionar de recursos a nuestra\l"
-	.string "organización. Buen trabajo. Nos\l"
-	.string "vemos en el CUARTEL, donde tú ya\l"
-	.string "sabes.$"
+.string "That's all mate, with these TMs we could\n"
+	.string "do improvements on our investigations\l"
+	.string "when we are in closed places and go out\l"
+	.string "easier from caves. You collaborated to\l"
+	.string "supply resources to our organization.\l"
+	.string "Good Job. See you later in the BARRACK,\l"
+	.string "you know.$"
 
 CeruleanCity_House2_Batalla_Montañero_move1:
 walk_in_place_right

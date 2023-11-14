@@ -9,8 +9,7 @@ release
 end
 
 CeruleanCity_House4_Text_1:
-.string "Hace muchos años había cosas que\n"
-.string "eran consideradas muy normales…y\l"
-.string "ahora no lo son para nada, y al\l"
-.string "revés…\l"
-.string "Los nuevos tiempos, dicen.$"
+.string "Many years ago, there were things that\n"
+	.string "were considered very normal, and now\l"
+	.string "they are not at all, and vice versa... The\l"
+	.string "new times, they say.$"

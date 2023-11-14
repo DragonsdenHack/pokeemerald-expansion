@@ -58,10 +58,9 @@ Bill_Garden_Warp_text_1:
 Bill_Garden_Warp_Text_YesNo:
     .string "...\n"
 	.string "...\l"
-	.string "Este póster está cubriendo un\l"
-	.string "pequeño túnel que lleva a algún\l"
-	.string "otro lugar.\l"
-	.string "¿Quieres arrastrarte por el túnel?$"
+    .string "This poster seems to be covering some\l"
+	.string "tunnel that leads somewhere else.\l"
+	.string "Wanna cross it?$"
 
 Bill_Garden_Warp_move1:
 emote_exclamation_mark
@@ -150,55 +149,44 @@ walk_in_place_up
 step_end
 
 Bill_Garden_Policia_Atlas_text_1:
-.string "Quedas preso ROCKET. Has cometido\n"
-	.string "múltiples crímenes contra la\l"
-	.string "región y resistido a la autoridad,\l"
-	.string "ahora entréganos la patente\l"
-	.string "robada.$"
+.string "You're under arrest, ROCKET. You have\n"
+	.string "committed multiple crimes and resisted\l"
+	.string "against authority. Now, give us back\l"
+	.string "the stolen patent.$"
 
 Bill_Garden_Policia_Atlas_text_2:
-.string "BILL: Qué pena que esto vaya a\n"
-	.string "acabar así, debieron de informarte\l"
-	.string "de las consecuencias que tenía\l"
-	.string "meterse con el gran BILL en esta\l"
-	.string "región.\l"
-	.string "Qué desperdicio, perder a un\l"
-	.string "ENTRENADOR de tu nivel de esta\l"
-	.string "forma tan ridícula, parece que\l"
-	.string "vuestros ADMINISTRADORES y\l"
-	.string "EJECUTIVOS no son tan buenos a la\l"
-	.string "hora de tomar decisiones.\l"
-	.string "¿Qué se siente al saber que tus\l"
-	.string "propios superiores te enviaron al\l"
-	.string "matadero?\l"
-	.string "No me extraña, no sois más que un\l"
-	.string "puñado de ladrones sin principios\l"
-	.string "ni criterio alguno.\l"
-	.string "¡Ahora estás sol...!$"
+.string "BILL: Too bad that this has to end like\n"
+	.string "this, you should've been informed about\l"
+	.string "the consequences of messing up with\l"
+	.string "BILL in this region. It's a shame that a\l"
+	.string "TRAINER like you end up like this, your\l"
+	.string "ADMINISTRATORS and EXECUTIVES aren't\l"
+	.string "as good at making decisions. How is the\l"
+	.string "feeling of being sent to die by your own\l"
+	.string "superiors? It's OK, in the end you are\l"
+	.string "just a bunch of moral-less thieves with\l"
+	.string "no criteria. Now you're alon…!$"
 
 Bill_Garden_Policia_Atlas_text_3:
-.string "????: Te equivocas.$"
+.string "????: You're wrong.$"
 
 Bill_Garden_Policia_Atlas_text_4:
-.string "BILL: ADMINISTRADOR JEFE ATLAS...$"
+.string "BILL: BOSS ADMIN ATLAS…$"
 
 Bill_Garden_Policia_Atlas_text_5:
-.string "ATLAS: No he podido evitar oír\n"
-	.string "ciertos ataques hacia nuestra\l"
-	.string "organización.\l"
-	.string "Como puedes ver, aquí estoy.\l"
-	.string "Te equivocas, en el TEAM ROCKET\l"
-	.string "nunca dejamos solo a quién lo\l"
-	.string "merezca.\l"
-	.string "¿Falta de principios?\l"
-	.string "¿Ladrones?\l"
-	.string "Me temo que esos términos se\l"
-	.string "quedan muy cortos para lo que\l"
-	.string "vosotros hacéis en esta región.$"
+.string "ATLAS: I couldn't prevent myself from\n"
+	.string "hearing some attacks against our\l"
+	.string "organization. As you can see, I'm here.\l"
+	.string "You're wrong, in TEAM ROCKET we never\l"
+	.string "leave alone anyone who deserves it.\l"
+	.string "Lack of principles? Thieves? I'm afraid\l"
+	.string "that terms are not big enough to\l"
+	.string "describe what you're doing to the\l"
+	.string "region.$"
 
 Bill_Garden_Policia_Atlas_text_6:
-.string "BILL: ¡DETENÉDLOS, A LOS DOS!\n"
-	.string "¡QUE NO ESCAPEN!$"
+.string "BILL: DETAIN BOTH OF THEM! DO NOT LET\n"
+	.string "THEM ESCAPE!$"
 
 Bill_Garden_Policia_Atlas_text_7:
-.string "ATLAS: ¡SKARMORY, VUELO!$"
+.string "ATLAS: SKARMORY, USE FLY!$"

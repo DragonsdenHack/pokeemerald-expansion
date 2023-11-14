@@ -127,30 +127,26 @@ CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5:
 	.string "thieves like you.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_6:
-.string "¡Has hecho que me irrite!\n"
-	.string "¡Verás cómo tratamos aquí a\l"
-	.string "ladrones que vienen intentando ser\l"
-	.string "legales!$"
+.string "You made me get mad! You will see how we\n"
+	.string "deal with thieves like you that come\l"
+	.string "trying to be legal.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_7:
-.string "¡NO!\n"
-	.string "¡Mis POKÉMON amaestrados a golpe\l"
-	.string "de látigo!$"
+.string "NO! My trained POKÉMON with a wip!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_8:
-.string "¡Mis bravos POKÉMON!\n"
-	.string "¡Esto no entraba en mis planes, no\l"
-	.string "esperaba que un ROCKET tuviera\l"
-	.string "respuesta a mis POKÉMON!$"
+.string "My brave POKÉMON! This is not what I\n"
+	.string "planned, I didn't expect that a ROCKET\l"
+	.string "could fight back my POKÉMON!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_9:
-.string "Mira, te cambiaré ese maldito BONO\n"
-	.string "por la BICI y todo arreglado.\l"
-	.string "¿Vale?$"
+.string "Hey look, I will exchange that damn\n"
+	.string "VOUCHER for the BICYCLE and alright. Is\l"
+	.string "it okay?$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_10:
-.string "{PLAYER} cambió el\n"
-	.string "BONO BICI por una BICICLETA.$"
+.string "{PLAYER} exchanged the BIKE VOUCHER\n"
+	.string "for a BICYCLE.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Move_1:
 emote_exclamation_mark

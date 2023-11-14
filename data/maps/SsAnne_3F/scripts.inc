@@ -14,10 +14,9 @@ release
 end
 
 SsAnne3F_Text_2:
-.string "¡Vamos, relájate, estás aquí para\n"
-.string "pasarlo bien!\l"
-.string "¡Ni que estuvieras de infiltrado\l"
-.string "en una misión de alto secreto!$"
+.string "Come on, relax, you are here to have\n"
+	.string "fun! It is not like you were here as an\l"
+	.string "infiltrator in a top secret mission.$"
 
 
 
@@ -28,9 +27,9 @@ release
 end
 
 SsAnne3F_Text_3:
-.string "¡Así!\n"
-	.string "¡Enséñale a ese joven imberbe de\l"
-	.string "KANTO cómo nos las gastamos aquí!$"
+.string "Yeah!\n"
+.string "Teach that beardless young man from\l"
+	.string "KANTO how we fight here!$"
 
 
 
@@ -41,9 +40,8 @@ release
 end
 
 SsAnne3F_Text_4:
-.string "¡Vamos, POLIWHIRL!\n"
-	.string "¡Mantén alto el nombre de\l"
-	.string "nuestra flota!$"
+.string "Come on, POLIWHIRL!\n"
+	.string "Keep high our fleet name!$"
 
 
 
@@ -56,8 +54,8 @@ release
 end
 
 SsAnne3F_Text_5:
-.string "¡POLIWHIRL!\n"
-	.string "¡RAYO BURBUJA!$"
+.string "POLIWHIRL!\n"
+	.string "BUBBLE BEAM!$"
 
 SsAnne3F_Text_5_2:
 .string "¡Whirl!$"
@@ -71,9 +69,8 @@ release
 end
 
 SsAnne3F_Text_7:
-.string "¡Aficionados!\n"
-	.string "¡Si saco a mi PINSIR este combate\l"
-	.string "se acaba ahora mismo!$"
+.string "Amateurs! If I send my PINSIR this\n"
+	.string "match will be over right now!$"
 
 SsAnne3F_Andra::
 lock
@@ -89,14 +86,11 @@ release
 end
 
 SsAnne3F_Andra_Text_1:
-.string "ANDRA: Al parecer este es el\n"
-	.string "camarote del CAPITÁN.\l"
-	.string "PETREL me ha pedido que esperemos\l"
-	.string "un poco antes de darnos unas\l"
-	.string "últimas indicaciones, aprovecha si\l"
-	.string "quieres mientras para darte una\l"
-	.string "vuelta por el barco y entrenar un\l"
-	.string "poco más.$"
+.string "ANDRA: Seems like this is the CAPTAIN\n"
+	.string "cabin. PETREL asked me to wait a bit\l"
+	.string "before giving us last indications, take\l"
+	.string "advantage if you wanna go around for\l"
+	.string "the ship and train a bit more.$"
 
 SsAnne3F_Andra_move_1:
 walk_in_place_up
@@ -127,11 +121,9 @@ release
 end
 
 SsAnne3F_Andra_lista_Text_1:
-.string "¡{PLAYER}!\n"
-	.string "¡Ya está todo listo para entrar!\l"
-	.string "¡Vamos a enseñarle a ese CAPITÁN\l"
-	.string "cómo se las gastan los ROCKET\l"
-	.string "aquí en KANTO!$"
+.string "{PLAYER}! It is all ready to enter!\n"
+	.string "Let's teach that CAPTAIN how we cope\l"
+	.string "here on KANTO!$"
 
 SsAnne3F_Andra_lista_move1:
 walk_up
