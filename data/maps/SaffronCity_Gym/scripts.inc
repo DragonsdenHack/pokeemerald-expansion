@@ -226,7 +226,7 @@ SaffronCity_Lider_Gimnasio_Texto_1:
 	.string "aquí, no estáis atados por los\l"
 	.string "lazos del destino, sois un libro\l"
 	.string "abierto aún por escribir, pura\l"
-	.string "potencialidad, aprovechadla es un\l"
+	.string "potencialidad. Aprovechadla, es un\l"
 	.string "don poco común en estos días que\l"
 	.string "corren...\l"
 	.string "En fin, ya estoy divagando\l"
@@ -866,6 +866,11 @@ faceplayer
 compare VAR_UNUSED_0x40F7, 80
 goto_if_gt Cinnabar_Island_Lider_Gimnasio_2
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.2 MSGBOX_AUTOCLOSE
+delay 10
 playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BLAINE_1, Cinnabar_Island_Lider_Gimnasio_Texto_2
@@ -952,6 +957,20 @@ Cinnabar_Island_Lider_Gimnasio_Texto_1:
 Cinnabar_Island_Lider_Gimnasio_Texto_1.1:
 .string "¡Ja! ¡Más vale que tengas\n"
 	.string "ANTIQUEMAR!$"
+
+Cinnabar_Island_Lider_Gimnasio_Texto_1.2:
+.string "Por otro lado, tendrás que disculpar a\n"
+	.string "mi GIMNASIO, pero últimamente han\l"
+	.string "venido muchos aspirantes y no nos ha\l"
+	.string "dado tiempo a colocar nuevos acertijos.$"
+
+Cinnabar_Island_Lider_Gimnasio_Texto_1.3:
+.string "Debes saber que no me gusta esa moda\n"
+	.string "de hacer cosplay con el TEAM ROCKET.\l"
+	.string "Son unos traidores a la verdadera KANTO\l"
+	.string "y merecen desaparecer de su historia,\l"
+	.string "con actos como ese solo se afianzan en\l"
+	.string "el imaginario colectivo, ¿entiendes?$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_2:
 .string "¡Me has machacado!\n"

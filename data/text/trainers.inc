@@ -9756,12 +9756,12 @@ RocketHideoutViridian_Text_Rocket7Defeated:
 
 RocketHideoutViridian_Text_Rocket7PostBattle:
 	.string "Le deseo suerte en su asalto a la\n"
-	.string "LIGA POKÉMON ADMIN {PLAYER}.$"
+	.string "LIGA POKÉMON.$"
 
 
 RocketHideoutViridian_Text_Rocket8Intro:
 	.string "Tranquilo, no te enfrentarás a\n"
-	.string "GIOVANNI, pero si a entrenadores\l"
+	.string "GIOVANNI, pero sí a entrenadores\l"
 	.string "mucho más poderosos que la pobre\l"
 	.string "versión de GIOVANNI que se ve\l"
 	.string "obligada a sacar de cara al\l"

@@ -1184,7 +1184,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_5:
 	.string "convertido en KABUTO y criado\l"
 	.string "hasta el nivel 28 si no recuerdo\l"
 	.string "mal.\l"
-	.string "¡PROTON!\l"
+	.string "¡PROTÓN!\l"
 	.string "¡Entrégale el KABUTO robado a\l"
 	.string "{PLAYER}!$"
 
@@ -3455,10 +3455,10 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_22:
 	.string "solo reservada a unos pocos.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_23:
-.string "PROTON: Pero…$"
+.string "PROTÓN: Pero…$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_24:
-.string "GIOVANNI: ¿Qué ocurre, PROTON?$"
+.string "GIOVANNI: ¿Qué ocurre, PROTÓN?$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_25:
 .string "PROTÓN: Hay algo que no he entendido.\n"

@@ -316,7 +316,7 @@ ViridianForest_Combate_Guays_Texto_12:
 .string "¡HAS OBTENIDO UN PINSIR AL NV:15!$"
 
 ViridianForest_Combate_Guays_Texto_13:
-.string "VERO: ¡Tampoco de pases!\n"
+.string "VERO: ¡Tampoco te pases!\n"
 	.string "¡No ibamos a darte al otro PINSIR!\l"
 	.string "¡Hemos gastado todos nuestros\l"
 	.string "caramelosraros en ponerlo al nivel\l"

@@ -4118,9 +4118,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #if P_UPDATED_ABILITIES >= GEN_6
-            .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_STATIC},
+            .abilities = {ABILITY_DOWNLOAD, ABILITY_DOWNLOAD, ABILITY_DOWNLOAD},
         #else
-            .abilities = {ABILITY_PRESSURE, ABILITY_NONE, ABILITY_LIGHTNING_ROD},
+            .abilities = {ABILITY_DOWNLOAD, ABILITY_DOWNLOAD, ABILITY_DOWNLOAD},
         #endif
         .bodyColor = BODY_COLOR_YELLOW,
         .noFlip = FALSE,

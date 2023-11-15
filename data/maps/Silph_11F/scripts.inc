@@ -399,7 +399,7 @@ Silph_11F_Bill_Presidente_Texto_7:
 Silph_11F_Bill_Presidente_Texto_8:
 .string "Míranos, hemos pasado de buscar\n"
 	.string "FÓSILES en el MT.MOON a ser\l"
-	.string "EJECUTIVOS ROCKETS, con la plena\l"
+	.string "EJECUTIVOS ROCKET, con la plena\l"
 	.string "confianza de GIOVANNI al punto de\l"
 	.string "estar aquí, asegurándonos de que\l"
 	.string "nadie interrumpa una reunión vital\l"
@@ -414,9 +414,9 @@ Silph_11F_Bill_Presidente_Texto_9:
 	.string "POKÉMON, que aún no he explorado\l"
 	.string "de la región, supuestamente allí\l"
 	.string "se encuentra esa MANSIÓN POKÉMON\l"
-	.string "donde crearon a ese MEWTWO,\l"
-	.string "supuestamente el POKÉMON más\l"
-	.string "fuerte que existe, ¿crees que\l"
+	.string "donde crearon a ese MEWTWO.\l"
+	.string "¿De verdad será el POKÉMON más\l"
+	.string "fuerte que existe, crees que\l"
 	.string "GIOVANNI tiene realmente idea de\l"
 	.string "dónde está?$"
 
@@ -554,11 +554,11 @@ Silph_11F_Bill_Presidente_Texto_27:
 
 Silph_11F_Bill_Presidente_Texto_28:
 .string "C.MIGUEL: ¡Señor BILL!\n"
-	.string "¡Vámonos antes de que el resto de\l"
-	.string "ROCKET se den cuenta de nuestro\l"
-	.string "fracaso, podría ser peligroso, ya\l"
-	.string "sabe las ganas que algunos ROCKET\l"
-	.string "le tienen a usted!$"
+	.string "¡Vayámonos antes de que el resto de\l"
+	.string "ROCKET se den cuenta de su fracaso,\l"
+	.string "podría ser peligroso, ya sabe las\l"
+	.string "ganas que algunos ROCKET le tienen\l"
+	.string "a usted!$"
 
 Silph_11F_Bill_Presidente_Texto_29:
 .string "BILL: De modo que tú ganas, ¿eh?\n"

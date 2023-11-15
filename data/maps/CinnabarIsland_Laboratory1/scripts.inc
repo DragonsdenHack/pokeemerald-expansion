@@ -257,7 +257,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_13:
 	.string "peor forma posible, es que ahora\l"
 	.string "el máximo responsable y el primero\l"
 	.string "que debe de responder ante SILPH\l"
-	.string "soy soy, si esto no se soluciona y\l"
+	.string "soy yo. Si esto no se soluciona y\l"
 	.string "los EEVEES no aparecen toda mi\l"
 	.string "carrera como CIENTÍFICO puede\l"
 	.string "acabarse en cuestión de días, por\l"

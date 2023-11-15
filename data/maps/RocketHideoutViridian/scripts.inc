@@ -317,8 +317,8 @@ RocketHideoutViridian_Combate_Petrel_Texto_3:
 
 RocketHideoutViridian_Combate_Petrel_Texto_4:
 .string "Gran combate {PLAYER}, eres un\n"
-	.string "ADMIN ROCKET con todas las de la\l"
-	.string "ley.$"
+	.string "EJECUTIVO ROCKET con todas las\l"
+	.string "de la ley.$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_5:
 .string "¡JAH!\n"
@@ -449,8 +449,8 @@ release
 end
 
 RocketHideoutViridian_Combate_Atlas_Texto_1:
-.string "????: Te estaba esperando, ADMIN\n"
-	.string "{PLAYER}.$"
+.string "????: Te estaba esperando,\n"
+	.string "EJECUTIVO {PLAYER}.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_2:
 .string "ATLAS: Vamos pasa, no te quedes\n"

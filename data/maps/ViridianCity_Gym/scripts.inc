@@ -310,7 +310,7 @@ walk_in_place_down
 step_end
 
 ViridianCity_Gym_Explicacion_Base_Texto_1:
-.string "RECLUTA: Le estábamos esperando\n"
+.string "EJECUTIVO: Le estábamos esperando,\n"
 	.string "EJECUTIVO {PLAYER}, veo que tiene las 7\l"
 	.string "MEDALLAS, GIOVANNI no esperaba\l"
 	.string "menos de usted, sin embargo...$"

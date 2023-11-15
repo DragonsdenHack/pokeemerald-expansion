@@ -296,7 +296,7 @@ release
 end
 
 CeruleanCityGym_Can_Pass_Texto_1:
-.string "¡Es imposible! ... ... LICENCIA forjada en\n"
+.string "¡Es imposible! ... LICENCIA forjada en\n"
 	.string "los históricos despachos del CG de la\l"
 	.string "LIGA POKÉMON de KANTO. ... ¡Disúlpeme\l"
 	.string "señor! ¡Puede usted entrar a nuestro\l"
@@ -552,7 +552,7 @@ release
 end
 
 FuchsiaCityGym_Can_Pass_Texto_1:
-.string "¡Espera! ... ... -La DELEGACIÓN de KANTO,\n"
+.string "¡Espera! ... -La DELEGACIÓN de KANTO,\n"
 	.string "junto con LANCE y toda la ÉLITE 4,\l"
 	.string "autorizan a este ENTRENADOR a ser\l"
 	.string "partícipe del CAMPEONATO de la LIGA\l"

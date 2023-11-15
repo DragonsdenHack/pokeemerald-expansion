@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROUTE_22",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -15,7 +15,7 @@
   "connections": [
     {
       "direction": "right",
-      "offset": -10,
+      "offset": -9,
       "map": "MAP_VIRIDIAN_CITY"
     }
   ],
@@ -23,7 +23,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_BLUE",
       "x": 11,
-      "y": 7,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -36,7 +36,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_SILVER",
       "x": 34,
-      "y": 5,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -49,7 +49,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
       "x": 30,
-      "y": 5,
+      "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
@@ -62,7 +62,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_GIOVANNI",
       "x": 15,
-      "y": 7,
+      "y": 8,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -76,7 +76,7 @@
   "warp_events": [
     {
       "x": 8,
-      "y": 5,
+      "y": 6,
       "elevation": 0,
       "dest_map": "MAP_ROUTE22_PATH",
       "dest_warp_id": 2
@@ -86,7 +86,7 @@
     {
       "type": "trigger",
       "x": 10,
-      "y": 9,
+      "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "89",
@@ -95,7 +95,7 @@
     {
       "type": "trigger",
       "x": 11,
-      "y": 9,
+      "y": 10,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "89",
@@ -115,7 +115,7 @@
     {
       "type": "sign",
       "x": 7,
-      "y": 12,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "Route22Documento_100"

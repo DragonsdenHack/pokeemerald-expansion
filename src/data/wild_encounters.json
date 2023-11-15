@@ -17433,7 +17433,7 @@
             ]
           },
           "water_mons": {
-            "encounter_rate": 0,
+            "encounter_rate": 4,
             "mons": [
               {
                 "min_level": 20,
@@ -17441,8 +17441,8 @@
                 "species": "SPECIES_PSYDUCK"
               },
               {
-                "min_level": 20,
-                "max_level": 25,
+                "min_level": 27,
+                "max_level": 27,
                 "species": "SPECIES_PSYDUCK"
               },
               {

@@ -799,7 +799,7 @@ applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_14
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_54 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_Despues_Move_15
-applymovement 9, RocketHideout_8F_Mision_Silph_Despues_Move_13
+applymovement 9, RocketHideout_8F_Mision_Silph_Despues_Move_13.1
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_55 MSGBOX_AUTOCLOSE
 fadescreen 1
@@ -835,6 +835,10 @@ step_end
 
 RocketHideout_8F_Mision_Silph_Despues_Move_13:
 walk_slow_right
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_13.1:
+walk_in_place_right
 step_end
 
 RocketHideout_8F_Mision_Silph_Despues_Move_12:

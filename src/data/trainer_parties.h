@@ -20439,7 +20439,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aquiles2[] = {
 static const struct TrainerMonItemCustomMoves sParty_Presidentesilph[] = {
     {
     .iv = 130,
-    .lvl = 43,
+    .lvl = 44,
     .species = SPECIES_DODRIO,
     .heldItem = ITEM_LIGHT_CLAY,
     .evs = {56, 56, 56, 56, 56, 56},
@@ -20448,7 +20448,7 @@ static const struct TrainerMonItemCustomMoves sParty_Presidentesilph[] = {
     },
     {
     .iv = 130,
-    .lvl = 44,
+    .lvl = 45,
     .species = SPECIES_RAPIDASH,
     .heldItem = ITEM_SITRUS_BERRY,
     .evs = {56, 56, 56, 56, 56, 56},
@@ -20457,7 +20457,7 @@ static const struct TrainerMonItemCustomMoves sParty_Presidentesilph[] = {
     },
     {
     .iv = 130,
-    .lvl = 45,
+    .lvl = 46,
     .species = SPECIES_RHYDON,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {56, 56, 56, 56, 56, 56},
@@ -20466,7 +20466,7 @@ static const struct TrainerMonItemCustomMoves sParty_Presidentesilph[] = {
     },
     {
     .iv = 230,
-    .lvl = 46,
+    .lvl = 47,
     .species = SPECIES_VENUSAUR,
     .heldItem = ITEM_BLACK_SLUDGE,
     .evs = {56, 56, 56, 56, 56, 56},
