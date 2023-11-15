@@ -27,12 +27,13 @@ release
 end
 
 SixIsland_PokemonCenter_Text_2:
-.string "Tú ya sabes que hay POKéMON que\n"
-.string "evolucionan durante el intercambio,\l"
-.string "¿no?\p"
-.string "¿Y sabes que algunos necesitan un\n"
-.string "objeto concreto para evolucionar\l"
-.string "durante el intercambio?$"
+.string "You know of POKéMON that evolve\n"
+    .string "only upon trading, yes?\p"
+    .string "But did you know that there are\n"
+    .string "still others?\p"
+    .string "Some POKéMON evolve only when\n"
+    .string "traded while holding specific items.$"
+
 
 
 
@@ -44,8 +45,8 @@ release
 end
 
 SixIsland_PokemonCenter_Text_3:
-.string "Llevo diez años buscando\n"
-.string "las RUINAS.\p"
-.string "No, mucho más, ¡llevo veinte!\p"
-.string "Creo que en esta isla hay algo\n"
-.string "raro.$"
+.string "For ten years, I've searched for\n"
+    .string "RUINS.\p"
+    .string "No, make that twenty years.\p"
+    .string "I get this feeling that there's\n"
+    .string "something hidden on this island.$"

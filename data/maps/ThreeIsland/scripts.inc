@@ -21,10 +21,10 @@ release
 end
 
 ThreeIsland_Text_4:
-.string "Voy a entrenar a mi DODUO en el\n"
-.string "BOSQUE BAYA.\p"
-.string "Cuando evolucione, participaré\n"
-.string "en algún juego en ISLA SECUNDA.$"
+.string "I'm going to train my DODUO in the\n"
+    .string "BERRY FOREST.\p"
+    .string "When it evolves, I'm going to play\n"
+    .string "a game on TWO ISLAND.$"
 
 
 ThreeIsland5::
@@ -35,11 +35,11 @@ release
 end
 
 ThreeIsland_Text_5:
-.string "ISLA TERA es la isla más poblada\n"
-.string "de esta zona.\p"
-.string "Vale que no sea la más animada,\n"
-.string "pero mejor así que tener a los\l"
-.string "salvajes de las motos por aquí.$"
+.string "THREE ISLAND is actually the most\n"
+    .string "populous of the islands here.\p"
+    .string "Still, it could be less sleepy.\p"
+    .string "But I wouldn't want to see goons\n"
+    .string "like those BIKERS here again.$"
 
 
 ThreeIslandDocumento_101::
@@ -47,8 +47,8 @@ msgbox ThreeIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 ThreeIslandDocumento_Text_101:
-.string "ISLA TERA\n"
-	.string "La isla de los lazos familiares.$"
+.string "THREE ISLAND\n"
+    .string "Kin Island of Family Bonding$"
 
 ThreeIsland_Secundaria_Recreativos::
 lock

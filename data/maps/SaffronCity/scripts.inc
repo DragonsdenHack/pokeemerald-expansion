@@ -208,8 +208,8 @@ msgbox SaffronCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_100:
-.string "¡Último producto de SILPH!\n"
-	.string "Lanzamiento indeterminado...$"
+.string "SILPH's latest product!\n"
+    .string "Release to be determined…$"
 
 
 
@@ -218,11 +218,12 @@ msgbox SaffronCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_101:
-	.string "Consejos de entrenador:\n"
-	.string "La nueva Super Ball ofrece un\l"
-	.string "doble de posibilidades de atrapar\l"
-	.string "a un Pokémon que la convencional\l"
-	.string "Poké Ball.$"
+.string "TRAINER TIPS\p"
+    .string "FULL HEAL cures all ailments like\n"
+    .string "burns, paralysis, poisoning,\l"
+    .string "freezing, and sleep.\p"
+    .string "It costs a bit more, but it's more\n"
+    .string "convenient than buying other items.$"
 
 
 
@@ -231,8 +232,7 @@ msgbox SaffronCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_102:
-	.string "SILPH SA\n"
-	.string "Sede financiera$"
+.string "SILPH CO. OFFICE BUILDING$"
 
 
 
@@ -241,9 +241,8 @@ msgbox SaffronCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_103:
-	.string "CIUDAD AZAFRÁN\n"
-	.string "La brillante y dorada tierra del\l"
-	.string "comercio.$"
+.string "SAFFRON CITY\n"
+    .string "Shining, Golden Land of Commerce$"
 
 
 
@@ -252,7 +251,7 @@ msgbox SaffronCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_104:
-	.string "Casa del Sr.Psíquico$"
+.string "MR. PSYCHIC'S HOUSE$"
 
 
 
@@ -261,7 +260,7 @@ msgbox SaffronCityDocumento_Text_105, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_105:
-	.string "DOJO KARATE$"
+.string "FIGHTING DOJO$"
 
 
 
@@ -270,10 +269,9 @@ msgbox SaffronCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_106:
-	.string "GIMNASIO de CIUDAD AZAFRÁN\n"
-	.string "LÍDER: SABRINA\l"
-	.string "¡La maestra de los POKÉMON\l"
-	.string "PSÍQUICOS!$"
+.string "SAFFRON CITY POKéMON GYM\n"
+    .string "LEADER: SABRINA\l"
+    .string "The Master of PSYCHIC POKéMON!$"
 
 
 
@@ -282,9 +280,10 @@ msgbox SaffronCityDocumento_Text_107, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_107:
-	.string "Club de Fans de Entrenadores\n"
-	.string "Muchos entrenadores han inscrito\l"
-	.string "sus nombres en este cartel.$"
+.string "POKéMON TRAINER FAN CLUB\p"
+    .string "Many TRAINERS have scribbled their\n"
+    .string "names on this sign.$"
+
 
 
 

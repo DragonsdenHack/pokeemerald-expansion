@@ -27,17 +27,16 @@ release
 end
 
 OneIsland_Text_2:
-.string "La verdad es que esta isla está\n"
-.string "plantada en medio de la nada,\l"
-.string "pero bueno...\p"
-.string "Menos mal que tenemos a un\n"
-.string "chicarrón hecho y derecho como\l"
-.string "CELIO.\p"
-.string "Mi nieta estaba un poco nerviosa\n"
-.string "con la llegada del amigo de CELIO.\p"
-.string "¿Será un POKéMANÍACO?\p"
-.string "En fin..., yo lo que sé es que\n"
-.string "estamos encantados con CELIO.$"
+.string "Here we are on an island smack in\n"
+    .string "the middle of nowhere.\p"
+    .string "We're lucky to have an upstanding\n"
+    .string "young man like CELIO here.\p"
+    .string "My granddaughter was in a tizzy\n"
+    .string "over CELIO's friend.\p"
+    .string "Something about a famous\n"
+    .string "POKéMANIAC?\p"
+    .string "I'm not sure what that means, but\n"
+    .string "CELIO is quite the man!$"
 
 
 OneIsland3::
@@ -48,17 +47,16 @@ release
 end
 
 OneIsland_Text_3:
-.string "¿Qué? ¿Disfrutando del paisaje?\n"
-.string "El tiempo es fabuloso, ¿eh?$"
-
-
+.string "Hi, sight-seeing, are you?\n"
+    .string "Isn't the warm climate here great?$"
 
 OneIslandDocumento_100::
 msgbox OneIslandDocumento_Text_100, MSGBOX_SIGN   
 end
 
 OneIslandDocumento_Text_100:
-.string "¡Expandiendo el mundo POKÉMON!$"
+.string "Expanding the POKéMON World!\n"
+    .string "POKéMON NET CENTER$"
 
 
 
@@ -67,5 +65,5 @@ msgbox OneIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 OneIslandDocumento_Text_101:
-.string "ISLA PRIMA\n"
-	.string "Donde los amigos se reunen.$"
+.string "ONE ISLAND\n"
+    .string "Friends Gather at Knot Island$"

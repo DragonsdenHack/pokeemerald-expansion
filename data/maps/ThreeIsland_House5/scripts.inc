@@ -9,6 +9,9 @@ release
 end
 
 ThreeIsland_House5_Text_1:
-.string "Me encanta jugar con PEDRITA, mi\n"
-.string "vecina, muchas veces vamos al\l"
-.string "bosque y ahí pasamos el día.$"
+.string "Me?\n"
+    .string "I'm not LOSTELLE.\p"
+    .string "She's probably gone to the\n"
+    .string "BERRY FOREST, I think.\p"
+    .string "She picks BERRIES there for making\n"
+    .string "lunch.$"

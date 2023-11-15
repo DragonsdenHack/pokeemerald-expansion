@@ -56,10 +56,10 @@ release
 end
 
 PokemonMansion4FDocumento_Text_100:
-	.string "Diario: 1 de Septiembre\n"
-	.string "Mewtwo es demasiado poderoso, no\l"
-	.string "hemos podido contener sus malos\l"
-	.string "instintos...$"
+.string "Diary: Sept. 1\n"
+    .string "MEWTWO is far too powerful.\p"
+    .string "We have failed to curb its vicious\n"
+    .string "tendencies…$"
 
 PokemonMansion_4F_Blaine_Fuji::
 applymovement OBJ_EVENT_ID_PLAYER, PokemonMansion_4F_Blaine_Fuji_Move_1

@@ -14,7 +14,8 @@ release
 end
 
 SixIsland_House2_Text_2:
-.string "Debería escribir alguna CARTA…$"
+.string "I should buy some MAIL and write\n"
+    .string "him a letter…$"
 
 
 
@@ -26,10 +27,9 @@ release
 end
 
 SixIsland_House2_Text_3:
-.string "¡Juega con los POKéMON y vivirás\n"
-.string "mucho tiempo!\p"
-.string "Mira a AGATHA, por ejemplo.\p"
-.string "Es el miembro de más edad\n"
-.string "del ALTO MANDO.\p"
-.string "¡A mí me anima a superarme\n"
-.string "día a día!$"
+.string "Play with POKéMON lots and live\n"
+    .string "a long life!\p"
+    .string "Take AGATHA, for example.\p"
+    .string "She set a record for being the\n"
+    .string "oldest-ever ELITE FOUR member.\p"
+    .string "She spurs me to do bigger things.$"

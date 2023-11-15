@@ -171,10 +171,10 @@ Bill_Garden_Policia_Atlas_text_3:
 .string "????: You're wrong.$"
 
 Bill_Garden_Policia_Atlas_text_4:
-.string "BILL: BOSS ADMIN ATLAS…$"
+.string "BILL: BOSS ADMIN ARCHER…$"
 
 Bill_Garden_Policia_Atlas_text_5:
-.string "ATLAS: I couldn't prevent myself from\n"
+.string "ARCHER: I couldn't prevent myself from\n"
 	.string "hearing some attacks against our\l"
 	.string "organization. As you can see, I'm here.\l"
 	.string "You're wrong, in TEAM ROCKET we never\l"
@@ -189,4 +189,4 @@ Bill_Garden_Policia_Atlas_text_6:
 	.string "THEM ESCAPE!$"
 
 Bill_Garden_Policia_Atlas_text_7:
-.string "ATLAS: SKARMORY, USE FLY!$"
+.string "ARCHER: SKARMORY, USE FLY!$"

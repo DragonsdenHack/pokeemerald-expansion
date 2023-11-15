@@ -222,8 +222,8 @@ msgbox KindleRoadDocumento_Text_100, MSGBOX_SIGN
 end
 
 KindleRoadDocumento_Text_100:
-	.string "¡Siente el calor en tu corazón!\n"
-	.string "BALNEARIO.$"
+.string "Light the Fire in Your Heart!\n"
+    .string "EMBER SPA$"
 
 
 
@@ -232,8 +232,8 @@ msgbox KindleRoadDocumento_Text_101, MSGBOX_SIGN
 end
 
 KindleRoadDocumento_Text_101:
-	.string "CAMINO CANDENTE.\n"
-	.string "Al norte el MT.ASCUAS.$"
+.string "This is KINDLE ROAD.\p"
+    .string "Go straight for MT. EMBER.$"
 
 
 

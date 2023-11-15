@@ -47,6 +47,6 @@ release
 end
 
 PokemonMansion3FDocumento_Text_100:
-	.string "Diario: 6 de Febrero\n"
-	.string "Mew dio a luz, llamamos al pequeño\l"
-	.string "Mewtwo.$"
+.string "Diary: Feb. 6\n"
+    .string "MEW gave birth.\p"
+    .string "We named the newborn MEWTWO.$"

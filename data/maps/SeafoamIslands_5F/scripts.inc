@@ -23,8 +23,8 @@ msgbox SeafoamIslands5FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SeafoamIslands5FDocumento_Text_100:
-.string "¡Las ROCAS pueden cambiar\n"
-	.string "el flujo del agua!$"
+.string "Hint: Boulders might change the\n"
+    .string "flow of water.$"
 
 
 
@@ -33,8 +33,8 @@ msgbox SeafoamIslands5FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SeafoamIslands5FDocumento_Text_101:
-.string "¡PELIGRO!\n"
-	.string "¡Rápidos!$"
+.string "DANGER\n"
+    .string "Fast current!$"
 
 
 SeafoamIslands_5F_Combate_Articuno::

@@ -62,5 +62,5 @@ msgbox Silph3FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph3FDocumento_Text_100:
-.string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "P2$"
+.string "SILPH CO. HEAD OFFICE\n"
+    .string "3F$"

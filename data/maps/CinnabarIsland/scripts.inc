@@ -14,11 +14,10 @@ release
 end
 
 CinnabarIsland_Text_1:
-.string "BLAINE, del GIMNASIO CANELA, es un\n"
-.string "hombre raro que lleva años\l"
-.string "viviendo aquí.\l"
-.string "Ya vivía aquí desde antes de que\l"
-.string "construyeran el LABORATORIO.$"
+.string "CINNABAR GYM's BLAINE is quite the\n"
+    .string "odd fellow.\p"
+    .string "He's lived on the island since way\n"
+    .string "before the LAB was built.$"
 
 
 CinnabardIsland2::
@@ -29,10 +28,10 @@ release
 end
 
 CinnabarIsland_Text_2:
-.string "Los científicos experimentan en el\n"
-.string "edificio quemado.\l"
-.string "Es el mismo edificio al que llaman\l"
-.string "MANSIÓN POKÉMON.$"
+.string "Scientists conduct experiments \n"
+    .string "in the burned-out building.\p"
+    .string "You know, the one they call the\n"
+    .string "POKéMON MANSION.$"
 
 
 
@@ -41,7 +40,7 @@ msgbox CinnabarIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_100:
-.string "LABORATORIO POKÉMON$"
+.string "POKéMON LAB$"
 
 
 
@@ -50,8 +49,8 @@ msgbox CinnabarIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_101:
-.string "ISLA CANELA\n"
-	.string "El lugar del ardiente deseo.$"
+.string "CINNABAR ISLAND\n"
+    .string "The Fiery Town of Burning Desire$"
 
 
 
@@ -60,9 +59,9 @@ msgbox CinnabarIslandDocumento_Text_102, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_102:
-	.string "LÍDER DE GIMNASIO de CANELA:\n"
-	.string "BLAINE\l"
-	.string "¡El maestro de los acertijos!$"
+    .string "CINNABAR ISLAND POKéMON GYM\n"
+    .string "LEADER: BLAINE\l"
+    .string "The Hotheaded Quiz Master!$"
 
 
 Cinnabar_Island_Gimnasio_Cerrado::

@@ -2546,68 +2546,62 @@ release
 end
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_24.1:
-.string "¡¡{PLAYER} obtuvo un DETECTOR-&\n"
-	.string "de manos de GIOVANNI!$"
+.string "{PLAYER} received a &-DETECTOR from\n"
+	.string "GIOVANNI!!$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_1:
-.string "Supongo que, después de lo\n"
-	.string "ocurrido en ROCA OMBLIGO, esperas\l"
-	.string "noticias acerca de LUGIA y HO-OH,\l"
-	.string "lamento decirte que no tenemos\l"
-	.string "nada, ya he enviado a un grupo a\l"
-	.string "investigar RUINAS ALFA, y el lugar\l"
-	.string "junto con todas sus cámaras sigue\l"
-	.string "exactamente igual.$"
+.string "I guess after what happened at NAVEL\n"
+	.string "ROCK, you are expecting some news\l"
+	.string "about LUGIA and HO-OH. I'm sorry to\l"
+	.string "disappoint you; we have nothing. I\l"
+	.string "already sent a group to investigate the\l"
+	.string "RUINS OF ALPH, and the place, along with\l"
+	.string "all its chambers, remains totally the\l"
+	.string "same.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_2:
-.string "Sea como sea, en JOHTO debe estar\n"
-	.string "la respuesta, LUGIA y HO-OH han\l"
-	.string "vuelto a su región de origen,\l"
-	.string "estoy seguro, tal vez en CIUDAD\l"
-	.string "IRIS, ISLAS REMOLINO...\l"
-	.string "En todos esos lugares se les ha\l"
-	.string "llegado a avistar en el pasado,\l"
-	.string "puede que ahí encontremos\l"
-	.string "respuestas, que finalmente nos\l"
-	.string "conduzcan hacia el POKÉMON\l"
-	.string "ESENCIA.$"
+.string "Anyway, in JOHTO should be the answer.\n"
+	.string "LUGIA and HO-OH went back to their\l"
+	.string "original region, I am sure, maybe in\l"
+	.string "ECRUTEAK CITY, WHIRL ISLANDS... It has\l"
+	.string "been possible to see POKÉMON in those\l"
+	.string "places in the past. Maybe we would be\l"
+	.string "able to find some answers that finally\l"
+	.string "lead us to discover ESSENCE POKÉMON.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_3:
-.string "Pero no te he destinado a JOHTO\n"
-	.string "únicamente para cazar LEGENDARIOS,\l"
-	.string "te he enviado también para...dejar\l"
-	.string "registrada una parte de su\l"
-	.string "historia, antes de que se pierda.$"
+.string "But I didn't send you to JOHTO just to\n"
+	.string "hunt LEGENDARIES; I also sent you to...\l"
+	.string "register a part of its history before it\l"
+	.string "gets lost.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_4:
-.string "Observa, {PLAYER}.$"
+.string "Look, {PLAYER}.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_5:
-.string "La mayoría de documentos que ves\n"
-	.string "aquí están vacíos, te preguntarás,\l"
-	.string "¿para qué han sido creados?$"
+.string "Most of the documents that you see\n"
+	.string "here are empty. You might ask, why were\l"
+	.string "they created for?$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_6:
-.string "Este es NIDOKING-X, ¿lo\n"
-	.string "recuerdas?, lo usé para ponerte a\l"
-	.string "prueba antes de enfrentar a OAK,\l"
-	.string "puedes echar un vistazo a todos\l"
-	.string "sus datos si así lo deseas.$"
+.string "This is NIDOKING-X, do you remember it?.\n"
+	.string "I used it to test your strength before\l"
+	.string "you faced OAK, you can take a look at\l"
+	.string "all its stats if you want.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_7:
-.string "También tenemos a NIDOQUEEN-Y,\n"
-	.string "centrado en el ATAQUE ESPECIAL,\l"
-	.string "ambos POKÉMON son producto de\l"
-	.string "mejorar artificialmente el\l"
-	.string "poder base de la familia NIDORAN,\l"
-	.string "en concreto en 100 STATS BASE\l"
-	.string "respecto a NIDOKING y NIDOQUEEN.$"
+.string "We also have NIDOQUEEN-Y, specialized\n"
+	.string "in SPECIAL ATTACK. Both POKÉMON are\l"
+	.string "the result of artificially enhancing\l"
+	.string "the base power of the NIDORAN family,\l"
+	.string "specifically adding 100 BASE STATS to\l"
+	.string "NIDOKING and NIDOQUEEN.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_8:
-.string "Otros ejemplos de POKÉMON creados\n"
-	.string "a puro golpe de modificación\l"
-	.string "genética serían el PORYGON3 de\l"
-	.string "BILL, o el MAGMORTAR-Y de BLAINE.$"
+.string "Other examples of POKÉMON created\n"
+	.string "through pure genetic modification\l"
+	.string "include BILL's PORYGON3 or BLAINE's\l"
+	.string "MAGMORTAR-Y.$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_9:
 .string "Pero no, esta sala no está\n"

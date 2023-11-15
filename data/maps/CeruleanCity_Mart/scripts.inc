@@ -15,11 +15,11 @@ end
 
 CeruleanCity_Mart_Text_2:
 .string "Use REPELS to avoid bugs and weak\n"
-	.string "POKéMON. Place your strongest POKéMON\l"
-	.string "at the top of the list to achieve\l"
+	.string "POKÉMON. Place your strongest POKÉMON\l"
+	.string "at the top of your team to achieve\l"
 	.string "better results! If your first POKéMON\l"
-	.string "is strong, the REPELENTE will have a\l"
-	.string "greater effect.$"
+	.string "is strong, the REPEL will have a greater\l"
+	.string "effect.$"
 
 
 
@@ -32,4 +32,4 @@ end
 
 CeruleanCity_Mart_Text_3:
 .string "Have you seen any RARE CANDY? They say\n"
-	.string "POKéMON level up if they eat one!$"
+	.string "POKÉMON level up if they eat one!$"

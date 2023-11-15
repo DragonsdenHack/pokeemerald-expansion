@@ -89,11 +89,12 @@ release
 end
 
 SsAnne6F_Text_8:
-.string "After all that effort and discipline it\n"
-	.string "was supposed to be the final prize,\l"
-	.string "ironically I have been happier training\l"
-	.string "to get here than I got here. Fridays are\l"
-	.string "always disappointing, boy!$"
+.string "So after all that effort and discipline,\n"
+	.string "this was supposed to be the final prize.\l"
+	.string "Huh, ironically I felt more fulfilled in\l"
+	.string "my whole way here than now that I'm\l"
+	.string "here. Fridays are always disappointing,\l"
+	.string "young one!$"
 
 
 

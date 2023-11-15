@@ -16,7 +16,7 @@ release
 end
 
 PlayaTesoro_Text2:
-.string "Muchas veces la marea trae objetos\n"
-	.string "de gran valor a la playa.\p"
-	.string "Por eso vengo con frecuencia\n"
-	.string "a peinar la arena.$"
+.string "Good things get washed up by the\n"
+    .string "ocean current onto this beach.\p"
+    .string "That's why I often come here for\n"
+    .string "some beachcombing.$"

@@ -333,10 +333,10 @@ msgbox CinnabarIslandGymDocumento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandGymDocumento_Text_100:
-.string "Una foto de BLAINE\n"
-	.string "y el SR. FUJI...\p"
-	.string "Aparecen juntos con una sonrisa\n"
-	.string "de oreja a oreja.$"
+.string "It's a photo of BLAINE and\n"
+    .string "MR. FUJI.\p"
+    .string "They're standing shoulder to\n"
+    .string "shoulder with big grins.$"
 	
 
 CinnabarIsland_Gym_Text_PokemonQuizRules:

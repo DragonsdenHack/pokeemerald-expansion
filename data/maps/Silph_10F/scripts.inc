@@ -76,4 +76,4 @@ end
 
 Silph10FDocumento_Text_100:
 .string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "P9$"
+	.string "10F$"

@@ -87,7 +87,7 @@ msgbox SaffronCityDojoDocumento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityDojoDocumento_Text_100:
-	.string "DOJO-KARATE$"
+    .string "FIGHTING DOJO$"
 
 
 
@@ -96,7 +96,7 @@ msgbox SaffronCityDojoDocumento_Text_101, MSGBOX_SIGN
 end
 
 SaffronCityDojoDocumento_Text_101:
-.string "Hay enemigos por todas partes.$"
+    .string "Enemies on every side!$"
 
 
 
@@ -105,7 +105,7 @@ msgbox SaffronCityDojoDocumento_Text_102, MSGBOX_SIGN
 end
 
 SaffronCityDojoDocumento_Text_102:
-.string "Lo que tenga que venir, vendrá.$"
+    .string "What goes around comes around.$"
 
 SaffronCity_Dojo_Combate_Maestro::
 playse MUS_RG_ENCOUNTER_BOY

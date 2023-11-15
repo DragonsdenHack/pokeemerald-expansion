@@ -153,7 +153,7 @@ end
 
 Silph6FDocumento_Text_100:
 .string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "P5$"
+	.string "6F$"
 
 Silph_6F_Empleado_Llave::
 lock

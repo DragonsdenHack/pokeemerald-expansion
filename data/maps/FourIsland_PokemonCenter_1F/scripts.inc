@@ -27,10 +27,10 @@ release
 end
 
 FourIsland_PokemonCenter_Text_2:
-.string "En la CUEVA GLACIADA hay un\n"
-.string "POKéMON raro del tipo HIELO.\p"
-.string "Aquí viene mucha gente para\n"
-.string "verlo.$"
+.string "There's a rare kind of ICE POKéMON\n"
+    .string "that lives in the cave.\p"
+    .string "We get a lot of visitors hoping to\n"
+    .string "see that POKéMON.$"
 
 
 
@@ -42,9 +42,9 @@ release
 end
 
 FourIsland_PokemonCenter_Text_3:
-.string "¡Pero bueno!\p"
-.string "¿Que aún no ha llegado el nuevo\n"
-.string "DIARIO POKéMON a esta isla?$"
+.string "What's this?\p"
+    .string "The new POKéMON JOURNAL hasn't\n"
+    .string "arrived on this island?$"
 
 
 
@@ -56,13 +56,12 @@ release
 end
 
 FourIsland_PokemonCenter_Text_4:
-.string "¿Cómo? ¿Un HUEVO POKéMON?\n"
-.string "Ni idea…\p"
-.string "Eh… sí, espera, los ENCARGADOS\n"
-.string "de la GUARDERÍA comentaron algo\l"
-.string "sobre eso.\p"
-.string "Dijeron que habían encontrado\n"
-.string "HUEVOS en la propia GUARDERÍA.$"
+.string "Oh? A POKéMON EGG?\n"
+    .string "…I have no idea.\p"
+    .string "…Oh, wait. The DAY-CARE people\n"
+    .string "in town were saying something.\p"
+    .string "They said that they'd found EGGS\n"
+    .string "before on their property.$"
 
 
 
@@ -71,10 +70,10 @@ msgbox FourIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 FourIslandPokemonCenterDocumento_Text_100:
-.string "Un DIARIO POKéMON de hace\n"
-	.string "unos años...\p"
-	.string "¡Especial sobre el CONCURSO\n"
-	.string "del DIARIO POKéMON!\p"
-	.string "¡La campeona de la edición de\n"
-	.string "primavera del CONCURSO POKéMON\l"
-	.string "es DALIA OAK, de PUEBLO PALETA!$"
+.string "This is a POKéMON JOURNAL from\n"
+	.string "years ago…\p"
+	.string "POKéMON JOURNAL\n"
+	.string "CONTEST Special!\p"
+	.string "The Spring POKéMON CONTEST's\n"
+	.string "Grand Champion is DAISY OAK of\l"
+	.string "PALLET TOWN!$"

@@ -69,10 +69,9 @@ msgbox SevenIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 SevenIslandPokemonCenterDocumento_Text_100:
-.string "DIARIO POKéMON\p"
-	.string "Última hora sobre AGATHA,\n"
-	.string "miembro del ALTO MANDO.\p"
-	.string "Según fuentes cercanas, AGATHA\n"
-	.string "y el PROF. OAK estuvieron\p"
-	.string "enfrentados durante su formación\n"
-	.string "como ENTRENADORES.$"
+.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's AGATHA!\p"
+	.string "In her youth, AGATHA and PROF.\n"
+	.string "OAK were rivals who vied for\l"
+	.string "supremacy as TRAINERS.$"

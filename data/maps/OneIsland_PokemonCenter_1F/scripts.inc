@@ -27,10 +27,10 @@ release
 end
 
 OneIsland_PokemonCenter_Text_2:
-.string "En esta isla hay un volcán enorme.\p"
-.string "Hace poco entró en erupción.\n"
-.string "Ahora sería buen momento\l"
-.string "para hacer escalada.$"
+.string "On this island, there's an enormous\n"
+    .string "volcano.\p"
+    .string "It hasn't erupted lately, so why\n"
+    .string "not enjoy a hike?$"
 
 
 
@@ -42,9 +42,8 @@ release
 end
 
 OneIsland_PokemonCenter_Text_3:
-.string "Ojalá pudiera intercambiar POKéMON\n"
-.string "con mi chico, que vive muy lejos\l"
-.string "de aquí…$"
+.string "I wish I could trade POKéMON with\n"
+    .string "my boyfriend who lives far away…$"
 
 
 

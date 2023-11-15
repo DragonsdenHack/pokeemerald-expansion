@@ -67,7 +67,7 @@ end
 
 Silph11FDocumento_Text_100:
 .string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "P10$"
+	.string "11F$"
 
 Silph_11F_Bill_Presidente_Izq::
 lockall

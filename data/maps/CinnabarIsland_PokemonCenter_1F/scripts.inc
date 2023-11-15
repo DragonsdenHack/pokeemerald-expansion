@@ -27,13 +27,10 @@ release
 end
 
 CinnabarIsland_Center_Text_2:
-.string "A veces es conveniente no\n"
-.string "evolucionar demasiado pronto a un\l"
-.string "POKÉMON, ya que en sus formas\l"
-.string "preevolucionadas aprenden antes\l"
-.string "buenos movimientos, a veces\l"
-.string "incluso movimientos que no pueden\l"
-.string "aprender una vez evolucionados.$"
+.string "POKéMON can still learn techniques\n"
+    .string "after canceling evolution.\p"
+    .string "Evolution can wait until new moves\n"
+    .string "have been learned.$"
 
 
 
@@ -61,14 +58,14 @@ release
 end
 
 CinnabarIsland_Center_Text_4:
-.string "Quería entrar en el GIMNASIO de\n"
-.string "CANELA, pero la puerta está\l"
-.string "cerrada a cal y canto.\l"
-.string "Debe de haber una LLAVE en algún\l"
-.string "sitio.\l"
-.string "¿Estará en la MANSIÓN quemada esa?\l"
-.string "Dicen que está habitada por un\l"
-.string "amigo del LÍDER del GIMNASIO.$"
+.string "I came to visit the CINNABAR GYM,\n"
+    .string "but the door is locked tight.\p"
+    .string "There should be a key for it\n"
+    .string "somewhere.\p"
+    .string "Could it be in that burned-out\n"
+    .string "mansion?\p"
+    .string "The GYM LEADER's friend used to\n"
+    .string "live there, they say.$"
 
 
 

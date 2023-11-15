@@ -110,7 +110,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_4:
 
 CeruleanCity_House2_Batalla_Montañero_Text_5:
 .string "That's what happens when you\n"
-	.string "underestimate ROCKETs. You will pay for\l"
+	.string "underestimate ROCKETS. You will pay for\l"
 	.string "your arrogance.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_6:
@@ -126,19 +126,20 @@ CeruleanCity_House2_Batalla_Montañero_Text_6:
 	.string "this. Take this, you deserve it.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_7:
-.string "I had this other item, which seems to be\n"
-	.string "to maximize GROUND type movements,\l"
-	.string "that rascal for sure used it to do more\l"
-	.string "damage with DIG, keep it for you.$"
+.string "He had this other item, which seems to\n"
+	.string "be to rise GROUND type movements'\l"
+	.string "power, that rascal for sure used it to\l"
+	.string "do more damage with DIG, keep it for\l"
+	.string "you.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_8:
-.string "That's all mate, with these TMs we could\n"
-	.string "do improvements on our investigations\l"
-	.string "when we are in closed places and go out\l"
-	.string "easier from caves. You collaborated to\l"
-	.string "supply resources to our organization.\l"
-	.string "Good Job. See you later in the BARRACK,\l"
-	.string "you know.$"
+.string "That's all comrade, with these TMs we\n"
+	.string "will be able to do improvements on our\l"
+	.string "investigations in closed places and get\l"
+	.string "out from caves in an easy way. You\l"
+	.string "collaborated by supplying resources to\l"
+	.string "our organization. Good Job. See you\l"
+	.string "later in the BARRACK, you know where.$"
 
 CeruleanCity_House2_Batalla_Montañero_move1:
 walk_in_place_right

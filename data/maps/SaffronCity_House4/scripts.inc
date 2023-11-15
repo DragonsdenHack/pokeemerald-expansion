@@ -53,11 +53,12 @@ release
 end
 
 SafariZone_House4_Text_4:
-.string "¡BROCK es mi héroe!\n"
-.string "No hay otro como él.\p"
-.string "¡Lo admiro tanto que le he\n"
-.string "pedido a mi madre que me borde\l"
-.string "su nombre en los pantalones, je!$"
+.string "BROCK's my hero!\n"
+    .string "He's a man among men!\p"
+    .string "Heheh, I got my mom to do\n"
+    .string "something for me.\p"
+    .string "I got her to embroider “BROCK”\n"
+    .string "on my shorts!$"
 
 
 
@@ -116,12 +117,12 @@ release
 end
 
 SafariZone_House4_Text_8:
-.string "No pienso dejar nunca a SABRINA.\n"
-.string "¡Aunque sea su única fan!\p"
-.string "Mi sueño es llegar a ser como\n"
-.string "ella; dulce, pero guay a la vez.\p"
-.string "¡Y dominar los poderes psíquicos,\n"
-.string "como ella!$"
+.string "Even if I'm the only one, I won't\n"
+    .string "stop being SABRINA's fan.\p"
+    .string "My dream is to be like SABRINA,\n"
+    .string "cute, but cool.\p"
+    .string "I want to be a psychic girl just\n"
+    .string "like her!$"
 
 
 

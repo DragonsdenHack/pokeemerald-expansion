@@ -46,7 +46,7 @@ end
 
 SsAnne4F_Text_4:
 .string "Let's drink to everything we have lived\n"
-	.string "in these long 70 years, and for all we\l"
+	.string "for these long 70 years, and for all we\l"
 	.string "still have left. Who would say that\l"
 	.string "after all we have been through, we would\l"
 	.string "be here sitting in 1996, with every\l"
@@ -212,7 +212,12 @@ release
 end
 
 SsAnne_4F_Combate_Azul_text_1:
-	.string "????: These parties are always so boring...$"
+.string "????: These parties are always so\n"
+	.string "boring. I came here so I could fight\l"
+	.string "against everyone's POKÉMONS and I\l"
+	.string "ended up finding the usual: RATATTA,\l"
+	.string "PIDGEY, NIDORAN… Even the sailors have\l"
+	.string "TENTACOOL as best! I feel scammed.$"
 
 SsAnne_4F_Combate_Azul_text_2:
 .string "You are the ROCKET that I gave a\n"

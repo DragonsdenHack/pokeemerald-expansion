@@ -1622,12 +1622,12 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_18:
 .string "You'll start learning how things work\n"
 	.string "around here, especially now that you'll\l"
 	.string "be heading to CELADON CITY. I'm sure\l"
-	.string "Giovanni will be delighted to provide\l"
+	.string "GIOVANNI will be delighted to provide\l"
 	.string "details to two competent young\l"
 	.string "individuals like you. That's all from me,\l"
-	.string "recruits. Make the most of this\l"
-	.string "well-deserved free time, and I'll let\l"
-	.string "you know when the machine is ready.$"
+	.string "GRUNTS. Enjoy this well-deserved free\l"
+	.string "time, and I'll let you know when the\l"
+	.string "machine is ready.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_19:
 .string "At your service, ADMIN. PETREL!$"
@@ -1844,7 +1844,7 @@ RocketHideout_6F_Escena_Lance_Texto_13:
 	.string "now?$"
 
 RocketHideout_6F_Escena_Lance_Texto_14:
-	.string "PETREL: Calm down, RECRUIT. We have\n"
+	.string "PETREL: Calm down, GRUNT. We have\n"
 	.string "more than enough resources to manage\l"
 	.string "on our own. All this means is that they\l"
 	.string "see us as a threat.$"
@@ -1862,7 +1862,7 @@ RocketHideout_6F_Escena_Lance_Texto_17:
 	.string "news.$"
 
 RocketHideout_6F_Escena_Lance_Texto_18:
-	.string "ANDRA: ¡Enseguida, SIR!$"
+	.string "ANDRA: ¡Yes, sir!$"
 
 RocketHideout_6F_Escena_Lance_2_move1:
 walk_in_place_up

@@ -13,13 +13,13 @@ release
 end
 
 FourIsland_Text_2:
-.string "LORELEI ha vuelto.\p"
-.string "Creo que el LAPRAS que tiene,\n"
-.string "es el mismo que atrapó de pequeña.\p"
-.string "Yo creo que se hizo con él\n"
-.string "en la CUEVA GLACIADA…\p"
-.string "Me parece que lo tiene desde\n"
-.string "entonces.$"
+.string "LORELEI has gone back.\p"
+    .string "The LAPRAS she has, I imagine it\n"
+    .string "to be the one she met as a child.\p"
+    .string "I believe it was in ICEFALL CAVE\n"
+    .string "that she caught it.\p"
+    .string "Perhaps that POKéMON has been with\n"
+    .string "her ever since.$"
 
 
 FourIsland3::
@@ -34,10 +34,10 @@ release
 end
 
 FourIsland_Text_4:
-.string "¡Uyyy, qué fresquito!\p"
-.string "Me he hecho un granizado con\n"
-.string "hielo de la CUEVA GLACIADA.\p"
-.string "¡Está fresquito y riquísimo!$"
+.string "Ooh, chilly!\p"
+    .string "I made a slushie using ice I\n"
+    .string "shaved inside ICEFALL CAVE.\p"
+    .string "It's chilly and tasty!$"
 
 
 FourIsland5::
@@ -48,12 +48,12 @@ release
 end
 
 FourIsland_Text_5:
-.string "¡Me has encontrado!\n"
-.string "¡No se lo digas a LORELEI!\p"
-.string "¿Sabías que LORELEI tiene un\n"
-.string "montón de muñecos de peluche?\p"
-.string "¡Cada vez que vuelve a ISLA\n"
-.string "QUARTA, aumenta la colección!$"
+.string "Oh, you found me!\n"
+    .string "Please don't tell LORELEI.\p"
+    .string "Did you know that LORELEI has lots\n"
+    .string "and lots of stuffed dolls?\p"
+    .string "Every time she comes back to\n"
+    .string "FOUR ISLAND, her collection grows!$"
 
 FourIsland6::
 end
@@ -68,8 +68,8 @@ msgbox FourIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 FourIslandDocumento_Text_100:
-.string "ISLA CUARTA\n"
-	.string "El cálido y azul témpano flotante.$"
+.string "FOUR ISLAND\n"
+    .string "The Warm, Blue, Floe Island$"
 
 
 
@@ -78,7 +78,7 @@ msgbox FourIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 FourIslandDocumento_Text_101:
-.string "Casa de LORELEI$"
+.string "LORELEI'S HOUSE$"
 
 FourIsland_Encuentro_Zeus_Der::
 lock

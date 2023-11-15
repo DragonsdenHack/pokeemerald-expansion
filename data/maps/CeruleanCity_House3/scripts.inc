@@ -23,12 +23,11 @@ release
 end
 
 CeruleanCity_House3_Text_2:
-.string "Before, far away from here, in FOUR\n"
+.string "Long ago, far away from here, in FLOE\n"
 	.string "ISLAND, you could capture JYNX inside\l"
 	.string "the ICEFALL CAVE. Now, I would trade\l"
-	.string "one of the ones I caught for a\l"
-	.string "POLIWHIRL. I know it's a bad deal, but I\l"
-	.string "no longer have the energy to capture a\l"
-	.string "POLIWAG and evolve it on my own... ... ...\l"
-	.string "How? You? I would never do business\l"
-	.string "with a ROCKET!$"
+	.string "one of those for a POLIWHIRL. I know\l"
+	.string "it's a bad deal, but I no longer have the\l"
+	.string "energy to capture a POLIWAG and evolve\l"
+	.string "it on my own... ... ... How? You? I would\l"
+	.string "never do business with a ROCKET!$"

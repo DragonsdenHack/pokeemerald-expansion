@@ -13,12 +13,14 @@ release
 end
 
 SevenIsland_Text_2:
-.string "A estas islas las llamamos ARCHI7\n"
-.string "porque son siete, je.\p"
-.string "O, por lo menos, es lo que la\n"
-.string "gente joven cree.\p"
-.string "Pero en realidad es porque las\n"
-.string "islas se crearon en siete días.$"
+.string "These islands are called the SEVII\n"
+    .string "ISLANDS because there are seven.\p"
+    .string "…Or at least that's what the young\n"
+    .string "people believe.\p"
+    .string "The truth is, these islands are so\n"
+    .string "named because they are said to\l"
+    .string "have been made in seven days.$"
+
 
 
 SevenIsland3::
@@ -29,10 +31,10 @@ release
 end
 
 SevenIsland_Text_3:
-.string "Esta isla es prácticamente virgen,\n"
-.string "apenas ha sufrido modificaciones.\p"
-.string "Por ello, es peligroso y difícil\n"
-.string "hacer escalada por aquí.$"
+.string "This island has been left virtually\n"
+    .string "untouched in its natural state.\p"
+    .string "It could be a little difficult to\n"
+    .string "hike around because of that.$"
 
 
 
@@ -41,8 +43,8 @@ msgbox SevenIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 SevenIslandDocumento_Text_100:
-.string "ISLA SÉPTIMA\n"
-	.string "La Isla de la Búsqueda Infinita.$"
+.string "SEVEN ISLAND\n"
+    .string "Quest Island of Infinity$"
 
 SevenIsland_Entrenador_Especial::
 lock

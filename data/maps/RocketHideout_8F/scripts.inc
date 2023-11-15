@@ -3142,214 +3142,188 @@ release
 end
 
 RocketHideout8F_Mision_Johto_Text_30:
-.string "GIOVANNI: Te espero en la SALA DEL\n"
-	.string "POTENCIAL MÁXIMO ALCANZABLE.$"
+.string "GIOVANNI: I will be waiting for you in\n"
+	.string "the MAXIMUM POTENTIAL REACHABLE ROOM.$"
 
 RocketHideout8F_Mision_Johto_Text_27.1:
-.string "¡¡{PLAYER} obtuvo un MAPA de\n"
-	.string "manos de GIOVANNI!$"
+	.string "{PLAYER} obtained a MAP from GIOVANNI!!$"
 
 RocketHideout8F_Mision_Johto_Text_18.1:
-.string "¡¡ANDRA fue ascendida a ADMIN\n"
-	.string "JEFE EN LA REGION DE HOENN!!$"
+.string "ANDRA got promoted to BOSS ADMIN in\n"
+	.string "the HOENN region!!$"
 
 RocketHideout8F_Mision_Johto_Text_29.1:
-.string "¡¡{PLAYER} fue ascendido a ADMIN\n"
-	.string "JEFE EN LA REGION DE JOHTO!!$"
+.string "{PLAYER} got promoted to BOSS ADMIN\n"
+	.string "in the JOHTO region!!$"
 
 RocketHideout8F_Mision_Johto_Text_1:
-.string "ANDRA: ¡{PLAYER}!\n"
-	.string "¡Eres incansable!\l"
-	.string "Yo ya estaba lista para entrar por\l"
-	.string "la fuerza a MANSIÓN CANELA, ¡y vas\l"
-	.string "tú y derrotas a todos antes!$"
+.string "ANDRA: {PLAYER}! You are tireless! I\n"
+	.string "was ready to enter forcing the door to\l"
+	.string "CINNABAR MANSION, then you went in\l"
+	.string "defeating everyone before!$"
 
 RocketHideout8F_Mision_Johto_Text_2:
-.string "GIOVANNI: Ambos le habéis dado al\n"
-	.string "TEAM ROCKET más de lo que nadie\l"
-	.string "pudiera esperar, vuestro nivel\l"
-	.string "como ENTRENADORES se sale de\l"
-	.string "cualquier rango que pueda\l"
-	.string "ofreceros en el TEAM ROCKET, es\l"
-	.string "por ello que toca hablar de\l"
-	.string "vuestro futuro inmediato, algo que\l"
-	.string "os suponga un reto de verdad y\l"
-	.string "expanda la organización aún más,\l"
-	.string "pero antes...\l"
-	.string "Vuestras recompensas.$"
+.string "GIOVANNI: You both have given TEAM\n"
+	.string "ROCKET more than no one could have\l"
+	.string "expected, your skills as TRAINERS is\l"
+	.string "out of any rank that I could offer you\l"
+	.string "on TEAM ROCKET, that's why we need to\l"
+	.string "talk about your near future, something\l"
+	.string "that will be a real challenge and will\l"
+	.string "spread out the organization even more,\l"
+	.string "but before that… Here are your rewards.$"
 
 RocketHideout8F_Mision_Johto_Text_3:
-.string "¡¡ACABAS DE FACTURAR 1,5 MILLONES\n"
-	.string "DE POKÉS!!$"
+	.string "YOU JUST INVOICED 1,5 MILLION POKÉS!!$"
 
 RocketHideout8F_Mision_Johto_Text_4:
 .string "GIOVANNI: ...$"
 
 RocketHideout8F_Mision_Johto_Text_5:
-.string "¿Estás segura de que no los\n"
-	.string "quieres, ANDRA?$"
+.string "Are you sure you don't want them,\n"
+	.string "ANDRA?$"
 
 RocketHideout8F_Mision_Johto_Text_6:
-.string "ANDRA: Segura, no los necesito\n"
-	.string "para formar mi mejor equipo.$"
+.string "ANDRA: I'm sure, I don't need them to\n"
+	.string "build my best team.$"
 
 RocketHideout8F_Mision_Johto_Text_7:
-.string "GIOVANNI: Es tu voluntad, que así\n"
-	.string "sea.$"
+.string "GIOVANNI: It is your will, so be it.$"
 
 RocketHideout8F_Mision_Johto_Text_8:
-.string "Debes saber, {PLAYER}, que cuando\n"
-	.string "devolvimos a las BESTIAS DE JOHTO\l"
-	.string "a su lugar de origen, nos tomamos\l"
-	.string "la libertad de analizar sus ADN\l"
-	.string "antes, el resultado es claro:\l"
-	.string "hemos podido clonarlos al igual\l"
-	.string "que ocurrió con las AVES DE KANTO.$"
+.string "You should know, {PLAYER}, that when\n"
+	.string "we returned the JOHTO BEASTS to their\l"
+	.string "original place, we took the liberty to\l"
+	.string "analyze their DNA. The effect is\l"
+	.string "obvious: we were able to clone them as\l"
+	.string "we did with KANTO BIRDS.$"
 
 RocketHideout8F_Mision_Johto_Text_9:
-.string "Como uno de los ADMIN.JEFE, te\n"
-	.string "corresponde un ejemplar de cada,\l"
-	.string "espero que no te traigan malos\l"
-	.string "recuerdos de tu combate con LANCE,\l"
-	.string "recuerda que son clones.$"
+.string "As one of the BOSS ADMIN, you are\n"
+	.string "entitled to a specimen of each one. I\l"
+	.string "hope it doesn't bring back painful\l"
+	.string "memories for you about your fight\l"
+	.string "against LANCE. Keep in mind that those\l"
+	.string "are clones.$"
 
 RocketHideout8F_Mision_Johto_Text_10:
-.string "¡¡OBTUVISTE UN RAIKOU AL NV:25!!$"
+.string "YOU OBTAINED A RAIKOU AT LV:25!!$"
 
 RocketHideout8F_Mision_Johto_Text_11:
-.string "¡¡OBTUVISTE UN ENTEI AL NV:25!!$"
+.string "YOU OBTAINED A ENTEI AT LV:25!!$"
 
 RocketHideout8F_Mision_Johto_Text_12:
-.string "¡¡OBTUVISTE UN SUICUNE AL NV:25!!$"
+.string "YOU OBTAINED A SUICUNE AT LV:25!!$"
 
 RocketHideout8F_Mision_Johto_Text_13:
-.string "Y ahora, ponéos cómodos, tenemos\n"
-	.string "mucho de lo que hablar.$"
+.string "Now, get comfortable, we have a lot to\n"
+	.string "talk about.$"
 
 RocketHideout8F_Mision_Johto_Text_14:
-.string "Con MEWTWO en nuestro poder,\n"
-	.string "clones de las AVES DE KANTO y\l"
-	.string "BESTIAS DE JOHTO, el TEAM ROCKET\l"
-	.string "ha alcanzado un poder mayor del\l"
-	.string "que hace meses podríamos soñar.$"
+.string "With MEWTWO in our hands, KANTO BIRDS\n"
+	.string "clones and JOHTO BEASTS, TEAM ROCKET\l"
+	.string "has reached a power greater than\l"
+	.string "months ago we could dream.$"
 	
 
 RocketHideout8F_Mision_Johto_Text_15:
-.string "OAK detenido, LANCE atado...\n"
-	.string "KANTO está totalmente bajo nuestro\l"
-	.string "control, al fin podremos devolver\l"
-	.string "a la región todo el esplendor que\l"
-	.string "tuvo antes de la guerra, eso no\l"
-	.string "requerirá más que tiempo, es por\l"
-	.string "ello que vuestros destinos se\l"
-	.string "alejan de aquí.$"
+.string "OAK arrested, LANCE stranded… KANTO is\n"
+	.string "totally under our control, finally we\l"
+	.string "will be able to bring back all the\l"
+	.string "splendor the region had before war,\l"
+	.string "that will require just time, which is why\l"
+	.string "your destinies are far away from here.$"
 
 RocketHideout8F_Mision_Johto_Text_16:
-.string "ANDRA: ¿Donde iremos, señor?$"
+.string "ANDRA: Where will we go, sir?$"
 
 RocketHideout8F_Mision_Johto_Text_17:
-.string "Yo dedicaré todos mis esfuerzos a\n"
-	.string "reconstruir KANTO como es debido,\l"
-	.string "y ahora que cuento con ROCKET\l"
-	.string "como vosotros, creo que ha llegado\l"
-	.string "el momento de delegar\l"
-	.string "completamente mis poderes en\l"
-	.string "nuestras sucursales de JOHTO y\l"
-	.string "HOENN.$"
+.string "I am going to dedicate all my efforts to\n"
+	.string "rebuild KANTO as it should be. Now that\l"
+	.string "I have ROCKET like you, I believe it is\l"
+	.string "time to delegate totally my powers in\l"
+	.string "our JOHTO and HOENN branches.$"
 
 RocketHideout8F_Mision_Johto_Text_18:
-.string "¡ANDRA!\n"
-	.string "¡A partir de ahora estarás al\l"
-	.string "mando del TEAM ROCKET en la región\l"
-	.string "de HOENN!\l"
-	.string "¡Quedas ascendida a ADMIN.JEFE\l"
-	.string "ROCKET y LÍDER en HOENN!$"
+.string "ANDRA! Now you will manage the TEAM\n"
+	.string "ROCKET on HOENN region! You are\l"
+	.string "promoted to BOSS ADMIN ROCKET and\l"
+	.string "HOENN LEADER!$"
 
 RocketHideout8F_Mision_Johto_Text_19:
 .string "ANDRA: ¡Wow!\n"
-	.string "¡No puedo creerlo!$"
+	.string "I can't believe it!$"
 
 RocketHideout8F_Mision_Johto_Text_20:
-.string "Nuestra sucursal en HOENN aún no\n"
-	.string "está construída al 100%, pero\l"
-	.string "puedes instalar tus cosas allí\l"
-	.string "ANDRA, lamentablemente, la\l"
-	.string "distancia entre regiones nos\l"
-	.string "impide por el momento emplear la\l"
-	.string "tecnología del teletransporte para\l"
-	.string "enviarte allí, pero no te\l"
-	.string "preocupes, tienes un Ferry en\l"
-	.string "CARMÍN esperándote.$"
+.string "Our branch at HOENN is not totally built\n"
+	.string "yet, but you can settle there at least\l"
+	.string "ANDRA, unfortunately, the distance\l"
+	.string "between both regions prevents to use\l"
+	.string "teleportation technology to send you\l"
+	.string "there, but do not worry about that, we\l"
+	.string "have a FERRY on VERMILION waiting for\l"
+	.string "you.$"
 
 RocketHideout8F_Mision_Johto_Text_21:
-.string "Sé que te encantan la mitología y\n"
-	.string "los POKÉMON ANCESTRALES ANDRA, es\l"
-	.string "por ello que te envío a HOENN,\l"
-	.string "poco a poco desenpolvaremos los\l"
-	.string "misterios de esa región, que son\l"
-	.string "muchos.$"
+.string "I know you love mythology and\n"
+	.string "ANCESTRAL POKÉMONS, ANDRA, which is\l"
+	.string "why I am sending you to HOENN, we will\l"
+	.string "dust off that region's mysteries, which\l"
+	.string "are probably a lot.$"
 
 RocketHideout8F_Mision_Johto_Text_22:
-.string "ANDRA: Supongo que se refiere a\n"
-	.string "esas RUINAS que pueden verse en el\l"
-	.string "DESIERTO, al norte de PUEBLO\l"
-	.string "AZULINA, y en RUTA 120.$"
+.string "ANDRA: I guess you mean about those\n"
+	.string "RUINS that you can look at the DESERT,\l"
+	.string "at DEWFORD TOWN north and at ROUTE\l"
+	.string "120.$"
 
 RocketHideout8F_Mision_Johto_Text_23:
-.string "GIOVANNI: Veo que no hace falta\n"
-	.string "que te diga nada más, por tu\l"
-	.string "parte, eso es todo ANDRA, HOENN te\l"
-	.string "espera.$"
+.string "GIOVANNI: I see that I don't need to\n"
+	.string "tell you anything else, that's all for\l"
+	.string "you ANDRA, HOENN is waiting for you.$"
 
 RocketHideout8F_Mision_Johto_Text_24:
-.string "ANDRA: No creas que usaré en\n"
-	.string "contra tuya LEGENDARIOS exóticos\l"
-	.string "de HOENN en nuestro próximo\l"
-	.string "combate {PLAYER}, te dije que\l"
-	.string "llegaría a ser la mejor únicamente\l"
-	.string "con NO LEGENDARIOS, y lo mantengo.\l"
-	.string "¡Espero que algún día visites\l"
-	.string "HOENN, tal vez yo me pase por\l"
-	.string "JOHTO, si la situación lo\l"
-	.string "requiere!$"
+.string "ANDRA: Do not expect that I will use\n"
+	.string "exotic LEGENDARIES from HOENN in our\l"
+	.string "next fight {PLAYER}, I told you that I\l"
+	.string "will be the best just using NO\l"
+	.string "LEGENDARIES, and I am going to keep it.\l"
+	.string "I hope someday you visit HOENN, maybe I\l"
+	.string "could go around for JOHTO, as the\l"
+	.string "situation requires it!$"
 
 RocketHideout8F_Mision_Johto_Text_25:
-.string "GIOVANNI: Bien {PLAYER}, sabes que\n"
-	.string "quedaron muchos cabos sueltos que\l"
-	.string "no pudieron resolverse por la\l"
-	.string "irrupción de OAK, pero que debes\l"
-	.string "saber antes de viajar a JOHTO.$"
+.string "GIOVANNI: Well {PLAYER}, you know\n"
+	.string "there are a lot loose ends that are not\l"
+	.string "solved because OAK interrupted us, but\l"
+	.string "you should know before going to JOHTO.$"
 
 RocketHideout8F_Mision_Johto_Text_26:
-.string "En primer lugar, toma esto.$"
+.string "First, take this.$"
 
 RocketHideout8F_Mision_Johto_Text_27:
-.string "Con este MAPA podrás ubicarte\n"
-	.string "como es debido dentro de toda una\l"
-	.string "región totalmente nueva para ti.$"
+.string "With this MAP, you could locate yourself\n"
+	.string "as you should be, inside a totally new\l"
+	.string "region for you.$"
 
 RocketHideout8F_Mision_Johto_Text_28:
-.string "Ahora, este no es el lugar\n"
-	.string "más adecuado para explicarte los\l"
-	.string "objetivos tras los que irás en\l"
-	.string "JOHTO, ese lugar está en la sala\l"
-	.string "de al lado, en nuestra ZONA DE\l"
-	.string "INVESTIGACIÓN ACERCA DEL MÁXIMO\l"
-	.string "POTENCIAL ALCANZABLE POR UN\l"
-	.string "POKÉMON, al fin hemos abierto la\l"
-	.string "última de las zonas, y es allí\l"
-	.string "donde te espero {PLAYER}, en ese\l"
-	.string "lugar entenderás el porqué de\l"
-	.string "muchos de los objetivos tras los\l"
-	.string "que irás en JOHTO.$"
+.string "Now, this is not the adequate place to\n"
+	.string "explain the goals you will be pursuing in\l"
+	.string "JOHTO; that's the area next to here, the\l"
+	.string "RESEARCH AREA ABOUT THE MAXIMUM\l"
+	.string "POTENTIAL ACHIEVABLE BY A POKÉMON. We\l"
+	.string "have finally opened the last zone, and\l"
+	.string "that's where I will be waiting for you,\l"
+	.string "{PLAYER}. There, you will understand\l"
+	.string "the reasons behind the goals you will be\l"
+	.string "pursuing in JOHTO.$"
 
 RocketHideout8F_Mision_Johto_Text_29:
-.string "GIOVANNI: Una última cosa {PLAYER},\n"
-	.string "¡a partir de ahora estarás al\l"
-	.string "mando del TEAM ROCKET en la región\l"
-	.string "de JOHTO!\l"
-	.string "¡Quedas ascendido a ADMIN.JEFE\l"
-	.string "ROCKET y LÍDER en JOHTO!$"
+.string "GIOVANNI: A last thing {PLAYER},\n"
+	.string "since now you are in charge of TEAM\l"
+	.string "ROCKET in the JOHTO region! You are\l"
+	.string "promoted to BOSS ADMIN ROCKET and\l"
+	.string "JOHTO LEADER!$"
 
 RocketHideout8F_Mision_Johto_move_1:
 walk_up

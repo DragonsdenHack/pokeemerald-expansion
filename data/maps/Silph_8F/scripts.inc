@@ -99,4 +99,4 @@ end
 
 Silph8FDocumento_Text_100:
 .string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "P7$"
+	.string "8F$"

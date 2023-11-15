@@ -14,8 +14,9 @@ release
 end
 
 CinnabarIsland_Mart_Text_2:
-.string "¿No tienes ATAQUE X?\p"
-.string "¡Es estupendo para luchar!$"
+.string "Don't they have X ATTACK?\p"
+    .string "I like it because it raises the\n"
+    .string "ATTACK stat in battle.$"
 
 
 
@@ -27,4 +28,5 @@ release
 end
 
 CinnabarIsland_Mart_Text_3:
-.string "¡Está bien tener más objetos!$"
+.string "It never hurts to have extra items.\n"
+    .string "You never know what might happen.$"

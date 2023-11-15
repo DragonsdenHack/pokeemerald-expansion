@@ -13,10 +13,10 @@ release
 end
 
 TwoIsland_Text_2:
-.string "Hay una señora que vive en una\n"
-.string "casita en el cabo.\p"
-.string "Es un poco desconcertante,\n"
-.string "¡le tira los tejos a los POKéMON!$"
+.string "There's an old woman who lives in\n"
+    .string "a cottage out on the cape.\p"
+    .string "She gives the eye to POKéMON.\n"
+    .string "It's a bit unnerving.$"
 
 TwoIsland3::
 lock     
@@ -26,14 +26,15 @@ release
 end
 
 TwoIsland_Text_3:
-.string "Oye, oye, ¿sabes una cosa?\p"
-.string "Hace poco, vino un ENTRENADOR\n"
-.string "a la ISLA.\p"
-.string "Era uno de los miembros del ALTO\n"
-.string "MANDO. Se llamaba BRUNO.\p"
-.string "Pero se fue decepcionado cuando\n"
-.string "vio que no quedaban bastones de\l"
-.string "caramelo superfuertes.$"
+.string "Listen, listen.\n"
+    .string "Did you know?\p"
+    .string "A famous TRAINER came to the\n"
+    .string "ISLAND a little while back.\p"
+    .string "He's one of the ELITE FOUR.\n"
+    .string "His name is BRUNO.\p"
+    .string "He went away disappointed when he\n"
+    .string "found out that they were all sold\l"
+    .string "out of Rage Candybars.$"
 
 
 TwoIsland4::
@@ -44,8 +45,8 @@ release
 end
 
 TwoIsland_Text_4:
-.string "¡El experto ENTRENADOR sabe\n"
-.string "comprar objetos raros!$"
+.string "The discerning TRAINER knows to\n"
+    .string "buy rare items here!$"
 
 
 TwoIsland5::
@@ -62,10 +63,8 @@ msgbox TwoIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 TwoIslandDocumento_Text_100:
-.string "¡PELIGRO!\n"
-	.string "¡CORRIENTES ULTRA-RÁPIDAS!\l"
-	.string "¡La pesca y el surf están\l"
-	.string "prohibidos!$"
+.string "DANGER! FAST CURRENT!\n"
+    .string "Fishing and surfing prohibited!$"
 
 
 
@@ -74,8 +73,8 @@ msgbox TwoIslandDocumento_Text_101, MSGBOX_SIGN
 end
 
 TwoIslandDocumento_Text_101:
-.string "ISLA SECUNDA\n"
-	.string "Bendita isla para dos.$"
+.string "TWO ISLAND\n"
+    .string "Boon Island for Two$"
 
 
 
@@ -84,7 +83,8 @@ msgbox TwoIslandDocumento_Text_102, MSGBOX_SIGN
 end
 
 TwoIslandDocumento_Text_102:
-.string "SALÓN DE JUEGOS DE ISLA SECUNDA$"
+.string "Skip & Chomp!\n"
+    .string "Joyful GAME CORNER$"
 
 TwoIsland_Corriente_Arriba::
 compare VAR_UNUSED_0x40F7, 108
