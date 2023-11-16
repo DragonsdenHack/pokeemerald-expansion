@@ -117,7 +117,7 @@ waitmovement 0x0
 delay 30
 msgbox PokemonLeague_6F_Final_Texto_21 MSGBOX_AUTOCLOSE
 delay 30
-trainerbattle_no_intro TRAINER_ROJO_2, PokemonLeague_6F_Final_Texto_22
+trainerbattle_no_intro TRAINER_ANDRA_1, PokemonLeague_6F_Final_Texto_22
 delay 20
 playse SE_PIN
 applymovement 1, PokemonLeague_6F_Final_Move_1
@@ -232,7 +232,7 @@ applymovement 3, PokemonLeague_6F_Final_Move_30
 waitmovement 0x0
 setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
 msgbox PokemonLeague_6F_Final_Texto_46 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_LANCE_2, PokemonLeague_6F_Final_Texto_47
+trainerbattle_no_intro TRAINER_ANDRA_1, PokemonLeague_6F_Final_Texto_47
 playse MUS_RG_VICTORY_GYM_LEADER
 msgbox PokemonLeague_6F_Final_Texto_48 MSGBOX_AUTOCLOSE
 delay 20
@@ -246,7 +246,7 @@ applymovement 2, PokemonLeague_6F_Final_Move_13
 applymovement 3, PokemonLeague_6F_Final_Move_13
 applymovement 4, PokemonLeague_6F_Final_Move_14
 waitmovement 0x0
-playse MUS_RG_CREDITS
+playse MUS_RG_ROCKET_HIDEOUT
 msgbox PokemonLeague_6F_Final_Texto_50 MSGBOX_AUTOCLOSE
 applymovement 4, PokemonLeague_6F_Final_Move_31
 waitmovement 0x0
@@ -289,7 +289,7 @@ delay 40
 setvar VAR_TEMP_1, 1
 call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
 checkplayergender
-goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
+goto EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end
 

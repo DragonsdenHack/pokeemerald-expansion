@@ -9936,7 +9936,7 @@ Route23_Text_Policia3Intro:
 	.string "...\l"
 	.string "MEDALLA ARCOIRIS identificada,\l"
 	.string "hace nada pasó una chica vestida\l"
-	.string "de ROCKET también, disúlpame pero\l"
+	.string "de ROCKET también, discúlpame pero\l"
 	.string "por seguridad debo combatir\l"
 	.string "contigo.$"
 

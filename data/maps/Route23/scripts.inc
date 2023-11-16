@@ -93,7 +93,7 @@ end
 
 Ruta23_No_Puedes_Pasar_Texto_1:
 .string "(Debería de ver qué quiere\n"
-	.string "GIOVANNI de mi justo antes de\l"
+	.string "GIOVANNI de mí justo antes de\l"
 	.string "afrontar esta misión tan\l"
 	.string "importante).$"
 

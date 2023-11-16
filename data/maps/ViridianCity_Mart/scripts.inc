@@ -101,7 +101,6 @@ Base_Profunda_Mercado_3_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_3_Pokemart:
-    .2byte 754
 	.2byte 71
 	.2byte 606
 	.2byte 617
