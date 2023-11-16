@@ -646,7 +646,9 @@ static const u8 sBigPearlDesc[] = _(
    	"a alto precio.");
 
 static const u8 sPearlStringDesc[] = _( // Todo
-    "?????");
+    "Perlas antiguas\n"
+   	"que se venden a\n"
+   	"muy alto precio.");
 
 static const u8 sStardustDesc[] = _(
     "Bonita arena roja\n"

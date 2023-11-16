@@ -1526,9 +1526,9 @@ const struct Item gItems[] =
     [ITEM_PEARL_STRING] = // Todo
     {
         .name = _("Sarta Perlas"),
-        .itemId = ITEM_NONE,
-        .price = 0,
-        .description = sDummyDesc,
+        .itemId = ITEM_PEARL_STRING,
+        .price = 20000,
+        .description = sPearlStringDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

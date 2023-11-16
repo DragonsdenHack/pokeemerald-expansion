@@ -117,7 +117,7 @@ waitmovement 0x0
 delay 30
 msgbox PokemonLeague_6F_Final_Texto_21 MSGBOX_AUTOCLOSE
 delay 30
-trainerbattle_no_intro TRAINER_ANDRA_1, PokemonLeague_6F_Final_Texto_22
+trainerbattle_no_intro TRAINER_ROJO_2, PokemonLeague_6F_Final_Texto_22
 delay 20
 playse SE_PIN
 applymovement 1, PokemonLeague_6F_Final_Move_1
@@ -232,7 +232,7 @@ applymovement 3, PokemonLeague_6F_Final_Move_30
 waitmovement 0x0
 setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
 msgbox PokemonLeague_6F_Final_Texto_46 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ANDRA_1, PokemonLeague_6F_Final_Texto_47
+trainerbattle_no_intro TRAINER_LANCE_2, PokemonLeague_6F_Final_Texto_47
 playse MUS_RG_VICTORY_GYM_LEADER
 msgbox PokemonLeague_6F_Final_Texto_48 MSGBOX_AUTOCLOSE
 delay 20
