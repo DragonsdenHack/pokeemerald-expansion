@@ -9,12 +9,11 @@ release
 end
 
 Route11_Text_1:
-.string "Los pasos hacia RUTA 11 y\n"
-.string "CUEVA DIGLETT están cortados\l"
-.string "debido a obras de reparación. Date\l"
-.string "media vuelta, ROCKET, antes de\l"
-.string "darnos la excusa perfecta para\l"
-.string "detenerte.$"
+.string "The way that leads to ROUTE 11 and\n"
+	.string "DIGLETT'S CAVE is blocked due to repair\l"
+	.string "works. Turn back, ROCKET, turn back\l"
+	.string "before we find the perfect excuse for\l"
+	.string "detaining you.$"
 
 
 
@@ -26,12 +25,11 @@ release
 end
 
 Route11_Text_2:
-.string "Los pasos hacia RUTA 11 y\n"
-.string "CUEVA DIGLETT están cortados\l"
-.string "debido a obras de reparación. Date\l"
-.string "media vuelta, ROCKET, antes de\l"
-.string "darnos la excusa perfecta para\l"
-.string "detenerte.$"
+.string "The way that leads to ROUTE 11 and\n"
+	.string "DIGLETT'S CAVE is blocked due to repair\l"
+	.string "works. Turn back, ROCKET, turn back\l"
+	.string "before we find the perfect excuse for\l"
+	.string "detaining you.$"
 
 
 
@@ -183,11 +181,10 @@ end
 
 
 Route11_Policias_Text:
-.string "¿Nos tomas por tontos?\n"
-	.string "¿De verdad crees que no vamos a\l"
-	.string "verte por pasar usando SURF?\l"
-	.string "¡Da media vuelta si no quieres que\l"
-	.string "llame al mismísimo LANCE!$"
+.string "You take us for fools? You really think\n"
+	.string "that using SURF will make you invisible?\l"
+	.string "Turn back now if you don't want me to\l"
+	.string "call up LANCE himself!$"
 
 Route11_Policias_move1:
 face_down
@@ -214,5 +211,5 @@ release
 end
 
 Route11_Frontera_Tunel_Texto_1:
-.string "(Este lugar no se corresponde con\n"
-	.string "ninguna misión, mejor no perder tiempo).$"
+.string "(No missions over here, better not to\n"
+	.string "lose any time)$"

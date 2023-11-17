@@ -14,5 +14,6 @@ release
 end
 
 SsAnne15F_1_Texto_1:
-.string "En mis innumerables viajes, jamás vi un\n"
-	.string "POKÉMON tan enorme. Era algo así.$"
+.string "Even I have made countless travels, I've\n"
+	.string "never saw such a big POKÉMON. It was\l"
+	.string "like this big.$"

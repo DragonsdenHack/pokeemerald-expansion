@@ -9,9 +9,8 @@ release
 end
 
 SsAnne_19F_Text_1:
-.string "¡A la gente como tú, un período de\n"
-.string "reflexión bajo 4 paredes no le\l"
-.string "vendría mal!$"
+.string "For you and your kind, you may deserve a\n"
+	.string "reflection period somewhere far away!$"
 
 
 
@@ -23,7 +22,5 @@ release
 end
 
 SsAnne_19F_Text_2:
-.string "Mi papá dice que vosotros sois\n"
-.string "malos y deberíais de estar en la\l"
-.string "cárcel.\l"
-.string "¿Es verdad?$"
+.string "My dad says you're the bad guys and\n"
+	.string "should be in jail. Is that true?$"

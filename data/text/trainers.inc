@@ -10508,305 +10508,313 @@ MtEmberB3F_Text_SoldadoPostBattle:
 
 
 BondBridge_Text_ChicaIntro:
-	.string "El intenso olor a sal del mar,\n"
-	.string "aaaah... me llega al corazón.$"
+.string "The salty tang of the sea…\n"
+    .string "It tickles my heart.$"
 
 
 BondBridge_Text_ChicaDefeated:
-	.string "Pero ahora me huele... ¡a derrota!$"
+.string "…Sniff, sniff…\n"
+    .string "Something smells unpleasant…$"
 
 
 BondBridge_Text_ChicaPostBattle:
-	.string "¿No serán tus POKéMON los que\n"
-	.string "huelen mal?$"
+    .string "Perhaps that reek is your sweaty\n"
+    .string "POKéMON's body odor…$"
 
 
 BondBridge_Text_NinaIntro:
-	.string "Mi mami me ha dicho que no debo\n"
-	.string "nadar sin flotador.$"
+    .string "My mommy said that I can't swim\n"
+    .string "without my float ring.$"
 
 
 BondBridge_Text_NinaDefeated:
-	.string "¡Buaaaaa!\n"
-	.string "¡Buaaaaaaaaaaa!$"
+    .string "Waaah!\n"
+    .string "Waaah!$"
 
 
 BondBridge_Text_NinaPostBattle:
-	.string "Este año, seguro que aprendo\n"
-	.string "a nadar sola.$"
+    .string "This year, I'm going to finally\n"
+    .string "learn how to swim!$"
 
 
 BondBridge_Text_Nina2Intro:
-	.string "¡POKéMON, POKéMON!\n"
-	.string "¡A mí me gustan los POKéMON!$"
+.string "Yay, yay!\n"
+    .string "POKéMON!$"
 
 
 BondBridge_Text_Nina2Defeated:
-	.string "¿Qué ha pasado?$"
+ .string "What happens now?$"
 
 
 BondBridge_Text_Nina2PostBattle:
-	.string "¿Mis POKéMON me han fallado?$"
+.string "Did I just win?\n"
+    .string "Or did I lose?$"
 
 
 BondBridge_Text_Chica2Intro:
-	.string "¿Por qué vas con tanta prisa?$"
+    .string "Where are you off to in such\n"
+    .string "a hurry?$"
 
 
 BondBridge_Text_Chica2Defeated:
-	.string "¡Estás entrenando a tus POKéMON\n"
-	.string "de maravilla!$"
+    .string "You're raising some wonderful\n"
+    .string "POKéMON.$"
 
 
 BondBridge_Text_Chica2PostBattle:
-	.string "Si sigues el camino que llevas,\n"
-	.string "llegarás al BOSQUE BAYA.$"
+    .string "If you keep going this way, you'll\n"
+    .string "eventually reach BERRY FOREST.$"
 
 
 BondBridge_Text_NadadoraIntro:
-	.string "¡No, no, déjame, por favor!\n"
-	.string "¡Déjame en paz!$"
+.string "Oh, no, don't come here!\n"
+    .string "Please, stay away from me!$"
 
 
 BondBridge_Text_NadadoraDefeated:
-	.string "Vale, has ganado, ¿te irás ahora?$"
+    .string "Okay, you've won!\n"
+    .string "Now will you please go away?$"
 
 
 BondBridge_Text_NadadoraPostBattle:
-	.string "¡Un POKéMON me ha enganchado\n"
-	.string "por el bañador!\p"
-	.string "¡No me puedo mover!$"
+    .string "A POKéMON bit through my \n"
+    .string "swimsuit.\p"
+    .string "I can't get out of the water!$"
 
 
 WaterPath_Text_ChicaIntro:
-	.string "He llegado hasta aquí dejándome\n"
-	.string "llevar por un agradable aroma.$"
+.string "I let a pleasant breeze lead me\n"
+    .string "all the way here.$"
 
 
 WaterPath_Text_ChicaDefeated:
-	.string "Ganas en encanto cuando muestras\n"
-	.string "la fuerza que tienes.$"
+    .string "Giggle… You're so cute when you're\n"
+    .string "determined.$"
 
 
 WaterPath_Text_ChicaPostBattle:
-	.string "Me gustaría ir al bosque que hay\n"
-	.string "por ahí, pero...\p"
-	.string "Está lleno de POKéMON del tipo\n"
-	.string "BICHO, y me dan mucho miedo.$"
+    .string "I want to go to the woods over\n"
+    .string "there, but…\p"
+    .string "There are lots of BUG POKéMON.\n"
+    .string "They scare me a little.$"
 
 
 WaterPath_Text_NadadorIntro:
-	.string "¿Perdona? ¿Que no te gusta\n"
-	.string "la gente que hace natación\l"
-	.string "como yo?\p"
-	.string "¡No fastidies!$"
+.string "What, you're suggesting that you're\n"
+    .string "sick of seeing SWIMMERS like me?\p"
+    .string "Aww, don't be hatin'!$"
 
 
 WaterPath_Text_NadadorDefeated:
-	.string "¡Vale, me queda claro!$"
+    .string "Oh, no, no, no.$"
 
 
 WaterPath_Text_NadadorPostBattle:
-	.string "Vaya, no he conseguido dejar alto\n"
-	.string "el pabellón de natación...$"
+    .string "I couldn't lift the stigma of being\n"
+    .string "a SWIMMER…$"
 
 
 WaterPath_Text_NadadoraIntro:
-	.string "Como mi chico está siempre liado,\n"
-	.string "me voy a nadar yo sola.$"
+    .string "My boyfriend's always busy, so I\n"
+    .string "come swimming by myself.$"
 
 
 WaterPath_Text_NadadoraDefeated:
-	.string "¡Sabía que acabaría así!$"
+    .string "Awww, I knew this would happen!$"
 
 
 WaterPath_Text_NadadoraPostBattle:
-	.string "Cuando mi chico está ocupado,\n"
-	.string "me entretengo con los POKéMON\l"
-	.string "que me dio.$"
+    .string "When I can't be with my boyfriend,\n"
+    .string "I spend time with the POKéMON he\l"
+    .string "gave me.$"
 
 
 WaterPath_Text_ChicoIntro:
-	.string "Practico en secreto para que\n"
-	.string "no me vea nadie.$"
+    .string "I'm practicing in secret so no one\n"
+    .string "can see me.$"
 
 
 WaterPath_Text_ChicoDefeated:
-	.string "No me habrá visto nadie, ¿no?$"
+    .string "Nobody saw me losing, right?$"
 
 
 WaterPath_Text_ChicoPostBattle:
-	.string "Como artista, no me gusta\n"
-	.string "que nadie me vea cuando ensayo.$"
+    .string "As a performer, I don't want people\n"
+    .string "to know about the effort I put in.$"
 
 
 WaterPath_Text_MontaneroIntro:
-	.string "Oye, ¿dónde están las montañas\n"
-	.string "de esta zona?$"
+    .string "Tell me, where are the mountains\n"
+    .string "around these parts?$"
 
 
 WaterPath_Text_MontaneroDefeated:
-	.string "¡Me he perdido con tanta lucha!$"
+    .string "I lost my way while I was busy\n"
+    .string "battling!$"
 
 
 WaterPath_Text_MontaneroPostBattle:
-	.string "¿Hay montañas por aquí o no?$"
+    .string "Aren't there any mountains around\n"
+    .string "these parts?$"
 
 
 RuinValley_Text_MontaneroIntro:
-	.string "¿Luchar contigo?\n"
-	.string "¡Ahora mismo!$"
+    .string "A battle with you, so high up!$"
 
 
 RuinValley_Text_MontaneroDefeated:
-	.string "No soporto el sabor de la derrota\n"
-	.string "ante ti...$"
+    .string "Oh, the heartbreak of losing so\n"
+    .string "easily to you!$"
 
 
 RuinValley_Text_MontaneroPostBattle:
-	.string "Deberías hacer escalada.$"
+    .string "Experience the joy of climbing!$"
 
 
 RuinValley_Text_Montanero2Intro:
-	.string "Creo que en este mundo quedan\n"
-	.string "misterios por resolver.$"
+    .string "There appear to be many secrets\n"
+    .string "still unsolved in this world.$"
 
 
 RuinValley_Text_Montanero2Defeated:
-	.string "Mmmm...$"
+    .string "Hmm…$"
 
 
 RuinValley_Text_Montanero2PostBattle:
-	.string "Creo que también deberías dedicar\n"
-	.string "un tiempo a pensar en la cantidad\l"
-	.string "de cosas que hay por averiguar.$"
+    .string "I suggest to you that you, too,\n"
+    .string "give a thought to the secrets and\l"
+    .string "mysteries of our world once a day.$"
 
 
 RuinValley_Text_Montanero3Intro:
-	.string "Oye, ¿qué te trae hasta aquí?$"
+    .string "I'm curious, what compelled you to\n"
+    .string "come here?$"
 
 
 RuinValley_Text_Montanero3Defeated:
-	.string "Llevo tanto sin luchar que no\n"
-	.string "tengo reflejos...$"
+    .string "It's been so long since I battled,\n"
+    .string "my instincts are off.$"
 
 
 RuinValley_Text_Montanero3PostBattle:
-	.string "Hay varias ruinas en ARCHI7.\p"
-	.string "La mayoría datan de tiempos\n"
-	.string "inmemoriales.$"
+    .string "There are several ruins on the\n"
+    .string "SEVII ISLANDS.\p"
+    .string "The majority of them date back\n"
+    .string "a long way.$"
 
 
 RuinValley_Text_Montanero4Intro:
-	.string "Dicen que hay misteriosas piedras\n"
-	.string "en esta isla.\p"
-	.string "Supongo que tendrán algo que ver\n"
-	.string "con las ruinas de aquí.$"
+    .string "It's been said that there are\n"
+    .string "mysterious stones on this island.\p"
+    .string "I suspect it has something to do\n"
+    .string "with the ruins here.$"
 
 
 RuinValley_Text_Montanero4Defeated:
-	.string "Eh... muy interesante.$"
+    .string "Oh, interesting.$"
 
 
 RuinValley_Text_Montanero4PostBattle:
-	.string "Las ruinas de ahí...\p"
-	.string "Son rarísimas, yo no he conseguido\n"
-	.string "entrar todavía.$"
+    .string "Those ruins over there…\p"
+    .string "I haven't had any luck in finding\n"
+    .string "how I can get inside.$"
 
 
 RuinValley_Text_NecioIntro:
-	.string "Yo me conozco bien toda esta\n"
-	.string "zona.$"
+    .string "I'm pretty familiar with the land\n"
+    .string "around these parts.$"
 
 
 RuinValley_Text_NecioDefeated:
-	.string "Tampoco es para ponerse así.\n"
-	.string "Puedes preguntarme lo que quieras.$"
+    .string "You don't need to be so pushy.\n"
+    .string "I'll be happy to tell you.$"
 
 
 RuinValley_Text_NecioPostBattle:
-	.string "La entrada a las ruinas...\n"
-	.string "Tiene unos dibujos extrañísimos\l"
-	.string "grabados.\p"
-	.string "Y no tengo ni idea de lo que\n"
-	.string "significan.$"
+    .string "The door to the ruins…\n"
+    .string "It has these strange patterns\l"
+    .string "engraved on the outside.\p"
+    .string "I don't know what they mean,\n"
+    .string "though.$"
 
 
 PatternBush_Text_ChicoIntro:
-	.string "Crees que soy inofensivo, ¿eh?$"
+    .string "I bet you think I'm just some guy,\n"
+    .string "don't you, eh?$"
 
 
 PatternBush_Text_ChicoDefeated:
-	.string "Crees que soy débil, ¿no?$"
+    .string "I bet you think I'm weak,\n"
+    .string "don't you, eh?$"
 
 
 PatternBush_Text_ChicoPostBattle:
-	.string "La gente de ciudad siempre viene\n"
-	.string "dándose demasiados aires...\p"
-	.string "Aunque a mí no me vendrían\n"
-	.string "mal unos pocos...$"
+    .string "Ayup, you townies come around all\n"
+    .string "so dandy with a hat that flashy…\p"
+    .string "How about giving me that?$"
 
 
 PatternBush_Text_CazabichosIntro:
-	.string "He atrapado un POKéMON del tipo\n"
-	.string "BICHO que solo vive por aquí.$"
+    .string "I caught a BUG POKéMON that lives\n"
+    .string "only around here!$"
 
 
 PatternBush_Text_CazabichosDefeated:
-	.string "Je, je, je...\n"
-	.string "¿No es impresionante mi POKéMON?$"
+    .string "Heheh…\n"
+    .string "Isn't my POKéMON awesome?$"
 
 
 PatternBush_Text_CazabichosPostBattle:
-	.string "Hay una chica cerca del arbusto,\n"
-	.string "que mide las fuerzas de HERACROSS.$"
+    .string "There's a girl near the BUSH who\n"
+    .string "measures HERACROSS for TRAINERS.$"
 
 
 PatternBush_Text_Cazabichos2Intro:
-	.string "¡Mira qué POKéMON del tipo BICHO\n"
-	.string "tengo! ¡Sí, señor!$"
+    .string "Yeah, yeah, yeah!\n"
+    .string "Look at all the BUG POKéMON!$"
 
 
 PatternBush_Text_Cazabichos2Defeated:
-	.string "¡Me han ganado en plena euforia!$"
+    .string "I got beat while I was still busy\n"
+    .string "celebrating!$"
 
 
 PatternBush_Text_Cazabichos2PostBattle:
-	.string "La próxima vez, me vengo con mi\n"
-	.string "hermano pequeño.$"
+    .string "I'm going to bring my little brother\n"
+    .string "here next time.$"
 
 
 PatternBush_Text_Cazabichos3Intro:
-	.string "¿Sabes? Si no uso POKéMON del tipo\n"
-	.string "BICHO, no disfruto los combates.$"
+    .string "You know, it just doesn't feel right\n"
+    .string "if I don't use BUG POKéMON.$"
+
 
 
 PatternBush_Text_Cazabichos3Defeated:
-	.string "No pasa nada, perder tiene también\n"
-	.string "su encanto.$"
+    .string "It's okay, losing is a fun part of\n"
+    .string "POKéMON's appeal, too.$"
 
 
 PatternBush_Text_Cazabichos3PostBattle:
-	.string "A todo esto, lo del -encanto-\n"
-	.string "lo digo porque hay que saber\l"
-	.string "ganar y perder.\p"
-	.string "Es como el blanco y el negro,\n"
-	.string "como el día y la noche. ¿No?$"
+    .string "By the way, “appeal” is a weird\n"
+    .string "word, if you think about it.\p"
+    .string "Like, is it like an orange peel?\n"
+    .string "Or like a ringing bell?$"
 
 
 PatternBush_Text_Chico2Intro:
-	.string "¡Mira al suelo!\n"
-	.string "Qué dibujos más raros... ¿verdad?$"
+    .string "Look, look! There are funny\n"
+    .string "patterns on the ground.$"
 
 
 PatternBush_Text_Chico2Defeated:
-	.string "¡Increíble!$"
+    .string "Super awesome!$"
 
 
 PatternBush_Text_Chico2PostBattle:
-	.string "Los dibujos tan raros del suelo...\p"
-	.string "¡Se parecen al estampado de\n"
-	.string "la ropa de mi abuelo!$"
+    .string "The funny patterns on the ground…\p"
+    .string "They look like the patterns on my\n"
+    .string "grandpa's clothes.$"
 
 
 PatternBush_Text_Chico3Intro:
@@ -10825,35 +10833,37 @@ PatternBush_Text_Chico3PostBattle:
 
 
 PatternBush_Text_ChicaIntro:
-	.string "Oye, que me pica la curiosidad,\n"
-	.string "¿cómo crías a tus POKéMON?$"
+    .string "I'm curious, how do you raise your\n"
+    .string "POKéMON?$"
 
 
 PatternBush_Text_ChicaDefeated:
-	.string "¡Veo que con mucho cariño!$"
+    .string "You raise your POKéMON with a\n"
+    .string "whole lot of love!$"
 
 
 PatternBush_Text_ChicaPostBattle:
-	.string "Hay que criarlos con el mismo\n"
-	.string "cariño con el que una madre cría\l"
-	.string "a sus pequeños.$"
+    .string "In the same way your mother raised\n"
+    .string "you full of love, you should raise\l"
+    .string "your POKéMON.$"
 
 
 PatternBush_Text_Chica2Intro:
-	.string "Me encantan los POKéMON del tipo\n"
-	.string "BICHO. Por eso estoy siempre aquí.\p"
-	.string "Supongo que no seré la única...$"
+    .string "I love BUG POKéMON.\n"
+    .string "That's why I'm here all the time.\p"
+    .string "Am I the only girl like that?$"
 
 
 PatternBush_Text_Chica2Defeated:
-	.string "No pienso perder la sonrisa.\n"
-	.string "Supongo que no soy la única...$"
+    .string "I lost, but I'm still laughing.\n"
+    .string "Am I the only girl like that?$"
+
 
 
 PatternBush_Text_Chica2PostBattle:
-	.string "Voy a seguir coleccionando\n"
-	.string "POKéMON del tipo BICHO.\p"
-	.string "Supongo que no soy la única...$"
+    .string "I'm going to keep on collecting\n"
+    .string "BUG POKéMON.\p"
+    .string "Am I the only girl like that?$"
 
 
 PatternBush_Text_Chica3Intro:
@@ -10872,39 +10882,39 @@ PatternBush_Text_Chica3PostBattle:
 
 
 PatternBush_Text_Chica4Intro:
-	.string "Yo me encargo de preservar el\n"
-	.string "entorno natural de los POKéMON.$"
+    .string "I'm working to preserve the natural\n"
+    .string "ecology of POKéMON here.$"
 
 
 PatternBush_Text_Chica4Defeated:
-	.string "¡Para la edad que tienes,\n"
-	.string "eres increíble!$"
+    .string "Oh, for someone so young, you are\n"
+    .string "tremendous!$"
 
 
 PatternBush_Text_Chica4PostBattle:
-	.string "¡Yo no he dicho que no debas\n"
-	.string "atrapar POKéMON!\p"
-	.string "Solo quiero que la gente los críe\n"
-	.string "de forma responsable.$"
+    .string "I'm not saying that you shouldn't\n"
+    .string "catch POKéMON.\p"
+    .string "I just want people to raise their\n"
+    .string "POKéMON responsibly.$"
+
 
 
 PatternBush_Text_Chica5Intro:
-	.string "¡Mmmm, respira hondo!\n"
-	.string "Qué aire tan puro...$"
+    .string "Take a deep breath.\n"
+    .string "Isn't the air delicious?$"
 
 
 PatternBush_Text_Chica5Defeated:
-	.string "Si quieres, puedo enseñarte\n"
-	.string "técnicas de respiración.$"
+    .string "If you'd like, I can teach you how\n"
+    .string "to breathe properly.$"
 
 
 PatternBush_Text_Chica5PostBattle:
-	.string "Espira...\n"
-	.string "Hasta que no te quede aire...\p"
-	.string "Cuando no puedas espirar más,\n"
-	.string "¡inspira!\p"
-	.string "¿No es una sensación de frescor\n"
-	.string "fantástica?$"
+    .string "First, exhale.\n"
+    .string "Blow everything out.\p"
+    .string "When you can't exhale anymore,\n"
+    .string "inhale the clean air!\p"
+    .string "Isn't it refreshing?$"
 
 
 PatternBush_Text_MontaneroIntro:
@@ -16250,34 +16260,36 @@ KindleRoad_Text_Pareja2PostBattle:
 
 
 BondBridge_Text_Pareja1Intro:
-	.string "FELI: Te vamos a enseñar cuál es\n"
-	.string "nuestro POKéMON preferido.$"
+.string "JOY: We'll teach you what our\n"
+    .string "favorite POKéMON is!$"
 
 
 
 BondBridge_Text_Pareja1Defeated:
-	.string "FELI: Oh..., MATI...$"
+.string "JOY: Ohh…\n"
+    .string "MEG!$"
 
 
 
 BondBridge_Text_Pareja1PostBattle:
-	.string "FELI: Bueno, me lo he pasado bien.\n"
-	.string "Espero que podamos repetirlo.$"
+.string "JOY: Wasn't that fun?\n"
+    .string "I hope we can battle again!$"
 
 
 BondBridge_Text_Pareja2Intro:
-	.string "MATI: Te vamos a enseñar cuál es\n"
-	.string "nuestro POKéMON favorito.$"
+	.string "JOY: I really want to battle with\n"
+    .string "MEG.\p"
+    .string "One POKéMON isn't enough.$"
 
 
 BondBridge_Text_Pareja2Defeated:
-	.string "MATI: Oh..., FELI...$"
+.string "MEG: Ohh…\n"
+    .string "JOY!$"
 
 
 BondBridge_Text_Pareja2PostBattle:
-	.string "MATI: Con un POKéMON no tienes\n"
-	.string "nada que hacer.\p"
-	.string "Para eso, lucho con FELI.$"
+.string "JOY: Wasn't that fun?\n"
+    .string "I hope we can battle again!$"
 
 
 Route14_Text_Pareja1Intro:

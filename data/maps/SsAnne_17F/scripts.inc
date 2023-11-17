@@ -9,9 +9,8 @@ release
 end
 
 SsAnne_17F_Text_1:
-.string "La fiesta debe de estar a punto de\n"
-.string "comenzar.\l"
-.string "¡Es un evento único!$"
+.string "The party is about to start. It's a\n"
+	.string "unique event!$"
 
 
 
@@ -23,6 +22,5 @@ release
 end
 
 SsAnne_17F_Text_2:
-.string "El SS.ANNE es también conocido por\n"
-.string "las extraordinarias fiestas que\l"
-.string "organiza.$"
+.string "SS.ANNE is also known for its held\n"
+	.string "parties.$"

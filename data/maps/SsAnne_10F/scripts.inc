@@ -24,11 +24,10 @@ release
 end
 
 SsAnne10F_Text_4:
-.string "El SS.ANNE supuestamente viaja a\n"
-.string "lo largo de las regiones llevando\l"
-.string "entrenadores de todo el mundo.\l"
-.string "¡Pero aquí yo solo veo POKÉMON de\l"
-.string "KANTO!$"
+.string "SS.ANNE is supposed to travel between\n"
+	.string "regions carrying trainers from\l"
+	.string "everywhere. And yet, I've only seen\l"
+	.string "KANTO's POKÉMONS!$"
 
 
 

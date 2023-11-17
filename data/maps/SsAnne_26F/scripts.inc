@@ -21,14 +21,13 @@ release
 end
 
 SsAnne26F_1_Texto_1:
-.string "Pareces cansado.\n"
-	.string "¿Te gustaría descansar un poco?$"
+.string "You look tired.\n"
+	.string "Would you like to rest a bit?$"
 
 SsAnne26F_1_Texto_2:
-.string "Me alegra ver que ahora te\n"
-	.string "encuentras más fresco y activo.$"
+.string "I'm glad to see that you're now full of\n"
+	.string "energy.$"
 
 SsAnne26F_1_Texto_3:
-.string "Oh, perdona por molestarte, me has\n"
-	.string "recordado tanto a mi hermano\l"
-	.string "pequeño...$"
+.string "Oh, sorry for bothering you, you look a\n"
+	.string "lot like my little brother…$"

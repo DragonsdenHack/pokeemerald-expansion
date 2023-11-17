@@ -9,9 +9,8 @@ release
 end
 
 SsAnne_20F_Text_1:
-.string "Es de mal gusto espiar a una chica\n"
-.string "mientras se arregla.\l"
-.string "¡Largo!$"
+.string "It's not OK to spy on a girl while getting\n"
+	.string "dressed up. Get out!$"
 
 
 
@@ -24,6 +23,6 @@ end
 
 SsAnne_20F_Text_2:
 .string "…\n"
-.string "¡Nos estamos arreglando para la\l"
-.string "gran fiesta!\l"
-.string "¡Sal de aquí fisgón!$"
+.string "¡We're getting dressed up\l"
+.string "for the great party!!\l"
+.string "Get out, you busybody!$"

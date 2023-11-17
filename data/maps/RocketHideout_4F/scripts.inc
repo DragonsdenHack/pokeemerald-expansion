@@ -151,13 +151,12 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC_Texto_1:
-.string "Disfruta de JOHTO {PLAYER}, exprime\n"
-	.string "al máximo todos sus rincones y llega\l"
-	.string "hasta donde nadie más ha llegado. Algún\l"
-	.string "día echarás la vista atrás y te darás\l"
-	.string "cuenta de todo lo que has visto y\l"
-	.string "vivido. Toda historia tiene su fin, pero\l"
-	.string "esta... aún no.$"
+.string "Enjoy JOHTO {PLAYER}, squeeze out\n"
+	.string "every moment and place and get further\l"
+	.string "than anyone has. Someday, you will face\l"
+	.string "back and see how much you have seen\l"
+	.string "lived… Every story has its end, but this\l"
+	.string "one… not for now.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda_Texto_1 MSGBOX_AUTOCLOSE
@@ -165,11 +164,12 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda_Texto_1:
-.string "Vamos a desentrañar de una vez por\n"
-	.string "todas el misterio del POKÉMON ESENCIA,\l"
-	.string "una vez descubierto, nada nos impedirá\l"
-	.string "convertir KANTO y JOHTO en las\l"
-	.string "potencias del MUNDO POKÉMON.$"
+.string "We'll be finding out once and for all the\n"
+	.string "mystery of the -pendiente, no portear-.\l"
+	.string "Once we do it, there will be nothing that\l"
+	.string "could prevent us from turning both\l"
+	.string "KANTO and JOHTO into global powers in\l"
+	.string "the POKÉMON WORLD.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1 MSGBOX_AUTOCLOSE
@@ -177,14 +177,13 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1:
-.string "La región de JOHTO es la de mayor\n"
-	.string "historia y tradición que existe en\l"
-	.string "el mundo conocido, es indudable\l"
-	.string "que hay algo...espiritual en ese\l"
-	.string "lugar.\l"
-	.string "Y aunque tal vez nunca podamos\l"
-	.string "llegar a comprenderlo claramente,\l"
-	.string "no podemos ignorar su poder.$"
+.string "JOHTO region is the one with the most\n"
+	.string "history and tradition in the known\l"
+	.string "world. You can't deny that something…\l"
+	.string "spiritual is going on there. And perhaps\l"
+	.string "we will never get to comprehend it at\l"
+	.string "all, nevertheless, we cannot ignore it's\l"
+	.string "power.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1 MSGBOX_AUTOCLOSE
@@ -192,14 +191,16 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1:
-.string "La LIGA POKÉMON se ha mantenido\n"
-	.string "infranqueable desde la guerra, pero el\l"
-	.string "no contar con oposición alguna también\l"
-	.string "les ha debilitado. LANCE confía en la\l"
-	.string "superioridad de sus POKÉMON en cuanto\l"
-	.string "STATS BASE, tú derrotaste a las AVES\l"
-	.string "SAGRADAS, sabes de primera mano que\l"
-	.string "eso no lo es todo en un combate.$"
+.string "The POKÉMON LEAGUE has maintained its\n"
+	.string "impassable position since the war\l"
+	.string "happened, but because of the lack of\l"
+	.string "opposition, they've gotten weaker.\l"
+	.string "LANCE trust his POKÉMON because of\l"
+	.string "their high BASE STATS, but since you\l"
+	.string "have defeated the SACRED KANTO BIRDS,\l"
+	.string "you already know that BASE STATS are\l"
+	.string "not the only thing needed for winning a\l"
+	.string "battle.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak_Texto_1 MSGBOX_AUTOCLOSE
@@ -207,9 +208,9 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak_Texto_1:
-.string "Ve a la MANSIÓN POKÉMON, {PLAYER}, y\n"
-	.string "demuéstrale a OAK cómo pelea un\l"
-	.string "ENTRENADOR en sintonía con los suyos.$"
+.string "Go to the POKÉMON MANSION, {PLAYER},\n"
+	.string "and show OAK how a TRAINER fights when\l"
+	.string "he's synchronized with his POKÉMON.$"
 
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera::
@@ -218,9 +219,9 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoPrimera_Texto_1:
-.string "Tal vez esa entrada secreta esté a las\n"
-	.string "afueras de PUEBLO LAVANDA, ¿has\l"
-	.string "mirado por el sur, en RUTA 12?$"
+.string "Maybe that secret entrance is in the\n"
+	.string "outsides of LAVENDER TOWN, have you\l"
+	.string "checked the south, ROUTE 12?$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1 MSGBOX_AUTOCLOSE
@@ -228,12 +229,11 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1:
-.string "Habla con la recepcionista de SILPH,\n"
-	.string "ella te mostrará la gran biblioteca\l"
-	.string "privada que tienen en el sótano. Según\l"
-	.string "me ha dicho el PRESIDENTE, los datos\l"
-	.string "sobre ese POKÉMON ESENCIA están en el\l"
-	.string "S3, en la última sala.$"
+.string "Talk to the SILPH receptionist, she will\n"
+	.string "show you that grand private library\l"
+	.string "they have underground. As I've been\l"
+	.string "told, all the data of thet -pendiente, no\l"
+	.string "portear- are in the S3, in the last room.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1 MSGBOX_AUTOCLOSE
@@ -241,12 +241,13 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1:
-.string "Relájate y disfruta de las islas\n"
-	.string "{PLAYER}. Hay mucho por hacer allí, si\l"
-	.string "sabes adonde ir, tal vez si visitas a\l"
-	.string "ATLAS en nuestro cuartel él te muestre\l"
-	.string "algunos de sus secretos, conoce mejor\l"
-	.string "que nadie el ARCHI7.$"
+.string "Relax, {PLAYER}, and enjoy the\n"
+	.string "islands. There are many things to do\l"
+	.string "there, if you know where to go, maybe\l"
+	.string "you should pay ARCHER a visit, he may\l"
+	.string "show you some of their secrets. After\l"
+	.string "all, no one knows the SEVII ISLANDS\l"
+	.string "better than him.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1 MSGBOX_AUTOCLOSE
@@ -254,16 +255,15 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1:
-.string "Puedes enfrentar los gimnasios en el\n"
-	.string "orden que prefieras, {PLAYER}, pero\l"
-	.string "mi recomendación es que sigas el orden\l"
-	.string "tradicional. Igualmente, el GIMNASIO\l"
-	.string "CANELA está cerrado actualmente,\l"
-	.string "habrá que esperar a que ese canalla de\l"
-	.string "BLAINE lo reabra, recuerda que una vez\l"
-	.string "obtenidas las 7 primeras medallas, aún\l"
-	.string "queda nuestro propio GIMNASIO de\l"
-	.string "CIUDAD VERDE.$"
+.string "You can fight the GYMS in the other\n"
+	.string "that you want to, however, I'd recommend\l"
+	.string "that you beat them in the traditional\l"
+	.string "order. Also, CINNAMON GYM is closed\l"
+	.string "right now, we need to wait until that\l"
+	.string "scumbag of BLAINE re-opens it. When\l"
+	.string "you obtain the 7th medal, remember that\l"
+	.string "you'll have to beat VIRIDIAN CITY's one,\l"
+	.string "our own GYM.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1 MSGBOX_AUTOCLOSE
@@ -271,12 +271,11 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSilph_Texto_1:
-.string "Confío en ti, {PLAYER}. La seguridad\n"
-	.string "de SILPH tiene fama de ser implacable,\l"
-	.string "pero jamás se han enfrentado a\l"
-	.string "entrenadores como ANDRA o tú mismo.\l"
-	.string "¡Ve a SILPH y demuéstrales cómo pelea\l"
-	.string "un ROCKET de verdad!$"
+.string "I trust you, {PLAYER}. SILPH's\n"
+	.string "security has a reputation for being\l"
+	.string "relentless, but they've never faced\l"
+	.string "trainers like ANDRA or you. Go to SILPH,\l"
+	.string "and show them how a real ROCKET fights!$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionAves_Texto_1 MSGBOX_AUTOCLOSE

@@ -9,12 +9,11 @@ release
 end
 
 RocketHideout3F_Text_1:
-.string "En AZULONA se nos acusa de\n"
-.string "contaminar la ciudad, ¡no les\l"
-.string "falta razón con la que tenemos\l"
-.string "montada aquí dentro!\l"
-.string "¡Si supieran lo que tienen bajo el\l"
-.string "suelo que pisan!$"
+.string "In CELADON we're being accused of\n"
+	.string "contaminating the city, if they know\l"
+	.string "how right they were! If they knew what\l"
+	.string "we have here, under the ground they\l"
+	.string "walk on every day!$"
 
 
 
@@ -26,14 +25,11 @@ release
 end
 
 RocketHideout3F_Text_2:
-.string "Nuestro trabajo aquí es muy\n"
-.string "simple: crear mayor capacidad de\l"
-.string "producción, optimizar y\l"
-.string "automatizar lo máximo posible\l"
-.string "todos los procesos, lo que tú\l"
-.string "hiciste en casa de BILL ha ayudado\l"
-.string "mucho a ese propósito, desde\l"
-.string "luego.$"
+.string "Our job here is simple: to create the\n"
+	.string "highest production capacity, optimize\l"
+	.string "and automate as much as we can in every\l"
+	.string "process, what you did at BILL's helped a\l"
+	.string "lot, obviously.$"
 
 
 
@@ -45,19 +41,17 @@ release
 end
 
 RocketHideout3F_Text_3:
-.string "-Nunca serás un ROCKET de verdad\n"
-.string "hasta que hagas a un lado tus\l"
-.string "sentimientos y te conviertas en\l"
-.string "una fría y sanguinaria máquina de\l"
-.string "robar y arruinar entrenadores-.\l"
-.string "Esa era la visión antigua que se\l"
-.string "tenía del ROCKET promedio, nada\l"
-.string "más lejos de la realidad, y simple\l"
-.string "propaganda promovida por el actual\l"
-.string "gobierno, con todo robo que\l"
-.string "llevamos acabo solo estamos\l"
-.string "recuperando lo que ya se nos\l"
-.string "arrebató antes.$"
+.string "-You'll never be a true ROCKET until you\n"
+	.string "leave apart your feelings and turn\l"
+	.string "yourself into a cold and bloodlusted\l"
+	.string "machine whose only objective is to\l"
+	.string "steal from trainers and ruin them.-\l"
+	.string "That was the usual vision of the normal\l"
+	.string "ROCKET, nothing further from reality,\l"
+	.string "and simple propaganda pushed by today's\l"
+	.string "government. With every stealing we're\l"
+	.string "doing, we're just recovering what was\l"
+	.string "taken of us before.$"
 
 
 
@@ -82,9 +76,9 @@ release
 end
 
 RocketHideout_3F_Maquina_Teletransporte_YesNo:
-.string "La máquina está lista para ser\n"
-	.string "usada, ¿quieres teletransportarte\l"
-	.string "a la BASE de RUTA 5?$"
+.string "The machine is ready to be used. Do you\n"
+	.string "want to be teleported to the BASE of\l"
+	.string "ROUTE 5?$"
 
 RocketHideout_3F_Maquina_Teletransporte_No::
 release
@@ -119,38 +113,32 @@ release
 end
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_1:
-.string "¡Vaya!\n"
-	.string "¡Tú debes de ser {PLAYER}, hay que\l"
-	.string "tener valor para meterse con\l"
-	.string "alguien tan protegido como BILL y\l"
-	.string "salir airoso!$"
+.string "Wow! You must be {PLAYER}! You need\n"
+	.string "your guts to mess up with someone as\l"
+	.string "protected as BILL and emerge\l"
+	.string "victorious!$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_2:
-.string "Nuestro LÍDER GIOVANNI se\n"
-	.string "encuentra en su despacho en el\l"
-	.string "PISO -4, uno más abajo de este,\l"
-	.string "dio claras indicaciones de que\l"
-	.string "fueras a verle en cuanto llegaras\l"
-	.string "aquí.$"
+.string "Our LEADER GIOVANNI is waiting for you\n"
+	.string "in his office, on FLOOR -4, on a lower\l"
+	.string "floor. Don't keep him waiting!$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_3:
-.string "Otra cosa más, para llegar a su\n"
-	.string "despacho no podrás acceder por las\l"
-	.string "escaleras convencionales, a modo\l"
-	.string "de protección el único acceso\l"
-	.string "posible es a través del ascensor\l"
-	.string "que encontrarás una planta más\l"
-	.string "arriba, necesitarás estas llaves\l"
-	.string "para hacerlo funcionar.$"
+.string "Also, you can't go to his office by\n"
+	.string "stairs, for extra protection, the only\l"
+	.string "way in and out is by elevator. You can\l"
+	.string "find it on the upper floor. Take these\l"
+	.string "keys, you need them to access the\l"
+	.string "elevator.$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_3.1:
-.string "¡Obtuviste LLAVE ASCENSOR de manos de\n"
-	.string "CIENTÍFICO ROCKET!$"
+.string "You obtained the LIFT KEY from the\n"
+	.string "ROCKET SCIENTIST!$"
 
 
 RocketHideout_3F_Cientifico_Bienvenida_Texto_4:
-.string "Eso es todo {PLAYER}, GIOVANNI te\n"
-	.string "espera.$"
+.string "That's all {PLAYER}, GIOVANNI is\n"
+	.string "awaiting you.$"
 
 RocketHideout_3F_Cientifico_Bienvenida_Move_1:
 emote_exclamation_mark

@@ -80,16 +80,14 @@ release
 end
 
 SsAnne7F_Text_7:
-.string "Deberías de estar en la fiesta,\n"
-.string "pero ya que has venido te contaré\l"
-.string "un secreto: la fiesta de verdad\l"
-.string "está aquí, sin nuestro trabajo la\l"
-.string "celebración de ahí fuera no sería\l"
-.string "posible, me resulta mucho más\l"
-.string "satisfactorio el hecho de\l"
-.string "disfrutar del proceso que hace\l"
-.string "algo posible que llegar al fin en\l"
-.string "sí mismo.$"
+.string "Yo should be in the party, but since you\n"
+	.string "came here, I'll tell you a secret: the\l"
+	.string "true party is over here, without our\l"
+	.string "work that outside celebration wouldn't\l"
+	.string "be possible, it feels better the fact\l"
+	.string "that it's enjoyable the process that\l"
+	.string "allows something to be ended than the\l"
+	.string "end itself.$"
 
 
 
@@ -101,7 +99,5 @@ release
 end
 
 SsAnne7F_Text_8:
-.string "¡Estamos muy ocupados!\n"
-.string "¡Tenemos que abastecer a todos los\l"
-.string "invitados a la fiesta en un tiempo\l"
-.string "récord!$"
+.string "We're really busy! We gotta serve\n"
+	.string "everyone around here in a record time!$"

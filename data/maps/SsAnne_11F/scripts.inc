@@ -15,7 +15,7 @@ end
 
 SsAnne11F_Text_2:
 .string "¡Whoooaaa!\n"
-.string "¡ZONA SAFARI, allá voy!$"
+.string "SAFARI ZONE! Here we go!$"
 
 
 
@@ -27,8 +27,8 @@ release
 end
 
 SsAnne11F_Text_3:
-.string "Noto ciertos aires de superioridad\n"
-.string "de parte de algunos invitados,\l"
-.string "cuando algunos no son más que unos\l"
-.string "niñatos malcriados. Mi hija no\l"
-.string "recibirá esa educación.$"
+.string "I can feel some feeling of superiority\n"
+	.string "from some of the guests, when they're\l"
+	.string "not more than a bunch of spoiled kids.\l"
+	.string "My daughter didn't receive such\l"
+	.string "education.$"

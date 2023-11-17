@@ -19,6 +19,5 @@ release
 end
 
 SsAnne_25F_Text_3:
-.string "¡Mi MACHOKE es súper fuerte, puede\n"
-.string "incluso mover grandes rocas él\l"
-.string "solo!$"
+.string "My MACHOKE is really strong! He can\n"
+	.string "even move giant stones just by himself!$"

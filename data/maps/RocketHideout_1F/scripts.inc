@@ -9,12 +9,11 @@ release
 end
 
 RocketHideout1F_Text_1:
-.string "¿Y tú?\n"
-.string "¿Qué fue lo que te llevó a\l"
-.string "enrolarte a nuestras filas?\l"
+.string "What about you?\n"
+.string "How did you ended up recruited?\l"
 .string "…\l"
 .string "…\l"
-.string "Ya veo.$"
+.string "I see…$"
 
 
 
@@ -26,12 +25,10 @@ release
 end
 
 RocketHideout1F_Text_2:
-.string "No debes preocuparte por el\n"
-.string "descubrimiento de esta BASE, la\l"
-.string "gente ahí fuera está tan ciega que\l"
-.string "no sería capaz de ver un ZAPDOS\l"
-.string "usando TRUENO enfrente de sus\l"
-.string "narices.$"
+.string "You shouldn't worry. No one will find our\n"
+	.string "BASE. Those people outside are as blind\l"
+	.string "as hey wouldn't see even a ZAPDOS using\l"
+	.string "it's THUNDER right in front of them.$"
 
 
 
@@ -43,14 +40,12 @@ release
 end
 
 RocketHideout1F_Text_3:
-.string "El CASINO que tenemos justo encima\n"
-.string "es nuestra principal fuente de\l"
-.string "ingresos, y lo mejor de todo es\l"
-.string "que nos basamos en el pésimo\l"
-.string "criterio de la gente para jugar a\l"
-.string "un juego en el que de por sí saben\l"
-.string "que estadísticamente saldrán\l"
-.string "perdiendo.$"
+.string "That CASINO up there is our main income\n"
+	.string "source. The best part about it is that\l"
+	.string "everything is based on the awful\l"
+	.string "criteria of people, who yet play games\l"
+	.string "that they know that statistically won't\l"
+	.string "benefit them.$"
 
 
 
@@ -80,10 +75,9 @@ release
 end
 
 RocketHideout1F_Text_6:
-.string "Solamente enseñamos a nuestros\n"
-.string "enemigos lo que queremos que vean,\l"
-.string "grábate esto a fuego, joven ROCKET,\l"
-.string "es la clave para triunfar.$"
+.string "We only show our enemies what we want\n"
+	.string "them to see. Make sure you learn it,\l"
+	.string "you'll need it to succeed.$"
 
 
 
@@ -95,9 +89,8 @@ release
 end
 
 RocketHideout1F_Text_7:
-.string "Así que ISLA INTA eh.\n"
-.string "¿Hay POKÉMON raros por esos\l"
-.string "lugares o qué?$"
+.string "So, CHRONO ISLAND huh. Are there rare\n"
+	.string "POKÉMON over there or what?$"
 
 RocketHideout1F_Barrera::
 compare VAR_UNUSED_0x40F7, 38
@@ -120,10 +113,9 @@ end
 
 
 RocketHideout1F_Barrera_Texto_1:
-.string "Tengo entendido que nuestro LÍDER\n"
-	.string "quería verte, ¿no querrás empezar\l"
-	.string "aquí desobedeciendo una orden\l"
-	.string "directa?$"
+.string "I think our leader is waiting for you, or\n"
+	.string "maybe you'd like to ignore orders on\l"
+	.string "your first day over here?$"
 
 RocketHideout1F_Barrera_Move_1:
 face_up

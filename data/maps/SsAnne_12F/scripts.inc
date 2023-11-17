@@ -9,6 +9,5 @@ release
 end
 
 SsAnne12F_Text_1:
-.string "Camarero, me gustaría tomar filete\n"
-.string "de TAUROS a la plancha, seguido\l"
-.string "de sushi de MAGIKARP.$"
+.string "Waiter, Ill have a grilled TAUROS steak,\n"
+	.string "followed by MAGIKARP's sushi.$"
