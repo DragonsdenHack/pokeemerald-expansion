@@ -153,7 +153,7 @@
 #define METATILE_CinnabarGym_Wall_RetractedBarrier  0x2D1
 
 // gTileset_CinnabarIsland
-#define METATILE_CinnabarIsland_LabDoor  0x2AD
+#define METATILE_CinnabarIsland_LabDoor  0x1D5
 
 // gTileset_Contest
 #define METATILE_Contest_CounterFlap_Bottom  0x2D9

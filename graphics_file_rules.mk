@@ -54,6 +54,9 @@ $(TILESETGFXDIR)/secondary/pacifidlog/tiles.4bpp: %.4bpp: %.png
 
 $(TILESETGFXDIR)/secondary/sootopolis/tiles.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -num_tiles 328
+	
+$(TILESETGFXDIR)/secondary/silph_co/tiles.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -num_tiles 384	
 
 SOOTOPOLISANIMDIR := $(TILESETGFXDIR)/secondary/sootopolis/anim
 
