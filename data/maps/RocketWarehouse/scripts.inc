@@ -170,7 +170,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_6:
 	.string "vuelve aquí. Te recompensaré\l"
 	.string "personalmente. Igual que en tus\l"
 	.string "primeras misiones, ¿verdad? Recuerda,\l"
-	.string "la anciana vive en ISLA TERA, en una\l"
+	.string "la anciana vive en ISLA SÉTIMA, en una\l"
 	.string "casa pegada al CENTRO PKMN.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_7:

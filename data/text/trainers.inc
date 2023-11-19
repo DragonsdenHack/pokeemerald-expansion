@@ -15501,7 +15501,7 @@ GimnasioAnciana_Text_AncianaPostBattle:
 GimnasioAnciana_Text_Anciano2Intro:
 	.string "Algunos dicen que las nuevas\n"
 	.string "generaciones están en decadencia.\l"
-	.string "¿Qué hay de ti!$"
+	.string "¿Qué hay de ti?$"
 
 
 GimnasioAnciana_Text_Anciano2Defeated:

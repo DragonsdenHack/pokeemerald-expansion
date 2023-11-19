@@ -127,7 +127,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_6:
 	.string "¡Este MONTAÑERO tenía nada más y\l"
 	.string "nada menos que 20 MTs EXCAVAR!\l"
 	.string "¡Y las quería todas para él!\l"
-	.string "Gracias a tí hemos podido\l"
+	.string "Gracias a ti hemos podido\l"
 	.string "sacárselas. Ten por seguro que\l"
 	.string "hablaré de ti a PETREL.\l"
 	.string "Toma esto, lo mereces.$"

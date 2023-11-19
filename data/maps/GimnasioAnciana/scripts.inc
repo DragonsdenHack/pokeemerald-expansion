@@ -45,7 +45,7 @@ msgbox GimnasioAnciana_Combate_Gimnasio_Texto_5 MSGBOX_AUTOCLOSE
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_7 MSGBOX_DEFAULT
-givemon SPECIES_ZORUA, 50, ITEM_NORMAL_GEM
+givemon SPECIES_ZORUA_HISUI, 50, ITEM_NORMAL_GEM
 waitfanfare
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
@@ -174,35 +174,109 @@ release
 end
 
 GimnasioAnciana_Documento_Text_100:
-.string "URSALUNA:\p"
+.string "URSALUNA: TIERRA/NORMAL\p"
 	.string "PS: 130\n"
 	.string "ATAQUE: 140\l"
 	.string "DEFENSA: 105\l"
 	.string "ATAQUE ESPECIAL: 45\l"
 	.string "DEFENSA ESPECIAL: 80\l"
 	.string "VELOCIDAD: 50\l"
-	.string "TOTAL: 550\p"
-	.string "TIERRA/NORMAL$"
+	.string "TOTAL: 550$"
 
 GimnasioAnciana_Documento_101::
 lock  
-showmonpic SPECIES_URSALUNA, 10, 3  
-playmoncry SPECIES_URSARING, CRY_MODE_ENCOUNTER 
 msgbox GimnasioAnciana_Documento_Text_101, MSGBOX_DEFAULT
-hidemonpic
+delay 10
+msgbox GimnasioAnciana_Documento_Text_102, MSGBOX_DEFAULT
+delay 10
+msgbox GimnasioAnciana_Documento_Text_102, MSGBOX_DEFAULT
+delay 10
+msgbox GimnasioAnciana_Documento_Text_103, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq GimnasioAnciana_Documento_101_No
+msgbox GimnasioAnciana_Documento_Text_101_2, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq GimnasioAnciana_Documento_101_No
+msgbox GimnasioAnciana_Documento_Text_101_3, MSGBOX_DEFAULT
+msgbox CinnabarMansionS2Documento_Text_107YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq GimnasioAnciana_Documento_101_No
+msgbox GimnasioAnciana_Documento_Text_101_4, MSGBOX_DEFAULT
+compare VAR_RESULT, 0
+goto_if_eq GimnasioAnciana_Documento_101_No
+msgbox GimnasioAnciana_Documento_Text_101_5, MSGBOX_DEFAULT
 release     
 end
 
+GimnasioAnciana_Documento_Text_103:
+.string "Es un artículo de periódico antiguo,\n"
+	.string "tendrá al menos 10 años.$"
+
+GimnasioAnciana_Documento_Text_102:
+.string "… … … … … … … …$"
+
+GimnasioAnciana_Documento_101_No::
+release
+end
+
 GimnasioAnciana_Documento_Text_101:
-.string "URSALUNA:\p"
-	.string "PS: 130\n"
-	.string "ATAQUE: 140\l"
-	.string "DEFENSA: 105\l"
-	.string "ATAQUE ESPECIAL: 45\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 50\l"
-	.string "TOTAL: 550\p"
-	.string "TIERRA/NORMAL$"
+.string "Sobre la conexión entre JOHTO y\n"
+	.string "ARCHI7…$"
+
+GimnasioAnciana_Documento_Text_101_2:
+.string "ISLAS SETE son conocidas por su rica\n"
+	.string "fauna y flora, pero esta no es única en\l"
+	.string "el mundo. Sus especies, a pesar de la\l"
+	.string "distancia y el clima, coinciden con las\l"
+	.string "de la región de JOHTO.$"
+
+GimnasioAnciana_Documento_Text_101_3:
+.string "Algunos expertos sostienen que esta\n"
+	.string "extraña coincidencia se debe al vínculo\l"
+	.string "entre RUINAS ALFA y RUINAS SETE.\l"
+	.string "Dichos lugares debieron de asentar las\l"
+	.string "bases de fauna y flora hoy conocidas,\l"
+	.string "partiendo de una misma civilización que\l"
+	.string "colonizó ambas regiones.$"
+
+GimnasioAnciana_Documento_Text_101_4:
+.string "De esto hace milenios, y se sabe también\n"
+	.string "que ciertos POKÉMON podían\l"
+	.string "antiguamente evolucionar a formas más\l"
+	.string "desarrolladas, algo que los cambios\l"
+	.string "ambientales y culturales de las últimas\l"
+	.string "décadas han hecho imposible para las\l"
+	.string "nuevas generaciones.$"
+
+GimnasioAnciana_Documento_Text_101_5:
+.string "Prueba de esto son la LÍDER de ISLA\n"
+	.string "SÉTIMA y el LÍDER de ISLA TERA, ambos\l"
+	.string "con POKÉMON -antiguos- que reúnen\l"
+	.string "estas características. Según sus\l"
+	.string "propias palabras, hoy en día la\l"
+	.string "obtención de dichos POKÉMON en las\l"
+	.string "islas es imposible, sin embargo, creen\l"
+	.string "que en ciertos lugares de JOHTO aún se\l"
+	.string "conserva esa parte de especies\l"
+	.string "antiguas que ambas regiones, SEVII y\l"
+	.string "JOHTO, compartían en el pasado.$"
+
+GimnasioAnciana_Npc_Lore::
+lock
+faceplayer
+msgbox GimnasioAnciana_Npc_Lore_Texto_1 MSGBOX_NPC
+release
+end
+
+GimnasioAnciana_Npc_Lore_Texto_1:
+.string "Cuando no era más que una chica,\n"
+	.string "nuestra LÍDER hizo un largo viaje a\l"
+	.string "JOHTO. Al parecer exploró sus lugares\l"
+	.string "más recónditos, y por ello algunos de\l"
+	.string "sus POKÉMON crecieron de una forma\l"
+	.string "especial.$"
 
 
 

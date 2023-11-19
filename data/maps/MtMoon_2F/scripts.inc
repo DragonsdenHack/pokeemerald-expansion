@@ -82,7 +82,7 @@ MtMoon_2F_AltoRango_Text_3:
 	.string "que era esta, más te vale\l"
 	.string "compensar tu insubordinación con\l"
 	.string "un buen papel en esta misión, por\l"
-	.string "fortuna para tí aún estamos en\l"
+	.string "fortuna para ti aún estamos en\l"
 	.string "plena operación.$"
 
 MtMoon_2F_AltoRango_Text_4:

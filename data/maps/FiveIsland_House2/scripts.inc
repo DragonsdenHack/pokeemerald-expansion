@@ -15,5 +15,5 @@ FiveIsland_House2_Text_1:
 .string "construido una enorme mansión en\l"
 .string "él.\l"
 .string "¡Sería preferible a tener que\l"
-.string "soportaros a tí y a tu salvaje\l"
+.string "soportaros a ti y a tu salvaje\l"
 .string "organización!$"

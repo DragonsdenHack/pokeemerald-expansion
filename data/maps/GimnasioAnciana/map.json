@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_SEVEN_ISLAND",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_SECRET_BASE",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "GimnasioAnciana_Npc_Lore",
       "flag": "0"
     },
     {
@@ -137,16 +137,16 @@
     },
     {
       "type": "sign",
-      "x": 10,
-      "y": 21,
+      "x": 9,
+      "y": 22,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"
     },
     {
       "type": "sign",
-      "x": 10,
-      "y": 21,
+      "x": 11,
+      "y": 22,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "NULL"

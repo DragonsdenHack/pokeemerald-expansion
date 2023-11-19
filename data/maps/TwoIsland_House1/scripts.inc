@@ -42,7 +42,7 @@ unlock_facing_direction
 step_end
 
 TwoIslandHouse1_Texto_1:
-.string "¿Y a tí qué te pasa? ¿No ves que\n"
+.string "¿Y a ti qué te pasa? ¿No ves que\n"
 	.string "estamos en obras? ¡Vuelve cuando\l"
 	.string "hayamos abierto oficialmente!$"
 
