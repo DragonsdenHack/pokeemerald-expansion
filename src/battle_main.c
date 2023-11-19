@@ -5095,6 +5095,7 @@ static void HandleEndTurn_BattleWon(void)
         case TRAINER_CLASS_DEVON_CIENTIFICO:
         case TRAINER_CLASS_MIGUEL_1:
         case TRAINER_CLASS_MIGUEL_2:
+        case TRAINER_CLASS_ADMINDEVON:
             PlayBGM(637);
             break;
         case TRAINER_CLASS_CULTISTA:

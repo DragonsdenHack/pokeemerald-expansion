@@ -12381,7 +12381,7 @@ const struct Trainer gTrainers[] = {
         .trainerClass = TRAINER_CLASS_SEVII,
         .encounterMusic_gender = F_TRAINER_FEMALE | TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_EXPERT_F,
-        .trainerName = _("ZINNIA"),
+        .trainerName = _("ZOE"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
@@ -13470,7 +13470,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_104] =
     {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
-        .trainerClass = TRAINER_CLASS_ADMINISTRADOR,
+        .trainerClass = TRAINER_CLASS_ADMINDEVON,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
         .trainerPic = TRAINER_PIC_GENTLEMAN,
         .trainerName = _("ESMERALDA"),

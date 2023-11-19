@@ -179,12 +179,12 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_1:
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_2:
 .string "Tenía mis dudas, la gente normal\n"
-	.string "huíria espantada de un lugar tan\l"
+	.string "huiría espantada de un lugar tan\l"
 	.string "tétrico.\l"
 	.string "Pero tú ya eres de los pocos que\l"
 	.string "exploraría el BOSQUE BAYA por el mero\l"
-	.string "placer de hacerlo, tu curiosidad te\l"
-	.string "ha llevado hasta aquí, incluso los\l"
+	.string "placer de hacerlo. La curiosidad te\l"
+	.string "ha llevado hasta aquí, e incluso los\l"
 	.string "propios habitantes de la isla han\l"
 	.string "olvidado este lugar.$"
 

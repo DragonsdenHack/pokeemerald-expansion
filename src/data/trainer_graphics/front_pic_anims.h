@@ -834,6 +834,10 @@ static const union AnimCmd *const sAnims_Admin[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_LiderSete[] ={
+    sAnim_GeneralFrame0,
+};
+
 static const union AnimCmd *const sAnims_Ejecutivo[] ={
     sAnim_GeneralFrame0,
 };
@@ -1103,6 +1107,7 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_HYPNO] = sAnims_Hypno,
     [TRAINER_PIC_ADMIN_JEFE] = sAnims_AdminJefe,
     [TRAINER_PIC_ADMIN] = sAnims_Admin,
+    [TRAINER_PIC_LIDERSETE] = sAnims_LiderSete,
     [TRAINER_PIC_EJECUTIVO] = sAnims_Ejecutivo,
     [TRAINER_PIC_ALTO_RANGO] = sAnims_AltoRango,
     [TRAINER_PIC_ANDRA_ADMIN_JEFE] = sAnims_AndraAdminJefe,
