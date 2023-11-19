@@ -179,6 +179,7 @@ static const u8 sDoorAnimTiles_SSAnne[] = INCBIN_U8("graphics/door_anims2/ss_ann
 static const u16 sDoorNullPalette21b[16] = {};
 //firered
 static const u8 sDoorAnimTiles_SilphCoElevator[] = INCBIN_U8("graphics/door_anims2/silph_co_elevator.4bpp");
+static const u8 sDoorAnimTiles_SilphCoElevator2[] = INCBIN_U8("graphics/door_anims2/silph_co_elevator2.4bpp");
 static const u16 sDoorNullPalette54[16] = {};
 static const u8 sDoorAnimTiles_Sevii123[] = INCBIN_U8("graphics/door_anims2/sevii_123.4bpp");
 static const u16 sDoorNullPalette55[16] = {};
@@ -312,7 +313,8 @@ static const u8 sDoorAnimPalettes_DeptStoreElevator2[] = {8, 8, 8, 8, 8, 8, 8, 8
 static const u8 sDoorAnimPalettes_CableClub2[] = {8, 8, 8, 8, 8, 8, 8, 8};
 static const u8 sDoorAnimPalettes_HideoutElevator2[] = {12, 12, 2, 2, 2, 2, 2, 2};
 static const u8 sDoorAnimPalettes_SSAnne2[] = {7, 7, 7, 7, 7, 7, 7, 7};
-static const u8 sDoorAnimPalettes_SilphCoElevator2[] = {8, 8, 2, 2, 0, 0, 2, 2};
+static const u8 sDoorAnimPalettes_SilphCoElevator2[] = {2, 2, 2, 2, 2, 2, 2, 2};
+static const u8 sDoorAnimPalettes_SilphCoElevator3[] = {8, 8, 8, 8, 2, 2, 2, 2};
 static const u8 sDoorAnimPalettes_Sevii123[] = {5, 5, 5, 5, 5, 5, 5, 5};
 static const u8 sDoorAnimPalettes_JoyfulGameCorner2[] = {3, 3, 3, 3, 3, 3, 3, 3};
 static const u8 sDoorAnimPalettes_OneIslandPokeCenter2[] = {3, 3, 3, 3, 3, 3, 3, 3};
@@ -401,7 +403,8 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
     {METATILE_SeviiIslands45_DayCareDoor,                  DOOR_SOUND_NORMAL,  1, sDoorAnimTiles_FourIslandDayCare, sDoorAnimPalettes_FourIslandDayCare2},
 	{METATILE_SeviiIslands123_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Sevii123, sDoorAnimPalettes_Sevii123},
 	{METATILE_SeviiIslands67_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Sevii67, sDoorAnimPalettes_Sevii67},
-	{METATILE_SilphCo_ElevatorDoor,							DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_SilphCoElevator, sDoorAnimPalettes_SilphCoElevator2},
+	{METATILE_SilphCo_ElevatorDoor,							DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SilphCoElevator, sDoorAnimPalettes_SilphCoElevator2},
+	{METATILE_SilphCo_ElevatorDoor2,							DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SilphCoElevator2, sDoorAnimPalettes_SilphCoElevator3},
 	{METATILE_VermilionCity_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Vermilion, sDoorAnimPalettes_Vermilion2},
 	{METATILE_ViridianCity_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Viridian, sDoorAnimPalettes_Viridian2},
 	{METATILE_SaffronCity_SilphCoDoor,                      DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_SilphCo, sDoorAnimPalettes_SilphCo2},
@@ -611,7 +614,7 @@ static void DrawClosedDoor(const struct DoorGraphics *gfx, u32 x, u32 y)
 
 static void DrawOpenedDoor(const struct DoorGraphics *gfx, u32 x, u32 y)
 {
-    gfx = GetDoorGraphics(gfx, MapGridGetMetatileIdAt(x, y));
+	gfx = GetDoorGraphics(gfx, MapGridGetMetatileIdAt(x, y));
     if (gfx != NULL)
         DrawDoor(gfx, GetLastDoorFrame(sDoorOpenAnimFrames, sDoorOpenAnimFrames), x, y);
 }
