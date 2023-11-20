@@ -61,7 +61,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "EventScript_CutTree",
+      "script": "SeteoIvs",
       "flag": "0"
     },
     {
@@ -236,7 +236,7 @@
       "x": 29,
       "y": 17,
       "elevation": 0,
-      "dest_map": "MAP_VERMILION_CITY_MART",
+      "dest_map": "MAP_CUEVA_HYPNO_2",
       "dest_warp_id": 0
     },
     {

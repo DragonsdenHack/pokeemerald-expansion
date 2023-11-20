@@ -2239,7 +2239,7 @@ static const struct TrainerMonItemDefaultMoves sParty_Ricky3[] = {
     },
     {
     .iv = 0,
-    .lvl = 0,
+    .lvl = 64,
     .species = SPECIES_GIRAFARIG,
     .heldItem = ITEM_ASSAULT_VEST
     },
@@ -3094,7 +3094,7 @@ static const struct TrainerMonItemCustomMoves sParty_Magmaadmin[] = {
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {84, 84, 84, 84, 84, 84},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_EXTREME_SPEED, MOVE_FIRE_BLAST, MOVE_CLOSE_COMBAT, MOVE_VOLT_TACKLE}
+    .moves = {MOVE_EXTREME_SPEED, MOVE_FIRE_BLAST, MOVE_CLOSE_COMBAT, MOVE_WILD_CHARGE}
     },
     {
     .iv = 200,

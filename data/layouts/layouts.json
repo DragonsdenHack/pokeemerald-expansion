@@ -12957,7 +12957,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_NavelRock",
+      "secondary_tileset": "gTileset_mt_ember",
       "border_filepath": "data/layouts/Magma3/border.bin",
       "blockdata_filepath": "data/layouts/Magma3/map.bin"
     },
@@ -12992,7 +12992,7 @@
       "height": 46,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_gTileset_General_fr",
+      "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/Aqua3/border.bin",
       "blockdata_filepath": "data/layouts/Aqua3/map.bin"

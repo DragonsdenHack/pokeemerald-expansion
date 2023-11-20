@@ -2,7 +2,7 @@
   "id": "MAP_AQUA2",
   "name": "Aqua2",
   "layout": "LAYOUT_AQUA2",
-  "music": "MUS_CAVE_OF_ORIGIN",
+  "music": "MUS_SEALED_CHAMBER",
   "region_map_section": "MAPSEC_DOTTED_HOLE",
   "requires_flash": false,
   "weather": "WEATHER_FOG_HORIZONTAL",
