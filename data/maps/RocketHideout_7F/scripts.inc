@@ -2786,7 +2786,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_29:
 	.string "Fue en mi etapa de mayor\l"
 	.string "reclusión, tras todas las mentiras\l"
 	.string "que se vertieron sobre mi persona,\l"
-	.string "cuando yo y RHYPERIOR, sin ya nada\l"
+	.string "cuando RHYPERIOR y yo, sin ya nada\l"
 	.string "que perder, pudimos alcanzar ese\l"
 	.string "punto.$"
 

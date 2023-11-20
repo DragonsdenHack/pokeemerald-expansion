@@ -464,6 +464,15 @@
 #define METATILE_PalletTown_Door         0x2A3
 #define METATILE_PalletTown_OaksLabDoor  0x2AC
 
+// gTileset_PetalburgGym
+#define METATILE_PetalburgGym_RoomEntrance_Left   0x210
+#define METATILE_PetalburgGym_RoomEntrance_Right  0x211
+#define METATILE_PetalburgGym_SlidingDoor_Frame0  0x218
+#define METATILE_PetalburgGym_SlidingDoor_Frame1  0x219
+#define METATILE_PetalburgGym_SlidingDoor_Frame2  0x21A
+#define METATILE_PetalburgGym_SlidingDoor_Frame3  0x21B
+#define METATILE_PetalburgGym_SlidingDoor_Frame4  0x21C
+
 // gTileset_Petalburg
 #define METATILE_Petalburg_Door_BirchsLab   0x249
 #define METATILE_Petalburg_Door_Littleroot  0x248
@@ -1067,5 +1076,6 @@
 #define METATILE_pokemon_mansion_Barrier_Vertical_Mid_Basement     0x36A
 #define METATILE_pokemon_mansion_Barrier_Vertical_TopBase          0x358
 #define METATILE_pokemon_mansion_Barrier_Vertical_TopWall          0x350
+
 
 #endif // GUARD_METATILE_LABELS_H

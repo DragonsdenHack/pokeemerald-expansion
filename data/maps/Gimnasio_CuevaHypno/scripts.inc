@@ -459,10 +459,9 @@ Gimnasio_CuevaHypno_Tercera_Pregunta_Texto_1:
 	.string "KANTO-JOHTO$"
 
 Gimnasio_CuevaHypno_Tercera_Pregunta_Texto_2:
-	.string "Respuesta incorrecta, hace casi un\n"
-	.string "milenio que ese honor lo ostenta y\l"
-	.string "sigue ostentando un lugar mucho más\l"
-	.string "sagrado.$"
+	.string "Respuesta incorrecta, hace mucho\n"
+	.string "que ese honor lo ostenta y sigue\l"
+	.string "ostentando un lugar mucho más sagrado.$"
 
 Gimnasio_CuevaHypno_Tercera_Pregunta_No::
 delay 20
@@ -481,10 +480,9 @@ end
 Gimnasio_CuevaHypno_Tercera_Pregunta_No_Texto_1:
 .string "Así es, es en la cima de TORRE CAMPANA,\n"
 	.string "dónde uno tiene a JOHTO y KANTO bajo la\l"
-	.string "palma de su mano. No obstante, lo\l"
-	.string "verdaderamente importante de este\l"
-	.string "lugar se encuentra a decenas de metros\l"
-	.string "bajo su suelo.$"
+	.string "palma de su mano. No obstante, puede\l"
+	.string "que exista otro lugar aún más antiguo\l"
+	.string "y sagrado, y aún más alto, ¿quién sabe?$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta::
 lock

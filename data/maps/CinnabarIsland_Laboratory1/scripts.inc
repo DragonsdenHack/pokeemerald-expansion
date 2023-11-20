@@ -223,7 +223,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11:
 .string "¡Siempre dispuesto a todo!\n"
 	.string "¡Esa es la actitud!\l"
 	.string "¡Te cuento EJECUTIVO {PLAYER}!\l"
-	.string "Yo y mi compañero de trabajo\l"
+	.string "Mi compañero de trabajo y yo\l"
 	.string "recibimos ejemplares de EEVEE de\l"
 	.string "forma masiva por parte de SILPH,\l"
 	.string "uno de los POKÉMON más raros de la\l"

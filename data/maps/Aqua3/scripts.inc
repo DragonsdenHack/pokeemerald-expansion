@@ -285,7 +285,7 @@ Aqua3_Combate_Aquiles_Texto_4:
 	.string "¡Hazme digno de navegar bajo la\l"
 	.string "peor de las tormentas que toda tu\l"
 	.string "furia pueda dar!\l"
-	.string "¡Yo y mis POKÉMON estamos\l"
+	.string "¡Mis POKÉMON y yo estamos\l"
 	.string "preparados!$"
 
 Aqua3_Combate_Aquiles_Texto_5:

@@ -100,8 +100,8 @@ Pass_Route29_Encuentro_Elm_Texto_1:
 
 Pass_Route29_Encuentro_Elm_Texto_2:
 .string "Lo sé, solo te pido que bloquees\n"
-	.string "esa zona temporalmente, yo y mis\l"
-	.string "ayudantes vamos a llevar a cabo\l"
+	.string "esa zona temporalmente, mis ayu-\l"
+	.string "dantes y yo vamos a llevar a cabo\l"
 	.string "una importante investigación allí,\l"
 	.string "de todos modos no hay nada que ver\l"
 	.string "al este de RUTA 29, puedes llegar\l"

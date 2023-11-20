@@ -82,7 +82,7 @@ CuevaHypno_4_Lider_Texto_3:
 
 
 CuevaHypno_4_Lider_Texto_4:
-	.string "Yo y AGATHA fuimos los mejores\n"
+	.string "AGATHA y yo fuimos los mejores\n"
 	.string "alumnos de la única CAMPEONA de la\l"
 	.string "región que llegó a serlo empleando\l"
 	.string "POKÉMON FANTASMA y PSÍQUICO.\l"
@@ -122,9 +122,9 @@ CuevaHypno_4_Lider_Texto_8:
 
 CuevaHypno_4_Lider_Texto_9:
 .string "Este no es lugar para combatir, si lo\n"
-	.string "quieres es un combate, pásate por el\l"
-	.string "GIMNASIO que hay al norte de la\l"
-	.string "cueva.\l"
+	.string "que quieres es un combate, pásate\l"
+	.string "por el GIMNASIO que hay al norte\l"
+	.string "de la cueva.\l"
 	.string "De entrar, serás el primer aspirante\l"
 	.string "en casi 4 décadas...$"
 

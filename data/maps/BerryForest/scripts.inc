@@ -35,8 +35,19 @@ special RemoveCameraObject
 applymovement 14, BerryForest_Evento_Hypno_Move_2
 waitmovement 0x0
 msgbox BerryForest_Evento_Hypno_Texto_1 MSGBOX_AUTOCLOSE
-applymovement 16, BerryForest_Evento_Hypno_Move_3.1
+delay 10
+playmoncry SPECIES_PIDGEY, CRY_MODE_ENCOUNTER
+waitmoncry
+delay 15
+playse SE_LEDGE
+applymovement 16, BerryForest_Evento_Hypno_Move_4.1
 waitmovement 0x0
+waitse
+playse SE_LEDGE
+applymovement 16, BerryForest_Evento_Hypno_Move_4.1
+waitmovement 0x0
+waitse
+delay 10
 msgbox BerryForest_Evento_Hypno_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 14, BerryForest_Evento_Hypno_Move_2
 waitmovement 0x0
@@ -48,11 +59,15 @@ playse SE_PIN
 applymovement 14, BerryForest_Evento_Hypno_Move_3
 applymovement 16, BerryForest_Evento_Hypno_Move_3
 waitmovement 0x0
+delay 20
 msgbox BerryForest_Evento_Hypno_Texto_4 MSGBOX_AUTOCLOSE
+delay 15
 playmoncry SPECIES_HYPNO, CRY_MODE_ENCOUNTER
 waitmoncry
+delay 5
 playmoncry SPECIES_HYPNO, CRY_MODE_ENCOUNTER
 waitmoncry
+delay 10
 playse SE_LEDGE
 applymovement 16, BerryForest_Evento_Hypno_Move_4
 waitmovement 0x0
@@ -61,12 +76,18 @@ playse SE_LEDGE
 applymovement 16, BerryForest_Evento_Hypno_Move_4
 waitmovement 0x0
 waitse
+delay 10
 msgbox BerryForest_Evento_Hypno_Texto_5 MSGBOX_AUTOCLOSE
 msgbox BerryForest_Evento_Hypno_Texto_6 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_HYPNO, CRY_MODE_ENCOUNTER
 waitmoncry
+delay 10
 playse SE_FAINT
 delay 30
+playse SE_PIN
+applymovement 16, BerryForest_Evento_Hypno_Move_3
+waitmovement 0x0
+delay 10
 msgbox BerryForest_Evento_Hypno_Texto_7 MSGBOX_AUTOCLOSE
 applymovement 16, BerryForest_Evento_Hypno_Move_5
 waitmovement 0x0
@@ -125,6 +146,10 @@ step_end
 
 BerryForest_Evento_Hypno_Move_5:
 face_right
+step_end
+
+BerryForest_Evento_Hypno_Move_4.1:
+jump_in_place_right
 step_end
 
 BerryForest_Evento_Hypno_Move_4:

@@ -12431,8 +12431,8 @@ Route34_Text_GuardaDefeated:
 
 
 Route34_Text_GuardaPostBattle:
-	.string "Yo y mis compañeros de PUEBLO\n"
-	.string "AZALEA solemos hacer guardia en el\l"
+	.string "Mis compañeros de PUEBLO AZALEA\n"
+	.string "y yo solemos hacer guardia en el\l"
 	.string "ENCINAR, nos aseguramos de que\l"
 	.string "todo está en orden.$"
 
@@ -14179,7 +14179,7 @@ LakeofRage_Text_PescadorPostBattle:
 
 
 LakeofRage_Text_SabioIntro:
-	.string "Yo y mis POKÉMON estamos listos\n"
+	.string "Mis POKÉMON y yo estamos listos\n"
 	.string "para un combate más.\l"
 	.string "¡Adelante!\l"
 	.string "¡El LAGO DE LA FURIA está como\l"

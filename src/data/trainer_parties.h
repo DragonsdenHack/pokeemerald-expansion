@@ -22551,9 +22551,9 @@ static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon1[] = {
     {
     .iv = 255,
     .lvl = 99,
-    .species = SPECIES_KYOGRE_PRIMAL,
-    .heldItem = ITEM_LIFE_ORB,
-    .evs = {6, 0, 252, 252, 0, 0},
+    .species = SPECIES_KYOGRE,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {40, 40, 252, 252, 40, 40},
     .nature = NATURE_MODEST,
     .moves = {MOVE_ORIGIN_PULSE, MOVE_THUNDER, MOVE_ICE_BEAM, MOVE_ORIGIN_PULSE}
     }
@@ -22665,11 +22665,11 @@ static const struct TrainerMonItemCustomMoves sParty_Ejecutivodevon2[] = {
     {
     .iv = 255,
     .lvl = 103,
-    .species = SPECIES_GROUDON_PRIMAL,
-    .heldItem = ITEM_ASSAULT_VEST,
+    .species = SPECIES_GROUDON,
+    .heldItem = ITEM_LIFE_ORB,
     .evs = {50, 252, 50, 252, 50, 50},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_PRECIPICE_BLADES, MOVE_STONE_EDGE, MOVE_OVERHEAT, MOVE_ROCK_POLISH}
+    .moves = {MOVE_PRECIPICE_BLADES, MOVE_STONE_EDGE, MOVE_HEAT_CRASH, MOVE_ROCK_POLISH}
     }
 };
 
