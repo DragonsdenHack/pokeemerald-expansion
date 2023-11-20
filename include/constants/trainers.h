@@ -249,7 +249,7 @@
 #define TRAINER_PIC_DEVON1 229
 #define TRAINER_PIC_DEVON2 230
 #define TRAINER_PIC_DEVON3 231
-#define TRAINER_PIC_DEVON4 222
+#define TRAINER_PIC_DEVON4 232
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0

@@ -388,9 +388,9 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 	{METATILE_PalletTown_Door,            	     		    DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Pallet, sDoorAnimPalettes_Pallet2},
 	{METATILE_CeladonCity_DeptStoreDoor,					DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_DeptStore, sDoorAnimPalettes_DeptStore2},
 	{METATILE_CinnabarIsland_LabDoor,						DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_CinnabarLab, sDoorAnimPalettes_CinnabarLab2},
-	{METATILE_DepartmentStore_ElevatorDoor,					DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_DeptStoreElevator, sDoorAnimPalettes_DeptStoreElevator2},
+	{METATILE_DepartmentStore_ElevatorDoor,					DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SilphCoElevator, sDoorAnimPalettes_DeptStoreElevator2},
 	{METATILE_FuchsiaCity_Door,								DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Fuchsia, sDoorAnimPalettes_Fuchsia2},
-	{METATILE_FuchsiaCity_SafariZoneDoor,					DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_SafariZone, sDoorAnimPalettes_SafariZone2},
+	{METATILE_FuchsiaCity_SafariZoneDoor,					DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_SafariZone2, sDoorAnimPalettes_SafariZone2},
 	{METATILE_LavenderTown_Door,							DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Lavender, sDoorAnimPalettes_Lavender2},
 	{METATILE_PalletTown_OaksLabDoor,						DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_OaksLab, sDoorAnimPalettes_OaksLab2},
 	{METATILE_PewterCity_Door,								DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_Pewter, sDoorAnimPalettes_Pewter2},
@@ -410,6 +410,7 @@ static const struct DoorGraphics sDoorAnimGraphicsTable[] =
 	{METATILE_SaffronCity_SilphCoDoor,                      DOOR_SOUND_NORMAL, 1, sDoorAnimTiles_SilphCo, sDoorAnimPalettes_SilphCo2},
 	{METATILE_SeaCottage_Teleporter_Door,                  DOOR_SOUND_SLIDING, 2, sDoorAnimTiles_Teleporter, sDoorAnimPalettes_Teleporter2},
 	{METATILE_VermilionCity_SSAnneWarp,                    DOOR_SOUND_NORMAL,  2, sDoorAnimTiles_PokemonFanClub, sDoorAnimPalettes_PokemonFanClub2},
+	{METATILE_SeviiIslands45_RocketWarehouseDoor_Unlocked, DOOR_SOUND_SLIDING, 1, sDoorAnimTiles_RocketWarehouse, sDoorAnimPalettes_RocketWarehouse2},
     {},
 };
 

@@ -701,8 +701,8 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
 	TRAINER_PAL(FRANK_ADMIN, gTrainerPalette_Frank_Admin),
 	TRAINER_PAL(VIEJO_JONES, gTrainerPalette_Jones),
 	TRAINER_PAL(DIOS_JONES, gTrainerPalette_Jones),
-	TRAINER_SPRITE(DEVON1, gTrainerPalette_Devon1),
-	TRAINER_SPRITE(DEVON2, gTrainerPalette_Devon2),
-	TRAINER_SPRITE(DEVON3, gTrainerPalette_Devon3),
-	TRAINER_SPRITE(DEVON4, gTrainerPalette_Devon4),
+	TRAINER_PAL(DEVON1, gTrainerPalette_Devon1),
+	TRAINER_PAL(DEVON2, gTrainerPalette_Devon2),
+	TRAINER_PAL(DEVON3, gTrainerPalette_Devon3),
+	TRAINER_PAL(DEVON4, gTrainerPalette_Devon4),
 };
