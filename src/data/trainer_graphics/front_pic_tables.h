@@ -227,6 +227,10 @@ const struct MonCoords gTrainerFrontPicCoords[] =
 	[TRAINER_PIC_FRANK_ADMIN] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_VIEJO_JONES] = {.size = 8, .y_offset = 1},
 	[TRAINER_PIC_DIOS_JONES] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_DEVON1] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_DEVON2] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_DEVON3] = {.size = 8, .y_offset = 1},
+	[TRAINER_PIC_DEVON4] = {.size = 8, .y_offset = 1},
 };
 
 #define TRAINER_SPRITE(trainerPic, sprite, size) [TRAINER_PIC_##trainerPic] = {sprite, size, TRAINER_PIC_##trainerPic}
@@ -460,6 +464,10 @@ const struct CompressedSpriteSheet gTrainerFrontPicTable[] =
 	TRAINER_SPRITE(FRANK_ADMIN, gTrainerFrontPic_Frank_Admin, 0x800),
 	TRAINER_SPRITE(VIEJO_JONES, gTrainerFrontPic_Viejo_Jones, 0x800),
 	TRAINER_SPRITE(DIOS_JONES, gTrainerFrontPic_Dios_Jones, 0x800),
+	TRAINER_SPRITE(DEVON1, gTrainerFrontPic_Devon1, 0x800),
+	TRAINER_SPRITE(DEVON2, gTrainerFrontPic_Devon2, 0x800),
+	TRAINER_SPRITE(DEVON3, gTrainerFrontPic_Devon3, 0x800),
+	TRAINER_SPRITE(DEVON4, gTrainerFrontPic_Devon4, 0x800),
 };
 
 #define TRAINER_PAL(trainerPic, pal) [TRAINER_PIC_##trainerPic] = {pal, TRAINER_PIC_##trainerPic}
@@ -693,4 +701,8 @@ const struct CompressedSpritePalette gTrainerFrontPicPaletteTable[] =
 	TRAINER_PAL(FRANK_ADMIN, gTrainerPalette_Frank_Admin),
 	TRAINER_PAL(VIEJO_JONES, gTrainerPalette_Jones),
 	TRAINER_PAL(DIOS_JONES, gTrainerPalette_Jones),
+	TRAINER_PAL(DEVON1, gTrainerPalette_Devon1),
+	TRAINER_PAL(DEVON2, gTrainerPalette_Devon2),
+	TRAINER_PAL(DEVON3, gTrainerPalette_Devon3),
+	TRAINER_PAL(DEVON4, gTrainerPalette_Devon4),
 };

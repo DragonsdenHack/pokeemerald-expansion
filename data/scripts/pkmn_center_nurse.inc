@@ -33,11 +33,11 @@ EventScript_PkmnCenterNurse_IllTakeYourPkmn2::
 	return
 
 EventScript_PkmnCenterNurse_TakeAndHealPkmn::
-	applymovement VAR_0x800B, Common_Movement_WalkInPlaceFasterLeft
+	applymovement VAR_0x800B, Common_Movement_FaceLeft
 	waitmovement 0
 	dofieldeffect FLDEFF_POKECENTER_HEAL
 	waitfieldeffect FLDEFF_POKECENTER_HEAL
-	applymovement VAR_0x800B, Common_Movement_WalkInPlaceFasterDown
+	applymovement VAR_0x800B, Common_Movement_FaceDown
 	waitmovement 0
 	special HealPlayerParty
 	msgbox Curacion_Centros_Pokemon_Kanto_Texto_5 MSGBOX_NPC
@@ -119,6 +119,4 @@ EventScript_PkmnCenterNurse_GoldCardHealPkmn::
 	end
 
 Movement_PkmnCenterNurse_Bow:
-	nurse_joy_bow
-	delay_4
 	step_end

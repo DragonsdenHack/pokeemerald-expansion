@@ -1073,7 +1073,7 @@ bool8 FldEff_PokecenterHeal(void)
     task->tNumMons = nPokemon;
     task->tFirstBallX = 93;
     task->tFirstBallY = 36;
-    task->tMonitorX = 124;
+    task->tMonitorX = 127;
     task->tMonitorY = 24;
     return FALSE;
 }

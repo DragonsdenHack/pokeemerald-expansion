@@ -113,10 +113,10 @@
 #define METATILE_BrendansMaysHouse_MovingBox_Open    0x270
 
 // gTileset_Building
-#define METATILE_Building_PC_Off  0x004
-#define METATILE_Building_PC_On   0x005
-#define METATILE_Building_TV_Off  0x002
-#define METATILE_Building_TV_On   0x003
+#define METATILE_Building_PC_Off  0x062
+#define METATILE_Building_PC_On   0x063
+#define METATILE_Building_TV_Off  0x035
+#define METATILE_Building_TV_On   0x061
 
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
@@ -231,7 +231,7 @@
 
 // gTileset_FuchsiaCity
 #define METATILE_FuchsiaCity_Door                           0x2BF
-#define METATILE_FuchsiaCity_SafariZoneDoor                 0x2D2
+#define METATILE_FuchsiaCity_SafariZoneDoor                 0x1DD
 #define METATILE_FuchsiaCity_SafariZoneTreeTopLeft_Grass    0x300
 #define METATILE_FuchsiaCity_SafariZoneTreeTopLeft_Mowed    0x310
 #define METATILE_FuchsiaCity_SafariZoneTreeTopMiddle_Grass  0x301
@@ -889,7 +889,7 @@
 #define METATILE_SecretBase_YellowBrick_Top             0x226
 
 // gTileset_SeviiIslands123
-#define METATILE_SeviiIslands123_Door            0x297
+#define METATILE_SeviiIslands123_Door            0x20B
 #define METATILE_SeviiIslands123_GameCornerDoor  0x29B
 #define METATILE_SeviiIslands123_PokeCenterDoor  0x2EB
 
@@ -900,7 +900,7 @@
 #define METATILE_SeviiIslands45_RocketWarehouseDoor_Unlocked  0x2AF
 
 // gTileset_SeviiIslands67
-#define METATILE_SeviiIslands67_Door                   0x30C
+#define METATILE_SeviiIslands67_Door                   0x29A
 #define METATILE_SeviiIslands67_DottedHoleDoor_Closed  0x357
 #define METATILE_SeviiIslands67_DottedHoleDoor_Open    0x358
 
@@ -917,6 +917,7 @@
 #define METATILE_SilphCo_Arrow_Right                    0x2A9
 #define METATILE_SilphCo_Arrow_Up                       0x2A0
 #define METATILE_SilphCo_ElevatorDoor                   0x2E2
+#define METATILE_SilphCo_ElevatorDoor2                  0x342
 #define METATILE_SilphCo_ElevatorWindow_Bottom0         0x2F8
 #define METATILE_SilphCo_ElevatorWindow_Bottom1         0x2F9
 #define METATILE_SilphCo_ElevatorWindow_Bottom2         0x2FA

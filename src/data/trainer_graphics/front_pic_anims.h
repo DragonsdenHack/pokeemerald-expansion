@@ -896,6 +896,22 @@ static const union AnimCmd *const sAnims_Cultista2[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_Devon1[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Devon2[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Devon3[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Devon4[] ={
+    sAnim_GeneralFrame0,
+};
+
 const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 {
     [TRAINER_PIC_HIKER] = sAnims_Hiker,
@@ -1123,5 +1139,9 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_FRANK_ADMIN] = sAnims_FrankAdmin,
 	[TRAINER_PIC_VIEJO_JONES] = sAnims_Jones,
     [TRAINER_PIC_CULTISTA2] = sAnims_Cultista2,
-	[TRAINER_PIC_DIOS_JONES] sAnims_Jones,
+	[TRAINER_PIC_DIOS_JONES] = sAnims_Jones,
+	[TRAINER_PIC_DEVON1] = sAnims_Devon1,
+	[TRAINER_PIC_DEVON2] = sAnims_Devon2,
+	[TRAINER_PIC_DEVON3] = sAnims_Devon3,
+	[TRAINER_PIC_DEVON4] = sAnims_Devon4,
 };
