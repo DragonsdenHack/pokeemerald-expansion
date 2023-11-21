@@ -798,3 +798,5 @@ const u16 gObjectEventPal_PlayerEjecutivo2[] = INCBIN_U16("graphics/object_event
 const u16 gObjectEventPal_PlayerAdmin2[] = INCBIN_U16("graphics/object_events/palettes/player_admin_bike.gbapal");
 
 const u16 gObjectEventPal_AdminJefeCaco[] = INCBIN_U16("graphics/object_events/palettes/adminjefecaco.gbapal");
+
+const u16 gObjectEventPal_MediumJohto[] = INCBIN_U16("graphics/object_events/palettes/mediumjohto.gbapal");

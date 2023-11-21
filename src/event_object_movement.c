@@ -556,6 +556,7 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_PLAYER_EJECUTIVO_BICI_SURF_RUNNING_FIELDMOVE 0x119C
 #define OBJ_EVENT_PAL_TAG_PLAYER_ADMIN_JEFE_BICI_SURF_RUNNING_FIELDMOVE2 0x119A
 #define OBJ_EVENT_PAL_TAG_ADMIN_BICI 0x119B
+#define OBJ_EVENT_PAL_TAG_MEDIUM 0x119C
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -717,6 +718,8 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_PlayerAltoRango2,OBJ_EVENT_PAL_TAG_PLAYER_ALTO_RANGO_BICI_SURF_RUNNING_FIELDMOVE},
 	{gObjectEventPal_PlayerEjecutivo2,OBJ_EVENT_PAL_TAG_PLAYER_EJECUTIVO_BICI_SURF_RUNNING_FIELDMOVE},
 	{gObjectEventPal_AdminJefeCaco,OBJ_EVENT_PAL_TAG_ADMIN_BICI},
+	{gObjectEventPal_MediumJohto, OBJ_EVENT_PAL_TAG_MEDIUM},
+	{gObjectEventPal_Jones, OBJ_EVENT_PAL_TAG_JONES},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
