@@ -10221,174 +10221,175 @@ VictoryRoad3F_Text_Guay4PostBattle:
 
 
 KindleRoad_Text_ChicaIntro:
-	.string "Me estoy empezando a quemar...$"
+    .string "I'm beginning to get a sunburn…$"
 
 
 KindleRoad_Text_ChicaDefeated:
-	.string "¡Eres lo peor!$"
+    .string "Oh, you're so awful.$"
 
 
 KindleRoad_Text_ChicaPostBattle:
-	.string "Me gusta la ropa que llevas. Igual\n"
-	.string "me convendría ponerme algo...$"
+    .string "I like that cap you have.\n"
+    .string "Maybe I should wear one, too…$"
 
 
 KindleRoad_Text_Chica2Intro:
-	.string "La comida ha sido demasiado\n"
-	.string "abundante. ¿Luchamos?$"
+    .string "My lunch filled us up, so will you\n"
+    .string "battle us for some exercise?$"
 
 
 KindleRoad_Text_Chica2Defeated:
-	.string "¡Sí que he quemado calorías!$"
+    .string "That made me all sweaty.$"
 
 
 KindleRoad_Text_Chica2PostBattle:
-	.string "¿Qué hago?\n"
-	.string "¡Otra vez tengo hambre!$"
+    .string "What should I do?\n"
+    .string "I feel famished again.$"
 
 
 KindleRoad_Text_LuchadoraIntro:
-	.string "No hay un solo día en el que no\n"
-	.string "me entrene.$"
+    .string "There isn't a day in which we don't\n"
+    .string "train!$"
 
 
 KindleRoad_Text_LuchadoraDefeated:
-	.string "¡Qué forma tan tonta de perder!$"
+    .string "I'm such a fool!$"
 
 
 KindleRoad_Text_LuchadoraPostBattle:
-	.string "¡A partir de ahora me entrenaré\n"
-	.string "más!$"
+    .string "I'll train even harder from now on!$"
+
 
 
 KindleRoad_Text_Luchadora2Intro:
-	.string "¿Me echas una mano con mi\n"
-	.string "entrenamiento?$"
+    .string "Could you help me out with my\n"
+    .string "training?$"
 
 
 KindleRoad_Text_Luchadora2Defeated:
-	.string "Me has ganado por muy poco.$"
+    .string "You were a cut above me.$"
 
 
 KindleRoad_Text_Luchadora2PostBattle:
-	.string "Está claro que sabes lo que haces.\n"
-	.string "¡Te admiro!$"
+    .string "It's clear that you're skilled.\n"
+    .string "I like you!$"
+
 
 
 KindleRoad_Text_ChicoIntro:
-	.string "Cuando se está al aire libre,\n"
-	.string "todo sabe mucho mejor.$"
+    .string "You know, everything tastes great\n"
+    .string "when you're out in the wild.$"
 
 
 KindleRoad_Text_ChicoDefeated:
-	.string "¡Hala!$"
+    .string "Awww, blown!$"
 
 
 KindleRoad_Text_ChicoPostBattle:
-	.string "¿Sabías que el agua de las zonas\n"
-	.string "volcánicas es muy buena?$"
+    .string "The water in volcanic regions is\n"
+    .string "delicious.$"
 
 
 KindleRoad_Text_NadadorIntro:
-	.string "¿Y he dejado de nadar para\n"
-	.string "enfrentarme contigo?$"
+    .string "I took a break from swimming,\n"
+    .string "only to have you challenge me?$"
 
 
 KindleRoad_Text_NadadorDefeated:
-	.string "¡Oye, oye, realmente eres\n"
-	.string "impresionante!$"
+    .string "Hey, what the…\n"
+    .string "You're good, you!$"
 
 
 KindleRoad_Text_NadadorPostBattle:
-	.string "Te recomiendo que nades de vez en\n"
-	.string "cuando y que no uses tanto SURF.$"
+    .string "Instead of using SURF all the time,\n"
+    .string "you should swim some.$"
 
 
 KindleRoad_Text_Nadador2Intro:
-	.string "Si lo miras desde aquí, parece\n"
-	.string "que el MT. ASCUAS toca el cielo.$"
+    .string "Seen from here, MT. EMBER towers\n"
+    .string "into the sky.$"
 
 
 KindleRoad_Text_Nadador2Defeated:
-	.string "¡Ufff, eres fuerte!$"
+    .string "Well, aren't you tough?$"
 
 
 KindleRoad_Text_Nadador2PostBattle:
-	.string "El cielo se puede observar muy\n"
-	.string "bien en esta zona.$"
+    .string "The sky is immense around these\n"
+    .string "parts.$"
 
 
 KindleRoad_Text_KaratekaIntro:
-	.string "Para luchar hay que ir vestido\n"
-	.string "en condiciones, ¡y no como tú!$"
+    .string "Dress appropriately for battle!\n"
+    .string "Lose that frivolous outfit!$"
 
 
 KindleRoad_Text_KaratekaDefeated:
-	.string "¡¿Por qué?!$"
+    .string "Why me?!$"
 
 
 KindleRoad_Text_KaratekaPostBattle:
-	.string "Hasta los profesionales de las\n"
-	.string "artes marciales nos preocupamos\l"
-	.string "de la moda últimamente.$"
+    .string "Even martial artists are becoming\n"
+    .string "fashion conscious these days…$"
 
 
 KindleRoad_Text_Karateka2Intro:
-	.string "Cada mañana, antes de desayunar,\n"
-	.string "rodeo a nado la isla.$"
+    .string "Every morning, before breakfast,\n"
+    .string "I swim around this island.$"
 
 
 KindleRoad_Text_Karateka2Defeated:
-	.string "Agggg...\n"
-	.string "Agggg...$"
+    .string "Gasp…\n"
+    .string "Gasp…$"
 
 
 KindleRoad_Text_Karateka2PostBattle:
-	.string "He perdido porque esta mañana\n"
-	.string "corrí mucho y estoy cansado.$"
+    .string "I lost because I'm pooped from all\n"
+    .string "the running I did…$"
 
 
 KindleRoad_Text_NadadoraIntro:
-	.string "¡Hace un día espléndido!\n"
-	.string "¡El tiempo ideal para luchar!$"
+    .string "The weather's gorgeous!\n"
+    .string "Perfect for a battle!$"
 
 
 KindleRoad_Text_NadadoraDefeated:
-	.string "¡Ayyyyyy!$"
+    .string "Aiyeeeeh!$"
 
 
 KindleRoad_Text_NadadoraPostBattle:
-	.string "¡Bueno, por lo menos no me\n"
-	.string "has quitado el maquillaje!$"
+    .string "Please don't splash my face!\n"
+    .string "You'll ruin the makeup.$"
 
 
 KindleRoad_Text_PescadorIntro:
-	.string "¡Eh, un momento!\n"
-	.string "¡Acaba de picar uno enorme!$"
+    .string "Wait! Wait a second!\n"
+    .string "I think I've hooked a big one!$"
 
 
 KindleRoad_Text_PescadorDefeated:
-	.string "¡Lo he vuelto a perder!$"
+    .string "I've lost it all again…$"
+
 
 
 KindleRoad_Text_PescadorPostBattle:
-	.string "¡No solo he perdido, también me he\n"
-	.string "quedado sin el ejemplar de antes!$"
+    .string "Not only did I lose, the big one\n"
+    .string "got away from me, too!$"
 
 
 PlayaTesoro_Text_NadadoraIntro:
-	.string "¡Me encanta quedarme flotando\n"
-	.string "y notar el movimiento de las olas!$"
+    .string "Lying back, rocked by the waves…\n"
+    .string "It's exquisite.$"
 
 
 PlayaTesoro_Text_NadadoraDefeated:
-	.string "¡He perdido!\n"
-	.string "¡Eso ya no me gusta nada!$"
+    .string "I lost…\n"
+    .string "It feels awful.$"
 
 
 PlayaTesoro_Text_NadadoraPostBattle:
-	.string "El mar tiene una temperatura\n"
-	.string "increíble en esta zona.$"
+    .string "The sea is pleasantly warm in these\n"
+    .string "parts.$"
 
 
 MtEmberEntrance_Text_ChicaIntro:
@@ -10818,18 +10819,15 @@ PatternBush_Text_Chico2PostBattle:
 
 
 PatternBush_Text_Chico3Intro:
-	.string "Este sitio es estupendo.\n"
-	.string "Voy a colocar la tienda aquí.$"
-
-
+.string "This is a good spot.\n"
+    .string "I'll pitch my tent here.$"
 
 PatternBush_Text_Chico3Defeated:
 	.string "Qué paliza...$"
 
-
 PatternBush_Text_Chico3PostBattle:
-	.string "Me quedaré aquí para observar\n"
-	.string "las estrellas.$"
+.string "I'm going to observe the night sky\n"
+    .string "here.$"
 
 
 PatternBush_Text_ChicaIntro:
@@ -10867,18 +10865,18 @@ PatternBush_Text_Chica2PostBattle:
 
 
 PatternBush_Text_Chica3Intro:
-	.string "¡Ay!\n"
-	.string "Creo que me ha picado algo...$"
+.string "Oh, yuck!\n"
+    .string "I think a bug stung me!$"
 
 
 PatternBush_Text_Chica3Defeated:
-	.string "No ha sido ningún bicho, me he\n"
-	.string "cortado con el césped.$"
+.string "It wasn't a bug.\n"
+    .string "I cut my shin on some grass.$"
 
 
 PatternBush_Text_Chica3PostBattle:
-	.string "Un cortecillo así...\n"
-	.string "Se cura con un poco de saliva.$"
+.string "A little cut like that…\n"
+    .string "A little spit's enough to cure it!$"
 
 
 PatternBush_Text_Chica4Intro:
@@ -10918,337 +10916,345 @@ PatternBush_Text_Chica5PostBattle:
 
 
 PatternBush_Text_MontaneroIntro:
-	.string "¿Has visto algo raro por aquí?$"
+.string "Have you noticed something odd\n"
+    .string "about these parts?$"
 
 
 PatternBush_Text_MontaneroDefeated:
-	.string "Yo que tú, miraría bien\n"
-	.string "por el suelo.$"
+.string "Have you taken a good look around\n"
+    .string "your feet?$"
 
 
 PatternBush_Text_MontaneroPostBattle:
-	.string "Hay sitios en el BOSQUEJO,\n"
-	.string "en los que no crece la hierba.\p"
-	.string "¿Por qué será?$"
+.string "There are places here in PATTERN\n"
+    .string "BUSH where grass won't grow.\p"
+    .string "What could be the cause of such\n"
+    .string "a phenomenon?$"
 
 
 GreenPath_Text_ChicaIntro:
-	.string "¿Mmm?...\p"
-	.string "Me pareció haber elegido mi casa\n"
-	.string "con TELETRANSPORTE, pero...\l"
-	.string "¿dónde estoy?$"
+.string "…Huh?\p"
+    .string "I was envisioning my house, but\n"
+    .string "this is where I TELEPORT?$"
 
 
 GreenPath_Text_ChicaDefeated:
-	.string "¡Auuuuuch!$"
+.string "Big boo-boo!$"
 
 
 GreenPath_Text_ChicaPostBattle:
-	.string "No sé muy bien dónde estoy...\p"
-	.string "Debo centrarme en TELETRANSPORTE\n"
-	.string "para volver a mi casa...$"
+    .string "I am so scatterbrained!\p"
+    .string "I need to focus so I can TELEPORT\n"
+    .string "properly to my house!$"
 
 
 OutcastIsland_Text_ChicaIntro:
-	.string "No es fácil sacar POKéMON mientras\n"
-	.string "se nada, ¿lo sabías?$"
+.string "It's not so easy sending POKéMON\n"
+    .string "out while swimming, you know?$"
 
 
 OutcastIsland_Text_ChicaDefeated:
-	.string "He perdido, pero seguro que\n"
-	.string "nadando no me ganas.$"
+    .string "I didn't lose to you at swimming.\n"
+    .string "This doesn't bother me.$"
 
 
 OutcastIsland_Text_ChicaPostBattle:
-	.string "¿Vas a la isla que hay al norte?\n"
-	.string "Yo no vi nada de interés.$"
+    .string "Are you headed for the island up\n"
+    .string "past here?\p"
+    .string "I didn't see anything interesting\n"
+    .string "there.$"
+
 
 
 OutcastIsland_Text_NadadorIntro:
-	.string "Ufff... Ufff...\p"
-	.string "Vengo nadando desde el PUERTO\n"
-	.string "de ISLA EXTA sin parar.$"
+.string "Gasp… Gasp…\p"
+    .string "I swam here from SIX ISLE PORT\n"
+    .string "in one go.$"
 
 
 OutcastIsland_Text_NadadorDefeated:
-	.string "Ufff...\n"
-	.string "Ufff...$"
+    .string "Gasp…\n"
+    .string "Gasp…$"
 
 
 OutcastIsland_Text_NadadorPostBattle:
-	.string "Voy por la mitad...\n"
-	.string "Y ya no puedo más...$"
+    .string "I'm only at the halfway point…\n"
+    .string "I'm beat…$"
 
 
 OutcastIsland_Text_PescadorIntro:
-	.string "¡Qué mala suerte tengo hoy!\n"
-	.string "¡Igual la cosa cambia si luchamos!$"
+    .string "I'm having no luck at all.\n"
+    .string "A battle'd be a change of pace!$"
 
 
 OutcastIsland_Text_PescadorDefeated:
-	.string "Nada, hoy no es mi día.$"
+    .string "Nope, no luck at all…$"
 
 
 OutcastIsland_Text_PescadorPostBattle:
-	.string "¡Pero es que no puedo volver\n"
-	.string "a casa con las manos vacías!$"
+    .string "I can't very well go home without\n"
+    .string "catching something, though.$"
 
 
 CanyonEntrance_Text_ChicaIntro:
-	.string "¡Voy a acabar contigo en un abrir\n"
-	.string "y cerrar de ojos!$"
+    .string "Kyahaha!\n"
+    .string "I'll flick you away effortlessly!$"
 
 
 CanyonEntrance_Text_ChicaDefeated:
-	.string "¡Ufff... demasiado para mí!$"
+    .string "Tch!\n"
+    .string "Too strong for me!$"
 
 
 CanyonEntrance_Text_ChicaPostBattle:
-	.string "¿Cómo? ¿Que las apariencias\n"
-	.string "engañan?\p"
-	.string "¡Eh, es parte de mi estrategia!$"
+    .string "What's that?\n"
+    .string "I don't act the way I look?\p"
+    .string "Heh, that's a part of my strategy!$"
 
 
 CanyonEntrance_Text_ChicoIntro:
-	.string "¡Hola, cara de bola!\n"
-	.string "¿Eres de mi club de fans?$"
+    .string "Howdy!\n"
+    .string "Are you a member of my fan club?$"
 
 
 CanyonEntrance_Text_ChicoDefeated:
-	.string "O sea, que de fan nada...\p"
-	.string "Pues ¿qué le vamos a hacer?\n"
-	.string "¿Y si te canto un poco?$"
+    .string "Oh, so you're not a fan…\p"
+    .string "Well, I can change that.\n"
+    .string "Let me sing for you!$"
 
 
 CanyonEntrance_Text_ChicoPostBattle:
-	.string "Oye el boom, boom...\p"
-	.string "Oye el boom, boom, boom, de mis\n"
-	.string "POKéMON, ven y dime tú, no me\l"
-	.string "digas no...$"
+    .string "Lalalah…\n"
+    .string "My POKéMON, I send them out,\l"
+    .string "all the girls scream and shout!$"
 
 
 CanyonEntrance_Text_Chico2Intro:
-	.string "Esta isla tiene una extensión muy\n"
-	.string "particular, no es fácil patrullar.$"
+    .string "This island is too spread out…\n"
+    .string "It's not easy patrolling the place.$"
 
 
 CanyonEntrance_Text_Chico2Defeated:
-	.string "Vaya...$"
+    .string "Uh-huh…$"
 
 
 CanyonEntrance_Text_Chico2PostBattle:
-	.string "Los ENTRENADORES de ciudad,\n"
-	.string "como tú, deben de ser fuertes.\p"
-	.string "Tú irás a la TORRE, ¿no?$"
+    .string "TRAINERS like you from cities,\n"
+    .string "they sure are tough.\p"
+    .string "You'll be headed for the TOWER,\n"
+    .string "won't you?$"
 
 
 CanyonEntrance_Text_Chica2Intro:
-	.string "¡La gente que se pasa con los\n"
-	.string "POKéMON se las ve conmigo!$"
+    .string "I punish people who abuse\n"
+    .string "POKéMON!$"
+
 
 
 CanyonEntrance_Text_Chica2Defeated:
-	.string "¡Tú te portas como debe ser!$"
+    .string "You don't seem to be a problem\n"
+    .string "TRAINER.$"
 
 
 CanyonEntrance_Text_Chica2PostBattle:
-	.string "Si tratas a los POKéMON con\n"
-	.string "amabilidad, reaccionarán bien.$"
+    .string "If you treat your POKéMON with\n"
+    .string "kindness, they'll understand.$"
 
 
 SevaultCanyon_Text_DomadorIntro:
-	.string "Da igual que tengas los POKéMON\n"
-	.string "más fuertes...\p"
-	.string "¡Lo importante es saber cómo\n"
-	.string "tratarlos!$"
+    .string "It doesn't matter if you happen to\n"
+    .string "have the strongest POKéMON…\p"
+    .string "It doesn't mean a thing if you don't\n"
+    .string "know how to use them properly!$"
 
 
 SevaultCanyon_Text_DomadorDefeated:
-	.string "Sabes bien lo que haces...$"
+    .string "You're a master at this.$"
 
 
 SevaultCanyon_Text_DomadorPostBattle:
-	.string "Hay mucho ENTRENADOR por ahí\n"
-	.string "suelto con POKéMON increíbles y sin\l"
-	.string "idea de cómo hay que tratarlos.\p"
-	.string "Antes de entrenar POKéMON,\n"
-	.string "son los propios ENTRENADORES los\l"
-	.string "que deben crecer como personas.$"
+    .string "You see them every so often,\n"
+    .string "TRAINERS with awesome POKéMON\l"
+    .string "who have no idea what to do.\p"
+    .string "Before training POKéMON, TRAINERS\n"
+    .string "themselves need to grow up.$"
 
 
 SevaultCanyon_Text_GuayIntro:
-	.string "¡Pareces fuerte!\n"
-	.string "¡Vamos a luchar, anda!$"
+    .string "You look strong.\n"
+    .string "Let me battle you, please!$"
 
 
 SevaultCanyon_Text_GuayDefeated:
-	.string "¡Lo sabía!\n"
-	.string "¡Sabía que eras increíble!$"
+    .string "I knew it!\n"
+    .string "You're as tough as I thought!$"
 
 
 SevaultCanyon_Text_GuayPostBattle:
-	.string "La forma de luchar que tienes\n"
-	.string "dice mucho de ti.\p"
-	.string "¡Gracias!$"
+    .string "The way you battle has given me\n"
+    .string "a lot of useful data.\p"
+    .string "Thanks so much!$"
 
 
 SevaultCanyon_Text_Guay2Intro:
-	.string "He recibido la mejor educación\n"
-	.string "para tener la fuerza que tengo.\p"
-	.string "¡No pienso perder ante nadie!$"
+    .string "I was given the best possible\n"
+    .string "education to become this strong.\p"
+    .string "I don't want to lose to anyone!$"
 
 
 SevaultCanyon_Text_Guay2Defeated:
-	.string "Gracias, ya no tengo la presión\n"
-	.string "de antes.$"
+    .string "Thank you. I feel like I've been\n"
+    .string "set free by losing to you.$"
 
 
 SevaultCanyon_Text_Guay2PostBattle:
-	.string "La cosa más mínima, me ponía\n"
-	.string "de mal humor.\p"
-	.string "Ahora, con respirar hondo,\n"
-	.string "se me pasa.$"
+    .string "For some reason, I get furious\n"
+    .string "over the slightest thing.\p"
+    .string "I'll calm myself by breathing\n"
+    .string "deeply.$"
 
 
 SevaultCanyon_Text_ChicoIntro:
-	.string "Yo protejo el medio ambiente\n"
-	.string "y él me protege a mí.$"
+    .string "I work to protect the environment.\n"
+    .string "In turn, nature protects me!$"
 
 
 SevaultCanyon_Text_ChicoDefeated:
-	.string "¡Buah, eres fuerte!\n"
-	.string "¿Y a mí quién me protege ahora?$"
+    .string "Whoa! You're tough!\n"
+    .string "How about protecting me?$"
 
 
 SevaultCanyon_Text_ChicoPostBattle:
-	.string "Visto desde las estrellas, nuestro\n"
-	.string "planeta es un granito de arena.\p"
-	.string "Y debemos proteger ese granito\n"
-	.string "de arena por el bien de todos.$"
+    .string "From far out among the stars, our\n"
+    .string "planet is just a drop of water.\p"
+    .string "But we want to protect that drop\n"
+    .string "of water for everyone.$"
 
 
 SevaultCanyon_Text_ChicaIntro:
-	.string "Tienes unos zapatos muy llamativos.$"
+    .string "Those shoes you have are pretty\n"
+    .string "snazzy.$"
 
 
 SevaultCanyon_Text_ChicaDefeated:
-	.string "¡Cualquiera diría que eres tan\n"
-	.string "fuerte! ¡No lo aparentas!$"
+    .string "You're hot stuff in spite of your\n"
+    .string "cute looks.$"
 
 
 SevaultCanyon_Text_ChicaPostBattle:
-	.string "¿Te las dio la organización\n"
-	.string "criminal a la que perteneces?\l"
-	.string "¡Qué guay!$"
+    .string "TEAM ROCKET bought those\n"
+    .string "snazzy RUNNING SHOES for\p"
+    .string "you? Amazing!$"
 
 
 SevaultCanyon_Text_LuchadoraIntro:
-	.string "¡Estoy realmente en forma!$"
+    .string "My conditioning's in top form!$"
 
 
 SevaultCanyon_Text_LuchadoraDefeated:
-	.string "¿Mmm?\n"
-	.string "Aquí hay algo que falla...$"
+    .string "Huh?\n"
+    .string "Something's not right…$"
 
 
 SevaultCanyon_Text_LuchadoraPostBattle:
-	.string "Así no puedo presentarme a la\n"
-	.string "TORRE DESAFÍO...$"
+    .string "The way I am now, I may have to\n"
+    .string "hold off on TRAINER TOWER…$"
 
 
 TanobyRuins_Text_DomadorIntro:
-	.string "¿Sabes algo de esta cámara\n"
-	.string "de piedra?$"
+    .string "Do you know anything about this\n"
+    .string "stone chamber?$"
 
 
 TanobyRuins_Text_DomadorDefeated:
-	.string "Oye, tampoco había que recurrir\n"
-	.string "a la fuerza.$"
+    .string "That was uncalled for.\n"
+    .string "You didn't have to be so rough.$"
 
 
 TanobyRuins_Text_DomadorPostBattle:
-	.string "Las RUINAS SETE tienen unos\n"
-	.string "1.500 años.\p"
-	.string "Pero nadie ha conseguido averiguar\n"
-	.string "cuál es su razón de ser.$"
+    .string "The TANOBY RUINS date back at\n"
+    .string "least 1,500 years.\p"
+    .string "But it's a baffling mystery as to\n"
+    .string "why it was built in the first place.$"
 
 
 TanobyRuins_Text_CaballeroIntro:
-	.string "Hoy, como complemento a la clase,\n"
-	.string "hemos venido a visitar la cámara.$"
+    .string "Today, in addition to our lesson,\n"
+    .string "we came to see the chamber.$"
 
 
 TanobyRuins_Text_CaballeroDefeated:
-	.string "Qué barbaridad...$"
+    .string "My, how extraordinary.$"
 
 
 TanobyRuins_Text_CaballeroPostBattle:
-	.string "Así que tú estudias a los POKéMON\n"
-	.string "por tu cuenta...\p"
-	.string "La verdad es que es digno\n"
-	.string "de admiración...$"
+    .string "Ah, so you are studying POKéMON\n"
+    .string "on your own…\p"
+    .string "Yes, you certainly are quite the\n"
+    .string "extraordinary person, indeed.$"
 
 
 TanobyRuins_Text_PintoraIntro:
-	.string "CLEN está enseñándome a pintar.$"
+    .string "CLIFFORD is teaching me how to\n"
+    .string "paint.$"
 
 
 TanobyRuins_Text_PintoraDefeated:
-	.string "Igual nos llaman la atención\n"
-	.string "por haber hecho tanto ruido.$"
+    .string "We might get in trouble for being\n"
+    .string "noisy here.$"
 
 
 TanobyRuins_Text_PintoraPostBattle:
-	.string "Yo quería pintar un edificio\n"
-	.string "antiguo.\p"
-	.string "Por eso me trajo CLEN hasta aquí.$"
+    .string "I said that I wanted to paint an\n"
+    .string "old building.\p"
+    .string "So CLIFFORD brought me here.$"
 
 
 TanobyRuins_Text_Montanero2Intro:
-	.string "Dicen que aquí dentro duerme\n"
-	.string "un mítico POKéMON.$"
+    .string "A mystic POKéMON is said to sleep\n"
+    .string "inside here.$"
 
 
 TanobyRuins_Text_Montanero2Defeated:
-	.string "A mí lo de los combates no se me\n"
-	.string "da bien.$"
+    .string "I'm not much good in battle.$"
 
 
 TanobyRuins_Text_Montanero2PostBattle:
-	.string "Yo he oído que hay otras ruinas\n"
-	.string "como estas.\p"
-	.string "¿Serán lugares de descanso de\n"
-	.string "otros míticos POKéMON?$"
+    .string "I hear there are other ruins like\n"
+    .string "the one here.\p"
+    .string "Might they be the resting places\n"
+    .string "of other mystic POKéMON?$"
 
 
 TrainerTower_Text_ChicaIntro:
-	.string "En alguna parte de esta isla,\n"
-	.string "hay extraños POKéMON durmiendo.$"
+    .string "Somewhere on this island, peculiar\n"
+    .string "POKéMON are sleeping.$"
 
 
 TrainerTower_Text_ChicaDefeated:
-	.string "¡Tú sí que sabes entrenar POKéMON!$"
+    .string "What an amazing TRAINER!$"
 
 
 TrainerTower_Text_ChicaPostBattle:
-	.string "En alguna parte de esta isla,\n"
-	.string "hay extraños POKéMON durmiendo.\p"
-	.string "¿Te estarán esperando?$"
+    .string "Somewhere on this island, peculiar\n"
+    .string "POKéMON are sleeping.\p"
+    .string "Could it be that they're waiting\n"
+    .string "for you?$"
 
 
 TrainerTower_Text_ChicoIntro:
-	.string "He notado que te acercabas.$"
+    .string "I sensed your approach.$"
 
 
 TrainerTower_Text_ChicoDefeated:
-	.string "Me rindo...$"
+    .string "Give up…$"
 
 
 TrainerTower_Text_ChicoPostBattle:
-	.string "Siento que te vas a encontrar\n"
-	.string "con mucha gente.\p"
-	.string "Establecerás cierta conexión\n"
-	.string "mediante una extraña fuerza.$"
+    .string "In your future, I sense that you\n"
+    .string "will meet many others.\p"
+    .string "I think you will be linked to each\n"
+    .string "other by a strange power.$"
 
 
 SilphS1_Text_CientificoIntro:
