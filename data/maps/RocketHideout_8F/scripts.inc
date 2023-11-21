@@ -2190,13 +2190,13 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_2:
 	.string "quedamos en recluirlo en su\l"
 	.string "laboratorio de PUEBLO PALETA, pero\l"
 	.string "ha encontrado la forma de\l"
-	.string "desaparecer, creemos que pueda\l"
+	.string "desaparecer. Creemos que puede\l"
 	.string "estar tramando algo junto con\l"
-	.string "BLAINE, el otro traidor que\l"
+	.string "BLAINE; el otro traidor que\l"
 	.string "curiosamente ha desaparecido\l"
-	.string "también, y mientras FUJI aún entre\l"
+	.string "también. Y mientras… FUJI aún entre\l"
 	.string "rejas, afortunadamente queda poco\l"
-	.string "para su vuelta...$"
+	.string "para su vuelta…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
 .string "Pero no he hecho regresar a mi\n"
@@ -2204,7 +2204,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
 	.string "el encargo que estoy apunto de\l"
 	.string "darte es mucho más trascendental\l"
 	.string "para la historia de nuestra\l"
-	.string "región, escucha...$"
+	.string "región, escucha…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
 .string "Desde siempre, aquellos ciudadanos\n"
@@ -2221,7 +2221,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
 	.string "Un patrón que se repite en todas\l"
 	.string "las regiones conocidas sin\l"
 	.string "excepción, quitando KANTO claro,\l"
-	.string "algo curioso...$"
+	.string "algo curioso…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
 .string "Surgieron muchas teorías que\n"
@@ -2232,14 +2232,14 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
 	.string "podemos meter a MEW en el mismo\l"
 	.string "saco que RAYQUAZA, o LUGIA,\l"
 	.string "entraría más en el perfil de un\l"
-	.string "JIRACHI en HOENN o...$"
+	.string "JIRACHI en HOENN o…$"
 
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_6:
 .string "PROTÓN: ...$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_7:
-.string "GIOVANNI: ...CELEBI en JOHTO.$"
+.string "GIOVANNI: …CELEBI en JOHTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
 .string "Otros apuntaban a que KANTO era\n"
@@ -2256,7 +2256,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
 	.string "HO-OH, en ese sentido puede ser\l"
 	.string "una cuestión de mero azar, que\l"
 	.string "quedaría en una curiosa\l"
-	.string "coincidencia, sin embargo...$"
+	.string "coincidencia, sin embargo…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_9:
 .string "Un último grupo de investigadores\n"
@@ -2277,7 +2277,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_10:
 	.string "precisamente por ello se encuentra\l"
 	.string "lejos de ser accesible para\l"
 	.string "cualquier humano, tal vez sean las\l"
-	.string "dos, o ninguna...no lo sé.$"
+	.string "dos, o ninguna…no lo sé.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_11:
 .string "GIOVANNI: ...$"
@@ -2302,7 +2302,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_13:
 	.string "varias veces con su PRESIDENTE\l"
 	.string "{PLAYER}, el caso es que en nuestra\l"
 	.string "última reunión, salió precisamente\l"
-	.string "este tema y...$"
+	.string "este tema y…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
 .string "Resulta que SILPH cuenta con una\n"
@@ -2316,7 +2316,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
 	.string "precisamente de la existencia de\l"
 	.string "un POKÉMON que podría encajar con\l"
 	.string "la jerarquía de un LUGIA o un\l"
-	.string "HO-OH, o incluso más...$"
+	.string "HO-OH, o incluso más…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_15:
 .string "Tu misión es muy simple {PLAYER},\n"

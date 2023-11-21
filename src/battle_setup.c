@@ -956,6 +956,12 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_152)
         return B_TRANSITION_FRANK2;
 
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_76)
+        return B_TRANSITION_EUSINE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_EUSINE)
+        return B_TRANSITION_FRANK2;
+
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_26)
         return B_TRANSITION_FRONTIER_CIRCLES_SYMMETRIC_SPIRAL_IN_SEQ;
 

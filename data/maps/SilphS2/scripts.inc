@@ -1023,3 +1023,40 @@ SilphS2Documento_Text_103:
 	.string "mecanismos mediante los que\l"
 	.string "supuestamente logró tal hazaña nos\l"
 	.string "son desconocidos.$"
+
+Silph_S2_Discoxtrano::
+lock     
+faceplayer  
+goto_if_set FLAG_UNUSED_0x270, Silph_S2_Discoxtrano_Despues
+msgbox Silph_S2_Discoxtrano_Text_2, MSGBOX_NPC
+playfanfare MUS_OBTAIN_ITEM
+additem ITEM_DUBIOUS_DISC
+msgbox Silph_S2_Discoxtrano_Texto_1.1 MSGBOX_DEFAULT
+waitfanfare
+setflag FLAG_UNUSED_0x270
+release     
+end
+
+Silph_S2_Discoxtrano_Text_2:
+	.string "Alguien como tú debería de tener\n"
+	.string "acceso a lo último de lo último en\l"
+	.string "tecnología. Dicen que el PRESIDENTE te\l"
+	.string "regaló un PORYGON, junto con una\l"
+	.string "MEJORA para convertirlo en pORYGON2. Si\l"
+	.string "quieres ir más allá, este objeto es para\l"
+	.string "ti.$"
+
+Silph_S2_Discoxtrano_Despues::
+msgbox Silph_S2_Discoxtrano_Text_1, MSGBOX_AUTOCLOSE
+release
+end
+
+Silph_S2_Discoxtrano_Texto_1.1:
+.string "¡{PLAYER} obtuvo DISCOXTRAÑO\n"
+	.string "de manos de científico!$"
+
+Silph_S2_Discoxtrano_Text_1:
+	.string "Con el DISCOXTRAÑO podrás evolucionar\n"
+	.string "a PORYGON2 en PORYGON-Z, una versión\l"
+	.string "algo más vulnerable a los ataques, pero\l"
+	.string "con una ofensiva extraordinaria.$"

@@ -771,8 +771,8 @@ FuchsiaCity_Entrenador_Especial_Texto_8:
 FuchsiaCity_Entrenador_Especial_Texto_9:
 .string "¿Entonces estás peleando por el\n"
 	.string "CAMPEONATO de la LIGA?\l"
-	.string "¡No me extraña tú y tus POKÉMON\l"
-	.string "sois formidables!\l"
+	.string "¡No me extraña! ¡Tú y tus\l"
+	.string "POKÉMON sois formidables!\l"
 	.string "¡Esto seguro que te ayudará a\l"
 	.string "perfeccionar aún más tu equipo!$"
 

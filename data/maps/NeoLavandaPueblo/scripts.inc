@@ -79,7 +79,7 @@ msgbox NeoLavandaPueblo_Combate_Eusine_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_4 MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_CONSUL, NeoLavandaPueblo_Combate_Eusine_Texto_5
+trainerbattle_no_intro TRAINER_TRAINER_76, NeoLavandaPueblo_Combate_Eusine_Texto_5
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_6
 waitmovement 0x0
@@ -552,7 +552,7 @@ msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
 giveitem ITEM_MACH_BIKE
 setflag FLAG_RECEIVED_BIKE
 setvar VAR_UNUSED_0x40F7, 205
-changeavatar 5
+changeavatar 4
 release
 end
 
