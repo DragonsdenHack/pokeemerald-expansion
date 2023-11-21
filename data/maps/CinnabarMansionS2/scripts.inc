@@ -502,7 +502,7 @@ CinnabarMansionS2_Blaine_Texto_8:
 
 CinnabarMansionS2_Blaine_Texto_9:
 .string "¡No es posible!\n"
-	.string "¡¿De donde viene ese poder!?$"
+	.string "¡¿De dónde viene ese poder!?$"
 
 CinnabarMansionS2_Blaine_Texto_10:
 .string "No tiene sentido, es ridículo, mi\n"

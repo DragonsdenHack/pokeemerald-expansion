@@ -856,8 +856,8 @@
       "dest_warp_id": 3
     },
     {
-      "x": 2,
-      "y": 2,
+      "x": 3,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_5F",
       "dest_warp_id": 0

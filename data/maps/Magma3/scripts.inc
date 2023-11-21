@@ -251,7 +251,7 @@ Magma3_Combate_Magno_Texto_6:
 
 Magma3_Combate_Magno_Texto_7:
 .string "¡No es posible!\n"
-	.string "¿De donde sale tu poder?$"
+	.string "¿De dónde sale tu poder?$"
 
 Magma3_Combate_Magno_Texto_8:
 .string "P-pero...\n"

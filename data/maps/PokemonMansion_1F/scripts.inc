@@ -688,7 +688,7 @@ PokemonMansion_1F_Ladrones_Texto_21:
 	.string "para soportar otro combate más!$"
 
 PokemonMansion_1F_Ladrones_Texto_22:
-.string "¿De donde has sacado esa fuerza?\n"
+.string "¿De dónde has sacado esa fuerza?\n"
 	.string "¡Esto no entraba en nuestros\l"
 	.string "planes!$"
 
