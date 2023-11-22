@@ -899,7 +899,7 @@ end
 
 SilphS2_Text_53:
 .string "La discrección de este lugar es\n"
-.string "sagrada, si se diera a conocer al\l"
+.string "sagrada. Si se diera a conocer al\l"
 .string "público, perdería su magia, su\l"
 .string "esencia, espero que seas\l"
 .string "consciente de esto.$"

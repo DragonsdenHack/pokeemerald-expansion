@@ -2580,7 +2580,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_4:
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_5:
 .string "Supongo que se referiría a OAK y a\n"
-	.string "mi, no cabe duda de que hay\l"
+	.string "mí, no cabe duda de que hay\l"
 	.string "muchísimas cosas que aún\l"
 	.string "desconocemos, dices que ese\l"
 	.string "ENTRENADOR contaba con MEW en su\l"
@@ -3141,6 +3141,7 @@ fadescreen 1
 delay 20
 removeobject 1
 fadescreen 0
+clearflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
 setvar VAR_UNUSED_0x40F7, 117
 release
 end

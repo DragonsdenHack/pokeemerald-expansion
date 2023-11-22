@@ -1078,5 +1078,4 @@
 #define METATILE_pokemon_mansion_Barrier_Vertical_TopBase          0x358
 #define METATILE_pokemon_mansion_Barrier_Vertical_TopWall          0x350
 
-
 #endif // GUARD_METATILE_LABELS_H

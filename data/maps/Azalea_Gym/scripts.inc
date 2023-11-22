@@ -113,12 +113,12 @@ AzaleaGym_Combate_Cesar_Texto_3:
 .string "El problema es que, llegados a\n"
 	.string "cierto nivel y después de todo lo\l"
 	.string "que he visto y vivido, pocas cosas\l"
-	.string "pueden llegar a sorprenderme ya, y\l"
+	.string "pueden llegar a sorprenderme. Ya\l"
 	.string "encuentro mucha más satisfacción\l"
 	.string "en pulir mi propia técnica que en\l"
 	.string "luchar frente a rivales que son ya\l"
-	.string "un libro abierto para mi y mi\l"
-	.string "equipo.$"
+	.string "un libro abierto, tanto para mi\l"
+	.string "equipo como para mí.$"
 
 AzaleaGym_Combate_Cesar_Texto_4:
 .string "...$"

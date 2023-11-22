@@ -679,7 +679,7 @@ Silph_11F_Bill_Presidente_Texto_40:
 	.string "encargaré de hacerlo, creo que\l"
 	.string "tengo un lugar perfecto para\l"
 	.string "-esconderla- de forma que pueda\l"
-	.string "encontrarla, déjamelo a mi!$"
+	.string "encontrarla, déjamelo a mí!$"
 
 Silph_11F_Bill_Presidente_Texto_41:
 .string "Le diré a AZUL que se quede\n"

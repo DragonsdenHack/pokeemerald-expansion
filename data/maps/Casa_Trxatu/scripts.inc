@@ -144,7 +144,7 @@ CasaTrxatu_Combate_Texto_7:
 	.string "entré en el culto, y no la\l"
 	.string "encontré, aquí soy totalmente\l"
 	.string "libre para hacer lo que me plazca,\l"
-	.string "solo compito contra mi mismo, para\l"
+	.string "solo compito contra mí mismo, para\l"
 	.string "bien o para mal yo soy el último\l"
 	.string "responsable de lo que me suceda en\l"
 	.string "este lugar, tengo todo cuanto\l"

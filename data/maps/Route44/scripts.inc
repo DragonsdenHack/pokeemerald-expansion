@@ -197,7 +197,7 @@ Route44_Combate_Mirto_Texto_4:
 	.string "vio crecer.$"
 
 Route44_Combate_Mirto_Texto_5:
-.string "Todos mis intentos por recuperar\n"
+.string "Todos los intentos por recuperar\n"
 	.string "la salud de mi POKÉMON han\l"
 	.string "fracasado, pero este viaje no ha\l"
 	.string "sido en vano, he aprendido mucho\l"
@@ -208,6 +208,56 @@ Route44_Combate_Mirto_Texto_5:
 	.string "sería un pecado no explorar los\l"
 	.string "límites de un POKÉMON tan\l"
 	.string "singular.$"
+
+Route44_Combate_Mirto_Texto_5.1:
+	.string "…$"
+
+Route44_Combate_Mirto_Texto_5.2:
+	.string "El CAMPEÓN de una región es el\n"
+	.string "entrenador más fuerte de esta, sabes lo\l"
+	.string "que quiero decir, ¿no?$"
+
+Route44_Combate_Mirto_Texto_5.3:
+	.string "Representamos también el límite a lo\n"
+	.string "que un ENTRENADOR ha podido llegar, lo\l"
+	.string "más cercano a fuerzas mayores que solo\l"
+	.string "los LEGENDARIOS más antiguos alcanzan.$"
+
+Route44_Combate_Mirto_Texto_5.4:
+	.string "Esto sin embargo lo logramos gracias a\n"
+	.string "nuestro esfuerzo, desarrollo e\l"
+	.string "interacciones que mantenemos con\l"
+	.string "otros POKÉMON, mortales como nosotros,\l"
+	.string "durante toda una vida.$"
+
+Route44_Combate_Mirto_Texto_5.5:
+	.string "¿Y sabes qué, {PLAYER}? Creo que el\n"
+	.string "potencial que surge de ahí es ilimitado.$"
+
+Route44_Combate_Mirto_Texto_5.6:
+	.string "En cambio, los dioses del MUNDO\n"
+	.string "POKÉMON… ¿Sabes lo que creo?$"
+
+Route44_Combate_Mirto_Texto_5.7:
+	.string "Nos envidian, {PLAYER}.$"
+
+Route44_Combate_Mirto_Texto_5.8:
+	.string "Jamás sabrán lo que es empezar desde 0\n"
+	.string "e ir subiendo poco a poco, escalar\l"
+	.string "peldaños, pasar dificultades y aprender\l"
+	.string "de las derrotas.$"
+
+Route44_Combate_Mirto_Texto_5.9:
+	.string "Nos envidian porque, a fin de cuentas,\n"
+	.string "somos mortales. Cada instante nuestro\l"
+	.string "podría ser el último, jamás volveremos a\l"
+	.string "tener esta conversación, ni a estar\l"
+	.string "aquí, {PLAYER}.$"
+
+Route44_Combate_Mirto_Texto_5.10:
+	.string "¿Te das cuenta? Es en lo efímero\n"
+	.string "de nuestro potencial donde preci-\l"
+	.string "samente reside su valor.$"
 
 Route44_Combate_Mirto_Texto_6:
 .string "Es por ello por lo que he venido\n"
@@ -241,6 +291,11 @@ Route44_Combate_Mirto_Texto_10:
 
 Route44_Combate_Mirto_Texto_11:
 .string "¡¡OBTUVISTE UN NOIBAT AL Nv.25!!$"
+
+Route44_Combate_Mirto_Texto_11.1:
+	.string "Con este combate, mi cénit como\n"
+	.string "ENTRENADOR ha concluído. Pero tú… tú\l"
+	.string "aún puedes hacer sangrar a los dioses.$"
 
 Route44_Combate_Mirto_Texto_12:
 .string "Hasta la vista, {PLAYER}. Saluda al\n"

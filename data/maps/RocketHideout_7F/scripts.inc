@@ -2238,7 +2238,7 @@ RocketHideout7FDocumento_Text_152:
 	.string "TORRE HOJALATA hace 150 años.\l"
 	.string "Los TIPO TIERRA y ROCA nada pueden\l"
 	.string "hacer ante él, sus atributos\l"
-	.string "defensivos solo están al alcanze\l"
+	.string "defensivos solo están al alcance\l"
 	.string "de los 3 GRANDES, y aún así su\l"
 	.string "capacidad defensiva especial sigue\l"
 	.string "siendo única.$"

@@ -11601,7 +11601,7 @@ CultoS3_Text_Medium5PostBattle:
 
 NavelRoad_Text_PescadorIntro:
 	.string "Nadie aparte de los pocos\n"
-	.string "pescadores que conocemos el\l"
+	.string "marineros que conocemos el\l"
 	.string "secreto debería de estar aquí.$"
 
 
@@ -15871,7 +15871,7 @@ CuevaTesoro4_Text_Cientifico3PostBattle:
 
 SilphS2_Text_Cientifico4Intro:
 	.string "Así que fuiste tú quién derrotó a\n"
-	.string "LANCE, ¡muéstrame como lo hiciste!$"
+	.string "LANCE, ¡muéstrame cómo lo hiciste!$"
 
 
 SilphS2_Text_Cientifico4Defeated:

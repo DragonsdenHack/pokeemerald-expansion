@@ -31,7 +31,7 @@
   "warp_events": [
     {
       "x": 11,
-      "y": 15,
+      "y": 16,
       "elevation": 0,
       "dest_map": "MAP_WEST_BIRTH_ISLAND",
       "dest_warp_id": 1

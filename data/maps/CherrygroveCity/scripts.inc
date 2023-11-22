@@ -528,7 +528,7 @@ Cherrygrove_Combate_Pidgeot_Perfecto_Texto_4:
 .string "Entonces has sido tú el único\n"
 	.string "capaz de derrotar a PEGASO en un\l"
 	.string "combate 6vs6.\l"
-	.string "Sería todo un honor para mi tener\l"
+	.string "Sería todo un honor para mí tener\l"
 	.string "un combate contigo.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_5:

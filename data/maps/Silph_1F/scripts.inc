@@ -57,7 +57,7 @@ release
 end
 
 Silph1F_Text_5:
-.string "¡Venid a mi seguridad de SILPH!$"
+.string "¡Venid a mí! ¡Seguridad de SILPH!$"
 
 
 

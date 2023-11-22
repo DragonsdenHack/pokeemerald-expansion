@@ -143,6 +143,7 @@ static void Task_Fredo(u8);
 static void Task_Salazar(u8);
 static void Task_Zeus(u8);
 static void Task_Giovanni(u8);
+static void Task_Oak(u8);
 static void Task_Rojo(u8);
 static void Task_Jones(u8);
 static void Task_Presidente(u8);
@@ -440,6 +441,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_SALAZAR] = Task_Salazar,
     [B_TRANSITION_ZEUS] = Task_Zeus,
     [B_TRANSITION_GIOVANNI] = Task_Giovanni,
+    [B_TRANSITION_OAK] = Task_Oak,
     [B_TRANSITION_ROJO] = Task_Rojo,
     [B_TRANSITION_JONES] = Task_Jones,
     [B_TRANSITION_PRESIDENTE] = Task_Presidente,
@@ -671,8 +673,9 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_SALAZAR] = TRAINER_PIC_MAESTRO_ANCIANO,
     [MUGSHOT_ZEUS] = TRAINER_PIC_ZEUS,
     [MUGSHOT_GIOVANNI] = TRAINER_PIC_LEADER_GIOVANNI,
+    [MUGSHOT_OAK] = TRAINER_PIC_PROFESSOR_OAK,
     [MUGSHOT_ROJO] = TRAINER_PIC_RED,
-    [MUGSHOT_JONES] = TRAINER_PIC_CULTIST_LEADER_JONES,
+    [MUGSHOT_JONES] = TRAINER_PIC_VIEJO_JONES,
     [MUGSHOT_CAPITAN] = TRAINER_PIC_CAPTAIN_EDWARD,
     [MUGSHOT_PRESIDENTE] = TRAINER_PIC_EXPERT_M,
     [MUGSHOT_MAGNO] = TRAINER_PIC_MAGMA_LEADER_MAXIE,
@@ -725,6 +728,7 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SALAZAR] = {0x200, 0x200},
     [MUGSHOT_ZEUS] = {0x200, 0x200},
     [MUGSHOT_GIOVANNI] = {0x200, 0x200},
+    [MUGSHOT_OAK] = {0x200, 0x200},
     [MUGSHOT_ROJO] = {0x200, 0x200},
     [MUGSHOT_JONES] = {0x200, 0x200},
     [MUGSHOT_PRESIDENTE] = {0x200, 0x200},
@@ -779,6 +783,7 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SALAZAR] =    { -8,  0},
     [MUGSHOT_ZEUS] =    { -8,  0},
     [MUGSHOT_GIOVANNI] =    { -8,  0},
+    [MUGSHOT_OAK] =    { -8,  0},
     [MUGSHOT_ROJO] =    { -8,  0},
     [MUGSHOT_JONES] =    { -8,  0},
     [MUGSHOT_PRESIDENTE] =    { -8,  0},
@@ -1162,6 +1167,7 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_SALAZAR] = sMugshotPal_Drake,
     [MUGSHOT_ZEUS] = sMugshotPal_Drake,
     [MUGSHOT_GIOVANNI] = sMugshotPal_Champion,
+    [MUGSHOT_OAK] = sMugshotPal_Champion,
     [MUGSHOT_ROJO] = sMugshotPal_Champion,
     [MUGSHOT_JONES] = sMugshotPal_Sidney,
     [MUGSHOT_PRESIDENTE] = sMugshotPal_Champion,
@@ -2752,6 +2758,12 @@ static void Task_Zeus(u8 taskId)
 static void Task_Giovanni(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_GIOVANNI;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Oak(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_OAK;
     DoMugshotTransition(taskId);
 }
 

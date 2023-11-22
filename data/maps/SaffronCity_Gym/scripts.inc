@@ -730,7 +730,7 @@ Fuchsia_City_Gym_Guy_Texto_1:
 	.string "¡Pero yo a ti te conozco!\l"
 	.string "¿Qué broma es esta?\l"
 	.string "¡Habrás engañado al sistema pero\l"
-	.string "no a mi!$"
+	.string "no a mí!$"
 
 Fuchsia_City_Gym_Guy_Texto_2:
 .string "¡Esto es una farsa!\n"

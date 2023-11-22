@@ -14,7 +14,7 @@ NeoLavandaCementerioS1_Text_2:
 .string "sabía lo que iba a ocurrirle a TORRE\l"
 .string "POKÉMON mucho antes que cualquiera de\l"
 .string "nosotros. Sea como sea, esperemos que\l"
-.string "con ello se alcanze la paz definitiva\l"
+.string "con ello se alcance la paz definitiva\l"
 .string "aquí.$"
 
 

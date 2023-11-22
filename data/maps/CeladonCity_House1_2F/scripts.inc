@@ -77,7 +77,7 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_1:
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_2:
 .string "Tienes mi palabra, ese GURÚ y esa\n"
-	.string "CAÑA VIEJA ya no existen para mi.$"
+	.string "CAÑA VIEJA ya no existen para mí.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_3:
 .string "...\n"

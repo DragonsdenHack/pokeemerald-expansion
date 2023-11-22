@@ -191,7 +191,7 @@ BirthIsland_Blaine_Texto_13:
 	.string "ganar tiempo.$"
 
 BirthIsland_Blaine_Texto_14:
-.string "En cuanto BLAINE entrege ese\n"
+.string "En cuanto BLAINE entregue ese\n"
 	.string "triángulo a OAK, completaremos la\l"
 	.string "última pieza de nuestro gran\l"
 	.string "puzzle, y ya nadie podrá\l"

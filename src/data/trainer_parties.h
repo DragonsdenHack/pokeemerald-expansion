@@ -1380,7 +1380,7 @@ static const struct TrainerMonItemCustomMoves sParty_Oak1[] = {
     .heldItem = ITEM_TERRAIN_EXTENDER,
     .evs = {100, 100, 100, 110, 0, 100},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_SPIKES, MOVE_AURA_SPHERE, MOVE_EXPANDING_FORCE, MOVE_STEALTH_ROCK}
+    .moves = {MOVE_SPIKES, MOVE_AURA_SPHERE, MOVE_PSYSHOCK, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 250,
@@ -27510,7 +27510,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER137[] = {
     .heldItem = ITEM_LUM_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_EXPANDING_FORCE, MOVE_DRAGON_PULSE, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER}
+    .moves = {MOVE_PSYSTRIKE, MOVE_DRAGON_PULSE, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER}
     }
 };
 
@@ -30296,7 +30296,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER220[] = {
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_EXPANDING_FORCE, MOVE_DRAGON_PULSE, MOVE_BARRIER, MOVE_AURA_SPHERE}
+    .moves = {MOVE_PSYSHOCK, MOVE_DRAGON_PULSE, MOVE_BARRIER, MOVE_AURA_SPHERE}
     }
 
 };
