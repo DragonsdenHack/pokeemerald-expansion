@@ -20,7 +20,7 @@ end
 
 
 
-RadioTowerP4_3:
+RadioTowerP4_3::
 lock     
 faceplayer     
 msgbox Goldenrod_RadioTowerP4_Text_3, MSGBOX_DEFAULT

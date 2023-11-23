@@ -1900,9 +1900,9 @@ static const u8 sUltranecroziumZDesc[] = _(
 
 // Species-specific Held Items
 static const u8 sLightBallDesc[] = _(
-    "Al llevarla, el AT. \n"
-   	"ESP. y AT. de PIKACHU\n"
-   	"aumentará al doble.");
+    "Al llevarla, AT.ESP \n"
+   	"y AT. de PIKACHU\n"
+   	"aumentan al doble.");
 
 static const u8 sLeekDesc[] = _(
     "La familia FARFETCH'D\n"

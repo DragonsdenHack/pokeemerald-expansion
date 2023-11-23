@@ -399,7 +399,6 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_MONEAN_CHAMBER]             = SEVII_67,
     [MAPSEC_LIPTOO_CHAMBER]             = SEVII_67,
     [MAPSEC_WEEPTH_CHAMBER]             = SEVII_67,
-    [MAPSEC_DILFORD_CHAMBER]            = SEVII_67,
     [MAPSEC_SCUFIB_CHAMBER]             = SEVII_67,
     [MAPSEC_RIXY_CHAMBER]               = REGION_JOHTO,
     [MAPSEC_VIAPOIS_CHAMBER]            = SEVII_67,
@@ -451,6 +450,7 @@ static const u8 sMapsecToRegion[] = {
 	[MAPSEC_ROUTE_32]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_33]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_34]                 = REGION_JOHTO,
+    [MAPSEC_DILFORD_CHAMBER]          = REGION_JOHTO,
 	[MAPSEC_ROUTE_36]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_37]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_38]                 = REGION_JOHTO,
@@ -459,7 +459,7 @@ static const u8 sMapsecToRegion[] = {
 	[MAPSEC_ROUTE_41]                 = REGION_JOHTO,
 	[MAPSEC_BLACKTHORN_CITY]		  = REGION_JOHTO,
 	[MAPSEC_ROCKET_HIDEOUT_JOHTO]     = REGION_JOHTO,
-   [MAPSEC_TRAINER_HILL]               = REGION_HOENN
+   [MAPSEC_TRAINER_HILL]               = REGION_JOHTO
 };
 
 static const struct WarpData sDummyWarpData =
