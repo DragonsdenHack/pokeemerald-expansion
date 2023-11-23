@@ -174,7 +174,7 @@ Route36_Llamada_Giovanni_Texto_1:
 	.string "base?\l"
 	.string "Las bestias de JOHTO que\l"
 	.string "enfrentaste únicamente contaban\l"
-	.string "con 2 115 de BASE como mejores\l"
+	.string "con dos 115 de BASE como mejores\l"
 	.string "STATS.$"
 
 Route36_Llamada_Giovanni_Texto_2:

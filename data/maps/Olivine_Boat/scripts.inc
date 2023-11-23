@@ -92,7 +92,7 @@ end
 
 OlivineBoat_Text_7:
 .string "Creo que me estoy mareando, estas\n"
-.string "fiestas no son para mi.$"
+.string "fiestas no son para mí.$"
 
 
 

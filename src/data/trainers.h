@@ -9802,7 +9802,7 @@ const struct Trainer gTrainers[] = {
     [TRAINER_JOSEPH] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_INGENIERO,
+        .trainerClass = TRAINER_CLASS_MECANICOJOHTO,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_CHICOJOHTO,
         .trainerPic = TRAINER_PIC_ROCKER,
         .trainerName = _("CALEDON"),

@@ -1905,9 +1905,9 @@ static const u8 sLightBallDesc[] = _(
    	"aumentan al doble.");
 
 static const u8 sLeekDesc[] = _(
-    "La familia FARFETCH'D\n"
-   	"tendrá un +2 en índice\n"
-   	"crítico al llevarlo.");
+    "Familia FARFETCH'D\n"
+   	"obtiene un +2 en\n"
+   	"índice crítico.");
 
 static const u8 sThickClubDesc[] = _(
     "Al llevarlo, CUBONE\n"

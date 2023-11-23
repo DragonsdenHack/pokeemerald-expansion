@@ -21324,6 +21324,7 @@ static const struct LevelUpMove sAerodactylPrimalLevelUpLearnset[] = {
 static const struct LevelUpMove sCrobatBondLevelUpLearnset[] = {
     //LEVEL_UP_MOVE( 0, MOVE_CROSS_POISON),
     LEVEL_UP_MOVE( 1, MOVE_CROSS_POISON),
+    LEVEL_UP_MOVE( 1, MOVE_BRAVE_BIRD),
     LEVEL_UP_MOVE( 1, MOVE_SCREECH),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_SUPERSONIC),
@@ -21343,12 +21344,15 @@ static const struct LevelUpMove sCrobatBondLevelUpLearnset[] = {
     LEVEL_UP_MOVE(43, MOVE_VENOSHOCK),
     LEVEL_UP_MOVE(48, MOVE_AIR_SLASH),
     LEVEL_UP_MOVE(51, MOVE_QUICK_GUARD),
+    LEVEL_UP_MOVE(90, MOVE_GUNK_SHOT),
+    LEVEL_UP_MOVE(100, MOVE_SKY_ATTACK),
     LEVEL_UP_END
 };
 
 static const struct LevelUpMove sCrobat2BondLevelUpLearnset[] = {
     //LEVEL_UP_MOVE( 0, MOVE_CROSS_POISON),
     LEVEL_UP_MOVE( 1, MOVE_CROSS_POISON),
+    LEVEL_UP_MOVE( 1, MOVE_BRAVE_BIRD),
     LEVEL_UP_MOVE( 1, MOVE_SCREECH),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 1, MOVE_SUPERSONIC),
@@ -21368,6 +21372,8 @@ static const struct LevelUpMove sCrobat2BondLevelUpLearnset[] = {
     LEVEL_UP_MOVE(43, MOVE_VENOSHOCK),
     LEVEL_UP_MOVE(48, MOVE_AIR_SLASH),
     LEVEL_UP_MOVE(51, MOVE_QUICK_GUARD),
+    LEVEL_UP_MOVE(90, MOVE_GUNK_SHOT),
+    LEVEL_UP_MOVE(100, MOVE_SKY_ATTACK),
     LEVEL_UP_END
 };
 

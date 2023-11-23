@@ -3007,7 +3007,7 @@ static const struct TrainerMonItemCustomMoves sParty_Zeus2[] = {
     .heldItem = ITEM_WHITE_HERB,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_FLY, MOVE_DRAGON_CLAW, MOVE_EXTREME_SPEED, MOVE_V_CREATE}
+    .moves = {MOVE_DRAGON_ASCENT, MOVE_DRAGON_CLAW, MOVE_EXTREME_SPEED, MOVE_V_CREATE}
     }
 };
 
