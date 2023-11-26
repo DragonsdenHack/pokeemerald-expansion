@@ -726,6 +726,7 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Jason, OBJ_EVENT_PAL_TAG_JASON},
 	{gObjectEventPal_Miguel, OBJ_EVENT_PAL_TAG_MIGUEL},
 	{gObjectEventPal_Zinnia, OBJ_EVENT_PAL_TAG_ZINNIA},
+	{gObjectEventPal_Pokemaniacojohto, OBJ_EVENT_PAL_TAG_POKEMANIACOJOHTO},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
