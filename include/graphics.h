@@ -8043,6 +8043,8 @@ extern const u32 gTrainerFrontPic_Devon1[];
 extern const u32 gTrainerFrontPic_Devon2[];
 extern const u32 gTrainerFrontPic_Devon3[];
 extern const u32 gTrainerFrontPic_Devon4[];
+extern const u32 gTrainerFrontPic_Miguel[];
+extern const u32 gTrainerFrontPic_Presidente[];
 
 extern const u32 gTrainerFrontPic_Valeria[];
 extern const u32 gTrainerFrontPic_Zapdos[];
@@ -8278,6 +8280,8 @@ extern const u32 gTrainerPalette_Devon1[];
 extern const u32 gTrainerPalette_Devon2[];
 extern const u32 gTrainerPalette_Devon3[];
 extern const u32 gTrainerPalette_Devon4[];
+extern const u32 gTrainerPalette_Miguel[];
+extern const u32 gTrainerPalette_Presidente[];
 
 extern const u8 gTrainerBackPic_Brendan[];
 extern const u8 gTrainerBackPic_May[];
