@@ -4879,7 +4879,7 @@ Cry_ArceusPrimal::
 
 	.align 2
 Cry_MissingNo::
-	.incbin "sound/direct_sound_samples/cries/missingno.bin"
+	.incbin "sound/direct_sound_samples/cries/uncomp_necrozma_ultra.bin"
 
 	.align 2
 Cry_VenusaurMega::

@@ -9637,7 +9637,7 @@ const struct BattleMove gBattleMoves[MOVES_COUNT] =
 
     [MOVE_LIGHT_OF_RUIN] =
     {
-        .effect = EFFECT_RECOIL_50,
+        .effect = EFFECT_RECOIL_33,
         .power = 140,
         .type = TYPE_FAIRY,
         .accuracy = 100,

@@ -900,7 +900,7 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_JONES;
 
     if (gTrainerBattleOpponent_A == TRAINER_CULTO_3)
-        return B_TRANSITION_JONES;
+        return B_TRANSITION_DIOSJONES;
 
     if (gTrainerBattleOpponent_A == TRAINER_PRESIDENTE_SILPH)
         return B_TRANSITION_PRESIDENTE;

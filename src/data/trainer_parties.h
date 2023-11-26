@@ -19169,7 +19169,7 @@ static const struct TrainerMonItemCustomMoves sParty_Culto3[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_MISSINGNO,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 0, 128, 0, 128, 0},
@@ -19383,7 +19383,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esenciahooh[] = {
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_ROAR_OF_TIME, MOVE_FLASH_CANNON, MOVE_AURA_SPHERE, MOVE_NONE}
+    .moves = {MOVE_ROAR_OF_TIME, MOVE_FLASH_CANNON, MOVE_ROAR_OF_TIME, MOVE_ROAR_OF_TIME}
     },
     {
     .iv = 255,
@@ -19452,7 +19452,7 @@ static const struct TrainerMonItemCustomMoves sParty_Esenciazigarde[] = {
     .heldItem = ITEM_CHOICE_SCARF,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_BRAVE,
-    .moves = {MOVE_HYPERSPACE_FURY, MOVE_HYPERSPACE_FURY, MOVE_HYPERSPACE_FURY, MOVE_HYPERSPACE_FURY}
+    .moves = {MOVE_DARKEST_LARIAT, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     }
 };
 

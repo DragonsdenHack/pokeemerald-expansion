@@ -29530,9 +29530,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_NONE, ABILITY_MAGIC_GUARD},
+            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
         #else
-            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_NONE},
+            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
         #endif
         .bodyColor = BODY_COLOR_WHITE,
         .noFlip = FALSE,
@@ -29558,9 +29558,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_NONE, ABILITY_MAGIC_GUARD},
+            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
         #else
-            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_NONE},
+            .abilities = {ABILITY_MAGIC_GUARD, ABILITY_MAGIC_GUARD},
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,
