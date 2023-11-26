@@ -510,6 +510,8 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Rocket_AltoRango_F
 
 const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jones;
 
+const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Miguel;
+
 const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM_OBJ_EVENT_GFX] = {
     [OBJ_EVENT_GFX_BRENDAN_NORMAL] =           &gObjectEventGraphicsInfo_BrendanNormal,
     [OBJ_EVENT_GFX_BRENDAN_MACH_BIKE] =        &gObjectEventGraphicsInfo_BrendanMachBike,
@@ -1016,6 +1018,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
 	[OBJ_EVENT_GFX_PLAYER_ADMIN_SURF] = &gObjectEventGraphicsInfo_Rocket_Admin_Surf,
 	[OBJ_EVENT_GFX_PLAYER_ADMIN_JEFE_SURF] = &gObjectEventGraphicsInfo_Rocket_AdminJefe_Surf,
 	[OBJ_EVENT_GFX_JONES] = &gObjectEventGraphicsInfo_Jones,
+	[OBJ_EVENT_GFX_MIGUEL] = &gObjectEventGraphicsInfo_Miguel,
 };
 
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {

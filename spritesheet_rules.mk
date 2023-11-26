@@ -703,6 +703,9 @@ $(OBJEVENTGFXDIR)/people/Mewtwoarm.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/mg_deliveryman.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/miguel.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 2 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/Mirto.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 	

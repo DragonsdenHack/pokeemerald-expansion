@@ -663,6 +663,7 @@ const u16 gObjectEventPic_LiderSete[] = INCBIN_U16("graphics/object_events/pics/
 const u16 gObjectEventPic_Zinnia[] = INCBIN_U16("graphics/object_events/pics/people/zinnia.4bpp");
 const u16 gObjectEventic_DragonSagrado[] = INCBIN_U16("graphics/object_events/pics/people/dragonsagrado.4bpp");
 const u16 gObjectEventPic_ReyUnown[] = INCBIN_U16("graphics/object_events/pics/people/kingunown.4bpp");
+const u16 gObjectEventPic_Miguel[] = INCBIN_U16("graphics/object_events/pics/people/miguel.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -800,3 +801,5 @@ const u16 gObjectEventPal_PlayerAdmin2[] = INCBIN_U16("graphics/object_events/pa
 const u16 gObjectEventPal_AdminJefeCaco[] = INCBIN_U16("graphics/object_events/palettes/adminjefecaco.gbapal");
 
 const u16 gObjectEventPal_MediumJohto[] = INCBIN_U16("graphics/object_events/palettes/mediumjohto.gbapal");
+
+const u16 gObjectEventPal_Miguel[] = INCBIN_U16("graphics/object_events/palettes/miguel.gbapal");
