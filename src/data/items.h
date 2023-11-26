@@ -3897,7 +3897,7 @@ const struct Item gItems[] =
     {
         .name = _("Garchompita"),
         .itemId = ITEM_GARCHOMPITE,
-        .price = 0,
+        .price = 65000,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sGarchompiteDesc,
         .pocket = POCKET_ITEMS,

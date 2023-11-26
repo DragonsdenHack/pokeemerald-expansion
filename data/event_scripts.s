@@ -1023,7 +1023,7 @@ Script_RemoveTint::
 	callnative InitMapView
 	return
 
-SetEVs::
+SetEvs_2::
 	special ChoosePartyMon
 	waitstate
 	compare VAR_0x8004, PARTY_SIZE
@@ -1067,16 +1067,16 @@ RejectedEVs:
 	end
 
 EVsSetSuccessfully:
-	.string "The EVs of your Pokémon's stats\n"
-	.string "have been successfully set to 252.\p"
-	.string "Come back anytime.$"
+	.string "Los IVs de su POKÉMON han sido\n"
+	.string "elevados a 31 con éxito.\p"
+	.string "Vuelva cuando guste, señor.$"
 
 RejectEVs:
-	.string "Sorry, I can't modify the stats\n"
-	.string "of an EGG.$"
+	.string "Lo siento, no puedo modificar\n"
+	.string "los genes de un HUEVO.$"
 
 ComeBackAnytimeEVs:
-	.string "Come back anytime.$"
+	.string "Vuelva cuando guste señor.$"
 
 
 SetIVs::
@@ -1103,7 +1103,16 @@ SetIVs_Proceed:
 	special SetSpdIvs
 	special SetSpAtkIvs
 	special SetSpDefIvs
-	msgbox IVsSetSuccessfully 4
+	showmoneybox 0, 0
+delay 15
+playse SE_SHOP
+removemoney 100000 0
+updatemoneybox
+delay 50
+msgbox IVsSetSuccessfully 4
+delay 20
+hidemoneybox
+delay 20
 	closemessage
 	releaseall
 	end
@@ -1123,18 +1132,22 @@ RejectedIVs:
 	end
 
 IVsSetSuccessfully:
-	.string "The EVs of your Pokémon's stats\n"
-	.string "have been successfully set to 31.\p"
-	.string "Come back anytime.$"
+	.string "Los IVs de su POKÉMON han sido\n"
+	.string "elevados a 31 con éxito.\p"
+	.string "Vuelva cuando guste, señor.$"
 
 RejectIVs:
-	.string "Sorry, I can't modify the stats\n"
-	.string "of an EGG.$"
+	.string "Lo siento, no puedo modificar\n"
+	.string "los genes de un HUEVO.$"
 
 ComeBackAnytimeIvs:
-	.string "Come back anytime.$"
+	.string "Vuelva cuando guste señor.$"
 
 CheckIvs::
+msgbox CheckIvs_Texto_1, MSGBOX_DEFAULT
+msgbox CheckIvs_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SeteoIvs_No
 	special ChoosePartyMon
 	waitstate
 	compare VAR_0x8004, PARTY_SIZE
@@ -1162,22 +1175,39 @@ SetIVs_Proceed2:
 	release
 	end
 
+CheckIvs_Texto_2:
+	.string "¿Quiere chequear algún POKÉMON?$"
+
+CheckIvs_Texto_1:
+	.string "Aquí le puedo informar de los IVs que\n"
+	.string "cada POKÉMON de su equipo tiene.$"
+
 Text_IVChecker_1:
-	.string "Your {STR_VAR_1}...$"
+	.string "Veamos...$"
 
 Text_IVChecker_2:
-	.string "Its HP IV is {STR_VAR_1}.\p"
-	.string "Its Attack IV is {STR_VAR_2}.\p"
-	.string "Its Defense IV is {STR_VAR_3}.$"
+	.string "IV de PS: {STR_VAR_1}.\p"
+	.string "IV de ATAQUE: {STR_VAR_2}.\p"
+	.string "IV de DEFENSA: {STR_VAR_3}.$"
 
 Text_IVChecker_3:
-	.string "Its Special Attack IV is {STR_VAR_1}.\p"
-	.string "Its Special Defense IV is {STR_VAR_2}.\p"
-	.string "Its Speed IV is {STR_VAR_3}.\n"
-	.string "You're welcome.$"	
+	.string "IV de AT.ESP: {STR_VAR_1}.\p"
+	.string "IV de DEF.ESP: {STR_VAR_2}.\p"
+	.string "IV de VELOCIDAD: {STR_VAR_3}.$"
+
+CheckEvs_Texto_2:
+	.string "¿Quiere chequear algún POKÉMON?$"
+
+CheckEvs_Texto_1:
+	.string "Aquí le puedo informar de los EVs que\n"
+	.string "cada POKÉMON de su equipo tiene.$"
 
 
 CheckEvs::
+msgbox CheckEvs_Texto_1, MSGBOX_DEFAULT
+msgbox CheckEvs_Texto_2, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SeteoIvs_No
 	special ChoosePartyMon
 	waitstate
 	compare VAR_0x8004, PARTY_SIZE
@@ -1206,18 +1236,17 @@ SetEVs_Proceed2:
 	end
 
 Text_EVChecker_1:
-	.string "Your {STR_VAR_1}...$"
+	.string "Veamos...$"
 
 Text_EVChecker_2:
-	.string "Its HP EV is {STR_VAR_1}.\p"
-	.string "Its Attack EV is {STR_VAR_2}.\p"
-	.string "Its Defense EV is {STR_VAR_3}.$"
+	.string "Sus EVs en PS son: {STR_VAR_1}.\p"
+	.string "Sus EVs en ATAQUE son: {STR_VAR_2}.\p"
+	.string "Sus EVs en DEFENSA son: {STR_VAR_3}.$"
 
 Text_EVChecker_3:
-	.string "Its Special Attack EV is {STR_VAR_1}.\p"
-	.string "Its Special Defense EV is {STR_VAR_2}.\p"
-	.string "Its Speed EV is {STR_VAR_3}.\n"
-	.string "You're welcome.$"	
+	.string "Sus EVs en AT.ESP son: {STR_VAR_1}.\p"
+	.string "Sus EVs en DEF.ESP son: {STR_VAR_2}.\p"
+	.string "Sus EVs en VELOCIDAD son: {STR_VAR_3}.$"
 
 	.include "data/scripts/pc_transfer.inc"
 	.include "data/scripts/questionnaire.inc"

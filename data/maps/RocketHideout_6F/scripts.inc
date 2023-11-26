@@ -2263,11 +2263,40 @@ RocketHideout_6F_Cientifico_Maquina_Texto_2:
 
 SeteoIvs::
 msgbox SeteoIvs_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SeteoIvs_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SeteoIvs_Texto_3 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SeteoIvs_No
+delay 10
+msgbox SeteoIvs_Texto_4 MSGBOX_AUTOCLOSE
 goto SetIVs
 release
 end
 
+SeteoIvs_No::
+msgbox SeteoIvs_No_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SeteoIvs_Texto_4:
+	.string "Escoga al POKÉMON que quiere potenciar.$"
+
+SeteoIvs_No_Texto_1:
+	.string "Como usted guste, ADMIN.JEFE.$"
+
+SeteoIvs_Texto_3:
+	.string "El coste será de solo 100000 POKÉS. ¿Le\n"
+	.string "interesa?$"
+
 SeteoIvs_Texto_1:
-.string "Seteo$"
+	.string "Hemos logrado la tecnología capaz de\n"
+	.string "exprimir al 100% el potencial genético\l"
+	.string "de un POKÉMON.$"
+
+SeteoIvs_Texto_2:
+	.string "Gracias a ello, todo POKÉMON que se\n"
+	.string "someta a nuestro tratamiento contará\l"
+	.string "con 31 IVs en sus 6 STATS.$"
 
 

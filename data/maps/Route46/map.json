@@ -2,7 +2,7 @@
   "id": "MAP_ROUTE46",
   "name": "Route46",
   "layout": "LAYOUT_ROUTE46",
-  "music": "MUS_RG_SEVII_ROUTE",
+  "music": "615",
   "region_map_section": "MAPSEC_SEVII_ISLE_8",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -145,6 +145,36 @@ applymovement 3, Route44_Combate_Mirto_Move_3
 waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
+msgbox Route44_Combate_Mirto_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Route44_Combate_Mirto_Move_3.1
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.2 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_3
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.3 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_5
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.4 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.5 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6.1
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, Route44_Combate_Mirto_Move_3.1
+waitmovement 0x0
+delay 10
+msgbox Route44_Combate_Mirto_Texto_5.7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route44_Combate_Mirto_Texto_5.8 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6.2
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.9 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6.3
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.10 MSGBOX_AUTOCLOSE
 msgbox Route44_Combate_Mirto_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 3, Route44_Combate_Mirto_Move_3
 waitmovement 0x0
@@ -158,6 +188,8 @@ playfanfare MUS_OBTAIN_TMHM
 msgbox Route44_Combate_Mirto_Texto_11 MSGBOX_DEFAULT
 givemon SPECIES_NOIBAT, 25, ITEM_NONE
 waitfanfare
+msgbox Route44_Combate_Mirto_Texto_11.1 MSGBOX_DEFAULT
+delay 10
 applymovement 3, Route44_Combate_Mirto_Move_3
 waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_12 MSGBOX_AUTOCLOSE
@@ -172,6 +204,29 @@ fadescreen 0
 setvar VAR_UNUSED_0x40F7, 166
 release
 end
+
+Route44_Combate_Mirto_Move_6.3:
+delay_8
+walk_right
+delay_8
+step_end
+
+Route44_Combate_Mirto_Move_6.2:
+delay_8
+face_right
+delay_8
+step_end
+
+Route44_Combate_Mirto_Move_6.1:
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+Route44_Combate_Mirto_Move_3.1:
+face_up
+delay_8
+step_end
 
 Route44_Combate_Mirto_Texto_1:
 .string "????: ¡{PLAYER}!\n"
@@ -231,8 +286,9 @@ Route44_Combate_Mirto_Texto_5.4:
 	.string "durante toda una vida.$"
 
 Route44_Combate_Mirto_Texto_5.5:
-	.string "¿Y sabes qué, {PLAYER}? Creo que el\n"
-	.string "potencial que surge de ahí es ilimitado.$"
+	.string "No me cabe duda, ese tipo de actos dejan\n"
+	.string "huella. Su potencial es ilimitado,\l"
+	.string "sagrado.$"
 
 Route44_Combate_Mirto_Texto_5.6:
 	.string "En cambio, los dioses del MUNDO\n"
@@ -249,15 +305,15 @@ Route44_Combate_Mirto_Texto_5.8:
 
 Route44_Combate_Mirto_Texto_5.9:
 	.string "Nos envidian porque, a fin de cuentas,\n"
-	.string "somos mortales. Cada instante nuestro\l"
-	.string "podría ser el último, jamás volveremos a\l"
+	.string "somos mortales. Cada combate nuestro\l"
+	.string "podría ser el último. Jamás volveremos a\l"
 	.string "tener esta conversación, ni a estar\l"
 	.string "aquí, {PLAYER}.$"
 
 Route44_Combate_Mirto_Texto_5.10:
 	.string "¿Te das cuenta? Es en lo efímero\n"
-	.string "de nuestro potencial donde preci-\l"
-	.string "samente reside su valor.$"
+	.string "de nuestra existencia donde reside\l"
+	.string "su valor.$"
 
 Route44_Combate_Mirto_Texto_6:
 .string "Es por ello por lo que he venido\n"
@@ -329,4 +385,8 @@ step_end
 
 Route44_Combate_Mirto_Move_5:
 face_left
+step_end
+
+Route44_Combate_Mirto_Move_6:
+walk_slow_left
 step_end

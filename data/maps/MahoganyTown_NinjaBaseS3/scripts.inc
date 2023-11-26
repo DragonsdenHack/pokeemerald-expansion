@@ -46,7 +46,15 @@ end
 
 
 NinjaBaseS3_7::
+lock
+faceplayer
+msgbox NinjaBaseS3_7_Texto_1 MSGBOX_NPC
+release
 end
+
+NinjaBaseS3_7_Texto_1:
+	.string "¿Hasta dónde cree que llegaremos con\n"
+	.string "todo esto?$"
 
 
 

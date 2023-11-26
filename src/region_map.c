@@ -1235,6 +1235,13 @@ static void InitMapBasedOnPlayerLocation(void)
             gRegionMap->playerIsInCave = TRUE;
         break;
     case MAP_TYPE_UNDERGROUND:
+    		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNION_CAVE))
+        {
+			x = 18;
+			y = 14;
+			gMapHeader.region == REGION_JOHTO;	
+		}
+        break;
     case MAP_TYPE_UNKNOWN:
         if (gMapHeader.allowEscaping)
         {
@@ -1411,22 +1418,13 @@ static void InitMapBasedOnPlayerLocation(void)
 			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
-	case MAPSEC_GOLDENROD_CITY:
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(CUEVA_GIMNASIO_TRIGAL))
-        {
-			x = 15;
-			y = 9;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		break;
 	case MAPSEC_UNDERGROUND_PATH:
-        x = 14;
-        y = 7;
-        if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNDERGROUND_PATH_1F))
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S1))
         {
-            x = 14; // optimized out but required to match
-            y = 5;
-        }
+			x = 24;
+			y = 3;
+			gMapHeader.region == REGION_JOHTO;	
+		}
         break;
 	case MAPSEC_UNDERGROUND_PATH_2:
         x = 14;
