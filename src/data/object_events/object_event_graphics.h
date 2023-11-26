@@ -803,3 +803,5 @@ const u16 gObjectEventPal_AdminJefeCaco[] = INCBIN_U16("graphics/object_events/p
 const u16 gObjectEventPal_MediumJohto[] = INCBIN_U16("graphics/object_events/palettes/mediumjohto.gbapal");
 
 const u16 gObjectEventPal_Miguel[] = INCBIN_U16("graphics/object_events/palettes/miguel.gbapal");
+
+const u16 gObjectEventPal_Pokemaniacojohto[] = INCBIN_U16("graphics/object_events/palettes/pokemaniacojohto.gbapal");
