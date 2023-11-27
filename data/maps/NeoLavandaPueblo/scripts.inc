@@ -549,10 +549,8 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-giveitem ITEM_MACH_BIKE
-setflag FLAG_RECEIVED_BIKE
-setvar VAR_UNUSED_0x40F7, 205
-changeavatar 4
+giveegg SPECIES_KURUSU
+waitfanfare
 release
 end
 

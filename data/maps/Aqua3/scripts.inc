@@ -436,7 +436,7 @@ Aqua3_Combate_Aquiles_Texto_25:
 	.string "comprobarlo...$"
 
 Aqua3_Combate_Aquiles_Texto_26:
-.string "Sin embargo, sus poderes palidezen\n"
+.string "Sin embargo, sus poderes palidecen\n"
 	.string "ante el creador de todo, los dos,\l"
 	.string "KYOGRE y GROUDON, junto con\l"
 	.string "RAYQUAZA, son 3 de los 6 TITANES,\l"

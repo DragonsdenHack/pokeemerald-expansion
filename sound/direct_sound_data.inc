@@ -4819,11 +4819,11 @@ Cry_SuicuneBond::
 
 	.align 2
 Cry_Kurusu::
-	.incbin "sound/direct_sound_samples/cries/kurusu.bin"
+	.incbin "sound/direct_sound_samples/cries/tirtouga.bin"
 
 	.align 2
 Cry_Akua::
-	.incbin "sound/direct_sound_samples/cries/akua.bin"
+	.incbin "sound/direct_sound_samples/cries/dewott.bin"
 
 	.align 2
 Cry_Akueria::

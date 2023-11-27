@@ -27497,8 +27497,8 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER136[] = {
     .species = SPECIES_AKUERIA,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
-    .nature = NATURE_JOLLY,
-    .moves = {MOVE_DRAGON_RUSH, MOVE_AQUA_TAIL, MOVE_IRON_TAIL, MOVE_NONE}
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_DRAGON_RUSH, MOVE_AQUA_TAIL, MOVE_IRON_TAIL, MOVE_DRACO_METEOR}
     }
 };
 

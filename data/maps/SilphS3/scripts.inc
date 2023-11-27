@@ -267,7 +267,7 @@ release
 end
 
 SilphS3_Miguel_Batalla_Texto_1:
-.string "????: ¿Tú otra vez, {PLAYER}?$"
+.string "????: ¿Tú otra vez?$"
 
 SilphS3_Miguel_Batalla_Texto_2:
 .string "C.MIGUEL: Ya nos avisó el\n"
@@ -279,7 +279,7 @@ SilphS3_Miguel_Batalla_Texto_2:
 
 SilphS3_Miguel_Batalla_Texto_3:
 .string "Como puedes observar,\n"
-	.string "ADMINISTRADOR JEFE, no eres el\l"
+	.string "ADMINISTRADOR {PLAYER}, no eres el\l"
 	.string "único que ha logrado escalar y\l"
 	.string "ascender, mis amplios\l"
 	.string "conocimientos y obsesión por los\l"

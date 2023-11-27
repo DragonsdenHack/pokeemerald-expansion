@@ -873,7 +873,7 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_REGISTEEL;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_136)
-        return B_TRANSITION_REGICE;
+        return B_TRANSITION_BIG_POKEBALL;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_137)
         return B_TRANSITION_RAYQUAZA;

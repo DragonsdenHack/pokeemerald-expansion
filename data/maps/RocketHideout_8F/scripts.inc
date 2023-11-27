@@ -3950,7 +3950,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_9:
 	.string "causado por ZEUS, y la entrada a\l"
 	.string "RUINAS ALFA, pudimos extraer los ADN\l"
 	.string "de LUGIA y HO-OH, no de sus formas\l"
-	.string "primigenias, pero si las conocidas por\l"
+	.string "primigenias, pero sí las conocidas por\l"
 	.string "la cultura de JOHTO.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_10:
@@ -3968,7 +3968,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_12:
 RocketHideout_8F_Mision_Lago_Furia_Texto_13:
 .string "ANDRA: No creas que no sabré cómo\n"
 	.string "lidiar con ellos en caso de que los uses\l"
-	.string "contra mi, {PLAYER}. Ya derroté al\l"
+	.string "contra mí, {PLAYER}. Ya derroté al\l"
 	.string "HO-OH dorado, una forma aún más\l"
 	.string "poderosa que esos clones, ¡no lo\l"
 	.string "olvides!$"
@@ -4037,7 +4037,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_23:
 	.string "HOENN, señor?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_24:
-.string "GIOVANNI: Así es, ANDRA, por ahora te\n"
+.string "GIOVANNI: Así es, ANDRA. Por ahora te\n"
 	.string "quedarás en JOHTO y harás la misma\l"
 	.string "tarea que ha estado haciendo\l"
 	.string "{PLAYER}. Sois los dos entrenadores\l"
