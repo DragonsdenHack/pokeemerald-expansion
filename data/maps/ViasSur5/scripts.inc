@@ -50,6 +50,10 @@ delay 20
 applymovement 2, ViasTren3_Rastro_Zapdos_Move_7
 waitmovement 0x0
 msgbox ViasSur5_Combate_Pegaso_Texto_15 MSGBOX_AUTOCLOSE
+delay 10
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
 applymovement 2, ViasTren3_Rastro_Zapdos_Move_10
 waitmovement 0x0
 msgbox ViasSur5_Combate_Pegaso_Texto_16 MSGBOX_AUTOCLOSE
@@ -228,7 +232,7 @@ ViasSur5_Combate_Pegaso_Texto_13:
 	.string "paradero desconocido.$"
 
 ViasSur5_Combate_Pegaso_Texto_14:
-.string "Sería todo un sueño para mi poder\n"
+.string "Sería todo un sueño para mí poder\n"
 	.string "manejar a tal POKÉMON, aunque solo sea\l"
 	.string "una vez.$"
 

@@ -20991,7 +20991,7 @@ static const struct TrainerMonItemCustomMoves sParty_Bill4[] = {
 static const struct TrainerMonItemCustomMoves sParty_Eusine[] = {
     {
     .iv = 255,
-    .lvl = 95,
+    .lvl = 96,
     .species = SPECIES_HYPNO,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 0, 128, 0, 0, 128},
@@ -21000,7 +21000,7 @@ static const struct TrainerMonItemCustomMoves sParty_Eusine[] = {
     },
     {
     .iv = 255,
-    .lvl = 96,
+    .lvl = 97,
     .species = SPECIES_ELECTRODE_HISUI,
     .heldItem = ITEM_LIGHT_CLAY,
     .evs = {252, 0, 0, 252, 0, 6},
@@ -21009,7 +21009,7 @@ static const struct TrainerMonItemCustomMoves sParty_Eusine[] = {
     },
     {
     .iv = 255,
-    .lvl = 96,
+    .lvl = 97,
     .species = SPECIES_ALAKAZAM,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -21018,7 +21018,7 @@ static const struct TrainerMonItemCustomMoves sParty_Eusine[] = {
     },
     {
     .iv = 255,
-    .lvl = 97,
+    .lvl = 98,
     .species = SPECIES_WYRDEER,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 252, 0, 6, 0, 0},
@@ -21027,7 +21027,7 @@ static const struct TrainerMonItemCustomMoves sParty_Eusine[] = {
     },
     {
     .iv = 255,
-    .lvl = 97,
+    .lvl = 98,
     .species = SPECIES_FARIGIRAF,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {252, 0, 252, 0, 0, 6},
@@ -21036,7 +21036,7 @@ static const struct TrainerMonItemCustomMoves sParty_Eusine[] = {
     },
     {
     .iv = 255,
-    .lvl = 98,
+    .lvl = 99,
     .species = SPECIES_BOOHOO,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {252, 80, 252, 80, 80, 80},
@@ -21048,7 +21048,7 @@ static const struct TrainerMonItemCustomMoves sParty_Eusine[] = {
 static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     {
     .iv = 255,
-    .lvl = 98,
+    .lvl = 99,
     .species = SPECIES_WEAVILE,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -21057,7 +21057,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     },
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 100,
     .species = SPECIES_MILOTIC,
     .heldItem = ITEM_MILOTICITE,
     .evs = {252, 55, 252, 55, 55, 55},
@@ -21066,7 +21066,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     },
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 100,
     .species = SPECIES_ELECTIVIRE_X,
     .heldItem = ITEM_AIR_BALLOON,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -21075,16 +21075,16 @@ static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 101,
     .species = SPECIES_URSALUNA,
     .heldItem = ITEM_ASSAULT_VEST,
-    .evs = {128, 252, 0, 0, 0, 128},
+    .evs = {128, 252, 55, 55, 55, 128},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_EARTHQUAKE, MOVE_BODY_SLAM, MOVE_FIRE_PUNCH, MOVE_DRAIN_PUNCH}
     },
     {
     .iv = 255,
-    .lvl = 99,
+    .lvl = 100,
     .species = SPECIES_HERACROSS,
     .heldItem = ITEM_CHOICE_SCARF,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -21093,7 +21093,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     },
     {
     .iv = 255,
-    .lvl = 101,
+    .lvl = 102,
     .species = SPECIES_CROBAT2_BOND,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {110, 252, 252, 110, 110, 110},
@@ -27510,7 +27510,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER137[] = {
     .heldItem = ITEM_LUM_BERRY,
     .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_PSYSTRIKE, MOVE_DRAGON_PULSE, MOVE_EARTH_POWER, MOVE_ANCIENT_POWER}
+    .moves = {MOVE_PSYSTRIKE, MOVE_DRAGON_PULSE, MOVE_AURA_SPHERE, MOVE_ANCIENT_POWER}
     }
 };
 
@@ -27861,7 +27861,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER150[] = {
 static const struct TrainerMonItemCustomMoves sParty_TRAINER151[] = {
     {
     .iv = 255,
-    .lvl = 102,
+    .lvl = 100,
     .species = SPECIES_ZAPDOS_PRIMAL,
     .heldItem = ITEM_ELECTRIC_SEED,
     .evs = {252, 252, 252, 252, 252, 252},

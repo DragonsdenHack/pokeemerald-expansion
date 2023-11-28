@@ -25,7 +25,7 @@ end
 Route49_Pagoda_P7_Segundo_Pensador_Texto_1:
 .string "La maestría requiere práctica. Pero\n"
 	.string "cuanto más practicas algo, más\l"
-	.string "aburrido y rutinario de vuelve. Una vez\l"
+	.string "aburrido y rutinario se vuelve. Una vez\l"
 	.string "las ganancias de principiante se han\l"
 	.string "logrado y hemos aprendido qué esperar,\l"
 	.string "nuestro interés comienza a\l"

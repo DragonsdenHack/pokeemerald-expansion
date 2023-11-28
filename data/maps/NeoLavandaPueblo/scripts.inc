@@ -549,8 +549,10 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-giveegg SPECIES_KURUSU
-waitfanfare
+setvar VAR_ROUTE118_STATE, 0
+setvar VAR_VERDANTURF_TOWN_STATE, 7
+clearflag FLAG_NUEVA_813
+clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 release
 end
 

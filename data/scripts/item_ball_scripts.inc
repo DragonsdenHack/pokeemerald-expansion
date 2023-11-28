@@ -2601,7 +2601,7 @@ finditem ITEM_RAZOR_FANG
    end
 
 Route49PagodaP5_Event_Script_PSagrada::
-finditem ITEM_PIEDRA_SAGRADA
+finditem ITEM_TART_APPLE
    end
 
 Route49PagodaP7_Event_Script_CSagrada::
@@ -2609,7 +2609,7 @@ finditem ITEM_SACRED_ASH
    end
 
 Route49PagodaP14_Event_Script_PSagrada::
-finditem ITEM_PIEDRA_SAGRADA
+finditem ITEM_TART_APPLE
    end
 
 BaseJohto_EventScript_Procket::

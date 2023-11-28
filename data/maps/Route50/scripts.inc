@@ -86,6 +86,7 @@ waitmovement 0x0
 delay 20
 removeobject 4
 playfanfare MUS_OBTAIN_ITEM
+addobject ITEM_TART_APPLE
 msgbox Route50_Encuentro_Dunsparce_Texto_8 MSGBOX_DEFAULT
 waitfanfare
 applymovement 2, Route50_Encuentro_Dunsparce_Move_3

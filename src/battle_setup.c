@@ -960,7 +960,7 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_EUSINE;
 
     if (gTrainerBattleOpponent_A == TRAINER_EUSINE)
-        return B_TRANSITION_FRANK2;
+        return B_TRANSITION_EUSINE;
 
     if (gTrainerBattleOpponent_A == TRAINER_OAK_1)
             return B_TRANSITION_OAK;

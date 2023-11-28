@@ -96,7 +96,7 @@ CianwoodEusineHouse_Combate_Texto_6:
 	.string "tener la bendición de los 2 GRANDES\l"
 	.string "MAESTROS de JOHTO. Yo solo veo a\l"
 	.string "alguien que intenta colgarse medallas,\l"
-	.string "como todos hoy en día, expondrias\l"
+	.string "como todos hoy en día. Expondrías\l"
 	.string "dichas experiencias en un museo si\l"
 	.string "pudieras, ¿o no?$"
 
