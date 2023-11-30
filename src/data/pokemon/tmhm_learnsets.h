@@ -33590,10 +33590,12 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM82_STRUGGLE_BUG)
                                             | TMHM2(TM83_BULLDOZE)
                                             | TMHM2(TM85_ROCK_SLIDE)
+                                            | TMHM2(TM87_POISON_JAB)
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM95_STEALTH_ROCK)
                                             | TMHM2(TM101_BRUTAL_SWING)
+                                            | TMHM2(TM114_GUNK_SHOT)
                                             | TMHM2(HM01_CUT)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM06_ROCK_SMASH)),

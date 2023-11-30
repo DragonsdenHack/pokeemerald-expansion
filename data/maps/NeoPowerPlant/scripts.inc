@@ -222,6 +222,7 @@ delay 60
 playse SE_THUNDER2
 delay 40
 setflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+setflag FLAG_HIDE_BATTLE_TOWER_OPPONENT
 removeobject 7
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_3 MSGBOX_AUTOCLOSE
 delay 20

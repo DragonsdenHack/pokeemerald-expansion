@@ -1831,3 +1831,10 @@ BaseRocketHoennS2_14_NPC_Texto_1:
 	.string "propio lenguaje.$"
 
 
+Seteo_Atlas_Perder::
+lock
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
+release
+end
+
+

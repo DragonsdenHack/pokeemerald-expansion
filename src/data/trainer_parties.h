@@ -1482,7 +1482,7 @@ static const struct TrainerMonItemCustomMoves sParty_Blaine2[] = {
     .heldItem = ITEM_AIR_BALLOON,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_FIRE_BLAST, MOVE_THUNDER, MOVE_FOCUS_BLAST, MOVE_NONE}
+    .moves = {MOVE_INFERNO, MOVE_THUNDER, MOVE_FOCUS_BLAST, MOVE_NONE}
     }
 };
 
@@ -27552,7 +27552,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER139[] = {
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_THUNDER, MOVE_FOCUS_BLAST, MOVE_FIRE_BLAST, MOVE_NONE}
+    .moves = {MOVE_THUNDER, MOVE_FOCUS_BLAST, MOVE_INFERNO, MOVE_NONE}
     }
 };
 
@@ -27615,7 +27615,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER142[] = {
     .heldItem = ITEM_CHOICE_SPECS,
     .evs = {6, 0, 0, 252, 252, 0},
     .nature = NATURE_TIMID,
-    .moves = {MOVE_FIRE_BLAST, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_INFERNO, MOVE_NONE, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 255,

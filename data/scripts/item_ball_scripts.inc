@@ -2616,5 +2616,9 @@ BaseJohto_EventScript_Procket::
 finditem ITEM_CHIPPED_POT
     end
 
+Underground7F_EventScript_Condensador::
+finditem ITEM_CONDENSADOR_GAS
+    end
+
 
 

@@ -165,10 +165,6 @@ waitmovement 0x0
 msgbox Misiones_DLC_Fin_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
 delay 20
-msgbox IcePath_Llamada_Giovanni_Texto_3 MSGBOX_YESNO
-compare VAR_RESULT, 0
-goto_if_eq IcePath_Llamada_Giovanni_No
-warpsilent MAP_ROCKET_HIDEOUT_5F, 69, 4
 release
 end
 
@@ -197,9 +193,10 @@ CianwoodEusineHouse_Dialogo_Post_Mision_Texto_2:
 	.string "vosotros se confirmaron justo al irme.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_3:
-.string "Oí a tu amiga hablar sobre los POKÉMON\n"
-	.string "del maestro como información, de un tal\l"
-	.string "GIOVANNI…$"
+	.string "Oí hablar a tu amiga sobre los POKÉMON\n"
+	.string "del MAESTRO, y todos los antiguos en\l"
+	.string "general. Dijo que os serían de gran\l"
+	.string "ayuda para investigaciones futuras.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_4:
 .string "¿Pertenecéis a algún tipo de\n"

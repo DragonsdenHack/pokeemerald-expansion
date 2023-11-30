@@ -207,6 +207,9 @@ delay 10
 applymovement 5, DesertRuins_Evento_CamaraRegirock_Move_1
 applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_Move_3
 waitmovement 0x0
+msgbox DesertRuins_Evento_CamaraRegirock_Texto_31.1 MSGBOX_AUTOCLOSE
+delay 15
+msgbox DesertRuins_Evento_CamaraRegirock_Texto_32 MSGBOX_AUTOCLOSE
 delay 30
 playse SE_POKENAV_CALL
 delay 30
@@ -489,8 +492,14 @@ DesertRuins_Evento_CamaraRegirock_Texto_31:
 	.string "siguiéramos sin conocer tu nombre,\l"
 	.string "créeme.$"
 
+DesertRuins_Evento_CamaraRegirock_Texto_31.1:
+	.string "ANDRA: Se nota a leguas que ese\n"
+	.string "GROUDON y ese REGIROCK son clones,\l"
+	.string "similar a lo que hemos logrado en\l"
+	.string "BASE PROFUNDA.$"
+
 DesertRuins_Evento_CamaraRegirock_Texto_32:
-	.string "ANDRA: Bah, si eso es lo mejor de DEVON,\n"
+	.string "Pero… si eso es lo mejor de DEVON,\n"
 	.string "jamás podrán con nosotros. Los\l"
 	.string "LEGENDARIOS y MEGAS ya no son ningún\l"
 	.string "misterio para el TEAM ROCKET.$"

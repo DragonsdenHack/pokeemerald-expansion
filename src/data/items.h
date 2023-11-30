@@ -3105,7 +3105,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Fuego"),
         .itemId = ITEM_FIRE_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sFireMemoryDesc,
@@ -3119,7 +3119,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Agua"),
         .itemId = ITEM_WATER_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sWaterMemoryDesc,
@@ -3133,7 +3133,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Eléct"),
         .itemId = ITEM_ELECTRIC_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sElectricMemoryDesc,
@@ -3147,7 +3147,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Planta"),
         .itemId = ITEM_GRASS_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sGrassMemoryDesc,
@@ -3161,7 +3161,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Hielo"),
         .itemId = ITEM_ICE_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sIceMemoryDesc,
@@ -3175,7 +3175,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Lucha"),
         .itemId = ITEM_FIGHTING_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sFightingMemoryDesc,
@@ -3189,7 +3189,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Veneno"),
         .itemId = ITEM_POISON_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sPoisonMemoryDesc,
@@ -3203,7 +3203,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Tierra"),
         .itemId = ITEM_GROUND_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sGroundMemoryDesc,
@@ -3217,7 +3217,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Volador"),
         .itemId = ITEM_FLYING_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sFlyingMemoryDesc,
@@ -3231,7 +3231,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Psíquic"),
         .itemId = ITEM_PSYCHIC_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sPsychicMemoryDesc,
@@ -3245,7 +3245,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Bicho"),
         .itemId = ITEM_BUG_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sBugMemoryDesc,
@@ -3259,7 +3259,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Roca"),
         .itemId = ITEM_ROCK_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sRockMemoryDesc,
@@ -3273,7 +3273,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Fantasm"),
         .itemId = ITEM_GHOST_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sGhostMemoryDesc,
@@ -3287,7 +3287,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Dragón"),
         .itemId = ITEM_DRAGON_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sDragonMemoryDesc,
@@ -3301,7 +3301,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Siniest"),
         .itemId = ITEM_DARK_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sDarkMemoryDesc,
@@ -3315,7 +3315,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Acero"),
         .itemId = ITEM_STEEL_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sSteelMemoryDesc,
@@ -3329,7 +3329,7 @@ const struct Item gItems[] =
     {
         .name = _("Disco Hada"),
         .itemId = ITEM_FAIRY_MEMORY,
-        .price = 1000,
+        .price = 10000,
         .holdEffect = HOLD_EFFECT_MEMORY,
         .holdEffectParam = 0,
         .description = sFairyMemoryDesc,
@@ -6164,8 +6164,8 @@ const struct Item gItems[] =
     [ITEM_THROAT_SPRAY] = // Todo
     {
         .name = _("Spray Bucal"),
-        .itemId = ITEM_NONE,
-        .price = 0,
+        .itemId = ITEM_THROAT_SPRAY,
+        .price = 8000,
         .description = sThroatSprayDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -6175,8 +6175,8 @@ const struct Item gItems[] =
     [ITEM_EJECT_PACK] = // Todo
     {
         .name = _("Moch.Escape"),
-        .itemId = ITEM_NONE,
-        .price = 0,
+        .itemId = ITEM_EJECT_PACK,
+        .price = 12000,
         .description = sEjectPackDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -6186,8 +6186,8 @@ const struct Item gItems[] =
     [ITEM_HEAVY_DUTY_BOOTS] = // Todo
     {
         .name = _("Botas Gruesas"),
-        .itemId = ITEM_NONE,
-        .price = 0,
+        .itemId = ITEM_HEAVY_DUTY_BOOTS,
+        .price = 20000,
         .description = sHeavyDutyBootsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -6197,8 +6197,8 @@ const struct Item gItems[] =
     [ITEM_BLUNDER_POLICY] = // Todo
     {
         .name = _("Seguro Fallo"),
-        .itemId = ITEM_NONE,
-        .price = 0,
+        .itemId = ITEM_BLUNDER_POLICY,
+        .price = 2000,
         .description = sBlunderPolicyDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -6208,8 +6208,8 @@ const struct Item gItems[] =
     [ITEM_ROOM_SERVICE] = // Todo
     {
         .name = _("Servicio Raro"),
-        .itemId = ITEM_NONE,
-        .price = 0,
+        .itemId = ITEM_ROOM_SERVICE,
+        .price = 5000,
         .description = sRoomServiceDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -6219,8 +6219,8 @@ const struct Item gItems[] =
     [ITEM_UTILITY_UMBRELLA] = // Todo
     {
         .name = _("Par.Multiuso"),
-        .itemId = ITEM_NONE,
-        .price = 0,
+        .itemId = ITEM_UTILITY_UMBRELLA,
+        .price = 9000,
         .description = sUtilityUmbrellaDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
