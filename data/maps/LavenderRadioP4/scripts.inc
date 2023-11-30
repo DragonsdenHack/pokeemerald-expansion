@@ -330,7 +330,7 @@ applymovement 10, LavenderRadioP4_Devon_Combates_Move_21
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_37 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CMIGUEL_4, LavenderRadioP4_Devon_Combates_Texto_38
-playbgm 567, FALSE
+playbgm 627, FALSE
 delay 10
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_24
 msgbox LavenderRadioP4_Devon_Combates_Texto_39 MSGBOX_AUTOCLOSE
@@ -452,7 +452,7 @@ msgbox LavenderRadioP4_Devon_Combates_Texto_55 MSGBOX_AUTOCLOSE
 playmoncry SPECIES_MEWTWO, CRY_MODE_ENCOUNTER
 waitmoncry
 trainerbattle_no_intro TRAINER_TRAINER_146, LavenderRadioP4_Devon_Combates_Texto_56
-playbgm 567, FALSE
+playbgm 627, FALSE
 applymovement 10, LavenderRadioP4_Devon_Combates_Move_35
 waitmovement 0x0
 msgbox LavenderRadioP4_Devon_Combates_Texto_57 MSGBOX_AUTOCLOSE

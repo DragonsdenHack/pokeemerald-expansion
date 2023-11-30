@@ -7038,10 +7038,10 @@ const struct Item gItems[] =
 
     [ITEM_ROWAP_BERRY] =
     {
-        .name = _("Baya Magua"),
+        .name = _("Gen loco"),
         .itemId = ITEM_ROWAP_BERRY,
         .price = 20,
-        .holdEffect = HOLD_EFFECT_ROWAP_BERRY,
+        .holdEffect = HOLD_EFFECT_GEN_LOCO,
         .description = sRowapBerryDesc,
         .pocket = POCKET_BERRIES,
         .type = ITEM_USE_BAG_MENU,

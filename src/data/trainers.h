@@ -11442,7 +11442,7 @@ const struct Trainer gTrainers[] = {
         .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MIGUEL_1,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_SAILOR,
+        .trainerPic = TRAINER_PIC_MIGUEL,
         .trainerName = _("MIGUEL"),
         .items = {},
         .doubleBattle = FALSE,
@@ -14057,16 +14057,16 @@ const struct Trainer gTrainers[] = {
 
     [TRAINER_TRAINER_146] =
     {
-        .partyFlags = F_TRAINER_PARTY_CUSTOM_MOVESET,
+        .partyFlags = F_TRAINER_PARTY_HELD_ITEM | F_TRAINER_PARTY_CUSTOM_MOVESET,
         .trainerClass = TRAINER_CLASS_MIGUEL_2,
         .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_MALE,
-        .trainerPic = TRAINER_PIC_LEADER_PEGASO_2,
+        .trainerPic = TRAINER_PIC_MIGUEL,
         .trainerName = _("MIGUEL"),
         .items = {},
         .doubleBattle = FALSE,
-        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN | AI_FLAG_SMART_SWITCHING,
+        .aiFlags = AI_FLAG_CHECK_BAD_MOVE | AI_FLAG_TRY_TO_FAINT | AI_FLAG_CHECK_VIABILITY | AI_FLAG_SETUP_FIRST_TURN,
         .partySize = ARRAY_COUNT(sParty_TRAINER146),
-        .party = {.NoItemCustomMoves = sParty_TRAINER146},
+        .party = {.ItemCustomMoves = sParty_TRAINER146},
     },
 
     [TRAINER_TRAINER_147] =

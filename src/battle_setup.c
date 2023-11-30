@@ -884,6 +884,9 @@ u8 GetTrainerBattleTransition(void)
     if (gTrainerBattleOpponent_A == TRAINER_MIRTO)
         return B_TRANSITION_MIRTO;
 
+        if (gTrainerBattleOpponent_A == TRAINER_CMIGUEL_4)
+        return B_TRANSITION_MIGUEL;
+
     if (gTrainerBattleOpponent_A == TRAINER_LANCE_2)
         return B_TRANSITION_LANCE;
 

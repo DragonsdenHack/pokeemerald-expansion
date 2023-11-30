@@ -8537,6 +8537,10 @@ static u32 CalcAttackStat(u16 move, u8 battlerAtk, u8 battlerDef, u8 moveType, b
         if (gBattleMons[battlerAtk].species == SPECIES_GLISCOR && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));
         break;
+    case HOLD_EFFECT_GEN_LOCO:
+        if (gBattleMons[battlerAtk].species == SPECIES_MEWTWO_ARM && IS_MOVE_PHYSICAL(move))
+            MulModifier(&modifier, UQ_4_12(2.0));
+        break;
     case HOLD_EFFECT_RAZOR_CLAW:
         if (gBattleMons[battlerAtk].species == SPECIES_WEAVILE && IS_MOVE_PHYSICAL(move))
             MulModifier(&modifier, UQ_4_12(1.3));

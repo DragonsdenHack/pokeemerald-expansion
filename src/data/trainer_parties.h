@@ -27727,12 +27727,13 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER145[] = {
     }
 };
 
-static const struct TrainerMonNoItemCustomMoves sParty_TRAINER146[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER146[] = {
     {
     .iv = 255,
     .lvl = 115,
     .species = SPECIES_MEWTWO_ARM,
-    .evs = {0, 0, 128, 252, 0, 128},
+    .heldItem = ITEM_ROWAP_BERRY,
+    .evs = {252, 252, 252, 252, 252, 252},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_DRAIN_PUNCH, MOVE_PSYCHO_CUT, MOVE_ROCK_SLIDE, MOVE_TAUNT}
     }
