@@ -4755,6 +4755,7 @@ applymovement 1, RocketHideout_8F_Final_DLC_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Final_DLC_Texto_21 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 216
+delay 50
 warpsilent MAP_DEVON_S9, 40, 7
 release
 end

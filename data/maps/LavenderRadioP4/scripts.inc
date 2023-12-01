@@ -883,7 +883,7 @@ LavenderRadioP4_Devon_Combates_Texto_2:
 
 LavenderRadioP4_Devon_Combates_Texto_3:
 .string "El resto de pisos, desde el tercero al\n"
-	.string "séptimo, están 100% dedicados a\l"
+	.string "décimo, están 100% dedicados a\l"
 	.string "incrementar el rendimiento de un\l"
 	.string "POKÉMON a través de explotar las ondas\l"
 	.string "de radio.$"

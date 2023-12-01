@@ -2,7 +2,7 @@
   "id": "MAP_LAVENDER_RADIO_P4",
   "name": "LavenderRadioP4",
   "layout": "LAYOUT_LAVENDER_RADIO_P4",
-  "music": "627",
+  "music": "560",
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

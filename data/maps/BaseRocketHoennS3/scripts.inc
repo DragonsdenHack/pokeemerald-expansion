@@ -556,16 +556,16 @@ BaseRocketHoennS3Documento_Text_117:
 	.string "FORMAS PRIMIGENIAS. Con acceso al\l"
 	.string "FURIA CANDENTE de MOLTRES GALAR,\l"
 	.string "junto con RAYO pegará duro por STAB.\l"
-	.string "Únicamente débil al LUCHA y HADA\l"
-	.string "gracias a LEVITACIÓN, tiene en\l"
-	.string "AEROCHORRO la cobertura perfecta para\l"
-	.string "el primero.$"
+	.string "Gracias a ELECTROGÉNESIS, sus descar-\l"
+	.string "gas eléctricas se convierten en las\l"
+	.string "más poderosas conocidas en el MUNDO\l"
+	.string "POKÉMON.$"
 
 
 
 BaseRocketHoennS3Documento_118::
 lock     
-showmonpic SPECIES_NINETALES, 10, 3  
+showmonpic SPECIES_NINETALES_BOND, 10, 3  
 playmoncry SPECIES_NINETALES, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_118, MSGBOX_DEFAULT
 hidemonpic
@@ -739,8 +739,7 @@ BaseRocketHoennS3Documento_Text_123:
 	.string "DEFENSA ESPECIAL: 150\l"
 	.string "VELOCIDAD: 135\l"
 	.string "TOTAL: 740\p"
-	.string "NORMAL/FANTASMA\n"
-	.string "combate jamás creadas.$"
+	.string "NORMAL/FANTASMA$"
 
 BaseRocketHoennS3Documento_124::
 lock
@@ -762,8 +761,7 @@ BaseRocketHoennS3Documento_Text_124:
 	.string "DEFENSA ESPECIAL: 95\l"
 	.string "VELOCIDAD: 115\l"
 	.string "TOTAL: 602\p"
-	.string "ELÉCTRICO/VENENO\n"
-	.string "combate jamás creadas.$"
+	.string "ELÉCTRICO/VENENO$"
 
 BaseRocketHoennS3_Primer_Ejecutivo::
 lock

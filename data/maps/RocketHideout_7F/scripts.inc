@@ -1849,7 +1849,7 @@ RocketHideout7FDocumento_Text_141:
 	.string "con su ENTRENADOR y a las décadas de\l"
 	.string "reclusión. Todo ello lo volvió inmune a\l"
 	.string "cualquier cambio de estado, lo que\l"
-	.string "unico a BARRERA y RECUPERACIÓN, puede\l"
+	.string "unido a BARRERA y RECUPERACIÓN, puede\l"
 	.string "volverlo un POKÉMON indestructible.$"
 
 

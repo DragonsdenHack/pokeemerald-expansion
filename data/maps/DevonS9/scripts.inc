@@ -138,7 +138,7 @@ delay 40
 setvar VAR_TEMP_1, 1
 call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
 checkplayergender
-goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
+goto EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end
 release
