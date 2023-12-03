@@ -55,10 +55,9 @@ release
 end
 
 OneIsland_PokemonCenter_Text_4:
-.string "¡Eh, tú no eres de aquí!\n"
-.string "¿De dónde vienes?\p"
-.string "¿ISLA INTA?…\n"
-.string "¡Eso está aquí al lado!$"
+	.string "Eh, you are not from here? Where did you\n"
+	.string "come from? CHRONO ISLAND?... That's not\l"
+	.string "far from here.$"
 
 
 
@@ -70,12 +69,12 @@ release
 end
 
 OneIsland_PokemonCenter_Text_5:
-.string "La gente como tú no pinta nada\n"
-.string "aquí, BILL me habló de vosotros\l"
-.string "ROCKET, y del lastre que sois\l"
-.string "para la región, más te vale no\l"
-.string "permanecer en esta isla mucho\l"
-.string "tiempo si no quieres problemas.$"
+	.string "This is not a place for people like you,\n"
+	.string "BILL informed me about you, TEAM\l"
+	.string "ROCKET, and the troublemakers you've\l"
+	.string "been in the region. I suggest you don't\l"
+	.string "linger on this island for too long if you\l"
+	.string "want to avoid any problems.$"
 
 
 
@@ -87,18 +86,14 @@ release
 end
 
 OneIsland_PokemonCenter_Text_6:
-.string "Mi maestro CELIO pagó muchos\n"
-.string "millones de POKÉS en el mercado\l"
-.string "negro para poder tener tanto el\l"
-.string "RUBÍ como el ZAFIRO que necesitaba\l"
-.string "para su gran proyecto.\l"
-.string "Instalamos nuestra máquina aquí\l"
-.string "precisamente por la supuesta\l"
-.string "existencia de estos minerales en\l"
-.string "ISLAS SETE, sin embargo, jamás\l"
-.string "pudimos encontrarlos, y no nos\l"
-.string "quedó más remedio que pedirle un\l"
-.string "préstamo a BILL…$"
+	.string "My master CELIO paid millions POKÉS in\n"
+	.string "the black market to have both RUBY and\l"
+	.string "SAPPHIRE which he needed for his grand\l"
+	.string "project. We installed our machine due to\l"
+	.string "the supposed existence of these ores\l"
+	.string "in SEVII ISLANDS, however we never\l"
+	.string "found it, and we had no other choice but\l"
+	.string "to ask BILL for a loan…$"
 
 
 
@@ -109,7 +104,7 @@ release
 end
 
 OneIsland_PokemonCenter_Text_7:
-.string "¿Será cierta la leyenda…?$"
+.string "Will the legend be true…?$"
 
 
 
@@ -120,8 +115,8 @@ release
 end
 
 OneIsland_PokemonCenter_Text_8:
-.string "No puedo esperar a ver qué esconde ese\n"
-	.string "recóndito lugar…$"
+	.string "I can't wait to see what that place\n"
+	.string "hides…$"
 
 
 
@@ -146,16 +141,15 @@ walk_in_place_right
 step_end
 
 OneIsland_PokemonCenter_Text_9:
-	.string "????: Todo está preparado. El resto de\n"
-	.string "científicos y seguridad de DEVON nos\l"
-	.string "acompañarán también. Recordad, no solo\l"
-	.string "vamos en busca del gran tesoro. Las\l"
-	.string "leyendas hablan de una variedad de\l"
-	.string "POKÉMON sin igual en esa gruta\l"
-	.string "submarina. Una suerte para nosotros\l"
-	.string "que haya permanecido tan bien\l"
-	.string "escondida entre las rocas del sur de\l"
-	.string "PLAYA TESORO…$"
+	.string "????: Everything is prepared. The rest\n"
+	.string "of scientists and DEVON security will\l"
+	.string "join us too. Remember, we are not just\l"
+	.string "going to search for the big treasure.\l"
+	.string "Legends talk about a big variety of\l"
+	.string "peerless POKÉMON in that underwater\l"
+	.string "grotto. We are so lucky that it was so\l"
+	.string "hidden between the south rocks at\l"
+	.string "TREASURY BEACH…$"
 
 
 CuevaTesoro_Activador_Entrada::
@@ -182,9 +176,9 @@ CuevaTesoro_Activador_Entrada_Texto_1:
 .string "... ...$"
 
 CuevaTesoro_Activador_Entrada_Pasa_Text_YesNo:
-.string "Hay una pequeña endidura entre las\n"
-	.string "rocas, parece que se alarga varios\l"
-	.string "metros. ¿Quieres cruzarla?$"
+	.string "It seems that there is a small opening\n"
+	.string "in the rocks, extending several meters.\l"
+	.string "Do you want to cross it?$"
 
 CuevaTesoro_Activador_Entrada_Pasa_Move_1:
 emote_exclamation_mark

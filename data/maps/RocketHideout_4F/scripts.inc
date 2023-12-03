@@ -1263,18 +1263,17 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_22:
 	.string "time.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_23:
-.string "AZUL: ¡Hmph!\n"
-	.string "Revertiré las tornas respecto a\l"
-	.string "ROJO, ya lo veréis.$"
+.string "BLUE: Hmph!\n"
+	.string "I will turn the table against RED, you\l"
+	.string "are going to see.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_24:
-.string "GIOVANNI: Algo arrogante y\n"
-	.string "prepotente, pero con potencial...\l"
-	.string "PROTÓN se reunirá en breves\l"
-	.string "contigo {PLAYER}, adelántate junto\l"
-	.string "con el resto de RECLUTAS para\l"
-	.string "iniciar el señuelo de los CUBONES\l"
-	.string "y atraer a FUJI, cuento contigo.$"
+	.string "GIOVANNI: A bit arrogant and\n"
+	.string "prepotent, but has a big potential…\l"
+	.string "PROTON will meet you soon {PLAYER},\l"
+	.string "get ahead along all the rest of GRUNTS\l"
+	.string "to start with the CUBONES lure and\l"
+	.string "attract FUJI, I count on you.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Move_1:
 walk_up
@@ -1537,22 +1536,19 @@ release
 end
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_1:
-.string "¡AVISO A TODOS LOS RECLUTAS!\n"
-	.string "¡Un ENTRENADOR misterioso vestido\l"
-	.string "de ROJO se ha infiltrado en\l"
-	.string "nuestra BASE!$"
+	.string "WARNING TO ALL GRUNTS! A mysterious\n"
+	.string "TRAINER dressed as RED has infiltrated\l"
+	.string "into our BASE!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_2:
-.string "GIOVANNI: Vaya, no hará falta\n"
-	.string "seguir espiándolo para obtener\l"
-	.string "información sobre él, se ha metido\l"
-	.string "en la boca del lobo.$"
+	.string "GIOVANNI: Oh, we don't need to keep\n"
+	.string "spying to get information about him, he\l"
+	.string "just came to the lion's den.$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_3:
-.string "RECLUTA: ¡Señor órdenes!\n"
-	.string "¡Todos nosotros estamos cayendo\l"
-	.string "como fichas de dominó ante la\l"
-	.string "potencia de sus POKÉMON!$"
+	.string "GRUNT: Sir orders! All of us are falling\n"
+	.string "as dominoes tokens against their\l"
+	.string "POKÉMONs power!$"
 
 RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Text_4:
 .string "PROTÓN: ¡Llamad a todos los\n"

@@ -9,14 +9,14 @@ release
 end
 
 OneIsland_Text_1:
-.string "¿Cómo?\n"
-.string "¿KANTO?\l"
-.string "¡Esto es isla prima chico!\l"
-.string "¡Te has equivocado de destino!\l"
-.string "¡No te preocupes, justo iba para\l"
+.string "Eh?\n"
+.string "KANTO?\l"
+.string "This is KNOT ISLAND boy!\l"
+.string "You came to the wrong destination!\l"
+.string "Do not worry, I was about to go to\l"
 .string "KANTO!\l"
-.string "¡Tienes suerte de que pueda\l"
-.string "llevarte!$"
+.string "You are so lucky to have me to\l"
+.string " get you to KANTO!$"
 
 
 OneIsland2::

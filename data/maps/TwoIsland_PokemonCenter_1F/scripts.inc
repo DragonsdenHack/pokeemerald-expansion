@@ -27,10 +27,9 @@ release
 end
 
 TwoIsland_PokemonCenter_Text_2:
-.string "¿Quieres atrapar a todos los\n"
-.string "POKéMON que te encuentres?\p"
-.string "¡Qué increíble!… ¡Oye, pues\n"
-.string "avísame si atrapas alguno fuerte!$"
+	.string "Do you want to catch all the POKéMON\n"
+	.string "you come across? Incredible!… Hey, let\l"
+	.string "me know if you catch any strong ones!$"
 
 
 
@@ -42,5 +41,5 @@ release
 end
 
 TwoIsland_PokemonCenter_Text_3:
-.string "Voy a preparar una comida para\n"
-.string "una persona muy importante.$"
+	.string "I will cook a meal for someone very\n"
+	.string "important.$"

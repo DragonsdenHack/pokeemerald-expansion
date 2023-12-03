@@ -9,8 +9,9 @@ release
 end
 
 TwoIsland_Torre_P1_Primer_Motero_Texto_1:
-.string "Vamos a convertir esta isla en el centro\n"
-	.string "de Sevii. ¿De qué se quejan tanto?$"
+	.string "We will turn this island into SEVII main\n"
+	.string "place. What are they complaining so\l"
+	.string "much about?$"
 
 TwoIsland_Torre_P1_Segundo_Motero::
 lock
@@ -20,7 +21,7 @@ release
 end
 
 TwoIsland_Torre_P1_Segundo_Motero_Texto_1:
-.string "Estas cosas no son lo mío...$"
+.string "This kind of stuff it's not for me…$"
 
 TwoIsland_Torre_P1_Trabajador::
 lock
@@ -30,10 +31,10 @@ release
 end
 
 TwoIsland_Torre_P1_Trabajador_Texto_1:
-.string "¿Quién eres tú?\n"
-	.string "Mientras me dejes trabajar en paz no\l"
-	.string "te haré nada, ya se encargarán otros\l"
-	.string "de ti.$"
+.string "Who are you?\n"
+	.string "As long as you leave me working alone, I\l"
+	.string "won't do anything to you for now,\l"
+	.string "someone else will deal with you.$"
 
 TwoIsland_Torre_P1_Cientifico::
 lock
@@ -43,7 +44,8 @@ release
 end
 
 TwoIsland_Torre_P1_Cientifico_Texto_1:
-.string "Es una suerte que en estas islas solo\n"
-	.string "existan POKÉMON de KANTO y JOHTO.\l"
-	.string "Vamos a ganar una fortuna trayendo\l"
-	.string "POKÉMON de una región lejana.$"
+	.string "We are so lucky that in these islands\n"
+	.string "there are just POKÉMON from KANTO and\l"
+	.string "JOHTO. We will earn a lot of money by\l"
+	.string "bringing POKÉMON from a far away\l"
+	.string "region.$"

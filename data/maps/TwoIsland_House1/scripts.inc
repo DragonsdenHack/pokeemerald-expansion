@@ -42,25 +42,26 @@ unlock_facing_direction
 step_end
 
 TwoIslandHouse1_Texto_1:
-.string "¿Y a tí qué te pasa? ¿No ves que\n"
-	.string "estamos en obras? ¡Vuelve cuando\l"
-	.string "hayamos abierto oficialmente!$"
+	.string "What is wrong with you? Don't you see we\n"
+	.string "are building? Come back when we\l"
+	.string "officially open!$"
 
 TwoIslandHouse1_Texto_2:
 .string "… …$"
 
 TwoIslandHouse1_Texto_3:
-.string "¿Entrar aquí por la fuerza? ¡Vas a ver\n"
-	.string "cómo te echo a patadas de aquí!$"
+	.string "Do you enter here by force? I will show\n"
+	.string "you how to get kicked out of here!$"
 
 TwoIslandHouse1_Texto_4:
-.string "Espera, ¿qué?$"
+.string "Wait, what?$"
 
 TwoIslandHouse1_Texto_5:
-.string "¿Quién eres tú? Debo avisar al JEFE, no\n"
-	.string "sabes dónde te metes. Si fuera tú,\l"
-	.string "cogía el primer SURCAMAR con destino a\l"
-	.string "CARMÍN cuanto antes.$"
+	.string "Who are you? I must warn the BOSS, you\n"
+	.string "don't know who you are dealing with. If\l"
+	.string "I were you, I would take the first\l"
+	.string "SEAGALLOP to VERMILION as soon as\l"
+	.string "possible.$"
 
 TwoIslandHouse_Primer_Motero::
 lock
@@ -70,10 +71,10 @@ release
 end
 
 TwoIslandHouse_Primer_Motero_Texto_1:
-.string "¡Jah!\n"
-	.string "¡Mira cómo rayo el suelo con mi moto!\l"
-	.string "¡Qué más da, si vamos a echarlo abajo\l"
-	.string "de todos modos!$"
+.string "Hah!\n"
+	.string "Look how I scratch the ground with my\l"
+	.string "motorcycle! What does it matter, we will\l"
+	.string "take it down anyways!$"
 
 TwoIslandHouse_Segundo_Motero::
 lock
@@ -83,10 +84,9 @@ release
 end
 
 TwoIslandHouse_Segundo_Motero_Texto_1:
-.string "Esto va a ser la bomba, por fin\n"
-	.string "tendremos un lugar decente en el que\l"
-	.string "pasar el rato dentro de estas\l"
-	.string "insípidas islas.$"
+	.string "This will be so cool, we will finally have\n"
+	.string "a decent place to waste the time on\l"
+	.string "these boring islands.$"
 
 TwoIslandHouse_Tercer_Motero::
 lock
@@ -96,8 +96,8 @@ release
 end
 
 TwoIslandHouse_Tercer_Motero_Texto_1:
-.string "¿Qué estás mirando?\n"
-	.string "¡Largo de aquí chaval!$"
+.string "What are you looking for?\n"
+	.string "Get away from here, kid!$"
 
 TwoIslandHouse_Cuarto_Motero::
 lock
@@ -107,8 +107,8 @@ release
 end
 
 TwoIslandHouse_Cuarto_Motero_Texto_1:
-.string "A mí déjame en paz, solo me encargo de\n"
-	.string "mover la mercancía.$"
+	.string "Leave me alone, I am just moving the\n"
+	.string "merchandise.$"
 
 TwoIslandHouse1_Domador::
 lock
@@ -118,8 +118,8 @@ release
 end
 
 TwoIslandHouse1_Domador_Texto_1:
-.string "¡No puedo creerlo! ¡Le diste una paliza\n"
-	.string "a todos, eres increíble!$"
+	.string "I can't believe it! You beat everyone,\n"
+	.string "you are incredible!$"
 
 TwoIslandHouse1_PadrePedrita::
 lock
@@ -152,34 +152,34 @@ end
 
 
 TwoIslandHouse1_PadrePedrita_Texto_1:
-.string "Has salvado nuestro negocio, no solo\n"
-	.string "nuestro negocio, también a esta isla de\l"
-	.string "perder la paz y tranquilidad que le\l"
-	.string "caracteriza.$"
+	.string "You saved our business, not just ours,\n"
+	.string "but this island too from losing the\l"
+	.string "peace and tranquility that\l"
+	.string "characterizes it.$"
 
 TwoIslandHouse1_PadrePedrita_Texto_2:
-.string "Esos hombres querían convertir este\n"
-	.string "lugar en un centro turístico para\l"
-	.string "llenarse los bolsillos. Se fueron con\l"
-	.string "tanta prisa que olvidaron varios de los\l"
-	.string "POKÉMON que querían vender como\l"
-	.string "premios.$"
+	.string "Those men wanted to transform this\n"
+	.string "place into a tourist place to fill their\l"
+	.string "pockets. They left so quickly that they\l"
+	.string "forgot many POKÉMON they intended to\l"
+	.string "sell as prizes.$"
 
 TwoIslandHouse1_PadrePedrita_Texto_3:
-.string "Creo que contigo estarán mejor, toma.$"
+	.string "I think they will be better off with you,\n"
+	.string "take them.$"
 
 TwoIslandHouse1_PadrePedrita_Texto_4:
-.string "¡¡OBTUVISTE UN CRANIDOS AL NV.25!!$"
+.string "YOU RECEIVED A LV:25 CRANIDOS!!$"
 
 TwoIslandHouse1_PadrePedrita_Texto_5:
-.string "¡¡OBTUVISTE UN SKORUPI AL NV.35!!$"
+.string "YOU RECEIVED A LV:35 SKORUPI!!$"
 
 TwoIslandHouse1_PadrePedrita_Texto_6:
-.string "¡¡OBTUVISTE UN PIPLUP AL NV.15!!$"
+.string "YOU RECEIVED A LV:15 PIPLUP!!$"
 
 TwoIslandHouse1_PadrePedrita_Texto_7:
-.string "Prometo trabajar como nunca para hacer\n"
-	.string "de este lugar lo que siempre debió ser:\l"
-	.string "¡el lugar de atracción perfecto para\l"
-	.string "niños de 10 años!$"
+	.string "I promise to work so hard to make this\n"
+	.string "place what it always should have been.\l"
+	.string "The perfect theme park for 10 year old\l"
+	.string "children!$"
 	
