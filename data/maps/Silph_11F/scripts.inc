@@ -300,7 +300,7 @@ Silph_11F_Bill_Presidente_Texto_2.2:
 .string "... ...$"
 
 Silph_11F_Bill_Presidente_Texto_2.3:
-.string "Así que el Archi7... Ya entiendo, déjame\n"
+.string "Así que el ARCHI7... Ya entiendo, déjame\n"
 	.string "decirte algo: no has visto nada de esta\l"
 	.string "región aún. Los POKÉMON de KANTO, los\l"
 	.string "de verdad, no son como esos débiles\l"

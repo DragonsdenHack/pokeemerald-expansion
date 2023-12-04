@@ -4572,6 +4572,7 @@ msgbox RocketHideout_8F_Mision_Central_Energia_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_15 MSGBOX_AUTOCLOSE
+setflag FLAG_UNUSED_0x272
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 fadescreen 1
 delay 20
