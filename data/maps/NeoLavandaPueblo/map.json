@@ -182,8 +182,8 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_SILPH_7F",
-      "dest_warp_id": 1
+      "dest_map": "MAP_NEO_LAVANDA_TIENDA",
+      "dest_warp_id": 0
     },
     {
       "x": 18,
@@ -215,7 +215,7 @@
     {
       "type": "trigger",
       "x": 0,
-      "y": 5,
+      "y": 6,
       "elevation": 0,
       "var": "VAR_TEMP_0",
       "var_value": "0",

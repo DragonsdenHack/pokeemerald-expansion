@@ -556,7 +556,8 @@ NeoLavandaPueblo_Prueba::
 lock
 setvar VAR_UNUSED_0x40F7, 74
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-changeavatar 2
+addmoney 99999999
+changeavatar 5
 release
 end
 

@@ -817,7 +817,7 @@ Ruta_111_Evento_Andra_Texto_1:
 
 Ruta_111_Evento_Andra_Texto_2:
 .string "Encontré la forma de pasar, sin\n"
-	.string "perturbar el orden de este santurario,\l"
+	.string "perturbar el orden de este santuario,\l"
 	.string "¡sígueme!$"
 
 

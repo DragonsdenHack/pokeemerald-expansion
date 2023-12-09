@@ -3,6 +3,8 @@ PokemonLeague_5F_MapScripts::
 
 PokemonLeague_5F_Azul_Rojo::
 lockall
+clearflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+addobject 13
 applymovement OBJ_EVENT_ID_PLAYER, PokemonLeague_5F_Azul_Rojo_Move_1
 waitmovement 0x0
 playse SE_PIN
