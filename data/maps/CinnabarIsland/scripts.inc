@@ -1,6 +1,11 @@
 CinnabarIsland_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, CinnabarIsland_OnFrame
+map_script MAP_SCRIPT_ON_TRANSITION, CinnabarIsland_OnTransition
     .byte 0
+
+CinnabarIsland_OnTransition::
+setflag FLAG_VISITED_CINNABAR_ISLAND
+end
 
 CinnabarIsland_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 81, CinnabarIsland_Escena_8

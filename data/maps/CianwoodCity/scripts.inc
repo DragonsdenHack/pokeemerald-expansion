@@ -1,7 +1,12 @@
 CianwoodCity_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, CianwoodCity_OnTransition
 map_script MAP_SCRIPT_ON_FRAME_TABLE, CianwoodCity_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, CianwoodCity_OnFrame
 	.byte 0
+	
+CianwoodCity_OnTransition::
+setflag FLAG_VISITED_CIANWOOD_CITY
+end	
 
 CianwoodCity_OnFrame:
 map_script_2 VAR_VERDANTURF_TOWN_STATE, 18, CianwoodCity_Miguel_Warp
