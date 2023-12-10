@@ -1,11 +1,6 @@
 LavenderTown_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, LavenderTown_OnFrame
-map_script MAP_SCRIPT_ON_TRANSITION, LavenderTown_OnTransition
 	.byte 0
-
-LavenderTown_OnTransition::
-setflag FLAG_VISITED_LAVENDER_TOWN
-end
 
 LavenderTown_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 185, LavenderTown_Cierre_Torre

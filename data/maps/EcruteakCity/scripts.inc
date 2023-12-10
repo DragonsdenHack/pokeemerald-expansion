@@ -1,11 +1,6 @@
 EcruteakCity_MapScripts::
-map_script MAP_SCRIPT_ON_TRANSITION, EcruteakCity_OnTransition
 map_script MAP_SCRIPT_ON_FRAME_TABLE, EcruteakCity_OnFrame
 	.byte 0
-
-EcruteakCity_OnTransition::
-setflag FLAG_VISITED_ECRUTEAK_CITY
-end
 
 EcruteakCity_OnFrame:
 map_script_2 VAR_UNUSED_0x40FE, 3, Ecruteak_Conversacion_Agatha_Oak

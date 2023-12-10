@@ -472,6 +472,15 @@ static const struct MapPreviewScreen sMapPreviewScreenData[MPS_COUNT] =
         .tilemapptr = sPokemonTowerMapPreviewTilemap,
         .palptr = sPokemonTowerMapPreviewPalette
     },
+	[MPS_MT_SILVER] = 
+    {
+        .mapsec = MAPSEC_MT_SILVER,
+        .type = MPS_TYPE_CAVE,
+        //.flagId = FLAG_WORLD_MAP_SIX_ISLAND_DOTTED_HOLE_1F,
+        .tilesptr = sDottedHoleMapPreviewTiles,
+        .tilemapptr = sDottedHoleMapPreviewTilemap,
+        .palptr = sDottedHoleMapPreviewPalette
+    },
 	[MPS_LAVENDER_RADIO_TOWER] = 
     {
         //.mapsec = MAPSEC_VIAPOIS_CHAMBER,

@@ -1,10 +1,5 @@
 RocketHideout_Johto_MapScripts::
-map_script MAP_SCRIPT_ON_TRANSITION, RocketHideout_Johto_OnTransition
 	.byte 0
-	
-RocketHideout_Johto_OnTransition::
-setflag FLAG_VISITED_ROCKET_HIDEOUT_JOHTO
-end	
 
 RocketHideoutJohto1::
 end

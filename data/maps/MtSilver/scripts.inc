@@ -1,10 +1,6 @@
 MtSilver_MapScripts::
-map_script MAP_SCRIPT_ON_TRANSITION, MtSilver_OnTransition
 	.byte 0
-	
-MtSilver_OnTransition::
-setflag FLAG_VISITED_MT_SILVER
-end
+
 
 MtSilverDocumento_100::
 msgbox MtSilverDocumento_Text_100, MSGBOX_SIGN   

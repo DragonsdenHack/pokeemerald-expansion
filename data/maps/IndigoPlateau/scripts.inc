@@ -1,13 +1,8 @@
 IndigoPlateau_MapScripts::
-map_script MAP_SCRIPT_ON_TRANSITION, IndigoPlateau_OnTransition
 map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, IndigoPlateau_OnResume
 map_script MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_OnFrame
 map_script MAP_SCRIPT_ON_FRAME_TABLE, IndigoPlateau_OnFrame
 	.byte 0
-
-IndigoPlateau_OnTransition::
-setflag FLAG_VISITED_INDIGO_PLATEAU
-end
 
 IndigoPlateau_OnResume:
 map_script_2 VAR_UNUSED_0x40DC, 11, IndigoPlateau_2

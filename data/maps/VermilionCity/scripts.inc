@@ -1,10 +1,5 @@
 VermilionCity_MapScripts::
-map_script MAP_SCRIPT_ON_TRANSITION, VermillionCity_OnTransition
 	.byte 0
-
-VermillionCity_OnTransition::
-setflag FLAG_VISITED_VERMILION_CITY
-end
 
 VermilionCity1::
 lock     

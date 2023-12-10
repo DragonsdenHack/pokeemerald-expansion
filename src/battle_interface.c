@@ -2960,14 +2960,14 @@ static void PrintBattlerOnAbilityPopUp(u8 battlerId, u8 spriteId1, u8 spriteId2)
     if (*(name - 1) == EOS)
         name--;
 
-    // lastChar = *(name - 1);
-    // name[0] = CHAR_SGL_QUOTE_RIGHT; // apostraphe
-    // name++;
-    // if (lastChar != CHAR_S && lastChar != CHAR_s)
-    // {
-        // name[0] = CHAR_s;
-        // name++;
-    // }
+    lastChar = *(name - 1);
+    name[0] = CHAR_SGL_QUOTE_RIGHT; // apostraphe
+    name++;
+    if (lastChar != CHAR_S && lastChar != CHAR_s)
+    {
+        name[0] = CHAR_s;
+        name++;
+    }
 
     name[0] = EOS;
     PrintOnAbilityPopUp((const u8 *)monName,
