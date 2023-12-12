@@ -7961,19 +7961,18 @@ Route19_Nadador6PostBattle:
 
 
 Route19_Text_Nadador7Intro:
-	.string "¡Ten cuidado!\n"
-	.string "¡Estas aguas son traicioneras!$"
+    .string "Ahoy, there!\n"
+    .string "These waters are treacherous!$"
 
 
 Route19_Text_Nadador7Defeated:
-	.string "¡Ooh!\n"
-	.string "¡Peligro!$"
+    .string "Ooh!\n"
+    .string "Dangerous!$"
 
 
 Route19_Nadador7PostBattle:
-	.string "¡M-mis piernas!\n"
-	.string "¡Se han quedado enganchadas!\l"
-	.string "Glub, glub...$"
+    .string "M-my legs! They cramped up!\n"
+    .string "Glub, glub…$"
 
 
 Route19_Text_NadadoraIntro:
@@ -8011,17 +8010,17 @@ Route19_Nadadora2PostBattle:
 
 
 Route19_Text_Nadadora3Intro:
-	.string "¡Nadar es genial!\n"
-	.string "¡Las quemaduras no!$"
+    .string "Swimming's great!\n"
+    .string "Sunburns aren't!$"
 
 
 Route19_Text_Nadadora3Defeated:
-	.string "¡Shocker!$"
+    .string "Shocker!$"
 
 
 Route19_Nadadora3PostBattle:
-	.string "Mi novio quería ir nadando hasta\n"
-	.string "las ISLAS ESPUMA.$"
+    .string "My boyfriend wanted to swim to\n"
+    .string "SEAFOAM ISLANDS.$"
 
 
 Route20_Text_NadadorIntro:
@@ -8040,34 +8039,31 @@ Route20_NadadorPostBattle:
 
 
 Route20_Text_Nadador2Intro:
-	.string "¿Por qué estás montado en un\n"
-	.string "POKÉMON?\l"
-	.string "¿Es que no sabes nadar?$"
+    .string "Why are you riding a POKéMON?\n"
+    .string "Can't you swim?$"
 
 
 Route20_Text_Nadador2Defeated:
-	.string "Ouch!\n"
-	.string "¡Torpedeado!$"
+    .string "Ouch!\n"
+    .string "Torpedoed!$"
 
 
 Route20_Nadador2PostBattle:
-	.string "Debe de ser divertido montar en un\n"
-	.string "POKÉMON.$"
+    .string "Riding a POKéMON sure looks fun!$"
 
 
 Route20_Text_NadadoraIntro:
-	.string "Las ISLAS ESPUMA son un lugar\n"
-	.string "tranquilo.\l"
-	.string "Estoy aquí de vacaciones.$"
+    .string "SEAFOAM is a quiet getaway.\n"
+    .string "I'm vacationing here.$"
 
 
 Route20_Text_NadadoraDefeated:
-	.string "¡Oh!¡Déjame!$"
+    .string "Quit it!$"
 
 
 Route20_NadadoraPostBattle:
-	.string "Hay una gran caverna debajo de\n"
-	.string "estas islas.$"
+    .string "There's a huge cavern underneath\n"
+    .string "this island.$"
 
 
 Route20_Text_Nadadora2Intro:
@@ -8196,18 +8192,17 @@ SaffronCityDojo_Karateka2PostBattle:
 
 
 SaffronCityDojo_Text_Karateka3Intro:
-	.string "¡Hoargh!\n"
-	.string "¡Quítate los zapatos!$"
+    .string "Hoargh!\n"
+    .string "Take your shoes off!$"
 
 
 SaffronCityDojo_Text_Karateka3Defeated:
-	.string "¡Me rindo!$"
+    .string "I give up!$"
 
 
 SaffronCityDojo_Karateka3PostBattle:
-	.string "¡Espera a ver a nuestro maestro!\n"
-	.string "¡Yo soy un negado comparado con\l"
-	.string "él!$"
+    .string "You wait 'til you see our MASTER!\n"
+    .string "I'm a small fry compared to him!$"
 
 
 SaffronCityDojo_Text_Karateka4Intro:
@@ -8594,11 +8589,11 @@ Silph9F_Policia2PostBattle:
 
 
 Silph10F_Text_CientificoIntro:
-	.string "¡Fin del juego ROCKETS!$"
+	.string "¡Game over Rocket!$"
 
 
 Silph10F_Text_CientificoDefeated:
-	.string "¡No sigas!$"
+	.string "¡Stop please!$"
 
 
 Silph10F_CientificoPostBattle:
@@ -8668,81 +8663,81 @@ Silph11F_Policia2PostBattle:
 
 
 Route21_Text_PescadorIntro:
-	.string "¡Ha picado uno gordo!\n"
-	.string "¿Quieres verlo?$"
+	.string "I got a big haul!\n"
+	.string "Wanna go for it?$"
 
 
 Route21_Text_PescadorDefeated:
-	.string "Algún día tendré el equipo más\n"
-	.string "temido...$"
+	.string "Heheh, MAGIKARP just don't make\n"
+	.string "the grade, do they?$"
 
 
 Route21_PescadorPostBattle:
-	.string "¡No capturo más que MAGIKARP!$"
+	.string "I seem to only catch MAGIKARP!$"
 
 
 Route21_Text_Pescador2Intro:
-	.string "¿Quieres saber cómo va la pesca?$"
+	.string "You want to know if the fish are\n"
+	.string "biting?$"
 
 
 Route21_Text_Pescador2Defeated:
-	.string "¡Dang!$"
+	.string "Dang!$"
 
 
 Route21_Pescador2PostBattle:
-	.string "No puedo atrapar nada bueno.\n"
-	.string "¡No pica ni un solo POKÉMON bueno!$"
+	.string "I can't catch anything good.\n"
+	.string "Not one good POKéMON to be had!$"
 
 
 Route21_Text_NadadorIntro:
-	.string "¡El mar limpia mi cuerpo y alma!$"
+	.string "The sea cleanses my body and soul!$"
 
 
 Route21_Text_NadadorDefeated:
-	.string "¡Ayah!$"
+	.string "Ayah!$"
 
 
 Route21_NadadorPostBattle:
-	.string "El mar es inmenso y colosal, al\n"
-	.string "igual que las montañas.$"
+	.string "The sea is great and all, but I\n"
+	.string "like the mountains, too.$"
 
 
 CinnabarPath_Text_PescadorIntro:
-	.string "¡Hey, no asustes a los peces!$"
+	.string "Hey, don't scare away the fish!$"
 
 
 CinnabarPath_Text_PescadorDefeated:
-	.string "¡Perdóname!\n"
-	.string "Solo estoy frustrado por no poder\l"
-	.string "atrapar nada.$"
+	.string "Sorry! I'm just so frustrated from\n"
+	.string "not catching anything.$"
 
 
 CinnabarPath_PescadorPostBattle:
-	.string "Aún no he atrapado una sola pieza.\n"
-	.string "¿Será este lugar una enorme\l"
-	.string "piscina donde no hay peces?$"
+	.string "Sheesh, I haven't caught a thing.\n"
+	.string "Could this place actually be a\l"
+	.string "giant pool or something?$"
 
 
 CinnabarPath_Text_Pescador2Intro:
-	.string "Hazme compañía mientras veo si\n"
-	.string "pica algo.$"
+	.string "Keep me company till I get a hit.$"
 
 
 CinnabarPath_Text_Pescador2Defeated:
-	.string "Me has dejado exhausto.$"
+	.string "That burned some time.$"
 
 
 CinnabarPath_Pescador2PostBattle:
-	.string "¡Oh, espera!\n"
-	.string "¡Ha picado uno gordo!$"
+	.string "Oh wait!\n"
+	.string "I got a bite! Yeah!$"
 
 
 CinnabarPath_Text_NadadorIntro:
-	.string "Capturé a mis POKÉMON en el mar.$"
+	.string "I caught my POKéMON at sea.$"
 
 
 CinnabarPath_Text_NadadorDefeated:
-	.string "¡Mis POKÉMON han caído!$"
+	.string "Diver!!\n"
+	.string "Down!!$"
 
 
 CinnabarPath_NadadorPostBattle:
@@ -8751,109 +8746,105 @@ CinnabarPath_NadadorPostBattle:
 
 
 CinnabarPath_Text_Nadador2Intro:
-	.string "¡Ahh!\n"
-	.string "¡Sentir el sol y la brisa del viento!$"
+	.string "Ahh!\n"
+	.string "Feel the sun and the wind!$"
 
 
 CinnabarPath_Text_Nadador2Defeated:
-	.string "¡Yow!\n"
-	.string "¡Perdí!$"
+	.string "Yow!\n"
+	.string "I lost!$"
 
 
 CinnabarPath_Nadador2PostBattle:
-	.string "¡Creo que me he quemado!$"
+	.string "I'm sunburnt to a crisp!$"
 
 
 CinnabarPath_Text_Nadador3Intro:
-	.string "Ahora mismo estoy en una\n"
-	.string "competición de triatlón.$"
+	.string "Right now, I'm in a triathlon meet.$"
 
 
 CinnabarPath_Text_Nadador3Defeated:
-	.string "Pant...\n"
-	.string "Pant... Pant...$"
+	.string "Pant…\n"
+	.string "Pant… Pant…$"
 
 
 CinnabarPath_Nadador3PostBattle:
-	.string "¡Me has ganado pero aún me queda\n"
-	.string "la bici y el marathon!$"
+	.string "I'm beat! But, I still have the\n"
+	.string "bike race and marathon left!$"
 
 
 Route20_Text_Nadadora4Intro:
-	.string "CANELA está al oeste, cuenta con\n"
-	.string "un LABORATORIO POKÉMON.\l"
-	.string "Mi padre trabaja allí.$"
+    .string "CINNABAR, in the west, has a LAB\n"
+    .string "for POKéMON.\p"
+    .string "My daddy works there.$"
 
 
 Route20_Text_Nadadora4Defeated:
-	.string "¡Se lo diré a mi padre!$"
+    .string "Wait!\n"
+    .string "You're supposed to wait!$"
 
 
 Route20_Nadadora4PostBattle:
-	.string "CANELA es una isla volcánica.\n"
-	.string "He oído que emergió del agua\l"
-	.string "después de que un volcán\l"
-	.string "explotara.$"
+    .string "CINNABAR is a volcanic island.\p"
+    .string "I heard it rose out of the sea\n"
+    .string "when a volcano erupted.$"
 
 
 Route20_Text_ChicaIntro:
-	.string "Nadé hasta aquí desde ISLA CANELA.\n"
-	.string "No fue fácil, ya te lo digo.$"
+    .string "I swam here from CINNABAR ISLAND.\n"
+    .string "It wasn't easy, I tell you.$"
 
 
 Route20_Text_ChicaDefeated:
-	.string "¡Estoy tan decepcionada!$"
+    .string "I'm so disappointed!$"
 
 
 Route20_ChicaPostBattle:
-	.string "Los POKÉMON se han apoderado de\n"
-	.string "una mansión abandonada en CANELA.\l"
-	.string "La llaman la MANSIÓN POKÉMON.$"
+    .string "POKéMON have taken over an\n"
+    .string "abandoned mansion on CINNABAR.\p"
+    .string "They call it the POKéMON MANSION\n"
+    .string "now.$"
 
 
 Route20_Text_Nadador3Intro:
-	.string "¡Hecha un vistazo a mi escultural\n"
-	.string "cuerpo!$"
+    .string "Check out my buff physique!$"
 
 
 Route20_Text_Nadador3Defeated:
-	.string "¡Wimpy!$"
+    .string "Wimpy!$"
 
 
 Route20_Nadador3PostBattle:
-	.string "¡Debería haber entrenado más a mis\n"
-	.string "POKÉMON, no a mí mismo!$"
+    .string "I should've been buffing up my\n"
+    .string "POKéMON, not me!$"
 
 
 Route20_Text_Nadadora3Intro:
-	.string "Mi novio me ha regalado unas\n"
-	.string "perlas.$"
+    .string "My boyfriend gave me big pearls.$"
 
 
 Route20_Text_Nadadora3Defeated:
-	.string "¡Oh, no!\n"
-	.string "¡Mis perlas estaban dentro!$"
+    .string "Oh, no!\n"
+    .string "My pearls were in them!$"
 
 
 Route20_Nadadora3PostBattle:
-	.string "¿Crecerán más mis perlas dentro de\n"
-	.string "un CLOYSTER?$"
+    .string "Will my pearls grow bigger inside\n"
+    .string "CLOYSTER?$"
 
 
 Route20_Text_OrnitologoIntro:
-	.string "He venido hasta aquí volando con\n"
-	.string "mis aves.$"
+    .string "I rode my bird POKéMON here.$"
 
 
 Route20_Text_OrnitologoDefeated:
-	.string "¡Oh, no!\n"
-	.string "¿Y ahora qué hago?$"
+    .string "Oh, no!\n"
+    .string "Now what am I to do?$"
 
 
 Route20_OrnitologoPostBattle:
-	.string "Mis pájaros están exhaustos.\n"
-	.string "¡Ya no pueden llevarme volando de\l"
-	.string "vuelta!$"
+    .string "My birds are exhausted.\n"
+    .string "They can't FLY me back!$"
 
 
 Route20_Text_Chica2Intro:
@@ -8870,137 +8861,135 @@ Route20_Chica2PostBattle:
 
 
 PokemonMansion1F_Text_ChicoIntro:
-	.string "¡W-w-waah! ¡Me has asustado!\n"
-	.string "Pensé que eras un fantasma.$"
+    .string "W-w-waah! You startled me!\n"
+    .string "I thought you were a ghost.$"
 
 
 PokemonMansion1F_Text_ChicoDefeated:
-	.string "¡Tch!\n"
-	.string "No soy capaz de ganar.$"
+    .string "Tch!\n"
+    .string "I can't get any wins.$"
 
 
 PokemonMansion1F_ChicoPostBattle:
-	.string "Estaba por aquí explorando por mi\n"
-	.string "cuenta, pero me siento observado.\l"
-	.string "Creo que me iré pronto.$"
+    .string "I was exploring here by myself,\n"
+    .string "but I feel spooked.\p"
+    .string "I ought to go soon.$"
 
 
 PokemonMansion1F_Text_CientificoIntro:
-	.string "¿Quién eres?\n"
-	.string "No debería de haber nadie aquí.$"
+    .string "Who are you?\n"
+    .string "There shouldn't be anyone here.$"
 
 
 PokemonMansion1F_Text_CientificoDefeated:
-	.string "¡Ouch!$"
+    .string "Ouch!$"
 
 
 PokemonMansion1F_CientificoPostBattle:
-	.string "¿Una llave?\n"
-	.string "No sé de qué me estás hablando.$"
+    .string "A key? I don't know what you're\n"
+    .string "talking about.$"
 
 
 PokemonMansion2F_Text_CientificoIntro:
-	.string "¡No puedo salir de aquí!\n"
-	.string "Este viejo lugar es un enorme\l"
-	.string "puzzle.$"
+    .string "I can't get out!\n"
+    .string "This old place is one big puzzle.$"
 
 
 PokemonMansion2F_Text_CientificoDefeated:
-	.string "¡Oh, no!\n"
-	.string "¡Perdí mi mochila!$"
+    .string "Oh, no!\n"
+    .string "My bag of loot!$"
 
 
 PokemonMansion2F_CientificoPostBattle:
-	.string "Las puertas de esta mansión se\n"
-	.string "abren y cierran solas.$"
+    .string "The switches here open and close\n"
+    .string "alternating sets of doors.$"
 
 
 PokemonMansion3F_Text_CientificoIntro:
-	.string "¡Este lugar es enorme!$"
+    .string "This place is, like, huge!$"
 
 
 PokemonMansion3F_Text_CientificoDefeated:
-	.string "¡Ayah!$"
+    .string "Ayah!$"
 
 
 PokemonMansion3F_CientificoPostBattle:
-	.string "Espero poder encontrar a mi\n"
-	.string "compañero.$"
+    .string "I wonder where my partner went.$"
 
 
 PokemonMansion3F_Text_Cientifico2Intro:
-	.string "Mi maestro vivió aquí.$"
+    .string "My mentor once lived here.$"
 
 
 PokemonMansion3F_Text_Cientifico2Defeated:
-	.string "¡Cortocircuito!$"
+    .string "Whew!\n"
+    .string "Overwhelming!$"
 
 
 PokemonMansion3F_Cientifico2PostBattle:
-	.string "¿No sabes por dónde ir?\n"
-	.string "¡Prueba a tirarte por ahí!$"
+    .string "So, you're stuck?\n"
+    .string "Try jumping off over there!$"
 
 
 PokemonMansion4F_Text_CientificoIntro:
-	.string "Uh-oh...\n"
-	.string "¿Dónde estoy ahora?$"
+    .string "Uh-oh…\n"
+    .string "Where am I now?$"
 
 
 PokemonMansion4F_Text_CientificoDefeated:
-	.string "¡Awooh!$"
+    .string "Awooh!$"
 
 
 PokemonMansion4F_CientificoPostBattle:
-	.string "Hay muchas notas por todo este\n"
-	.string "lugar, quienes vivieron antes aquí\l"
-	.string "deben de haberlas dejado por algún\l"
-	.string "motivo.$"
+    .string "You can find stuff lying around.\n"
+    .string "The residents must've left them.$"
 
 
 PokemonMansion4F_Text_Cientifico2Intro:
-	.string "Este lugar es perfecto para montar\n"
-	.string "un laboratorio.\l"
-	.string "Mira todo este espacio.$"
+    .string "This place is ideal for a lab.\n"
+    .string "Look at all this space.$"
 
 
 PokemonMansion4F_Text_Cientifico2Defeated:
-	.string "¿Qué fue eso?$"
+    .string "What was that for?$"
 
 
 PokemonMansion4F_Cientifico2PostBattle:
-	.string "Me gusta estar aquí, es conductivo\n"
-	.string "con mis estudios.$"
+    .string "I like it here.\n"
+    .string "It's conducive to my studies.$"
 
 
 PewterCityGym_Text_ChicoIntro:
-	.string "¡Espera!\n"
-	.string "¡Aún estás a años luz de retar a\l"
-	.string "BROCK!$"
+    .string "Stop right there, kid!\p"
+    .string "You're ten thousand light-years \n"
+    .string "from facing BROCK!$"
 
 
 PewterCityGym_Text_ChicoDefeated:
-	.string "¡Los años luz no se miden en\n"
-	.string "tiempo si no en distancia!$"
+    .string "Darn!\p"
+    .string "Light-years isn't time…\n"
+    .string "It measures distance!$"
 
 
 PewterCityGym_Text_ChicoPostBattle:
-	.string "Parece que eres bueno...\n"
-	.string "¡Pero no tanto como BROCK!$"
+    .string "You're pretty hot.\n"
+    .string "…But not as hot as BROCK!$"
 
 
 CeruleanCityGym_Text_ChicoIntro:
-	.string "¡Splash!\n"
-	.string "¡Soy el primero al ataque!$"
+    .string "Splash!\p"
+    .string "I'm first up!\n"
+    .string "Let's do it!$"
 
 
 CeruleanCityGym_Text_ChicoDefeated:
-	.string "¡No puede ser!$"
+    .string "That can't be!$"
 
 
 CeruleanCityGym_Text_ChicoPostBattle:
-	.string "MISTY no para de mejorar.\n"
-	.string "¡Ella no perderá con alguien como\l"
-	.string "tú!$"
+    .string "MISTY is a TRAINER who's going to\n"
+    .string "keep improving.\p"
+    .string "She won't lose to someone like you!$"
 
 
 CeruleanCityGym_Text_ChicaIntro:
@@ -9010,13 +8999,12 @@ CeruleanCityGym_Text_ChicaIntro:
 
 
 CeruleanCityGym_Text_ChicaDefeated:
-	.string "¡Demasiado para mi!$"
+    .string "You overwhelmed me!$"
 
 
 CeruleanCityGym_Text_ChicaPostBattle:
-	.string "Para saber hasta dónde puedes\n"
-	.string "llegar deberás de enfrentar a otros\l"
-	.string "ENTRENADORES.$"
+    .string "You have to face other TRAINERS\n"
+    .string "to see how good you really are.$"
 
 
 VermilionCityGym_Text_ChicoIntro:
@@ -9026,79 +9014,78 @@ VermilionCityGym_Text_ChicoIntro:
 
 
 VermilionCityGym_Text_ChicoDefeated:
-	.string "¡Wow!\n"
-	.string "¡Me has sorprendido!$"
+    .string "Wow!\n"
+    .string "Surprised me!$"
 
 
 VermilionCityGym_Text_ChicoPostBattle:
-	.string "LT.SURGE colocó cerraduras dobles\n"
-	.string "en el GIMNASIO.\l"
-	.string "¡Las puso por todos sitios!\l"
-	.string "¡Te daré una pista!\l"
-	.string "¡Tras abrir la 1ra cerradura, la\l"
-	.string "2da está al lado!$"
+    .string "LT. SURGE installed the traps in\n"
+    .string "the GYM himself.\p"
+    .string "He set up double locks everywhere.\n"
+    .string "Let me give you a hint.\p"
+    .string "When you open the first lock, the\n"
+    .string "second lock is right next to it.$"
 
 
 VermilionCityGym_Text_Chico2Intro:
-	.string "Se me da bien la electricidad,\n"
-	.string "¡por ello me uní a este GIMNASIO!$"
+    .string "I'm a lightweight, but I'm good\n"
+    .string "with electricity!\p"
+    .string "That's why I joined this GYM.$"
 
 
 VermilionCityGym_Text_Chico2Defeated:
-	.string "¡Perdí!$"
+    .string "Fried!$"
 
 
 VermilionCityGym_Text_Chico2PostBattle:
-	.string "¡Vale, hablaré!\n"
-	.string "¡LT.SURGE dijo que ocultaría los\l"
-	.string "botones de la puerta dentro de\l"
-	.string "algo!$"
+    .string "Okay, I'll talk!\p"
+    .string "LT. SURGE said he hid door\n"
+    .string "switches inside something.$"
 
 
 VermilionCityGym_Text_Chico3Intro:
-	.string "Cuando estaba en el ejército, el\n"
-	.string "LT.SURGE era muy estricto.$"
+    .string "When I was in the Army, LT. SURGE\n"
+    .string "was my strict CO.\p"
+    .string "He was a hard taskmaster.$"
 
 
 VermilionCityGym_Text_Chico3Defeated:
-	.string "¡Para!\n"
-	.string "¡Eres demasiado bueno!$"
+    .string "Stop!\n"
+    .string "You're very good!$"
 
 
 VermilionCityGym_Text_Chico3PostBattle:
-	.string "No es fácil abrir esa puerta...\n"
-	.string "El LT.SURGE siempre fue muy\l"
-	.string "cauteloso en el ejército.$"
+    .string "It's not easy opening that door.\p"
+    .string "LT. SURGE was always famous for\n"
+    .string "his cautious nature in the Army.$"
 
 
 CeladonCityGym_Text_ChicaIntro:
-	.string "Debes de saber una cosa sobre este\n"
-	.string "GIMNASIO.\l"
-	.string "¡Solo se permite la entrada a\l"
-	.string "chicas de verdad!$"
+    .string "I should tell you about this GYM.\p"
+    .string "Only real ladies are allowed in\n"
+    .string "here!$"
 
 
 CeladonCityGym_Text_ChicaDefeated:
-	.string "¡Eres demasiado duro!$"
+    .string "You're too rough!$"
 
 
 CeladonCityGym_Text_ChicaPostBattle:
-	.string "¡Espero que ERIKA se encargue de\n"
-	.string "ti!$"
+    .string "Bleaah!\n"
+    .string "I hope ERIKA wipes you out!$"
 
 
 CeladonCityGym_Text_Chica2Intro:
-	.string "Oh, bienvenido.\n"
-	.string "Perfecto, ya me estaba aburriendo.$"
+    .string "Oh, welcome.\n"
+    .string "I was getting bored.$"
 
 
 CeladonCityGym_Text_Chica2Defeated:
-	.string "¡Mi maquillaje!$"
+    .string "My makeup!$"
 
 
 CeladonCityGym_Text_Chica2PostBattle:
-	.string "¡Me gusta tu cosplay del TEAM\n"
-	.string "ROCKET!$"
+.string "I love your TEAM ROCKET cosplay!$"
 
 
 CeladonCityGym_Text_Chica3Intro:
@@ -9161,19 +9148,19 @@ CeladonCityGym_Text_Chica6PostBattle:
 
 
 CeladonCityGym_Text_Chica7Intro:
-	.string "¡Bienvenido a CIUDAD AZULONA!\n"
-	.string "Más te vale no subestimar a las\l"
-	.string "chicas de por aquí.$"
+    .string "Welcome to CELADON GYM!\p"
+    .string "You'd better not underestimate\n"
+    .string "the nice ladies here.$"
 
 
 CeladonCityGym_Text_Chica7Defeated:
-	.string "¡Oh!\n"
-	.string "¡Batida!$"
+    .string "Oh!\n"
+    .string "Beaten!$"
 
 
 CeladonCityGym_Text_Chica7PostBattle:
-	.string "No traje a mis mejores POKÉMON.\n"
-	.string "¡Espera a la próxima vez!$"
+    .string "I didn't bring my best POKéMON.\n"
+    .string "Wait until next time!$"
 
 
 FuchsiaCityGym_Text_ChicoIntro:
