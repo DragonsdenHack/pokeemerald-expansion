@@ -9094,36 +9094,38 @@ CeladonCityGym_Text_Chica3Intro:
 
 
 CeladonCityGym_Text_Chica3Defeated:
-	.string "¡No!$"
+	.string "No!$"
 
 
 CeladonCityGym_Text_Chica3PostBattle:
-	.string "¡Usamos a nuestros POKÉMON PLANTA\n"
-	.string "para hacer adornos florales!$"
+    .string "We only use GRASS-type POKéMON at\n"
+    .string "our GYM.\p"
+    .string "Why? We also use them for making\n"
+    .string "flower arrangements!$"
 
 
 CeladonCityGym_Text_Chica4Intro:
-	.string "Nunca te había visto por aquí,\n"
-	.string "¿eres nuevo?$"
+    .string "…Weren't you peeking in here\n"
+    .string "earlier?$"
 
 
 CeladonCityGym_Text_Chica4Defeated:
-	.string "¡Te has pasado!$"
+    .string "You're an eye-opener!$"
 
 
 CeladonCityGym_Text_Chica4PostBattle:
-	.string "Así que buscabas a ERIKA, no a\n"
-	.string "mi...$"
+    .string "Oh, you were looking at ERIKA…\n"
+    .string "You weren't looking at me…$"
 
 
 CeladonCityGym_Text_Chica5Intro:
-	.string "Encantado de conocerte.\n"
-	.string "Mi hobby es entrenar POKÉMON.$"
+    .string "Pleased to meet you.\n"
+    .string "My hobby is POKéMON training.$"
 
 
 CeladonCityGym_Text_Chica5Defeated:
-	.string "¡Oh!\n"
-	.string "¡Espléndido!$"
+    .string "Oh!\n"
+    .string "Splendid!$"
 
 
 CeladonCityGym_Text_Chica5PostBattle:
@@ -9131,20 +9133,19 @@ CeladonCityGym_Text_Chica5PostBattle:
 
 
 CeladonCityGym_Text_Chica6Intro:
-	.string "¡Te lo advierto!\n"
-	.string "¡Los tipos BICHO y FUEGO están\l"
-	.string "prohibidos en este gimnasio!$"
+    .string "Oh, hey!\p"
+    .string "We don't like BUG- or FIRE-type\n"
+    .string "POKéMON in here!$"
 
 
 CeladonCityGym_Text_Chica6Defeated:
-	.string "¡Oh!\n"
-	.string "¡Tú!$"
+    .string "Oh!\n"
+    .string "You!$"
 
 
 CeladonCityGym_Text_Chica6PostBattle:
-	.string "Nuestra LÍDER ERIKA podrá ser muy\n"
-	.string "tranquila, pero es famosa por su\l"
-	.string "gran habilidad en el combate.$"
+    .string "Our LEADER ERIKA might be quiet,\n"
+    .string "but she's famous around here.$"
 
 
 CeladonCityGym_Text_Chica7Intro:
@@ -9164,431 +9165,437 @@ CeladonCityGym_Text_Chica7PostBattle:
 
 
 FuchsiaCityGym_Text_ChicoIntro:
-	.string "La fuerza no es la clave de este\n"
-	.string "juego.\l"
-	.string "¿Lo entiendes?\l"
-	.string "¡Esto va de estrategia!\l"
-	.string "¡Te mostraré cómo la estrategia\l"
-	.string "puede batir a la fuerza bruta!$"
+    .string "Strength isn't the key for POKéMON.\n"
+    .string "Do you understand this?\p"
+    .string "POKéMON is about strategy!\p"
+    .string "I'll show you how strategy can\n"
+    .string "beat brute strength.$"
 
 
 FuchsiaCityGym_Text_ChicoDefeated:
-	.string "¿Qué?\n"
-	.string "¡Extraordinario!$"
+    .string "What?\n"
+    .string "Extraordinary!$"
 
 
 FuchsiaCityGym_Text_ChicoPostBattle:
-	.string "¿Mezclarás fuerza con\n"
-	.string "inteligencia?\l"
-	.string "¡Buena táctica!\l"
-	.string "¡Es increíble lo que sabes para lo\l"
-	.string "joven que eres!$"
+    .string "So, you mix brawn with brains?\n"
+    .string "Good strategy!\p"
+    .string "That's remarkable for a child\n"
+    .string "TRAINER.$"
 
 
 FuchsiaCityGym_Text_Chico2Intro:
-	.string "¡Quería ser un ninja y por eso\n"
-	.string "vine a este GIMNASIO!$"
+    .string "I was a magician once upon a time.\p"
+    .string "But I dreamt of becoming a ninja,\n"
+    .string "so I joined this GYM.$"
 
 
 FuchsiaCityGym_Text_Chico2Defeated:
-	.string "¡Vaya, he perdido!$"
+    .string "I'm done for!$"
 
 
 FuchsiaCityGym_Text_Chico2PostBattle:
-	.string "¡Seguiré entrenándome con KOGA,\n"
-	.string "mi maestro ninja!$"
+    .string "Even though I've lost, I will keep\n"
+    .string "training according to the teachings\l"
+    .string "of KOGA, my ninja master.$"
 
 
 FuchsiaCityGym_Text_Chico3Intro:
-	.string "¡También estudio técnicas ninja\n"
-	.string "con el maestro KOGA!\p"
-	.string "¡Los ninja llevan mucho tiempo\n"
-	.string "usando animales!$"
+    .string "I also study the way of the ninja\n"
+    .string "with Master KOGA!\p"
+    .string "Ninja have a long history of using\n"
+    .string "animals!$"
 
 
 FuchsiaCityGym_Text_Chico3Defeated:
-	.string "¡Auuuu!$"
+   .string "Awoo!$"
 
 
 FuchsiaCityGym_Text_Chico3PostBattle:
-	.string "¡Me queda mucho por aprender!$"
+    .string "I still have much to learn.$"
 
 
 FuchsiaCityGym_Text_Chico4Intro:
-	.string "¿Podrás batir mis técnicas\n"
-	.string "especiales?$"
+    .string "Let's see you beat my special\n"
+    .string "techniques!$"
 
 
 FuchsiaCityGym_Text_Chico4Defeated:
-	.string "¡Me has sacudido!$"
+    .string "You had me fooled!$"
 
 
 FuchsiaCityGym_Text_Chico4PostBattle:
-	.string "¡Me gustan los ataques de sueño y\n"
-	.string "veneno porque perduran después del\l"
-	.string "combate!$"
+    .string "I like poison and sleep techniques,\n"
+    .string "as they linger after battle!$"
 
 
 FuchsiaCityGym_Text_Chico5Intro:
-	.string "¡Alto ahí!\p"
-	.string "¿Te han agobiado nuestros muros\n"
-	.string "invisibles?$"
+    .string "Stop right there!\p"
+    .string "The famed invisible walls of\n"
+    .string "FUCHSIA GYM have you frustrated?$"
 
 
 FuchsiaCityGym_Text_Chico5Defeated:
-	.string "¡Buaaa!\n"
-	.string "¡Qué bien luchas!$"
+    .string "Whoa!\n"
+    .string "You've got it!$"
 
 
 FuchsiaCityGym_Text_Chico5PostBattle:
-	.string "¡Impresionante!\p"
-	.string "Oye, una cosa: mira bien entre\n"
-	.string "los huecos de los muros invisibles.$"
+    .string "You impressed me!\n"
+    .string "Here's a hint!\p"
+    .string "Look very closely for gaps in the\n"
+    .string "invisible walls!$"
 
 
 FuchsiaCityGym_Text_Chico6Intro:
-	.string "¡El maestro KOGA desciende\n"
-	.string "de una gran familia de ninjas!\p"
-	.string "¿Y tú de qué familia desciendes?$"
+    .string "Master KOGA comes from a long line\n"
+    .string "of ninjas.\p"
+    .string "What did you descend from?$"
 
 
 FuchsiaCityGym_Text_Chico6Defeated:
-	.string "Eres más fuerte de lo que\n"
-	.string "pensaba...$"
+    .string "You're more skilled than I'd\n"
+    .string "thought!$"
 
 
 FuchsiaCityGym_Text_Chico6PostBattle:
-	.string "¡Donde hay luz hay sombras!\p"
-	.string "¡Luz o sombra!\n"
-	.string "¿Cuál eliges?$"
+    .string "Where there is light, there is\n"
+    .string "shadow!\p"
+    .string "Light and shadow!\n"
+    .string "Which do you choose?$"
 
 
 SaffronCityGym_Text_ExorcistaIntro:
-	.string "¡Tú y yo!\n"
-	.string "Nuestros POKéMON deben luchar.$"
+    .string "You and I, our POKéMON shall\n"
+    .string "battle!$"
 
 
 SaffronCityGym_Text_ExorcistaDefeated:
-	.string "¡He perdido al final!$"
+    .string "I lost after all!$"
 
 
 SaffronCityGym_Text_ExorcistaPostBattle:
-	.string "Sabía que esto iba a pasar.$"
+    .string "I knew that this was going to take\n"
+    .string "place.$"
 
 
 SaffronCityGym_Text_Exorcista2Intro:
-	.string "Los POKéMON acaban pareciéndose\n"
-	.string "a sus ENTRENADORES.\p"
-	.string "¡Pues tus POKéMON parecen fuertes!$"
+    .string "POKéMON take on the appearance of\n"
+    .string "their TRAINERS.\p"
+    .string "Your POKéMON must be tough, then!$"
 
 
 SaffronCityGym_Text_Exorcista2Defeated:
-	.string "¡Lo sabía!$"
+    .string "I knew it!$"
 
 
 SaffronCityGym_Text_Exorcista2PostBattle:
-	.string "¡Debo enseñarles mejores técnicas\n"
-	.string "a mis POKéMON!\p"
-	.string "¡Sobre todo del tipo PSÍQUICO!$"
+    .string "I have much to learn still…\p"
+    .string "I must master PSYCHIC and teach it\n"
+    .string "to my POKéMON…$"
 
 
 SaffronCityGym_Text_Exorcista3Intro:
-	.string "¡SABRINA es más joven que yo,\n"
-	.string "pero la respeto!$"
+    .string "SABRINA is far younger than I,\n"
+    .string "but she has earned my respect.$"
 
 
 SaffronCityGym_Text_Exorcista3Defeated:
-	.string "¡Vaya fallo!$"
+    .string "Not good enough!$"
 
 
 SaffronCityGym_Text_Exorcista3PostBattle:
-	.string "¡En una pelea de iguales, ganará\n"
-	.string "quien tenga más voluntad!\p"
-	.string "¡Si quieres ganar a SABRINA,\n"
-	.string "piensa solo en ganar!$"
+    .string "In a battle of equals, the one\n"
+    .string "with the stronger will wins.\p"
+    .string "If you wish to beat SABRINA, focus\n"
+    .string "and will yourself to victory.$"
 
 
 SaffronCityGym_Text_MediumIntro:
-	.string "¡El GIMNASIO POKéMON de AZAFRÁN\n"
-	.string "es famoso por sus médiums!\p"
-	.string "¡Quieres ver a SABRINA!\n"
-	.string "¡Lo sé!$"
+    .string "SAFFRON POKéMON GYM is famous for\n"
+    .string "training psychics.\p"
+    .string "You want to see SABRINA, don't\n"
+    .string "you? I can tell!$"
 
 
 SaffronCityGym_Text_MediumDefeated:
-	.string "¡Arrrgg!$"
+    .string "Arrrgh!$"
 
 
 SaffronCityGym_Text_MediumPostBattle:
-	.string "¡Tienes razón! ¡Usé la telepatía\n"
-	.string "para leer tu mente!$"
+    .string "That's right! I used telepathy to\n"
+    .string "read your mind!$"
 
 
 SaffronCityGym_Text_Medium2Intro:
-	.string "¿Te asusta nuestro poder oculto?$"
+    .string "Does our unseen power scare you?$"
 
 
 SaffronCityGym_Text_Medium2Defeated:
-	.string "¡Jamás lo hubiera pensado!$"
+    .string "I never foresaw this!$"
 
 
 SaffronCityGym_Text_Medium2PostBattle:
-	.string "¡Los POKéMON psíquicos temen solo\n"
-	.string "a los bichos y a los fantasmas!$"
+    .string "PSYCHIC POKéMON fear only ghosts\n"
+    .string "and bugs!$"
 
 
 SaffronCityGym_Text_Medium3Intro:
-	.string "Sabes que tu fuerza no bastará\n"
-	.string "para ganar en el mundo de los\l"
-	.string "POKéMON, ¿no?$"
+    .string "You understand, don't you?\p"
+    .string "That power alone isn't enough to\n"
+    .string "win in the world of POKéMON?$"
 
 
 SaffronCityGym_Text_Medium3Defeated:
-	.string "¡No me lo puedo creer!$"
+    .string "I don't believe this!$"
 
 
 SaffronCityGym_Text_Medium3PostBattle:
-	.string "¡SABRINA ganó al MAESTRO de\n"
-	.string "KARATE de la puerta de al lado!$"
+    .string "SABRINA just wiped out the KARATE\n"
+    .string "MASTER next door.$"
 
 
 SaffronCityGym_Text_Medium4Intro:
-	.string "¡SABRINA es joven, pero es nuestra\n"
-	.string "LÍDER!\p"
-	.string "¡No llegarás a ella fácilmente!$"
+    .string "SABRINA is young, but she's also\n"
+    .string "our highly skilled LEADER.\p"
+    .string "You won't reach her easily!$"
 
 
 SaffronCityGym_Text_Medium4Defeated:
-	.string "¡No he podido concentrarme!$"
+    .string "Ow!\n"
+    .string "Down and out!$"
 
 
 SaffronCityGym_Text_Medium4PostBattle:
-	.string "En AZAFRÁN había dos\n"
-	.string "GIMNASIOS POKéMON.\p"
-	.string "¡El DOJO-KARATE de aquí al lado\n"
-	.string "perdió su condición de GIMNASIO\l"
-	.string "cuando los machacamos!$"
+    .string "There used to be two POKéMON GYMS\n"
+    .string "in SAFFRON.\p"
+    .string "The FIGHTING DOJO next door lost\n"
+    .string "its GYM status, though.\p"
+    .string "We simply creamed them when we\n"
+    .string "decided to have just one GYM.$"
 
 
 CinnabarIslandGym_Text_LadronIntro:
-	.string "Yo era ladrón, pero me hice\n"
-	.string "honrado cuando me convertí\l"
-	.string "en ENTRENADOR.$"
+    .string "I was a thief, but I went straight\n"
+    .string "as a TRAINER.$"
 
 
 CinnabarIslandGym_Text_LadronDefeated:
-	.string "¡Me rindo!$"
+    .string "I surrender!$"
 
 
 CinnabarIslandGym_Text_LadronPostBattle:
-	.string "¡No puedo evitar robar los POKéMON\n"
-	.string "de otras personas!$"
+    .string "I get this uncontrollable urge to\n"
+    .string "steal other people's POKéMON.$"
 
 
 CinnabarIslandGym_Text_CientificoIntro:
-	.string "¿Sabes el calor que puede dar el\n"
-	.string "aliento de fuego de un POKéMON?$"
+    .string "Do you know how hot POKéMON fire\n"
+    .string "breath can get?$"
 
 
 CinnabarIslandGym_Text_CientificoDefeated:
-	.string "¡Ay!\n"
-	.string "¡Quema, quema!$"
+    .string "Yow!\n"
+    .string "Hot, hot, hot!$"
 
 
 CinnabarIslandGym_Text_CientificoPostBattle:
-	.string "Fuego o, para ser más preciso,\n"
-	.string "combustión...\p"
-	.string "¡Bla, bla, bla, bla!...$"
+    .string "Fire, or to be more precise,\n"
+    .string "combustion…\p"
+    .string "…Oxygen in the air…\n"
+    .string "Blah, blah, blah, blah…$"
 
 
 CinnabarIslandGym_Text_Cientifico2Intro:
-	.string "¡No puedes ganar!\n"
-	.string "¡Soy un experto en POKéMON!$"
+    .string "I've studied POKéMON thoroughly.\n"
+    .string "You can't win!$"
 
 
 CinnabarIslandGym_Text_Cientifico2Defeated:
-	.string "¡Au!\n"
-	.string "¡Tanta teoría para nada!$"
+    .string "Waah!\n"
+    .string "My studies were insufficient!$"
 
 
 CinnabarIslandGym_Text_Cientifico2PostBattle:
-	.string "¡Mis teorías son muy complicadas\n"
-	.string "para ti!$"
+    .string "My theories are too complicated\n"
+    .string "for you to understand.$"
 
 
 CinnabarIslandGym_Text_Ladron2Intro:
-	.string "¡Me encanta usar POKéMON\n"
-	.string "del TIPO FUEGO!$"
+    .string "I like using FIRE-type POKéMON.\n"
+    .string "I just do.$"
 
 
 CinnabarIslandGym_Text_Ladron2Defeated:
-	.string "¡No hay quien pueda contigo!$"
+    .string "Too hot to handle!$"
 
 
 CinnabarIslandGym_Text_Ladron2PostBattle:
-	.string "¡Ojalá hubiera un POKéMON ladrón!\n"
-	.string "¡Me encantaría utilizarlo!$"
+    .string "I wish there were a thief POKéMON.\n"
+    .string "I'd use that!$"
 
 
 CinnabarIslandGym_Text_Cientifico3Intro:
-	.string "¡Ya sé por qué BLAINE se hizo\n"
-	.string "ENTRENADOR!$"
+    .string "I know why BLAINE became a\n"
+    .string "TRAINER.$"
 
 
 CinnabarIslandGym_Text_Cientifico3Defeated:
-	.string "¡Auuuuuuuuuu!$"
+    .string "Ow!$"
 
 
 CinnabarIslandGym_Text_Cientifico3PostBattle:
-	.string "BLAINE se perdió en la montaña,\n"
-	.string "y se hizo de noche...\p"
-	.string "¡Pero apareció un feroz pájaro\n"
-	.string "POKéMON...!\p"
-	.string "¡E iluminó el camino a BLAINE\n"
-	.string "para que pudiera bajar!$"
+    .string "Our LEADER, BLAINE, became lost\n"
+    .string "in the mountains but good.\p"
+    .string "Night fell when a fiery bird\n"
+    .string "POKéMON appeared.\p"
+    .string "Its light allowed BLAINE to find\n"
+    .string "his way down safely.$"
 
 
 CinnabarIslandGym_Text_Ladron3Intro:
-	.string "¡He estado en muchos GIMNASIOS,\n"
-	.string "pero éste es mi preferido!$"
+    .string "I've been to many GYMS, but this\n"
+    .string "one best suits my style.$"
 
 
 CinnabarIslandGym_Text_Ladron3Defeated:
-	.string "¡Vaya!\n"
-	.string "¡Eso quema!$"
+    .string "Yowza!\n"
+    .string "Too hot!$"
 
 
 CinnabarIslandGym_Text_Ladron3PostBattle:
-	.string "¡A nosotros, los seguidores de los\n"
-	.string "POKéMON de fuego, nos gustan\l"
-	.string "PONYTA y NINETALES!$"
+    .string "PONYTA, NINETALES…\n"
+    .string "Those are popular FIRE POKéMON.$"
 
 
 CinnabarIslandGym_Text_Cientifico4Intro:
-	.string "El fuego es débil contra el H2O.$"
+    .string "Fire is weak against H2O.$"
 
 
 CinnabarIslandGym_Text_Cientifico4Defeated:
-	.string "¡Oh!\n"
-	.string "¡Esto se acabó!$"
+    .string "Oh!\n"
+    .string "Snuffed out!$"
 
 
 CinnabarIslandGym_Text_Cientifico4PostBattle:
-	.string "¡El agua apaga el fuego!\p"
-	.string "¡Pero el fuego derrite a los\n"
-	.string "POKéMON de hielo!$"
+    .string "Water beats fire, of course.\p"
+    .string "But fire melts ice, so the FIRE\n"
+    .string "type beats ICE-type POKéMON.$"
 
 
 ViridianCityGym_Text_DomadorIntro:
-	.string "¡Tus POKéMON se arrodillarán\n"
-	.string "de un solo latigazo!$"
+    .string "Your POKéMON will cower at the\n"
+    .string "crack of my whip!$"
 
 
 ViridianCityGym_Text_DomadorDefeated:
-	.string "¡Auch!\n"
-	.string "¡Vaya latigazo!$"
+    .string "Yowch!\n"
+    .string "Whiplash!$"
 
 
 ViridianCityGym_Text_DomadorPostBattle:
-	.string "¡Espera!\n"
-	.string "¡No he tenido ningún cuidado!$"
+    .string "Wait!\n"
+    .string "I was just careless!$"
 
 
 ViridianCityGym_Text_Domador2Intro:
-	.string "¡Mis POKéMON y yo hacemos\n"
-	.string "muy buena música!$"
+    .string "POKéMON and I, we make wonderful\n"
+    .string "music together!$"
 
 
 ViridianCityGym_Text_Domador2Defeated:
-	.string "¡Estás en perfecta armonía!$"
+   .string "You are in perfect harmony!$"
 
 
 ViridianCityGym_Text_Domador2PostBattle:
-	.string "¿Sabes quién es el LÍDER de\n"
-	.string "nuestro GIMNASIO?$"
+    .string "Do you know the identity of our\n"
+    .string "GYM LEADER?$"
 
 
 ViridianCityGym_Text_KaratekaIntro:
-	.string "¡El karate es lo máximo en artes\n"
-	.string "marciales!$"
+    .string "Karate is the ultimate form of\n"
+    .string "martial arts!$"
 
 
 ViridianCityGym_Text_KaratekaDefeated:
-	.string "¡Ayyyy!$"
+    .string "Aiyah!$"
 
 
 ViridianCityGym_Text_KaratekaPostBattle:
-	.string "Si mis POKéMON fueran buenos\n"
-	.string "karatekas...$"
+    .string "If my POKéMON were as good at\n"
+    .string "karate as I…$"
 
 
 ViridianCityGym_Text_Karateka2Intro:
-	.string "¡Soy el REY del KARATE!\n"
-	.string "¡Te tengo en mis manos!$"
+    .string "I'm the KARATE KING!\n"
+    .string "Your fate rests with me!$"
 
 
 ViridianCityGym_Text_Karateka2Defeated:
-	.string "¡Aaah!$"
+    .string "Ayah!$"
 
 
 ViridianCityGym_Text_Karateka2PostBattle:
-	.string "¿La LIGA POKéMON? ¿Tú?\n"
-	.string "¿Pero quién te crees que eres?$"
+    .string "The POKéMON LEAGUE?\n"
+    .string "You? Don't get cocky!$"
 
 
 ViridianCityGym_Text_Karateka3Intro:
-	.string "¡Groaar!\n"
-	.string "¡Me estoy mosqueando!$"
+ViridianCity_Gym_Text_AtsushiIntro::
+    .string "Rrrroar!\n"
+    .string "I'm working myself into a rage!$"
 
 
 ViridianCityGym_Text_Karateka3Defeated:
-	.string "¡Rargh!$"
+    .string "Wargh!$"
 
 
 ViridianCityGym_Text_Karateka3PostBattle:
-	.string "¡No me merezco nada!$"
+    .string "I'm still not worthy!$"
 
 
 ViridianCityGym_Text_GuayIntro:
-	.string "¡El GIMNASIO de VERDE estuvo\n"
-	.string "cerrado mucho tiempo, pero nuestro\l"
-	.string "LÍDER ha vuelto!$"
+    .string "VIRIDIAN GYM was closed for a\n"
+    .string "long time.\p"
+    .string "But now, our LEADER is back!$"
 
 
 ViridianCityGym_Text_GuayDefeated:
-	.string "¿Me has ganado?$"
+    .string "I was beaten?$"
 
 
 ViridianCityGym_Text_GuayPostBattle:
-	.string "¡Accederás a la LIGA POKéMON\n"
-	.string "si ganas a nuestro LÍDER!$"
+    .string "You can go on to the POKéMON\n"
+    .string "LEAGUE only by defeating our GYM\l"
+    .string "LEADER!$"
 
 
 ViridianCityGym_Text_Guay2Intro:
-	.string "¡Oye!\n"
-	.string "Ya no debe de quedarte nada\l"
-	.string "de energía, ¿no?$"
+    .string "Heh!\n"
+    .string "You must be running out of steam\l"
+    .string "by now!$"
 
 
 ViridianCityGym_Text_Guay2Defeated:
-	.string "¡Me he quedado sin fuerza!$"
+    .string "I ran out of gas!$"
 
 
 ViridianCityGym_Text_Guay2PostBattle:
-	.string "¡Necesitas potencia para luchar\n"
-	.string "contra el LÍDER del GIMNASIO!$"
+    .string "You'll need power to keep up with\n"
+    .string "our GYM LEADER.$"
 
 
 ViridianCityGym_Text_Guay3Intro:
-	.string "¡Los más hábiles ganan con estilo!$"
+    .string "The truly talented win with style.$"
 
 
 ViridianCityGym_Text_Guay3Defeated:
-	.string "¡He perdido el control!$"
+    .string "I lost my grip!$"
 
 
 ViridianCityGym_Text_Guay3PostBattle:
-	.string "¡El LÍDER me va a reñir!$"
+    .string "The LEADER will scold me for\n"
+    .string "losing this way…$"
 
 
 RocketHideoutViridian_Text_RocketIntro:
@@ -10040,143 +10047,144 @@ Route22Path_Text_PoliciaPostBattle:
 
 
 VictoryRoad1F_Text_GuayIntro:
-	.string "¡Me pregunto si eres lo bastante\n"
-	.string "fuerte para mí!$"
+    .string "I wonder if you are good enough\n"
+    .string "for me?$"
 
 
 VictoryRoad1F_Text_GuayDefeated:
-	.string "¡He perdido!$"
+    .string "I lost out…$"
 
 
 VictoryRoad1F_Text_GuayPostBattle:
-	.string "¡A mí no me gusta perder, y mucho\n"
-	.string "menos contra alguien tan joven!$"
+    .string "I never wanted to lose to anybody,\n"
+    .string "especially to a younger kid…$"
 
 
 VictoryRoad1F_Text_Guay2Intro:
-	.string "¡Ya veo que eres fuerte!\n"
-	.string "¡Veamos exactamente cuánto!$"
+    .string "I can see you're good.\n"
+    .string "Let me see exactly how good!$"
 
 
 VictoryRoad1F_Text_Guay2Defeated:
-	.string "He perdido la oportunidad...$"
+    .string "I had a chance…$"
 
 
 VictoryRoad1F_Text_Guay2PostBattle:
-	.string "¡Lo admito, eres mejor que yo!$"
+    .string "Tch!\n"
+    .string "I concede, you are better than I!$"
 
 
 VictoryRoad2F_Text_NecioIntro:
-	.string "¡Si puedes pasar por aquí, podrás\n"
-	.string "enfrentarte al ALTO MANDO!$"
+    .string "If you can get through here,\n"
+    .string "you can go meet the ELITE FOUR.$"
 
 
 VictoryRoad2F_Text_NecioDefeated:
-	.string "¡No!\n"
-	.string "¡Increíble!$"
+    .string "No!\n"
+    .string "Unbelievable!$"
 
 
 VictoryRoad2F_Text_NecioPostBattle:
-	.string "¡Puedo vencerte en cuanto a\n"
-	.string "conocimientos sobre los POKéMON!$"
+    .string "I can beat you when it comes to\n"
+    .string "knowledge about POKéMON!$"
 
 
 VictoryRoad2F_Text_KaratekaIntro:
-	.string "¡La CALLE VICTORIA es la prueba\n"
-	.string "final de todo ENTRENADOR!$"
+    .string "This here is VICTORY ROAD.\n"
+    .string "It's the final test for TRAINERS!$"
 
 
 VictoryRoad2F_Text_KaratekaDefeated:
-	.string "¡Ayyyy!$"
+    .string "Atcho!$"
 
 
 VictoryRoad2F_Text_KaratekaPostBattle:
-	.string "¡Prueba a mover las rocas\n"
-	.string "si tienes el paso cortado!$"
+    .string "If you get stuck, try moving some\n"
+    .string "boulders around.$"
 
 
 VictoryRoad2F_Text_ChicoIntro:
-	.string "¡Ah!\n"
-	.string "¿Quieres desafiar al ALTO MANDO?$"
+    .string "Ah, so you wish to challenge the\n"
+    .string "ELITE FOUR?$"
 
 
 VictoryRoad2F_Text_ChicoDefeated:
-	.string "¡Me has ganado!$"
+    .string "You got me!$"
 
 
 VictoryRoad2F_Text_ChicoPostBattle:
-	.string "¡ROJO también estuvo aquí!$"
+    .string "RED also came through here.$"
 
 
 VictoryRoad2F_Text_Chico2Intro:
-	.string "¿Es muy dura la CALLE VICTORIA?$"
+    .string "Is VICTORY ROAD too tough?$"
 
 
 VictoryRoad2F_Text_Chico2Defeated:
-	.string "¡Bien hecho!$"
+    .string "Well done!$"
 
 
 VictoryRoad2F_Text_Chico2PostBattle:
-	.string "¡Muchos de los ENTRENADORES\n"
-	.string "se rinden aquí!$"
+    .string "Many TRAINERS give up their\n"
+    .string "challenge here and go home.$"
 
 
 VictoryRoad2F_Text_DomadorIntro:
-	.string "¡Adelante!\n"
-	.string "¡Te daré una paliza!$"
+    .string "Come on!\n"
+    .string "I'll whip you!$"
+
 
 
 VictoryRoad2F_Text_DomadorDefeated:
-	.string "¡Me has machacado!$"
+    .string "I got whipped!$"
 
 
 VictoryRoad2F_Text_DomadorPostBattle:
-	.string "¡Ahora puedes recorrer la CALLE\n"
-	.string "VICTORIA!$"
+    .string "You earned the right to be on\n"
+    .string "VICTORY ROAD…$"
 
 
 VictoryRoad3F_Text_GuayIntro:
-	.string "¡Aquí solo pueden pasar\n"
-	.string "los elegidos!$"
+    .string "Only the chosen can pass here!$"
 
 
 VictoryRoad3F_Text_GuayDefeated:
-	.string "¡No me lo puedo creer!$"
+    .string "I don't believe it!$"
 
 
 VictoryRoad3F_Text_GuayPostBattle:
-	.string "¡Todos estos ENTRENADORES van a\n"
-	.string "participar en la LIGA POKéMON!\p"
-	.string "¡Ten cuidado!$"
+    .string "All TRAINERS here are headed to\n"
+    .string "the POKéMON LEAGUE.\p"
+    .string "Don't let down your guard.$"
 
 
 VictoryRoad3F_Text_Guay2Intro:
-	.string "¡Te demostraré lo fuerte que eres\n"
-	.string "de verdad!$"
+    .string "I'll show you just how good you\n"
+    .string "are. Not!$"
 
 
 VictoryRoad3F_Text_Guay2Defeated:
-	.string "¡Argh! ¡Eres increíble!$"
+    .string "I'm furious!$"
 
 
 VictoryRoad3F_Text_Guay2PostBattle:
-	.string "¡Yo soy la que ha aprendido\n"
-	.string "la lección!$"
+    .string "You showed me just how good\n"
+    .string "I was…$"
 
 
 VictoryRoad3F_Text_Guay3Intro:
-	.string "¡Los ENTRENADORES solo viven para\n"
-	.string "buscar enemigos más fuertes!$"
+    .string "TRAINERS live to seek stronger\n"
+    .string "opponents.$"
 
 
 VictoryRoad3F_Text_Guay3Defeated:
-	.string "¡Oooooh!\n"
-	.string "¡Eres tan fuerte!$"
+    .string "Oh!\n"
+    .string "So strong!$"
 
 
 VictoryRoad3F_Text_Guay3PostBattle:
-	.string "¡Librar duros combates te hará\n"
-	.string "más fuerte!$"
+    .string "By fighting tough battles, you get\n"
+    .string "stronger.$"
 
 
 VictoryRoad3F_Text_Guay4Intro:
@@ -10366,56 +10374,52 @@ PlayaTesoro_Text_NadadoraPostBattle:
 
 
 MtEmberEntrance_Text_ChicaIntro:
-	.string "¿Sabes cómo se forman las cuevas\n"
-	.string "en el interior de los volcanes?$"
+    .string "Do you know how caves form inside\n"
+    .string "volcanoes?$"
 
 
 MtEmberEntrance_Text_ChicaDefeated:
-	.string "¡Aaaah!\n"
-	.string "¡Eres increíble!$"
+    .string "Atchah!\n"
+    .string "You're shockingly good!$"
 
 
 MtEmberEntrance_Text_ChicaPostBattle:
-	.string "Cuando la lava de la superficie se\n"
-	.string "solidifica, aún puede quedar magma\l"
-	.string "por salir.\p"
-	.string "Y son los conductos que abre\n"
-	.string "en su camino al exterior, los que\l"
-	.string "pasan a ser las cuevas.$"
+    .string "When lava at the surface of magma\n"
+    .string "hardens, and the magma inside flows\l"
+    .string "out, caverns are left behind.$"
 
 
 MtEmberEntrance_Text_ChicoIntro:
-	.string "Se dice que un volcán está activo,\n"
-	.string "cuando entra en erupción o está\l"
-	.string "a punto.$"
+    .string "An active volcano is one that's\n"
+    .string "erupting, or about to.$"
 
 
 MtEmberEntrance_Text_ChicoDefeated:
-	.string "Guau... ¡qué pasada!\n"
-	.string "¡Me ha entrado un calor!$"
+    .string "Whew… That was hot!\n"
+    .string "Sweat's erupting from me!$"
 
 
 MtEmberEntrance_Text_ChicoPostBattle:
-	.string "Dicen que hay unos 1.500 volcanes\n"
-	.string "activos en todo el mundo.\p"
-	.string "Cada vez que lo pienso, ¡me entra\n"
-	.string "una cosa!$"
+    .string "They say there're over 1,500\n"
+    .string "active volcanoes in the world.\p"
+    .string "Just thinking about them makes me\n"
+    .string "feel all hot and gooey inside!$"
 
 
 MtEmberEntrance_Text_LuchadoraIntro:
-	.string "He estado entrenándome para\n"
-	.string "recuperar mi fuerza interior...\p"
-	.string "¡Y lo que sin duda he conseguido\n"
-	.string "ha sido ponerme en forma!$"
+    .string "I've been in training so I can mend\n"
+    .string "my broken heart…\p"
+    .string "It toughened me up physically at\n"
+    .string "least! Hi-yah!$"
 
 
 MtEmberEntrance_Text_LuchadoraDefeated:
-	.string "Creo que he exagerado...$"
+    .string "I think I tried to overdo it…$"
 
 
 MtEmberEntrance_Text_LuchadoraPostBattle:
-	.string "Luchando me recuerdas a mi antiguo\n"
-	.string "noviete...$"
+    .string "The way you battle, it reminds me\n"
+    .string "of the guy who dumped me…$"
 
 
 MtEmberB1F_Text_SoldadoIntro:
@@ -11715,7 +11719,7 @@ CinnabarMansionS2_Text_Cientifico3Intro:
 
 
 CinnabarMansionS2_Text_Cientifico3Defeated:
-	.string "¡Solo OAK puede gobernar KANTO!$"
+	.string "¡Only OAK can rule over KANTO!$"
 
 
 CinnabarMansionS2_Text_Cientifico3PostBattle:
@@ -11735,7 +11739,7 @@ Route46_Text_ChicaIntro:
 
 
 Route46_Text_ChicaDefeated:
-	.string "¡Qué POKÉMON tan guays!$"
+	.string "How cool are your pokemon!$"
 
 
 Route46_Text_ChicaPostBattle:
@@ -11770,7 +11774,7 @@ Route29_Text_ChicoIntro:
 
 
 Route29_Text_ChicoDefeated:
-	.string "¡Con un NIDOKING te habría ganado!$"
+	.string "With a NIDOKING that was GG!$"
 
 
 Route29_Text_ChicoPostBattle:
@@ -11788,7 +11792,7 @@ Route29_Text_SabioIntro:
 
 
 Route29_Text_SabioDefeated:
-	.string "¡Qué gran poder!$"
+	.string "What a power!$"
 
 
 Route29_Text_SabioPostBattle:
@@ -11812,9 +11816,8 @@ Route30_Text_SabioDefeated:
 
 
 Route30_Text_SabioPostBattle:
-	.string "¿Cómo?\n"
-	.string "¿TEAM ROCKET?\l"
-	.string "Jamás había oído hablar de ello.$"
+	.string "What? TEAM ROCKET? I've never heard\n"
+	.string "about that!$"
 
 
 Route30_Text_CazabichosIntro:
@@ -11886,7 +11889,7 @@ VioletSprotTowerP1_Text_PensadorIntro:
 
 
 VioletSprotTowerP1_Text_PensadorDefeated:
-	.string "¿De qué lugar vienes tú?$"
+	.string "Where are you from?$"
 
 
 VioletSprotTowerP1_Text_PensadorPostBattle:
@@ -11939,7 +11942,7 @@ VioletSprotTowerP2_Text_Pensador2Intro:
 
 VioletSprotTowerP2_Text_Pensador2Defeated:
 	.string "¡VICTREBEEL!\n"
-	.string "¿Qué ha ocurrido?$"
+	.string "What happened?$"
 
 
 VioletSprotTowerP2_Text_Pensador2PostBattle:
@@ -11957,7 +11960,7 @@ VioletGym_Text_ChicoIntro:
 
 
 VioletGym_Text_ChicoDefeated:
-	.string "¡Mis preciadas aves!$"
+	.string "¡My birds!$"
 
 
 VioletGym_Text_ChicoPostBattle:
@@ -11977,7 +11980,7 @@ VioletGym_Text_Chico2Intro:
 
 
 VioletGym_Text_Chico2Defeated:
-	.string "¡No puede ser cierto!$"
+	.string "It can't be true!$"
 
 
 VioletGym_Text_Chico2PostBattle:
@@ -12043,12 +12046,12 @@ Route32_Text_Pescador2Intro:
 
 
 Route32_Text_Pescador2Defeated:
-	.string "¡Piedad!$"
+	.string "Don't hurt me!$"
 
 
 Route32_Text_Pescador2PostBattle:
-	.string "¿Un GYARADOS rojo?\n"
-	.string "Estás de broma, ¿no?$"
+	.string "A reddish GYARADOS?\n"
+	.string "It's a joke, right?$"
 
 
 Route32_Text_Pescador3Intro:
@@ -12113,7 +12116,7 @@ UnionCave_Text_MontaneroIntro:
 
 
 UnionCave_Text_MontaneroDefeated:
-	.string "¡Qué potencia!$"
+	.string "You crushed me!$"
 
 
 UnionCave_Text_MontaneroPostBattle:
@@ -12281,7 +12284,7 @@ Route33_Text_SabioIntro:
 
 Route33_Text_SabioDefeated:
 	.string "Ah...\n"
-	.string "La juventud...$"
+	.string "The new generations...$"
 
 
 Route33_Text_SabioPostBattle:
@@ -12318,8 +12321,8 @@ AzaleaGym_Text_Cazabichos2Intro:
 
 
 AzaleaGym_Text_Cazabichos2Defeated:
-	.string "¡No!\n"
-	.string "¡Tenía a HERACROSS conmigo!$"
+	.string "No!\n"
+	.string "But I had a HERACROSS!$"
 
 
 AzaleaGym_Text_Cazabichos2PostBattle:
@@ -12483,7 +12486,7 @@ Route34_Text_RicoIntro:
 
 
 Route34_Text_RicoDefeated:
-	.string "¡Buaaahhh!$"
+	.string "Buaaahhh!$"
 
 
 Route34_Text_RicoPostBattle:
@@ -12588,7 +12591,7 @@ GoldenrodRadioTowerP2_Text_CaballeroIntro:
 
 
 GoldenrodRadioTowerP2_Text_CaballeroDefeated:
-	.string "¿Y esos POKÉMON?$"
+	.string "And these pokemon?$"
 
 
 GoldenrodRadioTowerP2_Text_CaballeroPostBattle:
@@ -12757,7 +12760,7 @@ Route36_Text_SabioIntro:
 
 
 Route36_Text_SabioDefeated:
-	.string "Oh, ¡qué gran potencial!$"
+	.string "Oh, you overpowered me!$"
 
 
 Route36_Text_SabioPostBattle:
@@ -12899,7 +12902,7 @@ EcruteakGym_Text_ExorcistaIntro:
 
 
 EcruteakGym_Text_ExorcistaDefeated:
-	.string "¡Ayayayaya!$"
+	.string "Ayayayaya!$"
 
 
 EcruteakGym_Text_ExorcistaPostBattle:
@@ -12917,7 +12920,7 @@ EcruteakGym_Text_Exorcista2Intro:
 
 
 EcruteakGym_Text_Exorcista2Defeated:
-	.string "¡Ñiñiñiñiñiñi!$"
+	.string "Ñiñiñiñiñiñi!$"
 
 
 EcruteakGym_Text_Exorcista2PostBattle:
@@ -12956,8 +12959,8 @@ Route38_Text_CalvoIntro:
 
 
 Route38_Text_CalvoDefeated:
-	.string "¡Aghh!\n"
-	.string "¡Tú!$"
+	.string "Aghh!\n"
+	.string "You!$"
 
 
 Route38_Text_CalvoPostBattle:
@@ -12996,7 +12999,7 @@ Route38_Text_ChicoIntro:
 
 
 Route38_Text_ChicoDefeated:
-	.string "¡Qué falta de respeto!$"
+	.string "What a lack of respect!$"
 
 
 Route38_Text_ChicoPostBattle:
@@ -13034,7 +13037,7 @@ Route39_Text_MarineroIntro:
 
 
 Route39_Text_MarineroDefeated:
-	.string "¡Qué descaro!$"
+	.string "You cheeky!$"
 
 
 Route39_Text_MarineroPostBattle:
@@ -13065,7 +13068,7 @@ OliivineLighthouse_Text_CaballeroIntro:
 
 
 OliivineLighthouse_Text_CaballeroDefeated:
-	.string "Uff... Debo entrenar más.$"
+	.string "Uff... I must train harder.$"
 
 
 OliivineLighthouse_Text_CaballeroPostBattle:
@@ -13252,7 +13255,7 @@ Route42_Text_MontaneroIntro:
 
 
 Route42_Text_MontaneroDefeated:
-	.string "¡Gahahah!$"
+	.string "Gahahah!$"
 
 
 Route42_Text_MontaneroPostBattle:
@@ -13349,8 +13352,8 @@ OlivineBoat2_Text_RicoIntro:
 
 
 OlivineBoat2_Text_RicoDefeated:
-	.string "¡TYRANITAR!\n"
-	.string "¡No!$"
+	.string "TYRANITAR!\n"
+	.string "No!$"
 
 
 OlivineBoat2_Text_RicoPostBattle:
@@ -13365,7 +13368,7 @@ OlivineBoat2_Text_RicoPostBattle:
 
 
 OlivineBoat2_Text_MarineroIntro:
-	.string "¡Aquí es donde trabajamos!$"
+	.string "We are working here!$"
 
 
 OlivineBoat2_Text_MarineroDefeated:
@@ -13387,8 +13390,8 @@ OlivineBoat2_Text_GuayIntro:
 
 
 OlivineBoat2_Text_GuayDefeated:
-	.string "¿Qué?\n"
-	.string "¿Me han derrotado?$"
+	.string "What?\n"
+	.string "I lose?$"
 
 
 OlivineBoat2_Text_GuayPostBattle:
@@ -13469,7 +13472,7 @@ Route41_Text_NadadoraIntro:
 
 
 Route41_Text_NadadoraDefeated:
-	.string "¡Caramba!$"
+	.string "Gee!$"
 
 
 Route41_Text_NadadoraPostBattle:
