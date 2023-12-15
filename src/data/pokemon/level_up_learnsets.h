@@ -710,7 +710,7 @@ static const struct LevelUpMove sWigglytuffLevelUpLearnset[] = {
 static const struct LevelUpMove sZubatLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 4, MOVE_BITE),
-    LEVEL_UP_MOVE( 5, MOVE_SUPERSONIC),
+    LEVEL_UP_MOVE( 5, MOVE_FLY),
     LEVEL_UP_MOVE( 7, MOVE_MUD_SLAP),
     LEVEL_UP_MOVE(13, MOVE_WING_ATTACK),
     LEVEL_UP_MOVE(17, MOVE_CONFUSE_RAY),

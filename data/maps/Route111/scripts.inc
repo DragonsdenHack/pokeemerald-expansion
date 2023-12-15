@@ -473,25 +473,23 @@ Route111_EventScript_RematchDusty::
 	end
 
 Route111_EventScript_Travis::
-	trainerbattle_single TRAINER_TRAVIS, Route111_Text_TravisIntro, Route111_Text_TravisDefeat
+	trainerbattle_single TRAINER_TRAINER_258, Route111_Text_TravisIntro, Route111_Text_TravisDefeat
 	msgbox Route111_Text_TravisPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Irene::
-	trainerbattle_single TRAINER_IRENE, Route111_Text_IreneIntro, Route111_Text_IreneDefeat
+	trainerbattle_single TRAINER_TRAINER_262, Route111_Text_IreneIntro, Route111_Text_IreneDefeat
 	msgbox Route111_Text_IrenePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Daisuke::
-	trainerbattle_single TRAINER_DAISUKE, Route111_Text_DaisukeIntro, Route111_Text_DaisukeDefeat
+	trainerbattle_single TRAINER_TRAINER_260, Route111_Text_DaisukeIntro, Route111_Text_DaisukeDefeat
 	msgbox Route111_Text_DaisukePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Wilton::
-	trainerbattle_single TRAINER_JADEN, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat, Route111_EventScript_RegisterWilton
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route111_EventScript_RematchWilton
-	msgbox Route111_Text_WiltonPostBattle, MSGBOX_DEFAULT
+	trainerbattle_single TRAINER_TRAINER_261, Route111_Text_WiltonIntro, Route111_Text_WiltonDefeat,
+	msgbox Route111_Text_WiltonPostBattle, MSGBOX_AUTOCLOSE
 	release
 	end
 
@@ -509,9 +507,7 @@ Route111_EventScript_RematchWilton::
 	end
 
 Route111_EventScript_Brooke::
-	trainerbattle_single TRAINER_BROOKE_1, Route111_Text_BrookeIntro, Route111_Text_BrookeDefeat, Route111_EventScript_RegisterBrooke
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route111_EventScript_RematchBrooke
+	trainerbattle_single TRAINER_TRAINER_259, Route111_Text_BrookeIntro, Route111_Text_BrookeDefeat,
 	msgbox Route111_Text_BrookePostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -530,22 +526,22 @@ Route111_EventScript_RematchBrooke::
 	end
 
 Route111_EventScript_Hayden::
-	trainerbattle_single TRAINER_HAYDEN, Route111_Text_HaydenIntro, Route111_Text_HaydenDefeat
+	trainerbattle_single TRAINER_TRAINER_264, Route111_Text_HaydenIntro, Route111_Text_HaydenDefeat
 	msgbox Route111_Text_HaydenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Bianca::
-	trainerbattle_single TRAINER_BIANCA, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat
+	trainerbattle_single TRAINER_TRAINER_266, Route111_Text_BiancaIntro, Route111_Text_BiancaDefeat
 	msgbox Route111_Text_BiancaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Tyron::
-	trainerbattle_single TRAINER_TYRON, Route111_Text_TyronIntro, Route111_Text_TyronDefeat
+	trainerbattle_single TRAINER_TRAINER_265, Route111_Text_TyronIntro, Route111_Text_TyronDefeat
 	msgbox Route111_Text_TyronPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route111_EventScript_Celina::
-	trainerbattle_single TRAINER_CELINA, Route111_Text_CelinaIntro, Route111_Text_CelinaDefeat
+	trainerbattle_single TRAINER_TRAINER_263, Route111_Text_CelinaIntro, Route111_Text_CelinaDefeat
 	msgbox Route111_Text_CelinaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
