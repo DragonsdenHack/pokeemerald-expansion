@@ -333,7 +333,7 @@ static const u32 sRegionMapFrameTilemapLZ[] = INCBIN_U32("graphics/pokenav/regio
 static const u16 sFlyTargetIcons_Pal[] = INCBIN_U16("graphics/pokenav/region_map/fly_target_icons.gbapal");
 static const u32 sFlyTargetIcons_Gfx[] = INCBIN_U32("graphics/pokenav/region_map/fly_target_icons.4bpp.lz");
 
-static const u8 sMapHealLocations[][3] =
+static const u16 sMapHealLocations[][3] =
 {
     [MAPSEC_LITTLEROOT_TOWN] = {MAP_GROUP(LITTLEROOT_TOWN), MAP_NUM(LITTLEROOT_TOWN), HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F},
     [MAPSEC_OLDALE_TOWN] = {MAP_GROUP(OLDALE_TOWN), MAP_NUM(OLDALE_TOWN), HEAL_LOCATION_OLDALE_TOWN},
@@ -383,7 +383,7 @@ static const u8 sMapHealLocations[][3] =
     [MAPSEC_BLACKTHORN_CITY] = {MAP_GROUP(BLACKTHORN_CITY), MAP_NUM(BLACKTHORN_CITY), HEAL_LOCATION_BLACKTHORN_CITY},
     [MAPSEC_MT_SILVER] = {MAP_GROUP(MT_SILVER), MAP_NUM(MT_SILVER), HEAL_LOCATION_MT_SILVER},
     [MAPSEC_ROCKET_HIDEOUT_JOHTO] = {MAP_GROUP(SOUTH_ROUTE45), MAP_NUM(SOUTH_ROUTE45), HEAL_LOCATION_SOUTH_ROUTE45},
-
+	
     [MAPSEC_ROUTE_101] = {MAP_GROUP(ROUTE101), MAP_NUM(ROUTE101), 0},
     [MAPSEC_ROUTE_102] = {MAP_GROUP(ROUTE102), MAP_NUM(ROUTE102), 0},
     [MAPSEC_ROUTE_103] = {MAP_GROUP(ROUTE103), MAP_NUM(ROUTE103), 0},
@@ -2344,7 +2344,7 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case SEVII_123:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
+                    canFlyFlag = FLAG_VISITED_ONE_ISLAND;
                     for (mapSecId = MAPSEC_ONE_ISLAND; mapSecId <= MAPSEC_THREE_ISLAND; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
@@ -2378,7 +2378,7 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case SEVII_45:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
+                    canFlyFlag = FLAG_VISITED_FOUR_ISLAND;
                     for (mapSecId = MAPSEC_FOUR_ISLAND; mapSecId <= MAPSEC_FIVE_ISLAND; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
@@ -2412,7 +2412,7 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case SEVII_67:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
+                    canFlyFlag = FLAG_VISITED_SIX_ISLAND;
                     for (mapSecId = MAPSEC_SIX_ISLAND; mapSecId <= MAPSEC_SEVEN_ISLAND; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
@@ -2446,7 +2446,7 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case REGION_JOHTO:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
+                    canFlyFlag = FLAG_VISITED_ROCKET_HIDEOUT_JOHTO;
                     for (mapSecId = MAPSEC_NEW_BARK_TOWN; mapSecId <= MAPSEC_BLACKTHORN_CITY; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
