@@ -43,7 +43,7 @@ Route123_EventScript_BerryMastersHouseSign::
 	end
 
 Route123_EventScript_Wendy::
-	trainerbattle_single TRAINER_WENDY, Route123_Text_WendyIntro, Route123_Text_WendyDefeat
+	trainerbattle_single TRAINER_TRAINER_296, Route123_Text_WendyIntro, Route123_Text_WendyDefeat
 	msgbox Route123_Text_WendyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -53,12 +53,12 @@ Route123_EventScript_Braxton::
 	end
 
 Route123_EventScript_Violet::
-	trainerbattle_single TRAINER_VIOLET, Route123_Text_VioletIntro, Route123_Text_VioletDefeat
+	trainerbattle_single TRAINER_TRAINER_290, Route123_Text_VioletIntro, Route123_Text_VioletDefeat
 	msgbox Route123_Text_VioletPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_Cameron::
-	trainerbattle_single TRAINER_CAMERON_1, Route123_Text_CameronIntro, Route123_Text_CameronDefeat, Route123_EventScript_RegisterCameron
+	trainerbattle_single TRAINER_TRAINER_291, Route123_Text_CameronIntro, Route123_Text_CameronDefeat, Route123_EventScript_RegisterCameron
 	specialvar VAR_RESULT, ShouldTryRematchBattle
 	goto_if_eq VAR_RESULT, TRUE, Route123_EventScript_RematchCameron
 	msgbox Route123_Text_CameronPostBattle, MSGBOX_DEFAULT
@@ -110,7 +110,7 @@ Route123_EventScript_Yuki::
 	end
 
 Route123_EventScript_Kindra::
-	trainerbattle_single TRAINER_KINDRA, Route123_Text_KindraIntro, Route123_Text_KindraDefeat
+	trainerbattle_single TRAINER_TRAINER_295, Route123_Text_KindraIntro, Route123_Text_KindraDefeat
 	msgbox Route123_Text_KindraPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -125,27 +125,27 @@ Route123_EventScript_Alberto::
 	end
 
 Route123_EventScript_Ed::
-	trainerbattle_single TRAINER_BRUNO_1, Route123_Text_EdIntro, Route123_Text_EdDefeat
+	trainerbattle_single TRAINER_TRAINER_294, Route123_Text_EdIntro, Route123_Text_EdDefeat
 	msgbox Route123_Text_EdPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_Kayley::
-	trainerbattle_single TRAINER_KAYLEY, Route123_Text_KayleyIntro, Route123_Text_KayleyDefeat
+	trainerbattle_single TRAINER_TRAINER_293, Route123_Text_KayleyIntro, Route123_Text_KayleyDefeat
 	msgbox Route123_Text_KayleyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_Jonas::
-	trainerbattle_single TRAINER_JONAS, Route123_Text_JonasIntro, Route123_Text_JonasDefeat
+	trainerbattle_single TRAINER_TRAINER_292, Route123_Text_JonasIntro, Route123_Text_JonasDefeat
 	msgbox Route123_Text_JonasPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_Jazmyn::
-	trainerbattle_single TRAINER_JAZMYN, Route123_Text_JazmynIntro, Route123_Text_JazmynDefeat
+	trainerbattle_single TRAINER_TRAINER_289, Route123_Text_JazmynIntro, Route123_Text_JazmynDefeat
 	msgbox Route123_Text_JazmynPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_Davis::
-	trainerbattle_single TRAINER_DAVIS, Route123_Text_DavisIntro, Route123_Text_DavisDefeat
+	trainerbattle_single TRAINER_TRAINER_288, Route123_Text_DavisIntro, Route123_Text_DavisDefeat
 	msgbox Route123_Text_DavisPostBattle, MSGBOX_AUTOCLOSE
 	end
 

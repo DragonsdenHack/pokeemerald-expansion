@@ -629,8 +629,8 @@
 #define TRAINER_CLASS_POKEFAN_2          0xC2
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
-#define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music
-#define TRAINER_ENCOUNTER_MUSIC_GIRL         2 // used for male Tubers and Young Couples too
+#define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music - sr aroma, dama parasol
+#define TRAINER_ENCOUNTER_MUSIC_GIRL         2 // used for male Tubers and Young Couples too - playera, niñas pequeñas, campistas
 #define TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS   3 // necio hoenn, posible cientifico hoenn-devon
 #define TRAINER_ENCOUNTER_MUSIC_INTENSE      4 // karateka, guitarrista hoenn
 #define TRAINER_ENCOUNTER_MUSIC_COOL         5 // guays hoenn y johto
