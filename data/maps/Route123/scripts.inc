@@ -48,7 +48,7 @@ Route123_EventScript_Wendy::
 	end
 
 Route123_EventScript_Braxton::
-	trainerbattle_single TRAINER_BRUNO_1, Route123_Text_BraxtonIntro, Route123_Text_BraxtonDefeat
+	trainerbattle_single TRAINER_TRAINER_297, Route123_Text_BraxtonIntro, Route123_Text_BraxtonDefeat
 	msgbox Route123_Text_BraxtonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -79,9 +79,7 @@ Route123_EventScript_RematchCameron::
 	end
 
 Route123_EventScript_Jacki::
-	trainerbattle_single TRAINER_JACKI_1, Route123_Text_JackiIntro, Route123_Text_JackiDefeat, Route123_EventScript_RegisterJacki
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route123_EventScript_RematchJacki
+	trainerbattle_single TRAINER_TRAINER_300, Route123_Text_JackiIntro, Route123_Text_JackiDefeat,
 	msgbox Route123_Text_JackiPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -115,12 +113,12 @@ Route123_EventScript_Kindra::
 	end
 
 Route123_EventScript_Frederick::
-	trainerbattle_single TRAINER_BRUNO_1, Route123_Text_FrederickIntro, Route123_Text_FrederickDefeat
+	trainerbattle_single TRAINER_TRAINER_301, Route123_Text_FrederickIntro, Route123_Text_FrederickDefeat
 	msgbox Route123_Text_FrederickPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route123_EventScript_Alberto::
-	trainerbattle_single TRAINER_ALBERTO, Route123_Text_AlbertoIntro, Route123_Text_AlbertoDefeat
+	trainerbattle_single TRAINER_TRAINER_298, Route123_Text_AlbertoIntro, Route123_Text_AlbertoDefeat
 	msgbox Route123_Text_AlbertoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -150,9 +148,7 @@ Route123_EventScript_Davis::
 	end
 
 Route123_EventScript_Fernando::
-	trainerbattle_single TRAINER_FERNANDO_1, Route123_Text_FernandoIntro, Route123_Text_FernandoDefeat, Route123_EventScript_RegisterFernando
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route123_EventScript_RematchFernando
+	trainerbattle_single TRAINER_TRAINER_299, Route123_Text_FernandoIntro, Route123_Text_FernandoDefeat,
 	msgbox Route123_Text_FernandoPostBattle, MSGBOX_DEFAULT
 	release
 	end

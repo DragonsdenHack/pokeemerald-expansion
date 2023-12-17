@@ -633,7 +633,7 @@
 #define TRAINER_ENCOUNTER_MUSIC_GIRL         2 // used for male Tubers and Young Couples too - playera, niñas pequeñas, campistas
 #define TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS   3 // necio hoenn, posible cientifico hoenn-devon
 #define TRAINER_ENCOUNTER_MUSIC_INTENSE      4 // karateka, guitarrista hoenn
-#define TRAINER_ENCOUNTER_MUSIC_COOL         5 // guays hoenn y johto
+#define TRAINER_ENCOUNTER_MUSIC_COOL         5 // guays hoenn y johto, pokeguardas johto
 #define TRAINER_ENCOUNTER_MUSIC_AQUA         6
 #define TRAINER_ENCOUNTER_MUSIC_MAGMA        7
 #define TRAINER_ENCOUNTER_MUSIC_SWIMMER      8 // Caballero johto en binario, Marinero Johto
