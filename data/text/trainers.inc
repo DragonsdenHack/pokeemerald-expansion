@@ -1,15 +1,15 @@
 Route102_Text_CalvinIntro:
-	.string "If you have POKéMON with you, then\n"
-	.string "you're an official POKéMON TRAINER!\l"
-	.string "You can't say no to my challenge!$"
+	.string "Si llevas algún POKÉMON contigo,\n"
+	.string "oficialmente entrenas Pokémon. ¡No\l"
+	.string "puedes negarte a luchar conmigo!$"
 
 Route102_Text_CalvinDefeated:
-	.string "Arrgh, I lost…\n"
-	.string "I should have trained mine more…$"
+	.string "Aaaargh, he perdido… Debería haber\n"
+	.string "entrenado más…$"
 
 Route102_Text_CalvinPostBattle:
-	.string "Listen, you. If you're strong,\n"
-	.string "you should have told me before!$"
+	.string "Vamos a ver, si eres tan fuerte,\n"
+	.string "¡deberías habérmelo dicho antes!$"
 
 Route102_Text_CalvinRegister:
 	.string "I've been working hard at this since\n"
@@ -35,50 +35,50 @@ Route102_Text_CalvinRematchPostBattle:
 	.string "I'll get stronger, too.$"
 
 Route102_Text_AllenIntro:
-	.string "Did you just become a TRAINER?\n"
-	.string "We're both beginners!$"
+	.string "¿Acabas de empezar a entrenar\n"
+	.string "POKÉMON? ¡Yo también!$"
 
 Route102_Text_AllenDefeated:
-	.string "I called you because I thought\n"
-	.string "I could beat you…$"
+	.string "Te he desafiado porque pensé que\n"
+	.string "podría vencerte fácilmente…$"
 
 Route102_Text_AllenPostBattle:
-	.string "I haven't won once yet…\n"
-	.string "I wish I would win soon…$"
+	.string "Todavía no he ganado ni una vez… Ojalá\n"
+	.string "gane algún combate pronto…$"
 
 Route102_Text_RickIntro:
-	.string "Hahah! Our eyes met!\n"
-	.string "I'll take you on with my BUG POKéMON!$"
+	.string "¡Ajajá! ¡Me estabas mirando! ¡Te\n"
+	.string "desafío con mis POKÉMON BICHO!$"
 
 Route102_Text_RickDefeated:
-	.string "Ow! Down and out!$"
+	.string "¡Ooooh! ¡Me has noqueado!$"
 
 Route102_Text_RickPostBattle:
-	.string "If you lock eyes with a TRAINER,\n"
-	.string "you have to challenge! It's a rule!$"
+	.string "Si miras a los ojos a un ENTRENADOR, ¡le\n"
+	.string "estás desafiando! ¡Son las reglas!$"
 
 Route102_Text_TianaIntro:
-	.string "I'm going to keep winning and aim\n"
-	.string "to be the best TRAINER.\p"
-	.string "Help me further my career!$"
+	.string "Voy a seguir con mi racha de victorias\n"
+	.string "hasta ser la mejor ENTRENADORA. ¡Y tú\l"
+	.string "vas a ayudarme!$"
 
 Route102_Text_TianaDefeated:
-	.string "I ended up furthering your career…$"
+	.string "Mi carrera está estancada…$"
 
 Route102_Text_TianaPostBattle:
-	.string "To keep winning my way up, I see that\n"
-	.string "I have to catch more POKéMON.$"
+	.string "Para seguir avanzando, tengo que\n"
+	.string "atrapar más POKÉMON.$"
 
 Route103_Text_DaisyIntro:
-	.string "Did you feel the tug of our\n"
-	.string "soul-soothing fragrance?$"
+	.string "¿Te ha atraído el dulce aroma que\n"
+	.string "emanamos?$"
 
 Route103_Text_DaisyDefeated:
-	.string "You weren't led astray by our aroma…$"
+    .string "Pues no ha debido de ser el aroma…$"
 
 Route103_Text_DaisyPostBattle:
-	.string "Aromatherapy is a form of mental\n"
-	.string "healing that works with fragrances.$"
+	.string "La aromaterapia es una técnica de\n"
+	.string "curación mediante el uso de fragancias.$"
 
 Route103_Text_AmyIntro:
 	.string "AMY: I'm AMY.\n"
@@ -157,29 +157,28 @@ Route103_Text_LivRematchNotEnoughPokemon:
 	.string "It's not fair if you don't!$"
 
 Route103_Text_AndrewIntro:
-	.string "Gah! My fishing line's all snarled up!\n"
-	.string "I'm getting frustrated and mean!\l"
-	.string "That's it! Battle me!$"
+	.string "¡Brrrr! ¡Mi hilo de pescar está todo\n"
+	.string "enredado! ¡Qué fastidio tan gordo! ¡La\l"
+	.string "voy a pagar contigo!$"
 
 Route103_Text_AndrewDefeated:
-	.string "Gah! Lost it!\n"
-	.string "I'm even more annoyed now!$"
+	.string "¡Brrrr! ¡He perdido! ¡Ahora estoy aún\n"
+	.string "más mosqueado!$"
 
 Route103_Text_AndrewPostBattle:
-	.string "Gah, I'm still boiling mad…\n"
-	.string "Grrrrr…$"
+	.string "¡Brrrr! ¡Qué mosqueo más tonto tengo!\n"
+	.string "¡Brrrrrrrrrr!$"
 
 Route103_Text_MiguelIntro:
-	.string "My POKéMON is delightfully adorable!\n"
-	.string "Don't be shy--I'll show you!$"
+	.string "Mi POKÉMON es una monada. ¡Mira, te lo\n"
+	.string "voy a enseñar!$"
 
 Route103_Text_MiguelDefeated:
-	.string "Oh, my gosh!\n"
-	.string "My darling POKéMON!$"
+.string "¡Ay, ay, ay, ay! ¡Mi POKÉMON bonito!$"
 
 Route103_Text_MiguelPostBattle:
-	.string "My delightful POKéMON looks darling\n"
-	.string "even when it's fainted!$"
+	.string "Mi querido POKÉMON es una monada hasta\n"
+	.string "cuando está debilitado.$"
 
 Route103_Text_MiguelRegister:
 	.string "I'll get you to come out and look in\n"
@@ -222,28 +221,27 @@ Route103_Text_IsabellePostBattle:
 	.string "Sorry for almost crashing into you.$"
 
 Route103_Text_RhettIntro:
-	.string "Whoa!\n"
-	.string "How'd you get into a space this small?$"
+.string "¡Guay! ¿Cómo te has metido aquí?$"
 
 Route103_Text_RhettDefeated:
-	.string "Whoa!\n"
-	.string "The kid can rock!$"
+	.string "¡Guau!\n"
+	.string "¡Qué potencia!$"
 
 Route103_Text_RhettPostBattle:
-	.string "Do you like cramped quarters\n"
-	.string "like this?$"
+.string "¿A ti te gustan los espacios pequeños?$"
 
 Route103_Text_MarcosIntro:
-	.string "Did my guitar's wailing draw you in?$"
+	.string "Las notas de mi guitarra atraen a la\n"
+	.string "gente. ¡La prueba eres tú!$"
 
 Route103_Text_MarcosDefeated:
-	.string "My one-man show is ruined…$"
+	.string "Has arruinado mi espectáculo…$"
 
 Route103_Text_MarcosPostBattle:
-	.string "I was playing my guitar where few\n"
-	.string "people were around, but a lot of fans\l"
-	.string "have gathered.\p"
-	.string "Heh, maybe I should turn pro.$"
+	.string "Siempre busco lugares solitarios para\n"
+	.string "tocar, pero al final acabo rodeado de\l"
+	.string "gente. Voy a tener que hacerme\l"
+	.string "profesional…$"
 
 Route104_Text_GinaIntro:
 	.string "GINA: Okay, let's battle with our\n"
@@ -1004,39 +1002,38 @@ Route109_Text_ElijahPostBattle:
 	.string "I guess I'll head for SLATEPORT.$"
 
 Route110_Text_JacobIntro:
-	.string "Whoa! Watch it!\n"
-	.string "I guess you're not used to BIKE racing.$"
+	.string "¡Eh! ¡Cuidado! ¡Se ve que no sueles\n"
+	.string "hacer carreras de BICIS!$"
 
 Route110_Text_JacobDefeated:
-	.string "Whoa!\n"
-	.string "My brakes failed!$"
+    .string "¡Aaah! ¡Me han fallado los frenos!$"
 
 Route110_Text_JacobPostBattle:
-	.string "Flat tires and brake problems can\n"
-	.string "cause serious injury!\l"
-	.string "Inspect your BIKE for problems!$"
+	.string "Cuando las ruedas están desinfladas o\n"
+	.string "hay problemas de frenos, puedes tener\l"
+	.string "un accidente. ¡Revisa tu BICI!$"
 
 Route110_Text_AnthonyIntro:
-	.string "Yo, you!\n"
-	.string "Can you keep up with my speed?$"
+.string "¡Eh,tú! ¿Puedes alcanzarme?$"
 
 Route110_Text_AnthonyDefeated:
-	.string "Crash and burn!$"
+.string "¡Me has dejado atrás del todo!$"
 
 Route110_Text_AnthonyPostBattle:
-	.string "Speed alone won't let me win at POKéMON.\n"
-	.string "I need to reconsider this…$"
+	.string "No basta sólo la velocidad para ganar\n"
+	.string "en los combates POKÉMON, está claro…$"
 
 Route110_Text_BenjaminIntro:
-	.string "Don't panic if your BIKE's going fast!$"
+	.string "¡No tengas miedo si tu BICI corre\n"
+	.string "mucho!$"
 
 Route110_Text_BenjaminDefeated:
-	.string "I shouldn't panic during POKéMON\n"
-	.string "battles…$"
+	.string "No sé por qué tengo miedo en los\n"
+	.string "combates POKÉMON.$"
 
 Route110_Text_BenjaminPostBattle:
-	.string "There's no need to panic or stress.\n"
-	.string "Take it easy. There's plenty of time.$"
+	.string "No hay por qué tener miedo de nada.\n"
+	.string "Tómate las cosas con calma…$"
 
 Route110_Text_BenjaminRegister:
 	.string "I'll keep chugging on without stressing.\n"
@@ -1054,16 +1051,17 @@ Route110_Text_BenjaminRematchPostBattle:
 	.string "Take it easy. There's plenty of time.$"
 
 Route110_Text_AbigailIntro:
-	.string "The triathlon is hard in the extreme.\p"
-	.string "You have to complete the three events\n"
-	.string "of swimming, cycling, and running.$"
+	.string "El triatlón es una prueba muy dura.\n"
+	.string "Tienes que competir en natación,\l"
+	.string "ciclismo y carrera.$"
 
 Route110_Text_AbigailDefeated:
-	.string "POKéMON battles are hard, too!$"
+	.string "¡Los combates POKÉMON tampoco son\n"
+	.string "precisamente fáciles!$"
 
 Route110_Text_AbigailPostBattle:
-	.string "I'm exhausted, so I need a break.\n"
-	.string "It's important to get proper rest.$"
+	.string "Estoy agotada, necesito descansar. Es\n"
+	.string "importante no sobreentrenar.$"
 
 Route110_Text_AbigailRegister:
 	.string "You know, I like you!\n"
@@ -1082,51 +1080,51 @@ Route110_Text_AbigailRematchPostBattle:
 	.string "I'm sorry if I held you up!$"
 
 Route110_Text_JasmineIntro:
-	.string "I've been riding without stopping.\n"
-	.string "My thighs are like rocks!$"
+	.string "¡He estado montando en BICI tanto,\n"
+	.string "tanto, que tengo los gemelos duros como\l"
+	.string "una piedra!$"
 
 Route110_Text_JasmineDefeated:
-	.string "I'm worried about muscle cramps…$"
+	.string "Creo que me ha dado un calambre…$"
 
 Route110_Text_JasminePostBattle:
-	.string "Oh, you have some GYM BADGES?\n"
-	.string "No wonder you're so strong!$"
+	.string "Así que tienes MEDALLAS de GIMNASIO…\n"
+	.string "¡Ahora lo entiendo todo!$"
 
 Route110_Text_EdwardIntro:
-	.string "I have foreseen your intentions!\n"
-	.string "I cannot possibly lose!$"
+	.string "Sé lo que piensas hacer… ¡No puedo\n"
+	.string "perder!$"
 
 Route110_Text_EdwardDefeated:
-	.string "I failed to prophesize my own demise!$"
+	.string "No he sabido predecir mi propia\n"
+	.string "derrota…$"
 
 Route110_Text_EdwardPostBattle:
-	.string "I see your future…\p"
-	.string "Hmm…\n"
-	.string "I see a shining light…$"
+	.string "Puedo ver tu futuro… Veo, veo… Mmm…\n"
+	.string "Una luz muy brillante…$"
 
 Route110_Text_JaclynIntro:
-	.string "Ahahahaha!\n"
-	.string "I'll dazzle you with my wonders!$"
+	.string "¡Ja, ja, ja, ja!\n"
+	.string "Te voy a dejar de piedra…$"
 
 Route110_Text_JaclynDefeated:
-	.string "I wondrously lost!$"
+	.string "Ahora yo estoy patidifusa…$"
 
 Route110_Text_JaclynPostBattle:
-	.string "You managed to win only because it was\n"
-	.string "a wonder! Yes, a wonder!\l"
-	.string "Don't think you can win all the time!$"
+	.string "¡Esta vez has ganado de milagro! ¡Ha\n"
+	.string "sido pura chorra! ¡No siempre será así,\l"
+	.string "ya verás!$"
 
 Route110_Text_EdwinIntro:
-	.string "Could I see your POKéMON?\n"
-	.string "Just one look, please?$"
+	.string "¿Puedo ver tus POKÉMON? Sólo una\n"
+	.string "miradita...$"
 
 Route110_Text_EdwinDefeated:
-	.string "I wanted to complete\n"
-	.string "my collection…$"
+	.string "Yo sólo quería completar mi colección...$"
 
 Route110_Text_EdwinPostBattle:
-	.string "When I see a POKéMON that I don't know,\n"
-	.string "my passion as a collector is ignited!$"
+	.string "Cuando veo un POKÉMON que no conozco,\n"
+	.string "mi pasión de coleccionista sale a flote.$"
 
 Route110_Text_EdwinRegister:
 	.string "I like collecting MATCH CALL\n"
@@ -1146,27 +1144,29 @@ Route110_Text_EdwinRematchPostBattle:
 	.string "mine!$"
 
 Route110_Text_DaleIntro:
-	.string "Hey!\n"
-	.string "Don't sneak up behind me like that!$"
+	.string "¡Pero bueno, tú!\n"
+	.string "¡Vete a darle la lata a otro!$"
 
 Route110_Text_DaleDefeated:
-	.string "I lost!\n"
-	.string "Drat!$"
+	.string "¡Aaaaaargh!\n"
+	.string "¡He perdido!$"
 
 Route110_Text_DalePostBattle:
-	.string "Fishing is all about concentration.\n"
-	.string "You have to focus on the floater.$"
+	.string "La pesca requiere concentración.\n"
+	.string "Tienes que estar pendiente del corcho\l"
+	.string "para ver si pica algo.$"
 
 Route110_Text_IsabelIntro:
-	.string "Ahahaha! I would go anywhere to show\n"
-	.string "off my delightful POKéMON.$"
+	.string "¡Ja, ja, ja! ¡Iría al fin del mundo sólo\n"
+	.string "para fardar de POKÉMON!$"
 
 Route110_Text_IsabelDefeated:
-	.string "Oh, dear, this won't do.$"
+	.string "Ésta no era precisamente la idea que\n"
+	.string "tenía yo…$"
 
 Route110_Text_IsabelPostBattle:
-	.string "Rather than battling, perhaps I should\n"
-	.string "show off my POKéMON at the FAN CLUB.$"
+	.string "Más que luchar, debería presumir de\n"
+	.string "POKÉMON en el CLUB de FANS.$"
 
 Route110_Text_IsabelRegister:
 	.string "That wasn't close to what I could\n"
@@ -1187,50 +1187,50 @@ Route110_Text_IsabelRematchPostBattle:
 	.string "But I like to battle, too!$"
 
 Route110_Text_TimmyIntro:
-	.string "I found some cool POKéMON in the grass\n"
-	.string "around here!$"
+	.string "He encontrado algunos POKÉMON\n"
+	.string "carismáticos entre la hierba.$"
 
 Route110_Text_TimmyDefeated:
-	.string "Being cool isn't enough to win…$"
+	.string "Que tengan carisma no basta para\n"
+	.string "ganar…$"
 
 Route110_Text_TimmyPostBattle:
-	.string "It's hard to battle with POKéMON you\n"
-	.string "just caught.$"
+	.string "Lo que pasa es que cuesta controlar a\n"
+	.string "los POKÉMON que acabas de atrapar…$"
 
 Route110_Text_AlyssaIntro:
-	.string "I fell off CYCLING ROAD…\p"
-	.string "I'll get over my embarrassment by\n"
-	.string "battling with you!$"
+	.string "Me he caído del CARRIL de BICIS…\n"
+	.string "¡Aunque no tengas la culpa, vas a pagar\l"
+	.string "por ello!$"
 
 Route110_Text_AlyssaDefeated:
-	.string "Oops!\n"
-	.string "I ended up losing!$"
+.string "¡Huy! ¡He perdido!$"
 
 Route110_Text_AlyssaPostBattle:
-	.string "Falling… Losing…\n"
-	.string "This is so humiliating for me!$"
+	.string "Me he caído… He perdido… ¡Qué\n"
+	.string "humillación más grande!$"
 
 Route110_Text_JosephIntro:
-	.string "Okay! Full-throttle time! If you can't\n"
-	.string "groove, you get left behind!$"
+	.string "¡Es hora de mover las caderas! ¡Baila al\n"
+	.string "ritmo de mis POKÉMON!$"
 
 Route110_Text_JosephDefeated:
-	.string "You got into the groove all right…$"
+	.string "Tu ritmo es imparable…$"
 
 Route110_Text_JosephPostBattle:
-	.string "This isn't going to bring me down!\n"
-	.string "Losing has made me a better man!$"
+	.string "¡No voy a venirme abajo por haber\n"
+	.string "perdido, porque de todo se aprende!$"
 
 Route110_Text_KalebIntro:
-	.string "When cute POKéMON help each other…\n"
-	.string "You won't see a more adorable sight!$"
+	.string "No hay imagen más encantadora que ver\n"
+	.string "a unos POKÉMON ayudándose entre sí...$"
 
 Route110_Text_KalebDefeated:
-	.string "Have you no compassion or pity?$"
+	.string "¿Pero tú no tienes corazón o qué?$"
 
 Route110_Text_KalebPostBattle:
-	.string "Okay, okay, you've done the best you\n"
-	.string "could, my pretties.$"
+	.string "Ea, ea, tranquilos, chiquitines. Habéis\n"
+	.string "dado lo mejor de vosotros.$"
 
 Route111_Text_DrewIntro:
 	.string "Oh, hey! Those GO-GOGGLES suit you.\n"
