@@ -2080,7 +2080,7 @@ lock
 faceplayer
 msgbox Text_CompraPokemon_Ruta_5 MSGBOX_AUTOCLOSE
 waitmessage
-multichoice 22, 0, MULTI_VENTA_BASE_RUTA_5, 0
+multichoice 0, 0, MULTI_VENTA_BASE_RUTA_5, 0
 switch VAR_RESULT
 case 0, EventScript_Rattata
 case 1, EventScript_Mankey
