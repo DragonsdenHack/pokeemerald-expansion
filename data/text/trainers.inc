@@ -1602,43 +1602,41 @@ Route112_Text_ShaylaPostBattle:
 	.string "mismo... Pero si tienes cosas que hacer…$"
 
 Route113_Text_JaylenIntro:
-	.string "Can you guess why it's so cool\n"
-	.string "around here?$"
+	.string "¿Sabes por qué es tan chachi vivir\n"
+	.string "aquí?$"
 
 Route113_Text_JaylenDefeat:
-	.string "Peeuuw!\n"
-	.string "That stinks!$"
+.string "¡Aaaaah! ¡Esto no es nada chachi!$"
 
 Route113_Text_JaylenPostBattle:
-	.string "The volcanic ash blocks the sun,\n"
-	.string "so it doesn't get very warm.\p"
-	.string "That's good for me--I can't stand heat!$"
+	.string "La ceniza volcánica no absorbe los\n"
+	.string "rayos del sol, así que no se calienta.\l"
+	.string "Por mí, chachi piruli... ¡No soporto el\l"
+	.string "calor!$"
 
 Route113_Text_DillonIntro:
-	.string "The volcano's eruption is proof that\n"
-	.string "the earth is alive.$"
+	.string "Cuando un volcán entra en erupción, te\n"
+	.string "das cuenta de que la tierra está viva.$"
 
 Route113_Text_DillonDefeat:
-	.string "You're some kind of strong!$"
+	.string "¡Tienes la potencia de un volcán!$"
 
 Route113_Text_DillonPostBattle:
-	.string "Ouch! Owww! I can't see!\n"
-	.string "I got ashes in my eyelashes!\p"
-	.string "Get it? Ashes and eyelashes?\p"
-	.string "Okay, that was bad, sorry…$"
+	.string "Me has extinguido... ¿Lo pillas? Tú eres\n"
+	.string "un volcán activo y yo uno extinguido,\l"
+	.string "je, je, je. Vale, sí, no tiene gracia...$"
 
 Route113_Text_MadelineIntro:
-	.string "I use this parasol to ward off this\n"
-	.string "filthy, yucky volcanic ash from\l"
-	.string "my dear NUMEL.$"
+	.string "Este parasol protege a mi querido NUMEL\n"
+	.string "de esta horrible y pegajosa ceniza\l"
+	.string "volcánica.$"
 
 Route113_Text_MadelineDefeat:
-	.string "Huff, huff…\n"
-	.string "I am exhausted…$"
+	.string "Uf, uf... Luchar con parasol es agotador.$"
 
 Route113_Text_MadelinePostBattle:
-	.string "You're very good at this.\n"
-	.string "I must say I'm impressed!$"
+	.string "Oye, se te da muy bien esto. Estoy\n"
+	.string "impresionada.$"
 
 Route113_Text_MadelineRegister:
 	.string "Here, slide under my parasol.\n"
@@ -1656,15 +1654,16 @@ Route113_Text_MadelinePostRematch:
 	.string "I must say I'm impressed!$"
 
 Route113_Text_LaoIntro:
-	.string "From out of the ashes I leap! Hiyah!\n"
-	.string "I challenge thee!$"
+	.string "¡Surjo de entre las cenizas como una\n"
+	.string "sombra! ¡Kiaaaaaaaaa! ¿Aceptas mi\l"
+	.string "desafío?$"
 
 Route113_Text_LaoDefeat:
-	.string "With honor I admit defeat!$"
+	.string "Acepto mi derrota…$"
 
 Route113_Text_LaoPostBattle:
-	.string "I must refine the art of concealment.\n"
-	.string "I bid thee farewell.$"
+	.string "Tengo que perfeccionar mi técnica de\n"
+	.string "camuflaje. ¡Me piro, vampiro!$"
 
 Route113_Text_LaoRegister:
 	.string "Yiiyaah! Witness the ancient ninja\n"
@@ -1683,18 +1682,17 @@ Route113_Text_LaoPostRematch:
 	.string "I bid thee farewell.$"
 
 Route113_Text_LungIntro:
-	.string "Thanks for finding me!\n"
-	.string "But we still have to battle!$"
+	.string "¡Has sabido encontrarme! ¡Pero ahora\n"
+	.string "debes derrotarme!$"
 
 Route113_Text_LungDefeat:
-	.string "I'll use my ninjutsu on you…\n"
-	.string "“VOLCANIC ASH SWIRL CLOAK”!\p"
-	.string "…What?\n"
-	.string "It's already over?$"
+	.string "Voy a usar el poder del ninjutsu…\n"
+	.string "¡'remolino de sombras volcánico'! ¿Que\l"
+	.string "'yatá'? ¿Cómo que 'yatá'$"
 
 Route113_Text_LungPostBattle:
-	.string "You know what's crummy about hiding?\n"
-	.string "It's lonely if no one comes along.$"
+	.string "¿Sabes lo más chungo de camuflarse?\n"
+	.string "Que, si nadie te encuentra, te aburres.$"
 
 Route113_Text_ToriIntro:
 	.string "TORI: Both of us, we collect ashes.\n"
@@ -1729,53 +1727,53 @@ Route113_Text_TiaNotEnoughMons:
 	.string "If we don't, we won't win!$"
 
 Route113_Text_CobyIntro:
-	.string "Pfft, with these wings I can\n"
-	.string "flick you away!$"
+	.string "¡Je, con estas alas te voy a enviar\n"
+	.string "volando por los aires!$"
 
 Route113_Text_CobyDefeat:
-	.string "A… What?$"
+	.string "¿Qué? ¿Cómo? ¿Cuándo? ¿Por qué?$"
 
 Route113_Text_CobyPostBattle:
-	.string "I don't know what to say when I get\n"
-	.string "beaten so easily…$"
+	.string "Que me derroten con tanta facilidad me\n"
+	.string "deja sin palabras…$"
 
 Route113_Text_SophieIntro:
-	.string "The warmth here is making me drowsy.\n"
-	.string "Battle with me so I can stay awake.$"
+	.string "Este color me da sueño. Lucha conmigo, a\n"
+	.string "ver si me despierto.$"
 
 Route113_Text_SophieDefeat:
-	.string "This is a dream.\n"
-	.string "I'm sure of it…$"
+	.string "Seguro que estoy soñando. ¡No puedo\n"
+	.string "haber perdido!$"
 
 Route113_Text_SophiePostBattle:
-	.string "Losing burns me up…\n"
-	.string "I'm just going to sleep right here!\l"
-	.string "Zzz!$"
+	.string "Perder me quema mucho… y lo único que\n"
+	.string "me relaja es echar una siestecita, así\l"
+	.string "que zzzzz…$"
 
 Route113_Text_LawrenceIntro:
-	.string "Were you maybe in the middle\n"
-	.string "of gathering volcanic ashes?$"
+	.string "¿Es posible que estés recogiendo\n"
+	.string "ceniza volcánica?$"
 
 Route113_Text_LawrenceDefeat:
-	.string "Ehehe.\n"
-	.string "We got beaten cleanly.$"
+	.string "Je, je, je, qué cenizo soy... Has ganado\n"
+	.string "con todas las de la ley.$"
 
 Route113_Text_LawrencePostBattle:
-	.string "I ought to hide under the ashes, too.$"
+	.string "Me voy a esconder entre las cenizas y,\n"
+	.string "si te he visto, no me acuerdo.$"
 
 Route113_Text_WyattIntro:
-	.string "Y-you want to battle with me?\n"
-	.string "Even though I just caught my POKéMON?$"
+	.string "¿Qui-quieres luchar conmigo? ¿Aunque\n"
+	.string "acabe de capturar mis POKÉMON?$"
 
 Route113_Text_WyattDefeat:
-	.string "Y-you're all happy to win?\n"
-	.string "Even though it's only me?$"
+	.string "¿Te alegra ha-haber ganado? ¿Aunque\n"
+	.string "no sea más que un novato?$"
 
 Route113_Text_WyattPostBattle:
-	.string "Oh, so now you want to say a word to\n"
-	.string "the loser?\p"
-	.string "Aren't you just the coolest?\n"
-	.string "Humph!$"
+	.string "Oh, ¿te dignas dirigir la palabra al\n"
+	.string "perdedor? ¿Tú siempre vas de guay?\l"
+	.string "¡Bah!$"
 
 Route114_Text_LennyIntro:
 	.string "Yodelayhihoo!\p"
@@ -1903,19 +1901,18 @@ Route114_Text_ClaudePostBattle:
 	.string "I just know it.$"
 
 Route114_Text_NolanIntro:
-	.string "I like to fish. But I also like to\n"
-	.string "battle!\p"
-	.string "If anyone challenges me, I'm there,\n"
-	.string "even if I'm fishing.$"
+	.string "Me gusta pescar, ¡pero también me gusta\n"
+	.string "luchar! Si alguien me reta, no puedo\l"
+	.string "decir que no, aunque esté pescando.$"
 
 Route114_Text_NolanDefeat:
-	.string "I like to battle, but that doesn't\n"
-	.string "mean I'm good at it…$"
+	.string "Me gusta luchar, pero eso no quiere\n"
+	.string "decir que se me dé bien en absoluto…$"
 
 Route114_Text_NolanPostBattle:
-	.string "This time I'll do it!\p"
-	.string "I always think that, so I can't walk\n"
-	.string "away from fishing or POKéMON.$"
+	.string "¡La próxima vez verás! Es lo que siempre\n"
+	.string "digo, para animarme a seguir con los\l"
+	.string "combates POKéMON.$"
 
 Route114_Text_TyraIntro:
 	.string "TYRA: Well, sure.\n"
@@ -1950,29 +1947,29 @@ Route114_Text_IvyNotEnoughMons:
 	.string "I think it must feel lonesome.$"
 
 Route114_Text_KaiIntro:
-	.string "I landed a big one!\n"
-	.string "A huge one, I tell you!$"
+	.string "¡He pescado uno enooorme! ¡Grande como\n"
+	.string "él solo, ya verás!$"
 
 Route114_Text_KaiDefeat:
-	.string "What was that about?\n"
-	.string "Did mine lose in size?$"
+	.string "¿Qué ha pasado aquí? ¿Se habrá\n"
+	.string "encogido mi POKÉMON?$"
 
 Route114_Text_KaiPostBattle:
-	.string "Okay!\n"
-	.string "I'll just fish me a bigger one!$"
+	.string "¡Me importa un comino! ¡Voy a pescar uno\n"
+	.string "aún mayor!$"
 
 Route114_Text_CharlotteIntro:
-	.string "Me!\n"
-	.string "I'm not just a pretty face!$"
+	.string "¡Quiero que sepas una cosa! ¡No sólo soy\n"
+	.string "una cara bonita!$"
 
 Route114_Text_CharlotteDefeat:
-	.string "That wasn't cute in the least!$"
+	.string "¡Esta pelea ha sido todo menos bonita!$"
 
 Route114_Text_CharlottePostBattle:
-	.string "I don't want a POKéMON that's\n"
-	.string "just cute.\p"
-	.string "I adore cute ones that have a quirk\n"
-	.string "or two!$"
+	.string "Yo no quiero un POKÉMON que sea\n"
+	.string "únicamente una monada. Me gustan los\l"
+	.string "POKÉMON bonitos que, además, tienen\l"
+	.string "alguna peculiaridad.$"
 
 Route114_Text_AngelinaIntro:
 	.string "Have you made your POKéMON evolve\n"

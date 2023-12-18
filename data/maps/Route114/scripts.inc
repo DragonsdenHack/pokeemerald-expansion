@@ -147,7 +147,7 @@ Route114_EventScript_Claude::
 	end
 
 Route114_EventScript_Nolan::
-	trainerbattle_single TRAINER_NOLAN, Route114_Text_NolanIntro, Route114_Text_NolanDefeat
+	trainerbattle_single TRAINER_TRAINER_398, Route114_Text_NolanIntro, Route114_Text_NolanDefeat
 	msgbox Route114_Text_NolanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -167,12 +167,12 @@ Route114_EventScript_Angelina::
 	end
 
 Route114_EventScript_Charlotte::
-	trainerbattle_single TRAINER_CHARLOTTE, Route114_Text_CharlotteIntro, Route114_Text_CharlotteDefeat
+	trainerbattle_single TRAINER_TRAINER_399, Route114_Text_CharlotteIntro, Route114_Text_CharlotteDefeat
 	msgbox Route114_Text_CharlottePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Kai::
-	trainerbattle_single TRAINER_KAI, Route114_Text_KaiIntro, Route114_Text_KaiDefeat
+	trainerbattle_single TRAINER_TRAINER_400, Route114_Text_KaiIntro, Route114_Text_KaiDefeat
 	msgbox Route114_Text_KaiPostBattle, MSGBOX_AUTOCLOSE
 	end
 
