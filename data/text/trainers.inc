@@ -785,51 +785,48 @@ Route108_Text_CarolinaPostBattle:
 	.string "lo mejor es estar cerca del mar.$"
 
 Route109_Text_DavidIntro:
-	.string "Hiyah! Look at my chiseled abs!\n"
-	.string "This is what you call “cut”!$"
+	.string "¡Ja, ja, ja! ¡Mira mis abdominales! ¡Y\n"
+	.string "todo es gracias a la natación!$"
 
 Route109_Text_DavidDefeated:
-	.string "Aiyah!\n"
-	.string "Flubbed out!$"
+	.string "¡Jarl, jarl, jarl! ¡La he pifiado!$"
 
 Route109_Text_DavidPostBattle:
-	.string "Hiyah!\p"
-	.string "My sculpted abs have nothing to do\n"
-	.string "with POKéMON battles!$"
+	.string "¡Ja, ja, ja! ¡Mis abdominales son de\n"
+	.string "nadar, no de luchar en combates\l"
+	.string "Pokémon!$"
 
 Route109_Text_AliceIntro:
-	.string "Are you properly protected against\n"
-	.string "the sun?$"
+	.string "¿Te has puesto crema protectora antes\n"
+	.string "de exponerte al sol?$"
 
 Route109_Text_AliceDefeated:
-	.string "Ouch, ouch, ouch!$"
+	.string "¡Ay, ay, ay!$"
 
 Route109_Text_AlicePostBattle:
-	.string "Cheeks are the most prone to burning!$"
+	.string "¡La nariz es la zona que se pela primero!$"
 
 Route109_Text_HueyIntro:
-	.string "I've laid anchor in ports around\n"
-	.string "the world, but SLATEPORT's the best.$"
+	.string "He anclado en los puertos de todo el\n"
+	.string "mundo, pero el mejor es CIUDAD PORTUAL.$"
 
 Route109_Text_HueyDefeated:
-	.string "You're the best!$"
+	.string "¡Tú también eres lo más!$"
 
 Route109_Text_HueyPostBattle:
-	.string "In the best port was the best\n"
-	.string "TRAINER…$"
+	.string "Quien mejor sabe entrenar POKéMON está\n"
+	.string "en el mejor puerto…$"
 
 Route109_Text_EdmondIntro:
-	.string "Urrrrppp…\n"
-	.string "Battle? With me?$"
+	.string "Ayyyy… ¿Combate? ¿Tú y yo?$"
 
 Route109_Text_EdmondDefeated:
-	.string "Urp… Ooooooohhhhhh…\n"
-	.string "Urrrrpppp…$"
+	.string "Ay… Ooooooh… Ayyyyyyyyy…$"
 
 Route109_Text_EdmondPostBattle:
-	.string "I'm usually stronger than this!\n"
-	.string "I'm just seasick as a dog!\p"
-	.string "I'm a SAILOR, but…$"
+	.string "Normalmente soy más fuerte... Pero\n"
+	.string "tengo un mareo… Ayyyy… Ya sé que soy\l"
+	.string "MARINERO, ya…$"
 
 Route109_Text_RickyIntro:
 	.string "I'm thirsty… I could go for a SODA POP\n"
@@ -859,15 +856,15 @@ Route109_Text_RickyRematchPostBattle:
 	.string "seems to taste a little better.$"
 
 Route109_Text_LolaIntro:
-	.string "Doesn't a beach umbrella look like\n"
-	.string "a giant flower?$"
+	.string "¿A que las sombrillas de playa parecen\n"
+	.string "flores gigantes?$"
 
 Route109_Text_LolaDefeated:
-	.string "Mommy!$"
+	.string "¡Aaaah!$"
 
 Route109_Text_LolaPostBattle:
-	.string "If you look at the beach from the sky,\n"
-	.string "it looks like a big flower garden!$"
+	.string "¡Si miras la playa desde el cielo, parece\n"
+	.string "un jardín de flores!$"
 
 Route109_Text_LolaRegister:
 	.string "Me?\n"
@@ -885,37 +882,37 @@ Route109_Text_LolaRematchPostBattle:
 	.string "POKéMON's cuteness goes way up!$"
 
 Route109_Text_AustinaIntro:
-	.string "I can't swim without my inner tube,\n"
-	.string "but I won't lose at POKéMON!$"
+	.string "No puedo nadar sin mi flotador, ¡pero a\n"
+	.string "los Pokémon no me ganan!$"
 
 Route109_Text_AustinaDefeated:
-	.string "Did I lose because I have an inner\n"
-	.string "tube?$"
+	.string "¿Habré perdido por culpa del flotador?$"
 
 Route109_Text_AustinaPostBattle:
-	.string "My inner tube is a fashion item.\n"
-	.string "I can't be seen without it.$"
+	.string "Mi flotador está súper de moda. ¡Yo es\n"
+	.string "que tengo mucho estilo!$"
 
 Route109_Text_GwenIntro:
-	.string "Hi, big TRAINER.\n"
-	.string "Will you battle with me?$"
+	.string "¡Hola!\n"
+	.string "¿Te apetece luchar conmigo?$"
 
 Route109_Text_GwenDefeated:
-	.string "Oh, you're strong.$"
+	.string "¡Qué fuerte eres!$"
 
 Route109_Text_GwenPostBattle:
-	.string "How did you get to be so strong?$"
+	.string "¿Cómo has hecho para ser tan fuerte?$"
 
 Route109_Text_CarterIntro:
-	.string "Wahahah! This dude's going to catch\n"
-	.string "himself a big one!$"
+	.string "¡Jua, jua, jua! ¡Mi menda lerenda te va a\n"
+	.string "dar una buena lección!$"
 
 Route109_Text_CarterDefeated:
-	.string "This dude just lost one…$"
+	.string "Ejem… Mi menda se ha dado un buen\n"
+	.string "batacazo…$"
 
 Route109_Text_CarterPostBattle:
-	.string "This dude thinks you're a big one.\n"
-	.string "No, you're a big-one-to-be!$"
+	.string "Mi menda lerenda opina que llegarás\n"
+	.string "lejos, muy lejos… ¡Algún día!$"
 
 Route109_Text_PaulIntro:
 	.string "PAUL: Well, this is a mood-breaker.\p"
@@ -953,40 +950,37 @@ Route109_Text_MelNotEnoughPokemon:
 	.string "battle together.$"
 
 Route109_Text_ChandlerIntro:
-	.string "Tadaah! See?\n"
-	.string "My inner tube's round!$"
+	.string "¡Tachán! ¿Ves? ¡Mi flotador es redondo!$"
 
 Route109_Text_ChandlerDefeated:
-	.string "Oh, oh!\n"
-	.string "Too bad!$"
+	.string "¡Ay, ay! ¡Qué mala suerte!$"
 
 Route109_Text_ChandlerPostBattle:
-	.string "After I showed you my round inner\n"
-	.string "tube, too…$"
+	.string "Y eso que te había enseñado mi flotador\n"
+	.string "y todo…$"
 
 Route109_Text_HaileyIntro:
-	.string "I can't swim, so I'm pretending\n"
-	.string "to swim.$"
+	.string "No sé nadar, sólo finjo que sé.$"
 
 Route109_Text_HaileyDefeated:
-	.string "I thought so!\n"
-	.string "I didn't think we could win.$"
+	.string "¡Si ya lo sabía yo! Como no sé nadar...$"
 
 Route109_Text_HaileyPostBattle:
-	.string "When I learn how to swim, I think\n"
-	.string "my POKéMON will become tougher.$"
+	.string "Cuando aprenda a nadar no habrá rival\n"
+	.string "digno para mis POKÉMON.$"
 
 Route109_Text_ElijahIntro:
-	.string "For a guy as macho as me, this kind\n"
-	.string "of POKéMON is the perfect match!$"
+	.string "Estos Pokémon están hechos a medida de\n"
+	.string "los chicos molones como yo.$"
 
 Route109_Text_ElijahDefeated:
-	.string "I'm cool even in defeat, hey?$"
+	.string "Estos Pokémon están hechos a medida de\n"
+	.string "los chicos molones como yo.$"
 
 Route109_Text_ElijahPostBattle:
-	.string "For a guy as macho as me, a port\n"
-	.string "is the perfect setting!\p"
-	.string "I guess I'll head for SLATEPORT.$"
+	.string "¡Los chicos molones como yo tienen una\n"
+	.string "novia en cada puerto! Creo que iré a\l"
+	.string "Ciudad Portual.$"
 
 Route110_Text_JacobIntro:
 	.string "¡Eh! ¡Cuidado! ¡Se ve que no sueles\n"
@@ -3584,18 +3578,18 @@ Route124_Text_RolandPostBattle:
 	.string "I wish I could ride a POKéMON like you…$"
 
 Route124_Text_JennyIntro:
-	.string "If you just float in the sea like\n"
-	.string "this, POKéMON come around to play.$"
+	.string "Si te quedas flotando en el mar así, los\n"
+	.string "POKéMON vienen a jugar contigo.$"
 
 Route124_Text_JennyDefeat:
-	.string "Oh, darn.\n"
-	.string "I've gone and lost.$"
+	.string "Oh… Perdida en el mar…$"
 
 Route124_Text_JennyPostBattle:
-	.string "While swimming, I noticed that some\n"
-	.string "POKéMON attack, and some just watch.\p"
-	.string "I guess POKéMON have personalities\n"
-	.string "of their own.$"
+	.string "Nadando, nadando, me he dado cuenta de\n"
+	.string "que hay POKéMON que atacan, mientras\l"
+	.string "que otros solo miran... Se ve que cada\l"
+	.string "POKéMON tiene una personalidad\l"
+	.string "diferente.$"
 
 Route124_Text_JennyRegister:
 	.string "It's only on a whim, but maybe I'll get\n"
