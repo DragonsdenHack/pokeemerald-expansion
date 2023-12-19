@@ -592,32 +592,30 @@ Route106_Text_KylaPostBattle:
 	.string "A muchos les da miedo.$"
 
 Route107_Text_DarrinIntro:
-	.string "Yawn…\p"
-	.string "I must have drifted off to sleep while\n"
-	.string "I was drifting in the waves.$"
+	.string "Auaaaa… Debo de haberme dormido\n"
+	.string "mientras me hacía el muerto entre las\l"
+	.string "olas…$"
 
 Route107_Text_DarrinDefeated:
-	.string "Ahaha, I lost…\n"
-	.string "I'll take a snooze, I think…$"
+	.string "Bueno, he perdido… Pues nada, a dormir\n"
+	.string "otra vez…$"
 
 Route107_Text_DarrinPostBattle:
-	.string "Floating and being rocked by\n"
-	.string "the waves--it's like sleeping in\l"
-	.string "a plush, comfy bed.$"
+	.string "Flotar entre las olas arrullado por el\n"
+	.string "mar es como dormir en una cama muy\l"
+	.string "cómoda y blandita…$"
 
 Route107_Text_TonyIntro:
-	.string "The sea is like my backyard.\n"
-	.string "Let's battle!$"
+	.string "En el mar soy un as. ¡Vamos a ver si me\n"
+	.string "puedes!$"
 
 Route107_Text_TonyDefeated:
-	.string "I lost on my home field…\n"
-	.string "I'm in shock!$"
+	.string "He perdido en casa... ¡No me lo puedo\n"
+	.string "creer!$"
 
 Route107_Text_TonyPostBattle:
-	.string "I swim the seas with a heart full of\n"
-	.string "dreams…\p"
-	.string "It's a song!\n"
-	.string "Anyways, I'm swimming some more.$"
+	.string "Tu estilo me ha dejado de una pieza.\n"
+	.string "Espero que no te olvides de mí.$"
 
 Route107_Text_TonyRegister:
 	.string "You've shocked me to the bone!\n"
@@ -638,26 +636,25 @@ Route107_Text_TonyRematchPostBattle:
 	.string "The waves taught me that.$"
 
 Route107_Text_DeniseIntro:
-	.string "Do you know a little town called\n"
-	.string "DEWFORD?$"
+	.string "¿Conoces un pueblecito llamado\n"
+	.string "Azuliza?$"
 
 Route107_Text_DeniseDefeated:
-	.string "I hate this!$"
+	.string "¡Esto no estaba previsto!$"
 
 Route107_Text_DenisePostBattle:
-	.string "A weird saying is getting really\n"
-	.string "trendy at DEWFORD HALL.$"
+	.string "Hay un dicho rarísimo que está haciendo\n"
+	.string "furor en el Club de Azuliza.$"
 
 Route107_Text_BethIntro:
-	.string "Did you want to battle me?\n"
-	.string "Sure, I'll go with you!$"
+	.string "¿Buscas pelea? ¡Pues encantada!$"
 
 Route107_Text_BethDefeated:
-	.string "I wasn't good enough for you.$"
+	.string "No he estado a la altura…$"
 
 Route107_Text_BethPostBattle:
-	.string "I think you're going to keep getting\n"
-	.string "better. I'll go for it, too!$"
+	.string "Apuesto lo que sea a que vas a seguir\n"
+	.string "mejorando… ¡Y yo también!$"
 
 Route107_Text_LisaIntro:
 	.string "LISA: We challenge you as a sister\n"
@@ -695,76 +692,71 @@ Route107_Text_RayNotEnoughPokemon:
 	.string "go bring some more POKéMON!$"
 
 Route107_Text_CamronIntro:
-	.string "I'm in the middle of a triathlon,\n"
-	.string "but I'm nowhere near tired!$"
+	.string "¡Estoy en medio de un triatlón, pero aún\n"
+	.string "me quedan fuerzas!$"
 
 Route107_Text_CamronDefeated:
-	.string "That exhausted me…$"
+	.string "Me has dejado sin fuerzas…$"
 
 Route107_Text_CamronPostBattle:
-	.string "I still have swimming and running left\n"
-	.string "to do after this.\p"
-	.string "Am I going to be okay?$"
+	.string "Todavía tengo que completar dos\n"
+	.string "pruebas. ¿Seré capaz de acabar?$"
 
 Route108_Text_JeromeIntro:
-	.string "My dream is to swim the world's seven\n"
-	.string "seas!$"
+	.string "Mi sueño es nadar en los siete mares.$"
 
 Route108_Text_JeromeDefeated:
-	.string "I won't be able to swim the seven seas\n"
-	.string "like this…$"
+	.string "Así no llego ni al río de la esquina...$"
 
 Route108_Text_JeromePostBattle:
-	.string "Playing with marine POKéMON is one of\n"
-	.string "the pleasures of swimming!$"
+	.string "Lo mejor de nadar es que puedes jugar\n"
+	.string "con los Pokémon marinos.$"
 
 Route108_Text_MatthewIntro:
-	.string "Ahoy, there! Are you going out to\n"
-	.string "the ABANDONED SHIP, too?$"
+	.string "¡Hola, hola! ¿Tú también vas a la Nao\n"
+	.string "Abandonada?$"
 
 Route108_Text_MatthewDefeated:
-	.string "I'm sinking!\n"
-	.string "Glub… Glub…$"
+	.string "Me hundo… Glu… Glu…$"
 
 Route108_Text_MatthewPostBattle:
-	.string "Some people even go inside that\n"
-	.string "ABANDONED SHIP.$"
+	.string "Creo que hay gente que se atreve a\n"
+	.string "entrar en la Nao Abandonada…$"
 
 Route108_Text_TaraIntro:
-	.string "My liar of a boyfriend told me that\n"
-	.string "I look great in a bikini…$"
+	.string "No hay nada más cómodo que un bikini\n"
+	.string "para ir a la playa.$"
 
 Route108_Text_TaraDefeated:
-	.string "Oh, boo!$"
+	.string "¡Oh, no!$"
 
 Route108_Text_TaraPostBattle:
-	.string "Even if it's a lie, I love being told\n"
-	.string "I look great…\l"
-	.string "We girls are so complex…$"
+	.string "Bueno, quizás esté bien para tomar el\n"
+	.string "sol, pero no para combatir…$"
 
 Route108_Text_MissyIntro:
-	.string "I love the sea!\n"
-	.string "I forget all my worries when I swim!$"
+	.string "¡Me encanta el mar! ¡Cuando nado, se me\n"
+	.string "olvidan todos mis problemas!$"
 
 Route108_Text_MissyDefeated:
-	.string "When I lose a battle, I get all\n"
-	.string "stressed out!$"
+	.string "Perder combates me estresa una\n"
+	.string "barbaridad... ¡Me voy a nadar!$"
 
 Route108_Text_MissyPostBattle:
-	.string "Work off your stress by swimming!\n"
-	.string "It's so healthy!$"
+	.string "Combate el estrés nadando. ¡No hay\n"
+	.string "remedio mejor!$"
 
 Route108_Text_CoryIntro:
-	.string "I love WATER-type POKéMON.\n"
-	.string "I love other POKéMON, too!$"
+	.string "Me gustan los Pokémon de tipo agua.\n"
+	.string "¡Pero no les hago ascos a los demás!$"
 
 Route108_Text_CoryDefeated:
-	.string "Waaah! I lost!\n"
-	.string "Waaah! Waaah!$"
+	.string "¡Aaaaaaah! ¡He perdido! ¡Aaaaaaah!\n"
+	.string "¡Aaaaaaah!$"
 
 Route108_Text_CoryPostBattle:
-	.string "Shouting is good for me!\n"
-	.string "It uplifts me!$"
+	.string "Gritar de vez en cuando sienta de miedo.\n"
+	.string "¡Liberas mucha adrenalina!$"
 
 Route108_Text_CoryRegister:
 	.string "I love tough TRAINERS, too!\n"
@@ -782,15 +774,15 @@ Route108_Text_CoryRematchPostBattle:
 	.string "try shouting at the sea!$"
 
 Route108_Text_CarolinaIntro:
-	.string "I take huge pride in my POKéMON.\n"
-	.string "We'll show you one speedy battle!$"
+	.string "Estoy muy orgullosa de mis Pokémon.\n"
+	.string "¡Vas a ver lo que es luchar con rapidez!$"
 
 Route108_Text_CarolinaDefeated:
-	.string "That wasn't cute at all.$"
+	.string "Te has pasado cantidad.$"
 
 Route108_Text_CarolinaPostBattle:
-	.string "Since I'm at sea like this, I wouldn't\n"
-	.string "mind putting on a pink, frilly swimsuit…$"
+	.string "Si te gustan los bañadores, como a mí,\n"
+	.string "lo mejor es estar cerca del mar.$"
 
 Route109_Text_DavidIntro:
 	.string "Hiyah! Look at my chiseled abs!\n"
