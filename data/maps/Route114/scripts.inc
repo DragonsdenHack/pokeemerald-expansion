@@ -80,29 +80,27 @@ Route114_EventScript_LanettesHouseSign::
 	end
 
 Route114_EventScript_Lenny::
-	trainerbattle_single TRAINER_LENNY, Route114_Text_LennyIntro, Route114_Text_LennyDefeat
+	trainerbattle_single TRAINER_TRAINER_408, Route114_Text_LennyIntro, Route114_Text_LennyDefeat
 	msgbox Route114_Text_LennyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Lucas::
-	trainerbattle_single TRAINER_LUCAS_1, Route114_Text_LucasIntro, Route114_Text_LucasDefeat
+	trainerbattle_single TRAINER_TRAINER_406, Route114_Text_LucasIntro, Route114_Text_LucasDefeat
 	msgbox Route114_Text_LucasPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Shane::
-	trainerbattle_single TRAINER_SHANE, Route114_Text_ShaneIntro, Route114_Text_ShaneDefeat
+	trainerbattle_single TRAINER_TRAINER_404, Route114_Text_ShaneIntro, Route114_Text_ShaneDefeat
 	msgbox Route114_Text_ShanePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Nancy::
-	trainerbattle_single TRAINER_NANCY, Route114_Text_NancyIntro, Route114_Text_NancyDefeat
+	trainerbattle_single TRAINER_TRAINER_402, Route114_Text_NancyIntro, Route114_Text_NancyDefeat
 	msgbox Route114_Text_NancyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route114_EventScript_Steve::
-	trainerbattle_single TRAINER_STEVE_1, Route114_Text_SteveIntro, Route114_Text_SteveDefeat, Route114_EventScript_RegisterSteve
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route114_EventScript_RematchSteve
+	trainerbattle_single TRAINER_TRAINER_403, Route114_Text_SteveIntro, Route114_Text_SteveDefeat,
 	msgbox Route114_Text_StevePostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -121,9 +119,7 @@ Route114_EventScript_RematchSteve::
 	end
 
 Route114_EventScript_Bernie::
-	trainerbattle_single TRAINER_BERNIE_1, Route114_Text_BernieIntro, Route114_Text_BernieDefeat, Route114_EventScript_RegisterBernie
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route114_EventScript_RematchBernie
+	trainerbattle_single TRAINER_TRAINER_405, Route114_Text_BernieIntro, Route114_Text_BernieDefeat,
 	msgbox Route114_Text_BerniePostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -142,7 +138,7 @@ Route114_EventScript_RematchBernie::
 	end
 
 Route114_EventScript_Claude::
-	trainerbattle_single TRAINER_CLAUDE, Route114_Text_ClaudeIntro, Route114_Text_ClaudeDefeat
+	trainerbattle_single TRAINER_TRAINER_401, Route114_Text_ClaudeIntro, Route114_Text_ClaudeDefeat
 	msgbox Route114_Text_ClaudePostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -162,7 +158,7 @@ Route114_EventScript_Ivy::
 	end
 
 Route114_EventScript_Angelina::
-	trainerbattle_single TRAINER_ANGELINA, Route114_Text_AngelinaIntro, Route114_Text_AngelinaDefeat
+	trainerbattle_single TRAINER_TRAINER_407, Route114_Text_AngelinaIntro, Route114_Text_AngelinaDefeat
 	msgbox Route114_Text_AngelinaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
