@@ -21,29 +21,27 @@ Route125_OnFrame:
 	.2byte 0
 
 Route125_EventScript_Nolen::
-	trainerbattle_single TRAINER_NOLEN, Route125_Text_NolenIntro, Route125_Text_NolenDefeat
+	trainerbattle_single TRAINER_TRAINER_462, Route125_Text_NolenIntro, Route125_Text_NolenDefeat
 	msgbox Route125_Text_NolenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route125_EventScript_Stan::
-	trainerbattle_single TRAINER_STAN, Route125_Text_StanIntro, Route125_Text_StanDefeat
+	trainerbattle_single TRAINER_TRAINER_466, Route125_Text_StanIntro, Route125_Text_StanDefeat
 	msgbox Route125_Text_StanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route125_EventScript_Tanya::
-	trainerbattle_single TRAINER_TANYA, Route125_Text_TanyaIntro, Route125_Text_TanyaDefeat
+	trainerbattle_single TRAINER_TRAINER_465, Route125_Text_TanyaIntro, Route125_Text_TanyaDefeat
 	msgbox Route125_Text_TanyaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route125_EventScript_Sharon::
-	trainerbattle_single TRAINER_SHARON, Route125_Text_SharonIntro, Route125_Text_SharonDefeat
+	trainerbattle_single TRAINER_TRAINER_464, Route125_Text_SharonIntro, Route125_Text_SharonDefeat
 	msgbox Route125_Text_SharonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route125_EventScript_Ernest::
-	trainerbattle_single TRAINER_ERNEST_1, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat, Route125_EventScript_RegisterErnest
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route125_EventScript_RematchErnest
+	trainerbattle_single TRAINER_TRAINER_463, Route125_Text_ErnestIntro, Route125_Text_ErnestDefeat,
 	msgbox Route125_Text_ErnestPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -72,12 +70,12 @@ Route125_EventScript_Iris::
 	end
 
 Route125_EventScript_Presley::
-	trainerbattle_single TRAINER_PRESLEY, Route125_Text_PresleyIntro, Route125_Text_PresleyDefeat
+	trainerbattle_single TRAINER_TRAINER_468, Route125_Text_PresleyIntro, Route125_Text_PresleyDefeat
 	msgbox Route125_Text_PresleyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route125_EventScript_Auron::
-	trainerbattle_single TRAINER_AURON, Route125_Text_AuronIntro, Route125_Text_AuronDefeat
+	trainerbattle_single TRAINER_TRAINER_467, Route125_Text_AuronIntro, Route125_Text_AuronDefeat
 	msgbox Route125_Text_AuronPostBattle, MSGBOX_AUTOCLOSE
 	end
 

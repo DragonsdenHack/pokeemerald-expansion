@@ -21,44 +21,42 @@ Route127_OnFrame:
 	.2byte 0
 
 Route127_EventScript_Camden::
-	trainerbattle_single TRAINER_CAMDEN, Route127_Text_CamdenIntro, Route127_Text_CamdenDefeat
+	trainerbattle_single TRAINER_TRAINER_474, Route127_Text_CamdenIntro, Route127_Text_CamdenDefeat
 	msgbox Route127_Text_CamdenPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route127_EventScript_Donny::
-	trainerbattle_single TRAINER_DONNY, Route127_Text_DonnyIntro, Route127_Text_DonnyDefeat
+	trainerbattle_single TRAINER_TRAINER_475, Route127_Text_DonnyIntro, Route127_Text_DonnyDefeat
 	msgbox Route127_Text_DonnyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route127_EventScript_Jonah::
-	trainerbattle_single TRAINER_JONAH, Route127_Text_JonahIntro, Route127_Text_JonahDefeat
+	trainerbattle_single TRAINER_TRAINER_471, Route127_Text_JonahIntro, Route127_Text_JonahDefeat
 	msgbox Route127_Text_JonahPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route127_EventScript_Henry::
-	trainerbattle_single TRAINER_HENRY, Route127_Text_HenryIntro, Route127_Text_HenryDefeat
+	trainerbattle_single TRAINER_TRAINER_472, Route127_Text_HenryIntro, Route127_Text_HenryDefeat
 	msgbox Route127_Text_HenryPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route127_EventScript_Roger::
-	trainerbattle_single TRAINER_ROGER, Route127_Text_RogerIntro, Route127_Text_RogerDefeat
+	trainerbattle_single TRAINER_TRAINER_473, Route127_Text_RogerIntro, Route127_Text_RogerDefeat
 	msgbox Route127_Text_RogerPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route127_EventScript_Aidan::
-	trainerbattle_single TRAINER_AIDAN, Route127_Text_AidanIntro, Route127_Text_AidanDefeat
+	trainerbattle_single TRAINER_TRAINER_469, Route127_Text_AidanIntro, Route127_Text_AidanDefeat
 	msgbox Route127_Text_AidanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route127_EventScript_Athena::
-	trainerbattle_single TRAINER_ATHENA, Route127_Text_AthenaIntro, Route127_Text_AthenaDefeat
+	trainerbattle_single TRAINER_TRAINER_470, Route127_Text_AthenaIntro, Route127_Text_AthenaDefeat
 	msgbox Route127_Text_AthenaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route127_EventScript_Koji::
-	trainerbattle_single TRAINER_KOJI_1, Route127_Text_KojiIntro, Route127_Text_KojiDefeat, Route127_EventScript_RegisterKoji
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route127_EventScript_RematchKoji
+	trainerbattle_single TRAINER_TRAINER_476, Route127_Text_KojiIntro, Route127_Text_KojiDefeat,
 	msgbox Route127_Text_KojiPostBattle, MSGBOX_DEFAULT
 	release
 	end

@@ -34514,18 +34514,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER455[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER456[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 96,
+    .species = SPECIES_GYARADOS,
     }
     
 };
@@ -34533,18 +34523,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER456[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER457[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 96,
+    .species = SPECIES_AZUMARILL,
     }
     
 };
@@ -34552,18 +34532,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER457[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER458[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 91,
+    .species = SPECIES_TENTACRUEL,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 93,
+    .species = SPECIES_PELIPPER,
     }
     
 };
@@ -34571,18 +34546,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER458[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER459[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 92,
+    .species = SPECIES_TENTACRUEL,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 92,
+    .species = SPECIES_WAILORD,
     }
     
 };
@@ -34590,18 +34560,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER459[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER460[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 96,
+    .species = SPECIES_SHARPEDO,
     }
     
 };
@@ -34609,18 +34569,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER460[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER461[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 96,
+    .species = SPECIES_STARMIE,
     }
     
 };
@@ -34628,18 +34578,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER461[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER462[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 96,
+    .species = SPECIES_MACHAMP,
     }
     
 };
@@ -34648,17 +34588,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER463[] = {
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_MACHOKE,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 88,
+    .species = SPECIES_PELIPPER,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 89,
+    .species = SPECIES_MACHAMP,
     }
     
 };
@@ -34666,18 +34606,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER463[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER464[] = {
     {
     .iv = 0,
-    .lvl = 87,
+    .lvl = 96,
     .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
     }
     
 };
@@ -34685,18 +34615,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER464[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER465[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 96,
+    .species = SPECIES_LUVDISC,
     }
     
 };
@@ -34705,17 +34625,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER466[] = {
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_SEADRA,
     },
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_SEADRA,
     },
     {
     .iv = 0,
     .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .species = SPECIES_KINGDRA,
     }
     
 };
@@ -34724,17 +34644,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER467[] = {
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_MANECTRIC,
     },
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_MANECTRIC,
     },
     {
     .iv = 0,
     .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .species = SPECIES_MACHAMP,
     }
     
 };
@@ -34743,17 +34663,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER468[] = {
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_TROPIUS,
     },
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_TROPIUS,
     },
     {
     .iv = 0,
     .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .species = SPECIES_XATU,
     }
     
 };
@@ -34761,18 +34681,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER468[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER469[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 92,
+    .species = SPECIES_SWELLOW,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 92,
+    .species = SPECIES_SKARMORY,
     }
     
 };
@@ -34780,18 +34695,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER469[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER470[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 92,
+    .species = SPECIES_MANECTRIC,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 92,
+    .species = SPECIES_LINOONE,
     }
     
 };
@@ -34800,17 +34710,17 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER471[] = {
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_WAILORD,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 88,
+    .species = SPECIES_TENTACRUEL,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 89,
+    .species = SPECIES_SHARPEDO,
     }
     
 };
@@ -34818,18 +34728,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER471[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER472[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 85,
+    .species = SPECIES_TENTACRUEL,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 88,
+    .species = SPECIES_SHARPEDO,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 91,
+    .species = SPECIES_TENTACRUEL,
     }
     
 };
@@ -34837,18 +34747,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER472[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER473[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 65,
+    .species = SPECIES_GYARADOS,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 75,
+    .species = SPECIES_GYARADOS,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 85,
+    .species = SPECIES_GYARADOS,
+    },
+    {
+    .iv = 0,
+    .lvl = 95,
+    .species = SPECIES_GYARADOS,
     }
     
 };
@@ -34856,18 +34771,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER473[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER474[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 86,
+    .species = SPECIES_STARMIE,
     },
     {
     .iv = 0,
     .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .species = SPECIES_STARMIE,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 87,
+    .species = SPECIES_STARMIE,
+    },
+    {
+    .iv = 0,
+    .lvl = 88,
+    .species = SPECIES_STARMIE,
     }
     
 };
@@ -34875,18 +34795,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER474[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER475[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 81,
+    .species = SPECIES_PELIPPER,
+    },
+        {
+    .iv = 0,
+    .lvl = 89,
+    .species = SPECIES_STARMIE,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
+    .lvl = 81,
+    .species = SPECIES_PELIPPER,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .lvl = 89,
+    .species = SPECIES_STARMIE,
     }
     
 };
@@ -34894,18 +34819,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER475[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER476[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_SEAKING,
-    },
-    {
-    .iv = 0,
     .lvl = 90,
-    .species = SPECIES_WHISCASH,
+    .species = SPECIES_MACHAMP,
+    },
+    {
+    .iv = 0,
+    .lvl = 94,
+    .species = SPECIES_MACHAMP,
     }
     
 };
