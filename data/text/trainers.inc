@@ -197,28 +197,26 @@ Route103_Text_MiguelRematchPostBattle:
 	.string "the more adorable my POKéMON becomes.$"
 
 Route103_Text_PeteIntro:
-	.string "This sort of distance…\n"
-	.string "You should just swim it!$"
+	.string "Aquí no hay distancia... ¡Deberías\n"
+	.string "echarte a nadar!$"
 
 Route103_Text_PeteDefeated:
-	.string "Oh, that's good going!$"
+	.string "¡Tocado y hundido!$"
 
 Route103_Text_PetePostBattle:
-	.string "Oh, I understand where you're coming\n"
-	.string "from now.\p"
-	.string "If I had a POKéMON that trusty,\n"
-	.string "I'd want to SURF on it, too!$"
+	.string "Ah, claro, ya entiendo. Si tuviera un\n"
+	.string "Pokémon como el tuyo, ¡yo también haría\l"
+	.string "SURF!$"
 
 Route103_Text_IsabelleIntro:
-	.string "Watch where you're going!\n"
-	.string "We're going to crash!$"
+	.string "¡Mira por dónde vas! ¡Colisión!$"
 
 Route103_Text_IsabelleDefeated:
-	.string "Groan…$"
+	.string "Glu, glu, glu…$"
 
 Route103_Text_IsabellePostBattle:
-	.string "I'm a poor swimmer so I was practicing…\n"
-	.string "Sorry for almost crashing into you.$"
+	.string "Yo sólo estaba haciendo unos largos…\n"
+	.string "Siento haber provocado la colisión.$"
 
 Route103_Text_RhettIntro:
 .string "¡Guay! ¿Cómo te has metido aquí?$"
@@ -4435,15 +4433,15 @@ Route132_Text_GilbertPostBattle:
 	.string "montañas. ¡Deben estar en forma!$"
 
 Route132_Text_DanaIntro:
-	.string "I try not to swim where the currents\n"
-	.string "are too strong.$"
+	.string "Nunca nado en los sitios donde hay\n"
+	.string "demasiada corriente.$"
 
 Route132_Text_DanaDefeat:
-	.string "Oh, please, no!$"
+	.string "¡Qué requetemal…!$"
 
 Route132_Text_DanaPostBattle:
-	.string "If I get swept away, I'll lose all my\n"
-	.string "sense of place…$"
+	.string "Si se me llevara la corriente, creo que\n"
+	.string "pasaría un mal rato…$"
 
 Route132_Text_RonaldIntro:
 	.string "Victoria o derrota... ¡Si no lo intentas,\n"
@@ -4458,18 +4456,17 @@ Route132_Text_RonaldPostBattle:
 	.string "la incertidumbre...$"
 
 Route132_Text_KiyoIntro:
-	.string "I contemplate POKéMON 24 hours a day.\n"
-	.string "How could you possibly beat me?$"
+	.string "Estoy con mi Pokémon las 24 horas del\n"
+	.string "día. ¿Cómo pretendes que pierda?$"
 
 Route132_Text_KiyoDefeat:
-	.string "I lose.\n"
-	.string "I will concede defeat.$"
+	.string "¿He perdido...? Vaya ridículo que he\n"
+	.string "hecho...$"
 
 Route132_Text_KiyoPostBattle:
-	.string "Urggh…\n"
-	.string "You're a POKéMON fanatic, aren't you?\p"
-	.string "You must contemplate POKéMON 24 hours\n"
-	.string "a day, don't you?$"
+	.string "Brrr... Tú eres un fan de los Pokémon,\n"
+	.string "¿eh? Tú sí que pasas cada segundo del\l"
+	.string "día con tus Pokémon, ¿eh?$"
 
 Route132_Text_MakaylaIntro:
 	.string "Siempre lucho junto a mi marido, pero\n"
@@ -4484,17 +4481,16 @@ Route132_Text_MakaylaPostBattle:
 	.string "tiempo!$"
 
 Route132_Text_JonathanIntro:
-	.string "Someone's been watching me intently.\n"
-	.string "Was it you?$"
+	.string "Hay alguien que no me quita ojo de\n"
+	.string "encima. ¿Eres tú?$"
 
 Route132_Text_JonathanDefeat:
-	.string "Wow!\n"
-	.string "That's pretty strong, all right!$"
+	.string "¡Guau! ¡Menuda exhibición de fuerza!$"
 
 Route132_Text_JonathanPostBattle:
-	.string "I can't shake this feeling that\n"
-	.string "someone's watching me.\p"
-	.string "I can't concentrate!$"
+	.string "Esta sensación de que hay alguien\n"
+	.string "observándote es agobiante. ¡Así no hay\l"
+	.string "quien se concentre!$"
 
 Route132_Text_PaxtonIntro:
 	.string "¿Adónde se habrá ido mi mujercita?\n"
@@ -4522,199 +4518,191 @@ Route132_Text_DarcyPostBattle:
 	.string "desafiar al otro equipo.$"
 
 Route133_Text_FranklinIntro:
-	.string "Did the currents carry you here, too?\n"
-	.string "This must have been fated.\l"
-	.string "Let's battle!$"
+	.string "¿Te ha arrastrado la corriente hasta\n"
+	.string "aquí? Es el destino... ¡A luchar!$"
 
 Route133_Text_FranklinDefeat:
-	.string "Strong!\n"
-	.string "Too much so!$"
+	.string "¡Eres fuerte! ¡Incluso demasiado!$"
 
 Route133_Text_FranklinPostBattle:
-	.string "It's just my luck that a tough TRAINER\n"
-	.string "like you would drift here…\l"
-	.string "I must be cursed…$"
+	.string "Sólo a mí me tenía que tocar alguien\n"
+	.string "tan fuerte como tú en un combate…\l"
+	.string "Estoy gafado…$"
 
 Route133_Text_DebraIntro:
-	.string "I've led a life of woe and misery…\n"
-	.string "I've been cast away, and this is where\l"
-	.string "I've drifted…$"
+	.string "Llevo una vida de trotamundos… Al final\n"
+	.string "he acabado en este lugar…$"
 
 Route133_Text_DebraDefeat:
-	.string "Another loss…$"
+	.string "Vaya, me has derrotado…$"
 
 Route133_Text_DebraPostBattle:
-	.string "A life adrift…\n"
-	.string "I don't want it anymore!$"
+	.string "Vagando, siempre vagando… ¡Creo que\n"
+	.string "voy a asentarme de una vez!$"
 
 Route133_Text_LindaIntro:
-	.string "Welcome!\n"
-	.string "I've been expecting you!$"
+	.string "¡Hola! ¡Te estaba esperando!$"
 
 Route133_Text_LindaDefeat:
-	.string "No! Please!$"
+	.string "¡Ya vale! ¡Déjame en paz!$"
 
 Route133_Text_LindaPostBattle:
-	.string "A strong child TRAINER…\n"
-	.string "That's so annoying!$"
+	.string "Alguien tan joven y tan fuerte… Me\n"
+	.string "entra la depre…$"
 
 Route133_Text_WarrenIntro:
-	.string "I want to win like everyone else, but I\n"
-	.string "won't raise POKéMON like everyone else.$"
+	.string "Yo nado como todo quisqui, pero soy el\n"
+	.string "más original entrenando Pokémon.$"
 
 Route133_Text_WarrenDefeat:
-	.string "Darn it!\n"
-	.string "My way is still too slack!$"
+	.string "¡Jarl! ¡Estoy en la cuerda floja!$"
 
 Route133_Text_WarrenPostBattle:
-	.string "It's way more fun to do things the way\n"
-	.string "I want than to be like everybody else.\l"
-	.string "I mean, that's obvious!$"
+	.string "Es mucho más original hacer las cosas a\n"
+	.string "tu modo en vez de como todo el mundo.\l"
+	.string "¡Qué perogrullada acabo de soltar!$"
 
 Route133_Text_BeckIntro:
-	.string "I came all the way out here with my\n"
-	.string "BIRD POKéMON.$"
+	.string "He llegado hasta aquí a lomos de mi\n"
+	.string "Pokémon pájaro.$"
 
 Route133_Text_BeckDefeat:
-	.string "You…\n"
-	.string "You're stunningly cool!$"
+	.string "Tu estilo… ¡es asombrosamente guay!$"
 
 Route133_Text_BeckPostBattle:
-	.string "I'd like to go back to FORTREE,\n"
-	.string "but I've grown to like this place, too.$"
+	.string "Quisiera volver a arborada, pero le he\n"
+	.string "cogido cariño a este lugar.$"
 
 Route133_Text_MollieIntro:
-	.string "I must have battled thousands\n"
-	.string "of times. I've lost count.$"
+	.string "He combatido tantísimas veces que he\n"
+	.string "perdido la cuenta.$"
 
 Route133_Text_MollieDefeat:
-	.string "I may have lost thousands of times,\n"
-	.string "but a loss still stings.$"
+	.string "Habré combatido miles y miles de veces,\n"
+	.string "pero perder me sigue fastidiando igual.$"
 
 Route133_Text_MolliePostBattle:
-	.string "Keep at this, youngster. So you can\n"
-	.string "become like my husband and me.$"
+	.string "Sigue así, joven. Algún día serás tan\n"
+	.string "notable como mi marido y yo.$"
 
 Route133_Text_ConorIntro:
-	.string "Young people are too happy to go with\n"
-	.string "the flow. They're without direction.$"
+	.string "Los jóvenes siempre se dejan llevar. Ni\n"
+	.string "planifican ni siguen un rumbo preciso.$"
 
 Route133_Text_ConorDefeat:
-	.string "You have a firm sense of purpose.$"
+	.string "Tú pareces tener las cosas claras.$"
 
 Route133_Text_ConorPostBattle:
-	.string "Don't let others lead you astray.\n"
-	.string "Don't lose direction as you grow older.$"
+	.string "No te dejes influir por los demás. Sé\n"
+	.string "coherente con tus convicciones.$"
 
 Route134_Text_JackIntro:
-	.string "Even those POKéMON that can swim are\n"
-	.string "carried along by the rapid currents.$"
+	.string "Incluso los Pokémon que saben nadar\n"
+	.string "son arrastrados por las corrientes.$"
 
 Route134_Text_JackDefeat:
-	.string "Aiyeeeeh!$"
+	.string "¡La marea me arrastra!$"
 
 Route134_Text_JackPostBattle:
-	.string "I think POKéMON enjoy the fast-running\n"
-	.string "currents around these parts.$"
+	.string "Los Pokémon disfrutan en los rápidos,\n"
+	.string "pero las corrientes son peligrosas...$"
 
 Route134_Text_LaurelIntro:
-	.string "My LUVDISC are looking for a fun\n"
-	.string "match. Will you join us?$"
+	.string "Mis Luvdisc buscan un rival divertido.\n"
+	.string "¿Serás tú?...$"
 
 Route134_Text_LaurelDefeat:
-	.string "Oopsie!$"
+	.string "¡Oy, oy, oy!$"
 
 Route134_Text_LaurelPostBattle:
-	.string "There's a collector who's after\n"
-	.string "the SCALES of LUVDISC.$"
+	.string "Hay un coleccionista que busca escamas\n"
+	.string "de Luvdisc, ¿sabías?$"
 
 Route134_Text_AlexIntro:
-	.string "Okeydokey! That's enough rest, gang!\n"
-	.string "It's time for a match!$"
+	.string "¡Okey, makey! ¡Ya vale de gandulear!\n"
+	.string "¡Hay que ponerse a luchar!$"
 
 Route134_Text_AlexDefeat:
-	.string "Tuckered out again…$"
+	.string "Me han dejado para el arrastre…$"
 
 Route134_Text_AlexPostBattle:
-	.string "My BIRD POKéMON get tired quickly after\n"
-	.string "a long flight…$"
+	.string "Mi Pokémon pájaro se cansa mucho cada\n"
+	.string "vez que vuela una gran distancia…$"
 
 Route134_Text_HitoshiIntro:
-	.string "You're a POKéMON TRAINER.\n"
-	.string "No need for words. We battle now.$"
+	.string "Tú entrenas Pokémon. No digas nada.\n"
+	.string "Sólo pelea.$"
 
 Route134_Text_HitoshiDefeat:
 	.string "… … … … … …\n"
 	.string "… … … … … …$"
 
 Route134_Text_HitoshiPostBattle:
-	.string "It was I who challenged you, and yet\n"
-	.string "I lost. I am deeply shamed…$"
+	.string "Te he desafiado yo y sin embargo he\n"
+	.string "perdido. Una vergüenza…$"
 
 Route134_Text_AaronIntro:
-	.string "The savage tide in this area serves to\n"
-	.string "make us stronger than ever.$"
+	.string "La fuerte marea de esta zona te ayuda a\n"
+	.string "ser cada vez más fuerte.$"
 
 Route134_Text_AaronDefeat:
-	.string "I willingly concede defeat.$"
+	.string "Sí, ya sé, he perdido.$"
 
 Route134_Text_AaronPostBattle:
-	.string "We will return for more training at\n"
-	.string "METEOR FALLS.\p"
-	.string "If you'd like, you should go, too.\n"
-	.string "It will definitely toughen you up!$"
+	.string "remos a entrenarnos en serio a la\n"
+	.string "cascada Meteoro. Quizás incluso a ti te\l"
+	.string "vendría bien. ¡Seguro que te haces más\l"
+	.string "fuerte!$"
 
 Route134_Text_KelvinIntro:
-	.string "O-our boat!\n"
-	.string "The tide carried it away!$"
+	.string "Nu-nuestro barco! ¡Se lo ha llevado la\n"
+	.string "marea!$"
 
 Route134_Text_KelvinDefeat:
-	.string "Awawawawah!\n"
-	.string "Please, stop! Please!$"
+	.string "¡Auaaaaaaa! ¡Para, para, por favor!$"
 
 Route134_Text_KelvinPostBattle:
-	.string "If we can't SURF, how are we supposed\n"
-	.string "to get home?\p"
-	.string "Actually, I know a fainted POKéMON\n"
-	.string "can still SURF, but it feels wrong.$"
+	.string "Si no podemos hacer SURF, ¿cómo vamos a\n"
+	.string "volver a casa? Creo que un Pokémon\l"
+	.string "debilitado aún puede surfear, pero me\l"
+	.string "parece un abuso.$"
 
 Route134_Text_MarleyIntro:
-	.string "Can your POKéMON dodge our\n"
-	.string "lightning-quick attacks?$"
+	.string "¿Crees que tus Pokémon podrán evitar\n"
+	.string "nuestros velocísimos ataques?$"
 
 Route134_Text_MarleyDefeat:
-	.string "I never knew such a technique existed!\n"
-	.string "You've defeated us thoroughly.$"
+	.string "¡Has usado una técnica desconocida\n"
+	.string "para mí! ¡La derrota ha sido total!$"
 
 Route134_Text_MarleyPostBattle:
-	.string "I haven't lost my passion for speed.\n"
-	.string "I will try harder.$"
+	.string "Me sigue apasionando la velocidad. Me\n"
+	.string "entrenaré con más ardor.$"
 
 Route134_Text_ReynaIntro:
-	.string "My POKéMON can't be taken down\n"
-	.string "easily!$"
+	.string "¡No se puede derrotar a mis Pokémon\n"
+	.string "fácilmente!$"
 
 Route134_Text_ReynaDefeat:
-	.string "You're kidding!\n"
-	.string "Explain how I lost!$"
+	.string "Esto tiene que ser una broma. ¡Dime cómo\n"
+	.string "puedo haber perdido!$"
 
 Route134_Text_ReynaPostBattle:
-	.string "Haha!\n"
-	.string "You won, all right!\p"
-	.string "I'll work my way back up by taking on\n"
-	.string "TRAINERS I happen to meet!$"
+	.string "¡Ja, ja, ja! ¡Has ganado, ya lo creo!\n"
+	.string "¡Pero volveré a la cima! ¡Lucharé con\l"
+	.string "todos los entrenadores que vea!$"
 
 Route134_Text_HudsonIntro:
-	.string "Listen, have you seen another SAILOR\n"
-	.string "around here?$"
+	.string "Dime, ¿has visto a algún otro marinero\n"
+	.string "por aquí?$"
 
 Route134_Text_HudsonDefeat:
-	.string "Now, that's something!$"
+	.string "¡Vaya, tú no te andas por las ramas!$"
 
 Route134_Text_HudsonPostBattle:
-	.string "Our boat drifted out to sea.\p"
-	.string "My buddy's a timid fellow, so I'm\n"
-	.string "worried about him.$"
+	.string "La marea se ha llevado nuestro barco. Mi\n"
+	.string "compañero es un pelín apocado, así que\l"
+	.string "me tiene preocupado.$"
 
 RocketWarehouse_Text_IsaacIntro:
     .string "Aquí en ISLA INTA tenemos por\n"

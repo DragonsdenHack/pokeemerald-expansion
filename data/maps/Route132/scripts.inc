@@ -7,7 +7,7 @@ Route132_EventScript_Gilbert::
 	end
 
 Route132_EventScript_Dana::
-	trainerbattle_single TRAINER_DANA, Route132_Text_DanaIntro, Route132_Text_DanaDefeat
+	trainerbattle_single TRAINER_TRAINER_513, Route132_Text_DanaIntro, Route132_Text_DanaDefeat
 	msgbox Route132_Text_DanaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -17,7 +17,7 @@ Route132_EventScript_Ronald::
 	end
 
 Route132_EventScript_Kiyo::
-	trainerbattle_single TRAINER_KIYO, Route132_Text_KiyoIntro, Route132_Text_KiyoDefeat
+	trainerbattle_single TRAINER_TRAINER_512, Route132_Text_KiyoIntro, Route132_Text_KiyoDefeat
 	msgbox Route132_Text_KiyoPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -32,7 +32,7 @@ Route132_EventScript_Darcy::
 	end
 
 Route132_EventScript_Jonathan::
-	trainerbattle_single TRAINER_JONATHAN, Route132_Text_JonathanIntro, Route132_Text_JonathanDefeat
+	trainerbattle_single TRAINER_TRAINER_511, Route132_Text_JonathanIntro, Route132_Text_JonathanDefeat
 	msgbox Route132_Text_JonathanPostBattle, MSGBOX_AUTOCLOSE
 	end
 
