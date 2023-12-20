@@ -2,7 +2,7 @@ Route132_MapScripts::
 	.byte 0
 
 Route132_EventScript_Gilbert::
-	trainerbattle_single TRAINER_GILBERT, Route132_Text_GilbertIntro, Route132_Text_GilbertDefeat
+	trainerbattle_single TRAINER_TRAINER_506, Route132_Text_GilbertIntro, Route132_Text_GilbertDefeat
 	msgbox Route132_Text_GilbertPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -12,7 +12,7 @@ Route132_EventScript_Dana::
 	end
 
 Route132_EventScript_Ronald::
-	trainerbattle_single TRAINER_RONALD, Route132_Text_RonaldIntro, Route132_Text_RonaldDefeat
+	trainerbattle_single TRAINER_TRAINER_507, Route132_Text_RonaldIntro, Route132_Text_RonaldDefeat
 	msgbox Route132_Text_RonaldPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -22,12 +22,12 @@ Route132_EventScript_Kiyo::
 	end
 
 Route132_EventScript_Paxton::
-	trainerbattle_single TRAINER_PAXTON, Route132_Text_PaxtonIntro, Route132_Text_PaxtonDefeat
+	trainerbattle_single TRAINER_TRAINER_508, Route132_Text_PaxtonIntro, Route132_Text_PaxtonDefeat
 	msgbox Route132_Text_PaxtonPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route132_EventScript_Darcy::
-	trainerbattle_single TRAINER_BRUNO_1, Route132_Text_DarcyIntro, Route132_Text_DarcyDefeat
+	trainerbattle_single TRAINER_TRAINER_509, Route132_Text_DarcyIntro, Route132_Text_DarcyDefeat
 	msgbox Route132_Text_DarcyPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -37,7 +37,7 @@ Route132_EventScript_Jonathan::
 	end
 
 Route132_EventScript_Makayla::
-	trainerbattle_single TRAINER_MAKAYLA, Route132_Text_MakaylaIntro, Route132_Text_MakaylaDefeat
+	trainerbattle_single TRAINER_TRAINER_510, Route132_Text_MakaylaIntro, Route132_Text_MakaylaDefeat
 	msgbox Route132_Text_MakaylaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
