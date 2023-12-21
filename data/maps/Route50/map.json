@@ -297,7 +297,7 @@
       "x": 34,
       "y": 18,
       "elevation": 3,
-      "item": "ITEM_POWER_HERB",
+      "item": "ITEM_JOLLY_MINT",
       "flag": "FLAG_NUEVA_798"
     },
     {
@@ -313,7 +313,7 @@
       "x": 71,
       "y": 79,
       "elevation": 3,
-      "item": "ITEM_CHERI_BERRY",
+      "item": "ITEM_HASTY_MINT",
       "flag": "FLAG_NUEVA_800"
     },
     {

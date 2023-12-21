@@ -343,7 +343,7 @@
       "x": 16,
       "y": 5,
       "elevation": 3,
-      "item": "ITEM_RAWST_BERRY",
+      "item": "ITEM_ADAMANT_MINT",
       "flag": "FLAG_NUEVA_429"
     },
     {
@@ -375,7 +375,7 @@
       "x": 7,
       "y": 30,
       "elevation": 3,
-      "item": "ITEM_PECHA_BERRY",
+      "item": "ITEM_MODEST_MINT",
       "flag": "FLAG_NUEVA_433"
     },
     {
@@ -399,7 +399,7 @@
       "x": 37,
       "y": 18,
       "elevation": 3,
-      "item": "ITEM_ORAN_BERRY",
+      "item": "ITEM_NAIVE_MINT",
       "flag": "FLAG_NUEVA_438"
     },
     {

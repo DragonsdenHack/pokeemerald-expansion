@@ -576,7 +576,7 @@ BaseRocketHoennS3Documento_Text_118:
     .string "NINETALES-&\p"
 	.string "PS: 83\n"
 	.string "ATAQUE: 57\l"
-	.string "DEFENSA: 75\l"
+	.string "DEFENSA: 85\l"
 	.string "ATAQUE ESPECIAL: 121\l"
 	.string "DEFENSA ESPECIAL: 140\l"
 	.string "VELOCIDAD: 129\l"

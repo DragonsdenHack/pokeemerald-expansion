@@ -25647,9 +25647,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FUR_COAT, ABILITY_FUR_COAT, ABILITY_FUR_COAT},
+            .abilities = {ABILITY_FLUFFY, ABILITY_FLUFFY, ABILITY_FLUFFY},
         #else
-            .abilities = {ABILITY_FUR_COAT, ABILITY_NONE},
+            .abilities = {ABILITY_FLUFFY, ABILITY_NONE},
         #endif
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
@@ -27362,7 +27362,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 35,
         .baseSpDefense = 75,
         .type1 = TYPE_WATER,
-        .type2 = TYPE_DARK,
+        .type2 = TYPE_STEEL,
         .catchRate = 60,
         .expYield = 191,
         .evYield_Attack    = 2,
@@ -27373,7 +27373,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_WATER_2,
         .eggGroup2 = EGG_GROUP_WATER_2,
-        .abilities = {ABILITY_INFILTRATOR, ABILITY_NONE, ABILITY_INFILTRATOR},
+        .abilities = {ABILITY_INFILTRATOR, ABILITY_INFILTRATOR, ABILITY_INFILTRATOR},
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
     },
@@ -38936,7 +38936,7 @@ const struct BaseStats gBaseStats[] =
     {
         .baseHP        = 83,
         .baseAttack    = 57,
-        .baseDefense   = 75,
+        .baseDefense   = 85,
         .baseSpeed     = 129,
         .baseSpAttack  = 121,
         .baseSpDefense = 140,

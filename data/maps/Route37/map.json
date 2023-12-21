@@ -106,10 +106,10 @@
     },
     {
       "type": "hidden_item",
-      "x": 9,
-      "y": 16,
+      "x": 4,
+      "y": 9,
       "elevation": 3,
-      "item": "ITEM_WHITE_HERB",
+      "item": "ITEM_LAX_MINT",
       "flag": "FLAG_NUEVA_479"
     }
   ]

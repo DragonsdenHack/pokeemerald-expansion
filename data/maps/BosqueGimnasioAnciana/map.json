@@ -113,7 +113,7 @@
       "x": 46,
       "y": 12,
       "elevation": 3,
-      "item": "ITEM_ABSORB_BULB",
+      "item": "ITEM_CAREFUL_MINT",
       "flag": "FLAG_NUEVA_785"
     },
     {
@@ -129,7 +129,7 @@
       "x": 8,
       "y": 22,
       "elevation": 3,
-      "item": "ITEM_LUMINOUS_MOSS",
+      "item": "ITEM_GENTLE_MINT",
       "flag": "FLAG_NUEVA_787"
     },
     {
@@ -137,7 +137,7 @@
       "x": 29,
       "y": 6,
       "elevation": 3,
-      "item": "ITEM_LEPPA_BERRY",
+      "item": "ITEM_SASSY_MINT",
       "flag": "FLAG_NUEVA_788"
     },
     {
@@ -145,7 +145,7 @@
       "x": 2,
       "y": 8,
       "elevation": 3,
-      "item": "ITEM_LUM_BERRY",
+      "item": "ITEM_TIMID_MINT",
       "flag": "FLAG_NUEVA_789"
     }
   ]

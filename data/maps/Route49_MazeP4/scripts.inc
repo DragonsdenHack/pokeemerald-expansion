@@ -542,7 +542,7 @@ Route49MazeP4Documento_Text_101:
 	.string "DEFENSA ESPECIAL: 132\l"
 	.string "VELOCIDAD: 99\l"
 	.string "TOTAL: 611\p"
-	.string "DRAGÓN/NORMAL\n"
+	.string "DRAGÓN/PSÍQUICO\n"
 	.string "Evolución de BLESSPARCE que solo los\l"
 	.string "elegidos pueden alcanzar. Posee\l"
 	.string "mimbres de PSEUDOLEGENDARIO, aunque\l"

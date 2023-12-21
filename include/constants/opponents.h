@@ -1402,12 +1402,62 @@
 #define TRAINER_TRAINER_540                   1398
 #define TRAINER_TRAINER_541                   1399
 #define TRAINER_TRAINER_542                   1400
+#define TRAINER_TRAINER_543                   1401
+#define TRAINER_TRAINER_544                   1402
+#define TRAINER_TRAINER_545                   1403
+#define TRAINER_TRAINER_546                   1404
+#define TRAINER_TRAINER_547                   1405
+#define TRAINER_TRAINER_548                   1406
+#define TRAINER_TRAINER_549                   1407
+#define TRAINER_TRAINER_550                   1408
+#define TRAINER_TRAINER_551                   1409
+#define TRAINER_TRAINER_552                   1410
+#define TRAINER_TRAINER_553                   1411
+#define TRAINER_TRAINER_554                   1412
+#define TRAINER_TRAINER_555                   1413
+#define TRAINER_TRAINER_556                   1414
+#define TRAINER_TRAINER_557                   1415
+#define TRAINER_TRAINER_558                   1416
+#define TRAINER_TRAINER_559                   1417
+#define TRAINER_TRAINER_560                   1418
+#define TRAINER_TRAINER_561                   1419
+#define TRAINER_TRAINER_562                   1420
+#define TRAINER_TRAINER_563                   1421
+#define TRAINER_TRAINER_564                   1422
+#define TRAINER_TRAINER_565                   1423
+#define TRAINER_TRAINER_566                   1424
+#define TRAINER_TRAINER_567                   1425
+#define TRAINER_TRAINER_568                   1426
+#define TRAINER_TRAINER_569                   1427
+#define TRAINER_TRAINER_570                   1428
+#define TRAINER_TRAINER_571                   1429
+#define TRAINER_TRAINER_572                   1430
+#define TRAINER_TRAINER_573                   1431
+#define TRAINER_TRAINER_574                   1432
+#define TRAINER_TRAINER_575                   1433
+#define TRAINER_TRAINER_576                   1434
+#define TRAINER_TRAINER_577                   1435
+#define TRAINER_TRAINER_578                   1436
+#define TRAINER_TRAINER_579                   1437
+#define TRAINER_TRAINER_580                   1438
+#define TRAINER_TRAINER_581                   1439
+#define TRAINER_TRAINER_582                   1440
+#define TRAINER_TRAINER_583                   1441
+#define TRAINER_TRAINER_584                   1442
+#define TRAINER_TRAINER_585                   1443
+#define TRAINER_TRAINER_586                   1444
+#define TRAINER_TRAINER_587                   1445
+#define TRAINER_TRAINER_588                   1446
+#define TRAINER_TRAINER_589                   1447
+#define TRAINER_TRAINER_590                   1448
+#define TRAINER_TRAINER_591                   1449
+#define TRAINER_TRAINER_592                   1450
 
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      1401
-#define MAX_TRAINERS_COUNT                  1401
+#define TRAINERS_COUNT                      1451
+#define MAX_TRAINERS_COUNT                  1451
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

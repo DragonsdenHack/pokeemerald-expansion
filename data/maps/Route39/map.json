@@ -241,7 +241,7 @@
       "x": 2,
       "y": 18,
       "elevation": 3,
-      "item": "ITEM_MOOMOO_MILK",
+      "item": "ITEM_MILD_MINT",
       "flag": "FLAG_NUEVA_482"
     },
     {
@@ -249,7 +249,7 @@
       "x": 12,
       "y": 14,
       "elevation": 3,
-      "item": "ITEM_MOOMOO_MILK",
+      "item": "ITEM_MODEST_MINT",
       "flag": "FLAG_NUEVA_483"
     },
     {
@@ -257,7 +257,7 @@
       "x": 13,
       "y": 21,
       "elevation": 3,
-      "item": "ITEM_MOOMOO_MILK",
+      "item": "ITEM_RELAXED_MINT",
       "flag": "FLAG_NUEVA_484"
     },
     {

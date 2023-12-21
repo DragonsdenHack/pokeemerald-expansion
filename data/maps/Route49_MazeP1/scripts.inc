@@ -95,7 +95,7 @@ Route49MazeP1Documento_Text_100:
 	.string "DEFENSA ESPECIAL: 75\l"
 	.string "VELOCIDAD: 95\l"
 	.string "TOTAL: 490\p"
-	.string "AGUA/SINIESTRO\n"
+	.string "AGUA/ACERO\n"
 	.string "Comparte parentesco con la línea\l"
 	.string "evolutiva de CARVANHA, aunque su\l"
 	.string "cerebro es mucho más primitivo. Su TIPO\l"
