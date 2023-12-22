@@ -2855,6 +2855,10 @@ extern const u8 gText_Lower[];
 extern const u8 gText_Symbols[];
 extern const u8 gText_Register2[];
 extern const u8 gText_Exit2[];
+extern const u8 gText_PostgameKanto[];
+extern const u8 gText_PostgameKanto2[];
+extern const u8 gText_PostgameKanto3[];
+extern const u8 gText_PostgameKanto4[];
 
 // Dodrio Berry Picking
 extern const u8 gText_BerryPickingRecords[];

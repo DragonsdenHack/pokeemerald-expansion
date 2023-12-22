@@ -2449,7 +2449,7 @@ static void CreateFlyDestIcons(void)
 				case REGION_JOHTO:
                    ////////////////////
                     canFlyFlag = FLAG_VISITED_ROCKET_HIDEOUT_JOHTO;
-                    for (mapSecId = MAPSEC_NEW_BARK_TOWN; mapSecId <= MAPSEC_BLACKTHORN_CITY; mapSecId++)
+                    for (mapSecId = MAPSEC_ROCKET_HIDEOUT_JOHTO; mapSecId <= MAPSEC_BLACKTHORN_CITY; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
                         x = (x + MAPCURSOR_X_MIN) * 8 + 4;
