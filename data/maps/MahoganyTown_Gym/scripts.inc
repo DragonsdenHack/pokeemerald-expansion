@@ -76,7 +76,7 @@ msgbox MahoganyTown_Gym_Combate_Fredo_Texto_8 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_10 MSGBOX_DEFAULT
-givemon SPECIES_BERGMITE, 25, ITEM_NONE
+givemon SPECIES_FRIGIBAX, 25, ITEM_NONE
 waitfanfare
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
@@ -170,15 +170,14 @@ MahoganyTown_Gym_Combate_Fredo_Texto_9:
 	.string "utilidad.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_10:
-.string "¡¡OBTUVISTE UN BERGMITE AL Nv.25!!$"
+.string "¡¡OBTUVISTE UN FRIGIBAX AL Nv.25!!$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_11:
-.string "Este pequeño puede crecer hasta\n"
-	.string "desarrollar una mejor DEFENSA\l"
-	.string "FÍSICA que CLOYSTER, al tiempo que\l"
-	.string "también le supera en la ESPECIAL.\l"
-	.string "Con mucho mejores PS y ATAQUE,\l"
-	.string "AVALUGG es un auténtico tanque.$"
+	.string "Hace décadas que guardo el secreto de\n"
+	.string "este POKÉMON, el único\l"
+	.string "PSEUDOLEGENDARIO del TIPO HIELO que\l"
+	.string "verás. Si lo entrenas bien, muy pocos\l"
+	.string "podrán igualar su poder físico.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_12:
 .string "La primavera llega cuando se\n"

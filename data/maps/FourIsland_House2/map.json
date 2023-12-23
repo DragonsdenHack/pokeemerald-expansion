@@ -25,7 +25,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WIGGLYTUFF",
@@ -103,7 +103,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCityHouse12FDocumento_102",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MEOWTH",
@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCityHouse12FDocumento_102",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_NIDORAN_F",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCityHouse12FDocumento_102",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_NIDORAN_M",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SaffronCityHouse12FDocumento_102",
-      "flag": "0"
+      "flag": "FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PIDGEOT",
