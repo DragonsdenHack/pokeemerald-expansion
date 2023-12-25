@@ -24439,9 +24439,9 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_CURSOLA] =
     {
         .baseHP        = 60,
-        .baseAttack    = 95,
-        .baseDefense   = 50,
-        .baseSpeed     = 30,
+        .baseAttack    = 30,
+        .baseDefense   = 95,
+        .baseSpeed     = 50,
         .baseSpAttack  = 145,
         .baseSpDefense = 130,
         .type1 = TYPE_GHOST,

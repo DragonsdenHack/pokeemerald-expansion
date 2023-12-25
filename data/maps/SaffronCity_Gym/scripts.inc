@@ -194,7 +194,7 @@ msgbox SaffronCity_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_SABRINA, SaffronCity_Lider_Gimnasio_Texto_2
 msgbox SaffronCity_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM04_CALM_MIND
+addobject 586
 msgbox SaffronCity_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox SaffronCity_Lider_Gimnasio_Texto_3 MSGBOX_AUTOCLOSE
@@ -371,7 +371,7 @@ msgbox Vermilion_City_Lider_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_SURGE_2, Vermilion_City_Lider_Gimnasio_Texto_2
 msgbox Vermilion_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM34_SHOCK_WAVE
+addobject 616
 msgbox Vermilion_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Vermilion_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
@@ -511,7 +511,7 @@ msgbox Pewter_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BROCK, Pewter_City_Lider_Gimnasio_Texto_2
 msgbox Pewter_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM39_ROCK_TOMB
+addobject 621
 msgbox Pewter_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Pewter_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
@@ -656,7 +656,7 @@ msgbox Cerulean_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MISTY, Cerulean_City_Lider_Gimnasio_Texto_2
 msgbox Cerulean_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM03_WATER_PULSE
+addobject 585
 msgbox Cerulean_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 setvar VAR_ROUTE109_STATE, 3
@@ -785,7 +785,7 @@ msgbox Fuchsia_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_KOGA, Fuchsia_City_Lider_Gimnasio_Texto_2
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM06_TOXIC
+addobject 588
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
@@ -876,7 +876,7 @@ msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BLAINE_1, Cinnabar_Island_Lider_Gimnasio_Texto_2
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM38_FIRE_BLAST
+addobject 620
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
@@ -1053,7 +1053,7 @@ msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ERIKA, Celadon_Ciyy_Lider_Gimnasio_Texto_2
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM19_GIGA_DRAIN
+addobject 601
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE

@@ -588,6 +588,8 @@ step_end
 
 
 RocketHideout_6F_Warp::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Warp_move2.1
+waitmovement 0x0
 msgbox RocketHideout_6F_Warp_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq RocketHideout_6F_Warp_No
@@ -605,6 +607,10 @@ RocketHideout_6F_Warp_Text_YesNo:
 	.string "las escaleras que llevan a la\l"
 	.string "GUARDERÍA, ¿quieres salir de la\l"
 	.string "BASE?$"
+
+RocketHideout_6F_Warp_move2.1:
+walk_in_place_down
+step_end
 
 RocketHideout_6F_Warp_move1:
 walk_slow_right

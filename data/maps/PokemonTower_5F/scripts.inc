@@ -74,6 +74,8 @@ PokemonTower5F_EventScript_Channeler4::
 	end
 
 PokemonTower5F_Curacion::
+applymovement OBJ_EVENT_ID_PLAYER, PokemonTower5F_Curacion_Move_1
+waitmovement 0x0
 fadescreen 3
 delay 30
 special HealPlayerParty
@@ -82,6 +84,10 @@ msgbox PokemonTower5F_Curacion_Texto_1 MSGBOX_AUTOCLOSE
 lock
 release
 end
+
+PokemonTower5F_Curacion_Move_1:
+walk_in_place_down
+step_end
 
 PokemonTower5F_Curacion_Texto_1:
 .string "Has entrado en una zona de pureza y\n"

@@ -10928,11 +10928,11 @@ static const struct TrainerMonItemCustomMoves sParty_Culto1[] = {
     {
     .iv = 230,
     .lvl = 75,
-    .species = SPECIES_MAROGHOST,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .evs = {96, 102, 96, 96, 24, 96},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_SHADOW_SNEAK, MOVE_ICE_PUNCH, MOVE_POLTERGEIST, MOVE_BULLDOZE}
+    .species = SPECIES_CURSOLA,
+    .heldItem = ITEM_LIGHT_BALL,
+    .evs = {96, 0, 96, 96, 124, 96},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_REFLECT, MOVE_STRENGTH_SAP, MOVE_SHADOW_BALL, MOVE_STEALTH_ROCK}
     },
     {
     .iv = 230,

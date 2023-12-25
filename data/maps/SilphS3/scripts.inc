@@ -789,3 +789,13 @@ SilphS1_Sotano_Texto_1:
 .string "ARCHIVOS PRIVADOS DE SILPH S.A.\n"
 	.string "S1$"
 
+
+SilphS1_Sotano_2::
+lock
+msgbox SilphS1_Sotano_2_Texto_1 MSGBOX_SIGN
+release
+end
+
+SilphS1_Sotano_2_Texto_1:
+.string "BIBLIOTECA PRIVADA DE SILPH S.A.$"
+

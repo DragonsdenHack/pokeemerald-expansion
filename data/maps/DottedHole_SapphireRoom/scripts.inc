@@ -75,7 +75,7 @@ delay 75
 removeobject 1
 waitfanfare
 playse SE_BANG
-setmetatile 7, 3, 0x284, TRUE
+setmetatile 7, 3, 0x284, FALSE
 setmetatile 7, 2, 0x294, FALSE
 setmetatile 7, 1, 0x28C, TRUE
 special DrawWholeMapView

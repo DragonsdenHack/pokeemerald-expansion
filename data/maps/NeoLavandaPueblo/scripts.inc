@@ -554,10 +554,8 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 
 NeoLavandaPueblo_Prueba::
 lock
-setvar VAR_UNUSED_0x40F7, 74
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-addmoney 99999999
-changeavatar 5
+givemon SPECIES_PORYGON3, 85, ITEM_LIFE_ORB
 release
 end
 

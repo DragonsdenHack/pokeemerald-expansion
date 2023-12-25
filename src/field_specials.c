@@ -4252,7 +4252,6 @@ void UpdateTrainerFanClubGameClear(void)
         gSaveBlock1Ptr->vars[VAR_FANCLUB_LOSE_FAN_TIMER - VARS_START] = gSaveBlock2Ptr->playTimeHours;
         FlagClear(FLAG_HIDE_FANCLUB_OLD_LADY);
         FlagClear(FLAG_HIDE_FANCLUB_BOY);
-        FlagClear(FLAG_HIDE_FANCLUB_LITTLE_BOY);
         FlagClear(FLAG_HIDE_FANCLUB_LADY);
         FlagClear(FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER);
         VarSet(VAR_LILYCOVE_FAN_CLUB_STATE, 1);

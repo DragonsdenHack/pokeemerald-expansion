@@ -193,6 +193,8 @@ walk_in_place_down
 step_end
 
 Route5_House1_Warp::
+applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Warp_move2
+waitmovement 0x0
 msgbox Route5_House1_Warp_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Route5_House1_Warp_No
@@ -210,6 +212,10 @@ Route5_House1_Warp_Text_YesNo:
 	.string "sutilmente unas escaleras que\l"
 	.string "conducen a una zona subterránea,\l"
 	.string "¿quieres entrar en la BASE ROCKET?$"
+
+Route5_House1_Warp_move2:
+walk_in_place_left
+step_end
 
 Route5_House1_Warp_move1:
 walk_slow_right
