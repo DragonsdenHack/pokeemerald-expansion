@@ -1149,12 +1149,12 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_ZUBAT] =
     {
-        .baseHP        = 40,
-        .baseAttack    = 45,
-        .baseDefense   = 35,
-        .baseSpeed     = 55,
-        .baseSpAttack  = 30,
-        .baseSpDefense = 40,
+        .baseHP        = 50,
+        .baseAttack    = 55,
+        .baseDefense   = 45,
+        .baseSpeed     = 65,
+        .baseSpAttack  = 40,
+        .baseSpDefense = 50,
         .type1 = TYPE_POISON,
         .type2 = TYPE_FLYING,
         .catchRate = 255,
@@ -22915,9 +22915,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_GRASS,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_GRASSY_SURGE},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #else
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #endif
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
@@ -22943,9 +22943,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_GRASS,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_GRASSY_SURGE},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #else
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #endif
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
@@ -22971,9 +22971,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FIELD,
         .eggGroup2 = EGG_GROUP_GRASS,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE, ABILITY_GRASSY_SURGE},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #else
-            .abilities = {ABILITY_OVERGROW, ABILITY_NONE},
+            .abilities = {ABILITY_GRASSY_SURGE, ABILITY_GRASSY_SURGE},
         #endif
         .bodyColor = BODY_COLOR_GREEN,
         .noFlip = FALSE,
@@ -26230,7 +26230,7 @@ const struct BaseStats gBaseStats[] =
             .baseSpAttack  = 140,
         #endif
         .type1 = TYPE_BUG,
-        .type2 = TYPE_FLYING,
+        .type2 = TYPE_PSYCHIC,
         .catchRate = 45,
         .expYield = 258,
         .evYield_SpAttack  = 2,
@@ -29587,7 +29587,7 @@ const struct BaseStats gBaseStats[] =
         .growthRate = GROWTH_SLOW,
         .eggGroup1 = EGG_GROUP_UNDISCOVERED,
         .eggGroup2 = EGG_GROUP_UNDISCOVERED,
-        .abilities = {ABILITY_NO_GUARD, ABILITY_NONE},
+        .abilities = {ABILITY_NO_GUARD, ABILITY_NO_GUARD},
         .bodyColor = BODY_COLOR_GRAY,
         .noFlip = TRUE,
     },

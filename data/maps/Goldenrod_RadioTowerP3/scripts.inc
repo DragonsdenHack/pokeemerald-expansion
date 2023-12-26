@@ -177,3 +177,49 @@ end
 
 GoldenrodRadioTowerP3Documento_Text_101:
 	.string "P3 ESTUDIO 2$"
+
+RadioTower_EventScript_ReceiveElectrike::
+    lock
+    faceplayer
+	checkmoncatch SPECIES_ELECTRIKE
+	goto_if_eq VAR_RESULT, FALSE, RadioHouse_EventScript_TakeNosepass 
+	msgbox RadioHouse_Text_1, MSGBOX_DEFAULT
+	release
+	end
+
+
+
+RadioHouse_EventScript_TakeNosepass::
+    msgbox RadioHouse_Text_TakeNosepass MSGBOX_DEFAULT
+	msgbox RadioHouse_Text_TakeNosepass2 MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox RadioHouse_Text_MensajeNosepass, MSGBOX_DEFAULT
+	givemon SPECIES_ELECTRIKE, 25, ITEM_NONE
+	waitfanfare  
+	release
+	end 
+
+
+
+RadioHouse_Text_TakeNosepass:
+	.string "JOHTO está cada vez más abierta al\n"
+	.string "mundo. En TORRE RADIO manejamos cada\l"
+	.string "vez más contactos.$"
+
+
+
+RadioHouse_Text_TakeNosepass2:
+	.string "Mira este POKÉMON, es un claro ejemplo\n"
+	.string "de ello.$"
+
+
+
+RadioHouse_Text_MensajeNosepass:
+.string "¡OBTUVISTE UN ELECTRIKE AL NV.25!$"
+
+
+RadioHouse_Text_1:
+	.string "Al parecer ELECTRIKE evoluciona en un\n"
+	.string "POKÉMON veloz, potente y fiel. A la\l"
+	.string "policía de CIUDAD TRIGAL seguro que le\l"
+	.string "encantará.$"

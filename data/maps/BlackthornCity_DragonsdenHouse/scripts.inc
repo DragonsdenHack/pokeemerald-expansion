@@ -73,12 +73,18 @@ DragonsdenHouse_Anciano_Trampilla_Texto_1:
 	.string "Sigue adelante.$"
 
 Dragonsden_Warp::
+applymovement OBJ_EVENT_ID_PLAYER, Dragonsden_Warp_move_2
+waitmovement 0x0
 msgbox Dragonsden_Warp_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq Dragonsden_Warp_No
 warp MAP_BLACKTHORN_CITY_DRAGONSDEN_S2, 20, 19
 release
 end
+
+Dragonsden_Warp_move_2:
+walk_in_place_up
+step_end
 
 Dragonsden_Warp_No::
 applymovement OBJ_EVENT_ID_PLAYER, Dragonsden_Warp_move1

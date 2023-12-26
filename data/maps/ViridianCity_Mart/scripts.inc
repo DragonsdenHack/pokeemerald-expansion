@@ -752,11 +752,14 @@ Johto_Base_Rocket_Mercado_1_EventScript_Clerk::
 
 	.align 2
 Johto_Base_Rocket_Mercado_1_Pokemart:
+    .2byte 782
     .2byte 317
 	.2byte 337
 	.2byte 320
 	.2byte 321
 	.2byte 327
+	.2byte 779
+	.2byte 780
 	.2byte 329
 	.2byte 334
 	.2byte ITEM_NONE

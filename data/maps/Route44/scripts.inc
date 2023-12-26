@@ -186,7 +186,7 @@ msgbox Route44_Combate_Mirto_Texto_9 MSGBOX_AUTOCLOSE
 msgbox Route44_Combate_Mirto_Texto_10 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Route44_Combate_Mirto_Texto_11 MSGBOX_DEFAULT
-givemon SPECIES_NOIBAT, 25, ITEM_NONE
+givemon SPECIES_NOIBAT, 25, ITEM_NOIVERNITA
 waitfanfare
 msgbox Route44_Combate_Mirto_Texto_11.1 MSGBOX_DEFAULT
 delay 10

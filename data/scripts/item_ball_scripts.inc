@@ -1283,7 +1283,7 @@ finditem ITEM_MAX_REVIVE
 
 
 Ruta52Maze_EventScript_CableLink::
-finditem ITEM_POKEMON_BOX_LINK
+finditem ITEM_CRACKED_POT
 end
 
 
@@ -2620,5 +2620,8 @@ Underground7F_EventScript_Condensador::
 finditem ITEM_CONDENSADOR_GAS
     end
 
+Underground7F_EventScript_Toxtricitita::
+finditem ITEM_TOXTRICITIT
+    end
 
 

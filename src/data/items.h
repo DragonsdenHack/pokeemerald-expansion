@@ -9588,7 +9588,7 @@ const struct Item gItems[] =
     {
         .name = _("Flygonita"),
         .itemId = ITEM_FLYGONITE,
-        .price = 0,
+        .price = 50000,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sFlygoniteDesc,
         .pocket = POCKET_ITEMS,
@@ -9599,7 +9599,7 @@ const struct Item gItems[] =
     {
         .name = _("Miloticita"),
         .itemId = ITEM_MILOTICITE,
-        .price = 0,
+        .price = 55000,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sMiloticiteDesc,
         .pocket = POCKET_ITEMS,
@@ -9621,7 +9621,7 @@ const struct Item gItems[] =
     {
         .name = _("Butterfrita"),
         .itemId = ITEM_BUTTERFRITA,
-        .price = 0,
+        .price = 30000,
         .holdEffect = HOLD_EFFECT_MEGA_STONE,
         .description = sButterfriteDesc,
         .pocket = POCKET_ITEMS,

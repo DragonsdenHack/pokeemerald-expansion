@@ -20,11 +20,6 @@
     },
     {
       "direction": "left",
-      "offset": -15,
-      "map": "MAP_ROUTE32"
-    },
-    {
-      "direction": "left",
       "offset": -13,
       "map": "MAP_ROUTE32"
     }

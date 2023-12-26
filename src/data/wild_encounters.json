@@ -28382,7 +28382,7 @@
               {
                 "min_level": 35,
                 "max_level": 45,
-                "species": "SPECIES_MUNNA"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 35,
@@ -29742,12 +29742,12 @@
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_MANTINE"
+                "species": "SPECIES_CARVANHA"
               },
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_OCTILLERY"
+                "species": "SPECIES_SHARPEDO"
               },
               {
                 "min_level": 35,
@@ -29831,12 +29831,12 @@
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_MANTINE"
+                "species": "SPECIES_CARVANHA"
               },
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_OCTILLERY"
+                "species": "SPECIES_SHARPEDO"
               },
               {
                 "min_level": 35,
@@ -32234,6 +32234,21 @@
               {
                 "min_level": 35,
                 "max_level": 55,
+                "species": "SPECIES_NUMEL"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_CENTISKORCH"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_TORKOAL"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
                 "species": "SPECIES_HEATMOR"
               },
               {
@@ -32259,22 +32274,7 @@
               {
                 "min_level": 35,
                 "max_level": 55,
-                "species": "SPECIES_TURTONATOR"
-              },
-              {
-                "min_level": 35,
-                "max_level": 55,
-                "species": "SPECIES_HEATMOR"
-              },
-              {
-                "min_level": 35,
-                "max_level": 55,
-                "species": "SPECIES_CENTISKORCH"
-              },
-              {
-                "min_level": 35,
-                "max_level": 55,
-                "species": "SPECIES_TURTONATOR"
+                "species": "SPECIES_CAMERUPT"
               },
               {
                 "min_level": 35,
@@ -35212,6 +35212,243 @@
                 "min_level": 60,
                 "max_level": 80,
                 "species": "SPECIES_TAABAN"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S2",
+          "base_label": "gBlackthornCity_DragonsdenS20",
+          "land_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BAGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_PUPITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SHELGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CHARIZARD"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TYRANITAR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_AMPHAROS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SALAMENCE"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SEADRA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_DRAGONAIR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_KINGDRA"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_DRAGONITE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S3",
+          "base_label": "gBlackthornCity_DragonsdenS30",
+          "land_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BAGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_PUPITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SHELGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CHARIZARD"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TYRANITAR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_AMPHAROS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SALAMENCE"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S4",
+          "base_label": "gBlackthornCity_DragonsdenS40",
+          "land_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BAGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_PUPITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SHELGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CHARIZARD"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TYRANITAR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_AMPHAROS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SALAMENCE"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
               }
             ]
           }

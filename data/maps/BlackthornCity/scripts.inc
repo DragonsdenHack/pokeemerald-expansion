@@ -232,3 +232,51 @@ BlackthornCity_Anciano_Paso_Texto_1:
 	.string "Nuestro GRAN MAESTRO nos ha\l"
 	.string "hablado de ti, eres más que\l"
 	.string "bienvenido en este lugar.$"
+
+BlackthornCity_EventScript_ReceiveSwablu::
+    lock
+    faceplayer
+	checkmoncatch SPECIES_SWABLU
+	goto_if_eq VAR_RESULT, FALSE, BlackthornCity_Swablu_EventScript_TakeNosepass 
+	msgbox BlackthornCity_Swablu_Text_1, MSGBOX_DEFAULT
+	release
+	end
+
+
+
+BlackthornCity_Swablu_EventScript_TakeNosepass::
+    msgbox BlackthornCity_Swablu_Text_TakeNosepass MSGBOX_DEFAULT
+	msgbox BlackthornCity_Swablu_Text_TakeNosepass2 MSGBOX_DEFAULT
+    playfanfare MUS_OBTAIN_TMHM
+	msgbox BlackthornCity_Swablu_Text_MensajeNosepass, MSGBOX_DEFAULT
+	givemon SPECIES_SWABLU, 25, ITEM_NONE
+	waitfanfare  
+	release
+	end 
+
+
+
+BlackthornCity_Swablu_Text_TakeNosepass:
+	.string "Esta ciudad es conocida como la cuna de\n"
+	.string "los DOMADRAGONES, vienen de todas las\l"
+	.string "regiones y muchos de ellos guardan sus\l"
+	.string "respetos dejando un POKÉMON con\l"
+	.string "potencial de ser un dragón.$"
+
+
+
+BlackthornCity_Swablu_Text_TakeNosepass2:
+	.string "¿Quieres contar con uno de esos\n"
+	.string "POKÉMON? Toma.$"
+
+
+
+BlackthornCity_Swablu_Text_MensajeNosepass:
+.string "¡OBTUVISTE UN SWABLU AL NV.25!$"
+
+
+BlackthornCity_Swablu_Text_1:
+	.string "La línea evolutiva de SWABLU no cuenta\n"
+	.string "con la capacidad ofensiva típica en los\l"
+	.string "dragones, pero sí con otros atributos.\l"
+	.string "Quizás puedas llegar a descubrirlos.$"

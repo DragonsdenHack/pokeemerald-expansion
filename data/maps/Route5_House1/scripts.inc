@@ -7,7 +7,17 @@ map_script_2 VAR_UNUSED_0x40F7, 8, Route5_House1_Criador
 	.2byte 0
 
 Route5House1_1::
+lock
+faceplayer
+msgbox Route5House1_1_Texto_1 MSGBOX_NPC
+release
 end
+
+Route5House1_1_Texto_1:
+	.string "Lo siento, pero la política del TEAM\n"
+	.string "ROCKET impide meter dentro del negocio\l"
+	.string "a sus propios POKÉMON. Espero que lo\l"
+	.string "entiendas.$"
 
 Route5_House1_Criador::
 applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move1.1

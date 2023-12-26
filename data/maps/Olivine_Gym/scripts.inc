@@ -47,7 +47,7 @@ msgbox Olivine_Gym_Combate_Crom_Texto_8 MSGBOX_NPC
 msgbox Olivine_Gym_Combate_Crom_Texto_9 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
 msgbox Olivine_Gym_Combate_Crom_Texto_10 MSGBOX_DEFAULT
-givemon SPECIES_RIOLU, 25, ITEM_NONE
+givemon SPECIES_RIOLU, 25, ITEM_LUCARIONITE
 waitfanfare
 msgbox Olivine_Gym_Combate_Crom_Texto_11 MSGBOX_NPC
 delay 15
