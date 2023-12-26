@@ -2774,6 +2774,7 @@ extern const u8 gJPText_MysteryGift[];
 extern const u8 gJPText_DecideStop[];
 extern const u8 gText_WonderCards[];
 extern const u8 gText_WonderNews[];
+extern const u8 gText_Dlc[];
 extern const u8 gText_Exit3[];
 extern const u8 gText_WirelessCommunication[];
 extern const u8 gText_Friend2[];
