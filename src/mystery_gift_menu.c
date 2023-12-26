@@ -32,6 +32,97 @@
 #include "wonder_news.h"
 #include "constants/cable_club.h"
 #include "debug.h"
+#include "pokemon.h"
+#include "constants/items.h"
+#include "script_pokemon_util.h"
+#include "event_data.h"
+
+#define DEBUG_MAIN_MENU_HEIGHT 7
+#define DEBUG_MAIN_MENU_WIDTH 11
+
+static void Debug_DestroyMainMenu(u8);
+static void DebugAction_Cancel(u8);
+static void DebugTask_HandleMainMenuInput(u8);
+
+enum {
+	DEBUG_MENU_POKE1,
+	DEBUG_MENU_POKE2,
+	DEBUG_MENU_POKE3,
+	DEBUG_MENU_POKE4,
+	DEBUG_MENU_POKE5,
+	DEBUG_MENU_POKE6,
+	DEBUG_MENU_POKE7,
+	DEBUG_MENU_POKE8,
+    DEBUG_MENU_ITEM_CANCEL,
+};
+
+static const u8 gDebugText_Cancel[] = _("Cancel");
+static const u8 gDebugText_Golduck[] = _("Golduck");
+static const u8 gDebugText_Furret[] = _("Furret");
+static const u8 gDebugText_Electabuzz[] = _("Electabuzz");
+static const u8 gDebugText_Nidoking[] = _("Nidoking");
+static const u8 gDebugText_Nidoqueen[] = _("Nidoqueen");
+static const u8 gDebugText_Alakazam[] = _("Alakazam");
+static const u8 gDebugText_Ninetales[] = _("Ninetales");
+static const u8 gDebugText_Pidgeot[] = _("Pidgeot");
+
+static const struct ListMenuItem sDebugMenuItems[] =
+{
+	[DEBUG_MENU_POKE1] = {gDebugText_Golduck, DEBUG_MENU_POKE1},
+	[DEBUG_MENU_POKE2] = {gDebugText_Furret, DEBUG_MENU_POKE2},
+	[DEBUG_MENU_POKE3] = {gDebugText_Electabuzz, DEBUG_MENU_POKE3},
+	[DEBUG_MENU_POKE4] = {gDebugText_Nidoking, DEBUG_MENU_POKE4},
+	[DEBUG_MENU_POKE5] = {gDebugText_Nidoqueen, DEBUG_MENU_POKE5},
+	[DEBUG_MENU_POKE6] = {gDebugText_Alakazam, DEBUG_MENU_POKE6},
+	[DEBUG_MENU_POKE7] = {gDebugText_Ninetales, DEBUG_MENU_POKE7},
+	[DEBUG_MENU_POKE8] = {gDebugText_Pidgeot, DEBUG_MENU_POKE8},
+    [DEBUG_MENU_ITEM_CANCEL] = {gDebugText_Cancel, DEBUG_MENU_ITEM_CANCEL}
+};
+
+static void (*const sDebugMenuActions[])(u8) =
+{
+	[DEBUG_MENU_POKE1] = DebugAction_Cancel,
+	[DEBUG_MENU_POKE2] = DebugAction_Cancel,
+	[DEBUG_MENU_POKE3] = DebugAction_Cancel,
+	[DEBUG_MENU_POKE4] = DebugAction_Cancel,
+	[DEBUG_MENU_POKE5] = DebugAction_Cancel,
+	[DEBUG_MENU_POKE6] = DebugAction_Cancel,
+	[DEBUG_MENU_POKE7] = DebugAction_Cancel,
+	[DEBUG_MENU_POKE8] = DebugAction_Cancel,
+    [DEBUG_MENU_ITEM_CANCEL] = DebugAction_Cancel
+};
+
+static const struct WindowTemplate sDebugMenuWindowTemplate =
+{
+    .bg = 0,
+    .tilemapLeft = 8,
+    .tilemapTop = 4,
+    .width = 14,
+    .height = 8,
+    .paletteNum = 12,
+    .baseBlock = 0x0155
+};
+
+static const struct ListMenuTemplate sDebugMenuListTemplate =
+{
+    .items = sDebugMenuItems,
+    .moveCursorFunc = ListMenuDefaultCursorMoveFunc,
+    .totalItems = ARRAY_COUNT(sDebugMenuItems),
+    .maxShowed = 4,
+    .windowId = 0,
+    .header_X = 3,
+    .item_X = 8,
+    .cursor_X = 0,
+    .upText_Y = 1,
+    .cursorPal = 2,
+    .fillValue = 1,
+    .cursorShadowPal = 3,
+    .lettersSpacing = 1,
+    .itemVerticalPadding = 0,
+    .scrollMultiple = 1,
+	.fontId = FONT_NORMAL,
+    .cursorKind = 0
+};
 
 #define LIST_MENU_TILE_NUM 10
 #define LIST_MENU_PAL_NUM 224
@@ -49,6 +140,62 @@ static const u32 sTextboxBorder_Gfx[] = INCBIN_U32("graphics/interface/mystery_g
 static const u32 sTextboxBorder_Gfx2[] = INCBIN_U32("graphics/interface/giovanni.4bpp.lz");
 static const u32 sTextboxBorder_Tilemap2[] = INCBIN_U32("graphics/interface/giovanni.bin.lz");
 static const u32 sTextboxBorder_Palette[] = INCBIN_U32("graphics/interface/giovanni.gbapal");
+
+void Debug_ShowMainMenu2(void) {
+    struct ListMenuTemplate menuTemplate;
+    u8 windowId;
+    u8 menuTaskId;
+    u8 inputTaskId;
+
+    // create window
+    LoadMessageBoxAndBorderGfx();
+    windowId = AddWindow(&sDebugMenuWindowTemplate);
+    DrawStdWindowFrame(windowId, FALSE);
+
+    // create list menu
+    menuTemplate = sDebugMenuListTemplate;
+    menuTemplate.windowId = windowId;
+    menuTaskId = ListMenuInit(&menuTemplate, 0, 0);
+
+    // draw everything
+    CopyWindowToVram(windowId, 3);
+
+    // create input handler task
+    inputTaskId = CreateTask(DebugTask_HandleMainMenuInput, 3);
+    gTasks[inputTaskId].data[0] = menuTaskId;
+    gTasks[inputTaskId].data[1] = windowId;
+}
+
+static void Debug_DestroyMainMenu(u8 taskId)
+{
+    DestroyListMenuTask(gTasks[taskId].data[0], NULL, NULL);
+    ClearStdWindowAndFrame(gTasks[taskId].data[1], TRUE);
+    RemoveWindow(gTasks[taskId].data[1]);
+    DestroyTask(taskId);
+}
+
+static void DebugTask_HandleMainMenuInput(u8 taskId)
+{
+    void (*func)(u8);
+    u32 input = ListMenu_ProcessInput(gTasks[taskId].data[0]);
+
+    if (gMain.newKeys & A_BUTTON)
+    {
+        PlaySE(SE_SELECT);
+        if ((func = sDebugMenuActions[input]) != NULL)
+            func(taskId);
+    }
+    else if (gMain.newKeys & B_BUTTON)
+    {
+        PlaySE(SE_SELECT);
+        Debug_DestroyMainMenu(taskId);
+    }
+}
+
+static void DebugAction_Cancel(u8 taskId)
+{
+    Debug_DestroyMainMenu(taskId);
+}
 
 struct MysteryGiftTaskData
 {
@@ -166,7 +313,18 @@ static const struct WindowTemplate sWindowTemplate_ThreeOptions = {
     .tilemapLeft = 8,
     .tilemapTop = 6,
     .width = 14,
-    .height = 6,
+    .height = 8,
+    .paletteNum = 12,
+    .baseBlock = 0x0155
+};
+
+static const struct WindowTemplate sDebugMenuWindowTemplate2 =
+{
+    .bg = 0,
+    .tilemapLeft = 8,
+    .tilemapTop = 6,
+    .width = 14,
+    .height = 2 * 8,
     .paletteNum = 12,
     .baseBlock = 0x0155
 };
@@ -214,6 +372,7 @@ static const struct WindowTemplate sWindowTemplate_GiftSelect_1Option = {
 static const struct ListMenuItem sListMenuItems_CardsOrNews[] = {
     { gText_WonderCards,  0 },
     { gText_WonderNews,   1 },
+	{ gText_Dlc,          2 },
     { gText_Exit3,        LIST_CANCEL }
 };
 
@@ -227,8 +386,8 @@ static const struct ListMenuTemplate sListMenuTemplate_ThreeOptions = {
     .items = NULL,
     .moveCursorFunc = ListMenuDefaultCursorMoveFunc,
     .itemPrintFunc = NULL,
-    .totalItems = 3,
-    .maxShowed = 3,
+    .totalItems = 4,
+    .maxShowed = 4,
     .windowId = 0,
     .header_X = 0,
     .item_X = 8,
@@ -243,6 +402,8 @@ static const struct ListMenuTemplate sListMenuTemplate_ThreeOptions = {
     .fontId = FONT_NORMAL,
     .cursorKind = 0
 };
+
+
 
 static const struct ListMenuItem sListMenuItems_ReceiveSendToss[] = {
     { gText_Receive,  0 },
@@ -679,6 +840,25 @@ static u32 MysteryGift_HandleThreeOptionMenu(u8 * unused0, u16 * unused1, u8 whi
         CopyWindowToVram(2, COPYWIN_MAP);
     }
     return response;
+}
+
+u32 MenuPersonalizado(void)
+{
+	struct WindowTemplate windowTemplate = sDebugMenuWindowTemplate;
+	struct ListMenuTemplate listMenuTemplate = sDebugMenuListTemplate;
+	s32 width;
+	s32 response;
+    
+	width = Intl_GetListMenuWidth(&listMenuTemplate);
+	if (width & 1)
+        width++;
+	response = DoMysteryGiftListMenu(&windowTemplate, &listMenuTemplate, 1, LIST_MENU_TILE_NUM, LIST_MENU_PAL_NUM);
+	if(response != LIST_NOTHING_CHOSEN)
+	{
+		ClearWindowTilemap(2);
+		CopyWindowToVram(2, COPYWIN_MAP);
+	}
+	return response;
 }
 
 s8 DoMysteryGiftYesNo(u8 * textState, u16 * windowId, bool8 yesNoBoxPlacement, const u8 * str)
@@ -1130,6 +1310,7 @@ enum {
 	PRUEBA3,
 	PRUEBA4,
 	PRUEBA5,
+	MG_POKE1,
 };
 
 static void CreateMysteryGiftTask(void)
@@ -1170,15 +1351,17 @@ static void Task_MysteryGift(u8 taskId)
             if (ValidateSavedWonderCard() == TRUE)
                 data->state = MG_STATE_LOAD_GIFT;
             else
-                data->state = PRUEBA;
+                data->state = MG_STATE_EXIT;
             break;
         case 1: // "Wonder News"
             data->isWonderNews = TRUE;
             if (ValidateSavedWonderNews() == TRUE)
                 data->state = MG_STATE_LOAD_GIFT;
             else
-                data->state = MG_STATE_DONT_HAVE_ANY;
+                data->state = MG_STATE_EXIT;
             break;
+		case 2:
+			data->state = MG_STATE_EXIT;
         case LIST_CANCEL:
             data->state = MG_STATE_EXIT;
             break;
@@ -1211,9 +1394,9 @@ static void Task_MysteryGift(u8 taskId)
         {
         case 0: // Yes
             if (!data->isWonderNews && IsSavedWonderCardGiftNotReceived() == TRUE)
-                data->state = PRUEBA5;
+                data->state = MG_POKE1;
             else
-                data->state = PRUEBA5;
+                data->state = MG_POKE1;
             break;
         case 1: // No
         case MENU_B_PRESSED:
@@ -1222,10 +1405,32 @@ static void Task_MysteryGift(u8 taskId)
         }
 	}
 	break;
+	case MG_POKE1:
+	 ZeroPlayerPartyMons();
+	 ZeroEnemyPartyMons();
+	 ScriptGiveMon(SPECIES_CROBAT, 63, ITEM_NONE,0,0,0);
+	 data->state = PRUEBA5;
+	break;
 	case PRUEBA5:
 	{
-		ClearTextWindow();
-		
+		if(VarGet(VAR_UNUSED_0x8014) == 10){
+			data->state = MG_STATE_EXIT;
+		}else
+		{
+				ClearTextWindow();
+
+			switch(MenuPersonalizado())
+			{
+			case 0:
+				ScriptGiveMon(SPECIES_GOLDUCK,63,ITEM_NONE,0,0,0);
+				VarAdd(VAR_UNUSED_0x8014,1);
+				data->state = PRUEBA5;
+				break;
+			case MENU_B_PRESSED:
+				data->state = PRUEBA5;
+				break;
+			}
+		}
 	}
 	break;
     case MG_STATE_DONT_HAVE_ANY:
