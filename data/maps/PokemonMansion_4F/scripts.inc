@@ -370,7 +370,7 @@ PokemonMansion_4F_Entrada_Secreta_Texto_2:
 
 
 PokemonMansion_4F_PC::
-compare VAR_UNUSED_0x40F7, 51
+compare VAR_UNUSED_0x40F7, 113
 goto_if_gt PokemonMansion_4F_Warp
 msgbox PokemonMansion_4F_PC_PC_Texto_1 MSGBOX_AUTOCLOSE
 release
