@@ -3318,6 +3318,7 @@ delay 20
 applymovement 1, RocketHideout_4F_Giovanni_Mision_Llegada_Rojo_Move_2
 waitmovement 0x0
 msgbox RocketHideout_4F_Escena_Castigo_Reclutas_Texto_26 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT
 setflag FLAG_HIDE_FANCLUB_OLD_LADY
 setvar VAR_UNUSED_0x40F7, 59
