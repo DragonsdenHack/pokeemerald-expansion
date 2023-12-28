@@ -1021,7 +1021,7 @@ RocketHideout_8F_Mision_Silph_text_15:
 RocketHideout_8F_Mision_Silph_text_16:
 .string "Todo empezó hace 5 años,\n"
 	.string "cuando JOHTO declaró la guerra a\l"
-	.string "KANTO, a todos nos sorpendió\l"
+	.string "KANTO, a todos nos sorprendió\l"
 	.string "mucho, una región tan tradicional\l"
 	.string "y pacífica, que además no contaba\l"
 	.string "con nuestros recursos ni capacidad\l"
