@@ -804,6 +804,7 @@ waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_55 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 removeobject 9
 fadescreen 0
