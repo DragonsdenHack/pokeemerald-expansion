@@ -3666,7 +3666,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_2,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_SWIFT_SWIM, ABILITY_NONE, ABILITY_RATTLED},
+            .abilities = {ABILITY_SWIFT_SWIM, ABILITY_MOXIE, ABILITY_RATTLED},
         #else
             .abilities = {ABILITY_SWIFT_SWIM, ABILITY_NONE},
         #endif
