@@ -22139,22 +22139,22 @@
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_REMORAID"
               },
               {
                 "min_level": 40,
                 "max_level": 50,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_OCTILLERY"
               },
               {
                 "min_level": 55,
                 "max_level": 65,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_TOTODILE"
               },
               {
                 "min_level": 55,
                 "max_level": 65,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_TOTODILE"
               }
             ]
           }

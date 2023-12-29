@@ -140,7 +140,7 @@ static const u8 sPotionDesc[] = _(
    	"de un POKéMON.");
 
 static const u8 sSuperPotionDesc[] = _(
-    "Restaura 50 PS\n"
+    "Restaura 60 PS\n"
    	"de un POKéMON.");
 
 static const u8 sHyperPotionDesc[] = _(

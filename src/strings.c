@@ -3784,6 +3784,7 @@ const u8 gText_Axew[] = _("AXEW             140000¥");
 const u8 gText_Rattata[] = _("RATTATA   3000¥");
 const u8 gText_Mankey[] = _("MANKEY     8000¥");
 const u8 gText_Koffing[] = _("KOFFING  11000¥");
+const u8 gText_Voltorb[] = _("VOLTORB  9000¥");
 const u8 gText_NidoranF[] = _("NIDORAN♀     12000¥");
 const u8 gText_Shellder[] = _("SHELLDER     17500¥");
 const u8 gText_Rhyhorn[] = _("RHYHORN       35000¥");

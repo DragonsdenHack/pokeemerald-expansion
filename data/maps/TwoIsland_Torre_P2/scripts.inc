@@ -9,10 +9,10 @@ release
 end
 
 TwoIsland_Torre_P2_Cientifico_Texto_1:
-	.string "Isn't it incredible? You would never\n"
-	.string "have thought that a place like this\l"
-	.string "would exist on an island like this,\l"
-	.string "right?$"
+.string "¿No te parece increíble?\n"
+	.string "Jamás pensarías que un lugar como\l"
+	.string "este existiría en una isla como esta,\l"
+	.string "¿verdad?$"
 
 TwoIsland_Torre_P2_Cientifico_2::
 lock

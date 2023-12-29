@@ -29,7 +29,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
-      "x": 22,
+      "x": 23,
       "y": 12,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -42,7 +42,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_PUSHABLE_BOULDER",
-      "x": 32,
+      "x": 34,
       "y": 9,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
