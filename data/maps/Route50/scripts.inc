@@ -99,7 +99,7 @@ waitmovement 0x0
 msgbox Route50_Encuentro_Dunsparce_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_VERDANTURF_TOWN_STATE, 8
 setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
-clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
+clearflag FLAG_UNUSED_0x275
 setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
 fadescreen 1
 delay 20

@@ -192,6 +192,7 @@ applymovement 10, Route49_Combate_Andra_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, Route49_Combate_Andra_Move_10
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
+setflag FLAG_UNUSED_0x275
 removeobject 10
 playse SE_DOOR
 delay 15

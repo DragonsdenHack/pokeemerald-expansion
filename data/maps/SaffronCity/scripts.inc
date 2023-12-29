@@ -388,10 +388,12 @@ msgbox SaffronCity_Combate_Andra_Texto_13 MSGBOX_AUTOCLOSE
 applymovement 15, SaffronCity_Combate_Andra_Move_9
 waitmovement 0x0
 msgbox SaffronCity_Combate_Andra_Texto_14 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
 trainerbattle_no_intro TRAINER_ANDRA_5, SaffronCity_Combate_Andra_Texto_15
 msgbox SaffronCity_Combate_Andra_Texto_16 MSGBOX_AUTOCLOSE
 applymovement 15, SaffronCity_Combate_Andra_Move_6
 waitmovement 0x0
+setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
 removeobject 15
 playse SE_SLIDING_DOOR
 setvar VAR_UNUSED_0x40F7, 73

@@ -195,6 +195,7 @@ waitmovement 0x0
 msgbox RockTunnel_2F_Combate_Miguel_Texto_8 MSGBOX_AUTOCLOSE
 playse MUS_RG_SILPH
 msgbox RockTunnel_2F_Combate_Miguel_Texto_9 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 trainerbattle_no_intro TRAINER_CMIGUEL_1, RockTunnel_2F_Combate_Miguel_Texto_10
 msgbox RockTunnel_2F_Combate_Miguel_Texto_11 MSGBOX_AUTOCLOSE
 delay 20
@@ -237,6 +238,7 @@ playse MUS_RG_MT_MOON
 fadedefaultbgm
 msgbox RockTunnel_2F_Combate_Miguel_Texto_17 MSGBOX_AUTOCLOSE
 delay 20
+setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
 setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
 fadescreen 1
 delay 20
