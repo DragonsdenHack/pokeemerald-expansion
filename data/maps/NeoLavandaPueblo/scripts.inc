@@ -555,7 +555,7 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-givemon SPECIES_PORYGON3, 85, ITEM_LIFE_ORB
+addmoney 5000000
 release
 end
 

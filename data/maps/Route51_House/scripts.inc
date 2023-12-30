@@ -311,7 +311,7 @@ Route51HouseDocumento_Text_100Yes12:
 	.string "posible Golpe de Estado a la LIGA\l"
 	.string "POKÉMON, el TEAM ROCKET, en un\l"
 	.string "intento desesperado, confía en dos\l"
-	.string "de sus ADMINISTRADORES, los cuales\l"
+	.string "de sus EJECUTIVOS, los cuales\l"
 	.string "cuentan con habilidades\l"
 	.string "excepcionales para el combate\l"
 	.string "POKÉMON, para hacerse con el\l"

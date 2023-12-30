@@ -298,7 +298,7 @@ end
 CeruleanCityGym_Can_Pass_Texto_1:
 .string "¡Es imposible! ... LICENCIA forjada en\n"
 	.string "los históricos despachos del CG de la\l"
-	.string "LIGA POKÉMON de KANTO. ... ¡Disúlpeme\l"
+	.string "LIGA POKÉMON de KANTO. ... ¡Discúlpeme\l"
 	.string "señor! ¡Puede usted entrar a nuestro\l"
 	.string "humilde GIMNASIO!$"
 

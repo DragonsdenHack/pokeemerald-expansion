@@ -205,7 +205,7 @@ PalletTown_ProfessorLab_Lab_Texto_9:
 
 PalletTown_ProfessorLab_Lab_Texto_10:
 .string "DALIA: Disfruta de ese triste\n"
-	.string "BULBASAUR al nivel 5 ROCKET, por\l"
+	.string "BULBASAUR al nivel 15 ROCKET, por\l"
 	.string "si no lo sabías, OAK tiene decenas\l"
 	.string "de ellos en su reserva personal.$"
 

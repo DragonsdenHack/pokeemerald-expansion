@@ -2284,6 +2284,10 @@ MisionTrigal4_EventScript_Pepita::
 finditem ITEM_NUGGET
    end
 
+MisionTrigal4_EventScript_Maxi_Pepita::
+finditem ITEM_BIG_NUGGET
+   end
+
 MisionTrigal4_EventScript_Protector::
 finditem ITEM_PROTECTOR
    end

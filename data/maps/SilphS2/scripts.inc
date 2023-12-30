@@ -797,7 +797,7 @@ SilphS2_Text_46:
 .string "bajo llave el misterio de los\l"
 .string "FÓSILES y POKÉMON ANCESTRALES\l"
 .string "propios de su región, jamás\l"
-.string "publicaron ningún avanze en cuanto\l"
+.string "publicaron ningún avance en cuanto\l"
 .string "a creación de un POKÉMON propio a\l"
 .string "diferencia nuestra con PORYGON y\l"
 .string "más recientemente PORYGON2.$"

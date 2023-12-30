@@ -71,7 +71,7 @@ end
 RocketHideout6F_Text_3:
 .string "He oído que en JOHTO tenemos otra\n"
 .string "BASE, ahí se están haciendo\l"
-.string "excelentes avanzes acerca de las\l"
+.string "excelentes avances acerca de las\l"
 .string "ondas de radio y sus posibles\l"
 .string "efectos en los POKÉMON. Me\l"
 .string "gustaría visitarla algún día.$"

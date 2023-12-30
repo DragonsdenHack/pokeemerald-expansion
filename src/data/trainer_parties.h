@@ -3363,7 +3363,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jody[] = {
     .species = SPECIES_SPEAROW,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_SWORDS_DANCE, MOVE_SLASH, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_WING_ATTACK, MOVE_WING_ATTACK, MOVE_NONE, MOVE_NONE}
     },
     {
     .iv = 0,
@@ -3371,7 +3371,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Jody[] = {
     .species = SPECIES_FEAROW,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_WING_ATTACK, MOVE_FURY_ATTACK, MOVE_NONE, MOVE_NONE}
     }
 };
 
@@ -20145,7 +20145,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Angelo[] = {
     .species = SPECIES_KABUTOPS,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_LIQUIDATION, MOVE_AQUA_JET, MOVE_ROCK_SLIDE, MOVE_NONE}
     },
     {
     .iv = 0,
@@ -20153,7 +20153,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Angelo[] = {
     .species = SPECIES_ALAKAZAM,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_PSYCHIC, MOVE_DAZZLING_GLEAM, MOVE_NONE, MOVE_NONE}
     }
 };
 

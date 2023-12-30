@@ -1238,7 +1238,7 @@
       "x": 7,
       "y": 43,
       "elevation": 3,
-      "item": "ITEM_MENTAL_HERB",
+      "item": "ITEM_CRACKED_POT",
       "flag": "FLAG_NUEVA_537"
     },
     {
@@ -1246,7 +1246,7 @@
       "x": 71,
       "y": 37,
       "elevation": 3,
-      "item": "ITEM_NUGGET",
+      "item": "ITEM_ABILITY_CAPSULE",
       "flag": "FLAG_NUEVA_538"
     },
     {
