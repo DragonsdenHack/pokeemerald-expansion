@@ -74,8 +74,8 @@ static const u8 sWhirlwindDescription[] = _(
     "y termina el combate.");
 
 static const u8 sFlyDescription[] = _(
-    "1.{SUPER_ER} turno: vuela.\n"
-    "2.º: ataca.");
+    "Asciende y embiste.\n"
+    "en un solo turno.");
 
 static const u8 sBindDescription[] = _(
     "Ata y oprime\n"
@@ -324,8 +324,8 @@ static const u8 sStringShotDescription[] = _(
     "del enemigo.");
 
 static const u8 sDragonRageDescription[] = _(
-    "Cadena de ondas de\n"
-    "choque que quitan 40 PS.");
+    "Daña al rival usando\n"
+    "su fuerza bruta.");
 
 static const u8 sFireSpinDescription[] = _(
     "Un aro de fuego que\n"

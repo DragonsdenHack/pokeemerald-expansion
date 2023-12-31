@@ -1295,12 +1295,12 @@ end
 
 BaseRocketHoennS2Documento_Text_125:
 .string "NÚMERO 11: KARTANA:\p"
-    .string "PS: 70\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 115\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 130\l"
-	.string "VELOCIDAD: 85\l"
+    .string "PS: 59\n"
+	.string "ATAQUE: 181\l"
+	.string "DEFENSA: 131\l"
+	.string "ATAQUE ESPECIAL: 31\l"
+	.string "DEFENSA ESPECIAL: 59\l"
+	.string "VELOCIDAD: 109\l"
 	.string "TOTAL: 570\p"
 	.string "El ULTRAENTE de STATS BASE más\n"
 	.string "anárquicos, capaz de lo mejor y de lo\l"

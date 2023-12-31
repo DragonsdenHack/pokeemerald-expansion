@@ -1007,6 +1007,7 @@ applymovement 6, CinnabarMansion_S2_Escena_7_Move_3
 waitmovement 0x0
 msgbox CinnabarMansion_S2_Escena_7_Texto_12 MSGBOX_AUTOCLOSE
 delay 20
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 msgbox CinnabarMansion_S2_Escena_7_Texto_13 MSGBOX_AUTOCLOSE
 delay 50
 setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT

@@ -3748,9 +3748,9 @@ static const u8 sMagmaEmblemDesc[] = _(
    	"del EQUIPO MAGMA.");
 
 static const u8 sContestPassDesc[] = _(
-    "Es necesario para\n"
-   	"participar en un\n"
-   	"CONCURSO POKéMON.");
+    "Pase VIP exclusivo,\n"
+   	"permite entrar a\n"
+   	"ZONA SAFARI gratis.");
 
 static const u8 sOaksParcelDesc[] = _(
     "Se lo mandan al\n"
