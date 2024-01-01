@@ -23,7 +23,7 @@ struct BoxPokemon
              u8 markings:4; // 15 combinations as per sAnims_MarkingCombo
     /*0x14*/ u8 otName[PLAYER_NAME_LENGTH];
     /*0x1B*/ u8 metLocation;    // better to not limit the number of map sections. this is actually used for friendship growth, too
-    /*0x1C*/ u32 species:10;    // up to 2047 species. could probably go down to 10 bits...
+    /*0x1C*/ u32 species:11;    // up to 2047 species. could probably go down to 10 bits...
              u32 heldItem:10;   // up to 1023 items. could probably be 9 bits if hold items are limited to IDs below 511
              u32 metLevel:7;
              u32 metGame:4;
