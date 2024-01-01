@@ -2673,3 +2673,19 @@ RocketHideout5F_Secundaria_Frank_Texto_15:
 	.string "primero que haré para celebrarlo será\l"
 	.string "enviarte de vuelta a recoger fósiles\l"
 	.string "como a un vulgar RECLUTA!$"
+
+
+Ruinas_Alfa_Post_DLC::
+compare VAR_UNUSED_0x40F7, 177
+goto_if_lt RocketHideout_5F_Puedes_Pasar
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1
+waitmovement 0x0
+msgbox Ruinas_Alfa_Post_DLC_Texto_Prohibido_Pasar MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_2
+waitmovement 0x0
+release
+end
+
+Ruinas_Alfa_Post_DLC_Texto_Prohibido_Pasar:
+	.string "(Ya no queda nada por hacer en este\n"
+	.string "lugar).$"

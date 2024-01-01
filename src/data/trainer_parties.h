@@ -3344,7 +3344,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Alexia[] = {
     .species = SPECIES_EKANS,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_BITE, MOVE_GLARE, MOVE_POISON_STING, MOVE_NONE}
     },
     {
     .iv = 0,
@@ -3352,7 +3352,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_Alexia[] = {
     .species = SPECIES_RATICATE,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_NONE, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_QUICK_ATTACK, MOVE_TACKLE, MOVE_BITE, MOVE_NONE}
     }
 };
 
