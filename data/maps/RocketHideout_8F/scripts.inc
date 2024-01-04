@@ -672,7 +672,7 @@ step_end
 
 
 RocketHideout_8F_Disguise_Player::
-delay 40
+delay 10
 playfanfare MUS_OBTAIN_SYMBOL
 msgbox RocketHideout_8F_Mision_Silph_text_6 MSGBOX_DEFAULT
 waitfanfare

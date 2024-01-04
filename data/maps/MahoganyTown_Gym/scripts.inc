@@ -156,8 +156,8 @@ MahoganyTown_Gym_Combate_Fredo_Texto_7:
 MahoganyTown_Gym_Combate_Fredo_Texto_8:
 .string "Nadie ha estado cerca de poner\n"
 	.string "este equipo en problemas, mucho\l"
-	.string "menos a mis singulares LAPRAS y\l"
-	.string "ARTICUNO. Creí que en KANTO solo\l"
+	.string "menos a mis singulares MAMOSWINE\l"
+	.string "y ARTICUNO. Creí que en KANTO solo\l"
 	.string "había ENTRENADORES decentes, pero\l"
 	.string "ninguno extraordinario. Me has\l"
 	.string "demostrado que el mundo es mucho\l"

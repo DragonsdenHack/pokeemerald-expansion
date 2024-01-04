@@ -158,7 +158,7 @@ faceplayer
 goto_if_set FLAG_NUEVA_819, LavenderRadioP5_OndaToxica_Despues
 msgbox LavenderRadioP5_OndaToxica_Texto_1, MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM63
+additem 645
 msgbox LavenderRadioP5_OndaToxica_Texto_1.1 MSGBOX_DEFAULT
 waitfanfare
 setflag FLAG_NUEVA_819

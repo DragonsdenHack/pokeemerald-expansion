@@ -308,7 +308,7 @@ faceplayer
 goto_if_set FLAG_NUEVA_814, NeoPowerPlant_RayoCarga_Despues
 msgbox NeoPowerPlant_RayoCarga_Texto_1, MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM97
+additem 652
 msgbox NeoPowerPlant_RayoCarga_Texto_1.1 MSGBOX_DEFAULT
 waitfanfare
 setflag FLAG_NUEVA_814
