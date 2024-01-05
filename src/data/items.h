@@ -723,7 +723,7 @@ const struct Item gItems[] =
     {
         .name = _("Cen. Sagrada"),
         .itemId = ITEM_SACRED_ASH,
-        .price = 50000,
+        .price = 14000,
         .description = sSacredAshDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
