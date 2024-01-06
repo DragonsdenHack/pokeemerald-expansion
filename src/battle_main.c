@@ -307,7 +307,6 @@ static const s8 sCenterToCornerVecXs[8] ={-32, -16, -16, -32, -32};
 
 const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
 {
-  #if GAME_LANGUAGE == LANGUAGE_ENGLISH
         [TYPE_NORMAL] = _("Normal"),
         [TYPE_FIGHTING] = _("Lucha"),
         [TYPE_FLYING] = _("Volador"),
@@ -327,27 +326,6 @@ const u8 gTypeNames[NUMBER_OF_MON_TYPES][TYPE_NAME_LENGTH + 1] =
         [TYPE_DRAGON] = _("Dragón"),
         [TYPE_DARK] = _("Siniestro"),
         [TYPE_FAIRY] = _("Hada"),
-    #else
-        [TYPE_NORMAL] = _("Normal"),
-        [TYPE_FIGHTING] = _("Lucha"),
-        [TYPE_FLYING] = _("Volador"),
-        [TYPE_POISON] = _("Veneno"),
-        [TYPE_GROUND] = _("Tierra"),
-        [TYPE_ROCK] = _("Roca"),
-        [TYPE_BUG] = _("Bicho"),
-        [TYPE_GHOST] = _("Fantasma"),
-        [TYPE_STEEL] = _("Acero"),
-        [TYPE_MYSTERY] = _("???"),
-        [TYPE_FIRE] = _("Fuego"),
-        [TYPE_WATER] = _("Agua"),
-        [TYPE_GRASS] = _("Planta"),
-        [TYPE_ELECTRIC] = _("Eléctrico"),
-        [TYPE_PSYCHIC] = _("Psíquico"),
-        [TYPE_ICE] = _("Hielo"),
-        [TYPE_DRAGON] = _("Dragón"),
-        [TYPE_DARK] = _("Siniestro"),
-        [TYPE_FAIRY] = _("Hada"),
-    #endif
 };
 
 // This is a factor in how much money you get for beating a trainer.
