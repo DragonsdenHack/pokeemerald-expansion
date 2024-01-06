@@ -610,8 +610,12 @@
 #define STRINGID_NEUTRALIZINGGASENTERS                607
 #define STRINGID_NEUTRALIZINGGASOVER                  608
 
-
-#define BATTLESTRINGS_COUNT                       609
+#if GAME_LANGUAGE == LANGUAGE_SPANISH
+    #define STRINGID_DOT                              609
+    #define BATTLESTRINGS_COUNT                       610
+#else
+    #define BATTLESTRINGS_COUNT                       609
+#endif
 
 // The below IDs are all indexes into battle message tables,
 // used to determine which of a set of messages to print.
