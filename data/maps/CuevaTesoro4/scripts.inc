@@ -319,3 +319,8 @@ CuevaTesoro4_Combate_Guzzlord::
 	CuevaTesoro4_Combate_Guzzlord_2::
 	release
 	end
+
+CuevaTesoro4_Prueba::
+release
+end
+

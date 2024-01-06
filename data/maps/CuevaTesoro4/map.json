@@ -189,7 +189,7 @@
       "x": 5,
       "y": 8,
       "elevation": 0,
-      "dest_map": "MAP_ROUTE49_D_ESCAN",
+      "dest_map": "MAP_CUEVA_TESORO3",
       "dest_warp_id": 1
     }
   ],
@@ -202,6 +202,15 @@
       "var": "VAR_ROUTE111_STATE",
       "var_value": "4",
       "script": "CuevaTesoro4_Jefe_Final"
+    },
+    {
+      "type": "trigger",
+      "x": 0,
+      "y": 6,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "CuevaTesoro4_Prueba"
     }
   ],
   "bg_events": [

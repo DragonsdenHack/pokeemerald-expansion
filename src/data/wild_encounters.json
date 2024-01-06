@@ -17433,7 +17433,7 @@
             ]
           },
           "water_mons": {
-            "encounter_rate": 0,
+            "encounter_rate": 4,
             "mons": [
               {
                 "min_level": 20,
@@ -17441,8 +17441,8 @@
                 "species": "SPECIES_PSYDUCK"
               },
               {
-                "min_level": 20,
-                "max_level": 25,
+                "min_level": 27,
+                "max_level": 27,
                 "species": "SPECIES_PSYDUCK"
               },
               {
@@ -21443,7 +21443,7 @@
               {
                 "min_level": 8,
                 "max_level": 9,
-                "species": "SPECIES_DRATINI"
+                "species": "SPECIES_LARVITAR"
               },
               {
                 "min_level": 8,
@@ -22139,22 +22139,22 @@
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_REMORAID"
               },
               {
                 "min_level": 40,
                 "max_level": 50,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_OCTILLERY"
               },
               {
                 "min_level": 55,
                 "max_level": 65,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_TOTODILE"
               },
               {
                 "min_level": 55,
                 "max_level": 65,
-                "species": "SPECIES_NONE"
+                "species": "SPECIES_TOTODILE"
               }
             ]
           }
@@ -28382,7 +28382,7 @@
               {
                 "min_level": 35,
                 "max_level": 45,
-                "species": "SPECIES_MUNNA"
+                "species": "SPECIES_DUSKULL"
               },
               {
                 "min_level": 35,
@@ -29742,12 +29742,12 @@
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_MANTINE"
+                "species": "SPECIES_CARVANHA"
               },
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_OCTILLERY"
+                "species": "SPECIES_SHARPEDO"
               },
               {
                 "min_level": 35,
@@ -29831,12 +29831,12 @@
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_MANTINE"
+                "species": "SPECIES_CARVANHA"
               },
               {
                 "min_level": 45,
                 "max_level": 55,
-                "species": "SPECIES_OCTILLERY"
+                "species": "SPECIES_SHARPEDO"
               },
               {
                 "min_level": 35,
@@ -32234,6 +32234,21 @@
               {
                 "min_level": 35,
                 "max_level": 55,
+                "species": "SPECIES_NUMEL"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_CENTISKORCH"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
+                "species": "SPECIES_TORKOAL"
+              },
+              {
+                "min_level": 35,
+                "max_level": 55,
                 "species": "SPECIES_HEATMOR"
               },
               {
@@ -32259,22 +32274,7 @@
               {
                 "min_level": 35,
                 "max_level": 55,
-                "species": "SPECIES_TURTONATOR"
-              },
-              {
-                "min_level": 35,
-                "max_level": 55,
-                "species": "SPECIES_HEATMOR"
-              },
-              {
-                "min_level": 35,
-                "max_level": 55,
-                "species": "SPECIES_CENTISKORCH"
-              },
-              {
-                "min_level": 35,
-                "max_level": 55,
-                "species": "SPECIES_TURTONATOR"
+                "species": "SPECIES_CAMERUPT"
               },
               {
                 "min_level": 35,
@@ -34747,6 +34747,708 @@
                 "min_level": 45,
                 "max_level": 75,
                 "species": "SPECIES_PIDGEOT"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LAGO_FURIA1",
+          "base_label": "gLagoFuria10",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWBRO"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_KINGLER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWKING"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CLOYSTER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWILFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OVERQWIL"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWOLTFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_WARTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 3,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 50,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 55,
+                "max_level": 85,
+                "species": "SPECIES_IKARY"
+              },
+              {
+                "min_level": 55,
+                "max_level": 85,
+                "species": "SPECIES_IKARY"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LAGO_FURIA2",
+          "base_label": "gLagoFuria20",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWBRO"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_KINGLER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWKING"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CLOYSTER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWILFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OVERQWIL"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWOLTFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_WARTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 4,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_IKARY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_IKARY"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LAGO_FURIA3",
+          "base_label": "gLagoFuria30",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWBRO"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_KINGLER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWKING"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CLOYSTER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWILFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OVERQWIL"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWOLTFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_WARTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 2,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LAGO_FURIA4",
+          "base_label": "gLagoFuria40",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWBRO"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_KINGLER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWKING"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CLOYSTER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWILFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OVERQWIL"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWOLTFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_WARTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 3,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_LAGO_FURIA5",
+          "base_label": "gLagoFuria50",
+          "land_mons": {
+            "encounter_rate": 15,
+            "mons": [
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWBRO"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_KINGLER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SLOWKING"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CLOYSTER"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWILFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OVERQWIL"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_OCTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_QWOLTFISH"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_WARTILLERY"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TAABAN"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S2",
+          "base_label": "gBlackthornCity_DragonsdenS20",
+          "land_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BAGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_PUPITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SHELGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CHARIZARD"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TYRANITAR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_AMPHAROS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SALAMENCE"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              }
+            ]
+          },
+          "water_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SEADRA"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_DRAGONAIR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_KINGDRA"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GYARADOS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_DRAGONITE"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S3",
+          "base_label": "gBlackthornCity_DragonsdenS30",
+          "land_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BAGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_PUPITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SHELGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CHARIZARD"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TYRANITAR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_AMPHAROS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SALAMENCE"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              }
+            ]
+          }
+        },
+        {
+          "map": "MAP_BLACKTHORN_CITY_DRAGONSDEN_S4",
+          "base_label": "gBlackthornCity_DragonsdenS40",
+          "land_mons": {
+            "encounter_rate": 5,
+            "mons": [
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_LARVITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_BAGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_PUPITAR"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_SHELGON"
+              },
+              {
+                "min_level": 50,
+                "max_level": 70,
+                "species": "SPECIES_CROBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_GOLBAT"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_CHARIZARD"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_TYRANITAR"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_AMPHAROS"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_SALAMENCE"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
+              },
+              {
+                "min_level": 60,
+                "max_level": 80,
+                "species": "SPECIES_FLYGON"
               }
             ]
           }

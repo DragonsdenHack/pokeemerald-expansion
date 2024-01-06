@@ -6,6 +6,9 @@ Route22_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 85, RocketHideoutViridian_Escena_9
 	.2byte 0
 
+Route22_Entrada_Liga::
+release
+end
 
 Route22Documento_100::
 msgbox Route22Documento_Text_100, MSGBOX_SIGN   

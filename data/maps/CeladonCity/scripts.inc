@@ -29,8 +29,8 @@ release
 end
 
 CeladonCity_Text4:
-.string "¡Destruiremos a todo el que ose\n"
-.string "interponerse en nuestro camino!$"
+.string "We will destroy all who dares to stand in\n"
+	.string "our way!$"
 
 
 CeladonCity5::
@@ -41,10 +41,9 @@ release
 end
 
 CeladonCity_Text5:
-.string "Ejem…\n" 
-.string "¿No habrás sido tú el gracioso que\l"
-.string "nos ha robado un ejemplar de SCOPE\l"
-.string "SILPH, verdad?$"
+.string "Ahem… Wouldn't you have been the funny\n"
+	.string "one who stole a copy of SCOPE SILPH\l"
+	.string "from us, right?$"
 
 
 CeladonCity6::
@@ -59,8 +58,8 @@ release
 end
 
 CeladonCity_Text7:
-.string "¿Qué hay de nuevo camarada?\n"
-.string "¿Mucho ajetreo con esas misiones?$"
+.string "What 's up, comrade?\n"
+.string "A lot of hustle from those missions?$"
 
 
 CeladonCity8::
@@ -133,11 +132,9 @@ release
 end
 
 CeladonCity_Text14:
-.string "Nadie os quiere aquí ROCKET.\n"
-.string "¡Estáis destruyendo con vuestro\l"
-.string "estúpido CASINO todos nuestros\l"
-.string "intentos por mantener limpia esta\l"
-.string "ciudad!$"
+.string "Nobody wants you here ROCKET. You are\n"
+	.string "destroying with your stupid CASINO all\l"
+	.string "our attempts to keep this city clean!$"
 
 
 
@@ -242,10 +239,9 @@ release
 end
 
 Barrera_Tiendas_Texto_1:
-.string "(Los ROCKET tienen prohibido\n"
-	.string "comprar artículos en las tiendas\l"
-	.string "públicas de KANTO. Mejor no tentar\l"
-	.string "a la suerte).$"
+.string "(ROCKETS are forbidden to buy articles\n"
+	.string "on KANTO public markets. It's better not\l"
+	.string "to tempt luck.)$"
 
 Barrera_Tiendas_2::
 release
@@ -305,27 +301,23 @@ release
 end
 
 CeladonCity_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste LLAMASFERA de manos de\n"
-	.string "ANCIANO!$"
+.string "You obtained FLAME ORB from OLD MAN!$"
 
 CeladonCity_Entrenador_Especial_Texto_1:
-.string "La contaminación en AZULONA es\n"
-	.string "cada vez mayor, debe de haber\l"
-	.string "debajo del suelo que está causando\l"
-	.string "este problema, si mi nieto\l"
-	.string "regresase aquí y viera el\l"
-	.string "panorama...\l"
-	.string "Ah, cómo me gustaría rememorar los\l"
-	.string "viejos tiempos con un combate de\l"
-	.string "verdad.$"
+.string "Pollution in CELADON is getting worse,\n"
+	.string "something underground must be the\l"
+	.string "problem. If my grandson got back here\l"
+	.string "and saw the situation… Ah, I wish I\l"
+	.string "could remember the good ol' days with a\l"
+	.string "true combat.$"
 
 CeladonCity_Entrenador_Especial_Texto_2:
 .string "...\n"
 	.string "...$"
 
 CeladonCity_Entrenador_Especial_Texto_3:
-.string "No, no creo que mis POKÉMON tengan\n"
-	.string "siquiera para empezar contigo.$"
+.string "No, I don't think my POKÉMON could even\n"
+	.string "warm-up with yours.$"
 
 CeladonCity_Entrenador_Especial_Texto_4:
 .string "La LLAMASFERA quema\n"

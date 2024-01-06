@@ -6,12 +6,12 @@
   "region_map_section": "MAPSEC_LAVENDER_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
   "show_map_name": true,
-  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "battle_scene": "MAP_BATTLE_SCENE_SIDNEY",
   "connections": [
     {
       "direction": "left",
@@ -124,7 +124,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 13,
-      "y": 8,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -182,7 +182,7 @@
       "x": 3,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_RUINS_OF_ALPH_S5",
+      "dest_map": "MAP_NEO_LAVANDA_TIENDA",
       "dest_warp_id": 0
     },
     {
@@ -215,7 +215,7 @@
     {
       "type": "trigger",
       "x": 0,
-      "y": 1,
+      "y": 6,
       "elevation": 0,
       "var": "VAR_TEMP_0",
       "var_value": "0",

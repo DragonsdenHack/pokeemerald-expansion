@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROCKET_HIDEOUT",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_SECRET_BASE",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -305,7 +305,7 @@
       "x": 27,
       "y": 29,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_WALK_UP_AND_DOWN",
+      "movement_type": "MOVEMENT_TYPE_WANDER_UP_AND_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -856,8 +856,8 @@
       "dest_warp_id": 3
     },
     {
-      "x": 2,
-      "y": 2,
+      "x": 3,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_ROCKET_HIDEOUT_5F",
       "dest_warp_id": 0
@@ -1238,7 +1238,7 @@
       "x": 7,
       "y": 43,
       "elevation": 3,
-      "item": "ITEM_MENTAL_HERB",
+      "item": "ITEM_CRACKED_POT",
       "flag": "FLAG_NUEVA_537"
     },
     {
@@ -1246,7 +1246,7 @@
       "x": 71,
       "y": 37,
       "elevation": 3,
-      "item": "ITEM_NUGGET",
+      "item": "ITEM_ABILITY_CAPSULE",
       "flag": "FLAG_NUEVA_538"
     },
     {
