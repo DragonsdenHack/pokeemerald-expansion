@@ -115,7 +115,7 @@
       "x": 15,
       "y": 7,
       "elevation": 3,
-      "item": "ITEM_FRESH_WATER",
+      "item": "ITEM_ADAMANT_MINT",
       "flag": "FLAG_NUEVA_77"
     },
     {
@@ -131,7 +131,7 @@
       "x": 14,
       "y": 25,
       "elevation": 3,
-      "item": "ITEM_REVIVE",
+      "item": "ITEM_JOLLY_MINT",
       "flag": "FLAG_NUEVA_79"
     },
     {
