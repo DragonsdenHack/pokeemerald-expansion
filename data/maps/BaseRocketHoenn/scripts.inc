@@ -906,7 +906,7 @@ BaseRocketHoennDocumento_Text_113:
 	.string "nuestro universo. En su forma actual\l"
 	.string "mantiene una constante de 120 puntos\l"
 	.string "en sus 6 STATS. Ahora sabemos, gracias\l"
-	.string "al ADMIN.JEFE player, que en su FORMA\l"
+	.string "al ADMIN.JEFE {PLAYER}, que en su FORMA\l"
 	.string "PRIMIGENIA logra el número dorado de\l"
 	.string "150 de BASE en cada uno de sus 6 STATS,\l"
 	.string "de ahí que esta cifra se considere la\l"

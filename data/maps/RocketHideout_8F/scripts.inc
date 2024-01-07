@@ -2401,6 +2401,7 @@ waitmovement 0x0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 setvar VAR_UNUSED_0x40F7, 107
 release
 end
@@ -2795,7 +2796,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_3:
 .string "GIOVANNI: ... ...$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_4:
-.string "ADMIN JEFE ANDRA, EJECUTIVO\n"
+.string "ADMINISTRADORA ANDRA, EJECUTIVO\n"
 	.string "PROTÓN, necesito hablar en privado\l"
 	.string "con {PLAYER}, salid un momento\l"
 	.string "fuera.$"

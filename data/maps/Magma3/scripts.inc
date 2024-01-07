@@ -260,7 +260,7 @@ Magma3_Combate_Magno_Texto_8:
 	.string "y ha desplegado el inmenso poder\l"
 	.string "del que la leyenda habla...\l"
 	.string "¿Cómo ha podido un ROCKET, por más\l"
-	.string "ADMINISTRADOR JEFE que sea,\l"
+	.string "alto cargo y ADMINISTRADOR que seas, \l"
 	.string "equipararse, y aún más, exceder,\l"
 	.string "tal poder haciendo uso de POKÉMON\l"
 	.string "corrientes?\l"

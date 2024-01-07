@@ -18591,9 +18591,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_WATER_1,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_TORRENT, ABILITY_NONE, ABILITY_PROTEAN},
+            .abilities = {ABILITY_TORRENT, ABILITY_PROTEAN, ABILITY_PROTEAN},
         #else
-            .abilities = {ABILITY_TORRENT, ABILITY_NONE},
+            .abilities = {ABILITY_TORRENT, ABILITY_PROTEAN},
         #endif
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = TRUE,
@@ -21140,9 +21140,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_WATER_1,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_MERCILESS, ABILITY_LIMBER, ABILITY_REGENERATOR},
+            .abilities = {ABILITY_REGENERATOR, ABILITY_REGENERATOR, ABILITY_REGENERATOR},
         #else
-            .abilities = {ABILITY_NONE, ABILITY_LIMBER},
+            .abilities = {ABILITY_REGENERATOR, ABILITY_REGENERATOR},
         #endif
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
