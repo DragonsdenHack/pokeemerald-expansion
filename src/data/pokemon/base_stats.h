@@ -39022,7 +39022,7 @@ const struct BaseStats gBaseStats[] =
             .baseSpeed     = 105,
         #endif
         .type1 = TYPE_ELECTRIC,
-        .type2 = TYPE_ELECTRIC,
+        .type2 = TYPE_FIGHTING,
         .catchRate = 75,
         .expYield = 206,
         .evYield_Speed     = 3,

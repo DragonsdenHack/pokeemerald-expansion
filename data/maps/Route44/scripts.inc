@@ -179,6 +179,7 @@ msgbox Route44_Combate_Mirto_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 3, Route44_Combate_Mirto_Move_3
 waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
 trainerbattle_no_intro TRAINER_MIRTO, Route44_Combate_Mirto_Texto_8
 applymovement OBJ_EVENT_ID_PLAYER, Route44_Combate_Mirto_Move_5
 waitmovement 0x0

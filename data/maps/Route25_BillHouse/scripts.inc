@@ -237,7 +237,7 @@ Route25_BillHouse_Evento_Policia_text_15:
 .string "Se acabó. Los refuerzos están al\n"
 	.string "caer, y tu equipo POKÉMON mermado.\l"
 	.string "No vamos a dejar que salgas de\l"
-	.string "aquí, haz lo que quieras, la única\l"
+	.string "aquí, haz lo que quieras. La única\l"
 	.string "forma que tienes de salir de casa\l"
 	.string "de BILL es detenido.$"
 

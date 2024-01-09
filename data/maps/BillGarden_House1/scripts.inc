@@ -101,7 +101,7 @@ BillGarden_House1_Bill_Combate_Text_9:
 	.string "llevároslo.$"
 
 BillGarden_House1_Bill_Combate_Text_10:
-.string "Se acabó. Haz lo que quieras, tu\n"
+.string "Se acabó. Haz lo que quieras. Tu\n"
 	.string "única opción es salir y\l"
 	.string "entregarte. Disfruta de tus\l"
 	.string "últimos momentos con la patente en\l"
@@ -156,8 +156,8 @@ release
 end
 
 BillGarden_House1_Detenido_text_1:
-.string "Se acabó, haz lo que quieras tu\n"
-	.string "única opción es salir y\l"
+.string "Se acabó, haz lo que quieras.\n"
+	.string "Tu única opción es salir y\l"
 	.string "entregarte, disfruta de tus\l"
 	.string "últimos momentos con la patente en\l"
 	.string "tu poder.$"

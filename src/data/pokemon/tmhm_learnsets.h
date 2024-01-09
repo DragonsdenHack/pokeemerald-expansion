@@ -760,10 +760,10 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM92_SUBSTITUTE)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM116_ELECTRIC_TERRAIN)
-                                            | TMHM2(HM02_FLY)
                                             | TMHM2(HM03_SURF)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
+                                            | TMHM2(HM03_SURF)
                                             | TMHM2(HM06_ROCK_SMASH)),
 
     [SPECIES_RAICHU]      = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
@@ -801,6 +801,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM116_ELECTRIC_TERRAIN)
+                                            | TMHM2(HM03_SURF)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -43984,6 +43985,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM(TM44_REST)
                                             | TMHM(TM45_ATTRACT)
                                             | TMHM(TM46_THIEF)
+                                            | TMHM(TM50_OVERHEAT)
                                             | TMHM(TM51_FOCUS_BLAST)
                                             | TMHM(TM53_GIGA_IMPACT)
                                             | TMHM(TM55_WILD_CHARGE),
@@ -43997,6 +43999,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM101_BRUTAL_SWING)
                                             | TMHM2(TM108_THUNDER_PUNCH)
                                             | TMHM2(TM116_ELECTRIC_TERRAIN)
+                                            | TMHM2(HM03_SURF)
                                             | TMHM2(HM04_STRENGTH)
                                             | TMHM2(HM05_FLASH)
                                             | TMHM2(HM06_ROCK_SMASH)),
@@ -44050,6 +44053,8 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM(TM17_PROTECT)
                                             | TMHM(TM18_RAIN_DANCE)
                                             | TMHM(TM21_FRUSTRATION)
+                                            | TMHM(TM24_THUNDERBOLT)
+                                            | TMHM(TM25_THUNDER)
                                             | TMHM(TM27_RETURN)
                                             | TMHM(TM30_SHADOW_BALL)
                                             | TMHM(TM32_DOUBLE_TEAM)
@@ -44061,6 +44066,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM(TM45_ATTRACT)
                                             | TMHM(TM63_SLUDGE_WAVE),
                                             TMHM2(TM69_SCALD)
+                                            | TMHM2(TM70_CHARGE_BEAM)
                                             | TMHM2(TM73_EXPLOSION)
                                             | TMHM2(TM75_PAYBACK)
                                             | TMHM2(TM79_THUNDER_WAVE)

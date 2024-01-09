@@ -75,7 +75,7 @@ static const u8 sWhirlwindDescription[] = _(
 
 static const u8 sFlyDescription[] = _(
     "Asciende y embiste.\n"
-    "en un solo turno.");
+    "Dura un solo turno.");
 
 static const u8 sBindDescription[] = _(
     "Ata y oprime\n"
@@ -588,8 +588,8 @@ static const u8 sSporeDescription[] = _(
     "que inducen al sueño.");
 
 static const u8 sFlashDescription[] = _(
-    "Ciega con un fogonazo de\n"
-    "luz y baja la Precisión.");
+    "Daña con un fogonazo de\n"
+    "absorbe 1/2 del daño.");
 
 static const u8 sPsywaveDescription[] = _(
     "Ataque con onda psíquica\n"

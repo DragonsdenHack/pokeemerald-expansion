@@ -474,6 +474,7 @@ applymovement 13, MtMoon_3F_Miguel_Rojo_move10
 waitmovement 0
 playse 495
 msgbox MtMoon_3F_Miguel_Rojo_text_8 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 trainerbattle_no_intro TRAINER_KEVIN, MtMoon_3F_Miguel_Rojo_text_9
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_3F_Miguel_Rojo_move11

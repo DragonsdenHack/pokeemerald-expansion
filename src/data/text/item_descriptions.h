@@ -3433,8 +3433,8 @@ static const u8 sHM01Desc[] = _(
    	"garras, etc.");
 
 static const u8 sHM02Desc[] = _(
-   	"1.{SUPER_ER} turno: vuela.\n"
-   	"2.º turno: ataca.");
+    "Asciende y embiste.\n"
+    "Dura un solo turno.");
 
 static const u8 sHM03Desc[] = _(
    	"Crea una ola\n"
@@ -3447,9 +3447,8 @@ static const u8 sHM04Desc[] = _(
    	"energía al rival.");
 
 static const u8 sHM05Desc[] = _(
-   	"Lanza una intensa\n"
-   	"ráfaga de luz que\n"
-   	"baja la PRECISIÓN.");
+    "Daña con un fogonazo de\n"
+    "absorbe 1/2 del daño.");
 
 static const u8 sHM06Desc[] = _(
    	"Ataque demoledor\n"
@@ -3722,9 +3721,9 @@ static const u8 sMagmaEmblemDesc[] = _(
    	"del EQUIPO MAGMA.");
 
 static const u8 sContestPassDesc[] = _(
-    "Es necesario para\n"
-   	"participar en un\n"
-   	"CONCURSO POKéMON.");
+    "Pase para la élite.\n"
+   	"Da plena libertad en\n"
+   	"ZONA SAFARI, gratis.");
 
 static const u8 sOaksParcelDesc[] = _(
     "Se lo mandan al\n"

@@ -555,7 +555,7 @@ NeoLavandaPueblo_Segundo_Policia_Texto_1:
 NeoLavandaPueblo_Prueba::
 lock
 msgbox NeoLavandaPueblo_Segundo_Policia_Texto_111 MSGBOX_NPC
-addmoney 5000000
+givemon SPECIES_DUNSPARCE_OLD, 5, ITEM_TART_APPLE
 release
 end
 

@@ -3353,7 +3353,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_3:
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_4:
 .string "RECLUTAS: Fue un accidente, señor. Solo\n"
 	.string "queríamos pasar el rato, la madre de\l"
-	.string "CUBONE se lo tomó muy enserio y… se nos\l"
+	.string "CUBONE se lo tomó muy en serio y… se nos\l"
 	.string "fue de las manos.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_5:
