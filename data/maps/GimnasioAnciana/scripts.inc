@@ -161,8 +161,8 @@ GimnasioAnciana_Anciano_Texto_2:
 
 GimnasioAnciana_Anciano_Texto_1:
 .string "Creí que jamás volvería a decir esto\n"
-	.string "pero... ¡bienvenido al GIMNASIO de ISLA\l"
-	.string "SÉTIMA!$"
+	.string "pero... ¡bienvenido al GIMNASIO de\l"
+	.string "ISLA SÉTIMA!$"
 
 GimnasioAnciana_Documento_100::
 lock  

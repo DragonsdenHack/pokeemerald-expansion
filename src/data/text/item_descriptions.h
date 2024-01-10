@@ -361,7 +361,8 @@ static const u8 sAbilityCapsuleDesc[] = _(
     "lidad del POKÉMON.");
 
 static const u8 sAbilityPatchDesc[] = _( // Todo
-    "?????");
+    "Cambia a la habi-\n"
+    "lidad oculta.");
 
 // Mints
 static const u8 sLonelyMintDesc[] = _( // Todo
@@ -604,7 +605,9 @@ static const u8 sPokeToyDesc[] = _( // Todo
     "?????");
 
 static const u8 sMaxMushroomsDesc[] = _( // Todo
-    "?????");
+    "Seta muy poco\n"
+   	"común. Se vende\n"
+   	"a alto precio.");
 
 // Treasures
 static const u8 sBottleCapDesc[] = _( // Todo
@@ -619,7 +622,9 @@ static const u8 sNuggetDesc[] = _(
    	"precio.");
 
 static const u8 sBigNuggetDesc[] = _( // Todo
-    "?????");
+    "Gran pepita de oro\n"
+   	"puro que se vende a\n"
+   	"alto precio.");
 
 static const u8 sTinyMushroomDesc[] = _(
     "Seta común.\n"
@@ -632,7 +637,9 @@ static const u8 sBigMushroomDesc[] = _(
    	"a alto precio.");
 
 static const u8 sBalmMushroomDesc[] = _( // Todo
-    "?????");
+    "Seta muy rara.\n"
+   	"Se vende a muy\n"
+   	"alto precio.");
 
 static const u8 sPearlDesc[] = _(
     "Bonita perla\n"
@@ -645,7 +652,9 @@ static const u8 sBigPearlDesc[] = _(
    	"a alto precio.");
 
 static const u8 sPearlStringDesc[] = _( // Todo
-    "?????");
+    "Perlas antiguas\n"
+   	"que se venden a\n"
+   	"muy alto precio.");
 
 static const u8 sStardustDesc[] = _(
     "Bonita arena roja\n"
@@ -658,7 +667,9 @@ static const u8 sStarPieceDesc[] = _(
    	"precio.");
 
 static const u8 sCometShardDesc[] = _( // Todo
-    "?????");
+    "Trozo de gema azul\n"
+   	"que se vende a muy\n"
+   	"alto precio.");
 
 static const u8 sShoalSaltDesc[] = _(
     "Sal procedente de\n"
@@ -716,25 +727,39 @@ static const u8 sPrettyFeatherDesc[] = _(
     "does nothing.");
 
 static const u8 sRelicCopperDesc[] = _( // Todo
-    "?????");
+    "Antigua reliquia.\n"
+  	"Se vende a un\n"
+  	"bajo precio.");
 
 static const u8 sRelicSilverDesc[] = _( // Todo
-    "?????");
+    "Antigua reliquia.\n"
+  	"Se vende a un\n"
+  	"precio moderado.");
 
 static const u8 sRelicGoldDesc[] = _( // Todo
-    "?????");
+    "Antigua reliquia.\n"
+  	"Se vende a un\n"
+  	"alto precio.");
 
 static const u8 sRelicVaseDesc[] = _( // Todo
-    "?????");
+    "Jarrón de más\n"
+  	"de 3000 años de\n"
+  	"antiguedad.");
 
 static const u8 sRelicBandDesc[] = _( // Todo
-    "?????");
+    "Brazalete de más\n"
+  	"de 3000 años de\n"
+  	"antiguedad.");
 
 static const u8 sRelicStatueDesc[] = _( // Todo
-    "?????");
+    "Efigie de más\n"
+  	"de 3000 años de\n"
+  	"antiguedad.");
 
 static const u8 sRelicCrownDesc[] = _( // Todo
-    "?????");
+    "Corona de más\n"
+  	"de 3000 años de\n"
+  	"antiguedad.");
 
 static const u8 sStrangeSouvenirDesc[] = _( // Todo
     "?????");
@@ -1011,8 +1036,8 @@ static const u8 sGalaricaWreathDesc[] = _( // Todo
 
 static const u8 sDragonScaleDesc[] = _(
     "Fortalece en un 30%\n"
-   	"DEFENSA y VELOCID. de\n"
-   	"KINGDRA.");
+   	"DEFENSA y VELOCID.\n"
+   	"de KINGDRA.");
 
 static const u8 sUpgradeDesc[] = _(
     "Fortalece en un 30%\n"
@@ -1874,14 +1899,14 @@ static const u8 sUltranecroziumZDesc[] = _(
 
 // Species-specific Held Items
 static const u8 sLightBallDesc[] = _(
-    "Al llevarla, el AT. \n"
-   	"ESP. y AT. de PIKACHU\n"
-   	"aumentará al doble.");
+    "Al llevarla, AT.ESP \n"
+   	"y AT. de PIKACHU\n"
+   	"aumentan al doble.");
 
 static const u8 sLeekDesc[] = _(
-    "La familia FARFETCH'D\n"
-   	"tendrá un +2 en índice\n"
-   	"crítico al llevarlo.");
+    "Familia FARFETCH'D\n"
+   	"obtiene un +2 en\n"
+   	"índice crítico.");
 
 static const u8 sThickClubDesc[] = _(
     "Al llevarlo, CUBONE\n"
@@ -2675,94 +2700,94 @@ static const u8 sBelueBerryDesc[] = _(
    	"hacer {POKEBLOCK}S.");
 
 static const u8 sChilanBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Normal\n"
-    "move.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO NORMAL rival.");
 
 static const u8 sOccaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Fire\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO FUEGO rival.");
 
 static const u8 sPasshoBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Water\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO AGUA rival.");
 
 static const u8 sWacanBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Electric\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO ELÉCTR. rival.");
 
 static const u8 sRindoBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Grass\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO PLANTA rival.");
 
 static const u8 sYacheBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Ice\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO HIELO rival.");
 
 static const u8 sChopleBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Fighting\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO LUCHA rival.");
 
 static const u8 sKebiaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Poison\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO VENENO rival.");
 
 static const u8 sShucaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Ground\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO TIERRA rival.");
 
 static const u8 sCobaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Flying\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO VOLADOR rival.");
 
 static const u8 sPayapaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Psychic\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO PSÍQUICO rival.");
 
 static const u8 sTangaBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Bug\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO BICHO rival.");
 
 static const u8 sChartiBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Rock\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO ROCA rival.");
 
 static const u8 sKasibBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Ghost\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO FANTASMA rival.");
 
 static const u8 sHabanBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Dragon\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO DRAGÓN rival.");
 
 static const u8 sColburBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Dark\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO SINIES. rival.");
 
 static const u8 sBabiriBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Steel\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO ACERO rival.");
 
 static const u8 sRoseliBerryDesc[] = _(
-    "A hold item that\n"
-    "weakens a Fairy\n"
-    "move if weak to it.");
+    "Si la lleva un Pkmn,\n"
+    "debilita el ataque\n"
+    "TIPO HADA rival.");
 
 static const u8 sLiechiBerryDesc[] = _(
     "Al llevarla, subirá\n"
@@ -2805,34 +2830,34 @@ static const u8 sEnigmaBerryDesc[] = _( // Todo
    	"se hacen {POKEBLOCK}S.");
 
 static const u8 sMicleBerryDesc[] = _(
-    "When held, it ups\n"
-    "the Accuracy of a\n"
-    "move in a pinch.");
+    "Sube la precisión\n"
+    "cuando la salud es\n"
+    "inferior a 25%.");
 
 static const u8 sCustapBerryDesc[] = _(
-    "It allows a Pokémon\n"
-    "in a pinch to move\n"
-    "first just once.");
+    "Da prioridad al\n"
+    "Pkmn cuando su\n"
+    "salud es -25%.");
 
 static const u8 sJabocaBerryDesc[] = _(
-    "If hit by a physical\n"
-    "move, it will hurt\n"
-    "the attacker a bit.");
+    "Si recibe daño\n"
+    "físico, daña al\n"
+    "atacante también.");
 
 static const u8 sRowapBerryDesc[] = _(
-    "If hit by a special\n"
-    "move, it will hurt\n"
-    "the attacker a bit.");
+    "Si recibe daño\n"
+    "especial, daña al\n"
+    "atacante también.");
 
 static const u8 sKeeBerryDesc[] = _(
-    "If hit by a physical\n"
-    "move, it raises the\n"
-    "Defense a bit.");
+    "Si recibe daño\n"
+    "físico, eleva la\n"
+    "Defensa también.");
 
 static const u8 sMarangaBerryDesc[] = _(
-    "If hit by a special\n"
-    "move, it raises the\n"
-    "Sp. Def. a bit.");
+    "Si recibe daño\n"
+    "especial, eleva la\n"
+    "Def.Esp también.");
 
 static const u8 sEnigmaBerryEReaderDesc[] = _(
     "{POKEBLOCK} ingredient.\n"

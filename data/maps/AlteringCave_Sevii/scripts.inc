@@ -217,8 +217,8 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_15:
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_16:
 .string "Quizás sea ya demasiado tarde, debo\n"
-	.string "curar a mi equipo POKÉMON,\l"
-	.string "entretanto, tú adelántate, vuelve\l"
+	.string "curar a mi equipo POKÉMON.\l"
+	.string "Entretanto, tú adelántate, vuelve\l"
 	.string "a esos lugares y párales los pies\l"
 	.string "antes de que no haya vuelta atrás.$"
 
