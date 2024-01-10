@@ -8785,7 +8785,7 @@ const struct Item gItems[] =
 
     [ITEM_DOWSING_MACHINE] =
     {
-        .name = _("Zahorí"),
+        .name = _("Buscaobj."),
         .itemId = ITEM_DOWSING_MACHINE,
         .price = 0,
         .description = sDowsingMachineDesc,

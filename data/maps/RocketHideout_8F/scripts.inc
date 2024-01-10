@@ -1708,6 +1708,7 @@ waitmovement 0x0
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_16
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 removeobject 9
 playse SE_EXIT
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_17

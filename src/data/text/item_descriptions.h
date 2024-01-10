@@ -3560,9 +3560,9 @@ static const u8 sSuperRodDesc[] = _(
    	"POKéMON salvajes.");
 
 static const u8 sDowsingMachineDesc[] = _(
-    "A device that\n"
-    "signals an invisible\n"
-    "item by sound.");
+    "Aparato que\n"
+    "detecta objetos\n"
+    "invisibles.");
 
 static const u8 sTownMapDesc[] = _(
     "Can be viewed\n"
