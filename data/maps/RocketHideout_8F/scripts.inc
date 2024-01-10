@@ -2325,7 +2325,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_15:
 	.string "solo tendrás que volver a SILPH y\l"
 	.string "hablar con la recepcionista para\l"
 	.string "que te deje entrar a los pisos\l"
-	.string "superiores y así poder acceder a\l"
+	.string "inferiores y así poder acceder a\l"
 	.string "esos documentos que podrían ser\l"
 	.string "tan reveladores.$"
 

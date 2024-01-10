@@ -3541,9 +3541,9 @@ static const u8 sKeyStoneDesc[] = _( // Todo
     "?????");
 
 static const u8 sMegaRingDesc[] = _(
-    "Enables {PKMN} holding\n"
-    "their Mega Stone to\n"
-    "Mega Evolve.");
+    "Permite al {PKMN}\n"
+    "activar su\n"
+    "Megapiedra.");
 
 static const u8 sZPowerRingDesc[] = _(
     "A strange ring\n"
@@ -3590,14 +3590,14 @@ static const u8 sDowsingMachineDesc[] = _(
     "invisibles.");
 
 static const u8 sTownMapDesc[] = _(
-    "Can be viewed\n"
-    "anytime. Shows your\n"
-    "present location.");
+    "Puede ser revisado\n"
+    "en todo momento.\n"
+    "Marca la ubicación.");
 
 static const u8 sVsSeekerDesc[] = _(
-    "Indica qué ENTRE-\n"
-   	"NADORES quieren\n"
-   	"luchar. Se recarga.");
+    "Registra el poder\n"
+   	"de PKMN. singulares\n"
+   	"al combatirlos.");
 
 static const u8 sTMCaseDesc[] = _(
     "Tubo que contiene\n"

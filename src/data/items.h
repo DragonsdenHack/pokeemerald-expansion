@@ -8811,7 +8811,7 @@ const struct Item gItems[] =
 
     [ITEM_VS_SEEKER] =
     {
-        .name = _("Buscapelea"),
+        .name = _("Detector-&"),
         .itemId = ITEM_VS_SEEKER,
         .price = 0,
         .description = sVsSeekerDesc,
