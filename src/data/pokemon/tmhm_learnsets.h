@@ -31034,6 +31034,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM(TM22_SOLAR_BEAM)
                                             | TMHM(TM23_IRON_TAIL)
                                             | TMHM(TM24_THUNDERBOLT)
+                                            | TMHM(TM25_THUNDER)
                                             | TMHM(TM26_EARTHQUAKE)
                                             | TMHM(TM27_RETURN)
                                             | TMHM(TM29_PSYCHIC)

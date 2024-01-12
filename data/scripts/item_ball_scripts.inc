@@ -1905,7 +1905,7 @@ finditem ITEM_ELIXIR
    end
 
 Lago5_EventScript_FragmentoCometa::
-finditem ITEM_COMET_SHARD
+finditem ITEM_RED_SCALE
    end
 
 Ruta47_EventScript_RocaSuave::
