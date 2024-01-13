@@ -320,44 +320,38 @@ CeladonCity_Entrenador_Especial_Texto_3:
 	.string "warm-up with yours.$"
 
 CeladonCity_Entrenador_Especial_Texto_4:
-.string "La LLAMASFERA quema\n"
-	.string "automáticamente al POKÉMON que la\l"
-	.string "lleve equipada, a no ser que sea\l"
-	.string "del TIPO FUEGO o tenga la\l"
-	.string "habilidad VELO AGUA, puede parecer\l"
-	.string "inútil, pero aquellos POKÉMON con\l"
-	.string "la habilidad AGALLAS se\l"
-	.string "convertirán en un peligro, ¡si lo\l"
-	.string "combinas con IMAGEN crearás un\l"
-	.string "combo ofensivo único!$"
+	.string "The FLAME ORB automatically burns the\n"
+	.string "POKÉMON that holds it, unless the\l"
+	.string "POKÉMON is a FIRE type or has the\l"
+	.string "ability WATER VEIL. It might seem\l"
+	.string "useless, but those POKÉMON with the\l"
+	.string "ability GUTS will become a threat. If\l"
+	.string "you combine it with FACADE, you'll\l"
+	.string "create a unique offensive combo!$"
 
 CeladonCity_Entrenador_Especial_Texto_5:
-.string "¡Oh!\n"
-	.string "¡No se ven todos los días\l"
-	.string "entrenadores con todas las\l"
-	.string "MEDALLAS!\l"
-	.string "Debes de tener un gran equipo a\l"
-	.string "tus espaldas, si me das el honor\l"
-	.string "de combatir contigo, y logras\l"
-	.string "derrotarme, te daré algo muy útil.$"
+	.string "Wow! Trainers with all the BADGES don't\n"
+	.string "come by every day! You must have a\l"
+	.string "formidable team. If you honor me with a\l"
+	.string "battle and manage to defeat me, I'll\l"
+	.string "give you helpful stuff.$"
 
 CeladonCity_Entrenador_Especial_Texto_6:
-.string "Entonces, ¿aceptas el reto?$"
+.string "So, do you accept the challenge?$"
 
 CeladonCity_Entrenador_Especial_Texto_7:
-.string "¡Voy a comprobar si los jóvenes de\n"
-	.string "KANTO están al nivel de antaño!$"
+	.string "I'll see if the young trainers from\n"
+	.string "KANTO are as good as they used to be!$"
 
 CeladonCity_Entrenador_Especial_Texto_8:
-.string "Sí, tienes algo especial chico,\n"
-	.string "espero que llegues muy lejos.$"
+.string "Yes, you have something special, guy.\n"
+	.string "I hope you get far.$"
 
 CeladonCity_Entrenador_Especial_Texto_9:
-.string "Ojalá algún día mi nieto alcance\n"
-	.string "un nivel parecido al tuyo, ten\l"
-	.string "esto, según la situación puede\l"
-	.string "serte muy útil.$"
+	.string "I wish my grandson reach your level\n"
+	.string "sooner or later; take this, you'll make a\l"
+	.string "good use of it.$"
 
 CeladonCity_Entrenador_Especial_Texto_10:
-.string "Reusar un combate a un anciano...\n"
-	.string "Habráse visto...$"
+.string "Refusing combat to an old man…\n"
+	.string "Who'd have told it…$"
