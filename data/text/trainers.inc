@@ -6272,25 +6272,21 @@ Route10_Text_Hiker3PostBattle:
 
 
 Route10_Text_Chica2Intro:
-	.string "Me siento algo cansada.\n"
-	.string "Llevaba tiempo sin practicar la\l"
-	.string "escalada.$"
+	.string "I feel a bit tired. It's been a while\n"
+	.string "since I practiced climbing.$"
+
 
 
 Route10_Text_Chica2Defeated:
-	.string "Estoy demasiado cansada.\n"
-	.string "No estaba preparada para esto.$"
+	.string "I'm too tired. I wasn't ready for this.$"
 
 
 Route10_Text_Chica2PostBattle:
-	.string "Los POKÉMON de aquí de las\n"
-	.string "montañas son demasiado robustos...\l"
-	.string "¡Desearía que hubiera un POKÉMON\l"
-	.string "rosa y con flores!\l"
-	.string "...\l"
-	.string "...\l"
-	.string "¡Sí! ¡TIPO PSÍQUICO también a ser\l"
-	.string "posible!$"
+	.string "The mountain POKÉMON here are too\n"
+	.string "tough... I wish there was a POKÉMON\l"
+	.string "that's pink and adorned with flowers! ...\l"
+	.string "Yes! PSYCHIC type would be ideal too!$"
+
 
 
 RockTunnel1F_Text_HikerIntro:
@@ -6310,22 +6306,20 @@ RockTunnel1F_Text_HikerPostBattle:
 
 
 RockTunnel1F_Text_Hiker2Intro:
-	.string "¡Este túnel llega hasta muy lejos\n"
-	.string "chaval!\l"
-	.string "...\l"
-	.string "¡Espera eres un ROCKET!$"
+	.string "This tunnel goes a long way, buddy! ...\n"
+	.string "Wait, you're a ROCKET!$"
+
 
 
 RockTunnel1F_Text_Hiker2Defeated:
-	.string "¡Doh!\n"
-	.string "¡Ganaste!$"
+	.string "Doh! You won!$"
 
 
 RockTunnel1F_Text_Hiker2PostBattle:
-	.string "Cuidado con ONIX.\n"
-	.string "Pueden aparecer algunos, y los de\l"
-	.string "nivel más alto te pondrán en\l"
-	.string "problemas.$"
+	.string "Watch out for ONIX. They might show up,\n"
+	.string "and the higher-level ones can be\l"
+	.string "problematic.$"
+
 
 
 RockTunnel1F_Text_Hiker3Intro:
@@ -6342,18 +6336,19 @@ RockTunnel1F_Text_Hiker3PostBattle:
 
 
 RockTunnel1F_Text_ChicaIntro:
-	.string "¡Vine hasta aquí por los POKÉMON\n"
-	.string "no a enfrentarme a un ROCKET!$"
+	.string "I came here because of the POKÉMON,\n"
+	.string "not to engage with a ROCKET!$"
+
 
 
 RockTunnel1F_Text_ChicaDefeated:
-	.string "¡Me he quedado sin POKéMON!$"
+	.string "I'm out of POKÉMON!$"
 
 
 RockTunnel1F_Text_ChicaPostBattle:
-	.string "¡Ya decía yo!\n"
-	.string "¡Los ROCKET sois demasiado\l"
-	.string "agresivos!$"
+	.string "I knew it! The ROCKETs are too\n"
+	.string "aggressive!$"
+
 
 
 RockTunnel1F_Text_NecioIntro:
@@ -6371,18 +6366,15 @@ RockTunnel1F_Text_NecioPostBattle:
 
 
 RockTunnel1F_Text_Chica2Intro:
-	.string "¡Oh!¡Ahhhh!\n"
-	.string "¡Un ROCKET aquí!\l"
-	.string "¡Ayuda!$"
+	.string "Oh! Ahhhh! A ROCKET! Help!$"
 
 
 RockTunnel1F_Text_Chica2Defeated:
-	.string "¡Oh que duro!$"
+	.string "Oh, that's rough!$"
 
 
 RockTunnel1F_Text_Chica2PostBattle:
-	.string "¡Me has hecho sudar de los\n"
-	.string "nervios!$"
+	.string "You've made me sweat from nerves!$"
 
 
 RockTunnel1F_Text_Chica3Intro:
@@ -6400,20 +6392,21 @@ RockTunnel1F_Text_Chica3PostBattle:
 
 
 RockTunnel2F_Text_NecioIntro:
-	.string "Estoy harto de ver a esos niños\n"
-	.string "mimados con sus POKÉDEX.\l"
-	.string "¡Yo también quiero una!$"
+	.string "I've had enough of those privileged\n"
+	.string "kids with their POKÉDEX. I want one too!$"
+
 
 
 RockTunnel2F_Text_NecioDefeated:
-	.string "¡Y ahora un ROCKET me da una\n"
-	.string "lección!$"
+	.string "And here comes a ROCKET to give me a\n"
+	.string "lesson!$"
+
 
 
 RockTunnel2F_Text_NecioPostBattle:
-	.string "¿Crees que el TEAM ROCKET podría\n"
-	.string "robar una POKÉDEX para mi?\l"
-	.string "¡Os pagaría bien!$"
+	.string "Do you think TEAM ROCKET could steal a\n"
+	.string "POKÉDEX for me? I'd pay well!$"
+
 
 
 RockTunnel2F_Text_HikerIntro:
@@ -6463,22 +6456,19 @@ RockTunnel2F_Text_Chica2PostBattle:
 
 
 RockTunnel2F_Text_Necio2Intro:
-	.string "Um...\n"
-	.string "¿Sabes algo acerca del cosplay de\l"
-	.string "POKÉMON?$"
+	.string "Um... Do you know anything about\n"
+	.string "POKÉMON cosplay?$"
+
 
 
 RockTunnel2F_Text_Necio2Defeated:
-	.string "Así que eso fue todo...$"
+	.string "So, that's all...$"
 
 
 RockTunnel2F_Text_Necio2PostBattle:
-	.string "El cosplay de POKÉMON es...\n"
-	.string "¿Cómo?\l"
-	.string "¿Que no te interesan esas\l"
-	.string "tonterías?\l"
-	.string "...\l"
-	.string "...$"
+	.string "POKÉMON cosplay is... What? You're not\n"
+	.string "into that stuff?...$"
+
 
 
 RockTunnel2F_Text_Necio3Intro:
@@ -6525,17 +6515,15 @@ RockTunnel2F_Text_Hiker3PostBattle:
 
 
 PokemonTower3F_Text_ChannelerIntro:
-	.string "¡Vosotros!\n"
-	.string "¡Sois los culpables!$"
+	.string "You! You're the culprits!$"
 
 
 PokemonTower3F_Text_ChannelerDefeated:
-	.string "¡No te apoderes de mi!$"
+.string "Don't take possession of me!$"
 
 
 PokemonTower3F_Text_ChannelerPostBattle:
-	.string "¡Todos los que hacéis el mal\n"
-	.string "arderéis en el infierno!$"
+	.string "All those who do evil will burn in hell!$"
 
 
 PokemonTower3F_Text_Channeler2Intro:
@@ -6554,40 +6542,36 @@ PokemonTower3F_Text_Channeler2PostBattle:
 
 
 PokemonTower3F_Text_Channeler3Intro:
-	.string "Urrg... Awaa...\n"
-	.string "Huhu... Graa...$"
+	.string "Urrg... Awaa... Huhu... Graa..$"
 
 
 PokemonTower3F_Text_Channeler3Defeated:
-	.string "¡Hwa!\n"
-	.string "¡Estoy a salvo!$"
+	.string "Hwa! I'm safe!$"
 
 
 PokemonTower3F_Text_Channeler3PostBattle:
-	.string "¡FUJI os pondrá a todos en vuestro\n"
-	.string "lugar!$"
+	.string "FUJI will make you all pay for your\n"
+	.string "actions!$"
 
 
 PokemonTower4F_Text_ChannelerIntro:
-	.string "¡Los hombres de negro están aquí!$"
+	.string "The men in black are here!$"
 
 
 PokemonTower4F_Text_ChannelerDefeated:
-	.string "¡No por favor!$"
+	.string "No please!$"
 
 
 PokemonTower4F_Text_ChannelerPostBattle:
-	.string "¡No me llevéis con vosotros!\n"
-	.string "¡Yo no sé nada!$"
+	.string "Don't take me with you! I'm innocent!$"
 
 
 PokemonTower4F_Text_Channeler2Intro:
-	.string "Algo se está apoderando de mi\n"
-	.string "cuerpo.$"
+	.string "Something is taking over my body.$"
 
 
 PokemonTower4F_Text_Channeler2Defeated:
-	.string "Mi voluntad...se apaga...$"
+	.string "My willpower... is going out...$"
 
 
 PokemonTower4F_Text_Channeler2PostBattle:
@@ -6611,7 +6595,7 @@ PokemonTower4F_Text_Channeler3PostBattle:
 
 
 PokemonTower5F_Text_ChannelerIntro:
-	.string "¡Tú!¡Siervo de satanás!$"
+	.string "You! Servant of evil!$"
 
 
 PokemonTower5F_Text_ChannelerDefeated:
@@ -6619,7 +6603,7 @@ PokemonTower5F_Text_ChannelerDefeated:
 
 
 PokemonTower5F_Text_ChannelerPostBattle:
-	.string "¡Nunca os saldréis con la vuestra!$"
+	.string "You'll never succeed!$"
 
 
 PokemonTower5F_Text_Channeler2Intro:
@@ -6638,22 +6622,23 @@ PokemonTower5F_Text_Channeler2PostBattle:
 
 
 PokemonTower5F_Text_Channeler3Intro:
-	.string "La pureza de este lugar no merece\n"
-	.string "ser contaminada con tu presencia.$"
+	.string "The pristine nature of this place\n"
+	.string "doesn't deserve your presence.$"
+
 
 
 PokemonTower5F_Text_Channeler3Defeated:
-	.string "¡Algo se apodera de mi!$"
+	.string "Something is taking hold of me!$"
 
 
 PokemonTower5F_Text_Channeler3PostBattle:
-	.string "Me...estoy...uniendo...a ellos...$"
+.string "I'm... joining... them...$"
 
 
 PokemonTower5F_Text_Channeler4Intro:
-	.string "¡No!\n"
-	.string "¡Eres portador de la R maldita!\l"
-	.string "¡R de ROCKET!$"
+	.string "No! You carry the accursed R! R of\n"
+	.string "ROCKET!$"
+
 
 
 PokemonTower5F_Text_Channeler4Defeated:
@@ -6661,12 +6646,13 @@ PokemonTower5F_Text_Channeler4Defeated:
 
 
 PokemonTower5F_Text_Channeler4PostBattle:
-	.string "Mi...alma...$"
+	.string "My...soul...$"
 
 
 PokemonTower6F_Text_ChannelerIntro:
-	.string "¡Cielo y tierra pasarán más tu\n"
-	.string "palabra no pasará!$"
+	.string "Heaven and earth will pass, but your\n"
+	.string "word will not pass!$"
+
 
 
 PokemonTower6F_Text_ChannelerDefeated:
@@ -6674,23 +6660,23 @@ PokemonTower6F_Text_ChannelerDefeated:
 
 
 PokemonTower6F_Text_ChannelerPostBattle:
-	.string "¡Perdóname FUJI!$"
+	.string "Forgive me FUJI!$"
 
 
 PokemonTower6F_Text_Channeler2Intro:
-	.string "¡NO, NO, NO, NO, NO, NO PASARÁ!$"
+	.string "NO, NO, NO, NO, NO, IT WON'T PASS!$"
 
 
 PokemonTower6F_Text_Channeler2Defeated:
-	.string "¡Pasó!$"
+	.string "It passed!$"
 
 
 PokemonTower6F_Text_Channeler2PostBattle:
-	.string "¡No pude frenarlos FUJI!$"
+	.string "I couldn't stop them, FUJI!$"
 
 
 PokemonTower6F_Text_Channeler3Intro:
-	.string "¡El paraíso te será negado ROCKET!$"
+	.string "Paradise will be denied to you, ROCKET!$"
 
 
 PokemonTower6F_Text_Channeler3Defeated:
@@ -6698,80 +6684,80 @@ PokemonTower6F_Text_Channeler3Defeated:
 
 
 PokemonTower6F_Text_Channeler3PostBattle:
-	.string "¡Pagarás por tus crímenes, en esta\n"
-	.string "vida o en la otra!$"
+	.string "You will pay for your crimes, in this life\n"
+	.string "or the next!$"
 
 
 RocketHideout5F_Text_RocketIntro:
-	.string "Así que un recién llegado,\n"
-	.string "¡demuestra que tu presencia aquí\l"
-	.string "no es casualidad!$"
+	.string "So, newcomer, prove that your presence\n"
+	.string "here is not a coincidence!$"
+
 
 
 RocketHideout5F_Text_RocketDefeated:
-	.string "Gran combate compañero.$"
+	.string "Good battle, comrade!$"
 
 
 RocketHideout5F_Text_RocketPostBattle:
-	.string "Ya veo la razón de que GIOVANNI\n"
-	.string "confíe en ti, esta zona es tu casa\l"
-	.string "RECLUTA.$"
+	.string "Now I understand why GIOVANNI has\n"
+	.string "faith in you; this place is your home,\l"
+	.string "RECRUIT.$"
 
 
 RocketHideout5F_Text_Rocket2Intro:
-	.string "No es tan sencillo formar parte de\n"
-	.string "la ÉLITE del TEAM ROCKET,\l"
-	.string "¡muéstrame que tus POKÉMON tienen\l"
-	.string "lo que hay que tener!$"
+	.string "Becoming a member of the ELITE of TEAM\n"
+	.string "ROCKET isn't that simple; prove to me\l"
+	.string "that your POKÉMON have what it takes!$"
+
 
 
 RocketHideout5F_Text_Rocket2Defeated:
-	.string "¡Bienvenido al club RECLUTA!$"
+	.string "Join the club, RECRUIT!$"
 
 
 RocketHideout5F_Text_Rocket2PostBattle:
-	.string "Espero que tu y tus POKÉMON\n"
-	.string "aportéis mucho a esta gran\l"
-	.string "organización.$"
+	.string "I trust that you and your POKÉMON bring\n"
+	.string "much to this grand organization.$"
+
 
 
 RocketHideout5F_Text_Rocket3Intro:
-	.string "Sabes que aún estando en la base\n"
-	.string "secreta dentro de la base secreta,\l"
-	.string "esto sigue siendo un nivel\l"
-	.string "superficial dentro de nuestra\l"
-	.string "infraestructura, ¿no?$"
+	.string "You're aware that even within the\n"
+	.string "secret base, this is just a surface\l"
+	.string "level within our infrastructure, aren't\l"
+	.string "you?$"
+
 
 
 RocketHideout5F_Text_Rocket3Defeated:
-	.string "¡Qué empuje, así me gusta!$"
+	.string "Fantastic push, that's the spirit!$"
 
 
 RocketHideout5F_Text_Rocket3PostBattle:
-	.string "¡Espero que enrolen a más reclutas\n"
-	.string "como tú y esa chica!$"
+	.string "I wish they bring in more recruits like\n"
+	.string "you and that girl!$"
+
 
 
 RocketHideout5F_Text_Rocket4Intro:
-	.string "Aproximadamente un 9% del TEAM\n"
-	.string "ROCKET conoce y tiene acceso a\l"
-	.string "este lugar, ¿te ves con el\l"
-	.string "privilegio de pisar estas\l"
-	.string "instalaciones?$"
+	.string "About 9% of TEAM ROCKET is aware of and\n"
+	.string "has entry to this place. Do you consider\l"
+	.string "yourself privileged to tread in these\l"
+	.string "facilities?$"
+
 
 
 RocketHideout5F_Text_Rocket4Defeated:
-	.string "Parece que sí mereces ese\n"
-	.string "privilegio.$"
+	.string "It seems you've earned that privilege.$"
 
 
 RocketHideout5F_Text_Rocket4PostBattle:
-	.string "El TEAM ROCKET se toma muy en\n"
-	.string "serio a quién se deja y a quién no\l"
-	.string "entrar a este lugar, si alguien\l"
-	.string "ajeno a nosotros se enterase de su\l"
-	.string "existencia podría desatar una\l"
-	.string "guerra.$"
+	.string "TEAM ROCKET considers carefully who is\n"
+	.string "permitted and who is not permitted to\l"
+	.string "access this location. If someone\l"
+	.string "unrelated were to find out about it, it\l"
+	.string "could lead to a war.$"
+
 
 
 Route3_Text_ChicaIntro:
@@ -6789,65 +6775,69 @@ Route3_Text_ChicaPostBattle:
 
 
 Route3_Text_CazabichosIntro:
-	.string "¡Los bichos que capturé en el\n"
-	.string "BOSQUE VERDE han crecido!$"
+	.string "The bugs I caught in the VIRIDIAN\n"
+	.string "FOREST have evolved!$"
 
 
 Route3_Text_CazabichosDefeated:
-	.string "¡CATERPIE no pudo cortarlo!$"
+	.string "CATERPIE could not take it!$"
 
 
 Route3_Text_CazabichosPostBattle:
-	.string "Los Pokémon entrenados son más\n"
-	.string "fuertes que los salvajes.$"
+	.string "Trained POKÉMON are stronger than wild\n"
+	.string "ones.$"
+
 
 
 Route3_Text_Chica2Intro:
-	.string "¡Oh, no!\n"
-	.string "¡Eres la segunda persona que me\l"
-	.string "lanza esa mirada tan intrigante!$"
+	.string "Oh, no! You're the second person to give\n"
+	.string "me that intriguing look!$"
+
 
 
 Route3_Text_Chica2Defeated:
-	.string "¡Se bueno!$"
+	.string "Be nice!$"
 
 
 Route3_Text_Chica2PostBattle:
-	.string "Mientras no me hagas daño ni me\n"
-	.string "robes mis POKÉMON no llamaré a las\l"
-	.string "autoridades.$"
+	.string "Unless you cause me harm or take my\n"
+	.string "POKÉMON, I won't involve the\l"
+	.string "authorities.$"
+
 
 
 Route3_Text_ChicoIntro:
-	.string "Entiendo que por protocolo debas\n"
-	.string "de llevar uniforme, ¡pero no\l"
-	.string "puedes negar que no hay nada como\l"
-	.string "unos pantalones cortos!$"
+	.string "I understand that you must wear a\n"
+	.string "uniform as part of the protocol, but\l"
+	.string "you can't deny that there's nothing\l"
+	.string "like a pair of shorts!$"
 
 
 Route3_Text_ChicoDefeated:
-	.string "¡Solo era una broma!$"
+	.string "It was a joke!$"
 
 
 Route3_Text_ChicoPostBattle:
-	.string "Siempre llevo pantalones cortos,\n"
-	.string "incluso en invierno.\l"
-	.string "Son mis reglas.$"
+	.string "I always wear shorts, even in winter.\n"
+	.string "That's my rule.$"
+
 
 
 Route3_Text_Cazabichos2Intro:
-	.string "No suelen verse ROCKETS por estos\n"
-	.string "lugares, ¿qué tramas?$"
+	.string "It's unusual to spot ROCKETS in these\n"
+	.string "areas. What's your plan?$"
+
 
 
 Route3_Text_Cazabichos2Defeated:
-	.string "¡Habría ganado de tener un Pokémon\n"
-	.string "más!$"
+	.string "Having one more POKÉMON would have\n"
+	.string "secured my victory!$"
+
 
 
 Route3_Text_Cazabichos2PostBattle:
-	.string "La POLICÍA de CIUDAD PLATEADA os\n"
-	.string "estaba buscando no hace mucho.$"
+	.string "Recently, PEWTER CITY police were after\n"
+	.string "you.$"
 
 
 Route3_Text_Chica3Intro:
@@ -6860,120 +6850,119 @@ Route3_Text_Chica3Defeated:
 
 
 Route3_Text_Chica3PostBattle:
-	.string "¡No deberías de andar por ahí\n"
-	.string "abusando de tu poder!$"
+	.string "Abusing your power like that is not\n"
+	.string "something you should be doing!$"
 
 
 Route3_Text_Chico2Intro:
-	.string "Pensaba que los ROCKET como\n"
-	.string "vosotros no podían dejarse ver así\l"
-	.string "como así en espacios públicos.$"
+	.string "I thought ROCKETS like you weren't\n"
+	.string "supposed to be seen so easily in public.$"
+
 
 
 Route3_Text_Chico2Defeated:
-	.string "¡No me lo puedo creer!$"
+	.string "I can't believe that!$"
 
 
 Route3_Text_Chico2PostBattle:
-	.string "¡También pensaba que érais más\n"
-	.string "débiles!$"
+	.string "I thought ROCKETS were weaker!$"
 
 
 Route3_Text_Cazabichos3Intro:
-	.string "¡Id mi ejército de insectos!$"
+	.string "Charge, my legion of insects!$"
 
 
 Route3_Text_Cazabichos3Defeated:
-	.string "¡Me han exterminado!$"
+	.string "I've been exterminated!$"
 
 
 Route3_Text_Cazabichos3PostBattle:
-	.string "Tal vez debería de volver más\n"
-	.string "fuertes a unos pocos Pokémon en\l"
-	.string "lugar de intentar entrenar a todos\l"
-	.string "a la vez.$"
+	.string "Maybe I should focus on strengthening\n"
+	.string "a few Pokémon rather than attempting\l"
+	.string "to train them all simultaneously.$"
+
 
 
 ViridianForest_Text_CazabichosIntro:
-	.string "Este lugar es solo para CAZABICHOS\n"
-	.string "y amantes de la naturaleza.$"
+	.string "This place is only for BUG CATCHERS and\n"
+	.string "nature lovers.$"
 
 
 ViridianForest_Text_CazabichosDefeated:
-	.string "¡No me robes por favor!$"
+	.string "Don't steal me, please!$"
 
 
 ViridianForest_CazabichosPostBattle:
-	.string "¡Ver a un ROCKET por aquí es más\n"
-	.string "difícil que encontrar un PINSIR\l"
-	.string "salvaje en este lugar!$"
+	.string "Seeing a ROCKET around here is rarer\n"
+	.string "than finding a wild PINSIR in this\l"
+	.string "place!$"
 
 
 ViridianForest_Text_Cazabichos2Intro:
-	.string "El TIPO BICHO evoluciona antes que\n"
-	.string "ningún otro tipo.$"
+	.string "The BUG TYPE evolves earlier than any\n"
+	.string "other type.$"
 
 
 ViridianForest_Text_Cazabichos2Defeated:
-	.string "¡Creo que los evolucioné demasiado\n"
-	.string "pronto!$"
+	.string "I evolved them too early!$"
 
 
 ViridianForest_Cazabichos2PostBattle:
-	.string "Lo malo de evolucionar tan pronto\n"
-	.string "es que no les da tiempo ha\l"
-	.string "desarrollarse tan bien como por\l"
-	.string "ejemplo la línea de DRATINI hace.$"
+	.string "The negative aspect of evolving so\n"
+	.string "soon is that they don't have the time\l"
+	.string "to develop as robustly as, for instance,\l"
+	.string "the DRATINI line.$"
 
 
 ViridianForest_Text_Cazabichos3Intro:
-	.string "Tengo el TIPO BICHO más raro de\n"
-	.string "todos los CAZABICHOS de aquí, ¡eso\l"
-	.string "me convierte automáticamente en el\l"
-	.string "más guay!$"
+	.string "My BUG TYPE is the strangest among all\n"
+	.string "the BUG CATCHERS here, making me\l"
+	.string "automatically the coolest!$"
 
 
 ViridianForest_Text_Cazabichos3Defeated:
-	.string "¡He quedado fatal!$"
+	.string "I've made a bad impression!$"
 
 
 ViridianForest_Cazabichos3PostBattle:
-	.string "Supongo que a veces un POKÉMON\n"
-	.string "raro no tiene porqué ser un\l"
-	.string "POKÉMON fuerte.$"
+	.string "Sometimes, a rare POKÉMON doesn't have\n"
+	.string "to be a strong POKÉMON.$"
+
 
 
 ViridianForest_Text_Cazabichos4Intro:
-	.string "¡Nada duele más que la picadura de\n"
-	.string "un BEEDRILL!$"
+	.string "The sting of a BEEDRILL is the most\n"
+	.string "painful thing!$"
+
 
 
 ViridianForest_Text_Cazabichos4Defeated:
-	.string "¡Mis insectos!$"
+	.string "My BUG POKÉMON!$"
 
 
 ViridianForest_Cazabichos4PostBattle:
-	.string "PIDGEOT es el terror de los\n"
-	.string "POKÉMON que habitan este lugar, no\l"
-	.string "pueden hacer nada para evitar\l"
-	.string "convertirse en su presa.$"
+	.string "PIDGEOT reigns as the terror of the\n"
+	.string "POKÉMON in this area, and there's\l"
+	.string "nothing they can do to elude becoming\l"
+	.string "its prey.$"
+
 
 
 ViridianForest_Text_Cazabichos5Intro:
-	.string "Mi aventura por la ZONA SAFARI\n"
-	.string "expandió mi colección.$"
+	.string "My adventure through the SAFARI ZONE\n"
+	.string "expanded my collection.$"
 
 
 ViridianForest_Text_Cazabichos5Defeated:
-	.string "¿No fue suficiente?$"
+	.string "It wasn't enough!$"
 
 
 ViridianForest_Cazabichos5PostBattle:
-	.string "Creo que necesito bichos más\n"
-	.string "fuertes para sobresalir a fin de\l"
-	.string "cuentas, con un SCYTHER o un\l"
-	.string "PINSIR en mi equipo todo el mundo\l"
-	.string "me respetaría.$"
+	.string "At the end, I believe I need more\n"
+	.string "powerful insects to excel; with a\l"
+	.string "SCYTHER or a PINSIR on my team,\l"
+	.string "everyone would give me respect.$"
+
 
 
 Route12_Text_PescadorIntro:
@@ -6992,128 +6981,127 @@ Route12_PescadorPostBattle:
 
 
 Route12_Text_Pescador2Intro:
-	.string "Es más fácil ver a un DRAGONAIR\n"
-	.string "salvaje por esta zona que a un\l"
-	.string "ROCKET como tú.$"
+	.string "It's easier to spot a wild DRAGONAIR in\n"
+	.string "this area than a ROCKET like you.$"
+
 
 
 Route12_Text_Pescador2Defeated:
-	.string "¡Perdí la concentración!$"
+	.string "My focus slipped!$"
 
 
 Route12_Pescador2PostBattle:
-	.string "¡Vuestros oscuros planes nunca\n"
-	.string "triunfarán!$"
+	.string "Your dark plans will never succeed!$"
 
 
 Route12_Text_Pescador3Intro:
-	.string "¡El pescador loco contra el\n"
-	.string "delincuente perdido!$"
+	.string "The crazy fisherman against the lost\n"
+	.string "delinquent!$"
 
 
 Route12_Text_Pescador3Defeated:
-	.string "¡Tocado y hundido!$"
+	.string "Touched and sunk!$"
 
 
 Route12_Pescador3PostBattle:
-	.string "¡Puede que me hayas ganado pero\n"
-	.string "yo al menos no acabaré en la\l"
-	.string "cárcel!$"
+	.string "You may have beaten me, but at least I\n"
+	.string "won't end up in jail!$"
+
 
 
 Route12_Text_Pescador4Intro:
-	.string "¡Si tuviera un GYARADOS le\n"
-	.string "ordenaría hacer morder el polvo a\l"
-	.string "todos tus malditos Pokémon ROCKET!$"
+	.string "If I had a GYARADOS, I would command it\n"
+	.string "to make all your darn ROCKET POKÉMON\l"
+	.string "bite the dust!$"
 
 
 Route12_Text_Pescador4Defeated:
-	.string "¡Perdóname!$"
+	.string "Forgive me!$"
 
 
 Route12_Pescador4PostBattle:
-	.string "¡La gente como vosotros que va en\n"
-	.string "contra del cauce de las cosas va a\l"
-	.string "acabar muy mal!$"
+	.string "People like you who go against the\n"
+	.string "natural course of things are going to\l"
+	.string "end up in a bad way!$"
 
 
 Route12_Text_ChicoIntro:
-	.string "La electricidad es mi\n"
-	.string "especialidad, ¡no me importan los\l"
-	.string "POKÉMON del mar!$"
+	.string "I excel in electricity; sea POKÉMON\n"
+	.string "don't bother me!$"
+
 
 
 Route12_Text_ChicoDefeated:
-	.string "¡Electrocutado!$"
+	.string "Shocked!$"
 
 
 Route12_ChicoPostBattle:
-	.string "Un ELECTABUZZ vendría como anillo\n"
-	.string "al dedo a gente de vuestro perfil.$"
+	.string "People of your profile could use an\n"
+	.string "ELECTABUZZ to their advantage.$"
 
 
 Route12_Text_Chico2Intro:
-	.string "He oído que tu jefe tiene un\n"
-	.string "NIDOKING, ¿puedes decirme cómo\l"
-	.string "hizo para evolucionar a NIDORINO?$"
+	.string "I've heard your boss has a NIDOKING;\n"
+	.string "can you tell me how he evolved from\l"
+	.string "NIDORINO?$"
 
 
 Route12_Text_Chico2Defeated:
-	.string "¡Con NIDOKING hubiera ganado!$"
+	.string "With NIDOKING, I could have won!$"
 
 
 Route12_Chico2PostBattle:
-	.string "Así que PIEDRA LUNAR, entiendo...$"
+	.string "So a MOON STONE, well...$"
 
 
 Route12_Text_Pescador5Intro:
-	.string "¡Prepárate para conocer al mejor\n"
-	.string "POKÉMON de todos los tiempos!\l"
-	.string "¡Tiembla!$"
+	.string "Get ready to meet the greatest POKÉMON\n"
+	.string "of all time! Tremble!$"
+
 
 
 Route12_Text_Pescador5Defeated:
-	.string "¡Se acabó!$"
+	.string "Finished!$"
 
 
 Route12_Pescador5PostBattle:
-	.string "Ríete, todo son risas hasta que\n"
-	.string "MAGIKARP se convierte en GYARADOS.$"
+	.string "Laugh, it's all fun until MAGIKARP\n"
+	.string "evolves into GYARADOS.$"
+
 
 
 Route13_Text_ChicaIntro:
-	.string "Comprar vitaminas que incrementan\n"
-	.string "las estadísticas es un asco, ¡son\l"
-	.string "carísimas!$"
+	.string "Purchasing vitamins to enhance stats\n"
+	.string "is terrible; they're so expensive!$"
+
 
 
 Route13_Text_ChicaDefeated:
-	.string "¡Con vitaminas hubiera ganado!$"
+	.string "With CARBOS I could have won!$"
 
 
 Route13_ChicaPostBattle:
-	.string "¿Cómo?\n"
-	.string "¿Vosotros vendéis vitaminas a un\l"
-	.string "tercio del precio de mercado?\l"
-	.string "¡Yo también quiero!$"
+	.string "What? Do you sell vitamins at one-third\n"
+	.string "of the market price? I want some too!$"
+
 
 
 Route13_Text_OrnitologoIntro:
-	.string "¿Sabías que los POKÉMON más\n"
-	.string "fuertes de esta región comparten\l"
-	.string "el TIPO VOLADOR?\l"
-	.string "¡Incluso el DRAGÓN de LANCE!$"
+	.string "Did you know that the strongest\n"
+	.string "POKÉMON in this region share the FLYING\l"
+	.string "TYPE? Even LANCE's DRAGON!$"
+
 
 
 Route13_Text_OrnitologoDefeated:
-	.string "¿Mi combo PIDGEY-PIDGEOTTO perdió?$"
+	.string "Did my PIDGEY-PIDGEOTTO combo lose?$"
 
 
 Route13_OrnitologoPostBattle:
-	.string "Qué pena que el resto de POKÉMON\n"
-	.string "voladores siquiera se acerquen al\l"
-	.string "nivel de DRAGONITE o las AVES\l"
-	.string "LEGENDARIAS.$"
+	.string "Unfortunately, other FLYING-type\n"
+	.string "POKÉMON don't even compare to the level\l"
+	.string "of DRAGONITE or the LEGENDARY BIRDS.$"
+
 
 
 Route13_Text_Chica2Intro:
@@ -7131,61 +7119,59 @@ Route13_Chica2PostBattle:
 
 
 Route13_Text_ModeloIntro:
-	.string "¡Luchemos pero no te pases con mis\n"
-	.string "POKÉMON!$"
+	.string "Let's battle, but don't go overboard\n"
+	.string "with my POKÉMON!$"
+
 
 
 Route13_Text_ModeloDefeated:
-	.string "¡Eres tan malo!$"
+	.string "You are cruel!$"
 
 
 Route13_ModeloPostBattle:
-	.string "¡Yo solo quería pasar un buen\n"
-	.string "rato!$"
+	.string "I just wanted to have a good time!$"
 
 
 Route13_Text_Modelo2Intro:
-	.string "¡Vamos allá pero no me robes\n"
-	.string "después!$"
+	.string "Let's go, but don't steal me afterward!$"
 
 
 Route13_Text_Modelo2Defeated:
-	.string "¿Ya se acabó?$"
+	.string "Is it done?$"
 
 
 Route13_Modelo2PostBattle:
-	.string "En realidad no sé nada de POKÉMON,\n"
-	.string "solo los eligo por su aspecto.$"
+	.string "Actually, I don't know anything about\n"
+	.string "POKÉMON; I just choose them based on\l"
+	.string "their appearance.$"
 
 
 Route13_Text_Chica3Intro:
-	.string "Tengo curiosidad por ver los\n"
-	.string "POKÉMON de un fugitivo.$"
+	.string "I'm curious to see the POKÉMON of a\n"
+	.string "fugitive.$"
 
 
 Route13_Text_Chica3Defeated:
-	.string "¡Fantásticos!$"
+	.string "Amazing!$"
 
 
 Route13_Chica3PostBattle:
-	.string "¡Parece que la vida de criminal ha\n"
-	.string "endurecido a tus POKÉMON!$"
+	.string "The criminal life has evidently\n"
+	.string "toughened your POKÉMON!$"
 
 
 Route13_Text_Chica4Intro:
-	.string "¡Oh!\n"
-	.string "¡No quiero que mis POKÉMON se vean\l"
-	.string "malinfluenciados por un bandido!$"
+	.string "Oh! I don't want my POKÉMON to be\n"
+	.string "influenced in a bad way by a bandit!$"
 
 
 Route13_Text_Chica4Defeated:
-	.string "¡Mis POKÉMON no se recuperarán de\n"
-	.string "esto!$"
+	.string "My POKÉMON won't bounce back from this!$"
 
 
 Route13_Chica4PostBattle:
-	.string "¡Has envenenado a mi POKÉMON,\n"
-	.string "hazte responsable!$"
+	.string "You poisoned my POKÉMON, take\n"
+	.string "responsibility!$"
 
 
 Route13_Text_Ornitologo2Intro:
@@ -7203,18 +7189,17 @@ Route13_Ornitologo2PostBattle:
 
 
 Route13_Text_MotoristaIntro:
-	.string "¿Qué estás mirando?$"
+	.string "What are you looking for?$"
 
 
 Route13_Text_MotoristaDefeated:
-	.string "¡Ouch!¡Me equivoqué!$"
+	.string "Ouch! I was wrong!$"
 
 
 Route13_MotoristaPostBattle:
-	.string "Perdóname {PLAYER}, pensé que eras\n"
-	.string "uno de esos debiluchos que solo\l"
-	.string "emplean frágiles POKÉMON\l"
-	.string "VOLADORES.$"
+	.string "Forgive me, {PLAYER}, I thought you\n"
+	.string "were one of those weaklings who only\l"
+	.string "use fragile FLYING-type POKÉMON.$"
 
 
 Route13_Text_Ornitologo3Intro:
@@ -7232,19 +7217,17 @@ Route13_Ornitologo3PostBattle:
 
 
 Route14_Text_OrnitologoIntro:
-	.string "Espero que respetes la belleza que\n"
-	.string "esta ruta desprende.$"
+	.string "I expect you to admire the beauty that\n"
+	.string "this route exudes.$"
 
 
 Route14_Text_OrnitologoDefeated:
-	.string "Aún no soy lo suficientemente\n"
-	.string "bueno...$"
+	.string "I'm not good enough yet.$"
 
 
 Route14_OrnitologoPostBattle:
-	.string "Esta zona es ideal para criar a\n"
-	.string "mis POKÉMON PÁJARO, es muy\l"
-	.string "espaciosa.$"
+	.string "This area is perfect for raising my BIRD\n"
+	.string "POKÉMON; it's very spacious.$"
 
 
 Route14_Text_Ornitologo2Intro:
@@ -7262,53 +7245,51 @@ Route14_Ornitologo2PostBattle:
 
 
 Route14_Text_Ornitologo3Intro:
-	.string "¡Nadie ha estudiado tanto a los\n"
-	.string "POKÉMON PÁJARO como yo!$"
+	.string "I've researched BIRD POKÉMON more than\n"
+	.string "anyone else!$"
 
 
 Route14_Text_Ornitologo3Defeated:
-	.string "¡Todo para nada!$"
+	.string "Everything in vain!$"
 
 
 Route14_Ornitologo3PostBattle:
-	.string "He oído que un tal PEGASO en JOHTO\n"
-	.string "es un maestro del tipo VOLADOR.$"
+	.string "I've heard that someone named FALKNER\n"
+	.string "in JOHTO is a FLYING-type master.$"
 
 
 Route14_Text_Ornitologo4Intro:
-	.string "¡Tus viles POKÉMON jamás podrán\n"
-	.string "alcanzar a mis aves!$"
+	.string "Your vile POKÉMON will never be able to\n"
+	.string "reach my birds!$"
 
 
 Route14_Text_Ornitologo4Defeated:
-	.string "¡Me has cortado las alas!$"
+	.string "You've cut off my wings!$"
 
 
 Route14_Ornitologo4PostBattle:
-	.string "He oído que en JOHTO existe una\n"
-	.string "gran ave cubierta de acero, ¿será\l"
-	.string "cierto?$"
+	.string "In JOHTO, there's a big bird\n"
+	.string "covered in steel. Could it be true?$"
 
 
 Route14_Text_Ornitologo5Intro:
-	.string "¡Nunca hallaréis la ubicación de\n"
-	.string "las AVES SAGRADAS!$"
+	.string "You will never find the location of the\n"
+	.string "SACRED BIRDS!$"
 
 
 Route14_Text_Ornitologo5Defeated:
-	.string "¿Por qué he perdido?$"
+	.string "What led to my loss?$"
 
 
 Route14_Ornitologo5PostBattle:
-	.string "¿Cómo?\n"
-	.string "¿¡Vais a hacer clones aún más\l"
-	.string "poderosos que las originales AVES\l"
-	.string "SAGRADAS?!$"
+	.string "What? Are you going to create clones\n"
+	.string "even more powerful than the original\l"
+	.string "SACRED BIRDS?$"
 
 
 Route14_Text_Ornitologo6Intro:
-	.string "De modo que GOLBAT es vuestra ave\n"
-	.string "favorita, no está mal.$"
+	.string "So, GOLBAT is your favorite bird, not\n"
+	.string "bad.$"
 
 
 Route14_Text_Ornitologo6Defeated:
@@ -7335,32 +7316,34 @@ Route14_MotoristaPostBattle:
 
 
 Route14_Text_Motorista2Intro:
-	.string "¡Me han dicho que por JOHTO hay un\n"
-	.string "POKÉMON llamado GRANBULL, quiero\l"
-	.string "uno!$"
+	.string "Someone said me that in JOHTO, there's a\n"
+	.string "POKÉMON named GRANBULL; I want to get\l"
+	.string "one!$"
+
 
 
 Route14_Text_Motorista2Defeated:
-	.string "¡Tus POKÉMON fueron más fuertes!$"
+	.string "Your POKÉMON were stronger!$"
 
 
 Route14_Motorista2PostBattle:
-	.string "¡Un ARIADOS tampoco me vendría\n"
-	.string "mal!$"
+	.string "ARIADOS wouldn't be a bad choice\n"
+	.string "either!$"
 
 
 Route14_Text_Motorista3Intro:
-	.string "¡FUCSIA está bajo control ALTO\n"
-	.string "RANGO {PLAYER}!$"
+	.string "FUCHSIA is under control, HIGH RANK\n"
+	.string "{PLAYER}!$"
+
 
 
 Route14_Text_Motorista3Defeated:
-	.string "¡He pinchado!$"
+	.string "I deflated!$"
 
 
 Route14_Motorista3PostBattle:
-	.string "¡Ha sido un honor combatir contra\n"
-	.string "uno de los ROCKET del momento!$"
+	.string "Battling against one of the top ROCKET\n"
+	.string "members has been a privilege!$"
 
 
 Route14_Text_Motorista4Intro:
