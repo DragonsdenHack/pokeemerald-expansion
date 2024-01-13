@@ -87,6 +87,7 @@ DesertRuins_EventScript_RanFromRegirock::
 	end
 
 DesertRuins_Evento_CamaraRegirock::
+applymovement OBJ_EVENT_ID_PLAYER, DesertRuins_Evento_CamaraRegirock_move_1.1
 msgbox DesertRuins_Evento_CamaraRegirock_Texto_1 MSGBOX_AUTOCLOSE
 delay 20
 applymovement 4, DesertRuins_Evento_CamaraRegirock_Move_1
@@ -233,6 +234,10 @@ removeobject 5
 setvar VAR_UNUSED_0x40F7, 190
 release
 end
+
+DesertRuins_Evento_CamaraRegirock_move_1.1:
+walk_in_place_up
+step_end
 
 DesertRuins_Evento_CamaraRegirock_Move_16:
 walk_down

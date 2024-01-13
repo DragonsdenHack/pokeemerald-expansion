@@ -1011,3 +1011,24 @@ walk_slow_down
 walk_slow_down
 walk_slow_down
 step_end
+
+Mision7Lab4_Documento::
+lock
+msgbox Mision7Lab4_Documento_Texto_1 MSGBOX_SIGN
+delay 10
+msgbox Mision7Lab4_Documento_Texto_2 MSGBOX_SIGN
+delay 10
+msgbox Mision7Lab4_Documento_Texto_3 MSGBOX_SIGN
+release
+end
+
+Mision7Lab4_Documento_Texto_3:
+	.string "¡Tiene más de 1000 páginas!$"
+
+Mision7Lab4_Documento_Texto_2:
+	.string "... ...$"
+
+Mision7Lab4_Documento_Texto_1:
+	.string "-Cómo obtener mayores ganancias de\n"
+	.string "rendimiento y superar al FUERTE\l"
+	.string "VÍNCULO.-$"
