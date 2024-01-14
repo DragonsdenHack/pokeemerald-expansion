@@ -7992,114 +7992,107 @@ Route20_Nadadora2PostBattle:
 
 
 PowerPlant_Text_PoliciaIntro:
-    .string "Ya va siendo hora de que tú y tu\n"
-	.string "amiguita respondáis ante la\l"
-	.string "justicia.$"
+	.string "You and your little friend must\n"
+	.string "be judged by the authorities.$"
 
 
 PowerPlant_Text_PoliciaDefeated:
-	.string "Tiempo al tiempo.$"
+	.string "Give us time...$"
 
 
 PowerPlant_PoliciaPostBattle:
-	.string "Nadie escapa a la policía de\n"
-	.string "KANTO, tarde o temprano acabaréis\l"
-	.string "todos entre rejas.$"
+	.string "KANTO police catches everyone; sooner\n"
+	.string "or later, you'll all be in jail.$"
+
 
 
 PowerPlant_Text_Policia2Intro:
-    .string "Así que tú eres el que escapó de\n"
-	.string "milagro de la cadena perpetua por\l"
-	.string "robar en casa de BILL, es muy\l"
-	.string "estúpido de tu parte volver a\l"
-	.string "tentar a la suerte.$"
+	.string "You're the one who miraculously escaped\n"
+	.string "a life sentence for robbing at BILL's\l"
+	.string "house. It's quite foolish of you to try\l"
+	.string "luck again.$"
 
 
 PowerPlant_Text_Policia2Defeated:
-    .string "Esta vez te atraparemos.$"
+ 	.string "This time, we'll catch you.$"
 
 
 PowerPlant_Policia2PostBattle:
-	.string "Tu destino final es la cárcel.$"
+	.string "Your ultimate destination is prison.$"
 
 
 PowerPlant_Text_Policia3Intro:
-	.string "¡Todos los traidores al nuevo\n"
-	.string "orden serán silenciados!$"
+	.string "All the traitors to the new order will be\n"
+	.string "silenced!$"
 
 
 PowerPlant_Text_Policia3Defeated:
-	.string "¡Tú!$"
+	.string "You traitor!$"
 
 
 PowerPlant_Policia3PostBattle:
-	.string "¡El TEAM ROCKET tiene los días\n"
-	.string "contados!$"
+	.string "TEAM ROCKET is finished!$"
 
 
 PowerPlant_Text_Policia4Intro:
-	.string "Muy bonito por tu parte venir a\n"
-	.string "rescatar a tu compañera, a pesar\l"
-	.string "de que lo único que vas a\l"
-	.string "conseguir va a ser hacerle\l"
-	.string "compañia en la celda.$"
+	.string "It's a nice gesture on your part to come\n"
+	.string "and rescue your teammate, even though\l"
+	.string "all you're going to do is keep her\l"
+	.string "company in the cell.$"
 
 
 PowerPlant_Text_Policia4Defeated:
-	.string "Así que te resistes...$"
+	.string "So, you resist...$"
 
 
 PowerPlant_Policia4PostBattle:
-	.string "Un buen acto no anula una vida\n"
-	.string "entera de fechorías.$"
+	.string "One good act doesn't erase a whole life\n"
+	.string "of misdeeds.$"
 
 
 PowerPlant_Text_Policia5Intro:
-	.string "Parece que aún no te has dado\n"
-	.string "cuenta de quienes son los\l"
-	.string "verdaderos dueños de esta región.$"
+	.string "It seems you still haven't realized who\n"
+	.string "the true owners of this region are.$"
+
 
 
 PowerPlant_Text_Policia5Defeated:
-	.string "Tu poder es irrelevante.$"
+	.string "Your strength doesn't matter.$"
 
 
 PowerPlant_Policia5PostBattle:
-	.string "¡Jah!\n"
-	.string "¡Ni los LÍDERES DE GIMNASIO saben\l"
-	.string "quién manda realmente, va a\l"
-	.string "saberlo un pobre ROCKET como tú!$"
+	.string "Ha! Not even the GYM LEADERS know who\n"
+	.string "truly commands, and a poor ROCKET like\l"
+	.string "you won't find out!$"
 
 
 SaffronCityDojo_Text_KaratekaIntro:
-	.string "¡Estoy harto de ver ROCKETS en\n"
-	.string "AZAFRÁN!$"
+	.string "Seeing ROCKETS in SAFFRON is getting on\n"
+	.string "my nerves!$"
 
 
 SaffronCityDojo_Text_KaratekaDefeated:
-	.string "¡KO de un golpe!$"
+	.string "One hit KO!$"
 
 
 SaffronCityDojo_KaratekaPostBattle:
-	.string "Nuestro maestro es un luchador\n"
-	.string "profesional.\l"
-	.string "¡Prepárate para perder!$"
+	.string "Our master is a professional fighter.\n"
+	.string "Get ready to lose!$"
+
 
 
 SaffronCityDojo_Text_Karateka2Intro:
-	.string "¡Hwaah!\n"
-	.string "¿¡Osáis invadir también nuestro\l"
+	.string "Hwaah! Are you daring to invade our\n"
 	.string "DOJO!?$"
 
 
 SaffronCityDojo_Text_Karateka2Defeated:
-	.string "¡Oof!\n"
-	.string "¡Me rindo!$"
+	.string "Oof! I surrender!$"
 
 
 SaffronCityDojo_Karateka2PostBattle:
-	.string "Los mejores luchadores del lugar\n"
-	.string "se entrenan aquí.$"
+	.string "The best fighters in the area train\n"
+	.string "here.$"
 
 
 SaffronCityDojo_Text_Karateka3Intro:
@@ -8117,386 +8110,356 @@ SaffronCityDojo_Karateka3PostBattle:
 
 
 SaffronCityDojo_Text_Karateka4Intro:
-	.string "¡Hiyah!\n"
-	.string "No le tengo miedo a nada, ¡mucho\l"
-	.string "menos al TEAM ROCKET!$"
+	.string "Hiyah! I'm not afraid of anything, much\n"
+	.string "less TEAM ROCKET!$"
 
 
 SaffronCityDojo_Text_Karateka4Defeated:
-	.string "¡No tienes perdón!$"
+	.string "There's no mercy for you!$"
 
 
 SaffronCityDojo_Karateka4PostBattle:
-	.string "¡La única cosa a la que tememos es\n"
-	.string "a los poderes psíquicos!$"
+	.string "Our only fear is psychic powers!$"
 
 
 Silph2F_Text_PoliciaIntro:
-	.string "SILPH es grande, ¡nunca caerá!$"
+	.string "SILPH will never fall!$"
 
 
 Silph2F_Text_PoliciaDefeated:
-	.string "¡Caí!$"
+	.string "I fell!$"
 
 
 Silph2F_PoliciaPostBattle:
-	.string "¿SILPH colaborando con el TEAM\n"
-	.string "ROCKET?\l"
-	.string "¡Ni en sueños!$"
+	.string "SILPH working with TEAM ROCKET? Not\n"
+	.string "even in dreams!$"
 
 
 Silph2F_Text_Policia2Intro:
-	.string "¡Os habéis metido con la empresa\n"
-	.string "equivocada ROCKET!$"
-
-
-Silph2F_Text_Policia2Defeated:
-	.string "¡Eres duro!$"
-
-
-Silph2F_Policia2PostBattle:
-	.string "Nuestra seguridad es\n"
-	.string "infranqueable, jamás llegaréis\l"
-	.string "hasta nuestro PRESIDENTE.$"
-
-
-Silph2F_Text_CientificoIntro:
-	.string "¡Estás fuera de límites!\n"
-	.string "¡Vuelve a casa!$"
-
-
-Silph2F_Text_CientificoDefeated:
-	.string "Eres bueno.$"
-
-
-Silph2F_CientificoPostBattle:
-	.string "¡No es fácil moverse por este\n"
-	.string "lugar, te lo advierto!$"
-
-
-Silph2F_Text_Cientifico2Intro:
-	.string "¡Hey!\n"
-	.string "¡Soy un científico ROCKET!$"
-
-
-Silph2F_Text_Cientifico2Defeated:
-	.string "¿Cómo sabías que era de SILPH?$"
-
-
-Silph2F_Cientifico2PostBattle:
-	.string "Trabajo tanto para SILPH como para\n"
-	.string "el TEAM ROCKET.$"
-
-
-Silph3F_Text_PoliciaIntro:
-	.string "¡Después de esto acabaréis todos\n"
-	.string "entre rejas!$"
-
-
-Silph3F_Text_PoliciaDefeated:
-	.string "¡Me rindo!$"
-
-
-Silph3F_PoliciaPostBattle:
-	.string "La MASTER BALL es propiedad\n"
-	.string "nuestra, no la ofreceremos al\l"
-	.string "público así como así.$"
-
-
-Silph3F_Text_CientificoIntro:
-	.string "¡Apoyo más a SILPH que al TEAM\n"
+	.string "You've messed with the wrong company,\n"
 	.string "ROCKET!$"
 
 
+Silph2F_Text_Policia2Defeated:
+	.string "You're tough!$"
+
+
+Silph2F_Policia2PostBattle:
+	.string "Our security is unbeatable; you will\n"
+	.string "never get to our PRESIDENT.$"
+
+
+Silph2F_Text_CientificoIntro:
+	.string "You're beyond the limits! Go home!$"
+
+
+Silph2F_Text_CientificoDefeated:
+	.string "You're good.$"
+
+
+Silph2F_CientificoPostBattle:
+	.string "Moving around this area is not a simple\n"
+	.string "task, be aware!$"
+
+
+Silph2F_Text_Cientifico2Intro:
+	.string "Hey! I'm a ROCKET SCIENTIST!$"
+
+
+Silph2F_Text_Cientifico2Defeated:
+	.string "How did you know I was from SILPH?$"
+
+
+Silph2F_Cientifico2PostBattle:
+	.string "I work for both! SILPH and TEAM ROCKET!$"
+
+
+Silph3F_Text_PoliciaIntro:
+	.string "You'll all be in prison after this!$"
+
+
+Silph3F_Text_PoliciaDefeated:
+	.string "I give up!$"
+
+
+Silph3F_PoliciaPostBattle:
+	.string "The MASTER BALL is ours; we won't offer\n"
+	.string "it to the public so easily.$"
+
+
+Silph3F_Text_CientificoIntro:
+	.string "I support SILPH more than TEAM ROCKET!$"
+
+
 Silph3F_Text_CientificoDefeated:
-	.string "¡Tranquilo, era broma!$"
+	.string "Relax, it was a joke!$"
 
 
 Silph3F_CientificoPostBattle:
-	.string "Era mentira, ¡el TEAM ROCKET me ha\n"
-	.string "ofrecido una oferta mejor que la\l"
-	.string "de SILPH!$"
+	.string "I was lying, TEAM ROCKET has offered me\n"
+	.string "a better deal than SILPH!$"
 
 
 Silph4F_Text_PoliciaIntro:
-	.string "No tenéis ni idea de lo que este\n"
-	.string "edificio esconde bajo sus paredes.$"
+	.string "You have no idea about this building\n"
+	.string "conceals.$"
 
 
 Silph4F_Text_PoliciaDefeated:
-	.string "¡Arrgh!$"
+	.string "Arrgh!$"
 
 
 Silph4F_PoliciaPostBattle:
-	.string "Nuestra tecnología está una década\n"
-	.string "por delante del resto.$"
+	.string "Our technology is ten years ahead of\n"
+	.string "everyone else.$"
 
 
 Silph4F_Text_Policia2Intro:
-	.string "¡Intruso detectado!$"
+	.string "Intruder detected!$"
 
 
 Silph4F_Text_Policia2Defeated:
-	.string "¿Quién eres?$"
+	.string "Who are you?$"
 
 
 Silph4F_Policia2PostBattle:
-	.string "¡Será mejor que avise al\n"
-	.string "PRESIDENTE!$"
+	.string "I better notify the PRESIDENT!$"
 
 
 Silph4F_Text_CientificoIntro:
-	.string "Mi POKÉMON es mi fiel sirviente.$"
+	.string "My POKÉMON is my loyal servant.$"
 
 
 Silph4F_Text_CientificoDefeated:
-	.string "¡Maldito!\n"
-	.string "¡Tú y tus POKÉMON!$"
+	.string "Damn! You and your POKÉMON!$"
 
 
 Silph4F_CientificoPostBattle:
-	.string "Las puertas están selladas\n"
-	.string "electrónicamente.\l"
-	.string "Sin la llave será imposible\l"
-	.string "abrirlas.$"
+	.string "The doors are locked electronically.\n"
+	.string "It'll be impossible to open them without\l"
+	.string "the key.$"
 
 
 Silph5F_Text_CientificoIntro:
-	.string "En este piso estudiamos la\n"
-	.string "tecnología de las POKÉ BALL.$"
+	.string "On this floor, we study POKÉ BALL\n"
+	.string "technology.$"
 
 
 Silph5F_Text_CientificoDefeated:
-	.string "¿Tú quién eres?$"
+	.string "Who are you?$"
 
 
 Silph5F_CientificoPostBattle:
-	.string "Nuestra MASTER BALL captura a\n"
-	.string "cualquier POKÉMON vivo.$"
+	.string "Our MASTER BALL can catch any POKÉMON.$"
 
 
 Silph5F_Text_PoliciaIntro:
-	.string "Dicen que hay un par de EJECUTIVOS\n"
-	.string "ROCKET que están dando muchos\l"
-	.string "problemas.$"
+	.string "It's rumored that a couple of ROCKET\n"
+	.string "EXECUTIVES are causing trouble.$"
 
 
 Silph5F_Text_PoliciaDefeated:
-	.string "¡Boom!$"
+	.string "Boom!$"
 
 
 Silph5F_PoliciaPostBattle:
-	.string "No es muy inteligente meterse con\n"
-	.string "SILPH chico, ya te lo adelanto.$"
+	.string "Messing with SILPH isn't the brightest\n"
+	.string "idea, kid, I'll tell you in advance.$"
 
 
 Silph5F_Text_Policia2Intro:
-	.string "¡Muestra un poco de respeto hacia\n"
-	.string "SILPH!$"
+	.string "Show a little respect towards SILPH!$"
 
 
 Silph5F_Text_Policia2Defeated:
-	.string "¡Perdóneme PRESIDENTE!$"
+	.string "Forgive me, PRESIDENT!$"
 
 
 Silph5F_Policia2PostBattle:
-	.string "¡Nunca resolverás nuestro\n"
-	.string "laberinto de baldosas\l"
-	.string "teletransportadoras!$"
+	.string "Our teleporter tile maze is a puzzle\n"
+	.string "you'll never solve!$"
 
 
 Silph5F_Text_ChicoIntro:
-	.string "No sabía que el TEAM ROCKET ahora\n"
-	.string "contratase chicos de tu edad.$"
+	.string "I didn't realize TEAM ROCKET is\n"
+	.string "recruiting youngsters like you.$"
 
 
 Silph5F_Text_ChicoDefeated:
-	.string "¡Ya veo el porqué!$"
+	.string "I see why!$"
 
 
 Silph5F_ChicoPostBattle:
-	.string "Yo solo pasaba por aquí, solo\n"
-	.string "quería echar un par de combates.$"
+	.string "I was just passing through, only wanted\n"
+	.string "to have a couple of battles.$"
 
 
 Silph6F_Text_PoliciaIntro:
-	.string "¡Alto!\n"
-	.string "¡No tienes pinta de tener cita con\l"
-	.string "nuestro PRESIDENTE!$"
+	.string "Stop! You don't look like you have an\n"
+	.string "appointment with our PRESIDENT!$"
 
 
 Silph6F_Text_PoliciaDefeated:
-	.string "¡Me apagé!$"
+	.string "I turned off!$"
 
 
 Silph6F_PoliciaPostBattle:
-	.string "¡No importa!\n"
-	.string "¡Mis compañeros me vengarán!$"
+	.string "It doesn't matter! My comrades will\n"
+	.string "avenge me!$"
 
 
 Silph6F_Text_Policia2Intro:
-	.string "¿Osas traicionar a SILPH?$"
+	.string "Do you dare betraying SILPH?$"
 
 
 Silph6F_Text_Policia2Defeated:
-	.string "¡Traidor!$"
+	.string "Traitor!$"
 
 
 Silph6F_Policia2PostBattle:
-	.string "¡Si sirves al crimen, traicionas a\n"
-	.string "la justicia!$"
+	.string "If you serve crime, you betray justice!$"
 
 
 Silph7F_Text_PoliciaIntro:
-	.string "Así que tú eres el grueso del TEAM\n"
-	.string "ROCKET, ¡acabaré contigo!$"
+	.string "So, you're the TEAM ROCKET core; I'll\n"
+	.string "take you down!$"
 
 
 Silph7F_Text_PoliciaDefeated:
-	.string "¡Tampoco pude!$"
+	.string "I also failed!$"
 
 
 Silph7F_PoliciaPostBattle:
-	.string "Eres un excepcional ENTRENADOR,\n"
-	.string "SILPH podría ofrecerte un gran\l"
-	.string "puesto aquí.$"
+	.string "You're an exceptional TRAINER; SILPH\n"
+	.string "could offer you a great position here.$"
 
 
 Silph7F_Text_Policia2Intro:
-	.string "Nuestro PRESIDENTE es demasiado\n"
-	.string "importante como para perder el\l"
-	.string "tiempo con unos ladrones de\l"
-	.string "tercera como vosotros.$"
+	.string "Our PRESIDENT is too important to\n"
+	.string "waste time with third-rate thieves like\l"
+	.string "you.$"
 
 
 Silph7F_Text_Policia2Defeated:
-	.string "¡Piérdete!$"
+	.string "Get lost!$"
 
 
 Silph7F_Policia2PostBattle:
-	.string "Tenemos recursos más que de sobra\n"
-	.string "para haceros desaparecer.$"
+	.string "We have more than sufficient resources\n"
+	.string "to make you vanish.$"
 
 
 Silph7F_Text_Policia3Intro:
-	.string "Vais a salir de aquí a patadas\n"
-	.string "como continués con esta actitud.$"
+	.string "If you persist with this behavior, you'll\n"
+	.string "be kicked out of here.$"
 
 
 Silph7F_Text_Policia3Defeated:
-	.string "¡Luces fuera!$"
+	.string "Lights off!$"
 
 
 Silph7F_Policia3PostBattle:
-	.string "¡Nunca encontrarás al PRESIDENTE\n"
-	.string "solo merodeando por aquí!$"
+	.string "You'll never find our PRESIDENT just\n"
+	.string "lurking around here!$"
 
 
 Silph7F_Text_CientificoIntro:
-	.string "Muchos de los científicos de por\n"
-	.string "aquí en realidad trabajamos tanto\l"
-	.string "para SILPH como para vosotros, el\l"
-	.string "TEAM ROCKET.\l"
-	.string "¡La realidad es que yo solo quiero\l"
-	.string "echar un buen combate!$"
+	.string "Several scientists around here\n"
+	.string "actually work for both SILPH and TEAM\l"
+	.string "ROCKET. The fact is, I just wanna have a\l"
+	.string "good battle!$"
 
 
 Silph7F_Text_CientificoDefeated:
-	.string "¡Estoy acabado!$"
+	.string "I'm finished!$"
 
 
 Silph7F_CientificoPostBattle:
-	.string "¡Eres un entrenador muy habilidoso\n"
-	.string "a pesar de tu edad!$"
+	.string "Despite your age, you're a highly skilled\n"
+	.string "trainer!$"
 
 
 Silph8F_Text_PoliciaIntro:
-	.string "Todo el que se ha metido con SILPH\n"
-	.string "ha acabado muy mal, ¡no por nada\l"
-	.string "tenemos el monopolio en KANTO!$"
+	.string "Those who have confronted SILPH have\n"
+	.string "had a tough fate; it's no coincidence we\l"
+	.string "have a monopoly in KANTO!$"
 
 
 Silph8F_Text_PoliciaDefeated:
-	.string "¡Vas a caer!$"
+	.string "You're going to fall!$"
 
 
 Silph8F_PoliciaPostBattle:
-	.string "Aún estáis a tiempo de recitificar\n"
-	.string "y largaros por cuenta propia.$"
+	.string "You're still in time to correct\n"
+	.string "yourselves and go home.$"
 
 
 Silph8F_Text_Policia2Intro:
-	.string "¡Esto ha ido ya demasiado lejos!$"
+	.string "This has exceeded the limit!$"
 
 
 Silph8F_Text_Policia2Defeated:
-	.string "Me he quedado sin energías...$"
+	.string "I'm out of energy.$"
 
 
 Silph8F_Policia2PostBattle:
-	.string "No vais a obtener nada de\n"
-	.string "nosotros.$"
+	.string "You won't obtain anything from us.$"
 
 
 Silph8F_Text_CientificoIntro:
-	.string "Esta infraestructura es un milagro\n"
-	.string "de la ingeniería, alguien como tú\l"
-	.string "no merece siquiera pisar este\l"
-	.string "suelo.$"
+	.string "This structure is an engineering\n"
+	.string "miracle; someone of your caliber doesn't\l"
+	.string "even deserve to step on this floor.$"
 
 
 Silph8F_Text_CientificoDefeated:
-	.string "¿Huh?\n"
-	.string "¿Perdí?$"
+	.string "Huh? Did I lose?$"
 
 
 Silph8F_CientificoPostBattle:
-	.string "Lo que puedes ver a simple vista\n"
-	.string "no es ni mucho menos todo lo que\l"
-	.string "SILPH tiene por ofrecer chico.$"
+	.string "What's visible isn't even close to\n"
+	.string "everything SILPH has in store, kid.$"
 
 
 Silph9F_Text_CientificoIntro:
-	.string "Tus POKÉMON tienen puntos débiles.\n"
-	.string "¡Puedo verlos!$"
+	.string "Your POKÉMON have weaknesses. I can\n"
+	.string "see them!$"
 
 
 Silph9F_Text_CientificoDefeated:
-	.string "¡Me sorprendiste!$"
+.string "You surprised me!$"
 
 
 Silph9F_CientificoPostBattle:
-	.string "Explotar los puntos débiles del\n"
-	.string "rival es una gran estrategia,\l"
-	.string "piensa en ello.$"
+	.string "Exploiting the opponent's weaknesses\n"
+	.string "is a great strategy, think about it.$"
 
 
 Silph9F_Text_PoliciaIntro:
-	.string "¡Vosotros canallas!\n"
-	.string "¡Pagaréis por atacar a SILPH!$"
+	.string "You villains! You'll pay for attacking\n"
+	.string "SILPH!$"
 
 
 Silph9F_Text_PoliciaDefeated:
-	.string "¡Vuestra hora llegará!$"
+	.string "Your time will come!$"
 
 
 Silph9F_PoliciaPostBattle:
-	.string "¡Perdóname SILPH, no pude\n"
-	.string "protegerte!$"
+	.string "Forgive me, SILPH, I couldn't protect\n"
+	.string "you!$"
 
 
 Silph9F_Text_Policia2Intro:
-	.string "Tus POKÉMON parecer quererte mucho\n"
-	.string "para ser un ROCKET.$"
+	.string "It seems like your POKÉMON have a\n"
+	.string "strong bond with you.$"
 
 
 Silph9F_Text_Policia2Defeated:
-	.string "¡Ghaaah!$"
+	.string "Ghaaah!$"
 
 
 Silph9F_Policia2PostBattle:
-	.string "Si hubiera empezado a entrenar a\n"
-	.string "tu edad...$"
+	.string "If I had started training at your age...$"
 
 
 Silph10F_Text_CientificoIntro:
@@ -8508,9 +8471,8 @@ Silph10F_Text_CientificoDefeated:
 
 
 Silph10F_CientificoPostBattle:
-	.string "No lograrás nada derrotando a\n"
-	.string "trabajadores sin importancia como\l"
-	.string "yo.$"
+	.string "You won't achieve anything defeating\n"
+	.string "insignificant workers like me.$"
 
 
 Silph10F_Text_PoliciaIntro:
