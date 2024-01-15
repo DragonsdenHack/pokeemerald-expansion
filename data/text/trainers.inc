@@ -11353,186 +11353,170 @@ CultoS3_Text_Exorcista2PostBattle:
 
 
 CultoS3_Text_Medium3Intro:
-	.string "¿Así que vas tras el POKÉMON\n"
-	.string "ESENCIA?\l"
-	.string "¡Pobre iluso!$"
+	.string "So, you're after the ESSENCE POKÉMON?\n"
+	.string "Poor fool!$"
 
 
 CultoS3_Text_Medium3Defeated:
-	.string "¡Pagarás por tu osadía!$"
+	.string "You will pay for your audacity!$"
 
 
 CultoS3_Text_Medium3PostBattle:
-	.string "El POKÉMON ESENCIA está en todos y\n"
-	.string "a la vez ningún lugar, al momento\l"
-	.string "que creas habérle visto su sombra\l"
-	.string "se desvanecerá en el aire al nada\l"
-	.string "que tu pensamiento trate de\l"
-	.string "procesar qué es lo que ha\l"
-	.string "ocurrido.$"
+	.string "The ESSENCE POKÉMON is both present\n"
+	.string "and absent, existing everywhere and\l"
+	.string "nowhere at once. At the moment you\l"
+	.string "think spotted its shadow, it will\l"
+	.string "dissolve into the air, leaving your mind\l"
+	.string "grappling to understand what happened.$"
 
 
 CultoS3_Text_Medium4Intro:
-	.string "Más te vale no pasar de aquí si no\n"
-	.string "quieres escoger la senda del\l"
-	.string "dolor.$"
+	.string "You better not cross this line if you\n"
+	.string "don't want to choose the path of pain.$"
+
 
 
 CultoS3_Text_Medium4Defeated:
-	.string "Que así sea pues.$"
+	.string "So be it.$"
 
 
 CultoS3_Text_Medium4PostBattle:
-	.string "No vengas después llorando y\n"
-	.string "arrepintiéndote de tu elección, en\l"
-	.string "ese momento era lo que querías.$"
+	.string "Don't return later with tears and\n"
+	.string "regretting your choice; in that moment,\l"
+	.string "it was what you desired.$"
 
 
 CultoS3_Text_Medium5Intro:
-	.string "Nadie ha interrumpido jamás un\n"
-	.string "ritual de nuestro culto y no serás\l"
-	.string "tú el primero que lo haga.$"
+	.string "No one has ever interrupted a ritual of\n"
+	.string "our cult, and you won't be the first one!$"
 
 
 CultoS3_Text_Medium5Defeated:
-	.string "Atente a las consecuencias, pues.$"
+.string "Face the consequences, then.$"
 
 
 CultoS3_Text_Medium5PostBattle:
-	.string "Los POKÉMON de nuestro pastor no\n"
-	.string "obedecen las leyes de este mundo,\l"
-	.string "están en un plano superior.$"
+	.string "The POKÉMON of our shepherd don't obey\n"
+	.string "the laws of this world; they exist on a\l"
+	.string "higher plane.$"
 
 
 NavelRoad_Text_PescadorIntro:
-	.string "Nadie aparte de los pocos\n"
-	.string "pescadores que conocemos el\l"
-	.string "secreto debería de estar aquí.$"
+	.string "No one except the few FISHERMAN who\n"
+	.string "know the secret should be here.$"
 
 
 NavelRoad_Text_PescadorDefeated:
-	.string "Otro miembro más para el club.$"
+	.string "Welcome to the club!$"
 
 
 NavelRoad_Text_PescadorPostBattle:
-	.string "La mayoría de personas allí afuera\n"
-	.string "son cobardes y corderitos de las\l"
-	.string "directrices, les da miedo mojarse\l"
-	.string "un poco con las corrientes cuando\l"
-	.string "lo mejor del mar se encuentra\l"
-	.string "aquí.\l"
-	.string "¡Que sigan encerrados en su\l"
-	.string "rebaño, yo me quedaré con las\l"
-	.string "mejores piezas de este lugar!$"
+	.string "Most people out there are cowards and\n"
+	.string "followers of directives; they fear\l"
+	.string "getting a little wet with the currents\l"
+	.string "when the best of the sea is right here.\l"
+	.string "Let them stay locked in their herd; I'll\l"
+	.string "take the best pieces from this place!$"
 
 
 NavelRoad_Text_Pescador2Intro:
-	.string "¡Este lugar es un nido de salvajes\n"
-	.string "POKÉMON que han crecido en aguas\l"
-	.string "bravas!\l"
-	.string "¡Mira lo fieros que son!$"
+	.string "This place is a nest of wild POKÉMON\n"
+	.string "that have grown in rough waters! Just\l"
+	.string "see how ferocious they are!$"
 
 
 NavelRoad_Text_Pescador2Defeated:
-	.string "¡Increíble!$"
+	.string "Incredible!$"
 
 
 NavelRoad_Text_Pescador2PostBattle:
-	.string "Tienes valor viniendo hasta aquí\n"
-	.string "tú solo, la naturaleza sabe\l"
-	.string "recompensar a los que toman\l"
-	.string "riesgos, si aprendes a bailar bajo\l"
-	.string "la tormenta, cuando llegue la\l"
-	.string "calma volarás.$"
+	.string "You're brave to come here alone; nature\n"
+	.string "rewards those who take risks. If you\l"
+	.string "learn to dance in the storm, you'll fly\l"
+	.string "when calm returns.$"
 
 
 WestBirthIsland_Text_MontaneroIntro:
-	.string "¡Primero esa chica y luego tú!\n"
-	.string "¿Qué esta pasando con el\l"
-	.string "secretismo y la discrección de\l"
-	.string "este lugar?$"
+	.string "First that girl, and now you! What's\n"
+	.string "happening with the secrecy and\l"
+	.string "discretion of this place?$"
 
 
 WestBirthIsland_Text_MontaneroDefeated:
-	.string "¡Mi equipo hecho ruinas!$"
+	.string "My team in ruins!$"
 
 
 WestBirthIsland_Text_MontaneroPostBattle:
-	.string "Se cree que este lugar guarda una\n"
-	.string "estrecha relación con las RUINAS\l"
-	.string "ALFA de JOHTO, tal vez este lugar\l"
-	.string "sea la llave para liberar un poder\l"
-	.string "indescriptible y ancestral...$"
+	.string "It is believed that this place has a\n"
+	.string "close connection to the ALPHA RUINS in\l"
+	.string "JOHTO, perhaps this place it's key to\l"
+	.string "unleash an indescribable and ancestral\l"
+	.string "power...$"
 
 
 CinnabarMansionS1_Text_CientificoIntro:
-	.string "¿Por qué molestar a OAK cuando\n"
-	.string "puedo ser yo quien te aleccione\l"
-	.string "aquí y ahora?$"
+	.string "Why bother OAK when I can be the one to\n"
+	.string "instruct you here and now?$"
+
 
 
 CinnabarMansionS1_Text_CientificoDefeated:
-	.string "¡No tiene lógica!$"
+	.string "That's nonsense!$"
 
 
 CinnabarMansionS1_Text_CientificoPostBattle:
-	.string "Todo está dispuesto, las cartas\n"
-	.string "están sobre la mesa, tus opciones\l"
-	.string "de victoria son nulas.$"
+	.string "All is ready, the cards are on the table,\n"
+	.string "your chances of winning are\l"
+	.string "nonexistent.$"
+
 
 
 CinnabarMansionS2_Text_CientificoIntro:
-	.string "Llevábamos décadas en busca del\n"
-	.string "equipo perfecto, ahora que al fin\l"
-	.string "hemos logrado montar el mejor\l"
-	.string "equipo de todos los tiempos nada\l"
-	.string "ni nadie se opondrá a nuestra\l"
-	.string "voluntad.$"
+	.string "We've been after the perfect team for\n"
+	.string "decades, and now that we've\l"
+	.string "successfully assembled the greatest\l"
+	.string "team ever, nothing can stand in our way.$"
 
 
 CinnabarMansionS2_Text_CientificoDefeated:
-	.string "¡Eso!\n"
-	.string "¡Camina hacia tu fin!$"
+	.string "That's it! Walk towards your end!$"
 
 
 CinnabarMansionS2_Text_CientificoPostBattle:
-	.string "OAK será recordado como el mejor\n"
-	.string "entrenador de todos los tiempos, a\l"
-	.string "ti en cambio jamás se te\l"
-	.string "reconocerá lo que hiciste en la\l"
-	.string "LIGA.\l"
-	.string "¡Si no quedan registradas para la\l"
-	.string "posteridad, jamas existieron, ni\l"
-	.string "tú ni tus acciones!$"
+	.string "OAK will be remembered as the greatest\n"
+	.string "trainer of all time, whereas you will\l"
+	.string "never be recognized for what you did in\l"
+	.string "the League. If it's not recorded for\l"
+	.string "posterity, it never happened, neither\l"
+	.string "you nor your actions!$"
 
 
 CinnabarMansionS2_Text_Cientifico2Intro:
-	.string "¿Qué se siente al haber ganado la\n"
-	.string "LIGA POKÉMON solo para ver como el\l"
-	.string "nieto de OAK es ahora oficialmente\l"
-	.string "el CAMPEÓN al tiempo que ROJO es\l"
-	.string "tenido como una leyenda?\l"
-	.string "Para la sociedad, ¡no existes!\l"
-	.string "¡No eres más que polvo!$"
+	.string "How does it feel to have won the\n"
+	.string "POKÉMON LEAGUE only to witness\l"
+	.string "PROFESSOR OAK's grandson becoming the\l"
+	.string "CHAMPION, while RED is hailed as a\l"
+	.string "legend? In society's eyes, you simply\l"
+	.string "don't exist! You are nothing more than\l"
+	.string "dust!$"
 
 
 CinnabarMansionS2_Text_Cientifico2Defeated:
-	.string "Nada puede hacernos la fuerza de\n"
-	.string "tus POKÉMON.$"
+	.string "The strength of your POKÉMON doesn't\n"
+	.string "care us.$"
+
 
 
 CinnabarMansionS2_Text_Cientifico2PostBattle:
-	.string "No puedes ganar este juego\n"
-	.string "simplemente siendo el entrenador\l"
-	.string "más poderoso, algo que siquiera\l"
-	.string "ahora tienes, pues OAK ha logrado\l"
-	.string "al fin formar un equipo perfecto.$"
+	.string "You can't win this game just being the\n"
+	.string "most powerful trainer, something you\l"
+	.string "don't even have now, as OAK has finally\l"
+	.string "managed to assemble a perfect team.$"
 
 
 CinnabarMansionS2_Text_Cientifico3Intro:
-	.string "¡Tu fin te espera!\n"
-	.string "¡Ve por él y enfréntate a tu\l"
-	.string "destino!$"
+	.string "Your end awaits you! Go for it and\n"
+	.string "confront your destiny!$"
 
 
 CinnabarMansionS2_Text_Cientifico3Defeated:
@@ -11540,19 +11524,16 @@ CinnabarMansionS2_Text_Cientifico3Defeated:
 
 
 CinnabarMansionS2_Text_Cientifico3PostBattle:
-	.string "Solo eres una variable más dentro\n"
-	.string "de nuestro gran plan para que\l"
-	.string "nuestra voluntad se cumpla.\l"
-	.string "¡Variable que en todos los casos\l"
-	.string "acaba siendo derrotada, no puedes\l"
-	.string "ganar con los POKÉMON que tienes a\l"
-	.string "tu alcance!$"
+	.string "You are just one more variable in our\n"
+	.string "vast plan to ensure our will is carried\l"
+	.string "out. A variable that, in all cases, ends\l"
+	.string "up being defeated. You cannot succeed\l"
+	.string "with the POKÉMON you are able to catch!$"
 
 
 Route46_Text_ChicaIntro:
-	.string "¡Heyyy!\n"
-	.string "¡No te he visto por esta zona!\l"
-	.string "¿Vienes de bajar CIUDAD ENDRINO?$"
+	.string "Heyyy! I haven't seen you around here!\n"
+	.string "Are you coming from BLACKTHORN CITY?$"
 
 
 Route46_Text_ChicaDefeated:
@@ -11560,34 +11541,30 @@ Route46_Text_ChicaDefeated:
 
 
 Route46_Text_ChicaPostBattle:
-	.string "Espera, ¿no vienes de CIUDAD\n"
-	.string "ENDRINO?\l"
-	.string "¡Eso es imposible!\l"
-	.string "¡No hay nada más al noreste de\l"
-	.string "aquí!$"
+	.string "Wait, didn't you come from BLACKTHORN\n"
+	.string "CITY? That's impossible! There's\l"
+	.string "nothing further northeast from here!$"
 
 
 Route46_Text_MontaneroIntro:
-	.string "¡Espera!\n"
-	.string "¿¡Por qué tanta prisa?!\l"
-	.string "¿No has visto el paisaje?$"
+	.string "Hold on! What's the hurry? Haven't you\n"
+	.string "noticed the landscape?$"
 
 
 Route46_Text_MontaneroDefeated:
-	.string "Está bien, sigue tu camino.$"
+	.string "Alright, go your way.$"
 
 
 Route46_Text_MontaneroPostBattle:
-	.string "A veces vamos tan deprisa que\n"
-	.string "dejamos de apreciar y sentir todo\l"
-	.string "cuanto nos rodea.$"
+	.string "There are occasions when we move so\n"
+	.string "quickly that we fail to appreciate and\l"
+	.string "sense everything around us.$"
 
 
 Route29_Text_ChicoIntro:
-	.string "¡Maldición!\n"
-	.string "¡Pensé que en esta ruta había\l"
-	.string "NIDORANs!\l"
-	.string "¿Es que no los hay en todo JOHTO?$"
+	.string "Oh, no! I thought there were NIDORANs\n"
+	.string "on this route! Aren't they found in\l"
+	.string "JOHTO?$"
 
 
 Route29_Text_ChicoDefeated:
@@ -11595,17 +11572,15 @@ Route29_Text_ChicoDefeated:
 
 
 Route29_Text_ChicoPostBattle:
-	.string "Si me dejaran pasar la frontera,\n"
-	.string "iría a KANTO a capturar un\l"
-	.string "NIDORAN, en esa región son\l"
-	.string "bastante más comunes.$"
+	.string "If I could pass through the border, I'd\n"
+	.string "go to KANTO to catch a NIDORAN; they\l"
+	.string "are more abundant in that region.$"
 
 
 Route29_Text_SabioIntro:
-	.string "Veo cada vez menos especies\n"
-	.string "endémicas por estas rutas.\l"
-	.string "¿No serás tú el responsable de\l"
-	.string "ello?$"
+	.string "I notice a decreasing number of endemic\n"
+	.string "species on these routes. Could you be\l"
+	.string "the one behind it?$"
 
 
 Route29_Text_SabioDefeated:
@@ -11613,23 +11588,21 @@ Route29_Text_SabioDefeated:
 
 
 Route29_Text_SabioPostBattle:
-	.string "Antes podías ver manadas de\n"
-	.string "CHIKORITA muy facilmente por esta\l"
-	.string "ruta, sea lo que sea que esté\l"
-	.string "provocando esto, cada vez es más\l"
-	.string "complicado verlas, de aquí a pocos\l"
-	.string "años será imposible.$"
+	.string "You used to be able to see groups of\n"
+	.string "CHIKORITA very easily on this route.\l"
+	.string "Whatever is causing this, it's becoming\l"
+	.string "more complicated to spot them, and in a\l"
+	.string "few years, it will be impossible.$"
 
 
 Route30_Text_SabioIntro:
-	.string "No pareces ser de por aquí.\n"
-	.string "¡Más te vale respetar estas\l"
-	.string "tierras!$"
+	.string "It seems you're not from this place. You\n"
+	.string "better respect these routes!$"
 
 
 Route30_Text_SabioDefeated:
-	.string "Oh, no todos los días se ven\n"
-	.string "entrenadores como tú.$"
+	.string "Oh, trainers like you aren't a common\n"
+	.string "sight every day.$"
 
 
 Route30_Text_SabioPostBattle:
@@ -11638,71 +11611,66 @@ Route30_Text_SabioPostBattle:
 
 
 Route30_Text_CazabichosIntro:
-	.string "Me he equivocado de lugar.\n"
-	.string "En el ENCINAR seguro que hay\l"
-	.string "insectos que merecen la pena.$"
+	.string "Wrong place. In the ILEX FOREST, there\n"
+	.string "are insects that are surely worth\l"
+	.string "observing.$"
 
 
 Route30_Text_CazabichosDefeated:
-	.string "¿De dónde has sacado todos esos\n"
-	.string "POKÉMON?$"
+	.string "Where did you get all those POKÉMON?$"
 
 
 Route30_Text_CazabichosPostBattle:
-	.string "Dicen que el ENCINAR cuenta con un\n"
-	.string "POKÉMON guardián. También que si\l"
-	.string "tiras un mechero e incendias el\l"
-	.string "bosque, este, enfurecido, hará\l"
-	.string "acto de presencia.\l"
-	.string "¿Será cierto?$"
+	.string "There are rumors that the ILEX FOREST\n"
+	.string "has a guardian POKÉMON. It's also said\l"
+	.string "that if you throw a lighter and start a\l"
+	.string "fire in the forest, it will appear in\l"
+	.string "anger. Could it be true?$"
 
 
 Route31_Text_ChicoIntro:
-	.string "Ahora que tengo la mejor ave no\n"
-	.string "legendaria de KANTO, al fin seré\l"
-	.string "aceptado como discípulo del gran\l"
-	.string "PEGASO.$"
+	.string "Now that I have the best non-legendary\n"
+	.string "bird in KANTO, I will finally be accepted\l"
+	.string "as a disciple of the great PEGASUS.$"
 
 
 Route31_Text_ChicoDefeated:
-	.string "¿Mi fuerte y majestuoso PIDGEOT no\n"
-	.string "fue suficiente?$"
+	.string "My powerful PIDGEOT was not enough?$"
 
 
 Route31_Text_ChicoPostBattle:
-	.string "PEGASO no solo es el mejor\n"
-	.string "entrenador de CIUDAD MALVA,\l"
-	.string "también es considerado como el\l"
-	.string "mayor maestro del TIPO VOLADOR que\l"
-	.string "existe en el mundo.\l"
-	.string "A su hijo, también llamado PEGASO,\l"
-	.string "aún le queda mucho por recorrer\l"
-	.string "para parecerse al padre.$"
+	.string "PEGASUS is not only the best trainer in\n"
+	.string "VIOLET CITY but is also regarded as the\l"
+	.string "greatest FLYING TYPE master in the\l"
+	.string "world. His son, named FALKNER, still has\l"
+	.string "a long way to go to resemble his father.$"
 
 
 VioletSprotTower_Text_PensadorIntro:
-	.string "Nuestro maestro demostró que\n"
-	.string "cualquier POKÉMON puede elevarse\l"
-	.string "por encima de un destino adverso.$"
+	.string "Our master showed that any POKÉMON can\n"
+	.string "rise above an adverse fate.$"
+
 
 
 VioletSprotTower_Text_PensadorDefeated:
-	.string "Oh, sí, estás para cotas elevadas...$"
+	.string "Oh, yes, you're made for high\n"
+	.string "scenaries...$"
+
 
 
 VioletSprotTower_Text_PensadorPostBattle:
-	.string "El BELLSPROUT de nuestro maestro\n"
-	.string "es el más poderoso que existe.\l"
-	.string "Dicen que es incluso más poderoso\l"
-	.string "que cualquier VICTREBEEL. Tal\l"
-	.string "nivel de desarrollo solo lo\l"
-	.string "obtienen los elegidos.$"
+	.string "Our master's BELLSPROUT is the most\n"
+	.string "powerful one that exists. They say it's\l"
+	.string "even mightier than any VICTREEBEL.\l"
+	.string "Such a level of development is only\l"
+	.string "achieved by the chosen ones.$"
+
 
 
 VioletSprotTowerP1_Text_PensadorIntro:
-	.string "Fue en este lugar donde nuestro\n"
-	.string "maestro desentrañó los misterios\l"
-	.string "de la armonía y la fuerza.$"
+	.string "Our teacher deciphered the secrets of\n"
+	.string "harmony and strength in this here.$"
+
 
 
 VioletSprotTowerP1_Text_PensadorDefeated:
@@ -11710,51 +11678,49 @@ VioletSprotTowerP1_Text_PensadorDefeated:
 
 
 VioletSprotTowerP1_Text_PensadorPostBattle:
-	.string "Este lugar desprende un aura que\n"
-	.string "va más allá de lo que puedas ver a\l"
-	.string "simple vista. ¿No lo sientes?$"
+	.string "This place emits an aura that surpasses\n"
+	.string "what you can perceive with just a\l"
+	.string "glance. Don't you feel it?$"
+
 
 
 VioletSprotTowerP1_Text_Pensador2Intro:
-	.string "Muévete como las hojas del\n"
-	.string "viento...$"
+	.string "Dance like the leaves in the wind...$"
 
 
 VioletSprotTowerP1_Text_Pensador2Defeated:
-	.string "¡No!\n"
-	.string "¡Has destapado mis debilidades!$"
+	.string "No! You've exposed my vulnerabilities!$"
 
 
 VioletSprotTowerP1_Text_Pensador2PostBattle:
-	.string "Quería imitar los pausados\n"
-	.string "movimientos de BELLSPROUT para\l"
-	.string "pelear... Pero no me entrené lo\l"
-	.string "suficiente.$"
+	.string "I wanted to emulate the measured\n"
+	.string "movements of BELLSPROUT in combat...\l"
+	.string "but I didn't train enough.$"
+
 
 
 VioletSprotTowerP2_Text_PensadorIntro:
-	.string "No existen POKÉMON fuertes o\n"
-	.string "débiles.\l"
-	.string "¡Solo voluntades firmes o\l"
-	.string "frágiles!$"
+	.string "There are no strong or weak POKÉMON.\n"
+	.string "Only firm or fragile wills!$"
+
 
 
 VioletSprotTowerP2_Text_PensadorDefeated:
-	.string "El agua pura no contiene peces.$"
+	.string "Fish are not present in pure water.$"
 
 
 VioletSprotTowerP2_Text_PensadorPostBattle:
-	.string "Que un simple BELLSPROUT haya\n"
-	.string "llegado tan alto es prueba de que\l"
-	.string "en última instancia las cosas\l"
-	.string "están más en nuestra mano de lo\l"
-	.string "que pudiera parecer.$"
+	.string "The fact a simple BELLSPROUT has\n"
+	.string "reached such heights is evidence that\l"
+	.string "ultimately things are more in our\l"
+	.string "control than it might seem.$"
+
 
 
 VioletSprotTowerP2_Text_Pensador2Intro:
-	.string "Ve con calma chico. El viaje\n"
-	.string "aporta la felicidad, no el\l"
-	.string "destino.$"
+	.string "Take it easy, kid. Happiness comes from\n"
+	.string "the journey.$"
+
 
 
 VioletSprotTowerP2_Text_Pensador2Defeated:
@@ -11763,16 +11729,16 @@ VioletSprotTowerP2_Text_Pensador2Defeated:
 
 
 VioletSprotTowerP2_Text_Pensador2PostBattle:
-	.string "Parece que eres de esos que saben\n"
-	.string "reconocer la vida en cada sorbo de\l"
-	.string "aire. Mi maestro estará encantado\l"
-	.string "de recibirte.$"
+	.string "It seems you're one of those who can\n"
+	.string "appreciate life in every breath of air.\l"
+	.string "My master will be delighted to welcome\l"
+	.string "you.$"
+
 
 
 VioletGym_Text_ChicoIntro:
-	.string "La mayoría de POKÉMON LEGENDARIOS\n"
-	.string "tienen por tipo secundario el\l"
-	.string "VOLADOR, ¿no lo sabías?$"
+	.string "Most LEGENDARY POKÉMON have FLYING as\n"
+	.string "their secondary type, didn't you know?$"
 
 
 
@@ -11781,19 +11747,18 @@ VioletGym_Text_ChicoDefeated:
 
 
 VioletGym_Text_ChicoPostBattle:
-	.string "Mi equipo no es suficiente para\n"
-	.string "batir a los mejores. Necesito aves\l"
-	.string "más fuertes aún, pero... tendré que\l"
-	.string "emprender un largo viaje,\l"
-	.string "tal y como hizo PEGASO.$"
+	.string "My team isn't sufficient to beat the\n"
+	.string "top ones. I need even stronger birds,\l"
+	.string "but... I'll have to undertake a long\l"
+	.string "journey, just like PEGASUS did.$"
 
 
 VioletGym_Text_Chico2Intro:
-	.string "Tienes suerte de haber llegado\n"
-	.string "ahora, podrás presenciar la\l"
-	.string "extraordinaria colección de aves\l"
-	.string "que PEGASO ha reunido a lo largo\l"
-	.string "de sus viajes.$"
+	.string "You're lucky to have arrived now; you'll\n"
+	.string "get to witness the extraordinary\l"
+	.string "collection of birds that PEGASUS has\l"
+	.string "gathered over the course of his\l"
+	.string "journeys.$"
 
 
 VioletGym_Text_Chico2Defeated:
@@ -11801,60 +11766,55 @@ VioletGym_Text_Chico2Defeated:
 
 
 VioletGym_Text_Chico2PostBattle:
-	.string "Uno de los POKÉMON de PEGASO es\n"
-	.string "incluso capaz de absorber la\l"
-	.string "electricidad.\l"
-	.string "¡El sueño de todo TIPO VOLADOR!$"
+	.string "One of PEGASUS's POKÉMON is even\n"
+	.string "capable of absorbing electricity. Every\l"
+	.string "FLYING TYPE POKÉMON dream!$"
+
 
 
 Route32_Text_ChicaIntro:
-	.string "Este lugar es ideal para montar un\n"
-	.string "campamento.\l"
-	.string "¿No crees?$"
+	.string "This place is ideal for a picnick. Don't\n"
+	.string "you think?$"
+
 
 
 Route32_Text_ChicaDefeated:
-	.string "Oh, mis pobres POKÉMON...$"
+	.string "Oh, my poor POKÉMON...$"
 
 
 Route32_Text_ChicaPostBattle:
-	.string "Estoy buscando un MAREEP salvaje,\n"
-	.string "me encantaría tener un AMPHAROS\l"
-	.string "igual que el que ilumina el FARO\l"
-	.string "de CIUDAD OLIVO.$"
+	.string "I'm looking for a wild MAREEP; I'd love to\n"
+	.string "have an AMPHAROS just like the one that\l"
+	.string "illuminates the OLIVINE CITY\l"
+	.string "Lighthouse.$"
 
 
 Route32_Text_ChicoIntro:
-	.string "Mis POKÉMON deberían de estar\n"
-	.string "listos para luchar.\l"
-	.string "¡En guardia!$"
+	.string "My POKÉMON should be ready. On guard!$"
 
 
 Route32_Text_ChicoDefeated:
-	.string "¿¡Cómo ha ocurrido!?$"
+	.string "How it happened?$"
 
 
 Route32_Text_ChicoPostBattle:
-	.string "Pensé que con NIDOKING podría\n"
-	.string "derrotarte. Antes una ENTRENADORA\l"
-	.string "GUAY me preguntó dónde lo\l"
-	.string "conseguí.$"
+	.string "I thought NIDOKING would help me in\n"
+	.string "battle. Earlier, a COOL TRAINER asked\l"
+	.string "where I got it.$"
 
 
 Route32_Text_PescadorIntro:
-	.string "¡Ajá!\n"
-	.string "¡Admira mi fantástica colección!$"
+	.string "Aha! Look at my fantastic collection!$"
 
 
 Route32_Text_PescadorDefeated:
-	.string "¡Mi TENTACRUEL se enredó!$"
+	.string "My TENTACRUEL got entangled!$"
 
 
 Route32_Text_PescadorPostBattle:
-	.string "Creo que necesito un GYARADOS en\n"
-	.string "mi equipo, se lo he visto al\l"
-	.string "PESCADOR de al lado y es una mala\l"
-	.string "bestia.$"
+	.string "A GYARADOS on my team would be great;\n"
+	.string "the fisherman here has one, and it's a\l"
+	.string "real beast.$"
 
 
 Route32_Text_Pescador2Intro:
