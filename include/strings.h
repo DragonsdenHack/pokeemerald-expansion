@@ -2860,6 +2860,17 @@ extern const u8 gText_PostgameKanto[];
 extern const u8 gText_PostgameKanto2[];
 extern const u8 gText_PostgameKanto3[];
 extern const u8 gText_PostgameKanto4[];
+extern const u8 gText_PostgameKanto5[];
+extern const u8 gText_PostgameKanto6[];
+extern const u8 gText_PostgameKanto7[];
+extern const u8 gText_PostgameKanto8[];
+extern const u8 gText_Final[];
+extern const u8 gText_ComoFunciona2[];
+extern const u8 gText_ComoFunciona3[];
+extern const u8 gText_ComoFunciona4[];
+extern const u8 gText_ComoFunciona5[];
+extern const u8 gText_ComoFunciona6[];
+extern const u8 gText_ComoFunciona7[];
 
 // Dodrio Berry Picking
 extern const u8 gText_BerryPickingRecords[];

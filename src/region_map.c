@@ -193,7 +193,7 @@ static const u16 sRegionMap_SpecialPlaceLocations[][2] =
     {MAPSEC_UNDERWATER_SOOTOPOLIS,      MAPSEC_SOOTOPOLIS_CITY},
     {MAPSEC_UNDERWATER_SEAFLOOR_CAVERN, MAPSEC_ROUTE_128},
     {MAPSEC_AQUA_HIDEOUT,               MAPSEC_LILYCOVE_CITY},
-    {MAPSEC_AQUA_HIDEOUT_OLD,           MAPSEC_ECRUTEAK_CITY},
+    {MAPSEC_AQUA_HIDEOUT_OLD,           MAPSEC_LILYCOVE_CITY},
     {MAPSEC_MAGMA_HIDEOUT,              MAPSEC_ROUTE_112},
     {MAPSEC_UNDERWATER_SEALED_CHAMBER,  MAPSEC_ROUTE_134},
     {MAPSEC_PETALBURG_WOODS,            MAPSEC_ROUTE_104},
@@ -201,7 +201,7 @@ static const u16 sRegionMap_SpecialPlaceLocations[][2] =
     {MAPSEC_MT_PYRE,                    MAPSEC_ROUTE_122},
     {MAPSEC_SKY_PILLAR,                 MAPSEC_ROUTE_131},
     {MAPSEC_MIRAGE_TOWER,               MAPSEC_ROUTE_111},
-    {MAPSEC_TRAINER_HILL,               MAPSEC_GOLDENROD_CITY},
+    {MAPSEC_TRAINER_HILL,               MAPSEC_ROUTE_111},
     {MAPSEC_DESERT_UNDERPASS,           MAPSEC_ROUTE_114},
     {MAPSEC_ALTERING_CAVE,              MAPSEC_ROUTE_103},
     {MAPSEC_ARTISAN_CAVE,               MAPSEC_ROUTE_103},
@@ -1235,13 +1235,6 @@ static void InitMapBasedOnPlayerLocation(void)
             gRegionMap->playerIsInCave = TRUE;
         break;
     case MAP_TYPE_UNDERGROUND:
-    		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNION_CAVE))
-        {
-			x = 18;
-			y = 14;
-			gMapHeader.region == REGION_JOHTO;	
-		}
-        break;
     case MAP_TYPE_UNKNOWN:
         if (gMapHeader.allowEscaping)
         {
@@ -1392,39 +1385,23 @@ static void InitMapBasedOnPlayerLocation(void)
 			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
-	case MAPSEC_BLACKTHORN_CITY:
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S1))
+
+	case MAPSEC_GOLDENROD_CITY:
+		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(CUEVA_GIMNASIO_TRIGAL))
         {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;	
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S2))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S3))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S4))
-        {
-			x = 24;
-			y = 3;
+			x = 15;
+			y = 9;
 			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
 	case MAPSEC_UNDERGROUND_PATH:
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S1))
+        x = 14;
+        y = 7;
+        if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNDERGROUND_PATH_1F))
         {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;	
-		}
+            x = 14; // optimized out but required to match
+            y = 5;
+        }
         break;
 	case MAPSEC_UNDERGROUND_PATH_2:
         x = 14;
