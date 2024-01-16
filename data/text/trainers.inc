@@ -12428,57 +12428,50 @@ Route35_Text_ChicaDefeated:
 
 
 Route35_Text_ChicaPostBattle:
-	.string "Tienes pinta de tener muchos\n"
-	.string "proyectos entre manos, una pausa en\l"
-	.string "el PARQUE NACIONAL te vendrá\l"
-	.string "bien.$"
+	.string "It seems you're handling several\n"
+	.string "projects; a break in NATIONAL PARK will\l"
+	.string "be beneficial for you.$"
 
 
 Route35_Text_ChicoIntro:
-	.string "Ver crecer a los árboles es mi\n"
-	.string "pasatiempo favorito.\l"
-	.string "¡Pero también me gusta combatir!$"
+	.string "My favorite pastime is observing trees\n"
+	.string "grow. However, I also enjoy battling!$"
 
 
 Route35_Text_ChicoDefeated:
-	.string "Los tuyos sí que han recibido un\n"
-	.string "buen entrenamiento...$"
+	.string "Yours have been trained well...$"
 
 
 Route35_Text_ChicoPostBattle:
-	.string "No todo es cuestión de fuerza en\n"
-	.string "lo que respecta a los POKÉMON.\l"
-	.string "También hay que preocuparse de\l"
-	.string "potenciar algún aspecto concreto\l"
-	.string "de su personalidad.$"
+	.string "It's not all about strength in terms of\n"
+	.string "POKÉMON. You also need to consider\l"
+	.string "boosting specific aspects of their\l"
+	.string "personality.$"
 
 
 Route36_Text_ChicaIntro:
-	.string "Me alejé de TRIGAL en busca de\n"
-	.string "buenos combates, las chicas de\l"
-	.string "allí solo hablan de qué POKÉMON es\l"
-	.string "más guapo.\l"
-	.string "¡Yo quiero combatir!$"
+	.string "I left GOLDENROD in search of good\n"
+	.string "battles; the girls there only talk about\l"
+	.string "which POKÉMON is more cute.$"
 
 
 Route36_Text_ChicaDefeated:
-	.string "¡Oh, qué gran combate!$"
+	.string "Oh, what a great battle!$"
 
 
 Route36_Text_ChicaPostBattle:
-	.string "Esas chicas han arruinado el\n"
-	.string "GIMNASIO de TRIGAL, esa LÍDER me\l"
-	.string "enseñó muchas cosas útiles para el\l"
-	.string "combate. Ahora solo se hablará de\l"
-	.string "POKÉMON monos y guays en ese\l"
-	.string "GIMNASIO, no creo que vuelva.$"
+	.string "Those girls have ruined the GOLDENROD\n"
+	.string "GYM; that LEADER taught me many useful\l"
+	.string "things for battle. Now, they'll only talk\l"
+	.string "about cute and cool Pokémon in that\l"
+	.string "GYM; I don't think I'll go back.$"
+
 
 
 Route36_Text_SabioIntro:
-	.string "Desde aquí ya puede verse la\n"
-	.string "legendaria TORRE CAMPANA de CIUDAD\l"
-	.string "IRIS.\l"
-	.string "¿Vas a visitarla?$"
+	.string "From here, you can already see the\n"
+	.string "legendary TIN TOWER of ECRUTEAK CITY.\l"
+	.string "Are you going to visit it?$"
 
 
 Route36_Text_SabioDefeated:
@@ -12486,141 +12479,128 @@ Route36_Text_SabioDefeated:
 
 
 Route36_Text_SabioPostBattle:
-	.string "Algunos de los mayores sabios de\n"
-	.string "JOHTO están en CIUDAD IRIS, seguro\l"
-	.string "que puedes aprender mucho de\l"
-	.string "ellos.$"
+	.string "Some of the greatest sages in JOHTO\n"
+	.string "are in ECRUTEAK; you can surely learn a\l"
+	.string "lot from them.$"
 
 
 Route37_Text_ChicaIntro:
-	.string "Perdona, pero quisiera ver si\n"
-	.string "sabes entrenar a tus POKÉMON como\l"
-	.string "se debe.$"
+	.string "Excuse me, but I would like to see if you\n"
+	.string "know how to train your POKÉMON\l"
+	.string "properly.$"
 
 
 Route37_Text_ChicaDefeated:
-	.string "Pues sí, los entrenas muy bien.$"
+	.string "Indeed, you train them quite well.$"
 
 
 Route37_Text_ChicaPostBattle:
-	.string "Hay que criar a los POKÉMON\n"
-	.string "teniendo en cuenta su\l"
-	.string "personalidad.$"
+	.string "POKÉMON should be raised considering\n"
+	.string "their personality.$"
 
 
 Route37_Text_JuglarIntro:
-	.string "¿Vas hacia CIUDAD IRIS?\n"
-	.string "¡Voy a dar un espectáculo en el\l"
-	.string "TEATRO DE LA DANZA!\l"
-	.string "¿Quieres verlo?$"
+	.string "Are you going to ECRUTEAK? I'll be\n"
+	.string "putting on a show at the DANCE\l"
+	.string "THEATER! Would you like to watch?$"
 
 
 Route37_Text_JuglarDefeated:
-	.string "El plan era dar yo el\n"
-	.string "espectáculo...$"
+	.string "I was supposed to be the one putting on\n"
+	.string "the show...$"
 
 
 Route37_Text_JuglarPostBattle:
-	.string "CIUDAD IRIS es mi favorita de la\n"
-	.string "región, el aire a historia y\l"
-	.string "tradición que allí se respira es\l"
-	.string "único.$"
+	.string "ECRUTEAK CITY is my favorite among the\n"
+	.string "cities in the region; the ambiance of\l"
+	.string "history and tradition is truly special.$"
 
 
 NationalPark_Text_CazabichosIntro:
-	.string "¡Este lugar es el sueño de\n"
-	.string "cualquier CAZABICHOS!\l"
-	.string "¡Mis bichos aquí rebosan de\l"
-	.string "energía!$"
+	.string "This place is a bug enthusiast's dream!\n"
+	.string "My bugs here are full of energy!$"
 
 
 NationalPark_Text_CazabichosDefeated:
-	.string "¡Ahhg, me has quemado!$"
+	.string "Ahh, you've scorched me!$"
 
 
 NationalPark_Text_CazabichosPostBattle:
-	.string "Por aquí viene a veces un tal\n"
-	.string "ANTÓN, dice que quiere convertirse\l"
-	.string "en el mejor CAZABICHOS de JOHTO y\l"
-	.string "ser LÍDER DE GIMNASIO.\l"
-	.string "¡Qué iluso!$"
+	.string "A guy named BUGSY comes around here\n"
+	.string "sometimes; he says he wants to become\l"
+	.string "the best BUG CATCHER in JOHTO and be a\l"
+	.string "GYM LEADER. What a dreamer!$"
 
 
 NationalPark_Text_GuardaIntro:
-	.string "¿Sabes cuál es mi trabajo?\n"
-	.string "Asegurarme de que gente como tú no\l"
-	.string "ensucia este lugar.$"
+	.string "Are you aware of my job? It's to ensure\n"
+	.string "that people like you don't dirty up this\l"
+	.string "place.$"
 
 
 NationalPark_Text_GuardaDefeated:
-	.string "¡Mis exóticos POKÉMON!$"
+	.string "My exotic POKÉMON!$"
 
 
 NationalPark_Text_GuardaPostBattle:
-	.string "Tú sí tienes pinta de respetar la\n"
-	.string "naturaleza a pesar de ser alguien\l"
-	.string "importante. Algunos altos cargos\l"
-	.string "de la TORRE RADIO que vienen por\l"
-	.string "aquí creen que pueden hacer lo que\l"
-	.string "quieran.$"
+	.string "You look like you respect nature\n"
+	.string "despite being someone important. Some\l"
+	.string "high-ranking individuals from the RADIO\l"
+	.string "TOWER who come through here think they\l"
+	.string "can do whatever they please.$"
 
 
 NationalPark_Text_ChicoIntro:
-	.string "Dicen que quieren organizar\n"
-	.string "concursos de captura de bichos\l"
-	.string "aquí.\l"
-	.string "¡Creo que me apuntaré!$"
+	.string "It's said they're looking to set up\n"
+	.string "bug-catching contests here. I'm\l"
+	.string "considering taking part!$"
 
 
 NationalPark_Text_ChicoDefeated:
-	.string "¡Un par de POKÉMON más y te habría\n"
-	.string "ganado!$"
+	.string "With a couple more POKÉMON, I would\n"
+	.string "have won!$"
 
 
 NationalPark_Text_ChicoPostBattle:
-	.string "Cuando compita en el concurso de\n"
-	.string "captura de bichos intentaré\l"
-	.string "atrapar un PINSIR. Siempre quise\l"
-	.string "tener uno.$"
+	.string "When I compete in the bug-catching\n"
+	.string "contest, I'll try to catch a PINSIR. I've\l"
+	.string "always wanted to have one.$"
 
 
 EcruteakGym_Text_SabioIntro:
-	.string "Solo unos pocos pueden optar a las\n"
-	.string "enseñanzas del maestro.$"
+	.string "Only a select few can aspire to the\n"
+	.string "teachings of the master.$"
 
 
 EcruteakGym_Text_SabioDefeated:
-	.string "Sigue tu camino pues.$"
+	.string "Keep your journey.$"
 
 
 EcruteakGym_Text_SabioPostBattle:
-	.string "El TIPO FANTASMA es nuestra\n"
-	.string "especialidad, pero también nos\l"
-	.string "gusta el TIPO PSÍQUICO, incluso el\l"
-	.string "SINIESTRO.$"
+	.string "Our specialty is GHOST TYPE, but we also\n"
+	.string "have an appreciation for PSYCHIC TYPE,\l"
+	.string "and even DARK TYPE.$"
 
 
 EcruteakGym_Text_Sabio2Intro:
-	.string "¡La gran ave que iluminó CIUDAD\n"
-	.string "IRIS algún día volverá!$"
+	.string "Someday, the magnificent bird that lit\n"
+	.string "up ECRUTEAK will return!$"
 
 
 EcruteakGym_Text_Sabio2Defeated:
-	.string "¡Qué resplandor!$"
+	.string "Flashed!$"
 
 
 EcruteakGym_Text_Sabio2PostBattle:
-	.string "Nuestro maestro es una de las\n"
-	.string "poquísimas personas vivas que han\l"
-	.string "llegado a ver al LEGENDARIO HO-OH.\l"
-	.string "Dice que su destino es verlo una\l"
-	.string "última vez antes de dejar este\l"
-	.string "mundo.$"
+	.string "Our master is one of the very few living\n"
+	.string "people who have seen the LEGENDARY\l"
+	.string "HO-OH. He says his destiny is to see it\l"
+	.string "one last time before leaving this world.$"
 
 
 EcruteakGym_Text_ExorcistaIntro:
-	.string "¡Vine desde PUEBLO LAVANDA solo\n"
-	.string "por este GIMNASIO TIPO FANTASMA!$"
+	.string "I made the journey from LAVENDER TOWN\n"
+	.string "only for this GHOST TYPE GYM!$"
 
 
 EcruteakGym_Text_ExorcistaDefeated:
@@ -12628,17 +12608,15 @@ EcruteakGym_Text_ExorcistaDefeated:
 
 
 EcruteakGym_Text_ExorcistaPostBattle:
-	.string "A pesar de estar tan lejos, la\n"
-	.string "energía que puedo sentir en este\l"
-	.string "lugar es muy similar a la de\l"
-	.string "PUEBLO LAVANDA.$"
+	.string "Even though it's quite distant, the\n"
+	.string "energy I sense in this location is very\l"
+	.string "reminiscent of LAVENDER TOWN.$"
 
 
 EcruteakGym_Text_Exorcista2Intro:
-	.string "Vine desde PUEBLO LAVANDA porque\n"
-	.string "decían que aquí estaba el mayor\l"
-	.string "especialista en el TIPO FANTASMA.\l"
-	.string "¡Más aún que AGATHA!$"
+	.string "I came from LAVENDER TOWN because it's\n"
+	.string "said the greatest specialist in GHOST\l"
+	.string "TYPE is here. Even more than AGATHA!$"
 
 
 EcruteakGym_Text_Exorcista2Defeated:
@@ -12646,38 +12624,35 @@ EcruteakGym_Text_Exorcista2Defeated:
 
 
 EcruteakGym_Text_Exorcista2PostBattle:
-	.string "El maestro de la TORRE CAMPANA es\n"
-	.string "sensacional, aunque ya se le ve\l"
-	.string "mayor.$"
+	.string "The master of the TIN TOWER is\n"
+	.string "sensational, although he already looks\l"
+	.string "older.$"
 
 
 BurnedTower_Text_ChicoIntro:
-	.string "Después de casi 150 años, no\n"
-	.string "hay consenso sobre lo ocurrido\l"
-	.string "aquí.\l"
-	.string "¿Quieres saber qué paso?$"
+	.string "Nearly 150 years after, there is no\n"
+	.string "consensus on what happened here. Do\l"
+	.string "you want to know what happened?$"
 
 
 BurnedTower_Text_ChicoDefeated:
-	.string "¡Tranquilo!\n"
-	.string "¡No queremos otro incendio, mi\l"
-	.string "WEEZING va a explotar!$"
+	.string "Relax! We don't want another fire; my\n"
+	.string "WEEZING is going to explode!$"
 
 
 BurnedTower_Text_ChicoPostBattle:
-	.string "Algunos dicen que el incendio de\n"
-	.string "TORRE QUEMADA fue provocado por el\l"
-	.string "hombre. Otros que fue un rayo el\l"
-	.string "que quemó la torre. Fuera como fuera,\l"
-	.string "ese día el POKÉMON que\l"
-	.string "aquí reposaba perdió la confianza\l"
-	.string "en CIUDAD IRIS.$"
+	.string "Some say BURN TOWER fire was caused by\n"
+	.string "man. Others say it was a lightning bolt\l"
+	.string "that burned the tower. Either way, on\l"
+	.string "that day, the POKÉMON resting here lost\l"
+	.string "trust in ECRUTEAK CITY.$"
 
 
 Route38_Text_CalvoIntro:
-	.string "Estaría bien crear una asociación\n"
-	.string "en JOHTO igual que la de\l"
-	.string "MOTORISTAS de FUCSIA, ¿no crees?$"
+	.string "Creating an association in JOHTO,\n"
+	.string "similar to the BIKERS' association in\l"
+	.string "FUCHSIA, would be a great idea, don't\l"
+	.string "you think?$"
 
 
 Route38_Text_CalvoDefeated:
@@ -12686,38 +12661,34 @@ Route38_Text_CalvoDefeated:
 
 
 Route38_Text_CalvoPostBattle:
-	.string "Estoy harto de mendigar por los\n"
-	.string "subterráneos de TRIGAL, iré a\l"
-	.string "CIUDAD OLIVO a ver si me contratan\l"
-	.string "de MARINERO. He oído que cada vez\l"
-	.string "atracan más barcos en su puerto.$"
+	.string "I'm tired of begging in the TRIGAL\n"
+	.string "subways; I'll go to OLIVINE CITY to see\l"
+	.string "if they'll hire me as a SAILOR. I've\l"
+	.string "heard that more ships are docking in\l"
+	.string "their port.$"
 
 
 Route38_Text_PintoraIntro:
-	.string "Mmm...\n"
-	.string "Me has echado a perder el encuadre\l"
-	.string "de GRANJA MU-MU que estaba\l"
-	.string "buscando.\l"
-	.string "¡Págamelo con un combate!$"
+	.string "Hmm... You've ruined the shot of MOO-MOO\n"
+	.string "FARM that I was looking for. Make it up\l"
+	.string "to me with a battle!$"
 
 
 Route38_Text_PintoraDefeated:
-	.string "¡Mis POKÉMON también se han echado\n"
-	.string "a perder!$"
+	.string "My POKÉMON have also been ruined!$"
 
 
 Route38_Text_PintoraPostBattle:
-	.string "En KANTO es muy difícil ver\n"
-	.string "paisajes y lugares abiertos como\l"
-	.string "este. La RUTA 13 creo que es la\l"
-	.string "excepción, por eso se llena de\l"
-	.string "ORNITÓLOGOS.$"
+	.string "In KANTO, it's not easy to find open\n"
+	.string "landscapes and places like this. I think\l"
+	.string "ROUTE 13 is the exception, and that's\l"
+	.string "why it attracts BIRD KEEPERS.$"
 
 
 Route38_Text_ChicoIntro:
-	.string "Tú no eres de por aquí, ¿verdad?\n"
-	.string "Esa forma de pisar la hierba alta\l"
-	.string "denota poco respeto por el medio.$"
+	.string "You're not from here, right? The way you\n"
+	.string "tread on tall grass suggests no\l"
+	.string "respect for the environment.$"
 
 
 Route38_Text_ChicoDefeated:
@@ -12725,37 +12696,33 @@ Route38_Text_ChicoDefeated:
 
 
 Route38_Text_ChicoPostBattle:
-	.string "Ten cuidado por estas rutas,\n"
-	.string "puedes encontrar a TAUROS y\l"
-	.string "MILTANK. En estado salvaje son muy\l"
-	.string "bravos y agresivos.$"
+	.string "Watch out on these routes; you could\n"
+	.string "encounter TAUROS and MILTANK. In their\l"
+	.string "natural habitat, they are very bold and\l"
+	.string "aggressive.$"
 
 
 Route39_Text_OrnitologoIntro:
-	.string "Esta ruta es ideal para entrenar a\n"
-	.string "mis aves.\l"
-	.string "¡Al acabar, compramos LECHE MU-MU, y\l"
-	.string "como nuevos!$"
+	.string "This route is ideal for training my\n"
+	.string "birds. After finishing, we buy MOO-MOO\l"
+	.string "MILK, and we're refreshed!$"
 
 
 Route39_Text_OrnitologoDefeated:
-	.string "Of...\n"
-	.string "Creo que necesitaré comprar una\l"
-	.string "ración extra.$"
+	.string "Oh... I believe I'll have to purchase an\n"
+	.string "additional ration.$"
 
 
 Route39_Text_OrnitologoPostBattle:
-	.string "Algunos ORNITÓLOGOS puristas dicen\n"
-	.string "que debería quitar a YANMEGA de mi\l"
-	.string "equipo, ¡creo que me tienen\l"
-	.string "envidia porque no saben cómo\l"
-	.string "conseguirlo!$"
+	.string "Certain BIRD KEEPERS suggest that I\n"
+	.string "should remove YANMEGA from my team. I\l"
+	.string "believe they envy me because they\l"
+	.string "don't know how to obtain it!$"
 
 
 Route39_Text_MarineroIntro:
-	.string "Van a dar una fiesta de\n"
-	.string "inauguración del PUERTO OLIVO.\l"
-	.string "¿Irás?$"
+	.string "An opening event for OLIVINE PORT is\n"
+	.string "happening. Are you going?$"
 
 
 Route39_Text_MarineroDefeated:
