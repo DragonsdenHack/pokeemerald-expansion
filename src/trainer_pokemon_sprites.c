@@ -361,16 +361,16 @@ u16 PlayerGenderToFrontTrainerPicId_Debug(u8 gender, bool8 getClass)
 				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ALTO_RANGO];
 				break;
 			case EJECUTIVO:
-				gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_EJECUTIVO];
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_EJECUTIVO];
 				break;
 			case ADMIN:
-				gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN];
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN];
 				break;
 			case ADMIN_JEFE:
-				gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN_JEFE];
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN_JEFE];
 				break;
 			case ADMIN_JEFE2:
-				gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN_JEFE2];
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN_JEFE2];
 				break;
 		}
    }

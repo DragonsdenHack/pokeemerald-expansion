@@ -1385,32 +1385,7 @@ static void InitMapBasedOnPlayerLocation(void)
 			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
-	case MAPSEC_BLACKTHORN_CITY:
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S1))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;	
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S2))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S3))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S4))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		break;
+
 	case MAPSEC_GOLDENROD_CITY:
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(CUEVA_GIMNASIO_TRIGAL))
         {

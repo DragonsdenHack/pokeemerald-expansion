@@ -1,9 +1,20 @@
 CeladonCity_MapScripts::
 map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_OnTransition
+map_script MAP_SCRIPT_ON_RESUME, CeladonCity_OnResume
 	.byte 0
 
 CeladonCity_OnTransition::
 setflag FLAG_VISITED_CELADON_CITY
+end
+
+CeladonCity_OnResume::
+goto_if_set FLAG_ENTERED_MIRAGE_TOWER, ScriptSaveForzado
+clearflag FLAG_HIDE_MAP_NAME_POPUP
+end
+
+ScriptSaveForzado::
+callnative ForcedSaveGame
+clearflag FLAG_ENTERED_MIRAGE_TOWER
 end
 
 CeladonCity1::

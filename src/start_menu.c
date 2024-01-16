@@ -932,6 +932,22 @@ void SaveGame(void)
     CreateTask(SaveGameTask, 0x50);
 }
 
+static void InitForcedSave(void)
+{
+    SaveMapView();
+	sSaveDialogCallback = SaveSavingMessageCallback;
+    sSavingComplete = FALSE;	
+}
+
+void ForcedSaveGame(void)
+{
+    ShowSaveInfoWindow();
+    InitForcedSave();
+    CreateTask(SaveGameTask, 0x50);
+}
+
+
+
 static void ShowSaveMessage(const u8 *message, u8 (*saveCallback)(void))
 {
     StringExpandPlaceholders(gStringVar4, message);
@@ -1157,7 +1173,8 @@ static u8 SaveReturnSuccessCallback(void)
 {
     if (!IsSEPlaying() && SaveSuccesTimer())
     {
-        HideSaveInfoWindow();
+        HideSaveMessageWindow();
+		HideSaveInfoWindow();
         return SAVE_SUCCESS;
     }
     else
@@ -1379,12 +1396,22 @@ static void ShowSaveInfoWindow(void)
     DrawStdWindowFrame(sSaveInfoWindowId, FALSE);
 
     gender = gSaveBlock2Ptr->playerGender;
-    color = TEXT_COLOR_RED;  // Red when female, blue when male.
+    /* color = TEXT_COLOR_RED;  // Red when female, blue when male.
 
     if (gender == MALE)
     {
         color = TEXT_COLOR_BLUE;
-    }
+    } */
+	switch (gender){
+		case MALE:
+		case FEMALE:
+		case EJECUTIVO:
+		case ADMIN:
+		case ADMIN_JEFE:
+		case ADMIN_JEFE2:
+			color = TEXT_COLOR_BLUE;
+		break;
+	}
 
     // Print region name
     yOffset = 1;

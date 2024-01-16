@@ -1959,10 +1959,10 @@ const u8 gText_RecordBattleToPass[] = _("Would you like to record your battle\no
 const u8 gText_BattleRecordedOnPass[] = _("{B_PLAYER_NAME}'s battle result was recorded\non the FRONTIER PASS.");
 static const u8 sText_LinkTrainerWantsToBattlePause[] = _("{B_LINK_OPPONENT1_NAME}\nwants to battle!{PAUSE 49}");
 static const u8 sText_TwoLinkTrainersWantToBattlePause[] = _("{B_LINK_OPPONENT1_NAME} and {B_LINK_OPPONENT2_NAME}\nwant to battle!{PAUSE 49}");
-static const u8 sText_Your1[] = _("Tu");
-static const u8 sText_Opposing1[] = _("El contrario");
-static const u8 sText_Your2[] = _("Tu");
-static const u8 sText_Opposing2[] = _("El contrario");
+static const u8 sText_Your1[] = _("amigo");
+static const u8 sText_Opposing1[] = _("contrario");
+static const u8 sText_Your2[] = _("amigo");
+static const u8 sText_Opposing2[] = _("contrario");
 
 // This is four lists of moves which use a different attack string in Japanese
 // to the default. See the documentation for ChooseTypeOfMoveUsedString for more detail.

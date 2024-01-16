@@ -12,9 +12,16 @@
 	ALIGNED(4) const u8 gText_PostgameKanto3[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 63.");
 	ALIGNED(4) const u8 gText_PostgameKanto4[] = _("Ten en cuenta que esta acción\nno se puede revertir, ¿de acuerdo?");
 	ALIGNED(4) const u8 gText_PostgameKanto5[] = _("En este punto, inician los eventos de Johto.\nHe aquí una lista de los cambios:");
-	ALIGNED(4) const u8 gText_PostgameKanto6[] = _("-Tu equipo Pokémon se eliminará,\npudiendo escoger 10 Pokémon a la carta, nivel 78.");
-	ALIGNED(4) const u8 gText_PostgameKanto7[] = _("Descubrimos una Kanto y Johto diferente.\nHe aquí una lista de los cambios:");
-	ALIGNED(4) const u8 gText_PostgameKanto8[] = _("-Tu equipo Pokémon se eliminará,\npudiendo escoger 10 Pokémon a la carta, nivel 98.");
+	ALIGNED(4) const u8 gText_PostgameKanto6[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 77.");
+	ALIGNED(4) const u8 gText_PostgameKanto7[] = _("Descubrimos una Kanto y Johto diferentes.\nHe aquí una lista de los cambios:");
+	ALIGNED(4) const u8 gText_PostgameKanto8[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 98.");
+	ALIGNED(4) const u8 gText_Final[] = _("Proceso finalizado…\nRecuerda acudir al despacho de Giovanni.");
+	ALIGNED(4) const u8 gText_ComoFunciona2[] = _("Está a tu disposición diferentes packs\ncon una temática Pokémon.");
+	ALIGNED(4) const u8 gText_ComoFunciona3[] = _("Todos los Pokémon han sido escogidos\ncuidadosamente,");
+	ALIGNED(4) const u8 gText_ComoFunciona4[] = _("con un mov. huevo ó especial,\nun mov. por MT,");
+	ALIGNED(4) const u8 gText_ComoFunciona5[] = _("un mov. característico y\nun mov. arriesgado.");
+	ALIGNED(4) const u8 gText_ComoFunciona6[] = _("Además, dependiendo que punto\nselecciones para empezar, los movimientos");
+	ALIGNED(4) const u8 gText_ComoFunciona7[] = _("variarán.\n¡Encuentra tu punto de partida ideal!");
     
 ALIGNED(4)
 const u8 gText_ExpandedPlaceholder_Empty[] = _("");
@@ -546,7 +553,7 @@ const u8 gText_XNatureFatefulEncounter[] = _(
 
 const u8 gText_XNatureProbablyMetAt[] = _(
     "Naturaleza {DYNAMIC 0x00}{DYNAMIC 0x02}{DYNAMIC 0x01}{DYNAMIC 0x05}{DYNAMIC 0x06}{DYNAMIC 0x07},\n"
-    "visto, según parece, al {LV_2}{DYNAMIC 0x00}{DYNAMIC 0x03}{DYNAMIC 0x01},\n{DYNAMIC 0x00}{DYNAMIC 0x04}{DYNAMIC 0x01}.");
+    "visto, según parece,\nal {LV_2}{DYNAMIC 0x00}{DYNAMIC 0x03}{DYNAMIC 0x01} en {DYNAMIC 0x00}{DYNAMIC 0x04}{DYNAMIC 0x01}.");
 
 const u8 gText_XNature[] = _("Naturaleza {DYNAMIC 0x00}{DYNAMIC 0x02}{DYNAMIC 0x01}{DYNAMIC 0x05}{DYNAMIC 0x06}{DYNAMIC 0x07}");
 
