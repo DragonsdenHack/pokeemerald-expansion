@@ -66,68 +66,58 @@ release
 end
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_1:
-.string "¿Tienes algún problema conmigo\n"
-	.string "ROCKET?\l"
-	.string "Alguien como tú jamás podrá\l"
-	.string "permitirse estar en una MANSIÓN\l"
-	.string "como esta.\l"
-	.string "¡Largo de aquí antes de que pierda\l"
-	.string "la paciencia y aplaste a tus\l"
-	.string "miserables POKÉMON!$"
+	.string "Gotta problem, ROCKET? Someone like\n"
+	.string "you won't ever be able to afford a\l"
+	.string "mansion like this. Get out of here\l"
+	.string "before I lose my patience and crush\l"
+	.string "your miserable POKÉMON!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_2:
-.string "Tienes mi palabra, ese GURÚ y esa\n"
-	.string "CAÑA VIEJA ya no existen para mi.$"
+	.string "You got my word, that FISHERMAN and his\n"
+	.string "OLD ROD don't longer exist for me.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_3:
 .string "...\n"
 	.string "...$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4:
-.string "¿¡Te envía el GURÚ PESCADOR de\n"
-	.string "CARMÍN para ajustar cuentas por mi\l"
-	.string "difamación sobre su CAÑA VIEJA?!\l"
-	.string "¿Qué clase de broma es esta?$"
+	.string "Does the FISHERMAN GURU of VERMILION\n"
+	.string "CITY send you to settle scores for my\l"
+	.string "defamation about his OLD ROD? What\l"
+	.string "kind of joke is this?$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_5:
-.string "Alguien como tú no tiene nada que\n"
-	.string "hacer contra mis POKÉMON hechos\l"
-	.string "para dar espectáculo, no eres\l"
-	.string "nadie siquiera dentro de esa\l"
-	.string "organización.\l"
-	.string "¿Qué vas a hacer?\l"
-	.string "¿Usar MORDISCO con tu ZUBAT de\l"
-	.string "papel que de un solo golpe caerá a\l"
-	.string "poco que ordene a mi SANDSLASH\l"
-	.string "usar CUCHILLADA?$"
+	.string "Someone like you can't do anything\n"
+	.string "against my POKÉMON, raised for giving a\l"
+	.string "good show. You're no one even in this\l"
+	.string "organization. What are you gonna do?\l"
+	.string "Use BITE with your paper ZUBAT that\l"
+	.string "will be ONE-SHOT as soon as I order my\l"
+	.string "SANDSLASH crush you with his SLASH?$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_6:
-.string "Todavía estás a tiempo de\n"
-	.string "rectificar, tienes suerte de que\l"
-	.string "hoy he tenido un buen día y estoy\l"
-	.string "dispuesto a hacer la vista gorda y\l"
-	.string "olvidar tu insolencia.$"
+	.string "You can still change your mind, you're\n"
+	.string "lucky that I've had a good day and I'll be\l"
+	.string "willingly to forget your insolence.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_7:
-.string "Parece que aún quedan ROCKETS con\n"
-	.string "cerebro, desaparece antes de que\l"
-	.string "cambie de opinión.$"
+	.string "It seems there are still ROCKETS with\n"
+	.string "brains, vanish here before I change my\l"
+	.string "mind.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_8:
-.string "Has acabado con mi paciencia, te\n"
-	.string "devolveré directo al lugar que\l"
-	.string "te pertence.\l"
-	.string "¡Las cloacas de CIUDAD AZULONA!$"
+	.string "You've tried my tolerance, I will send\n"
+	.string "you straight back to where you belong.\l"
+	.string "The sewers of CELADON CITY!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_9:
-.string "¡SANDSLASH, ARBOK!\n"
-	.string "¡SEGUID PELEANDO!$"
+.string "SANDSLASH, ARBOK!\n"
+	.string "KEEP FIGHTING!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_10:
-.string "Grrrrr...\n"
-	.string "No contaba con que un ROCKET\l"
-	.string "pudiera ser tan fuerte, ese GURÚ\l"
-	.string "ha tenido suerte de dar contigo.$"
+	.string "Grrrrr... I didn't expect a ROCKET GRUNT\n"
+	.string "could be so strong, that FISHERMAN has\l"
+	.string "been lucky to come across you.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_11:
 .string "¿¡Cómo?!\n"

@@ -11818,8 +11818,8 @@ Route32_Text_PescadorPostBattle:
 
 
 Route32_Text_Pescador2Intro:
-	.string "¡Mis fieros POKÉMON te harán pedir\n"
-	.string "clemencia!$"
+	.string "You'll be crying for mercy against my\n"
+	.string "fierce POKÉMON!$"
 
 
 Route32_Text_Pescador2Defeated:
@@ -11832,10 +11832,9 @@ Route32_Text_Pescador2PostBattle:
 
 
 Route32_Text_Pescador3Intro:
-	.string "El truco para una buena pesca está\n"
-	.string "en el cebo, ¡aunque si no estás en\l"
-	.string "el lugar adecuado no conseguirás\l"
-	.string "nada!$"
+	.string "The secret to a good fishing is in the\n"
+	.string "bait, but if you're not in the right\l"
+	.string "place, you won't get anything!$"
 
 
 Route32_Text_Pescador3Defeated:
@@ -11843,53 +11842,48 @@ Route32_Text_Pescador3Defeated:
 
 
 Route32_Text_Pescador3PostBattle:
-	.string "Un amigo de KANTO me regaló un\n"
-	.string "SHELLDER, ahora CLOYSTER. De lo\l"
-	.string "contrario, no sabría dónde\l"
-	.string "encontrarlos en JOHTO.$"
+	.string "A friend from KANTO gave me a SHELLDER,\n"
+	.string "now it's a CLOYSTER. Otherwise, I\l"
+	.string "wouldn't know where to find them in\l"
+	.string "JOHTO.$"
 
 
 Route32_Text_MecanicoIntro:
-	.string "¡Eh, tú!\n"
-	.string "¡Cuidado con esos cables!$"
+	.string "Hey, you! Watch out for those cables!$"
 
 
 Route32_Text_MecanicoDefeated:
-	.string "¡Tranquilo, era solo una broma,\n"
-	.string "aquí no hay cables!$"
+	.string "Relax, it was just a joke; there are no\n"
+	.string "cables here!$"
 
 
 Route32_Text_MecanicoPostBattle:
-	.string "Vine para arreglar un problema con\n"
-	.string "las luces del GIMNASIO de CIUDAD\l"
-	.string "MALVA, pero me gusta pasear por\l"
-	.string "este lugar. Me quedaré.$"
+	.string "I came to fix an issue with the VIOLET\n"
+	.string "CITY GYM lights, but I love this place.\l"
+	.string "I'll stay here.$"
 
 
 Route32_Text_GuayIntro:
-	.string "He oído rumores de un misterioso\n"
-	.string "POKÉMON que duerme en lo más\l"
-	.string "profundo de la CUEVA UNIÓN.\l"
-	.string "¿Sabes algo?$"
+	.string "There are rumors about a mysterious\n"
+	.string "POKÉMON, sleeping at the end of UNION\l"
+	.string "CAVE. Do you have any information?$"
 
 
 Route32_Text_GuayDefeated:
-	.string "Esos POKÉMON, ¿de dónde han\n"
-	.string "salido?$"
+	.string "Where did those POKÉMON come from?$"
 
 
 Route32_Text_GuayPostBattle:
-	.string "Los ENTRENADORES GUAY vamos en\n"
-	.string "busca de los mejores POKÉMON para\l"
-	.string "distinguirnos del resto de\l"
-	.string "ENTRENADORES.$"
+	.string "COOL TRAINERS are on the lookout for\n"
+	.string "the best POKÉMON to distinguish\l"
+	.string "ourselves from other TRAINERS.$"
+
 
 
 UnionCave_Text_MontaneroIntro:
-	.string "Ejem...\n"
-	.string "¿No sabrás por casualidad dónde\l"
-	.string "encontrar un RHYHORN?\l"
-	.string "Me gustaría tener un RHYDON.$"
+	.string "Um... Do you know where to find a\n"
+	.string "RHYHORN? I'd like to get a RHYDON.$"
+
 
 
 UnionCave_Text_MontaneroDefeated:
@@ -11897,46 +11891,43 @@ UnionCave_Text_MontaneroDefeated:
 
 
 UnionCave_Text_MontaneroPostBattle:
-	.string "¡¿Cómo?!\n"
-	.string "¡¿RHYDON aún puede evolucionar en\l"
-	.string "otro POKÉMON aún más poderoso?!$"
+	.string "What?! RHYDON can still evolve into an\n"
+	.string "even more powerful POKÉMON?!$"
+
 
 
 UnionCave_Text_NecioIntro:
-	.string "He venido hasta aquí para estudiar\n"
-	.string "a los POKÉMON.\l"
-	.string "¡Te demostraré todo lo que he\l"
-	.string "aprendido!$"
+	.string "I've come here to study POKÉMON. I'll\n"
+	.string "show you everything I've learned!$"
+
 
 
 UnionCave_Text_NecioDefeated:
-	.string "¡Has demostrado lo que sabes!$"
+	.string "You've shown me what you're capable of!$"
 
 
 UnionCave_Text_NecioPostBattle:
-	.string "Debería reunir y publicar mis\n"
-	.string "hallazgos.\l"
-	.string "Podría hacerme tan\l"
-	.string "famoso como el PROF. ELM.$"
+	.string "I need to compile and share my\n"
+	.string "discoveries. It could make me as famous\l"
+	.string "as PROF. ELM.$"
+
 
 
 UnionCave_Text_KaratekaIntro:
-	.string "Por eso me gusta venir a entrenar\n"
-	.string "a cuevas como esta.\l"
-	.string "Nunca sabes lo que puedes\l"
-	.string "encontrarte.\l"
-	.string "¡En guardia!\l"
-	.string "¡Fwhaaaa!$"
+	.string "That's why I prefer to train in caves\n"
+	.string "like this. You never know what surprises\l"
+	.string "await. On guard! Fwhaaaa!$"
+
 
 
 UnionCave_Text_KaratekaDefeated:
-	.string "¡No esperaba esto!$"
+	.string "I didn't expect this!$"
 
 
 UnionCave_Text_KaratekaPostBattle:
-	.string "Así que eres uno de los mejores\n"
-	.string "de todo KANTO...\l"
-	.string "Impresionante.$"
+	.string "You're one of the top trainers in\n"
+	.string "KANTO... Impressive.$"
+
 
 
 UnionCave_Text_Necio2Intro:
@@ -11946,20 +11937,20 @@ UnionCave_Text_Necio2Intro:
 
 
 UnionCave_Text_Necio2Defeated:
-	.string "¡Menuda colección de fuertes\n"
-	.string "POKÉMON!$"
+	.string "What a collection of powerful POKÉMON!$"
 
 
 UnionCave_Text_Necio2PostBattle:
-	.string "Creo que quitaré a DUNSPARCE de mi\n"
-	.string "equipo. Solo tengo para presumir,\l"
-	.string "porque es un POKÉMON bastante\l"
-	.string "raro, pero es un debilucho.$"
+	.string "I believe I'll remove DUNSPARCE from my\n"
+	.string "team. It's just for show, being a rather\l"
+	.string "peculiar POKÉMON, but it's weak.$"
 
 
 UnionCaveS1_Text_MontaneroIntro:
-	.string "¡Uf! Hacía mucho tiempo que no\n"
-	.string "veía a nadie. Acércate. ¡Luchemos!$"
+	.string "Whew! It's been quite a while since I\n"
+	.string "saw anyone. Approach. Let's have a\l"
+	.string "battle!$"
+
 
 
 UnionCaveS1_Text_MontaneroDefeated:
@@ -11967,96 +11958,92 @@ UnionCaveS1_Text_MontaneroDefeated:
 
 
 UnionCaveS1_Text_MontaneroPostBattle:
-	.string "Llevo perdido mucho tiempo... No\n"
-	.string "es que me importe, ¡pero tengo un\l"
-	.string "hambre que da calambre!$"
+	.string "I've been lost for a while... Not that I\n"
+	.string "care... I'm hungry!$"
+
 
 
 UnionCaveS2_Text_GuayIntro:
-	.string "Iré donde haga falta para atrapar\n"
-	.string "los Pokémon que me gustan. Eso es\l"
-	.string "lo que hace un gran entrenador.$"
+	.string "I'll go wherever it takes to catch the\n"
+	.string "Pokémon I like. That's what a great\l"
+	.string "trainer does.$"
+
 
 
 UnionCaveS2_Text_GuayDefeated:
-	.string "¡Preferiría mimar a mis Pokémon\n"
-	.string "en lugar de hacerlos combatir!$"
+	.string "I'd prefer caring my Pokémon rather\n"
+	.string "than making them battle!$"
+
 
 
 UnionCaveS2_Text_GuayPostBattle:
-	.string "Hay un POKÉMON que viene cada\n"
-	.string "semana hasta la orilla. Me\l"
-	.string "gustaría tanto verlo...$"
+	.string "A POKÉMON comes to the cave-lake every\n"
+	.string "week. I'd love to see it so much...$"
+
 
 
 UnionCaveS2_Text_NadadorIntro:
-	.string "¿Tienes algún problema?\n"
-	.string "¿Acaso hay alguna ley que me\l"
-	.string "impida bañarme aquí?$"
+	.string "Is there a problem? Is there any law\n"
+	.string "that says I can't be here?$"
+
 
 
 UnionCaveS2_Text_NadadorDefeated:
-	.string "¡Solo era broma, tranquilo!$"
+	.string "Just kidding, calm down!$"
 
 
 UnionCaveS2_Text_NadadorPostBattle:
-	.string "Esos ENTRENADORES GUAY siempre te\n"
-	.string "miran con aires de superioridad,\l"
-	.string "solo están aquí por si encuentran\l"
-	.string "algún POKÉMON raro. Ellos fueron\l"
-	.string "los que se rieron de mi por\l"
-	.string "bañarme en este lugar.\l"
-	.string "¡No saben lo bien que se siente\l"
-	.string "nadar bajo un paraíso así!$"
+	.string "Those COOL TRAINERS always look at you\n"
+	.string "with an air of superiority; they're only\l"
+	.string "here to find some rare POKÉMON, and\l"
+	.string "were the ones who laughed at me for\l"
+	.string "swimming in this place. They don't know\l"
+	.string "how good it feels to swim under such a\l"
+	.string "paradise!$"
+
 
 
 
 UnionCaveS2_Text_NecioIntro:
-	.string "¡Vine hasta aquí solo para ver si\n"
-	.string "podía encontrar POKÉMON más raros!$"
+	.string "I came here only for rare POKÉMON!$"
 
 
 UnionCaveS2_Text_NecioDefeated:
-	.string "¡Lo único que he encontrado es la\n"
-	.string "derrota!$"
+	.string "All I've found is defeat!$"
 
 
 UnionCaveS2_Text_NecioPostBattle:
-	.string "Dicen que en esta cueva duerme un\n"
-	.string "POKÉMON de gran poder y rareza.\l"
-	.string "¡Tengo que encontrarlo antes de\l"
-	.string "que lo hagan esos entrenadores!$"
+	.string "It's said that a POKÉMON with\n"
+	.string "significant power and rarity sleeps in\l"
+	.string "this cave. I need to locate it before\l"
+	.string "those trainers do!$"
+
 
 
 Route33_Text_GuayIntro:
-	.string "¡Ah!\n"
-	.string "¡Un nuevo rival!\l"
-	.string "¿Fue dura la CUEVA UNIÓN!\l"
-	.string "¡Pues qué pena, tendrás que hacer\l"
-	.string "un último esfuerzo!$"
+	.string "Ah! A new rival! Was UNION CAVE tough?\n"
+	.string "Well, too bad, you'll have to make one\l"
+	.string "last effort!$"
+
 
 
 Route33_Text_GuayDefeated:
-	.string "Y aún así he perdido...$"
+	.string "I still lost...$"
 
 
 Route33_Text_GuayPostBattle:
-	.string "No te lo tomes a mal, no combato a\n"
-	.string "traición con la gente, solo busco\l"
-	.string "combatir con todo el mundo. La\l"
-	.string "mayoría se escaquea en cuanto\l"
-	.string "puede y evita el contacto visual\l"
-	.string "para no combatir. Es por eso que\l"
-	.string "me he puesto aquí,\l"
-	.string "¡para que nadie pueda escurrir el\l"
-	.string "bulto!$"
+	.string "Don't take it the wrong way; I don't\n"
+	.string "fight unfairly with people. I just seek\l"
+	.string "to battle with everyone. Most people\l"
+	.string "dodge as soon as they can and avoid eye\l"
+	.string "contact to escape battling. That's why\l"
+	.string "I've positioned myself here, so no one\l"
+	.string "can slip away!$"
 
 
 Route33_Text_SabioIntro:
-	.string "Me gusta salir a andar, cada\n"
-	.string "mañana vengo hasta aquí desde\l"
-	.string "PUEBLO AZALEA.\l"
-	.string "¡Lo hago hasta 3 veces!$"
+	.string "Every morning I come here from AZALEA\n"
+	.string "TOWN. At least 3 times!$"
 
 
 Route33_Text_SabioDefeated:
@@ -12065,36 +12052,32 @@ Route33_Text_SabioDefeated:
 
 
 Route33_Text_SabioPostBattle:
-	.string "Es raro ver a jóvenes como tú en\n"
-	.string "los días que corren.\l"
-	.string "No pierdas lo que te caracteriza,\l"
-	.string "chico.$"
+	.string "It's unusual to come across youths like\n"
+	.string "you in the current times. Don't lose\l"
+	.string "what defines you.$"
 
 
 AzaleaGym_Text_CazabichosIntro:
-	.string "Todo lo que sé sobre el TIPO BICHO\n"
-	.string "se lo debo a CÉSAR.\l"
-	.string "¡No te dejaré llegar hasta él tan\l"
-	.string "fácilmente!$"
+	.string "All my knowledge about BUG TYPE comes\n"
+	.string "from CÉSAR. I won't allow you go so\l"
+	.string "easily!$"
 
 
 AzaleaGym_Text_CazabichosDefeated:
-	.string "¡Me han exterminado!$"
+	.string "I've been eradicated!$"
 
 
 AzaleaGym_Text_CazabichosPostBattle:
-	.string "El ambiente que se respira en\n"
-	.string "PUEBLO AZALEA y alrededores es el\l"
-	.string "idóneo para todo amante del TIPO\l"
-	.string "BICHO.$"
+	.string "The atmosphere in AZALEA TOWN and its\n"
+	.string "surroundings is ideal for any BUG-type\l"
+	.string "lover.$"
 
 
 AzaleaGym_Text_Cazabichos2Intro:
-	.string "HERACROSS es el mejor TIPO BICHO\n"
-	.string "que hay.\l"
-	.string "¿Sabes por qué es mejor que\l"
-	.string "PINSIR?\l"
-	.string "¡Porque HERACROSS es de JOHTO!$"
+	.string "HERACROSS is the finest Bug-type out\n"
+	.string "there. Do you know why it surpasses\l"
+	.string "PINSIR? Because HERACROSS is from\l"
+	.string "JOHTO!$"
 
 
 AzaleaGym_Text_Cazabichos2Defeated:
@@ -12103,163 +12086,147 @@ AzaleaGym_Text_Cazabichos2Defeated:
 
 
 AzaleaGym_Text_Cazabichos2PostBattle:
-	.string "Estaba bromeando. HERACROSS es muy\n"
-	.string "bueno, pero nuestro LÍDER tiene\l"
-	.string "algunos TIPO BICHO aún más\l"
-	.string "potentes. Una vez le vi entrenar\l"
-	.string "con una extraña forma de PINSIR,\l"
-	.string "la potencia y velocidad de sus\l"
-	.string "ataques daban mucho miedo y\l"
-	.string "respeto, la verdad...$"
+	.string "I was joking. HERACROSS is very good,\n"
+	.string "but our LEADER has even more powerful\l"
+	.string "BUB-types. I once saw him training with\l"
+	.string "a peculiar form of PINSIR; the power\l"
+	.string "and speed of its attacks were quite\l"
+	.string "intimidating and impressive, honestly...$"
 
 
 AzaleaGym_Text_SabioIntro:
-	.string "Debes de ser alguien muy especial\n"
-	.string "para haber llamado la atención de\l"
-	.string "CÉSAR.\l"
-	.string "¡Enséñame a tus compañeros!$"
+	.string "You must be a very special trainer to\n"
+	.string "have caught CÉSAR's attention. Show me\l"
+	.string "your POKÉMON!$"
 
 
 AzaleaGym_Text_SabioDefeated:
-	.string "Gran combate joven, gran combate.$"
+	.string "Great battle, great battle.$"
 
 
 AzaleaGym_Text_SabioPostBattle:
-	.string "A pesar de ser algo más joven que\n"
-	.string "yo, respeto mucho a CÉSAR. Este\l"
-	.string "pueblo no sería lo mismo sin él.$"
+	.string "Despite being a bit younger than me, I\n"
+	.string "have a lot of respect for CÉSAR. This\l"
+	.string "town wouldn't be the same without him.$"
 
 
 IlexForest_Text_CazabichosIntro:
-	.string "Este bosque tiene vida propia.\n"
-	.string "¿No lo sientes?$"
+	.string "There's a living energy in this forest.\n"
+	.string "Can't you feel it?$"
 
 
 IlexForest_Text_CazabichosDefeated:
-	.string "¡No!\n"
-	.string "¡YANMEGA no pudo cortarlo!$"
+	.string "No! YANMEGA wasn't able to break\n"
+	.string "through!$"
 
 
 IlexForest_Text_CazabichosPostBattle:
-	.string "Me gustaría visitar el BOSQUE\n"
-	.string "VERDE.\l"
-	.string "¡Dicen que es incluso más grande\l"
-	.string "que el ENCINAR!$"
+	.string "I would like to visit VIRIDIAN FOREST.\n"
+	.string "Some people say it's even larger than\l"
+	.string "the ILEX FOREST!$"
 
 
 IlexForest_Text_ChicoIntro:
-	.string "Hay tantos árboles aquí que apenas\n"
-	.string "se puede ver el cielo.$"
+	.string "There are so many trees here that you\n"
+	.string "can barely see the sky.$"
 
 
 IlexForest_Text_ChicoDefeated:
-	.string "¡Eh, espera!\n"
-	.string "¡No tengo más POKÉMON!$"
+	.string "Hey, hold on! I'm out of POKÉMON!$"
 
 
 IlexForest_Text_ChicoPostBattle:
-	.string "Con tantos árboles alrededor hay\n"
-	.string "que estar atento a lo que pueda\l"
-	.string "caer de ellos.\l"
-	.string "¡A más de uno le ha picado un\l"
-	.string "SPINARAK así!$"
+	.string "With all these trees around, you have to\n"
+	.string "stay alert for anything that might drop\l"
+	.string "from them. More than one person has\l"
+	.string "been bitten by a SPINARAK!$"
 
 
 IlexForest_Text_ChicaIntro:
-	.string "¿Por qué no hay más que arañas por\n"
-	.string "aquí?\l"
-	.string "¡No me gustan las arañas!$"
+	.string "Why are there only spiders in this\n"
+	.string "place? Spiders aren't my favorite!$"
 
 
 IlexForest_Text_ChicaDefeated:
-	.string "¡Y encima pierdo el combate!$"
+	.string "And now I lose the battle!$"
 
 
 IlexForest_Text_ChicaPostBattle:
-	.string "Yo solo quería atrapar un bonito\n"
-	.string "LEDYBA para enseñárselo a mis\l"
-	.string "amigas de TRIGAL.\l"
-	.string "¡Pero solo me encuentro con\l"
-	.string "SPINARAK, qué asco!$"
+	.string "I just wanted to catch a nice LEDYBA to\n"
+	.string "show it to my friends in GOLDENROD. But\l"
+	.string "all I only see SPINARAK!$"
+
 
 
 Route34_Text_GuardaIntro:
-	.string "Espero que no hayas tirado basura\n"
-	.string "al ENCINAR.\l"
-	.string "Nos tomamos muy en serio su\l"
-	.string "mantenimiento.$"
+	.string "I hope you haven't thrown trash in the\n"
+	.string "ILEX FOREST. We take its maintenance\l"
+	.string "seriously.$"
 
 
 Route34_Text_GuardaDefeated:
-	.string "¡Vale, solo quería combatir!$"
+	.string "Okay, I just wanted to fight!$"
 
 
 Route34_Text_GuardaPostBattle:
-	.string "Yo y mis compañeros de PUEBLO\n"
-	.string "AZALEA solemos hacer guardia en el\l"
-	.string "ENCINAR, nos aseguramos de que\l"
-	.string "todo está en orden.$"
+	.string "Me and my pals from AZALEA TOWN often\n"
+	.string "take turns guarding the ILEX FOREST,\l"
+	.string "making sure everything is okay.$"
+
 
 
 Route34_Text_Guarda2Intro:
-	.string "Espero que no seas tú el listo al\n"
-	.string "que se le ocurren ideas como la de\l"
-	.string "tirar un mechero en el ENCINAR y\l"
-	.string "ver qué pasa.$"
+	.string "I hope you're not the smart guy who\n"
+	.string "thinks things like tossing a lighter\l"
+	.string "into ILEX FOREST to see what happens.$"
 
 
 Route34_Text_Guarda2Defeated:
-	.string "¡Respeta al medio!$"
+	.string "Show respect to nature!$"
 
 
 Route34_Text_Guarda2PostBattle:
-	.string "JOHTO sigue manteniendo intacta su\n"
-	.string "fauna y flora original debido a\l"
-	.string "nuestro trabajo.$"
+	.string "Our efforts have kept JOHTO's original\n"
+	.string "fauna and flora untouched.$"
+
 
 
 Route34_Text_KaratekaIntro:
-	.string "¡Has descubierto mi escondite\n"
-	.string "secreto!\l"
-	.string "¡No tienes perdón!\l"
-	.string "¡Fwyaaaaaa!$"
+	.string "You found my secret hideout! You're\n"
+	.string "unforgivable! Fwyaaaaaa!$"
 
 
 Route34_Text_KaratekaDefeated:
-	.string "¿Me han machacado?$"
+	.string "I was crushed?$"
 
 
 Route34_Text_KaratekaPostBattle:
-	.string "¿SUDOWOODO y URSARING no son TIPO\n"
-	.string "LUCHA?\l"
-	.string "¡Y qué más te da! Si quiero\l"
-	.string "meterlos en mi equipo, lo hago.\l"
-	.string "¡Incluso BRUNO usa otros POKÉMON\l"
-	.string "que no son TIPO LUCHA en su\l"
-	.string "equipo!$"
+	.string "Aren't SUDOWOODO and URSARING\n"
+	.string "FIGHTING TYPE? And so what! If I want\l"
+	.string "to put them in my team, I do it. Even\l"
+	.string "BRUNO uses other POKÉMON that aren't\l"
+	.string "FIGHTING TYPE on his team!$"
 
 
 Route34_Text_GuayIntro:
-	.string "Me gusta CIUDAD TRIGAL, hay gente\n"
-	.string "competente allí.\l"
-	.string "¿Y tú qué?$"
+	.string "I love GOLDENROD CITY; there are\n"
+	.string "competent people around there. How\l"
+	.string "about you?$"
 
 
 Route34_Text_GuayDefeated:
-	.string "Pues sí que eres competente.$"
+	.string "You are competent too.$"
 
 
 Route34_Text_GuayPostBattle:
-	.string "Desde que construyeron la TORRE\n"
-	.string "RADIO, la ciudad no ha hecho más\l"
-	.string "que crecer.$"
+	.string "Since they built the RADIO TOWER, the\n"
+	.string "city has done nothing but expand.$"
 
 
 Route34_Text_RicoIntro:
-	.string "Mi padre es uno de los directivos\n"
-	.string "más importantes en la TORRE RADIO.\l"
-	.string "¿Quieres ver los POKÉMON que me ha\l"
-	.string "comprado?$"
+	.string "My father is one of the most important\n"
+	.string "executives at the RADIO TOWER. Wanna\l"
+	.string "see the POKÉMON he bought for me?$"
 
 
 Route34_Text_RicoDefeated:
@@ -12267,104 +12234,93 @@ Route34_Text_RicoDefeated:
 
 
 Route34_Text_RicoPostBattle:
-	.string "¿Dónde has comprado a tus POKÉMON?\n"
-	.string "...\l"
-	.string "...\l"
-	.string "¿Los has entrenado tú mismo?\l"
-	.string "¿Y eso qué precio tiene?$"
+	.string "Where have you bought your POKÉMON? ...\n"
+	.string "... Did you train them yourself? And\l"
+	.string "what's the price for that?$"
 
 
 GoldenrodUnderground_Text_MatonIntro:
-	.string "¿Cómo?\n"
-	.string "¿No serás del TEAM ROCKET?\l"
-	.string "Mis colegas de FUCSIA me han\l"
-	.string "hablado de vuestra organización y\l"
-	.string "de cómo uno de ellos es realmente\l"
-	.string "el CAMPEÓN de KANTO.\l"
-	.string "¡Quiero ver cómo pelea un ROCKET!$"
+	.string "What? Are you affiliated with TEAM\n"
+	.string "ROCKET? My FUCHSIA comrades have told\l"
+	.string "me about your organization and how one\l"
+	.string "of them is actually the KANTO CHAMPION.\l"
+	.string "I want to see how a ROCKET battles!$"
 
 
 GoldenrodUnderground_Text_MatonDefeated:
-	.string "¡Tú eres el ROCKET que fue\n"
-	.string "CAMPEÓN!$"
+	.string "You are the ROCKET who conquered the\n"
+	.string "KANTO POKÉMON LEAGUE?!$"
 
 
 GoldenrodUnderground_Text_MatonPostBattle:
-	.string "Esta ciudad está llena de pijos\n"
-	.string "mimados.\l"
-	.string "Ahora que están las obras de\l"
-	.string "tren, les da miedo pasar por\l"
-	.string "aquí y mancharse un poco.\l"
-	.string "Espero que alguien como tú ponga\l"
-	.string "orden desde las altas esferas.$"
+	.string "This town is full of pampered snobs. Now\n"
+	.string "that the train building is here, they're\l"
+	.string "afraid to pass through and get a little\l"
+	.string "dirty. I hope someone like you brings\l"
+	.string "order from the top.$"
 
 
 GoldenrodUnderground_Text_NecioIntro:
-	.string "Te sorprendería la cantidad de\n"
-	.string "raros y fuertes POKÉMON que pueden\l"
-	.string "obtenerse en un lugar como este.\l"
-	.string "¡Por eso mismo suelo pasarme por\l"
-	.string "aquí!$"
+	.string "You'd be surprised by the number of\n"
+	.string "rare and strong POKÉMON that can be\l"
+	.string "obtained in a place like this. That's the\l"
+	.string "reason I'm here!$"
 
 
 GoldenrodUnderground_Text_NecioDefeated:
-	.string "Parece que a ti no te hacen falta\n"
-	.string "POKÉMON fuertes...$"
+	.string "It seems like you don't need strong\n"
+	.string "POKÉMON...$"
 
 
 GoldenrodUnderground_Text_NecioPostBattle:
-	.string "Ese tipo siempre pone en\n"
-	.string "venta POKÉMON muy raros y\l"
-	.string "poderosos.\l"
-	.string "Tiene incluso no sé qué\l"
-	.string "PSEUDOLEGENDARIO de otra región.\l"
-	.string "¡Si tuviera dinero para comprarlo...!$"
+	.string "That guy always offers extremely rare\n"
+	.string "and powerful POKÉMON for sale. He even\l"
+	.string "has some PSEUDO-LEGENDARY from other\l"
+	.string "regions. If only I had the money to\l"
+	.string "purchase it...!$"
+
 
 
 GoldenrodUnderground_Text_LadronIntro:
-	.string "Qué oportuno que por las obras\n"
-	.string "solo se pueda acceder al otro lado\l"
-	.string "de la ciudad pasando por aquí.\l"
-	.string "¡A cuántos incautos les habré\l"
-	.string "robado!\l"
-	.string "¡Uajaja, tú serás el siguiente!$"
+	.string "How convenient that through the train\n"
+	.string "rails building, the only way to access\l"
+	.string "the other side of the city is by passing\l"
+	.string "through here. How many unsuspecting\l"
+	.string "ones have I robbed! Hahaha, you are\l"
+	.string "next!$"
 
 
 GoldenrodUnderground_Text_LadronDefeated:
-	.string "¡Esto no entraba en mis planes!$"
+	.string "I didn't expect this!$"
 
 
 GoldenrodUnderground_Text_LadronPostBattle:
-	.string "Eh, que era broma. No te lo tomes\n"
-	.string "a mal, solo me gusta pasear por\l"
-	.string "aquí.$"
+	.string "Hey, it was a joke. Don't take offense; I\n"
+	.string "just like walking around here.$"
 
 
 GoldenrodRadioTowerP1_Text_NecioIntro:
-	.string "¡El PRESIDENTE me ha contratado\n"
-	.string "para llevar a cabo un trabajo\l"
-	.string "especial!\l"
-	.string "¡Es alto secreto!$"
+	.string "I've been recruited by the PRESIDENT\n"
+	.string "to execute a special task! It's\l"
+	.string "classified information!$"
 
 
 GoldenrodRadioTowerP1_Text_NecioDefeated:
-	.string "¡Vaya!¡No te tomé muy en serio!$"
+	.string "Oh, my! I didn't take you seriously at\n"
+	.string "all!$"
 
 
 GoldenrodRadioTowerP1_Text_NecioPostBattle:
-	.string "¡Chsht!\n"
-	.string "No se lo digas a nadie, pero ese\l"
-	.string "trabajo tiene que ver con las\l"
-	.string "ondas de radio que aquí se\l"
-	.string "generan.$"
+	.string "Ssh! Just between us, that work\n"
+	.string "involves the radio waves being\l"
+	.string "generated here.$"
 
 
 GoldenrodRadioTowerP2_Text_CaballeroIntro:
-	.string "Está apareciendo mucha gente nueva\n"
-	.string "últimamente por aquí.\l"
-	.string "Nuestro PRESIDENTE no va a dar\l"
-	.string "abasto para tantas reuniones.\l"
-	.string "¿No tramaréis algo?$"
+	.string "A bunch of new folks has been turning\n"
+	.string "up here recently. Our PRESIDENT won't\l"
+	.string "manage all these meetings. Are you\l"
+	.string "planning something?$"
 
 
 GoldenrodRadioTowerP2_Text_CaballeroDefeated:
@@ -12372,114 +12328,103 @@ GoldenrodRadioTowerP2_Text_CaballeroDefeated:
 
 
 GoldenrodRadioTowerP2_Text_CaballeroPostBattle:
-	.string "CIUDAD TRIGAL ya era grande, pero\n"
-	.string "ahora con la TORRE DE RADIO se ha\l"
-	.string "consolidado como el centro\l"
-	.string "financiero de JOHTO.$"
+	.string "GOLDENROD CITY was big, but now with\n"
+	.string "the RADIO TOWER, it has established\l"
+	.string "itself as the financial hub of JOHTO.$"
 
 
 GoldenrodRadioTowerP2_Text_RicoIntro:
-	.string "Pareces alguien importante.\n"
-	.string "¿Vas a reunirte con el PRESIDENTE?$"
+	.string "You seem like someone important. Are\n"
+	.string "you going to meet our PRESIDENT?$"
 
 
 GoldenrodRadioTowerP2_Text_RicoDefeated:
-	.string "Vale, ya me ha quedado claro.$"
+	.string "Okay, I understand now.$"
 
 
 GoldenrodRadioTowerP2_Text_RicoPostBattle:
-	.string "Ya sabía yo que eras alguien\n"
-	.string "importante, esos POKÉMON no los\l"
-	.string "tiene un cualquiera.$"
+	.string "I already knew you were someone\n"
+	.string "important; not everyone has those\l"
+	.string "POKÉMON.$"
 
 
 GoldenrodRadioTowerP3_Text_BellaIntro:
-	.string "¿Vienes por mi sesión de fotos?\n"
-	.string "Lo siento, ¡no hay plaza!$"
+	.string "Are you here for my photoshoot? I'm\n"
+	.string "sorry, there's no room!$"
 
 
 GoldenrodRadioTowerP3_Text_BellaDefeated:
-	.string "Oh, ¡qué descarado!$"
+	.string "Oh, how cheeky!$"
 
 
 GoldenrodRadioTowerP3_Text_BellaPostBattle:
-	.string "Esta ciudad me gusta más que\n"
-	.string "AZULONA, aunque allí había un\l"
-	.string "GIMNASIO muy guay. Espero que\l"
-	.string "mejoren el de TRIGAL con el\l"
-	.string "tiempo.$"
+	.string "I prefer this city over CELADON,\n"
+	.string "although there was a cool GYM there.\l"
+	.string "Hopefully, they'll upgrade the one in\l"
+	.string "GOLDENROD over time.$"
 
 
 GoldenrodCity_Text_ObreroIntro:
-	.string "Aquí no debería de poder pasar\n"
-	.string "nadie.\l"
-	.string "¡Aunque vayan de traje y sean\l"
-	.string "gente importante!$"
+	.string "Nobody should be allowed to pass\n"
+	.string "through here. Even if they're in a suit\l"
+	.string "and are important folks!$"
 
 
 GoldenrodCity_Text_ObreroDefeated:
-	.string "¡Lo sabía!$"
+	.string "I knew it!$"
 
 
 GoldenrodCity_Text_ObreroPostBattle:
-	.string "Las apariencias lo son todo en\n"
-	.string "esta ciudad, si tuvieras el\l"
-	.string "aspecto de uno de esos ladrones de\l"
-	.string "los subterráneos jamás hubieras\l"
-	.string "tenido permiso para estar en las\l"
-	.string "vías de tren.$"
+	.string "In this city, it's all about appearances.\n"
+	.string "If you had the look of one of those\l"
+	.string "subway thieves, you would never have\l"
+	.string "been allowed to be on the train tracks.$"
 
 
 Route53_Text_ObreroIntro:
-	.string "Dicen que en 2 años y medio, el\n"
-	.string "MAGNETOTREN ya funcionará con\l"
-	.string "total normalidad conectando TRIGAL\l"
-	.string "con AZAFRÁN.\l"
-	.string "La cuestión es, ¿dónde estaremos\l"
-	.string "nosotros entonces?$"
+	.string "According to reports, in 2 and a half\n"
+	.string "years, the MAGNETOTRAIN will operate\l"
+	.string "seamlessly, connecting GOLDENROD with\l"
+	.string "SAFFRON. The question is, where will we\l"
+	.string "be at that point?$"
 
 
 Route53_Text_ObreroDefeated:
-	.string "¡Espero ser mejor ENTRENADOR de\n"
-	.string "aquí a 3 años!$"
+	.string "In 3 years, I hope to have improved as a\n"
+	.string "TRAINER!$"
 
 
 Route53_Text_ObreroPostBattle:
-	.string "Dicen que en 2 años y medio, el\n"
-	.string "MAGNETOTREN ya funcionará con\l"
-	.string "total normalidad conectando TRIGAL\l"
-	.string "con AZAFRÁN.\l"
-	.string "La cuestión es, ¿dónde estaremos\l"
-	.string "nosotros entonces?$"
+	.string "According to reports, in 2 and a half\n"
+	.string "years, the MAGNETOTRAIN will operate\l"
+	.string "seamlessly, connecting GOLDENROD with\l"
+	.string "SAFFRON. The question is, where will we\l"
+	.string "be at that point?$"
 
 
 Route35_Text_CalvoIntro:
-	.string "Dicen que la LÍDER de TRIGAL va a\n"
-	.string "dejar su puesto.\l"
-	.string "¡Voy a pedir que cambien el TIPO\l"
-	.string "del GIMNASIO de la ciudad al\l"
-	.string "VENENO!$"
+	.string "It's said GOLDENROD LEADER is going to\n"
+	.string "leave her position. I'm going to suggest\l"
+	.string "changing the GYM TYPE of the city to\l"
+	.string "POISON!$"
 
 
 Route35_Text_CalvoDefeated:
-	.string "¡Menuda paliza!$"
+	.string "I was thrashed!$"
 
 
 Route35_Text_CalvoPostBattle:
-	.string "¿¡Cómo!?\n"
-	.string "¿Ya hay un GIMNASIO TIPO VENENO en\l"
-	.string "KANTO?\l"
-	.string "¡Tengo que visitarlo!$"
+	.string "What!? There's already a POISON-TYPE\n"
+	.string "GYM in KANTO? I have to visit it!$"
 
 
 Route35_Text_ChicaIntro:
-	.string "¿Has estado en el PARQUE NACIONAL?\n"
-	.string "Muchos van allí a relajarse.$"
+	.string "Have you been at the NATIONAL PARK?\n"
+	.string "Many go there to relax.$"
 
 
 Route35_Text_ChicaDefeated:
-	.string "¡Tranquilo!\n"
-	.string "¡Ya has ganado!$"
+	.string "Calm down! You've already won!$"
 
 
 Route35_Text_ChicaPostBattle:

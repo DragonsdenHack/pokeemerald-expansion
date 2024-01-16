@@ -24,12 +24,10 @@ release
 end
 
 CeladonMansion_Text_4:
-.string "¡Deberías avergonzarte de lo que\n"
-.string "haces joven!\l"
-.string "¡Los problemas de una región se\l"
-.string "solucionan remando todos juntos,\l"
-.string "no declarando la guerra por tu\l"
-.string "cuenta!$"
+	.string "You should be ashamed of your actions,\n"
+	.string "young one! The problems of a region can\l"
+	.string "be solved by cooperating, not by\l"
+	.string "declaring a war by yourself!$"
 
 
 

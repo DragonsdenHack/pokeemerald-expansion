@@ -128,8 +128,7 @@ release
 end
 
 CeladonCity_Casino_Text_10:
-.string "¡El truco está en mirar\n"
-.string "atentamente a la pantalla!$"
+	.string "The key is on staring at the screen!$"
 
 
 
@@ -141,6 +140,5 @@ release
 end
 
 CeladonCity_Casino_Text_11:
-.string "¡Tranquilo camarada!\n"
-.string "¡Conmigo aquí nuestra guarida está\l"
-.string "a salvo!$"
+	.string "Don't worry, comrade! With me over here\n"
+	.string "our base is secure!$"
