@@ -1415,12 +1415,7 @@ static void InitMapBasedOnPlayerLocation(void)
         {
 			x = 24;
 			y = 3;
-
-	case MAPSEC_GOLDENROD_CITY:
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(CUEVA_GIMNASIO_TRIGAL))
-        {
-			x = 15;
-			y = 9;
+            
 			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
@@ -1479,7 +1474,6 @@ static void RegionMap_InitializeStateBasedOnSSTidalLocation(void)
     u8 mapGroup;
     u8 mapNum;
     u16 dimensionScale;
-    
     s16 xOnMap;
     s16 yOnMap;
     const struct MapHeader *mapHeader;
