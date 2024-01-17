@@ -12730,30 +12730,31 @@ Route39_Text_MarineroDefeated:
 
 
 Route39_Text_MarineroPostBattle:
-	.string "Tienes pinta de ser alguien\n"
-	.string "importante, seguro que hasta\l"
-	.string "podrás ver al CAPITÁN, ¿eh?$"
+	.string "You look like important, I'm sure you\n"
+	.string "might even get to see the CAPTAIN, huh?$"
+
 
 
 OliivineLighthouse_Text_MarineroIntro:
-    .string "Un poderoso POKÉMON ELÉCTRICO\n"
-	.string "ilumina este FARO, ¿lo sabías?$"
+	.string "This LIGHTHOUSE is lit up by a\n"
+	.string "formidable ELECTRIC POKÉMON, did you\l"
+	.string "know that?$"
 
 
 OliivineLighthouse_Text_MarineroDefeated:
-	.string "¡Gran combate marinero!$"
+	.string "Impressive naval combat!$"
 
 
 OliivineLighthouse_Text_MarineroPostBattle:
-	.string "Así es, un AMPHAROS ilumina este\n"
-	.string "FARO. La luz que desprende su cola\l"
-	.string "puede verse a decenas de\l"
-	.string "kilómetros.$"
+	.string "Absolutely, a LIGHTHOUSE is illuminated\n"
+	.string "by an AMPHAROS. The light emitted from\l"
+	.string "its tail is visible for miles around.$"
+
 
 
 OliivineLighthouse_Text_CaballeroIntro:
-	.string "Viajo por el mundo para entrenar\n"
-	.string "mis POKÉMON. ¿Quiere luchar?$"
+	.string "I travel the world to train my POKÉMON.\n"
+	.string "Do you want to battle?$"
 
 
 OliivineLighthouse_Text_CaballeroDefeated:
@@ -12761,186 +12762,173 @@ OliivineLighthouse_Text_CaballeroDefeated:
 
 
 OliivineLighthouse_Text_CaballeroPostBattle:
-	.string "Para algunos, ARCANINE es\n"
-	.string "considerado un LEGENDARIO. De ser\l"
-	.string "así, ¡tengo uno!$"
+	.string "For some people, ARCANINE is considered\n"
+	.string "a legendary POKÉMON. If that's true, I\l"
+	.string "have one!$"
 
 
 OliivineLighthouse_Text_ChicoIntro:
-	.string "¡Ten cuidado!\n"
-	.string "¡Este lugar no es un parque\l"
-	.string "turístico, aquí trabajamos!$"
+	.string "Watch out! This isn't a tourist park;\n"
+	.string "we're working here!$"
 
 
 OliivineLighthouse_Text_ChicoDefeated:
-	.string "Se me cruzaron los cables...$"
+	.string "My cables got crossed...$"
 
 
 OliivineLighthouse_Text_ChicoPostBattle:
-	.string "Me encanta trabajar aquí, aprendo\n"
-	.string "mucho del farero. Su AMPHAROS es\l"
-	.string "incomparable, ojalá el mío fuera\l"
-	.string "tan fuerte.$"
+	.string "I love working here; I learn a lot from\n"
+	.string "the lighthouse keeper. His AMPHAROS is\l"
+	.string "incomparable; I wish mine were as\l"
+	.string "strong.$"
 
 
 OliivineLighthouse_Text_Caballero2Intro:
-	.string "Vengo a visitar a mi viejo amigo y\n"
-	.string "me encuentro con un joven\l"
-	.string "trajeado.\l"
-	.string "¡Lo que faltaba!$"
+	.string "I'm here to visit my old friend, and I\n"
+	.string "encounter a young man in a suit.\l"
+	.string "Disgusting!$"
 
 
 OliivineLighthouse_Text_Caballero2Defeated:
-	.string "¡Ah, así que vas en serio!$"
+	.string "Oh, you're not kidding, huh?$"
 
 
 OliivineLighthouse_Text_Caballero2PostBattle:
-	.string "Este FARO se ha construido en\n"
-	.string "tiempo récord, igual que el\l"
-	.string "PUERTO. Últimamente va todo muy\l"
-	.string "rápido en esta región.$"
+	.string "This LIGHTHOUSE has been built in\n"
+	.string "record time, just like the PORT.\l"
+	.string "Everything has been moving very fast in\l"
+	.string "this region lately.$"
 
 
 OliivineLighthouse_Text_Marinero2Intro:
-	.string "¡Pero qué tenemos aquí!\n"
-	.string "Las visitas sin cita previa no\l"
-	.string "están permitidas, estoy aquí para\l"
-	.string "asegurarme de que gente como tú no\l"
-	.string "moleste a nuestro farero con\l"
-	.string "tonterías.$"
+	.string "Well, what do we have here! Unscheduled\n"
+	.string "visits are not allowed; I'm here to\l"
+	.string "ensure that people like you don't\l"
+	.string "bother our lighthouse keeper with\l"
+	.string "nonsenses!$"
 
 
 OliivineLighthouse_Text_Marinero2Defeated:
-	.string "¡Guau! ¡Tu fuerza es increíble!$"
+	.string "Whoa! Your power is amazing!$"
 
 
 OliivineLighthouse_Text_Marinero2PostBattle:
-	.string "Parece que tú y tu equipo sí\n"
-	.string "tenéis algo importante que decir,\l"
-	.string "seguro que a nuestro farero no le\l"
-	.string "importaría tener una charla\l"
-	.string "contigo.$"
+	.string "It seems like you and your team have\n"
+	.string "something important to say; I'm sure\l"
+	.string "our lighthouse keeper wouldn't mind at\l"
+	.string "having a chat with you.$"
 
 
 OliivineLighthouse_Text_NecioIntro:
-	.string "Vine hasta aquí para ver esos\n"
-	.string "POKÉMON tan raros que tiene el\l"
-	.string "dueño del FARO, ¡pero no encuentro\l"
-	.string "la forma de llegar al último piso!$"
+	.string "I came here to see those unusual\n"
+	.string "POKÉMON the lighthouse owner has, but I\l"
+	.string "can't find the way to get to the top\l"
+	.string "floor!$"
 
 
 OliivineLighthouse_Text_NecioDefeated:
-	.string "¡Ay! ¡Mi POKÉMON!$"
+	.string "Ah! My POKÉMON!$"
 
 
 OliivineLighthouse_Text_NecioPostBattle:
-	.string "Creo que hay que tirarse por\n"
-	.string "alguno de esos agujeros para poder\l"
-	.string "subir después, pero me da miedo\l"
-	.string "intentarlo.$"
+	.string "I believe you have to jump through one\n"
+	.string "of those holes to be able to ascend\l"
+	.string "later, but I'm afraid about trying it.$"
+
 
 
 OliivineLighthouse_Text_Marinero3Intro:
-	.string "Se supone que en este piso ya no\n"
-	.string "debería haber nadie ajeno al\l"
-	.string "personal del FARO.\l"
-	.string "¿A qué has venido?$"
+	.string "There shouldn't be anyone on this floor\n"
+	.string "who isn't part of the lighthouse staff.\l"
+	.string "What brings you here?$"
 
 
 OliivineLighthouse_Text_Marinero3Defeated:
-	.string "¡Vaya! Pues lo tuyo era verdad.\n"
-	.string "Venías de visita.$"
+	.string "Wow! So, you were telling the truth. You\n"
+	.string "came for a visit.$"
 
 
 OliivineLighthouse_Text_Marinero3PostBattle:
-	.string "Las descargas eléctricas del\n"
-	.string "AMPHAROS que ilumina este FARO\l"
-	.string "superan por mucho a las de un\l"
-	.string "ZAPDOS, por eso su luz puede verse\l"
-	.string "desde tan lejos.$"
+	.string "The electric discharges from the\n"
+	.string "AMPHAROS who lights up this LIGHTHOUSE\l"
+	.string "far surpass ZAPDOS ones. That's why its\l"
+	.string "light can be seen from so far away.$"
 
 
 Route51_Text_PescadorIntro:
-	.string "Con todas estas rocas es imposible\n"
-	.string "meter barcos aquí, este lugar está\l"
-	.string "condenado al olvido, aunque para\l"
-	.string "pescar...$"
+	.string "Due to all these rocks, bringing boats\n"
+	.string "here is impossible. This place is\l"
+	.string "destined to be forgotten, though for\l"
+	.string "fishing...$"
+
 
 
 Route51_Text_PescadorDefeated:
-	.string "Esta ruta es muy traicionera, el\n"
-	.string "NUEVO ORDEN de JOHTO no tardará en\l"
-	.string "cerrarla por completo.$"
+	.string "This route is quite deceitful; JOHTO's\n"
+	.string "NEW ORDER will soon shut it down\l"
+	.string "completely.$"
 
 
 
 Route51_Text_PescadorPostBattle:
-    .string "¡Tú también eres peligroso!$"
+	.string "You are dangerous too!$"
 
 
 Route51_Text_Pescador2Intro:
-    .string "La mayoría de pescadores no lo\n"
-	.string "saben, pero es aquí donde se\l"
-	.string "pescan las mejores piezas, la\l"
-	.string "mayoría no está dispuesta a llegar\l"
-	.string "hasta aquí.\l"
-	.string "¡Mejor para mí!\l"
-	.string "¡Me quedaré con todos!$"
+	.string "Most fishermen don't know, but this is\n"
+	.string "where the best catches are made. Many\l"
+	.string "aren't willing to come this far. Better\l"
+	.string "for me! I'll keep them all!$"
 
 
 Route51_Text_Pescador2Defeated:
-	.string "Estas aguas curten a los POKÉMON\n"
-	.string "de una forma especial, ¿no me\l"
-	.string "crees?\l"
-	.string "¡Mira!$"
+	.string "These waters give POKÉMON a unique\n"
+	.string "kind of resilience, don't you believe\l"
+	.string "me? Look!$"
 
 
 Route51_Text_Pescador2PostBattle:
-	.string "¿Dónde has atrapado todos esos\n"
-	.string "POKÉMON?$"
+	.string "Where did you catch all those POKÉMON?$"
 
 
 Route42_Text_NecioIntro:
-	.string "El otro día vi a un gran felino\n"
-	.string "pasar por aquí a la velocidad del\l"
-	.string "viento.\l"
-	.string "¡Me encantaría tener ese POKÉMON!$"
+	.string "Recently, I saw a massive feline\n"
+	.string "zooming through here like the wind. I\l"
+	.string "would love to have that POKÉMON!$"
 
 
 Route42_Text_NecioDefeated:
-	.string "¿Y esos POKÉMON?$"
+	.string "What about those POKÉMON?$"
 
 
 Route42_Text_NecioPostBattle:
-	.string "De lo poco que pude ver a ese\n"
-	.string "extraño POKÉMON, se le veía con\l"
-	.string "una fuerza y vigor únicas, como si\l"
-	.string "estuviera soltando toda su energía\l"
-	.string "después de haber estado prisionero\l"
-	.string "por mucho tiempo.$"
+	.string "Based on the brief glimpse I got of\n"
+	.string "that peculiar POKÉMON, it seemed to\l"
+	.string "exude a unique strength and vitality,\l"
+	.string "as if it were unleashing all its energy\l"
+	.string "after being imprisoned for a long time.$"
 
 
 Route42_Text_PescadorIntro:
-	.string "¡Déjame que te enseñe los POKÉMON\n"
-	.string "que he atrapado con mi caña!$"
+	.string "Let me show you the POKÉMON I've\n"
+	.string "caught with my fishing rod!$"
 
 
 Route42_Text_PescadorDefeated:
-	.string "¿Qué? Eso no está bien.$"
+	.string "What?That's not fair!$"
 
 
 Route42_Text_PescadorPostBattle:
-	.string "Quiero convertirme en un CAMPEÓN\n"
-	.string "con los POKÉMON que he atrapado.\l"
-	.string "¡Eso es lo mejor de la pesca! ¿Tú\l"
-	.string "también estás intentando ser el\l"
-	.string "no va más entrenando POKÉMON?\l"
-	.string "¡Entonces somos camaradas!$"
+	.string "My goal is to become a CHAMPION with\n"
+	.string "the POKÉMON I've caught. That's the\l"
+	.string "essence of fishing! Are you also aiming\l"
+	.string "to be the best at training POKÉMON?\l"
+	.string "Then we're comrades!$"
 
 
 Route42_Text_MontaneroIntro:
-	.string "¡Ah! ¡Qué bien se está fuera! ¡Me\n"
-	.string "siento tan libre!$"
+	.string "Ah! It feels so good outside! I feel so\n"
+	.string "free!$"
 
 
 Route42_Text_MontaneroDefeated:
@@ -12948,96 +12936,91 @@ Route42_Text_MontaneroDefeated:
 
 
 Route42_Text_MontaneroPostBattle:
-	.string "¡Qué importa perder ante la\n"
-	.string "inmensidad de este cielo!$"
+	.string "Losing in the midst of this vast sky\n"
+	.string "doesn't matter!$"
 
 
 MtMortar2_Text_NecioIntro:
-	.string "¡Mis FÓSILES POKÉMON te harán\n"
-	.string "llorar!$"
+	.string "My POKÉMON FOSSILS will make you cry!$"
 
 
 MtMortar2_Text_NecioDefeated:
-	.string "¡Se supone que debía ganar!$"
+	.string "I was supposed to win!$"
 
 
 MtMortar2_Text_NecioPostBattle:
-	.string "Tengo a mis FÓSILES desde hace\n"
-	.string "años, cuando el MT.MOON aún estaba\l"
-	.string "repleto de ellos, sin críos ni\l"
-	.string "ladrones que echaran todo a\l"
-	.string "perder.$"
+	.string "I've had my FOSSILS for years, back\n"
+	.string "when MT. MOON was still filled with them,\l"
+	.string "without kids or thieves ruining all the\l"
+	.string "staff.$"
 
 
 MtMortar2_Text_KaratekaIntro:
-	.string "Vine hasta aquí porque me dijeron\n"
-	.string "que el gran ANÍBAL se entrenaba en\l"
-	.string "lo más profundo del MT.MORTERO,\l"
-	.string "pero no lo encuentro.\l"
-	.string "Entretanto, ¡tú me servirás de\l"
-	.string "entrenamiento!$"
+	.string "I came here because I heard CHUCK\n"
+	.string "trains deep in MT. MORTAR, but I can't\l"
+	.string "find him. In the meantime, you'll serve\l"
+	.string "as my training!$"
 
 
 MtMortar2_Text_KaratekaDefeated:
-	.string "¡Aaarg! ¡He perdido!$"
+	.string "Aaarg! I lost!$"
 
 
 MtMortar2_Text_KaratekaPostBattle:
-	.string "ANÍBAL debe de estar aún más\n"
-	.string "adentro, me gustaría poder ver sus\l"
-	.string "LEGENDARIOS POKÉMON LUCHA.$"
+	.string "CHUCK is likely farther inside; I'd be\n"
+	.string "interested in seeing his LEGENDARY\l"
+	.string "FIGHTING POKÉMON$"
+
 
 
 MtMortar3_Text_NecioIntro:
-	.string "¡Admira a mis raros y fuertes\n"
-	.string "POKÉMON!$"
+	.string "Admire my rare and strong POKÉMON!$"
 
 
 MtMortar3_Text_NecioDefeated:
-	.string "¿De dónde han salido tus POKÉMON?$"
+	.string "Where did your POKÉMON come from?$"
 
 
 MtMortar3_Text_NecioPostBattle:
-	.string "Nadie tiene un MAGMORTAR por los\n"
-	.string "alrededores, con eso me basta para\l"
-	.string "mantener intacta mi fama como\l"
-	.string "POKEMANÍACO.$"
+	.string "No one around has a MAGMORTAR; that's\n"
+	.string "enough to keep my reputation as a\l"
+	.string "POKÉMANIAC intact.$"
 
 
 OlivineBoat_Text_CaballeroIntro:
-	.string "Este barco no está mal, pero el\n"
-	.string "SS.ANNE era más lujoso, ¿no crees?$"
+	.string "Not a bad boat, but the SS.ANNE was\n"
+	.string "more luxurious, wouldn't you agree?$"
+
 
 
 OlivineBoat_Text_CaballeroDefeated:
-	.string "¡Qué buenos amigos tienes!$"
+	.string "You have such good friends!$"
 
 
 OlivineBoat_Text_CaballeroPostBattle:
-	.string "KANTO y JOHTO deben unirse, las\n"
-	.string "dos regiones saldrían ganando.$"
+	.string "The union of KANTO and JOHTO would be\n"
+	.string "beneficial for both regions.$"
 
 
 OlivineBoat_Text_MarineroIntro:
-	.string "No hay nada mejor que un combate\n"
-	.string "en mi tiempo libre.$"
+	.string "Nothing beats a battle during my free\n"
+	.string "time!$"
 
 
 OlivineBoat_Text_MarineroDefeated:
-	.string "¡Gane o pierda, se acabó el\n"
-	.string "descanso!$"
+	.string "Win or lose, the break is over!$"
 
 
 OlivineBoat_Text_MarineroPostBattle:
-	.string "Me encanta que esto se llene de\n"
-	.string "invitados, ¡así puedo combatir con\l"
-	.string "ellos!$"
+	.string "I enjoy it when this gets crowded with\n"
+	.string "guests; that way, I can engage in\l"
+	.string "battles with them!$"
 
 
 OlivineBoat2_Text_RicoIntro:
-	.string "He pagado una fortuna para tener a\n"
-	.string "un PSEUDOLEGENDARIO en mi equipo.\l"
-	.string "¿Quieres verlo?$"
+	.string "I've paid a considerable sum to have a\n"
+	.string "PSEUDO-LEGENDARY on my team. Would you\l"
+	.string "like to see it?$"
 
 
 OlivineBoat2_Text_RicoDefeated:
@@ -13046,14 +13029,12 @@ OlivineBoat2_Text_RicoDefeated:
 
 
 OlivineBoat2_Text_RicoPostBattle:
-	.string "Supongo que es mejor tener un\n"
-	.string "POKÉMON común bien entrenado que\l"
-	.string "un PSEUDOLEGENDARIO mal\l"
-	.string "entrenado...\l"
-	.string "¡Aunque tener un PSEUDOLEGENDARIO\l"
-	.string "es un símbolo de jerarquía y\l"
-	.string "estatus!\l"
-	.string "¡Jojojo!$"
+	.string "I guess it's better to have a\n"
+	.string "well-trained common POKÉMON than a\l"
+	.string "poorly trained PSEUDO-LEGENDARY...\l"
+	.string "Although having a PSEUDO-LEGENDARY is\l"
+	.string "a symbol of hierarchy and status!\l"
+	.string "Hehehe!$"
 
 
 OlivineBoat2_Text_MarineroIntro:
@@ -13061,21 +13042,20 @@ OlivineBoat2_Text_MarineroIntro:
 
 
 OlivineBoat2_Text_MarineroDefeated:
-	.string "He perdido en mi propio campo...$"
+	.string "Lost on my own territory...$"
 
 
 OlivineBoat2_Text_MarineroPostBattle:
-	.string "Vamos a llevar muchos pasajeros\n"
-	.string "por la ruta CARMÍN-OLIVO a partir\l"
-	.string "de ahora.$"
+	.string "We will take numerous passengers along\n"
+	.string "the CARMINE-OLIVE route from now on.$"
+
 
 
 OlivineBoat2_Text_GuayIntro:
-	.string "¿Te crees más importante que yo\n"
-	.string "por ir de traje?\l"
-	.string "Deberías saber que nadie supera a\l"
-	.string "un ENTRENADOR GUAY en jerarquía.\l"
-	.string "¡Ahora lo verás!$"
+	.string "Do you believe you're more significant\n"
+	.string "than me for wearing a suit? You should\l"
+	.string "be aware that no one surpasses a COOL\l"
+	.string "TRAINER in hierarchy. You'll see it now!$"
 
 
 OlivineBoat2_Text_GuayDefeated:
@@ -13084,80 +13064,75 @@ OlivineBoat2_Text_GuayDefeated:
 
 
 OlivineBoat2_Text_GuayPostBattle:
-	.string "¿¡Qué!?\n"
-	.string "¿Eres el mejor hombre de GIOVANNI?\l"
-	.string "¡Creí que el TEAM ROCKET se había\l"
-	.string "disuelto!$"
+	.string "What!? Are you GIOVANNI's top man? I\n"
+	.string "thought TEAM ROCKET had disbanded!$"
 
 
 Route40_Text_NadadoraIntro:
-	.string "¿Vas a CIUDAD ORQUÍDEA? ¿Te\n"
-	.string "apetece luchar antes?$"
+	.string "Are you bound for CIANWOOD CITY? How\n"
+	.string "about a battle before?$"
 
 
 Route40_Text_NadadoraDefeated:
-	.string "¡He perdido!$"
+	.string "I lost!$"
 
 
 Route40_Text_NadadoraPostBattle:
-	.string "Nado mejor que tú. ¡Sin\n"
-	.string "duda!$"
+	.string "I swim better than you. No doubt about\n"
+	.string "it!$"
 
 
 Route40_Text_ChicoIntro:
-	.string "¡Este claro de tierra es ideal\n"
-	.string "para entrenar a mis AVES\l"
-	.string "POKÉMON!\l"
-	.string "¿Quieres verlas?$"
+	.string "This open area is perfect for training\n"
+	.string "my FLYING POKÉMON!$"
 
 
 Route40_Text_ChicoDefeated:
-	.string "¡Todo lo que sube baja!$"
+	.string "Everything that rises must fall!$"
 
 
 Route40_Text_ChicoPostBattle:
-	.string "El agua le come cada vez más\n"
-	.string "terreno a esta porción de tierra.\l"
-	.string "Debo aprovechar, porque me da que\l"
-	.string "pronto será engullida por el\l"
-	.string "mar.$"
+	.string "The water is eroding this part of the\n"
+	.string "land increasingly. I should take\l"
+	.string "advantage, as it looks like it will soon\l"
+	.string "be swallowed by the sea.$"
 
 
 Route40_Text_Nadadora2Intro:
-	.string "Yo no necesito flotador. ¡Voy\n"
-	.string "agarrada a un POKÉMON de mar!$"
+	.string "I don't require a float. I'm holding onto\n"
+	.string "a sea POKÉMON!$"
 
 
 Route40_Text_Nadadora2Defeated:
-	.string "¡Ooh, estoy mareada!$"
+	.string "Oh, I feel dizzy!$"
 
 
 Route40_Text_Nadadora2PostBattle:
-	.string "Mientras flote así, las olas me\n"
-	.string "llevarán.$"
+	.string "While I float like this, the waves will\n"
+	.string "bear me away.$"
 
 
 Route40_Text_Nadadora3Intro:
-	.string "Estoy descansando de tanto nadar,\n"
-	.string "pero aún me quedan energías para\l"
-	.string "acabar con un mequetrefe como tú.$"
+	.string "Resting after so much swimming, but\n"
+	.string "I've still got the energy to take care\l"
+	.string "of a weakling like you.$"
 
 
 Route40_Text_Nadadora3Defeated:
-	.string "¡Vale! ¡Me rindo!$"
+	.string "Okay! I give up!$"
 
 
 Route40_Text_Nadadora3PostBattle:
-	.string "Pensé que eras otro pijo más de\n"
-	.string "CIUDAD TRIGAL, ya he visto que tus\l"
-	.string "POKÉMON sí que están bien\l"
-	.string "entrenados.$"
+	.string "I thought you were just another snob\n"
+	.string "from GOLDENROD CITY, but I can see\l"
+	.string "that your POKÉMON are indeed\l"
+	.string "well-trained.$"
 
 
 Route41_Text_NadadoraIntro:
-	.string "Por la noche los STARYU se reunen\n"
-	.string "cerca de la superficie en la\l"
-	.string "playa de CIUDAD OLIVO.$"
+	.string "During the night, STARYU come together\n"
+	.string "near the surface at OLIVINE CITY's\l"
+	.string "beach.$"
 
 
 Route41_Text_NadadoraDefeated:
@@ -13165,44 +13140,43 @@ Route41_Text_NadadoraDefeated:
 
 
 Route41_Text_NadadoraPostBattle:
-	.string "Los grupos de STARYU se iluminan\n"
-	.string "al mismo tiempo. ¡Es tan bonito\l"
-	.string "que casi da miedo!$"
+	.string "The clusters of STARYU illuminate\n"
+	.string "simultaneously. It's so lovely that it's\l"
+	.string "almost frightening!$"
 
 
 Route41_Text_Nadadora2Intro:
-	.string "Voy hacia las ISLAS REMOLINO. Voy\n"
-	.string "a explorarlas con unos amigos.$"
+	.string "I'm going towards the WHIRL ISLANDS.\n"
+	.string "Planning to explore them with friends.$"
 
 
 Route41_Text_Nadadora2Defeated:
-	.string "¿Así es como lo haces?$"
+	.string "Is this how you do it?$"
 
 
 Route41_Text_Nadadora2PostBattle:
-	.string "Dicen que hay un gran POKÉMON\n"
-	.string "bajo las ISLAS REMOLINO. Me\l"
-	.string "pregunto cómo será...$"
+	.string "There's a rumor about a mighty POKÉMON\n"
+	.string "under the WHIRL ISLANDS. I wonder how\l"
+	.string "it'll be...$"
 
 
 Route41_Text_Nadadora3Intro:
-	.string "Estás tan elegante sobre tu\n"
+	.string "You're quite elegant riding your\n"
 	.string "POKÉMON.$"
 
 
 Route41_Text_Nadadora3Defeated:
-	.string "He perdido...$"
+	.string "I lost...$"
 
 
 Route41_Text_Nadadora3PostBattle:
-	.string "Tampoco te creas la gran cosa.\n"
-	.string "¡Yo también podría montar sobre mi\l"
-	.string "LAPRAS!$"
+	.string "Don't consider yourself something\n"
+	.string "special. I could ride my LAPRAS too!$"
 
 
 Route41_Text_Nadadora4Intro:
-	.string "No me puedo creer el buen día que\n"
-	.string "hace.$"
+	.string "I can't believe the beautiful day we're\n"
+	.string "having.$"
 
 
 Route41_Text_Nadadora4Defeated:
@@ -13210,28 +13184,27 @@ Route41_Text_Nadadora4Defeated:
 
 
 Route41_Text_Nadadora4PostBattle:
-	.string "CIUDAD ORQUÍDEA aún está bastante\n"
-	.string "lejos de aquí.$"
+	.string "CIANWOOD CITY is still quite far from\n"
+	.string "here.$"
 
 
 Route41_Text_NadadorIntro:
-	.string "Eres joven y estás en forma, no\n"
-	.string "vayas sobre tu POKÉMON. ¡Ve\l"
-	.string "nadando!$"
+	.string "You're young and fit, don't go on your\n"
+	.string "POKÉMON. Go swimming!$"
 
 
 Route41_Text_NadadorDefeated:
-	.string "Oh... he perdido.$"
+	.string "Oh... I lost.$"
 
 
 Route41_Text_NadadorPostBattle:
-	.string "La natación fortalece el cuerpo.\n"
-	.string "Es sana.$"
+	.string "Swimming strengthens the body. It's\n"
+	.string "healthy.$"
 
 
 Route41_Text_Nadador2Intro:
-	.string "Estoy cansado. ¿Si gano, me\n"
-	.string "prestas tu POKÉMON?$"
+	.string "I'm tired. If I win, will you lend me your\n"
+	.string "POKÉMON?$"
 
 
 Route41_Text_Nadador2Defeated:
@@ -13239,46 +13212,45 @@ Route41_Text_Nadador2Defeated:
 
 
 Route41_Text_Nadador2PostBattle:
-	.string "Obtuve a mi BLASTOISE hace tiempo,\n"
-	.string "cuando aún no era un POKÉMON tan\l"
-	.string "raro. Ahora todos los nadadores\l"
-	.string "darían un brazo por uno.$"
+	.string "I obtained my BLASTOISE a while ago,\n"
+	.string "back when it wasn't such a rare\l"
+	.string "POKÉMON. Now, every swimmer would give\l"
+	.string "anything for one.$"
 
 
 Route41_Text_Nadador3Intro:
-	.string "Aquí hay mucho oleaje. Cuesta\n"
-	.string "nadar.$"
+	.string "There's quite a bit of surf here.\n"
+	.string "Swimming is difficult.$"
 
 
 Route41_Text_Nadador3Defeated:
-	.string "¡Ooh, tienes una gran resistencia!$"
+	.string "Oh, you have great endurance!$"
 
 
 Route41_Text_Nadador3PostBattle:
-	.string "La corriente me impide llegar a\n"
-	.string "las islas.$"
+	.string "The current is blocking the way to the\n"
+	.string "islands.$"
 
 
 Route41_Text_Nadador4Intro:
-	.string "¿Ves esas islas aisladas por\n"
-	.string "torbellinos? ¡Tiene que haber un\l"
-	.string "secreto!$"
+	.string "See those islands isolated by\n"
+	.string "whirlpools? There must be a secret!$"
 
 
 Route41_Text_Nadador4Defeated:
-	.string "¿Cuál es tu secreto?$"
+	.string "What's your secret?$"
 
 
 Route41_Text_Nadador4PostBattle:
-	.string "Era de noche y llovía... Vi\n"
-	.string "volando un POKÉMON gigante desde\l"
-	.string "las islas. Dejaba caer las plumas\l"
-	.string "de sus alas plateadas.$"
+	.string "It was night, and it was raining... I saw\n"
+	.string "a giant flying POKÉMON from the islands.\l"
+	.string "It dropped feathers from its silver\l"
+	.string "wings.$"
 
 
 CianwoodGym_Text_KaratekaIntro:
-	.string "Las palabras no sirven. ¡Deja que\n"
-	.string "hablen tus puños!$"
+	.string "Words are useless. Let your fists speak\n"
+	.string "for you!$"
 
 
 CianwoodGym_Text_KaratekaDefeated:
@@ -13286,721 +13258,665 @@ CianwoodGym_Text_KaratekaDefeated:
 
 
 CianwoodGym_Text_KaratekaPostBattle:
-	.string "Supongo que me falta\n"
-	.string "entrenamiento, esa debe de ser la\l"
-	.string "respuesta.$"
+	.string "I assume I need more training; that\n"
+	.string "must be the key.$"
 
 
 CianwoodGym_Text_Karateka2Intro:
-	.string "A mis POKÉMON y a mí nos une una\n"
-	.string "gran amistad. ¡Estamos unidos por\l"
-	.string "un vínculo inquebrantable!$"
+	.string "There's a strong friendship between my\n"
+	.string "POKÉMON and me. We are connected by an\l"
+	.string "unbreakable link!$"
 
 
 CianwoodGym_Text_Karateka2Defeated:
-	.string "¡No puede ser!$"
+	.string "This can't be!$"
 
 
 CianwoodGym_Text_Karateka2PostBattle:
-	.string "¡Mis Pokémon han perdido! ¡Has\n"
-	.string "herido mi orgullo!$"
+	.string "My POKÉMON lost! You've hurt my pride!$"
 
 
 CianwoodGym_Text_Karateka3Intro:
-	.string "Eres muy valiente o muy estúpido\n"
-	.string "para retar a ANÍBAL.\l"
-	.string "A todo el que lo ha intentado no\l"
-	.string "le ha caído más que una lluvia\l"
-	.string "incesante de golpes, ¡incluso los\l"
-	.string "que usan POKÉMON PSÍQUICOS!$"
+	.string "You're either very brave or very foolish\n"
+	.string "to challenge CHUCK. Everyone who has\l"
+	.string "tried has faced nothing but a\l"
+	.string "relentless downpour of blows, even\l"
+	.string "those who use PSYCHIC POKÉMON!$"
 
 
 CianwoodGym_Text_Karateka3Defeated:
-	.string "¡Me has aplastado!$"
+	.string "You crushed me!$"
 
 
 CianwoodGym_Text_Karateka3PostBattle:
-	.string "Creo que dentro de poco, ANÍBAL\n"
-	.string "se tomará con más calma\l"
-	.string "las artes marciales. Dice que ya\l"
-	.string "no está a la altura de sus mejores\l"
-	.string "POKÉMON.$"
+	.string "I think CHUCK will soon take a more\n"
+	.string "relaxed approach to martial arts. He\l"
+	.string "says he's no longer at the peak of his\l"
+	.string "best POKÉMON.$"
+
 
 
 CianwoodGym_Text_Karateka4Intro:
-	.string "ANÍBAL es tan exigente que trata\n"
-	.string "de ponerse él mismo al nivel de\l"
-	.string "sus POKÉMON.\l"
-	.string "¿Podrías hacer tú lo mismo?$"
+	.string "CHUCK is so strict; he endeavors to\n"
+	.string "match the level of his POKÉMON. Can you\l"
+	.string "do the same?$"
 
 
 CianwoodGym_Text_Karateka4Defeated:
-	.string "¡Qué potencia!$"
+	.string "How powerful!$"
 
 
 CianwoodGym_Text_Karateka4PostBattle:
-	.string "A ANÍBAL le cuesta cada vez más\n"
-	.string "seguir el ritmo de entrenamiento\l"
-	.string "de sus POKÉMON, supongo que es ley\l"
-	.string "de vida. Aún así, tiene mucho\l"
-	.string "mérito seguir en esa forma pasados\l"
-	.string "los 50.$"
+	.string "CHUCK is finding it harder and harder to\n"
+	.string "match the training intensity of his\l"
+	.string "POKÉMON; I guess it's the circle of life.\l"
+	.string "Nonetheless, it's quite impressive to\l"
+	.string "stay in that form beyond 50.$"
+
 
 
 Route52_Text_NadadoraIntro:
-	.string "La sensación de explorar algo que\n"
-	.string "nunca ha sido investigado...\l"
-	.string "La expectativa ante un\l"
-	.string "posible descubrimiento...\l"
-	.string "Creo que estoy aquí por eso.$"
+	.string "The sense of exploring something\n"
+	.string "that's never been explored... The\l"
+	.string "excitement of a possible discovery... I\l"
+	.string "think that's my purpose for being here.$"
 
 
 Route52_Text_NadadoraDefeated:
-	.string "Me encanta explorar lugares así.\n"
-	.string "¿Y tú?\l"
-	.string "¿Por qué estás aquí?$"
+	.string "I love exploring places like this. And\n"
+	.string "you? Why are you here?$"
 
 
 Route52_Text_NadadoraPostBattle:
-	.string "¡Mis lindos POKÉMON!$"
+	.string "My cute POKÉMON!$"
 
 
 Route52_Text_Nadadora2Intro:
-	.string "¿Quién construiría algo así aquí?\n"
-	.string "¿Serán del GOBIERNO DE LANCE?$"
+	.string "Who could be behind building something\n"
+	.string "like this here? Maybe it's LANCE\l"
+	.string "GOVERNMENT?$"
 
 
 Route52_Text_Nadadora2Defeated:
-	.string "¿Has visto ese gran almacén en\n"
-	.string "medio de la nada?\l"
-	.string "Da muy mal rollo.$"
+	.string "Have you seen that big warehouse in the\n"
+	.string "middle of nowhere? It gives off a\l"
+	.string "creepy vibe.$"
 
 
 Route52_Text_Nadadora2PostBattle:
-	.string "¡Oh, descarado!$"
+	.string "Oh, you cheeky!$"
 
 
 Route52_Text_NadadorIntro:
-	.string "Perdóname, pensé que eras otro de\n"
-	.string "esos ejecutivos de TORRE RADIO.\l"
-	.string "Veo que sabes entrenar bien a los\l"
-	.string "tuyos.$"
+	.string "Forgive me, I thought you were another\n"
+	.string "one of those executives from RADIO\l"
+	.string "TOWER. I see you know how to train your\l"
+	.string "Pokémon well.$"
 
 
 Route52_Text_NadadorDefeated:
-	.string "Estas aguas se mantienen tan puras\n"
-	.string "y cristalinas precisamente porque\l"
-	.string "gente como tú desconoce de su\l"
-	.string "existencia.$"
+	.string "These waters remain pure and crystal\n"
+	.string "clear precisely because people like you\l"
+	.string "are unaware of their existence.$"
 
 
 Route52_Text_NadadorPostBattle:
-	.string "¡No contaba con esto!$"
+	.string "I didn't expect this!$"
 
 
 Route52_Text_Nadador2Intro:
-	.string "Muchos nadadores empiezan a\n"
-	.string "meterse confiados mar adentro, y\l"
-	.string "acaban tan cansados que no les\l"
-	.string "quedan fuerzas para volver. Para\l"
-	.string "evitar esos sustos creo que\l"
-	.string "cerrarán esta ruta que conecta con\l"
-	.string "TRIGAL, que de todos modos no es\l"
-	.string "navegable...$"
+	.string "Many swimmers start confidently\n"
+	.string "venturing into the sea and end up so\l"
+	.string "exhausted that they don't have the\l"
+	.string "strength to return. To avoid these\l"
+	.string "scares, I think they will close this\l"
+	.string "route that connects to GOLDENROD,\l"
+	.string "which is not navigable anyway...$"
 
 
 Route52_Text_Nadador2Defeated:
-	.string "¡Eh, tú, no tan rápido!\n"
-	.string "Sabes que si vienes hasta aquí,\l"
-	.string "después tienes que volver, ¿no?$"
+	.string "Hey, you, not so quickly! You're aware\n"
+	.string "that if you come here, you have to\l"
+	.string "return, don't you?$"
 
 
 Route52_Text_Nadador2PostBattle:
-	.string "¡Tú sí que no te cansas!$"
+	.string "You, for sure, don't tire out!$"
 
 
 Route52_Text_Nadador3Intro:
-	.string "¿Sabes lo que has hecho?\n"
-	.string "¡Me has dejado agotado y sin\l"
-	.string "POKÉMON!\l"
-	.string "¿Ahora cómo vuelvo?$"
+	.string "Do you know what you've done? You've\n"
+	.string "left me exhausted and without POKÉMON!\l"
+	.string "How am I supposed to get back now?$"
 
 
 Route52_Text_Nadador3Defeated:
-	.string "¿Tienes idea de lo que significa\n"
-	.string "volver a nado a OLIVO desde aquí?\l"
-	.string "¡Lo sabrás cuando derrote a todos\l"
-	.string "tus POKÉMON y no te quede más\l"
-	.string "remedio que bajarte y nadar!$"
+	.string "Do you have any idea what it means to\n"
+	.string "swim back to OLIVINE from here? You'll\l"
+	.string "find out when I defeat all your\l"
+	.string "POKÉMON, and you have no choice but to\l"
+	.string "get off and swim!$"
 
 
 Route52_Text_Nadador3PostBattle:
-	.string "¡Ya no puedo volver usando SURF!$"
+	.string "I can no longer return using SURF!$"
 
 
 Route27_Text_OrnitologoIntro:
-	.string "Al fin mis aves pueden volver a\n"
-	.string "planear en este bello lugar, ¡mira\l"
-	.string "lo contentas que están!$"
+	.string "Finally, my birds can soar again in this\n"
+	.string "beautiful place; look how happy they\l"
+	.string "are!$"
 
 
 Route27_Text_OrnitologoDefeated:
-	.string "¡Guau, qué fuerza!$"
+	.string "Oh, impressive strength!$"
 
 
 Route27_Text_OrnitologoPostBattle:
-	.string "PEGASO padre me dio un STARLY hace\n"
-	.string "tiempo, STARAPTOR se ha convertido\l"
-	.string "desde entonces en mi ave favorita.\l"
-	.string "¡Tiene mucha más fuerza y\l"
-	.string "agresividad que PIDGEOT!$"
+	.string "PEGASUS gave me a STARLY a while back;\n"
+	.string "STARAPTOR has become my favorite bird.\l"
+	.string "It has much more strength and\l"
+	.string "aggressiveness than PIDGEOT!$"
 
 
 Route27_Text_PescadorIntro:
-	.string "Estas aguas llevan tiempo sin\n"
-	.string "removerse.\l"
-	.string "¡Ahora que he llegado el primero\l"
-	.string "después de la apertura de\l"
-	.string "fronteras aprovecharé para\l"
-	.string "quedarme con las mejores piezas!$"
+	.string "These waters haven't been stirred for a\n"
+	.string "while. Now that I'm the first one here\l"
+	.string "after the border opening, I'll take the\l"
+	.string "opportunity to claim the best pieces!$"
 
 
 Route27_Text_PescadorDefeated:
-	.string "¡No! ¡En esta batalla, no!$"
+	.string "No! Not in this battle!$"
 
 
 Route27_Text_PescadorPostBattle:
-	.string "Espera y verás, aún quedan\n"
-	.string "TOTODILE por aquí, con un\l"
-	.string "FERALIGATR en mi equipo te hubiera\l"
-	.string "hecho papilla.$"
+	.string "Wait and see, there are still TOTODILE\n"
+	.string "around here; with a FERALIGATR on my\l"
+	.string "team, I would have crushed you.$"
 
 
 Route27_Text_GuayIntro:
-	.string "Llegas tarde, algunos ya nos hemos\n"
-	.string "adelantado.\l"
-	.string "¡No serás el primero en volver a\l"
-	.string "ver la famosa RUTA 26!$"
+	.string "You're late, some of us have already\n"
+	.string "moved ahead. You won't be the first one\l"
+	.string "to see the famous ROUTE 26 again!$"
 
 
 Route27_Text_GuayDefeated:
-	.string "¡Eh, espera, esto no estaba\n"
-	.string "planeado!$"
+	.string "Hey, hold on, this wasn't part of the\n"
+	.string "plan!$"
 
 
 Route27_Text_GuayPostBattle:
-	.string "Ojalá pudiera entrar al MONTE\n"
-	.string "PLATEADO...$"
+	.string "If only I could go into MT.SILVER...$"
 
 
 Route26_Text_PescadorIntro:
-	.string "¡Uajaja!\n"
-	.string "¡Date prisa o todos los peces\l"
-	.string "gordos habrán volado!$"
+	.string "Uahaha! Hurry, or all the big fish will\n"
+	.string "have flown the coop!$"
 
 
 Route26_Text_PescadorDefeated:
-	.string "¡Me has pasado por encima!$"
+	.string "You overtaked me!$"
 
 
 Route26_Text_PescadorPostBattle:
-	.string "La regla número 1 del pescador\n"
-	.string "es...\l"
-	.string "¡Llegar antes que la competencia!$"
+	.string "The fisherman's number 1 rule is...\n"
+	.string "Arrive before competitors!$"
 
 
 Route26_Text_GuardaIntro:
-	.string "RUTA 26 es aún más bella de lo\n"
-	.string "que recordaba, espero que se\l"
-	.string "mantenga así por mucho tiempo.$"
+	.string "ROUTE 26 is even more beautiful than I\n"
+	.string "remembered; I hope it stays that way\l"
+	.string "for a long time.$"
 
 
 Route26_Text_GuardaDefeated:
-	.string "¡Los POKÉMON no son armas de\n"
-	.string "guerra!$"
+	.string "POKÉMON are not war machines!$"
 
 
 Route26_Text_GuardaPostBattle:
-	.string "¿Crees que este lugar seguirá\n"
-	.string "igual dentro de 3 años?$"
+	.string "Do you think this place will remain the\n"
+	.string "same in 3 years?$"
 
 
 Route26_Text_GuayIntro:
-	.string "Es en estos duros combates donde\n"
-	.string "ganas más poder.$"
+	.string "Your power increases the most in these\n"
+	.string "tough battles.$"
 
 
 Route26_Text_GuayDefeated:
-	.string "¡La vida es aún más dura!$"
+	.string "Life is even harder!$"
 
 
 Route26_Text_GuayPostBattle:
-	.string "¡Guau, qué duro! No había\n"
-	.string "luchado tan en serio desde hacía\l"
-	.string "mucho.$"
+	.string "Wow, that was tough! I hadn't fought\n"
+	.string "that seriously in a long time.$"
 
 
 Route26_Text_Guarda2Intro:
-	.string "Esta RUTA es un paraje natural\n"
-	.string "único, espero que no empiece a\l"
-	.string "llenarse de turistas como tú.$"
+	.string "This ROUTE is a unique natural\n"
+	.string "landscape; I hope it doesn't start\l"
+	.string "filling up with tourists like you.$"
 
 
 Route26_Text_Guarda2Defeated:
-	.string "¡Vale, era broma!$"
+	.string "Okay, it was a joke!$"
 
 
 Route26_Text_Guarda2PostBattle:
-	.string "Este lugar acabará llenándose de\n"
-	.string "gente sí o sí. Después de todo, es\l"
-	.string "la única forma de hacer el\l"
-	.string "trayecto JOHTO-KANTO a pie, y está\l"
-	.string "al lado de la LIGA POKÉMON.$"
+	.string "This place will end up getting crowded\n"
+	.string "for sure. After all, it's the only way to\l"
+	.string "travel from JOHTO to KANTO on foot, and\l"
+	.string "it's next to POKÉMON LEAGUE.$"
 
 
 Route26_Text_ChicoIntro:
-	.string "Aquí mis POKÉMON son libres.\n"
-	.string "¡Libres como el viento!$"
+	.string "In this place, my POKÉMON roam freely.\n"
+	.string "As free as the wind!$"
 
 
 Route26_Text_ChicoDefeated:
-	.string "¡Ouch!\n"
-	.string "¡Me han cortado las alas!$"
+	.string "Ouch! My wings have been clipped!$"
 
 
 Route26_Text_ChicoPostBattle:
-	.string "A veces pongo a jugar juntos a\n"
-	.string "GLISCOR y BRAVIARY, no hay un\l"
-	.string "pájaro que embista con la fuerza\l"
-	.string "de BRAVIARY, y el único que tiene\l"
-	.string "la DEFENSA suficiente como para\l"
-	.string "aguantarlas es GLISCOR. Aunque si\l"
-	.string "tuviera un SKARMORY...$"
+	.string "Sometimes I let GLISCOR and BRAVIARY\n"
+	.string "play together; there's no bird that\l"
+	.string "charges with the force of BRAVIARY,\l"
+	.string "and the only one with enough DEFENSE\l"
+	.string "to withstand it is GLISCOR. Although, if\l"
+	.string "I had a SKARMORY...$"
 
 
 Route26_Text_Guay2Intro:
-	.string "¿Quieres ir al MONTE PLATEADO?\n"
-	.string "¡Solo dejan pasar a contadas\l"
-	.string "personas!$"
+	.string "Wanna see MT.SILVER! Only a few top\n"
+	.string "trainers can!$"
 
 
 Route26_Text_Guay2Defeated:
-	.string "¿Quién eres tú?$"
+	.string "Are you one of these top trainers?!$"
 
 
 Route26_Text_Guay2PostBattle:
-	.string "Para poder explorar el MONTE\n"
-	.string "PLATEADO necesitas ser EX-CAMPEÓN\l"
-	.string "de la LIGA, o tener un permiso\l"
-	.string "especial, casi nada...$"
+	.string "In order to explore MOUNT SILVER, you\n"
+	.string "must be a former POKÉMON LEAGUE\l"
+	.string "CHAMPION or possess a special permit,\l"
+	.string "quite simple...$"
 
 
 TinTowerP2_Text_MonjeIntro:
-	.string "Nuestro GRAN MAESTRO ya advirtió\n"
-	.string "de tu presencia aquí.\l"
-	.string "La cuestión es, ¿estás preparado?$"
+	.string "Our GRAND MASTER has already noticed\n"
+	.string "your presence here. The question is, are\l"
+	.string "you prepared?$"
 
 
 TinTowerP2_Text_MonjeDefeated:
-	.string "Ah, si...$"
+	.string "Ah, yes...$"
 
 
 TinTowerP2_Text_MonjePostBattle:
-	.string "Este lugar se ha mantenido en pie\n"
-	.string "por casi un milenio, y seguirá así\l"
-	.string "hasta el fin de los tiempos.$"
+	.string "For almost a millennium, this place has\n"
+	.string "stood firm, and it will remain like this\l"
+	.string "until the end of time.$"
+
 
 
 TinTowerP3_Text_MonjeIntro:
-	.string "Pasé la primavera con mis\n"
-	.string "POKÉMON. Y el verano, otoño e\l"
-	.string "invierno. Luego volvió la\l"
-	.string "primavera. Hemos vivido juntos\l"
-	.string "mucho tiempo.$"
+	.string "I spent spring with my POKÉMON. And\n"
+	.string "the summer, fall, and winter. Then spring\l"
+	.string "came again. We have lived together for a\l"
+	.string "long time.$"
 
 
 TinTowerP3_Text_MonjeDefeated:
-	.string "Viví victorias y derrotas.$"
+	.string "I lived through triumphs and losses.$"
 
 
 TinTowerP3_Text_MonjePostBattle:
-	.string "¿De dónde vienen los POKÉMON?$"
+	.string "POKÉMON... Where are they from?$"
 
 
 TinTowerP4_Text_MonjeIntro:
-	.string "Solo los elegidos pueden subir a\n"
-	.string "la cima de TORRE CAMPANA.\l"
-	.string "¿Creías que no íbamos a ponerte a\l"
-	.string "prueba?$"
+	.string "Only the chosen ones can climb to the\n"
+	.string "top of BELL TOWER. Did you think we\l"
+	.string "wouldn't put you to the test?$"
 
 
 TinTowerP4_Text_MonjeDefeated:
-	.string "¡Ah, excelente!$"
+	.string "Ah, superb!$"
 
 
 TinTowerP4_Text_MonjePostBattle:
-	.string "Solo nuestro GRAN MAESTRO ha\n"
-	.string "llegado a ver en persona al\l"
-	.string "LEGENDARIO HO-OH, dice que volverá\l"
-	.string "una última vez antes de su\l"
-	.string "partida.$"
+	.string "Only our GRAND MASTER has had the\n"
+	.string "privilege of seeing the LEGENDARY\l"
+	.string "HO-OH in person. It's said it will return\l"
+	.string "one last time before its departure.$"
 
 
 TinTowerP5_Text_MonjeIntro:
-	.string "Nuestro LÍDER estará encantado de\n"
-	.string "tener una buena conversación\l"
-	.string "contigo, si llegas hasta arriba\l"
-	.string "del todo, claro.$"
+	.string "Our LEADER will be pleased to engage in\n"
+	.string "a meaningful conversation with you... if\l"
+	.string "you can reach the top.$"
 
 
 TinTowerP5_Text_MonjeDefeated:
-	.string "Mi entrenamiento es incompleto...$"
+	.string "My training is incomplete..$"
 
 
 TinTowerP5_Text_MonjePostBattle:
-	.string "TORRE HOJALATA era el nombre que\n"
-	.string "la actual TORRE CAMPANA tenía,\l"
-	.string "antes de que TORRE LATÓN pasara a\l"
-	.string "ser TORRE QUEMADA después del\l"
-	.string "incendio de hace 150 años.$"
+	.string "TIN TOWER was the name that the\n"
+	.string "current BELL TOWER had before BRASS\l"
+	.string "TOWER became BURN TOWER after the fire\l"
+	.string "150 years ago.$"
 
 
 TinTowerP6_Text_MonjeIntro:
-	.string "Espero que sepas apreciar el mero\n"
-	.string "hecho de estar aquí, la mayoría de\l"
-	.string "habitantes de KANTO no pisarán\l"
-	.string "JOHTO en su vida. Tú, en cambio,\l"
-	.string "estás en el mayor templo de la\l"
-	.string "región.$"
+	.string "I hope you recognize the simple fact of\n"
+	.string "being here; the majority of KANTO\l"
+	.string "residents will never step into JOHTO in\l"
+	.string "their lives. Meanwhile, you are in the\l"
+	.string "region's grandest temple.$"
 
 
 TinTowerP6_Text_MonjeDefeated:
-	.string "Ya veo por qué has llegado tan\n"
-	.string "lejos.$"
+	.string "I see why you have came so far.$"
 
 
 TinTowerP6_Text_MonjePostBattle:
-	.string "Aunque se avecinen cambios\n"
-	.string "inevitables en los próximos años,\l"
-	.string "este lugar mantendrá viva su\l"
-	.string "esencia.$"
+	.string "Even with inevitable changes looming in\n"
+	.string "the coming years, this place will keep\l"
+	.string "its essence alive.$"
 
 
 TinTowerP7_Text_MonjeIntro:
-	.string "¿Así que quieres saber más acerca\n"
-	.string "de la historia de JOHTO?\l"
-	.string "Estás en el lugar adecuado.$"
+	.string "So, you want to know more about the\n"
+	.string "JOHTO history? You're in the right\l"
+	.string "place.$"
 
 
 TinTowerP7_Text_MonjeDefeated:
-	.string "Cuánto potencial.$"
+	.string "So much potential.$"
 
 
 TinTowerP7_Text_MonjePostBattle:
-	.string "TORRE CAMPANA nace del vínculo\n"
-	.string "entre CIUDAD IRIS y HO-OH, pero\l"
-	.string "HO-OH no es el origen de todo.$"
+	.string "BELL TOWER comes from the bond\n"
+	.string "between ECRUTEAK CITY and HO-OH, but\l"
+	.string "HO-OH is not the starting point of\l"
+	.string "everything.$"
 
 
 TinTowerP7_Text_Monje2Intro:
-	.string "Una vez oí hablar al GRAN MAESTRO\n"
-	.string "acerca de LUGIA y HO-OH, lo que\l"
-	.string "dijo me sorprendió.$"
+	.string "I once heard the GRAND MASTER talk\n"
+	.string "about LUGIA and HO-OH; what he said\l"
+	.string "surprised me.$"
 
 
 TinTowerP7_Text_Monje2Defeated:
-	.string "Me falta un largo camino por\n"
-	.string "recorrer.$"
+	.string "I'm far from reaching my destination.$"
 
 
 TinTowerP7_Text_Monje2PostBattle:
-	.string "El GRAN MAESTRO llegó a decir que\n"
-	.string "LUGIA y HO-OH no eran más que la\l"
-	.string "puerta hacia lo más grande y\l"
-	.string "trascendental de este mundo, que\l"
-	.string "eran solo la expresión material de\l"
-	.string "ello. ¿Qué querrá decir?$"
+	.string "The GRAND MASTER went so far as to say\n"
+	.string "that LUGIA and HO-OH were nothing more\l"
+	.string "than the gateway to the greatest and\l"
+	.string "most transcendent aspects of this\l"
+	.string "world, merely the material expression of\l"
+	.string "that. What could he mean?$"
 
 
 TinTowerP8_Text_MonjeIntro:
-	.string "Después de 700 años, TORRE CAMPANA\n"
-	.string "se sigue elevando por encima de\l"
-	.string "cualquier otra construcción en\l"
-	.string "toda KANTO o JOHTO.$"
+	.string "After 700 years, BELL TOWER still rises\n"
+	.string "above any other structure in all of\l"
+	.string "KANTO or JOHTO areas.$"
 
 
 TinTowerP8_Text_MonjeDefeated:
-	.string "Ya veo, ya...$"
+	.string "I see, I see...$"
 
 
 TinTowerP8_Text_MonjePostBattle:
-	.string "Ni la gran SILPH, ni la TORRE\n"
-	.string "RADIO, ni el FARO OLIVO, han\l"
-	.string "podido superar en altura a TORRE\l"
-	.string "CAMPANA, construida por aquellos\l"
-	.string "que de verdad creían en la unión\l"
-	.string "entre humanos y POKÉMON.$"
+	.string "Neither SILPH, nor GOLDENROD RADIO\n"
+	.string "TOWER, nor the OLIVINE LIGHTHOUSE\l"
+	.string "have managed to surpass the height of\l"
+	.string "BELL TOWER, constructed by those who\l"
+	.string "truly believed in the bond between\l"
+	.string "humans and POKÉMON.$"
 
 
 TinTowerP9_Text_MonjeIntro:
-	.string "Hay cierta preocupación por el\n"
-	.string "nivel de las nuevas generaciones.\l"
-	.string "¿Eres tú la excepción?$"
+	.string "There is some concern about the level\n"
+	.string "of the new generations. Are you the\l"
+	.string "exception?$"
 
 
 TinTowerP9_Text_MonjeDefeated:
-	.string "Parece ser que sí.$"
+	.string "It seems so.$"
 
 
 TinTowerP9_Text_MonjePostBattle:
-	.string "El ambiente influye, pero los\n"
-	.string "grandes ENTRENADORES pueden\l"
-	.string "provenir de cualquier lugar, tú lo\l"
-	.string "has demostrado.$"
+	.string "The atmosphere plays a role, but\n"
+	.string "exceptional TRAINERS can come from any\l"
+	.string "place, as you have demonstrated.$"
 
 
 TinTowerP9_Text_Monje2Intro:
-	.string "Aquí no creemos en elegidos y\n"
-	.string "demás sandeces.\l"
-	.string "La verdadera pregunta es, ¿crees\l"
-	.string "poder forjar tu propio destino?$"
+	.string "Here, we don't believe in chosen ones\n"
+	.string "and other nonsenses. The real question\l"
+	.string "is, do you believe you can forge your\l"
+	.string "own destiny?$"
 
 
 TinTowerP9_Text_Monje2Defeated:
-	.string "Claro es tu propósito.$"
+	.string "Your purpose is clear.$"
 
 
 TinTowerP9_Text_Monje2PostBattle:
-	.string "Has superado nuestra prueba,\n"
-	.string "mereces subir a la cima de TORRE\l"
-	.string "CAMPANA.$"
+	.string "You've proven yourself in our test; you\n"
+	.string "deserve to ascend to the top of BELL\l"
+	.string "TOWER.$"
 
 
 Route43_Text_GuardaIntro:
-	.string "¿Puedes ver la belleza de este\n"
-	.string "lugar?\l"
-	.string "¡Pues no la estropees!$"
+	.string "Are you able to appreciate the beauty\n"
+	.string "of this location? Well, don't ruin it!$"
 
 
 Route43_Text_GuardaDefeated:
-	.string "¡Mis plantas!$"
+	.string "My plants!$"
 
 
 Route43_Text_GuardaPostBattle:
-	.string "Perdóname por ser brusco, pero\n"
-	.string "algunos no respetan lugares como\l"
-	.string "este. Hasta pondrían una caseta\l"
-	.string "solo para cobrar 1000 míseros\l"
-	.string "POKÉS por el acceso al LAGO DE LA\l"
-	.string "FURIA. Tú no pareces ser de esos.$"
+	.string "Excuse my bluntness, but some lack\n"
+	.string "respect for places like this. They would\l"
+	.string "even set up a booth just to charge a\l"
+	.string "paltry 1000 POKÉS for access to FURY\l"
+	.string "LAKE. You don't seem to be one of them.$"
 
 
 Route43_Text_ChicaIntro:
-	.string "Me encanta pasear por los\n"
-	.string "alrededores del LAGO DE LA FURIA,\l"
-	.string "¡especialmente después de los días\l"
-	.string "lluviosos!$"
+	.string "I enjoy taking a walk around the area\n"
+	.string "of FURY LAKE, particularly after rainy\l"
+	.string "days!$"
 
 
 Route43_Text_ChicaDefeated:
-	.string "Mis POKÉMON no pudieron más...$"
+	.string "My POKÉMON couldn't take it anymore...$"
 
 
 Route43_Text_ChicaPostBattle:
-	.string "No hay nada como levantarse\n"
-	.string "temprano después de un día\l"
-	.string "lluvioso, ese olor característico\l"
-	.string "a tierra mojada...\l"
-	.string "Los charcos que se forman\l"
-	.string "alrededor del lago...\l"
-	.string "En esos días, te sientes uno con\l"
-	.string "el medio.$"
+	.string "Nothing beats waking up early after a\n"
+	.string "rainy day, that distinctive smell of\l"
+	.string "moist soil... The puddles forming around\l"
+	.string "the lake... On those days, you feel in\l"
+	.string "tune with nature.$"
 
 
 Route43_Text_PescadorIntro:
-	.string "Dicen que en lo profundo del LAGO\n"
-	.string "DE LA FURIA habita un monstruo.\l"
-	.string "¡No son más que cuentos!$"
+	.string "It's said a monster dwells deep within\n"
+	.string "RAGE LAKE. It's nothing but tales!$"
 
 
 Route43_Text_PescadorDefeated:
-	.string "¡Creí que ganaría!$"
+	.string "I thought I could win!$"
 
 
 Route43_Text_PescadorPostBattle:
-	.string "El LAGO DE LA FURIA destaca por\n"
-	.string "sus MAGIKARP, por lo que de furia\l"
-	.string "tiene poco...$"
+	.string "LAKE OF RAGE is known for its MAGIKARP,\n"
+	.string "so it's not really about rage...$"
 
 
 LakeofRage_Text_PescadorIntro:
-	.string "¡Este lugar es en realidad un nido\n"
-	.string "de GYARADOS!\l"
-	.string "¿No me crees?\l"
-	.string "¡Mira!$"
+	.string "This place is actually a GYARADOS nest!\n"
+	.string "Don't believe me? Look!$"
+
 
 
 LakeofRage_Text_PescadorDefeated:
-	.string "¡Aplacaste la furia de GYARADOS!$"
+	.string "You appeased GYARADOS's rage!$"
 
 
 LakeofRage_Text_PescadorPostBattle:
-	.string "¡Shhh!\n"
-	.string "La mayoría de pescadores aquí\l"
-	.string "creen que solo hay MAGIKARP, pero\l"
-	.string "eso es solo en la superficie, ¡si\l"
-	.string "usas una SUPER CAÑA, llegarás a\l"
-	.string "las profundidades del lago, donde\l"
-	.string "están los GYARADOS!$"
+	.string "Shhh! Most fishermen here think there's\n"
+	.string "only MAGIKARP, but that's just on the\l"
+	.string "surface. If you use a SUPER ROD, you'll\l"
+	.string "reach the depths of the lake, where all\l"
+	.string "the GYARADOS are!$"
 
 
 LakeofRage_Text_SabioIntro:
-	.string "Yo y mis POKÉMON estamos listos\n"
-	.string "para un combate más.\l"
-	.string "¡Adelante!\l"
-	.string "¡El LAGO DE LA FURIA está como\l"
-	.string "testigo del nivel desplegado aquí!$"
+	.string "We are ready for another bout. Charge!\n"
+	.string "LAKE OF RAGE serves as a witness to the\l"
+	.string "level displayed here!$"
 
 
 LakeofRage_Text_SabioDefeated:
-	.string "Oh, fue un gran combate, lo\n"
-	.string "recordaré siempre.$"
+	.string "Oh, it was a splendid battle; it will\n"
+	.string "remain in my memory forever.$"
 
 
 LakeofRage_Text_SabioPostBattle:
-	.string "Gracias por el combate, con el\n"
-	.string "LAGO DE LA FURIA como testigo,\l"
-	.string "nada podrá deshacer las cotas que\l"
-	.string "hoy alcanzamos con nuestros\l"
-	.string "equipos, por mucho que se pierdan\l"
-	.string "en el tiempo.$"
+	.string "Thanks for the battle, with the LAKE OF\n"
+	.string "RAGE watching, the heights we reached\l"
+	.string "today with our teams cannot be\l"
+	.string "unraveled, no matter how time passes.$"
 
 
 LakeofRage_Text_GuayIntro:
-	.string "Creo que vi un MAGIKARP dorado,\n"
-	.string "deben de ser imaginaciones mías.$"
+	.string "I believe I spotted a golden MAGIKARP;\n"
+	.string "it's probably just my imagination.$"
 
 
 LakeofRage_Text_GuayDefeated:
-	.string "¡Muy bien!$"
+	.string "Very good!$"
 
 
 LakeofRage_Text_GuayPostBattle:
-	.string "Este lago debe de tener algún\n"
-	.string "misterio más allá de MAGIKARP y\l"
-	.string "GYARADOS, ¿no crees?$"
+	.string "This lake must have some mystery\n"
+	.string "beyond MAGIKARP and GYARADOS, don't\l"
+	.string "you think?$"
 
 
 NinjaBaseS1_Text_LadronIntro:
-	.string "Este es uno de los últimos\n"
-	.string "escondites que quedan libres en\l"
-	.string "JOHTO.\l"
-	.string "¿Crees que vamos a renunciar tan\l"
-	.string "facilmente?$"
+	.string "This is one of the last remaining\n"
+	.string "hideouts in JOHTO. Do you think we're\l"
+	.string "going to give up so easily?$"
 
 
 NinjaBaseS1_Text_LadronDefeated:
-	.string "Nuestros superiores se encargarán\n"
-	.string "de ti.$"
+	.string "Our superiors will take care of you.$"
 
 
 NinjaBaseS1_Text_LadronPostBattle:
-	.string "Como ENTRENADOR individual eres\n"
-	.string "excepcional, pero las batallas las\l"
-	.string "ganan los equipos, tú en cambio\l"
-	.string "aquí estás solo.$"
+	.string "As an individual TRAINER, you are\n"
+	.string "exceptional, but battles are won by\l"
+	.string "teams: you are alone here.$"
 
 
 NinjaBaseS1_Text_CalvoIntro:
-	.string "¿Otro ROCKET más?\n"
-	.string "¡¿Un oficial?!\l"
-	.string "¡Será lo mismo!$"
+	.string "One more ROCKET?! A top ROCKET ADMIN.?\n"
+	.string "It will be the same!$"
+
 
 
 NinjaBaseS1_Text_CalvoDefeated:
-	.string "Guau, ¡qué potencia!$"
+	.string "Wow, that's powerful!$"
 
 
 NinjaBaseS1_Text_CalvoPostBattle:
-	.string "Esta base no pertence a nadie,\n"
-	.string "nosotros llegamos primero y nos la\l"
-	.string "apropiamos. Si FREDO no estuvo\l"
-	.string "atento, ¡no es nuestro problema!$"
+	.string "This base is unclaimed; we got here\n"
+	.string "first and seized it. If FREDO wasn't\l"
+	.string "seeing, it's not our concern!$"
 
 
 NinjaBaseS2_Text_NinjaIntro:
-	.string "Esta base perteneció a los ninjas.\n"
-	.string "¡Y a los ninjas volverá a\l"
-	.string "pertenecer!$"
+	.string "This base belonged to the ninjas. And\n"
+	.string "to the ninjas, it will belong again!$"
 
 
 NinjaBaseS2_Text_NinjaDefeated:
-	.string "¡Bomba de humo!$"
+	.string "Smoke bomb!$"
 
 
 NinjaBaseS2_Text_NinjaPostBattle:
-	.string "Podrás ser fuerte, pero no podrás\n"
-	.string "con todos nosotros a la vez.$"
+	.string "You may be strong, but you can't handle\n"
+	.string "all of us at once.$"
 
 
 NinjaBaseS2_Text_LadronIntro:
-	.string "Ningún ROCKET ha logrado pasar de\n"
-	.string "este punto, ¿quién eres tú?$"
+	.string "No ROCKET has been able to surpass this\n"
+	.string "point. Who are you?$"
 
 
 NinjaBaseS2_Text_LadronDefeated:
-	.string "¡No eres un ROCKET corriente!$"
+	.string "You are not a common ROCKET GRUNT!$"
 
 
 NinjaBaseS2_Text_LadronPostBattle:
-	.string "¡Qué más da mi derrota!\n"
-	.string "¡Estás a años luz de poder tocar a\l"
-	.string "nuestros jefes!$"
+	.string "My defeat doesn't matter! You're\n"
+	.string "light-years away from being able to\l"
+	.string "touch our bosses!$"
 
 
 NinjaBaseS2_Text_Ladron2Intro:
-	.string "Aquí montaremos nuestros negocios.\n"
-	.string "¡Este lugar ya tiene dueño!$"
+	.string "We'll establish our businesses here.\n"
+	.string "This place is already claimed!$"
 
 
 NinjaBaseS2_Text_Ladron2Defeated:
-	.string "¡Salí escaldado!$"
+	.string "I got burned!$"
 
 
 NinjaBaseS2_Text_Ladron2PostBattle:
-	.string "Como esto salga mal tendré que\n"
-	.string "volver al SUBTERRÁNEO de TRIGAL...$"
+	.string "If this goes wrong, I'll have to return\n"
+	.string "to the GOLDENROD UNDERGROUND sewers..$"
 
 
 NinjaBaseS2_Text_Ninja2Intro:
-	.string "¡Fwaaaa!\n"
-	.string "¡Soy rápido como el rayo, y duro\l"
-	.string "como la roca!$"
+	.string "Fwaaaa! I'm fast as lightning, and tough\n"
+	.string "as a rock!$"
 
 
 NinjaBaseS2_Text_Ninja2Defeated:
-	.string "Espera, ¿se acabó?$"
+	.string "Wait, it's over?$"
 
 
 NinjaBaseS2_Text_Ninja2PostBattle:
-	.string "FREDO decía que esta base era\n"
-	.string "patrimonio de JOHTO. Cuando nos\l"
-	.string "enteramos de que la cedió al TEAM\l"
-	.string "ROCKET, decidimos actuar por\l"
-	.string "nuestra cuenta.$"
+	.string "FREDO declared this base as JOHTO's\n"
+	.string "heritage. When we found out he gave it\l"
+	.string "to TEAM ROCKET, we decided to act on\l"
+	.string "our own.$"
 
 
 NinjaBaseS2_Text_CalvoIntro:
-	.string "Pero, ¿y la seguridad del piso de\n"
-	.string "arriba?\l"
-	.string "Esos ninjas...\l"
-	.string "Ya sabía que no podías confiar en\l"
-	.string "ellos, ¡tendré que ser yo quien te\l"
-	.string "eche de aquí a patadas!$"
+	.string "What about the security on the upper\n"
+	.string "floor?! Those ninjas... I already knew\l"
+	.string "you couldn't trust them. I'll have to be\l"
+	.string "the one to kick you out!$"
 
 
 NinjaBaseS2_Text_CalvoDefeated:
-	.string "¡Menuda paliza!$"
+	.string "That was some serious pounding!$"
 
 
 NinjaBaseS2_Text_CalvoPostBattle:
