@@ -27,10 +27,9 @@ release
 end
 
 CeladonCity_PokemonCenter_Text_2:
-.string "La POKÉ FLAUTA despierta a los\n"
-.string "POKÉMON dormidos.\l"
-.string "Al parecer emite un sonido que\l"
-.string "solo estos pueden escuchar.$"
+	.string "The POKÉ FLUTE wakes up sleeping\n"
+	.string "POKÉMON. It seems to emit a sound that\l"
+	.string "only they can hear.$"
 
 
 
@@ -42,8 +41,8 @@ release
 end
 
 CeladonCity_PokemonCenter_Text_3:
-.string "Si tuviera una BICI,¡iría al\n"
-.string "CAMINO BICIS!$"
+	.string "If I had a bike, I would go to the\n"
+	.string "CYCLING ROAD!$"
 
 
 
@@ -55,7 +54,7 @@ release
 end
 
 CeladonCity_PokemonCenter_Text_4:
-.string "Llegué aquí desde FUCSIA por el\n"
-.string "CAMINO BICIS.\l"
-.string "¡Estoy exhausta de pedalear todo\l"
-.string "cuesta arriba!$"
+	.string "I arrived here from FUCHSIA CITY\n"
+	.string "through the CYCLING ROAD. I'm\l"
+	.string "exhausted from pedaling uphill all the\l"
+	.string "way!$"

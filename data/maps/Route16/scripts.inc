@@ -49,7 +49,7 @@ release
 end
 
 Route16_Text_11:
-.string "Ese HITMONLEE pegaba durísimo…$"
+.string "That HITMONLEE hit so hard…$"
 
 
 Route16_12::
@@ -59,8 +59,8 @@ release
 end
 
 Route16_Text_12:
-.string "Ha acabado con nosotros 4 usando\n"
-.string "solo a 2 POKÉMON…$"
+	.string "He defeated all of us just using two\n"
+	.string "POKÉMON…$"
 
 
 
@@ -71,10 +71,8 @@ release
 end
 
 Route16_Text_13:
-.string "Ilusos…\n"
-.string "Nadie que desafíe a un miembro de\l"
-.string "la ÉLITE 4 puede salir bien\l"
-.string "parado…$"
+	.string "Losers… No one that defies an ELITE 4\n"
+	.string "member can come out well…$"
 
 
 Route16_14::
@@ -84,8 +82,7 @@ release
 end
 
 Route16_Text_14:
-.string "Así que este es el poder de la\n"
-.string "ÉLITE 4…$"
+	.string "So this is the ELITE 4 real power…$"
 
 Route16_15::
 lock        

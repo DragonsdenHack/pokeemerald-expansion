@@ -163,46 +163,41 @@ release
 end
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste MT53 GIGA IMPACTO\n"
-	.string "de manos de VENDEDOR!$"
+.string "You got MT53 GIGA IMPACT\n"
+	.string "from the hands of SALESMAN!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1:
-.string "Si un POKÉMON resiste un\n"
-	.string "movimiento físico y usa CONTADOR,\l"
-	.string "le devolverá a su rival el doble\l"
-	.string "de daño que acaba de provocarle.\l"
-	.string "¡Es por eso que hay que asegurarse\l"
-	.string "de que nuestros movimientos\l"
-	.string "físicos son definitivos y no dan\l"
-	.string "opción a que el rival mueva!\l"
-	.string "¡Si me derrotas te enseñaré como\l"
-	.string "destrozar a tu rival de un solo\l"
-	.string "golpe!$"
+	.string "If a POKEMON resists a physical move\n"
+	.string "and uses COUNTER, it will return double\l"
+	.string "the damage it just caused to its\l"
+	.string "opponent. That is why we must make sure\l"
+	.string "that our physical movements are\l"
+	.string "definitive and do not give the opponent\l"
+	.string "the option to move! If you defeat me I\l"
+	.string "will teach you how to destroy your rival\l"
+	.string "with a single blow!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_2:
-.string "¿Aceptas el reto?$"
+.string "Do you accept the challenge?$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_3:
-.string "GIGA IMPACTO tiene la friolera de\n"
-	.string "150 de POTENCIA, usado en POKÉMON\l"
-	.string "del tipo NORMAL también recibirá\l"
-	.string "STAB.\l"
-	.string "¡TAUROS o SNORLAX son las mejores\l"
-	.string "opciones, darán la estocada final\l"
-	.string "a ese POKÉMON tan difícil de\l"
-	.string "tumbar ya lo verás!$"
+	.string "GIGA IMPACT has a whopping 150 POWER,\n"
+	.string "used on NORMAL type POKEMON it will\l"
+	.string "also receive STAB, TAUROS or SNORLAX\l"
+	.string "are the best options, they will give the\l"
+	.string "final blow to that POKÉMON that is so\l"
+	.string "difficult to knock down, you'll see!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_4:
-.string "¡No te arrepentirás!$"
+.string "You won't regret!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_5:
-.string "¡Guau!\n"
-	.string "¡Qué potencia!$"
+.string "Wow!\n"
+	.string "So powerful!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_6:
-.string "¡Tus POKÉMON son un torbellino\n"
-	.string "ofensivo chico!\l"
-	.string "¡Esta MT te vendrá perfecta!$"
+	.string "Your POKÉMON are a defensive whirlwind!\n"
+	.string "This TM will be perfect for you.$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_7:
-.string "¡Tú te lo pierdes!$"
+.string "Ok you miss it!$"

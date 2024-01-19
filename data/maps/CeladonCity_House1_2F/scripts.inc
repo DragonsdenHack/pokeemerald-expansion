@@ -120,22 +120,17 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_10:
 	.string "been lucky to come across you.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_11:
-.string "¿¡Cómo?!\n"
-	.string "¡Eres alguien importante dentro de\l"
-	.string "la organización!\l"
-	.string "¿¡Y si no detengo mis críticas\l"
-	.string "hacia ese GURÚ harás uso de todo\l"
-	.string "tu poder e influencia para\l"
-	.string "arruinarme el negocio?!$"
+	.string "What?! You're someone important within\n"
+	.string "the organization! And if I don't stop my\l"
+	.string "criticisms towards that FISHERMAN, will\l"
+	.string "you use all your power and influence to\l"
+	.string "ruin my business?!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_12:
-.string "¡Está bien, tú ganas!\n"
-	.string "¡Dejaré de hablar de esa estúpida\l"
-	.string "CAÑA VIEJA que solo captura\l"
-	.string "MAGIKARPS!\l"
-	.string "¡Te lo prometo!\l"
-	.string "¡Pero no os metáis con mi negocio,\l"
-	.string "eso nunca!$"
+	.string "Alright, you win! I'll stop talking about\n"
+	.string "that stupid OLD ROD that only catches\l"
+	.string "MAGIKARPS! You have my word! But don't\l"
+	.string "mess with my business, never that!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Move_1:
 emote_exclamation_mark

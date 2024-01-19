@@ -9,9 +9,8 @@ release
 end
 
 CeladonCity_House2_Text_1:
-.string "¡El negocio va sobre ruedas\n"
-.string "recluta!\l"
-.string "¡Continuad así!$"
+	.string "The business is prospering, grunt! Keep\n"
+	.string "it up!$"
 
 
 
@@ -23,8 +22,8 @@ release
 end
 
 CeladonCity_House2_Text_2:
-.string "¡Así que vienes de ISLA INTA!\n"
-.string "¡Bienvenido a KANTO!$"
+	.string "So you come from FIVE ISLAND! Welcome\n"
+	.string "to KANTO!$"
 
 
 
@@ -36,6 +35,6 @@ release
 end
 
 CeladonCity_House2_Text_3:
-.string "¡Más de 2000 POKÉMON han sido\n"
-.string "enviados como premios en el CASINO\l"
-.string "en los últimos días!$"
+	.string "Over 2000 POKÉMON have been sent out\n"
+	.string "as prizes at the GAME CORNER in the\l"
+	.string "last few days!$"

@@ -13845,7 +13845,7 @@ NinjaBaseS1_Text_CalvoDefeated:
 
 NinjaBaseS1_Text_CalvoPostBattle:
 	.string "This base is unclaimed; we got here\n"
-	.string "first and seized it. If FREDO wasn't\l"
+	.string "first and seized it. If PRICE wasn't\l"
 	.string "seeing, it's not our concern!$"
 
 
@@ -13902,7 +13902,7 @@ NinjaBaseS2_Text_Ninja2Defeated:
 
 
 NinjaBaseS2_Text_Ninja2PostBattle:
-	.string "FREDO declared this base as JOHTO's\n"
+	.string "PRICE declared this base as JOHTO's\n"
 	.string "heritage. When we found out he gave it\l"
 	.string "to TEAM ROCKET, we decided to act on\l"
 	.string "our own.$"
@@ -13920,628 +13920,595 @@ NinjaBaseS2_Text_CalvoDefeated:
 
 
 NinjaBaseS2_Text_CalvoPostBattle:
-	.string "Hemos montado esta base para que\n"
-	.string "nadie pueda llegar hasta nuestros\l"
-	.string "jefes, ¡tus POKÉMON se agotarán\l"
-	.string "antes!$"
+	.string "We've set up this base so that no one\n"
+	.string "can reach our bosses; your POKÉMON will\l"
+	.string "tire out first!$"
 
 
 NinjaBaseS3_Text_CalvoIntro:
-	.string "¡Vamos, enróllate!\n"
-	.string "¡No seas tonto, hay base para\l"
-	.string "todos!$"
+	.string "Come on, relax! Don't be stupid, there's\n"
+	.string "space for everyone!$"
 
 
 NinjaBaseS3_Text_CalvoDefeated:
-	.string "¡Pensé que podríamos llegar a un\n"
-	.string "acuerdo!$"
+	.string "I thought we could work out a deal!$"
 
 
 NinjaBaseS3_Text_CalvoPostBattle:
-	.string "De modo que el TEAM ROCKET no hace\n"
-	.string "prisioneros, ¿eh?\l"
-	.string "Por quererlo todo os vamos a dejar\l"
-	.string "sin nada.\l"
-	.string "¡Juajuajua!$"
+	.string "So, TEAM ROCKET doesn't take prisoners,\n"
+	.string "huh? By wanting it all, we're going to\l"
+	.string "leave you with nothing. Hahaha!$"
 
 
 NinjaBaseS3_Text_LadronIntro:
-	.string "¿Tus PP van bien?\n"
-	.string "...\l"
-	.string "...\l"
-	.string "Sí, ya sabía yo que iban bien,\l"
-	.string "¡después de este combate irán aún\l"
-	.string "mejor!$"
+	.string "How are your PP? ... ... Yeah, I knew they\n"
+	.string "were fine; they'll be even better after\l"
+	.string "this fight!$"
 
 
 NinjaBaseS3_Text_LadronDefeated:
-	.string "He contribuido a tu desgaste.$"
+	.string "I've contributed to your fatige.$"
 
 
 NinjaBaseS3_Text_LadronPostBattle:
-	.string "Tus POKÉMON no podrán soportar el\n"
-	.string "castigo al que todos juntos te\l"
-	.string "someteremos, por muy ROCKET de\l"
-	.string "ÉLITE que seas.$"
+	.string "Your POKÉMON won't be able to bear the\n"
+	.string "punishment we'll all unleash upon you,\l"
+	.string "despite being an ELITE ROCKET.$"
 
 
 MahoganyTownGym_Text_GuayIntro:
-	.string "Todo lo que sé acerca del TIPO\n"
-	.string "HIELO se lo debo a FREDO.\l"
-	.string "¡Ahora verás lo que he aprendido!$"
+	.string "Everything I know about ICE-type is\n"
+	.string "thanks to FREDO. Now you'll see what\l"
+	.string "I've learned!$"
 
 
 MahoganyTownGym_Text_GuayDefeated:
-	.string "¿No fue suficiente?$"
+	.string "It wasn't enough?$"
 
 
 MahoganyTownGym_Text_GuayPostBattle:
-	.string "Aprender a manejar la voluntad es\n"
-	.string "una de las primeras lecciones que\l"
-	.string "FREDO enseña en su GIMNASIO, va\l"
-	.string "antes incluso del propio combate\l"
-	.string "POKÉMON.$"
+	.string "Mastering willpower is one of the first\n"
+	.string "lessons taught by FREDO in his GYM,\l"
+	.string "preceding even POKÉMON battles.$"
 
 
 MahoganyTownGym_Text_Guay2Intro:
-	.string "El ave más poderosa del TIPO HIELO\n"
-	.string "escogió a FREDO para representar a\l"
-	.string "este noble TIPO.\l"
-	.string "¿Qué tienes tú contra eso?$"
+	.string "The most powerful ICE-type bird chose\n"
+	.string "FREDO to represent this noble type.\l"
+	.string "What do you have against that?$"
 
 
 MahoganyTownGym_Text_Guay2Defeated:
-	.string "Ya veo, tienes mucho que decir.$"
+	.string "I see, you have a lot to say.$"
 
 
 MahoganyTownGym_Text_Guay2PostBattle:
-	.string "Hay muchos ARTICUNO, pero como el\n"
-	.string "de FREDO solo hay uno.$"
+	.string "There are many ARTICUNO, but there's\n"
+	.string "only one like FREDO's.$"
 
 
 MahoganyTownGym_Text_Guay3Intro:
-	.string "Este GIMNASIO tiene un suelo\n"
-	.string "resbaladizo. ¿A que es divertido?\l"
-	.string "¡Pero oye, aquí no estamos\l"
-	.string "jugando!$"
+	.string "This GYM has a slippery floor. Isn't it\n"
+	.string "fun? But hey, we're not playing around\l"
+	.string "here!$"
 
 
 MahoganyTownGym_Text_Guay3Defeated:
-	.string "¿Ves lo serios que somos?$"
+	.string "Do you see how serious we are?$"
 
 
 MahoganyTownGym_Text_Guay3PostBattle:
-	.string "Este GIMNASIO es genial. ¡Me\n"
-	.string "encanta patinar con mis POKéMON!$"
+	.string "This GYM is awesome. I love skating with\n"
+	.string "my POKÉMON!$"
 
 
 MahoganyTownGym_Text_Guay4Intro:
-	.string "Conozco el secreto de FREDO.$"
+	.string "I know PRYCE's secret.$"
 
 
 MahoganyTownGym_Text_Guay4Defeated:
-	.string "Te contaré el secreto de FREDO.$"
+	.string "I'll tell you PRYCE's secret.$"
 
 
 MahoganyTownGym_Text_Guay4PostBattle:
-	.string "El secreto del poder de FREDO...\n"
-	.string "Medita todos los días bajo una\l"
-	.string "cascada para fortalecer el cuerpo\l"
-	.string "y la mente.$"
+	.string "The secret of FREDO's power... He\n"
+	.string "meditates every day under a waterfall\l"
+	.string "to strengthen both body and mind.$"
 
 
 Route44_Text_DomadorIntro:
-	.string "¡Haré que todo tu equipo se\n"
-	.string "arrodille ante mí a latigazos!$"
+	.string "I'll have your whole team bow down to me\n"
+	.string "with whip strikes!$"
 
 
 Route44_Text_DomadorDefeated:
-	.string "¡No, por favor, no sigas!$"
+	.string "No please! Stop!$"
 
 
 Route44_Text_DomadorPostBattle:
-	.string "¡¿Formas parte de la ÉLITE del\n"
-	.string "TEAM ROCKET?!\l"
-	.string "¡Perdóname, no tenía ni idea!$"
+	.string "Are you part of TEAM ROCKET ELITE?! I\n"
+	.string "apologize, I had no idea!$"
 
 
 Route44_Text_GuayIntro:
-	.string "¡Mi sagrado POKÉMON te someterá!$"
+	.string "My sacred POKÉMON will overpower you!$"
 
 
 Route44_Text_GuayDefeated:
-	.string "¿Cómo es posible?$"
+	.string "How is this possible?!$"
 
 
 Route44_Text_GuayPostBattle:
-	.string "Pensé que con un PSEUDOLEGENDARIO\n"
-	.string "como DRAGONITE ningún ENTRENADOR\l"
-	.string "de calle podría tocarme, ¡aunque\l"
-	.string "tú no eres un tipo normal!$"
+	.string "I thought that with a\n"
+	.string "PSEUDO-LEGENDARY like DRAGONITE, no\l"
+	.string "ordinary TRAINER could face me,\l"
+	.string "although you're not a usual dude!$"
 
 
 Route44_Text_PescadorIntro:
-	.string "¿Sabes por qué no hay CORSOLA en\n"
-	.string "las aguas de KANTO?\l"
-	.string "¡Te lo diré si me derrotas!$"
+	.string "Do you know why there are no CORSOLA in\n"
+	.string "KANTO? I'll tell you if you defeat me!$"
 
 
 Route44_Text_PescadorDefeated:
-	.string "¡Qué gran nivel!$"
+	.string "Great performance!$"
 
 
 Route44_Text_PescadorPostBattle:
-	.string "Antiguamente, había CORSOLA tanto\n"
-	.string "en KANTO como en JOHTO, pero todos\l"
-	.string "emigraron aquí en cuanto empezaron\l"
-	.string "a construir esa CENTRAL ENERGÍA en\l"
-	.string "RUTA 10 y las aguas de FUCSIA se\l"
-	.string "llenaron de turistas y MOTORISTAS\l"
-	.string "del CAMINO BICIS. JOHTO sigue\l"
-	.string "siendo pura, y espero que continúe\l"
-	.string "así.$"
+	.string "In the past, there were CORSOLA in both\n"
+	.string "KANTO and JOHTO, but they all migrated\l"
+	.string "here as soon as they started building\l"
+	.string "that POWER PLANT on ROUTE 10, and\l"
+	.string "FUCHSIA's waters became filled with\l"
+	.string "tourists and BIKE PATH motorcyclists.\l"
+	.string "JOHTO remains pure, and I hope it stays\l"
+	.string "that way.$"
 
 
 Route44_Text_NecioIntro:
-	.string "¡Voy a hacer lo que sea para\n"
-	.string "conseguir POKÉMON raros!$"
+	.string "I'll do whatever it takes to get rare\n"
+	.string "POKÉMON!$"
 
 
 Route44_Text_NecioDefeated:
-	.string "Oooh, tu equipo POKÉMON es muy\n"
-	.string "bonito.$"
+	.string "Oooh, your POKÉMON team is very nice.$"
 
 
 Route44_Text_NecioPostBattle:
-	.string "Los POKÉMON de colores poco\n"
-	.string "habituales tienen más valor.\l"
-	.string "¿Qué? ¿Insinúas que no es cierto?$"
+	.string "Uncommonly colored POKÉMON have more\n"
+	.string "value. What? Are you implying it's not\l"
+	.string "true?$"
 
 
 Route44_Text_OrnitologoIntro:
-	.string "Pareces alguien de renombre.\n"
-	.string "¡Mis pájaros están temblando!$"
+	.string "You appear to be someone well-known. My\n"
+	.string "birds are shaking!$"
 
 
 Route44_Text_OrnitologoDefeated:
-	.string "¡Pues era cierto!$"
+	.string "It was true!$"
 
 
 Route44_Text_OrnitologoPostBattle:
-	.string "¿Cómo?\n"
-	.string "¿Tú y el TEAM ROCKET estáis\l"
-	.string "elaborando un plan maestro en la\l"
-	.string "TORRE RADIO junto con las\l"
-	.string "personalidades más influyentes de\l"
-	.string "KANTO y JOHTO, para decidir el\l"
-	.string "destino de las 2 regiones?\l"
-	.string "¿Y me cuentas todo esto porque de\l"
-	.string "todas formas nadie me creerá?\l"
+	.string "What? You and TEAM ROCKET are devising\n"
+	.string "a master plan at the RADIO TOWER with\l"
+	.string "the most influential figures in KANTO\l"
+	.string "and JOHTO to decide the fate of the two\l"
+	.string "regions? And you're telling me all this\l"
+	.string "because no one will believe me anyway?\l"
 	.string "Oh...$"
 
 
 DragonsdenS2_Text_GuayIntro:
-	.string "Pisar este lugar es un privilegio,\n"
-	.string "¿sabes lo que nuestro GRAN MAESTRO\l"
-	.string "hace con los ilusos que creen\l"
-	.string "haber pasado su prueba?$"
+	.string "Setting foot in this place is a\n"
+	.string "privilege. Do you know what our GRAND\l"
+	.string "MASTER does with those who believe\l"
+	.string "they've passed his test?$"
 
 
 DragonsdenS2_Text_GuayDefeated:
-	.string "¡Por algo estás aquí!$"
+	.string "You're here for a reason!$"
 
 
 DragonsdenS2_Text_GuayPostBattle:
-	.string "Te lo diré, a aquellos no\n"
-	.string "merecedores de ver este lugar les\l"
-	.string "hace creer que ya han visto todo,\l"
-	.string "realizando una serie de sencillas\l"
-	.string "preguntas que hasta un niño de 6\l"
-	.string "años respondería bien, del tipo:\l"
-	.string "¿cómo debes tratar a tus POKÉMON,\l"
-	.string "bien o mal? Lo mejor es que la\l"
-	.string "mayoría ya cree tener la bendición\l"
-	.string "de nuestro MAESTRO únicamente por\l"
-	.string "responder bien a algo tan obvio.$"
+	.string "I'll tell you, to those not worthy of\n"
+	.string "witnessing this place, it tricks them\l"
+	.string "into thinking they've seen it all by\l"
+	.string "posing a series of straightforward\l"
+	.string "questions even a 6-year-old could\l"
+	.string "answer correctly, such as: How should\l"
+	.string "you treat your POKÉMON, nicely or\l"
+	.string "badly? The funniest part is that most\l"
+	.string "already believe they have the approval\l"
+	.string "of our MASTER simply for answering\l"
+	.string "something so obvious.$"
 
 
 DragonsdenS2_Text_Guay2Intro:
-	.string "Los POKÉMON de nuestro MAESTRO\n"
-	.string "DRAGÓN son los más poderosos de\l"
-	.string "JOHTO, pero a él no le gusta\l"
-	.string "mostrarlos en público.$"
+	.string "The POKÉMON of our DRAGON MASTER are\n"
+	.string "the mightiest in JOHTO, but he prefers\l"
+	.string "not to display them in public.$"
 
 
 DragonsdenS2_Text_Guay2Defeated:
-	.string "¡Qué POKÉMON tan poderosos!$"
+	.string "Such a powerful team.$"
 
 
 DragonsdenS2_Text_Guay2PostBattle:
-	.string "Dicen que alguno de los dragones\n"
-	.string "de nuestro MAESTRO excede incluso\l"
-	.string "el poder de LUGIA y HO-OH.$"
+	.string "There are claims that one of our\n"
+	.string "MASTER's dragons surpass even the\l"
+	.string "power of LUGIA and HO-OH.$"
 
 
 DragonsdenS3_Text_GuayIntro:
-	.string "Los dragones no son resistentes al\n"
-	.string "FUEGO, AGUA y PLANTA por\l"
-	.string "casualidad, son el tipo más\l"
-	.string "dominante y al que aquí rendimos\l"
-	.string "culto.$"
+	.string "The resistance of dragons to FIRE,\n"
+	.string "WATER, and GRASS isn't coincidental;\l"
+	.string "they are the dominant type that we\l"
+	.string "venerate here.$"
 
 
 DragonsdenS3_Text_GuayDefeated:
-	.string "¡Me has congelado!$"
+	.string "You froze me!$"
 
 
 DragonsdenS3_Text_GuayPostBattle:
-	.string "A pesar de sus fortalezas, muchos\n"
-	.string "dragones son muy vulnerables al\l"
-	.string "hielo.$"
+	.string "Despite their strengths, many dragons\n"
+	.string "are highly vulnerable to ice.$"
 
 
 DragonsdenS3_Text_Guay2Intro:
-	.string "¿Sabías que el TIPO DRAGÓN es el\n"
-	.string "más antiguo y poderoso de los 18\l"
-	.string "TIPOS?\l"
-	.string "Ahora verás por qué.$"
+	.string "Did you realize that DRAGON TYPE is the\n"
+	.string "oldest and most formidable of the 18\l"
+	.string "TYPES? You'll soon see why.$"
 
 
 DragonsdenS3_Text_Guay2Defeated:
-	.string "¿Cómo puede ser?$"
+	.string "How could this be?$"
 
 
 DragonsdenS3_Text_Guay2PostBattle:
-	.string "Creí que con un PSEUDOLEGENDARIO\n"
-	.string "en mi equipo no tendrías nada que\l"
-	.string "hacer, después recordé que el\l"
-	.string "MAESTRO DRAGÓN no deja entrar a un\l"
-	.string "cualquiera a este lugar.$"
+	.string "I thought having a PSEUDOLEGENDARY on\n"
+	.string "my team would give you no chance, then\l"
+	.string "I recalled that the DRAGON MASTER\l"
+	.string "doesn't allow any random guy to enter\l"
+	.string "this place casually.$"
 
 
 DragonsdenS4_Text_SabioIntro:
-	.string "Este lugar es más antiguo que\n"
-	.string "TORRE CAMPANA, los confines de\l"
-	.string "GUARIDA DRAGÓN son el último\l"
-	.string "bastión de JOHTO que muchos jamás\l"
-	.string "llegan a ver. ¿Mereces tú verlo?$"
+	.string "This place is older than BELL TOWER; the\n"
+	.string "depths of DRAGON'S DEN are the last\l"
+	.string "bastion of JOHTO that many never get\l"
+	.string "to see. Do you deserve to see it?$"
 
 
 DragonsdenS4_Text_SabioDefeated:
-	.string "Un equipo más que interesante.$"
+	.string "More than just an interesting team.$"
 
 
 DragonsdenS4_Text_SabioPostBattle:
-	.string "Dicen que en este lugar surgió el\n"
-	.string "TIPO DRAGÓN como tal, lo cierto es\l"
-	.string "que ha pasado tanto tiempo que ya\l"
-	.string "es difícil diferenciar el mito de\l"
-	.string "la realidad.$"
+	.string "In this place, the DRAGON TYPE\n"
+	.string "supposedly originated, but with the\l"
+	.string "passage of time, it has become\l"
+	.string "challenging to discern myth from\l"
+	.string "reality.$"
 
 
 SouthRoute45_Text_KaratekaIntro:
-	.string "Estaba entrenando aquí solo.\n"
-	.string "¡Observa el fruto de mi\l"
-	.string "trabajo!$"
+	.string "I was training here alone. Witness the\n"
+	.string "fruit of my labor!$"
 
 
 SouthRoute45_Text_KaratekaDefeated:
-	.string "¡Waaaargh!$"
+	.string "Waaaargh!$"
 
 
 SouthRoute45_Text_KaratekaPostBattle:
-	.string "¡Debo entrenarme más para ser el\n"
-	.string "más fuerte!$"
+	.string "To be the strongest, I need to train\n"
+	.string "more!$"
 
 
 SouthRoute45_Text_ChicoIntro:
-	.string "Mis POKÉMON de campo son geniales.\n"
-	.string "¡Mira cómo luchan!$"
+	.string "My field POKÉMON are awesome. Look at\n"
+	.string "how they battle!$"
 
 
 SouthRoute45_Text_ChicoDefeated:
-	.string "¡Vaya vendaval!$"
+	.string "What a gale!$"
 
 
 SouthRoute45_Text_ChicoPostBattle:
-	.string "Tus POKÉMON tienen una fortaleza\n"
-	.string "increíble, ¿cómo es que no he oído\l"
-	.string "hablar de ti?\l"
-	.string "¡Deberías estar en la ÉLITE 4 como\l"
-	.string "mínimo!$"
+	.string "Your POKÉMON display amazing strength.\n"
+	.string "Why haven't I heard about you before?\l"
+	.string "You should be at least in the ELITE 4!$"
 
 
 SouthRoute45_Text_MontaneroIntro:
-	.string "No hay MONTAÑERO que me tosa en\n"
-	.string "toda JOHTO.\l"
-	.string "¿Tengo que aplastar a un pobre\l"
-	.string "funcionario de TRIGAL para\l"
-	.string "demostrarlo?\l"
-	.string "¡Adelante!$"
+	.string "No HIKER can challenge me throughout\n"
+	.string "JOHTO. Do I have to crush a poor suited\l"
+	.string "TRAINER from GOLDENROD to prove it? Go\l"
+	.string "ahead!$"
 
 
 SouthRoute45_Text_MontaneroDefeated:
-	.string "¡¿Pero quién eres tú?!$"
+	.string "Who are you!?$"
 
 
 SouthRoute45_Text_MontaneroPostBattle:
-	.string "Pensé que eras otro ricachón más\n"
-	.string "que está haciendo fortuna con la\l"
-	.string "TORRE RADIO, pero tus POKÉMON\l"
-	.string "están a otro nivel.$"
+	.string "I thought you were another rich guy\n"
+	.string "profiting from the RADIO TOWER, but\l"
+	.string "your POKÉMON are on a different level.$"
 
 
 CultoS4_Text_CultistaIntro:
-	.string "Así que has vuelto…me temo que no\n"
-	.string "seremos tan hospitalarios como la\l"
-	.string "primera vez…$"
+	.string "You're back... Unfortunately, we won't\n"
+	.string "be as hospitable as the first time.$"
 
 
 CultoS4_Text_CultistaDefeated:
-	.string "Tu equipo ha cambiado…tú has cambiado…$"
+	.string "Your team has changed... you have\n"
+	.string "changed...$"
 
 
 CultoS4_Text_CultistaPostBattle:
-	.string "Largo ha sido tu viaje, profundo tu\n"
-	.string "aprendizaje… ¿será suficiente?$"
+	.string "Long has been your journey, profound\n"
+	.string "your learning... will it be enough?$"
 
 
 CultoS4_Text_Cultista2Intro:
-	.string "No todos los cultistas son buenos,\n"
-	.string "algunos se malogran, y hubo uno que se\l"
-	.string "malogró hasta más no poder.$"
+	.string "Some cultists are not good; some go\n"
+	.string "awry, and there was one who went awry\l"
+	.string "beyond all limits.$"
 
 
 CultoS4_Text_Cultista2Defeated:
-	.string "Eres poderoso, y difícil de malograr.$"
+	.string "You are mighty and difficult to corrupt.$"
 
 
 CultoS4_Text_Cultista2PostBattle:
-	.string "¿Cuál era su nombre? Tenemos prohibido\n"
-	.string "mencionarlo.$"
+	.string "What was his name? We are not allowed\n"
+	.string "to speak about it.$"
 
 
 CultoS4_Text_Cultista3Intro:
-	.string "Así que has visitado TORRE CAMPANA.\n"
-	.string "¿Aprendiste algo?$"
+	.string "So, you've visited BELL TOWER. Did you\n"
+	.string "learn anything?$"
 
 
 CultoS4_Text_Cultista3Defeated:
-	.string "Parece que sí.$"
+	.string "It seems so.$"
 
 
 CultoS4_Text_Cultista3PostBattle:
-	.string "¿Un POKÉMON fuerte puede provenir de\n"
-	.string "cualquier lugar? Así es, pero no te\l"
-	.string "hagas ilusiones, hay límites sagrados\l"
-	.string "que los mortales como nosotros no\l"
-	.string "podrán cruzar jamás.$"
+	.string "Can a strong POKÉMON come from\n"
+	.string "anywhere? Indeed, but don't get your\l"
+	.string "hopes up; there are sacred limits that\l"
+	.string "mortals like us can never cross.$"
 
 
 CultoS6_Text_CultistaIntro:
-	.string "Así que crees haber llegado lejos y\n"
-	.string "dominar el mundo que tienes ante ti… no\l"
-	.string "has aprendido nada.$"
+	.string "So, you think you've come far and\n"
+	.string "mastered the world before you... you've\l"
+	.string "learned nothing.$"
 
 
 CultoS6_Text_CultistaDefeated:
-	.string "Tal vez algo sí que has aprendido…$"
+	.string "Perhaps you have learned something\n"
+	.string "after all...$"
 
 
 CultoS6_Text_CultistaPostBattle:
-	.string "Mantener el espíritu del principiante\n"
-	.string "es la esencia del progreso constante,\l"
-	.string "no lo olvides.$"
+	.string "The essence of constant progress lies\n"
+	.string "in retaining the beginner's spirit, don't\l"
+	.string "overlook it.$"
 
 
 CultoS7_Text_CultistaIntro:
-	.string "Algunos por aquí empiezan a atribuirte\n"
-	.string "poderes místicos y sagrados, ¿habrá el\l"
-	.string "POKÉMON ESENCIA intervenido sobre tu\l"
-	.string "libre albedrío?$"
+	.string "Some people around here are starting to\n"
+	.string "assign you mystical and sacred powers.\l"
+	.string "Has the ESSENCE POKÉMON intervened in\l"
+	.string "your free will?$"
 
 
 CultoS7_Text_CultistaDefeated:
-	.string "¡He sentido una presencia!$"
+	.string "I have felt a presence!$"
 
 
 CultoS7_Text_CultistaPostBattle:
-	.string "El POKÉMON ESENCIA se limita a\n"
-	.string "observar, jamás guiaría el destino de\l"
-	.string "ningún mortal, ya que acabaría con\l"
-	.string "nuestra libertad de elección.$"
+	.string "The ESSENCE POKÉMON merely observes;\n"
+	.string "it would never guide the destiny of any\l"
+	.string "mortal, as it would undermine our\l"
+	.string "freedom of choice.$"
 
 
 Route47_Text_MontaneroIntro:
-	.string "¡Jojojo! ¿Pero cómo un mocoso trajeado\n"
-	.string "como tú ha llegado hasta aquí?$"
+	.string "Hahaha! But how did a little tyke in a\n"
+	.string "suit like you got here?$"
 
 
 Route47_Text_MontaneroDefeated:
-	.string "Vaya con los pijos de TRIGAL…$"
+	.string "Oh, those posh folks from GOLDENROD...$"
 
 
 Route47_Text_MontaneroPostBattle:
-	.string "Así que no eres de TRIGAL. ¿Estás en\n"
-	.string "una importante misión para documentar\l"
-	.string "los misterios y antiguos POKÉMON de\l"
-	.string "JOHTO? Entonces estás en el lugar\l"
-	.string "adecuado.$"
+	.string "So, you're not from GOLDENROD. Are you\n"
+	.string "on an important mission to document\l"
+	.string "the mysteries and ancient POKÉMON of\l"
+	.string "JOHTO? Then you're in the right place.$"
 
 
 Route47_Text_Montanero2Intro:
-	.string "A este lugar solo acceden los más\n"
-	.string "intrépidos aventureros, ¿quién te ha\l"
-	.string "revelado el secreto?$"
+	.string "Only the boldest adventurers can enter\n"
+	.string "this place. Who has unveiled the secret\l"
+	.string "to you?$"
 
 
 Route47_Text_Montanero2Defeated:
-	.string "¿Y esos POKÉMON?$"
+	.string "And those POKÉMON?$"
 
 
 Route47_Text_Montanero2PostBattle:
-	.string "Me gustaría entrar a ese misterioso\n"
-	.string "lugar que hay más al oeste, pero no\l"
-	.string "dejan pasar a nadie.$"
+	.string "I would like to enter that mysterious\n"
+	.string "place farther to the west, but they\l"
+	.string "don't allow anyone to pass.$"
 
 
 Route47_Text_SabioIntro:
-	.string "Jamás afrontarás tu destino hasta que\n"
-	.string "abandones la ilusión del control.$"
+	.string "Your destiny won't be faced until you\n"
+	.string "relinquish the illusion of control.$"
 
 
 Route47_Text_SabioDefeated:
-	.string "Estás en el camino correcto.$"
+	.string "You are on the right way.$"
 
 
 Route47_Text_SabioPostBattle:
-	.string "Mira esta cascada, no puedo obligarla a\n"
-	.string "que invierta su dirección, ni a que\l"
-	.string "arroje mayor cantidad de agua de la\l"
-	.string "debida, debemos aceptar lo que no\l"
-	.string "podemos cambiar, para centrarnos en lo\l"
-	.string "que sí.$"
+	.string "Look at this waterfall, I can't force it\n"
+	.string "to reverse its direction or release more\l"
+	.string "water than it should. We must accept\l"
+	.string "what we cannot change to focus on what\l"
+	.string "we can.$"
 
 
 Route48_Text_MontaneroIntro:
-	.string "¡Espera! ¿Vas hacia el norte? ¡Es\n"
-	.string "peligroso!$"
+	.string "Hold on! Are you going north? It's\n"
+	.string "risky!$"
 
 
 Route48_Text_MontaneroDefeated:
-	.string "Con esos POKÉMON, puede que no sea tan\n"
-	.string "peligroso…$"
+	.string "With those POKÉMON, it may not be so\n"
+	.string "risky...$"
 
 
 Route48_Text_MontaneroPostBattle:
-	.string "Los POKÉMON que hay más al norte son\n"
-	.string "muy extraños. Creo que los ancianos de\l"
-	.string "esa pagoda saben algo, pero mantienen\l"
-	.string "todo en secreto.$"
+	.string "The POKÉMON further to the north are\n"
+	.string "very peculiar. I think the elders in\l"
+	.string "that pagoda know something, but they\l"
+	.string "keep everything in secret.$"
 
 
 Route50_Text_MontaneroIntro:
-	.string "En esta zona hay demasiada vegetación,\n"
-	.string "¡no sé cómo avanzar!$"
+	.string "In this area, there's too much\n"
+	.string "vegetation. I don't know how to\l"
+	.string "proceed!$"
 
 
 Route50_Text_MontaneroDefeated:
-	.string "¡Aghh! ¡Mis POKÉMON!$"
+	.string "Aghh! My POKÉMON!$"
 
 
 Route50_Text_MontaneroPostBattle:
-	.string "Creo que volveré al sur, este lugar es\n"
-	.string "un laberinto.$"
+	.string "I think I'll head back south; this place\n"
+	.string "is a maze.$"
 
 
 Route49Maze_Text_SabioIntro:
-	.string "Nadie había entrado a este lugar desde\n"
-	.string "EUSINE. ¿Crees que lo mereces?$"
+	.string "No one had entered this place since\n"
+	.string "EUSINE. Do you think you deserve it?$"
 
 
 Route49Maze_Text_SabioDefeated:
-	.string "Oh, sí, desde luego.$"
+	.string "Oh, indeed.$"
 
 
 Route49Maze_Text_SabioPostBattle:
-	.string "Este lugar pertenece a una época\n"
-	.string "anterior, ajeno a toda la JOHTO tras la\l"
-	.string "montaña del este.$"
+	.string "This place belongs to a previous era,\n"
+	.string "detached from all of JOHTO beyond the\l"
+	.string "eastern mountain.$"
 
 
 Route49MazeP1_Text_SabioIntro:
-	.string "Quien reniega del momento presente,\n"
-	.string "rechaza lo único que de verdad tiene.$"
+	.string "Whoever rejects the present moment\n"
+	.string "denies the only thing they truly\l"
+	.string "possess.$"
+
 
 
 Route49MazeP1_Text_SabioDefeated:
-	.string "Sigo esperando la llegada de la\n"
-	.string "primavera…$"
+	.string "I am still awaiting the arrival of\n"
+	.string "spring...$"
 
 
 Route49MazeP1_Text_SabioPostBattle:
-	.string "Nuestro MAESTRO heredó los POKÉMON\n"
-	.string "que dieron inicio al vínculo con los\l"
-	.string "humanos, ha sido así desde hace más de\l"
-	.string "1000 años.$"
+	.string "For over 1000 years, our MASTER has\n"
+	.string "inherited the POKÉMON that initiated\l"
+	.string "the bond with humans.$"
 
 
 Route49MazeP1_Text_Sabio2Intro:
-	.string "Sé amable con todos, pero sé estricto\n"
-	.string "contigo mismo.$"
+	.string "Treat everyone kindly, but be rigorous\n"
+	.string "with yourself.$"
 
 
 Route49MazeP1_Text_Sabio2Defeated:
-	.string "Parece que llevas un entrenamiento muy\n"
-	.string "estricto.$"
+	.string "It looks like you have a rigorous\n"
+	.string "training routine.$"
 
 
 Route49MazeP1_Text_Sabio2PostBattle:
-	.string "La adulación es enemiga del progreso,\n"
-	.string "mantente humilde.$"
+	.string "Flattery hinders progress, stay modest.$"
 
 
 Route49MazeP2_Text_SabioIntro:
-	.string "¿Quieres ver los POKÉMON de mi maestro?$"
+	.string "Do you want to see my master's\n"
+	.string "POKÉMON?$"
 
 
 Route49MazeP2_Text_SabioDefeated:
-	.string "¡He visto la virtud en ti!$"
+	.string "I have seen virtue in you!$"
 
 
 Route49MazeP2_Text_SabioPostBattle:
-	.string "Nadie del este ha visto los POKÉMON de\n"
-	.string "mi maestro, ni siquiera los maestros de\l"
-	.string "TORRE CAMPANA y TORRE BELLSPROUT.$"
+	.string "No one from the east has seen my\n"
+	.string "master's POKÉMON, not even the masters\l"
+	.string "of BELL TOWER and BELLSPROUT TOWER.$"
 
 
 Route49MazeP2_Text_Sabio2Intro:
-	.string "Algo cambió desde aquel terremoto en\n"
-	.string "RUINAS ALFA. Nuestro maestro cree que\l"
-	.string "vosotros tenéis algo que ver.$"
+	.string "Something changed since that\n"
+	.string "earthquake at RUINS OF ALPH. Our\l"
+	.string "master believes you have something to\l"
+	.string "do with it.$"
 
 
 Route49MazeP2_Text_Sabio2Defeated:
-	.string "No está mal… para ser del este.$"
+	.string "Not bad... for someone from the east.$"
 
 
 Route49MazeP2_Text_Sabio2PostBattle:
-	.string "¿Derrotaste a la ESENCIA? ¿Estás\n"
-	.string "hablando de un POKÉMON?$"
+	.string "Did you defeat the ESSENCE? Are you\n"
+	.string "talking about a POKÉMON?$"
 
 
 Route49MazeP3_Text_SabioIntro:
-	.string "Hay una importante reunión arriba.\n"
-	.string "Deberás demostrar que mereces formar\l"
-	.string "parte de ella.$"
+	.string "There's an important meeting upstairs.\n"
+	.string "You'll need to prove that you deserve\l"
+	.string "to be a part of it.$"
 
 
 Route49MazeP3_Text_SabioDefeated:
-	.string "Sí que lo mereces.$"
+	.string "You certainly deserve it.$"
 
 
 Route49MazeP3_Text_SabioPostBattle:
-	.string "¿Crees… que un hombre puede cambiar su\n"
-	.string "destino?$"
+	.string "Do you think... a man can alter his fate?$"
 
 
 Route49MazeP3_Text_Sabio2Intro:
-	.string "Los 3 POKÉMON que murieron en el\n"
-	.string "incendio de CIUDAD IRIS… ¿Qué sabes\l"
-	.string "de ello?$"
+	.string "What do you know about the 3 POKÉMON\n"
+	.string "that perished in BURNED TOWER fire?$"
 
 
 Route49MazeP3_Text_Sabio2Defeated:
-	.string "Nosotros sabemos la verdad.$"
+	.string "We know the truth.$"
 
 
 Route49MazeP3_Text_Sabio2PostBattle:
-	.string "Nos llegaron noticias… el LEGENDARIO\n"
-	.string "HO-OH otorgó una nueva vida a las 3\l"
-	.string "formas de EEVEE que perecieron en las\l"
-	.string "llamas. Los POKÉMON que surgieron por\l"
-	.string "intervención divina tienen algo en\l"
-	.string "común con los de nuestro maestro.$"
+	.string "There's news that... the legendary\n"
+	.string "HO-OH gave a fresh start to the 3 forms\l"
+	.string "of EEVEE that perished in the flames.\l"
+	.string "The POKÉMON that arose through divine\l"
+	.string "intervention share something with\l"
+	.string "those of our master.$"
 
 
 Route111_Text_MontaneroIntro:

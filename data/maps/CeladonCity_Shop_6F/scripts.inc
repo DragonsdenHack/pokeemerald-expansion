@@ -9,8 +9,8 @@ release
 end
 
 CeladonCity_Shop6F_Text_1:
-.string "Mi hermano dice que no hable con\n"
-.string "gente del TEAM ROCKET.$"
+	.string "My brother told me to not talk with TEAM\n"
+	.string "ROCKET members.$"
 
 
 

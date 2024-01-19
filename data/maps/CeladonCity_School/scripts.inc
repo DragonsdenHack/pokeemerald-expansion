@@ -11,12 +11,9 @@ msgbox CeladonCitySchoolDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonCitySchoolDocumento_Text_100:
-.string "Es un informe sobre las MT.\p"
-	.string "...\p"
-	.string "Hay un total de 50 MT.\p"
-	.string "Y siete MO, que pueden usarse\n"
-	.string "una y otra vez.\p"
-	.string "SILPH S.A.$"
+	.string "It's a report of TMs. … There are 50 TMs\n"
+	.string "and 7 HM, that can be used over and over\l"
+	.string "again. SILPH CO.$"
 
 
 
@@ -25,9 +22,9 @@ msgbox CeladonCitySchoolDocumento_Text_101, MSGBOX_SIGN
 end
 
 CeladonCitySchoolDocumento_Text_101:
-	.string "La vida cambia a través de todos esos\n"
-	.string "días en los que parece que todo sigue\l"
-	.string "igual.$"
+	.string "Life changes through all those days\n"
+	.string "when everything seems to stay the\l"
+	.string "same.$"
 
 CeladonCity_Karateka::
 lock
@@ -37,10 +34,10 @@ release
 end
 
 CeladonCity_Karateka_Texto_1:
-.string "Lo sé todo sobre los POKÉMON, también\n"
-	.string "sé que vuestro LÍDER GIOVANNI usa a\l"
-	.string "RHYHORN como POKÉMON insignia. ¡Qué\l"
-	.string "debilucho!$"
+	.string "I know all about the POKEMON, also. I\n"
+	.string "know that your LEADER GIOVANNI uses\l"
+	.string "RHYHORN as a POKEMON. RHYHORN as a\l"
+	.string "flagship POKÉMON. What a wimp!$"
 
 CeladonCity_Eevee::
 lock
@@ -69,7 +66,7 @@ face_down
 step_end
 
 CeladonCity_Eevee_Texto_1:
-.string "¿¡En serio, ROCKET!? Quita tus sucias\n"
-	.string "manos de esa POKÉ BALL, un POKÉMON de\l"
-	.string "la talla de EEVEE os queda muy grande a\l"
-	.string "ladrones de tu calaña.$"
+	.string "Really, ROCKET!!! Get your grubby hands\n"
+	.string "off that POKE BALL, a POKEMON of\l"
+	.string "EEVEE's the size of EEVEE is too big for\l"
+	.string "you thieves of your ilk.$"

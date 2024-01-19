@@ -127,87 +127,85 @@ release
 end
 
 CeladonCity_Shop5F_Text_Oak_1:
-.string "SUPERNECIO: ¡¿9800 POKÉS?! ¡Esto es un\n"
-	.string "atraco! ¡Hace 1 mes costaban 7000! ¡Y\l"
-	.string "hace un año 3000!$"
+	.string "SUPERNERD: 9800 POKÉ?! This is a scam!\n"
+	.string "Just a month ago it cost 7000! And a\l"
+	.string "year ago it cost 3000!$"
 
 
 CeladonCity_Shop5F_Text_Oak_2:
-	.string "VENDEDOR: Yo no soy quien fija los\n"
-	.string "precios, desde arriba se ha\l"
-	.string "determinado que manipular los EVs de\l"
-	.string "un POKÉMON debe ser costoso.$"
+	.string "SALESMAN: I'm not the one who set up\n"
+	.string "the prices, those above had\l"
+	.string "established that manipulating a\l"
+	.string "POKÉMON EV's must be expensive.$"
 
 
 CeladonCity_Shop5F_Text_Oak_3:
-	.string "SUPERNECIO: ¿Costoso? Nadie comprará\n"
-	.string "PROTEINA ni CALCIO a este precio. La\l"
-	.string "gente se limitará a usar las que\l"
-	.string "encuentren extraviadas.$"
+	.string "SUPERNERD: Expensive? No one will buy\n"
+	.string "PROTEIN nor CALCIUM at this price.\l"
+	.string "People will be so limited by the ones\l"
+	.string "that are found around.$"
 
 
 CeladonCity_Shop5F_Text_Oak_4:
-	.string "VENDEDOR: Son los precios impuestos\n"
-	.string "por el COMITÉ de la LIGA POKÉMON, nos\l"
-	.string "limitamos a cumplir órdenes.$"
+	.string "SALESMAN: Those are the prices that\n"
+	.string "the POKÉMON LEAGUE COMMITTEE\l"
+	.string "established, we just are following\l"
+	.string "orders.$"
 
 
 CeladonCity_Shop5F_Text_Oak_5:
-	.string "SUPERNECIO: ¿Y ahora cómo voy a subir\n"
-	.string "el ATAQUE ESPECIAL de mi MAGNEMITE?\l"
-	.string "¡No tiene ningún sentido!$"
+	.string "SUPERNERD: How would I raise my\n"
+	.string "MAGNEMITE's SPECIAL ATTACK now? It\l"
+	.string "doesn't make any sense!$"
 
 
 CeladonCity_Shop5F_Text_Oak_6:
-	.string "????: Al contrario, tiene todo el\n"
-	.string "sentido que se le pueda dar dentro de\l"
-	.string "esta región.$"
+	.string "????: Quite the opposite, makes all\n"
+	.string "thet sense that can be given at this\l"
+	.string "region.$"
 
 
 CeladonCity_Shop5F_Text_Oak_7:
-	.string "CHICA: Qué estúpido. Podría subir a\n"
-	.string "TORRE POKÉMON y entrenar ahí a su\l"
-	.string "MAGNEMITE.$"
+	.string "GIRL: So stupid. Could go up at POKÉMON\n"
+	.string "TOWER and train there his MAGNEMITE.$"
 
 
 CeladonCity_Shop5F_Text_Oak_8:
-	.string "????: No todos han recibido tu\n"
-	.string "educación, DALIA. La buena información\l"
-	.string "es algo que escasea en los tiempos que\l"
-	.string "corren. Hay quien sigue creyendo en\l"
-	.string "ese viejo rumor, aquel que afirmaba la\l"
-	.string "existencia de únicamente 150 especies\l"
-	.string "diferentes de POKÉMON. Si supieran lo\l"
-	.string "amplio que es este mundo…$"
+	.string "????: Not everyone has been educated\n"
+	.string "as you, DAISY. Reliable information is\l"
+	.string "not common today. There are people who\l"
+	.string "keep believing that there are just 150\l"
+	.string "POKÉMON species. If they knew how big\l"
+	.string "this world is…$"
 
 
 CeladonCity_Shop5F_Text_Oak_9:
-	.string "DALIA: No es de extrañar que nadie se\n"
-	.string "haya acercado a la LIGA POKÉMON en los\l"
-	.string "últimos años. ¿Crees que ellos dos\l"
-	.string "tienen alguna opción?$"
+	.string "DAISY: It's not surprising that no one\n"
+	.string "has approached the POKÉMON LEAGUE in\l"
+	.string "the last few years. Do you think those\l"
+	.string "two have any chance?$"
 
 
 CeladonCity_Shop5F_Text_Oak_10:
-	.string "????: Acaban de empezar su viaje. Aún\n"
-	.string "es pronto para hacer pronósticos, pero\l"
-	.string "el potencial que atesoran es\l"
-	.string "esperanzador, especialmente…$"
+	.string "????: They just started their trip. It\n"
+	.string "is too soon to predict something, but\l"
+	.string "the potential that they have is\l"
+	.string "encouraging, especially…$"
 
 
 CeladonCity_Shop5F_Text_Oak_11:
-	.string "¿Diga? SR.LANCE. Sí. Inmediatamente.$"
+	.string "Hello? MR.LANCE. Okay. Right away.$"
 
 
 CeladonCity_Shop5F_Text_Oak_12:
-	.string "Me reclaman en el CG de la LIGA POKÉMON.\n"
-	.string "Se acabaron las compras, DALIA.$"
+	.string "They are calling me from POKÉMON LEAGUE\n"
+	.string "HQ. Shopping is over, DAYSI.$"
 
 
 CeladonCity_Shop5F_Text_Oak_13:
-	.string "DALIA: No hay problema, ya tenemos 50\n"
-	.string "VITAMINAS para cada uno de los 6\l"
-	.string "stats, suficiente para esta semana.$"
+	.string "DAISY: It is okay, we have 50 VITAMINS\n"
+	.string "for each one of the 6 stats, good\l"
+	.string "enough for this week.$"
 
 CeladonCity_Shop_5F_Oak_move_1:
 walk_up
