@@ -91,8 +91,7 @@ release
 end
 
 Route16_Text_15:
-.string "Solo os queda hablar…o ir a\n"
-.string "prisión.$"
+	.string "You can only confess… or go to prison.$"
 
 
 Route16_16::
@@ -102,7 +101,7 @@ release
 end
 
 Route16_Text_16:
-.string "Ya los tenemos donde queríamos…$"
+	.string "We have them where we wanted them…$"
 
 
 Route16_17::
@@ -112,9 +111,8 @@ release
 end
 
 Route16_Text_17:
-.string "Maldición...\n"
-	.string "Mi WEEZING no pudo siquiera tocar\l"
-	.string "a esa enorme serpiente de acero...$"
+	.string "Damn it… My WEEZING was not even able\n"
+	.string "to touch that big steel snake…$"
 
 
 
@@ -341,133 +339,117 @@ release
 end
 
 Route16_Combate_Bruno_Texto_1:
-.string "BRUNO: Fin del juego moteros, ha\n"
-	.string "sido muy estúpido por vuestra\l"
-	.string "parte creer que vuestros POKÉMON\l"
-	.string "VENENO pudieran siquiera tocar a\l"
-	.string "mi poderoso acero, más estúpido\l"
-	.string "aún creer que vuestros tipo LUCHA\l"
-	.string "fueran rival para los míos, ahora\l"
-	.string "que estáis más calmados y no os\l"
-	.string "quedan POKÉMON os diré lo que\l"
-	.string "vamos a hacer...$"
+	.string "BRUNO: Game over bikers, it was so\n"
+	.string "stupid of you thinking that your poor\l"
+	.string "POISON type POKÉMON could even touch\l"
+	.string "my powerful steel, even more stupid\l"
+	.string "believing your FIGHT type were enough\l"
+	.string "good rivals for mine, now that you are\l"
+	.string "calmed down and you have no more left\l"
+	.string "POKÉMON I will tell you what are we\l"
+	.string "going to do now…$"
 
 Route16_Combate_Bruno_Texto_2:
-.string "Váis a hablar con el resto de\n"
-	.string "vuestros colegas, y convencerles\l"
-	.string "de que el futuro es el gobierno de\l"
-	.string "LANCE, el TEAM ROCKET es historia,\l"
-	.string "y pasaréis a deber lealtad a\l"
-	.string "LANCE, dándonos por supuesto toda\l"
-	.string "la información sobre el TEAM\l"
-	.string "ROCKET de la que disponéis, de\l"
-	.string "hacerlo se os perdonarán vuestros\l"
-	.string "crímenes y podréis seguir en\l"
-	.string "libertad paseando por este lugar,\l"
-	.string "si os negáis...$"
+	.string "You are going to talk to the rest of\n"
+	.string "your colleagues and convincing them\l"
+	.string "that the LANCE government is the good\l"
+	.string "future for KANTO, the TEAM ROCKET will\l"
+	.string "be doomed, and you will obey LANCE,\l"
+	.string "giving us all the TEAM ROCKET info\l"
+	.string "about that you know, if you do it all\l"
+	.string "your faults will be forgiven and you\l"
+	.string "could keep walking around here,\l"
+	.string "otherwise you don't want to…$"
 
 Route16_Combate_Bruno_Texto_3:
-.string "Dad por seguro que destruiré uno\n"
-	.string "por uno a todos los motoristas que\l"
-	.string "encuentre por KANTO, y convertiré\l"
-	.string "este lugar en un solar.$"
+	.string "You can be sure that I will destroy one\n"
+	.string "by one all of the bikers that I find all\l"
+	.string "around KANTO, and I will turn this place\l"
+	.string "into an empty plain.$"
 
 Route16_Combate_Bruno_Texto_4:
-.string "Todos acabaréis en la cárcel, y me\n"
-	.string "encargaré de que la opinión\l"
-	.string "pública se cebe con vosotros de\l"
-	.string "igual forma que hace con el TEAM\l"
-	.string "ROCKET, vosotros decidís.$"
+	.string "All of you will be in prison, and I will\n"
+	.string "take over that the popular opinion\l"
+	.string "baits you as does with the TEAM ROCKET,\l"
+	.string "it's your choice.$"
 
 Route16_Combate_Bruno_Texto_5:
-.string "¡Nunca recibiremos órdenes de\n"
-	.string "alguien de fuera como LANCE!$"
+	.string "We will never follow orders from someone\n"
+	.string "that is an outsider as LANCE!$"
 
 Route16_Combate_Bruno_Texto_6:
-.string "BRUNO: Lo tomaré como un no pues,\n"
-	.string "habéis escogido el camino del\l"
-	.string "sufrimiento, ¡GUARDIAS!\l"
-	.string "¡Preparadad los...!$"
+	.string "BRUNO: So I will take it as a no, you\n"
+	.string "have chosen the path of pain, GUARDS!\l"
+	.string "Prepare the..!$"
 
 Route16_Combate_Bruno_Texto_7:
-.string "BRUNO: Vaya vaya, parece que\n"
-	.string "tendréis compañía en vuestro viaje\l"
-	.string "a prisión, y además un ROCKET de\l"
-	.string "ALTO RANGO por lo que veo, seguro\l"
-	.string "que podremos sacarte información\l"
-	.string "muy valiosa.$"
+	.string "BRUNO: Well well, seems like you will\n"
+	.string "have company on your journeys to\l"
+	.string "prison, and furthermore a HIGH RANK\l"
+	.string "ROCKET from what I can see, I'm sure we\l"
+	.string "can extract valuable information from\l"
+	.string "you.$"
 
 Route16_Combate_Bruno_Texto_8:
-.string "Todos los delincuentes sois\n"
-	.string "iguales, creéis que podéis llegar\l"
-	.string "a algún lado solo con vuestro\l"
-	.string "instinto y vuestras sensaciones,\l"
-	.string "tan frágiles y cambiantes.$"
+	.string "All of you, criminals, are the same, you\n"
+	.string "think you could go somewhere just by\l"
+	.string "your instinct and feelings, so fragile\l"
+	.string "and changing.$"
 
 Route16_Combate_Bruno_Texto_9:
-.string "BRUNO: Te mostraré el arrollador\n"
-	.string "poder de mis POKÉMON entrenados a\l"
-	.string "base de sangre, sudor y lágrimas,\l"
-	.string "algo que ninguno de vosotros\l"
-	.string "siquiera sabéis lo que significa,\l"
-	.string "¡no me tomará más de 3 POKÉMON\l"
-	.string "para borrar a todo tu equipo del\l"
-	.string "mapa!$"
+	.string "BRUNO: I will show my overwhelming\n"
+	.string "power of my POKÉMON trained through\l"
+	.string "blood, sweat, and tears, something none\l"
+	.string "of you even know the meaning of, it\l"
+	.string "won't take more than 3 POKÉMON to crush\l"
+	.string "your entire team from existence!$"
 
 Route16_Combate_Bruno_Texto_10:
-.string "¡No puede ser!\n"
-	.string "¿¡De dónde viene ese poder!?$"
+	.string "It can't be! Where does that power come\n"
+	.string "from!?$"
 
 Route16_Combate_Bruno_Texto_11:
-.string "BRUNO: ¡Mmphff!\n"
-	.string "¡Debí de haber traído a mi fiel\l"
-	.string "MACHAMP después de todo!\l"
-	.string "¡Que deshonra perder ante un\l"
-	.string "ROCKET, créeme que vas a pagarlo,\l"
-	.string "te has salvado únicamente por\l"
-	.string "haber sido superior a la\l"
-	.string "mediocridad que esperaba\l"
-	.string "encontrarme aquí!$"
+	.string "BRUNO: Mmphff! I should have brought\n"
+	.string "my loyal MACHAMP after all! What a shame\l"
+	.string "to lose against a ROCKET, trust me that\l"
+	.string "you will pay for this, you have been\l"
+	.string "saved only by being superior to the\l"
+	.string "mediocrity that I expected here!$"
 
 Route16_Combate_Bruno_Texto_12:
-.string "BRUNO: Ni una palabra de esto a\n"
-	.string "LANCE, abortamos misión por\l"
-	.string "problemas técnicos de última hora.$"
+	.string "BRUNO: Not even a word of this to\n"
+	.string "LANCE, we aborted the mission due to\l"
+	.string "technical problems at the last moment.$"
 
 Route16_Combate_Bruno_Texto_13:
-.string "BRUNO: En cuanto a ti, ROCKET...\n"
-	.string "Nos volveremos a ver...$"
+	.string "BRUNO: As for you, ROCKET... We'll meet\n"
+	.string "again…$"
 
 Route16_Combate_Bruno_Texto_14:
-.string "¡Aún no puedo creer lo que ven mis\n"
-	.string "ojos!\l"
-	.string "¡Ha sido el combate más\l"
-	.string "impresionante que he visto en mi\l"
-	.string "vida, le has dado una lección a\l"
-	.string "todo un miembro de la ÉLITE 4!$"
+	.string "I can't believe what I saw yet! It was\n"
+	.string "the most impressive fight that I had\l"
+	.string "seen in my entire life, you teached a\l"
+	.string "lesson to an ELITE 4 member!$"
 
 Route16_Combate_Bruno_Texto_15:
-.string "Y no solo eso, has salvado este\n"
-	.string "lugar de ser también tragado por\l"
-	.string "esta maldita dictadura\l"
-	.string "encubierta...nuestra lealtad hacia\l"
-	.string "el TEAM ROCKET no ha hecho más que\l"
-	.string "crecer después de esto.$"
+	.string "And it's not just that, you've saved\n"
+	.string "this place from also being swallowed by\l"
+	.string "this damn hidden dictature… our loyalty\l"
+	.string "to TEAM ROCKET has only grown after\l"
+	.string "this.$"
 
 Route16_Combate_Bruno_Texto_16:
-.string "Sé que es poco en comparación con\n"
-	.string "lo que has hecho, pero nos\l"
-	.string "gustaría que tuvieras esto, es una\l"
-	.string "de nuestras mejores adquisiciones,\l"
-	.string "se lo robamos a ese torpe guardia\l"
-	.string "del safari que siquiera sabe\l"
-	.string "hablar en condiciones.$"
+	.string "I know that this is not a lot in\n"
+	.string "comparison to what you just did, we\l"
+	.string "would like that you have this, it is one\l"
+	.string "of our best acquisitions, we snatched\l"
+	.string "it from that awkward safari guard who\l"
+	.string "can't even talk properly.$"
 
 Route16_Combate_Bruno_Texto_17:
-.string "Ahora sí nos retiramos...seguiremos\n"
-	.string "peleando por volver a ver a esta\l"
-	.string "región en las manos que\l"
-	.string "corresponden.$"
+	.string "Now we are gonna head out… we will keep\n"
+	.string "fighting to see this region in the hands\l"
+	.string "that it should be.$"
 
 Route16_Combate_Bruno_Move_1:
 walk_in_place_up

@@ -38,8 +38,8 @@ release
 end
 
 Route16_House1_Combate_Vuelo_Texto_1.1:
-.string "¡¡Obtuviste la MO02 VUELO de manos de\n"
-	.string "ORNITÓLOGA!!$"
+	.string "You obtained the HM02 FLY from the\n"
+	.string "BIRD KEEPER!!$"
 
 Route16_House1_Combate_Vuelo_2::
 lock
@@ -60,69 +60,57 @@ emote_exclamation_mark
 step_end
 
 Route16_House1_Combate_Vuelo_Texto_1:
-.string "¡Oh, no!\n"
-	.string "¡Has descubierto mi escondite!\l"
-	.string "Aquí entreno en secreto a mis\l"
-	.string "queridos pájaros POKÉMON, siempre\l"
-	.string "me ha fascinado la variedad de\l"
-	.string "especies de este tipo, y la forma\l"
-	.string "en que crecen.$"
+	.string "Oh, no! You have discovered my hideout!\n"
+	.string "Here is where I secretly train my\l"
+	.string "beloved bird POKÉMON, I have always\l"
+	.string "been fascinated by the variety of\l"
+	.string "species of this type and the way they\l"
+	.string "grow.$"
 
 Route16_House1_Combate_Vuelo_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Route16_House1_Combate_Vuelo_Texto_3:
-.string "Mira, si quieres puedo enseñarte a\n"
-	.string "las mejores aves de la región,\l"
-	.string "pero deberás de mantener este\l"
-	.string "lugar en secreto, ¿vale?$"
+	.string "Look, if you want to I could teach you\n"
+	.string "about the best birds of the region, but\l"
+	.string "you should keep this place a secret, is\l"
+	.string "it okay?$"
 
 Route16_House1_Combate_Vuelo_Texto_4:
-.string "Creo que cambiaré de estrategia a\n"
-	.string "partir de ahora, a todo el que\l"
-	.string "encuentre este lugar le daré una\l"
-	.string "MO02 como premio y ya está, mis\l"
-	.string "pájaros POKÉMON no necesitan\l"
-	.string "demostrar lo que valen en un\l"
-	.string "combate, voy a centrarme en mi\l"
-	.string "próximo gran objetivo: evolucionar\l"
-	.string "mi PIDGEOTTO a PIDGEOT, el ave no\l"
-	.string "legendaria de mayor poder en esta\l"
-	.string "región.$"
+	.string "I think I will change my strategy since\n"
+	.string "now, everyone who finds this place I\l"
+	.string "will give them a HM02 as prize and that's\l"
+	.string "all, my birds POKÉMON don't need to\l"
+	.string "prove their worth in a battle, I'm going\l"
+	.string "to focus on my next big goal; evolving\l"
+	.string "my PIDGEOTTO into a majestic PIDGEOT,\l"
+	.string "the non-legendary bird with the\l"
+	.string "greatest power in this region.$"
 
 Route16_House1_Combate_Vuelo_Texto_5:
-.string "¡Genial!\n"
-	.string "¡Hace tiempo que no lucho en un\l"
-	.string "combate contra otro ENTRENADOR!\l"
-	.string "¡Prepárate, conseguí ganar la\l"
-	.string "MEDALLA ARCOIRIS gracias a este\l"
-	.string "equipo!$"
+	.string "Cool! It has been a long time since I\n"
+	.string "fought against a TRAINER! Get ready, I\l"
+	.string "obtained RAINBOW BADGE due this team!$"
 
 Route16_House1_Combate_Vuelo_Texto_6:
-.string "¡Oh!\n"
-	.string "Después de esto mis pobres POKÉMON\l"
-	.string "necesitarán un buen descanso.$"
+	.string "Oh! After this my poor POKÉMON will need\n"
+	.string "a long rest.$"
 
 Route16_House1_Combate_Vuelo_Texto_7:
-.string "No esperaba perder, o el mundo ha\n"
-	.string "cambiado mucho desde mi exilio, o\l"
-	.string "tú eres un ENTRENADOR muy capaz...\l"
-	.string "Si te lo propusieras seguro que\l"
-	.string "podrías luchar por todas las\l"
-	.string "MEDALLAS DE GIMNASIO, alguien como\l"
-	.string "tú debe de tener esto.$"
+	.string "I didn't expect to lose, or the world\n"
+	.string "changed a lot since my exile, or you are\l"
+	.string "such a capable TRAINER… If you set\l"
+	.string "your mind to it, you could go for all the\l"
+	.string "GYM BADGES, someone like you must have\l"
+	.string "this.$"
 
 Route16_House1_Combate_Vuelo_Texto_8:
-.string "La MO02 te permitirá usar VUELO\n"
-	.string "tanto dentro como fuera del\l"
-	.string "combate, lo agradecerás y mucho\l"
-	.string "cuando tengas que desplazarte de\l"
-	.string "una ciudad a otra, créeme.$"
+	.string "The HM02 will allow you to use FLY as in\n"
+	.string "and out of a fight, you will appreciate\l"
+	.string "it a lot when you have to move from one\l"
+	.string "city to another, trust me.$"
 
 Route16_House1_Combate_Vuelo_Texto_9:
-.string "¡Oh!\n"
-	.string "¿En serio?\l"
-	.string "¡Pero al menos no le hables a\l"
-	.string "nadie de este lugar!\l"
-	.string "¿Vale?$"
+	.string "Oh? Really? But at least do not tell to\n"
+	.string "anyone of this place! Okay?$"

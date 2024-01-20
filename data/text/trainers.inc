@@ -14512,158 +14512,159 @@ Route49MazeP3_Text_Sabio2PostBattle:
 
 
 Route111_Text_MontaneroIntro:
-	.string "¡Espera! ¿¡De dónde has salido tú!?$"
+	.string "Wait! Where did you come from!?$"
 
 
 Route111_Text_MontaneroDefeated:
-	.string "¿Y esos POKÉMON?$"
+	.string "And those POKÉMON! Where did they come\n"
+	.string "from!?$"
 
 
 Route111_Text_MontaneroPostBattle:
-	.string "Más arriba solo hay roca y montaña, ¡no\n"
-	.string "te he visto llegar!$"
+	.string "Above, there's just rock and mountain. I\n"
+	.string "didn't notice you arriving!$"
 
 
 Route111_Text_ChicoIntro:
-	.string "¡Estoy en racha! ¡Y mis POKÉMON\n"
-	.string "también!$"
+	.string "I'm having a good run! And my POKÉMON\n"
+	.string "are too!$"
 
 
 Route111_Text_ChicoDefeated:
-	.string "Mis POKÉMON ya no va a querer salir ni a\n"
-	.string "la vuelta de la esquina...$"
+	.string "My POKÉMON won't want to come out even\n"
+	.string "around the corner anymore...$"
 
 
 Route111_Text_ChicoPostBattle:
-	.string "Cuando veo a un ENTRENADOR que está en\n"
-	.string "racha, tengo que desafiarle…$"
+	.string "When I see a TRAINER on a winning\n"
+	.string "streak, I have to challenge them...$"
 
 
 Route111_Text_ChicaIntro:
-	.string "No sé quién eres ni adónde vas, pero sé\n"
-	.string "que vamos a enfrentarnos...$"
+	.string "I don't know who you are or where you're\n"
+	.string "going, but I know we're going to face\l"
+	.string "off...$"
 
 
 Route111_Text_ChicaDefeated:
-	.string "Tu técnica es tan buena que estoy\n"
-	.string "muerta de envidia...$"
+	.string "I'm envious of your skill; your\n"
+	.string "technique is outstanding...$"
 
 
 Route111_Text_ChicaPostBattle:
-	.string "Pensaba yo que debería ir al MONTE\n"
-	.string "CENIZO a disfrutar de las vistas, pero\l"
-	.string "aquí tampoco se está mal…$"
+	.string "I thought I should go to MT.CHIMNSEY to\n"
+	.string "enjoy the views, but it's not bad here\l"
+	.string "either...$"
 
 
 Route111_Text_Montanero2Intro:
-	.string "Esas rocas de ahí abajo son muy raras,\n"
-	.string "parece que esconden algo. ¿Sabes tú\l"
-	.string "algo?$"
+	.string "Those rocks down there are very\n"
+	.string "unusual; it seems like they're hiding\l"
+	.string "something. Do you know anything?$"
 
 
 Route111_Text_Montanero2Defeated:
-	.string "¡Lo que sí sabes es combatir!$"
+	.string "You're certainly skilled at fighting!$"
 
 
 Route111_Text_Montanero2PostBattle:
-	.string "Antes vinieron unos tíos muy raros a\n"
-	.string "investigar esa zona, creo que aún\l"
-	.string "queda alguien.$"
+	.string "There were some really odd guys who\n"
+	.string "came to investigate that area before; I\l"
+	.string "think there might still be someone.$"
 
 
 Route111_Text_Chica2Intro:
-	.string "¿Has visitado MALVALONA? ¿No? ¿De\n"
-	.string "dónde vienes entonces?$"
+	.string "Have you visited MAUVILLE? No? Then\n"
+	.string "where are you from?$"
 
 
 Route111_Text_Chica2Defeated:
-	.string "¡Nunca había visto esos POKÉMON!$"
+	.string "I had never seen those POKÉMON before!$"
 
 
 Route111_Text_Chica2PostBattle:
-	.string "¿KANTO? Nunca había oído hablar de ese\n"
-	.string "lugar. ¿Esos POKÉMON tan fuertes que\l"
-	.string "tienes vienen de allí?$"
+	.string "KANTO? I had never heard about that\n"
+	.string "place. Do those strong POKÉMON you've\l"
+	.string "got come from there?$"
 
 
 Route111_Text_Chico2Intro:
-	.string "No pareces ser de por aquí, esa\n"
-	.string "indumentaria no encaja con un\l"
-	.string "ejecutivo de DEVON.$"
+	.string "You don't look like you're from here;\n"
+	.string "that outfit doesn't match a DEVON\l"
+	.string "executive.$"
 
 
 Route111_Text_Chico2Defeated:
-	.string "¡Y esos POKÉMON tampoco!$"
+	.string "And those POKÉMON neither!$"
 
 
 Route111_Text_Chico2PostBattle:
-	.string "La región de HOENN cuenta con una\n"
-	.string "variedad de POKÉMON sin igual, ¡es un\l"
-	.string "hecho!$"
+	.string "In the HOENN region, there's an\n"
+	.string "unmatched variety of POKÉMON, no\l"
+	.string "doubt!$"
 
 
 Route111_Text_Chica3Intro:
-	.string "Esas ruinas de ahí abajo me dan mal\n"
-	.string "rollo, gente muy rara viene a\l"
-	.string "visitarlas.$"
+	.string "Those ruins down there give me the\n"
+	.string "creeps; some very strange people come\l"
+	.string "to visit them.$"
 
 
 Route111_Text_Chica3Defeated:
-	.string "¡Oh! ¿No serás también de esos?$"
+	.string "Oh! You're not one of them too, are you?$"
 
 
 Route111_Text_Chica3PostBattle:
-	.string "Hace unos meses vino una chica de\n"
-	.string "blanco, era alguien importante, creo\l"
-	.string "que logró entrar a esas ruinas.$"
+	.string "Some months back, a girl in white came\n"
+	.string "by; she was someone significant. I\l"
+	.string "believe she successfully entered those\l"
+	.string "ruins.$"
 
 
 Route111_Text_Montanero3Intro:
-	.string "¿Crees que habrá algún FÓSIL por aquí?$"
+	.string "Do you think there could be any FOSSILS\n"
+	.string "in this area?$"
 
 
 Route111_Text_Montanero3Defeated:
-	.string "¡Nunca había visto esos POKÉMON!$"
+	.string "I had never seen those POKÉMON before!$"
 
 
 Route111_Text_Montanero3PostBattle:
-	.string "A veces aparece una gran torre, parece\n"
-	.string "un espejismo, pero puede verse,\l"
-	.string "alzándose sobre la tormenta de arena,\l"
-	.string "la propia torre está hecha de esa misma\l"
-	.string "arena.$"
+	.string "At times, a grand tower materializes,\n"
+	.string "resembling a mirage, but it can be\l"
+	.string "observed towering above the sandstorm;\l"
+	.string "the tower is constructed from sand.$"
 
 
 ViasTren1_Text_ObreroIntro:
-	.string "¡Espera! ¿Tienes permiso para estar\n"
-	.string "aquí?$"
+	.string "Wait up! Are you allowed to be here?$"
 
 
 ViasTren1_Text_ObreroDefeated:
-	.string "¡Menudo combate!$"
+	.string "What a battle!$"
 
 
 ViasTren1_Text_ObreroPostBattle:
-	.string "Era broma, estábamos advertidos de tu\n"
-	.string "presencia aquí, solo quería pasar el\l"
-	.string "rato con un combate.$"
+	.string "Just kidding; we were warned about your\n"
+	.string "presence here. I just wanted to enjoy a\l"
+	.string "battle.$"
 
 
 ViasTren2_Text_ObreroIntro:
-	.string "SILPH ha invertido enormes cantidades\n"
-	.string "en la construcción de estas vías,\l"
-	.string "tiene sentido, ¿no crees?$"
+	.string "SILPH has invested huge amounts in the\n"
+	.string "construction of these rails, it makes\l"
+	.string "sense, don't you think?$"
 
 
 ViasTren2_Text_ObreroDefeated:
-	.string "¡Me has dejado seco!$"
+	.string "You've left me without a drop!$"
 
 
 ViasTren2_Text_ObreroPostBattle:
-	.string "Con TRIGAL y AZAFRÁN conectadas, las\n"
-	.string "operaciones comerciales entre\l"
-	.string "regiones mejorarán de forma\l"
-	.string "exponencial.$"
+	.string "With GOLDENROD and SAFFRON connected,\n"
+	.string "trade operations between regions will\l"
+	.string "improve exponentially.$"
 
 
 ViasTren2_Text_Obrero2Intro:
