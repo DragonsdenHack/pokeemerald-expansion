@@ -9,10 +9,10 @@ release
 end
 
 RocketHideout7F_Text_1:
-.string "De 600 a 680 STATS BASE hay un\n"
-.string "gran salto, seguro que muchos\l"
-.string "Pokémon tienen el potencial para\l"
-.string "poder entrar en ese amplio rango.$"
+	.string "There's a considerable increase from\n"
+	.string "600 to 680 BASE STATS; certainly, many\l"
+	.string "POKÉMON have the potential to fit\l"
+	.string "within this broad range.$"
 
 
 
@@ -24,15 +24,14 @@ release
 end
 
 RocketHideout7F_Text_2:
-.string "Tenemos constancia de un culto que\n"
-.string "en esta región defiende la\l"
-.string "inexistencia de un Pokémon de 680\l"
-.string "STATS BASE con la no manifestación\l"
-.string "del verdadero poder latente de\l"
-.string "MEW, al que rinden culto, un poder\l"
-.string "que en caso de manifestarse, según\l"
-.string "ellos, rebasaría esa barrera\l"
-.string "histórica de 680 de base.$"
+	.string "In this region, there is a cult that\n"
+	.string "believes in the non-existence of a\l"
+	.string "Pokémon with 680 BASE STATS. They\l"
+	.string "attribute this to the undiscovered\l"
+	.string "latent power of MEW, which they worship.\l"
+	.string "According to them, this power, if gets\l"
+	.string "revealed, would exceed the historical\l"
+	.string "680 base barrier.$"
 
 
 
@@ -44,10 +43,9 @@ release
 end
 
 RocketHideout7F_Text_3:
-.string "Las cifras de poder que aquí se\n"
-.string "manejan les vienen grandes al 99%\l"
-.string "de los entrenadores, espero que tú\l"
-.string "formes parte del 1% restante.$"
+	.string "The power digits that we manage here\n"
+	.string "are so big for the 99% of the trainers, I\l"
+	.string "hope you are one of the remaining 1%.$"
 
 
 
@@ -59,16 +57,14 @@ release
 end
 
 RocketHideout7F_Text_4:
-.string "El resto de regiones ve a KANTO\n"
-.string "como una potencia tecnológica en\l"
-.string "cuanto al desarrollo de Pokémon\l"
-.string "artificiales: PORYGON, MEWTWO,\l"
-.string "DITTO o incluso PORYGON2 han sido\l"
-.string "desarrollados en nuestra región,\l"
-.string "suelen acreditarle a SILPH el\l"
-.string "mérito de estos avances, ¡lo que\l"
-.string "no saben es que aquí vamos mucho\l"
-.string "más allá!$"
+	.string "The rest of regions sees KANTO like a\n"
+	.string "technological potence according to\l"
+	.string "artificial Pokémon development:\l"
+	.string "PORYGON, MEWTWO, DITTO or even\l"
+	.string "PORYGON2 have been developed at our\l"
+	.string "region, usually they give the credit to\l"
+	.string "SILPH, but they don't know that we go\l"
+	.string "further!$"
 
 
 
@@ -80,10 +76,9 @@ release
 end
 
 RocketHideout7F_Text_5:
-.string "Lo sentimos {PLAYER}, pero este\n"
-.string "lugar está aún en fase\l"
-.string "experimental, solo nuestros\l"
-.string "mejores científicos tienen acceso.$"
+	.string "We are so sorry {PLAYER}, but this\n"
+	.string "place is still under experimental phase,\l"
+	.string "just our best scientists have access.$"
 
 
 
@@ -95,10 +90,9 @@ release
 end
 
 RocketHideout7F_Text_6:
-.string "Lo sentimos {PLAYER}, pero este\n"
-.string "lugar está aún en fase\l"
-.string "experimental, solo nuestros\l"
-.string "mejores científicos tienen acceso.$"
+	.string "We are so sorry {PLAYER}, but this\n"
+	.string "place is still under experimental phase,\l"
+	.string "just our best scientists have access.$"
 
 
 
@@ -125,24 +119,19 @@ release
 end
 
 RocketHideout7F_Text_8:
-.string "A pesar de que es la región con\n"
-.string "mayor número de legendarios, es de\l"
-.string "la que menos información\l"
-.string "disponemos dada su lejanía y poca\l"
-.string "conexión, pero muchos de los\l"
-.string "Pokémon con los que cuenta son\l"
-.string "realmente interesantes, parece ser\l"
-.string "que el -150- es la estadística\l"
-.string "estrella de los legendarios de\l"
-.string "dicha región, se repite en el\l"
-.string "Ataque de GROUDON, el Ataque\l"
-.string "Especial de KYOGRE, las defensas\l"
-.string "de REGISTEEL, la Velocidad de\l"
-.string "DEOXYS o ambos ataques en\l"
-.string "RAYQUAZA, como una especie de\l"
-.string "símbolo, -cualquiera con esta\l"
-.string "cifra cuenta con una cualidad\l"
-.string "descomunal-, y así es.$"
+	.string "Although that is the region where\n"
+	.string "highest legendaries number are, It's\l"
+	.string "the one we know the least about due how\l"
+	.string "far is and a poor connection, but many\l"
+	.string "of the Pokémon that are there are\l"
+	.string "really interesting, seems like -150- is\l"
+	.string "the ensign of the region legendaries, it\l"
+	.string "repeats in the GROUDON attack, the\l"
+	.string "KYOGRE special attack, REGISTEEL\l"
+	.string "defenses, DEOXYS speed or both\l"
+	.string "RAYQUAZA attacks, like a symbol,\l"
+	.string "-anyone with this digit has a huge\l"
+	.string "skill-, and it is.$"
 
 
 
@@ -154,12 +143,12 @@ release
 end
 
 RocketHideout7F_Text_9:
-.string "La cantidad de Pokémon fuertes que\n"
-.string "atesora HOENN no conoce igual,\l"
-.string "según nuestras investigaciones,\l"
-.string "las condiciones de su terreno han\l"
-.string "propiciado la aparición de una\l"
-.string "fauna y flora única.$"
+	.string "The number of powerful POKÉMON that\n"
+	.string "HOENN boasts has no comparison,\l"
+	.string "according to our researches, the\l"
+	.string "environmental conditions have\l"
+	.string "contributed to the emergence of unique\l"
+	.string "flora and fauna.$"
 
 
 
@@ -171,21 +160,19 @@ release
 end
 
 RocketHideout7F_Text_10:
-.string "Lo cierto es que existe otro\n"
-.string "Pokémon que podría entrar de lleno\l"
-.string "en la lista de los Pokémon con\l"
-.string "mejores STATS BASE de HOENN y\l"
-.string "ocupar incluso los primeros\l"
-.string "puestos: SLAKING, con 670 STATS\l"
-.string "BASE, no obstante, aquí\l"
-.string "consideramos un insulto y una\l"
-.string "broma de mal gusto la existencia\l"
-.string "de un Pokémon con tales números y\l"
-.string "una habilidad tan asquerosamente\l"
-.string "lastrante, por ello decidimos\l"
-.string "ignorar a la excepción que\l"
-.string "confirma la regla, como castigo\l"
-.string "por su incompetencia como Pokémon.$"
+	.string "The fact is that exists another\n"
+	.string "POKÉMON that could be in this HOENN\l"
+	.string "list of the best BASE STATS POKÉMON\l"
+	.string "and even taking the first places:\l"
+	.string "SLAKING, with 670 BASE STATS,\l"
+	.string "nevertheless we consider an affront\l"
+	.string "and a disagreeable joke the existence\l"
+	.string "of a POKÉMON with those numbers and an\l"
+	.string "ability so disgustingly burdensome,\l"
+	.string "that's why we chose to ignore the\l"
+	.string "exception that proves the rule, as\l"
+	.string "punishment for its ineptitude as\l"
+	.string "POKÉMON.$"
 
 
 
@@ -197,16 +184,15 @@ release
 end
 
 RocketHideout7F_Text_11:
-.string "Si pudiéramos reunir en un solo\n"
-.string "Pokémon los PS de BLISSEY, las\l"
-.string "defensas de SHUCKLE y la ofensiva\l"
-.string "de DEOXYS, tendríamos al Pokémon\l"
-.string "más potente que jamás pueda\l"
-.string "existir, obviamente no existe ni\l"
-.string "de lejos un cuerpo que pueda\l"
-.string "resistir todas esas virtudes\l"
-.string "combinadas, ¡el coste de\l"
-.string "oportunidad es duro chico!$"
+	.string "If we could combine the HP of BLISSEY,\n"
+	.string "the defenses of SHUCKLE, and the\l"
+	.string "offense of DEOXYS into a single\l"
+	.string "POKÉMON, we would have the most\l"
+	.string "powerful POKÉMON that could ever exist.\l"
+	.string "Obviously, there isn't even close to a\l"
+	.string "body that could withstand all those\l"
+	.string "combined virtues. The opportunity cost\l"
+	.string "is difficult, buddy!$"
 
 
 
@@ -218,14 +204,12 @@ release
 end
 
 RocketHideout7F_Text_12:
-.string "Todo lo que ves aquí es resultado\n"
-.string "de décadas de recopilación de\l"
-.string "datos para obtener información\l"
-.string "privilegiada sobre todos los\l"
-.string "legendarios y Pokémon más fuertes\l"
-.string "conocidos, espero que seas\l"
-.string "consciente de lo afortunado que\l"
-.string "eres de estar aquí.$"
+	.string "Everything you see here comes from\n"
+	.string "decades of data collection to obtain\l"
+	.string "privileged information about all\l"
+	.string "documented legendaries and strongest\l"
+	.string "POKÉMON. I hope you are aware of how\l"
+	.string "lucky you are to be here.$"
 
 
 
@@ -237,10 +221,9 @@ release
 end
 
 RocketHideout7F_Text_13:
-.string "JOHTO cuenta con mucha más\n"
-.string "historia y tradición que KANTO,\l"
-.string "las dos torres de CIUDAD IRIS son\l"
-.string "milenarias.$"
+	.string "JOHTO has much more history and\n"
+	.string "tradition than KANTO, both towers of\l"
+	.string "ECRUTEAK CITY are millennia-old$"
 
 
 
@@ -252,24 +235,21 @@ release
 end
 
 RocketHideout7F_Text_14:
-.string "Dicen que ENTEI, SUICUNE y RAIKOU\n"
-.string "son en realidad un FLAREON,\l"
-.string "VAPOREON y JOLTEON que el\l"
-.string "mismísimo HO-OH rescató de un\l"
-.string "devastador incendio en CIUDAD\l"
-.string "IRIS, reencarnándolos en los tres\l"
-.string "legendarios errantes, esta leyenda\l"
-.string "no solo se refuerza con la\l"
-.string "coincidencia entre sus tipos y\l"
-.string "parecidos, casualmente FLAREON y\l"
-.string "ENTEI cuentan con potentes ataques\l"
-.string "físicos, SUICUNE y VAPOREON se\l"
-.string "inclinan más por estadísticas\l"
-.string "defensivas, y por último tanto\l"
-.string "JOLTEON como RAIKOU cuentan con un\l"
-.string "Ataque Especial, Velocidad e\l"
-.string "incluso Defensa Especial\l"
-.string "sospechosamente parecidas.$"
+	.string "People said that ENTEI, SUICUNE, and\n"
+	.string "RAIKOU are a FLAREON, VAPOREON, and\l"
+	.string "JOLTEON that HO-OH itself rescued from\l"
+	.string "a devastating fire in ECRUTEAK CITY,\l"
+	.string "reincarnating them into the three\l"
+	.string "wandering legendaries. This legend is\l"
+	.string "not only reinforced by the coincidence\l"
+	.string "between their types and similarities.\l"
+	.string "Coincidentally, FLAREON and ENTEI both\l"
+	.string "possess powerful physical attacks.\l"
+	.string "SUICUNE and VAPOREON lean more\l"
+	.string "towards defensive statistics. Lastly,\l"
+	.string "both JOLTEON and RAIKOU have a Special\l"
+	.string "Attack, Speed, and even suspiciously\l"
+	.string "similar Special Defense.$"
 
 
 
@@ -281,14 +261,13 @@ release
 end
 
 RocketHideout7F_Text_15:
-.string "No creímos que en la naturaleza\n"
-.string "pudiera existir tal Pokémon que\l"
-.string "igualara a MEWTWO en poder puro,\l"
-.string "pero resulta que JOHTO cuenta con\l"
-.string "dos de esas características, hemos\l"
-.string "intentado múltiples veces hallar\l"
-.string "el paradero de LUGIA y HO-OH, pero\l"
-.string "sin éxito.$"
+	.string "We didn't believe that in nature there\n"
+	.string "could exist a Pokémon that matched\l"
+	.string "MEWTWO in sheer power, but it turns out\l"
+	.string "that JOHTO has two with those\l"
+	.string "characteristics. We've tried multiple\l"
+	.string "times to find the location of LUGIA and\l"
+	.string "HO-OH, but without success.$"
 
 
 
@@ -300,11 +279,10 @@ release
 end
 
 RocketHideout7F_Text_16:
-.string "Algunos juran que KINGDRA nunca\n"
-.string "tuvo tal habilidad como Adaptable,\l"
-.string "lo cierto es que la heredó de un\l"
-.string "tal DRAGALGE proveniente de una\l"
-.string "región lejana.$"
+	.string "Some people swear that KINGDRA never\n"
+	.string "had the ability Adaptability. The truth\l"
+	.string "is, it inherited it from a certain\l"
+	.string "DRAGALGE from a distant region.$"
 
 
 
@@ -316,17 +294,14 @@ release
 end
 
 RocketHideout7F_Text_17:
-.string "Si pudiéramos reunir en un solo\n"
-.string "Pokémon los PS de BLISSEY, las\l"
-.string "defensas de SHUCKLE y la ofensiva\l"
-.string "de DEOXYS, tendríamos al Pokémon\l"
-.string "más potente que jamás pueda\l"
-.string "existir, obviamente no existe ni\l"
-.string "de lejos un cuerpo que pueda\l"
-.string "resistir todas esas virtudes\l"
-.string "combinadas, ¡el coste de\l"
-.string "oportunidad es duro chico!$"
-
+	.string "If we could combine in a single POKÉMON\n"
+	.string "the HP of BLISSEY, the defenses of\l"
+	.string "SHUCKLE, and the offense of DEOXYS, we\l"
+	.string "would have the most powerful POKÉMON\l"
+	.string "that could ever exist. Obviously, there\l"
+	.string "isn't even close to a body that could\l"
+	.string "tolerate all those combined virtues.\l"
+	.string "The opportunity cost is tough, buddy!$"
 
 
 RocketHideout7F_18::
@@ -337,10 +312,9 @@ release
 end
 
 RocketHideout7F_Text_18:
-.string "No sabemos dónde está el límite de\n"
-.string "poder base alcanzable por un\l"
-.string "POKÉMON, pero si sabemos dónde no\l"
-.string "está…$"
+	.string "We don't know where the limit of\n"
+	.string "achievable base power by a POKÉMON is,\l"
+	.string "but we do know where it isn't…$"
 
 
 
@@ -363,29 +337,25 @@ release
 end
 
 RocketHideout7F_Bombalodo_Texto_1:
-.string "Le dije a GIOVANNI hace tiempo de\n"
-	.string "incluir BOMBA LODO como MT\l"
-	.string "obtenible en nuestra tienda, pero\l"
-	.string "es tan difícil de producir que no\l"
-	.string "fue posible.\l"
-	.string "Un ENTRENADOR y ROCKET destacado\l"
-	.string "como tú debería de contar con esa\l"
-	.string "MT, con ella infundirás aún más\l"
-	.string "temor y respeto a tus enemigos,\l"
-	.string "¿no crees?\l"
-	.string "¡Toma!$"
+	.string "I mentioned to GIOVANNI some time ago\n"
+	.string "about including SLUDGE BOMB as an\l"
+	.string "obtainable TM in our store, but it's so\l"
+	.string "difficult to produce that it wasn't\l"
+	.string "possible. A distinguished TRAINER and\l"
+	.string "ROCKET like yourself should have that\l"
+	.string "TM. With it, you'll inspire even more fear\l"
+	.string "and respect in your enemies, don't you\l"
+	.string "think? Here you go!$"
 
 RocketHideout7F_Bombalodo_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT36 BOMBA\n"
-	.string "LODO de manos de científico!!$"
+	.string "{PLAYER} obtained the TM36 SLUDGE\n"
+	.string "BOMB from the scientist!!$"
 
 RocketHideout7F_Bombalodo_Texto_2:
-.string "BOMBA LODO cuenta con una gran\n"
-	.string "potencia, además de envenenar en\l"
-	.string "un 30% de las ocasiones, NIDOKING\l"
-	.string "con VIDASFERA es ideal para este\l"
-	.string "movimiento, ¡ahogará en veneno a\l"
-	.string "todos tus enemigos!$"
+	.string "SLUDGE BOMB has a great power, and it\n"
+	.string "poisons in 30% of chances. It's ideal to\l"
+	.string "be used by LIFE ORB NIDOKING, It'll\l"
+	.string "overwhelm all your enemies in poison!$"
 
 
 
@@ -397,12 +367,11 @@ release
 end
 
 RocketHideout7F_Text_21:
-.string "Esa DEVON en HOENN está creciendo\n"
-.string "cada vez más, pero no tiene nada\l"
-.string "que hacer ante una SILPH y un TEAM\l"
-.string "ROCKET unidos, o acepta nuestras\l"
-.string "condiciones o será borrada del\l"
-.string "tablero.$"
+	.string "That DEVON in HOENN is growing more and\n"
+	.string "more, but they have no chance against a\l"
+	.string "combined SILPH and TEAM ROCKET. Either\l"
+	.string "thwy accept our conditions or they will\l"
+	.string "be wiped off the playing field.$"
 
 
 
@@ -414,9 +383,9 @@ release
 end
 
 RocketHideout7F_Text_22:
-.string "¡Usted no para señor!\n"
-.string "¡A este paso viajará por todas las\l"
-.string "regiones del mundo POKÉMON!$"
+	.string "You don't stop, sir! At this rate, you'll\n"
+	.string "travel through all the regions of the\l"
+	.string "Pokémon world!$"
 
 
 
@@ -428,12 +397,10 @@ release
 end
 
 RocketHideout7F_Text_23:
-.string "Estos documentos eran una\n"
-.string "quimera para toda la comunidad\l"
-.string "científica hace apenas unos años,\l"
-.string "y mira ahora…\l"
-.string "Aquí están…\l"
-.string "Son reales…$"
+	.string "Those documents were a chimera for the\n"
+	.string "entire scientific community just a few\l"
+	.string "years ago, and look now... Here they\l"
+	.string "are... They're real...$"
 
 
 
@@ -445,18 +412,16 @@ release
 end
 
 RocketHideout7F_Text_24:
-.string "La gente común se sorprende al ver\n"
-.string "POKÉMON de más de 500 STATS BASE,\l"
-.string "y se echa las manos a la cabeza\l"
-.string "con cualquier PSEUDOLEGENDARIO o\l"
-.string "LEGENDARIO MENOR de 580 de BASE,\l"
-.string "no creo que estén preparados para\l"
-.string "ver POKÉMON que se ríen de estos\l"
-.string "números, sus cabezas no lo\l"
-.string "asimilarían, ya que están\l"
-.string "acostumbradas a aceptar únicamente\l"
-.string "la realidad del mundo que se les\l"
-.string "presenta.$"
+	.string "The common people are surprised to see\n"
+	.string "POKÉMON with more than 500 BASE STATS,\l"
+	.string "and they are taken aback by any\l"
+	.string "PSEUDO-LEGENDARY or LOW TIER\l"
+	.string "LEGENDARY below 580 BASE STATS. I don't\l"
+	.string "think they are prepared to see POKÉMON\l"
+	.string "that laugh at these numbers; their\l"
+	.string "minds wouldn't grasp it, as they are\l"
+	.string "accustomed to accepting only the\l"
+	.string "reality of the world presented to them.$"
 
 
 
@@ -470,22 +435,21 @@ release
 end
 
 RocketHideout7FDocumento_Text_100:
-.string "NÚMERO 5: ARTICUNO\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 85\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 125\l"
-	.string "VELOCIDAD: 85\l"
+.string "NUMBER 5: ARTICUNO\p"
+	.string "HP: 90\n"
+	.string "ATTACK: 85\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 95\l"
+	.string "SPECIAL DEFENSE: 125\l"
+	.string "SPEED: 85\l"
 	.string "TOTAL: 580\p"
-	.string "El ave helada de nuestra región,\n"
-	.string "la de mayores atributos defensivos\l"
-	.string "pero peor combinación de tipos,\l"
-	.string "gracias a su habilidad\l"
-	.string "característica NEVADA sumirá el\l"
-	.string "clima en un granizo constante de\l"
-	.string "modo que su VENTISCA nunca\l"
-	.string "fallará.$"
+	.string "The frozen bird of our region, with the\n"
+	.string "highest defensive stats but the worst\l"
+	.string "types combination, due to his\l"
+	.string "characteristic ability SNOW WARNING\l"
+	.string "will transform the weather into a\l"
+	.string "constant hail as that BLIZZARD will\l"
+	.string "never fail.$"
 
 
 
@@ -499,24 +463,22 @@ release
 end
 
 RocketHideout7FDocumento_Text_101:
-.string "NÚMERO 4: ZAPDOS\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 85\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 125\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 100\l"
+.string "NUMBER 4: ZAPDOS\p"
+	.string "HP: 90\n"
+	.string "ATTACK: 85\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 125\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 100\l"
 	.string "TOTAL: 580\p"
-	.string "El trueno de KANTO y AVE\n"
-	.string "LEGENDARIA con mejores atributos\l"
-	.string "ofensivos, gracias a su habilidad\l"
-	.string "llovizna podrá golpear con su\l"
-	.string "impactante TRUENO sin fallar, y\l"
-	.string "con un METEOROBOLA que cubrirá\l"
-	.string "perfectamente sus amenazas bajo la\l"
-	.string "lluvia, estimamos que ZAPDOS es de\l"
-	.string "entre las tres aves el de mayor\l"
-	.string "potencial.$"
+	.string "The KANTO's thunder and the best\n"
+	.string "offensive stats LEGENDARY BIRD, due to\l"
+	.string "it ability drizzle would hit with a\l"
+	.string "powerful THUNDER without fail, and a\l"
+	.string "WEATHERBALL that perfectly covers it\l"
+	.string "menaces under rain, we estimate that\l"
+	.string "ZAPDOS is the bird with the highest\l"
+	.string "potential.$"
 
 
 
@@ -530,22 +492,21 @@ release
 end
 
 RocketHideout7FDocumento_Text_102:
-.string "NÚMERO 3: MOLTRES\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 85\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 125\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 90\l"
+.string "NUMBER 3: MOLTRES\p"
+	.string "HP: 90\n"
+	.string "ATTACK: 85\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 125\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 580\p"
-	.string "La llama de KANTO, y el que más\n"
-	.string "daño puede generar de las 3 aves,\l"
-	.string "gracias a su sequía causará sus\l"
-	.string "ataques de fuego pegarán como\l"
-	.string "ningún otro, se protegerá ante su\l"
-	.string "debilidad al agua y podrá usar\l"
-	.string "RAYO SOLAR sin necesidad de\l"
-	.string "cargar.$"
+	.string "The KANTO's flame and the one of the\n"
+	.string "three birds that can do the highest\l"
+	.string "damage due to his drought will cause it\l"
+	.string "fire attacks hits as anyone else, it will\l"
+	.string "protect against its water weakness and\l"
+	.string "could use SOLAR BEAM without needing\l"
+	.string "to waste a turn.$"
 
 
 
@@ -559,24 +520,22 @@ release
 end
 
 RocketHideout7FDocumento_Text_103:
-.string "NÚMERO 2: MEW\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 50\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 125\l"
-	.string "DEFENSA ESPECIAL: 125\l"
-	.string "VELOCIDAD: 100\l"
+.string "NUMBER 2: MEW\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 50\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 125\l"
+	.string "SPECIAL DEFENSE: 125\l"
+	.string "SPEED: 100\l"
 	.string "TOTAL: 600\p"
-	.string "El ancestro de todos los Pokémon,\n"
-	.string "contiene todas las combinaciones\l"
-	.string "de ADN posibles, la ciencia aún a\l"
-	.string "día de hoy no ha podido extraer\l"
-	.string "todo su potencial.\l"
-	.string "Se cree que es alabado por un\l"
-	.string "culto secreto en las profundidades\l"
-	.string "de PUEBLO LAVANDA, quienes lo ven\l"
-	.string "como uno de los representantes\l"
-	.string "de la verdadera esencia de esta región.$"
+	.string "The POKÉMON ancestor, it contains all\n"
+	.string "possible DNA combinations, science\l"
+	.string "can't get the most out of its\l"
+	.string "capacities until today. It is believed\l"
+	.string "that it is praised by a secret cult in\l"
+	.string "the depths of LAVENDER TOWN, who\l"
+	.string "thinks it is one of the real symbols of\l"
+	.string "the real essence of the region.$"
 
 
 
@@ -590,21 +549,20 @@ release
 end
 
 RocketHideout7FDocumento_Text_104:
-.string "NÚMERO 1: MEWTWO\p"
-	.string "PS: 106\n"
-	.string "ATAQUE: 110\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 154\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 130\l"
+.string "NUMBER 1: MEWTWO\p"
+	.string "HP: 106\n"
+	.string "ATTACK: 110\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 154\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 130\l"
 	.string "TOTAL: 680\p"
-	.string "La máquina de combatir más\n"
-	.string "perfecta creada por el hombre\l"
-	.string "hasta la fecha, catalogado como un\l"
-	.string "milagro de la ciencia al haberse\l"
-	.string "podido controlar y amplificar el\l"
-	.string "inestable poder de MEW y\l"
-	.string "concentrarlo en un Pokémon.$"
+	.string "The most perfect dangerous machine\n"
+	.string "created by the man until now, cataloged\l"
+	.string "as a science miracle due to being able\l"
+	.string "to get controlled and amplifying the\l"
+	.string "MEW's unstable power and to get the\l"
+	.string "most out of its capacities.$"
 
 
 
@@ -618,24 +576,23 @@ release
 end
 
 RocketHideout7FDocumento_Text_105:
-.string "NÚMERO 9: KINGDRA\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 95\l"
-	.string "DEFENSA: 95\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 85\l"
+.string "NUMBER 9: KINGDRA\p"
+	.string "HP: 75\n"
+	.string "ATTACK: 95\l"
+	.string "DEFENSE: 95\l"
+	.string "SPECIAL ATTACK: 95\l"
+	.string "SPECIAL DEFENSE: 95\l"
+	.string "SPEED: 85\l"
 	.string "TOTAL: 540\p"
-	.string "El dragón característico de JOHTO,\n"
-	.string "gracias a su extraordinaria\l"
-	.string "habilidad adaptable será mucho más\l"
-	.string "peligroso de lo que indican sus\l"
-	.string "números, multiplicando x2,25 sus\l"
-	.string "movimientos de STAB en lugar del\l"
-	.string "clásico x1,5, le hace una fuerte\l"
-	.string "competencia a DRAGONITE contando\l"
-	.string "con una de las combinaciones de\l"
-	.string "tipos más favorables.$"
+	.string "The JOHTO distinctive dragon, due to\n"
+	.string "their extraordinary ability\l"
+	.string "“adaptability” will be much more\l"
+	.string "dangerous that the numbers show,\l"
+	.string "multiplying x2,25 times their STAB\l"
+	.string "moves instead a classic x1,5 times,\l"
+	.string "being a great rival to DRAGONITE\l"
+	.string "considering one of the most favorable\l"
+	.string "types combination.$"
 
 
 
@@ -649,25 +606,22 @@ release
 end
 
 RocketHideout7FDocumento_Text_106:
-.string "NÚMERO 8: BLISSEY\p"
-	.string "PS: 255\n"
-	.string "ATAQUE: 10\l"
-	.string "DEFENSA: 10\l"
-	.string "ATAQUE ESPECIAL: 75\l"
-	.string "DEFENSA ESPECIAL: 135\l"
-	.string "VELOCIDAD: 55\l"
+.string "NUMBER 8: BLISSEY\p"
+	.string "HP: 255\n"
+	.string "ATTACK: 10\l"
+	.string "DEFENSE: 10\l"
+	.string "SPECIAL ATTACK: 75\l"
+	.string "SPECIAL DEFENSE: 135\l"
+	.string "SPEED: 55\l"
 	.string "TOTAL: 540\p"
-	.string "Un caso único que desafía las\n"
-	.string "leyes de este mundo, único Pokémon\l"
-	.string "conocido en alcanzar la perfección\l"
-	.string "pura en una sola estadística,\l"
-	.string "marcando el techo de 255 de base\l"
-	.string "en PS, si eliminamos su inútil\l"
-	.string "ataque físico de 10 de base, su\l"
-	.string "total de estadísticas funcionales\l"
-	.string "es superior al de todos los\l"
-	.string "pseudolegendarios y mayoría de\l"
-	.string "legendarios.$"
+	.string "An unique case that defies this world\n"
+	.string "laws, the only one known by reaching\l"
+	.string "the pure perfection in a certain stat,\l"
+	.string "that peaks the 255 base stats of HP, if\l"
+	.string "we ignore it 10 stats of physical\l"
+	.string "attack, all of it functional stats are\l"
+	.string "higher than all pseudo-legendary and\l"
+	.string "mostly of legendaries.$"
 
 
 
@@ -681,20 +635,18 @@ release
 end
 
 RocketHideout7FDocumento_Text_107:
-.string "NÚMERO 7: RAIKOU\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 85\l"
-	.string "ATAQUE ESPECIAL: 115\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 115\l"
+.string "NUMBER 7: RAIKOU\p"
+	.string "HP: 90\n"
+	.string "ATTACK: 75\l"
+	.string "DEFENSE: 85\l"
+	.string "SPECIAL ATTACK: 115\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 115\l"
 	.string "TOTAL: 580\p"
-	.string "Uno de los tres legendarios\n"
-	.string "errantes de JOHTO, su\l"
-	.string "combinación entre VELOCIDAD y\l"
-	.string "ATAQUE ESPECIAL está a la altura\l"
-	.string "de la leyenda que le coloca como\l"
-	.string "señor del trueno.$"
+	.string "One of the three legendary beasts from\n"
+	.string "JOHTO, its SPEED and SPECIAL ATTACK\l"
+	.string "combination matches up to the legend\l"
+	.string "that considers it the thunder lord.$"
 
 
 
@@ -708,27 +660,24 @@ release
 end
 
 RocketHideout7FDocumento_Text_108:
-.string "NÚMERO 6: ENTEI\p"
-	.string "PS: 115\n"
-	.string "ATAQUE: 115\l"
-	.string "DEFENSA: 85\l"
-	.string "ATAQUE ESPECIAL: 75\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 100\l"
+.string "NUMBER 6: ENTEI\p"
+	.string "HP: 115\n"
+	.string "ATTACK: 115\l"
+	.string "DEFENSE: 85\l"
+	.string "SPECIAL ATTACK: 75\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 100\l"
 	.string "TOTAL: 580\p"
-	.string "Uno de los tres legendarios\n"
-	.string "errantes de JOHTO, el emperador de\l"
-	.string "las llamas que arrojará sus\l"
-	.string "potentes movimientos físicos del\l"
-	.string "tipo fuego con la furia de un\l"
-	.string "volcán, muchos lo consideran un\l"
-	.string "ARCANINE mejorado, puesto que\l"
-	.string "tiene acceso también a Envite\l"
-	.string "Ígneo, Velocidad Extrema e incluso\l"
-	.string "un Fuegosagrado que comparte con\l"
-	.string "Ho-Oh, y con mejores STATS que el\l"
-	.string "perro de KANTO a pesar de no\l"
-	.string "contar con Intimidación.$"
+	.string "One of the three legendary beasts from\n"
+	.string "JOHTO, the flames emperor attacks with\l"
+	.string "powerful physical fire-type moves\l"
+	.string "fueled by a volcano rage, many people\l"
+	.string "consider it a upgraded ARCANINE\l"
+	.string "because is able to use FLARE BLITZ,\l"
+	.string "EXTREME SPEED and even SACRED FIRE,\l"
+	.string "which it shares with HO-OH, and better\l"
+	.string "stats than KANTO dog although it lacks\l"
+	.string "the ability to use INTIMIDATE.$"
 
 
 
@@ -742,21 +691,19 @@ release
 end
 
 RocketHideout7FDocumento_Text_109:
-.string "NÚMERO 5: SUICUNE\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 115\l"
-	.string "ATAQUE ESPECIAL: 90\l"
-	.string "DEFENSA ESPECIAL: 115\l"
-	.string "VELOCIDAD: 85\l"
+.string "NUMBER 5: SUICUNE\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 75\l"
+	.string "DEFENSE: 115\l"
+	.string "SPECIAL ATTACK: 90\l"
+	.string "SPECIAL DEFENSE: 115\l"
+	.string "SPEED: 85\l"
 	.string "TOTAL: 580\p"
-	.string "Uno de los tres legendarios\n"
-	.string "errantes y el que mejor reparte\l"
-	.string "sus cualidades, es considerado uno\l"
-	.string "de los muros más difíciles de\l"
-	.string "tumbar que existen, capaz de\l"
-	.string "purificar todo entorno contaminado\l"
-	.string "que se encuentre a su paso.$"
+	.string "One of the three legendary beasts and\n"
+	.string "the best at distributing its stats, it\l"
+	.string "is considered one of the hardest tanks\l"
+	.string "to knock down, able to purify all around\l"
+	.string "contamination that is ahead.$"
 
 
 
@@ -770,22 +717,21 @@ release
 end
 
 RocketHideout7FDocumento_Text_110:
-.string "NÚMERO 4: TYRANITAR\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 134\l"
-	.string "DEFENSA: 110\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 61\l"
+.string "NUMBER 4: TYRANITAR\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 134\l"
+	.string "DEFENSE: 110\l"
+	.string "SPECIAL ATTACK: 95\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 61\l"
 	.string "TOTAL: 600\p"
-	.string "La némesis de MEWTWO y la mayoría\n"
-	.string "de legendarios de todo KANTO y\l"
-	.string "JOHTO gracias a su inigualable\l"
-	.string "fortaleza y singular combinación\l"
-	.string "ROCA/SINIESTRO, la destrucción y\l"
-	.string "el poder hechos Pokémon aunque\l"
-	.string "demasiado débil ante otros muchos\l"
-	.string "tipos.$"
+	.string "The MEWTWO's nemesis and mostly of\n"
+	.string "legendary POKÉMON from KANTO and\l"
+	.string "JOHTO due to an unattainable strength\l"
+	.string "and unique ROCK/DARK combination, the\l"
+	.string "definition of power and destruction\l"
+	.string "made POKÉMON but it is very weak\l"
+	.string "against other type of POKÉMON.$"
 
 
 
@@ -799,21 +745,19 @@ release
 end
 
 RocketHideout7FDocumento_Text_111:
-.string "NÚMERO 3: CELEBI\p"
-	.string "PS: 110\n"
-	.string "ATAQUE: 50\l"
-	.string "DEFENSA: 110\l"
-	.string "ATAQUE ESPECIAL: 110\l"
-	.string "DEFENSA ESPECIAL: 110\l"
-	.string "VELOCIDAD: 110\l"
+.string "NUMBER 3: CELEBI\p"
+	.string "HP: 110\n"
+	.string "ATTACK: 50\l"
+	.string "DEFENSE: 110\l"
+	.string "SPECIAL ATTACK: 110\l"
+	.string "SPECIAL DEFENSE: 110\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 600\p"
-	.string "Se cree que su historia está muy\n"
-	.string "relacionada con EL ENCINAR de\l"
-	.string "JOHTO, y que protegerá a este a\l"
-	.string "toda costa, teniendo la habilidad\l"
-	.string "de viajar en el tiempo para\l"
-	.string "cambiar el curso de los\l"
-	.string "acontecimientos.$"
+	.string "It is believed that its history is\n"
+	.string "closely related with the ILEX FOREST of\l"
+	.string "JOHTO, and will protect it at any price,\l"
+	.string "having the ability to travel through\l"
+	.string "time to change some events.$"
 
 
 
@@ -827,26 +771,23 @@ release
 end
 
 RocketHideout7FDocumento_Text_112:
-.string "NÚMERO 2: LUGIA\p"
-	.string "PS 106\n"
-	.string "ATAQUE: 90\l"
-	.string "DEFENSA: 130\l"
-	.string "ATAQUE ESPECIAL: 90\l"
-	.string "DEFENSA ESPECIAL: 154\l"
-	.string "VELOCIDAD: 110\l"
+.string "NUMBER 2: LUGIA\p"
+	.string "HP: 106\n"
+	.string "ATTACK: 90\l"
+	.string "DEFENSE: 130\l"
+	.string "SPECIAL ATTACK: 90\l"
+	.string "SPECIAL DEFENSE: 154\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 680\p"
-	.string "La deidad de los mares y el mayor\n"
-	.string "muro defensivo conocido, su poder\l"
-	.string "rivaliza con el de MEWTWO.\l"
-	.string "Estrechamente relacionado con la\l"
-	.string "historia y mitología de la región\l"
-	.string "de JOHTO, entra junto con HO-OH y\l"
-	.string "RAYQUAZA en el tope de 680 de\l"
-	.string "base, la mejor combinación que las\l"
-	.string "condiciones arbitrarias y azarosas\l"
-	.string "de la naturaleza nos han mostrado\l"
-	.string "hasta ahora.$"
-
+	.string "The seas deity and the greatest\n"
+	.string "defensive wall famed, its strength\l"
+	.string "rivals MEWTWO. Closely related with\l"
+	.string "JOHTO history and mythology, it has the\l"
+	.string "max 680 base stats as HO-OH and\l"
+	.string "RAYQUAZA, one of the best combinations\l"
+	.string "that the arbitrary and random\l"
+	.string "conditions of nature have shown us by\l"
+	.string "far.$"
 
 
 RocketHideout7FDocumento_113::
@@ -859,28 +800,24 @@ release
 end
 
 RocketHideout7FDocumento_Text_113:
-.string "NÚMERO 1: HO-OH\p"
-	.string "PS: 106\n"
-	.string "ATAQUE: 130\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 110\l"
-	.string "DEFENSA ESPECIAL: 154\l"
-	.string "VELOCIDAD: 90\l"
+.string "NUMBER 1: HO-OH\p"
+	.string "HP: 106\n"
+	.string "ATTACK: 130\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 110\l"
+	.string "SPECIAL DEFENSE: 154\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 680\p"
-	.string "El ave fénix de JOHTO y prueba de\n"
-	.string "que la perfecta armonía entre\l"
-	.string "humanos y Pokémon es posible, su\l"
-	.string "inmenso poder natural rivaliza con\l"
-	.string "el de MEWTWO.\l"
-	.string "Estrechamente relacionado con la\l"
-	.string "historia y mitología de JOHTO,\l"
-	.string "entra junto con LUGIA y RAYQUAZA\l"
-	.string "en el tope de 680 de base, la\l"
-	.string "mejor combinación que las\l"
-	.string "condiciones arbitrarias y azarosas\l"
-	.string "de la naturaleza nos han mostrado\l"
-	.string "hasta ahora.$"
-
+	.string "The phoenix bird from JOHTO and the\n"
+	.string "proof of a perfect harmony between\l"
+	.string "humans and POKÉMON is possible, its\l"
+	.string "grand natural strength rivals MEWTWO.\l"
+	.string "Closely related with JOHTO history and\l"
+	.string "mythology, it has the max 680 base\l"
+	.string "stats as LUGIA and RAYQUAZA, one of\l"
+	.string "the best combinations that the\l"
+	.string "arbitrary and random conditions of\l"
+	.string "nature have shown us by far.$"
 
 
 RocketHideout7FDocumento_114::
@@ -893,22 +830,20 @@ release
 end
 
 RocketHideout7FDocumento_Text_114:
-.string "NÚMERO 14: FLYGON\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 100\l"
-	.string "DEFENSA: 80\l"
-	.string "ATAQUE ESPECIAL: 100\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 110\l"
+.string "NUMBER 14: FLYGON\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 100\l"
+	.string "DEFENSE: 80\l"
+	.string "SPECIAL ATTACK: 100\l"
+	.string "SPECIAL DEFENSE: 80\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 550\p"
-	.string "El espíritu de los desiertos de\n"
-	.string "HOENN, mantiene una estrecha\l"
-	.string "rivalidad con SALAMENCE por el\l"
-	.string "trono del mejor dragón no\l"
-	.string "legendario de su región, su mayor\l"
-	.string "Velocidad y mayor variedad\l"
-	.string "ofensiva son sus principales\l"
-	.string "argumentos por ese trono.$"
+	.string "The desert's spirit of HOENN. It holds a\n"
+	.string "close rivalry with SALAMENCE for the\l"
+	.string "throne of the best non-legendary\l"
+	.string "dragon in its region. Its greater speed\l"
+	.string "and better offensive movepool are its\l"
+	.string "main arguments to claim the throne.$"
 
 
 
@@ -922,23 +857,22 @@ release
 end
 
 RocketHideout7FDocumento_Text_115:
-	.string "NÚMERO 13: MILOTIC\p"
-	.string "PS: 105\n"
-	.string "ATAQUE: 60\l"
-	.string "DEFENSA: 79\l"
-	.string "ATAQUE ESPECIAL: 110\l"
-	.string "DEFENSA ESPECIAL: 135\l"
-	.string "VELOCIDAD: 81\l"
+	.string "NUMBER 13: MILOTIC\p"
+	.string "HP: 105\n"
+	.string "ATTACK: 60\l"
+	.string "DEFENSE: 79\l"
+	.string "SPECIAL ATTACK: 110\l"
+	.string "SPECIAL DEFENSE: 135\l"
+	.string "SPEED: 81\l"
 	.string "TOTAL: 570\p"
-	.string "Una leyenda de los extensos mares\n"
-	.string "de HOENN, dado su poder hay\l"
-	.string "controversia sobre si catalogarlo\l"
-	.string "como un Pokémon común o una\l"
-	.string "especie de legendario menor, sus\l"
-	.string "orígenes como FEEBAS indican que\l"
-	.string "efectivamente es un no legendario,\l"
-	.string "siendo entonces el de mayor poder\l"
-	.string "que se ha registrado.$"
+	.string "A legend of the vast seas of HOENN. Due\n"
+	.string "to its power, there is controversy\l"
+	.string "about whether to classify it as a\l"
+	.string "common Pokémon or a species of minor\l"
+	.string "legendary. Its origins as FEEBAS shows\l"
+	.string "that it is indeed non-legendary,\l"
+	.string "therefore being the most powerful ever\l"
+	.string "registered.$"
 
 
 
@@ -952,25 +886,22 @@ release
 end
 
 RocketHideout7FDocumento_Text_116:
-.string "NÚMERO 12: REGICE\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 50\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 100\l"
-	.string "DEFENSA ESPECIAL: 200\l"
-	.string "VELOCIDAD: 50\l"
+.string "NUMBER 12: REGICE\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 50\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 100\l"
+	.string "SPECIAL DEFENSE: 200\l"
+	.string "SPEED: 50\l"
 	.string "TOTAL: 580\p"
-	.string "El hielo eterno de HOENN, se cree\n"
-	.string "que su existencia dio paso a una\l"
-	.string "era glacial en dicha región hace\l"
-	.string "miles de años.\l"
-	.string "Cuenta con una defensa especial\l"
-	.string "absurda de 200 debido a las\l"
-	.string "temperaturas de -200 grados que\l"
-	.string "envuelve la superficie de su\l"
-	.string "cuerpo, filtrando gran parte de la\l"
-	.string "potencia de los movimientos\l"
-	.string "especiales.$"
+	.string "The eternal ice of HOENN. It's believed\n"
+	.string "that its existence gave way to an ice\l"
+	.string "age in that region thousands of years\l"
+	.string "ago. It has an extremely high special\l"
+	.string "defense stat of 200, thanks to the\l"
+	.string "-200-degree temperatures that envelop\l"
+	.string "its body, decreasing the power of\l"
+	.string "special moves.$"
 
 
 
@@ -984,22 +915,21 @@ release
 end
 
 RocketHideout7FDocumento_Text_117:
-.string "NÚMERO 11: REGIROCK\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 100\l"
-	.string "DEFENSA: 200\l"
-	.string "ATAQUE ESPECIAL: 50\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 50\l"
+.string "NUMBER 11: REGIROCK\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 100\l"
+	.string "DEFENSE: 200\l"
+	.string "SPECIAL ATTACK: 50\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 50\l"
 	.string "TOTAL: 580\p"
-	.string "Las rocas del cuerpo de REGIROCK\n"
-	.string "pueden encontrarse en todos los\l"
-	.string "estratos geológicos, confiriéndole\l"
-	.string "una monstruosa defensa física de\l"
-	.string "200 de base, no se tiene claro su\l"
-	.string "origen, pero su comportamiento se\l"
-	.string "asemeja mucho al de un robot que\l"
-	.string "no se detiene ante nada.$"
+	.string "The rocks composing REGIROCK's body\n"
+	.string "can be found in all geological strata,\l"
+	.string "providing it a overwhelming physical\l"
+	.string "defense of 200 at the base stat. Its\l"
+	.string "origin remains unclear, but its behavior\l"
+	.string "closely resembles that of a relentless\l"
+	.string "robot that stops at nothing.$"
 
 
 
@@ -1013,23 +943,23 @@ release
 end
 
 RocketHideout7FDocumento_Text_118:
-.string "NÚMERO 10: REGISTEEL\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 150\l"
-	.string "ATAQUE ESPECIAL: 75\l"
-	.string "DEFENSA ESPECIAL: 150\l"
-	.string "VELOCIDAD: 50\l"
+.string "NUMBER 10: REGISTEEL\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 75\l"
+	.string "DEFENSE: 150\l"
+	.string "SPECIAL ATTACK: 75\l"
+	.string "SPECIAL DEFENSE: 150\l"
+	.string "SPEED: 50\l"
 	.string "TOTAL: 580\p"
-	.string "El metal de su cuerpo es el más\n"
-	.string "duro conocido, algunos científicos\l"
-	.string "dudan de su procedencia terrestre,\l"
-	.string "lo cierto es que el haberse\l"
-	.string "sometido durante miles de años a\l"
-	.string "la presión subterránea le ha\l"
-	.string "dotado a REGISTEEL de un doble 150\l"
-	.string "en ambas defensas que lo hace muy\l"
-	.string "difícil de tumbar.$"
+	.string "The metal of its body is the toughest\n"
+	.string "known. Some scientists question its\l"
+	.string "terrestrial origin, but the truth is\l"
+	.string "that, having been exposed to\l"
+	.string "underground pressure for thousands of\l"
+	.string "years, REGISTEEL has gained incredible\l"
+	.string "durability with a double defense stat\l"
+	.string "of 150, making it very challenging to\l"
+	.string "knock down.$"
 
 
 
@@ -1043,25 +973,23 @@ release
 end
 
 RocketHideout7FDocumento_Text_119:
-.string "NÚMERO 9: SALAMENCE\p"
-	.string "PS: 95\n"
-	.string "ATAQUE: 135\l"
-	.string "DEFENSA: 80\l"
-	.string "ATAQUE ESPECIAL: 110\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 100\l"
+.string "NUMBER 9: SALAMENCE\p"
+	.string "HP: 95\n"
+	.string "ATTACK: 135\l"
+	.string "DEFENSE: 80\l"
+	.string "SPECIAL ATTACK: 110\l"
+	.string "SPECIAL DEFENSE: 80\l"
+	.string "SPEED: 100\l"
 	.string "TOTAL: 600\p"
-	.string "La versión ofensiva de DRAGONITE\n"
-	.string "en HOENN, es temido por la inmensa\l"
-	.string "mayoría de Pokémon en esa región,\l"
-	.string "sus potentísimos Enfados\l"
-	.string "combinados con Llamaradas\l"
-	.string "respaldados por 110 de base en\l"
-	.string "Ataque Especial, y Velocidad de\l"
-	.string "100, le dan una de las mejores\l"
-	.string "coberturas y combinaciones de\l"
-	.string "estadísticas que se haya visto en\l"
-	.string "un Pokémon no legendario.$"
+	.string "The offensive version of DRAGONITE in\n"
+	.string "HOENN. It is feared by the greatest\l"
+	.string "part of Pokémon in that region due to\l"
+	.string "its powerful Outrages combined with\l"
+	.string "Flamethrowers, backed by a base Special\l"
+	.string "Attack of 110 and a Speed of 100, give\l"
+	.string "it one of the best coverages and\l"
+	.string "combinations of statistics ever seen in\l"
+	.string "a non-legendary POKÉMON.$"
 
 
 
@@ -1076,25 +1004,23 @@ release
 end
 
 RocketHideout7FDocumento_Text_120:
-.string "NÚMERO 8: METAGROSS\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 135\l"
-	.string "DEFENSA: 130\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 70\l"
+.string "NUMBER 8: METAGROSS\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 135\l"
+	.string "DEFENSE: 130\l"
+	.string "SPECIAL ATTACK: 95\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 70\l"
 	.string "TOTAL: 600\p"
-	.string "Nuestros científicos consideran\n"
-	.string "que un METAGROSS con velocidad\l"
-	.string "sería lo más cercano a la\l"
-	.string "perfección competitiva, de ahí\l"
-	.string "que el movimiento Agilidad en este\l"
-	.string "Pokémon sea tan temible.\l"
-	.string "Su cuerpo y forma de combatir se\l"
-	.string "asemeja a una enorme computadora\l"
-	.string "dotada de la más alta tecnología,\l"
-	.string "infranqueable por el lado físico y\l"
-	.string "letal con su Puño Meteoro.$"
+	.string "Our scientists believe that a\n"
+	.string "METAGROSS with speed would be the\l"
+	.string "closest to competitive perfection,\l"
+	.string "hence why the move AGILITY in this\l"
+	.string "POKÉMON is so formidable. Its body and\l"
+	.string "fighting style resemble a massive\l"
+	.string "computer equipped with the highest\l"
+	.string "technology, impervious on the physical\l"
+	.string "side, and lethal with its METEOR MASH.$"
 
 
 
@@ -1108,23 +1034,21 @@ release
 end
 
 RocketHideout7FDocumento_Text_121:
-.string "NÚMERO 7: JIRACHI\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 50\l"
-	.string "DEFENSA: 125\l"
-	.string "ATAQUE ESPECIAL: 110\l"
-	.string "DEFENSA ESPECIAL: 125\l"
-	.string "VELOCIDAD: 90\l"
+.string "NUMBER 7: JIRACHI\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 50\l"
+	.string "DEFENSE: 125\l"
+	.string "SPECIAL ATTACK: 110\l"
+	.string "SPECIAL DEFENSE: 125\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 600\p"
-	.string "Dicen que puede cumplir cualquier\n"
-	.string "deseo, al igual que METAGROSS la\l"
-	.string "combinación ACERO/PSÍQUICO le da\l"
-	.string "una inmensa cantidad de\l"
-	.string "resistencias, su enorme suerte le\l"
-	.string "procura el doble de probabilidades\l"
-	.string "de provocar efectos secundarios al\l"
-	.string "rival.$"
-
+	.string "They say it can fulfill any wish. Just\n"
+	.string "like METAGROSS, the STEEL/PSYCHIC\l"
+	.string "combination gives it an immense number\l"
+	.string "of resistances. Its enormous luck\l"
+	.string "provides it with double the chances of\l"
+	.string "causing secondary effects to the\l"
+	.string "opponent.$"
 
 
 RocketHideout7FDocumento_122::
@@ -1137,25 +1061,23 @@ release
 end
 
 RocketHideout7FDocumento_Text_122:
-.string "NÚMERO 6: DEOXYS\p"
-	.string "PS: 50\n"
-	.string "ATAQUE: 150\l"
-	.string "DEFENSA: 50\l"
-	.string "ATAQUE ESPECIAL: 150\l"
-	.string "DEFENSA ESPECIAL: 50\l"
-	.string "VELOCIDAD: 150\l"
+.string "NUMBER 6: DEOXYS\p"
+	.string "HP: 50\n"
+	.string "ATTACK: 150\l"
+	.string "DEFENSE: 50\l"
+	.string "SPECIAL ATTACK: 150\l"
+	.string "SPECIAL DEFENSE: 50\l"
+	.string "SPEED: 150\l"
 	.string "TOTAL: 600\p"
-	.string "El Pokémon más ofensivo y con\n"
-	.string "mayor capacidad de crear daño que\l"
-	.string "se conoce gracias a su singular\l"
-	.string "Psicoataque, su forma ataque eleva\l"
-	.string "su Ataque Especial y Ataque hasta\l"
-	.string "180 de base cada, superando al\l"
-	.string "propio experimento genético\l"
-	.string "MEWTWO, todo ello a costa de unas\l"
-	.string "Defensas ridículamente bajas.\l"
-	.string "Su origen es completamente\l"
-	.string "desconocido.$"
+	.string "The most offensive POKÉMON with the\n"
+	.string "highest damage-dealing capacity known,\l"
+	.string "thanks to its unique PSYCHO BOOST. Its\l"
+	.string "attack form raises both its SP.ATK and\l"
+	.string "ATK to a base of 180 each, surpassing\l"
+	.string "the genetic experiment Mewtwo itself,\l"
+	.string "all at the cost of ridiculously low\l"
+	.string "defenses. Its origin is completely\l"
+	.string "unknown.$"
 
 
 
@@ -1169,20 +1091,19 @@ release
 end
 
 RocketHideout7FDocumento_Text_123:
-	.string "NÚMERO 3: GROUDON\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 150\l"
-	.string "DEFENSA: 140\l"
-	.string "ATAQUE ESPECIAL: 100\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 90\l"
+	.string "NUMBER 3: GROUDON\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 150\l"
+	.string "DEFENSE: 140\l"
+	.string "SPECIAL ATTACK: 100\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 670\p"
-	.string "El creador de los continentes y\n"
-	.string "dueño de un poder físico\l"
-	.string "descomunal, su habilidad Sequía\l"
-	.string "mitigará su debilidad al tipo\l"
-	.string "Agua, la fuerza de sus Terremotos\l"
-	.string "no conocen igual.$"
+	.string "The creator of the continents and\n"
+	.string "owner of colossal physical power. His\l"
+	.string "ability -DROUGHT- will mitigate his\l"
+	.string "weakness to the WATER TYPE. The force\l"
+	.string "of his Earthquakes knows no equal.$"
 
 
 
@@ -1196,21 +1117,19 @@ release
 end
 
 RocketHideout7FDocumento_Text_124:
-.string "NÚMERO 2: KYOGRE\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 100\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 150\l"
-	.string "DEFENSA ESPECIAL: 140\l"
-	.string "VELOCIDAD: 90\l"
+.string "NUMBER 2: KYOGRE\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 100\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 150\l"
+	.string "SPECIAL DEFENSE: 140\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 670\p"
-	.string "El creador de los mares y dueño de\n"
-	.string "un poder especial descomunal, su\l"
-	.string "habilidad Llovizna hará que los\l"
-	.string "Salpicar y Surf de este Pokémon\l"
-	.string "adquieran tintes apocalípticos al\l"
-	.string "tiempo que su Trueno nunca\l"
-	.string "fallará.$"
+	.string "The creator of the seas and owner of\n"
+	.string "immense special power. Its ability\l"
+	.string "DRIZZLE will turn the Water spout and\l"
+	.string "Surf of this POKÉMON into apocalyptic\l"
+	.string "hues, while its THUNDER will never fail.$"
 
 
 
@@ -1224,26 +1143,24 @@ release
 end
 
 RocketHideout7FDocumento_Text_125:
-.string "NÚMERO 1: RAYQUAZA\p"
-	.string "PS: 105\n"
-	.string "ATAQUE: 150\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 150\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 95\l"
+.string "NUMBER 1: RAYQUAZA\p"
+	.string "HP: 105\n"
+	.string "ATTACK: 150\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 150\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 95\l"
 	.string "TOTAL: 680\p"
-	.string "El rey de los cielos de HOENN, su\n"
-	.string "poder rivaliza con el de MEWTWO y\l"
-	.string "su capacidad ofensiva mixta con la\l"
-	.string "de DEOXYS, dueño del Cometa Draco\l"
-	.string "y ataques voladores más\l"
-	.string "devastadores que existen.\l"
-	.string "Entra junto con HO-OH y LUGIA en\l"
-	.string "el tope de los 680 de base, la\l"
-	.string "mejor combinación que las\l"
-	.string "condiciones arbitrarias y azarosas\l"
-	.string "de la naturaleza nos han mostrado\l"
-	.string "hasta ahora.$"
+	.string "The king of the skies of HOENN. Its\n"
+	.string "power rivals that of MEWTWO, and its\l"
+	.string "mixed offensive capability matches\l"
+	.string "that of DEOXYS, owner of DRACO METEOR\l"
+	.string "and the most devastating flying\l"
+	.string "attacks that exist. It enters, along\l"
+	.string "with HO-OH and LUGIA, at the top of the\l"
+	.string "680 base, the best combination that\l"
+	.string "the arbitrary and capricious conditions\l"
+	.string "of nature have shown us so far.$"
 
 
 

@@ -29,14 +29,13 @@ release
 end
 
 RockTunnel1F_Text_5:
-.string "La rareza de KANGASKHAN está a la\n"
-.string "altura de los FÓSILES DOMO y\l"
-.string "HELIX, DRATINI o el extinto\l"
-.string "AERODACTYL, los de la ZONA SAFARI\l"
-.string "producen tan pocos que atrapar uno\l"
-.string "allí es casi imposible, ¡un\l"
-.string "POKEMANÍACO que se precie no puede\l"
-.string "dejar pasar esta oportunidad!$"
+	.string "The KANGASKHAN rarity is on par with\n"
+	.string "DOME and HELIX FOSSILS, DRATINI or the\l"
+	.string "extinct AERODACTYL, the ones in the\l"
+	.string "SAFARI ZONE are so scarce that\l"
+	.string "catching one there is nearly impossible,\l"
+	.string "a true POKÉMANIAC cannot miss this\l"
+	.string "opportunity!$"
 
 
 
@@ -48,10 +47,9 @@ release
 end
 
 RockTunnel1F_Text_6:
-.string "Ese KANGASKHAN va a ser nuestro,\n"
-.string "ningún ENTRENADOR GUAY será tan\l"
-.string "guay como nosotros después de\l"
-.string "atrapar a esa rareza.$"
+	.string "That KANGASKHAN will be our, any COOL\n"
+	.string "TRAINER won't be as cool as we will be\l"
+	.string "after we catch that oddity.$"
 
 
 
@@ -143,8 +141,8 @@ msgbox RockTunnel1FDocumento_Text_100, MSGBOX_SIGN
 end
 
 RockTunnel1FDocumento_Text_100:
-.string "TÚNEL ROCA:\n"
-	.string "CIUDAD CELESTE - PUEBLO LAVANDA$"
+.string "ROCK TUNNEL:\n"
+	.string "CERULEAN CITY - LAVENDER TOWN$"
 
 RockTunnel_1F_Escena_3::
 applymovement OBJ_EVENT_ID_PLAYER, RockTunnel_1F_Escena_3_Move_1
@@ -185,50 +183,45 @@ release
 end
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_1:
-.string "Llevamos ya un buen rato buscando\n"
-	.string "y ni rastro del KANGASKHAN, parece\l"
-	.string "que los rumores eran falsos, y\l"
-	.string "para colmo aparece el TEAM ROCKET,\l"
-	.string "¡lo que faltaba!\l"
-	.string "Mira, no es por desprestigiarte,\l"
-	.string "pero sois pésimos ENTRENADORES,\l"
-	.string "solo sabéis usar ZUBATS y\l"
-	.string "RATATTAS, contigo no tendría ni\l"
-	.string "para empezar.$"
+	.string "We had been searching for a while and\n"
+	.string "not even a hint about that KANGASKHAN,\l"
+	.string "seems like the rumors were false, and to\l"
+	.string "make it worse, TEAM ROCKET appeared,\l"
+	.string "what a nuisance! Look, I don't wanna\l"
+	.string "offend you but you are dreadful\l"
+	.string "TRAINERS, you just use simple ZUBATS\l"
+	.string "and RATTATAS, you don't even have a\l"
+	.string "chance against me.$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2:
 .string "... ...$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_3:
-.string "¿Ganarme tú a mi?\n"
-	.string "¡No me hagas reir!\l"
-	.string "¿No conoces la reputación de los\l"
-	.string "ENTRENADORES GUAYS?\l"
-	.string "¡Somos los más sofisticados de\l"
-	.string "entre todos los ENTRENADORES,\l"
-	.string "todos los que están en este túnel\l"
-	.string "no nos llegan ni a la suela del\l"
-	.string "zapato!$"
+	.string "You defeating me? Now thats funny!\n"
+	.string "Don't you know the COOL TRAINERS\l"
+	.string "reputation? We are the most\l"
+	.string "sophisticated kind of TRAINER,\l"
+	.string "everyone that is here at this tunnel is\l"
+	.string "not even worth mentioning compared to\l"
+	.string "us!$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_4:
-.string "Has agotado mi paciencia, ¡voy a\n"
-	.string "mostrarte cómo combate una\l"
-	.string "ENTRENADORA de verdad!$"
+	.string "You just got me mad, I will show you how\n"
+	.string "a real TRAINER battles!$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_5:
-.string "¿De verdad me acaba de dar una\n"
-	.string "lección un ROCKET?$"
+	.string "Did a ROCKET teached me a lesson for\n"
+	.string "real?$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_6:
-.string "Esto ya roza lo ridículo, nuestra\n"
-	.string "reputación como ENTRENADORES se\l"
-	.string "vendría abajo si alguien se\l"
-	.string "enterara de que fui derrotada por\l"
-	.string "un ROCKET, estoy harta de esta\l"
-	.string "cueva, aquí no hay nada, voy a\l"
-	.string "llamar a mi compañero y largarnos\l"
-	.string "de aquí, total, dicen que hay un\l"
-	.string "PINSIR en el BOSQUE VERDE.$"
+	.string "This is ridiculous, our reputation as\n"
+	.string "TRAINERS would fall down if someone\l"
+	.string "knew that a ROCKET like you defeated\l"
+	.string "me, I am so tired of this cave, it is\l"
+	.string "empty, I will call my partner and we are\l"
+	.string "heading out of here, anyways, there is a\l"
+	.string "rumor that a PINSIR is on VIRIDIAN\l"
+	.string "FOREST.$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Move_1:
 emote_exclamation_mark

@@ -25,14 +25,14 @@ release
 end
 
 Route5_Text_5:
-.string "¿Tienes idea de lo que dices?\n"
-.string "¡No hay ningún KANGASKHAN en este\l"
-.string "lugar!\l"
-.string "¿Sabes lo que ello implicaría?\l"
-.string "¡La ZONA SAFARI cerraría, y no\l"
-.string "solo eso, la gente se pondría a\l"
-.string "investigar de dónde ha salido, un\l"
-.string "POKÉMON así no sale de la nada!$"
+	.string "Do you even know what you're saying?\n"
+	.string "There's no KANGASKHAN in this place! Do\l"
+	.string "you realize what that would mean? The\l"
+	.string "SAFARI ZONE would close forever, and\l"
+	.string "not only that, people would start\l"
+	.string "investigating where it came from; a\l"
+	.string "POKÉMON like that doesn't just appear\l"
+	.string "out of nowhere!$"
 
 
 
@@ -43,8 +43,7 @@ release
 end
 
 Route5_Text_6:
-.string "¡Te digo que he visto un\n"
-.string "KANGASKHAN aquí dentro!$"
+	.string "It's true! I saw a KANGASKHAN inside!$"
 
 
 Route10_7::
@@ -55,15 +54,12 @@ release
 end
 
 Route5_Text_7:
-.string "La CENTRAL ENERGÍA ha sido\n"
-.string "considerada patrimonio de nuestra\l"
-.string "región, a partir de ahora será\l"
-.string "protegida por las fuerzas del\l"
-.string "orden y no estará abierta a la\l"
-.string "exploración. Más te vale no\l"
-.string "intentar ninguna estupidez, o el\l"
-.string "peso de la justicia se cernirá\l"
-.string "sobre ti.$"
+	.string "The POWER PLANT has been considered\n"
+	.string "our region's patrimony, since now it will\l"
+	.string "be protected by police and won't be\l"
+	.string "opened for exploration.Better you\l"
+	.string "don't try any foolishness or justice\l"
+	.string "will pursue you.$"
 
 
 
@@ -75,15 +71,12 @@ release
 end
 
 Route5_Text_8:
-.string "La CENTRAL ENERGÍA ha sido\n"
-.string "considerada patrimonio de nuestra\l"
-.string "región, a partir de ahora será\l"
-.string "protegida por las fuerzas del\l"
-.string "orden y no estará abierta a la\l"
-.string "exploración. Más te vale no\l"
-.string "intentar ninguna estupidez, o el\l"
-.string "peso de la justicia se cernirá\l"
-.string "sobre ti.$"
+	.string "The POWER PLANT has been considered\n"
+	.string "our region's patrimony, since now it will\l"
+	.string "be protected by police and won't be\l"
+	.string "opened for exploration.Better you\l"
+	.string "don't try any foolishness or justice\l"
+	.string "will pursue you.$"
 
 
 Route10_9::
@@ -237,124 +230,107 @@ release
 end
 
 Route10_Combate_Andra_Texto_1:
-.string "ANDRA: ¡Hey {PLAYER}!\n"
-	.string "¿Aprovechando tu merecido tiempo\l"
-	.string "libre después de un buen trabajo?$"
+	.string "ANDRA: Hey {PLAYER}! Taking\n"
+	.string "advantage of your well-deserved free\l"
+	.string "time after an excellent job?$"
 
 Route10_Combate_Andra_Texto_2:
-.string "Al parecer más al sur de esta\n"
-	.string "ruta, cruzando el TÚNEL ROCA, se\l"
-	.string "halla PUEBLO LAVANDA, conocido por\l"
-	.string "su enorme cementerio y sus\l"
-	.string "supuestos espíritus malignos,\l"
-	.string "¿será cierta la leyenda?$"
+	.string "Apparently, further at the south of\n"
+	.string "this route, across ROCK TUNNEL, you will\l"
+	.string "find LAVENDER TOWN, famous for its vast\l"
+	.string "cemetery and supposed evil spirits,\l"
+	.string "could the legend be true?$"
 
 Route10_Combate_Andra_Texto_3:
-.string "La verdad que KANTO es más\n"
-	.string "interesante de lo que pensaba, sin\l"
-	.string "ir más lejos, mira ese lugar.$"
+	.string "The fact is that KANTO is more\n"
+	.string "interesting than I thought, not going\l"
+	.string "further than this, look at that place.$"
 
 Route10_Combate_Andra_Texto_4:
-.string "ANDRA: Se hace llamar CENTRAL\n"
-	.string "ENERGÍA, está repleta de POKÉMON\l"
-	.string "ELÉCTRICOS, yo misma he estado\l"
-	.string "entrenando un buen rato allí hasta\l"
-	.string "hace poco, es un lugar\l"
-	.string "completamente abandonado, con\l"
-	.string "VOLTORBS que explotan en tu cara,\l"
-	.string "recipientes de acero con toda la\l"
-	.string "pinta de ser radiactivos,\l"
-	.string "MAGNEMITES y MAGNETON pululando\l"
-	.string "alrededor de ellos...todo indica a\l"
-	.string "que ciertas prácticas poco éticas\l"
-	.string "se llevaron a cabo en este lugar\l"
-	.string "en tiempos pretéritos, a saber con\l"
-	.string "qué fin, sea como sea no he podido\l"
-	.string "averiguar más. La policía llegó\l"
-	.string "hace poco con una orden oficial de\l"
-	.string "protección, guarda y custodia de\l"
-	.string "la CENTRAL firmada por el COMITÉ\l"
-	.string "DE LA LIGA, según ellos -con el\l"
-	.string "fin de proteger los lugares más\l"
-	.string "icónicos y la diversidad de\l"
-	.string "especies de la región-. Tiene\l"
-	.string "gracia, seguro que después dejan\l"
-	.string "campar a sus anchas por el lugar a\l"
-	.string "cualquier crío de 10 años.$"
+	.string "ANDRA: It is called POWER PLANT, it is\n"
+	.string "full of ELECTRIC POKÉMON, I've been\l"
+	.string "training there for a good while until\l"
+	.string "recently, it is a place completely\l"
+	.string "abandoned , with VOLTORBS that\l"
+	.string "explodes in your face, steel containers\l"
+	.string "that seems radioactive, MAGNEMITES and\l"
+	.string "MAGNETON walking around…, it appears\l"
+	.string "that certain unethical practices were\l"
+	.string "carried out in this place in the past,\l"
+	.string "who knows why, anyways I wasn't able to\l"
+	.string "go deeper. Police arrived recently with\l"
+	.string "an official protection order, that\l"
+	.string "keeps safe the PLANT signed by the\l"
+	.string "LEAGUE COMMITTEE , according to them\l"
+	.string "-the goal is to safeguard the region's\l"
+	.string "most iconic locations and species\l"
+	.string "diversity-. It is funny, for sure they\l"
+	.string "will let any 10 year old kid walk around\l"
+	.string "for this place.$"
 
 Route10_Combate_Andra_Texto_5:
 .string "... ...$"
 
 Route10_Combate_Andra_Texto_6:
-.string "ANDRA: El caso es que ese lugar\n"
-	.string "esconde algo, he notado una\l"
-	.string "presencia muy potente en su\l"
-	.string "interior, un ser capaz de generar\l"
-	.string "energía casi infinita, ¿existirá\l"
-	.string "un POKÉMON ELÉCTRICO de esas\l"
-	.string "características?\l"
-	.string "Si tan solo hubiera podido\l"
-	.string "adentrarme un poco más...$"
+	.string "ANDRA: The thing is, that place hides\n"
+	.string "something, I've sensed a very powerful\l"
+	.string "presence inside, a being capable of\l"
+	.string "generating almost infinite energy,\l"
+	.string "could there be any ELECTRIC POKÉMON\l"
+	.string "with those characteristics? If only I\l"
+	.string "could have gone a bit further…$"
 
 Route10_Combate_Andra_Texto_7:
-.string "Podríamos proponerle a GIOVANNI un\n"
-	.string "asalto a la CENTRAL, a su debido\l"
-	.string "tiempo claro, primero deberemos de\l"
-	.string "demostrarle lo que valemos, pero\l"
-	.string "un POKÉMON con esa presencia debe\l"
-	.string "de ser muy fuerte, quizás nuestros\l"
-	.string "superiores de KANTO sepan algo\l"
-	.string "más.$"
+	.string "We might suggest a raid on the POWER\n"
+	.string "PLANT to GIOVANNI, in due time of\l"
+	.string "course, first we need to prove our\l"
+	.string "worth to him, but a POKÉMON with that\l"
+	.string "intimidating presence must be very\l"
+	.string "strong, maybe our superiors in KANTO\l"
+	.string "know more.$"
 
 Route10_Combate_Andra_Texto_8:
-.string "Ahora que lo pienso, ya ha pasado\n"
-	.string "bastante desde la última vez que\l"
-	.string "combatimos, no hay duda de que has\l"
-	.string "sobrepasado expectativas\l"
-	.string "derrotando a nuestro entonces\l"
-	.string "superior en el MT.MOON, también a\l"
-	.string "BILL y después a un CAPITÁN con\l"
-	.string "experiencia como el del SS.ANNE,\l"
-	.string "pero...¿sabes qué?\l"
-	.string "Yo no me he quedado atrás {PLAYER},\l"
-	.string "te dije que sería la RECLUTA más\l"
-	.string "fuerte de toda la organización y\l"
-	.string "lo mantengo, ya somos RECLUTAS DE\l"
-	.string "ALTO RANGO, la cuestión es, ¿¡qué\l"
-	.string "RECLUTA DE ALTO RANGO es mejor\l"
-	.string "ENTRENADOR?!$"
+	.string "Now that I think about it, it has been a\n"
+	.string "while since the last time that we\l"
+	.string "battled, there is no doubt that you\l"
+	.string "have surpassed any expectation\l"
+	.string "defeating our superior at MT.MOON, also\l"
+	.string "BILL and then, to a skilled CAPTAIN like\l"
+	.string "the one on the SS. ANNE, but… do you\l"
+	.string "know what? I haven't been left behind,\l"
+	.string "{PLAYER}, I told you I will be the\l"
+	.string "strongest GRUNT in the entire\l"
+	.string "organization, and I keep it, we're now\l"
+	.string "HIGH-RANKING RECRUITS, the thing is;\l"
+	.string "who is the best HIGH RANK GRUNT\l"
+	.string "TRAINER?$"
 
 Route10_Combate_Andra_Texto_9:
-.string "Entonces sigue sin ser suficiente,\n"
-	.string "jejeje, gracias por elevar más el\l"
-	.string "nivel.$"
+	.string "So it is not enough yet, hehehe, thank\n"
+	.string "you for raising the bar.$"
 
 Route10_Combate_Andra_Texto_10:
-.string "ANDRA: No me gustaría tenerte como\n"
-	.string "enemigo {PLAYER}, sigo sin entender\l"
-	.string "como ese misterioso entrenador\l"
-	.string "vestido de rojo pudo derrotarte en\l"
-	.string "el MT.MOON, debe de ser un\l"
-	.string "auténtico superdotado del combate.$"
+	.string "ANDRA: I would not like having you as an\n"
+	.string "enemy {PLAYER}, I still can't\l"
+	.string "understand how that mysterious trainer\l"
+	.string "red dressed could defeat you at\l"
+	.string "MT.MOON, he must have been a really\l"
+	.string "prodigious battling.$"
 
 Route10_Combate_Andra_Texto_11:
-.string "Sea como sea, no importa, ese tipo\n"
-	.string "no sabe con quién se mete, ahora\l"
-	.string "que nos trasladan a AZULONA, el\l"
-	.string "centro de operaciones del TEAM\l"
-	.string "ROCKET, vamos a hacernos un lugar\l"
-	.string "entre la élite del TEAM ROCKET.\l"
-	.string "¡Ese pobre chico deseará no\l"
-	.string "haberse metido con nosotros en el\l"
-	.string "MT.MOON!$"
+	.string "Anyway, it doesn't matter, that kid\n"
+	.string "doesn't know who is dealing with, now we\l"
+	.string "are moving to CELADON, the central base\l"
+	.string "of TEAM ROCKET, we will be finally part\l"
+	.string "of the TEAM ROCKET elite. That poor\l"
+	.string "kind will regret crossing us on MT.MOON.$"
 
 Route10_Combate_Andra_Texto_12:
-.string "ANDRA: Bah, me vuelvo al cuartel\n"
-	.string "{PLAYER}, la máquina\l"
-	.string "teletransportadora debe de estar\l"
-	.string "casi lista, ultima tus\l"
-	.string "preparativos y no tardes:\l"
-	.string "¡CIUDAD AZULONA ESPERA!$"
+	.string "ANDRA: Bah, I will be back to the\n"
+	.string "headquarter {PLAYER}, the teleport\l"
+	.string "machine should be almost ready, get\l"
+	.string "ready and do not be later: CELADON CITY\l"
+	.string "IS WAITING!$"
 
 Route10_Combate_Andra_move_1:
 walk_in_place_left
@@ -448,12 +424,11 @@ release
 end
 
 Route10_Entrenadores_Guays_Texto_1:
-.string "Al parecer ya hay gente que está\n"
-	.string "explorando la cueva en busca de\l"
-	.string "ese KANGASKHAN, el rumor ha\l"
-	.string "corrido como la pólvora, ¡démonos\l"
-	.string "prisa antes de que alguien lo\l"
-	.string "atrape!$"
+	.string "Apparently there are already people\n"
+	.string "who are exploring the cave in search of\l"
+	.string "that KANGASKHAN, that rumor has spread\l"
+	.string "quickly, let's hurry up before someone\l"
+	.string "else catches it!$"
 
 Route10_Entrenadores_Guays_Move_1:
 walk_in_place_up

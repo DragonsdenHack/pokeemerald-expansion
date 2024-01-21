@@ -14668,625 +14668,612 @@ ViasTren2_Text_ObreroPostBattle:
 
 
 ViasTren2_Text_Obrero2Intro:
-	.string "Mantente alerta por estas zonas.\n"
-	.string "¡Podría haber POKÉMON que no conoces!$"
+	.string "Stay alert in these areas. There might\n"
+	.string "be POKÉMON you're not familiar with!$"
 
 
 ViasTren2_Text_Obrero2Defeated:
-	.string "Con esos POKÉMON, estás más que\n"
-	.string "protegido.$"
+	.string "Those POKÉMON provide ample\n"
+	.string "protection.$"
 
 
 ViasTren2_Text_Obrero2PostBattle:
-	.string "Un POKÉMON que jamás había visto se\n"
-	.string "dirijía hacia el noreste, debe haber\l"
-	.string "algo por ahí.$"
+	.string "A POKÉMON I had never seen before was\n"
+	.string "heading northeast; there must be\l"
+	.string "something over there.$"
 
 
 ViasTren3_Text_ObreroIntro:
-	.string "Algunos creen que usamos POKÉMON\n"
-	.string "similares a esos CIENTÍFICOS de SILPH.$"
+	.string "Some speculate that we employ similar\n"
+	.string "POKÉMON to those SILPH SCIENTISTS.$"
 
 
 ViasTren3_Text_ObreroDefeated:
-	.string "¡Tu equipo es muy variado!$"
+	.string "Your team is very diverse!$"
 
 
 ViasTren3_Text_ObreroPostBattle:
-	.string "Es cierto que usamos POKÉMON TIPO\n"
-	.string "ELÉCTRICO y ACERO como los\l"
-	.string "CIENTÍFICOS, pero también algunos\l"
-	.string "TIPO LUCHA y TIERRA, nos facilitan\l"
-	.string "mucho el trabajo.$"
+	.string "Indeed, we use ELECTRIC and\n"
+	.string "STEEL-type POKÉMON just like the\l"
+	.string "SCIENTISTS, but we also have some\l"
+	.string "FIGHTING and GROUND-types, which\l"
+	.string "greatly assist us in our work.$"
 
 
 ViasTren3_Text_Obrero2Intro:
-	.string "¿Has estado en el MONTE PLATEADO?\n"
-	.string "Debes ser muy fuerte.$"
+	.string "Have you been in MT. SILVER? You must\n"
+	.string "be very strong.$"
 
 
 ViasTren3_Text_Obrero2Defeated:
-	.string "Si que eres fuerte…$"
+	.string "Indeed, you are strong.$"
 
 
 ViasTren3_Text_Obrero2PostBattle:
-	.string "Me gustaría poder entrar al MONTE\n"
-	.string "PLATEADO, tendré que conformarme con\l"
-	.string "verlo desde aquí.$"
+	.string "It would be great to enter MT.SILVER,\n"
+	.string "but I'll have to be satisfied with\l"
+	.string "viewing it from this location.$"
 
 
 ViasTren4_Text_ObreroIntro:
-	.string "¿Eres el enviado para derrotar a ese\n"
-	.string "POKÉMON?$"
+	.string "Have you been sent to take down that\n"
+	.string "POKÉMON$"
 
 
 ViasTren4_Text_ObreroDefeated:
-	.string "¡Debes de ser tú!$"
+	.string "It must be you!$"
 
 
 ViasTren4_Text_ObreroPostBattle:
-	.string "¿Ya luchaste antes frente a él?\n"
-	.string "Entonces supongo que no debería de\l"
-	.string "ser problema para ti, ¿o sí?$"
+	.string "Have you battled him before? Then I\n"
+	.string "guess it shouldn't be a problem for you,\l"
+	.string "right?$"
 
 
 ViasTren5_Text_ObreroIntro:
-	.string "Los POKÉMON de esta zona son muy\n"
-	.string "fuertes, ¿los has visto?$"
+	.string "The POKÉMON around here are quite\n"
+	.string "powerful, have you noticed?$"
 
 
 ViasTren5_Text_ObreroDefeated:
-	.string "¡Tú también eres fuerte!$"
+	.string "You are strong too!$"
 
 
 ViasTren5_Text_ObreroPostBattle:
-	.string "A pesar de estar ya en territorio de\n"
-	.string "KANTO, por esta zona se mezclan\l"
-	.string "POKÉMON de KANTO y JOHTO. Ellos no\l"
-	.string "entienden de fronteras como nosotros…$"
+	.string "Although we're already in KANTO\n"
+	.string "territory, POKÉMON from both KANTO and\l"
+	.string "JOHTO intermingle in this area. They\l"
+	.string "don't acknowledge borders like we do.$"
 
 
 ViasTren5_Text_Obrero2Intro:
-	.string "Esa especie de ZAPDOS lleva un buen\n"
-	.string "rato poco más al este. ¿Podrás con él\l"
-	.string "de verdad?$"
+	.string "That kind of ZAPDOS has been a bit\n"
+	.string "further to the east for a while. Can you\l"
+	.string "really handle it?$"
 
 
 ViasTren5_Text_Obrero2Defeated:
-	.string "Tal vez tengas una oportunidad.$"
+	.string "Perhaps you have a chance.$"
 
 
 ViasTren5_Text_Obrero2PostBattle:
-	.string "Ninguno de nosotros pudo tocarlo,\n"
-	.string "parece que al absorber el magnetismo\l"
-	.string "de las vías, se ha hecho más fuerte.$"
+	.string "None of us managed to touch it; it\n"
+	.string "appears to have strengthened by\l"
+	.string "absorbing the magnetism from the rails.$"
 
 
 NeoCinnabarVolcan_Text_LadronIntro:
-	.string "Todo lo que aquí ha sido destruido ya\n"
-	.string "no pertenece a nadie. ¿Sabes lo que eso\l"
-	.string "significa?$"
+	.string "Whatever has been destroyed here no\n"
+	.string "longer belongs to anyone. Do you\l"
+	.string "understand what that implies?$"
 
 
 NeoCinnabarVolcan_Text_LadronDefeated:
-	.string "¿Quién eres tú?$"
+	.string "Who are you?$"
 
 
 NeoCinnabarVolcan_Text_LadronPostBattle:
-	.string "Es mi oportunidad para coger lo que\n"
-	.string "quiera sin consecuencias legales.$"
+	.string "It's my chance to take whatever I want\n"
+	.string "without legal consequences.$"
 
 
 NeoCinnabarVolcan_Text_Ladron2Intro:
-	.string "Dicen que se perdieron objetos muy\n"
-	.string "valiosos aquí. ¿No habrás venido por\l"
-	.string "eso?$"
+	.string "It's said that highly valuable objects\n"
+	.string "were lost here. You didn't come for that\l"
+	.string "reason, did you?$"
 
 
 NeoCinnabarVolcan_Text_Ladron2Defeated:
-	.string "¡Yo llegué primero!$"
+	.string "I came first!$"
 
 
 NeoCinnabarVolcan_Text_Ladron2PostBattle:
-	.string "Algunos se han metido más adentro del\n"
-	.string "volcán, a mí me da miedo, la verdad…$"
+	.string "A few people have gone further inside\n"
+	.string "the volcano. It honestly frightens me.$"
 
 
 Mision7Lab3_Text_LadronIntro:
-	.string "Corren rumores de POKÉMON muy\n"
-	.string "poderosos que andan sueltos por aquí.\l"
-	.string "¿Serán raros también?$"
+	.string "There are rumors of very powerful\n"
+	.string "POKÉMON roaming around here. Could\l"
+	.string "they be rare as well?$"
 
 
 Mision7Lab3_Text_LadronDefeated:
-	.string "¡Tus POKÉMON son así también!$"
+	.string "Your POKÉMON are similar too!$"
 
 
 Mision7Lab3_Text_LadronPostBattle:
-	.string "Vi a varios CIENTÍFICOS y hombres de\n"
-	.string "uniforme como tú aparecer por aquí,\l"
-	.string "debéis ir tras algo importante.$"
+	.string "I saw several SCIENTISTS and uniformed\n"
+	.string "men like you show up around here. You\l"
+	.string "must be after something important.$"
 
 
 Mision7Lab2_Text_LadronIntro:
-	.string "¡Mira todo esto! ¿Sabes cuánto puedo\n"
-	.string "ganar vendiéndolo?$"
+	.string "Look at all this! Do you have any idea\n"
+	.string "how much I can profit from selling it?$"
 
 
 Mision7Lab2_Text_LadronDefeated:
-	.string "¡Pero no te lo lleves tú!$"
+	.string "But don't take it with you!$"
 
 
 Mision7Lab2_Text_LadronPostBattle:
-	.string "Voy a tardar mucho en movilizar todo\n"
-	.string "esto, y me da palo tener que volver a\l"
-	.string "bajar aquí…$"
+	.string "It's going to take me a long time to\n"
+	.string "move all of this, and I really don't feel\l"
+	.string "like having to come back down here.$"
 
 
 Mision7Lab4_Text_CientificoIntro:
-	.string "Traté de seguir avanzando, pero hay\n"
-	.string "POKÉMON terroríficos que me impiden\l"
-	.string "seguir, ¿tú sabes algo?$"
+	.string "I tried to move forward, but there are\n"
+	.string "frightening POKÉMON hindering my\l"
+	.string "progress. Do you know anything?$"
 
 
 Mision7Lab4_Text_CientificoDefeated:
-	.string "¡Debes saber algo!$"
+	.string "You must know something!$"
 
 
 Mision7Lab4_Text_CientificoPostBattle:
-	.string "¿Qué? No trabajo para nadie, solo vine\n"
-	.string "por interés puramente académico, pero\l"
-	.string "creo que no estoy a la altura de esos\l"
-	.string "POKÉMON tan fuertes…$"
+	.string "What? I don't work for anyone; I just\n"
+	.string "came for purely academic interest, but\l"
+	.string "I don't think I can match up to those\l"
+	.string "strong POKÉMON.$"
 
 
 LavenderRadioP1_Text_CientificoIntro:
-	.string "Gracias a nuestra tecnología, tenemos\n"
-	.string "información sobre POKÉMON de lejanas\l"
-	.string "regiones. ¿Quieres verlos?$"
+	.string "Our technology allows us to access\n"
+	.string "information on POKÉMON from remote\l"
+	.string "areas. Would you like to see them?$"
 
 
 LavenderRadioP1_Text_CientificoDefeated:
-	.string "Nada como los primeros 151, ¿verdad?$"
+	.string "Nothing like the original 151, right?$"
 
 
 LavenderRadioP1_Text_CientificoPostBattle:
-	.string "TOXTRICITY tiene atributos muy\n"
-	.string "interesantes, su HABILIDAD incrementa\l"
-	.string "en un 30% los movimientos basados en\l"
-	.string "sonidos, este POKÉMON cuenta con uno\l"
-	.string "de 80 de potencia y STAB.$"
+	.string "TOXTRICITY has very interesting\n"
+	.string "attributes; its ABILITY boosts\l"
+	.string "sound-based moves by 30%, and this\l"
+	.string "POKÉMON has one with 80 power and STAB.$"
 
 
 LavenderRadioP3_Text_CientificoIntro:
-	.string "Ejem… Me considero un POLICÍA\n"
-	.string "competente. Comprenderás que no puedo\l"
-	.string "dejar pasar la ocasión de luchar contra\l"
-	.string "una leyenda del TEAM ROCKET para\l"
-	.string "ponerme a prueba.$"
+	.string "Ahem... I consider myself a competent\n"
+	.string "POLICE officer. You'll understand that\l"
+	.string "I can't let the opportunity to fight a\l"
+	.string "legend of TEAM ROCKET pass by without\l"
+	.string "testing myself.$"
 
 
 LavenderRadioP3_Text_CientificoDefeated:
-	.string "Gracias por el combate, SIR.$"
+	.string "Thanks for the battle, SIR.$"
 
 
 LavenderRadioP3_Text_CientificoPostBattle:
-	.string "La verdadera seguridad está aquí\n"
-	.string "arriba, no permitir la entrada a estos\l"
-	.string "pisos no es más que otra mentira\l"
-	.string "piadosa para que la sociedad siga\l"
-	.string "funcionando.$"
+	.string "The real security is up here; preventing\n"
+	.string "entry to these levels is just another\l"
+	.string "benevolent lie to keep society running.$"
 
 
 LavenderRadioP5_Text_CientificoIntro:
-	.string "La verdad es que llevo un rato sin nada\n"
-	.string "que hacer. ¡Una clase práctica no me\l"
-	.string "vendría nada mal!$"
+	.string "Honestly, I've been idle for a bit. A\n"
+	.string "hands-on lesson wouldn't be a bad idea!$"
+
 
 
 LavenderRadioP5_Text_CientificoDefeated:
-	.string "Vaya, la teoría no tiene nada que ver\n"
-	.string "con la práctica.$"
+	.string "Well, theory has nothing to do with\n"
+	.string "practice.$"
 
 
 LavenderRadioP5_Text_CientificoPostBattle:
-	.string "Se necesita algo más para ser un gran\n"
-	.string "ENTRENADOR, que simplemente conocer\l"
-	.string "las variables que rijen un combate, tú\l"
-	.string "lo has demostrado.$"
+	.string "To be a great TRAINER, you need more\n"
+	.string "than just knowledge of the variables\l"
+	.string "that govern a battle, as you've proven.$"
 
 
 LavenderRadioP6_Text_CientificoIntro:
-	.string "¡Permítame este combate, señor! ¡Es\n"
-	.string "usted una leyenda del TEAM ROCKET!$"
+	.string "Allow me this battle, sir! You are a TEAM\n"
+	.string "ROCKET legend!$"
 
 
 LavenderRadioP6_Text_CientificoDefeated:
-	.string "Su equipo hace honor a su leyenda,\n"
-	.string "señor.$"
+	.string "Your team truly embodies your legend,\n"
+	.string "sir.$"
 
 
 LavenderRadioP6_Text_CientificoPostBattle:
-	.string "¿Qué ADMIN.JEFE es más fuerte? ¿ANDRA\n"
-	.string "o usted?$"
+	.string "Who is the stronger? ADMIN. ANDRA or\n"
+	.string "you?$"
 
 
 NeoLavandaCementerioS1_Text_ExorcistaIntro:
-	.string "¡Espera! ¡Yo te conozco!$"
+	.string "Wait! I remember you!$"
 
 
 NeoLavandaCementerioS1_Text_ExorcistaDefeated:
-	.string "¡Eres del TEAM ROCKET!$"
+	.string "You are from TEAM ROCKET!$"
 
 
 NeoLavandaCementerioS1_Text_ExorcistaPostBattle:
-	.string "Fuiste tú uno de los que formó ese\n"
-	.string "alboroto en TORRE POKÉMON, hace más de\l"
-	.string "un año ya. Siempre hay oportunidad\l"
-	.string "para la redención.$"
+	.string "You were part of the commotion at\n"
+	.string "POKÉMON TOWER, over a year ago. There's\l"
+	.string "always a chance for redemption.$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista2Intro:
-	.string "Todas las almas de TORRE POKÉMON han\n"
-	.string "sido movidas aquí, ¡no ha sido fácil!$"
+	.string "All the souls from POKÉMON TOWER have\n"
+	.string "been relocated here; it hasn't been\l"
+	.string "easy!$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista2Defeated:
-	.string "¡No estropees este lugar!$"
+	.string "Don't ruin this place!$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista2PostBattle:
-	.string "FUJI ha hecho un trabajo ejemplar, sin\n"
-	.string "él hubiéramos tardado mucho más en\l"
-	.string "construir este gran CEMENTERIO.$"
+	.string "FUJI has done a commendable job;\n"
+	.string "without him, it would have taken much\l"
+	.string "longer to establish this extensive\l"
+	.string "CEMETERY.$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista3Intro:
-	.string "¿Qué espera a PUEBLO LAVANDA a partir\n"
-	.string "de ahora?$"
+	.string "What awaits LAVENDER TOWN from now on?$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista3Defeated:
-	.string "Esperar… Seguiré esperando…$"
+	.string "Waiting... I'll keep waiting...$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista3PostBattle:
-	.string "Tal vez ya hayamos vivido la edad de oro\n"
-	.string "de PUEBLO LAVANDA. Hombres peores\l"
-	.string "gobiernan bajo las sombras, y el resto\l"
-	.string "de la historia no merece ser contada.$"
+	.string "Perhaps we have already lived through\n"
+	.string "the golden age of LAVENDER TOWN. Worse\l"
+	.string "men rule in the shadows, and the rest of\l"
+	.string "the story is not worth telling.$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista4Intro:
-    .string "¿Crees que los espíritus pueden torcer\n"
-	.string "nuestra voluntad?$"
+	.string "Can spirits influence our will, in your\n"
+	.string "opinion?$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista4Defeated:
-	.string "¡Yo creo que sí!$"
+	.string "I think so!$"
 
 
 NeoLavandaCementerioS1_Text_Exorcista4PostBattle:
-	.string "Estamos rodeados de tantos estímulos,\n"
-	.string "que el menos esperado puede ejercer un\l"
-	.string "papel determinante en nuestras\l"
-	.string "decisiones.$"
+	.string "Surrounded by various stimuli, the\n"
+	.string "least expected one can have a\l"
+	.string "significant impact on our choices.$"
 
 
 NeoLavandaCementerioS2_Text_ExorcistaIntro:
-	.string "PUEBLO LAVANDA ha cambiado, ¡ahora\n"
-	.string "debemos seguir ciertas reglas!$"
+	.string "LAVENDER TOWN has changed; now we must\n"
+	.string "follow certain rules!$"
 
 
 NeoLavandaCementerioS2_Text_ExorcistaDefeated:
-	.string "¡Kwhaaaaa!$"
+	.string "Kwhaaaaa!$"
 
 
 NeoLavandaCementerioS2_Text_ExorcistaPostBattle:
-	.string "No podemos pasear por el pueblo\n"
-	.string "vestidas así, dicen que choca con la\l"
-	.string "imagen moderna que se quiere dar. La\l"
-	.string "indumentaria de EXORCISTA únicamente\l"
-	.string "la usamos en el CEMENTERIO y en las\l"
-	.string "casas.$"
+	.string "We can't stroll around the town dressed\n"
+	.string "like this; they say it clashes with the\l"
+	.string "modern image they want to portray. We\l"
+	.string "only wear the EXORCIST attire in the\l"
+	.string "CEMETERY and in the houses.$"
 
 
 NeoLavandaCementerioS2_Text_Exorcista2Intro:
-	.string "Hay energías muy poderosas en esta\n"
-	.string "sala. ¿Las sientes?$"
+	.string "There are very powerful energies in\n"
+	.string "this room. Can you feel them?$"
 
 
 NeoLavandaCementerioS2_Text_Exorcista2Defeated:
-	.string "¡Una de ellas es la de tus POKÉMON!$"
+	.string "One of those energies belongs to your\n"
+	.string "POKÉMON!$"
 
 
 NeoLavandaCementerioS2_Text_Exorcista2PostBattle:
-	.string "El alma de GHOST está ahora en este\n"
-	.string "lugar, lo sé porque lo he sentido.$"
+	.string "GHOST's soul is here; I know it because\n"
+	.string "I've sensed it.$"
 
 
 NeoLavandaCementerioS2_Text_Exorcista3Intro:
-	.string "Entonces, ¿tú eres el chico que\n"
-	.string "enfrentó a la ESENCIA personificada en\l"
-	.string "POKÉMON?$"
+	.string "So, you're the one who confronted the\n"
+	.string "ESSENCE personified in a POKÉMON?$"
 
 
 NeoLavandaCementerioS2_Text_Exorcista3Defeated:
-	.string "¡Debes ser tú!$"
+	.string "It must be you!$"
 
 
 NeoLavandaCementerioS2_Text_Exorcista3PostBattle:
-	.string "FUJI nos contó historias, dice que\n"
-	.string "enfrentaste a las mayores fuerzas de\l"
-	.string "este mundo, ¡y a un déspota que\l"
-	.string "lideraba una secta cerca de aquí!$"
+	.string "FUJI told us stories; he says you faced\n"
+	.string "the greatest forces in this world and a\l"
+	.string "despot who led a cult nearby!$"
 
 
 GimnasioAnciana_Text_AncianoIntro:
-	.string "No intentes averiguar en qué lugar del\n"
-	.string "mapa estamos. ¡Es imposible!$"
+	.string "Don't try to figure out where on the map\n"
+	.string "we are. It's impossible!$"
 
 
 GimnasioAnciana_Text_AncianoDefeated:
-	.string "¡Perdí el juego!$"
+	.string "I lost the game!$"
 
 
 GimnasioAnciana_Text_AncianoPostBattle:
-	.string "La vegetación rodeó este lugar por\n"
-	.string "completo hace décadas, solo los más\l"
-	.string "ancianos recordamos la época en que\l"
-	.string "llegábamos aquí sin usar el\l"
-	.string "teletransportador. El resto no conoce\l"
-	.string "otra cosa.$"
+	.string "Vegetation completely surrounded this\n"
+	.string "place decades ago; only the elderly\l"
+	.string "remember the time when we arrived here\l"
+	.string "without using the teleporter. The rest\l"
+	.string "knows nothing else.$"
 
 
 GimnasioAnciana_Text_AncianaIntro:
-	.string "¡Un aspirante! ¡La última vez que dije\n"
-	.string "eso, el hombre aún no había llegado a la\l"
-	.string "Luna!$"
+	.string "A contender! The last time I said that,\n"
+	.string "man hadn't even reached the Moon yet!$"
 
 
 GimnasioAnciana_Text_AncianaDefeated:
-	.string "¡Menudo aspirante!$"
+	.string "What a contender!$"
 
 
 GimnasioAnciana_Text_AncianaPostBattle:
-	.string "A pesar de esos 30 años sin ningún\n"
-	.string "aspirante, algunos conservamos esa\l"
-	.string "llama competitiva… eso no tiene edad, y\l"
-	.string "nuestra LÍDER es la mayor prueba de\l"
-	.string "ello.$"
+	.string "Despite those 30 years without any\n"
+	.string "contender, some of us still maintain\l"
+	.string "that competitive flame. POKÉMON battle\l"
+	.string "has no age, and our LEADER is the\l"
+	.string "greatest proof of that.$"
 
 
 GimnasioAnciana_Text_Anciano2Intro:
-	.string "Algunos dicen que las nuevas\n"
-	.string "generaciones están en decadencia.\l"
-	.string "¿Qué hay de ti!$"
+	.string "Some say the new generations are in\n"
+	.string "decline. What about you?$"
 
 
 GimnasioAnciana_Text_Anciano2Defeated:
-	.string "Mmmm… no veo esa decadencia…$"
+	.string "Hmm... I don't see that decline...$"
 
 
 GimnasioAnciana_Text_Anciano2PostBattle:
-	.string "Muchos tienden a idealizar el pasado,\n"
-	.string "con ello se pierden las infinitas\l"
-	.string "probabilidades del propio presente al\l"
-	.string "que también idealizarán en el futuro.$"
+	.string "Many have a tendency to romanticize\n"
+	.string "the past, thereby missing the\l"
+	.string "countless possibilities of the present,\l"
+	.string "which they'll also romanticize in the\l"
+	.string "future.$"
 
 
 GimnasioAnciana_Text_Anciano3Intro:
-	.string "Algunos de nuestros POKÉMON ya no\n"
-	.string "pueden atraparse en ningún lugar, ¿lo\l"
-	.string "sabías?$"
+	.string "Some of our POKÉMON can no longer be\n"
+	.string "caught anywhere, did you know that?$"
 
 
 GimnasioAnciana_Text_Anciano3Defeated:
-	.string "¿Dónde atrapaste esos POKÉMON?$"
+	.string "Where did you catch those POKÉMON?$"
 
 
 GimnasioAnciana_Text_Anciano3PostBattle:
-	.string "Las ISLAS SETE son formidables, aunque\n"
-	.string "los mejores lugares se siguen\l"
-	.string "manteniendo en secreto.$"
+	.string "SEVII ISLANDS are formidable, although\n"
+	.string "the best spots are still kept secret.$"
 
 
 GoldenrodUnderground_Text_Maton2Intro:
-	.string "¿Quieres pelea? ¡De nada van a servirte\n"
-	.string "esos POKÉMON comprados!$"
+	.string "Do you fancy a battle? Those purchased\n"
+	.string "POKÉMON won't serve you at all!$"
 
 
 GoldenrodUnderground_Text_Maton2Defeated:
-	.string "¿Quién te ha vendido esos POKÉMON?$"
+	.string "Who sold you those POKÉMON?$"
 
 
 GoldenrodUnderground_Text_Maton2PostBattle:
-	.string "¡Puaf, me confié! ¡Espera a que avise al\n"
-	.string "JEFE! ¡Por mucho que hayas comprado\l"
-	.string "POKÉMON de calidad, él siempre se queda\l"
-	.string "con los mejores!$"
+	.string "Ugh, I let my guard down! Wait until I\n"
+	.string "inform the BOSS! No matter how many\l"
+	.string "quality POKÉMON you've bought, he\l"
+	.string "always keeps the best ones!$"
+
 
 
 MisionTrigal2_Text_MoteroIntro:
-	.string "¿Quién eres tú? ¿No teníamos un\n"
-	.string "acuerdo de no intervención?$"
+	.string "Who are you? Didn't we have a\n"
+	.string "non-intervention agreement?$"
 
 
 MisionTrigal2_Text_MoteroDefeated:
-	.string "¡Espera!$"
+	.string "Wait!$"
 
 
 MisionTrigal2_Text_MoteroPostBattle:
-	.string "A esta ciudad le interesa que este\n"
-	.string "negocio siga, no sé de dónde has salido\l"
-	.string "tú.$"
+	.string "This city is interested in keeping this\n"
+	.string "business going; I don't know where you\l"
+	.string "came from.$"
 
 
 MisionTrigal2_Text_LadronIntro:
-	.string "Hay un gran negocio aquí, ¿no querrás\n"
-	.string "tú acabar con él?$"
+	.string "There's a major business here; you\n"
+	.string "wouldn't want to bring it down, would\l"
+	.string "you?$"
 
 
 MisionTrigal2_Text_LadronDefeated:
-	.string "Cuidado por dónde andas.$"
+	.string "Watch out!$"
 
 
 MisionTrigal2_Text_LadronPostBattle:
-	.string "Este negocio forma parte de la ciudad.\n"
-	.string "Si acabas con él, acabas con TRIGAL.$"
+	.string "This business is linked to the city. If\n"
+	.string "you destroy it, you destroy GOLDENROD.$"
 
 
 MisionTrigal2_Text_Motero2Intro:
-	.string "Los ejecutivos de TORRE RADIO no\n"
-	.string "suelen bajar al barro. ¿Qué pretendes?$"
+	.string "RADIO TOWER executives rarely engage\n"
+	.string "in the dirt. What's your goal?$"
 
 
 MisionTrigal2_Text_Motero2Defeated:
-	.string "Los de arriba se enfadarán…$"
+	.string "The ones above will become upset.$"
 
 
 MisionTrigal2_Text_Motero2PostBattle:
-	.string "Tus POKÉMON son demasiado buenos como\n"
-	.string "para haberlos comprado. ¿De verdad los\l"
-	.string "has criado tú mismo desde 0?$"
+	.string "Your POKÉMON are too impressive to\n"
+	.string "have been purchased. Did you genuinely\l"
+	.string "breed them from the beginning?$"
 
 
 MisionTrigal2_Text_Ladron2Intro:
-	.string "Hay POKÉMON de otras regiones a muy\n"
-	.string "buen precio. ¡No seas tonto, aprovecha\l"
-	.string "y toma uno! ¿No? ¡Te arrepentirás!$"
+	.string "There are POKÉMON from other regions\n"
+	.string "at a very good price. Don't be foolish;\l"
+	.string "take one! No? You'll regret it!$"
 
 
 MisionTrigal2_Text_Ladron2Defeated:
-	.string "Entonces no quieres formar parte del\n"
+	.string "So, you don't want to be part of the\n"
 	.string "club.$"
 
 
 MisionTrigal2_Text_Ladron2PostBattle:
-	.string "Aquí no ofrecemos nuestra mano dos\n"
-	.string "veces. Ya estás en nuestra lista negra.$"
+	.string "Our hand isn't offered twice here.\n"
+	.string "You're already on our blacklist.$"
 
 
 MisionTrigal3_Text_MoteroIntro:
-	.string "Aquí hay cosas que la gente como tú no\n"
-	.string "debería ver.$"
+	.string "There are things here that people like\n"
+	.string "you shouldn't see.$"
 
 
 MisionTrigal3_Text_MoteroDefeated:
-	.string "¡He quemado rueda!$"
+	.string "I spun my wheels!$"
 
 
 MisionTrigal3_Text_MoteroPostBattle:
-	.string "Me gustaría visitar el CAMINO BICIS.\n"
-	.string "Dicen que hay muy buen rollo por ahí.$"
+	.string "I'd like to visit the BIKE ROAD. They say\n"
+	.string "there's a fantastic vibe around there.$"
 
 
 MisionTrigal3_Text_Motero2Intro:
-	.string "¿Te has perdido?$"
+	.string "Are you lost?$"
 
 
 MisionTrigal3_Text_Motero2Defeated:
-	.string "¿Cómo?$"
+	.string "How?!$"
 
 
 MisionTrigal3_Text_Motero2PostBattle:
-	.string "En este lugar mantenemos a los POKÉMON\n"
-	.string "vendidos a esos ricos de la ciudad. Me\l"
-	.string "pregunto cuántos los comprarían si\l"
-	.string "vieran de primera mano las jaulas. Ojos\l"
-	.string "que no ven, corazón que no siente,\l"
-	.string "¿verdad?$"
+	.string "In this place, we keep the POKÉMON sold\n"
+	.string "to those rich folks in the city. I\l"
+	.string "wonder how many would buy them if they\l"
+	.string "saw the cages firsthand. Out of sight,\l"
+	.string "out of mind, right?$"
 
 
 MisionIrisLab_Text_LadronIntro:
-	.string "Este lugar está abandonado, no\n"
-	.string "deberías haber entrado. .. .. ¿Tienes\l"
-	.string "algún problema? ¡Aquí no hay nada! .. ..\l"
-	.string "Está bien, tendré que echarte de aquí\l"
-	.string "por las malas.$"
+	.string "This place is abandoned; you shouldn't\n"
+	.string "have entered. Do you have an issue?\l"
+	.string "There's nothing here! Okay, I'll have to\l"
+	.string "throw you out.$"
 
 
 MisionIrisLab_Text_LadronDefeated:
-	.string "¡Nos descubrieron!$"
+	.string "We've been discovered!$"
 
 
 MisionIrisLab_Text_LadronPostBattle:
-	.string "Yo les mostré este lugar a esos\n"
-	.string "forasteros, ¡ahora por ello me llevaré\l"
-	.string "una parte del botín!$"
+	.string "I showed this place to those outsiders,\n"
+	.string "now I'll get a share of the loot because\l"
+	.string "of it!$"
 
 
 CuevaTesoro1_Text_PoliciaIntro:
-	.string "Nadie ha entrado aquí en cientos de\n"
-	.string "años. ¿Es una broma?$"
+	.string "No one has entered here in hundreds of\n"
+	.string "years. Is this a joke?$"
 
 
 CuevaTesoro1_Text_PoliciaDefeated:
-	.string "¿De dónde sales tú?$"
+	.string "Where are you from?$"
 
 
 CuevaTesoro1_Text_PoliciaPostBattle:
-	.string "Ahora lo entiendo, escuchaste la\n"
-	.string "ubicación de este lugar mientras nos\l"
-	.string "escuchabas a escondidas. ¿Verdad,\l"
-	.string "canalla?$"
+	.string "Now I understand, you heard the\n"
+	.string "location of this place while\l"
+	.string "eavesdropping on us. Right, scoundrel?$"
 
 
 CuevaTesoro1_Text_Policia2Intro:
-	.string "Se suponía que solo iba a permanecer\n"
-	.string "aquí por si las moscas. ¿No habrás\l"
-	.string "venido a aguarnos la fiesta?$"
+	.string "I was only supposed to stay here just\n"
+	.string "in case. You didn't come to spoil the\l"
+	.string "party, did you?$"
 
 
 CuevaTesoro1_Text_Policia2Defeated:
-	.string "¡Aghhh!$"
+	.string "Aghhh!$"
 
 
 
 CuevaTesoro1_Text_Policia2PostBattle:
-    .string "La curiosidad mató al gato, no eres\n"
-	.string "consciente de las dimensiones de\l"
-	.string "nuestra organización.$"
+ 	.string "You're not aware of the scale of our\n"
+	.string "organization.$"
 
 
 CuevaTesoro1_Text_Policia3Intro:
-	.string "¡Mira esta biodiversidad! ¿No es\n"
-	.string "magnífica? ¡Espera! ¡¿Quién eres tú?!$"
+	.string "Look at this biodiversity! Isn't it\n"
+	.string "magnificent? Wait! Who are you?$"
 
 
 CuevaTesoro1_Text_Policia3Defeated:
-	.string "¡Esto no estaba planeado!$"
+	.string "This wasn't part of the plan!$"
 
 
 CuevaTesoro1_Text_Policia3PostBattle:
-	.string "Esta gruta lleva milenios ajena a todo\n"
-	.string "contacto con el exterior. Gracias a\l"
-	.string "ello ha podido conservar una variedad\l"
-	.string "de especies única.$"	
+	.string "For thousands of years, this cave has\n"
+	.string "remained isolated from external\l"
+	.string "contact. This has allowed it to maintain\l"
+	.string "a unique variety of species.$"
 
 
 CuevaTesoro1_Text_Policia4Intro:
-	.string "¿No serás un mercenario de esos que\n"
-	.string "quiere hacerse con el tesoro?$"
+	.string "Are you one of those mercenaries\n"
+	.string "looking to seize the treasure?$"
 
 
 CuevaTesoro1_Text_Policia4Defeated:
-	.string "Mmm… No lo pareces.$"
+.string "Hmm... Don't seem so.$"
 
 
 CuevaTesoro1_Text_Policia4PostBattle:
-	.string "Tus POKÉMON están entrenados con\n"
-	.string "demasiado mimo para ser de un\l"
-	.string "mercenario. Lo que no sé es quién eres.$"
+	.string "Your POKÉMON are trained with too much\n"
+	.string "care to be from a mercenary. What I\l"
+	.string "don't know is who you are.$"
 
 
 CuevaTesoro2_Text_PoliciaIntro:
-	.string "Entonces tú eres la excepción que\n"
-	.string "confirma la regla, ¿no?$"
+.string "So, you're the exception that proves\n"
+	.string "the rule, aren't you?$"
 
 
 CuevaTesoro2_Text_PoliciaDefeated:
-	.string "Así es…$"
+	.string "That's it.$"
 
 
 CuevaTesoro2_Text_PoliciaPostBattle:

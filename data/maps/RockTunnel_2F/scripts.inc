@@ -69,14 +69,12 @@ release
 end
 
 RockTunnel2F_Text_22:
-.string "ARBOK, PERSIAN, TAUROS o SANDSLASH\n"
-.string "son POKÉMON muy preciados por los\l"
-.string "DOMADORES como yo, pero no hay\l"
-.string "ninguno como KANGASKHAN, ¿tienes\l"
-.string "idea del éxito en el que mis\l"
-.string "espectáculos se convertirían con\l"
-.string "ese POKÉMON a las órdenes de mi\l"
-.string "látigo?$"
+	.string "ARBOK, PERSIAN, TAUROS or SANDSLASH\n"
+	.string "are so appreciated POKÉMON for TAMERS\l"
+	.string "like me, but there is not any with a\l"
+	.string "KANGASKHAN, do you even imagine how\l"
+	.string "successfully will be my shows with that\l"
+	.string "POKÉMON under my whip control?$"
 
 
 
@@ -88,11 +86,9 @@ release
 end
 
 RockTunnel2F_Text_28:
-.string "¿Te imaginas un CAZABICHOS con un\n"
-.string "KANGASKHAN en su equipo?\l"
-.string "¡Se acabarían todos los prejuicios\l"
-.string "que nos señalan como unos\l"
-.string "debiluchos!$"
+	.string "Do you imagine a BUG CATCHER with a\n"
+	.string "KANGASKHAN? All the prejudices labeling\l"
+	.string "us as weaklings would finish!$"
 
 
 
@@ -247,17 +243,15 @@ release
 end
 
 RockTunnel_2F_Combate_Miguel_Texto_1:
-.string "????: ¡Al fin!\n"
-	.string "¡De modo que los rumores eran\l"
-	.string "ciertos!\l"
-	.string "¡Tengo al POKÉMON MATERNAL delante\l"
-	.string "mis narices, a un solo movimiento\l"
-	.string "de apropiármelo!$"
+	.string "Finally! So the rumors were true! I have\n"
+	.string "the MATERNAL POKÉMON in front of me, I\l"
+	.string "am just at one-step away from catching\l"
+	.string "it!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_2:
-.string "¡Perfecto!¡Con este POKÉMON mi\n"
-	.string "colección de raros y fuertes\l"
-	.string "POKÉMON está casi completa!$"
+	.string "Perfect! With this POKÉMON my\n"
+	.string "collection of strong and uncommon\l"
+	.string "POKÉMON will be almost finished!$"
 
 RockTunnel_2F_Combate_Miguel_Texto_3:
 .string "¿Se te ha perdido algo?\n"

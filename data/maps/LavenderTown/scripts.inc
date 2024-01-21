@@ -14,9 +14,8 @@ release
 end
 
 LavenderTown_Text1:
-.string "¡No tenéis vergüenza ni respeto\n"
-.string "alguno por las costumbres de\l"
-.string "nuestra región!$"
+	.string "You have no shame nor regard for our\n"
+	.string "region's traditions!$"
 
 
 LavenderTown2::
@@ -133,12 +132,12 @@ release
 end
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_1:
-.string "(GIOVANNI dejó claro que había que\n"
-	.string "alejarse de la TORRE POKÉMON)$"
+	.string "(GIOVANNI was so clear about keep\n"
+	.string "distances from POKÉMON TOWER)$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Texto_2:
-.string "(ROJO aún puede estar dentro de\n"
-	.string "TORRE POKÉMON)$"
+	.string "(RED could be still inside the POKÉMON\n"
+	.string "TOWER)$"
 
 LavenderTown_Barrera_Mision_Kangaskhan_Move_1:
 walk_in_place_up
@@ -164,7 +163,7 @@ release
 end
 
 VermilionCity_Barco_Zarpa_Texto_1:
-.string "El barco zarpó.$"
+.string "The ship sailed.$"
 
 
 LavenderTown_Barrera_Sur::
@@ -179,9 +178,9 @@ release
 end
 
 LavenderTown_Barrera_Sur_Texto_1:
-.string "(Esa ruta no se corresponde con\n"
-	.string "ninguna misión asignada, mejor no\l"
-	.string "perder el tiempo).$"
+	.string "(That route does not match with any\n"
+	.string "assigned mission, better to not waste\l"
+	.string "time).$"
 
 LavenderTown_Barrera_Sur_Move_1:
 walk_in_place_down
