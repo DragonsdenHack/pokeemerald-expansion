@@ -4,16 +4,16 @@
 #include "item_menu.h"
 
 
-	ALIGNED(4) const u8 gText_WonderCards[] = _("Kanto");
-    ALIGNED(4) const u8 gText_WonderNews[] = _("Archi7");
-	ALIGNED(4) const u8 gText_Dlc[] = _("Johto");
+	ALIGNED(4) const u8 gText_WonderCards[] = _("Archi7");
+    ALIGNED(4) const u8 gText_WonderNews[] = _("Johto");
+	ALIGNED(4) const u8 gText_Dlc[] = _("DLC");
 	ALIGNED(4) const u8 gText_PostgameKanto[] = _("En este punto, los eventos de Kanto han acabado.\nHe aquí una lista de los cambios:");
 	ALIGNED(4) const u8 gText_PostgameKanto2[] = _("-Entrenadores hasta este punto derrotados.\n-Pokémon obtenibles hasta este punto en PC.");
 	ALIGNED(4) const u8 gText_PostgameKanto3[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 63.");
 	ALIGNED(4) const u8 gText_PostgameKanto4[] = _("Ten en cuenta que esta acción\nno se puede revertir, ¿de acuerdo?");
 	ALIGNED(4) const u8 gText_PostgameKanto5[] = _("En este punto, inician los eventos de Johto.\nHe aquí una lista de los cambios:");
 	ALIGNED(4) const u8 gText_PostgameKanto6[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 77.");
-	ALIGNED(4) const u8 gText_PostgameKanto7[] = _("Descubrimos una Kanto y Johto diferentes.\nHe aquí una lista de los cambios:");
+	ALIGNED(4) const u8 gText_PostgameKanto7[] = _("Los eventos suceden tras la aventura en Johto.\nDescubriremos una Kanto y Johto diferentes.");
 	ALIGNED(4) const u8 gText_PostgameKanto8[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 98.");
 	ALIGNED(4) const u8 gText_Final[] = _("Proceso finalizado…\nRecuerda acudir al despacho de Giovanni.");
 	ALIGNED(4) const u8 gText_ComoFunciona2[] = _("Está a tu disposición diferentes packs\ncon una temática Pokémon.");

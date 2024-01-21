@@ -410,7 +410,7 @@ static void Task_TrainerCard(u8 taskId)
         sData->mainState++;
         break;
     case 6:
-        DrawStarsAndBadgesOnCard();
+        //DrawStarsAndBadgesOnCard();
         sData->mainState++;
         break;
     // Fade in
@@ -1732,8 +1732,12 @@ static bool8 Task_SetCardFlipped(struct Task* task)
         DrawTrainerCardWindow(2);
         DrawCardScreenBackground(sData->bgTilemap);
         DrawCardFrontOrBack(sData->frontTilemap);
-        DrawStarsAndBadgesOnCard();
+       // DrawStarsAndBadgesOnCard();
     }
+	if (!sData->onBack)
+	{
+		DrawStarsAndBadgesOnCard();
+	}	
     DrawTrainerCardWindow(1);
     sData->onBack ^= 1;
     task->tFlipState++;

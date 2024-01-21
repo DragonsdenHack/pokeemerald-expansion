@@ -11,6 +11,7 @@
 #include "strings.h"
 #include "text_window.h"
 #include "menu.h"
+#include "new_game.h"
 #include "overworld.h"
 #include "palette.h"
 #include "constants/songs.h"
@@ -4163,6 +4164,7 @@ static void DarPokemonPopularTeam(u8);
 static void DarPokemonWeakTeam(u8);
 static void DarPokemonRandomTeam(u8); */
 
+
 static void DarPokemonBasicosKanto(u8 opcion){
 	switch (opcion)
 	{
@@ -6120,9 +6122,7 @@ static void Task_MysteryGift(u8 taskId)
         }
 	break;
 	case SEVII5:
-	 ZeroPlayerPartyMons();
-	 ZeroEnemyPartyMons();
-	 ResetPokemonStorageSystem();
+	 NewGameInitData();
 	 ScriptContext2_RunNewScript(EventScript_SetSevii);
 	 gSaveBlock2Ptr->playerGender = ADMIN;
 	 data->state = SEVII6;
@@ -6223,9 +6223,7 @@ static void Task_MysteryGift(u8 taskId)
         }
 	break;
 	case JOHTO5:
-	 ZeroPlayerPartyMons();
-	 ZeroEnemyPartyMons();
-	 ResetPokemonStorageSystem();
+	 NewGameInitData();
 	 ScriptContext2_RunNewScript(EventScript_SetJohto);
 	 gSaveBlock2Ptr->playerGender = ADMIN_JEFE;
 	 data->state = JOHTO6;
@@ -6334,9 +6332,7 @@ static void Task_MysteryGift(u8 taskId)
 	}
 	break;
 	case MG_POKE1:
-	 ZeroPlayerPartyMons();
-	 ZeroEnemyPartyMons();
-	 ResetPokemonStorageSystem();
+	 NewGameInitData();
 	 gSaveBlock2Ptr->playerGender = EJECUTIVO;
 	 ScriptContext2_RunNewScript(EventScript_SetKanto);
 	 data->state = PRUEBA5;
