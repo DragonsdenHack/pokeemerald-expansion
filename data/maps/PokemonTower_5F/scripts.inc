@@ -14,11 +14,9 @@ release
 end
 
 PokemonTower5F_Text_2:
-.string "Todas las almas pueden ser\n"
-.string "reconducidas.\l"
-.string "Descansa aquí ROCKET y tal vez eso\l"
-.string "te haga recapacitar sobre tus\l"
-.string "actos pecaminosos.$"
+	.string "All souls can be redeemed. Rest here\n"
+	.string "ROCKET and perhaps that will make you\l"
+	.string "reflect on your sinful deeds.$"
 
 
 

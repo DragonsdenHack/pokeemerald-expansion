@@ -15277,334 +15277,321 @@ CuevaTesoro2_Text_PoliciaDefeated:
 
 
 CuevaTesoro2_Text_PoliciaPostBattle:
-	.string "Según mis cálculos, hay más de 10\n"
-	.string "especies diferentes de POKÉMON en\l"
-	.string "esta gruta submarina.$"
+	.string "Based on my calculations, there are\n"
+	.string "over 10 distinct POKÉMON species in\l"
+	.string "this underwater cavern.$"
 
 
 CuevaTesoro3_Text_PoliciaIntro:
-	.string "Ya nos avisaron desde las plantas\n"
-	.string "superiores. ¡No puedes derrotar a\l"
-	.string "todos!$"
+	.string "We were already warned from the upper\n"
+	.string "floors. You can't defeat all of us!$"
 
 
 CuevaTesoro3_Text_PoliciaDefeated:
-	.string "Solo soy uno más.$"
+	.string "I'm just another one.$"
 
 
 CuevaTesoro3_Text_PoliciaPostBattle:
-	.string "Más te vale no cabrear a los de arriba,\n"
-	.string "nuestros altos cargos te reducirían a\l"
-	.string "escombros.$"
+	.string "It's in your best interest not to upset\n"
+	.string "the higher-ups; our top trainers would\l"
+	.string "turn you into debris.$"
+
 
 
 CuevaTesoro3_Text_CientificoIntro:
-	.string "¿Sabes cuál es el verdadero tesoro de\n"
-	.string "este lugar?$"
+	.string "Do you know what the true treasure of\n"
+	.string "this place is?$"
 
 
 CuevaTesoro3_Text_CientificoDefeated:
-	.string "Te lo diré.$"
+	.string "I'll tell you.$"
 
 
 CuevaTesoro3_Text_CientificoPostBattle:
-	.string "Te lo diré: el verdadero tesoro de esta\n"
-	.string "gruta es un POKÉMON extraordinario.\l"
-	.string "Por eso vinimos aquí, para capturarlo y\l"
-	.string "estudiarlo.$"
+	.string "I'll tell you: the real treasure of this\n"
+	.string "cave is an extraordinary POKÉMON.\l"
+	.string "That's why we came here, to catch and\l"
+	.string "study it.$"
 
 
 CuevaTesoro3_Text_Policia2Intro:
-	.string "Ya has llegado demasiado lejos, ¿no\n"
-	.string "crees?$"
+	.string "You've already gone too far, don't you\n"
+	.string "think?$"
 
 
 CuevaTesoro3_Text_Policia2Defeated:
-	.string "Sigue… sigue…$"
+	.string "Continue... continue...$"
 
 
 CuevaTesoro3_Text_Policia2PostBattle:
-	.string "Ya veo, no eres de los que se quedan a\n"
-	.string "mitad de camino. El problema es que si\l"
-	.string "llegas hasta el final tendremos que\l"
-	.string "acabar contigo.$"
+	.string "I understand, you're not the type to\n"
+	.string "quit halfway. The problem is, if you\l"
+	.string "reach the end, we'll have to finish you\l"
+	.string "off.$"
 
 
 CuevaTesoro4_Text_PoliciaIntro:
-	.string "Dicen que la seguridad en las regiones\n"
-	.string "cercanas da pena. ¿Es cierto?$"
+	.string "It's said that security in the nearby\n"
+	.string "regions is pathetic. Is it true?$"
 
 
 CuevaTesoro4_Text_PoliciaDefeated:
-	.string "Tú no estarías de POLICÍA…$"
+	.string "You wouldn't be in the POLICE...$"
 
 
 CuevaTesoro4_Text_PoliciaPostBattle:
-	.string "En DEVON nunca ocurriría que un niño de\n"
-	.string "10 años se infiltre en nuestra SEDE.\l"
-	.string "Para empezar nuestra SEDE de verdad\l"
-	.string "está oculta al público.$"
+	.string "In DEVON, it's inconceivable for a\n"
+	.string "10-year-old to sneak into our\l"
+	.string "HEADQUARTERS. First and foremost, our\l"
+	.string "real HEADQUARTERS is not accessible to\l"
+	.string "the public.$"
 
 
 CuevaTesoro4_Text_Policia2Intro:
-	.string "Tus esfuerzos son fútiles. DEVON se\n"
-	.string "hace más fuerte cuanto más la atacan,\l"
-	.string "¡solo nos estás ayudando a crecer!$"
+	.string "Your efforts are futile. DEVON becomes\n"
+	.string "stronger the more it is attacked; you're\l"
+	.string "only helping us grow!$"
 
 
 CuevaTesoro4_Text_Policia2Defeated:
-	.string "¡Sigue, sigue!$"
+	.string "Come on! Keep fighting!$"
 
 
 CuevaTesoro4_Text_Policia2PostBattle:
-	.string "Nuestro PRESIDENTE nos dio una\n"
-	.string "dilatada charla sobre el principio de\l"
-	.string "antifragilidad. También nos regaló a\l"
-	.string "todos un libro sobre ello, tenía como\l"
-	.string "600 páginas…$"
+	.string "Our PRESIDENT gave us an extensive\n"
+	.string "lecture on the principle of\l"
+	.string "antifragility. He also gave each of us a\l"
+	.string "book about it; it had around 600 pages...$"
 
 
 CuevaTesoro4_Text_CientificoIntro:
-	.string "Así que quieres llegar hasta nuestro\n"
-	.string "superior. Me temo que eso no será\l"
-	.string "posible, vamos tras la captura de un\l"
-	.string "POKÉMON con aptitudes muy especiales.$"
+	.string "If your goal is to reach our superior, I\n"
+	.string "regret to inform you that it won't be\l"
+	.string "achievable. We're currently on a mission\l"
+	.string "to catch a POKÉMON with very special\l"
+	.string "skills.$"
 
 
 CuevaTesoro4_Text_CientificoDefeated:
-	.string "Que así sea.$"
+	.string "So be it.$"
 
 
 CuevaTesoro4_Text_CientificoPostBattle:
-	.string "La curiosidad mató al gato, los POKÉMON\n"
-	.string "de nuestro superior son terribles.$"
+	.string "Our superior's POKÉMON are formidable.$"
 
 
 CuevaTesoro4_Text_Cientifico2Intro:
-	.string "Aquí hay especies que no verás a miles\n"
-	.string "de kilómetros a la redonda. Pero esa no\l"
-	.string "es la principal razón de que estemos\l"
-	.string "aquí.$"
+	.string "Here are species you won't see for\n"
+	.string "thousands of kilometers around. But\l"
+	.string "that's not the main reason we're here.$"
 
 
 CuevaTesoro4_Text_Cientifico2Defeated:
-	.string "Tienes especies muy curiosas en tu\n"
-	.string "equipo, también…$"
+	.string "You have some very curious species on\n"
+	.string "your team as well...$"
 
 
 CuevaTesoro4_Text_Cientifico2PostBattle:
-	.string "¿Y tú? ¿Para qué has venido aquí?$"
+	.string "How about you? What brought you here?$"
 
 
 CuevaTesoro4_Text_Cientifico3Intro:
-	.string "Ningún agente externo va a\n"
-	.string "interponerse entre nuestro superior y\l"
-	.string "el objetivo de la misión. Solo eres otro\l"
-	.string "obstáculo casual, y como tal, ¡te\l"
-	.string "quitaremos de en medio!$"
+	.string "No outsider will get in the way of our\n"
+	.string "superior and the mission. You're merely\l"
+	.string "another chance obstacle, and\l"
+	.string "consequently, we'll eliminate you!$"
 
 
 CuevaTesoro4_Text_Cientifico3Defeated:
-	.string "Tal vez no seas tan casual.$"
+	.string "Perhaps you're not as casual.$"
 
 
 CuevaTesoro4_Text_Cientifico3PostBattle:
-	.string "Nuestra presencia aquí es producto de\n"
-	.string "un profundo estudio previo. Alguien\l"
-	.string "como tú, incapaz de apreciar el poder\l"
-	.string "contenido aquí, no merece seguir\l"
-	.string "avanzando.$"
+	.string "We're here as a result of extensive\n"
+	.string "prior research. Someone like you, unable\l"
+	.string "to comprehend the power contained\l"
+	.string "here, doesn't deserve to progress\l"
+	.string "further.$"
 
 
 SilphS2_Text_Cientifico4Intro:
-	.string "Así que fuiste tú quién derrotó a\n"
-	.string "LANCE, ¡muéstrame como lo hiciste!$"
+	.string "You defeated LANCE, huh? Show me how\n"
+	.string "you pulled it off!$"
 
 
 SilphS2_Text_Cientifico4Defeated:
-	.string "Impresionante.$"
+	.string "Impressive.$"
 
 
 SilphS2_Text_Cientifico4PostBattle:
-	.string "Nadie pudo romper el equipo de\n"
-	.string "legendarios que LANCE montó hasta\l"
-	.string "que tú llegaste.$"
+	.string "No one could break the legendary team\n"
+	.string "that LANCE assembled until you arrived.$"
 
 
 AzaleaCarbonS1_Text_ObreroIntro:
-	.string "¿Un enviado? Esos ancianos no tenían\n"
-	.string "apenas dinero, ¿cómo te contrataron?$"
+	.string "An envoy? Those elders had no money,\n"
+	.string "how did they hire you$"
 
 
 AzaleaCarbonS1_Text_ObreroDefeated:
-	.string "Qué equipo tan preparado…$"
+	.string "Such a well-equipped team...$"
 
 
 AzaleaCarbonS1_Text_ObreroPostBattle:
-	.string "Eres un gran ENTRENADOR, debiste\n"
-	.string "salirles muy caro… ¿Lo haces por\l"
-	.string "voluntad propia? Nadie da nada gratis\l"
-	.string "en estos días.$"
+	.string "You're a great TRAINER; it must have\n"
+	.string "cost them a lot. Is it your own\l"
+	.string "decision? Nowadays, no one gives\l"
+	.string "anything for free.$"
 
 
 AzaleaCarbonS1_Text_Obrero2Intro:
-	.string "En el fondo os estamos haciendo un\n"
-	.string "favor, ¿no os dais cuenta?$"
+	.string "Essentially, we're doing you a favor,\n"
+	.string "don't you see?$"
 
 
 AzaleaCarbonS1_Text_Obrero2Defeated:
-	.string "¡Te arrepentirás!$"
+	.string "You'll regret!$"
 
 
 AzaleaCarbonS1_Text_Obrero2PostBattle:
-	.string "Gracias a nosotros, a nadie le faltará\n"
-	.string "CARBÓN en esta región.$"
+	.string "Because of us, there will be no shortage\n"
+	.string "of CHARCOAL in JOHTO.$"
 
 
 AzaleaCarbonS2_Text_ObreroIntro:
-    .string "Nuestro JEFE fue muy claro respecto a\n"
-	.string "la presencia de extraños aquí.$"
+	.string "Our BOSS was very clear about the\n"
+	.string "presence of strangers here.$"
 
 
 AzaleaCarbonS2_Text_ObreroDefeated:
-	.string "Ya veo… Tú mismo.$"
+	.string "I see... As you wish...$"
 
 
 AzaleaCarbonS2_Text_ObreroPostBattle:
-	.string "No puedes echarnos aquí, como mucho\n"
-	.string "podrás llegar a un acuerdo si le caes\l"
-	.string "bien a nuestro JEFE.$"
+	.string "You can't throw us out here; at most,\n"
+	.string "you might reach an agreement if our\l"
+	.string "BOSS likes you.$"
 
 
 AzaleaCarbonS2_Text_Obrero2Intro:
-	.string "No me pagan por combatir, pero aplastar\n"
-	.string "a caraduras como tú lo haría por nada.$"
+	.string "My pay isn't for battling, but squashing\n"
+	.string "cheeky types like you would be worth it\l"
+	.string "even for free.$"
 
 
 AzaleaCarbonS2_Text_Obrero2Defeated:
-	.string "¡Plofff!$"
+	.string "Plofff!$"
 
 
 AzaleaCarbonS2_Text_Obrero2PostBattle:
-	.string "En este proyecto hay ya mucha gente\n"
-	.string "involucrada, no va a echarse para atrás\l"
-	.string "solo por 2 ancianos.$"
+	.string "There are already many people involved\n"
+	.string "in this project; it's not going to back\l"
+	.string "down just because of two old mans.$"
 
 
 AzaleaCarbonS2_Text_Obrero3Intro:
-	.string "¡Jah! ¡No tienes idea de lo terribles que\n"
-	.string "son mis POKÉMON eléctricos! ¡Ellos\l"
-	.string "solos han puesto en marcha los hornos\l"
-	.string "industriales!$"
+	.string "Ha! You have no idea how formidable my\n"
+	.string "electric POKÉMON are! They alone have\l"
+	.string "set the industrial furnaces in motion!$"
 
 
 AzaleaCarbonS2_Text_Obrero3Defeated:
-	.string "¡No! ¿Qué ha ocurrido?$"
+	.string "No! What happened?$"
 
 
 AzaleaCarbonS2_Text_Obrero3PostBattle:
-	.string "¡Espera! ¿Combatiste con ZAPDOS y\n"
-	.string "también con RAIKOU? ¿Cómo es estar en\l"
-	.string "presencia de tales POKÉMON?$"
+	.string "Wait! Did you fight with both ZAPDOS\n"
+	.string "and RAIKOU? What is it like to be in the\l"
+	.string "presence of such POKÉMON?$"
 
 
 
 Route8_Text_Gemela1Intro:
-    .string "ANNE: ¡Vamos a dejarte\n"
-	.string "impresionado con el poder de\l"
-	.string "nuestra unión!$"
+	.string "ANNE: We're going to leave you\n"
+	.string "impressed with the power of our unity!$"
 
 
 
 Route8_Text_Gemela1Defeated:
-    .string "ANNE: El poder de nuestra unión...$"
+	.string "ANNE: The power of our unity...$"
 
 
 
 Route8_Text_Gemela1PostBattle:
-    .string "ANNE: Estoy entrenando POKÉMON con\n"
-	.string "ELI.$"
+	.string "ANNE: I'm training POKÉMON with ELI.$"
 
 
 
 Route8_Text_Gemela2Intro:
-    .string "ELI: La unión entre gemelas es\n"
-	.string "fantástica, ¿lo sabías?$"
+	.string "ELI: The bond between twins is\n"
+	.string "fantastic, did you know?$"
 
 
 
 Route8_Text_Gemela2Defeated:
-.string "ELI: Pero...\n"
-	.string "Usamos nuestra conexión entre\l"
-	.string "gemelas...$"
+	.string "ELI: But... we use our twin connection...$"
 
 
 
 Route8_Text_Gemela2PostBattle:
-    .string "ELI: ¡Capturé a mi POKÉMON con\n"
-	.string "ANNE!$"
+	.string "ELI: I caught my POKÉMON with ANNE!$"
 
 
 
 Route16_Text_Pareja1Intro:
-    .string "LEA: A veces me asusta la\n"
-	.string "intensidad de nuestro amor.$"
+	.string "LEA: Sometimes the intensity of our\n"
+	.string "love scares me.$"
 
 
 
 Route16_Text_Pareja1Defeated:
-    .string "LEA: ¡Ohh!\n"
-	.string "¡Pero Jed se ve tan mono aún\l"
-	.string "cuando pierde!$"
+	.string "LEA: Ohh! But Jed still looks so cute\n"
+	.string "even when he loses!$"
 
 
 
 Route16_Text_Pareja1PostBattle:
-    .string "LEA: A veces me asusta la\n"
-	.string "intensidad de nuestro amor.$"
+	.string "LEA: Sometimes the intensity of our\n"
+	.string "love scares me.$"
 
 
 
 Route16_Text_Pareja2Intro:
-    .string "JED: Nuestro amor no tiene\n"
-	.string "cadenas.\l"
-	.string "¡Te lo vamos a demostrar!$"
+	.string "JED: Our love has no chains. We're going\n"
+	.string "to prove it to you!$"
 
 
 
 Route16_Text_Pareja2Defeated:
-    .string "JED: ¡Oh, no!\n"
-	.string "¡Mi amor me ha visto como un\l"
-	.string "perdedor!$"
+	.string "JED: Oh, no! My love has seen me as a\n"
+	.string "loser!$"
 
 
 
 Route16_Text_Pareja2PostBattle:
-    .string "JED: Escucha, Lea.\n"
-	.string "Tienes que centrarte menos en mi.$"
+	.string "JED: Listen, Lea. You have to focus less\n"
+	.string "on me.$"
 
 
 
 Route12_Text_Pareja1Intro:
-    .string "JES: Si gano, le propondré\n"
-	.string "matrimonio a Gia.$"
+	.string "JES: If I win, I'll propose to GIA.$"
 
 
 
 Route12_Text_Pareja1Defeated:
-    .string "JES: Oh, vamos, ¿por qué no nos\n"
-	.string "dejaste ganar?$"
+	.string "JES: Oh, come on, why didn't you let us\n"
+	.string "win?$"
 
 
 
 Route12_Text_Pareja1PostBattle:
-    .string "JES: Oh, Gia, ¡perdóname mi amor!$"
+	.string "JES: Oh, Gia, forgive me, my love!$"
 
 
 
 Route12_Text_Pareja2Intro:
-    .string "GIA: Hey, Jes...\n"
-	.string "Si ganamos, ¡me casaré contigo!$"
+	.string "GIA: Hey, Jes... If we win, I'll marry you!$"
 
 
 

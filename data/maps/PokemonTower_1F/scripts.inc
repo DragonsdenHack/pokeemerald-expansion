@@ -49,9 +49,8 @@ release
 end
 
 PokemonTower1F_Text_4:
-.string "¿Un ROCKET presentando sus\n"
-.string "respetos a los difuntos?\l"
-.string "¡Nadie se cree ese cuento!$"
+	.string "A ROCKET paying respects to the\n"
+	.string "departed? No one buys that story!$"
 
 
 
@@ -63,9 +62,8 @@ release
 end
 
 PokemonTower1F_Text_5:
-.string "¡No tenéis ni respeto, ni memoria,\n"
-.string "ni vergüenza!\l"
-.string "¡Sucios criminales!$"
+	.string "You have no respect, nor memory, nor\n"
+	.string "shame! Dirty criminals!$"
 
 PokemonTower_1F_SetFlags::
 lock
