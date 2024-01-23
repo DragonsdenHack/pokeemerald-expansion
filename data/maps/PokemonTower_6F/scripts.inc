@@ -363,13 +363,13 @@ PokemonTower_6F_Cultistas_Texto_10:
 	.string "LAVENDER TOWN in all its shine.$"
 
 PokemonTower_6F_Cultistas_Texto_11:
-.string "Este mundo es mucho más amplio que los\n"
-	.string "yugos que someten KANTO, solo espero\l"
-	.string "que puedas vivir para verlo. Deja que\l"
-	.string "cure a tu equipo POKÉMON.$"
+	.string "This world is much bigger than\n"
+	.string "dictators that are submitting KANTO, I\l"
+	.string "just hope you could survive to see it.\l"
+	.string "Let me heal your POKÉMON team.$"
 
 PokemonTower_6F_Cultistas_Texto_12:
-.string "Prosigue tu camino.$"
+	.string "Continue your path.$"
 
 PokemonTower_6F_Cultistas_Move_1:
 emote_exclamation_mark
@@ -482,23 +482,21 @@ release
 end
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_1:
-.string "Tú...has...provocado...esto...$"
+	.string "You… have… caused… this…$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_2:
 .string "... ... ... ...$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3:
-.string "¡El espíritu de MAROWAK se ha\n"
-	.string "desatado y está plagando de GHOSTS\l"
-	.string "la TORRE!$"
+	.string "The MAROWAK spirit is out of control\n"
+	.string "and is plaguing the TOWER with GHOSTS!$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_4:
-.string "AZUL: ¡{PLAYER}!\n"
-	.string "¡ROJO acaba de derrotarme!\l"
-	.string "¡Oh, pensaba que estaba vez podría\l"
-	.string "maldita sea!\l"
-	.string "¡Avisa a PROTÓN y salid de ahí\l"
-	.string "cuanto antes!$"
+.string "BLUE: {PLAYER}!\n"
+	.string "RED just defeated me!\l"
+	.string "Oh, I thought I could beat him this time\l"
+	.string "damn it! Notice PROTON and get out of\l"
+	.string "there as soon as possible!$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Move_1:
 emote_exclamation_mark

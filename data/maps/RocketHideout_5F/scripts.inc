@@ -15,13 +15,11 @@ release
 end
 
 RocketHideout5F_2_Texto_1:
-.string "Bienvenido al CENTRO de curación\n"
-	.string "exprés...$"
+	.string "Welcome to the express healing CENTER…$"
 
 RocketHideout5F_2_Texto_2:
-.string "¡Y listo!\n"
-	.string "¡Todos tus POKÉMON están en plena\l"
-	.string "forma de nuevo!$"
+	.string "Thank you! Your Pokémon are fighting\n"
+	.string "fit!$"
 
 end
 
@@ -35,11 +33,10 @@ release
 end
 
 RocketHideout5F_Text_3:
-.string "Nos interesa que KANTO crea que\n"
-.string "somos una manada de inútiles sin\l"
-.string "cerebro, no puedes defenderte\l"
-.string "adecuadamente de algo que no\l"
-.string "conoces.$"
+	.string "We're interested in KANTO thinking we're\n"
+	.string "a gang of brainless incompetents, you\l"
+	.string "can't defend yourself properly against\l"
+	.string "something you're not aware of.$"
 
 
 
@@ -51,9 +48,9 @@ release
 end
 
 RocketHideout5F_Text_4:
-.string "GIOVANNI es el mejor líder que\n"
-.string "podemos tener, nunca dejará que el\l"
-.string "TEAM ROCKET caiga.$"
+	.string "GIOVANNI is the best leader that we\n"
+	.string "could have, and will never let the TEAM\l"
+	.string "ROCKET fall down.$"
 
 
 
@@ -80,11 +77,10 @@ release
 end
 
 RocketHideout5F_Text_8:
-.string "Todo gran negocio se construye en\n"
-.string "torno a un gran secreto oculto al\l"
-.string "exterior chico, este lugar es uno\l"
-.string "de nuestros grandes secretos\l"
-.string "ocultos.$"
+	.string "Every great business is built around a\n"
+	.string "big secret hidden from the outside\l"
+	.string "world. This place is one of our big\l"
+	.string "hidden secrets.$"
 
 
 

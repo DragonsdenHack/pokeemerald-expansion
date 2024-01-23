@@ -16765,463 +16765,457 @@ UndergroundPath_7F_Text_Noveno_MoteroPostBattle:
 	.string "defenseless against the new changes.$"
 
 UndergroundPath_7F_Text_Decimo_MoteroIntro:
-.string "¡GIOVANNI nos ha traicionado! ¡Tú\n"
-	.string "también!$"
+	.string "GIOVANNI has betrayed us! So have you!$"
 
 UndergroundPath_7F_Text_Decimo_MoteroDefeated:
-.string "¡No tenéis perdón!$"
+	.string "There's no mercy for you!$"
 
 UndergroundPath_7F_Text_Decimo_MoteroPostBattle:
-.string "Nosotros os dimos ese pequeño impulso\n"
-	.string "cuando no érais nadie, y ahora nos\l"
-	.string "devolvéis el favor tratándonos como a\l"
-	.string "ratas callejeras.$"
+	.string "We gave you that little boost when you\n"
+	.string "were nobody, and now you return the\l"
+	.string "favor by treating us like street rats.$"
 
 UndergroundPath_7F_Text_Undecimo_MoteroIntro:
-.string "Este gran refugio ya ayudó a la\n"
-	.string "población de KANTO a resistir durante\l"
-	.string "la guerra. ¡Y de nuevo resistiremos\l"
-	.string "nosotros aquí!$"
+	.string "This great shelter already helped the\n"
+	.string "KANTO population withstand during the\l"
+	.string "war. And once again, we will resist here!$"
 
 UndergroundPath_7F_Text_Undecimo_MoteroDefeated:
-.string "¡No nos sacaréis de aquí!$"
+	.string "You won't force us out of here!$"
 
 UndergroundPath_7F_Text_Undecimo_MoteroPostBattle:
-.string "Tenemos provisiones para varios meses;\n"
-	.string "los subterráneos deben cerrarse ya,\l"
-	.string "por lo que los que estáis obligados a\l"
-	.string "ceder sois vosotros.$"
+	.string "We have provisions for several months;\n"
+	.string "the underground must close now, so\l"
+	.string "those who are obligated to yield are\l"
+	.string "you.$"
 
 UndergroundPath_7F_Text_Duodecimo_MoteroIntro:
-.string "{PLAYER}... Te conocí cuando no eras\n"
-	.string "nadie, ¿recuerdas? En la misión del\l"
-	.string "SSANNE. Yo os ayudé a entrar. Una\l"
-	.string "lástima que con los años esto haya\l"
-	.string "terminado así. ¡No tendré piedad\l"
-	.string "contigo!$"
+	.string "{PLAYER}... I met you when you were\n"
+	.string "nobody, remember? During the SSANNE\l"
+	.string "mission. I helped you get in. It's a\l"
+	.string "shame that over the years, it has come\l"
+	.string "to this. I won't have mercy on you!$"
 
 UndergroundPath_7F_Text_Duodecimo_MoteroDefeated:
- .string "Por algo llegaste tan lejos...$"
+	.string "You got this far for a reason...$"
 
 UndergroundPath_7F_Text_Duodecimo_MoteroPostBattle:
-.string "Las pequeñas asociaciones siempre\n"
-	.string "funcionan mejor, cuando se vuelven\l"
-	.string "grandes, todo se corrompe y cada uno\l"
-	.string "busca su propio interés.$"
+	.string "Small associations always work better;\n"
+	.string "when they become big, everything\l"
+	.string "corrupts, and everyone seeks their own\l"
+	.string "interest.$"
 
 Ruinas_Text_MontaneroIntro:
-.string "¡Aquí nadie parece haberse enterado\n"
-	.string "del verdadero misterio de estas ruinas!$"
+	.string "Nobody around here seems to have\n"
+	.string "discovered the true mystery behind\l"
+	.string "these ruins!$"
 
 Ruinas_Text_MontaneroDefeated:
-.string "¡Menuda paliza!$"
+	.string "What a beating!$"
 
 Ruinas_Text_MontaneroPostBattle:
-.string "El verdadero misterio de estas ruinas\n"
-	.string "es... ¡XATU! ¡Estas ruinas están\l"
-	.string "plagadas de NATU, deben de tener algo\l"
-	.string "que ver!$"
+	.string "The real mystery of these ruins is...\n"
+	.string "XATU! These ruins are teeming with\l"
+	.string "NATU, they must have something to do\l"
+	.string "with it!$"
 
 ViasSur_Text_ObreroIntro:
-.string "¿Eres tú al que han enviado? ¡No\n"
-	.string "pareces tan fuerte!$"
+	.string "Are you the one sent here? You don't\n"
+	.string "seem too formidable!$"
 
 ViasSur_Text_ObreroDefeated:
-.string "¡Las apariencias engañan!$"
+	.string "Don't be fooled by appearances!$"
 
 ViasSur_Text_ObreroPostBattle:
-.string "Aún queda un largo trecho por el sur, y\n"
-	.string "después al oeste. Encontrarás a\l"
-	.string "algunos de los nuestros más adelante.$"
+	.string "There's still a lengthy journey ahead to\n"
+	.string "the south and then west. You'll\l"
+	.string "encounter some of ours further on.$"
 
 ViasSur2_Text_ObreroIntro:
-.string "El proyecto MAGNETOTRÉN no puede\n"
-	.string "retrasarse más. Hay importantes\l"
-	.string "acuerdos firmados entre SILPH y TORRE\l"
-	.string "RADIO.$"
+	.string "The MAGNETRAIN project cannot be\n"
+	.string "delayed any further. There are\l"
+	.string "significant agreements signed between\l"
+	.string "SILPH and RADIO TOWER.$"
 
 ViasSur2_Text_ObreroDefeated:
-.string "¡Vas en serio!$"
+	.string "Are you serious?$"
 
 ViasSur2_Text_ObreroPostBattle:
-.string "Cuando ese POKÉMON esté bajo control,\n"
-	.string "nada impedirá terminar de unir TRIGAL\l"
-	.string "con AZAFRÁN. Una nueva era comienza.$"
+	.string "When that POKÉMON is under control,\n"
+	.string "nothing will prevent the final\l"
+	.string "connection between GOLDENROD and\l"
+	.string "SAFFRON. A new era is starting.$"
 
 ViasSur3_Text_ObreroIntro:
-.string "Mis POKÉMON ROCA están deseando\n"
-	.string "encontrarse con esa bestia. ¡Necesito\l"
-	.string "que calienten!$"
+	.string "My ROCK-type POKÉMON are ready to face\n"
+	.string "that beast. I need to warm up!$"
 
 ViasSur3_Text_ObreroDefeated:
-.string "¡Era calentar, no mandarme al CENTRO\n"
-	.string "PKMN!$"
+	.string "It was warming up, not sending me to the\n"
+	.string "POKÉMON CENTER!$"
 
 ViasSur3_Text_ObreroPostBattle:
-.string "Aunque lleve POKÉMON ROCA y ELÉCTRICO\n"
-	.string "conmigo, no me fío ni un pelo. Acaba de\l"
-	.string "pasar un ENTRENADOR con un par de\l"
-	.string "POKÉMON VOLADOR, y su presencia era\l"
-	.string "muy poderosa.$"
+	.string "Even though I have ROCK and\n"
+	.string "ELECTRIC-type POKÉMON with me, I don't\l"
+	.string "trust it at all. Just encountered a\l"
+	.string "TRAINER with a couple of FLYING-type\l"
+	.string "POKÉMON, and their presence was very\l"
+	.string "powerful.$"
 
 Route49_Pagoda_P4_Text_Pensador1Intro:
-.string "Continué entrenando a mi DUNSPARCE en\n"
-	.string "lugar de darle una PIEDRA DORADA.\l"
-	.string "Acabó evolucionando en otro POKÉMON.$"
+	.string "I kept training my DUNSPARCE instead\n"
+	.string "of giving it a SACRED STONE. It ended up\l"
+	.string "evolving into another POKÉMON.$"
 
 Route49_Pagoda_P4_Text_Pensador1Defeated:
-.string "¡Cuánta energía!$"
+	.string "So much energy.$"
 
 Route49_Pagoda_P4_Text_Pensador1PostBattle:
-.string "Solo los elegidos pueden convertir un\n"
-	.string "DUNSPARCE normal a su forma sagrada\l"
-	.string "por nivel, para obtener a esta última es\l"
-	.string "necesario hacer uso de la PIEDRA\l"
-	.string "DORADA. En caso contrario, DUNSPARCE\l"
-	.string "evolucionará en su forma carente de\l"
-	.string "esencia: DUDUNSPARCE.$"
+	.string "Only the chosen ones can transform a\n"
+	.string "regular DUNSPARCE into its sacred form\l"
+	.string "through leveling up; to obtain the\l"
+	.string "latter, it is necessary to use the\l"
+	.string "SACRED STONE. Otherwise, DUNSPARCE will\l"
+	.string "evolve into its essence-lacking form:\l"
+	.string "DUDUNSPARCE.$"
 
 Route49_Pagoda_P4_Text_Pensador2Intro:
-.string "¿Qué sabes acerca de los antiguos\n"
-	.string "POKÉMON de JOHTO?$"
+	.string "What do you know about the ancient\n"
+	.string "POKÉMON of JOHTO?$"
 
 Route49_Pagoda_P4_Text_Pensador2Defeated:
-.string "¡Veo que sabes mucho!$"
+	.string "It looks like you're quite\n"
+	.string "knowledgeable!$"
 
 Route49_Pagoda_P4_Text_Pensador2PostBattle:
-.string "Hace siglos muchos de los POKÉMON de\n"
-	.string "JOHTO podían evolucionar, otros\l"
-	.string "contaban incluso con otras formas. Se\l"
-	.string "cree que cambios adaptativos y\l"
-	.string "climáticos provocaron la desaparición\l"
-	.string "de estos POKÉMON.$"
+	.string "Centuries ago, many of the POKÉMON in\n"
+	.string "JOHTO could evolve, while others even\l"
+	.string "had different forms. It is believed\l"
+	.string "that adaptive and climatic changes led\l"
+	.string "to the disappearance of these POKÉMON.$"
 
 Route49_Pagoda_P5_Text_Pensador1Intro:
-.string "Aún no has llegado ni a la mitad del\n"
-	.string "camino.$"
+	.string "You haven't even reached the halfway\n"
+	.string "point yet.$"
 
 Route49_Pagoda_P5_Text_Pensador1Defeated:
-.string "No dejes de respirar.$"
+	.string "Don't stop breathing.$"
 
 Route49_Pagoda_P5_Text_Pensador1PostBattle:
-.string "No me refería solo a la mitad de la\n"
-	.string "pagoda, me refería a tu aventura en\l"
-	.string "general.$"
+	.string "I wasn't specifically talking about the\n"
+	.string "halfway point of the pagoda; I meant\l"
+	.string "your overall adventure.$"
 
 Route49_Pagoda_P6_Text_Pensador1Intro:
-.string "¿Quieres ver a nuestro GRAN MAESTRO?$"
+	.string "Do you want to see our GRAND MASTER?$"
 
 Route49_Pagoda_P6_Text_Pensador1Defeated:
-.string "Parece que vas en serio.$"
+	.string "It looks like you're serious.$"
 
 Route49_Pagoda_P6_Text_Pensador1PostBattle:
-.string "El equipo de nuestro GRAN MAESTRO está\n"
-	.string "lleno de poderosos POKÉMON ANTIGUOS,\l"
-	.string "puede que por el mero hecho de haber\l"
-	.string "nacido en esta época, ya no tengas\l"
-	.string "oportunidad. Aunque limitar a alguien\l"
-	.string "por el ambiente en el que creció va en\l"
-	.string "contra de nuestra filosofía.$"
+	.string "Our GRAND MASTER's team is comprised of\n"
+	.string "mighty ANCIENT POKÉMON; simply being\l"
+	.string "born in this era might not give you a\l"
+	.string "chance. However, restricting someone\l"
+	.string "based on their upbringing goes against\l"
+	.string "our philosophy.$"
 
 Route49_Pagoda_P6_Text_Pensador2Intro:
-.string "Cuando nos consideramos a nosotros\n"
-	.string "mismos como un objeto, llegamos a la\l"
-	.string "conclusión de que no podemos movernos,\l"
-	.string "detenernos o cambiar de dirección a\l"
-	.string "menos que una fuerza externa actúe\l"
-	.string "sobre nosotros.$"
+	.string "When we perceive ourselves as an\n"
+	.string "object, we come to the conclusion that\l"
+	.string "we cannot move, stop, or change\l"
+	.string "direction unless an external force acts\l"
+	.string "upon us.$"
 
 Route49_Pagoda_P6_Text_Pensador2Defeated:
-.string "Ese poder. ¿De dónde viene?$"
+	.string "That power. Where does it come from?$"
 
 Route49_Pagoda_P6_Text_Pensador2PostBattle:
-.string "¡No te imaginas, joven ENTRENADOR, todo\n"
-	.string "lo que este mundo aún te reserva!$"
+	.string "You have no idea, young TRAINER, about\n"
+	.string "everything this world still reserves for\l"
+	.string "you!$"
 
 Route49_Pagoda_P7_Text_Pensador1Intro:
-.string "Esa chica y tú habéis llamado la\n"
-	.string "atención de nuestro gran maestro. Eso\l"
-	.string "es algo muy raro.$"
+	.string "You and that girl have grabbed the\n"
+	.string "attention of our great master. That's\l"
+	.string "quite unusual.$"
 
 Route49_Pagoda_P7_Text_Pensador1Defeated:
-.string "Tan raro como la flor perfecta...$"
+	.string "As strange as the perfect flower...$"
 
 Route49_Pagoda_P7_Text_Pensador1PostBattle:
-.string "El paso del tiempo ha degradado el lugar\n"
-	.string "de descanso del DRAGÓN SAGRADO, pero\l"
-	.string "desde aquí seguimos honrándole con la\l"
-	.string "misma intensidad del primer día.$"
+	.string "The passage of time has degraded the\n"
+	.string "resting place of the SACRED DRAGON, but\l"
+	.string "from here, we continue to honor it with\l"
+	.string "the same intensity as the first day.$"
 
 
 NeoRoute15_Text_ColegialIntro:
-.string "Iremos a la TORRE RADIO de LAVANDA para\n"
-	.string "realizar unos estudios sociales.$"
+	.string "We are going to LAVENDER RADIO TOWER\n"
+	.string "to carry out social studies.$"
 
 NeoRoute15_Text_ColegialDefeated:
-.string "¡Eres demasiado fuerte!$"
+	.string "You are too much!$"
 
 NeoRoute15_ColegialPostBattle:
-.string "Estoy cansado de caminar. Necesito un\n"
-	.string "descanso.$"
+	.string "I'm tired of walking. I need a break.$"
 
 NeoRoute15_Text_Colegial2Intro:
-.string "¡Mi asignatura favorita es la gimnasia!$"
+	.string "I love gymnastics the most!$"
 
 NeoRoute15_Text_Colegial2Defeated:
-.string "¡Oh, no! ¿Cómo he podido perder?$"
+	.string "Oh no! How could I have lost?$"
 
 NeoRoute15_Colegial2PostBattle:
-.string "¡Si los POKÉMON fueran una asignatura,\n"
-	.string "yo sería el mejor!$"
+	.string "If Pokémon were a subject, I would be\n"
+	.string "the best!$"
 
 NeoRoute15_Text_Colegial3Intro:
-.string "Luchemos. ¡No perderé!$"
+	.string "Let's fight. I won't lose!$"
 
 NeoRoute15_Text_Colegial3Defeated:
-.string "¡Me olvidé de hacer los deberes!$"
+	.string "I forgot to do my homework!$"
 
 NeoRoute15_Colegial3PostBattle:
-.string "¡Sayonara! Lo he aprendido en la clase\n"
-	.string "de japonés.$"
+	.string "Sayonara! I learned it in Japanese\n"
+	.string "class.$"
 
 NeoRoute15_Text_Colegial4Intro:
-.string "Espera. Tengo que llamar a mamá.$"
+	.string "Wait. I need to call Mom.$"
 
 NeoRoute15_Text_Colegial4Defeated:
-.string "¡Lo siento, mamá! ¡Me han vencido!$"
+	.string "I'm sorry, Mom! I've been defeated!$"
 
 NeoRoute15_Colegial4PostBattle:
-.string "Mi madre se preocupa mucho por mí,\n"
-	.string "tengo que llamarla siempre.$"
+	.string "My mother worries a lot about me; I have\n"
+	.string "to call her always.$"
 
 NeoRoute15_Text_ProfesoraIntro:
-.string "¿Has olvidado algo?$"
+	.string "Did you forget something?$"
 
 NeoRoute15_Text_ProfesoraDefeated:
-.string "¡Kiaaa!$"
+.string "Kiaaa!$"
 
 NeoRoute15_ProfesoraPostBattle:
-.string "Antes de ser maestra, solía olvidarme\n"
-	.string "de muchas cosas.$"
+	.string "Before becoming a teacher, I used to\n"
+	.string "forget many things.$"
 
 NeoRoute15_Text_Profesora2Intro:
-.string "Creo que si hace sol, los niños deberían\n"
-	.string "estar jugando en el patio en lugar de\l"
-	.string "estar en clase.$"
+	.string "I think if it's sunny, kids should be\n"
+	.string "playing in the playground instead of\l"
+	.string "being in class.$"
 
 NeoRoute15_Text_Profesora2Defeated:
-.string "No quería perder...$"
+	.string "I didn't want to lose.$"
 
 NeoRoute15_Profesora2PostBattle:
-.string "Es importante estudiar, pero hacer\n"
-	.string "deporte también.$"
+	.string "It's crucial to study, but also to\n"
+	.string "engage in physical activities.$"
 
 NeoRoute14_Text_OrnitologoIntro:
-.string "Mi sueño es volar con mi querido\n"
-	.string "POKéMON pájaro.$"
+	.string "My dream is to fly with my beloved bird\n"
+	.string "POKÉMON.$"
 
 NeoRoute14_Text_OrnitologoDefeated:
-.string "Puedo soñar, pero nunca podré volar.$"
+	.string "I can dream, but I could never fly.$"
 
 NeoRoute14_OrnitologoPostBattle:
-.string "¿Tienes POKéMON que conozcan la MO\n"
-	.string "VUELO? ¿Sí? ¡Qué envidia!$"
+	.string "Do you have POKÉMON who knows the HM\n"
+	.string "FLY? Yes? I'm so envious!$"
 
 NeoRoute14_Text_PokefanIntro:
-.string "¿Sabes qué? Los POKéMON son más\n"
-	.string "amigables si los entrenas en un lugar\l"
-	.string "que ellos recuerden.$"
+	.string "Guess what? POKÉMON tend to be\n"
+	.string "friendlier when trained in a familiar\l"
+	.string "location.$"
 
 NeoRoute14_Text_PokefanDefeated:
-.string "¿Dónde conocí a este PSYDUCK?$"
+	.string "Where did I meet this PSYDUCK?$"
 
 NeoRoute14_PokefanPostBattle:
-.string "Si hubiera un sistema fácil de\n"
-	.string "identificar dónde obtuve mi POKéMON...$"
+	.string "If there were an easy system to\n"
+	.string "identify where I got my POKÉMON...$"
 
 NeoRoute14_Text_Pokefan2Intro:
-.string "Que sepas que me costó mucho atrapar a\n"
-	.string "mis queridos POKéMON.$"
+	.string "Be aware that it was quite challenging\n"
+	.string "for me to capture my dear POKÉMON.$"
 
 NeoRoute14_Text_Pokefan2Defeated:
-.string "¡Auuuu!$"
+	.string "Auuuu!$"
 
 NeoRoute14_Pokefan2PostBattle:
-.string "BLASTOISE, CHARIZARD y VENUSAUR. Creo\n"
-	.string "que es una buena combinación.$"
+	.string "BLASTOISE, CHARIZARD, and VENUSAUR. I\n"
+	.string "think it's a good combination.$"
 
 NeoRoute18_Text_OrnitologoIntro:
-.string "El CAMINO de BICIS es un atajo a CIUDAD\n"
-	.string "AZULONA.$"
+	.string "The CICLING ROAD is a shortcut to\n"
+	.string "CERULEAN CITY.$"
 
 NeoRoute18_Text_OrnitologoDefeated:
-.string "¡Uau...!$"
+	.string "Uau...!$"
 
 NeoRoute18_OrnitologoPostBattle:
-.string "Si no tienes una BICI, no podrás usar el\n"
-	.string "atajo.$"
+	.string "If you don't have a BIKE, you won't be\n"
+	.string "able to use the shortcut.$"
 
 NeoRoute18_Text_Ornitologo2Intro:
-.string "Si estás buscando POKÉMON, mira en las\n"
-	.string "zonas de hierba alta.$"
+	.string "If you're looking for POKÉMON, check in\n"
+	.string "the tall grass areas.$"
 
 NeoRoute18_Text_Ornitologo2Defeated:
-.string "¡Ayyyy!$"
+.string "Ayyyy!$"
 
 NeoRoute18_Ornitologo2PostBattle:
-.string "Siendo tan fuerte, debe de ser muy\n"
-	.string "divertido luchar.$"
+	.string "Being so strong, it must be very\n"
+	.string "enjoyable to battle.$"
 
 NeoRoute1_Text_ColegialIntro:
-.string "Luchar es lo primero que hacen los\n"
-	.string "entrenadores si se encuentran.$"
+	.string "Battling is the first thing trainers do\n"
+	.string "when they meet.$"
 
 NeoRoute1_Text_ColegialDefeated:
-.string "Tengo el récord de combates perdidos.$"
+	.string "The record for lost battles is mine.$"
 
 NeoRoute1_ColegialPostBattle:
-.string "Es obvio que los entrenadores luchemos\n"
-	.string "cuando nos encontremos.$"
+	.string "It's obvious that trainers battle when\n"
+	.string "we encounter each other.$"
 
 NeoRoute1_Text_GuayIntro:
-.string "¡Estás ahí! ¿Quieres luchar?$"
+	.string "There you are! Would you like to fight?$"
 
 NeoRoute1_Text_GuayDefeated:
-.string "He perdido...$"
+	.string "I lost...$"
 
 NeoRoute1_GuayPostBattle:
-.string "Eres fuerte. Seguro que te has\n"
-	.string "entrenado mucho.$"
+	.string "You're strong. I'm sure you've trained a\n"
+	.string "lot.$"
 
 NeoRoute2_Text_CazabichosIntro:
-.string "Mis Pokémon bicho son muy fuertes.\n"
-	.string "¡Prepárate para perder!$"
+	.string "My BUG-type POKÉMON are very strong.\n"
+	.string "Get ready to lose!$"
 
 NeoRoute2_Text_CazabichosDefeated:
-.string "Me vencieron...$"
+	.string "I was beaten...$"
 
 NeoRoute2_CazabichosPostBattle:
-.string "Voy a buscar a Pokémon bicho más\n"
-	.string "fuertes.$"
+	.string "I'm going to find stronger BUG-type\n"
+	.string "POKÉMON.$"
 
 NeoRoute2_Text_Cazabichos2Intro:
-.string "¿Por qué a las chicas no les gustan los\n"
-	.string "Pokémon bicho?$"
+	.string "Why don't girls like BUG-type POKÉMON?$"
 
 NeoRoute2_Text_Cazabichos2Defeated:
-.string "¡Muy mal!$"
+	.string "Very bad!$"
 
 NeoRoute2_Cazabichos2PostBattle:
-.string "Los Pokémon bicho parecen muñecos de\n"
-	.string "goma cuando les aprietas la tripa. ¡Me\l"
-	.string "encanta tocarlos!$"
+	.string "BUG-type POKÉMON look like rubber dolls\n"
+	.string "when you squeeze their bellies. I love\l"
+	.string "touching them!$"
 
 NeoRoute20_Text_NadadorIntro:
-.string "Supongo que es imposible ir nadando\n"
-	.string "hasta JOHTO.$"
+	.string "I guess swimming to JOHTO is not doable.$"
 
 NeoRoute20_Text_NadadorDefeated:
-.string "¡Aiyaa!$"
+	.string "Aiyaa!$"
 
 NeoRoute20_NadadorPostBattle:
-.string "Además de nadar en el mar, puedo nadar\n"
-	.string "en varios estanques y ríos.$"
+	.string "Apart from swimming in the sea, I can\n"
+	.string "swim in various ponds and rivers.$"
 
 NeoRoute20_Text_NadadoraIntro:
-.string "¡Vaya colección de MEDALLAS de\n"
-	.string "GIMNASIO! ¡Luchemos!$"
+	.string "What a collection of GYM BADGES! Let's\n"
+	.string "battle!$"
 
 NeoRoute20_Text_NadadoraDefeated:
-.string "¡No!$"
+.string "No!$"
 
 NeoRoute20_NadadoraPostBattle:
-.string "SURF ya no es el único movimiento que se\n"
-	.string "utiliza en el agua.$"
+	.string "SURF is no longer the only move used in\n"
+	.string "the water.$"
 
 NeoRoute20_Text_Nadadora2Intro:
-.string "Me siento más ligera en el agua.$"
+	.string "I feel lighter in the water.$"
 
 NeoRoute20_Text_Nadadora2Defeated:
-.string "¡Oh, no!$"
+.string "Oh, no!$"
 
 NeoRoute20_Nadadora2PostBattle:
-.string "La natación fortalece todo tu cuerpo.\n"
-	.string "¡Es muy sana!$"
+	.string "Swimming strengthens your entire body.\n"
+	.string "It's very healthy!$"
 
 NeoRoute19_Text_NadadorIntro:
-.string "¿Has nadado alguna vez en el mar por la\n"
-	.string "noche?$"
+	.string "Have you ever gone swimming in the\n"
+	.string "ocean at night?$"
 
 NeoRoute19_Text_NadadorDefeated:
-.string "¡Glup...!$"
+.string "Glup...!$"
 
 NeoRoute19_NadadorPostBattle:
-.string "De noche, el mar está oscuro. Da la\n"
-	.string "impresión de que te va a tragar.$"
+	.string "At night, the sea is dark. It feels like\n"
+	.string "it's going to engulf you.$"
 
 NeoRoute19_Text_NadadoraIntro:
-	.string "¡No me gustan los peques!$"
+	.string "I don't like the little ones!$"
 
 NeoRoute19_Text_NadadoraDefeated:
-.string "Podría ganarte nadando...$"
+	.string "I could beat you in a swimming race...$"
 
 NeoRoute19_NadadoraPostBattle:
-.string "No hay que nadar mucho desde CIUDAD\n"
-	.string "FUCSIA a las ISLAS ESPUMA... ¡Con todo\l"
-	.string "lo grande que es, menudo blandengue!$"
+	.string "It's not a long swim from FUCHSIA CITY\n"
+	.string "to the SEAFOAM ISLANDS... With its size,\l"
+	.string "what a wimp!$"
 
 NeoRoute19_Text_Nadador2Intro:
-	.string "Un... poco más... y... llegaré... a\n"
-	.string "CIUDAD FUCSIA...$"
+	.string "A... bit more... and... I'll reach... FUCHSIA\n"
+	.string "CITY...$"
 
 NeoRoute19_Text_Nadador2Defeated:
-.string "¡Me ahogo!$"
+	.string "I can't breathe!$"
 
 NeoRoute19_Nadador2PostBattle:
-.string "Le... pedí a mi novia que nadara a CIUDAD\n"
-	.string "FUCSIA...$"
+	.string "I invited my girlfriend to swim to\n"
+	.string "FUCHSIA CITY...$"
 
 NeoRoute19_Text_Nadador3Intro:
-.string "Soy malísimo nadando. Sólo estoy\n"
-	.string "chapoteando por estas aguas poco\l"
-	.string "profundas.$"
+	.string "I'm terrible at swimming. I'm just\n"
+	.string "splashing around in these shallow\l"
+	.string "waters.$"
 
 NeoRoute19_Text_Nadador3Defeated:
-.string "Creía que podía ganar.$"
+	.string "I thought I could win.$"
 
 NeoRoute19_Nadador3PostBattle:
-.string "Puede que no nade muy bien, pero me\n"
-	.string "encanta el mar.$"
+	.string "I may not excel at swimming, but my\n"
+	.string "affection for the sea is strong.$"
 
 NeoRoute21_Text_NadadorIntro:
-.string "Tierra a la vista. ¡Sigamos adelante!$"
+	.string "Land in sight. Let's keep going!$"
 
 NeoRoute21_Text_NadadorDefeated:
-.string "¡Glup...!$"
+.string "Glup...!$"
 
 NeoRoute21_NadadorPostBattle:
-.string "Ese chico tan arrogante estaba en el\n"
-	.string "volcán de ISLA CANELA.$"
+	.string "That arrogant boy was at the volcano\n"
+	.string "on CINNABAR ISLAND.$"
 
 NeoRoute21_Text_PescadorIntro:
-.string "Estoy aburrido de pescar. ¡Luchemos!$"
+	.string "I'm bored of fishing. Let's fight!$"
 
 NeoRoute21_Text_PescadorDefeated:
-.string "Qué fracaso...$"
+	.string "What a failure...$"
 
 NeoRoute21_PescadorPostBattle:
-.string "Voy a volver a pescar...$"
+	.string "I'm going to go fishing again...$"
 
 NeoRoute21_Text_NadadoraIntro:
-.string "¡Si gano, tienes que ayudarme con la\n"
-	.string "loción solar!$"
+	.string "If I win, you have to help me with the\n"
+	.string "sunscreen!$"
 
 NeoRoute21_Text_NadadoraDefeated:
-.string "No quiero quemarme...$"
+	.string "I don't want to get sunburned.$"
 
 NeoRoute21_NadadoraPostBattle:
-.string "Debería tener cuidado con las manchas\n"
-	.string "causadas por el sol.$"
+	.string "I should be careful with sun-induced\n"
+	.string "spots.$"
 
 
 
