@@ -20,7 +20,7 @@ release
 end
 
 TwoIsland_Torre_P4_Dormido_Texto_2:
-.string "(¡Está echando la siesta!)$"
+.string "(He's taking a nap!)$"
 
 TwoIsland_Torre_P4_Dormido_Texto_1:
 .string "... ...$"
@@ -249,193 +249,191 @@ walk_slow_up
 step_end
 
 TwoIsland_Torre_P4_Evento_Final_Texto_3:
-.string "????: ¡Oh, vamos! ¿No reconocéis a un\n"
-	.string "superior de vuestra ex-organización\l"
-	.string "cuando lo tenéis delante?$"
+	.string "????: Oh, come on! Can't you identify a\n"
+	.string "superior from your ex-organization\l"
+	.string "when he's right in front of you?$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_4:
-.string "FRANK: Así es, {PLAYER}. No esperabas\n"
-	.string "verme aquí, ¿verdad? Tal vez empezaras\l"
-	.string "a tener sospechas al ver a ex-miembros\l"
-	.string "del TEAM ROCKET, pero qué más da.$"
+	.string "FRANK: That's right, {PLAYER}. You\n"
+	.string "didn't expect to see me here, did you?\l"
+	.string "Maybe you started to have suspicions\l"
+	.string "when you saw former members of TEAM\l"
+	.string "ROCKET, but who cares.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_5:
-.string "Lo cierto es que hace un tiempo que\n"
-	.string "dejé de formar parte de la\l"
-	.string "organización. Digamos que… rompí el\l"
-	.string "código interno de conducta ROCKET, ese\l"
-	.string "mismo código por el que fracasamos en\l"
-	.string "la misión del MT.MOON, gracias a tu\l"
-	.string "estúpida actuación.$"
+	.string "The fact is, I haven't been part of the\n"
+	.string "organization for a while. Let's say... I\l"
+	.string "broke the internal ROCKET code of\l"
+	.string "conduct, the same code that caused us\l"
+	.string "to fail in the MT. MOON mission, thanks\l"
+	.string "to your foolish actions.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_6:
-.string "La de vueltas que da la vida, ¿verdad?\n"
-	.string "En nuestro último encuentro era yo\l"
-	.string "quien estaba cerca de ser\l"
-	.string "ADMINISTRADOR, tú aún un ALTO RANGO.\l"
-	.string "Ahora, según tengo entendido, has\l"
-	.string "salvado KANTO y eres la mano derecha\l"
-	.string "de GIOVANNI.$"
+	.string "Life takes some unexpected turns,\n"
+	.string "doesn't it? In our last encounter, I was\l"
+	.string "close to becoming an ADMINISTRATOR,\l"
+	.string "and you were still a HIGH RANK. Now, as I\l"
+	.string "understand it, you've saved KANTO and\l"
+	.string "are GIOVANNI's right-hand.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_7:
-.string "Pero te estarás preguntando, ¿qué hago\n"
-	.string "yo aquí? Te seré claro: vamos a\l"
-	.string "convertir este lugar en el nuevo\l"
-	.string "CASINO de ARCHI7.$"
+	.string "But you're probably asking yourself,\n"
+	.string "what am I doing here? I'll be clear:\l"
+	.string "we're going to transform this place into\l"
+	.string "the new ARCHI7 GAME CORNER.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_8:
-.string "Teniendo en cuenta las 7 islas, la\n"
-	.string "población total es considerable. Si a\l"
-	.string "ello le sumamos la gran facilidad para\l"
-	.string "viajar con el SURCAMAR, la conexión con\l"
-	.string "CIUDAD CARMÍN y la escasa\l"
-	.string "competencia, tenemos un negocio\l"
-	.string "redondo.$"
+	.string "Considering all the islands from SEVII,\n"
+	.string "the total population is significant. If\l"
+	.string "we add to that the great ease of\l"
+	.string "traveling with the SEAGALLOP, the\l"
+	.string "connection to VERMILION CITY, and the\l"
+	.string "minimal competition, we have a solid\l"
+	.string "business here.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_9:
-.string "Gracias a un contacto en SINOHH,\n"
-	.string "importaremos raros POKÉMON de esa\l"
-	.string "región, para venderlos aquí a precio de\l"
-	.string "oro.$"
+	.string "Due to a contact in SINNOH, we'll be\n"
+	.string "bringing in rare POKÉMON from that\l"
+	.string "region to sell them here as premium\l"
+	.string "POKÉMON.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_10:
-.string "Y lo mejor de todo es que seguiremos el\n"
-	.string "mismo sistema de FICHAS y juegos de\l"
-	.string "azar del CASINO AZULONA.\l"
-	.string "Convertiremos este lugar en la nueva\l"
-	.string "capital de ARCHI7.$"
+	.string "And the best part is that we will follow\n"
+	.string "the same system of COINS and games as\l"
+	.string "the CELADON CITY GAME CORNER. We will\l"
+	.string "turn this place into the new capital of\l"
+	.string "ARCHI7.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_11:
-.string "Este edificio es solo el principio, aquí\n"
-	.string "llevaremos a cabo todas nuestras\l"
-	.string "operaciones, tal como la BASE ROCKET,\l"
-	.string "pero sin necesidad de ocultara.$"
+	.string "This building is just the beginning;\n"
+	.string "here, we will carry out all our\l"
+	.string "operations, just like the ROCKET\l"
+	.string "HIDEOUT, but without the need to hide.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_12:
-.string "Lo próximo será ampliar esos\n"
-	.string "espantosos RECREATIVOS, y empezar a\l"
-	.string "convertirlos en un CASINO de verdad.$"
+	.string "Next, we'll expand those dreadful\n"
+	.string "RECREATIONAL areas and begin\l"
+	.string "transforming them into a real CASINO.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_13:
-.string "¿No es genial? ¡Vamos! Cuando todo esto\n"
-	.string "acabe, hasta podría hacerte una\l"
-	.string "oferta especial por los POKÉMON de\l"
-	.string "SIN…$"
+	.string "Isn't it fantastic? Come on! When all of\n"
+	.string "this is done, I might even make you a\l"
+	.string "special offer for the SINNOH POKÉMON...$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_14:
-.string "¿Quieres que devuelva los RECREATIVOS\n"
-	.string "a sus legítimos dueños?$"
+	.string "Do you want me to return the JOYFUL\n"
+	.string "GAME CORNER areas to their rightful\l"
+	.string "owners?$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_15:
-.string "Debes estar bromeando, ¿en serio\n"
-	.string "quieres que sigan esos infumables\l"
-	.string "minijuegos? ¡DODRIO A POR BAYAS! Nadie\l"
-	.string "juega a eso {PLAYER}, a nadie le\l"
-	.string "importa. Le estoy haciendo un favor a\l"
-	.string "esta isla, ¿no lo ves?$"
+	.string "You must be kidding, do you really want\n"
+	.string "those unbearable mini-games to\l"
+	.string "continue? DODRIO GO FOR BERRIES! No\l"
+	.string "one plays that, {PLAYER}, no one\l"
+	.string "cares. I'm doing this island a favor,\l"
+	.string "can't you see?$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_16:
 .string "… …$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_17:
-.string "Veo que sigues siendo el mismo, creí que\n"
-	.string "el ser ADMINISTRADOR te habría hecho\l"
-	.string "ver la realidad, pero sigues siendo\l"
-	.string "igual de ingenuo.$"
+	.string "I see you're still the same; I thought\n"
+	.string "being an ADMINISTRATOR would have\l"
+	.string "made you see reality, but you're still\l"
+	.string "just as naive.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_18:
-.string "Te dije en su momento que no podrías\n"
-	.string "seguir subiendo solo ganando\l"
-	.string "combates, la única razón por la que lo\l"
-	.string "has logrado es por haber sido el mejor\l"
-	.string "en ello: la excepción. Has acabado\l"
-	.string "siendo incluso mejor que ese ROJO que\l"
-	.string "nos apalizó en el MT.MOON. Y por ello te\l"
-	.string "respeto.$"
+	.string "I told you back then that you couldn't\n"
+	.string "continue climbing solely by winning\l"
+	.string "battles; the only reason you've\l"
+	.string "succeeded is because you were the best\l"
+	.string "at it: the exception. You've ended up\l"
+	.string "being even better than that RED who\l"
+	.string "defeated us at MT. MOON. I respect you\l"
+	.string "for that.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_19:
-.string "Pero… no siempre es el más fuerte el que\n"
-	.string "gana.$"
+	.string "However... the winner isn't always the\n"
+	.string "strongest one.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_20:
-.string "Ese mismo código moral y el presuponer\n"
-	.string "que el resto lo cumplirá, va a ser el que\l"
-	.string "te lleve a la perdición. Somos del TEAM\l"
-	.string "ROCKET, y ante todo buscamos ganar sin\l"
-	.string "importar la forma.$"
+	.string "That stupid moral code and assuming\n"
+	.string "others will follow it is what will lead\l"
+	.string "you to downfall. We're part of TEAM\l"
+	.string "ROCKET, and above all, we aim to win\l"
+	.string "regardless of the method.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_21:
-.string "No irás a ninguna parte {PLAYER}. Ya\n"
-	.string "no hay vuelta atrás, somos dos\l"
-	.string "ex-EJECUTIVOS y un ex-ADMINISTRADOR\l"
-	.string "ROCKET. Por muy bueno que seas, no\l"
-	.string "tienes nada que hacer.$"
+	.string "You're not going anywhere, {PLAYER}.\n"
+	.string "There's no turning back; we are two\l"
+	.string "former EXECUTIVES and a former ROCKET\l"
+	.string "ADMINISTRATOR. No matter how skilled\l"
+	.string "you are, you have no chance.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_22:
-.string "Ni el propio GIOVANNI podría con\n"
-	.string "nosotros 3 juntos, ¡en guardia!$"
+	.string "Not even GIOVANNI could handle the\n"
+	.string "three of us together, be on guard!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_23:
-.string "¡Esto entraba en nuestros planes!$"
+	.string "This was part of our plans!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_24:
-.string "ISLA SECUNDA es nuestra, ¡vamos a ser\n"
-	.string "la nueva SILPH de ARCHI7!$"
+	.string "TWO ISLAND is ours, we're going to be\n"
+	.string "the new SILPH of ARCHI7!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_25:
-.string "¡SILPH no cayó, y nosotros tampoco lo\n"
-	.string "haremos!$"
+	.string "SILPH didn't fall, and we won't either!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_26:
-.string "FRANK: Impresionante, pero aún no has\n"
-	.string "demostrado nada.$"
+	.string "FRANK: Impressive, but you haven't\n"
+	.string "proven anything yet.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_27:
-.string "Fíjate {PLAYER}, siempre has estado\n"
-	.string "por debajo mía, ni aún siendo\l"
-	.string "ADMINISTRADOR has logrado alcanzarme.$"
+	.string "Take note, {PLAYER}, you've always\n"
+	.string "been below me, not even as an\l"
+	.string "ADMINISTRATOR have you succeeded in\l"
+	.string "overtaking me.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_28:
-.string "Ahora yo soy JEFE de una nueva empresa\n"
-	.string "que con el tiempo será igual de\l"
-	.string "importante que el TEAM ROCKET.$"
+	.string "Now, I am the LEADER of a new\n"
+	.string "organization that will eventually be as\l"
+	.string "important as TEAM ROCKET.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_29:
-.string "¡Nunca estarás a mi altura!$"
+	.string "You will never reach my level!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_30:
-.string "Grrrrrr…. ¡No deberías haber ganado!$"
+	.string "Grrrrrr.... You were not supposed to win!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_31:
-.string "FRANK: ¡No! ¡No deberías ser tan\n"
-	.string "fuerte!$"
+	.string "FRANK: No! You shouldn't be that\n"
+	.string "strong!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_32:
-.string "¡Únicamente has ganado por tener un\n"
-	.string "don para el combate! ¡Tu estúpido\l"
-	.string "código moral no es más que una\l"
-	.string "fachada!$"
+	.string "You've only won due to your talent for\n"
+	.string "combat! Your foolish moral code is just\l"
+	.string "a masquerade!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_33:
-.string "¿Cómo lo sé? Entre nosotros, hubieras\n"
-	.string "preferido mil veces el planazo del que\l"
-	.string "te he hablado para este lugar, que la\l"
-	.string "inútil función que cumple ahora.$"
+	.string "How do I know? Between us, you would\n"
+	.string "have preferred a thousand times more\l"
+	.string "the fantastic plan I've talked to you\l"
+	.string "about for this place than the useless\l"
+	.string "role it plays now.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_34:
-.string "Únicamente has hecho esto para quedar\n"
-	.string "bien con esos dos idiotas que\l"
-	.string "mantendrán todo igual. Esta isla está\l"
-	.string "muerta y seguirá muerta.$"
+	.string "You've only done this to look good in\n"
+	.string "front of those two idiots who will keep\l"
+	.string "everything the same. This island is dead\l"
+	.string "and will remain dead.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_35:
-.string "Nada, ¡espero que disfrutes del DODRIO\n"
-	.string "A POR BAYAS y el SALTO POKEMON!$"
+	.string "Well, I hope you enjoy the DODRIO GO FOR\n"
+	.string "BERRIES and the POKEMON JUMP!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_2:
-.string "Quién eres tú, ¿cómo has llegado hasta\n"
-	.string "aquí?$"
+	.string "Who are you, and how did you get here?$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_1:
-.string "Como decía, el CRANIDOS lo podemos\n"
-	.string "vender a 7000 FICHAS tranquilamente...$"
+	.string "As I was saying, we can easily sell the\n"
+	.string "CRANIDOS for 7000 COINS...$"

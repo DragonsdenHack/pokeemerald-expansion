@@ -22,10 +22,10 @@ release
 end
 
 TwoIsland_Torre_P2_Cientifico_2_Texto_1:
-.string "Cuando todo el negocio esté montado,\n"
-	.string "seremos la principal atracción de las\l"
-	.string "islas. Todos vendrán aquí a gastar su\l"
-	.string "dinero.$"
+	.string "Once the entire business is\n"
+	.string "established, we will become the primary\l"
+	.string "attraction of the islands. Everyone will\l"
+	.string "come here to expend their money.$"
 
 
 
@@ -37,10 +37,10 @@ release
 end
 
 TwoIsland_Torre_P2_Trabajador_Texto_1:
-.string "Estamos trayendo POKÉMON muy raros de\n"
-	.string "otras regiones, todos quedarán\l"
-	.string "impresionados y querrán tenerlos a\l"
-	.string "cualquier precio.$"
+	.string "We are bringing extremely rare POKÉMON\n"
+	.string "from other regions; everyone will be\l"
+	.string "impressed and will want to acquire them\l"
+	.string "at any price.$"
 
 TwoIsland_Torre_P2_EventScript_Biker::
 	trainerbattle_single TRAINER_TRAINER_159, TwoIsland_Torre_P2_Text_BikerIntro, TwoIsland_Torre_P2_Text_BikerDefeated

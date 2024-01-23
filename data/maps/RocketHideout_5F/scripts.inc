@@ -92,13 +92,12 @@ release
 end
 
 RocketHideout5F_Text_9:
-.string "Estás en el ÁREA 1 de la verdadera\n"
-.string "BASE ROCKET, aquí tratamos de\l"
-.string "entender y extraer el máximo\l"
-.string "potencial latente que los POKÉMON\l"
-.string "NO LEGENDARIOS pueden ofrecernos,\l"
-.string "lo que en algunos casos no es\l"
-.string "poco.$"
+	.string "You're now in the AREA 1 of the true\n"
+	.string "CELADON BASE, where we intend to\l"
+	.string "extract the highest potential possible\l"
+	.string "that each NON-LEGENDARY POKÉMON can\l"
+	.string "offer to us, which sometimes is quite\l"
+	.string "impressive.$"
 
 
 
@@ -110,12 +109,11 @@ release
 end
 
 RocketHideout5F_Text_10:
-.string "Dicen que -Los 7 hábitos de la\n"
-.string "gente altamente efectiva-, del\l"
-.string "doctor Stephen Covey, hicieron que\l"
-.string "GIOVANNI incrementase un 20% el\l"
-.string "rendimiento palpable de la\l"
-.string "organización.$"
+	.string "It is said that -The Seven Habits of\n"
+	.string "Highly Effective People- by Doc.\l"
+	.string "Stephen Covey made GIOVANNI to\l"
+	.string "increase the observable performance of\l"
+	.string "the organization by 20%.$"
 
 
 
@@ -127,18 +125,11 @@ release
 end
 
 RocketHideout5F_Text_11:
-.string "KANTO ahora mismo parece una parodia\n"
-	.string "de aquellas grandes obras distópicas\l"
-	.string "de principios del siglo XX: -1984- y -Un\l"
-	.string "mundo feliz-. KANTO no está tan\l"
-	.string "controlada como describe Orwell,\l"
-	.string "aunque sus ciudadanos sí que están\l"
-	.string "desbordados con el exceso de trabajo.\l"
-	.string "En cuanto a -Un mundo feliz-... la\l"
-	.string "ilusión de la liga POKÉMON y el sueño de\l"
-	.string "ser maestro POKÉMON podrían ser la\l"
-	.string "dosis de soma moderno que mantiene\l"
-	.string "cuerda a KANTO.$"
+	.string "-1984-, by George Orwell, -Brave New\n"
+	.string "World-, by Aldous Huxley, and -Man's\l"
+	.string "Searching for Meaning-, by Viktor Emil\l"
+	.string "Frankl. Those are trivial books that I'd\l"
+	.string "recommend to everyone, comrade.$"
 
 
 
@@ -155,11 +146,11 @@ release
 end
 
 RocketHideout5F_Text_14:
-.string "Procura automatizar lo máximo\n"
-.string "posible las transiciones entre\l"
-.string "actividades, no les des respiro o\l"
-.string "te perderás en ellas, y con ello\l"
-.string "horas de tu tiempo cada día.$"
+	.string "Try to automate as much as you can the\n"
+	.string "transitions between tasks, don't let'em\l"
+	.string "a breath or else you'll get lost in them,\l"
+	.string "and you'll end up losing many hours a\l"
+	.string "day.$"
 
 
 
@@ -171,14 +162,13 @@ release
 end
 
 RocketHideout5F_Text_15:
-.string "Los que gobiernan se conocen tan\n"
-.string "bien las leyes que parece que\l"
-.string "hacen trampas, es más, han\l"
-.string "dispuesto las leyes para hacer\l"
-.string "trampas, de modo que la única\l"
-.string "alternativa es revelarse por la\l"
-.string "fuerza, puesto que no existe tal\l"
-.string "cosa como justicia.$"
+	.string "Those who rule know the rules\n"
+	.string "frighteningly well. As much as it seems\l"
+	.string "that they cheat, even worse, they have\l"
+	.string "arranged the rules in a way that allows\l"
+	.string "them to cheat. So, the only chance is an\l"
+	.string "armored coup; there is no such thing as\l"
+	.string "justice.$"
 
 
 
@@ -190,10 +180,9 @@ release
 end
 
 RocketHideout5F_Text_16:
-.string "El confort encarcela a la gente en\n"
-.string "un miedo al dolor de umbral muy\l"
-.string "bajo, es por eso que la población\l"
-.string "de KANTO está como está.$"
+	.string "Comfort confines the people of KANTO\n"
+	.string "in the fear of a very low pain threshold,\l"
+	.string "leaving them as they are now.$"
 
 
 
@@ -205,13 +194,12 @@ release
 end
 
 RocketHideout5F_Text_17:
-.string "El último siglo ha demostrado la\n"
-.string "gran dependencia económica de la\l"
-.string "ciencia, sea como sea, debemos\l"
-.string "aceptar las reglas del juego, y si\l"
-.string "tenemos que vender PORYGONS a\l"
-.string "200000 POKÉS el ejemplar se\l"
-.string "venden.$"
+	.string "This last century has confirmed that\n"
+	.string "there is a huge economic dependence on\l"
+	.string "science. No matter how it is, we shall\l"
+	.string "accept this game 's rules and if it is\l"
+	.string "needed we will sell PORYGONS at 200,000\l"
+	.string "POKÉS each.$"
 
 
 
@@ -223,37 +211,27 @@ release
 end
 
 RocketHideout5F_Text_18:
-.string "A veces las leyes de la naturaleza\n"
-.string "pueden llegar a ser más fuertes\l"
-.string "que nuestros anhelos personales,\l"
-.string "PIDGEOT es el ave referencia de\l"
-.string "KANTO entre los NO LEGENDARIOS, la\l"
-.string "de mayor poder, con 479 STATS BASE\l"
-.string "en su haber, ha debido de pasar\l"
-.string "por un largo proceso hasta verse\l"
-.string "convertido en un majestuoso\l"
-.string "PIDGEOT, el cual, haciendo gala de\l"
-.string "todo su poder latente y máximo\l"
-.string "potencial, puede llegar a\l"
-.string "experimentar el fenómeno de la\l"
-.string "MEGA-EVOLUCIÓN, que lo catapulta\l"
-.string "hasta los 579 STATS BASE…1 solo\l"
-.string "punto menos que los 580\l"
-.string "característicos de los 3 PÁJAROS\l"
-.string "LEGENDARIOS, ¿coincidencia?, no lo\l"
-.string "creo.\l"
-.string "Es como si estos legendarios le\l"
-.string "estuvieran diciendo: -no importa\l"
-.string "lo que hagas, nosotros estamos\l"
-.string "hechos de otra pasta, somos los\l"
-.string "elegidos, haz lo que quieras que\l"
-.string "nunca nos alcanzarás-, a pesar de\l"
-.string "que aquí creemos que el potencial\l"
-.string "puede amplificarse hasta límites\l"
-.string "insospechados, también admitimos\l"
-.string "la existencia de un tope marcado\l"
-.string "por las propias leyes del\l"
-.string "universo.$"
+	.string "Sometimes, the laws of nature are\n"
+	.string "stronger than our personal desires.\l"
+	.string "PIDGEOT is a reference for KANTO birds.\l"
+	.string "His base total is 479, the highest among\l"
+	.string "NON-LEGENDARIES. He must have evolved\l"
+	.string "all along these years until it became\l"
+	.string "the great bird it is. Also, he can reach\l"
+	.string "its maximum potential with\l"
+	.string "MEGA-EVOLUTION, reaching 579 base\l"
+	.string "stats. Exactly 1 point below the\l"
+	.string "legendary birds, with 580 points.\l"
+	.string "Coincidence? I don't think so. It looks\l"
+	.string "like the legendary ones are saying -it\l"
+	.string "doesn't matter how hard you try, we're in\l"
+	.string "separate leagues, we're the chosen\l"
+	.string "ones, do whatever you want, ‘cause you'll\l"
+	.string "never reach us-. Even though we think\l"
+	.string "that the potential can reach\l"
+	.string "unsuspected levels, we also admit that\l"
+	.string "there exists some limit established by\l"
+	.string "the universe laws.$"
 
 
 
@@ -265,32 +243,25 @@ release
 end
 
 RocketHideout5F_Text_19:
-.string "La ley de Parkinson sostiene que\n"
-.string "el trabajo se expande hasta llenar\l"
-.string "el tiempo del que se dispone para\l"
-.string "su realización, de modo que si\l"
-.string "tienes 12 horas para realizar una\l"
-.string "tarea, la tendencia será acabarla\l"
-.string "en 12, mientras que si te dieran 9\l"
-.string "horas para esa misma tarea,\l"
-.string "igualmente podrías acabarla en 9.\l"
-.string "Por eso yo digo: págate a ti\l"
-.string "primero, comienza el día con esa\l"
-.string "clase de tareas importantes, pero\l"
-.string "no urgentes, que a largo plazo\l"
-.string "supondrían una gran diferencia\l"
-.string "para ti, de este modo te servirías\l"
-.string "de esta ley, ya que te verás\l"
-.string "forzado a realizar esas tareas\l"
-.string "importantes a la vez que urgentes\l"
-.string "en menos tiempo, y créeme que lo\l"
-.string "harás, cuando a un humano se le\l"
-.string "obliga a activar todos sus\l"
-.string "sentidos, su intuición, se le pone\l"
-.string "contra las cuerdas, rinde más de\l"
-.string "lo que nunca imaginaría, de lo\l"
-.string "contrario la ley de Parkinson no\l"
-.string "existiría.$"
+	.string "Parkinson's Law dictates that work\n"
+	.string "expands to fill the time available for\l"
+	.string "its completion. Therefore, if you're\l"
+	.string "given 12 hours to complete a task,\l"
+	.string "you'll likely use all 12 hours; if given 9,\l"
+	.string "you'll use 9. That's why I'm sharing this\l"
+	.string "with you: prioritize yourself first,\l"
+	.string "then tackle non-urgent tasks that may\l"
+	.string "consume some time but can make a\l"
+	.string "significant difference for you. This is\l"
+	.string "how you can leverage this law, as it\l"
+	.string "compels you to address tasks that are\l"
+	.string "both important and urgent\l"
+	.string "simultaneously, aiming for efficiency.\l"
+	.string "When individuals are compelled to\l"
+	.string "heighten their senses and are pushed\l"
+	.string "to their limits, they often surpass\l"
+	.string "expectations. Without this drive,\l"
+	.string "Parkinson's Law wouldn't exist.$"
 
 
 
@@ -307,12 +278,10 @@ release
 end
 
 RocketHideout5F_Text_21:
-.string "¿Destino o libre albedrío?\n"
-.string "La respuesta a esa pregunta no\l"
-.string "depende de ti, así que cállate la\l"
-.string "maldita boca y mueve el culo de\l"
-.string "una vez, eso quizás si dependa de\l"
-.string "ti, con eso basta.$"
+	.string "Destiny or freedom? The answer to that\n"
+	.string "question doesn't depend on you, so shut\l"
+	.string "the f''k up and get moving on what does.\l"
+	.string "That's all.$"
 
 
 
@@ -329,11 +298,11 @@ release
 end
 
 RocketHideout5F_Text_23:
-.string "El gobierno de LANCE está muy\n"
-.string "cómodo en su posición, y ese es\l"
-.string "precisamente su punto débil, se\l"
-.string "han dormido en los laureles y lo\l"
-.string "pagarán.$"
+	.string "LANCE's government is really\n"
+	.string "comfortable right where it is, and that's\l"
+	.string "precisely its weak spot, they've resting\l"
+	.string "on one's laurels, and they shall pay for\l"
+	.string "that.$"
 
 
 

@@ -9,10 +9,9 @@ release
 end
 
 TwoIsland_Torre_P3_Motero_Texto_1:
-.string "¡Déjame en paz!\n"
-	.string "No me has visto, y yo tampoco, así no\l"
-	.string "tendré que pelear contigo.\l"
-	.string "Total, para la miseria que me pagan.$"
+	.string "Leave me in peace! You didn't see me, and\n"
+	.string "me neither, so I won't have to fight with\l"
+	.string "you.$"
 
 TwoIsland_Torre_P3_Cientifico::
 lock
@@ -22,14 +21,12 @@ release
 end
 
 TwoIsland_Torre_P3_Cientifico_Texto_1:
-.string "Los pocos científicos que verás en\n"
-	.string "esta isla lo están con fines\l"
-	.string "arqueológicos.\l"
-	.string "Este edificio es una excepción, desde\l"
-	.string "aquí dentro podría parecer que\l"
-	.string "estamos en KANTO, tal vez podamos\l"
-	.string "traer un poco de esa región a esta\l"
-	.string "isla...$"
+	.string "The few scientists you'll find on this\n"
+	.string "island are here for archaeological\l"
+	.string "purposes. This building is an exception;\l"
+	.string "from in here, it might seem like we're in\l"
+	.string "KANTO. Maybe we can import a bit of that\l"
+	.string "region to this island.$"
 
 TwoIsland_Torre_P3_Cientifico_2::
 lock
@@ -39,11 +36,10 @@ release
 end
 
 TwoIsland_Torre_P3_Cientifico_2_Texto_1:
-.string "El negocio que tenían con PORYGON en\n"
-	.string "el CASINO de CIUDAD AZULONA no será\l"
-	.string "nada comparado con este.\l"
-	.string "Espera, me suenas de algo. ¿Te he\l"
-	.string "visto antes?$"
+	.string "The deal they had with PORYGON at the\n"
+	.string "CELADON CITY GAME CORNER will be\l"
+	.string "nothing compared to this. Wait, you\l"
+	.string "sound familiar. Have I seen you before?$"
 
 
 TwoIsland_Torre_P3_EventScript_Calvo::

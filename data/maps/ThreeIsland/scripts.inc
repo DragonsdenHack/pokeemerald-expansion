@@ -94,9 +94,9 @@ goto_if_eq ThreeIsland_Secundaria_Recreativos_No
 goto ThreeIsland_Secundaria_Recreativos_2
 
 ThreeIsland_Secundaria_Recreativos_Texto_5.2:
-.string "¿Has cambiado de opinión?\n"
-	.string "¿Nos ayudarías a recuperar los\l"
-	.string "RECREATIVOS?$"
+	.string "Have you reconsidered? Would you\n"
+	.string "assist us in recovering the JOYFUL GAME\l"
+	.string "CORNER?$"
 
 ThreeIsland_Secundaria_Recreativos_3::
 faceplayer
@@ -178,67 +178,69 @@ step_end
 
 
 ThreeIsland_Secundaria_Recreativos_Texto_1:
-.string "No podemos hacer nada, los RECREATIVOS\n"
-	.string "son suyos.$"
+	.string "We can't do anything; the JOYFUL GAME\n"
+	.string "CORNER now belong to them.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_2:
-.string "¡Eh, espera! ¡Eres uno de ellos!$"
+	.string "Wait! You are one of them!$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_3:
-.string "Ah… ¿no?$"
+	.string "Uh… no?$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_4:
-.string "Creí que eras uno de esos tipos de\n"
-	.string "KANTO, por su culpa tendremos que\l"
-	.string "dejar el negocio en ISLA SECUNDA.$"
+	.string "I thought you were one of those KANTO\n"
+	.string "guys; because of them, we'll have to\l"
+	.string "leave the business on TWO ISLAND.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_5:
 .string "… …$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_5.1:
-.string "¿Tú nos ayudarías a recuperarlo?$"
+	.string "Would you support us in retrieving it?$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_6:
-.string "Es comprensible, un solo ENTRENADOR\n"
-	.string "poco puede hacer.$"
+	.string "It's understandable, a single TRAINER\n"
+	.string "can't do much.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_7:
-.string "Tienes agallas, debes ser un gran\n"
-	.string "ENTRENADOR, pero ni con esas tienes el\l"
-	.string "éxito garantizado. Escucha.$"
+	.string "You've got courage; you must be a\n"
+	.string "fantastic TRAINER, but even with that,\l"
+	.string "success isn't assured. Listen.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_8:
-.string "Hace ya un tiempo vinieron de KANTO\n"
-	.string "unos tipos. Estaban muy interesados en\l"
-	.string "los RECREATIVOS y en cómo este\l"
-	.string "negocio podía prosperar en unas islas\l"
-	.string "alejadas de la urbe.$"
+	.string "Some guys from KANTO came a while ago.\n"
+	.string "They were very interested in the\l"
+	.string "JOYFUL GAME CORNER area and how this\l"
+	.string "business could thrive here, far from\l"
+	.string "the city.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_9:
-.string "No tardaron en proponernos vendérselo\n"
-	.string "a ellos. Pero… cuando nos negamos, nos\l"
-	.string "obligaron por la fuerza, y empezaron a\l"
-	.string "construir su propio negocio.$"
+	.string "They didn't take long to propose selling\n"
+	.string "it to them. But... when we refused, they\l"
+	.string "forced us, and started building their\l"
+	.string "own business.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_10:
-.string "Ahora ni siquiera nos han pagado, y los\n"
-	.string "RECREATIVOS se han llenado de chusma.\l"
-	.string "No podemos ni acercarnos a ISLA\l"
-	.string "SECUNDA sin que manden sus POKÉMON\l"
-	.string "contra nosotros.$"
+	.string "Now they haven't even paid us, and the\n"
+	.string "JOYFUL GAME CORNER are filled with\l"
+	.string "undesirables. We can't even get close\l"
+	.string "to TWO ISLAND without them sending\l"
+	.string "their POKÉMON against us.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_11:
-.string "Si todo sigue así, pronto abrirán y no\n"
-	.string "podremos hacer nada para evitar que\l"
-	.string "todos olviden nuestro antiguo negocio.$"
+	.string "If things keep going this way, they'll\n"
+	.string "open soon, and we won't be able to do\l"
+	.string "anything to stop everyone from\l"
+	.string "forgetting our old business.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_12:
-.string "Solo queda entrar ahí y echarlos por la\n"
-	.string "fuerza, igual que hicieron ellos con\l"
-	.string "nosotros. ¿Podrás hacerlo?$"
+	.string "The only remaining choice is to go in\n"
+	.string "there and expel them by force, just like\l"
+	.string "they did to us. Could you do it?$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_13:
-.string "¿Lograste encontrarlos? Nuestros\n"
-	.string "RECREATIVOS están en ISLA SECUNDA, es\l"
-	.string "un lugar pequeño, no tiene pérdida.$"
+	.string "Did you manage to find them? Our\n"
+	.string "RECREATIONAL areas are on ISLA\l"
+	.string "SECUNDA; it's a small place, you can't\l"
+	.string "miss it.$"
 

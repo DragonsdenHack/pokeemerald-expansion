@@ -132,67 +132,60 @@ release
 end
 
 FourIsland_Encuentro_Zeus_Texto_1:
-.string "????: Maldición, dónde las habrá\n"
-	.string "guardado...$"
+	.string "Damn it, where could they have hidden\n"
+	.string "them...$"
 
 FourIsland_Encuentro_Zeus_Texto_2:
-.string "No pareces ser de por aquí,\n"
-	.string "tampoco pareces ser un entrenador\l"
-	.string "normal y corriente, pero qué\l"
-	.string "importa eso, todos los\l"
-	.string "entrenadores junto a sus POKÉMON\l"
-	.string "son iguales ante el creador de\l"
-	.string "todo.$"
+	.string "You don't appear to be from this place,\n"
+	.string "and you also don't seem like a typical\l"
+	.string "trainer, but what does that matter; all\l"
+	.string "trainers along with their POKÉMON are\l"
+	.string "equal against the creator of\l"
+	.string "everything.$"
 
 FourIsland_Encuentro_Zeus_Texto_3:
-.string "Voy tras la pista de dos\n"
-	.string "peligrosos delincuentes, alguien\l"
-	.string "muy sabio confinó en estas islas a\l"
-	.string "dos POKÉMON ANCESTRALES hace\l"
-	.string "cientos de años, dos POKÉMON de un\l"
-	.string "poder capaz de hacer temblar al\l"
-	.string "mundo y modificar sus condiciones\l"
-	.string "climáticas.$"
+	.string "I'm pursuing two dangerous criminals;\n"
+	.string "someone very wise trapped two ANCIENT\l"
+	.string "POKÉMON on these islands, centuries\l"
+	.string "ago. Two POKÉMON with a power capable\l"
+	.string "of shaking the world and altering its\l"
+	.string "weather conditions.$"
 
 FourIsland_Encuentro_Zeus_Texto_4:
-.string "Estos dos POKÉMON duermen en algún\n"
-	.string "lugar, sellado y alejado de la\l"
-	.string "civilización, pero dentro del\l"
-	.string "territorio de las ISLAS SETE, eso\l"
-	.string "es seguro.$"
+	.string "These two POKÉMON sleep somewhere,\n"
+	.string "sealed and away from civilization, but\l"
+	.string "within the territory of the SEVEN\l"
+	.string "ISLANDS, that's for certain.$"
 
 FourIsland_Encuentro_Zeus_Texto_5:
-.string "Vine hasta aquí por la leyenda que\n"
-	.string "había acerca de esta cueva de un\l"
-	.string "poderoso POKÉMON del tipo HIELO y\l"
-	.string "AGUA, pero lo máximo que he podido\l"
-	.string "encontrar son LAPRAS salvajes, no\l"
-	.string "parece que haya nada interesante\l"
-	.string "aquí.$"
+	.string "I came here because of the legend\n"
+	.string "surrounding this cave and a poweful\l"
+	.string "ICE/WATER-type POKÉMON, but the most\l"
+	.string "I've encountered are wild LAPRAS; it\l"
+	.string "doesn't seem like there's anything\l"
+	.string "captivating here.$"
 
 FourIsland_Encuentro_Zeus_Texto_6:
-.string "Mi próximo destino es la CUEVA\n"
-	.string "CAMBIANTE, al norte de ISLA EXTA,\l"
-	.string "allí hay unas enormes pisadas que\l"
-	.string "coinciden con las de uno de los\l"
-	.string "dos POKÉMON ANCESTRALES.$"
+	.string "My next destination is the ALTERING\n"
+	.string "CAVE, north of SIX ISLAND; there are\l"
+	.string "enormous footprints there that match\l"
+	.string "those of one of the two ANCIENT\l"
+	.string "POKÉMON.$"
 
 FourIsland_Encuentro_Zeus_Texto_7:
-.string "Debo encontrar a esos POKÉMON\n"
-	.string "antes de que esos fanáticos lo\l"
-	.string "hagan, ahora que saben como\l"
-	.string "despertarlos, no puedo permitir\l"
-	.string "que eso ocurra.$"
+	.string "I must find those POKÉMON before those\n"
+	.string "fanatics do; now that they know how to\l"
+	.string "awaken them, I can't allow that to\l"
+	.string "happen.$"
 
 FourIsland_Encuentro_Zeus_Texto_8:
 .string "...$"
 
 FourIsland_Encuentro_Zeus_Texto_9:
-.string "Si ves algo fuera de lo normal,\n"
-	.string "avísame de inmediato, estaré\l"
-	.string "investigando en la CUEVA\l"
-	.string "CAMBIANTE, hasta la vista,\l"
-	.string "-ENTRENADOR-.$"
+	.string "If you spot anything unusual, inform me\n"
+	.string "right away; I'll be exploring in the\l"
+	.string "ALTERING CAVE. See you later,\l"
+	.string "-TRAINER-.$"
 
 FourIsland_Encuentro_Zeus_Move_1:
 face_right
@@ -293,26 +286,26 @@ release
 end
 
 FourIsland_Secundaria_Anciana_Texto_1:
-.string "¿Qué trae a un jovencito como tú a un\n"
-	.string "lugar como este? Aquí no hay nada que\l"
-	.string "pueda interesarte. Solo LORELEI viene\l"
-	.string "por aquí de vez en cuando, es el lugar\l"
-	.string "que la vio crecer.$"
+	.string "Why is a youngster like you in a place\n"
+	.string "like this? There's nothing here that\l"
+	.string "could interest you. Only LORELEI comes\l"
+	.string "here occasionally; it's the place where\l"
+	.string "she grew up.$"
 
 FourIsland_Secundaria_Anciana_Texto_2:
 .string "… …$"
 
 FourIsland_Secundaria_Anciana_Texto_3:
-.string "Así que derrotaste a LORELEI en un\n"
-	.string "combate, debes ser muy fuerte.$"
+	.string "So you managed to beat LORELEI in a\n"
+	.string "battle; you must be quite powerful.$"
 
 FourIsland_Secundaria_Anciana_Texto_4:
-.string "Ella se forjó entrenando en la CUEVA\n"
-	.string "GLACIADA. Muchos creen que solo hay\l"
-	.string "LAPRAS, pero te diré un secreto, un\l"
-	.string "POKÉMON muy poderoso del TIPO HIELO\l"
-	.string "vive ahí. Mis abuelos ya contaban\l"
-	.string "leyendas.$"
+	.string "She honed her skills training in the\n"
+	.string "ICEFALL CAVE. Many believe there are\l"
+	.string "only LAPRAS, but I'll reveal a secret; a\l"
+	.string "very powerful ICE-TYPE POKÉMON lives\l"
+	.string "there. My grandparents used to recount\l"
+	.string "legends.$"
 
 FourIsland_Secundaria_Anciana_Texto_5:
 .string "LORELEI nunca pudo encontrarlo,\n"

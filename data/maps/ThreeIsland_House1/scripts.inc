@@ -7,4 +7,4 @@ msgbox ThreeIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 ThreeIslandDocumento_Text_100:
-.string "Hay rocas raras y gemas.$"
+	.string "There are peculiar rocks and gemstones.$"
