@@ -82,9 +82,9 @@ release
 end
 
 PokemonTower5F_Curacion_Texto_1:
-.string "Has entrado en una zona de pureza y\n"
-	.string "seguridad. ¡Todos tus POKÉMON\l"
-	.string "volvieron a recuperar la forma!$"
+	.string "Entered the purified and protected\n"
+	.string "zone. {PLAYER}'s POKÉMON were fully\l"
+	.string "healed.$"
 
 
 

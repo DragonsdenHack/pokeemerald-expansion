@@ -136,74 +136,66 @@ release
 end
 
 PokemonTower_6F_Combate_Fuji_Texto_1:
-.string "RECLUTAS: ¡Vaya con el viejete, no\n"
-	.string "hemos podido abatirte siquiera los\l"
-	.string "3 al mismo tiempo!$"
+	.string "GRUNTS: So strong old man, not even the\n"
+	.string "three of us together have been able to\l"
+	.string "bring you down!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_2:
-.string "FUJI: Inconscientes, le habéis\n"
-	.string "privado a este CUBONE de su figura\l"
-	.string "materna, y todo por dinero, el\l"
-	.string "daño ya es irreparable, abandonad\l"
-	.string "este lugar antes de que sea tarde.$"
+	.string "FUJI: Reckless, you have taken away\n"
+	.string "this CUBONE of its maternal figure, all\l"
+	.string "for money, the damage is already\l"
+	.string "irreversible, get away before it's too\l"
+	.string "late.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_3:
-.string "RECLUTAS: ¡Vamos ese MAROWAK se\n"
-	.string "interpuso en nuestro camino!\l"
-	.string "¡Nos forzó a acabar con su vida,\l"
-	.string "nada más!$"
+	.string "GRUNTS: Come on, that MAROWAK got in\n"
+	.string "our way! He forced us to end his life,\l"
+	.string "that's all!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_4:
-.string "FUJI: Ya veo, el resultado es lo\n"
-	.string "único que cuenta, ¿no?\l"
-	.string "Bien, entonces os diré lo que\l"
-	.string "vamos a hacer, mi HAUNTER lanzará\l"
-	.string "su PESADILLA sobre vosotros, al\l"
-	.string "tiempo que os quedáis sin todos\l"
-	.string "los cráneos ya robados, tal vez la\l"
-	.string "única forma de que recapacitéis\l"
-	.string "sea arrebatándoos todo cuanto\l"
-	.string "valoráis.$"
+	.string "FUJI: I see, the result is all that\n"
+	.string "matters, right?, well, then I'll tell you\l"
+	.string "what we're going to do, my HAUNTER will\l"
+	.string "cast its NIGHTMARE upon you while\l"
+	.string "you're losing all the stolen skulls,\l"
+	.string "maybe the only way to make you reflect\l"
+	.string "is by taking away everything you value.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_5:
-.string "RECLUTAS: E--Espere anciano, no\n"
-	.string "hay necesidad de...$"
+	.string "W-Wait old man, there is no need of...$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
-.string "RECLUTAS: ¡¡ALTO RANGO {PLAYER}!!\n"
-	.string "¡Qué oportuno!$"
+.string "GRUNTS: HIGH RANK {PLAYER}!!\n"
+	.string "How opportunate!$"
 
 PokemonTower_6F_Combate_Fuji_Texto_7:
-.string "FUJI: Un joven como tú no debería\n"
-	.string "desperdiciar su vida sirviendo a\l"
-	.string "estos propósitos, ¿{PLAYER}?\l"
-	.string "Vamos recapacita...$"
+	.string "FUJI: A young one like you should not\n"
+	.string "waste his life serving these purposes.\l"
+	.string "{PLAYER}?, come on reconsider it…,$"
 
 PokemonTower_6F_Combate_Fuji_Texto_8:
-.string "FUJI: Ya veo, no me queda otra que\n"
-	.string "desarmarte igual que hice con tus\l"
-	.string "socios...por la paz de este lugar.$"
+	.string "FUJI: Okay, I have no more option that\n"
+	.string "disarm you as I did with your mates… for\l"
+	.string "this place's peace.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_9:
-.string "Te he fallado CUBONE, perdóname...$"
+	.string "I disappointed you CUBONE, forgive me…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10:
-.string "({PLAYER} le entregó a FUJI el\n"
-	.string "CUBONE).$"
+	.string "({PLAYER} gave FUJI the CUBONE).$"
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
-.string "PROTÓN: Sabías que este día iba a\n"
-	.string "llegar FUJI, no puedes huir\l"
-	.string "eternamente de tu pasado.$"
+	.string "PROTON: You knew this was going to\n"
+	.string "happen FUJI, you can't escape forever\l"
+	.string "of your past.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_12:
-.string "PROTÓN: Buen trabajo {PLAYER}, todo\n"
-	.string "va según lo planeado, FUJI y yo\l"
-	.string "vamos al último piso, donde\l"
-	.string "podamos charlar tranquilamente,\l"
-	.string "confío en ti para que ni la más\l"
-	.string "mínima mota de polvo se cuele en\l"
-	.string "esa reunión.$"
+	.string "PROTON: Good job {PLAYER},\n"
+	.string "everything is going well, FUJI and I are\l"
+	.string "heading to the last floor, where we can\l"
+	.string "talk in peace, I trust you to prevent\l"
+	.string "even the slightest speck of dust from\l"
+	.string "getting into the meeting.$"
 
 PokemonTower_6F_Combate_Fuji_Move_1:
 walk_in_place_left
@@ -323,53 +315,52 @@ face_up
 step_end
 
 PokemonTower_6F_Cultistas_Texto_1:
-.string "????: De modo que tú eres el tipo\n"
-	.string "que ha estado causando todo este\l"
-	.string "alboroto en este lugar sagrado.$"
+	.string "????: So you are the guy that had been\n"
+	.string "causing all the commotion into a sacred\l"
+	.string "place like this.$"
 
 PokemonTower_6F_Cultistas_Texto_2:
 .string "... ...$"
 
 PokemonTower_6F_Cultistas_Texto_3:
-.string "Hmm... Ciertamente, esperaba otra cosa.\n"
-	.string "No pareces estar atado por las mismas\l"
-	.string "cadenas que dominan la vida de la gran\l"
-	.string "mayoría.$"
+	.string "Hmm… I expected something else to be\n"
+	.string "honest. You don't seem to be bound by\l"
+	.string "the same chains that control the lives\l"
+	.string "of most people.$"
 
 PokemonTower_6F_Cultistas_Texto_4:
-.string "A pesar del pobre entorno que domina la\n"
-	.string "KANTO actual, tu voluntad permanece\l"
-	.string "intacta. Más aún, tu potencialidad no\l"
-	.string "se ha malogrado.$"
+	.string "Although the poor around that\n"
+	.string "dominates the actual KANTO, your will\l"
+	.string "remains unaffected, furthermore, your\l"
+	.string "potential has not been wasted.$"
 
 PokemonTower_6F_Cultistas_Texto_5:
-.string "Pero... nada te exhime de lo que acabas\n"
-	.string "de hacer. Deberás explicarte en el\l"
-	.string "campo de batalla.$"
+	.string "But… there's no excuse for what you\n"
+	.string "just did. You'll have to justify it on\l"
+	.string "the battlefield.$"
 
 PokemonTower_6F_Cultistas_Texto_6:
-.string "Ya veo... nada es lo que parece.$"
+	.string "I see… nothing is what it seems.$"
 
 PokemonTower_6F_Cultistas_Texto_7:
-.string "Entonces tus actos responden a un fin\n"
-	.string "mayor... No es la primera vez que oigo\l"
-	.string "eso, pero está claro que estás en una\l"
-	.string "capa de la realidad superior a la que\l"
-	.string "pensaba.$"
+	.string "So your acts reply to a bigger purpose…\n"
+	.string "Is not the first time that I heard that,\l"
+	.string "but it's clear that you exist in a layer\l"
+	.string "of reality higher than I thought.$"
 
 PokemonTower_6F_Cultistas_Texto_8:
-.string "Déjame darte un consejo, chico. Mantén\n"
-	.string "esa esencia que te carateriza, no\l"
-	.string "dejes que nadie la corrompa.$"
+	.string "Lemme give you some advice, kid. Keep\n"
+	.string "that essence that defines you, don't\l"
+	.string "let anyone corrupt it.$"
 
 PokemonTower_6F_Cultistas_Texto_9:
-.string "Eres bueno, pero no tanto como crees;\n"
-	.string "podrías ser magnífico si te mantienes\l"
-	.string "en el camino que dicte tu voluntad.$"
+	.string "You are good, but not as much as you\n"
+	.string "think; you could be magnificent if you\l"
+	.string "stay in the way that your will says.$"
 
 PokemonTower_6F_Cultistas_Texto_10:
-.string "Solo entonces... podrás ver KANTO y\n"
-	.string "PUEBLO LAVANDA en todo su esplendor.$"
+	.string "Just then… you could see KANTO and\n"
+	.string "LAVENDER TOWN in all its shine.$"
 
 PokemonTower_6F_Cultistas_Texto_11:
 .string "Este mundo es mucho más amplio que los\n"
