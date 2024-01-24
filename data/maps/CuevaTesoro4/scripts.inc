@@ -158,107 +158,103 @@ unlock_facing_direction
 step_end
 
 CuevaTesoro4_Jefe_Final_Texto_1:
-.string "(???? derrotó al POKÉMON MISTERIOSO).$"
+	.string "(???? defeated the MYSTERIOUS\n"
+	.string "POKÉMON).$"
 
 CuevaTesoro4_Jefe_Final_Texto_2:
-.string "Debes ser un ENTRENADOR muy\n"
-	.string "disciplinado y metódico. De otro modo\l"
-	.string "no podrías haber llegado hasta aquí,\l"
-	.string "dejando atrás a nuestros empleados de\l"
-	.string "menor rango.$"
+	.string "You must be a very disciplined and\n"
+	.string "methodical TRAINER. Otherwise, you\l"
+	.string "couldn't have made it this far, leaving\l"
+	.string "our lower-ranked employees behind.$"
 
 CuevaTesoro4_Jefe_Final_Texto_3:
-.string "Ya que has llegado tan lejos, te\n"
-	.string "premiaré con una pequeña charla. Dime,\l"
-	.string "¿sabes cuál es el secreto que guarda\l"
-	.string "este lugar?$"
+	.string "As you've reached this point, I'll reward\n"
+	.string "you with a small talk. Tell me, do you\l"
+	.string "know the secret this place holds?$"
 
 CuevaTesoro4_Jefe_Final_Texto_4:
 .string "… …$"
 
 CuevaTesoro4_Jefe_Final_Texto_5:
-.string "Lo suponía, has venido hasta aquí solo\n"
-	.string "por inercia. A fin de cuentas no eres\l"
-	.string "más que otro de esos inertes\l"
-	.string "ENTRENADORES que se arrastran por las\l"
-	.string "rutas, solo que en mayor grado.$"
+	.string "I assumed it; you've come here just out\n"
+	.string "of inertia. Ultimately, you're nothing\l"
+	.string "more than another one of those lifeless\l"
+	.string "TRAINERS dragging themselves through\l"
+	.string "the routes, just to a higher degree.$"
 
 CuevaTesoro4_Jefe_Final_Texto_6:
-.string "Este lugar fue un antiguo portal.\n"
-	.string "POKÉMON de asombrosas propiedades\l"
-	.string "habitaron en él hace siglos, tal vez\l"
-	.string "más.$"
+	.string "This location used to be an ancient\n"
+	.string "portal. POKÉMON with remarkable\l"
+	.string "properties dwelled in it centuries ago,\l"
+	.string "maybe even longer.$"
 
 CuevaTesoro4_Jefe_Final_Texto_7:
-.string "La gruta es como un enorme búnker\n"
-	.string "submarino, hermético para con el\l"
-	.string "exterior. Ello ha permitido preservar\l"
-	.string "toda esta biodiversidad, pero...$" 
+	.string "The cave is like a massive underwater\n"
+	.string "bunker, sealed off from the outside.\l"
+	.string "This has allowed the preservation of all\l"
+	.string "this biodiversity, but...$"
 	
 CuevaTesoro4_Jefe_Final_Texto_7.1:	
-	.string "También mantener prisioneros a unos\n"
-	.string "pocos POKÉMON que llegaron desde esos\l"
-	.string "portales.$"
+	.string "Also keeping a few POKÉMON prisoners\n"
+	.string "who arrived from those portals.$"
 
 CuevaTesoro4_Jefe_Final_Texto_8:
-.string "Precisamente uno de ellos: NIHILEGO, es\n"
-	.string "el que más interés nos suscita.$"
+	.string "Specifically one of them: NIHILEGO, is\n"
+	.string "the one that interests us the most.$"
 
 CuevaTesoro4_Jefe_Final_Texto_9:
-.string "No solo es uno de los que mejor reparte\n"
-	.string "sus STATS, sus propiedades de\l"
-	.string "regeneración y carencia de voluntad lo\l"
-	.string "convierten en un objeto de estudio\l"
-	.string "perfecto.$"
+	.string "It's not just one of the best at\n"
+	.string "distributing its STATS; its\l"
+	.string "regeneration properties and lack of\l"
+	.string "will make it an ideal subject for study.$"
 
 CuevaTesoro4_Jefe_Final_Texto_10:
-.string "Por muy preparado que estés, o muy\n"
-	.string "dotado genéticamente para el combate\l"
-	.string "que seáis tú o los tuyos, no puedes\l"
-	.string "evitar el progreso de DEVON.$"
+	.string "No matter how prepared you are, or how\n"
+	.string "genetically gifted for combat you or\l"
+	.string "your team may be, you cannot prevent\l"
+	.string "DEVON's progress.$"
 
 CuevaTesoro4_Jefe_Final_Texto_11:
-.string "Si una de las variables falla, no hay\n"
-	.string "nada que hacer ante alguien excelente,\l"
-	.string "eres tan fuerte como tu eslabón más\l"
-	.string "débil. Vuestra tecnología está a años\l"
-	.string "luz de la nuestra, ¿sabes lo que eso\l"
-	.string "significa?$"
+	.string "If one of the variables fails, there's\n"
+	.string "nothing to be done against someone\l"
+	.string "excellent; you're only as strong as your\l"
+	.string "weakest part. Your technology is\l"
+	.string "light-years behind ours, do you know\l"
+	.string "what that means?$"
 
 CuevaTesoro4_Jefe_Final_Texto_12:
-.string "¡Jamás podrás derrotarme en un\n"
-	.string "combate POKÉMON!$"
+	.string "You'll never be able to defeat me in a\n"
+	.string "POKÉMON battle!$"
 
 CuevaTesoro4_Jefe_Final_Texto_13:
-.string "Es… ¿imposible?$"
+	.string "It's... impossible?$"
 
 CuevaTesoro4_Jefe_Final_Texto_14:
-.string "Esto es inaudito, si mi nivel es un 9 en\n"
-	.string "todo, no hay forma de que tú con un 0\l"
-	.string "en tecnología hayas podido ganar,\l"
-	.string "aunque seas un 10 en el resto.$"
+	.string "This is unbelievable; if my level is a 9 in\n"
+	.string "all aspects, there's no way you, with a 0\l"
+	.string "in technology, could have won, even if\l"
+	.string "you're a 10 in everything else.$"
 
 CuevaTesoro4_Jefe_Final_Texto_15:
-.string "La única respuesta posible es que\n"
-	.string "realmente yo no sea un 9, en ese caso\l"
-	.string "habría que recalcular el valor de 10…$"
+	.string "The only plausible response is that I\n"
+	.string "may not genuinely be a 9; in that case,\l"
+	.string "we'd have to reevaluate the value of\l"
+	.string "10...$"
 
 CuevaTesoro4_Jefe_Final_Texto_16:
-.string "Qué mala fortuna para ti, carecer de las\n"
-	.string "herramientas que te permiten mejorar a\l"
-	.string "largo plazo. Cuentas con un gran\l"
-	.string "potencial base que jamás verá su\l"
-	.string "cúspide.$"
+	.string "How unfortunate for you to lack the\n"
+	.string "tools for long-term improvement. You\l"
+	.string "have a significant inherent potential\l"
+	.string "that will never reach its peak.$"
 
 CuevaTesoro4_Jefe_Final_Texto_17:
-.string "(???? OBTUVO UNA MUESTRA DE NIHILEGO).$"
+	.string "(???? OBTAINED A SAMPLE OF NIHILEGO).$"
 
 CuevaTesoro4_Jefe_Final_Texto_18:
-.string "Con esto nos basta y nos sobra,\n"
-	.string "quédate con el POKÉMON si te hace\l"
-	.string "ilusión. Incluso un milagro de la\l"
-	.string "naturaleza como este palidece ante\l"
-	.string "nuestros objetivos.$"
+	.string "This is more than enough for us; keep\n"
+	.string "the POKÉMON if it brings you joy. Even a\l"
+	.string "miracle of nature like this pales in\l"
+	.string "comparison to our goals.$"
 
 CuevaTesoro4_Nihilego_Obtencion::
 playmoncry SPECIES_NIHILEGO, CRY_MODE_ENCOUNTER
@@ -280,15 +276,15 @@ release
 end
 
 CuevaTesoro4_Nihilego_Obtencion_Texto_1:
-.string "Este POKÉMON se ha quedado sin\n"
-	.string "energía. Parece querer ser rescatado\l"
-	.string "de este lugar.$"
+	.string "This POKÉMON has no more energy. It\n"
+	.string "appears to want to be saved from this\l"
+	.string "location.$"
 
 CuevaTesoro4_Nihilego_Obtencion_Texto_2:
-.string "¿Quieres llevártelo contigo?$"
+	.string "Do you want to take it with you?$"
 
 CuevaTesoro4_Nihilego_Obtencion_Texto_3:
-.string "¡OBTUVISTE UN NIHILEGO AL NV.50!$"
+	.string "¡YOU OBTAINED A LV.50 NIHILEGO!$"
 
 
 CuevaTesoro4_Combate_Guzzlord::

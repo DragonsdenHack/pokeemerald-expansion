@@ -308,58 +308,57 @@ FourIsland_Secundaria_Anciana_Texto_4:
 	.string "legends.$"
 
 FourIsland_Secundaria_Anciana_Texto_5:
-.string "LORELEI nunca pudo encontrarlo,\n"
-	.string "tampoco lo buscó más de la cuenta,\l"
-	.string "siempre se centró en cuidar de su\l"
-	.string "LAPRAS.$"
+	.string "LORELEI could never find it, nor did she\n"
+	.string "search excessively; she always focused\l"
+	.string "on taking care of her LAPRAS.$"
 
 FourIsland_Secundaria_Anciana_Texto_6:
-.string "Pero más allá del pequeño lago tras\n"
-	.string "subir la cascada, hay algo… de un poder\l"
-	.string "especial.$"
+	.string "But beyond the small lake after\n"
+	.string "climbing the waterfall, there is\l"
+	.string "something... something special.$"
 
 FourIsland_Secundaria_Anciana_Texto_6.1:
-	.string "Tal vez si revisas las rocas, puedas\n"
-	.string "encontrar un hueco por el que seguir\l"
-	.string "adelante, aunque parezca que no es\l"
-	.string "posible... Eso es lo que diferencia a los\l"
-	.string "entrenadores de verdad, el ir más allá\l"
-	.string "de los límites aparentes, ¿no?$"
+	.string "Perhaps if you check the rocks, you\n"
+	.string "might find a gap to move forward, even\l"
+	.string "if it seems impossible... That's what\l"
+	.string "sets true trainers apart, going beyond\l"
+	.string "apparent limits, right?$"
 
 FourIsland_Secundaria_Anciana_Texto_7:
-.string "Si llegaras a encontrar algo, ¿podrías\n"
-	.string "mostrarme ese POKÉMON tan especial?$"
+	.string "If you come across something, would you\n"
+	.string "be able to show me that unique\l"
+	.string "POKÉMON?$"
 
 FourIsland_Secundaria_Anciana_Texto_8:
-.string "¡Oh! Así que al fin y al cabo, la leyenda\n"
-	.string "era cierta, nuestra CUEVA GLACIADA\l"
-	.string "escondía un POKÉMON tan majestuoso.$"
+	.string "Oh! So, after all, the legend was true;\n"
+	.string "our ICEFALL CAVE concealed such a\l"
+	.string "majestic POKÉMON.$"
 
 FourIsland_Secundaria_Anciana_Texto_9:
-.string "Mira… es puro hielo, LORELEI sentiría\n"
-	.string "muchos celos de ti ahora mismo, chico,\l"
-	.string "te lo puedo asegurar.$"
+	.string "Look... it's pure ice; LORELEI would feel\n"
+	.string "quite jealous of you right now, kid, I\l"
+	.string "can assure you.$"
 
 FourIsland_Secundaria_Anciana_Texto_10:
-.string "Ten esto, mi regalo por hacer que una\n"
-	.string "anciana como yo vuelva a sentir ilusión\l"
-	.string "por los misterios de este mundo.$"
+	.string "Take this, my gift for making an old lady\n"
+	.string "like me feel the excitement of the\l"
+	.string "mysteries of this world again.$"
 
 FourIsland_Secundaria_Anciana_Texto_11:
-.string "Ayyy… Cuantos misterios aún por\n"
-	.string "resolver, si LORELEI dedicando toda su\l"
-	.string "vida al TIPO HIELO, no ha sabido\l"
-	.string "encontrar a ese POKÉMON en su propia\l"
-	.string "isla… ¿Cuántos POKÉMON increíbles\l"
-	.string "habrá ahí fuera esperando?$"
+	.string "Ohhh... So many mysteries still to solve;\n"
+	.string "if LORELEI, dedicating her entire life\l"
+	.string "to the ICE TYPE, hasn't been able to\l"
+	.string "find that POKÉMON on her own island...\l"
+	.string "How many incredible POKÉMON might be\l"
+	.string "out there waiting?$"
 
 FourIsland_Secundaria_Anciana_Texto_12:
-	.string "¡{PLAYER} mostró el GLASTRIER a la\n"
-	.string "ANCIANA!$"
+	.string "{PLAYER} showed the GLASTRIER to\n"
+	.string "the OLD WOMAN!$"
 
 FourIsland_Secundaria_Anciana_Texto_13:
-	.string "¡Obtuviste MT85 AVALANCHA\n"
-	.string "de manos de ANCIANA!$"
+	.string "You obtained TM85 ROCK SLIDE from the\n"
+	.string "OLD WOMAN!$"
 
 
 
@@ -412,9 +411,9 @@ Isla_Cuarta_Activador_Entrada_Texto_1:
 .string "... ...$"
 
 Isla_Cuarta_Activador_Entrada_Pasa_Text_YesNo:
-.string "Esta roca está prácticamente hundida,\n"
-	.string "si vas con cuidado podrías\l"
-	.string "atravesarla. ¿Quieres intentarlo?$"
+	.string "This rock is practically submerged; if\n"
+	.string "you go carefully, you could go through\l"
+	.string "it. Do you want to try?$"
 
 
 

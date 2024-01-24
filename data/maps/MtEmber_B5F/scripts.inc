@@ -14,10 +14,9 @@ release
 end
 
 MtEmber1FPath_3_Texto_1:
-.string "No hay marcha atrás, pronto el\n"
-	.string "mundo será testigo del poder de\l"
-	.string "GROUDON, y tú un mero espectador\l"
-	.string "más.$"
+	.string "There's no turning back; soon the world\n"
+	.string "will witness the power of GROUDON, and\l"
+	.string "you'll be just another spectator.$"
 
 MtEmber_B5F_Encuentro_Magno::
 lock
@@ -232,82 +231,72 @@ face_up
 step_end
 
 MtEmber_B5F_Encuentro_Magno_Texto_1:
-.string "MAGNO: Este es el lugar, la\n"
-	.string "ubicación del RUBY no engaña,\l"
-	.string "detrás de estas paredes\l"
-	.string "descansa GROUDON.$"
+	.string "MAXIE: This is the place, the location\n"
+	.string "of the RUBY doesn't deceive, behind\l"
+	.string "these walls rests GROUDON.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_2:
 .string "...$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_3:
-.string "Ese estúpido científico del CENTRO\n"
-	.string "POKÉMON de esta isla que se hace\l"
-	.string "llamar CELIO quería obtener el\l"
-	.string "RUBÍ para usarlo en ese burdo\l"
-	.string "proyecto de conexión entre\l"
-	.string "regiones, semejante sacrilegio\l"
-	.string "solo hubiera estado a la altura de\l"
-	.string "su ignorancia.$"
+	.string "That foolish scientist from this\n"
+	.string "island's POKÉMON CENTER, named CELIO\l"
+	.string "wanted, to obtain the RUBY to use it in\l"
+	.string "that crude project of interregional\l"
+	.string "connection. Such sacrilege would only\l"
+	.string "have matched by his ignorance.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_4:
-.string "Afortunadamente este RUBÍ ha caído\n"
-	.string "en las manos adecuadas, le daremos\l"
-	.string "el verdadero uso, el propósito,\l"
-	.string "por el que fue creado, ¡observad!$"
+	.string "Fortunately, this RUBY has fallen into\n"
+	.string "the right hands; we will give it the true\l"
+	.string "use, the purpose, for which it was\l"
+	.string "created. Watch!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_5:
-.string "Si juntamos ambos objetos, la\n"
-	.string "ESFERA ROJA y el RUBÍ, dentro de\l"
-	.string "este lugar, la reacción es la\l"
-	.string "siguiente...$"
+	.string "If we combine both objects, the RED ORB\n"
+	.string "and the RUBY, within this place, the\l"
+	.string "reaction is as follows...$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6:
-.string "Al fin, ya queda poco GROUDON, tu\n"
-	.string "poder ha sido contenido por mucho\l"
-	.string "tiempo, pero ya no más...$"
+	.string "At last, GROUDON, there's not much time\n"
+	.string "left; your power has been restrained\l"
+	.string "for a long time, but no more...$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6.1:
-.string "Todos adentro, ¡ya!$"
+	.string "All inside, now!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_7:
-.string "MAGNO: Tú otra vez, ya te avisé\n"
-	.string "una vez, y no volveré a hacerlo,\l"
-	.string "tengo cosas más importantes que\l"
-	.string "hacer que ocuparme de ti.\l"
-	.string "¡ALTO RANGO KAREN!\l"
-	.string "¡Que no pase de este lugar!$"
+	.string "ARCHIE: You again, I warned you once,\n"
+	.string "and I won't do it again. I have more\l"
+	.string "important things to do than deal with\l"
+	.string "you. HIGH RANK KAREN! Don't let him go\l"
+	.string "past this point!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_8:
-.string "AR KAREN: No permitiré que le\n"
-	.string "ponga la mano encima señor.$"
+	.string "HR.KAREN: I won't let him touch you, sir.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_9:
-.string "MAGNO: Ahí te quedas, GROUDON\n"
-	.string "espera, aún pudiendo llegar hasta\l"
-	.string "mí, para cuando lo hicieres ya\l"
-	.string "sería demasiado tarde.$"
+	.string "MAXIE: You stay there, GROUDON awaits,\n"
+	.string "even if you could get to me, by the time\l"
+	.string "you do, it would already be too late.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_10:
-.string "Todo ha salido tal y como\n"
-	.string "planeamos, llegados a este punto\l"
-	.string "nadie puede hacer nada por impedir\l"
-	.string "el despertar de GROUDON, tienes\l"
-	.string "dos opciones: o salir corriendo de\l"
-	.string "aquí antes de que todo explote, ¡o\l"
-	.string "ser el primero en ponerse como\l"
-	.string "carne de cañón para cuando GROUDON\l"
-	.string "despierte!$"
+	.string "Everything has gone as planned; at this\n"
+	.string "point, no one can do anything to\l"
+	.string "prevent GROUDON's awakening. You have\l"
+	.string "two options: either run away from here\l"
+	.string "before everything explodes, or be the\l"
+	.string "first to become cannon fodder when\l"
+	.string "GROUDON wakes up!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_11:
-.string "Mi derrota ha servido para asegurar\n"
-	.string "nuestra victoria final.$"
+	.string "My defeat has ensured our final\n"
+	.string "victory.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_12:
-.string "No hay marcha atrás, pronto el\n"
-	.string "mundo será testigo del poder de\l"
-	.string "GROUDON, y tú un mero espectador\l"
-	.string "más.$"
+	.string "There's no turning back; soon the world\n"
+	.string "will witness the power of GROUDON, and\l"
+	.string "you'll be just another spectator.$"
 
 MtEmber_B5F_Encuentro_Magno_Move_1:
 face_left

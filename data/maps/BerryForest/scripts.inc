@@ -7,9 +7,8 @@ msgbox BerryForestDocumento_Text_100, MSGBOX_SIGN
 end
 
 BerryForestDocumento_Text_100:
-.string "Atención:\n"
-	.string "Presencia de POKéMON salvajes\l"
-	.string "devoradores de BAYAS.$"
+   .string "Beware of wild, BERRY-loving\n"
+    .string "POKéMON!$"
 
 
 
@@ -18,9 +17,9 @@ msgbox BerryForestDocumento_Text_101, MSGBOX_SIGN
 end
 
 BerryForestDocumento_Text_101:
-	.string "Éste es el BOSQUE BAYA.\p"
-	.string "¡Hay que compartir BAYAS\n"
-	.string "con la gente y los POKéMON!$"
+    .string "Welcome to the BERRY FOREST\p"
+    .string "Be friendly and share BERRIES with\n"
+    .string "others and POKéMON.$"
 
 
 BerryForest_Evento_Hypno::
@@ -155,39 +154,38 @@ walk_up
 step_end
 
 BerryForest_Evento_Hypno_Texto_1:
-.string "¡Mira PEDRITA! ¡He capturado un PIDGEY!$"
+	.string "Look, LOSTELLE! I've caught a PIDGEY!$"
 
 BerryForest_Evento_Hypno_Texto_2:
-.string "PEDRITA: ¡Qué guay! ¡Yo he visto un\n"
-	.string "PIDGEOTTO!$"
+	.string "How cool! I've seen a PIDGEOTTO!$"
 
 BerryForest_Evento_Hypno_Texto_3:
-.string "Nuestra isla es la mejor, ninguna tiene\n"
-	.string "un bosque como este para jugar. ¡Qué\l"
-	.string "afortunados somos!$"
+	.string "Our island is the best; none have a\n"
+	.string "forest like this one to play in. How\l"
+	.string "fortunate we are!$"
 
 BerryForest_Evento_Hypno_Texto_4:
-.string "¿Q-qué ha sido eso?$"
+	.string "W-what was that?!$"
 
 BerryForest_Evento_Hypno_Texto_5:
-.string "PEDRITA: Buuuua…. ¡BUAAAA! …$"
+	.string "LOSTELLE: Buuuua…. ¡BUAAAA! …$"
 
 BerryForest_Evento_Hypno_Texto_6:
-.string "Teno miedo… Quiedo id a casa…$"
+	.string "I am afraid! I want to go home!$"
 
 BerryForest_Evento_Hypno_Texto_7:
-.string "PEDRITA: POKÉMON ho-horrible… ¿Se ha\n"
-	.string "ido?$"
+	.string "LOSTELLE: Ho-horrible POKÉMON... Has\n"
+	.string "gone?$"
 
 BerryForest_Evento_Hypno_Texto_8:
-.string "¡Vámonos PEDRITA!$"
+	.string "Let's run, LOSTELLE!$"
 
 BerryForest_Evento_Hypno_Texto_9:
-.string "PEDRITA: ¡Z-Ziiiii!$"
+	.string "LOSTELLE: ¡Y-yes!$"
 
 BerryForest_Evento_Hypno_Texto_10:
-.string "????: Ha estado cerca, esto no puede\n"
-	.string "seguir así…$"
+	.string "????: It's been close; this can't go on\n"
+	.string "like this...$"
 
 BerryForest_Paso_Cueva_Hypno::
 delay 15
@@ -204,9 +202,9 @@ release
 end
 
 BerryForest_Paso_Cueva_Hypno_Pasa_Text_YesNo:
-.string "Hay una pequeña senda entre los\n"
-	.string "árboles, parece que se alarga varios\l"
-	.string "metros. ¿Quieres cruzarla?$"
+	.string "There's a small path between the trees;\n"
+	.string "it seems to stretch for several meters.\l"
+	.string "Do you want to cross it?$"
 
 BerryForest_Paso_Bosque_Baya::
 delay 15

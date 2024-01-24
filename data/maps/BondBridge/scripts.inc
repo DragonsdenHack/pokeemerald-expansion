@@ -78,7 +78,7 @@ msgbox BondBridgeDocumento_Text_100, MSGBOX_SIGN
 end
 
 BondBridgeDocumento_Text_100:
-	.string "BOSQUE BAYA$"
+	.string "BERRY FOREST$"
 
 
 
@@ -87,9 +87,9 @@ msgbox BondBridgeDocumento_Text_101, MSGBOX_SIGN
 end
 
 BondBridgeDocumento_Text_101:
-	.string "PUENTE UNIÓN\n"
-	.string "Crucen con cuidado.\p"
-	.string "HACIA EL BOSQUE BAYA$"
+    .string "BOND BRIDGE\n"
+    .string "Please be quiet when crossing.\p"
+    .string "BERRY FOREST AHEAD$"
 
 
 

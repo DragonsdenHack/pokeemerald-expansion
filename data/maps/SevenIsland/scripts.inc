@@ -79,49 +79,45 @@ release
 end
 
 SevenIsland_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste PAÑUELO ELEGIDO de manos de\n"
-	.string "ENTRENADOR GUAY!$"
+	.string "You obtained a CHOICE SCARF\n"
+	.string "from the COOLTRAINER!$"
 
 SevenIsland_Entrenador_Especial_Texto_1:
-.string "No sirve de nada boostearse al\n"
-	.string "máximo el ATAQUE si después llega\l"
-	.string "un POKÉMON rival más rápido y te\l"
-	.string "debilita antes de que puedas mover\l"
-	.string "un dedo, tienes pinta de haber\l"
-	.string "vivido muchas aventuras ya a pesar\l"
-	.string "de tu corta edad, si eres capaz de\l"
-	.string "derrotarme de daré algo muy útil.$"
+	.string "It's useless to maximize your ATTACK if\n"
+	.string "a faster opposing POKÉMON arrives and\l"
+	.string "weakens you before you can move. You\l"
+	.string "seem to have experienced many\l"
+	.string "adventures despite your young age. If\l"
+	.string "you can defeat me, I'll give you\l"
+	.string "something very useful.$"
 
 SevenIsland_Entrenador_Especial_Texto_2:
-.string "¿Te animas a combatir?$"
+	.string "Wanna fight?$"
 
 SevenIsland_Entrenador_Especial_Texto_3:
-.string "El PAÑUELO ELEGIDO aumenta en un\n"
-	.string "50% la VELOCIDAD del POKÉMON que\l"
-	.string "lo lleve equipado, pero solo deja\l"
-	.string "usar un único movimiento, es\l"
-	.string "genial para atacar antes que\l"
-	.string "nadie, pudiendo dar incluso una\l"
-	.string "oportunidad a POKÉMON lentos como\l"
-	.string "MACHAMP de alcanzar buenos niveles\l"
-	.string "de VELOCIDAD.$"
+	.string "CHOICE SCARF raises the SPEED of the\n"
+	.string "POKÉMON that wears it by 50%, but it\l"
+	.string "only allows the use of a single move.\l"
+	.string "It's fantastic for striking first,\l"
+	.string "potentially giving slower POKÉMON like\l"
+	.string "MACHAMP an opportunity to reach\l"
+	.string "impressive SPEED levels.$"
 
 SevenIsland_Entrenador_Especial_Texto_4:
-.string "No esperaba menos de ti.\n"
-	.string "¡Vamos!$"
+	.string "I expected nothing less from you. Let's\n"
+	.string "go!$"
 
 SevenIsland_Entrenador_Especial_Texto_5:
-.string "¡Has derrumbado todas mis\n"
-	.string "defensas!$"
+	.string "You've broken down all my defenses!$"
 
 SevenIsland_Entrenador_Especial_Texto_6:
-.string "Tienes madera de ENTRENADOR, me\n"
-	.string "extraña no haberte visto en\l"
-	.string "campeonatos como la LIGA POKÉMON,\l"
-	.string "podrías ser de los mejores, aquí\l"
-	.string "tienes algo que puede ayudarte a\l"
-	.string "ser aún mejor.$"
+	.string "You have the qualities of a top\n"
+	.string "TRAINER; it's strange not to have seen\l"
+	.string "you in championships like the POKÉMON\l"
+	.string "LEAGUE. You could be one of the best;\l"
+	.string "here's something that could help you\l"
+	.string "become even better.$"
 
 SevenIsland_Entrenador_Especial_Texto_7:
-.string "Parece que te juzgué mal, pensé\n"
-	.string "que tenías más agallas.$"
+	.string "It seems I misjudged you; I thought you\n"
+	.string "had more guts.$"

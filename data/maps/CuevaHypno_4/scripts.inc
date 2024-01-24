@@ -61,72 +61,65 @@ step_end
 
 
 CuevaHypno_4_Lider_Texto_1:
-.string "Oh... ¿Pero cómo?\n"
-	.string "Nadie ha descubierto este lugar en 40\l"
-	.string "años.$"
+	.string "Oh... But how? No one has discovered\n"
+	.string "this place in 40 years.$"
 
 CuevaHypno_4_Lider_Texto_2:
-.string "Entonces me viste cuando ese HYPNO\n"
-	.string "atacó a los niños. Pero no eres de\l"
-	.string "aquí, ¿verdad?\l"
-	.string "El BOSQUE BAYA es ya un lugar\l"
-	.string "olvidado para los habitantes de la\l"
-	.string "isla, no siempre fue así...$"
+	.string "So you saw me when that HYPNO attacked\n"
+	.string "the children. But you're not from THREE\l"
+	.string "ISLAND, right? BAYA FOREST is already a\l"
+	.string "forgotten place for the island\l"
+	.string "residents; it wasn't always like this...$"
 
 CuevaHypno_4_Lider_Texto_3:
-.string "¡Ah! ¡KANTO!\n"
-	.string "Puede que no me creas, pero hace\l"
-	.string "mucho, fui LÍDER de GIMNASIO allí,\l"
-	.string "cuando PUEBLO LAVANDA contaba con\l"
-	.string "uno.$"
+	.string "Ah! KANTO! You might not believe me, but\n"
+	.string "a long time ago, I was a GYM LEADER\l"
+	.string "there, back when LAVENDER TOWN had\l"
+	.string "one.$"
 
 
 CuevaHypno_4_Lider_Texto_4:
-	.string "Yo y AGATHA fuimos los mejores\n"
-	.string "alumnos de la única CAMPEONA de la\l"
-	.string "región que llegó a serlo empleando\l"
-	.string "POKÉMON FANTASMA y PSÍQUICO.\l"
-	.string "Eso... al menos hasta antes de venir\l"
-	.string "aquí, desde entonces, llevo décadas\l"
-	.string "sin saber nada de KANTO.$"
+	.string "AGATHA and I were the top students of\n"
+	.string "the only CHAMPION in the region who\l"
+	.string "achieved that using GHOST and PSYCHIC\l"
+	.string "POKÉMON. Well... at least until I came\l"
+	.string "here. Since then, it's been decades\l"
+	.string "since I've heard anything from KANTO.$"
 
 CuevaHypno_4_Lider_Texto_5:
-.string "¿AGATHA forma parte del ALTO MANDO?\n"
-	.string "Vaya... se mantiene bien, entonces no\l"
-	.string "soy el único que aún se resiste a que\l"
-	.string "el paso del tiempo acabe por\l"
-	.string "degradarlo. Me alegra saber eso.$"
+	.string "Is AGATHA still part of the ELITE FOUR?\n"
+	.string "Well... she's holding up well, then I'm not\l"
+	.string "the only one still resisting letting the\l"
+	.string "passage of time degrade it. I'm glad to\l"
+	.string "know that.$"
 
 CuevaHypno_4_Lider_Texto_6:
 .string "... ...$"
 
 CuevaHypno_4_Lider_Texto_7:
-.string "Ahora que te observo en detalle, a\n"
-	.string "pesar de tu juventud, auguro una gran\l"
-	.string "longevidad para ti también.\l"
-	.string "Pareces haber vivido ya mucho, pero\l"
-	.string "tu aventura no ha hecho más que\l"
-	.string "empezar, y estás ansioso por ver todo\l"
-	.string "cuanto este mundo tiene por\l"
-	.string "ofrecer.\l"
-	.string "¿No es así?$"
+	.string "Now that I observe you closely, despite\n"
+	.string "your youth, I predict a great longevity\l"
+	.string "for you as well. You seem to have lived a\l"
+	.string "lot already, but your adventure has\l"
+	.string "only just begun, and you're eager to see\l"
+	.string "all that this world has to offer. Isn't\l"
+	.string "that so?$"
 
 CuevaHypno_4_Lider_Texto_8:
-.string "Tal vez yo pueda contribuir a ello.\n"
-	.string "Las circunstancias me han obligado a\l"
-	.string "recluirme en esta cueva, pero\l"
-	.string "entrenar es algo que haría aunque\l"
-	.string "estuviera solo en una isla desierta,\l"
-	.string "hasta el fin de mis días.$"
+	.string "Perhaps I can contribute to that.\n"
+	.string "Circumstances have forced me to\l"
+	.string "seclude myself in this cave, but\l"
+	.string "training is something I would do even if\l"
+	.string "I were alone on a deserted island, until\l"
+	.string "the end of my days.$"
 
 
 CuevaHypno_4_Lider_Texto_9:
-.string "Este no es lugar para combatir, si lo\n"
-	.string "quieres es un combate, pásate por el\l"
-	.string "GIMNASIO que hay al norte de la\l"
-	.string "cueva.\l"
-	.string "De entrar, serás el primer aspirante\l"
-	.string "en casi 4 décadas...$"
+	.string "This is not the right place for a battle.\n"
+	.string "If you want a fight, head over to the\l"
+	.string "GYM to the north of the cave. If you\l"
+	.string "enter, you'll be the first challenger in\l"
+	.string "almost four decades...$"
 
 CuevaHypno_4_Cartel::
 lock
@@ -135,6 +128,6 @@ release
 end
 
 CuevaHypno_4_Cartel_Texto_1:
-.string "CUEVA DE HYPNO$"
+	.string "HYPNO'S CAVE$"
 
 

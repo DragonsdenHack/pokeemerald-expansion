@@ -70,58 +70,54 @@ walk_slow_up
 step_end
 
 SevenIsland_Secundaria_Anciana_Texto_1:
-.string "Ahora no lo aparento, pero cuando era\n"
-	.string "más joven… Iba volando de aquí para\l"
-	.string "allá, desafiando a los ENTRENADORES\l"
-	.string "con los que me encontraba. Ahora, me\l"
-	.string "conformo recordando recordando viejos\l"
-	.string "tiempos y viendo combates.$"
+	.string "Now I don't look like it, but when I was\n"
+	.string "younger... I flew around, challenging\l"
+	.string "the TRAINERS I came across. Now, I'm\l"
+	.string "content remembering old times and\l"
+	.string "watching battles.$"
 
 SevenIsland_Secundaria_Anciana_Texto_2:
 .string "… …$"
 
 SevenIsland_Secundaria_Anciana_Texto_3:
-.string "Así que ATLAS, debes de ser un gran\n"
-	.string "ENTRENADOR para haber llamado su\l"
-	.string "atención.$"
+	.string "So ARCHER, you must be a great TRAINER\n"
+	.string "to have caught their attention.$"
 
 SevenIsland_Secundaria_Anciana_Texto_4:
-.string "Hace tiempo, en ISLAS SETE, también\n"
-	.string "había algunos GIMNASIOS, aunque\l"
-	.string "acabaron cerrando por inactividad y\l"
-	.string "falta de competencia, a pesar de que\l"
-	.string "algunos llegaron a alcanzar muy buen\l"
-	.string "nivel.$"
+	.string "In the past, on SEVII ISLANDS, there\n"
+	.string "were also some GYMS, although they\l"
+	.string "eventually closed due to inactivity and\l"
+	.string "a lack of competition, even though some\l"
+	.string "achieved a very high level.$"
 
 SevenIsland_Secundaria_Anciana_Texto_5:
-.string "De todos ellos, me consta que el mío es\n"
-	.string "el único que sigue en pie… oculto y\l"
-	.string "desconocido para el 99% de los\l"
-	.string "habitantes de SEVII.$"
+	.string "Among all of them, I'm aware that mine is\n"
+	.string "the only one still standing... hidden and\l"
+	.string "unknown to 99% of SEVII's residents.$"
 
 SevenIsland_Secundaria_Anciana_Texto_6:
-.string "¿Ves esas cajas? Detrás de ellas hay\n"
-	.string "una sala contigua, ahí hay una baldosa\l"
-	.string "que te teletransporta a la ubicación\l"
-	.string "de mi GIMNASIO.$"
+	.string "See those boxes? Behind them is an\n"
+	.string "adjacent room; there's a tile there that\l"
+	.string "teleports you to the location of my\l"
+	.string "GYM.$"
 
 SevenIsland_Secundaria_Anciana_Texto_7:
-.string "Lo cierto es que solo sirven de\n"
-	.string "distracción, para realmente pasar al\l"
-	.string "otro cuarto hay una trampilla secreta,\l"
-	.string "justo debajo de esas cajas, ¿o crees\l"
-	.string "que voy a estar recolocándolas cada\l"
-	.string "vez que quiera entrar y salir?$"
+	.string "The truth is, they only serve as a\n"
+	.string "distraction. To actually move to the\l"
+	.string "other room, there's a secret trapdoor\l"
+	.string "right under those boxes. Do you think\l"
+	.string "I'm going to be rearranging them every\l"
+	.string "time I want to enter and exit?$"
 
 SevenIsland_Secundaria_Anciana_Texto_8:
-.string "Una vez entres a la habitación secreta,\n"
-	.string "verás una baldosa escondida,\l"
-	.string "ella te llevará a mi GIMNASIO.$"
+	.string "Once you enter the secret room, you'll\n"
+	.string "see a hidden tile; it will take you to my\l"
+	.string "GYM.$"
 
 SevenIsland_Secundaria_Anciana_Texto_9:
-.string "Espero verte por ahí. Que ATLAS te haya\n"
-	.string "enviado me ha devuelto el entusiasmo\l"
-	.string "por el combate.$"
+	.string "I hope to see you there. ARCHER sending\n"
+	.string "you has brought back my excitement for\l"
+	.string "battle.$"
 
 Isla_Setima_Activador_Entrada::
 compare VAR_ROUTE108_STATE, 4
@@ -147,8 +143,8 @@ Isla_Setima_Activador_Entrada_Texto_1:
 .string "... ...$"
 
 Isla_Setima_Activador_Entrada_Pasa_Text_YesNo:
-.string "Hay una pequeña trampilla bajo las\n"
-	.string "cajas. ¿Quieres pasar?$"
+	.string "There's a little trapdoor under the\n"
+	.string "boxes. Do you want to pass through?$"
 
 
 

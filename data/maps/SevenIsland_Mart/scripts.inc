@@ -14,8 +14,8 @@ release
 end
 
 SevenIsland_Mart_Text_2:
-.string "Bueno, ya lo tengo todo para\n"
-.string "explorar las RUINAS.$"
+	.string "All right, I'm ready to explore the\n"
+	.string "RUINS.$"
 
 
 
@@ -27,11 +27,10 @@ release
 end
 
 SevenIsland_Mart_Text_3:
-.string "Los POKéMON tienen su propia\n"
-.string "personalidad, como cualquiera.\p"
-.string "Mi PIKACHU, por ejemplo, tiene\n"
-.string "una naturaleza ACTIVA, y realmente\l"
-.string "no para.$"
+	.string "POKÉMON have their own personalities,\n"
+	.string "similar to anyone else. My PIKACHU, for\l"
+	.string "instance, has an ACTIVE nature and\l"
+	.string "really doesn't stop.$"
 
 
 
@@ -43,8 +42,7 @@ release
 end
 
 SevenIsland_Mart_Text_4:
-.string "Tengo que pescar en ISLA SÉTIMA.\p"
-.string "Es la que me falta para completar\n"
-.string "mi ruta por ARCHI7.\p"
-.string "Pero antes, voy a hacerme con\n"
-.string "unas cuantas POKé BALLS.$"
+	.string "I have to fish on SEVEN ISLAND. It's the\n"
+	.string "one I need to complete my route\l"
+	.string "through ARCHI7. But first, I'm going to\l"
+	.string "get a few POKé BALLS.$"

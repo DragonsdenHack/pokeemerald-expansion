@@ -27,11 +27,10 @@ release
 end
 
 SevenIsland_PokemonCenter_Text_2:
-.string "En la isla, ocurren distintas cosas\n"
-.string "según las conexiones.\p"
-.string "¿Que qué son las conexiones?\p"
-.string "Eso tendrás que descubrirlo sin\n"
-.string "ayuda de nadie.$"
+	.string "On the island, different things happen\n"
+	.string "based on connections. What are\l"
+	.string "connections? You'll have to discover\l"
+	.string "that without anyone's help.$"
 
 
 
@@ -43,10 +42,10 @@ release
 end
 
 SevenIsland_PokemonCenter_Text_3:
-.string "¿Has venido a bordo del SURCAMAR?\p"
-.string "Creo que en total hay diez barcos\n"
-.string "rápidos de esos.\p"
-.string "Pero no sé las rutas que cubren.$"
+	.string "Have you come aboard the SEAGALLOP? I\n"
+	.string "think there are a total of ten fast\l"
+	.string "ships like that. But I don't know the\l"
+	.string "routes they cover.$"
 
 
 
@@ -58,9 +57,9 @@ release
 end
 
 SevenIsland_PokemonCenter_Text_4:
-.string "Estas islas guardan muchos\n"
-.string "misterios por descubrir, algunos\l"
-.string "siquiera podemos imaginarlos.$"
+	.string "Many mysteries are waiting to be\n"
+	.string "uncovered on these islands, some of\l"
+	.string "which we can't even imagine.$"
 
 
 

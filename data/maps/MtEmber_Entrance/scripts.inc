@@ -28,10 +28,9 @@ release
 end
 
 MtEmberEntrance_12_Texto_1:
-.string "Bien...\n"
-	.string "TATIANO debe de estar al caer con\l"
-	.string "el material necesario para\l"
-	.string "encontrar el RUBY...$"
+	.string "Well... TABITHA should be arriving soon\n"
+	.string "with the necessary material to find the\l"
+	.string "RUBY...$"
 
 
 

@@ -314,15 +314,13 @@ release
 end
 
 RocketHideout5F_Text_24:
-.string "Genética, una palabra crucial.\n"
-.string "¿Por qué un MAGIKARP es tan débil?\l"
-.string "¿Por qué las aves sagradas son tan\l"
-.string "fuertes?\l"
-.string "Todo está en los genes, aquí\l"
-.string "investigamos los límites de la\l"
-.string "genética tratando de extraer el\l"
-.string "máximo potencial posible de los\l"
-.string "Pokémon más fuertes de la región.$"
+	.string "Genetics, a crucial word. Why is a\n"
+	.string "MAGIKARP so weak? Why are the sacred\l"
+	.string "birds so strong? It is all about\l"
+	.string "genetics, here we investigate the\l"
+	.string "limits of genetics trying to extract all\l"
+	.string "the possible potential of the\l"
+	.string "strongest Pokémon of the region.$"
 
 
 
@@ -335,16 +333,15 @@ release
 end
 
 RocketHideout5F_Text_25:
-.string "Esta sala estaba reservada a hacer\n"
-.string "balance de nuestros progresos y\l"
-.string "establecer nuevos objetivos, sin\l"
-.string "embargo de eso ya se encargan\l"
-.string "otras áreas, supongo que ese es un\l"
-.string "riesgo que corres al construir un\l"
-.string "lugar así, cuanto más grande,\l"
-.string "más espacio prescindible, aunque\l"
-.string "mejor equivocarse por pasarse que\l"
-.string "por no llegar.$"
+	.string "This room was intended for evaluating\n"
+	.string "our progress and establishing new\l"
+	.string "objectives, however, other departments\l"
+	.string "already handle that, I suppose that's a\l"
+	.string "risk you assume when building a place\l"
+	.string "like this,the larger it is, the more\l"
+	.string "dispensable space there is, it's better\l"
+	.string "to make a mistake by going too far than\l"
+	.string "not reaching far enough though.$"
 
 
 
@@ -361,15 +358,13 @@ release
 end
 
 RocketHideout5F_Text_27:
-.string "No verás muchos entrenadores con\n"
-.string "Pokémon como PINSIR, SCYTHER,\l"
-.string "TAUROS, KANGASKHAN o las\l"
-.string "evoluciones de EEVEE, todos\l"
-.string "considerados Pokémon fuertes y\l"
-.string "raros, y los 4 primeros\l"
-.string "capturables en la ZONA SAFARI, lo\l"
-.string "que en buena parte es razón de su\l"
-.string "éxito.$"
+	.string "You won't see a lot of trainers with\n"
+	.string "POKÉMON like PINSIR, SCYTHER, TAUROS,\l"
+	.string "KANGASKHAN or the EEVEE evolutions, all\l"
+	.string "those considered strong and uncommon\l"
+	.string "POKÉMON, and those first 4 cacheable at\l"
+	.string "SAFARI ZONE, which is on part, their\l"
+	.string "success reason.$"
 
 
 
@@ -381,13 +376,12 @@ release
 end
 
 RocketHideout5F_Text_28:
-.string "La sensación de expectativas,\n"
-.string "optimismo, planificación y grandes\l"
-.string "planes de futuro que se respira\l"
-.string "por aquí es única, ¿no la sientes?\l"
-.string "Pasa una semana aquí y tendrás la\l"
-.string "absoluta certeza de que podrás\l"
-.string "lograr todo cuanto te propongas.$"
+	.string "The expectation, feelings, optimism,\n"
+	.string "planification and big future plans that\l"
+	.string "you feel here is unique, don't you feel\l"
+	.string "it? Stay here for an entire week and\l"
+	.string "you will be absolutely certain that you\l"
+	.string "can achieve whatever you set out to do.$"
 
 
 
@@ -399,18 +393,17 @@ release
 end
 
 RocketHideout5F_Text_29:
-.string "Alguien dijo una vez que obsesión\n"
-.string "es la palabra que emplean los\l"
-.string "perezosos para describir a los\l"
-.string "dedicados, es casi un hecho que en\l"
-.string "cuanto empiezes a destacar en algo\l"
-.string "en mayor o menor medida van a\l"
-.string "llamarte obsesionado, pero, ¿qué\l"
-.string "hay de malo en querer explorar tus\l"
-.string "límites sobre cualquier aspecto?,\l"
-.string "eso solo puede fortalecerte y\l"
-.string "hacerte más consciente de los\l"
-.string "parámetros que rijen este mundo.$"
+	.string "Someone once said that obsession is\n"
+	.string "the word that lazy people use to\l"
+	.string "describe dedicated people, it's almost a\l"
+	.string "given that as soon as you start\l"
+	.string "excelling in something, to a greater or\l"
+	.string "lesser extent, they'll label you as\l"
+	.string "obsessed, but what's wrong with wanting\l"
+	.string "to explore your limits in any aspect?,\l"
+	.string "that just could make you stronger and\l"
+	.string "make you more conscious of the laws\l"
+	.string "that rule this world.$"
 
 
 
@@ -422,26 +415,21 @@ release
 end
 
 RocketHideout5F_Text_30:
-.string "Desde aquí abogamos por el\n"
-.string "progreso constante y gradual, pero\l"
-.string "sabemos también del potencial\l"
-.string "inigualable de la intuición y la\l"
-.string "espontaneidad, solo tienes que ver\l"
-.string "a un deportista inspirado para\l"
-.string "darte cuenta de ese potencial,\l"
-.string "cuando alguien está en el llamado\l"
-.string "-estado de flujo-, es capaz de\l"
-.string "marcar 5 goles en 10 minutos, o\l"
-.string "destrozar con un parcial de 7\l"
-.string "juegos a 0 al 11 veces campeón del\l"
-.string "campeonato, controlar toda la\l"
-.string "serie de variables que llevan a\l"
-.string "esos estados es brutalmente\l"
-.string "complicado, pero si pudiéramos\l"
-.string "acceder a ese estado de forma\l"
-.string "sostenida en el tiempo, sacaríamos\l"
-.string "a relucir prácticamente el 100%\l"
-.string "del potencial humano.$"
+	.string "Here, we advocate for a constant and\n"
+	.string "gradual progress, but we also\l"
+	.string "acknowledge the unparalleled potential\l"
+	.string "of intuition and spontaneity, you just\l"
+	.string "need to see an inspired sportsman to\l"
+	.string "notice of that potential, when someone\l"
+	.string "is in the famous -flow state-, that is\l"
+	.string "able to score 5 goals in 10 minutes, or\l"
+	.string "to annihilate the 11-time champion of\l"
+	.string "the championship by winning 7 games to\l"
+	.string "0, controlling the entire set of\l"
+	.string "variables that lead to that state is\l"
+	.string "incredibly complex but if we could keep\l"
+	.string "that state over time, we would unleash\l"
+	.string "nearly 100% of humanity potential.$"
 
 
 
@@ -458,15 +446,14 @@ release
 end
 
 RocketHideout5F_Text_32:
-.string "Pocos saben que el TEAM ROCKET no\n"
-.string "fue fundado realmente por\l"
-.string "GIOVANNI, sino que fue su madre,\l"
-.string "MADAME BOSS, la fundadora inicial,\l"
-.string "invirtió todos sus esfuerzos en\l"
-.string "atrapar al legendario MEW, el\l"
-.string "ancestro de todos los Pokémon allá\l"
-.string "por 1975, si viera todo lo logrado\l"
-.string "hasta ahora…$"
+	.string "Just a few people knows that the TEAM\n"
+	.string "ROCKET was not established by\l"
+	.string "GIOVANNI, but it was for his mother,\l"
+	.string "MADAME BOSS, the initial founder, who\l"
+	.string "invested all her efforts in capturing\l"
+	.string "the legendary MEW, the ancestor of all\l"
+	.string "POKÉMON back in 1975, just if she sees\l"
+	.string "how much we had achievement…$"
 
 
 

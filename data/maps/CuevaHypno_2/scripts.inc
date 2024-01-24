@@ -21,7 +21,7 @@ walk_in_place_up
 step_end
 
 CuevaHypno_2_Bloqueo_Gym_Texto_1:
-.string "(La puerta está cerrada)$"
+	.string "(The door is locked)$"
 
 
 CuevaTesoro4_Combate_Blacephalon::
@@ -56,7 +56,7 @@ release
 end
 
 CuevaHypno_2_Descripcion_Gym_Texto_1:
-.string "GIMNASIO de ISLA TERA\n"
-	.string "LÍDER: MORFEO\l"
-	.string "¡El gran maestro de los sueños,\l"
-	.string "las ilusiones y las esperanzas!$"
+.string "THREE ISLAND GYM\n"
+	.string "LEADER: MORFEUS\l"
+	.string "The grand master of dreams,\l"
+	.string "illusions, and hopes!$"

@@ -14,14 +14,13 @@ release
 end
 
 Gimnasio_CuevaHypno_Equipo_Lavanda_Texto_1:
-.string "EQUIPO COMO LÍDER DE GIMNASIO EN\n"
-	.string "PUEBLO LAVANDA$"
+	.string "TEAM AS LAVENDER TOWN GYM LEADER$"
 
 Gimnasio_CuevaHypno_Equipo_Lavanda_Texto_2:
-.string "DROWZEE - Nv.24\n"
-	.string "CUBONE - Nv.25\l"
-	.string "HAUNTER - Nv.27\l"
-	.string "HYPNO - Nv.28$"
+.string "DROWZEE - Lv.24\n"
+	.string "CUBONE - Lv.25\l"
+	.string "HAUNTER - Lv.27\l"
+	.string "HYPNO - Lv.28$"
 
 Gimnasio_CuevaHypno_Equipo_Tera::
 lock
@@ -31,15 +30,14 @@ release
 end
 
 Gimnasio_CuevaHypno_Equipo_Tera_Texto_1:
-.string "EQUIPO COMO LÍDER DE GIMNASIO EN\n"
-	.string "ISLA TERA$"
+	.string "TEAM AS THREE ISLAND GYM LEADER$"
 
 Gimnasio_CuevaHypno_Equipo_Tera_Texto_2:
-.string "HYPNO - Nv.43\n"
-	.string "HAUNTER - Nv.44\l"
-	.string "MAROWAK - Nv.46\l"
-	.string "GIRAFARIG - Nv.47\l"
-	.string "HYPNO - Nv.49$"
+.string "HYPNO - Lv.43\n"
+	.string "HAUNTER - Lv.44\l"
+	.string "MAROWAK - Lv.46\l"
+	.string "GIRAFARIG - Lv.47\l"
+	.string "HYPNO - Lv.49$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider::
 lock
@@ -174,130 +172,113 @@ walk_slow_up
 step_end
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_1:
-.string "¿Qué te parece?\n"
-	.string "Nada mal conservado, ¿verdad?$"
+	.string "What do you think? Not bad,\n"
+	.string "well-preserved, isn't it?$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_2:
-.string "Tenía mis dudas, la gente normal\n"
-	.string "huíria espantada de un lugar tan\l"
-	.string "tétrico.\l"
-	.string "Pero tú ya eres de los pocos que\l"
-	.string "exploraría el BOSQUE BAYA por el mero\l"
-	.string "placer de hacerlo, tu curiosidad te\l"
-	.string "ha llevado hasta aquí, incluso los\l"
-	.string "propios habitantes de la isla han\l"
-	.string "olvidado este lugar.$"
+	.string "I had my doubts; regular people would\n"
+	.string "run scared from such a eerie place. But\l"
+	.string "you're already one of the few who would\l"
+	.string "explore BERRY FOREST just for the\l"
+	.string "pleasure of it. Your curiosity has\l"
+	.string "brought you here, even the islanders\l"
+	.string "themselves have forgotten about this\l"
+	.string "place.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_3:
-.string "Y es que... este una vez fue un\n"
-	.string "GIMNASIO oficial.\l"
-	.string "En la época en la que las islas\l"
-	.string "contaban con 4 GIMNASIOS, llegué aquí\l"
-	.string "después de que cerraran el GIMNASIO\l"
-	.string "de PUEBLO LAVANDA.$"
+	.string "And it's because... this once was an\n"
+	.string "official GYM. In the time when the\l"
+	.string "islands had 4 GYMS, I came here after\l"
+	.string "the LAVENDER TOWN GYM was closed.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_4:
-.string "Pronto logré convertirme en el LÍDER\n"
-	.string "más fuerte de las islas, más incluso\l"
-	.string "que la LÍDER de ISLA SÉTIMA.\l"
-	.string "Todo gracias a mi querido HYPNO.$"
+	.string "Soon, I managed to become the\n"
+	.string "strongest LEADER of the islands, even\l"
+	.string "more than the LEADER of SEVEN ISLAND.\l"
+	.string "All thanks to my dear HYPNO.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_5:
-.string "Nuestro vínculo se volvió\n"
-	.string "inquebrantable desde el principio,\l"
-	.string "desde que no era más que un pequeño\l"
-	.string "DROWZEE, y yo un joven que iniciaba\l"
-	.string "su aventura.$"
+	.string "Our bond became unbreakable from the\n"
+	.string "start, from when it was nothing more\l"
+	.string "than a little DROWZEE, and I was a young\l"
+	.string "one beginning my adventure.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_6:
-.string "Ya como HYPNO, nuestros poderes\n"
-	.string "PSÍQUICOS se retroalimentaban\l"
-	.string "mutuamente, estabamos perfectamente\l"
-	.string "sincronizados.\l"
-	.string "Ello provocó algo inaudito, pero que\l"
-	.string "al parecer los antiguos de JOHTO\l"
-	.string "conocen bien: la progresión de mi\l"
-	.string "HYPNO no se detuvo ahí, continuó\l"
-	.string "mejorando.$"
+	.string "As HYPNO, our PSYCHIC powers fed off\n"
+	.string "each other, we were perfectly\l"
+	.string "synchronized. This caused something\l"
+	.string "unheard of, but that apparently the\l"
+	.string "ancients of JOHTO know well: the\l"
+	.string "evolution of my HYPNO didn't stop\l"
+	.string "there; it continued to improve.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_7:
-.string "Sin embargo, sus poderes se volvieron\n"
-	.string "también inestables y...peligrosos\l"
-	.string "para la gente común.\l"
-	.string "Como consecuencia tuvimos que cerrar\l"
-	.string "el GIMNASIO, a lo que le siguieron el\l"
-	.string "resto poco después.$"
+	.string "However, its powers became unstable\n"
+	.string "and... dangerous for ordinary people. As\l"
+	.string "a consequence, we had to close the GYM,\l"
+	.string "followed by the other SEVII GYMS later.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_8:
-.string "El resto ya es historia: este lugar\n"
-	.string "quedó olvidado, nadie de esa época\l"
-	.string "vive ya en ISLA TERA.$"
+	.string "The rest is history: this place was\n"
+	.string "forgotten; no one from that time lives\l"
+	.string "in THREE ISLAND anymore.$"
 
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_9:
-.string "Los únicos vestigios que quedan del\n"
-	.string "pasado son los HYPNOS que habitan en\l"
-	.string "el BOSQUE BAYA, descendencia del mío\l"
-	.string "propio, que han encontrado en el\l"
-	.string "bosque un lugar donde vivir.$"
+	.string "The only vestiges that remain from the\n"
+	.string "past are the HYPNOS that inhabit BERRY\l"
+	.string "FOREST, descendants of my own one.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_10:
-.string "Sus poderes son muy benignos en\n"
-	.string "comparación, aunque a veces pueden\l"
-	.string "asustar a los niños que juegan en lo\l"
-	.string "profundo del bosque.$"
+	.string "Their powers are very benign in\n"
+	.string "comparison, although sometimes they\l"
+	.string "can scare the children playing deep in\l"
+	.string "the forest.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_11:
-.string "Por suerte, la conexión que tengo con\n"
-	.string "mi HYPNO me permite saber cuando uno\l"
-	.string "se está pasando de la raya, como\l"
-	.string "cuando me viste.$"
+	.string "Fortunately, the connection I have\n"
+	.string "with my HYPNO allows me to know when\l"
+	.string "the others are crossing the line, like\l"
+	.string "when you saw me.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_12:
-.string "Ahora que ya sabes mi historia,\n"
-	.string "estarás algo más preparado para\l"
-	.string "nuestro combate, y también...\l"
-	.string "entenderás en qué consiste el puzzle\l"
-	.string "de este GIMNASIO.\l"
-	.string "Observa.$"
+	.string "Now that you know my history, you'll be\n"
+	.string "a bit more ready for our battle, and\l"
+	.string "also... you'll comprehend what the\l"
+	.string "puzzle of this GYM is about. Observe.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_13:
-.string "Tendrás que interactuar con las\n"
-	.string "puertas para avanzar, y responder sus\l"
-	.string "preguntas.\l"
-	.string "Si te equivocas, podrás avanzar\l"
-	.string "igualmente, pero deberás combatir.$"
+	.string "You'll have to interact with the doors\n"
+	.string "to progress, and answer the questions.\l"
+	.string "If you make a mistake, you can still\l"
+	.string "move forward, but you'll have to battle.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_14:
-.string "Una vez respondas, la puerta\n"
-	.string "desaparecerá y podrás continuar.\l"
-	.string "Si sales del GIMNASIO, deberás\l"
-	.string "empezar de nuevo, ya que las puertas\l"
-	.string "volverán a aparecer automáticamente.\l"
-	.string "Fácil, ¿no?$"
+	.string "Once you answer, the door will\n"
+	.string "disappear, and you can proceed. If you\l"
+	.string "leave the GYM, you'll have to start\l"
+	.string "again, as the doors will reappear\l"
+	.string "automatically. Easy, right?$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_15:
-.string "¡Ah!\n"
-	.string "Y una cosa más.\l"
-	.string "Debes saber que las preguntas son\l"
-	.string "personalizadas para cada individuo.$"
+	.string "Oh! And one more thing. You should know\n"
+	.string "that the questions are personalized\l"
+	.string "for each individual.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_16:
-.string "Una de las cualidades de mi HYPNO es\n"
-	.string "que puede ver el futuro, al menos de\l"
-	.string "forma parcial. También sabe de las\l"
-	.string "experiencias vitales de los\l"
-	.string "individuos con solo sentir su\l"
-	.string "presencia.$"
+	.string "One of the abilities of my HYPNO is that\n"
+	.string "it can see the future, at least\l"
+	.string "partially. It also knows about the life\l"
+	.string "experiences of individuals just by\l"
+	.string "sensing their presence.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_17:
-.string "HYPNO aprovecha esto para poner a\n"
-	.string "prueba al sujeto. Obligarle a\l"
-	.string "expandir su propia realidad a partir\l"
-	.string "de lo que ya ha visto, porque...\l"
-	.string "¿Qué podría limitarnos más que\l"
-	.string "nuestra propia percepción de la\l"
-	.string "realidad?$"
+	.string "HYPNO takes advantage of this to test\n"
+	.string "the subject. Forcing them to expand\l"
+	.string "their own reality from what they have\l"
+	.string "already seen, because... What could limit\l"
+	.string "us more than our own perception of\l"
+	.string "reality?$"
 
 
 Gimnasio_CuevaHypno_Primera_Pregunta::
@@ -329,16 +310,15 @@ release
 end
 
 Gimnasio_CuevaHypno_Primera_Pregunta_Texto_1:
-.string "GASTLY, HAUNTER y GENGAR son los\n"
-	.string "únicos FANTASMAS de PUEBLO LAVANDA$"
+	.string "GASTLY, HAUNTER, and GENGAR the only\n"
+	.string "GHOST POKÉMON in LAVENDER TOWN.$"
 
 Gimnasio_CuevaHypno_Primera_Pregunta_Texto_2:
-	.string "Creí que habías visto ya suficiente\n"
-	.string "mundo como para poder ver más allá de\l"
-	.string "lo aparente. Veo que, como el resto,\l"
-	.string "solo aspiras a alargar la vista y\l"
-	.string "subyugar los sentidos. Respuesta\l"
-	.string "incorrecta.$"
+	.string "I thought you had seen enough of this\n"
+	.string "world to be able to see beyond the\l"
+	.string "apparent. I see that, like the rest, you\l"
+	.string "only aim to widen your view and subdue\l"
+	.string "the senses. Incorrect answer.$"
 
 Gimnasio_CuevaHypno_Primera_Pregunta_No::
 delay 20
