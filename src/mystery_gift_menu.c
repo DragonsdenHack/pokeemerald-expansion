@@ -10,13 +10,17 @@
 #include "window.h"
 #include "strings.h"
 #include "text_window.h"
+#include "main.h"
 #include "menu.h"
+#include "new_game.h"
 #include "overworld.h"
 #include "palette.h"
+#include "play_time.h"
 #include "constants/songs.h"
 #include "sound.h"
 #include "script.h"
 #include "mystery_gift_menu.h"
+#include "money.h"
 #include "union_room.h"
 #include "title_screen.h"
 #include "ereader_screen.h"
@@ -4163,6 +4167,7 @@ static void DarPokemonPopularTeam(u8);
 static void DarPokemonWeakTeam(u8);
 static void DarPokemonRandomTeam(u8); */
 
+
 static void DarPokemonBasicosKanto(u8 opcion){
 	switch (opcion)
 	{
@@ -6121,11 +6126,13 @@ static void Task_MysteryGift(u8 taskId)
         }
 	break;
 	case SEVII5:
-	 ZeroPlayerPartyMons();
-	 ZeroEnemyPartyMons();
-	 ResetPokemonStorageSystem();
+	 NewGameInitData();
+	 SetTrainerId(35241, gSaveBlock2Ptr->playerTrainerId);
 	 ScriptContext2_RunNewScript(EventScript_SetSevii);
 	 gSaveBlock2Ptr->playerGender = ADMIN;
+	  ResetInitialPlayerAvatarState();
+    PlayTimeCounter_Start();
+	SetMoney(&gSaveBlock1Ptr->money, 2500000);
 	 data->state = SEVII6;
 	break;
 	case SEVII6:
@@ -6224,11 +6231,13 @@ static void Task_MysteryGift(u8 taskId)
         }
 	break;
 	case JOHTO5:
-	 ZeroPlayerPartyMons();
-	 ZeroEnemyPartyMons();
-	 ResetPokemonStorageSystem();
+	 NewGameInitData();
+	 SetTrainerId(35241, gSaveBlock2Ptr->playerTrainerId);
 	 ScriptContext2_RunNewScript(EventScript_SetJohto);
+	 ResetInitialPlayerAvatarState();
+    PlayTimeCounter_Start();
 	 gSaveBlock2Ptr->playerGender = ADMIN_JEFE;
+	 SetMoney(&gSaveBlock1Ptr->money, 4000000);
 	 data->state = JOHTO6;
 	break;
 	case JOHTO6:
@@ -6335,11 +6344,13 @@ static void Task_MysteryGift(u8 taskId)
 	}
 	break;
 	case MG_POKE1:
-	 ZeroPlayerPartyMons();
-	 ZeroEnemyPartyMons();
-	 ResetPokemonStorageSystem();
+	 NewGameInitData();
+	 SetTrainerId(35241, gSaveBlock2Ptr->playerTrainerId);
 	 gSaveBlock2Ptr->playerGender = EJECUTIVO;
 	 ScriptContext2_RunNewScript(EventScript_SetKanto);
+	  ResetInitialPlayerAvatarState();
+    PlayTimeCounter_Start();
+	SetMoney(&gSaveBlock1Ptr->money, 1000000);
 	 data->state = PRUEBA5;
 	break;
 	case PRUEBA5:

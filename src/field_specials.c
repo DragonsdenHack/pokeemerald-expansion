@@ -22,9 +22,11 @@
 #include "link.h"
 #include "list_menu.h"
 #include "main.h"
+#include "main_menu.h"
 #include "mystery_gift.h"
 #include "match_call.h"
 #include "menu.h"
+#include "naming_screen.h"
 #include "overworld.h"
 #include "party_menu.h"
 #include "pokeblock.h"
@@ -128,6 +130,13 @@ static u8 DidPlayerGetFirstFans(void);
 static void SetInitialFansOfPlayer(void);
 static u16 PlayerGainRandomTrainerFan(void);
 static void BufferFanClubTrainerName_(struct LinkBattleRecords *linkRecords, u8 a, u8 b);
+
+void Special_DoPlayerNamingScreen(void)
+{
+	NewGameBirchSpeech_SetDefaultPlayerName(Random() % 20);
+	DoNamingScreen(NAMING_SCREEN_PLAYER, gSaveBlock2Ptr->playerName, gSaveBlock2Ptr->playerGender, 0, 0, CB2_ReturnToFieldContinueScript);
+    ScriptContext2_Enable();
+}
 
 void Special_ShowDiploma(void)
 {

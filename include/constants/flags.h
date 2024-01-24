@@ -1382,7 +1382,7 @@
 #define FLAG_UNUSED_0x1AB                    0x1AB // Unused Flag
 
 //#define NUM_BADGES                                   (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
-#define NUM_BADGES                                   28
+#define NUM_BADGES                                   29
 
 // Towns and Cities
 #define FLAG_VISITED_LITTLEROOT_TOWN                (SYSTEM_FLAGS + 0xF)

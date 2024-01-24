@@ -330,8 +330,9 @@ EventScript_SetHealLocation::
 	setrespawn HEAL_LOCATION_CELADON_CITY
 	setflag FLAG_SYS_POKEMON_GET
 	setflag FLAG_ENTERED_MIRAGE_TOWER
-	setflag FLAG_HIDE_MAP_NAME_POPUP
+	@setflag FLAG_HIDE_MAP_NAME_POPUP
 	setvar VAR_HAS_ENTERED_BATTLE_FRONTIER,0
+	setvar VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT,0
 	setflag FLAG_SYS_B_DASH
 	end
 	
@@ -1002,8 +1003,2802 @@ settrainerflag TRAINER_KOJI_4
 settrainerflag TRAINER_KOJI_5
 	return
 
+
+EventScript_SetItemsKanto::
+setflag FLAG_NUEVA_1
+setflag FLAG_NUEVA_2
+setflag FLAG_NUEVA_3
+setflag FLAG_NUEVA_4
+setflag FLAG_NUEVA_5
+setflag FLAG_NUEVA_6
+setflag FLAG_NUEVA_7
+setflag FLAG_NUEVA_8
+setflag FLAG_NUEVA_9
+setflag FLAG_NUEVA_10
+setflag FLAG_NUEVA_11
+setflag FLAG_NUEVA_12
+setflag FLAG_NUEVA_13
+setflag FLAG_NUEVA_14
+setflag FLAG_NUEVA_15
+setflag FLAG_NUEVA_16
+setflag FLAG_NUEVA_17
+setflag FLAG_NUEVA_18
+setflag FLAG_NUEVA_19
+setflag FLAG_NUEVA_20
+setflag FLAG_NUEVA_21
+setflag FLAG_NUEVA_22
+setflag FLAG_NUEVA_23
+setflag FLAG_NUEVA_24
+setflag FLAG_NUEVA_25
+setflag FLAG_NUEVA_26
+setflag FLAG_NUEVA_27
+setflag FLAG_NUEVA_28
+setflag FLAG_NUEVA_29
+setflag FLAG_NUEVA_30
+setflag FLAG_NUEVA_31
+setflag FLAG_NUEVA_32
+setflag FLAG_NUEVA_33
+setflag FLAG_NUEVA_34
+setflag FLAG_NUEVA_35
+setflag FLAG_NUEVA_36
+setflag FLAG_NUEVA_37
+setflag FLAG_NUEVA_38
+setflag FLAG_NUEVA_39
+setflag FLAG_NUEVA_40
+setflag FLAG_NUEVA_41
+setflag FLAG_NUEVA_42
+setflag FLAG_NUEVA_43
+setflag FLAG_NUEVA_44
+setflag FLAG_NUEVA_45
+setflag FLAG_NUEVA_46
+setflag FLAG_NUEVA_47
+setflag FLAG_NUEVA_48
+setflag FLAG_NUEVA_49
+setflag FLAG_NUEVA_50
+setflag FLAG_NUEVA_51
+setflag FLAG_NUEVA_52
+setflag FLAG_NUEVA_53
+setflag FLAG_NUEVA_54
+setflag FLAG_NUEVA_55
+setflag FLAG_NUEVA_71
+setflag FLAG_NUEVA_72
+setflag FLAG_NUEVA_73
+setflag FLAG_NUEVA_74
+setflag FLAG_NUEVA_75
+setflag FLAG_NUEVA_76
+setflag FLAG_NUEVA_77
+setflag FLAG_NUEVA_78
+setflag FLAG_NUEVA_79
+setflag FLAG_NUEVA_80
+setflag FLAG_NUEVA_81
+setflag FLAG_NUEVA_265
+setflag FLAG_NUEVA_266
+setflag FLAG_NUEVA_267
+setflag FLAG_NUEVA_268
+setflag FLAG_NUEVA_269
+setflag FLAG_NUEVA_270
+setflag FLAG_NUEVA_271
+setflag FLAG_NUEVA_272
+setflag FLAG_NUEVA_273
+setflag FLAG_NUEVA_274
+setflag FLAG_NUEVA_275
+setflag FLAG_NUEVA_276
+setflag FLAG_NUEVA_277
+setflag FLAG_NUEVA_278
+setflag FLAG_NUEVA_279
+setflag FLAG_NUEVA_280
+setflag FLAG_NUEVA_281
+setflag FLAG_NUEVA_282
+setflag FLAG_NUEVA_283
+setflag FLAG_NUEVA_284
+setflag FLAG_NUEVA_285
+setflag FLAG_NUEVA_286
+setflag FLAG_NUEVA_287
+setflag FLAG_NUEVA_288
+setflag FLAG_NUEVA_289
+setflag FLAG_NUEVA_290
+setflag FLAG_NUEVA_291
+setflag FLAG_NUEVA_292
+setflag FLAG_NUEVA_293
+setflag FLAG_NUEVA_294
+setflag FLAG_NUEVA_295
+setflag FLAG_NUEVA_296
+setflag FLAG_NUEVA_297
+setflag FLAG_NUEVA_298
+setflag FLAG_NUEVA_299
+setflag FLAG_NUEVA_300
+setflag FLAG_NUEVA_301
+setflag FLAG_NUEVA_302
+setflag FLAG_NUEVA_303
+setflag FLAG_NUEVA_304
+setflag FLAG_NUEVA_305
+setflag FLAG_NUEVA_306
+setflag FLAG_NUEVA_307
+setflag FLAG_NUEVA_308
+setflag FLAG_NUEVA_309
+setflag FLAG_NUEVA_310
+setflag FLAG_NUEVA_311
+setflag FLAG_NUEVA_312
+setflag FLAG_NUEVA_313
+setflag FLAG_NUEVA_314
+setflag FLAG_NUEVA_315
+setflag FLAG_NUEVA_316
+setflag FLAG_NUEVA_317
+setflag FLAG_NUEVA_318
+setflag FLAG_NUEVA_319
+setflag FLAG_NUEVA_320
+setflag FLAG_NUEVA_321
+setflag FLAG_NUEVA_322
+setflag FLAG_NUEVA_323
+setflag FLAG_NUEVA_324
+setflag FLAG_NUEVA_325
+setflag FLAG_NUEVA_326
+setflag FLAG_NUEVA_327
+setflag FLAG_NUEVA_328
+setflag FLAG_NUEVA_329
+setflag FLAG_NUEVA_330
+setflag FLAG_NUEVA_331
+setflag FLAG_NUEVA_332
+setflag FLAG_NUEVA_333
+setflag FLAG_NUEVA_334
+setflag FLAG_NUEVA_335
+setflag FLAG_NUEVA_336
+setflag FLAG_NUEVA_337
+setflag FLAG_NUEVA_338
+setflag FLAG_NUEVA_339
+setflag FLAG_NUEVA_340
+setflag FLAG_NUEVA_341
+setflag FLAG_NUEVA_342
+setflag FLAG_NUEVA_343
+setflag FLAG_NUEVA_344
+setflag FLAG_NUEVA_345
+setflag FLAG_NUEVA_346
+setflag FLAG_NUEVA_347
+setflag FLAG_NUEVA_348
+setflag FLAG_NUEVA_349
+setflag FLAG_NUEVA_350
+setflag FLAG_NUEVA_351
+setflag FLAG_NUEVA_352
+setflag FLAG_NUEVA_353
+setflag FLAG_NUEVA_354
+setflag FLAG_NUEVA_355
+setflag FLAG_NUEVA_356
+setflag FLAG_NUEVA_357
+setflag FLAG_NUEVA_358
+setflag FLAG_NUEVA_359
+setflag FLAG_NUEVA_360
+setflag FLAG_NUEVA_361
+setflag FLAG_NUEVA_362
+setflag FLAG_NUEVA_363
+setflag FLAG_NUEVA_364
+setflag FLAG_NUEVA_365
+setflag FLAG_NUEVA_366
+setflag FLAG_NUEVA_367
+setflag FLAG_NUEVA_368
+setflag FLAG_NUEVA_369
+setflag FLAG_NUEVA_370
+setflag FLAG_NUEVA_371
+setflag FLAG_NUEVA_372
+setflag FLAG_NUEVA_373
+setflag FLAG_NUEVA_374
+setflag FLAG_NUEVA_375
+setflag FLAG_NUEVA_376
+setflag FLAG_NUEVA_377
+setflag FLAG_NUEVA_378
+setflag FLAG_NUEVA_379
+setflag FLAG_NUEVA_380
+setflag FLAG_NUEVA_381
+setflag FLAG_NUEVA_382
+setflag FLAG_NUEVA_383
+setflag FLAG_NUEVA_384
+setflag FLAG_NUEVA_385
+setflag FLAG_NUEVA_386
+setflag FLAG_NUEVA_387
+setflag FLAG_NUEVA_388
+setflag FLAG_NUEVA_389
+setflag FLAG_NUEVA_390
+setflag FLAG_NUEVA_391
+setflag FLAG_NUEVA_392
+setflag FLAG_NUEVA_393
+setflag FLAG_NUEVA_394
+setflag FLAG_NUEVA_395
+setflag FLAG_NUEVA_396
+setflag FLAG_NUEVA_397
+setflag FLAG_NUEVA_398
+setflag FLAG_NUEVA_399
+setflag FLAG_NUEVA_400
+setflag FLAG_NUEVA_401
+setflag FLAG_NUEVA_402
+setflag FLAG_NUEVA_403
+setflag FLAG_NUEVA_404
+setflag FLAG_NUEVA_405
+setflag FLAG_NUEVA_406
+setflag FLAG_NUEVA_407
+setflag FLAG_NUEVA_408
+setflag FLAG_NUEVA_409
+setflag FLAG_NUEVA_410
+setflag FLAG_NUEVA_411
+setflag FLAG_NUEVA_412
+setflag FLAG_NUEVA_413
+setflag FLAG_NUEVA_414
+setflag FLAG_NUEVA_415
+setflag FLAG_NUEVA_416
+setflag FLAG_NUEVA_445
+setflag FLAG_NUEVA_446
+setflag FLAG_NUEVA_447
+setflag FLAG_NUEVA_448
+setflag FLAG_NUEVA_449
+setflag FLAG_NUEVA_450
+setflag FLAG_NUEVA_451
+setflag FLAG_NUEVA_452
+setflag FLAG_NUEVA_453
+setflag FLAG_NUEVA_454
+setflag FLAG_NUEVA_455
+setflag FLAG_NUEVA_517
+setflag FLAG_NUEVA_532
+setflag FLAG_NUEVA_533
+setflag FLAG_NUEVA_534
+setflag FLAG_NUEVA_535
+setflag FLAG_NUEVA_536
+setflag FLAG_NUEVA_537
+setflag FLAG_NUEVA_538
+setflag FLAG_NUEVA_539
+setflag FLAG_NUEVA_555
+setflag FLAG_NUEVA_556
+setflag FLAG_NUEVA_790
+setflag FLAG_UNUSED_0x26F
+@@ ahora los clearflag
+clearflag FLAG_NUEVA_56
+clearflag FLAG_NUEVA_57
+clearflag FLAG_NUEVA_58
+clearflag FLAG_NUEVA_59
+clearflag FLAG_NUEVA_60
+clearflag FLAG_NUEVA_61
+clearflag FLAG_NUEVA_62
+clearflag FLAG_NUEVA_63
+clearflag FLAG_NUEVA_64
+clearflag FLAG_NUEVA_65
+clearflag FLAG_NUEVA_66
+clearflag FLAG_NUEVA_67
+clearflag FLAG_NUEVA_68
+clearflag FLAG_NUEVA_69
+clearflag FLAG_NUEVA_70
+clearflag FLAG_NUEVA_82
+clearflag FLAG_NUEVA_83
+clearflag FLAG_NUEVA_84
+clearflag FLAG_NUEVA_85
+clearflag FLAG_NUEVA_86
+clearflag FLAG_NUEVA_87
+clearflag FLAG_NUEVA_88
+clearflag FLAG_NUEVA_89
+clearflag FLAG_NUEVA_90
+clearflag FLAG_NUEVA_91
+clearflag FLAG_NUEVA_92
+clearflag FLAG_NUEVA_93
+clearflag FLAG_NUEVA_94
+clearflag FLAG_NUEVA_95
+clearflag FLAG_NUEVA_96
+clearflag FLAG_NUEVA_97
+clearflag FLAG_NUEVA_98
+clearflag FLAG_NUEVA_99
+clearflag FLAG_NUEVA_100
+clearflag FLAG_NUEVA_101
+clearflag FLAG_NUEVA_102
+clearflag FLAG_NUEVA_103
+clearflag FLAG_NUEVA_104
+clearflag FLAG_NUEVA_105
+clearflag FLAG_NUEVA_106
+clearflag FLAG_NUEVA_107
+clearflag FLAG_NUEVA_108
+clearflag FLAG_NUEVA_109
+clearflag FLAG_NUEVA_110
+clearflag FLAG_NUEVA_111
+clearflag FLAG_NUEVA_112
+clearflag FLAG_NUEVA_113
+clearflag FLAG_NUEVA_114
+clearflag FLAG_NUEVA_115
+clearflag FLAG_NUEVA_116
+clearflag FLAG_NUEVA_117
+clearflag FLAG_NUEVA_118
+clearflag FLAG_NUEVA_119
+clearflag FLAG_NUEVA_120
+clearflag FLAG_NUEVA_121
+clearflag FLAG_NUEVA_122
+clearflag FLAG_NUEVA_123
+clearflag FLAG_NUEVA_124
+clearflag FLAG_NUEVA_125
+clearflag FLAG_NUEVA_126
+clearflag FLAG_NUEVA_127
+clearflag FLAG_NUEVA_128
+clearflag FLAG_NUEVA_129
+clearflag FLAG_NUEVA_130
+clearflag FLAG_NUEVA_131
+clearflag FLAG_NUEVA_132
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_134
+clearflag FLAG_NUEVA_135
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_138
+clearflag FLAG_NUEVA_139
+clearflag FLAG_NUEVA_140
+clearflag FLAG_NUEVA_141
+clearflag FLAG_NUEVA_142
+clearflag FLAG_NUEVA_143
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_145
+clearflag FLAG_NUEVA_146
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_148
+clearflag FLAG_NUEVA_149
+clearflag FLAG_NUEVA_150
+clearflag FLAG_NUEVA_151
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
+clearflag FLAG_NUEVA_155
+clearflag FLAG_NUEVA_156
+clearflag FLAG_NUEVA_157
+clearflag FLAG_NUEVA_158
+clearflag FLAG_NUEVA_159
+clearflag FLAG_NUEVA_160
+clearflag FLAG_NUEVA_161
+clearflag FLAG_NUEVA_162
+clearflag FLAG_NUEVA_163
+clearflag FLAG_NUEVA_164
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_166
+clearflag FLAG_NUEVA_167
+clearflag FLAG_NUEVA_168
+clearflag FLAG_NUEVA_169
+clearflag FLAG_NUEVA_170
+clearflag FLAG_NUEVA_171
+clearflag FLAG_NUEVA_172
+clearflag FLAG_NUEVA_173
+clearflag FLAG_NUEVA_174
+clearflag FLAG_NUEVA_175
+clearflag FLAG_NUEVA_176
+clearflag FLAG_NUEVA_177
+clearflag FLAG_NUEVA_178
+clearflag FLAG_NUEVA_179
+clearflag FLAG_NUEVA_180
+clearflag FLAG_NUEVA_181
+clearflag FLAG_NUEVA_182
+clearflag FLAG_NUEVA_183
+clearflag FLAG_NUEVA_184
+clearflag FLAG_NUEVA_185
+clearflag FLAG_NUEVA_186
+clearflag FLAG_NUEVA_187
+clearflag FLAG_NUEVA_188
+clearflag FLAG_NUEVA_189
+clearflag FLAG_NUEVA_190
+clearflag FLAG_NUEVA_191
+clearflag FLAG_NUEVA_192
+clearflag FLAG_NUEVA_193
+clearflag FLAG_NUEVA_194
+clearflag FLAG_NUEVA_195
+clearflag FLAG_NUEVA_196
+clearflag FLAG_NUEVA_197
+clearflag FLAG_NUEVA_198
+clearflag FLAG_NUEVA_199
+clearflag FLAG_NUEVA_200
+clearflag FLAG_NUEVA_201
+clearflag FLAG_NUEVA_202
+clearflag FLAG_NUEVA_203
+clearflag FLAG_NUEVA_204
+clearflag FLAG_NUEVA_205
+clearflag FLAG_NUEVA_206
+clearflag FLAG_NUEVA_207
+clearflag FLAG_NUEVA_208
+clearflag FLAG_NUEVA_209
+clearflag FLAG_NUEVA_210
+clearflag FLAG_NUEVA_211
+clearflag FLAG_NUEVA_212
+clearflag FLAG_NUEVA_213
+clearflag FLAG_NUEVA_214
+clearflag FLAG_NUEVA_215
+clearflag FLAG_NUEVA_216
+clearflag FLAG_NUEVA_217
+clearflag FLAG_NUEVA_218
+clearflag FLAG_NUEVA_219
+clearflag FLAG_NUEVA_220
+clearflag FLAG_NUEVA_221
+clearflag FLAG_NUEVA_222
+clearflag FLAG_NUEVA_223
+clearflag FLAG_NUEVA_224
+clearflag FLAG_NUEVA_225
+clearflag FLAG_NUEVA_226
+clearflag FLAG_NUEVA_227
+clearflag FLAG_NUEVA_228
+clearflag FLAG_NUEVA_229
+clearflag FLAG_NUEVA_230
+clearflag FLAG_NUEVA_231
+clearflag FLAG_NUEVA_232
+clearflag FLAG_NUEVA_233
+clearflag FLAG_NUEVA_234
+clearflag FLAG_NUEVA_235
+clearflag FLAG_NUEVA_236
+clearflag FLAG_NUEVA_237
+clearflag FLAG_NUEVA_238
+clearflag FLAG_NUEVA_239
+clearflag FLAG_NUEVA_240
+clearflag FLAG_NUEVA_241
+clearflag FLAG_NUEVA_242
+clearflag FLAG_NUEVA_243
+clearflag FLAG_NUEVA_244
+clearflag FLAG_NUEVA_245
+clearflag FLAG_NUEVA_246
+clearflag FLAG_NUEVA_247
+clearflag FLAG_NUEVA_248
+clearflag FLAG_NUEVA_249
+clearflag FLAG_NUEVA_250
+clearflag FLAG_NUEVA_251
+clearflag FLAG_NUEVA_252
+clearflag FLAG_NUEVA_253
+clearflag FLAG_NUEVA_254
+clearflag FLAG_NUEVA_255
+clearflag FLAG_NUEVA_256
+clearflag FLAG_NUEVA_257
+clearflag FLAG_NUEVA_258
+clearflag FLAG_NUEVA_259
+clearflag FLAG_NUEVA_260
+clearflag FLAG_NUEVA_261
+clearflag FLAG_NUEVA_262
+clearflag FLAG_NUEVA_263
+clearflag FLAG_NUEVA_264
+clearflag FLAG_NUEVA_417
+clearflag FLAG_NUEVA_418
+clearflag FLAG_NUEVA_419
+clearflag FLAG_NUEVA_420
+clearflag FLAG_NUEVA_421
+clearflag FLAG_NUEVA_422
+clearflag FLAG_NUEVA_423
+clearflag FLAG_NUEVA_424
+clearflag FLAG_NUEVA_425
+clearflag FLAG_NUEVA_426
+clearflag FLAG_NUEVA_427
+clearflag FLAG_NUEVA_428
+clearflag FLAG_NUEVA_429
+clearflag FLAG_NUEVA_430
+clearflag FLAG_NUEVA_431
+clearflag FLAG_NUEVA_432
+clearflag FLAG_NUEVA_433
+clearflag FLAG_NUEVA_434
+clearflag FLAG_NUEVA_435
+clearflag FLAG_NUEVA_436
+clearflag FLAG_NUEVA_437
+clearflag FLAG_NUEVA_438
+clearflag FLAG_NUEVA_439
+clearflag FLAG_NUEVA_440
+clearflag FLAG_NUEVA_441
+clearflag FLAG_NUEVA_442
+clearflag FLAG_NUEVA_443
+clearflag FLAG_NUEVA_444
+clearflag FLAG_NUEVA_456
+clearflag FLAG_NUEVA_457
+clearflag FLAG_NUEVA_458
+clearflag FLAG_NUEVA_459
+clearflag FLAG_NUEVA_460
+clearflag FLAG_NUEVA_461
+clearflag FLAG_NUEVA_462
+clearflag FLAG_NUEVA_463
+clearflag FLAG_NUEVA_464
+clearflag FLAG_NUEVA_465
+clearflag FLAG_NUEVA_466
+clearflag FLAG_NUEVA_467
+clearflag FLAG_NUEVA_468
+clearflag FLAG_NUEVA_469
+clearflag FLAG_NUEVA_470
+clearflag FLAG_NUEVA_471
+clearflag FLAG_NUEVA_472
+clearflag FLAG_NUEVA_473
+clearflag FLAG_NUEVA_474
+clearflag FLAG_NUEVA_475
+clearflag FLAG_NUEVA_476
+clearflag FLAG_NUEVA_477
+clearflag FLAG_NUEVA_478
+clearflag FLAG_NUEVA_479
+clearflag FLAG_NUEVA_480
+clearflag FLAG_NUEVA_481
+clearflag FLAG_NUEVA_482
+clearflag FLAG_NUEVA_483
+clearflag FLAG_NUEVA_484
+clearflag FLAG_NUEVA_485
+clearflag FLAG_NUEVA_486
+clearflag FLAG_NUEVA_487
+clearflag FLAG_NUEVA_488
+clearflag FLAG_NUEVA_489
+clearflag FLAG_NUEVA_490
+clearflag FLAG_NUEVA_491
+clearflag FLAG_NUEVA_492
+clearflag FLAG_NUEVA_493
+clearflag FLAG_NUEVA_494
+clearflag FLAG_NUEVA_495
+clearflag FLAG_NUEVA_496
+clearflag FLAG_NUEVA_497
+clearflag FLAG_NUEVA_498
+clearflag FLAG_NUEVA_499
+clearflag FLAG_NUEVA_500
+clearflag FLAG_NUEVA_501
+clearflag FLAG_NUEVA_502
+clearflag FLAG_NUEVA_503
+clearflag FLAG_NUEVA_504
+clearflag FLAG_NUEVA_505
+clearflag FLAG_NUEVA_506
+clearflag FLAG_NUEVA_507
+clearflag FLAG_NUEVA_508
+clearflag FLAG_NUEVA_509
+clearflag FLAG_NUEVA_510
+clearflag FLAG_NUEVA_511
+clearflag FLAG_NUEVA_512
+clearflag FLAG_NUEVA_513
+clearflag FLAG_NUEVA_514
+clearflag FLAG_NUEVA_515
+clearflag FLAG_NUEVA_516
+clearflag FLAG_NUEVA_518
+clearflag FLAG_NUEVA_519
+clearflag FLAG_NUEVA_520
+clearflag FLAG_NUEVA_521
+clearflag FLAG_NUEVA_522
+clearflag FLAG_NUEVA_523
+clearflag FLAG_NUEVA_524
+clearflag FLAG_NUEVA_525
+clearflag FLAG_NUEVA_526
+clearflag FLAG_NUEVA_527
+clearflag FLAG_NUEVA_528
+clearflag FLAG_NUEVA_529
+clearflag FLAG_NUEVA_530
+clearflag FLAG_NUEVA_531
+clearflag FLAG_NUEVA_540
+clearflag FLAG_NUEVA_541
+clearflag FLAG_NUEVA_542
+clearflag FLAG_NUEVA_543
+clearflag FLAG_NUEVA_544
+clearflag FLAG_NUEVA_545
+clearflag FLAG_NUEVA_546
+clearflag FLAG_NUEVA_547
+clearflag FLAG_NUEVA_548
+clearflag FLAG_NUEVA_549
+clearflag FLAG_NUEVA_550
+clearflag FLAG_NUEVA_551
+clearflag FLAG_NUEVA_552
+clearflag FLAG_NUEVA_553
+clearflag FLAG_NUEVA_554
+clearflag FLAG_NUEVA_557
+clearflag FLAG_NUEVA_558
+clearflag FLAG_NUEVA_559
+clearflag FLAG_NUEVA_560
+clearflag FLAG_NUEVA_561
+clearflag FLAG_NUEVA_562
+clearflag FLAG_NUEVA_563
+clearflag FLAG_NUEVA_564
+clearflag FLAG_NUEVA_565
+clearflag FLAG_NUEVA_566
+clearflag FLAG_NUEVA_567
+clearflag FLAG_NUEVA_568
+clearflag FLAG_NUEVA_569
+clearflag FLAG_NUEVA_570
+clearflag FLAG_NUEVA_571
+clearflag FLAG_NUEVA_572
+clearflag FLAG_NUEVA_573
+clearflag FLAG_NUEVA_574
+clearflag FLAG_NUEVA_575
+clearflag FLAG_NUEVA_576
+clearflag FLAG_NUEVA_577
+clearflag FLAG_NUEVA_578
+clearflag FLAG_NUEVA_579
+clearflag FLAG_NUEVA_580
+clearflag FLAG_NUEVA_581
+clearflag FLAG_NUEVA_582
+clearflag FLAG_NUEVA_583
+clearflag FLAG_NUEVA_584
+clearflag FLAG_NUEVA_585
+clearflag FLAG_NUEVA_586
+clearflag FLAG_NUEVA_587
+clearflag FLAG_NUEVA_588
+clearflag FLAG_NUEVA_589
+clearflag FLAG_NUEVA_590
+clearflag FLAG_NUEVA_591
+clearflag FLAG_NUEVA_592
+clearflag FLAG_NUEVA_593
+clearflag FLAG_NUEVA_594
+clearflag FLAG_NUEVA_595
+clearflag FLAG_NUEVA_596
+clearflag FLAG_NUEVA_597
+clearflag FLAG_NUEVA_598
+clearflag FLAG_NUEVA_599
+clearflag FLAG_NUEVA_600
+clearflag FLAG_NUEVA_601
+clearflag FLAG_NUEVA_602
+clearflag FLAG_NUEVA_603
+clearflag FLAG_NUEVA_604
+clearflag FLAG_NUEVA_605
+clearflag FLAG_NUEVA_606
+clearflag FLAG_NUEVA_607
+clearflag FLAG_NUEVA_608
+clearflag FLAG_NUEVA_609
+clearflag FLAG_NUEVA_610
+clearflag FLAG_NUEVA_611
+clearflag FLAG_NUEVA_612
+clearflag FLAG_NUEVA_613
+clearflag FLAG_NUEVA_614
+clearflag FLAG_NUEVA_615
+clearflag FLAG_NUEVA_616
+clearflag FLAG_NUEVA_617
+clearflag FLAG_NUEVA_618
+clearflag FLAG_NUEVA_619
+clearflag FLAG_NUEVA_620
+clearflag FLAG_NUEVA_621
+clearflag FLAG_NUEVA_622
+clearflag FLAG_NUEVA_623
+clearflag FLAG_NUEVA_624
+clearflag FLAG_NUEVA_625
+clearflag FLAG_NUEVA_626
+clearflag FLAG_NUEVA_627
+clearflag FLAG_NUEVA_628
+clearflag FLAG_NUEVA_629
+clearflag FLAG_NUEVA_630
+clearflag FLAG_NUEVA_631
+clearflag FLAG_NUEVA_632
+clearflag FLAG_NUEVA_633
+clearflag FLAG_NUEVA_634
+clearflag FLAG_NUEVA_635
+clearflag FLAG_NUEVA_636
+clearflag FLAG_NUEVA_637
+clearflag FLAG_NUEVA_638
+clearflag FLAG_NUEVA_639
+clearflag FLAG_NUEVA_640
+clearflag FLAG_NUEVA_641
+clearflag FLAG_NUEVA_642
+clearflag FLAG_NUEVA_643
+clearflag FLAG_NUEVA_644
+clearflag FLAG_NUEVA_645
+clearflag FLAG_NUEVA_646
+clearflag FLAG_NUEVA_647
+clearflag FLAG_NUEVA_648
+clearflag FLAG_NUEVA_649
+clearflag FLAG_NUEVA_650
+clearflag FLAG_NUEVA_651
+clearflag FLAG_NUEVA_652
+clearflag FLAG_NUEVA_653
+clearflag FLAG_NUEVA_654
+clearflag FLAG_NUEVA_655
+clearflag FLAG_NUEVA_656
+clearflag FLAG_NUEVA_657
+clearflag FLAG_NUEVA_658
+clearflag FLAG_NUEVA_659
+clearflag FLAG_NUEVA_660
+clearflag FLAG_NUEVA_661
+clearflag FLAG_NUEVA_662
+clearflag FLAG_NUEVA_663
+clearflag FLAG_NUEVA_664
+clearflag FLAG_NUEVA_665
+clearflag FLAG_NUEVA_666
+clearflag FLAG_NUEVA_667
+clearflag FLAG_NUEVA_668
+clearflag FLAG_NUEVA_669
+clearflag FLAG_NUEVA_670
+clearflag FLAG_NUEVA_671
+clearflag FLAG_NUEVA_672
+clearflag FLAG_NUEVA_673
+clearflag FLAG_NUEVA_674
+clearflag FLAG_NUEVA_675
+clearflag FLAG_NUEVA_676
+clearflag FLAG_NUEVA_677
+clearflag FLAG_NUEVA_678
+clearflag FLAG_NUEVA_679
+clearflag FLAG_NUEVA_680
+clearflag FLAG_NUEVA_681
+clearflag FLAG_NUEVA_682
+clearflag FLAG_NUEVA_683
+clearflag FLAG_NUEVA_684
+clearflag FLAG_NUEVA_685
+clearflag FLAG_NUEVA_686
+clearflag FLAG_NUEVA_687
+clearflag FLAG_NUEVA_688
+clearflag FLAG_NUEVA_689
+clearflag FLAG_NUEVA_690
+clearflag FLAG_NUEVA_691
+clearflag FLAG_NUEVA_692
+clearflag FLAG_NUEVA_693
+clearflag FLAG_NUEVA_694
+clearflag FLAG_NUEVA_695
+clearflag FLAG_NUEVA_696
+clearflag FLAG_NUEVA_697
+clearflag FLAG_NUEVA_698
+clearflag FLAG_NUEVA_699
+clearflag FLAG_NUEVA_700
+clearflag FLAG_NUEVA_701
+clearflag FLAG_NUEVA_702
+clearflag FLAG_NUEVA_703
+clearflag FLAG_NUEVA_704
+clearflag FLAG_NUEVA_705
+clearflag FLAG_NUEVA_706
+clearflag FLAG_NUEVA_707
+clearflag FLAG_NUEVA_708
+clearflag FLAG_NUEVA_709
+clearflag FLAG_NUEVA_710
+clearflag FLAG_NUEVA_711
+clearflag FLAG_NUEVA_712
+clearflag FLAG_NUEVA_713
+clearflag FLAG_NUEVA_714
+clearflag FLAG_NUEVA_715
+clearflag FLAG_NUEVA_716
+clearflag FLAG_NUEVA_717
+clearflag FLAG_NUEVA_718
+clearflag FLAG_NUEVA_719
+clearflag FLAG_NUEVA_720
+clearflag FLAG_NUEVA_721
+clearflag FLAG_NUEVA_722
+clearflag FLAG_NUEVA_723
+clearflag FLAG_NUEVA_724
+clearflag FLAG_NUEVA_725
+clearflag FLAG_NUEVA_726
+clearflag FLAG_NUEVA_727
+clearflag FLAG_NUEVA_728
+clearflag FLAG_NUEVA_729
+clearflag FLAG_NUEVA_730
+clearflag FLAG_NUEVA_731
+clearflag FLAG_NUEVA_732
+clearflag FLAG_NUEVA_733
+clearflag FLAG_NUEVA_734
+clearflag FLAG_NUEVA_735
+clearflag FLAG_NUEVA_736
+clearflag FLAG_NUEVA_737
+clearflag FLAG_NUEVA_738
+clearflag FLAG_NUEVA_739
+clearflag FLAG_NUEVA_740
+clearflag FLAG_NUEVA_741
+clearflag FLAG_NUEVA_742
+clearflag FLAG_NUEVA_743
+clearflag FLAG_NUEVA_744
+clearflag FLAG_NUEVA_745
+clearflag FLAG_NUEVA_746
+clearflag FLAG_NUEVA_747
+clearflag FLAG_NUEVA_748
+clearflag FLAG_NUEVA_749
+clearflag FLAG_NUEVA_750
+clearflag FLAG_NUEVA_751
+clearflag FLAG_NUEVA_752
+clearflag FLAG_NUEVA_753
+clearflag FLAG_NUEVA_754
+clearflag FLAG_NUEVA_755
+clearflag FLAG_NUEVA_756
+clearflag FLAG_NUEVA_757
+clearflag FLAG_NUEVA_758
+clearflag FLAG_NUEVA_759
+clearflag FLAG_NUEVA_760
+clearflag FLAG_NUEVA_761
+clearflag FLAG_NUEVA_762
+clearflag FLAG_NUEVA_763
+clearflag FLAG_NUEVA_764
+clearflag FLAG_NUEVA_765
+clearflag FLAG_NUEVA_766
+clearflag FLAG_NUEVA_767
+clearflag FLAG_NUEVA_768
+clearflag FLAG_NUEVA_769
+clearflag FLAG_NUEVA_770
+clearflag FLAG_NUEVA_771
+clearflag FLAG_NUEVA_772
+clearflag FLAG_NUEVA_773
+clearflag FLAG_NUEVA_774
+clearflag FLAG_NUEVA_775
+clearflag FLAG_NUEVA_776
+clearflag FLAG_NUEVA_777
+clearflag FLAG_NUEVA_778
+clearflag FLAG_NUEVA_779
+clearflag FLAG_NUEVA_780
+clearflag FLAG_NUEVA_781
+clearflag FLAG_NUEVA_782
+clearflag FLAG_NUEVA_783
+clearflag FLAG_NUEVA_784
+clearflag FLAG_NUEVA_785
+clearflag FLAG_NUEVA_786
+clearflag FLAG_NUEVA_787
+clearflag FLAG_NUEVA_788
+clearflag FLAG_NUEVA_789
+clearflag FLAG_NUEVA_791
+clearflag FLAG_NUEVA_792
+clearflag FLAG_NUEVA_793
+clearflag FLAG_NUEVA_794
+clearflag FLAG_NUEVA_795
+clearflag FLAG_NUEVA_796
+clearflag FLAG_NUEVA_797
+clearflag FLAG_NUEVA_798
+clearflag FLAG_NUEVA_799
+clearflag FLAG_NUEVA_800
+clearflag FLAG_NUEVA_801
+clearflag FLAG_NUEVA_802
+clearflag FLAG_NUEVA_803
+clearflag FLAG_NUEVA_804
+clearflag FLAG_NUEVA_805
+clearflag FLAG_NUEVA_806
+clearflag FLAG_NUEVA_807
+clearflag FLAG_NUEVA_808
+clearflag FLAG_NUEVA_809
+clearflag FLAG_NUEVA_810
+clearflag FLAG_NUEVA_811
+clearflag FLAG_NUEVA_812
+clearflag FLAG_NUEVA_813
+clearflag FLAG_NUEVA_814
+clearflag FLAG_NUEVA_815
+clearflag FLAG_NUEVA_816
+clearflag FLAG_NUEVA_817
+clearflag FLAG_NUEVA_818
+clearflag FLAG_NUEVA_819
+clearflag FLAG_NUEVA_820
+clearflag FLAG_NUEVA_821
+clearflag FLAG_NUEVA_822
+clearflag FLAG_NUEVA_823
+clearflag FLAG_NUEVA_824
+clearflag FLAG_NUEVA_825
+clearflag FLAG_NUEVA_826
+clearflag FLAG_NUEVA_827
+clearflag FLAG_NUEVA_828
+clearflag FLAG_NUEVA_829
+clearflag FLAG_NUEVA_830
+clearflag FLAG_NUEVA_831
+clearflag FLAG_NUEVA_832
+clearflag FLAG_NUEVA_833
+clearflag FLAG_NUEVA_834
+clearflag FLAG_NUEVA_835
+clearflag FLAG_NUEVA_836
+clearflag FLAG_NUEVA_837
+clearflag FLAG_NUEVA_838
+clearflag FLAG_NUEVA_839
+clearflag FLAG_NUEVA_840
+clearflag FLAG_NUEVA_841
+clearflag FLAG_NUEVA_842
+clearflag FLAG_NUEVA_843
+clearflag FLAG_NUEVA_844
+clearflag FLAG_NUEVA_845
+clearflag FLAG_NUEVA_846
+clearflag FLAG_NUEVA_847
+clearflag FLAG_NUEVA_848
+clearflag FLAG_NUEVA_849
+clearflag FLAG_NUEVA_850
+clearflag FLAG_NUEVA_851
+clearflag FLAG_NUEVA_852
+clearflag FLAG_NUEVA_853
+clearflag FLAG_NUEVA_854
+clearflag FLAG_NUEVA_855
+clearflag FLAG_NUEVA_856
+clearflag FLAG_NUEVA_857
+clearflag FLAG_NUEVA_858
+clearflag FLAG_NUEVA_859
+clearflag FLAG_NUEVA_860
+clearflag FLAG_NUEVA_861
+clearflag FLAG_NUEVA_862
+clearflag FLAG_NUEVA_863
+clearflag FLAG_UNUSED_0x264
+clearflag FLAG_UNUSED_0x265
+clearflag FLAG_UNUSED_0x266
+clearflag FLAG_UNUSED_0x267
+clearflag FLAG_UNUSED_0x268
+clearflag FLAG_UNUSED_0x269
+clearflag FLAG_UNUSED_0x26A
+clearflag FLAG_UNUSED_0x26B
+clearflag FLAG_UNUSED_0x26C
+clearflag FLAG_UNUSED_0x26D
+clearflag FLAG_UNUSED_0x26E
+clearflag FLAG_UNUSED_0x270
+clearflag FLAG_UNUSED_0x271
+clearflag FLAG_UNUSED_0x272
+clearflag FLAG_UNUSED_0x273
+clearflag FLAG_UNUSED_0x274
+clearflag FLAG_UNUSED_0x275
+clearflag FLAG_UNUSED_0x276
+clearflag FLAG_UNUSED_0x277
+clearflag FLAG_UNUSED_0x278
+clearflag FLAG_UNUSED_0x279
+return
+
+EventScript_SetItemsSevii::
+setflag FLAG_NUEVA_1
+setflag FLAG_NUEVA_2
+setflag FLAG_NUEVA_3
+setflag FLAG_NUEVA_4
+setflag FLAG_NUEVA_5
+setflag FLAG_NUEVA_6
+setflag FLAG_NUEVA_7
+setflag FLAG_NUEVA_8
+setflag FLAG_NUEVA_9
+setflag FLAG_NUEVA_10
+setflag FLAG_NUEVA_11
+setflag FLAG_NUEVA_12
+setflag FLAG_NUEVA_13
+setflag FLAG_NUEVA_14
+setflag FLAG_NUEVA_15
+setflag FLAG_NUEVA_16
+setflag FLAG_NUEVA_17
+setflag FLAG_NUEVA_18
+setflag FLAG_NUEVA_19
+setflag FLAG_NUEVA_20
+setflag FLAG_NUEVA_21
+setflag FLAG_NUEVA_22
+setflag FLAG_NUEVA_23
+setflag FLAG_NUEVA_24
+setflag FLAG_NUEVA_25
+setflag FLAG_NUEVA_26
+setflag FLAG_NUEVA_27
+setflag FLAG_NUEVA_28
+setflag FLAG_NUEVA_29
+setflag FLAG_NUEVA_30
+setflag FLAG_NUEVA_31
+setflag FLAG_NUEVA_32
+setflag FLAG_NUEVA_33
+setflag FLAG_NUEVA_34
+setflag FLAG_NUEVA_35
+setflag FLAG_NUEVA_36
+setflag FLAG_NUEVA_37
+setflag FLAG_NUEVA_38
+setflag FLAG_NUEVA_39
+setflag FLAG_NUEVA_40
+setflag FLAG_NUEVA_41
+setflag FLAG_NUEVA_42
+setflag FLAG_NUEVA_43
+setflag FLAG_NUEVA_44
+setflag FLAG_NUEVA_45
+setflag FLAG_NUEVA_46
+setflag FLAG_NUEVA_47
+setflag FLAG_NUEVA_48
+setflag FLAG_NUEVA_49
+setflag FLAG_NUEVA_50
+setflag FLAG_NUEVA_51
+setflag FLAG_NUEVA_52
+setflag FLAG_NUEVA_53
+setflag FLAG_NUEVA_54
+setflag FLAG_NUEVA_55
+setflag FLAG_NUEVA_71
+setflag FLAG_NUEVA_72
+setflag FLAG_NUEVA_73
+setflag FLAG_NUEVA_74
+setflag FLAG_NUEVA_75
+setflag FLAG_NUEVA_76
+setflag FLAG_NUEVA_77
+setflag FLAG_NUEVA_78
+setflag FLAG_NUEVA_79
+setflag FLAG_NUEVA_80
+setflag FLAG_NUEVA_81
+setflag FLAG_NUEVA_56
+setflag FLAG_NUEVA_57
+setflag FLAG_NUEVA_58
+setflag FLAG_NUEVA_59
+setflag FLAG_NUEVA_60
+setflag FLAG_NUEVA_61
+setflag FLAG_NUEVA_62
+setflag FLAG_NUEVA_63
+setflag FLAG_NUEVA_64
+setflag FLAG_NUEVA_65
+setflag FLAG_NUEVA_66
+setflag FLAG_NUEVA_67
+setflag FLAG_NUEVA_68
+setflag FLAG_NUEVA_69
+setflag FLAG_NUEVA_70
+setflag FLAG_NUEVA_82
+setflag FLAG_NUEVA_83
+setflag FLAG_NUEVA_84
+setflag FLAG_NUEVA_85
+setflag FLAG_NUEVA_86
+setflag FLAG_NUEVA_87
+setflag FLAG_NUEVA_88
+setflag FLAG_NUEVA_89
+setflag FLAG_NUEVA_90
+setflag FLAG_NUEVA_91
+setflag FLAG_NUEVA_92
+setflag FLAG_NUEVA_93
+setflag FLAG_NUEVA_94
+setflag FLAG_NUEVA_95
+setflag FLAG_NUEVA_96
+setflag FLAG_NUEVA_97
+setflag FLAG_NUEVA_98
+setflag FLAG_NUEVA_99
+setflag FLAG_NUEVA_100
+setflag FLAG_NUEVA_101
+setflag FLAG_NUEVA_102
+setflag FLAG_NUEVA_103
+setflag FLAG_NUEVA_104
+setflag FLAG_NUEVA_105
+setflag FLAG_NUEVA_106
+setflag FLAG_NUEVA_107
+setflag FLAG_NUEVA_108
+setflag FLAG_NUEVA_109
+setflag FLAG_NUEVA_110
+setflag FLAG_NUEVA_111
+setflag FLAG_NUEVA_112
+setflag FLAG_NUEVA_113
+setflag FLAG_NUEVA_265
+setflag FLAG_NUEVA_266
+setflag FLAG_NUEVA_267
+setflag FLAG_NUEVA_268
+setflag FLAG_NUEVA_269
+setflag FLAG_NUEVA_270
+setflag FLAG_NUEVA_271
+setflag FLAG_NUEVA_272
+setflag FLAG_NUEVA_273
+setflag FLAG_NUEVA_274
+setflag FLAG_NUEVA_275
+setflag FLAG_NUEVA_276
+setflag FLAG_NUEVA_277
+setflag FLAG_NUEVA_278
+setflag FLAG_NUEVA_279
+setflag FLAG_NUEVA_280
+setflag FLAG_NUEVA_281
+setflag FLAG_NUEVA_282
+setflag FLAG_NUEVA_283
+setflag FLAG_NUEVA_284
+setflag FLAG_NUEVA_285
+setflag FLAG_NUEVA_286
+setflag FLAG_NUEVA_287
+setflag FLAG_NUEVA_288
+setflag FLAG_NUEVA_289
+setflag FLAG_NUEVA_290
+setflag FLAG_NUEVA_291
+setflag FLAG_NUEVA_292
+setflag FLAG_NUEVA_293
+setflag FLAG_NUEVA_294
+setflag FLAG_NUEVA_295
+setflag FLAG_NUEVA_296
+setflag FLAG_NUEVA_297
+setflag FLAG_NUEVA_298
+setflag FLAG_NUEVA_299
+setflag FLAG_NUEVA_300
+setflag FLAG_NUEVA_301
+setflag FLAG_NUEVA_302
+setflag FLAG_NUEVA_303
+setflag FLAG_NUEVA_304
+setflag FLAG_NUEVA_305
+setflag FLAG_NUEVA_306
+setflag FLAG_NUEVA_307
+setflag FLAG_NUEVA_308
+setflag FLAG_NUEVA_309
+setflag FLAG_NUEVA_310
+setflag FLAG_NUEVA_311
+setflag FLAG_NUEVA_312
+setflag FLAG_NUEVA_313
+setflag FLAG_NUEVA_314
+setflag FLAG_NUEVA_315
+setflag FLAG_NUEVA_316
+setflag FLAG_NUEVA_317
+setflag FLAG_NUEVA_318
+setflag FLAG_NUEVA_319
+setflag FLAG_NUEVA_320
+setflag FLAG_NUEVA_321
+setflag FLAG_NUEVA_322
+setflag FLAG_NUEVA_323
+setflag FLAG_NUEVA_324
+setflag FLAG_NUEVA_325
+setflag FLAG_NUEVA_326
+setflag FLAG_NUEVA_327
+setflag FLAG_NUEVA_328
+setflag FLAG_NUEVA_329
+setflag FLAG_NUEVA_330
+setflag FLAG_NUEVA_331
+setflag FLAG_NUEVA_332
+setflag FLAG_NUEVA_333
+setflag FLAG_NUEVA_334
+setflag FLAG_NUEVA_335
+setflag FLAG_NUEVA_336
+setflag FLAG_NUEVA_337
+setflag FLAG_NUEVA_338
+setflag FLAG_NUEVA_339
+setflag FLAG_NUEVA_340
+setflag FLAG_NUEVA_341
+setflag FLAG_NUEVA_342
+setflag FLAG_NUEVA_343
+setflag FLAG_NUEVA_344
+setflag FLAG_NUEVA_345
+setflag FLAG_NUEVA_346
+setflag FLAG_NUEVA_347
+setflag FLAG_NUEVA_348
+setflag FLAG_NUEVA_349
+setflag FLAG_NUEVA_350
+setflag FLAG_NUEVA_351
+setflag FLAG_NUEVA_352
+setflag FLAG_NUEVA_353
+setflag FLAG_NUEVA_354
+setflag FLAG_NUEVA_355
+setflag FLAG_NUEVA_356
+setflag FLAG_NUEVA_357
+setflag FLAG_NUEVA_358
+setflag FLAG_NUEVA_359
+setflag FLAG_NUEVA_360
+setflag FLAG_NUEVA_361
+setflag FLAG_NUEVA_362
+setflag FLAG_NUEVA_363
+setflag FLAG_NUEVA_364
+setflag FLAG_NUEVA_365
+setflag FLAG_NUEVA_366
+setflag FLAG_NUEVA_367
+setflag FLAG_NUEVA_368
+setflag FLAG_NUEVA_369
+setflag FLAG_NUEVA_370
+setflag FLAG_NUEVA_371
+setflag FLAG_NUEVA_372
+setflag FLAG_NUEVA_373
+setflag FLAG_NUEVA_374
+setflag FLAG_NUEVA_375
+setflag FLAG_NUEVA_376
+setflag FLAG_NUEVA_377
+setflag FLAG_NUEVA_378
+setflag FLAG_NUEVA_379
+setflag FLAG_NUEVA_380
+setflag FLAG_NUEVA_381
+setflag FLAG_NUEVA_382
+setflag FLAG_NUEVA_383
+setflag FLAG_NUEVA_384
+setflag FLAG_NUEVA_385
+setflag FLAG_NUEVA_386
+setflag FLAG_NUEVA_387
+setflag FLAG_NUEVA_388
+setflag FLAG_NUEVA_389
+setflag FLAG_NUEVA_390
+setflag FLAG_NUEVA_391
+setflag FLAG_NUEVA_392
+setflag FLAG_NUEVA_393
+setflag FLAG_NUEVA_394
+setflag FLAG_NUEVA_395
+setflag FLAG_NUEVA_396
+setflag FLAG_NUEVA_397
+setflag FLAG_NUEVA_398
+setflag FLAG_NUEVA_399
+setflag FLAG_NUEVA_400
+setflag FLAG_NUEVA_401
+setflag FLAG_NUEVA_402
+setflag FLAG_NUEVA_403
+setflag FLAG_NUEVA_404
+setflag FLAG_NUEVA_405
+setflag FLAG_NUEVA_406
+setflag FLAG_NUEVA_407
+setflag FLAG_NUEVA_408
+setflag FLAG_NUEVA_409
+setflag FLAG_NUEVA_410
+setflag FLAG_NUEVA_411
+setflag FLAG_NUEVA_412
+setflag FLAG_NUEVA_413
+setflag FLAG_NUEVA_414
+setflag FLAG_NUEVA_415
+setflag FLAG_NUEVA_416
+setflag FLAG_NUEVA_417
+setflag FLAG_NUEVA_418
+setflag FLAG_NUEVA_419
+setflag FLAG_NUEVA_420
+setflag FLAG_NUEVA_421
+setflag FLAG_NUEVA_422
+setflag FLAG_NUEVA_423
+setflag FLAG_NUEVA_424
+setflag FLAG_NUEVA_425
+setflag FLAG_NUEVA_426
+setflag FLAG_NUEVA_427
+setflag FLAG_NUEVA_428
+setflag FLAG_NUEVA_429
+setflag FLAG_NUEVA_430
+setflag FLAG_NUEVA_431
+setflag FLAG_NUEVA_432
+setflag FLAG_NUEVA_433
+setflag FLAG_NUEVA_434
+setflag FLAG_NUEVA_435
+setflag FLAG_NUEVA_436
+setflag FLAG_NUEVA_437
+setflag FLAG_NUEVA_438
+setflag FLAG_NUEVA_439
+setflag FLAG_NUEVA_440
+setflag FLAG_NUEVA_441
+setflag FLAG_NUEVA_442
+setflag FLAG_NUEVA_443
+setflag FLAG_NUEVA_444
+setflag FLAG_NUEVA_445
+setflag FLAG_NUEVA_446
+setflag FLAG_NUEVA_447
+setflag FLAG_NUEVA_448
+setflag FLAG_NUEVA_449
+setflag FLAG_NUEVA_450
+setflag FLAG_NUEVA_451
+setflag FLAG_NUEVA_452
+setflag FLAG_NUEVA_453
+setflag FLAG_NUEVA_454
+setflag FLAG_NUEVA_455
+setflag FLAG_NUEVA_456
+setflag FLAG_NUEVA_517
+setflag FLAG_NUEVA_532
+setflag FLAG_NUEVA_533
+setflag FLAG_NUEVA_534
+setflag FLAG_NUEVA_535
+setflag FLAG_NUEVA_536
+setflag FLAG_NUEVA_537
+setflag FLAG_NUEVA_538
+setflag FLAG_NUEVA_539
+setflag FLAG_NUEVA_555
+setflag FLAG_NUEVA_556
+setflag FLAG_NUEVA_686
+setflag FLAG_NUEVA_687
+setflag FLAG_NUEVA_688
+setflag FLAG_NUEVA_689
+setflag FLAG_NUEVA_690
+setflag FLAG_NUEVA_691
+setflag FLAG_NUEVA_692
+setflag FLAG_NUEVA_693
+setflag FLAG_NUEVA_790
+setflag FLAG_UNUSED_0x26F
+clearflag FLAG_NUEVA_114
+clearflag FLAG_NUEVA_115
+clearflag FLAG_NUEVA_116
+clearflag FLAG_NUEVA_117
+clearflag FLAG_NUEVA_118
+clearflag FLAG_NUEVA_119
+clearflag FLAG_NUEVA_120
+clearflag FLAG_NUEVA_121
+clearflag FLAG_NUEVA_122
+clearflag FLAG_NUEVA_123
+clearflag FLAG_NUEVA_124
+clearflag FLAG_NUEVA_125
+clearflag FLAG_NUEVA_126
+clearflag FLAG_NUEVA_127
+clearflag FLAG_NUEVA_128
+clearflag FLAG_NUEVA_129
+clearflag FLAG_NUEVA_130
+clearflag FLAG_NUEVA_131
+clearflag FLAG_NUEVA_132
+clearflag FLAG_NUEVA_133
+clearflag FLAG_NUEVA_134
+clearflag FLAG_NUEVA_135
+clearflag FLAG_NUEVA_136
+clearflag FLAG_NUEVA_137
+clearflag FLAG_NUEVA_138
+clearflag FLAG_NUEVA_139
+clearflag FLAG_NUEVA_140
+clearflag FLAG_NUEVA_141
+clearflag FLAG_NUEVA_142
+clearflag FLAG_NUEVA_143
+clearflag FLAG_NUEVA_144
+clearflag FLAG_NUEVA_145
+clearflag FLAG_NUEVA_146
+clearflag FLAG_NUEVA_147
+clearflag FLAG_NUEVA_148
+clearflag FLAG_NUEVA_149
+clearflag FLAG_NUEVA_150
+clearflag FLAG_NUEVA_151
+clearflag FLAG_NUEVA_152
+clearflag FLAG_NUEVA_153
+clearflag FLAG_NUEVA_154
+clearflag FLAG_NUEVA_155
+clearflag FLAG_NUEVA_156
+clearflag FLAG_NUEVA_157
+clearflag FLAG_NUEVA_158
+clearflag FLAG_NUEVA_159
+clearflag FLAG_NUEVA_160
+clearflag FLAG_NUEVA_161
+clearflag FLAG_NUEVA_162
+clearflag FLAG_NUEVA_163
+clearflag FLAG_NUEVA_164
+clearflag FLAG_NUEVA_165
+clearflag FLAG_NUEVA_166
+clearflag FLAG_NUEVA_167
+clearflag FLAG_NUEVA_168
+clearflag FLAG_NUEVA_169
+clearflag FLAG_NUEVA_170
+clearflag FLAG_NUEVA_171
+clearflag FLAG_NUEVA_172
+clearflag FLAG_NUEVA_173
+clearflag FLAG_NUEVA_174
+clearflag FLAG_NUEVA_175
+clearflag FLAG_NUEVA_176
+clearflag FLAG_NUEVA_177
+clearflag FLAG_NUEVA_178
+clearflag FLAG_NUEVA_179
+clearflag FLAG_NUEVA_180
+clearflag FLAG_NUEVA_181
+clearflag FLAG_NUEVA_182
+clearflag FLAG_NUEVA_183
+clearflag FLAG_NUEVA_184
+clearflag FLAG_NUEVA_185
+clearflag FLAG_NUEVA_186
+clearflag FLAG_NUEVA_187
+clearflag FLAG_NUEVA_188
+clearflag FLAG_NUEVA_189
+clearflag FLAG_NUEVA_190
+clearflag FLAG_NUEVA_191
+clearflag FLAG_NUEVA_192
+clearflag FLAG_NUEVA_193
+clearflag FLAG_NUEVA_194
+clearflag FLAG_NUEVA_195
+clearflag FLAG_NUEVA_196
+clearflag FLAG_NUEVA_197
+clearflag FLAG_NUEVA_198
+clearflag FLAG_NUEVA_199
+clearflag FLAG_NUEVA_200
+clearflag FLAG_NUEVA_201
+clearflag FLAG_NUEVA_202
+clearflag FLAG_NUEVA_203
+clearflag FLAG_NUEVA_204
+clearflag FLAG_NUEVA_205
+clearflag FLAG_NUEVA_206
+clearflag FLAG_NUEVA_207
+clearflag FLAG_NUEVA_208
+clearflag FLAG_NUEVA_209
+clearflag FLAG_NUEVA_210
+clearflag FLAG_NUEVA_211
+clearflag FLAG_NUEVA_212
+clearflag FLAG_NUEVA_213
+clearflag FLAG_NUEVA_214
+clearflag FLAG_NUEVA_215
+clearflag FLAG_NUEVA_216
+clearflag FLAG_NUEVA_217
+clearflag FLAG_NUEVA_218
+clearflag FLAG_NUEVA_219
+clearflag FLAG_NUEVA_220
+clearflag FLAG_NUEVA_221
+clearflag FLAG_NUEVA_222
+clearflag FLAG_NUEVA_223
+clearflag FLAG_NUEVA_224
+clearflag FLAG_NUEVA_225
+clearflag FLAG_NUEVA_226
+clearflag FLAG_NUEVA_227
+clearflag FLAG_NUEVA_228
+clearflag FLAG_NUEVA_229
+clearflag FLAG_NUEVA_230
+clearflag FLAG_NUEVA_231
+clearflag FLAG_NUEVA_232
+clearflag FLAG_NUEVA_233
+clearflag FLAG_NUEVA_234
+clearflag FLAG_NUEVA_235
+clearflag FLAG_NUEVA_236
+clearflag FLAG_NUEVA_237
+clearflag FLAG_NUEVA_238
+clearflag FLAG_NUEVA_239
+clearflag FLAG_NUEVA_240
+clearflag FLAG_NUEVA_241
+clearflag FLAG_NUEVA_242
+clearflag FLAG_NUEVA_243
+clearflag FLAG_NUEVA_244
+clearflag FLAG_NUEVA_245
+clearflag FLAG_NUEVA_246
+clearflag FLAG_NUEVA_247
+clearflag FLAG_NUEVA_248
+clearflag FLAG_NUEVA_249
+clearflag FLAG_NUEVA_250
+clearflag FLAG_NUEVA_251
+clearflag FLAG_NUEVA_252
+clearflag FLAG_NUEVA_253
+clearflag FLAG_NUEVA_254
+clearflag FLAG_NUEVA_255
+clearflag FLAG_NUEVA_256
+clearflag FLAG_NUEVA_257
+clearflag FLAG_NUEVA_258
+clearflag FLAG_NUEVA_259
+clearflag FLAG_NUEVA_260
+clearflag FLAG_NUEVA_261
+clearflag FLAG_NUEVA_262
+clearflag FLAG_NUEVA_263
+clearflag FLAG_NUEVA_264
+clearflag FLAG_NUEVA_457
+clearflag FLAG_NUEVA_458
+clearflag FLAG_NUEVA_459
+clearflag FLAG_NUEVA_460
+clearflag FLAG_NUEVA_461
+clearflag FLAG_NUEVA_462
+clearflag FLAG_NUEVA_463
+clearflag FLAG_NUEVA_464
+clearflag FLAG_NUEVA_465
+clearflag FLAG_NUEVA_466
+clearflag FLAG_NUEVA_467
+clearflag FLAG_NUEVA_468
+clearflag FLAG_NUEVA_469
+clearflag FLAG_NUEVA_470
+clearflag FLAG_NUEVA_471
+clearflag FLAG_NUEVA_472
+clearflag FLAG_NUEVA_473
+clearflag FLAG_NUEVA_474
+clearflag FLAG_NUEVA_475
+clearflag FLAG_NUEVA_476
+clearflag FLAG_NUEVA_477
+clearflag FLAG_NUEVA_478
+clearflag FLAG_NUEVA_479
+clearflag FLAG_NUEVA_480
+clearflag FLAG_NUEVA_481
+clearflag FLAG_NUEVA_482
+clearflag FLAG_NUEVA_483
+clearflag FLAG_NUEVA_484
+clearflag FLAG_NUEVA_485
+clearflag FLAG_NUEVA_486
+clearflag FLAG_NUEVA_487
+clearflag FLAG_NUEVA_488
+clearflag FLAG_NUEVA_489
+clearflag FLAG_NUEVA_490
+clearflag FLAG_NUEVA_491
+clearflag FLAG_NUEVA_492
+clearflag FLAG_NUEVA_493
+clearflag FLAG_NUEVA_494
+clearflag FLAG_NUEVA_495
+clearflag FLAG_NUEVA_496
+clearflag FLAG_NUEVA_497
+clearflag FLAG_NUEVA_498
+clearflag FLAG_NUEVA_499
+clearflag FLAG_NUEVA_500
+clearflag FLAG_NUEVA_501
+clearflag FLAG_NUEVA_502
+clearflag FLAG_NUEVA_503
+clearflag FLAG_NUEVA_504
+clearflag FLAG_NUEVA_505
+clearflag FLAG_NUEVA_506
+clearflag FLAG_NUEVA_507
+clearflag FLAG_NUEVA_508
+clearflag FLAG_NUEVA_509
+clearflag FLAG_NUEVA_510
+clearflag FLAG_NUEVA_511
+clearflag FLAG_NUEVA_512
+clearflag FLAG_NUEVA_513
+clearflag FLAG_NUEVA_514
+clearflag FLAG_NUEVA_515
+clearflag FLAG_NUEVA_516
+clearflag FLAG_NUEVA_518
+clearflag FLAG_NUEVA_519
+clearflag FLAG_NUEVA_520
+clearflag FLAG_NUEVA_521
+clearflag FLAG_NUEVA_522
+clearflag FLAG_NUEVA_523
+clearflag FLAG_NUEVA_524
+clearflag FLAG_NUEVA_525
+clearflag FLAG_NUEVA_526
+clearflag FLAG_NUEVA_527
+clearflag FLAG_NUEVA_528
+clearflag FLAG_NUEVA_529
+clearflag FLAG_NUEVA_530
+clearflag FLAG_NUEVA_531
+clearflag FLAG_NUEVA_540
+clearflag FLAG_NUEVA_541
+clearflag FLAG_NUEVA_542
+clearflag FLAG_NUEVA_543
+clearflag FLAG_NUEVA_544
+clearflag FLAG_NUEVA_545
+clearflag FLAG_NUEVA_546
+clearflag FLAG_NUEVA_547
+clearflag FLAG_NUEVA_548
+clearflag FLAG_NUEVA_549
+clearflag FLAG_NUEVA_550
+clearflag FLAG_NUEVA_551
+clearflag FLAG_NUEVA_552
+clearflag FLAG_NUEVA_553
+clearflag FLAG_NUEVA_554
+clearflag FLAG_NUEVA_557
+clearflag FLAG_NUEVA_558
+clearflag FLAG_NUEVA_559
+clearflag FLAG_NUEVA_560
+clearflag FLAG_NUEVA_561
+clearflag FLAG_NUEVA_562
+clearflag FLAG_NUEVA_563
+clearflag FLAG_NUEVA_564
+clearflag FLAG_NUEVA_565
+clearflag FLAG_NUEVA_566
+clearflag FLAG_NUEVA_567
+clearflag FLAG_NUEVA_557
+clearflag FLAG_NUEVA_558
+clearflag FLAG_NUEVA_559
+clearflag FLAG_NUEVA_560
+clearflag FLAG_NUEVA_561
+clearflag FLAG_NUEVA_562
+clearflag FLAG_NUEVA_563
+clearflag FLAG_NUEVA_564
+clearflag FLAG_NUEVA_565
+clearflag FLAG_NUEVA_566
+clearflag FLAG_NUEVA_567
+clearflag FLAG_NUEVA_568
+clearflag FLAG_NUEVA_569
+clearflag FLAG_NUEVA_570
+clearflag FLAG_NUEVA_571
+clearflag FLAG_NUEVA_572
+clearflag FLAG_NUEVA_573
+clearflag FLAG_NUEVA_574
+clearflag FLAG_NUEVA_575
+clearflag FLAG_NUEVA_576
+clearflag FLAG_NUEVA_577
+clearflag FLAG_NUEVA_578
+clearflag FLAG_NUEVA_579
+clearflag FLAG_NUEVA_580
+clearflag FLAG_NUEVA_581
+clearflag FLAG_NUEVA_582
+clearflag FLAG_NUEVA_583
+clearflag FLAG_NUEVA_584
+clearflag FLAG_NUEVA_585
+clearflag FLAG_NUEVA_586
+clearflag FLAG_NUEVA_587
+clearflag FLAG_NUEVA_588
+clearflag FLAG_NUEVA_589
+clearflag FLAG_NUEVA_590
+clearflag FLAG_NUEVA_591
+clearflag FLAG_NUEVA_592
+clearflag FLAG_NUEVA_593
+clearflag FLAG_NUEVA_594
+clearflag FLAG_NUEVA_595
+clearflag FLAG_NUEVA_596
+clearflag FLAG_NUEVA_597
+clearflag FLAG_NUEVA_598
+clearflag FLAG_NUEVA_599
+clearflag FLAG_NUEVA_600
+clearflag FLAG_NUEVA_601
+clearflag FLAG_NUEVA_602
+clearflag FLAG_NUEVA_603
+clearflag FLAG_NUEVA_604
+clearflag FLAG_NUEVA_605
+clearflag FLAG_NUEVA_606
+clearflag FLAG_NUEVA_607
+clearflag FLAG_NUEVA_608
+clearflag FLAG_NUEVA_609
+clearflag FLAG_NUEVA_610
+clearflag FLAG_NUEVA_611
+clearflag FLAG_NUEVA_612
+clearflag FLAG_NUEVA_613
+clearflag FLAG_NUEVA_614
+clearflag FLAG_NUEVA_615
+clearflag FLAG_NUEVA_616
+clearflag FLAG_NUEVA_617
+clearflag FLAG_NUEVA_618
+clearflag FLAG_NUEVA_619
+clearflag FLAG_NUEVA_620
+clearflag FLAG_NUEVA_621
+clearflag FLAG_NUEVA_622
+clearflag FLAG_NUEVA_623
+clearflag FLAG_NUEVA_624
+clearflag FLAG_NUEVA_625
+clearflag FLAG_NUEVA_626
+clearflag FLAG_NUEVA_627
+clearflag FLAG_NUEVA_628
+clearflag FLAG_NUEVA_629
+clearflag FLAG_NUEVA_630
+clearflag FLAG_NUEVA_631
+clearflag FLAG_NUEVA_632
+clearflag FLAG_NUEVA_633
+clearflag FLAG_NUEVA_634
+clearflag FLAG_NUEVA_635
+clearflag FLAG_NUEVA_636
+clearflag FLAG_NUEVA_637
+clearflag FLAG_NUEVA_638
+clearflag FLAG_NUEVA_639
+clearflag FLAG_NUEVA_640
+clearflag FLAG_NUEVA_641
+clearflag FLAG_NUEVA_642
+clearflag FLAG_NUEVA_643
+clearflag FLAG_NUEVA_644
+clearflag FLAG_NUEVA_645
+clearflag FLAG_NUEVA_646
+clearflag FLAG_NUEVA_647
+clearflag FLAG_NUEVA_648
+clearflag FLAG_NUEVA_649
+clearflag FLAG_NUEVA_650
+clearflag FLAG_NUEVA_651
+clearflag FLAG_NUEVA_652
+clearflag FLAG_NUEVA_653
+clearflag FLAG_NUEVA_654
+clearflag FLAG_NUEVA_655
+clearflag FLAG_NUEVA_656
+clearflag FLAG_NUEVA_657
+clearflag FLAG_NUEVA_658
+clearflag FLAG_NUEVA_659
+clearflag FLAG_NUEVA_660
+clearflag FLAG_NUEVA_661
+clearflag FLAG_NUEVA_662
+clearflag FLAG_NUEVA_663
+clearflag FLAG_NUEVA_664
+clearflag FLAG_NUEVA_665
+clearflag FLAG_NUEVA_666
+clearflag FLAG_NUEVA_667
+clearflag FLAG_NUEVA_668
+clearflag FLAG_NUEVA_669
+clearflag FLAG_NUEVA_670
+clearflag FLAG_NUEVA_671
+clearflag FLAG_NUEVA_672
+clearflag FLAG_NUEVA_673
+clearflag FLAG_NUEVA_674
+clearflag FLAG_NUEVA_675
+clearflag FLAG_NUEVA_676
+clearflag FLAG_NUEVA_677
+clearflag FLAG_NUEVA_678
+clearflag FLAG_NUEVA_679
+clearflag FLAG_NUEVA_680
+clearflag FLAG_NUEVA_681
+clearflag FLAG_NUEVA_682
+clearflag FLAG_NUEVA_683
+clearflag FLAG_NUEVA_684
+clearflag FLAG_NUEVA_685
+clearflag FLAG_NUEVA_694
+clearflag FLAG_NUEVA_695
+clearflag FLAG_NUEVA_696
+clearflag FLAG_NUEVA_697
+clearflag FLAG_NUEVA_698
+clearflag FLAG_NUEVA_699
+clearflag FLAG_NUEVA_700
+clearflag FLAG_NUEVA_701
+clearflag FLAG_NUEVA_702
+clearflag FLAG_NUEVA_703
+clearflag FLAG_NUEVA_704
+clearflag FLAG_NUEVA_705
+clearflag FLAG_NUEVA_706
+clearflag FLAG_NUEVA_707
+clearflag FLAG_NUEVA_708
+clearflag FLAG_NUEVA_709
+clearflag FLAG_NUEVA_710
+clearflag FLAG_NUEVA_711
+clearflag FLAG_NUEVA_712
+clearflag FLAG_NUEVA_713
+clearflag FLAG_NUEVA_714
+clearflag FLAG_NUEVA_715
+clearflag FLAG_NUEVA_716
+clearflag FLAG_NUEVA_717
+clearflag FLAG_NUEVA_718
+clearflag FLAG_NUEVA_719
+clearflag FLAG_NUEVA_720
+clearflag FLAG_NUEVA_721
+clearflag FLAG_NUEVA_722
+clearflag FLAG_NUEVA_723
+clearflag FLAG_NUEVA_724
+clearflag FLAG_NUEVA_725
+clearflag FLAG_NUEVA_726
+clearflag FLAG_NUEVA_727
+clearflag FLAG_NUEVA_728
+clearflag FLAG_NUEVA_729
+clearflag FLAG_NUEVA_730
+clearflag FLAG_NUEVA_731
+clearflag FLAG_NUEVA_732
+clearflag FLAG_NUEVA_733
+clearflag FLAG_NUEVA_734
+clearflag FLAG_NUEVA_735
+clearflag FLAG_NUEVA_736
+clearflag FLAG_NUEVA_737
+clearflag FLAG_NUEVA_738
+clearflag FLAG_NUEVA_739
+clearflag FLAG_NUEVA_740
+clearflag FLAG_NUEVA_741
+clearflag FLAG_NUEVA_742
+clearflag FLAG_NUEVA_743
+clearflag FLAG_NUEVA_744
+clearflag FLAG_NUEVA_745
+clearflag FLAG_NUEVA_746
+clearflag FLAG_NUEVA_747
+clearflag FLAG_NUEVA_748
+clearflag FLAG_NUEVA_749
+clearflag FLAG_NUEVA_750
+clearflag FLAG_NUEVA_751
+clearflag FLAG_NUEVA_752
+clearflag FLAG_NUEVA_753
+clearflag FLAG_NUEVA_754
+clearflag FLAG_NUEVA_755
+clearflag FLAG_NUEVA_756
+clearflag FLAG_NUEVA_757
+clearflag FLAG_NUEVA_758
+clearflag FLAG_NUEVA_759
+clearflag FLAG_NUEVA_760
+clearflag FLAG_NUEVA_761
+clearflag FLAG_NUEVA_762
+clearflag FLAG_NUEVA_763
+clearflag FLAG_NUEVA_764
+clearflag FLAG_NUEVA_765
+clearflag FLAG_NUEVA_766
+clearflag FLAG_NUEVA_767
+clearflag FLAG_NUEVA_768
+clearflag FLAG_NUEVA_769
+clearflag FLAG_NUEVA_770
+clearflag FLAG_NUEVA_771
+clearflag FLAG_NUEVA_772
+clearflag FLAG_NUEVA_773
+clearflag FLAG_NUEVA_774
+clearflag FLAG_NUEVA_775
+clearflag FLAG_NUEVA_776
+clearflag FLAG_NUEVA_777
+clearflag FLAG_NUEVA_778
+clearflag FLAG_NUEVA_779
+clearflag FLAG_NUEVA_780
+clearflag FLAG_NUEVA_781
+clearflag FLAG_NUEVA_782
+clearflag FLAG_NUEVA_783
+clearflag FLAG_NUEVA_784
+clearflag FLAG_NUEVA_785
+clearflag FLAG_NUEVA_786
+clearflag FLAG_NUEVA_787
+clearflag FLAG_NUEVA_788
+clearflag FLAG_NUEVA_789
+clearflag FLAG_NUEVA_791
+clearflag FLAG_NUEVA_792
+clearflag FLAG_NUEVA_793
+clearflag FLAG_NUEVA_794
+clearflag FLAG_NUEVA_795
+clearflag FLAG_NUEVA_796
+clearflag FLAG_NUEVA_797
+clearflag FLAG_NUEVA_798
+clearflag FLAG_NUEVA_799
+clearflag FLAG_NUEVA_800
+clearflag FLAG_NUEVA_801
+clearflag FLAG_NUEVA_802
+clearflag FLAG_NUEVA_803
+clearflag FLAG_NUEVA_804
+clearflag FLAG_NUEVA_805
+clearflag FLAG_NUEVA_806
+clearflag FLAG_NUEVA_807
+clearflag FLAG_NUEVA_808
+clearflag FLAG_NUEVA_809
+clearflag FLAG_NUEVA_810
+clearflag FLAG_NUEVA_811
+clearflag FLAG_NUEVA_812
+clearflag FLAG_NUEVA_813
+clearflag FLAG_NUEVA_814
+clearflag FLAG_NUEVA_815
+clearflag FLAG_NUEVA_816
+clearflag FLAG_NUEVA_817
+clearflag FLAG_NUEVA_818
+clearflag FLAG_NUEVA_819
+clearflag FLAG_NUEVA_820
+clearflag FLAG_NUEVA_821
+clearflag FLAG_NUEVA_822
+clearflag FLAG_NUEVA_823
+clearflag FLAG_NUEVA_824
+clearflag FLAG_NUEVA_825
+clearflag FLAG_NUEVA_826
+clearflag FLAG_NUEVA_827
+clearflag FLAG_NUEVA_828
+clearflag FLAG_NUEVA_829
+clearflag FLAG_NUEVA_830
+clearflag FLAG_NUEVA_831
+clearflag FLAG_NUEVA_832
+clearflag FLAG_NUEVA_833
+clearflag FLAG_NUEVA_834
+clearflag FLAG_NUEVA_835
+clearflag FLAG_NUEVA_836
+clearflag FLAG_NUEVA_837
+clearflag FLAG_NUEVA_838
+clearflag FLAG_NUEVA_839
+clearflag FLAG_NUEVA_840
+clearflag FLAG_NUEVA_841
+clearflag FLAG_NUEVA_842
+clearflag FLAG_NUEVA_843
+clearflag FLAG_NUEVA_844
+clearflag FLAG_NUEVA_845
+clearflag FLAG_NUEVA_846
+clearflag FLAG_NUEVA_847
+clearflag FLAG_NUEVA_848
+clearflag FLAG_NUEVA_849
+clearflag FLAG_NUEVA_850
+clearflag FLAG_NUEVA_851
+clearflag FLAG_NUEVA_852
+clearflag FLAG_NUEVA_853
+clearflag FLAG_NUEVA_854
+clearflag FLAG_NUEVA_855
+clearflag FLAG_NUEVA_856
+clearflag FLAG_NUEVA_857
+clearflag FLAG_NUEVA_858
+clearflag FLAG_NUEVA_859
+clearflag FLAG_NUEVA_860
+clearflag FLAG_NUEVA_861
+clearflag FLAG_NUEVA_862
+clearflag FLAG_NUEVA_863
+clearflag FLAG_UNUSED_0x264
+clearflag FLAG_UNUSED_0x265
+clearflag FLAG_UNUSED_0x266
+clearflag FLAG_UNUSED_0x267
+clearflag FLAG_UNUSED_0x268
+clearflag FLAG_UNUSED_0x269
+clearflag FLAG_UNUSED_0x26A
+clearflag FLAG_UNUSED_0x26B
+clearflag FLAG_UNUSED_0x26C
+clearflag FLAG_UNUSED_0x26D
+clearflag FLAG_UNUSED_0x26E
+clearflag FLAG_UNUSED_0x270
+clearflag FLAG_UNUSED_0x271
+clearflag FLAG_UNUSED_0x272
+clearflag FLAG_UNUSED_0x273
+clearflag FLAG_UNUSED_0x274
+clearflag FLAG_UNUSED_0x275
+clearflag FLAG_UNUSED_0x276
+clearflag FLAG_UNUSED_0x277
+clearflag FLAG_UNUSED_0x278
+clearflag FLAG_UNUSED_0x279
+return
+
+EventScript_SetItemsJohto::
+setflag FLAG_NUEVA_1
+setflag FLAG_NUEVA_2
+setflag FLAG_NUEVA_3
+setflag FLAG_NUEVA_4
+setflag FLAG_NUEVA_5
+setflag FLAG_NUEVA_6
+setflag FLAG_NUEVA_7
+setflag FLAG_NUEVA_8
+setflag FLAG_NUEVA_9
+setflag FLAG_NUEVA_10
+setflag FLAG_NUEVA_11
+setflag FLAG_NUEVA_12
+setflag FLAG_NUEVA_13
+setflag FLAG_NUEVA_14
+setflag FLAG_NUEVA_15
+setflag FLAG_NUEVA_16
+setflag FLAG_NUEVA_17
+setflag FLAG_NUEVA_18
+setflag FLAG_NUEVA_19
+setflag FLAG_NUEVA_20
+setflag FLAG_NUEVA_21
+setflag FLAG_NUEVA_22
+setflag FLAG_NUEVA_23
+setflag FLAG_NUEVA_24
+setflag FLAG_NUEVA_25
+setflag FLAG_NUEVA_26
+setflag FLAG_NUEVA_27
+setflag FLAG_NUEVA_28
+setflag FLAG_NUEVA_29
+setflag FLAG_NUEVA_30
+setflag FLAG_NUEVA_31
+setflag FLAG_NUEVA_32
+setflag FLAG_NUEVA_33
+setflag FLAG_NUEVA_34
+setflag FLAG_NUEVA_35
+setflag FLAG_NUEVA_36
+setflag FLAG_NUEVA_37
+setflag FLAG_NUEVA_38
+setflag FLAG_NUEVA_39
+setflag FLAG_NUEVA_40
+setflag FLAG_NUEVA_41
+setflag FLAG_NUEVA_42
+setflag FLAG_NUEVA_43
+setflag FLAG_NUEVA_44
+setflag FLAG_NUEVA_45
+setflag FLAG_NUEVA_46
+setflag FLAG_NUEVA_47
+setflag FLAG_NUEVA_48
+setflag FLAG_NUEVA_49
+setflag FLAG_NUEVA_50
+setflag FLAG_NUEVA_51
+setflag FLAG_NUEVA_52
+setflag FLAG_NUEVA_53
+setflag FLAG_NUEVA_54
+setflag FLAG_NUEVA_55
+setflag FLAG_NUEVA_71
+setflag FLAG_NUEVA_72
+setflag FLAG_NUEVA_73
+setflag FLAG_NUEVA_74
+setflag FLAG_NUEVA_75
+setflag FLAG_NUEVA_76
+setflag FLAG_NUEVA_77
+setflag FLAG_NUEVA_78
+setflag FLAG_NUEVA_79
+setflag FLAG_NUEVA_80
+setflag FLAG_NUEVA_81
+setflag FLAG_NUEVA_56
+setflag FLAG_NUEVA_57
+setflag FLAG_NUEVA_58
+setflag FLAG_NUEVA_59
+setflag FLAG_NUEVA_60
+setflag FLAG_NUEVA_61
+setflag FLAG_NUEVA_62
+setflag FLAG_NUEVA_63
+setflag FLAG_NUEVA_64
+setflag FLAG_NUEVA_65
+setflag FLAG_NUEVA_66
+setflag FLAG_NUEVA_67
+setflag FLAG_NUEVA_68
+setflag FLAG_NUEVA_69
+setflag FLAG_NUEVA_70
+setflag FLAG_NUEVA_82
+setflag FLAG_NUEVA_83
+setflag FLAG_NUEVA_84
+setflag FLAG_NUEVA_85
+setflag FLAG_NUEVA_86
+setflag FLAG_NUEVA_87
+setflag FLAG_NUEVA_88
+setflag FLAG_NUEVA_89
+setflag FLAG_NUEVA_90
+setflag FLAG_NUEVA_91
+setflag FLAG_NUEVA_92
+setflag FLAG_NUEVA_93
+setflag FLAG_NUEVA_94
+setflag FLAG_NUEVA_95
+setflag FLAG_NUEVA_96
+setflag FLAG_NUEVA_97
+setflag FLAG_NUEVA_98
+setflag FLAG_NUEVA_99
+setflag FLAG_NUEVA_100
+setflag FLAG_NUEVA_101
+setflag FLAG_NUEVA_102
+setflag FLAG_NUEVA_103
+setflag FLAG_NUEVA_104
+setflag FLAG_NUEVA_105
+setflag FLAG_NUEVA_106
+setflag FLAG_NUEVA_107
+setflag FLAG_NUEVA_108
+setflag FLAG_NUEVA_109
+setflag FLAG_NUEVA_110
+setflag FLAG_NUEVA_111
+setflag FLAG_NUEVA_112
+setflag FLAG_NUEVA_113
+setflag FLAG_NUEVA_114
+setflag FLAG_NUEVA_115
+setflag FLAG_NUEVA_116
+setflag FLAG_NUEVA_117
+setflag FLAG_NUEVA_118
+setflag FLAG_NUEVA_119
+setflag FLAG_NUEVA_120
+setflag FLAG_NUEVA_121
+setflag FLAG_NUEVA_122
+setflag FLAG_NUEVA_123
+setflag FLAG_NUEVA_124
+setflag FLAG_NUEVA_125
+setflag FLAG_NUEVA_126
+setflag FLAG_NUEVA_127
+setflag FLAG_NUEVA_128
+setflag FLAG_NUEVA_129
+setflag FLAG_NUEVA_130
+setflag FLAG_NUEVA_131
+setflag FLAG_NUEVA_132
+setflag FLAG_NUEVA_133
+setflag FLAG_NUEVA_134
+setflag FLAG_NUEVA_135
+setflag FLAG_NUEVA_136
+setflag FLAG_NUEVA_137
+setflag FLAG_NUEVA_138
+setflag FLAG_NUEVA_139
+setflag FLAG_NUEVA_140
+setflag FLAG_NUEVA_141
+setflag FLAG_NUEVA_142
+setflag FLAG_NUEVA_143
+setflag FLAG_NUEVA_144
+setflag FLAG_NUEVA_145
+setflag FLAG_NUEVA_146
+setflag FLAG_NUEVA_147
+setflag FLAG_NUEVA_148
+setflag FLAG_NUEVA_149
+setflag FLAG_NUEVA_150
+setflag FLAG_NUEVA_151
+setflag FLAG_NUEVA_152
+setflag FLAG_NUEVA_153
+setflag FLAG_NUEVA_154
+setflag FLAG_NUEVA_155
+setflag FLAG_NUEVA_156
+setflag FLAG_NUEVA_157
+setflag FLAG_NUEVA_158
+setflag FLAG_NUEVA_159
+setflag FLAG_NUEVA_160
+setflag FLAG_NUEVA_161
+setflag FLAG_NUEVA_162
+setflag FLAG_NUEVA_163
+setflag FLAG_NUEVA_164
+setflag FLAG_NUEVA_165
+setflag FLAG_NUEVA_166
+setflag FLAG_NUEVA_167
+setflag FLAG_NUEVA_168
+setflag FLAG_NUEVA_169
+setflag FLAG_NUEVA_170
+setflag FLAG_NUEVA_171
+setflag FLAG_NUEVA_172
+setflag FLAG_NUEVA_173
+setflag FLAG_NUEVA_174
+setflag FLAG_NUEVA_175
+setflag FLAG_NUEVA_176
+setflag FLAG_NUEVA_177
+setflag FLAG_NUEVA_178
+setflag FLAG_NUEVA_179
+setflag FLAG_NUEVA_180
+setflag FLAG_NUEVA_181
+setflag FLAG_NUEVA_182
+setflag FLAG_NUEVA_183
+setflag FLAG_NUEVA_184
+setflag FLAG_NUEVA_185
+setflag FLAG_NUEVA_186
+setflag FLAG_NUEVA_187
+setflag FLAG_NUEVA_188
+setflag FLAG_NUEVA_189
+setflag FLAG_NUEVA_190
+setflag FLAG_NUEVA_191
+setflag FLAG_NUEVA_192
+setflag FLAG_NUEVA_193
+setflag FLAG_NUEVA_194
+setflag FLAG_NUEVA_195
+setflag FLAG_NUEVA_196
+setflag FLAG_NUEVA_197
+setflag FLAG_NUEVA_198
+setflag FLAG_NUEVA_199
+setflag FLAG_NUEVA_200
+setflag FLAG_NUEVA_201
+setflag FLAG_NUEVA_202
+setflag FLAG_NUEVA_203
+setflag FLAG_NUEVA_204
+setflag FLAG_NUEVA_205
+setflag FLAG_NUEVA_206
+setflag FLAG_NUEVA_207
+setflag FLAG_NUEVA_208
+setflag FLAG_NUEVA_209
+setflag FLAG_NUEVA_210
+setflag FLAG_NUEVA_211
+setflag FLAG_NUEVA_212
+setflag FLAG_NUEVA_213
+setflag FLAG_NUEVA_214
+setflag FLAG_NUEVA_215
+setflag FLAG_NUEVA_216
+setflag FLAG_NUEVA_217
+setflag FLAG_NUEVA_218
+setflag FLAG_NUEVA_219
+setflag FLAG_NUEVA_220
+setflag FLAG_NUEVA_221
+setflag FLAG_NUEVA_222
+setflag FLAG_NUEVA_223
+setflag FLAG_NUEVA_224
+setflag FLAG_NUEVA_225
+setflag FLAG_NUEVA_226
+setflag FLAG_NUEVA_227
+setflag FLAG_NUEVA_228
+setflag FLAG_NUEVA_229
+setflag FLAG_NUEVA_230
+setflag FLAG_NUEVA_231
+setflag FLAG_NUEVA_232
+setflag FLAG_NUEVA_233
+setflag FLAG_NUEVA_234
+setflag FLAG_NUEVA_235
+setflag FLAG_NUEVA_236
+setflag FLAG_NUEVA_237
+setflag FLAG_NUEVA_238
+setflag FLAG_NUEVA_239
+setflag FLAG_NUEVA_240
+setflag FLAG_NUEVA_241
+setflag FLAG_NUEVA_242
+setflag FLAG_NUEVA_243
+setflag FLAG_NUEVA_244
+setflag FLAG_NUEVA_245
+setflag FLAG_NUEVA_246
+setflag FLAG_NUEVA_247
+setflag FLAG_NUEVA_248
+setflag FLAG_NUEVA_249
+setflag FLAG_NUEVA_250
+setflag FLAG_NUEVA_251
+setflag FLAG_NUEVA_252
+setflag FLAG_NUEVA_253
+setflag FLAG_NUEVA_254
+setflag FLAG_NUEVA_255
+setflag FLAG_NUEVA_256
+setflag FLAG_NUEVA_257
+setflag FLAG_NUEVA_258
+setflag FLAG_NUEVA_259
+setflag FLAG_NUEVA_260
+setflag FLAG_NUEVA_261
+setflag FLAG_NUEVA_262
+setflag FLAG_NUEVA_263
+setflag FLAG_NUEVA_264
+setflag FLAG_NUEVA_265
+setflag FLAG_NUEVA_266
+setflag FLAG_NUEVA_267
+setflag FLAG_NUEVA_268
+setflag FLAG_NUEVA_269
+setflag FLAG_NUEVA_270
+setflag FLAG_NUEVA_271
+setflag FLAG_NUEVA_272
+setflag FLAG_NUEVA_273
+setflag FLAG_NUEVA_274
+setflag FLAG_NUEVA_275
+setflag FLAG_NUEVA_276
+setflag FLAG_NUEVA_277
+setflag FLAG_NUEVA_278
+setflag FLAG_NUEVA_279
+setflag FLAG_NUEVA_280
+setflag FLAG_NUEVA_281
+setflag FLAG_NUEVA_282
+setflag FLAG_NUEVA_283
+setflag FLAG_NUEVA_284
+setflag FLAG_NUEVA_285
+setflag FLAG_NUEVA_286
+setflag FLAG_NUEVA_287
+setflag FLAG_NUEVA_288
+setflag FLAG_NUEVA_289
+setflag FLAG_NUEVA_290
+setflag FLAG_NUEVA_291
+setflag FLAG_NUEVA_292
+setflag FLAG_NUEVA_293
+setflag FLAG_NUEVA_294
+setflag FLAG_NUEVA_295
+setflag FLAG_NUEVA_296
+setflag FLAG_NUEVA_297
+setflag FLAG_NUEVA_298
+setflag FLAG_NUEVA_299
+setflag FLAG_NUEVA_300
+setflag FLAG_NUEVA_301
+setflag FLAG_NUEVA_302
+setflag FLAG_NUEVA_303
+setflag FLAG_NUEVA_304
+setflag FLAG_NUEVA_305
+setflag FLAG_NUEVA_306
+setflag FLAG_NUEVA_307
+setflag FLAG_NUEVA_308
+setflag FLAG_NUEVA_309
+setflag FLAG_NUEVA_310
+setflag FLAG_NUEVA_311
+setflag FLAG_NUEVA_312
+setflag FLAG_NUEVA_313
+setflag FLAG_NUEVA_314
+setflag FLAG_NUEVA_315
+setflag FLAG_NUEVA_316
+setflag FLAG_NUEVA_317
+setflag FLAG_NUEVA_318
+setflag FLAG_NUEVA_319
+setflag FLAG_NUEVA_320
+setflag FLAG_NUEVA_321
+setflag FLAG_NUEVA_322
+setflag FLAG_NUEVA_323
+setflag FLAG_NUEVA_324
+setflag FLAG_NUEVA_325
+setflag FLAG_NUEVA_326
+setflag FLAG_NUEVA_327
+setflag FLAG_NUEVA_328
+setflag FLAG_NUEVA_329
+setflag FLAG_NUEVA_330
+setflag FLAG_NUEVA_331
+setflag FLAG_NUEVA_332
+setflag FLAG_NUEVA_333
+setflag FLAG_NUEVA_334
+setflag FLAG_NUEVA_335
+setflag FLAG_NUEVA_336
+setflag FLAG_NUEVA_337
+setflag FLAG_NUEVA_338
+setflag FLAG_NUEVA_339
+setflag FLAG_NUEVA_340
+setflag FLAG_NUEVA_341
+setflag FLAG_NUEVA_342
+setflag FLAG_NUEVA_343
+setflag FLAG_NUEVA_344
+setflag FLAG_NUEVA_345
+setflag FLAG_NUEVA_346
+setflag FLAG_NUEVA_347
+setflag FLAG_NUEVA_348
+setflag FLAG_NUEVA_349
+setflag FLAG_NUEVA_350
+setflag FLAG_NUEVA_351
+setflag FLAG_NUEVA_352
+setflag FLAG_NUEVA_353
+setflag FLAG_NUEVA_354
+setflag FLAG_NUEVA_355
+setflag FLAG_NUEVA_356
+setflag FLAG_NUEVA_357
+setflag FLAG_NUEVA_358
+setflag FLAG_NUEVA_359
+setflag FLAG_NUEVA_360
+setflag FLAG_NUEVA_361
+setflag FLAG_NUEVA_362
+setflag FLAG_NUEVA_363
+setflag FLAG_NUEVA_364
+setflag FLAG_NUEVA_365
+setflag FLAG_NUEVA_366
+setflag FLAG_NUEVA_367
+setflag FLAG_NUEVA_368
+setflag FLAG_NUEVA_369
+setflag FLAG_NUEVA_370
+setflag FLAG_NUEVA_371
+setflag FLAG_NUEVA_372
+setflag FLAG_NUEVA_373
+setflag FLAG_NUEVA_374
+setflag FLAG_NUEVA_375
+setflag FLAG_NUEVA_376
+setflag FLAG_NUEVA_377
+setflag FLAG_NUEVA_378
+setflag FLAG_NUEVA_379
+setflag FLAG_NUEVA_380
+setflag FLAG_NUEVA_381
+setflag FLAG_NUEVA_382
+setflag FLAG_NUEVA_383
+setflag FLAG_NUEVA_384
+setflag FLAG_NUEVA_385
+setflag FLAG_NUEVA_386
+setflag FLAG_NUEVA_387
+setflag FLAG_NUEVA_388
+setflag FLAG_NUEVA_389
+setflag FLAG_NUEVA_390
+setflag FLAG_NUEVA_391
+setflag FLAG_NUEVA_392
+setflag FLAG_NUEVA_393
+setflag FLAG_NUEVA_394
+setflag FLAG_NUEVA_395
+setflag FLAG_NUEVA_396
+setflag FLAG_NUEVA_397
+setflag FLAG_NUEVA_398
+setflag FLAG_NUEVA_399
+setflag FLAG_NUEVA_400
+setflag FLAG_NUEVA_401
+setflag FLAG_NUEVA_402
+setflag FLAG_NUEVA_403
+setflag FLAG_NUEVA_404
+setflag FLAG_NUEVA_405
+setflag FLAG_NUEVA_406
+setflag FLAG_NUEVA_407
+setflag FLAG_NUEVA_408
+setflag FLAG_NUEVA_409
+setflag FLAG_NUEVA_410
+setflag FLAG_NUEVA_411
+setflag FLAG_NUEVA_412
+setflag FLAG_NUEVA_413
+setflag FLAG_NUEVA_414
+setflag FLAG_NUEVA_415
+setflag FLAG_NUEVA_416
+setflag FLAG_NUEVA_417
+setflag FLAG_NUEVA_418
+setflag FLAG_NUEVA_419
+setflag FLAG_NUEVA_420
+setflag FLAG_NUEVA_421
+setflag FLAG_NUEVA_422
+setflag FLAG_NUEVA_423
+setflag FLAG_NUEVA_424
+setflag FLAG_NUEVA_425
+setflag FLAG_NUEVA_426
+setflag FLAG_NUEVA_427
+setflag FLAG_NUEVA_428
+setflag FLAG_NUEVA_429
+setflag FLAG_NUEVA_430
+setflag FLAG_NUEVA_431
+setflag FLAG_NUEVA_432
+setflag FLAG_NUEVA_433
+setflag FLAG_NUEVA_434
+setflag FLAG_NUEVA_435
+setflag FLAG_NUEVA_436
+setflag FLAG_NUEVA_437
+setflag FLAG_NUEVA_438
+setflag FLAG_NUEVA_439
+setflag FLAG_NUEVA_440
+setflag FLAG_NUEVA_441
+setflag FLAG_NUEVA_442
+setflag FLAG_NUEVA_443
+setflag FLAG_NUEVA_444
+setflag FLAG_NUEVA_445
+setflag FLAG_NUEVA_446
+setflag FLAG_NUEVA_447
+setflag FLAG_NUEVA_448
+setflag FLAG_NUEVA_449
+setflag FLAG_NUEVA_450
+setflag FLAG_NUEVA_451
+setflag FLAG_NUEVA_452
+setflag FLAG_NUEVA_453
+setflag FLAG_NUEVA_454
+setflag FLAG_NUEVA_455
+setflag FLAG_NUEVA_456
+setflag FLAG_NUEVA_457
+setflag FLAG_NUEVA_458
+setflag FLAG_NUEVA_459
+setflag FLAG_NUEVA_460
+setflag FLAG_NUEVA_461
+setflag FLAG_NUEVA_462
+setflag FLAG_NUEVA_463
+setflag FLAG_NUEVA_464
+setflag FLAG_NUEVA_465
+setflag FLAG_NUEVA_466
+setflag FLAG_NUEVA_467
+setflag FLAG_NUEVA_468
+setflag FLAG_NUEVA_469
+setflag FLAG_NUEVA_470
+setflag FLAG_NUEVA_471
+setflag FLAG_NUEVA_472
+setflag FLAG_NUEVA_473
+setflag FLAG_NUEVA_474
+setflag FLAG_NUEVA_475
+setflag FLAG_NUEVA_476
+setflag FLAG_NUEVA_477
+setflag FLAG_NUEVA_478
+setflag FLAG_NUEVA_479
+setflag FLAG_NUEVA_480
+setflag FLAG_NUEVA_481
+setflag FLAG_NUEVA_482
+setflag FLAG_NUEVA_483
+setflag FLAG_NUEVA_484
+setflag FLAG_NUEVA_485
+setflag FLAG_NUEVA_486
+setflag FLAG_NUEVA_487
+setflag FLAG_NUEVA_488
+setflag FLAG_NUEVA_489
+setflag FLAG_NUEVA_490
+setflag FLAG_NUEVA_491
+setflag FLAG_NUEVA_492
+setflag FLAG_NUEVA_493
+setflag FLAG_NUEVA_494
+setflag FLAG_NUEVA_495
+setflag FLAG_NUEVA_496
+setflag FLAG_NUEVA_497
+setflag FLAG_NUEVA_498
+setflag FLAG_NUEVA_499
+setflag FLAG_NUEVA_517
+setflag FLAG_NUEVA_523
+setflag FLAG_NUEVA_524
+setflag FLAG_NUEVA_525
+setflag FLAG_NUEVA_526
+setflag FLAG_NUEVA_527
+setflag FLAG_NUEVA_528
+setflag FLAG_NUEVA_529
+setflag FLAG_NUEVA_530
+setflag FLAG_NUEVA_531
+setflag FLAG_NUEVA_532
+setflag FLAG_NUEVA_533
+setflag FLAG_NUEVA_534
+setflag FLAG_NUEVA_535
+setflag FLAG_NUEVA_536
+setflag FLAG_NUEVA_537
+setflag FLAG_NUEVA_538
+setflag FLAG_NUEVA_539
+setflag FLAG_NUEVA_540
+setflag FLAG_NUEVA_541
+setflag FLAG_NUEVA_542
+setflag FLAG_NUEVA_543
+setflag FLAG_NUEVA_544
+setflag FLAG_NUEVA_545
+setflag FLAG_NUEVA_546
+setflag FLAG_NUEVA_547
+setflag FLAG_NUEVA_548
+setflag FLAG_NUEVA_549
+setflag FLAG_NUEVA_550
+setflag FLAG_NUEVA_551
+setflag FLAG_NUEVA_552
+setflag FLAG_NUEVA_553
+setflag FLAG_NUEVA_554
+setflag FLAG_NUEVA_555
+setflag FLAG_NUEVA_556
+setflag FLAG_NUEVA_557
+setflag FLAG_NUEVA_558
+setflag FLAG_NUEVA_559
+setflag FLAG_NUEVA_560
+setflag FLAG_NUEVA_561
+setflag FLAG_NUEVA_562
+setflag FLAG_NUEVA_563
+setflag FLAG_NUEVA_564
+setflag FLAG_NUEVA_565
+setflag FLAG_NUEVA_566
+setflag FLAG_NUEVA_567
+setflag FLAG_NUEVA_686
+setflag FLAG_NUEVA_687
+setflag FLAG_NUEVA_688
+setflag FLAG_NUEVA_689
+setflag FLAG_NUEVA_690
+setflag FLAG_NUEVA_691
+setflag FLAG_NUEVA_692
+setflag FLAG_NUEVA_693
+setflag FLAG_NUEVA_790
+setflag FLAG_UNUSED_0x26E
+clearflag FLAG_NUEVA_500
+clearflag FLAG_NUEVA_501
+clearflag FLAG_NUEVA_502
+clearflag FLAG_NUEVA_503
+clearflag FLAG_NUEVA_504
+clearflag FLAG_NUEVA_505
+clearflag FLAG_NUEVA_506
+clearflag FLAG_NUEVA_507
+clearflag FLAG_NUEVA_508
+clearflag FLAG_NUEVA_509
+clearflag FLAG_NUEVA_510
+clearflag FLAG_NUEVA_511
+clearflag FLAG_NUEVA_512
+clearflag FLAG_NUEVA_513
+clearflag FLAG_NUEVA_514
+clearflag FLAG_NUEVA_515
+clearflag FLAG_NUEVA_516
+clearflag FLAG_NUEVA_518
+clearflag FLAG_NUEVA_519
+clearflag FLAG_NUEVA_520
+clearflag FLAG_NUEVA_521
+clearflag FLAG_NUEVA_522
+clearflag FLAG_NUEVA_557
+clearflag FLAG_NUEVA_558
+clearflag FLAG_NUEVA_559
+clearflag FLAG_NUEVA_560
+clearflag FLAG_NUEVA_561
+clearflag FLAG_NUEVA_562
+clearflag FLAG_NUEVA_563
+clearflag FLAG_NUEVA_564
+clearflag FLAG_NUEVA_565
+clearflag FLAG_NUEVA_566
+clearflag FLAG_NUEVA_567
+clearflag FLAG_NUEVA_568
+clearflag FLAG_NUEVA_569
+clearflag FLAG_NUEVA_570
+clearflag FLAG_NUEVA_571
+clearflag FLAG_NUEVA_572
+clearflag FLAG_NUEVA_573
+clearflag FLAG_NUEVA_574
+clearflag FLAG_NUEVA_575
+clearflag FLAG_NUEVA_576
+clearflag FLAG_NUEVA_577
+clearflag FLAG_NUEVA_578
+clearflag FLAG_NUEVA_579
+clearflag FLAG_NUEVA_580
+clearflag FLAG_NUEVA_581
+clearflag FLAG_NUEVA_582
+clearflag FLAG_NUEVA_583
+clearflag FLAG_NUEVA_584
+clearflag FLAG_NUEVA_585
+clearflag FLAG_NUEVA_586
+clearflag FLAG_NUEVA_587
+clearflag FLAG_NUEVA_588
+clearflag FLAG_NUEVA_589
+clearflag FLAG_NUEVA_590
+clearflag FLAG_NUEVA_591
+clearflag FLAG_NUEVA_592
+clearflag FLAG_NUEVA_593
+clearflag FLAG_NUEVA_594
+clearflag FLAG_NUEVA_595
+clearflag FLAG_NUEVA_596
+clearflag FLAG_NUEVA_597
+clearflag FLAG_NUEVA_598
+clearflag FLAG_NUEVA_599
+clearflag FLAG_NUEVA_600
+clearflag FLAG_NUEVA_601
+clearflag FLAG_NUEVA_602
+clearflag FLAG_NUEVA_603
+clearflag FLAG_NUEVA_604
+clearflag FLAG_NUEVA_605
+clearflag FLAG_NUEVA_606
+clearflag FLAG_NUEVA_607
+clearflag FLAG_NUEVA_608
+clearflag FLAG_NUEVA_609
+clearflag FLAG_NUEVA_610
+clearflag FLAG_NUEVA_611
+clearflag FLAG_NUEVA_612
+clearflag FLAG_NUEVA_613
+clearflag FLAG_NUEVA_614
+clearflag FLAG_NUEVA_615
+clearflag FLAG_NUEVA_616
+clearflag FLAG_NUEVA_617
+clearflag FLAG_NUEVA_618
+clearflag FLAG_NUEVA_619
+clearflag FLAG_NUEVA_620
+clearflag FLAG_NUEVA_621
+clearflag FLAG_NUEVA_622
+clearflag FLAG_NUEVA_623
+clearflag FLAG_NUEVA_624
+clearflag FLAG_NUEVA_625
+clearflag FLAG_NUEVA_626
+clearflag FLAG_NUEVA_627
+clearflag FLAG_NUEVA_628
+clearflag FLAG_NUEVA_629
+clearflag FLAG_NUEVA_630
+clearflag FLAG_NUEVA_631
+clearflag FLAG_NUEVA_632
+clearflag FLAG_NUEVA_633
+clearflag FLAG_NUEVA_634
+clearflag FLAG_NUEVA_635
+clearflag FLAG_NUEVA_636
+clearflag FLAG_NUEVA_637
+clearflag FLAG_NUEVA_638
+clearflag FLAG_NUEVA_639
+clearflag FLAG_NUEVA_640
+clearflag FLAG_NUEVA_641
+clearflag FLAG_NUEVA_642
+clearflag FLAG_NUEVA_643
+clearflag FLAG_NUEVA_644
+clearflag FLAG_NUEVA_645
+clearflag FLAG_NUEVA_646
+clearflag FLAG_NUEVA_647
+clearflag FLAG_NUEVA_648
+clearflag FLAG_NUEVA_649
+clearflag FLAG_NUEVA_650
+clearflag FLAG_NUEVA_651
+clearflag FLAG_NUEVA_652
+clearflag FLAG_NUEVA_653
+clearflag FLAG_NUEVA_654
+clearflag FLAG_NUEVA_655
+clearflag FLAG_NUEVA_656
+clearflag FLAG_NUEVA_657
+clearflag FLAG_NUEVA_658
+clearflag FLAG_NUEVA_659
+clearflag FLAG_NUEVA_660
+clearflag FLAG_NUEVA_661
+clearflag FLAG_NUEVA_662
+clearflag FLAG_NUEVA_663
+clearflag FLAG_NUEVA_664
+clearflag FLAG_NUEVA_665
+clearflag FLAG_NUEVA_666
+clearflag FLAG_NUEVA_667
+clearflag FLAG_NUEVA_668
+clearflag FLAG_NUEVA_669
+clearflag FLAG_NUEVA_670
+clearflag FLAG_NUEVA_671
+clearflag FLAG_NUEVA_672
+clearflag FLAG_NUEVA_673
+clearflag FLAG_NUEVA_674
+clearflag FLAG_NUEVA_675
+clearflag FLAG_NUEVA_676
+clearflag FLAG_NUEVA_677
+clearflag FLAG_NUEVA_678
+clearflag FLAG_NUEVA_679
+clearflag FLAG_NUEVA_680
+clearflag FLAG_NUEVA_681
+clearflag FLAG_NUEVA_682
+clearflag FLAG_NUEVA_683
+clearflag FLAG_NUEVA_684
+clearflag FLAG_NUEVA_685
+clearflag FLAG_NUEVA_694
+clearflag FLAG_NUEVA_695
+clearflag FLAG_NUEVA_696
+clearflag FLAG_NUEVA_697
+clearflag FLAG_NUEVA_698
+clearflag FLAG_NUEVA_699
+clearflag FLAG_NUEVA_700
+clearflag FLAG_NUEVA_701
+clearflag FLAG_NUEVA_702
+clearflag FLAG_NUEVA_703
+clearflag FLAG_NUEVA_704
+clearflag FLAG_NUEVA_705
+clearflag FLAG_NUEVA_706
+clearflag FLAG_NUEVA_707
+clearflag FLAG_NUEVA_708
+clearflag FLAG_NUEVA_709
+clearflag FLAG_NUEVA_710
+clearflag FLAG_NUEVA_711
+clearflag FLAG_NUEVA_712
+clearflag FLAG_NUEVA_713
+clearflag FLAG_NUEVA_714
+clearflag FLAG_NUEVA_715
+clearflag FLAG_NUEVA_716
+clearflag FLAG_NUEVA_717
+clearflag FLAG_NUEVA_718
+clearflag FLAG_NUEVA_719
+clearflag FLAG_NUEVA_720
+clearflag FLAG_NUEVA_721
+clearflag FLAG_NUEVA_722
+clearflag FLAG_NUEVA_723
+clearflag FLAG_NUEVA_724
+clearflag FLAG_NUEVA_725
+clearflag FLAG_NUEVA_726
+clearflag FLAG_NUEVA_727
+clearflag FLAG_NUEVA_728
+clearflag FLAG_NUEVA_729
+clearflag FLAG_NUEVA_730
+clearflag FLAG_NUEVA_731
+clearflag FLAG_NUEVA_732
+clearflag FLAG_NUEVA_733
+clearflag FLAG_NUEVA_734
+clearflag FLAG_NUEVA_735
+clearflag FLAG_NUEVA_736
+clearflag FLAG_NUEVA_737
+clearflag FLAG_NUEVA_738
+clearflag FLAG_NUEVA_739
+clearflag FLAG_NUEVA_740
+clearflag FLAG_NUEVA_741
+clearflag FLAG_NUEVA_742
+clearflag FLAG_NUEVA_743
+clearflag FLAG_NUEVA_744
+clearflag FLAG_NUEVA_745
+clearflag FLAG_NUEVA_746
+clearflag FLAG_NUEVA_747
+clearflag FLAG_NUEVA_748
+clearflag FLAG_NUEVA_749
+clearflag FLAG_NUEVA_750
+clearflag FLAG_NUEVA_751
+clearflag FLAG_NUEVA_752
+clearflag FLAG_NUEVA_753
+clearflag FLAG_NUEVA_754
+clearflag FLAG_NUEVA_755
+clearflag FLAG_NUEVA_756
+clearflag FLAG_NUEVA_757
+clearflag FLAG_NUEVA_758
+clearflag FLAG_NUEVA_759
+clearflag FLAG_NUEVA_760
+clearflag FLAG_NUEVA_761
+clearflag FLAG_NUEVA_762
+clearflag FLAG_NUEVA_763
+clearflag FLAG_NUEVA_764
+clearflag FLAG_NUEVA_765
+clearflag FLAG_NUEVA_766
+clearflag FLAG_NUEVA_767
+clearflag FLAG_NUEVA_768
+clearflag FLAG_NUEVA_769
+clearflag FLAG_NUEVA_770
+clearflag FLAG_NUEVA_771
+clearflag FLAG_NUEVA_772
+clearflag FLAG_NUEVA_773
+clearflag FLAG_NUEVA_774
+clearflag FLAG_NUEVA_775
+clearflag FLAG_NUEVA_776
+clearflag FLAG_NUEVA_777
+clearflag FLAG_NUEVA_778
+clearflag FLAG_NUEVA_779
+clearflag FLAG_NUEVA_780
+clearflag FLAG_NUEVA_781
+clearflag FLAG_NUEVA_782
+clearflag FLAG_NUEVA_783
+clearflag FLAG_NUEVA_784
+clearflag FLAG_NUEVA_785
+clearflag FLAG_NUEVA_786
+clearflag FLAG_NUEVA_787
+clearflag FLAG_NUEVA_788
+clearflag FLAG_NUEVA_789
+clearflag FLAG_NUEVA_791
+clearflag FLAG_NUEVA_792
+clearflag FLAG_NUEVA_793
+clearflag FLAG_NUEVA_794
+clearflag FLAG_NUEVA_795
+clearflag FLAG_NUEVA_796
+clearflag FLAG_NUEVA_797
+clearflag FLAG_NUEVA_798
+clearflag FLAG_NUEVA_799
+clearflag FLAG_NUEVA_800
+clearflag FLAG_NUEVA_801
+clearflag FLAG_NUEVA_802
+clearflag FLAG_NUEVA_803
+clearflag FLAG_NUEVA_804
+clearflag FLAG_NUEVA_805
+clearflag FLAG_NUEVA_806
+clearflag FLAG_NUEVA_807
+clearflag FLAG_NUEVA_808
+clearflag FLAG_NUEVA_809
+clearflag FLAG_NUEVA_810
+clearflag FLAG_NUEVA_811
+clearflag FLAG_NUEVA_812
+clearflag FLAG_NUEVA_813
+clearflag FLAG_NUEVA_814
+clearflag FLAG_NUEVA_815
+clearflag FLAG_NUEVA_816
+clearflag FLAG_NUEVA_817
+clearflag FLAG_NUEVA_818
+clearflag FLAG_NUEVA_819
+clearflag FLAG_NUEVA_820
+clearflag FLAG_NUEVA_821
+clearflag FLAG_NUEVA_822
+clearflag FLAG_NUEVA_823
+clearflag FLAG_NUEVA_824
+clearflag FLAG_NUEVA_825
+clearflag FLAG_NUEVA_826
+clearflag FLAG_NUEVA_827
+clearflag FLAG_NUEVA_828
+clearflag FLAG_NUEVA_829
+clearflag FLAG_NUEVA_830
+clearflag FLAG_NUEVA_831
+clearflag FLAG_NUEVA_832
+clearflag FLAG_NUEVA_833
+clearflag FLAG_NUEVA_834
+clearflag FLAG_NUEVA_835
+clearflag FLAG_NUEVA_836
+clearflag FLAG_NUEVA_837
+clearflag FLAG_NUEVA_838
+clearflag FLAG_NUEVA_839
+clearflag FLAG_NUEVA_840
+clearflag FLAG_NUEVA_841
+clearflag FLAG_NUEVA_842
+clearflag FLAG_NUEVA_843
+clearflag FLAG_NUEVA_844
+clearflag FLAG_NUEVA_845
+clearflag FLAG_NUEVA_846
+clearflag FLAG_NUEVA_847
+clearflag FLAG_NUEVA_848
+clearflag FLAG_NUEVA_849
+clearflag FLAG_NUEVA_850
+clearflag FLAG_NUEVA_851
+clearflag FLAG_NUEVA_852
+clearflag FLAG_NUEVA_853
+clearflag FLAG_NUEVA_854
+clearflag FLAG_NUEVA_855
+clearflag FLAG_NUEVA_856
+clearflag FLAG_NUEVA_857
+clearflag FLAG_NUEVA_858
+clearflag FLAG_NUEVA_859
+clearflag FLAG_NUEVA_860
+clearflag FLAG_NUEVA_861
+clearflag FLAG_NUEVA_862
+clearflag FLAG_NUEVA_863
+clearflag FLAG_UNUSED_0x264
+clearflag FLAG_UNUSED_0x265
+clearflag FLAG_UNUSED_0x266
+clearflag FLAG_UNUSED_0x267
+clearflag FLAG_UNUSED_0x268
+clearflag FLAG_UNUSED_0x269
+clearflag FLAG_UNUSED_0x26A
+clearflag FLAG_UNUSED_0x26B
+clearflag FLAG_UNUSED_0x26C
+clearflag FLAG_UNUSED_0x26D
+clearflag FLAG_UNUSED_0x26F
+clearflag FLAG_UNUSED_0x270
+clearflag FLAG_UNUSED_0x271
+clearflag FLAG_UNUSED_0x272
+clearflag FLAG_UNUSED_0x273
+clearflag FLAG_UNUSED_0x274
+clearflag FLAG_UNUSED_0x275
+clearflag FLAG_UNUSED_0x276
+clearflag FLAG_UNUSED_0x277
+clearflag FLAG_UNUSED_0x278
+clearflag FLAG_UNUSED_0x279
+return
 	
 EventScript_SetKanto::
+	additem ITEM_MASTER_BALL
+	additem ITEM_ULTRA_BALL, 40
+	additem ITEM_GREAT_BALL, 40
+	additem ITEM_POKE_BALL, 40
+	additem ITEM_FULL_RESTORE, 20
+	additem ITEM_MAX_POTION, 20
+	additem ITEM_FULL_HEAL, 20
+	additem ITEM_REVIVE, 20
+	additem ITEM_MAX_REVIVE, 5
+	additem ITEM_PP_UP, 8
+	additem ITEM_PP_MAX, 2
+	additem ITEM_ETHER, 5
+	additem ITEM_MAX_ETHER, 5
+	additem ITEM_ELIXIR, 3
+	additem ITEM_MAX_ELIXIR, 2
+	additem ITEM_RARE_CANDY, 10
+	additem ITEM_HP_UP, 50
+	additem ITEM_PROTEIN, 50
+	additem ITEM_IRON, 50
+	additem ITEM_CALCIUM, 50
+	additem ITEM_ZINC, 50
+	additem ITEM_CARBOS, 50
+	additem ITEM_TM01
+	additem ITEM_TM02
+	additem ITEM_TM03
+	additem ITEM_TM04
+	additem ITEM_TM05
+	additem ITEM_TM06
+	additem ITEM_TM07
+	additem ITEM_TM08
+	additem ITEM_TM09
+	additem ITEM_TM10
+	additem ITEM_TM11
+	additem ITEM_TM12
+	additem ITEM_TM13
+	additem ITEM_TM14
+	additem ITEM_TM15
+	additem ITEM_TM16
+	additem ITEM_TM17
+	additem ITEM_TM18
+	additem ITEM_TM19
+	additem ITEM_TM20
+	additem ITEM_TM21
+	additem ITEM_TM22
+	additem ITEM_TM23
+	additem ITEM_TM24
+	additem ITEM_TM25
+	additem ITEM_TM26
+	additem ITEM_TM27
+	additem ITEM_TM28
+	additem ITEM_TM29
+	additem ITEM_TM30
+	additem ITEM_TM31
+	additem ITEM_TM32
+	additem ITEM_TM33
+	additem ITEM_TM34
+	additem ITEM_TM35
+	additem ITEM_TM36
+	additem ITEM_TM37
+	additem ITEM_TM38
+	additem ITEM_TM39
+	additem ITEM_TM40
+	additem ITEM_TM41
+	additem ITEM_TM42
+	additem ITEM_TM43
+	additem ITEM_TM44
+	additem ITEM_TM45
+	additem ITEM_TM46
+	additem ITEM_TM47
+	additem ITEM_TM48
+	additem ITEM_TM49
+	additem ITEM_TM50
+	additem ITEM_HM01
+	additem ITEM_HM02
+	additem ITEM_HM03
+	additem ITEM_HM04
+	additem ITEM_HM06
+	additem ITEM_DOWSING_MACHINE
+	additem ITEM_MACH_BIKE
+	additem ITEM_LIFT_KEY
+	additem ITEM_CONTEST_PASS
+	additem ITEM_CARD_KEY
+	additem ITEM_EXP_SHARE
+	additem ITEM_LONELY_MINT
+	additem ITEM_ADAMANT_MINT
+	additem ITEM_NAUGHTY_MINT
+	additem ITEM_BRAVE_MINT
+	additem ITEM_BOLD_MINT
+	additem ITEM_IMPISH_MINT
+	additem ITEM_LAX_MINT
+	additem ITEM_RELAXED_MINT
+	additem ITEM_MODEST_MINT
+	additem ITEM_MILD_MINT
+	additem ITEM_RASH_MINT
+	additem ITEM_QUIET_MINT
+	additem ITEM_CALM_MINT
+	additem ITEM_GENTLE_MINT
+	additem ITEM_CAREFUL_MINT
+	additem ITEM_SASSY_MINT
+	additem ITEM_TIMID_MINT
+	additem ITEM_HASTY_MINT
+	additem ITEM_JOLLY_MINT
+	additem ITEM_NAIVE_MINT
+	additem ITEM_SERIOUS_MINT
+	additem ITEM_ABILITY_CAPSULE, 3
+	@FIN ITEMS
+	call EventScript_SetItemsKanto
 	call EventScript_SetTrainersKanto
 	setvar VAR_UNUSED_0x40F7, 94
 	setvar VAR_UNUSED_0x40FB, 1
@@ -1044,7 +3839,6 @@ EventScript_SetKanto::
 	setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 	setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
 	setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
-	setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
 	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 	setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
 	setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
@@ -1110,6 +3904,115 @@ EventScript_SetKanto::
 	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	end
 EventScript_SetSevii::
+	additem ITEM_MASTER_BALL, 2
+	additem ITEM_ULTRA_BALL, 40
+	additem ITEM_GREAT_BALL, 40
+	additem ITEM_POKE_BALL, 40
+	additem ITEM_FULL_RESTORE, 25
+	additem ITEM_MAX_POTION, 25
+	additem ITEM_FULL_HEAL, 25
+	additem ITEM_REVIVE, 25
+	additem ITEM_MAX_REVIVE, 8
+	additem ITEM_PP_UP, 10
+	additem ITEM_PP_MAX, 2
+	additem ITEM_ETHER, 5
+	additem ITEM_MAX_ETHER, 5
+	additem ITEM_ELIXIR, 3
+	additem ITEM_MAX_ELIXIR, 2
+	additem ITEM_RARE_CANDY, 15
+	additem ITEM_HP_UP, 50
+	additem ITEM_PROTEIN, 50
+	additem ITEM_IRON, 50
+	additem ITEM_CALCIUM, 50
+	additem ITEM_ZINC, 50
+	additem ITEM_CARBOS, 50
+	additem ITEM_TM01
+	additem ITEM_TM02
+	additem ITEM_TM03
+	additem ITEM_TM04
+	additem ITEM_TM05
+	additem ITEM_TM06
+	additem ITEM_TM07
+	additem ITEM_TM08
+	additem ITEM_TM09
+	additem ITEM_TM10
+	additem ITEM_TM11
+	additem ITEM_TM12
+	additem ITEM_TM13
+	additem ITEM_TM14
+	additem ITEM_TM15
+	additem ITEM_TM16
+	additem ITEM_TM17
+	additem ITEM_TM18
+	additem ITEM_TM19
+	additem ITEM_TM20
+	additem ITEM_TM21
+	additem ITEM_TM22
+	additem ITEM_TM23
+	additem ITEM_TM24
+	additem ITEM_TM25
+	additem ITEM_TM26
+	additem ITEM_TM27
+	additem ITEM_TM28
+	additem ITEM_TM29
+	additem ITEM_TM30
+	additem ITEM_TM31
+	additem ITEM_TM32
+	additem ITEM_TM33
+	additem ITEM_TM34
+	additem ITEM_TM35
+	additem ITEM_TM36
+	additem ITEM_TM37
+	additem ITEM_TM38
+	additem ITEM_TM39
+	additem ITEM_TM40
+	additem ITEM_TM41
+	additem ITEM_TM42
+	additem ITEM_TM43
+	additem ITEM_TM44
+	additem ITEM_TM45
+	additem ITEM_TM46
+	additem ITEM_TM47
+	additem ITEM_TM48
+	additem ITEM_TM49
+	additem ITEM_TM50
+	additem ITEM_TM51
+	additem ITEM_HM01
+	additem ITEM_HM02
+	additem ITEM_HM03
+	additem ITEM_HM04
+	additem ITEM_HM06
+	additem ITEM_DOWSING_MACHINE
+	additem ITEM_MACH_BIKE
+	additem ITEM_LIFT_KEY
+	additem ITEM_CONTEST_PASS
+	additem ITEM_CARD_KEY
+	additem ITEM_EXP_SHARE
+	additem ITEM_RAINBOW_PASS
+	additem ITEM_LONELY_MINT,3
+	additem ITEM_ADAMANT_MINT,3
+	additem ITEM_NAUGHTY_MINT,3
+	additem ITEM_BRAVE_MINT,3
+	additem ITEM_BOLD_MINT,3
+	additem ITEM_IMPISH_MINT,3
+	additem ITEM_LAX_MINT,3
+	additem ITEM_RELAXED_MINT,3
+	additem ITEM_MODEST_MINT,3
+	additem ITEM_MILD_MINT,3
+	additem ITEM_RASH_MINT,3
+	additem ITEM_QUIET_MINT,3
+	additem ITEM_CALM_MINT,3
+	additem ITEM_GENTLE_MINT,3
+	additem ITEM_CAREFUL_MINT,3
+	additem ITEM_SASSY_MINT,3
+	additem ITEM_TIMID_MINT,3
+	additem ITEM_HASTY_MINT,3
+	additem ITEM_JOLLY_MINT,3
+	additem ITEM_NAIVE_MINT,3
+	additem ITEM_SERIOUS_MINT,3
+	additem ITEM_ABILITY_CAPSULE, 4
+	@FIN ITEMS
+	call EventScript_SetItemsSevii
 	call EventScript_SetTrainersSevii
 	setvar VAR_UNUSED_0x40F7, 116
 	setvar VAR_UNUSED_0x404E, 1
@@ -1120,6 +4023,8 @@ EventScript_SetSevii::
 	setvar VAR_ROUTE112_STATE, 1
 	setvar VAR_ROUTE113_STATE, 1
 	setvar VAR_ROUTE114_STATE, 1
+	
+	//esto es lo de sevii
 	clearflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
@@ -1132,8 +4037,207 @@ EventScript_SetSevii::
 	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
 	setflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+	
+	// esto es lo de kanto
+	
+	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
+	clearflag FLAG_HIDE_FALLORBOR_POKEMON_CENTER_LANETTE
+	setflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+	setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_8 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+	setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS 
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HIDE_ROUTE_103_RIVAL
+	setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+	setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
+	setflag FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER
+	setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+	setflag FLAG_HIDE_PLAYERS_HOUSE_DAD
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
+	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
+	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY
+	setflag FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER
+	setflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
+	setflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+	setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
+	setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+	setflag FLAG_HIDE_ROUTE_119_SCOTT
+	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+	setflag FLAG_HIDE_FANCLUB_OLD_LADY
+	setflag FLAG_HIDE_FANCLUB_BOY
+	setflag FLAG_HIDE_FANCLUB_LITTLE_BOY 
+	setflag FLAG_HIDE_FANCLUB_LADY
+	setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT 
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+	setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+	setflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1
+	setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
+	setflag FLAG_HIDE_HO_OH
+	setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+	setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+	setflag FLAG_HIDE_MAUVILLE_CITY_WALLY
+	setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
+	setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
+	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	end
 EventScript_SetJohto::
+	additem ITEM_MASTER_BALL, 3
+	additem ITEM_ULTRA_BALL, 40
+	additem ITEM_GREAT_BALL, 40
+	additem ITEM_POKE_BALL, 40
+	additem ITEM_SACRED_ASH, 10
+	additem ITEM_FULL_RESTORE, 30
+	additem ITEM_MAX_POTION, 30
+	additem ITEM_FULL_HEAL, 30
+	additem ITEM_REVIVE, 30
+	additem ITEM_MAX_REVIVE, 12
+	additem ITEM_PP_UP, 12
+	additem ITEM_PP_MAX, 3
+	additem ITEM_ETHER, 7
+	additem ITEM_MAX_ETHER, 7
+	additem ITEM_ELIXIR, 5
+	additem ITEM_MAX_ELIXIR, 3
+	additem ITEM_RARE_CANDY, 20
+	additem ITEM_HP_UP, 50
+	additem ITEM_PROTEIN, 50
+	additem ITEM_IRON, 50
+	additem ITEM_CALCIUM, 50
+	additem ITEM_ZINC, 50
+	additem ITEM_CARBOS, 50
+	additem ITEM_TM01
+	additem ITEM_TM02
+	additem ITEM_TM03
+	additem ITEM_TM04
+	additem ITEM_TM05
+	additem ITEM_TM06
+	additem ITEM_TM07
+	additem ITEM_TM08
+	additem ITEM_TM09
+	additem ITEM_TM10
+	additem ITEM_TM11
+	additem ITEM_TM12
+	additem ITEM_TM13
+	additem ITEM_TM14
+	additem ITEM_TM15
+	additem ITEM_TM16
+	additem ITEM_TM17
+	additem ITEM_TM18
+	additem ITEM_TM19
+	additem ITEM_TM20
+	additem ITEM_TM21
+	additem ITEM_TM22
+	additem ITEM_TM23
+	additem ITEM_TM24
+	additem ITEM_TM25
+	additem ITEM_TM26
+	additem ITEM_TM27
+	additem ITEM_TM28
+	additem ITEM_TM29
+	additem ITEM_TM30
+	additem ITEM_TM31
+	additem ITEM_TM32
+	additem ITEM_TM33
+	additem ITEM_TM34
+	additem ITEM_TM35
+	additem ITEM_TM36
+	additem ITEM_TM37
+	additem ITEM_TM38
+	additem ITEM_TM39
+	additem ITEM_TM40
+	additem ITEM_TM41
+	additem ITEM_TM42
+	additem ITEM_TM43
+	additem ITEM_TM44
+	additem ITEM_TM45
+	additem ITEM_TM46
+	additem ITEM_TM47
+	additem ITEM_TM48
+	additem ITEM_TM49
+	additem ITEM_TM50
+	additem ITEM_TM51
+	additem ITEM_TM57
+	additem ITEM_TM59
+	additem ITEM_TM60
+	additem ITEM_TM61
+	additem ITEM_TM65
+	additem ITEM_TM77
+	additem ITEM_TM84
+	additem ITEM_TM87
+	additem ITEM_TM93
+	additem ITEM_TM99
+	additem ITEM_HM01
+	additem ITEM_HM02
+	additem ITEM_HM03
+	additem ITEM_HM04
+	additem ITEM_HM05
+	additem ITEM_HM06
+	additem ITEM_HM07
+	additem ITEM_DOWSING_MACHINE
+	additem ITEM_MACH_BIKE
+	additem ITEM_LIFT_KEY
+	additem ITEM_CONTEST_PASS
+	additem ITEM_CARD_KEY
+	additem ITEM_EXP_SHARE
+	additem ITEM_RAINBOW_PASS
+	additem ITEM_TOWN_MAP
+	additem ITEM_VS_SEEKER
+	additem ITEM_MEGA_RING
+	additem ITEM_SS_TICKET
+	additem ITEM_LONELY_MINT,6
+	additem ITEM_ADAMANT_MINT,6
+	additem ITEM_NAUGHTY_MINT,6
+	additem ITEM_BRAVE_MINT,6
+	additem ITEM_BOLD_MINT,6
+	additem ITEM_IMPISH_MINT,6
+	additem ITEM_LAX_MINT,6
+	additem ITEM_RELAXED_MINT,6
+	additem ITEM_MODEST_MINT,6
+	additem ITEM_MILD_MINT,6
+	additem ITEM_RASH_MINT,6
+	additem ITEM_QUIET_MINT,6
+	additem ITEM_CALM_MINT,6
+	additem ITEM_GENTLE_MINT,6
+	additem ITEM_CAREFUL_MINT,6
+	additem ITEM_SASSY_MINT,6
+	additem ITEM_TIMID_MINT,6
+	additem ITEM_HASTY_MINT,6
+	additem ITEM_JOLLY_MINT,6
+	additem ITEM_NAIVE_MINT,6
+	additem ITEM_SERIOUS_MINT,6
+	additem ITEM_ABILITY_CAPSULE, 5
+	@FIN ITEMS
+	call EventScript_SetItemsJohto
 	call EventScript_SetTrainersJohto
 	setvar VAR_UNUSED_0x40F7, 179
 	setvar VAR_UNUSED_0x40FE, 6
@@ -1173,5 +4277,94 @@ EventScript_SetJohto::
 	setflag FLAG_HIDE_ROUTE_111_DESERT_FOSSIL
 	setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
 	setflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
+	
+	//esto es lo de sevii
+	clearflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_2F_POKE_BALL
+	setflag FLAG_HIDE_ROUTE_112_TEAM_MAGMA
+	setflag FLAG_HIDE_CAVE_OF_ORIGIN_B1F_WALLACE
+	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_1_BLOCKING_ENTRANCE
+	setflag FLAG_HIDE_AQUA_HIDEOUT_1F_GRUNT_2_BLOCKING_ENTRANCE
+	setflag FLAG_HIDE_MOSSDEEP_CITY_TEAM_MAGMA
+	setflag FLAG_HIDE_SOOTOPOLIS_CITY_ARCHIE
+	setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
+	setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
+	setflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+	
+	// esto es lo de kanto
+	
+	clearflag FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1
+	clearflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA
+	clearflag FLAG_HIDE_FALLORBOR_POKEMON_CENTER_LANETTE
+	setflag FLAG_HIDE_ROUTE_104_WHITE_HERB_FLORIST
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+	setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+	setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_1
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_2
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_6
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_7
+	setflag FLAG_HIDE_UNION_ROOM_PLAYER_8 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_4 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5 
+	setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+	setflag FLAG_HIDE_SAFARI_ZONE_SOUTH_CONSTRUCTION_WORKERS 
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HIDE_ROUTE_103_RIVAL
+	setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+	setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLY
+	setflag FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM
+	setflag FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER
+	setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
+	setflag FLAG_HIDE_PLAYERS_HOUSE_DAD
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE
+	setflag FLAG_HIDE_ROUTE_104_MR_BRINEY
+	setflag FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY
+	setflag FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN
+	setflag FLAG_HIDE_ROUTE_109_MR_BRINEY
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY
+	setflag FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER
+	setflag FLAG_HIDE_ROUTE_101_ZIGZAGOON
+	setflag FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+	setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
+	setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1
+	setflag FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
+	setflag FLAG_HIDE_ROUTE_119_SCOTT
+	setflag FLAG_HIDE_LILYCOVE_MOTEL_SCOTT
+	setflag FLAG_HIDE_MOSSDEEP_CITY_SCOTT
+	setflag FLAG_HIDE_FANCLUB_OLD_LADY
+	setflag FLAG_HIDE_FANCLUB_BOY
+	setflag FLAG_HIDE_FANCLUB_LITTLE_BOY 
+	setflag FLAG_HIDE_FANCLUB_LADY
+	setflag FLAG_HIDE_EVER_GRANDE_POKEMON_CENTER_1F_SCOTT 
+	setflag FLAG_HIDE_LITTLEROOT_TOWN_RIVAL
+	setflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
+	setflag FLAG_HIDE_ROUTE_120_GABBY_AND_TY_1
+	setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
+	setflag FLAG_HIDE_HO_OH
+	setflag FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER
+	setflag FLAG_HIDE_SLATEPORT_CITY_CONTEST_REPORTER
+	setflag FLAG_HIDE_MAUVILLE_CITY_WALLY
+	setflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WANDAS_BOYFRIEND
+	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLYS_UNCLE
+	setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
+	setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 	end
 	
+
+

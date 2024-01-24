@@ -4,16 +4,16 @@
 #include "item_menu.h"
 
 
-	ALIGNED(4) const u8 gText_WonderCards[] = _("Kanto");
-    ALIGNED(4) const u8 gText_WonderNews[] = _("Archi7");
-	ALIGNED(4) const u8 gText_Dlc[] = _("Johto");
+	ALIGNED(4) const u8 gText_WonderCards[] = _("Archi7");
+    ALIGNED(4) const u8 gText_WonderNews[] = _("Johto");
+	ALIGNED(4) const u8 gText_Dlc[] = _("DLC");
 	ALIGNED(4) const u8 gText_PostgameKanto[] = _("En este punto, los eventos de Kanto han acabado.\nHe aquí una lista de los cambios:");
 	ALIGNED(4) const u8 gText_PostgameKanto2[] = _("-Entrenadores hasta este punto derrotados.\n-Pokémon obtenibles hasta este punto en PC.");
 	ALIGNED(4) const u8 gText_PostgameKanto3[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 63.");
 	ALIGNED(4) const u8 gText_PostgameKanto4[] = _("Ten en cuenta que esta acción\nno se puede revertir, ¿de acuerdo?");
 	ALIGNED(4) const u8 gText_PostgameKanto5[] = _("En este punto, inician los eventos de Johto.\nHe aquí una lista de los cambios:");
 	ALIGNED(4) const u8 gText_PostgameKanto6[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 77.");
-	ALIGNED(4) const u8 gText_PostgameKanto7[] = _("Descubrimos una Kanto y Johto diferentes.\nHe aquí una lista de los cambios:");
+	ALIGNED(4) const u8 gText_PostgameKanto7[] = _("Los eventos suceden tras la aventura en Johto.\nDescubriremos una Kanto y Johto diferentes.");
 	ALIGNED(4) const u8 gText_PostgameKanto8[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 98.");
 	ALIGNED(4) const u8 gText_Final[] = _("Proceso finalizado…\nRecuerda acudir al despacho de Giovanni.");
 	ALIGNED(4) const u8 gText_ComoFunciona2[] = _("Está a tu disposición diferentes packs\ncon una temática Pokémon.");
@@ -1230,18 +1230,18 @@ const u8 gText_ThunderPunch48BP[] = _("THUNDERPUNCH{CLEAR_TO 0x4E}48BP");
 const u8 gText_FirePunch48BP[] = _("FIRE PUNCH{CLEAR_TO 0x4E}48BP");
 const u8 gText_PkmnFainted3[] = _("{STR_VAR_1} fainted…\p\n");
 const u8 gText_Marco[] = _("MARCO");
-const u8 gText_TrainerCardName[] = _("NAME: ");
+const u8 gText_TrainerCardName[] = _("Nombre: ");
 const u8 gText_TrainerCardIDNo[] = _("IDNo.");
-const u8 gText_TrainerCardMoney[] = _("MONEY");
+const u8 gText_TrainerCardMoney[] = _("Dinero");
 const u8 gText_PokeDollar[] = _("¥"); // Unused
-const u8 gText_TrainerCardPokedex[] = _("POKéDEX");
+const u8 gText_TrainerCardPokedex[] = _("Pokédex");
 const u8 gText_EmptyString6[] = _("");
 const u8 gText_Colon2[] = _(":");
 const u8 gText_Points[] = _(" points"); // Unused
-const u8 gText_TrainerCardTime[] = _("TIME");
+const u8 gText_TrainerCardTime[] = _("Tiempo J.");
 const u8 gJPText_BattlePoints[] = _("ゲ-ムポイント"); // Unused. Name presumed, translation is Game Points
-const u8 gText_Var1sTrainerCard[] = _("{STR_VAR_1}'s TRAINER CARD");
-const u8 gText_HallOfFameDebut[] = _("HALL OF FAME DEBUT  ");
+const u8 gText_Var1sTrainerCard[] = _("Medallas de {STR_VAR_1}");
+const u8 gText_HallOfFameDebut[] = _("Kanto:\nJohto:\nArchi7:\nHoenn:");
 const u8 gText_LinkBattles[] = _("LINK BATTLES");
 const u8 gText_LinkCableBattles[] = _("LINK CABLE BATTLES");
 const u8 gText_WinsLosses[] = _("W:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_1}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}  L:{COLOR RED}{SHADOW LIGHT_RED}{STR_VAR_2}{COLOR DARK_GRAY}{SHADOW LIGHT_GRAY}");

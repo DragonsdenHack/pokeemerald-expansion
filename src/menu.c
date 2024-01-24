@@ -2126,7 +2126,8 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
     s32 flagCount;
     u8 *endOfString;
     u8 *string = dest;
-
+	u8 badgeCount = 0;
+	u32 i;
     *(string++) = EXT_CTRL_CODE_BEGIN;
     *(string++) = EXT_CTRL_CODE_COLOR;
     *(string++) = color;
@@ -2155,13 +2156,97 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
             GetMapNameGeneric(string, gMapHeader.regionMapSectionId);
             break;
         case SAVE_MENU_BADGES:
-            for (curFlag = FLAG_BADGE01_GET, flagCount = 0, endOfString = string + 1; curFlag < FLAG_BADGE01_GET + NUM_BADGES; curFlag++)
-            {
-                if (FlagGet(curFlag))
-                    flagCount++;
-            }
-            *string = flagCount + CHAR_0;
-            *endOfString = EOS;
+			if(FlagGet(FLAG_SYS_CAVE_SHIP))
+			{
+				badgeCount = 16;
+			}
+            // if (FlagGet(FLAG_BADGE01_GET))
+			// {
+				// badgeCount = 1;	
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET))
+			// {
+				// badgeCount = 2;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET))
+			// {
+				// badgeCount = 3;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET))
+			// {
+				// badgeCount = 4;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET))
+			// {
+				// badgeCount = 5;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET))
+			// {
+				// badgeCount = 6;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET))
+			// {
+				// badgeCount = 7;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET))
+			// {
+				// badgeCount = 8;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET))
+			// {
+				// badgeCount = 9;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET))
+			// {
+				// badgeCount = 10;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET))
+			// {
+				// badgeCount = 11;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET))
+			// {
+				// badgeCount = 12;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET))
+			// {
+				// badgeCount = 13;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET))
+			// {
+				// badgeCount = 14;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET))
+			// {
+				// badgeCount = 15;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP))
+			// {
+				// badgeCount = 16;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9))
+			// {
+				// badgeCount = 17;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA))
+			// {
+				// badgeCount = 18;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA))
+			// {
+				// badgeCount = 19;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB))
+			// {
+				// badgeCount = 20;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER))
+			// {
+				// badgeCount = 21;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER) && FlagGet(FLAG_SYS_CAVE_BATTLE))
+			// {
+				// badgeCount = 22;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER) && FlagGet(FLAG_SYS_CAVE_BATTLE) && FlagGet(FLAG_UNUSED_8))
+			// {
+				// badgeCount = 23;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER) && FlagGet(FLAG_SYS_CAVE_BATTLE) && FlagGet(FLAG_UNUSED_8) && FlagGet(FLAG_UNUSED_9))
+			// {
+				// badgeCount = 24;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER) && FlagGet(FLAG_SYS_CAVE_BATTLE) && FlagGet(FLAG_UNUSED_8) && FlagGet(FLAG_UNUSED_9) && FlagGet(FLAG_UNUSED_0x8E3))
+			// {
+				// badgeCount = 25;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER) && FlagGet(FLAG_SYS_CAVE_BATTLE) && FlagGet(FLAG_UNUSED_8) && FlagGet(FLAG_UNUSED_9) && FlagGet(FLAG_UNUSED_0x8E3) && FlagGet(FLAG_UNUSED_0x068))
+			// {
+				// badgeCount = 26;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER) && FlagGet(FLAG_SYS_CAVE_BATTLE) && FlagGet(FLAG_UNUSED_8) && FlagGet(FLAG_UNUSED_9) && FlagGet(FLAG_UNUSED_0x8E3) && FlagGet(FLAG_UNUSED_0x068) && FlagGet(FLAG_UNUSED_0x2D9))
+			// {
+				// badgeCount = 27;
+			// }else if (FlagGet(FLAG_BADGE01_GET) && FlagGet(FLAG_BADGE02_GET) && FlagGet(FLAG_BADGE03_GET) && FlagGet(FLAG_BADGE04_GET) && FlagGet(FLAG_BADGE05_GET) && FlagGet(FLAG_BADGE06_GET) && FlagGet(FLAG_BADGE07_GET) && FlagGet(FLAG_BADGE08_GET) && FlagGet(FLAG_BADGE09_GET) && FlagGet(FLAG_BADGE10_GET) && FlagGet(FLAG_BADGE11_GET) && FlagGet(FLAG_BADGE12_GET) && FlagGet(FLAG_BADGE13_GET) && FlagGet(FLAG_BADGE14_GET) && FlagGet(FLAG_BADGE15_GET) && FlagGet(FLAG_SYS_CAVE_SHIP) && FlagGet(FLAG_UNUSED_0x4F9) && FlagGet(FLAG_UNUSED_0x4FA) && FlagGet(FLAG_UNUSED_0x1AA) && FlagGet(FLAG_UNUSED_0x1AB) && FlagGet(FLAG_SYS_CAVE_WONDER) && FlagGet(FLAG_SYS_CAVE_BATTLE) && FlagGet(FLAG_UNUSED_8) && FlagGet(FLAG_UNUSED_9) && FlagGet(FLAG_UNUSED_0x8E3) && FlagGet(FLAG_UNUSED_0x068) && FlagGet(FLAG_UNUSED_0x2D9) && FlagGet(FLAG_UNUSED_0x1E3))
+			// {
+				// badgeCount = 28;
+			// }
+			string = ConvertIntToDecimalStringN(string, badgeCount, STR_CONV_MODE_LEFT_ALIGN, 3);
+			*string = EOS;
             break;
     }
 }
