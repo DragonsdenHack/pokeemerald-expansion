@@ -27,7 +27,7 @@ struct BoxPokemon
              u32 heldItem:10;   // up to 1023 items. could probably be 9 bits if hold items are limited to IDs below 511
              u32 metLevel:7;
              u32 metGame:4;
-    /*0x20*/ u32 experience:21;
+    /*0x20*/ u32 experience:22;
              u32 spAttackIV:5;
              u32 spDefenseIV:5;
              u32 otGender:1;
