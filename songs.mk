@@ -118,7 +118,7 @@ $(MID_SUBDIR)/mus_underwater.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G057 -V094
 
 $(MID_SUBDIR)/mus_intro.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G060 -V090
+	$(MID) $< $@ -E -R$(STD_REVERB) -G137 -V090
 
 $(MID_SUBDIR)/mus_hall_of_fame.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G082 -V078
