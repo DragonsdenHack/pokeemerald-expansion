@@ -6,7 +6,7 @@
 
 	ALIGNED(4) const u8 gText_WonderCards[] = _("Archi7");
     ALIGNED(4) const u8 gText_WonderNews[] = _("Johto");
-	ALIGNED(4) const u8 gText_Dlc[] = _("DLC");
+	ALIGNED(4) const u8 gText_Dlc[] = _("Dlc");
 	ALIGNED(4) const u8 gText_PostgameKanto[] = _("En este punto, los eventos de Kanto han acabado.\nHe aquí una lista de los cambios:");
 	ALIGNED(4) const u8 gText_PostgameKanto2[] = _("-Entrenadores hasta este punto derrotados.\n-Pokémon obtenibles hasta este punto en PC.");
 	ALIGNED(4) const u8 gText_PostgameKanto3[] = _("-Tu equipo Pokémon se eliminará,pudiendo escoger\n10 Pokémon a la carta, nivel 63.");

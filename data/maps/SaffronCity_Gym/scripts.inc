@@ -198,6 +198,7 @@ additem 586
 msgbox SaffronCity_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox SaffronCity_Lider_Gimnasio_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE06_GET
 settrainerflag TRAINER_JENNY_2
 settrainerflag TRAINER_CARLEE
 settrainerflag TRAINER_LAUREL
@@ -375,6 +376,7 @@ additem 616
 msgbox Vermilion_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Vermilion_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE03_GET
 settrainerflag TRAINER_WINSTON_5
 settrainerflag TRAINER_ETHAN_4
 settrainerflag TRAINER_LAO_5
@@ -516,6 +518,7 @@ msgbox Pewter_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Pewter_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE111_STATE, 3
+setflag FLAG_BADGE01_GET
 settrainerflag TRAINER_STEVE_1
 release
 end
@@ -660,6 +663,7 @@ additem 585
 msgbox Cerulean_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 setvar VAR_ROUTE109_STATE, 3
+setflag FLAG_BADGE02_GET
 settrainerflag TRAINER_BLAKE
 settrainerflag TRAINER_LUIS
 release
@@ -789,6 +793,7 @@ additem 588
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE05_GET
 settrainerflag TRAINER_MIGUEL_1
 settrainerflag TRAINER_ANNA_AND_MEG_3
 settrainerflag TRAINER_MIGUEL_3
@@ -880,6 +885,7 @@ additem 620
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE07_GET
 settrainerflag TRAINER_SHANE
 settrainerflag TRAINER_TONY_5
 settrainerflag TRAINER_TAKAO
@@ -1057,6 +1063,7 @@ additem 601
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE04_GET
 setvar VAR_ROUTE107_STATE, 3
 settrainerflag TRAINER_JESSICA_3
 settrainerflag TRAINER_BRAWLY_1

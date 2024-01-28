@@ -212,12 +212,17 @@ playfanfare MUS_OBTAIN_TMHM
 additem ITEM_TM60
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_27.1 MSGBOX_NPC
+playfanfare MUS_OBTAIN_BADGE
+msgbox Ecruteak_TinTowerRoof_Zeus_Texto_27.2 MSGBOX_DEFAULT
+waitfanfare
 msgbox Ecruteak_TinTowerRoof_Zeus_Texto_28 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL
 fadescreen 1
 delay 20
 removeobject 2
 fadescreen 0
+setflag FLAG_BADGE12_GET
 clearflag FLAG_RECEIVED_SHOAL_SALT_1
 setflag FLAG_HIDE_PETALBURG_GYM_WALLY
 setvar VAR_UNUSED_0x40FE, 3
@@ -423,6 +428,14 @@ Ecruteak_TinTowerRoof_Zeus_Texto_26:
 
 Ecruteak_TinTowerRoof_Zeus_Texto_27:
 .string "¡¡OBTUVISTE UN FLABÉBÉ AL Nv.25!!$"
+
+Ecruteak_TinTowerRoof_Zeus_Texto_27.1:
+	.string "Además, llévate nuestra medalla como\n"
+	.string "recuerdo.$"
+
+Ecruteak_TinTowerRoof_Zeus_Texto_27.2:
+	.string "¡Aquí tienes la\n"
+	.string "MEDALLA NIEBLA!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_28:
 .string "Presentía que algo grande\n"

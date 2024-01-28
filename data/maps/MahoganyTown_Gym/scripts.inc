@@ -74,6 +74,11 @@ msgbox MahoganyTown_Gym_Combate_Fredo_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_FREDO, MahoganyTown_Gym_Combate_Fredo_Texto_7
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_8 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9.2 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_FRIGIBAX, 25, ITEM_NONE
@@ -86,6 +91,7 @@ additem ITEM_TM84
 msgbox MahoganyTown_Gym_Combate_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox MahoganyTown_Gym_Combate_Texto_11.3 MSGBOX_NPC
+setflag FLAG_BADGE15_GET
 setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
 setvar VAR_UNUSED_0x40F7, 165
 release
@@ -164,6 +170,14 @@ MahoganyTown_Gym_Combate_Fredo_Texto_8:
 	.string "más amplio de lo que pensaba.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9:
+	.string "Hace años que tengo esto criando polvo,\n"
+	.string "creí que nunca más volvería a dar una.$"
+
+MahoganyTown_Gym_Combate_Fredo_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA GLACIAR.$"
+
+MahoganyTown_Gym_Combate_Fredo_Texto_9.2:
 .string "Ten este POKÉMON, no podrás\n"
 	.string "encontrarlo en ningún lugar de\l"
 	.string "KANTO o JOHTO, y puede serte de\l"

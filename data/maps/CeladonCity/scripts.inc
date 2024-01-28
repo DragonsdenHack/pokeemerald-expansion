@@ -27,6 +27,13 @@ callnative ForcedSaveGame
 waitstate  
 end
 
+CeladonCity3_1::
+lock     
+faceplayer
+msgbox CeladonCity_Text3, MSGBOX_DEFAULT
+release
+end
+
 CeladonCity_Text3:
 .string "Este es mi fiel compañero,\n"
 .string "POLIWRATH.\l"

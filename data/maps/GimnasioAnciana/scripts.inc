@@ -47,6 +47,10 @@ playfanfare MUS_OBTAIN_TMHM
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_7 MSGBOX_DEFAULT
 givemon SPECIES_ZORUA_HISUI, 50, ITEM_NORMAL_GEM
 waitfanfare
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_7.1 MSGBOX_AUTOCLOSE
+playfanfare MUS_OBTAIN_BADGE
+msgbox GimnasioAnciana_Combate_Gimnasio_Texto_7.2 MSGBOX_DEFAULT
+waitfanfare
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_8 MSGBOX_AUTOCLOSE
 delay 15
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_11.1 MSGBOX_NPC
@@ -55,6 +59,7 @@ additem ITEM_TM81
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_11.3 MSGBOX_NPC
+setflag FLAG_UNUSED_0x4F9
 setvar VAR_ROUTE108_STATE, 6
 release
 end
@@ -113,6 +118,14 @@ GimnasioAnciana_Combate_Gimnasio_Texto_6:
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7:
 .string "¡¡OBTUVISTE UN ZORUA-HISUI AL NV.50!$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_7.1:
+	.string "¡Ah! ¡Y casi se me olvida! Nuestra\n"
+	.string "antigua medalla característica.$"
+
+GimnasioAnciana_Combate_Gimnasio_Texto_7.2:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA IGNOTA.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_8:
 .string "Hace casi 4 décadas que no se ve este\n"

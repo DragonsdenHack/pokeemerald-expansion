@@ -273,6 +273,11 @@ msgbox Violet_Gym_Combate_Pegaso_Texto_6 MSGBOX_NPC
 trainerbattle_no_intro TRAINER_PEGASO, Violet_Gym_Combate_Pegaso_Texto_7
 msgbox Violet_Gym_Combate_Pegaso_Texto_8 MSGBOX_NPC
 msgbox Violet_Gym_Combate_Pegaso_Texto_9 MSGBOX_NPC
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox Violet_Gym_Combate_Pegaso_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox Violet_Gym_Combate_Pegaso_Texto_9.2 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
 msgbox Violet_Gym_Combate_Pegaso_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_RUFFLET, 25, ITEM_NONE
@@ -285,6 +290,7 @@ additem ITEM_TM61
 msgbox Violet_Gym_Combate_Pegaso_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox Violet_Gym_Combate_Pegaso_Texto_11.3 MSGBOX_NPC
+setflag FLAG_BADGE09_GET
 clearflag FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT
 setflag FLAG_HIDE_BATTLE_FRONTIER_RECEPTION_GATE_SCOTT
 setvar VAR_UNUSED_0x40F7, 125
@@ -370,9 +376,15 @@ Violet_Gym_Combate_Pegaso_Texto_9:
 .string "Como ya sabes, actualmente los\n"
 	.string "GIMNASIOS de JOHTO no tienen\l"
 	.string "validez alguna para la LIGA\l"
-	.string "POKÉMON, es por ello que no\l"
-	.string "contamos con MEDALLAS como tal.\l"
-	.string "Sin embargo, te daré algo mucho\l"
+	.string "POKÉMON, aunque sí conservamos\l"
+	.string "nuestras antiguas medallas.$"
+
+Violet_Gym_Combate_Pegaso_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA CÉFIRO.$"
+
+Violet_Gym_Combate_Pegaso_Texto_9.2:
+	.string "Además, te daré algo mucho\n"
 	.string "más práctico, quiero que te lleves\l"
 	.string "este POKÉMON.$"
 
