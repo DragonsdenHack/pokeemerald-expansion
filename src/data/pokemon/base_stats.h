@@ -29109,7 +29109,7 @@ const struct BaseStats gBaseStats[] =
             .eggGroup2 = EGG_GROUP_FLYING,
         #endif
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_INFILTRATOR, ABILITY_INFILTRATOR, ABILITY_INFILTRATOR},
+            .abilities = {ABILITY_NO_GUARD, ABILITY_NO_GUARD, ABILITY_NO_GUARD},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif

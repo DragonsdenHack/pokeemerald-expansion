@@ -33246,6 +33246,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM(TM44_REST)
                                             | TMHM(TM47_STEEL_WING)
                                             | TMHM(TM53_GIGA_IMPACT)
+                                            | TMHM(TM54_DARK_PULSE)
                                             | TMHM(TM55_WILD_CHARGE)
                                             | TMHM(TM61_ROOST),
                                             TMHM2(TM70_CHARGE_BEAM)
