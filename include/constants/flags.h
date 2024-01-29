@@ -118,7 +118,7 @@
 #define FLAG_MOSSDEEP_GYM_SWITCH_3           0x66 //
 #define FLAG_MOSSDEEP_GYM_SWITCH_4           0x67 //
 
-#define FLAG_UNUSED_0x068                    0x68  // Unused Flag
+
 
 #define FLAG_OCEANIC_MUSEUM_MET_REPORTER     0x69
 #define FLAG_RECEIVED_HM04                   0x6A
@@ -455,8 +455,7 @@
 #define FLAG_REMATCH_DRAKE                   0x1A8
 #define FLAG_REMATCH_WALLACE                 0x1A9
 
-#define FLAG_UNUSED_0x1AA                    0x1AA // Unused Flag
-#define FLAG_UNUSED_0x1AB                    0x1AB // Unused Flag
+
 
 #define FLAG_DEFEATED_DEOXYS                 0x1AC
 #define FLAG_BATTLED_DEOXYS                  0x1AD
@@ -516,7 +515,6 @@
 #define FLAG_UNUSED_0x1E0                    0x1E0 // Unused Flag
 #define FLAG_UNUSED_0x1E1                    0x1E1 // Unused Flag
 #define FLAG_UNUSED_0x1E2                    0x1E2 // Unused Flag
-#define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
 
 // Mystery Gift Flags (Unknown)
 #define FLAG_MYSTERY_GIFT_DONE               0x1E4
@@ -663,16 +661,16 @@
 #define FLAG_UNUSED_0x26D  0x26D // EJECUTIVOS DEVON BASE S9
 #define FLAG_UNUSED_0x26E  0x26E // ALTO RANGO ISLA INTA
 #define FLAG_UNUSED_0x26F  0x26F // EJECUTIVO ISLA INTA
-#define FLAG_UNUSED_0x270  0x270 // Unused Flag
-#define FLAG_UNUSED_0x271  0x271 // Unused Flag
-#define FLAG_UNUSED_0x272  0x272 // Unused Flag
-#define FLAG_UNUSED_0x273  0x273 // Unused Flag
-#define FLAG_UNUSED_0x274  0x274 // Unused Flag
-#define FLAG_UNUSED_0x275  0x275 // Unused Flag
-#define FLAG_UNUSED_0x276  0x276 // Unused Flag
-#define FLAG_UNUSED_0x277  0x277 // Unused Flag
-#define FLAG_UNUSED_0x278  0x278 // Unused Flag
-#define FLAG_UNUSED_0x279  0x279 // Unused Flag
+#define FLAG_UNUSED_0x270  0x270 // DISCOXTRAÑO CIENTIFICO SILPH S2
+#define FLAG_UNUSED_0x271  0x271 // CONDENSADOR GAS UNDERGROUND 7F
+#define FLAG_UNUSED_0x272  0x272 // OBREROS MISION VIAS
+#define FLAG_UNUSED_0x273  0x273 // FUJI CEMENTERIO S2
+#define FLAG_UNUSED_0x274  0x274 // TOXTRICITITA
+#define FLAG_UNUSED_0x275  0x275 // ANDRA COMBATE RUTA 49
+#define FLAG_UNUSED_0x276  0x276 // MAXIPEPITA TRIGAL 4
+#define FLAG_UNUSED_0x277  0x277 // PERLA GRANDE LAGO
+#define FLAG_UNUSED_0x278  0x278 // VELO AURORA CUEVA ISLA CUARTA NORTE
+#define FLAG_UNUSED_0x279  0x279 // RUIN VALLEY - CARAMELORARO
 #define FLAG_UNUSED_0x27A  0x27A // Unused Flag
 #define FLAG_UNUSED_0x27B  0x27B // Unused Flag
 #define FLAG_UNUSED_0x27C  0x27C // Unused Flag
@@ -771,12 +769,11 @@
 #define FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY   0x2D7 // CLEARFLAG CIENTIFICO FUCSIA LAPRAS
 #define FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM                         0x2D8 // ANDRA Y CAPITAN SSANNE 8F
 
-#define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
 
 #define FLAG_HIDE_LILYCOVE_FAN_CLUB_INTERVIEWER                     0x2DA // CONSUL
 #define FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT                          0x2DB // ANDRA CASA CONSUL //PROTON TUNEL ROCA // FUJI P1 TORRE PKMN// clear oak y blaine Escena 7
 #define FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1                    0x2DC // CLEARFLAG ENTRENADORA GUAY BLOQUEA PASO LIGA POKEMON
-#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD // KYOGRE ASLEEP CUEVA PUNTEADA// policia oculto tuneles
+#define FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP              0x2DD // KYOGRE ASLEEP CUEVA PUNTEADA // policia oculto tuneles
 #define FLAG_HIDE_PLAYERS_HOUSE_DAD                                 0x2DE // CLEARFLAG EJECUTIVO ROCKET GIMNASIO VERDE
 #define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_SIBLING      0x2DF // POLICIAS CENTRAL RUTA 10
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING          0x2E0 // ESTAFADOR MAGIKARP RUTA 4
@@ -819,7 +816,7 @@
 #define FLAG_HIDE_SKY_PILLAR_TOP_RAYQUAZA                           0x305
 #define FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1         0x306 
 #define FLAG_HIDE_LILYCOVE_MUSEUM_CURATOR                           0x307
-#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308 // POLICIAS CUEVA DIGGLET //CLEAR ANDRA SSANNE VUELTA
+#define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_1                          0x308 // POLICIAS CUEVA DIGGLET // CLEAR ANDRA SSANNE VUELTA
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2                          0x309 // EUSINE ORQUIDEA MUESTRA CAMINO SECRETO DLC RUTA 47
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_3                          0x30A
 #define FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_4                          0x30B
@@ -827,7 +824,7 @@
 #define FLAG_HIDE_PETALBURG_GYM_GREETER                             0x30D // ESCUELA MALVA DESPUES GANAR GYM
 #define FLAG_HIDE_MARINE_CAVE_KYOGRE                                0x30E
 #define FLAG_HIDE_TERRA_CAVE_GROUDON                                0x30F
-#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // AZUL TORRE PKMN 2F//clear cientificos torre radio
+#define FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM          0x310 // AZUL TORRE PKMN 2F // clear cientificos torre radio
 #define FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM              0x311 // TORRE RADIO FINAL OAK
 #define FLAG_HIDE_ROUTE_119_SCOTT                                   0x312 // CUBONE TORRE PKMN 5F //clear Miguel y Bill Silph//clear Ladron Mansion// clear ball groudon
 #define FLAG_HIDE_LILYCOVE_MOTEL_SCOTT                              0x313 // FUJI TORRE PKMN 5F//clear Andra y Giovanni Silph // clear Andra canon sete
@@ -1321,9 +1318,6 @@
 #define FLAG_DEFEATED_SOOTOPOLIS_GYM                                0x4F7
 #define FLAG_DEFEATED_METEOR_FALLS_STEVEN                           0x4F8
 
-#define FLAG_UNUSED_0x4F9                                           0x4F9 // Unused Flag
-#define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag
-
 #define FLAG_DEFEATED_ELITE_4_SIDNEY                                0x4FB
 #define FLAG_DEFEATED_ELITE_4_PHOEBE                                0x4FC
 #define FLAG_DEFEATED_ELITE_4_GLACIA                                0x4FD
@@ -1350,6 +1344,8 @@
 #define FLAG_SYS_HIPSTER_MEET                        (SYSTEM_FLAGS + 0x6)
 
 // Badges
+
+//kanto
 #define FLAG_BADGE01_GET                             (SYSTEM_FLAGS + 0x7)
 #define FLAG_BADGE02_GET                             (SYSTEM_FLAGS + 0x8)
 #define FLAG_BADGE03_GET                             (SYSTEM_FLAGS + 0x9)
@@ -1358,7 +1354,35 @@
 #define FLAG_BADGE06_GET                             (SYSTEM_FLAGS + 0xC)
 #define FLAG_BADGE07_GET                             (SYSTEM_FLAGS + 0xD)
 #define FLAG_BADGE08_GET                             (SYSTEM_FLAGS + 0xE)
-#define NUM_BADGES                                   (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
+
+//johto
+#define FLAG_BADGE09_GET                                (SYSTEM_FLAGS + 0x21) // Unused Flag
+#define FLAG_BADGE10_GET                                (SYSTEM_FLAGS + 0x22) // Unused Flag
+#define FLAG_BADGE11_GET                                (SYSTEM_FLAGS + 0x23) // Unused Flag
+#define FLAG_BADGE12_GET                               (SYSTEM_FLAGS + 0x24) // Unused Flag
+#define FLAG_BADGE13_GET                                (SYSTEM_FLAGS + 0x25) // Unused Flag
+#define FLAG_BADGE14_GET                               (SYSTEM_FLAGS + 0x26) // Unused Flag
+#define FLAG_BADGE15_GET                               (SYSTEM_FLAGS + 0x27) // Unused Flag
+#define FLAG_SYS_CAVE_SHIP                          (SYSTEM_FLAGS + 0x37) // Unused Flag, leftover from R/S debug, presumably used by Emerald's debug too
+
+//hoenn
+#define FLAG_SYS_CAVE_WONDER                        (SYSTEM_FLAGS + 0x38) // Unused Flag, same as above
+#define FLAG_SYS_CAVE_BATTLE                        (SYSTEM_FLAGS + 0x39) // Unused Flag, same as above
+#define FLAG_UNUSED_8                           (SYSTEM_FLAGS + 0x2E) // Unused Flag
+#define FLAG_UNUSED_9                           (SYSTEM_FLAGS + 0x2F) // Unused Flag
+#define FLAG_UNUSED_0x8E3                           (SYSTEM_FLAGS + 0x83) // Unused Flag
+#define FLAG_UNUSED_0x068                    0x68  // Unused Flag
+#define FLAG_UNUSED_0x2D9                                           0x2D9 // Unused Flag
+#define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
+
+//especiales
+#define FLAG_UNUSED_0x4F9                                     0x4F9 // Unused Flag
+#define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag
+#define FLAG_UNUSED_0x1AA                    0x1AA // Unused Flag
+#define FLAG_UNUSED_0x1AB                    0x1AB // Unused Flag
+
+//#define NUM_BADGES                                   (1 + FLAG_BADGE08_GET - FLAG_BADGE01_GET)
+#define NUM_BADGES                                   29
 
 // Towns and Cities
 #define FLAG_VISITED_LITTLEROOT_TOWN                (SYSTEM_FLAGS + 0xF)
@@ -1381,14 +1405,6 @@
 #define FLAG_IS_CHAMPION                            (SYSTEM_FLAGS + 0x1F) // Seems to be related to linking.
 #define FLAG_NURSE_UNION_ROOM_REMINDER              (SYSTEM_FLAGS + 0x20)
 
-#define FLAG_UNUSED_1                        (SYSTEM_FLAGS + 0x21) // Unused Flag
-#define FLAG_UNUSED_2                           (SYSTEM_FLAGS + 0x22) // Unused Flag
-#define FLAG_UNUSED_3                          (SYSTEM_FLAGS + 0x23) // Unused Flag
-#define FLAG_UNUSED_4                           (SYSTEM_FLAGS + 0x24) // Unused Flag
-#define FLAG_UNUSED_5                           (SYSTEM_FLAGS + 0x25) // Unused Flag
-#define FLAG_UNUSED_6                           (SYSTEM_FLAGS + 0x26) // Unused Flag
-#define FLAG_UNUSED_7                           (SYSTEM_FLAGS + 0x27) // Unused Flag
-
 #define FLAG_SYS_USE_FLASH                          (SYSTEM_FLAGS + 0x28)
 #define FLAG_SYS_USE_STRENGTH                       (SYSTEM_FLAGS + 0x29)
 #define FLAG_SYS_WEATHER_CTRL                       (SYSTEM_FLAGS + 0x2A)
@@ -1396,8 +1412,6 @@
 #define FLAG_SYS_SAFARI_MODE                        (SYSTEM_FLAGS + 0x2C)
 #define FLAG_SYS_CRUISE_MODE                        (SYSTEM_FLAGS + 0x2D)
 
-#define FLAG_UNUSED_8                           (SYSTEM_FLAGS + 0x2E) // Unused Flag
-#define FLAG_UNUSED_9                           (SYSTEM_FLAGS + 0x2F) // Unused Flag
 
 #define FLAG_SYS_TV_HOME                            (SYSTEM_FLAGS + 0x30)
 #define FLAG_SYS_TV_WATCH                           (SYSTEM_FLAGS + 0x31)
@@ -1406,9 +1420,7 @@
 #define FLAG_SYS_MIX_RECORD                         (SYSTEM_FLAGS + 0x34)
 #define FLAG_SYS_CLOCK_SET                          (SYSTEM_FLAGS + 0x35)
 #define FLAG_SYS_NATIONAL_DEX                       (SYSTEM_FLAGS + 0x36)
-#define FLAG_SYS_CAVE_SHIP                          (SYSTEM_FLAGS + 0x37) // Unused Flag, leftover from R/S debug, presumably used by Emerald's debug too
-#define FLAG_SYS_CAVE_WONDER                        (SYSTEM_FLAGS + 0x38) // Unused Flag, same as above
-#define FLAG_SYS_CAVE_BATTLE                        (SYSTEM_FLAGS + 0x39) // Unused Flag, same as above
+
 #define FLAG_SYS_SHOAL_TIDE                         (SYSTEM_FLAGS + 0x3A)
 #define FLAG_SYS_RIBBON_GET                         (SYSTEM_FLAGS + 0x3B)
 
@@ -1496,7 +1508,7 @@
 #define FLAG_ARRIVED_AT_NAVEL_ROCK                  (SYSTEM_FLAGS + 0x81)
 #define FLAG_LANDMARK_TRAINER_HILL                  (SYSTEM_FLAGS + 0x82)
 
-#define FLAG_UNUSED_0x8E3                           (SYSTEM_FLAGS + 0x83) // Unused Flag
+
 
 #define FLAG_RECEIVED_POKEDEX_FROM_BIRCH            (SYSTEM_FLAGS + 0x84)
 
@@ -1520,18 +1532,18 @@
 #define FLAG_VISITED_FIVE_ISLAND                           (SYSTEM_FLAGS + 0x96) // Unused Flag
 #define FLAG_VISITED_SIX_ISLAND                           (SYSTEM_FLAGS + 0x97) // Unused Flag
 #define FLAG_VISITED_SEVEN_ISLAND                           (SYSTEM_FLAGS + 0x98) // Unused Flag
-#define FLAG_VISITED_NEW_BARK_TOWN                           (SYSTEM_FLAGS + 0x99) // Unused Flag
+#define FLAG_VISITED_ROCKET_HIDEOUT_JOHTO                           (SYSTEM_FLAGS + 0x99) // Unused Flag
 #define FLAG_VISITED_CHERRYGROVE_CITY                           (SYSTEM_FLAGS + 0x9A) // Unused Flag
-#define FLAG_VISITED_VIOLET_CITY                           (SYSTEM_FLAGS + 0x9B) // Unused Flag
-#define FLAG_VISITED_AZALEA_TOWN                           (SYSTEM_FLAGS + 0x9C) // Unused Flag
-#define FLAG_VISITED_GOLDENROD_CITY                           (SYSTEM_FLAGS + 0x9D) // Unused Flag
-#define FLAG_VISITED_ECRUTEAK_CITY                           (SYSTEM_FLAGS + 0x9E) // Unused Flag
-#define FLAG_VISITED_MAHOGANY_CITY                           (SYSTEM_FLAGS + 0x9F) // Unused Flag
-#define FLAG_VISITED_BLACKTHORN_CITY                           (SYSTEM_FLAGS + 0xA0) // Unused Flag
-#define FLAG_VISITED_MT_SILVER                          (SYSTEM_FLAGS + 0xA1) // Unused Flag
-#define FLAG_VISITED_ROCKET_HIDEOUT_JOHTO                           (SYSTEM_FLAGS + 0xA2) // Unused Flag
-#define FLAG_VISITED_CIANWOOD_CITY                          (SYSTEM_FLAGS + 0xA3) // Unused Flag
-#define FLAG_VISITED_OLIVINE_CITY                           (SYSTEM_FLAGS + 0xA4) // Unused Flag
+#define FLAG_VISITED_AZALEA_TOWN                           (SYSTEM_FLAGS + 0x9B) // Unused Flag
+#define FLAG_VISITED_ECRUTEAK_CITY                           (SYSTEM_FLAGS + 0x9C) // Unused Flag
+#define FLAG_VISITED_OLIVINE_CITY                           (SYSTEM_FLAGS + 0x9D) // Unused Flag
+#define FLAG_VISITED_GOLDENROD_CITY                           (SYSTEM_FLAGS + 0x9E) // Unused Flag
+#define FLAG_VISITED_CIANWOOD_CITY                           (SYSTEM_FLAGS + 0x9F) // Unused Flag
+#define FLAG_VISITED_MAHOGANY_CITY                           (SYSTEM_FLAGS + 0xA0) // Unused Flag
+#define FLAG_VISITED_VIOLET_CITY                          (SYSTEM_FLAGS + 0xA1) // Unused Flag
+#define FLAG_VISITED_MT_SILVER                           (SYSTEM_FLAGS + 0xA2) // Unused Flag
+#define FLAG_VISITED_NEW_BARK_TOWN                          (SYSTEM_FLAGS + 0xA3) // Unused Flag
+#define FLAG_VISITED_BLACKTHORN_CITY                           (SYSTEM_FLAGS + 0xA4) // Unused Flag
 #define FLAG_UNUSED_0x905                           (SYSTEM_FLAGS + 0xA5) // Unused Flag
 #define FLAG_UNUSED_0x906                           (SYSTEM_FLAGS + 0xA6) // Unused Flag
 #define FLAG_UNUSED_0x907                           (SYSTEM_FLAGS + 0xA7) // Unused Flag
@@ -1739,7 +1751,7 @@
 #define FLAG_NUEVA_89 0x558 // NORTE EXTA - MALL BALL - INVISIBLE
 #define FLAG_NUEVA_90 0x559 // NORTE EXTA - MAS PP 
 #define FLAG_NUEVA_91 0x55A // RUIN VALLEY - MT12 
-#define FLAG_NUEVA_92 0x55B // RUIN VALLEY - CARAMELORARO
+#define FLAG_NUEVA_92 0x55B // RUIN VALLEY - CARAMELORARO - NO SE ACTIVA
 #define FLAG_NUEVA_93 0x55C // RUIN VALLEY - PIEDRA SOLAR
 #define FLAG_NUEVA_94 0x55D // NORTE SETIMA - BAYA LATANO - INVISIBLE
 #define FLAG_NUEVA_95 0x55E // NORTE SETIMA - PERLA - INVISIBLE
@@ -2216,7 +2228,7 @@
 #define FLAG_NUEVA_566 0x736 // CULTO ITEMS - TELATERRIBLE
 #define FLAG_NUEVA_567 0x737 // CultoS4_10: TM75 VENDETA - PENDIENTE
 #define FLAG_NUEVA_568 0x738 // LagoFuria1-2: TM96 ALUD - PENDIENTE
-#define FLAG_NUEVA_569 0x739 // LAGO FURIA 1 - PERLA GRANDE
+#define FLAG_NUEVA_569 0x739 // LAGO FURIA 1 - PERLA GRANDE /PUEDE CRASHEAR
 #define FLAG_NUEVA_570 0x73A // LAGO FURIA 1 - MAX REPEL
 #define FLAG_NUEVA_571 0x73B // LAGO FURIA 2 - BUCEO BALL
 #define FLAG_NUEVA_572 0x73C // LAGO FURIA 2 - ROCA LLUVIA

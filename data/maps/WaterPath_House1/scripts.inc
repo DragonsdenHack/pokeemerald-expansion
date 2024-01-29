@@ -9,6 +9,6 @@ release
 end
 
 WaterPathHouse1_1_Texto_1:
-.string "Me encanta HERACROSS, me parece mejor\n"
-	.string "que PINSIR, aunque creo que ambos\l"
-	.string "proceden del mismo ancestro.$"
+	.string "I love HERACROSS; I find it better than\n"
+	.string "PINSIR, although I believe both\l"
+	.string "originate from the same ancestor.$"

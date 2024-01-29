@@ -43,11 +43,10 @@ release
 end
 
 WaterPath_Text_9:
-.string "¿DONPHAN?\n"
-	.string "En KANTO tenemos a GOLEM y RHYDON,\l"
-	.string "nadie les supera en la suma entre\l"
-	.string "DEFENSA y ATAQUE, ¡siquiera\l"
-	.string "DONPHAN!$"
+	.string "DONPHAN? In KANTO, we have GOLEM and\n"
+	.string "RHYDON; no one surpasses them in the\l"
+	.string "combination of DEFENSE and ATTACK, not\l"
+	.string "even DONPHAN!$"
 
 
 
@@ -57,12 +56,12 @@ release
 end
 
 WaterPath_Text_11:
-.string "DONPHAN es del tipo TIERRA puro,\n"
-.string "por ello parte con ventaja al\l"
-.string "enfrentar a los ROCA y TIERRA dual\l"
-.string "clásicos, además es tan rudo como\l"
-.string "el que más con 120 de base tanto\l"
-.string "en DEFENSA como ATAQUE.$"
+	.string "DONPHAN is of the pure GROUND type,\n"
+	.string "giving it an advantage when facing\l"
+	.string "classic ROCK and dual-type\l"
+	.string "ROCK/GROUND opponents. Additionally,\l"
+	.string "it's as tough as they come with a base\l"
+	.string "of 120 in both DEFENSE and ATTACK.$"
 
 
 
@@ -106,8 +105,8 @@ msgbox WaterPathDocumento_Text_100, MSGBOX_SIGN
 end
 
 WaterPathDocumento_Text_100:
-.string "Camino acuático:\n"
-	.string "Al sur VALLE RUINAS$"
+    .string "WATER PATH\n"
+    .string "Leads to RUIN VALLEY$"
 
 
 
@@ -116,7 +115,8 @@ msgbox WaterPathDocumento_Text_101, MSGBOX_SIGN
 end
 
 WaterPathDocumento_Text_101:
-.string "¡Se busca el cuerno definitivo!$"
+    .string "Wanted!\n"
+    .string "The Ultimate Horn!$"
 
 
 

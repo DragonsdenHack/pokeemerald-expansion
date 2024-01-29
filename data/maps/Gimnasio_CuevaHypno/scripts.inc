@@ -336,13 +336,13 @@ end
 
 
 Gimnasio_CuevaHypno_Primera_Pregunta_No_Texto_1:
-.string "Respuesta correcta, pero… a ciegas,\n"
-	.string "¿verdad? No conoces ningún fantasma\l"
-	.string "en KANTO más allá de esos 3, y a pesar\l"
-	.string "de ello sientes que hay algo más…\l"
-	.string "oculto , ¿no? Volverás a PUEBLO\l"
-	.string "LAVANDA, aún te quedan cosas por hacer\l"
-	.string "allí, de eso estoy seguro.$"
+	.string "Correct answer, but... blindly, right?\n"
+	.string "You don't know any ghosts in KANTO\l"
+	.string "beyond those 3, and yet you feel that\l"
+	.string "there's something more... hidden, don't\l"
+	.string "you? You'll return to LAVENDER TOWN; I'm\l"
+	.string "sure there are still things for you to\l"
+	.string "do there.$"
 
 Gimnasio_CuevaHypno_Segunda_Pregunta::
 lock
@@ -373,14 +373,14 @@ release
 end
 
 Gimnasio_CuevaHypno_Segunda_Pregunta_Texto_1:
-.string "El verdadero CAMPEÓN de KANTO está en\n"
-	.string "esta sala.$"
+	.string "The real KANTO CHAMPION is here.$"
 
 Gimnasio_CuevaHypno_Segunda_Pregunta_Texto_2:
-.string "¿Te refieres a mí? No, hace tiempo que\n"
-	.string "renuncié a títulos arbitrarios que\l"
-	.string "nada tienen que ver con tu desempeño\l"
-	.string "en el combate. Respuesta incorrecta.$"
+	.string "Are you talking about me? No, I\n"
+	.string "abandoned arbitrary titles that have\l"
+	.string "nothing to do with your performance in\l"
+	.string "combat, a long time ago. Incorrect\l"
+	.string "response.$"
 
 Gimnasio_CuevaHypno_Segunda_Pregunta_No::
 delay 20
@@ -398,11 +398,10 @@ end
 
 
 Gimnasio_CuevaHypno_Segunda_Pregunta_No_Texto_1:
-.string "Respuesta correcta, tampoco está en la\n"
-	.string "LIGA POKÉMON, ni en el MT.PLATEADO. Ese\l"
-	.string "título ya no existe hoy en día, está\l"
-	.string "vacío, carente del significado que\l"
-	.string "otrora tuvo.$"
+	.string "Correct answer, it's not in the POKÉMON\n"
+	.string "LEAGUE either, nor in MT.SILVER. That\l"
+	.string "title no longer exists today; it's empty,\l"
+	.string "devoid of the meaning it once had.$"
 
 Gimnasio_CuevaHypno_Tercera_Pregunta::
 lock
@@ -433,16 +432,16 @@ release
 end
 
 Gimnasio_CuevaHypno_Tercera_Pregunta_Texto_1:
-.string "La SEDE SILPH, junto con la TORRE RADIO\n"
-	.string "TRIGAL, se elevan por encima de\l"
-	.string "ninguna otra construcción humana en\l"
-	.string "KANTO-JOHTO$"
+	.string "The SILPH HEADQUARTERS, along with the\n"
+	.string "GOLDENROD RADIO TOWER, rises above any\l"
+	.string "other human-built structure in\l"
+	.string "KANTO-JOHTO.$"
 
 Gimnasio_CuevaHypno_Tercera_Pregunta_Texto_2:
-	.string "Respuesta incorrecta, hace casi un\n"
-	.string "milenio que ese honor lo ostenta y\l"
-	.string "sigue ostentando un lugar mucho más\l"
-	.string "sagrado.$"
+	.string "Incorrect response, for nearly a\n"
+	.string "millennium, that honor has been and\l"
+	.string "continues to be held by a much more\l"
+	.string "sacred place.$"
 
 Gimnasio_CuevaHypno_Tercera_Pregunta_No::
 delay 20
@@ -459,12 +458,11 @@ release
 end
 
 Gimnasio_CuevaHypno_Tercera_Pregunta_No_Texto_1:
-.string "Así es, es en la cima de TORRE CAMPANA,\n"
-	.string "dónde uno tiene a JOHTO y KANTO bajo la\l"
-	.string "palma de su mano. No obstante, lo\l"
-	.string "verdaderamente importante de este\l"
-	.string "lugar se encuentra a decenas de metros\l"
-	.string "bajo su suelo.$"
+	.string "That's right, it's at the top of BELL\n"
+	.string "TOWER, where one has JOHTO and KANTO\l"
+	.string "at their fingertips. However, the truly\l"
+	.string "significant part of this place is tens\l"
+	.string "of meters beneath its ground.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta::
 lock
@@ -485,15 +483,16 @@ release
 end
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_1:
-.string "TORRE LATÓN fue destruida en un\n"
-	.string "incendio, aún así, JOHTO aún cuenta\l"
-	.string "con otras 3 pagodas que mantienen viva\l"
-	.string "la esencia de la región.$"
+	.string "BRASS TOWER was destroyed in a fire;\n"
+	.string "nevertheless, JOHTO still has three\l"
+	.string "other pagodas that preserve the\l"
+	.string "essence of the region.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_2:
-	.string "Respuesta incorrecta … ¿Dices que solo\n"
-	.string "hay 2? ¿El de MALVA y el de IRIS? …\l"
-	.string "Respuesta incorrecta.$"
+	.string "Incorrect answer... Are you saying that\n"
+	.string "there are only 2? One in VIOLET CITY\l"
+	.string "and the other in ECRUTEAK CITY? ...\l"
+	.string "Incorrect answer.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_No::
 delay 20
@@ -521,10 +520,10 @@ end
 
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_No_Texto_1:
-.string "Respuesta correcta. Aunque me\n"
-	.string "pregunto si de verdad has sido\l"
-	.string "consciente de las implicaciones que\l"
-	.string "tiene para lo que crees que es JOHTO.$"
+	.string "Correct answer. Although I wonder if\n"
+	.string "you have truly been aware of the\l"
+	.string "implications it holds for what you think\l"
+	.string "JOHTO is.$"
 
 
 
@@ -560,22 +559,21 @@ release
 end
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11.3:
-.string "Cuanto más lento sea el POKÉMON,\n"
-	.string "antes atacará bajo los efectos del\l"
-	.string "ESPACIO RARO.\l"
-	.string "Es un movimiento que puede romper los\l"
-	.string "esquemas de muchos equipos, con\l"
-	.string "muchos POKÉMON que pueden\l"
-	.string "beneficiarse de ello.$"
+	.string "The slower the POKÉMON is, the earlier\n"
+	.string "it will attack under the effects of\l"
+	.string "TRICK ROOM. It's a move that can\l"
+	.string "disrupt the strategies of many teams,\l"
+	.string "with many POKÉMON that can benefit\l"
+	.string "from it.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11.1:
-.string "¿Sabes?\n"
-	.string "También te daré esta MT, alguien como\l"
-	.string "tú seguro que sabe sacarle provecho.$"
+	.string "Do you know? I'll also give you this TM;\n"
+	.string "someone like you surely knows how to\l"
+	.string "take advantage of it.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11.2:
-.string "¡¡{PLAYER} obtuvo la MT94 ESPACIO\n"
-	.string "RARO de manos de MORFEO!!$"
+	.string "¡¡{PLAYER} obtained TM94 TRICK ROOM\n"
+	.string "from GYM LEADER MORFEUS!!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_2::
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_12 MSGBOX_AUTOCLOSE
@@ -583,76 +581,67 @@ release
 end
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_12:
-.string "Y ahora, ¿dónde irás?\n"
-	.string "¿Cúal es tu próximo destino?\l"
-	.string "Sea como sea, haz que cada día cuente\l"
-	.string "y merezca la pena.$"
+	.string "And now, where will you go? What is your\n"
+	.string "next destination? Regardless, make\l"
+	.string "each day count and be worth it.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11:
-.string "Descubrí este POKÉMON gracias a uno\n"
-	.string "de mis mejores alumnos.\l"
-	.string "Su evolución final domina por\l"
-	.string "completo los poderes mentales.$"
+	.string "I discovered this POKÉMON thanks to\n"
+	.string "one of my best students. Its final\l"
+	.string "evolution completely masters mental\l"
+	.string "powers.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_10:
-.string "¡¡OBTUVISTE UN FENNEKIN AL NV:15!!$"
+	.string "YOU OBTAINED A LV.15 FENNEKIN!!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_9:
-.string "Te deseo mucha suerte en tu viaje.\n"
-	.string "Quiero que lleves a este POKÉMON\l"
-	.string "contigo.$"
+	.string "I hope you have a great journey. Take\n"
+	.string "this POKÉMON with you.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_8:
-.string "Por este rato me has hecho recordar\n"
-	.string "esos tiempos, en los que iba de\l"
-	.string "aspirante en aspirante.\l"
-	.string "Esa sensación tan característica de\l"
-	.string "la competición, que con los años se\l"
-	.string "manifiesta de forma diferente... sin\l"
-	.string "duda no me arrepiento de haber tomado\l"
-	.string "este camino.$"
+	.string "For a while now, you've brought back\n"
+	.string "memories of those times when I was\l"
+	.string "going from aspirant to aspirant. That\l"
+	.string "characteristic feeling of competition,\l"
+	.string "which over the years manifests in a\l"
+	.string "different way... I definitely don't\l"
+	.string "regret taking this path.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_7:
-.string "Impresionante, mi maestra estaría\n"
-	.string "orgullosa de ver en lo que HYPNO y yo\l"
-	.string "nos hemos convertido, ahora al\l"
-	.string "combatir de nuevo lo sé.\l"
-	.string "Pero tú, ¡creo que se quedaría sin\l"
-	.string "palabras!$"
+	.string "Impressive, my teacher would be proud\n"
+	.string "to see what HYPNO and I have become.\l"
+	.string "But you, I think she would be\l"
+	.string "speechless!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_6:
-.string "Diría... que nuestro nivel ha sido\n"
-	.string "excelente pero... ¿aún así he\l"
-	.string "perdido?$"
+	.string "I would say... that our performance has\n"
+	.string "been excellent, but... have I still lost?$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_5:
-.string "Ahora, sin espectadores, sin aplausos\n"
-	.string "ni cámaras que inmortalicen este\l"
-	.string "momento, fieles al modo de vida que\l"
-	.string "hemos escogido... ¡verás los\l"
-	.string "resultados de ese entrenamiento!$"
+	.string "At this moment, devoid of spectators,\n"
+	.string "applause, or cameras to immortalize\l"
+	.string "this moment, adhering to the lifestyle\l"
+	.string "we've chosen... you'll see the results of\l"
+	.string "our training!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_4:
-.string "En cuanto a mí... llevo décadas sin\n"
-	.string "tener referencia alguna que no sea\l"
-	.string "esta pequeña isla.\l"
-	.string "Pero... todo ese tiempo, tanto HYPNO\l"
-	.string "como yo nos hemos mantenido\l"
-	.string "entrenando, con el único objetivo de\l"
-	.string "superarnos a nosotros mismos, nuestra\l"
-	.string "mejor referencia.$"
+	.string "As for me... I've spent decades without\n"
+	.string "any other reference than this small\l"
+	.string "island. But... all that time, both HYPNO\l"
+	.string "and I have kept training, with the sole\l"
+	.string "goal of surpassing ourselves, our best\l"
+	.string "benchmark.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_3:
-.string "Sea como sea, debes ser un ENTRENADOR\n"
-	.string "muy ducho en combate.$"
+	.string "In any case, you must be a skilled\n"
+	.string "TRAINER.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_2:
-.string "Si no llega a ser por HYPNO, jamás lo\n"
-	.string "hubiera sabido, aunque según él, ese\l"
-	.string "título no existe como has podido\l"
-	.string "comprobar en sus preguntas...$"
+	.string "Without HYPNO, I wouldn't have known,\n"
+	.string "even though, according to him, that\l"
+	.string "title doesn't exist, as you have\l"
+	.string "verified in his questions...$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_1:
-.string "Así que todo este tiempo he estado\n"
-	.string "hablando con el CAMPEÓN de KANTO,\l"
-	.string "¿eh?$"
+	.string "So all this time, I've been talking with\n"
+	.string "the CHAMPION of KANTO, huh?$"
