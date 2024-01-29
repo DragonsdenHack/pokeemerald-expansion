@@ -9,11 +9,11 @@ release
 end
 
 PewterCityHouse1_1_Texto_1:
-.string "No se lo digas a mi padre, pero cuando mi\n"
-	.string "NIDORAN se convierta en NIDOKING me\l"
-	.string "uniré a vosotros. ¡GIOVANNI seguro que\l"
-	.string "me felicita por tener un NIDOKING\l"
-	.string "siendo tan joven! ¿Verdad?$"
+	.string "Do not tell this to my father, but when\n"
+	.string "my NIDORAN evolves to a NIDOKING I will\l"
+	.string "join your organization. I'm sure\l"
+	.string "GIOVANNI will congratulate me for\l"
+	.string "having a NIDOKING at such early age!$"
 
 
 
@@ -30,8 +30,8 @@ release
 end
 
 PewterCity_House1_Text_3:
-.string "Hay niños en esta casa ROCKET,\n"
-.string "debería darte vergüenza irrumpir\l"
-.string "así en una propiedad privada, al\l"
-.string "más mínimo indicio de intentar\l"
-.string "algo llamo a las autoridades.$"
+	.string "There are children at this house\n"
+	.string "ROCKET, you should be ashamed of\l"
+	.string "getting into a private property like\l"
+	.string "this, at the minimum hint of trying\l"
+	.string "something suspicious I will call police.$"

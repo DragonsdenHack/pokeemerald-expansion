@@ -40,9 +40,9 @@ release
 end
 
 PewterCity_Museum_Text_4:
-.string "Esa PIEDRA LUNAR está\n"
-.string "sobrevalorada, si se ve igual que\l"
-.string "una vulgar roca.$"
+	.string "MOON STONE, huh? What's so special\n"
+	.string "about it? Looks like an ordinary rock to\l"
+	.string "me.$"
 
 
 
@@ -54,9 +54,9 @@ release
 end
 
 PewterCity_Museum_Text_5:
-.string "Este mes daremos una exhibición\n"
-.string "espacial, a la que tú, por\l"
-.string "supuesto, no estás invitado.$"
+	.string "This month, we're running a space\n"
+	.string "exhibit, where, of course, you are not\l"
+	.string "invited.$"
 
 
 PewterMuseum2FDocumento_100::
@@ -149,88 +149,76 @@ emote_exclamation_mark
 step_end
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_1:
-.string "20 de Julio de 1969.\n"
-	.string "¡Primer alunizaje!\l"
-	.string "¡Compré una televisión en color\l"
-	.string "solo para presenciar ese\l"
-	.string "acontecimiento!$"
+	.string "July 20, 1969! Humankind first set foot\n"
+	.string "on the moon that day. I bought a color\l"
+	.string "TV just so I could watch that news.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_2:
-.string "Tenlo en cuenta ROCKET, solo has\n"
-	.string "logrado retrasar la fecha en la\l"
-	.string "que esos subterráneos se cerrarán,\l"
-	.string "dentro de 3 años no quedará ni\l"
-	.string "rastro de ellos.$"
+	.string "Keep it on your mind ROCKET, you've only\n"
+	.string "managed to delay the date when those\l"
+	.string "underground paths will be closed, in 3\l"
+	.string "years, there won't be a trace of them.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_3:
 .string "...\n"
 	.string "...$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_4:
-.string "¿Vienes en nombre de los\n"
-	.string "MOTORISTAS para decirme que no\l"
-	.string "toque vuestras VÍAS SUBTERRÁNEAS?$"
+	.string "Did you come in the name of the BIKERS\n"
+	.string "to tell me that do not touch your\l"
+	.string "UNDERGROUND PATHS?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_5:
-.string "Que quede una cosa bien clara\n"
-	.string "chico, yo provengo de JOHTO, y\l"
-	.string "vuestras guerras internas, si eres\l"
-	.string "o no del TEAM ROCKET, o MOTORISTA,\l"
-	.string "me dan exactamente igual, son solo\l"
-	.string "negocios, lo único de lo que esos\l"
-	.string "MOTORISTAS tienen miedo es de que\l"
-	.string "se les acabe el mercado negro que\l"
-	.string "tienen ahí montado en esos\l"
-	.string "subterráneos, pero eso a mi no me\l"
-	.string "importa.$"
+	.string "I will be clear kid, I came from JOHTO\n"
+	.string "and your internal war, if you are or not\l"
+	.string "from the TEAM ROCKET, or BIKER, it is\l"
+	.string "the same for me, it is not personal it's\l"
+	.string "just business, the only thing those\l"
+	.string "BIKERS are afraid of is their black\l"
+	.string "market running dry that they have\l"
+	.string "armed down there, but I don't care\l"
+	.string "about that.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_6:
-.string "Pareces alguien razonable e\n"
-	.string "importante dentro de ese TEAM\l"
-	.string "ROCKET, no tienes porqué ayudar a\l"
-	.string "esos MOTORISTAS, y tus intereses\l"
-	.string "no tienen porqué confrontarse con\l"
-	.string "los míos.\l"
-	.string "¿Qué opinas?$"
+	.string "You look like someone reasonable and\n"
+	.string "important in the TEAM ROCKET, you don't\l"
+	.string "need to help those BIKERS, and your\l"
+	.string "interests do not have a reason to\l"
+	.string "confront the mine. What do you think?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_7:
-.string "¡A eso me refería yo!\n"
-	.string "¡Puede que hasta acabemos haciendo\l"
-	.string "negocios chico!$"
+	.string "That is what I meant! Maybe we could do\n"
+	.string "some business, kid!$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_8:
-.string "Una pena que esto tenga que\n"
-	.string "terminar así, en fin, mis POKÉMON\l"
-	.string "y yo nos encargaremos de darte una\l"
-	.string "lección.$"
+	.string "What a pity that this has to finish like\n"
+	.string "this, anyway, my POKÉMON and me we will\l"
+	.string "care of teaching you a lesson.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_9:
-.string "¿La luz de mi AMPHAROS se apagó?$"
+	.string "Did my AMPHAROS's light extinguish?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_10:
-.string "No sabía que en KANTO hubiera\n"
-	.string "gente tan fuerte aparte de los\l"
-	.string "LÍDERES DE GIMNASIO, esta región\l"
-	.string "guarda más sorpresas de las que...$"
+	.string "I didn't know that in KANTO there would\n"
+	.string "exist such strong people apart from\l"
+	.string "the GYM LEADERS, this region is more\l"
+	.string "than I expected…$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_11:
-.string "¿¡Qué!?\n"
-	.string "¿Trabajas para GIOVANNI de forma\l"
-	.string "directa y ostentas uno de los\l"
-	.string "cargos más importantes dentro del\l"
-	.string "TEAM ROCKET?\l"
-	.string "¿Y si no detengo mis intenciones\l"
-	.string "de quitar esos túneles informarás\l"
-	.string "a GIOVANNI de esto?$"
+	.string "What!? That you work for GIOVANNI\n"
+	.string "directly under his orders and you hold\l"
+	.string "one of the most important positions\l"
+	.string "within the TEAM ROCKET? And If I do not\l"
+	.string "stop my intentions of removing those\l"
+	.string "underground paths you will tell this to\l"
+	.string "GIOVANNI?$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_12:
-.string "Bien, bien.\n"
-	.string "Calma chico, me parece que ha\l"
-	.string "habido un malentendido, el proceso\l"
-	.string "de construcción de las vías de\l"
-	.string "tren llevará aún un par de años\l"
-	.string "más, esos túneles no me importan\l"
-	.string "por ahora, pueden seguir 1, 2 o 3\l"
-	.string "años más, ya habrá tiempo de\l"
-	.string "preocuparse por ellos.\l"
-	.string "¿No crees?$"
+	.string "Okay, okay. Calm down kid, I think there\n"
+	.string "has been a misunderstanding, the\l"
+	.string "magnetrain track construction process\l"
+	.string "will take another couple of years, I\l"
+	.string "don't care about those paths for now,\l"
+	.string "it can continue for 1, 2, or 3 more years,\l"
+	.string "there will be time to worry about them,\l"
+	.string "don't you think?$"

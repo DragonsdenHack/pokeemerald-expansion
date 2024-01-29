@@ -32,11 +32,10 @@ release
 end
 
 OutcastIsland_Text_7:
-.string "¡No conoces a SHARPEDO!\n"
-.string "¡Un tipo pasó antes por aquí y me\l"
-.string "sacó uno!\l"
-.string "¡No existe triturar más mortífero\l"
-.string "que el de SHARPEDO!$"
+	.string "You haven't heard about SHARPEDO!\n"
+	.string "Someone came through here earlier and\l"
+	.string "got one for me! There's no more deadly\l"
+	.string "crunch than SHARPEDO's one!$"
 
 
 OutcastIsland8::
@@ -46,10 +45,9 @@ release
 end
 
 OutcastIsland_Text_8:
-.string "¡GYARADOS es el terror de los\n"
-.string "mares!\l"
-.string "¡No hay POKÉMON NO LEGENDARIO que\l"
-.string "iguale su fuerza y ferocidad!$"
+	.string "GYARADOS is the terror of the seas!\n"
+	.string "There's no NON-LEGENDARY POKÉMON that\l"
+	.string "equals its strength and ferocity!$"
 
 
 

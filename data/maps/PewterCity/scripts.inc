@@ -12,10 +12,9 @@ release
 end
 
 PewterCity_Text1:
-.string "¡No quiero tener nada que ver\n"
-.string "contigo, bastardo!\l"
-.string "¡Ni te atrevas a cruzar una mirada\l"
-.string "conmigo!$"
+	.string "I don't want to deal with you, bastard!\n"
+	.string "Do not you dare even make eye contact\l"
+	.string "with me!$"
 
 PewterCity3::
 end
@@ -29,10 +28,9 @@ release
 end
 
 PewterCity_Text4:
-.string "Te has librado de milagro, hace\n"
-.string "nada este lugar estaba repleto de\l"
-.string "policías. ¡La próxima vez te\l"
-.string "atraparán!$"
+	.string "You are so lucky, not long ago this\n"
+	.string "place was full of police. They'll catch\l"
+	.string "you next time!$"
 
 
 PewterCity5::
@@ -43,11 +41,9 @@ release
 end
 
 PewterCity_Text5:
-.string "Los CLEFAIRY vinieron de la luna,\n"
-.string "o eso es lo que dicen los rumores.\l"
-.string "Aparecieron después de que una\l"
-.string "lluvia de piedras lunares cayese\l"
-.string "sobre el MT.MOON.$"
+	.string "CLEFAIRY came from the moon. That's\n"
+	.string "what the rumor is. They appeared after\l"
+	.string "MOON STONES fell on MT. MOON.$"
 
 
 PewterCity6::
@@ -223,14 +219,14 @@ release
 end
 
 PewterCity_Petrel_Texto_1:
-.string "PETREL: ¡Qué sorpresa verte por\n"
-	.string "aquí {PLAYER}!$"
+	.string "PETREL: What a surprise to see you\n"
+	.string "around here, {PLAYER}!$"
 
 PewterCity_Petrel_Texto_2:
-.string "Así que una importante misión en\n"
-	.string "PUEBLO PALETA, no paras, ¿eh?\l"
-	.string "Ya me ha dicho GIOVANNI que estás\l"
-	.string "haciendo un buen trabajo allí.$"
+	.string "So an important mission at PALLET TOWN,\n"
+	.string "you are tireless, eh? GIOVANNI already\l"
+	.string "told me that you are doing an excellent\l"
+	.string "job there.$"
 
 PewterCity_Petrel_Texto_3:
 .string "... ... ... ... ... ... ...$"
@@ -243,62 +239,55 @@ PewterCity_Petrel_Texto_4:
     .string "you have any information-.$"
 
 PewterCity_Petrel_Texto_5:
-.string "Obvio que con -ladrones- se\n"
-	.string "refiere a nosotros, tiene gracia\l"
-	.string "la cosa, me encanta el doble\l"
-	.string "rasero de esta región.$"
+	.string "Obviously, with -thieves-, it refers to\n"
+	.string "our organization, it's funny, I enjoy\l"
+	.string "the double standard in this region., I\l"
+	.string "love the double standard in this region.$"
 
 PewterCity_Petrel_Texto_6:
-.string "Si un científico se queda con\n"
-	.string "FÓSILES del MT.MOON, no pasa nada,\l"
-	.string "es para su investigación.$"
+	.string "If a scientist takes a FOSSIL at\n"
+	.string "MT.MOON, no problem, it is for his\l"
+	.string "investigation.$"
 
 PewterCity_Petrel_Texto_7:
-.string "Si un par de niños malcriados\n"
-	.string "limpian la cueva de FÓSILES, nadie\l"
-	.string "dice nada, puesto que, por\l"
-	.string "supuesto, no pueden quedarse sin\l"
-	.string "completar sus POKÉDEX, de añadir\l"
-	.string "uno más a su -colección-, como si\l"
-	.string "los POKÉMON fueran cromos\l"
-	.string "intercambiables.$"
+	.string "If a couple of spoiled kids clean out\n"
+	.string "the FOSSIL cave, no one cares a bit\l"
+	.string "because, of course, they can't be left\l"
+	.string "without completing their POKÉDEX,\l"
+	.string "adding one more to their -collection-,\l"
+	.string "as if POKÉMON were interchangeable\l"
+	.string "trading cards.$"
 
 PewterCity_Petrel_Texto_8:
-.string "Si un grupo privado como nosotros\n"
-	.string "decide recolectar FÓSILES para\l"
-	.string "satisfacer una demanda de la\l"
-	.string "población, somos unos ladrones,\l"
-	.string "como si esos FÓSILES perteneciesen\l"
-	.string "a alguien cuando cualquier idiota\l"
-	.string "puede tomarlos en cualquier\l"
-	.string "momento si los encuentra.$"
+	.string "When a private group like us decides to\n"
+	.string "gather FOSSILS to satisfy a demand\l"
+	.string "from the population, we are thieves, as\l"
+	.string "if those FOSSILS belonged to someone\l"
+	.string "when any idiot can take them at any\l"
+	.string "moment if they find them first.$"
 
 PewterCity_Petrel_Texto_9:
-.string "Hablando de FÓSILES, he venido\n"
-	.string "hasta aquí a visitar a un viejo\l"
-	.string "amigo que tiene la suerte de ser\l"
-	.string "uno de los peces gordos del MUSEO\l"
-	.string "DE LA CIENCIA DE CIUDAD PLATEADA,\l"
-	.string "al parecer han encontrado un\l"
-	.string "ejemplar de ÁMBAR VIEJO, que\l"
-	.string "contiene el FÓSIL más poderoso y\l"
-	.string "valioso de nuestra región, sé que\l"
-	.string "con la correcta negociación puedo\l"
-	.string "convencerlo de que nos lo preste\l"
-	.string "para investigarlo, hemos\l"
-	.string "desarrollado un sistema de\l"
-	.string "clonación que podría replicar ese\l"
-	.string "ÁMBAR VIEJO a un costo inferior a\l"
-	.string "su precio de mercado, por lo que\l"
-	.string "no puedo dejar pasar esta\l"
-	.string "oportunidad.$"
+	.string "Talking about FOSSILS, I've come here\n"
+	.string "to visit an old friend who is fortunate\l"
+	.string "enough to be one of the big shots at\l"
+	.string "the SCIENCE MUSEUM of PEWTER CITY, it\l"
+	.string "seems they have found a specimen of\l"
+	.string "OLD AMBER, which contains the most\l"
+	.string "powerful and valuable FOSSIL in our\l"
+	.string "region. I believe that with the right\l"
+	.string "negotiation, I can persuade him to lend\l"
+	.string "it to us for research, we have\l"
+	.string "developed a cloning system that could\l"
+	.string "replicate that OLD AMBER at a lower\l"
+	.string "cost than its market price, so I can't\l"
+	.string "let this opportunity pass.$"
 
 PewterCity_Petrel_Texto_10:
-.string "Si te animas, estás invitado a esa\n"
-	.string "reunión, estaremos en la caseta\l"
-	.string "trasera al MUSEO oficial abierto\l"
-	.string "al público, allí te espero si\l"
-	.string "decides venir.$"
+	.string "If you're up for it, you're invited to\n"
+	.string "that meeting, we'll be in the back booth\l"
+	.string "behind the museum officially open to\l"
+	.string "the public, I'll be waiting for you there\l"
+	.string "if you decide to come.$"
 
 PewterCity_Petrel_Move_1:
 walk_in_place_left
@@ -385,5 +374,5 @@ step_end
 
 
 PewterCity_Ayuda_Texto_1:
-.string "(Debería asistir a la reunión de PETREL,\n"
-	.string "en la otra caseta)$"
+	.string "(I should assist to PETRELs meeting at\n"
+	.string "the other stand)$"

@@ -2448,41 +2448,43 @@ RocketHideout5F_Secundaria_Frank_Texto_8:
 	.string "you.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_9:
-.string "Cuidadito con lo que dices, muchacho.\n"
-	.string "Como EJECUTIVO, he tenido acceso a\l"
-	.string "POKÉMON de un poder que tú aún no has\l"
-	.string "visto. Los ALTO RANGO tenéis que\l"
-	.string "conformaros con las sobras que nadie\l"
-	.string "quiere en la región, sobras de calidad\l"
-	.string "por ser ALTO RANGO, pero sobras al fin y\l"
-	.string "al cabo.$"
+	.string "Be careful about what you say, kid. As\n"
+	.string "EXECUTIVE I had access to POKÉMON of\l"
+	.string "an unattainable power that you have\l"
+	.string "never seen before. The HIGH RANKS like\l"
+	.string "you must conform with the leftovers\l"
+	.string "that no one in this region wants, high\l"
+	.string "quality leftovers because you are HIGH\l"
+	.string "RANK, but leftovers anyway.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_10:
-.string "Vas a ver de lo que te estoy hablando.$"
+	.string "I will show you what I am talking about.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_11:
-.string "¿Entonces mi derrota en el MT.MOON no\n"
-	.string "fue casualidad?$"
+	.string "So my defeat at MT. MOON was not a\n"
+	.string "coincidence?$"
 
 RocketHideout5F_Secundaria_Frank_Texto_12:
-.string "¿Sabes cuál es tu problema, {PLAYER}?$"
+	.string "Do you know what your problem is,\n"
+	.string "{PLAYER}?$"
 
 RocketHideout5F_Secundaria_Frank_Texto_13:
-.string "Crees que puedes ganar a todos\n"
-	.string "combatiendo, e imponer lo que quieres\l"
-	.string "solo porque tus POKÉMON derrotaron a\l"
-	.string "los de tu rival.$"
+	.string "You think you can defeat everyone just\n"
+	.string "by battling, and even impose what you\l"
+	.string "want just because your POKÉMON\l"
+	.string "defeated the rival's POKÉMON.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_14:
-.string "Tal vez eso valga para dejar de ser un\n"
-	.string "RECLUTA común, pero en las altas\l"
-	.string "esferas del TEAM ROCKET la cosa no\l"
-	.string "funciona así. Necesitas algo más que\l"
-	.string "saber combatir si quieres ir subiendo.$"
+	.string "Maybe that could work to be better\n"
+	.string "than a common GRUNT, however, in the\l"
+	.string "upper circles of TEAM ROCKET, things\l"
+	.string "don't work like that, you will need\l"
+	.string "something more than just decent\l"
+	.string "combat skills if you want to climb up.$"
 
 RocketHideout5F_Secundaria_Frank_Texto_15:
-.string "Cuando me vuelvan a ascender a ADMIN, y\n"
-	.string "tú sigas estancado en ALTO RANGO, ¡lo\l"
-	.string "primero que haré para celebrarlo será\l"
-	.string "enviarte de vuelta a recoger fósiles\l"
-	.string "como a un vulgar RECLUTA!$"
+	.string "When I will get ascended to ADMIN, and\n"
+	.string "if you stay stuck being a HIGH RANK,\l"
+	.string "the first thing I'll do to celebrate\l"
+	.string "that, is send you back to gather\l"
+	.string "fossils like a simple GRUNT!$"

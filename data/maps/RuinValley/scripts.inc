@@ -44,11 +44,10 @@ release
 end
 
 RuinValley10_Texto_1:
-.string "Maldita puerta...\n"
-	.string "El ALMIRANTE TOLO debe de saber\l"
-	.string "cómo pasar por aquí, es lo único\l"
-	.string "que nos separa del preciado\l"
-	.string "ZAFIRO...$"
+	.string "Damn door... ADMIN.MATT must know how\n"
+	.string "to get through here; it's the only thing\l"
+	.string "separating us from the precious\l"
+	.string "SAPPHIRE...$"
 
 
 RuinValley11::
@@ -149,17 +148,15 @@ release
 end
 
 RuinValley_Encuentro_Aquiles_Texto_1:
-.string "????: ¡Es por aquí!\n"
-	.string "¡Lo presiento!$"
+	.string "????: It's here! I can feel it!$"
 
 RuinValley_Encuentro_Aquiles_Texto_2:
-.string "¡Fuera de mi camino chico!$"
+	.string "Get out my way kid!$"
 
 RuinValley_Encuentro_Aquiles_Texto_3:
-.string "El POKÉMON CUENCA MAR duerme en lo\n"
-	.string "más profundo de esa cámara\l"
-	.string "sellada, no me hagas perder más el\l"
-	.string "tiempo.$"
+	.string "The SEA BASIN POKÉMON sleeps in the\n"
+	.string "deepest part of that sealed chamber;\l"
+	.string "don't waste my time!$"
 
 
 

@@ -41,14 +41,13 @@ release
 end
 
 DiggletCave1F_Frontera_Text_1:
-.string "¡Hee!\n"
-	.string "¡Espera!\l"
-	.string "¡Ahora mismo los alrededores de\l"
-	.string "CIUDAD PLATEADA están llenos de\l"
-	.string "policías por lo ocurrido en el\l"
-	.string "MT.MOON!\l"
-	.string "¡Más te vale que no te vean por\l"
-	.string "esos lugares!$"
+.string "Ehh!\n"
+	.string "Hold on!\l"
+	.string "Right now the surroundings of PEWTER\l"
+	.string "CITY are full of police due to what\l"
+	.string "happened at MT.MOON! You better make\l"
+	.string "sure they don't see you around those\l"
+	.string "places!$"
 
 
 DiggletCave1F_Frontera_Move1:

@@ -17,6 +17,5 @@ msgbox GreenPathDocumento_Text_100, MSGBOX_SIGN
 end
 
 GreenPathDocumento_Text_100:
-	.string "BOSQUEJO\n"
-	.string "¡Piensa en Verde y mantén limpia\l"
-	.string "la Naturaleza!$"
+    .string "GREEN PATH\n"
+    .string "Think Green, Keep Nature Clean!$"
