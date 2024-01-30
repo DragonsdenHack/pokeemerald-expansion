@@ -2250,16 +2250,48 @@ static void MainMenu_FormatSavegamePokedex(void)
     }
 }
 
+static const u16 sBadgeFlags[] =
+{
+    FLAG_BADGE01_GET,
+    FLAG_BADGE02_GET,
+    FLAG_BADGE03_GET,
+    FLAG_BADGE04_GET,
+    FLAG_BADGE05_GET,
+    FLAG_BADGE06_GET,
+    FLAG_BADGE07_GET,
+    FLAG_BADGE08_GET,
+	FLAG_BADGE09_GET,
+	FLAG_BADGE10_GET,
+	FLAG_BADGE11_GET,
+	FLAG_BADGE12_GET,
+	FLAG_BADGE13_GET,
+	FLAG_BADGE14_GET,
+	FLAG_BADGE15_GET,
+	FLAG_SYS_CAVE_SHIP,
+	FLAG_SYS_CAVE_WONDER,
+	FLAG_SYS_CAVE_BATTLE,
+	FLAG_UNUSED_8,
+	FLAG_UNUSED_9,
+	FLAG_UNUSED_0x8E3,
+	FLAG_UNUSED_0x068,
+	FLAG_UNUSED_0x2D9,
+	FLAG_UNUSED_0x1E3,
+	FLAG_UNUSED_0x4F9,
+	FLAG_UNUSED_0x4FA,
+	FLAG_UNUSED_0x1AA,
+	FLAG_UNUSED_0x1AB,
+};
+
 static void MainMenu_FormatSavegameBadges(void)
 {
     u8 str[0x20];
     u8 badgeCount = 0;
     u32 i;
 
-    for (i = FLAG_BADGE01_GET; i < FLAG_BADGE01_GET + NUM_BADGES; i++)
+    for (i = 0; i < 28; i++)
     {
-        if (FlagGet(i))
-            badgeCount++;
+        if(FlagGet(sBadgeFlags[i]))
+			badgeCount++;
     }
     StringExpandPlaceholders(gStringVar4, gText_ContinueMenuBadges);
     AddTextPrinterParameterized3(2, FONT_NORMAL, 0x6C, 33, sTextColor_MenuInfo, TEXT_SKIP_DRAW, gStringVar4);
