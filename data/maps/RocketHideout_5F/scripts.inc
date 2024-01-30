@@ -1505,7 +1505,7 @@ RocketHideout5FDocumento_Text_115:
 	.string "compensación, como si la\l"
 	.string "naturaleza no quisiera que nos\l"
 	.string "excediéramos...\l"
-	.string "Todo tiene a la homeostáis...\l"
+	.string "Todo tiende a la homeostáis...\l"
 	.string "A pesar de ello, es solo una\l"
 	.string "piedra más en nuestro camino...$"
 
