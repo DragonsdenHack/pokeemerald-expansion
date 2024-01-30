@@ -16,6 +16,7 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_2 MSGBOX_AUTOCLOSE
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_4 MSGBOX_AUTOCLOSE
+playse 414
 delay 40
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_5 MSGBOX_AUTOCLOSE
 delay 20

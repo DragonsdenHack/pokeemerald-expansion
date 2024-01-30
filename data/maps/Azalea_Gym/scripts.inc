@@ -54,7 +54,8 @@ msgbox AzaleaGym_Combate_Cesar_Texto_2 MSGBOX_AUTOCLOSE
 msgbox AzaleaGym_Combate_Cesar_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AzaleaGym_Combate_Cesar_Texto_4 MSGBOX_AUTOCLOSE
-delay 20
+playse 414
+delay 40
 msgbox AzaleaGym_Combate_Cesar_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AzaleaGym_Combate_Cesar_Texto_6 MSGBOX_AUTOCLOSE

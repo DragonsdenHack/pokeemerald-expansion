@@ -39,7 +39,8 @@ waitmovement 0x0
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4 MSGBOX_AUTOCLOSE
-delay 20
+playse 414
+delay 40
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_2
 waitmovement 0x0

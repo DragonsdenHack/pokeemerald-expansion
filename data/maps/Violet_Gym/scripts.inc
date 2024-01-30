@@ -266,6 +266,7 @@ msgbox Violet_Gym_Combate_Pegaso_Texto_2 MSGBOX_NPC
 msgbox Violet_Gym_Combate_Pegaso_Texto_3 MSGBOX_NPC
 delay 20
 msgbox Violet_Gym_Combate_Pegaso_Texto_4 MSGBOX_NPC
+playse 414
 delay 40
 msgbox Violet_Gym_Combate_Pegaso_Texto_5 MSGBOX_NPC
 delay 20

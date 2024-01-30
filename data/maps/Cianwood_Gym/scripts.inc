@@ -86,6 +86,7 @@ msgbox Cianwood_Gym_Combate_Anibal_Texto_2 MSGBOX_NPC
 msgbox Cianwood_Gym_Combate_Anibal_Texto_3 MSGBOX_NPC
 delay 20
 msgbox Cianwood_Gym_Combate_Anibal_Texto_4 MSGBOX_NPC
+playse 414
 delay 40
 msgbox Cianwood_Gym_Combate_Anibal_Texto_5 MSGBOX_NPC
 delay 20

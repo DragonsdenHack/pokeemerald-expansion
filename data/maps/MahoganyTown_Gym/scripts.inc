@@ -67,7 +67,8 @@ msgbox MahoganyTown_Gym_Combate_Fredo_Texto_2 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_4 MSGBOX_AUTOCLOSE
-delay 20
+playse 414
+delay 40
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_6 MSGBOX_AUTOCLOSE
