@@ -2908,10 +2908,10 @@ static const struct TrainerMonItemCustomMoves sParty_Valeria[] = {
     .iv = 255,
     .lvl = 86,
     .species = SPECIES_KINGDRA_BOND,
-    .heldItem = ITEM_CHOPLE_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .evs = {30, 30, 30, 252, 252, 30},
     .nature = NATURE_MODEST,
-    .moves = {MOVE_DARK_PULSE, MOVE_CLANGING_SCALES, MOVE_SURF, MOVE_SLUDGE_WAVE}
+    .moves = {MOVE_DARK_PULSE, MOVE_CLANGING_SCALES, MOVE_CLANGING_SCALES, MOVE_SLUDGE_WAVE}
     }
 };
 
@@ -21671,10 +21671,10 @@ static const struct TrainerMonItemCustomMoves sParty_Campeonveneno[] = {
     .iv = 255,
     .lvl = 103,
     .species = SPECIES_GOODRA_BOND,
-    .heldItem = ITEM_HABAN_BERRY,
+    .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 120, 120, 120, 252, 120},
     .nature = NATURE_BOLD,
-    .moves = {MOVE_SLUDGE_WAVE, MOVE_CLANGING_SCALES, MOVE_FLAMETHROWER, MOVE_STRENGTH_SAP}
+    .moves = {MOVE_SLUDGE_WAVE, MOVE_CLANGING_SCALES, MOVE_FLAMETHROWER, MOVE_CLANGING_SCALES}
     }
 };
 

@@ -487,7 +487,9 @@ BaseRocketHoennS3Documento_Text_115:
 	.string "DEFENSA ESPECIAL: 100\l"
 	.string "VELOCIDAD: 130\l"
 	.string "TOTAL: 780\p"
-	.string "Logró superar el tope en ATAQUE de\n"
+	.string "TIPO: PSÍQUICO/LUCHA\n"
+	.string "HABILIDAD: POTENCIA BRUTA\l"
+	.string "Logró superar el tope en ATAQUE de\l"
 	.string "DEOXYS (180), gracias al estudio de las\l"
 	.string "fibras musculares de HERACROSS-M,\l"
 	.string "dejando el límite en 190 puntos. Su\l"
@@ -518,7 +520,9 @@ BaseRocketHoennS3Documento_Text_116:
 	.string "DEFENSA ESPECIAL: 120\l"
 	.string "VELOCIDAD: 140\l"
 	.string "TOTAL: 780\p"
-	.string "Logró superar el tope en AT.ESPECIAL de\n"
+	.string "TIPO: PSÍQUICO\n"
+	.string "HABILIDAD: PSICOGÉNESIS\l"
+	.string "Logró superar el tope en AT.ESPECIAL de\l"
 	.string "DEOXYS (180); gracias al descubrimiento\l"
 	.string "del VOLCARONA-&, que amplificó\l"
 	.string "nuestros conocimientos sobre este\l"
@@ -533,7 +537,9 @@ BaseRocketHoennS3Documento_Text_116:
 
 
 BaseRocketHoennS3Documento_117::
-lock     
+lock   
+compare VAR_PACIFIDLOG_TOWN_STATE, 4
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_ZAPDOS_PRIMAL, 10, 3  
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_117, MSGBOX_DEFAULT
@@ -565,7 +571,9 @@ BaseRocketHoennS3Documento_Text_117:
 
 
 BaseRocketHoennS3Documento_118::
-lock     
+lock
+compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 7
+goto_if_lt RocketHideout7FDocumento_Esperando      
 showmonpic SPECIES_NINETALES_BOND, 10, 3  
 playmoncry SPECIES_NINETALES, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_118, MSGBOX_DEFAULT
@@ -594,7 +602,9 @@ BaseRocketHoennS3Documento_Text_118:
 
 
 BaseRocketHoennS3Documento_119::
-lock     
+lock   
+compare VAR_SECRET_BASE_LOW_TV_FLAGS, 10
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_GOODRA_BOND, 10, 3  
 playmoncry SPECIES_GOODRA, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_119, MSGBOX_DEFAULT
@@ -612,7 +622,7 @@ BaseRocketHoennS3Documento_Text_119:
 	.string "VELOCIDAD: 30\l"
 	.string "TOTAL: 710\p"
 	.string "TIPO: DRAGÓN/VENENO\n"
-	.string "HABILIDAD: FILTRO\l"
+	.string "HABILIDAD: RESPONDÓN\l"
 	.string "El grado de viscosidad en su cuerpo le\l"
 	.string "hace absorber la mayor parte de los\l"
 	.string "golpes, de ahí su desproporcionada\l"
@@ -851,7 +861,7 @@ end
 
 BaseRocketHoennS3_Primer_Cientifico_Texto_1:
 .string "La variedad en los STATS de los\n"
-	.string "antiiguos POKÉMON de JOHTO es\l"
+	.string "antiguos POKÉMON de JOHTO es\l"
 	.string "fascinante. Hoy en día son mucho más\l"
 	.string "regulares y predecibles, quizás por\l"
 	.string "carecer de las salvajes condiciones de\l"

@@ -26327,9 +26327,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_WATER_1,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY},
+            .abilities = {ABILITY_CONTRARY, ABILITY_CONTRARY, ABILITY_CONTRARY},
         #else
-            .abilities = {ABILITY_ADAPTABILITY, ABILITY_NONE, ABILITY_ADAPTABILITY},
+            .abilities = {ABILITY_CONTRARY, ABILITY_NONE, ABILITY_CONTRARY},
         #endif
         .bodyColor = BODY_COLOR_BLUE,
         .noFlip = FALSE,
@@ -26812,7 +26812,7 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_DRAGON,
         .eggGroup2 = EGG_GROUP_DRAGON,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_FILTER, ABILITY_FILTER, ABILITY_FILTER},
+            .abilities = {ABILITY_CONTRARY, ABILITY_CONTRARY, ABILITY_CONTRARY},
         #else
             .abilities = {ABILITY_NONE, ABILITY_NONE},
         #endif

@@ -56,9 +56,9 @@ static const u8 sTimerBallDesc[] = _(
    	"avanzar el combate.");
 
 static const u8 sQuickBallDesc[] = _(
-    "Works well if\n"
-    "used on the\n"
-    "first turn.");
+    "Funciona mejor si\n"
+    "se usa en los pri-\n"
+    "meros turnos.");
 
 static const u8 sRepeatBallDesc[] = _(
     "Funciona mejor con\n"

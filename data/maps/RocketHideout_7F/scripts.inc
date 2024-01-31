@@ -1463,16 +1463,16 @@ RocketHideout7FDocumento_Text_131:
 	.string "VELOCIDAD: 115\l"
 	.string "TOTAL: 650\p"
 	.string "TIPO: AGUA/SINIESTRO\n"
-	.string "HABILIDAD: ADAPTABLE\l"
+	.string "HABILIDAD: RESPONDÓN\l"
 	.string "Con un destacable total de 650 de\l"
 	.string "BASE que roza territorio sagrado,\l"
 	.string "logra gracias a su HABILIDAD\l"
-	.string "ADAPTABLE desbordar mucho más de\l"
-	.string "lo que sus 115 de BASE en ATAQUE y\l"
-	.string "ATAQUE ESPECIAL sugieren, siendo\l"
-	.string "el único NO LEGENDARIO capaz de\l"
-	.string "lograr la hazaña de sostener esos\l"
-	.string "115 de BASE en 5 STATS diferentes.$"
+	.string "RESPONDÓN emplear COMETA DRACO y\l"
+	.string "FRAGOR ESCAMAS con sendos beneficios,\l"
+	.string "abriendo opciones tanto ofensivas como\l"
+	.string "defensivas. Es el único NO LEGENDARIO\l"
+	.string "capaz de lograr la hazaña de sostener\l"
+	.string "115 STATS BASE en 5 STATS diferentes.$"
 
 
 
@@ -1632,7 +1632,7 @@ RocketHideout7FDocumento_136::
 lock
 compare VAR_UNUSED_0x40F7, 157
 goto_if_lt RocketHideout7FDocumento_Esperando
-showmonpic SPECIES_CROBAT2_BOND, 10, 3  
+showmonpic SPECIES_CROBAT_BOND, 10, 3  
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_136, MSGBOX_DEFAULT
 hidemonpic
@@ -1666,7 +1666,7 @@ RocketHideout7FDocumento_136_2::
 lock
 compare VAR_UNUSED_0x40F7, 157
 goto_if_lt RocketHideout7FDocumento_Esperando
-showmonpic SPECIES_CROBAT_BOND, 10, 3  
+showmonpic SPECIES_CROBAT2_BOND, 10, 3  
 playmoncry SPECIES_CROBAT, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_136_2, MSGBOX_DEFAULT
 hidemonpic
@@ -1802,39 +1802,36 @@ RocketHideout7FDocumento_Text_139:
 
 RocketHideout7FDocumento_140::
 lock
-compare VAR_UNUSED_0x40F7, 171
+compare VAR_VERDANTURF_TOWN_STATE, 14
 goto_if_lt RocketHideout7FDocumento_Esperando   
-showmonpic SPECIES_DARKRAI_PRIMAL, 10, 3  
-playmoncry SPECIES_DARKRAI, CRY_MODE_ENCOUNTER 
+showmonpic SPECIES_DELPHOX_BOND, 10, 3  
+playmoncry SPECIES_DELPHOX, CRY_MODE_ENCOUNTER 
 msgbox RocketHideout7FDocumento_Text_140, MSGBOX_DEFAULT
 hidemonpic
 release     
 end
 
 RocketHideout7FDocumento_Text_140:
-	.string "DARKRAI PRIMIGENIO:\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 90\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 185\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 135\l"
-	.string "TOTAL: 700\p"
-	.string "SINIESTRO\n"
-	.string "Toda la energía alrededor de su\l"
-	.string "cuerpo desprende un aura\l"
-	.string "aterradora que potencia sus ya de\l"
-	.string "por sí infernales ataques\l"
-	.string "siniestros, al tiempo que\l"
-	.string "disminuye la potencia del TIPO\l"
-	.string "HADA.\l"
-	.string "Alcanza, al igual que las\l"
-	.string "MEGAEVOLUCIONES de\l"
-	.string "PSEUDOLEGENDARIOS, la barrera de\l"
-	.string "los 700 de BASE, aunque con mejor\l"
-	.string "reparto de STATS que estos, y un\l"
-	.string "ATAQUE ESPECIAL que también pasa\l"
-	.string "de los 180 de BASE.$"
+	.string "DELPHOX-&:\p"
+	.string "PS: 85\n"
+	.string "ATAQUE: 69\l"
+	.string "DEFENSA: 92\l"
+	.string "ATAQUE ESPECIAL: 164\l"
+	.string "DEFENSA ESPECIAL: 110\l"
+	.string "VELOCIDAD: 124\l"
+	.string "TOTAL: 644\p"
+	.string "TIPO: FUEGO/PSÍQUICO\n"
+	.string "HABILIDAD: ESPEJOMÁGICO\l"
+	.string "Único inicial conocido que ha alcanzado\l"
+	.string "el FUERTE VÍNCULO, contando con unos\l"
+	.string "poderes PSÍQUICOS devastadores. Su\l"
+	.string "TIPO FUEGO le da una excelente\l"
+	.string "cobertura con el ACERO. A pesar de que\l"
+	.string "en ratio AT.ESP-VELOCIDAD pueda verse\l"
+	.string "superado por otros como ALAKAZAM-MEGA\l"
+	.string "o GENGAR-MEGA, si tenemos en cuenta su\l"
+	.string "bulk y stats globales, es casi imbatible\l"
+	.string "para cualquier NO LEGENDARIO.$"
 
 
 
