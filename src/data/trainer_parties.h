@@ -2367,7 +2367,7 @@ static const struct TrainerMonItemCustomMoves sParty_Aquiles[] = {
     {
     .iv = 210,
     .lvl = 72,
-    .species = SPECIES_CASTFORM,
+    .species = SPECIES_CASTFORM_RAINY,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {88, 64, 88, 94, 88, 88},
     .nature = NATURE_TIMID,
@@ -2415,7 +2415,7 @@ static const struct TrainerMonItemCustomMoves sParty_Magno[] = {
     {
     .iv = 210,
     .lvl = 71,
-    .species = SPECIES_CASTFORM,
+    .species = SPECIES_CASTFORM_SUNNY,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {88, 64, 88, 94, 88, 88},
     .nature = NATURE_TIMID,
