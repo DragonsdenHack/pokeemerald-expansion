@@ -14,10 +14,9 @@ end
 
 
 ViridianCity_Text3:
-.string "Nadie sabe la identidad del LÍDER\n"
-.string "DE GIMNASIO de esta ciudad, pero\l"
-.string "espero que vuelva para daros una\l"
-.string "buena lección.$"
+	.string "No one knows our GYM LEADER identity,\n"
+	.string "but I hope he comes back to teach you a\l"
+	.string "good lesson.$"
 
 
 ViridianCity4::
@@ -32,11 +31,10 @@ release
 end
 
 ViridianCity_Text5:
-.string "¿Cómo?\n"
-.string "¿Enseñarte a atrapar POKÉMON?\l"
-.string "¡Para así aprender a robarlos más\l"
-.string "rápido, eh!\l"
-.string "¡Jamás, ROCKET!$"
+.string "What?\n"
+.string "Teach you how to catch POKÉMON?\l"
+.string "To learn to steal them faster, eh!\l"
+.string "Never, ROCKET!$"
 
 
 ViridianCity6::
@@ -47,8 +45,8 @@ release
 end
 
 ViridianCity_Text6:
-.string "Esas POKE BALL de tu cinturón…\n"
-.string "¡Seguro que las has robado!$"
+.string "Those POKÉ BALL at your belt…\n"
+.string "For sure you stole them!$"
 
 
 ViridianCity9::
@@ -59,9 +57,9 @@ release
 end
 
 ViridianCity_Text9:
-.string "¡Espero que nuestro LÍDER\n"
-.string "misterioso vuelva pronto y os eche\l"
-.string "a patadas de la ciudad!$"
+	.string "I hope our mysterious LEADER comes\n"
+	.string "back soon and kicks you out of the\l"
+	.string "city!$"
 
 
 ViridianCityDocumento_100::
@@ -204,72 +202,61 @@ release
 end
 
 ViridianCity_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste LODO NEGRO de manos de\n"
-	.string "ENTRENADOR!$"
+	.string "You obtained BLACK SLUDGE from\n"
+	.string "TRAINER!$"
 
 ViridianCity_Entrenador_Especial_Texto_1:
-.string "COMESUEÑOS es el movimiento de\n"
-	.string "daño y recuperación definitivo,\l"
-	.string "siempre y cuando el rival esté\l"
-	.string "dormido claro, nunca le enseñaría\l"
-	.string "un movimiento con ese potencial a\l"
-	.string "un ROCKET, aunque puedo hacer una\l"
-	.string "excepción y darte algo incluso\l"
-	.string "mejor si reunes todas las\l"
-	.string "MEDALLAS.$"
+	.string "DREAM EATER is the ultimate damaging\n"
+	.string "and recuperation move, if the opponent\l"
+	.string "is asleep, that is, I wouldn't teach a\l"
+	.string "move with that potential to a ROCKET.\l"
+	.string "However, I could make an exception and\l"
+	.string "offer you something even better if you\l"
+	.string "collect all the BADGES.$"
 
 ViridianCity_Entrenador_Especial_Texto_2:
 .string "...\n"
 	.string "...$"
 
 ViridianCity_Entrenador_Especial_Texto_3:
-.string "¡JAH!\n"
-	.string "¡Lo que imaginaba!\l"
-	.string "¡Un ROCKET con MEDALLAS DE\l"
-	.string "GIMNASIO!\l"
-	.string "¡Lo siento chaval no hay trato!$"
+.string "HAH!\n"
+	.string "What I expected!\l"
+	.string "A ROCKET with all the GYM BADGES!\l"
+	.string "I'm sorry kid, there is no deal!$"
 
 ViridianCity_Entrenador_Especial_Texto_4:
-.string "LODO NEGRO recuperará 1/16 de la\n"
-	.string "salud del POKÉMON que lo lleve\l"
-	.string "equipado a cada turno, ¡pero ten\l"
-	.string "cuidado!\l"
-	.string "¡Únicamente tendrá estos efectos\l"
-	.string "con los tipo VENENO!\l"
-	.string "¡Si otro POKÉMON lo lleva equipado\l"
-	.string "le restará 1/8 de salud!\l"
-	.string "¿No es ideal para castigar a los\l"
-	.string "ladrones que intentan robarte\l"
-	.string "objetos en plena batalla?$"
+	.string "BLACK SLUDGE will restore 1/16 of the\n"
+	.string "POKÉMON HEALTH every turn, but be\l"
+	.string "carefull! Only will work with the POISON\l"
+	.string "type! If any other POKÉMON equips it\l"
+	.string "will remove 1/8 of its health! Isn't it\l"
+	.string "ideal for those thieves that try to\l"
+	.string "take your objects in half battle?$"
 
 ViridianCity_Entrenador_Especial_Texto_5:
-.string "¡Imposible!\n"
-	.string "¡Debe de ser una broma!\l"
-	.string "Está bien, yo también sé lo que es\l"
-	.string "haber ganado las 8 MEDALLAS chico,\l"
-	.string "si quieres que te de el objeto\l"
-	.string "deberás de derrotarme en un\l"
-	.string "combate.$"
+	.string "Impossible! It must be a joke! All right,\n"
+	.string "I know too what it is to have won the 8\l"
+	.string "BADGES, kid, if you want me to give you\l"
+	.string "the object you must defeat me in a\l"
+	.string "fight.$"
 
 ViridianCity_Entrenador_Especial_Texto_6:
-.string "Entonces, ¿aceptas el reto?$"
+.string "So, do you accept the challenge?$"
 
 ViridianCity_Entrenador_Especial_Texto_7:
-.string "Perfecto.\n"
-	.string "¡Vamos a comprobar si esas\l"
-	.string "MEDALLAS son de verdad o no eres\l"
-	.string "más que un farsante!$"
+	.string "Perfect. Let's check if those BADGES\n"
+	.string "are the real ones or you are just a\l"
+	.string "faker!$"
 
 ViridianCity_Entrenador_Especial_Texto_8:
-.string "Impresionante, alguien como tú\n"
-	.string "debe de tener lo que te voy a dar.$"
+	.string "Impressive, someone like you must have\n"
+	.string "what I will give you.$"
 
 ViridianCity_Entrenador_Especial_Texto_9:
-.string "Vaya, resultó ser cierto, pocos\n"
-	.string "aprovecharán este objeto mejor que\l"
-	.string "tú.$"
+	.string "Well, surprisingly it's true. Just a few\n"
+	.string "will take better advantage of this item\l"
+	.string "than you.$"
 
 ViridianCity_Entrenador_Especial_Texto_10:
-.string "Ya me lo imaginaba, esas MEDALLAS\n"
-	.string "son falsas o robadas.\l"
-	.string "¡Largo de aquí!$"
+	.string "I already expected this: those BADGES\n"
+	.string "are fake or stolen. Get out of here!$"

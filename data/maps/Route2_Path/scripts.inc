@@ -9,11 +9,11 @@ release
 end
 
 Route2_Path_Text_1:
-.string "Hay muchos POKÉMON que solo viven\n"
-.string "en bosques o cuevas.\l"
-.string "Necesitarás estar atento y ser\l"
-.string "constante si quieres tenerlos a\l"
-.string "todos.$"
+	.string "There are a lot of POKÉMON that just\n"
+	.string "walk around in forests or caves. You\l"
+	.string "will need to stay awake and be\l"
+	.string "consistent if you want to have all of\l"
+	.string "them.$"
 
 
 
@@ -25,11 +25,10 @@ release
 end
 
 Route2_Path_Text_2:
-.string "En este lugar no hay nada que\n"
-.string "pueda interesar a una ENTRENADORA\l"
-.string "GUAY como yo, salvo esas leyendas\l"
-.string "que dicen de la existencia de un\l"
-.string "PINSIR salvaje…$"
+	.string "In this place there is nothing more\n"
+	.string "interesting than a COOL TRAINER like\l"
+	.string "me, except for those legends that talk\l"
+	.string "about the existence of a wild PINSIR...$"
 
 
 
@@ -41,7 +40,6 @@ release
 end
 
 Route2_Path_Text_3:
-.string "¡El eterno BOSQUE VERDE!\n"
-.string "¡Ahhhh!\l"
-.string "¡Ni siquiera este lugar soportará\l"
-.string "el paso del tiempo!$"
+	.string "The eternal VIRIDIAN FOREST! Ahhh! Not\n"
+	.string "even this place will resist the time\l"
+	.string "flux!$"

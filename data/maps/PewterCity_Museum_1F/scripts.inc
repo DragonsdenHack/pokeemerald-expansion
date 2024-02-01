@@ -437,68 +437,60 @@ PewterCity_Museum_1F_Entrenador_Especial_Texto_1.1:
 	.string "SCIENTIST!$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
-.string "Te seré sincero MOV.SÍSMICO es un\n"
-	.string "pésimo movimiento, solo sería útil\l"
-	.string "en POKÉMON como CHANSEY que son\l"
-	.string "incapaces de causar daño directo,\l"
-	.string "todo el que lo use en un CHARIZARD\l"
-	.string "es un inepto, estoy dispuesto a\l"
-	.string "darle algo que de verdad causa\l"
-	.string "daño al entrenador capaz de reunir\l"
-	.string "las 8 MEDALLAS de GIMNASIO.$"
+	.string "I will be honest, SEISMIC TOSS is a\n"
+	.string "lousy move, just would be helpful for\l"
+	.string "POKÉMON like CHANSEY who is unable to\l"
+	.string "do physical damage, anyone who uses it\l"
+	.string "on a CHARIZARD is an incompetent, I'm\l"
+	.string "willing to give something that really\l"
+	.string "causes damage to the trainer capable\l"
+	.string "of collecting all 8 GYM BADGES.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_2:
 .string "...\n"
 	.string "...$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_3:
-.string "Una pena, perdón por haberte hecho\n"
-	.string "perder el tiempo.$"
+	.string "What a pity, I am so sorry for making\n"
+	.string "you waste your time.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_4:
-.string "La CINTA ELEGIDA aumenta en un 50%\n"
-	.string "el ataque físico del POKÉMON que\l"
-	.string "la lleve equipada, pero a costa de\l"
-	.string "encerrarle en el uso de un único\l"
-	.string "movimiento, de todos modos.\l"
-	.string "¿A quién le importa esa\l"
-	.string "restricción de poder usar un solo\l"
-	.string "movimiento si con ello te vale\l"
-	.string "para arrasar con todo lo que se te\l"
-	.string "ponga enfrente de un golpe?$"
+	.string "The CHOICE BAND boosts a 50% the\n"
+	.string "physical attack of the POKÉMON that it\l"
+	.string "is equipped with, but at the cost of\l"
+	.string "restricting it to a single move, anyway,\l"
+	.string "who cares about that restriction when\l"
+	.string "it allows you to sweep everything in one\l"
+	.string "hit?$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_5:
-.string "¡Vaya!\n"
-	.string "¡No todos los días se ve a alguien\l"
-	.string "con todas las MEDALLAS!\l"
-	.string "¡Estoy cansado de investigar el\l"
-	.string "proceso de formación de PERLAS\l"
-	.string "dentro de la coraza de CLOYSTER!\l"
-	.string "Si eres capaz de derrotarme en un\l"
-	.string "combate, te daré un increíble\l"
-	.string "objeto.$"
+	.string "Wow! Not everyday you can see someone\n"
+	.string "with all the BADGES! I am tired of\l"
+	.string "investigating the process of pearl\l"
+	.string "formation inside the shell of CLOYSTER!\l"
+	.string "If you can defeat me in battle, I'll give\l"
+	.string "you an incredible item.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_6:
-.string "Entonces, ¿aceptas el reto?$"
+.string "So, do you accept the challenge?$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_7:
-.string "¡Bien!\n"
-	.string "¡Al fin!\l"
-	.string "¡Un rival digno!$"
+.string "All right!\n"
+	.string "Finally!\l"
+	.string "A worthy opponent!$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_8:
-.string "¡Qué gran combate!$"
+.string "It was a great battle!$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_9:
-.string "No he visto ENTRENADOR como tú en\n"
-	.string "todos mis años de investigador, si\l"
-	.string "decides afrontar el reto de la\l"
-	.string "LIGA POKÉMON, será mejor que\l"
-	.string "lleves esto contigo, aumentará tus\l"
-	.string "opciones de éxito.$"
+	.string "I haven't seen a TRAINER like you in all\n"
+	.string "my years as a researcher, if you decide\l"
+	.string "to take on the POKÉMON LEAGUE\l"
+	.string "challenge, it's better to have this with\l"
+	.string "you, it will increase your chances of\l"
+	.string "success.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_10:
-.string "¡Puaf!\n"
-	.string "¡Tocará seguir derrotando una y\l"
-	.string "otra vez a mis colegas científicos\l"
-	.string "negados para el combate!$"
+	.string "Blargh! I will keep defeating once again\n"
+	.string "my scientist associates with no skills\l"
+	.string "to battling!$"

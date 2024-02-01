@@ -9,13 +9,11 @@ release
 end
 
 Route2_House1_Text_1:
-.string "Cuando el sistema legal funcione\n"
-.string "como debe de funcionar de una\l"
-.string "maldita vez vosotros los ROCKET\l"
-.string "dejaréis al fin de carroñear las\l"
-.string "migajas que os dejamos, es lo\l"
-.string "único que os queda dentro de\l"
-.string "vuestra miserable existencia.$"
+	.string "When the legal system works as it damn\n"
+	.string "it should, you ROCKETS will finally stop\l"
+	.string "scavenging the crumbs we leave behind,\l"
+	.string "it's the only thing that remains within\l"
+	.string "your miserable existence.$"
 
 
 
@@ -27,5 +25,5 @@ release
 end
 
 Route2_House1_Text_2:
-.string "Jamás dejaría a mi POKÉMON en\n"
-.string "manos de un ROCKET, tenlo claro.$"
+	.string "I would never let my POKÉMON under the\n"
+	.string "care of a ROCKET, be sure.$"

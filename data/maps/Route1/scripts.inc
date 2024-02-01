@@ -9,9 +9,9 @@ release
 end
 
 Route1_1_Texto_1:
-.string "¿Darte una POCIÓN promocional yo?\n"
-	.string "¡Para qué si ni siquiera podéis entrar a\l"
-	.string "las tiendas!$"
+	.string "Give you a promotional POTION? Why\n"
+	.string "would I bother about that when you\l"
+	.string "can't even enter the shops!$"
 
 
 Route1_2::
@@ -22,10 +22,9 @@ release
 end
 
 Route1_Text_2:
-.string "Cuando LANCE acabe de hacer\n"
-.string "limpieza, a vosotros ROCKETS no os\l"
-.string "quedará otra que huir de KANTO\l"
-.string "como las ratas que sois.$"
+	.string "Once LANCE finishes cleaning up, you\n"
+	.string "ROCKETS will be forced to run away from\l"
+	.string "KANTO like the rats you are.$"
 
 
 

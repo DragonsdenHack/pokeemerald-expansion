@@ -9,9 +9,9 @@ release
 end
 
 ViridianForest_Text_1:
-.string "¡Vine aquí con unos amigos!\p"
-.string "¡Van en busca de combates\n"
-.string "POKéMON!$"
+	.string "I came here with some friends They're\n"
+	.string "all itching to get into some POKÉMON\l"
+	.string "battles!$"
 
 
 
@@ -58,9 +58,8 @@ release
 end
 
 ViridianForest_Text_9:
-.string "Por aquí no hay ningún POKÉMON\n"
-.string "fuerte que pueda\l"
-.string "interesaros…sobre el papel.$"
+	.string "There are not strong POKÉMON around\n"
+	.string "here… apparently.$"
 
 
 
@@ -235,103 +234,90 @@ release
 end
 
 ViridianForest_Combate_Guays_Texto_1:
-.string "VERO: ¡Te lo dije!\n"
-	.string "¡PINSIR no era un POKÉMON extinto\l"
-	.string "en este bosque!\l"
-	.string "¡Y hemos tenido la suerte de\l"
-	.string "encontrar a una pareja!$"
+	.string "VERO: I told you! PINSIR was not an\n"
+	.string "extinct POKÉMON in this forest! And we\l"
+	.string "were so lucky to discover a couple!$"
 
 ViridianForest_Combate_Guays_Texto_2:
-.string "JUAN: Con este último fichaje\n"
-	.string "seremos la envidia de todos los\l"
-	.string "entrenadores guay, nadie tiene ya\l"
-	.string "un equipo como el nuestro, el\l"
-	.string "SCYTHER que logramos atrapar en la\l"
-	.string "ZONA SAFARI es el complemento\l"
-	.string "perfecto, dos TIPO BICHO con los\l"
-	.string "que no pueden ni soñar la\l"
-	.string "mediocridad de cazabichos que\l"
-	.string "pululan por aquí.$"
+	.string "JUAN: With this latest addition, we'll be\n"
+	.string "the envy of all the cool trainers, no\l"
+	.string "one has a team like ours, the SCYTHER we\l"
+	.string "catched in the SAFARI ZONE is the\l"
+	.string "perfect complement, two BUG TYPE that\l"
+	.string "the mostly of mediocre bugcatchers\l"
+	.string "around this place can't even imagine.$"
 
 
 ViridianForest_Combate_Guays_Texto_3:
-.string "VERO: Yo a ti te conozco, estabas\n"
-	.string "en el TÚNEL ROCA, cuando se\l"
-	.string "propagó el rumor de que había un\l"
-	.string "KANGASKHAN por estos lugares,\l"
-	.string "parece que solo fue un rumor, este\l"
-	.string "en cambio...\l"
-	.string "Nadie creía que pudiera quedar\l"
-	.string "algún PINSIR por aquí y resulta\l"
-	.string "que sí.$"
+	.string "VERO: I know who you are, you were at\n"
+	.string "ROCK TUNNEL when the rumor of there\l"
+	.string "was a KANGASKHAN spreaded around,\l"
+	.string "seems like it was just a lie, instead\l"
+	.string "this… No one would believe that would\l"
+	.string "remain a PINSIR here and results that\l"
+	.string "here is one.$"
 
 ViridianForest_Combate_Guays_Texto_4:
-.string "JUAN: ¿Este es el ROCKET que te\n"
-	.string "venció?$"
+	.string "JUAN: This is the ROCKET that defeated\n"
+	.string "you?$"
 
 ViridianForest_Combate_Guays_Texto_5:
-.string "VERO: Así es, debe de ser un\n"
-	.string "comandante o algo así, los ROCKETS\l"
-	.string "normales ni se acercan a su nivel.$"
+	.string "VERO: Indeed, must be a commandant or\n"
+	.string "something, common ROCKETS are not even\l"
+	.string "close to his skill.$"
 
 ViridianForest_Combate_Guays_Texto_6:
-.string "JUAN: Quiero comprobar eso, ¡un\n"
-	.string "ROCKET con buenos POKÉMON!\l"
-	.string "¡Eso es más difícil que encontrar\l"
-	.string "un PINSIR por estos lugares!$"
+	.string "JUAN: I want to check that, a ROCKET\n"
+	.string "with good POKÉMON! That is harder than\l"
+	.string "finding PINSIR in places like this!$"
 
 ViridianForest_Combate_Guays_Texto_7:
-.string "VERO: Hemos completado el equipo\n"
-	.string "definitivo que queríamos.\l"
-	.string "¡No hay posibilidad de que puedas\l"
-	.string "detenernos!$"
+	.string "VERO: We have completed the ultimate\n"
+	.string "team that we wanted. There is no chance\l"
+	.string "for you to stop us!$"
 
 ViridianForest_Combate_Guays_Texto_8:
-.string "¡Ha tenido que ser un ROCKET quién\n"
-	.string "nos haga morder el polvo!$"
+	.string "It had to be a ROCKET who made us bite\n"
+	.string "the dust!$"
 
 ViridianForest_Combate_Guays_Texto_9:
-.string "JUAN: Esto sí que no me lo\n"
-	.string "esperaba, un ROCKET derrotando a\l"
-	.string "los más guay de entre los\l"
-	.string "entrenadores guay.$"
+	.string "JUAN: I for real didn't expect this, a\n"
+	.string "ROCKET defeating the most cools of the\l"
+	.string "cool trainers.$"
 
 ViridianForest_Combate_Guays_Texto_10:
-.string "VERO: Parece que eres muy\n"
-	.string "competente, aunque a veces seamos\l"
-	.string "algo arrogantes sabemos reconocer\l"
-	.string "cuando alguien nos supera.$"
+	.string "VERO: Seems like you are competent,\n"
+	.string "although we are sometimes a bit\l"
+	.string "arrogant we recognize when someone is\l"
+	.string "better than us.$"
 
 ViridianForest_Combate_Guays_Texto_11:
-.string "JUAN: Queremos que tengas el otro\n"
-	.string "PINSIR que hemos encontrado, un\l"
-	.string "ENTRENADOR como tú seguro que sabe\l"
-	.string "sacarle más provecho que\l"
-	.string "cualquiera al que podamos dárselo,\l"
-	.string "y no somos tu organización para ir\l"
-	.string "vendiéndolo por ahí, ya me\l"
-	.string "entiendes.$"
+	.string "JUAN: I want you to have the other\n"
+	.string "PINSIR that we found, a TRAINER like\l"
+	.string "you would take advantage of it more\l"
+	.string "than anyone who we can give it to, and\l"
+	.string "we are not your organization to sell it\l"
+	.string "at the black market, you get it.$"
 
 ViridianForest_Combate_Guays_Texto_12:
-.string "¡HAS OBTENIDO UN PINSIR AL NV:15!$"
+.string "YOU OBTAINED A LV.25 PINSIR!$"
 
 ViridianForest_Combate_Guays_Texto_13:
-.string "VERO: ¡Tampoco de pases!\n"
-	.string "¡No ibamos a darte al otro PINSIR!\l"
-	.string "¡Hemos gastado todos nuestros\l"
-	.string "caramelosraros en ponerlo al nivel\l"
-	.string "del resto de nuestros POKÉMON!$"
+	.string "VERO: Don't abuse! We weren't going to\n"
+	.string "give you the other PINSIR! We've used\l"
+	.string "all our rare candies to level it up to\l"
+	.string "the rest of our POKÉMON!$"
 
 ViridianForest_Combate_Guays_Texto_14:
-.string "JUAN: Vámonos ya VERO, he oído que\n"
-	.string "en JOHTO hay bichos incluso\l"
-	.string "mejores que los de aquí, y un\l"
-	.string "anciano que te da un DRATINI si\l"
-	.string "pasas su prueba.$"
+	.string "JUAN: Ok let's head out VERO, I have\n"
+	.string "heard that on JOHTO there are bugs\l"
+	.string "even better than the ones here, and an\l"
+	.string "old man will give you a DRATINI if you\l"
+	.string "can complete his quest.$"
 
 ViridianForest_Combate_Guays_Texto_15:
-.string "VERO: No se hable más entonces.\n"
-	.string "¡Al siguiente destino!$"
+.string "VERO: No more talking then.\n"
+	.string "To the next destination!$"
 
 ViridianForest_Combate_Guays_Move_1:
 walk_in_place_down

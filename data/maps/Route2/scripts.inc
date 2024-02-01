@@ -9,9 +9,9 @@ release
 end
 
 Route2_Text_1:
-.string "¿Quieres dejarme en paz?\n"
-.string "¿No ves que le estoy enseñando\l"
-.string "CORTE a mi SCYTHER?$"
+	.string "Can you leave me alone? Don't you see\n"
+	.string "that I am trying to teach CUT to my\l"
+	.string "SCYTHER?$"
 
 
 Route2_2::
@@ -22,11 +22,9 @@ release
 end
 
 Route2_Text_2:
-.string "¿Tienes algún problema?\n"
-.string "Si quieres pasar toma otro camino,\l"
-.string "lo que un ROCKET tenga o deje de\l"
-.string "tener que hacer a mi me importa un\l"
-.string "bledo.$"
+	.string "Do you have any problems? If you wanna\n"
+	.string "pass take another way, what a ROCKET\l"
+	.string "has or not to do I care a shit.$"
 
 
 Route2_3::
@@ -45,9 +43,8 @@ release
 end
 
 Route2_Text_5:
-.string "Esos entrenadores guays decían que\n"
-.string "al fin encontraron un PINSIR\l"
-.string "salvaje aquí.$"
+	.string "Those cool trainers said that we would\n"
+	.string "find a wild PINSIR here.$"
 
 
 Route2_6::
@@ -58,8 +55,8 @@ release
 end
 
 Route2_Text_6:
-.string "Es imposible que en este bosque\n"
-.string "pueda haber un PINSIR salvaje.$"
+	.string "It is impossible for a wild PINSIR to\n"
+	.string "exist in this forest.$"
 
 
 Route2_7::
@@ -85,8 +82,8 @@ msgbox Route2Documento_Text_101, MSGBOX_SIGN
 end
 
 Route2Documento_Text_101:
-.string "RUTA 2\n"
-	.string "CIUDAD VERDE - CIUDAD PLATEADA$"
+.string "ROUTE 2\n"
+	.string "VIRIDIAN CITY - PEWTER CITY$"
 
 Route2_Cazabichos::
 lock
@@ -95,6 +92,7 @@ release
 end
 
 Route2_Cazabichos_Texto_1:
-.string "Si tuviera un SCYTHER, todos en el\n"
-	.string "BOSQUE VERDE me respetarían, y este\l"
-	.string "árbol desaparecería de un solo tajo...$"
+	.string "If I had a SCYTHER, everyone at\n"
+	.string "VIRIDIAN FOREST would respect me, and\l"
+	.string "this tree would disappear in one fell\l"
+	.string "swoop…$"

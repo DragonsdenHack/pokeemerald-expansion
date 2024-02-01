@@ -15,7 +15,7 @@ msgbox Route22Documento_Text_100, MSGBOX_SIGN
 end
 
 Route22Documento_Text_100:
-.string "ENTRADA A LA LIGA POKÉMON$"
+.string "POKÉMON LEAGUE ENTRANCE$"
 
 Ruta22_No_Puedes_Pasar::
 compare VAR_UNUSED_0x40F7, 89
@@ -29,8 +29,8 @@ release
 end
 
 Ruta22_No_Puedes_Pasar_Texto_1:
-.string "(Aquí está toda la POLICÍA de la región,\n"
-	.string "no es buena idea entrar).$"
+	.string "(Here is most of KANTO POLICE, it is not\n"
+	.string "a good idea to enter)$"
 
 Route22_Combate_Azul_Izq::
 playse SE_PIN
@@ -106,45 +106,40 @@ release
 end
 
 Route22_Combate_Azul_Texto_1:
-.string "AZUL: Así que tu también estás\n"
-	.string "listo.$"
+	.string "BLUE: So you are ready.$"
 
 Route22_Combate_Azul_Texto_2:
-.string "Acabo de volver de entrenar en la\n"
-	.string "CALLE VICTORIA, aún no me atrevo a\l"
-	.string "entrar al ALTO MANDO...$"
+	.string "I just came back from training in\n"
+	.string "VICTORY ROAD, I don't dare yet to enter\l"
+	.string "to the ELITE 4…$"
 
 Route22_Combate_Azul_Texto_3:
 .string "... ...$"
 
 Route22_Combate_Azul_Texto_4:
-.string "La verdad es que ROJO ha vuelto a\n"
-	.string "derrotarme, no puedo entrar a la\l"
-	.string "LIGA sabiendo que el aún está por\l"
-	.string "encima mía, debo asegurarme de que\l"
-	.string "mi equipo es mucho mejor que el de\l"
-	.string "ese entonces.$"
+	.string "The truth is... RED defeated me again, I\n"
+	.string "can't enter the LEAGUE knowing he's\l"
+	.string "still above me, I must ensure that my\l"
+	.string "team is far superior to his.$"
 
 Route22_Combate_Azul_Texto_5:
-.string "No te preocupes, ROJO siempre ha\n"
-	.string "sido un tardón, llegará de todos\l"
-	.string "modos después de mi a retar al\l"
-	.string "ALTO MANDO, siempre pasa, además\l"
-	.string "ya he estado en el CENTRO POKÉMON\l"
-	.string "de allí, puedo volver volando en\l"
-	.string "un momento.$"
+	.string "Do not worry, RED has always been a late\n"
+	.string "person, he'll arrive anyway after me to\l"
+	.string "challenge the ELITE FOUR, it always\l"
+	.string "happens, besides, I've been to the\l"
+	.string "POKÉMON CENTER there, I can fly back in\l"
+	.string "just a bit.$"
 
 Route22_Combate_Azul_Texto_6:
-.string "Solo estoy buscando algo de\n"
-	.string "entrenamiento extra, los\l"
-	.string "ENTRENADORES de la CALLE VICTORIA\l"
-	.string "no son suficiente, necesito algo\l"
-	.string "más, vamos, estamos en el mismo\l"
-	.string "bando, ¡quiero ver lo preparado\l"
-	.string "que estás para afrontar este reto!$"
+	.string "I am just in search of extra training.\n"
+	.string "VICTORY ROAD TRAINERS are not\l"
+	.string "enough, I need something else, come\l"
+	.string "one, we are on the same side, I want to\l"
+	.string "see how much you are prepared to\l"
+	.string "afront this challenge!$"
 
 Route22_Combate_Azul_Texto_7:
-.string "¡No puede ser, tú también!$"
+.string "It can't be, you too!$"
 
 Route22_Combate_Azul_Texto_8:
 .string "Esto no puede ser, mis POKÉMON\n"

@@ -9,9 +9,9 @@ release
 end
 
 Route2_Path3_Text_1:
-.string "A mí no me hables ROCKET, o\n"
-.string "pensarán que tengo algo que ver\l"
-.string "con vosotros.$"
+	.string "Do not talk to me ROCKET, or people will\n"
+	.string "think that I have some relation with\l"
+	.string "your organization.$"
 
 
 
@@ -60,43 +60,42 @@ release
 end
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_1:
-.string "La gente como vosotros que solo\n"
-	.string "entorpece el cauce de las cosas y\l"
-	.string "el progreso no debería siquiera\l"
-	.string "existir, fuera de mi vista antes\l"
-	.string "de que tenga que repetírtelo.$"
+	.string "People like you, who only obstruct the\n"
+	.string "flow of things and progress, shouldn't\l"
+	.string "even exist, get out of my sight before I\l"
+	.string "have to tell you again.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_3:
-.string "¿Osas cruzar tu mirada con un\n"
-	.string "AYUDANTE DE OAK?$"
+	.string "Do you dare to cross your gaze with an\n"
+	.string "OAK'S AIDE?$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_4:
-.string "El pupilo de OAK va a triturar a\n"
-	.string "todos vuestros POKÉMON como si\l"
-	.string "fueran finas hojas de papel.$"
+	.string "The OAK's pupil will crunch all your\n"
+	.string "POKÉMON as if they were thin sheets of\l"
+	.string "paper.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_5:
-.string "Será lo último que hagas.$"
+	.string "It will be the last thing that you do.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_6:
-.string "¡Imposible!$"
+.string "Impossible!$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó la MT15 HYPERRAYO de\n"
-	.string "AYUDANTE DE OAK).$"
+	.string "({PLAYER} stealth the TM15 HYPER\n"
+	.string "BEAM from OAK'S AIDE)$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_8:
-.string "Esto vas a pagármelo ROCKET, voy a\n"
-	.string "hacer arder a toda tu organización\l"
-	.string "por lo ocurrido aquí.$"
+	.string "You are going to pay this, ROCKET, I will\n"
+	.string "burn all your entire organization for\l"
+	.string "what you did here.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_9:
-.string "Aún estás a tiempo de desaparecer\n"
-	.string "antes de que me arrepienta.$"
+	.string "You still have time to disappear before\n"
+	.string "I regret it.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

@@ -9,11 +9,10 @@ release
 end
 
 Route2_Path2_Text_1:
-.string "RATTATA puede que sea pequeño,\n"
-.string "pero nunca subestimes su potente\l"
-.string "mordedura, creo que tu\l"
-.string "organización lo sabe mejor que\l"
-.string "nadie, ¿verdad?$"
+	.string "RATTATA may be small, but don't\n"
+	.string "underestimate its wicked bite, I think\l"
+	.string "your organization knows it better than\l"
+	.string "anyone, right?$"
 
 
 
@@ -25,6 +24,6 @@ release
 end
 
 Route2_Path2_Text_2:
-.string "Este bosque ha visto dar sus\n"
-.string "primeros pasos a muchas leyendas,\l"
-.string "¡ténle un poco de respeto!$"
+	.string "Show at least a bit of respect for this\n"
+	.string "forest, as it has been the starting\l"
+	.string "point for many legends!$"
