@@ -920,6 +920,12 @@ call Script_SetGrayscaleTint
 release
 end
 
+Seteo_Var_Guerra::
+lock
+setvar VAR_UNUSED_0x40DC, 13
+release
+end
+
 Mision7Lab4_Escena_Lance_Move_15:
 walk_in_place_left
 step_end
