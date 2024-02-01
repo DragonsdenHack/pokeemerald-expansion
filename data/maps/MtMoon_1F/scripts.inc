@@ -1,5 +1,14 @@
 MtMoon_1F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, MtMoon_1F_OnResume
 	.byte 0
+
+MtMoon_1F_OnResume:
+	call MtMoon_1F_SetupEscapeWarp
+	end
+
+MtMoon_1F_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE4, 19, 6
+	return
 
 MtMoon1F_1::
 end

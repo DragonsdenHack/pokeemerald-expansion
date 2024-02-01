@@ -3472,8 +3472,8 @@ static const u8 sHM04Desc[] = _(
    	"energía al rival.");
 
 static const u8 sHM05Desc[] = _(
-    "Daña con un fogonazo de\n"
-    "absorbe 1/2 del daño.");
+    "Fogonazo que absor-\n"
+    "be 1/2 del daño.");
 
 static const u8 sHM06Desc[] = _(
    	"Ataque demoledor\n"

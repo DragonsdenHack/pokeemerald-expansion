@@ -588,8 +588,8 @@ static const u8 sSporeDescription[] = _(
     "que inducen al sueño.");
 
 static const u8 sFlashDescription[] = _(
-    "Daña con un fogonazo de\n"
-    "absorbe 1/2 del daño.");
+    "Fogonazo que absor-\n"
+    "be 1/2 del daño.");
 
 static const u8 sPsywaveDescription[] = _(
     "Ataque con onda psíquica\n"
