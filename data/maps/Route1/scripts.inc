@@ -22,9 +22,10 @@ release
 end
 
 Route1_Text_2:
-	.string "Once LANCE finishes cleaning up, you\n"
-	.string "ROCKETS will be forced to run away from\l"
-	.string "KANTO like the rats you are.$"
+	.string "When LANCE finishes cleaning up the\n"
+	.string "region, you ROCKETS will not have any\l"
+	.string "other choice that run away from KANTO\l"
+	.string "like the rats you are.$"
 
 
 

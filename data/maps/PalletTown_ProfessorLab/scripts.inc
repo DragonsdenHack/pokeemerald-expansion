@@ -9,10 +9,9 @@ release
 end
 
 PalletTown_ProfessorLab_Text_1:
-.string "Los mejores entrenadores de la\n"
-.string "región provienen de este lugar, la\l"
-.string "curiosidad mató al gato chico,\l"
-.string "espero que me hayas entendido.$"
+	.string "The best trainers in the region come\n"
+	.string "from this place. Curiosity can be\l"
+	.string "dangerous. I hope you got that.$"
 
 
 
@@ -24,10 +23,9 @@ release
 end
 
 PalletTown_ProfessorLab_Text_2:
-.string "¿Es que no ves que OAK no está\n"
-.string "aquí?\l"
-.string "¡Si sigues insistiendo llamaremos\l"
-.string "a la POLICÍA!$"
+	.string "Do you not see that OAK is not here? If\n"
+	.string "you keep insisting, we will call the\l"
+	.string "POLICE!$"
 
 
 
@@ -39,9 +37,9 @@ release
 end
 
 PalletTown_ProfessorLab_Text_3:
-.string "Este lugar te queda muy grande, te\n"
-.string "recomiendo largarte antes de que\l"
-.string "el profesor decida acabar contigo.$"
+	.string "This place is way too big for you, I\n"
+	.string "suggest you leave before the professor\l"
+	.string "decides to finish you off.$"
 
 
 
@@ -50,8 +48,7 @@ msgbox PalletTownProfessorLabDocumento_Text_100, MSGBOX_SIGN
 end
 
 PalletTownProfessorLabDocumento_Text_100:
-.string "¡Presiona Start para abrir el\n"
-	.string "Menú!$"
+	.string "Press START to open the MENU!$"
 
 
 
@@ -60,9 +57,8 @@ msgbox PalletTownProfessorLabDocumento_Text_101, MSGBOX_SIGN
 end
 
 PalletTownProfessorLabDocumento_Text_101:
-	.string "Todos los Pokémon cuentan con\n"
-	.string "fortalezas y debilidades frente a\l"
-	.string "otros.$"
+	.string "All POKÉMON have strengths and\n"
+	.string "weaknesses against others.$"
 
 
 
@@ -71,17 +67,13 @@ msgbox PalletTownProfessorLabDocumento_Text_102, MSGBOX_SIGN
 end
 
 PalletTownProfessorLabDocumento_Text_102:
-	.string "Hay un mensaje por e-mail abierto.\n"
-	.string "...\l"
-	.string "¡Por fin!\l"
-	.string "¡Los mejores entrenadores de la\l"
-	.string "LIGA POKÉMON están listos para\l"
-	.string "derrotarlos a todos!\l"
-	.string "¡Traed a vuestros mejores Pokémon\l"
-	.string "y probaremos vuestra valía como\l"
-	.string "entrenadores!\l"
-	.string "CG de la LIGA POKÉMON.\l"
-	.string "Prof.Oak, ¡visítenos por favor!$"
+	.string "There is an e-mail message here. …\n"
+	.string "Finally! The ultimate TRAINERS of the\l"
+	.string "POKÉMON LEAGUE are ready to take on all\l"
+	.string "comers! Bring your best POKÉMON and\l"
+	.string "see how you rate as a TRAINER! POKÉMON\l"
+	.string "LEAGUE HQ INDIGO PLATEAU PROF. OAK,\l"
+	.string "please visit us! …$"
 
 PalletTown_ProfessorLab_Lab_Izq::
 lockall
@@ -152,61 +144,59 @@ release
 end
 
 PalletTown_ProfessorLab_Lab_Texto_1:
-.string "????: Vaya, ¿no está aquí OAK?\n"
-	.string "Tal vez esté en la ZONA 0.$"
+.string "????: Hmm, isn't here OAK?\n"
+	.string "Maybe he is at the ZONE 0.$"
 
 PalletTown_ProfessorLab_Lab_Texto_2:
-.string "????: ¿Querías algo chico?\n"
-	.string "Yo soy la nieta de OAK, y hermana\l"
-	.string "mayor de AZUL...$"
+	.string "????: Wanna something, kid? I am\n"
+	.string "OAK's granddaughter, and BLUE's\l"
+	.string "older sister…$"
 
 PalletTown_ProfessorLab_Lab_Texto_3:
-.string "¡Así que conoces a mi hermano!\n"
-	.string "Es un buen chico, aunque sea muy\l"
-	.string "competitivo y a veces arrogante,\l"
-	.string "va de frente y dice lo que tiene\l"
-	.string "que decirte a la cara, solo espero\l"
-	.string "que no sea malinfluenciado por...$"
+	.string "So you know my brother! He is a good\n"
+	.string "boy, although sometimes is a bit\l"
+	.string "arrogant and competitive, goes directly\l"
+	.string "and says what he has to say to your\l"
+	.string "face; I just hope he isn't influenced\l"
+	.string "by…$"
 
 PalletTown_ProfessorLab_Lab_Texto_4:
 .string "... ... ... ... ...$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
-.string "DALIA: ¡El último Pokémon de OAK!\n"
-	.string "¡Has sido tú ROCKET!\l"
-	.string "¡Ya veía sospechoso ver a alguien\l"
-	.string "con la gran R merodeando por aquí!$"
+.string "DAISY: The last OAK's POKÉMON!\n"
+	.string "It was you, ROCKET!$"
 
 PalletTown_ProfessorLab_Lab_Texto_6:
-.string "¿Cómo?\n"
-	.string "¿No quieres problemas, solo habías\l"
-	.string "venido a hacerle una visita a OAK?$"
+	.string "What? You don't want to get in any\n"
+	.string "trouble, that you just wanted to come\l"
+	.string "to visit OAK?$"
 
 PalletTown_ProfessorLab_Lab_Texto_7:
-.string "DALIA: Nada te exhime de robar un\n"
-	.string "Pokémon ajeno ROCKET, ¡voy a\l"
-	.string "hacerte pagar por ello aquí mismo!$"
+	.string "DAISY: Nothing excuses you from\n"
+	.string "stealing someone else's Pokémon,\l"
+	.string "ROCKET! I'm going to make you pay for\l"
+	.string "it, right now!$"
 
 PalletTown_ProfessorLab_Lab_Texto_8:
-.string "¡OH!¡Y en nuestra propia casa!$"
+	.string "Oh! And in our own house!$"
 
 PalletTown_ProfessorLab_Lab_Texto_9:
-.string "DALIA: Esto es el colmo, de modo\n"
-	.string "que esta es la clase de amistades\l"
-	.string "que mi hermanito está haciendo,\l"
-	.string "siempre fue un rebelde que quería\l"
-	.string "hacerlo todo por sus propios\l"
-	.string "medios, ya le aconsejamos que se\l"
-	.string "hiciera amigo de BILL, el\l"
-	.string "PRESIDENTE de SILPH, LANCE y demás\l"
-	.string "miembros de la ÉLITE, verás cuando\l"
-	.string "OAK se entere de esto.$"
+	.string "DAISY: I can't believe this, so this is\n"
+	.string "the kind of friends that my lil brother\l"
+	.string "is making, he's always been a rebel,\l"
+	.string "wanting to do everything his own way,\l"
+	.string "we suggested he to make friends as\l"
+	.string "BILL, the president of SILPH, LANCE,\l"
+	.string "and other ELITE members, you will see\l"
+	.string "how OAK will be furious when he hears\l"
+	.string "about this.$"
 
 PalletTown_ProfessorLab_Lab_Texto_10:
-.string "DALIA: Disfruta de ese triste\n"
-	.string "BULBASAUR al nivel 5 ROCKET, por\l"
-	.string "si no lo sabías, OAK tiene decenas\l"
-	.string "de ellos en su reserva personal.$"
+	.string "DAISY: Enjoy that poor BULBASAUR at\n"
+	.string "level 5, ROCKET. If you didn't know this,\l"
+	.string "OAK has tens of them at his personal\l"
+	.string "collection.$"
 
 PalletTown_ProfessorLab_Lab_Move_1:
 walk_in_place_down
@@ -295,25 +285,24 @@ release
 end
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_1:
-.string "Al parecer esta POKÉ BALL contiene\n"
-	.string "al raro y poderoso BULBASAUR, no\l"
-	.string "parece que vayan a darle uso,\l"
-	.string "¿quieres robarla?$"
+	.string "Apparently this POKÉ BALL contains the\n"
+	.string "uncommon and powerful BULBASAUR, it\l"
+	.string "doesn't seem like it will be used, do you\l"
+	.string "wanna steal it?$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_2:
-.string "Este POKÉMON parece tener mucha\n"
-	.string "energía.$"
+	.string "This POKÉMON is really quite energetic!$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_3:
-.string "¡{PLAYER} robó el BULBASAUR!$"
+.string "{PLAYER} stole the BULBASAUR!$"
 
 PalletTown_ProfessorLab_Robo_Bulbasaur_Texto_4:
-.string "PROTÓN: ¿{PLAYER}?\n"
-	.string "¿Cómo va tu misión por PUEBLO\l"
-	.string "PALETA, has descubierto algo?\l"
-	.string "GIOVANNI requiere tu presencia, te\l"
-	.string "estará esperando en su despacho\l"
-	.string "dentro de la BASE ROCKET PROFUNDA.$"
+	.string "PROTON: {PLAYER}! How is your mission\n"
+	.string "going at PALLET TOWN, did you discover\l"
+	.string "something? GIOVANNI requires your\l"
+	.string "presence right now, and will be waiting\l"
+	.string "for you at his private office inside the\l"
+	.string "DEEP BASE ROCKET.$"
 
 
 PalletTown_ProfessorLab_Genesect::
@@ -334,7 +323,7 @@ release
 end
 
 PalletTown_ProfessorLab_Genesect_Texto_3:
-.string "¡{PLAYER} obtuvo un GENESECT al Nv.70!$"
+.string "{PLAYER} obtained a LV.70 GENESECT!$"
 
 PalletTown_ProfessorLab_Genesect_No::
 hidemonpic
@@ -342,7 +331,7 @@ release
 end
 
 PalletTown_ProfessorLab_Genesect_Texto_1:
-.string "Esta POKÉ BALL contiene a GENESECT, un\n"
-	.string "raro experimento de una región lejana.\l"
-	.string "Nadie la necesita ya, ¿quieres\l"
-	.string "quedarte con el pOKÉMON?$"
+	.string "This POKÉBALL contains a GENESECT, an\n"
+	.string "unusual experiment from a distant\l"
+	.string "region. No one needs it anymore, do you\l"
+	.string "want to take the POKÉMON?$"

@@ -9,9 +9,8 @@ release
 end
 
 PalletTown_Text_2: 
-.string "El acceso a la tecnología debería\n"
-.string "de estar prohibido para gente como\l"
-.string "vosotros.$" 
+	.string "People like you should be banned from\n"
+	.string "accessing technology.$"
 
 
 PalletTown3::
@@ -22,8 +21,8 @@ release
 end
 
 PalletTown_Text_3:
-.string "¿Un ROCKET por aquí?\n"
-.string "¿Qué estás tramando?$"
+.string "A ROCKET here?\n"
+.string "What are you plotting?$"
 
 
 PalletTownDocumento_100::
@@ -33,7 +32,7 @@ release
 end
 
 PalletTownDocumento_Text_100:
-.string "Casa de ROJO$"
+.string "RED's House$"
 
 
 
@@ -44,7 +43,7 @@ release
 end
 
 PalletTownDocumento_Text_101:
-.string "Casa de AZUL$"
+.string "BLUE's House$"
 
 
 
@@ -64,8 +63,8 @@ release
 end
 
 PalletTownDocumento_Text_103:
-    .string "PISTAS ENTRENADOR\p"
-	.string "¡Pulsa START para abrir el MENÚ!$"
+    .string "TRAINER TIPS\p"
+	.string "Press START to open the MENU!$"
 
 
 
@@ -162,9 +161,9 @@ release
 end
 
 Pueblo_Paleta_Barrera_Sur_Texto_1:
-.string "(No estoy de vacaciones para\n"
-	.string "ponerme a explorar KANTO, tengo\l"
-	.string "cosas más importantes que hacer).$"
+	.string "(I am not on vacation to go exploring\n"
+	.string "KANTO, I have more important things to\l"
+	.string "do).$"
 
 Pueblo_Paleta_Barrera_Sur_Move_1:
 walk_in_place_down

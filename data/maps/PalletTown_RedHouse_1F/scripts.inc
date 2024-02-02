@@ -33,17 +33,16 @@ end
 
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_1:
-.string "¿Cómo?\n"
-	.string "¿ROJO?\l"
-	.string "No, no está aquí.$"
+.string "Hmm what?\n"
+	.string "RED?\l"
+	.string "He is not here.$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_2:
 .string "... ... ... ... ... ... ...$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_3:
-.string "Perdona pero estoy ocupada, te\n"
-	.string "agradecería que me dejases sola,\l"
-	.string "gracias.$"
+	.string "Excuse me but I am busy, I would like\n"
+	.string "you to leave me alone, thanks.$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Move_1:
 emote_exclamation_mark

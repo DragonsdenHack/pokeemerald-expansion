@@ -142,35 +142,29 @@ Route22_Combate_Azul_Texto_7:
 .string "It can't be, you too!$"
 
 Route22_Combate_Azul_Texto_8:
-.string "Esto no puede ser, mis POKÉMON\n"
-	.string "necesitan más nivel, no pararé\l"
-	.string "hasta que sobrepasen del 60, con\l"
-	.string "eso nadie podrá toserme.$"
+	.string "This can't be, my POKÉMONS need a higher\n"
+	.string "level, I won't stop until they exceed 60,\l"
+	.string "with that no one could cough me.$"
 
 Route22_Combate_Azul_Texto_9:
-.string "Por cierto, ¿no sabrás por\n"
-	.string "casualidad dónde está esa amiguita\l"
-	.string "tuya, ANDRA?\l"
-	.string "Debe de contar también con un buen\l"
-	.string "equipo a sus espaldas, si de\l"
-	.string "realmente piensa retar al ALTO MANDO,\l"
-	.string "veré si la encuentro más adelante\l"
-	.string "y me sirve para subir unos cuantos\l"
-	.string "niveles más.$"
+	.string "By the way, don't you know where your\n"
+	.string "friend is, ANDRA? She must also have a\l"
+	.string "good team if plains to challenge the\l"
+	.string "ELITE 4, I will see if I can see her\l"
+	.string "further there and help me up a few\l"
+	.string "levels.$"
 
 Route22_Combate_Azul_Texto_10:
-.string "Bah, me largo {PLAYER}, el tiempo\n"
-	.string "es oro llegados este momento, te\l"
-	.string "deseo suerte, de verdad, si\l"
-	.string "quisiera que alguien saliera\l"
-	.string "CAMPEÓN e hiciera morder el polvo\l"
-	.string "a ROJO aparte de mi, ese serías\l"
-	.string "tú.$"
+	.string "Bah, Imma head out {PLAYER}, time is\n"
+	.string "precious at this moment, I wish you\l"
+	.string "luck, for real, if I wanted someone to\l"
+	.string "become the CHAMPION and make RED bite\l"
+	.string "the dust besides me, it would be you.$"
 
 Route22_Combate_Azul_Texto_11:
-.string "Y una última cosa, ni se te ocurra\n"
-	.string "recoger los CARAMELOSRAROS que\l"
-	.string "encuentres, ¡son míos!$"
+	.string "And a last thing, do not even try to\n"
+	.string "collect the RARE CANDIES that you find,\l"
+	.string "those are mine!$"
 
 Route22_Combate_Azul_Move_1:
 walk_in_place_up
@@ -398,114 +392,111 @@ walk_down
 step_end
 
 RocketHideoutViridian_Escena_9_Texto_1:
-.string "GIOVANNI: Te dije claramente que\n"
-	.string "permanecieras en JOHTO, junto a tu\l"
-	.string "madre. ¿Sabes el peligro que corres si\l"
-	.string "descubren quién eres?$"
+	.string "GIOVANNI: I told you clearly to stay in\n"
+	.string "JOHTO, along with your mother. Do you\l"
+	.string "know how much of a risk you are if they\l"
+	.string "discover who you are?$"
 
 RocketHideoutViridian_Escena_9_Texto_2:
-.string "????: ¡Qué importa eso! ¿Cómo has\n"
-	.string "podido? ¡Disolver la organización por\l"
-	.string "la que has luchado todos estos años!\l"
-	.string "¡Sois la burla de todos los medios de\l"
-	.string "comunicación en KANTO!$"
+	.string "????: What does it care! How dare you?\n"
+	.string "Dissolve the organization you've\l"
+	.string "fought for all these years! You're a\l"
+	.string "joke in all of the media in KANTO!$"
 
 RocketHideoutViridian_Escena_9_Texto_3:
-.string "GIOVANNI: Eres demasiado joven aún, y\n"
-	.string "no mereces estar implicado en todo\l"
-	.string "esto. Los motivos de mi disolución\l"
-	.string "escapan a tu comprensión del mundo,\l"
-	.string "algún día, cuando todo esto acabe,\l"
-	.string "tendrás respuestas y lo entenderás,\l"
-	.string "tienes mi palabra.$"
+	.string "GIOVANNI: You are too young yet, and\n"
+	.string "you don't deserve to be involved in all\l"
+	.string "of this. The reasons for my dissolution\l"
+	.string "are beyond your understanding of the\l"
+	.string "world, someday, when all of this is over,\l"
+	.string "you'll have answers, and you'll\l"
+	.string "understand, I swear it.$"
 
 RocketHideoutViridian_Escena_9_Texto_4:
-.string "????: ¡No hay nada que entender, has\n"
-	.string "fracasado y ya está! ¡Te han derrotado\l"
-	.string "y te has rendido!$"
+	.string "????: There is nothing to understand,\n"
+	.string "you have failed and that's all! You've\l"
+	.string "been defeated, and you gave up!$"
 
 RocketHideoutViridian_Escena_9_Texto_4.1:
-.string "A veces no todo es tan simple como\n"
-	.string "ganar o perder. Los eventos acaecidos\l"
-	.string "obedecen a un fin mayor, son imposibles\l"
-	.string "de comprender si los ves uno por uno\l"
-	.string "desde fuera, como un mero espectador,\l"
-	.string "pero en su conjunto...$"
+	.string "Sometimes not everything is as simple\n"
+	.string "as winning or losing. The events that\l"
+	.string "have unfolded serve a greater purpose,\l"
+	.string "impossible to understand at all if seen\l"
+	.string "one by one from the outside, like a mere\l"
+	.string "spectator, but as a whole…$"
 
 RocketHideoutViridian_Escena_9_Texto_5:
-.string "El mejor…¡Dijiste que querías ser el\n"
-	.string "mejor ENTRENADOR del mundo!$"
+	.string "The best… You told me you wanted to be\n"
+	.string "the best TRAINER in the world!$"
 
 RocketHideoutViridian_Escena_9_Texto_6:
-.string "¿Y ahora piensas abandonar?\p"
-.string "¿Y qué piensas hacer entonces?$"
+.string "And now you want to give up?\p"
+.string "And what do you think to do now then?$"
 
 RocketHideoutViridian_Escena_9_Texto_7:
 .string "...$"
 
 RocketHideoutViridian_Escena_9_Texto_8:
-.string "GIOVANNI: Un hombre que no sabe\n"
-	.string "reconocer la derrota es incapaz de\l"
-	.string "progresar…$"
+	.string "GIOVANNI: A man who can't recognize a\n"
+	.string "defeat is unable to improve…$"
 
 RocketHideoutViridian_Escena_9_Texto_9:
-.string "Debo estar solo un tiempo para poder\n"
-	.string "crear una organización más poderosa.$"
+	.string "I must be alone a while to create an\n"
+	.string "organization even stronger.$"
 
 RocketHideoutViridian_Escena_9_Texto_10:
-.string "????: ¡Bah! Una organización repleta de\n"
-	.string "esbirros que en el momento de la verdad\l"
-	.string "se deja vencer por alguien tan joven.\l"
-	.string "¡Qué vergüenza!$"
+	.string "Pfft! A bunch of lackeys in that\n"
+	.string "organization, and when it really\l"
+	.string "matters, they get beaten by someone so\l"
+	.string "young. How embarrassing!$"
 
 RocketHideoutViridian_Escena_9_Texto_11:
-.string "GIOVANNI: Una organización bien\n"
-	.string "estructurada y con los efectivos\l"
-	.string "suficientes, debería ser capaz de\l"
-	.string "ejercer un gran poder.$"
+	.string "GIOVANNI: A well-structured\n"
+	.string "organization with sufficient resources\l"
+	.string "should be able to wield great power.$"
 
 RocketHideoutViridian_Escena_9_Texto_12:
-.string "Ese es el objetivo de una organización.$"
+	.string "An organization aims for that.$"
 
 RocketHideoutViridian_Escena_9_Texto_13:
-.string "Yo no he sabido aprovechar el potencial\n"
-	.string "de mis subordinados…$"
+	.string "I haven't been able to take advantage\n"
+	.string "of the potential of my subordinates...$"
 
 RocketHideoutViridian_Escena_9_Texto_14:
-.string "¡Juro que un día resucitaré al TEAM\n"
+	.string "I swear someday I will resurrect TEAM\n"
 	.string "ROCKET!$"
 
 RocketHideoutViridian_Escena_9_Texto_15:
-.string "????: ¡No entiendo toda esa palabrería\n"
-	.string "sin sentido!$"
+	.string "????: I don't understand all that\n"
+	.string "nonsense talk!$"
 
 RocketHideoutViridian_Escena_9_Texto_16:
-.string "¡No entiendo nada de tus desvaríos!$"
+	.string "Your delirium makes no sense to me!$"
 
 RocketHideoutViridian_Escena_9_Texto_17:
-.string "… Tú también lo comprenderás algún día.$"
+	.string "… You will understand it someday.$"
 
 RocketHideoutViridian_Escena_9_Texto_18:
-.string "????: ¡Prefiero no entenderlo!$"
+	.string "????: I prefer to not understand it!$"
 
 RocketHideoutViridian_Escena_9_Texto_19:
-.string "¡No pienso acabar como tú! Con esbirros\n"
-	.string "miserables a tu alrededor, que se unen\l"
-	.string "a tu organización para sentirse\l"
-	.string "importantes porque solos no son nadie.$"
+	.string "I won't become like you! Surrounded by\n"
+	.string "pathetic lackeys who join your\l"
+	.string "organization just to feel important and\l"
+	.string "alive, as they are nothing on their own.$"
 
 RocketHideoutViridian_Escena_9_Texto_20:
-.string "¡Seré un hombre fuerte por mí mismo, sin\n"
-	.string "la ayuda de nadie! ¡Yo solo!$"
+	.string "I will be a strong man by myself, with no\n"
+	.string "one helping me! Only me!$"
 
 RocketHideoutViridian_Escena_9_Texto_21:
-.string "¡YO SOLO!$"
+.string "ONLY ME!$"
 
 RocketHideoutViridian_Escena_9_Texto_22:
-.string "GIOVANNI: Eso espero PLATA, es lo mejor\n"
-	.string "para ambos. Crece alejado de esta\l"
-	.string "farsa, mejora por tu cuenta. Mientras...\l"
-	.string "Yo me encargaré de moldear como es\l"
-	.string "debido la región sobre la que vives… a\l"
-	.string "cualquier precio.$"
+	.string "GIOVANNI: I hope that, SILVER, It's the\n"
+	.string "best decision for both of us. Distance\l"
+	.string "yourself from this charade, improve\l"
+	.string "independently. Meanwhile, I'll shape the\l"
+	.string "region you live in as it should be… at\l"
+	.string "any cost.$"
 
