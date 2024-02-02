@@ -1,5 +1,14 @@
 Ecruteak_BurnedTower_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Ecruteak_BurnedTower_OnResume
 	.byte 0
+
+Ecruteak_BurnedTower_OnResume:
+	call Ecruteak_BurnedTower_SetupEscapeWarp
+	end
+
+Ecruteak_BurnedTower_SetupEscapeWarp::
+	setescapewarp MAP_ECRUTEAK_CITY, 10, 8
+	return
 
 BurnedTower1::
 end

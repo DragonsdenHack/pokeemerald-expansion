@@ -1,5 +1,14 @@
 Goldenrod_Underground_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Goldenrod_Underground_OnResume
 	.byte 0
+
+Goldenrod_Underground_OnResume:
+	call Goldenrod_Underground_SetupEscapeWarp
+	end
+
+Goldenrod_Underground_SetupEscapeWarp::
+	setescapewarp MAP_GOLDENROD_CITY, 18, 16
+	return
 
  @ Goldenrod Underground Precios Fichas
 	.set TRAPINCH_COINS,    1200
