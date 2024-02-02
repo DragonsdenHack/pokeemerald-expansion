@@ -1,5 +1,14 @@
 CuevaTesoro1_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, CuevaTesoro1_OnResume
 	.byte 0
+
+CuevaTesoro1_OnResume:
+	call CuevaTesoro1_SetupEscapeWarp
+	end
+
+CuevaTesoro1_SetupEscapeWarp::
+	setescapewarp MAP_PLAYA_TESORO, 9, 34
+	return
 
 
 

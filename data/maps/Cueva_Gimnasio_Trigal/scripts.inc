@@ -1,5 +1,14 @@
 Cueva_Gimnasio_Trigal_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Cueva_Gimnasio_Trigal_OnResume
 	.byte 0
+
+Cueva_Gimnasio_Trigal_OnResume:
+	call Cueva_Gimnasio_Trigal_SetupEscapeWarp
+	end
+
+Cueva_Gimnasio_Trigal_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE53, 23, 1
+	return
 
 
 Cueva_Gimnasio_Trigal_Combate::

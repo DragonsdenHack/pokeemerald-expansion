@@ -1,5 +1,14 @@
 IlexForest_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, IlexForest_OnResume
 	.byte 0
+
+IlexForest_OnResume:
+	call IlexForest_SetupEscapeWarp
+	end
+
+IlexForest_SetupEscapeWarp::
+	setescapewarp MAP_AZALEA_TOWN, 7, 11
+	return
 
 IlexForest1::
 lock     

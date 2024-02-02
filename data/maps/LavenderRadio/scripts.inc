@@ -1,5 +1,14 @@
 LavenderRadio_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, LavenderRadio_OnResume
 	.byte 0
+
+LavenderRadio_OnResume:
+	call LavenderRadio_SetupEscapeWarp
+	end
+
+LavenderRadio_SetupEscapeWarp::
+	setescapewarp MAP_NEO_LAVANDA_PUEBLO, 18, 10
+	return
 
 
 LavenderRadio_1::

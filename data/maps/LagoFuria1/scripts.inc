@@ -1,5 +1,14 @@
 LagoFuria1_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, LagoFuria1_OnResume
 	.byte 0
+
+LagoFuria1_OnResume:
+	call LagoFuria1_SetupEscapeWarp
+	end
+
+LagoFuria1_SetupEscapeWarp::
+	setescapewarp MAP_LAKEOF_RAGE, 61, 51
+	return
 
 
 LagoFuria_S1_Combate_Taaban::

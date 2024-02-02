@@ -1,5 +1,14 @@
 IcePath_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, IcePath_OnResume
 	.byte 0
+
+IcePath_OnResume:
+	call IcePath_SetupEscapeWarp
+	end
+
+IcePath_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE44, 76, 15
+	return
 
 IcePath1::
 end

@@ -1,5 +1,14 @@
 DiglettCave_1F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, DiglettCave_1F_OnResume
 	.byte 0
+
+DiglettCave_1F_OnResume:
+	call DiglettCave_1F_SetupEscapeWarp
+	end
+
+DiglettCave_1F_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE2, 17, 12
+	return
 
 DiggletCave1F_1::
 lock     

@@ -1,5 +1,14 @@
 CultoS1_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, CultoS1_OnResume
 	.byte 0
+
+CultoS1_OnResume:
+	call CultoS1_SetupEscapeWarp
+	end
+
+CultoS1_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE12, 12, 2
+	return
 
 CultoS1_EventScript_Medium::
 	trainerbattle_single TRAINER_RICKY_5, CultoS1_Text_MediumIntro, CultoS1_Text_MediumDefeated

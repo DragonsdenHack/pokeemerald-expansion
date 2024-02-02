@@ -1,5 +1,14 @@
 PowerPlant_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, PowerPlant_OnResume
 	.byte 0
+
+PowerPlant_OnResume:
+	call PowerPlant_SetupEscapeWarp
+	end
+
+PowerPlant_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE10, 7, 41
+	return
 
 PowerPlant1::
 end

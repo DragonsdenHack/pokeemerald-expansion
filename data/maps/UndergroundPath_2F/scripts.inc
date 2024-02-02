@@ -1,5 +1,14 @@
 UndergroundPath_2F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, UndergroundPath_2F_OnResume
 	.byte 0
+
+UndergroundPath_2F_OnResume:
+	call UndergroundPath_2F_SetupEscapeWarp
+	end
+
+UndergroundPath_2F_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE6, 19, 14
+	return
 
 UndergroundPath2F_2::
 end

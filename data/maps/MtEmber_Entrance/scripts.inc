@@ -1,5 +1,14 @@
 MtEmber_Entrance_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, MtEmber_Entrance_OnResume
 	.byte 0
+
+MtEmber_Entrance_OnResume:
+	call MtEmber_Entrance_SetupEscapeWarp
+	end
+
+MtEmber_Entrance_SetupEscapeWarp::
+	setescapewarp MAP_MT_EMBER_ENTRANCE, 28, 48
+	return
 
 MtEmberEntrance_1::
 end

@@ -1,5 +1,14 @@
 VictoryRoad_2F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, VictoryRoad_2F_OnResume
 	.byte 0
+
+VictoryRoad_2F_OnResume:
+	call VictoryRoad_2F_SetupEscapeWarp
+	end
+
+VictoryRoad_2F_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE23, 18, 29
+	return
 
 VictoryRoad2F_1::
 end

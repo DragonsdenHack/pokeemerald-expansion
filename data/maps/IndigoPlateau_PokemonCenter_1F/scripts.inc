@@ -47,7 +47,18 @@ IndigoPlateau_PokemonCenter_Text_3:
 
 
 IndigoPlateauPokemonCenter4::
+lock     
+faceplayer     
+msgbox IndigoPlateau_PokemonCenter_Text_4, MSGBOX_DEFAULT
+release   
 end
+
+IndigoPlateau_PokemonCenter_Text_4:
+	.string "Disculpe las molestias, pero en la última\n"
+	.string "LIGA POKÉMON hubo problemas técnicos\l"
+	.string "de última hora. Necesitaremos tiempo\l"
+	.string "para volver a reorganizar el\l"
+	.string "campeonato. Gracias.$"
 
 
 

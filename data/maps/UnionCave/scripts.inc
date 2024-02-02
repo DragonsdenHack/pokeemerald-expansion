@@ -1,5 +1,14 @@
 UnionCave_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, UnionCave_OnResume
 	.byte 0
+
+UnionCave_OnResume:
+	call UnionCave_SetupEscapeWarp
+	end
+
+UnionCave_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE32, 9, 106
+	return
 
 UnionCave1::
 end

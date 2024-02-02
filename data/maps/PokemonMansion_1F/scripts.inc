@@ -1,6 +1,15 @@
 PokemonMansion_1F_MapScripts::
 map_script MAP_SCRIPT_ON_LOAD, PokemonMansion_1F_OnLoad
+map_script MAP_SCRIPT_ON_RESUME, PokemonMansion_1F_OnResume
 	.byte 0
+
+PokemonMansion_1F_OnResume:
+	call PokemonMansion_1F_SetupEscapeWarp
+	end
+
+PokemonMansion_1F_SetupEscapeWarp::
+	setescapewarp MAP_CINNABAR_ISLAND, 8, 4
+	return
 	
 PokemonMansion_1F_OnLoad::
 	call_if_set FLAG_UNUSED_0x041, PokemonMansion_EventScript_PressSwitch_1F

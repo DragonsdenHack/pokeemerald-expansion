@@ -1,5 +1,14 @@
 NeoLavandaCementerio_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, NeoLavandaCementerio_OnResume
 	.byte 0
+
+NeoLavandaCementerio_OnResume:
+	call NeoLavandaCementerio_SetupEscapeWarp
+	end
+
+NeoLavandaCementerio_SetupEscapeWarp::
+	setescapewarp MAP_NEO_LAVANDA_PUEBLO, 18, 17
+	return
 
 NeoLavandaCementerio_1::
 lock     

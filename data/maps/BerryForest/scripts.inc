@@ -1,5 +1,14 @@
 BerryForest_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, BerryForest_OnResume
 	.byte 0
+
+BerryForest_OnResume:
+	call BerryForest_SetupEscapeWarp
+	end
+
+BerryForest_SetupEscapeWarp::
+	setescapewarp MAP_BOND_BRIDGE, 12, 7
+	return
 
 
 BerryForestDocumento_100::

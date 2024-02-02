@@ -1,5 +1,14 @@
 SeafoamIslands_1F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, SeafoamIslands_1F_OnResume
 	.byte 0
+
+SeafoamIslands_1F_OnResume:
+	call SeafoamIslands_1F_SetupEscapeWarp
+	end
+
+SeafoamIslands_1F_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE20, 60, 9
+	return
 
 SeafoamIslands1F_1::
 end

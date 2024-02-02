@@ -1,10 +1,19 @@
 RocketHideout_Johto_MapScripts::
 map_script MAP_SCRIPT_ON_TRANSITION, RocketHideout_Johto_OnTransition
+map_script MAP_SCRIPT_ON_RESUME, RocketHideout_Johto_OnResume
 	.byte 0
 	
 RocketHideout_Johto_OnTransition::
 setflag FLAG_VISITED_ROCKET_HIDEOUT_JOHTO
 end
+
+RocketHideout_Johto_OnResume:
+	call RocketHideout_Johto_SetupEscapeWarp
+	end
+
+RocketHideout_Johto_SetupEscapeWarp::
+	setescapewarp MAP_SOUTH_ROUTE45, 6, 114
+	return
 
 RocketHideoutJohto1::
 end

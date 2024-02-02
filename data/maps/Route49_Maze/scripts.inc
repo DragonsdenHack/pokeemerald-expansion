@@ -1,5 +1,14 @@
 Route49_Maze_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Route49_Maze_OnResume
 	.byte 0
+
+Route49_Maze_OnResume:
+	call Route49_Maze_SetupEscapeWarp
+	end
+
+Route49_Maze_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE49, 10, 55
+	return
 
 Route49_Maze_1::
 lock     
