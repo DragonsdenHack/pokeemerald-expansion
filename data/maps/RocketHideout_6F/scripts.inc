@@ -669,6 +669,7 @@ msgbox RocketHideout_6F_Petrel_Text_Mision_2_12, MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_13, MSGBOX_AUTOCLOSE
+setvar VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT, 1
 setvar VAR_UNUSED_0x40F7, 19
 setvar VAR_UNUSED_0x40FC, 2
 release
