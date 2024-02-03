@@ -152,9 +152,9 @@ Route12_Activador_Entrada_Texto_1:
 .string "... ...$"
 
 Route12_Activador_Entrada_Texto_2:
-.string "¡Una de las rocas parece esconder\n"
-	.string "el paso a un pequeño túnel!\l"
-	.string "¿Quieres cruzarlo?$"
+	.string "One of the rocks seems to be hiding a\n"
+	.string "path to a small tunnel! Do you want to\l"
+	.string "cross it?$"
 
 
 
@@ -168,4 +168,4 @@ release
 end
 
 Route12_Cartel_Texto_1:
-.string "RUTA 12$"
+.string "ROUTE 12$"

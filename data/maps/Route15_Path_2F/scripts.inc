@@ -11,9 +11,11 @@ msgbox Route15Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route15Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
-	.string "Un pájaro grande y brillante vuela\n"
-	.string "hacia el mar.$"
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "A large, shining bird is flying\n"
+	.string "toward the sea.$"
+
 
 
 
@@ -22,8 +24,11 @@ msgbox Route15Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route15Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
-	.string "¡Parece que hay una pequeña isla!$"
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "It looks like a small island on\n"
+	.string "the horizon!$"
+
 
 Route15_Path_2F_Combate_Ayudante_Oak::
 lock
@@ -67,53 +72,50 @@ release
 end
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_1:
-.string "Entiendo que tu nula capacidad\n"
-	.string "intelectual te impida\l"
-	.string "comprenderlo, pero los científicos\l"
-	.string "reconocidos como nosotros no nos\l"
-	.string "mezclamos con lacras sociales,\l"
-	.string "largo de aquí antes de que le diga\l"
-	.string "al guardia que me has robado, a\l"
-	.string "gente como tú nunca creerán.$"
+	.string "I know that your zero IQ can't let you\n"
+	.string "understand it, but recognized\l"
+	.string "scientists like us don't associate with\l"
+	.string "social scum, get out of here before I\l"
+	.string "tell the guard that you've stolen from\l"
+	.string "me, people like you will never be\l"
+	.string "believed.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_3:
-.string "Es el último aviso.\n"
-	.string "¿Buscas problemas?$"
+	.string "It is the last warning. Are you looking\n"
+	.string "for trouble?$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_4:
-.string "Ya tenemos planes para el futuro\n"
-	.string "de esta región ROCKET, y en\l"
-	.string "ninguno de ellos estáis vosotros,\l"
-	.string "vete preparando para la extinción.$"
+	.string "We already have plans for the future of\n"
+	.string "this region, ROCKET, and none of them\l"
+	.string "include you, get ready for extinction.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_5:
-.string "Acabas de firmar tu sentencia\n"
+	.string "You've just signed your sentence\n"
 	.string "ROCKET.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_6:
-.string "¡Esto es imposible!\n"
-	.string "¿Quién eres tú?$"
+.string "That's impossible!\n"
+	.string "Who are you?$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó una TOXISFERA de\n"
-	.string "AYUDANTE DE OAK).$"
+	.string "({PLAYER} stole a TOXIC ORB from\n"
+	.string "OAK's ASSISTANT).$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_8:
-.string "No sabes lo que acabas de hacer\n"
-	.string "ROCKET, vas a tener la mala\l"
-	.string "fortuna de que no avise ahora a la\l"
-	.string "POLICÍA, solo para ver como OAK\l"
-	.string "aplasta a todo tu equipo cuando se\l"
-	.string "entere de lo que estás haciendo.$"
+	.string "You don't know what you've just done,\n"
+	.string "ROCKET. You're unlucky that I won't call\l"
+	.string "the POLICE right now, just to see how\l"
+	.string "OAK crushes your entire team when he\l"
+	.string "finds out what you're up to.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_9:
-.string "Entiendo, ya tienes suficientes\n"
-	.string "problemas arrastrando esa\l"
-	.string "miserable vida contigo, piérdete.$"
+	.string "I understand, you already have enough\n"
+	.string "problems dragging that miserable life\l"
+	.string "with you, disappear.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

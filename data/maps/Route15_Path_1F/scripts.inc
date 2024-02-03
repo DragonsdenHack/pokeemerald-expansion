@@ -9,6 +9,6 @@ release
 end
 
 Route15Path1F_Text_1:
-.string "Ándate con ojo ROCKET, vas a tener\n"
-.string "dos ojos en tu nuca mientras estés\l"
-.string "en esta caseta.$"
+	.string "Keep an eye on, ROCKET, you will need\n"
+	.string "two eyes in your back while you are in\l"
+	.string "this stall.$"

@@ -1862,17 +1862,15 @@ RocketHideout_8F_Mision_Gimnasios_texto_36:
 	.string "ANDRA.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_37:
-.string "Desde la misma entrega de vuestro\n"
-	.string "inicial habéis pasado por todo\l"
-	.string "tipo de dificultades, todo lo que\l"
-	.string "tenéis lo habéis obtenido por\l"
-	.string "méritos propios, sabéis cuál es la\l"
-	.string "verdadera cara de esta región, y\l"
-	.string "os habéis visto obligados a\l"
-	.string "adaptaros a ella, eso os da una\l"
-	.string "ventaja y una fortaleza que no\l"
-	.string "pueden comprarse, ¡ve y\l"
-	.string "muéstraselo a todos!$"
+	.string "Since you obtained your starter, you\n"
+	.string "have faced all kinds of difficulties.\l"
+	.string "Everything you have, you have obtained\l"
+	.string "through your own merits. You know the\l"
+	.string "true face of this region, and you have\l"
+	.string "been forced to adapt to it. That gives\l"
+	.string "you an advantage and strength that\l"
+	.string "cannot be bought. ¡go and show it to\l"
+	.string "everyone!$"
 
 RocketHideout_8F_Mision_Gimnasios_move_1:
 walk_up

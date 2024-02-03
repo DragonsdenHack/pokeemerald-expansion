@@ -15,10 +15,10 @@ release
 end
 
 Route12Path2F_Text_2:
-.string "Las cenizas de mis POKéMON están\n"
-	.string "guardadas en la TORRE POKéMON.\p"
-	.string "Puedes quedarte con esta MT. Ya\n"
-	.string "no la necesito...$"
+	.string "My POKÉMON's ashes are stored in\n"
+	.string "POKÉMON TOWER.\p"
+	.string "You can have this TM.\n"
+	.string "I don't need it anymore…$"
 
 Route12Path2F_1_Despues::
 msgbox Route12Path2F_Text_1, MSGBOX_AUTOCLOSE
@@ -30,9 +30,9 @@ Route12Path2F_1_Texto_1.1:
     .string "from the little girl.$"
 
 Route12Path2F_Text_1:
-.string "No eres consciente del poder de la\n"
-.string "amistad, la frustración no lleva a\l"
-.string "ningún lado créeme.$"
+	.string "You are not conscious of the friendship\n"
+	.string "power, the frustration heads nowhere,\l"
+	.string "trust me.$"
 
 
 

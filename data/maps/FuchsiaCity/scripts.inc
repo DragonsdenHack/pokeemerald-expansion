@@ -44,8 +44,8 @@ release
 end
 
 Text_12:
-.string "Déjame en paz, ROCKET. No he\n"
-.string "quedado contigo.$"
+	.string "Leave me alone, ROCKET. I'm not here for\n"
+	.string "you.$"
 
 
 FuchsiaCity14::
@@ -56,10 +56,9 @@ release
 end
 
 Text_14:
-.string "La ZONA SAFARI está abierta al\n"
-.string "público, lástima que tú y tu\l"
-.string "organización no seáis considerados\l"
-.string "público.$"
+	.string "The SAFARI ZONE is open to the public.\n"
+	.string "Too bad you and your organization\l"
+	.string "aren't considered public.$"
 
 
 FuchsiaCity16::
@@ -74,9 +73,8 @@ release
 end
 
 Text_17:
-.string "¡Aghh!\n"
-.string "¡Así que has venido a unirte con\l"
-.string "los MOTORISTAS de FUCSIA!$"
+	.string "Aghh! So you've come to join the BIKERS\n"
+	.string "of FUCHSIA!$"
 
 
 FuchsiaCity18::
@@ -87,16 +85,13 @@ release
 end
 
 Text_18:
-.string "¡Los ROCKET como vosotros nunca\n"
-.string "podréis entrar a la ZONA SAFARI!\l"
-.string "…\l"
-.string "…\l"
-.string "¿Cómo?¿No lo necesitas y ya\l"
-.string "capturaste un KANGASKHAN en el\l"
-.string "TÚNEL ROCA?\l"
-.string "¡Además de ladrón mentiroso, se\l"
-.string "demostró que la existencia de un\l"
-.string "KANGASKHAN allí era un bulo!$"
+	.string "A ROCKET like you will never be able to\n"
+	.string "enter the SAFARI ZONE! … … What? You\l"
+	.string "don't need it and you've already caught a\l"
+	.string "KANGASKHAN in the ROCK TUNNEL? In\l"
+	.string "addition to being a thief, you're a liar;\l"
+	.string "it has been proven that the existence\l"
+	.string "of a KANGASKHAN there, it was a hoax!$"
 
 NeoFuchsiaCityDocumento_100::
 msgbox NeoFuchsiaCityDocumento_Text_100, MSGBOX_SIGN   
@@ -302,47 +297,42 @@ release
 end
 
 FuchsiaCity_Encuentro_Koga_Texto_1:
-.string "KOGA: ¡{PLAYER}!\n"
-	.string "¡No puedo creer que de verdad\l"
-	.string "hayas echado a BRUNO del CAMINO\l"
-	.string "BICIS!\l"
-	.string "¡No eres consciente de la\l"
-	.string "importancia de lo que has hecho,\l"
-	.string "no dudes de que informaré a\l"
-	.string "GIOVANNI sobre tu hazaña!$"
+	.string "KOGA: {PLAYER}! I can't believe you\n"
+	.string "really kicked BRUNO out the CYCLING\l"
+	.string "ROAD! You're not aware of the\l"
+	.string "importance of what you've done. Rest\l"
+	.string "assured, I will inform GIOVANNI about\l"
+	.string "your feat!$"
 
 FuchsiaCity_Encuentro_Koga_Texto_2:
 .string "KOGA: ...$"
 
 FuchsiaCity_Encuentro_Koga_Texto_3:
-.string "Nos ayudaste a mantener el negocio\n"
-	.string "del SAFARI, y ahora gracias a ti\l"
-	.string "la relación entre el TEAM ROCKET y\l"
-	.string "los MOTORISTAS es más fuerte que\l"
-	.string "nunca, te has ganado el mejor\l"
-	.string "regalo que pueda ofrecerte, además\l"
-	.string "de mi respeto.$"
+	.string "You helped us maintain the SAFARI\n"
+	.string "business, and now, thanks to you, the\l"
+	.string "relationship between TEAM ROCKET and\l"
+	.string "the BIKERS is stronger than ever. You've\l"
+	.string "earned the best gift I can offer you,\l"
+	.string "along with my total respect.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_4:
-.string "Con este pase podrás entrar\n"
-	.string "siempre que quieras a nuestra ZONA\l"
-	.string "SAFARI sin pagar, y usando tus\l"
-	.string "propias POKÉ BALL sin ningún tipo\l"
-	.string "de limitación, es algo a lo que\l"
-	.string "solo tienen acceso los principales\l"
-	.string "accionistas y personalidades como\l"
-	.string "BILL por motivos de\l"
-	.string "investigación...considérate\l"
-	.string "afortunado, y no te preocupes por\l"
-	.string "llevar el uniforme ROCKET, siempre\l"
-	.string "puedes alegar al guarda que es un\l"
-	.string "cosplay que usas para ridiculizar\l"
-	.string "al TEAM ROCKET, este estará\l"
-	.string "obligado a dejarte pasar...$"
+	.string "With this pass you could enter whenever\n"
+	.string "you want to our SAFARI ZONE without\l"
+	.string "paying and using your own POKÉ BALL\l"
+	.string "with no any kind of limitation, it's\l"
+	.string "something only the main shareholders\l"
+	.string "and personalities like BILL have access\l"
+	.string "to for research purposes… consider\l"
+	.string "yourself fortunate, and don't worry\l"
+	.string "about wearing the ROCKET uniform, you\l"
+	.string "can always tell the guard that it's a\l"
+	.string "cosplay you use to mock TEAM ROCKET,\l"
+	.string "and he will be obligated to let you\l"
+	.string "through.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_5:
-.string "KOGA: ¿Cómo?\n"
-	.string "¿Las ISLAS ESPUMA?$"
+.string "KOGA: What?\n"
+	.string "The SEAFOAM ISLANDS?$"
 
 FuchsiaCity_Encuentro_Koga_Texto_6:
 .string "Se encuentran al suroeste de aquí,\n"
