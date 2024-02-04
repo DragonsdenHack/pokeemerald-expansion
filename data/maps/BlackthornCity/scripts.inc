@@ -245,6 +245,8 @@ BlackthornCity_EventScript_ReceiveSwablu::
 
 
 BlackthornCity_Swablu_EventScript_TakeNosepass::
+lock
+faceplayer
     msgbox BlackthornCity_Swablu_Text_TakeNosepass MSGBOX_DEFAULT
 	msgbox BlackthornCity_Swablu_Text_TakeNosepass2 MSGBOX_DEFAULT
     playfanfare MUS_OBTAIN_TMHM
