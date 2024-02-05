@@ -2606,107 +2606,92 @@ RocketHideout8F_Mision_Mansion_Oak_Text_5:
 	.string "has gained. Right?$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_6:
-.string "La lógica dice que, sabiendo esto,\n"
-	.string "debemos entrar con toda la fuerza\l"
-	.string "de nuestra organización a esa\l"
-	.string "MANSIÓN POKÉMON, y esta vez\l"
-	.string "destruir completamente todo lo que\l"
-	.string "sea que estén haciendo allí.$"
+	.string "Common sense says we should go full\n"
+	.string "force into that POKÉMON MANSION and\l"
+	.string "obliterate whatever they're up to this\l"
+	.string "time.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_7:
-.string "OAK es un hombre precavido, frío y\n"
-	.string "calculador, si te ha lanzado ese\l"
-	.string "reto a ti, viendo de primera mano\l"
-	.string "cómo derrotaste a ROJO y LANCE, es\l"
-	.string "porque de verdad cuenta con algo\l"
-	.string "totalmente extraordinario en su\l"
-	.string "poder.$"
+	.string "OAK is a cautious, cold, and calculated\n"
+	.string "man. If he has thrown such a challenge\l"
+	.string "at you, having witnessed firsthand how\l"
+	.string "you defeated both RED and LANCE, it's\l"
+	.string "because he genuinely possesses\l"
+	.string "something extraordinary in his power.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_8:
-.string "Sospecho que, de alguna forma, han\n"
-	.string "recuperado a MEWTWO, si de verdad\l"
-	.string "es así, y deciden usarlo a su\l"
-	.string "antojo, toda la región corre un\l"
-	.string "grave peligro, mayor incluso que\l"
-	.string "en la guerra que LANCE desató.$"
+	.string "I suspect that, somehow, they have\n"
+	.string "recovered MEWTWO. If that's indeed the\l"
+	.string "case, and they decide to use it as they\l"
+	.string "please, the entire region is in serious\l"
+	.string "danger, even greater than in the KANTO\l"
+	.string "WAR.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_9:
-.string "Sin embargo, en el TEAM ROCKET nos\n"
-	.string "tomamos muy en serio tanto el\l"
-	.string "honor como la lealtad, si OAK te\l"
-	.string "ha retado personalmente y\l"
-	.string "consideras que debes ir por tu\l"
-	.string "cuenta, deberías hacerlo...$"
+	.string "However, in TEAM ROCKET, we take both\n"
+	.string "honor and loyalty very seriously. If OAK\l"
+	.string "has personally challenged you, and you\l"
+	.string "believe you should go on your own, you\l"
+	.string "should do so...$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_10:
-.string "Pero...dada la importancia\n"
-	.string "para toda la región que tiene este\l"
-	.string "asunto, tanto yo como ATLAS,\l"
-	.string "PETREL, ANDRA, PROTÓN y el resto\l"
-	.string "de miembros más destacados de la\l"
-	.string "organización nos mantendremos en\l"
-	.string "la retaguardia {PLAYER}, por si\l"
-	.string "algo saliera mal.$"
+	.string "However, given the significance this\n"
+	.string "matter holds for the entire region,\l"
+	.string "both ARCHER and me, along with PETREL,\l"
+	.string "ANDRA, PROTÓN, and the other prominent\l"
+	.string "members of the organization will stay in\l"
+	.string "the background, {PLAYER}, in case\l"
+	.string "anything goes wrong.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_11:
-.string "Tengo que asegurarme, {PLAYER}, de\n"
-	.string "que estás preparado para todo,\l"
-	.string "incluso para MEWTWO.$"
+	.string "I need to ensure, {PLAYER}, that you\n"
+	.string "are ready for everything, even for\l"
+	.string "MEWTWO.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_12:
-.string "Del mismo modo que ATLAS se\n"
-	.string "aseguró de que tanto ANDRA como tú\l"
-	.string "contábais con el mínimo de nivel\l"
-	.string "para abordar la LIGA POKÉMON, esta\l"
-	.string "situación requiere de la prueba\l"
-	.string "máxima...$"
+	.string "Just like ATLAS made sure both you and\n"
+	.string "ANDRA were ready for the POKÉMON\l"
+	.string "LEAGUE, now it's time for the ultimate\l"
+	.string "challenge.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_13:
-.string "Yo, GIOVANNI, LÍDER DEL TEAM\n"
-	.string "ROCKET, me encargaré personalmente\l"
-	.string "de llevar a tus POKÉMON al\l"
-	.string "siguiente nivel.$"
+	.string "I, GIOVANNI, TEAM ROCKET LEADER, will\n"
+	.string "personally take your POKÉMON to the\l"
+	.string "next level!$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_14:
-.string "Me siento orgulloso de ti {PLAYER},\n"
-	.string "con tu nivel actual, KANTO no\l"
-	.string "tiene ya ningún misterio para ti.$"
+	.string "I am proud of you, {PLAYER}. With your\n"
+	.string "current level, KANTO holds no more\l"
+	.string "mysteries for you.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_15:
-.string "Actualmente soy mucho mejor\n"
-	.string "ENTRENADOR que cuando OAK y yo nos\l"
-	.string "disputábamos el título de CAMPEÓN\l"
-	.string "de KANTO y, a pesar de ello, has\l"
-	.string "sido capaz de derrotarme, no tengo\l"
-	.string "palabras {PLAYER}, te has ganado el\l"
-	.string "derecho de hacer lo que quieras en\l"
-	.string "esta situación.$"
+	.string "It's crazy, {PLAYER}, I've improved so\n"
+	.string "much since the days when OAK and I were\l"
+	.string "going head-to-head for the KANTO\l"
+	.string "Championship. Yet, you managed to\l"
+	.string "outshine me. You've got the freedom to\l"
+	.string "call the shots now.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_16:
-.string "¡¡ANDRA!!\n"
-	.string "¡¡PROTÓN!!$"
+.string "ANDRA!!\n"
+	.string "PROTON!!$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_17:
-.string "Llamad al ADMINISTRADOR JEFE\n"
-	.string "ATLAS, al ADMINISTRADOR PETREL, al\l"
-	.string "actual CAMPEÓN AZUL, y convocad al\l"
-	.string "resto de ALTOS RANGOS de la\l"
-	.string "organización, debemos de\l"
-	.string "asegurarnos que, sea como sea, OAK\l"
-	.string "y BLAINE no salgan de la MANSIÓN\l"
-	.string "POKÉMON, y de que {PLAYER} no corra\l"
-	.string "ningún peligro.$"
+	.string "Call ARCHER, PETREL, CHAMPION BLUE, and\n"
+	.string "all the ROCKET EXECUTIVES in here. We\l"
+	.string "need to make sure OAK and BLAINE stay\l"
+	.string "put in the POKÉMON MANSION, and\l"
+	.string "{PLAYER} doesn't face any threats.$"
 
 
 RocketHideout8F_Mision_Mansion_Oak_Text_18:
-.string "PROTÓN: ¡A LA ORDEN SEÑOR!$"
+	.string "PROTON: YES, SIR!$"
 
 
 RocketHideout8F_Mision_Mansion_Oak_Text_19:
-.string "GIOVANNI: Ve {PLAYER}, y\n"
-	.string "demuéstrale a OAK de dónde\l"
-	.string "realmente proviene el poder de un\l"
-	.string "ENTRENADOR.$"
+	.string "Go, {PLAYER}, and show OAK where the\n"
+	.string "true strength of a TRAINER comes from.$"
+
 
 RocketHideout8F_Mision_Mansion_Oak_Move_1:
 face_left

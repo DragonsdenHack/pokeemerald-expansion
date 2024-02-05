@@ -59,13 +59,13 @@ end
 
 
 SilphS2_Text_3:
-.string "La mayoría es tan ciega a las\n"
-.string "probabilidades que trata casi del\l"
-.string "mismo modo a la de una entre mil\l"
-.string "que la de una entre un millón, de\l"
-.string "ahí que juegos como la lotería\l"
-.string "tengan tanto éxito, ¡pero no para\l"
-.string "un científico de SILPH!$"
+	.string "Many folks overlook the nuances of\n"
+	.string "probabilities, handling a\l"
+	.string "one-in-a-thousand scenario almost\l"
+	.string "identically to a one-in-a-million.\l"
+	.string "That's the charm of games like the\l"
+	.string "lottery, but it doesn't quite cut it for\l"
+	.string "a SILPH scientist!$"
 
 
 SilphS2_4::
@@ -77,11 +77,11 @@ end
 
 
 SilphS2_Text_4:
-.string "Ahora que hemos puesto a LANCE en\n"
-.string "su lugar puede que la relación con\l"
-.string "JOHTO mejore, tal vez incluso\l"
-.string "establezcamos conexiones con la\l"
-.string "región vecina.$"
+	.string "Now that we've put LANCE in his place,\n"
+	.string "our relationship with JOHTO may\l"
+	.string "improve. We might even establish\l"
+	.string "connections with the neighboring\l"
+	.string "region.$"
 
 
 
@@ -94,25 +94,23 @@ end
 
 
 SilphS2_Text_5:
-.string "A veces debemos autoobligarnos a\n"
-.string "llevarnos al límite para ver\l"
-.string "realmente de qué somos capaces,\l"
-.string "solemos proyectar esa imagen\l"
-.string "mental de tener todo bajo control\l"
-.string "funcionando a pleno rendimiento\l"
-.string "como el ideal a alcanzar, sin\l"
-.string "embargo en la práctica la inmensa\l"
-.string "mayoría de las veces tener todo\l"
-.string "bajo control es sinónimo de ir\l"
-.string "demasiado despacio, la mayoría de\l"
-.string "grandes obras o logros se han\l"
-.string "alcanzado después de pasar por\l"
-.string "muchos momentos de incertidumbre,\l"
-.string "desorden y remar sin saber a\l"
-.string "ciencia cierta donde se acabará,\l"
-.string "esos períodos son también\l"
-.string "necesarios para afianzar otras\l"
-.string "fases de -control-.$"
+	.string "Sometimes, we must self-obligate to\n"
+	.string "push ourselves to the limit to truly see\l"
+	.string "what we are capable of. We often\l"
+	.string "project this mental image of having\l"
+	.string "everything under control and running\l"
+	.string "at full capacity as the ideal to\l"
+	.string "achieve. However, in practice, most of\l"
+	.string "the time, having everything under\l"
+	.string "control is synonymous with moving too\l"
+	.string "slowly. Many great works or\l"
+	.string "achievements have been reached after\l"
+	.string "going through moments of uncertainty,\l"
+	.string "disorder, and rowing without knowing\l"
+	.string "for sure where it will end. These periods\l"
+	.string "are also necessary to reach other\l"
+	.string "'control' phases.$"
+
 
 
 
@@ -125,25 +123,17 @@ end
 
 
 SilphS2_Text_6:
-.string "Antiguamente el rey cobraba el\n"
-.string "diezmo a sus súbditos, que\l"
-.string "consistía en el 10% de las\l"
-.string "cosechas que generaban dentro del\l"
-.string "territorio, como pago por su\l"
-.string "protección.\l"
-.string "Pues bien, LANCE ha estado apunto\l"
-.string "de aplicar aquí el diezmo pero a\l"
-.string "la inversa, ¿en qué consiste?\l"
-.string "Fácil, el ciudadano de KANTO se\l"
-.string "queda con el 10% de lo que\l"
-.string "produce, mientras que LANCE y su\l"
-.string "gobierno con el resto.\l"
-.string "Lo más gracioso es que la mayoría\l"
-.string "le aplaudía y reconocía a quien\l"
-.string "les asfixiaba como su salvador,\l"
-.string "esto no es más que otra muestra de\l"
-.string "hasta qué punto puede torcerse la\l"
-.string "realidad.$"
+	.string "Back in the day, the king used to take a\n"
+	.string "10% cut from the crops of his folks as a\l"
+	.string "protection fee. Now, LANCE almost did\l"
+	.string "the same, but in reverse. You know what\l"
+	.string "that means? Simple, the KANTO folks get\l"
+	.string "to keep 10% of what they produce, while\l"
+	.string "LANCE and his crew snatch the rest. The\l"
+	.string "funny thing is, most people clapped for\l"
+	.string "the guy choking them, calling him their\l"
+	.string "savior. Just goes to show how twisted\l"
+	.string "reality can get.$"
 
 
 
@@ -156,19 +146,17 @@ end
 
 
 SilphS2_Text_7:
-.string "Espero que a partir de ahora\n"
-.string "iniciemos una verdadera etapa de\l"
-.string "progreso y desarrollo, distinta a\l"
-.string "las aspiraciones de LANCE a costa\l"
-.string "de mantener en la estupidez al\l"
-.string "pueblo, he oído que hay un\l"
-.string "proyecto para conectar AZAFRÁN con\l"
-.string "TRIGAL, en JOHTO.\l"
-.string "También que van a expandir el\l"
-.string "puerto de CARMÍN para que abarque\l"
-.string "más destinos.\l"
-.string "¡El tiempo pasa chico y no espera\l"
-.string "a nadie!$"
+	.string "I hope that from now on, we embark on a\n"
+	.string "genuine era of progress and\l"
+	.string "development, unlike LANCE's\l"
+	.string "aspirations, which came at the cost of\l"
+	.string "keeping the people in ignorance. I've\l"
+	.string "heard there's a project to connect\l"
+	.string "SAFFRON with GOLDENROD in JOHTO. Also,\l"
+	.string "they're planning to expand the port of\l"
+	.string "VERMILION to include more\l"
+	.string "destinations. Time flies, my friend, and\l"
+	.string "it waits for no one!$"
 
 
 
@@ -181,15 +169,14 @@ end
 
 
 SilphS2_Text_8:
-.string "La libertad de la capacidad\n"
-.string "engendra incluso más coerciones\l"
-.string "que ese deber disciplinario que\l"
-.string "dicta mandatos y prohibiciones.\l"
-.string "El deber tiene un límite.\l"
-.string "La capacidad, por el contrario, no\l"
-.string "lo tiene, está abierta por arriba.\l"
-.string "De ahí que la coerción que viene\l"
-.string "de la capacidad resulte ilimitada.$"
+	.string "The freedom of capacity gives rise to\n"
+	.string "even more constraints than the\l"
+	.string "disciplined duty that issues mandates\l"
+	.string "and prohibitions. Duty has its bounds.\l"
+	.string "On the contrary, capacity has none; it\l"
+	.string "remains open-ended. This is why the\l"
+	.string "coercion arising from capacity is\l"
+	.string "unlimited.$"
 
 
 
@@ -202,10 +189,9 @@ end
 
 
 SilphS2_Text_9:
-.string "Actúa como si vivieras por segunda\n"
-.string "vez y la primera lo hubieras hecho\l"
-.string "tan desacertadamente como estás a\l"
-.string "punto de hacerlo ahora.$"
+	.string "Pretend you're living for the second\n"
+	.string "time, and the first time you did it just\l"
+	.string "as poorly as you're about to do it now.$"
 
 
 
@@ -218,13 +204,12 @@ end
 
 
 SilphS2_Text_10:
-.string "Hemos hecho unos progresos\n"
-.string "sobresalientes sobre el prototipo\l"
-.string "-PORYGON2-, en las últimas\l"
-.string "semanas, ahora su capacidad\l"
-.string "ofensiva se ha incrementado en un\l"
-.string "50% a costa de perder solo un 10%\l"
-.string "de su capacidad defensiva.$"
+	.string "We have made outstanding progress on\n"
+	.string "the -PORYGON2- prototype in the past\l"
+	.string "weeks. Now, its offensive capability\l"
+	.string "has increased by 50%, at the expense of\l"
+	.string "only a 10% reduction in its defensive\l"
+	.string "capacity.$"
 
 
 
@@ -237,9 +222,8 @@ end
 
 
 SilphS2_Text_11:
-.string "El mejor plan solo vale lo que\n"
-.string "valgan las unidades que lo pongan\l"
-.string "en práctica.$"
+	.string "A top-notch plan is worth only as much\n"
+	.string "as the units executing it.$"
 
 
 
@@ -252,20 +236,16 @@ end
 
 
 SilphS2_Text_12:
-.string "Si quieres pedirle algo a alguien,\n"
-.string "que sea una persona ocupada, esta\l"
-.string "llevará tal inercia de trabajo que\l"
-.string "tu petición no será más que otra\l"
-.string "tarea más que realizar sobre la\l"
-.string "marcha, en cambio, quien no tiene\l"
-.string "nada que hacer, deberá poner mucha\l"
-.string "más energía en ponerse en\l"
-.string "movimiento exclusivamente para\l"
-.string "llevar a cabo tu petición, después\l"
-.string "de todo, no hay cosa, por fácil\l"
-.string "que sea, que no la haga difícil la\l"
-.string "falta de movimiento y la mala\l"
-.string "gana.$"
+	.string "When asking for something, pick a busy\n"
+	.string "person; they already have the work\l"
+	.string "momentum, and your request becomes\l"
+	.string "just another task on their to-do list.\l"
+	.string "On the contrary, someone with nothing\l"
+	.string "to do will need to put in much more\l"
+	.string "effort just to get started on your\l"
+	.string "request. After all, even the easiest\l"
+	.string "task becomes hard with no inertia and a\l"
+	.string "lack of motivation..$"
 
 
 
@@ -278,11 +258,10 @@ end
 
 
 SilphS2_Text_13:
-.string "La TORRE DE RADIO de TRIGAL ha\n"
-.string "demostrado ser un éxito rotundo en\l"
-.string "JOHTO, mucho está tardando alguna\l"
-.string "gran empresa de aquí en copiar la\l"
-.string "idea.$"
+	.string "The GOLDENROD RADIO TOWER has proven\n"
+	.string "to be a resounding success in JOHTO; it\l"
+	.string "won't be long before a major company\l"
+	.string "here adopts the idea.$"
 
 
 
@@ -295,21 +274,14 @@ end
 
 
 SilphS2_Text_14:
-.string "Los humanos estamos ávidos de\n"
-.string "reglas porque necesitamos reducir\l"
-.string "la dimensión de las cosas para que\l"
-.string "nos puedan caber en la cabeza.\l"
-.string "Cuanto más aleatoria es la\l"
-.string "información, mayor es la\l"
-.string "dimensionalidad y, por\l"
-.string "consiguiente, más difícil de\l"
-.string "resumir.\l"
-.string "Cuanto más se resume, más orden se\l"
-.string "pone y menor es lo aleatorio.\l"
-.string "De aquí que la misma condición que\l"
-.string "nos hace simplificar nos empuja a\l"
-.string "pensar que el mundo es menos\l"
-.string "aleatorio de lo que realmente es.$"
+	.string "The human inclination towards rules\n"
+	.string "stems from the necessity to simplify\l"
+	.string "information for cognitive ease.\l"
+	.string "Increased randomness complicates\l"
+	.string "summarization, and as information is\l"
+	.string "condensed, order prevails, making the\l"
+	.string "world seem less random than it is in\l"
+	.string "reality.$"
 
 
 
@@ -322,20 +294,16 @@ end
 
 
 SilphS2_Text_15:
-.string "Algunos se pasan toda una vida\n"
-.string "tras un momento futuro perfecto\l"
-.string "que no llega o, incluso cuando\l"
-.string "este llega, lo ignoran y pasan a\l"
-.string "buscar otro más, reduciendo su\l"
-.string "presente a un mero fin futuro,\l"
-.string "cuando no se dan cuenta de que el\l"
-.string "momento en que están escalando\l"
-.string "para llegar a ese supuesto paraíso\l"
-.string "puede ser más placentero que el\l"
-.string "estar en el propio paraíso del que\l"
-.string "por cierto, una vez llegues y\l"
-.string "pases un tiempo allí, acabarás por\l"
-.string "aburrirte.$"
+	.string "Some spend an entire lifetime chasing a\n"
+	.string "perfect future moment that never\l"
+	.string "arrives or, even when it does, they\l"
+	.string "ignore it and move on to seek another\l"
+	.string "one, reducing their present to a mere\l"
+	.string "future end. They fail to realize that\l"
+	.string "the journey toward that supposed\l"
+	.string "paradise can be more enjoyable than\l"
+	.string "being in the paradise itself, which, by\l"
+	.string "the way, tends to become dull over time.$"
 
 
 
@@ -348,10 +316,10 @@ end
 
 
 SilphS2_Text_16:
-.string "¡Ahora que SILPH y el TEAM ROCKET\n"
-.string "trabajan a la par, grandes cosas\l"
-.string "se avecinan en KANTO!\l"
-.string "¡El futuro es nuestro!$"
+	.string "Now that SILPH and TEAM ROCKET are\n"
+	.string "working together, great things are on\l"
+	.string "the horizon for KANTO! The future is\l"
+	.string "ours!$"
 
 
 
@@ -364,19 +332,12 @@ end
 
 
 SilphS2_Text_17:
-.string "Después del gran golpe que disteis\n"
-.string "en la LIGA POKÉMON, nos\l"
-.string "liberásteis del control que\l"
-.string "ejercía LANCE sobre nuestra\l"
-.string "empresa, ahora no tenemos que\l"
-.string "rendir cuentas sobre muchos de\l"
-.string "nuestros movimientos, y lo que en\l"
-.string "esta sede ocurra permanecerá\l"
-.string "oculto al público a partir de\l"
-.string "ahora, algo que, por supuesto, no\l"
-.string "os incluye a vosotros ROCKETS, tú\l"
-.string "y tu LÍDER tenéis aquí una segunda\l"
-.string "casa.$"
+	.string "Your move at the POKÉMON LEAGUE made a\n"
+	.string "huge difference for us. We're free from\l"
+	.string "LANCE's control, and now, we can keep\l"
+	.string "our secrets in this place. SILPH it's\l"
+	.string "like a second home for you and your\l"
+	.string "gang, ROCKET.$"
 
 
 
@@ -389,11 +350,10 @@ end
 
 
 SilphS2_Text_19:
-.string "Prefiero invertir mi tiempo\n"
-.string "haciendo la tarea, que en\l"
-.string "malgastarlo hablando y formulando\l"
-.string "1000 teorías sobre cómo hacer la\l"
-.string "tarea.$"
+	.string "I prefer to invest my time actually\n"
+	.string "doing the task rather than wasting it\l"
+	.string "talking and formulating a thousand\l"
+	.string "theories on how to do the task.$"
 
 
 
@@ -406,12 +366,9 @@ end
 
 
 SilphS2_Text_20:
-.string "¿Crees que estoy maquinando algún\n"
-.string "plan maléfico?\l"
-.string "¿O creando algún Pokémon\l"
-.string "invencible desde mi computadora?\l"
-.string ".....\l"
-.string "¡Estás en lo cierto!$"
+	.string "You reckon I'm plotting some evil\n"
+	.string "scheme or creating a kick-ass POKÉMON\l"
+	.string "on my computer?... Spot on!$"
 
 
 
@@ -424,9 +381,9 @@ end
 
 
 SilphS2_Text_21:
-.string "No verás la forma de hacer algo\n"
-.string "hasta que efectivamente te veas\l"
-.string "haciéndolo.$"
+	.string "You won't see the way to do something\n"
+	.string "until you actually see yourself doing\l"
+	.string "it.$"
 
 
 
@@ -439,11 +396,10 @@ end
 
 
 SilphS2_Text_22:
-.string "Muchos aquí, entre los que me\n"
-.string "incluyo, tenemos la mala costumbre\l"
-.string "de fijarnos en lo que confirma\l"
-.string "nuestros conocimientos, no en\l"
-.string "nuestra ignorancia.$"
+	.string "Many of us here, myself included, have\n"
+	.string "the bad habit of focusing on what\l"
+	.string "confirms our knowledge, not on our\l"
+	.string "ignorance.$"
 
 
 
@@ -456,12 +412,9 @@ end
 
 
 SilphS2_Text_23:
-.string "Me encargaré personalmente\n"
-.string "de meter entre rejas a todos\l"
-.string "esos POLICÍAS que apoyaron el\l"
-.string "gobierno de LANCE y permitieron\l"
-.string "todo tipo de injusticias en esta\l"
-.string "región.$"
+	.string "I'm gonna make sure those cops who were\n"
+	.string "on LANCE's side and let all that unfair\l"
+	.string "stuff happen here end up behind bars.$"
 
 
 
@@ -474,14 +427,11 @@ end
 
 
 SilphS2_Text_24:
-.string "Lo cierto es que estábamos hartos\n"
-.string "de las condiciones impuestas por\l"
-.string "el gobierno de LANCE, por cada 10\l"
-.string "POKÉS que ganábamos, entre una\l"
-.string "cosa y otra 8 iban para el\l"
-.string "gobierno de LANCE.\l"
-.string "¿En qué cabeza cabe semejante\l"
-.string "presión fiscal?$"
+	.string "Honestly, we were sick of the rules set\n"
+	.string "by LANCE's government. For every 10\l"
+	.string "POKÉS we made, 8 went straight to\l"
+	.string "LANCE's government. Who in their right\l"
+	.string "mind would accept such a tax squeeze?$"
 
 
 
@@ -494,19 +444,15 @@ end
 
 
 SilphS2_Text_25:
-.string "Hay tantos POKÉMON interesantes\n"
-.string "por descubrir ahí afuera...\l"
-.string "No hay duda de que las condiciones\l"
-.string "de cada lugar son determinantes\l"
-.string "para el desarrollo final de una\l"
-.string "especie, POKÉMON como CAMERUPT y\l"
-.string "SHARPEDO solo podían surgir en\l"
-.string "HOENN, de igual modo que la\l"
-.string "CASCADA METEORO propició la\l"
-.string "aparición de BAGON, o el MONTE\l"
-.string "PLATEADO de LARVITAR, no son más\l"
-.string "que ejemplos de adaptación al\l"
-.string "medio.$"
+	.string "There are loads of fascinating POKÉMON\n"
+	.string "to uncover out there. It's clear that\l"
+	.string "each location's conditions shape a\l"
+	.string "species in the end. POKÉMON like\l"
+	.string "CAMERUPT and SHARPEDO are exclusive to\l"
+	.string "HOENN, while METEOR FALLS gave us\l"
+	.string "BAGON, and MT.SILVER brought forth\l"
+	.string "LARVITAR. It's all about adapting to\l"
+	.string "the environment.$"
 
 
 
@@ -519,11 +465,10 @@ end
 
 
 SilphS2_Text_26:
-.string "Esa preocupación permanente y\n"
-.string "estéril por todas las cosas que\l"
-.string "tenemos que hacer es por sí sola\l"
-.string "la mayor consumidora de tiempo y\l"
-.string "energía.$"
+	.string "That perpetual and fruitless concern\n"
+	.string "about all the things we have to do is, on\l"
+	.string "its own, the greatest consumer of time\l"
+	.string "and energy.$"
 
 
 
@@ -536,10 +481,10 @@ end
 
 
 SilphS2_Text_27:
-.string "En última instancia a nadie le\n"
-.string "importa lo que sientas o lo que\l"
-.string "pienses, solo les importa lo que\l"
-.string "eres capaz de hacer.$"
+	.string "Honestly, people don't really care\n"
+	.string "about your emotions or thoughts; it's\l"
+	.string "all about what you can bring to the\l"
+	.string "table.$"
 
 
 
@@ -552,9 +497,8 @@ end
 
 
 SilphS2_Text_29:
-.string "La mente que se abre a una nueva\n"
-.string "idea jamás volverá a su tamaño\l"
-.string "original.$"
+	.string "Once the mind embraces a new idea, it\n"
+	.string "can never go back to its original size.$"
 
 
 
@@ -567,12 +511,10 @@ end
 
 
 SilphS2_Text_30:
-.string "En este lugar luchamos por obtener\n"
-.string "lo extraordinario, llegar a donde\l"
-.string "nadie más ha llegado, ir mucho más\l"
-.string "allá de lo que aquellos cegados\l"
-.string "por los 150 originales pudieran\l"
-.string "llegar a soñar.$"
+	.string "Here, we fight for the extraordinary, to\n"
+	.string "go where no one else has gone, far\l"
+	.string "beyond what those stuck with the\l"
+	.string "original 150 could even dream of.$"
 
 
 
@@ -585,20 +527,16 @@ end
 
 
 SilphS2_Text_31:
-.string "Ese ROJO era bueno, pero\n"
-.string "claramente estaba totalmente\l"
-.string "limitado por la realidad que OAK\l"
-.string "le impuso, jamás fue libre, ni\l"
-.string "pudo mover un dedo más de la\l"
-.string "cuenta sin el consentimiento de\l"
-.string "OAK, es por eso que un tipo como\l"
-.string "ROJO jamás podrá estar en un lugar\l"
-.string "como este, esta sala no existe\l"
-.string "para él, este es de hecho un lugar\l"
-.string "en el cual el 99% de la población\l"
-.string "de KANTO jamás creería, y eso\l"
-.string "precisamente es lo que nos hace\l"
-.string "grandes.$"
+	.string "That RED was skilled, but clearly, he was\n"
+	.string "completely confined by the reality\l"
+	.string "imposed by OAK. He wasn't free, unable\l"
+	.string "to lift a finger without OAK's consent.\l"
+	.string "That's why someone like RED could never\l"
+	.string "be in a place like this. This room\l"
+	.string "doesn't exist for him. In fact, this is a\l"
+	.string "place 99% of KANTO's population would\l"
+	.string "never believe, and that's precisely\l"
+	.string "what makes us great.$"
 
 
 

@@ -17,14 +17,11 @@ end
 
 
 SilphS1_Text_1:
-.string "La inmensa mayoría solo vivirá\n"
-.string "para mantener girando la necesaria\l"
-.string "rueda de la sociedad, desde aquí\l"
-.string "intentamos formar parte de ese\l"
-.string "mínimo porcentaje que logra\l"
-.string "expandir la enorme base que ya\l"
-.string "tenemos y hacer avanzar aún más a\l"
-.string "la humanidad.$"
+	.string "Most folks are just keeping the\n"
+	.string "societal wheel turning, but we're here\l"
+	.string "to be part of that few who want to\l"
+	.string "expand our base and take humanity to\l"
+	.string "the next level.$"
 
 
 
@@ -37,14 +34,13 @@ end
 
 
 SilphS1_Text_2:
-.string "Nunca pensé que diría esto, pero\n"
-.string "presento mis respetos a un ROCKET,\l"
-.string "gracias a ti se ha puesto fin a la\l"
-.string "tiranía en esta región, me siento\l"
-.string "avergonzado de todos los POLICÍAS\l"
-.string "que han trabajado para LANCE y\l"
-.string "colaborado en esa maldita\l"
-.string "dictadura enmascarada.$"
+	.string "I never thought I would say this, but I\n"
+	.string "extend my respects to a TEAM ROCKET\l"
+	.string "member. Thanks to you, tyranny in this\l"
+	.string "region has finished. I feel ashamed of\l"
+	.string "all the police officers who worked for\l"
+	.string "LANCE and collaborated in that damned\l"
+	.string "masked dictatorship.$"
 
 
 
@@ -57,10 +53,8 @@ end
 
 
 SilphS1_Text_3:
-.string "Nuestro PRESIDENTE debe tener\n"
-.string "una absoluta confianza en ti, de\l"
-.string "lo contrario jamás habrías podido\l"
-.string "acceder a un lugar como este.$"
+	.string "You're here just because our CHIEF\n"
+	.string "totally believes in you. Cool, right?$"
 
 
 
@@ -73,17 +67,14 @@ end
 
 
 SilphS1_Text_4:
-.string "Enhorabuena, si has llegado hasta\n"
-.string "aquí quiere decir que has logrado\l"
-.string "escapar de esa parte dormida de\l"
-.string "KANTO que sigue creyendo\l"
-.string "únicamente en la existencia de 150\l"
-.string "POKÉMON y no ve más allá de lo que\l"
-.string "el gobierno de LANCE le muestra,\l"
-.string "el mundo es mucho más amplio, aquí\l"
-.string "tratamos de abarcar y compilar lo\l"
-.string "más reseñable que hemos encontrado\l"
-.string "ahí fuera.$"
+	.string "Well done on reaching this point. It\n"
+	.string "indicates that you've successfully\l"
+	.string "broken away from that dormant side of\l"
+	.string "Kanto, still fixated on the belief in\l"
+	.string "only 150 POKÉMON. We're here to bring\l"
+	.string "together and document the most\l"
+	.string "notable things we've discovered beyond\l"
+	.string "those limits.$"
 
 
 
@@ -98,20 +89,20 @@ end
 
 SilphS1Documento_Text_100:
 .string "DARMANITAN: FUEGO/LUCHA\p"
-	.string "PS: 105\n"
-	.string "ATAQUE: 140\l"
-	.string "DEFENSA: 65\l"
-	.string "ATAQUE ESPECIAL: 30\l"
-	.string "DEFENSA ESPECIAL: 65\l"
-	.string "VELOCIDAD: 95\l"
+	.string "HP: 105\n"
+	.string "ATTACK: 140\l"
+	.string "DEFENSE: 65\l"
+	.string "SPECIAL ATTACK: 30\l"
+	.string "SPECIAL DEFENSE: 65\l"
+	.string "SPEED: 95\l"
 	.string "TOTAL: 500\p"
-	.string "La furia y el vigor convertidos en\n"
-	.string "POKÉMON, una energía incombustible\l"
-	.string "corre por sus venas, provocando\l"
-	.string "que en su naturaleza esté el\l"
-	.string "actuar y embestir haciendo uso de\l"
-	.string "toda su fuerza bruta antes incluso\l"
-	.string "de que su mente se lo ordene,\l"
-	.string "motivo de su colosal ATAQUE de 140\l"
-	.string "de BASE, y también de su pésimo\l"
-	.string "ATAQUE ESPECIAL de 30.$"
+	.string "When rage and strength take a POKÉMON\n"
+	.string "form. An unyielding energy courses\l"
+	.string "through them. This leads them to act\l"
+	.string "and charge, unleashing their sheer\l"
+	.string "brute force even before their mind\l"
+	.string "commands it. It's the reason behind\l"
+	.string "their impressive ATTACK stat of 140\l"
+	.string "BASE, but their SPECIAL ATTACK is\l"
+	.string "notably weak at 30.$"
+
