@@ -117,126 +117,104 @@ release
 end
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_1:
-.string "La gente como vosotros jamás\n"
-	.string "alcanzará a comprender el arte de\l"
-	.string "la pesca, ni la clase de POKÉMON\l"
-	.string "que pueden crecer en los mares, y\l"
-	.string "suerte que no lo hacéis, lo último\l"
-	.string "que quiero es que metáis vuestras\l"
-	.string "narices en algo tan puro como el\l"
-	.string "agua.$"
+	.string "People like you will never be able to\n"
+	.string "understand the art of fishing. Nor the\l"
+	.string "kind of POKÉMON that can come from the\l"
+	.string "seas, and luckily you don't. The last\l"
+	.string "thing I want is for you to stick your\l"
+	.string "nose into something as pure as water.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_2:
-.string "Cuando menos te lo esperes, me\n"
-	.string "vengaré de ti ROCKET, y mi derrota\l"
-	.string "no quedará en más que una\l"
-	.string "anécdota.$"
+	.string "One day, I'll get my revenge on you. And\n"
+	.string "my defeat will be nothing more than an\l"
+	.string "anecdote.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_3:
 .string "...\n"
 	.string "...$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_4:
-.string "¿Cómo dices?\n"
-	.string "¿Mi hermano mediano te envía para\l"
-	.string "derrotarme y así demostrar que no\l"
-	.string "soy tan buen PESCADOR como todos\l"
-	.string "dicen?$"
+	.string "What? My brother sent you to defeat me\n"
+	.string "and show I'm not as good a FISHER as\l"
+	.string "everyone is saying?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_5:
-.string "No sabes donde te metes ROCKET,\n"
-	.string "tus POKÉMON no pueden competir\l"
-	.string "contra las mejores piezas que\l"
-	.string "pueden atraparse por KANTO, aunque\l"
-	.string "seas un ALTO RANGO, o lo que\l"
-	.string "quieras, mis POKÉMON pescados en\l"
-	.string "el mar tienen un furia que no\l"
-	.string "conoces.$"
+	.string "You don't know what you're doing, ROCKET.\n"
+	.string "Your POKÉMON can't compete against the\l"
+	.string "best beasts in KANTO. Even if you're a\l"
+	.string "HIGH RANK or whatever you claim to be.\l"
+	.string "My sea-caught POKÉMON have a\l"
+	.string "fierceness you can't even imagine.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_6:
-.string "Tengo cosas más importantes que\n"
-	.string "estar peleando con un ROCKET, si\l"
-	.string "recapacitas y sales de mi casa\l"
-	.string "aquí no ha ocurrido nada,\l"
-	.string "¿de acuerdo?$"
+	.string "I have more important stuff to do than\n"
+	.string "fighting against a ROCKET. if you\l"
+	.string "reconsider and get out of my house I'll\l"
+	.string "pretend nothing happened, alright?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_7:
-.string "Bien, ahora sal de mi casa.$"
+	.string "Good, now get out of my house.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_8:
-.string "Te va el riesgo, ¿ eh, ROCKET?\n"
-	.string "La curiosidad mató al gato.\l"
-	.string "¡Vas a ver cómo se las gasta el\l"
-	.string "mejor PESCADOR de esta región!$"
+	.string "Do you like risks, huh, ROCKET?\n"
+	.string "Curiosity killed the cat. You're going to\l"
+	.string "see how the best FISHER in this region\l"
+	.string "handles things!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_9:
-.string "¡No puede ser!\n"
-	.string "¡Mis poderosos GYARADOS!$"
+.string "This can't be!\n"
+	.string "My powerful GYARADOS!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_10:
-.string "Esto no tiene sentido, debes de\n"
-	.string "ser algo más dentro del TEAM\l"
-	.string "ROCKET, un EJECUTIVO,\l"
-	.string "ADMINISTRADOR quizás, ¿me\l"
-	.string "equivoco?$"
+	.string "This makes no sense, you must be\n"
+	.string "something else inside the TEAM ROCKET,\l"
+	.string "an EXECUTIVE, ADMINISTRATOR perhaps,\l"
+	.string "am I wrong?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_11:
-.string "Pero...\n"
-	.string "Lamentablemente para ti, yo nunca\l"
-	.string "pierdo, nunca, como crees que he\l"
-	.string "mantenido mi reputación impoluta\l"
-	.string "hasta ahora, yo siempre guardo mis\l"
-	.string "espaldas.$"
+	.string "But… Unfortunately for you, I never\n"
+	.string "lose, never. How do you think I've kept\l"
+	.string "my perfect reputation spotless until\l"
+	.string "now? I always watch my back.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_12:
-.string "Has hecho demasiado ruido ROCKET,\n"
-	.string "no podemos permitir que salgas\l"
-	.string "ganador de aquí.\l"
-	.string "He oído alboroto en la casa de mi\l"
-	.string "vecino, el mejor de los gurús que\l"
-	.string "tanto público atrae a FUCSIA.\l"
-	.string "Como POKÉGUARDA de la ZONA SAFARI,\l"
-	.string "entenderás que no puedo permitir\l"
-	.string "que nadie perturbe el orden de\l"
-	.string "esta ciudad, nadie va a salir de\l"
-	.string "aquí diciendo que el mejor gurú de\l"
-	.string "la región salió derrotado por un\l"
-	.string "ROCKET.$"
+	.string "You've been too loud ROCKET, we can't let\n"
+	.string "you win in this situation. I've heard the\l"
+	.string "battle in my neighbor's house, the best\l"
+	.string "of the gurus that makes FUCHSIA so\l"
+	.string "popular. as the POKEGUARD of the\l"
+	.string "SAFARI ZONE, you'll understand that I\l"
+	.string "cannot allow anyone to disturb the\l"
+	.string "order of this city. No one is going to\l"
+	.string "leave here saying the best guru in the\l"
+	.string "region was defeated by a ROCKET.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_13:
-.string "Ahora que tus POKÉMON están\n"
-	.string "cansados, ¡solo me queda darte el\l"
-	.string "golpe de gracia!$"
+	.string "Now that your POKÉMON are tired, I just\n"
+	.string "have to deliver the final blow!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_14:
-.string "¡No puede ser, mi SLOWKING!\n"
-	.string "¿Quién eres tú?$"
+.string "This can't be, my SLOWKING!\n"
+	.string "Who are you?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
-.string "Esto sí que no estaba en nuestros\n"
-	.string "planes, siquiera KOGA podría salir\l"
-	.string "victorioso frente a nosotros dos\l"
-	.string "juntos. Sea como sea, nadie te\l"
-	.string "creerá ROCKET, nadie ha visto\l"
-	.string "estos combat...$"
+	.string "This wasn't in our plans at all, not even\n"
+	.string "KOGA would come out victorious against\l"
+	.string "both of us. Anyway, no one will believe\l"
+	.string "you, no one has seen this two battl…$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:
-.string "¡Guau!\n"
-	.string "¡Ha sido increíble, un ROCKET le\l"
-	.string "ha dado una lección al gurú de\l"
-	.string "FUCSIA!\l"
-	.string "¡Y aún más!\l"
-	.string "¡También a SLOWPOKE el POKÉGUARDA\l"
-	.string "del SAFARI!\l"
-	.string "¡No puedo esperar a ver la cara de\l"
-	.string "mis amigos cuando se enteren!$"
+	.string "Wow! It was amazing, a ROCKET gave the\n"
+	.string "guru of FUCHSIA a lesson! And even\l"
+	.string "more! They defeated SLOWPOKE, the\l"
+	.string "POKEGUARD of the SAFARI! I can't wait\l"
+	.string "to see my friends' faces when they know!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_17:
-.string "¡¿Tienes idea de lo que acabas de\n"
-	.string "hacer ROCKET?!\l"
-	.string "¡Espero que te merezca la pena la\l"
-	.string "recompensa de mi hermano!\l"
-	.string "¡Acabas de iniciar una guerra!$"
+	.string "Do you have any idea what you just did,\n"
+	.string "ROCKET?! I hope the reward from my\l"
+	.string "brother is worth it! You've just started\l"
+	.string "a war!$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Move_1:
 emote_exclamation_mark

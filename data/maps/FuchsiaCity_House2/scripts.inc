@@ -9,12 +9,10 @@ release
 end
 
 FuchsiaCity_House2_Text_1:
-.string "¿Hmm?\n"
-.string "¿Has conocido a BILL?\l"
-.string "¡Es mi nieto!\l"
-.string "Siempre le ha gustado coleccionar\l"
-.string "cosas, desde que es un niño ve a\l"
-.string "los POKÉMON como trofeos…$"
+	.string "Hmm? Have you met Bill? He's my\n"
+	.string "grandson! He has always liked\l"
+	.string "collecting things. Since he was a child,\l"
+	.string "he has seen POKÉMON as trophies…$"
 
 
 
@@ -26,9 +24,8 @@ release
 end
 
 FuchsiaCity_House2_Text_2:
-.string "BILL guarda los datos de sus\n"
-.string "Pokémon en su PC.\l"
-.string "¿Te los enseñó?$"
+	.string "Bill stores his Pokémon data on his PC.\n"
+	.string "Did he show them to you?$"
 
 
 
@@ -40,5 +37,5 @@ release
 end
 
 FuchsiaCity_House2_Text_3:
-.string "El guardia de la ZONA SAFARI es\n"
-.string "mayor, pero aún es muy activo.$"
+	.string "The SAFARI ZONE guard is old, but still\n"
+	.string "very active.$"

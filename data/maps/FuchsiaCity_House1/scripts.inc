@@ -9,11 +9,10 @@ release
 end
 
 FuchsiaCity_House1_Text_1:
-.string "SLOWPOKE ha organizado un concurso\n"
-.string "en la ZONA SAFARI, el que gane\l"
-.string "obtendrá un fabuloso premio, que\l"
-.string "pena que gente como vosotros no\l"
-.string "pueda participar, ¿verdad?$"
+	.string "SLOWPOKE has organized a contest in\n"
+	.string "the SAFARI ZONE, and the winner will\l"
+	.string "receive a fabulous prize. So sad people\l"
+	.string "like you can't participate, right?$"
 
 
 
@@ -25,10 +24,8 @@ release
 end
 
 FuchsiaCity_House1_Text_2:
-.string "Al guarda le pusimos de mote:\n"
-.string "SLOWPOKE.\l"
-.string "¡Se parecen un montón; todo el día\l"
-.string "sin hacer nada!$"
+	.string "We nicknamed the GUARD: SLOWPOKE. They\n"
+	.string "are quite similar; all day doing nothing!$"
 
 
 
@@ -40,10 +37,9 @@ release
 end
 
 FuchsiaCity_House1_Text_3:
-.string "¡SLOWPOKE sabe mucho sobre los\n"
-.string "Pokémon!\l"
-.string "¡Tiene hasta varios fósiles de\l"
-.string "Pokémon raros y extintos!$"
+	.string "SLOWPOKE knows a lot about Pokémon! He\n"
+	.string "even has several fossils of rare and\l"
+	.string "extinct Pokémon!$"
 
 
 
@@ -55,6 +51,6 @@ release
 end
 
 FuchsiaCity_House1_Text_4:
-.string "SLOWPOKE vino, pero no conseguí\n"
-.string "entender nada.\l"
-.string "Creo que no sabe articular bien.$"
+	.string "SLOWPOKE came, but I couldn't\n"
+	.string "understand anything. I think he doesn't\l"
+	.string "know articulate well.$"

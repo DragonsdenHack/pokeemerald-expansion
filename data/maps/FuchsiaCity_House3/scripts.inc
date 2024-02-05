@@ -14,13 +14,13 @@ release
 end
 
 FuchsiaCityHouse3_3_Texto_1:
-.string "Todo se basa en contactos, yo me llevo\n"
-	.string "bien con el mismísimo OAK y le hago\l"
-	.string "favores. El GURÚ de FUCSIA es famoso\l"
-	.string "en todo el mundo gracias a mis\l"
-	.string "influencias, el mundo funciona así. Los\l"
-	.string "que no tienen nada que ofrecer, como\l"
-	.string "tú, son borrados de la historia.$"
+	.string "It's all about connections. I get along\n"
+	.string "well with none other than OAK himself,\l"
+	.string "and do him favors. The GURU from\l"
+	.string "FUCHSIA is famous worldwide thanks to\l"
+	.string "my influences, the world works like\l"
+	.string "that. The ones who have nothing to\l"
+	.string "offer, like you, are erased from history.$"
 
 
 
@@ -29,7 +29,8 @@ msgbox FuchsiaCityHouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 FuchsiaCityHouseDocumento_Text_100:
-.string "Fotos y fósiles de POKéMON.$"
+.string "Photos and fossils of POKÉMON/n"
+.string "display.$"
 
 
 
@@ -38,7 +39,8 @@ msgbox FuchsiaCityHouseDocumento_Text_101, MSGBOX_SIGN
 end
 
 FuchsiaCityHouseDocumento_Text_101:
-.string "¡Viejos objetos de los POKéMON!$"
+.string "Old POKÉMON merchandise/n"
+.string "display.$"
 
 
 

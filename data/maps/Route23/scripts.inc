@@ -284,19 +284,15 @@ Route23_Combate_Andra_Texto_7:
 	.string "derrotarte...$"
 
 Route23_Combate_Andra_Texto_8:
-.string "En fin {PLAYER}, te deseo suerte,\n"
-	.string "es hora de poner a prueba a\l"
-	.string "nuestros POKÉMON contra los\l"
-	.string "mejores ENTRENADORES, tengo plena\l"
-	.string "confianza en que van a estar a la\l"
-	.string "altura.$"
+	.string "Anyway {PLAYER}, I wish you luck, it is\n"
+	.string "time to test our POKÉMON against the\l"
+	.string "best TRAINERS, I trust completely that\l"
+	.string "they will live up to the challenge.$"
 
 Route23_Combate_Andra_Texto_9:
-.string "Exprime al máximo tu último\n"
-	.string "entrenamiento en la CALLE\l"
-	.string "VICTORIA, la próxima vez que nos\l"
-	.string "veamos será ya en el campo de\l"
-	.string "batalla.$"
+	.string "Make the most of your latest training\n"
+	.string "on VICTORY ROAD, the next time we meet\l"
+	.string "will be on the battlefield.$"
 
 Route23_Combate_Andra_Move_1:
 walk_in_place_up

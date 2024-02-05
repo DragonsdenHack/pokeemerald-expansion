@@ -13,9 +13,8 @@ release
 end
 
 TanobyRuins_Text_2:
-.string "¿Quién habrá construido estas\n"
-.string "ruinas?\l"
-.string "¿Y con qué propósito?$"
+	.string "Who built these ruins? And why, you\n"
+	.string "think?$"
 
 
 

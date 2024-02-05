@@ -32,12 +32,12 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_3:
-.string "No sé quien eres ni de donde has\n"
-.string "salido, pero poco importa chico,\l"
-.string "este campeonato ya tiene dueño.\l"
-.string "Así es, oí a LANCE decir que ese\l"
-.string "chico de PUEBLO PALETA estaba\l"
-.string "destinado a ser el CAMPEÓN.$"
+	.string "I don't know who you are nor where you\n"
+	.string "came from, but that doesn't really care,\l"
+	.string "kid, this championship already has an\l"
+	.string "owner. Indeed, I heard LANCE saying\l"
+	.string "that a kid from PALLET TOWN is destined\l"
+	.string "to be the new CHAMP.$"
 
 
 
@@ -54,19 +54,16 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_5:
-.string "Los POKéMON de tipo FANTASMA\n"
-.string "de AGATHA son escalofriantemente\l"
-.string "fuertes.\p"
-.string "Yo me puse a criar a mis POKéMON\n"
-.string "del tipo LUCHA con todas las ganas\l"
-.string "del mundo…\p"
-.string "Y me planté ante AGATHA convencido\n"
-.string "de que podría ganar… y no quiero\l"
-.string "ni contarte la paliza que me dio.\p"
-.string "Además, ¡no sabes el genio que\n"
-.string "tiene la señora!\p"
-.string "¡Como empiece a gritar, lo llevas\n"
-.string "claro!$"
+	.string "AGATHA's GHOST-type POKÉMON are\n"
+	.string "horrifically terrifying in toughness.\p"
+	.string "I took my FIGHTING-type POKÉMON\n"
+	.string "and raised them to the max.\p"
+	.string "I went at AGATHA feeling pretty\n"
+	.string "confident, but she whupped us.\p"
+	.string "That old lady's also got a really\n"
+	.string "short fuse, too.\p"
+	.string "It doesn't take anything to get\n"
+	.string "that scary lady hollering.$"
 
 
 
@@ -78,11 +75,11 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_6:
-.string "Yo creo que lo de ser del ALTO\n"
-.string "MANDO se lleva en la sangre.\p"
-.string "Por lo que sé, un primo de LANCE\n"
-.string "es también LÍDER de un GIMNASIO\l"
-.string "de por ahí.$"
+	.string "Maybe becoming an ELITE FOUR\n"
+	.string "member is in the blood.\p"
+	.string "From what I've heard, LANCE has\n"
+	.string "a cousin who's a GYM LEADER\l"
+	.string "somewhere far away.$"
 
 
 
