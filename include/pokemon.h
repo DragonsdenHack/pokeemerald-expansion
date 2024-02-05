@@ -13,7 +13,7 @@ struct PokemonSubstruct0
 {
     /*0x00*/ u16 species;
     /*0x02*/ u16 heldItem;
-    /*0x04*/ u32 experience;
+    /*0x04*/ u32 experience:23;
     /*0x08*/ u8 ppBonuses;
     /*0x09*/ u8 friendship;
     /*0x0A*/ u16 pokeball:5; //31 balls
@@ -62,8 +62,8 @@ struct PokemonSubstruct3
  /* 0x06 */ u32 spDefenseIV:5;
  /* 0x07 */ u32 isEgg:1;
 
- /* 0x08 */ u32 coolRibbon:3;
- /* 0x08 */ u32 beautyRibbon:3;
+ /* 0x08 */ u32 coolRibbon:1;
+ /* 0x08 */ u32 beautyRibbon:1;
  /* 0x08 */ u32 cuteRibbon:3;
  /* 0x09 */ u32 smartRibbon:3;
  /* 0x09 */ u32 toughRibbon:3;
@@ -107,13 +107,13 @@ struct BoxPokemon
     u32 personality;
     u32 otId;
     u8 nickname[POKEMON_NAME_LENGTH];
-    u8 language;
+    u8 language:3;
     u8 isBadEgg:1;
     u8 hasSpecies:1;
     u8 isEgg:1;
-    u8 unused:5;
+    u8 unused:1;
     u8 otName[PLAYER_NAME_LENGTH];
-    u8 markings;
+    u8 markings:4;
     u16 checksum;
     u16 unknown;
 
