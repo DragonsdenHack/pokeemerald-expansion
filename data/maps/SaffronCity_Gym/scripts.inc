@@ -91,18 +91,19 @@ end
 
 
 SaffronCity_No_Pass_Gym_Texto_1:
-.string "¡Malditos ROCKET! ¿No habéis tenido\n"
-	.string "suficiente con la humillación de SILPH?\l"
-	.string "¡Da un paso más y te devolveré a las\l"
-	.string "cloacas de AZULONA de un PSÍQUICO!$"
+	.string "Damn ROCKET! Didn't you have enough\n"
+	.string "with the humiliation at SILPH? Take one\l"
+	.string "more step and I'll send you back to the\l"
+	.string "sewers of CELADON with one just\l"
+	.string "PSYCHIC.$"
 
 SaffronCity_No_Pass_Gym_Texto_2:
-.string "¡Un momento! Esa LICENCIA... Solo las\n"
-	.string "altas esferas del COMITÉ de la LIGA\l"
-	.string "tienen una así... Disculpe el\l"
-	.string "malentendido, SIR. Todo está en orden,\l"
-	.string "espero que pueda disfrutar de\l"
-	.string "nuestras instalaciones.$"
+	.string "Wait a moment! That LICENSE... Only the\n"
+	.string "high positions of the LEAGUE COMMITTEE\l"
+	.string "have one like that... Sorry for the\l"
+	.string "misunderstanding, SIR. Everything is in\l"
+	.string "order, I hope you can enjoy our\l"
+	.string "facilities.$"
 
 SaffronCity_Gym_Guy::
 lock
@@ -119,19 +120,19 @@ release
 end
 
 SaffronCity_Gym_Guy_Texto_1:
-.string "¡Hola, aspirante al título!\p"
-	.string "¡Los POKéMON de SABRINA usan el\n"
-	.string "poder de la mente, no la fuerza!\p"
-	.string "¡Los POKéMON del tipo LUCHA\n"
-	.string "son débiles contra los de tipo\l"
-	.string "PSÍQUICO!\p"
-	.string "¡Se debilitan casi antes de poder\n"
-	.string "prepararse!$"
+	.string "Yo!\n"
+	.string "Champ in the making!\p"
+	.string "SABRINA's POKÉMON use psychic\n"
+	.string "power instead of force.\p"
+	.string "FIGHTING POKÉMON are especially\n"
+	.string "weak against PSYCHIC POKÉMON.\p"
+	.string "They'll get destroyed before they\n"
+	.string "can even aim a punch!$"
 
 SaffronCity_Gym_Guy_Texto_2:
-.string "¿Poder mental?\p"
-	.string "¡Si yo lo tuviera me haría rico en\n"
-	.string "las tragaperras!$"
+	.string "Psychic power, huh?\p"
+	.string "If I had that, I'd make a bundle\n"
+	.string "at the slots!$"
 
 SaffronCity_Estatua::
 compare VAR_UNUSED_0x40F7, 22
@@ -160,28 +161,28 @@ release
 end
 
 SaffronCity_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de AZAFRÁN: SABRINA\p"
-	.string "ENTRENADORES GANADORES:\n"
+.string "SAFFRON CITY GYM\n"
+	.string "LEADER: SABRINA\p"
+	.string "WINNER TRAINERS:\n"
 	.string "AZUL, ROJO y ANDRA$"
 
 SaffronCity_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de AZAFRÁN: SABRINA\p"
-	.string "ENTRENADORES GANADORES:\n"
+.string "SAFFRON CITY GYM\n"
+	.string "LEADER: SABRINA\p"
+	.string "WINNER TRAINERS:\n"
 	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
 
 SaffronCity_Estatua_Texto_3:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de AZAFRÁN: SABRINA\p"
-	.string "ENTRENADORES GANADORES:\n"
+.string "SAFFRON CITY GYM\n"
+	.string "LEADER: SABRINA\p"
+	.string "WINNER TRAINERS:\n"
 	.string "AZUL y ROJO$"
 
 SaffronCity_Estatua_Texto_4:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de AZAFRÁN: SABRINA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "¡Está vacío!$"
+.string "SAFFRON CITY GYM\n"
+	.string "LEADER: SABRINA\p"
+	.string "WINNER TRAINERS:\n"
+.string "It is empty!$"
 
 SaffronCity_Lider_Gimnasio::
 lock
@@ -215,72 +216,63 @@ release
 end
 
 SaffronCity_Lider_Gimnasio_Texto_1:
-.string "...\n"
-	.string "...\l"
-	.string "Vaya, es curioso, hace poco me\l"
-	.string "ocurrió también con otra chica\l"
-	.string "vestida de ROCKET, pero vuestra\l"
-	.string "llegada me pilla totalmente por\l"
-	.string "sorpresa, parece que, a diferencia\l"
-	.string "de muchos otros que han pasado por\l"
-	.string "aquí, no estáis atados por los\l"
-	.string "lazos del destino, sois un libro\l"
-	.string "abierto aún por escribir, pura\l"
-	.string "potencialidad, aprovechadla es un\l"
-	.string "don poco común en estos días que\l"
-	.string "corren...\l"
-	.string "En fin, ya estoy divagando\l"
-	.string "perdóname, la realidad es que\l"
-	.string "prefiero hablar de esos temas más\l"
-	.string "que combatir, pero se me dio el\l"
-	.string "don de leer la mente y predecir el\l"
-	.string "futuro, lo que me ha hecho\l"
-	.string "extraordinaria entrenando POKÉMON\l"
-	.string "PSÍQUICOS.$"
+	.string "… … Wow, it is curious. A short time ago,\n"
+	.string "the same thing happened with another\l"
+	.string "girl dressed as a ROCKET. But your\l"
+	.string "arrival catches me totally by surprise.\l"
+	.string "It seems that, unlike many others who\l"
+	.string "have come through here, you are not\l"
+	.string "bound by destiny. You are like an open\l"
+	.string "book yet to be written, pure\l"
+	.string "potentiality. Take advantage of it, it\l"
+	.string "is a rare gift in these days we live in…\l"
+	.string "Anyway, I am rambling, forgive me. The\l"
+	.string "truth is, I prefer talking about those\l"
+	.string "topics rather than battling, but I was\l"
+	.string "given the gift of reading minds and\l"
+	.string "predicting the future, which has made\l"
+	.string "me an extraordinary trainer of PSYCHIC\l"
+	.string "POKÉMON.$"
 
 SaffronCity_Lider_Gimnasio_Texto_1.1:
-.string "¡Si así lo deseas te lo mostraré!$"
+	.string "If you want it, I will show you!$"
 
 SaffronCity_Lider_Gimnasio_Texto_2:
-.string "¡Estoy impresionada!\n"
-	.string "Acepto mi derrota.\p"
-	.string "¡Admito que no he sido lo bastante\n"
-	.string "fuerte y por eso he perdido!\p"
-	.string "¡Has ganado la MEDALLA PANTANO!$"
+ .string "This loss shocks me!\n"
+    .string "But, a loss is a loss.\p"
+    .string "I admit, I didn't work hard enough\n"
+    .string "to win.\p"
+    .string "Your victory has earned you the\n"
+    .string "MARSHBADGE.$"
 
 
 SaffronCity_Lider_Gimnasio_Texto_3:
-.string "¡La MT04 contiene PAZ MENTAL!\p"
-	.string "Hace concentrarse a los POKéMON\n"
-	.string "para que aumente su AT. ESP.\l"
-	.string "y su DEF. ESP.$"
+ .string "TM04 is CALM MIND.\p"
+    .string "It makes the POKÉMON concentrate\n"
+    .string "to raise both SP. ATK and SP. DEF.$"
 
 
 SaffronCity_Lider_Gimnasio_Texto_4:
-.string "¡Con la MEDALLA PANTANO, todo\n"
-	.string "POKéMON con nivel inferior a 70 te\l"
-	.string "obedecerá!\p"
-	.string "¡Los POKéMON más fuertes\n"
-	.string "suelen desobedecer las órdenes\l"
-	.string "en combate!\p"
-	.string "¡No entrenes demasiado a tus\n"
-	.string "POKéMON para evitar este\l"
-	.string "problema!\p"
-	.string "¡Espera, llévate esta MT!$"
+.string "The MARSHBADGE makes POKéMON up\n"
+    .string "to LV. 70 obey you.\p"
+    .string "Stronger POKÉMON will become wild,\n"
+    .string "ignoring your orders in battle.\p"
+    .string "Just don't raise your POKÉMON too\n"
+    .string "much to avoid that problem.\p"
+    .string "Wait, please take this TM with you.$"
 
 
 SaffronCity_Lider_Gimnasio_Texto_5:
-.string "¡{PLAYER} obtuvo la MT04\n"
-	.string "de manos de SABRINA!$"
+.string "{PLAYER} received TM04 from\n"
+    .string "SABRINA.$"
 
 
 SaffronCity_Lider_Gimnasio_Texto_6:
-.string "En realidad todos tenemos poderes\n"
-	.string "mentales, pero la gente no lo\l"
-	.string "sabe.\l"
-	.string "La mente es muy poderosa, capaz\l"
-	.string "casi de todo, pero no todo el\l"
-	.string "mundo aprovecha ese poder.$"
+	.string "Psychic power isn't something that\n"
+	.string "only a few people have.\p"
+	.string "Everyone has psychic power.\n"
+	.string "People just don't realize it.$" 
+
 
 Vermilion_City_Gym_Guy::
 lock
@@ -297,18 +289,15 @@ release
 end
 
 Vermilion_City_Gym_Guy_Texto_1:
-.string "Mmmm...\n"
-	.string "Es cierto que tienes una LICENCIA,\l"
-	.string "pero aún así tu presencia aquí se\l"
-	.string "me hace rara.\l"
-	.string "Te estaré vigilando...$"
+	.string "Mmmm… It is correct that you have a\n"
+	.string "license. But still, your presence feels\l"
+	.string "strange to me. I will keep an eye on\l"
+	.string "you…$"
 
 Vermilion_City_Gym_Guy_Texto_2:
-.string "¡Definitivamente no eres un\n"
-	.string "ROCKET!\l"
-	.string "¡Esos miserables jamás podrían\l"
-	.string "hacerle sombra a nuestro gran\l"
-	.string "LT.SURGE!$"
+	.string "Definitely you are not a ROCKET! Those\n"
+	.string "scums could never overshadow our great\l"
+	.string "LT. SURGE!$"
 
 Vermilion_City_Estatua::
 compare VAR_UNUSED_0x40F7, 28
@@ -337,28 +326,28 @@ release
 end
 
 Vermilion_City_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CARMÍN: LT.SURGE\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO y ANDRA$"
+.string "VERMILION POKÉMON GYM\n"
+	.string "LEADER: LT .SURGE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED and ANDRA$"
 
 Vermilion_City_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CARMÍN: LT.SURGE\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
+.string "VERMILION POKÉMON GYM\n"
+	.string "LEADER: LT .SURGE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED, ANDRA and {PLAYER}$"
 
 Vermilion_City_Estatua_Texto_3:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CARMÍN: LT.SURGE\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL y ROJO$"
+.string "VERMILION POKÉMON GYM\n"
+	.string "LEADER: LT .SURGE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE and RED$"
 
 Vermilion_City_Estatua_Texto_4:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CARMÍN: LT.SURGE\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "¡Está vacío!$"
+.string "VERMILION POKÉMON GYM\n"
+	.string "LEADER: LT .SURGE\p"
+	.string "WINNING TRAINERS:\n"
+           .string "It is empty!$"
 
 
 Vermilion_City_Lider_Gimnasio::
@@ -388,19 +377,15 @@ release
 end
 
 Vermilion_City_Lider_Gimnasio_Texto_1:
-.string "¿¡Esto es en serio?!\n"
-	.string "¡Tenéis la caradura de entrar aquí\l"
-	.string "después de lo ocurrido en la\l"
-	.string "CENTRAL ENERGÍA!\l"
-	.string "¡Primero esa pelirroja amiga tuya\l"
-	.string "y ahora tú, malditos insurrectos!\l"
-	.string "¡Vas a probar la verdadera furia\l"
-	.string "de mis POKÉMON ELÉCTRICOS, verás\l"
-	.string "el porqué todos me temían en la\l"
-	.string "guerra!\l"
-	.string "¡Después de acabar con tus POKÉMON\l"
-	.string "te freiré a base de descargas a ti\l"
-	.string "también!$"
+	.string "Is this for real?! You've got some nerve\n"
+	.string "showing up here after what happened at\l"
+	.string "the POWER PLANT! First that redhead\l"
+	.string "friend of yours, and now you, you damn\l"
+	.string "insurgents! You're going to feel the\l"
+	.string "true fury of my ELECTRIC POKÉMON.\l"
+	.string "You'll see why everyone feared me in the\l"
+	.string "war! After I finish off your POKÉMON,\l"
+	.string "I'll fry you with electric shocks too!$"
 
 Vermilion_City_Lider_Gimnasio_Texto_2:
 .string "No puede ser cierto, ¡perdí de\n"

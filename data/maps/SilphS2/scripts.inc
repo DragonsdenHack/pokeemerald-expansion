@@ -549,10 +549,10 @@ end
 
 
 SilphS2_Text_33:
-.string "La pereza tiene una importante\n"
-.string "ventaja sobre el resto de pasiones\l"
-.string "para triunfar, y es precisamente\l"
-.string "el hecho de no exigir nada.$"
+	.string "Laziness possesses a distinct\n"
+	.string "advantage over other motivations in\l"
+	.string "the pursuit of success it requires\l"
+	.string "absolutely nothing.$"
 
 
 
@@ -565,10 +565,9 @@ end
 
 
 SilphS2_Text_34:
-.string "He oído que en la TORRE RADIO de\n"
-.string "CIUDAD TRIGAL apenas cuentan con\l"
-.string "seguridad, algún día se\l"
-.string "arrepentirán de ello...$"
+	.string "I've heard that security is scarce at\n"
+	.string "the GOLDENROD RADIO TOWER; someday,\l"
+	.string "they'll regret it...$"
 
 
 
@@ -581,24 +580,18 @@ end
 
 
 SilphS2_Text_35:
-.string "KANTO cuenta con buenos POKÉMON,\n"
-.string "sólidos y equilibrados, sin\l"
-.string "embargo no es una región de\l"
-.string "extremos, aquí no encontrarás a\l"
-.string "nadie con el ATAQUE FÍSICO de un\l"
-.string "HAXORUS, las defensas de SHUCKLE o\l"
-.string "la VELOCIDAD de NINJASK, pero\l"
-.string "igualmente puedes con POKÉMON de\l"
-.string "KANTO formar un equipo que compita\l"
-.string "con alguien que tenga a su\l"
-.string "disposición a todos los POKÉMON\l"
-.string "existentes, el hecho de contar con\l"
-.string "más POKÉMON solo abre tus\l"
-.string "opciones, puede dar una ventaja\l"
-.string "estratégica, pero por nivel base,\l"
-.string "los mejores POKÉMON y ENTRENADORES\l"
-.string "pueden provenir de cualquier\l"
-.string "lugar.$"
+	.string "KANTO boasts reliable and balanced\n"
+	.string "POKÉMON. It's not known for extremes\l"
+	.string "like the sheer physical prowess of\l"
+	.string "HAXORUS, the impregnable defenses of\l"
+	.string "SHUCKLE, or the lightning speed of\l"
+	.string "NINJASK. Nevertheless, a team composed\l"
+	.string "of KANTO POKÉMON can hold its own\l"
+	.string "against those with access to the full\l"
+	.string "spectrum. While having a wider pool of\l"
+	.string "choices may confer strategic benefits,\l"
+	.string "the best POKÉMON and TRAINERS can\l"
+	.string "emerge from any region.$"
 
 
 
@@ -611,11 +604,10 @@ end
 
 
 SilphS2_Text_36:
-.string "Nadie fuera de estas paredes podrá\n"
-.string "llegar a imaginar que al final del\l"
-.string "día SILPH y el TEAM ROCKET son de\l"
-.string "hecho socios, y por ahora así ha\l"
-.string "de ser.$"
+	.string "Outside these walls, it's inconceivable\n"
+	.string "that SILPH and TEAM ROCKET are, in\l"
+	.string "fact, allies at the end of the day. For\l"
+	.string "now, that's how it must remain.$"
 
 
 
@@ -628,9 +620,9 @@ end
 
 
 SilphS2_Text_37:
-.string "¡Disciplina, orden y paciencia!\n"
-.string "¡Los 3 pilares de SILPH!\l"
-.string "¡Jamás lo olvides chico!$"
+	.string "Remember: discipline, order, and\n"
+	.string "patience are the three pillars of\l"
+	.string "SILPH! It's crucial, young one!$"
 
 
 
@@ -643,11 +635,11 @@ end
 
 
 SilphS2_Text_38:
-.string "SILPH guarda muchos secretos en su\n"
-.string "interior que algunos como ese ROJO\l"
-.string "como mucho podrán albergar en su\l"
-.string "imaginación, este lugar es uno de\l"
-.string "esos secretos.$"
+	.string "Within the walls of SILPH lie countless\n"
+	.string "secrets, mysteries that people like\l"
+	.string "that enigmatic RED, could dare to\l"
+	.string "conceive.$"
+
 
 
 
@@ -660,13 +652,11 @@ end
 
 
 SilphS2_Text_39:
-.string "Deberías de visitar JOHTO al menos\n"
-.string "una vez en la vida, lugares como\l"
-.string "la SENDA DINDÓN o el LAGO DE LA\l"
-.string "FURIA me hacen preguntarme en qué\l"
-.string "momento renunciamos a vivir en\l"
-.string "zonas rurales en beneficio de las\l"
-.string "ciudades.$"
+	.string "You should visit Johto at least once in\n"
+	.string "your life, places like TIN TOWER or the\l"
+	.string "LAKE OF RAGE make me wonder at what\l"
+	.string "point we gave up living in rural areas\l"
+	.string "for the sake of cities.$"
 
 
 
@@ -679,11 +669,10 @@ end
 
 
 SilphS2_Text_41:
-.string "Muchos cambios se avecinan en\n"
-.string "KANTO, estate atento ROCKET,\l"
-.string "vuestra organización puede\l"
-.string "desempeñar un papel fundamental en\l"
-.string "el devenir de esta región.$"
+	.string "Many changes are on the horizon in\n"
+	.string "KANTO. Watch out ROCKET, your\l"
+	.string "organization could play a pivotal role\l"
+	.string "in the future of this region.$"
 
 
 
@@ -696,12 +685,11 @@ end
 
 
 SilphS2_Text_42:
-.string "¡Esos ilusos de PUEBLO LAVANDA y\n"
-.string "su POKÉMON ESENCIA!\l"
-.string "¡La esencia está aquí, en las\l"
-.string "oficinas de SILPH S.A. donde cada\l"
-.string "día nos superamos a nosotros\l"
-.string "mismos!$"
+	.string "LAVENDER TOWN's naive believers and\n"
+	.string "their ESSENCE POKÉMON! The true\l"
+	.string "essence resides here, within the halls\l"
+	.string "of SILPH CO., where we surpass\l"
+	.string "ourselves daily!$"
 
 
 
@@ -714,9 +702,9 @@ end
 
 
 SilphS2_Text_43:
-.string "La única forma de no acabar siendo\n"
-.string "criticado es no decir nada, no\l"
-.string "hacer nada, no ser nadie.$"
+	.string "The only way to avoid ending up being\n"
+	.string "criticized is saying nothing, doing\l"
+	.string "nothing, being nobody.$"
 
 
 
@@ -729,16 +717,17 @@ end
 
 
 SilphS2_Text_46:
-.string "La empresa DEVON en HOENN es muy\n"
-.string "hermética con todo lo que\l"
-.string "desarrolla y produce, mantiene\l"
-.string "bajo llave el misterio de los\l"
-.string "FÓSILES y POKÉMON ANCESTRALES\l"
-.string "propios de su región, jamás\l"
-.string "publicaron ningún avanze en cuanto\l"
-.string "a creación de un POKÉMON propio a\l"
-.string "diferencia nuestra con PORYGON y\l"
-.string "más recientemente PORYGON2.$"
+	.string "The DEVON corporation in HOENN\n"
+	.string "operates with a high degree of secrecy\l"
+	.string "surrounding its developmental projects\l"
+	.string "and output, holding the mysteries of\l"
+	.string "FOSSILS and ANCIENT POKÉMON unique to\l"
+	.string "its region closely guarded. Unlike our\l"
+	.string "endeavors with creations such as\l"
+	.string "PORYGON and the more recent PORYGON2,\l"
+	.string "they have refrained from publicly\l"
+	.string "disclosing any advancements in POKÉMON\l"
+	.string "creation.$"
 
 
 
@@ -751,10 +740,10 @@ end
 
 
 SilphS2_Text_47:
-.string "Solo los disciplinados son libres\n"
-.string "en la vida, si eres\l"
-.string "indisciplinado, eres un esclavo de\l"
-.string "tus estados de ánimo.$"
+	.string "In life's dance, only the disciplined\n"
+	.string "find true freedom, while the\l"
+	.string "undisciplined remain shackled to the\l"
+	.string "caprice of their emotions.$"
 
 
 
@@ -767,24 +756,22 @@ end
 
 
 SilphS2_Text_48:
-.string "No importa si ganas por mucho o\n"
-.string "por poco, ganar es ganar.\l"
-.string "A nadie le importa si a causa de\l"
-.string "un tropiezo perdiste injustamente\l"
-.string "en el último momento, nadie se\l"
-.string "acuerda de un segundo lugar, en el\l"
-.string "medallero olímpico da igual que\l"
-.string "tengas 50 medallas de plata, si tu\l"
-.string "rival tiene una sola más de oro,\l"
-.string "quedará por delante en la\l"
-.string "clasificación global, para alguien\l"
-.string "anclado solo en el resultado final\l"
-.string "la sola idea de que no pueda\l"
-.string "acabar ganando realmente el mejor\l"
-.string "es desalentadora, ante esto solo\l"
-.string "nos queda ver el resultado final\l"
-.string "como una consecuencia de nuestro\l"
-.string "trabajo previo, no el fin último.$"
+	.string "Whether you win by a landslide or a\n"
+	.string "narrow margin, a victory is a victory.\l"
+	.string "Nobody cares if a mere stumble led to an\l"
+	.string "unjust loss at the final moment; in the\l"
+	.string "end, nobody remembers second place. In\l"
+	.string "the Olympic medal tally, it matters\l"
+	.string "little if you have 50 silver medals; if\l"
+	.string "your competitor has just one more gold,\l"
+	.string "they'll surpass you in the overall\l"
+	.string "ranking. For those solely fixated on\l"
+	.string "the ultimate outcome, the notion of not\l"
+	.string "emerging victorious can be\l"
+	.string "disheartening. In such moments, it's\l"
+	.string "crucial to regard the final result as a\l"
+	.string "product of our preceding efforts, not\l"
+	.string "the ultimate goal.$"
 
 
 
@@ -797,15 +784,14 @@ end
 
 
 SilphS2_Text_50:
-.string "La línea evolutiva de MAGNETON\n"
-.string "tiene mucho potencial, sabemos de\l"
-.string "la existencia de MAGNEZONE, no\l"
-.string "obstante, creemos que ese no es el\l"
-.string "verdadero techo de este POKÉMON,\l"
-.string "su fisionomía le permite,\l"
-.string "teóricamente, ser capaz de generar\l"
-.string "descargas eléctricas que se\l"
-.string "reirían de las de un ZAPDOS.$"
+	.string "The evolution line of MAGNETON holds\n"
+	.string "significant potential. We're aware of\l"
+	.string "the existence of MAGNEZONE; however,\l"
+	.string "we believe that's not the true pinnacle\l"
+	.string "of this POKÉMON. Its physiology\l"
+	.string "theoretically enables it to generate\l"
+	.string "electrical discharges that would put\l"
+	.string "ZAPDOS's to shame.$"
 
 
 
@@ -818,12 +804,10 @@ end
 
 
 SilphS2_Text_52:
-.string "La línea evolutiva de PORYGON\n"
-.string "tiene mucho potencial aún por\l"
-.string "explotar, el no estar sujeto a\l"
-.string "nuestro plano físico le da muchas\l"
-.string "ventajas respecto al resto de\l"
-.string "POKÉMON.$"
+	.string "The evolution line of PORYGON holds\n"
+	.string "much untapped potential, its lack of\l"
+	.string "adherence to our physical plane grants\l"
+	.string "it many advantages over other POKÉMON.$"
 
 
 
@@ -836,11 +820,11 @@ end
 
 
 SilphS2_Text_53:
-.string "La discrección de este lugar es\n"
-.string "sagrada, si se diera a conocer al\l"
-.string "público, perdería su magia, su\l"
-.string "esencia, espero que seas\l"
-.string "consciente de esto.$"
+	.string "The confidentiality of this place is\n"
+	.string "sacred; were its existence made public,\l"
+	.string "it would forfeit its enchantment, its\l"
+	.string "essence. I trust you comprehend the\l"
+	.string "significance.$"
 
 
 
@@ -855,25 +839,27 @@ end
 
 SilphS2Documento_Text_100:
 .string "PORYGON-Z:\p"
-	.string "PS: 85\n"
-	.string "ATAQUE: 80\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 145\l"
-	.string "DEFENSA ESPECIAL: 75\l"
-	.string "VELOCIDAD: 90\l"
+	.string "HP: 85\n"
+	.string "ATTACK: 80\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 145\l"
+	.string "SPECIAL DEFENSE: 75\l"
+	.string "SPEED: 90\l"
 	.string "TOTAL: 545\p"
-	.string "Surgido a partir de un fallo en\n"
-	.string "busca de un PORYGON3 que\l"
-	.string "exprimiese al máximo el potencial\l"
-	.string "de PORYGON, este PORYGON-Z surgido\l"
-	.string "ha resultado tener una capacidad\l"
-	.string "ofensiva desbordante, con un\l"
-	.string "ATAQUE ESPECIAL de 145 de BASE\l"
-	.string "superando a GENGAR como el no\l"
-	.string "legendario de KANTO con mayor\l"
-	.string "ATAQUE ESPECIAL, únicamente\l"
-	.string "superado por MEWTWO, otro POKÉMON\l"
-	.string "creado por la ciencia.$"
+	.string "TYPE: NORMAL\n"
+	.string "Born out of a glitch in the quest for a\l"
+	.string "PORYGON3 to push PORYGON's\l"
+	.string "capabilities to their limit, this newly\l"
+	.string "emerged PORYGON-Z has shown to\l"
+	.string "possess overwhelming offensive\l"
+	.string "capabilities, boasting a base SPECIAL\l"
+	.string "ATTACK of 145, surpassing\l"
+	.string "GENGAR-ALAKAZAM as the non-legendary\l"
+	.string "KANTO POKÉMON with the highest\l"
+	.string "SPECIAL ATTACK. Only MEWTWO, another\l"
+	.string "POKÉMON engineered through science,\l"
+	.string "has more SPECIAL ATTACK.$"
+
 
 
 
@@ -888,22 +874,20 @@ end
 
 SilphS2Documento_Text_101:
 	.string "SHARPEDO:\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 140\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 75\l"
-	.string "DEFENSA ESPECIAL: 70\l"
-	.string "VELOCIDAD: 115\l"
+	.string "HP: 70\n"
+	.string "ATTACK: 140\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 75\l"
+	.string "SPECIAL DEFENSE: 70\l"
+	.string "SPEED: 115\l"
 	.string "TOTAL: 540\p"
-	.string "El terror de los mares de HOENN,\n"
-	.string "dueño de la mordedura más potente\l"
-	.string "conocida con un triturar por STAB\l"
-	.string "devastador, las salvajes aguas de\l"
-	.string "HOENN obligaron a SHARPEDO a\l"
-	.string "adaptarse hasta convertirse en uno\l"
-	.string "de los POKÉMON más bravos del mar,\l"
-	.string "muy preciado y temido por\l"
-	.string "cualquier marinero.$"
+	.string "The dread of HOENN's seas, wielding the\n"
+	.string "most potent bite known, empowered by a\l"
+	.string "devastating STAB CRUNCH, the fierce\l"
+	.string "waters of HOENN coerced SHARPEDO to\l"
+	.string "adapt, evolving it into one of the sea's\l"
+	.string "most valiant POKÉMON, highly coveted\l"
+	.string "and dreaded by sailors.$"
 
 
 
@@ -918,21 +902,21 @@ end
 
 SilphS2Documento_Text_102:
 	.string "CAMERUPT:\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 120\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 145\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 10\l"
+	.string "HP: 70\n"
+	.string "ATTACK: 120\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 145\l"
+	.string "SPECIAL DEFENSE: 95\l"
+	.string "SPEED: 10\l"
 	.string "TOTAL: 540\p"
-	.string "El camello de carga de HOENN, con\n"
-	.string "una relación ATAQUE-DEFENSA\l"
-	.string "inexistente aquí en KANTO, pagando\l"
-	.string "por ello con una velocidad de solo\l"
-	.string "10 puntos, se cree que la enorme\l"
-	.string "potencia de su TIERRA VIVA y\l"
-	.string "ESTALLIDO influyeron en el proceso\l"
-	.string "de emersión de HOENN.$"
+	.string "The workhorse camel of HOENN,\n"
+	.string "showcasing a non-existent\l"
+	.string "ATTACK-DEFENSE ratio in KANTO. Paying\l"
+	.string "this with an extremely low speed of\l"
+	.string "merely 10 points. Thought to be\l"
+	.string "influenced by the tremendous force of\l"
+	.string "its EARTQUAKE and EARTH POWER during\l"
+	.string "the HOENN emergence.$"
 
 
 
@@ -947,17 +931,17 @@ end
 
 SilphS2Documento_Text_103:
 	.string "FLOETTE-ETERNO:\p"
-	.string "PS: 74\n"
-	.string "ATAQUE: 65\l"
-	.string "DEFENSA: 67\l"
-	.string "ATAQUE ESPECIAL: 125\l"
-	.string "DEFENSA ESPECIAL: 128\l"
-	.string "VELOCIDAD: 92\l"
+	.string "HP: 74\n"
+	.string "ATTACK: 65\l"
+	.string "DEFENSE: 67\l"
+	.string "SPECIAL ATTACK: 125\l"
+	.string "SPECIAL DEFENSE: 128\l"
+	.string "SPEED: 92\l"
 	.string "TOTAL: 551\p"
-	.string "POKÉMON de procedencia única, se\n"
-	.string "cree que su ENTRENADOR logró\l"
-	.string "devolverle a la vida durante la\l"
-	.string "guerra que asoló KALOS, los\l"
-	.string "mecanismos mediante los que\l"
-	.string "supuestamente logró tal hazaña nos\l"
-	.string "son desconocidos.$"
+	.string "A POKÉNON of singular origin, it's\n"
+	.string "believed that its TRAINER succeeded in\l"
+	.string "resurrecting it during the war that\l"
+	.string "ravaged KALOS; however, the methods by\l"
+	.string "which he supposedly accomplished this\l"
+	.string "feat are unknown to us.$"
+

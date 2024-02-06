@@ -29,10 +29,10 @@ release
 end
 
 SaffronCityDojo5_Texto_1:
-.string "He perdido, pero he conservado mi honor.\n"
-	.string "¡No cómo esos POKÉMON PSÍQUICO del\l"
-	.string "GIMNASIO de al lado que rehuyen el\l"
-	.string "combate cuerpo a cuerpo!$"
+	.string "I've lost, but I have kept my honor\n"
+	.string "intact. Not like those PSYCHIC POKÉMON\l"
+	.string "from the other GYM that avoid the close\l"
+	.string "combat!$"
 
 
 
@@ -48,9 +48,10 @@ release
 end
 
 SaffronCityDojo7_Texto_1:
-.string "Esta POKÉ BALL está muy bien\n"
-	.string "cuidada, debe contener un POKÉMON\l"
-	.string "importante para el MAESTRO DOJO.$"
+	.string "This POKÉ BALL is very well kept, also\n"
+	.string "very clean. It must contain a very\l"
+	.string "important POKÉMON for the KARATE\l"
+	.string "MASTER.$"
 
 
 
@@ -133,29 +134,28 @@ walk_in_place_up
 step_end
 
 SaffronCity_Dojo_Combate_Maestro_Texto_1:
-.string "¡Alto ahí!\n"
-	.string "¡Yo soy el MAESTRO KÁRATE!\l"
-	.string "¡Y yo soy el LÍDER aquí!\l"
-	.string "¿Quieres desafiarnos?\l"
-	.string "¡No esperes misericordia!\l"
-	.string "¡Fwaaa!$"
+	.string "Grunt!\p"
+	.string "I am the KARATE MASTER!\n"
+	.string "I am the LEADER here!\p"
+	.string "You wish to challenge us?\n"
+	.string "Expect no mercy!\p"
+	.string "Fwaaa!$"
 
 SaffronCity_Dojo_Combate_Maestro_Texto_2:
-.string "¡Hwa!\n"
-	.string "¡Arrgh! ¡Perdí!$"
+.string "Hwa!\n"
+	.string "Arrrgh! I lost!$"
 
 SaffronCity_Dojo_Combate_Maestro_Texto_3:
-.string "¡He perdido!\n"
-	.string "Pero, te lo ruego, ¡no te lleves\l"
-	.string "nuestro emblema como trofeo!\l"
-	.string "A cambio, ¡te daré este valioso\l"
-	.string "objeto!$"
+	.string "Indeed, I have lost!\p"
+	.string "But, I beseech you, do not take\n"
+	.string "our emblem as your trophy!\p"
+	.string "In return, I will give this valuable\n"
+	.string "object!\p"
 
 SaffronCity_Dojo_Combate_Maestro_Texto_4:
-.string "El CINTURÓN NEGRO aumenta en un\n"
-	.string "20% la potencia de los movimientos\l"
-	.string "LUCHA, equipado en POKÉMON con ya\l"
-	.string "alto ataque físico, como HITMONLEE\l"
-	.string "o MACHAMP, sus movimientos LUCHA\l"
-	.string "destrozarán a todo lo que golpee\l"
-	.string "neutral, ¡créeme!$"
+	.string "The BLACK BELT increases the power of\n"
+	.string "FIGHTING moves by 20%, Equipped on\l"
+	.string "POKÉMON with already high physical\l"
+	.string "attack, such as HITMONLEE or MACHAMP,\l"
+	.string "their FIGHTING moves will destroy\l"
+	.string "everything they hit neutral, believe me!$"
