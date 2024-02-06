@@ -21,12 +21,12 @@ msgbox SafariZone4FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_100:
-.string "AVISO\p"
-	.string "Encuentra los DIENTES de ORO\n"
-	.string "perdidos del GUARDA del SAFARI.\l"
-	.string "Están por aquí.\p"
-	.string "¡Se ofrece recompensa!\n"
-	.string "Contactar con el GUARDA.$"
+	.string "REQUEST NOTICE\p"
+	.string "Please find the SAFARI WARDEN's\n"
+	.string "lost GOLD TEETH.\l"
+	.string "They're around here somewhere.\p"
+	.string "Reward offered!\n"
+	.string "Contact: WARDEN$"
 
 
 
@@ -35,9 +35,9 @@ msgbox SafariZone4FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_101:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡Operación Exploración de la zona!\n"
-	.string "¡La búsqueda de la CASA SECRETA!$"
+	.string "TRAINER TIPS\p"
+	.string "Zone Exploration Campaign!\n"
+	.string "The Search for the SECRET HOUSE!$"
 
 
 
@@ -46,8 +46,8 @@ msgbox SafariZone4FDocumento_Text_102, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_102:
-.string "ZONA 3\n"
-	.string "ESTE: ZONA CENTRAL$"
+	.string "AREA 3\n"
+	.string "EAST: CENTER AREA$"
 
 
 
@@ -56,4 +56,4 @@ msgbox SafariZone4FDocumento_Text_103, MSGBOX_SIGN
 end
 
 SafariZone4FDocumento_Text_103:
-.string "CASA DE REPOSO$"
+   .string "REST HOUSE$"

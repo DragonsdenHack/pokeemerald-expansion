@@ -9,8 +9,8 @@ release
 end
 
 SafariZone_House21_Text_1:
-.string "¡Ufff!\n"
-.string "¡Estoy agotado de tanta diversión!$"
+	.string "Whew!\n"
+	.string "I'm tired from all the fun!$"
 
 
 
@@ -22,9 +22,8 @@ release
 end
 
 SafariZone_House21_Text_2:
-.string "¡Capturé un CHANSEY!\p"
-.string "¡Y por eso todos mis esfuerzos\n"
-.string "han merecido la pena!$"
+	.string "I caught a CHANSEY!\p"
+	.string "That makes this all worthwhile.$"
 
 
 
@@ -36,5 +35,5 @@ release
 end
 
 SafariZone_House21_Text_3:
-.string "¿Cuántos has capturado? ¡Yo estoy\n"
-.string "agotado de tanto trabajar!$"
+	.string "How many did you catch?\n"
+	.string "I'm bushed from the effort!$"

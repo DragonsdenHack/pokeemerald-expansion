@@ -21,9 +21,9 @@ msgbox SafariZone3FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_100:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡La CASA SECRETA sigue estando\n"
-	.string "justo delante!$"
+	.string "TRAINER TIPS\p"
+	.string "The SECRET HOUSE is still ahead.$"
+
 
 
 
@@ -32,7 +32,7 @@ msgbox SafariZone3FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_101:
-	.string "ZONA 2$"
+	.string "AREA 2$"
 
 
 
@@ -41,11 +41,11 @@ msgbox SafariZone3FDocumento_Text_102, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_102:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡Los POKéMON se ocultan entre la\n"
-	.string "alta hierba!\p"
-	.string "Zigzaguea por zonas de hierba para\n"
-	.string "que salgan.$"
+	.string "TRAINER TIPS\p"
+	.string "POKÉMON hide in tall grass.\p"
+	.string "Zigzag through grassy areas to\n"
+	.string "flush them out.$"
+
 
 
 
@@ -54,9 +54,9 @@ msgbox SafariZone3FDocumento_Text_103, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_103:
-.string "PISTAS ENTRENADOR\p"
-	.string "¡Encuentra la CASA SECRETA\n"
-	.string "y ganarás una MO!$"
+	.string "TRAINER TIPS\p"
+	.string "Win a free HM for finding the\n"
+	.string "SECRET HOUSE.$"
 
 
 
@@ -65,4 +65,4 @@ msgbox SafariZone3FDocumento_Text_104, MSGBOX_SIGN
 end
 
 SafariZone3FDocumento_Text_104:
-.string "CASA DE REPOSO$"
+	.string "REST HOUSE$"

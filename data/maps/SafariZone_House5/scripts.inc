@@ -44,63 +44,57 @@ release
 end
 
 SafariZone_House5_Combate_Domador_Texto_1:
-.string "Siento decepcionarte pero aquí\n"
-	.string "no ofrecemos ningún tipo de premio\l"
-	.string "a nuestros clientes VIP, es solo\l"
-	.string "para quienes pagan la entrada.\l"
-	.string "De todos modos, jamás le daría el\l"
-	.string "premio del SAFARI a alguien que\l"
-	.string "viste así, más aún, si estuviera\l"
-	.string "en mi mano me hubiera encargado de\l"
-	.string "que no pusieras un pie aquí\l"
-	.string "siquiera pagando, ahí tienes tu\l"
-	.string "respuesta a si hay o no hay premio\l"
-	.string "aquí.$"
+	.string "I am so sorry to disappoint you but we\n"
+	.string "don't give any prize to our VIP clients,\l"
+	.string "it is just for the ones who paid the\l"
+	.string "entrance. Anyway, I would never give\l"
+	.string "the SAFARI prize to someone who wears\l"
+	.string "as a TEAM ROCKET member, moreover, if I\l"
+	.string "were the man in charge I would have\l"
+	.string "forbidden you to enter here even if you\l"
+	.string "pay the entrance, there is your answer\l"
+	.string "if there is any prize here for you.$"
 
 SafariZone_House5_Combate_Domador_Texto_2:
 .string "...\n"
 	.string "...$"
 
 SafariZone_House5_Combate_Domador_Texto_3:
-.string "¿Sigues insistiendo?\n"
-	.string "No tendré menor reparo en echarte\l"
-	.string "de aquí por la fuerza.\l"
-	.string "¿Vas a largarte de una vez?$"
+	.string "Are you still insisting? I won't think\n"
+	.string "twice about kicking you out of here\l"
+	.string "using force. Will you leave now?$"
 
 SafariZone_House5_Combate_Domador_Texto_4:
-.string "En cuanto le diga a KOGA lo que ha\n"
-	.string "ocurrido aquí te expulsarán del\l"
-	.string "SAFARI, él es la persona con mayor\l"
-	.string "poder aquí.$"
+	.string "When I tell KOGA about what happened\n"
+	.string "here, he'll remove your VIP access from\l"
+	.string "the SAFARI, he's the most influential\l"
+	.string "figure here.$"
 
 SafariZone_House5_Combate_Domador_Texto_5:
-.string "Veo que por lo menos eres\n"
-	.string "razonable, sigue tu camino.$"
+	.string "I see that at least you are reasonable,\n"
+	.string "keep your way.$"
 
 SafariZone_House5_Combate_Domador_Texto_6:
-.string "No tienes idea de lo que acabas de\n"
-	.string "hacer, como DOMADOR del SAFARI\l"
-	.string "tengo acceso a los POKÉMON más\l"
-	.string "fieros y salvajes de este lugar.\l"
-	.string "¡No me hago responsable de lo que\l"
-	.string "le ocurra a tu equipo después de\l"
-	.string "lanzar a mis bravos POKÉMON al\l"
-	.string "combate!$"
+	.string "You have no idea about what you just\n"
+	.string "did, as a SAFARI TAMER I have access to\l"
+	.string "the wildest and strongest POKÉMON of\l"
+	.string "this place. Whatever happens to your\l"
+	.string "team after releasing my bravery\l"
+	.string "POKÉMON to the battle is not my\l"
+	.string "concern!$"
 
 SafariZone_House5_Combate_Domador_Texto_7:
-.string "¡Mis bravos POKÉMON!$"
+.string "My brave POKÉMON!$"
 
 SafariZone_House5_Combate_Domador_Texto_8:
-.string "({PLAYER} robó una MO03 de\n"
-	.string "DOMADOR SAFARI)$"
+	.string "({PLAYER} stole a HM03 from the\n"
+	.string "SAFARI TAMER)$"
 
 SafariZone_House5_Combate_Domador_Texto_9:
-.string "Maldición, ¿como te atreves?\n"
-	.string "¡Será que eres un ROCKET después\l"
-	.string "de todo!\l"
-	.string "¡Me quejaré a KOGA de esto, verás\l"
-	.string "cómo él consigue que te retiren tu\l"
-	.string "PASE SAFARI!$"
+	.string "Damn it, how dare you? You are a ROCKET\n"
+	.string "after all! I will complain to KOGA about\l"
+	.string "this; you'll see how he gets your SAFARI\l"
+	.string "PASS revoked!$"
 
 SafariZone_House5_Combate_Domador_Move_1:
 emote_exclamation_mark

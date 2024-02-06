@@ -9,8 +9,8 @@ release
 end
 
 FuchsiaCity_Path_Text_1:
-.string "Disfrute del safari y perdone las\n"
-.string "molestias.$"
+	.string "Enjoy the safari and excuse me for the\n"
+	.string "inconveniences.$"
 
 
 
@@ -22,12 +22,11 @@ release
 end
 
 FuchsiaCity_Path_Text_2:
-.string "La ZONA SAFARI fue en origen un\n"
-.string "proyecto financiado conjuntamente\l"
-.string "por KOGA y un inversor\l"
-.string "desconocido, sea quien sea hemos\l"
-.string "de darle gracias por todo lo bueno\l"
-.string "que este lugar ha dado a FUCSIA.$"
+	.string "The SAFARI ZONE was originally a\n"
+	.string "project financed by KOGA and an\l"
+	.string "unknown investor, whoever he is, we\l"
+	.string "must thank him for everything good\l"
+	.string "that has been given to FUCHSIA.$"
 
 
 FuchsiaCity_Path_Barrera_Der::
@@ -118,40 +117,36 @@ release
 end
 
 FuchsiaCity_Path_Barrera_Texto_1:
-.string "Alto ahí ROCKET, ¿de verdad\n"
-	.string "creíste que ibamos a dejarte\l"
-	.string "entrar?\l"
-	.string "Las leyes del COMITÉ de la LIGA\l"
-	.string "son claras: los ROCKET no tienen\l"
-	.string "acceso a ningún servicio\l"
-	.string "exceptuando el CENTRO POKÉMON,\l"
-	.string "¡date media vuelta si no quieres\l"
-	.string "problemas!$"
+	.string "Stop right there, ROCKET, did you really\n"
+	.string "think that we would let you in? The\l"
+	.string "LEAGUE COMMITTEE rules are clear: the\l"
+	.string "ROCKETS have no access to any service\l"
+	.string "except the POKÉMON CENTER, turn around\l"
+	.string "immediately if you don't want trouble.$"
 
 FuchsiaCity_Path_Barrera_Texto_2:
 .string "... ...$"
 
 FuchsiaCity_Path_Barrera_Texto_3:
-.string "Espera...\n"
-	.string "Ese pase...\l"
-	.string "¡Déjame verlo!$"
+.string "Hold on…\n"
+	.string "That pass…\l"
+	.string "Let me see it!$"
 
 FuchsiaCity_Path_Barrera_Texto_4:
-.string "Mmm...\n"
-	.string "Firmado por el mismísimo KOGA...\l"
-	.string "Parece que todo está correcto,\l"
-	.string "debes de ser alguien muy\l"
-	.string "influyente para haber obtenido\l"
-	.string "este pase, te recomiendo no ir por\l"
-	.string "ahí así vestido, ni siquiera para\l"
-	.string "hacer la gracia, el gobierno de\l"
-	.string "LANCE está tomando cada vez\l"
-	.string "medidas más restrictivas en cuanto\l"
-	.string "al TEAM ROCKET, y con razón.$"
+	.string "Hmm… Signed by KOGA himself…\n"
+	.string "Apparently everything is in order, you\l"
+	.string "must be someone very important to have\l"
+	.string "obtained this pass, I recommend you to\l"
+	.string "not go around wearing those clothes,\l"
+	.string "not even to make jokes on that, the\l"
+	.string "LANCE's government is increasingly\l"
+	.string "taking more restrictive measures\l"
+	.string "against TEAM ROCKET, and it is\l"
+	.string "completely justified.$"
 
 FuchsiaCity_Path_Barrera_Texto_5:
-.string "Que tenga un buen día y perdone la\n"
-	.string "confusión.$"
+	.string "Have a nice day sir, and excuse me for\n"
+	.string "the confusion.$"
 
 FuchsiaCity_Path_Barrera_Move_1:
 walk_in_place_left

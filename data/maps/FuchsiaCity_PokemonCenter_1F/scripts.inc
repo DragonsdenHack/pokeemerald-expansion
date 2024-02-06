@@ -43,10 +43,9 @@ release
 end
 
 FuchsiaCity_PokemonCenter_Text_3:
-.string "¡La ÉLITE 4 os pondrá pronto en\n"
-.string "vuestro lugar, vais a ser\l"
-.string "exterminados como las ratas que\l"
-.string "sois!$"
+	.string "The ELITE 4 will teach you a lesson; you\n"
+	.string "will be exterminated like the vermin you\l"
+	.string "are!$"
 
 
 

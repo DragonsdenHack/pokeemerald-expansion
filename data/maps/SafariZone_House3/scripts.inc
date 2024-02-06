@@ -9,8 +9,8 @@ release
 end
 
 SafariZone_House31_Text_1:
-.string "Dirígete al ZONA más profunda del\n"
-.string "SAFARI. ¡Ganarás un premio!$"
+	.string "Go to the deepest part of the\n"
+	.string "SAFARI ZONE. You will win a prize!$"
 
 
 
@@ -22,13 +22,12 @@ release
 end
 
 SafariZone_House31_Text_2:
-.string "La ZONA del SAFARI es gigante,\n"
-.string "¿no te parece?\p"
-.string "El LÍDER del GIMNASIO de FUCSIA,\n"
-.string "KOGA, viene con mucha frecuencia\l"
-.string "por esta zona.\p"
-.string "Gracias a él, podemos jugar aquí\n"
-.string "sin miedo.$"
+	.string "The SAFARI ZONE's huge, wouldn't\n"
+	.string "you say?\p"
+	.string "FUCHSIA's GYM LEADER, KOGA, \n"
+	.string "patrols the grounds every so often.\p"
+	.string "Thanks to him, we can play here\n"
+	.string "knowing that we're safe.$"
 
 
 
@@ -40,10 +39,11 @@ release
 end
 
 SafariZone_House31_Text_3:
-.string "Puedes quedarte con cualquier\n"
-.string "objeto encontrado en esta zona.\p"
-.string "¡Pero te quedarás sin tiempo si\n"
-.string "intentas coger todos a la vez!$"
+	.string "You can keep any item you find in\n"
+	.string "the SAFARI ZONE.\p"
+	.string "But, you'll run out of time if you\n"
+	.string "try for all of them at once.$"
+
 
 
 
@@ -55,8 +55,6 @@ release
 end
 
 SafariZone_House31_Text_4:
-.string "¡Mi EEVEE evolucionó y\n"
-.string "se transformó en un FLAREON!\p"
-.string "¡Pero el EEVEE de un amigo se\n"
-.string "transformó en un VAPOREON!\l"
-.string "¿Por qué?$"
+	.string "My EEVEE evolved into FLAREON.\p"
+	.string "But, a friend's EEVEE turned into a\n"
+	.string "VAPOREON. I wonder why?$"

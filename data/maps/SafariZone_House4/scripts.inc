@@ -9,8 +9,10 @@ release
 end
 
 SafariZone_House41_Text_1:
-.string "Utilizar CEBO te permitirá atrapar\n"
-.string "más fácilmente a los POKéMON.$"
+	.string "Using BAIT will make POKÉMON more\n"
+	.string "likely to stick around if they get\l"
+	.string "busy eating.$"
+
 
 
 
@@ -22,9 +24,9 @@ release
 end
 
 SafariZone_House41_Text_2:
-.string "Tirar PIEDRAS a los POKéMON\n"
-.string "podría hacerles huir, pero hará\l"
-.string "que sean más fáciles de atrapar.$"
+	.string "Tossing ROCKS at POKÉMON might\n"
+	.string "make them run, but they'll be\l"
+	.string "easier to catch.$"
 
 
 
@@ -36,5 +38,5 @@ release
 end
 
 SafariZone_House41_Text_3:
-.string "Caminé mucho, pero no he visto\n"
-.string "a los POKéMON que quería.$"
+	.string "I hiked a lot, but I didn't see any\n"
+	.string "POKÉMON I wanted.$"

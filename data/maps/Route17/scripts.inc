@@ -115,8 +115,7 @@ msgbox Route17Documento_Text_100, MSGBOX_SIGN
 end
 
 Route17Documento_Text_100:
-	.string "¡CAMINO BICIS - TERRITORIO DE\n"
-	.string "MOTORISTAS!$"
+	.string "CYCLING ROAD - BIKERS TERRITORY!$"
 
 
 
@@ -125,14 +124,12 @@ msgbox Route17Documento_Text_101, MSGBOX_SIGN
 end
 
 Route17Documento_Text_101:
-.string "CONSEJOS DE ENTRENADOR:\n"
-	.string "Cada Pokémon es único.\l"
-	.string "Incluso Pokémon de la misma\l"
-	.string "especie y mismo nivel tienen\l"
-	.string "claras diferencias en sus\l"
-	.string "estadísticas globales, los\l"
-	.string "llamados IVs, así como las\l"
-	.string "naturalezas.$"
+	.string "TRAINER TIPS\p"
+	.string "All POKÉMON are unique.\p"
+	.string "Even POKÉMON of the same species\n"
+	.string "and level grow at different rates, the \n"
+	.string "referred to as IVs, as well as natures.$"
+
 
 
 
@@ -161,10 +158,10 @@ msgbox Route17Documento_Text_104, MSGBOX_SIGN
 end
 
 Route17Documento_Text_104:
-.string "Cerrada inminente de los\n"
-	.string "subterráneos CELESTE - CARMÍN y\l"
-	.string "LAVANDA - AZULONA, por invasiones\l"
-	.string "de motoristas en ellos.$"
+	.string "Imminent closure of the CERULEAN -\n"
+	.string "VERMILION and LAVENDER - CELADON\l"
+	.string "underground paths, due to bikers\l"
+	.string "invasion on it.$"
 
 
 
@@ -173,5 +170,6 @@ msgbox Route17Documento_Text_105, MSGBOX_SIGN
 end
 
 Route17Documento_Text_105:
-.string "CAMINO BICIS\n"
-	.string "¡Respeta y te respetaremos!$"
+	.string "CYCLING ROAD\n"
+	.string "Slope ends here!$"
+

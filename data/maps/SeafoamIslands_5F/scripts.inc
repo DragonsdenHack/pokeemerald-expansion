@@ -13,8 +13,8 @@ release
 end
 
 SeafoamIslands5F_6_texto_1:
-.string "(Parece que esta roca bloquea las\n"
-	.string "fuertes corrientes aquí).$"
+	.string "(Apparently this rock blocks the strong\n"
+	.string "currents here).$"
 
 
 
@@ -79,39 +79,33 @@ SeafoamIslands_5F_Combate_Articuno_Texto_2:
 .string "Artic...$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_3:
-.string "¡Obtuviste una pluma del\n"
-	.string "LEGENDARIO ARTICUNO!$"
+	.string "You obtained a feather of the\n"
+	.string "LEGENDARY ARTICUNO!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4:
-.string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "... ...\l"
-	.string "¿Acabas de batir a ARTICUNO?\l"
-	.string "Perfecto, gran trabajo {PLAYER},\l"
-	.string "AZUL acaba también de cumplir con\l"
-	.string "éxito su misión con MOLTRES, te he\l"
-	.string "llamado porque ANDRA está en\l"
-	.string "problemas, el plan de evasión para\l"
-	.string "penetrar en la CENTRAL ENERGÍA ha\l"
-	.string "fracasado y ahora mismo está\l"
-	.string "contra las cuerdas rodeada por la\l"
-	.string "policía, obviamente por sí solos\l"
-	.string "no son capaces de reducirla pero\l"
-	.string "es cuestión de tiempo que avisen a\l"
-	.string "algún LÍDER DE GIMNASIO o incluso\l"
-	.string "miembro de la ÉLITE 4 para\l"
-	.string "detenerla por la fuerza, quiero\l"
-	.string "que formes parte del equipo de\l"
-	.string "rescate {PLAYER}, si la cosa se\l"
-	.string "complica necesito de los mejores\l"
-	.string "entrenadores para salir de allí,\l"
-	.string "el resto de integrantes te estarán\l"
-	.string "esperando a las afueras de CENTRAL\l"
-	.string "ENERGÍA en RUTA 10, no tardes,\l"
-	.string "cada segundo es vital.$"
+	.string "GIOVANNI: {PLAYER}? … … Did you\n"
+	.string "defeat ARTICUNO right now? Great, good\l"
+	.string "job {PLAYER}, BLUE also finished his\l"
+	.string "mission defeating MOLTRES at MT.EMBER,\l"
+	.string "I called you because ANDRA is in\l"
+	.string "troubles, the plan to infiltrate into\l"
+	.string "the POWER PLANT failed and now she is\l"
+	.string "surrounded by the police, obviously the\l"
+	.string "cops are not enough to defeat her for\l"
+	.string "themselves but it's just a matter of\l"
+	.string "time to they notify a GYM LEADER or\l"
+	.string "even a member of the ELITE 4 to\l"
+	.string "apprehend her by force, I want you to\l"
+	.string "be part of the rescue team, {PLAYER},\l"
+	.string "if the situation gets complicated, I\l"
+	.string "require the assistance of our top\l"
+	.string "trainers to escape from there, the\l"
+	.string "other team members will await you\l"
+	.string "outside the POWER PLANT on ROUTE 10,\l"
+	.string "don't be late, each second is crucial.$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_5:
-.string "(Parece que no le quedan fuerzas\n"
-	.string "para combatir).$"
+	.string "(Seems like it is too weak to battle.)$"
 
 SeafoamIslands_5F_Combate_Articuno_Move_1:
 emote_exclamation_mark

@@ -144,133 +144,138 @@ release
 end
 
 SafariZone_1F_Escena_3_Andra_Texto_1:
-.string "RECLUTA: El recuento total es de 48\n"
-	.string "SCYTHER, 45 TAUROS, 38 KANGASKHAN, 35\l"
-	.string "CHANSEY y 26 DRATINI, ALTO RANGO\l"
-	.string "ANDRA.$"
+	.string "GRUNT: The total count is; 48 SCYTHER,\n"
+	.string "45 TAUROS, 38 KANGASKHAN, 35 CHANSEY\l"
+	.string "and 26 DRATINI, HIGH RANK GRUNT ANDRA.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_2:
-.string "ANDRA: Buen trabajo recluta, vuelve a\n"
-	.string "tu puesto.$"
+	.string "ANDRA: Good job grunt, return to your\n"
+	.string "place.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_3:
-.string "Y buen trabajo, TEDDIURSA. Has\n"
-	.string "demostrado gran valor enfrentándote a\l"
-	.string "POKÉMON evolucionados sin tú…$"
+	.string "And good job, TEDDIURSA. You have\n"
+	.string "shown great bravery facing evolved\l"
+	.string "POKÉMON without you having ev…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_4:
-.string "CIENTÍFICO: Vaya… no todos los días ve\n"
-	.string "uno un URSARING por KANTO. Su ATAQUE\l"
-	.string "es devastador, en esta KANTO se pondrá\l"
-	.string "las botas con su CUCHILLADA, créeme.$"
+	.string "SCIENTIST: Wow… not every day you can\n"
+	.string "see an URSARING here in KANTO. Its\l"
+	.string "ATTACK is devastating, in KANTO will\l"
+	.string "wipe out every POKÉMON with it SLASH,\l"
+	.string "trust me.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_5:
-.string "ANDRA: ¿Más que esos TAUROS y SCYTHER\n"
-	.string "que tan duro pegaban?$"
+	.string "ANDRA: More than those TAUROS and\n"
+	.string "SCYTHER that hit so hard?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_6:
-.string "CIENTÍFICO: Efectivamente. Incluso\n"
-	.string "para un ADMIN.ROCKET es un gran\l"
-	.string "POKÉMON.$"
+	.string "SCIENTIST: Correct. Even for an\n"
+	.string "ADMIN.ROCKET is a great POKÉMON.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_7:
-.string "ANDRA: Dígame una cosa, ¿por qué esa\n"
-	.string "serpiente azul vale tan cara en el\l"
-	.string "CASINO? La verdad es que es bastante\l"
-	.string "enclenque.$"
+	.string "ANDRA: Tell me something, why is that\n"
+	.string "blue serpent so expensive to buy in the\l"
+	.string "GAME CORNER? To be honest it seems\l"
+	.string "very weak.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_8:
-.string "CIENTÍFICO: Se nota que no eres de\n"
-	.string "aquí. Esa serpiente azul es la\l"
-	.string "preevolución de nuestro\l"
-	.string "PSEUDOLEGENDARIO, uno de los dragones\l"
-	.string "más sagrados que existen.$"
+	.string "SCIENTIST: Hah, it is pretty clear that\n"
+	.string "you are not from here. That blue\l"
+	.string "serpent is the pre-evolution of our\l"
+	.string "PSEUDO-LEGENDARY, one of the most\l"
+	.string "sacred dragons that exists.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_9:
-.string "ANDRA: ¿En serio? ¡No se parece en nada\n"
-	.string "a DRAGONITE!$"
+	.string "ANDRA: Really? It's completely\n"
+	.string "different from DRAGONITE!$"
 
 SafariZone_1F_Escena_3_Andra_Texto_10:
-.string "CIENTÍFICO: Por eso es tan cara, se\n"
-	.string "vende la opción de tenerlo después de\l"
-	.string "un arduo trabajo. Más que la opción, se\l"
-	.string "vende la esperanza de contar con uno:\l"
-	.string "en la práctica solo un ENTRENADOR ha\l"
-	.string "podido lograrlo en esta región.$"
+	.string "SCIENTIST: That is the reason why it is\n"
+	.string "so expensive, which the GAME CORNER\l"
+	.string "sells is the chance to have the\l"
+	.string "PSEUDO-LEGENDARY after a long and\l"
+	.string "hard trainment. More than the option, it\l"
+	.string "is sold the 'promise' to have one: to be\l"
+	.string "honest only one TRAINER has\l"
+	.string "accomplished it in this region.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_11:
-.string "ANDRA: ¿Por qué?$"
+.string "ANDRA: Why?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_12:
-.string "CIENTÍFICO: Salta a la vista que la\n"
-	.string "región carece de recursos para llevar\l"
-	.string "un entrenamiento óptimo, al menos para\l"
-	.string "la gran mayoría. En estas condiciones\l"
-	.string "es imposible desarrollar el potencial\l"
-	.string "de un dragón como DRATINI.$"
+	.string "SCIENTIST: You can easily see that the\n"
+	.string "region is resourceless to do an optimum\l"
+	.string "trainment, at least for the most of the\l"
+	.string "population. In these conditions it is\l"
+	.string "practically impossible to develop the\l"
+	.string "potential of a dragon as DRATINI is.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_13:
-.string "ANDRA: Oh, vaya… ¿Tan fuerte es una vez\n"
-	.string "desarrollado?$"
+	.string "ANDRA: Oh, well… Is it really that\n"
+	.string "strong once it is correctly developed?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14:
-.string "CIENTÍFICO: Más que varios\n"
-	.string "LEGENDARIOS, de hecho, supera en BASE\l"
-	.string "de ATAQUE a URSARING. Es más, lo supera\l"
-	.string "en todo, VELOCIDAD, SALUD, DEFENSA… es\l"
-	.string "un 6 a 0 en stats.$"
+	.string "SCIENTIST: Indeed, even more than the\n"
+	.string "most of the LEGENDARIES, it surpasses\l"
+	.string "URSARING in ATTACK BASE. Moreover, it\l"
+	.string "surpasses it in everything: SPEED,\l"
+	.string "HEALTH POINTS, DEFENSE… it's 6-0 in\l"
+	.string "the overall stats.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_15:
 .string "ANDRA: …$"
 
 SafariZone_1F_Escena_3_Andra_Texto_16:
-.string "CIENTÍFICO: No te ofendas, URSARING\n"
-	.string "es un POKÉMON excelente, pero\l"
-	.string "DRAGONITE es extraordinario, parte de\l"
-	.string "él ha sido tocado por los dioses.$"
+	.string "SCIENTIST: I don't want to offend you,\n"
+	.string "URSARING is an excellent POKÉMON, but\l"
+	.string "DRAGONITE is just a higher tier, part of\l"
+	.string "it has been touched by some divinity.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_17:
-.string "ANDRA: Por eso todos le temen a LANCE…\n"
-	.string "ya entiendo.$"
+	.string "ANDRA: So that is the reason why people\n"
+	.string "fear LANCE… I get it.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_18:
-.string "CIENTÍFICO: No solo por eso, también\n"
-	.string "por…$"
+	.string "SCIENTIST: That is not the unique\n"
+	.string "reason, also…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_19:
-.string "ANDRA: Me niego a creer que mi URSARING\n"
-	.string "ya será por decreto peor que un\l"
-	.string "DRAGONITE en todo, en mi cabeza este\l"
-	.string "URSARING es capaz de superar esa base\l"
-	.string "en ATAQUE...y tal vez más...$"
+	.string "ANDRA: I refuse to accept that my\n"
+	.string "URSARING will now be worse than a\l"
+	.string "DRAGONITE in everything by decree, in\l"
+	.string "my mind, this URSARING is capable of\l"
+	.string "exceeding that base in ATTACK… and\l"
+	.string "maybe more…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_20:
-.string "CIENTÍFICO: Los STATS BASE son\n"
-	.string "inamovibles, no se trata de\l"
-	.string "merecimientos o de entrenamiento, por\l"
-	.string "esas vías tu URSARING podrá derrotar\l"
-	.string "a un DRAGONITE… que no explote tanto\l"
-	.string "su potencial, pero a igualdad de todo,\l"
-	.string "no hay nada que hacer. Los stats\l"
-	.string "marcan el potencial intrínseco de cada\l"
-	.string "especie, es así. ¿Por qué crees que los\l"
-	.string "MAGIKARP son tan débiles? En mayor o\l"
-	.string "menor grado, todos tienen límites.$"
+	.string "SCIENTIST: The BASE STATS are\n"
+	.string "invariant, it is not about of your\l"
+	.string "achievements or about trainment,\l"
+	.string "through those means, your URSARING may\l"
+	.string "defeat a DRAGONITE… that doesn't fully\l"
+	.string "exploit its potential, but all else being\l"
+	.string "equal, there's nothing to be done. Stats\l"
+	.string "indicate the intrinsic potential of\l"
+	.string "each species, that's how it is. Why do\l"
+	.string "you think the MAGIKARP are so weak? To\l"
+	.string "a greater or lesser degree, all POKÉMON\l"
+	.string "have limits.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_21:
-.string "ANDRA: Aún así… siento en este\n"
-	.string "URSARING un poco de ese potencial al\l"
-	.string "que te refieres, aún por explotar.$"
+	.string "ANDRA: Even so… I feel this URSARING\n"
+	.string "has a bit of that potential that you\l"
+	.string "mean, to take advantage of it.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_22:
-.string "CIENTÍFICO: Si experimentamos con él,\n"
-	.string "eso es otra cosa, NIDOKING y\l"
-	.string "NIDOQUEEN aspiran a elevar en 100 su\l"
-	.string "total de STATS BASE gracias a ello.\l"
-	.string "Fuera de eso, es imposible.$"
+	.string "SCIENTIST: If we do some experiments\n"
+	.string "on it, that is another topic, NIDOKING\l"
+	.string "and NIDOQUEEN aspire to raise in 100\l"
+	.string "their BASE STATS total due to\l"
+	.string "experiments. Out of that, it is\l"
+	.string "impossible.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_23:
-.string "ANDRA: Quién sabe…$"
+.string "ANDRA: Who knows…$"
 
 SafariZone_1F_Escena_3_Andra_Move_1:
 walk_in_place_right
