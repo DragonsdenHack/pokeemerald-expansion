@@ -15,12 +15,11 @@ release
 end
 
 CinnabarMansionS1_Text_1:
-.string "Este lugar quedó reducido a añicos\n"
-.string "después de que MEWTWO escapara,\l"
-.string "muchas cosas se perdieron aquí,\l"
-.string "pero la grandeza de lo aquí\l"
-.string "acontecido sigue viva en nuestras\l"
-.string "mentes.$"
+	.string "This location was destroyed after\n"
+	.string "MEWTWO escaped, many things were lost\l"
+	.string "here, but the significance of what\l"
+	.string "happened here still resonates in our\l"
+	.string "memories.$"
 
 
 
@@ -32,16 +31,12 @@ release
 end
 
 CinnabarMansionS1_Text_3:
-.string "Nada soporta el paso del tiempo,\n"
-.string "dentro de 3 años este lugar\l"
-.string "probablemente no exista, aún más,\l"
-.string "toda ISLA CANELA podría\l"
-.string "desaparecer engullida por su\l"
-.string "volcán, pero nada de eso podrá\l"
-.string "deshacer lo que aquí ocurrió, ya\l"
-.string "nos hemos ganado nuestro hueco en\l"
-.string "la infinidad del tiempo y el\l"
-.string "universo.$"
+	.string "Nothing withstands the passage of\n"
+	.string "time; in three years, this place may not\l"
+	.string "exist anymore. Furthermore, the entire\l"
+	.string "CINNABAR ISLAND could vanish,\l"
+	.string "swallowed by its volcano. However, none\l"
+	.string "of that can undo what happened here.$"
 
 
 
@@ -53,13 +48,10 @@ release
 end
 
 CinnabarMansionS1_Text_4:
-.string "Si no acaban contigo, puedes\n"
-.string "recuperarte de los más duros\l"
-.string "golpes, y volver incluso más\l"
-.string "fuerte que antes, la forma en que\l"
-.string "hemos mantenido este lugar activo\l"
-.string "y hemos por fin acabado nuestro\l"
-.string "gran proyecto a pesar de todo lo\l"
-.string "que ocurrió es prueba de ello,\l"
-.string "nadie, siquiera tú, nos arrebatará\l"
-.string "este hecho.$"
+	.string "If they can't take you down, you can\n"
+	.string "bounce back from the toughest hits and\l"
+	.string "come back even stronger than before.\l"
+	.string "The way we've kept this place going and\l"
+	.string "finally finished our big project despite\l"
+	.string "all the craziness is proof; no one, not\l"
+	.string "even you, can revert this fact.$"

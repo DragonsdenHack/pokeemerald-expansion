@@ -45,10 +45,9 @@ face_left
 step_end
 
 PokemonMansion1F_6_Texto_1:
-.string "Métete en tus asuntos, no estamos\n"
-	.string "cometiendo alguna irregularidad de\l"
-	.string "ningún tipo ni nada por el estilo,\l"
-	.string "así que desaparece.$"
+	.string "Mind your own business, we're not doing\n"
+	.string "anything irregular or anything like\l"
+	.string "that, so disappear.$"
 
 
 

@@ -110,12 +110,10 @@ release
 end
 
 PowerPlant17_Texto_1:
-.string "LORELEI: Entonces tú eres la mano\n"
-	.string "derecha de GIOVANNI, tengo órdenes\l"
-	.string "de LANCE de usar el 100% de mi\l"
-	.string "capacidad en derrotarte, nadie\l"
-	.string "saldrá de aquí sin mi\l"
-	.string "consentimiento...$"
+	.string "LORELEI: So you are GIOVANNI's right\n"
+	.string "hand, I've been ordered by LANCE to use\l"
+	.string "my full capacity to defeat you, no one\l"
+	.string "will leave this place while I am here…$"
 
 
 
@@ -126,11 +124,11 @@ release
 end
 
 PowerPlant18_Texto_1:
-.string "ATLAS: No soy uno de esos\n"
-	.string "mediocres ENTRENADORES que abundan\l"
-	.string "por aquí LORELEI, tampoco un LÍDER\l"
-	.string "DE GIMNASIO, vas a tener que\l"
-	.string "hacerlo mejor si quieres batirme...$"
+	.string "ARCHER: I am not one of those mediocre\n"
+	.string "TRAINERS that are pretty common\l"
+	.string "around here, LORELEI, neither a GYM\l"
+	.string "LEADER, you will have to do it better if\l"
+	.string "you want to defeat me…$"
 
 
 
@@ -199,33 +197,27 @@ release
 end
 
 PowerPlant_Encuentro_Petrel_Texto_1:
-.string "PETREL: ¡{PLAYER}!\n"
-	.string "¿Dónde estabas?\l"
-	.string "ATLAS y yo hemos tenido que entrar\l"
-	.string "sin ti...vimos como LORELEI del\l"
-	.string "ALTO MANDO llegaba a la CENTRAL\l"
-	.string "para detener a ANDRA y tuvimos que\l"
-	.string "intervenir...ATLAS ahora mismo está\l"
-	.string "combatiendo con ella, me ha pedido\l"
-	.string "que te encontrara y te contara el\l"
-	.string "plan...$"
+	.string "PETREL: {PLAYER}! Where were you?\n"
+	.string "ARCHER and I had to go in without you...\l"
+	.string "we saw as LORELEI of the ELITE FOUR\l"
+	.string "arrived at the CENTRAL to stop ANDRA\l"
+	.string "and we had to intervene... ARCHER is\l"
+	.string "currently battling her, he asked me to\l"
+	.string "find you and tell you the plan…$"
 
 PowerPlant_Encuentro_Petrel_Texto_2:
-.string "PETREL: ATLAS ahora mismo está\n"
-	.string "lidiando con LORELEI, y yo voy a\l"
-	.string "quitarle de encima esos\l"
-	.string "policías a ANDRA, tú mientras\l"
-	.string "tanto irás a por ZAPDOS para\l"
-	.string "cumplir así con la misión, en\l"
-	.string "cuanto obtengas lo que\l"
-	.string "necesitamos y nosotros acabemos\l"
-	.string "con nuestros rivales, nos largamos\l"
-	.string "de aquí antes de que la situación\l"
-	.string "empeore, ¿entendido?$"
+	.string "PETREL: Right now, ARCHER is dealing\n"
+	.string "with LORELEI, and I'm going to take\l"
+	.string "those cops off ANDRA's back. Meanwhile,\l"
+	.string "you'll go after ZAPDOS to fulfill the\l"
+	.string "mission. Once you get what we need and\l"
+	.string "we're done with our rivals, we'll get out\l"
+	.string "of here before the situation worsens,\l"
+	.string "understood?$"
 
 PowerPlant_Encuentro_Petrel_Texto_3:
-.string "PETREL: Perfecto, no tenemos\n"
-	.string "tiempo que perder.$"
+	.string "PETREL: Perfect, we don't have time to\n"
+	.string "waste.$"
 
 PowerPlant_Encuentro_Petrel_Move_1:
 walk_in_place_right
@@ -342,120 +334,107 @@ PowerPlant_Combate_Zapdos_Surge_Texto_2:
 .string "Zap...$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_3:
-.string "¡Obtuviste una pluma del\n"
-	.string "LEGENDARIO ZAPDOS!$"
+	.string "You obtained a feather from the\n"
+	.string "legendary ZAPDOS!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_4:
-.string "????: ¡¡TÚ!!$"
+.string "????: YOU!?!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_5:
-.string "LT.SURGE: ¡Cómo te atreves a dañar\n"
-	.string "algo tan puro y sagrado como una\l"
-	.string "de nuestras 3 AVES LEGENDARIAS,\l"
-	.string "patrimonio de la región de KANTO!\l"
-	.string "¡Yo mismo me he encargado de\l"
-	.string "cuidar y darle un hogar dentro de\l"
-	.string "esta CENTRAL sin uso a ese ZAPDOS!\l"
-	.string "¡Para que ahora venga un mocoso\l"
-	.string "sin escrúpulos a deshacer mi\l"
-	.string "trabajo!\l"
-	.string "¡A ti y tus amigos os caerá la\l"
-	.string "pena máxima después de este\l"
-	.string "atentado contra el patrimonio\l"
-	.string "cultural de nuestra región!$"
+	.string "LT. SURGE: How dare you harm something\n"
+	.string "as pure and sacred as one of our 3\l"
+	.string "LEGENDARY BIRDS, heritage of the KANTO\l"
+	.string "region! I myself have taken care of and\l"
+	.string "given a home within this unused CENTRAL\l"
+	.string "to that ZAPDOS! So now, a scrupulous\l"
+	.string "brat comes to undo my work! You and\l"
+	.string "your friends will face the maximum\l"
+	.string "penalty for this attack on the cultural\l"
+	.string "heritage of our region!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_6:
-.string "LT.SURGE: Tuve que haberte\n"
-	.string "detenido directamente ese día que\l"
-	.string "pasaste por CARMÍN, ya ahí\l"
-	.string "apuntabas maneras de delincuente,\l"
-	.string "pero no te preocupes, tus POKÉMON\l"
-	.string "no podrán responder a mis fieles\l"
-	.string "eléctricos después de tu paliza\l"
-	.string "con ZAPDOS, ¿sabes por qué LANCE\l"
-	.string "me ha enviado a mi y no a otro\l"
-	.string "LÍDER?\l"
-	.string "¡Porque yo sé lo que es ganar una\l"
-	.string "guerra!$"
+	.string "LT. SURGE: I should have stopped you\n"
+	.string "directly that day you passed through\l"
+	.string "VERMILION CITY, you already showed\l"
+	.string "signs of being a delinquent then, but\l"
+	.string "don't worry, your POKEMON won't be able\l"
+	.string "to stand against my loyal electrics\l"
+	.string "after your beating with ZAPDOS. You\l"
+	.string "know why LANCE sent me and not another\l"
+	.string "LEADER? Because I know what it means\l"
+	.string "to win a war!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_7:
-.string "¡Tú no eres un ROCKET corriente!$"
+	.string "You're not just an ordinary ROCKET!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_8:
-.string "LT.SURGE: Chico insolente, verás\n"
-	.string "cuando LANCE se entere de esto, ni\l"
-	.string "tú ni tu organización tenéis la\l"
-	.string "más mínima idea de las armas que\l"
-	.string "posee, como sigáis con estas\l"
-	.string "escaramuzas va a poneros a todos\l"
-	.string "de rodillas.$"
+	.string "LT. SURGE: Insolent brat, wait until\n"
+	.string "LANCE finds out about this. Neither you\l"
+	.string "nor your organization have the\l"
+	.string "slightest idea of the weapons he\l"
+	.string "possesses. If you continue with these\l"
+	.string "skirmishes, he will bring you all to your\l"
+	.string "knees.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_9:
-.string "????: Ya he oído bastante SURGE,\n"
-	.string "largo de aquí antes de que cambie\l"
-	.string "de opinión.$"
+	.string "????: I've heard enough, SURGE. Get out\n"
+	.string "of here before I change my mind.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_10:
-.string "ATLAS: Debería de darte vergüenza\n"
-	.string "no ser capaz con uno de los\l"
-	.string "nuestros siquiera después de\l"
-	.string "tener un encuentro legendario, los\l"
-	.string "LÍDERES DE GIMNASIO estáis de capa\l"
-	.string "caída, el acomodaros bajo el\l"
-	.string "gobierno de LANCE parece que no ha\l"
-	.string "sentado muy bien a vuestros\l"
-	.string "POKÉMON.$"
+	.string "ARCHER: You should be ashamed of\n"
+	.string "yourself for not being able to handle\l"
+	.string "one of our own, even after having a\l"
+	.string "legendary encounter. The GYM LEADERS\l"
+	.string "seem to be on the decline, cozying up\l"
+	.string "under LANCE's government doesn't seem\l"
+	.string "to have sat well with your POKEMON.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_11:
-.string "LT.SURGE: Tú debes de ser ATLAS,\n"
-	.string "si, LANCE ya me advirtió de que\l"
-	.string "pudieras aparecer por aquí,\l"
-	.string "debería darte vergüenza no apoyar\l"
-	.string "a alguien de tu misma región.$"
+	.string "LT. SURGE: You must be ARCHER. Yes,\n"
+	.string "LANCE warned me that you might show up\l"
+	.string "here. You should be ashamed of not\l"
+	.string "supporting someone from your own\l"
+	.string "region.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_12:
-.string "LT.SURGE: Disfrutad de vuestras\n"
-	.string "últimas bocanadas de libertad\l"
-	.string "antes de que os apresen a todos,\l"
-	.string "no podréis escapar eternamente.$"
+	.string "LT. SURGE: Enjoy your last breaths of\n"
+	.string "freedom before they catch all of you.\l"
+	.string "You can't escape forever.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_13:
-.string "ATLAS: Así que ZAPDOS y un LÍDER DE\n"
-	.string "GIMNASIO al hilo, ¿eh {PLAYER}?\l"
-	.string "Parece que después de todo\l"
-	.string "estuviste atento y asimilaste mi\l"
-	.string "discurso de bienvenida, puedo\l"
-	.string "decir que has superado cualquier\l"
-	.string "expectativa que tenía sobre tu\l"
-	.string "nivel, has demostrado una gran\l"
-	.string "lealtad al TEAM ROCKET hoy aquí.$"
+	.string "ATLAS: So, ZAPDOS and a GYM LEADER in a\n"
+	.string "row, huh {PLAYER}? It seems that\l"
+	.string "after all, you were attentive and\l"
+	.string "absorbed my welcome speech. I can say\l"
+	.string "you've exceeded any expectation I had\l"
+	.string "about your level. You've shown great\l"
+	.string "loyalty to TEAM ROCKET here today.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_14:
-.string "ATLAS: ANDRA ha vuelto a la base\n"
-	.string "ROCKET de AZULONA, y PETREL a la\l"
-	.string "de RUTA 5, después de todo lo que\l"
-	.string "ha ocurrido aquí, GIOVANNI querrá\l"
-	.string "hacer balance de todo ello\l"
-	.string "inmediatamente, deberías\l"
-	.string "presentarte en su despacho cuanto\l"
-	.string "antes, después de derrotar a dos\l"
-	.string "legendarios y cumplir no solo tu\l"
-	.string "misión, sino esta también, no\l"
-	.string "quiero imaginarme cómo te recibirá\l"
-	.string "nuestro líder...$"
+	.string "ARCHER: ANDRA has returned to the\n"
+	.string "ROCKET base in CELADON CITY, and\l"
+	.string "PETREL to the one in ROUTE 5. After\l"
+	.string "everything that has happened here,\l"
+	.string "GIOVANNI will want to assess it all\l"
+	.string "immediately. You should present\l"
+	.string "yourself in his office as soon as\l"
+	.string "possible. After defeating two\l"
+	.string "legendaries and fulfilling not only your\l"
+	.string "mission but also this one, I can't\l"
+	.string "imagine how our leader will receive you...$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_15:
-.string "ATLAS: Vámonos ya {PLAYER}, este\n"
-	.string "lugar no tardará en llenarse de\l"
-	.string "policías otra vez.$"
+	.string "ARCHER: Let's go now, {PLAYER}. This\n"
+	.string "place won't take long to fill up with\l"
+	.string "cops again.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_16:
-.string "ATLAS: Ha sido un placer combatir\n"
-	.string "hoy a tu lado.$"
+	.string "ARCHER: It's been a pleasure fighting\n"
+	.string "alongside you today.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_17:
-.string "(Parece que no le quedan fuerzas\n"
-	.string "para combatir).$"
+	.string "(It seems he doesn't have any strength\n"
+	.string "left to fight).$"
 
 PowerPlant_Combate_Zapdos_Surge_Move_1:
 emote_exclamation_mark
