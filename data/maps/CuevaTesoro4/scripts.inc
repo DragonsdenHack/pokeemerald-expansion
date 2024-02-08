@@ -293,8 +293,6 @@ CuevaTesoro4_Nihilego_Obtencion_Texto_3:
 
 CuevaTesoro4_Combate_Guzzlord::
 	lock
-	faceplayer
-	waitse
 	playmoncry SPECIES_GUZZLORD, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
