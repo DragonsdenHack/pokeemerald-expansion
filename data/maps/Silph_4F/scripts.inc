@@ -47,12 +47,12 @@ release
 end
 
 Silph4F_6_Texto_1:
-.string "¡Oh, no! ¡Me encontraste!\n"
-	.string "¡No me hagas daño!$"
+.string "Oh, no! You find me!\n"
+	.string "Don't hurt me!$"
 
 Silph4F_6_Texto_2:
-.string "¿Huh?\n"
-	.string "¡Aún seguis aquí!$"
+.string "Huh?\n"
+	.string "You're still here!$"
 
 
 

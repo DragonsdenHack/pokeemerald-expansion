@@ -26,8 +26,8 @@ release
 end
 
 Text_3:
-.string "Nuestra seguridad se encargará de\n"
-.string "todos vosotros sabandijas…$"
+	.string "Our security will take care of all of\n"
+	.string "you, scoundrels!$"
 
 
 
@@ -51,13 +51,12 @@ release
 end
 
 Silph5F_5_Texto_1:
-.string "SILPH iba tras dos ROCKET que no\n"
-	.string "paran de causar problemas.\l"
-	.string "¿Eres uno de ellos?$"
+	.string "SILPH was behind two ROCKETS that were\n"
+	.string "causing trouble. Are you one of them?$"
 
 Silph5F_5_Texto_2:
-.string "¡Deberías de aprender de ese ROJO!\n"
-	.string "¡Os ha dado una buena lección!$"
+.string "You should learn from RED!\n"
+	.string "He gave you a lesson!$"
 
 
 

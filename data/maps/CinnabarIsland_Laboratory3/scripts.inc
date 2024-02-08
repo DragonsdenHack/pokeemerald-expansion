@@ -9,11 +9,11 @@ release
 end
 
 CinnabarIsland_Laboratory3_Text_1:
-.string "Aunque tuvieras al mismísimo\n"
-.string "ARTICUNO y solo quisieras un\l"
-.string "KOFFING a cambio, los POKÉMON que\l"
-.string "tenéis están manchados por la\l"
-.string "vileza de vuestras acciones.$"
+	.string "Even if you had the ARTICUNO itself and\n"
+	.string "you just would want me to trade you a\l"
+	.string "KOFFING, the POKÉMON that your\l"
+	.string "organization has are dirt by the evil of\l"
+	.string "your actions.$"
 
 
 
@@ -40,18 +40,16 @@ CinnabarIslandLaboratory3_2_Texto_4:
 .string "Oh...$"
 
 CinnabarIslandLaboratory3_2_Texto_3:
-.string "¿Tienes a OMANYTE, KABUTO y\n"
-	.string "AERODACTYL? ¿Y no necesitas nuestra\l"
-	.string "estúpida máquina para obtener\l"
-	.string "directamente al POKÉMON sin tener que\l"
-	.string "pasar por nuestro tedioso proceso de\l"
-	.string "resurrección?$"
+	.string "So you have an OMANYTE, a KABUTO and an\n"
+	.string "AERODACTYL? And you don't need an\l"
+	.string "stupid machine to directly obtain the\l"
+	.string "POKÉMON without needing to go through\l"
+	.string "that resurrection process?$"
 
 CinnabarIslandLaboratory3_2_Texto_2:
 .string "... ...$"
 
 CinnabarIslandLaboratory3_2_Texto_1:
-.string "Jamás pondremos nuestra tecnología de\n"
-	.string "resurrección de FÓSILES al servicio del\l"
-	.string "TEAM ROCKET. Tendrás que conformarte\l"
-	.string "con verlos extintos.$"
+	.string "Our FOSSILS revival technology won't be\n"
+	.string "used by TEAM ROCKET. You'll have to\l"
+	.string "accept seeing them extinct.$"

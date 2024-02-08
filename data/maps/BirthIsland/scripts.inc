@@ -110,20 +110,19 @@ release
 end
 
 BirthIsland_Blaine_Texto_1:
-.string "ANDRA: ¡Has venido {PLAYER}!$"
+	.string "ANDRA: You came, {PLAYER}!$"
 
 BirthIsland_Blaine_Texto_2:
-.string "He estado en las ruinas que hay al\n"
-	.string "lado de esta isla, pero no he\l"
-	.string "podido encontrar nada interesante,\l"
-	.string "sin embargo esto...$"
+	.string "I've visited the ruins beside this\n"
+	.string "island, but I haven't found anything\l"
+	.string "noteworthy. However, this...$"
 
 BirthIsland_Blaine_Texto_3:
-.string "Cuando llegué no había nada, pero\n"
-	.string "al situarme en el centro la piedra\l"
-	.string "contenida en el frasco que robamos\l"
-	.string "comenzó a brillar, y apareció este\l"
-	.string "extraño triángulo.$"
+	.string "When I arrived, there was nothing, but\n"
+	.string "as soon as I positioned myself in the\l"
+	.string "center, the stone inside the jar we\l"
+	.string "stole began to glow, and then this odd\l"
+	.string "triangle appeared.$"
 
 BirthIsland_Blaine_Texto_4:
 .string "Nada más llegar, la piedra rompió\n"

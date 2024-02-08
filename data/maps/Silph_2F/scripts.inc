@@ -26,21 +26,17 @@ release
 end
 
 Chica_Iman_Texto_1:
-.string "¡Oh, no!\n"
-	.string "¡Espera!\l"
-	.string "¡No me está permitido enseñarle\l"
-	.string "ONDA TRUENO a tus POKÉMON!\l"
-	.string "¡Pero puedo darte algo mejor!\l"
-	.string "¡Mira!$"
+	.string "Oh, no! Wait! I am not allowed to teach\n"
+	.string "THUNDER WAVE to your POKÉMON! But I\l"
+	.string "can give you something better! Look!$"
 
 Chica_Iman_Texto_2:
-.string "Con ese IMÁN equipado en un\n"
-	.string "POKÉMON, sus ataques eléctricos se\l"
-	.string "verán potenciados en un 20%.\l"
-	.string "¿No te parece mejor que ese\l"
-	.string "aburrido movimiento de ONDA TRUENO\l"
-	.string "que únicamente duerme los\l"
-	.string "combates?$"
+	.string "With the MAGNET being held by a\n"
+	.string "POKÉMON, its electric-type attacks will\l"
+	.string "be boosted by 20%. Doesn't that seem\l"
+	.string "better than that boring move THUNDER\l"
+	.string "WAVE that only paralyses your\l"
+	.string "opponents in battles?$"
 
 
 

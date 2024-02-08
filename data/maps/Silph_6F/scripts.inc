@@ -36,13 +36,12 @@ release
 end
 
 Silph6F_4_Texto_1:
-.string "Si lo que queréis es la MÁSTER\n"
-	.string "BALL, nuestro PRESIDENTE nunca\l"
-	.string "cederá.$"
+	.string "If the MASTER BALL is what your\n"
+	.string "organization wants, our PRESIDENT will\l"
+	.string "never give you it!$"
 
 Silph6F_4_Texto_2:
-.string "¡Ese niño os dio a todos vuestro\n"
-	.string "merecido!$"
+	.string "That kid gave you what you deserve!$"
 
 
 
@@ -66,13 +65,11 @@ release
 end
 
 Silph6F_6_Texto_1:
-.string "¡No asustes a este empleado!\n"
-	.string "¿No ves que es un cobarde?$"
+	.string "Don't you see that he is a coward?$"
 
 Silph6F_6_Texto_2:
-.string "Estaba tan indefenso...\n"
-	.string "Al final me casé con él para\l"
-	.string "cuidarlo.$"
+	.string "He was so defenseless… To be honest I\n"
+	.string "married just to take care of him.$"
 
 
 
@@ -91,11 +88,10 @@ release
 end
 
 Silph6F_7_Texto_1:
-.string "¡Jamás conquistaréis esta\n"
-	.string "compañía!$"
+	.string "You will never conquer this company!$"
 
 Silph6F_7_Texto_2:
-.string "¡Habéis fracasado, sois historia!$"
+	.string "You have failed, you are doomed!$"
 
 
 

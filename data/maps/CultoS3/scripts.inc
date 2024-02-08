@@ -356,11 +356,11 @@ release
 end
 
 CultoS3_Text_24:
-.string "Es tu luz y no tu oscuridad tu\n"
-.string "mayor miedo, miedo de saber cuanto\l"
-.string "puedes llegar a brillar y de\l"
-.string "descubrir la infinita\l"
-.string "potencialidad de tu ser.$"
+	.string "Your greatest fear lies in your light,\n"
+	.string "not your darkness. It's the fear of\l"
+	.string "realizing the extent of your brilliance\l"
+	.string "and uncovering the endless potential\l"
+	.string "within yourself.$"
 
 
 
@@ -372,10 +372,9 @@ release
 end
 
 CultoS3_Text_25:
-.string "La autoexplotación resulta más\n"
-.string "eficaz que la explotación a cargo\l"
-.string "de otros, pues va acompañada de\l"
-.string "sensación de libertad.$"
+	.string "Self-exploitation is more effective\n"
+	.string "than being exploited by others because\l"
+	.string "it comes with a feeling of freedom.$"
 
 
 
@@ -387,19 +386,17 @@ release
 end
 
 CultoS3_Text_26:
-.string "Prueben a colocar al hombre en la\n"
-.string "más próspera, idílica y fantástica\l"
-.string "de las utopías, refugienle en\l"
-.string "inmensas burbujas de placer\l"
-.string "edonico, evitando todo contacto\l"
-.string "con la crudeza del cosmos,\l"
-.string "concédale aquello con lo que\l"
-.string "siempre soñó, sin tener que pasar\l"
-.string "por frustaciones, decepciones o\l"
-.string "dificultades, les aseguro que,\l"
-.string "tarde o temprano, esta enigmática\l"
-.string "criatura encontrará algún modo de\l"
-.string "sentirse miserable.$"
+	.string "Try putting man in the most prosperous,\n"
+	.string "idyllic, and fantastic utopia,\l"
+	.string "sheltering him in immense bubbles of\l"
+	.string "hedonistic pleasure, avoiding all\l"
+	.string "contact with the harshness of the\l"
+	.string "cosmos, granting him everything he's\l"
+	.string "ever dreamed of without facing\l"
+	.string "frustrations, disappointments, or\l"
+	.string "difficulties. I guarantee you, sooner or\l"
+	.string "later, this enigmatic creature will find\l"
+	.string "some way to feel miserable.$"
 
 
 
@@ -411,8 +408,8 @@ release
 end
 
 CultoS3_Text_27:
-.string "La rana en su estanque no concibe\n"
-.string "el océano.$"
+	.string "The frog in its pond can't conceive the\n"
+	.string "ocean.$"
 
 
 
@@ -424,13 +421,12 @@ release
 end
 
 CultoS3_Text_28:
-.string "Es imposible bañarse dos veces en\n"
-.string "el mismo río, tanto por ti como\l"
-.string "por el río, ambos estáis en\l"
-.string "constante y permanente cambio,\l"
-.string "nunca serás como eres hoy, jamás\l"
-.string "volveremos a estar aquí de la\l"
-.string "misma forma.$"
+	.string "It is impossible to bathe twice in the\n"
+	.string "same river, both for you and the river,\l"
+	.string "as both are in constant and permanent\l"
+	.string "change; you will never be as you are\l"
+	.string "today, and we will never again be here in\l"
+	.string "the same way.$"
 
 
 
@@ -442,16 +438,14 @@ release
 end
 
 CultoS3_Text_30:
-.string "Toda causa tiene su efecto, todo\n"
-.string "efecto tiene su causa, todo sucede\l"
-.string "de acuerdo a la ley, la suerte o\l"
-.string "el azar no es más que el nombre\l"
-.string "que se le da a la ley no\l"
-.string "reconocida, hay muchos planos de\l"
-.string "casualidad, pero nada escapa a la\l"
-.string "ley, esto, sin embargo, no tiene\l"
-.string "porqué anular nuestra libertad y\l"
-.string "libre albedrío.$"
+	.string "Every cause has its effect, every\n"
+	.string "effect has its cause; everything\l"
+	.string "happens according to law. Chance or\l"
+	.string "randomness is nothing but the name\l"
+	.string "given to unrecognized law. There are\l"
+	.string "many levels of causality, but nothing\l"
+	.string "escapes the law. However, this does not\l"
+	.string "negate our freedom and free will.$"
 
 
 
@@ -463,13 +457,12 @@ release
 end
 
 CultoS3_Text_31:
-.string "Los semejantes y los antagónicos\n"
-.string "son lo mismo, los opuestos son\l"
-.string "idénticos en naturaleza, pero\l"
-.string "diferentes en grado, los extremos\l"
-.string "se tocan, todas las verdades son\l"
-.string "medias verdades, todas las\l"
-.string "paradojas pueden reconciliarse.$"
+	.string "Similarities and opposites share the\n"
+	.string "same essence; opposites have identical\l"
+	.string "characteristics but vary in intensity;\l"
+	.string "extremes converge; all truths contain\l"
+	.string "partial truths; all paradoxes have\l"
+	.string "potential resolutions.$"
 
 
 CultoS3_34::
@@ -480,9 +473,8 @@ release
 end
 
 CultoS3_Text_34:
-.string "Tanto si crees que eres capaz como\n"
-.string "si no, en ambos casos tienes\l"
-.string "razón.$"
+	.string "Whether you believe you are capable or\n"
+	.string "not, in both cases, you are correct.$"
 
 
 
@@ -494,9 +486,9 @@ release
 end
 
 CultoS3_Text_35:
-.string "Ante la inmensidad del universo,\n"
-.string "¿en qué se diferencian el niño de\l"
-.string "3 días y el anciano de 95?$"
+	.string "Considering the vastness of the\n"
+	.string "universe, how do a 3-day-old baby and a\l"
+	.string "95-year-old elder differ?$"
 
 
 
@@ -508,14 +500,13 @@ release
 end
 
 CultoS3_Text_36:
-.string "Aquellos que de puro sentirse\n"
-.string "libres, exentos de trabas,\l"
-.string "acabarán por sentirse vacías,\l"
-.string "porque vivir es tener que hacer\l"
-.string "algo determinado, cumplir un\l"
-.string "encargo, en la medida en que\l"
-.string "eludamos poner a algo nuestra\l"
-.string "existencia evacuamos nuestra vida.$"
+	.string "Those who only want to feel free,\n"
+	.string "without any obstacles, will end up\l"
+	.string "feeling empty because living means\l"
+	.string "having to do something specific,\l"
+	.string "fulfilling a task; if we avoid putting\l"
+	.string "our existence into something, we waste\l"
+	.string "our lives.$"
 
 
 
@@ -527,10 +518,9 @@ release
 end
 
 CultoS3_Text_37:
-.string "A veces la gente no quiere\n"
-.string "escuchar la verdad porque no\l"
-.string "quiere que sus ilusiones se vean\l"
-.string "destruidas.$"
+	.string "Occasionally, individuals avoid hearing\n"
+	.string "the truth because they fear it will\l"
+	.string "destroy their cherished illusions.$"
 
 
 
@@ -542,12 +532,10 @@ release
 end
 
 CultoS3_Text_38:
-.string "Serenidad para aceptar las cosas\n"
-.string "que no están en nuestra mano.\l"
-.string "Valor para cambiar las que sí lo\l"
-.string "están.\l"
-.string "Sabiduría para poder\l"
-.string "diferenciarlas.$"
+	.string "Be serene to accept what's out of our\n"
+	.string "control. Be brave to change what we\l"
+	.string "can. Have wisdom to notice the\l"
+	.string "difference.$"
 
 
 
@@ -559,13 +547,10 @@ release
 end
 
 CultoS3_Text_41:
-.string "Los humanos podemos llegar a\n"
-.string "evitar nuestra responsabilidad de\l"
-.string "forma inconsciente, mirar hacia\l"
-.string "otro lado precisamente para no\l"
-.string "reconocer el peligro, pretender\l"
-.string "que no existe con tal de\l"
-.string "permanecer cuerdos.$"
+	.string "Humans can unconsciously shirk\n"
+	.string "responsibility, turning a blind eye to\l"
+	.string "avoid acknowledging danger, pretending\l"
+	.string "it's not there just to stay sane.$"
 
 
 
@@ -577,10 +562,11 @@ release
 end
 
 CultoS3_Text_42:
-.string "A veces se llega a un punto en que\n"
-.string "solo podrás resolver lo que has\l"
-.string "sido hasta ahora llegando al final\l"
-.string "del camino equivocado.$"
+	.string "There are moments when you find\n"
+	.string "yourself in a situation where the only\l"
+	.string "way to rectify your current state is to\l"
+	.string "continue down the wrong path until you\l"
+	.string "reach its conclusion.$"
 
 Culto_S3_Batalla::
 lockall
@@ -746,209 +732,181 @@ release
 end
 
 Culto_S3_Batalla_Texto_1:
-.string "????: Acepta, oh creador de todo,\n"
-	.string "nuestro humilde sacrificio en\l"
-	.string "señal de respeto y agradecimiento.$"
+	.string "Accept, creator of all, our humble\n"
+	.string "sacrifice as a sign of respect and\l"
+	.string "gratitude.$"
 
 Culto_S3_Batalla_Texto_2:
-.string "No hay arrepentimiento, ni miedo,\n"
-	.string "solo la tranquilidad de saber con\l"
-	.string "certeza que tu alma volverá a\l"
-	.string "formar parte del todo.$"
+	.string "There's no need for regret or fear;\n"
+	.string "instead, there's a serene feeling of\l"
+	.string "certainty: your soul will reunite with\l"
+	.string "the whole.$"
 
 Culto_S3_Batalla_Texto_3:
-.string "Mientras esperamos tu regreso, nos\n"
-	.string "mantendremos ocultos y fieles a tu\l"
-	.string "voluntad, creador de KANTO.\l"
-	.string "¡Que dé comienzo!$"
+	.string "While we await your return, we will\n"
+	.string "remain concealed and faithful to your\l"
+	.string "will, creator of KANTO. Let it commence!$"
 
 Culto_S3_Batalla_Texto_4:
-.string "¡VTAAAAAALL!$"
+.string "VTAAAAAALL!$"
 
 Culto_S3_Batalla_Texto_5:
-.string "Mantendremos tu esencia viva en\n"
-	.string "nuestras mentes, señor de KANTO.$"
+	.string "We will keep your essence alive in our\n"
+	.string "minds, lord of KANTO.$"
 
 Culto_S3_Batalla_Texto_6:
-.string "????: Tú no formas parte de este\n"
-	.string "culto, solo contadas personas han\l"
-	.string "descubierto este lugar, y ninguna\l"
-	.string "de ellas ha vuelto jamás al\l"
-	.string "exterior, ¿sabes lo que eso\l"
-	.string "significa?$"
+	.string "You are not part of this cult. Only a few\n"
+	.string "individuals have discovered this place,\l"
+	.string "and none of them has ever returned to\l"
+	.string "the outside. Do you know what that\l"
+	.string "means?$"
 
 Culto_S3_Batalla_Texto_7:
-.string "No podemos dejar que te vayas, el\n"
-	.string "mundo no puede saber que este\l"
-	.string "lugar existe, de modo que...$"
+	.string "We can't let you go. The world can't know\n"
+	.string "this place exists, so...$"
 
 Culto_S3_Batalla_Texto_8:
-.string "De modo que...\n"
-	.string "¿Eres el actual CAMPEÓN de la\l"
-	.string "región de KANTO?\l"
-	.string "¿Y vas en busca del POKÉMON\l"
-	.string "ESENCIA?$"
+	.string "So... Are you the current KANTO\n"
+	.string "CHAMPION? And are you looking for the\l"
+	.string "ESSENCE POKÉMON?$"
 
 Culto_S3_Batalla_Texto_9:
-.string "Estoy al tanto de lo que ocurre en\n"
-	.string "el exterior, -CAMPEÓN-, desde aquí\l"
-	.string "lo vemos todo, sabemos de la\l"
-	.string "situación por la que ha pasado\l"
-	.string "KANTO, y de la caída de LANCE, lo\l"
-	.string "que vosotros no podéis ver es\l"
-	.string "vuestra limitada forma de pensar.$"
+	.string "I am aware of what happens on the\n"
+	.string "outside, CHAMPION. From here, we see\l"
+	.string "everything. We are cognizant of the\l"
+	.string "situation through which KANTO has\l"
+	.string "passed and of LANCE's downfall. What\l"
+	.string "you cannot see is your limited mindset.$"
 
 Culto_S3_Batalla_Texto_10:
-.string "Toda pregunta que hagas respecto\n"
-	.string "al POKÉMON ESENCIA carece de\l"
-	.string "sentido según tus patrones, ¿crees\l"
-	.string "que es un POKÉMON que pueda\l"
-	.string "encontrarse?\l"
-	.string "¿Que pueda capturarse y exponerlo\l"
-	.string "como otro de tus 6 POKÉMON?\l"
-	.string "¿De verdad tú y tu organización\l"
-	.string "creéis que podéis medir su poder\l"
-	.string "en base al del resto de POKÉMON?$"
+	.string "Any question you ask about the ESSENCE\n"
+	.string "POKÉMON doesn't make sense in your\l"
+	.string "framework. Do you think it's a POKÉMON\l"
+	.string "that can be found? That can be caught\l"
+	.string "and added in a full 6 POKÉMON team? Do\l"
+	.string "you and your group really think you can\l"
+	.string "measure its power in base of the other\l"
+	.string "POKÉMON?$"
 
 Culto_S3_Batalla_Texto_11:
-.string "Podrás haber derrotado a LANCE,\n"
-	.string "pero sigues siendo un principiante\l"
-	.string "en cuanto a conocimiento de las\l"
-	.string "leyes que rijen este mundo...$"
+	.string "You might have beaten LANCE, but you're\n"
+	.string "still a beginner when it comes to\l"
+	.string "knowing the laws that run this world...$"
 
 Culto_S3_Batalla_Texto_12:
-.string "Todos vosotros al final lo que\n"
-	.string "buscáis es poder, lo que no sabéis\l"
-	.string "es que el verdadero poder lo\l"
-	.string "obtienen aquellos que están\l"
-	.string "dispuestos a arrodillarse ante él,\l"
-	.string "y con humildad obtenerlo, debe de\l"
-	.string "ser una consecuencia de otras\l"
-	.string "virtudes, nunca el fin último,\l"
-	.string "observa...$"
+	.string "In the end, all of you are after power,\n"
+	.string "but what you don't know is that true\l"
+	.string "power comes to those who are willing to\l"
+	.string "kneel down against that power, and\l"
+	.string "humbly obtain it. It must be a result of\l"
+	.string "other virtues, not the ultimate goal.\l"
+	.string "Look...$"
 
 Culto_S3_Batalla_Texto_13:
-.string "Ahora mismo podría hacerte\n"
-	.string "desaparecer en un abrir y cerrar\l"
-	.string "de ojos, pero sería injusto por mi\l"
-	.string "parte arrojar sobre ti todo el\l"
-	.string "poder y sabiduría de incontables\l"
-	.string "generaciones, a alguien como\l"
-	.string "tú que jamás tuvo acceso a ello.$"
+	.string "Right now, I could make you vanish\n"
+	.string "quickly, but it wouldn't be fair to dump\l"
+	.string "all the power and wisdom of countless\l"
+	.string "generations on someone like you who\l"
+	.string "never had access to it.$"
 
 Culto_S3_Batalla_Texto_14:
 .string "...\n"
 	.string "...$"
 
 Culto_S3_Batalla_Texto_15:
-.string "Tengo el presentimiento de que no\n"
-	.string "eres como los demás, podrías\l"
-	.string "llegar a apreciar lo que\l"
-	.string "verdaderamente importa, no solo te\l"
-	.string "daré la oportunidad de regresar al\l"
-	.string "exterior si eres capaz de ir algo\l"
-	.string "más allá de lo que fuiste en tu\l"
-	.string "combate con LANCE, también te diré\l"
-	.string "cómo convocar al llamado -POKÉMON\l"
-	.string "ESENCIA-, algo que jamás ha salido\l"
-	.string "de aquí.$"
+	.string "I sense that you're different from the\n"
+	.string "others. You might come to understand\l"
+	.string "what truly matters. I'll not only offer\l"
+	.string "you the chance to return to the\l"
+	.string "outside if you can surpass your\l"
+	.string "previous self in your battle with LANCE,\l"
+	.string "but I'll also reveal to you how to\l"
+	.string "summon the so-called 'ESSENCE\l"
+	.string "POKÉMON', something that has never left\l"
+	.string "this place.$"
 
 Culto_S3_Batalla_Texto_16:
-.string "No haré uso de mis más avanzadas\n"
-	.string "artes chico, tampoco de mis\l"
-	.string "POKÉMON que más se han acercado al\l"
-	.string "conocimiento supremo, pero no será\l"
-	.string "necesario usar más del 50% de mi\l"
-	.string "poder para comprobar si tienes o\l"
-	.string "no lo que hay que tener.$"
+	.string "I will not employ my most advanced arts,\n"
+	.string "nor my Pokémon that have come closest\l"
+	.string "to supreme knowledge: It won't take me\l"
+	.string "more than 50% of my power to determine\l"
+	.string "if you have what it takes.$"
 
 Culto_S3_Batalla_Texto_17:
-.string "¡Muéstrame, CAMPEÓN, si eres capaz\n"
-	.string "de ver más allá de todo cuanto te\l"
-	.string "rodea!$"
+	.string "Show me, CHAMPION, if you are capable of\n"
+	.string "seeing beyond all that surrounds you!$"
 
 Culto_S3_Batalla_Texto_18:
-.string "Interesante.$"
+	.string "Interesting.$"
 
 Culto_S3_Batalla_Texto_19:
-.string "A pesar de la mediocridad que\n"
-	.string "abunda en KANTO actualmente, tu\l"
-	.string "voluntad no se ha visto torcida\l"
-	.string "por las circunstancias del\l"
-	.string "entorno, eres un caso especial, no\l"
-	.string "hay duda, no creo que más de 2 o 3\l"
-	.string "personas provenientes del exterior\l"
-	.string "en KANTO, contando contigo, puedan\l"
-	.string "salir airosos ante el equipo que\l"
-	.string "acabo de mostrar, te has ganado el\l"
-	.string "derecho a regresar al exterior,\l"
-	.string "con la condición de no contar a\l"
-	.string "nadie lo visto aquí con excepción,\l"
-	.string "por supuesto, de esa otra persona\l"
-	.string "que hubiera sido capaz de batir a\l"
-	.string "este equipo, tú sabras\l"
-	.string "identificarla por supuesto...$"
+	.string "Despite the mediocrity prevailing in\n"
+	.string "KANTO, your will has not been swayed by\l"
+	.string "the surrounding circumstances. Without\l"
+	.string "a doubt, you are a special case. I don't\l"
+	.string "believe more than 2 or 3 individuals\l"
+	.string "from outside Kanto, including you, could\l"
+	.string "emerge successfully against the team\l"
+	.string "I've just displayed. You have earned\l"
+	.string "the right to return to the outside, with\l"
+	.string "the condition of not disclosing\l"
+	.string "anything seen here, except, of course,\l"
+	.string "to the other person who would have\l"
+	.string "been able to defeat this team. You'll be\l"
+	.string "able to identify them, of course...$"
 
 Culto_S3_Batalla_Texto_20:
-.string "En cuanto al POKÉMON ESENCIA, aquí\n"
-	.string "le rendimos culto, si, el\l"
-	.string "sacrificio que acabas de ver ha\l"
-	.string "sido en su honor, sin embargo, no\l"
-	.string "pretendemos ni podemos -ver- o\l"
-	.string "-poseer-, a tal POKÉMON, como si\l"
-	.string "fuera uno más, eso no es posible.$"
+	.string "Concerning the ESSENCE POKÉMON, we\n"
+	.string "venerate it here. Yes, the sacrifice you\l"
+	.string "just witnessed was in its honor.\l"
+	.string "However, we don't intend nor are we able\l"
+	.string "to 'see' or 'own' such a POKÉMON as if it\l"
+	.string "were ordinary; that's not feasible.$"
 
 Culto_S3_Batalla_Texto_21:
-.string "No obstante, te daré la\n"
-	.string "información con la que\l"
-	.string "teóricamente es posible convocar a\l"
-	.string "tal POKÉMON y hacer que adquiera\l"
-	.string "una forma material...$"
+	.string "Nevertheless, I will provide you with\n"
+	.string "the information that theoretically\l"
+	.string "makes it possible to summon such a\l"
+	.string "POKÉMON and materialize its form...$"
 
 Culto_S3_Batalla_Texto_22:
-.string "Es necesario reunir a dos POKÉMON,\n"
-	.string "no dos POKÉMON cualquiera por\l"
-	.string "supuesto, estos dos POKÉMON son\l"
-	.string "imposibles de encontrar en KANTO,\l"
-	.string "sin embargo, sus orígenes,\l"
-	.string "historia y tradición están\l"
-	.string "estrechamente ligados con KANTO y\l"
-	.string "el POKÉMON ESENCIA.$"
+	.string "Two specific POKÉMON must be brought\n"
+	.string "together. These two POKÉMON cannot be\l"
+	.string "found in KANTO, but their origins,\l"
+	.string "history, and tradition are closely\l"
+	.string "connected to Kanto and the ESSENCE\l"
+	.string "POKÉMON.$"
 
 Culto_S3_Batalla_Texto_23:
-.string "Hablamos de LUGIA y HO-OH,\n"
-	.string "actualmente en paradero\l"
-	.string "desconocido, la leyenda dice que\l"
-	.string "quien reuna a estos dos\l"
-	.string "LEGENDARIOS, la reacción que se\l"
-	.string "desencadenaría producto del\l"
-	.string "contacto entre estas dos criaturas\l"
-	.string "partícipes de la creación misma de\l"
-	.string "KANTO y JOHTO, obligaría a\l"
-	.string "materializarse al creador último\l"
-	.string "de todo lo que conocemos en estas\l"
-	.string "regiones: EL POKÉMON ESENCIA.$"
+	.string "We're talking about LUGIA and HO-OH,\n"
+	.string "which are currently missing. According\l"
+	.string "to legend, if someone were able to\l"
+	.string "gather these two LEGENDARY POKÉMON,\l"
+	.string "the reaction resulting from their\l"
+	.string "meeting, as creatures involved in the\l"
+	.string "creation of KANTO and JOHTO, would\l"
+	.string "compel the ultimate creator of\l"
+	.string "everything known in these regions to\l"
+	.string "appear: the ESSENCE POKÉMON.$"
 
 Culto_S3_Batalla_Texto_24:
-.string "La leyenda no habla, sin embargo,\n"
-	.string "de ningún ritual previo, ni de un\l"
-	.string "lugar concreto en que deben\l"
-	.string "reunirse LUGIA o HO-OH,\l"
-	.string "simplemente habla de unificarlos.$"
+	.string "However, the legend doesn't specify any\n"
+	.string "prior ritual or particular location\l"
+	.string "where LUGIA or HO-OH must assemble; it\l"
+	.string "merely discusses their unification.$"
 
 Culto_S3_Batalla_Texto_25:
-.string "Y eso es todo, espero que seas\n"
-	.string "consciente de la magnitud de esta\l"
-	.string "información, y la uses sabiamente.$"
+	.string "And that's it; I hope you understand\n"
+	.string "how important this information is, use\l"
+	.string "it wisely.$"
 
 Culto_S3_Batalla_Texto_26:
-.string "No tengo nada más que decirte,\n"
-	.string "cuando estés preparado para\l"
-	.string "regresar aquí, lo sabrás, entre\l"
-	.string "medias te queda un largo camino\l"
-	.string "que recorrer, espero que disfrutes\l"
-	.string "de ese proceso, es lo más\l"
-	.string "importante al fin y al cabo.$"
+	.string "I don't have anything else to say. When\n"
+	.string "you feel ready to come back here, you'll\l"
+	.string "know it. In the meantime, you still have\l"
+	.string "a long journey ahead of you. I hope you\l"
+	.string "enjoy that process because, in the end,\l"
+	.string "it's the most important thing.$"
 
 Culto_S3_Batalla_Move_1:
 walk_in_place_up
@@ -1023,8 +981,7 @@ release
 end
 
 Culto_Bloqueo_Texto_1:
-.string "(Un aura horrible impide seguir\n"
-	.string "adelante)$"
+	.string "(An awful aura blocks the way ahead).$"
 
 Culto_Bloqueo_Move_1:
 walk_in_place_down

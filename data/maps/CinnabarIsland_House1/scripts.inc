@@ -40,6 +40,5 @@ release
 end
 
 _CinnabarIsland_House1_Text_3:
-.string "¡Heee!\n"
-.string "¡Deja en paz a mis POKÉMON o\l"
-.string "llamaré a las autoridades!$"
+	.string "Leave my POKÉMON alone or I'll call the\n"
+	.string "police!$"

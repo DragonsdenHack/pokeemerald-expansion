@@ -217,79 +217,63 @@ release
 end
 
 NavelRock_Bottom_Combate_Lugia_Texto_1:
-.string "¡El LUGIA salvaje quiere ponerte\n"
-	.string "a prueba!$"
+	.string "Wild LUGIA wants to fight!$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_2:
 .string "...$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_3:
-.string "(El LUGIA salvaje desapareció\n"
-	.string "antes de poder capturarlo).$"
+	.string "Wild Lugia vanished before it could be\n"
+	.string "catched.$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_4:
-.string "(Parece que ha habido un enorme\n"
-	.string "terremoto en algún lugar lejano).$"
+	.string "Looks like there's been a big eartquake\n"
+	.string "somewhere far away.$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_5:
-.string "ANDRA: ¡{PLAYER}!\n"
-	.string "¡No te lo vas a creer!\l"
-	.string "¡Estaba terminando mi\l"
-	.string "investigación en las CÁMARAS SETE,\l"
-	.string "y justo cuando estaba en la más\l"
-	.string "grande de ellas, la CÁMARA\l"
-	.string "ANÉMUNA, una increíble sacudida ha\l"
-	.string "abierto un pasadizo secreto que\l"
-	.string "parece que lleva aún más al este!\l"
-	.string "¡Voy a cruzarlo {PLAYER}!\l"
-	.string "¡Si quieres venir y verlo tú\l"
-	.string "mismo, es el momento!$"
+	.string "ANDRA: {PLAYER}! You won't believe it!\n"
+	.string "I was wrapping up my research in the\l"
+	.string "TANOBY CHAMBERS, and boom, the MONEAN\l"
+	.string "CHAMBER starts shaking like crazy, and\l"
+	.string "a secret passage opens up! It looks\l"
+	.string "like it goes even further east! I'm\l"
+	.string "gonna go check it out, {PLAYER}! If\l"
+	.string "you wanna come see it too, now's the\l"
+	.string "time!$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_6:
-.string "GIOVANNI: ¿Batiste a LUGIA\n"
+	.string "GIOVANNI: Did you defeat LUGIA,\n"
 	.string "{PLAYER}?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_7:
-.string "Ya veo, al igual que me ha\n"
-	.string "ocurrido a mi, LUGIA también ha\l"
-	.string "desaparecido inmediatamente\l"
-	.string "después de ser derrotado, sin\l"
-	.string "opción a capturarlo.$"
+	.string "I understand. Similar to what happened\n"
+	.string "to me, LUGIA also vanished immediately\l"
+	.string "after its defeat, making it impossible\l"
+	.string "to catch.$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_8:
-.string "Ambos han desaparecido si, pero\n"
-	.string "creo que hemos activado algo\l"
-	.string "importante al ser capaces de\l"
-	.string "derrotarlos, ese enorme\l"
-	.string "terremoto...\l"
-	.string "Me han llamado desde nuestra\l"
-	.string "sucursal en JOHTO, informándome de\l"
-	.string "que al parecer ha tenido lugar\l"
-	.string "allí, tal vez eso quiere decir que\l"
-	.string "después de todo LUGIA y HO-OH\l"
-	.string "vuelvan a su lugar de origen, tal\l"
-	.string "vez a...¿reunirse con el POKÉMON\l"
-	.string "ESENCIA?$"
+	.string "I got a call from our JOHTO HQ, saying it\n"
+	.string "seems to have gone down there. Maybe\l"
+	.string "this means LUGIA and HO-OH are heading\l"
+	.string "back to their old stomping grounds,\l"
+	.string "maybe to... hook up with that ESSENCE\l"
+	.string "POKÉMON?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_9:
-.string "¿Cómo?\n"
-	.string "¿ANDRA estaba investigando las\l"
-	.string "RUINAS SETE justo cuando se ha\l"
-	.string "abierto un pasadizo en el interior\l"
-	.string "de la cámara más importante?$"
+	.string "Wait, what? ANDRA was poking around the\n"
+	.string "TANOBY CHAMBERS, and boom, a passage\l"
+	.string "opens up right in the main chamber?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_10:
-.string "Entonces han sido dos terremotos,\n"
-	.string "tal vez en JOHTO se haya abierto\l"
-	.string "algo que ha permanecido por mucho\l"
-	.string "tiempo oculto, tal vez allí hayan\l"
-	.string "regresado LUGIA y HO-OH, debemos\l"
-	.string "investigarlo.$"
+	.string "So there were two earthquakes. Maybe\n"
+	.string "something hidden in JOHTO got\l"
+	.string "uncovered. Perhaps LUGIA and HO-OH\l"
+	.string "went back there. We should check it out.$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_11:
-.string "Ve con ANDRA {PLAYER}, yo\n"
-	.string "investigaré lo ocurrido en JOHTO,\l"
-	.string "vamos a llegar al fondo de esto.$"
+	.string "Go with ANDRA, {PLAYER}. I'll check\n"
+	.string "out what happened in JOHTO. We need to\l"
+	.string "figure this out.$"
 
 NavelRock_Bottom_Combate_Lugia_Move_1:
 emote_exclamation_mark

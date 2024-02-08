@@ -32,11 +32,10 @@ release
 end
 
 Silph3F_3_Texto_1:
-.string "¡Os arrepentiréis de esto!$"
+.string "You will regret this!$"
 
 Silph3F_3_Texto_2:
-.string "¡Tuvisteis vuestro merecido\n"
-	.string "ROCKET!$"
+	.string "You got what you deserved, ROCKET!$"
 
 Silph3F_4::
 end

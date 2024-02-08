@@ -42,11 +42,9 @@ release
 end
 
 CinnabarIsland_Center_Text_3:
-.string "Los ROCKET no sois bienvenidos\n"
-.string "por aquí, nuestro LÍDER de\l"
-.string "GIMNASIO nunca dejaría que este\l"
-.string "lugar se infecte con vuestra\l"
-.string "presencia.$"
+	.string "You ROCKETS are not welcome here, our\n"
+	.string "GYM LEADER would never let this place\l"
+	.string "infect, with people like you.$"
 
 
 
