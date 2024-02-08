@@ -24,12 +24,11 @@ release
 end
 
 Silph11F_Text_2:
-.string "SECRETARIA: Gracias por poner al\n"
-.string "tanto a nuestro PRESIDENTE de todo\l"
-.string "lo que este gobierno ha hecho por\l"
-.string "la región, aunque no podamos\l"
-.string "agadecerte de forma pública, tal\l"
-.string "vez llegue el día…$"
+	.string "SECRETARY: Thank you for keeping our\n"
+	.string "PRESIDENT informed of all this\l"
+	.string "government has done for the region.\l"
+	.string "Even though we can't thank you publicly,\l"
+	.string "perhaps the day will come…$"
 
 
 
@@ -66,8 +65,8 @@ msgbox Silph11FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph11FDocumento_Text_100:
-.string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "11F$"
+.string "SILPH CO. HEAD OFFICE\n"
+    .string "11F$"
 
 Silph_11F_Bill_Presidente_Izq::
 lockall
@@ -282,236 +281,205 @@ release
 end
 
 Silph_11F_Bill_Presidente_Texto_1:
-.string "????: ¿Quién anda ahí?$"
+.string "????: Who's there?$"
 
 Silph_11F_Bill_Presidente_Texto_2:
-.string "PRESIDENTE: ¿Pero cómo es posible?\n"
-	.string "Mi seguridad derrotada por un\l"
-	.string "miembro del TEAM ROCKET, ¿cómo te\l"
-	.string "llamas chico?$"
+	.string "PRESIDENT: How is this possible? All my\n"
+	.string "security guards defeated by a member\l"
+	.string "of the TEAM ROCKET, what's your name?$"
 
 Silph_11F_Bill_Presidente_Texto_2.1:
-.string "¿{PLAYER}? Debes ser de fuera,\n"
-	.string "alguien de KANTO jamás tendría la\l"
-	.string "osadía de entrar así en la SEDE de su\l"
-	.string "capital.$"
+	.string "{PLAYER}? You must be from outside, a\n"
+	.string "KANTO citizen would never enter the\l"
+	.string "capital's HEADQUARTERS like this.$"
 
 Silph_11F_Bill_Presidente_Texto_2.2:
 .string "... ...$"
 
 Silph_11F_Bill_Presidente_Texto_2.3:
-.string "Así que el Archi7... Ya entiendo, déjame\n"
-	.string "decirte algo: no has visto nada de esta\l"
-	.string "región aún. Los POKÉMON de KANTO, los\l"
-	.string "de verdad, no son como esos débiles\l"
-	.string "SENTRET o SPINARAK con los que te\l"
-	.string "criaste.$"
+	.string "So the SEVII ISLANDS… I get it, let me\n"
+	.string "tell you something: you haven't seen\l"
+	.string "anything of this region yet. The\l"
+	.string "POKÉMON from KANTO, the real ones, have\l"
+	.string "nothing to do with those weak SENTRET\l"
+	.string "or SPINARAK as you were raised with.$"
 
 Silph_11F_Bill_Presidente_Texto_2.4:
-.string "Es un insulto que alguien como tú, con\n"
-	.string "una cultura y raíces tan pobres en\l"
-	.string "cuanto al COMBATE POKÉMON, haya\l"
-	.string "llegado hasta aquí. No es más que otra\l"
-	.string "prueba de la decadencia que asola esta\l"
-	.string "región, se han perdido completamente\l"
-	.string "los valores y disciplina que nos\l"
-	.string "llevaron a ser grandes.$"
+	.string "It's an insult that someone like you,\n"
+	.string "with such poor culture and roots when\l"
+	.string "it comes to POKÉMON BATTLES, has made\l"
+	.string "it this far. This is another proof of the\l"
+	.string "decay plaguing this region. The values\l"
+	.string "and discipline that led us to greatness\l"
+	.string "have been lost forever.$"
 
 Silph_11F_Bill_Presidente_Texto_2.5:
-	.string "Por desgracia para ti, aún quedan\n"
-	.string "entrenadores que no han sido\l"
-	.string "infectados con el virus de la\l"
-	.string "mediocridad y el alineamiento.$"
+	.string "Unfortunately for you, there are still\n"
+	.string "trainers that haven't been infected\l"
+	.string "with the virus of mediocrity and\l"
+	.string "conformity.$"
 
 Silph_11F_Bill_Presidente_Texto_2.6:
-.string "Por primera vez, ¡vas a sentir lo que es\n"
-	.string "enfrentar un equipo de la vieja escuela\l"
-	.string "de KANTO!$"
+	.string "For the first time, you are going to\n"
+	.string "experience what it is like to face a\l"
+	.string "team from the old school of KANTO!$"
 
 Silph_11F_Bill_Presidente_Texto_2.7:
-	.string "El poder de esos POKÉMON... ¿de dónde\n"
-	.string "proviene?$"
+	.string "The power of those POKÉMON… where does\n"
+	.string "it come from?$"
 
 Silph_11F_Bill_Presidente_Texto_2.8:
-	.string "Hacía décadas que no veía desplegar a\n"
-	.string "un ENTRENADOR de tus recursos un nivel\l"
-	.string "tal. Me has hecho recordar esos viejos\l"
-	.string "tiempos, cuando todo era posible. Tus\l"
-	.string "aptitudes e ilusión son más propias de\l"
-	.string "otra época.$"
+	.string "Decades ago when I saw a TRAINER with\n"
+	.string "your resources but such a high level.\l"
+	.string "You've made me remember those old times,\l"
+	.string "when everything was possible. Your\l"
+	.string "abilities and dreams are from another\l"
+	.string "age.$"
 
 Silph_11F_Bill_Presidente_Texto_3:
-.string "Así que {PLAYER}. Escucha {PLAYER},\n"
-	.string "puedo olvidar todo esto y hacer\l"
-	.string "que trabajes para SILPH, un\l"
-	.string "ENTRENADOR de tu nivel no tiene\l"
-	.string "porqué desperdiciar su potencial\l"
-	.string "en una organización como el TEAM\l"
-	.string "ROCKET, si solo...$"
+	.string "So, {PLAYER}. Listen, {PLAYER}, I\n"
+	.string "can forget all of this and make you work\l"
+	.string "for SILPH, a TRAINER of your level has\l"
+	.string "nothing to do with the TEAM ROCKET, if\l"
+	.string "only…$"
 
 Silph_11F_Bill_Presidente_Texto_4:
-.string "????: Ahórrese sus técnicas\n"
-	.string "persuasivas con {PLAYER}\l"
-	.string "PRESIDENTE, es conmigo con quién\l"
-	.string "tiene que hablar.$"
+	.string "????: Spare your persuasive techniques\n"
+	.string "with {PLAYER}, it's with me that you\l"
+	.string "must talk to.$"
 
 Silph_11F_Bill_Presidente_Texto_5:
-.string "GIOVANNI: ¡Gran trabajo {PLAYER}!\n"
-	.string "Todo va según lo planeado, lo\l"
-	.string "único que ahora necesito es tiempo\l"
-	.string "para hablar con el PRESIDENTE,\l"
-	.string "ANDRA está justo abajo, se ha\l"
-	.string "encargado de escoltarme\l"
-	.string "personalmente hasta aquí, ambos\l"
-	.string "haréis guardia hasta que esta\l"
-	.string "pequeña reunión de negocios\l"
-	.string "termine.$"
+	.string "GIOVANNI: Great work {PLAYER}!\n"
+	.string "Everything is going according to plan,\l"
+	.string "the only thing I need now is time to\l"
+	.string "talk with the PRESIDENT, ANDRA is close\l"
+	.string "from here, she has personally escorted\l"
+	.string "me here. Both of you will stand guard\l"
+	.string "until this little business meeting is\l"
+	.string "over.$"
 
 Silph_11F_Bill_Presidente_Texto_5.1:
-.string "Te necesito en plena forma, deja que\n"
-	.string "cure a tu equipo.$"
+	.string "I need you fully recovered, let me heal\n"
+	.string "your team.$"
 
 Silph_11F_Bill_Presidente_Texto_6:
-.string "Y ahora, señor PRESIDENTE, digame,\n"
-	.string "¿qué opina de la forma en que esta\l"
-	.string "región se ha llevado en los\l"
-	.string "últimos años?\l"
-	.string "¿Y si le dijera que hay\l"
-	.string "alternativa, un cambio por el cual\l"
-	.string "todos podemos salir beneficiados,\l"
-	.string "desde usted y su empresa, a\l"
-	.string "nosotros, y toda la población?\l"
-	.string "Verá...$"
+	.string "And now, Mr. PRESIDENT, tell me, what do\n"
+	.string "you think about the way the region has\l"
+	.string "been ruled in recent years? And what if\l"
+	.string "I told you that there's an alternative, a\l"
+	.string "change that can benefit us all, from\l"
+	.string "your company to us and the entire\l"
+	.string "population? You see…$"
 
 Silph_11F_Bill_Presidente_Texto_7:
-.string "ANDRA: ¡Hey, {PLAYER}!\n"
-	.string "¡Esta vez te me has adelantado,\l"
-	.string "los policías de SILPH tienen un\l"
-	.string "nivel parecido a nuestros ALTOS\l"
-	.string "RANGOS después de todo!\l"
-	.string "No me ha sido fácil encontrar a un\l"
-	.string "empleado con una LLAVE MAGNÉTICA,\l"
-	.string "pero parece que tenemos hasta 3\l"
-	.string "contando la tuya, de sobra para\l"
-	.string "nuestro plan de evasión de ese\l"
-	.string "ROJO...$"
+	.string "ANDRA: Hey, {PLAYER}! This time you're\n"
+	.string "here before me, the policemen of SILPH\l"
+	.string "have a level similar to our HIGH RANKS\l"
+	.string "after all! It wasn't easy to find an\l"
+	.string "employee with a CARD KEY. But it seems\l"
+	.string "we have 3 counting yours, it's more than\l"
+	.string "enough to our plan of evading RED…$"
 
 Silph_11F_Bill_Presidente_Texto_8:
-.string "Míranos, hemos pasado de buscar\n"
-	.string "FÓSILES en el MT.MOON a ser\l"
-	.string "EJECUTIVOS ROCKETS, con la plena\l"
-	.string "confianza de GIOVANNI al punto de\l"
-	.string "estar aquí, asegurándonos de que\l"
-	.string "nadie interrumpa una reunión vital\l"
-	.string "para el futuro de todo el TEAM\l"
+	.string "Look at us, we went from collecting\n"
+	.string "FOSSILS in the MT.MOON to ROCKET\l"
+	.string "EXECUTIVES, with total trust from\l"
+	.string "GIOVANNI, to the point that we are\l"
+	.string "here, protecting the most important\l"
+	.string "meeting for the future of all the TEAM\l"
 	.string "ROCKET.$"
 
 Silph_11F_Bill_Presidente_Texto_9:
-.string "¿Sabes qué?\n"
-	.string "Después de que esta misión acabe,\l"
-	.string "creo que visitaré ISLA CANELA, es\l"
-	.string "el único lugar, junto a la LIGA\l"
-	.string "POKÉMON, que aún no he explorado\l"
-	.string "de la región, supuestamente allí\l"
-	.string "se encuentra esa MANSIÓN POKÉMON\l"
-	.string "donde crearon a ese MEWTWO,\l"
-	.string "supuestamente el POKÉMON más\l"
-	.string "fuerte que existe, ¿crees que\l"
-	.string "GIOVANNI tiene realmente idea de\l"
-	.string "dónde está?$"
+	.string "You know what? After this mission ends,\n"
+	.string "I think I'll head to CINNABAR ISLAND, it's\l"
+	.string "the only place that I haven't explored\l"
+	.string "yet, along with the POKÉMON LEAGUE.\l"
+	.string "Supposedly, there is that POKÉMON\l"
+	.string "MANSION, where they created that\l"
+	.string "MEWTWO, the “strongest POKÉMON ever”,\l"
+	.string "do you think GIOVANNI has any idea of\l"
+	.string "where it could be?$"
 
 Silph_11F_Bill_Presidente_Texto_10:
-.string "MIGUEL: Vaya vaya, así que\n"
-	.string "EJECUTIVO ROCKET, ¿eh {PLAYER}?\l"
-	.string "No te han ido mal las cosas desde\l"
-	.string "entonces, como puedes ver a mi\l"
-	.string "tampoco.$"
+	.string "MIGUEL: Well well, so ROCKET EXECUTIVE,\n"
+	.string "huh, {PLAYER}? Things have gone\l"
+	.string "pretty well for you since then, as you\l"
+	.string "can see, for me too.$"
 
 Silph_11F_Bill_Presidente_Texto_11:
-.string "????: Buen trabajo, tendrás tu\n"
-	.string "ÁMBAR VIEJO tal como te prometi.$"
+	.string "????: Good job, you'll have your OLD\n"
+	.string "AMBER, just as I promised you.$"
 
 Silph_11F_Bill_Presidente_Texto_12:
-.string "BILL: Volvemos a vernos {PLAYER},\n"
-	.string "admito que te subestimé la primera\l"
-	.string "vez que entraste por la fuerza a\l"
-	.string "mi casa en RUTA 25, pensé que eras\l"
-	.string "otro pobre RECLUTA sin más...$"
+	.string "BILL: It's you again, {PLAYER}, I\n"
+	.string "confess I misjudged you the first time\l"
+	.string "you disrupted my home on ROUTE 25. I\l"
+	.string "thought you were just another lowly\l"
+	.string "GRUNT…$"
 
 Silph_11F_Bill_Presidente_Texto_13:
-.string "Sin embargo, tu error es pensar\n"
-	.string "que un ROCKET, sea quien sea,\l"
-	.string "tiene posibilidades ante BILL, el\l"
-	.string "mayor coleccionista de POKÉMON del\l"
-	.string "mundo.$"
+	.string "However, your mistake is believing that\n"
+	.string "a ROCKET, no matter who, has chances\l"
+	.string "against BILL, the best POKÉMONS\l"
+	.string "collectionist in the world.$"
 
 Silph_11F_Bill_Presidente_Texto_14:
-.string "ANDRA: ¡Solo eres un niño mimado\n"
-	.string "al que le han dado todo en\l"
-	.string "herencia, puedes comprar las\l"
-	.string "herramientas, pero no la mente y\l"
-	.string "el corazón de un verdadero\l"
-	.string "entrenador, sin eso jamás\l"
-	.string "derrotarás a alguien como {PLAYER}!$"
+	.string "ANDRA: You're just a spoiled kid who's\n"
+	.string "been given everything you wanted, you\l"
+	.string "can buy the tools, but you can't buy the\l"
+	.string "mind and heart of a true TRAINER,\l"
+	.string "without that, you'll never defeat\l"
+	.string "someone like {PLAYER}!$"
 
 Silph_11F_Bill_Presidente_Texto_15:
-.string "BILL: Chica insolente, no he\n"
-	.string "venido hasta aquí para\l"
-	.string "intercambiar palabra con una\l"
-	.string "ROCKET más del montón con POKÉMON\l"
-	.string "de clase baja más del montón, he\l"
-	.string "venido hasta aquí para exigirle al\l"
-	.string "PRESIDENTE que me proporcione la\l"
-	.string "MÁSTER BALL antes incluso de que\l"
-	.string "salga al mercado.$"
+	.string "BILL: Insolent girl, I didn't come here\n"
+	.string "to talk to just another ordinary ROCKET\l"
+	.string "with mediocre POKÉMON. I came here to\l"
+	.string "demand the PRESIDENT to give me the\l"
+	.string "MASTER BALL even before it gets\l"
+	.string "released in the market.$"
 
 Silph_11F_Bill_Presidente_Texto_16:
-.string "Como uno de los principales\n"
-	.string "accionistas de SILPH, os exijo que\l"
-	.string "os apartéis, si no dáis problemas\l"
-	.string "quizá os deje escapar de aquí\l"
-	.string "para que extendáis un poco más\l"
-	.string "vuestra miserable existencia.$"
+	.string "As one of the main investors of SILPH, I\n"
+	.string "demand you to move away, if you don't\l"
+	.string "cause trouble maybe I let you escape\l"
+	.string "from here, so you can extend your\l"
+	.string "wretched existence a bit further.$"
 
 Silph_11F_Bill_Presidente_Texto_17:
-.string "Con esa BALL tendré todo cuanto\n"
-	.string "quiero, imagináos, las AVES\l"
-	.string "LEGENDARIAS, incluso esa leyenda\l"
-	.string "de MEW, podrán ser atrapadas y\l"
-	.string "admiradas dentro de mi gran\l"
-	.string "colección, los únicos POKÉMON que\l"
-	.string "me faltan para que sea completa.$"
+	.string "With that BALL I will have everything I\n"
+	.string "want, imagine it, the LEGENDARY BIRDS,\l"
+	.string "even that myth of MEW, could be catched\l"
+	.string "and admired within my vast collection,\l"
+	.string "the only POKÉMONS I'm missing to\l"
+	.string "complete it.$"
 
 Silph_11F_Bill_Presidente_Texto_18:
-.string "Ahora mismo solo sois dos\n"
-	.string "monigotes casuales que se han\l"
-	.string "puesto de obstáculo entre el\l"
-	.string "PRESIDENTE y yo, vuestra\l"
-	.string "mediocridad no va a impedir que\l"
-	.string "hable con él, ¡apartaos es el\l"
-	.string "último aviso!$"
+	.string "Right now you're just two casual\n"
+	.string "puppets obstructing my path to\l"
+	.string "PRESIDENT and me, your mediocrity won't\l"
+	.string "prevent me from talking with him, move\l"
+	.string "aside, this is your last warning!$"
 
 Silph_11F_Bill_Presidente_Texto_19:
-.string "ANDRA: Ni tú ni tus POKÉMON\n"
-	.string "comprados nos intimidáis, nuestro\l"
-	.string "LÍDER está teniendo una reunión\l"
-	.string "muy importante con el PRESIDENTE\l"
-	.string "en estos momentos, no vas a ir a\l"
-	.string "ningún lado, quieras o no.$"
+	.string "ANDRA: Nor you nor your bought\n"
+	.string "POKÉMONS intimidate us, our LEADER is in\l"
+	.string "an important meeting right now with the\l"
+	.string "PRESIDENT, you are not going anywhere,\l"
+	.string "don't care if you want to or not.$"
 
 Silph_11F_Bill_Presidente_Texto_20:
-.string "BILL: No he tenido menor problema\n"
-	.string "en derrotar a vuestro EJECUTIVO\l"
-	.string "PETREL, y no lo voy a tener con\l"
-	.string "vosotros, os he avisado.$"
+	.string "BILL: I had no problem defeating your\n"
+	.string "EXECUTIVE PETREL, and I will do the\l"
+	.string "same with you two, now you are warned.$"
 
 Silph_11F_Bill_Presidente_Texto_21:
-.string "Encárgate de la chica, {PLAYER} es\n"
-	.string "mío, merece ser castigado por el\l"
-	.string "numerito que montó en mi casa.$"
+	.string "Finish off the girl, {PLAYER} is mine,\n"
+	.string "deserves to be punished by the\l"
+	.string "troubles that he caused at my house.$"
 
 Silph_11F_Bill_Presidente_Texto_22:
-.string "C.MIGUEL: A sus órdenes señor BILL.$"
+.string "S.MIGUEL: At your service sir BILL.$"
 
 Silph_11F_Bill_Presidente_Texto_23:
 .string "BILL: ¿Sabes una cosa {PLAYER}?\n"

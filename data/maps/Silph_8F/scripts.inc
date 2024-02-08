@@ -20,12 +20,10 @@ release
 end
 
 Silph8F_Text_2:
-.string "¡Vuestro JEFE es un cruel\n"
-.string "dictador!\l"
-.string "¡Solo usa a los POKÉMON como armas\l"
-.string "para lograr sus fines!\l"
-.string "¡Alguien así nunca se hará con el\l"
-.string "mando de SILPH!$"
+	.string "Your BOSS is a cruel dictator! He only\n"
+	.string "uses POKÉMON as weapons to achieve his\l"
+	.string "goals! Someone like him will never take\l"
+	.string "charge of SILPH!$"
 
 
 
@@ -54,15 +52,14 @@ release
 end
 
 Silph8F_5_Texto_1:
-.string "¡Ten compasión!\n"
-	.string "¡Me quedaré aquí quieto y no daré\l"
-	.string "problemas, de verdad!$"
+	.string "Have mercy! I'll stay here quietly and\n"
+	.string "won't cause any troubles, please trust\l"
+	.string "me!$"
 
 Silph8F_5_Texto_2:
-.string "¡Ha llegado vuestra hora!\n"
-	.string "¡Todos los implicados en este\l"
-	.string "asalto seréis encontrados y\l"
-	.string "juzgados!$"
+	.string "Your time has come! All those involved\n"
+	.string "in this assault will be found and\l"
+	.string "judged!$"
 
 
 
@@ -98,5 +95,5 @@ msgbox Silph8FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph8FDocumento_Text_100:
-.string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "8F$"
+.string "SILPH CO. HEAD OFFICE\n"
+    .string "8F$"

@@ -115,12 +115,11 @@ release
 end
 
 Silph6F_9_Texto_1:
-.string "¡No me hagas daño no daré\n"
-	.string "problemas!$"
+	.string "Don't hurt me, I won't cause trouble!$"
 
 Silph6F_9_Texto_2:
-.string "¡JAH tuvistéis vuestro merecido\n"
-	.string "cobardes!$"
+	.string "HAH, you got what you deserved,\n"
+	.string "cowards!$"
 
 
 
@@ -148,8 +147,8 @@ msgbox Silph6FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph6FDocumento_Text_100:
-.string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "6F$"
+.string "SILPH CO. HEAD OFFICE\n"
+    .string "6F$"
 
 Silph_6F_Empleado_Llave::
 lock
@@ -189,29 +188,28 @@ release
 end
 
 Silph_6F_Empleado_Llave_Texto_1:
-.string "¡Un ROCKET!\n"
-	.string "¡Piedad, por favor!$"
+.string "A ROCKET!\n"
+	.string "Mercy, please!$"
 
 Silph_6F_Empleado_Llave_Texto_2:
-.string "¡Ya no puedes hacerme nada!\n"
-	.string "¡Huajajaja!$"
+.string "You can't hurt me now!\n"
+	.string "Muahaha!$"
 
 Silph_6F_Empleado_Llave_Texto_3:
-.string "¡No! ¡No me hagas daño!$"
+	.string "No! Don't hurt me!$"
 
 Silph_6F_Empleado_Llave_Texto_4:
 .string "... ... ...$"
 
 Silph_6F_Empleado_Llave_Texto_5:
-.string "¿Cómo?\n"
-	.string "¿La LLAVE MAGNÉTICA?\l"
-	.string "¡Te daré lo que quieras pero ten\l"
-	.string "piedad!$"
+.string "What?\n"
+	.string "The CARD KEY?\l"
+	.string "I will give you whatever you\l"
+	.string "want but have mercy!$"
 
 Silph_6F_Empleado_Llave_Texto_6:
-.string "¡Ya te he dado lo que querías\n"
-	.string "déjame en paz por favor!$"
+	.string "I already gave you what you wanted,\n"
+	.string "leave me alone please!$"
 
 Silph_6F_Empleado_Llave_Texto_7:
-.string "¡El EMPLEADO te entregó una LLAVE\n"
-	.string "MAGNÉTICA!$"
+	.string "The EMPLOYEE gave you a CARD KEY!$"

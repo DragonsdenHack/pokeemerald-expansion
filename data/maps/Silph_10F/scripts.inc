@@ -41,13 +41,12 @@ release
 end
 
 Silph10F_5_Texto_1:
-.string "¡Waaaaa!\n"
-	.string "¡Tengo miedo!$"
+.string "Waaaaa!\n"
+	.string "I'm afraid!$"
 
 Silph10F_5_Texto_2:
-.string "¿De verdad tienes el cinismo de\n"
-	.string "regresar aquí después del numerito\l"
-	.string "que montasteis?$"
+	.string "Are you really that cynical to come\n"
+	.string "back here after all you've done?$"
 
 
 
@@ -75,5 +74,5 @@ msgbox Silph10FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph10FDocumento_Text_100:
-.string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "10F$"
+.string "SILPH CO. HEAD OFFICE\n"
+    .string "10F$"

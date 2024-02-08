@@ -31,11 +31,10 @@ release
 end
 
 Silph9F_4_Texto_1:
-.string "¿Curarte? ¿Para que nos sigas\n"
-	.string "invadiendo? En los centros públicos os\l"
-	.string "curan porque se ven obligados por ley,\l"
-	.string "nosotros somos una empresa privada,\l"
-	.string "¡ojalá todos tus POKÉMON se debiliten!$"
+	.string "Heal you? For you to keep invading us?\n"
+	.string "Public centers heal you because it's a\l"
+	.string "law, we are a private company, I hope all\l"
+	.string "your POKÉMON faint!$"
 
 
 
@@ -65,5 +64,5 @@ msgbox Silph9FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Silph9FDocumento_Text_100:
-.string "OFICINA CENTRAL DE SILPH S.A.\n"
-	.string "9F$"
+.string "SILPH CO. HEAD OFFICE\n"
+    .string "9F$"
