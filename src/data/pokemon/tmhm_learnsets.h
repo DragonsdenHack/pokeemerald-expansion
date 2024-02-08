@@ -30896,6 +30896,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM2(TM80_GYRO_BALL)
                                             | TMHM2(TM89_SWAGGER)
                                             | TMHM2(TM92_SUBSTITUTE)
+                                            | TMHM2(TM93_FLASH_CANNON)
                                             | TMHM2(TM116_ELECTRIC_TERRAIN)
                                             | TMHM2(HM05_FLASH)),
 
