@@ -21,9 +21,8 @@ release
 end
 
 Culto2_NPC_2_Texto_1:
-.string "Aún no has visto nada, prepárate\n"
-	.string "para poner en duda todo lo que\l"
-	.string "creías saber hasta este momento.$"
+	.string "You haven't seen anything yet; get\n"
+	.string "ready to doubt about everything.$"
 
 
 Culto2_NPC_4::
@@ -34,8 +33,8 @@ release
 end
 
 Culto2_NPC_4_Texto_1:
-.string "Cuida cada paso que des aquí\n"
-	.string "chico, estás pisando hisoria viva.$"
+	.string "Watch every step you take here, kid;\n"
+	.string "you're stepping on living history.$"
 
 
 Culto2_NPC_5::
@@ -46,11 +45,10 @@ release
 end
 
 Culto2_NPC_5_Texto_1:
-.string "La verdad, aunque solo sea\n"
-	.string "conocida por unos pocos, seguirá\l"
-	.string "siendo la verdad, nadie puede\l"
-	.string "deshacer el hecho de que fuiste\l"
-	.string "CAMPEÓN de KANTO.$"
+	.string "The truth, even if only a few know it,\n"
+	.string "it's still the truth; nobody can change\l"
+	.string "the fact that you were the KANTO\l"
+	.string "champion.$"
 
 
 Culto2_NPC_6::
@@ -61,13 +59,11 @@ release
 end
 
 Culto2_NPC_6_Texto_1:
-.string "¿Cómo hemos podido vivir aquí sin\n"
-	.string "salir al exterior durante siglos?\l"
-	.string "No estás preparado para conocer\l"
-	.string "las verdaderas dimensiones de este\l"
-	.string "lugar, todo cuanto necesitamos\l"
-	.string "está aquí, el interior de este\l"
-	.string "lugar es más extenso que cualquier\l"
-	.string "ciudad que conozcas chico, un\l"
-	.string "homenaje a lo eterno e\l"
-	.string "imperecedero.$"
+	.string "How have we been able to live here\n"
+	.string "without venturing outside for\l"
+	.string "centuries? You're not ready to grasp\l"
+	.string "the true dimensions of this place;\l"
+	.string "everything we need is here. The interior\l"
+	.string "of this place is more expansive than\l"
+	.string "any city you know, a tribute to the\l"
+	.string "eternal and imperishable.$"

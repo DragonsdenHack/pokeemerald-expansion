@@ -21,11 +21,10 @@ release
 end
 
 CultoS1_NPC_3_Texto_1:
-.string "La gente de KANTO nos olvidó hace\n"
-	.string "ya incontables generaciones, pero\l"
-	.string "KANTO es mucho más que su gente,\l"
-	.string "el POKÉMON ESENCIA nada pasa por\l"
-	.string "alto.$"
+	.string "The folks in KANTO forgot about us ages\n"
+	.string "ago, but KANTO is bigger than just its\l"
+	.string "people; the ESSENCE POKÉMON doesn't\l"
+	.string "miss anything.$"
 
 CultoS1_NPC_4::
 lock
@@ -35,9 +34,9 @@ release
 end
 
 CultoS1_NPC_4_Texto_1:
-.string "No vas a ver al POKÉMON ESENCIA si\n"
-	.string "eso es lo que pretendes, nadie lo\l"
-	.string "ha visto en siglos.$"
+	.string "You are not going to see the ESSENCE\n"
+	.string "POKÉMON if that is what you intend; no\l"
+	.string "one has seen it in centuries.$"
 
 CultoS1_NPC_5::
 lock
@@ -47,9 +46,9 @@ release
 end
 
 CultoS1_NPC_5_Texto_1:
-.string "Siquiera FUJI sabe de la\n"
-	.string "existencia de este lugar, ¿cómo\l"
-	.string "pudiste encontrarnos?$"
+	.string "Not even FUJI is aware of the existence\n"
+	.string "of this place. How were you able to find\l"
+	.string "us?$"
 
 
 CultoS1_NPC_6::
@@ -60,7 +59,6 @@ release
 end
 
 CultoS1_NPC_6_Texto_1:
-.string "Entonces la leyenda sigue\n"
-	.string "circulando por la región,\l"
-	.string "dispuesta a servir a quien le\l"
-	.string "preste atención, bien...$"
+	.string "So, the legend keeps circulating\n"
+	.string "throughout the region, ready to serve\l"
+	.string "those who pay attention, well...$"

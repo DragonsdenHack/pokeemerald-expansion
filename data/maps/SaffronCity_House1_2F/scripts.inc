@@ -26,11 +26,11 @@ msgbox SaffronCityHouse12FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityHouse12FDocumento_Text_100:
-.string "...\p"
-	.string "¡Éstos son mis secretos!\p"
-	.string "Habilidad: imitar.\n"
-	.string "Hobby: coleccionar muñecos.\l"
-	.string "POKéMON favorito: ¡CLEFAIRY!$"
+ .string "…\p"
+    .string "My Secrets!\p"
+    .string "Skill: Mimicry!\n"
+    .string "Hobby: Collecting dolls!\l"
+    .string "Favorite POKÉMON: CLEFAIRY!$"
 
 
 
@@ -39,8 +39,8 @@ msgbox SaffronCityHouse12FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SaffronCityHouse12FDocumento_Text_101:
-	.string "¡Un juego de MARIO con un cubo\n"
-	.string "en la cabeza!$"
+.string "A game with MARIO wearing a bucket\n"
+    .string "on his head!$"
 
 
 
@@ -50,8 +50,8 @@ release
 end
 
 SaffronCityHouse12FDocumento_Text_102:
-.string "¡Éste es un POKéMON raro!\n"
-	.string "¿Eh? ¡Pero si es un muñeco!$"
+.string "This is a rare POKÉMON!\n"
+    .string "Huh? It's only a doll!$"
 
 SaffronCity_House1_2F_Entrenador_Especial::
 lock
@@ -100,64 +100,57 @@ end
 
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste GAFAS ELEGIDAS de\n"
-	.string "manos de COPIONA!$"
+	.string "You obtained CHOICE SPECS from the\n"
+	.string "COPYCAT!$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_1:
-.string "Estoy aburrida y cansada de que la\n"
-	.string "gente solo me traiga muñecas para\l"
-	.string "jugar, nadie se da cuenta de que\l"
-	.string "mi verdadero talento es el combate\l"
-	.string "POKÉMON, me tratan como una simple\l"
-	.string "niña, si solo encontrara un buen\l"
-	.string "ENTRENADOR con el que pasar el\l"
-	.string "rato.$"
+	.string "I'm so bored and tired of people just\n"
+	.string "bringing me dolls to play with. No one\l"
+	.string "knows my true talent is POKÉMON\l"
+	.string "battling, they treat me as a mere child.\l"
+	.string "I really want to find a good TRAINER to\l"
+	.string "spend time with.$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_2:
 .string "...\n"
 	.string "...$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_3:
-.string "Lo siento, pensé que tú podrías\n"
-	.string "ser, pero veo que aún te falta por\l"
-	.string "mejorar.$"
+	.string "I'm sorry, I thought you might be that\n"
+	.string "trainer, but you still have to improve\l"
+	.string "yourself even more.$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_4:
-.string "Las GAFAS ELEGIDAS aumentan en un\n"
-	.string "50% el ATAQUE ESPECIAL del\l"
-	.string "POKÉMON, a costa de obligarle a\l"
-	.string "usar un único movimiento, es ideal\l"
-	.string "para POKÉMON como ALAKAZAM,\l"
-	.string "CHARIZARD o JOLTEON.$"
+	.string "The CHOICE SPECS increases the\n"
+	.string "SPECIAL ATTACK of a POKÉMON by 50%,\l"
+	.string "but you only can use one move, they're\l"
+	.string "perfect for POKÉMON like ALAKAZAM,\l"
+	.string "CHARIZARD or JOLTEON.$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_5:
-.string "¡Heyy!\n"
-	.string "¡Tienes todas las MEDALLAS!\l"
-	.string "¡Debes de ser muy fuerte!\l"
-	.string "¿Por qué no echamos un combate?\l"
-	.string "¡Vamos si me vences te daré un\l"
-	.string "objeto que no encontrarás en\l"
-	.string "ningún otro lugar!$"
+	.string "Heyy! You've got all the BADGES! Your\n"
+	.string "team must be very strong! Why don't we\l"
+	.string "battle? Come on, if you defeat me I'll\l"
+	.string "give you an object you won't find In any\l"
+	.string "other place!$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_6:
-.string "Entonces, ¿aceptas el reto?$"
+.string "So, do you accept the challenge?$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_7:
-.string "¿Has oído CLEFABLE?\n"
-	.string "¡Vamos a divertirnos!$"
+.string "Did you hear that, CLEFABLE?\n"
+	.string "Let's have some fun!$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_8:
-.string "¡Espléndido!$"
+.string "Splendid!$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_9:
-.string "¡Ha sido increíble!\n"
-	.string "¡Mira!\l"
-	.string "¡Te voy a mostrar el secreto con\l"
-	.string "el que podrás lanzar ATAQUES\l"
-	.string "ESPECIALES con una potencia mayor\l"
-	.string "incluso que la de SABRINA!$"
+	.string "That was amazing! Look! I'm going to\n"
+	.string "show you the secret that you'll be able\l"
+	.string "to use SPECIAL ATTACKS with a power\l"
+	.string "even superior to SABRINA's.$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_10:
 .string "Oh...\n"
-	.string "Qué pena...\l"
-	.string "Pensé que quizás...$"
+	.string "So sad...\l"
+	.string "I thought maybe...$"

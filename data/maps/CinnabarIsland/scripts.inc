@@ -99,9 +99,8 @@ walk_slow_down
 step_end
 
 Cinnabar_Island_Gimnasio_Cerrado_Texto_1:
-.string "(El GIMNASIO parece estar\n"
-	.string "completamente cerrado, mejor ir\l"
-	.string "mientras a por las otras MEDALLAS).$"
+	.string "(GYM is apparently totally closed, I\n"
+	.string "better go for the other BADGES).$"
 
 CinnabarIsland_Escena_8::
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
@@ -123,11 +122,11 @@ release
 end
 
 CinnabarIsland_Escena_8_Texto_1:
-.string "PETREL: ¿¡{PLAYER}!? ¿Ya tienes las 7\n"
-	.string "MEDALLAS? ¡Excelente!$"
+	.string "PETREL: {PLAYER}?! So you already\n"
+	.string "have 7 BADGES? Excellent!$"
 
 CinnabarIsland_Escena_8_Texto_2:
-.string "Escucha {PLAYER}, GIOVANNI en estos\n"
-	.string "momentos está muy ocupado, no puedo\l"
-	.string "darte detalles, pero debes dirigirte al\l"
-	.string "GIMNASIO de CIUDAD VERDE. Nada más.$"
+	.string "Listen {PLAYER}, GIOVANNI is pretty\n"
+	.string "busy right now, I can't share details,\l"
+	.string "but you must go to the VIRIDIAN CITY'S\l"
+	.string "GYM. That's all.$"

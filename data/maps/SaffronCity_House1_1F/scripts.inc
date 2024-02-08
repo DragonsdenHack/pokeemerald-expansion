@@ -9,10 +9,10 @@ release
 end
 
 SafariZone_House11F_Text_1:
-.string "A mi hija le gusta imitar a la\n"
-.string "gente.\p"
-.string "¡Y por eso la gente de por aquí\n"
-.string "le llama la COPIONA!$"
+	.string "My daughter likes to mimic people.\n"
+	.string "It's rather vexing.\p"
+	.string "Her mimicry has earned her the\n"
+	.string "nickname COPYCAT around here.$"
 
 
 
@@ -24,8 +24,8 @@ release
 end
 
 SafariZone_House11F_Text_2:
-.string "¡Mi hija está tan metida en sí\n"
-.string "misma que tiene muy pocos amigos!$"
+	.string "My daughter is so self-centered.\n"
+	.string "She has but a few friends.$"
 
 
 

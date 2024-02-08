@@ -9,10 +9,9 @@ release
 end
 
 SafariZone_House4_Text_1:
-.string "A mí me parece que no hay nada\n"
-.string "más guay que ver luchar a los\l"
-.string "ENTRENADORES.\p"
-.string "¿No te parece?$"
+	.string "I think TRAINERS are so cool when\n"
+	.string "they're battling.\p"
+	.string "Don't you think so, too?$"
 
 
 
@@ -24,10 +23,9 @@ release
 end
 
 SafariZone_House4_Text_2:
-.string "Qué guay es BILL, ¿verdad?\n"
-.string "Me gusta hasta su forma de hablar.\p"
-.string "¡Me encantaría que viniera alguna\n"
-.string "vez por aquí!$"
+	.string "BILL is so cool, right? I like the way he\n"
+	.string "speaks. I would love it if he came here\l"
+	.string "someday!$"
 
 
 
@@ -39,9 +37,10 @@ release
 end
 
 SafariZone_House4_Text_3:
-.string "¿Mm?\n"
-.string "¿Y tú quién eres?\p"
-.string "¿Vienes a apuntarte al CLUB?$"
+	.string "Hmm…\n"
+	.string "And you are?\p"
+	.string "Were you hoping to sign up for\n"
+	.string "a membership in our FAN CLUB?$"
 
 
 
@@ -70,10 +69,9 @@ release
 end
 
 SafariZone_House4_Text_5:
-.string "Quien ha estado en boca de todos\n"
-.string "últimamente es AGATHA.\p"
-.string "Lucha de una manera…\n"
-.string "Como a mí me gusta, vaya.$"
+	.string "Everyone has been talking about AGATHA\n"
+	.string "lately. Her fighting style… I like it a\l"
+	.string "lot.$"
 
 
 
@@ -85,10 +83,10 @@ release
 end
 
 SafariZone_House4_Text_6:
-.string "La verdad es que LORELEI\n"
-.string "impone… A mí me encanta.\p"
-.string "¿Soy yo la única que percibe el\n"
-.string "aura de solemnidad que le rodea?$"
+	.string "The truth is that LORELEI imposes\n"
+	.string "respect… I love her. Am I the only one\l"
+	.string "who perceives her solemnity aura that\l"
+	.string "surrounds her?$"
 
 
 
@@ -100,12 +98,12 @@ release
 end
 
 SafariZone_House4_Text_7:
-.string "¡Hiyah! Solo tengo respeto por\n"
-.string "un ENTRENADOR.\p"
-.string "Por mi MAESTRO. No hay nadie\n"
-.string "como él sobre el DOJO.\p"
-.string "Deberías hacerte su fan, como yo.\n"
-.string "¡Hiyah!$"
+	.string "Hiyah! There is but one TRAINER\n"
+	.string "who has my respect.\p"
+	.string "And that is none other than my\n"
+	.string "MASTER at the FIGHTING DOJO.\p"
+	.string "You should become a fan of my\n"
+	.string "MASTER like me! Hiyah!$"
 
 
 

@@ -9,10 +9,10 @@ release
 end
 
 SafariZone_House2_Text_1:
-.string "Gracias por escribir.\n"
-.string "¡Espero verte pronto!\p"
-.string "¡Oye!\n"
-.string "¡No mires mi carta!$"
+	.string "…Thank you for writing.\n"
+	.string "I hope to see you soon!\p"
+	.string "…Hey!\n"
+	.string "Don't look at my letter!$"
 
 
 
@@ -29,8 +29,8 @@ release
 end
 
 SafariZone_House2_Text_3:
-.string "¡La COPIONA es muy mona!\n"
-.string "¡Voy a darle un POKé MUÑECO!$"
+	.string "The COPYCAT is cute!\n"
+	.string "I'm getting her a POKÉ DOLL.$"
 
 
 
@@ -44,8 +44,8 @@ msgbox SaffronCityHouse2Documento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityHouse2Documento_Text_100:
-.string "Te di un Más PP como regalo.\n"
-	.string "Úsalo para incrementar los PP de\l"
-	.string "un movimiento, te aconsejo usarlo\l"
-	.string "con movimientos potentes que\l"
-	.string "tienen pocos PP.$"
+ 	.string "I was given a PP UP as a gift.\p"
+	.string "It's used to increase the PP of\n"
+	.string "a POKÉMON's move.\p"
+	.string "I should use it on a powerful move\n"
+	.string "with only a few PP.$"

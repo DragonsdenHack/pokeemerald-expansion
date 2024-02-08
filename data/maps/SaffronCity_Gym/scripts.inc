@@ -388,37 +388,34 @@ Vermilion_City_Lider_Gimnasio_Texto_1:
 	.string "I'll fry you with electric shocks too!$"
 
 Vermilion_City_Lider_Gimnasio_Texto_2:
-.string "No puede ser cierto, ¡perdí de\n"
-	.string "nuevo!\l"
-	.string "¡No me queda más remedio que\l"
-	.string "entregarte la MEDALLA TRUENO!$"
+	.string "It can not be true, I lost again! I do\n"
+	.string "not have another option that give you\l"
+	.string "the THUNDERBADGE!$"
 
 Vermilion_City_Lider_Gimnasio_Texto_3:
-.string "Te daré un pequeño consejo, huye\n"
-	.string "de esta región antes de que te\l"
-	.string "explote en la cara toda la furia\l"
-	.string "de LANCE.$"
+	.string "I will give you a little advice, run away\n"
+	.string "of this region before all of the LANCE's\l"
+	.string "fury blows up in your face.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_4:
-.string "No voy a decirte lo que hace la\n"
-	.string "MEDALLA TRUENO si es lo que\l"
-	.string "esperas ROCKET, de todos modos\l"
-	.string "usarás VUELO cuando te de la gana,\l"
-	.string "aunque sí cumpliré mi parte como\l"
-	.string "LÍDER DE GIMNASIO y te entregaré\l"
-	.string "esta MT.$"
+	.string "I am not going to tell you what the\n"
+	.string "THUNDERBADGE does if that is what you\l"
+	.string "are expecting, ROCKET. Anyway, you will\l"
+	.string "use FLY whenever you feel like it, but I\l"
+	.string "will fulfill my part as a GYM LEADER and\l"
+	.string "give you this TM.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_5:
-.string "{PLAYER} recibió la MT34\n"
-	.string "del LT. SURGE.$"
+ .string "{PLAYER} received TM34\n"
+    .string "from LT. SURGE.$"
 
 Vermilion_City_Lider_Gimnasio_Texto_6:
-.string "La MT34 contiene ONDA VOLTIO, es\n"
-	.string "algo menos potente que RAYO pero\l"
-	.string "nunca fallará, ¡si ahora mismo\l"
-	.string "pudiera ordenaría a mi RAICHU\l"
-	.string "usarla sobre ti ROCKET dalo por\l"
-	.string "hecho!$"
+	.string "TM34 contains SHOCK WAVE, it is\n"
+	.string "somewhat less powerful than\l"
+	.string "THUNDERBOLT but it will never miss. If I\l"
+	.string "could right now, I would order my RAICHU\l"
+	.string "to use it on you, ROCKET, consider it\l"
+	.string "done!$"
 
 Pewter_City_Gym_Guy::
 lock
@@ -435,16 +432,15 @@ release
 end
 
 Pewter_City_Gym_Guy_Texto_1:
-.string "Voy a presentar una queja ante el\n"
-	.string "COMITÉ de la LIGA para que\l"
-	.string "prohiban ese espantoso uniforme\l"
-	.string "que llevas, esta maldita moda de\l"
-	.string "reirse del TEAM ROCKET por su\l"
-	.string "fracaso en SILPH debe de terminar.$"
+	.string "I am going to file a complaint with the\n"
+	.string "LEAGUE COMMITTEE to ban that dreadful\l"
+	.string "uniform you are wearing. This cursed\l"
+	.string "trend of making fun of TEAM ROCKET for\l"
+	.string "its failure in SILPH must end.$"
 
 Pewter_City_Gym_Guy_Texto_2:
-.string "¡Llevarás un look pésimo pero le\n"
-	.string "has dado una buena tunda a BROCK!$"
+	.string "Your look might be terrible, but you\n"
+	.string "gave BROCK a good beating!$"
 
 Pewter_City_Estatua::
 compare VAR_ROUTE111_STATE, 1
@@ -468,22 +464,23 @@ release
 end
 
 Pewter_City_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de PLATEADA: BROCK\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO y ANDRA$"
+.string "PEWTER POKÉMON GYM\n"
+    .string "LEADER: BROCK\p"
+    .string "WINNING TRAINERS:\n"
+    .string "BLUE, RED and ANDRA$"
+
 
 Pewter_City_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de PLATEADA: BROCK\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
+.string "PEWTER POKÉMON GYM\n"
+    .string "LEADER: BROCK\p"
+    .string "WINNING TRAINERS:\n"
+    .string "BLUE, RED, ANDRA and {PLAYER}$"
 
 Pewter_City_Estatua_Texto_3:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de PLATEADA: BROCK\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO y ANDRA$"
+.string "PEWTER POKÉMON GYM\n"
+    .string "LEADER: BROCK\p"
+    .string "WINNING TRAINERS:\n"
+    .string "BLUE and RED$"
 
 Pewter_City_Lider_Gimnasio::
 lock
@@ -511,50 +508,48 @@ release
 end
 
 Pewter_City_Lider_Gimnasio_Texto_1:
-.string "Pero qué tenemos aquí, otro\n"
-	.string "aspirante al título, hace nada ha\l"
-	.string "pasado una chica vestida también\l"
-	.string "de ROCKET, parece que está de moda\l"
-	.string "burlarse de su fracaso en SILPH.\l"
-	.string "Sea como sea, mis POKÉMON TIPO\l"
-	.string "ROCA son los más resistentes que\l"
-	.string "verás, ¿de verdad piensas retarme\l"
-	.string "sabiendo que perderas?$"
+	.string "Oh, so we have another challenger for\n"
+	.string "the title, just now a girl dressed as a\l"
+	.string "ROCKET also passed by, it seems like\l"
+	.string "it's fashionable to mock their failure\l"
+	.string "at SILPH. Anyway, my ROCK-TYPE\l"
+	.string "POKÉMONS are the most resilient you'll\l"
+	.string "see, are you still sure about\l"
+	.string "challenging me knowing you'll lose?$"
 
 Pewter_City_Lider_Gimnasio_Texto_1.1:
-	.string "¡Te mueve el orgullo de ENTRENADOR\n"
-	.string "eh!\l"
-	.string "¡Entonces muéstrame tu mejor\l"
-	.string "versión!$"
+	.string "That's the TRAINER's honor that\n"
+	.string "compels you to challenge me.\p"
+	.string "Fine, then!\n"
+	.string "Show me your best!$"
 
 Pewter_City_Lider_Gimnasio_Texto_2:
-.string "Te he subestimado.\p"
-	.string "¡Como prueba de tu victoria, aquí\n"
-	.string "tienes la MEDALLA ROCA!$"
+	.string "I took you for granted, and so\n"
+	.string "I lost.\p"
+	.string "As proof of your victory, I confer\n"
+	.string "on you this…the official POKÉMON\l"
+	.string "LEAGUE BOULDERBADGE.$"
 
 Pewter_City_Lider_Gimnasio_Texto_3:
-.string "Vaya, hoy no es mi día, primero\n"
-	.string "esa chica y ahora tú, en fin,\l"
-	.string "parece que tienes talento chico,\l"
-	.string "si lo pones al servicio del bien\l"
-	.string "podrás hacer de esta región un\l"
-	.string "lugar mucho mejor para vivir...$"
+	.string "Well, today isn't my day. First that girl,\n"
+	.string "and now you. Anyway, it seems like you\l"
+	.string "have talent, young man. If you use it\l"
+	.string "for good, you could make this region a\l"
+	.string "much better place to live.$"
 
 Pewter_City_Lider_Gimnasio_Texto_4:
-.string "¡Espera!\n"
-	.string "Llévate esto contigo.$"
+	.string "Wait!\n"
+	.string "Take this with you.$"
 
 Pewter_City_Lider_Gimnasio_Texto_5:
-.string "{PLAYER} recibió MT39\n"
-	.string "de BROCK.$"
+	.string "{PLAYER} received TM39\n"
+	.string "from BROCK.$"
 
 Pewter_City_Lider_Gimnasio_Texto_6:
-.string "Contiene TUMBA ROCAS, no solo\n"
-	.string "podrás golpear con cierta potencia\l"
-	.string "al rival, sino que también le\l"
-	.string "reducirás en un nivel su\l"
-	.string "velocidad, ideal para tipos ROCA\l"
-	.string "lentos como GRAVELER o RHYDON.$"
+	.string "TM39 contains ROCK TOMB, It hurls\n"
+	.string "boulders at the foe and lowers its\l"
+	.string "SPEED, ideal for slow ROCK type as\l"
+	.string "GRAVELER or RHYDON.$"
 
 Cerulean_City_Gym_Guy::
 lock
@@ -571,14 +566,14 @@ release
 end
 
 Cerulean_City_Gym_Guy_Texto_1:
-.string "Déjame darte un consejo chaval, ni\n"
-	.string "se te ocurra presentarte así ante\l"
-	.string "la ÉLITE 4, ni siquiera de broma.$"
+	.string "Lemme advice you something, kid, don't\n"
+	.string "you dare show up like that in front of\l"
+	.string "the ELITE 4, not even jokingly.$"
 
 Cerulean_City_Gym_Guy_Texto_2:
-.string "¡Las apariencias engañan!\n"
-	.string "¡Así que usaste el uniforme ROCKET\l"
-	.string "para despistar a MISTY, eh!$"
+	.string "Don't judge a book by its cover! So you\n"
+	.string "used the TEAM ROCKET uniform to throw\l"
+	.string "off MISTY, huh!$"
 
 Cerulean_City_Estatua::
 compare VAR_UNUSED_0x40F7, 22
@@ -607,28 +602,29 @@ release
 end
 
 Cerulean_City_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CELESTE: MISTY\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO y ANDRA$"
+	.string "CERULEAN POKÉMON GYM\n"
+	.string "LEADER: MISTY\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED and ANDRA$"
 
 Cerulean_City_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CELESTE: MISTY\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
+	.string "CERULEAN POKÉMON GYM\n"
+	.string "LEADER: MISTY\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED, ANDRA and {PLAYER}$"
+
 
 Cerulean_City_Estatua_Texto_3:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CELESTE: MISTY\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL y ROJO$"
+	.string "CERULEAN POKÉMON GYM\n"
+	.string "LEADER: MISTY\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE and RED$"
 
 Cerulean_City_Estatua_Texto_4:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CELESTE: MISTY\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "¡Está vacío!$"
+	.string "CERULEAN POKÉMON GYM\n"
+	.string "LEADER: MISTY\p"
+	.string "WINNING TRAINERS:\n"
+	.string "It is empty!$"
 
 Cerulean_City_Lider_Gimnasio::
 lock
@@ -657,44 +653,42 @@ end
 
 
 Cerulean_City_Lider_Gimnasio_Texto_1:
-.string "¡Hola! ¡Tú no eres de por aquí!\p"
-	.string "¡Los ENTRENADORES profesionales\n"
-	.string "deben tener una estrategia para\l"
-	.string "sus POKéMON!\p"
-	.string "¿Qué táctica sigues tú para\n"
-	.string "atrapar y entrenar POKéMON?$"
+   .string "Hi, you're a new face!\p"
+	.string "Only those TRAINERS who have a\n"
+	.string "policy about POKÉMON can turn pro.\p"
+	.string "What is your approach when you\n"
+	.string "catch and train POKÉMON?$"
 
 Cerulean_City_Lider_Gimnasio_Texto_1.1:
-	.string "¡Mi táctica es la ofensiva total\n"
-	.string "con los POKéMON del TIPO AGUA!$"
+	.string "My policy is an all-out offensive\n"
+	.string "with WATER-type POKÉMON!$"
 
 Cerulean_City_Lider_Gimnasio_Texto_2:
-.string "¡Uauuu!\n"
-	.string "¡Eres demasiado!\p"
-	.string "¡Muy bien!\p"
-	.string "¡Toma la MEDALLA CASCADA para que\n"
-	.string "todos sepan que me has ganado!$"
+	.string "Wow!\n"
+	.string "You're too much!\p"
+	.string "All right!\p"
+	.string "You can have the CASCADEBADGE to\n"
+	.string "show you beat me.$"
 
 Cerulean_City_Lider_Gimnasio_Texto_3:
-.string "La MT03 contiene HIDROPULSO, no es\n"
-	.string "tan potente como SURF o ESCALDAR,\l"
-	.string "¡pero confundirá al rival en un\l"
-	.string "20% de los casos!$"
+	.string "TM03 teaches WATER PULSE, it is not as\n"
+	.string "strong as SURF or SCALD are, but it has\l"
+	.string "a 20% chance to confuse the enemy!$"
 
 Cerulean_City_Lider_Gimnasio_Texto_4:
-.string "¡La MEDALLA CASCADA obligará a\n"
-	.string "todos los POKéMON por debajo del\l"
-	.string "nivel 30 a obedecer!\p"
-	.string "¡Incluidos los forasteros!\p"
-	.string "¡Y podrás usar CORTAR siempre que\n"
-	.string "quieras!\p"
-	.string "¡Puedes CORTAR pequeños arbustos\n"
-	.string "para abrir nuevos caminos!\p"
-	.string "¡Voy a darte mi MT favorita!$"
+	.string "The CASCADEBADGE makes all\n"
+	.string "POKÉMON up to LV. 30 obey.\p"
+	.string "That includes even outsiders you\n"
+	.string "got in trades.\p"
+	.string "There's more. You can now use CUT\n"
+	.string "anytime, even out of battle.\p"
+	.string "You can CUT down small trees to\n"
+	.string "open new pathways.\p"
+	.string "You can also have my favorite TM.$"
 
 Cerulean_City_Lider_Gimnasio_Texto_5:
-.string "{PLAYER} recibió la MT03\n"
-	.string "de MISTY.$"
+	.string "{PLAYER} received TM03\n"
+	.string "from MISTY.$"
 
 Fuchsia_City_Gym_Guy::
 lock
@@ -711,16 +705,14 @@ release
 end
 
 Fuchsia_City_Gym_Guy_Texto_1:
-.string "¿Cómo?\n"
-	.string "¡Pero yo a ti te conozco!\l"
-	.string "¿Qué broma es esta?\l"
-	.string "¡Habrás engañado al sistema pero\l"
-	.string "no a mi!$"
+	.string "What? But I know you! What kind of joke\n"
+	.string "is this?! You may have fooled the\l"
+	.string "system, but not me!$"
 
 Fuchsia_City_Gym_Guy_Texto_2:
-.string "¡Esto es una farsa!\n"
-	.string "¡Me quejaré a la LIGA POKÉMON!\l"
-	.string "¡Sé que eres un ROCKET real!$"
+	.string "This is a farce! I am going to complain\n"
+	.string "about this to POKÉMON LEAGUE! I know\l"
+	.string "you are a real ROCKET!$"
 
 Fuchsia_City_Estatua::
 compare VAR_ROUTE106_STATE, 0
@@ -742,22 +734,22 @@ release
 end
 
 Fuchsia_City_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de FUCSIA: KOGA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO y ANDRA$"
+	.string "FUCHSIA POKÉMON GYM\n"
+	.string "LEADER: KOGA\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED and ANDRA$"
 
 Fuchsia_City_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de FUCSIA: KOGA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
+	.string "FUCHSIA POKÉMON GYM\n"
+	.string "LEADER: KOGA\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED, ANDRA and {PLAYER}$"
 
 Fuchsia_City_Estatua_Texto_3:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de FUCSIA: KOGA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL y ROJO$"
+	.string "FUCHSIA POKÉMON GYM\n"
+	.string "LEADER: KOGA\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE and RED$"
 
 Fuchsia_City_Lider_Gimnasio::
 lock
@@ -790,60 +782,55 @@ release
 end
 
 Fuchsia_City_Lider_Gimnasio_Texto_1:
-.string "KOGA: ¡{PLAYER}!\n"
-	.string "¡Has vuelto!\l"
-	.string "¡Así que vas a meterte en la boca\l"
-	.string "del lobo retando a la LIGA\l"
-	.string "POKÉMON!\l"
-	.string "Desde aquí tienes todo mi apoyo\l"
-	.string "{PLAYER}, nunca olvidaré lo que\l"
-	.string "hiciste por los MOTORISTAS y por\l"
-	.string "KANTO en general.$"
+	.string "KOGA: {PLAYER}! You are back! So you\n"
+	.string "will venture into the lion's den\l"
+	.string "challenging the POKÉMON LEAGUE! From\l"
+	.string "here you have all my support,\l"
+	.string "{PLAYER}, I will never forget what you\l"
+	.string "did for the BIKERS and KANTO also.$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_1.1:
-.string "No te lo pondré fácil {PLAYER},\n"
-	.string "nadie maneja los POKÉMON del TIPO\l"
-	.string "VENENO como yo, ¡ni siquiera los\l"
-	.string "EJECUTIVOS ROCKET!$"
+	.string "I won't make it easy for you {PLAYER},\n"
+	.string "no one handles POISON TYPE POKÉMON\l"
+	.string "like me, not even the ROCKET\l"
+	.string "EXECUTIVES!$"
 
 
 Fuchsia_City_Lider_Gimnasio_Texto_2:
-.string "No esperaba menos de ti,\n"
-	.string "mereces la confianza de GIOVANNI y\l"
-	.string "de todo el que luche por una KANTO\l"
-	.string "mejor.\l"
-	.string "¡Aquí tienes la MEDALLA ALMA!$"
+	.string "I didn't expect less from you, you\n"
+	.string "deserve GIOVANNI's trust and everyone\l"
+	.string "who battles for a better KANTO. Here\l"
+	.string "you have the SOULBADGE!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_3:
-.string "Unirte al TEAM ROCKET es lo mejor\n"
-	.string "que pudiste hacer, mírate, te ha\l"
-	.string "forjado un gran carácter y\l"
-	.string "personalidad, eres conocedor de la\l"
-	.string "verdad que esta región esconde,\l"
-	.string "ese ROJO en cambio vive en su\l"
-	.string "mundo de fantasía, cree que esto\l"
-	.string "es un juego, ¡hazme el favor de\l"
-	.string "darle a ese niño malcriado una\l"
-	.string "buena dosis de realidad si te\l"
-	.string "cruzas con él en la LIGA!$"
+	.string "Joining TEAM ROCKET was the best\n"
+	.string "decision you made, look at you, you've\l"
+	.string "built up a strong character and\l"
+	.string "personality, understanding the truths\l"
+	.string "hidden within this region, whereas RD\l"
+	.string "lives in his fantasy world, believing\l"
+	.string "this is just a game, do me the favor of\l"
+	.string "delivering a hefty dose of reality to\l"
+	.string "that spoiled child if you encounter him\l"
+	.string "in the LEAGUE!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_4:
-.string "¡Ahora que tienes la MEDALLA ALMA,\n"
-	.string "la DEFENSA de tus POKéMON\l"
-	.string "aumentará!\p"
-	.string "¡Y podrás hacer SURF siempre\n"
-	.string "que quieras!\p"
-	.string "¡Ah!\n"
-	.string "¡Llévate esto también!$"
+	.string "Now that you have the SOULBADGE,\n"
+	.string "the DEFENSE of your POKÉMON rises.\p"
+	.string "It also lets you SURF outside of\n"
+	.string "battle.\p"
+	.string "Ah!\n"
+	.string "Take this, too!$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_5:
-.string "¡{PLAYER} obtuvo la MT06\n"
-	.string "de manos de KOGA!$"
+	.string "{PLAYER} received TM06\n"
+	.string "from KOGA.$"
 
 Fuchsia_City_Lider_Gimnasio_Texto_6:
-.string "¡La MT06 contiene TÓXICO!\p"
-	.string "¡Es una técnica secreta de hace\n"
-	.string "más de 400 años!$"
+	.string "Sealed within that TM06 lies\n"
+	.string "TOXIC!\p"
+	.string "It is a secret technique dating\n"
+	.string "back some four hundred years.$"
 
 Cinnabar_Island_Lider_Gimnasio::
 lock
@@ -889,16 +876,16 @@ release
 end
 
 Cinnabar_Island_Gym_Estatuas_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CANELA: BLAINE\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO y ANDRA$"
+	.string "CINNABAR POKÉMON GYM\n"
+	.string "LEADER: BLAINE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED and ANDRA$"
 
 Cinnabar_Island_Gym_Estatuas_Texto_2:
-	.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de CANELA: BLAINE\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
+	.string "CINNABAR POKÉMON GYM\n"
+	.string "LEADER: BLAINE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "BLUE, RED, ANDRA and {PLAYER}$"
 
 
 Cinnabar_Island_Gym_Guy::
@@ -916,59 +903,56 @@ release
 end
 
 Cinnabar_Island_Gym_Guy_Texto_1:
-.string "Entonces, ¿ahora está de moda ir de\n"
-	.string "ROCKET por lo del fracaso en SILPH? ¡Se\l"
-	.string "lo tienen merecido!$"
+	.string "So, is it on trend to dress as ROCKET\n"
+	.string "for their failure at SILPH? They\l"
+	.string "deserved it, hah!$"
 
 Cinnabar_Island_Gym_Guy_Texto_2:
-.string "No sé porqué, pero contigo ha usado un\n"
-	.string "equipo más potente que contra un\l"
-	.string "chaval que paso por aquí hace no\l"
-	.string "mucho. Pero aún así, ¡has ganado a esa\l"
-	.string "antorcha con patas!$"
+	.string "I dont know why, but with you, he used a\n"
+	.string "more powerful team than against a kid\l"
+	.string "who passed through here not long ago.\l"
+	.string "But still, you've defeated that walking\l"
+	.string "torch!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1:
-.string "¡Ja!\p"
-	.string "¡Soy BLAINE! ¡LÍDER del GIMNASIO\n"
-	.string "de CANELA!\p"
-	.string "¡Mis feroces POKéMON de FUEGO\n"
-	.string "quemarán a quien me desafíe!$"
+.string "Hah!\p" 
+.string "I am BLAINE, the red-hot LEADER\n" 
+.string "of CINNABAR GYM!\p" 
+.string "My fiery POKÉMON are all rough\n" 
+.string "and ready with intense heat!\p" 
+.string "They incinerate all challengers!\p"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1.1:
-.string "¡Ja! ¡Más vale que tengas\n"
-	.string "ANTIQUEMAR!$"
+.string "Hah!\n"
+    .string "You better have BURN HEAL!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_2:
-.string "¡Me has machacado!\n"
-	.string "¡He quedado reducido a nada!\p"
-	.string "¡Has ganado la MEDALLA VOLCÁN!$"
+.string "I have burned down to nothing!\n"
+.string "Not even ashes remain!\p"
+.string "You have earned the VOLCANOBADGE.$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_3:
-.string "La MT38 contiene LLAMARADA, muy\n"
-	.string "pocos movimientos tienen un ratio\l"
-	.string "POTENCIA-PRECISIÓN mejor, es el\l"
-	.string "movimiento fuego universal por\l"
-	.string "excelencia.\l"
-	.string "¡MAGMAR o CHARIZARD harán\l"
-	.string "destrozos con ello debido a sus\l"
-	.string "buenos ATAQUES ESPECIALES!$"
+	.string "The TM38 contains FIRE BLAST; very few\n"
+	.string "moves have a better POWER-ACCURACY\l"
+	.string "ratio, it's the perfect universal fire\l"
+	.string "move. MAGMAR or CHARIZARD will destroy\l"
+	.string "their enemies with this and their great\l"
+	.string "SPECIAL ATTACK!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_4:
-.string "¡Ja!\p"
-	.string "¡La MEDALLA VOLCÁN mejora las\n"
-	.string "habilidades ESPECIALES de tus\l"
-	.string "POKéMON!\p"
-	.string "¡Mira, también te daré esto!$"
+.string "Hah!\p"
+    .string "The VOLCANOBADGE heightens the\n"
+    .string "SPECIAL stats of your POKÉMON.\p"
+    .string "Here, you can have this, too!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_5:
-.string "¡{PLAYER} recibió la MT38\n"
-	.string "de manos de BLAINE!$"
+.string "{PLAYER} received TM38\n"
+    .string "from BLAINE.$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_6:
-.string "¡LLAMARADA es lo máximo en la\n"
-	.string "técnica de las quemaduras!\p"
-	.string "¡No la malgastes con los POKéMON\n"
-	.string "acuáticos!$"
+.string "FIRE BLAST is the ultimate fire\n"
+    .string "technique.\p"
+    .string "Don't waste it on WATER POKÉMON.$"
 
 Celadon_Ciyy_Estatua::
 compare VAR_ROUTE107_STATE, 0
@@ -990,22 +974,22 @@ release
 end
 
 Celadon_Ciyy_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de AZULONA: ERIKA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO y ANDRA$"
+ .string "CELADON POKÉMON GYM\n"
+    .string "LEADER: ERIKA\p"
+    .string "WINNING TRAINERS:\n"
+    .string "BLUE, RED and ANDRA$"
 
 Celadon_Ciyy_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de AZULONA: ERIKA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
+ .string "CELADON POKÉMON GYM\n"
+    .string "LEADER: ERIKA\p"
+    .string "WINNING TRAINERS:\n"
+    .string "BLUE, RED, ANDRA and {PLAYER}$"
 
 Celadon_Ciyy_Estatua_Texto_3:
-.string "LÍDER del GIMNASIO POKéMON\n"
-	.string "de AZULONA: ERIKA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "AZUL y ROJO$"
+.string "CELADON POKÉMON GYM\n"
+    .string "LEADER: ERIKA\p"
+    .string "WINNING TRAINERS:\n"
+    .string "BLUE, RED$"
 
 
 Celadon_Ciyy_Lider_Gimnasio::
@@ -1041,48 +1025,50 @@ end
 
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_1:
-.string "¡Hola! ¡Qué buen tiempo hace!\n"
-	.string "Es tan agradable.\p"
-	.string "¡Ah, hola!... ¡Debo de haberme\n"
-	.string "dormido! ¿Qué tal?\p"
-	.string "Me llamo ERIKA. Soy la LÍDER del\n"
-	.string "GIMNASIO de CIUDAD AZULONA.\p"
-	.string "Enseño el arte de las flores.\n"
-	.string "Mis POKéMON son del tipo PLANTA.\p"
-	.string "¡Oh, perdona! ¡No tenía ni idea de\n"
-	.string "que quisieras desafiarme!$"
+.string "Hello…\n"
+    .string "Lovely weather, isn't it?\l"
+    .string "It's so pleasant…\p"
+    .string "…Oh, dear…\n"
+    .string "I must have dozed off. Welcome.\p"
+    .string "My name is ERIKA.\n"
+    .string "I am the LEADER of CELADON GYM.\p"
+    .string "I am a student of the art of\n"
+    .string "flower arranging.\p"
+    .string "My POKÉMON are solely of the\n"
+    .string "GRASS type.\p"
+    .string "…Oh, I'm sorry, I had no idea that\n"
+    .string "you wished to challenge me.\p"
 	
 Celadon_Ciyy_Lider_Gimnasio_Texto_1.1:
-.string "¡Como quieras! ¡No pienso perder!$"
+ .string "Very well, but I shall not lose.$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_2:
-.string "¡Reconozco mi derrota!\p"
-	.string "Eres muy fuerte.\p"
-	.string "Te voy a dar la MEDALLA ARCOIRIS.$"
+.string "Oh!\n"
+    .string "I concede defeat.\l"
+    .string "You are remarkably strong.\p"
+    .string "I must confer on you the\n"
+    .string "RAINBOWBADGE.$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_3:
-.string "¿Estás estudiando a los POKéMON?\n"
-	.string "Admito que me has impresionado.\p"
-	.string "No coleccionaría POKéMON si\n"
-	.string "fueran feos.$"
+ .string "You are cataloging POKÉMON?\n"
+    .string "I must say I'm impressed.\p"
+    .string "I would never collect POKÉMON if\n"
+    .string "they were unattractive.$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_4:
-.string "La MEDALLA ARCOIRIS hará que los\n"
-	.string "POKéMON de nivel inferior a 50 te\l"
-	.string "obedezcan.\p"
-	.string "Y permitirá que los POKéMON usen\n"
-	.string "FUERZA siempre que quieras.\p"
-	.string "¡Ah, llévate esto también!$"
+.string "The RAINBOWBADGE will make\n"
+    .string "POKÉMON up to Lv. 50 obey.\p"
+    .string "It also allows POKÉMON to use\n"
+    .string "STRENGTH in and out of battle.\p"
+    .string "Please also take this with you.$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_5:
-.string "{PLAYER} recibió la MT19\n"
-	.string "de ERIKA.$"
+.string "{PLAYER} received TM19\n"
+    .string "from ERIKA.$"
 
 Celadon_Ciyy_Lider_Gimnasio_Texto_6:
-.string "La MT19 contiene GIGADRENADO, no\n"
-	.string "solo cuenta con unos más que\l"
-	.string "decentes 75 de potencia, sino que\l"
-	.string "absorberá la mitad de la salud que\l"
-	.string "le restes al rival y te\l"
-	.string "recuperarás con ella, ¿no es\l"
-	.string "genial?$"
+.string "TM19 contains GIGA DRAIN.\p"
+    .string "Half the damage it inflicts is\n"
+    .string "drained to heal your POKÉMON.\p"
+    .string "Wouldn't you agree that it's a\n"
+    .string "wonderful move?$"

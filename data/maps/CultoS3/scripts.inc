@@ -59,8 +59,9 @@ release
 end
 
 CultoS3_Text_1:
-.string "Si no crees en un sistema serás\n"
-.string "esclavizado por el de otro.$"
+	.string "Dude, if you don't believe in one system,\n"
+	.string "you're gonna be totally owned by\l"
+	.string "another.$"
 
 
 
@@ -72,9 +73,9 @@ release
 end
 
 CultoS3_Text_3:
-.string "La mayoría de personas ni está\n"
-.string "preparada ni merece tener acceso a\l"
-.string "un lugar así.$"
+	.string "The majority of individuals are neither\n"
+	.string "prepared nor deserving of access to\l"
+	.string "such a place.$"
 
 
 
@@ -86,12 +87,11 @@ release
 end
 
 CultoS3_Text_4:
-.string "Pobres esas almas que confunden lo\n"
-.string "que quieren con lo que les\l"
-.string "apetece, creyéndose libres, no son\l"
-.string "más que marionetas dictadas por\l"
-.string "todo cuanto su química les ordene,\l"
-.string "carentes de voluntad.$"
+	.string "It's sad for those who mix up what they\n"
+	.string "want with what they crave, thinking\l"
+	.string "they're free when they're just puppets\l"
+	.string "controlled by their own chemistry, with\l"
+	.string "no willpower.$"
 
 
 
@@ -103,10 +103,9 @@ release
 end
 
 CultoS3_Text_7:
-.string "La esencia contenida en este lugar\n"
-.string "trasciende nuestra propia\l"
-.string "existencia, no encontrarás un\l"
-.string "lugar así en todo KANTO.$"
+	.string "The essence contained within this\n"
+	.string "place transcends our own existence;\l"
+	.string "you won't find such a place in KANTO.$"
 
 
 
@@ -118,9 +117,8 @@ release
 end
 
 CultoS3_Text_8:
-.string "Este lugar nos da todo cuanto\n"
-.string "necesitamos, ¿por qué ibamos a\l"
-.string "cambiarlo?$"
+	.string "Why would we change this place when it\n"
+	.string "gives us everything we need?$"
 
 
 
@@ -132,9 +130,10 @@ release
 end
 
 CultoS3_Text_9:
-.string "No recuerdo la última vez que\n"
-.string "tuvimos visita del exterior, pero\l"
-.string "no acabó muy bien...$"
+	.string "I can't even remember the last time we\n"
+	.string "had someone from the outside visit, but\l"
+	.string "let me tell you, it didn't go down too\l"
+	.string "well.$"
 
 
 
@@ -146,11 +145,9 @@ release
 end
 
 CultoS3_Text_10:
-.string "¡La esencia está aquí!\n"
-.string "¿No la ves?\l"
-.string "¡Es tuya!\l"
-.string "¡Cógela antes de que se te escape\l"
-.string "de entre los dedos!$"
+	.string "The essence is here! Can't you see it?\n"
+	.string "It's yours! Seize it before it slips away\l"
+	.string "from your grasp!$"
 
 
 
@@ -162,17 +159,14 @@ release
 end
 
 CultoS3_Text_11:
-.string "Este lugar es más antiguo que la\n"
-.string "propia TORRE POKÉMON, que fue\l"
-.string "creada como un mero complemento\l"
-.string "para los rituales más suaves\l"
-.string "accesibles al público, hace tanto\l"
-.string "que perdimos el contacto con el\l"
-.string "exterior que la existencia de esta\l"
-.string "gran cámara subterránea ha sido\l"
-.string "borrada de la memoria de incluso\l"
-.string "los más ancianos de PUEBLO\l"
-.string "LAVANDA.$"
+	.string "This place is older than POKÉMON TOWER,\n"
+	.string "which was just made as an add-on for\l"
+	.string "the gentler rituals open to the public.\l"
+	.string "It's been so long since we lost touch\l"
+	.string "with the outside world that even the\l"
+	.string "oldest folks in LAVENDER TOWN don't\l"
+	.string "remember this massive underground\l"
+	.string "chamber.$"
 
 
 
@@ -184,9 +178,9 @@ release
 end
 
 CultoS3_Text_12:
-.string "Potencialidad infinita, eso es lo\n"
-.string "que siento cuando cierro los ojos\l"
-.string "y admiro la energía de este lugar.$"
+	.string "Infinite potential, that's what I feel\n"
+	.string "when I close my eyes and soak in the\l"
+	.string "energy of this place.$"
 
 
 
@@ -198,12 +192,11 @@ release
 end
 
 CultoS3_Text_13:
-.string "Nosotros solo somos meros\n"
-.string "observadores ante todo lo que\l"
-.string "ocurre en KANTO, hace tiempo que\l"
-.string "desde aquí montamos una realidad\l"
-.string "alternativa a los juegos de poder\l"
-.string "que rigen al exterior.$"
+	.string "We are mere observers of everything\n"
+	.string "happening in KANTO. It's been a while\l"
+	.string "since we've constructed an alternate\l"
+	.string "reality here, apart from the power\l"
+	.string "games ruling the region.$"
 
 
 
@@ -215,15 +208,14 @@ release
 end
 
 CultoS3_Text_14:
-.string "Todo fluye y refluye, todo tiene\n"
-.string "sus períodos de avance y\l"
-.string "retroceso, todo asciende y\l"
-.string "desciende, todo se mueve como un\l"
-.string "péndulo, la medida de su\l"
-.string "movimiento hacia la derecha es la\l"
-.string "misma que la de su movimiento\l"
-.string "hacia la izquierda, el ritmo es la\l"
-.string "compensación.$"
+           .string "Everything flows and ebbs, everything\n"
+	.string "has its periods of advancement and\l"
+	.string "regression, everything ascends and\l"
+	.string "descends, everything moves like a\l"
+	.string "pendulum; the measure of its movement\l"
+	.string "to the right is equal to that of its\l"
+	.string "movement to the left, rhythm is the\l"
+	.string "compensation.$"
 
 
 
@@ -235,9 +227,8 @@ release
 end
 
 CultoS3_Text_15:
-.string "La libertad interior puede elevar\n"
-.string "al hombre por encima de un destino\l"
-.string "adverso.$"
+	.string "Having inner freedom can actually lift\n"
+	.string "you up above a tough fate.$"
 
 
 
@@ -251,8 +242,8 @@ end
 CultoS3_Text_16:
 .string "...\n"
 .string "...\l"
-.string "Un lugar menos placentero pero en\l"
-.string "el que ocurren las cosas más\l"
+.string "A less pleasurable place, but where the\l"
+.string "most important things happen.\l"
 .string "importantes.\l"
 .string "...\l"
 .string "...$"
@@ -267,9 +258,9 @@ release
 end
 
 CultoS3_Text_17:
-.string "Aquel que abraza su destino vive\n"
-.string "largos años, y el que se rebela\l"
-.string "recibe su castigo.$"
+	.string "Those who embrace their destiny live\n"
+	.string "long lives, while those who rebel\l"
+	.string "receive their punishment.$"
 
 
 
@@ -281,9 +272,8 @@ release
 end
 
 CultoS3_Text_18:
-.string "Las flores que han florecido en la\n"
-.string "adversidad son las más bellas de\l"
-.string "todas.$"
+	.string "Flowers that bloom in adversity are the\n"
+	.string "most beautiful ones.$"
 
 
 
@@ -295,16 +285,12 @@ release
 end
 
 CultoS3_Text_19:
-.string "¿Por qué honrar y elevar unas\n"
-.string "almas por encima de otras, como es\l"
-.string "el caso de este monumento\l"
-.string "funerario?\l"
-.string "Creemos que lo que hacemos en la\l"
-.string "vida tiene su eco en la eternidad,\l"
-.string "no se trata de minusvalorar al\l"
-.string "resto de almas, si no de resaltar\l"
-.string "aquellas que lograron la\l"
-.string "excelencia.$"
+	.string "Why do we honor and lift some souls\n"
+	.string "above others, like this funeral\l"
+	.string "monument? We believe our actions in\l"
+	.string "life echo in eternity. It's not about\l"
+	.string "devaluing other souls, but recognizing\l"
+	.string "those who excelled.$"
 
 
 
@@ -316,10 +302,9 @@ release
 end
 
 CultoS3_Text_20:
-.string "GASTLY, HAUNTER y GENGAR no son\n"
-.string "los únicos fantasmas que PUEBLO\l"
-.string "LAVANDA guarda en sus más ocultos\l"
-.string "rincones.$"
+	.string "GASTLY, HAUNTER and GENGAR are not the\n"
+	.string "only ghosts that LAVENDER TOWN\l"
+	.string "harbors in its most hidden corners.$"
 
 
 
@@ -331,10 +316,9 @@ release
 end
 
 CultoS3_Text_21:
-.string "La flor perfecta es algo muy raro,\n"
-.string "puedes entregarte a la búsqueda de\l"
-.string "una sola, y no habrás malgastado\l"
-.string "tu vida.$"
+	.string "The perfect flower is very rare; you can\n"
+	.string "spend your entire life searching for\l"
+	.string "just one, and you won't have wasted it.$"
 
 
 
@@ -346,9 +330,9 @@ release
 end
 
 CultoS3_Text_22:
-.string "A más de uno le explotaría la\n"
-.string "cabeza si viera la que tenemos\l"
-.string "aquí montada.$"
+	.string "Dude, if anyone saw the crazy setup\n"
+	.string "we've got here, their head would\l"
+	.string "explode.$"
 
 
 
@@ -360,8 +344,7 @@ release
 end
 
 CultoS3_Text_23:
-.string "Sin importar el modo, sirve a tus\n"
-.string "ideales.$"
+	.string "No matter how, serve your ideals.$"
 
 
 

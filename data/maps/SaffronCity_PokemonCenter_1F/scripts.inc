@@ -27,10 +27,9 @@ release
 end
 
 SaffronCity_PokemonCenter_Text_2:
-.string "SILPH es conocido por todos aquí,\n"
-.string "ha sido víctima de su fama, lo que\l"
-.string "no os da derecho para hacer lo que\l"
-.string "habéis hecho.$"
+	.string "Everyone here knows what SILPH is, it\n"
+	.string "has been a victim of its fame, which\l"
+	.string "does not allow you to do what you did.$"
 
 
 
@@ -42,9 +41,9 @@ release
 end
 
 SaffronCity_PokemonCenter_Text_3:
-.string "AZAFRÁN es el centro financiero de\n"
-.string "KANTO, por mucho que insistáis\l"
-.string "jamás caeremos.$"
+	.string "SAFFRON is the financial center of\n"
+	.string "KANTO, no matter how much you insist, we\l"
+	.string "won't fall.$"
 
 
 
