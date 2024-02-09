@@ -28,11 +28,10 @@ release
 end
 
 Route20_Text_7:
-.string "Muchos entrenadores expertos en el\n"
-.string "tipo agua suelen frecuentar este\l"
-.string "lugar.\l"
-.string "Dicen que MISTY, de CIUDAD\l"
-.string "CELESTE, se entrena por aquí.$"
+	.string "Strong TRAINERS and WATER POKÉMON\n"
+	.string "are common sights in these parts.\p"
+	.string "They say that MISTY of the\n"
+	.string "CERULEAN GYM trains here.$"
 
 Route20_8::
 end
@@ -146,9 +145,9 @@ release
 end
 
 Ruta_20_Barrera_Sur_Texto_1:
-.string "(No estoy de vacaciones para\n"
-	.string "ponerme a explorar KANTO, tengo\l"
-	.string "cosas más importantes que hacer).$"
+	.string "(I am not on vacation to explore KANTO\n"
+	.string "right now, I have more important things\l"
+	.string "to do).$"
 
 Ruta_20_Barrera_Sur_Move_1:
 walk_in_place_left

@@ -179,24 +179,21 @@ release
 end
 
 CinnabarMansionS2Documento_Text_105:
-	.string "NÚMERO 1: MEWTWO\p"
-	.string "PS: 106\n"
-	.string "ATAQUE: 110\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 154\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 130\l"
+	.string "NUMBER 1: MEWTWO\p"
+	.string "HP: 106\n"
+	.string "ATTACK: 110\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 154\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 130\l"
 	.string "TOTAL: 680\p"
-	.string "Un POKÉMON hecho para gobernar\n"
-	.string "regiones con puño de hierro, su\l"
-	.string "relación ofensivo-defensiva no\l"
-	.string "conoce igual, y sus poderes\l"
-	.string "PSÍQUICOS, a pesar de haber sido\l"
-	.string "superados por DEOXYS, sigue\l"
-	.string "guardando un potencial aún por\l"
-	.string "explotar que podría hacerle rondar\l"
-	.string "los 200 de BASE en esta\l"
-	.string "estadística.$"
+	.string "A POKÉMON designed to rule regions with\n"
+	.string "an iron fist, its offensive-defensive\l"
+	.string "ratio is unmatched, although its\l"
+	.string "PSYCHIC powers are inferior to DEOXYS.\l"
+	.string "It still hold untapped potential that\l"
+	.string "could push its BASE special attack\l"
+	.string "close to 200.$"
 
 
 
@@ -207,22 +204,19 @@ release
 end
 
 CinnabarMansionS2Documento_Text_106:
-	.string "HO-OH, LUGIA, RAYQUAZA...\n"
-	.string "Todos ellos son POKÉMON\l"
-	.string "formidables, pero inviables para\l"
-	.string "experimentar con ellos y poner en\l"
-	.string "práctica modificaciones que puedan\l"
-	.string "incrementar su ya de por sí vasto\l"
-	.string "poder. En cambio, MEW es otra\l"
-	.string "historia, posee la mejor base\l"
-	.string "genética, tanto por maleabilidad\l"
-	.string "como por posibles combinaciones,\l"
-	.string "esto nos induce a pensar que con\l"
-	.string "MEWTWO únicamente logramos una\l"
-	.string "combinación genética favorable\l"
-	.string "respecto a MEW, pero ni fue la más\l"
-	.string "favorable posible, ni la más\l"
-	.string "óptima.$"
+	.string "HO-OH, LUGIA, RAYQUAZA… All of them are\n"
+	.string "formidable POKÉMON, but unfeasible for\l"
+	.string "experimentation and implementing\l"
+	.string "modifications that could increase their\l"
+	.string "already vast power. On the other hand,\l"
+	.string "MEW is a different story, it possesses\l"
+	.string "the best genetic base, both in terms of\l"
+	.string "malleability and possible combinations.\l"
+	.string "This leads us to believe that with\l"
+	.string "MEWTWO we only achieved a favorable\l"
+	.string "genetic combination compared to MEW,\l"
+	.string "but it wasn't the most favorable\l"
+	.string "possible, nor the most optimal.$"
 
 
 
@@ -256,24 +250,22 @@ release
 end
 
 CinnabarMansionS2Documento_Text_107:
-.string "METAGROSS Y EL GRAN ENGAÑO DE\n"
-	.string "DEVON EN HOENN:\l"
+.string "METAGROSS AND DEVON'S\n"
+	.string "MASQUERADE AT HOENN:\l"
 	.string "...\l"
 	.string "...\l"
-	.string "Bien es sabido que el\l"
-	.string "PSEUDOLEGENDARIO característico de\l"
-	.string "HOENN es SALAMENCE, dragón que\l"
-	.string "refleja el poder contenido en un\l"
-	.string "lugar como la CASCADA METEORO, de\l"
-	.string "un poder similar a DRAGONITE.\l"
-	.string "Sin embargo, podemos encontrar en\l"
-	.string "HOENN otro POKÉMON con\l"
-	.string "características de\l"
-	.string "PSEUDOLEGENDARIO, y no es otro que\l"
-	.string "METAGROSS.$"
+	.string "Most people know that the\l"
+	.string "characteristic PSEUDO.LEGENDARY of\l"
+	.string "HOENN is SALAMENCE, a dragon that\l"
+	.string "reflects the power inside a place as\l"
+	.string "the METEOR FALLS, with a power similar\l"
+	.string "to DRAGONITE's. However, we can find\l"
+	.string "another POKÉMON in HOENN with\l"
+	.string "attributes of a PSEUDO-LEGENDARY, and\l"
+	.string "it is none other than METAGROSS.$"
 
 CinnabarMansionS2Documento_Text_107YesNo:
-.string "¿Seguir leyendo?$"
+.string "Keep reading?$"
 
 CinnabarMansionS2Documento_107No::
 hidemonpic
@@ -281,34 +273,31 @@ release
 end
 
 CinnabarMansionS2Documento_Text_107Yes:
-    .string "HOENN es la única región en la que\n"
-	.string "esto ocurre, 2 pseudolegendarios\l"
-	.string "compartiendo terreno, algunos\l"
-	.string "achacan esta casualidad a la\l"
-	.string "enorme variedad de fauna y flora\l"
-	.string "que podemos encontrar en HOENN, no\l"
-	.string "obstante, la biología de la línea\l"
-	.string "evolutiva de METAGROSS poco o nada\l"
-	.string "tiene que ver con esta fauna y\l"
-	.string "flora, y nuestras últimas\l"
-	.string "investigaciones apuntan a que los\l"
-	.string "motivos de la existencia de 2\l"
-	.string "pseudolegendarios en una misma\l"
-	.string "región son otros.$"
+	.string "HOENN is the only region where this\n"
+	.string "happens, 2 pseudo-legendaries sharing\l"
+	.string "territory. Some say this coincidence\l"
+	.string "occurs because of the enormous variety\l"
+	.string "of fauna and flora present in HOENN.\l"
+	.string "However, the biology of the\l"
+	.string "evolutionary line of METAGROSS has\l"
+	.string "almost nothing to do with this fauna\l"
+	.string "and flora, and our latest research\l"
+	.string "suggests that the reason for the\l"
+	.string "existence of 2 pseudo-legendaries in\l"
+	.string "the same region are different.$"
 
 
 
 CinnabarMansionS2Documento_Text_107Yes2:
-.string "DEVON S.A. es la SILPH S.A. de\n"
-	.string "HOENN, sin embargo, jamás ha hecho\l"
-	.string "públicos logros de mayor\l"
-	.string "trascendencia que POKÉ BALLS como\l"
-	.string "la MALLA BALL, BUCEO BALL, ACOPIO\l"
-	.string "BALL o TURNO BALL, además del\l"
-	.string "POKÉNAV, cuando sabemos que cuenta\l"
-	.string "con recursos y capacidad para, al\l"
-	.string "igual que SILPH, crear un POKÉMON\l"
-	.string "artificial estilo PORYGON.$"
+	.string "DEVON CO. is the SILPH CO. of HOENN,\n"
+	.string "however, it has never publicly released\l"
+	.string "achievements of greater significance\l"
+	.string "than POKÉ BALLS like the NET BALL, DIVE\l"
+	.string "BALL, REPEAT BALL or TIMER BALL, in\l"
+	.string "addition to the POKÉNAV, even though\l"
+	.string "we know it has resources and capability\l"
+	.string "to, like SILPH, create an artificial\l"
+	.string "POKÉMON, like PORYGON.$"
 
 
 

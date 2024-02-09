@@ -65,11 +65,10 @@ face_up
 step_end
 
 PokemonMansion1F_7_Texto_1:
-.string "¿Quieres algo ROCKET?\n"
-	.string "¿No ves que solo somos dos\l"
-	.string "honrados trabajadores que tratan\l"
-	.string "de ganarse la vida como todos?\l"
-	.string "No nos hagas perder más el tiempo.$"
+	.string "Do you want something, ROCKET? Can't\n"
+	.string "you see we're just two honest workers\l"
+	.string "trying to make a living like everyone\l"
+	.string "else? Don't waste any more of our time.$"
 
 
 
@@ -550,202 +549,172 @@ PokemonMansion_Text_NotQuiteYet:
 
 
 PokemonMansion_1F_Ladrones_Texto_1:
-.string "¡Ya tenemos todo para largarnos\n"
-	.string "de aquí para siempre!$"
+	.string "We've got everything we need to get out\n"
+	.string "of here for good!$"
 
 PokemonMansion_1F_Ladrones_Texto_2:
-.string "Sí. No conviene permanecer en\n"
-	.string "KANTO más tiempo, ya nos conocen,\l"
-	.string "hemos estafado a demasiada gente,\l"
-	.string "en JOHTO iniciaremos una nueva\l"
-	.string "etapa, aunque sus habitantes son\l"
-	.string "algo menos pudientes que los de\l"
-	.string "aquí...$"
+	.string "Yeah, it's not wise to stay in KANTO any\n"
+	.string "longer. We're too well-known here, and\l"
+	.string "we've swindled too many people. We'll\l"
+	.string "start a new chapter in JOHTO, even\l"
+	.string "though its residents are somewhat less\l"
+	.string "affluent than those here...$"
 
 PokemonMansion_1F_Ladrones_Texto_3:
-.string "¿Quién eres tú?\n"
-	.string "¿Un ROCKET?\l"
-	.string "Ocúpate de lo tuyo, si vuestro\l"
-	.string "negocio no funciona, no es nuestro\l"
-	.string "problema.$"
+	.string "Who are you? A ROCKET? Mind your own\n"
+	.string "business. If your business isn't\l"
+	.string "working out, it's not our problem.$"
 
 PokemonMansion_1F_Ladrones_Texto_4:
 .string "... ...$"
 
 PokemonMansion_1F_Ladrones_Texto_5:
-.string "¿Cómo dices?\n"
-	.string "¿Quieres recuperar 2 millones de\l"
-	.string "POKÉS que cobramos a un científico\l"
-	.string "por un METEORITO?$"
+	.string "What are you saying? Do you want to\n"
+	.string "retrieve the 2 million POKÉ we charged a\l"
+	.string "scientist for a METEORITE?$"
 
 PokemonMansion_1F_Ladrones_Texto_6:
-.string "Eso ya pasó, debió de darse cuenta\n"
-	.string "en su momento, ante la ley no\l"
-	.string "podrá hacer nada ya que se le ha\l"
-	.string "acabado el plazo de reclamación.\l"
-	.string "Su dinero lo tenemos ahora\l"
-	.string "nosotros de forma legítima, ¿es\l"
-	.string "que no lo entiendes?\l"
-	.string "Es lo que tiene conocerse bien la\l"
-	.string "ley chico, aquellos que mejor la\l"
-	.string "conocen son aquellos que parece\l"
-	.string "que hacen trampas.$"
+	.string "That's all in the past. He should have\n"
+	.string "realized it at the time, under the law,\l"
+	.string "he can't do anything now because the\l"
+	.string "deadline for claims has expired, we have\l"
+	.string "his money now, legitimately, don't you\l"
+	.string "understand? That's what it means to\l"
+	.string "know the law well, kid, those who know it\l"
+	.string "best are the ones who seem to be\l"
+	.string "cheating.$"
 
 PokemonMansion_1F_Ladrones_Texto_7:
-.string "Ahora largo de aquí, estamos en\n"
-	.string "plena mudanza, en cuanto crucemos\l"
-	.string "la frontera del MONTE PLATEADO la\l"
-	.string "justicia de KANTO ya no podrá\l"
-	.string "tocarnos, ya estaremos lejos.\l"
-	.string "¡Lejos y forrados!$"
+	.string "Now get out of here. We're in the middle\n"
+	.string "of moving out. Once we cross the border\l"
+	.string "of MT. SILVER, KANTO's justice won't be\l"
+	.string "able to touch us. We'll already be far\l"
+	.string "away. Far away and loaded!$"
 
 PokemonMansion_1F_Ladrones_Texto_8:
-.string "De modo que insistes, vosotros los\n"
-	.string "ROCKET sois unos ignorantes, en\l"
-	.string "lugar de actuar en la sombra, como\l"
-	.string "nosotros, hacéis públicas vuestras\l"
-	.string "fechorías, y todo el mundo os\l"
-	.string "apedrea mediáticamente por ello.$"
+	.string "So you insist. You ROCKET guys are\n"
+	.string "ignorant. Instead of acting in the\l"
+	.string "shadows like us, you make your misdeeds\l"
+	.string "public, and everyone media-blasts you\l"
+	.string "for it.$"
 
 PokemonMansion_1F_Ladrones_Texto_9:
-.string "¿Qué dices?\n"
-	.string "¿No se trata de robar a la\l"
-	.string "gente, sino de reunir recursos y\l"
-	.string "mandar un claro mensaje a la\l"
-	.string "región de KANTO?$"
+	.string "What are you saying? Isn't it about\n"
+	.string "stealing from people, but about\l"
+	.string "gathering resources and sending a\l"
+	.string "clear message to the KANTO region?$"
 
 PokemonMansion_1F_Ladrones_Texto_10:
-.string "¡Lo último que necesito es que sea\n"
-	.string "precisamente un ROCKET quien me\l"
-	.string "de a mi lecciones morales!\l"
-	.string "¡Vas a probar el poder de los\l"
-	.string "mejores POKÉMON que puedes\l"
-	.string "encontrar en el mercado negro!$"
+	.string "The last thing I need is a ROCKET giving\n"
+	.string "me moral lessons! You're about to\l"
+	.string "experience the power of the best\l"
+	.string "POKEMON you can find on the black\l"
+	.string "market!$"
 
 PokemonMansion_1F_Ladrones_Texto_11:
-.string "¡No puede ser!\n"
-	.string "¡Me han estafado!$"
+.string "It can't be!\n"
+	.string "I've been scammed!$"
 
 PokemonMansion_1F_Ladrones_Texto_12:
-.string "Dijeron que estos POKÉMON podían\n"
-	.string "con cualquier ENTRENADOR de RUTA,\l"
-	.string "esto no quedará así.$"
+	.string "They said these POKEMON could handle\n"
+	.string "any ROUTE TRAINER, this won't finish\l"
+	.string "like this.$"
 
 PokemonMansion_1F_Ladrones_Texto_13:
-.string "Así que sigues insitiendo en que\n"
-	.string "te devolvamos ese dinero, no solo\l"
-	.string "no te lo devolveremos.\l"
-	.string "¡Te quitaremos el que tú ya\l"
-	.string "tienes!$"
+	.string "So you're still insisting that we give\n"
+	.string "you back that money, not only will we\l"
+	.string "not give it back, but we'll also take the\l"
+	.string "money you already have!$"
 
 PokemonMansion_1F_Ladrones_Texto_14:
-.string "¿Yo también he perdido?$"
+.string "Have I lost too?$"
 
 PokemonMansion_1F_Ladrones_Texto_15:
-.string "¿Donde has comprado esos POKÉMON?\n"
-	.string "Me dijeron que ya no quedaban\l"
-	.string "mejores ejemplares en el mercado\l"
-	.string "negro.\l"
-	.string "¡No puede ser!$"
+	.string "Where did you buy those POKÉMON? I was\n"
+	.string "told there were no better specimens\l"
+	.string "left on the black market. It can't be!$"
 
 PokemonMansion_1F_Ladrones_Texto_16:
-.string "¿Se puede saber qué estáis\n"
-	.string "haciendo?\l"
-	.string "Acordamos largarnos de este lugar\l"
-	.string "y poner rumbo a JOHTO hace ya 10\l"
-	.string "min.$"
+	.string "Can I know what you're doing? We agreed\n"
+	.string "to leave this place and head to JOHTO\l"
+	.string "10 minutes ago.$"
 
 PokemonMansion_1F_Ladrones_Texto_17:
-.string "Este tipo quiere recuperar el\n"
-	.string "dinero que nos pagó ese científico\l"
-	.string "por la roca del MT.MOON.$"
+	.string "This guy wants to get back the money\n"
+	.string "that scientist paid us for the rock\l"
+	.string "from MT. MOON.$"
 
 PokemonMansion_1F_Ladrones_Texto_18:
-.string "Un momento...\n"
-	.string "Yo a ti te he visto antes...$"
+.string "Wait a moment...\n"
+	.string "I've seen you before...$"
 
 PokemonMansion_1F_Ladrones_Texto_19:
-.string "¡El ROCKET novato al que engañé en\n"
-	.string "el MT.MOON!\l"
-	.string "¿No tuviste suficiente?$"
+	.string "The rookie ROCKET I fooled on MT. MOON!\n"
+	.string "Haven't you had enough?$"
 
 PokemonMansion_1F_Ladrones_Texto_20:
-.string "Puede que ahora tengas más idea de\n"
-	.string "como funcionan las cosas aquí por\l"
-	.string "KANTO, pero sigues siendo un\l"
-	.string "aficionado comparado con nosotros,\l"
-	.string "nadie nos supera en picardía, en\l"
-	.string "aprovechar el momento y atacar\l"
-	.string "cuando la víctima más vulnerable\l"
-	.string "se encuentra.$"
+	.string "Maybe now you have a better idea of how\n"
+	.string "things work here in KANTO, but you're\l"
+	.string "still an amateur compared to us. Nobody\l"
+	.string "surpasses us in cunning, in seizing the\l"
+	.string "moment and striking when the most\l"
+	.string "vulnerable victim is present.$"
 
 PokemonMansion_1F_Ladrones_Texto_21:
-.string "¡Para ello requieres de\n"
-	.string "inteligencia e intuición!\l"
-	.string "¡Y mi intuición me dice que tu\l"
-	.string "equipo está demasiado cansado como\l"
-	.string "para soportar otro combate más!$"
+	.string "For that, you need intelligence and\n"
+	.string "intuition! And my intuition tells me\l"
+	.string "that your team is too tired to handle\l"
+	.string "another battle!$"
 
 PokemonMansion_1F_Ladrones_Texto_22:
-.string "¿De donde has sacado esa fuerza?\n"
-	.string "¡Esto no entraba en nuestros\l"
-	.string "planes!$"
+	.string "Where did you get that strength from?\n"
+	.string "This wasn't part of our plans!$"
 
 PokemonMansion_1F_Ladrones_Texto_23:
-.string "Maldición, no creas que vas a\n"
-	.string "salirte con la tuya ROCKET, ya te\l"
-	.string "engañé una vez y puedo volver a...$"
+	.string "Damn it, don't think you'll get away with\n"
+	.string "this, ROCKET. I fooled you once and I\l"
+	.string "can do it again...$"
 
 PokemonMansion_1F_Ladrones_Texto_24:
-.string "¡E-espera!\n"
-	.string "¿Adonde diablos vas?\l"
-	.string "¡Allí no hay nada!$"
+.string "W-wait!\n"
+	.string "Where the hell are you going?\l"
+	.string "There's nothing there!$"
 
 PokemonMansion_1F_Ladrones_Texto_25:
-.string "¡{PLAYER} encontró 10 PROTEÍNAS!$"
+.string "{PLAYER} found 10 PROTEINS!$"
 
 PokemonMansion_1F_Ladrones_Texto_26:
-.string "¡{PLAYER} encontró 3\n"
-	.string "CARAMELOSRAROS!$"
+	.string "{PLAYER} found 3 RARE CANDIES!$"
 
 PokemonMansion_1F_Ladrones_Texto_27:
-.string "¡¡{PLAYER} OBTUVO UN CHARMANDER AL\n"
-	.string "NV:5!!$"
+	.string "{PLAYER} obtained a LV.5\n"
+	.string "CHARMANDER!!$"
 
 PokemonMansion_1F_Ladrones_Texto_28:
-.string "¡¡NO!!\n"
-	.string "¡El CHARMANDER que iba a vender en\l"
-	.string "JOHTO!\l"
-	.string "¡En ese lugar dan 4 millones de\l"
-	.string "POKÉS por él!$"
+	.string "NO!! The CHARMANDER I was going to sell\n"
+	.string "in JOHTO! They give 4 million POKÉ for it\l"
+	.string "there!$"
 
 PokemonMansion_1F_Ladrones_Texto_29:
-.string "¿¡Qué crees que estás haciendo\n"
-	.string "ROCKET?!\l"
-	.string "¡Detente y...!$"
+	.string "What do you think you're doing,\n"
+	.string "ROCKET?! Stop and...!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
-.string "¡{PLAYER} encontró los 2 millones\n"
-	.string "de POKÉS robados al científico!$"
+	.string "{PLAYER} found the 2 million POKÉS\n"
+	.string "stolen from the scientist!$"
 
 PokemonMansion_1F_Ladrones_Texto_31:
-.string "¡Ya es suficiente!\n"
-	.string "¡No creas que has ganado ROCKET!\l"
-	.string "¡La mayoría de la mercancía\l"
-	.string "ya está dentro de nuestro camión\l"
-	.string "rumbo a JOHTO!\l"
-	.string "¡Solo has llegado a arrebatarnos\l"
-	.string "las migajas que faltaban por\l"
-	.string "embarcar!$"
+	.string "It is enough! Don't think that you have\n"
+	.string "won, ROCKET! Most of the commodities\l"
+	.string "are already on the truck, way to JOHTO!$"
 
 PokemonMansion_1F_Ladrones_Texto_32:
-.string "Alguien como tú jamás visitará\n"
-	.string "JOHTO, de modo que esto es un\l"
-	.string "adios para siempre.\l"
-	.string "¡Disfruta de la pobreza que asola\l"
-	.string "a esta región ROCKET!\l"
-	.string "¡Pobreza a la que nosotros hemos\l"
-	.string "contribuido jojojo!$"
+	.string "Someone like you will never visit JOHTO,\n"
+	.string "so this is a for-ever-goodbye.\l"
+	.string "Take pleasure in the poverty that\l"
+	.string "afflicts this region, TEAM ROCKET!\l"
+	.string "Poverty that we have helped create,\l"
+	.string "hahaha!$"
 
 PokemonMansion_1F_Ladrones_Move_1:
 emote_exclamation_mark
