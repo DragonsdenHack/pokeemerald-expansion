@@ -1,6 +1,6 @@
 Text_PictureBookShelf:
-	.string "Totalmente lleno de libros sobre los\n"
-	.string "POKÉMON.$"
+	.string "It's filled with all sorts of books.$"
+
 
 Text_BookShelf:
 	.string "Es un teléfono.\n"

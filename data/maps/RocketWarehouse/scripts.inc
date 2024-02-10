@@ -135,91 +135,89 @@ face_left
 step_end
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_1:
-.string "ATLAS: El hijo pródigo vuelve a casa.\n"
-	.string "¿Eh, {PLAYER}?$"
+	.string "ARCHER: The prodigal son is back. Hey,\n"
+	.string "{PLAYER}?$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_2:
-.string "Después de derrotar a un equipo de\n"
-	.string "puros LEGENDARIOS y\l"
-	.string "PSEUDOLEGENDARIOS, lo que puedas\l"
-	.string "hallar dentro del reducido espacio en\l"
-	.string "estas islas se te quedará pequeño,\l"
-	.string "¿no?$"
+	.string "After defeating a pure LEGENDARIES\n"
+	.string "and PSEUDOLEGENDARIES team, what you\l"
+	.string "might find within the confined space of\l"
+	.string "these islands should pale in\l"
+	.string "comparison, don't you think?$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_3:
-.string "Tal vez yo pueda ayudarte, conozco bien\n"
-	.string "estas islas, y algunos de sus secretos.\l"
-	.string "¿Has estado en ISLA SÉTIMA? Hay una\l"
-	.string "anciana que habita en una de sus\l"
-	.string "casas.$"
+	.string "Perhaps I can assist you. I am familiar\n"
+	.string "with these islands and some of their\l"
+	.string "secrets. Have you visited QUEST\l"
+	.string "ISLAND? There's an old woman who\l"
+	.string "resides in one of its houses.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_4:
-.string "Dile que vienes de mi parte, ella puede\n"
-	.string "mostrarte misterios de estas islas que\l"
-	.string "alguien como ese ROJO jamás\l"
-	.string "encontraría por su cuenta.$"
+	.string "Inform her that you come on my behalf.\n"
+	.string "She can reveal mysteries of these\l"
+	.string "islands that someone like that RED\l"
+	.string "would never find on his own.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_5:
-.string "Espero que esto te sirva de estímulo,\n"
-	.string "estas islas pueden ser un paraíso o un\l"
-	.string "bodrio intragable, dependiendo de con\l"
-	.string "quién hables.$"
+	.string "I hope this serves as a stimulus for\n"
+	.string "you. These islands can be a paradise or\l"
+	.string "an unbearable bore, depending on who\l"
+	.string "you talk to.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_6:
-.string "Si llegas a visitarla y ver su secreto\n"
-	.string "vuelve aquí. Te recompensaré\l"
-	.string "personalmente. Igual que en tus\l"
-	.string "primeras misiones, ¿verdad? Recuerda,\l"
-	.string "la anciana vive en ISLA TERA, en una\l"
-	.string "casa pegada al CENTRO PKMN.$"
+	.string "If you visit her and uncover her secret,\n"
+	.string "come back here. I'll give you a reward\l"
+	.string "personally, like I did in your first\l"
+	.string "missions, right? Don't forget, the old\l"
+	.string "lady lives in a QUEST ISLAND house.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_7:
-.string "¡{PLAYER}! ¡Has vuelto! ¡ZOE ya me ha\n"
-	.string "contado todo! Honestamente, creí que,\l"
-	.string "a pesar de haber derrotado a LANCE, la\l"
-	.string "técnica y maestría de una vieja LÍDER\l"
-	.string "como ella podría ponerte en aprietos.\l"
-	.string "Veo que te lo tomas en serio incluso en\l"
-	.string "vacaciones.$"
+	.string "{PLAYER}! You've returned! ZOE has\n"
+	.string "already informed me of everything!\l"
+	.string "Honestly, despite defeating LANCE, I\l"
+	.string "thought the technique and mastery of\l"
+	.string "an old LEADER like her could put you in a\l"
+	.string "tight spot. I see you take it seriously\l"
+	.string "even on vacation.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_8:
-.string "¡{PLAYER} facturó 50000 POKÉS!$"
+	.string "{PLAYER} has earned 50.000 POKÉ!$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_9:
-.string "Y lo más importante, te daré a este\n"
-	.string "pequeño, créeme, me cuesta\l"
-	.string "desprenderme de él, le tengo cariño,\l"
-	.string "pero no veo mejores manos en las que\l"
-	.string "pueda estar que en las tuyas.$"
+	.string "And most importantly, I'll give you this\n"
+	.string "little one. Trust me, it's hard for me to\l"
+	.string "let go of him. I care for him, but I can't\l"
+	.string "think of better hands for him to be in\l"
+	.string "than yours.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_10:
-.string "¡OBTUVISTE UN BOMUSHIKAA AL NV.60!$"
+.string "YOU OBTAINED A LV.60 BOMUSHIKAA!$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_11:
-.string "Es un POKÉMON muy especial, con un gran\n"
-	.string "corazón y leal a su ENTRENADOR.\l"
-	.string "Pertenece a la antigua JOHTO, extinto\l"
-	.string "en estado salvaje, solo unos pocos\l"
-	.string "sabios de la región cuentan con uno.$"
+	.string "It is a very special POKÉMON, with a big\n"
+	.string "heart and loyal to its TRAINER. It\l"
+	.string "belongs to the ancient JOHTO, extinct\l"
+	.string "in the wild, only a few old trainers from\l"
+	.string "the region possess one.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_12:
-.string "Sabemos que comparte familia con\n"
-	.string "DEWGONG, aunque sus STATS BASE y\l"
-	.string "combinación de tipos son superiores.\l"
-	.string "Alguien con tu determinación y\l"
-	.string "principios es ideal para cuidarlo.$"
+	.string "It's known to share lines with DEWGONG,\n"
+	.string "although its BASE STATS and type\l"
+	.string "combination surpass it. Your\l"
+	.string "determination and principles are\l"
+	.string "perfect to care for it.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_13:
-.string "El GIMNASIO oculto es solo un ejemplo\n"
-	.string "que has conocido gracias a mí pero…\l"
-	.string "¿de cuantos magníficos lugares nos\l"
-	.string "estaremos perdiendo por no contar con\l"
-	.string "los contactos adecuados?$"
+	.string "The hidden GYM is just one example\n"
+	.string "you've come to know thanks to me, but…\l"
+	.string "How many magnificent places might we be\l"
+	.string "missing out on due to a lack of\l"
+	.string "appropriate contacts?$"
 
 RocketWarehouse_Text_6:
-     .string "ATLAS: ....\n"
-	.string "(Parece que está centrado en algún\l"
-	.string "proyecto de gran importancia)$"
+     .string "ARCHER: ....\n"
+	.string "(It seems he's deep working\l"
+	.string "in a top proyect)$"
 
 
 

@@ -60,21 +60,18 @@ release
 end
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.3:
-.string "Con DANZA ESPADA elevarás\n"
-	.string "drásticamente el ATAQUE.\l"
-	.string "Si tu POKÉMON ya es rápido de por sí\l"
-	.string "o cuenta con buenos movimientos de\l"
-	.string "prioridad, puede acabar rápido con el\l"
-	.string "combate.$"
+	.string "SWORDS DANCE sharply boosts ATTACK. If\n"
+	.string "your POKÉMON's already quick or has\l"
+	.string "solid priority moves, it can sweep an\l"
+	.string "entire team.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.2:
-.string "¡¡{PLAYER} obtuvo la MT81 DANZA\n"
-	.string "ESPADA de manos de ZINNIA!!$"
+	.string "{PLAYER} obtained the TM81 SWORDS\n"
+   	.string "DANCE from ZINNIA!!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_11.1:
-.string "¡Jah!\n"
-	.string "¿Creías que eso era todo?\l"
-	.string "¡Te daré algo más!$"
+	.string "Ha! You thought that was it? I'll give\n"
+	.string "you something more!$"
 
 GimnasioAnciana_Combate_Gimnasio_2::
 msgbox GimnasioAnciana_Combate_Gimnasio_Texto_9 MSGBOX_NPC
@@ -82,51 +79,50 @@ release
 end
 
 GimnasioAnciana_Combate_Gimnasio_Texto_1:
-.string "¡Ajá! ¡Veo que tienes corazón chico!$"
+	.string "Ah, I see you've got some guts!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_2:
-.string "En su día era una experta en POKÉMON\n"
-	.string "TIPO NORMAL y BICHO, muchos de los\l"
-	.string "cuales crecían aquí.$"
+	.string "I used to be skilled with NORMAL and\n"
+	.string "BUG-type POKÉMON, many of which were\l"
+	.string "raised here.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_3:
-.string "No me andaré con rodeos, estoy ansiosa\n"
-	.string "por verte combatir. Siempre digo que\l"
-	.string "los nuevos ENTRENADORES son unos\l"
-	.string "flojos que se rinden ante cualquier\l"
-	.string "contratiempo. ¡Demuéstrame que no es\l"
-	.string "así!$"
+	.string "I'll be straightforward, I'm excited to\n"
+	.string "see you battle. I always say new\l"
+	.string "trainers are wimps who give up too\l"
+	.string "easily. Show me otherwise!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_4:
-.string "Así que hay relevo, ya era hora…$"
+	.string "So there's a new generation replacing us, finally...$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_5:
-.string "¡Jah! ¡Ese ATLAS! ¡Cómo se la tenía\n"
-	.string "guardada contigo!$"
+	.string "Ha! That ARCHER! He's been waiting to\n"
+	.string "settle the score with you!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_6:
-.string "Mi camino se está acabando, y el tuyo\n"
-	.string "recién empieza. Esto es inevitable, es\l"
-	.string "ley de vida, pero ello no nos impide\l"
-	.string "reconocernos mutuamente. Ten, quiero\l"
-	.string "que cuides de este pequeño.$"
+	.string "My journey's ending, yours is just\n"
+	.string "starting. It's inevitable, the circle of\l"
+	.string "life, but that doesn't stop us from\l"
+	.string "recognizing each other. Here, take this.\l"
+	.string "Take care of this little one.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7:
-.string "¡¡OBTUVISTE UN ZORUA-HISUI AL NV.50!$"
+.string "YOU OBTAINED A LV.50 ZORUA-HISUI!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_8:
-.string "Hace casi 4 décadas que no se ve este\n"
-	.string "POKÉMON por las islas, acabo de darte\l"
-	.string "uno nacido de un HUEVO de mi ZOROARK,\l"
-	.string "espero que lo cuides bien.$"
+	.string "It's been almost four decades since\n"
+	.string "this POKÉMON has been seen around\l"
+	.string "these islands. I've just given you one\l"
+	.string "born from an egg of my ZOROARK. I hope\l"
+	.string "you take good care of it.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_9:
-.string "Cada misterio no abre más que una\n"
-	.string "puerta hacia otro mayor. Lo oculto\l"
-	.string "siempre tendrá lugar en este mundo, el\l"
-	.string "día que sepamos todo estaremos\l"
-	.string "desprovistos de propósito, será el fin\l"
-	.string "del camino.$"
+	.string "Each mystery we solve only reveals\n"
+	.string "another one waiting to be uncovered.\l"
+	.string "The unknown will always exist in our\l"
+	.string "world. If we were to know everything, we\l"
+	.string "would lose our sense of purpose. It\l"
+	.string "would signify the end of our journey.$"
 
 GimnasioAnciana_Anciano::
 lock
@@ -144,25 +140,26 @@ release
 end
 
 GimnasioAnciana_Anciano_Texto_3:
-.string "¡Dios mío! Queda claro que no eres un\n"
-	.string "cualquiera, nadie había podido igualar\l"
-	.string "la potencia física del URSALUNA de\l"
-	.string "nuestra LÍDER. Al parecer, su URSARING\l"
-	.string "evolucionó durante un viaje a un\l"
-	.string "antiguo lugar de JOHTO.$"
+	.string "Oh my goodness! It is clear that you are\n"
+	.string "no ordinary TRAINER; no one had been\l"
+	.string "able to match the physical power of our\l"
+	.string "LEADER's URSALUNA. It appears her\l"
+	.string "URSARING evolved during a journey to\l"
+	.string "an ancient place in JOHTO.$"
 
 GimnasioAnciana_Anciano_Texto_2:
-.string "Nuestra LÍDER era y sigue siendo\n"
-	.string "especialista en el TIPO NORMAL, si\l"
-	.string "entras en el cuerpo a cuerpo con ella\l"
-	.string "sin usar movimientos TIPO LUCHA lo\l"
-	.string "pasarás muy mal, todos sus POKÉMON son\l"
-	.string "muy sólidos y duros de vencer. ¡Suerte!$"
+	.string "Our LEADER was and still is a specialist\n"
+	.string "in NORMAL TYPE. If you engage her in\l"
+	.string "close combat without using FIGHTING\l"
+	.string "TYPE moves, you'll have a tough time. All\l"
+	.string "of her POKÉMON are very solid and hard\l"
+	.string "to beat. Good luck!$"
+
 
 GimnasioAnciana_Anciano_Texto_1:
-.string "Creí que jamás volvería a decir esto\n"
-	.string "pero... ¡bienvenido al GIMNASIO de ISLA\l"
-	.string "SÉTIMA!$"
+	.string "I never thought I'd say this again,\n"
+	.string "but… welcome to the QUEST ISLAND\l"
+	.string "GYM!$"
 
 GimnasioAnciana_Documento_100::
 lock  
@@ -175,14 +172,14 @@ end
 
 GimnasioAnciana_Documento_Text_100:
 .string "URSALUNA:\p"
-	.string "PS: 130\n"
-	.string "ATAQUE: 140\l"
-	.string "DEFENSA: 105\l"
-	.string "ATAQUE ESPECIAL: 45\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 50\l"
+	.string "HP: 130\n"
+	.string "ATTACK: 140\l"
+	.string "DEFENSE: 105\l"
+	.string "SPECIAL ATTACK: 45\l"
+	.string "SPECIAL DEFENSE: 80\l"
+	.string "SPEED: 50\l"
 	.string "TOTAL: 550\p"
-	.string "TIERRA/NORMAL$"
+	.string "EARTH/NORMAL$"
 
 GimnasioAnciana_Documento_101::
 lock  
@@ -195,14 +192,14 @@ end
 
 GimnasioAnciana_Documento_Text_101:
 .string "URSALUNA:\p"
-	.string "PS: 130\n"
-	.string "ATAQUE: 140\l"
-	.string "DEFENSA: 105\l"
-	.string "ATAQUE ESPECIAL: 45\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 50\l"
+	.string "HP: 130\n"
+	.string "ATTACK: 140\l"
+	.string "DEFENSE: 105\l"
+	.string "SPECIAL ATTACK: 45\l"
+	.string "SPECIAL DEFENSE: 80\l"
+	.string "SPEED: 50\l"
 	.string "TOTAL: 550\p"
-	.string "TIERRA/NORMAL$"
+	.string "EARTH/NORMAL$"
 
 
 
