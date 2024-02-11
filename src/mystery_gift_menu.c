@@ -88,18 +88,18 @@ enum {
     DEBUG_MENU_ITEM_CANCEL,
 };
 
-static const u8 gDebugText_Golduck[] = _("Pack “Classic Kanto”");
-static const u8 gDebugText_Furret[] = _("Pack “Rocket Grunt”");
-static const u8 gDebugText_Electabuzz[] = _("Pack “Rocket Scientist”");
-static const u8 gDebugText_Nidoking[] = _("Pack “Rocket Admin”");
-static const u8 gDebugText_Nidoqueen[] = _("Pack “Rain Team”");
-static const u8 gDebugText_Alakazam[] = _("Pack “Sun Team”");
-static const u8 gDebugText_Ninetales[] = _("Pack “Rare Pokémon”");
-static const u8 gDebugText_Pidgeot[] = _("Pack “Popular Pokémon”");
-static const u8 gDebugText_Weak[] = _("Pack “Weak Pokémon”");
-static const u8 gDebugText_Random[] = _("Pack “Random Pokémon”");
-static const u8 gDebugText_MyTeam[] = _("Pack “MY team”");
-static const u8 gDebugText_Cancel[] = _("¿Cuál escoger?");
+static const u8 gDebugText_Golduck[] = _("“Classic Kanto” pack");
+static const u8 gDebugText_Furret[] = _("“Rocket Grunt” pack");
+static const u8 gDebugText_Electabuzz[] = _("“Rocket Scientist” pack");
+static const u8 gDebugText_Nidoking[] = _("“Rocket Admin” pack");
+static const u8 gDebugText_Nidoqueen[] = _("“Rain Team” pack");
+static const u8 gDebugText_Alakazam[] = _("“Sun Team” pack");
+static const u8 gDebugText_Ninetales[] = _("“Rare Pokémon” pack");
+static const u8 gDebugText_Pidgeot[] = _("“Popular Pokémon” pack");
+static const u8 gDebugText_Weak[] = _("“Weak Pokémon” pack");
+static const u8 gDebugText_Random[] = _("“Random Pokémon” pack");
+static const u8 gDebugText_MyTeam[] = _("“MY team” pack");
+static const u8 gDebugText_Cancel[] = _("¿What should do?");
 /// nombres
 	 static const u8 sDebugText_BULBASAUR[] = _("BULBASAUR");
 	 static const u8 sDebugText_IVYSAUR[] = _("IVYSAUR");

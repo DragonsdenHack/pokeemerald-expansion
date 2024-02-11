@@ -295,8 +295,8 @@ PlayersHouse_2F_Text_Notebook:
 	.string "The remaining pages are blank…$"
 
 Common_Text_LookCloserAtMap:
-	.string "{PLAYER} echó un vistazo\n"
-	.string "al mapa de la región.$"
+	.string "{PLAYER} looked\n"
+	.string "the region's map.$"
 
 PlayersHouse_2F_Text_ItsAGameCube:
 	.string "It's a Nintendo GameCube.\p"
