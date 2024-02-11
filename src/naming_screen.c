@@ -1720,11 +1720,11 @@ static void DrawNormalTextEntryBox(void)
 
 static void DrawMonTextEntryBox(void)
 {
-    u8 buffer[32];
+    u8 buffer[48];
 
-    StringCopy(buffer, sNamingScreen->template->title);
-    StringAppendN(buffer, gSpeciesNames[sNamingScreen->monSpecies], 15);
-    StringAppendN(buffer, gText_QuestionMark, 15);
+    StringCopy(gStringVar1, gSpeciesNames[sNamingScreen->monSpecies]);
+    StringExpandPlaceholders(buffer, sNamingScreen->template->title);
+	
     FillWindowPixelBuffer(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], PIXEL_FILL(1));
     AddTextPrinterParameterized(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX], FONT_NORMAL, buffer, 8, 1, 0, 0);
     PutWindowTilemap(sNamingScreen->windows[WIN_TEXT_ENTRY_BOX]);

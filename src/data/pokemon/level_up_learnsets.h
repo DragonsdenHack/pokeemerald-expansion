@@ -9532,6 +9532,7 @@ static const struct LevelUpMove sTogekissLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_EXTREME_SPEED),
     LEVEL_UP_MOVE( 1, MOVE_AURA_SPHERE),
     LEVEL_UP_MOVE( 1, MOVE_AIR_SLASH),
+    LEVEL_UP_MOVE( 102, MOVE_MOONBLAST),
     LEVEL_UP_END
 };
 

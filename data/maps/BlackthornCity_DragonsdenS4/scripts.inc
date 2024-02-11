@@ -1,7 +1,13 @@
 BlackthornCity_DragonsdenS4_MapScripts::
+map_script MAP_SCRIPT_ON_WARP_INTO_MAP_TABLE, BlackthornCity_DragonsdenS4_OnWarp
 	.byte 0
 
+BlackthornCity_DragonsdenS4_OnWarp:
+map_script_2 VAR_UNUSED_0x40F7, 174, DragonsdenS4_1
+	.2byte 0
+
 DragonsdenS4_1::
+setobjectsubpriority 2, MAP_BLACKTHORN_CITY_DRAGONSDEN_S4, 4 
 end
 
 
