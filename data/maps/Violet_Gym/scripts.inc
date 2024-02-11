@@ -374,15 +374,15 @@ Violet_Gym_Combate_Pegaso_Texto_8:
 	.string "el vínculo que nos une.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9:
-.string "Como ya sabes, actualmente los\n"
-	.string "GIMNASIOS de JOHTO no tienen\l"
-	.string "validez alguna para la LIGA\l"
-	.string "POKÉMON, aunque sí conservamos\l"
-	.string "nuestras antiguas medallas.$"
+.string "As you know, current JOHTO\n"
+	.string "GYMS are irrelevant to\l"
+	.string "compete in the POKÉMON\l"
+	.string "LEAGUE. However, we still\l"
+	.string "have our old BADGES.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9.1:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA CÉFIRO.$"
+	.string "So, you have earned\n"
+	.string "the ZEPHYR BADGE.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9.2:
 	.string "Además, te daré algo mucho\n"

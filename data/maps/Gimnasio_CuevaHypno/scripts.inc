@@ -601,13 +601,13 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_10:
 	.string "YOU OBTAINED A LV.15 FENNEKIN!!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_9:
-	.string "40 años después, de nuevo puedo decir\n"
-	.string "que hago entrega de nuestra antigua\l"
-	.string "medalla.$"
+	.string "40 years later, one more time,\n"
+	.string "I can say a PKMN TRAINER\l"
+	.string "deserves my GYM BADGE.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_9.1:
-	.string "Take this, here you\n"
-	.string "are the ONEIRIC BADGE.$"
+	.string "Take this, you have\n"
+	.string "earned the ONEIRICBADGE.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_9.2:
 	.string "I hope you have a great journey. Take\n"

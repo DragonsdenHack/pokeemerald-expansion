@@ -115,12 +115,12 @@ GimnasioAnciana_Combate_Gimnasio_Texto_7:
 .string "YOU OBTAINED A LV.50 ZORUA-HISUI!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7.1:
-	.string "¡Ah! ¡Y casi se me olvida! Nuestra\n"
-	.string "antigua medalla característica.$"
+	.string "Uh! I almost forgive it!\n"
+	.string "Our old BADGE!.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7.2:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA IGNOTA.$"
+	.string "I must confer on you\n"
+	.string "the OBSCUREBADGE.$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_8:
 	.string "It's been almost four decades since\n"
