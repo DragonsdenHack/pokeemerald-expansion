@@ -313,6 +313,19 @@ const u8 *const gPocketNamesStringsTable[] =
     [KEYITEMS_POCKET] = gText_KeyItemsPocket
 };
 
+const u8 gText_NumberItem_TMBerry[] = _("{NO}{STR_VAR_1}{CLEAR 0x07}{STR_VAR_2}");
+const u8 gText_NumberItem_HM[] = _("{CLEAR_TO 0x11}{STR_VAR_1}{CLEAR 0x05}{STR_VAR_2}");
+const u8 gText_SizeSlash[] = _("Tamaño /");
+const u8 gText_FirmSlash[] = _("Huella /");
+const u8 gText_Var1DotVar2[] = _("{STR_VAR_1}.{STR_VAR_2}”");
+
+// Berry firmness strings
+const u8 gBerryFirmnessString_VerySoft[] = _("Very soft");
+const u8 gBerryFirmnessString_Soft[] = _("Soft");
+const u8 gBerryFirmnessString_Hard[] = _("Hard");
+const u8 gBerryFirmnessString_VeryHard[] = _("Very hard");
+const u8 gBerryFirmnessString_SuperHard[] = _("Super hard");
+
 const u8 gText_NumberVar1Var2[] = _("{NO}{STR_VAR_1} {STR_VAR_2}");
 const u8 gText_BerryTag[] = _("BERRY TAG");
 const u8 gText_RedPokeblock[] = _("RED {POKEBLOCK}");
@@ -1909,5 +1922,4 @@ const u8 gText_Exta[] = _("SIX ISLAND");
 const u8 gText_Setima[] = _("SEVEN ISLAND");
 const u8 gText_Carmin[] = _("VERMILION CITY");
 const u8 gText_Mas2[] = _("OTHER");
-const u8 gText_SizeSlash[] = _("SIZE /");	
 //#endif
