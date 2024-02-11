@@ -14,8 +14,8 @@ compare VAR_ROUTE130_STATE, 0
 goto_if_gt Chica_Iman_2
 msgbox Chica_Iman_Texto_1 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_ITEM
-giveitem ITEM_MAGNET
 waitfanfare
+giveitem ITEM_MAGNET
 delay 10
 setvar VAR_ROUTE130_STATE, 1
 end

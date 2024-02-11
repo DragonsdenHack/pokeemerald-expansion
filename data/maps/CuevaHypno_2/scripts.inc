@@ -32,8 +32,6 @@ end
 
 CuevaTesoro4_Combate_Blacephalon::
 	lock
-	faceplayer
-	waitse
 	playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
 	delay 40
 	waitmoncry
