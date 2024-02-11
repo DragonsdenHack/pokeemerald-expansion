@@ -37,7 +37,7 @@ const u8 gItemEffect_MaxPotion[7] = {
 const u8 gItemEffect_HyperPotion[7] = {
     [4] = ITEM4_HEAL_HP,
 #if I_HEALTH_RECOVERY >= GEN_7
-    [6] = 120, // Amount of HP to recover
+    [6] = 200, // Amount of HP to recover
 #else
     [6] = 200, // Amount of HP to recover
 #endif
@@ -48,7 +48,7 @@ const u8 gItemEffect_SuperPotion[7] = {
 #if I_HEALTH_RECOVERY >= GEN_7
     [6] = 60, // Amount of HP to recover
 #else
-    [6] = 50, // Amount of HP to recover
+    [6] = 60, // Amount of HP to recover
 #endif
 };
 
@@ -69,7 +69,7 @@ const u8 gItemEffect_MaxRevive[7] = {
 const u8 gItemEffect_FreshWater[7] = {
     [4] = ITEM4_HEAL_HP,
 #if I_HEALTH_RECOVERY >= GEN_7
-    [6] = 30, // Amount of HP to recover
+    [6] = 50, // Amount of HP to recover
 #else
     [6] = 50, // Amount of HP to recover
 #endif

@@ -12,6 +12,7 @@
 #include "text_window.h"
 #include "window.h"
 #include "constants/rgb.h"
+#include "overworld.h"
 
 /*
  *  This is the type of map shown when interacting with the metatiles for
@@ -136,7 +137,9 @@ static void MCB2_FieldUpdateRegionMap(void)
     UpdatePaletteFade();
     DoScheduledBgTilemapCopiesToVram();
 }
-
+const u8 gText_Kanto[] = _("KANTO");
+const u8 gText_Johto[] = _("JOHTO");
+const u8 gText_Sevii[] = _("ARCHI7");
 static void FieldUpdateRegionMap(void)
 {
     u8 offset;
@@ -151,8 +154,21 @@ static void FieldUpdateRegionMap(void)
             break;
         case 1:
             DrawStdFrameWithCustomTileAndPalette(1, 0, 0x27, 0xd);
-            offset = GetStringCenterAlignXOffset(FONT_NORMAL, gText_Hoenn, 0x38);
-            AddTextPrinterParameterized(1, FONT_NORMAL, gText_Hoenn, offset, 1, 0, NULL);
+			if(gMapHeader.region == REGION_JOHTO){
+            offset = GetStringCenterAlignXOffset(FONT_NORMAL, gText_Johto, 0x38);
+			AddTextPrinterParameterized(1, FONT_NORMAL, gText_Johto, offset, 1, 0, NULL);
+            }else if (gMapHeader.region == REGION_KANTO)
+			{
+			offset = GetStringCenterAlignXOffset(FONT_NORMAL, gText_Kanto, 0x38);
+			AddTextPrinterParameterized(1, FONT_NORMAL, gText_Kanto, offset, 1, 0, NULL);	
+			}else if (gMapHeader.region == SEVII_123 || gMapHeader.region == SEVII_45 || gMapHeader.region == SEVII_67)
+			{
+			offset = GetStringCenterAlignXOffset(FONT_NORMAL, gText_Sevii, 0x38);
+			AddTextPrinterParameterized(1, FONT_NORMAL, gText_Sevii, offset, 1, 0, NULL);
+			}else{
+			offset = GetStringCenterAlignXOffset(FONT_NORMAL, gText_Hoenn, 0x38);
+			AddTextPrinterParameterized(1, FONT_NORMAL, gText_Hoenn, offset, 1, 0, NULL);
+			}	
             ScheduleBgCopyTilemapToVram(0);
             DrawStdFrameWithCustomTileAndPalette(0, 0, 0x27, 0xd);
             PrintRegionMapSecName();

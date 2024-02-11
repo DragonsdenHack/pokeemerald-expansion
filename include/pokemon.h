@@ -13,7 +13,7 @@ struct PokemonSubstruct0
 {
     /*0x00*/ u16 species;
     /*0x02*/ u16 heldItem;
-    /*0x04*/ u32 experience;
+    /*0x04*/ u32 experience:23;
     /*0x08*/ u8 ppBonuses;
     /*0x09*/ u8 friendship;
     /*0x0A*/ u16 pokeball:5; //31 balls
@@ -62,8 +62,8 @@ struct PokemonSubstruct3
  /* 0x06 */ u32 spDefenseIV:5;
  /* 0x07 */ u32 isEgg:1;
 
- /* 0x08 */ u32 coolRibbon:3;
- /* 0x08 */ u32 beautyRibbon:3;
+ /* 0x08 */ u32 coolRibbon:1;
+ /* 0x08 */ u32 beautyRibbon:1;
  /* 0x08 */ u32 cuteRibbon:3;
  /* 0x09 */ u32 smartRibbon:3;
  /* 0x09 */ u32 toughRibbon:3;
@@ -107,13 +107,13 @@ struct BoxPokemon
     u32 personality;
     u32 otId;
     u8 nickname[POKEMON_NAME_LENGTH];
-    u8 language;
+    u8 language:3;
     u8 isBadEgg:1;
     u8 hasSpecies:1;
     u8 isEgg:1;
-    u8 unused:5;
+    u8 unused:1;
     u8 otName[PLAYER_NAME_LENGTH];
-    u8 markings;
+    u8 markings:4;
     u16 checksum;
     u16 unknown;
 
@@ -316,6 +316,7 @@ void ZeroEnemyPartyMons(void);
 void CreateMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 hasFixedPersonality, u32 fixedPersonality, u8 otIdType, u32 fixedOtId);
 void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, u8 hasFixedPersonality, u32 fixedPersonality, u8 otIdType, u32 fixedOtId);
 void CreateMonWithNature(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 nature);
+void CreateShinyMonWithNature(struct Pokemon *mon, u16 species, u8 level, u8 nature);
 void CreateMonWithGenderNatureLetter(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 gender, u8 nature, u8 unownLetter);
 void CreateMaleMon(struct Pokemon *mon, u16 species, u8 level);
 void CreateMonWithIVsPersonality(struct Pokemon *mon, u16 species, u8 level, u32 ivs, u32 personality);

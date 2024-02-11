@@ -891,56 +891,56 @@ static void DebugAction_Util_HealParty(u8 taskId)
 }
 static void DebugAction_Util_Fly(u8 taskId)
 {
-    FlagSet(FLAG_VISITED_LITTLEROOT_TOWN);
-    FlagSet(FLAG_VISITED_OLDALE_TOWN);
-    FlagSet(FLAG_VISITED_DEWFORD_TOWN);
-    FlagSet(FLAG_VISITED_LAVARIDGE_TOWN);
-    FlagSet(FLAG_VISITED_FALLARBOR_TOWN);
-    FlagSet(FLAG_VISITED_VERDANTURF_TOWN);
-    FlagSet(FLAG_VISITED_PACIFIDLOG_TOWN);
-    FlagSet(FLAG_VISITED_PETALBURG_CITY);
-    FlagSet(FLAG_VISITED_SLATEPORT_CITY);
-    FlagSet(FLAG_VISITED_MAUVILLE_CITY);
-    FlagSet(FLAG_VISITED_RUSTBORO_CITY);
-    FlagSet(FLAG_VISITED_FORTREE_CITY);
-    FlagSet(FLAG_VISITED_LILYCOVE_CITY);
-    FlagSet(FLAG_VISITED_MOSSDEEP_CITY);
-    FlagSet(FLAG_VISITED_SOOTOPOLIS_CITY);
-    FlagSet(FLAG_VISITED_EVER_GRANDE_CITY);
-    FlagSet(FLAG_LANDMARK_POKEMON_LEAGUE);
-    FlagSet(FLAG_LANDMARK_BATTLE_FRONTIER);
-    FlagSet(FLAG_VISITED_PALLET_TOWN); 
-    FlagSet(FLAG_VISITED_VIRIDIAN_CITY); 
-    FlagSet(FLAG_VISITED_PEWTER_CITY);                          
-    FlagSet(FLAG_VISITED_CERULEAN_CITY);                           
-    FlagSet(FLAG_VISITED_LAVENDER_TOWN);                      
-    FlagSet(FLAG_VISITED_VERMILION_CITY);                          
-    FlagSet(FLAG_VISITED_CELADON_CITY);
-    FlagSet(FLAG_VISITED_FUCHSIA_CITY);                       
-    FlagSet(FLAG_VISITED_CINNABAR_ISLAND);
-    FlagSet(FLAG_VISITED_INDIGO_PLATEAU);                          
-    FlagSet(FLAG_VISITED_SAFFRON_CITY);                          
-    FlagSet(FLAG_VISITED_ROUTE_4_FLY);                           
-    FlagSet(FLAG_VISITED_ROUTE_10_FLY);                            
-    FlagSet(FLAG_VISITED_ONE_ISLAND);                           
-    FlagSet(FLAG_VISITED_TWO_ISLAND);                           
-    FlagSet(FLAG_VISITED_THREE_ISLAND);                          
-    FlagSet(FLAG_VISITED_FOUR_ISLAND);                       
-    FlagSet(FLAG_VISITED_FIVE_ISLAND);                          
-    FlagSet(FLAG_VISITED_SIX_ISLAND);                        
-    FlagSet(FLAG_VISITED_SEVEN_ISLAND);
-	FlagSet(FLAG_VISITED_NEW_BARK_TOWN);
-	FlagSet(FLAG_VISITED_CHERRYGROVE_CITY);
-	FlagSet(FLAG_VISITED_VIOLET_CITY);
-	FlagSet(FLAG_VISITED_AZALEA_TOWN);
-	FlagSet(FLAG_VISITED_GOLDENROD_CITY);
-	FlagSet(FLAG_VISITED_OLIVINE_CITY);
-	FlagSet(FLAG_VISITED_CIANWOOD_CITY);
-	FlagSet(FLAG_VISITED_ECRUTEAK_CITY);
-	FlagSet(FLAG_VISITED_MT_SILVER);
-	FlagSet(FLAG_VISITED_ROCKET_HIDEOUT_JOHTO);
-	FlagSet(FLAG_VISITED_MAHOGANY_CITY);
-	FlagSet(FLAG_VISITED_BLACKTHORN_CITY);
+    // FlagSet(FLAG_VISITED_LITTLEROOT_TOWN);
+    // FlagSet(FLAG_VISITED_OLDALE_TOWN);
+    // FlagSet(FLAG_VISITED_DEWFORD_TOWN);
+    // FlagSet(FLAG_VISITED_LAVARIDGE_TOWN);
+    // FlagSet(FLAG_VISITED_FALLARBOR_TOWN);
+    // FlagSet(FLAG_VISITED_VERDANTURF_TOWN);
+    // FlagSet(FLAG_VISITED_PACIFIDLOG_TOWN);
+    // FlagSet(FLAG_VISITED_PETALBURG_CITY);
+    // FlagSet(FLAG_VISITED_SLATEPORT_CITY);
+    // FlagSet(FLAG_VISITED_MAUVILLE_CITY);
+    // FlagSet(FLAG_VISITED_RUSTBORO_CITY);
+    // FlagSet(FLAG_VISITED_FORTREE_CITY);
+    // FlagSet(FLAG_VISITED_LILYCOVE_CITY);
+    // FlagSet(FLAG_VISITED_MOSSDEEP_CITY);
+    // FlagSet(FLAG_VISITED_SOOTOPOLIS_CITY);
+    // FlagSet(FLAG_VISITED_EVER_GRANDE_CITY);
+    // FlagSet(FLAG_LANDMARK_POKEMON_LEAGUE);
+    // FlagSet(FLAG_LANDMARK_BATTLE_FRONTIER);
+    // FlagSet(FLAG_VISITED_PALLET_TOWN); 
+    // FlagSet(FLAG_VISITED_VIRIDIAN_CITY); 
+    // FlagSet(FLAG_VISITED_PEWTER_CITY);                          
+    // FlagSet(FLAG_VISITED_CERULEAN_CITY);                           
+    // FlagSet(FLAG_VISITED_LAVENDER_TOWN);                      
+    // FlagSet(FLAG_VISITED_VERMILION_CITY);                          
+    // FlagSet(FLAG_VISITED_CELADON_CITY);
+    // FlagSet(FLAG_VISITED_FUCHSIA_CITY);                       
+    // FlagSet(FLAG_VISITED_CINNABAR_ISLAND);
+    // FlagSet(FLAG_VISITED_INDIGO_PLATEAU);                          
+    // FlagSet(FLAG_VISITED_SAFFRON_CITY);                          
+    // FlagSet(FLAG_VISITED_ROUTE_4_FLY);                           
+    // FlagSet(FLAG_VISITED_ROUTE_10_FLY);                            
+    // FlagSet(FLAG_VISITED_ONE_ISLAND);                           
+    // FlagSet(FLAG_VISITED_TWO_ISLAND);                           
+    // FlagSet(FLAG_VISITED_THREE_ISLAND);                          
+    // FlagSet(FLAG_VISITED_FOUR_ISLAND);                       
+    // FlagSet(FLAG_VISITED_FIVE_ISLAND);                          
+    // FlagSet(FLAG_VISITED_SIX_ISLAND);                        
+    // FlagSet(FLAG_VISITED_SEVEN_ISLAND);
+	// FlagSet(FLAG_VISITED_NEW_BARK_TOWN);
+	// FlagSet(FLAG_VISITED_CHERRYGROVE_CITY);
+	// FlagSet(FLAG_VISITED_VIOLET_CITY);
+	// FlagSet(FLAG_VISITED_AZALEA_TOWN);
+	// FlagSet(FLAG_VISITED_GOLDENROD_CITY);
+	// FlagSet(FLAG_VISITED_OLIVINE_CITY);
+	// FlagSet(FLAG_VISITED_CIANWOOD_CITY);
+	// FlagSet(FLAG_VISITED_ECRUTEAK_CITY);
+	// FlagSet(FLAG_VISITED_MT_SILVER);
+	// FlagSet(FLAG_VISITED_ROCKET_HIDEOUT_JOHTO);
+	// FlagSet(FLAG_VISITED_MAHOGANY_CITY);
+	// FlagSet(FLAG_VISITED_BLACKTHORN_CITY);
     Debug_DestroyMenu(taskId);
     SetMainCallback2(CB2_OpenFlyMap);
 }
@@ -3220,6 +3220,7 @@ static void DebugAction_Sound_MUS_SelectId(u8 taskId)
 	X(MUS_VICTORY_DEVON, "MUS-VICTORY-DEVON") \
 	X(MUS_SINJOH_RUINS, "MUS-SINJOH-RUINS") \
 	X(MUS_DRAGONSPIRAL_TOWER, "MUS-DRAGONSPIRAL-TOWER") \
+	X(MUS_ABNORMAL_WEATHER2, "MUS-ABNORMAL-WEATHER-2") \
 	X(DP_SEQ_TITLE00    , "DP-SEQ-TITLE00") \
     X(DP_SEQ_TITLE01    , "DP-SEQ-TITLE01") \
     X(DP_SEQ_OPENING    , "DP-SEQ-OPENING") \

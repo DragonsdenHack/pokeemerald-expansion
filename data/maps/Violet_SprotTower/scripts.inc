@@ -1,5 +1,14 @@
 Violet_SprotTower_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Violet_SprotTower_OnResume
 	.byte 0
+
+Violet_SprotTower_OnResume:
+	call Violet_SprotTower_SetupEscapeWarp
+	end
+
+Violet_SprotTower_SetupEscapeWarp::
+	setescapewarp MAP_VIOLET_CITY, 33, 12
+	return
 
 VioletSprotTower_1::
 lock     

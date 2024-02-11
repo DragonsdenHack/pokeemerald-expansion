@@ -246,7 +246,7 @@ applymovement 2, PokemonLeague_6F_Final_Move_13
 applymovement 3, PokemonLeague_6F_Final_Move_13
 applymovement 4, PokemonLeague_6F_Final_Move_14
 waitmovement 0x0
-playse MUS_RG_CREDITS
+playse MUS_RG_ROCKET_HIDEOUT
 msgbox PokemonLeague_6F_Final_Texto_50 MSGBOX_AUTOCLOSE
 applymovement 4, PokemonLeague_6F_Final_Move_31
 waitmovement 0x0
@@ -289,7 +289,7 @@ delay 40
 setvar VAR_TEMP_1, 1
 call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
 checkplayergender
-goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
+goto EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end
 

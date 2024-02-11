@@ -19,7 +19,6 @@ NavelRock_Top_EventScript_TryShowHoOh::
 	setvar VAR_TEMP_1, 1
 	goto_if_set FLAG_DEFEATED_HO_OH, Common_EventScript_NopReturn
 	setvar VAR_TEMP_1, 0
-	clearflag FLAG_HIDE_HO_OH
 	return
 
 NavelRock_Top_OnResume:

@@ -96,7 +96,7 @@ CianwoodEusineHouse_Combate_Texto_6:
 	.string "tener la bendición de los 2 GRANDES\l"
 	.string "MAESTROS de JOHTO. Yo solo veo a\l"
 	.string "alguien que intenta colgarse medallas,\l"
-	.string "como todos hoy en día, expondrias\l"
+	.string "como todos hoy en día. Expondrías\l"
 	.string "dichas experiencias en un museo si\l"
 	.string "pudieras, ¿o no?$"
 
@@ -165,10 +165,6 @@ waitmovement 0x0
 msgbox Misiones_DLC_Fin_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
 delay 20
-msgbox IcePath_Llamada_Giovanni_Texto_3 MSGBOX_YESNO
-compare VAR_RESULT, 0
-goto_if_eq IcePath_Llamada_Giovanni_No
-warpsilent MAP_ROCKET_HIDEOUT_5F, 69, 4
 release
 end
 
@@ -197,9 +193,10 @@ CianwoodEusineHouse_Dialogo_Post_Mision_Texto_2:
 	.string "vosotros se confirmaron justo al irme.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_3:
-.string "Oí a tu amiga hablar sobre los POKÉMON\n"
-	.string "del maestro como información, de un tal\l"
-	.string "GIOVANNI…$"
+	.string "Oí hablar a tu amiga sobre los POKÉMON\n"
+	.string "del MAESTRO, y todos los antiguos en\l"
+	.string "general. Dijo que os serían de gran\l"
+	.string "ayuda para investigaciones futuras.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_4:
 .string "¿Pertenecéis a algún tipo de\n"

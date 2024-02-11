@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROUTE_31",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -229,7 +229,7 @@
       "x": 37,
       "y": 8,
       "elevation": 3,
-      "item": "ITEM_ETHER",
+      "item": "ITEM_BRAVE_MINT",
       "flag": "FLAG_NUEVA_469"
     }
   ]

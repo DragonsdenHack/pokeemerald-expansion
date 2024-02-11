@@ -10,8 +10,8 @@
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
-  "show_map_name": true,
-  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_SIDNEY",
   "connections": 0,
   "object_events": [
     {
@@ -102,7 +102,7 @@
       "dest_warp_id": 0
     },
     {
-      "x": 14,
+      "x": 15,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_ROUTE49_PAGODA_P5",

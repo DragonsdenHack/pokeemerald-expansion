@@ -1283,7 +1283,7 @@ finditem ITEM_MAX_REVIVE
 
 
 Ruta52Maze_EventScript_CableLink::
-finditem ITEM_POKEMON_BOX_LINK
+finditem ITEM_CRACKED_POT
 end
 
 
@@ -1905,7 +1905,7 @@ finditem ITEM_ELIXIR
    end
 
 Lago5_EventScript_FragmentoCometa::
-finditem ITEM_COMET_SHARD
+finditem ITEM_RED_SCALE
    end
 
 Ruta47_EventScript_RocaSuave::
@@ -2284,6 +2284,10 @@ MisionTrigal4_EventScript_Pepita::
 finditem ITEM_NUGGET
    end
 
+MisionTrigal4_EventScript_Maxi_Pepita::
+finditem ITEM_BIG_NUGGET
+   end
+
 MisionTrigal4_EventScript_Protector::
 finditem ITEM_PROTECTOR
    end
@@ -2601,7 +2605,7 @@ finditem ITEM_RAZOR_FANG
    end
 
 Route49PagodaP5_Event_Script_PSagrada::
-finditem ITEM_PIEDRA_SAGRADA
+finditem ITEM_TART_APPLE
    end
 
 Route49PagodaP7_Event_Script_CSagrada::
@@ -2609,12 +2613,19 @@ finditem ITEM_SACRED_ASH
    end
 
 Route49PagodaP14_Event_Script_PSagrada::
-finditem ITEM_PIEDRA_SAGRADA
+finditem ITEM_TART_APPLE
    end
 
 BaseJohto_EventScript_Procket::
 finditem ITEM_CHIPPED_POT
     end
 
+Underground7F_EventScript_Condensador::
+finditem ITEM_CONDENSADOR_GAS
+    end
+
+Underground7F_EventScript_Toxtricitita::
+finditem ITEM_TOXTRICITIT
+    end
 
 

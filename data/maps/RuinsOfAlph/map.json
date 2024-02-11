@@ -243,6 +243,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "174",
       "script": "RuinsOfAlph_Terremoto"
+    },
+    {
+      "type": "trigger",
+      "x": 3,
+      "y": 48,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40FA",
+      "var_value": "0",
+      "script": "Ruinas_Alfa_Post_DLC"
     }
   ],
   "bg_events": [

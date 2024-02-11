@@ -2,14 +2,12 @@ Route107_MapScripts::
 	.byte 0
 
 Route107_EventScript_Darrin::
-	trainerbattle_single TRAINER_DARRIN, Route107_Text_DarrinIntro, Route107_Text_DarrinDefeated
+	trainerbattle_single TRAINER_TRAINER_422, Route107_Text_DarrinIntro, Route107_Text_DarrinDefeated
 	msgbox Route107_Text_DarrinPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_Tony::
-	trainerbattle_single TRAINER_TONY_1, Route107_Text_TonyIntro, Route107_Text_TonyDefeated, Route107_EventScript_TonyRegisterMatchCallAfterBattle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, Route107_EventScript_TonyRematch
+	trainerbattle_single TRAINER_TRAINER_421, Route107_Text_TonyIntro, Route107_Text_TonyDefeated,
 	msgbox Route107_Text_TonyPostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -28,12 +26,12 @@ Route107_EventScript_TonyRematch::
 	end
 
 Route107_EventScript_Denise::
-	trainerbattle_single TRAINER_DENISE, Route107_Text_DeniseIntro, Route107_Text_DeniseDefeated
+	trainerbattle_single TRAINER_TRAINER_420, Route107_Text_DeniseIntro, Route107_Text_DeniseDefeated
 	msgbox Route107_Text_DenisePostBattle, MSGBOX_AUTOCLOSE
 	end
 
 Route107_EventScript_Beth::
-	trainerbattle_single TRAINER_BETH, Route107_Text_BethIntro, Route107_Text_BethDefeated
+	trainerbattle_single TRAINER_TRAINER_423, Route107_Text_BethIntro, Route107_Text_BethDefeated
 	msgbox Route107_Text_BethPostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -48,7 +46,7 @@ Route107_EventScript_Ray::
 	end
 
 Route107_EventScript_Camron::
-	trainerbattle_single TRAINER_BRUNO_1, Route107_Text_CamronIntro, Route107_Text_CamronDefeated
+	trainerbattle_single TRAINER_TRAINER_424, Route107_Text_CamronIntro, Route107_Text_CamronDefeated
 	msgbox Route107_Text_CamronPostBattle, MSGBOX_AUTOCLOSE
 	end
 

@@ -1,5 +1,14 @@
 AlteringCave_Sevii_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, AlteringCave_Sevii_OnResume
 	.byte 0
+
+AlteringCave_Sevii_OnResume:
+	call AlteringCave_Sevii_SetupEscapeWarp
+	end
+
+AlteringCave_Sevii_SetupEscapeWarp::
+	setescapewarp MAP_OUTCAST_ISLAND, 7, 22
+	return
 
 AlteringCaveSevii1::
 end

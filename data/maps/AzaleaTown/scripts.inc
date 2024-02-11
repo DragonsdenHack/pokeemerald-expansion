@@ -1,5 +1,10 @@
 AzaleaTown_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, AzaleaTown_OnTransition
 	.byte 0
+
+AzaleaTown_OnTransition::
+setflag FLAG_VISITED_AZALEA_TOWN
+end
 
 AzaleaTown1::
 end
@@ -755,6 +760,23 @@ AzaleaTownDocumento_Text_Chansey_YesNo:
 Chansey_3No::
 release
 end
+
+Maquina_Primavera_Cura::
+lock
+msgbox Maquina_Primavera_Cura_YesNo, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq Chansey_3No
+fadescreen 1
+playse SE_USE_ITEM
+special HealPlayerParty
+delay 20
+fadescreen 0
+release     
+end
+
+Maquina_Primavera_Cura_YesNo:
+.string "¿Quieres curar a tu equipo?$"
+
 
 
 

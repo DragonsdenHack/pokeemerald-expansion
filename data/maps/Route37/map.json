@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_ROUTE_37",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -106,10 +106,10 @@
     },
     {
       "type": "hidden_item",
-      "x": 9,
-      "y": 16,
+      "x": 4,
+      "y": 9,
       "elevation": 3,
-      "item": "ITEM_WHITE_HERB",
+      "item": "ITEM_LAX_MINT",
       "flag": "FLAG_NUEVA_479"
     }
   ]

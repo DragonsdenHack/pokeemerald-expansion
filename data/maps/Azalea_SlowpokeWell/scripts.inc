@@ -1,5 +1,14 @@
 Azalea_SlowpokeWell_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Azalea_SlowpokeWell_OnResume
 	.byte 0
+
+Azalea_SlowpokeWell_OnResume:
+	call Azalea_SlowpokeWell_SetupEscapeWarp
+	end
+
+Azalea_SlowpokeWell_SetupEscapeWarp::
+	setescapewarp MAP_AZALEA_TOWN, 42, 8
+	return
 
 SlowpokeWell1::
 end

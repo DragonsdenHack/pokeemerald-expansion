@@ -1,5 +1,14 @@
 Olivine_Lighthouse_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Olivine_Lighthouse_OnResume
 	.byte 0
+
+Olivine_Lighthouse_OnResume:
+	call Olivine_Lighthouse_SetupEscapeWarp
+	end
+
+Olivine_Lighthouse_SetupEscapeWarp::
+	setescapewarp MAP_OLIVINE_CITY, 41, 33
+	return
 
 OliivineLighthouse1::
 end

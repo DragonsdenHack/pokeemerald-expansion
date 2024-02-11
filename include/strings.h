@@ -2774,6 +2774,7 @@ extern const u8 gJPText_MysteryGift[];
 extern const u8 gJPText_DecideStop[];
 extern const u8 gText_WonderCards[];
 extern const u8 gText_WonderNews[];
+extern const u8 gText_Dlc[];
 extern const u8 gText_Exit3[];
 extern const u8 gText_WirelessCommunication[];
 extern const u8 gText_Friend2[];
@@ -2855,6 +2856,21 @@ extern const u8 gText_Lower[];
 extern const u8 gText_Symbols[];
 extern const u8 gText_Register2[];
 extern const u8 gText_Exit2[];
+extern const u8 gText_PostgameKanto[];
+extern const u8 gText_PostgameKanto2[];
+extern const u8 gText_PostgameKanto3[];
+extern const u8 gText_PostgameKanto4[];
+extern const u8 gText_PostgameKanto5[];
+extern const u8 gText_PostgameKanto6[];
+extern const u8 gText_PostgameKanto7[];
+extern const u8 gText_PostgameKanto8[];
+extern const u8 gText_Final[];
+extern const u8 gText_ComoFunciona2[];
+extern const u8 gText_ComoFunciona3[];
+extern const u8 gText_ComoFunciona4[];
+extern const u8 gText_ComoFunciona5[];
+extern const u8 gText_ComoFunciona6[];
+extern const u8 gText_ComoFunciona7[];
 
 // Dodrio Berry Picking
 extern const u8 gText_BerryPickingRecords[];
@@ -3056,6 +3072,7 @@ extern const u8 gText_Axew[];
 // Venta Base Ruta 5
 extern const u8 gText_Rattata[];
 extern const u8 gText_Mankey[];
+extern const u8 gText_Voltorb[];
 extern const u8 gText_Koffing[];
 
 // Venta Base Profunda

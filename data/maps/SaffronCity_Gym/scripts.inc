@@ -195,10 +195,11 @@ msgbox SaffronCity_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_SABRINA, SaffronCity_Lider_Gimnasio_Texto_2
 msgbox SaffronCity_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM04_CALM_MIND
+additem 586
 msgbox SaffronCity_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox SaffronCity_Lider_Gimnasio_Texto_3 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE06_GET
 settrainerflag TRAINER_JENNY_2
 settrainerflag TRAINER_CARLEE
 settrainerflag TRAINER_LAUREL
@@ -360,10 +361,11 @@ msgbox Vermilion_City_Lider_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_SURGE_2, Vermilion_City_Lider_Gimnasio_Texto_2
 msgbox Vermilion_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM34_SHOCK_WAVE
+additem 616
 msgbox Vermilion_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Vermilion_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE03_GET
 settrainerflag TRAINER_WINSTON_5
 settrainerflag TRAINER_ETHAN_4
 settrainerflag TRAINER_LAO_5
@@ -493,11 +495,12 @@ msgbox Pewter_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BROCK, Pewter_City_Lider_Gimnasio_Texto_2
 msgbox Pewter_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM39_ROCK_TOMB
+additem 621
 msgbox Pewter_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Pewter_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
 setvar VAR_ROUTE111_STATE, 3
+setflag FLAG_BADGE01_GET
 settrainerflag TRAINER_STEVE_1
 release
 end
@@ -637,10 +640,11 @@ msgbox Cerulean_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_MISTY, Cerulean_City_Lider_Gimnasio_Texto_2
 msgbox Cerulean_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM03_WATER_PULSE
+additem 585
 msgbox Cerulean_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 setvar VAR_ROUTE109_STATE, 3
+setflag FLAG_BADGE02_GET
 settrainerflag TRAINER_BLAKE
 settrainerflag TRAINER_LUIS
 release
@@ -762,10 +766,11 @@ msgbox Fuchsia_City_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_KOGA, Fuchsia_City_Lider_Gimnasio_Texto_2
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM06_TOXIC
+additem 588
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Fuchsia_City_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE05_GET
 settrainerflag TRAINER_MIGUEL_1
 settrainerflag TRAINER_ANNA_AND_MEG_3
 settrainerflag TRAINER_MIGUEL_3
@@ -838,15 +843,21 @@ faceplayer
 compare VAR_UNUSED_0x40F7, 80
 goto_if_gt Cinnabar_Island_Lider_Gimnasio_2
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.3 MSGBOX_AUTOCLOSE
+delay 10
+msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.2 MSGBOX_AUTOCLOSE
+delay 10
 playse MUS_RG_ENCOUNTER_GYM_LEADER
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_BLAINE_1, Cinnabar_Island_Lider_Gimnasio_Texto_2
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM38_FIRE_BLAST
+additem 620
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cinnabar_Island_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE07_GET
 settrainerflag TRAINER_SHANE
 settrainerflag TRAINER_TONY_5
 settrainerflag TRAINER_TAKAO
@@ -926,6 +937,20 @@ Cinnabar_Island_Lider_Gimnasio_Texto_1.1:
 .string "Hah!\n"
     .string "You better have BURN HEAL!$"
 
+Cinnabar_Island_Lider_Gimnasio_Texto_1.2:
+.string "Por otro lado, tendrás que disculpar a\n"
+	.string "mi GIMNASIO, pero últimamente han\l"
+	.string "venido muchos aspirantes y no nos ha\l"
+	.string "dado tiempo a colocar nuevos acertijos.$"
+
+Cinnabar_Island_Lider_Gimnasio_Texto_1.3:
+.string "Debes saber que no me gusta esa moda\n"
+	.string "de hacer cosplay con el TEAM ROCKET.\l"
+	.string "Son unos traidores a la verdadera KANTO\l"
+	.string "y merecen desaparecer de su historia,\l"
+	.string "con actos como ese solo se afianzan en\l"
+	.string "el imaginario colectivo, ¿entiendes?$"
+
 Cinnabar_Island_Lider_Gimnasio_Texto_2:
 .string "I have burned down to nothing!\n"
 .string "Not even ashes remain!\p"
@@ -1003,10 +1028,11 @@ msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_1.1 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ERIKA, Celadon_Ciyy_Lider_Gimnasio_Texto_2
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_4 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
-addobject ITEM_TM19_GIGA_DRAIN
+additem 601
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_5 MSGBOX_DEFAULT
 waitfanfare
 msgbox Celadon_Ciyy_Lider_Gimnasio_Texto_6 MSGBOX_AUTOCLOSE
+setflag FLAG_BADGE04_GET
 setvar VAR_ROUTE107_STATE, 3
 settrainerflag TRAINER_JESSICA_3
 settrainerflag TRAINER_BRAWLY_1

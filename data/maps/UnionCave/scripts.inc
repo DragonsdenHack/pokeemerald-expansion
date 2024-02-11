@@ -1,5 +1,14 @@
 UnionCave_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, UnionCave_OnResume
 	.byte 0
+
+UnionCave_OnResume:
+	call UnionCave_SetupEscapeWarp
+	end
+
+UnionCave_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE32, 9, 106
+	return
 
 UnionCave1::
 end
@@ -278,12 +287,10 @@ walk_right
 step_end
 
 UnionCave_Llamada_Giovanni::
-delay 30
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
-waitmovement 0x0
 msgbox UnionCave_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
 setvar VAR_UNUSED_0x40F7, 126

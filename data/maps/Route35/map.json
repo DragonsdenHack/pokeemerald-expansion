@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_DILFORD_CHAMBER",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -194,7 +194,7 @@
       "x": 17,
       "y": 8,
       "elevation": 3,
-      "item": "ITEM_REVIVE",
+      "item": "ITEM_IMPISH_MINT",
       "flag": "FLAG_NUEVA_476"
     }
   ]

@@ -544,6 +544,8 @@ step_end
 
 
 RocketHideout_6F_Warp::
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Warp_move2.1
+waitmovement 0x0
 msgbox RocketHideout_6F_Warp_Text_YesNo, MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq RocketHideout_6F_Warp_No
@@ -561,6 +563,10 @@ RocketHideout_6F_Warp_Text_YesNo:
 	.string "las escaleras que llevan a la\l"
 	.string "GUARDERÍA, ¿quieres salir de la\l"
 	.string "BASE?$"
+
+RocketHideout_6F_Warp_move2.1:
+walk_in_place_down
+step_end
 
 RocketHideout_6F_Warp_move1:
 walk_slow_right
@@ -619,6 +625,7 @@ msgbox RocketHideout_6F_Petrel_Text_Mision_2_12, MSGBOX_AUTOCLOSE
 applymovement 14, RocketHideout_6F_Petrel_Mision_2_move2
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Text_Mision_2_13, MSGBOX_AUTOCLOSE
+setvar VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT, 1
 setvar VAR_UNUSED_0x40F7, 19
 setvar VAR_UNUSED_0x40FC, 2
 release
@@ -776,8 +783,11 @@ addobject 28
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_1
 waitmovement 0x0
 msgbox RocketHideout_6F_Petrel_Mision_3_Bill_texto_1 MSGBOX_AUTOCLOSE
-applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_2
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_2.1
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_3_Bill_move_3
+waitmovement 0x0
+playse SE_PIN
+applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_2
 waitmovement 0x0
 applymovement 27, RocketHideout_6F_Petrel_Mision_3_Bill_move_4
 applymovement 14, RocketHideout_6F_Petrel_Mision_3_Bill_move_5
@@ -843,6 +853,11 @@ delay 100
 changeavatar 1
 setvar VAR_UNUSED_0x40F7, 800
 warpsilent MAP_ROCKET_HIDEOUT_6F, 28, 25
+
+RocketHideout_6F_Petrel_Mision_3_Bill_move_2.1:
+delay_8
+face_up
+step_end
 
 RocketHideout_6F_Petrel_Mision_3_Bill_move_14.1:
 walk_in_place_left
@@ -1835,6 +1850,7 @@ removeobject 33
 fadescreen 0
 setflag FLAG_HIDE_PETALBURG_CITY_WALLY
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_1
+clearflag FLAG_VISITED_INDIGO_PLATEAU
 setvar VAR_UNUSED_0x40F7, 32
 release
 end
@@ -1971,11 +1987,32 @@ lock
 faceplayer
 msgbox Text_CompraPokemon_Ruta_5 MSGBOX_AUTOCLOSE
 waitmessage
-multichoice 22, 0, MULTI_VENTA_BASE_RUTA_5, 0
+multichoice 0, 0, MULTI_VENTA_BASE_RUTA_5, 0
 switch VAR_RESULT
 case 0, EventScript_Rattata
 case 1, EventScript_Mankey
-case 2, EventScript_Koffing
+case 2, EventScript_Voltorb
+case 3, EventScript_Koffing
+release
+end
+
+EventScript_Voltorb::
+lock
+showmoneybox 0, 0
+msgbox EventScript_Voltorb_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 9000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 9000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+delay 20
+givemon SPECIES_VOLTORB, 12, ITEM_NONE
 release
 end
 
@@ -2042,6 +2079,10 @@ end
 Text_CompraPokemon_Ruta_5:
 .string "How's everything going comrade? How\n"
 	.string "can I help you?$"
+
+EventScript_Voltorb_Texto_1:
+.string "¿Seguro que quieres a VOLTORB?\n"
+	.string "Costará 9000 POKÉS.$"
 
 EventScript_Koffing_Texto_1:
 .string "Are you sure you want KOFFING? It will\n"
@@ -2118,4 +2159,44 @@ RocketHideout_6F_Cientifico_Maquina_Texto_2:
 	.string "use of the system whenever you want,\l"
 	.string "you just need to interact with the\l"
 	.string "machine to use teleport mode.$"
+
+
+SeteoIvs::
+msgbox SeteoIvs_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SeteoIvs_Texto_2 MSGBOX_AUTOCLOSE
+delay 10
+msgbox SeteoIvs_Texto_3 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq SeteoIvs_No
+delay 10
+msgbox SeteoIvs_Texto_4 MSGBOX_AUTOCLOSE
+goto SetIVs
+release
+end
+
+SeteoIvs_No::
+msgbox SeteoIvs_No_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SeteoIvs_Texto_4:
+	.string "Escoga al POKÉMON que quiere potenciar.$"
+
+SeteoIvs_No_Texto_1:
+	.string "Como usted guste, ADMIN.JEFE.$"
+
+SeteoIvs_Texto_3:
+	.string "El coste será de solo 100000 POKÉS. ¿Le\n"
+	.string "interesa?$"
+
+SeteoIvs_Texto_1:
+	.string "Hemos logrado la tecnología capaz de\n"
+	.string "exprimir al 100% el potencial genético\l"
+	.string "de un POKÉMON.$"
+
+SeteoIvs_Texto_2:
+	.string "Gracias a ello, todo POKÉMON que se\n"
+	.string "someta a nuestro tratamiento contará\l"
+	.string "con 31 IVs en sus 6 STATS.$"
+
 

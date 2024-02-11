@@ -2,6 +2,7 @@ UndergroundPath_12F_MapScripts::
 	.byte 0
 
 UndergroundPath_12F_Combates_Moteros::
+applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_12F_Combates_Moteros_Move_1.1
 msgbox UndergroundPath_12F_Combates_Moteros_Texto_1 MSGBOX_AUTOCLOSE
 applymovement 2, UndergroundPath_12F_Combates_Moteros_Move_1
 waitmovement 0x0
@@ -71,6 +72,10 @@ msgbox UndergroundPath_12F_Combates_Moteros_Texto_20 MSGBOX_AUTOCLOSE
 release
 setvar VAR_ROUTE105_STATE, 12
 end
+
+UndergroundPath_12F_Combates_Moteros_Move_1.1:
+walk_in_place_up
+step_end
 
 UndergroundPath_12F_Combates_Moteros_Move_12:
 walk_down

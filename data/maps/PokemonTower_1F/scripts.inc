@@ -1,5 +1,14 @@
 PokemonTower_1F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, PokemonTower_1F_OnResume
 	.byte 0
+
+PokemonTower_1F_OnResume:
+	call PokemonTower_1F_SetupEscapeWarp
+	end
+
+PokemonTower_1F_SetupEscapeWarp::
+	setescapewarp MAP_LAVENDER_TOWN, 18, 7
+	return
 
 PokemonTower1F_1::
 lock     

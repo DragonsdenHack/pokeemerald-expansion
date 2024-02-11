@@ -1,5 +1,14 @@
 IlexForest_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, IlexForest_OnResume
 	.byte 0
+
+IlexForest_OnResume:
+	call IlexForest_SetupEscapeWarp
+	end
+
+IlexForest_SetupEscapeWarp::
+	setescapewarp MAP_AZALEA_TOWN, 7, 11
+	return
 
 IlexForest1::
 lock     
@@ -107,12 +116,10 @@ IlexForest_EventScript_Chica::
 
 
 IlexForest_Llamada_Giovanni::
-delay 30
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
-waitmovement 0x0
 msgbox IlexForest_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox IlexForest_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF

@@ -632,7 +632,7 @@ waitmovement 0x0
 waitse
 playse SE_M_SOLAR_BEAM
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_12
-delay 100
+waitmovement 0x0
 changeavatar 2
 setvar VAR_UNUSED_0x40F7, 802
 warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
@@ -645,7 +645,7 @@ step_end
 
 
 RocketHideout_8F_Disguise_Player::
-delay 40
+delay 10
 playfanfare MUS_OBTAIN_SYMBOL
 msgbox RocketHideout_8F_Mision_Silph_text_6 MSGBOX_DEFAULT
 waitfanfare
@@ -772,11 +772,12 @@ applymovement 1, RocketHideout_8F_Mision_Silph_Despues_Move_14
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_54 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Silph_Despues_Move_15
-applymovement 9, RocketHideout_8F_Mision_Silph_Despues_Move_13
+applymovement 9, RocketHideout_8F_Mision_Silph_Despues_Move_13.1
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Silph_text_55 MSGBOX_AUTOCLOSE
 fadescreen 1
 delay 20
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
 removeobject 9
 fadescreen 0
@@ -808,6 +809,10 @@ step_end
 
 RocketHideout_8F_Mision_Silph_Despues_Move_13:
 walk_slow_right
+step_end
+
+RocketHideout_8F_Mision_Silph_Despues_Move_13.1:
+walk_in_place_right
 step_end
 
 RocketHideout_8F_Mision_Silph_Despues_Move_12:
@@ -1608,6 +1613,7 @@ waitmovement 0x0
 applymovement 9, RocketHideout_8F_Mision_Gimnasios_move_16
 waitmovement 0x0
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 removeobject 9
 playse SE_EXIT
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_8F_Mision_Gimnasios_move_17
@@ -2239,6 +2245,7 @@ waitmovement 0x0
 msgbox RocketHideout8F_Mision_Culto_Lavanda_Primera_Vez_Texto_8 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY
 setflag FLAG_HIDE_PETALBURG_GYM_WALLYS_DAD
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 setvar VAR_UNUSED_0x40F7, 107
 release
 end
@@ -2926,6 +2933,7 @@ fadescreen 1
 delay 20
 removeobject 1
 fadescreen 0
+clearflag FLAG_HIDE_RUSTURF_TUNNEL_AQUA_GRUNT
 setvar VAR_UNUSED_0x40F7, 117
 release
 end
@@ -3708,7 +3716,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_9:
 	.string "causado por ZEUS, y la entrada a\l"
 	.string "RUINAS ALFA, pudimos extraer los ADN\l"
 	.string "de LUGIA y HO-OH, no de sus formas\l"
-	.string "primigenias, pero si las conocidas por\l"
+	.string "primigenias, pero sí las conocidas por\l"
 	.string "la cultura de JOHTO.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_10:
@@ -3726,7 +3734,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_12:
 RocketHideout_8F_Mision_Lago_Furia_Texto_13:
 .string "ANDRA: No creas que no sabré cómo\n"
 	.string "lidiar con ellos en caso de que los uses\l"
-	.string "contra mi, {PLAYER}. Ya derroté al\l"
+	.string "contra mí, {PLAYER}. Ya derroté al\l"
 	.string "HO-OH dorado, una forma aún más\l"
 	.string "poderosa que esos clones, ¡no lo\l"
 	.string "olvides!$"
@@ -3795,7 +3803,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_23:
 	.string "HOENN, señor?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_24:
-.string "GIOVANNI: Así es, ANDRA, por ahora te\n"
+.string "GIOVANNI: Así es, ANDRA. Por ahora te\n"
 	.string "quedarás en JOHTO y harás la misma\l"
 	.string "tarea que ha estado haciendo\l"
 	.string "{PLAYER}. Sois los dos entrenadores\l"
@@ -4330,6 +4338,7 @@ msgbox RocketHideout_8F_Mision_Central_Energia_Texto_14 MSGBOX_AUTOCLOSE
 applymovement 1, RocketHideout_8F_Mision_Central_Energia_Move_5
 waitmovement 0x0
 msgbox RocketHideout_8F_Mision_Central_Energia_Texto_15 MSGBOX_AUTOCLOSE
+setflag FLAG_UNUSED_0x272
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 fadescreen 1
 delay 20
@@ -4513,6 +4522,7 @@ applymovement 1, RocketHideout_8F_Final_DLC_Move_6
 waitmovement 0x0
 msgbox RocketHideout_8F_Final_DLC_Texto_21 MSGBOX_AUTOCLOSE
 setvar VAR_UNUSED_0x40F7, 216
+delay 50
 warpsilent MAP_DEVON_S9, 40, 7
 release
 end

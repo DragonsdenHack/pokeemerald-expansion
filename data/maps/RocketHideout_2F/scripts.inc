@@ -52,7 +52,7 @@ applymovement OBJ_EVENT_ID_PLAYER, RocketHideout2F_Barrera_Move_1
 waitmovement 0x0
 delay 10
 msgbox RocketHideout2F_Barrera_Texto_1 MSGBOX_AUTOCLOSE
-applymovement OBJ_EVENT_ID_PLAYER, RocketHideout2F_Barrera_Move_1
+applymovement OBJ_EVENT_ID_PLAYER, RocketHideout2F_Barrera_Move_2
 waitmovement 0x0
 release
 end
@@ -73,5 +73,5 @@ step_end
 
 RocketHideout2F_Barrera_Move_2:
 walk_down
-walk_in_place_down
+walk_slow_down
 step_end

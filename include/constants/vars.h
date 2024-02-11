@@ -157,7 +157,7 @@
 #define VAR_CONTEST_PRIZE_PICKUP             0x408A
 #define VAR_UNUSED_0x408B                    0x408B // GUAYS BOSQUE VERDE
 #define VAR_LITTLEROOT_HOUSES_STATE_BRENDAN  0x408C // BALLS ISLA INTA
-#define VAR_LITTLEROOT_RIVAL_STATE           0x408D
+#define VAR_LITTLEROOT_RIVAL_STATE           0x408D // CURACION FILE ISLE MEADOW
 #define VAR_BOARD_BRINEY_BOAT_STATE          0x408E
 #define VAR_DEVON_CORP_3F_STATE              0x408F //variable que cambia conforme cambia de rango
 #define VAR_BRINEY_HOUSE_STATE               0x4090

@@ -9,7 +9,7 @@ release
 end
 
 Pass_Route34_Text_1:
-.string "¿Has visto el santurario en honor\n"
+.string "¿Has visto el santuario en honor\n"
 .string "al guardián?\l"
 .string "Protege el bosque desde antaño.\l"
 .string "La leyenda dice que se trata de un\l"

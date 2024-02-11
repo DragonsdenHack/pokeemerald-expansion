@@ -42,9 +42,9 @@ RocketHideout_Elevator_EventScript_ChooseFloorFrom1st::
 RocketHideout_Elevator_EventScript_ChooseFloor::
 	switch VAR_RESULT
 	case 0, RocketHideout_Elevator_EventScript_4thFloor
-	case 2, RocketHideout_Elevator_EventScript_2ndFloor
-	case 3, RocketHideout_Elevator_EventScript_1stFloor
-	case 4, RocketHideout_Elevator_EventScript_ExitFloorSelect
+	case 1, RocketHideout_Elevator_EventScript_2ndFloor
+	case 2, RocketHideout_Elevator_EventScript_1stFloor
+	case 3, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	case MULTI_B_PRESSED, RocketHideout_Elevator_EventScript_ExitFloorSelect
 	end
 

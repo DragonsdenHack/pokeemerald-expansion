@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_GOLDENROD_CITY",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_SECRET_BASE",
   "allow_cycling": false,
   "allow_escaping": false,
   "allow_running": true,
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "RadioTowerP3_6",
+      "script": "RadioTower_EventScript_ReceiveElectrike",
       "flag": "0"
     },
     {

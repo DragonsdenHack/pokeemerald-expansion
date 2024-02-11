@@ -274,7 +274,7 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_METEOR_FALLS]               = REGION_HOENN,
     [MAPSEC_METEOR_FALLS2]              = REGION_HOENN,
     [MAPSEC_MT_PYRE]                    = REGION_HOENN,
-    [MAPSEC_AQUA_HIDEOUT_OLD]           = REGION_HOENN,
+    [MAPSEC_AQUA_HIDEOUT_OLD]           = REGION_JOHTO,
     [MAPSEC_SHOAL_CAVE]                 = REGION_HOENN,
     [MAPSEC_SEAFLOOR_CAVERN]            = REGION_HOENN,
     [MAPSEC_UNDERWATER_SEAFLOOR_CAVERN] = REGION_HOENN,
@@ -292,7 +292,7 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_ISLAND_CAVE]                = REGION_HOENN,
     [MAPSEC_DESERT_RUINS]               = REGION_HOENN,
     [MAPSEC_ANCIENT_TOMB]               = REGION_HOENN,
-    [MAPSEC_INSIDE_OF_TRUCK]            = REGION_HOENN,
+    [MAPSEC_INSIDE_OF_TRUCK]            = REGION_JOHTO,
     [MAPSEC_SKY_PILLAR]                 = REGION_HOENN,
     [MAPSEC_SECRET_BASE]                = REGION_HOENN,
     [MAPSEC_DYNAMIC]                    = REGION_HOENN,
@@ -363,7 +363,7 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_CAPE_BRINK]                 = SEVII_123,
     [MAPSEC_BOND_BRIDGE]                = SEVII_123,
     [MAPSEC_THREE_ISLE_PORT]            = SEVII_123,
-    [MAPSEC_SEVII_ISLE_6]               = SEVII_123,
+    [MAPSEC_SEVII_ISLE_6]               = REGION_JOHTO,
     [MAPSEC_SEVII_ISLE_7]               = REGION_JOHTO,
     [MAPSEC_SEVII_ISLE_8]               = REGION_JOHTO,
     [MAPSEC_SEVII_ISLE_9]               = REGION_JOHTO,
@@ -379,9 +379,9 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_CANYON_ENTRANCE]            = SEVII_67,
     [MAPSEC_SEVAULT_CANYON]             = SEVII_67,
     [MAPSEC_TANOBY_RUINS]               = SEVII_67,
-    [MAPSEC_SEVII_ISLE_22]              = SEVII_67,
-    [MAPSEC_SEVII_ISLE_23]              = SEVII_67,
-    [MAPSEC_SEVII_ISLE_24]              = SEVII_67,
+    [MAPSEC_SEVII_ISLE_22]              = REGION_JOHTO,
+    [MAPSEC_SEVII_ISLE_23]              = REGION_JOHTO,
+    [MAPSEC_SEVII_ISLE_24]              = REGION_JOHTO,
     [MAPSEC_NAVEL_ROCK_FRLG]            = SEVII_45,
     [MAPSEC_MT_EMBER]                   = SEVII_123,
     [MAPSEC_BERRY_FOREST]               = SEVII_123,
@@ -396,15 +396,14 @@ static const u8 sMapsecToRegion[] = {
     [MAPSEC_THREE_ISLE_PATH]            = SEVII_123,
     [MAPSEC_TANOBY_KEY]                 = SEVII_67,
     [MAPSEC_BIRTH_ISLAND_FRLG]          = SEVII_67,
-    [MAPSEC_MONEAN_CHAMBER]             = SEVII_67,
-    [MAPSEC_LIPTOO_CHAMBER]             = SEVII_67,
-    [MAPSEC_WEEPTH_CHAMBER]             = SEVII_67,
-    [MAPSEC_DILFORD_CHAMBER]            = SEVII_67,
-    [MAPSEC_SCUFIB_CHAMBER]             = SEVII_67,
+    [MAPSEC_MONEAN_CHAMBER]             = REGION_JOHTO,
+    [MAPSEC_LIPTOO_CHAMBER]             = REGION_JOHTO,
+    [MAPSEC_WEEPTH_CHAMBER]             = REGION_JOHTO,
+    [MAPSEC_SCUFIB_CHAMBER]             = REGION_JOHTO,
     [MAPSEC_RIXY_CHAMBER]               = REGION_JOHTO,
     [MAPSEC_VIAPOIS_CHAMBER]            = SEVII_67,
     [MAPSEC_EMBER_SPA]                  = SEVII_123,
-    [MAPSEC_SPECIAL_AREA]               = REGION_KANTO,
+    [MAPSEC_SPECIAL_AREA]               = REGION_JOHTO,
     [MAPSEC_AQUA_HIDEOUT]               = REGION_HOENN,
     [MAPSEC_MAGMA_HIDEOUT]              = REGION_HOENN,
     [MAPSEC_MIRAGE_TOWER]               = REGION_HOENN,
@@ -451,6 +450,7 @@ static const u8 sMapsecToRegion[] = {
 	[MAPSEC_ROUTE_32]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_33]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_34]                 = REGION_JOHTO,
+    [MAPSEC_DILFORD_CHAMBER]          = REGION_JOHTO,
 	[MAPSEC_ROUTE_36]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_37]                 = REGION_JOHTO,
 	[MAPSEC_ROUTE_38]                 = REGION_JOHTO,
@@ -459,7 +459,7 @@ static const u8 sMapsecToRegion[] = {
 	[MAPSEC_ROUTE_41]                 = REGION_JOHTO,
 	[MAPSEC_BLACKTHORN_CITY]		  = REGION_JOHTO,
 	[MAPSEC_ROCKET_HIDEOUT_JOHTO]     = REGION_JOHTO,
-   [MAPSEC_TRAINER_HILL]               = REGION_HOENN
+   [MAPSEC_TRAINER_HILL]               = REGION_JOHTO
 };
 
 static const struct WarpData sDummyWarpData =
@@ -620,7 +620,7 @@ static void (*const gMovementStatusHandler[])(struct LinkPlayerObjectEvent *, st
 void DoWhiteOut(void)
 {
     ScriptContext2_RunNewScript(EventScript_WhiteOut);
-    SetMoney(&gSaveBlock1Ptr->money, GetMoney(&gSaveBlock1Ptr->money) / 2);
+    SetMoney(&gSaveBlock1Ptr->money, GetMoney(&gSaveBlock1Ptr->money) - (GetMoney(&gSaveBlock1Ptr->money)* 5/100));
     HealPlayerParty();
     Overworld_ResetStateAfterWhiteOut();
     SetWarpDestinationToLastHealLocation();
@@ -1747,6 +1747,7 @@ bool8 Overworld_MapTypeAllowsTeleportAndFly(u8 mapType)
 {
     if (mapType == MAP_TYPE_ROUTE
      || mapType == MAP_TYPE_TOWN
+     || mapType == MAP_TYPE_NONE
      || mapType == MAP_TYPE_OCEAN_ROUTE
      || mapType == MAP_TYPE_CITY)
         return TRUE;

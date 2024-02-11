@@ -212,6 +212,7 @@ removeobject 2
 fadescreen 1
 delay 20
 fadescreen 0
+setvar VAR_ROUTE106_STATE, 4
 setvar VAR_UNUSED_0x40F7, 111
 release
 end

@@ -1,5 +1,14 @@
 Ecruteak_TinTower_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Ecruteak_TinTower_OnResume
 	.byte 0
+
+Ecruteak_TinTower_OnResume:
+	call Ecruteak_TinTower_SetupEscapeWarp
+	end
+
+Ecruteak_TinTower_SetupEscapeWarp::
+	setescapewarp MAP_ECRUTEAK_CITY, 64, 22
+	return
 
 TinTower1::
 lock     

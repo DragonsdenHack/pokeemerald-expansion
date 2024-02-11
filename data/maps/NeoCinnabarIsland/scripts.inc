@@ -113,7 +113,7 @@ walk_in_place_up
 step_end
 
 NeoCinnabarIsland_Evento_Oak_Texto_1:
-.string "¿Qué te parece, PLAYER?$"
+.string "¿Qué te parece, {PLAYER}?$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_2:
 .string "Por mucho que hayamos avanzado,\n"

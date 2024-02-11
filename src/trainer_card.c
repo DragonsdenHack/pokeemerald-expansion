@@ -410,7 +410,7 @@ static void Task_TrainerCard(u8 taskId)
         sData->mainState++;
         break;
     case 6:
-        DrawStarsAndBadgesOnCard();
+        //DrawStarsAndBadgesOnCard();
         sData->mainState++;
         break;
     // Fade in
@@ -818,7 +818,7 @@ static void SetDataFromTrainerCard(void)
     u32 badgeFlag;
 
     sData->hasPokedex = FALSE;
-    sData->hasHofResult = FALSE;
+    sData->hasHofResult = TRUE;
     sData->hasLinkResults = FALSE;
     sData->hasBattleTowerWins = FALSE;
     sData->unused_E = FALSE;
@@ -1178,7 +1178,7 @@ static void PrintNameOnCardBack(void)
     if (!sData->isHoenn)
         AddTextPrinterParameterized3(1, FONT_NORMAL, 136, 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard);
     else
-        AddTextPrinterParameterized3(1, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, sData->textPlayersCard, 216), 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard);
+        AddTextPrinterParameterized3(1, FONT_NORMAL, GetStringCenterAlignXOffset(FONT_NORMAL, sData->textPlayersCard, 216), 9, sTrainerCardTextColors, TEXT_SKIP_DRAW, sData->textPlayersCard);
 }
 
 static const u8 sText_HofTime[] = _("{STR_VAR_1}:{STR_VAR_2}:{STR_VAR_3}");
@@ -1187,10 +1187,10 @@ static void BufferHofDebutTime(void)
 {
     if (sData->hasHofResult)
     {
-        ConvertIntToDecimalStringN(gStringVar1, sData->trainerCard.hofDebutHours, STR_CONV_MODE_RIGHT_ALIGN, 3);
+       ConvertIntToDecimalStringN(gStringVar1, sData->trainerCard.hofDebutHours, STR_CONV_MODE_RIGHT_ALIGN, 3);
         ConvertIntToDecimalStringN(gStringVar2, sData->trainerCard.hofDebutMinutes, STR_CONV_MODE_LEADING_ZEROS, 2);
         ConvertIntToDecimalStringN(gStringVar3, sData->trainerCard.hofDebutSeconds, STR_CONV_MODE_LEADING_ZEROS, 2);
-        StringExpandPlaceholders(sData->textHofTime, sText_HofTime);
+        StringExpandPlaceholders(sData->textHofTime, gText_EmptyString6);
     }
 }
 
@@ -1199,8 +1199,8 @@ static void PrintStatOnBackOfCard(u8 top, const u8* statName, u8* stat, const u8
     static const u8 xOffsets[] = {8, 16};
     static const u8 widths[] = {216, 216};
 
-    AddTextPrinterParameterized3(1, FONT_NORMAL, xOffsets[sData->isHoenn], top * 16 + 33, sTrainerCardTextColors, TEXT_SKIP_DRAW, statName);
-    AddTextPrinterParameterized3(1, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, stat, widths[sData->isHoenn]), top * 16 + 33, color, TEXT_SKIP_DRAW, stat);
+    AddTextPrinterParameterized3(1, FONT_NORMAL, xOffsets[sData->isHoenn], top * 16 + 42, sTrainerCardTextColors, TEXT_SKIP_DRAW, statName);
+    AddTextPrinterParameterized3(1, FONT_NORMAL, GetStringRightAlignXOffset(FONT_NORMAL, stat, widths[sData->isHoenn]), top * 16 + 42, color, TEXT_SKIP_DRAW, stat);
 }
 
 static void PrintHofDebutTimeOnCard(void)
@@ -1501,24 +1501,212 @@ static void DrawStarsAndBadgesOnCard(void)
 {
     static const u8 yOffsets[] = {7, 7};
 
-    s16 i, x;
+    s16 i, x, y;
     u16 tileNum = 192;
     u8 palNum = 3;
 
-    FillBgTilemapBufferRect(3, 143, 15, yOffsets[sData->isHoenn], sData->trainerCard.stars, 1, 4);
+    //FillBgTilemapBufferRect(3, 143, 15, yOffsets[sData->isHoenn], sData->trainerCard.stars, 1, 4);
     if (!sData->isLink)
     {
-        x = 4;
-        for (i = 0; i < NUM_BADGES; i++, tileNum += 2, x += 3)
+        x = 8;
+		y = 6;
+        /* for (i = 0; i < 8; i++, tileNum += 2, x += 3)
         {
-            if (sData->badgeCount[i])
+            if (sData->badgeCount[1])
             {
-                FillBgTilemapBufferRect(3, tileNum, x, 15, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 1, x + 1, 15, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 16, x, 16, 1, 1, palNum);
-                FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 16, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum, x, y, 1, 1, palNum);
+                FillBgTilemapBufferRect(3, tileNum + 1, x, y + 1, 1, 1, palNum);
+                //FillBgTilemapBufferRect(3, tileNum + 6, x, 5, 1, 1, palNum);
+                // FillBgTilemapBufferRect(3, tileNum + 17, x + 1, 16, 1, 1, palNum);
             }
-        }
+        } */
+		if (FlagGet(FLAG_BADGE01_GET))
+		{
+			FillBgTilemapBufferRect(3, tileNum, x, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 1, x+1, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 16, x, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 17, x+1, y+1, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE02_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 2, x+2, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 3, x+3, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 18, x+2, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 19, x+3, y+1, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE03_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 4, x+4, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 5, x+5, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 20, x+4, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 21, x+5, y+1, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE04_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 6, x+6, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 7, x+7, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 22, x+6, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 23, x+7, y+1, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE05_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 8, x+8, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 9, x+9, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 24, x+8, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 25, x+9, y+1, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE06_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 10, x+10, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 11, x+11, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 26, x+10, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 27, x+11, y+1, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE07_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 12, x+12, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 13, x+13, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 28, x+12, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 29, x+13, y+1, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE08_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 14, x+14, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 15, x+15, y, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 30, x+14, y+1, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 31, x+15, y+1, 1, 1, palNum);
+		}	
+
+		if (FlagGet(FLAG_BADGE09_GET))
+		{		
+			FillBgTilemapBufferRect(3, tileNum + 32, x, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 33, x+1, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 48, x, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 49, x+1, y+3, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE10_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 34, x+2, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 35, x+3, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 50, x+2, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 51, x+3, y+3, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE11_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 36, x+4, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 37, x+5, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 52, x+4, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 53, x+5, y+3, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE12_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 38, x+6, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 39, x+7, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 54, x+6, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 55, x+7, y+3, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE13_GET))
+		{		
+			FillBgTilemapBufferRect(3, tileNum + 40, x+8, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 41, x+9, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 56, x+8, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 57, x+9, y+3, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE14_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 42, x+10, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 43, x+11, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 58, x+10, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 59, x+11, y+3, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_BADGE15_GET))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 44, x+12, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 45, x+13, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 60, x+12, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 61, x+13, y+3, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_SYS_CAVE_SHIP))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 46, x+14, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 47, x+15, y+2, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 62, x+14, y+3, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 63, x+15, y+3, 1, 1, palNum);
+		}	
+			///
+		if (FlagGet(FLAG_UNUSED_0x4F9))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 64, x, y+4, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 65, x+1, y+4, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 80, x, y+5, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 81, x+1, y+5, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_UNUSED_0x4FA))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 66, x+2, y+4, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 67, x+3, y+4, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 82, x+2, y+5, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 83, x+3, y+5, 1, 1, palNum);
+		}	
+			///
+		if (FlagGet(FLAG_SYS_CAVE_WONDER))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 96, x, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 97, x+1, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 112, x, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 113, x+1, y+7, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_SYS_CAVE_BATTLE))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 98, x+2, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 99, x+3, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 114, x+2, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 115, x+3, y+7, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_UNUSED_8))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 100, x+4, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 101, x+5, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 68, x+4, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 69, x+5, y+7, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_UNUSED_9))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 102, x+6, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 103, x+7, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 70, x+6, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 71, x+7, y+7, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_UNUSED_0x8E3))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 104, x+8, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 105, x+9, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 72, x+8, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 73, x+9, y+7, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_UNUSED_0x068))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 106, x+10, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 107, x+11, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 74, x+10, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 75, x+11, y+7, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_UNUSED_0x2D9))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 108, x+12, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 109, x+13, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 76, x+12, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 77, x+13, y+7, 1, 1, palNum);
+		}
+		if (FlagGet(FLAG_UNUSED_0x1E3))
+		{	
+			FillBgTilemapBufferRect(3, tileNum + 110, x+14, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 111, x+15, y+6, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 78, x+14, y+7, 1, 1, palNum);
+			FillBgTilemapBufferRect(3, tileNum + 79, x+15, y+7, 1, 1, palNum);
+		}	
+			
+		
     }
     CopyBgTilemapBufferToVram(3);
 }
@@ -1732,8 +1920,12 @@ static bool8 Task_SetCardFlipped(struct Task* task)
         DrawTrainerCardWindow(2);
         DrawCardScreenBackground(sData->bgTilemap);
         DrawCardFrontOrBack(sData->frontTilemap);
-        DrawStarsAndBadgesOnCard();
+       // DrawStarsAndBadgesOnCard();
     }
+	if (!sData->onBack)
+	{
+		DrawStarsAndBadgesOnCard();
+	}	
     DrawTrainerCardWindow(1);
     sData->onBack ^= 1;
     task->tFlipState++;

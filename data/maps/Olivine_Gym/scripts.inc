@@ -38,16 +38,22 @@ msgbox Olivine_Gym_Combate_Crom_Texto_2 MSGBOX_NPC
 msgbox Olivine_Gym_Combate_Crom_Texto_3 MSGBOX_NPC
 delay 20
 msgbox Olivine_Gym_Combate_Crom_Texto_4 MSGBOX_NPC
-delay 20
+playse 414
+delay 40
 msgbox Olivine_Gym_Combate_Crom_Texto_5 MSGBOX_NPC
 delay 20
 msgbox Olivine_Gym_Combate_Crom_Texto_6 MSGBOX_NPC
 trainerbattle_no_intro TRAINER_CROM, Olivine_Gym_Combate_Crom_Texto_7
 msgbox Olivine_Gym_Combate_Crom_Texto_8 MSGBOX_NPC
 msgbox Olivine_Gym_Combate_Crom_Texto_9 MSGBOX_NPC
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox Olivine_Gym_Combate_Crom_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox Olivine_Gym_Combate_Crom_Texto_9.2 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
 msgbox Olivine_Gym_Combate_Crom_Texto_10 MSGBOX_DEFAULT
-givemon SPECIES_RIOLU, 25, ITEM_NONE
+givemon SPECIES_RIOLU, 25, ITEM_LUCARIONITE
 waitfanfare
 msgbox Olivine_Gym_Combate_Crom_Texto_11 MSGBOX_NPC
 delay 15
@@ -64,6 +70,7 @@ additem ITEM_SS_TICKET
 msgbox Olivine_Gym_Combate_Crom_Texto_11.1 MSGBOX_DEFAULT
 waitfanfare
 msgbox Olivine_Gym_Combate_Crom_Texto_13 MSGBOX_NPC
+setflag FLAG_BADGE14_GET
 clearflag FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE
 setvar VAR_UNUSED_0x40F7, 143
 release
@@ -153,8 +160,14 @@ Olivine_Gym_Combate_Crom_Texto_9:
 	.string "acabo de cerrar con broche de oro\l"
 	.string "mi estancia en CIUDAD OLIVO con\l"
 	.string "un combate digno de ser\l"
-	.string "presenciado en el olimpo POKÉMON.\l"
-	.string "Por ello, quiero que cuides de\l"
+	.string "presenciado en el olimpo POKÉMON.$"
+
+Olivine_Gym_Combate_Crom_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA MINERAL.$"
+
+Olivine_Gym_Combate_Crom_Texto_9.2:
+	.string "También, quiero que cuides de\n"
 	.string "este pequeño.$"
 
 Olivine_Gym_Combate_Crom_Texto_10:

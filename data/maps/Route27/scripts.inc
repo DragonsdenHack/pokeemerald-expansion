@@ -105,8 +105,8 @@ call Script_SetGrayscaleTint
 playse MUS_CAVE_OF_ORIGIN
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route27_Escena_Lance_Move_1
-msgbox RocketHideout_8F_Mision_Silph_text_16 MSGBOX_AUTOCLOSE
 waitmovement 0x0
+msgbox RocketHideout_8F_Mision_Silph_text_16 MSGBOX_AUTOCLOSE
 special RemoveCameraObject
 special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, Route27_Escena_Lance_Move_3

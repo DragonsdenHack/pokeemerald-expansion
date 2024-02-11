@@ -1,5 +1,15 @@
 CeladonCity_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, CeladonCity_OnTransition
+map_script MAP_SCRIPT_ON_FRAME_TABLE, CeladonCity_Frame
 	.byte 0
+
+CeladonCity_OnTransition::
+setflag FLAG_VISITED_CELADON_CITY
+end
+
+CeladonCity_Frame:
+map_script_2 VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT, 0,CeladonCity3
+.2byte 0
 
 CeladonCity1::
 end
@@ -10,10 +20,18 @@ end
 
 
 CeladonCity3::
+setvar VAR_HAS_TALKED_TO_SEAFLOOR_CAVERN_ENTRANCE_GRUNT,1 
+special Special_DoPlayerNamingScreen
+waitstate
+callnative ForcedSaveGame
+waitstate  
+end
+
+CeladonCity3_1::
 lock     
-faceplayer     
+faceplayer
 msgbox CeladonCity_Text3, MSGBOX_DEFAULT
-release     
+release
 end
 
 CeladonCity_Text3:
@@ -25,7 +43,7 @@ CeladonCity4::
 lock     
 faceplayer     
 msgbox CeladonCity_Text4, MSGBOX_DEFAULT
-release     
+release 
 end
 
 CeladonCity_Text4:

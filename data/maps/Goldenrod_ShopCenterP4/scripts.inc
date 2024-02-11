@@ -35,12 +35,12 @@ release
 end
 
 Goldenrod_ShopP4_Text_4:
-.string "¿¡50000 por BOMBA LODO!?\n"
+.string "¿¡40000 por BRILLO MÁGICO!?\n"
 .string "¿Sabes cuántos pantalones cortos\l"
 .string "tendría que vender para reunir esa\l"
 .string "cantidad?\l"
-.string "Y lo duro que pegaría mi VENOMOTH\l"
-.string "con ese movimiento también…$"
+.string "Y lo duro que pegaría mi TOGETIC\l"
+.string "también…$"
 
 
 

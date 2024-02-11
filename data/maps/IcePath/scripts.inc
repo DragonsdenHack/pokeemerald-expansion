@@ -1,5 +1,14 @@
 IcePath_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, IcePath_OnResume
 	.byte 0
+
+IcePath_OnResume:
+	call IcePath_SetupEscapeWarp
+	end
+
+IcePath_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE44, 76, 15
+	return
 
 IcePath1::
 end
@@ -15,12 +24,10 @@ IcePath3::
 end
 
 IcePath_Llamada_Giovanni::
-delay 30
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
-waitmovement 0x0
 msgbox IcePath_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox IcePath_Llamada_Giovanni_Texto_1.1 MSGBOX_AUTOCLOSE
 msgbox IcePath_Llamada_Giovanni_Texto_1.2 MSGBOX_AUTOCLOSE

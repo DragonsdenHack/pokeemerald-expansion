@@ -1,5 +1,14 @@
 UndergroundPath_5F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, UndergroundPath_5F_OnResume
 	.byte 0
+
+UndergroundPath_5F_OnResume:
+	call UndergroundPath_5F_SetupEscapeWarp
+	end
+
+UndergroundPath_5F_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE8, 13, 5
+	return
 
 UndergroundPath_5F_Policias::
 lock

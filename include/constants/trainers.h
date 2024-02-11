@@ -242,6 +242,14 @@
 #define TRAINER_PIC_ROCKET_GRUNT_M_EJECUTIVO 222
 #define TRAINER_PIC_FRANK_EJECUTIVO 223
 #define TRAINER_PIC_FRANK_ADMIN 224
+#define TRAINER_PIC_VIEJO_JONES 225
+#define TRAINER_PIC_DIOS_JONES 226
+#define TRAINER_PIC_PRESIDENTE 227
+#define TRAINER_PIC_MIGUEL 228
+#define TRAINER_PIC_DEVON1 229
+#define TRAINER_PIC_DEVON2 230
+#define TRAINER_PIC_DEVON3 231
+#define TRAINER_PIC_DEVON4 232
 
 // The player back pics are assumed to alternate according to the gender values (MALE/FEMALE)
 #define TRAINER_BACK_PIC_BRENDAN                0
@@ -621,11 +629,11 @@
 #define TRAINER_CLASS_POKEFAN_2          0xC2
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
-#define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music
-#define TRAINER_ENCOUNTER_MUSIC_GIRL         2 // used for male Tubers and Young Couples too
+#define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music - sr aroma, dama parasol
+#define TRAINER_ENCOUNTER_MUSIC_GIRL         2 // used for male Tubers and Young Couples too - playera, niñas pequeñas, campistas
 #define TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS   3 // necio hoenn, posible cientifico hoenn-devon
 #define TRAINER_ENCOUNTER_MUSIC_INTENSE      4 // karateka, guitarrista hoenn
-#define TRAINER_ENCOUNTER_MUSIC_COOL         5 // guays hoenn y johto
+#define TRAINER_ENCOUNTER_MUSIC_COOL         5 // guays hoenn y johto, pokeguardas johto
 #define TRAINER_ENCOUNTER_MUSIC_AQUA         6
 #define TRAINER_ENCOUNTER_MUSIC_MAGMA        7
 #define TRAINER_ENCOUNTER_MUSIC_SWIMMER      8 // Caballero johto en binario, Marinero Johto

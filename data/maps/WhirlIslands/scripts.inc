@@ -1,5 +1,14 @@
 WhirlIslands_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, WhirlIslands_OnResume
 	.byte 0
+
+WhirlIslands_OnResume:
+	call WhirlIslands_SetupEscapeWarp
+	end
+
+WhirlIslands_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE41, 43, 19
+	return
 
 WhirlIslands1::
 end

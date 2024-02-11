@@ -1,5 +1,14 @@
 PatternBush_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, PatternBush_OnResume
 	.byte 0
+
+PatternBush_OnResume:
+	call PatternBush_SetupEscapeWarp
+	end
+
+PatternBush_SetupEscapeWarp::
+	setescapewarp MAP_GREEN_PATH, 63, 11
+	return
 
 PatternBush_1::
 end

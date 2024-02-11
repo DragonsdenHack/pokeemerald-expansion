@@ -834,6 +834,14 @@ static const union AnimCmd *const sAnims_Admin[] ={
     sAnim_GeneralFrame0,
 };
 
+static const union AnimCmd *const sAnims_MaestroPagoda[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_LiderSete[] ={
+    sAnim_GeneralFrame0,
+};
+
 static const union AnimCmd *const sAnims_Ejecutivo[] ={
     sAnim_GeneralFrame0,
 };
@@ -881,6 +889,39 @@ static const union AnimCmd *const sAnims_FrankEjecutivo[] ={
     sAnim_GeneralFrame0,
 };
 static const union AnimCmd *const sAnims_FrankAdmin[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Jones[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Cultista2[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Devon1[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Devon2[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Devon3[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Devon4[] ={
+    sAnim_GeneralFrame0,
+};
+
+static const union AnimCmd *const sAnims_Presidente[] ={
+    sAnim_GeneralFrame0,
+};
+
+
+static const union AnimCmd *const sAnims_Miguel[] ={
     sAnim_GeneralFrame0,
 };
 
@@ -1095,6 +1136,8 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
     [TRAINER_PIC_HYPNO] = sAnims_Hypno,
     [TRAINER_PIC_ADMIN_JEFE] = sAnims_AdminJefe,
     [TRAINER_PIC_ADMIN] = sAnims_Admin,
+    [TRAINER_PIC_MAESTRO_PAGODA] = sAnims_MaestroPagoda,
+    [TRAINER_PIC_LIDERSETE] = sAnims_LiderSete,
     [TRAINER_PIC_EJECUTIVO] = sAnims_Ejecutivo,
     [TRAINER_PIC_ALTO_RANGO] = sAnims_AltoRango,
     [TRAINER_PIC_ANDRA_ADMIN_JEFE] = sAnims_AndraAdminJefe,
@@ -1108,4 +1151,13 @@ const union AnimCmd *const *const gTrainerFrontAnimsPtrTable[] =
 	[TRAINER_PIC_ROCKET_GRUNT_M_EJECUTIVO] = sAnims_RocketGruntEjecutivo,
     [TRAINER_PIC_FRANK_EJECUTIVO] = sAnims_FrankEjecutivo,
     [TRAINER_PIC_FRANK_ADMIN] = sAnims_FrankAdmin,
+	[TRAINER_PIC_VIEJO_JONES] = sAnims_Jones,
+    [TRAINER_PIC_CULTISTA2] = sAnims_Cultista2,
+	[TRAINER_PIC_DIOS_JONES] = sAnims_Jones,
+	[TRAINER_PIC_DEVON1] = sAnims_Devon1,
+	[TRAINER_PIC_DEVON2] = sAnims_Devon2,
+	[TRAINER_PIC_DEVON3] = sAnims_Devon3,
+	[TRAINER_PIC_DEVON4] = sAnims_Devon4,
+	[TRAINER_PIC_MIGUEL] = sAnims_Miguel,
+	[TRAINER_PIC_PRESIDENTE] = sAnims_Presidente,
 };

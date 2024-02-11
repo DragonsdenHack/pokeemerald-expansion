@@ -48,8 +48,15 @@ SaffronCity_PokemonCenter_Text_3:
 
 
 SaffronCityPokemonCenter4::
+lock
+faceplayer
+msgbox SaffronCityPokemonCenter4_Texto_1 MSGBOX_NPC
+release
 end
 
+SaffronCityPokemonCenter4_Texto_1:
+.string "El mismísimo LANCE visitó AZAFRÁN para\n"
+	.string "negociar con SILPH.$"
 
 
 SaffronCityPokemonCenterDocumento_100::

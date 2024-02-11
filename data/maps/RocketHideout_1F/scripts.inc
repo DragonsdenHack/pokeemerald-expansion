@@ -1,5 +1,14 @@
 RocketHideout_1F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, RocketHideout_1F_OnResume
 	.byte 0
+
+RocketHideout_1F_OnResume:
+	call RocketHideout_1F_SetupEscapeWarp
+	end
+
+RocketHideout_1F_SetupEscapeWarp::
+	setescapewarp MAP_CELADON_CITY, 34, 22
+	return
 
 RocketHideout1F_1::
 lock     

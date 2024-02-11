@@ -357,8 +357,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 2,
-      "y": 20,
+      "x": 4,
+      "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RocketHideout7FDocumento_136"
@@ -429,7 +429,7 @@
     },
     {
       "type": "sign",
-      "x": 6,
+      "x": 8,
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -437,7 +437,7 @@
     },
     {
       "type": "sign",
-      "x": 8,
+      "x": 10,
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -461,7 +461,7 @@
     },
     {
       "type": "sign",
-      "x": 10,
+      "x": 12,
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -469,8 +469,8 @@
     },
     {
       "type": "sign",
-      "x": 12,
-      "y": 13,
+      "x": 1,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "RocketHideout7FDocumento_140"
@@ -853,7 +853,7 @@
     },
     {
       "type": "sign",
-      "x": 4,
+      "x": 6,
       "y": 13,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

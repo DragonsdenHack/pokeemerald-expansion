@@ -54,13 +54,19 @@ msgbox AzaleaGym_Combate_Cesar_Texto_2 MSGBOX_AUTOCLOSE
 msgbox AzaleaGym_Combate_Cesar_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AzaleaGym_Combate_Cesar_Texto_4 MSGBOX_AUTOCLOSE
-delay 20
+playse 414
+delay 40
 msgbox AzaleaGym_Combate_Cesar_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox AzaleaGym_Combate_Cesar_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_CESAR, AzaleaGym_Combate_Cesar_Texto_7
 msgbox AzaleaGym_Combate_Cesar_Texto_8 MSGBOX_AUTOCLOSE
 msgbox AzaleaGym_Combate_Cesar_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox AzaleaGym_Combate_Cesar_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox AzaleaGym_Combate_Cesar_Texto_9.2 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox AzaleaGym_Combate_Cesar_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_GRUBBIN, 25, ITEM_NONE
@@ -73,6 +79,7 @@ additem ITEM_TM82
 msgbox AzaleaGym_Combate_Cesar_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox AzaleaGym_Combate_Cesar_Texto_11.3 MSGBOX_NPC
+setflag FLAG_BADGE10_GET
 setflag FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN
 setvar VAR_UNUSED_0x40F7, 131
 release
@@ -113,12 +120,12 @@ AzaleaGym_Combate_Cesar_Texto_3:
 .string "El problema es que, llegados a\n"
 	.string "cierto nivel y después de todo lo\l"
 	.string "que he visto y vivido, pocas cosas\l"
-	.string "pueden llegar a sorprenderme ya, y\l"
+	.string "pueden llegar a sorprenderme. Ya\l"
 	.string "encuentro mucha más satisfacción\l"
 	.string "en pulir mi propia técnica que en\l"
 	.string "luchar frente a rivales que son ya\l"
-	.string "un libro abierto para mi y mi\l"
-	.string "equipo.$"
+	.string "un libro abierto, tanto para mi\l"
+	.string "equipo como para mí.$"
 
 AzaleaGym_Combate_Cesar_Texto_4:
 .string "...$"
@@ -148,8 +155,14 @@ AzaleaGym_Combate_Cesar_Texto_9:
 .string "Seas quien seas, no hay duda de\n"
 	.string "que vas tras metas elevadas. El\l"
 	.string "nivel de tu equipo no refleja otra\l"
-	.string "cosa.\l"
-	.string "Me gustaría que te quedaras con\l"
+	.string "cosa.$"
+
+AzaleaGym_Combate_Cesar_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA COLMENA.$"
+
+AzaleaGym_Combate_Cesar_Texto_9.2:
+	.string "También quiero que te quedes con\n"
 	.string "este POKÉMON, obtuve varios\l"
 	.string "ejemplares hace ya tiempo, en uno\l"
 	.string "de mis tantos viajes.$"

@@ -1,10 +1,19 @@
 MtMoon_2F_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, MtMoon_2F_OnFrame
+map_script MAP_SCRIPT_ON_RESUME, MtMoon_2F_OnResume
 	.byte 0
 
 MtMoon_2F_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 11, MtMoon_2F_AltoRango
 	.2byte 0
+
+MtMoon_2F_OnResume:
+	call MtMoon_2F_SetupEscapeWarp
+	end
+
+MtMoon_2F_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE4, 32, 6
+	return
 
 MtMoon_2F_AltoRango::
 applymovement OBJ_EVENT_ID_PLAYER, MtMoon_2F_AltoRango_move1

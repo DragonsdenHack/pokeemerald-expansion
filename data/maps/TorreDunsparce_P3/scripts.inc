@@ -65,6 +65,7 @@ waitmovement 0x0
 msgbox TorreDunsparce_P3_Encuentro_Zinnia_Texto_12 MSGBOX_AUTOCLOSE
 applymovement 1, TorreDunsparce_P3_Encuentro_Zinnia_Move_15
 waitmovement 0x0
+clearflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 removeobject 1
 setvar VAR_ROUTE118_STATE, 1

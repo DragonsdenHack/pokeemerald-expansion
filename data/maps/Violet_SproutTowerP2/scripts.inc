@@ -292,6 +292,8 @@ msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_10.1 MSGBOX_DEFAULT
 waitfanfare
 additem ITEM_HM05
 msgbox Violet_SproutTower_P2_Encuentro_Maestro_Texto_11 MSGBOX_NPC
+clearflag FLAG_HIDE_BRINEYS_HOUSE_PEEKO
+clearflag FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY
 setvar VAR_UNUSED_0x40F7, 123
 release
 end

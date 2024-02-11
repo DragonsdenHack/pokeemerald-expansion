@@ -1,5 +1,14 @@
 TwoIsland_Torre_P1_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, TwoIsland_Torre_P1_OnResume
 	.byte 0
+
+TwoIsland_Torre_P1_OnResume:
+	call TwoIsland_Torre_P1_SetupEscapeWarp
+	end
+
+TwoIsland_Torre_P1_SetupEscapeWarp::
+	setescapewarp MAP_TWO_ISLAND_SECUNDARIO, 7, 7
+	return
 
 TwoIsland_Torre_P1_Primer_Motero::
 lock

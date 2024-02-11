@@ -132,7 +132,9 @@ Route25Documento_Text_100:
 .string "SEA COTTAGE\n"
     .string "BILL lives here!$"
 
-Route25_Casa_Bill_Abajo::     
+Route25_Casa_Bill_Abajo::
+compare VAR_UNUSED_0x40F7, 22
+goto_if_lt RocketHideout_5F_Puedes_Pasar    
 applymovement OBJ_EVENT_ID_PLAYER, Route25_Casa_Bill_AbajoMove1
 waitmovement 0
 msgbox Route25_Casa_Bill_Text_Abajo, MSGBOX_AUTOCLOSE
@@ -153,3 +155,18 @@ step_end
 Route25_Casa_Bill_AbajoMove2:
 walk_down
 step_end
+
+Route22_Entrada_Liga::
+compare VAR_UNUSED_0x40F7, 89
+goto_if_gt RocketHideout_5F_Puedes_Pasar    
+applymovement OBJ_EVENT_ID_PLAYER, Route25_Casa_Bill_AbajoMove1
+waitmovement 0
+msgbox Route22_Entrada_Liga_Texto_1, MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, Route25_Casa_Bill_AbajoMove2
+waitmovement 0
+release     
+end
+
+Route22_Entrada_Liga_Texto_1::
+	.string "(Este es el lugar con más policía de la\n"
+	.string "región, mejor no tentar a la suerte).$"

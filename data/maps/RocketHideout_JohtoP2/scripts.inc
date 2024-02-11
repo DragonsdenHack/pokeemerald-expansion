@@ -49,6 +49,7 @@ RocketHideoutJohtoP2Documento_Text_101:
 	.string "- PORYGON2\l"
 	.string "- NIDOKING\l"
 	.string "- NIDOQUEEN\l"
+	.string "- AERODACTYL\l"
 	.string "- TAUROS\l"
 	.string "...\l"
 	.string "...\p"

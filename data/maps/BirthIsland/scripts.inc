@@ -76,6 +76,7 @@ removeobject 5
 applymovement 3, BirthIsland_Blaine_Move_17
 applymovement OBJ_EVENT_ID_PLAYER, BirthIsland_Blaine_Move_3
 waitmovement 0x0
+setflag FLAG_HIDE_SOOTOPOLIS_CITY_MAXIE
 msgbox BirthIsland_Blaine_Texto_12 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_ANNIKA, BirthIsland_Blaine_Texto_13 
 applymovement 6, BirthIsland_Blaine_Move_18

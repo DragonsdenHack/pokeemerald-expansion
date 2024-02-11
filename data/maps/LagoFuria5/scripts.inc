@@ -137,7 +137,7 @@ waitmovement 0x0
 msgbox EventoLagoFuria5_Combate_Final_Texto_28 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox EventoLagoFuria5_Combate_Final_Texto_29 MSGBOX_DEFAULT
-giveegg SPECIES_TOTODILE
+giveegg SPECIES_KURUSU
 waitfanfare
 setvar VAR_MAUVILLE_CITY_STATE, 8
 addvar VAR_UNUSED_0x40F7, 1

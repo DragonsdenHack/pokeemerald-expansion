@@ -349,10 +349,30 @@ u16 PlayerGenderToFrontTrainerPicId_Debug(u8 gender, bool8 getClass)
 {
     if (getClass == TRUE)
     {
-        if (gender != MALE)
-            return gFacilityClassToPicIndex[FACILITY_CLASS_MAY];
-        else
-            return gFacilityClassToPicIndex[FACILITY_CLASS_BRENDAN];
-    }
+        // if (gender != MALE)
+            // return gFacilityClassToPicIndex[FACILITY_CLASS_MAY];
+        // else
+            // return gFacilityClassToPicIndex[FACILITY_CLASS_BRENDAN];
+		switch(gender){
+			case MALE:
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_RECLUTA];
+				break;
+			case FEMALE:
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ALTO_RANGO];
+				break;
+			case EJECUTIVO:
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_EJECUTIVO];
+				break;
+			case ADMIN:
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN];
+				break;
+			case ADMIN_JEFE:
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN_JEFE];
+				break;
+			case ADMIN_JEFE2:
+				return gFacilityClassToPicIndex[FACILITY_CLASS_PLAYER_ADMIN_JEFE2];
+				break;
+		}
+   }
     return gender;
 }

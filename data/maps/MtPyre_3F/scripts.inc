@@ -2,19 +2,17 @@ MtPyre_3F_MapScripts::
 	.byte 0
 
 MtPyre_3F_EventScript_William::
-	trainerbattle_single TRAINER_WILLIAM, MtPyre_3F_Text_WilliamIntro, MtPyre_3F_Text_WilliamDefeat
+	trainerbattle_single TRAINER_TRAINER_538, MtPyre_3F_Text_WilliamIntro, MtPyre_3F_Text_WilliamDefeat
 	msgbox MtPyre_3F_Text_WilliamPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtPyre_3F_EventScript_Kayla::
-	trainerbattle_single TRAINER_KAYLA, MtPyre_3F_Text_KaylaIntro MtPyre_3F_Text_KaylaDefeat
+	trainerbattle_single TRAINER_TRAINER_539, MtPyre_3F_Text_KaylaIntro MtPyre_3F_Text_KaylaDefeat
 	msgbox MtPyre_3F_Text_KaylaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
 MtPyre_3F_EventScript_Gabrielle::
-	trainerbattle_single TRAINER_ALTORANGO, MtPyre_3F_Text_GabrielleIntro, MtPyre_3F_Text_GabrielleDefeat, MtPyre_3F_EventScript_RegisterGabrielle
-	specialvar VAR_RESULT, ShouldTryRematchBattle
-	goto_if_eq VAR_RESULT, TRUE, MtPyre_3F_EventScript_RematchGabrielle
+	trainerbattle_single TRAINER_TRAINER_540, MtPyre_3F_Text_GabrielleIntro, MtPyre_3F_Text_GabrielleDefeat,
 	msgbox MtPyre_3F_Text_GabriellePostBattle, MSGBOX_DEFAULT
 	release
 	end
@@ -33,47 +31,40 @@ MtPyre_3F_EventScript_RematchGabrielle::
 	end
 
 MtPyre_3F_Text_WilliamIntro:
-	.string "The rich atmosphere of the mountain\n"
-	.string "has elevated my psychic power!\p"
-	.string "A mere child like you…\n"
-	.string "You dream of winning?$"
+	.string "¡El fresco aire de la montaña ha\n"
+	.string "potenciado mis poderes psíquicos!\l"
+	.string "Alguien tan pequeño como tú… No tienes\l"
+	.string "ni medio movimiento…$"
 
 MtPyre_3F_Text_WilliamDefeat:
-	.string "I drown in self-pity…$"
+	.string "Qué vergüenza más grande…$"
 
 MtPyre_3F_Text_WilliamPostBattle:
-	.string "My psychic powers have surely\n"
-	.string "grown several times, but…$"
+	.string "Quizás todavía pueda potenciar mis\n"
+	.string "poderes psíquicos una pizquita…$"
 
 MtPyre_3F_Text_KaylaIntro:
-	.string "Ahahahaha!\p"
-	.string "This is no place for children, least\n"
-	.string "of all you!$"
+	.string "¡Ja, ja, ja, ja! Éste no es lugar para\n"
+	.string "críos... ¡y menos aún para ti!$"
 
 MtPyre_3F_Text_KaylaDefeat:
-	.string "I lost that cleanly…$"
+	.string "Es evidente que he perdido…$"
 
 MtPyre_3F_Text_KaylaPostBattle:
-	.string "This means my training is still not\n"
-	.string "enough…\p"
-	.string "I've got to keep working toward the\n"
-	.string "summit…\p"
-	.string "Go, me!$"
+	.string "Está claro que tengo que entrenarme\n"
+	.string "mucho más… No debo flaquear si quiero\l"
+	.string "alcanzar la cima. ¡Yo puedo!$"
 
 MtPyre_3F_Text_GabrielleIntro:
-	.string "Why have you come here?$"
+	.string "¿Por qué has venido hasta aqui?$"
 
 MtPyre_3F_Text_GabrielleDefeat:
-	.string "That was amazing!\n"
-	.string "You're a very special TRAINER.$"
+	.string "¡Ha sido impresionante! Tienes\n"
+	.string "cualidades muy especiales.$"
 
 MtPyre_3F_Text_GabriellePostBattle:
-	.string "POKéMON no longer of this world.\n"
-	.string "POKéMON that are with you now.\p"
-	.string "And the POKéMON that you will meet\n"
-	.string "in the future…\p"
-	.string "They are all to be equally cherished.\n"
-	.string "Please remember that.$"
+	.string "Me gustaría volver a ver a tus Pokémon\n"
+	.string "cuando hayan crecido un poco…$"
 
 MtPyre_3F_Text_GabrielleRegister:
 	.string "I would like to see your POKéMON\n"

@@ -1,5 +1,14 @@
 ViridianForest_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, ViridianForest_OnResume
 	.byte 0
+
+ViridianForest_OnResume:
+	call ViridianForest_SetupEscapeWarp
+	end
+
+ViridianForest_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE2, 5, 13
+	return
 
 ViridianForest1::
 lock     

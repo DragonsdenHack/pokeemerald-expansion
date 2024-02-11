@@ -3494,6 +3494,23 @@ void CreateMon(struct Pokemon *mon, u16 species, u8 level, u8 fixedIV, u8 hasFix
     CalculateMonStats(mon);
 }
 
+void CreateShinyMonWithNature(struct Pokemon *mon, u16 species, u8 level, u8 nature)
+{
+    u32 personality;
+    u32 otid = gSaveBlock2Ptr->playerTrainerId[0]
+              | (gSaveBlock2Ptr->playerTrainerId[1] << 8)
+              | (gSaveBlock2Ptr->playerTrainerId[2] << 16)
+              | (gSaveBlock2Ptr->playerTrainerId[3] << 24);
+
+    do
+    {
+        personality = Random32();
+        personality = ((((Random() % 8) ^ (HIHALF(otid) ^ LOHALF(otid))) ^ LOHALF(personality)) << 16) | LOHALF(personality);
+    } while (nature != GetNatureFromPersonality(personality));
+
+    CreateMon(mon, species, level, 32, 1, personality, OT_ID_PRESET, otid);
+}
+
 void CreateBoxMon(struct BoxPokemon *boxMon, u16 species, u8 level, u8 fixedIV, u8 hasFixedPersonality, u32 fixedPersonality, u8 otIdType, u32 fixedOtId)
 {
     u8 speciesName[POKEMON_NAME_LENGTH + 1];
@@ -6488,13 +6505,13 @@ static void BufferStatRoseMessage(s32 arg0)
     StringCopy(gBattleTextBuff1, gStatNamesTable[sStatsToRaise[arg0]]);
     if (B_X_ITEMS_BUFF >= GEN_7)
     {
-	#if GAME_LANGUAGE == LANGUAGE_SPANISH
+	/* #if GAME_LANGUAGE == LANGUAGE_SPANISH
         StringCopy(gBattleTextBuff2, gText_StatSharply);
         StringAppend(gBattleTextBuff2, gText_StatRose);
-    #else
+    #else */
         StringCopy(gBattleTextBuff2, gText_StatSharply);
         StringAppend(gBattleTextBuff2, gText_StatRose);
-    #endif
+    //#endif
     }
     else
     {
@@ -7627,6 +7644,7 @@ u16 GetBattleBGM(void)
             return 631;
         case TRAINER_CLASS_MIRTO:
             return 626;
+        case TRAINER_CLASS_PROTON:
         case TRAINER_CLASS_ADMINISTRADOR:
         case TRAINER_CLASS_AQUA_ADMIN:
         case TRAINER_CLASS_MAGMA_ADMIN:
@@ -7684,7 +7702,6 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_MAESTRO:
         case TRAINER_CLASS_MAESTRO_TORRE:
             return 584;
-        case TRAINER_CLASS_PROTON:
         case TRAINER_CLASS_RECLUTA:
             return 621;
         case TRAINER_CLASS_ZEUS:
@@ -7730,6 +7747,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_CAZABICHOSJOHTO:
         case TRAINER_CLASS_PENSADOR:
         case TRAINER_CLASS_MECANICOJOHTO:
+        case TRAINER_CLASS_CRIAPOKEMONJOHTO:
         case TRAINER_CLASS_RUINAMANIACOJOHTO:
         case TRAINER_CLASS_NADADORJOHTO:
         case TRAINER_CLASS_RICO:
@@ -8275,11 +8293,19 @@ u16 FacilityClassToPicIndex(u16 facilityClass)
 
 u16 PlayerGenderToFrontTrainerPicId(u8 playerGender)
 {
-    if (playerGender != MALE)
-        return FacilityClassToPicIndex(FACILITY_CLASS_MAY);
-    else
-        return FacilityClassToPicIndex(FACILITY_CLASS_BRENDAN);
-}
+    if (playerGender == MALE)
+        return FacilityClassToPicIndex(FACILITY_CLASS_PLAYER_RECLUTA);
+    if (playerGender == FEMALE)
+        return FacilityClassToPicIndex(FACILITY_CLASS_PLAYER_ALTO_RANGO);
+    if (playerGender == EJECUTIVO)
+        return FacilityClassToPicIndex(FACILITY_CLASS_PLAYER_EJECUTIVO);
+    if (playerGender == ADMIN)
+        return FacilityClassToPicIndex(FACILITY_CLASS_PLAYER_ADMIN);
+   if (playerGender == ADMIN_JEFE)
+        return FacilityClassToPicIndex(FACILITY_CLASS_PLAYER_ADMIN_JEFE);
+       if (playerGender == ADMIN_JEFE2)
+        return FacilityClassToPicIndex(FACILITY_CLASS_PLAYER_ADMIN_JEFE2);
+};
 
 void HandleSetPokedexFlag(u16 nationalNum, u8 caseId, u32 personality)
 {

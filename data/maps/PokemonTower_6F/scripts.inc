@@ -105,6 +105,8 @@ delay 40
 playfanfare MUS_OBTAIN_ITEM
 msgbox PokemonTower_6F_Combate_Fuji_Texto_10 MSGBOX_DEFAULT
 waitfanfare
+delay 10
+msgbox PokemonTower_6F_Combate_Fuji_Texto_10.1 MSGBOX_DEFAULT
 delay 40
 playse SE_PIN
 applymovement 8, PokemonTower_6F_Combate_Fuji_Move_4
@@ -183,6 +185,9 @@ PokemonTower_6F_Combate_Fuji_Texto_9:
 
 PokemonTower_6F_Combate_Fuji_Texto_10:
 	.string "({PLAYER} gave FUJI the CUBONE).$"
+
+PokemonTower_6F_Combate_Fuji_Texto_10.1:
+.string "FUJI: Oh… Entonces, ¿tú…?$"
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
 	.string "PROTON: You knew this was going to\n"

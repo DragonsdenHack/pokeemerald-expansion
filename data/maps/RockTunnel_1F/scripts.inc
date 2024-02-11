@@ -1,5 +1,14 @@
 RockTunnel_1F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, RockTunnel_1F_OnResume
 	.byte 0
+
+RockTunnel_1F_OnResume:
+	call RockTunnel_1F_SetupEscapeWarp
+	end
+
+RockTunnel_1F_SetupEscapeWarp::
+	setescapewarp MAP_ROCK_TUNNEL_1F, 18, 37
+	return
 
 RockTunnel1F_1::
 end

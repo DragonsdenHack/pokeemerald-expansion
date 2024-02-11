@@ -656,6 +656,8 @@ const u32 gTrainerPalette_Andra2[] = INCBIN_U32("graphics/trainers/palettes/andr
 const u32 gTrainerFrontPic_RocketGruntM_AltoRango[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_m_altorango.4bpp.lz");
 const u32 gTrainerPalette_RocketGruntM_AltoRango[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_m_alto_rango.gbapal.lz");
 
+const u32 gTrainerFrontPic_Viejo_Jones[] = INCBIN_U32("graphics/trainers/front_pics/jones_front_pic.4bpp.lz");
+const u32 gTrainerFrontPic_Dios_Jones[] = INCBIN_U32("graphics/trainers/front_pics/diosjones_front_pic.4bpp.lz");
 
 const u32 gTrainerFrontPic_RocketGruntM_Ejecutivo[] = INCBIN_U32("graphics/trainers/front_pics/rocket_grunt_m_ejecutivo.4bpp.lz");
 
@@ -666,6 +668,29 @@ const u32 gTrainerFrontPic_Frank_Admin[] = INCBIN_U32("graphics/trainers/front_p
 const u32 gTrainerPalette_RocketGruntM_Ejecutivo[] = INCBIN_U32("graphics/trainers/palettes/rocket_grunt_m_alto_ejecutivo.gbapal.lz");
 const u32 gTrainerPalette_Frank_Ejecutivo[] = INCBIN_U32("graphics/trainers/palettes/frank_ejecutivo.gbapal.lz");
 const u32 gTrainerPalette_Frank_Admin[] = INCBIN_U32("graphics/trainers/palettes/frank_admin.gbapal.lz");
+
+const u32 gTrainerPalette_Jones[] = INCBIN_U32("graphics/trainers/palettes/diosjones.gbapal.lz");
+
+const u32 gTrainerFrontPic_Devon1[] = INCBIN_U32("graphics/trainers/front_pics/devon1_front_sprite.4bpp.lz");
+
+const u32 gTrainerFrontPic_Devon2[] = INCBIN_U32("graphics/trainers/front_pics/devon2_front_sprite.4bpp.lz");
+
+const u32 gTrainerFrontPic_Devon3[] = INCBIN_U32("graphics/trainers/front_pics/devon3_front_sprite.4bpp.lz");
+
+const u32 gTrainerFrontPic_Devon4[] = INCBIN_U32("graphics/trainers/front_pics/devon4_front_sprite.4bpp.lz");
+
+const u32 gTrainerFrontPic_Miguel[] = INCBIN_U32("graphics/trainers/front_pics/miguel_front_pic.4bpp.lz");
+
+const u32 gTrainerFrontPic_Presidente[] = INCBIN_U32("graphics/trainers/front_pics/presidente_front_pic.4bpp.lz");
+
+const u32 gTrainerPalette_Devon1[] = INCBIN_U32("graphics/trainers/palettes/devon1.gbapal.lz");
+const u32 gTrainerPalette_Devon2[] = INCBIN_U32("graphics/trainers/palettes/devon2.gbapal.lz");
+const u32 gTrainerPalette_Devon3[] = INCBIN_U32("graphics/trainers/palettes/devon3.gbapal.lz");
+const u32 gTrainerPalette_Devon4[] = INCBIN_U32("graphics/trainers/palettes/devon4.gbapal.lz");
+
+const u32 gTrainerPalette_Presidente[] = INCBIN_U32("graphics/trainers/palettes/presidente.gbapal.lz");
+
+const u32 gTrainerPalette_Miguel[] = INCBIN_U32("graphics/trainers/palettes/miguel.gbapal.lz");
 
 ///////////////////////
 

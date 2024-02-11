@@ -2,7 +2,7 @@ gText_WouldYouLikeToRestYourPkmn::
     .string "¡Éste es el CENTRO POKÉMON!\p"
     .string "Nosotros curamos a los POKÉMON.\n"
     .string "debilitados.\l"
-    .string "¿Quieres que nos ocupemos de los.\l"
+    .string "¿Quieres que nos ocupemos de los\l"
     .string "POKÉMON de tu equipo?$"
 
 gText_IllTakeYourPkmn::

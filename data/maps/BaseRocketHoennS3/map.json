@@ -2,15 +2,15 @@
   "id": "MAP_BASE_ROCKET_HOENN_S3",
   "name": "BaseRocketHoennS3",
   "layout": "LAYOUT_BASE_ROCKET_HOENN_S3",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "560",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_NONE",
+  "map_type": "MAP_TYPE_SECRET_BASE",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
-  "show_map_name": true,
+  "show_map_name": false,
   "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
   "connections": 0,
   "object_events": [
@@ -282,7 +282,7 @@
     },
     {
       "type": "sign",
-      "x": 15,
+      "x": 18,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -290,7 +290,7 @@
     },
     {
       "type": "sign",
-      "x": 18,
+      "x": 20,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -298,7 +298,7 @@
     },
     {
       "type": "sign",
-      "x": 21,
+      "x": 22,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -322,7 +322,7 @@
     },
     {
       "type": "sign",
-      "x": 27,
+      "x": 26,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -470,7 +470,7 @@
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
-      "script": "NULL"
+      "script": "Route49MazeP3Documento_100"
     },
     {
       "type": "sign",
@@ -490,7 +490,7 @@
     },
     {
       "type": "sign",
-      "x": 12,
+      "x": 16,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
@@ -519,6 +519,14 @@
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "BaseRocketHoennS3Documento_Qwoltfish"
+    },
+    {
+      "type": "sign",
+      "x": 14,
+      "y": 3,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "RocketHideout7FDocumento_140"
     }
   ]
 }

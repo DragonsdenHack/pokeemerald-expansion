@@ -831,6 +831,7 @@ static const struct MenuAction MultichoiceList_VentaPokesBaseRuta5[] =
 {
     {gText_Rattata},
     {gText_Mankey},
+    {gText_Voltorb},
     {gText_Koffing},
     {gText_Exit},
     

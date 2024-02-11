@@ -76,11 +76,13 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 unused1, u32 unused2, u8 u
     int sentToPc;
     u8 heldItem[2];
     struct Pokemon mon;
+	bool32 isEventLegal = TRUE;
 
     CreateMon(&mon, species, level, USE_RANDOM_IVS, FALSE, 0, OT_ID_PLAYER_ID, 0);
     heldItem[0] = item;
     heldItem[1] = item >> 8;
     SetMonData(&mon, MON_DATA_HELD_ITEM, heldItem);
+	SetMonData(&mon, MON_DATA_EVENT_LEGAL, &isEventLegal);
     sentToPc = GiveMonToPlayer(&mon);
     nationalDexNum = SpeciesToNationalPokedexNum(species);
 
@@ -95,6 +97,80 @@ u8 ScriptGiveMon(u16 species, u8 level, u16 item, u32 unused1, u32 unused2, u8 u
     }
     return sentToPc;
 }
+
+u8 ScriptGiveCustomMon(u16 species, u8 level, u16 item, u8 ball, u8 nature, u8 abilityNum, u8 *evs, u8 *ivs, u16 move1, u16 move2, u16 move3, u16 move4, bool8 isShiny)
+{
+	u16 nationalDexNum;
+    int sentToPc;
+    u8 heldItem[2];
+    struct Pokemon mon;
+	bool32 isEventLegal = TRUE;
+    u8 i;
+    u8 evTotal = 0;
+	
+	 if (isShiny)
+        CreateShinyMonWithNature(&mon, species, level, nature);
+    else
+        CreateMonWithNature(&mon, species, level, 32, nature);
+	for (i = 0; i < NUM_STATS; i++)
+    {
+        // ev
+        if (evs[i] != 0xFF && evTotal < 510)
+        {
+            // only up to 510 evs
+            if ((evTotal + evs[i]) > 510)
+                evs[i] = (510 - evTotal);
+
+            evTotal += evs[i];
+            SetMonData(&mon, MON_DATA_HP_EV + i, &evs[i]);
+        }
+
+        // iv
+        if (ivs[i] != 32 && ivs[i] != 0xFF)
+            SetMonData(&mon, MON_DATA_HP_IV + i, &ivs[i]);
+    }
+    CalculateMonStats(&mon);
+	
+	//poner ataques
+	SetMonMoveSlot(&mon, move1, 0);
+	SetMonMoveSlot(&mon, move2, 1);
+	SetMonMoveSlot(&mon, move3, 2);
+	SetMonMoveSlot(&mon, move4, 3);
+	
+	//ability
+    if (abilityNum == 0xFF || GetAbilityBySpecies(species, abilityNum) == 0)
+    {
+        do {
+            abilityNum = Random() % 3;  // includes hidden abilities
+        } while (GetAbilityBySpecies(species, abilityNum) == 0);
+    }
+
+    SetMonData(&mon, MON_DATA_ABILITY_NUM, &abilityNum);
+
+    //ball
+    if (ball <= POKEBALL_COUNT)
+        SetMonData(&mon, MON_DATA_POKEBALL, &ball);
+
+    //item
+    heldItem[0] = item;
+    heldItem[1] = item >> 8;
+    SetMonData(&mon, MON_DATA_HELD_ITEM, heldItem);
+	SetMonData(&mon, MON_DATA_EVENT_LEGAL, &isEventLegal);
+	
+	sentToPc = GiveMonToPlayer(&mon);
+    nationalDexNum = SpeciesToNationalPokedexNum(species);
+
+    // Don't set Pokédex flag for MON_CANT_GIVE
+    switch(sentToPc)
+    {
+    case MON_GIVEN_TO_PARTY:
+    case MON_GIVEN_TO_PC:
+        GetSetPokedexFlag(nationalDexNum, FLAG_SET_SEEN);
+        GetSetPokedexFlag(nationalDexNum, FLAG_SET_CAUGHT);
+        break;
+    }
+    return sentToPc;
+}	
 
 u8 ScriptGiveEgg(u16 species)
 {

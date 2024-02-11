@@ -101,7 +101,6 @@ Base_Profunda_Mercado_3_EventScript_Clerk::
 
 	.align 2
 Base_Profunda_Mercado_3_Pokemart:
-    .2byte 754
 	.2byte 71
 	.2byte 606
 	.2byte 617
@@ -214,9 +213,9 @@ Base_Profunda_Mercado_7_EventScript_Clerk::
 	.align 2
 Base_Profunda_Mercado_7_Pokemart:
     .2byte 72
-	.2byte 679
+	.2byte 624
 	.2byte 611
-	.2byte 612
+	.2byte 636
 	.2byte 215
 	.2byte 218
 	.2byte 219
@@ -753,11 +752,14 @@ Johto_Base_Rocket_Mercado_1_EventScript_Clerk::
 
 	.align 2
 Johto_Base_Rocket_Mercado_1_Pokemart:
+    .2byte 782
     .2byte 317
 	.2byte 337
 	.2byte 320
 	.2byte 321
 	.2byte 327
+	.2byte 779
+	.2byte 780
 	.2byte 329
 	.2byte 334
 	.2byte ITEM_NONE

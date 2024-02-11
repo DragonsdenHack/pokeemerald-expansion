@@ -511,7 +511,7 @@ const u32 gObjectEventPic_Protapokeball[] = INCBIN_U32("graphics/object_events/p
 const u32 gObjectEventPic_Proton[] = INCBIN_U32("graphics/object_events/pics/people/Proton.4bpp");
 const u32 gObjectEventPic_Raikou[] = INCBIN_U32("graphics/object_events/pics/people/raikou.4bpp");
 const u32 gObjectEventPic_Reshiram[] = INCBIN_U32("graphics/object_events/pics/people/Reshiram.4bpp");
-const u32 gObjectEventPic_Ricajohto[] = INCBIN_U32("graphics/object_events/pics/people/Ricajohto.4bpp");
+const u32 gObjectEventPic_Ricajohto[] = INCBIN_U32("graphics/object_events/pics/people/ricajohto.4bpp");
 const u32 gObjectEventPic_RichBoy2[] = INCBIN_U32("graphics/object_events/pics/people/rich_boy2.4bpp");
 const u32 gObjectEventPic_Ricojohto[] = INCBIN_U32("graphics/object_events/pics/people/ricojohto.4bpp");
 const u32 gObjectEventPic_Rocker[] = INCBIN_U32("graphics/object_events/pics/people/rocker.4bpp");
@@ -663,6 +663,7 @@ const u16 gObjectEventPic_LiderSete[] = INCBIN_U16("graphics/object_events/pics/
 const u16 gObjectEventPic_Zinnia[] = INCBIN_U16("graphics/object_events/pics/people/zinnia.4bpp");
 const u16 gObjectEventic_DragonSagrado[] = INCBIN_U16("graphics/object_events/pics/people/dragonsagrado.4bpp");
 const u16 gObjectEventPic_ReyUnown[] = INCBIN_U16("graphics/object_events/pics/people/kingunown.4bpp");
+const u16 gObjectEventPic_Miguel[] = INCBIN_U16("graphics/object_events/pics/people/miguel.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -798,3 +799,9 @@ const u16 gObjectEventPal_PlayerEjecutivo2[] = INCBIN_U16("graphics/object_event
 const u16 gObjectEventPal_PlayerAdmin2[] = INCBIN_U16("graphics/object_events/palettes/player_admin_bike.gbapal");
 
 const u16 gObjectEventPal_AdminJefeCaco[] = INCBIN_U16("graphics/object_events/palettes/adminjefecaco.gbapal");
+
+const u16 gObjectEventPal_MediumJohto[] = INCBIN_U16("graphics/object_events/palettes/mediumjohto.gbapal");
+
+const u16 gObjectEventPal_Miguel[] = INCBIN_U16("graphics/object_events/palettes/miguel.gbapal");
+
+const u16 gObjectEventPal_Pokemaniacojohto[] = INCBIN_U16("graphics/object_events/palettes/pokemaniacojohto.gbapal");

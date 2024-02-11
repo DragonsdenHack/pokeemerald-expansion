@@ -138,6 +138,7 @@ applymovement OBJ_EVENT_ID_PLAYER, Route47_Encuentro_Andra_Move_10
 applymovement 9, Route47_Encuentro_Andra_Move_9
 waitmovement 0x0
 setflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3
+setflag FLAG_UNUSED_0x275
 removeobject 9
 setvar VAR_VERDANTURF_TOWN_STATE, 5
 release
@@ -312,15 +313,15 @@ Route47_Encuentro_Maestro_Anciano_Texto_3:
 	.string "correcto, más al oeste está uno de los\l"
 	.string "lugares más antiguos de JOHTO. Llevaba\l"
 	.string "décadas sin venir aquí, creí que el\l"
-	.string "MAESTRO de CIUDAD IRIS había viajado\l"
-	.string "hasta aquí, tenía esperanzas de\l"
+	.string "MAESTRO de C.IRIS había viajado hasta\l"
+	.string "este lugar sagrado, tenía esperanzas de\l"
 	.string "conversar una última vez con él pero...\l"
 	.string "parece que HO-OH estimó que su hora\l"
 	.string "había llegado.$"
 
 Route47_Encuentro_Maestro_Anciano_Texto_4:
-.string "Pero no hay de qué lamentarse, no hay\n"
-	.string "mejor relevo que el que tengo delante.\l"
+.string "Pero no hay de qué lamentarse. El mejor\n"
+	.string "relevo posible lo tengo aquí delante.\l"
 	.string "Te daré un consejo: dirígete más al\l"
 	.string "oeste, ahí... tal vez incluso alguien de\l"
 	.string "tu nivel encuentre lo que necesita,\l"

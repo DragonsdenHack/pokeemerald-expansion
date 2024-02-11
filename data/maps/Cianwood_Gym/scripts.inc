@@ -86,6 +86,7 @@ msgbox Cianwood_Gym_Combate_Anibal_Texto_2 MSGBOX_NPC
 msgbox Cianwood_Gym_Combate_Anibal_Texto_3 MSGBOX_NPC
 delay 20
 msgbox Cianwood_Gym_Combate_Anibal_Texto_4 MSGBOX_NPC
+playse 414
 delay 40
 msgbox Cianwood_Gym_Combate_Anibal_Texto_5 MSGBOX_NPC
 delay 20
@@ -93,6 +94,11 @@ msgbox Cianwood_Gym_Combate_Anibal_Texto_6 MSGBOX_NPC
 trainerbattle_no_intro TRAINER_ANIBAL, Cianwood_Gym_Combate_Anibal_Texto_7
 msgbox Cianwood_Gym_Combate_Anibal_Texto_8 MSGBOX_NPC
 msgbox Cianwood_Gym_Combate_Anibal_Texto_9 MSGBOX_NPC
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox Cianwood_Gym_Combate_Anibal_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox Cianwood_Gym_Combate_Anibal_Texto_9.2 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
 msgbox Cianwood_Gym_Combate_Anibal_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_STUFFUL, 25, ITEM_NONE
@@ -105,6 +111,7 @@ additem ITEM_TM65
 msgbox Cianwood_Gym_Combate_Anibal_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cianwood_Gym_Combate_Anibal_Texto_11.3 MSGBOX_NPC
+setflag FLAG_BADGE13_GET
 clearflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setvar VAR_UNUSED_0x40F7, 150
 release
@@ -269,6 +276,14 @@ Cianwood_Gym_Combate_Anibal_Texto_8:
 	.string "prosigan su viaje sin mí.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9:
+	.string "No hay duda, ¡mereces portar nuestro\n"
+	.string "emblema!$"
+
+Cianwood_Gym_Combate_Anibal_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA TORMENTA.$"
+
+Cianwood_Gym_Combate_Anibal_Texto_9.2:
 .string "Me gustaría que te quedaras con\n"
 	.string "este POKÉMON, tiene grandes dotes\l"
 	.string "para la lucha.$"

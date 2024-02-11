@@ -1,8 +1,22 @@
 FourIsland_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, FourIsland_OnTransition
 	.byte 0
 
-FourIsland1::
+FourIsland_OnTransition::
+setflag FLAG_VISITED_FOUR_ISLAND
 end
+
+FourIsland1::
+lock
+faceplayer
+msgbox FourIsland1_texto_1 MSGBOX_NPC
+release
+end
+
+FourIsland1_texto_1:
+	.string "Lo sentimos, pero estamos hasta arriba\n"
+	.string "de trabajo, quizás en un futuro podamos\l"
+	.string "criar a tus POKÉMON.$"
 
 
 FourIsland2::

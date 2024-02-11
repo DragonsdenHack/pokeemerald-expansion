@@ -113,6 +113,8 @@ Goldenrod_GameCorner_Text_9:
 Goldenrod_Tienda_Items::
 lock
 faceplayer
+checkitem ITEM_COIN_CASE
+goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NeedCoinCase
 msgbox Goldenrod_Underground_Items_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Goldenrod_Underground_Items_Texto_2 MSGBOX_AUTOCLOSE
 waitmessage
@@ -244,6 +246,8 @@ end
 Goldenrod_Pokemon_Items::
 lock
 faceplayer
+checkitem ITEM_COIN_CASE
+goto_if_eq VAR_RESULT, FALSE, MauvilleCity_GameCorner_EventScript_NeedCoinCase
 msgbox Goldenrod_Underground_Items_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Goldenrod_Underground_Items_Texto_2 MSGBOX_AUTOCLOSE
 waitmessage
@@ -361,3 +365,61 @@ delay 20
 givemon SPECIES_LARVITAR, 28, ITEM_NONE
 release
 end
+
+EventScript_Compra_Porygon::
+lock
+faceplayer
+msgbox EventScript_Compra_Porygon_Texto_1 MSGBOX_NPC
+msgbox EventScript_Compra_Porygon_Texto_2 MSGBOX_NPC
+showmoneybox 0, 0
+delay 15
+msgbox EventScript_Compra_Porygon_Texto_3 MSGBOX_NPC
+msgbox EventScript_Compra_Porygon_Texto_4 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_Porygon_No
+delay 10
+playse SE_SHOP
+removemoney 220000 0
+updatemoneybox
+delay 80
+playfanfare MUS_OBTAIN_TMHM
+msgbox EventScript_Compra_Porygon_Texto_6 MSGBOX_DEFAULT
+givemon SPECIES_PORYGON, 60, ITEM_NONE
+waitfanfare
+hidemoneybox
+delay 20
+msgbox EventScript_Compra_Porygon_Texto_7 MSGBOX_NPC
+release
+end
+
+EventScript_Compra_Porygon_No::
+delay 10
+hidemoneybox
+delay 10
+msgbox EventScript_Compra_Porygon_Texto_5 MSGBOX_NPC
+release
+end
+
+EventScript_Compra_Porygon_Texto_7:
+	.string "Ahora, ¡a fardar en TORRE RADIO!$"
+
+EventScript_Compra_Porygon_Texto_6:
+	.string "¡OBTUVISTE un PORYGON al Nv.60!$"
+
+EventScript_Compra_Porygon_Texto_5:
+	.string "Tú te lo pierdes.$"
+
+EventScript_Compra_Porygon_Texto_4:
+	.string "¿Te interesa?$"
+
+EventScript_Compra_Porygon_Texto_3:
+	.string "Por solo 220000 ¥ podrás contar con\n"
+	.string "uno.$"
+
+EventScript_Compra_Porygon_Texto_2:
+	.string "¿Quieres ser una de las primeras\n"
+	.string "personas en JOHTO con un PORYGON?$"
+
+EventScript_Compra_Porygon_Texto_1:
+	.string "Traigo lo último en tecnología,\n"
+	.string "importado directamente desde KANTO.$"

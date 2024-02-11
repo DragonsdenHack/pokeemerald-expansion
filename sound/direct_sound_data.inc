@@ -4819,11 +4819,11 @@ Cry_SuicuneBond::
 
 	.align 2
 Cry_Kurusu::
-	.incbin "sound/direct_sound_samples/cries/kurusu.bin"
+	.incbin "sound/direct_sound_samples/cries/tirtouga.bin"
 
 	.align 2
 Cry_Akua::
-	.incbin "sound/direct_sound_samples/cries/akua.bin"
+	.incbin "sound/direct_sound_samples/cries/dewott.bin"
 
 	.align 2
 Cry_Akueria::
@@ -4879,7 +4879,7 @@ Cry_ArceusPrimal::
 
 	.align 2
 Cry_MissingNo::
-	.incbin "sound/direct_sound_samples/cries/missingno.bin"
+	.incbin "sound/direct_sound_samples/cries/uncomp_necrozma_ultra.bin"
 
 	.align 2
 Cry_VenusaurMega::

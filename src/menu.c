@@ -2120,13 +2120,46 @@ void BlitMenuInfoIcon(u8 windowId, u8 iconId, u16 x, u16 y)
     BlitBitmapRectToWindow(windowId, &gMenuInfoElements_Gfx[sMenuInfoIcons[iconId].offset * 32], 0, 0, 128, 128, x, y, sMenuInfoIcons[iconId].width, sMenuInfoIcons[iconId].height);
 }
 
+static const u16 sBadgeFlags[] =
+{
+    FLAG_BADGE01_GET,
+    FLAG_BADGE02_GET,
+    FLAG_BADGE03_GET,
+    FLAG_BADGE04_GET,
+    FLAG_BADGE05_GET,
+    FLAG_BADGE06_GET,
+    FLAG_BADGE07_GET,
+    FLAG_BADGE08_GET,
+	FLAG_BADGE09_GET,
+	FLAG_BADGE10_GET,
+	FLAG_BADGE11_GET,
+	FLAG_BADGE12_GET,
+	FLAG_BADGE13_GET,
+	FLAG_BADGE14_GET,
+	FLAG_BADGE15_GET,
+	FLAG_SYS_CAVE_SHIP,
+	FLAG_SYS_CAVE_WONDER,
+	FLAG_SYS_CAVE_BATTLE,
+	FLAG_UNUSED_8,
+	FLAG_UNUSED_9,
+	FLAG_UNUSED_0x8E3,
+	FLAG_UNUSED_0x068,
+	FLAG_UNUSED_0x2D9,
+	FLAG_UNUSED_0x1E3,
+	FLAG_UNUSED_0x4F9,
+	FLAG_UNUSED_0x4FA,
+	FLAG_UNUSED_0x1AA,
+	FLAG_UNUSED_0x1AB,
+};
+
 void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
 {
     s32 curFlag;
     s32 flagCount;
     u8 *endOfString;
     u8 *string = dest;
-
+	u8 badgeCount = 0;
+	u32 i;
     *(string++) = EXT_CTRL_CODE_BEGIN;
     *(string++) = EXT_CTRL_CODE_COLOR;
     *(string++) = color;
@@ -2155,13 +2188,13 @@ void BufferSaveMenuText(u8 textId, u8 *dest, u8 color)
             GetMapNameGeneric(string, gMapHeader.regionMapSectionId);
             break;
         case SAVE_MENU_BADGES:
-            for (curFlag = FLAG_BADGE01_GET, flagCount = 0, endOfString = string + 1; curFlag < FLAG_BADGE01_GET + NUM_BADGES; curFlag++)
-            {
-                if (FlagGet(curFlag))
-                    flagCount++;
-            }
-            *string = flagCount + CHAR_0;
-            *endOfString = EOS;
+			for(i = 0 ; i < 28; i++)
+			{
+				if(FlagGet(sBadgeFlags[i]))
+					badgeCount++;
+			}
+			string = ConvertIntToDecimalStringN(string, badgeCount, STR_CONV_MODE_LEFT_ALIGN, 3);
+			*string = EOS;
             break;
     }
 }

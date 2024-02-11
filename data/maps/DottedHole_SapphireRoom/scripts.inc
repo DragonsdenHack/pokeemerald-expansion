@@ -75,7 +75,7 @@ delay 75
 removeobject 1
 waitfanfare
 playse SE_BANG
-setmetatile 7, 3, 0x284, TRUE
+setmetatile 7, 3, 0x284, FALSE
 setmetatile 7, 2, 0x294, FALSE
 setmetatile 7, 1, 0x28C, TRUE
 special DrawWholeMapView
@@ -256,7 +256,7 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_11:
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_12:
 .string "Espero que te merezcan la pena los\n"
-	.string "segundos qen los que podrás\l"
+	.string "segundos en los que podrás\l"
 	.string "presenciar el renacer de KYOGRE\l"
 	.string "antes de acabar a decenas de\l"
 	.string "metros bajo el nivel del mar.$"

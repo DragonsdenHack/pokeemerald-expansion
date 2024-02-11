@@ -1,5 +1,19 @@
 RocketHideout_Johto_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, RocketHideout_Johto_OnTransition
+map_script MAP_SCRIPT_ON_RESUME, RocketHideout_Johto_OnResume
 	.byte 0
+	
+RocketHideout_Johto_OnTransition::
+setflag FLAG_VISITED_ROCKET_HIDEOUT_JOHTO
+end
+
+RocketHideout_Johto_OnResume:
+	call RocketHideout_Johto_SetupEscapeWarp
+	end
+
+RocketHideout_Johto_SetupEscapeWarp::
+	setescapewarp MAP_SOUTH_ROUTE45, 6, 114
+	return
 
 RocketHideoutJohto1::
 end
@@ -106,13 +120,13 @@ RocketHideoutJohto_Text_8:
 .string "PS de 125 de BASE…\n"
 .string "ATAQUE FÍSICO de 175…\l"
 .string "DEFENSA FÍSICA de 155…\l"
-.string "Una media de 151,6666 de BASE\l"
+.string "Una media de 151,666 de BASE\l"
 .string "entre los 3 primeros STATS…\l"
 .string "…\l"
 .string "…\l"
 .string "No, no me estoy inventando a este\l"
 .string "POKÉMON, estoy hablando del\l"
-.string "RHYPERIOR-Z de nuestro LÍDER\l"
+.string "RHYPERIOR-& de nuestro LÍDER\l"
 .string "GIOVANNI, me cuesta creer que\l"
 .string "exista otro POKÉMON de un poder\l"
 .string "físico similar.\l"

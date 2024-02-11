@@ -293,7 +293,7 @@ release
 end
 
 CeruleanCityGym_Can_Pass_Texto_1:
-.string "It is impossible! … … the LICENSE forged\n"
+.string "It is impossible! … … a LICENSE forged\n"
 	.string "in the historic dispatches of the HQ of\l"
 	.string "the KANTO POKÉMON LEAGUE. … Excuse me\l"
 	.string "sir! You can enter our humble GYM!$"

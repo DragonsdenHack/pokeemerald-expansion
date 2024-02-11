@@ -671,7 +671,7 @@
 #define FLAG_UNUSED_0x277  0x277 // PERLA GRANDE LAGO
 #define FLAG_UNUSED_0x278  0x278 // VELO AURORA CUEVA ISLA CUARTA NORTE
 #define FLAG_UNUSED_0x279  0x279 // RUIN VALLEY - CARAMELORARO
-#define FLAG_UNUSED_0x27A  0x27A // Unused Flag
+#define FLAG_UNUSED_0x27A  0x27A // ANCIANOS CASA CARBON MAHOGANY
 #define FLAG_UNUSED_0x27B  0x27B // Unused Flag
 #define FLAG_UNUSED_0x27C  0x27C // Unused Flag
 #define FLAG_UNUSED_0x27D  0x27D // Unused Flag
@@ -1376,7 +1376,7 @@
 #define FLAG_UNUSED_0x1E3                    0x1E3 // Unused Flag
 
 //especiales
-#define FLAG_UNUSED_0x4F9                                     0x4F9 // Unused Flag
+#define FLAG_UNUSED_0x4F9                                           0x4F9 // Unused Flag
 #define FLAG_UNUSED_0x4FA                                           0x4FA // Unused Flag
 #define FLAG_UNUSED_0x1AA                    0x1AA // Unused Flag
 #define FLAG_UNUSED_0x1AB                    0x1AB // Unused Flag

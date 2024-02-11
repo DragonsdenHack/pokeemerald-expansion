@@ -611,8 +611,7 @@ delay 28
 setvar VAR_UNUSED_0x40F7, 116
 setvar VAR_TEMP_1, 1
 call EverGrandeCity_HallOfFame_EventScript_SetGameClearFlags
-checkplayergender
-goto_if_eq VAR_RESULT, MALE, EverGrandeCity_HallOfFame_EventScript_GameClearMale
+goto EverGrandeCity_HallOfFame_EventScript_GameClearMale
 release
 end
 
@@ -894,6 +893,7 @@ special SpawnCameraObject
 applymovement OBJ_EVENT_ID_CAMERA, CinnabarMansion_S2_Escena_7_Move_1
 waitmovement 0x0
 special RemoveCameraObject
+setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 msgbox CinnabarMansion_S2_Escena_7_Texto_1 MSGBOX_AUTOCLOSE
 msgbox CinnabarMansion_S2_Escena_7_Texto_2 MSGBOX_AUTOCLOSE
 applymovement 7, CinnabarMansion_S2_Escena_7_Move_2
@@ -929,7 +929,6 @@ msgbox CinnabarMansion_S2_Escena_7_Texto_12 MSGBOX_AUTOCLOSE
 delay 20
 msgbox CinnabarMansion_S2_Escena_7_Texto_13 MSGBOX_AUTOCLOSE
 delay 50
-setflag FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT
 warpsilent MAP_ROCKET_HIDEOUT_5F, 0, 13
 release
 end

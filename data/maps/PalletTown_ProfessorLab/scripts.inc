@@ -128,6 +128,7 @@ msgbox PalletTown_ProfessorLab_Lab_Texto_4 MSGBOX_AUTOCLOSE
 delay 20
 msgbox PalletTown_ProfessorLab_Lab_Texto_6 MSGBOX_AUTOCLOSE
 playse MUS_RG_ENCOUNTER_GYM_LEADER
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_2
 msgbox PalletTown_ProfessorLab_Lab_Texto_7 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_DALIA, PalletTown_ProfessorLab_Lab_Texto_8
 msgbox PalletTown_ProfessorLab_Lab_Texto_9 MSGBOX_AUTOCLOSE
@@ -194,7 +195,7 @@ PalletTown_ProfessorLab_Lab_Texto_9:
 
 PalletTown_ProfessorLab_Lab_Texto_10:
 	.string "DAISY: Enjoy that poor BULBASAUR at\n"
-	.string "level 5, ROCKET. If you didn't know this,\l"
+	.string "level 15, ROCKET. If you didn't know this,\l"
 	.string "OAK has tens of them at his personal\l"
 	.string "collection.$"
 

@@ -153,6 +153,21 @@ static const u16 sRegionMapPlayerIcon_BrendanPal[] = INCBIN_U16("graphics/pokena
 static const u8 sRegionMapPlayerIcon_BrendanGfx[] = INCBIN_U8("graphics/pokenav/region_map/brendan_icon.4bpp");
 static const u16 sRegionMapPlayerIcon_MayPal[] = INCBIN_U16("graphics/pokenav/region_map/may_icon.gbapal");
 static const u8 sRegionMapPlayerIcon_MayGfx[] = INCBIN_U8("graphics/pokenav/region_map/may_icon.4bpp");
+
+static const u8 sRegionMapPlayerIcon_ReclutaGfx[] = INCBIN_U8("graphics/pokenav/region_map/recluta_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AltoRangoGfx[] = INCBIN_U8("graphics/pokenav/region_map/altorango_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_EjecutivoGfx[] = INCBIN_U8("graphics/pokenav/region_map/ejecutivo_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AdminGfx[] = INCBIN_U8("graphics/pokenav/region_map/admin_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AdminJefeGfx[] = INCBIN_U8("graphics/pokenav/region_map/adminjefe_icon.4bpp");
+static const u8 sRegionMapPlayerIcon_AdminJefe2Gfx[] = INCBIN_U8("graphics/pokenav/region_map/adminjefe2_icon.4bpp");
+
+static const u16 sRegionMapPlayerIcon_ReclutaPal[] = INCBIN_U16("graphics/object_events/pics/people/prota.gbapal");
+static const u16 sRegionMapPlayerIcon_AltoRangoPal[] = INCBIN_U16("graphics/object_events/palettes/player_alto_rango.gbapal");
+static const u16 sRegionMapPlayerIcon_EjecutivoPal[] = INCBIN_U16("graphics/object_events/palettes/player_ejecutivo.gbapal");
+static const u16 sRegionMapPlayerIcon_AdminPal[] = INCBIN_U16("graphics/object_events/palettes/player_admin.gbapal");
+static const u16 sRegionMapPlayerIcon_AdminJefePal[] = INCBIN_U16("graphics/object_events/palettes/admin.gbapal");
+static const u16 sRegionMapPlayerIcon_AdminJefe2Pal[] = INCBIN_U16("graphics/object_events/palettes/player_admin_jefe.gbapal");
+
 static const u8 sRegionMap_MapSectionLayout[] = INCBIN_U8("graphics/pokenav/region_map_section_layout_kanto.bin");
 static const u8 sRegionMap_MapSectionLayout2[] = INCBIN_U8("graphics/pokenav/region_map_section_layout_hoenn.bin");
 static const u8 sRegionMap_MapSectionLayout3[] = INCBIN_U8("graphics/pokenav/region_map_section_layout_johto.bin");
@@ -178,7 +193,7 @@ static const u16 sRegionMap_SpecialPlaceLocations[][2] =
     {MAPSEC_UNDERWATER_SOOTOPOLIS,      MAPSEC_SOOTOPOLIS_CITY},
     {MAPSEC_UNDERWATER_SEAFLOOR_CAVERN, MAPSEC_ROUTE_128},
     {MAPSEC_AQUA_HIDEOUT,               MAPSEC_LILYCOVE_CITY},
-    {MAPSEC_AQUA_HIDEOUT_OLD,           MAPSEC_LILYCOVE_CITY},
+    {MAPSEC_AQUA_HIDEOUT_OLD,           MAPSEC_ECRUTEAK_CITY},
     {MAPSEC_MAGMA_HIDEOUT,              MAPSEC_ROUTE_112},
     {MAPSEC_UNDERWATER_SEALED_CHAMBER,  MAPSEC_ROUTE_134},
     {MAPSEC_PETALBURG_WOODS,            MAPSEC_ROUTE_104},
@@ -186,7 +201,7 @@ static const u16 sRegionMap_SpecialPlaceLocations[][2] =
     {MAPSEC_MT_PYRE,                    MAPSEC_ROUTE_122},
     {MAPSEC_SKY_PILLAR,                 MAPSEC_ROUTE_131},
     {MAPSEC_MIRAGE_TOWER,               MAPSEC_ROUTE_111},
-    {MAPSEC_TRAINER_HILL,               MAPSEC_ROUTE_111},
+    {MAPSEC_TRAINER_HILL,               MAPSEC_GOLDENROD_CITY},
     {MAPSEC_DESERT_UNDERPASS,           MAPSEC_ROUTE_114},
     {MAPSEC_ALTERING_CAVE,              MAPSEC_ROUTE_103},
     {MAPSEC_ARTISAN_CAVE,               MAPSEC_ROUTE_103},
@@ -318,7 +333,7 @@ static const u32 sRegionMapFrameTilemapLZ[] = INCBIN_U32("graphics/pokenav/regio
 static const u16 sFlyTargetIcons_Pal[] = INCBIN_U16("graphics/pokenav/region_map/fly_target_icons.gbapal");
 static const u32 sFlyTargetIcons_Gfx[] = INCBIN_U32("graphics/pokenav/region_map/fly_target_icons.4bpp.lz");
 
-static const u8 sMapHealLocations[][3] =
+static const u16 sMapHealLocations[][3] =
 {
     [MAPSEC_LITTLEROOT_TOWN] = {MAP_GROUP(LITTLEROOT_TOWN), MAP_NUM(LITTLEROOT_TOWN), HEAL_LOCATION_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F},
     [MAPSEC_OLDALE_TOWN] = {MAP_GROUP(OLDALE_TOWN), MAP_NUM(OLDALE_TOWN), HEAL_LOCATION_OLDALE_TOWN},
@@ -368,7 +383,7 @@ static const u8 sMapHealLocations[][3] =
     [MAPSEC_BLACKTHORN_CITY] = {MAP_GROUP(BLACKTHORN_CITY), MAP_NUM(BLACKTHORN_CITY), HEAL_LOCATION_BLACKTHORN_CITY},
     [MAPSEC_MT_SILVER] = {MAP_GROUP(MT_SILVER), MAP_NUM(MT_SILVER), HEAL_LOCATION_MT_SILVER},
     [MAPSEC_ROCKET_HIDEOUT_JOHTO] = {MAP_GROUP(SOUTH_ROUTE45), MAP_NUM(SOUTH_ROUTE45), HEAL_LOCATION_SOUTH_ROUTE45},
-
+	
     [MAPSEC_ROUTE_101] = {MAP_GROUP(ROUTE101), MAP_NUM(ROUTE101), 0},
     [MAPSEC_ROUTE_102] = {MAP_GROUP(ROUTE102), MAP_NUM(ROUTE102), 0},
     [MAPSEC_ROUTE_103] = {MAP_GROUP(ROUTE103), MAP_NUM(ROUTE103), 0},
@@ -1220,6 +1235,13 @@ static void InitMapBasedOnPlayerLocation(void)
             gRegionMap->playerIsInCave = TRUE;
         break;
     case MAP_TYPE_UNDERGROUND:
+    		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNION_CAVE))
+        {
+			x = 18;
+			y = 14;
+			gMapHeader.region == REGION_JOHTO;	
+		}
+        break;
     case MAP_TYPE_UNKNOWN:
         if (gMapHeader.allowEscaping)
         {
@@ -1370,48 +1392,13 @@ static void InitMapBasedOnPlayerLocation(void)
 			gMapHeader.region == REGION_JOHTO;
 		}
 		break;
-	case MAPSEC_BLACKTHORN_CITY:
+	case MAPSEC_UNDERGROUND_PATH:
 		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S1))
         {
 			x = 24;
 			y = 3;
 			gMapHeader.region == REGION_JOHTO;	
 		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S2))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S3))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(BLACKTHORN_CITY_DRAGONSDEN_S4))
-        {
-			x = 24;
-			y = 3;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		break;
-	case MAPSEC_GOLDENROD_CITY:
-		if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(CUEVA_GIMNASIO_TRIGAL))
-        {
-			x = 15;
-			y = 9;
-			gMapHeader.region == REGION_JOHTO;
-		}
-		break;
-	case MAPSEC_UNDERGROUND_PATH:
-        x = 14;
-        y = 7;
-        if (gSaveBlock1Ptr->location.mapNum == MAP_NUM(UNDERGROUND_PATH_1F))
-        {
-            x = 14; // optimized out but required to match
-            y = 5;
-        }
         break;
 	case MAPSEC_UNDERGROUND_PATH_2:
         x = 14;
@@ -1847,8 +1834,8 @@ static void ClearUnkCursorSpriteData(void)
 void CreateRegionMapPlayerIcon(u16 tileTag, u16 paletteTag)
 {
     u8 spriteId;
-    struct SpriteSheet sheet = {sRegionMapPlayerIcon_BrendanGfx, 0x80, tileTag};
-    struct SpritePalette palette = {sRegionMapPlayerIcon_BrendanPal, paletteTag};
+    struct SpriteSheet sheet = {sRegionMapPlayerIcon_ReclutaGfx, 0x80, tileTag};
+    struct SpritePalette palette = {sRegionMapPlayerIcon_ReclutaPal, paletteTag};
     struct SpriteTemplate template = {tileTag, paletteTag, &sRegionMapPlayerIconOam, sRegionMapPlayerIconAnimTable, NULL, gDummySpriteAffineAnimTable, SpriteCallbackDummy};
 
     if (IsEventIslandMapSecId(gMapHeader.regionMapSectionId))
@@ -1858,9 +1845,27 @@ void CreateRegionMapPlayerIcon(u16 tileTag, u16 paletteTag)
     }
     if (gSaveBlock2Ptr->playerGender == FEMALE)
     {
-        sheet.data = sRegionMapPlayerIcon_MayGfx;
-        palette.data = sRegionMapPlayerIcon_MayPal;
-    }
+        sheet.data = sRegionMapPlayerIcon_AltoRangoGfx;
+        palette.data = sRegionMapPlayerIcon_AltoRangoPal;
+    }else if (gSaveBlock2Ptr->playerGender == EJECUTIVO)
+	{
+		sheet.data = sRegionMapPlayerIcon_EjecutivoGfx;
+        palette.data = sRegionMapPlayerIcon_EjecutivoPal;
+	}else if (gSaveBlock2Ptr->playerGender == ADMIN)
+	{
+		sheet.data = sRegionMapPlayerIcon_AdminGfx;
+        palette.data = sRegionMapPlayerIcon_AdminPal;
+	}else if (gSaveBlock2Ptr->playerGender == ADMIN_JEFE)
+	{
+		sheet.data = sRegionMapPlayerIcon_AdminJefeGfx;
+        palette.data = sRegionMapPlayerIcon_AdminJefePal;
+	}else if (gSaveBlock2Ptr->playerGender == ADMIN_JEFE2)
+	{
+		sheet.data = sRegionMapPlayerIcon_AdminJefe2Gfx;
+        palette.data = sRegionMapPlayerIcon_AdminJefe2Pal;
+	}	
+	
+	
     LoadSpriteSheet(&sheet);
     LoadSpritePalette(&palette);
     spriteId = CreateSprite(&template, 0, 0, 1);
@@ -2313,7 +2318,7 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case SEVII_123:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
+                    canFlyFlag = FLAG_VISITED_ONE_ISLAND;
                     for (mapSecId = MAPSEC_ONE_ISLAND; mapSecId <= MAPSEC_THREE_ISLAND; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
@@ -2347,7 +2352,7 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case SEVII_45:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
+                    canFlyFlag = FLAG_VISITED_FOUR_ISLAND;
                     for (mapSecId = MAPSEC_FOUR_ISLAND; mapSecId <= MAPSEC_FIVE_ISLAND; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
@@ -2381,7 +2386,7 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case SEVII_67:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
+                    canFlyFlag = FLAG_VISITED_SIX_ISLAND;
                     for (mapSecId = MAPSEC_SIX_ISLAND; mapSecId <= MAPSEC_SEVEN_ISLAND; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
@@ -2415,8 +2420,8 @@ static void CreateFlyDestIcons(void)
 				////////////////////
 				case REGION_JOHTO:
                    ////////////////////
-                    canFlyFlag = FLAG_VISITED_LITTLEROOT_TOWN;
-                    for (mapSecId = MAPSEC_NEW_BARK_TOWN; mapSecId <= MAPSEC_BLACKTHORN_CITY; mapSecId++)
+                    canFlyFlag = FLAG_VISITED_ROCKET_HIDEOUT_JOHTO;
+                    for (mapSecId = MAPSEC_ROCKET_HIDEOUT_JOHTO; mapSecId <= MAPSEC_BLACKTHORN_CITY; mapSecId++)
                     {
                         GetMapSecDimensions(mapSecId, &x, &y, &width, &height);
                         x = (x + MAPCURSOR_X_MIN) * 8 + 4;

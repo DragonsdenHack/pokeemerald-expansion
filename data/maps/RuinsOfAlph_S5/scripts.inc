@@ -759,6 +759,7 @@ waitmoncry
 trainerbattle_no_intro TRAINER_ESENCIA_ZIGARDE, RuinsOfAlph_S5_Combate_Unown_Texto_2
 playmoncry SPECIES_ARCEUS, CRY_MODE_ENCOUNTER
 waitmoncry
+removeobject 6
 setflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
 removeobject 6
 playse SE_M_EMBER

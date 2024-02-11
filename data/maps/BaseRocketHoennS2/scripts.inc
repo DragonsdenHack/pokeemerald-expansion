@@ -1295,12 +1295,12 @@ end
 
 BaseRocketHoennS2Documento_Text_125:
 .string "NÚMERO 11: KARTANA:\p"
-    .string "PS: 70\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 115\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 130\l"
-	.string "VELOCIDAD: 85\l"
+    .string "PS: 59\n"
+	.string "ATAQUE: 181\l"
+	.string "DEFENSA: 131\l"
+	.string "ATAQUE ESPECIAL: 31\l"
+	.string "DEFENSA ESPECIAL: 59\l"
+	.string "VELOCIDAD: 109\l"
 	.string "TOTAL: 570\p"
 	.string "El ULTRAENTE de STATS BASE más\n"
 	.string "anárquicos, capaz de lo mejor y de lo\l"
@@ -1359,8 +1359,8 @@ end
 
 BaseRocketHoennS2Documento_Text_127:
 .string "NÚMERO 9: BLACEPHALON:\p"
-    .string "PS: 53\n"
-	.string "ATAQUE: 127\l"
+    .string "PS: 127\n"
+	.string "ATAQUE: 53\l"
 	.string "DEFENSA: 53\l"
 	.string "ATAQUE ESPECIAL: 151\l"
 	.string "DEFENSA ESPECIAL: 79\l"
@@ -1829,5 +1829,12 @@ end
 BaseRocketHoennS2_14_NPC_Texto_1:
 .string "Solo puedes insultar a un paleto en su\n"
 	.string "propio lenguaje.$"
+
+
+Seteo_Atlas_Perder::
+lock
+setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE
+release
+end
 
 

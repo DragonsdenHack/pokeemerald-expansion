@@ -1,5 +1,14 @@
 Route49_Maze_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Route49_Maze_OnResume
 	.byte 0
+
+Route49_Maze_OnResume:
+	call Route49_Maze_SetupEscapeWarp
+	end
+
+Route49_Maze_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE49, 10, 55
+	return
 
 Route49_Maze_1::
 lock     
@@ -98,7 +107,8 @@ Route49MazeDocumento_Text_100:
 	.string "DEFENSA ESPECIAL: 74\l"
 	.string "VELOCIDAD: 82\l"
 	.string "TOTAL: 641\p"
-	.string "AGUA/DRAGÓN\n"
+	.string "TIPO: AGUA/DRAGÓN\n"
+	.string "HABILIDAD: INDEFENSO\l"
 	.string "Se creía extinto hasta hace poco,\l"
 	.string "domina todos los movimientos\l"
 	.string "elementales y es capaz de ejecutarlos\l"
@@ -131,7 +141,8 @@ Route49MazeDocumento_Text_101:
 	.string "DEFENSA ESPECIAL: 126\l"
 	.string "VELOCIDAD: 60\l"
 	.string "TOTAL: 542\p"
-	.string "PSÍQUICO/VOLADOR\n"
+	.string "TIPO: PSÍQUICO/VOLADOR\n"
+	.string "HABILIDAD: MURO MÁGICO\l"
 	.string "Se dice que puede evolucionar de\l"
 	.string "NOCTOWL en condiciones muy concretas\l"
 	.string "de simbiosis y total equilibrio, tanto\l"

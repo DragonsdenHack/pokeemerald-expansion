@@ -328,7 +328,7 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_1:
 Violet_TrainerSchool_Discurso_Pegaso_Texto_2:
 .string "Ahora pasaremos al apartado de\n"
 	.string "estrategia, y aquí me gustaría\l"
-	.string "hacer especial incapié en dos de\l"
+	.string "hacer especial hincapié en dos de\l"
 	.string "las mayores debilidades del TIPO\l"
 	.string "VOLADOR: el ROCA y el ELÉCTRICO.$"
 

@@ -90,7 +90,7 @@ Olivine_Boat4_Combate_Capitan_Texto_3:
 Olivine_Boat4_Combate_Capitan_Texto_4:
 .string "Pero no solo eso, también me habló\n"
 	.string "de las MEGAPIEDRAS, y de algunos\l"
-	.string "PSSEUDOLEGENDARIOS que\l"
+	.string "PSEUDOLEGENDARIOS que\l"
 	.string "podían beneficiarse de ellas,\l"
 	.string "llegando a los, hasta hace nada,\l"
 	.string "imposibles 700 de BASE.$"

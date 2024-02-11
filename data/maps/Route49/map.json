@@ -3,10 +3,10 @@
   "name": "Route49",
   "layout": "LAYOUT_ROUTE49",
   "music": "633",
-  "region_map_section": "MAPSEC_NONE",
+  "region_map_section": "MAPSEC_ARTISAN_CAVE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_ROUTE",
+  "map_type": "MAP_TYPE_NONE",
   "allow_cycling": true,
   "allow_escaping": false,
   "allow_running": true,
@@ -87,7 +87,7 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",
-      "x": 38,
+      "x": 32,
       "y": 6,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -138,7 +138,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN",
+      "graphics_id": "OBJ_EVENT_GFX_ANDRA_ADMIN_JEFE",
       "x": 9,
       "y": 56,
       "elevation": 3,
@@ -148,7 +148,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "FLAG_HIDE_ROUTE_111_GABBY_AND_TY_3"
+      "flag": "FLAG_UNUSED_0x275"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_EUSINE",

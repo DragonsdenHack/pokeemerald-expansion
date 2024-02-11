@@ -84,6 +84,7 @@ fadescreen 1
 delay 20
 removeobject 1
 fadescreen 0
+clearflag FLAG_UNUSED_0x26A
 setvar VAR_VERDANTURF_TOWN_STATE, 10
 release
 end

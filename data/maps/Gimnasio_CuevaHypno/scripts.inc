@@ -542,6 +542,11 @@ trainerbattle_no_intro TRAINER_TRAINER_118, Gimnasio_CuevaHypno_Combate_Lider_Te
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_7 MSGBOX_AUTOCLOSE
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_8 MSGBOX_AUTOCLOSE
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_9.2 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_FENNEKIN, 15, ITEM_NONE
@@ -554,6 +559,7 @@ additem ITEM_TM94
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox Gimnasio_CuevaHypno_Combate_Lider_Texto_11.3 MSGBOX_NPC
+setflag FLAG_UNUSED_0x4FA
 setvar VAR_DEWFORD_TOWN_STATE, 4
 release
 end
@@ -595,6 +601,15 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_10:
 	.string "YOU OBTAINED A LV.15 FENNEKIN!!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_9:
+	.string "40 años después, de nuevo puedo decir\n"
+	.string "que hago entrega de nuestra antigua\l"
+	.string "medalla.$"
+
+Gimnasio_CuevaHypno_Combate_Lider_Texto_9.1:
+	.string "Take this, here you\n"
+	.string "are the ONEIRIC BADGE.$"
+
+Gimnasio_CuevaHypno_Combate_Lider_Texto_9.2:
 	.string "I hope you have a great journey. Take\n"
 	.string "this POKÉMON with you.$"
 

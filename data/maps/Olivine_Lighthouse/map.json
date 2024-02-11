@@ -6,7 +6,7 @@
   "region_map_section": "MAPSEC_FARO_OLIVO",
   "requires_flash": false,
   "weather": "WEATHER_NONE",
-  "map_type": "MAP_TYPE_INDOOR",
+  "map_type": "MAP_TYPE_SECRET_BASE",
   "allow_cycling": false,
   "allow_escaping": true,
   "allow_running": true,
@@ -460,7 +460,7 @@
     },
     {
       "x": 93,
-      "y": 5,
+      "y": 7,
       "elevation": 0,
       "dest_map": "MAP_OLIVINE_LIGHTHOUSE",
       "dest_warp_id": 9

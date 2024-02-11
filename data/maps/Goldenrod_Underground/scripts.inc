@@ -1,5 +1,14 @@
 Goldenrod_Underground_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Goldenrod_Underground_OnResume
 	.byte 0
+
+Goldenrod_Underground_OnResume:
+	call Goldenrod_Underground_SetupEscapeWarp
+	end
+
+Goldenrod_Underground_SetupEscapeWarp::
+	setescapewarp MAP_GOLDENROD_CITY, 18, 16
+	return
 
  @ Goldenrod Underground Precios Fichas
 	.set TRAPINCH_COINS,    1200
@@ -23,7 +32,39 @@ end
 
 
 GoldenrodUnderground3::
+lock
+faceplayer
+	checkitem ITEM_COIN_CASE
+	goto_if_eq VAR_RESULT, TRUE, GoldenrodUnderground3_Fin
+msgbox GoldenrodUnderground3_texto_1 MSGBOX_NPC
+msgbox GoldenrodUnderground3_texto_2 MSGBOX_NPC
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_COIN_CASE
+msgbox GoldenrodUnderground3_texto_3 MSGBOX_DEFAULT
+waitfanfare
+release
 end
+
+GoldenrodUnderground3_Fin::
+msgbox GoldenrodUnderground3_Fin_texto_1 MSGBOX_NPC
+release
+end
+
+GoldenrodUnderground3_Fin_texto_1:
+	.string "Ahora soy un hombre nuevo, ¡voy a\n"
+	.string "montar una peluquería y todo!$"
+
+GoldenrodUnderground3_texto_3:
+.string "¡Obtuviste un MONEDERO\n"
+	.string "de manos de Supernecio!$"
+
+GoldenrodUnderground3_texto_2:
+	.string "¡Toma! ¡No quiero volver a ver esto en mi\n"
+	.string "vida!$"
+
+GoldenrodUnderground3_texto_1:
+	.string "¡Estoy acabado! Perdí todo lo que\n"
+	.string "tenía en las tragaperras.$"
 
 
 

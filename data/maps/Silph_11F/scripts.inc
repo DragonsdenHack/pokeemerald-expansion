@@ -396,7 +396,7 @@ Silph_11F_Bill_Presidente_Texto_9:
 	.string "yet, along with the POKÉMON LEAGUE.\l"
 	.string "Supposedly, there is that POKÉMON\l"
 	.string "MANSION, where they created that\l"
-	.string "MEWTWO, the “strongest POKÉMON ever”,\l"
+	.string "MEWTWO, the 'strongest POKÉMON ever',\l"
 	.string "do you think GIOVANNI has any idea of\l"
 	.string "where it could be?$"
 

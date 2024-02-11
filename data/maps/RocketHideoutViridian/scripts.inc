@@ -214,7 +214,7 @@ RocketHideoutViridian_Combate_Proton_Texto_5:
 	.string "Moving to our base in CELADON CITY was\n"
 	.string "a smart move on your part. You've more\l"
 	.string "than earned that position as ROCKET\l"
-	.string "ADMINISTRATOR, {PLAYER}. I recommend\l"
+	.string "EXECUTIVE, {PLAYER}. I recommend\l"
 	.string "healing your team before continuing.\l"
 	.string "The remaining ADMINISTRATORS are more\l"
 	.string "powerful than me. I bet sparks will fly\l"
@@ -306,7 +306,7 @@ RocketHideoutViridian_Combate_Petrel_Texto_3:
 
 RocketHideoutViridian_Combate_Petrel_Texto_4:
 	.string "Great fight {PLAYER}, you are a\n"
-	.string "deserved ADMIN ROCKET.$"
+	.string "true ROCKET EXECUTIVE.$"
 
 RocketHideoutViridian_Combate_Petrel_Texto_5:
 	.string "HAH! Marvelous! I didn't expect less\n"
@@ -422,6 +422,7 @@ settrainerflag TRAINER_ABIGAIL_3
 settrainerflag TRAINER_ABIGAIL_2
 settrainerflag TRAINER_JASMINE
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_BRENDAN
+setflag FLAG_BADGE08_GET
 setflag FLAG_HIDE_SS_TIDAL_CORRIDOR_SCOTT
 fadescreen 1
 delay 20
@@ -433,8 +434,8 @@ release
 end
 
 RocketHideoutViridian_Combate_Atlas_Texto_1:
-	.string "????: I was waiting for you, ADMIN\n"
-	.string "{PLAYER}.$"
+	.string "????: I was waiting for you,\n"
+	.string "EXECUTIVE {PLAYER}.$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_2:
 	.string "ARCHER: Come in, don't stay there, be\n"

@@ -419,7 +419,7 @@ RusturfTunnel_Movement_PeekoExit:
 	step_end
 
 RusturfTunnel_EventScript_Mike::
-	trainerbattle_single TRAINER_MIKE_2, RusturfTunnel_Text_MikeIntro, RusturfTunnel_Text_MikeDefeat
+	trainerbattle_single TRAINER_TRAINER_534, RusturfTunnel_Text_MikeIntro, RusturfTunnel_Text_MikeDefeat
 	msgbox RusturfTunnel_Text_MikePostBattle, MSGBOX_AUTOCLOSE
 	end
 
@@ -516,17 +516,18 @@ RusturfTunnel_Text_BoyfriendOnOtherSideOfRock:
 	.string "for the benefit of everyone.$"
 
 RusturfTunnel_Text_MikeIntro:
-	.string "What do you call a wild man up in the\n"
-	.string "mountains? A mountain man, right?\p"
-	.string "So why don't they call a POKéMON in\n"
-	.string "the mountains a mountain POKéMON?$"
+	.string "¿Cómo se llama a los hombres que pasan\n"
+	.string "todo el tiempo en las montañas?\l"
+	.string "Montañeros, ¿verdad? Entonces ¿por\l"
+	.string "qué no llaman a los POKéMON que viven en\l"
+	.string "las montañas POKéMONtañeros?$"
 
 RusturfTunnel_Text_MikeDefeat:
-	.string "My POKéMON…\n"
-	.string "Ran out of power…$"
+	.string "Mis POKéMON... se han quedado sin\n"
+	.string "fuerzas...$"
 
 RusturfTunnel_Text_MikePostBattle:
-	.string "They halted development here to\n"
-	.string "protect POKéMON, right?\l"
-	.string "There's a feel-good story!$"
+	.string "Aquí decidieron detener el avance del\n"
+	.string "progreso para proteger a los POKéMON.\l"
+	.string "¡Ésta sí que es una historia bonita!$"
 

@@ -39,7 +39,8 @@ waitmovement 0x0
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4 MSGBOX_AUTOCLOSE
-delay 20
+playse 414
+delay 40
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_5 MSGBOX_AUTOCLOSE
 applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_2
 waitmovement 0x0
@@ -49,6 +50,11 @@ applymovement OBJ_EVENT_ID_PLAYER, BlakthornCity_DragonsdenS4_Combate_MaestroDra
 waitmovement 0x0
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_8 MSGBOX_AUTOCLOSE
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.2 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_DREEPY, 25, ITEM_NONE
@@ -130,6 +136,7 @@ applymovement 1, BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1.1
 waitmovement 0x0
 msgbox BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_28 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_DESERT_UNDERPASS_FOSSIL
+setflag FLAG_SYS_CAVE_SHIP
 fadescreen 1
 delay 20
 removeobject 1
@@ -206,6 +213,14 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_8:
 	.string "admirable.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9:
+	.string "Me honra entregar nuestra insignia al\n"
+	.string "paladín de la nueva generación.$"
+
+BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA DRAGÓN.$"
+
+BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.2:
 .string "Ten este POKÉMON, es uno de\n"
 	.string "nuestros dragones mejor guardados.$"
 

@@ -48,6 +48,7 @@
 
 extern const u8 EventScript_ResetAllMapFlags[];
 
+
 static void ClearFrontierRecord(void);
 static void WarpToTruck(void);
 static void ResetMiniGamesRecords(void);
@@ -152,6 +153,7 @@ void NewGameInitData(void)
         RtcReset();
 
     gDifferentSaveFile = TRUE;
+	gSaveBlock2Ptr->playerGender = MALE;
     gSaveBlock2Ptr->encryptionKey = 0;
     ZeroPlayerPartyMons();
     ZeroEnemyPartyMons();
@@ -213,3 +215,4 @@ static void ResetMiniGamesRecords(void)
     ResetPokemonJumpRecords();
     CpuFill16(0, &gSaveBlock2Ptr->berryPick, sizeof(struct BerryPickingResults));
 }
+

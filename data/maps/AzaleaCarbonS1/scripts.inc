@@ -1,10 +1,19 @@
 AzaleaCarbonS1_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, AzaleaCarbonS1_OnFrame
+map_script MAP_SCRIPT_ON_RESUME, AzaleaCarbonS1_OnResume
 	.byte 0
 
 AzaleaCarbonS1_OnFrame:
 map_script_2 VAR_TEMP_0, 0, AzaleaCarbonS1_Seteo_Metatiles
 	.2byte 0
+
+AzaleaCarbonS1_OnResume:
+	call AzaleaCarbonS1_SetupEscapeWarp
+	end
+
+AzaleaCarbonS1_SetupEscapeWarp::
+	setescapewarp MAP_AZALEA_TOWN, 29, 15
+	return
 
 AzaleaCarbonS1_2::
 lock     

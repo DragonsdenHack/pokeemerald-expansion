@@ -271,8 +271,14 @@ waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Policía_Texto_1.1 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Policia_Move_2.5
+waitmovement 0x0
 release
 end
+
+NeoLavandaPueblo_Policia_Move_2.5:
+walk_slow_left
+step_end
 
 NeoLavandaPueblo_Policia_2::
 applymovement 6, NeoLavandaPueblo_Policia_Move_1

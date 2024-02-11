@@ -67,16 +67,22 @@ msgbox MahoganyTown_Gym_Combate_Fredo_Texto_2 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_4 MSGBOX_AUTOCLOSE
-delay 20
+playse 414
+delay 40
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_FREDO, MahoganyTown_Gym_Combate_Fredo_Texto_7
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_8 MSGBOX_AUTOCLOSE
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox MahoganyTown_Gym_Combate_Fredo_Texto_9.2 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_10 MSGBOX_DEFAULT
-givemon SPECIES_BERGMITE, 25, ITEM_NONE
+givemon SPECIES_FRIGIBAX, 25, ITEM_NONE
 waitfanfare
 msgbox MahoganyTown_Gym_Combate_Fredo_Texto_11 MSGBOX_AUTOCLOSE
 delay 15
@@ -86,6 +92,7 @@ additem ITEM_TM84
 msgbox MahoganyTown_Gym_Combate_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox MahoganyTown_Gym_Combate_Texto_11.3 MSGBOX_NPC
+setflag FLAG_BADGE15_GET
 setflag FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN
 setvar VAR_UNUSED_0x40F7, 165
 release
@@ -156,29 +163,36 @@ MahoganyTown_Gym_Combate_Fredo_Texto_7:
 MahoganyTown_Gym_Combate_Fredo_Texto_8:
 .string "Nadie ha estado cerca de poner\n"
 	.string "este equipo en problemas, mucho\l"
-	.string "menos a mis singulares LAPRAS y\l"
-	.string "ARTICUNO. Creí que en KANTO solo\l"
+	.string "menos a mis singulares MAMOSWINE\l"
+	.string "y ARTICUNO. Creí que en KANTO solo\l"
 	.string "había ENTRENADORES decentes, pero\l"
 	.string "ninguno extraordinario. Me has\l"
 	.string "demostrado que el mundo es mucho\l"
 	.string "más amplio de lo que pensaba.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9:
+	.string "Hace años que tengo esto criando polvo,\n"
+	.string "creí que nunca más volvería a dar una.$"
+
+MahoganyTown_Gym_Combate_Fredo_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA GLACIAR.$"
+
+MahoganyTown_Gym_Combate_Fredo_Texto_9.2:
 .string "Ten este POKÉMON, no podrás\n"
 	.string "encontrarlo en ningún lugar de\l"
 	.string "KANTO o JOHTO, y puede serte de\l"
 	.string "utilidad.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_10:
-.string "¡¡OBTUVISTE UN BERGMITE AL Nv.25!!$"
+.string "¡¡OBTUVISTE UN FRIGIBAX AL Nv.25!!$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_11:
-.string "Este pequeño puede crecer hasta\n"
-	.string "desarrollar una mejor DEFENSA\l"
-	.string "FÍSICA que CLOYSTER, al tiempo que\l"
-	.string "también le supera en la ESPECIAL.\l"
-	.string "Con mucho mejores PS y ATAQUE,\l"
-	.string "AVALUGG es un auténtico tanque.$"
+	.string "Hace décadas que guardo el secreto de\n"
+	.string "este POKÉMON, el único\l"
+	.string "PSEUDOLEGENDARIO del TIPO HIELO que\l"
+	.string "verás. Si lo entrenas bien, muy pocos\l"
+	.string "podrán igualar su poder físico.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_12:
 .string "La primavera llega cuando se\n"

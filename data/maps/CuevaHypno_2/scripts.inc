@@ -23,6 +23,12 @@ step_end
 CuevaHypno_2_Bloqueo_Gym_Texto_1:
 	.string "(The door is locked)$"
 
+CuevaTesoro4_Prueba::
+lock
+clearflag FLAG_HIDE_REGIROCK
+release
+end
+
 
 CuevaTesoro4_Combate_Blacephalon::
 	lock
@@ -41,7 +47,7 @@ CuevaTesoro4_Combate_Blacephalon::
 	goto_if_eq VAR_RESULT, B_OUTCOME_RAN, CuevaTesoro4_Combate_Guzzlord_2
 	goto_if_eq VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED, CuevaTesoro4_Combate_Guzzlord_2
 	setflag FLAG_DEFEATED_REGIROCK
-	setflag FLAG_HIDE_REGIROCK
+	setflag FLAG_HIDE_REGICE
 	fadescreen 1
 	removeobject 1
 	delay 20

@@ -122,6 +122,7 @@ static void Task_Sete(u8);
 static void Task_Sabrina(u8);
 static void Task_Blaine(u8);
 static void Task_Petrel(u8);
+static void Task_Eusine(u8);
 static void Task_Frank(u8);
 static void Task_Frank2(u8);
 static void Task_Proton(u8);
@@ -142,8 +143,10 @@ static void Task_Fredo(u8);
 static void Task_Salazar(u8);
 static void Task_Zeus(u8);
 static void Task_Giovanni(u8);
+static void Task_Oak(u8);
 static void Task_Rojo(u8);
 static void Task_Jones(u8);
+static void Task_Diosjones(u8);
 static void Task_Presidente(u8);
 static void Task_Magno(u8);
 static void Task_Capitan(u8);
@@ -418,6 +421,7 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_SABRINA] = Task_Sabrina,
     [B_TRANSITION_BLAINE] = Task_Blaine,
     [B_TRANSITION_PETREL] = Task_Petrel,
+    [B_TRANSITION_EUSINE] = Task_Eusine,
     [B_TRANSITION_FRANK] = Task_Frank,
     [B_TRANSITION_FRANK2] = Task_Frank2,
     [B_TRANSITION_PROTON] = Task_Proton,
@@ -438,8 +442,10 @@ static const TaskFunc sTasks_Main[B_TRANSITION_COUNT] =
     [B_TRANSITION_SALAZAR] = Task_Salazar,
     [B_TRANSITION_ZEUS] = Task_Zeus,
     [B_TRANSITION_GIOVANNI] = Task_Giovanni,
+    [B_TRANSITION_OAK] = Task_Oak,
     [B_TRANSITION_ROJO] = Task_Rojo,
     [B_TRANSITION_JONES] = Task_Jones,
+    [B_TRANSITION_DIOSJONES] = Task_Diosjones,
     [B_TRANSITION_PRESIDENTE] = Task_Presidente,
     [B_TRANSITION_MAGNO] = Task_Magno,
     [B_TRANSITION_AQUILES] = Task_Aquiles,
@@ -648,6 +654,7 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_SABRINA] = TRAINER_PIC_LEADER_SABRINA,
     [MUGSHOT_BLAINE] = TRAINER_PIC_LEADER_BLAINE,
     [MUGSHOT_PETREL] = TRAINER_PIC_PETREL,
+    [MUGSHOT_EUSINE] = TRAINER_PIC_EUSINE,
     [MUGSHOT_FRANK] = TRAINER_PIC_FRANK_ADMIN,
     [MUGSHOT_FRANK2] = TRAINER_PIC_FRANK_EJECUTIVO,
     [MUGSHOT_PROTON] = TRAINER_PIC_PROTON,
@@ -657,7 +664,7 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_AGATHA] = TRAINER_PIC_ELITE_FOUR_AGATHA,
     [MUGSHOT_LANCE] = TRAINER_PIC_ELITE_FOUR_LANCE,
     [MUGSHOT_MIRTO] = TRAINER_PIC_MIRTO,
-    [MUGSHOT_MIGUEL] = TRAINER_PIC_MIRTO,
+    [MUGSHOT_MIGUEL] = TRAINER_PIC_MIGUEL,
     [MUGSHOT_PEGASO] = TRAINER_PIC_LEADER_PEGASO,
     [MUGSHOT_CESAR] = TRAINER_PIC_LEADER_CESAR,
     [MUGSHOT_VALERIA] = TRAINER_PIC_VALERIA,
@@ -668,13 +675,15 @@ static const u8 sMugshotsTrainerPicIDsTable[MUGSHOTS_COUNT] =
     [MUGSHOT_SALAZAR] = TRAINER_PIC_MAESTRO_ANCIANO,
     [MUGSHOT_ZEUS] = TRAINER_PIC_ZEUS,
     [MUGSHOT_GIOVANNI] = TRAINER_PIC_LEADER_GIOVANNI,
+    [MUGSHOT_OAK] = TRAINER_PIC_PROFESSOR_OAK,
     [MUGSHOT_ROJO] = TRAINER_PIC_RED,
-    [MUGSHOT_JONES] = TRAINER_PIC_CULTIST_LEADER_JONES,
+    [MUGSHOT_JONES] = TRAINER_PIC_VIEJO_JONES,
+    [MUGSHOT_DIOSJONES] = TRAINER_PIC_DIOS_JONES,
     [MUGSHOT_CAPITAN] = TRAINER_PIC_CAPTAIN_EDWARD,
-    [MUGSHOT_PRESIDENTE] = TRAINER_PIC_EXPERT_M,
+    [MUGSHOT_PRESIDENTE] = TRAINER_PIC_PRESIDENTE,
     [MUGSHOT_MAGNO] = TRAINER_PIC_MAGMA_LEADER_MAXIE,
     [MUGSHOT_AQUILES] = TRAINER_PIC_AQUA_LEADER_ARCHIE,
-    [MUGSHOT_MAESTRODUN] = TRAINER_PIC_MAESTRO_BELLSPROUT,
+    [MUGSHOT_MAESTRODUN] = TRAINER_PIC_MAESTRO_PAGODA,
     [MUGSHOT_FUJI] = TRAINER_PIC_MR_FUJI,
     [MUGSHOT_ANDRA2] = TRAINER_PIC_ROCKET_GRUNT_ANDRA2,
     [MUGSHOT_ANDRA3] = TRAINER_PIC_ANDRA_ALTO_RANGO,
@@ -690,7 +699,7 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_GLACIA] =   {0x1B0, 0x1B0},
     [MUGSHOT_DRAKE] =    {0x200, 0x200},
     [MUGSHOT_CHAMPION] = {0x188, 0x188},
-    [MUGSHOT_CONSUL] = {0x188, 0x188},
+    [MUGSHOT_CONSUL] = {0x200, 0x200},
     [MUGSHOT_SURGE] = {0x200, 0x200},
     [MUGSHOT_BROCK] = {0x200, 0x200},
     [MUGSHOT_MISTY] = {0x200, 0x200},
@@ -701,6 +710,7 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SABRINA] = {0x200, 0x200},
     [MUGSHOT_BLAINE] = {0x200, 0x200},
     [MUGSHOT_PETREL] = {0x200, 0x200},
+    [MUGSHOT_EUSINE] = {0x200, 0x200},
     [MUGSHOT_FRANK] = {0x200, 0x200},
     [MUGSHOT_FRANK2] = {0x200, 0x200},
     [MUGSHOT_PROTON] = {0x200, 0x200},
@@ -721,8 +731,10 @@ static const s16 sMugshotsOpponentRotationScales[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SALAZAR] = {0x200, 0x200},
     [MUGSHOT_ZEUS] = {0x200, 0x200},
     [MUGSHOT_GIOVANNI] = {0x200, 0x200},
+    [MUGSHOT_OAK] = {0x200, 0x200},
     [MUGSHOT_ROJO] = {0x200, 0x200},
     [MUGSHOT_JONES] = {0x200, 0x200},
+    [MUGSHOT_DIOSJONES] = {0x200, 0x200},
     [MUGSHOT_PRESIDENTE] = {0x200, 0x200},
     [MUGSHOT_MAGNO] = {0x200, 0x200},
     [MUGSHOT_AQUILES] = {0x200, 0x200},
@@ -743,8 +755,8 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_GLACIA] =   {-4,  4},
     [MUGSHOT_DRAKE] =    { 0,  5},
     [MUGSHOT_CHAMPION] = {-8,  7},
-    [MUGSHOT_CONSUL] = {-8,  7},
-    [MUGSHOT_SURGE] =   { 0,  5},
+    [MUGSHOT_CONSUL] = {0,  7},
+    [MUGSHOT_SURGE] =   { -8,  5},
     [MUGSHOT_BROCK] =    { 0,  5},
     [MUGSHOT_MISTY] =    { 0,  5},
     [MUGSHOT_ERIKA] =    { 0,  5},
@@ -754,6 +766,7 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SABRINA] =    { -8,  5},
     [MUGSHOT_BLAINE] =    { -8,  0},
     [MUGSHOT_PETREL] =    { -8,  0},
+    [MUGSHOT_EUSINE] =    { -8,  0},
     [MUGSHOT_FRANK] =    { -8,  0},
     [MUGSHOT_FRANK2] =    { -8,  0},
     [MUGSHOT_PROTON] =    { -8,  0},
@@ -774,12 +787,14 @@ static const s16 sMugshotsOpponentCoords[MUGSHOTS_COUNT][2] =
     [MUGSHOT_SALAZAR] =    { -8,  0},
     [MUGSHOT_ZEUS] =    { -8,  0},
     [MUGSHOT_GIOVANNI] =    { -8,  0},
+    [MUGSHOT_OAK] =    { -8,  0},
     [MUGSHOT_ROJO] =    { -8,  0},
     [MUGSHOT_JONES] =    { -8,  0},
+    [MUGSHOT_DIOSJONES] =    { -8,  0},
     [MUGSHOT_PRESIDENTE] =    { -8,  0},
     [MUGSHOT_MAGNO] =    { -8,  0},
     [MUGSHOT_AQUILES] =    { -8,  0},
-    [MUGSHOT_MAESTRODUN] =    { -8,  0},
+    [MUGSHOT_MAESTRODUN] =    { -30,  0},
     [MUGSHOT_FUJI] =    { -8,  0},
     [MUGSHOT_ANDRA2] =    { -8,  0},
     [MUGSHOT_ANDRA3] =    { -8,  0},
@@ -1136,6 +1151,7 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_SABRINA] = sMugshotPal_Glacia,
     [MUGSHOT_BLAINE] = sMugshotPal_Drake,
     [MUGSHOT_PETREL] = sMugshotPal_Phoebe,
+    [MUGSHOT_EUSINE] = sMugshotPal_Sidney,
     [MUGSHOT_FRANK] = sMugshotPal_Drake,
     [MUGSHOT_FRANK2] = sMugshotPal_Drake,
     [MUGSHOT_PROTON] = sMugshotPal_Drake,
@@ -1156,8 +1172,10 @@ static const u16 *const sOpponentMugshotsPals[MUGSHOTS_COUNT] =
     [MUGSHOT_SALAZAR] = sMugshotPal_Drake,
     [MUGSHOT_ZEUS] = sMugshotPal_Drake,
     [MUGSHOT_GIOVANNI] = sMugshotPal_Champion,
+    [MUGSHOT_OAK] = sMugshotPal_Champion,
     [MUGSHOT_ROJO] = sMugshotPal_Champion,
     [MUGSHOT_JONES] = sMugshotPal_Sidney,
+    [MUGSHOT_DIOSJONES] = sMugshotPal_Sidney,
     [MUGSHOT_PRESIDENTE] = sMugshotPal_Champion,
     [MUGSHOT_MAGNO] = sMugshotPal_Sidney,
     [MUGSHOT_AQUILES] = sMugshotPal_Drake,
@@ -2623,6 +2641,12 @@ static void Task_Petrel(u8 taskId)
     DoMugshotTransition(taskId);
 }
 
+static void Task_Eusine(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_EUSINE;
+    DoMugshotTransition(taskId);
+}
+
 static void Task_Frank(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_FRANK;
@@ -2743,6 +2767,12 @@ static void Task_Giovanni(u8 taskId)
     DoMugshotTransition(taskId);
 }
 
+static void Task_Oak(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_OAK;
+    DoMugshotTransition(taskId);
+}
+
 static void Task_Rojo(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_ROJO;
@@ -2752,6 +2782,12 @@ static void Task_Rojo(u8 taskId)
 static void Task_Jones(u8 taskId)
 {
     gTasks[taskId].tMugshotId = MUGSHOT_JONES;
+    DoMugshotTransition(taskId);
+}
+
+static void Task_Diosjones(u8 taskId)
+{
+    gTasks[taskId].tMugshotId = MUGSHOT_DIOSJONES;
     DoMugshotTransition(taskId);
 }
 

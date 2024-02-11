@@ -1,5 +1,14 @@
 Cueva_Gimnasio_Trigal_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Cueva_Gimnasio_Trigal_OnResume
 	.byte 0
+
+Cueva_Gimnasio_Trigal_OnResume:
+	call Cueva_Gimnasio_Trigal_SetupEscapeWarp
+	end
+
+Cueva_Gimnasio_Trigal_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE53, 23, 1
+	return
 
 
 Cueva_Gimnasio_Trigal_Combate::
@@ -16,6 +25,7 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_2 MSGBOX_AUTOCLOSE
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_4 MSGBOX_AUTOCLOSE
+playse 414
 delay 40
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_5 MSGBOX_AUTOCLOSE
 delay 20
@@ -23,6 +33,11 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_6 MSGBOX_AUTOCLOSE
 trainerbattle_no_intro TRAINER_VALERIA, Cueva_Gimnasio_Trigal_Combate_Texto_7
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_8 MSGBOX_AUTOCLOSE
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9 MSGBOX_AUTOCLOSE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9.1 MSGBOX_DEFAULT
+waitfanfare
+msgbox Cueva_Gimnasio_Trigal_Combate_Texto_9.2 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_10 MSGBOX_DEFAULT
 givemon SPECIES_VULLABY, 25, ITEM_NONE
@@ -31,10 +46,11 @@ msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11 MSGBOX_AUTOCLOSE
 delay 10
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.1 MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM59
+additem 641
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.2 MSGBOX_DEFAULT
 waitfanfare
 msgbox Cueva_Gimnasio_Trigal_Combate_Texto_11.3 MSGBOX_NPC
+setflag FLAG_BADGE11_GET
 setflag FLAG_HIDE_RUSTBORO_CITY_SCIENTIST
 setvar VAR_UNUSED_0x40F7, 137
 release
@@ -125,10 +141,16 @@ Cueva_Gimnasio_Trigal_Combate_Texto_9:
 	.string "parecía muy celosa por mi POKÉMON.\l"
 	.string "DÉBORA creo que se llamaba.\l"
 	.string "He aprendido mucho con\l"
-	.string "este combate. Quiero darte las\l"
-	.string "gracias, no recuerdo la última vez\l"
-	.string "que tuve en frente a un rival como\l"
-	.string "tú.\l"
+	.string "este combate.$"
+
+Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
+	.string "Toma, aquí tienes la\n"
+	.string "MEDALLA PLANICIE.$"
+	
+Cueva_Gimnasio_Trigal_Combate_Texto_9.2:
+	.string "Quiero darte las gracias, no recuerdo\n"
+	.string "la última vez que tuve enfrente a\l"
+	.string "un rival como tú.\l"
 	.string "Este POKÉMON es para ti.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_10:

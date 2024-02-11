@@ -208,7 +208,7 @@ LakeofRageHouse1_Evento_Devon_Texto_1:
 
 LakeofRageHouse1_Evento_Devon_Texto_2:
 .string "????: ¿De verdad son solo leyendas?\n"
-	.string "Verá, yo y mi equipo de CIENTÍFICOS\l"
+	.string "Verá, mi equipo de CIENTÍFICOS y yo\l"
 	.string "hemos venido de muy lejos para conocer\l"
 	.string "toda la verdad.$"
 

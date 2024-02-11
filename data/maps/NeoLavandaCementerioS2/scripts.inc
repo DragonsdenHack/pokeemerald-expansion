@@ -545,6 +545,7 @@ delay 15
 msgbox NeoLavandaCementerioS2_Evento_Ghost_Texto_12 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER
 clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
+setflag FLAG_UNUSED_0x273
 fadescreen 1
 delay 20
 removeobject 22

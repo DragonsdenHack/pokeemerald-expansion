@@ -145,7 +145,7 @@ void PrintMoneyAmount(u8 windowId, u8 x, u8 y, int amount, u8 speed)
     strLength = 8 - StringLength(gStringVar1);
     txtPtr = gStringVar4;
 
-    while (strLength-- > 0)
+    while (strLength-- > 2)
         *(txtPtr++) = 0x77;
 
     StringExpandPlaceholders(txtPtr, gText_PokedollarVar1);

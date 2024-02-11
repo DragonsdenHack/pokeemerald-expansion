@@ -1,5 +1,14 @@
 NeoCinnabarVolcan_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, NeoCinnabarVolcan_OnResume
 	.byte 0
+
+NeoCinnabarVolcan_OnResume:
+	call NeoCinnabarVolcan_SetupEscapeWarp
+	end
+
+NeoCinnabarVolcan_SetupEscapeWarp::
+	setescapewarp MAP_NEO_CINNABAR_ISLAND, 28, 12
+	return
 
 
 

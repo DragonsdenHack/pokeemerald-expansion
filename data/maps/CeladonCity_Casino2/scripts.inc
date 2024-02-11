@@ -49,4 +49,4 @@ end
 
 CeladonCity_Casino2_Text_4:
 	.string "Selling TOKENS to ROCKETS is forbidden,\n"
-	.string "CASINO rules.$"
+	.string "GAME CORNER rules.$"

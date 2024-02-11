@@ -120,7 +120,6 @@ CeruleanCity_House2_Batalla_Montañero_Text_6:
 	.string "This HIKER had 20 TMs DIG!\l"
 	.string "And he wanted it all for himself!\l"
 	.string "¡Y las quería todas para él!\l"
-	.string "Gracias a tí hemos podido\l"
     .string "Due to you we were able to get them. Be\l"
 	.string "sure that I will talk to PETREL about\l"
 	.string "this. Take this, you deserve it.$"

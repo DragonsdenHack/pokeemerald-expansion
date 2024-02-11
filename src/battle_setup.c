@@ -341,6 +341,11 @@ static const u16 sBadgeFlags[NUM_BADGES] =
 {
     FLAG_BADGE01_GET, FLAG_BADGE02_GET, FLAG_BADGE03_GET, FLAG_BADGE04_GET,
     FLAG_BADGE05_GET, FLAG_BADGE06_GET, FLAG_BADGE07_GET, FLAG_BADGE08_GET,
+	FLAG_BADGE09_GET, FLAG_BADGE10_GET, FLAG_BADGE11_GET, FLAG_BADGE12_GET,
+	FLAG_BADGE13_GET, FLAG_BADGE14_GET, FLAG_BADGE15_GET, FLAG_SYS_CAVE_SHIP,
+	FLAG_SYS_CAVE_WONDER, FLAG_SYS_CAVE_BATTLE, FLAG_UNUSED_8, FLAG_UNUSED_9,
+	FLAG_UNUSED_0x8E3, FLAG_UNUSED_0x068, FLAG_UNUSED_0x2D9, FLAG_UNUSED_0x1E3,
+	FLAG_UNUSED_0x4F9, FLAG_UNUSED_0x4FA, FLAG_UNUSED_0x1AA, FLAG_UNUSED_0x1AB,
 };
 
 #define tState data[0]
@@ -537,6 +542,7 @@ void BattleSetup_StartLegendaryBattle(void)
     {
     default:
     case SPECIES_GROUDON:
+    case TRAINER_MAGNO:
         gBattleTypeFlags |= BATTLE_TYPE_GROUDON;
         CreateBattleStartTask(B_TRANSITION_GROUDON, MUS_VS_KYOGRE_GROUDON);
         break;
@@ -669,22 +675,30 @@ u8 BattleSetup_GetTerrainId(void)
     {
     case MAP_TYPE_TOWN:
     case MAP_TYPE_CITY:
+    if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
+        return BATTLE_TERRAIN_WATER;
+        return BATTLE_TERRAIN_GRASS;
 	   break;
     case MAP_TYPE_ROUTE:
-		return BATTLE_TERRAIN_GRASS;
+    if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
+        return BATTLE_TERRAIN_WATER;
+		return BATTLE_TERRAIN_SAND;
      
     case MAP_TYPE_UNDERGROUND:
         if (MetatileBehavior_IsIndoorEncounter(tileBehavior))
-            return BATTLE_TERRAIN_BUILDING;
+            return BATTLE_TERRAIN_CAVE;
         if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
             return BATTLE_TERRAIN_POND;
         return BATTLE_TERRAIN_CAVE;
     case MAP_TYPE_INDOOR:
-		 if(gMapHeader.mapLayoutId == LAYOUT_RESORT_GEORGEOUS_HOUSE1)
-			return BATTLE_TERRAIN_CAVE;
+        if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
+        return BATTLE_TERRAIN_WATER;
+		return BATTLE_TERRAIN_CAVE;
     case MAP_TYPE_SECRET_BASE:
         return BATTLE_TERRAIN_BUILDING;
     case MAP_TYPE_UNDERWATER:
+        return BATTLE_TERRAIN_UNDERWATER;
+    case MAP_TYPE_UNKNOWN:
         return BATTLE_TERRAIN_UNDERWATER;
     case MAP_TYPE_OCEAN_ROUTE:
         if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
@@ -694,7 +708,7 @@ u8 BattleSetup_GetTerrainId(void)
     if (MetatileBehavior_IsDeepOrOceanWater(tileBehavior))
         return BATTLE_TERRAIN_WATER;
     if (MetatileBehavior_IsSurfableWaterOrUnderwater(tileBehavior))
-        return BATTLE_TERRAIN_POND;
+        return BATTLE_TERRAIN_WATER;
     if (MetatileBehavior_IsMountain(tileBehavior))
         return BATTLE_TERRAIN_MOUNTAIN;
     if (TestPlayerAvatarFlags(PLAYER_AVATAR_FLAG_SURFING))
@@ -864,7 +878,7 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_REGISTEEL;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_136)
-        return B_TRANSITION_REGICE;
+        return B_TRANSITION_BIG_POKEBALL;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_137)
         return B_TRANSITION_RAYQUAZA;
@@ -874,6 +888,9 @@ u8 GetTrainerBattleTransition(void)
 
     if (gTrainerBattleOpponent_A == TRAINER_MIRTO)
         return B_TRANSITION_MIRTO;
+
+        if (gTrainerBattleOpponent_A == TRAINER_CMIGUEL_4)
+        return B_TRANSITION_MIGUEL;
 
     if (gTrainerBattleOpponent_A == TRAINER_LANCE_2)
         return B_TRANSITION_LANCE;
@@ -891,7 +908,7 @@ u8 GetTrainerBattleTransition(void)
         return B_TRANSITION_JONES;
 
     if (gTrainerBattleOpponent_A == TRAINER_CULTO_3)
-        return B_TRANSITION_JONES;
+        return B_TRANSITION_DIOSJONES;
 
     if (gTrainerBattleOpponent_A == TRAINER_PRESIDENTE_SILPH)
         return B_TRANSITION_PRESIDENTE;
@@ -946,6 +963,15 @@ u8 GetTrainerBattleTransition(void)
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_152)
         return B_TRANSITION_FRANK2;
+
+    if (gTrainerBattleOpponent_A == TRAINER_TRAINER_76)
+        return B_TRANSITION_EUSINE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_EUSINE)
+        return B_TRANSITION_EUSINE;
+
+    if (gTrainerBattleOpponent_A == TRAINER_OAK_1)
+            return B_TRANSITION_OAK;
 
     if (gTrainerBattleOpponent_A == TRAINER_TRAINER_26)
         return B_TRANSITION_FRONTIER_CIRCLES_SYMMETRIC_SPIRAL_IN_SEQ;

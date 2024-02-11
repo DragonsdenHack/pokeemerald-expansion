@@ -1,5 +1,14 @@
 NewMap4_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, NewMap4_OnResume
 	.byte 0
+
+NewMap4_OnResume:
+	call NewMap4_SetupEscapeWarp
+	end
+
+NewMap4_SetupEscapeWarp::
+	setescapewarp MAP_ROUTE23, 5, 29
+	return
 
 VictoryRoad1F_1::
 end

@@ -399,6 +399,15 @@
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "1",
       "script": "RocketHideoutFiveIslanMeadowIzquierda2"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 2,
+      "elevation": 0,
+      "var": "VAR_UNUSED_0x40F7",
+      "var_value": "2",
+      "script": "FileIsleMeadow_Curacion"
     }
   ],
   "bg_events": [
@@ -412,8 +421,8 @@
     },
     {
       "type": "sign",
-      "x": 18,
-      "y": 7,
+      "x": 21,
+      "y": 6,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "LittlerootTown_BrendansHouse_2F_EventScript_PC"

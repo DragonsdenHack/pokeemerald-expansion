@@ -487,7 +487,9 @@ BaseRocketHoennS3Documento_Text_115:
 	.string "DEFENSA ESPECIAL: 100\l"
 	.string "VELOCIDAD: 130\l"
 	.string "TOTAL: 780\p"
-	.string "Logró superar el tope en ATAQUE de\n"
+	.string "TIPO: PSÍQUICO/LUCHA\n"
+	.string "HABILIDAD: POTENCIA BRUTA\l"
+	.string "Logró superar el tope en ATAQUE de\l"
 	.string "DEOXYS (180), gracias al estudio de las\l"
 	.string "fibras musculares de HERACROSS-M,\l"
 	.string "dejando el límite en 190 puntos. Su\l"
@@ -518,7 +520,9 @@ BaseRocketHoennS3Documento_Text_116:
 	.string "DEFENSA ESPECIAL: 120\l"
 	.string "VELOCIDAD: 140\l"
 	.string "TOTAL: 780\p"
-	.string "Logró superar el tope en AT.ESPECIAL de\n"
+	.string "TIPO: PSÍQUICO\n"
+	.string "HABILIDAD: PSICOGÉNESIS\l"
+	.string "Logró superar el tope en AT.ESPECIAL de\l"
 	.string "DEOXYS (180); gracias al descubrimiento\l"
 	.string "del VOLCARONA-&, que amplificó\l"
 	.string "nuestros conocimientos sobre este\l"
@@ -533,7 +537,9 @@ BaseRocketHoennS3Documento_Text_116:
 
 
 BaseRocketHoennS3Documento_117::
-lock     
+lock   
+compare VAR_PACIFIDLOG_TOWN_STATE, 4
+goto_if_lt RocketHideout7FDocumento_Esperando   
 showmonpic SPECIES_ZAPDOS_PRIMAL, 10, 3  
 playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_117, MSGBOX_DEFAULT
@@ -550,22 +556,25 @@ BaseRocketHoennS3Documento_Text_117:
 	.string "DEFENSA ESPECIAL: 100\l"
 	.string "VELOCIDAD: 130\l"
 	.string "TOTAL: 680\p"
-	.string "ELÉCTRICO/SINIESTRO\n"
+	.string "TIPO: ELÉCTRICO/SINIESTRO\n"
+	.string "HABILIDAD: ELECTROGÉNESIS\l"
 	.string "Se mantiene como el AVE LEGENDARIA de\l"
 	.string "mayor poder ofensivo, también en sus\l"
 	.string "FORMAS PRIMIGENIAS. Con acceso al\l"
 	.string "FURIA CANDENTE de MOLTRES GALAR,\l"
 	.string "junto con RAYO pegará duro por STAB.\l"
-	.string "Únicamente débil al LUCHA y HADA\l"
-	.string "gracias a LEVITACIÓN, tiene en\l"
-	.string "AEROCHORRO la cobertura perfecta para\l"
-	.string "el primero.$"
+	.string "Gracias a ELECTROGÉNESIS, sus descar-\l"
+	.string "gas eléctricas se convierten en las\l"
+	.string "más poderosas conocidas en el MUNDO\l"
+	.string "POKÉMON.$"
 
 
 
 BaseRocketHoennS3Documento_118::
-lock     
-showmonpic SPECIES_NINETALES, 10, 3  
+lock
+compare VAR_SECRET_BASE_HIGH_TV_FLAGS, 7
+goto_if_lt RocketHideout7FDocumento_Esperando      
+showmonpic SPECIES_NINETALES_BOND, 10, 3  
 playmoncry SPECIES_NINETALES, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_118, MSGBOX_DEFAULT
 hidemonpic
@@ -576,12 +585,13 @@ BaseRocketHoennS3Documento_Text_118:
     .string "NINETALES-&\p"
 	.string "PS: 83\n"
 	.string "ATAQUE: 57\l"
-	.string "DEFENSA: 75\l"
+	.string "DEFENSA: 85\l"
 	.string "ATAQUE ESPECIAL: 121\l"
 	.string "DEFENSA ESPECIAL: 140\l"
 	.string "VELOCIDAD: 129\l"
 	.string "TOTAL: 615\p"
-	.string "FUEGO/FANTASMA\n"
+	.string "TIPO: FUEGO/FANTASMA\n"
+	.string "HABILIDAD: PELAJE RECIO\l"
 	.string "Elevó drásticamente su poder, después\l"
 	.string "de que su ENTRENADOR compartiera la\l"
 	.string "carga de una poderosa maldición. Dicha\l"
@@ -592,7 +602,9 @@ BaseRocketHoennS3Documento_Text_118:
 
 
 BaseRocketHoennS3Documento_119::
-lock     
+lock   
+compare VAR_SECRET_BASE_LOW_TV_FLAGS, 10
+goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_GOODRA_BOND, 10, 3  
 playmoncry SPECIES_GOODRA, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_119, MSGBOX_DEFAULT
@@ -609,7 +621,8 @@ BaseRocketHoennS3Documento_Text_119:
 	.string "DEFENSA ESPECIAL: 210\l"
 	.string "VELOCIDAD: 30\l"
 	.string "TOTAL: 710\p"
-	.string "DRAGÓN/VENENO\n"
+	.string "TIPO: DRAGÓN/VENENO\n"
+	.string "HABILIDAD: RESPONDÓN\l"
 	.string "El grado de viscosidad en su cuerpo le\l"
 	.string "hace absorber la mayor parte de los\l"
 	.string "golpes, de ahí su desproporcionada\l"
@@ -638,18 +651,19 @@ end
 BaseRocketHoennS3Documento_Text_120:
     .string "FERALIGATR-&\p"
 	.string "PS: 95\n"
-	.string "ATAQUE: 155\l"
+	.string "ATAQUE: 165\l"
 	.string "DEFENSA: 130\l"
 	.string "ATAQUE ESPECIAL: 64\l"
-	.string "DEFENSA ESPECIAL: 98\l"
+	.string "DEFENSA ESPECIAL: 88\l"
 	.string "VELOCIDAD: 103\l"
 	.string "TOTAL: 645\p"
-	.string "AGUA/SINIESTRO\n"
+	.string "TIPO: AGUA/SINIESTRO\n"
+	.string "HABILIDAD: MAND.FUERTE\l"
 	.string "Su voracidad no conoce límites, es\l"
 	.string "sabido que el ADMIN.JEFE ATLAS emplea\l"
 	.string "manadas de GYARADOS para mantenerlo\l"
 	.string "en forma. Estos acaban siendo presas\l"
-	.string "de un TRITURAR que con POT.BRUTA +\l"
+	.string "de un TRITURAR que con MAND.F +\l"
 	.string "VIDASFERA excede en capacidad\l"
 	.string "destructiva a los TRITURAR de\l"
 	.string "GYARADOS-MEGA y SHARPEDO-MEGA.$"
@@ -674,7 +688,9 @@ BaseRocketHoennS3Documento_Text_121:
 	.string "DEFENSA ESPECIAL: 167\l"
 	.string "VELOCIDAD: 53\l"
 	.string "TOTAL: 595\p"
-	.string "PLANTA/ROCA\n"
+	.string "TIPO: PLANTA/ROCA\n"
+	.string "HABILIDAD: ROCA SÓLIDA\l"
+	.string "La reducción de 40 puntos en ATAQUE\l"
 	.string "La reducción de 40 puntos en ATAQUE\l"
 	.string "permitió invertir 140 en sus otros 5\l"
 	.string "STATS, desarrolló una monstruosa\l"
@@ -705,7 +721,8 @@ BaseRocketHoennS3Documento_Text_122:
 	.string "DEFENSA ESPECIAL: 155\l"
 	.string "VELOCIDAD: 95\l"
 	.string "TOTAL: 645\p"
-	.string "AGUA/HADA\n"
+	.string "TIPO: AGUA/HADA\n"
+	.string "HABILIDAD: PIEL FEÉRICA\l"
 	.string "Llevamos a tal nivel su exposición a la\l"
 	.string "radiación y ondas de radio, que acabó\l"
 	.string "chocando con su antagónico: la máxima\l"
@@ -731,7 +748,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_123:
-.string "GHOST-P\p"
+.string "GHOST-PRIMIGENIO\p"
 	.string "PS: 90\n"
 	.string "ATAQUE: 80\l"
 	.string "DEFENSA: 80\l"
@@ -739,8 +756,16 @@ BaseRocketHoennS3Documento_Text_123:
 	.string "DEFENSA ESPECIAL: 150\l"
 	.string "VELOCIDAD: 135\l"
 	.string "TOTAL: 740\p"
-	.string "NORMAL/FANTASMA\n"
-	.string "combate jamás creadas.$"
+	.string "TIPO: NORMAL/FANTASMA\n"
+	.string "HABILIDAD: AURA OSCURA\l"
+	.string "El espíritu más antiguo y poderoso de\l"
+	.string "PUEBLO LAVANDA, que entró en ira tras\l"
+	.string "la demolición de su TORRE POKÉMON. Sus\l"
+	.string "poderes mentales son inabordables para\l"
+	.string "cualquier POKÉMON, incluso las formas\l"
+	.string "de MEWTWO. Como consecuencia de ello,\l"
+	.string "posee el ATAQUE ESPECIAL más alto\l"
+	.string "registrado (205).$"
 
 BaseRocketHoennS3Documento_124::
 lock
@@ -762,8 +787,18 @@ BaseRocketHoennS3Documento_Text_124:
 	.string "DEFENSA ESPECIAL: 95\l"
 	.string "VELOCIDAD: 115\l"
 	.string "TOTAL: 602\p"
-	.string "ELÉCTRICO/VENENO\n"
-	.string "combate jamás creadas.$"
+	.string "TIPO: ELÉCTRICO/VENENO\n"
+	.string "HABILIDAD: PUNK ROCK\l"
+	.string "Desarrollado en extrañas\l"
+	.string "circunstancias, fue aportada por el\l"
+	.string "ADMINISTRADOR PETREL recientemente.\l"
+	.string "Su capacidad de pegada con\l"
+	.string "AMPLIFICADOR es impresionante. A pesar\l"
+	.string "de su lejano origen, tanto su\l"
+	.string "combinación de tipos como diseño\l"
+	.string "captan a la perfección la esencia de la\l"
+	.string "vieja KANTO y del TEAM ROCKET de las\l"
+	.string "calles.$"
 
 BaseRocketHoennS3_Primer_Ejecutivo::
 lock
@@ -826,7 +861,7 @@ end
 
 BaseRocketHoennS3_Primer_Cientifico_Texto_1:
 .string "La variedad en los STATS de los\n"
-	.string "antiiguos POKÉMON de JOHTO es\l"
+	.string "antiguos POKÉMON de JOHTO es\l"
 	.string "fascinante. Hoy en día son mucho más\l"
 	.string "regulares y predecibles, quizás por\l"
 	.string "carecer de las salvajes condiciones de\l"
@@ -955,7 +990,8 @@ BaseRocketHoennS3Documento_Wartillery_Texto_1:
 	.string "DEFENSA ESPECIAL: 105\l"
 	.string "VELOCIDAD: 35\l"
 	.string "TOTAL: 540\p"
-	.string "AGUA/ACERO\n"
+	.string "TIPO: AGUA/ACERO\n"
+	.string "HABILIDAD: MEGADISPARADOR\l"
     .string "Estudiando las profundidades del LAGO\l"
 	.string "FURIA, se han descubierto corazas de\l"
 	.string "acero similares a las de OCTILLERY tras\l"
@@ -989,7 +1025,8 @@ BaseRocketHoennS3Documento_Gorochu_Texto_1:
 	.string "DEFENSA ESPECIAL: 90\l"
 	.string "VELOCIDAD: 105\l"
 	.string "TOTAL: 555\p"
-	.string "ELÉCTRICO\n"
+	.string "TIPO: ELÉCTRICO\n"
+	.string "HABILIDAD: TRANSISTOR\l"
     .string "Descubierto gracias a la PIEDRA DORADA,\l"
 	.string "desconocemos los motivos por los que\l"
 	.string "RAICHU pudo evolucionar a GOROCHU en\l"
@@ -1017,7 +1054,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Qwoltfish_Texto_1:
-    .string "QWOLTFISH\p"
+    .string "SHIBIREFUGU\p"
 	.string "PS: 95\n"
 	.string "ATAQUE: 65\l"
 	.string "DEFENSA: 65\l"
@@ -1025,7 +1062,8 @@ BaseRocketHoennS3Documento_Qwoltfish_Texto_1:
 	.string "DEFENSA ESPECIAL: 85\l"
 	.string "VELOCIDAD: 85\l"
 	.string "TOTAL: 510\p"
-	.string "AGUA/ELÉCTRICO\n"
+	.string "TIPO: AGUA/ELÉCTRICO\n"
+	.string "HABILIDAD: ELECTROGÉNESIS\l"
     .string "Actualmente solo en estado salvaje en\l"
 	.string "las profundidades del LAGO FURIA, se\l"
 	.string "cree que desarrolló el TIPO ELÉCTRICO\l"

@@ -145,10 +145,41 @@ applymovement 3, Route44_Combate_Mirto_Move_3
 waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_5 MSGBOX_AUTOCLOSE
 delay 15
+msgbox Route44_Combate_Mirto_Texto_5.1 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 3, Route44_Combate_Mirto_Move_3.1
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.2 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_3
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.3 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_5
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.4 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.5 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6.1
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.6 MSGBOX_AUTOCLOSE
+delay 10
+applymovement 3, Route44_Combate_Mirto_Move_3.1
+waitmovement 0x0
+delay 10
+msgbox Route44_Combate_Mirto_Texto_5.7 MSGBOX_AUTOCLOSE
+delay 15
+msgbox Route44_Combate_Mirto_Texto_5.8 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6.2
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.9 MSGBOX_AUTOCLOSE
+applymovement 3, Route44_Combate_Mirto_Move_6.3
+waitmovement 0x0
+msgbox Route44_Combate_Mirto_Texto_5.10 MSGBOX_AUTOCLOSE
 msgbox Route44_Combate_Mirto_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 3, Route44_Combate_Mirto_Move_3
 waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_7 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_JAGGED_PASS_MAGMA_GUARD
 trainerbattle_no_intro TRAINER_MIRTO, Route44_Combate_Mirto_Texto_8
 applymovement OBJ_EVENT_ID_PLAYER, Route44_Combate_Mirto_Move_5
 waitmovement 0x0
@@ -156,8 +187,10 @@ msgbox Route44_Combate_Mirto_Texto_9 MSGBOX_AUTOCLOSE
 msgbox Route44_Combate_Mirto_Texto_10 MSGBOX_AUTOCLOSE
 playfanfare MUS_OBTAIN_TMHM
 msgbox Route44_Combate_Mirto_Texto_11 MSGBOX_DEFAULT
-givemon SPECIES_NOIBAT, 25, ITEM_NONE
+givemon SPECIES_NOIBAT, 25, ITEM_NOIVERNITA
 waitfanfare
+msgbox Route44_Combate_Mirto_Texto_11.1 MSGBOX_DEFAULT
+delay 10
 applymovement 3, Route44_Combate_Mirto_Move_3
 waitmovement 0x0
 msgbox Route44_Combate_Mirto_Texto_12 MSGBOX_AUTOCLOSE
@@ -172,6 +205,29 @@ fadescreen 0
 setvar VAR_UNUSED_0x40F7, 166
 release
 end
+
+Route44_Combate_Mirto_Move_6.3:
+delay_8
+walk_right
+delay_8
+step_end
+
+Route44_Combate_Mirto_Move_6.2:
+delay_8
+face_right
+delay_8
+step_end
+
+Route44_Combate_Mirto_Move_6.1:
+delay_8
+walk_in_place_left
+delay_8
+step_end
+
+Route44_Combate_Mirto_Move_3.1:
+face_up
+delay_8
+step_end
 
 Route44_Combate_Mirto_Texto_1:
 .string "????: ¡{PLAYER}!\n"
@@ -197,7 +253,7 @@ Route44_Combate_Mirto_Texto_4:
 	.string "vio crecer.$"
 
 Route44_Combate_Mirto_Texto_5:
-.string "Todos mis intentos por recuperar\n"
+.string "Todos los intentos por recuperar\n"
 	.string "la salud de mi POKÉMON han\l"
 	.string "fracasado, pero este viaje no ha\l"
 	.string "sido en vano, he aprendido mucho\l"
@@ -208,6 +264,57 @@ Route44_Combate_Mirto_Texto_5:
 	.string "sería un pecado no explorar los\l"
 	.string "límites de un POKÉMON tan\l"
 	.string "singular.$"
+
+Route44_Combate_Mirto_Texto_5.1:
+	.string "…$"
+
+Route44_Combate_Mirto_Texto_5.2:
+	.string "El CAMPEÓN de una región es el\n"
+	.string "entrenador más fuerte de esta, sabes lo\l"
+	.string "que quiero decir, ¿no?$"
+
+Route44_Combate_Mirto_Texto_5.3:
+	.string "Representamos también el límite a lo\n"
+	.string "que un ENTRENADOR ha podido llegar, lo\l"
+	.string "más cercano a fuerzas mayores que solo\l"
+	.string "los LEGENDARIOS más antiguos alcanzan.$"
+
+Route44_Combate_Mirto_Texto_5.4:
+	.string "Esto sin embargo lo logramos gracias a\n"
+	.string "nuestro esfuerzo, desarrollo e\l"
+	.string "interacciones que mantenemos con\l"
+	.string "otros POKÉMON, mortales como nosotros,\l"
+	.string "durante toda una vida.$"
+
+Route44_Combate_Mirto_Texto_5.5:
+	.string "No me cabe duda, ese tipo de actos dejan\n"
+	.string "huella. Su potencial es ilimitado,\l"
+	.string "sagrado.$"
+
+Route44_Combate_Mirto_Texto_5.6:
+	.string "En cambio, los dioses del MUNDO\n"
+	.string "POKÉMON… ¿Sabes lo que creo?$"
+
+Route44_Combate_Mirto_Texto_5.7:
+	.string "Nos envidian, {PLAYER}.$"
+
+Route44_Combate_Mirto_Texto_5.8:
+	.string "Jamás sabrán lo que es empezar desde 0\n"
+	.string "e ir subiendo poco a poco, escalar\l"
+	.string "peldaños, pasar dificultades y aprender\l"
+	.string "de las derrotas.$"
+
+Route44_Combate_Mirto_Texto_5.9:
+	.string "Nos envidian porque, a fin de cuentas,\n"
+	.string "somos mortales. Cada combate nuestro\l"
+	.string "podría ser el último. Jamás volveremos a\l"
+	.string "tener esta conversación, ni a estar\l"
+	.string "aquí, {PLAYER}.$"
+
+Route44_Combate_Mirto_Texto_5.10:
+	.string "¿Te das cuenta? Es en lo efímero\n"
+	.string "de nuestra existencia donde reside\l"
+	.string "su valor.$"
 
 Route44_Combate_Mirto_Texto_6:
 .string "Es por ello por lo que he venido\n"
@@ -242,6 +349,11 @@ Route44_Combate_Mirto_Texto_10:
 Route44_Combate_Mirto_Texto_11:
 .string "¡¡OBTUVISTE UN NOIBAT AL Nv.25!!$"
 
+Route44_Combate_Mirto_Texto_11.1:
+	.string "Con este combate, mi cénit como\n"
+	.string "ENTRENADOR ha concluído. Pero tú… tú\l"
+	.string "aún puedes hacer sangrar a los dioses.$"
+
 Route44_Combate_Mirto_Texto_12:
 .string "Hasta la vista, {PLAYER}. Saluda al\n"
 	.string "MAESTRO DRAGÓN de mi parte, seguro\l"
@@ -274,4 +386,8 @@ step_end
 
 Route44_Combate_Mirto_Move_5:
 face_left
+step_end
+
+Route44_Combate_Mirto_Move_6:
+walk_slow_left
 step_end

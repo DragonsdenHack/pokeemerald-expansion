@@ -222,6 +222,7 @@ delay 60
 playse SE_THUNDER2
 delay 40
 setflag FLAG_HIDE_ROUTE_116_MR_BRINEY
+setflag FLAG_HIDE_BATTLE_TOWER_OPPONENT
 removeobject 7
 msgbox NeoPowerPlant_Combate_Zapdos_Texto_3 MSGBOX_AUTOCLOSE
 delay 20
@@ -307,7 +308,7 @@ faceplayer
 goto_if_set FLAG_NUEVA_814, NeoPowerPlant_RayoCarga_Despues
 msgbox NeoPowerPlant_RayoCarga_Texto_1, MSGBOX_NPC
 playfanfare MUS_OBTAIN_TMHM
-additem ITEM_TM97
+additem 652
 msgbox NeoPowerPlant_RayoCarga_Texto_1.1 MSGBOX_DEFAULT
 waitfanfare
 setflag FLAG_NUEVA_814

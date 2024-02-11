@@ -1,5 +1,14 @@
 Silph_1F_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, Silph_1F_OnResume
 	.byte 0
+
+Silph_1F_OnResume:
+	call Silph_1F_SetupEscapeWarp
+	end
+
+Silph_1F_SetupEscapeWarp::
+	setescapewarp MAP_SILPH_1F, 8, 20
+	return
 
 Silph1F_1::
 end

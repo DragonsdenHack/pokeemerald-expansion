@@ -150,14 +150,12 @@ Route36_EventScript_Pareja2::
 	end
 
 Route36_Llamada_Giovanni::
-delay 30
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
 waitse
 playse SE_PIN
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
-waitmovement 0x0
 msgbox Route36_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
 msgbox Route36_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
 playse SE_POKENAV_OFF
@@ -174,7 +172,7 @@ Route36_Llamada_Giovanni_Texto_1:
 	.string "base?\l"
 	.string "Las bestias de JOHTO que\l"
 	.string "enfrentaste únicamente contaban\l"
-	.string "con 2 115 de BASE como mejores\l"
+	.string "con dos 115 de BASE como mejores\l"
 	.string "STATS.$"
 
 Route36_Llamada_Giovanni_Texto_2:

@@ -2487,11 +2487,13 @@ void TryShinyAnimation(u8 battler, struct Pokemon *mon)
     u32 otId, personality;
     u32 shinyValue;
     u8 taskCirc, taskDgnl;
+	u16 species;
 
     isShiny = FALSE;
     gBattleSpritesDataPtr->healthBoxesData[battler].triedShinyMonAnim = TRUE;
     otId = GetMonData(mon, MON_DATA_OT_ID);
     personality = GetMonData(mon, MON_DATA_PERSONALITY);
+	species = GetMonData(mon, MON_DATA_SPECIES);
 
     if (IsBattlerSpriteVisible(battler))
     {
@@ -2499,7 +2501,7 @@ void TryShinyAnimation(u8 battler, struct Pokemon *mon)
         if (shinyValue < SHINY_ODDS)
             isShiny = TRUE;
 
-        if (isShiny)
+        if (isShiny || species == SPECIES_POLIWRATH_BOND ||  species == SPECIES_BUTTERFREE_BOND ||  species == SPECIES_FERALIGATR_BOND ||  species == SPECIES_RAPIDASH_BOND ||  species == SPECIES_KINGDRA_BOND ||  species == SPECIES_SKARMORY_BOND ||  species == SPECIES_EEVEE_BOND ||  species == SPECIES_HYPNO_BOND ||  species == SPECIES_DELPHOX_BOND ||  species == SPECIES_RHYPERIOR_BOND ||  species == SPECIES_LAPRAS_BOND ||  species == SPECIES_EMPOLEON_BOND ||  species == SPECIES_INFERNAPE_BOND ||  species == SPECIES_MESPRIT_BOND ||  species == SPECIES_SERPERIOR_BOND ||  species == SPECIES_HAXORUS_BOND ||  species == SPECIES_WEAVILE_BOND ||  species == SPECIES_AEGISLASH_BOND ||  species == SPECIES_VOLCARONA_BOND ||  species == SPECIES_GOODRA_BOND ||  species == SPECIES_HYDREIGON_BOND ||  species == SPECIES_DRAGONITE_BOND ||  species == SPECIES_RAIKOU_BOND ||  species == SPECIES_ENTEI_BOND ||  species == SPECIES_SUICUNE_BOND ||  species == SPECIES_GRENINJA_BATTLE_BOND ||  species == SPECIES_CROBAT_BOND ||  species == SPECIES_CROBAT2_BOND ||  species == SPECIES_MAMOSWINE_BOND ||  species == SPECIES_NINETALES_BOND)
         {
             if (GetSpriteTileStartByTag(ANIM_TAG_GOLD_STARS) == 0xFFFF)
             {
