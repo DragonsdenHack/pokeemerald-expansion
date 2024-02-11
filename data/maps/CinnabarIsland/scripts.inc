@@ -110,11 +110,11 @@ Cinnabar_Island_Gimnasio_Cerrado_Texto_1:
 	.string "mientras a por las otras MEDALLAS).$"
 
 CinnabarIsland_Escena_8::
+applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_5
 playse SE_POKENAV_CALL
 delay 30
 playse SE_POKENAV_HANG_UP
-applymovement OBJ_EVENT_ID_PLAYER, PalletTown_ProfessorLab_Lab_Move_3
 waitmovement 0x0
 msgbox CinnabarIsland_Escena_8_Texto_1, MSGBOX_AUTOCLOSE
 delay 10
