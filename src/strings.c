@@ -1908,5 +1908,6 @@ const u8 gText_Inta[] = _("FIVE ISLAND");
 const u8 gText_Exta[] = _("SIX ISLAND");
 const u8 gText_Setima[] = _("SEVEN ISLAND");
 const u8 gText_Carmin[] = _("VERMILION CITY");
-const u8 gText_Mas2[] = _("OTHER");	
+const u8 gText_Mas2[] = _("OTHER");
+const u8 gText_SizeSlash[] = _("SIZE /");	
 //#endif
