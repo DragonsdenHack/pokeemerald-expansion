@@ -122,24 +122,24 @@ end
 
 
 Curacion_Centros_Pokemon_Kanto_Texto_1:
-    .string "¡Éste es el CENTRO POKÉMON!\p"
-    .string "Nosotros curamos a los POKÉMON\n"
-    .string "debilitados.\n"
+    .string "Hello, and welcome to\n"
+    .string "the POKéMON CENTER.\p"
+    .string "We restore your tired POKéMON\n"
+    .string "to full health.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_2:
-    .string "¿Quieres que nos ocupemos de los\n"
-    .string "POKÉMON de tu equipo?$"
+    .string "Would you like to rest your POKéMON?$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_3:
-    .string "Muy bien. Ten un poco de\n"
-    .string "paciencia. Será solo un momento.$"
+    .string "Okay, I'll take your POKéMON\n"
+    .string "for a few seconds.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_4:
-    .string "Misión cumplida. Somos especialistas\p"
-    .string "en devolver la forma a los\n"
-    .string "POKÉMON.$"
+    .string "Thank you for waiting.\p"
+    .string "We've restored your POKéMON\n"
+    .string "to full health.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_5::
-    .string "¡Vuelve siempre que quieras!$"
+    .string "We hope to see you again!$"
 
 
