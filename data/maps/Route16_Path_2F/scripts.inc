@@ -102,9 +102,8 @@ step_end
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_1:
 .string "Una vez la región quede limpia de\n"
 	.string "parásitos como tú y tu\l"
-	.string "organización podremos fin iniciar\l"
-	.string "una etapa de desarrollo sin\l"
-	.string "precedentes.$"
+	.string "organización podremos al fin\l"
+	.string "moldear KANTO como es debido$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "...\n"

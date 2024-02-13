@@ -9,11 +9,9 @@ release
 end
 
 Route11Path2F_Text_1:
-.string "¿Cómo?\n"
-.string "¿Un intercambio de POKÉMON?\l"
-.string "¡No aceptaría negociar con un\l"
-.string "ROCKET ni aunque me ofrecieses un\l"
-.string "ZAPDOS!$"
+	.string "What? A POKÉMON trade with you? I\n"
+    .string "wouldn't negotiate with a ROCKET even\l"
+    .string "if you offer me a ZAPDOS!$"
 
 
 
@@ -27,8 +25,9 @@ msgbox Route11Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route11Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
-	.string "¡Qué vista tan bonita!$"
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "What a breathtaking view!$"
 
 
 
@@ -37,10 +36,12 @@ msgbox Route11Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route11Path2FDocumento_Text_101:
-	.string "Has usado los prismáticos...\p"
-	.string "¡Puedes ir de CIUDAD CELESTE\n"
-	.string "a PUEBLO LAVANDA por el TÚNEL\l"
-	.string "ROCA!$"
+	.string "Let's see what the binoculars have\n"
+	.string "to show…\p"
+	.string "To get to LAVENDER TOWN from\n"
+	.string "CERULEAN CITY…\p"
+	.string "ROCK TUNNEL appears to be a good\n"
+	.string "route to take.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak::
 lock
@@ -84,50 +85,49 @@ release
 end
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_1:
-.string "La lacra social como tú es una\n"
-	.string "vergüenza para esta región, largo\l"
-	.string "de aquí antes de que tu presencia\l"
-	.string "contamine aún más mi estatus.$"
+    .string "The social scourge like you is a\n"
+    .string "disgrace to this region, get out of here\l"
+    .string "before your presence contaminates my\l"
+    .string "status.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_3:
-.string "¿Quieres perder la poca capacidad\n"
-	.string "de elección que queda en tu mísera\l"
-	.string "existencia?$"
+	.string "Do you want to lose the small amount of\n"
+    .string "freedom that remains in your miserable\l"
+    .string "existence?$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_4:
-.string "Ya verás ROCKET, propondré una\n"
-	.string "serie de medidas al COMITÉ DE LA\l"
-	.string "LIGA POKÉMON para terminar de\l"
-	.string "aplastaros como a cucarachas, de\l"
-	.string "esta no salís.$"
+	.string "Just wait, ROCKET, I'll suggest a set of\n"
+    .string "actions to the POKÉMON LEAGUE\l"
+    .string "COMMITTEE to finish squashing you, like\l"
+    .string "bugs you and your organization are,\l"
+    .string "this time you won't escape.$"
+
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_5:
-.string "Que así sea, ha sido tu propia\n"
-	.string "elección.$"
+	.string "As you wish, it was your choice.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_6:
-.string "¡Debe de ser un error!\n"
-	.string "¡Los ROCKET no pasan del RATTATA\l"
-	.string "o ZUBAT!$"
+	.string "It must be a mistake! ROCKETS doesn't\n"
+    .string "have more than a RATTATA or ZUBAT!$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó un BUSCAOBJETOS de\n"
-	.string "AYUDANTE DE OAK)$"
+	.string "{PLAYER} stole an ITEMFINDER from\n"
+    .string "OAK's AIDE.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_8:
-.string "Ya verás ROCKET, propondré una\n"
-	.string "serie de medidas al COMITÉ DE LA\l"
-	.string "LIGA POKÉMON para terminar de\l"
-	.string "aplastaros como a cucarachas, de\l"
-	.string "esta no salís.$"
+	.string "Just wait, ROCKET, I'll suggest a set of\n"
+    .string "actions to the POKÉMON LEAGUE\l"
+    .string "COMMITTEE to finish squashing you, like\l"
+    .string "bugs you and your organization are,\l"
+    .string "this time you won't escape.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_9:
-.string "Veo que aún conservas la cordura,\n"
-	.string "al menos.$"
+	.string "It appears you're still rational, at\n"
+    .string "least.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

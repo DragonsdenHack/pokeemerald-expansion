@@ -23,11 +23,11 @@ release
 end
 
 KindleRoad_Text_2:
-.string "Lo sentimos pero ha habido un\n"
-.string "desprendimiento y el acceso al\l"
-.string "MT.ASCUAS estará cortado hasta que\l"
-.string "se garantice la seguridad, perdona\l"
-.string "las molestias.$"
+	.string "We regret to inform you that there has\n"
+	.string "been a landslide. MT.EMBER acces will be\l"
+	.string "unavailable until safety measures are\l"
+	.string "in place. We apologize for the\l"
+	.string "inconvenience.$"
 
 
 KindleRoad3::

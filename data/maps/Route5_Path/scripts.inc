@@ -15,8 +15,8 @@ release
 end
 
 Route5Path_1_Texto_2:
-.string "Los ROCKET tenéis los días contados.\n"
-	.string "No habrá lugar en KANTO para vosotros.$"
+	.string "ROCKETS, your time is running out. There\n"
+    .string "won't be a place for you in KANTO.$"
 
 Route5Path_1_Texto_1:
 .string "Os creéis muy graciosos por invadir la\n"

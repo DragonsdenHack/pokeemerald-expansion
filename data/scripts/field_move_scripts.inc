@@ -46,14 +46,16 @@ EventScript_CancelCut::
 	end
 
 Text_WantToCut:
-	.string	"Parece que puedes CORTAR este árbol.\p"
-	.string	"¿Usas CORTE?$"
+	.string "This tree looks like it can be\n"
+	.string "CUT down!\p"
+	.string "Would you like to CUT it?$"
 
 Text_MonUsedFieldMove:
-	.string "{STR_VAR_1} usó {STR_VAR_2}!$"
+	.string "{STR_VAR_1} used {STR_VAR_2}!$"
 
 Text_CantCut:
-	.string	"Parece que puedes CORTAR este árbol.$"
+	.string "This tree looks like it can be\n"
+	.string "CUT down!$"
 
 @ Interact with smashable rock
 EventScript_RockSmash::
@@ -112,12 +114,12 @@ EventScript_CancelSmash::
 	end
 
 Text_WantToSmash:
-	.string	"Parece que se puede romper esta roca.\n"
-	.string	"¿Usas GOLPE ROCA?$"
+	.string "This rock appears to be breakable.\n"
+	.string "Would you like to use ROCK SMASH?$"
 
 Text_CantSmash:
-	.string	"Es una roca muy dura, pero un\n"
-	.string	"POKéMON podría hacerla añicos.$"
+	.string "It's a rugged rock, but a POKéMON\n"
+	.string "may be able to smash it.$"
 
 EventScript_StrengthBoulder::
 	lockall
@@ -163,22 +165,22 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string	"Es una roca enorme, pero un\n"
-	.string	"POKéMON podría moverla.\p"
-	.string	"¿Usas FUERZA?$"
+	.string "It's a big boulder, but a POKéMON\n"
+	.string "may be able to push it aside.\p"
+	.string "Would you like to use STRENGTH?$"
 
 Text_MonUsedStrength:
-	.string	"{STR_VAR_1} usó FUERZA.\p"
-	.string	"La FUERZA de {STR_VAR_1} logró\n"
-	.string	"desplazar la roca a un lado.$"
+	.string "{STR_VAR_1} used STRENGTH!\p"
+	.string "{STR_VAR_1}'s STRENGTH made it\n"
+	.string "possible to move boulders around!$"
 
 Text_CantStrength:
-	.string	"Es una roca enorme, pero un\n"
-	.string	"POKéMON podría apartarla.$"
+	.string "It's a big boulder, but a POKéMON\n"
+	.string "may be able to push it aside.$"
 
 Text_StrengthActivated:
-	.string	"Usar FUERZA ha permitido desplazar\n"
-	.string	"la roca a un lado.$"
+	.string "STRENGTH made it possible to move\n"
+	.string "boulders around.$"
 
 EventScript_UseWaterfall::
 	lockall
@@ -203,15 +205,15 @@ EventScript_EndWaterfall::
 	end
 
 Text_CantWaterfall:
-	.string	"Un muro de agua cae\n"
-	.string	"con un estruendo estremecedor…$"
+	.string "A wall of water is crashing down with\n"
+	.string "a mighty roar.$"
 
 Text_WantToWaterfall:
-	.string	"Es una gran catarata.\n"
-	.string	"¿Usas CASCADA?$"
+	.string "It's a large waterfall.\n"
+	.string "Would you like to use WATERFALL?$"
 
 Text_MonUsedWaterfall:
-	.string	"{STR_VAR_1} usó CASCADA.$"
+	.string "{STR_VAR_1} used WATERFALL.$"
 
 EventScript_UseDive::
 	lockall

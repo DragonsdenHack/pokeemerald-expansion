@@ -14,9 +14,9 @@ release
 end
 
 FourIsland1_texto_1:
-	.string "Lo sentimos, pero estamos hasta arriba\n"
-	.string "de trabajo, quizás en un futuro podamos\l"
-	.string "criar a tus POKÉMON.$"
+	.string "We are so sorry, but we are\n"
+	.string "empty. Maybe in the future,\l"
+	.string "trainer.$"
 
 
 FourIsland2::

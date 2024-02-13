@@ -47,10 +47,9 @@ release
 end
 
 RocketHideout_10F_Primer_Cientifico_Texto_1:
-.string "Nos ha costado horrores conectar\n"
-	.string "la BASE de JOHTO con la de KANTO\l"
-	.string "vía teletransporte, pero lo hemos\l"
-	.string "logrado.$"
+	.string "It was a horrific task to connect the\n"
+	.string "JOHTO BASE with the KANTO one by\l"
+	.string "teleport, but we've made it.$"
 
 
 RocketHideout_10F_Segundo_Cientifico::
@@ -61,5 +60,5 @@ release
 end
 
 RocketHideout_10F_Segundo_Cientifico_Texto_1:
-.string "Entonces, ¿listo para otra nueva\n"
-	.string "gran aventura?$"
+	.string "So, are you ready for a new great\n"
+	.string "adventure?$"

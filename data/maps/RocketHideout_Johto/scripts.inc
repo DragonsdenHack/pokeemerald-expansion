@@ -28,15 +28,13 @@ release
 end
 
 RocketHideoutJohto_Text_2:
-.string "Es en esta base donde reunimos\n"
-.string "todas las materias primas que\l"
-.string "JOHTO ofrece, y las transformamos\l"
-.string "en todo tipo de POKÉ BALLS,\l"
-.string "POCIONES y demás objetos.\l"
-.string "¡Así es!\l"
-.string "¡De aquí salen todos los productos\l"
-.string "que puedes comprar en la BASE de\l"
-.string "AZULONA!$"
+	.string "Is in this base where we gather all the\n"
+	.string "resources that JOHTO offers, and we\l"
+	.string "transform them into all kinds of POKÉ\l"
+	.string "BALLS, POTIONS and other items. That's\l"
+	.string "right! From here is where all the\l"
+	.string "products that you buy in the CELADON\l"
+	.string "BASE come from!$"
 
 
 
@@ -48,7 +46,7 @@ release
 end
 
 RocketHideoutJohto_Text_3:
-.string "¡Buen día, sir!$"
+.string "Have a nice day, sir!$"
 
 
 
@@ -60,17 +58,15 @@ release
 end
 
 RocketHideoutJohto_Text_4:
-.string "Esta es la segunda BASE ROCKET más\n"
-.string "grande después de la principal en\l"
-.string "AZULONA, pero a diferencia de esta\l"
-.string "es visible desde el exterior, aun\l"
-.string "así, a pesar de tener unas\l"
-.string "dimensiones parecidas a la TORRE\l"
-.string "POKÉMON de PUEBLO LAVANDA no hay\l"
-.string "de qué preocuparse, estamos en\l"
-.string "medio de las montañas, en una zona\l"
-.string "oculta y alejada de toda\l"
-.string "civilización.$"
+	.string "This is the second largest ROCKET BASE\n"
+	.string "after the main one in CELADON, but\l"
+	.string "unlike that one, this one is visible from\l"
+	.string "the outside. Nonetheless, despite\l"
+	.string "having dimensions similar to the\l"
+	.string "POKÉMON TOWER of LAVENDER TOWN,\l"
+	.string "there's no need to worry. We are in the\l"
+	.string "middle of the mountains, in a hidden\l"
+	.string "area far from all civilization.$"
 
 
 
@@ -87,11 +83,10 @@ release
 end
 
 RocketHideoutJohto_Text_6:
-.string "La irregularidad de la geografía\n"
-.string "de JOHTO trabaja para nosotros.\l"
-.string "¡Nadie encontrará esta base con\l"
-.string "todas las montañas que hay\l"
-.string "alrededor!$"
+	.string "The irregularity of the JOHTO's\n"
+	.string "geography is in our favor. No one ever\l"
+	.string "will find this base with all the\l"
+	.string "mountains around!$"
 
 
 
@@ -103,9 +98,9 @@ release
 end
 
 RocketHideoutJohto_Text_7:
-.string "Aún tienen que pasar muchas cosas\n"
-.string "antes de que el futuro a medio\l"
-.string "plazo de KANTO vaya tomando forma.$"
+	.string "Many things still have to happen before\n"
+	.string "the medium-term future of KANTO takes\l"
+	.string "shape.$"
 
 
 
@@ -117,21 +112,16 @@ release
 end
 
 RocketHideoutJohto_Text_8:
-.string "PS de 125 de BASE…\n"
-.string "ATAQUE FÍSICO de 175…\l"
-.string "DEFENSA FÍSICA de 155…\l"
-.string "Una media de 151,666 de BASE\l"
-.string "entre los 3 primeros STATS…\l"
-.string "…\l"
-.string "…\l"
-.string "No, no me estoy inventando a este\l"
-.string "POKÉMON, estoy hablando del\l"
-.string "RHYPERIOR-& de nuestro LÍDER\l"
-.string "GIOVANNI, me cuesta creer que\l"
-.string "exista otro POKÉMON de un poder\l"
-.string "físico similar.\l"
-.string "¡Siquiera el LEGENDARIO GROUDON se\l"
-.string "le acerca!$"
+	.string "HP of 125 BASE… PHYSICAL ATTACK of\n"
+	.string "175… PHYSICAL DEFENSE of 155… An\l"
+	.string "average of 151.6666 BASE among the\l"
+	.string "first 3 STATS… … … No, I'm not making up\l"
+	.string "this POKÉMON, I'm talking about the\l"
+	.string "RHYPERIOR-Z of our LEADER GIOVANNI.\l"
+	.string "It's hard for me to believe that there's\l"
+	.string "another POKÉMON with a similar physical\l"
+	.string "power. Not even the LEGENDARY GROUDON\l"
+	.string "comes close!$"
 
 
 
@@ -143,18 +133,16 @@ release
 end
 
 RocketHideoutJohto_Text_9:
-.string "Ese BILL se ha vuelto un completo\n"
-.string "pesimista, a la vez que arrogante,\l"
-.string "cree haber llegado al límite de\l"
-.string "lo posible solo por no ser capaz\l"
-.string "de seguir mejorando a su PORYGON.\l"
-.string "Si viera nuestros últimos\l"
-.string "descubrimientos, la expresión de\l"
-.string "incredulidad en su rostro al ver\l"
-.string "que unos ROCKETS le han pasado por\l"
-.string "encima sería legendaria, al tiempo\l"
-.string "que sufriría un duro golpe a su\l"
-.string "ego como científico.$"
+	.string "That BILL has become a complete\n"
+	.string "pessimist, as well as arrogant,\l"
+	.string "believing he has reached the limit just\l"
+	.string "because he can't keep further improving\l"
+	.string "his PORYGON. If he saw our last\l"
+	.string "discoveries, the expression of\l"
+	.string "disbelief on his face as he sees that\l"
+	.string "some ROCKETS have surpassed him would\l"
+	.string "be legendary, while he would suffer a\l"
+	.string "hard blow to his ego as a scientist.$"
 
 
 
@@ -166,19 +154,15 @@ release
 end
 
 RocketHideoutJohto_Text_10:
-.string "Si conocemos todas las condiciones\n"
-.string "posibles de un sistema físico,\l"
-.string "podemos, en teoría, proyectar su\l"
-.string "conducta hacia el futuro.\l"
-.string "Pero esto solo se refiere a los\l"
-.string "objetos inanimados.\l"
-.string "Con las cuestiones sociales, nos\l"
-.string "encontramos con un escollo.\l"
-.string "Proyectar el futuro cuando están\l"
-.string "implicados los seres humanos es\l"
-.string "algo radicalmente diferente si los\l"
-.string "consideramos seres vivos dotados\l"
-.string "de libre albedrío.$"
+	.string "If we know all the possible conditions\n"
+	.string "of a physic system, we can, in theory,\l"
+	.string "its behavior into the future. But this\l"
+	.string "only applies with inanimate objects.\l"
+	.string "With social questions, we find a\l"
+	.string "problem. Projecting the future when\l"
+	.string "human beings are involved is radically\l"
+	.string "different if we consider they are living\l"
+	.string "beings endowed with free will.$"
 
 
 
@@ -190,10 +174,10 @@ release
 end
 
 RocketHideoutJohto_Text_11:
-.string "El trabajo en las sombras siempre\n"
-.string "da grandes resultados.\l"
-.string "¡Cuando nos mostremos al mundo no\l"
-.string "reconocerán lo que tengan delante!$"
+	.string "The work in the shadows always gives\n"
+	.string "big results. when we show ourselves to\l"
+	.string "the world they won't recognize what\l"
+	.string "they are seeing!$"
 
 
 
@@ -205,13 +189,11 @@ release
 end
 
 RocketHideoutJohto_Text_12:
-.string "Algunos de los ENTRENADORES más\n"
-.string "veteranos de esta región cuentan\l"
-.string "con POKÉMON que se salen de\l"
-.string "nuestros parámetros de medición.\l"
-.string "¿Realmente será cierta esa teoría\l"
-.string "del vínculo entre\l"
-.string "ENTRENADOR-POKÉMON?$"
+	.string "Some of the most veteran TRAINERS in\n"
+	.string "this region have POKÉMON that exceed\l"
+	.string "our measurement parameters. Is the\l"
+	.string "theory of the bond between TRAINER\l"
+	.string "and POKÉMON really true?$"
 
 
 
@@ -223,15 +205,13 @@ release
 end
 
 RocketHideoutJohto_Text_13:
-.string "Llegar a lugares donde nadie más\n"
-.string "ha llegado exige de un despliege\l"
-.string "de energía y recursos enorme, es\l"
-.string "por ello que el TEAM ROCKET da una\l"
-.string "enorme importancia a su equipo\l"
-.string "científico, porque sabe del valor\l"
-.string "incalculable que un nuevo\l"
-.string "descubrimiento puede llegar a\l"
-.string "tener.$"
+	.string "Accessing places where no one else has\n"
+	.string "reached demands a huge deployment of\l"
+	.string "energy and resources, which is why TEAM\l"
+	.string "ROCKET gives an enormous importance to\l"
+	.string "its scientific team, knowing the\l"
+	.string "invaluable potential that a new\l"
+	.string "discovery can have.$"
 
 
 
@@ -243,11 +223,10 @@ release
 end
 
 RocketHideoutJohto_Text_14:
-.string "El nivel de consumo de JOHTO es\n"
-.string "muy inferior al de KANTO, pero sus\l"
-.string "recursos son incomparables.\l"
-.string "¡Aquí nos encargamos de darles un\l"
-.string "buen uso!$"
+	.string "The consumption level in JOHTO is much\n"
+	.string "lower than that of KANTO, but its\l"
+	.string "resources are incomparable.We make\l"
+	.string "sure to make good use of them here!$"
 
 
 
@@ -259,10 +238,9 @@ release
 end
 
 RocketHideoutJohto_Text_15:
-.string "Así que un pedido con 1000 MALLA\n"
-.string "BALLS, 200 PROTEINAS+ZINC, 400\l"
-.string "RESTAURA.TODOS y 3000 GALLETAS\l"
-.string "LAVA…$"
+	.string "So an order with 1000 NET BALLS, 200\n"
+	.string "PROTEINS + ZINC, 400 FULL RESTORE and\l"
+	.string "3000 LAVA COOKIES…$"
 
 
 
@@ -274,12 +252,10 @@ release
 end
 
 RocketHideoutJohto_Text_16:
-.string "Ese LANCE…\n"
-.string "Que siga con sus títulos de\l"
-.string "cartón.\l"
-.string "Mientras, nosotros tomamos las\l"
-.string "decisiones verdaderamente\l"
-.string "importantes.$"
+	.string "That LANCE… Allow him to retain his\n"
+	.string "titles made of cardboard. Meanwhile, we\l"
+	.string "are the ones who are taking the truly\l"
+	.string "important decisions.$"
 
 
 
@@ -291,10 +267,10 @@ release
 end
 
 RocketHideoutJohto_Text_17:
-.string "GIOVANNI le tiene en muy alta\n"
-.string "estima ADMIN.JEFE {PLAYER}.\l"
-.string "Con gente como ANDRA y usted el\l"
-.string "TEAM ROCKET tiene futuro.$"
+	.string "GIOVANNI holds you, ADMIN.BOSS\n"
+	.string "{PLAYER} in a very high regard. With\l"
+	.string "people like ANDRA and you, TEAM ROCKET\l"
+	.string "has a brilliant future.$"
 
 
 
@@ -306,21 +282,19 @@ release
 end
 
 RocketHideoutJohto_Text_18:
-.string "Hacia finales del siglo XIX, el\n"
-.string "físico ALBERT MICHELSON aseguró\l"
-.string "que todo cuanto nos quedaba por\l"
-.string "descubrir acerca de las leyes de\l"
-.string "la naturaleza no era más que\l"
-.string "ajustar unas décimas los\l"
-.string "conocimientos de ese entonces, me\l"
-.string "pregunto cómo reaccionaría ante\l"
-.string "todo lo que el siglo XX ha traído,\l"
-.string "es más, ¿cómo reaccionarían todos\l"
-.string "aquellos que en el presente creen\l"
-.string "que ya se ha alcanzado el 99-100%\l"
-.string "de nuestro potencial si le\l"
-.string "llevaran a un laboratorio de\l"
-.string "finales del siglo XXI?$"
+	.string "At the end of the 19th century,\n"
+	.string "physicist ALBERT MICHELSON stated\l"
+	.string "that all that remained to be discovered\l"
+	.string "about the laws of nature was merely\l"
+	.string "adjusting a few tenths of the\l"
+	.string "knowledge of that time. I wonder how he\l"
+	.string "would react to everything the 20th\l"
+	.string "century has brought. Furthermore, how\l"
+	.string "would all those who currently believe\l"
+	.string "that we have already reached 99-100%\l"
+	.string "of our potential react if they were\l"
+	.string "taken to a laboratory from the late\l"
+	.string "21st century?$"
 
 
 
@@ -337,11 +311,10 @@ release
 end
 
 RocketHideoutJohto_Text_20:
-.string "La ADMIN.JEFE ANDRA se ocupará de\n"
-.string "ponernos en el MAPA también en\l"
-.string "HOENN.\l"
-.string "¡Todo el MUNDO POKÉMON acabará\l"
-.string "siendo nuestro!$"
+	.string "The ADMIN.BOSS ANDRA will ensure that\n"
+	.string "we are also recognized in HOENN.\l"
+	.string "Eventually, the entire POKÉMON WORLD\l"
+	.string "will be under our control!$"
 
 
 
@@ -353,17 +326,14 @@ release
 end
 
 RocketHideoutJohto_Text_21:
-.string "Nadie sabe en qué momento el\n"
-.string "RHYPERIOR de nuestro LÍDER,\l"
-.string "GIOVANNI, logró alcanzar ese punto\l"
-.string "por el que acabó transformándose\l"
-.string "una última vez, pero gracias a\l"
-.string "poder estudiarlo pudimos crear a\l"
-.string "NIDOKING-X y NIDOQUEEN-Y, aunque\l"
-.string "elevando los stats de los\l"
-.string "originales en +100 de BASE en\l"
-.string "lugar de los +110 del RHYPERIOR de\l"
-.string "GIOVANNI…$"
+	.string "No one knows the precise moment when\n"
+	.string "our LEADER's RHYPERIOR reached that\l"
+	.string "point which made it evolve once again,\l"
+	.string "however, thanks to being able to study\l"
+	.string "it, we were able to create NIDOKING-X\l"
+	.string "and NIDOQUEEN-Y, although raising\l"
+	.string "their stats by +100 BASE instead of the\l"
+	.string "+110 of GIOVANNI's RHYPERIOR…$"
 
 
 
@@ -375,16 +345,13 @@ release
 end
 
 RocketHideoutJohto_Text_22:
-.string "Disculpe señor, pero a los pisos\n"
-.string "superiores solo puede acceder\l"
-.string "personal implicado de forma\l"
-.string "directa en los proyectos que ahí\l"
-.string "estamos desarrollando.\l"
-.string "Tengo entendido que GIOVANNI\l"
-.string "pretende introducirle a usted en\l"
-.string "ellos, pero a su debido tiempo.\l"
-.string "Hasta entonces, ¡buena suerte en\l"
-.string "su paso por JOHTO!$"
+	.string "Excuse me sir, the access to the upper\n"
+	.string "floors is restricted to personnel\l"
+	.string "directly involved in the ongoing\l"
+	.string "projects, I've heard that GIOVANNI\l"
+	.string "intends to introduce you to them, but\l"
+	.string "in due time. Until then, good luck during\l"
+	.string "your time in JOHTO!$"
 
 
 
@@ -396,12 +363,10 @@ release
 end
 
 RocketHideoutJohto_Text_23:
-.string "El conocimiento adicional de las\n"
-.string "minucias del transcurso diario\l"
-.string "puede resultar inútil, y hasta\l"
-.string "tóxico, por ello es de vital\l"
-.string "importancia el saber separar el\l"
-.string "grano de la paja.$"
+	.string "Understanding the finer details of\n"
+	.string "daily routine can be pointless and even\l"
+	.string "harmful, so it's vital to know how to\l"
+	.string "separate the wheat from the chaff.$"
 
 
 
@@ -413,13 +378,12 @@ release
 end
 
 RocketHideoutJohto_Text_24:
-.string "La TORRE DE RADIO de CIUDAD TRIGAL\n"
-.string "se está convirtiendo rápidamente\l"
-.string "en la SILPH de JOHTO en cuanto\l"
-.string "poder e influencia se refiere, no\l"
-.string "me extrañaría que nuestro LÍDER\l"
-.string "organice más pronto que tarde una\l"
-.string "reunión de negocios allí también.$"
+	.string "The GOLDENROD CITY RADIO TOWER is\n"
+	.string "quickly becoming JOHTO's version of\l"
+	.string "SILPH in terms of power and influence.\l"
+	.string "It wouldn't surprise me if our LEADER\l"
+	.string "arranges a business meeting there soon\l"
+	.string "as well.$"
 
 
 
@@ -431,11 +395,11 @@ release
 end
 
 RocketHideoutJohto_Text_25:
-.string "Quitando CIUDAD TRIGAL y CIUDAD\n"
-.string "OLIVO, el resto de la población de\l"
-.string "JOHTO vive en zonas rurales o bien\l"
-.string "zonas con un gran peso histórico,\l"
-.string "como CIUDAD IRIS.$"
+	.string "Excluding GOLDENROD CITY and OLIVINE\n"
+	.string "CITY, the rest of JOHTO's population\l"
+	.string "lives in rural areas or areas with\l"
+	.string "significant historical significance,\l"
+	.string "such as ECRUTEAK CITY.$"
 
 
 
@@ -447,19 +411,17 @@ release
 end
 
 RocketHideoutJohto_Text_26:
-.string "A pesar de haber ganado la guerra,\n"
-.string "gran parte de la población de\l"
-.string "JOHTO ha seguido viviendo con la\l"
-.string "sencillez y frugalidad que les\l"
-.string "caracterizaba.\l"
-.string "Realmente, el único que forzó esa\l"
-.string "guerra fue LANCE, y la gente de\l"
-.string "aquí lo sabe, tal vez gracias a\l"
-.string "eso se acelere el proceso de unión\l"
-.string "entre las dos regiones, el primer\l"
-.string "paso es abrir las fronteras\l"
-.string "asentadas en RUTA 26 y al pie del\l"
-.string "MONTE PLATEADO…$"
+	.string "Despite winning the war, much of\n"
+	.string "JOHTO's population has continued to\l"
+	.string "live with the simplicity and frugality\l"
+	.string "that characterizes them. To be honest,\l"
+	.string "the only one who forced that war was\l"
+	.string "LANCE, and the people here know it,\l"
+	.string "perhaps due to that, the process of\l"
+	.string "unification between the two regions\l"
+	.string "will be faster, the first step is to open\l"
+	.string "the borders settled in ROUTE 26 and at\l"
+	.string "the base of MT. SILVER...$"
 
 
 
@@ -471,8 +433,8 @@ release
 end
 
 RocketHideoutJohto_Text_27:
-.string "¡Todo en orden señor!\n"
-.string "¡Un placer tenerle por JOHTO!$"
+	.string "Everything's under control, sir! It's a\n"
+	.string "pleasure to have you on JOHTO!$"
 
 
 
