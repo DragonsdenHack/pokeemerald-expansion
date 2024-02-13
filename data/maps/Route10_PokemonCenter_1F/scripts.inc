@@ -27,8 +27,8 @@ release
 end
 
 Route10_PokemonCenter_Text_2:
-.string "¡La única utilidad de las PEPITAS\n"
-.string "de oro es su venta por 5000!$"
+    .string "A NUGGET is totally useless.\n"
+    .string "So I sold it for ¥5000.$"
 
 
 
@@ -40,9 +40,10 @@ release
 end
 
 Route10_PokemonCenter_Text_3:
-.string "Todos los POKÉMON cuentan con\n"
-.string "ventajas y desventajas dependiendo\l"
-.string "de sus combinaciones de tipos.$"
+    .string "The types of POKéMON match up\n"
+    .string "differently with each other.\p"
+    .string "Every type is stronger than some\n"
+    .string "types and weaker than others.$"
 
 
 
@@ -59,8 +60,8 @@ release
 end
 
 Route10_PokemonCenter_Text_5:
-.string "¡He oído que hay fantasmas en\n"
-.string "PUEBLO LAVANDA!$"
+    .string "I heard that ghosts haunt\n"
+    .string "LAVENDER TOWN.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak::
 lock

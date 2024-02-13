@@ -9,9 +9,8 @@ release
 end
 
 Text_1:
-.string "Nunca revelaré a un ROCKET\n"
-.string "información privilegiada sobre las\l"
-.string "MEDALLAS DE GIMNASIO.\l"
+.string "I will never tell a ROCKET\n"
+.string "like you about the GYM BADGES.\l"
 .string "…\l"
 .string "…\l"
 .string "What?\l"

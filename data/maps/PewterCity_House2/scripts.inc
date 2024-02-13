@@ -24,8 +24,9 @@ release
 end
 
 PewterCity_House2_Text_2:
-.string "Los POKÉMON aprenden nuevas\n"
-.string "técnicas cuando van creciendo,\l"
-.string "pero existen ciertos movimientos\l"
-.string "que solo podemos enseñárselos\l"
-.string "nosotros.$"
+    .string "A POKéMON becomes easier to \n"
+    .string "catch if it has a status problem.\p"
+    .string "Sleep, poison, burn, or paralysis…\n"
+    .string "Those are all effective.\p"
+    .string "But catching POKéMON is never\n"
+    .string "a sure thing!$"

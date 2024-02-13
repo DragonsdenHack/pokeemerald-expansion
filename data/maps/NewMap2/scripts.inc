@@ -22,8 +22,8 @@ release
 end
 
 NewMap2_Primer_Gamer_Texto_1:
-.string "Quiero un PIKACHU, así que\n"
-	.string "intercambiaré mi CLEFAIRY por uno.$"
+    .string "I really want a PIKACHU, so I'm\n"
+    .string "trading my CLEFAIRY for one.$"
 
 NewMap2_Segundo_Gamer::
 lock
@@ -33,10 +33,10 @@ release
 end
 
 NewMap2_Segundo_Gamer_Texto_1:
-.string "Estoy intercambiando POKÉMON con el\n"
-	.string "chico de al lado. Tengo dos PIKACHU, de\l"
-	.string "modo que no tengo problema en\l"
-	.string "intercambiar uno.$"
+    .string "I'm trading POKéMON with that kid\n"
+    .string "there.\p"
+    .string "I had two PIKACHU, so I figured\n"
+    .string "I might as well trade one.$"
 
 NewMap2_Caballero::
 lock
@@ -59,9 +59,11 @@ release
 end
 
 NewMap2_Chico_Texto_1:
-	.string "Cuando JIGGLYPUFF canta, los POKÉMON\n"
-	.string "se duermen y... también los humanos. Qué\l"
-	.string "sueño...$"
+    .string "Yawn!\p"
+    .string "When JIGGLYPUFF sings, POKéMON get\n"
+    .string "drowsy…\p"
+    .string "…Me, too…\n"
+    .string "Snore…$"
 
 NewMap2_Chica_Personalidades::
 lock

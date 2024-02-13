@@ -121,9 +121,9 @@
     },
     {
       "type": "hidden_item",
-      "x": 8,
-      "y": 29,
-      "elevation": 5,
+      "x": 0,
+      "y": 34,
+      "elevation": 3,
       "item": "ITEM_RAWST_BERRY",
       "flag": "FLAG_UNUSED_0x279"
     }
