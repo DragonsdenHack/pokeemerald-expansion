@@ -3049,6 +3049,10 @@ extern const u8 gText_Cryogonal[];
 extern const u8 gText_Cramorant[];
 extern const u8 gText_Gible[];
 
+// Venta Radio Master Ball
+extern const u8 gText_MasterBall[];
+extern const u8 gText_PiedraRocket[];
+
 // Venta Base Hoenn
 extern const u8 gText_Rockruff[];
 extern const u8 gText_Drilbur[];

@@ -36843,13 +36843,13 @@ const struct BaseStats gBaseStats[] =
     [SPECIES_CROBAT2_BOND] =
     {
         .baseHP        = 95,
-        .baseAttack    = 140,
+        .baseAttack    = 160,
         .baseDefense   = 105,
-        .baseSpeed     = 140,
+        .baseSpeed     = 120,
         .baseSpAttack  = 80,
         .baseSpDefense = 85,
         .type1 = TYPE_POISON,
-        .type2 = TYPE_DARK,
+        .type2 = TYPE_STEEL,
         .catchRate = 90,
         .expYield = 291,
         .evYield_Speed     = 3,

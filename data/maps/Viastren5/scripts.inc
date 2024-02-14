@@ -161,6 +161,7 @@ playse SE_BREAKABLE_DOOR
 msgbox ViasTren5_Combate_Atlas_Texto_25 MSGBOX_AUTOCLOSE
 delay 15
 msgbox ViasTren5_Combate_Atlas_Texto_26 MSGBOX_AUTOCLOSE
+setflag FLAG_RECEIVED_SHOAL_SHELL_3
 setvar VAR_UNUSED_0x40F7, 203
 release
 end

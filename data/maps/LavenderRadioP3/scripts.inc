@@ -114,6 +114,64 @@ LavenderRadioP3Documento_Text_101:
 .string "-Hay una ilusión de poder que produce\n"
 	.string "en tu interior cierta locura-.$"
 
+LavenderRadioP3_Master_Ball::
+lock
+faceplayer
+msgbox Text_CompraPokemon MSGBOX_AUTOCLOSE
+waitmessage
+multichoice 22, 0, MULTI_VENTA_MASTER_RADIO, 0
+switch VAR_RESULT
+case 0, EventScript_MasterBall
+case 1, EventScript_PiedraRocket
+release
+end
+
+EventScript_MasterBall::
+lock
+showmoneybox 0, 0
+msgbox EventScript_MasterBall_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 300000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 300000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+giveitem ITEM_MASTER_BALL, 1
+release
+end
+
+EventScript_PiedraRocket::
+lock
+showmoneybox 0, 0
+msgbox EventScript_PiedraRocket_Texto_1 MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq EventScript_Compra_No
+checkmoney 2500000
+goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
+delay 15
+playse SE_SHOP
+removemoney 2500000 0
+waitse
+updatemoneybox
+delay 20
+hidemoneybox
+giveitem ITEM_CHIPPED_POT, 1
+release
+end
+
+EventScript_MasterBall_Texto_1:
+.string "¿Seguro que quiere una MASTER BALL?\n"
+	.string "Costará 300 K POKÉS.$"
+
+EventScript_PiedraRocket_Texto_1:
+.string "¿Seguro que quiere una PIEDRA ROCKET?\n"
+	.string "Costará 2,5 M POKÉS.$"
+
 
 LavenderRadioP3_Tienda_Pokemon::
 lock
@@ -148,7 +206,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_CRYOGONAL, 58, ITEM_NONE
 release
 end
@@ -168,7 +225,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_GIBLE, 20, ITEM_NONE
 release
 end
@@ -188,7 +244,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_CRAMORANT, 60, ITEM_NONE
 release
 end
@@ -208,7 +263,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_ESPURR, 40, ITEM_NONE
 release
 end
@@ -228,7 +282,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_WOOLOO, 45, ITEM_NONE
 release
 end
@@ -248,7 +301,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_TOXEL, 35, ITEM_NONE
 release
 end
@@ -268,7 +320,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_FERROSEED, 38, ITEM_NONE
 release
 end
@@ -289,7 +340,6 @@ waitse
 updatemoneybox
 delay 20
 hidemoneybox
-delay 20
 givemon SPECIES_GROOKEY, 15, ITEM_NONE
 release
 end

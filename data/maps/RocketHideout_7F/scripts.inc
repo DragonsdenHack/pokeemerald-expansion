@@ -1676,11 +1676,11 @@ end
 RocketHideout7FDocumento_Text_136_2:
 .string "CROBAT-&:\p"
 	.string "PS: 95\n"
-	.string "ATAQUE: 140\l"
+	.string "ATAQUE: 160\l"
 	.string "DEFENSA: 105\l"
 	.string "ATAQUE ESPECIAL: 80\l"
 	.string "DEFENSA ESPECIAL: 85\l"
-	.string "VELOCIDAD: 140\l"
+	.string "VELOCIDAD: 120\l"
 	.string "TOTAL: 645\p"
 	.string "TIPO: VENENO/ACERO\n"
 	.string "HABILIDAD: LEVITACIÓN\l"

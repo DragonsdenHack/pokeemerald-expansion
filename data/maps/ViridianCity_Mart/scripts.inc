@@ -928,6 +928,24 @@ Base_Hoenn_Rocket_Mercado_1_Pokemart:
 	release
 	end
 
+Torre_Radio_Lavanda_Mercado_1_EventScript_Master_Ball::
+	lock
+	faceplayer
+	message gText_HowMayIServeYou
+	waitmessage
+	pokemart Torre_Radio_Lavanda_Mercado_1_Master_Ball_Pokemart
+	msgbox gText_PleaseComeAgain, MSGBOX_DEFAULT
+	release
+	end
+
+	.align 2
+Torre_Radio_Lavanda_Mercado_1_Master_Ball_Pokemart:
+	.2byte 4
+	.2byte 224
+	.2byte ITEM_NONE
+	release
+	end
+
 
 
 Torre_Radio_Lavanda_Mercado_1_EventScript_Clerk::

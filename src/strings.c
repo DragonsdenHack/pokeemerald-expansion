@@ -932,8 +932,8 @@ const u8 gText_ItemIsNowHeld[] = _("{DYNAMIC 0} seleccionado.");
 const u8 gText_ChangedToNewItem[] = _("Cambiado por {DYNAMIC 0}.");
 const u8 gText_MailCantBeStored[] = _("MAIL can't be stored!");
 const u8 gPCText_Cancel[] = _("Salir");
-const u8 gPCText_Store[] = _("Cambiar");
-const u8 gPCText_Withdraw[] = _("Depositar");
+const u8 gPCText_Store[] = _("Depositar");
+const u8 gPCText_Withdraw[] = _("Sacar");
 const u8 gPCText_Shift[] = _("Cambiar");
 const u8 gPCText_Move[] = _("Mover");
 const u8 gPCText_Place[] = _("Colocar");
@@ -1922,4 +1922,6 @@ const u8 gText_Exta[] = _("ISLA EXTA");
 const u8 gText_Setima[] = _("ISLA SETIMA");
 const u8 gText_Carmin[] = _("CIUDAD CARMIN");
 const u8 gText_Mas2[] = _("MAS DESTINOS");	
+const u8 gText_MasterBall[] = _("MASTER BALL     300000¥");
+const u8 gText_PiedraRocket[] = _("PIEDRA ROCKET     2500000¥");
 //#endif

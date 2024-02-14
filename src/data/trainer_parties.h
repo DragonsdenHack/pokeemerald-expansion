@@ -10836,7 +10836,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra8[] = {
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {60, 252, 60, 252, 60, 60},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_GUNK_SHOT, MOVE_FLY, MOVE_LEECH_LIFE, MOVE_CRUNCH}
+    .moves = {MOVE_GUNK_SHOT, MOVE_FLY, MOVE_LEECH_LIFE, MOVE_IRON_HEAD}
     }
 };
 
@@ -21098,7 +21098,7 @@ static const struct TrainerMonItemCustomMoves sParty_Andra9[] = {
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {110, 252, 252, 110, 110, 110},
     .nature = NATURE_ADAMANT,
-    .moves = {MOVE_FLY, MOVE_GUNK_SHOT, MOVE_CRUNCH, MOVE_LEECH_LIFE}
+    .moves = {MOVE_FLY, MOVE_GUNK_SHOT, MOVE_BEHEMOTH_BLADE, MOVE_LEECH_LIFE}
     }
 };
 
@@ -36677,19 +36677,34 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER591[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER592[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 20,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
+    },
+    {
+    .iv = 20,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
+    },
+    {
+    .iv = 20,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
+    },
+    {
+    .iv = 0,
+    .lvl = 75,
+    .species = SPECIES_BLISSEY,
     }
     
 };

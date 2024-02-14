@@ -146,6 +146,7 @@
 #define MULTI_CELADON_ASCENSOR		       135
 #define MULTI_SILPH_ASCENSOR2			   136
 #define MULTI_SILPH_ASCENSOR3              137	
+#define MULTI_VENTA_MASTER_RADIO           138
 
 // Lilycove SS Tidal Multichoice Selections
 #define SSTIDAL_SELECTION_SLATEPORT        0

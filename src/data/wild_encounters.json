@@ -28776,63 +28776,63 @@
             "encounter_rate": 12,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 45,
+                "max_level": 75,
                 "species": "SPECIES_GOLBAT"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 45,
+                "max_level": 75,
                 "species": "SPECIES_SLOWPOKE"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWBRO"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWBRO"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_CROBAT"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWPOKE"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWKING"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWBRO"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWKING"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWKING"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWBRO_GALARIAN"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SLOWKING_GALARIAN"
               }
             ]
@@ -28841,28 +28841,28 @@
             "encounter_rate": 12,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SHELLDER"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SHELLDER"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_SHELLDER"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_CLOYSTER"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 70,
                 "species": "SPECIES_CLOYSTER"
               }
             ]
@@ -28871,8 +28871,8 @@
             "encounter_rate": 12,
             "mons": [
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 50,
+                "max_level": 50,
                 "species": "SPECIES_SHELLDER"
               },
               {

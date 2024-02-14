@@ -17634,8 +17634,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER401),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER401},
     },
     [TRAINER_TRAINER_402] =
     {
@@ -17647,8 +17647,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER402),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER402},
     },
     [TRAINER_TRAINER_403] =
     {
@@ -17660,8 +17660,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER403),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER403},
     },
     [TRAINER_TRAINER_404] =
     {
@@ -17673,8 +17673,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER404),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER404},
     },
     [TRAINER_TRAINER_405] =
     {
@@ -17686,8 +17686,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER405),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER405},
     },
     [TRAINER_TRAINER_406] =
     {
@@ -17699,8 +17699,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER406),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER406},
     },
     [TRAINER_TRAINER_407] =
     {
@@ -17712,8 +17712,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER407),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER407},
     },
     [TRAINER_TRAINER_408] =
     {
@@ -17725,8 +17725,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER408),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER408},
     },
     [TRAINER_TRAINER_409] =
     {
@@ -17738,8 +17738,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER409),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER409},
     },
     [TRAINER_TRAINER_410] =
     {
@@ -17751,8 +17751,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER410),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER410},
     },
     [TRAINER_TRAINER_411] =
     {
@@ -17764,8 +17764,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER411),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER411},
     },
     [TRAINER_TRAINER_412] =
     {
@@ -17777,8 +17777,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER412),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER412},
     },
     [TRAINER_TRAINER_413] =
     {
@@ -17790,8 +17790,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER413),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER413},
     },
     [TRAINER_TRAINER_414] =
     {
@@ -17803,8 +17803,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER414),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER414},
     },
     [TRAINER_TRAINER_415] =
     {
@@ -17816,8 +17816,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER415),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER415},
     },
     [TRAINER_TRAINER_416] =
     {
@@ -17829,8 +17829,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER416),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER416},
     },
     [TRAINER_TRAINER_417] =
     {
@@ -17842,8 +17842,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER417),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER417},
     },
     [TRAINER_TRAINER_418] =
     {
@@ -17855,8 +17855,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER418),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER418},
     },
     [TRAINER_TRAINER_419] =
     {
@@ -17868,8 +17868,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER419),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER419},
     },
     [TRAINER_TRAINER_420] =
     {
@@ -17881,8 +17881,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER420),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER420},
     },
     [TRAINER_TRAINER_421] =
     {
@@ -17894,8 +17894,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER421),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER421},
     },
     [TRAINER_TRAINER_422] =
     {
@@ -17907,8 +17907,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER422),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER422},
     },
     [TRAINER_TRAINER_423] =
     {
@@ -17920,8 +17920,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER423),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER423},
     },
     [TRAINER_TRAINER_424] =
     {
@@ -17933,8 +17933,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER424),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER424},
     },
     [TRAINER_TRAINER_425] =
     {
@@ -17946,8 +17946,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER425),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER425},
     },
     [TRAINER_TRAINER_426] =
     {
@@ -17959,8 +17959,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER426),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER426},
     },
     [TRAINER_TRAINER_427] =
     {
@@ -17972,8 +17972,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER427),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER427},
     },
     [TRAINER_TRAINER_428] =
     {
@@ -17985,8 +17985,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER428),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER428},
     },
     [TRAINER_TRAINER_429] =
     {
@@ -17998,8 +17998,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER429),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER429},
     },
     [TRAINER_TRAINER_430] =
     {
@@ -18011,8 +18011,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER430),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER430},
     },
     [TRAINER_TRAINER_431] =
     {
@@ -18024,8 +18024,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER431),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER431},
     },
     [TRAINER_TRAINER_432] =
     {
@@ -18037,8 +18037,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER432),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER432},
     },
     [TRAINER_TRAINER_433] =
     {
@@ -18050,8 +18050,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER433),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER433},
     },
     [TRAINER_TRAINER_434] =
     {
@@ -18063,8 +18063,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER434),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER434},
     },
     [TRAINER_TRAINER_435] =
     {
@@ -18076,8 +18076,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER435),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER435},
     },
     [TRAINER_TRAINER_436] =
     {
@@ -18089,8 +18089,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER436),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER436},
     },
     [TRAINER_TRAINER_437] =
     {
@@ -18102,8 +18102,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER437),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER437},
     },
     [TRAINER_TRAINER_438] =
     {
@@ -18115,8 +18115,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER438),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER438},
     },
     [TRAINER_TRAINER_439] =
     {
@@ -18128,8 +18128,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER439),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER439},
     },
     [TRAINER_TRAINER_440] =
     {
@@ -18141,8 +18141,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER440),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER440},
     },
     [TRAINER_TRAINER_441] =
     {
@@ -18154,8 +18154,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER441),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER441},
     },
     [TRAINER_TRAINER_442] =
     {
@@ -18167,8 +18167,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER442),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER442},
     },
     [TRAINER_TRAINER_443] =
     {
@@ -18180,8 +18180,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER443),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER443},
     },
     [TRAINER_TRAINER_444] =
     {
@@ -18193,8 +18193,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER444),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER444},
     },
     [TRAINER_TRAINER_445] =
     {
@@ -18206,8 +18206,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER445),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER445},
     },
     [TRAINER_TRAINER_446] =
     {
@@ -18219,8 +18219,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER446),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER446},
     },
     [TRAINER_TRAINER_447] =
     {
@@ -18232,8 +18232,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER447),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER447},
     },
     [TRAINER_TRAINER_448] =
     {
@@ -18245,8 +18245,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER448),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER448},
     },
     [TRAINER_TRAINER_449] =
     {
@@ -18258,8 +18258,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER449),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER449},
     },
     [TRAINER_TRAINER_450] =
     {
@@ -18271,8 +18271,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER450),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER450},
     },
     [TRAINER_TRAINER_451] =
     {
@@ -18284,8 +18284,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER451),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER451},
     },
     [TRAINER_TRAINER_452] =
     {
@@ -18297,8 +18297,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER452),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER452},
     },
     [TRAINER_TRAINER_453] =
     {
@@ -18310,8 +18310,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER453),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER453},
     },
     [TRAINER_TRAINER_454] =
     {
@@ -18323,8 +18323,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER454),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER454},
     },
     [TRAINER_TRAINER_455] =
     {
@@ -18336,8 +18336,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER455),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER455},
     },
     [TRAINER_TRAINER_456] =
     {
@@ -18349,8 +18349,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER456),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER456},
     },
     [TRAINER_TRAINER_457] =
     {
@@ -18362,8 +18362,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER457),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER457},
     },
     [TRAINER_TRAINER_458] =
     {
@@ -18375,8 +18375,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER458),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER458},
     },
     [TRAINER_TRAINER_459] =
     {
@@ -18388,8 +18388,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER459),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER459},
     },
     [TRAINER_TRAINER_460] =
     {
@@ -18401,8 +18401,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER460),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER460},
     },
     [TRAINER_TRAINER_461] =
     {
@@ -18414,8 +18414,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER461),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER461},
     },
     [TRAINER_TRAINER_462] =
     {
@@ -18427,8 +18427,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER462),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER462},
     },
     [TRAINER_TRAINER_463] =
     {
@@ -18440,8 +18440,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER463),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER463},
     },
     [TRAINER_TRAINER_464] =
     {
@@ -18453,8 +18453,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER464),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER464},
     },
     [TRAINER_TRAINER_465] =
     {
@@ -18466,8 +18466,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER465),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER465},
     },
     [TRAINER_TRAINER_466] =
     {
@@ -18479,8 +18479,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER466),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER466},
     },
     [TRAINER_TRAINER_467] =
     {
@@ -18492,8 +18492,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER467),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER467},
     },
     [TRAINER_TRAINER_468] =
     {
@@ -18505,8 +18505,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER468),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER468},
     },
     [TRAINER_TRAINER_469] =
     {
@@ -18518,8 +18518,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER469),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER469},
     },
     [TRAINER_TRAINER_470] =
     {
@@ -18531,8 +18531,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER470),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER470},
     },
     [TRAINER_TRAINER_471] =
     {
@@ -18544,8 +18544,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER471),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER471},
     },
     [TRAINER_TRAINER_472] =
     {
@@ -18557,8 +18557,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER472),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER472},
     },
     [TRAINER_TRAINER_473] =
     {
@@ -18570,8 +18570,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER473),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER473},
     },
     [TRAINER_TRAINER_474] =
     {
@@ -18583,8 +18583,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER474),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER474},
     },
     [TRAINER_TRAINER_475] =
     {
@@ -18596,8 +18596,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER475),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER475},
     },
     [TRAINER_TRAINER_476] =
     {
@@ -18609,8 +18609,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER476),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER476},
     },
     [TRAINER_TRAINER_477] =
     {
@@ -18622,8 +18622,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER477),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER477},
     },
     [TRAINER_TRAINER_478] =
     {
@@ -18635,8 +18635,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER478),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER478},
     },
     [TRAINER_TRAINER_479] =
     {
@@ -18648,8 +18648,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER479),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER479},
     },
     [TRAINER_TRAINER_480] =
     {
@@ -18661,8 +18661,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER480),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER480},
     },
     [TRAINER_TRAINER_481] =
     {
@@ -18674,8 +18674,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER481),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER481},
     },
     [TRAINER_TRAINER_482] =
     {
@@ -18687,8 +18687,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER482),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER482},
     },
     [TRAINER_TRAINER_483] =
     {
@@ -18700,8 +18700,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER483),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER483},
     },
     [TRAINER_TRAINER_484] =
     {
@@ -18713,8 +18713,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER484),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER484},
     },
     [TRAINER_TRAINER_485] =
     {
@@ -18726,8 +18726,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER485),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER485},
     },
     [TRAINER_TRAINER_486] =
     {
@@ -18739,8 +18739,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER486),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER486},
     },
     [TRAINER_TRAINER_487] =
     {
@@ -18752,8 +18752,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER487),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER487},
     },
     [TRAINER_TRAINER_488] =
     {
@@ -18765,8 +18765,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER488),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER488},
     },
     [TRAINER_TRAINER_489] =
     {
@@ -18778,8 +18778,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER489),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER489},
     },
     [TRAINER_TRAINER_490] =
     {
@@ -18791,8 +18791,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER490),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER490},
     },
     [TRAINER_TRAINER_491] =
     {
@@ -18804,8 +18804,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER491),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER491},
     },
     [TRAINER_TRAINER_492] =
     {
@@ -18817,8 +18817,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER492),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER492},
     },
     [TRAINER_TRAINER_493] =
     {
@@ -18830,8 +18830,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER493),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER493},
     },
     [TRAINER_TRAINER_494] =
     {
@@ -18843,8 +18843,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER494),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER494},
     },
     [TRAINER_TRAINER_495] =
     {
@@ -18856,8 +18856,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER495),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER495},
     },
     [TRAINER_TRAINER_496] =
     {
@@ -18869,8 +18869,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER496),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER496},
     },
     [TRAINER_TRAINER_497] =
     {
@@ -18882,8 +18882,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER497),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER497},
     },
     [TRAINER_TRAINER_498] =
     {
@@ -18895,8 +18895,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER498),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER498},
     },
     [TRAINER_TRAINER_499] =
     {
@@ -18908,8 +18908,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER499),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER499},
     },
     [TRAINER_TRAINER_500] =
     {
@@ -18921,8 +18921,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER500),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER500},
     },
     [TRAINER_TRAINER_501] =
     {
@@ -18934,8 +18934,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER501),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER501},
     },
     [TRAINER_TRAINER_502] =
     {
@@ -18947,8 +18947,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER502),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER502},
     },
     [TRAINER_TRAINER_503] =
     {
@@ -18960,8 +18960,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER503),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER503},
     },
     [TRAINER_TRAINER_504] =
     {
@@ -18973,8 +18973,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER504),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER504},
     },
     [TRAINER_TRAINER_505] =
     {
@@ -18986,8 +18986,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER505),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER505},
     },
     [TRAINER_TRAINER_506] =
     {
@@ -18999,8 +18999,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER506),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER506},
     },
     [TRAINER_TRAINER_507] =
     {
@@ -19012,8 +19012,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER507),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER507},
     },
     [TRAINER_TRAINER_508] =
     {
@@ -19025,8 +19025,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER508),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER508},
     },
     [TRAINER_TRAINER_509] =
     {
@@ -19038,8 +19038,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER509),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER509},
     },
     [TRAINER_TRAINER_510] =
     {
@@ -19051,8 +19051,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER510),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER510},
     },
     [TRAINER_TRAINER_511] =
     {
@@ -19064,8 +19064,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER511),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER511},
     },
     [TRAINER_TRAINER_512] =
     {
@@ -19077,8 +19077,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER512),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER512},
     },
     [TRAINER_TRAINER_513] =
     {
@@ -19090,8 +19090,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER513),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER513},
     },
     [TRAINER_TRAINER_514] =
     {
@@ -19103,8 +19103,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER514),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER514},
     },
     [TRAINER_TRAINER_515] =
     {
@@ -19116,8 +19116,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER515),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER515},
     },
     [TRAINER_TRAINER_516] =
     {
@@ -19129,8 +19129,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER516),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER516},
     },
     [TRAINER_TRAINER_517] =
     {
@@ -19142,8 +19142,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER517),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER517},
     },
     [TRAINER_TRAINER_518] =
     {
@@ -19155,8 +19155,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER518),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER518},
     },
     [TRAINER_TRAINER_519] =
     {
@@ -19168,8 +19168,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER519),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER519},
     },
     [TRAINER_TRAINER_520] =
     {
@@ -19181,8 +19181,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER520),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER520},
     },
     [TRAINER_TRAINER_521] =
     {
@@ -19194,8 +19194,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER521),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER521},
     },
     [TRAINER_TRAINER_522] =
     {
@@ -19207,8 +19207,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER522),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER522},
     },
     [TRAINER_TRAINER_523] =
     {
@@ -19220,8 +19220,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER523),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER523},
     },
     [TRAINER_TRAINER_524] =
     {
@@ -19233,8 +19233,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER524),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER524},
     },
     [TRAINER_TRAINER_525] =
     {
@@ -19246,8 +19246,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER525),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER525},
     },
     [TRAINER_TRAINER_526] =
     {
@@ -19259,8 +19259,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER526),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER526},
     },
     [TRAINER_TRAINER_527] =
     {
@@ -19272,8 +19272,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER527),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER527},
     },
     [TRAINER_TRAINER_528] =
     {
@@ -19285,8 +19285,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER528),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER528},
     },
     [TRAINER_TRAINER_529] =
     {
@@ -19298,8 +19298,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER529),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER529},
     },
     [TRAINER_TRAINER_530] =
     {
@@ -19311,8 +19311,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER530),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER530},
     },
     [TRAINER_TRAINER_531] =
     {
@@ -19324,8 +19324,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER531),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER531},
     },
     [TRAINER_TRAINER_532] =
     {
@@ -19337,8 +19337,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER532),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER532},
     },
     [TRAINER_TRAINER_533] =
     {
@@ -19350,8 +19350,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER533),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER533},
     },
     [TRAINER_TRAINER_534] =
     {
@@ -19363,8 +19363,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER534),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER534},
     },
     [TRAINER_TRAINER_535] =
     {
@@ -19376,8 +19376,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER535),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER535},
     },
     [TRAINER_TRAINER_536] =
     {
@@ -19389,8 +19389,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER536),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER536},
     },
     [TRAINER_TRAINER_537] =
     {
@@ -19402,8 +19402,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER537),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER537},
     },
     [TRAINER_TRAINER_538] =
     {
@@ -19415,8 +19415,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER538),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER538},
     },
     [TRAINER_TRAINER_539] =
     {
@@ -19428,8 +19428,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER539),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER539},
     },
     [TRAINER_TRAINER_540] =
     {
@@ -19441,8 +19441,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER540),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER540},
     },
     [TRAINER_TRAINER_541] =
     {
@@ -19454,8 +19454,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER541),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER541},
     },
     [TRAINER_TRAINER_542] =
     {
@@ -19467,8 +19467,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER542),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER542},
     },
     [TRAINER_TRAINER_543] =
     {
@@ -19480,8 +19480,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER543),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER543},
     },
     [TRAINER_TRAINER_544] =
     {
@@ -19493,8 +19493,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER544),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER544},
     },
     [TRAINER_TRAINER_545] =
     {
@@ -19506,8 +19506,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER545),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER545},
     },
     [TRAINER_TRAINER_546] =
     {
@@ -19519,8 +19519,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER546),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER546},
     },
     [TRAINER_TRAINER_547] =
     {
@@ -19532,8 +19532,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER547),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER547},
     },
     [TRAINER_TRAINER_548] =
     {
@@ -19545,8 +19545,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER548),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER548},
     },
     [TRAINER_TRAINER_549] =
     {
@@ -19558,8 +19558,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER549),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER549},
     },
     [TRAINER_TRAINER_550] =
     {
@@ -19571,8 +19571,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER550),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER550},
     },
     [TRAINER_TRAINER_551] =
     {
@@ -19584,8 +19584,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER551),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER551},
     },
     [TRAINER_TRAINER_552] =
     {
@@ -19597,8 +19597,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER552),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER552},
     },
     [TRAINER_TRAINER_553] =
     {
@@ -19610,8 +19610,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER553),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER553},
     },
     [TRAINER_TRAINER_554] =
     {
@@ -19623,8 +19623,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER554),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER554},
     },
     [TRAINER_TRAINER_555] =
     {
@@ -19636,8 +19636,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER555),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER555},
     },
     [TRAINER_TRAINER_556] =
     {
@@ -19649,8 +19649,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER556),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER556},
     },
     [TRAINER_TRAINER_557] =
     {
@@ -19662,8 +19662,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER557),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER557},
     },
     [TRAINER_TRAINER_558] =
     {
@@ -19675,8 +19675,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER558),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER558},
     },
     [TRAINER_TRAINER_559] =
     {
@@ -19688,8 +19688,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER559),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER559},
     },
     [TRAINER_TRAINER_560] =
     {
@@ -19701,8 +19701,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER560),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER560},
     },
     [TRAINER_TRAINER_561] =
     {
@@ -19714,8 +19714,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER561),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER561},
     },
     [TRAINER_TRAINER_562] =
     {
@@ -19727,8 +19727,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER562),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER562},
     },
     [TRAINER_TRAINER_563] =
     {
@@ -19740,8 +19740,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER563),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER563},
     },
     [TRAINER_TRAINER_564] =
     {
@@ -19753,8 +19753,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER564),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER564},
     },
     [TRAINER_TRAINER_565] =
     {
@@ -19766,8 +19766,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER565),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER565},
     },
     [TRAINER_TRAINER_566] =
     {
@@ -19779,8 +19779,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER566),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER566},
     },
     [TRAINER_TRAINER_567] =
     {
@@ -19792,8 +19792,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER567),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER567},
     },
     [TRAINER_TRAINER_568] =
     {
@@ -19805,8 +19805,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER568),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER568},
     },
     [TRAINER_TRAINER_569] =
     {
@@ -19818,8 +19818,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER569),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER569},
     },
     [TRAINER_TRAINER_570] =
     {
@@ -19831,8 +19831,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER570),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER570},
     },
     [TRAINER_TRAINER_571] =
     {
@@ -19844,8 +19844,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER571),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER571},
     },
     [TRAINER_TRAINER_572] =
     {
@@ -19857,8 +19857,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER572),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER572},
     },
     [TRAINER_TRAINER_573] =
     {
@@ -19870,8 +19870,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER573),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER573},
     },
     [TRAINER_TRAINER_574] =
     {
@@ -19883,8 +19883,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER574),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER574},
     },
     [TRAINER_TRAINER_575] =
     {
@@ -19896,8 +19896,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER575),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER575},
     },
     [TRAINER_TRAINER_576] =
     {
@@ -19909,8 +19909,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER576),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER576},
     },
     [TRAINER_TRAINER_577] =
     {
@@ -19922,8 +19922,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER577),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER577},
     },
     [TRAINER_TRAINER_578] =
     {
@@ -19935,8 +19935,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER578),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER578},
     },
     [TRAINER_TRAINER_579] =
     {
@@ -19948,8 +19948,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER579),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER579},
     },
     [TRAINER_TRAINER_580] =
     {
@@ -19961,8 +19961,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER580),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER580},
     },
     [TRAINER_TRAINER_581] =
     {
@@ -19974,8 +19974,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER581),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER581},
     },
     [TRAINER_TRAINER_582] =
     {
@@ -19987,8 +19987,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER582),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER582},
     },
     [TRAINER_TRAINER_583] =
     {
@@ -20000,8 +20000,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER583),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER583},
     },
     [TRAINER_TRAINER_584] =
     {
@@ -20013,8 +20013,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER584),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER584},
     },
     [TRAINER_TRAINER_585] =
     {
@@ -20026,8 +20026,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER585),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER585},
     },
     [TRAINER_TRAINER_586] =
     {
@@ -20039,8 +20039,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER586),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER586},
     },
     [TRAINER_TRAINER_587] =
     {
@@ -20052,8 +20052,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER587),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER587},
     },
     [TRAINER_TRAINER_588] =
     {
@@ -20065,8 +20065,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER588),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER588},
     },
     [TRAINER_TRAINER_589] =
     {
@@ -20078,8 +20078,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER589),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER589},
     },
     [TRAINER_TRAINER_590] =
     {
@@ -20091,8 +20091,8 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER590),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER590},
     },
     [TRAINER_TRAINER_591] =
     {
@@ -20104,21 +20104,21 @@ const struct Trainer gTrainers[] = {
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER591),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER591},
     },
     [TRAINER_TRAINER_592] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerClass = TRAINER_CLASS_RECLUTA,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_ROCKET,
+        .trainerPic = TRAINER_PIC_ROCKET_GRUNT_M_ALTORANGO,
+        .trainerName = _("ENTRENADOR"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,
-        .partySize = ARRAY_COUNT(sParty_TRAINER400),
-        .party = {.NoItemDefaultMoves = sParty_TRAINER400},
+        .partySize = ARRAY_COUNT(sParty_TRAINER592),
+        .party = {.NoItemDefaultMoves = sParty_TRAINER592},
     },
 
 };
