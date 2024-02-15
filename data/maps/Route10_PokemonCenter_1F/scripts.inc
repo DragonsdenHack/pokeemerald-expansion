@@ -105,49 +105,45 @@ release
 end
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_1:
-.string "Aléjate de mí sucio ROCKET, soy\n"
-	.string "ayudante directo del PROFESOR OAK\l"
-	.string "y parte de la élite de esta\l"
-	.string "región, alguien de tu nivel no\l"
-	.string "puede ni cruzar una mirada\l"
-	.string "conmigo.$"
+.string "Stay away from me dirty ROCKET, I'm\n"
+.string "a direct assistant of PROF. OAK\l"
+.string "and part of the elite of this\l"
+.string "region, someone of your level can't\l"
+.string "even make eye contact with me.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_3:
-.string "¿Quieres ver cómo hago que te\n"
-	.string "largues por las malas?$"
+.string "Do you want to see how I make you\n"
+.string "leave by force?$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_4:
-.string "No tienes idea de con quién te\n"
-	.string "estás metiendo ROCKET, cuando OAK\l"
-	.string "se entere de esto no volverás a\l"
-	.string "ver la luz del sol.$"
+.string "You have no idea who you're\n"
+.string "messing with, ROCKET, when OAK\l"
+.string "knows about this, you won't\l"
+.string "see the sunlight again.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_5:
-.string "Será rápido, más que barrer el\n"
-	.string "polvo de casa.$"
+.string "It will be quick, faster than lighting.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_6:
-.string "¡Esto no tiene ningún sentido!$"
+.string "This doesn't make any sense!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó una PIEDRAETERNA de\n"
-	.string "AYUDANTE DE OAK).$"
+.string "({PLAYER} stole an EVERSTONE from\n"
+.string "OAK'S AIDE).$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_8:
-.string "¡NO!\n"
-	.string "¡Un ROCKET no puede ser tan\l"
-	.string "fuerte!\l"
-	.string "¡Cuando avise a las autoridades me\l"
-	.string "devolverás lo que me has robado\l"
-	.string "multiplicado por 10!$"
+	.string "NO! A ROCKET cannot be that strong!\n"
+    .string "When I tell the authorities about this\l"
+    .string "you'll return what you stole from me\l"
+    .string "multiplied by 10!$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_9:
-.string "Eso es, así me gusta. La basura al\n"
-	.string "basurero.$"
+.string "That's it, just the way I like it. Trash to the\n"
+.string "garbage can.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Move_1:
 emote_exclamation_mark

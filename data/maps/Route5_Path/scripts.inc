@@ -19,9 +19,9 @@ Route5Path_1_Texto_2:
     .string "won't be a place for you in KANTO.$"
 
 Route5Path_1_Texto_1:
-.string "Os creéis muy graciosos por invadir la\n"
-	.string "ciudad, ¿verdad, ROCKET? Solo espera y\l"
-	.string "verás.$"
+	.string "Do you find it amusing to invade the\n"
+    .string "city, ROCKET? Just wait and see.$"
+
 
 Route5_Path_Frontera::
 lock
@@ -37,10 +37,10 @@ release
 end
 
 Route5_Path_Frontera_Text:
-.string "¿Pero qué clase de broma es esta?\n"
-	.string "A esta ciudad solo entra la élite\l"
-	.string "de la región, desaparece ROCKET si\l"
-	.string "no quieres que te expediente.$"
+	.string "What kind of joke is this? Only the\n"
+    .string "elite of the region enters this city.\l"
+    .string "Disappear, ROCKET, if you don't want to\l"
+    .string "be expelled.$"
 
 Route5_Path_Frontera_move1:
 emote_exclamation_mark

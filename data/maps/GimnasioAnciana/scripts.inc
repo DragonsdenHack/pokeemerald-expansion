@@ -222,8 +222,8 @@ release
 end
 
 GimnasioAnciana_Documento_Text_103:
-.string "Es un artículo de periódico antiguo,\n"
-	.string "tendrá al menos 10 años.$"
+	.string "It's an old newspaper article, likely at\n"
+	.string "least 10 years old.$"
 
 GimnasioAnciana_Documento_Text_102:
 .string "… … … … … … … …$"
@@ -233,46 +233,48 @@ release
 end
 
 GimnasioAnciana_Documento_Text_101:
-.string "Sobre la conexión entre JOHTO y\n"
-	.string "ARCHI7…$"
+	.string "About the connection between JOHTO\n"
+    .string "and SEVII…$"
 
 GimnasioAnciana_Documento_Text_101_2:
-.string "ISLAS SETE son conocidas por su rica\n"
-	.string "fauna y flora, pero esta no es única en\l"
-	.string "el mundo. Sus especies, a pesar de la\l"
-	.string "distancia y el clima, coinciden con las\l"
-	.string "de la región de JOHTO.$"
+	.string "The SEVII ISLANDS are known for their\n"
+    .string "rich fauna and flora, but this is not\l"
+    .string "unique in the world. Its species,\l"
+    .string "despite the distance and climate,\l"
+    .string "coincide with those of the JOHTO\l"
+    .string "region.$"
 
 GimnasioAnciana_Documento_Text_101_3:
-.string "Algunos expertos sostienen que esta\n"
-	.string "extraña coincidencia se debe al vínculo\l"
-	.string "entre RUINAS ALFA y RUINAS SETE.\l"
-	.string "Dichos lugares debieron de asentar las\l"
-	.string "bases de fauna y flora hoy conocidas,\l"
-	.string "partiendo de una misma civilización que\l"
-	.string "colonizó ambas regiones.$"
+	.string "Some experts argue that this strange\n"
+    .string "coincidence is due to the link between\l"
+    .string "the RUINS OF ALPH and TANOBY RUINS.\l"
+    .string "These places must have laid the\l"
+    .string "foundations of the fauna and flora\l"
+    .string "known today, originating from the same\l"
+    .string "civilization that colonized both\l"
+    .string "regions.$"
 
 GimnasioAnciana_Documento_Text_101_4:
-.string "De esto hace milenios, y se sabe también\n"
-	.string "que ciertos POKÉMON podían\l"
-	.string "antiguamente evolucionar a formas más\l"
-	.string "desarrolladas, algo que los cambios\l"
-	.string "ambientales y culturales de las últimas\l"
-	.string "décadas han hecho imposible para las\l"
-	.string "nuevas generaciones.$"
+	.string "This happened millennia ago, and it is\n"
+    .string "also known that certain POKÉMON could\l"
+    .string "formerly evolve into more developed\l"
+    .string "forms, something that the changes in\l"
+    .string "environment and culture in recent\l"
+    .string "decades have made impossible for the\l"
+    .string "new generations.$"
 
 GimnasioAnciana_Documento_Text_101_5:
-.string "Prueba de esto son la LÍDER de ISLA\n"
-	.string "SÉTIMA y el LÍDER de ISLA TERA, ambos\l"
-	.string "con POKÉMON -antiguos- que reúnen\l"
-	.string "estas características. Según sus\l"
-	.string "propias palabras, hoy en día la\l"
-	.string "obtención de dichos POKÉMON en las\l"
-	.string "islas es imposible, sin embargo, creen\l"
-	.string "que en ciertos lugares de JOHTO aún se\l"
-	.string "conserva esa parte de especies\l"
-	.string "antiguas que ambas regiones, SEVII y\l"
-	.string "JOHTO, compartían en el pasado.$"
+	.string "Proof of this are the; LEADER of QUEST\n"
+    .string "ISLAND and the LEADER of KIN ISLAND,\l"
+    .string "both with -ancient- POKÉMON that\l"
+    .string "possess these characteristics.\l"
+    .string "According to their own words, nowadays\l"
+    .string "obtaining such POKÉMON in the islands\l"
+    .string "is impossible. However, they believe\l"
+    .string "that in certain places JOHTO, that part\l"
+    .string "of ancient species that both regions,\l"
+    .string "SEVII and JOHTO, shared in the past, is\l"
+    .string "still preserved.$"
 
 GimnasioAnciana_Npc_Lore::
 lock
@@ -282,12 +284,11 @@ release
 end
 
 GimnasioAnciana_Npc_Lore_Texto_1:
-.string "Cuando no era más que una chica,\n"
-	.string "nuestra LÍDER hizo un largo viaje a\l"
-	.string "JOHTO. Al parecer exploró sus lugares\l"
-	.string "más recónditos, y por ello algunos de\l"
-	.string "sus POKÉMON crecieron de una forma\l"
-	.string "especial.$"
+	.string "Back when she was only a young girl, our\n"
+	.string "LEADER undertook a lengthy journey to\l"
+	.string "JOHTO. It appears she delved into its\l"
+	.string "most remote locations, causing some of\l"
+	.string "her POKÉMON to evolve in a special way.$"
 
 
 

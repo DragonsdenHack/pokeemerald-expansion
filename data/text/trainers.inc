@@ -4770,284 +4770,263 @@ RocketWarehouse_Text_Isaac_4PostBattle:
 
 
 FileIsleMeadow_Text_GruntIntro:
-    .string "Estoy ya cansado de esta maldita\n"
-	.string "isla, ¡ni el viento se mueve!\l"
-	.string "¡Echemos un combate, camarada!$"
+	.string "I'm tired of this boring island as hell,\n"
+    .string "not even the wind moves! Let's have a\l"
+    .string "battle, comrade!$"
 
 
 FileIsleMeadow_Text_GruntDefeated:
-    .string "¡Por fin! ¡Algo de diversión!$"
+.string "Finally! Some fun!$"
 
 
 FileIsleMeadow_Text_GruntPostBattle:
-    .string "Espero que pronto me trasladen a\n"
-	.string "KANTO, seguro que al menos hay más\l"
-	.string "acción que en esta soporífera\l"
-	.string "isla.$"
+	.string "I hope I get transferred to KANTO soon,\n"
+    .string "there's bound to be more action than on\l"
+    .string "this dull island.$"
+
 
 
 
 MemorialPillar_Text_MarcIntro:
-    .string "¡Soy el mayor de los hermanos\n"
-	.string "pájaro!\l"
-	.string "¡Lo mejor que tienen los pájaros\l"
-	.string "es el pico!$"
+    .string "I am the oldest of the bird brothers!\n"
+    .string "The best thing about birds is their\l"
+    .string "beak!$"
 
 
 
 MemorialPillar_Text_MarcDefeated:
-    .string "¡No!$"
+    .string "No!$"
 
 
 MemorialPillar_Text_MarcPostBattle:
-	.string "Mientras respetéis este lugar, no\n"
-	.string "pondremos oposición a que\l"
-	.string "instaléis vuestros negocios por\l"
-	.string "aquí.$"
+	.string "As long as you respect this place, we\n"
+    .string "won't oppose you setting up your\l"
+    .string "businesses around here.$"
 
 
 
 MemorialPillar_Text_BrendenIntro:
-    .string "Soy el mediano de los hermanos\n"
-	.string "pájaro, deberías de saber que lo\l"
-	.string "mejor que tienen los POKÉMON tipo\l"
-	.string "volador son las alas.$"
+	.string "I'm the middle brother of the bird\n"
+    .string "brothers, and you should know that the\l"
+    .string "best thing about Flying-type POKÉMON\l"
+    .string "is their wings.$"
 
 
 
 MemorialPillar_Text_BrendenDefeated:
-    .string "¡Flap, flap!$"
+    .string "Flap, flap!$"
 
 
 
 MemorialPillar_Text_BrendenPostBattle:
-    .string "Más al sur está el PILAR RECUERDO,\n"
-	.string "al parecer en honor a un ONIX que\l"
-	.string "falleció hace no mucho.$"
+	.string "The MEMORIAL PILLAR lies farther\n"
+    .string "south, seemingly dedicated to an ONIX,\l"
+    .string "who sadly died not too long ago.$"
 
 
 
 MemorialPillar_Text_LilithIntro:
-    .string "Soy el menor de los hermanos\n"
-	.string "pájaro.\l"
-	.string "No hay duda de que lo mejor que\l"
-	.string "tienen los POKÉMON tipo VOLADOR\l"
-	.string "son las patas.$"
+	.string "I'm the youngest of the bird brothers.\n"
+    .string "There's no doubt that the best thing\l"
+    .string "about FLYING-type POKÉMON is their\l"
+    .string "feet.$"
 
 
 MemorialPillar_Text_LilithDefeated:
-    .string "Bah, ya estoy acostumbrado a\n"
-	.string "perder.$"
+	.string "Bah, I'm already used to losing.$"
 
 
 MemorialPillar_Text_LilithPostBattle:
-    .string "¡Me hace sentir feliz observar a\n"
-	.string "mis aves jugar alegremente!$"
+	.string "Seeing my birds play happily makes me\n"
+    .string "feel joyful!$"
 
 
 
 WaterLabyrinth_Text_LassIntro:
-    .string "Estamos en un ambiente perfecto\n"
-	.string "para criar a nuestros POKÉMON.$"
+	.string "This is a perfect place for raising our\n"
+    .string "POKÉMON.$"
 
 
 WaterLabyrinth_Text_LassDefeated:
-    .string "¡Tus POKÉMON están creciendo a un\n"
-	.string "gran ritmo!$"
+	.string "Your POKÉMON are growing quickly!$"
 
 WaterLabyrinth_Text_LassPostBattle:
-    .string "A pesar de que seas del TEAM\n"
-	.string "ROCKET, veo en ti aptitudes de un\l"
-	.string "buen CRIAPOKÉMON.$"
+	.string "Despite being from TEAM ROCKET, I see\n"
+    .string "in you the qualities of a good POKÉMON\l"
+    .string "BREEDER.$"
 
 
 
 WaterLabyrinth_Text_GentlemanIntro:
-    .string "¿Cómo?\n"
-	.string "¿Un HUEVO que contiene un TOGEPI?\l"
-	.string "¡Yo no hago regalos a\l"
-	.string "delincuentes!$"
+	.string "Huh? An EGG containing a TOGEPI? I\n"
+    .string "don't give gifts to criminals$"
 
 
 WaterLabyrinth_Text_GentlemanDefeated:
-    .string "No puede ser, ¡MEOWTH!$"
+.string "This can't be, MEOWTH!$"
 
 
 WaterLabyrinth_Text_GentlemanPostBattle:
-    .string "Los ROCKET de por aquí suelen ser\n"
-	.string "más débiles, si lo haces bien\l"
-	.string "seguro que vuestro general te\l"
-	.string "recompensará como es debido.$"
+	.string "The ROCKETS around here are usually\n"
+    .string "weaker, if you do it right, I'm sure your\l"
+    .string "boss will reward you properly.$"
 
 	
 ResortGorgeus_Text_Pintora1Intro:
-    .string "Hmmm..\n"
-	.string "El ángulo idóneo no está del todo\l"
-	.string "allí.$"
+	.string "Hmmm… The ideal angle isn't quite there.$"
 
 
 ResortGorgeus_Text_Pintora1Defeated:
-	.string "Oh.\n"
-	.string "Mis sentimientos cobran un tono\l"
-	.string "azul.$"
+.string "Oh.\n"
+.string "My feelings are getting blue.$"
 
 
 ResortGorgeus_Text_Pintora1PostBattle:
-	.string "El cielo y el mar son muy\n"
-	.string "volubles.\l"
-	.string "Sus expresiones cambiantes son muy\l"
-	.string "difíciles de captar.$"
+	.string "The sky and the ocean are quite\n"
+    .string "unstable. Their shifting expressions\l"
+    .string "are quite challenging to capture.$"
 
 
 ResortGorgeus_Text_Rica1Intro:
-	.string "¿Cómo?\n"
-	.string "¿Vas a visitar a CÓNSUL?\l"
-	.string "¡Un ROCKET como tú no tiene\l"
-	.string "derecho siquiera a mirarle a los\l"
-	.string "ojos!$"
+	.string "What? Are you going to see the CONSUL?\n"
+    .string "A ROCKET like you doesn't even have the\l"
+    .string "right to look her in the eyes!$"
 
 ResortGorgeus_Text_Rica1Defeated:
-	.string "Oh, demasiado fuerte.$"
+.string "Oh, so strong.$"
 
 
 ResortGorgeus_Text_Rica1PostBattle:
-	.string "Nuestra CÓNSUL se ha ganado su\n"
-	.string "puesto limpiamente.\l"
-	.string "¡Nadie va a extorsionarla!$"
+	.string "Our CONSUL has earned her position\n"
+    .string "fairly. No one is going to extort her!$"
 
 ResortGorgeus_Text_JulioIntro:
-    .string "Soy un buen corredor.\n"
-	.string "¡Soy muy rápido!$"
+             .string "I'm a good runner.\n"
+    .string "I'm really fast!$"
 
 
 ResortGorgeus_Text_JulioDefeated:
-	.string "¡Vaya!\n"
-	.string "¡Me apresuré!$"
+ .string "Oops!\n"
+    .string "I rushed things!$"
 
 
 ResortGorgeus_Text_JulioPostBattle:
-	.string "Cuando corro con el viento a\n"
-	.string "favor, ¡es como si pudiera volar!$"
+ 	.string "When I run with the wind, it feels\n"
+    .string "like I could fly!$"
 
 
 ResortGorgeus_Text_Rica2Intro:
-	.string "Creo que construiré una piscina\n"
-	.string "hecha específicamente para mis\l"
-	.string "POKÉMON.$"
+ 	.string "I'm thinking of having a pool\n"
+    .string "made specially for POKÉMON.$"
 
 
 ResortGorgeus_Text_Rica2Defeated:
-	.string "¡Oh, por Dios que insolencia!$"
+ 	.string "Oh, my goodness gracious!$"
 
 
 ResortGorgeus_Text_Rica2PostBattle:
-	.string "Una piscina estaría bien, pero\n"
-	.string "debo de decir que un solárium\l"
-	.string "sería sublime.$"
+.string "A pool would be nice, but I must\n"
+    .string "say, a sun-room may be sublime.$"
 
 
 ResortGorgeus_Text_Pintora2Intro:
-	.string "¡Perdona!\n"
-	.string "¡Estoy intentando pintar!\l"
-	.string "¿Puedes apartarte de mi campo de\l"
-	.string "visión?$"
+ 	.string "Excuse me!\n"
+    .string "I'm trying to paint.\l"
+    .string "Please keep out of my sight!$"
 
 
 ResortGorgeus_Text_Pintora2Defeated:
-	.string "Esta derrota.\n"
-	.string "¡Creo que me he salido de la raya!$"
+	.string "This loss…\n"
+    .string "I feel like I'm whiting out…$"
 
 
 ResortGorgeus_Text_Pintora2PostBattle:
-	.string "¿GILLIAN?\n"
-	.string "Por favor gira levemente tu cabeza\l"
-	.string "a tu izquierda.\l"
-	.string "¡Ahí!\l"
-	.string "¡Esa es la perspectiva que quiero!$"
+ 	.string "GILLIAN?\n"
+    .string "Please tilt your head slightly…\l"
+    .string "There! That's the look I want!$"
 
 
 ResortGorgeus_Text_Pintora3Intro:
-	.string "¡Con estas manos crearé mi\n"
-	.string "victoria!$"
+.string "With these hands, I will create\n"
+    .string "my victory!$"
 
 
 ResortGorgeus_Text_Pintora3Defeated:
-	.string "¡Vaya!\n"
-	.string "¡Me he manchado las manos!$"
+ 	.string "The shame of this…\n"
+    .string "I'm red-faced…$"
 
 
 ResortGorgeus_Text_Pintora3PostBattle:
-	.string "Uh-oh, mis tubos de pintura se han\n"
-	.string "disperso por todos lados.$"
+  	.string "Uh-oh, my paint tubes have\n"
+    .string "scattered everywhere!$"
 
 ResortGorgeus_Text_NadadorIntro:
-	.string "La vida marina alrededor de este\n"
-	.string "complejo va mucho conmigo.$"
+ 	.string "I say, this marine life here at\n"
+    .string "this resort agrees with me.$"
 
 
 ResortGorgeus_Text_NadadorDefeated:
-	.string "¿En serio?\n"
-	.string "Debes de estar bromeando.$"
+ 	.string "That's a shocker!\n"
+    .string "You must be joking.$"
 
 
 ResortGorgeus_Text_NadadorPostBattle:
-	.string "Ponerse tan serio por un simple\n"
-	.string "combate, qué sinsentido.$"
+ 	.string "Getting so serious over this…\n"
+    .string "How nonsensical.$"
 
 
 LostCaveLadderRoom1_Text_HikerIntro:
-	.string "Pensé que este lugar formaba parte\n"
-	.string "de alguna ruina ancestral.\l"
-	.string "¡Pero está llena de fantasmas!$"
+.string "Aiyeeeeeh!\p"
+    .string "I thought this was an ancient ruin.\n"
+    .string "But it's teeming with ghosts!$"
 
 
 LostCaveLadderRoom1_Text_HikerDefeated:
-	.string "¡Aiyeeeeeh!\n"
-	.string "¡Gracias!$"
+ 	.string "Aiyeeeeeh!\n"
+    .string "Thank you!$"
 
 LostCaveLadderRoom1_Text_HikerPostBattle:
-	.string "Estoy tratando de salir de aquí,\n"
-	.string "pero siempre acabo en el mismo\l"
-	.string "lugar, quizás el número de rocas\l"
-	.string "que hay en cada sala quiera decir\l"
-	.string "algo...$"
+ 	.string "I'm trying to get out of here, but\n"
+    .string "I always end up at the same spot.\p"
+    .string "Maybe the number of boulders is\n"
+    .string "a hint…$"
 
 
 LostCaveB1FPath3_Text_MediumIntro:
-    .string "Esta cueva desprende algún tipo de\n"
-	.string "poder misterioso.$"
+ 	.string "I think there is a mysterious power\n"
+    .string "at work in this cave.$"
 
 
 LostCaveB1FPath3_Text_MediumDefeated:
-	.string "Si no escoges el túnel correcto,\n"
-	.string "nunca saldrás de aquí.$"
+ 	.string "If you don't go into the right\n"
+    .string "tunnel, you won't get ahead.$"
 
 
 LostCaveB1FPath3_Text_MediumPostBattle:
-	.string "He visto a dos soldados similares\n"
-	.string "a ti, junto con la CÓNSUL del\l"
-	.string "lugar.\l"
-	.string "¿Ha hecho algo malo?$"
+.string "Earlier, a lady and two soldiers\n"
+.string "like you, went into the caves\l"
+.string "ahead. Did she do something\l"
+.string "bad?$"
 
 
 LostCaveB1FLastRoom_Text_RicaIntro:
-	.string "CÓNSUL: ¡¿Tú de nuevo?!\n"
-	.string "¡¡Mira lo que has conseguido!!\l"
-	.string "Recluida en esta CUEVA bajo\l"
-	.string "estricta vigilancia, me han\l"
-	.string "quitado a mi querido MAREEP, a mi\l"
-	.string "WOOPER y dejado solo a mis\l"
-	.string "MEOWTHS, ¡vas a pagar por ello!$"
+	.string "CONSUL: You again?!\n"
+.string "Look what you've done!!\l"
+.string "confined in this CAVE under\l"
+.string "strict surveillance, they have\l"
+.string "taken away my beloved MAREEP, my\l"
+.string "WOOPER and left only my\l"
+.string "MEOWTHS, you're going to pay for this!$"	
 
 
 LostCaveB1FLastRoom_Text_RicaDefeated:
-	.string "¡Perdí de nuevo!$"
+	.string "I've lost again!$"
 
 
 LostCaveB1FLastRoom_Text_RicaPostBattle:
-	.string "CÓNSUL: Algún día vendrá alguien y\n"
-	.string "me rescatará de este lugar, ¡los\l"
-	.string "ROCKET solo sóis hormigas!$"
+	.string "CONSUL: Someday someone will come and\n"
+.string "rescue me from this place, you\l"
+.string "ROCKETS are just ants!$"
 
 Route6_Text_Joven1Intro:
 	.string "After all that you have caused for the\n"

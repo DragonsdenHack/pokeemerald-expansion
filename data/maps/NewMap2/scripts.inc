@@ -46,9 +46,9 @@ release
 end
 
 NewMap2_Caballero_Texto_1:
-.string "Tienes pinta de haber participado en el\n"
-	.string "robo del MT.MOON. ¡La próxima vez os\l"
-	.string "apresarán a todos!$"
+.string "You look like you've participated in the\n"
+.string "robbery of MT.MOON. Next time, you'll all\l"
+.string "be apprehended!$"
 
 
 NewMap2_Chico::
@@ -73,6 +73,6 @@ release
 end
 
 NewMap2_Chica_Personalidades_Texto_1:
-.string "¡Oh, no te acerques! La gente que va en\n"
-	.string "contra de la sociedad no conviene a mi\l"
-	.string "personalidad.$"
+.string "Oh, don't get closer! People who go against\n"
+.string "society don't suit my\l"
+.string "personality.$"

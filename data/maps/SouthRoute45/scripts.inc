@@ -49,13 +49,12 @@ release
 end
 
 SouthRoute45_Text_9:
-.string "Mi misión es asegurarme que nadie\n"
-.string "pasa de este punto por casualidad,\l"
-.string "en caso de presentarse algún\l"
-.string "montañero despistado, ¡el RUGIDO\l"
-.string "de mi GRANBULL acabará de un\l"
-.string "plumazo con esa casualidad y le\l"
-.string "hará torcer para el otro lado!$"
+.string "My mission is to make sure no one\n"
+.string "passes this point by chance, In case a\l"
+.string "lost hiker shows up, the ROAR of my\l"
+.string "GRANBULL will quickly put an end to\l"
+.string "that chance encounter and make them\l"
+.string "turn the other way!$"
 
 
 

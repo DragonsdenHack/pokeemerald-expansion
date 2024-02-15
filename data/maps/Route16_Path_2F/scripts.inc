@@ -100,45 +100,41 @@ emote_exclamation_mark
 step_end
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_1:
-.string "Una vez la región quede limpia de\n"
-	.string "parásitos como tú y tu\l"
-	.string "organización podremos al fin\l"
-	.string "moldear KANTO como es debido$"
+.string "Once the region is rid of parasites like\n"
+.string "you and your organization, we can finally\l"
+.string "shape KANTO as it should be.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_3:
-.string "Fuera de mi vista, no quiero\n"
-	.string "volver a ver tu cara, ¿te atreves\l"
-	.string "a llevar la contraria a un\l"
-	.string "AYUDANTE DE OAK?$"
+.string "Get out of my sight, I don't want to\n"
+.string "see your face again, do you dare\l"
+.string "to contradict an OAK'S AIDE?$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_4:
-.string "El TEAM ROCKET tiene los días\n"
-	.string "contados, estamos preparando algo\l"
-	.string "gordo para acabar con todos\l"
-	.string "vosotros.$"
+	.string "TEAM ROCKET's days are running out,\n"
+    .string "we're preparing something big to take\l"
+    .string "you all down.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_5:
-.string "Será lo último que hagas ROCKET.$"
+.string "It will be the last thing you do, ROCKET.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_6:
-.string "¡¿De dónde han salido todos esos\n"
-	.string "POKÉMON?!$"
+.string "Where did all those POKÉMON\n"
+.string "come from?!$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_7:
-.string "({PLAYER} robó una MON.AMULETO de\n"
-	.string "AYUDANTE DE OAK).$"
+.string "({PLAYER} stole an AMULET COIN from\n"
+.string "OAK'S AIDE).$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_8:
-.string "Esto no tiene lógica, se supone\n"
-	.string "que no debes de pasar de un\l"
-	.string "RATICATE o KOFFING en tu equipo,\l"
-	.string "verás cuando informe a OAK de\l"
-	.string "esto.$"
+.string "This doesn't make sense, you're not supposed\n"
+.string "to have anything better than a RATICATE or\l"
+.string "KOFFING on your team,\l"
+.string "you'll see when I report this to OAK.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_9:
-.string "La próxima vez no seré tan\n"
-	.string "compasivo contigo.$"
+.string "Next time I won't be so\n"
+.string "compassionate with you.$"

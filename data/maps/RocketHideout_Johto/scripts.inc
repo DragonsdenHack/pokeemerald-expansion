@@ -446,12 +446,12 @@ release
 end
 
 RocketHideoutJohto_Text_28:
-.string "Las imponentes CATARATAS TOHJO son\n"
-.string "las que históricamente han\l"
-.string "separado geográficamente KANTO de\l"
-.string "JOHTO, aunque ya se está\l"
-.string "trabajando en medios de transporte\l"
-.string "que las unan por otras rutas.$"
+    .string "The majestic TOHJO FALLS are\n"
+    .string "historically what have geographically\l"
+    .string "separated KANTO from JOHTO, although\l"
+    .string "work is already being done on means of\l"
+    .string "transportation to connect them by\l"
+    .string "other routes.$"
 
 
 
@@ -463,13 +463,12 @@ release
 end
 
 RocketHideoutJohto_Text_29:
-.string "Me encantaría tener un PERSIAN,\n"
-.string "pero en JOHTO si no eres un\l"
-.string "pijo de CIUDAD TRIGAL, necesitas\l"
-.string "mucha suerte para encontrar un\l"
-.string "MEOWTH salvaje.\l"
-.string "Aunque un GRANBULL tampoco está\l"
-.string "mal.$"
+	.string "I would love to have a PERSIAN, but in\n"
+    .string "JOHTO, unless you're one of those snobs\l"
+    .string "from GOLDENROD CITY, you'll need a ton\l"
+    .string "of luck to stumble upon a wild MEOWTH.\l"
+    .string "Although a GRANBULL wouldn't be a bad\l"
+    .string "choice either.$"
 
 
 
@@ -481,9 +480,8 @@ release
 end
 
 RocketHideoutJohto_Text_30:
-.string "¡JOHTO es suya señor!\n"
-.string "¡Demuéstreles a todos el poder del\l"
-.string "TEAM ROCKET!$"
+	.string "JOHTO is yours, sir! Show all them, the\n"
+    .string "TEAM ROCKET power!$"
 
 
 
@@ -495,13 +493,10 @@ release
 end
 
 RocketHideoutJohto_Text_31:
-.string "1000 REVIVIRES y 700\n"
-.string "HIPERPOCIONES…\l"
-.string "En serio…\l"
-.string "¿Qué les pasa a los RECLUTAS de\l"
-.string "KANTO?\l"
-.string "¿Es que todos llevan RATTATAS y\l"
-.string "ZUBATS?$"
+.string "1000 REVIVES and 700 HYPER POTIONS...\n"
+.string "Seriously... What's wrong with the\l"
+.string "GRUNTS from KANTO? Do they all carry\l"
+.string "RATTATAS and ZUBATS?$"
 
 
 
@@ -513,11 +508,9 @@ release
 end
 
 RocketHideoutJohto_Text_32:
-.string "¡Estar fuera de la ley me hace\n"
-.string "sentir tan vivo!\l"
-.string "¡Al diablo los límites desde aquí\l"
-.string "construiremos lo que nos venga en\l"
-.string "gana!$"
+.string "Working outside the law makes me feel\n"
+.string "so alive! Nobody cares about the limits,\l"
+.string "from here we'll build whatever we want!$"
 
 
 
@@ -529,10 +522,9 @@ release
 end
 
 RocketHideoutJohto_Text_33:
-.string "¡Trabajo propio!\n"
-.string "¡Trabajo propio por y para el TEAM\l"
-.string "ROCKET!\l"
-.string "¡Así da gusto trabajar!$"
+.string "Our own work! Our own work for and by\n"
+	.string "the TEAM ROCKET! That is the right way\l"
+	.string "to work!$"
 
 
 
@@ -544,19 +536,16 @@ release
 end
 
 RocketHideoutJohto_Text_34:
-.string "Hemos logrado que POKÉMON NO\n"
-.string "LEGENDARIOS, como NIDOKING y\l"
-.string "NIDOQUEEN, superen olgadamente el\l"
-.string "techo de los 600 STATS BASE, cifra\l"
-.string "que se tenía por imposible de\l"
-.string "superar para cualquier POKÉMON\l"
-.string "mortal.\l"
-.string "Lo cierto es que con NIDOKING-X\l"
-.string "hicimos un trabajo extraordinario,\l"
-.string "gracias a su HABILIDAD ADAPTABLE,\l"
-.string "ATAQUE de 142 de BASE y VELOCIDAD\l"
-.string "de 125, es una verdadera máquina\l"
-.string "de despedazar enemigos.$"
+.string "We've achieved that NON-LEGENDARY\n"
+	.string "POKÉMON, such as NIDOKING and\l"
+	.string "NIDOQUEEN, easily surpass the 600 BASE\l"
+	.string "STATS, a figure that was considered\l"
+	.string "impossible to exceed for any mortal\l"
+	.string "POKÉMON. The truth is that with\l"
+	.string "NIDOKING-X we did an extraordinary job,\l"
+	.string "thanks to its ADAPTABILITY, an ATTACK\l"
+	.string "of 142 BASE and a SPEED of 125, it is a\l"
+	.string "true enemy-shredding machine.$"
 
 
 
@@ -569,12 +558,12 @@ end
 RocketHideoutJohtoDocumento_Text_100:
 .string ".......\n"
 	.string ".......\l"
-	.string "Técnicas de laboratorio para\l"
-	.string "maximizar el potencial de\l"
-	.string "cualquier POKÉMON.\l"
+	.string "Laboratory techniques to\l"
+	.string "maximize the potential of\l"
+	.string "any POKÉMON.\l"
 	.string ".......\l"
 	.string ".......\l"
-	.string "¡Tiene más de 500 páginas!$"
+	.string "It has more than 500 pages!$"
 
 
 
@@ -603,39 +592,37 @@ RocketHideoutJohto_EventScript_TakeRalts::
 
 
 RocketHideoutJohto_Text_TakeRalts:
-.string "Hay muchos POKÉMON PSÍQUICOS más\n"
-	.string "allá de ALAKAZAM o HYPNO, incluso\l"
-	.string "de los ESPEON o XATU en JOHTO.$"
+.string "There are many PSYCHIC POKÉMON beyond\n"
+.string "ALAKAZAM or HYPNO, even beyond ESPEON\l"
+.string "or XATU in JOHTO.$"
 
 
 
 RocketHideoutJohto_Text_TakeRalts2:
-	.string "El problema es que KANTO y JOHTO\n"
-	.string "han sido siempre muy cerradas a\l"
-	.string "otras regiones.$"
+.string "The problem is that KANTO and JOHTO\n"
+.string "have always been very closed to other\l"
+.string "regions.$"
 
 
 
 RocketHideoutJohto_Text_TakeRalts3:
-	.string "Sin embargo, un colega mío que\n"
-	.string "trabaja en DEVON me regaló una\l"
-	.string "pareja de POKÉMON PSÍQUICOS de\l"
-	.string "HOENN.\l"
-	.string "Dijo que era el ALAKAZAM de esa\l"
-	.string "región, me gustaría que un ROCKET\l"
-	.string "como tú se quedara con uno.$"
+.string "However, a colleague of mine who works\n"
+.string "at DEVON gave me a pair of PSYCHIC\l"
+.string "POKÉMON from HOENN. He said it was the\l"
+.string "ALAKAZAM from that region, I'd like a\l"
+.string "ROCKET like you to have one.$"
 
 
 
 
 RocketHideoutJohto_Text_MensajeRalts:
-.string "¡OBTUVISTE UN RALTS AL NV.10!$"
+.string "YOU OBTAINED A LV.10 RALTS!$"
 
 
 RocketHideoutJohto_Text_19:
-.string "He oído que RALTS cuenta con 2\n"
-	.string "evoluciones finales, una ofensiva\l"
-	.string "FÍSICA, y otra ofensiva ESPECIAL.$"
+.string "I've heard that RALTS has 2 final\n"
+.string "evolutions, a PHYSICAL offensive one\l"
+.string "and an SPECIAL offensive one.$"
 
 BaseRocketJohto_Tienda_Pokemon::
 lock
@@ -812,29 +799,29 @@ release
 end
 
 EventScript_Axew_Texto_1:
-.string "¿Seguro que quiere a AXEW?\n"
-	.string "Costará 140000 POKÉS.$"
+.string "Are you sure you want AXEW?\n"
+	.string "It will cost 140000 POKÉ.$"
 
 EventScript_Spiritomb_Texto_1:
-.string "¿Seguro que quiere a SPIRITOMB?\n"
-	.string "Costará 115000 POKÉS.$"
+.string "Are you sure you want SPIRITOMB?\n"
+	.string "It will cost 115000 POKÉ.$"
 
 EventScript_Turtwig_Texto_1:
-.string "¿Seguro que quiere a TURTWIG?\n"
-	.string "Costará 75000 POKÉS.$"
+.string "Are you sure you want TURTWIG?\n"
+	.string "It will cost 75000 POKÉ.$"
 
 EventScript_Pawniard_Texto_1:
-.string "¿Seguro que quiere a PAWNIARD?\n"
-	.string "Costará 65000 POKÉS.$"
+.string "Are you sure you want PAWNIARD?\n"
+	.string "It will cost 65000 POKÉ.$"
 
 EventScript_Pincurchin_Texto_1:
-.string "¿Seguro que quiere a PINCURCHIN?\n"
+.string "Are you sure you want PINCURCHIN?\n"
 	.string "Costará 52000 POKÉS.$"
 
 EventScript_Mudbray_Texto_1:
-.string "¿Seguro que quiere a MUDBRAY?\n"
-	.string "Costará 32000 POKÉS.$"
+.string "Are you sure you want MUDBRAY?\n"
+	.string "It will cost 32000 POKÉ.$"
 
 EventScript_Fletching_Texto_1:
-.string "¿Seguro que quiere a FLETCHLING?\n"
-	.string "Costará 18000 POKÉS.$"
+.string "Are you sure you want FLETCHLING?\n"
+	.string "It will cost 18000 POKÉ.$"
