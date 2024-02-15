@@ -1922,6 +1922,6 @@ const u8 gText_Exta[] = _("ISLA EXTA");
 const u8 gText_Setima[] = _("ISLA SETIMA");
 const u8 gText_Carmin[] = _("CIUDAD CARMIN");
 const u8 gText_Mas2[] = _("MAS DESTINOS");	
-const u8 gText_MasterBall[] = _("MASTER BALL     300000¥");
+const u8 gText_MasterBall[] = _("MASTER BALL           300000¥");
 const u8 gText_PiedraRocket[] = _("PIEDRA ROCKET     2500000¥");
 //#endif
