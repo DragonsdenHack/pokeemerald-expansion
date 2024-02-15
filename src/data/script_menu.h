@@ -798,6 +798,14 @@ static const struct MenuAction MultichoiceList_VentaPokesTorreRadio[] =
     
 };
 
+static const struct MenuAction MultichoiceList_VentaMasterTorreRadio[] =
+{
+    {gText_MasterBall},
+    {gText_PiedraRocket},
+    {gText_Exit},
+    
+};
+
 static const struct MenuAction MultichoiceList_VentaPokesBaseHoenn[] =
 {
     {gText_Rockruff},
@@ -1160,6 +1168,7 @@ static const struct MultichoiceListStruct sMultichoiceLists[] =
     [MULTI_FALLARBOR_TENT_RULES]       = MULTICHOICE(MultichoiceList_FallarborTentRules),
     [MULTI_TAG_MATCH_TYPE]             = MULTICHOICE(MultichoiceList_TagMatchType),
     [MULTI_VENTA_POKEMON_RADIO]        = MULTICHOICE(MultichoiceList_VentaPokesTorreRadio),
+    [MULTI_VENTA_MASTER_RADIO]        = MULTICHOICE(MultichoiceList_VentaMasterTorreRadio),
     [MULTI_VENTA_BASE_HOENN]           = MULTICHOICE(MultichoiceList_VentaPokesBaseHoenn),
     [MULTI_VENTA_BASE_JOHTO]           = MULTICHOICE(MultichoiceList_VentaPokesBaseJohto),
     [MULTI_VENTA_BASE_RUTA_5]          = MULTICHOICE(MultichoiceList_VentaPokesBaseRuta5),
