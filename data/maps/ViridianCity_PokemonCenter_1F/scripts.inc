@@ -27,8 +27,8 @@ release
 end
 
 ViridianCity_Center_Text_2:
-.string "Solo eres un peón en manos de tu\n"
-.string "jefe, recuérdalo.$"
+	.string "You're just a pawn in your boss's hands,\n"
+	.string "remember.$"
 
 
 
@@ -40,8 +40,8 @@ release
 end
 
 ViridianCity_Center_Text_3:
-.string "Así es, PUEBLO PALETA está algo\n"
-.string "más al sur.$"
+	.string "That's correct, PALETTE TOWN is\n"
+	.string "situated a little further to the south.$"
 
 
 
@@ -54,8 +54,6 @@ release
 end
 
 ViridianCity_Center_Text_4:
-.string "Pronto conseguiremos que siquiera\n"
-.string "os dejen entrar a los CENTROS\l"
-.string "POKÉMON.\l"
-.string "¡Entonces ya no os quedará nada\l"
-.string "uajajajajajaa!$"
+	.string "Soon, we'll make sure you can't even get\n"
+	.string "into POKÉMON CENTERS. Then you'll have\l"
+	.string "nothing left, muahahahaha!$"
