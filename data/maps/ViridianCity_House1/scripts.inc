@@ -9,12 +9,10 @@ release
 end
 
 ViridianCity_House1_Text_1:
-.string "Ponerle motes a los Pokémon es\n"
-.string "divertido, pero a veces no es\l"
-.string "fácil.\l"
-.string "Está bien poner motes elaborados,\l"
-.string "pero los más simples son los más\l"
-.string "fáciles de recordar.$"
+    .string "Coming up with nicknames is fun,\n"
+    .string "but it's not so easy to do.\p"
+    .string "Clever names are nice, but simple\n"
+    .string "names are easier to remember.$"
 
 
 
@@ -26,8 +24,7 @@ release
 end
 
 ViridianCity_House1_Text_2:
-.string "A mi padre también le encantan los\n"
-.string "Pokémon.$"
+    .string "My daddy loves POKéMON, too.$"
 
 
 
@@ -41,5 +38,5 @@ msgbox ViridianCityHouse1Documento_Text_100, MSGBOX_SIGN
 end
 
 ViridianCityHouse1Documento_Text_100:
-.string "Spearow\n"
-	.string "Nombre: Speary$"
+    .string "SPEAROW\n"
+    .string "Name: SPEARY$"

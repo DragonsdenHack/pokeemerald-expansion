@@ -122,7 +122,7 @@ release
 end
 
 Viridian_Gym_Texto_Prohibido_Pasar:
-.string "(El GIMNASIO está cerrado).$"
+.string "(The GYM is closed).$"
 
 Viridian_City_Frontera_Gym_Move_2:
 walk_slow_right

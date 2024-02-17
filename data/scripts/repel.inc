@@ -22,10 +22,10 @@ EventScript_RepelWoreOff_NoMoreRepels:
 EventScript_RepelWoreOff_End:
 	releaseall	
 	end
-
+ 
 Text_RepelWoreOff:
-	.string "El efecto del REPELENTE se agotó…$"
+	.string "REPEL's effect wore off…$"
 
 Text_RepelWoreOff_UseAnother:
-	.string "El efecto del REPELENTE se agotó…\n"
-	.string "¿Usar otro?$"
+	.string "REPEL's effect wore off…\n"
+	.string "Use another?$
