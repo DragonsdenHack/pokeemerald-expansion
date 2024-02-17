@@ -1,6 +1,6 @@
 Route102_Text_CalvinIntro:
 	.string "Si llevas algún POKÉMON contigo,\n"
-	.string "oficialmente entrenas Pokémon. ¡No\l"
+	.string "oficialmente entrenas Pokémon. No\l"
 	.string "puedes negarte a luchar conmigo!$"
 
 Route102_Text_CalvinDefeated:
@@ -9,7 +9,7 @@ Route102_Text_CalvinDefeated:
 
 Route102_Text_CalvinPostBattle:
 	.string "Vamos a ver, si eres tan fuerte,\n"
-	.string "¡deberías habérmelo dicho antes!$"
+	.string "deberías habérmelo dicho antes!$"
 
 Route102_Text_CalvinRegister:
 	.string "I've been working hard at this since\n"
@@ -36,7 +36,7 @@ Route102_Text_CalvinRematchPostBattle:
 
 Route102_Text_AllenIntro:
 	.string "¿Acabas de empezar a entrenar\n"
-	.string "POKÉMON? ¡Yo también!$"
+	.string "POKÉMON? Yo también!$"
 
 Route102_Text_AllenDefeated:
 	.string "Te he desafiado porque pensé que\n"
@@ -47,19 +47,19 @@ Route102_Text_AllenPostBattle:
 	.string "gane algún combate pronto…$"
 
 Route102_Text_RickIntro:
-	.string "¡Ajajá! ¡Me estabas mirando! ¡Te\n"
+	.string "Ajajá! Me estabas mirando! Te\n"
 	.string "desafío con mis POKÉMON BICHO!$"
 
 Route102_Text_RickDefeated:
-	.string "¡Ooooh! ¡Me has noqueado!$"
+	.string "Ooooh! Me has noqueado!$"
 
 Route102_Text_RickPostBattle:
-	.string "Si miras a los ojos a un ENTRENADOR, ¡le\n"
-	.string "estás desafiando! ¡Son las reglas!$"
+	.string "Si miras a los ojos a un ENTRENADOR, le\n"
+	.string "estás desafiando! Son las reglas!$"
 
 Route102_Text_TianaIntro:
 	.string "Voy a seguir con mi racha de victorias\n"
-	.string "hasta ser la mejor ENTRENADORA. ¡Y tú\l"
+	.string "hasta ser la mejor ENTRENADORA. Y tú\l"
 	.string "vas a ayudarme!$"
 
 Route102_Text_TianaDefeated:
@@ -157,24 +157,24 @@ Route103_Text_LivRematchNotEnoughPokemon:
 	.string "It's not fair if you don't!$"
 
 Route103_Text_AndrewIntro:
-	.string "¡Brrrr! ¡Mi hilo de pescar está todo\n"
-	.string "enredado! ¡Qué fastidio tan gordo! ¡La\l"
+	.string "Brrrr! Mi hilo de pescar está todo\n"
+	.string "enredado! Qué fastidio tan gordo! La\l"
 	.string "voy a pagar contigo!$"
 
 Route103_Text_AndrewDefeated:
-	.string "¡Brrrr! ¡He perdido! ¡Ahora estoy aún\n"
+	.string "Brrrr! He perdido! Ahora estoy aún\n"
 	.string "más mosqueado!$"
 
 Route103_Text_AndrewPostBattle:
-	.string "¡Brrrr! ¡Qué mosqueo más tonto tengo!\n"
-	.string "¡Brrrrrrrrrr!$"
+	.string "Brrrr! Qué mosqueo más tonto tengo!\n"
+	.string "Brrrrrrrrrr!$"
 
 Route103_Text_MiguelIntro:
-	.string "Mi POKÉMON es una monada. ¡Mira, te lo\n"
+	.string "Mi POKÉMON es una monada. Mira, te lo\n"
 	.string "voy a enseñar!$"
 
 Route103_Text_MiguelDefeated:
-.string "¡Ay, ay, ay, ay! ¡Mi POKÉMON bonito!$"
+.string "Ay, ay, ay, ay! Mi POKÉMON bonito!$"
 
 Route103_Text_MiguelPostBattle:
 	.string "Mi querido POKÉMON es una monada hasta\n"
@@ -197,19 +197,19 @@ Route103_Text_MiguelRematchPostBattle:
 	.string "the more adorable my POKéMON becomes.$"
 
 Route103_Text_PeteIntro:
-	.string "Aquí no hay distancia... ¡Deberías\n"
+	.string "Aquí no hay distancia... Deberías\n"
 	.string "echarte a nadar!$"
 
 Route103_Text_PeteDefeated:
-	.string "¡Tocado y hundido!$"
+	.string "Tocado y hundido!$"
 
 Route103_Text_PetePostBattle:
 	.string "Ah, claro, ya entiendo. Si tuviera un\n"
-	.string "Pokémon como el tuyo, ¡yo también haría\l"
+	.string "Pokémon como el tuyo, yo también haría\l"
 	.string "SURF!$"
 
 Route103_Text_IsabelleIntro:
-	.string "¡Mira por dónde vas! ¡Colisión!$"
+	.string "Mira por dónde vas! Colisión!$"
 
 Route103_Text_IsabelleDefeated:
 	.string "Glu, glu, glu…$"
@@ -219,18 +219,18 @@ Route103_Text_IsabellePostBattle:
 	.string "Siento haber provocado la colisión.$"
 
 Route103_Text_RhettIntro:
-.string "¡Guay! ¿Cómo te has metido aquí?$"
+.string "Guay! ¿Cómo te has metido aquí?$"
 
 Route103_Text_RhettDefeated:
-	.string "¡Guau!\n"
-	.string "¡Qué potencia!$"
+	.string "Guau!\n"
+	.string "Qué potencia!$"
 
 Route103_Text_RhettPostBattle:
 .string "¿A ti te gustan los espacios pequeños?$"
 
 Route103_Text_MarcosIntro:
 	.string "Las notas de mi guitarra atraen a la\n"
-	.string "gente. ¡La prueba eres tú!$"
+	.string "gente. La prueba eres tú!$"
 
 Route103_Text_MarcosDefeated:
 	.string "Has arruinado mi espectáculo…$"
@@ -277,7 +277,7 @@ Route104_Text_MiaNotEnoughMons:
 	.string "We're too strong for you!$"
 
 Route104_Text_IvanIntro:
-	.string "¿Por qué negarlo? ¡Soy experto en\n"
+	.string "¿Por qué negarlo? Soy experto en\n"
 	.string "Pokémon de tipo AGUA! ¿Eh? ¿Que no\l"
 	.string "sabes quién soy?$"
 
@@ -290,11 +290,11 @@ Route104_Text_IvanPostBattle:
 	.string "haber entrenado a mis POKÉMON.$"
 
 Route104_Text_BillyIntro:
-	.string "¡Dejar huellas en la arena es tan\n"
+	.string "Dejar huellas en la arena es tan\n"
 	.string "divertido!$"
 
 Route104_Text_BillyDefeat:
-	.string "¡Aaaaah! ¡Tengo arena en los zapatos!\n"
+	.string "Aaaaah! ¡Tengo arena en los zapatos!\n"
 	.string "¡Es la mar de desagradable!$"
 
 Route104_Text_BillyPostBattle:
@@ -5101,7 +5101,7 @@ Route6_Text_Cazabichos2Intro:
 
 
 Route6_Text_Cazabichos2Defeated:
-	.string "¡No! Are you kidding me?$"
+	.string "No! Are you kidding me?$"
 
 
 Route6_Text_Cazabichos2PostBattle:
@@ -5143,7 +5143,7 @@ MtMoon1F_Text_ChicaIntro:
 
 
 MtMoon1F_Text_ChicaDefeated:
-	.string "¡My poor BELLSPROUT!$"
+	.string "My poor BELLSPROUT!$"
 
 
 MtMoon1F_Text_ChicaPostBattle:
@@ -5152,11 +5152,11 @@ MtMoon1F_Text_ChicaPostBattle:
 
 
 MtMoon1F_Text_CazabichosIntro:
-	.string "¡A ROCKET! ¡Aghhhh! ¡Ughhhhh!$"
+	.string "A ROCKET! Aghhhh! Ughhhhh!$"
 
 
 MtMoon1F_Text_CazabichosDefeated:
-	.string "¡My BUG POKÉMON!$"
+	.string "My BUG POKÉMON!$"
 
 
 MtMoon1F_Text_CazabichosPostBattle:
@@ -5220,7 +5220,7 @@ Route24_Text_CazabichosIntro:
 
 
 Route24_Text_CazabichosDefeated:
-	.string "¡Whoo!$"
+	.string "Whoo!$"
 
 
 Route24_Text_CazabichosPostBattle:
@@ -5433,8 +5433,8 @@ Route25_Text_Chica2Defeated:
 
 
 Route25_Text_Chica2PostBattle:
-	.string "¿Estuviste en el MT.MOON?\n"
-	.string "¿Viste a algún CLEFAIRY?$"
+	.string "Have you visited MT.MOON?\n"
+	.string "Did you see a CLEFAIRY?$"
 
 
 Route11_Text_AncianoIntro:
@@ -6078,7 +6078,7 @@ Route8_Text_Chica3Intro:
 
 
 Route8_Text_Chica3Defeated:
-	.string "¡Meeeeyow!$"
+	.string "Meeeeyow!$"
 
 
 Route8_Text_Chica3PostBattle:
@@ -6477,7 +6477,7 @@ PokemonTower4F_Text_Channeler2Defeated:
 
 
 PokemonTower4F_Text_Channeler2PostBattle:
-	.string "¡Kikikikikikikikikikiki!$"
+	.string "Kikikikikikikikikikiki!$"
 
 
 PokemonTower4F_Text_Channeler3Intro:
@@ -6501,7 +6501,7 @@ PokemonTower5F_Text_ChannelerIntro:
 
 
 PokemonTower5F_Text_ChannelerDefeated:
-	.string "¡Aghhhhh!$"
+	.string "Aghhhhh!$"
 
 
 PokemonTower5F_Text_ChannelerPostBattle:
@@ -6544,7 +6544,7 @@ PokemonTower5F_Text_Channeler4Intro:
 
 
 PokemonTower5F_Text_Channeler4Defeated:
-	.string "¡Gasp!$"
+	.string "Gasp!$"
 
 
 PokemonTower5F_Text_Channeler4PostBattle:
@@ -6558,7 +6558,7 @@ PokemonTower6F_Text_ChannelerIntro:
 
 
 PokemonTower6F_Text_ChannelerDefeated:
-	.string "¡Groan!$"
+	.string "Groan!$"
 
 
 PokemonTower6F_Text_ChannelerPostBattle:
@@ -6582,7 +6582,7 @@ PokemonTower6F_Text_Channeler3Intro:
 
 
 PokemonTower6F_Text_Channeler3Defeated:
-	.string "¡Kwahhhhhh!$"
+	.string "Kwahhhhhh!$"
 
 
 PokemonTower6F_Text_Channeler3PostBattle:
@@ -8365,11 +8365,11 @@ Silph9F_Policia2PostBattle:
 
 
 Silph10F_Text_CientificoIntro:
-	.string "¡Game over Rocket!$"
+	.string "Game over Rocket!$"
 
 
 Silph10F_Text_CientificoDefeated:
-	.string "¡Stop please!$"
+	.string "Stop please!$"
 
 
 Silph10F_CientificoPostBattle:
@@ -11422,7 +11422,7 @@ CinnabarMansionS2_Text_Cientifico3Intro:
 
 
 CinnabarMansionS2_Text_Cientifico3Defeated:
-	.string "¡Only OAK can rule over KANTO!$"
+	.string "Only OAK can rule over KANTO!$"
 
 
 CinnabarMansionS2_Text_Cientifico3PostBattle:
@@ -11626,7 +11626,7 @@ VioletSprotTowerP2_Text_Pensador2Intro:
 
 
 VioletSprotTowerP2_Text_Pensador2Defeated:
-	.string "¡VICTREBEEL!\n"
+	.string "VICTREBEEL!\n"
 	.string "What happened?$"
 
 
@@ -11645,7 +11645,7 @@ VioletGym_Text_ChicoIntro:
 
 
 VioletGym_Text_ChicoDefeated:
-	.string "¡My birds!$"
+	.string "My birds!$"
 
 
 VioletGym_Text_ChicoPostBattle:
@@ -11740,7 +11740,7 @@ Route32_Text_Pescador3Intro:
 
 
 Route32_Text_Pescador3Defeated:
-	.string "¡Aghhh!$"
+	.string "Aghhh!$"
 
 
 Route32_Text_Pescador3PostBattle:
@@ -11833,9 +11833,9 @@ UnionCave_Text_KaratekaPostBattle:
 
 
 UnionCave_Text_Necio2Intro:
-	.string "¡Jah!\n"
-	.string "¡Mi colección es incomparable!\l"
-	.string "¡Observa y llora!$"
+	.string "Jah!\n"
+	.string "Mi colección es incomparable!\l"
+	.string "Observa y llora!$"
 
 
 UnionCave_Text_Necio2Defeated:
@@ -11856,7 +11856,7 @@ UnionCaveS1_Text_MontaneroIntro:
 
 
 UnionCaveS1_Text_MontaneroDefeated:
-	.string "¡Aaarg...!$"
+	.string "Aaarg...!$"
 
 
 UnionCaveS1_Text_MontaneroPostBattle:
@@ -13082,7 +13082,7 @@ Route41_Text_Nadadora4Intro:
 
 
 Route41_Text_Nadadora4Defeated:
-	.string "¡Ooh!$"
+	.string "Ooh!$"
 
 
 Route41_Text_Nadadora4PostBattle:
@@ -15745,7 +15745,7 @@ WaterPath_Text_Pareja1Intro:
 
 
 WaterPath_Text_Pareja1Defeated:
-	.string "MARU: ¡Nooooo! ¡Mommmmm!$"
+	.string "MARU: Nooooo! Mommmmm!$"
 
 
 

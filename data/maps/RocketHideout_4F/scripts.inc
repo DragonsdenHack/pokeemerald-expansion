@@ -2019,7 +2019,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_9:
 	.string "CUBONE, migrated to the tunnel, managed\l"
 	.string "to survive, and became a KANGASKHAN on\l"
 	.string "its own. Maybe a phenomenon that we will\l"
-	.string "observe increasingly over time, if this\l"
+	.string "observe increasingly over time, if this$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_10:
 .string "GIOVANNI: Ignoring the matter at hand,\n"
