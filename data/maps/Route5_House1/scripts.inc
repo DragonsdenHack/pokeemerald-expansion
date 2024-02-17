@@ -14,10 +14,9 @@ release
 end
 
 Route5House1_1_Texto_1:
-	.string "Lo siento, pero la política del TEAM\n"
-	.string "ROCKET impide meter dentro del negocio\l"
-	.string "a sus propios POKÉMON. Espero que lo\l"
-	.string "entiendas.$"
+	.string "Sorry, but TEAM ROCKET doesn't allow\n"
+	.string "their own POKÉMON inside the business.\l"
+	.string "Hope you get it.$"
 
 Route5_House1_Criador::
 applymovement OBJ_EVENT_ID_PLAYER, Route5_House1_Criador_1_move1.1
@@ -369,7 +368,8 @@ end
 Route5_House1_Warp_Text_YesNo:
 .string "There is a trapdoor that appears subtly\n"
 	.string "some stairs that lead to an\l"
-	.string "underground area Do you wanna enter\l"
+	.string "underground area.\p"
+	.string "Do you wanna enter\n"
 	.string "into the ROCKET BASE?$"
 
 Route5_House1_Warp_move2:

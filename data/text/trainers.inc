@@ -4859,7 +4859,7 @@ WaterLabyrinth_Text_LassPostBattle:
 
 WaterLabyrinth_Text_GentlemanIntro:
 	.string "Huh? An EGG containing a TOGEPI? I\n"
-    .string "don't give gifts to criminals$"
+    .string "don't give gifts to criminals.$"
 
 
 WaterLabyrinth_Text_GentlemanDefeated:
@@ -5030,8 +5030,8 @@ LostCaveB1FLastRoom_Text_RicaPostBattle:
 
 Route6_Text_Joven1Intro:
 	.string "After all that you have caused for the\n"
-	.string "region you have the cynicism cynicism\l"
-	.string "to walk around here?$"
+	.string "region you have the cynicism to walk\l"
+	.string "around here?$"
 
 
 Route6_Text_Joven1Defeated:

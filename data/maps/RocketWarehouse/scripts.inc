@@ -29,10 +29,10 @@ release
 end
 
 RocketWarehouse_Text_4:
-.string "ATLAS te está esperando junto con\n"
-	.string "el otro ROCKET que ha podido\l"
-	.string "vencerme, pasa y conoce los\l"
-	.string "detalles de tu misión.$"
+    .string "ARCHER is waiting for you and the other\n"
+    .string "ROCKET who was able to defeat me, go\l"
+    .string "ahead and listen carefully to the\l"
+    .string "details of the mission.$"
 
 
 
@@ -316,7 +316,7 @@ end
 RocketWarehouse_Text_16:
     .string "I'm on guard just in case, some kids\n"
     .string "these days like to be nosy where they\l"
-    .string "shouldn't be$"
+    .string "shouldn't be.$"
 
 
 RocketWarehouse_EventScript_Isaac::
@@ -347,16 +347,14 @@ release
 end
 
 RocketWarehouseDocumento_Text_106:
-	.string "Según nuestros últimos estudios,\n"
-	.string "determinadas frecuencias de radio\l"
-	.string "pueden influir directamente en el\l"
-	.string "proceso de evolución de los\l"
-	.string "POKÉMON, crear mutaciones que\l"
-	.string "afecten a su color original y, en\l"
-	.string "los casos más extremos, disparar\l"
-	.string "sus STATS BASE globales\l"
-	.string "modificando completamente los\l"
-	.string "genes.$"
+	.string "Based on our recent research, specific\n"
+	.string "radio frequencies have the potential\l"
+	.string "to directly impact the evolution\l"
+	.string "process of POKÉMON, induce mutations\l"
+	.string "that alter their original color, and in\l"
+	.string "extreme instances, alter their overall\l"
+	.string "BASE STATS, resulting in complete gene\l"
+	.string "modification.$"
 
 
 
@@ -477,7 +475,7 @@ RocketWarehouseSoldado_Text_Soldado3:
     .string "ARCHER is waiting for you and the other\n"
     .string "ROCKET who was able to defeat me, go\l"
     .string "ahead and listen carefully to the\l"
-    .string "details of the mission$"
+    .string "details of the mission.$"
 
 
 
@@ -618,7 +616,7 @@ walk_in_place_right
 step_end
 
 RocketWarehouse_Text_MisionAtlas1:
-.string "Well, it looks like we are not expecting\n"
+.string "Well, it looks like we are not waiting for\n"
     .string "anyone else, it will be you two who will\l"
     .string "have the opportunity to get off to a\l"
     .string "good start in this organization, I will\l"
@@ -640,9 +638,9 @@ RocketWarehouse_Text_MisionAtlas2:
 
 
 RocketWarehouse_Text_MisionAtlas3:
-.string "However, he has recently cut his ties\n"
+.string "However, she has recently cut her ties\n"
     .string "with us, and we have indications that\l"
-    .string "he may at any time inform the KANTO\l"
+    .string "she may at any time inform the KANTO\l"
     .string "authorities of our movements in the\l"
     .string "SEVII ISLANDS, which would greatly\l"
     .string "diminish the profitability of our\l"
@@ -715,48 +713,48 @@ RocketWarehouse_Text_MisionAtlas10:
 
 
 RocketWarehouse_Text_MisionAtlas10_1:
-.string "Antiguamente, los ROCKET atrapaban uno\n"
-	.string "del PRADO, con sus propias manos.$"
+	.string "In the past, the ROCKETs would catch\n"
+	.string "one from the meadow, with their own\l"
+	.string "hands.$"
 
 RocketWarehouse_Text_MisionAtlas10_2:
-.string "Pero esta práctica, que tenía el\n"
-	.string "objetivo de instruir al ROCKET en\l"
-	.string "cualidades tan importantes como la\l"
-	.string "improvisación, el adaptarse y no dar\l"
-	.string "nada por sentado... dejó de hacerse.$"
+	.string "But this practice, which aimed to teach\n"
+	.string "the ROCKET important qualities such as\l"
+	.string "improvisation, adaptability, and not\l"
+	.string "taking anything for granted... was\l"
+	.string "abandoned.$"
 
 RocketWarehouse_Text_MisionAtlas10_3:
-.string "En un inicio por ser ineficiente: podían\n"
-	.string "atraparse ingentes cantidades de\l"
-	.string "SENTRET a la vez y usarlas como\l"
-	.string "reserva para nuevos reclutas, pero...$"
+	.string "Initially, due to its inefficiency: we\n"
+	.string "could capture large quantities of\l"
+	.string "SENTRET at once and use them as a\l"
+	.string "reserve for new recruits, but...$"
 
 RocketWarehouse_Text_MisionAtlas10_4:
-.string "El principal motivo son las nuevas\n"
-	.string "generaciones: lo quieren todo hecho,\l"
-	.string "son incapaces de soportar una pequeña\l"
-	.string "incomodidad que sirve a un fin mayor.$"
+	.string "The main reason is 'new generations':\n"
+	.string "they want everything done for them,\l"
+	.string "they are unable to tolerate a little\l"
+	.string "discomfort that serves a greater\l"
+	.string "purpose.$"
 
 RocketWarehouse_Text_MisionAtlas10_5:
-.string "Al TEAM ROCKET, como organización que\n"
-	.string "pretende seguir vigente, no le queda\l"
-	.string "más remedio que ceder. Si la gente\l"
-	.string "juzga un libro por su portada, no habrá\l"
-	.string "más remedio que colorearla, aunque sea\l"
-	.string "un poco. Tal vez así aquellos que solo\l"
-	.string "aspiran a alargar la vista, puedan\l"
-	.string "adentrarse en la superficie.$"
+	.string "TEAM ROCKET, as an organization\n"
+	.string "striving to remain relevant, there's no\l"
+	.string "choice but to give in. If people judge a\l"
+	.string "book by its cover, there's no choice but\l"
+	.string "to color it, even if just a bit. Perhaps\l"
+	.string "then those who only aim to skim the\l"
+	.string "surface can delve deeper.$"
 
 RocketWarehouse_Text_MisionAtlas10_6:
-.string "Dicho esto, aquí tenéis vuestros\n"
-	.string "SENTRET.$"
+	.string "With that said, here are your SENTRET.$"
 
 RocketWarehouse_Text_MisionAtlas11:
 .string "You don't have to worry about having\n"
 .string "problems using SURF, we are TEAM\l"
 .string "ROCKET, we are not bound by that\l"
 .string "stupid code of having certain medals\l"
-.string "to use MOs, you will use them when you\l"
+.string "to use HMs, you will use them when you\l"
 .string "need them and that's it.$"
 
 RocketWarehouse_Text_MisionAtlas12:
@@ -884,124 +882,109 @@ release
 end
 
 RocketWarehouse_Text_Vuelta_MisionAtlas1:
-.string "ATLAS: Bien. Habéis vuelto, como\n"
-	.string "ya sabréis del discurso de\l"
-	.string "entrada, en el TEAM ROCKET sabemos\l"
-	.string "recompensar la meritocracia, damos\l"
-	.string "prioridad al resultado final y\l"
-	.string "debido a que en este caso el\l"
-	.string "balance ha sido positivo, aquí\l"
-	.string "tenéis vuestra recompensa.$"
+	.string "ARCHER: Alright. You've come back, as\n"
+	.string "you're aware from the opening speech,\l"
+	.string "at TEAM ROCKET, we believe in rewarding\l"
+	.string "merit. We value the final outcome, and\l"
+	.string "since it's been positive here, you're\l"
+	.string "getting your reward.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
-.string "¡{PLAYER} OBTUVO 25000 POKÉS!$"
+	.string "{PLAYER} EARNED 25000 POKÉS!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas3:
-.string "¡ANDRA OBTUVO 25000 POKÉS!$"
+	.string "ANDRA EARNED 25000 POKÉS!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4:
-.string "ATLAS: Con eso podréis costearos\n"
-	.string "ciertos recursos para vuestros\l"
-	.string "POKÉMON y así mejorar las\l"
-	.string "prestaciones de vuestro\l"
-	.string "equipo. Espero que no lo\l"
-	.string "malgastéis en tonterías, tener más\l"
-	.string "dinero da mayor libertad de\l"
-	.string "elección, pero de nada sirve si en\l"
-	.string "última instancia lo ponéis en\l"
-	.string "movimiento de la forma incorrecta\l"
-	.string "o no aprovecháis lo que adquirís\l"
-	.string "gracias a él.$"
+	.string "ARCHER: With that, you'll be able to\n"
+	.string "afford certain resources for your\l"
+	.string "POKÉMON and thus enhance your team's\l"
+	.string "performance. I hope you don't squander\l"
+	.string "it on frivolities. Having more money\l"
+	.string "provides greater freedom of choice, but\l"
+	.string "it's futile if mismanaged or if you fail\l"
+	.string "to utilize what you acquire\l"
+	.string "effectively.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas5:
-.string "ATLAS: Dicho esto, habéis cumplido\n"
-	.string "la misión, pero de forma\l"
-	.string "subóptima.$"
+	.string "Having said that, you've completed the\n"
+	.string "mission, but suboptimally.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas6:
-.string "ATLAS: Debéis saber que aquí\n"
-	.string "actuamos como un solo cuerpo, eso\l"
-	.string "nos hace fuertes, lejos de ser un\l"
-	.string "acto de cobardía, es un acto de\l"
-	.string "inteligencia y entendimiento de\l"
-	.string "que dos mentes valen más que una.\l"
-	.string "Ninguna organización grande se ha\l"
-	.string "formado a partir de un único\l"
-	.string "individuo.$"
+           .string "ATLAS: It's important for you to\n"
+	.string "understand that we function as a\l"
+	.string "unified entity here, which strengthens\l"
+	.string "us. This isn't a sign of weakness; it's a\l"
+	.string "demonstration of intelligence and\l"
+	.string "recognition that collaboration is key.\l"
+	.string "No major organization has arisen from\l"
+	.string "the efforts of a solitary individual.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas7:
-.string "ATLAS: Creí haber dejado claro que\n"
-	.string "ambos negociaríais a la vez con la\l"
-	.string "CÓNSUL, cubriéndoos las espaldas\l"
-	.string "en caso de torcerse las cosas.\l"
-	.string "¿Cómo es ANDRA, que no esperaste a\l"
-	.string "{PLAYER} y decidiste entrar sola al\l"
-	.string "lugar?$"
+	.string "I thought I was clear when I said that\n"
+	.string "both of you would negotiate with the\l"
+	.string "CONSUL at the same time, having each\l"
+	.string "other's backs in case things went\l"
+	.string "wrong. What's up, ANDRA? Why didn't you\l"
+	.string "wait for {PLAYER} and went in alone?$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas8:
-.string "ANDRA: Creí que mis habilidades\n"
-	.string "eran suficientes para afrontar el\l"
-	.string "reto SR.ATLAS, no conté con tener\l"
-	.string "que lidiar con un MAREEP y su\l"
-	.string "IMPACTRUENO, me equivoqué.$"
+	.string "I believed my skills were sufficient to\n"
+	.string "face the challenge, MR.ARCHER. I didn't\l"
+	.string "anticipate having to deal with a MAREEP\l"
+	.string "and its THUNDERSHOCK. I was wrong.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
-.string "ATLAS: ... ...\n"
-	.string "Has mostrado valor e iniciativa\l"
-	.string "propia al entrar tú sola, y\l"
-	.string "admitido tu error, por el momento\l"
-	.string "con eso basta, pero que te sirva\l"
-	.string "de ejemplo y experiencia.$"
+	.string "ARCHER: ... ... You have shown courage\n"
+	.string "and initiative by entering alone, and\l"
+	.string "admitted your mistake. For now, that is\l"
+	.string "sufficient, but let it serve as an\l"
+	.string "example and experience.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas10:
-.string "ATLAS: Dicho esto, zarparéis de\n"
-	.string "inmediato a KANTO, necesitamos\l"
-	.string "cada vez más efectivos en nuestro\l"
-	.string "principal centro financiero, un\l"
-	.string "barco en el puerto os espera.$"
+	.string "ARCHER: With that said, you will set sail\n"
+	.string "immediately to KANTO. We need more and\l"
+	.string "more personnel at our main financial\l"
+	.string "center. A ship in the harbor awaits you.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
-.string "ATLAS: ... ...\n"
-	.string "No quiero que os vayáis de esta\l"
-	.string "isla sin ningún recuerdo que os\l"
-	.string "vincule con vuestra pequeña\l"
-	.string "estancia en ella, es probable que\l"
-	.string "volváis en algún momento, pero\l"
-	.string "mientras tanto, cuidad de esto.$"
+	.string "ARCHER: ... ... I don't want you to leave\n"
+	.string "this island without something to\l"
+	.string "remember your short time here. You\l"
+	.string "might come back someday, but for now,\l"
+	.string "take care of this.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas12:
-.string "¡{PLAYER} OBTUVO UN HUEVO POKÉMON!$"
+	.string "PLAYER OBTAINED A POKÉMON EGG!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas13:
-.string "¡ANDRA OBTUVO UN HUEVO POKÉMON!$"
+	.string "ANDRA OBTAINED A POKÉMON EGG!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas14:
-.string "ATLAS: Acabáis de recibir dos\n"
-	.string "huevos que contienen preciados\l"
-	.string "POKÉMON de JOHTO, difíciles de\l"
-	.string "encontrar por estas zonas, no\l"
-	.string "tengo nada más que deciros. Id al\l"
-	.string "puerto cuanto antes, a vuestra\l"
-	.string "llegada a KANTO se os darán todos\l"
-	.string "los detalles sobre vuestras nuevas\l"
-	.string "misiones.$"
+	.string "ARCHER: You've just received two eggs\n"
+	.string "containing valuable JOHTO POKÉMON,\l"
+	.string "which are rare in this region. There's\l"
+	.string "nothing else to add. Make your way to\l"
+	.string "the port as soon as possible; upon your\l"
+	.string "arrival in KANTO, you'll be briefed on\l"
+	.string "your new missions.$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas15:
-.string "ANDRA: ¡ENTENDIDO, SIR!$"
+	.string "ANDRA: YES, SIR!$"
 
 RocketWarehouse_Vuelta_MisionAtlas_move1:
 walk_up

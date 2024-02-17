@@ -47,7 +47,7 @@ end
 MtMoon3F_Text_6:
 .string "ANDRA: Looks like there's nothing\n"
 	.string "important over here. Maybe in those\l"
-	.string "stairs tahr lead to the other entrance…$"
+	.string "stairs that lead to the other entrance…$"
 
 
 
@@ -569,7 +569,7 @@ MtMoon_3F_Miguel_Rojo_text_9:
 MtMoon_3F_Miguel_Rojo_text_10:
 .string "Grr… You ain't a normal ROCKET, I hate\n"
 	.string "when someone outstand stadistics.\l"
-	.string "About he FOSSILS…$"
+	.string "About the FOSSILS…$"
 
 MtMoon_3F_Miguel_Rojo_text_11:
 .string "Calling up {PLAYER}!! An even more\n"
@@ -907,7 +907,7 @@ MtMoon_3F_Pelea_Frank_texto13:
 	.string "we must train so that that kid doesn't\l"
 	.string "defeat us as easy as today. What will\l"
 	.string "PETREL say? I don't think that FRANK\l"
-	.string "will speak good things of you in in his\l"
+	.string "will speak good things of you in his\l"
 	.string "report, you should go quickly to the\l"
 	.string "quarters and tell him your version.$"
 

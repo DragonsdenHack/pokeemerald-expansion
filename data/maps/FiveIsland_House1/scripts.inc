@@ -9,10 +9,9 @@ release
 end
 
 FiveIsland_House1_Text_1:
-.string "Por lo general, en estas islas se\n"
-.string "trata mucho mejor al TEAM ROCKET\l"
-.string "que en la propia región de KANTO.\l"
-.string "Las campañas de desacreditación\l"
-.string "realizadas por el gobierno de la\l"
-.string "LIGA han perjudicado mucho a\l"
-.string "vuestra imagen.$"
+.string "TEAM ROCKET is generally treated much\n"
+    .string "better on these islands than in the\l"
+    .string "KANTO region. The discrediting\l"
+    .string "politician campaigns carried out by the\l"
+    .string "LEAGUE government have damaged your\l"
+    .string "image so badly.$"

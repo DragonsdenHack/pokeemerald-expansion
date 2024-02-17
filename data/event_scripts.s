@@ -946,7 +946,7 @@ gText_ThankYouForAccessingMysteryGift::
 	.string "MYSTERY GIFT System.$"
 
 gText_PlayerFoundOneTMHM::
-	.string "¡{PLAYER} encontró {STR_VAR_1}\n"
+	.string "{PLAYER} found {STR_VAR_1}\n"
 	.string "{STR_VAR_2}!$"
 
 gText_Sudowoodo_Attacked::

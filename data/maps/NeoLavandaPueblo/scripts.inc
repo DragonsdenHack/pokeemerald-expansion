@@ -563,5 +563,5 @@ release
 end
 
 NeoLavandaPueblo_Segundo_Policia_Texto_111::
-.string "seteado.$"
+.string "C.$"
 

@@ -54,11 +54,11 @@ release
 end
 
 IndigoPlateau_PokemonCenter_Text_4:
-	.string "Disculpe las molestias, pero en la última\n"
-	.string "LIGA POKÉMON hubo problemas técnicos\l"
-	.string "de última hora. Necesitaremos tiempo\l"
-	.string "para volver a reorganizar el\l"
-	.string "campeonato. Gracias.$"
+	.string "We apologize for the inconvenience, but\n"
+	.string "in the last POKÉMON LEAGUE, there were\l"
+	.string "some technical issues. We will need time\l"
+	.string "to rearrange the championship. Thank\l"
+	.string "you.$"
 
 
 

@@ -259,7 +259,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_1:
 	.string "massacred by RED, look…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_2:
-.string "¡Char!$"
+.string "Char!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_3:
 .string "Blas...$"
@@ -366,7 +366,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_16:
 	.string "'s unnatural…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_17:
-.string "AZUL: ¡¡¡{PLAYER}!!!\n"
+.string "AZUL: {PLAYER}!!!\n"
 	.string "You are here!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_18:
@@ -425,9 +425,9 @@ PokemonLeague_5F_Azul_Rojo_Texto_26:
 PokemonLeague_5F_Azul_Rojo_Texto_27:
 .string "IS THAT ALL YOU HAVE!!??\n"
 	.string "COM'ON, BRING MORE!\l"
-	.string "¡10!...\l"
-	.string "¡20!...\l"
-	.string "¡50!...\l"
+	.string "10!...\l"
+	.string "20!...\l"
+	.string "50!...\l"
 	.string "You will need something else than that\l"
 	.string "to bend our will and the will of our\l"
 	.string "POKÉMON!$"
@@ -441,7 +441,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_29:
 	.string "HALL OF FAME'S DOOR!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_30:
-.string "¡cross!$"
+.string "cross!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_31:
 	.string "BLUE: Wow! That HERACROSS has become\n"

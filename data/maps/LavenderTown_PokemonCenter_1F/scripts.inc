@@ -89,13 +89,13 @@ release
 end
 
 Curacion_Centros_Pokemon_Johto_Texto_1:
-.string "Bienvenido al CENTRO de curación\n"
-	.string "exprés...$"
+.string "Welcome to the ROCKET\n"
+	.string "PKMN CENTER...$"
 
 Curacion_Centros_Pokemon_Johto_Texto_2:
-.string "¡Y listo!\n"
-	.string "¡Todos tus POKÉMON están en plena\l"
-	.string "forma de nuevo!$"
+.string "Here we go!\p"
+	.string "All your POKÉMON are\n"
+	.string "in shape again!$"
 
 
 Curacion_Centros_Pokemon_Kanto::

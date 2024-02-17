@@ -1314,7 +1314,7 @@ RocketHideout_8F_Mision_Silph_text_45:
 
 
 RocketHideout_8F_Mision_Silph_text_46:
-	.string "¡ANDRA! ¡{PLAYER}! Your mission at\n"
+	.string "ANDRA! {PLAYER}! Your mission at\n"
 	.string "SILPH is as follows: We will force our\l"
 	.string "way in using a large portion of our\l"
 	.string "units. The two of you will be in charge\l"
@@ -1718,7 +1718,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_14:
 	.string "Executives… $"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
-	.string "ANDRA: ¡Damn BLAINE! ¡He has betrayed\n"
+	.string "ANDRA: Damn BLAINE! He has betrayed\n"
 	.string "us! FUJI was wrong about his\l"
 	.string "loyality. If LANCE would be able\l"
 	.string "to find MEWTWO, what could\l"
@@ -1779,7 +1779,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_23:
 	.string "trouble entering any GYM.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_23.1:
-	.string "¡YOU OBTAINED A TRAINER LICENSE FROM\n"
+	.string "YOU OBTAINED A TRAINER LICENSE FROM\n"
 	.string "GIOVANNI'S HANDS!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_24:
@@ -1823,7 +1823,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_30:
 	.string "(GIOVANNI GAVE BLUE THE EARTH BADGE).$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_31:
-	.string "BLUE: ¿¡Are you the last GYM LEADER?!$"
+	.string "BLUE: Are you the last GYM LEADER?!$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_32:
 	.string "GIOVANNI: Sometimes yes, sometimes no,\n"
@@ -1875,7 +1875,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_37:
 	.string "true face of this region, and you have\l"
 	.string "been forced to adapt to it. That gives\l"
 	.string "you an advantage and strength that\l"
-	.string "cannot be bought. ¡go and show it to\l"
+	.string "cannot be bought. Go and show it to\l"
 	.string "everyone!$"
 
 RocketHideout_8F_Mision_Gimnasios_move_1:
@@ -3048,7 +3048,7 @@ RocketHideout8F_Mision_Johto_Text_18:
 	.string "HOENN LEADER!$"
 
 RocketHideout8F_Mision_Johto_Text_19:
-.string "ANDRA: ¡Wow!\n"
+.string "ANDRA: Wow!\n"
 	.string "I can't believe it!$"
 
 RocketHideout8F_Mision_Johto_Text_20:

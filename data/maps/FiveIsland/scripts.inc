@@ -14,14 +14,13 @@ release
 end
 
 FiveIsland_Text_1:
-.string "Como recluta ROCKET que eres,\n"
-.string "deberías de saber que QWILFISH y\l"
-.string "TENTACOOL son dos POKÉMON tipo\l"
-.string "AGUA/VENENO que pueden venirte muy\l"
-.string "bien a la vez que darían el pego\l"
-.string "con el perfil de la organización,\l"
-.string "aprovecha estas aguas para\l"
-.string "atraparlos.$"
+    .string "As a ROCKET GRUNT, you should\n"
+    .string "know that QWILFISH and TENTACOOL\l"
+    .string "are two WATER/POISON type POKÉMON\l"
+    .string "that are strong while also matching\l"
+    .string "organization's profile, take\l"
+    .string "advantage of these waters to catch\l"
+    .string "them.$"
 
 
 
@@ -33,12 +32,11 @@ release
 end
 
 FiveIsland_Text_2:
-.string "La nueva cónsul de ISLA INTA no me\n"
-.string "gusta nada, ha colocado su casa en\l"
-.string "medio de la ZONA RECREO, antes\l"
-.string "podíamos jugar allí tranquilamente\l"
-.string "pero desde su llegada está\l"
-.string "prohibido.$"
+  .string "I don't like our new CHRONO ISLAND consul.\n"
+    .string "She has built her house in the middle of\l"
+    .string "RECREATION AREA, we could play there\l"
+    .string "quietly before but since her arrival\l"
+    .string "there it is prohibited.$"
 
 
 
@@ -50,10 +48,10 @@ release
 end
 
 FiveIsland_Text_3:
-.string "Esta isla es tenida como un puente\n"
-.string "de unión, transitorio entre lo\l"
-.string "viejo y lo nuevo, quizás algún día\l"
-.string "descubras la razón.$"
+    .string "This island is considered a union\n"
+    .string "bridge, transitory between old and new,\l"
+    .string "maybe one day you will discover the\l"
+    .string "reason.$"
 
 
 FiveIsland4::
@@ -64,14 +62,12 @@ release
 end
 
 FiveIsland_Text_4:
-.string "Ya hacemos suficiente cumpliendo\n"
-.string "el contrato que ATLAS nos hizo\l"
-.string "firmar para embarcar hacia KANTO\l"
-.string "a determinados ROCKETS de forma\l"
-.string "puntual.\l"
-.string "¡No quiero verte intentar nada\l"
-.string "raro fuera de vuestros horarios\l"
-.string "asignados!$"
+.string "The SEAGALLOP is doing enough with\n"
+    .string "contract that ARCHER made us sign to\l"
+    .string "ship certain ROCKETS to KANTO in this\l"
+    .string "political crisis. I don't want to see\l"
+    .string "you try anything weird outside of your\l"
+    .string "assigned times!$"
 
 
 
@@ -80,9 +76,8 @@ msgbox FiveIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 FiveIslandDocumento_Text_100:
-.string "ISLA INTA\n"
-	.string "La isla del tiempo: Donde pasa el\l"
-	.string "tiempo.$"
+    .string "FIVE ISLAND\n"
+    .string "Chrono Island: Where Time Goes$"
 
 
 
@@ -96,8 +91,8 @@ release
 end
 
 FiveIsland_Text_Derecha:     
-    .string "(No puedo alejarme del ALMACÉN sin\n"
-	.string "saber qué quiere ATLAS de mi).$"
+    .string "(I can't leave the WAREHOUSE\n"
+	.string "without talking to ARCHER).$"
 
 
 FiveIslandDerechaMove1:

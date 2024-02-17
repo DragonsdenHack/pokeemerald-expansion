@@ -186,7 +186,7 @@ CeruleanCity_Rocket_Excavar_Text_1:
 	.string "deal? PETREL ordered me and another\l"
 	.string "GRUNT a mission on CERULEAN CITY and\l"
 	.string "we thought that would be good having\l"
-	.string "some extra help, are you in?l"
+	.string "some extra help, are you in?\l"
 	.string "...\l"
 	.string "...\l"
 	.string "Nice!\l"

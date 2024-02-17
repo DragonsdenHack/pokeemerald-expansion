@@ -13,12 +13,11 @@ release
 end
 
 ResortGorgeous_Text_2:
-.string "¡Buen día camarada!\n"
-.string "ATLAS ya nos ha informado de\l"
-.string "vuestra misión en CASA CÓNSUL, tu\l"
-.string "compañera ya está dentro al\l"
-.string "parecer, deberías de entrar cuanto\l"
-.string "antes a ayudarla.$"
+    .string "Good morning comrade! ARCHER has\n"
+    .string "already informed us of your mission in\l"
+    .string "CONSUL's HOUSE, your partner is already\l"
+    .string "inside apparently, you should go in as\l"
+    .string "soon as possible to help her.$"
 
 ResortGorgeous3::
 end
@@ -84,4 +83,4 @@ msgbox ResortGorgeusDocumento_Text_100, MSGBOX_SIGN
 end
 
 ResortGorgeusDocumento_Text_100:
-	.string "CASA DE CÓNSUL$"
+    .string "SELPHY'S HOUSE$"

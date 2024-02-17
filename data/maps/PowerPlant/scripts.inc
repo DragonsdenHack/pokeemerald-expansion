@@ -107,8 +107,8 @@ release
 end
 
 PowerPlant16_Texto_1:
-.string "PETREL: Ocúpate de ZAPDOS {PLAYER},\n"
-	.string "¡rápido!$"
+.string "PETREL: Take care of ZAPDOS.\n"
+	.string "Go!$"
 
 
 
@@ -337,7 +337,7 @@ release
 end
 
 PowerPlant_Combate_Zapdos_Surge_Texto_1:
-.string "¡Zap!$"
+.string "Zap!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_2:
 .string "Zap...$"

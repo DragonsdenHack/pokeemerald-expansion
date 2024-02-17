@@ -47,33 +47,29 @@ end
 
 
 FiveIslandPort_Text_Andra_1:
-.string "ANDRA: Ya llegaste, aún no te he\n"
-	.string "pedido disculpas por mi\l"
-	.string "comportamiento anterior, pensaba\l"
-	.string "que ambos estábamos compitiendo y\l"
-	.string "quise quedar por encima tuya,\l"
-	.string "ATLAS y tú me habéis dado una\l"
-	.string "lección, ahora entiendo el poder\l"
-	.string "de trabajar en equipo.$"
+           .string "ANDRA: You're finally here. I haven't\n"
+	.string "even said sorry yet for how I acted\l"
+	.string "earlier. I thought we were both trying\l"
+	.string "to one-up each other. But ARCHER and\l"
+	.string "you taught me a lesson. I get it now,\l"
+	.string "teamwork is where it's at.$"
 
 FiveIslandPort_Text_Andra_2:
-.string "ANDRA: No obstante, eso no quita\n"
-	.string "que pueda tener iniciativa propia\l"
-	.string "y querer volver a mi equipo más\l"
-	.string "fuerte, la próxima vez que\l"
-	.string "combatamos voy a tumbar a todos\l"
-	.string "tus POKÉMON. Estoy decidida a\l"
-	.string "sobresalir por encima del SOLDADO\l"
-	.string "ROCKET medio en KANTO.$"
+	.string "ANDRA: But hey, that doesn't mean I\n"
+	.string "can't do my own thing and try to make my\l"
+	.string "team stronger. Next time we throw down,\l"
+	.string "I'm gonna take out all your POKÉMON. I'm\l"
+	.string "not here for just being a random ROCKET\l"
+	.string "GRUNT, did you mean?$"
+
 
 FiveIslandPort_Text_Andra_3:
-.string "MARINERO: ¿Queréis dejaros ya de\n"
-	.string "tanta charla?\l"
-	.string "¡Zarpamos ya hacia KANTO!$"
+	.string "SAILOR: Can we cut the chatter\n"
+	.string "already? We're heading to KANTO now!$"
 
 FiveIslandPort_Text_Andra_4:
-.string "ANDRA: Entremos ya, {PLAYER}. Nos\n"
-	.string "vemos en KANTO.$"
+	.string "ANDRA: Let's go, {PLAYER}. See you in\n"
+	.string "KANTO.$"
 
 FiveIslandPort_Andra_move1:
 walk_slow_down

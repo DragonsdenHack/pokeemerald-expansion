@@ -202,7 +202,7 @@ BerryForest_Evento_Hypno_Texto_4:
 	.string "W-what was that?!$"
 
 BerryForest_Evento_Hypno_Texto_5:
-	.string "LOSTELLE: Buuuua…. ¡BUAAAA! …$"
+	.string "LOSTELLE: Buuuua…. BUAAAA! …$"
 
 BerryForest_Evento_Hypno_Texto_6:
 	.string "I am afraid! I want to go home!$"
@@ -215,7 +215,7 @@ BerryForest_Evento_Hypno_Texto_8:
 	.string "Let's run, LOSTELLE!$"
 
 BerryForest_Evento_Hypno_Texto_9:
-	.string "LOSTELLE: ¡Y-yes!$"
+	.string "LOSTELLE: Y-yes!$"
 
 BerryForest_Evento_Hypno_Texto_10:
 	.string "????: It's been close; this can't go on\n"

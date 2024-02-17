@@ -71,8 +71,8 @@ release
 end
 
 RocketHideout1F_Text_5:
-.string "¡HAIL GIOVANNI!\n"
-.string "¡Forever!$"
+.string "HAIL GIOVANNI!\n"
+.string "Forever!$"
 
 
 

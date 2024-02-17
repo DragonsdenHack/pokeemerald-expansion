@@ -15,7 +15,7 @@ release
 end
 
 Route4_Text_1:
-.string "¡Ouch!\n"
+.string "Ouch!\n"
 .string "I stumbled upon a rocky Pokémon,\l"
 .string "GEODUDE!$"
 
@@ -163,8 +163,8 @@ Route4_Evento_Karatekas_Text_3:
 .string "Wasn't my offense enough?$"
 
 Route4_Evento_Karatekas_Text_4:
-.string "No way!\n"
-	.string "Only rocky POKÉMON withstand my MEGAPUNCH!$"
+.string "No way! Only rocky POKÉMON\n"
+	.string "withstand my MEGAPUNCH!$"
 
 Route4_Evento_Karatekas_Text_5:
 .string "HA! I told you already that your move\n"

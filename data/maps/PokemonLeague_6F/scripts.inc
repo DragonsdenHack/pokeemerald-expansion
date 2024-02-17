@@ -440,10 +440,10 @@ PokemonLeague_6F_Final_Texto_21:
 .string "RED: ...$"
 
 PokemonLeague_6F_Final_Texto_22:
-.string "¡...!$"
+.string "...!$"
 
 PokemonLeague_6F_Final_Texto_23:
-.string "¡NO!\n"
+.string "NO!\n"
 	.string "IMPOSIBLE!\l"
 	.string "INCONCEIVABLE!$"
 
@@ -644,7 +644,7 @@ PokemonLeague_6F_Final_Texto_51:
 	.string "belongs to it.$"
 
 PokemonLeague_6F_Final_Texto_52:
-.string "LANCE: ¡ENTEI, RAIKOU, SUICUNE!$"
+.string "LANCE: ENTEI, RAIKOU, SUICUNE!$"
 
 PokemonLeague_6F_Final_Texto_53:
 	.string "GIOVANNI: {PLAYER}! I never thought\n"

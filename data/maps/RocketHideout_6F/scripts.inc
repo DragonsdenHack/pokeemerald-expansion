@@ -471,7 +471,7 @@ RocketHideout_6F_Petrel_Text_Mision_7:
 	.string "should already know that we prioritize\l"
 	.string "the collective, still, I'll leave it to\l"
 	.string "you very clear. You have two ways of\l"
-	.string "upload here: 1) For each group mission\l"
+	.string "climb here: 1) For each group mission\l"
 	.string "we carry out evaluations of each\l"
 	.string "individual operation. 2) Not in all\l"
 	.string "missions we send a lot of GRUNTS, some\l"
@@ -559,10 +559,9 @@ release
 end
 
 RocketHideout_6F_Warp_Text_YesNo:
-.string "Basta un leve salto para alcanzar\n"
-	.string "las escaleras que llevan a la\l"
-	.string "GUARDERÍA, ¿quieres salir de la\l"
-	.string "BASE?$"
+	.string "A slight jump is enough to reach the\n"
+	.string "stairs leading to the DAYCARE. Do you\l"
+	.string "want to leave the BASE?$"
 
 RocketHideout_6F_Warp_move2.1:
 walk_in_place_down
@@ -1101,7 +1100,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_10:
 	.string "of work to do on islands.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_11:
-.string "¡PETREL!\n"
+.string "PETREL!\n"
 .string "I hope you reward these 2 GRUNTS. Their\l"
 	.string "actuations from now will save us an\l"
 	.string "appreciated time and millions of POKÉS.$"
@@ -1648,7 +1647,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_19:
 .string "At your service, ADMIN. PETREL!$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_20:
-.string "¡{PLAYER}!\n"
+.string "{PLAYER}!\n"
 .string "I will be going to train at ROUTES 9 and\l"
 	.string "10 at the east of CERULEAN CITY. Now\l"
 	.string "we got CUT we could access there, if\l"
@@ -1878,7 +1877,7 @@ RocketHideout_6F_Escena_Lance_Texto_17:
 	.string "news.$"
 
 RocketHideout_6F_Escena_Lance_Texto_18:
-	.string "ANDRA: ¡Yes, sir!$"
+	.string "ANDRA: Yes, sir!$"
 
 RocketHideout_6F_Escena_Lance_2_move1:
 walk_in_place_up

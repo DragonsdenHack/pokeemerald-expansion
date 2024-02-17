@@ -120,7 +120,7 @@ msgbox VermilionCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 VermilionCityDocumento_Text_102:
-	.string "VERMILION CIT\n"
+	.string "VERMILION CITY\n"
 	.string "The Port of Exquisite\l"
 	.string "Sunsets.$"
 
@@ -821,11 +821,11 @@ release
 end
 
 VermilionCity_Primer_NPC_Texto_1:
-.string "¡Toda esta contaminación que\n"
-	.string "últimamente se aprecia por la\l"
-	.string "región debe ser culpa vuestra!\l"
-	.string "¡Vuestros GRIMER y KOFFING acaban\l"
-	.string "con el medio ambiente!$"
+.string "All this polution around\n"
+	.string "here it's due to you!\l"
+	.string "That's for sure, GRIMER\l"
+	.string "and KOFFING are the\l"
+	.string "worst KANTO POKÉMON!$"
 
 VermilionCity_Barco::
 lock

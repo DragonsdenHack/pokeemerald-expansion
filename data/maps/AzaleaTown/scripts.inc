@@ -224,7 +224,7 @@ release
 end
 
 AzaleaTownDocumento_Text_108:
-.string "PIDGEOT: ¡Bi bibii!$"
+.string "PIDGEOT: Bi bibii!$"
 
 
 
@@ -249,7 +249,7 @@ release
 end
 
 AzaleaTownDocumento_Text_110:
-.string "MACHOP: ¡Chop! ¡Chop!$"
+.string "MACHOP: Chop! Chop!$"
 
 
 
@@ -262,7 +262,7 @@ release
 end
 
 AzaleaTownDocumento_Text_111:
-.string "POLIWRATH: ¡Poli, poli!$"
+.string "POLIWRATH: Poli, poli!$"
 
 
 AzaleaTownDocumento_112::
@@ -274,7 +274,7 @@ release
 end
 
 AzaleaTownDocumento_Text_112:
-.string "DODUO: ¡Dodu, odudodu!$"
+.string "DODUO: Dodu, odudodu!$"
 
 
 
@@ -286,7 +286,7 @@ release
 end
 
 AzaleaTownDocumento_Text_113:
-.string "CLEFAIRY: ¡¡Faaa!!$"
+.string "CLEFAIRY: Faaa!!$"
 
 
 
@@ -299,7 +299,7 @@ release
 end
 
 AzaleaTownDocumento_Text_114:
-.string "PIKACHU: ¡¡Pikaaa!!$"
+.string "PIKACHU: Pikaaa!!$"
 
 
 
@@ -312,7 +312,7 @@ release
 end
 
 AzaleaTownDocumento_Text_115:
-.string "PIDGEOT: ¡Bi bibii!$"
+.string "PIDGEOT: Bi bibii!$"
 
 
 
@@ -325,7 +325,7 @@ release
 end
 
 AzaleaTownDocumento_Text_116:
-.string "SPEAROW: ¡¡Roooooww!!$"
+.string "SPEAROW: Roooooww!!$"
 
 
 
@@ -338,7 +338,7 @@ release
 end
 
 AzaleaTownDocumento_Text_117:
-.string "PIDGEY: ¡¡Geyyyyy!!$"
+.string "PIDGEY: Geyyyyy!!$"
 
 
 
@@ -351,7 +351,7 @@ release
 end
 
 AzaleaTownDocumento_Text_118:
-.string "MILTANK: ¡¡Taaank!!$"
+.string "MILTANK: Taaank!!$"
 
 
 
@@ -363,7 +363,7 @@ release
 end
 
 AzaleaTownDocumento_Text_119:
-.string "MILTANK: ¡¡Taaank!!$"
+.string "MILTANK: Taaank!!$"
 
 
 
@@ -376,7 +376,7 @@ release
 end
 
 AzaleaTownDocumento_Text_120:
-.string "MEOWTH: ¡meowth!$"
+.string "MEOWTH: meowth!$"
 
 
 
@@ -389,7 +389,7 @@ release
 end
 
 AzaleaTownDocumento_Text_121:
-.string "AMPHAROS: ¡Amph!\n"
+.string "AMPHAROS: Amph!\n"
 	.string "(Su cola irradia una gran energía).$"
 
 
@@ -403,7 +403,7 @@ release
 end
 
 AzaleaTownDocumento_Text_122:
-.string "DRATINI: ¡Drag!$"
+.string "DRATINI: Drag!$"
 
 
 
@@ -416,7 +416,7 @@ release
 end
 
 AzaleaTownDocumento_Text_123:
-.string "NIDORAN: ¡Dan!$"
+.string "NIDORAN: Dan!$"
 
 AzaleaTownDocumento_JIGGLYPUFF::
 lock    
@@ -427,7 +427,7 @@ release
 end
 
 AzaleaTownDocumento_Text_JIGGLYPUFF:
-.string "JIGGLYPUFF: ¡Puff!$"
+.string "JIGGLYPUFF: Puff!$"
 
 
 
@@ -440,7 +440,7 @@ release
 end
 
 AzaleaTownDocumento_Text_124:
-.string "NIDORINO: ¡Nidor!$"
+.string "NIDORINO: Nidor!$"
 
 
 
@@ -453,7 +453,7 @@ release
 end
 
 AzaleaTownDocumento_Text_125:
-.string "NIDORAN: ¡Dan!$"
+.string "NIDORAN: Dan!$"
 
 
 
@@ -466,7 +466,7 @@ release
 end
 
 AzaleaTownDocumento_Text_126:
-.string "PSYDUCK: ¡Psydu!$"
+.string "PSYDUCK: Psydu!$"
 
 
 
@@ -479,7 +479,7 @@ release
 end
 
 AzaleaTownDocumento_Text_127:
-.string "CUBONE: ¡Cubon!$"
+.string "CUBONE: Cubon!$"
 
 
 
@@ -492,7 +492,7 @@ release
 end
 
 AzaleaTownDocumento_Text_128:
-.string "CHANSEY: ¡Chaan! ¡Chaan!$"
+.string "CHANSEY: Chaan! Chaan!$"
 
 
 
@@ -505,7 +505,7 @@ release
 end
 
 AzaleaTownDocumento_Text_129:
-.string "FEAROW: ¡Fea, row, row!$"
+.string "FEAROW: Fea, row, row!$"
 
 
 
@@ -518,7 +518,7 @@ release
 end
 
 AzaleaTownDocumento_Text_130:
-.string "WIGGLYTUFF: ¡Wig, tuuuf, tuuuf!$"
+.string "WIGGLYTUFF: Wig, tuuuf, tuuuf!$"
 
 
 
@@ -531,7 +531,7 @@ release
 end
 
 AzaleaTownDocumento_Text_131:
-.string "MACHOKE: ¡Cho! ¡Chokecho!$"
+.string "MACHOKE: Cho! Chokecho!$"
 
 
 
@@ -544,7 +544,7 @@ release
 end
 
 AzaleaTownDocumento_Text_132:
-.string "SEEL: ¡Eel!$"
+.string "SEEL: Eel!$"
 
 
 

@@ -106,8 +106,8 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_1:
 	.string "hope you don't come back to this place,\l"
 	.string "here we only deal with distinguished\l"
 	.string "people with worthy POKÉMON. Like that\l"
-	.string "guy who came back a few earlier with\l"
-	.string "his WARTORTLE, a good specimen, yes…$"
+	.string "guy who came here a few earlier with\l"
+	.string "his SQUIRTLE, a good specimen, yes…$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_2:
 .string "The POKÉMON world is so big, even from\n"
@@ -179,7 +179,7 @@ release
 end
 
 VermilionCity_Seel_Texto_1:
-.string "SEEL: ¡KYUUUO!$"
+.string "SEEL: KYUUUO!$"
 
 
 VermilionCity_Pikachu::
@@ -192,7 +192,7 @@ release
 end
 
 VermilionCity_Pikachu_Texto_1:
-.string "PIKACHU: ¡CHU! ¡PIKACHU!$"
+.string "PIKACHU: CHU! PIKACHU!$"
 
 
 

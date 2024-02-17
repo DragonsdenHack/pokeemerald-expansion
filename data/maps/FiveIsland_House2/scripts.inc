@@ -9,11 +9,9 @@ release
 end
 
 FiveIsland_House2_Text_1:
-.string "El PRADO que hay al este ha\n"
-.string "pertenecido a mi familia durante\l"
-.string "generaciones, debería de haber\l"
-.string "construido una enorme mansión en\l"
-.string "él.\l"
-.string "¡Sería preferible a tener que\l"
-.string "soportaros a ti y a tu salvaje\l"
-.string "organización!$"
+    .string "The meadow to the east has been my\n"
+    .string "family's propierty for generations, I\l"
+    .string "should have built a huge mansion on it.\l"
+    .string "It would be preferable instead of\l"
+    .string "having to put up with you and your\l"
+    .string "savage organization!$"

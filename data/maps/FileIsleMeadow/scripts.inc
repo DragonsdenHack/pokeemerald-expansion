@@ -44,14 +44,10 @@ release
 end
 
 FileIsleMeadow7_Text_7:
-.string "-ARON ama a NORA-\n"
-	.string "-HO-OH es ese HO-OH-\l"
-	.string "La gracia de nuestras contraseñas\l"
-	.string "es que se leen igual al revés,\l"
-	.string "aunque también he oído que ese\l"
-	.string "HO-OH es un poderoso POKÉMON de\l"
-	.string "JOHTO, la región de donde proviene\l"
-	.string "ATLAS.$"
+	.string "'Goldeen need log' and 'Yes, nah,\n"
+	.string "Chansey'. The cleverness of our\l"
+	.string "passwords lies in their palindromic\l"
+	.string "nature.$"
 
 
 
@@ -68,11 +64,11 @@ end
 
 
 FileIsleMeadow6_Text_6YesNo:
-.string "Algunos dicen que nuestro ALMACÉN\n"
-	.string "destruye y contamina el paisaje de\l"
-	.string "la isla, yo pienso que le da un\l"
-	.string "toque único y cierta personalidad.\l"
-	.string "¿Estás conmigo?$"
+	.string "Some say that our WAREHOUSE destroys\n"
+	.string "and contaminates the island's\l"
+	.string "landscape, but I believe it adds a\l"
+	.string "unique touch and certain personality.\l"
+	.string "Are you with me?$"
 
 
 
@@ -83,16 +79,14 @@ end
 
 
 FileIsleMeadow6_Text_6Yes:
-.string "¡Así se habla!\n"
-	.string "¡TEAM ROCKET al poder!$"
+	.string "Well said! TEAM ROCKET rules!$"
 
 
 
 FileIsleMeadow6_Text_6No:
-.string "¡Todo ROCKET que se precie sabe\n"
-	.string "que los paisajes industriales son\l"
-	.string "lo mejor del mundo!\l"
-	.string "¡Eres una deshonra!$"
+	.string "Any self-respecting ROCKET knows that\n"
+	.string "industrial landscapes are the best in\l"
+	.string "the world! You're a disgrace!$"
 
 
 FileIsleMeadow_Recluta_Balls::
@@ -115,8 +109,8 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_Text_3.1:
-.string "¡¡{PLAYER} obtuvo 5 POKÉ BALL\n"
-	.string "de manos de Recluta Rocket!!$"
+.string "¡¡{PLAYER} obtained 5 POKÉ BALL\n"
+	.string "from ROCKET GRUNT!!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo::
 lock
@@ -305,10 +299,10 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_Debil_Texto_1:
-.string "Pareces ser otro ROCKET más del montón.\n"
-	.string "Si logras que ATLAS te asigne una\l"
-	.string "misión especial, vuelve a hablar\l"
-	.string "conmigo.$"
+	.string "You appear to be another ordinary\n"
+	.string "ROCKET among the crowd. If you succeed\l"
+	.string "in securing a special mission from\l"
+	.string "ARCHER, come back and speak with me.$"
 
 FileIsleMeadow_Recluta_Balls_No::
 msgbox FileIsleMeadow_Recluta_Balls_Text_4, MSGBOX_AUTOCLOSE
@@ -318,35 +312,31 @@ end
 
 
 FileIsleMeadow_Recluta_Balls_Text_1:
-    .string "¡Heyy, camarada!\n"
-	.string "¿Vas justo de objetos?\l"
-	.string "Quiero convertirme en un RECLUTA\l"
-	.string "de ALTO RANGO cuanto antes, si me\l"
-	.string "ayudas a entrenar te daré\l"
-	.string "algunas POKÉ BALL, para que tú\l"
-	.string "también puedas mejorar.$"
+	.string "Hey, comrade! Running low on items? I\n"
+	.string "want to become a HIGH-RANK RECRUIT as\l"
+	.string "soon as possible. If you help me train,\l"
+	.string "I'll give you some POKÉ BALLS so you can\l"
+	.string "improve too.$"
 
 FileIsleMeadow_Recluta_Balls_Text_YesNo:
-.string "Entonces, ¿echamos un combate?$"
+	.string "Then, wanna fight?$"
 
 FileIsleMeadow_Recluta_Balls_Text_Yes:
-.string "Esa es la respuesta que esperaba,\n"
-	.string "¡prepárate para ver el poder de un\l"
-	.string "futuro ALTO RANGO!$"
+	.string "That's the expected response. Prepare\n"
+	.string "to witness the power of a future\l"
+	.string "HIGH-RANK!$"
 
 FileIsleMeadow_Recluta_Balls_Text_2:
-    .string "Tienes madera...$"
+	.string "You've got talent...$"
 
 FileIsleMeadow_Recluta_Balls_Text_3:
-	.string "Tienes un gran potencial camarada,\n"
-	.string "si te mantienes en el camino\l"
-	.string "llegarás lejos en el TEAM ROCKET,\l"
-	.string "¡toma esto!$"
+	.string "You have great potential, comrade. If\n"
+	.string "you stay on track, you'll go far in TEAM\l"
+	.string "ROCKET. Take this!$"
 
 FileIsleMeadow_Recluta_Balls_Text_4:
-    .string "Huyendo de los combates solo\n"
-	.string "puedes aspirar a ser un pobre\l"
-	.string "RECLUTA, ¡créeme!$"
+	.string "By avoiding battles, you can only aspire\n"
+	.string "to be a poor GRUNT, trust me!$"
 
 FileIsleMeadow_Combate_Azul_Der::
 playse SE_PIN

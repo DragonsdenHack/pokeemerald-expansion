@@ -118,7 +118,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_7:
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_8:
 .string "Did you find that TAMER?\n"
-	.string "¡Remember! ¡He lives in CELADON MANSION!$"
+	.string "Remember! He lives in CELADON MANSION!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 .string "Would you be willing to make a small\n"

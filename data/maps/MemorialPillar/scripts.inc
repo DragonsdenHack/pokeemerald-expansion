@@ -123,6 +123,5 @@ release
 end
 
 MemorialPillar_ChicoOnix_Texto_1:
-.string "Aquí yace mi ONIX, llamado TECTONIX.\n"
-	.string "Levanté este lugar en su honor, para\l"
-	.string "que todos recuerden su nombre.$"
+    .string "This is where I buried my ONIX…\n"
+    .string "It was named TECTONIX…$"

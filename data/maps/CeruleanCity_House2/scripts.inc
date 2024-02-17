@@ -86,7 +86,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_1:
 	.string "for us, if you had been nice we wouldn't\l"
 	.string "have messed up your house. Now for\l"
 	.string "being like that we will steal all those\l"
-	.string "MT's and you are that possessive that\l"
+	.string "TMs and you are that possessive that\l"
 	.string "you don't want to share a few with us\l"
 	.string "when we asked gently.$"
 
@@ -119,7 +119,6 @@ CeruleanCity_House2_Batalla_Montañero_Text_6:
 	.string "Wow!\l"
 	.string "This HIKER had 20 TMs DIG!\l"
 	.string "And he wanted it all for himself!\l"
-	.string "¡Y las quería todas para él!\l"
     .string "Due to you we were able to get them. Be\l"
 	.string "sure that I will talk to PETREL about\l"
 	.string "this. Take this, you deserve it.$"

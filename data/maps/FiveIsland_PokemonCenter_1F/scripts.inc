@@ -54,11 +54,9 @@ msgbox FiveIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 FiveIslandPokemonCenterDocumento_Text_100:
-.string "DIARIO POKéMON\p"
-	.string "Última hora sobre LORELEI,\n"
-	.string "miembro del ALTO MANDO.\p"
-	.string "Según fuentes cercanas, LORELEI\n"
-	.string "guarda un gran secreto.\p"
-	.string "Lo que sí se conoce de ella es\n"
-	.string "su estilo de lucha elegante, único\l"
-	.string "y calculador.$"
+	.string "POKéMON JOURNAL\p"
+	.string "Special Feature:\n"
+	.string "ELITE FOUR's LORELEI!\p"
+	.string "Known for her logical, calculated,\n"
+	.string "and cool battling style, LORELEI\l"
+	.string "has a surprising secret!$"

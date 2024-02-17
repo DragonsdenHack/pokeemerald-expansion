@@ -1,23 +1,23 @@
 gText_ObtainedTheItem::
-	.string "¡Obtuviste {STR_VAR_2}!$"
+	.string "Obtained {STR_VAR_2}!$"
 
 gText_TheBagIsFull::
-	.string "MOCHILA llena…$"
+	.string "BAG full…$"
 
 gText_PutItemInPocket::
-	.string "{PLAYER} colocó {STR_VAR_2}\n"
-	.string "en la MOCHILA.$"
+	.string "{PLAYER} put {STR_VAR_2}\n"
+	.string "in the BAG.$"
 
 gText_PlayerFoundOneItem::
-	.string "¡{PLAYER} encontró {STR_VAR_2}!$"
+	.string "{PLAYER} found {STR_VAR_2}!$"
 
 gText_TooBadBagIsFull::
-	.string "¡Oh, no!\n"
-	.string "La MOCHILA está llena…$"
+	.string "Oh, no!\n"
+	.string "The BAG is full…$"
 
 gText_PlayerPutItemInBag::
-	.string "{PLAYER} colocó {STR_VAR_2}\n"
-	.string "en la MOCHILA.$"
+	.string "{PLAYER} put {STR_VAR_2}\n"
+	.string "in the BAG.$"
 
 gText_ObtainedTheDecor::
 	.string "Obtained the {STR_VAR_2}!$"

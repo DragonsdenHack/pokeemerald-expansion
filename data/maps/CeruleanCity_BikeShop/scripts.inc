@@ -14,7 +14,7 @@ release
 end
 
 CeruleanCity_BikeShop_Text_2:
-.string "¡A ROCKET!\n"
+.string "A ROCKET!\n"
 .string "Don't hurt me!$"
 
 

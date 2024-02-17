@@ -18,10 +18,10 @@ release
 end
 
 Route8_Path_Frontera_Text:
-.string "¿Pero qué clase de broma es esta?\n"
-	.string "A esta ciudad solo entra la élite\l"
-	.string "de la región, desaparece ROCKET si\l"
-	.string "no quieres que te expediente.$"
+	.string "What kind of joke is this? Only the\n"
+	.string "elite of the region gets into SAFFRON\l"
+	.string "CITY. Disappear, ROCKET, if you don't\l"
+	.string "want to get into trouble.$"
 
 Route8_Path_Frontera_move1:
 emote_exclamation_mark

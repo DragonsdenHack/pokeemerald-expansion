@@ -41,12 +41,11 @@ release
 end
 
 Route11_Text_3:
-.string "Los pasos hacia RUTA 11 y\n"
-.string "CUEVA DIGLETT están cortados\l"
-.string "debido a obras de reparación. Date\l"
-.string "media vuelta, ROCKET, antes de\l"
-.string "darnos la excusa perfecta para\l"
-.string "detenerte.$"
+	.string "Heads up, ROCKET, the ways to ROUTE 11\n"
+	.string "and DIGLETT CAVE are closed for some\l"
+	.string "repair work. You better turn around\l"
+	.string "before we've got a reason to detain\l"
+	.string "you.$"
 
 
 Route11_4::

@@ -46,12 +46,10 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_21: 
-
-.string "Así es, nuestra sucursal de ISLA\n"
-.string "INTA cuenta con este sótano oculto.\l"
-.string "Aquí examinamos primero los\l"
-.string "POKÉMON robados antes de\l"
-.string "exportarlos a KANTO.$"
+	.string "Indeed, our CHRONO ISLAND WAREHOUSE has\n"
+	.string "this hidden basement. Here, we first\l"
+	.string "examine the stolen POKÉMON before\l"
+	.string "exporting them to KANTO.$"
 
 
 RocketHideoutFiveIslanMeadow20:: 
@@ -91,9 +89,9 @@ end
 RocketHideoutFiveIslandMeadow_Text_15:
 .string "…\n"
 .string "…\l"
-.string "(Contiene un KINGLER en su\l"
-.string "interior, mejor no tocarla\l"
-.string "demasiado…)$"
+.string "… … (It contains a KINGLER inside,\l"
+.string "it's better not to touch it...)$"
+
 
 
 RocketHideoutFiveIslanMeadow16::
@@ -175,16 +173,14 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_12:
-.string "Pocos saben que este almacén es en\n"
-.string "realidad nuestra principal fuente\l"
-.string "de tráfico de POKÉMON, también\l"
-.string "realizamos diversos experimentos.\l"
-.string "A pesar de que en KANTO tenemos\l"
-.string "laboratorios mejor preparados,\l"
-.string "desde ISLA INTA hemos llegado a\l"
-.string "conclusiones muy interesantes\l"
-.string "respecto a la manipulación de las\l"
-.string "ondas de radio…$"
+    .string "A few know that this WAREHOUSE is\n"
+    .string "actually our main source of POKEMON\l"
+    .string "traffic, we also carry out various\l"
+    .string "experiments, although in KANTO we have\l"
+    .string "better laboratories, from CHRONO ISLAND\l"
+    .string "we got very interesting conclusions\l"
+    .string "about the manipulation of radio\l"
+    .string "waves, for example...$"
 
 
 RocketHideoutFiveIslanMeadow10::
@@ -195,15 +191,13 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_10: 
-.string "Pobre infeliz ese recluta…\n"
-.string "No hay nada que irrite más a\l"
-.string "nuestro mejor ADMINISTRADOR que\l"
-.string "las actitudes producto de la ley\l"
-.string "del mínimo esfuerzo.\l"
-.string "¿De verdad esperaba que le\l"
-.string "regalásemos un DRATINI de la nada?\l"
-.string "¡Somos una organización criminal,\l"
-.string "no una ONG!$"
+    .string "Poor unfortunate recruit… There is\n"
+    .string "nothing that irritates our best\l"
+    .string "ADMINISTRATOR more than the\l"
+    .string "attitudes resulting from law of least\l"
+    .string "effort. Did you really expect us to\l"
+    .string "give him a DRATINI out of nowhere? We\l"
+    .string "are a criminal organization, not an NGO!$"
 
 
 
@@ -212,31 +206,27 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_100, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_100:
-.string "CÓDIGO MORAL Y DE CONDUCTA ROCKET:\n"
-	.string "1.-Mi presencia en la organización\l"
-	.string "es un privilegio, no un derecho, y\l"
-	.string "debo ganármela en la acción.\l"
-	.string "2.-La lealtad y el compromiso\l"
-	.string "total de la organización son\l"
-	.string "innegociables.\l"
-	.string "3.-Las insubordinaciones y\l"
-	.string "traiciones se pagan con la muerte.\l"
-	.string "4.-Actuamos como un solo cuerpo,\l"
-	.string "unidad por encima de\l"
-	.string "individualidad, lo que...\l"
-	.string "5.-No quita que todo Rocket deba\l"
-	.string "de tener iniciativa propia,\l"
-	.string "actitud de búsqueda y mejora\l"
-	.string "constantes por convertirse en un\l"
-	.string "mejor entrenador.\l"
-	.string "6.-Llega, analiza, adáptate y\l"
-	.string "gana.\l"
-	.string "7.-Cada miembro de la organización\l"
-	.string "cuenta, desde el Recluta más\l"
-	.string "básico hasta los más altos cargos,\l"
-	.string "funcionamos como un enorme\l"
-	.string "engranaje donde no se deja a nadie\l"
-	.string "atrás.$"
+.string "ROCKETS MORAL CODE\n"
+    .string"AND CONDUCT\p"
+    .string "1.- My presence in the organization is a\n"
+    .string "privilege, not a right, and I must gain\l"
+    .string "it in action. 2.- The loyalty and total\l"
+    .string "commitment of the organization are\l"
+    .string "undeniable. 3.- Insubordination and\l"
+    .string "betrayal are sentenced to death. 4.-\l"
+    .string "We act as a single body, unity above\l"
+    .string "individuality, but also... 5.- Does not\l"
+    .string "mean that every ROCKET must have\l"
+    .string "their own initiative, an attitude of\l"
+    .string "constant search and improvement to\l"
+    .string "become a better trainer. 6.- Arrive,\l"
+    .string "analyze, adapt and win. 7.- Every\l"
+    .string "member of the organization counts,\l"
+    .string "from the most basic recruit to the\l"
+    .string "highest positions, we function as a\l"
+    .string "huge mechanism where no one is left\l"
+    .string "behind.$"
+
 
 
 
@@ -260,9 +250,8 @@ end
 RocketHideoutFiveIslandMeadowDocumento_Text_102:
     .string "...\n"
 	.string "...\l"
-	.string "(Contiene un RHYHORN en su\l"
-	.string "interior, mejor no tocarla\l"
-	.string "demasiado...).$"
+	.string "… … (It contains a RHYHORN inside,\l"
+    .string "it's better not to touch it...)$"
 
 
 RocketHideoutFiveIslanMeadowAbajo::     
@@ -415,16 +404,15 @@ RocketHideoutFiveIslandMeadow_Text_Atlas:
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas2:
-.string "ARCHER: Ok, we're all here.\n"
-    .string "For those who haven't heard, you\l"
-    .string "are now part of TEAM ROCKET,\l"
-    .string "with everything that entails.\l"
+.string "ARCHER: For those who haven't heard,\n"
+    .string "you are now part of TEAM ROCKET,\l"
+    .string "with everything that means.\l"
     .string "Im ARCHER, GIOVANNI'S right hand, main\l"
     .string "administrator and leader in the SEVII\l"
     .string "ISLANDS.$"
 
 RocketHideoutFiveIslandMeadow_Text_Atlas3:
-    .string "Most of you will be inmediately\l"
+    .string "Most of you will be inmediately\n"
     .string "transferred to KANTO, do not expect\l"
     .string "friendly treatment from its citizens,\l"
     .string "you will be seen as the scum of the\l"
@@ -457,7 +445,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas6:
     .string "ARCHER: Let's see... You have\n"
     .string "prejudged the decisions of our LEADER\l"
     .string "GIOVANNI, and you are not happy with\l"
-    .string "our policy towards new recruits. So...\l"
+    .string "our policy towards new grunts. So...\l"
     .string "there is no reason for you to continue\l"
     .string "belonging to our organization... I hope\l"
     .string "for your sake that you don't say a\l"
@@ -963,7 +951,7 @@ RocketHideoutFiveIslanMeadow_Text_PostZubat2:
     .string "ones who have to do the dirty work:\l"
     .string "extortion, theft, settling scores, you\l"
     .string "will clean the land and you will obtain\l"
-    .string "all the black money possible for TEAM\l"
+    .string "all the ilegal money possible for TEAM\l"
     .string "ROCKET, collaborating in the financing\l"
     .string "of the projects. While you cant prove\l"
     .string "otherwise, to me and the rest of the\l"
@@ -974,29 +962,29 @@ RocketHideoutFiveIslanMeadow_Text_PostZubat2:
     .string "that.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat3:
-.string "Recruits from 5 to 13, the last two\n"
+.string "grunts from 5 to 13, the last two\n"
     .string "rows, will be transferred immediately\l"
-    .string "to Kanto, right now there is a boat in\l"
-    .string "FIVE ISLANDs port waiting, prepare\l"
+    .string "to KANTO, right now there is a boat in\l"
+    .string "CHRONO ISLANDs port waiting, prepare\l"
     .string "your things, you will set sail in one\l"
     .string "hour. Now get out of my sight!$"
 
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat4:
 .string "Well, there are 4 of you left, it's a\n"
-    .string "tradition to keep some of the soldiers\l"
-    .string "we exported to Kanto from FIVE ISLAND,\l"
+    .string "tradition to keep some of the grunts\l"
+    .string "we exported to KANTO from CHRONO ISLAND,\l"
     .string "at least for a short period of time, and\l"
     .string "you are lucky, this way you will delay\l"
     .string "witnessing the circus that the region\l"
     .string "has become. Come to my office and I will\l"
     .string "give you details of your mission,\l"
     .string "meanwhile, show off your new POKEMON,\l"
-    .string "for sure, WAREHOUSE recruits will be\l"
+    .string "for sure, WAREHOUSE grunts will be\l"
     .string "happy to fight with you.$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat5:
-    .string "GRUNT 1: So we will stay on FIVE ISLAND\n"
+    .string "GRUNT 1: So we will stay on CHRONO ISLAND\n"
     .string "for a while, that ARCHER doesn't foul\l"
     .string "around, thats why people say that just\l"
     .string "GIOVANNI is above him, have you seen\l"
@@ -1137,6 +1125,6 @@ release
 end
 
 Curacion_Curacion_Guarida_Rocket_Texto_1:
-.string "Bienvenido al CENTRO ROCKET de\n"
-	.string "curación exprés...$"
+.string "Welcome to the ROCKET\n"
+	.string "PKMN CENTER...$"
 
