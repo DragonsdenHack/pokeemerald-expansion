@@ -136,13 +136,10 @@ release
 end
 
 Route9_Aviso_Petrel_Texto_1:
-.string "PETREL: ¿{PLAYER}?\n"
-	.string "El sistema de teletransporte está\l"
-	.string "listo para ser puesto en práctica,\l"
-	.string "vuelve al cuartel inmediatamente y\l"
-	.string "prepárate para tu traslado\l"
-	.string "inmediato a la base de CIUDAD\l"
-	.string "AZULONA.$"
+	.string "PETREL: {PLAYER}? The teleport\n"
+	.string "system is ready. Come back to HQ now\l"
+	.string "and get ready for your immediate\l"
+	.string "transfer to AZULONA CITY base.$"
 
 Route9_Aviso_Petrel_Move_1:
 emote_exclamation_mark

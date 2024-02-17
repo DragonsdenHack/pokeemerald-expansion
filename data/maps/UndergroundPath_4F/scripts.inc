@@ -9,8 +9,7 @@ release
 end
 
 UndergroundPath4F_Text_1:
-.string "Por culpa de gente como vosotros y\n"
-.string "los motoristas de FUCSIA esta\l"
-.string "clase de lugares subterráneos no\l"
-.string "son seguros, ¡al final terminarán\l"
-.string "por cerrarlos tiempo al tiempo!$"
+	.string "Because of jerks like you and those\n"
+	.string "FUCHSIA bikers, these underground\l"
+	.string "places aren't safe. They'll probably\l"
+	.string "shut them down eventually!$"

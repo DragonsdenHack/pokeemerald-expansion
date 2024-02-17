@@ -52,60 +52,55 @@ release
 end
 
 BillGarden_House1_Bill_Combate_Text_1:
-.string "BILL: Ni un solo paso más, ROCKET.$"
+.string "BILL: Stop right there, ROCKET.$"
 
 BillGarden_House1_Bill_Combate_Text_2:
-	.string "Debería de haber sido más que\n"
-	.string "suficiente con 3 policías. Tal vez\l"
-	.string "mi error fue no contratar a 20 en\l"
-	.string "lugar de 3.$"
+	.string "It should have been more than\n"
+	.string "sufficient with three police officers.\l"
+	.string "Perhaps my mistake was not hiring\l"
+	.string "twenty instead of three.$"
 
 BillGarden_House1_Bill_Combate_Text_3:
-.string "Sea como sea, no tienes salida,\n"
-	.string "aunque consigas derrotarme, toda\l"
-	.string "la policía de CELESTE está de\l"
-	.string "camino, has actuado\l"
-	.string "precipitadamente...$"
+	.string "Anyway, you have no way out. Even if you\n"
+	.string "defeat me, all the police in CERULEAN\l"
+	.string "are coming. You acted hastily...$"
 
 BillGarden_House1_Bill_Combate_Text_4:
-.string "No obstante, no es muy común ver a\n"
-	.string "alguien desafiar y derrotar a 3\l"
-	.string "policías simultáneamente.$"
+	.string "But you know, it's not exactly normal to\n"
+	.string "see someone challenge and take down\l"
+	.string "three cops all at once.$"
 
 BillGarden_House1_Bill_Combate_Text_5:
-.string "Ya que vas a pasar mucho tiempo\n"
-	.string "reflexionando entre rejas, al\l"
-	.string "menos te daré el honor de combatir\l"
-	.string "conmigo, siéntete afortunado.\l"
-	.string "¡No todos los días tiene uno la\l"
-	.string "suerte de presenciar la gran\l"
-	.string "colección de BILL, el POKEMANÍACO\l"
-	.string "número 1!$"
+	.string "Since you're going to spend a lot of\n"
+	.string "time reflecting behind bars, I'll at\l"
+	.string "least grant you the honor of battling\l"
+	.string "with me. Consider yourself fortunate.\l"
+	.string "Not everyone gets the chance to\l"
+	.string "witness the great collection of BILL,\l"
+	.string "the number 1 POKÉMANIAC!$"
 
 BillGarden_House1_Bill_Combate_Text_6:
-.string "Esto debe de ser una broma.$"
+	.string "This must be a joke.$"
 
 BillGarden_House1_Bill_Combate_Text_7:
-.string "({PLAYER} robó la patente).$"
+	.string "({PLAYER} stole the patent).$"
 
 BillGarden_House1_Bill_Combate_Text_8:
-.string "POLICÍA CELESTE: SR.BILL, le\n"
-	.string "informamos de que tenemos\l"
-	.string "completamente rodeada la caseta de\l"
-	.string "su jardín secreto. Ese ROCKET\l"
-	.string "no tiene escapatoria.$"
+	.string "CERULEAN POLICE: MR.BILL, we inform you\n"
+	.string "that we have completely surrounded the\l"
+	.string "shed of your secret garden. That\l"
+	.string "ROCKET has no way out.$"
 
 BillGarden_House1_Bill_Combate_Text_9:
-.string "BILL: Perfecto. Aseguráos de\n"
-	.string "quitarle la patente antes de\l"
-	.string "llevároslo.$"
+	.string "BILL: Cool. Just snatch the patent\n"
+	.string "before you take him.$"
+
 
 BillGarden_House1_Bill_Combate_Text_10:
-.string "Se acabó. Haz lo que quieras. Tu\n"
-	.string "única opción es salir y\l"
-	.string "entregarte. Disfruta de tus\l"
-	.string "últimos momentos con la patente en\l"
-	.string "tu poder.$"
+	.string "Well, that's it. Do whatever you want.\n"
+	.string "Your only way out is to leave and give\l"
+	.string "up. Enjoy your last moments with the\l"
+	.string "patent.$"
 
 BillGarden_House1_Bill_Combate_move1:
 walk_in_place_up
@@ -156,8 +151,7 @@ release
 end
 
 BillGarden_House1_Detenido_text_1:
-.string "Se acabó, haz lo que quieras.\n"
-	.string "Tu única opción es salir y\l"
-	.string "entregarte, disfruta de tus\l"
-	.string "últimos momentos con la patente en\l"
-	.string "tu poder.$"
+	.string "Well, that's it. Do whatever you want.\n"
+	.string "Your only way out is to leave and give\l"
+	.string "up. Enjoy your last moments with the\l"
+	.string "patent.$"

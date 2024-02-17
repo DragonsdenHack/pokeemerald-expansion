@@ -58,7 +58,7 @@ SsAnne3F_Text_5:
 	.string "BUBBLE BEAM!$"
 
 SsAnne3F_Text_5_2:
-.string "¡Whirl!$"
+.string "Whirl!$"
 
 
 

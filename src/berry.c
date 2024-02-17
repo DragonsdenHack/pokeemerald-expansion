@@ -164,7 +164,7 @@ const struct Berry gBerries[] =
 {
     [ITEM_CHERI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Zreza"),
+        .name = _("Cheri"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 20,
         .maxYield = 3,
@@ -182,7 +182,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CHESTO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Atania"),
+        .name = _("Chesto"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 80,
         .maxYield = 3,
@@ -200,7 +200,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PECHA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Meloc"),
+        .name = _("Pecha"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 40,
         .maxYield = 3,
@@ -218,7 +218,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RAWST_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Safre"),
+        .name = _("Rawst"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 32,
         .maxYield = 3,
@@ -236,7 +236,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ASPEAR_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Perasi"),
+        .name = _("Aspear"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 50,
         .maxYield = 3,
@@ -254,7 +254,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LEPPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Zanama"),
+        .name = _("Leppa"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 28,
         .maxYield = 3,
@@ -272,7 +272,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ORAN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Aranja"),
+        .name = _("Oran"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 35,
         .maxYield = 3,
@@ -290,7 +290,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PERSIM_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Caquic"),
+        .name = _("Persim"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 47,
         .maxYield = 3,
@@ -308,7 +308,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LUM_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Ziuela"),
+        .name = _("Lum"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 34,
         .maxYield = 2,
@@ -326,7 +326,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SITRUS_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Zidra"),
+        .name = _("Sitrus"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 95,
         .maxYield = 3,
@@ -344,7 +344,7 @@ const struct Berry gBerries[] =
 
     [ITEM_FIGY_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Higog"),
+        .name = _("Figy"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 100,
         .maxYield = 3,
@@ -380,7 +380,7 @@ const struct Berry gBerries[] =
 
     [ITEM_MAGO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Ango"),
+        .name = _("Mago"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 126,
         .maxYield = 3,
@@ -398,7 +398,7 @@ const struct Berry gBerries[] =
 
     [ITEM_AGUAV_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Guaya"),
+        .name = _("Aguav"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 64,
         .maxYield = 3,
@@ -416,7 +416,7 @@ const struct Berry gBerries[] =
 
     [ITEM_IAPAPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Pabaya"),
+        .name = _("Iapapa"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 223,
         .maxYield = 3,
@@ -434,7 +434,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RAZZ_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Frambu"),
+        .name = _("Razz"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 120,
         .maxYield = 6,
@@ -452,7 +452,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BLUK_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Oram"),
+        .name = _("Bluk"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 108,
         .maxYield = 6,
@@ -470,7 +470,7 @@ const struct Berry gBerries[] =
 
     [ITEM_NANAB_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Latano"),
+        .name = _("Nanab"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 77,
         .maxYield = 6,
@@ -488,7 +488,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WEPEAR_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Peragu"),
+        .name = _("Wepear"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 74,
         .maxYield = 6,
@@ -506,7 +506,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PINAP_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Pinia"),
+        .name = _("Pinap"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 80,
         .maxYield = 6,
@@ -524,7 +524,7 @@ const struct Berry gBerries[] =
 
     [ITEM_POMEG_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Grana"),
+        .name = _("Pomeg"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 135,
         .maxYield = 6,
@@ -542,7 +542,7 @@ const struct Berry gBerries[] =
 
     [ITEM_KELPSY_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Algama"),
+        .name = _("Kelpsy"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 150,
         .maxYield = 6,
@@ -560,7 +560,7 @@ const struct Berry gBerries[] =
 
     [ITEM_QUALOT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Ispero"),
+        .name = _("Qualot"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 110,
         .maxYield = 6,
@@ -578,7 +578,7 @@ const struct Berry gBerries[] =
 
     [ITEM_HONDEW_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Meluce"),
+        .name = _("Hondew"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 162,
         .maxYield = 6,
@@ -596,7 +596,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GREPA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Uvav"),
+        .name = _("Grepa"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 149,
         .maxYield = 6,
@@ -614,7 +614,7 @@ const struct Berry gBerries[] =
 
     [ITEM_TAMATO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Tamate"),
+        .name = _("Tamato"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 200,
         .maxYield = 4,
@@ -632,7 +632,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CORNN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Mais"),
+        .name = _("Cornn"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 75,
         .maxYield = 4,
@@ -650,7 +650,7 @@ const struct Berry gBerries[] =
 
     [ITEM_MAGOST_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Aostan"),
+        .name = _("Magost"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 140,
         .maxYield = 4,
@@ -668,7 +668,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RABUTA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Rautan"),
+        .name = _("Rabuta"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 226,
         .maxYield = 4,
@@ -686,7 +686,7 @@ const struct Berry gBerries[] =
 
     [ITEM_NOMEL_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Monli"),
+        .name = _("Nomel"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 285,
         .maxYield = 4,
@@ -704,7 +704,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SPELON_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Wikano"),
+        .name = _("Spelon"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 133,
         .maxYield = 2,
@@ -722,7 +722,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PAMTRE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Plama"),
+        .name = _("Pamtre"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 244,
         .maxYield = 2,
@@ -740,7 +740,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WATMEL_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Sambia"),
+        .name = _("Watmel"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 250,
         .maxYield = 2,
@@ -758,7 +758,7 @@ const struct Berry gBerries[] =
 
     [ITEM_DURIN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Rudion"),
+        .name = _("Durin"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 280,
         .maxYield = 2,
@@ -776,7 +776,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BELUE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Andano"),
+        .name = _("Belue"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 300,
         .maxYield = 2,
@@ -812,7 +812,7 @@ const struct Berry gBerries[] =
 
     [ITEM_OCCA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Caoca"),
+        .name = _("Occa"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 90,
         .maxYield = 5,
@@ -830,7 +830,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PASSHO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Pasio"),
+        .name = _("Passho"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 33,
         .maxYield = 5,
@@ -848,7 +848,7 @@ const struct Berry gBerries[] =
 
     [ITEM_WACAN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Gualot"),
+        .name = _("Wacan"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 250,
         .maxYield = 5,
@@ -866,7 +866,7 @@ const struct Berry gBerries[] =
 
     [ITEM_RINDO_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Tamar"),
+        .name = _("Rindo"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 156,
         .maxYield = 5,
@@ -884,7 +884,7 @@ const struct Berry gBerries[] =
 
     [ITEM_YACHE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Rimoya"),
+        .name = _("Yache"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 135,
         .maxYield = 5,
@@ -902,7 +902,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CHOPLE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Pomaro"),
+        .name = _("Chople"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 77,
         .maxYield = 5,
@@ -938,7 +938,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SHUCA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Acardo"),
+        .name = _("Shuca"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 42,
         .maxYield = 5,
@@ -956,7 +956,7 @@ const struct Berry gBerries[] =
 
     [ITEM_COBA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Kouba"),
+        .name = _("Coba"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 278,
         .maxYield = 5,
@@ -992,7 +992,7 @@ const struct Berry gBerries[] =
 
     [ITEM_TANGA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Yecana"),
+        .name = _("Tanga"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 42,
         .maxYield = 5,
@@ -1010,7 +1010,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CHARTI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Alcho"),
+        .name = _("Charti"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 28,
         .maxYield = 5,
@@ -1028,7 +1028,7 @@ const struct Berry gBerries[] =
 
     [ITEM_KASIB_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Drasi"),
+        .name = _("Kasib"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 144,
         .maxYield = 5,
@@ -1046,7 +1046,7 @@ const struct Berry gBerries[] =
 
     [ITEM_HABAN_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Anjiro"),
+        .name = _("Haban"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 23,
         .maxYield = 5,
@@ -1064,7 +1064,7 @@ const struct Berry gBerries[] =
 
     [ITEM_COLBUR_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Dilo"),
+        .name = _("Colbur"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 39,
         .maxYield = 5,
@@ -1082,7 +1082,7 @@ const struct Berry gBerries[] =
 
     [ITEM_BABIRI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Baribá"),
+        .name = _("Babiri"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 265,
         .maxYield = 5,
@@ -1100,7 +1100,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ROSELI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Hibis"),
+        .name = _("Roseli"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 35,
         .maxYield = 5,
@@ -1118,7 +1118,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LIECHI_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Lichi"),
+        .name = _("Liechi"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 111,
         .maxYield = 2,
@@ -1136,7 +1136,7 @@ const struct Berry gBerries[] =
 
     [ITEM_GANLON_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Gonlan"),
+        .name = _("Ganlon"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 33,
         .maxYield = 2,
@@ -1154,7 +1154,7 @@ const struct Berry gBerries[] =
 
     [ITEM_SALAC_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Aslac"),
+        .name = _("Salac"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 95,
         .maxYield = 2,
@@ -1172,7 +1172,7 @@ const struct Berry gBerries[] =
 
     [ITEM_PETAYA_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Yapati"),
+        .name = _("Petaya"),
         .firmness = BERRY_FIRMNESS_VERY_HARD,
         .size = 237,
         .maxYield = 2,
@@ -1190,7 +1190,7 @@ const struct Berry gBerries[] =
 
     [ITEM_APICOT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Aricoc"),
+        .name = _("Apicot"),
         .firmness = BERRY_FIRMNESS_HARD,
         .size = 75,
         .maxYield = 2,
@@ -1208,7 +1208,7 @@ const struct Berry gBerries[] =
 
     [ITEM_LANSAT_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Zonlan"),
+        .name = _("Lansat"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 97,
         .maxYield = 2,
@@ -1226,7 +1226,7 @@ const struct Berry gBerries[] =
 
     [ITEM_STARF_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Arabol"),
+        .name = _("Starf"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 153,
         .maxYield = 2,
@@ -1262,7 +1262,7 @@ const struct Berry gBerries[] =
 
     [ITEM_MICLE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Lagro"),
+        .name = _("Micle"),
         .firmness = BERRY_FIRMNESS_SOFT,
         .size = 41,
         .maxYield = 5,
@@ -1280,7 +1280,7 @@ const struct Berry gBerries[] =
 
     [ITEM_CUSTAP_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Chiri"),
+        .name = _("Custap"),
         .firmness = BERRY_FIRMNESS_SUPER_HARD,
         .size = 267,
         .maxYield = 5,
@@ -1316,7 +1316,7 @@ const struct Berry gBerries[] =
 
     [ITEM_ROWAP_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Magua"),
+        .name = _("Rowap"),
         .firmness = BERRY_FIRMNESS_VERY_SOFT,
         .size = 52,
         .maxYield = 5,
@@ -1334,7 +1334,7 @@ const struct Berry gBerries[] =
 
     [ITEM_KEE_BERRY - FIRST_BERRY_INDEX] =
     {
-        .name = _("Biglia"),
+        .name = _("Kee"),
         .firmness = BERRY_FIRMNESS_UNKNOWN,
         .size = 0,
         .maxYield = 5,

@@ -556,8 +556,8 @@ release
 end
 
 AzaleaTownDocumento_Text_133:
-.string "(Este SNORLAX parece llevar mucho\n"
-	.string "tiempo sin moverse de aquí...)$"
+.string "(Seems like this SNORLAX is resting\n"
+	.string "here since a long time ago...)$"
 
 AzaleaTown_Encuentro_Mirto::
 lock
@@ -677,8 +677,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Kabuto:
-.string "(El POKÉMON parece estar cavando un\n"
-	.string "túnel para escapar)$"
+	.string "(The POKÉMON appears to be digging a\n"
+	.string "tunnel to escape).$"
 
 AzaleaTownDocumento_Omanyte::
 lock    
@@ -689,9 +689,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Omanyte:
-.string "(Este POKÉMON está extinto en la\n"
-	.string "actualidad. No parece estar en su\l"
-	.string "hábitat natural)$"
+	.string "(This POKÉMON is currently extinct. It\n"
+	.string "doesn't appear to be in its natural\l"
+	.string "habitat).$"
 
 AzaleaTownDocumento_Machoke::
 lock
@@ -703,8 +703,8 @@ release
 end
 
 AzaleaTownDocumento_Text_Machoke:
-.string "(A este MACHOKE le encanta jugar con\n"
-	.string "esas rocas)$"
+	.string "(This MACHOKE thoroughly enjoys\n"
+	.string "playing with those rocks).$"
 
 AzaleaTownDocumento_Lapras::
 lock
@@ -716,9 +716,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Lapras:
-.string "(Este LAPRAS no se mueve con mucha\n"
-	.string "soltura. Puede que este lugar se le\l"
-	.string "quede pequeño)$"
+	.string "(This LAPRAS doesn't move very\n"
+	.string "gracefully. This place might be too\l"
+	.string "small for it).$"
 
 AzaleaTownDocumento_Pidgeot::
 lock
@@ -730,8 +730,9 @@ release
 end
 
 AzaleaTownDocumento_Text_Pidgeot:
-.string "(Es un PIDGEOT. Se ve sano, atlético,\n"
-	.string "fuerte y de apariencia triunfadora)$"
+	.string "(It's a PIDGEOT. It appears healthy,\n"
+	.string "athletic, strong, and with a triumphant\l"
+	.string "appearance).$"
 
 AzaleaTownDocumento_Chansey::
 lock
@@ -751,11 +752,11 @@ release
 end
 
 AzaleaTownDocumento_Text_Chansey:
-.string "(Este CHANSEY parece querer curar a\n"
-	.string "tus POKÉMON)$"
+	.string "It appears that this CHANSEY wants to\n"
+	.string "heal your POKÉMON.$"
 
 AzaleaTownDocumento_Text_Chansey_YesNo:
-.string "¿Dejas al CHANSEY curar a tu equipo?$"
+.string "Do you let the CHANSEY heal your team?$"
 
 Chansey_3No::
 release
@@ -775,7 +776,7 @@ release
 end
 
 Maquina_Primavera_Cura_YesNo:
-.string "¿Quieres curar a tu equipo?$"
+.string "Do you want to heal your team?$"
 
 
 

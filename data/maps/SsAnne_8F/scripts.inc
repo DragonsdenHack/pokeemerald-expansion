@@ -11,7 +11,7 @@ end
 SsAnne8F_Text_2:
 .string "ANDRA: Be sure that you block any\n"
 	.string "possible scape routes for the CAPTAIN.\l"
-	.string "We0re gonna have a little chat with him.$"
+	.string "We're gonna have a little chat with him.$"
 
 
 

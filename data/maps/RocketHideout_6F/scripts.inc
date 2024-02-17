@@ -728,7 +728,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_12:
 	.string "and KANTO, could save millions of POKES\l"
 	.string "on transport expenses. Here is the\l"
 	.string "opportunity that I'm giving you to\l"
-	.string "rectify your fail on MT.MOON$"
+	.string "rectify your fail on MT.MOON.$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_13:
 .string "That's all for the moment, BILL will try\n"

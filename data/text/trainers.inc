@@ -5842,10 +5842,9 @@ Route9_Text_HikerPostBattle:
 
 
 Route9_Text_ChicoIntro:
-	.string "No pareces el típico ROCKET que\n"
-	.string "nunca sale del círculo\l"
-	.string "ZUBAT-RATATTA...\l"
-	.string "¡En guardia!$"
+	.string "You don't seem like a\n"
+	.string "normal ROCKET GRUNT\l"
+	.string "On guard!$"
 
 
 Route9_Text_ChicoDefeated:

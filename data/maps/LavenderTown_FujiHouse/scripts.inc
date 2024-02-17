@@ -14,8 +14,8 @@ release
 end
 
 LavenderTown_FujiHouse_Text_1:
-.string "¡Ahhhhh!\n"
-.string "¡No me hagas daño por favor!$"
+.string "Ahhhhh!\n"
+.string "Don't hurt me please!$"
 
 
 
@@ -32,9 +32,9 @@ release
 end
 
 LavenderTown_FujiHouse_Text_3:
-.string "¡No, aléjate de aquí ROCKET!\n"
-.string "¡Si FUJI te estuviera aquí verías\l"
-.string "lo que es bueno!$"
+	.string "No way, get out of here, ROCKET! If FUJI\n"
+	.string "were around, you'd get a taste of your\l"
+	.string "own medicine!$"
 
 
 
@@ -46,10 +46,9 @@ release
 end
 
 LavenderTown_FujiHouse_Text_4:
-.string "El señor FUJI no está aquí, y\n"
-.string "aunque lo estuviera dudo mucho que\l"
-.string "quisiera recibir a un ROCKET como\l"
-.string "invitado.$"
+	.string "MR.FUJI is not here, and even if he were,\n"
+	.string "I highly doubt he would want to receive\l"
+	.string "a ROCKET as a guest.$"
 
 
 
@@ -63,13 +62,11 @@ msgbox FujiHouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 FujiHouseDocumento_Text_100:
-.string "REVISTA POKéMON\n"
-	.string "¡Gran concurso mensual de dibujo\l"
-	.string "POKéMON!\p"
-	.string "El formulario de inscripción está\n"
-	.string "en...\p"
-	.string "¡Anda, se lo han llevado!\n"
-	.string "¡Se ha debido de inscribir alguien!$"
+    .string "POKéMON FAN MAGAZINE\n"
+    .string "Monthly Grand Prize Drawing!\p"
+    .string "The application form is…\p"
+    .string "Gone! It's been clipped out.\n"
+    .string "Someone must have applied already.$"
 
 
 
@@ -78,9 +75,9 @@ msgbox FujiHouseDocumento_Text_101, MSGBOX_SIGN
 end
 
 FujiHouseDocumento_Text_101:
-	.string "¡Revistas de los POKéMON!\p"
-	.string "¡Cuadernos de los POKéMON!\p"
-	.string "¡Dibujos de los POKéMON!$"
+    .string "POKéMON magazines line the shelf.\p"
+    .string "POKéMON INSIDER…\p"
+    .string "POKéMON FAN…$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji::
 special SpawnCameraObject

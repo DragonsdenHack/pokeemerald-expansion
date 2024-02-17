@@ -9,8 +9,8 @@ release
 end
 
 SsAnne4F_Text_1:
-.string "¡La fiesta está siendo todo un\n"
-.string "éxito!$"
+.string "The party is going\n"
+.string "well!$"
 
 
 
@@ -22,8 +22,8 @@ release
 end
 
 SsAnne4F_Text_2:
-.string "¡La fiesta está siendo todo un\n"
-.string "éxito!$"
+.string "The party is going\n"
+.string "well!$"
 
 
 

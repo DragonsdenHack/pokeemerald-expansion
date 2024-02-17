@@ -27,11 +27,10 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_2:
-.string "¡El TEAM ROCKET hará lo que sea\n"
-.string "por el oro!\p"
-.string "¡No hay trabajo sucio ni actos\n"
-.string "vandálicos que no seáis capaces\l"
-.string "de hacer!$"
+	.string "TEAM ROCKET will do whatever it takes\n"
+	.string "for money! There is no dirty work or\l"
+	.string "acts of vandalism that you are not\l"
+	.string "capable of doing!$"
 
 
 
@@ -43,10 +42,9 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_3:
-.string "Los CUBONE llevan cráneos,\n"
-.string "¿verdad?\p"
-.string "¡La gente pagaría mucho por uno\n"
-.string "de ellos!$"
+    .string "You know how the CUBONE species\n"
+    .string "wears skulls, right?\p"
+    .string "People will pay a lot for one.$"
 
 
 
@@ -58,9 +56,8 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_4:
-.string "Acabo de mudarme a este pueblo.\p"
-.string "He oído que el SR. FUJI tampoco\n"
-.string "es de por aquí.$"
+	.string "I just moved to LAVENDER. I heard\n"
+	.string "MR.FUJI isn't from here either.$"
 
 
 
@@ -72,9 +69,8 @@ release
 end
 
 LavenderTown_PokemonCenter_Text_5:
-.string "¡Sois despreciables!\n"
-.string "¡Robando no vais a llegar a\l"
-.string "ninguna parte!$"
+	.string "You're scum! Stealing won't get you\n"
+	.string "anywhere!$"
 
 Curacion_Centros_Pokemon_Johto::
 lock

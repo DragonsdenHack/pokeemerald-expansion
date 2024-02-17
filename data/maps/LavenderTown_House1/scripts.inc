@@ -9,9 +9,9 @@ release
 end
 
 LavenderTownHouse1_1_Texto_1:
-.string "El fin justifica los medios, ¿verdad,\n"
-	.string "ROCKET? ¡Ojalá LANCE aplique esa misma\l"
-	.string "regla contra vosotros!$"
+	.string "You think the end justifies the means,\n"
+	.string "ROCKET? Well, I hope LANCE hits you with\l"
+	.string "the same rule!$"
 
 
 

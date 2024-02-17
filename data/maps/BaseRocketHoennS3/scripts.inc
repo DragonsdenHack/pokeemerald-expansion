@@ -875,11 +875,12 @@ release
 end
 
 BillGarden_Poste_Texto_2:
-.string "Prohibido capturar POKÉMON sin permiso\n"
-	.string "expreso del SR.BILL$"
+	.string "It is not allowed to capture POKÉMON\n"
+	.string "without explicit permission from\l"
+	.string "MR.BILL.$"
 
 BillGarden_Poste_Texto_1:
-.string "JARDÍN DE BILL$"
+.string "BILL'S GARDEN$"
 
 RocketHideout5F_Primer_Cartel::
 lock
@@ -888,8 +889,8 @@ release
 end
 
 RocketHideout5F_Primer_Cartel_Texto_1:
-.string "ZONA 1: RENDIMIENTO DE LOS MEJORES NO\n"
-	.string "LEGENDARIOS DE KANTO$"
+.string "ZONE 1: PERFORMANCE OF BEST\n"
+	.string "NON-LEGENDARY KANTO POKÉMON$"
 
 RocketHideout5F_Segundo_Cartel::
 lock
@@ -898,7 +899,7 @@ release
 end
 
 RocketHideout5F_Segundo_Cartel_Texto_1:
-.string "ZONA 2: MEGAEVOLUCIÓN$"
+.string "ZONE 2: MEGA-EVOLUTION$"
 
 RocketHideout5F_Tercer_Cartel::
 lock
@@ -907,7 +908,7 @@ release
 end
 
 RocketHideout5F_Tercer_Cartel_Texto_1:
-.string "ZONA 3: EFICIENCIA EN LOS STATS BASE$"
+.string "ZONE 3: OPTIMAL STATS BASE PERFORMANCE$"
 
 RocketHideout5F_Cuarto_Cartel::
 lock
@@ -916,7 +917,7 @@ release
 end
 
 RocketHideout5F_Cuarto_Cartel_Texto_1:
-.string "ZONA 4: ESTRATEGIA EN COMBATE$"
+.string "ZONE 4: STRATEGY IN BATTLE$"
 
 BaseRocketHoennS3_Segundo_Cientifico::
 lock
