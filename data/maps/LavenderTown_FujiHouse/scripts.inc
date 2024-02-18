@@ -283,98 +283,99 @@ walk_up
 step_end
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_1:
-.string "PROTÓN: Así es, FUJI. Muy pronto\n"
-	.string "tendremos clones de las AVES\l"
-	.string "LEGENDARIAS a nuestra disposición.$"
+	.string "PROTON: That's right, FUJI. Soon, we'll\n"
+	.string "have clones of the LEGENDARY BIRDS\l"
+	.string "ready to use.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_2:
-.string "FUJI: Incluso con esos POKÉMON\n"
-	.string "sagrados… puede que no sea suficiente,\l"
-	.string "LANCE cuenta también con un poder\l"
-	.string "legendario. BLAINE me lo ha confirmado.$"
+	.string "FUJI: Even with those sacred POKÉMON,\n"
+	.string "it might not be enough. Turns out LANCE\l"
+	.string "has some legendary power too,\l"
+	.string "according to BLAINE.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_3:
-.string "PROTÓN: … …$"
+.string "PROTON: … …$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_4:
-.string "Con MEWTWO todo sería diferente.$"
+	.string "With MEWTWO, things would change\n"
+	.string "completely.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_5:
-.string "FUJI: Después del desastre de CANELA,\n"
-	.string "desapareció sin dejar rastro. Crear\l"
-	.string "otro es una posibilidad, pero llevaría\l"
-	.string "demasiado tiempo, especialmente sin la\l"
-	.string "ayuda de OAK.$"
+	.string "FUJI: After the CINNABAR disaster,\n"
+	.string "disappeared completely. Making another\l"
+	.string "one is possible, but it would take too\l"
+	.string "long, especially without OAK's help.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_6:
-.string "PROTÓN: Ese OAK… puede que incluso\n"
-	.string "sepa dónde está.$"
+	.string "PROTON: That OAK... he might even know\n"
+	.string "where it is.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_7:
-.string "FUJI: Si alguien tiene una remota idea,\n"
-	.string "es él. Debemos confiar en GIOVANNI y en\l"
-	.string "su maestría para trazar planes.$"
+	.string "FUJI: If anyone has a remote idea, it's\n"
+	.string "OAK. We must trust GIOVANNI and his\l"
+	.string "expertise to devise plans.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_8:
-.string "Rezaré en TORRE POKÉMON por el futuro\n"
-	.string "de KANTO, si todo va b…$"
+	.string "I will pray at POKÉMON TOWER for the\n"
+	.string "future of KANTO, if all goes w…$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_9:
-.string "????: Ya tendrás tiempo de rezar en la\n"
-	.string "cárcel, FUJI.$"
+	.string "????: You'll have plenty of time to pray\n"
+	.string "in jail, FUJI.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_10:
-.string "LT.SURGE: Aunque no hará falta, KANTO\n"
-	.string "ya está en buenas manos.$"
+	.string "LT. SURGE: Even though it won't be\n"
+	.string "needed, KANTO is in good hands already.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_11:
-.string "PROTÓN: ¡SURGE! ¿Qué haces tú aquí?$"
+	.string "PROTON: SURGE! What are you doing\n"
+	.string "here?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_12:
-.string "LT.SURGE: Entonces hoy estamos de\n"
-	.string "oferta, un alto cargo del TEAM ROCKET\l"
-	.string "también. Esto sí que no me lo esperaba.$"
+	.string "LT. SURGE: Well, today's a surprise!\n"
+	.string "We've got a top dog from TEAM ROCKET in\l"
+	.string "the mix too.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_13:
-.string "FUJI: ¿Qué es lo que quieres?$"
+	.string "FUJI: What do you want?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_14:
-.string "LT.SURGE: Quedas detenido por\n"
-	.string "colaborar y proporcionar valiosa\l"
-	.string "información a la banda criminal TEAM\l"
-	.string "ROCKET.$"
+	.string "LT. SURGE: You are under arrest for\n"
+	.string "collaborating and providing valuable\l"
+	.string "information to the criminal\l"
+	.string "organization TEAM ROCKET.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_15:
-.string "PROTÓN: ¿De qué estás hablando?$"
+	.string "PROTON: What are you talking about?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_16:
-.string "LT.SURGE: Los dos váis a venir conmigo.\n"
-	.string "¿Qué eres? ¿ALTO RANGO? ¿EJECUTIVO?\l"
-	.string "Vamos a disfrutar mucho en el\l"
-	.string "interrogatorio.$"
+	.string "LT. SURGE: You two will come with me.\n"
+	.string "What are you? HIGH RANK? EXECUTIVE?\l"
+	.string "We're gonna have some fun in the\l"
+	.string "interrogation room.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_17:
-.string "PROTÓN: No vamos a ir a ninguna parte.$"
+	.string "PROTON: We are not going anywhere.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_18:
-.string "LT.SURGE: Vuestro error es pensar que\n"
-	.string "tenéis elección.$"
+	.string "LT. SURGE: You guys are mistaken if you\n"
+	.string "think you have a choice.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_19:
-.string "O venís por las buenas o entonc…$"
+	.string "You come peacefully or...$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_20:
-.string "PROTÓN: ¡SLOWBRO! ¡TELETRANSPORTE!$"
+	.string "PROTON: SLOWBRO! TELEPORT!$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_21:
-.string "LT.SURGE: Maldito… un ROCKET con un\n"
-	.string "SLOWBRO, seguro que ni siquiera es de\l"
-	.string "KANTO.$"
+	.string "LT. SURGE: Damn... a ROCKET with a\n"
+	.string "SLOWBRO, probably not even from KANTO.$"
+
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_22:
-.string "Tú no escaparás FUJI, una pena que\n"
-	.string "CUERDA HUIDA no funcione aquí,\l"
-	.string "¿verdad?$"
+	.string "You won't escape, FUJI. It's a shame\n"
+	.string "that the escape rope doesn't work here,\l"
+	.string "isn't it?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_23:
 .string "FUJI: … …$"

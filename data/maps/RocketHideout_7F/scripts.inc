@@ -2345,9 +2345,9 @@ msgbox RocketHideout7FDocumento_Text_157, MSGBOX_SIGN
 end
 
 RocketHideout7FDocumento_Text_157:
-	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
-	.string "POKÉMON MAS PODEROSOS DE CADA\l"
-	.string "REGIÓN:\p"
+	.string "RESEARCH AREA ABOUT\n"
+	.string "TOP POWERFUL POKÉMON\l"
+	.string "IN EACH REGION:\p"
 	.string "KANTO$"
 
 
@@ -2357,9 +2357,9 @@ msgbox RocketHideout7FDocumento_Text_158, MSGBOX_SIGN
 end
 
 RocketHideout7FDocumento_Text_158:
-	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
-	.string "POKÉMON MAS PODEROSOS DE CADA\l"
-	.string "REGIÓN:\p"
+	.string "RESEARCH AREA ABOUT\n"
+	.string "TOP POWERFUL POKÉMON\l"
+	.string "IN EACH REGION:\p"
 	.string "JOHTO$"
 
 
@@ -2370,9 +2370,9 @@ msgbox RocketHideout7FDocumento_Text_159, MSGBOX_SIGN
 end
 
 RocketHideout7FDocumento_Text_159:
-	.string "ZONA DE INVESTIGACIÓN DE LOS\n"
-	.string "POKÉMON MAS PODEROSOS DE CADA\l"
-	.string "REGIÓN:\p"
+	.string "RESEARCH AREA ABOUT\n"
+	.string "TOP POWERFUL POKÉMON\l"
+	.string "IN EACH REGION:\p"
 	.string "HOENN$"
 
 RocketHideout_7F_Fuerte_Vinculo::

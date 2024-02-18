@@ -55,8 +55,8 @@ release
 end
 
 SaffronCityPokemonCenter4_Texto_1:
-.string "El mismísimo LANCE visitó AZAFRÁN para\n"
-	.string "negociar con SILPH.$"
+.string "SILPH is such an important company that\n"
+	.string "even LANCE came here for business.$"
 
 
 SaffronCityPokemonCenterDocumento_100::
