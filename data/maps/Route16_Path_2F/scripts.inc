@@ -24,8 +24,8 @@ release
 end
 
 Route16_Path2F_Text_2:
-.string "Si intentas algo raro llamaré al\n"
-.string "POLICÍA de abajo.$"
+.string "If you touch me I'll\n"
+.string "call the POLICEMAN at 1F.$"
 
 
 
@@ -50,9 +50,10 @@ msgbox Route16Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route16Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
-	.string "¡Hay un largo camino sobre\n"
-	.string "el agua!$"
+    .string "Let's see what the binoculars have\n"
+    .string "to show…\p"
+    .string "There's a long path over water far\n"
+    .string "away.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak::
 lock

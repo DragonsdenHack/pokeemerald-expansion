@@ -111,8 +111,8 @@ msgbox Route12Documento_Text_100, MSGBOX_SIGN
 end
 
 Route12Documento_Text_100:
-	.string "RUTA 12\n"
-	.string "Al norte PUEBLO LAVANDA$"
+    .string "ROUTE 12 \n"
+    .string "North to LAVENDER$"
 
 
 Route12_EventScript_Pareja1::

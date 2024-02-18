@@ -9,10 +9,9 @@ release
 end
 
 Route18_Path1F_Text_1:
-.string "Poco me importa que uses o no una\n"
-.string "BICI para entrar en el CAMINO\l"
-.string "BICIS ROCKET, ya estás en la lista\l"
-.string "negra, no tenéis remedio y no voy\l"
-.string "a gastar ni un segundo de mi\l"
-.string "tiempo en tratar de reinsertarte\l"
-.string "en la sociedad.$"
+	.string "I don't give a damn if you use a bike to\n"
+	.string "get into the CYCLING ROAD or not;\l"
+	.string "you're already on the blacklist. You're a\l"
+	.string "lost cause, and I'm not going to bother\l"
+	.string "trying to help you fit back into\l"
+	.string "society.$"

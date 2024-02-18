@@ -72,10 +72,9 @@ release
 end
 
 PowerPlant13_Texto_1:
-.string "Ya estás al límite chiquilla,\n"
-	.string "cuando el LT.SURGE llegue no le\l"
-	.string "tomará más de un POKÉMON\l"
-	.string "rematarte...$"
+	.string "You are done, young lady; when LT.SURGE\n"
+	.string "arrives, it won't take him more than one\l"
+	.string "POKÉMON to finish you off...$"
 
 
 
@@ -86,12 +85,11 @@ release
 end
 
 PowerPlant14_Texto_1:
-.string "¿{PLAYER}?\n"
-	.string "Al fin...\l"
-	.string "Ya he derrotado a 7 POLICÍAS que\l"
-	.string "han huido para avisar al LT.SURGE...\l"
-	.string "Date prisa...\l"
-	.string "Mi equipo no aguantará mucho más...$"
+.string "{PLAYER}?\n"
+	.string "Finally...\l"
+	.string "I have already defeated 7 POLICE\l"
+	.string "officers who fled to alert LT. SURGE...\l"
+	.string "Hurry... My team won't last much longer...$"
 
 
 

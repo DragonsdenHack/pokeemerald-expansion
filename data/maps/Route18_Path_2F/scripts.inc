@@ -9,10 +9,9 @@ release
 end
 
 Route18_Path2F_Text_1:
-.string "Aléjate de mis POKÉMON ROCKET,\n"
-.string "aunque tuvieses un MOLTRES en tu\l"
-.string "poder no te lo cambiaría ni por un\l"
-.string "vulgar MAGIKARP.$"
+	.string "Back off from my POKÉMON, ROCKET. I\n"
+	.string "wouldn't trade any of mine, even if you\l"
+	.string "offer me a MOLTRES.$"
 
 
 
@@ -21,8 +20,9 @@ msgbox Route18Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route18Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
-	.string "¡PUEBLO PALETA está al oeste!$"
+    .string "Let's see what the binoculars have\n"
+    .string "to show…\p"
+    .string "PALLET TOWN is in the west.$"
 
 
 
@@ -31,5 +31,6 @@ msgbox Route18Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route18Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
-	.string "¡Hay gente nadando!$"
+    .string "Let's see what the binoculars have\n"
+    .string "to show…\p"
+    .string "There are people swimming.$"

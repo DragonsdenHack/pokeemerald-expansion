@@ -3582,20 +3582,20 @@ release
 end
 
 RocketHideout_4F_Dialogo_Proton_Texto_2:
-.string "Yo, aunque sigo siendo EJECUTIVO, soy\n"
-	.string "el de mayor confianza para GIOVANNI.\l"
-	.string "Por otro lado, ADMIN únicamente están\l"
-	.string "PETREL y ATLAS, este último siendo\l"
-	.string "ADMIN.JEFE, ya que dentro de nuestra\l"
-	.string "sucursal en ISLAS SETE es la máxima\l"
-	.string "autoridad.$"
+	.string "Even though I'm still an EXECUTIVE, I'm\n"
+	.string "GIOVANNI's most trusted one. Meanwhile,\l"
+	.string "PETREL and ATLAS are the only ADMINS,\l"
+	.string "with ATLAS as the HEAD ADMIN, since\l"
+	.string "he's the highest authority in our SEVII\l"
+	.string "ISLANDS branch.$"
+
 
 RocketHideout_4F_Dialogo_Proton_Texto_1:
-.string "Los distintos rangos de esta\n"
-	.string "organización son, de menos a más:\l"
-	.string "RECLUTA, RECLUTA ALTO RANGO,\l"
-	.string "EJECUTIVO, ADMINISTRADOR,\l"
-	.string "ADMINISTRADOR JEFE, LÍDER.$"
+	.string "The organization's hierarchy consists\n"
+	.string "of several levels, starting with GRUNT,\l"
+	.string "then HIGH-RANK GRUNT, followed by\l"
+	.string "EXECUTIVE, ADMINISTRATOR, CHIEF\l"
+	.string "ADMINISTRATOR, and finally, LEADER.$"
 
 
 
