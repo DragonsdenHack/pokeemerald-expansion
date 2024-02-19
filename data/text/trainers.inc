@@ -9498,7 +9498,7 @@ RocketHideoutViridian_Text_Rocket7Defeated:
 
 RocketHideoutViridian_Text_Rocket7PostBattle:
 	.string "Good luck in your POKÉMON LEAGUE\n"
-	.string "challenge, EXECUTIVE {PLAYER}$"
+	.string "challenge, EXECUTIVE {PLAYER}.$"
 
 
 

@@ -115,8 +115,8 @@ release
 end
 
 VictoryRoad_2F_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste VIDASFERA de manos de\n"
-	.string "ENTRENADOR GUAY!$"
+.string "You obtained a LIFE ORB\n"
+	.string "from COOLTRAINER hands!$"
 
 VictoryRoad_2F_Entrenador_Especial_2_No::
 msgbox VictoryRoad_2F_Entrenador_Especial_Texto_7 MSGBOX_AUTOCLOSE
@@ -129,61 +129,53 @@ release
 end
 
 VictoryRoad_2F_Entrenador_Especial_Texto_1:
-.string "Los movimientos de daño de\n"
-	.string "retroceso tienen una potencia casi\l"
-	.string "incomparable, pero como su propia\l"
-	.string "versión del TIPO NORMAL\l"
-	.string "indica, son un arma de DOBLE-FILO,\l"
-	.string "que usada con sabiduría es una\l"
-	.string "gran herramienta ofensiva. Estaría\l"
-	.string "encantado de enseñarte DOBLE-FILO\l"
-	.string "de no ser porque ya se lo he\l"
-	.string "enseñado a un chico antes, sin\l"
-	.string "embargo, puedo ofrecerte algo\l"
-	.string "incluso mejor, pero si voy a\l"
-	.string "dártelo, debes de probar que lo\l"
-	.string "mereces, no es un objeto para\l"
-	.string "cualquiera.$"
+	.string "Moves with recoil damage are incredibly\n"
+	.string "strong, but they come with their risks.\l"
+	.string "DOUBLE-EDGE is known for its powerful\l"
+	.string "yet risky nature. While I'd be happy to\l"
+	.string "teach you, I've already instructed\l"
+	.string "someone else. However, I can offer you\l"
+	.string "an alternative, provided you\l"
+	.string "demonstrate your worthiness. It's not\l"
+	.string "something I give out lightly.$"
+
 
 VictoryRoad_2F_Entrenador_Especial_Texto_2:
-.string "Entonces, ¿aceptas el reto?$"
+	.string "So, you gonna take on the challenge or\n"
+	.string "what?$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_3:
-.string "La VIDASFERA va un paso más allá\n"
-	.string "de los movimientos de retroceso,\l"
-	.string "este objeto aumenta en un 30% la\l"
-	.string "potencia de todos tus movimientos\l"
-	.string "ofensivos, sin embargo de restará\l"
-	.string "un 10% de salud a cada turno que\l"
-	.string "los emplees, usado sabiamente\l"
-	.string "puedes crear POKÉMON de un poder\l"
-	.string "temible, pero debes de tener\l"
-	.string "cuidado con el daño de retroceso,\l"
-	.string "si lo combinas con los ya de por\l"
-	.string "sí DOBLE-FILO o PÁJARO-OSADO,\l"
-	.string "causarás un daño terrible al\l"
-	.string "rival, pero también deberás de\l"
-	.string "vigilar tu propia salud, es un\l"
-	.string "objeto muy raro por KANTO, ¡úsalo\l"
-	.string "sabiamente!$"
+	.string "LIFE ORB offers a unique advantage by\n"
+	.string "amplifying the power of offensive\l"
+	.string "moves by 30%. However, its usage comes\l"
+	.string "at a cost, deducting 10% of the user's\l"
+	.string "health with each turn. Strategically\l"
+	.string "employed, it has the potential to\l"
+	.string "foster POKÉMON of remarkable strength.\l"
+	.string "Yet, it's crucial to consider the\l"
+	.string "repercussions of recoil damage.\l"
+	.string "Combining it with moves like\l"
+	.string "DOUBLE-EDGE or BRAVE BIRD can result\l"
+	.string "in devastating blows to opponents,\l"
+	.string "though at the expense of the user's\l"
+	.string "own health. Given its rarity in KANTO, it\l"
+	.string "should be utilized judiciously.$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_4:
-.string "¡Bien!\n"
-	.string "¡Prepárate, soy el ENTRENADOR GUAY\l"
-	.string "más poderoso que encontrarás en la\l"
-	.string "CALLE VICTORIA!$"
+	.string "Alright! Get set, I'm the baddest\n"
+	.string "COOLTRAINER you'll run into on VICTORY\l"
+	.string "ROAD!$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_5:
-.string "Impresionante, alguien como tú\n"
-	.string "debe de tener lo que te voy a dar.$"
+	.string "Wow, that's awesome! Someone like you\n"
+	.string "totally deserves what I'm gonna give\l"
+	.string "you.$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_6:
-.string "Me has derrotado, queda claro que\n"
-	.string "no eres uno más del montón, por\l"
-	.string "ello mereces esto.$"
+	.string "Dang, you beat me! You're something\n"
+	.string "else, you know? So, here's your prize.$"
 
 VictoryRoad_2F_Entrenador_Especial_Texto_7:
-.string "Bien, te entiendo, después de todo\n"
-	.string "no todos tienen el nivel para\l"
-	.string "enfrentar a un ENTRENADOR GUAY de\l"
-	.string "verdad.$"
+	.string "Alright, I hear ya. Not everyone's got\n"
+	.string "what it takes to go up against a real\l"
+	.string "COOLTRAINER, y'know.$"

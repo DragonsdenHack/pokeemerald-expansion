@@ -938,18 +938,19 @@ Cinnabar_Island_Lider_Gimnasio_Texto_1.1:
     .string "You better have BURN HEAL!$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1.2:
-.string "Por otro lado, tendrás que disculpar a\n"
-	.string "mi GIMNASIO, pero últimamente han\l"
-	.string "venido muchos aspirantes y no nos ha\l"
-	.string "dado tiempo a colocar nuevos acertijos.$"
+	.string "On the other hand, you'll have to excuse\n"
+	.string "my GYM, but lately, there have been many\l"
+	.string "contenders, and we haven't had time to\l"
+	.string "set up new puzzles.$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_1.3:
-.string "Debes saber que no me gusta esa moda\n"
-	.string "de hacer cosplay con el TEAM ROCKET.\l"
-	.string "Son unos traidores a la verdadera KANTO\l"
-	.string "y merecen desaparecer de su historia,\l"
-	.string "con actos como ese solo se afianzan en\l"
-	.string "el imaginario colectivo, ¿entiendes?$"
+	.string "You should know that I don't like the\n"
+	.string "trend of cosplaying as TEAM ROCKET.\l"
+	.string "They are traitors to the true KANTO and\l"
+	.string "deserve to disappear from its history.\l"
+	.string "Acts like that only solidify their place\l"
+	.string "in the collective imagination, do you\l"
+	.string "understand?$"
 
 Cinnabar_Island_Lider_Gimnasio_Texto_2:
 .string "I have burned down to nothing!\n"
