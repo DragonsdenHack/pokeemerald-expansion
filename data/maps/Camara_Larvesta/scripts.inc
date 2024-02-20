@@ -13,4 +13,4 @@ release
 end
 
 Camara_Larvesta_Ball_Texto_3:
-.string "¡{PLAYER} obtuvo un LARVESTA!$"
+.string "{PLAYER} obtained a LARVESTA!$"

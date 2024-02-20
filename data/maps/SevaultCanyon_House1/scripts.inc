@@ -19,7 +19,7 @@ release
 end
 
 SevaultCanyonHouse1_3_Texto_1:
-.string "A mi CHANSEY le encanta curar a los\n"
-	.string "cansados viajeros que llegan hasta\l"
-	.string "aquí. Esta isla es la más extensa de\l"
-	.string "todo el ARCHI7.$"
+	.string "My CHANSEY loves helping out tired\n"
+	.string "travelers who make it here. This\l"
+	.string "island's the biggest one in the whole\l"
+	.string "ARCHI7.$"
