@@ -27,9 +27,10 @@ release
 end
 
 FiveIsland_PokemonCenter_Text_2:
-.string "¿Conoces ya los RECREATIVOS?\p"
-.string "Lo suyo es ir al menos con\n"
-.string "un amigo. Si no, es un rollo.$"
+    .string "Have you visited the GAME CORNER\n"
+    .string "already?\p"
+    .string "It's no good to go alone.\n"
+    .string "You have to take a friend along.$"
 
 
 
@@ -41,11 +42,12 @@ release
 end
 
 FiveIsland_PokemonCenter_Text_3:
-.string "ISLA SECUNDA tiene muy pocos\n"
-.string "habitantes.\p"
-.string "En el mismo cabo vive una señora\n"
-.string "mayor.\p"
-.string "Lleva allí ni se sabe…$"
+    .string "Not many people live on\n"
+    .string "TWO ISLAND.\p"
+    .string "There is this old lady who lives\n"
+    .string "out on the cape.\p"
+    .string "She's been there since I don't know\n"
+    .string "when.$"
 
 
 

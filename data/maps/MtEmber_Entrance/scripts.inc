@@ -128,41 +128,38 @@ release
 end
 
 MtEmberEntrance_Encuentro_Magno_Texto_1:
-.string "????: Debe ser aquí.$"
+.string "????: Must be here.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_2:
-.string "Esta gran montaña resultó ser el\n"
-	.string "hogar de un legendario como\l"
-	.string "MOLTRES, alguien lo dejó bastante\l"
-	.string "debilitado, listo para ser\l"
-	.string "capturado y unirse a mi equipo.$"
+	.string "This huge mountain turned out to be\n"
+	.string "MOLTRES's home. Someone defeated the\l"
+	.string "legend, ready to be caught and join my\l"
+	.string "team.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_3:
 .string "...$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_4:
-.string "Mentiría si dijera que no prefiero\n"
-	.string "antes a un ENTEI, el auténtico\l"
-	.string "espíritu de un volcán en erupción,\l"
-	.string "antes que un MOLTRES, sin embargo,\l"
-	.string "jamás rechazaría un POKÉMON de\l"
-	.string "esas características cuando se\l"
-	.string "presenta tan facilmente.$"
+	.string "I would be dishonest if I were to say\n"
+	.string "that I do not prefer an ENTEI, the\l"
+	.string "authentic spirit of a erupting volcano,\l"
+	.string "over a MOLTRES. However, I would never\l"
+	.string "refuse a POKÉMON of such\l"
+	.string "characteristics when it presents\l"
+	.string "itself so readily.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_5:
-.string "No obstante, no estoy aquí por\n"
-	.string "MOLTRES, este lugar esconde algo\l"
-	.string "mucho más valioso y poderoso en\l"
-	.string "su interior de lo que jamás\l"
-	.string "pudiéramos imaginar solo echando\l"
-	.string "un simple vistazo a su superficie.$"
+	.string "However, I am not here for Moltres; this\n"
+	.string "place conceals something far more\l"
+	.string "valuable and powerful within than we\l"
+	.string "could ever imagine just by taking a\l"
+	.string "simple glance at its surface.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_6:
-.string "Te lo advierto chico, no te metas\n"
-	.string "en asuntos más grandes que tu\l"
-	.string "propia existencia, o serás\l"
-	.string "reducido a cenizas por un poder\l"
-	.string "que escapa a tu comprensión.$"
+	.string "I'm warning you, kid, don't get involved\n"
+	.string "in things bigger than your own\l"
+	.string "existence, or you'll be turned to ashes\l"
+	.string "by a power you can't understand.$"
 
 MtEmberEntrance_Encuentro_Magno_Move_1:
 emote_exclamation_mark
@@ -256,47 +253,45 @@ end
 
 
 MtEmber_Entrance_Entrenador_Especial_Texto_1:
-.string "Si este volcán entrara en\n"
-	.string "erupción, probablemente la\l"
-	.string "explosión se extendería hasta ISLA\l"
-	.string "SECUNDA y TERA, afortunadamente al\l"
-	.string "parecer está dormido y es muy\l"
-	.string "improbable que algo así ocurra en\l"
-	.string "los próximos siglos, pero pone de\l"
-	.string "manifiesto la fuerza de una\l"
-	.string "explosión, si quieres puedo\l"
-	.string "mostrarte POKÉMON capaces de\l"
-	.string "provocar y resistir explosiones de\l"
-	.string "ese calibre.$"
+	.string "If this volcano were to erupt, it could\n"
+	.string "potentially cause an explosion that\l"
+	.string "reaches both TWO and THREE ISLAND.\l"
+	.string "Fortunately, it's currently dormant,\l"
+	.string "and the likelihood of such an event\l"
+	.string "occurring in the near future is very\l"
+	.string "low. However, it highlights the immense\l"
+	.string "power of an explosion. If you're\l"
+	.string "interested, I can demonstrate POKÉMON\l"
+	.string "capable of causing and surviving\l"
+	.string "explosions of that magnitude.$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste MT83 TERRATEMBLOR\n"
-	.string "de manos de MONTAÑERO!$"
+.string "You obtained TM83 BULLDOZE\n"
+	.string "from Hiker hands!$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_2:
-.string "Entonces, ¿aceptas el reto?$"
+.string "Do you accept the challenge?$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_3:
-.string "Con TERRATEMBLOR no solo podrás\n"
-	.string "golpear al rival, también le bajarás\l"
-	.string "siempre la VELOCIDAD. Es como el TUMBA\l"
-	.string "ROCAS que da ese BROCK en CIUDAD\l"
-	.string "PLATEADA, ¡pero nunca falla!$"
+	.string "With BULLDOZE, not only can you strike\n"
+	.string "the opponent, but you'll also always\l"
+	.string "lower their SPEED. It's like that ROCK\l"
+	.string "TOMB move that BROCK gives out in\l"
+	.string "PEWTER CITY, but will never miss!$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_4:
-.string "Bien, ¡te advierto que mis POKÉMON\n"
-	.string "son duros como rocas!$"
+	.string "Alright, just so you know, my POKÉMON\n"
+	.string "are as solid as rocks!$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_5:
-.string "¡Has roto la coraza de mi\n"
-	.string "equipo!$"
+	.string "You've broken through my team's\n"
+	.string "defenses!$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_6:
-.string "No esperaba perder, no hay un\n"
-	.string "MONTAÑERO de mi nivel por esta\l"
-	.string "zona, acepta esto como regalo.$"
+	.string "I didn't expect to lose. There's no\n"
+	.string "mountaineer as skilled as me around\l"
+	.string "here. Take this as a gift.$"
 
 MtEmber_Entrance_Entrenador_Especial_Texto_7:
-.string "Es duro enfrentar a POKÉMON que\n"
-	.string "pueden explotar en cualquier\l"
-	.string "momento, lo sé.$"
+	.string "Facing POKÉMON that can explode at any\n"
+	.string "moment is challenging, I know.$"

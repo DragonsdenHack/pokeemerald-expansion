@@ -233,6 +233,10 @@ end
 
 
 FileIsleMeadow_Recluta_Balls_AltoRango_2::
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_1 MSGBOX_AUTOCLOSE
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_2 MSGBOX_AUTOCLOSE
+delay 15
+msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_3 MSGBOX_AUTOCLOSE
 msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_4 MSGBOX_AUTOCLOSE
 msgbox FileIsleMeadow_Recluta_Balls_AltoRango_texto_5 MSGBOX_YESNO
 compare VAR_RESULT, 0
@@ -248,50 +252,53 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_10:
-.string "¡¡{PLAYER} obtuvo 5 SUPER BALL\n"
-	.string "de manos de Alto Rango Rocket!!$"
+.string "{PLAYER} obtained 5 GREAT BALL\n"
+	.string "from HIGH RANK GRUNT hands!!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_1:
-.string "¡{PLAYER}!$"
+.string "{PLAYER}!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_2:
-.string "¡Te has convertido en una leyenda\n"
-	.string "desde que abandonaste la isla! ¡Quién\l"
-	.string "diría que llegarías a ADMINISTRADOR\l"
-	.string "ROCKET tumbando el gobierno de LANCE!$"
+	.string "Since leaving the island, you've become\n"
+	.string "a legendary figure! Who would have\l"
+	.string "imagined that you would rise to the\l"
+	.string "position of ROCKET ADMIN by toppling\l"
+	.string "LANCE's government!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_3:
-.string "Yo también he logrado subir en la\n"
-	.string "organización, ¡ahora soy ALTO RANGO!$"
+	.string "I've also climbed up in the\n"
+	.string "organization; now I'm a HIGH RANK\l"
+	.string "GRUNT!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_4:
-.string "Perdone mi indiscrección, señor, pero\n"
-	.string "sería todo un honor poder combatir\l"
-	.string "contra usted, y así fortalecer aún más\l"
-	.string "mis POKÉMON.$"
+	.string "I apologize for my impertinence, sir,\n"
+	.string "but it would be a tremendous honor for\l"
+	.string "me to have a battle with you. It would\l"
+	.string "also help in furthering the strength of\l"
+	.string "my POKÉMON.$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_5:
-.string "¿Le gustaría combatir?$"
+	.string "Would you battle me?$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_6:
-.string "Entiendo, alguien como usted debe\n"
-	.string "tener asuntos de gran importancia\l"
-	.string "esperándole.$"
+	.string "I understand, someone like you must\n"
+	.string "have matters of great importance\l"
+	.string "awaiting you.$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_7:
-.string "¡No le decepcionaré, SIR!$"
+	.string "I will not disappoint you, SIR!$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_8:
-.string "Entonces, este es el poder de la élite\n"
-	.string "del TEAM ROCKET.$"
+	.string "So, that's the power of TEAM ROCKET's\n"
+	.string "elite.$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango_texto_9:
-.string "¡Gracias por la lección, señor! Tome\n"
-	.string "esto, puede que no sea la mejor BALL\l"
-	.string "para alguien de su categoría, ¡pero al\l"
-	.string "menos le ahorrará tener que usar ULTRA\l"
-	.string "BALL o MASTER BALL con POKÉMON que no\l"
-	.string "lo merecen!$"
+	.string "Thank you for the lesson, sir! Please\n"
+	.string "accept this; it may not be the most\l"
+	.string "suitable BALL for someone of your\l"
+	.string "expertise, but it will save you from\l"
+	.string "having to waste ULTRA BALLs or MASTER\l"
+	.string "BALLs on Pokémon that aren't worthy!$"
 
 FileIsleMeadow_Recluta_Balls_Debil::
 msgbox FileIsleMeadow_Recluta_Balls_Debil_Texto_1 MSGBOX_AUTOCLOSE
@@ -387,93 +394,77 @@ release
 end
 
 FileIsleMeadow_Combate_Azul_Texto_1:
-.string "AZUL: Ah, {PLAYER}.\n"
-	.string "Volviendo a los orígenes, ¿eh?$"
+	.string "BLUE: Ah, {PLAYER}. Returning to your\n"
+	.string "roots, huh?$"
 
 FileIsleMeadow_Combate_Azul_Texto_2:
-.string "ATLAS me ha estado informando de\n"
-	.string "todo cuanto puedo explorar por\l"
-	.string "estas islas, este lugar es ideal\l"
-	.string "para tomarse un respiro de todo lo\l"
-	.string "ocurrido en la LIGA POKÉMON.$"
+	.string "ARCHER has been telling me about all\n"
+	.string "the cool stuff to check out on these\l"
+	.string "islands. This place is awesome for\l"
+	.string "taking a break from all the POKÉMON\l"
+	.string "LEAGUE craziness.$"
 
 FileIsleMeadow_Combate_Azul_Texto_3:
 .string "... ...$"
 
 FileIsleMeadow_Combate_Azul_Texto_4:
-.string "Técnicamente soy el CAMPEÓN de la\n"
-	.string "LIGA POKÉMON, pero ambos sabemos\l"
-	.string "que lo que ocurrió allí fue\l"
-	.string "totalmente distinto, fuiste tú\l"
-	.string "quien derrotó a los mejores\l"
-	.string "entrenadores...y a ROJO.$"
+	.string "Technically, I am the champion of the\n"
+	.string "POKÉMON LEAGUE, but we both know that\l"
+	.string "what happened there was entirely\l"
+	.string "different. It was you who defeated the\l"
+	.string "top trainers... including RED.$"
 
 FileIsleMeadow_Combate_Azul_Texto_5:
-.string "Ahí me di cuenta que quería ser\n"
-	.string "CAMPEÓN más para demostrar a los\l"
-	.string "otros mi valía, para estar por\l"
-	.string "encima de ROJO y quedar como el\l"
-	.string "mejor de entre los dos, que por\l"
-	.string "pura iniciativa mía.$"
+	.string "That's when I realized I wanted to be\n"
+	.string "the champ more to show off to everyone,\l"
+	.string "to beat RED, and to prove I was better\l"
+	.string "than him, rather than just for myself.$"
 
 FileIsleMeadow_Combate_Azul_Texto_6:
-.string "Ahora que soy el CAMPEÓN, me doy\n"
-	.string "cuenta de que este título no vale\l"
-	.string "nada, solo soy el mejor a ojos de\l"
-	.string "las masas, pero la realidad es\l"
-	.string "bien distinta.$"
+	.string "Now that I'm the champion, I see that\n"
+	.string "this title means nothing; I'm only the\l"
+	.string "best in the eyes of the public, but the\l"
+	.string "truth is different.$"
 
 FileIsleMeadow_Combate_Azul_Texto_7:
-.string "Me he propuesto tomarme las cosas\n"
-	.string "con más calma a partir de ahora,\l"
-	.string "disfrutar de lugares como este y\l"
-	.string "su naturaleza, GIOVANNI me ha\l"
-	.string "ofrecido también su GIMNASIO de\l"
-	.string "CIUDAD VERDE, después de todo creo\l"
-	.string "que ese será mi lugar.$"
+	.string "I've decided to take it easy from now\n"
+	.string "on, you know, enjoy places like this and\l"
+	.string "the great outdoors. GIOVANNI's even\l"
+	.string "offered me his VIRIDIAN GYM; I think\l"
+	.string "that's where I'll be hanging out.$"
 
 FileIsleMeadow_Combate_Azul_Texto_8:
-.string "Tú en cambio quieres ir más allá\n"
-	.string "de donde nadie ha llegado, ¿no?\l"
-	.string "Explorar otras regiones, saltarte\l"
-	.string "los límites que te rodean.$"
+	.string "On the other hand, you want to go\n"
+	.string "further than anyone has ever gone,\l"
+	.string "right? Explore other regions, break\l"
+	.string "through the limits around you.$"
 
 FileIsleMeadow_Combate_Azul_Texto_9:
-.string "ATLAS me recomendó un par de\n"
-	.string "lugares para capturar buenos\l"
-	.string "POKÉMON, tal vez no te impresione\l"
-	.string "después de haber combatido a LANCE\l"
-	.string "pero...\l"
-	.string "¡Concédeme este combate!$"
+	.string "ATLAS suggested a couple of spots to\n"
+	.string "catch some good POKÉMON. It might not\l"
+	.string "blow you away after fighting LANCE,\l"
+	.string "but... Let me have this battle!$"
 
 FileIsleMeadow_Combate_Azul_Texto_10:
-.string "Bueno, al menos he competido.$"
+	.string "Well, at least I competed.$"
 
 FileIsleMeadow_Combate_Azul_Texto_11:
-.string "Tal y como esperaba, has mejorado\n"
-	.string "aún más desde entonces, aunque me\l"
-	.string "doy por satisfecho, creo que he\l"
-	.string "alcanzado el nivel de ROJO cuando\l"
-	.string "me enfrenté a él por última vez, y\l"
-	.string "con algo más de entreno podré\l"
-	.string "sobrepasarlo, ese será el objetivo\l"
-	.string "tras el que humildemente iré\l"
-	.string "mientras sigo mi camino.$"
+	.string "As I figured, you've gotten even better\n"
+	.string "since then. I'm pretty happy with my\l"
+	.string "progress, but I reckon I've reached the\l"
+	.string "same level as RED from our last battle.\l"
+	.string "With a bit more training, I'll be able to\l"
+	.string "take him down. That's what I'll be aiming\l"
+	.string "for as I keep on going.$"
 
 FileIsleMeadow_Combate_Azul_Texto_12:
-.string "¡{PLAYER}!\n"
-	.string "¡Disfruta de tus merecidas\l"
-	.string "vacaciones!\l"
-	.string "¡No tengo duda de que GIOVANNI te\l"
-	.string "solicitará para ser participe de\l"
-	.string "los más grandes proyectos del TEAM\l"
-	.string "ROCKET!\l"
-	.string "Tal vez algún día tus hazañas sean\l"
-	.string "reconocidas ante la sociedad, pero\l"
-	.string "ya te digo que no te hace falta,\l"
-	.string "lo que ocurrió, ocurrió\l"
-	.string "independientemente de que sepan la\l"
-	.string "verdad 10 o 100000 personas.$"
+	.string "{PLAYER}! Enjoy your well-deserved\n"
+	.string "break! I'm sure GIOVANNI will want you\l"
+	.string "in on some big TEAM ROCKET stuff! Maybe\l"
+	.string "one day everyone will know about your\l"
+	.string "adventures, but honestly, who cares?\l"
+	.string "What happened, happened, whether 10 or\l"
+	.string "100,000 people know about it.$"
 
 FileIsleMeadow_Combate_Azul_Move_1:
 emote_exclamation_mark

@@ -959,13 +959,12 @@ release
 end
 
 Silph_S2_Discoxtrano_Text_2:
-	.string "Alguien como tú debería de tener\n"
-	.string "acceso a lo último de lo último en\l"
-	.string "tecnología. Dicen que el PRESIDENTE te\l"
-	.string "regaló un PORYGON, junto con una\l"
-	.string "MEJORA para convertirlo en pORYGON2. Si\l"
-	.string "quieres ir más allá, este objeto es para\l"
-	.string "ti.$"
+	.string "Someone like you should have access to\n"
+	.string "the very latest in technology. It is\l"
+	.string "said that the PRESIDENT gifted you a\l"
+	.string "PORYGON, along with an UPGRADE to\l"
+	.string "evolve it into PORYGON2. If you wish to\l"
+	.string "go further, this item is for you.$"
 
 Silph_S2_Discoxtrano_Despues::
 msgbox Silph_S2_Discoxtrano_Text_1, MSGBOX_AUTOCLOSE
@@ -973,11 +972,11 @@ release
 end
 
 Silph_S2_Discoxtrano_Texto_1.1:
-.string "¡{PLAYER} obtuvo DISCOXTRAÑO\n"
-	.string "de manos de científico!$"
+.string "¡{PLAYER} obtained the DUBIOUS\n"
+	.string "DISC from Scientist!$"
 
 Silph_S2_Discoxtrano_Text_1:
-	.string "Con el DISCOXTRAÑO podrás evolucionar\n"
-	.string "a PORYGON2 en PORYGON-Z, una versión\l"
-	.string "algo más vulnerable a los ataques, pero\l"
-	.string "con una ofensiva extraordinaria.$"
+	.string "With the DUBIOUS DISC, you can evolve\n"
+	.string "PORYGON2 into PORYGON-Z, a more\l"
+	.string "vulnerable version to attacks but with\l"
+	.string "extraordinary offensive capabilities.$"

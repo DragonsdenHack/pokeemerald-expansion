@@ -36,44 +36,46 @@ release
 end
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_1:
-.string "Oh, vaya. Parece que eres de esos\n"
-	.string "entrenadores a los que no les han\l"
-	.string "regalado nada, hay mucho crío que Se\l"
-	.string "cree especial solo porque ha recibido\l"
-	.string "algún POKÉMON raro o poderoso sin\l"
-	.string "haber hecho nada para Merecerlo, no\l"
-	.string "parece ser tu caso, me gustaría\l"
-	.string "comprobarlo.$"
+	.string "Oh, well. It seems that you're one of\n"
+	.string "those trainers who hasn't been handed\l"
+	.string "anything. There are many kids out there\l"
+	.string "who think they're special just because\l"
+	.string "they've received some rare or powerful\l"
+	.string "POKÉMON without having put in any\l"
+	.string "effort to earn it. But it doesn't seem\l"
+	.string "like that's the case with you. I'd like\l"
+	.string "to confirm it, though.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_2:
-.string "¿Aceptas el reto?$"
+	.string "So you accept the challenge?$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_3:
-.string "Vaya, puede que me equivocara contigo.$"
+	.string "I might have been wrong about you.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_4:
-.string "Vas a ver lo mucho que puede uno\n"
-	.string "aprender en la soledad de esta isla\l"
-	.string "jovencito.$"
+	.string "You'll be amazed by the amount of\n"
+	.string "learning one can experience in the\l"
+	.string "solitude of this island, young man.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_5:
-.string "Así que aún queda un largo camino...$"
+.string "So, there's still a long way to go...$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_6:
-.string "Se ve que eres muy cuidadoso con tu\n"
-	.string "equipo. Me has devuelto las ganas por\l"
-	.string "combatir frente a otros, esto es para\l"
-	.string "ti.$"
+	.string "It appears that you are very\n"
+	.string "meticulous with your team. You have\l"
+	.string "reignited my desire to battle others.\l"
+	.string "This is for you.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_1.1:
-.string "¡Obtuviste LUPA de manos de\n"
-	.string "EXORCISTA!$"
+	.string "Obtained WIDE LENS from CHANELER\n"
+	.string "hands!$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_7:
-	.string "La LUPA incrementará en un 10% la\n"
-	.string "precisión de todos tus movimientos\l"
-	.string "ofensivos, eso quiere que los\l"
-	.string "Movimientos de 90 de potencia tendrán\l"
-	.string "ahora 99, mientras que otros como\l"
-	.string "TRUENO de 70, pasarán a tener 77 de\l"
-	.string "precisión, es muy útil según el caso.$"
+	.string "The WIDE LENS enhances the accuracy\n"
+	.string "of your offensive moves by 10%. For\l"
+	.string "instance, moves with 90% accuracy will\l"
+	.string "now have 99% accuracy, whereas moves\l"
+	.string "like THUNDER, originally with 70%\l"
+	.string "accuracy, will now boast 77% accuracy.\l"
+	.string "Its usefulness varies depending on the\l"
+	.string "scenario.$"

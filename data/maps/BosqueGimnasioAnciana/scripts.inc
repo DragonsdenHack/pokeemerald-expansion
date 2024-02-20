@@ -10,8 +10,8 @@ release
 end
 
 CuevaHypno_2_Descripcion_Gym_2_Texto_1:
-.string "GIMNASIO de ISLA SÉTIMA\n"
-	.string "LÍDER: ZINNIA\l"
-	.string "¡La alegre dama que hace de lo\l"
-	.string "extraordinario algo normal!$"
+.string "SEVEN ISLAND GYM\n"
+	.string "LEADER: ZOE\l"
+	.string "The cheerful lady who turns the\l"
+	.string "extraordinary into the ordinary!$"
 	

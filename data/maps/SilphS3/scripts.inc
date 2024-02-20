@@ -729,5 +729,5 @@ release
 end
 
 SilphS1_Sotano_2_Texto_1:
-.string "BIBLIOTECA PRIVADA DE SILPH S.A.$"
+	.string "SILPH CO.'s Private Files$"
 

@@ -14,13 +14,13 @@ release
 end
 
 EmberSpa_Text_2:
-.string "Tras un duro día de entrenamiento,\n"
-.string "no hay nada como un buen baño\l"
-.string "termal.\p"
-.string "BRUNO, ejemplo al que sigo, viene\n"
-.string "al BALNEARIO cada vez que puede.\p"
-.string "No solo para recuperarse él,\n"
-.string "también lo hace por sus POKéMON.$"
+    .string "After an honest day of training,\n"
+    .string "nothing beats a relaxing soak in\l"
+    .string "the hot spring pool.\p"
+    .string "BRUNO, who's a senior ahead of me,\n"
+    .string "visits the SPA on occasion.\p"
+    .string "He comes to rehab injuries, both\n"
+    .string "his own and his POKéMON's.$"
 
 
 
@@ -32,10 +32,10 @@ release
 end
 
 EmberSpa_Text_3:
-.string "¿Has visto cómo tengo la piel?\n"
-.string "Suave y tersa como la de un bebé.\p"
-.string "¡Las aguas termales me están\n"
-.string "dejando hecha una rosa!$"
+    .string "Have a look at my face.\n"
+    .string "See how smooth my skin is?\p"
+    .string "The hot spring's water keeps my\n"
+    .string "skin younger than my age.$"
 
 
 
@@ -47,8 +47,8 @@ release
 end
 
 EmberSpa_Text_4:
-.string "Dicen que los baños termales\n"
-.string "son terapéuticos.$"
+    .string "Soaking in a hot spring pool is\n"
+    .string "therapeutic, people say.$"
 
 
 
@@ -60,11 +60,10 @@ release
 end
 
 EmberSpa_Text_5:
-.string "La mejor parte del baño viene\n"
-.string "cuando me salgo del agua.\p"
-.string "No hay nada como tomar un buen\n"
-.string "plato de sopa de pescado caliente\l"
-.string "para conservar el calorcito. Mmm...$"
+    .string "My favorite part of bathing comes\n"
+    .string "up right after this.\p"
+    .string "I enjoy a bowl of chowder to\n"
+    .string "warm me from the inside, too!$"
 
 
 
@@ -76,10 +75,10 @@ release
 end
 
 EmberSpa_Text_6:
-.string "¡Mmmmm!\n"
-.string "¡Qué maravilla!\p"
-.string "¡Ooooooooh! ¡Esto es vida!\n"
-.string "¡Es de lo más reconfortante!\p"
-.string "¡No me digas que no!\p"
-.string "Quédate aquí un ratito y relájate.\n"
-.string "Qué agradable sentir el calor...$"
+    .string "Hm!\n"
+    .string "Haaaaaaaaaaah!\p"
+    .string "Aaaah! This is heavenly!\n"
+    .string "The water warms me to my core!\p"
+    .string "You should jump in, too.\p"
+    .string "Go to the middle, relax, and get\n"
+    .string "good and warm!$"
