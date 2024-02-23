@@ -1583,12 +1583,12 @@ RocketHideout7FDocumento_Text_134:
 	.string "especialmente la DEFENSA FÍSICA,\l"
 	.string "quedando en 95.\l"
 	.string "La falta de potencia de sus\l"
-	.string "movimientos físicos se ve\l"
+	.string "movimientos eléctricos se ve\l"
 	.string "solventada gracias a contar con\l"
-	.string "POTENCIA BRUTA como habilidad,\l"
-	.string "convirtiéndole automáticamente en\l"
-	.string "el mejor usuario de los PUÑOS\l"
-	.string "ELEMENTALES conocido.$"
+	.string "PIEL ELÉCTRICA como habilidad,\l"
+	.string "causando con DOBLE FILO un daño\l"
+	.string "abismal, y un tentador GIGA IMPACTO\l"
+	.string "para los más osados.$"
 
 
 
@@ -1689,12 +1689,12 @@ RocketHideout7FDocumento_Text_136_2:
 	.string "demuestran lo lejos que un ROCKET\l"
 	.string "común puede llegar, con 645 de\l"
 	.string "BASE está más cerca de un\l"
-	.string "LEGENDARIO MAYOR que de uno MENOR,\l"
-	.string "con una VELOCIDAD casi\l"
-	.string "insuperable. Gracias a LEVITACIÓN\l"
-	.string "y su TIPO ACERO resistirá una\l"
-	.string "infinidad de movimientos, siendo\l"
-	.string "muy complicado de desbordar.$"
+	.string "LEGENDARIO MAYOR que de uno MENOR.\l"
+	.string "Posee un poder físico descomunal,\l"
+	.string "fruto del ímpetu de su entrenadora.\l"
+	.string "Gracias a LEVITACIÓN y el TIPO ACERO,\l"
+	.string "resiste una infinidad de movimientos,\l"
+	.string "siendo muy complicado de desbordar.$"
 
 
 RocketHideout7FDocumento_137::
@@ -2254,7 +2254,7 @@ RocketHideout7FDocumento_Text_152:
 	.string "liberada ante la presencia del\l"
 	.string "POKÉMON ESENCIA, teorías apuntan a\l"
 	.string "que los pensadores de la antigua\l"
-	.string "TORRE HOJALARA eran conscientes de\l"
+	.string "TORRE HOJALATA eran conscientes de\l"
 	.string "esta forma última, y de la\l"
 	.string "cercanía con el POKÉMON ESENCIA,\l"
 	.string "conocimiento que se extinguió\l"

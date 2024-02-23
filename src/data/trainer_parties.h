@@ -1389,7 +1389,7 @@ static const struct TrainerMonItemCustomMoves sParty_Oak1[] = {
     .heldItem = ITEM_POWER_HERB,
     .evs = {100, 100, 100, 110, 0, 100},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_STONE_EDGE, MOVE_AQUA_TAIL, MOVE_FLY, MOVE_SKY_ATTACK}
+    .moves = {MOVE_STONE_EDGE, MOVE_AQUA_TAIL, MOVE_DRAGON_CLAW, MOVE_SKY_ATTACK}
     },
     {
     .iv = 250,
@@ -27564,7 +27564,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER140[] = {
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_FLY, MOVE_STONE_EDGE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_FLY, MOVE_STONE_EDGE, MOVE_DRAGON_CLAW, MOVE_NONE}
     },
     {
     .iv = 255,

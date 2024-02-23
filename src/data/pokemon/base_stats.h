@@ -296,7 +296,7 @@ const struct BaseStats gBaseStats[] =
         #if P_UPDATED_STATS >= GEN_6
             .baseSpAttack  = 90,
         #else
-            .baseSpAttack  = 80,
+            .baseSpAttack  = 90,
         #endif
         .type1 = TYPE_BUG,
         .type2 = TYPE_FLYING,
@@ -29064,7 +29064,7 @@ const struct BaseStats gBaseStats[] =
             .baseSpAttack  = 140,
         #endif
         .type1 = TYPE_BUG,
-        .type2 = TYPE_PSYCHIC,
+        .type2 = TYPE_FLYING,
         .catchRate = 45,
         .expYield = 208,
         .evYield_SpAttack  = 2,
@@ -36793,7 +36793,7 @@ const struct BaseStats gBaseStats[] =
         .baseSpAttack  = 60,
         .baseSpDefense = 85,
         .type1 = TYPE_ROCK,
-        .type2 = TYPE_FLYING,
+        .type2 = TYPE_DRAGON,
         .catchRate = 45,
         .expYield = 265,
         .evYield_Speed     = 2,
@@ -36804,9 +36804,9 @@ const struct BaseStats gBaseStats[] =
         .eggGroup1 = EGG_GROUP_FLYING,
         .eggGroup2 = EGG_GROUP_FLYING,
         #ifdef BATTLE_ENGINE
-            .abilities = {ABILITY_TOUGH_CLAWS, ABILITY_TOUGH_CLAWS},
+            .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
         #else
-            .abilities = {ABILITY_TOUGH_CLAWS, ABILITY_TOUGH_CLAWS},
+            .abilities = {ABILITY_LEVITATE, ABILITY_LEVITATE},
         #endif
         .bodyColor = BODY_COLOR_PURPLE,
         .noFlip = FALSE,

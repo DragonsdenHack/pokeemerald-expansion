@@ -37,7 +37,7 @@ release
 end
 
 CinnabarMansionS2Documento_Text_100:
-	.string "TAUROS-X: ROCA\p"
+	.string "TAUROS-X:\p"
 	.string "PS: 75\n"
 	.string "ATAQUE: 155\l"
 	.string "DEFENSA: 150\l"
@@ -45,21 +45,23 @@ CinnabarMansionS2Documento_Text_100:
 	.string "DEFENSA ESPECIAL: 90\l"
 	.string "VELOCIDAD: 90\l"
 	.string "TOTAL: 590\p"
-	.string "Logramos amplificar la salvaje\n"
+	.string "TIPO: ROCA/NORMAL\n"
+	.string "HABILIDAD: CABEZA ROCA\l"
+	.string "Logramos amplificar la salvaje\l"
 	.string "capacidad de embestida del TAUROS\l"
 	.string "que habita en KANTO, descubrimos\l"
 	.string "que su VELOCIDAD y TIPO NORMAL\l"
 	.string "eran los grandes limitantes para\l"
 	.string "desarrollar toda la fuerza y\l"
-	.string "resitencia que su cuerpo podía\l"
+	.string "resistencia que su cuerpo podía\l"
 	.string "soportar, en cuanto logramos\l"
 	.string "reducirla al tiempo que\l"
 	.string "implantarle los genes\l"
 	.string "de RHYDON responsables de su TIPO\l"
 	.string "ROCA, su capacidad física se\l"
 	.string "disparó hasta niveles impensables,\l"
-	.string "todo lo que golpea queda reducido\l"
-	.string "a polvo.$"
+	.string "todo lo que golpea con TESTARAZO y\l"
+	.string "ARIETE es reducido a polvo.$"
 
 
 
@@ -73,7 +75,7 @@ release
 end
 
 CinnabarMansionS2Documento_Text_101:
-	.string "MAGMORTAR-Y: FUEGO\p"
+	.string "MAGMORTAR-Y:\p"
 	.string "PS: 75\n"
 	.string "ATAQUE: 95\l"
 	.string "DEFENSA: 97\l"
@@ -81,7 +83,9 @@ CinnabarMansionS2Documento_Text_101:
 	.string "DEFENSA ESPECIAL: 105\l"
 	.string "VELOCIDAD: 103\l"
 	.string "TOTAL: 640\p"
-	.string "La creencia de BLAINE en que\n"
+	.string "TIPO: FUEGO\n"
+	.string "HABILIDAD: INDEFENSO\l"
+	.string "La creencia de BLAINE en que\l"
 	.string "MAGMAR era el POKÉMON TIPO FUEGO\l"
 	.string "con mayor potencial especial de\l"
 	.string "todo KANTO por encima de MOLTRES\l"
@@ -176,7 +180,9 @@ CinnabarMansionS2Documento_Text_104:
 	.string "DEFENSA ESPECIAL: 85\l"
 	.string "VELOCIDAD: 140\l"
 	.string "TOTAL: 615\p"
-	.string "La verdadera forma en estado\n"
+	.string "TIPO: ROCA/DRAGÓN\n"
+	.string "HABILIDAD: LEVITACIÓN\l"
+	.string "La verdadera forma en estado\l"
 	.string "salvaje de AERODACTYL hace 300\l"
 	.string "millones de años, el depredador\l"
 	.string "más temible en su momento, con una\l"

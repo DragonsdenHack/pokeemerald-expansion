@@ -548,7 +548,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_117:
-    .string "ZAPDOS-PRIMIGENIO\p"
+    .string "ZAPDOS-PRIMIGENIO:\p"
 	.string "PS: 90\n"
 	.string "ATAQUE: 85\l"
 	.string "DEFENSA: 100\l"
@@ -582,7 +582,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_118:
-    .string "NINETALES-&\p"
+    .string "NINETALES-&:\p"
 	.string "PS: 83\n"
 	.string "ATAQUE: 57\l"
 	.string "DEFENSA: 85\l"
@@ -613,7 +613,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_119:
-    .string "GOODRA-&\p"
+    .string "GOODRA-&:\p"
 	.string "PS: 100\n"
 	.string "ATAQUE: 120\l"
 	.string "DEFENSA: 120\l"
@@ -649,7 +649,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_120:
-    .string "FERALIGATR-&\p"
+    .string "FERALIGATR-&:\p"
 	.string "PS: 95\n"
 	.string "ATAQUE: 165\l"
 	.string "DEFENSA: 130\l"
@@ -680,7 +680,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_121:
-    .string "CRADILY-Y\p"
+    .string "CRADILY-Y:\p"
 	.string "PS: 86\n"
 	.string "ATAQUE: 41\l"
 	.string "DEFENSA: 137\l"
@@ -690,7 +690,6 @@ BaseRocketHoennS3Documento_Text_121:
 	.string "TOTAL: 595\p"
 	.string "TIPO: PLANTA/ROCA\n"
 	.string "HABILIDAD: ROCA SÓLIDA\l"
-	.string "La reducción de 40 puntos en ATAQUE\l"
 	.string "La reducción de 40 puntos en ATAQUE\l"
 	.string "permitió invertir 140 en sus otros 5\l"
 	.string "STATS, desarrolló una monstruosa\l"
@@ -713,7 +712,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_122:
-    .string "SUICUNE-&\p"
+    .string "SUICUNE-&:\p"
 	.string "PS: 110\n"
 	.string "ATAQUE: 75\l"
 	.string "DEFENSA: 145\l"
@@ -741,14 +740,14 @@ lock
 compare VAR_UNUSED_0x40F7, 206
 goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_GHOST_PRIMAL, 10, 3  
-playmoncry SPECIES_GHOST, CRY_MODE_ENCOUNTER 
+playmoncry SPECIES_JIRACHI, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_123, MSGBOX_DEFAULT
 hidemonpic
 release     
 end
 
 BaseRocketHoennS3Documento_Text_123:
-.string "GHOST-PRIMIGENIO\p"
+.string "GHOST-PRIMIGENIO:\p"
 	.string "PS: 90\n"
 	.string "ATAQUE: 80\l"
 	.string "DEFENSA: 80\l"
@@ -756,7 +755,7 @@ BaseRocketHoennS3Documento_Text_123:
 	.string "DEFENSA ESPECIAL: 150\l"
 	.string "VELOCIDAD: 135\l"
 	.string "TOTAL: 740\p"
-	.string "TIPO: NORMAL/FANTASMA\n"
+	.string "TIPO: SINIESTRO/FANTASMA\n"
 	.string "HABILIDAD: AURA OSCURA\l"
 	.string "El espíritu más antiguo y poderoso de\l"
 	.string "PUEBLO LAVANDA, que entró en ira tras\l"
@@ -771,7 +770,7 @@ BaseRocketHoennS3Documento_124::
 lock
 compare VAR_ROUTE105_STATE, 13
 goto_if_lt RocketHideout7FDocumento_Esperando  
-showmonpic SPECIES_TOXTRICITY, 10, 3  
+showmonpic SPECIES_TOXTRICITY_MEGA, 10, 3  
 playmoncry SPECIES_TOXTRICITY, CRY_MODE_ENCOUNTER 
 msgbox BaseRocketHoennS3Documento_Text_124, MSGBOX_DEFAULT
 hidemonpic
@@ -779,7 +778,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_124:
-.string "TOXTRICITY-MEGA\p"
+.string "TOXTRICITY-MEGA:\p"
 	.string "PS: 75\n"
 	.string "ATAQUE: 78\l"
 	.string "DEFENSA: 85\l"
@@ -982,7 +981,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Wartillery_Texto_1:
-    .string "WARTILLERY\p"
+    .string "WARTILLERY:\p"
 	.string "PS: 85\n"
 	.string "ATAQUE: 105\l"
 	.string "DEFENSA: 105\l"
@@ -1017,7 +1016,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Gorochu_Texto_1:
-    .string "GOROCHU\p"
+    .string "GOROCHU:\p"
 	.string "PS: 70\n"
 	.string "ATAQUE: 100\l"
 	.string "DEFENSA: 65\l"
@@ -1054,7 +1053,7 @@ release
 end
 
 BaseRocketHoennS3Documento_Qwoltfish_Texto_1:
-    .string "SHIBIREFUGU\p"
+    .string "SHIBIREFUGU:\p"
 	.string "PS: 95\n"
 	.string "ATAQUE: 65\l"
 	.string "DEFENSA: 65\l"

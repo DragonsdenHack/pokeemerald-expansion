@@ -36,7 +36,7 @@ lock
 compare VAR_VERDANTURF_TOWN_STATE, 9
 goto_if_lt RocketHideout7FDocumento_Esperando  
 showmonpic SPECIES_SACRED_DRAGON, 10, 3  
-playmoncry SPECIES_XERNEAS, CRY_MODE_ENCOUNTER 
+playmoncry SPECIES_NECROZMA_ULTRA, CRY_MODE_ENCOUNTER 
 msgbox Route49MazeP4Documento_Text_100, MSGBOX_DEFAULT
 hidemonpic
 release     
@@ -52,7 +52,7 @@ Route49MazeP4Documento_Text_100:
 	.string "VELOCIDAD: 109\l"
 	.string "TOTAL: 721\p"
 	.string "TIPO: DRAGÓN/PSÍQUICO\n"
-	.string "HABILIDAD: ELECTROGÉNESIS\l"
+	.string "HABILIDAD: PSICOGÉNESIS\l"
 	.string "La leyenda dice que surgió a partir de\l"
 	.string "un DUNSPARCE, el cual fue despreciado\l"
 	.string "y juzgado por el resto de POKEMON.\l"
