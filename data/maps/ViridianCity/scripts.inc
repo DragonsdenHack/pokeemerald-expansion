@@ -73,10 +73,10 @@ end
 
 ViridianCityDocumento_Text_100:
 .string "TRAINER TIPS\p"
-    .string "The battle moves of POKéMON are\n"
+    .string "The battle moves of POKÉMON are\n"
     .string "limited by their POWER POINTS, PP.\p"
     .string "To replenish PP, rest your tired\n"
-    .string "POKéMON at a POKéMON CENTER.$"
+    .string "POKÉMON at a POKÉMON CENTER.$"
 
 
 ViridianCityDocumento_101::
@@ -95,7 +95,7 @@ end
 
 ViridianCityDocumento_Text_102:
 .string "TRAINER TIPS\p"
-    .string "Catch POKéMON and expand your\n"
+    .string "Catch POKÉMON and expand your\n"
     .string "collection.\p"
     .string "The more you have, the easier it\n"
     .string "is to battle.$"
@@ -107,7 +107,7 @@ msgbox ViridianCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 ViridianCityDocumento_Text_103:
-.string "VIRIDIAN CITY POKéMON GYM$"
+.string "VIRIDIAN CITY POKÉMON GYM$"
 
 
 
@@ -125,7 +125,7 @@ end
 
 ViridianCity_7_Text_7YesNo:
 .string "You want to know about the two\n"
-    .string "kinds of caterpillar POKéMON?$"
+    .string "kinds of caterpillar POKÉMON?$"
 
 
 ViridianCity_7No::
@@ -137,7 +137,7 @@ end
 ViridianCity_7_Text_7Yes:
 .string "CATERPIE has no poison,\n"
     .string "but WEEDLE does.\p"
-    .string "Watch that your POKéMON aren't\n"
+    .string "Watch that your POKÉMON aren't\n"
     .string "stabbed by WEEDLE's POISON STING.$"
 
 

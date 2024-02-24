@@ -14,7 +14,7 @@ release
 end
 
 SaffronCity_Mart_Text_2:
-.string "MAX REPEL keeps weaker POKéMON\n"
+.string "MAX REPEL keeps weaker POKÉMON\n"
     .string "from appearing.\p"
     .string "MAX REPEL stays effective longer\n"
     .string "than SUPER REPEL.$"
@@ -30,4 +30,4 @@ end
 
 SaffronCity_Mart_Text_3:
 .string "REVIVE is costly, but it revives\n"
-    .string "fainted POKéMON!$"
+    .string "fainted POKÉMON!$"

@@ -71,9 +71,9 @@ msgbox PewterCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 PewterCityDocumento_Text_101:
-.string "PEWTER CITY POKéMON GYM\n"
+.string "PEWTER CITY POKÉMON GYM\n"
     .string "LEADER: BROCK\l"
-    .string "The Rock-Solid POKéMON TRAINER!$"
+    .string "The Rock-Solid POKÉMON TRAINER!$"
 
 
 
@@ -83,7 +83,7 @@ end
 
 PewterCityDocumento_Text_102:
 .string "NOTICE!\p"
-    .string "Thieves have been stealing POKéMON\n"
+    .string "Thieves have been stealing POKÉMON\n"
     .string "fossils from MT. MOON.\p"
     .string "Please call the PEWTER POLICE if\n"
     .string "you have any information.$"
@@ -106,7 +106,7 @@ end
 
 PewterCityDocumento_Text_104:
 .string "TRAINER TIPS\p"
-    .string "All POKéMON that appear in battle,\n"
+    .string "All POKÉMON that appear in battle,\n"
     .string "however briefly, earn EXP Points.$"
 
 
@@ -142,7 +142,7 @@ PewterCity_3_Text_3Yes:
 
 PewterCity_3_Text_3No:
 .string "I'm spraying REPEL to keep wild\n"
-    .string "POKéMON out of my garden!$"
+    .string "POKÉMON out of my garden!$"
 
 PewterCity_Petrel_2::
 lockall
@@ -238,7 +238,7 @@ PewterCity_Petrel_Texto_3:
 
 PewterCity_Petrel_Texto_4:
 .string "PETREL: -NOTICE!\p"
-    .string "Thieves have been stealing POKéMON\n"
+    .string "Thieves have been stealing POKÉMON\n"
     .string "fossils from MT. MOON.\p"
     .string "Please call the PEWTER POLICE if\n"
     .string "you have any information-.$"

@@ -27,7 +27,7 @@ release
 end
 
 TwoIsland_PokemonCenter_Text_2:
-	.string "Do you want to catch all the POKéMON\n"
+	.string "Do you want to catch all the POKÉMON\n"
 	.string "you come across? Incredible!… Hey, let\l"
 	.string "me know if you catch any strong ones!$"
 

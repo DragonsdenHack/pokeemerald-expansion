@@ -138,7 +138,7 @@ msgbox Route17Documento_Text_102, MSGBOX_SIGN
 end
 
 Route17Documento_Text_102:
-.string "TESTSUO WAS HERE$"
+.string "TETSUO WAS HERE$"
 
 
 

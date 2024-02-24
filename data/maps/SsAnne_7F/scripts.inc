@@ -67,7 +67,7 @@ end
 
 SsAnne7F_Text_6:
 .string "Hum-de-hum-de-ho…\n"
-.string "I peel spuds every day!l"
+.string "I peel spuds every day!\l"
 .string "Hum-hum…$"
 
 

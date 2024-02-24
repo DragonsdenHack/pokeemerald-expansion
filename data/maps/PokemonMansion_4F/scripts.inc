@@ -205,7 +205,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_8:
 	.string "go back to LAVENDER TOWN, it is not\l"
 	.string "recommendable that people see you\l"
 	.string "around here, they could suspect us, two\l"
-	.string "ex--scientists as us together…$"
+	.string "ex-scientists as us together…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_9:
 	.string "FUJI: Finally you have come to your\n"

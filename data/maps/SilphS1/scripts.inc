@@ -88,7 +88,7 @@ release
 end
 
 SilphS1Documento_Text_100:
-.string "DARMANITAN: FUEGO/LUCHA\p"
+.string "DARMANITAN: FIRE/FIGHTING\p"
 	.string "HP: 105\n"
 	.string "ATTACK: 140\l"
 	.string "DEFENSE: 65\l"

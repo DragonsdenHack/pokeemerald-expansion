@@ -2322,7 +2322,7 @@ const struct Item gItems[] =
 
     [ITEM_RETRO_MAIL] =
     {
-        .name = _("C.Retro"),
+        .name = _("Retro Mail"),
         .itemId = ITEM_RETRO_MAIL,
         .price = 50,
         .description = sRetroMailDesc,

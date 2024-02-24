@@ -119,20 +119,20 @@ end
 
 Curacion_Centros_Pokemon_Kanto_Texto_1:
     .string "Hello, and welcome to\n"
-    .string "the POKéMON CENTER.\p"
-    .string "We restore your tired POKéMON\n"
+    .string "the POKÉMON CENTER.\p"
+    .string "We restore your tired POKÉMON\n"
     .string "to full health.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_2:
-    .string "Would you like to rest your POKéMON?$"
+    .string "Would you like to rest your POKÉMON?$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_3:
-    .string "Okay, I'll take your POKéMON\n"
+    .string "Okay, I'll take your POKÉMON\n"
     .string "for a few seconds.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_4:
     .string "Thank you for waiting.\p"
-    .string "We've restored your POKéMON\n"
+    .string "We've restored your POKÉMON\n"
     .string "to full health.$"
 
 Curacion_Centros_Pokemon_Kanto_Texto_5::

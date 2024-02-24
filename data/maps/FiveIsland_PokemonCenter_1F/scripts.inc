@@ -56,7 +56,7 @@ msgbox FiveIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 FiveIslandPokemonCenterDocumento_Text_100:
-	.string "POKéMON JOURNAL\p"
+	.string "POKÉMON JOURNAL\p"
 	.string "Special Feature:\n"
 	.string "ELITE FOUR's LORELEI!\p"
 	.string "Known for her logical, calculated,\n"

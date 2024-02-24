@@ -280,7 +280,7 @@ Route14_Combate_Azul_Texto_7:
 	.string "SS.ANNE was not just coincidence.\l"
 	.string "Since then, many things just happened,\l"
 	.string "and my team is completely different.\l"
-	.string "For your own shake, I hope yours\l"
+	.string "For your own sake, I hope yours\l"
 	.string "has transformed as well!$"
 
 Route14_Combate_Azul_Texto_8:

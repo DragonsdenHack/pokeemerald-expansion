@@ -9,9 +9,9 @@ release
 end
 
 ViridianCity_School_Text_1:
-.string "¡Esto es un asco!\n"
-.string "¿Por qué tengo que aprenderlo en\l"
-.string "inglés?$"
+.string "This is so boring!\n"
+.string "Why do I have to learn\l"
+.string "that in spanish?$"
 
 
 
@@ -23,6 +23,6 @@ release
 end
 
 ViridianCity_School_Text_2:
-.string "¡Ya te lo dije!\n"
-.string "¡Hoy en día piden el Inglés en\l"
-.string "todos sitios así que no te quejes!$"
+.string "I already explained it!\n"
+.string "Everyone asks for your Spanish level\l"
+.string "in nowadays, so dont complain!$"

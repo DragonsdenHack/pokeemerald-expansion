@@ -28,8 +28,8 @@ end
 
 FuchsiaCity_PokemonCenter_Text_2:
 .string "You can't become a good TRAINER\n"
-    .string "with just one strong POKéMON.\p"
-    .string "But raising many POKéMON evenly\n"
+    .string "with just one strong POKÉMON.\p"
+    .string "But raising many POKÉMON evenly\n"
     .string "is no easy task, either.$"
 
 
@@ -59,5 +59,5 @@ end
 FuchsiaCity_PokemonCenter_Text_4:
 .string "There's a narrow trail west of\n"
     .string "VIRIDIAN CITY.\p"
-    .string "It goes to the POKéMON LEAGUE HQ.\n"
+    .string "It goes to the POKÉMON LEAGUE HQ.\n"
     .string "The HQ governs all TRAINERS.$"

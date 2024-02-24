@@ -141,7 +141,7 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_7:
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_8:
 .string "My majestic POKÉMON!\n"
-	.string "¿How?!$"
+	.string "How?!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_9:
 .string "Well, I thought that I could've beaten\n"

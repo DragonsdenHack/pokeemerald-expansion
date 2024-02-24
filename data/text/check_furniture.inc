@@ -1,5 +1,5 @@
 Text_PictureBookShelf:
-	.string "It's crammed full of POKéMON\n"
+	.string "It's crammed full of POKÉMON\n"
 	.string "books.$"
 
 
@@ -20,7 +20,7 @@ Text_EmptyTrashCan:
 	.string "flashing on and off.$"
 
 Text_ShopShelf:
-	.string "It's a pretty picture of a POKéMON.\n"
+	.string "It's a pretty picture of a POKÉMON.\n"
 	.string "It looks like it's feeling good.$"
 
 Text_Blueprint:

@@ -440,7 +440,7 @@ FileIsleMeadow_Combate_Azul_Texto_8:
 	.string "through the limits around you.$"
 
 FileIsleMeadow_Combate_Azul_Texto_9:
-	.string "ATLAS suggested a couple of spots to\n"
+	.string "ARCHER suggested a couple of spots to\n"
 	.string "catch some good POKÉMON. It might not\l"
 	.string "blow you away after fighting LANCE,\l"
 	.string "but... Let me have this battle!$"

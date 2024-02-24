@@ -72,7 +72,7 @@ BillGarden_House1_Bill_Combate_Text_4:
 
 BillGarden_House1_Bill_Combate_Text_5:
 	.string "Since you're going to spend a lot of\n"
-	.string "time reflecting behind bars, I'll at\l"
+	.string "time reflecting in jail, I'll at\l"
 	.string "least grant you the honor of battling\l"
 	.string "with me. Consider yourself fortunate.\l"
 	.string "Not everyone gets the chance to\l"

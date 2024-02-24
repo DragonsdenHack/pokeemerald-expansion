@@ -151,17 +151,17 @@ BattleFrontier_Lounge1_EventScript_Boy2::
 	end
 
 BattleFrontier_Lounge1_Text_PokemonBreederIntro:
-	.string "For 70 years I have raised POKéMON!\n"
+	.string "For 70 years I have raised POKÉMON!\n"
 	.string "I am the man they revere as\l"
-	.string "the legendary top POKéMON BREEDER!\p"
+	.string "the legendary top POKÉMON BREEDER!\p"
 	.string "If you ever become as seasoned as me,\n"
-	.string "you'll see the abilities of POKéMON\l"
+	.string "you'll see the abilities of POKÉMON\l"
 	.string "at a glance.\p"
 	.string "You're a TRAINER. Doesn't it interest\n"
-	.string "you to know your own POKéMON's\l"
+	.string "you to know your own POKÉMON's\l"
 	.string "abilities?\p"
 	.string "Here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "Let's have a look at your POKÉMON!$"
 
 BattleFrontier_Lounge1_Text_AverageAbility:
 	.string "…Hmm…\p"
@@ -236,23 +236,23 @@ BattleFrontier_Lounge1_Text_HaveBusinessNeedsTending:
 	.string "Save it for next time!$"
 
 BattleFrontier_Lounge1_Text_LetsLookAtYourPokemon:
-	.string "Ah, youngster! Do your POKéMON's\n"
+	.string "Ah, youngster! Do your POKÉMON's\n"
 	.string "abilities intrigue you?\p"
 	.string "Here, here!\n"
-	.string "Let's have a look at your POKéMON!$"
+	.string "Let's have a look at your POKÉMON!$"
 
 BattleFrontier_Lounge1_Text_EvenICantTell:
 	.string "An expert I am, but even I can't tell\n"
-	.string "anything about an unhatched POKéMON!\p"
-	.string "Show me a POKéMON!\n"
-	.string "A POKéMON is what I need to see!$"
+	.string "anything about an unhatched POKÉMON!\p"
+	.string "Show me a POKÉMON!\n"
+	.string "A POKÉMON is what I need to see!$"
 
 BattleFrontier_Lounge1_Text_SaidMyMonIsOutstanding:
-	.string "He said my POKéMON is outstanding!\n"
+	.string "He said my POKÉMON is outstanding!\n"
 	.string "I'm glad I raised it carefully!$"
 
 BattleFrontier_Lounge1_Text_DidntDoAnythingSpecialRaisingIt:
-	.string "He said my POKéMON is outstanding!\n"
+	.string "He said my POKÉMON is outstanding!\n"
 	.string "But I didn't do anything special\l"
 	.string "raising it…$"
 

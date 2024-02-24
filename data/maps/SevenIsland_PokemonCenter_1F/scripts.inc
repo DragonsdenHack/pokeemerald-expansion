@@ -68,7 +68,7 @@ msgbox SevenIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 SevenIslandPokemonCenterDocumento_Text_100:
-.string "POKéMON JOURNAL\p"
+.string "POKÉMON JOURNAL\p"
 	.string "Special Feature:\n"
 	.string "ELITE FOUR's AGATHA!\p"
 	.string "In her youth, AGATHA and PROF.\n"

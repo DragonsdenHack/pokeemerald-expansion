@@ -27,7 +27,7 @@ release
 end
 
 CinnabarIsland_Center_Text_2:
-.string "POKéMON can still learn techniques\n"
+.string "POKÉMON can still learn techniques\n"
     .string "after canceling evolution.\p"
     .string "Evolution can wait until new moves\n"
     .string "have been learned.$"
@@ -72,9 +72,9 @@ msgbox CinnabarIslandPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandPokemonCenterDocumento_Text_100:
-.string "POKéMON JOURNAL\p"
+.string "POKÉMON JOURNAL\p"
 	.string "Special Feature:\n"
-	.string "MR. FUJI of POKéMON HOUSE!\p"
+	.string "MR. FUJI of POKÉMON HOUSE!\p"
 	.string "Editor: The shy MR. FUJI turned\n"
 	.string "down our interview requests.\p"
 	.string "He is a kindly man who is adored\n"

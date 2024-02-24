@@ -28,7 +28,7 @@ end
 ThreeIsland_House2_Text_2:
 .string "You know about a girl GYM LEADER\n"
     .string "in SAFFRON CITY?\p"
-    .string "She uses PSYCHIC-type POKéMON,\n"
+    .string "She uses PSYCHIC-type POKÉMON,\n"
     .string "right?\p"
     .string "I admire her, I really do.\p"
     .string "I've heard that she's one cool\n"

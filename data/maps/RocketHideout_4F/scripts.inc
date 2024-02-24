@@ -232,8 +232,8 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionSotanoSilph_Texto_1:
 .string "Talk to the SILPH receptionist, she will\n"
 	.string "show you that grand private library\l"
 	.string "they have underground. As I've been\l"
-	.string "told, all the data of thet -pendiente, no\l"
-	.string "portear- are in the S3, in the last room.$"
+	.string "told, all the data of that 'ESSENCE\l"
+	.string "POKÉMON- are in the S3, in the last room.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionIslas_Texto_1 MSGBOX_AUTOCLOSE
@@ -2578,9 +2578,8 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_26:
 .string "That's why I want you to travel to SEVII\n"
 	.string "ISLANDS, your natal place, again, and\l"
 	.string "explore the islands in peace, I've heard\l"
-	.string "there's very good TRAINERS there, as\l"
-	.string "well as plants and animals very similar\l"
-	.string "to JOHTO.$"
+	.string "there's very good TRAINERS, as well as\l"
+	.string "plants and animals very similar to JOHTO.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_27:
 .string "With this you can travel legally by\n"
@@ -2591,7 +2590,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_28:
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_29:
 .string "SEVII ISLANDS are famous for its ruins\n"
-	.string "in SIX ISLAND and SEVEN, dated 1500\l"
+	.string "in SIX and SEVEN ISLANDS, dated 1500\l"
 	.string "years of age, they have a lot of\l"
 	.string "similarities with RUINS OF ALPH of\l"
 	.string "JOHTO, it is believed they keep some\l"
@@ -3205,7 +3204,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_7:
 	.string "offensive repertory.$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_8:
-.string "RECLUTAS: … …$"
+.string "GRUNTS: … …$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_9:
 .string "GIOVANNI: Nevertheless….$"
@@ -3227,7 +3226,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12:
 .string "GRUNT: S-Sir… Thanks for this second\n"
 	.string "chance. I swear you won't regret about\l"
-	.string "not using yout NIDOK....$"
+	.string "not using your NIDOK....$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13:
 .string "GIOVANNI: That's not all.$"
@@ -3584,7 +3583,7 @@ end
 RocketHideout_4F_Dialogo_Proton_Texto_2:
 	.string "Even though I'm still an EXECUTIVE, I'm\n"
 	.string "GIOVANNI's most trusted one. Meanwhile,\l"
-	.string "PETREL and ATLAS are the only ADMINS,\l"
+	.string "PETREL and ARCHER are the only ADMINS,\l"
 	.string "with ATLAS as the HEAD ADMIN, since\l"
 	.string "he's the highest authority in our SEVII\l"
 	.string "ISLANDS branch.$"

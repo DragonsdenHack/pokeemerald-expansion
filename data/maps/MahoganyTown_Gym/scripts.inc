@@ -252,13 +252,13 @@ end
 
 
 MahoganyGym_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
+.string "LÍDER del GIMNASIO POKÉMON\n"
 	.string "de PUEBLO CAOBA: FREDO\p"
 	.string "ENTRENADORES GANADORES:\n"
 	.string "(¡Está vacío!)$"
 
 MahoganyGym_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
+.string "LÍDER del GIMNASIO POKÉMON\n"
 	.string "de PUEBLO CAOBA: FREDO\p"
 	.string "ENTRENADORES GANADORES:\n"
 	.string "{PLAYER}$"

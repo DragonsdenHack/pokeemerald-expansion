@@ -29,7 +29,7 @@ msgbox FuchsiaCityHouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 FuchsiaCityHouseDocumento_Text_100:
-.string "Photos and fossils of POKÉMON/n"
+.string "Photos and fossils of POKÉMON\n"
 .string "display.$"
 
 
@@ -39,7 +39,7 @@ msgbox FuchsiaCityHouseDocumento_Text_101, MSGBOX_SIGN
 end
 
 FuchsiaCityHouseDocumento_Text_101:
-.string "Old POKÉMON merchandise/n"
+.string "Old POKÉMON merchandise\n"
 .string "display.$"
 
 
@@ -49,10 +49,10 @@ msgbox FuchsiaCityHouseDocumento_Text_102, MSGBOX_SIGN
 end
 
 FuchsiaCityHouseDocumento_Text_102:
-.string "POKéMON JOURNAL\p"
+.string "POKÉMON JOURNAL\p"
 	.string "Special Feature: FUCHSIA GYM\n"
 	.string "LEADER KOGA!\p"
 	.string "KOGA is said to have a thorough\n"
 	.string "knowledge of medicine.\p"
 	.string "He even concocts medicine to nurse\n"
-	.string "his POKéMON to health.$"
+	.string "his POKÉMON to health.$"

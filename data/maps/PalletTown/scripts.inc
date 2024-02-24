@@ -57,7 +57,7 @@ msgbox PalletTownDocumento_Text_102, MSGBOX_SIGN
 end
 
 PalletTownDocumento_Text_102:
-.string "OAK POKéMON RESEARCH LAB$"
+.string "OAK POKÉMON RESEARCH LAB$"
 
 
 

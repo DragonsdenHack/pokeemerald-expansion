@@ -363,7 +363,7 @@ VermilioCity_Motorista_Text_2:
 
 VermilioCity_Motorista_Text_3:
 .string "Whatever that would contain that\n"
-	.string "CAPTAIN's flask, we will find it… I\l"
+	.string "CAPTAIN's jar, we will find it… I\l"
 	.string "wonder if we will be able to see\l"
 	.string "GIOVANNI hims….$"
 

@@ -9,7 +9,7 @@ release
 end
 
 CeladonCity_Shop3F_Text_1:
-.string "Captured POKéMON are registered\n"
+.string "Captured POKÉMON are registered\n"
     .string "with an ID No. and the OT.\p"
     .string "OT stands for “Original TRAINER” -\n"
     .string "the TRAINER that caught it first.$"
@@ -29,7 +29,7 @@ release
 end
 
 CeladonCity_Shop3F_Text_3:
-.string "You can identify POKéMON you get\n"
+.string "You can identify POKÉMON you get\n"
     .string "in trades by their ID Numbers.$"
 
 
@@ -61,7 +61,7 @@ CeladonCity_Shop3F_Text_5:
     .string "I collect them!\p"
     .string "Huh?\p"
     .string "HAUNTER turned into a different\n"
-    .string "POKéMON while being traded!$"
+    .string "POKÉMON while being traded!$"
 
 
 
@@ -80,7 +80,7 @@ end
 
 CeladonShop3FDocumento_Text_101:
 .string "Red and Green!\n"
-    .string "Both are POKéMON!$"
+    .string "Both are POKÉMON!$"
 
 
 

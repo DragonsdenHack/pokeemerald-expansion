@@ -40,7 +40,7 @@ release
 end
 
 Route10_PokemonCenter_Text_3:
-    .string "The types of POKéMON match up\n"
+    .string "The types of POKÉMON match up\n"
     .string "differently with each other.\p"
     .string "Every type is stronger than some\n"
     .string "types and weaker than others.$"

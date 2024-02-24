@@ -20,7 +20,7 @@ end
 TwoIsland_Text_2:
 .string "There's an old woman who lives in\n"
     .string "a cottage out on the cape.\p"
-    .string "She gives the eye to POKéMON.\n"
+    .string "She gives the eye to POKÉMON.\n"
     .string "It's a bit unnerving.$"
 
 TwoIsland3::

@@ -36,7 +36,7 @@ CinnabarIsland_Text_2:
 .string "Scientists conduct experiments \n"
     .string "in the burned-out building.\p"
     .string "You know, the one they call the\n"
-    .string "POKéMON MANSION.$"
+    .string "POKÉMON MANSION.$"
 
 
 
@@ -45,7 +45,7 @@ msgbox CinnabarIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_100:
-.string "POKéMON LAB$"
+.string "POKÉMON LAB$"
 
 
 
@@ -64,7 +64,7 @@ msgbox CinnabarIslandDocumento_Text_102, MSGBOX_SIGN
 end
 
 CinnabarIslandDocumento_Text_102:
-    .string "CINNABAR ISLAND POKéMON GYM\n"
+    .string "CINNABAR ISLAND POKÉMON GYM\n"
     .string "LEADER: BLAINE\l"
     .string "The Hotheaded Quiz Master!$"
 

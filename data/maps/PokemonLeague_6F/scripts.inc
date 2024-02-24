@@ -593,7 +593,7 @@ PokemonLeague_6F_Final_Texto_42:
 PokemonLeague_6F_Final_Texto_43:
 	.string "Be positive, ROCKET, you shall be\n"
 	.string "remembered as the one that made LANCE\l"
-	.string "THE FIRST use his sacred POKÉMON just\l"
+	.string "THE FIRST used his sacred POKÉMON just\l"
 	.string "before the dawn of the new era of his\l"
 	.string "reign....$"
 

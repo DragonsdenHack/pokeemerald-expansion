@@ -217,7 +217,7 @@ SsAnne_8F_Capitan_Text_3:
 .string "We were just wondering if you could give\n"
 	.string "us prove of all those voyages by\l"
 	.string "letting us take a look on the famous\l"
-	.string "flask of yours, which contains one of\l"
+	.string "jar of yours, which contains one of\l"
 	.string "the biggest mysteries of our world.$"
 
 SsAnne_8F_Capitan_Text_4:
@@ -277,7 +277,7 @@ SsAnne_8F_Capitan_Text_12:
 	.string "more than a thousand stories to tell.$"
 
 SsAnne_8F_Capitan_Text_13:
-.string "CAPTAIN And you two look like two\n"
+.string "CAPTAIN: And you two look like two\n"
 	.string "younglings who want to learn. I'd be glad\l"
 	.string "to teach you anything, nevertheless…$"
 
@@ -372,7 +372,7 @@ SsAnne_8F_Capitan_Text_26:
 	.string "ATTACK!$"
 
 SsAnne_8F_Capitan_Text_27:
-.string "(ANDRA took the flask from the\n"
+.string "(ANDRA took the jar from the\n"
 	.string "CAPTAIN).$"
 
 SsAnne_8F_Capitan_Text_28:
@@ -389,7 +389,7 @@ SsAnne_8F_Capitan_Text_29:
 
 SsAnne_8F_Capitan_Text_30:
 .string "ANDRA: Moreover, we're going to make\n"
-	.string "good use of this flask. We are going to\l"
+	.string "good use of this jar. We are going to\l"
 	.string "investigate the darn POKÉMON that\l"
 	.string "matches with the sample, instead of\l"
 	.string "leaving it for being watched ‘till the\l"
@@ -408,7 +408,7 @@ SsAnne_8F_Capitan_Text_32:
 	.string "against the CAPTAIN!$"
 
 SsAnne_8F_Capitan_Text_33:
-.string "¡cool!$"
+.string "cool!$"
 
 SsAnne_8F_Capitan_Text_34:
 .string "CAPTAIN: Ugh!$"

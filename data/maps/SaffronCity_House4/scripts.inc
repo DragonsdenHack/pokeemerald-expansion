@@ -129,7 +129,7 @@ msgbox SaffronCityHouse4Documento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityHouse4Documento_Text_100:
-.string "POKéMON JOURNAL\p"
+.string "POKÉMON JOURNAL\p"
 	.string "Special Feature:\n"
 	.string "ELITE FOUR's BRUNO!\p"
 	.string "BRUNO apparently joined the ELITE\n"

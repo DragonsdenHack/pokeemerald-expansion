@@ -179,7 +179,7 @@ JaggedPass_Text_DianaRegister:
 
 JaggedPass_Text_DianaRematchIntro:
 	.string "Picnics are fun wherever you go.\n"
-	.string "Just like POKéMON!$"
+	.string "Just like POKÉMON!$"
 
 JaggedPass_Text_DianaRematchDefeat:
 	.string "I only lost because the ground is\n"

@@ -13,7 +13,7 @@ msgbox ResortGeorgeousDocumento_Text_100, MSGBOX_SIGN
 end
 
 ResortGeorgeousDocumento_Text_100:
-	.string "POKéMON JOURNAL\p"
+	.string "POKÉMON JOURNAL\p"
 	.string "Special Feature: CINNABAR GYM\n"
 	.string "LEADER BLAINE!\p"
 	.string "BLAINE is said to remove his dark\n"

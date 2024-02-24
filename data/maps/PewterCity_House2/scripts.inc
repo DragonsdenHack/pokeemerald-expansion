@@ -9,7 +9,7 @@ release
 end
 
 PewterCity_House2_Text_1:
-.string "POKéMON learn new techniques as\n"
+.string "POKÉMON learn new techniques as\n"
     .string "they grow.\p"
     .string "But some moves must be taught to\n"
     .string "them by people.$"
@@ -24,9 +24,9 @@ release
 end
 
 PewterCity_House2_Text_2:
-    .string "A POKéMON becomes easier to \n"
+    .string "A POKÉMON becomes easier to \n"
     .string "catch if it has a status problem.\p"
     .string "Sleep, poison, burn, or paralysis…\n"
     .string "Those are all effective.\p"
-    .string "But catching POKéMON is never\n"
+    .string "But catching POKÉMON is never\n"
     .string "a sure thing!$"

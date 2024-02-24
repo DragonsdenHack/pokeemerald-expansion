@@ -138,10 +138,10 @@ end
 
 ViridianForestDocumento_Text_101:
 .string "TRAINER TIPS\p"
-    .string "You can't catch a POKéMON that\n"
+    .string "You can't catch a POKÉMON that\n"
     .string "belongs to someone else.\p"
     .string "Throw POKé BALLS only at wild\n"
-    .string "POKéMON to catch them!$"
+    .string "POKÉMON to catch them!$"
 
 
 
@@ -162,7 +162,7 @@ end
 
 ViridianForestDocumento_Text_103:
 .string "TRAINER TIPS\p"
-    .string "If your POKéMON are weak and you\n"
+    .string "If your POKÉMON are weak and you\n"
     .string "want to avoid battles, stay away\l"
     .string "from grassy areas!$"
 
@@ -174,7 +174,7 @@ end
 
 ViridianForestDocumento_Text_104:
 .string "TRAINER TIPS\p"
-    .string "If your POKéMON are weak and you\n"
+    .string "If your POKÉMON are weak and you\n"
     .string "want to avoid battles, stay away\l"
     .string "from grassy areas!$"
 
@@ -186,7 +186,7 @@ end
 
 ViridianForestDocumento_Text_105:
 .string "For poison, use ANTIDOTE!\n"
-    .string "Get it at POKéMON MARTS!$"
+    .string "Get it at POKÉMON MARTS!$"
 
 ViridianForest_Combate_Guays::
 applymovement 13, ViridianForest_Combate_Guays_Move_2

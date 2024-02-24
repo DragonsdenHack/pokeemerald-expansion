@@ -90,7 +90,7 @@ CultoS3_Text_4:
 	.string "It's sad for those who mix up what they\n"
 	.string "want with what they crave, thinking\l"
 	.string "they're free when they're just puppets\l"
-	.string "controlled by their own chemistry, with\l"
+	.string "controlled by their own impulses, with\l"
 	.string "no willpower.$"
 
 
@@ -244,7 +244,6 @@ CultoS3_Text_16:
 .string "...\l"
 .string "A less pleasurable place, but where the\l"
 .string "most important things happen.\l"
-.string "importantes.\l"
 .string "...\l"
 .string "...$"
 

@@ -60,8 +60,8 @@ release
 end
 
 CeladonCity_Casino_Text_5:
-	.string "Nani? You want tokens? Get outta here\n"
-	.string "before I call the cops!$"
+	.string "What? You want tokens? Get outta\n"
+	.string "here before I call the cops!$"
 
 
 

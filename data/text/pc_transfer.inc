@@ -23,8 +23,8 @@ gText_PkmnTransferredLanettesPCBoxFull::
 	.string	"“{STR_VAR_1}”.$"
 
 gText_NoMoreRoomForPokemon::
-	.string	"¡No queda sitio para más POKéMON!\p"
-	.string	"¡Las CAJAS POKéMON están llenas!$"
+	.string	"¡No queda sitio para más POKÉMON!\p"
+	.string	"¡Las CAJAS POKÉMON están llenas!$"
 
 gText_NicknameThisPokemon::
 	.string	"¿Quieres darle un mote\n"

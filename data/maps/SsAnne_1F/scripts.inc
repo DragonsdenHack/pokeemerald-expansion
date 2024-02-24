@@ -97,7 +97,7 @@ SsAnne_1F_Andra_Vuelta_Text_2:
 
 SsAnne_1F_Andra_Vuelta_Text_3:
 .string "ANDRA: We better go away now. By the\n"
-	.string "way I found a lot of this on the\l"
+	.string "way I found a lot of these on the\l"
 	.string "CAPTAIN board, I am sure it would be\l"
 	.string "helpful for you too.$"
 

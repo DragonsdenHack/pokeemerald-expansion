@@ -164,19 +164,19 @@ SaffronCity_Estatua_Texto_1:
 .string "SAFFRON CITY GYM\n"
 	.string "LEADER: SABRINA\p"
 	.string "WINNER TRAINERS:\n"
-	.string "AZUL, ROJO y ANDRA$"
+	.string "BLUE, RED and ANDRA$"
 
 SaffronCity_Estatua_Texto_2:
 .string "SAFFRON CITY GYM\n"
 	.string "LEADER: SABRINA\p"
 	.string "WINNER TRAINERS:\n"
-	.string "AZUL, ROJO, ANDRA y {PLAYER}$"
+	.string "BLUE, RED, ANDRA y {PLAYER}$"
 
 SaffronCity_Estatua_Texto_3:
 .string "SAFFRON CITY GYM\n"
 	.string "LEADER: SABRINA\p"
 	.string "WINNER TRAINERS:\n"
-	.string "AZUL y ROJO$"
+	.string "BLUE and RED$"
 
 SaffronCity_Estatua_Texto_4:
 .string "SAFFRON CITY GYM\n"
@@ -254,7 +254,7 @@ SaffronCity_Lider_Gimnasio_Texto_3:
 
 
 SaffronCity_Lider_Gimnasio_Texto_4:
-.string "The MARSHBADGE makes POKéMON up\n"
+.string "The MARSHBADGE makes POKÉMON up\n"
     .string "to LV. 70 obey you.\p"
     .string "Stronger POKÉMON will become wild,\n"
     .string "ignoring your orders in battle.\p"

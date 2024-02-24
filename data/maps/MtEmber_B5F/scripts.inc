@@ -266,7 +266,7 @@ MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 	.string "All inside, now!$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_7:
-	.string "ARCHIE: You again, I warned you once,\n"
+	.string "MAXIE: You again, I warned you once,\n"
 	.string "and I won't do it again. I have more\l"
 	.string "important things to do than deal with\l"
 	.string "you. HIGH RANK KAREN! Don't let him go\l"

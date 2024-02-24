@@ -387,7 +387,7 @@ release
 end
 
 EventScript_Compra_No_Texto_1:
-.string "¡Vuelva cuando quiera!$"
+	.string "Please come again!$"
 
 Tienda_Pokemon_No_Money::
 msgbox Tienda_Pokemon_No_Money_Texto_1 MSGBOX_AUTOCLOSE
@@ -396,4 +396,4 @@ release
 end
 
 Tienda_Pokemon_No_Money_Texto_1:
-.string "¡No tiene suficiente dinero!$"
+.string "You don't have enough money!$"

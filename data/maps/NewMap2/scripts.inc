@@ -33,7 +33,7 @@ release
 end
 
 NewMap2_Segundo_Gamer_Texto_1:
-    .string "I'm trading POKéMON with that kid\n"
+    .string "I'm trading POKÉMON with that kid\n"
     .string "there.\p"
     .string "I had two PIKACHU, so I figured\n"
     .string "I might as well trade one.$"
@@ -60,7 +60,7 @@ end
 
 NewMap2_Chico_Texto_1:
     .string "Yawn!\p"
-    .string "When JIGGLYPUFF sings, POKéMON get\n"
+    .string "When JIGGLYPUFF sings, POKÉMON get\n"
     .string "drowsy…\p"
     .string "…Me, too…\n"
     .string "Snore…$"

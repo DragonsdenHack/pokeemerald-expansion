@@ -27,11 +27,11 @@ release
 end
 
 SixIsland_PokemonCenter_Text_2:
-.string "You know of POKéMON that evolve\n"
+.string "You know of POKÉMON that evolve\n"
     .string "only upon trading, yes?\p"
     .string "But did you know that there are\n"
     .string "still others?\p"
-    .string "Some POKéMON evolve only when\n"
+    .string "Some POKÉMON evolve only when\n"
     .string "traded while holding specific items.$"
 
 

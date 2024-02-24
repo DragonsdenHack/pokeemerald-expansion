@@ -79,7 +79,7 @@ msgbox CeruleanCityPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeruleanCityPokemonCenterDocumento_Text_100:
-.string "POKéMON JOURNAL\p"
+.string "POKÉMON JOURNAL\p"
 	.string "Special Feature: CERULEAN GYM\n"
 	.string "LEADER MISTY!\p"
 	.string "MISTY is said to worship LORELEI\n"

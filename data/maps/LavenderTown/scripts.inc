@@ -32,9 +32,9 @@ end
 
 LavenderTown_Text2:
 .string "This town is known as the grave\n"
-    .string "site of POKéMON.\p"
+    .string "site of POKÉMON.\p"
     .string "Memorial services are held in\n"
-    .string "POKéMON TOWER.$"
+    .string "POKÉMON TOWER.$"
 
 
 
@@ -44,7 +44,7 @@ end
 
 LavenderTownDocumento_Text_100:
 .string "LAVENDER VOLUNTEER\n"
-    .string "POKéMON HOUSE$"
+    .string "POKÉMON HOUSE$"
 
 
 
@@ -74,8 +74,8 @@ msgbox LavenderTownDocumento_Text_103, MSGBOX_SIGN
 end
 
 LavenderTownDocumento_Text_103:
-.string "POKéMON TOWER\n"
-    .string "Becalm the Spirits of POKéMON$"
+.string "POKÉMON TOWER\n"
+    .string "Becalm the Spirits of POKÉMON$"
 
 LavenderTown_3::
 lock

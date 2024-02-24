@@ -60,8 +60,8 @@ msgbox OneIslandDocumento_Text_100, MSGBOX_SIGN
 end
 
 OneIslandDocumento_Text_100:
-.string "Expanding the POKéMON World!\n"
-    .string "POKéMON NET CENTER$"
+.string "Expanding the POKÉMON World!\n"
+    .string "POKÉMON NET CENTER$"
 
 
 

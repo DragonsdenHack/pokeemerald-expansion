@@ -27,7 +27,7 @@ release
 end
 
 SixIsland_House2_Text_3:
-.string "Play with POKéMON lots and live\n"
+.string "Play with POKÉMON lots and live\n"
     .string "a long life!\p"
     .string "Take AGATHA, for example.\p"
     .string "She set a record for being the\n"

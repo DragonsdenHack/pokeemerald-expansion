@@ -25,7 +25,7 @@ release
 end
 
 CeladonCity_Shop5F_Text_3:
-.string "I'm here for POKéMON stat\n"
+.string "I'm here for POKÉMON stat\n"
     .string "enhancers.\p"
     .string "PROTEIN increases the base ATTACK\n"
     .string "power.\p"
@@ -42,14 +42,14 @@ release
 end
 
 CeladonCity_Shop5F_Text_4:
-.string "POKéMON stat enhancers can be\n"
+.string "POKÉMON stat enhancers can be\n"
     .string "bought only here.\p"
     .string "HP UP increases the base HP of a\n"
-    .string "POKéMON.\p"
+    .string "POKÉMON.\p"
     .string "CALCIUM raises the base SP. ATK\n"
-    .string "stat of one POKéMON.\p"
+    .string "stat of one POKÉMON.\p"
     .string "ZINC boosts the base SP. DEF stat\n"
-    .string "of one POKéMON.\p"
+    .string "of one POKÉMON.\p"
     .string "CARBOS enhances the base SPEED\n"
     .string "stat.$"
 

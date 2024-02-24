@@ -20,7 +20,7 @@ EmberSpa_Text_2:
     .string "BRUNO, who's a senior ahead of me,\n"
     .string "visits the SPA on occasion.\p"
     .string "He comes to rehab injuries, both\n"
-    .string "his own and his POKéMON's.$"
+    .string "his own and his POKÉMON's.$"
 
 
 

@@ -80,7 +80,7 @@ end
 
 Route23Documento_Text_100:
 .string "VICTORY ROAD GATE -\n"
-    .string "POKéMON LEAGUE$"
+    .string "POKÉMON LEAGUE$"
 
 Ruta23_No_Puedes_Pasar::
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_5F_Paso_Despacho_Giovanni_Move_1

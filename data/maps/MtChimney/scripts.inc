@@ -559,7 +559,7 @@ MtChimney_Text_MaxieIntro:
 	.string "That is why TEAM MAGMA is dedicated\n"
 	.string "to the expansion of the land mass.\p"
 	.string "It is for further advancement of\n"
-	.string "humankind and POKéMON!\p"
+	.string "humankind and POKÉMON!\p"
 	.string "And for that, we need the power of\n"
 	.string "what sleeps within this mountain…\p"
 	.string "Oh! There was no need for you to\n"
@@ -690,7 +690,7 @@ MtChimney_Text_MagmaOutnumbersUs:
 
 MtChimney_Text_LessHabitatForWaterPokemon:
 	.string "If they expand the land, there'll be\n"
-	.string "less habitats for WATER POKéMON!$"
+	.string "less habitats for WATER POKÉMON!$"
 
 MtChimney_Text_MagmasNameSimilar:
 	.string "We're TEAM AQUA!\p"
@@ -764,7 +764,7 @@ MtChimney_Text_ShelbyRegister:
 
 MtChimney_Text_ShelbyRematchIntro:
 	.string "If you can mesh your heart with those\n"
-	.string "of your POKéMON, why, you should be\l"
+	.string "of your POKÉMON, why, you should be\l"
 	.string "able to achieve great things.$"
 
 MtChimney_Text_ShelbyRematchDefeat:
@@ -773,7 +773,7 @@ MtChimney_Text_ShelbyRematchDefeat:
 
 MtChimney_Text_ShelbyPostRematch:
 	.string "Perhaps your heart has become one\n"
-	.string "with the hearts of your POKéMON.$"
+	.string "with the hearts of your POKÉMON.$"
 
 MtChimney_Text_MelissaIntro:
 	.string "Estoy la mar de nerviosa. Tengo que\n"

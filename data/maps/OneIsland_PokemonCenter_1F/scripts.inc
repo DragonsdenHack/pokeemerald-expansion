@@ -42,7 +42,7 @@ release
 end
 
 OneIsland_PokemonCenter_Text_3:
-.string "I wish I could trade POKéMON with\n"
+.string "I wish I could trade POKÉMON with\n"
     .string "my boyfriend who lives far away…$"
 
 

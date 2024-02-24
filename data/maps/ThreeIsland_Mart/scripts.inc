@@ -29,7 +29,7 @@ end
 
 ThreeIsland_Mart_Text_3:
 .string "Those BIKERS were about to trash\n"
-    .string "this POKéMON MART.\p"
+    .string "this POKÉMON MART.\p"
     .string "Am I glad they decided to leave!$"
 
 
@@ -43,7 +43,7 @@ end
 
 ThreeIsland_Mart_Text_4:
 .string "I sometimes buy medicine here.\p"
-    .string "But a lot of people heal POKéMON\n"
+    .string "But a lot of people heal POKÉMON\n"
     .string "with BERRIES from BERRY FOREST.\p"
     .string "After all, BERRIES are free and\n"
     .string "they never run out.$"

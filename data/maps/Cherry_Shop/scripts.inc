@@ -15,9 +15,9 @@ end
 CherryShop_Text_2:
 .string "A veces, coincidirás con parejas\n"
 .string "de ENTRENADORES que te retarán\l"
-.string "con dos POKéMON a la vez.\p"
+.string "con dos POKÉMON a la vez.\p"
 .string "Cuando esto ocurra, para luchar\n"
-.string "tú también necesitarás dos POKéMON.$"
+.string "tú también necesitarás dos POKÉMON.$"
 
 
 
@@ -30,7 +30,7 @@ end
 
 CherryShop_Text_3:
 .string "¿Conoces REVIVIR?\n"
-.string "Devuelve la energía a los POKéMON\l"
+.string "Devuelve la energía a los POKÉMON\l"
 .string "debilitados.$"
 
 
@@ -45,7 +45,7 @@ end
 CherryShop_Text_4:
 .string "Estoy buscando algunos objetos que\n"
 .string "aumenten las habilidades de los\l"
-.string "POKéMON en un solo combate.\p"
+.string "POKÉMON en un solo combate.\p"
 .string "Estoy buscando ATAQUE X,\n"
 .string "DEFENSA X, VELOCIDAD X y\l"
 .string "ESPECIAL X.\p"

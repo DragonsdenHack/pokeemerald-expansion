@@ -310,8 +310,8 @@ release
 end
 
 Gimnasio_CuevaHypno_Primera_Pregunta_Texto_1:
-	.string "GASTLY, HAUNTER, and GENGAR the only\n"
-	.string "GHOST POKÉMON in LAVENDER TOWN.$"
+	.string "GASTLY, HAUNTER, and GENGAR are the\n"
+	.string "only GHOST POKÉMON in LAVENDER TOWN.$"
 
 Gimnasio_CuevaHypno_Primera_Pregunta_Texto_2:
 	.string "I thought you had seen enough of this\n"

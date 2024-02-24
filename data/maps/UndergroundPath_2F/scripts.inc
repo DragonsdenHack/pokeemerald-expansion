@@ -113,7 +113,7 @@ UndergroundPath2F_Andra_Text_3:
 UndergroundPath2F_Andra_Text_4:
     .string "I have had time since my defeat against\n"
 	.string "the CONSUL to improve my POKÉMON TEAM,\l"
-	.string "I very much doubt that he can beat me\l"
+	.string "I very much doubt that she can beat me\l"
 	.string "now, however, I want to test if the\l"
 	.string "outcome of our first fight in the\l"
 	.string "presence of ARCHER was a coincidence\l"

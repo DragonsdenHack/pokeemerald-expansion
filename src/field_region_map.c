@@ -139,7 +139,7 @@ static void MCB2_FieldUpdateRegionMap(void)
 }
 const u8 gText_Kanto[] = _("KANTO");
 const u8 gText_Johto[] = _("JOHTO");
-const u8 gText_Sevii[] = _("ARCHI7");
+const u8 gText_Sevii[] = _("SEVII");
 static void FieldUpdateRegionMap(void)
 {
     u8 offset;

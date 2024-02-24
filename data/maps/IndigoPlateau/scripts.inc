@@ -129,7 +129,7 @@ RocketHideout_6F_Escena_Lance_Texto_6:
 	.string "region are totally forbidden for every\l"
 	.string "ROCKET. Everyone who would dare to sell\l"
 	.string "any product, provide resources or to\l"
-	.string "carry out any type of economic deañ\l"
+	.string "carry out any type of economic deal\l"
 	.string "with the TEAM ROCKET, will be severely\l"
 	.string "punished.$"
 

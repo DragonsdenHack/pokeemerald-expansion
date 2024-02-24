@@ -394,7 +394,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_23:
 	.string "enter the power plant without being\l"
 	.string "seen by the authorities who monitor the\l"
 	.string "area. On the other hand, BLUE will head\l"
-	.string "straight to PRIMA ISLAND. I have\l"
+	.string "straight to ONE ISLAND. I have\l"
 	.string "arranged a transfer in VERMILION that\l"
 	.string "will take you directly to the island.\l"
 	.string "Your objective will be MOLTRES, given\l"
@@ -1758,7 +1758,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_20:
 	.string "TEAM ROCKET.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_21:
-	.string "ANDRA: But sir, I thought TEAM ROCKETt\n"
+	.string "ANDRA: But sir, I thought TEAM ROCKET\n"
 	.string "couldn't challenge GYM LEADERS for the\l"
 	.string "BADGES.$"
 
@@ -2064,7 +2064,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_2:
 	.string "scheming something with BLAINE, the\l"
 	.string "other traitor who, curiously, has also\l"
 	.string "vanished. Meanwhile, FUJI is still\l"
-	.string "behind bars, fortunately, with his\l"
+	.string "under arrest, fortunately, with his\l"
 	.string "return looming.$"
 
 
@@ -2442,7 +2442,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_8:
 	.string "MEWTWO. Our emergency plan to save\l"
 	.string "KANTO after MEWTWO's escape was to\l"
 	.string "locate these two POKÉMON. However, as\l"
-	.string "happened to lANCE, we couldn't find\l"
+	.string "happened to LANCE, we couldn't find\l"
 	.string "them until recently. Following the\l"
 	.string "events at the POKÉMON LEAGUE, ARCHER\l"
 	.string "sent me a report about this new\l"
@@ -2645,7 +2645,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_10:
 	.string "However, given the significance this\n"
 	.string "matter holds for the entire region,\l"
 	.string "both ARCHER and me, along with PETREL,\l"
-	.string "ANDRA, PROTÓN, and the other prominent\l"
+	.string "ANDRA, PROTON, and the other prominent\l"
 	.string "members of the organization will stay in\l"
 	.string "the background, {PLAYER}, in case\l"
 	.string "anything goes wrong.$"

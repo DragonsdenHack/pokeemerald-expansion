@@ -104,7 +104,7 @@ msgbox IndigoPlateauPokemonCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 IndigoPlateauPokemonCenterDocumento_Text_100:
-.string "POKéMON JOURNAL\p"
+.string "POKÉMON JOURNAL\p"
 	.string "Special Feature:\n"
 	.string "ELITE FOUR's LANCE!\p"
 	.string "LANCE's grandfather is thought to\n"

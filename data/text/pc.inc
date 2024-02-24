@@ -8,7 +8,7 @@ gText_AccessedSomeonesPC::
 	.string "Accessed BILL'S PC.$"
 
 gText_StorageSystemOpened::
-	.string "POKéMON Storage System opened.$"
+	.string "POKÉMON Storage System opened.$"
 
 
 gText_AccessedPlayersPC::

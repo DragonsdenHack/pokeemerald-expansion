@@ -161,7 +161,7 @@ msgbox CeladonCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 CeladonCityDocumento_Text_100:
- .string "CELADON CITY POKéMON GYM\n"
+ .string "CELADON CITY POKÉMON GYM\n"
     .string "LEADER: ERIKA\l"
     .string "The Nature-Loving Princess!$"
 
@@ -202,7 +202,7 @@ end
 
 CeladonCityDocumento_Text_104:
 .string "TRAINER TIPS\p"
-    .string "GUARD SPEC. protects POKéMON\n"
+    .string "GUARD SPEC. protects POKÉMON\n"
     .string "from status-reduction moves during\l"
     .string "battle.\p"
     .string "Get your items at the\n"

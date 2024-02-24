@@ -117,8 +117,8 @@ msgbox Route9Documento_Text_100, MSGBOX_SIGN
 end
 
 Route9Documento_Text_100:
-	.string "RUTA 9\n"
-	.string "CIUDAD CELESTE - TÚNEL ROCA$"
+    .string "ROUTE 9\n"
+    .string "CERULEAN CITY - ROCK TUNNEL$"
 
 Route9_Aviso_Petrel::
 playse SE_POKENAV_ON

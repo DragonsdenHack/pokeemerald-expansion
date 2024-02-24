@@ -142,7 +142,7 @@ release
 end
 
 SilphS3Documento_Text_103:
-	.string "WISHIWASHI BANCO:\p"
+	.string "WISHIWASHI SCHOOL:\p"
 	.string "HP: 45\n"
 	.string "ATTACK: 140\l"
 	.string "DEFENSE: 130\l"
@@ -254,7 +254,7 @@ SilphS3_Miguel_Batalla_Texto_1:
 	.string "????: You again, {PLAYER}?$"
 
 SilphS3_Miguel_Batalla_Texto_2:
-	.string "C.MIGUEL: The PRESIDENT already\n"
+	.string "S.MIGUEL: The PRESIDENT already\n"
 	.string "informed us that soon a ROCKET could\l"
 	.string "pay us a little visit to this privileged\l"
 	.string "place; I don't know why I'm not about\l"

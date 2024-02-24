@@ -120,9 +120,9 @@ end
 
 CeruleanCityDocumento_Text_102:
 	.string "TRAINER TIPS\n"
-.string "A POKéMON can be made to hold an item.\l"
+.string "A POKÉMON can be made to hold an item.\l"
 	.string "Some items can even be used by the\l"
-	.string "holding POKéMON in battle.$"
+	.string "holding POKÉMON in battle.$"
 
 CeruleanCityDocumento_103::
 msgbox CeruleanCityDocumento_Text_103, MSGBOX_SIGN   
@@ -139,7 +139,7 @@ msgbox CeruleanCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 CeruleanCityDocumento_Text_104:
-	.string "CERULEAN CITY POKéMON GYM\n"
+	.string "CERULEAN CITY POKÉMON GYM\n"
 	.string "LEADER: MISTY\l"
 	.string "The Tomboyish Mermaid!$"
 

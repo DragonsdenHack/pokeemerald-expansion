@@ -114,9 +114,9 @@ release
 end
 
 Silph5FDocumento_Text_100:
-.string "It's a POKéMON REPORT!\p"
-    .string "POKéMON LAB created PORYGON,\n"
-    .string "the first virtual-reality POKéMON.$"
+.string "It's a POKÉMON REPORT!\p"
+    .string "POKÉMON LAB created PORYGON,\n"
+    .string "the first virtual-reality POKÉMON.$"
 
 
 
@@ -127,8 +127,8 @@ release
 end
 
 Silph5FDocumento_Text_101:
-.string "It's a POKéMON REPORT!\p"
-    .string "Some POKéMON have been confirmed\n"
+.string "It's a POKÉMON REPORT!\p"
+    .string "Some POKÉMON have been confirmed\n"
     .string "to evolve when they are traded.$"
 
 
@@ -140,8 +140,8 @@ release
 end
 
 Silph5FDocumento_Text_102:
-.string "It's a POKéMON REPORT!\p"
-    .string "Over 350 POKéMON techniques have\n"
+.string "It's a POKÉMON REPORT!\p"
+    .string "Over 350 POKÉMON techniques have\n"
     .string "been confirmed.$"
 
 

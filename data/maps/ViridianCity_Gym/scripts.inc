@@ -166,7 +166,7 @@ step_end
 ViridianCity_Gym_Escena_8_Texto_1:
 	.string "I've lost, I'm no longer worthy to lead\n"
 	.string "my minions! The TEAM ROCKET is over! I'll\l"
-	.string "dedicate my life to studying POKéMON! I\l"
+	.string "dedicate my life to studying POKÉMON! I\l"
 	.string "hope we meet again! Goodbye!$"
 
 ViridianCity_Gym_Pase::

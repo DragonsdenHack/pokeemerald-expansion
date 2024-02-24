@@ -385,87 +385,87 @@ static const u8 sAbilityPatchDesc[] = _( // Todo
 // Mints
 static const u8 sLonelyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sAdamantMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sNaughtyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sBraveMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sBoldMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sImpishMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sLaxMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sRelaxedMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sModestMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sMildMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sRashMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sQuietMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sCalmMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sGentleMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sCarefulMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sSassyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sTimidMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sHastyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sJollyMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sNaiveMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 static const u8 sSeriousMintDesc[] = _( // Todo
     "Mint for to change\n"
-    "nature's POKéMON.");
+    "nature's POKÉMON.");
 
 // Candy
 static const u8 sRareCandyDesc[] = _(
@@ -906,62 +906,62 @@ static const u8 sDyniteOreDesc[] = _( // Todo
 static const u8 sOrangeMailDesc[] = _(
     "Sale ZIGZAGOON.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sHarborMailDesc[] = _(
     "Sale WINGULL.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sGlitterMailDesc[] = _(
     "Sale PIKACHU.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sMechMailDesc[] = _(
     "Sale MAGNEMITE.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sWoodMailDesc[] = _(
     "Sale SLAKOTH.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sWaveMailDesc[] = _(
     "Sale WAILMER.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sBeadMailDesc[] = _(
     "Carta con la imagen\n"
-   	"del POKéMON que la\n"
+   	"del POKÉMON que la\n"
    	"lleva.");
 
 static const u8 sShadowMailDesc[] = _(
     "Sale DUSKULL.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sTropicMailDesc[] = _(
     "Sale BELLOSSOM.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sDreamMailDesc[] = _(
     "Carta con la imagen\n"
-   	"del POKéMON que la\n"
+   	"del POKÉMON que la\n"
    	"lleva.");
 
 static const u8 sFabMailDesc[] = _(
     "Fabuloso dibujo.\n"
    	"Debe llevarla\n"
-   	"un POKéMON.");
+   	"un POKÉMON.");
 
 static const u8 sRetroMailDesc[] = _(
     "Carta con las\n"
    	"imágenes de tres\n"
-   	"POKéMON.");
+   	"POKÉMON.");
 
 // Evolution Items
 static const u8 sFireStoneDesc[] = _(
@@ -1085,7 +1085,7 @@ static const u8 sSachetDesc[] = _(
 static const u8 sOvalStoneDesc[] = _(
     "Hace evolucionar\n"
    	"a varias especies\n"
-   	"de POKéMON.");
+   	"de POKÉMON.");
 
 static const u8 sMinnegroDesc[] = _(
     "Raises Kleavor's\n"
@@ -3792,7 +3792,7 @@ static const u8 sLiftKeyDesc[] = _(
 static const u8 sSilphScopeDesc[] = _(
     "Silph Co's scope\n"
     "makes unseeable\n"
-    "POKéMON visible.");
+    "POKÉMON visible.");
 
 static const u8 sTriPassDesc[] = _(
     "A pass for ferries\n"
@@ -3821,4 +3821,4 @@ static const u8 sSapphireDesc[] = _(
 
 static const u8 sMintDesc[] = _(
     "Mint for to change\n"
-    "nature's POKéMON.");	
+    "nature's POKÉMON.");	

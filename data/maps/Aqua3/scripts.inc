@@ -357,7 +357,7 @@ Aqua3_Combate_Aquiles_Texto_18:
 	.string "back to HOENN!$"
 
 Aqua3_Combate_Aquiles_Texto_19:
-	.string "ZEUS: Now both ACHILLES and MAGNO are\n"
+	.string "ZEUS: Now both ARCHIE and MAXIE are\n"
 	.string "destined to be incompetent and won't\l"
 	.string "pose any threat. Even if they manage to\l"
 	.string "recover the orbs, since they are the\l"

@@ -192,7 +192,7 @@ GimnasioAnciana_Documento_Text_100:
 	.string "SPECIAL DEFENSE: 80\l"
 	.string "SPEED: 50\l"
 	.string "TOTAL: 550\p"
-	.string "EARTH/NORMAL$"
+	.string "GROUND/NORMAL$"
 
 GimnasioAnciana_Documento_101::
 lock  

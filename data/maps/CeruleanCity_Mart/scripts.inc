@@ -17,7 +17,7 @@ CeruleanCity_Mart_Text_2:
 .string "Use REPELS to avoid bugs and weak\n"
 	.string "POKÉMON. Place your strongest POKÉMON\l"
 	.string "at the top of your team to achieve\l"
-	.string "better results! If your first POKéMON\l"
+	.string "better results! If your first POKÉMON\l"
 	.string "is strong, the REPEL will have a greater\l"
 	.string "effect.$"
 

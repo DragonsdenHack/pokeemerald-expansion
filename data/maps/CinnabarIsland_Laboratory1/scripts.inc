@@ -37,7 +37,7 @@ msgbox CinnabarIslandLaboratory1Documento_Text_101, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory1Documento_Text_101:
-.string "POKéMON LAB\n"
+.string "POKÉMON LAB\n"
     .string "Meeting Room$"
 
 
@@ -47,7 +47,7 @@ msgbox CinnabarIslandLaboratory1Documento_Text_102, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory1Documento_Text_102:
-.string "POKéMON LAB\n"
+.string "POKÉMON LAB\n"
     .string "R & D Room$"
 
 
@@ -57,7 +57,7 @@ msgbox CinnabarIslandLaboratory1Documento_Text_103, MSGBOX_SIGN
 end
 
 CinnabarIslandLaboratory1Documento_Text_103:
-.string "POKéMON LAB\n"
+.string "POKÉMON LAB\n"
     .string "Testing Room$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee::

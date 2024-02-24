@@ -60,39 +60,39 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-	.string "Soy el TUTOR de MOVIMIENTOS.\p"
-	.string "Me sé todos los movimientos que\n"
-	.string "aprenden los POKÉMON. Todos,\l"
-	.string "toditos, todos. Y puedo enseñar.\p"
-	.string "También soy experto en setas.\n"
-	.string "Si me traes una MINI SETA,\p"
-	.string "le enseñaré un movimiento a\n"
-	.string "uno de tus POKÉMON.$"
+    .string "I'm the POKéMON MOVE MANIAC.\p"
+    .string "I know every single move that\n"
+    .string "POKéMON learn growing up.\p"
+    .string "I'm also a mushroom maniac.\p"
+    .string "Bring me two TINYMUSHROOMS,\n"
+    .string "or one BIG MUSHROOM.\p"
+    .string "If you do that for me, I'll teach\n"
+    .string "a move to one POKéMON.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
-	.string "¡Oh! ¡Eso es! ¡Eso es una\n"
-	.string "MINI SETA!\p"
-	.string "Déjame adivinar, ¿quieres que enseñe\n"
-	.string "algún movimiento a tus POKÉMON?$"
+    .string "Sniff, sniff…\n"
+    .string "Hm! You smell of MUSHROOMS!\p"
+    .string "Do you want me to teach a move\n"
+    .string "to a POKéMON of yours?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
-	.string "¿A qué POKÉMON debería enseñárselo?$"
+    .string "Which POKéMON needs tutoring?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
-	.string "¿Qué movimiento debería enseñar?$"
+    .string "Which move should I teach?$"
 
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
-	.string "Lo siento…\p"
-	.string "Parece que no hay ningún movimiento\n"
-	.string "que le pueda enseñar a este POKÉMON.$"
+    .string "Sorry…\p"
+    .string "It doesn't appear as if I have a\n"
+    .string "move I can teach that POKéMON.$"
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
-	.string "{PLAYER} entregó la MINI SETA\n"
-	.string "a cambio.$"
+    .string "{PLAYER} handed over two\n"
+    .string "TINYMUSHROOMS in exchange.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-	.string "Si quieres que le enseñe un movimiento\n" 
-	.string "a algún POKÉMON, traéme una MINI SETA.$"
+    .string "If your POKéMON need to learn a\n"
+    .string "move, I need a MUSHROOM or two.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:
 	.string "Hunh? There isn't a single move that\n"

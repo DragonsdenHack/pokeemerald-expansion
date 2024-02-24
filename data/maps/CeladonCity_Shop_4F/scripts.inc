@@ -15,10 +15,10 @@ end
 
 CeladonCity_Shop4F_Text_2:
 .string "I heard something useful.\p"
-    .string "If a wild POKéMON appears, you can\n"
+    .string "If a wild POKÉMON appears, you can\n"
     .string "distract it with a POKé DOLL.\p"
     .string "You can run away while the wild\n"
-    .string "POKéMON is distracted.$"
+    .string "POKÉMON is distracted.$"
 
 
 

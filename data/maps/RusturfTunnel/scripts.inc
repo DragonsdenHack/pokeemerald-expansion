@@ -432,7 +432,7 @@ RusturfTunnel_Text_Peeko:
 
 RusturfTunnel_Text_GruntIntro:
 	.string "Grah, keelhaul it all!\p"
-	.string "That hostage POKéMON turned out to\n"
+	.string "That hostage POKÉMON turned out to\n"
 	.string "be worthless!\p"
 	.string "And to think I made a getaway…\n"
 	.string "In this tunnel to nowhere!\p"
@@ -497,7 +497,7 @@ RusturfTunnel_Text_YouShatteredBoulderTakeHM:
 
 RusturfTunnel_Text_ExplainStrength:
 	.string "That HM contains STRENGTH.\p"
-	.string "If a muscular POKéMON were to learn\n"
+	.string "If a muscular POKÉMON were to learn\n"
 	.string "that, it would be able to move even\l"
 	.string "large boulders.$"
 
@@ -519,15 +519,15 @@ RusturfTunnel_Text_MikeIntro:
 	.string "¿Cómo se llama a los hombres que pasan\n"
 	.string "todo el tiempo en las montañas?\l"
 	.string "Montañeros, ¿verdad? Entonces ¿por\l"
-	.string "qué no llaman a los POKéMON que viven en\l"
+	.string "qué no llaman a los POKÉMON que viven en\l"
 	.string "las montañas POKéMONtañeros?$"
 
 RusturfTunnel_Text_MikeDefeat:
-	.string "Mis POKéMON... se han quedado sin\n"
+	.string "Mis POKÉMON... se han quedado sin\n"
 	.string "fuerzas...$"
 
 RusturfTunnel_Text_MikePostBattle:
 	.string "Aquí decidieron detener el avance del\n"
-	.string "progreso para proteger a los POKéMON.\l"
+	.string "progreso para proteger a los POKÉMON.\l"
 	.string "¡Ésta sí que es una historia bonita!$"
 

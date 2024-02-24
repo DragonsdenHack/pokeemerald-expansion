@@ -32,8 +32,8 @@ release
 end
 
 PokemonTower1F_Text_2:
-.string "POKéMON TOWER was erected in the\n"
-    .string "memory of POKéMON that died.$"
+.string "POKÉMON TOWER was erected in the\n"
+    .string "memory of POKÉMON that died.$"
 
 
 

@@ -542,7 +542,7 @@ Silph_11F_Bill_Presidente_Texto_30:
 	.string "with the MASTER BALL, but I have also\l"
 	.string "halted its selling in the market to\l"
 	.string "prevent anyone else from acquiring it.\l"
-	.string "From today we have a powerful partner.\l"
+	.string "Since today we have a powerful partner.\l"
 	.string "Who will be seen by the media as a victim\l"
 	.string "of our greed. Now, only the easiest part\l"
 	.string "remains: Acting before that\l"

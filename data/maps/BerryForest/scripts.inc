@@ -17,7 +17,7 @@ end
 
 BerryForestDocumento_Text_100:
    .string "Beware of wild, BERRY-loving\n"
-    .string "POKéMON!$"
+    .string "POKÉMON!$"
 
 
 
@@ -28,7 +28,7 @@ end
 BerryForestDocumento_Text_101:
     .string "Welcome to the BERRY FOREST\p"
     .string "Be friendly and share BERRIES with\n"
-    .string "others and POKéMON.$"
+    .string "others and POKÉMON.$"
 
 
 BerryForest_Evento_Hypno::

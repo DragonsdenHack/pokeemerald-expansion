@@ -67,7 +67,7 @@ CuevaHypno_4_Lider_Texto_1:
 CuevaHypno_4_Lider_Texto_2:
 	.string "So you saw me when that HYPNO attacked\n"
 	.string "the children. But you're not from THREE\l"
-	.string "ISLAND, right? BAYA FOREST is already a\l"
+	.string "ISLAND, right? BERRY FOREST is already a\l"
 	.string "forgotten place for the island\l"
 	.string "residents; it wasn't always like this...$"
 

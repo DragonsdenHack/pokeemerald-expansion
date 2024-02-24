@@ -32,7 +32,7 @@ release
 end
 
 FiveIsland_Text_2:
-  .string "I don't like our new CHRONO ISLAND consul.\n"
+  .string "I don't like our new CHRONO ISLAND CONSUL.\n"
     .string "She has built her house in the middle of\l"
     .string "RECREATION AREA, we could play there\l"
     .string "quietly before but since her arrival\l"
@@ -117,9 +117,9 @@ end
 
 
 FiveIsland_Text_RumboaKanto_1:
-    .string "¡Vamos, están todos esperándote!\n"
-	.string "¡No nos hagas perder más\l"
-	.string "tiempo!$"
+    .string "Come, on! We are all waiting\n"
+	.string "for you!\l"
+	.string "Don't waste our time anymore!$"
 
 
 FiveIsland_RumboaKanto_move1:

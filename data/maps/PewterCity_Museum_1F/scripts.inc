@@ -72,7 +72,7 @@ msgbox PewterMuseumDocumento_Text_100, MSGBOX_SIGN
 end
 
 PewterMuseumDocumento_Text_100:
-.string "POKéMON JOURNAL\p"
+.string "POKÉMON JOURNAL\p"
 	.string "Special Feature: PEWTER GYM\n"
 	.string "LEADER BROCK!\p"
 	.string "BROCK rarely laughs, but is said to\n"
@@ -89,7 +89,7 @@ end
 
 PewterMuseumDocumento_Text_101:
 .string "AERODACTYL Fossil\n"
-    .string "A primitive and rare POKéMON.$"
+    .string "A primitive and rare POKÉMON.$"
 
 
 
@@ -102,7 +102,7 @@ end
 
 PewterMuseumDocumento_Text_102:
 	.string "KABUTOPS Fossil\n"
-    .string "A primitive and rare POKéMON.$"
+    .string "A primitive and rare POKÉMON.$"
 
 PewterCity_Museum_1F_Miguel::
 applymovement OBJ_EVENT_ID_PLAYER, PewterCity_Museum_1F_Miguel_Move_1
@@ -249,7 +249,7 @@ PewterCity_Museum_1F_Miguel_Texto_8:
 
 PewterCity_Museum_1F_Miguel_Texto_9:
 	.string "PETREL: You are hallucinating, you have\n"
-	.string "aROCKET EXECUTIVE and one of our top\l"
+	.string "a ROCKET EXECUTIVE and one of our top\l"
 	.string "HIGH RANKS in front of you; you're not\l"
 	.string "going anywhere with that FOSSIL.$"
 

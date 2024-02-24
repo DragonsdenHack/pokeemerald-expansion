@@ -1026,7 +1026,7 @@ CinnabarMansion_S2_Escena_7_Texto_9:
 
 CinnabarMansion_S2_Escena_7_Texto_10:
 	.string "We'll quietly and cleverly take control\n"
-    	.string "of KANTO, avoiding oblgiations without\l"
+    	.string "of KANTO, avoiding obligations without\l"
     	.string "causing another stupid war.$"
 
 CinnabarMansion_S2_Escena_7_Texto_11:

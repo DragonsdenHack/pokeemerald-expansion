@@ -264,9 +264,9 @@ msgbox SaffronCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_106:
-.string "SAFFRON CITY POKéMON GYM\n"
+.string "SAFFRON CITY POKÉMON GYM\n"
     .string "LEADER: SABRINA\l"
-    .string "The Master of PSYCHIC POKéMON!$"
+    .string "The Master of PSYCHIC POKÉMON!$"
 
 
 
@@ -275,7 +275,7 @@ msgbox SaffronCityDocumento_Text_107, MSGBOX_SIGN
 end
 
 SaffronCityDocumento_Text_107:
-.string "POKéMON TRAINER FAN CLUB\p"
+.string "POKÉMON TRAINER FAN CLUB\p"
     .string "Many TRAINERS have scribbled their\n"
     .string "names on this sign.$"
 

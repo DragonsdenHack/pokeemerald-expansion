@@ -165,8 +165,8 @@ end
 RocketHideout6F_Text_15:
 .string "We own more than 70% of the POKÉMON\n"
 	.string "traffic on the market in the KANTO\l"
-	.string "region, thanks to the CASINO and the\l"
-	.string "constant flows of POKÉMON that come\l"
+	.string "region, thanks to the GAME CORNER and\l"
+	.string "the constant flows of PKMN that come\l"
 	.string "from this BASE, CHRONOISLAND and\l"
 	.string "others. Nobody overshadows us in that\l"
 	.string "section.$"
@@ -1132,7 +1132,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_15:
 .string "Because your high performance and\n"
 	.string "loyalty showed to TEAM ROCKET, now you\l"
 	.string "both are ascended. You go from being\l"
-	.string "common GRUNTS, to HIGH RANK RECRUITS.\l"
+	.string "common GRUNTS, to HIGH RANK GRUNT.\l"
 	.string "This will give you the chance to lead\l"
 	.string "some missions, as FRANK did with you on\l"
 	.string "MT.MOON, also it gives enough rank to\l"
@@ -1172,7 +1172,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_20:
 	.string "don't you?$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_21:
-.string "ANDRA: Yesk that famous transatlantic\n"
+.string "ANDRA: Yeah, that famous transatlantic\n"
 	.string "that just arrived at VERMILION harbor.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_22:
@@ -1190,7 +1190,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_23:
 	.string "It is a jar.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_24:
-.string "ANDRA: A flask?$"
+.string "ANDRA: A jar?$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_25:
 .string "PETREL: S.S. ANNE's CAPTAIN has\n"
@@ -1554,15 +1554,14 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_10:
 	.string "directly under his orders.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_11:
-.string "PETREL: O en otras palabras, a\n"
-	.string "partir de ahora formaréis parte de\l"
-	.string "la guardia personal de GIOVANNI,\l"
-	.string "el último escalón en la jerarquía\l"
-	.string "de nuestra organización, sentios\l"
-	.string "afortunados y sobre todo dad la\l"
-	.string "talla, ahí trabajaréis con la\l"
-	.string "maldita élite de nuestra\l"
-	.string "organización.$"
+	.string "PETREL: Or, to put it another way,\n"
+	.string "you're now part of GIOVANNI's personal\l"
+	.string "guard, the highest rank in our\l"
+	.string "organization's hierarchy. Consider\l"
+	.string "yourselves fortunate and, above all,\l"
+	.string "rise to the occasion, as you'll be\l"
+	.string "working alongside the elite of our\l"
+	.string "organization.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_12:
 	.string "ANDRA: We are ready ADMIN.PETREL!$"
@@ -1923,7 +1922,7 @@ release
 end
 
 RocketHideout_6F_Aviso_Cientifico_Texto_1:
-.string "HIGH RANK RECRUIT {PLAYER}, finally,\n"
+.string "HIGH RANK {PLAYER}, finally,\n"
 	.string "thanks to the patent that you robbed\l"
 	.string "BILL we could complete the connection\l"
 	.string "project between bases via\l"
@@ -1973,8 +1972,7 @@ end
 
 RocketHideout_6F_Maquina_Teletransporte_YesNo:
 .string "The machine is ready to be used, do you\n"
-	.string "want to teleport? to the CELADON\l"
-	.string "BASE?$"
+	.string "want to teleport?$"
 
 RocketHideout_6F_Maquina_Teletransporte_No::
 release

@@ -240,10 +240,10 @@ Magma3_Combate_Magno_Texto_7:
 
 Magma3_Combate_Magno_Texto_8:
 	.string "B-but... I had everything... G-GROUDON\n"
-	.string "was here, before me, and has displayed\l"
-	.string "the immense power that the legend\l"
-	.string "talks about... How could a ROCKET, no\l"
-	.string "matter how top ADMIN is, match, and\l"
+	.string "was here, in front of me, and has\l"
+	.string "displayed the immense power that the\l"
+	.string "legend talks about... How could a ROCKET,\l"
+	.string "no matter how top ADMIN is, match, and\l"
 	.string "even surpass, such power using common\l"
 	.string "POKÉMON? It doesn't make sense!$"
 

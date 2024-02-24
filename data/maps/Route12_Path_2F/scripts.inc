@@ -54,4 +54,4 @@ end
 Route12Path2FDocumento_Text_101:
 .string "Let's see what the binoculars have\n"
     .string "to show…\p"
-    .string "It's POKéMON TOWER!$"
+    .string "It's POKÉMON TOWER!$"

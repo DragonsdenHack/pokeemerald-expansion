@@ -32,7 +32,7 @@ RocketHideoutFiveIslandMeadow_Text_Spanish:
 
 
 RocketHideoutFiveIslandMeadow_Text_22:     
- .string "Take charge of doing your job recruit,\n"
+ .string "Take charge of doing your job GRUNT,\n"
     .string "the kind of things that we do here, are\l"
     .string "too complicated for you.$"
 
@@ -222,7 +222,7 @@ RocketHideoutFiveIslandMeadowDocumento_Text_100:
     .string "become a better trainer. 6.- Arrive,\l"
     .string "analyze, adapt and win. 7.- Every\l"
     .string "member of the organization counts,\l"
-    .string "from the most basic recruit to the\l"
+    .string "from the most basic GRUNT to the\l"
     .string "highest positions, we function as a\l"
     .string "huge mechanism where no one is left\l"
     .string "behind.$"
@@ -485,22 +485,22 @@ RocketHideoutFiveIslandMeadow_Text_Atlas9:
     .string "expects, that you learn to climb\l"
     .string "starting from the lowest, let's start\l"
     .string "with the delivery of your initials.\l"
-    .string "RECRUIT NUMBER 1!!$"
+    .string "GRUNT NUMBER 1!!$"
 
 
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas10:
-.string "RECRUIT NUMBER 2!!$"
+.string "GRUNT NUMBER 2!!$"
 
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas11:
-.string "RECRUIT NUMBER 3!!$"
+.string "GRUNT NUMBER 3!!$"
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas12:
-.string "RECRUIT NUMBER 4!!$"
+.string "GRUNT NUMBER 4!!$"
 
 Move1:
 walk_up
@@ -773,7 +773,7 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_Vuelveatupuesto:     
-    .string "RECRUIT NUMBER 4!! You're not on the\n"
+    .string "GRUNT NUMBER 4!! You're not on the\n"
     .string "blacklist yet and I hope I don't have\l"
     .string "to include you on the first day! Pick up\l"
     .string "your initial, return to your place and\l"
@@ -985,10 +985,10 @@ RocketHideoutFiveIslanMeadow_Text_PostZubat4:
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat5:
     .string "GRUNT 1: So we will stay on CHRONO ISLAND\n"
-    .string "for a while, that ARCHER doesn't foul\l"
+    .string "for a while, that ARCHER doesn't fool\l"
     .string "around, thats why people say that just\l"
     .string "GIOVANNI is above him, have you seen\l"
-    .string "that recruit's face when ARCHER got\l"
+    .string "that GRUNT's face when ARCHER got\l"
     .string "closer to answer him? I doubt if he can\l"
     .string "live in peace after this.$"
 

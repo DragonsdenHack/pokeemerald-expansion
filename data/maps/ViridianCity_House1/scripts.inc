@@ -24,7 +24,7 @@ release
 end
 
 ViridianCity_House1_Text_2:
-    .string "My daddy loves POKéMON, too.$"
+    .string "My daddy loves POKÉMON, too.$"
 
 
 

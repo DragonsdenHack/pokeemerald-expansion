@@ -118,7 +118,7 @@ Text_WantToSmash:
 	.string "Would you like to use ROCK SMASH?$"
 
 Text_CantSmash:
-	.string "It's a rugged rock, but a POKéMON\n"
+	.string "It's a rugged rock, but a POKÉMON\n"
 	.string "may be able to smash it.$"
 
 EventScript_StrengthBoulder::
@@ -165,7 +165,7 @@ EventScript_CancelStrength::
 	end
 
 Text_WantToStrength:
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a POKÉMON\n"
 	.string "may be able to push it aside.\p"
 	.string "Would you like to use STRENGTH?$"
 
@@ -175,7 +175,7 @@ Text_MonUsedStrength:
 	.string "possible to move boulders around!$"
 
 Text_CantStrength:
-	.string "It's a big boulder, but a POKéMON\n"
+	.string "It's a big boulder, but a POKÉMON\n"
 	.string "may be able to push it aside.$"
 
 Text_StrengthActivated:
@@ -264,7 +264,7 @@ EventScript_EndSurface::
 
 Text_CantDive:
 	.string	"El mar es muy profundo en esta zona.\n"
-	.string	"Un POKéMON podría bucear aquí.$"
+	.string	"Un POKÉMON podría bucear aquí.$"
 
 Text_WantToDive:
 	.string	"El mar es muy profundo en esta zona.\n"
@@ -275,7 +275,7 @@ Text_MonUsedDive:
 
 Text_CantSurface:
 	.string	"La luz se filtra desde la superficie.\n"
-	.string	"Un POKéMON puede emerger aquí.$"
+	.string	"Un POKÉMON puede emerger aquí.$"
 
 Text_WantToSurface:
 	.string	"La luz se filtra desde la superficie.\n"

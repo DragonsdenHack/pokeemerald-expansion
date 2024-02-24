@@ -36,7 +36,7 @@ end
 Text_11:
 .string "My father is the GYM LEADER of\n"
     .string "this town.\p"
-    .string "I'm training to use POISON POKéMON\n"
+    .string "I'm training to use POISON POKÉMON\n"
     .string "as well as my father.$"
 
 
@@ -103,7 +103,7 @@ msgbox NeoFuchsiaCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 NeoFuchsiaCityDocumento_Text_100:
-.string "FUCHSIA CITY POKéMON GYM\n"
+.string "FUCHSIA CITY POKÉMON GYM\n"
     .string "LEADER: SACHIKO\l"
     .string "The Poisonous Ninja Master$"
 
@@ -114,7 +114,7 @@ msgbox FuchsiaCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_100:
-.string "FUCHSIA CITY POKéMON GYM\n"
+.string "FUCHSIA CITY POKÉMON GYM\n"
     .string "LEADER: KOGA\l"
     .string "The Poisonous Ninja Master$"
 
@@ -126,7 +126,7 @@ end
 
 FuchsiaCityDocumento_Text_101:
 .string "Name: KABUTO\n"
-    .string "An extremely rare POKéMON that was\l"
+    .string "An extremely rare POKÉMON that was\l"
     .string "regenerated from a fossil.$"
 
 
@@ -137,7 +137,7 @@ end
 
 FuchsiaCityDocumento_Text_102:
 .string "Name: KANGASKHAN\p"
-    .string "A maternal POKéMON that raises its\n"
+    .string "A maternal POKÉMON that raises its\n"
     .string "young in a pouch on its belly.$"
 
 
@@ -158,7 +158,7 @@ end
 
 FuchsiaCityDocumento_Text_104:
 .string "SAFARI GAME\n"
-    .string "POKéMON-U-CATCH!$"
+    .string "POKÉMON-U-CATCH!$"
 
 NeoFuchsiaCityDocumento_105::
 msgbox NeoFuchsiaCityDocumento_Text_105, MSGBOX_SIGN
@@ -179,7 +179,7 @@ msgbox FuchsiaCityDocumento_Text_105, MSGBOX_SIGN
 end
 
 FuchsiaCityDocumento_Text_105:
-.string "POKéMON PARADISE\n"
+.string "POKÉMON PARADISE\n"
     .string "SAFARI ZONE$"
 
 

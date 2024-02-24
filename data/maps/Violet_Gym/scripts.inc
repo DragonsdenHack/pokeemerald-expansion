@@ -89,13 +89,13 @@ end
 
 
 VioletGym_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
+.string "LÍDER del GIMNASIO POKÉMON\n"
 	.string "de CIUDAD MALVA: PEGASO\p"
 	.string "ENTRENADORES GANADORES:\n"
 	.string "(¡Está vacío!)$"
 
 VioletGym_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
+.string "LÍDER del GIMNASIO POKÉMON\n"
 	.string "de CIUDAD MALVA: PEGASO\p"
 	.string "ENTRENADORES GANADORES:\n"
 	.string "{PLAYER}$"

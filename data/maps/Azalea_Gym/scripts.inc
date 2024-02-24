@@ -258,13 +258,13 @@ end
 
 
 AzaleaGym_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKéMON\n"
+.string "LÍDER del GIMNASIO POKÉMON\n"
 	.string "de PUEBLO AZALEA: CÉSAR\p"
 	.string "ENTRENADORES GANADORES:\n"
 	.string "(¡Está vacío!)$"
 
 AzaleaGym_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKéMON\n"
+.string "LÍDER del GIMNASIO POKÉMON\n"
 	.string "de PUEBLO AZALEA: CÉSAR\p"
 	.string "ENTRENADORES GANADORES:\n"
 	.string "{PLAYER}$"

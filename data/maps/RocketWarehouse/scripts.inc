@@ -390,7 +390,7 @@ RocketWarehouseDocumento_Text_102:
 	.string "y anotaciones en el monitor del PC.\p"
 	.string "- La influencia de las ondas\n"
 	.string "magnéticas en la evolución de los\l"
-	.string "POKéMON - ...\p"
+	.string "POKÉMON - ...\p"
 	.string "... ... ... ... ... ...\p"
 	.string "Cualquiera entiende esto...$"
 
@@ -916,7 +916,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas5:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas6:
-           .string "ATLAS: It's important for you to\n"
+    .string "ARCHER: It's important for you to\n"
 	.string "understand that we function as a\l"
 	.string "unified entity here, which strengthens\l"
 	.string "us. This isn't a sign of weakness; it's a\l"
@@ -931,8 +931,8 @@ RocketWarehouse_Text_Vuelta_MisionAtlas7:
 	.string "both of you would negotiate with the\l"
 	.string "CONSUL at the same time, having each\l"
 	.string "other's backs in case things went\l"
-	.string "wrong. What's up, ANDRA? Why didn't you\l"
-	.string "wait for {PLAYER} and went in alone?$"
+	.string "wrong. What's wrong with you, ANDRA?\l"
+	.string "Why didn't you wait for {PLAYER}?$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas8:

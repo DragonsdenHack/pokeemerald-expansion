@@ -307,7 +307,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_9:
 	.string "the ELITE FOUR.\p"
 	.string "But, when I got here, you had\n"
 	.string "already lost!\p"
-	.string "{RIVAL}, do you understand why\n"
+	.string "BLUE, do you understand why\n"
 	.string "you lost?\p"
 	.string "You have forgotten to treat your\n"
 	.string "POKÉMON with love and trust.\p"
@@ -366,7 +366,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_16:
 	.string "'s unnatural…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_17:
-.string "AZUL: {PLAYER}!!!\n"
+.string "BLUE: {PLAYER}!!!\n"
 	.string "You are here!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_18:

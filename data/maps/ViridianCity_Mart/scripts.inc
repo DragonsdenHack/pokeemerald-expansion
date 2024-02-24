@@ -14,9 +14,9 @@ release
 end
 
 ViridianCity_Mart_Text_2:
-.string "Yo tengo algunas POCIONES.\p"
-.string "Nunca sabes cuándo pueden\n"
-.string "necesitarlas tus POKéMON.$"
+    .string "I've got to buy some POTIONS.\p"
+    .string "You never know when your POKéMON\n"
+    .string "will need quick healing.$"
 
 
 
@@ -28,8 +28,8 @@ release
 end
 
 ViridianCity_Mart_Text_3:
-.string "En esta tienda venden muchos\n"
-.string "ANTÍDOTOS, creo.$"
+    .string "This shop does good business in\n"
+    .string "ANTIDOTES, I've heard.$"
 
 Base_Profunda_Mercado_1_EventScript_Clerk::
 	lock

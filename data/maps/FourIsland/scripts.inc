@@ -32,7 +32,7 @@ FourIsland_Text_2:
     .string "to be the one she met as a child.\p"
     .string "I believe it was in ICEFALL CAVE\n"
     .string "that she caught it.\p"
-    .string "Perhaps that POKéMON has been with\n"
+    .string "Perhaps that POKÉMON has been with\n"
     .string "her ever since.$"
 
 

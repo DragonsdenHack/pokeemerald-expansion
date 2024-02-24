@@ -166,7 +166,7 @@ Route25_BillHouse_Evento_Policia_text_5:
 	.string "thinking about a single ROCKET stealing\l"
 	.string "from the great BILL the intellectual\l"
 	.string "property of his greatest inventions?\l"
-	.string "This is to much for you, ROCKET.$"
+	.string "This is too much for you, ROCKET.$"
 
 Route25_BillHouse_Evento_Policia_text_6:
 .string "GUARDS! Get rid of this trash pile, I\n"

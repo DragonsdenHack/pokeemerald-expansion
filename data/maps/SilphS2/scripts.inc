@@ -414,7 +414,7 @@ end
 SilphS2_Text_23:
 	.string "I'm gonna make sure those cops who were\n"
 	.string "on LANCE's side and let all that unfair\l"
-	.string "stuff happen here end up behind bars.$"
+	.string "stuff happen here end up in prison.$"
 
 
 
@@ -930,7 +930,7 @@ release
 end
 
 SilphS2Documento_Text_103:
-	.string "FLOETTE-ETERNO:\p"
+	.string "FLOETTE-ETERNAL FLOWER:\p"
 	.string "HP: 74\n"
 	.string "ATTACK: 65\l"
 	.string "DEFENSE: 67\l"
