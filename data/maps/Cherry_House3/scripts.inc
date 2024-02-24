@@ -9,13 +9,12 @@ release
 end
 
 CherryHouse3_Text_1:
-.string "No hay mucho que hacer por aquí, y\n"
-.string "precisamente esa es la virtud de\l"
-.string "este lugar. Sin ruido y estímulos\l"
-.string "de fuera, tienes todo el tiempo\l"
-.string "del mundo para conocerte mejor y\l"
-.string "ver todo de lo que eres capaz en\l"
-.string "plena naturaleza.$"
+	.string "There's not much to do around here, and\n"
+	.string "precisely that's the virtue of this\l"
+	.string "place. Without noise and external\l"
+	.string "stimuli, you have all the time in the\l"
+	.string "world to discover yourself better and\l"
+	.string "see everything that you are capable of.$"
 
 
 
@@ -27,7 +26,7 @@ release
 end
 
 CherryHouse3_Text_2:
-.string "¿Cómo?\n"
-.string "¿PUEBLO PRIMAVERA?\l"
-.string "¡En 50 años viviendo aquí jamás he\l"
-.string "oído hablar de ese lugar!$"
+.string "Hmm?\n"
+.string "NEW BARK TOWN?\l"
+.string "I have never heard of that place and\l"
+.string "I have been living here for 50 years!$"

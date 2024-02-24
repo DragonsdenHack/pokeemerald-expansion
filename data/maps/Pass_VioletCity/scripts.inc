@@ -9,5 +9,5 @@ release
 end
 
 PassVioletCity_Text_1:
-.string "¡Hola, chico!\n"
-.string "¿Has visitado la TORRE BELSPROUT?$"
+.string "Hey kid!\n"
+.string "Have you visited SPROUT TOWER?$"

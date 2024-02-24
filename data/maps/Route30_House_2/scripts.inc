@@ -9,15 +9,15 @@ release
 end
 
 Route30_House_2_Dialogo_Texto_1:
-.string "Cómo dices chico? ¿Darte yo un HUEVO\n"
-	.string "MISTERIOSO? Déjame darte un consjeo,\l"
-	.string "tienes pinta de haber visto ya\l"
-	.string "bastante mundo y ocupar una posición\l"
-	.string "de privilegio, deberías de ser el\l"
-	.string "primero en saber que en este mundo\l"
-	.string "nadie da nada a cambio de nada, y si\l"
-	.string "obtienes algo gratis, es que el\l"
-	.string "producto eres tú.$"
+	.string "How do you say, kid? Me giving you a\n"
+	.string "MYSTERIOUS EGG? Let me give you a\l"
+	.string "piece of advice; you seem to have seen\l"
+	.string "quite a bit of the world already and\l"
+	.string "hold a privileged position. You should\l"
+	.string "be the first to know that in this world,\l"
+	.string "nobody gives anything for nothing, and\l"
+	.string "if you get something for free, then\l"
+	.string "you're the product.$"
 
 Route30_House_2_Documento::
 lock

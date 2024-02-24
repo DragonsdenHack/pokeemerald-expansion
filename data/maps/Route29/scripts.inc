@@ -19,9 +19,9 @@ release
 end
 
 Route29_Text_3:
-.string "No hay muchos PIKACHU por aquí.\n"
-.string "¡Seré la envidia de todos cuando\l"
-.string "lo lleve a CIUDAD TRIGAL!$"
+	.string "There aren't many PIKACHU around here.\n"
+	.string "I'll be the envy of everyone when I take\l"
+	.string "it to GOLDENROD CITY!$"
 
 
 
@@ -58,18 +58,15 @@ release
 end
 
 Route29_Text_9:
-.string "Esta zona está siendo sujeta a\n"
-.string "diversas pruebas por parte del\l"
-.string "PROF.ELM y sus ayudantes, nadie\l"
-.string "puede entrar sin su\l"
-.string "consentimiento.\l"
-.string "De todos modos, no hay nada que\l"
-.string "ver aquí chico, más al este está\l"
-.string "la frontera con KANTO, y nadie\l"
-.string "puede pasar de ahí sin\l"
-.string "consentimiento expreso, al menos\l"
-.string "hasta que la relación entre KANTO\l"
-.string "y JOHTO mejore.$"
+	.string "This area is under supervision of\n"
+	.string "PROF.ELM and his assistants; they are\l"
+	.string "doing tests here, no one can enter\l"
+	.string "without their consent. Anyway, there is\l"
+	.string "nothing to see here, kid. Further east\l"
+	.string "is the border with KANTO, and no one can\l"
+	.string "pass beyond there without consent, at\l"
+	.string "least until the relationship between\l"
+	.string "KANTO and JOHTO improves.$"
 
 
 
@@ -81,11 +78,10 @@ release
 end
 
 Route29_Text_10:
-.string "Esta ruta, junto con la del norte\n"
-.string "de CIUDAD CEREZO, es famosa por\l"
-.string "contar con POKÉMON únicos que solo\l"
-.string "pueden encontrarse en JOHTO.\l"
-.string "¡Por eso he venido aquí!$"
+	.string "This route, along with the one north of\n"
+	.string "CHERRYGROVE CITY, is famous for its\l"
+	.string "unique POKÉMON that can only be found\l"
+	.string "in JOHTO. That's why I came here!$"
 
 
 
@@ -107,10 +103,10 @@ release
 end
 
 Route29_Text_13:
-.string "¡Ah!\n"
-.string "¡Qué bien sienta salir a pasear en\l"
-.string "medio de toda esta vegetación!\l"
-.string "¡Me siento joven otra vez!$"
+.string "Ah!\n"
+.string "It feels so good to go for a\l"
+.string "walk with all this vegetation!\l"
+.string "I feel young again!$"
 
 
 
@@ -122,10 +118,10 @@ release
 end
 
 Route29_Text_14:
-.string "El PROF.ELM es una eminencia del\n"
-.string "mundo de los POKÉMON, está\l"
-.string "montando su laboratorio de\l"
-.string "investigaciones al este de aquí.$"
+	.string "The PROF.ELM is a renowned figure in the\n"
+	.string "world of POKÉMON investigation. He's\l"
+	.string "setting up his research laboratory to\l"
+	.string "the east of here.$"
 
 
 
@@ -137,18 +133,15 @@ release
 end
 
 Route29_Text_15:
-.string "Esta zona está siendo sujeta a\n"
-.string "diversas pruebas por parte del\l"
-.string "PROF.ELM y sus ayudantes, nadie\l"
-.string "puede entrar sin su\l"
-.string "consentimiento.\l"
-.string "De todos modos, no hay nada que\l"
-.string "ver aquí chico, más al este está\l"
-.string "la frontera con KANTO, y nadie\l"
-.string "puede pasar de ahí sin\l"
-.string "consentimiento expreso, al menos\l"
-.string "hasta que la relación entre KANTO\l"
-.string "y JOHTO mejore.$"
+	.string "This area is under supervision of\n"
+	.string "PROF.ELM and his assistants; they are\l"
+	.string "doing tests here, no one can enter\l"
+	.string "without their consent. Anyway, there is\l"
+	.string "nothing to see here, kid. Further east\l"
+	.string "is the border with KANTO, and no one can\l"
+	.string "pass beyond there without consent, at\l"
+	.string "least until the relationship between\l"
+	.string "KANTO and JOHTO improves.$"
 
 
 
@@ -160,11 +153,10 @@ release
 end
 
 Route29_Text_16:
-.string "Me encantaría poder visitar la\n"
-.string "RUTA 26, dicen que es de las más\l"
-.string "bonitas de la región. Esperemos\l"
-.string "que pronto la reabran para toda la\l"
-.string "población…$"
+	.string "I'd love to visit the ROUTE 26. People\n"
+	.string "say it's one of the most beautiful in the\l"
+	.string "region. Let's hope they reopen it soon\l"
+	.string "for the entire population…$"
 
 
 
@@ -186,8 +178,8 @@ msgbox Route29Documento_Text_100, MSGBOX_SIGN
 end
 
 Route29Documento_Text_100:
-	.string "RUTA 29\n"
-	.string "Al oeste CIUDAD CEREZO$"
+	.string "ROUTE 29\n"
+	.string "West of CHERRYGROVE CITY$"
 
 
 
@@ -196,9 +188,9 @@ msgbox Route29Documento_Text_101, MSGBOX_SIGN
 end
 
 Route29Documento_Text_101:
-	.string "¡Aviso!\n"
-	.string "¡Frontera con KANTO al entrar en\l"
-	.string "RUTA 26, más al este!$"
+	.string "Warning!\n"
+	.string "Border with KANTO upon entering\l"
+	.string "ROUTE 26, further to the east!$"
 
 Primavera_Barrera_Sur::
 compare VAR_UNUSED_0x40F7, 153
@@ -212,8 +204,8 @@ release
 end
 
 Primavera_Barrera_Sur_Texto_1:
-.string "(Aún me faltan por ver los últimos\n"
-	.string "pisos de la BASE ROCKET de JOHTO)$"
+.string "(I still have to see the last floors\n"
+	.string "of the JOHTO ROCKET BASE)$"
 
 Primavera_Barrera_Sur_Move_1:
 walk_in_place_right

@@ -54,12 +54,10 @@ release
 end
 
 VioletGym_Frontera_Texto_1:
-.string "¡Oye!\n"
-	.string "¿A dónde crees que vas?\l"
-	.string "Nuestro LÍDER ya no acepta retos\l"
-	.string "de aspirantes. Si quieres tener\l"
-	.string "oportunidad de luchar,\l"
-	.string "trata de convencerlo.$"
+	.string "Hey! Where are you going? Our LEADER is\n"
+	.string "no longer accepting challenges from\l"
+	.string "aspiring trainers. If you wish to have a\l"
+	.string "chance to fight, try to convince him.$"
 
 VioletGym_Frontera_Move_1:
 face_up
@@ -89,16 +87,18 @@ end
 
 
 VioletGym_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de CIUDAD MALVA: PEGASO\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "(¡Está vacío!)$"
+	.string "VIOLET POKÉMON GYM\n"
+	.string "LEADER: FALKNER\p"
+	.string "WINNING TRAINERS:\n"
+	.string "(It is empty!)$"
+
 
 VioletGym_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de CIUDAD MALVA: PEGASO\p"
-	.string "ENTRENADORES GANADORES:\n"
+	.string "VIOLET POKÉMON GYM\n"
+	.string "LEADER: FALKNER\p"
+	.string "WINNING TRAINERS:\n"
 	.string "{PLAYER}$"
+
 
 VioletGym_Gym_Dude::
 lock
@@ -122,47 +122,40 @@ release
 end
 
 VioletGym_Gym_Dude_Texto_1:
-.string "Lamento decepcionarte, chico, pero\n"
-	.string "aunque PEGASO haya vuelto de su\l"
-	.string "largo viaje, no luchará con\l"
-	.string "nadie. Además, con la política\l"
-	.string "actual que centra la LIGA POKÉMON\l"
-	.string "en KANTO, los GIMNASIOS de JOHTO\l"
-	.string "están obsoletos. Solo estamos aquí\l"
-	.string "por respeto a este lugar y lo que\l"
-	.string "fue.$"
+	.string "I'm sorry to disappoint you, kid, but\n"
+	.string "even though FALKNER has returned from\l"
+	.string "his long journey, he won't battle\l"
+	.string "anyone. Besides, with the current\l"
+	.string "policy focusing the POKÉMON LEAGUE on\l"
+	.string "KANTO, the GYMS in JOHTO are obsolete.\l"
+	.string "We're only here out of respect for this\l"
+	.string "place and what it once was.$"
 
 VioletGym_Gym_Dude_Texto_2:
-.string "¡Ha sido increíble!\n"
-	.string "Jamás había visto perder a PEGASO.\l"
-	.string "Este combate será recordado por\l"
-	.string "siempre, ¡no te quepa duda!$"
+	.string "It's been incredible! I've never seen\n"
+	.string "FALKNER lose before. This battle will be\l"
+	.string "remembered forever, there's no doubt\l"
+	.string "about it!$"
 
 VioletGym_Gym_Dude_Texto_3:
-.string "¡No puedo creerlo!\n"
-	.string "¡Un aspirante!\l"
-	.string "¡El GIMNASIO volverá a contar con\l"
-	.string "un combate de altos vuelos después\l"
-	.string "de tanto!\l"
-	.string "Déjame aconsejarte, escucha:\l"
-	.string "PEGASO lo sabe todo sobre el TIPO\l"
-	.string "VOLADOR. Sabe como defenderse de\l"
-	.string "sus debilidades, pero aún con\l"
-	.string "esas, todo su equipo es débil al\l"
-	.string "TIPO ROCA. Podrás hacerle mucho\l"
-	.string "daño con esos movimientos, eso si\l"
-	.string "logras golpearle antes, porque sus\l"
-	.string "aves, elegidas minuciosamente de\l"
-	.string "entre todas las regiones en las\l"
-	.string "que ha estado, cuentan con una\l"
-	.string "VELOCIDAD y ofensiva en general\l"
-	.string "que pueden hacerte perder antes de\l"
-	.string "que te des cuenta.\l"
-	.string "Un buen TIPO ROCA con el CHALECO\l"
-	.string "ASALTO, así como POKÉMON TIPO\l"
-	.string "ELÉCTRICO muy rápidos, diría que\l"
-	.string "son tus mejores opciones.\l"
-	.string "¡Buena suerte!$"
+	.string "I can't believe it! A challenger! The GYM\n"
+	.string "will have a high-flying battle again\l"
+	.string "after so long! Let me advise you\l"
+	.string "something, listen: FALKNER knows\l"
+	.string "everything about the FLYING TYPE. He\l"
+	.string "knows how to defend himself from its\l"
+	.string "weaknesses, but even so, his whole team\l"
+	.string "is weak to the ROCK TYPE. You can do a\l"
+	.string "lot of damage with those moves, if you\l"
+	.string "manage to hit them first, because his\l"
+	.string "birds, carefully chosen from all the\l"
+	.string "regions he's been to, have a SPEED and\l"
+	.string "overall offense that can make you lose\l"
+	.string "before you realize it. A strong ROCK\l"
+	.string "TYPE equipped with the ASSAULT VEST,\l"
+	.string "as well as very fast ELECTRIC TYPE\l"
+	.string "POKÉMON, I would say those are your\l"
+	.string "best options. Good luck!$"
 
 Violet_Gym_Conversacion_Pegaso::
 lock
@@ -200,44 +193,40 @@ release
 end
 
 Violet_Gym_Conversacion_Pegaso_Texto_1:
-.string "PEGASO: ¡Vamos, padre!\n"
-	.string "¡Quiero saber cómo has llegado al\l"
-	.string "punto de poder contar con ese\l"
-	.string "POKÉMON en tu equipo!\l"
-	.string "No estaba destinado a ser un TIPO\l"
-	.string "VOLADOR y, sin embargo, bajo tu\l"
-	.string "cuidado ha acabado siendo el\l"
-	.string "VOLADOR más puro que conozco.$"
+	.string "FALKNER: Come on, dad! I want to know\n"
+	.string "how you've reached the point of being\l"
+	.string "able to have that POKÉMON on your team!\l"
+	.string "It wasn't destined to be a FLYING TYPE,\l"
+	.string "yet under your care, it has become the\l"
+	.string "purest FLYING TYPE I know.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_2:
-.string "PEGASO.P: No puedes poner en\n"
-	.string "palabras un proceso así, necesitas\l"
-	.string "estar ahí para experimentarlo por\l"
-	.string "ti mismo.$"
+	.string "SR.FALKNER: You can't articulate such a\n"
+	.string "process; you have to be there to\l"
+	.string "experience it firsthand.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_3:
-.string "Sabía que en ese ejemplar latía\n"
-	.string "la inquebrantable voluntad por\l"
-	.string "volar, ambos compartíamos esa\l"
-	.string "pasión por el cielo, y gracias a\l"
-	.string "ello pudimos alcanzar juntos cotas\l"
-	.string "mayores de lo que hubieramos\l"
-	.string "logrado por separado.$"
+	.string "I knew that in that specimen beat the\n"
+	.string "unyielding will to fly; we both shared\l"
+	.string "that passion for the sky, and thanks to\l"
+	.string "it, we were able to reach higher heights\l"
+	.string "together than we ever could have\l"
+	.string "separately.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_4:
-.string "Ahora, vuelve a TORRE BELLSPROUT,\n"
-	.string "tengo un combate pendiente.$"
+	.string "Now, return to SPROUT TOWER, I have a\n"
+	.string "pending battle.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_5:
-.string "PEGASO: ¡Pero, padre!\n"
-	.string "¡Yo quiero ver el combate!$"
+.string "FALKNER: But, dad!\n"
+	.string "I want to see that battle!$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_6:
-.string "PEGASO.P: No estás preparado, y no\n"
-	.string "discutiré esto contigo.$"
+	.string "SR.FALKNER: You are not ready yet, and\n"
+	.string "I won't argue about this with you.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_7:
-.string "PEGASO: ...$"
+.string "FALKNER: …$"
 
 Violet_Gym_Conversacion_Pegaso_Move_1:
 walk_in_place_up
@@ -299,19 +288,19 @@ release
 end
 
 Violet_Gym_Combate_Pegaso_Texto_11.3:
-.string "Con RESPIRO los POKÉMON voladores\n"
-	.string "podrán recuperar salud durante el\l"
-	.string "combate. Durante ese turno perderán\l"
-	.string "todas sus resistencias y debilidades\l"
-	.string "de su TIPO VOLADOR, úsalo sabiamente\l"
-	.string "para aprovecharte de ello.$"
+	.string "With ROOST, flying-type POKÉMON can\n"
+	.string "regain health during battle. During\l"
+	.string "that turn, they will lose all their\l"
+	.string "resistances and weaknesses of their\l"
+	.string "FLYING TYPE, so use it wisely to take\l"
+	.string "advantage.$"
 
 Violet_Gym_Combate_Pegaso_Texto_11.1:
-.string "Toma, quiero que también te lleves esto.$"
+	.string "Wait, I want you to take this with you.$"
 
 Violet_Gym_Combate_Pegaso_Texto_11.2:
-.string "¡¡{PLAYER} obtuvo la MT61 RESPIRO de\n"
-	.string "manos de PEGASO!!$"
+	.string "{PLAYER} obtained the TM61 ROOST\n"
+	.string "from FALKNER!!$"
 
 
 
@@ -323,62 +312,58 @@ release
 end
 
 Violet_Gym_Combate_Pegaso_Texto_1:
-.string "PEGASO: Debes disculparme, pero me\n"
-	.string "tomo muy en serio la educación de\l"
-	.string "mi hijo, algún día él será quien\l"
-	.string "dirija este GIMNASIO, y quiero que\l"
-	.string "esté preparado.$"
+	.string "FALKNER: Excuse me, but I take the\n"
+	.string "education of my son seriously, someday\l"
+	.string "he will be the one who manages this GYM,\l"
+	.string "and I want him to be ready.$"
 
 Violet_Gym_Combate_Pegaso_Texto_2:
-.string "Sin embargo, debe seguir su propio\n"
-	.string "camino, conocer las bases del\l"
-	.string "entrenamiento POKÉMON y a partir\l"
-	.string "de ahí escribir su historia, por\l"
-	.string "ello no quiero que vea un combate\l"
-	.string "como este, de un nivel tal que más\l"
-	.string "que aprendizaje le causará\l"
-	.string "confusión y una lluvia de\l"
-	.string "preguntas innecesarias.$"
+	.string "However, they must forge their own\n"
+	.string "path, grasp the fundamentals of\l"
+	.string "POKÉMON training, and then carve out\l"
+	.string "their own story. That's why I don't want\l"
+	.string "him to see a battle like this, at a level\l"
+	.string "that will only lead to confusion and a\l"
+	.string "deluge of unnecessary questions.$"
 
 Violet_Gym_Combate_Pegaso_Texto_3:
-.string "Pero hablemos de ti, debo admitir\n"
-	.string "que siento curiosidad por ver de\l"
-	.string "lo que eres capaz, no pensé que a\l"
-	.string "mi regreso a MALVA encontría a un\l"
-	.string "ENTRENADOR como tú.$"
+	.string "But now let's talk about you, I must\n"
+	.string "admit that I feel curious about what\l"
+	.string "you are capable of, I never thought\l"
+	.string "that upon my return to VIOLET, I would\l"
+	.string "encounter a TRAINER like you.$"
 
 Violet_Gym_Combate_Pegaso_Texto_4:
 .string "...$"
 
 Violet_Gym_Combate_Pegaso_Texto_5:
-.string "El arte de entrenar y combatir con\n"
-	.string "POKÉMON es un privilegio, un\l"
-	.string "regalo tanto para ti como para tu\l"
-	.string "equipo.$"
+	.string "The art of training and battling with\n"
+	.string "POKÉMON is a privilege, a gift for both\l"
+	.string "you and your team.$"
 
 Violet_Gym_Combate_Pegaso_Texto_6:
-.string "¡Usaré los POKÉMON más fieles que\n"
-	.string "me han ido acompañando a lo largo\l"
-	.string "de innumerables viajes y regiones!\l"
-	.string "¡Muéstrame el grado de excelencia\l"
-	.string "que has alcanzado con los tuyos!$"
+	.string "I will use the most loyal POKÉMON that\n"
+	.string "have accompanied me throughout\l"
+	.string "countless journeys and regions! Show\l"
+	.string "me the level of excellence you have\l"
+	.string "achieved with yours!$"
 
 Violet_Gym_Combate_Pegaso_Texto_7:
-.string "Extraordinario...\n"
-	.string "Más aún a tu corta edad.$"
+.string "Extraordinary…\n"
+	.string "Even more, you are so young.$"
 
 Violet_Gym_Combate_Pegaso_Texto_8:
-.string "Nadie había podido tumbar a mi\n"
-	.string "querido RAPIDASH, solo un\l"
-	.string "verdadero ENTRENADOR podría romper\l"
-	.string "el vínculo que nos une.$"
+	.string "No one had been able to defeat my\n"
+	.string "beloved RAPIDASH, only a true TRAINER\l"
+	.string "could break the bond that unites us.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9:
-.string "As you know, current JOHTO\n"
-	.string "GYMS are irrelevant to\l"
-	.string "compete in the POKÉMON\l"
-	.string "LEAGUE. However, we still\l"
-	.string "have our old BADGES.$"
+	.string "As you're aware, the JOHTO GYMS\n"
+	.string "currently hold no significance for the\l"
+	.string "POKÉMON LEAGUE, hence the lack of\l"
+	.string "conventional BADGES. Nevertheless, I'll\l"
+	.string "offer you something far more useful; I\l"
+	.string "want you to take this POKÉMON with you.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9.1:
 	.string "So, you have earned\n"
@@ -390,20 +375,21 @@ Violet_Gym_Combate_Pegaso_Texto_9.2:
 	.string "este POKÉMON.$"
 
 Violet_Gym_Combate_Pegaso_Texto_10:
-.string "¡¡OBTUVISTE UN RUFFLET AL NV:25!!$"
+.string "YOU OBTAINED A LV.25 RUFFLET!!$"
 
 Violet_Gym_Combate_Pegaso_Texto_11:
-.string "La línea evolutiva de RUFFLET es\n"
-	.string "considerada la de mayor potencial\l"
-	.string "de entre las aves regionales\l"
-	.string "conocidas, los clásicos\l"
-	.string "NORMAL-VOLADOR, lo obtuve en uno\l"
-	.string "de mis tantos viajes a TESELIA.$"
+	.string "RUFFLET's evolutionary line is\n"
+	.string "considered the most promising among\l"
+	.string "the regional avian species,\l"
+	.string "characterized by the classic\l"
+	.string "NORMAL-FLYING type. I obtained it\l"
+	.string "during one of my numerous travels to\l"
+	.string "UNOVA.$"
 
 Violet_Gym_Combate_Pegaso_Texto_12:
-.string "Esta vez me quedaré un poco más en\n"
-	.string "JOHTO antes de emprender un nuevo\l"
-	.string "viaje, aprovecharé para ver cómo\l"
-	.string "ha cambiado la región donde crecí\l"
-	.string "y visitar a mis viejos amigos.$"
+	.string "This occasion, I'll be staying in JOHTO a\n"
+	.string "bit longer before embarking on a new\l"
+	.string "journey. I'll use the time to see how the\l"
+	.string "region where I grew up has changed and\l"
+	.string "visit my old friends.$"
 

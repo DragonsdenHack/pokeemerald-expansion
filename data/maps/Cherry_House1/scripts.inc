@@ -9,11 +9,11 @@ release
 end
 
 CherryHouse1_Text_1:
-.string "Cada vez es más complicado ver\n"
-.string "POKÉMON como CYNDAQUIL o CHIKORITA\l"
-.string "por estas rutas. El otro día sin\l"
-.string "embargo me pareció ver a un\l"
-.string "TOTODILE en el estanco del norte.$"
+	.string "Every time it is more complicated to see\n"
+	.string "POKÉMON like CYNDAQUIL or CHIKORITA\l"
+	.string "around these routes. However, the\l"
+	.string "other day I thought I saw a TOTODILE\l"
+	.string "at the northern pond.$"
 
 
 
@@ -25,9 +25,8 @@ release
 end
 
 CherryHouse1_Text_2:
-.string "Antes vivíamos en CIUDAD TRIGAL,\n"
-.string "pero se ha masificado demasiado en\l"
-.string "los últimos meses. Hicimos bien en\l"
-.string "mudarnos aquí, es la tranquilidad\l"
-.string "que necesitamos para encontrarnos\l"
-.string "a nosotros mismos.$"
+	.string "We used to live in GOLDENROD CITY, but\n"
+	.string "it has become too crowded in the last\l"
+	.string "months. We did well in moving here, It's\l"
+	.string "the tranquility we need to find\l"
+	.string "ourselves.$"

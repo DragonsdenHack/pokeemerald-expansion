@@ -9,14 +9,12 @@ release
 end
 
 VioletCity_House1_Text_1:
-.string "El LÍDER de CIUDAD MALVA, PEGASO\n"
-.string "padre, hizo hace poco una\l"
-.string "demostración de sus habilidades.\l"
-.string "Es un privilegio tener a un\l"
-.string "ENTRENADOR como él por aquí. Cada\l"
-.string "vez que vuelve de sus largos\l"
-.string "viajes toda la ciudad le recibe\l"
-.string "con los brazos abiertos.$"
+	.string "Recently, FALKNER senior, the LEADER of\n"
+	.string "VIOLET CITY, demonstrated his skills.\l"
+	.string "It's a privilege to have a TRAINER of\l"
+	.string "his caliber here. Whenever he returns\l"
+	.string "from his lengthy journeys, the entire\l"
+	.string "city welcomes him with open arms.$"
 
 
 
@@ -28,9 +26,6 @@ release
 end
 
 VioletCity_House1_Text_2:
-.string "¡Los he visto!\n"
-.string "¡He visto los POKÉMON TIPO VOLADOR\l"
-.string "del padre de PEGASO!\l"
-.string "¡Uno de ellos era capaz de\l"
-.string "absorber los ataques del TIPO\l"
-.string "ELÉCTRICO!$"
+	.string "I've seen FALKNER senior's FLYING-TYPE\n"
+	.string "POKÉMON! One of them was able to absorb\l"
+	.string "ELECTRIC-TYPE attacks!$"

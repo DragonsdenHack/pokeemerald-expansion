@@ -24,14 +24,10 @@ release
 end
 
 Route30_Text_4:
-.string "Me encantaría que los LÍDERES DE\n"
-.string "GIMNASIO de JOHTO volvieran a ser\l"
-.string "válidos para la LIGA POKÉMON,\l"
-.string "desde la guerra apenas se dejan\l"
-.string "ver.\l"
-.string "Tal vez solo sea cuestión de\l"
-.string "tiempo que vuelvan a formar parte\l"
-.string "de la LIGA.$"
+	.string "I would really like that the GYM LEADERS\n"
+	.string "of JOHTO back to be valid for the\l"
+	.string "POKÉMON LEAGUE, since the war, they can\l"
+	.string "barely be seen.$"
 
 
 
@@ -43,9 +39,9 @@ release
 end
 
 Route30_5_Texto_1:
-.string "¡Entrenaré a mi PIDGEY y algún día\n"
-	.string "podré combatir en esta ruta contra\l"
-	.string "otro ENTRENADOR!$"
+	.string "I will train my PIDGEY and someday I will\n"
+	.string "be able to fight in this route against a\l"
+	.string "TRAINER.$"
 
 
 
@@ -67,9 +63,9 @@ release
 end
 
 Route30_Text_8:
-.string "Esa CUEVA OSCURA…\n"
-.string "Si mis POKÉMON pudieran\l"
-.string "iluminarla, la exploraría.$"
+.string "The DARK CAVE…\n"
+.string "If any of my POKÉMON could\l"
+.string "use flash, I would explore it.$"
 
 
 
@@ -95,12 +91,11 @@ release
 end
 
 Route30_Text_12:
-.string "Dicen que si das muchos cabezazos\n"
-	.string "contra los árboles puede salirte\l"
-	.string "un HERACROSS salvaje...\l"
-	.string "Aunque creo que esto no funciona,\l"
-	.string "debería hacerlo un POKÉMON, no\l"
-	.string "yo...$"
+	.string "It is said that if you butt your head to\n"
+	.string "the trees, a wild HERACROSS would\l"
+	.string "appear… But I think this is not working.\l"
+	.string "Maybe a POKÉMON should do it instead of\l"
+	.string "me…$"
 
 
 
@@ -117,11 +112,10 @@ release
 end
 
 Route30_Text_14:
-.string "Me encanta pasear por aquí de\n"
-.string "buena mañana, la tranquilidad que\l"
-.string "te da este lugar es única. Mi\l"
-.string "marido prefiere contemplar el\l"
-.string "paisaje desde más arriba.$"
+	.string "I love walking around here in the\n"
+	.string "morning, this place's tranquility is\l"
+	.string "unique. My husband prefers to\l"
+	.string "contemplate the landscape from above.$"
 
 
 
@@ -143,9 +137,9 @@ msgbox Route30Documento_Text_100, MSGBOX_SIGN
 end
 
 Route30Documento_Text_100:
-	.string "RUTA 30\n"
-	.string "Un camino de hierba fresca donde\l"
-	.string "luchan los entrenadores.$"
+	.string "ROUTE 30\n"
+	.string "A fresh grass path\l"
+	.string "where trainers battle.$"
 
 
 
@@ -154,7 +148,7 @@ msgbox Route30Documento_Text_101, MSGBOX_SIGN
 end
 
 Route30Documento_Text_101:
-	.string "CASA DEL SR.POKÉMON$"
+	.string "MR.POKÉMON'S HOUSE.$"
 
 
 Route30_Anciano_Togepi::
@@ -208,57 +202,55 @@ release
 end
 
 Route30_Anciano_Togepi_Texto_1:
-.string "Me encanta subir hasta aquí, y\n"
-	.string "observar todo cuanto sucede en\l"
-	.string "la RUTA desde esta posición.$"
+	.string "I love to move up here, and watch all\n"
+	.string "everything that happens on the ROUTE\l"
+	.string "since this position.$"
 
 Route30_Anciano_Togepi_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Route30_Anciano_Togepi_Texto_3:
-.string "¿Cómo?\n"
-	.string "¿No sucede nada aquí?\l"
-	.string "¡Observa, chico!$"
+.string "Hmm?\n"
+	.string "Nothing is happening here right now?\l"
+	.string "Take a look, younger!$"
 
 Route30_Anciano_Togepi_Texto_4:
-.string "Observa cómo poco a poco se van\n"
-	.string "generando nuevos frutos en la\l"
-	.string "planta de BAYA ALGAMA.$"
+	.string "Witness the gradual growth of new\n"
+	.string "fruits on the KELPSY BERRY plant.$"
 
 Route30_Anciano_Togepi_Texto_5:
-.string "Cómo ese SPEAROW trata de buscar\n"
-	.string "una presa en medio de la hierba\l"
-	.string "alta, y cómo los WEEDLE y CATERPIE\l"
-	.string "desaparecen a su alrededor.$"
+	.string "How that SPEAROW tries to search for\n"
+	.string "prey in the midst of tall grass, and how\l"
+	.string "the WEEDLE and CATERPIE disappear\l"
+	.string "around it.$"
 
 Route30_Anciano_Togepi_Texto_6:
-.string "Observa las expectativas e ilusión\n"
-	.string "de ese joven ENTRENADOR, él y su\l"
-	.string "PIDGEY no paran de aprender cosas\l"
-	.string "nuevas a cada minuto que pasa.$"
+	.string "See how the young TRAINER and his\n"
+	.string "PIDGEY are constantly learning new\l"
+	.string "things, filled with expectations and\l"
+	.string "excitement.$"
 
 Route30_Anciano_Togepi_Texto_7:
-.string "Siempre están sucediendo cosas,\n"
-	.string "incluso en la RUTA que pudiera\l"
-	.string "parecer más genérica e\l"
-	.string "intrascendente.\l"
-	.string "Solo hay que observar bien y estar\l"
-	.string "presente.$"
+	.string "Things are always happening, even on\n"
+	.string "the ROUTE that may appear the most\l"
+	.string "ordinary and insignificant. It's all\l"
+	.string "about keen observation and being\l"
+	.string "present.$"
 
 Route30_Anciano_Togepi_Texto_8:
-.string "Sabes, me has caído bien.\n"
-	.string "Quiero que tengas esto contigo.$"
+	.string "You know, I appreciate you. I want you\n"
+	.string "to take this with you.$"
 
 Route30_Anciano_Togepi_Texto_9:
-.string "¡¡OBTUVISTE UN TOGEPI AL NV.5!!$"
+.string "YOU OBTAINED A A LV.5 TOGEPI!!$"
 
 Route30_Anciano_Togepi_Texto_10:
-.string "Muchos investigadores de por aquí\n"
-	.string "darían un brazo por contar con el\l"
-	.string "POKÉMON que acabo de darte, espero\l"
-	.string "que contigo encuentre un lugar y\l"
-	.string "sepas sacarle provecho.$"
+	.string "Many researchers around here would\n"
+	.string "sacrifice a lot to have the POKÉMON I\l"
+	.string "just gave you. I hope you find a place\l"
+	.string "for it and know how to use it to your\l"
+	.string "advantage.$"
 
 Route30_Anciano_Togepi_Move_1:
 face_right

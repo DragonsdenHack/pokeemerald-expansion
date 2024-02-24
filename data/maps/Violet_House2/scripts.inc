@@ -9,17 +9,16 @@ release
 end
 
 VioletCity_House2_Text_1:
-.string "PEGASO padre tiene 57 años, y aún\n"
-.string "así se mantiene físicamente como\l"
-.string "un chaval de 25. Recuerdo verle\l"
-.string "corretear por las calles de MALVA\l"
-.string "de crío.\l"
-.string "Ah, sí, siempre tuvo esa ilusión\l"
-.string "de mejorar como ENTRENADOR y\l"
-.string "descubrir todo el potencial del\l"
-.string "TIPO VOLADOR. Para tipos como él,\l"
-.string "el tiempo parece correr a\l"
-.string "otro ritmo.$"
+	.string "Despite being 57 years old, FALKNER\n"
+	.string "senior still maintains the physical\l"
+	.string "vitality of a 25-year-old. I recall\l"
+	.string "watching him sprinting through the\l"
+	.string "streets of VIOLET when we were\l"
+	.string "younger. Ah yes, he always had that\l"
+	.string "desire to excel as a TRAINER and unlock\l"
+	.string "the complete potential of the FLYING\l"
+	.string "TYPE. For individuals like him, time\l"
+	.string "seems to pass at a different flux.$"
 
 
 
@@ -31,6 +30,5 @@ release
 end
 
 VioletCity_House2_Text_2:
-.string "Disfruta de esta ciudad...\n"
-.string "¡Disfruta mientras aún perduren\l"
-.string "los paisajes de antaño!$"
+	.string "Enjoy this city… Enjoy it while the\n"
+	.string "landscapes of the past still endure!$"

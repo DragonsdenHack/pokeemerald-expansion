@@ -9,12 +9,11 @@ release
 end
 
 Route31_Text_1:
-.string "El acceso a la cueva en estos\n"
-.string "momentos está cortado, ha habido\l"
-.string "un pequeño desprendimiento en su\l"
-.string "interior y estamos asegurándonos\l"
-.string "de que está todo en orden.\l"
-.string "Disculpe las molestias.$"
+	.string "The access to the cave is currently\n"
+	.string "blocked; there has been a small\l"
+	.string "landslide inside, and we are ensuring\l"
+	.string "that everything is in order. We\l"
+	.string "apologize for the inconvenience.$"
 
 
 
@@ -31,11 +30,9 @@ release
 end
 
 Route31_Text_3:
-.string "Tú no eres de por aquí, ¿verdad?\n"
-.string "¿Vienes de CIUDAD OLIVO?\l"
-.string "¿¡KANTO!?\l"
-.string "¡¿Cómo hiciste para pasar las\l"
-.string "fronteras?!$"
+	.string "You are not from around here, right? Do\n"
+	.string "you come from OLIVINE CITY? KANTO?!\l"
+	.string "How did you cross the borders?!$"
 
 
 
@@ -62,10 +59,10 @@ release
 end
 
 Route31_7_Texto_1:
-.string "Capturé un DUNSPARCE creyendo que era\n"
-	.string "del TIPO BICHO, pero resulta que es\l"
-	.string "NORMAL. ¿En serio esa lenta y torpe\l"
-	.string "serpiente no tiene nada de especial?$"
+	.string "I caught a DUNSPARCE thinking it was a\n"
+	.string "BUG TYPE, but it turns out it's a NORMAL\l"
+	.string "type. Does that slow and clumsy snake\l"
+	.string "really have nothing special about it?$"
 
 
 
@@ -87,11 +84,11 @@ release
 end
 
 Route31_Text_10:
-.string "Al oeste está CIUDAD MALVA,\n"
-.string "conocida por su TORRE BELLSPROUT,\l"
-.string "el lugar más antiguo y espiritual\l"
-.string "de JOHTO, después, claro, de las\l"
-.string "enormes pagodas de CIUDAD IRIS.$"
+	.string "In the west is VIOLET CITY, renowned\n"
+	.string "for its SPROUT TOWER, the oldest and\l"
+	.string "most spiritual location in JOHTO,\l"
+	.string "second only to the towering pagodas of\l"
+	.string "ECRUTEAK CITY.$"
 
 
 
@@ -112,8 +109,8 @@ msgbox Route31Documento_Text_100, MSGBOX_SIGN
 end
 
 Route31Documento_Text_100:
-	.string "RUTA 31\n"
-	.string "Al oeste CIUDAD MALVA$"
+	.string "ROUTE 31\n"
+	.string "To the west VIOLET CITY$"
 
 
 
@@ -122,4 +119,4 @@ msgbox Route31Documento_Text_101, MSGBOX_SIGN
 end
 
 Route31Documento_Text_101:
-	.string "CUEVA OSCURA$"
+	.string "DARK CAVE$"

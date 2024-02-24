@@ -27,12 +27,12 @@ release
 end
 
 VioletCity_PokemonCenter_Text_2:
-.string "Aquí nos tomamos las cosas con\n"
-.string "mucha calma y filosofía. Lo que\l"
-.string "alguien como LANCE pueda hacer en\l"
-.string "otras regiones no nos representa\l"
-.string "ni a mí ni a la gente más madura\l"
-.string "de esta bella región.$"
+	.string "Here, we approach things with a great\n"
+	.string "deal of calmness and philosophy. What\l"
+	.string "someone like LANCE might achieve in\l"
+	.string "other regions doesn't represent me or\l"
+	.string "the more mature individuals of this\l"
+	.string "beautiful region.$"
 
 
 
@@ -44,9 +44,9 @@ release
 end
 
 VioletCity_PokemonCenter_Text_3:
-.string "¡Cuántas cosas por ver y visitar\n"
-.string "hay por aquí!\l"
-.string "¡No puedo esperar más!$"
+	.string "There are so many things to see and\n"
+	.string "visit around here! I can't wait any\l"
+	.string "longer!$"
 
 
 
@@ -58,9 +58,9 @@ release
 end
 
 VioletCity_PokemonCenter_Text_4:
-.string "He venido hasta aquí solo para\n"
-.string "plasmar mi arte en un cuadro de la\l"
-.string "TORRE BELLSPROUT al amanecer.\l"
-.string "Esto como preparación para el\l"
-.string "plato gordo… la imponente\l"
-.string "TORRE CAMPANA de CIUDAD IRIS.$"
+	.string "My sole purpose in coming here is to\n"
+	.string "immortalize my art in a painting of the\l"
+	.string "SPROUT TOWER at sunrise. This is just\l"
+	.string "preparation for the main event… the\l"
+	.string "magnificent BELL TOWER of ECRUTEAK\l"
+	.string "CITY.$"

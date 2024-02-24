@@ -9,10 +9,11 @@ release
 end
 
 Route30_House_1_Anciano_Texto_1:
-.string "La gente tiene la mala costumbre de\n"
-	.string "evitar darle a sus POKÉMON las BAYAS\l"
-	.string "que crecen por JOHTO. Lo que no saben\l"
-	.string "es que bien usadas liberan a sus\l"
-	.string "POKÉMON de estadísticas inútil, y les\l"
-	.string "permite centrar todo su potencial en\l"
-	.string "las importantes.$"
+	.string "People have the bad habit of avoiding\n"
+	.string "giving their POKÉMON the BERRIES that\l"
+	.string "grow around JOHTO. What they don't know\l"
+	.string "is that when used properly, these\l"
+	.string "BERRIES free their POKÉMON from\l"
+	.string "useless stats and allow them to focus\l"
+	.string "all their potential on the important\l"
+	.string "ones.$"

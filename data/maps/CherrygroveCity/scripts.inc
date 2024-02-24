@@ -14,11 +14,11 @@ release
 end
 
 CherrygroveCity_Text_1:
-.string "A pesar de que no hay nada\n"
-.string "interesante a nivel mediático por\l"
-.string "estas rutas, aquí vive gente muy\l"
-.string "sabia de la que puedes aprender\l"
-.string "mucho.$"
+	.string "Despite there being nothing\n"
+	.string "interesting at the media level on these\l"
+	.string "routes, there are very wise people\l"
+	.string "living here, you can learn a lot from\l"
+	.string "them.$"
 
 
 CherrygroveCity2::
@@ -38,10 +38,9 @@ release
 end
 
 CherrygroveCity_Text_4:
-.string "Algunos pescadores y nadadores se\n"
-.string "aventuran más allá de estas aguas.\l"
-.string "Es peligroso, pero las piezas que\l"
-.string "puedes atrapar son mejores.$"
+	.string "Some fishermen and swimmers venture\n"
+	.string "beyond these waters. It's dangerous,\l"
+	.string "but the catch you can get is better.$"
 
 
 CherrygroveCity5::
@@ -56,10 +55,10 @@ release
 end
 
 CherrygroveCity_Text_6:
-.string "Si sigues haciendo SURF, más al\n"
-.string "oeste llegarás a la RUTA del sur\l"
-.string "de CIUDAD MALVA, pero para ello\l"
-.string "deberás de dominar las corrientes.$"
+	.string "If you keep doing SURF, further to the\n"
+	.string "west you'll get to the southern ROUTE of\l"
+	.string "VIOLET CITY, but to do that, first you\l"
+	.string "must master the currents.$"
 
 
 CherrygroveCity7::
@@ -77,10 +76,10 @@ release
 end
 
 CherrygroveCity_Text_8:
-.string "¡Cuando era niño, era un\n"
-.string "brillante ENTRENADOR! Éste es mi\l"
-.string "consejo: ¡Atrapa muchos POKÉMON!\l"
-.string "¡Y trátalos con mucho cariño!$"
+	.string "When I was a kid, I was a brilliant\n"
+	.string "TRAINER! This is my advice: Catch a lot\l"
+	.string "of POKÉMON! And treat them with a lot\l"
+	.string "of love!$"
 
 
 
@@ -89,9 +88,9 @@ msgbox CherrygroveCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 CherrygroveCityDocumento_Text_100:
-.string "CIUDAD CEREZO\n"
-	.string "La ciudad de las flores bonitas y\l"
-	.string "flagrantes.$"
+.string "CHERRYGROVE CITY\n"
+	.string "The city of the pretty\l"
+	.string "and vibrant flowers.$"
 
 CherrygroveCity_Corriente::
 compare VAR_UNUSED_0x40F7, 146
@@ -105,8 +104,8 @@ release
 end
 
 CherrygroveCity_Corriente_Texto_1:
-.string "(Las corrientes son\n"
-	.string "demasiado fuertes).$"
+.string "(The currents are\n"
+	.string "too strong).$"
 
 CherrygroveCity_Corriente_Move_1:
 walk_in_place_up
@@ -335,116 +334,106 @@ face_left
 step_end
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_1:
-.string "PEGASO: Ve con todo MOLTRES, ese\n"
-	.string "PIDGEOT está poniendo en duda tu\l"
-	.string "condición de LEGENDARIO, ¡no le\l"
-	.string "des cuartel!$"
+	.string "FALKNER: Go with all out, MOLTRES, that\n"
+	.string "PIDGEOT is questioning your LEGENDARY\l"
+	.string "status. Show all your power!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_2:
-.string "¡Trees!$"
+.string "Trees!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_3:
-.string "PEGASO: Bien...\n"
-	.string "Bien aguantado, ese VENDAVAL pega\l"
-	.string "cada vez más duro.$"
+	.string "FALKNER: Good… Well held, that\n"
+	.string "HURRICANE hits harder and harder.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_4:
-.string "¡{PLAYER}!\n"
-	.string "¡Tú de nuevo!\l"
-	.string "Veo que no te conformas con\l"
-	.string "visitar las ciudades y lugares\l"
-	.string "típicos de JOHTO, quieres\l"
-	.string "impregnarte y aprender de cada\l"
-	.string "rincón de esta región, eso está\l"
-	.string "bien.$"
+.string "{PLAYER}!\n"
+	.string "You again!\l"
+	.string "I see that you're not satisfied with\l"
+	.string "just visiting the typical cities and\l"
+	.string "places of JOHTO, you want to immerse\l"
+	.string "yourself and learn about every corner\l"
+	.string "of this region, that's good.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_5:
-.string "PEGASO: Te presento a HORACE, es\n"
-	.string "mi alumno más aventajado, y con\l"
-	.string "diferencia he de añadir, solemos\l"
-	.string "venir aquí a entrenar, este\l"
-	.string "pequeño islote es perfecto para\l"
-	.string "que nuestras aves puedan desplegar\l"
-	.string "sus alas con total libertad.$"
+	.string "FALKNER: Let me introduce you to\n"
+	.string "HORACE, he's my most advanced student,\l"
+	.string "by far. Usually, we come here for\l"
+	.string "training; this small islet is perfect for\l"
+	.string "our birds to spread their wings with\l"
+	.string "complete freedom.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_6:
-.string "Hoy estábamos poniendo a prueba a\n"
-	.string "su PIDGEOT, así es, la cuarta ave\l"
-	.string "en discordia, justo detrás de\l"
-	.string "ARTICUNO, ZAPDOS y MOLTRES en la\l"
-	.string "jerarquía de aves de KANTO.$"
+	.string "Today we were putting his PIDGEOT to\n"
+	.string "the test. Yes, it's the fourth bird in\l"
+	.string "discord, behind ARTICUNO, ZAPDOS and\l"
+	.string "MOLTRES in the hierarchy of KANTO\l"
+	.string "birds.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_7:
-.string "¿Sabías que su MEGAEVOLUCIÓN\n"
-	.string "alcanza los 579 puntos de BASE?, 1\l"
-	.string "solo punto menos que los 580 de\l"
-	.string "las AVES LEGENDARIAS.$"
+	.string "Did you know its MEGA EVOLUTION\n"
+	.string "reaches the 579 BASE points? Only 1\l"
+	.string "point less than the 580 that the\l"
+	.string "LEGENDARY BIRDS have.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_8:
-.string "Algunos dicen que es una señal, y\n"
-	.string "prueba de que las diferencias\l"
-	.string "genéticas entre especies son\l"
-	.string "insalvables, y nunca podrán tocar\l"
-	.string "el olimpo de los LEGENDARIOS, yo\l"
-	.string "creo que es pura casualidad.$"
+	.string "Some people say it's a sign, and proof\n"
+	.string "that the genetic differences between\l"
+	.string "species are unavoidable, and a normal\l"
+	.string "pokémon will never be able to reach the\l"
+	.string "Olympus of the LEGENDARIES, I think it's\l"
+	.string "just a coincidence.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_9:
-.string "HORACE ha cuidado de su PIDGEOT\n"
-	.string "desde que tiene uso de razón,\l"
-	.string "desde que él era un crío y este\l"
-	.string "imponente PIDGEOT que hoy ves no\l"
-	.string "era más que un débil y fragil\l"
-	.string "PIDGEY, creyó en él, todo eso no\l"
-	.string "pasa desapercibido {PLAYER},\l"
-	.string "después se ve reflejado en el\l"
-	.string "campo de batalla.$"
+	.string "HORACE has taken care of his PIDGEOT\n"
+	.string "since he can remember. Since he was a\l"
+	.string "child and this imponent PIDGEOT that\l"
+	.string "you are seeing right now was nothing\l"
+	.string "more than a weak and fragile PIDGEY, he\l"
+	.string "believed in it. All those things aren't\l"
+	.string "invisible, {PLAYER}, then they're\l"
+	.string "reflected in the battlefield.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_10:
 .string "PIDGEOT: Bi bibii!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_11:
-.string "El PIDGEOT de HORACE tal cual es\n"
-	.string "puede competirle de tú a tú a un\l"
-	.string "LEGENDARIO bien entrenado, acabas\l"
-	.string "de verlo, combina toda la ofensiva\l"
-	.string "y resistencia que podría tener el\l"
-	.string "mejor PIDGEOT.$"
+	.string "HORACE's PIDGEOT can face fairly\n"
+	.string "against any well-trained LEGENDARY,\l"
+	.string "you just saw it, and combines the best\l"
+	.string "offensive and defensive attributes\l"
+	.string "that a PIDGEOT could have.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_12:
-.string "Ya en MEGAEVOLUCIÓN es un POKÉMON\n"
-	.string "de temer para cualquiera, de mi\l"
-	.string "equipo solo RAPIDASH puede\l"
-	.string "enfrentarlo en un 1 contra 1,\l"
-	.string "HORACE ha logrado lo que el\l"
-	.string "MAESTRO de TORRE BELLSPROUT logró\l"
-	.string "con su pequeño BELLSPROUT, pero en\l"
-	.string "un PIDGEOT.$"
+	.string "Being a MEGA EVOLUTION is a powerful\n"
+	.string "POKÉMON to scary any other, RAPIDASH\l"
+	.string "is the only one in my team that could\l"
+	.string "face it in a 1vs1, HORACE has achieved\l"
+	.string "that the SAGE MASTER of SPROUT TOWER\l"
+	.string "achieved with his small BELLSPROUT, but\l"
+	.string "in a PIDGEOT instead.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_13:
-.string "Con ello lo que quiero decirte es\n"
-	.string "que aún sabemos muy poco de este\l"
-	.string "mundo {PLAYER}, a pesar de todos\l"
-	.string "los lugares que hayamos visto,\l"
-	.string "siempre cabe lugar para\l"
-	.string "sorprendernos, y todo POKÉMON\l"
-	.string "tiene su lugar si de verdad crees\l"
-	.string "en él.$"
+	.string "What I mean is that we just know a few\n"
+	.string "things about this world {PLAYER},\l"
+	.string "despite all the places we have visited,\l"
+	.string "there is always a moment to be\l"
+	.string "surprised, and every POKÉMON has its\l"
+	.string "place if you really believe in it.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_14:
-.string "Ahora sí, me marcho de CIUDAD\n"
-	.string "MALVA, y de JOHTO, un nuevo viaje\l"
-	.string "me espera.$"
+	.string "Now for real, I leave VIOLET CITY and\n"
+	.string "JOHTO, a new journey begins for me.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_15:
-.string "HORACE estará encantado de\n"
-	.string "entrenar contigo {PLAYER}, no\l"
-	.string "encontrarás un ornitólogo como él\l"
-	.string "ni en KANTO ni en JOHTO, seguro\l"
-	.string "que algo puede enseñarte.$"
+	.string "HORACE will be pleased to train with you\n"
+	.string "{PLAYER}, you won't find a better\l"
+	.string "birdkeeper than him, neither on KANTO\l"
+	.string "or JOHTO, I'm sure he can teach you\l"
+	.string "something new.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_16:
-.string "¡MOLTRES!\n"
-	.string "¡VUELO!$"
+.string "MOLTRES!\n"
+	.string "FLY!$"
 
 
 Cherrygrove_Combate_Pidgeot_Perfecto::
@@ -520,50 +509,47 @@ Cherrygrove_Combate_Pidgeot_Perfecto_Texto_1:
 	.string "...$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_2:
-.string "Dicen que en la RUTA 13 y 14 de\n"
-	.string "KANTO se reunen los ornitólogos de\l"
-	.string "la región para combatir y\l"
-	.string "disfrutar de sus aves, me gustaría\l"
-	.string "visitar ese lugar.$"
+	.string "It is said that on ROUTE 13 and 14 of\n"
+	.string "KANTO a lot of bird keepers in the\l"
+	.string "region walk around there to fight and\l"
+	.string "enjoy their birds, I would like to visit\l"
+	.string "that place someday.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_3:
-.string "¿Te gustaría combatir ahora?$"
+.string "Would you like to fight against me now?$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_4:
-.string "Entonces has sido tú el único\n"
-	.string "capaz de derrotar a PEGASO en un\l"
-	.string "combate 6vs6.\l"
-	.string "Sería todo un honor para mí tener\l"
-	.string "un combate contigo.$"
+	.string "So you were the only one able to defeat\n"
+	.string "FALKNER in a serious 6vs6 match. It\l"
+	.string "would be a real honor for me to have a\l"
+	.string "battle with you.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_5:
-.string "¿Me permites?$"
+.string "Do you agree?$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_6:
-.string "No esperaba menos, mis aves están\n"
-	.string "listas para emprender el vuelo.\l"
-	.string "¡No te lo pondré fácil!$"
+	.string "That is what I expected, my birds are\n"
+	.string "ready to fly. I won't make it easy for\l"
+	.string "you!$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_7:
-.string "El ímpetu de mi PIDGEOT se apagó...$"
+.string "My PIDGEOT's impetus faded…$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_8:
-.string "Estoy impresionado, PEGASO no\n"
-	.string "exageraba contigo, quiero que\l"
-	.string "tengas esto.$"
+	.string "I'm very impressed, FALKNER was not\n"
+	.string "exaggerating about you, I want to give\l"
+	.string "you this.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_9:
-.string "Muy pocos conocen el verdadero\n"
-	.string "poder de PIDGEOT, menos son los\l"
-	.string "que tienen la herramienta para\l"
-	.string "activarlo, con la PIDGEOTITA\l"
-	.string "podrás, solo PEGASO y yo tenemos\l"
-	.string "una en toda la región.$"
+	.string "Just a few know the real PIDGEOT's\n"
+	.string "potential, even less the ones who have\l"
+	.string "the necessary item to activate it, with\l"
+	.string "the PIDGEOTITE you would, just FALKNER\l"
+	.string "and me have one in the entire region.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_10:
-.string "Como quieras, yo seguiré aquí\n"
-	.string "entrenando, por si cambias de\l"
-	.string "parecer.$"
+	.string "It is okay, I will keep training here if\n"
+	.string "you change your mind.$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Move_1:
 face_player

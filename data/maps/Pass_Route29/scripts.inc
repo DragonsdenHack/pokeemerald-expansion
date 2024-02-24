@@ -14,10 +14,9 @@ release
 end
 
 Pass_Route29_Text_1:
-.string "La verdad que todo el terreno que\n"
-.string "hay desde aquí hasta la frontera\l"
-.string "con KANTO es precioso, me extraña\l"
-.string "que aún no hayan construido algo.$"
+	.string "I must be honest, the entire terrain\n"
+	.string "from here to KANTO is precious, I wonder\l"
+	.string "why something hasn't been built yet.$"
 
 
 
@@ -29,8 +28,8 @@ release
 end
 
 Pass_Route29_Text_3:
-.string "¡No hay nada como salir a recoger\n"
-.string "bayas en medio de la naturaleza!$"
+	.string "There is nothing better than going to\n"
+	.string "collect berries in nature!$"
 
 
 
@@ -42,9 +41,9 @@ release
 end
 
 Pass_Route29_Text_4:
-.string "¡Ahh!\n"
-.string "¡Qué bien sienta la comida después\l"
-.string "de una buena caminata!$"
+.string "Ahh!\n"
+.string "Food feels so delicious\l"
+.string "after a good walk!$"
 
 Pass_Route29_Encuentro_Elm::
 lock
@@ -94,105 +93,92 @@ release
 end
 
 Pass_Route29_Encuentro_Elm_Texto_1:
-.string "Pero, profesor, la frontera con\n"
-	.string "KANTO está en la RUTA 26, no al\l"
-	.string "finalizar la RUTA 29.$"
+	.string "But professor, the frontier with KANTO\n"
+	.string "is on the ROUTE 26, not at the ROUTE 29\l"
+	.string "end.$"
 
 Pass_Route29_Encuentro_Elm_Texto_2:
-.string "Lo sé, solo te pido que bloquees\n"
-	.string "esa zona temporalmente, mis ayu-\l"
-	.string "dantes y yo vamos a llevar a cabo\l"
-	.string "una importante investigación allí,\l"
-	.string "de todos modos no hay nada que ver\l"
-	.string "al este de RUTA 29, puedes llegar\l"
-	.string "a todos los pueblos y ciudades de\l"
-	.string "JOHTO con esa ruta cortada.$"
+	.string "I know, I'm asking you to block that\n"
+	.string "zone just for a while, me and my aides\l"
+	.string "are going to do an important\l"
+	.string "investigation there, anyway there is\l"
+	.string "nothing to see at east of ROUTE 29, you\l"
+	.string "still can go to any town or city of\l"
+	.string "JOHTO with that route closed.$"
 
 Pass_Route29_Encuentro_Elm_Texto_3:
-.string "E-está bien profesor, enviaré a\n"
-	.string "dos policías inmediatamente para\l"
-	.string "que guarden la zona.$"
+	.string "O-Okay professor, I will send two cops\n"
+	.string "immediately to block that route.$"
 
 Pass_Route29_Encuentro_Elm_Texto_4:
-.string "Perfecto.$"
+.string "All right.$"
 
 Pass_Route29_Encuentro_Elm_Texto_5:
-.string "????: Tú debes de ser {PLAYER}, ¿me\n"
-	.string "equivoco?\l"
-	.string "GIOVANNI ya me informó de tu\l"
-	.string "llegada, mi nombre es ELM, he\l"
-	.string "dedicado mi vida a cómo funciona\l"
-	.string "el mecanismo de evolución en los\l"
-	.string "POKÉMON, y justo ahora, gracias a\l"
-	.string "las inversiones del TEAM ROCKET,\l"
-	.string "es cuando estoy obteniendo los\l"
-	.string "frutos de mi trabajo, prueba de\l"
-	.string "ello es el objeto que estás a\l"
-	.string "punto de recibir.$"
+	.string "????: You must be {PLAYER}, aren't\n"
+	.string "you? GIOVANNI already told me of your\l"
+	.string "arrive, my name is ELM, I have dedicated\l"
+	.string "my entire life to understand how does\l"
+	.string "the evolution system of POKÉMON works,\l"
+	.string "and right now, due to TEAM ROCKET\l"
+	.string "invests, finally I am getting some\l"
+	.string "results, proof of that, is the object\l"
+	.string "that I will give you.$"
 
 Pass_Route29_Encuentro_Elm_Texto_6:
-.string "{PLAYER} recibió un MEGA-ARO\n"
-	.string "del PROF.ELM.$"
+	.string "{PLAYER} received a MEGA RING from\n"
+	.string "PROF.ELM.$"
 
 Pass_Route29_Encuentro_Elm_Texto_7:
-.string "Le prometí a GIOVANNI que le daría\n"
-	.string "uno a cada ADMINISTRADOR ROCKET,\l"
-	.string "espero que seas consciente de la\l"
-	.string "tecnología que vas a manejar, con\l"
-	.string "el MEGA-ARO podrás controlar un\l"
-	.string "proceso tan inestable y\l"
-	.string "descontrolado como lo es la\l"
-	.string "MEGAEVOLUCIÓN, siempre y cuando\l"
-	.string "cuentes con la MEGA-PIEDRA\l"
-	.string "adecuada.$"
+	.string "I promised GIOVANNI that I will give a\n"
+	.string "MEGA RING to each one CHIEF ADMIN., I\l"
+	.string "hope you are conscious about the\l"
+	.string "technology that you have now, with the\l"
+	.string "MEGA RING you will be able to control a\l"
+	.string "so unstable and uncontrolled process\l"
+	.string "as the MEGA EVOLUTION is, if you have\l"
+	.string "the correct one MEGA STONE, of course.$"
 
 Pass_Route29_Encuentro_Elm_Texto_8:
 .string "ELM: ...$"
 
 Pass_Route29_Encuentro_Elm_Texto_9:
-.string "Si no me equivoco, estás aquí para\n"
-	.string "recopilar información acerca de\l"
-	.string "los POKÉMON de los mejores\l"
-	.string "entrenadores de esta región, y\l"
-	.string "para saber más acerca de ese\l"
-	.string "fenómeno, el FUERTE VÍNCULO, ¿no?$"
+	.string "If I'm not wrong, you are here to\n"
+	.string "compile info about the POKÉMON of the\l"
+	.string "best trainers in this region, and to\l"
+	.string "understand it better about that\l"
+	.string "phenomenon that you call DEEP BOND,\l"
+	.string "don't you?$"
 
 Pass_Route29_Encuentro_Elm_Texto_10:
-.string "Déjame darte un consejo, los\n"
-	.string "GIMNASIOS de JOHTO no funcionan\l"
-	.string "como los de KANTO, no están\l"
-	.string "obligados a luchar contra nadie,\l"
-	.string "la mayoría de LÍDERES a día de hoy\l"
-	.string "en JOHTO están al borde del\l"
-	.string "retiro, o demasiado ocupados en\l"
-	.string "otros asuntos, son entrenadores\l"
-	.string "muy poderosos, desde luego, y\l"
-	.string "sabios, para ellos el tema de la\l"
-	.string "guerra es un asunto trivial, que\l"
-	.string "no les incumbe, viven al margen de\l"
-	.string "ello, centrándose en sus POKÉMON,\l"
-	.string "y en depurar su ya de por si\l"
-	.string "exquisita técnica.$"
+	.string "Let me advise you this, the JOHTO's\n"
+	.string "GYMS are not as the KANTO ones, no one\l"
+	.string "is obligated to accept challenges, the\l"
+	.string "most of the LEADERS today in JOHTO are\l"
+	.string "about to retire or are too busy in other\l"
+	.string "things, they are very powerful trainers,\l"
+	.string "of course, and very clever, they\l"
+	.string "consider the war topic as a trivial\l"
+	.string "event that they don't care about, they\l"
+	.string "just are ignoring that, focusing on\l"
+	.string "their own and their POKÉMON, and\l"
+	.string "improving their magnificent technique.$"
 
 Pass_Route29_Encuentro_Elm_Texto_11:
-.string "Con esto lo que quiero decirte es\n"
-	.string "que deberás de captar su atención\l"
-	.string "lo suficiente como para que te\l"
-	.string "concedan un combate, pero por algo\l"
-	.string "GIOVANNI te ha enviado a ti y no a\l"
-	.string "otro, después de todo, eres el\l"
-	.string "verdadero CAMPEÓN de KANTO.$"
+	.string "What I mean is you need to get their\n"
+	.string "attention enough to; they give you the\l"
+	.string "chance to fight against them, but\l"
+	.string "GIOVANNI knows why he sent you and no\l"
+	.string "one else, after all, you are the true\l"
+	.string "KANTO CHAMPION.$"
 
 Pass_Route29_Encuentro_Elm_Texto_12:
-.string "Si logras tener éxito, y recopilar\n"
-	.string "datos de los POKÉMON\l"
-	.string "característicos de cada LÍDER,\l"
-	.string "dispondremos de una información\l"
-	.string "valiosísima que podrá expandir\l"
-	.string "hasta límites insospechados el\l"
-	.string "potencial de un POKÉMON, mucha\l"
-	.string "suerte {PLAYER}, la región de JOHTO\l"
-	.string "te espera.$"
+	.string "If you have success, and you can\n"
+	.string "compile data about the characteristic\l"
+	.string "POKÉMON of each LEADER, we will have\l"
+	.string "invaluable information that can expand\l"
+	.string "a POKÉMON's potential to unimaginable\l"
+	.string "limits. Good luck, {PLAYER}, the region\l"
+	.string "of JOHTO awaits you.$"
 
 Pass_Route29_Encuentro_Elm_Move_1:
 walk_down

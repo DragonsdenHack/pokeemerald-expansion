@@ -66,9 +66,8 @@ release
 end
 
 SouthRoute45_Text_10:
-.string "¿Todo bien, sir?\n"
-.string "¡Le deseamos suerte en su andadura\l"
-.string "por JOHTO!$"
+	.string "Is everything okay, sir? We wish you\n"
+.string "luck in your journey through JOHTO!$"
 
 
 
@@ -80,8 +79,8 @@ release
 end
 
 SouthRoute45_Text_11:
-.string "¡A su servicio para todo lo que\n"
-.string "necesite, ADMIN.JEFE {PLAYER}!$"
+.string "At your service for everything you\n"
+.string "need, CHIEF ADMIN. {PLAYER}!$"
 
 
 
@@ -93,13 +92,11 @@ release
 end
 
 SouthRoute45_Text_12:
-.string "Al norte de aquí se encuentra\n"
-.string "CIUDAD ENDRINO, famosa por su gran\l"
-.string "devoción hacia el TIPO DRAGÓN, sin\l"
-.string "embargo, es imposible llegar a la\l"
-.string "ciudad desde aquí, la única forma\l"
-.string "de llegar es pasando por la\l"
-.string "RUTA HELADA.$"
+.string "To the north of here is BLACKTHORN\n"
+.string "CITY, famous for its great devotion to\l"
+.string "the DRAGON TYPE. The only way to get\l"
+.string "there is by passing through the ICE\l"
+.string "PATH.$"
 
 
 
@@ -111,13 +108,10 @@ release
 end
 
 SouthRoute45_Text_13:
-.string "Es imposible que descubran la\n"
-.string "base, las montañas de los\l"
-.string "alrededores la tapan\l"
-.string "completamente.\l"
-.string "¡Solo TORRE CAMPANA tiene la\l"
-.string "altura como para sobresalir por\l"
-.string "encima de ellas!$"
+.string "It's impossible for anyone to discover\n"
+.string "the base, the mountains around here\l"
+.string "cover it completely. Only BELL TOWER is\l"
+.string "high enough to be seen over them!$"
 
 
 
@@ -129,13 +123,12 @@ release
 end
 
 SouthRoute45_Text_14:
-.string "Estamos al sur de RUTA 45, tan al\n"
-.string "sur que esta zona no está\l"
-.string "registrada por los mapas\l"
-.string "convencionales, pero no lo\l"
-.string "suficiente como para considerarse\l"
-.string "parte del norte de RUTA 29, entre\l"
-.string "PUEBLO PRIMAVERA y CIUDAD CEREZO.$"
+.string "We're south from ROUTE 45, so far south\n"
+.string "that this area is not registered on\l"
+.string "conventional maps. But not enough to\l"
+.string "be considered part of ROUTE 29,\l"
+.string "between NEW BARK TOWN and CHERRYGROVE\l"
+.string "CITY.$"
 
 
 
@@ -175,8 +168,8 @@ msgbox SouthRoute45Documento_Text_100, MSGBOX_SIGN
 end
 
 SouthRoute45Documento_Text_100:
-	.string "RUTA 45\n"
-	.string "CAMINO MONTAÑA$"
+	.string "ROUTE 45\n"
+	.string "MOUNTAIN PATH$"
 
 
 SouthRoute45_SudowoodoRest::
@@ -186,5 +179,5 @@ end
 SouthRoute45_SudowoodoRest_Text:
 	.string "...\n"
 	.string "...\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "(It's a POKÉMON, it seems\l"
+	.string "to be resting)$"

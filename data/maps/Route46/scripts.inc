@@ -19,9 +19,10 @@ release
 end
 
 Route46_Text_3:
-.string "Hay una gran variedad de POKÉMON\n"
-.string "por estas rutas, deberás de estar\l"
-.string "atento si quieres verlos a todos.$"
+	.string "There are a big variety of POKÉMON\n"
+	.string "around these routes, you should be\l"
+	.string "alert if you want to see all the\l"
+	.string "POKÉMON.$"
 
 
 
@@ -71,8 +72,8 @@ end
 Route46_SudowoodoRest_Text:
 	.string "...\n"
 	.string "...\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "(It's a POKÉMON, it seems\l"
+	.string "to be resting)$"
 
 
 
@@ -81,4 +82,4 @@ msgbox Route46Documento_Text_100, MSGBOX_SIGN
 end
 
 Route46Documento_Text_100:
-	.string "RUTA 46$"
+	.string "ROUTE 46$"

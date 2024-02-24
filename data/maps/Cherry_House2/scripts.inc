@@ -9,9 +9,9 @@ release
 end
 
 CherryHouse2_Text_1:
-.string "¡LANCE es el mejor!\n"
-.string "¡El salvador de KANTO y JOHTO!\l"
-.string "¡Lo acaba de decir la tele!$"
+.string "LANCE is the best!\n"
+.string "The savior of KANTO and JOHTO!\l"
+.string "The TV just said it!$"
 
 
 
@@ -23,15 +23,12 @@ release
 end
 
 CherryHouse2_Text_2:
-.string "Después de LANCE ganar la guerra\n"
-.string "para JOHTO, una de las primeras\l"
-.string "medidas que tomó fue el regalar\l"
-.string "una televisión a todas las\l"
-.string "familias, como símbolo de la\l"
-.string "abundancia y el progreso venidero,\l"
-.string "y para mantener informada a la\l"
-.string "población.\l"
-.string "Sin embargo, prefería que mi hijo\l"
-.string "saliera más a jugar por las rutas\l"
-.string "de al lado, no hay que perder\l"
-.string "nuestras costumbres.$"
+	.string "After LANCE won the war for JOHTO, one\n"
+	.string "of the first measures he took was to\l"
+	.string "give a television to every family, as a\l"
+	.string "symbol of abundance and upcoming\l"
+	.string "progress, and to keep the population\l"
+	.string "informed. However, I'd rather that my\l"
+	.string "son go out to play around the nearby\l"
+	.string "routes more; we must keep the old\l"
+	.string "traditions alive.$"
