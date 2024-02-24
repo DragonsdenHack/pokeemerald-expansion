@@ -125,15 +125,15 @@ FuchsiaCity_Path_Barrera_Texto_1:
 	.string "immediately if you don't want trouble.$"
 
 FuchsiaCity_Path_Barrera_Texto_2:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 FuchsiaCity_Path_Barrera_Texto_3:
-.string "Hold on…\n"
-	.string "That pass…\l"
+.string "Hold on…{PAUSE 20}\n"
+	.string "That pass…{PAUSE 20}\l"
 	.string "Let me see it!$"
 
 FuchsiaCity_Path_Barrera_Texto_4:
-	.string "Hmm… Signed by KOGA himself…\n"
+	.string "Hmm…{PAUSE 20} Signed by KOGA himself…{PAUSE 20}\n"
 	.string "Apparently everything is in order, you\l"
 	.string "must be someone very important to have\l"
 	.string "obtained this pass, I recommend you to\l"

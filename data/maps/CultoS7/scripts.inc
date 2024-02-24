@@ -95,12 +95,12 @@ walk_in_place_up
 step_end
 
 CultoS7_Escena_Esencia_Texto_1:
-.string "... ...$"
+.string "{PAUSE 30}…{PAUSE 30} …{PAUSE 30}$"
 
 CultoS7_Escena_Esencia_Texto_2:
 .string "La esencia puede corromperse ante la\n"
-	.string "acción humana, aunque...$"
+	.string "acción humana, aunque…{PAUSE 50}$"
 
 CultoS7_Escena_Esencia_Texto_3:
-	.string "...ello no implica una pérdida de su\n"
+	.string "{PAUSE 50}…{PAUSE 40}ello no implica una pérdida de su\n"
 	.string "potencialidad.$"

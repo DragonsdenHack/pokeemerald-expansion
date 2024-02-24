@@ -202,7 +202,7 @@ Silph_7F_Combate_Empleado_Texto_1:
 	.string "PRESIDENT.$"
 
 Silph_7F_Combate_Empleado_Texto_2:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Silph_7F_Combate_Empleado_Texto_3:
 .string "Hmm?\n"

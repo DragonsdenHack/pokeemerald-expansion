@@ -596,7 +596,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_9:
 .string "OAK: No... Hemos cambiado nosotros.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_10:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_11:
 .string "Sé que es contraria a la razón, pero\n"
@@ -663,7 +663,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_22:
 
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_23:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_24:
 .string "Me consta que a ese engendro al que\n"

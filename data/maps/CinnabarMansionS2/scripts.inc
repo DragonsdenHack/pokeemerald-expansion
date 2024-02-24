@@ -204,7 +204,7 @@ release
 end
 
 CinnabarMansionS2Documento_Text_106:
-	.string "HO-OH, LUGIA, RAYQUAZA… All of them are\n"
+	.string "HO-OH, LUGIA, RAYQUAZA…{PAUSE 25} All of them are\n"
 	.string "formidable POKÉMON, but unfeasible for\l"
 	.string "experimentation and implementing\l"
 	.string "modifications that could increase their\l"
@@ -252,8 +252,8 @@ end
 CinnabarMansionS2Documento_Text_107:
 .string "METAGROSS AND DEVON'S\n"
 	.string "MASQUERADE AT HOENN:\l"
-	.string "...\l"
-	.string "...\l"
+	.string "…\l"
+	.string "…\l"
 	.string "Most people know that the\l"
 	.string "characteristic PSEUDO.LEGENDARY of\l"
 	.string "HOENN is SALAMENCE, a dragon that\l"
@@ -400,7 +400,7 @@ CinnabarMansionS2_Blaine_Texto_2:
 	.string "stir up so much trouble? You're one of a\l"
 	.string "kind, the exception that proves the\l"
 	.string "rule, but even you follow patterns we've\l"
-	.string "taken care of in this warehouse...$"
+	.string "taken care of in this warehouse…$"
 
 CinnabarMansionS2_Blaine_Texto_3:
 	.string "Look at this place; its only reason for\n"
@@ -410,7 +410,7 @@ CinnabarMansionS2_Blaine_Texto_3:
 	.string "is similar.$"
 
 CinnabarMansionS2_Blaine_Texto_4:
-	.string "MAGMAR, CHARIZARD, ARCANINE... All are\n"
+	.string "MAGMAR, CHARIZARD, ARCANINE…{PAUSE 25} All are\n"
 	.string "just numbers; what distinguishes them\l"
 	.string "is a greater or lesser degree in each of\l"
 	.string "the 6 parameters that constitute their\l"
@@ -429,7 +429,7 @@ CinnabarMansionS2_Blaine_Texto_5:
 	.string "In this way, whoever is capable of\n"
 	.string "controlling and manipulating these 6\l"
 	.string "parameters, along with the type\l"
-	.string "combinations, abilities, and moves...\l"
+	.string "combinations, abilities, and moves…\l"
 	.string "holds the power to control this world.\l"
 	.string "Some, like LANCE, surrender to divine\l"
 	.string "POKÉMON, hoping nature will do\l"
@@ -440,7 +440,7 @@ CinnabarMansionS2_Blaine_Texto_6:
 	.string "because it won nature's lottery, the\l"
 	.string "luckiest, as I've said, just by the\l"
 	.string "creator's grace, but not here, in this\l"
-	.string "place...$"
+	.string "place…$"
 
 CinnabarMansionS2_Blaine_Texto_7:
 	.string "By understanding the rules of the game,\n"
@@ -469,7 +469,7 @@ CinnabarMansionS2_Blaine_Texto_10:
 	.string "have something the others lack.$"
 
 CinnabarMansionS2_Blaine_Texto_11:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CinnabarMansionS2_Blaine_Texto_12:
 	.string "But this time it won't be enough; OAK\n"
@@ -749,13 +749,13 @@ CinnabarMansionS2_Oak_Texto_14:
 	.string "What just happened here?$"
 
 CinnabarMansionS2_Oak_Texto_15:
-	.string "No… it makes no sense; my team is\n"
+	.string "{PAUSE 20}No…{PAUSE 30} it makes no sense; my team is\n"
 	.string "unbeatable. Nobody, not even LANCE, not\l"
-	.string "GIOVANNI… not even GOD could defeat\l"
+	.string "GIOVANNI…{PAUSE 30} not even GOD could defeat\l"
 	.string "me!$"
 
 CinnabarMansionS2_Oak_Texto_16:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CinnabarMansionS2_Oak_Texto_17:
 	.string "Is there another force? Another law\n"
@@ -788,12 +788,12 @@ CinnabarMansionS2_Oak_Texto_21:
 	.string "course, but after what I've seen here,\l"
 	.string "they're much further than one can\l"
 	.string "imagine, maybe even beyond what one\l"
-	.string "can calculate...$"
+	.string "can calculate…$"
 
 CinnabarMansionS2_Oak_Texto_22:
-	.string "I have had enough already. RED … The\n"
-	.string "creation of MEWTWO… Keeping this\l"
-	.string "laboratory alive in the shadows… All to\l"
+	.string "I have had enough already. {PAUSE 20}RED {PAUSE 20}…{PAUSE 20} The\n"
+	.string "creation of MEWTWO…{PAUSE 20} Keeping this\l"
+	.string "laboratory alive in the shadows…{PAUSE 20} All to\l"
 	.string "barely scratch the surface of how a\l"
 	.string "POKÉMON truly works.$"
 
@@ -994,7 +994,7 @@ CinnabarMansion_S2_Escena_7_Texto_3:
     	.string "researcher died.$"
 
 CinnabarMansion_S2_Escena_7_Texto_4:
-	.string "BLAINE: So… just us knowing its\n"
+	.string "BLAINE: So…{PAUSE 25} just us knowing its\n"
     	.string "location?$"
 
 CinnabarMansion_S2_Escena_7_Texto_5:
@@ -1005,7 +1005,7 @@ CinnabarMansion_S2_Escena_7_Texto_6:
 	.string "BLAINE: I don't understand, why don't\n"
     	.string "we do something and take back KANTO?\l"
     	.string "Maybe GIOVANNI will even forgive you if\l"
-    	.string "you manage to overthrow LANCE… in your\l"
+    	.string "you manage to overthrow LANCE…{PAUSE 25} in your\l"
     	.string "own way.$"
 
 CinnabarMansion_S2_Escena_7_Texto_7:
@@ -1034,7 +1034,7 @@ CinnabarMansion_S2_Escena_7_Texto_11:
     .string "shadows, with no greater expectation\l"
     .string "than to see another day just to\l"
     .string "prevent the chances from dropping to\l"
-    .string "absolute zero… finally, we can rise\l"
+    .string "absolute zero…{PAUSE 25} finally, we can rise\l"
     .string "from our ashes, restoring the former\l"
     .string "magnificence of this region, and\l"
     .string "surpassing it!$"

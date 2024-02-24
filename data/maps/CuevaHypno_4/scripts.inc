@@ -61,7 +61,7 @@ step_end
 
 
 CuevaHypno_4_Lider_Texto_1:
-	.string "Oh... But how? No one has discovered\n"
+	.string "Oh…{PAUSE 20} But how? No one has discovered\n"
 	.string "this place in 40 years.$"
 
 CuevaHypno_4_Lider_Texto_2:
@@ -69,7 +69,7 @@ CuevaHypno_4_Lider_Texto_2:
 	.string "the children. But you're not from THREE\l"
 	.string "ISLAND, right? BERRY FOREST is already a\l"
 	.string "forgotten place for the island\l"
-	.string "residents; it wasn't always like this...$"
+	.string "residents; it wasn't always like this…{PAUSE 20}$"
 
 CuevaHypno_4_Lider_Texto_3:
 	.string "Ah! KANTO! You might not believe me, but\n"
@@ -82,19 +82,19 @@ CuevaHypno_4_Lider_Texto_4:
 	.string "AGATHA and I were the top students of\n"
 	.string "the only CHAMPION in the region who\l"
 	.string "achieved that using GHOST and PSYCHIC\l"
-	.string "POKÉMON. Well... at least until I came\l"
+	.string "POKÉMON. Well…{PAUSE 20} at least until I came\l"
 	.string "here. Since then, it's been decades\l"
 	.string "since I've heard anything from KANTO.$"
 
 CuevaHypno_4_Lider_Texto_5:
 	.string "Is AGATHA still part of the ELITE FOUR?\n"
-	.string "Well... she's holding up well, then I'm not\l"
+	.string "Well…{PAUSE 20} she's holding up well, then I'm not\l"
 	.string "the only one still resisting letting the\l"
 	.string "passage of time degrade it. I'm glad to\l"
 	.string "know that.$"
 
 CuevaHypno_4_Lider_Texto_6:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CuevaHypno_4_Lider_Texto_7:
 	.string "Now that I observe you closely, despite\n"
@@ -119,7 +119,7 @@ CuevaHypno_4_Lider_Texto_9:
 	.string "If you want a fight, head over to the\l"
 	.string "GYM to the north of the cave. If you\l"
 	.string "enter, you'll be the first challenger in\l"
-	.string "almost four decades...$"
+	.string "almost four decades…{PAUSE 20}$"
 
 CuevaHypno_4_Cartel::
 lock

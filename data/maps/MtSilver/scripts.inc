@@ -93,7 +93,7 @@ MtSilver_Combate_Andra_Texto_3:
 	.string "se está perdiendo.$"
 
 MtSilver_Combate_Andra_Texto_4:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilver_Combate_Andra_Texto_5:
 .string "He subido a la cima del MONTE\n"

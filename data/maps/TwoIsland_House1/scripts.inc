@@ -47,7 +47,7 @@ TwoIslandHouse1_Texto_1:
 	.string "officially open!$"
 
 TwoIslandHouse1_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 TwoIslandHouse1_Texto_3:
 	.string "Do you enter here by force? I will show\n"

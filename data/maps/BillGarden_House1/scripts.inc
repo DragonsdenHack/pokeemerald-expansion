@@ -63,7 +63,7 @@ BillGarden_House1_Bill_Combate_Text_2:
 BillGarden_House1_Bill_Combate_Text_3:
 	.string "Anyway, you have no way out. Even if you\n"
 	.string "defeat me, all the police in CERULEAN\l"
-	.string "are coming. You acted hastily...$"
+	.string "are coming. You acted hastily…{PAUSE 20}$"
 
 BillGarden_House1_Bill_Combate_Text_4:
 	.string "But you know, it's not exactly normal to\n"

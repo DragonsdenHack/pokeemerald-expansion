@@ -199,13 +199,13 @@ ViridianCity_Gym_Pase_Texto_1:
 	.string "Not another step! This GYM is known for\n"
 	.string "being the strictest regarding the\l"
 	.string "policy towards TEAM ROCKET. Get out of\l"
-	.string "here if you don't want to...!$"
+	.string "here if you don't want to…!{PAUSE 20}$"
 
 ViridianCity_Gym_Pase_Texto_2:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 ViridianCity_Gym_Pase_Texto_3:
-	.string "Oh... just like that girl who passed\n"
+	.string "Oh…{PAUSE 20} just like that girl who passed\n"
 	.string "through here not long ago. I apologize\l"
 	.string "for the impertinence, sir, but this joke\l"
 	.string "of dressing as a ROCKET is not pleasing\l"
@@ -237,7 +237,7 @@ ViridianCity_Gym_Guy_Texto_1:
 
 ViridianCity_Gym_Guy_Texto_2:
 	.string "Did you defeat the mysterious LEADER?\n"
-	.string "... ... Ah, I see, he works secretly for\l"
+	.string "…{PAUSE 20} …{PAUSE 20} Ah, I see, he works secretly for\l"
 	.string "LANCE's GOVERNMENT. That explains\l"
 	.string "everything.$"
 
@@ -310,7 +310,7 @@ ViridianCity_Gym_Explicacion_Base_Texto_1:
 	.string "RECRUIT: We've been expecting you,\n"
 	.string "EXECUTIVE {PLAYER}. I see you have\l"
 	.string "all 7 BADGES. Giovanni didn't expect\l"
-	.string "anything less from you. However...$"
+	.string "anything less from you. However…{PAUSE 20}$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_2:
 	.string "You'll need to step up your game if you\n"

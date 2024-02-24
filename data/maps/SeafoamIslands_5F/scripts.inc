@@ -83,7 +83,7 @@ SeafoamIslands_5F_Combate_Articuno_Texto_3:
 	.string "LEGENDARY ARTICUNO!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4:
-	.string "GIOVANNI: {PLAYER}? … … Did you\n"
+	.string "GIOVANNI: {PLAYER}?{PAUSE 35} …{PAUSE 35} …{PAUSE 35} Did you\n"
 	.string "defeat ARTICUNO right now? Great, good\l"
 	.string "job {PLAYER}, BLUE also finished his\l"
 	.string "mission defeating MOLTRES at MT.EMBER,\l"

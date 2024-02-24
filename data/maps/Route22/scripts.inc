@@ -110,10 +110,10 @@ Route22_Combate_Azul_Texto_2:
 	.string "to the ELITE 4…$"
 
 Route22_Combate_Azul_Texto_3:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route22_Combate_Azul_Texto_4:
-	.string "The truth is... RED defeated me again, I\n"
+	.string "The truth is…{PAUSE 40} RED defeated me again, I\n"
 	.string "can't enter the LEAGUE knowing he's\l"
 	.string "still above me, I must ensure that my\l"
 	.string "team is far superior to his.$"
@@ -422,7 +422,7 @@ RocketHideoutViridian_Escena_9_Texto_4.1:
 	.string "spectator, but as a whole…$"
 
 RocketHideoutViridian_Escena_9_Texto_5:
-	.string "The best… You told me you wanted to be\n"
+	.string "The best…{PAUSE 40} You told me you wanted to be\n"
 	.string "the best TRAINER in the world!$"
 
 RocketHideoutViridian_Escena_9_Texto_6:
@@ -470,7 +470,7 @@ RocketHideoutViridian_Escena_9_Texto_16:
 	.string "Your delirium makes no sense to me!$"
 
 RocketHideoutViridian_Escena_9_Texto_17:
-	.string "… You will understand it someday.$"
+	.string "…{PAUSE 35} You will understand it someday.$"
 
 RocketHideoutViridian_Escena_9_Texto_18:
 	.string "????: I prefer to not understand it!$"
@@ -493,6 +493,6 @@ RocketHideoutViridian_Escena_9_Texto_22:
 	.string "best decision for both of us. Distance\l"
 	.string "yourself from this charade, improve\l"
 	.string "independently. Meanwhile, I'll shape the\l"
-	.string "region you live in as it should be… at\l"
+	.string "region you live in as it should be…{PAUSE 45} at\l"
 	.string "any cost.$"
 

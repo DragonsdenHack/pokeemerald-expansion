@@ -149,7 +149,7 @@ release
 end
 
 Route12_Activador_Entrada_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route12_Activador_Entrada_Texto_2:
 	.string "One of the rocks seems to be hiding a\n"

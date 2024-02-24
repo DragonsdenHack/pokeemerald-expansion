@@ -116,7 +116,7 @@ BirthIsland_Blaine_Texto_1:
 BirthIsland_Blaine_Texto_2:
 	.string "I've visited the ruins beside this\n"
 	.string "island, but I haven't found anything\l"
-	.string "noteworthy. However, this...$"
+	.string "noteworthy. However, this…{PAUSE 30}$"
 
 BirthIsland_Blaine_Texto_3:
 	.string "When I arrived, there was nothing, but\n"

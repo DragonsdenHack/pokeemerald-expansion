@@ -203,7 +203,7 @@ RockTunnel_1F_Combate_Entrenadora_Guay_Texto_1:
 	.string "chance against me.$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_2:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 RockTunnel_1F_Combate_Entrenadora_Guay_Texto_3:
 	.string "You defeating me? Now thats funny!\n"

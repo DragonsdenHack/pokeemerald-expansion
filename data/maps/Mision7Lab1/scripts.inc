@@ -80,7 +80,7 @@ release
 end
 
 Mision7Lab4_Disco_Duro_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Mision7Lab4_Disco_Duro_Texto_2:
 .string "¡¡OBTUVISTE EL DISCO DURO!!$"

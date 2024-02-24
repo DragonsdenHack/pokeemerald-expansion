@@ -109,7 +109,7 @@ UndergroundPath_7F_Cajas_Texto_2:
 	.string "valiosos).$"
 
 UndergroundPath_7F_Cajas_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Motero_Llave_Texto_1:
 .string "¿Ves esas cajas? Es lo que queda del\n"
@@ -279,7 +279,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_1:
 	.string "moveremos de aqu…!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_3:
 .string "¡Es el ADMIN.JEFE {PLAYER}!$"
@@ -308,7 +308,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_8:
 .string "¿Decides irte?$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_9:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_10:
 .string "Entonces… No nos queda más remedio que\n"
@@ -668,7 +668,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_6:
 	.string "bélica que siempre tuve.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_7:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_8:
 .string "He de admitir que los habitantes de\n"
@@ -687,7 +687,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_9:
 	.string "¿no?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_10:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_11:
 .string "Jah, ¿derrotarme fácilmente?$"
@@ -747,13 +747,13 @@ UndergroundPath_7F_Combate_LtSurge_Texto_22:
 	.string "todo.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_23:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_24:
 .string "¿De verdad estás ya dentro?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_25:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_26:
 .string "Ese SURGE… Escucha, {PLAYER}. Debe\n"
@@ -1303,7 +1303,7 @@ UndergroundPath_7F_Escena_Final_Texto_10:
 	.string "visitarse!$"
 
 UndergroundPath_7F_Escena_Final_Texto_65:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Escena_Final_Texto_66:
 .string "LT.SURGE: ¿Hablar a solas con PETREL?\n"
@@ -1378,7 +1378,7 @@ UndergroundPath_7F_Escena_Final_Texto_15:
 	.string "¿{PLAYER}?$"
 
 UndergroundPath_7F_Escena_Final_Texto_16:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Escena_Final_Texto_17:
 .string "Ya veo. Quieres que primero nos\n"

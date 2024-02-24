@@ -76,7 +76,7 @@ MahoganyHouseCarbon_Secundaria_Texto_1:
 	.string "jugado a mi y a mi mujer.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MahoganyHouseCarbon_Secundaria_Texto_3:
 .string "¿Tú nos ayudarías?$"

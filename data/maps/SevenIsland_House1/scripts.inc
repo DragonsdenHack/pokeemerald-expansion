@@ -71,13 +71,13 @@ step_end
 
 SevenIsland_Secundaria_Anciana_Texto_1:
 	.string "Now I don't look like it, but when I was\n"
-	.string "younger... I flew around, challenging\l"
+	.string "younger…{PAUSE 25} I flew around, challenging\l"
 	.string "the TRAINERS I came across. Now, I'm\l"
 	.string "content remembering old times and\l"
 	.string "watching battles.$"
 
 SevenIsland_Secundaria_Anciana_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 SevenIsland_Secundaria_Anciana_Texto_3:
 	.string "So ARCHER, you must be a great TRAINER\n"
@@ -92,7 +92,7 @@ SevenIsland_Secundaria_Anciana_Texto_4:
 
 SevenIsland_Secundaria_Anciana_Texto_5:
 	.string "Among all of them, I'm aware that mine is\n"
-	.string "the only one still standing... hidden and\l"
+	.string "the only one still standing hidden and\l"
 	.string "unknown to 99% of SEVII's residents.$"
 
 SevenIsland_Secundaria_Anciana_Texto_6:
@@ -140,7 +140,7 @@ release
 end
 
 Isla_Setima_Activador_Entrada_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Isla_Setima_Activador_Entrada_Pasa_Text_YesNo:
 	.string "There's a little trapdoor under the\n"

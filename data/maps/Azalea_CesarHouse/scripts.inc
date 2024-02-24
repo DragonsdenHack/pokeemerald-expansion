@@ -39,10 +39,10 @@ AzaleaCesarHouse_1_Texto_2:
 .string "¿Y bien?$"
 
 AzaleaCesarHouse_1_Texto_3:
-.string "...$"
+.string "…$"
 
 AzaleaCesarHouse_1_Texto_4:
-.string "Oh...\n"
+.string "Oh…\n"
 	.string "Impresionante, para nada esperaba\l"
 	.string "que pudieras ganar, guarda\l"
 	.string "bien esa SLOWBRONITA, joven,\l"
@@ -135,7 +135,7 @@ release
 end
 
 Azalea_CesarHouse_Evento_Mirto_Texto_1:
-.string "????: Pero...\n"
+.string "????: Pero…\n"
 	.string "Usted cuenta también con un TIPO\l"
 	.string "BICHO que ha sufrido el mismo\l"
 	.string "proceso que el mío.$"
@@ -148,7 +148,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_2:
 	.string "con su ENTRENADOR.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_3:
-.string "MIRTO: Pero...$"
+.string "MIRTO: Pero…$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_4:
 .string "La diferencia es que mi POKÉMON\n"
@@ -156,7 +156,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_4:
 	.string "elevándose hasta los 505 STATS\l"
 	.string "BASE después del fuerte vínculo.\l"
 	.string "Algo notable, más teniendo en\l"
-	.string "cuenta su bajísimo ATAQUE, pero...\l"
+	.string "cuenta su bajísimo ATAQUE, pero…\l"
 	.string "no ha cruzado ningún límite que\l"
 	.string "conozcamos.$"
 
@@ -183,14 +183,14 @@ Azalea_CesarHouse_Evento_Mirto_Texto_6:
 	.string "la otra.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_7:
-.string "MIRTO: ...$"
+.string "MIRTO: …$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_8:
-.string "¿No hay... nada... que pueda hacer?$"
+.string "¿No hay… nada… que pueda hacer?$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_9:
 .string "????: Yo no puedo ayudarte, lo\n"
-	.string "siento. Pero...$"
+	.string "siento. Pero…$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_10:
 .string "En JOHTO hay gente muy sabia. No\n"
@@ -227,7 +227,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_14:
 	.string "contendientes.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
-.string "Aunque...\n"
+.string "Aunque…\n"
 	.string "Pareces venir de muy lejos,\l"
 	.string "y ser un apasionado del\l"
 	.string "combate, al igual que MIRTO o\l"

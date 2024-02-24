@@ -100,7 +100,7 @@ Route16_House1_Combate_Vuelo_Texto_6:
 Route16_House1_Combate_Vuelo_Texto_7:
 	.string "I didn't expect to lose, or the world\n"
 	.string "changed a lot since my exile, or you are\l"
-	.string "such a capable TRAINER… If you set\l"
+	.string "such a capable TRAINER…{PAUSE 25} If you set\l"
 	.string "your mind to it, you could go for all the\l"
 	.string "GYM BADGES, someone like you must have\l"
 	.string "this.$"

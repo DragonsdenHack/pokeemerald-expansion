@@ -173,7 +173,7 @@ CuevaTesoro4_Jefe_Final_Texto_3:
 	.string "know the secret this place holds?$"
 
 CuevaTesoro4_Jefe_Final_Texto_4:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CuevaTesoro4_Jefe_Final_Texto_5:
 	.string "I assumed it; you've come here just out\n"

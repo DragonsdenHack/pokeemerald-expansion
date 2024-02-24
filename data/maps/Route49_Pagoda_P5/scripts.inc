@@ -144,7 +144,7 @@ Route49_Pagoda_P5_Encuentro_Texto_3:
 	.string "separa.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_4:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route49_Pagoda_P5_Encuentro_Texto_5:
 .string "Fue aquí donde pude conciliar un largo\n"

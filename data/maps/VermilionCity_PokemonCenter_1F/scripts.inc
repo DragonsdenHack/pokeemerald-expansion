@@ -70,7 +70,7 @@ end
 
 VermilionCity_PokemonCenter_Text_5:
 .string "It is true that a higher-level POKÉMON\n"
-	.string "will be more powerful… But, all POKÉMON\l"
+	.string "will be more powerful…{PAUSE 25} But, all POKÉMON\l"
 	.string "will have weak points against specific\l"
 	.string "types. So, there appears to be no\l"
 	.string "universally strong POKÉMON.$"

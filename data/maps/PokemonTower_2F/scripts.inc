@@ -144,7 +144,7 @@ release
 end
 
 PokemonTower2F_Azul_Texto_1:
-.string "BLUE: So you are already here…$"
+.string "BLUE: So you are already here…{PAUSE 20}$"
 
 PokemonTower2F_Azul_Texto_2:
 	.string "The other ROCKETS are already on the\n"
@@ -154,7 +154,7 @@ PokemonTower2F_Azul_Texto_2:
 	.string "to come here.$"
 
 PokemonTower2F_Azul_Texto_3:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 PokemonTower2F_Azul_Texto_4:
 	.string "Hey do not get confused, I am not part\n"
@@ -175,7 +175,7 @@ PokemonTower2F_Azul_Texto_5:
 PokemonTower2F_Azul_Texto_6:
 	.string "This is the unique way that I will prove\n"
 	.string "once at all that I am better than RED,\l"
-	.string "that RED…$"
+	.string "that RED…{PAUSE 20}$"
 
 PokemonTower2F_Azul_Texto_7:
 	.string "My grandfather OAK has always had a\n"

@@ -240,7 +240,7 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_1:
 .string "No se preocupe, me encargaré de ello.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_3:
 .string "¡Oh, señor! No esperaba verle por aquí.$"

@@ -272,14 +272,14 @@ Route15_Koga_Bruno_Texto_6:
 	.string "people express their ideas, BRUNO.$"
 
 Route15_Koga_Bruno_Texto_7:
-	.string "BRUNO: For now… Fortunately for you,\n"
+	.string "BRUNO: For now…{PAUSE 45} Fortunately for you,\n"
 	.string "you can wash your hands of this whole\l"
 	.string "situation, an ELITE like me doesn't come\l"
 	.string "to a place like this unless there's a\l"
 	.string "significant reason…$"
 
 Route15_Koga_Bruno_Texto_8:
-	.string "BRUNO: … acting under direct LANCE\n"
+	.string "BRUNO: …{PAUSE 45} acting under direct LANCE\n"
 	.string "orders to enter at the CYCLING ROAD\l"
 	.string "and clean it of all those who are\l"
 	.string "against our government, they will get\l"
@@ -290,7 +290,7 @@ Route15_Koga_Bruno_Texto_9:
 
 Route15_Koga_Bruno_Texto_10:
 	.string "BRUNO: Do not worry about the CYCLING\n"
-	.string "ROAD, it will still have bikers… loyal to\l"
+	.string "ROAD, it will still have bikers…{PAUSE 25} loyal to\l"
 	.string "us, you won't even need to explain\l"
 	.string "something to anyone.$"
 
@@ -301,7 +301,7 @@ Route15_Koga_Bruno_Texto_11:
 	.string "not hinder, have a nice day.$"
 
 Route15_Koga_Bruno_Texto_12:
-	.string "KOGA: That BRUNO… since he joined the\n"
+	.string "KOGA: That BRUNO…{PAUSE 35} since he joined the\n"
 	.string "ELITE 4, his ego has grown too much,\l"
 	.string "he's nothing like the person who used\l"
 	.string "to lead the FIGHTING DOJO in SAFFRON…$"

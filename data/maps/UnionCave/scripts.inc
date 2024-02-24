@@ -144,7 +144,7 @@ UnionCave_Combate_Elm_Texto_1:
 .string "Tal y como pensaba, decepcionante.$"
 
 UnionCave_Combate_Elm_Texto_2:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UnionCave_Combate_Elm_Texto_3:
 .string "ELM: Ah, {PLAYER}.\n"

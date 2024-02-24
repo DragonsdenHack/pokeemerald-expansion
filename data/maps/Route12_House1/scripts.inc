@@ -75,7 +75,7 @@ end
 
 Route12_House_1_Secundaria_Squirtle_Texto_1:
 	.string "I will never reach that appreciation\n"
-	.string "and popularity level, it can't be… I need\l"
+	.string "and popularity level, it can't be…{PAUSE 45} I need\l"
 	.string "to do something…$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_2:
@@ -83,7 +83,7 @@ Route12_House_1_Secundaria_Squirtle_Texto_2:
 	.string "...$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_3:
-	.string "YOU! ROCKET! … … Also, you look quite\n"
+	.string "YOU! ROCKET! …{PAUSE 25} …{PAUSE 25} Also, you look quite\n"
 	.string "competent compared to the others!$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_4:
@@ -137,8 +137,8 @@ Route12_House_1_Secundaria_Squirtle_Texto_9:
 
 
 Route12_House_1_Secundaria_Squirtle_Texto_10:
-	.string "That is the attitude! Okay… Listen,\n"
-	.string "ROCKET… I have 2 brothers, the three of\l"
+	.string "That is the attitude! Okay…{PAUSE 45} Listen,\n"
+	.string "ROCKET…{PAUSE 35} I have 2 brothers, the three of\l"
 	.string "us inherited from our father the\l"
 	.string "tradition of being exceptional\l"
 	.string "fishermen, y younger brother lives in\l"
@@ -154,8 +154,8 @@ Route12_House_1_Secundaria_Squirtle_Texto_11:
 	.string "My older brother and I, however, focus\n"
 	.string "more on fishing for powerful POKÉMON,\l"
 	.string "we compete to see who catches the best\l"
-	.string "pieces, and therein lies the problem… …\l"
-	.string "… My older brother's SUPER ROD turned\l"
+	.string "pieces, and therein lies the problem…{PAUSE 15} …{PAUSE 15}\l"
+	.string "…{PAUSE 15} My older brother's SUPER ROD turned\l"
 	.string "out to be better than my GOOD ROD, and\l"
 	.string "when you add that many consider him the\l"
 	.string "top FISHERMAN in the region, the one\l"

@@ -319,7 +319,7 @@ Route52_MazeP1_Combates_Finales_Texto_3:
 	.string "a esos EJECUTIVOS de TRIGAL.$"
 
 Route52_MazeP1_Combates_Finales_Texto_4:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route52_MazeP1_Combates_Finales_Texto_5:
 .string "¿Cómo sé que el TEAM ROCKET está\n"

@@ -510,10 +510,10 @@ NeoLavandaPueblo_Policía_Texto_8:
 	.string "con el PRESIDENTE, exigimos refuerz…!$"
 
 NeoLavandaPueblo_Policía_Texto_9:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaPueblo_Policía_Texto_11:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaPueblo_Policía_Texto_12:
 .string "Oh… Usted… Señor…$"

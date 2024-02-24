@@ -93,7 +93,7 @@ end
 Route30_Text_12:
 	.string "It is said that if you butt your head to\n"
 	.string "the trees, a wild HERACROSS would\l"
-	.string "appear… But I think this is not working.\l"
+	.string "appear…{PAUSE 25} But I think this is not working.\l"
 	.string "Maybe a POKÉMON should do it instead of\l"
 	.string "me…$"
 

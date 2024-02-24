@@ -53,11 +53,11 @@ release
 end
 
 Bill_Garden_Warp_text_1:
-.string "...$"
+.string "{PAUSE 20}…{PAUSE 20}$"
 
 Bill_Garden_Warp_Text_YesNo:
-    .string "...\n"
-	.string "...\l"
+    .string "…{PAUSE 20}\n"
+	.string "…{PAUSE 20}\l"
     .string "This poster seems to be covering some\l"
 	.string "tunnel that leads somewhere else.\l"
 	.string "Wanna cross it?$"

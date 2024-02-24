@@ -256,8 +256,8 @@ Aqua3_Combate_Aquiles_Texto_2:
 Aqua3_Combate_Aquiles_Texto_3:
 	.string "KYOGRE sleeps in the depths of this\n"
 	.string "small lake. Such a POKÉMON destined to\l"
-	.string "rule the oceans... confined to this\l"
-	.string "puddle for millennia... is sacrilege that\l"
+	.string "rule the oceans…{PAUSE 30} confined to this\l"
+	.string "puddle for millennia…{PAUSE 30} is sacrilege that\l"
 	.string "I will end right now. I just need to make\l"
 	.string "the BLUE ORB shine one last time, and\l"
 	.string "KYOGRE will make its appearance. Watch\l"
@@ -328,7 +328,7 @@ Aqua3_Combate_Aquiles_Texto_12:
 	.string "mean yours, do you? Don't make me laugh!\l"
 	.string "You know as much about KYOGRE as I do\l"
 	.string "about land POKÉMON! You're just an\l"
-	.string "opportunist who...!$"
+	.string "opportunist who…!$"
 
 Aqua3_Combate_Aquiles_Texto_13:
 	.string "ZEUS: FLOETTE! PSYCHIC!$"
@@ -338,7 +338,7 @@ Aqua3_Combate_Aquiles_Texto_14:
 	.string "and the BLUE ORB).$"
 
 Aqua3_Combate_Aquiles_Texto_15:
-	.string "ARCHIE: …$"
+	.string "ARCHIE: {PAUSE 20}…{PAUSE 20}$"
 
 Aqua3_Combate_Aquiles_Texto_16:
 	.string "W-what am I doing here?$"
@@ -349,7 +349,7 @@ Aqua3_Combate_Aquiles_Texto_17:
 	.string "anything significant. Your companions\l"
 	.string "have told us about some POKÉMON named\l"
 	.string "KYOGRE and a RED ORB that awakens it,\l"
-	.string "but that's in HOENN...$"
+	.string "but that's in HOENN…{PAUSE 20}$"
 
 Aqua3_Combate_Aquiles_Texto_18:
 	.string "ARCHIE: KYOGRE, yes! I must find that\n"
@@ -366,7 +366,7 @@ Aqua3_Combate_Aquiles_Texto_19:
 
 
 Aqua3_Combate_Aquiles_Texto_20:
-.string "ZEUS: ...$"
+.string "ZEUS: {PAUSE 20}…{PAUSE 20}$"
 
 Aqua3_Combate_Aquiles_Texto_21:
 	.string "Do you perceive it as unjust that I\n"
@@ -384,7 +384,7 @@ Aqua3_Combate_Aquiles_Texto_22:
 	.string "Either way, both were wrong.$"
 
 Aqua3_Combate_Aquiles_Texto_23:
-	.string "More land, more water... What a dumb\n"
+	.string "More land, more water…{PAUSE 30} What a dumb\n"
 	.string "idea. Only the creator of everything\l"
 	.string "has the authority to decide about the\l"
 	.string "entire planet.$"
@@ -401,7 +401,7 @@ Aqua3_Combate_Aquiles_Texto_25:
 	.string "chasing the most powerful POKÉMON in\l"
 	.string "this world. KYOGRE and GROUDON are\l"
 	.string "indeed very powerful. You've had a\l"
-	.string "chance to see it. But...$"
+	.string "chance to see it. But…{PAUSE 30}$"
 
 Aqua3_Combate_Aquiles_Texto_26:
 	.string "Their powers are nothing compared to\n"

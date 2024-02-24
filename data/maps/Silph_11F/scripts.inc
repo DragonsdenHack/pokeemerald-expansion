@@ -28,7 +28,7 @@ Silph11F_Text_2:
 	.string "PRESIDENT informed of all this\l"
 	.string "government has done for the region.\l"
 	.string "Even though we can't thank you publicly,\l"
-	.string "perhaps the day will come…$"
+	.string "perhaps the day will come…{PAUSE 25}$"
 
 
 
@@ -294,10 +294,10 @@ Silph_11F_Bill_Presidente_Texto_2.1:
 	.string "capital's HEADQUARTERS like this.$"
 
 Silph_11F_Bill_Presidente_Texto_2.2:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Silph_11F_Bill_Presidente_Texto_2.3:
-	.string "So the SEVII ISLANDS… I get it, let me\n"
+	.string "So the SEVII ISLANDS…{PAUSE 20} I get it, let me\n"
 	.string "tell you something: you haven't seen\l"
 	.string "anything of this region yet. The\l"
 	.string "POKÉMON from KANTO, the real ones, have\l"
@@ -325,7 +325,7 @@ Silph_11F_Bill_Presidente_Texto_2.6:
 	.string "team from the old school of KANTO!$"
 
 Silph_11F_Bill_Presidente_Texto_2.7:
-	.string "The power of those POKÉMON… where does\n"
+	.string "The power of those POKÉMON…{PAUSE 35} where does\n"
 	.string "it come from?$"
 
 Silph_11F_Bill_Presidente_Texto_2.8:
@@ -510,7 +510,7 @@ Silph_11F_Bill_Presidente_Texto_26:
 	.string "even those were given to you by BILL!$"
 
 Silph_11F_Bill_Presidente_Texto_27:
-	.string "BILL: This can't be… I have PORYGON2,\n"
+	.string "BILL: This can't be…{PAUSE 35} I have PORYGON2,\n"
 	.string "the newest technology developed by\l"
 	.string "SILPH itself, alongside a team with the\l"
 	.string "region's most powerful and elusive\l"
@@ -602,12 +602,12 @@ Silph_11F_Bill_Presidente_Texto_37:
 	.string "that POKÉMON before you.$"
 
 Silph_11F_Bill_Presidente_Texto_37.1:
-.string "ANDRA: ...$"
+.string "ANDRA: {PAUSE 20}…{PAUSE 20}$"
 
 Silph_11F_Bill_Presidente_Texto_38:
 	.string "Alright, you can leave, I'll tell you when\n"
 	.string "we start our next big hit. Enjoy your\l"
-	.string "little vacations… and keep improving.$"
+	.string "little vacations…{PAUSE 25} and keep improving.$"
 
 Silph_11F_Bill_Presidente_Texto_39:
 	.string "So PORYGON2, if it weren't for the fact\n"
@@ -631,7 +631,7 @@ Silph_11F_Bill_Presidente_Texto_41:
 	.string "GIOVANNI as soon as RED arrives in his\l"
 	.string "area, there's nothing to worry about,\l"
 	.string "{PLAYER}, everything is under\l"
-	.string "control…$"
+	.string "control…{PAUSE 25}$"
 
 Silph_11F_Bill_Presidente_Move_1:
 walk_up
@@ -911,7 +911,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_2:
 	.string "PRESIDENT: Oh, don't get me wrong,\n"
 	.string "CHAMPION LANCE. We feel honored to\l"
 	.string "support our beloved region, it's just\l"
-	.string "that…$"
+	.string "that…{PAUSE 25}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_3:
 	.string "LANCE: I understand, you are a true\n"
@@ -922,7 +922,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_3:
 	.string "Right, PRESIDENT?$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_4:
-.string "PRESIDENT: I didn't mean to say… $"
+.string "PRESIDENT: I didn't mean to say…{PAUSE 25} $"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_5:
 	.string "Let me remind you who is in possession\n"
@@ -934,10 +934,10 @@ Silph_11F_Reunión_Presidente_Lance_Texto_6:
 Silph_11F_Reunión_Presidente_Lance_Texto_7:
 	.string "PRESIDENT: There has been a\n"
 	.string "misunderstanding. I was actually\l"
-	.string "referring to… the rest of the\l"
+	.string "referring to…{PAUSE 35} the rest of the\l"
 	.string "population. My company has no\l"
-	.string "complaints but… If you and I take the\l"
-	.string "entire pie… what will be left for the\l"
+	.string "complaints but…{PAUSE 25} If you and I take the\l"
+	.string "entire pie…{PAUSE 35} what will be left for the\l"
 	.string "rest?$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_8:
@@ -948,7 +948,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_8:
 	.string "destiny is my concern. Is that clear?$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_9:
-.string "PRESIDENT: … …$"
+.string "PRESIDENT: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_10:
 	.string "LANCE: Now, if you'll excuse me, I have a\n"
@@ -963,7 +963,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_11:
 	.string "forget my words.$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_12:
-.string "ARCHER: … …$"
+.string "ARCHER: {PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_13:
 	.string "DRAGONITE isn't the flagship POKÉMON of\n"

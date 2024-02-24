@@ -147,7 +147,7 @@ end
 
 FourIsland_Encuentro_Zeus_Texto_1:
 	.string "Damn it, where could they have hidden\n"
-	.string "them...$"
+	.string "them…{PAUSE 20}$"
 
 FourIsland_Encuentro_Zeus_Texto_2:
 	.string "You don't appear to be from this place,\n"
@@ -193,7 +193,7 @@ FourIsland_Encuentro_Zeus_Texto_7:
 	.string "happen.$"
 
 FourIsland_Encuentro_Zeus_Texto_8:
-.string "...$"
+.string "{PAUSE 20}…{PAUSE 20}$"
 
 FourIsland_Encuentro_Zeus_Texto_9:
 	.string "If you spot anything unusual, inform me\n"
@@ -307,7 +307,7 @@ FourIsland_Secundaria_Anciana_Texto_1:
 	.string "she grew up.$"
 
 FourIsland_Secundaria_Anciana_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 FourIsland_Secundaria_Anciana_Texto_3:
 	.string "So you managed to beat LORELEI in a\n"
@@ -329,12 +329,12 @@ FourIsland_Secundaria_Anciana_Texto_5:
 FourIsland_Secundaria_Anciana_Texto_6:
 	.string "But beyond the small lake after\n"
 	.string "climbing the waterfall, there is\l"
-	.string "something... something special.$"
+	.string "something…{PAUSE 20} something special.$"
 
 FourIsland_Secundaria_Anciana_Texto_6.1:
 	.string "Perhaps if you check the rocks, you\n"
 	.string "might find a gap to move forward, even\l"
-	.string "if it seems impossible... That's what\l"
+	.string "if it seems impossible…{PAUSE 20} That's what\l"
 	.string "sets true trainers apart, going beyond\l"
 	.string "apparent limits, right?$"
 
@@ -349,7 +349,7 @@ FourIsland_Secundaria_Anciana_Texto_8:
 	.string "majestic POKÉMON.$"
 
 FourIsland_Secundaria_Anciana_Texto_9:
-	.string "Look... it's pure ice; LORELEI would feel\n"
+	.string "Look…{PAUSE 20} it's pure ice; LORELEI would feel\n"
 	.string "quite jealous of you right now, kid, I\l"
 	.string "can assure you.$"
 
@@ -359,10 +359,10 @@ FourIsland_Secundaria_Anciana_Texto_10:
 	.string "mysteries of this world again.$"
 
 FourIsland_Secundaria_Anciana_Texto_11:
-	.string "Ohhh... So many mysteries still to solve;\n"
+	.string "Ohhh…{PAUSE 20} So many mysteries still to solve;\n"
 	.string "if LORELEI, dedicating her entire life\l"
 	.string "to the ICE TYPE, hasn't been able to\l"
-	.string "find that POKÉMON on her own island...\l"
+	.string "find that POKÉMON on her own island…{PAUSE 20}\l"
 	.string "How many incredible POKÉMON might be\l"
 	.string "out there waiting?$"
 
@@ -422,7 +422,7 @@ face_player
 step_end
 
 Isla_Cuarta_Activador_Entrada_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Isla_Cuarta_Activador_Entrada_Pasa_Text_YesNo:
 	.string "This rock is practically submerged; if\n"

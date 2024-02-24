@@ -155,7 +155,7 @@ Olivine_Pub_Mision_Secundaria_Texto_1:
 	.string "toca recuperar el tiempo perdido…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_3:
 .string "Oh… Entonces eres algo más que uno de\n"
@@ -192,7 +192,7 @@ Olivine_Pub_Mision_Secundaria_Texto_7:
 	.string "MOTORISTA.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_8:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_9:
 .string "{PLAYER} entregó el SNUBBULL a\n"

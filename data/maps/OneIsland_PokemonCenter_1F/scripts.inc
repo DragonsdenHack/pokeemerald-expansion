@@ -43,7 +43,7 @@ end
 
 OneIsland_PokemonCenter_Text_3:
 .string "I wish I could trade POKÉMON with\n"
-    .string "my boyfriend who lives far away…$"
+    .string "my boyfriend who lives far away…{PAUSE 20}$"
 
 
 
@@ -56,7 +56,7 @@ end
 
 OneIsland_PokemonCenter_Text_4:
 	.string "Eh, you are not from here? Where did you\n"
-	.string "come from? CHRONO ISLAND?... That's not\l"
+	.string "come from? CHRONO ISLAND?…{PAUSE 20} That's not\l"
 	.string "far from here.$"
 
 
@@ -93,7 +93,7 @@ OneIsland_PokemonCenter_Text_6:
 	.string "the supposed existence of these ores\l"
 	.string "in SEVII ISLANDS, however we never\l"
 	.string "found it, and we had no other choice but\l"
-	.string "to ask BILL for a loan…$"
+	.string "to ask BILL for a loan…{PAUSE 20}$"
 
 
 
@@ -104,7 +104,7 @@ release
 end
 
 OneIsland_PokemonCenter_Text_7:
-.string "Will the legend be true…?$"
+.string "Will the legend be true?$"
 
 
 
@@ -116,7 +116,7 @@ end
 
 OneIsland_PokemonCenter_Text_8:
 	.string "I can't wait to see what that place\n"
-	.string "hides…$"
+	.string "hides…{PAUSE 20}$"
 
 
 
@@ -149,7 +149,7 @@ OneIsland_PokemonCenter_Text_9:
 	.string "peerless POKÉMON in that underwater\l"
 	.string "grotto. We are so lucky that it was so\l"
 	.string "hidden between the south rocks at\l"
-	.string "TREASURY BEACH…$"
+	.string "TREASURY BEACH…{PAUSE 20}$"
 
 
 CuevaTesoro_Activador_Entrada::
@@ -173,7 +173,7 @@ release
 end
 
 CuevaTesoro_Activador_Entrada_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CuevaTesoro_Activador_Entrada_Pasa_Text_YesNo:
 	.string "It seems that there is a small opening\n"

@@ -126,7 +126,7 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_1:
 
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_3:
 .string "¿Quieres ayudarme?$"
@@ -150,7 +150,7 @@ RuinsOfAlph_House_Mision_Secundaria_Texto_6:
 	.string "IRIS.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_7:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_8:
 .string "¡Guau! ¡Tú solo pudiste con ellos! Debes\n"

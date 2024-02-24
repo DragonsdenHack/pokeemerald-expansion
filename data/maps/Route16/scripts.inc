@@ -71,7 +71,7 @@ release
 end
 
 Route16_Text_13:
-	.string "Losers… No one that defies an ELITE 4\n"
+	.string "Losers…{PAUSE 15} No one that defies an ELITE 4\n"
 	.string "member can come out well…$"
 
 
@@ -91,7 +91,7 @@ release
 end
 
 Route16_Text_15:
-	.string "You can only confess… or go to prison.$"
+	.string "You can only confess…{PAUSE 25} or go to prison.$"
 
 
 Route16_16::
@@ -111,7 +111,7 @@ release
 end
 
 Route16_Text_17:
-	.string "Damn it… My WEEZING was not even able\n"
+	.string "Damn it…{PAUSE 25} My WEEZING was not even able\n"
 	.string "to touch that big steel snake…$"
 
 
@@ -434,7 +434,7 @@ Route16_Combate_Bruno_Texto_14:
 Route16_Combate_Bruno_Texto_15:
 	.string "And it's not just that, you've saved\n"
 	.string "this place from also being swallowed by\l"
-	.string "this damn hidden dictature… our loyalty\l"
+	.string "this damn hidden dictature…{PAUSE 25} our loyalty\l"
 	.string "to TEAM ROCKET has only grown after\l"
 	.string "this.$"
 
@@ -447,7 +447,7 @@ Route16_Combate_Bruno_Texto_16:
 	.string "can't even talk properly.$"
 
 Route16_Combate_Bruno_Texto_17:
-	.string "Now we are gonna head out… we will keep\n"
+	.string "Now we are gonna head out…{PAUSE 25} we will keep\n"
 	.string "fighting to see this region in the hands\l"
 	.string "that it should be.$"
 

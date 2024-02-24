@@ -325,10 +325,10 @@ PokemonTower_6F_Cultistas_Texto_1:
 	.string "place like this.$"
 
 PokemonTower_6F_Cultistas_Texto_2:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 PokemonTower_6F_Cultistas_Texto_3:
-	.string "Hmm… I expected something else to be\n"
+	.string "Hmm…{PAUSE 25} I expected something else to be\n"
 	.string "honest. You don't seem to be bound by\l"
 	.string "the same chains that control the lives\l"
 	.string "of most people.$"
@@ -340,12 +340,12 @@ PokemonTower_6F_Cultistas_Texto_4:
 	.string "potential has not been wasted.$"
 
 PokemonTower_6F_Cultistas_Texto_5:
-	.string "But… there's no excuse for what you\n"
+	.string "But…{PAUSE 25} there's no excuse for what you\n"
 	.string "just did. You'll have to justify it on\l"
 	.string "the battlefield.$"
 
 PokemonTower_6F_Cultistas_Texto_6:
-	.string "I see… nothing is what it seems.$"
+	.string "I see…{PAUSE 25} nothing is what it seems.$"
 
 PokemonTower_6F_Cultistas_Texto_7:
 	.string "So your acts reply to a bigger purpose…\n"
@@ -364,7 +364,7 @@ PokemonTower_6F_Cultistas_Texto_9:
 	.string "stay in the way that your will says.$"
 
 PokemonTower_6F_Cultistas_Texto_10:
-	.string "Just then… you could see KANTO and\n"
+	.string "Just then…{PAUSE 25} you could see KANTO and\n"
 	.string "LAVENDER TOWN in all its shine.$"
 
 PokemonTower_6F_Cultistas_Texto_11:
@@ -487,10 +487,10 @@ release
 end
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_1:
-	.string "You… have… caused… this…$"
+	.string "You…{PAUSE 35} have…{PAUSE 35} caused…{PAUSE 35} this…{PAUSE 25}$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_2:
-.string "... ... ... ...$"
+.string "…{PAUSE 25} …{PAUSE 25} …{PAUSE 25} …{PAUSE 25}$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3:
 	.string "The MAROWAK spirit is out of control\n"

@@ -343,7 +343,7 @@ AzaleaCarbonS2_Combate_Final_Texto_2:
 .string "Dime, ¿conoces la FORJA FUEGO?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_3:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_4:
 .string "En la lejana región de SINOHH, desde\n"
@@ -366,7 +366,7 @@ AzaleaCarbonS2_Combate_Final_Texto_6:
 	.string "¿No es eso también egoísta?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_7:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_8:
 .string "Sigues empeñado en defenderlos,\n"
@@ -394,7 +394,7 @@ AzaleaCarbonS2_Combate_Final_Texto_12:
 	.string "¿verdad?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_13:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_14:
 .string "¿¡¡El TEAM ROCKET!!? ¿¡¡Su más alto\n"

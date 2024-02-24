@@ -70,7 +70,7 @@ end
 
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_1:
-.string "Damn it TAMER… By his fault everybody\n"
+.string "Damn it TAMER…{PAUSE 25} By his fault everybody\n"
 	.string "makes fun of my OLD ROD. I can't let it\l"
 	.string "stay like this, my brothers will take all\l"
 	.string "the protagonism…$"

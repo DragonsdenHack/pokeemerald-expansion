@@ -152,7 +152,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_3:
 	.string "refugios debería estar sellada.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_4:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_5:
 .string "S…señor… es {PLAYER}, uno de los\n"
@@ -168,7 +168,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_7:
 	.string "es lo que haré.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_8:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_9:
 .string "Así que has derrotado a los 4\n"

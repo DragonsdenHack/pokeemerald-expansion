@@ -297,7 +297,7 @@ NeoPowerPlant_Combate_Zapdos_Texto_7:
 	.string "RADIO a la mayor brevedad posibles.$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_8:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_9:
 .string "Espero que estés preparado.$"

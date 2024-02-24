@@ -60,7 +60,7 @@ face_player
 step_end
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_2:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_3:
 .string "¿Tienes curiosidad por conocer mi\n"
@@ -72,7 +72,7 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_3:
 	.string "nuestros equipos en plenitud.$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_4:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_5:
 .string "Así que AGATHA está en el lugar… Era de\n"
@@ -153,7 +153,7 @@ emote_exclamation_mark
 step_end
 
 MtSilverPkmnCenter3_2_Texto_1:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilverPkmnCenter3_2_Texto_2:
 .string "Entonces tú también sabes del paso más\n"

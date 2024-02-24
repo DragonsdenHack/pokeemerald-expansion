@@ -23,7 +23,7 @@ TwoIsland_Torre_P4_Dormido_Texto_2:
 .string "(He's taking a nap!)$"
 
 TwoIsland_Torre_P4_Dormido_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 TwoIsland_Torre_P4_Evento_Final::
 lock
@@ -262,7 +262,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_4:
 
 TwoIsland_Torre_P4_Evento_Final_Texto_5:
 	.string "The fact is, I haven't been part of the\n"
-	.string "organization for a while. Let's say... I\l"
+	.string "organization for a while. Let's say…{PAUSE 25} I\l"
 	.string "broke the internal ROCKET code of\l"
 	.string "conduct, the same code that caused us\l"
 	.string "to fail in the MT. MOON mission, thanks\l"
@@ -318,7 +318,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_12:
 TwoIsland_Torre_P4_Evento_Final_Texto_13:
 	.string "Isn't it fantastic? Come on! When all of\n"
 	.string "this is done, I might even make you a\l"
-	.string "special offer for the SINNOH POKÉMON...$"
+	.string "special offer for the SINNOH POKÉMON…{PAUSE 20}$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_14:
 	.string "Do you want me to return the JOYFUL\n"
@@ -334,7 +334,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_15:
 	.string "can't you see?$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_16:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_17:
 	.string "I see you're still the same; I thought\n"
@@ -353,7 +353,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_18:
 	.string "for that.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_19:
-	.string "However... the winner isn't always the\n"
+	.string "However…{PAUSE 20} the winner isn't always the\n"
 	.string "strongest one.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_20:
@@ -403,7 +403,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_29:
 	.string "You will never reach my level!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_30:
-	.string "Grrrrrr.... You were not supposed to win!$"
+	.string "Grrrrrr…{PAUSE 20} You were not supposed to win!$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_31:
 	.string "FRANK: No! You shouldn't be that\n"
@@ -436,4 +436,4 @@ TwoIsland_Torre_P4_Evento_Final_Texto_2:
 
 TwoIsland_Torre_P4_Evento_Final_Texto_1:
 	.string "As I was saying, we can easily sell the\n"
-	.string "CRANIDOS for 7000 COINS...$"
+	.string "CRANIDOS for 7000 COINS…{PAUSE 20}$"

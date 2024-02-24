@@ -255,7 +255,7 @@ Route14_Combate_Azul_Texto_4:
 	.string "rest-.$"
 
 Route14_Combate_Azul_Texto_5:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route14_Combate_Azul_Texto_6:
 	.string "What nonsense, why do you want to know\n"

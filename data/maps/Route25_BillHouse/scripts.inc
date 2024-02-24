@@ -176,7 +176,7 @@ Route25_BillHouse_Evento_Policia_text_7:
 .string "You are under arrest, ROCKET. You will\n"
 	.string "spend the rest of your days in prison\l"
 	.string "for attempting against the\l"
-	.string "intellectual property of our region. … …\l"
+	.string "intellectual property of our region. …{PAUSE 25} …{PAUSE 25}\l"
 	.string "Still resisting? Well then, we'll need to\l"
 	.string "reduce you by force!$"
 

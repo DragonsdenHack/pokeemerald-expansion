@@ -81,7 +81,7 @@ MtSilver3_Combate_Rojo_Texto_3:
 	.string "Ya nos conocemos.$"
 
 MtSilver3_Combate_Rojo_Texto_4:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilver3_Combate_Rojo_Texto_5:
 .string "M.DRAGÓN: Esos amigos tuyos\n"

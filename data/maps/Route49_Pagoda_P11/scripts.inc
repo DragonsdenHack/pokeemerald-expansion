@@ -73,7 +73,7 @@ walk_slow_right
 step_end
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_1:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_2:
 .string "Oh… mis más sinceras disculpas. Estaba\n"

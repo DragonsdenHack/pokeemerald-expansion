@@ -127,7 +127,7 @@ walk_slow_left
 step_end
 
 ViasSur5_Combate_Pegaso_Texto_13.1:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 ViasTren3_Rastro_Zapdos_Move_10:
 walk_in_place_right

@@ -330,7 +330,7 @@ AzaleaCarbonS1_Segundo_Combate_Texto_3:
 	.string "lugar ya es oficialmente nuestro.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_4:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_5:
 .string "Así que te niegas. Te diré algo: aunque\n"

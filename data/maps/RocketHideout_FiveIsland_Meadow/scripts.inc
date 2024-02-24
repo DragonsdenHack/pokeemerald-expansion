@@ -87,9 +87,9 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_15:
-.string "…\n"
-.string "…\l"
-.string "… … (It contains a KINGLER inside,\l"
+.string "…{PAUSE 15}\n"
+.string "…{PAUSE 15}\l"
+.string "…{PAUSE 15} …{PAUSE 15} (It contains a KINGLER inside,\l"
 .string "it's better not to touch it...)$"
 
 
@@ -157,9 +157,9 @@ release
 end
 
 RocketHideoutFiveIslandMeadow_Text_17:
-.string "…\n"
-.string "…\l"
-.string "… … (It contains a NIDORINO inside,\l"
+.string "…{PAUSE 15}\n"
+.string "…{PAUSE 15}\l"
+.string "…{PAUSE 15} …{PAUSE 15} (It contains a NIDORINO inside,\l"
     .string "it's better not to touch it...)$"
 
 
@@ -210,17 +210,17 @@ RocketHideoutFiveIslandMeadowDocumento_Text_100:
     .string"AND CONDUCT\p"
     .string "1.- My presence in the organization is a\n"
     .string "privilege, not a right, and I must gain\l"
-    .string "it in action. 2.- The loyalty and total\l"
+    .string "it in action.{PAUSE 15} 2.- The loyalty and total\l"
     .string "commitment of the organization are\l"
-    .string "undeniable. 3.- Insubordination and\l"
-    .string "betrayal are sentenced to death. 4.-\l"
+    .string "undeniable.{PAUSE 15} 3.- Insubordination and\l"
+    .string "betrayal are sentenced to death.{PAUSE 15} 4.-\l"
     .string "We act as a single body, unity above\l"
-    .string "individuality, but also... 5.- Does not\l"
+    .string "individuality, but also…{PAUSE 25} 5.- Does not\l"
     .string "mean that every ROCKET must have\l"
     .string "their own initiative, an attitude of\l"
     .string "constant search and improvement to\l"
-    .string "become a better trainer. 6.- Arrive,\l"
-    .string "analyze, adapt and win. 7.- Every\l"
+    .string "become a better trainer.{PAUSE 15} 6.- Arrive,\l"
+    .string "analyze, adapt and win.{PAUSE 15} 7.- Every\l"
     .string "member of the organization counts,\l"
     .string "from the most basic GRUNT to the\l"
     .string "highest positions, we function as a\l"
@@ -235,10 +235,10 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_101, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_101:
-    .string "...\n"
-	.string "...\l"
-	.string "… … (It contains a NIDORINO inside,\l"
-    .string "it's better not to touch it...)$"
+    .string "…{PAUSE 15}\n"
+	.string "…{PAUSE 15}\l"
+	.string "…{PAUSE 15} …{PAUSE 15} (It contains a NIDORINO inside,\l"
+    .string "it's better not to touch it…)$"
 
 
 
@@ -248,10 +248,10 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_102, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_102:
-    .string "...\n"
-	.string "...\l"
-	.string "… … (It contains a RHYHORN inside,\l"
-    .string "it's better not to touch it...)$"
+    .string "…{PAUSE 15}\n"
+	.string "…{PAUSE 15}\l"
+	.string "…{PAUSE 15} …{PAUSE 15} (It contains a RHYHORN inside,\l"
+    .string "it's better not to touch it…)$"
 
 
 RocketHideoutFiveIslanMeadowAbajo::     

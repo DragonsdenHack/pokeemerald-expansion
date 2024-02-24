@@ -334,7 +334,7 @@ FileIsleMeadow_Recluta_Balls_Text_Yes:
 	.string "HIGH-RANK!$"
 
 FileIsleMeadow_Recluta_Balls_Text_2:
-	.string "You've got talent...$"
+	.string "You've got talent…$"
 
 FileIsleMeadow_Recluta_Balls_Text_3:
 	.string "You have great potential, comrade. If\n"
@@ -405,14 +405,14 @@ FileIsleMeadow_Combate_Azul_Texto_2:
 	.string "LEAGUE craziness.$"
 
 FileIsleMeadow_Combate_Azul_Texto_3:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 FileIsleMeadow_Combate_Azul_Texto_4:
 	.string "Technically, I am the champion of the\n"
 	.string "POKÉMON LEAGUE, but we both know that\l"
 	.string "what happened there was entirely\l"
 	.string "different. It was you who defeated the\l"
-	.string "top trainers... including RED.$"
+	.string "top trainers…{PAUSE 30} including RED.$"
 
 FileIsleMeadow_Combate_Azul_Texto_5:
 	.string "That's when I realized I wanted to be\n"
@@ -443,7 +443,7 @@ FileIsleMeadow_Combate_Azul_Texto_9:
 	.string "ARCHER suggested a couple of spots to\n"
 	.string "catch some good POKÉMON. It might not\l"
 	.string "blow you away after fighting LANCE,\l"
-	.string "but... Let me have this battle!$"
+	.string "but…{PAUSE 20} Let me have this battle!$"
 
 FileIsleMeadow_Combate_Azul_Texto_10:
 	.string "Well, at least I competed.$"

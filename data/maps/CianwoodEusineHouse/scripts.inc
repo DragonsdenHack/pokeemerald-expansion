@@ -68,7 +68,7 @@ CianwoodEusineHouse_Combate_Texto_1:
 .string "????: … …$"
 
 CianwoodEusineHouse_Combate_Texto_1.1:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CianwoodEusineHouse_Combate_Texto_2:
 .string "Parece que han dado con una respuesta,\n"

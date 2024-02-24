@@ -65,7 +65,7 @@ Aqua2_Combate_Admin_Texto_2:
 	.string "witnessing the rebirth of KYOGRE.$"
 
 Aqua2_Combate_Admin_Texto_3:
-.string "...$"
+.string "{PAUSE 30}…{PAUSE 30}$"
 
 Aqua2_Combate_Admin_Texto_4:
 	.string "It seems you're still not aware of what\n"

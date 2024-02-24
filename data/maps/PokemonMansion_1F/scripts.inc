@@ -567,7 +567,7 @@ PokemonMansion_1F_Ladrones_Texto_2:
 	.string "we've swindled too many people. We'll\l"
 	.string "start a new chapter in JOHTO, even\l"
 	.string "though its residents are somewhat less\l"
-	.string "affluent than those here...$"
+	.string "affluent than those here…{PAUSE 20}$"
 
 PokemonMansion_1F_Ladrones_Texto_3:
 	.string "Who are you? A ROCKET? Mind your own\n"
@@ -575,7 +575,7 @@ PokemonMansion_1F_Ladrones_Texto_3:
 	.string "working out, it's not our problem.$"
 
 PokemonMansion_1F_Ladrones_Texto_4:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 PokemonMansion_1F_Ladrones_Texto_5:
 	.string "What are you saying? Do you want to\n"
@@ -654,8 +654,8 @@ PokemonMansion_1F_Ladrones_Texto_17:
 	.string "from MT. MOON.$"
 
 PokemonMansion_1F_Ladrones_Texto_18:
-.string "Wait a moment...\n"
-	.string "I've seen you before...$"
+.string "Wait a moment…{PAUSE 30}\n"
+	.string "I've seen you before…{PAUSE 20}$"
 
 PokemonMansion_1F_Ladrones_Texto_19:
 	.string "The rookie ROCKET I fooled on MT. MOON!\n"
@@ -682,7 +682,7 @@ PokemonMansion_1F_Ladrones_Texto_22:
 PokemonMansion_1F_Ladrones_Texto_23:
 	.string "Damn it, don't think you'll get away with\n"
 	.string "this, ROCKET. I fooled you once and I\l"
-	.string "can do it again...$"
+	.string "can do it again…{PAUSE 20}$"
 
 PokemonMansion_1F_Ladrones_Texto_24:
 .string "W-wait!\n"
@@ -706,7 +706,7 @@ PokemonMansion_1F_Ladrones_Texto_28:
 
 PokemonMansion_1F_Ladrones_Texto_29:
 	.string "What do you think you're doing,\n"
-	.string "ROCKET?! Stop and...!$"
+	.string "ROCKET?! Stop and…{PAUSE 20}!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
 	.string "{PLAYER} found the 2 million POKÉS\n"

@@ -274,7 +274,7 @@ Route10_Combate_Andra_Texto_4:
 	.string "for this place.$"
 
 Route10_Combate_Andra_Texto_5:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route10_Combate_Andra_Texto_6:
 	.string "ANDRA: The thing is, that place hides\n"
@@ -301,7 +301,7 @@ Route10_Combate_Andra_Texto_8:
 	.string "have surpassed any expectation\l"
 	.string "defeating our superior at MT.MOON, also\l"
 	.string "BILL and then, to a skilled CAPTAIN like\l"
-	.string "the one on the SS. ANNE, but… do you\l"
+	.string "the one on the SS. ANNE, but…{PAUSE 20} do you\l"
 	.string "know what? I haven't been left behind,\l"
 	.string "{PLAYER}, I told you I will be the\l"
 	.string "strongest GRUNT in the entire\l"
@@ -411,7 +411,7 @@ msgbox Route10Documento_Andra_Parada_text_1, MSGBOX_SIGN
 end
 
 Route10Documento_Andra_Parada_text_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route10_Entrenadores_Guays::
 lockall

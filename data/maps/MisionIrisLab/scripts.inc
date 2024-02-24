@@ -238,7 +238,7 @@ MisionIrisLab_Segundo_Cientifico_Texto_3:
 	.string "harían el menor avance en ese lugar?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_4:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_5:
 .string "Así que eso es irrelevante… ¿la forma\n"

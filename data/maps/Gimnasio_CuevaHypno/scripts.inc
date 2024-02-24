@@ -186,7 +186,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_2:
 	.string "place.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_3:
-	.string "And it's because... this once was an\n"
+	.string "And it's because…{PAUSE 20} this once was an\n"
 	.string "official GYM. In the time when the\l"
 	.string "islands had 4 GYMS, I came here after\l"
 	.string "the LAVENDER TOWN GYM was closed.$"
@@ -214,7 +214,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_6:
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_7:
 	.string "However, its powers became unstable\n"
-	.string "and... dangerous for ordinary people. As\l"
+	.string "and…{PAUSE 20} dangerous for ordinary people. As\l"
 	.string "a consequence, we had to close the GYM,\l"
 	.string "followed by the other SEVII GYMS later.$"
 
@@ -244,7 +244,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_11:
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_12:
 	.string "Now that you know my history, you'll be\n"
 	.string "a bit more ready for our battle, and\l"
-	.string "also... you'll comprehend what the\l"
+	.string "also…{PAUSE 20} you'll comprehend what the\l"
 	.string "puzzle of this GYM is about. Observe.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_13:
@@ -276,7 +276,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_17:
 	.string "HYPNO takes advantage of this to test\n"
 	.string "the subject. Forcing them to expand\l"
 	.string "their own reality from what they have\l"
-	.string "already seen, because... What could limit\l"
+	.string "already seen, because…{PAUSE 40} What could limit\l"
 	.string "us more than our own perception of\l"
 	.string "reality?$"
 
@@ -336,10 +336,10 @@ end
 
 
 Gimnasio_CuevaHypno_Primera_Pregunta_No_Texto_1:
-	.string "Correct answer, but... blindly, right?\n"
+	.string "Correct answer, but…{PAUSE 20} blindly, right?\n"
 	.string "You don't know any ghosts in KANTO\l"
 	.string "beyond those 3, and yet you feel that\l"
-	.string "there's something more... hidden, don't\l"
+	.string "there's something more…{PAUSE 20} hidden, don't\l"
 	.string "you? You'll return to LAVENDER TOWN; I'm\l"
 	.string "sure there are still things for you to\l"
 	.string "do there.$"
@@ -489,9 +489,9 @@ Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_1:
 	.string "essence of the region.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_2:
-	.string "Incorrect answer... Are you saying that\n"
+	.string "Incorrect answer…{PAUSE 20} Are you saying that\n"
 	.string "there are only 2? One in VIOLET CITY\l"
-	.string "and the other in ECRUTEAK CITY? ...\l"
+	.string "and the other in ECRUTEAK CITY? …\l"
 	.string "Incorrect answer.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_No::
@@ -619,7 +619,7 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_8:
 	.string "going from aspirant to aspirant. That\l"
 	.string "characteristic feeling of competition,\l"
 	.string "which over the years manifests in a\l"
-	.string "different way... I definitely don't\l"
+	.string "different way…{PAUSE 20} I definitely don't\l"
 	.string "regret taking this path.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_7:
@@ -629,20 +629,20 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_7:
 	.string "speechless!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_6:
-	.string "I would say... that our performance has\n"
-	.string "been excellent, but... have I still lost?$"
+	.string "I would say…{PAUSE 20} that our performance has\n"
+	.string "been excellent, but…{PAUSE 20} have I still lost?$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_5:
 	.string "At this moment, devoid of spectators,\n"
 	.string "applause, or cameras to immortalize\l"
 	.string "this moment, adhering to the lifestyle\l"
-	.string "we've chosen... you'll see the results of\l"
+	.string "we've chosen…{PAUSE 30} you'll see the results of\l"
 	.string "our training!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_4:
-	.string "As for me... I've spent decades without\n"
+	.string "As for me…{PAUSE 20} I've spent decades without\n"
 	.string "any other reference than this small\l"
-	.string "island. But... all that time, both HYPNO\l"
+	.string "island. But…{PAUSE 20} all that time, both HYPNO\l"
 	.string "and I have kept training, with the sole\l"
 	.string "goal of surpassing ourselves, our best\l"
 	.string "benchmark.$"
@@ -655,7 +655,7 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_2:
 	.string "Without HYPNO, I wouldn't have known,\n"
 	.string "even though, according to him, that\l"
 	.string "title doesn't exist, as you have\l"
-	.string "verified in his questions...$"
+	.string "verified in his questions…$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_1:
 	.string "So all this time, I've been talking with\n"

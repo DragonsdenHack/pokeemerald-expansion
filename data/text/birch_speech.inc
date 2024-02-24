@@ -8,8 +8,7 @@ gText_Birch_Welcome::
 	.string "$"
 
 gText_Birch_Pokemon::
-	.string "This…”\p"
-	.string "\n"
+	.string "This…\p"
 	.string "$"
 
 gText_Birch_MainSpeech::

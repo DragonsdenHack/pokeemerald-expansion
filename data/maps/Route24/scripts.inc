@@ -107,7 +107,7 @@ end
 
 Route24_Recluta_text_1:
 .string "Not bad for a ROCKET, so bad that this\n"
-	.string "challenge is not for you… I'm also a\l"
+	.string "challenge is not for you…{PAUSE 25} I'm also a\l"
 	.string "ROCKET, all this thing on NUGGET BRIDGE\l"
 	.string "is for recruiting, those dumb TRAINERS\l"
 	.string "over there think this is some kind of\l"

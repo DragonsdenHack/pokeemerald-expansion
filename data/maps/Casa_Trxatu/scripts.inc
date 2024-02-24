@@ -98,7 +98,7 @@ walk_in_place_down
 step_end
 
 CasaTrxatu_Combate_Texto_1:
-.string "... ...$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CasaTrxatu_Combate_Texto_2:
 	.string "Wow, it seems like no matter how hidden\n"

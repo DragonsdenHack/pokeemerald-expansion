@@ -198,7 +198,7 @@ ThreeIsland_Secundaria_Recreativos_Texto_4:
 	.string "leave the business on TWO ISLAND.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_5:
-.string "… …$"
+.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_5.1:
 	.string "Would you support us in retrieving it?$"
