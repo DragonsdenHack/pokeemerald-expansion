@@ -161,10 +161,10 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_1:
 	.string "worthy servant to set it free.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_2:
-.string "...$"
+.string "{PAUSE 20}…{PAUSE 20}$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_3:
-	.string "This SAPPHIRE... already a big deal in\n"
+	.string "This SAPPHIRE{PAUSE 20}…{PAUSE 20} already a big deal in\n"
 	.string "the black market. But what most people\l"
 	.string "don't get is that it's worth way more\l"
 	.string "than any price some rich dude would pay\l"

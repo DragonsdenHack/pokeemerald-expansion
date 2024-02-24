@@ -80,7 +80,7 @@ PokemonLeague_3F_Combate_Agatha_Texto_1:
 	.string "I haven't seen so much talent together\n"
 	.string "since that glorious era where the\l"
 	.string "championship was contested between\l"
-	.string "OAK and GIOV… It is a pity that all of\l"
+	.string "OAK and GIOV…{PAUSE 15} It is a pity that all of\l"
 	.string "you will fall down miserably, I shouldn't\l"
 	.string "tell you this, {PLAYER}, but the\l"
 	.string "political interests had crossed these\l"

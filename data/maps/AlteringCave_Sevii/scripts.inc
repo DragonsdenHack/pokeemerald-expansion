@@ -82,7 +82,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_1:
 	.string "????: Did you find something?$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_2:
-.string "...$"
+.string "{PAUSE 20}…{PAUSE 20}$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_3:
 	.string "Don't waste my time, kid; this is no joke.$"
@@ -127,7 +127,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_8:
 	.string "inexperienced bug catcher.$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_9:
-	.string "So you still persist... Well, just because\n"
+	.string "So you still persist{PAUSE 20}…{PAUSE 20} Well, just because\n"
 	.string "you've helped me, you'll have the\l"
 	.string "privilege of witnessing something\l"
 	.string "you've never seen before. I won't need\l"
@@ -139,7 +139,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_9:
 	.string "gods!$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_10:
-	.string "My royal and ancient POKÉMON... I surely\n"
+	.string "My royal and ancient POKÉMON{PAUSE 20}…{PAUSE 20} I surely\n"
 	.string "underestimated you.$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_11:

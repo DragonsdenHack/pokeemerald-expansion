@@ -44,7 +44,7 @@ release
 end
 
 RuinValley10_Texto_1:
-	.string "Damn door... ADMIN.MATT must know how\n"
+	.string "Damn door{PAUSE 20}…{PAUSE 20} ADMIN.MATT must know how\n"
 	.string "to get through here; it's the only thing\l"
 	.string "separating us from the precious\l"
 	.string "SAPPHIRE...$"

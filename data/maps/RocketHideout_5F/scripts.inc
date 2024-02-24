@@ -578,7 +578,7 @@ RocketHideout5F_Text_38:
 	.string "The past retains everything, for better\n"
 	.string "or worse, your past actions cannot be\l"
 	.string "undone, everything remains forever, it\l"
-	.string "is just untouched by time's flux... and\l"
+	.string "is just untouched by time's flux…{PAUSE 20} and\l"
 	.string "that's also another form of immortality.$"
 
 
@@ -611,7 +611,7 @@ RocketHideout5F_Text_40:
 	.string "resources, it's a much better team than\l"
 	.string "all that scum roaming the routes and\l"
 	.string "common cities, calling themselves\l"
-	.string "trainers… the best trainers in the\l"
+	.string "trainers…{PAUSE 20} the best trainers in the\l"
 	.string "region are hidden quite effectively.$"
 
 
@@ -1372,9 +1372,9 @@ RocketHideout5FDocumento_Text_115:
 	.string "Pokémon's stat, causes a sudden\l"
 	.string "decrease in another stat, as a\l"
 	.string "compensatory measure, almost as if\l"
-	.string "nature opposes us exceeding…\l"
+	.string "nature opposes us exceeding…{PAUSE 20}\l"
 	.string "Everything has a tendency to reach\l"
-	.string "homeostasis… Despite that, it is just\l"
+	.string "homeostasis…{PAUSE 20} Despite that, it is just\l"
 	.string "another bump in the road…$"
 
 
@@ -1453,7 +1453,7 @@ RocketHideout5FDocumento_Text_118:
 	.string "strategy along with game knowledge are\l"
 	.string "the elements that will turn you into a\l"
 	.string "champion, with, of course, a powerful\l"
-	.string "and balanced team or... with high BASE\l"
+	.string "and balanced team or…{PAUSE 20} with high BASE\l"
 	.string "STATS, whatever you prefer to call it.$"
 
 
@@ -1515,7 +1515,7 @@ RocketHideout5FDocumento_Text_119:
     .string "undeniable. 3.- Insubordination and\l"
     .string "betrayal are sentenced to death. 4.-\l"
     .string "We act as a single body, unity above\l"
-    .string "individuality, but also... 5.- Does not\l"
+    .string "individuality, but also…{PAUSE 20} 5.- Does not\l"
     .string "mean that every ROCKET must have\l"
     .string "their own initiative, an attitude of\l"
     .string "constant search and improvement to\l"
@@ -1721,7 +1721,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2:
 	.string "The battle is over, as expected he\n"
 	.string "defeated me very easily, that\l"
 	.string "CHARIZARD is an eccentricity in our\l"
-	.string "region… just someone like OAK could\l"
+	.string "region…{PAUSE 20} just someone like OAK could\l"
 	.string "have given it.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_3:
@@ -1756,7 +1756,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_4:
 	.string "at the tip of the iceberg.$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_5:
-.string "... ... ... ... ... ... ...$"
+.string "…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_6:
 	.string "I want you to visit PALLET TOWN\n"
@@ -1773,7 +1773,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_7:
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_8:
 	.string "If we can figure out the reasons why he\n"
 	.string "acts like this, we could definitely\l"
-	.string "neutralize him… One more thing\l"
+	.string "neutralize him…{PAUSE 25} One more thing\l"
 	.string "{PLAYER}, avoid OAK, the owner of the\l"
 	.string "research laboratory in the town, as\l"
 	.string "much as possible, if you have no other\l"
@@ -1916,7 +1916,7 @@ RocketHideout_5F_Combate_Andra_Texto_1:
 	.string "extensive, have you checked out all the\l"
 	.string "research zones?, it appears they are\l"
 	.string "quite committed to the science behind\l"
-	.string "the real power of POKÉMON. … … … … While\l"
+	.string "the real power of POKÉMON. {PAUSE 10}…{PAUSE 10}…{PAUSE 10}…{PAUSE 10}…{PAUSE 10} While\l"
 	.string "it seems we still don't have access to\l"
 	.string "the most important rooms, I knew TEAM\l"
 	.string "ROCKET was a formidable organization,\l"
@@ -1952,7 +1952,7 @@ RocketHideout_5F_Combate_Andra_Texto_4:
 	.string "level.$"
 
 RocketHideout_5F_Combate_Andra_Texto_5:
-.string "... ... ... ... ... ... ...$"
+.string "{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…{PAUSE 15}…$"
 
 RocketHideout_5F_Combate_Andra_Texto_6:
 	.string "The mysteriously TRAINER is here? And\n"
@@ -1965,7 +1965,7 @@ RocketHideout_5F_Combate_Andra_Texto_7:
 	.string "I already have defeated all the HIGH\l"
 	.string "RANKS of this place, I wanted to keep\l"
 	.string "improving even more until fighting\l"
-	.string "against you but … You have no idea how\l"
+	.string "against you but…{PAUSE 25} You have no idea how\l"
 	.string "much my POKÉMON have grown since our\l"
 	.string "last battle!$"
 
@@ -2434,7 +2434,7 @@ RocketHideout5F_Secundaria_Frank_Texto_5:
 	.string "way!$"
 
 RocketHideout5F_Secundaria_Frank_Texto_6:
-.string "…$"
+.string "{PAUSE 20}…{PAUSE 20}$"
 
 RocketHideout5F_Secundaria_Frank_Texto_7:
 	.string "Just for a while? Do you really think\n"

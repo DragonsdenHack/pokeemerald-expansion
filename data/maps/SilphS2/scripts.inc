@@ -368,7 +368,7 @@ end
 SilphS2_Text_20:
 	.string "You reckon I'm plotting some evil\n"
 	.string "scheme or creating a kick-ass POKÉMON\l"
-	.string "on my computer?... Spot on!$"
+	.string "on my computer?{PAUSE 20}…{PAUSE 20} Spot on!$"
 
 
 

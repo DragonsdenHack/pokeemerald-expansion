@@ -240,9 +240,9 @@ SsAnne_4F_Combate_Azul_text_4:
 	.string "Seriously, I just lost against a ROCKET?$"
 
 SsAnne_4F_Combate_Azul_text_5:
-.string "...\n"
-	.string "...\l"
-.string "So, you're not a simple ROCKET... a HIGH\l"
+.string "{PAUSE 20}…{PAUSE 20}\n"
+	.string "{PAUSE 20}…{PAUSE 20}\l"
+.string "So, you're not a simple ROCKET{PAUSE 20}…{PAUSE 20} a HIGH\l"
 	.string "RANK GRUNT, you say? To me, you all look\l"
 	.string "the same! Anyway, you're the only one\l"
 	.string "who was able to defeat me besides that\l"

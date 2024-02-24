@@ -399,8 +399,8 @@ end
 RocketHideout7F_Text_23:
 	.string "Those documents were a chimera for the\n"
 	.string "entire scientific community just a few\l"
-	.string "years ago, and look now... Here they\l"
-	.string "are... They're real...$"
+	.string "years ago, and look now{PAUSE 20}…{PAUSE 20} Here they\l"
+	.string "are{PAUSE 20}…{PAUSE 20} They're real.$"
 
 
 

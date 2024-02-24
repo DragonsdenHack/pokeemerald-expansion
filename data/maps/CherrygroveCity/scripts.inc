@@ -342,7 +342,7 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_2:
 .string "Trees!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_3:
-	.string "FALKNER: Good… Well held, that\n"
+	.string "FALKNER: Good…{PAUSE 20} Well held, that\n"
 	.string "HURRICANE hits harder and harder.$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_4:

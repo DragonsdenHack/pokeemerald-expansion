@@ -22,7 +22,7 @@ CeladonCity_Shop2F_Text_3:
 .string "We have a customer, LANCE, who\n"
     .string "occasionally comes.\p"
     .string "He always buys capes.\p"
-    .string "I wonder… Does he have many\n"
+    .string "I wonder…{PAUSE 20} Does he have many\n"
     .string "identical capes at home?$"
 
 CeladonShop2F_4::

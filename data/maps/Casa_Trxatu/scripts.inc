@@ -178,7 +178,7 @@ CasaTrxatu_Combate_Texto_12:
 	.string "splendid.$"
 
 CasaTrxatu_Combate_Texto_13:
-	.string "Oh, man... I totally thought that with\n"
+	.string "Oh, man{PAUSE 20}…{PAUSE 20} I totally thought that with\n"
 	.string "that singular POKÉMON I found in the\l"
 	.string "ruins right there, I'd have a shot\l"
 	.string "against you. Guess it takes more than\l"

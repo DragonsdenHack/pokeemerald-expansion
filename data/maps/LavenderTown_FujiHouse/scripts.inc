@@ -294,7 +294,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_2:
 	.string "according to BLAINE.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_3:
-.string "PROTON: … …$"
+.string "PROTON: …{PAUSE 20}…{PAUSE 20}$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_4:
 	.string "With MEWTWO, things would change\n"
@@ -307,7 +307,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_5:
 	.string "long, especially without OAK's help.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_6:
-	.string "PROTON: That OAK... he might even know\n"
+	.string "PROTON: That OAK…{PAUSE 25} he might even know\n"
 	.string "where it is.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_7:
@@ -317,7 +317,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_7:
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_8:
 	.string "I will pray at POKÉMON TOWER for the\n"
-	.string "future of KANTO, if all goes w…$"
+	.string "future of KANTO, if all goes w…{PAUSE 10}$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_9:
 	.string "????: You'll have plenty of time to pray\n"
@@ -362,13 +362,13 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_18:
 	.string "think you have a choice.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_19:
-	.string "You come peacefully or...$"
+	.string "You come peacefully or…{PAUSE 10}$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_20:
 	.string "PROTON: SLOWBRO! TELEPORT!$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_21:
-	.string "LT. SURGE: Damn... a ROCKET with a\n"
+	.string "LT. SURGE: Damn…{PAUSE 20} a ROCKET with a\n"
 	.string "SLOWBRO, probably not even from KANTO.$"
 
 
@@ -378,4 +378,4 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_22:
 	.string "isn't it?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_23:
-.string "FUJI: … …$"
+.string "FUJI: {PAUSE 20}… …{PAUSE 20}$"

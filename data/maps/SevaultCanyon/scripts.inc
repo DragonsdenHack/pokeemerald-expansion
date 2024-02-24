@@ -335,7 +335,7 @@ SevaultCanyon_Combate_Andra_Texto_13:
 	.string "dance!$"
 
 SevaultCanyon_Combate_Andra_Texto_14:
-	.string "Hmm... So close yet so far. I will fight\n"
+	.string "Hmm{PAUSE 20}…{PAUSE 20} So close yet so far. I will fight\n"
 	.string "for that remaining 1%.$"
 
 SevaultCanyon_Combate_Andra_Texto_15:

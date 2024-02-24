@@ -422,7 +422,7 @@ Route16_Combate_Bruno_Texto_12:
 	.string "technical problems at the last moment.$"
 
 Route16_Combate_Bruno_Texto_13:
-	.string "BRUNO: As for you, ROCKET... We'll meet\n"
+	.string "BRUNO: As for you, ROCKET{PAUSE 20}…{PAUSE 20} We'll meet\n"
 	.string "again…$"
 
 Route16_Combate_Bruno_Texto_14:

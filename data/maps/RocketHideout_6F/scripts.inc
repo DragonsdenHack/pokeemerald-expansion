@@ -1112,7 +1112,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_12:
 	.string "appreciated asset for our\l"
 	.string "organization and you acted according\l"
 	.string "to our moral values, that's good\l"
-	.string "enough… I will see you too in the next\l"
+	.string "enough…{PAUSE 25} I will see you too in the next\l"
 	.string "events.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_13:
@@ -1149,11 +1149,11 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 .string "PETREL: To celebrate your new status\n"
 	.string "here, and as payment for the success\l"
 	.string "of your respective missions, here are\l"
-	.string "your rewards… To you {PLAYER}, given\l"
+	.string "your rewards…{PAUSE 25} To you {PLAYER}, given\l"
 	.string "the savings this patent will bring, and\l"
 	.string "in compensation for leaving you earlier\l"
 	.string "at 0 POKÉ after the MT.MOON mission,\l"
-	.string "you get the the following…$"
+	.string "you get the the following…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
 .string "You have invoiced 125000 POKÉ!$"

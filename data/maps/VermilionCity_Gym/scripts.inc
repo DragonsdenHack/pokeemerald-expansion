@@ -264,8 +264,8 @@ VermilionCity_Gym_Text_SecondLockOpened:
 .string "The second electric lock opened!$"
 
 VermilionCityGym_NoPass_Text_4:
-.string "It is not possible… With LANCE himself\n"
-	.string "stamp… Excuse me, it was a mistake. I\l"
+.string "It is not possible{PAUSE 15}…{PAUSE 15} With LANCE himself\n"
+	.string "stamp…{PAUSE 15} Excuse me, it was a mistake. I\l"
 	.string "hope you enjoy our GYM.$"
 
 CeruleanCityGym_Can_Pass::
@@ -293,9 +293,9 @@ release
 end
 
 CeruleanCityGym_Can_Pass_Texto_1:
-.string "It is impossible! … … a LICENSE forged\n"
+.string "It is impossible! {PAUSE 20}…{PAUSE 20} …{PAUSE 20} a LICENSE forged\n"
 	.string "in the historic dispatches of the HQ of\l"
-	.string "the KANTO POKÉMON LEAGUE. … Excuse me\l"
+	.string "the KANTO POKÉMON LEAGUE. {PAUSE 20}…{PAUSE 20} Excuse me\l"
 	.string "sir! You can enter our humble GYM!$"
 
 
@@ -380,9 +380,9 @@ PewterCityGym_CanPass_Texto_2:
 .string "...$"
 
 PewterCityGym_CanPass_Texto_3:
-.string "A TRAINER LICENSE? … … Signed and\n"
+.string "A TRAINER LICENSE? {PAUSE 20}…{PAUSE 20} …{PAUSE 20} Signed and\n"
 	.string "approved by itself POKÉMON LEAGUE\l"
-	.string "MINISTRY… Excuse me sir, with all this\l"
+	.string "MINISTRY{PAUSE 20}…{PAUSE 20} Excuse me sir, with all this\l"
 	.string "failure in SILPH no one distinguishes\l"
 	.string "anymore who makes fun of ROCKET and\l"
 	.string "who is a real ROCKET. Go ahead.$"
@@ -457,7 +457,7 @@ CeladonCityGym_NoPass_Texto_4:
 
 VermilionCityGym_NoPass_Text_1:
     .string "So we have another aspirant to\n"
-	.string "CHAMPION eh! Wait…$"
+	.string "CHAMPION eh! Wait{PAUSE 20}…{PAUSE 20}$"
 
 VermilionCityGym_NoPass_Text_2:
     .string "You're a ROCKET! You don't have the\n"
@@ -541,10 +541,10 @@ release
 end
 
 FuchsiaCityGym_Can_Pass_Texto_1:
-.string "Hold on! … … KANTO DELEGATION along\n"
+.string "Hold on! {PAUSE 20}…{PAUSE 20} …{PAUSE 20}- KANTO DELEGATION along\n"
 	.string "with LANCE and all ELITE FOUR\l"
 	.string "authorize this TRAINER to be POKÉMON\l"
-	.string "LEAGUE CHAMPIONSHIP participant. - … …\l"
+	.string "LEAGUE CHAMPIONSHIP participant.- {PAUSE 20}…{PAUSE 20} …{PAUSE 20}\l"
 	.string "I'm so sorry sir, KOGA will be expecting\l"
 	.string "to fight against you.$"
 
@@ -582,7 +582,7 @@ release
 end
 
 Cinnabar_Gym_Can_Pass_Texto_1:
-.string "… No, it can't be! A LICENSE approved and\n"
+.string "{PAUSE 20}…{PAUSE 20} No, it can't be! A LICENSE approved and\n"
 	.string "signed by LANCE himself! There is even\l"
 	.string "your picture and TRAINER ID! Excuse my\l"
 	.string "misunderstood sir. Go ahead, please.$"

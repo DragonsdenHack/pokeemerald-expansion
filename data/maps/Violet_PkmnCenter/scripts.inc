@@ -61,6 +61,6 @@ VioletCity_PokemonCenter_Text_4:
 	.string "My sole purpose in coming here is to\n"
 	.string "immortalize my art in a painting of the\l"
 	.string "SPROUT TOWER at sunrise. This is just\l"
-	.string "preparation for the main event… the\l"
+	.string "preparation for the main event{PAUSE 20}…{PAUSE 20} the\l"
 	.string "magnificent BELL TOWER of ECRUTEAK\l"
 	.string "CITY.$"

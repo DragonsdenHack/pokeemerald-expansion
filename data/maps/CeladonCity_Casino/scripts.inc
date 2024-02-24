@@ -89,7 +89,7 @@ end
 
 CeladonCity_Casino_Text_7:
 	.string "Win, lose, it's all a matter of luck.\n"
-	.string "Where's the fun part in that? … I don't\l"
+	.string "Where's the fun part in that? {PAUSE 20}…{PAUSE 20} I don't\l"
 	.string "care, I can't stop playing anyway!$"
 
 

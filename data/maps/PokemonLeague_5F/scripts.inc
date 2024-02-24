@@ -253,7 +253,7 @@ end
 
 
 PokemonLeague_5F_Azul_Rojo_Texto_1:
-	.string "ANDRA: {PLAYER} finally! … … BLUE was\n"
+	.string "ANDRA: {PLAYER} finally! {PAUSE 25}…{PAUSE 25} …{PAUSE 25} BLUE was\n"
 	.string "the first one to defeat LANCE, but\l"
 	.string "there is no good news, he is being\l"
 	.string "massacred by RED, look…$"
@@ -265,7 +265,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_3:
 .string "Blas...$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_4:
-.string "RED: ...$"
+.string "RED: {PAUSE 25}...{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_5:
 	.string "BLUE: NO!\n"
@@ -281,7 +281,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_6:
 	.string "Why?\n"
 	.string "Why did I lose?\p"
 	.string "I never made any mistakes raising\n"
-	.string "my POKÉMON…\p"
+	.string "my POKÉMON…{PAUSE 20}\p"
 	.string "Darn it! You're the new POKÉMON\n"
 	.string "LEAGUE CHAMPION!\p"
 	.string "Although I don't like to admit it…$"
@@ -293,7 +293,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_8:
 	.string "OAK: So, you've won!\n"
 	.string "Sincerely, congratulations!\p"
 	.string "You're the new POKÉMON LEAGUE\n"
-	.string "CHAMPION!\p"
+	.string "CHAMPION!{PAUSE 30}\p"
 	.string "You've grown up so much since you\n"
 	.string "first left with CHARMANDER to work\l"
 	.string "on the POKéDEX.\p"
@@ -301,7 +301,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_8:
 
 
 PokemonLeague_5F_Azul_Rojo_Texto_9:
-	.string "OAK: BLUE…\n"
+	.string "OAK: BLUE…{PAUSE 35}\n"
 	.string "I'm disappointed in you.\p"
 	.string "I came when I heard you'd beaten\n"
 	.string "the ELITE FOUR.\p"
@@ -328,27 +328,27 @@ PokemonLeague_5F_Azul_Rojo_Texto_11:
 	.string "Come with me!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_12:
-.string "BLUE: ...$"
+.string "BLUE: {PAUSE 25}...{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_13:
-	.string "Gr-Grandpa… Wait… Please… I did my\n"
-	.string "best…! I have treated my POKÉMON with\l"
-	.string "kindness and trust…! Since the\l"
+	.string "Gr-{PAUSE 45}Grandpa…{PAUSE 35} Wait…{PAUSE 35} Please…{PAUSE 35} I did my\n"
+	.string "best…!{PAUSE 25} I have treated my POKÉMON with\l"
+	.string "kindness and trust…!{PAUSE 35} Since the\l"
 	.string "beginning, it has always been like this;\l"
 	.string "I've never disappointed them, and I've\l"
 	.string "never treated them as simple cards in a\l"
-	.string "deck like RED does…$"
+	.string "deck like RED does…{PAUSE 35}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_14:
 	.string "After all I went through, the issues I\n"
 	.string "had, I thought you would be proud of\l"
-	.string "me… although I lost against RED, I\l"
+	.string "me…{PAUSE 35} although I lost against RED, I\l"
 	.string "thought you would be proud of me for\l"
 	.string "trying my best and that I have a team\l"
 	.string "worthy of defeating the entire ELITE 4.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_15:
-	.string "But that never happened, grandpa… I\n"
+	.string "But that never happened, grandpa…{PAUSE 35} I\n"
 	.string "see that you are the kind of person who\l"
 	.string "leaves you dying on the floor if you are\l"
 	.string "not the best! What happened here today\l"
@@ -361,9 +361,9 @@ PokemonLeague_5F_Azul_Rojo_Texto_16:
 	.string "you aimed for; a strong and balanced\l"
 	.string "POKÉMON team, all at level 60, don't\l"
 	.string "blame yourself for not being able to\l"
-	.string "defeat RED! His fighting style… And the\l"
-	.string "strength and energy of his POKÉMON… It\l"
-	.string "'s unnatural…$"
+	.string "defeat RED! His fighting style…{PAUSE 25} And the\l"
+	.string "strength and energy of his POKÉMON…{PAUSE 25}\l"
+	.string "It's unnatural…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_17:
 .string "BLUE: {PLAYER}!!!\n"
@@ -378,7 +378,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_18:
 	.string "mysterious without even deigning to\l"
 	.string "talk to you after thrashing you in\l"
 	.string "battle, that is so disrespectful!\l"
-	.string "{PLAYER}! You have to defea…!$"
+	.string "{PLAYER}! You have to defea…!{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_19:
 	.string "COP: The party is over kids, we have a\n"
@@ -412,22 +412,22 @@ PokemonLeague_5F_Azul_Rojo_Texto_23:
 	.string "couple of decades.$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_24:
-.string "ANDRA: 9 cops….$"
+.string "ANDRA: 9 cops…{PAUSE 20}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_25:
-.string "POLICEMAN: What was that?$"
+.string "POLICEMAN: What do you mean?$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_26:
-	.string "ANDRA: You should know… who are you\n"
+	.string "ANDRA: You should know…{PAUSE 25} who are you\n"
 	.string "talking to, we've just beaten the ELITE\l"
 	.string "4…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_27:
 .string "IS THAT ALL YOU HAVE!!??\n"
 	.string "COM'ON, BRING MORE!\l"
-	.string "10!...\l"
-	.string "20!...\l"
-	.string "50!...\l"
+	.string "10!{PAUSE 20}...{PAUSE 20}\l"
+	.string "20!{PAUSE 20}...{PAUSE 20}\l"
+	.string "50!{PAUSE 20}...{PAUSE 20}\l"
 	.string "You will need something else than that\l"
 	.string "to bend our will and the will of our\l"
 	.string "POKÉMON!$"

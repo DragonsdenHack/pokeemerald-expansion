@@ -48,7 +48,7 @@ step_end
 
 Magma1_Combate_Admin_Texto_1:
 	.string "So, you've managed to defeat our HIGH\n"
-	.string "RANK... TEAM ROCKET ADMINISTRATOR, you\l"
+	.string "RANK{PAUSE 20}…{PAUSE 20} TEAM ROCKET ADMINISTRATOR, you\l"
 	.string "say? Then you haven't disbanded as it's\l"
 	.string "said; either way, someone like you\l"
 	.string "doesn't belong here.$"

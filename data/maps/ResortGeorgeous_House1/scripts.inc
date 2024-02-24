@@ -152,7 +152,7 @@ ResortGeorgeous_House1_Text_Consul_8:
 	.string "won't hurt you.$"
 
 ResortGeorgeous_House1_Text_Consul_9:
-.string "CONSUL: ....$"
+.string "CONSUL: {PAUSE 20}…{PAUSE 20}$"
 
 ResortGeorgeous_House1_Text_Consul_10:
 	.string "As for you guys, you can be proud. This\n"
@@ -164,7 +164,7 @@ ResortGeorgeous_House1_Text_Consul_11:
 	.string "Let's go 'CONSUL'!!!$"
 
 ResortGeorgeous_House1_Text_Consul_12:
-	.string "ANDRA: ... ... I'll see you later.$"
+	.string "ANDRA: {PAUSE 20}…{PAUSE 20}…{PAUSE 20} I'll see you later.$"
 
 
 ResortGeorgeous_House1_Consul_move_1:

@@ -226,7 +226,7 @@ Magma3_Combate_Magno_Texto_6:
 	.string "I've been traveling the world for over a\n"
 	.string "decade, searching for the best team of\l"
 	.string "FIRE and GROUND-type POKÉMON, many\l"
-	.string "options, discards, changes... POKÉMON\l"
+	.string "options, discards, changes{PAUSE 20}…{PAUSE 20} POKÉMON\l"
 	.string "that more or less fit the essence of my\l"
 	.string "plan. But finally, after so much, I've\l"
 	.string "achieved it. I've assembled the perfect\l"
@@ -239,10 +239,10 @@ Magma3_Combate_Magno_Texto_7:
 	.string "power?$"
 
 Magma3_Combate_Magno_Texto_8:
-	.string "B-but... I had everything... G-GROUDON\n"
+	.string "B-{PAUSE 20}but{PAUSE 20}…{PAUSE 20} I had everything{PAUSE 20}…{PAUSE 20} G{PAUSE 20}-GROUDON\n"
 	.string "was here, in front of me, and has\l"
 	.string "displayed the immense power that the\l"
-	.string "legend talks about... How could a ROCKET,\l"
+	.string "legend talks about{PAUSE 20}…{PAUSE 20} How could a ROCKET,\l"
 	.string "no matter how top ADMIN is, match, and\l"
 	.string "even surpass, such power using common\l"
 	.string "POKÉMON? It doesn't make sense!$"
@@ -274,7 +274,7 @@ Magma3_Combate_Magno_Texto_14:
 	.string "the RED SPHERE).$"
 
 Magma3_Combate_Magno_Texto_15:
-.string "MAXIE: ...$"
+.string "MAXIE: {PAUSE 20}…{PAUSE 20}$"
 
 Magma3_Combate_Magno_Texto_16:
 	.string "What am I doing here?$"

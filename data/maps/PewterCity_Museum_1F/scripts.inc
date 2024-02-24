@@ -264,7 +264,7 @@ PewterCity_Museum_1F_Miguel_Texto_11:
 	.string "But my POKÉMONS are even stronger!!$"
 
 PewterCity_Museum_1F_Miguel_Texto_12:
-	.string "S.MIGUEL: Grrrr… So it was not enough, I\n"
+	.string "S.MIGUEL: Grrrr…{PAUSE 15} So it was not enough, I\n"
 	.string "won't let you capture me again like last\l"
 	.string "time.$"
 

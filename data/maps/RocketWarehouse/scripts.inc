@@ -721,7 +721,7 @@ RocketWarehouse_Text_MisionAtlas10_2:
 	.string "But this practice, which aimed to teach\n"
 	.string "the ROCKET important qualities such as\l"
 	.string "improvisation, adaptability, and not\l"
-	.string "taking anything for granted... was\l"
+	.string "taking anything for granted{PAUSE 20}…{PAUSE 20} was\l"
 	.string "abandoned.$"
 
 RocketWarehouse_Text_MisionAtlas10_3:
@@ -943,7 +943,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas8:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
-	.string "ARCHER: ... ... You have shown courage\n"
+	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20} You have shown courage\n"
 	.string "and initiative by entering alone, and\l"
 	.string "admitted your mistake. For now, that is\l"
 	.string "sufficient, but let it serve as an\l"
@@ -958,7 +958,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas10:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
-	.string "ARCHER: ... ... I don't want you to leave\n"
+	.string "ARCHER: {PAUSE 20}…{PAUSE 20}…{PAUSE 20} I don't want you to leave\n"
 	.string "this island without something to\l"
 	.string "remember your short time here. You\l"
 	.string "might come back someday, but for now,\l"

@@ -184,7 +184,7 @@ PokemonTower2F_Azul_Texto_7:
 	.string "downright perfect, he seems to always\l"
 	.string "have everything in order, considering\l"
 	.string "all possible options in battle, and that\l"
-	.string "silence… That's the most irritating\l"
+	.string "silence…{PAUSE 30} That's the most irritating\l"
 	.string "part, he doesn't even bother to engage\l"
 	.string "in conversation, he arrives, defeats\l"
 	.string "you, and leaves you there, as if you\l"

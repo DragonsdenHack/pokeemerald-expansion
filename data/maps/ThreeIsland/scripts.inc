@@ -221,7 +221,7 @@ ThreeIsland_Secundaria_Recreativos_Texto_8:
 
 ThreeIsland_Secundaria_Recreativos_Texto_9:
 	.string "They didn't take long to propose selling\n"
-	.string "it to them. But... when we refused, they\l"
+	.string "it to them. But{PAUSE 20}…{PAUSE 20} when we refused, they\l"
 	.string "forced us, and started building their\l"
 	.string "own business.$"
 

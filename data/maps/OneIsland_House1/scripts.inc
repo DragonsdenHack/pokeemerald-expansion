@@ -9,7 +9,7 @@ release
 end
 
 OneIsland_House1_Text_1:
-.string "Let me think… When was the last\n"
+.string "Let me think…{PAUSE 20} When was the last\n"
     .string "time MT. EMBER erupted?$"
 
 

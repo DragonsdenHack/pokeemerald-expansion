@@ -363,7 +363,7 @@ VermilioCity_Motorista_Text_2:
 
 VermilioCity_Motorista_Text_3:
 .string "Whatever that would contain that\n"
-	.string "CAPTAIN's jar, we will find it… I\l"
+	.string "CAPTAIN's jar, we will find it{PAUSE 15}…{PAUSE 15} I\l"
 	.string "wonder if we will be able to see\l"
 	.string "GIOVANNI hims….$"
 
@@ -805,7 +805,7 @@ VermilionCity_Secundaria_AncianoMachop_Texto_12:
 	.string "I asked for.$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_13:
-.string "No? Well… If you change your mind I will\n"
+.string "No? Well{PAUSE 15}…{PAUSE 15} If you change your mind I will\n"
 	.string "be here.$"
 
 VermilionCity_Secundaria_AncianoMachop_Move_1:

@@ -287,7 +287,7 @@ SilphS3_Miguel_Batalla_Texto_5:
 	.string "KANTO...$"
 
 SilphS3_Miguel_Batalla_Texto_6:
-	.string "All in all... challenging the real KANTO\n"
+	.string "All in all{PAUSE 20}…{PAUSE 20} challenging the real KANTO\n"
 	.string "CHAMPION is the perfect way to test\l"
 	.string "the primal power of my FOSSILS!$"
 
@@ -467,13 +467,13 @@ SilphS3_Bill_Batalla_Texto_6:
 	.string "LEGENDARY BIRDS, nabbed all the\l"
 	.string "FOSSILS, and even got a DRAGONITE. My\l"
 	.string "POKEDEX is almost full with 149 KANTO\l"
-	.string "POKÉMON... It's just MEW, gone for ages,\l"
+	.string "POKÉMON{PAUSE 20}…{PAUSE 20} It's just MEW, gone for ages,\l"
 	.string "that's playing hard to get. But who\l"
 	.string "knows where it is anyway? Not even\l"
 	.string "worth worrying about.$"
 
 SilphS3_Bill_Batalla_Texto_7:
-.string "BILL: ...$"
+.string "BILL: {PAUSE 20}…{PAUSE 20}$"
 
 SilphS3_Bill_Batalla_Texto_8:
 	.string "Oh, you're here for that mystery\n"
@@ -544,7 +544,7 @@ SilphS3_Bill_Batalla_Texto_16:
 SilphS3_Bill_Batalla_Texto_17:
 	.string "Dude, I never thought I'd lay eyes on a\n"
 	.string "Pokémon like PORYGON3, not even in my\l"
-	.string "craziest dreams. It's... almost perfect,\l"
+	.string "craziest dreams. It's{PAUSE 20}…{PAUSE 20} almost perfect,\l"
 	.string "with its type combination giving it\l"
 	.string "three immunities, insane offense, and\l"
 	.string "wicked SPEED. If only its physical\l"
@@ -642,8 +642,8 @@ end
 SilphS3_Documento_Pokemon_Esencia_Texto_1:
 	.string "The legend of the Essence Pokémon, the\n"
 	.string "one that gives meaning to KANTO:\l"
-	.string "... ...\l"
-	.string "... ...\l"
+	.string "{PAUSE 20}…{PAUSE 20}…{PAUSE 20}\l"
+	.string "{PAUSE 20}…{PAUSE 20}…{PAUSE 20}\l"
 	.string "The establishment of LAVENDER TOWN\l"
 	.string "and its POKÉMON TOWER to the south of\l"
 	.string "ROCK TUNNEL is not mere chance; it was\l"

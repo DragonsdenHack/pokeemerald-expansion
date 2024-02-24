@@ -442,12 +442,12 @@ RocketHideoutFiveIslandMeadow_Text_Atlas5:
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas6:
-    .string "ARCHER: Let's see... You have\n"
+    .string "ARCHER: Let's see{PAUSE 20}…{PAUSE 20} You have\n"
     .string "prejudged the decisions of our LEADER\l"
     .string "GIOVANNI, and you are not happy with\l"
     .string "our policy towards new grunts. So...\l"
     .string "there is no reason for you to continue\l"
-    .string "belonging to our organization... I hope\l"
+    .string "belonging to our organization{PAUSE 20}…{PAUSE 20} I hope\l"
     .string "for your sake that you don't say a\l"
     .string "single word about you may have seen\l"
     .string "here. GUARDS!! Take him off the base!$"

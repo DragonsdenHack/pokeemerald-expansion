@@ -106,7 +106,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_3:
 	.string "You will regret!!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
-.string "Oh… No… Please…$"
+.string "Oh…{PAUSE 20} No…{PAUSE 20} Please…{PAUSE 20}$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_5:
 .string "That's what happens when you\n"

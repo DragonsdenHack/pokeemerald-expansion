@@ -5273,7 +5273,7 @@ Route24_Text_Chica2PostBattle:
 
 Route24_Text_Chico2Intro:
 	.string "You will not receive any award ROCKET.\n"
-	.string "This challenge is not for you. … … You\l"
+	.string "This challenge is not for you. {PAUSE 20}…{PAUSE 20} …{PAUSE 20} You\l"
 	.string "only want access to ROUTE 25? I won't\l"
 	.string "even grant you that!$"
 

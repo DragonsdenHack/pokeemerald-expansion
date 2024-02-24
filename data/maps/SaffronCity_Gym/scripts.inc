@@ -98,9 +98,9 @@ SaffronCity_No_Pass_Gym_Texto_1:
 	.string "PSYCHIC.$"
 
 SaffronCity_No_Pass_Gym_Texto_2:
-	.string "Wait a moment! That LICENSE... Only the\n"
+	.string "Wait a moment! That LICENSE{PAUSE 20}…{PAUSE 20} Only the\n"
 	.string "high positions of the LEAGUE COMMITTEE\l"
-	.string "have one like that... Sorry for the\l"
+	.string "have one like that{PAUSE 20}…{PAUSE 20} Sorry for the\l"
 	.string "misunderstanding, SIR. Everything is in\l"
 	.string "order, I hope you can enjoy our\l"
 	.string "facilities.$"

@@ -177,7 +177,7 @@ PokemonTower_6F_Combate_Fuji_Texto_7:
 
 PokemonTower_6F_Combate_Fuji_Texto_8:
 	.string "FUJI: Okay, I have no more option that\n"
-	.string "disarm you as I did with your mates… for\l"
+	.string "disarm you as I did with your mates…{PAUSE 25} for\l"
 	.string "this place's peace.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_9:
@@ -187,7 +187,7 @@ PokemonTower_6F_Combate_Fuji_Texto_10:
 	.string "({PLAYER} gave FUJI the CUBONE).$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10.1:
-.string "FUJI: Oh… Then… You…?$"
+.string "FUJI: {PAUSE 25}Oh…{PAUSE 25}Then…{PAUSE 25}You…?{PAUSE 25}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
 	.string "PROTON: You knew this was going to\n"

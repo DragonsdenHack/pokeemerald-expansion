@@ -146,7 +146,7 @@ release
 end
 
 Route4_Evento_Karatekas_Text_1:
-.string "What do you want, ROCKET? ... MEGA PUNCH\n"
+.string "What do you want, ROCKET? {PAUSE 20}…{PAUSE 20} MEGA PUNCH\n"
 	.string "AND MEGA KICK? Of course, we're experts\l"
 	.string "in those moves, nothing like a good kick\l"
 	.string "to give the opponent a KO, don't you\l"

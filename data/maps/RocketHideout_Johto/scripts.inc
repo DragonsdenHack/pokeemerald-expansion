@@ -112,10 +112,10 @@ release
 end
 
 RocketHideoutJohto_Text_8:
-	.string "HP of 125 BASE… PHYSICAL ATTACK of\n"
-	.string "175… PHYSICAL DEFENSE of 155… An\l"
+	.string "HP of 125 BASE{PAUSE 15}…{PAUSE 15} PHYSICAL ATTACK of\n"
+	.string "175{PAUSE 15}…{PAUSE 15} PHYSICAL DEFENSE of 155{PAUSE 15}…{PAUSE 15} An\l"
 	.string "average of 151.6666 BASE among the\l"
-	.string "first 3 STATS… … … No, I'm not making up\l"
+	.string "first 3 STATS{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} No, I'm not making up\l"
 	.string "this POKÉMON, I'm talking about the\l"
 	.string "RHYPERIOR-Z of our LEADER GIOVANNI.\l"
 	.string "It's hard for me to believe that there's\l"
@@ -494,7 +494,7 @@ end
 
 RocketHideoutJohto_Text_31:
 .string "1000 REVIVES and 700 HYPER POTIONS...\n"
-.string "Seriously... What's wrong with the\l"
+.string "Seriously{PAUSE 20}…{PAUSE 20} What's wrong with the\l"
 .string "GRUNTS from KANTO? Do they all carry\l"
 .string "RATTATAS and ZUBATS?$"
 

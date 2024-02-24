@@ -335,7 +335,7 @@ RockTunnel_2F_Combate_Miguel_Texto_15:
 RockTunnel_2F_Combate_Miguel_Texto_16:
 	.string "PROTON: So the rumors were true, who\n"
 	.string "would say that in this cave would\l"
-	.string "inhabit a KANGASKHAN… Okay, Imma\l"
+	.string "inhabit a KANGASKHAN{PAUSE 15}…{PAUSE 20} Okay, Imma\l"
 	.string "return immediately to the headquarter\l"
 	.string "{PLAYER}, the importance of what I\l"
 	.string "carry with me requires it. You should\l"

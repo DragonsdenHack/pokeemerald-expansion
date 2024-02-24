@@ -139,7 +139,7 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1:
 	.string "tanto en el canal de youtube\l"
 	.string "DragonsdenTV, como en el foro Whack a\l"
 	.string "hack. HOENN espera, toda historia tiene\l"
-	.string "su fin, pero esta... aún no, sigues\l"
+	.string "su fin, pero esta{PAUSE 20}…{PAUSE 20} aún no, sigues\l"
 	.string "participando en su devenir, de modo\l"
 	.string "que...mantente mejorando hasta la\l"
 	.string "próxima versión.$"
@@ -1987,7 +1987,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7:
 .string "GIOVANNI: In the SAFARI ZONE, all\n"
 	.string "KANGASKHAN grow in comfort, and the\l"
 	.string "offspring always develop until they\l"
-	.string "reach that stage... The evolutionary\l"
+	.string "reach that stage{PAUSE 20}…{PAUSE 20} The evolutionary\l"
 	.string "line of CUBONE-MAROWAK is uncertain; a\l"
 	.string "CUBONE emerges when it takes the skull\l"
 	.string "of its deceased mother. However, if its\l"
@@ -2076,7 +2076,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_17:
 	.string "downstairs where what truly matters is.\l"
 	.string "Many people believe that the CASINO is\l"
 	.string "a cover-up for this base, but they're\l"
-	.string "wrong... This base IS the cover-up for\l"
+	.string "wrong{PAUSE 20}…{PAUSE 20} This base IS the cover-up for\l"
 	.string "what's downstairs.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_18:

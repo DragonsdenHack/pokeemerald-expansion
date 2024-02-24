@@ -264,7 +264,7 @@ Route23_Combate_Andra_Texto_7:
 	.string "time my CROBAT will have enough health\l"
 	.string "left to survive against the brave bird\l"
 	.string "recoil after taking down his BLASTOISE.\l"
-	.string "As for you... I hope to have you nearby\l"
+	.string "As for you{PAUSE 20}…{PAUSE 20} I hope to have you nearby\l"
 	.string "if we make it to the final rounds. You\l"
 	.string "heard GIOVANNI, LANCE has immense\l"
 	.string "power, and that RED is a mystery. It has\l"

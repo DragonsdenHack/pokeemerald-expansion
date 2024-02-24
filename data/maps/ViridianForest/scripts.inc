@@ -68,7 +68,7 @@ end
 
 ViridianForest_Text_9:
 	.string "There are not strong POKÉMON around\n"
-	.string "here… apparently.$"
+	.string "here{PAUSE 20}…{PAUSE 20} apparently.$"
 
 
 
@@ -262,7 +262,7 @@ ViridianForest_Combate_Guays_Texto_3:
 	.string "ROCK TUNNEL when the rumor of there\l"
 	.string "was a KANGASKHAN spreaded around,\l"
 	.string "seems like it was just a lie, instead\l"
-	.string "this… No one would believe that would\l"
+	.string "this{PAUSE 20}…{PAUSE 20} No one would believe that would\l"
 	.string "remain a PINSIR here and results that\l"
 	.string "here is one.$"
 
