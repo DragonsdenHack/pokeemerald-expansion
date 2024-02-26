@@ -9,10 +9,9 @@ release
 end
 
 RuinsOfAlph_House1_Text_1:
-.string "Creo que todos esos NATU y XATU\n"
-.string "que viven por las RUINAS son una\l"
-.string "de las claves para resolver su\l"
-.string "misterio.$"
+	.string "In my opinion, those NATU and XATU\n"
+	.string "inhabiting the RUINS are crucial to\l"
+	.string "solving its mystery.$"
 
 
 
@@ -24,13 +23,10 @@ release
 end
 
 RuinsOfAlph_House1_Text_2:
-.string "No me gustan nada esos individuos\n"
-.string "de negro que vinieron poco después\l"
-.string "del terremoto.\l"
-.string "…\l"
-.string "…\l"
-.string "¿Qué?\l"
-.string "¿¡Tú eres su superior?!$"
+	.string "I really distrust those individuals in\n"
+	.string "black who arrived shortly after the\l"
+	.string "earthquake. … … What? You are their\l"
+	.string "boss?!$"
 
 
 
@@ -42,10 +38,9 @@ release
 end
 
 RuinsOfAlph_House1_Text_3:
-.string "Las RUINAS datan de hace unos 1500\n"
-.string "años.\l"
-.string "Pero ignoramos por qué o por quién\l"
-.string "fueron construidas.$"
+	.string "The ruins are approximately 1500 years\n"
+	.string "old. Yet, we have no clue as to why or by\l"
+	.string "whom they were constructed.$"
 
 RuinsOfAlph_House_Mision_Secundaria::
 lock
@@ -119,56 +114,55 @@ face_player
 step_end
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_1:
-.string "Esos CIENTÍFICOS… venían de otra\n"
-	.string "región, nos prometieron solo investigar\l"
-	.string "nuestros FÓSILES, pero han\l"
-	.string "desaparecido sin apenas dejar rastro…$"
+	.string "Those SCIENTISTS… they came from a\n"
+	.string "different region, promising to only\l"
+	.string "research our FOSSILS, but they've\l"
+	.string "disappeared without a trace…$"
 
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_3:
-.string "¿Quieres ayudarme?$"
+.string "Do you wanna help me?$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_4:
-.string "Pareces alguien preparado, si quieres\n"
-	.string "intentarlo bajo tu riesgo, no me\l"
-	.string "opondré.$"
+	.string "You seem like someone prepared. If you\n"
+	.string "want to try it at your own risk, I won't\l"
+	.string "object.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_5:
-.string "Sabemos que tienen un pequeño\n"
-	.string "LABORATORIO en alguna ciudad de\l"
-	.string "JOHTO, creo que se referían a CIUDAD\l"
-	.string "IRIS. Ahí deben tener nuestros\l"
-	.string "FÓSILES. Si los traes de vuelta, te\l"
-	.string "recompensaré como es debido.$"
+	.string "We know they have a small LABORATORY in\n"
+	.string "some city in JOHTO, I think they meant\l"
+	.string "ECRUTEAK CITY. That's where they must\l"
+	.string "have our FOSSILS. If you bring them\l"
+	.string "back, I'll reward you properly.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_6:
-.string "¿Alguna nueva noticia? Recuerda, deben\n"
-	.string "de tener su LABORATORIO en CIUDAD\l"
-	.string "IRIS.$"
+	.string "Any new? Remember, they should have\n"
+	.string "their LABORATORY in ECRUTEAK CITY.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_7:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_8:
-.string "¡Guau! ¡Tú solo pudiste con ellos! Debes\n"
-	.string "ser alguien de gran poder, no hay\l"
-	.string "duda.$"
+	.string "Wow! You took them down all by yourself!\n"
+	.string "You must be someone of great power, no\l"
+	.string "doubt.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_9:
-.string "Alguien como tú merece ser premiado\n"
-	.string "como se merece. Mira, descubrimos este\l"
-	.string "ejemplar de FÓSIL, proviene de una\l"
-	.string "región lejana. Nuestros estudios\l"
-	.string "indican que se trata de un pariente\l"
-	.string "lejano de Aerodactyl, y parece albergar\l"
-	.string "un potencial aún mayor que este. Toma.$"
+	.string "You deserve to be properly rewarded for\n"
+	.string "your efforts. Look, we discovered this\l"
+	.string "specimen of FOSSIL, it comes from a\l"
+	.string "distant region. Our studies indicate\l"
+	.string "that it is a distant relative of\l"
+	.string "AERODACTYL, possibly with greater\l"
+	.string "potential. Take it, it's yours.$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_10:
-.string "¡¡OBTUVISTE A UN ARCHEN AL NV.35!!$"
+.string "YOU OBTAINED A LV.35 ARCHEN!!$"
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_11:
-.string "Si alguna vez necesitas algo, no dudes\n"
-	.string "en contactarnos. Aquí tienes aliados.$"
+	.string "If you need something someday, do not\n"
+	.string "hesitate to contact us. Here you have\l"
+	.string "allies.$"

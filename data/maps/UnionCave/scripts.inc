@@ -38,12 +38,12 @@ release
 end
 
 UnionCave_Text_5:
-.string "El otro día decidí meterme en lo\n"
-.string "más profundo de la cueva, y\l"
-.string "encontré a un tipo que enseñaba un\l"
-.string "movimiento muy potente a\l"
-.string "cualquiera que pudiera aprenderlo.\l"
-.string "¡Pero pedía 10000 POKÉS!$"
+	.string "Recently, I made the decision to\n"
+	.string "explore the depths of the cave, and I\l"
+	.string "stumbled upon someone offering to\l"
+	.string "teach a remarkably strong move to\l"
+	.string "those capable of learning it. But the\l"
+	.string "price was 10000 POKÉ!$"
 
 
 
@@ -141,89 +141,81 @@ release
 end
 
 UnionCave_Combate_Elm_Texto_1:
-.string "Tal y como pensaba, decepcionante.$"
+.string "As I thought, disappointing.$"
 
 UnionCave_Combate_Elm_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UnionCave_Combate_Elm_Texto_3:
 .string "ELM: Ah, {PLAYER}.\n"
-	.string "¿También explorando la CUEVA\l"
-	.string "UNIÓN?$"
+	.string "Are you also exploring\l"
+	.string "the UNION CAVE?$"
 
 UnionCave_Combate_Elm_Texto_4:
-.string "Quería hacer una pequeña\n"
-	.string "investigación acerca del POKÉMON\l"
-	.string "que duerme en lo más profundo de\l"
-	.string "esta cueva.$"
+	.string "I intended to carry out a brief\n"
+	.string "investigation regarding the POKÉMON\l"
+	.string "that sleeps at the very bottom of this\l"
+	.string "cave.$"
 
 UnionCave_Combate_Elm_Texto_5:
-.string "Resultó ser un LAPRAS. No me\n"
-	.string "malinterpretes, es un buen\l"
-	.string "POKÉMON, pero mis expectativas\l"
-	.string "eran mucho mayores.$"
+	.string "It was just a LAPRAS. Don't get me\n"
+	.string "wrong, it is a good POKÉMON, but my\l"
+	.string "expectations were higher.$"
 
 UnionCave_Combate_Elm_Texto_6:
-.string "¿¡De verdad!?\n"
-	.string "¡¿Luchaste contra PEGASO padre\l"
-	.string "en persona?!$"
+	.string "For real!? Did you fight against\n"
+	.string "FALKNER senior himself?!$"
 
 UnionCave_Combate_Elm_Texto_7:
-.string "Vaya, así que contigo sí accedió a\n"
-	.string "combatir.$"
+	.string "Well, so he agreed to fight you.$"
 
 UnionCave_Combate_Elm_Texto_8:
-.string "Un ENTRENADOR fascinante, sin\n"
-	.string "duda. Quise investigar los\l"
-	.string "mecanismos por los que su PIDGEOT\l"
-	.string "podía MEGAEVOLUCIONAR sin hacer\l"
-	.string "uso de mi tecnología, pero todos\l"
-	.string "los de su generación son iguales:\l"
-	.string "viven como anacoretas, ajenos a\l"
-	.string "todo cuanto sucede en el mundo.\l"
-	.string "quizás ahí esté su poder, al igual\l"
-	.string "que el fenómeno del FUERTE\l"
-	.string "VÍNCULO, su MEGAEVOLUCIÓN se\l"
-	.string "activa por mecanismos similares...$"
+	.string "A fascinating trainer, no doubt. I\n"
+	.string "wanted to investigate how his PIDGEOT\l"
+	.string "could MEGA EVOLVE without using my\l"
+	.string "technology, but all those of his\l"
+	.string "generation are the same: they live like\l"
+	.string "hermits, oblivious to everything\l"
+	.string "happening in the world. Maybe that's\l"
+	.string "where his power lies, just like the DEEP\l"
+	.string "BOND phenomenon, his MEGA EVOLUTION is\l"
+	.string "activated in a similar way.$"
 
 UnionCave_Combate_Elm_Texto_9:
-.string "Tengo curiosidad.\n"
-	.string "No solo luchaste contra él, sino\l"
-	.string "que incluso pudiste derrotarlo.\l"
-	.string "Tal vez tenga delante de mi un\l"
-	.string "objeto de estudio aún más\l"
-	.string "interesante que esos viejos\l"
-	.string "LÍDERES, que pronto quedarán\l"
-	.string "obsoletos en JOHTO.$"
+	.string "I'm curious about that. You didn't just\n"
+	.string "battle against him, but you were able to\l"
+	.string "defeat him as well. Maybe I'm facing an\l"
+	.string "even more fascinating subject for\l"
+	.string "study than those old LEADERS, who will\l"
+	.string "soon become outdated in JOHTO.$"
 
 UnionCave_Combate_Elm_Texto_10:
-.string "¡Muéstrame tus POKÉMON,\n"
-	.string "ADMINISTRADOR JEFE ROCKET!$"
+	.string "Show me your POKÉMON, CHIEF\n"
+	.string "ADMINISTRATOR ROCKET!$"
 
 UnionCave_Combate_Elm_Texto_11:
-.string "Mmmm...\n"
-	.string "Muy interesante, tomo nota.$"
+.string "Hmmm…\n"
+	.string "Very interesting, I take notes.$"
 
 UnionCave_Combate_Elm_Texto_12:
-.string "Ya veo por qué eres uno de los\n"
-	.string "ROCKET más influyentes y\l"
-	.string "poderosos. Espero que nos sigas\l"
-	.string "aportando valiosa información\l"
-	.string "acerca de esos POKÉMON singulares.$"
+	.string "Now I understand why you're one of the\n"
+	.string "most influential and powerful members\l"
+	.string "of TEAM ROCKET. I hope you'll keep\l"
+	.string "providing us with valuable insights into\l"
+	.string "those singular POKÉMON.$"
 
 UnionCave_Combate_Elm_Texto_13:
-.string "Me retiro {PLAYER}, gracias por el\n"
-	.string "combate.$"
+	.string "Now I'm off, {PLAYER}, thanks for the\n"
+	.string "combat.$"
 
 UnionCave_Combate_Elm_Texto_14:
-.string "Ah, y una cosa, pronto habrá un\n"
-	.string "evento, un evento importante aquí\l"
-	.string "en JOHTO. Seguramente GIOVANNI te\l"
-	.string "informe pronto de ello. Después de\l"
-	.string "lo que he visto en esta cueva,\l"
-	.string "entiendo por qué siempre te\l"
-	.string "tiene en cuenta para los asuntos\l"
-	.string "más importantes.$"
+	.string "Oh, and by the way, there's an upcoming\n"
+	.string "event, a significant one here in JOHTO.\l"
+	.string "GIOVANNI will probably inform you about\l"
+	.string "it soon. Given what I've witnessed in\l"
+	.string "this cave, I comprehend why he\l"
+	.string "consistently involves you in the most\l"
+	.string "crucial affairs.$"
 
 UnionCave_Combate_Elm_Move_1:
 walk_in_place_down
@@ -298,29 +290,24 @@ release
 end
 
 UnionCave_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "Hemos recibido los datos del\l"
-	.string "RAPIDASH FUERTE VÍNCULO de PEGASO.\l"
-	.string "Debió de ser un duro oponente, ha\l"
-	.string "logrado compensar su debilidad x4\l"
-	.string "a ROCA con la HABILIDAD PELAJE\l"
-	.string "RECIO. Muy impresionante, más con\l"
-	.string "ese ATAQUE y VELOCIDAD de 130-135\l"
-	.string "de BASE también.\l"
-	.string "Ya sabes que puedes pasarte por la\l"
-	.string "sala de la BASE PROFUNDA donde\l"
-	.string "estudiaremos e iremos actualizando\l"
-	.string "toda la información sobre esta\l"
-	.string "clase de POKÉMON.\l"
-	.string "Y una cosa más, ¿has visitado las\l"
-	.string "RUINAS ALFA?\l"
-	.string "Así es, no hemos hallado nada\l"
-	.string "aún, pero no te preocupes, {PLAYER},\l"
-	.string "por el momento céntrate en\l"
-	.string "capturar los datos de los POKÉMON\l"
-	.string "FUERTE VÍNCULO. Tenemos todo el\l"
-	.string "tiempo del mundo para averiguar el\l"
-	.string "misterio de las RUINAS. Los\l"
-	.string "LÍDERES DE GIMNASIO... No sabemos\l"
-	.string "cuanto pueden durar en esta JOHTO\l"
-	.string "tan cambiante.$"
+	.string "GIOVANNI: {PLAYER}? We've received\n"
+	.string "the data on FALKNER's DEEP BOND\l"
+	.string "RAPIDASH. It must have been a tough\l"
+	.string "opponent, managing to compensate for\l"
+	.string "its x4 weakness to ROCK TYPE with the\l"
+	.string "ability FUR COAT. Very impressive,\l"
+	.string "especially with that ATTACK and SPEED\l"
+	.string "of 130-135 BASE as well. You know you\l"
+	.string "can drop by the DEEP BASE room where\l"
+	.string "we'll study and update all the\l"
+	.string "information about this kind of POKÉMON.\l"
+	.string "And one more thing, have you visited\l"
+	.string "the RUINS OF ALPH? That's correct, we\l"
+	.string "haven't discovered anything yet, but\l"
+	.string "don't fret, {PLAYER}. Right now,\l"
+	.string "concentrate on gathering data about\l"
+	.string "the DEEP BOND POKÉMON. We have plenty\l"
+	.string "of time to uncover the secrets of the\l"
+	.string "RUINS. As for the GYM LEADERS… who\l"
+	.string "knows how long they'll endure in this\l"
+	.string "dynamic JOHTO.$"

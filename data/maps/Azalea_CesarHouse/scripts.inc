@@ -30,32 +30,28 @@ fadescreen 0
 end
 
 AzaleaCesarHouse_1_Texto_1:
-.string "Podrás encontrarle en el POZO\n"
-	.string "SLOWPOKE, si lo derrotas vuelve\l"
-	.string "aquí con el objeto que te dé, y\l"
-	.string "habrá combate.$"
+	.string "You can encounter him in the SLOWPOKE\n"
+	.string "WELL. If you defeat him, come back here\l"
+	.string "with the item it gives you, and there\l"
+	.string "will be a battle.$"
 
 AzaleaCesarHouse_1_Texto_2:
-.string "¿Y bien?$"
+.string "And so?$"
 
 AzaleaCesarHouse_1_Texto_3:
 .string "…$"
 
 AzaleaCesarHouse_1_Texto_4:
-.string "Oh…\n"
-	.string "Impresionante, para nada esperaba\l"
-	.string "que pudieras ganar, guarda\l"
-	.string "bien esa SLOWBRONITA, joven,\l"
-	.string "cualquier objeto capaz de expandir\l"
-	.string "los límites de un POKÉMON es\l"
-	.string "sagrado.$"
+	.string "Oh… Impressive, I didn't expect you to\n"
+	.string "win at all. Keep that SLOWBRONITE safe,\l"
+	.string "young one. Any item capable of\l"
+	.string "expanding a POKÉMON's limits is sacred.$"
 
 AzaleaCesarHouse_1_Texto_5:
-.string "Dicho esto, te espero en el\n"
-	.string "GIMNASIO. Cumpliré mi palabra y\l"
-	.string "combatiré contigo, espero que des\l"
-	.string "tu 100%.\l"
-	.string "Te hará falta.$"
+	.string "Once I said that, I'll be waiting for you\n"
+	.string "at the GYM. I'll keep my word and battle\l"
+	.string "you, so I hope you do your 100%. You'll\l"
+	.string "need it.$"
 
 
 
@@ -135,42 +131,37 @@ release
 end
 
 Azalea_CesarHouse_Evento_Mirto_Texto_1:
-.string "????: Pero…\n"
-	.string "Usted cuenta también con un TIPO\l"
-	.string "BICHO que ha sufrido el mismo\l"
-	.string "proceso que el mío.$"
+	.string "????: But… You also have a BUG TYPE\n"
+	.string "that has undergone the same process as\l"
+	.string "mine.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_2:
-.string "???: Me temo que no pueden\n"
-	.string "compararse, MIRTO, son dos TIPO\l"
-	.string "BICHO, sí, y ambos se han visto\l"
-	.string "afectados por el fuerte vínculo\l"
-	.string "con su ENTRENADOR.$"
+	.string "????: I'm afraid they can't be compared,\n"
+	.string "ALDER, they're two BUG types, yes, and\l"
+	.string "both have been affected by the DEEP\l"
+	.string "BOND with their TRAINER.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_3:
-.string "MIRTO: Pero…$"
+.string "ALDER: But…$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_4:
-.string "La diferencia es que mi POKÉMON\n"
-	.string "partía de 395 STATS BASE,\l"
-	.string "elevándose hasta los 505 STATS\l"
-	.string "BASE después del fuerte vínculo.\l"
-	.string "Algo notable, más teniendo en\l"
-	.string "cuenta su bajísimo ATAQUE, pero…\l"
-	.string "no ha cruzado ningún límite que\l"
-	.string "conozcamos.$"
+	.string "The difference is that my POKÉMON\n"
+	.string "started with 395 BASE STATS, rising to\l"
+	.string "505 BASE STATS after the strong bond.\l"
+	.string "Quite remarkable, especially\l"
+	.string "considering its very low ATTACK, but… it\l"
+	.string "hasn't crossed any known limits.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_5:
-.string "Tu POKÉMON, en cambio, tenía ya\n"
-	.string "550 STATS BASE antes incluso de\l"
-	.string "experimentar el fuerte vínculo. Lo\l"
-	.string "que ha resultado de juntar un\l"
-	.string "POKÉMON como el tuyo, que de base\l"
-	.string "puede codearse con un LEGENDARIO,\l"
-	.string "y el fuerte vínculo, es algo que\l"
-	.string "ha alcanzado límites desconocidos\l"
-	.string "para un POKÉMON mortal. Una\l"
-	.string "aberración en términos de poder.$"
+	.string "Your POKÉMON, on the other hand,\n"
+	.string "already had 550 BASE STATS even before\l"
+	.string "experiencing the DEEP BOND. What has\l"
+	.string "resulted from combining a POKÉMON like\l"
+	.string "yours, which at its base can rival a\l"
+	.string "LEGENDARY, and the DEEP BOND, is\l"
+	.string "something that has reached unknown\l"
+	.string "limits for a mortal POKÉMON. An\l"
+	.string "aberration in terms of power.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_6:
 .string "En todos mis libros y años de\n"

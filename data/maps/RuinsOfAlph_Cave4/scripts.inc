@@ -199,122 +199,109 @@ release
 end
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_1:
-.string "????: Por una vez llegas el\n"
-	.string "primero, ¿eh, {PLAYER}?$"
+	.string "????: For once, you're the first to\n"
+	.string "arrive, huh, {PLAYER}?$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_2:
-.string "ANDRA: Así es, esa puerta no\n"
-	.string "estaba antes, ha ocurrido lo mismo\l"
-	.string "de aquella vez en ISLA SÉTIMA,\l"
-	.string "pero ahora parece que es más\l"
-	.string "serio.$"
+	.string "ANDRA: That's right, that door wasn't\n"
+	.string "there before. It's like what happened\l"
+	.string "back on SEVEN ISLAND, but this seems\l"
+	.string "more serious now.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_3:
-.string "GIOVANNI, ATLAS y varios de los\n"
-	.string "mejores ROCKET están al caer, ya\l"
-	.string "les he avisado.$"
+	.string "GIOVANNI, ARCHER and a lot of our best\n"
+	.string "ROCKETS are coming right now, I\l"
+	.string "informed them already.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_4:
-.string "Estos UNOWN...\n"
-	.string "Hay algo en su apariencia...\l"
-	.string "Parecen estar incompletos, formar\l"
-	.string "parte de algo mayor, ¿no crees?$"
+	.string "These UNOWN… There's something about\n"
+	.string "their appearance… They seem\l"
+	.string "incomplete, being part of something\l"
+	.string "major, don't you think so?$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_5:
-.string "????: Son los guardianes de RUINAS\n"
-	.string "ALFA.$"
+	.string "????: They are the RUINS OF ALPH\n"
+	.string "guardians.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_6:
-.string "M.ANCIANO: Y harán lo imposible\n"
-	.string "para que nadie pueda descubrir sus\l"
-	.string "secretos.$"
+	.string "ELDER.M: And they will do whatever so\n"
+	.string "nobody discovers these chambers\l"
+	.string "secrets.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_7:
-.string "ANDRA: Entonces, ¿qué ocurrirá si\n"
-	.string "cruzamos esta puerta?$"
+	.string "ANDRA: So, what is going to happen if we\n"
+	.string "cross in this door?$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_8:
-.string "M.ANCIANO: Todo el poder ancestral\n"
-	.string "contenido en estas ruinas se\l"
-	.string "abalanzará sobre vosotros.$"
+	.string "ELDER.M: All the ancestral power\n"
+	.string "contained on these ruins will pounce\l"
+	.string "over you.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_9:
-.string "????: Pero no tenemos opción.$"
+	.string "????: We have no other option though.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_10:
-.string "M.ANCIANO: Así es, el DRAGÓN\n"
-	.string "ORIGINAL no puede ser unido de\l"
-	.string "nuevo.$"
+	.string "ELDER.M: That's right, the ORIGINAL\n"
+	.string "DRAGON can't be fusionated again.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_11:
 .string "...$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_12:
-.string "GIOVANNI: Yo no estaba pensando\n"
-	.string "precisamente en eso, MAESTRO\l"
-	.string "ANCIANO.$"
+	.string "GIOVANNI: I was not thinking about\n"
+	.string "exactly that, ELDER MASTER.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_13:
-.string "¡Todos adentro!\n"
-	.string "¡Vamos!$"
+.string "Everyone go in!\n"
+	.string "Come on!$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_14:
-.string "M.ANCIANO: ¿Qué quieres decir?$"
+.string "ELDER.M: What do you mean?$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_15:
-.string "GIOVANNI: No vamos a perder la\n"
-	.string "ocasión de analizar el poder de el\l"
-	.string "quizás POKÉMON más grande de todos\l"
-	.string "los tiempos.\l"
-	.string "¿POKÉMON ESENCIA?\l"
-	.string "¿DRAGÓN ORIGINAL?\l"
-	.string "Tal vez sean términos diferentes\l"
-	.string "para referirse a la misma cosa.\l"
-	.string "Sea como sea, lo averiguaremos, y\l"
-	.string "con la información aquí recopilada\l"
-	.string "nuestros científicos estarán mucho\l"
-	.string "más cerca de crear el POKÉMON más\l"
-	.string "fuerte posible.$"
+	.string "GIOVANNI: We won't miss the chance to\n"
+	.string "analyze the power of perhaps the\l"
+	.string "greatest POKÉMON of all time. ESSENCE\l"
+	.string "POKÉMON? ORIGINAL DRAGON? Maybe\l"
+	.string "they're different names for the same\l"
+	.string "thing. Either way, we'll find out, and\l"
+	.string "with the information gathered here, our\l"
+	.string "scientists will be much closer to\l"
+	.string "creating the strongest POKÉMON\l"
+	.string "possible.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_16:
-.string "M.ANCIANO: No seas estúpido,\n"
-	.string "GIOVANNI, ese POKÉMON está fuera\l"
-	.string "de todas las estimaciones que\l"
-	.string "podéis hacer, la prioridad debe\l"
-	.string "estar en impedir que ese ZEUS\l"
-	.string "logre formarlo.$"
+	.string "ELDER.M: Don't be a stupid, GIOVANNI;\n"
+	.string "that POKÉMON is beyond all the\l"
+	.string "estimations you can make; the priority\l"
+	.string "should be to prevent that ZEUS from\l"
+	.string "forming it.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_17:
-.string "GIOVANNI: Se verá, MAESTRO ANCIANO.\n"
-	.string "¿Qué tal si dejamos de perder el\l"
-	.string "tiempo y entramos ya?\l"
-	.string "¡ATLAS!\l"
-	.string "¡Conmigo!$"
+	.string "GIOVANNI: We'll see, ELDER MASTER. How\n"
+	.string "about we stop wasting time and enter\l"
+	.string "now? ARCHER! Come with me!$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_18:
-.string "Un DRAGONITE FUERTE VÍNCULO\n"
-	.string "extraordinario, por cierto. Seguro\l"
-	.string "que tiene algo que decir ante ese\l"
-	.string "DRAGÓN ORIGINAL, si dejas de\l"
-	.string "subestimar el entrenamiento que te\l"
-	.string "ha llevado hasta él.$"
+	.string "An extraordinary DEEP BOND DRAGONITE,\n"
+	.string "by the way. I'm sure it has something to\l"
+	.string "say to that ORIGINAL DRAGON, if you\l"
+	.string "stop underestimating the training that\l"
+	.string "brought you here.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_19:
-.string "M.ANCIANO: ...$"
+.string "ELDER.M: …$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_20:
-.string "ANDRA: El eterno debate, ¿eh?\n"
-	.string "Por eso decidí no entrenar\l"
-	.string "LEGENDARIOS. Estoy con GIOVANNI,\l"
-	.string "ningún DRAGÓN ORIGINAL va a\l"
-	.string "decirme hasta dónde puedo o no\l"
-	.string "llegar.$"
+	.string "ANDRA: It's the eternal debate, isn't\n"
+	.string "it? That's why I decided not to train\l"
+	.string "LEGENDARIES. I'm with GIOVANNI, no\l"
+	.string "ORIGINAL DRAGON is going to tell me how\l"
+	.string "far I can or can't go.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_21:
-.string "No importa lo que nos encontremos\n"
-	.string "detrás de esas puertas, {PLAYER},\l"
-	.string "¡nuestros equipos están\l"
-	.string "preparados!$"
+	.string "No matter what we find behind those\n"
+	.string "doors, {PLAYER}, our teams are ready!$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Move_1:
 walk_up

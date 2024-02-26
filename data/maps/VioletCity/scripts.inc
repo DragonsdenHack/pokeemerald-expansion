@@ -18,18 +18,16 @@ release
 end
 
 VioletCity_Text_2:
-.string "Este templo lo levantaron mis\n"
-.string "antepasados hace 1000 años, para\l"
-.string "honrar la resiliencia de\l"
-.string "BELLSPROUT.\l"
-.string "El actual maestro de la TORRE\l"
-.string "BELLSPROUT aún conserva el último\l"
-.string "ejemplar de esa sagrada línea de\l"
-.string "BELLSPROUT, así es, su BELLSPROUT\l"
-.string "es el más fuerte del mundo, solo\l"
-.string "lo verán aquellos merecedores\l"
-.string "de presenciar algo que muchos\l"
-.string "creen imposible.$"
+	.string "This temple was erected by my\n"
+	.string "ancestors 1000 years ago to honor the\l"
+	.string "resilience of BELLSPROUT. The current\l"
+	.string "ELDER of the SPROUT TOWER still\l"
+	.string "possesses the last specimen of that\l"
+	.string "sacred BELLSPROUT lineage. Yes, his\l"
+	.string "BELLSPROUT is the strongest in the\l"
+	.string "world, and only those deserving will\l"
+	.string "witness something that many believe to\l"
+	.string "be impossible.$"
 
 
 
@@ -41,12 +39,11 @@ release
 end
 
 VioletCity_Text_3:
-.string "El otro día me pegué un buen baño\n"
-.string "en el lago que rodea nuestra\l"
-.string "pagoda. Dicen que está prohibido,\l"
-.string "pero no tienen idea de lo bien que\l"
-.string "sienta bañarse con ese paisaje de\l"
-.string "fondo.$"
+	.string "A few days ago, I enjoyed a refreshing\n"
+	.string "swim in the lake surrounding our pagoda.\l"
+	.string "They say it's prohibited, but they have\l"
+	.string "no idea how wonderful it feels to take a\l"
+	.string "bath with such a scenic backdrop.$"
 
 
 VioletCity4::
@@ -57,11 +54,10 @@ release
 end
 
 VioletCity_Text_4:
-.string "¡El padre de PEGASO es súper guay!\n"
-.string "¡Tiene unos POKÉMON que nunca\l"
-.string "antes había visto, creo que\l"
-.string "algunos son incluso LEGENDARIOS de\l"
-.string "otras regiones!$"
+	.string "FALKNER's father is super cool! He has\n"
+	.string "some POKÉMON I've never seen before, I\l"
+	.string "think some of them are even\l"
+	.string "LEGENDARIES from other regions!$"
 
 
 VioletCity5::
@@ -72,11 +68,9 @@ release
 end
 
 VioletCity_Text_5:
-.string "Tú no eres de por aquí, ¿verdad?\n"
-.string "Te recomiendo visitar la\l"
-.string "escuela de entrenadores. Nuestra\l"
-.string "TORRE BELLSPROUT es también muy\l"
-.string "famosa.$"
+	.string "You're not from around here, are you? I\n"
+	.string "recommend visiting the Trainer School.\l"
+	.string "Our SPROUT TOWER is also very famous.$"
 
 
 VioletCity6::
@@ -87,11 +81,10 @@ release
 end
 
 VioletCity_Text_6:
-.string "Estas flores solo crecen en CIUDAD\n"
-.string "MALVA, ellas son las responsables\l"
-.string "del aroma a nostalgia tan\l"
-.string "característico que se respira por\l"
-.string "aquí.$"
+	.string "These flowers only grow in VIOLET CITY,\n"
+	.string "contributing to the characteristic\l"
+	.string "nostalgic fragrance that pervades the\l"
+	.string "area.$"
 
 
 VioletCity7::
@@ -110,12 +103,11 @@ release
 end
 
 VioletCity_Text_9:
-.string "Un POKÉMON en manos de un\n"
-.string "ENTRENADOR es mucho más fuerte que\l"
-.string "otro salvaje de la misma especie.\l"
-.string "Eso es prueba de que la\l"
-.string "convivencia entre humanos y\l"
-.string "POKÉMON es positiva.$"
+	.string "A POKÉMON under a TRAINER's care is far\n"
+	.string "stronger than its wild counterpart of\l"
+	.string "the same species. This serves as\l"
+	.string "evidence that the harmony between\l"
+	.string "humans and POKÉMON is beneficial.$"
 
 
 VioletCity10::
@@ -126,10 +118,10 @@ release
 end
 
 VioletCity_Text_18:
-.string "PEGASO padre tiene pensado ceder\n"
-.string "el GIMNASIO a su hijo, también\l"
-.string "llamado PEGASO. Espero que haga un\l"
-.string "buen trabajo cuando eso ocurra.$"
+	.string "FALKNER senior plans to hand over the\n"
+	.string "GYM to his son, also named FALKNER. I\l"
+	.string "hope he does a good job when that\l"
+	.string "occurs.$"
 
 
 VioletCity11::
@@ -146,9 +138,8 @@ msgbox VioletCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 VioletCityDocumento_Text_100:
-.string "CIUDAD MALVA\n"
-	.string "La ciudad de los aromas\l"
-	.string "nostálgicos.$"
+.string "VIOLET CITY\n"
+	.string "The City of Nostalgic Scents.$"
 
 
 
@@ -157,10 +148,10 @@ msgbox VioletCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 VioletCityDocumento_Text_101:
-.string "GIMNASIO de CIUDAD MALVA\n"
-	.string "LÍDER: PEGASO\l"
-	.string "¡Un genio de altos vuelos y 1001\l"
-	.string "viajes!$"
+.string "VIOLET CITY GYM\n"
+	.string "LEADER: FALKNER\l"
+	.string "A genius of high flights\l"
+	.string "and 1001 journeys!$"
 
 
 
@@ -193,17 +184,14 @@ release
 end
 
 VioletCity_Chicos_Escuela_Texto_1:
-.string "¡Vamos, date prisa!\n"
-	.string "¡El padre de PEGASO va a dar una\l"
-	.string "clase especial acerca de los\l"
-	.string "POKÉMON TIPO VOLADOR!$"
+	.string "Come on, hurry up! FALKNER's dad is\n"
+	.string "going to teach a special class about\l"
+	.string "FLYING TYPE POKÉMON.$"
 
 VioletCity_Chicos_Escuela_Texto_2:
-.string "¡No podemos perder esta\n"
-	.string "oportunidad, quién sabe cuanto\l"
-	.string "tiempo más estará en CIUDAD MALVA\l"
-	.string "antes de que emprenda un nuevo\l"
-	.string "viaje!$"
+	.string "We can't miss this opportunity, who\n"
+	.string "knows how much longer he'll be in VIOLET\l"
+	.string "CITY before embarking on a new journey!$"
 
 VioletCity_Chicos_Escuela_Move_1:
 walk_in_place_up

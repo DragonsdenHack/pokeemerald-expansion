@@ -8,9 +8,9 @@ release
 end
 
 Route32_Text_1:
-.string "Maldición…\n"
-.string "Espero que pronto abran las\l"
-.string "fronteras de RUTA 26…$"
+.string "Damn…\n"
+.string "I hope they open the ROUTE 26\l"
+.string "borders soon…$"
 
 
 
@@ -21,10 +21,11 @@ release
 end
 
 Route32_Text_2:
-.string "Ya te lo he dicho, los RHYHORN\n"
-	.string "solo habitan en KANTO, tendrás que\l"
-	.string "esperar a que la situación mejore\l"
-	.string "para poder capturar uno allí.$"
+	.string "I've already mentioned this, but\n"
+	.string "RHYHORN are exclusive to KANTO. You'll\l"
+	.string "have to wait for the political\l"
+	.string "conditions to improve before you can\l"
+	.string "capture one there.$"
 
 
 
@@ -41,9 +42,8 @@ release
 end
 
 Route32_Text_4:
-.string "¿SANDSLASH?\n"
-.string "¡Aquí tenemos a DONPHAN, es mucho\l"
-.string "más potente y resistente!$"
+	.string "SANDSLASH? Here we have DONPHAN, which\n"
+	.string "is much stronger and resistant!$"
 
 
 
@@ -65,12 +65,11 @@ release
 end
 
 Route32_Text_7:
-.string "¿Un CENTRO POKÉMON aquí?\n"
-.string "He oído que van a construir dentro\l"
-.string "de poco. La verdad que hace falta.\l"
-.string "De todos modos, la chica que hay\l"
-.string "más abajo es muy amable, y curará\l"
-.string "a tus POKÉMON.$"
+	.string "A POKÉMON CENTER around here? I heard\n"
+	.string "they're planning to build one soon. It's\l"
+	.string "really needed. Anyway, the girl further\l"
+	.string "down is very kind and will heal your\l"
+	.string "POKÉMON.$"
 
 
 
@@ -183,8 +182,8 @@ msgbox Route32Documento_Text_100, MSGBOX_SIGN
 end
 
 Route32Documento_Text_100:
-	.string "RUTA 32\n"
-	.string "CIUDAD MALVA-PUEBLO AZALEA$"
+	.string "ROUTE 32\n"
+	.string "VIOLET CITY - AZALEA TOWN$"
 
 
 
@@ -193,7 +192,7 @@ msgbox Route32Documento_Text_101, MSGBOX_SIGN
 end
 
 Route32Documento_Text_101:
-	.string "Hacia la CUEVA UNIÓN$"
+	.string "UNION CAVE AHEAD$"
 
 Curacion_Route32::
 lock
@@ -209,10 +208,10 @@ release
 end
 
 Curacion_Curacion_Curacion_Route32_Texto_1:
-.string "Tus POKÉMON parecen muy cansados, deja\n"
-	.string "que los cure...$"
+	.string "Your POKÉMON seems very tired, let me\n"
+	.string "heal them…$"
 
 Curacion_Centros_Johto_Texto_2:
-.string "¡Ahora están radiantes de vida! ¡Igual\n"
-	.string "que la vegetación de este lugar!$"
+	.string "They're glowing with vitality now! Just\n"
+	.string "like the vegetation here!$"
 

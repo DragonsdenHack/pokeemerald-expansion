@@ -29,11 +29,10 @@ release
 end
 
 Route33_Text_5:
-.string "Esa leyenda que habla de un raro y\n"
-.string "fuerte POKÉMON en las\l"
-.string "profundidades de CUEVA UNIÓN atrae\l"
-.string "a muchos entrenadores por los\l"
-.string "alrededores.$"
+	.string "That legend about a rare and powerful\n"
+	.string "POKÉMON lurking in the depths of UNION\l"
+	.string "CAVE attracts many trainers to the\l"
+	.string "area.$"
 
 
 
@@ -55,5 +54,5 @@ msgbox Route33Documento_Text_100, MSGBOX_SIGN
 end
 
 Route33Documento_Text_100:
-	.string "RUTA 33\n"
-	.string "Al oeste PUEBLO AZALEA$"
+	.string "ROUTE 33\n"
+	.string "To the west AZALEA TOWN$"

@@ -9,7 +9,6 @@ release
 end
 
 RuinsOfAlph_Cave3_Text_1:
-.string "Ninguna de las cámaras cede un\n"
-.string "ápice, me temo que LUGIA y HO-OH\l"
-.string "han vuelto a sus lugares de\l"
-.string "origen, señor.$"
+	.string "None of the chambers give way in the\n"
+	.string "slightest, I fear LUGIA and HO-OH have\l"
+	.string "returned to their places of origin, sir.$"

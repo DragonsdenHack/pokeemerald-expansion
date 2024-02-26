@@ -67,19 +67,17 @@ release
 end
 
 UnionCave_Salmuera_Texto_1:
-.string "No hay mejor lugar para una buena\n"
-	.string "pesca que este, pero un TIPO AGUA\l"
-	.string "que se precie debe contar con\l"
-	.string "movimientos de gran potencia.$"
+	.string "There's no better place for a good\n"
+	.string "catch than this, but a WATER TYPE worth\l"
+	.string "its salt must have powerful moves.$"
 
 UnionCave_Salmuera_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT97 SALMUERA\n"
-	.string "de manos de pescador!!$"
+.string "{PLAYER} obtained the TM97\n"
+	.string "BRINE from the fisherman!!$"
 
 UnionCave_Salmuera_Texto_2:
-.string "Cuando la vida del rival se reduce a\n"
-	.string "más de la mitad, SALMUERA incluso\l"
-	.string "supera a HIDROBOMBA en potencia.\l"
-	.string "¡No lo desperdicies!$"
+	.string "When the opponent's HP falls below half,\n"
+	.string "BRINE even surpasses HYDRO PUMP\l"
+	.string "potency. Use it wisely!$"
 
 

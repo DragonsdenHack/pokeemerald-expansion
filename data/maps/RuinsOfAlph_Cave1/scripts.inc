@@ -9,5 +9,5 @@ release
 end
 
 RuinsOfAlph_Cave1_Text_1:
-.string "-Como es arriba, es abajo-\n"
-.string "¿Qué querrá decir eso?$"
+.string "-As above, so below- \n"
+.string "What could that mean?$"

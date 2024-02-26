@@ -9,10 +9,9 @@ release
 end
 
 RuinsOfAlph_Cave2_Text_1:
-.string "¡Un placer tenerle por aquí,\n"
-.string "ADMIN.JEFE {PLAYER}!\l"
-.string "¡Aún no hemos encontrado nada\l"
-.string "destacado!$"
+	.string "It is a pleasure to have you here CHIEF\n"
+	.string "ADMIN. {PLAYER}! We still haven't\l"
+	.string "found anything remarkable!$"
 
 
 
@@ -24,9 +23,8 @@ release
 end
 
 RuinsOfAlph_Cave2_Text_2:
-.string "A sus órdenes, señor.\n"
-.string "Todo el perímetro de las RUINAS\l"
-.string "ALFA está controlado.$"
+	.string "Roger that, sir. We've secured the\n"
+	.string "entire area around the RUINS OF ALPH.$"
 
 
 
@@ -38,9 +36,7 @@ release
 end
 
 RuinsOfAlph_Cave2_Text_3:
-.string "Estas malditas ruinas…\n"
-.string "Y esos UNOWN…\l"
-.string "No podrían haber dejado claro lo\l"
-.string "que sea que guarda este lugar,\l"
-.string "ahora tengo que estar jugando a\l"
-.string "descifrar jeroglíficos…$"
+	.string "These damn ruins… And those UNOWN…\n"
+	.string "Couldn't they have made clear whatever\l"
+	.string "this place holds? Now I have to\l"
+	.string "decipher hieroglyphs…$"

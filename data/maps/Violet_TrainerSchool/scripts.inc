@@ -407,60 +407,56 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_13:
 	.string "you take flight, you'll touch the sky.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_14:
-.string "¡Mphf!\n"
-	.string "¡Estoy harto de ver BELLSPROUTS!$"
+.string "Mphf!\n"
+	.string "I'm so tired of seeing BELLSPROUTS!$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_15:
-.string "PEGASO: Algún día el GIMNASIO de\n"
-	.string "MALVA será tuyo, hijo...$"
+	.string "FALKNER: Someday the VIOLET CITY GYM\n"
+	.string "will be yours, son…$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_16:
-.string "Vaya, tenemos un alumno curioso.\n"
-	.string "¿Querías hacerme alguna pregunta?\l"
-	.string "Estaré encantado de responderte.$"
+	.string "Well, we have a curious student. Do you\n"
+	.string "wanna ask me something? I will be\l"
+	.string "pleased to reply to it.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_17:
-.string "¿Combatir?\n"
-	.string "Lo siento chico, pareces buen\l"
-	.string "entrenador, pero hace ya tiempo\l"
-	.string "que decidí apartarme de el combate\l"
-	.string "POKÉMON tal y como es concebido\l"
-	.string "hoy en día, además, las MEDALLAS\l"
-	.string "de JOHTO actualmente no tienen\l"
-	.string "validez. Según lo poco que he\l"
-	.string "visto, la LIGA POKÉMON regresó,\l"
-	.string "pero solo para KANTO.$"
+	.string "Battle with me? You seem like a good\n"
+	.string "trainer, but I decided to step away\l"
+	.string "from POKÈMON battles as they are\l"
+	.string "conceived today a long time ago.\l"
+	.string "Besides, the badges of JOHTO currently\l"
+	.string "hold no significance. From what I've\l"
+	.string "seen, the POKÈMON LEAGUE has returned,\l"
+	.string "but only for KANTO.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_18:
-.string "¿Son las ganas de mejorar como\n"
-	.string "ENTRENADOR, conocer nuevos\l"
-	.string "POKÉMON y proseguir con tu propio\l"
-	.string "viaje lo que te llevan a pedirme\l"
-	.string "este combate?\l"
-	.string "¿Y no el colgarte una MEDALLA para\l"
-	.string "exponerla ante todos?$"
+	.string "Is it the desire to improve as a\n"
+	.string "TRAINER, to discover new POKÉMON, and\l"
+	.string "to continue your own journey that\l"
+	.string "leads you to request this battle? And\l"
+	.string "not just to hang a BADGE to show off to\l"
+	.string "everyone?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_19:
-.string "Interesante...\n"
-	.string "¿Eres {PLAYER}?\l"
-	.string "Si cumples el reto que voy a\l"
-	.string "proponerte te concederé ese\l"
-	.string "combate.$"
+.string "Interesting…\n"
+	.string "Are you {PLAYER}?\l"
+	.string "If you complete the challenge\l"
+	.string "I'm about to propose, I'll grant\l"
+	.string "you that battle.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_20:
-.string "Sube a la cima de la TORRE\n"
-	.string "BELLSPROUT y habla con el maestro\l"
-	.string "anciano. Dile que te envío yo.$"
+	.string "Climb to the top of the SPROUT TOWER\n"
+	.string "and speak with the ELDER. Tell him I\l"
+	.string "sent you.$"
 
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_21:
-.string "Si le derrotas, lucharé contigo, y\n"
-	.string "usaré a mis mejores POKÉMON.\l"
-	.string "Pase lo que pase, espero que te\l"
-	.string "enriquezca la experiencia de\l"
-	.string "visitar un lugar tan sagrado como\l"
-	.string "ese. Eso también es parte de tu\l"
-	.string "viaje, ¿no?$"
+	.string "If you defeat him, I'll battle you, and\n"
+	.string "I'll use my best POKÉMON. Whatever\l"
+	.string "happens, I hope the experience of\l"
+	.string "visiting such a sacred place enriches\l"
+	.string "you. That's also part of your journey,\l"
+	.string "isn't it?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Move_1:
 walk_in_place_right

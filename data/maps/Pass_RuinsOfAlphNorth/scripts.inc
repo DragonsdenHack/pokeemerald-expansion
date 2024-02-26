@@ -9,9 +9,9 @@ release
 end
 
 RuinsOfAlphNorth_Text_1:
-.string "Creo que apenas llegamos a rascar\n"
-.string "la superficie de lo que\l"
-.string "verdaderamente esconde este lugar.$"
+	.string "It seems like we've only just begun to\n"
+	.string "explore the true secrets hidden within\l"
+	.string "this place.$"
 
 
 
@@ -23,10 +23,10 @@ release
 end
 
 RuinsOfAlphNorth_Text_2:
-.string "Esos científicos de las RUINAS\n"
-.string "ALFA no me dijeron nada\l"
-.string "importante, ¡saben menos que yo\l"
-.string "sobre ellas!$"
+	.string "The researchers at the RUINS OF ALPH\n"
+	.string "didn't share any significant\l"
+	.string "information with me; they seem to know\l"
+	.string "even less than I do about these ruins!$"
 
 
 
@@ -38,6 +38,5 @@ release
 end
 
 RuinsOfAlphNorth_Text_3:
-.string "¿No te imaginas quién pudo hacer\n"
-.string "algo así?\l"
-.string "¿Y por qué?$"
+	.string "Have you any idea who could've pulled\n"
+	.string "off something like this? And why?$"

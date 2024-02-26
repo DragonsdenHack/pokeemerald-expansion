@@ -9,18 +9,12 @@ release
 end
 
 RuinsOfAlph_Text_1:
-.string "¡Chst!\n"
-.string "¿Sabías que si sintonizas la radio\l"
-.string "a una frecuencia determinada\l"
-.string "dentro de las ruinas se\l"
-.string "escucharán sonidos extrañísimos?\l"
-.string "¡Lo sabía!\l"
-.string "¡Es todo una conspiración entre\l"
-.string "los UNOWN y la TORRE RADIO!\l"
-.string "…\l"
-.string "…\l"
-.string "¿Cómo?\l"
-.string "¿Eso no tiene ningún sentido?$"
+	.string "Shh! Did you know that if you tune the\n"
+	.string "radio to a specific frequency inside\l"
+	.string "the ruins, you'll hear some really weird\l"
+	.string "sounds? I knew it! It's all a conspiracy\l"
+	.string "between the UNOWN and the RADIO TOWER!\l"
+	.string "… … What? That makes no sense at all?$"
 
 
 
@@ -32,12 +26,10 @@ release
 end
 
 RuinsOfAlph_Text_2:
-.string "-Nosotros, humanos, debemos caminar\n"
-.string "junto a ellos. Por ello, nosotros\l"
-.string "partimos.-\l"
-.string "La frase está grabada en\l"
-.string "una de las cámaras.\l"
-.string "¿Qué querrá decir?$"
+	.string "-We, humans, must walk along them.\n"
+	.string "That's why, we go-. The phrase is\l"
+	.string "recorded in one of the chambers. What\l"
+	.string "could it mean?$"
 
 
 
@@ -73,9 +65,9 @@ release
 end
 
 RuinsOfAlph_Terremoto_Texto_1:
-.string "(Algo que llevaba mucho\n"
-	.string "tiempo cerrado se ha abierto al\l"
-	.string "sur de RUINAS ALFA)$"
+	.string "(Something that had been closed for a\n"
+	.string "long time has opened to the south of\l"
+	.string "the RUINS OF ALPH).$"
 
 RuinsOfAlph_Terremoto_Move_1:
 emote_exclamation_mark
@@ -92,8 +84,8 @@ release
 end
 
 RuinsOfAlph_Casa_texto_1:
-.string "C.INVESTIGACIÓN DE LAS RUINAS ALFA\n"
-	.string "LA AUTORIDAD EN LAS RUINAS ALFA$"
+.string "RUINS OF ALPH RESEARCH CENTER\n"
+	.string "THE AUTHORITY ON THE RUINS OF ALPH$"
 
 RuinsOfAlph_Cartel::
 lock
@@ -102,6 +94,6 @@ release
 end
 
 RuinsOfAlph_Cartel_texto_1:
-.string "RUINAS ALFA\n"
-	.string "¡Bienvenidos!$"
+.string "RUINS OF ALPH\n"
+	.string "VISITORS WELCOME$"
 

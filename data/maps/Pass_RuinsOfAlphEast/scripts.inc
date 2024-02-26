@@ -9,11 +9,10 @@ release
 end
 
 RuinsOfAlphEast_Text_1:
-.string "Esos investigadores de las RUINAS\n"
-.string "ALFA son unos incompetentes,\l"
-.string "podrían tirarse 10 años de\l"
-.string "investigación sin llegar a ninguna\l"
-.string "conclusión.$"
+	.string "Those researchers at the RUINS OF ALPH\n"
+	.string "are incompetent, they could spend 10\l"
+	.string "years researching without reaching any\l"
+	.string "conclusion.$"
 
 
 
@@ -25,12 +24,11 @@ release
 end
 
 RuinsOfAlphEast_Text_2:
-.string "Pensé que en este lugar\n"
-.string "encontraría algún POKÉMON raro,\l"
-.string "pero no hay nada, solo los restos\l"
-.string "de lo que una vez fue.\l"
-.string "¡Con eso no puedo presumir delante\l"
-.string "de mis amigos en CIUDAD TRIGAL!$"
+	.string "I thought I would find some rare\n"
+	.string "POKÉMON in this place, but there's\l"
+	.string "nothing interesting, just the remains\l"
+	.string "of what once was. I can't brag about\l"
+	.string "that to my friends in GOLDENROD CITY!$"
 
 
 
@@ -42,6 +40,5 @@ release
 end
 
 RuinsOfAlphEast_Text_3:
-.string "¿No te imaginas quién pudo hacer\n"
-.string "algo así?\l"
-.string "¿Y por qué?$"
+	.string "Have you any idea who could've pulled\n"
+	.string "off something like this? And why?$"
