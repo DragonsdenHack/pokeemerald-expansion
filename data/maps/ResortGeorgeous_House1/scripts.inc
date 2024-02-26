@@ -50,19 +50,21 @@ applymovement 1, CuevaTesoro4_Jefe_Final_Move_9
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_7
 waitmovement 0x0
 msgbox ResortGeorgeous_House1_Text_Consul_7, MSGBOX_AUTOCLOSE
-delay 40
+delay 20
 playse MUS_RG_ROCKET_HIDEOUT
 waitfanfare 
 clearflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 playse SE_DOOR
 addobject 3
 delay 20
+playse SE_DOOR
+addobject 4
+delay 20
 playse SE_PIN
 applymovement 3, ResortGeorgeous_House1_Consul_move_8
 applymovement 1, ResortGeorgeous_House1_Consul_move_5
 applymovement 2, ResortGeorgeous_House1_Consul_move_5
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_4
-addobject 4
 waitmovement 0x0
 applymovement OBJ_EVENT_ID_PLAYER, ResortGeorgeous_House1_Consul_move_7
 applymovement 4, ResortGeorgeous_House1_Consul_move_9
@@ -148,8 +150,12 @@ ResortGeorgeous_House1_Text_Consul_7:
 	.string "career!$"
 
 ResortGeorgeous_House1_Text_Consul_8:
-	.string "A period of reflection in the LOST CAVE\n"
-	.string "won't hurt you.$"
+	.string "Game over, CONSUL. You messed up by\n"
+	.string "thinking you were the smartest,\l"
+	.string "betraying us when it suited you.\l"
+	.string "Now, you'll pay for it. A period of\l"
+	.string "reflection in the LOST CAVE won't hurt\l"
+    .string "you.$"
 
 ResortGeorgeous_House1_Text_Consul_9:
 .string "CONSUL: {PAUSE 20}…{PAUSE 20}$"

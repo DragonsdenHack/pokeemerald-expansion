@@ -353,7 +353,7 @@ VermilioCity_Motorista_Text_2:
 	.string "just about time for them to recognize\l"
 	.string "your skills, now we are HIGH RANK\l"
 	.string "GRUNTS, you know what it means, don't\l"
-	.string "you?. They will assign us missions that\l"
+	.string "you? They will assign us missions that\l"
 	.string "are more important, so we will be able\l"
 	.string "to move between the big fishes of this\l"
 	.string "organization, this doesn't seem like a\l"
@@ -365,7 +365,7 @@ VermilioCity_Motorista_Text_3:
 .string "Whatever that would contain that\n"
 	.string "CAPTAIN's jar, we will find it{PAUSE 15}…{PAUSE 15} I\l"
 	.string "wonder if we will be able to see\l"
-	.string "GIOVANNI hims….$"
+	.string "GIOVANNI hims…$"
 
 VermilioCity_Motorista_Text_4:
 .string "You should be the HIGH RANK GRUNTS\n"

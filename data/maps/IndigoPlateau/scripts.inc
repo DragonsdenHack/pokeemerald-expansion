@@ -103,7 +103,7 @@ RocketHideout_6F_Escena_Lance_Texto_3:
 	.string "regarding TRAINER items, they will all\l"
 	.string "depart from their headquarters in\l"
 	.string "SAFFRON and be distributed mostly at\l"
-	.string "the CERULEAN CITY SHOPPING CENTER.\l"
+	.string "the CELADON DEPARTMENT STORE.\l"
 	.string "Small businesses that could compete\l"
 	.string "are strictly prohibited, as they\l"
 	.string "interfere with the region's general\l"

@@ -106,7 +106,7 @@ RocketHideout_Elevator_EventScript_SetFloor::
 	
 	
 gText_WhichFloorWouldYouLike2:
-	.string "¿A qué planta te gustaría ir?$"	
+	.string "Which floor do you want?$"	
 
 
 

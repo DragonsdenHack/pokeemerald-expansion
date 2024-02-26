@@ -18,12 +18,11 @@ release
 end
 
 VioletCity_SproutTowerP1_Text_3:
-.string "Vine desde PUEBLO LAVANDA a\n"
-.string "presentar mis respetos a las\l"
-.string "pagodas de CIUDAD IRIS y CIUDAD\l"
-.string "MALVA, aunque de eso hace ya\l"
-.string "tiempo, hasta que no abran las\l"
-.string "fronteras no podré volver…$"
+	.string "I came from LAVENDER TOWN to pay my\n"
+	.string "respects at the towers of ECRUTEAK\l"
+	.string "CITY and VIOLET CITY, although it's\l"
+	.string "been a while; I won't be able to return\l"
+	.string "until the borders open…$"
 
 
 
@@ -51,8 +50,8 @@ msgbox VioletSprotTowerP1Documento_Text_100, MSGBOX_SIGN
 end
 
 VioletSprotTowerP1Documento_Text_100:
-	.string "Es la solemne estatua de un\n"
-	.string "BELLSPROUT. Tiene grabado algo en\l"
-	.string "letras de oro: - Todos partimos de\l"
-	.string "puntos diferentes... pero todos\l"
-	.string "podemos tocar el mismo cielo-.$"
+	.string "It is the solemn statue of a\n"
+	.string "BELLSPROUT. Engraved upon it in golden\l"
+	.string "letters is: -We all start from different\l"
+	.string "points… but we can all reach the same\l"
+	.string "sky-.$"

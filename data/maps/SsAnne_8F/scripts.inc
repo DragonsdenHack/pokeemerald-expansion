@@ -303,7 +303,7 @@ SsAnne_8F_Capitan_Text_15:
 
 SsAnne_8F_Capitan_Text_16:
 .string "And now, you come to tell me that two\n"
-	.string "criminals, who came form a region whose\l"
+	.string "criminals, who came from a region whose\l"
 	.string "water is polluted by the POWER PLANT\l"
 	.string "and the CYCLING ROAD, are coming to\l"
 	.string "steal from ME an unique item that\l"
@@ -376,7 +376,7 @@ SsAnne_8F_Capitan_Text_27:
 	.string "CAPTAIN).$"
 
 SsAnne_8F_Capitan_Text_28:
-.string "CAPTAIN: This can't be happening. Mi\n"
+.string "CAPTAIN: This can't be happening. My\n"
 	.string "crew… you made fun of them, you made\l"
 	.string "them look ridiculous and you are just\l"
 	.string "two young grunts of a local gang. How\l"

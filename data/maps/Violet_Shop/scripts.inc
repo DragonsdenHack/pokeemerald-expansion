@@ -14,10 +14,9 @@ release
 end
 
 VioletCity_Shop_Text_2:
-.string "Cerca de aquí están las RUINAS\n"
-.string "ALFA, ese lugar guarda en su\l"
-.string "interior un gran misterio por\l"
-.string "resolver, estoy convencido.$"
+	.string "Not far from here are the RUINS OF\n"
+	.string "ALPH, and within lies a significant\l"
+	.string "mystery yet to be solved, I'm certain.$"
 
 
 
@@ -29,10 +28,9 @@ release
 end
 
 VioletCity_Shop_Text_3:
-.string "Los POKÉMON ROCA tienen gran\n"
-.string "ventaja sobre el VOLADOR, ¡pero\l"
-.string "PEGASO destrozó igualmente a todo\l"
-.string "mi equipo!$"
+	.string "The ROCK POKÉMON have a great\n"
+	.string "advantage against the FLYING, but still\l"
+	.string "FALKNER destroyed my team!$"
 
 
 
@@ -44,10 +42,10 @@ release
 end
 
 VioletCity_Shop_Text_4:
-.string "En JOHTO no hay tanta competencia\n"
-.string "como en KANTO por ser el mejor\l"
-.string "ENTRENADOR, pero la búsqueda de\l"
-.string "ese vínculo con tu equipo hace\l"
-.string "que, sin buscarlo, varios de los\l"
-.string "antiguos maestros de esta región\l"
-.string "sean los mejores ENTRENADORES.$"
+	.string "In JOHTO, there isn't as much\n"
+	.string "competition as in KANTO to be the best\l"
+	.string "TRAINER, but the search for that bond\l"
+	.string "with your team means that,\l"
+	.string "unintentionally, several of the old\l"
+	.string "masters in this region are the best\l"
+	.string "TRAINERS.$"

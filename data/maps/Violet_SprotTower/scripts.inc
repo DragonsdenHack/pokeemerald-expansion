@@ -18,11 +18,10 @@ release
 end
 
 VioletCity_SproutTower_Text_1:
-.string "La leyenda dice que la columna que\n"
-.string "sostiene esta torre es el tallo de\l"
-.string "un enorme BELLSPROUT que medía 30\l"
-.string "metros de altura.\l"
-.string "¿Será cierto?$"
+	.string "Legend has it that the pillar\n"
+	.string "supporting this tower is the stem of an\l"
+	.string "enormous BELLSPROUT that measured 100\l"
+	.string "feets in height. Do you think it is true?$"
 
 
 
@@ -34,12 +33,11 @@ release
 end
 
 VioletCity_SproutTower_Text_2:
-.string "En este lugar rendimos culto a\n"
-.string "BELLSPROUT, pero también al\l"
-.string "combate POKÉMON. Si crees tener lo\l"
-.string "que hay que tener, sube hasta el\l"
-.string "último piso y compruébalo tú\l"
-.string "mismo.$"
+	.string "In this place,we venerate BELLSPROUT, ,\n"
+	.string "but also the art of POKÉMON battling.\l"
+	.string "If you think you have what is needed,\l"
+	.string "climb to the top floor and see for\l"
+	.string "yourself.$"
 
 
 
@@ -64,11 +62,11 @@ msgbox VioletSprotTowerDocumento_Text_100, MSGBOX_SIGN
 end
 
 VioletSprotTowerDocumento_Text_100:
-	.string "Es la solemne estatua de un\n"
-	.string "BELLSPROUT. Tiene grabado algo en\l"
-	.string "letras de oro: - Todos partimos de\l"
-	.string "puntos diferentes... pero todos\l"
-	.string "podemos tocar el mismo cielo-.$"
+	.string "It is the solemn statue of a\n"
+	.string "BELLSPROUT. Engraved upon it in golden\l"
+	.string "letters is: -We all start from different\l"
+	.string "points… but we can all reach the same\l"
+	.string "sky-.$"
 
 VioletSprotTower_5::
 lock     
@@ -78,10 +76,10 @@ release
 end
 
 VioletCity_SproutTower_Text_5:
-.string "He oído que KANTO respeta cada vez\n"
-	.string "menos sus propias tradiciones e\l"
-	.string "historia, espero que aquí no lleguemos\l"
-	.string "a eso.$"
+	.string "I had heard that KANTO is increasingly\n"
+	.string "disregarding its own traditions and\l"
+	.string "history; I hope we don't reach that\l"
+	.string "point here.$"
 
 VioletSprotTower_6::
 lock     
@@ -91,8 +89,9 @@ release
 end
 
 VioletCity_SproutTower_Text_6:
-.string "El enorme pilar que sostiene esta torre\n"
-	.string "está basado en el tallo de BELLSPROUT,\l"
-	.string "su gran flexibilidad lo hace inmune a\l"
-	.string "terremotos. Si esta torre sigue a día\l"
-	.string "de hoy en pie, es gracias a eso.$"
+	.string "The enormous pillar that holds this\n"
+	.string "tower is based on a BELLSPROUT's stem,\l"
+	.string "its grand flexibility protects the\l"
+	.string "TOWER, even from earthquakes. If this\l"
+	.string "tower is still standing up today, it is\l"
+	.string "due to that.$"

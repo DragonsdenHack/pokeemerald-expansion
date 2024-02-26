@@ -168,8 +168,8 @@
   "bg_events": [
     {
       "type": "sign",
-      "x": 2,
-      "y": 4,
+      "x": 0,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SsAnne8FDocumento_100"
@@ -184,8 +184,8 @@
     },
     {
       "type": "sign",
-      "x": 2,
-      "y": 3,
+      "x": 0,
+      "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "SsAnne8FDocumento_100"

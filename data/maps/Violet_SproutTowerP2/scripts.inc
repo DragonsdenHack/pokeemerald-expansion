@@ -18,7 +18,7 @@ release
 end
 
 VioletSproutTowerP2_3_Texto_1:
-.string "Parece estar meditando...$"
+.string "Apparently he is meditating…$"
 
 
 
@@ -61,11 +61,11 @@ msgbox VioletSprotTowerP2Documento_Text_100, MSGBOX_SIGN
 end
 
 VioletSprotTowerP2Documento_Text_100:
-	.string "Es la solemne estatua de un\n"
-	.string "BELLSPROUT. Tiene grabado algo en\l"
-	.string "letras de oro: - Todos partimos de\l"
-	.string "puntos diferentes... pero todos\l"
-	.string "podemos tocar el mismo cielo-.$"
+	.string "It is the solemn statue of a\n"
+	.string "BELLSPROUT. Engraved upon it in golden\l"
+	.string "letters is: -We all start from different\l"
+	.string "points… but we can all reach the same\l"
+	.string "sky-.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus::
 applymovement OBJ_EVENT_ID_PLAYER, Violet_SproutTower_P2_Encuentro_Zeus_Move_1
@@ -114,93 +114,83 @@ release
 end
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_1:
-.string "????: Me has decepcionado, anciano.$"
+.string "????: You have disappointed me, old man.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_2:
-.string "ZEUS: Vine aquí pensando que este\n"
-	.string "lugar contaba con algún tipo de\l"
-	.string "información valiosa sobre los 2\l"
-	.string "LEGENDARIOS de JOHTO, que me\l"
-	.string "ayudara a indagar más en la\l"
-	.string "historia de esta región.\l"
-	.string "Y lo único que encuentro es un\l"
-	.string "grupo de pensadores que no hacen\l"
-	.string "más que honrar la mediocridad de\l"
+	.string "ZEUS: I came here thinking that this\n"
+	.string "place held some valuable information\l"
+	.string "about the two LEGENDARIES of JOHTO,\l"
+	.string "which would help me delve deeper into\l"
+	.string "the history of this region. And all I\l"
+	.string "find is a group of sages who do nothing\l"
+	.string "but honor the mediocrity of\l"
 	.string "BELLSPROUT.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_3:
-.string "¿Para qué desperdiciar tu vida\n"
-	.string "entregándote a algo así,\l"
-	.string "cuando a lo máximo que puedes\l"
-	.string "aspirar es a ser menos malo que el\l"
-	.string "resto de BELLSPROUT?$"
+	.string "Why waste your life dedicating yourself\n"
+	.string "to something like this, when the most\l"
+	.string "you can aspire to is being slightly less\l"
+	.string "bad than the rest of BELLSPROUT?$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_4:
-.string "Confio en que la TORRE CAMPANA de\n"
-	.string "CIUDAD IRIS tenga algo más\l"
-	.string "interesante que decir. Ya he visto\l"
-	.string "suficiente de este lugar.$"
+	.string "I trust that the BELL TOWER in\n"
+	.string "ECRUTEAK CITY has something more\l"
+	.string "interesting to offer. I've seen enough\l"
+	.string "of this place.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_5:
-.string "{PLAYER}, no esperaba volver a\n"
-	.string "verte, y menos en un lugar como\l"
-	.string "este. Creía que solo operabas por\l"
-	.string "KANTO e ISLAS SETE.$"
+	.string "{PLAYER}, I didn't expect to see you\n"
+	.string "again, and even less in a place like this.\l"
+	.string "I thought you worked only around KANTO\l"
+	.string "and SEVII.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_6:
-.string "Aunque a decir verdad, esta pagoda\n"
-	.string "le vendrá bien a alguien como tú.\l"
-	.string "Realmente le viene bien a\l"
-	.string "cualquiera que esté sujeto por las\l"
-	.string "leyes de los POKÉMON mortales, si\l"
-	.string "lo que quieres es estirar un\l"
-	.string "poquito más tu limitado margen de\l"
-	.string "mejora. Pero yo no he venido aquí\l"
-	.string "por eso.$"
+	.string "But to be honest, this pagoda will suit\n"
+	.string "someone like you quite nicely. It's\l"
+	.string "really beneficial for anyone\l"
+	.string "constrained by the laws of mortal\l"
+	.string "POKÉMON, if you want to push your\l"
+	.string "limited margin of improvement just a bit\l"
+	.string "further. But that's not why I'm here.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_7:
-.string "Todos vuestros POKÉMON no son más\n"
-	.string "que sombras y cenizas. No\l"
-	.string "obstante...$"
+	.string "All of your POKÉMON are just shadows\n"
+	.string "and ashes. Nevertheless…$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_8:
-.string "Ese ENTRENADOR...\n"
-	.string "Se dirigía a PUEBLO AZALEA.\l"
-	.string "Contaba con un POKÉMON, un POKÉMON\l"
-	.string "muy especial a pesar de no ser\l"
-	.string "LEGENDARIO.$"
+	.string "That TRAINER…. He was heading to\n"
+	.string "AZALEA TOWN. Had a POKÉMON, a very\l"
+	.string "special POKÉMON although not being a\l"
+	.string "LEGENDARY one.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_9:
-.string "Ese POKÉMON tenía el poder del\n"
-	.string "sol. Pude sentirlo nada más salir\l"
-	.string "de la POKÉ BALL, la energía de ese\l"
-	.string "POKÉMON se asemeja a la de los\l"
-	.string "LEGENDARIOS más potentes, y\l"
-	.string "desconozco el motivo.$"
+	.string "That POKÉMON had the power of the sun.\n"
+	.string "I could sense it the moment it came out\l"
+	.string "of the POKÉ BALL; the energy of that\l"
+	.string "POKÉMON is akin to that of the\l"
+	.string "mightiest LEGENDARIES, and I'm\l"
+	.string "uncertain why.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_10:
-.string "Sin embargo, me enteré de que está\n"
-	.string "enfermo. Ese excedente de energía\l"
-	.string "es posiblemente la causa de su\l"
-	.string "enfermedad. Su poder y su\l"
-	.string "maldición caminan juntas de la\l"
-	.string "mano.$"
+	.string "However, I noticed that it's sick. That\n"
+	.string "surplus of energy is possibly the cause\l"
+	.string "of its illness. Its power and its curse\l"
+	.string "go hand in hand.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_11:
-.string "Pero no me sorprende, es lo que\n"
-	.string "ocurre cuando a un POKÉMON mortal\l"
-	.string "le colocas el motor de un POKÉMON\l"
-	.string "sagrado: su cuerpo no lo soporta.\l"
-	.string "No deja de ser una anomalía, una\l"
-	.string "prueba más de que jugar a ser\l"
-	.string "dioses sin serlo sale caro.$"
+	.string "But it's not surprising; this is what\n"
+	.string "happens when you implant the engine of\l"
+	.string "a sacred POKÉMON into a mortal one:\l"
+	.string "their body can't withstand it. It's still\l"
+	.string "an anomaly, further evidence that\l"
+	.string "playing gods without being one is\l"
+	.string "costly.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_12:
-.string "Espero que esto te sirva como\n"
-	.string "ejemplo de lo que puede ocurrirte\l"
-	.string "a ti también si tratas de jugar\l"
-	.string "con cosas más grandes que tu\l"
-	.string "propia existencia.$"
+	.string "I hope this serves as an example of\n"
+	.string "what can happen to you too if you try\l"
+	.string "to play with things bigger than your\l"
+	.string "own existence.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Move_1:
 walk_in_place_up
@@ -306,88 +296,75 @@ release
 end
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_10.1:
-.string "¡¡{PLAYER} obtuvo la MO05 de\n"
-	.string "manos de MAESTRO BELLSPROUT!$"
+	.string "{PLAYER} obtained the HM05 from\n"
+	.string "ELDER!!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_1:
-.string "Ese chico va a acabar mal, está\n"
-	.string "cegado por una sola de las\l"
-	.string "cualidades que definen a un\l"
-	.string "POKÉMON: los STATS BASE. Y ello le\l"
-	.string "impide ver el resto de virtudes\l"
-	.string "que cada uno de los POKÉMON tiene.$"
+	.string "That guy is going to end up in trouble,\n"
+	.string "he's blinded by just one of the\l"
+	.string "qualities that define a POKÉMON: the\l"
+	.string "BASE STATS. And that prevents him from\l"
+	.string "seeing the other virtues that each\l"
+	.string "POKÉMON has.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_2:
-.string "Parte de una definición de poder\n"
-	.string "errónea. El verdadero poder puede\l"
-	.string "provenir de cualquier POKÉMON, si\l"
-	.string "eres capaz de conocerlo lo\l"
-	.string "suficiente. Y saber ordenar\l"
-	.string "adecuadamente las infinitas\l"
-	.string "combinaciones que puedes hacer con\l"
-	.string "él, puede derrotar a cualquiera.\l"
-	.string "¿No es eso acaso poder?\l"
-	.string "Dentro de cada POKÉMON está el\l"
-	.string "potencial de ser excelente, solo\l"
-	.string "que algunos son incapaces de\l"
-	.string "desarrollarlo.$"
+	.string "A misconception about power. Real power\n"
+	.string "can come from any POKÉMON if you're\l"
+	.string "able to understand it enough. And\l"
+	.string "knowing how to arrange the infinite\l"
+	.string "combinations you can make with it\l"
+	.string "properly can overcome anyone. Isn't\l"
+	.string "that power, then? Within each POKÉMON\l"
+	.string "lies the potential to be excellent, only\l"
+	.string "some are unable to develop it.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
 .string "...\n"
 	.string "...$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
-.string "¡Oh!\n"
-	.string "¿Así que te envía PEGASO? Algo\l"
-	.string "debe de haber visto en ti para\l"
-	.string "enviarte aquí.\l"
-	.string "Sabiendo que seré tú prueba para\l"
-	.string "acceder a algo tan especial como\l"
-	.string "lo es combatir con PEGASO, no me\l"
-	.string "queda otra que usar a mis mejores\l"
-	.string "POKÉMON.\l"
-	.string "¡Muéstrame el vínculo que\l"
-	.string "mantienes con tu equipo!$"
+	.string "Oh! So FALKNER sends you? He must have\n"
+	.string "seen something special in you to send\l"
+	.string "you here. Knowing that I'll be your trial\l"
+	.string "to access something as special as\l"
+	.string "battling PEGASO, I have no other choice\l"
+	.string "than to use my best POKÉMON. Show me\l"
+	.string "the bond you hold with your team!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_5:
-.string "¡Oh!\n"
-	.string "Así que no todos los entrenadores\l"
-	.string "jóvenes han perdido la esencia del\l"
-	.string "combate...$"
+.string "Oh!\n"
+	.string "So not every young trainer has lost the\l"
+	.string "essence of battling…$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_6:
-.string "No esperaba para nada volverme a\n"
-	.string "encontrar con entrenadores así.\l"
-	.string "Alguien como tú merece ser puesto\l"
-	.string "a prueba con rivales que le\l"
-	.string "obliguen a ir más allá.$"
+	.string "I never expected to encounter trainers\n"
+	.string "like you again. Someone like you\l"
+	.string "deserves to be challenged by opponents\l"
+	.string "that compel you to go beyond.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_7:
-.string "¡PEGASO!\n"
-	.string "¡Avisa a tu padre!\l"
-	.string "¡Este chaval acaba de cumplir su\l"
-	.string "reto!$"
+.string "FALKNER!\n"
+	.string "Tell your father!\l"
+	.string "This younger man had just\l"
+	.string "accomplished his challenge!$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_8:
-.string "PEGASO: Voy, maestro.$"
+.string "FALKNER: I'm going, ELDER.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_9:
-.string "(PEGASO USÓ CUERDA HUIDA).$"
+.string "(FALKNER USED ESCAPE ROPE).$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_10:
-.string "Y toma esto. Con esta MO podrás\n"
-	.string "iluminar la más oscura de las\l"
-	.string "cuevas.$"
+	.string "And take this. With this HM you could\n"
+	.string "flash even the darkest caves.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_11:
-.string "Pase lo que pase, no olvides\n"
-	.string "disfrutar de cada paso en tu\l"
-	.string "viaje. Ese momento presente es lo\l"
-	.string "único que tienes, todas tus\l"
-	.string "expectativas de futuro no son más\l"
-	.string "que una ilusión que solo tomará\l"
-	.string "forma en base a lo que hagas\l"
-	.string "ahora.$"
+	.string "No matter what happens, don't forget to\n"
+	.string "enjoy every step of your journey. That\l"
+	.string "present moment is all you have; all your\l"
+	.string "future expectations are nothing more\l"
+	.string "than an illusion that will only take\l"
+	.string "shape based on what you do now.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Move_1:
 emote_exclamation_mark
@@ -420,17 +397,14 @@ release
 end
 
 VioletViolet_SproutTower_P2_Pegaso_Texto_1:
-.string "¿Quién era esa persona?\n"
-	.string "Jamás había visto a alguien\l"
-	.string "derrotar así a mi maestro. Sus\l"
-	.string "POKÉMON casi derrumban este lugar\l"
-	.string "de lo grandes que son.$"
+	.string "Who was that person? I've never seen\n"
+	.string "anyone defeat my master like that way.\l"
+	.string "Their POKÉMON almost brought this\l"
+	.string "place down with their sheer size.$"
 
 VioletViolet_SproutTower_P2_Pegaso_Texto_2:
-.string "Entonces...\n"
-	.string "Solo hay que enseñar tu verdadero\l"
-	.string "poder a quien de verdad lo\l"
-	.string "merece...\l"
-	.string "El resto debe conformarse con no\l"
-	.string "más que un PIDGEOTTO y su BOFETÓN\l"
-	.string "LODO...$"
+	.string "So… You simply need to reveal your true\n"
+	.string "power to those who genuinely deserve\l"
+	.string "it… The rest must settle for nothing\l"
+	.string "more than a PIDGEOTTO and its\l"
+	.string "MUD-SLAP…$"
