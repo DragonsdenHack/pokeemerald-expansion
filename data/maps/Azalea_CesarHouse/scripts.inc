@@ -164,98 +164,88 @@ Azalea_CesarHouse_Evento_Mirto_Texto_5:
 	.string "aberration in terms of power.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_6:
-.string "En todos mis libros y años de\n"
-	.string "experiencia jamás he visto algo\l"
-	.string "así. A tu POKÉMON se le ha\l"
-	.string "concedido el don de brillar más\l"
-	.string "que a ningún otro NO LEGENDARIO,\l"
-	.string "pero también está destinado a\l"
-	.string "apagarse antes, una cosa lleva a\l"
-	.string "la otra.$"
+	.string "Throughout all my literature and\n"
+	.string "extensive experience, I've never\l"
+	.string "encountered anything quite like this.\l"
+	.string "Your POKÉMON has been bestowed with\l"
+	.string "the ability to shine brighter than any\l"
+	.string "other non-legendary, yet it's also\l"
+	.string "fated to diminish sooner, one\l"
+	.string "inevitably follows the other.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_7:
-.string "MIRTO: …$"
+.string "ALDER: …"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_8:
-.string "¿No hay… nada… que pueda hacer?$"
+.string "Isn't there… anything… that I can do?$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_9:
-.string "????: Yo no puedo ayudarte, lo\n"
-	.string "siento. Pero…$"
+	.string "????: I can't help you, I'm sorry. But…$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_10:
-.string "En JOHTO hay gente muy sabia. No\n"
-	.string "soy el único ENTRENADOR con un\l"
-	.string "POKÉMON así. Te recomieno visitar\l"
-	.string "la FARMACIA de CIUDAD ORQUÍDEA, y\l"
-	.string "CIUDAD IRIS. Hay gente allí que\l"
-	.string "quizás sí pueda ayudarte.$"
+	.string "There are many wise people in JOHTO. I'm\n"
+	.string "not the only TRAINER with such a\l"
+	.string "POKÉMON. I suggest you visit the\l"
+	.string "PHARMACY in CIANWOOD CITY and\l"
+	.string "ECRUTEAK CITY. You might find people\l"
+	.string "there who would help you.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_11:
-.string "MIRTO: Muchas gracias CÉSAR, no\n"
-	.string "perderé un solo segundo. Llegaré\l"
-	.string "hasta el último rincón de JOHTO si\l"
-	.string "es necesario.$"
+	.string "ALDER: Thank you so much KURT, I won't\n"
+	.string "waste any second. I will reach every\l"
+	.string "corner of JOHTO if necessary.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_12:
-.string "CÉSAR: Vaya, chico, se te ve\n"
-	.string "bastante interesado en el tema.\l"
-	.string "¿Querías algo?\l"
-	.string "¡Pasa!$"
+	.string "KURT: Well, guy, you look very\n"
+	.string "interested in this topic. Did you want\l"
+	.string "something? Come in!$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_13:
-.string "¿Así que retarme a un combate?\n"
-	.string "Debes saber que estoy retirado. El\l"
-	.string "GIMNASIO lo tengo por mis alumnos,\l"
-	.string "pero a partir de ahora me dedicaré\l"
-	.string "a cultivar BONGURIS y criar a mi\l"
-	.string "pequeña nieta.$"
+	.string "So challenging me to a battle? You\n"
+	.string "should know I'm retired. I keep the GYM\l"
+	.string "for my students, but from now on, I'll\l"
+	.string "focus on growing APRICORNS and raising\l"
+	.string "my little granddaughter.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_14:
-.string "Comprenderás que sería injusto\n"
-	.string "aceptar combatir contra ti cuando\l"
-	.string "he rechazado al resto de\l"
-	.string "contendientes.$"
+	.string "You must understand that it would be\n"
+	.string "unfair if I accepted to fight against\l"
+	.string "you when I rejected the rest of the\l"
+	.string "challengers.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
-.string "Aunque…\n"
-	.string "Pareces venir de muy lejos,\l"
-	.string "y ser un apasionado del\l"
-	.string "combate, al igual que MIRTO o\l"
-	.string "yo mismo.$"
+	.string "But… You look like you came from far\n"
+	.string "away, and are very passionate for the\l"
+	.string "POKÉMON battles, as ALDER or myself.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_16:
-.string "Te daré una oportunidad de\n"
-	.string "combatir conmigo, pero tendrás que\l"
-	.string "demostrarme que estás a la altura.\l"
-	.string "Escucha.$"
+	.string "I will give you the chance to battle\n"
+	.string "with me, but you should demonstrate\l"
+	.string "that you deserve it first. Listen.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_17:
-.string "A un buen amigo mío le encanta\n"
-	.string "pasear por el POZO SLOWPOKE, suele\l"
-	.string "estar en lo más profundo del\l"
-	.string "lugar, es un experto en SLOWPOKE y\l"
-	.string "toda su línea evolutiva, sabe todo\l"
-	.string "sobre ese POKÉMON.$"
+	.string "A good friend loves strolling around\n"
+	.string "the SLOWPOKE WELLl. He's usually deep in\l"
+	.string "the place, an expert on SLOWPOKE and\l"
+	.string "its entire evolutionary line, he knows\l"
+	.string "everything about that POKÉMON.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_18:
-.string "También es un buen ENTRENADOR, el\n"
-	.string "único con el que puedo medio\l"
-	.string "combatir en serio de los\l"
-	.string "alrededores.$"
+	.string "He is also a good TRAINER, the only one\n"
+	.string "who I can battle kinda seriously on the\l"
+	.string "around.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_19:
-.string "Si quieres ese combate, deberás\n"
-	.string "derrotarle antes a él, dile que\l"
-	.string "vas de mi parte, si puedes con él,\l"
-	.string "te dará un objeto, un objeto\l"
-	.string "especial.$"
+	.string "If you really want to fight against me,\n"
+	.string "you should defeat him first, tell him\l"
+	.string "you're sent by me, if you can defeat him,\l"
+	.string "he'll reward you with a special item.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_20:
-.string "Solo tendrás que regresar aquí con\n"
-	.string "dicho objeto, como prueba de tu\l"
-	.string "victoria, y accederé a luchar\l"
-	.string "contigo en el GIMNASIO.$"
+	.string "Simply bring back the item here as\n"
+	.string "evidence of your victory, and I'll be\l"
+	.string "willing to engage in a GYM battle with\l"
+	.string "you.$"
 
 Azalea_CesarHouse_Evento_Mirto_Move_1:
 walk_in_place_right

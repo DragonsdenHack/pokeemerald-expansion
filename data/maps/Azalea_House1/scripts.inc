@@ -9,13 +9,11 @@ release
 end
 
 AzaleaHouse1_Text_1:
-.string "Hace poco, vino un\n"
-.string "representante de SILPH todo\l"
-.string "trajeado. Estuvo un buen rato en\l"
-.string "casa de CÉSAR. Creo que están\l"
-.string "interesados en la variedad de POKÉ\l"
-.string "BALL que pueden hacerse con los\l"
-.string "BONGURIS.$"
+	.string "Recently, someone from SILPH came, all\n"
+	.string "dressed up. He spent quite some time at\l"
+	.string "KURT's house. I think they're interested\l"
+	.string "in the variety of POKÉ BALLS that can\l"
+	.string "be made with the APRICORNS.$"
 
 
 
@@ -27,11 +25,11 @@ release
 end
 
 AzaleaHouse1_Text_2:
-.string "Antiguamente todos atrapaban\n"
-.string "POKÉMON con BONGURIS caseros.\l"
-.string "CÉSAR ya ha dicho que pronto\l"
-.string "dejará el GIMNASIO para dedicarse\l"
-.string "a hacer BONGURIS.$"
+	.string "In the past, everyone used homemade\n"
+	.string "APRICORN-based POKÉ BALLS to catch\l"
+	.string "POKÉMON. KURT has already said that\l"
+	.string "soon he will leave the GYM to focus on\l"
+	.string "elaborating APRICORNS.$"
 
 
 Azalea_House1_Anciano::
@@ -58,33 +56,31 @@ release
 end
 
 Azalea_House1_Anciano_Texto_1:
-.string "Jamás olvidaremos lo que has hecho por\n"
-	.string "nosotros. Quiero que te quedes con\l"
-	.string "este POKÉMON.$"
+	.string "We'll never forget what you've done for\n"
+	.string "us. I want you to have this POKÉMON.$"
 
 Azalea_House1_Anciano_Texto_2:
-.string "¡OBTUVISTE UN MADAAMU AL NV.70!$"
+.string "YOU OBTAINED A LV.70 MADAAMU!$"
 
 Azalea_House1_Anciano_Texto_3:
-.string "Es uno de esos antiguos POKÉMON,\n"
-	.string "pertenecientes a la vieja JOHTO rural.\l"
-	.string "Hoy en día están extintos en estado\l"
-	.string "salvaje. Sabemos que es la evolución de\l"
-	.string "FARFETCHD, pero nadie ha logrado\l"
-	.string "obtenerlo a partir de uno.$"
+	.string "It's one of those ancient POKÉMON,\n"
+	.string "native to old rural JOHTO. Nowadays,\l"
+	.string "they're extinct in the wild. We know it's\l"
+	.string "the evolution of FARFETCH'D, but no one\l"
+	.string "has managed to obtain one from it.$"
 
 Azalea_House1_Anciano_Texto_4:
-.string "Forma parte de nuestro pequeño\n"
-	.string "secreto en la elaboración del CARBÓN,\l"
-	.string "no te preocupes, aún tenemos el\l"
-	.string "MADAAMU de mi mujer. Espero que cuides\l"
-	.string "de el mío, su poder destructivo es muy\l"
-	.string "grande.$"
+	.string "It's a key part of our secret\n"
+	.string "CHARCOAL-making process, but don't\l"
+	.string "fret, we still have my wife's MADAAMU.\l"
+	.string "Just make sure you take good care of\l"
+	.string "mine; its destructive power is insane.$"
 
 Azalea_House1_Anciano_Texto_5:
-.string "Nos has dado paz, en este mundo tan\n"
-	.string "cambiante e inestable. Jamás lo\l"
-	.string "olvidaremos.$"
+	.string "Your actions have provided us with\n"
+	.string "peace in this world of constant change\l"
+	.string "and instability. We will always remember\l"
+	.string "your kindness.$"
 
 
 Azalea_House1_Anciana::
@@ -97,10 +93,10 @@ release
 end
 
 Azalea_House1_Anciana_Texto_1:
-.string "Gracias a ti podremos mantener la\n"
-	.string "esencia de este noble arte. No quedará\l"
-	.string "engullido por lo nuevo, sino que será\l"
-	.string "integrado.$"
+	.string "Your contribution ensures the essence\n"
+	.string "of this noble art. It won't be\l"
+	.string "overshadowed by the new; instead, it\l"
+	.string "will be integrated.$"
 
 
 Azalea_House1_Activacion_Sotano::
@@ -131,7 +127,7 @@ release
 end
 
 Azalea_House1_Activacion_Sotano_Texto_1.3:
-.string "¿Quieres acceder al sótano secreto?$"
+.string "Would you like to enter the secret basement?$"
 
 Azalea_House1_Activacion_Sotano_3_No::
 release
@@ -205,16 +201,17 @@ step_end
 
 
 Azalea_House1_Activacion_Sotano_Texto_1.2:
-.string "(Parece el cuadro del que hablaba el\n"
-	.string "anciano... Hay un botón secreto detrás,\l"
-	.string "¿quieres pulsarl...?)$"
+	.string "(It looks like the painting the old man\n"
+	.string "mentioned… There's a secret button\l"
+	.string "behind it. Do you want to press it…?)$"
 
 Azalea_House1_Activacion_Sotano_Texto_1.1:
-.string "(Este cuadro es un poco raro, no parece\n"
-	.string "un cuadro cualquiera...)$"
+	.string "(There's something unusual about this\n"
+	.string "painting, it doesn't seem like an\l"
+	.string "ordinary one…)$"
 
 Azalea_House1_Activacion_Sotano_Texto_1:
-.string "¡Eh, tú! ¿Qué crees que haces?$"
+	.string "Hey, you! What are you doing?$"
 
 Azalea_House1_Activacion_Sotano_Texto_2:
 .string "Primero entras en una propiedad ajena,\n"
