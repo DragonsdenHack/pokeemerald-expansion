@@ -328,7 +328,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 	.string "stealing and committing crimes to fund\l"
 	.string "their projects. Well, in places like this\l"
 	.string "is where the real projects are planned,\l"
-	.string "if anyone, a ROCKETt or not, asks what\l"
+	.string "if anyone, a ROCKET or not, asks what\l"
 	.string "are you doing, reply with the most basic\l"
 	.string "task that the average ROCKET carries\l"
 	.string "out: stealing, be it an item or a\l"

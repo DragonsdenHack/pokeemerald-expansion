@@ -14,9 +14,9 @@ release
 end
 
 AzaleaCarbonS2_Text_3:
-.string "Ahora tenemos vías de tren, conexiones\n"
-.string "marítimas y expansión global. ¿Por qué\l"
-.string "esto iba a ser diferente?$"
+	.string "We've got railways now, sea\n"
+	.string "connections, and global expansion. Why\l"
+	.string "would this be any different?$"
 
 
 
@@ -29,10 +29,9 @@ release
 end
 
 AzaleaCarbonS2_Text_5:
-.string "Todo está dispuesto, en cuanto las\n"
-.string "máquinas empiecen a trabajar,\l"
-.string "facturaremos una cantidad inmensa.\l"
-.string "Hay mucha demanda.$"
+	.string "Everything is ready; once the machines\n"
+	.string "start working, we'll be billing an\l"
+	.string "immense amount. There's a lot of demand.$"
 
 
 
@@ -46,11 +45,11 @@ release
 end
 
 AzaleaCarbonS2_Text_9:
-.string "Hemos restaurado por completo el\n"
-.string "pequeño sótano en el que fabricaban el\l"
-.string "CARBÓN. La inversión ha sido grande,\l"
-.string "pero este lugar ahora sí que parece un\l"
-.string "lugar de trabajo de verdad, ¿no crees?$"
+	.string "We have completely restored the small\n"
+	.string "basement where they used to make\l"
+	.string "CHARCOAL. The investment has been\l"
+	.string "significant, but this place now looks\l"
+	.string "like a real workplace, don't you think?$"
 
 
 
@@ -108,29 +107,29 @@ end
 
 
 AzaleaCarbonS2_Primer_Combate_Texto_1:
-.string "Ni un paso más.$"
+.string "Stop just right there.$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_2:
-.string "Este negocio es demasiado rentable\n"
-	.string "como para echarse a perder por\l"
-	.string "sentimentalismos.$"
+	.string "This business is too profitable to be\n"
+	.string "ruined by sentimentality.$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_3:
-.string "No importa quién seas, de ningún modo\n"
-	.string "puedes ganar. ¡Ni legalmente ni por la\l"
-	.string "fuerza!$"
+	.string "No matter who you are, anyway there is\n"
+	.string "no possible way for you to win. Neither\l"
+	.string "legally nor force!$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_4:
-.string "Oh… Por la fuerza parece que sí…$"
+.string "Oh… By the force it seems so…$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_5:
-.string "Bah, qué más dá, sigue merodeando por\n"
-	.string "aquí, es lo único que puedes hacer.$"
+	.string "Huh, it doesn't matter, keep walking\n"
+	.string "around here, is the only thing that you\l"
+	.string "can do…$"
 
 AzaleaCarbonS2_Primer_Combate_Texto_6:
-.string "Lo único que puedes hacer es merodear\n"
-	.string "por aquí, tómatelo como ruta turística\l"
-	.string "si te apetece.$"
+	.string "The only thing you can do is to lurk\n"
+	.string "around here, take it as a touristic\l"
+	.string "route if you prefer.$"
 
 AzaleaCarbonS2_Segundo_Combate::
 lock
@@ -178,30 +177,28 @@ face_player
 step_end
 
 AzaleaCarbonS2_Segundo_Combate_Texto_5:
-.string "Si quieres ver a mi JEFE, adelante. Eres\n"
-	.string "inofensivo para nosotros.$"
+	.string "If you want to see my BOSS, go ahead.\n"
+	.string "You are inoffensive to us.$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_1:
-.string "Aunque nos derrotes a todos, no nos\n"
-	.string "iremos de aquí. Lo sabes, ¿verdad? Es\l"
-	.string "lo bueno de las sociedades civilizadas,\l"
-	.string "como lo es ahora JOHTO.$"
+	.string "Even if you manage to defeat us all, we\n"
+	.string "won't be leaving this place. You're\l"
+	.string "aware of that, aren't you? It's the\l"
+	.string "advantage of civilized societies, as it\l"
+	.string "is in JOHTO now.$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_2:
-.string "¡Jah! ¡Tu victoria no ha servido para\n"
-	.string "nada!$"
+	.string "Hah! Your victory is purposeless!$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_3:
-.string "Por suerte para nosotros, los tiempos\n"
-	.string "en los que cualquier ENTRENADOR podía\l"
-	.string "obtener cualquier cosa con un equipo\l"
-	.string "más fuerte han acabado. Ese estúpido\l"
-	.string "código moral ya no tiene ningún valor\l"
-	.string "aquí.$"
+	.string "Fortunately for us, the times when any\n"
+	.string "TRAINER could get anything with a\l"
+	.string "stronger team are over. That stupid\l"
+	.string "moral code has no value here anymore.$"
 
 AzaleaCarbonS2_Segundo_Combate_Texto_4:
-.string "Gente como tú, o esos ancianos, estáis\n"
-	.string "condenados a la extinción.$"
+	.string "People like you, or those elders, are\n"
+	.string "condemned to extinction.$"
 
 AzaleaCarbonS2_Combate_Final_Izq::
 lock
@@ -293,9 +290,9 @@ release
 end
 
 AzaleaCarbonS2_Jefe_Despues_Combate_Texto_1:
-.string "¿Crees que los ancianos olvidarán esto\n"
-	.string "y me permitirán ver ese POKÉMON tan\l"
-	.string "especial?$"
+	.string "Do you believe that those elders will\n"
+	.string "forget this and let me see that so\l"
+	.string "special POKÉMON?$"
 
 
 AzaleaCarbonS2_Combate_Final_Move_8:
@@ -336,112 +333,110 @@ walk_up
 step_end
 
 AzaleaCarbonS2_Combate_Final_Texto_1:
-.string "A pesar de toda la seguridad, te las has\n"
-	.string "arreglado para llegar hasta aquí.$"
+	.string "Despite all the security, you've\n"
+	.string "somehow made it to this point.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_2:
-.string "Dime, ¿conoces la FORJA FUEGO?$"
+	.string "Hey, have you visited the FUEGO\n"
+	.string "IRONWORKS?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_3:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_4:
-.string "En la lejana región de SINOHH, desde\n"
-	.string "hace décadas ese lugar se encarga de\l"
-	.string "transformar materiales y convertirlos\l"
-	.string "en otros de vital importancia para la\l"
-	.string "región.$"
+	.string "In the distant region of SINNOH, that\n"
+	.string "place has been tasked with\l"
+	.string "transforming materials into vital\l"
+	.string "resources for the region for decades.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_5:
-.string "¿Qué nos diferencia de ellos? ¿El haber\n"
-	.string "echado de aquí a los antiguos\l"
-	.string "propietarios? ¿Incapaces de sacar\l"
-	.string "partido a todos los recursos naturales\l"
-	.string "que rodean PUEBLO AZALEA?$"
+	.string "What sets us apart from them? Is it\n"
+	.string "driving out the former owners from\l"
+	.string "here? Unable to make the most of all\l"
+	.string "natural resources surrounding AZALEA\l"
+	.string "TOWN?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_6:
-.string "Con ellos el CARBÓN estaría limitado\n"
-	.string "únicamente a los alrededores. ¿Qué hay\l"
-	.string "de PUEBLO CAOBA, o CIUDAD ENDRINO?\l"
-	.string "¿No es eso también egoísta?$"
+	.string "With them in charge, the CHARCOAL would\n"
+	.string "be limited only to the surroundings.\l"
+	.string "What's with MAHOGANY TOWN or\l"
+	.string "BLACKTHORN CITY? Isn't that selfish\l"
+	.string "too?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_7:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_8:
-.string "Sigues empeñado en defenderlos,\n"
-	.string "entiendo, para ti el valor va antes que\l"
-	.string "el pragmatismo.$"
+	.string "You are still trying to defend them, I\n"
+	.string "understand, for you morals are more\l"
+	.string "important than business.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_9:
-.string "No creas que he tomado a la ligera esta\n"
-	.string "profesión, solo por la oportunidad\l"
-	.string "económica. Me he ocupado\l"
-	.string "personalmente de reunir a los mejores\l"
-	.string "para desempeñarla.$"
+	.string "Don't think that I've taken this\n"
+	.string "profession lightly just for the\l"
+	.string "economic opportunity. I've personally\l"
+	.string "made sure to gather the best to carry\l"
+	.string "it out.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_10:
-.string "¡Ahora lo verás!$"
+.string "Now I'll show you!$"
 
 AzaleaCarbonS2_Combate_Final_Texto_11:
-.string "Ningún ENTRENADOR de calle podría\n"
-	.string "ganarme en un duelo… ¿Quién eres?$"
+	.string "No street TRAINER could beat me in a\n"
+	.string "duel… Who are you?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_12:
-.string "Un momento… Eres algo más que un alto\n"
-	.string "cargo de TRIGAL, con POKÉMON\l"
-	.string "adquiridos a golpe de talonario,\l"
-	.string "¿verdad?$"
+	.string "One moment… You're more than just a high\n"
+	.string "ranking official from GOLDENROD, with\l"
+	.string "POKÉMON acquired from the checkbook,\l"
+	.string "aren't you?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_13:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS2_Combate_Final_Texto_14:
-.string "¿¡¡El TEAM ROCKET!!? ¿¡¡Su más alto\n"
-	.string "ADMINISTRADOR JEFE y LÍDER en\l"
-	.string "JOHTO!!?$"
+	.string "The TEAM ROCKET!? The highest ranking\n"
+	.string "ADMIN. CHIEF and LEADER in JOHTO!?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_15:
-.string "Oh, no sabía…$"
+.string "Oh, I didn't know that…$"
 
 AzaleaCarbonS2_Combate_Final_Texto_16:
-.string "Sea como sea, incluso vuestra\n"
-	.string "organización es incapaz de deshacer el\l"
-	.string "contrato.$"
+	.string "Whatever, not even your organization\n"
+	.string "would be able to undo the contract.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_17:
-.string "Pero… no soy estúpido, llevarme mal\n"
-	.string "contigo a la larga acabaría con este\l"
-	.string "lugar, es por ello que te propongo un\l"
-	.string "acuerdo.$"
+	.string "But… I'm not stupid, being your enemy\n"
+	.string "would eventually destroy this place,\l"
+	.string "that's why I propose an agreement.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_18:
-.string "Nosotros seguiremos aquí, pero\n"
-	.string "permitiremos a los ancianos volver a\l"
-	.string "producir CARBÓN. De este modo,\l"
-	.string "integraremos lo viejo con lo nuevo.$"
+	.string "We'll keep working here, but we'll allow\n"
+	.string "the elders to resume the CHARCOAL\l"
+	.string "production. This way, we'll integrate the\l"
+	.string "old with the new.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_19:
-.string "Admito que fui algo arrogante. Creí que\n"
-	.string "nuestros métodos eran infalibles, pero\l"
-	.string "es cierto que esos ancianos podrían\l"
-	.string "aportarnos ciertas técnicas que\l"
-	.string "desconocemos.$"
+	.string "I admit I was somewhat arrogant. I\n"
+	.string "thought our methods were infallible,\l"
+	.string "but it's true that those elders could\l"
+	.string "provide us with certain techniques\l"
+	.string "that we are unaware of.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_20:
-.string "Y no es por tratar de quedar bien, mi\n"
-	.string "SIRFETCHD sintió la presencia de un\l"
-	.string "POKÉMON… debe ser su contraparte… tal\l"
-	.string "vez corte la madera incluso mejor.$"
+	.string "And it's not just to try to look good, my\n"
+	.string "SIRFETCHD felt the presence of a\l"
+	.string "POKÉMON… It must be its counterpart…\l"
+	.string "Maybe it can even cut wood better.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_21:
-.string "Yo mismo enviaré mensajeros, los\n"
-	.string "ancianos podrán volver a vivir aquí.\l"
-	.string "Toma este POKÉMON en señal de buena\l"
-	.string "fe.$"
+	.string "I personally will send messengers, the\n"
+	.string "elders will be able to live here again.\l"
+	.string "Take this POKÉMON as a gesture of good\l"
+	.string "faith.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_22:
-.string "¡OBTUVISTE UN LITTEN AL NV.15!$"
+.string "YOU OBTAINED A LV.15 LITTEN!$"
 
 
 AzaleaCarbonS2_Seteo_Metatiles::

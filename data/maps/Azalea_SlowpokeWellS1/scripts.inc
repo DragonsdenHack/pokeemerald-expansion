@@ -44,8 +44,8 @@ release
 end
 
 SlowpokeWellS1_Combate_Texto_8.1:
-.string "¡Obtuviste una SLOWBRONITA\n"
-	.string "de manos de ENTRENADOR!$"
+.string "You obtained a SLOWBRONITE\n"
+	.string "from SUPERNERD!$"
 
 
 SlowpokeWellS1_Combate_No::
@@ -65,65 +65,53 @@ emote_exclamation_mark
 step_end
 
 SlowpokeWellS1_Combate_Texto_1:
-.string "SLOWBRO es un POKÉMON increíble,\n"
-	.string "su DEFENSA FÍSICA es buena, ¿pero\l"
-	.string "sabías que puede llegar a igualar\l"
-	.string "al mismísimo CLOYSTER en ese\l"
-	.string "apartado?\l"
-	.string "Pocos lo saben porque casi nadie\l"
-	.string "es capaz de llevar a un SLOWBRO\l"
-	.string "hasta ese punto.$"
+	.string "SLOWBRO is an amazing POKÉMON, its\n"
+	.string "PHYSICAL DEFENSE is good, but did you\l"
+	.string "know that it can match CLOYSTER in\l"
+	.string "that regard? Few know because almost\l"
+	.string "no one is able to train a SLOWBRO to\l"
+	.string "that point.$"
 
 SlowpokeWellS1_Combate_Texto_2:
-.string "Es una SLOWBRONITA, son\n"
-	.string "extremadamente raras de ver. Si\l"
-	.string "tienes un SLOWBRO, este objeto\l"
-	.string "sacará todo su potencial, ¡e\l"
-	.string "igualará a CLOYSTER en DEFENSA\l"
-	.string "FÍSICA!$"
+	.string "It's a SLOWBRONITE, they are extremely\n"
+	.string "rare to see. If you have a SLOWBRO, this\l"
+	.string "item will unlock its full potential, and\l"
+	.string "it will match CLOYSTER in PHYSICAL\l"
+	.string "DEFENSE!$"
 
 SlowpokeWellS1_Combate_Texto_3:
 .string "...\n"
 	.string "...$"
 
 SlowpokeWellS1_Combate_Texto_4:
-.string "¿Te envía CÉSAR para combatir\n"
-	.string "conmigo?\l"
-	.string "¿Si me ganas podrás enfrentarte a\l"
-	.string "él?\l"
-	.string "Qué raro, CÉSAR pasa cada vez más\l"
-	.string "del combate POKÉMON. Algo ha\l"
-	.string "debido de ver en ti. En cualquier\l"
-	.string "caso lo comprobaremos. Mi equipo\l"
-	.string "POKÉMON es simple, pero muy\l"
-	.string "sólido.$"
+	.string "Did KURT send you to battle me? If you\n"
+	.string "defeat me, will you be able to face him?\l"
+	.string "It's strange, KURT is increasingly\l"
+	.string "disinterested in POKÉMON battles. He\l"
+	.string "must have seen something in you. My\l"
+	.string "POKÉMON team is simple, but very solid.$"
 
 SlowpokeWellS1_Combate_Texto_5:
-.string "Entonces, ¿estás preparado?$"
+.string "So, are you ready?$"
 
 SlowpokeWellS1_Combate_Texto_6:
-.string "¡Bien!\n"
-	.string "¡Vas a necesitar algo más que\l"
-	.string "pegar duro para romper la coraza\l"
-	.string "de mis POKÉMON!$"
+	.string "Alright! You are going to need\n"
+	.string "something more than hitting hard to\l"
+	.string "break the shell of my POKÉMON.$"
 
 SlowpokeWellS1_Combate_Texto_7:
-.string "CÉSAR no ha tenido mal ojo\n"
-	.string "contigo, desde luego.$"
+	.string "KURT wasn't wrong with you, that's for\n"
+	.string "sure.$"
 
 SlowpokeWellS1_Combate_Texto_8:
-.string "Impresionante, la verdad que se\n"
-	.string "agradece que de vez en cuando\l"
-	.string "aparezca gente como tú, quitando a\l"
-	.string "CÉSAR había olvidado lo que era un\l"
-	.string "combate POKÉMON de verdad.\l"
-	.string "Quiero que tengas esta piedra,\l"
-	.string "espero que sepas valorarla.\l"
-	.string "¡Es la tercera que logro encontrar\l"
-	.string "en el POZO SLOWPOKE en más de 10\l"
-	.string "años!$"
+	.string "Impressive,to be honest I'm grateful\n"
+	.string "that sometimes people like you appear,\l"
+	.string "despite KURT I had forgotten what a\l"
+	.string "real POKÉMON battle was like. I want you\l"
+	.string "to have this stone, I hope you\l"
+	.string "appreciate it. It's the third one I found\l"
+	.string "in the SLOWPOKE WELL in over 10 years!$"
 
 SlowpokeWellS1_Combate_Texto_9:
-.string "Ya veo, no te preocupes. Yo\n"
-	.string "seguiré aquí, contemplando a los\l"
-	.string "SLOWPOKE.$"
+	.string "I understand, don't worry. I'll continue\n"
+	.string "here, watching SLOWPOKE.$"

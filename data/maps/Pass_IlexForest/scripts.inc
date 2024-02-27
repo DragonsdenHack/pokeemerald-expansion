@@ -9,14 +9,12 @@ release
 end
 
 PassIlexForest_Text_1:
-.string "Nos encargamos de cuidar este gran\n"
-.string "bosque y que todo esté en orden.\l"
-.string "Por tu aspecto, pareces alguien\l"
-.string "influyente y poderoso, pero al que\l"
-.string "el éxito no se le ha subido a la\l"
-.string "cabeza. No deberías de causar\l"
-.string "problemas.\l"
-.string "¡Disfruta del ENCINAR!$"
+	.string "We take care of this large forest and\n"
+	.string "keep everything in order. By your looks,\l"
+	.string "you seem like someone influential and\l"
+	.string "powerful, but success hasn't gone to\l"
+	.string "your head. You shouldn't cause any\l"
+	.string "trouble. Enjoy the ILEX FOREST!$"
 
 
 
@@ -28,10 +26,9 @@ release
 end
 
 PassIlexForest_Text_2:
-.string "Si llevas algún mechero contigo,\n"
-.string "más te vale guardarlo bien.\l"
-.string "¡O enfadarás al guardián del\l"
-.string "ENCINAR!$"
+	.string "If you carry a lighter with you, you'd\n"
+	.string "better keep it safe. Or you'll anger the\l"
+	.string "ILEX FOREST's guardian!$"
 
 
 
@@ -43,6 +40,6 @@ release
 end
 
 PassIlexForest_Text_3:
-.string "El ENCINAR es muy grande.\n"
-.string "¡Cuidado!\l"
-.string "¡No te pierdas!$"
+.string "The ILEX FOREST is very big.\n"
+.string "Be careful!\l"
+.string "Don't get lost!$"

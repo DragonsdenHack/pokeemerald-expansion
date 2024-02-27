@@ -214,44 +214,44 @@ Azalea_House1_Activacion_Sotano_Texto_1:
 	.string "Hey, you! What are you doing?$"
 
 Azalea_House1_Activacion_Sotano_Texto_2:
-.string "Primero entras en una propiedad ajena,\n"
-	.string "¿y luego tratas de robarnos?\l"
-	.string "¡No tienes perdón!$"
+	.string "First you enter someone else's property,\n"
+	.string "and then you try to rob us? There is no\l"
+	.string "forgiveness for you!$"
 
 Azalea_House1_Activacion_Sotano_Texto_3:
-.string "¡No eres un ENTRENADOR corriente!$"
+.string "You're not a common TRAINER!$"
 
 Azalea_House1_Activacion_Sotano_Texto_4:
-.string "¿Se puede saber por qué tanta\n"
-	.string "insistencia? ¡Aquí no hay nada! ¿No lo\l"
-	.string "ves?$"
+	.string "Can I know why so much insistence?\n"
+	.string "There's nothing here! Can't you see?$"
 
 Azalea_House1_Activacion_Sotano_Texto_5:
-.string "¿Qué pretendes demostrar con esto? Sí,\n"
-	.string "combates bien, ¿qué import…?$"
+	.string "What are you trying to prove with this?\n"
+	.string "Yes, you and your team are strong, what\l"
+	.string "does it matte…?$"
 
 Azalea_House1_Activacion_Sotano_Texto_6:
-.string "({PLAYER} APRETÓ EL BOTÓN SECRETO)$"
+.string "({PLAYER} PRESSED THE SECRET BUTTON)$"
 
 Azalea_House1_Activacion_Sotano_Texto_7:
-.string "Grrrr…. Maldito, lo sabías desde el\n"
-	.string "principio.$"
+	.string "Grrrrr… Damn it, you knew it from the\n"
+	.string "beginning.$"
 
 Azalea_House1_Activacion_Sotano_Texto_8:
-.string "No sé cómo esos ancianos han podido\n"
-	.string "contactar contigo, pero da igual quién\l"
-	.string "seas.$"
+	.string "I don't know how those old folks\n"
+	.string "managed to contact you, but it doesn't\l"
+	.string "matter who you are.$"
 
 Azalea_House1_Activacion_Sotano_Texto_9:
-.string "Hemos reconstruido por completo el\n"
-	.string "pequeño sótano dónde forjaban el\l"
-	.string "CARBÓN, ahora es una gran nave\l"
-	.string "subterránea que fabricará el mineral a\l"
-	.string "gran escala.$"
+	.string "We've completely rebuilt the small\n"
+	.string "basement where they used to forge the\l"
+	.string "CHARCOAL, now it's a large underground\l"
+	.string "ship that will produce the mineral on an\l"
+	.string "industrial scale.$"
 
 Azalea_House1_Activacion_Sotano_Texto_10:
-.string "Alégrate, abasteceremos a toda la\n"
-	.string "región. ¡Quieras o no!$"
+	.string "Be glad, we will supply the entire\n"
+	.string "region. Whether you like it or not!$"
 
 Azalea_House1_Primer_Empresario::
 compare VAR_FORTREE_CITY_STATE, 2
@@ -268,13 +268,13 @@ release
 end
 
 Azalea_House1_Primer_Empresario_Texto_1:
-.string "Ya está todo firmado, oficialmente este\n"
-	.string "lugar nos pertenece.$"
+	.string "Everything is signed, officially this\n"
+	.string "place belongs to us.$"
 
 Azalea_House1_Primer_Empresario_Texto_2:
-.string "Como entres ahí, serás usado como\n"
-	.string "producto para la fabricación de\l"
-	.string "CARBÓN. Advertido quedas.$"
+	.string "If you enter there, you'll be used as raw\n"
+	.string "material for CHARCOAL production.\l"
+	.string "You've been warned.$"
 
 
 
@@ -293,12 +293,12 @@ release
 end
 
 Azalea_House1_Segundo_Empresario_Texto_1:
-.string "Vamos a ganar millones aquí, fue una\n"
-	.string "suerte para nosotros aprovecharnos de\l"
-	.string "ese vacío legal.$"
+	.string "We are going to make millions down here,\n"
+	.string "it was lucky for us to take advantage\l"
+	.string "of that legal loophole.$"
 
 Azalea_House1_Segundo_Empresario_Texto_2:
-.string "Más vale que no cabrees a nuestro JEFE,\n"
-	.string "una palabra de más e irás al horno de\l"
-	.string "cabeza con todos tus POKÉMON detrás.$"
+	.string "You better not anger our BOSS, one\n"
+	.string "wrong word and you'll be in boiling water\l"
+	.string "with all your POKÉMON behind you.$"
 

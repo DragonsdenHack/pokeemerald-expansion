@@ -14,13 +14,11 @@ release
 end
 
 AzaleaShop_Text_2:
-.string "En PUEBLO AZALEA somos\n"
-.string "especialistas en la producción de\l"
-.string "CARBÓN.\l"
-.string "¡Tiene gracia sabiendo que\l"
-.string "fortalece los movimientos FUEGO a\l"
-.string "los que más vulnerables son\l"
-.string "nuestros TIPO PLANTA y BICHO!$"
+	.string "In AZALEA TOWN we specialize in\n"
+	.string "CHARCOAL production. It's kinda funny\l"
+	.string "because it strengthens the FIRE moves,\l"
+	.string "to which our GRASS and BUG TYPES are\l"
+	.string "most vulnerable!$"
 
 
 
@@ -32,11 +30,11 @@ release
 end
 
 AzaleaShop_Text_3:
-.string "La CENIZA SAGRADA es el objeto\n"
-.string "curativo más potente que existe,\l"
-.string "tanto que restaura la salud de\l"
-.string "todos los POKÉMON debilitados.\l"
-.string "Tiene su origen en CIUDAD IRIS.$"
+	.string "The SACRED ASH is the most powerful\n"
+	.string "healing item existent, so much that it\l"
+	.string "restores the health of all fainted\l"
+	.string "POKÉMON. It originates from ECRUTEAK\l"
+	.string "CITY.$"
 
 
 
@@ -48,7 +46,6 @@ release
 end
 
 AzaleaShop_Text_4:
-.string "¡Qué paz y tranquilidad se respira\n"
-.string "por aquí!\l"
-.string "¡CIUDAD TRIGAL es un agobio en\l"
-.string "comparación!$"
+	.string "I love the peace and tranquility that is\n"
+	.string "felt around here! GOLDENROD CITY is\l"
+	.string "overwhelming in comparison!$"

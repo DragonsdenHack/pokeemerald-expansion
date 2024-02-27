@@ -28,14 +28,13 @@ release
 end
 
 SlowpokeWell_Text_3:
-.string "Que no te engañen, las\n"
-.string "COLASLOWPOKE no tienen apenas\l"
-.string "valor, y los SLOWPOKE las\l"
-.string "regeneran al poco de perderlas. La\l"
-.string "única forma de hacer creer a\l"
-.string "alguien que tienen valor es que\l"
-.string "todos a su alrededor se pongan\l"
-.string "de acuerdo en engañarle.$"
+	.string "Do not be fooled, SLOWPOKE TAIL have\n"
+	.string "hardly any value, and SLOWPOKE\l"
+	.string "regenerates them shortly after losing\l"
+	.string "them. The only way to make someone\l"
+	.string "believe they are valuable is for\l"
+	.string "everyone around them to agree to\l"
+	.string "deceive them.$"
 
 
 

@@ -27,13 +27,11 @@ release
 end
 
 AzaleaPkmnCenter_Text_2:
-.string "CÉSAR no quiere reconocerlo, pero\n"
-.string "es con diferencia el mayor\l"
-.string "especialista del TIPO BICHO que\l"
-.string "hay en JOHTO. A diferencia de ese\l"
-.string "jóven ANTÓN, prefiere mantener sus\l"
-.string "dotes como ENTRENADOR en el\l"
-.string "anonimato.$"
+	.string "KURT doesn't want to admit it, but he's\n"
+	.string "by far the greatest BUG-TYPE\l"
+	.string "specialist in JOHTO. Unlike that young\l"
+	.string "kid BUGSY, he prefers to keep hidden his\l"
+	.string "skills as a TRAINER.$"
 
 
 
@@ -45,9 +43,8 @@ release
 end
 
 AzaleaPkmnCenter_Text_3:
-.string "Algún día, KANTO y JOHTO volverán a\n"
-.string "estar unidas.\l"
-.string "¡Se verá!$"
+	.string "Someday, KANTO and JOHTO will be united\n"
+	.string "again. I promise!$"
 
 
 
@@ -81,32 +78,28 @@ AzaleaPkmnCenter_EventScript_TakeWimpod::
 
 
 AzaleaPkmnCenter_Text_TakeWimpod:
-   .string "¡Un forastero, bienvenido!$"
+   .string "A newcomer, welcome!$"
 
 AzaleaPkmnCenter_Text_TakeWimpod2:
-   .string "Debes saber que este lugar y el\n"
-	.string "ENCINAR antes estaban unidos. Todo\l"
-	.string "era vegetación, los niños\l"
-	.string "jugábamos y vivíamos en pleno\l"
-	.string "bosque, rodeados de POKÉMON TIPO\l"
-	.string "BICHO.$"
+	.string "You must know that this place and the\n"
+	.string "ILEX FOREST were once united. It was\l"
+	.string "all vegetation, children played and\l"
+	.string "lived in the midst of the forest,\l"
+	.string "surrounded by BUG-TYPE POKÉMON.$"
 
 AzaleaPkmnCenter_Text_TakeWimpod3:
-	.string "En ese ambiente creció CÉSAR, que\n"
-	.string "aún se mantiene activo en su\l"
-	.string "GIMNASIO pasados los 60 años.\l"
-	.string "Gracias a sus viajes trajo varios\l"
-	.string "POKÉMON de otras regiones, y dió\l"
-	.string "algunos ejemplares a sus más\l"
-	.string "allegados. Quiero que tú tengas\l"
-	.string "uno también.$"
+	.string "In that environment, KURT grew up, who\n"
+	.string "still remains active in his GYM past 60\l"
+	.string "years old. Thanks to his travels he\l"
+	.string "brought several POKÉMON from other\l"
+	.string "regions, and gave some to his closest\l"
+	.string "associates. I want you to have one too.$"
 
 AzaleaPkmnCenter_Text_MensajeWimpod:
-.string "¡OBTUVISTE UN WIMPOD AL NV.10!$"
+	.string "YOU OBTAINED A WIMPOD AT LEVEL 10!$"
 
 AzaleaPkmnCenter_Text_1:
-    .string "¡Ni se te ocurra subestimar a ese\n"
-	.string "renacuajo!\l"
-	.string "¡Cuando crece, obtiene la fuerza de\l"
-	.string "un HERACROSS y la solidez de un\l"
-	.string "SKARMORY!$"
+	.string "Don't even think about underestimating\n"
+	.string "that tadpole! When it grows up, it gets\l"
+	.string "the strength of a HERACROSS and the\l"
+	.string "toughness of a SKARMORY!$"

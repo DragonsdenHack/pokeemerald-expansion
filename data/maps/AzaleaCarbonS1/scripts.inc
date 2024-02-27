@@ -23,8 +23,8 @@ release
 end
 
 AzaleaCarbonS1_Text_2:
-.string "¿Eres nuevo aquí? Nuestro JEFE es muy\n"
-.string "exigente.$"
+	.string "Are you new here? Our BOSS is very\n"
+	.string "demanding.$"
 
 
 
@@ -36,11 +36,11 @@ release
 end
 
 AzaleaCarbonS1_Text_3:
-.string "Este lugar pertenecía a dos ancianos,\n"
-.string "tradicionalmente ellos se dedicaban a\l"
-.string "esto. Me pregunto si hicimos bien en\l"
-.string "echarlos tan a la ligera, seguro que\l"
-.string "tenían cosas que aportar.$"
+	.string "This place belonged to two elders,\n"
+	.string "traditionally they were dedicated to\l"
+	.string "this. I wonder if we did right in\l"
+	.string "dismissing them so lightly, they surely\l"
+	.string "had things to contribute.$"
 
 AzaleaCarbonS1_4::
 lock     
@@ -50,10 +50,10 @@ release
 end
 
 AzaleaCarbonS1_Text_4:
-.string "Anhelamos nuevas sensaciones, pero\n"
-	.string "pronto nos volvemos indiferentes a\l"
-	.string "ellas. Las maravillas de ayer son hoy\l"
-	.string "sucesos comunes.$"
+	.string "We want new experiences, but soon we\n"
+	.string "become indifferent to them.\l"
+	.string "Yesterday's wonders are today's common\l"
+	.string "occurrences.$"
 
 
 
@@ -65,10 +65,11 @@ release
 end
 
 AzaleaCarbonS1_Text_5:
-.string "Me da igual la JOHTO tradicional. Todo,\n"
-.string "antes o después, será destruido por el\l"
-.string "paso del tiempo, ¡qué más da que ocurra\l"
-.string "en 1 año que en 100!$"
+	.string "I don't care about traditional JOHTO.\n"
+	.string "Everything, sooner or later, will be\l"
+	.string "destroyed by the passage of time. What\l"
+	.string "difference does it make whether it\l"
+	.string "happens in 1 year or 100?$"
 
 
 
@@ -80,10 +81,10 @@ release
 end
 
 AzaleaCarbonS1_Text_7:
-.string "¿Qué RAYO es más fuerte? ¿El de RAIKOU,\n"
-.string "o el de un AMPHAROS? Dicen que el dueño\l"
-.string "de el FARO tiene a un AMPHAROS que\l"
-.string "acaba con ese debate.$"
+	.string "Which THUNDERBOLT is stronger,\n"
+	.string "RAIKOU's or an AMPHAROS? It is said\l"
+	.string "that the owner of the LIGHTHOUSE has\l"
+	.string "an AMPHAROS that ends that debate.$"
 
 
 
@@ -96,10 +97,9 @@ release
 end
 
 AzaleaCarbonS1_Text_8:
-.string "¡Dentro de poco tendremos todos los\n"
-.string "hornos a pleno rendimiento! ¡Y tú no\l"
-.string "podrás hacer nada para impedirlo!\l"
-.string "¡Jojojo!$"
+	.string "Soon we'll have all the ovens working at\n"
+	.string "full capacity! And you won't be able to\l"
+	.string "do anything to stop it! Hohoho!$"
 
 
 
@@ -111,12 +111,11 @@ release
 end
 
 AzaleaCarbonS1_Text_13:
-.string "Es extraño… El viejo horno que\n"
-.string "destruimos para volver a reformar este\l"
-.string "lugar y modernizarlo…fabricaba un\l"
-.string "CARBÓN de mayor calidad que el de\l"
-.string "nuestros hornos industriales. ¿Nos\l"
-.string "hemos perdido algo?$"
+	.string "It's odd…The old furnace we destroyed\n"
+	.string "to rebuild this place and modernize\l"
+	.string "it…produced a higher quality CHARCOAL\l"
+	.string "than our industrial furnaces. Have we\l"
+	.string "ignored something?$"
 
 
 
@@ -128,9 +127,10 @@ release
 end
 
 AzaleaCarbonS1_Text_14:
-.string "Realmente no estoy de acuerdo con la\n"
-.string "forma de llevar esto, pero el pastizal\l"
-.string "que me pagan por ello lo vale.$"
+	.string "I really don't agree with the way this is\n"
+	.string "being handled, but the high amount of\l"
+	.string "money they're paying me for it makes it\l"
+	.string "worth it.$"
 
 
 
@@ -169,20 +169,19 @@ AzaleaCarbonS1_EventScript_TakeHelioptile::
 
 
 AzaleaCarbonS1_Text_TakeHelioptile:
-.string "Vengo de una lejana región, JOHTO no\n"
-	.string "para de contratar a especialistas de\l"
-	.string "fuera, en todos los ámbitos. Mira, te\l"
-	.string "daré este POKÉMON como prueba.$"
+	.string "I come from a distant region; JOHTO\n"
+	.string "keeps hiring specialists from outside,\l"
+	.string "in all fields. Look, I'll give you this\l"
+	.string "POKÉMON as proof.$"
 
 AzaleaCarbonS1_Text_MensajeHelioptile:
-.string "¡OBTUVISTE UN HELIOPTILE AL NV.15!$"
+.string "YOU OBTAINED AN HELIOPTILE AT LV.15!$"
 
 AzaleaCarbonS1_Text_6:
-.string "HELIOPTILE es de mis compañeros de\n"
-	.string "trabajo favoritos, aquí es imposible\l"
-	.string "encontrar uno. Supongo que es esa\l"
-	.string "variedad la que buscan los que me\l"
-	.string "contrataron.$"
+	.string "HELIOPTILE is one of my favorite work\n"
+	.string "assistants, but it's impossible to find\l"
+	.string "one here. I guess that's the variety\l"
+	.string "the ones who hired me are looking for.$"
 
 AzaleaCarbonS1_Primer_Combate::
 lock
@@ -238,31 +237,30 @@ face_player
 step_end
 
 AzaleaCarbonS1_Primer_Combate_Texto_1:
-.string "¿Quién va?$"
+.string "Who is here?$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_2:
-.string "Estás en propiedad privada, lo sabes,\n"
-	.string "¿no?$"
+	.string "You are on private property, you know\n"
+	.string "it, right?$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_3:
-.string "Te echaré de aquí inmediatamente, ¡igual\n"
-	.string "que se echan a los POKÉMON SALVAJES!$"
+	.string "I'll kick you out of here immediately,\n"
+	.string "just like we do with WILD POKÉMON!$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_4:
-.string "¿De dónde sales tú?$"
+.string "Where do you come from?$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_5:
-.string "No vamos a renunciar a este lugar, su\n"
-	.string "ubicación es perfecta, aquí contamos\l"
-	.string "con todas las materias primas\l"
-	.string "necesarias.$"
+	.string "We won't abandon this place, its\n"
+	.string "location is ideal, we have all the\l"
+	.string "required raw materials here.$"
 
 AzaleaCarbonS1_Primer_Combate_Texto_6:
-.string "Acabo de desactivar el muro que impide\n"
-	.string "seguir más al norte. A nuestro JEFE le\l"
-	.string "gusta la gente activa como tú, tal vez\l"
-	.string "si llegas hasta él acabes cambiando de\l"
-	.string "parecer respecto a este lugar.$"
+	.string "I just disabled the wall that prevents\n"
+	.string "further progress to the north. Our boss\l"
+	.string "likes proactive people like you; maybe\l"
+	.string "if you reach him, you'll change your mind\l"
+	.string "about this place.$"
 
 AzaleaCarbonS1_Segundo_Combate::
 lock
@@ -311,54 +309,54 @@ release
 end
 
 AzaleaCarbonS1_Segundo_Combate_Texto_8.1:
-.string "Y por ello no tengo el menor problema en\n"
-	.string "abrirte las puertas.$"
+	.string "And that's why I have no problem\n"
+	.string "opening you the doors.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_1:
-.string "¿De dónde sales tú? Ya tenemos\n"
-	.string "abogados y representantes de sobra,\l"
-	.string "este caso ya está lo suficientemente\l"
-	.string "atado como para…$"
+	.string "Where do you come from? We already have\n"
+	.string "enough lawyers and representatives;\l"
+	.string "this case is already tied up enough to…$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_2:
-.string "¿Vienes de parte de los antiguos\n"
-	.string "propietarios? ¿Por qué alguien de tu\l"
-	.string "apariencia iba a ayudarles?$"
+	.string "Are you coming in representation of the\n"
+	.string "former owners? Why would someone like\l"
+	.string "you help them?$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_3:
-.string "Qué más da, no puedes hacer nada. Este\n"
-	.string "lugar ya es oficialmente nuestro.$"
+	.string "It doesn't care, you can't do anything.\n"
+	.string "This place is officially ours.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_5:
-.string "Así que te niegas. Te diré algo: aunque\n"
-	.string "quisieras tomarte la justicia por tu\l"
-	.string "mano, no podrías. ¡Dudo mucho que tus\l"
-	.string "POKÉMON comprados sean de tan buena\l"
-	.string "calidad como los míos!$"
+	.string "So you refuse. Let me tell you\n"
+	.string "something: even if you wanted to take\l"
+	.string "justice into your own hands, you won't\l"
+	.string "be able to. I highly doubt that your\l"
+	.string "purchased POKÉMON are of the same\l"
+	.string "quality as mine!$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_6:
-.string "¡Esos POKÉMON! ¡No los he visto en el\n"
-	.string "mercado!$"
+	.string "Those POKÉMON! I hadn't seen them on\n"
+	.string "the black market!$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_7:
-.string "¿Cómo dices? No me hagas reir, hoy en\n"
-	.string "día nadie se toma la molestia de\l"
-	.string "entrenar por cuenta propia a su equipo,\l"
-	.string "es ineficiente y aburrido.$"
+	.string "Huh, what do you say? Don't make me\n"
+	.string "laugh this hard, nowadays no one\l"
+	.string "bothers to train their team on their\l"
+	.string "own, it's inefficient and boring.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_8:
-.string "Pero me da igual de dónde los hayas\n"
-	.string "sacado, ni con todos los LEGENDARIOS\l"
-	.string "del mundo puedes arrebatarnos la\l"
-	.string "propiedad de esta fábrica.$"
+	.string "But it doesn't matter where you got\n"
+	.string "them from, not even with all the\l"
+	.string "LEGENDARIES in the world can you take\l"
+	.string "away our ownership of this factory.$"
 
 AzaleaCarbonS1_Segundo_Combate_Texto_9:
-.string "A lo máximo a lo que puedes aspirar es a\n"
-	.string "llegar a un acuerdo, eso si mi JEFE lo\l"
-	.string "estima conveniente.$"
+	.string "The most you can aspire to is reaching\n"
+	.string "an agreement, if my BOSS considers it\l"
+	.string "appropriate.$"
 
 
 AzaleaCarbonS1_Seteo_Metatiles::
