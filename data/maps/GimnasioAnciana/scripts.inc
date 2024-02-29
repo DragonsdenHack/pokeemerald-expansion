@@ -116,7 +116,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_7:
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7.1:
 	.string "Uh! I almost forgive it!\n"
-	.string "Our old BADGE!.$"
+	.string "Our old BADGE!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_7.2:
 	.string "I must confer on you\n"

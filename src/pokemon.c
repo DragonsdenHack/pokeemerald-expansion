@@ -7710,7 +7710,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_ESENCIA:
             return 573;
         case TRAINER_CLASS_AVES:
-            return 624;
+            return MUS_VS_KYOGRE_GROUDON;
         case TRAINER_CLASS_LIDER:
             return 608;
         case TRAINER_CLASS_CAMPEON:

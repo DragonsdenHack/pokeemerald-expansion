@@ -206,7 +206,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:
 	.string "Wow! It was amazing, a ROCKET gave the\n"
 	.string "guru of FUCHSIA a lesson! And even\l"
-	.string "more! They defeated SLOWPOKE, the\l"
+	.string "more! HE defeated SLOWPOKE, the\l"
 	.string "POKEGUARD of the SAFARI! I can't wait\l"
 	.string "to see my friends' faces when they know!$"
 

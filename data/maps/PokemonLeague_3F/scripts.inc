@@ -100,7 +100,7 @@ PokemonLeague_3F_Combate_Agatha_Texto_2:
 	.string "the ELITE FOUR, the GHOST type\l"
 	.string "specialist, a type with lot of mysteries\l"
 	.string "yet to be solved, and whose potential\l"
-	.string "we still don't know., despite that,\l"
+	.string "we still don't know. Despite that,\l"
 	.string "thanks to my decades of experience and\l"
 	.string "hard training, I've managed to\l"
 	.string "understand this type much better.\l"

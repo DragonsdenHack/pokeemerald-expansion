@@ -2529,7 +2529,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_5:
 	.string "they created for?$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_6:
-.string "This is NIDOKING-X, do you remember it?.\n"
+.string "This is NIDOKING-X, do you remember it?\n"
 	.string "I used it to test your strength before\l"
 	.string "you faced OAK, you can take a look at\l"
 	.string "all its stats if you want.$"

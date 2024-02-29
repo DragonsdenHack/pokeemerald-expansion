@@ -227,7 +227,7 @@ LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
 	.string "Todo esto ha debido de cansarte.\n"
 	.string "¿Quieres descansar un poco en la arena\l"
-	.string "caliente?. Aunque debes saber que\l"
+	.string "caliente? Aunque debes saber que\l"
 	.string "tener voluntad y resistencia es vital\l"
 	.string "para todo ENTRENADOR.$"
 

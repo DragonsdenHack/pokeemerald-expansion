@@ -164,7 +164,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_3:
 	.string "Wait! You are {PLAYER}, one of the\n"
 	.string "highest charges on TEAM ROCKET, that\l"
 	.string "made possible the assault on SILPH! Am\l"
-	.string "I wrong?.$"
+	.string "I wrong?$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_4:
 	.string "({PLAYER} returned the 60 EEVEES to\n"

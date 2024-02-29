@@ -246,7 +246,7 @@ PewterCity_Petrel_Texto_4:
 PewterCity_Petrel_Texto_5:
 	.string "Obviously, with -thieves-, it refers to\n"
 	.string "our organization, it's funny, I enjoy\l"
-	.string "the double standard in this region., I\l"
+	.string "the double standard in this region. I\l"
 	.string "love the double standard in this region.$"
 
 PewterCity_Petrel_Texto_6:

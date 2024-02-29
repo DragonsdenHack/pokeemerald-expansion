@@ -130,7 +130,7 @@ Pass_Route29_Encuentro_Elm_Texto_6:
 
 Pass_Route29_Encuentro_Elm_Texto_7:
 	.string "I promised GIOVANNI that I will give a\n"
-	.string "MEGA RING to each one CHIEF ADMIN., I\l"
+	.string "MEGA RING to each one CHIEF ADMIN. I\l"
 	.string "hope you are conscious about the\l"
 	.string "technology that you have now, with the\l"
 	.string "MEGA RING you will be able to control a\l"

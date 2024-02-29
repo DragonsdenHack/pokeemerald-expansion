@@ -255,10 +255,10 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionGimnasios_Texto_1:
-.string "You can fight the GYMS in the other\n"
+.string "You can fight the GYMS in the order\n"
 	.string "that you want to, however, I'd recommend\l"
 	.string "that you beat them in the traditional\l"
-	.string "order. Also, CINNAMON GYM is closed\l"
+	.string "order. Also, CINNABAR GYM is closed\l"
 	.string "right now, we need to wait until that\l"
 	.string "scumbag of BLAINE re-opens it. When\l"
 	.string "you obtain the 7th medal, remember that\l"
@@ -835,7 +835,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_22:
 	.string "what I think about SAFARI ZONE though,\l"
 	.string "it was a great investment that became\l"
 	.string "less trough time, even as prices lower,\l"
-	.string "fewer and fewer people go., dealing with\l"
+	.string "fewer and fewer people go. Dealing with\l"
 	.string "this right now will just delay it from\l"
 	.string "bankrupt, I bet in less than 3 years it\l"
 	.string "will no longer exists, even so stopping\l"

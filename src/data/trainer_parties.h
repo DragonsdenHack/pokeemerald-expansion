@@ -10165,10 +10165,10 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = {
     .iv = 140,
     .lvl = 47,
     .species = SPECIES_BEEDRILL,
-    .heldItem = ITEM_CHOICE_BAND,
+    .heldItem = ITEM_FOCUS_BAND,
     .evs = {64, 64, 64, 64, 64, 64},
     .nature = NATURE_SERIOUS,
-    .moves = {MOVE_U_TURN, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_U_TURN, MOVE_KNOCK_OFF, MOVE_POISON_JAB, MOVE_NONE}
     },
     {
     .iv = 140,

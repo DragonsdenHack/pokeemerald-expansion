@@ -3089,7 +3089,7 @@ Route120_Text_CallieDefeat:
 
 Route120_Text_CalliePostBattle:
 	.string "Me pregunto… ¿Hice bien al\n"
-	.string "evolucionar mis POKÉMON?.$"
+	.string "evolucionar mis POKÉMON?$"
 
 Route120_Text_LeonelIntro:
 	.string "Your party POKéMON…\n"
@@ -9623,7 +9623,7 @@ Route4_Text_ChicaPostBattle:
 
 
 Route23_Text_PoliciaIntro:
-	.string "Stop right there!... CASCADE BADGE\n"
+	.string "Stop right there! {PAUSE 30}…{PAUSE 30} CASCADE BADGE\n"
 	.string "identified; however, it's not enough.\l"
 	.string "Too many people have been entering\l"
 	.string "here in the last few hours. My job is to\l"
@@ -9643,7 +9643,7 @@ Route23_Text_PoliciaPostBattle:
 
 
 Route23_Text_Policia2Intro:
-	.string "Stop right here!... THUNDER BADGE\n"
+	.string "Stop right here! {PAUSE 30}…{PAUSE 30} THUNDER BADGE\n"
 	.string "identified. Here's some advice, kid:\l"
 	.string "don't dress like that, not even in jest.\l"
 	.string "In these areas, we take TEAM ROCKET\l"
@@ -9664,7 +9664,7 @@ Route23_Text_Policia2PostBattle:
 
 
 Route23_Text_Policia3Intro:
-	.string "Hands up!... RAINBOW BADGE identified.\n"
+	.string "Hands up! {PAUSE 30}…{PAUSE 30} RAINBOW BADGE identified.\n"
 	.string "Just a moment ago, a girl dressed as\l"
 	.string "ROCKET passed too. I apologize, but for\l"
 	.string "safety reasons, I must battle you.$"
@@ -9682,7 +9682,7 @@ Route23_Text_Policia3PostBattle:
 
 
 Route23_Text_Policia4Intro:
-	.string "Don't move!... SOUL BADGE identified;\n"
+	.string "Don't move! {PAUSE 30}…{PAUSE 30} SOUL BADGE identified;\n"
 	.string "however, my job is to ensure that there\l"
 	.string "are no mistakes. I'm tired of stopping\l"
 	.string "thieves trying to pass with fake or\l"
@@ -9702,7 +9702,7 @@ Route23_Text_Policia4PostBattle:
 
 
 Route23_Text_Policia5Intro:
-	.string "Stop right there!... MARSH BADGE\n"
+	.string "Stop right there! {PAUSE 30}…{PAUSE 30} MARSH BADGE\n"
 	.string "identified. RED and OAK's grandson have\l"
 	.string "been here before; everyone knows them.\l"
 	.string "However, you've come out of nowhere. As\l"
@@ -9725,7 +9725,7 @@ Route23_Text_Policia5PostBattle:
 
 Route23_Text_Policia6Intro:
 	.string "Take one wrong step and you're\n"
-	.string "detained!... VOLCANO BADGE identified,\l"
+	.string "detained! {PAUSE 30}…{PAUSE 30} VOLCANO BADGE identified,\l"
 	.string "very convincing, huh? You're not one of\l"
 	.string "those collectors who have never caught\l"
 	.string "a single POKÉMON but proudly display\l"
@@ -9745,7 +9745,7 @@ Route23_Text_Policia6PostBattle:
 
 
 Route23_Text_Policia7Intro:
-	.string "Another one?... EARTH BADGE identified.\n"
+	.string "Another one? {PAUSE 30}…{PAUSE 30} EARTH BADGE identified.\n"
 	.string "Lately, it seems like they're giving\l"
 	.string "away badges. People keep entering\l"
 	.string "VICTORY ROAD as if it were the most\l"
@@ -9766,8 +9766,8 @@ Route23_Text_Policia7PostBattle:
 
 
 Route22Path_Text_PoliciaIntro:
-	.string "One moment... BOULDER BADGE checked.\n"
-	.string "Theoretically, you can pass... However,\l"
+	.string "One moment {PAUSE 30}…{PAUSE 30} BOULDER BADGE checked.\n"
+	.string "Theoretically, you can pass…{PAUSE 30} However,\l"
 	.string "we've been alerted to possible medal\l"
 	.string "thieves, and, as you can understand, I\l"
 	.string "can't trust someone dressed like that.\l"

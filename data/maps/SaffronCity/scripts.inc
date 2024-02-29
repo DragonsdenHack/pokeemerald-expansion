@@ -393,7 +393,7 @@ SaffronCity_Combate_Andra_Texto_1:
 SaffronCity_Combate_Andra_Texto_2:
 	.string "From what we know, the PRESIDENT is in\n"
 	.string "his office on the 11F, he is protected\l"
-	.string "by his personal guard., it Is also\l"
+	.string "by his personal guard, it's also\l"
 	.string "impossible to access the office by\l"
 	.string "elevator, we must use the teleportation\l"
 	.string "tiles, overmore, we can only enter his\l"

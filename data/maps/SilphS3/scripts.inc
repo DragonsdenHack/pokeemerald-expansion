@@ -261,7 +261,7 @@ SilphS3_Miguel_Batalla_Texto_2:
 	.string "who's in charge.$"
 
 SilphS3_Miguel_Batalla_Texto_3:
-	.string "As you can see, ROCKET ADMIN., you're\n"
+	.string "As you can see, ROCKET ADMIN, you're\n"
 	.string "not the only one who has managed to\l"
 	.string "climb and ascend; my extensive\l"
 	.string "knowledge and obsession with FOSSILS\l"

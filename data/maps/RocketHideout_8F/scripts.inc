@@ -219,8 +219,8 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_2:
 	.string "GIOVANNI: I see, DAISY is also OAK's\n"
 	.string "granddaughter and BLUE's sister, based\l"
 	.string "on your description, something highly\l"
-	.string "unusual is going on in that place.,\l"
-	.string "either OAK has teleported using a\l"
+	.string "unusual is going on in that place.\l"
+	.string "Either OAK has teleported using a\l"
 	.string "POKÉMON, or that LABORATORY isn't as\l"
 	.string "innocent and charitable as it appears.$"
 

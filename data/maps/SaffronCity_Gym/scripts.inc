@@ -94,8 +94,7 @@ SaffronCity_No_Pass_Gym_Texto_1:
 	.string "Damn ROCKET! Didn't you have enough\n"
 	.string "with the humiliation at SILPH? Take one\l"
 	.string "more step and I'll send you back to the\l"
-	.string "sewers of CELADON with one just\l"
-	.string "PSYCHIC.$"
+	.string "sewers of CELADON with just a PSYCHIC!$"
 
 SaffronCity_No_Pass_Gym_Texto_2:
 	.string "Wait a moment! That LICENSE{PAUSE 20}…{PAUSE 20} Only the\n"

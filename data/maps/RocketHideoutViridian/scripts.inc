@@ -454,7 +454,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_4:
 	.string "That is why, a room like this in charge\n"
 	.string "of someone weak will not give them any\l"
 	.string "advantage; instead, it will make them\l"
-	.string "complacent and weaken them., it will\l"
+	.string "complacent and weaken them, it will\l"
 	.string "lead them to believe that everything is\l"
 	.string "already accomplished, that no one can\l"
 	.string "touch or challenge them.$"

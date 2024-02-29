@@ -542,7 +542,7 @@ RocketHideout5F_Text_36:
 	.string "entire year and you will have improved\l"
 	.string "24 KG, from 130 to 153 KG is a\l"
 	.string "remarkable difference, now it looks\l"
-	.string "harder, eh?. If you do 10 routines per\l"
+	.string "harder, eh? If you do 10 routines per\l"
 	.string "month you can see each one of those\l"
 	.string "routines as a chance to materialize\l"
 	.string "those 2 KG, from this perspective,\l"

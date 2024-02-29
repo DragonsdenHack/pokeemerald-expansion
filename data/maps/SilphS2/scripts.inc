@@ -688,7 +688,7 @@ SilphS2_Text_42:
 	.string "LAVENDER TOWN's naive believers and\n"
 	.string "their ESSENCE POKÉMON! The true\l"
 	.string "essence resides here, within the halls\l"
-	.string "of SILPH CO., where we surpass\l"
+	.string "of SILPH CO, where we surpass\l"
 	.string "ourselves daily!$"
 
 
