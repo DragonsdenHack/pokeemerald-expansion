@@ -46,9 +46,8 @@ release
 end
 
 Goldenrod_Shop_Text_4:
-.string "Mamá es una experta en gangas.\n"
-.string "Siempre compra cosas a precios más\l"
-.string "bajos.$"
+	.string "Mom's good at bargain hunting. She\n"
+	.string "always buys stuff at lower prices.$"
 
 
 
@@ -57,9 +56,9 @@ msgbox GoldenrodShopCenterDocumento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodShopCenterDocumento_Text_100:
-.string "PB INFORMACIÓN\n"
-	.string "P1 TIENDA DE ENTRENADORES\l"
-	.string "P2 ARTÍCULOS DE COMBATE\l"
-	.string "P3 BOTIQUÍN\l"
-	.string "P4 MOVIMIENTOS POKÉMON\l"
-	.string "P5 ÚLTIMO PISO$"
+.string "1F SERVICE COUNTER\n"
+	.string "2F TRAINER'S MARKET\l"
+	.string "3F BATTLE COLLECTION\l"
+	.string "5F TM CORNER\l"
+	.string "6F TRANQUIL SQUARE\l"
+	.string "ROOFTOP LOOKOUT$"
