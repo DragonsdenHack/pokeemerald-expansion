@@ -14,13 +14,10 @@ release
 end
 
 Goldenrod_ShopP2_Text_2:
-.string "Ese niño mimado del piso de\n"
-.string "abajo…\l"
-.string "Todos los POKÉMON que tiene son\l"
-.string "comprados…\l"
-.string "Espero que pierda todos sus\l"
-.string "combates por tenerlos a 0 en\l"
-.string "puntos de esfuerzo…$"
+	.string "That spoiled brat from the downstairs\n"
+	.string "apartment… All the POKÉMON he has are\l"
+	.string "bought… I hope he loses all his battles\l"
+	.string "for having them at 0 in EVs…$"
 
 
 
@@ -32,9 +29,9 @@ release
 end
 
 Goldenrod_ShopP2_Text_3:
-.string "Nunca sabes lo que puedes\n"
-.string "encontrarte cuando vas de compras.\l"
-.string "¡Por eso me encanta estar aquí!$"
+	.string "You never know what treasures you'll\n"
+	.string "find when you go shopping. That's why I\l"
+	.string "love being here!$"
 
 
 
@@ -43,5 +40,5 @@ msgbox GoldenrodShopCenterP2Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodShopCenterP2Documento_Text_100:
-.string "Para los amantes de la victoria\n"
-	.string "P2 COLECCIÓN DE COMBATE$"
+.string "For Victory line Seekers\n"
+	.string "3F BATTLE COLLECTION$"

@@ -14,10 +14,10 @@ release
 end
 
 Route34_Text_2:
-.string "Los ancianos que se ocupan de la\n"
-.string "GUARDERÍA están de vacaciones,\l"
-.string "dicen que no volverán hasta que la\l"
-.string "relación KANTO-JOHTO se aclare.$"
+	.string "The caretakers of the DAYCARE are on\n"
+	.string "vacation, they say they won't return\l"
+	.string "until the KANTO-JOHTO political\l"
+	.string "situation is clarified.$"
 
 
 
@@ -34,11 +34,9 @@ release
 end
 
 Route34_Text_9:
-.string "¡Cada vez pican menos peces por\n"
-.string "aquí!\l"
-.string "¡Todos los POKÉMON acuáticos se\l"
-.string "alejan de los alrededores de\l"
-.string "TRIGAL como de la peste!$"
+	.string "The fishing has been terrible lately!\n"
+	.string "It's like all the aquatic POKÉMON are\l"
+	.string "avoiding GOLDENROD like the plague!$"
 
 
 
@@ -55,9 +53,9 @@ release
 end
 
 Route34_Text_11:
-.string "CIUDAD TRIGAL está irreconocible,\n"
-.string "¡la vida moderna se ha apoderado\l"
-.string "de ella!$"
+	.string "GOLDENROD CITY is unrecognizable now;\n"
+	.string "modern life has completely transformed\l"
+	.string "it!$"
 
 
 
@@ -116,9 +114,9 @@ msgbox Route34Documento_Text_100, MSGBOX_SIGN
 end
 
 Route34Documento_Text_100:
-	.string "RUTA 34\n"
-	.string "CIUDAD TRIGAL-PUEBLO AZALEA\l"
-	.string "El ENCINAR entre medias.$"
+	.string "ROUTE 34\n"
+	.string "GOLDENROD CITY - AZALEA TOWN\l"
+	.string "ILEX FOREST SOMEWHERE BETWEEN.$"
 
 
 
@@ -127,11 +125,11 @@ msgbox Route34Documento_Text_101, MSGBOX_SIGN
 end
 
 Route34Documento_Text_101:
-	.string "PISTAS ENTRENADOR\n"
-	.string "Las BAYAS de los árboles se\l"
-	.string "regeneran cada cierto tiempo.\l"
-	.string "¡Estad atentos para recoger\l"
-	.string "vuestras favoritas!$"
+	.string "TRAINER TIPS \n"
+	.string "The BERRIES on trees regenerate after\l"
+	.string "a certain amount of time. Be sure to\l"
+	.string "keep an eye out to collect your\l"
+	.string "favorites!$"
 
 
 
@@ -140,6 +138,6 @@ msgbox Route34Documento_Text_102, MSGBOX_SIGN
 end
 
 Route34Documento_Text_102:
-	.string "GUARDERÍA\n"
-	.string "¡Déjanos criar a tu POKÉMON por\l"
-	.string "ti!$"
+	.string "DAY-CARE\n"
+	.string "LET US RAISE YOUR\l"
+	.string "POKÉMON FOR YOU!$"

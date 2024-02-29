@@ -18,10 +18,10 @@ release
 end
 
 IllexForest_Text_1:
-.string "PUEBLO AZALEA siempre ha obtenido\n"
-.string "la madera con la que fabricamos\l"
-.string "carbón de este bosque. Le estamos\l"
-.string "muy agradecidos.$"
+	.string "AZALEA TOWN has always obtained the\n"
+	.string "wood that we use for charcoal\l"
+	.string "production from this forest. We are\l"
+	.string "very thankful for it.$"
 
 
 
@@ -38,11 +38,9 @@ release
 end
 
 IllexForest_Text_3:
-.string "Malditos arbustos…\n"
-.string "¿Por qué se regeneran si acabo de\l"
-.string "cortarlos hace nada?\l"
-.string "¿En serio tengo que volver a\l"
-.string "AZALEA a por CORTE?$"
+	.string "Damn trees… Why do they regenerate if I\n"
+	.string "just cut them a moment ago? Do I really\l"
+	.string "have to go back to AZALEA for CUT?$"
 
 
 
@@ -79,9 +77,9 @@ release
 end
 
 IllexForest_Text_9:
-.string "Entonces, FARFETCH es débil, pero\n"
-.string "nadie corta la madera como ese\l"
-.string "POKÉMON…$"
+	.string "So, FARFETCH'D is weak, but there is not\n"
+	.string "any other POKÉMON that chop down trees\l"
+	.string "as it…$"
 
 
 
@@ -128,35 +126,31 @@ release
 end
 
 IlexForest_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "Se oye mal, debes de estar en el\l"
-	.string "ENCINAR, ¿me equivoco?\l"
-	.string "Grandes recuerdos me trae ese\l"
-	.string "lugar, sí...\l"
-	.string "Ya tenemos la información del\l"
-	.string "BUTTERFREE FUERTE VÍNCULO de\l"
-	.string "CÉSAR. Lo más extraordinario no\l"
-	.string "son sus 505 STATS BASE, es\l"
-	.string "su insuperable reparto de STATS\l"
-	.string "útiles. Tiene... ¡solo 5 de BASE en\l"
-	.string "ATAQUE!\l"
-	.string "Entre esto y su HABILIDAD\l"
-	.string "ADAPTABLE, en la práctica se\l"
-	.string "vuelve un POKÉMON mucho más\l"
-	.string "peligroso que la mayoría de\l"
-	.string "PSEUDOLEGENDARIOS. Es increíble en\l"
-	.string "lo que puede llegar a convertirse\l"
-	.string "un POKÉMON como BUTTERFREE,\l"
-	.string "a priori destinado a ser mediocre\l"
-	.string "con sus 395 de BASE, ¿no crees?$"
+	.string "GIOVANNI: {PLAYER}? The sound\n"
+	.string "quality is poor, you must be on the ILEX\l"
+	.string "FOREST, aren't you? That place brings\l"
+	.string "back great memories… We have the\l"
+	.string "information on KURT's DEEP BOND\l"
+	.string "BUTTERFREE. The most extraordinary\l"
+	.string "thing isn't its 505 BASE STATS, but its\l"
+	.string "unmatched distribution of useful\l"
+	.string "STATS. It has just… 5 BASE in ATTACK!\l"
+	.string "Considering this and its ADAPTABILITY\l"
+	.string "ability, practically, it becomes a much\l"
+	.string "more dangerous POKÉMON than most\l"
+	.string "PSEUDO-LEGENDARIES. It's incredible\l"
+	.string "what a POKÉMON like BUTTERFREE,\l"
+	.string "initially destined to be mediocre with\l"
+	.string "its 395 BASE, how dangerous can it\l"
+	.string "become, don't you think?$"
 
 IlexForest_Llamada_Giovanni_Texto_2:
-.string "Por otro lado, he enviado a ATLAS\n"
-	.string "a CIUDAD TRIGAL, quiero que te\l"
-	.string "reúnas con él en la TORRE RADIO.\l"
-	.string "ATLAS te explicará los detalles\l"
-	.string "cuando lo veas, espero noticias\l"
-	.string "tuyas de nuevo {PLAYER}.$"
+	.string "However, I've sent ARCHER to GOLDENROD\n"
+	.string "CITY. I require you to meet up with him\l"
+	.string "at the RADIO TOWER. ARCHER will provide\l"
+	.string "you with the details upon your\l"
+	.string "encounter. I anticipate further\l"
+	.string "communication from you, {PLAYER}.$"
 
 
 IlexForestDocumento_100::
@@ -164,10 +158,10 @@ msgbox IlexForestDocumento_Text_100, MSGBOX_SIGN
 end
 
 IlexForestDocumento_Text_100:
-.string "Hay tantos árboles en el ENCINAR\n"
-	.string "que no se ve ni el cielo.\l"
-	.string "Por favor, busca objetos que\l"
-	.string "puedan haber caído.$"
+	.string "There are so many trees in the ILEX\n"
+	.string "FOREST that you can't even see the sky.\l"
+	.string "Please search for any items on the\l"
+	.string "floor.$"
 
 IlexForest_IdaVuelta::
 lock     
@@ -188,19 +182,16 @@ release
 end
 
 IlexForest_Texto_1.1:
-.string "¡{PLAYER} obtuvo la MT91 IDA Y\n"
-	.string "VUELTA de manos de cazabichos!$"
+	.string "{PLAYER} obtained the TM91 U-TURN\n"
+	.string "from BUG CATCHER!$"
 
 IlexForest_Texto_1:
-.string "Estoy aquí desarrollando\n"
-	.string "en secreto el movimiento TIPO\l"
-	.string "BICHO defintivo en cuanto\l"
-	.string "estrategia. IDA Y VUELTA marcará\l"
-	.string "un antes y un después en el ritmo\l"
-	.string "de los combates. Mira.$"
+	.string "I'm here secretly developing the\n"
+	.string "ultimate BUG-TYPE move in terms of\l"
+	.string "strategy. U-TURN will revolutionize\l"
+	.string "battle dynamics. Take a look.$"
 
 IlexForest_Texto_2:
-.string "¡Vas a tener a los POKÉMON más\n"
-	.string "escurridizos e impredecibles\l"
-	.string "gracias a IDA Y VUELTA, ya lo\l"
-	.string "verás!$"
+	.string "You're going to have the most elusive\n"
+	.string "and unpredictable POKÉMON thanks to\l"
+	.string "U-TURN, you'll see!$"

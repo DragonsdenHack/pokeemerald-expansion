@@ -9,8 +9,7 @@ release
 end
 
 Pass_Route34_Text_1:
-.string "¿Has visto el santuario en honor\n"
-.string "al guardián?\l"
-.string "Protege el bosque desde antaño.\l"
-.string "La leyenda dice que se trata de un\l"
-.string "POKÉMON TIPO PLANTA.$"
+	.string "Have you seen the shrine in honor of\n"
+	.string "the guardian? It has been protecting\l"
+	.string "the forest since ancient times. Legend\l"
+	.string "has it that it's a GRASS-TYPE POKÉMON.$"

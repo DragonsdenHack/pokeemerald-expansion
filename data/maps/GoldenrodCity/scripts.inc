@@ -14,8 +14,8 @@ release
 end
 
 GoldenrodCity_Text_1:
-.string "Vamos a poner este GIMNASIO a la\n"
-.string "moda de una vez por todas.$"
+	.string "Let's modernize this GYM once and for\n"
+	.string "all.$"
 
 
 
@@ -27,8 +27,8 @@ release
 end
 
 GoldenrodCity_Text_2:
-.string "CLEFAIRY será la imagen del nuevo\n"
-.string "GIMNASIO, es tan mono.$"
+	.string "CLEFAIRY will be the roster of the new\n"
+	.string "GYM, it is so cute.$"
 
 
 
@@ -40,9 +40,8 @@ release
 end
 
 GoldenrodCity_Text_3:
-.string "Esta iniciativa unirá KANTO y\n"
-.string "JOHTO como nunca lo había hecho\l"
-.string "antes.$"
+	.string "This initiative will unite KANTO and\n"
+	.string "JOHTO like never before.$"
 
 
 
@@ -54,12 +53,11 @@ release
 end
 
 GoldenrodCity_Text_4:
-.string "Me dijeron que aquí aún quedaba\n"
-.string "una LÍDER verdaderamente fuerte\l"
-.string "que seguía aceptando combates,\l"
-.string "pero parece que la ciudad no está\l"
-.string "contenta con la imagen que da y\l"
-.string "va a retirarse.$"
+	.string "They told me that there's a really\n"
+	.string "strong LEADER here in the city who still\l"
+	.string "accepts challengers, but it seems like\l"
+	.string "the city doesn't like her image so she's\l"
+	.string "going to retire soon.$"
 
 
 
@@ -71,12 +69,11 @@ release
 end
 
 GoldenrodCity_Text_5:
-.string "Dicen que AZAFRÁN y TRIGAL van a\n"
-.string "acabar unidas por estas vías de\l"
-.string "tren. Después de todas las\l"
-.string "tensiones que ha habido me cuesta\l"
-.string "creerlo, pero aquí están,\l"
-.string "construyéndose.$"
+	.string "It's said SAFFRON and GOLDENROD are\n"
+	.string "going to be connected by these train\l"
+	.string "tracks. After all the tensions that\l"
+	.string "have occurred, it's hard to believe, but\l"
+	.string "here they are, being built.$"
 
 
 
@@ -88,10 +85,10 @@ release
 end
 
 GoldenrodCity_Text_6:
-.string "Quiero entrar al CASINO, venden\n"
-.string "unos POKÉMON increíbles, pero…\l"
-.string "¡No me dejan entrar porque soy\l"
-.string "demasiado pequeño!$"
+	.string "I want to get into the GAME CORNER,\n"
+	.string "they sell some amazing POKÉMON, but…\l"
+	.string "They won't let me in because I'm too\l"
+	.string "young!$"
 
 
 
@@ -103,11 +100,10 @@ release
 end
 
 GoldenrodCity_Text_7:
-.string "No hay nada como regar tus\n"
-.string "plantas en un caluroso día de\l"
-.string "verano, pero no te confundas.\l"
-.string "¡Si le echas agua a un SUDOWOODO se\l"
-.string "enfadará y atacará!$"
+	.string "There's nothing like watering your\n"
+	.string "plants on a hot summer day, but be\l"
+	.string "careful. If you water a SUDOWOODO, it\l"
+	.string "will become angry and attack!$"
 
 
 
@@ -119,11 +115,10 @@ release
 end
 
 GoldenrodCity_Text_8:
-.string "La oferta de nuestro CENTRO\n"
-.string "COMERCIAL no tiene igual en toda\l"
-.string "la región, es lo que tiene\l"
-.string "pertenecer a la clase alta.\l"
-.string "¡Jojojo!$"
+	.string "Our DEPARTMENT STORE's offer is\n"
+	.string "unmatched in the entire region; that's\l"
+	.string "the privilege of belonging to the upper\l"
+	.string "class. Hohoho!$"
 
 
 
@@ -145,11 +140,10 @@ release
 end
 
 GoldenrodCity_Text_11:
-.string "Esta ciudad se está comiendo todo\n"
-.string "a su alrededor, pronto lo poco\l"
-.string "verde que queda en ella se\l"
-.string "convertirá también en asfalto.\l"
-.string "¡Y yo no podré pescar aquí!$"
+	.string "This city is devouring everything\n"
+	.string "around it; soon, the little green left in\l"
+	.string "it will also turn into asphalt. And I\l"
+	.string "won't be able to fish here!$"
 
 
 
@@ -165,12 +159,11 @@ release
 end
 
 GoldenrodCity_Text_13:
-.string "Verás, CLEFAIRY, cuando vuelva de\n"
-	.string "GRANJA MU-MU podremos ser\l"
-	.string "LÍDERES DE GIMNASIO. TRIGAL quiere\l"
-	.string "un LÍDER guay y poderoso. Tú eres\l"
-	.string "guay, pero necesitamos algo\l"
-	.string "poderoso...$"
+	.string "Look, CLEFAIRY, when I come back from\n"
+	.string "MOO-MOO FARM, we will become GYM\l"
+	.string "LEADERS. GOLDENROD wants a cool and\l"
+	.string "powerful leader. You're cool, but we\l"
+	.string "need something powerful.$"
 
 
 
@@ -187,9 +180,9 @@ release
 end
 
 GoldenrodCity_Text_15:
-.string "La TORRE RADIO ha atraído a mucha\n"
-.string "gente últimamente, dicen que es la\l"
-.string "SILPH de JOHTO.$"
+	.string "The RADIO TOWER has attracted a lot of\n"
+	.string "people lately; they say it's the SILPH\l"
+	.string "of JOHTO.$"
 
 
 
@@ -201,9 +194,9 @@ release
 end
 
 GoldenrodCity_Text_16:
-.string "¡Esta ciudad ha cambiado tanto en\n"
-.string "tan poco que ya no sé dónde está\l"
-.string "nada!$"
+	.string "This city has changed so much in such a\n"
+	.string "short period that I no longer know\l"
+	.string "where anything is!$"
 
 
 
@@ -216,12 +209,10 @@ release
 end
 
 GoldenrodCity_Text_17:
-.string "En 3 años, hemos convertido a\n"
-.string "CIUDAD TRIGAL en el centro\l"
-.string "económico y de telecomunicaciones\l"
-.string "de toda JOHTO.\l"
-.string "¡Imagínate lo que podemos hacer en\l"
-.string "otros 3!$"
+	.string "In 3 years, we've turned GOLDENROD CITY\n"
+	.string "into the economic and\l"
+	.string "telecommunications hub of all JOHTO.\l"
+	.string "Just imagine what we can do in other 3!$"
 
 
 
@@ -233,11 +224,10 @@ release
 end
 
 GoldenrodCity_Text_18:
-.string "Las obras de las vías de tren han\n"
-.string "dividido a la ciudad en dos partes\l"
-.string "de forma provisional. Para ir a la\l"
-.string "otra cara deberás de tomar los\l"
-.string "túneles subterráneos.$"
+	.string "The train track construction has\n"
+	.string "temporarily divided the city into two\l"
+	.string "parts. To reach the other side, you'll\l"
+	.string "have to take the underground tunnels.$"
 
 
 GoldenrodCity19::
@@ -248,8 +238,8 @@ release
 end
 
 GoldenrodCity_Text_19:
-.string "No deberías estar aquí.\n"
-.string "¡Puede ser peligroso!$"
+.string "You shouldn't be here.\n"
+.string "This place can be dangerous!$"
 
 
 
@@ -265,7 +255,7 @@ msgbox GoldenrodCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_100:
-	.string "TORRE DE RADIO DE CIUDAD TRIGAL$"
+	.string "GOLDENROD CITY RADIO TOWER$"
 
 
 
@@ -274,7 +264,7 @@ msgbox GoldenrodCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_101:
-	.string "ENTRADA SUBTERRÁNEA NORTE$"
+	.string "UNDERGROUND NORTH ENTRANCE$"
 
 
 
@@ -283,7 +273,7 @@ msgbox GoldenrodCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_102:
-	.string "ENTRADA SUBTERRÁNEA SUR$"
+	.string "UNDERGROUND SOUTH ENTRANCE$"
 
 
 
@@ -292,8 +282,8 @@ msgbox GoldenrodCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_103:
-	.string "CIUDAD TRIGAL\n"
-	.string "La alegre ciudad de rico encanto.$"
+	.string "GOLDENROD CITY\n"
+	.string "The Festive City of Opulent Charm$"
 
 
 
@@ -302,7 +292,7 @@ msgbox GoldenrodCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_104:
-.string "RUTA 35 y PARQUE NACIONAL al norte$"
+.string "ROUTE 35 and NATIONAL PARK to the north.$"
 
 
 
@@ -311,8 +301,8 @@ msgbox GoldenrodCityDocumento_Text_105, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_105:
-.string "CASINO DE CIUDAD TRIGAL\n"
-	.string "¡Tu zona de ocio!$"
+.string "Your Playground!\n"
+	.string "GOLDENROD CITY GAME CORNER$"
 
 
 
@@ -321,8 +311,8 @@ msgbox GoldenrodCityDocumento_Text_106, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_106:
-	.string "¡El mundo es un camino de bicis!\n"
-	.string "TIENDA DE BICIS$"
+	.string "The world is a bike path!\n"
+	.string "BIKE SHOP$"
 
 
 
@@ -331,10 +321,10 @@ msgbox GoldenrodCityDocumento_Text_107, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_107:
-	.string "GIMNASIO de CIUDAD TRIGAL\n"
-	.string "LÍDER: VALERIA\l"
-	.string "¡La chica más fuerte y valiente de\l"
-	.string "TRIGAL!$"
+	.string "GOLDENROD CITY POKÉMON GYM\n"
+	.string "LEADER: VALERIA\l"
+	.string "The strongest and bravest girl\l"
+	.string "on GOLDENROD!$"
 
 
 
@@ -343,6 +333,5 @@ msgbox GoldenrodCityDocumento_Text_108, MSGBOX_SIGN
 end
 
 GoldenrodCityDocumento_Text_108:
-	.string "FLORISTERÍA TRIGAL\n"
-	.string "¡No encontrarás nuestras BAYAS en\l"
-	.string "ninguna otra parte!$"
+	.string "Blooming Beautiful\n"
+	.string "FLOWER SHOP$"

@@ -14,11 +14,10 @@ release
 end
 
 Goldenrod_ShopP3_Text_2:
-.string "Las plantas curativas que aquí\n"
-.string "venden están muy bien de precio.\l"
-.string "Una actúa incluso como\l"
-.string "MAX.REVIVIR, pero creo que a los\l"
-.string "POKÉMON no les gusta su sabor.$"
+	.string "The healing plants they sell here are\n"
+	.string "very reasonably priced. One even acts\l"
+	.string "like a MAX REVIVE, but I think POKÉMON\l"
+	.string "don't like its taste.$"
 
 
 
@@ -30,10 +29,9 @@ release
 end
 
 Goldenrod_ShopP3_Text_3:
-.string "Voy a ver si puedo estafar en un\n"
-.string "intercambio a alguno de esos\l"
-.string "ricachones que no conocen el valor\l"
-.string "real de un POKÉMON.$"
+	.string "I'll try to scam one of those rich folks\n"
+	.string "who don't understand the real worth of\l"
+	.string "a POKÉMONn in a trade.$"
 
 
 
@@ -45,8 +43,8 @@ release
 end
 
 Goldenrod_ShopP3_Text_4:
-.string "¡Mis padres van a comprarme un\n"
-.string "CYNDAQUIL en el CASINO!$"
+	.string "My fathers are going to buy me a\n"
+	.string "CYNDAQUIL in the GAME CORNER!$"
 
 
 
@@ -55,5 +53,5 @@ msgbox GoldenrodShopCenterP3Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodShopCenterP3Documento_Text_100:
-.string "¡Curamos a tus POKÉMON!\n"
-	.string "P3 BOTIQUÍN$"
+.string "Let Us Pump Up Your POKÉMON!\n"
+	.string "4F MEDICINE BOX$"

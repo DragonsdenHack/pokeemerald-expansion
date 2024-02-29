@@ -9,6 +9,6 @@ release
 end
 
 Goldenrod_UndergroundNorth1_Text_1:
-.string "Hay gente muy rara ahí abajo, yo\n"
-.string "solo quiero ir al CENTRO\l"
-.string "COMERCIAL…$"
+	.string "There are very strange people down\n"
+	.string "there, I just want to go to the\l"
+	.string "DEPARTMENT STORE…$"

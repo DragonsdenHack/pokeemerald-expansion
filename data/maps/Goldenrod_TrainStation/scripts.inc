@@ -9,10 +9,11 @@ release
 end
 
 Goldenrod_TrainStation_Text_1:
-.string "En AZAFRÁN aún no han comenzado\n"
-.string "con las obras. Es normal que estén\l"
-.string "más rezagados, con todo el lío que\l"
-.string "han tenido en la LIGA POKÉMON…$"
+	.string "They haven't started the construction\n"
+	.string "in SAFFRON yet. It's normal for them to\l"
+	.string "be further behind, considering all the\l"
+	.string "chaos they've had in the POKÉMON\l"
+	.string "LEAGUE…$"
 
 
 
@@ -24,9 +25,9 @@ release
 end
 
 Goldenrod_TrainStation_Text_2:
-.string "Esta puerta conduce al despacho\n"
-.string "del PRESIDENTE, solo personal\l"
-.string "autorizado puede entrar.$"
+	.string "This door leads to the PRESIDENT's\n"
+	.string "office; only authorized personnel are\l"
+	.string "allowed to enter.$"
 
 
 
@@ -38,10 +39,9 @@ release
 end
 
 Goldenrod_TrainStation_Text_3:
-.string "Ve con cuidado joven. Mientras\n"
-.string "allanamos el terreno para\l"
-.string "construir las vías puedes pasar a\l"
-.string "mirar.$"
+	.string "Be careful, man. While we prepare the\n"
+	.string "ground for the construction of the\l"
+	.string "tracks, you can come and have a look.$"
 
 
 
@@ -53,10 +53,10 @@ release
 end
 
 Goldenrod_TrainStation_Text_4:
-.string "El MAGNETOTRÉN levitará por\n"
-.string "magnetismo, alcanzando velocidades\l"
-.string "de hasta 500 Km/h. ¡Llegará a\l"
-.string "AZAFRÁN en cuestión de minutos!$"
+	.string "The MAGNETRAIN will levitate through\n"
+	.string "magnetism, reaching speeds of up to 310\l"
+	.string "mph. It will arrive in SAFFRON in a\l"
+	.string "matter of minutes!$"
 
 
 
@@ -68,9 +68,8 @@ release
 end
 
 Goldenrod_TrainStation_Text_5:
-.string "¡KANTO y JOHTO estarán más cerca\n"
-.string "que nunca!\l"
-.string "¿No es genial?$"
+	.string "KANTO and JOHTO are closer than ever\n"
+	.string "before! Isn't that great?$"
 
 Goldenrod_TrainStation_Frontera::
 compare VAR_UNUSED_0x40F7, 135
@@ -99,29 +98,26 @@ release
 end
 
 Goldenrod_TrainStation_Frontera_Texto_1:
-.string "Lo siento, joven, a partir de\n"
-	.string "aquí solo se le permite la entrada\l"
-	.string "a personal autorizado. Espero que\l"
-	.string "lo entiendas.$"
+	.string "I apologize, youngster, only authorized\n"
+	.string "personnel are permitted entry from this\l"
+	.string "point onward. I hope you understand.$"
 
 Goldenrod_TrainStation_Frontera_Texto_2:
 .string "...\n"
 	.string "...$"
 
 Goldenrod_TrainStation_Frontera_Texto_3:
-.string "Un momento, ese es el PASE RADIO.\n"
-	.string "Su PRESIDENTE ha financiado buena\l"
-	.string "parte del proyecto que unirá\l"
-	.string "TRIGAL con AZULONA.\l"
-	.string "¿Dices que solo quieres echar un\l"
-	.string "vistazo a lo que hay más allá de\l"
-	.string "las vías?\l"
-	.string "Al ser un miembro de honor de la\l"
-	.string "TORRE RADIO podrías considerarte\l"
-	.string "personal autorizado, de modo que\l"
-	.string "puedes pasar. Pero ve con cuidado,\l"
-	.string "estamos en pleno proceso de\l"
-	.string "construcción de las vías.$"
+	.string "Hold on a moment, that's the RADIO PASS.\n"
+	.string "Your PRESIDENT has funded a good\l"
+	.string "portion of the project connecting\l"
+	.string "GOLDENROD with CELADON. You say you\l"
+	.string "just want to take a look beyond the\l"
+	.string "tracks? As an honorary member of the\l"
+	.string "RADIO TOWER, you could be considered\l"
+	.string "authorized personnel, so you may\l"
+	.string "proceed. But proceed with caution;\l"
+	.string "we're in the midst of constructing the\l"
+	.string "tracks.$"
 
 
 Goldenrod_TrainStation_Frontera_Move_1:

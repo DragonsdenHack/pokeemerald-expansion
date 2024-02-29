@@ -9,8 +9,7 @@ release
 end
 
 Goldenrod_Shop_Text_1:
-.string "¡Bienvenido al CENTRO COMERCIAL DE\n"
-.string "TRIGAL!$"
+.string "Welcome to GOLDENROD DEPT.STORE.$"
 
 
 
@@ -22,9 +21,8 @@ release
 end
 
 Goldenrod_Shop_Text_2:
-.string "Al parecer, enseñan movimientos\n"
-.string "útiles en los pisos de arriba.\l"
-.string "Echaré un ojo.$"
+	.string "Apparently, they teach useful moves on\n"
+	.string "the upper floors. I'll check it out.$"
 
 
 
@@ -36,7 +34,7 @@ release
 end
 
 Goldenrod_Shop_Text_3:
-.string "¡Me encanta ir de compras!$"
+.string "I love shopping!$"
 
 
 

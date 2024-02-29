@@ -9,7 +9,7 @@ release
 end
 
 Goldenrod_UndergroundSouth1_Text_1:
-.string "Aquí abajo pueden encontrarse\n"
-.string "cosas interesantes a la venta,\l"
-.string "pero hay gente muy rara también…\l"
-.string "Me da miedo bajar ahí.$"
+	.string "Down here you can find interesting\n"
+	.string "things for sale, but there are also some\l"
+	.string "very strange people… I'm afraid to go\l"
+	.string "down there.$"

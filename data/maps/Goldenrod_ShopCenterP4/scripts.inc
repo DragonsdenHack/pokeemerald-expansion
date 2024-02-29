@@ -19,11 +19,10 @@ release
 end
 
 Goldenrod_ShopP4_Text_3:
-.string "Vaya, pensaba que aquí enseñaban\n"
-.string "PUÑO DRENAJE. Me temo que tendré\l"
-.string "que irme a lo más profundo del\l"
-.string "MONTE MORTERO para que mi\l"
-.string "POLIWRATH pueda aprenderlo.$"
+	.string "Oh, I thought they taught DRAIN PUNCH\n"
+	.string "here. I'm afraid I'll have to venture\l"
+	.string "into the depths of MT. MORTAR so my\l"
+	.string "POLIWRATH can learn it.$"
 
 
 
@@ -35,12 +34,11 @@ release
 end
 
 Goldenrod_ShopP4_Text_4:
-.string "¿¡40000 por BRILLO MÁGICO!?\n"
-.string "¿Sabes cuántos pantalones cortos\l"
-.string "tendría que vender para reunir esa\l"
-.string "cantidad?\l"
-.string "Y lo duro que pegaría mi TOGETIC\l"
-.string "también…$"
+.string "40000 for DAZZLING GLEAM!?\n"
+	.string "Do you know how many shorts I'd have to\n"
+	.string "sell to gather that amount? And how\l"
+	.string "hard would my TOGETIC hit with that\l"
+	.string "move…$"
 
 
 

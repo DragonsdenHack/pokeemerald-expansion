@@ -101,13 +101,11 @@ release
 end
 
 Text_9:
-.string "Aquí puedes llegar a encontrar\n"
-.string "cosas incluso más interesantes que\l"
-.string "en el CASINO y el CENTRO\l"
-.string "COMERCIAL.\l"
-.string "¡Es lo que tiene el mercado negro,\l"
-.string "nunca sabes lo que puedes\l"
-.string "llegar a ver por aquí!$"
+	.string "Here you can find even more interesting\n"
+	.string "items than in the GAME CORNER and the\l"
+	.string "DEPARTMENT STORE. That's the great\l"
+	.string "thing about the black market, you never\l"
+	.string "know what you might find down here!$"
 
 
 
@@ -177,24 +175,24 @@ face_up
 step_end
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_1:
-.string "¿Tienes algún problema? ¡Largo de aquí,\n"
-	.string "este lugar no es para pijos como tú!$"
+	.string "Do you have a problem? Get out of here,\n"
+	.string "this place isn't for snobs like you!$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_3:
-.string "Quieres pelea? ¡De nada van a servirte\n"
-	.string "esos POKÉMON comprados!$"
+	.string "You wanna fight? Those bought POKÉMON\n"
+	.string "won't be of any use to you!$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_4:
-.string "¿Quién te ha vendido esos POKÉMON?$"
+.string "Who sold you those POKÉMON?$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_5:
-.string "¡Puaf, me confié! ¡Espera a que avise al\n"
-	.string "JEFE! ¡Por mucho que hayas comprado\l"
-	.string "POKÉMON de calidad, él siempre se queda\l"
-	.string "con los mejores!$"
+	.string "Yuck, I was too confident! Just wait\n"
+	.string "until I inform the BOSS! No matter how\l"
+	.string "many quality POKÉMON you've bought, he\l"
+	.string "always keeps the best ones!$"
 
 Goldenrod_Underground_Tienda_Pokemon::
 lock
@@ -214,13 +212,13 @@ end
 
 
 Goldenrod_Underground_Tienda_Pokemon_Texto_1:
-.string "Me dedico a traer raros y poderosos\n"
-	.string "POKÉMON de otras regiones, y venderlos\l"
-	.string "aquí a buen precio.$"
+	.string "I'm in the business of bringing rare and\n"
+	.string "powerful POKÉMON from other regions,\l"
+	.string "and selling them here at a good price.$"
 
 Goldenrod_Underground_Tienda_Pokemon_Texto_2:
-.string "Esta es mi oferta, no encontrarás nada\n"
-	.string "igual en toda JOHTO.$"
+	.string "This is my offer, you won't find anything\n"
+	.string "similar in all JOHTO.$"
 
 EventScript_Trapinch::
 lock
@@ -249,7 +247,7 @@ release
 end
 
 MauvilleCity_GameCorner_Texto_Monedero:
-.string "¡Se requiere de un MONEDERO!$"
+.string "A COIN CASE is required!$"
 
 EventScript_Compra_Fichas_No::
 hidecoinsbox 0, 0
@@ -263,79 +261,79 @@ release
 end
 
 Goldenrod_Underground_Tienda_Pokemon_Sin_Fichas_Texto_1:
-.string "No tienes suficientes fichas.$"
+.string "You don't have enough coins.$"
 
 EventScript_Trapinch_Texto_1:
-.string "¿Quieres a TRAPINCH? Costará 1.200\n"
-	.string "FICHAS.$"
+.string "Do you want TRAPINCH?\n"
+	.string "It will cost 1,200 COINS.$"
 
 EventScript_Bagon_Texto_1:
-.string "¿Quieres a BAGON? Costará 6.000\n"
-	.string "FICHAS.$"
+.string "Do you want BAGON?\n"
+	.string "It will cost 6,000 COINS.$"
 
 EventScript_Deino_Texto_1:
-.string "¿Quieres a DEINO? Costará 6.000\n"
-	.string "FICHAS.$"
+.string "Do you want DEINO?\n"
+	.string "It will cost 6,000 COINS.$"
 
 EventScript_Beldum_Texto_1:
-.string "¿Quieres a BELDUM? Costará 6.000\n"
-	.string "FICHAS.$"
+.string "Do you want BELDUM?\n"
+	.string "It will cost 6,000 COINS.$"
 
 EventScript_Wishiwashi_Texto_1:
-.string "¿Quieres a WISHIWASHI? Costará\n"
-	.string "7.500 FICHAS.$"
+.string "Do you want WISHIWASHI?\n"
+	.string "It will cost 7,500 COINS.$"
 
 EventScript_Llamasfera_Texto_1:
-.string "¿Quieres la LLAMASFERA?\n"
-	.string "Costará 1.000 FICHAS.$"
+.string "Do you want FLAME ORB?\n"
+	.string "It will cost 1,000 COINS.$"
 
 EventScript_Cxperto_Texto_1:
-.string "¿Quieres la CINTA XPERTO?\n"
-	.string "Costará 2.400 FICHAS.$"
+.string "Do you want EXPERT BELT?\n"
+	.string "It will cost 2,400 COINS.$"
 
 EventScript_Chaleco_Texto_1:
-.string "¿Quieres el CHALECO ASALTO?\n"
-	.string "Costará 2.800 FICHAS.$"
+.string "Do you want ASSAULT VEST?\n"
+	.string "It will cost 2,800 COINS.$"
 
 EventScript_Gafas_Texto_1:
-.string "¿Quieres las GAFAS ELEGIDAS?\n"
-	.string "Costarán 3.000 FICHAS.$"
+.string "Do you want CHOICE SPECS?\n"
+	.string "It will cost 3,000 COINS.$"
 
 EventScript_Toxisfera_Texto_1:
-.string "¿Quieres la TOXISFERA?\n"
-	.string "Costará 1.000 FICHAS.$"
+.string "Do you want TOXIC ORB?\n"
+	.string "It will cost 1,000 COINS.$"
 
 EventScript_Casco_Texto_1:
-.string "¿Quieres el CASCO DENTADO?\n"
-	.string "Costará 1.600 FICHAS.$"
+.string "Do you want ROCKY HELMET?\n"
+	.string "It will cost 1,600 COINS.$"
 
 EventScript_Vidasfera_Texto_1:
-.string "¿Quieres la VIDASFERA?\n"
-	.string "Costará 2.800 FICHAS.$"
+.string "Do you want LIFE ORB?\n"
+	.string "It will cost 2,800 COINS.$"
 
 EventScript_Cinta_Texto_1:
-.string "¿Quieres la CINTA ELEGIDA?\n"
-	.string "Costará 3.000 FICHAS.$"
+.string "Do you want CHOICE BAND?\n"
+	.string "It will cost 3,000 COINS.$"
 
 EventScript_Teddiursa_Texto_1:
-.string "¿Quieres un TEDDIURSA?\n"
-	.string "Costará 500 FICHAS.$"
+.string "Do you want TEDDIURSA?\n"
+	.string "It will cost 500 COINS.$"
 
 EventScript_Shuckle_Texto_1:
-.string "¿Quieres un SHUCKLE?\n"
-	.string "Costará 1.250 FICHAS.$"
+.string "Do you want SHUCKLE?\n"
+	.string "It will cost 1,250 COINS.$"
 
 EventScript_Sudowoodo_Texto_1:
-.string "¿Quieres un SUDOWOODO?\n"
-	.string "Costará 2.400 FICHAS.$"
+.string "Do you want SUDOWOODO?\n"
+	.string "It will cost 2,400 COINS.$"
 
 EventScript_Cyndaquil_Texto_1:
-.string "¿Quieres un CYNDAQUIL?\n"
-	.string "Costará 4.200 FICHAS.$"
+.string "Do you want CYNDAQUIL?\n"
+	.string "It will cost 4,200 COINS.$"
 
 EventScript_Larvitar_Texto_1:
-.string "¿Quieres un LARVITAR?\n"
-	.string "Costará 5.500 FICHAS.$"
+.string "Do you want LARVITAR?\n"
+	.string "It will cost 5,500 COINS.$"
 
 EventScript_Bagon::
 lock

@@ -9,15 +9,13 @@ release
 end
 
 Goldenrod_ShopP5_Text_1:
-.string "En esta ciudad hay algunos\n"
-.string "entrenadores demasiado\l"
-.string "competitivos, creo que deberían de\l"
-.string "relajarse y disfrutar de todas las\l"
-.string "posibilidades que TRIGAL ofrece,\l"
-.string "sin más.\l"
-.string "Después tenemos el polo opuesto\l"
-.string "con las pijas que han arruinado el\l"
-.string "GIMNASIO, por supuesto…$"
+	.string "In this city, there are some overly\n"
+	.string "competitive trainers; I think they\l"
+	.string "should relax and enjoy all the\l"
+	.string "possibilities that GOLDENROD allows,\l"
+	.string "and that's all. But we have the complete\l"
+	.string "opposite with the snobs who have\l"
+	.string "ruined the GYM, of course…$"
 
 
 
@@ -29,11 +27,11 @@ release
 end
 
 Goldenrod_ShopP5_Text_2:
-.string "Voy a hacer una acampada increíble\n"
-.string "en el ENCINAR.\l"
-.string "¡Llevo media hora nada más que\l"
-.string "sacando refrescos y limonadas de\l"
-.string "uno en uno para ahorrar dinero!$"
+	.string "I'm going to have an amazing camping\n"
+	.string "trip in the ILEX FOREST. I've been\l"
+	.string "spending the last half hour just taking\l"
+	.string "out sodas and lemonades one by one to\l"
+	.string "save money!$"
 
 
 
@@ -42,5 +40,5 @@ msgbox GoldenrodShopCenterP5Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodShopCenterP5Documento_Text_100:
-.string "¡Repón tus fuerzas!\n"
-	.string "P5 DESCANSO$"
+.string "Take a Break from Shopping!\n"
+	.string "6F TRANQUIL SQUARE$"
