@@ -181,7 +181,7 @@ CeladonCity_Shop_3F_Entrenador_Especial_Texto_2:
 .string "Do you accept the challenge?$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_3:
-	.string "GIGA IMPACT has a whopping 150 POWER,\n"
+	.string "GIGA IMPACT has a whopping 170 POWER,\n"
 	.string "used on NORMAL type POKEMON it will\l"
 	.string "also receive STAB, TAUROS or SNORLAX\l"
 	.string "are the best options, they will give the\l"

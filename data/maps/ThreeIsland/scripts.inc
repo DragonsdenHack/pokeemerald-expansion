@@ -245,7 +245,7 @@ ThreeIsland_Secundaria_Recreativos_Texto_12:
 
 ThreeIsland_Secundaria_Recreativos_Texto_13:
 	.string "Did you manage to find them? Our\n"
-	.string "RECREATIONAL areas are on ISLA\l"
-	.string "SECUNDA; it's a small place, you can't\l"
+	.string "RECREATIONAL areas are on TWO\l"
+	.string "ISLAND; it's a small place, you can't\l"
 	.string "miss it.$"
 
