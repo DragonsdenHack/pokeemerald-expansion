@@ -9,10 +9,9 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_1:
-.string "La TORRE RADIO, el MAGNETOTREN, el\n"
-.string "PUERTO OLIVO... La globalización\l"
-.string "llega a JOHTO, y viene\l"
-.string "para quedarse.$"
+	.string "The RADIO TOWER, the MAGNETRAIN, the\n"
+	.string "OLIVINE PORT… Globalization is coming\l"
+	.string "to JOHTO, and it's here to stay.$"
 
 
 
@@ -29,10 +28,9 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_3:
-.string "Eso es lo que necesitamos aquí,\n"
-.string "gente importante y trajeada como\l"
-.string "tú, no esos matones del\l"
-.string "subterráneo.$"
+	.string "That's what we need here, important and\n"
+	.string "well-dressed people like you, not those\l"
+	.string "thugs from the underground.$"
 
 
 
@@ -44,11 +42,11 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_4:
-.string "CIUDAD TRIGAL no solo es la más\n"
-.string "poblada de JOHTO, tampoco en KANTO\l"
-.string "hay ninguna ciudad con más\l"
-.string "habitantes. Esta TORRE RADIO ha\l"
-.string "tenido mucho que ver.$"
+	.string "GOLDENROD CITY is not only the most\n"
+	.string "populated city of JOHTO, in KANTO\l"
+	.string "there's no city with this amount of\l"
+	.string "habitants. This RADIO TOWER is a very\l"
+	.string "important reason.$"
 
 
 
@@ -60,11 +58,8 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_5:
-.string "Emitimos programas de\n"
-.string "entretenimiento las 24 horas del\l"
-.string "día.\l"
-.string "¡Trataremos de hacerlo lo mejor\l"
-.string "posible!$"
+	.string "We broadcast entertainment programs\n"
+	.string "24 hours a day. We'll try to do our best!$"
 
 
 
@@ -81,10 +76,10 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_7:
-.string "ROSA: Crear un programa junto con\n"
-.string "el PROF.OAK…\l"
-.string "Eso nos daría gran visibilidad\l"
-.string "también en KANTO, ¿no crees?$"
+	.string "MARY: Creating a program together with\n"
+	.string "PROF.OAK… That would give us great\l"
+	.string "visibility in KANTO as well, don't you\l"
+	.string "think?$"
 
 
 
@@ -101,10 +96,9 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_9:
-.string "Hemos grabado los gritos de todos\n"
-.string "los POKÉMON conocidos en KANTO y\l"
-.string "JOHTO.\l"
-.string "¡Tenemos más de 200 gritos!$"
+	.string "We've recorded the cries of every known\n"
+	.string "POKÉMON in KANTO and JOHTO. We have\l"
+	.string "over 200 cries!$"
 
 
 

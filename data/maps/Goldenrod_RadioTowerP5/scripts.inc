@@ -795,218 +795,193 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_58:
 	.string "PRYCE: Count on that, GIOVANNI.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_59:
-.string "GIOVANNI: Siguiendo con el plan,\n"
-	.string "el título de GOBERNADOR quedará\l"
-	.string "abolido.$"
+	.string "GIOVANNI: Continuing with the plan, the\n"
+	.string "title of GOVERNOR will be abolished.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_60:
-.string "GIOVANNI: Únicamente existirán\n"
-	.string "SILPH, la TORRE RADIO, el TEAM\l"
-	.string "ROCKET, y demás empresas como el\l"
-	.string "PUERTO OLIVO, MAGNETOTREN o los\l"
-	.string "CASINOS.$"
+	.string "GIOVANNI: Only SILPH, the RADIO TOWER,\n"
+	.string "TEAM ROCKET, and other companies like\l"
+	.string "OLIVINE PORT, MAGNETRAIN, or the GAME\l"
+	.string "CORNERS will exist.$"
+
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_61:
-.string "¿Alguna pregunta?$"
+.string "Any doubt?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_62:
-.string "BILL: Todo eso está muy bien, pero\n"
-	.string "como ha dicho, lo que importa al\l"
-	.string "final es el poder que puede\l"
-	.string "crearse a partir de este sistema.\l"
-	.string "¿Qué cifras espera que los nuevos\l"
-	.string "prototipos puedan alcanzar?$"
+	.string "BILL: All of that sounds great, but as\n"
+	.string "he mentioned, what really matters in\l"
+	.string "the end is the power that can be\l"
+	.string "generated from this system. What\l"
+	.string "numbers do you expect the new\l"
+	.string "prototypes to reach?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_63:
-.string "GIOVANNI: Tranquilo, BILL, tendrás\n"
-	.string "ocasión de trabajar directamente\l"
-	.string "en ello junto con OAK y ELM.$"
+	.string "GIOVANNI: Calm down, BILL, you will have\n"
+	.string "a chance to work for that directly\l"
+	.string "together with OAK and ELM.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_64:
-.string "Es sabido que con MEWTWO llegamos\n"
-	.string "a los 680 de STATS BASE.$"
+	.string "It's known that with MEWTWO, we reached\n"
+	.string "680 BASE STATS.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_65:
-.string "Nuestras estimaciones...$"
+.string "Our expectations…$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_66:
 .string "OAK: ...$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_67:
-.string "GIOVANNI: Sugieren que es posible\n"
-	.string "superar holgadamente la barrera de\l"
-	.string "los 700 de base, e incluso\l"
-	.string "adentrarse en la de los 800.$"
+	.string "GIOVANNI: Suggest that it's possible\n"
+	.string "to comfortably exceed the 700 base\l"
+	.string "limit, and even breach the 800 mark.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_68:
-.string "BILL: ¡Está loco!\n"
-	.string "¿Se da cuenta de los números de\l"
-	.string "los que está hablando?\l"
-	.string "El cuerpo de un POKÉMON no puede\l"
-	.string "soportar cifras tan elevadas.$"
+	.string "BILL: That's insane!! Do you realize the\n"
+	.string "numbers that you are talking about? A\l"
+	.string "POKÉMON's body can't withstand such\l"
+	.string "high stats.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_69:
-.string "GIOVANNI: Ya lo creo yo que sí\n"
-	.string "puede, y cuando veas los recursos\l"
-	.string "de los que disponemos, tú también\l"
-	.string "lo creerás.$"
+	.string "GIOVANNI: I certainly believe it can,\n"
+	.string "and when you see the resources we have\l"
+	.string "at our disposal, you'll believe it too.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_70:
 .string "BILL: ...$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_71:
-.string "Eso es todo, señores. Como ven, si\n"
-	.string "todos colaboramos, podemos hacer\l"
-	.string "de estas 2 regiones la mayor\l"
-	.string "potencia que el mundo recuerde, y\l"
-	.string "salir todos beneficiados, desde\l"
-	.string "sus más venerables y antiguos\l"
-	.string "habitantes, pasando por sus más\l"
-	.string "brillantes científicos y hombres\l"
-	.string "de negocios.$"
+	.string "That's all, gentleman. As you can see, if\n"
+	.string "we all work together, we can transform\l"
+	.string "these two regions into the greatest\l"
+	.string "powerhouse the world has ever known,\l"
+	.string "benefiting everyone from the most\l"
+	.string "venerable and ancient residents to the\l"
+	.string "brightest scientists and\l"
+	.string "entrepreneurs.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_72:
-.string "PRESIDENTE: ¿Alguna pregunta?$"
+	.string "DIRECTOR: Any question?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_73:
-.string "Damos entonces la I CONFERENCIA DE\n"
-	.string "TRIGAL por finalizada. Pronto les\l"
-	.string "enviaremos a cada uno de los aquí\l"
-	.string "presentes las acciones a tomar\l"
-	.string "para ir cumpliendo cada uno de los\l"
-	.string "puntos expuestos aquí, por el\l"
-	.string "momento, les anuncio ya que las\l"
-	.string "fronteras con KANTO van a abrirse\l"
-	.string "nuevamente.$"
+	.string "We hereby conclude the I GOLDENROD\n"
+	.string "CONFERENCE. Soon, each of you present\l"
+	.string "here will receive the actions to take to\l"
+	.string "fulfill each of the points discussed\l"
+	.string "here. For now, I announce that the\l"
+	.string "borders with KANTO will reopen.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_74:
-.string "Tiempos muy interesantes se\n"
-	.string "avecinan para todos nosotros. Eso\l"
-	.string "es todo, caballeros.$"
+	.string "Very interesting times are coming for\n"
+	.string "all of us. That's it, gentlemen.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_75:
-.string "ANDRA: Una sesión intensa, ¿eh?$"
+.string "ANDRA: An intense meeting, huh?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_76:
-.string "GIOVANNI: ANDRA, {PLAYER}, me\n"
-	.string "alegra volver a veros juntos a los\l"
-	.string "2, muchas alegrías habéis dado al\l"
-	.string "TEAM ROCKET trabajando en equipo.$"
+	.string "GIOVANNI: ANDRA, {PLAYER}, it's a\n"
+	.string "pleasure to see you both together\l"
+	.string "again. You've brought much joy to TEAM\l"
+	.string "ROCKET through your teamwork.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_77:
-.string "Estás haciendo un excelente\n"
-	.string "trabajo en HOENN, ANDRA, vamos a\l"
-	.string "aprender mucho del reparto de\l"
-	.string "STATS tan particular de esos\l"
-	.string "REGIS.$"
+	.string "You're doing an excellent job in HOENN,\n"
+	.string "ANDRA. We'll learn a lot from the unique\l"
+	.string "STATS distribution of those REGIS.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_78:
-.string "{PLAYER}, si no me equivoco,\n"
-	.string "cuentas ya con 5 MEDALLAS de\l"
-	.string "JOHTO. Los últimos datos sobre ese\l"
-	.string "POLIWRATH FUERTE VÍNCULO nos han\l"
-	.string "sido de gran utilidad, ese POKÉMON\l"
-	.string "es una roca en todos los sentidos.\l"
-	.string "Supera a MACHAMP en los 6 STATS, y\l"
-	.string "con PUÑO FERREO apoyado en sus\l"
-	.string "enormes defensas y ATAQUE de 145\l"
-	.string "de BASE, es toda una máquina de\l"
-	.string "restar vida al rival y recuperar\l"
-	.string "la suya propia.$"
+	.string "{PLAYER}, if I'm not wrong, you\n"
+	.string "already have 5 JOHTO BADGES. The latest\l"
+	.string "data on that DEEP BOND POLIWRATH has\l"
+	.string "been very useful to us; that POKÉMON is\l"
+	.string "a powerhouse in every sense. It\l"
+	.string "outperforms MACHAMP in all 6 STATS, and\l"
+	.string "with IRON FIST supported by its huge\l"
+	.string "defenses and a BASE ATTACK of 145, it's\l"
+	.string "a true life-draining and\l"
+	.string "self-recovering machine.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_79:
-.string "Quiero que ambos os toméis unas\n"
-	.string "pequeñas vacaciones, os lo habéis\l"
-	.string "ganado.$"
+	.string "I want both of you to take a short\n"
+	.string "vacation; you've earned it.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_80:
-.string "ATLAS: Sería conveniente que\n"
-	.string "visitaran el tercer y cuarto piso\l"
-	.string "de nuestra base en RUTA 45, ya\l"
-	.string "están listos con los nuevos\l"
-	.string "avances en MEGAPIEDRAS que hemos\l"
-	.string "hecho.$"
+	.string "ARCHER: You should consider visiting\n"
+	.string "the third and fourth floors of our base\l"
+	.string "on ROUTE 45; they're prepared with the\l"
+	.string "latest developments in MEGA STONES\l"
+	.string "that we've achieved.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_81:
-.string "GIOVANNI: Desde luego, creo que os\n"
-	.string "divertiréis en ese lugar, de igual\l"
-	.string "forma que hicisteis por primera\l"
-	.string "vez con la BASE ROCKET PROFUNDA.$"
+	.string "GIOVANNI: Yeah, I think you'll enjoy\n"
+	.string "visiting that place, just like you did\l"
+	.string "for the first time with the DEEP ROCKET\l"
+	.string "BASE.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_82:
-.string "ANDRA, ATLAS, id tirando.\n"
-	.string "Muéstrale el camino a ANDRA hasta\l"
-	.string "la BASE de JOHTO.$"
+	.string "ANDRA, ARCHER, keep going ahead. Show\n"
+	.string "the way to ANDRA to the JOHTO BASE.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_83:
-.string "GIOVANNI: ¿Qué te ha parecido la\n"
-	.string "reunión, {PLAYER}?\l"
-	.string "A ojos de la población, esto nunca\l"
-	.string "ha ocurrido, no existe, y aún así,\l"
-	.string "ha sentado las bases de sus vidas\l"
-	.string "en los próximos años. Esperemos\l"
-	.string "que para bien...$"
+	.string "GIOVANNI: What did you think of the\n"
+	.string "meeting, {PLAYER}? To the eyes of the\l"
+	.string "population, this has never happened, it\l"
+	.string "doesn't exist, and yet, it has laid the\l"
+	.string "groundwork for their lives in the coming\l"
+	.string "years. Let's hope for the best…$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_84:
-.string "Observa este espléndido paisaje,\n"
-	.string "{PLAYER}, desde aquí podemos ver el\l"
-	.string "FARO de CIUDAD OLIVO, la TORRE\l"
-	.string "CAMPANA de CIUDAD IRIS, JOHTO, en\l"
-	.string "la palma de nuestra mano.$"
+	.string "Look at this magnificent landscape,\n"
+	.string "{PLAYER}, from here we have a view of\l"
+	.string "the OLIVINE CITY LIGHTHOUSE, the BELL\l"
+	.string "TOWER of ECRUTEAK CITY, JOHTO, right at\l"
+	.string "our fingertips.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_85:
 .string "GIOVANNI: ...$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_86:
-.string "Supongo que habrás prestado\n"
-	.string "especial atención al MAESTRO\l"
-	.string "DRAGÓN, de CIUDAD ENDRINO. Dudo que\l"
-	.string "lo hayas visto antes.$"
+	.string "I suppose you paid special attention to\n"
+	.string "the DRAGON MASTER from BLACKTHORN\l"
+	.string "CITY. I doubt you've seen him before.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_87:
-.string "Junto con FREDO y el GRAN MAESTRO\n"
-	.string "de CIUDAD IRIS, son los 3 LÍDERES\l"
-	.string "más poderosos de JOHTO,\l"
-	.string "especialmente el MAESTRO DRAGÓN.\l"
-	.string "Sospecho que cuenta con un\l"
-	.string "PSEUDOLEGENDARIO FUERTE VÍNCULO en\l"
-	.string "su equipo. Si llegara a ser\l"
-	.string "cierto, conocer sus datos sería\l"
-	.string "crucial.$"
+	.string "Alongside PRYCE and the GREAT MASTER\n"
+	.string "from ECRUTEAK CITY, they are the 3 most\l"
+	.string "powerful LEADERS in JOHTO, especially\l"
+	.string "the DRAGON MASTER. I suspect he has a\l"
+	.string "DEEP BOND PSEUDO-LEGENDARY on his\l"
+	.string "team. If this were to be true, knowing\l"
+	.string "its data would be crucial.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_88:
-.string "Los 3 son historia viva de la\n"
-	.string "región, forman parte de una\l"
-	.string "generación en vías de extinción y\l"
-	.string "han demostrado que entrenar\l"
-	.string "POKÉMON tiene mucho de arte. Por\l"
-	.string "más que nos empeñemos en llevar\l"
-	.string "todo a nuestros laboratorios, por\l"
-	.string "ello, quiero aunar lo mejor de\l"
-	.string "ambos mundos antes de que sea\l"
-	.string "demasiado tarde. En unos 3 años,\l"
-	.string "será imposible encontrar\l"
-	.string "ENTRENADORES así, incluso en la\l"
-	.string "rural y tradicional JOHTO.$"
+	.string "The three are living legends of the\n"
+	.string "region, they are part of a dying breed\l"
+	.string "and have shown that training POKÉMON\l"
+	.string "is a true art. Despite our efforts to\l"
+	.string "bring everything to our laboratories, I\l"
+	.string "want to unite the best of both worlds\l"
+	.string "before it's too late. In about 3 years,\l"
+	.string "it will be impossible to find TRAINERS\l"
+	.string "like them, even in this rural and\l"
+	.string "traditional JOHTO.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_89:
-.string "Pero tranquilo, {PLAYER}, tiempo es\n"
-	.string "lo que ahora tenemos. Sé que te\l"
-	.string "las arreglarás para poder combatir\l"
-	.string "frente a los últimos 3 LÍDERES,\l"
-	.string "tal y como has hecho hasta ahora.$"
+	.string "But don't worry, {PLAYER}, time is\n"
+	.string "what we have now. I know you'll manage\l"
+	.string "to battle against the last 3 LEADERS,\l"
+	.string "just as you've done so far.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_90:
-.string "Por ahora, ANDRA te está\n"
-	.string "esperando para visitar los pisos\l"
-	.string "superiores de la BASE de JOHTO.\l"
-	.string "Ahí verás parte de los progresos\l"
-	.string "que hemos hecho.$"
+	.string "For now, ANDRA is waiting for you to\n"
+	.string "visit the upper floors of the JOHTO\l"
+	.string "BASE. There, you'll see some of the\l"
+	.string "progress we've made.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_91:
-.string "Eso es todo, {PLAYER}. Me alegra\n"
-	.string "verte de nuevo, se nota que estás\l"
-	.string "en plena forma.$"
+	.string "That's all, {PLAYER}. I'm glad to see\n"
+	.string "you again, it's evident that your skills\l"
+	.string "have improved.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_move_1:
 walk_up

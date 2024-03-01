@@ -9,9 +9,10 @@ release
 end
 
 RadioTowerP4_1_Texto_1:
-.string "He oído que SILPH tiene varios pisos\n"
-	.string "subterráneos, aquí no sería posible\l"
-	.string "por la cercanía al mar.$"
+	.string "I've heard that SILPH has several\n"
+	.string "underground floors, but it wouldn't be\l"
+	.string "possible here due to the proximity to\l"
+	.string "the sea.$"
 
 
 
@@ -28,7 +29,7 @@ release
 end
 
 Goldenrod_RadioTowerP4_Text_3:
-.string "NARDO: ¿Escuchas nuestra música?$"
+.string "BEN: Do you listen to our music?$"
 
 
 
@@ -40,17 +41,15 @@ release
 end
 
 Goldenrod_RadioTowerP4_Text_4:
-.string "Choca bastante ver un edificio de\n"
-.string "estas dimensiones justo al lado\l"
-.string "del mar, ¿no crees?\l"
-.string "Si por algún casual se derrumbara\l"
-.string "en dirección oeste, la gran altura\l"
-.string "de la TORRE RADIO haría que los\l"
-.string "que se encuentran en los pisos\l"
-.string "superiores, como nosotros, cayeran\l"
-.string "en pleno mar abierto.\l"
-.string "¡Acabo de pensarlo y me parece\l"
-.string "alucinante!$"
+	.string "It's quite striking to see a building of\n"
+	.string "these dimensions right next to the sea,\l"
+	.string "don't you think? If by any chance it\l"
+	.string "collapsed westward, the towering\l"
+	.string "height of the RADIO TOWER would cause\l"
+	.string "those on the upper floors, like us, to\l"
+	.string "fall right into the open sea. I just\l"
+	.string "thought about it, and it's\l"
+	.string "mind-boggling!$"
 
 
 
@@ -62,10 +61,9 @@ release
 end
 
 Goldenrod_RadioTowerP4_Text_5:
-.string "El despacho de nuestro PRESIDENTE\n"
-.string "está justo al lado de esta sala,\l"
-.string "es allí donde tienen lugar las\l"
-.string "reuniones más importantes.$"
+	.string "Our DIRECTOR's office is right next to\n"
+	.string "this room; that's where the most\l"
+	.string "important meetings are.$"
 
 
 
@@ -77,11 +75,10 @@ release
 end
 
 Goldenrod_RadioTowerP4_Text_6:
-.string "Aún no puedo creer todo lo que\n"
-.string "TRIGAL ha crecido en los últimos\l"
-.string "años, y todo lo que está por\l"
-.string "venir. ¡Tiempos interesantes nos\l"
-.string "ha tocado vivir!$"
+	.string "I still can't believe how much\n"
+	.string "GOLDENROD has improved technologically\l"
+	.string "in recent years, and all that is yet to\l"
+	.string "come. Interesting times we live in!$"
 
 
 
@@ -107,25 +104,23 @@ release
 end
 
 RadioTowerP4_7_Texto_3:
-.string "Que rápido pasa el tiempo, ¿no crees?\n"
-	.string "Parece que fue ayer cuando celebramos\l"
-	.string "la I CONFERENCIA de TRIGAL, pero KANTO\l"
-	.string "y JOHTO ya han cambiado mucho desde\l"
-	.string "ese entonces.$"
+	.string "Time flies so fast, don't you think so?\n"
+	.string "It feels as if it were just yesterday\l"
+	.string "when we held the I GOLDENROD\l"
+	.string "CONFERENCE, but the political situation\l"
+	.string "between KANTO and JOHTO has undergone\l"
+	.string "significant changes since then.$"
 
 RadioTowerP4_7_Texto_1:
-.string "¡{PLAYER}!\n"
-	.string "Explora y disfruta cada rincón de\l"
-	.string "esta región. Todo lo que puedas\l"
-	.string "sacar de ella y sus entrenadores\l"
-	.string "es un regalo.$"
+	.string "{PLAYER}! Explore and enjoy every\n"
+	.string "corner of this region. Everything you\l"
+	.string "can learn from it and its trainers is a\l"
+	.string "gift.$"
 
 RadioTowerP4_7_Texto_2:
-.string "Entonces, así va a ser...\n"
-	.string "Tenemos mucho trabajo por hacer en\l"
-	.string "los próximos 2 años. Para ese\l"
-	.string "entonces, KANTO y JOHTO formarán\l"
-	.string "una sola unión.$"
+	.string "So, it will be that way… We have a lot of\n"
+	.string "work to do in the next 2 years. For then,\l"
+	.string "KANTO and JOHTO will form a unique bond.$"
 
 RadioTowerP4_9::
 end
@@ -137,7 +132,7 @@ msgbox GoldenrodRadioTowerP4Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP4Documento_Text_100:
-.string "P4 OFICINA DEL DIRECTOR$"
+.string "5F DIRECTOR'S OFFICE$"
 
 
 
@@ -146,7 +141,7 @@ msgbox GoldenrodRadioTowerP4Documento_Text_101, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP4Documento_Text_101:
-.string "P4 ESTUDIO 1$"
+.string "5F STUDIO 1$"
 
 Goldenrod_RadioTower_P4_Reunion::
 lock
@@ -245,174 +240,161 @@ release
 end
 
 Goldenrod_RadioTower_P4_Reunion_Texto_1:
-.string "({PLAYER} mostró su PASE RADIO).$"
+.string "({PLAYER} show his RADIO PASS)$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_2:
-.string "PRESIDENTE: Sabes que a la mayoría\n"
-	.string "de JOHTO le trajo sin cuidado la\l"
-	.string "guerra, fue LANCE quien la forzó\l"
-	.string "por sus ansias de poder.$"
+	.string "DIRECTOR: You know that most of JOHTO\n"
+	.string "didn't care about the war; it was LANCE\l"
+	.string "who forced it due to his thirst for\l"
+	.string "power.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_3:
-.string "ATLAS: Por eso estoy aquí. Ahora\n"
-	.string "que tenemos a LANCE bajo control,\l"
-	.string "es tiempo de unir como nunca antes\l"
-	.string "a las dos regiones.$"
+	.string "ARCHER: That's why I'm here. With LANCE\n"
+	.string "now under control, it's time to unite\l"
+	.string "the two regions like never before.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_4:
-.string "ATLAS: {PLAYER}, justo a tiempo.$"
+.string "ARCHER: {PLAYER}, just in time.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_5:
-.string "PRESIDENTE: ¿Es él?$"
+.string "DIRECTOR: Is him?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_6:
-.string "ATLAS: Así es, {PLAYER} fue el que\n"
-	.string "derrotó a LANCE en un combate\l"
-	.string "POKÉMON, obligándole a ceder sus\l"
-	.string "poderes para evitar que saliese a\l"
-	.string "la luz todo lo ocurrido.$"
+	.string "ARCHER: That's right, {PLAYER} was\n"
+	.string "the one who defeated LANCE in a\l"
+	.string "POKÉMON battle, compelling him to\l"
+	.string "relinquish his powers to prevent the\l"
+	.string "truth from emerging.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_7:
-.string "PRESIDENTE: Notable hazaña chico,\n"
-	.string "más para tu edad. Pero no sé si\l"
-	.string "sabéis que en JOHTO hay varios\l"
-	.string "ENTRENADORES que dejarían a LANCE\l"
-	.string "en pañales. La diferencia con ese\l"
-	.string "DOMADRAGÓN de pacotilla es que no\l"
-	.string "van pregonando a los 4 vientos su\l"
-	.string "poder, están más ocupados de\l"
-	.string "alcanzar la excelencia que en los\l"
-	.string "asuntos mundanos.$"
+	.string "DIRECTOR: Impressive accomplishment,\n"
+	.string "guy, especially considering your age.\l"
+	.string "However, I'm not sure if you're aware\l"
+	.string "that in JOHTO, there are several\l"
+	.string "TRAINERS who would put LANCE to shame.\l"
+	.string "The distinction with that mediocre\l"
+	.string "DRAGON TAMER is that they don't go\l"
+	.string "around bragging about their strength;\l"
+	.string "they are more concerned with attaining\l"
+	.string "excellence than with worldly matters.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_8:
-.string "ATLAS: Lo sabemos PRESIDENTE.\n"
-	.string "{PLAYER} de hecho está aquí en\l"
-	.string "buena parte para aprender de esos\l"
-	.string "ENTRENADORES.$"
+	.string "ARCHER: We are aware about that,\n"
+	.string "DIRECTOR. {PLAYER} is actually here\l"
+	.string "primarily to learn from those trainers.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_9:
-.string "PRESIDENTE: Pues que se dé prisa,\n"
-	.string "son el último reducto de la JOHTO\l"
-	.string "antigua que queda. Dudo que el\l"
-	.string "nuevo nivel de vida de la JOHTO\l"
-	.string "futura permita la aparición de\l"
-	.string "ENTRENADORES así.$"
+	.string "DIRECTOR: Then he had better hurry, as\n"
+	.string "they are the last vestige of the old\l"
+	.string "JOHTO that remains. I doubt the new\l"
+	.string "standard of living in future JOHTO will\l"
+	.string "allow for the emergence of TRAINERS\l"
+	.string "like them.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_10:
-.string "ATLAS: Lo sabemos, y queremos\n"
-	.string "dejar constancia de las cotas que\l"
-	.string "alcanzaron, antes de que sea\l"
-	.string "tarde.$"
+	.string "ARCHER: We know that, and we wish to\n"
+	.string "document the heights they reached,\l"
+	.string "before it gets too late.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_11:
-.string "PRESIDENTE: ¡Jah!\n"
-	.string "Seguro que es por puro interés\l"
-	.string "académico, no me hagas reir, ATLAS.\l"
-	.string "A cambio obtendréis\l"
-	.string "información acerca de los límites\l"
-	.string "a los que puede llegar un POKÉMON\l"
-	.string "valiosísima.$"
+	.string "DIRECTOR: Hah! Surely it's purely for\n"
+	.string "academic interest, don't make me laugh,\l"
+	.string "ARCHER. In exchange, you'll get\l"
+	.string "invaluable information about the limits\l"
+	.string "a POKÉMON can reach.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_12:
-.string "ATLAS: El precio justo por tal\n"
-	.string "labor, ¿no cree?\l"
-	.string "No somos ninguna ONG, dudo que\l"
-	.string "usted y su compañía también lo\l"
-	.string "sean.$"
+	.string "ARCHER: The fair price for such work,\n"
+	.string "don't you agree? We're not a charity\l"
+	.string "organization, and I doubt you and your\l"
+	.string "company are either.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_13:
-.string "PRESIDENTE: ¿Qué es lo que\n"
-	.string "queréis?$"
+	.string "DIRECTOR: What do you want?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_14:
-.string "ATLAS: Lo mismo que usted,\n"
-	.string "asegurarnos de que no aparezca un\l"
-	.string "nuevo LANCE, sentar las bases de\l"
-	.string "la unión entre KANTO y JOHTO. Para\l"
-	.string "ello reuniremos a los personajes\l"
-	.string "más influyentes de estas dos\l"
-	.string "regiones en los últimos años, y\l"
-	.string "dejaremos claras las acciones a\l"
-	.string "tomar.$"
+	.string "ARCHER: The same thing you want,\n"
+	.string "ensuring that another LANCE doesn't\l"
+	.string "emerge, laying the groundwork for the\l"
+	.string "union between KANTO and JOHTO. For\l"
+	.string "that we'll gather the most influential\l"
+	.string "people from both regions in the last\l"
+	.string "years, and we'll tell everyone the\l"
+	.string "actions we'll take.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_15:
-.string "PRESIDENTE: P-pero ahora mismo\n"
-	.string "vuestra organización está fuera\l"
-	.string "del mapa a ojos de la población.$"
+	.string "DIRECTOR: B-but right now, your\n"
+	.string "organization is off the map in the eyes\l"
+	.string "of the population.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_16:
-.string "ATLAS: Eso es precisamente lo que\n"
-	.string "GIOVANNI quería, tenemos el poder,\l"
-	.string "y el anonimato como para mover los\l"
-	.string "hilos sin que nadie nos moleste.$"
+	.string "ARCHER: That's exactly what GIOVANNI\n"
+	.string "wanted, we have the power and the\l"
+	.string "anonymity to pull the strings without\l"
+	.string "anyone bothering us.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_17:
-.string "PRESIDENTE: ¿Y cómo sé que no os\n"
-	.string "convertiréis en algo peor que\l"
-	.string "LANCE?$"
+	.string "DIRECTOR: And how do I know that you\n"
+	.string "won't do something worse than LANCE\l"
+	.string "did?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_18:
-.string "ATLAS: No lo sabes, pero después\n"
-	.string "de celebrar la gran reunión que ha\l"
-	.string "propuesto nuestro LÍDER, no te\l"
-	.string "quedará duda alguna de que no\l"
-	.string "queremos más que el bien de las 2\l"
-	.string "regiones. Hace tiempo que hemos\l"
-	.string "aprendido que el ganar-ganar es el\l"
-	.string "único negocio que funciona a la\l"
-	.string "larga.$"
+	.string "ARCHER: You don't know it, but after\n"
+	.string "holding the great meeting proposed by\l"
+	.string "our LEADER, you will have no doubt that\l"
+	.string "we only want the best for both regions.\l"
+	.string "We have long learned that the win-win is\l"
+	.string "the only business that works in the\l"
+	.string "long run.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_19:
-.string "PRESIDENTE: ...$"
+.string "DIRECTOR: … $"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_20:
-.string "PRESIDENTE: Tendréis esa reunión,\n"
-	.string "estaré en contacto con GIOVANNI\l"
-	.string "para los detalles de esta. Gracias\l"
-	.string "por venir, a los dos.$"
+	.string "DIRECTOR: You'll have that meeting, I\n"
+	.string "will be in contact with GIOVANNI for the\l"
+	.string "details of this. Thank you both for\l"
+	.string "coming.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_21:
-.string "ATLAS: Encantado de volver a mi\n"
-	.string "región, PRESIDENTE.$"
+	.string "ARCHER: Delighted to be back in my\n"
+	.string "region, DIRECTOR.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_22:
-.string "ATLAS: Gran seguridad la de\n"
-	.string "TORRE RADIO, pero no sé si sabe\l"
-	.string "que SILPH contaba con una similar,\l"
-	.string "y aún así no pudo evitar que un\l"
-	.string "niño de 10 años llegase hasta su\l"
-	.string "PRESIDENTE solo por contar con un\l"
-	.string "buen equipo POKÉMON.$"
+	.string "ARCHER: Great security of RADIO TOWER,\n"
+	.string "but I don't know if you know that SILPH\l"
+	.string "had a similar one, and yet it couldn't\l"
+	.string "prevent a 10-year-old kid from\l"
+	.string "reaching its PRESIDENT just because he\l"
+	.string "had a good POKÉMON team.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_23:
-.string "PRESIDENTE: ¿Y qué hicieron para\n"
-	.string "quitárselo de encima?$"
+	.string "DIRECTOR: And what did you do to get\n"
+	.string "rid of him?$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_24:
-.string "ATLAS: Hacerle creer que ganó,\n"
-	.string "para que jamás supiera la verdad.$"
+	.string "ARCHER: Make him believe he won, so he\n"
+	.string "would never know the truth.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_25:
-.string "PRESIDENTE: Interesante.$"
+.string "DIRECTOR: Interesting.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_26:
-.string "¿Así que vas tras los LÍDERES DE\n"
-	.string "JOHTO? Debo confesarte que me\l"
-	.string "apena la transformación que\l"
-	.string "sufrirán los GIMNASIOS en este par\l"
-	.string "de años que vienen, pero es el\l"
-	.string "precio a pagar por el\l"
-	.string "progreso, supongo.\l"
-	.string "En TRIGAL aún tenemos a una LÍDER,\l"
-	.string "más que interesante. Aunque van a\l"
-	.string "restaurar el GIMNASIO. Si te das\l"
-	.string "prisa, quizás puedas pillarla\l"
-	.string "antes de que abandone su puesto.$"
+	.string "So you're going after the JOHTO GYM\n"
+	.string "LEADERS? I must confess that I'm\l"
+	.string "saddened by the transformation the\l"
+	.string "GYMS will undergo in the next couple of\l"
+	.string "years, but it's the price to pay for\l"
+	.string "progress, I suppose. In GOLDENROD, we\l"
+	.string "still have an interesting LEADER.\l"
+	.string "Although they're going to restore the\l"
+	.string "GYM. If you hurry, maybe you can face\l"
+	.string "her before she leaves her position.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_27:
-.string "Espero verte en la gran reunión\n"
-	.string "{PLAYER}. Sigue explorando cada\l"
-	.string "rincón de JOHTO.$"
+	.string "I hope to see you again in the great\n"
+	.string "meeting {PLAYER}. Keep exploring\l"
+	.string "every corner of JOHTO.$"
 
 Goldenrod_RadioTower_P4_Reunion_Move_1:
 walk_down
@@ -603,79 +585,72 @@ release
 end
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.1:
-.string "¡Obtuviste PASE ÉLITE de manos\n"
-	.string "POLICÍA!$"
+	.string "You obtained the ELITE PASS from the\n"
+	.string "POLICE OFFICER!$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_1:
-.string "ANDRA: ¡{PLAYER}!\n"
-	.string "¿Tú también?\l"
-	.string "¡Cuánto tiempo!$"
+.string "ANDRA: {PLAYER}!\n"
+	.string "You too?\l"
+	.string "It's been a while!$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_2:
-.string "Después de la caída de OAK,\n"
-	.string "GIOVANNI me destinó a HOENN para\l"
-	.string "estudiar unas ruinas parecidas a\l"
-	.string "las de ISLAS SETE.$"
+	.string "After OAK's downfall, GIOVANNI assigned\n"
+	.string "me to HOENN to study ruins similar to\l"
+	.string "those in SEVII ISLAND.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_3:
-.string "Veo que tú también has\n"
-	.string "ascendido. Ya no somos parte de la\l"
-	.string "ÉLITE del TEAM ROCKET, {PLAYER},\l"
-	.string "somos el TEAM ROCKET.$"
+	.string "I see that you've risen as well. We're no\n"
+	.string "longer part of the ELITE of TEAM\l"
+	.string "ROCKET, {PLAYER}, we're the TEAM\l"
+	.string "ROCKET.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
-.string "Solo GIOVANNI y ATLAS asistirán a\n"
-	.string "esta reunión aparte de nosotros.\l"
-	.string "Nuestro buen hacer y habilidad en\l"
-	.string "el combate nos ha llevado a la\l"
-	.string "cima, ahora es cuando podemos usar\l"
-	.string "nuestra posición para resolver los\l"
-	.string "misterios de est...$"
+	.string "Only GIOVANNI and ARCHER will attend\n"
+	.string "this meeting besides us. Our good work\l"
+	.string "and combat skills have taken us to the\l"
+	.string "top, now is when we can use our position\l"
+	.string "to solve the mysteries of thi…$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5:
-.string "Sois el ADMIN.JEFE {PLAYER}, y la\n"
-	.string "ADMIN.JEFA ANDRA del TEAM ROCKET,\l"
-	.string "¿me equivoco?$"
+	.string "You're the CHIEF.ADMIN {PLAYER}, and\n"
+	.string "the CHIEF.ADMIN ANDRA from TEAM\l"
+	.string "ROCKET, right?$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_6:
-.string "ANDRA: Así es.$"
+.string "ANDRA: Yes.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_7:
-.string "Debéis pasar ya, la reunión está a\n"
-	.string "punto de comenzar.$"
+	.string "You must come in now, the meeting is\n"
+	.string "about to begin.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8:
-.string "ANDRA: P-pero...\n"
-	.string "Si aquí no hay nadie.$"
+.string "ANDRA: B-but…\n"
+	.string "There's no one here.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9:
-.string "¿En serio creíais que\n"
-	.string "organizaríamos la reunión más\l"
-	.string "importante de los últimos 3 años\l"
-	.string "en un lugar así?\l"
-	.string "Cualquier crío de 10 años podría\l"
-	.string "colarse en este despacho, una\l"
-	.string "reunión de esta magnitud exige la\l"
-	.string "máxima discreción y seguridad.\l"
-	.string "Tomad.$"
+	.string "Did you really think that the most\n"
+	.string "important meeting of the last three\l"
+	.string "years would be in a place like this? Any\l"
+	.string "10-year-old kid could sneak into this\l"
+	.string "office. A meeting of this magnitude\l"
+	.string "requires maximum discretion and\l"
+	.string "security. Take these.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10:
-.string "Ahora, interactuad con el\n"
-	.string "ordenador de la esquina, podréis\l"
-	.string "acceder a la verdadera sala de\l"
-	.string "reuniones de TORRE RADIO.$"
+	.string "Now, interact with the computer in the\n"
+	.string "corner, you'll be able to enter the true\l"
+	.string "meeting room of RADIO TOWER.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11:
-.string "ANDRA: No sé por qué esto me\n"
-	.string "es familiar...$"
+	.string "ANDRA: I don't know why this feels\n"
+	.string "familiar to me…$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12:
-.string "ANDRA: ¡Vamos allá, {PLAYER}!\n"
-	.string "Las personas más influyentes y\l"
-	.string "poderosas de las 2 regiones\l"
-	.string "estarán aquí. El TEAM\l"
-	.string "ROCKET va a cambiar el curso de la\l"
-	.string "historia.$"
+	.string "ANDRA: Let's go, {PLAYER}! The most\n"
+	.string "influential and powerful people from\l"
+	.string "both regions will be here. TEAM ROCKET\l"
+	.string "is going to change the course of\l"
+	.string "history.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Move_1:
 face_down
