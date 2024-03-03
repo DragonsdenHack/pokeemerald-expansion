@@ -65,66 +65,60 @@ release
 end
 
 GoldenrodGym_Encuentro_Valeria_Texto_1:
-.string "????: No hará falta que me echéis,\n"
-	.string "ya renuncio yo.$"
+	.string "????: You won't need to kick me out, I\n"
+	.string "resign myself.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_2:
-.string "Pero tampoco hace falta que te\n"
-	.string "pongas así, no conocemos una\l"
-	.string "ENTRENADORA de tu nivel. Podrías\l"
-	.string "seguir siendo la LÍDER, solo que\l"
-	.string "adaptándote a los nuevos tiempos.$"
+	.string "But there's no need for you to react\n"
+	.string "like this either. We don't know any\l"
+	.string "TRAINER as skilled as you are. You could\l"
+	.string "still be the LEADER, just adapting to\l"
+	.string "the new times.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_3:
-.string "????: Eso no es posible, toda\n"
-	.string "causa conlleva una consecuencia, y\l"
-	.string "mis POKÉMON SINIESTRO requieren\l"
-	.string "del ambiente adecuado para seguir\l"
-	.string "creciendo. Sin eso, perderán parte\l"
-	.string "de lo que son, y no admitiré la\l"
-	.string "degradación de mi equipo solo por\l"
-	.string "una moda pasajera urbana hacia el\l"
-	.string "TIPO NORMAL. Que os vaya bien.$"
+	.string "????: That's not possible. Every cause\n"
+	.string "has a consequence, and my DARK-TYPE\l"
+	.string "POKÉMON require the right environment\l"
+	.string "to continue growing. Without that,\l"
+	.string "they'll lose part of what they are, and I\l"
+	.string "won't tolerate the degradation of my\l"
+	.string "team just for a passing urban trend\l"
+	.string "towards NORMAL-TYPE. Farewell.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_4:
-.string "V-vale...\n"
-	.string "Como quieras...$"
+.string "O-okay…\n"
+	.string "However you want…$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_5:
-.string "????: ¿Un aspirante?\n"
-	.string "Lo siento, pero llegas en mal\l"
-	.string "momento.$"
+.string "????: A challenger?\n"
+	.string "I'm sorry but this is not the\l"
+	.string "right moment.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_6:
-.string "En condiciones normales te diría\n"
-	.string "que mi nombre es VALERIA, soy\l"
-	.string "especialista en el TIPO SINIESTRO,\l"
-	.string "y demás, pero hace ya tiempo que\l"
-	.string "este GIMNASIO no se dedica a su\l"
-	.string "función principal: el combate\l"
-	.string "POKÉMON.$"
+	.string "Under normal circumstances, I would\n"
+	.string "tell you that my name is VALERIA. I\l"
+	.string "specialize in the DARK TYPE and so on.\l"
+	.string "But it's been a long time since this GYM\l"
+	.string "no longer focuses on its main function:\l"
+	.string "POKÉMON battles.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_7:
-.string "VALERIA: Por el momento, me\n"
-	.string "retiraré a un lugar apartado a\l"
-	.string "seguir entrenando antes de\l"
-	.string "decidir mi próximo destino.$"
+	.string "VALERIA: For now, I'll retire to a\n"
+	.string "secluded place to continue training\l"
+	.string "before deciding on my next destination.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_8:
-.string "¿Quieres combatir, a pesar de\n"
-	.string "todo, únicamente para poner a\l"
-	.string "prueba a tus POKÉMON frente a los\l"
-	.string "míos?$"
+	.string "Do you want to battle, regardless, just\n"
+	.string "to test your POKÉMON against mine?$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_9:
-.string "Interesante, pero insuficiente.\n"
-	.string "Tendrás que demostrar lo que\l"
-	.string "dices.$"
+	.string "Interesting, but not enough. You will\n"
+	.string "have to prove what you are saying.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_10:
-.string "Si tienes lo que hay que tener,\n"
-	.string "ten el valor de ir más allá de las\l"
-	.string "vías de tren. Ahí me encontrarás.$"
+	.string "If you really think you deserve it, have\n"
+	.string "the courage to go beyond the train\l"
+	.string "tracks. You'll find me around there.$"
 
 GoldenrodGym_Encuentro_Valeria_Move_1:
 walk_in_place_right
@@ -205,20 +199,17 @@ release
 end
 
 TrigalGym_Gym_Dude_Texto_1:
-.string "Estas chicas...\n"
-	.string "Están armando una buena por el\l"
-	.string "TIPO de este GIMNASIO, parece que\l"
-	.string "el SINIESTRO no gusta a la\l"
-	.string "mayoría.\l"
-	.string "¡Yo solo quiero ver buenos\l"
-	.string "combates!$"
+	.string "These girls… They're causing quite a\n"
+	.string "stir about the TYPE of this GYM; it\l"
+	.string "seems that DARK isn't favored by the\l"
+	.string "majority. I just want to see epic\l"
+	.string "battles!$"
 
 TrigalGym_Gym_Dude_Texto_2:
-.string "¡No creas que me lo perdí!\n"
-	.string "¡Vi como derrotabas a VALERIA!\l"
-	.string "¡Las chicas que vienen tendrán que\l"
-	.string "mejorar mucho para llegar a\l"
-	.string "vuestro nivel!$"
+	.string "Don't think I missed it! I saw you\n"
+	.string "defeat VALERIA! The girls who come\l"
+	.string "after her; will have to improve a lot to\l"
+	.string "reach your level!$"
 
 
 
@@ -238,13 +229,13 @@ end
 
 
 TrigalGym_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de CIUDAD TRIGAL: VALERIA\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "(¡Está vacío!)$"
+.string "GOLDENROD CITY POKÉMON\n"
+	.string "GYM LEADER: VALERIA\p"
+	.string "WINNER TRAINERS:\n"
+	.string "(It is empty!)$"
 
 TrigalGym_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de CIUDAD TRIGAL: VALERIA\p"
-	.string "ENTRENADORES GANADORES:\n"
+.string "GOLDENROD CITY POKÉMON\n"
+	.string "GYM LEADER: VALERIA\p"
+	.string "WINNER TRAINERS:\n"
 	.string "{PLAYER}$"

@@ -281,7 +281,7 @@ Aqua3_Combate_Aquiles_Texto_5:
 	.string "recklessness will make you the perfect\l"
 	.string "sparring partner for KYOGRE to regain\l"
 	.string "its form after being confined for so\l"
-	.string "long$"
+	.string "long.$"
 
 Aqua3_Combate_Aquiles_Texto_6:
 	.string "I've been through many and very\n"
@@ -397,7 +397,7 @@ Aqua3_Combate_Aquiles_Texto_24:
 	.string "them away forever.$"
 
 Aqua3_Combate_Aquiles_Texto_25:
-	.string "ARCHI and MAXIE thought they were\n"
+	.string "ARCHIE and MAXIE thought they were\n"
 	.string "chasing the most powerful POKÉMON in\l"
 	.string "this world. KYOGRE and GROUDON are\l"
 	.string "indeed very powerful. You've had a\l"

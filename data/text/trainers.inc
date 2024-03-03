@@ -13736,7 +13736,7 @@ NinjaBaseS1_Text_LadronPostBattle:
 
 
 NinjaBaseS1_Text_CalvoIntro:
-	.string "One more ROCKET?! A top ROCKET ADMIN.?\n"
+	.string "One more ROCKET?! A top ROCKET ADMIN?\n"
 	.string "It will be the same!$"
 
 
@@ -16107,7 +16107,7 @@ Aqua1_Aqua_3PostBattle:
 
 
 Aqua1_Text_Aqua_4Intro:
-	.string "TEAM ROCKET? ROCKET ADMIN.? Weren't\n"
+	.string "TEAM ROCKET? ROCKET ADMIN? Weren't\n"
 	.string "you finished?$"
 
 Aqua1_Text_Aqua_4Defeated:

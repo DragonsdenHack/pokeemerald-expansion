@@ -110,11 +110,10 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_10:
-.string "Desde aquí no, pero dicen que\n"
-.string "desde el último piso pueden verse\l"
-.string "tanto la TORRE CAMPANA DE CIUDAD\l"
-.string "IRIS como el FARO de CIUDAD\l"
-.string "OLIVO.$"
+	.string "Not from here, but it's said that from\n"
+	.string "the top floor you can see both the\l"
+	.string "ECRUTEAK CITY BELL TOWER and the\l"
+	.string "OLIVINE CITY LIGHTHOUSE.$"
 
 
 
@@ -126,10 +125,9 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_11:
-.string "Estamos trabajando duro para que\n"
-.string "pronto se pueda escuchar la radio\l"
-.string "en cualquier lugar.\l"
-.string "¡Sintoniza!$"
+	.string "We are working hard so that soon you\n"
+	.string "can listen to the radio anywhere. Tune\l"
+	.string "in!$"
 
 
 
@@ -141,11 +139,9 @@ release
 end
 
 Goldenrod_RadioTowerP3_Text_12:
-.string "Pocos saben que si sintonizas la\n"
-.string "radio a una determinada frecuencia\l"
-.string "dentro de las RUINAS ALFA…\l"
-.string "¡Escucharás ruidos muy\l"
-.string "extraños!$"
+	.string "I listened to the radio while I was at\n"
+	.string "the RUINS. I heard a strange broadcast\l"
+	.string "there.$"
 
 
 
@@ -161,7 +157,7 @@ msgbox GoldenrodRadioTowerP3Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP3Documento_Text_100:
-	.string "P3 PRODUCCIÓN$"
+	.string "4F PRODUCTION$"
 
 
 
@@ -170,7 +166,7 @@ msgbox GoldenrodRadioTowerP3Documento_Text_101, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP3Documento_Text_101:
-	.string "P3 ESTUDIO 2$"
+	.string "4F STUDIO 2$"
 
 RadioTower_EventScript_ReceiveElectrike::
     lock

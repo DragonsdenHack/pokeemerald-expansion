@@ -14,9 +14,9 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_2:
-.string "Las nanas de la radio pueden\n"
-.string "dormir a los POKÉMON.\l"
-.string "¡Y otras, despertarlos!$"
+	.string "Lullabies on the radio may make POKÉMON\n"
+	.string "sleep. And some others can wake them\l"
+	.string "up!$"
 
 
 
@@ -28,12 +28,10 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_3:
-.string "Dejaos ya de rollos…\n"
-.string "Yo vine aquí para elevar de forma\l"
-.string "ilegal los STATS BASE de mis\l"
-.string "POKÉMON manipulando las ondas de\l"
-.string "radio, no para editar canciones\l"
-.string "infantiles…$"
+	.string "Enough with the nonsense… I came here\n"
+	.string "to illegally boost my POKÉMON's base\l"
+	.string "stats by manipulating radio waves, not\l"
+	.string "to edit children's songs…$"
 
 
 
@@ -45,10 +43,10 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_4:
-.string "La brisa del mar hace muy\n"
-.string "agradable trabajar aquí, en SILPH\l"
-.string "el ambiente cargado de ciudad debe\l"
-.string "hacerse muy pesado.$"
+	.string "The sea breeze creates a pleasant\n"
+	.string "working environment here; I imagine the\l"
+	.string "urban atmosphere at SILPH must feel\l"
+	.string "rather suffocating.$"
 
 
 
@@ -60,14 +58,12 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_5:
-.string "Este edificio refleja la posición\n"
-.string "actual de TRIGAL como capital de\l"
-.string "JOHTO.\l"
-.string "Las comparaciones con el edificio\l"
-.string "de SILPH en AZAFRÁN son\l"
-.string "inevitables, aunque este último es\l"
-.string "más ancho, nuestra TORRE RADIO es\l"
-.string "más alta.$"
+	.string "This building reflects GOLDENROD's\n"
+	.string "current position as the capital of\l"
+	.string "JOHTO. The comparisons with the SILPH\l"
+	.string "building in SAFFRON are unavoidable,\l"
+	.string "although the latter is wider, our TORRE\l"
+	.string "RADIO is taller.$"
 
 
 
@@ -79,8 +75,8 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_6:
-.string "Las ondas de radio son el futuro,\n"
-.string "¡créeme!$"
+	.string "The radio waves are the future, trust\n"
+	.string "me!$"
 
 
 
@@ -92,8 +88,8 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_7:
-.string "Me gusta ROSA de la HORA POKÉMON,\n"
-.string "aunque solo conozca su voz.$"
+	.string "I love MARY, from POKÉMON TALK. I only\n"
+	.string "know what she sounds like, though.$"
 
 
 
@@ -105,13 +101,13 @@ release
 end
 
 Goldenrod_RadioTowerP1_Text_8:
-.string "En el CASINO venden POKÉMON muy\n"
-.string "buenos, pero hay un tipo en los\l"
-.string "subterráneos que vende POKÉMON de\l"
-.string "otras regiones, incluso\l"
-.string "PSEUDOLEGENDARIOS de allí. Creo\l"
-.string "que debería ir antes de que se\l"
-.string "agoten.$"
+	.string "They sell very good POKÉMON at the GAME\n"
+	.string "CORNER, but there's a guy in the\l"
+	.string "underground who sells POKÉMON from\l"
+	.string "other regions, including PSEUDO\l"
+	.string "LEGENDARY ones from there. I think I\l"
+	.string "should take a look there before they\l"
+	.string "run out.$"
 
 
 
@@ -126,7 +122,7 @@ msgbox GoldenrodRadioTowerP1Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP1Documento_Text_100:
-.string "P1 VENTAS$"
+.string "2F SALES$"
 
 
 
@@ -135,6 +131,5 @@ msgbox GoldenrodRadioTowerP1Documento_Text_101, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP1Documento_Text_101:
-.string "Radio POKÉMON.\n"
-	.string "A cualquier hora y en todas\l"
-	.string "partes.$"
+.string "Anywhere, Anytime \n"
+	.string "POKÉMON Radio$"

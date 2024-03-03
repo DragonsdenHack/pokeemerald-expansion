@@ -429,8 +429,8 @@ SilphS3_Bill_Batalla_Texto_1:
 	.string "POKÉMON, huh, {PLAYER}?$"
 
 SilphS3_Bill_Batalla_Texto_2:
-	.string "When you took me down at Silph to push\n"
-	.string "forward your plot against Lance's\l"
+	.string "When you took me down at SILPH to push\n"
+	.string "forward your plot against LANCE's\l"
 	.string "government, you really showed me the\l"
 	.string "ropes, I gotta say.$"
 
@@ -480,7 +480,7 @@ SilphS3_Bill_Batalla_Texto_8:
 	.string "POKÉMON, huh? Yeah, I remember!$"
 
 SilphS3_Bill_Batalla_Texto_9:
-	.string "Do you really think, Rocket, that if I\n"
+	.string "Do you really think, ROCKET, that if I\n"
 	.string "thought there was a chance of such a\l"
 	.string "Pokémon existing, I wouldn't be out\l"
 	.string "there looking for it? I've read the\l"

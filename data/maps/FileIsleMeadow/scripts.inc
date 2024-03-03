@@ -109,7 +109,7 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_Text_3.1:
-.string "¡¡{PLAYER} obtained 5 POKÉ BALL\n"
+.string "{PLAYER} obtained 5 POKÉ BALL\n"
 	.string "from ROCKET GRUNT!!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo::

@@ -9,18 +9,14 @@ release
 end
 
 Goldenrod_House1_Text_1:
-.string "Así que has conocido a mi nieto,\n"
-.string "BILL.\l"
-.string "Entre nosotros…\l"
-.string "Le encanta fardar de POKÉMON\l"
-.string "raros, como los EEVEE, cuando son\l"
-.string "lo más normal en CIUDAD IRIS, lo\l"
-.string "único que hace es viajar a lugares\l"
-.string "para traer lo exótico de ahí, y\l"
-.string "pagarle a quien le tiene que pagar\l"
-.string "para obtener los POKÉMON, ¡pero\l"
-.string "con eso basta en el mundo de hoy\l"
-.string "en día!$"
+	.string "So, you've met my grandson, BILL.\n"
+	.string "Confidentially… He loves to show off\l"
+	.string "rare POKÉMON, like EEVEE, when they're\l"
+	.string "quite common in ECRUTEAK CITY. All he\l"
+	.string "does is travel to places to bring back\l"
+	.string "the exotic from there and pay whoever\l"
+	.string "he needs to pay to get the POKÉMON, but\l"
+	.string "that's enough in today's world!$"
 
 
 
@@ -32,12 +28,12 @@ release
 end
 
 Goldenrod_House1_Text_2:
-.string "Hace 50 años TRIGAL, al igual que\n"
-.string "OLIVO, lo formaban 4 casas de\l"
-.string "humildes pescadores, aún recuerdo\l"
-.string "como los STARMIE se amontonaban en\l"
-.string "la orilla, hoy ver uno es casi\l"
-.string "imposible, incluso mar adentro…$"
+	.string "50 years ago, GOLDENROD, just like\n"
+	.string "OLIVINE, consisted of four houses of\l"
+	.string "humble fishermen. I still remember how\l"
+	.string "the STARMIE would gather along the\l"
+	.string "shore. Today, spotting one is nearly\l"
+	.string "impossible, even out at sea…$"
 
 
 
@@ -59,11 +55,10 @@ release
 end
 
 Goldenrod_House1_Text_5:
-.string "Estoy harta de la burocracia de\n"
-.string "esta ciudad, ¡un retiro al\l"
-.string "MT.MORTERO es lo que necesito!\l"
-.string "Todos los grandes maestros del\l"
-.string "TIPO LUCHA han ido a entrenar ahí.$"
+	.string "I'm fed up with the bureaucracy of this\n"
+	.string "city. A retreat to MT.MORTAR is what I\l"
+	.string "need! All the great FIGHT-TYPE masters\l"
+	.string "have gone there to train.$"
 
 
 
@@ -75,12 +70,12 @@ release
 end
 
 Goldenrod_House1_Text_6:
-.string "El ambiente que se respira por\n"
-.string "TRIGAL es cada vez más\l"
-.string "competitivo. Antes no era así, y\l"
-.string "había muchos mejores\l"
-.string "entrenadores que los de ahora,\l"
-.string "como la LÍDER que quieren echar…$"
+	.string "The atmosphere in GOLDENROD is growing\n"
+	.string "more competitive by the day. It wasn't\l"
+	.string "like this before, and there were many\l"
+	.string "superior trainers compared to those of\l"
+	.string "today, such as the LEADER they want to\l"
+	.string "replace…$"
 
 
 
@@ -92,8 +87,8 @@ release
 end
 
 Goldenrod_House1_Text_7:
-.string "Lalala lalalala.\n"
-.string "¡Échale mucha agua, cariño!$"
+.string "La-la-land, la-la-land.\n"
+.string "Pour plenty of water, dear!$"
 
 
 
@@ -105,11 +100,9 @@ release
 end
 
 Goldenrod_House1_Text_8:
-.string "Cada vez pueden verse menos\n"
-.string "SUDOWOODO salvajes, se esconden en\l"
-.string "lo profundo de la vegetación de\l"
-.string "JOHTO.\l"
-.string "¿Sabes por qué?\l"
-.string "¡Nunca falta el gracioso que se\l"
-.string "pone a regarlos como si fueran un\l"
-.string "árbol!$"
+	.string "Wild SUDOWOODO are becoming\n"
+	.string "increasingly rare, hiding deep within\l"
+	.string "JOHTO's vegetation. Do you know why?\l"
+	.string "There's never a shortage of funny folks\l"
+	.string "who start watering them as if they were\l"
+	.string "trees!$"

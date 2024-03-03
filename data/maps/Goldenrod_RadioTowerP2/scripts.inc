@@ -9,9 +9,8 @@ release
 end
 
 Goldenrod_RadioTowerP2_Text_1:
-.string "Nuestro trabajo va a afectar hasta\n"
-.string "al color de los POKÉMON, ¡tiempo\l"
-.string "al tiempo!$"
+	.string "Our work will even affect the color of\n"
+	.string "POKÉMON, mark my words!$"
 
 
 
@@ -23,10 +22,9 @@ release
 end
 
 Goldenrod_RadioTowerP2_Text_2:
-.string "TEDDIURSA es mono, pero no hay\n"
-.string "nada tan tierno como el MEOWTH de\l"
-.string "ROSA.\l"
-.string "¡Meowth!$"
+	.string "TEDDIURSA is so cute, but there is\n"
+	.string "nothing cuter than MARY'S MEOWTH.\l"
+	.string "Meowth!$"
 
 
 
@@ -38,10 +36,9 @@ release
 end
 
 Goldenrod_RadioTowerP2_Text_3:
-.string "A la radio aún le falta para\n"
-.string "hacerse escuchar por todo JOHTO y\l"
-.string "KANTO, ¡pero ya verás que lo\l"
-.string "conseguiremos!$"
+	.string "The radio still has a long way to go to\n"
+	.string "be heard throughout JOHTO and KANTO,\l"
+	.string "but mark my words, we'll do it!$"
 
 
 
@@ -58,10 +55,10 @@ release
 end
 
 Goldenrod_RadioTowerP2_Text_5:
-.string "Oí que mi prima ocupaba un cargo\n"
-.string "muy importante en ISLA INTA,\l"
-.string "aunque llevo tiempo sin saber de\l"
-.string "ella…$"
+	.string "I heard that my cousin held a very\n"
+	.string "important position on CHRONO ISLAND,\l"
+	.string "although I haven't heard from her in a\l"
+	.string "while…$"
 
 
 
@@ -78,12 +75,12 @@ release
 end
 
 Goldenrod_RadioTowerP2_Text_7:
-.string "Gracias al MAGNETOTREN podremos\n"
-.string "atravesar JOHTO y llegar al centro\l"
-.string "de KANTO en solo 15 minutos.\l"
-.string "¡Imagínate!\l"
-.string "¡De la TORRE RADIO a la SEDE SILPH\l"
-.string "en un cuarto de hora!$"
+	.string "Thanks to the MAGNET TRAIN, we'll be\n"
+	.string "able to cross JOHTO and reach the\l"
+	.string "center of KANTO in just 15 minutes.\l"
+	.string "Imagine it! From the RADIO TOWER to the\l"
+	.string "SILPH CO. headquarters in a quarter of\l"
+	.string "an hour!$"
 
 
 
@@ -100,9 +97,9 @@ release
 end
 
 Goldenrod_RadioTowerP2_Text_9:
-.string "Según mis estimaciones, en un par\n"
-.string "de años todos en JOHTO contarán\l"
-.string "con una radio en sus casas.$"
+	.string "According to my estimates, in a couple\n"
+	.string "of years, everyone in JOHTO will have a\l"
+	.string "radio in their homes.$"
 
 
 RadioTowerP2_10::
@@ -113,8 +110,8 @@ release
 end
 
 Goldenrod_RadioTowerP2_Text_10:
-.string "NARDO es un DJ fabuloso.\n"
-.string "¡Su dulce voz me derrite!$"
+.string "BEN is a fabulous DJ.\n"
+.string "His sweet voice makes me melt!$"
 
 
 
@@ -136,4 +133,4 @@ msgbox GoldenrodRadioTowerP2Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodRadioTowerP2Documento_Text_100:
-	.string "P2 PERSONAL$"
+	.string "3F PERSONNEL$"
