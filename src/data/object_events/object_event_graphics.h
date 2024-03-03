@@ -664,6 +664,7 @@ const u16 gObjectEventPic_Zinnia[] = INCBIN_U16("graphics/object_events/pics/peo
 const u16 gObjectEventic_DragonSagrado[] = INCBIN_U16("graphics/object_events/pics/people/dragonsagrado.4bpp");
 const u16 gObjectEventPic_ReyUnown[] = INCBIN_U16("graphics/object_events/pics/people/kingunown.4bpp");
 const u16 gObjectEventPic_Miguel[] = INCBIN_U16("graphics/object_events/pics/people/miguel.4bpp");
+const u16 gObjectEventPic_Regigigas[] = INCBIN_U16("graphics/object_events/pics/people/regigigas.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -805,3 +806,5 @@ const u16 gObjectEventPal_MediumJohto[] = INCBIN_U16("graphics/object_events/pal
 const u16 gObjectEventPal_Miguel[] = INCBIN_U16("graphics/object_events/palettes/miguel.gbapal");
 
 const u16 gObjectEventPal_Pokemaniacojohto[] = INCBIN_U16("graphics/object_events/palettes/pokemaniacojohto.gbapal");
+
+const u16 gObjectEventPal_Regigigas[] = INCBIN_U16("graphics/object_events/palettes/regigigas.gbapal");

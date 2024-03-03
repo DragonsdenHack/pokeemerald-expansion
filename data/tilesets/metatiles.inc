@@ -1014,3 +1014,11 @@ gMetatiles_burned_tower::
 	.align 1
 gMetatileAttributes_burned_tower::
 	.incbin "data/tilesets/secondary/burned_tower/metatile_attributes.bin"
+
+	.align 1
+gMetatiles_SnowPoint_City::
+	.incbin "data/tilesets/secondary/snowpoint_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_SnowPoint_City::
+	.incbin "data/tilesets/secondary/snowpoint_city/metatile_attributes.bin"

@@ -4082,6 +4082,12 @@ static const struct SpriteFrameImage sPicTable_DragonSagrado[] = {
     overworld_frame(gObjectEventic_DragonSagrado, 8, 8, 8),
 };
 
+static const struct SpriteFrameImage sPicTable_Regigigas[] = {
+    overworld_frame(gObjectEventPic_Regigigas, 8, 8, 0),
+    overworld_frame(gObjectEventPic_Regigigas, 8, 8, 1),
+    overworld_frame(gObjectEventPic_Regigigas, 8, 8, 2),
+};
+
 static const struct SpriteFrameImage sPicTable_ReyUnown[] = {
     overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 0),
     overworld_frame(gObjectEventPic_ReyUnown, 4, 4, 1),

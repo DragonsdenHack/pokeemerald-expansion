@@ -1220,8 +1220,8 @@
       "height": 9,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_bell_tower",
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Contest",
       "border_filepath": "data/layouts/Route104_MrBrineysHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route104_MrBrineysHouse/map.bin"
     },

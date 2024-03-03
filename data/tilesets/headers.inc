@@ -1545,3 +1545,14 @@ gTileset_burned_tower::
 	.4byte gMetatiles_burned_tower
 	.4byte gMetatileAttributes_burned_tower
 	.4byte NULL
+
+	.align 2
+gTileset_SnowPoint_City::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_SnowPoint_City
+	.4byte gTilesetPalettes_SnowPoint_City
+	.4byte gMetatiles_SnowPoint_City
+	.4byte gMetatileAttributes_SnowPoint_City
+	.4byte NULL

@@ -112,12 +112,6 @@
 #define METATILE_BrendansMaysHouse_MovingBox_Closed  0x268
 #define METATILE_BrendansMaysHouse_MovingBox_Open    0x270
 
-// gTileset_Building
-#define METATILE_Building_PC_Off  0x062
-#define METATILE_Building_PC_On   0x063
-#define METATILE_Building_TV_Off  0x035
-#define METATILE_Building_TV_On   0x061
-
 // gTileset_Cave
 #define METATILE_Cave_CrackedFloor                       0x22F
 #define METATILE_Cave_CrackedFloor_Hole                  0x206
@@ -158,8 +152,6 @@
 // gTileset_Contest
 #define METATILE_Contest_CounterFlap_Bottom  0x2D9
 #define METATILE_Contest_CounterFlap_Top     0x2D1
-#define METATILE_Contest_FloorShadow         0x261
-#define METATILE_Contest_WallShadow          0x221
 
 // gTileset_DepartmentStore
 #define METATILE_DepartmentStore_ElevatorDoor  0x28D

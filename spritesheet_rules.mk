@@ -902,6 +902,9 @@ $(OBJEVENTGFXDIR)/people/kingunown.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/dragonsagrado.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 8 -mheight 8	
 
+$(OBJEVENTGFXDIR)/people/regigigas.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 8 -mheight 8
+
 $(OBJEVENTGFXDIR)/people/rich_boy2.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 2 -mheight 4
 
