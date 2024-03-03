@@ -1392,6 +1392,7 @@
 #define MAP_DEVON_S8                                     (44 | (54 << 8))
 #define MAP_DEVON_S9                                     (45 | (54 << 8))
 #define MAP_DEVON_S10                                    (46 | (54 << 8))
+#define MAP_SNOWPOINT_CITY                               (47 | (54 << 8))
 
 #define MAP_GROUPS_COUNT 55
 

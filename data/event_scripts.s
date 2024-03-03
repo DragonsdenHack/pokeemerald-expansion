@@ -2824,3 +2824,5 @@ Text_EVChecker_3:
 	.include "data/maps/NeoFuchsiaGym/scripts.inc"
 
 	.include "data/maps/NeoRoute19_Path/scripts.inc"
+
+	.include "data/maps/SnowpointCity/scripts.inc"

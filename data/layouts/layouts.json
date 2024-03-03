@@ -14424,6 +14424,18 @@
       "secondary_tileset": "gTileset_generic_building_2",
       "border_filepath": "data/layouts/NeoRoute19_Path/border.bin",
       "blockdata_filepath": "data/layouts/NeoRoute19_Path/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_CITY",
+      "name": "SnowpointCity_Layout",
+      "width": 34,
+      "height": 68,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_SnowPoint_City",
+      "border_filepath": "data/layouts/SnowpointCity/border.bin",
+      "blockdata_filepath": "data/layouts/SnowpointCity/map.bin"
     }
   ]
 }
