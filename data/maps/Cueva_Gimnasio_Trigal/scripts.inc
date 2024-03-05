@@ -57,18 +57,18 @@ release
 end
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11.1:
-.string "Y por cierto, toma esto también.$"
+.string "And by the way, take this.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11.2:
-.string "¡¡{PLAYER} obtuvo la MT59 AFILARGARRAS\n"
-	.string "de manos de VALERIA!!$"
+	.string "{PLAYER} obtained the TM59 HONE\n"
+	.string "CLAWS from VALERIA!!$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11.3:
-.string "Con AFILARGARRAS no solo aumentarás el\n"
-	.string "ATAQUE del POKÉMON, también su\l"
-	.string "PRECISION. ¡Va genial si llevas\l"
-	.string "movimientos como ROCA AFILADA, COLA\l"
-	.string "FÉRREA O CARGA DRAGÓN!$"
+	.string "With SHARPEN, not only will you increase\n"
+	.string "the POKÉMON's ATTACK, but also its\l"
+	.string "ACCURACY. It's great if you have moves\l"
+	.string "like ROCK SLIDE, IRON TAIL, or DRAGON\l"
+	.string "RUSH!$"
 
 
 
@@ -82,66 +82,64 @@ emote_exclamation_mark
 step_end
 
 Cueva_Gimnasio_Trigal_Combate_Texto_1:
-.string "VALERIA: Oh, vaya, me has\n"
-	.string "sorprendido. No esperaba para nada\l"
-	.string "que estuvieras dispuesto a venir\l"
-	.string "hasta aquí solo por un combate.$"
+	.string "VALERIA: Oh, wow, you've surprised me. I\n"
+	.string "never expected you'd be willing to come\l"
+	.string "all the way here just for a battle.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_2:
-.string "Supongo que me he acostumbrado a\n"
-	.string "estar rodeada de gente a la que le\l"
-	.string "preocupa más el look de su POKÉMON\l"
-	.string "que el propio arte de combatir.\l"
-	.string "Ahora que lo veo en perspectiva,\l"
-	.string "demasiado he aguantado en TRIGAL.$"
+	.string "I guess I've gotten used to being\n"
+	.string "surrounded by people who care more\l"
+	.string "about their POKÉMON's appearance than\l"
+	.string "the art of battling itself. Now that I\l"
+	.string "see it in perspective, I've endured too\l"
+	.string "much in GOLDENROD.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_3:
-.string "Me alegra saber que aún existen\n"
-	.string "ENTRENADORES jóvenes con\l"
-	.string "inquietudes, como tú. Cuanto más\l"
-	.string "entreno, y más viajo, más me doy\l"
-	.string "cuenta de lo poco que sé, y de\l"
-	.string "todo el margen de mejora que\l"
-	.string "ofrece este vasto mundo.$"
+	.string "I'm glad to know that there are still\n"
+	.string "young TRAINERS with aspirations, like\l"
+	.string "you. The more I train and travel, the\l"
+	.string "more I realize how little I know and how\l"
+	.string "much room for improvement this vast\l"
+	.string "world offers.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_4:
 .string "...$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_5:
-.string "Has venido por un combate\n"
-	.string "POKÉMON y es lo que tendrás.$"
+	.string "You came for a POKÉMON battle and you\n"
+	.string "will have it.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_6:
-.string "Daré todo lo que tengo junto con\n"
-	.string "los compañeros que me han ido\l"
-	.string "acompañando con cada nuevo viaje.\l"
-	.string "¡{PLAYER}!\l"
-	.string "¡Espero que estés a la altura!$"
+	.string "I'll do my best along with the\n"
+	.string "companions who have accompanied me on\l"
+	.string "each new journey. {PLAYER}! I hope\l"
+	.string "you're up to the challenge!$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_7:
-.string "¿Mi fiel KINGDRA fue derrotado?$"
+.string "Was my loyal KINGDRA defeated?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_8:
-.string "Oh...\n"
-	.string "Me has dejado en shock, creí que\l"
-	.string "nadie podía igualar la potencia y\l"
-	.string "explosividad de mi KINGDRA. Cuando\l"
-	.string "se transformó una última vez\l"
-	.string "después de toda una vida junto a\l"
-	.string "él y vi la tremenda energía que\l"
-	.string "desplegaba, pensé que era\l"
-	.string "insuperable. Me has mostrado que\l"
-	.string "no.$"
+	.string "Oh… You've stunned me, I thought\n"
+	.string "nobody could match the power and\l"
+	.string "explosiveness of my KINGDRA. When it\l"
+	.string "transformed one last time after a\l"
+	.string "lifetime together, and I witnessed the\l"
+	.string "tremendous energy it unleashed, I\l"
+	.string "thought it was unbeatable. You've\l"
+	.string "proven me wrong.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9:
-.string "Incluso ese gran maestro de CIUDAD\n"
-	.string "ENDRINO quedó impresionado, aunque\l"
-	.string "decepcionado al ver que perdía el\l"
-	.string "DRAGÓN por el SINIESTRO. Su nieta\l"
-	.string "parecía muy celosa por mi POKÉMON.\l"
-	.string "DÉBORA creo que se llamaba.\l"
-	.string "He aprendido mucho con\l"
-	.string "este combate.$"
+	.string "Even that elder master from BLACKTHORN\n"
+	.string "CITY was impressed, though\l"
+	.string "disappointed to see that KINGDRA lost\l"
+	.string "the DRAGON TYPE in exchange for the\l"
+	.string "DARK TYPE. His granddaughter seemed\l"
+	.string "very jealous of my POKÉMON. I think her\l"
+	.string "name was CLAIR. I've learned a lot from\l"
+	.string "this battle. I want to thank you; I\l"
+	.string "can't remember the last time I had such\l"
+	.string "a rival in front of me. This POKÉMON is\l"
+	.string "for you.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
 	.string "Toma, aquí tienes la\n"
@@ -154,24 +152,22 @@ Cueva_Gimnasio_Trigal_Combate_Texto_9.2:
 	.string "Este POKÉMON es para ti.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_10:
-.string "¡¡OBTUVISTE UN VULLABY AL NV:25!!$"
+.string "YOU OBTAINED A LV.25 VULLABY!!$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_11:
-.string "Olvídate del estereotipo de TIPO\n"
-	.string "VOLADOR frágil y vulnerable,\l"
-	.string "VULLABY tiene el potencial de ser\l"
-	.string "un muro defensivo extraordinario.\l"
-	.string "Lo mejor es que puede aprender\l"
-	.string "JUEGO SUCIO para usar el ATAQUE\l"
-	.string "FÍSICO rival sin tener que mirar\l"
-	.string "el suyo.\l"
-	.string "¿No es genial?$"
+	.string "Disregard the stereotype of the weak\n"
+	.string "and susceptible FLYING TYPE; VULLABY\l"
+	.string "has the potential to become an\l"
+	.string "exceptional defensive wall. What's more,\l"
+	.string "it can learn FOUL PLAY to utilize the\l"
+	.string "opponent's PHYSICAL ATTACK against\l"
+	.string "them without needing to rely on its own.\l"
+	.string "It is great, isn't it?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_12:
-.string "Me gusta este lugar, por el\n"
-	.string "momento me da la paz que\l"
-	.string "necesito. Recargaré energías aquí\l"
-	.string "antes de emprender un nuevo viaje.\l"
-	.string "¡Encantada de haberte conocido,\l"
-	.string "{PLAYER}!$"
+	.string "I'm enjoying this place for now, it gives\n"
+	.string "me the peace I'm looking for. I'll\l"
+	.string "recharge my energy here before\l"
+	.string "starting a new journey. Pleasure to\l"
+	.string "meet you, {PLAYER}!$"
 

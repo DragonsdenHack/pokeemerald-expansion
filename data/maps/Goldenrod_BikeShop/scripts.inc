@@ -9,11 +9,9 @@ release
 end
 
 Goldenrod_bikeshop_Text_1:
-.string "¿Bicis?\n"
-.string "Lo siento, caballero, acabamos\l"
-.string "de abrir y andamos escasos de\l"
-.string "oferta. Por ahora solo vendemos\l"
-.string "motocicletas.$"
+	.string "Bikes? I'm sorry sir, we just opened and\n"
+	.string "we don't have a lot of inventory. For now\l"
+	.string "we only sell motorcycles.$"
 
 
 
@@ -25,8 +23,8 @@ release
 end
 
 Goldenrod_bikeshop_Text_2:
-.string "Espero que abran un CAMINO BICIS\n"
-.string "también en JOHTO, ¿te imaginas?$"
+	.string "I hope they open a CYCLING ROAD in\n"
+	.string "JOHTO, can you imagine?$"
 
 
 
@@ -38,7 +36,5 @@ release
 end
 
 Goldenrod_bikeshop_Text_3:
-.string "¡Jah!\n"
-.string "¡De aquí directo a ISLA TERA a\l"
-.string "causar disturbios!\l"
-.string "¡Claro que sí!$"
+	.string "Jah! From here straight to KIN ISLAND\n"
+	.string "to cause trouble! Of course!$"

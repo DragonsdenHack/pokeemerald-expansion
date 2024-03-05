@@ -41,11 +41,11 @@ release
 end
 
 Goldenrod_GameCorner_Text_5:
-.string "Si no tienes un MONEDERO para\n"
-.string "jugar y comprar aquí, siempre\l"
-.string "puedes ir al SUBTERRÁNEO de la\l"
-.string "ciudad. Por allí siempre es fácil\l"
-.string "pillar un MONEDERO.$"
+	.string "If you don't have a COIN CASE to play\n"
+	.string "and shop here, you can always go to the\l"
+	.string "city's UNDERGROUND. It's always easy to\l"
+	.string "get a COIN CASE there.$"
+
 
 
 
@@ -57,11 +57,10 @@ release
 end
 
 Goldenrod_GameCorner_Text_6:
-.string "A pesar de que sé que todas las\n"
-.string "probabilidades conducen a que a\l"
-.string "largo plazo pierda,\l"
-.string "¡no puedo dejar de jugar, es la\l"
-.string "ilusión del control!$"
+	.string "Even though I know all the\n"
+	.string "probabilities lead to me losing in the\l"
+	.string "long run, I can't stop playing. It's the\l"
+	.string "illusion of control!$"
 
 
 
@@ -73,11 +72,9 @@ release
 end
 
 Goldenrod_GameCorner_Text_7:
-.string "Maldición…\n"
-.string "CYNDAQUIL no para de subir su\l"
-.string "valor en FICHAS, creo que es\l"
-.string "porque cada vez quedan menos en\l"
-.string "estado salvaje.$"
+	.string "Damn… CYNDAQUIL keeps increasing its\n"
+	.string "value in COINS, I think it's because\l"
+	.string "there are fewer and fewer in the wild.$"
 
 
 
@@ -89,9 +86,8 @@ release
 end
 
 Goldenrod_GameCorner_Text_8:
-.string "Vivir es un juego.\n"
-.string "¡Y yo jugaré hasta que no pueda\l"
-.string "más!$"
+.string "Living is a game.\n"
+.string "And I'll play until I can't anymore!$"
 
 
 
@@ -104,11 +100,10 @@ release
 end
 
 Goldenrod_GameCorner_Text_9:
-.string "Poco me importa ganar o perder\n"
-.string "aquí, voy tan sobrado de dinero\l"
-.string "que realmente ya nada me importa.\l"
-.string "¡Puedo comprarlo todo, y a la vez\l"
-.string "nada!$"
+	.string "I don't care if I win or lose, I have so\n"
+	.string "much money that I don't care anymore. I\l"
+	.string "can buy everything, but nothing at the\l"
+	.string "same time!$"
 
 Goldenrod_Tienda_Items::
 lock
@@ -129,14 +124,14 @@ release
 end
 
 Goldenrod_Underground_Items_Texto_1:
-.string "Canjea tus FICHAS por premios.$"
+.string "Redeem your COINS for prizes.$"
 
 Goldenrod_Underground_Items_Texto_2:
-.string "¿Qué premio quieres?$"
+.string "What prize do you want?$"
 
 EventScript_Lupa_Texto_1:
-.string "¿Quieres la LUPA?\n"
-	.string "Costará 800 FICHAS.$"
+.string "Do you want the WIDE LENS?\n"
+	.string "It will cost 800 COINS.$"
 
 EventScript_Lupa::
 lock

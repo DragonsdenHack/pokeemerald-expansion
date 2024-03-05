@@ -14,10 +14,9 @@ release
 end
 
 Route53_Text_1:
-.string "AZAFRÁN está absurdamente lejos,\n"
-.string "la peor parte será cuando tengamos\l"
-.string "que atravesar las montañas de RUTA\l"
-.string "26 y 27.$"
+	.string "SAFFRON CITY is ridiculously far away,\n"
+	.string "the worst part will be when we have to\l"
+	.string "cross the mountains of ROUTE 26 and 27.$"
 
 
 
@@ -34,11 +33,10 @@ release
 end
 
 Route53_Text_3:
-.string "No es muy común ver a gente de tu\n"
-.string "estatus bajar a la arena para\l"
-.string "mancharse los pantalones como uno\l"
-.string "más.\l"
-.string "¡Esa es la actitud!$"
+	.string "It's not very common to see people of\n"
+	.string "your status step into the arena to get\l"
+	.string "their pants dirty like everyone else.\l"
+	.string "That's the attitude!$"
 
 
 
@@ -50,13 +48,12 @@ release
 end
 
 Route53_Text_4:
-.string "El MAGNETOTREN supondrá un antes y\n"
-.string "un después en la conversión de\l"
-.string "JOHTO en potencia tecnológica,\l"
-.string "pero para que ocurra, gente\l"
-.string "como yo tiene que pringar bajo\l"
-.string "este sol abrasador.\l"
-.string "¡Todo tiene un precio!$"
+	.string "The MAGNET TRAIN will represent a\n"
+	.string "turning point in JOHTO's transformation\l"
+	.string "into a technological powerhouse, but\l"
+	.string "for it to happen, people like me have to\l"
+	.string "toil under this blazing sun. Everything\l"
+	.string "comes at a cost!$"
 
 
 
@@ -68,11 +65,9 @@ release
 end
 
 Route53_Text_5:
-.string "¡Que TRIGAL y AZAFRÁN acaben\n"
-.string "unidas por el MAGNETOTREN es\l"
-.string "inevitable!\l"
-.string "¡En dos años todo estará\l"
-.string "dispuesto!$"
+	.string "The union of GOLDENROD and SAFFRON by\n"
+	.string "the MAGNET TRAIN is inevitable!\l"
+	.string "Everything will be ready in two years!$"
 
 
 
@@ -88,9 +83,8 @@ release
 end
 
 Route53_7_Texto_1:
-.string "¡Aún queda mucho trabajo antes de\n"
-	.string "llegar a AZAFRÁN!\l"
-	.string "¡Vamos, seguid!$"
+	.string "There is still a lot of work to do to\n"
+	.string "reach SAFFRON! Come on, keep working!$"
 
 
 Route53_8::
@@ -100,10 +94,9 @@ release
 end
 
 Route53_8_Texto_1:
-.string "Este jefe...\n"
-	.string "Si él también se pusiera a picar\l"
-	.string "piedra con nosotros quizás iríamos\l"
-	.string "más rápido...$"
+	.string "That boss… If he also started chipping\n"
+	.string "away at the stone with us, perhaps we'd\l"
+	.string "go faster…$"
 
 
 Route53_9::
@@ -113,11 +106,11 @@ release
 end
 
 Route53_9_Texto_1:
-.string "Un...dos...\n"
-	.string "Un...dos...\l"
-	.string "Paciencia y constancia, agachas la\l"
-	.string "cabeza, te pones a cavar y zas!\l"
-	.string "¡AZAFRÁN a la vista!$"
+.string "One… two…\n"
+	.string "One… two…\l"
+	.string "Patience and perseverance, you lower\l"
+	.string "your head, start digging, and boom!\l"
+	.string "SAFFRON in sight!$"
 
 
 Route53_EventScript_Obrero::

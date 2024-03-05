@@ -118,51 +118,51 @@ walk_in_place_right
 step_end
 
 MisionTrigal4_Primer_Encuentro_Texto_1:
-.string "Como te decía, mis colegas de KANTO\n"
-	.string "dicen que en la MANSIÓN CANELA hay\l"
-	.string "muchos POKÉM…$"
+	.string "As I was saying, my colleagues from\n"
+	.string "KANTO say that in the CINNABAR\l"
+	.string "MANSION, there are many POKÉM…$"
 
 MisionTrigal4_Primer_Encuentro_Texto_2:
-.string "Perdona, ¿te has perdido?$"
+.string "Excuse me, have you got lost?$"
 
 MisionTrigal4_Primer_Encuentro_Texto_3:
-.string "Ya sé que no te has perdido, nadie llega\n"
-	.string "hasta aquí solo echando a andar.\l"
-	.string "Necesitas un buen susto para aprender\l"
-	.string "de una vez a no meterte en lugares\l"
-	.string "ajenos.$"
+	.string "I know you haven't gotten lost; nobody\n"
+	.string "ends up here just by walking around.\l"
+	.string "You need a good jolt to finally\l"
+	.string "understand not to poke your nose into\l"
+	.string "other people's business.$"
 
 MisionTrigal4_Primer_Encuentro_Texto_4:
-.string "¡Agh, menudo susto!$"
+	.string "Agh, so scary!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_5:
-.string "Se supone que tú eres quien nos compra\n"
-	.string "los POKÉMON, ¡maldito!$"
+	.string "You are supposed to be the one who\n"
+	.string "buys us the POKÉMON, damn it!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_6:
-.string "Creí que había un acuerdo entre los\n"
-	.string "altos cargos de la TORRE RADIO. ¿No\l"
-	.string "eres uno de ellos? ¡¿Entonces quién\l"
-	.string "eres tú?!$"
+	.string "I thought there was an agreement among\n"
+	.string "the high-ranking officials of the RADIO\l"
+	.string "TOWER. Aren't you one of them? Then who\l"
+	.string "are you?!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_7:
-.string "¡Qué poder!$"
+.string "So strong!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_8:
-.string "¿¡Tú estás por encima de todos esos\n"
-	.string "cargos de TORRE RADIO!?$"
+	.string "You're above all those charges at the\n"
+	.string "RADIO TOWER?!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_9:
-.string "¡Ya es suficiente! Por muy poderoso e\n"
-	.string "importante que seas, llevas 2 combates\l"
-	.string "seguidos. ¡Te aplastaré antes de que\l"
-	.string "puedas huir!$"
+	.string "That's enough! No matter how mighty and\n"
+	.string "significant you may be, you've fought 2\l"
+	.string "battles consecutively. I'll crush you\l"
+	.string "before you can flee!$"
 
 MisionTrigal4_Primer_Encuentro_Texto_10:
-.string "Yo he sido aplastado…$"
+.string "I got smashed…$"
 
 MisionTrigal4_Primer_Encuentro_Texto_11:
-.string "Esto no le va a gustar al JEFE…$"
+.string "The BOSS won't like this…$"
 
 
 MisionTrigal4_Segundo_Encuentro_Arriba::
@@ -252,20 +252,22 @@ walk_in_place_left
 step_end
 
 MisionTrigal4_Segundo_Encuentro_Texto_1:
-.string "Según nuestras últimas estimaciones,\n"
-	.string "facturaremos un 28% más este mes que\l"
-	.string "el anterior. Todo va rodado, hoh…$"
+	.string "According to our latest estimates, we'll\n"
+	.string "invoice 28% more this month than the\l"
+	.string "previous one. Everything is going\l"
+	.string "smoothly, hoh…$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_2:
-.string "¿Qué se supone que haces aquí?$"
+.string "What the hell are you supposed\l"
+.string "to be doing here?$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_3:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_4:
-.string "Ya veo, esos incompetentes no son\n"
-	.string "capaces de hacerse cargo de un\l"
-	.string "problema cuando aparece.$"
+	.string "I see, those incompetents aren't\n"
+	.string "capable of handling a problem when it\l"
+	.string "appears.$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_5:
 .string "No te preocupes, a diferencia suya, yo\n"
