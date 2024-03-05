@@ -2826,3 +2826,11 @@ Text_EVChecker_3:
 	.include "data/maps/NeoRoute19_Path/scripts.inc"
 
 	.include "data/maps/SnowpointCity/scripts.inc"
+
+	.include "data/maps/Snowpoint_PkmnCenter/scripts.inc"
+
+	.include "data/maps/Snowpoint_Shop/scripts.inc"
+
+	.include "data/maps/Snowpoint_House_1/scripts.inc"
+
+	.include "data/maps/Snowpoint_House_2/scripts.inc"

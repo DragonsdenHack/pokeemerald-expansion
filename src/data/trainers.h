@@ -19473,10 +19473,10 @@ const struct Trainer gTrainers[] = {
     [TRAINER_TRAINER_543] =
     {
         .partyFlags = 0,
-        .trainerClass = TRAINER_CLASS_BLACK_BELT,
-        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_INTENSE,
-        .trainerPic = TRAINER_PIC_BLACK_BELT,
-        .trainerName = _("ATSUSHI"),
+        .trainerClass = TRAINER_CLASS_HEX_MANIAC,
+        .encounterMusic_gender = TRAINER_ENCOUNTER_MUSIC_SUSPICIOUS,
+        .trainerPic = TRAINER_PIC_HEX_MANIAC,
+        .trainerName = _("VALERIA"),
         .items = {},
         .doubleBattle = FALSE,
         .aiFlags = 0,

@@ -41,11 +41,10 @@ release
 end
 
 Goldenrod_GameCorner_Text_5:
-.string "Si no tienes un MONEDERO para\n"
-.string "jugar y comprar aquí, siempre\l"
-.string "puedes ir al SUBTERRÁNEO de la\l"
-.string "ciudad. Por allí siempre es fácil\l"
-.string "pillar un MONEDERO.$"
+	.string "If you don't have a COIN CASE to play\n"
+	.string "and shop here, you can always go to the\l"
+	.string "city's UNDERGROUND. It's always easy to\l"
+	.string "get a COIN CASE there.$"
 
 
 
@@ -57,11 +56,10 @@ release
 end
 
 Goldenrod_GameCorner_Text_6:
-.string "A pesar de que sé que todas las\n"
-.string "probabilidades conducen a que a\l"
-.string "largo plazo pierda,\l"
-.string "¡no puedo dejar de jugar, es la\l"
-.string "ilusión del control!$"
+	.string "Even though I know all the\n"
+	.string "probabilities lead to me losing in the\l"
+	.string "long run, I can't stop playing. It's the\l"
+	.string "illusion of control!$"
 
 
 

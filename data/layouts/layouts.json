@@ -14436,6 +14436,54 @@
       "secondary_tileset": "gTileset_SnowPoint_City",
       "border_filepath": "data/layouts/SnowpointCity/border.bin",
       "blockdata_filepath": "data/layouts/SnowpointCity/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_PKMN_CENTER",
+      "name": "Snowpoint_PkmnCenter_Layout",
+      "width": 15,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Snowpoint_PkmnCenter/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_PkmnCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_SHOP",
+      "name": "Snowpoint_Shop_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_mart_fr",
+      "border_filepath": "data/layouts/Snowpoint_Shop/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_Shop/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_HOUSE_1",
+      "name": "Snowpoint_House_1_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_SnowPoint_City",
+      "border_filepath": "data/layouts/Snowpoint_House_1/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_House_1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_HOUSE_2",
+      "name": "Snowpoint_House_2_Layout",
+      "width": 11,
+      "height": 9,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_SnowPoint_City",
+      "border_filepath": "data/layouts/Snowpoint_House_2/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_House_2/map.bin"
     }
   ]
 }

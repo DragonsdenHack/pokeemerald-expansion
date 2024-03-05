@@ -35747,18 +35747,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER542[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER543[] = {
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 89,
+    .species = SPECIES_MISDREAVUS,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 91,
+    .species = SPECIES_SABLEYE,
     },
     {
     .iv = 0,
     .lvl = 93,
-    .species = SPECIES_MACHAMP,
+    .species = SPECIES_MISMAGIUS,
     }
     
 };

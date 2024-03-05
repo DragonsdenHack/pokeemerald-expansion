@@ -55,7 +55,8 @@
     "gMapGroup_IndoorHOENN1",
     "gMapGroup_IndoorHOENN2",
     "gMapGroup_IndoorHOENN3",
-    "gMapGroup_IndoorHOENN4"
+    "gMapGroup_IndoorHOENN4",
+    "gMapGroup_IndoorSnowPoint"
   ],
   "gMapGroup_TownsAndRoutesHOENN": [
     "PetalburgCity",
@@ -1445,5 +1446,11 @@
     "DevonS9",
     "DevonS10",
     "SnowpointCity"
+  ],
+  "gMapGroup_IndoorSnowPoint": [
+    "Snowpoint_PkmnCenter",
+    "Snowpoint_Shop",
+    "Snowpoint_House_1",
+    "Snowpoint_House_2"
   ]
 }
