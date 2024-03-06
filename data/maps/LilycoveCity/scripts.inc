@@ -581,29 +581,31 @@ LilycoveCity_Text_GetLostMessingUpTraining:
 	.string "so can you, like, get lost?$"
 
 LilycoveCity_Text_ContestHallInTown:
-	.string "There's a POKéMON CONTEST HALL\n"
-	.string "right in this here town. \p"
-	.string "That means well-raised POKéMON will\n"
-	.string "come from all over the country.\p"
-	.string "My heart swells with excitement!$"
+	.string	"Hay una SALA de CONCURSOS\n"
+	.string	"POKéMON en esta misma ciudad.\p"
+	.string	"Eso quiere decir que POKéMON fabulosos\n"
+	.string	"llegan desde cada rincón de la región.\p"
+	.string	"¡Estoy deseando verlos en acción!$"
 
 LilycoveCity_Text_StrangeCaveInCove:
-	.string "Have you seen that strange cave in\n"
-	.string "the cove at the edge of town?$"
+	.string	"¿Has visto esa extraña cueva que hay\n"
+	.string	"en la ensenada, al otro lado del pueblo?$"
 
 LilycoveCity_Text_GoingToMoveDeleterForHMs:
-	.string "I'm going to teach my POKéMON some new\n"
-	.string "moves for entering a CONTEST.\p"
-	.string "So, I'm going to see the MOVE DELETER\n"
-	.string "and make it forget HM moves.$"
+	.string	"Voy a enseñar a mi POKéMON algún\n"
+	.string	"movimiento nuevo para que participe\l"
+	.string	"en algún CONCURSO.\p"
+	.string	"Para eso tengo que visitar al QUITA-\n"
+	.string	"MOVIMIENTOS y hacerle olvidar algún\l"
+	.string	"movimiento de MO.$"
 
 LilycoveCity_Text_ImFromKanto:
-	.string "I came from KANTO.\p"
-	.string "The HOENN region is beautiful with\n"
-	.string "all its water and verdant nature.\p"
-	.string "Hunh? Wait a second…\p"
-	.string "Could there be rare POKéMON that live\n"
-	.string "only in this area?$"
+	.string	"Vengo desde KANTO.\p"
+	.string	"Me parece que HOENN, con tanta agua\n"
+	.string	"y tanto verde, es realmente precioso.\p"
+	.string	"Pero una duda me corroe…\p"
+	.string	"¿Es posible que haya POKéMON raros\n"
+	.string	"que sólo vivan aquí?$"
 
 LilycoveCity_Text_TeamAquaBeenTrainingWailmer:
 	.string "TEAM AQUA's been training their\n"
@@ -630,34 +632,34 @@ LilycoveCity_Text_MissingPokemonCameBack:
 	.string "It came back without me noticing!$"
 
 LilycoveCity_Text_ImArtDealer:
-	.string "I'm an ART DEALER.\p"
-	.string "I am a buyer and seller of fine art,\n"
-	.string "especially paintings.\p"
-	.string "I've heard that the MUSEUM here has\n"
-	.string "magnificent works on exhibit…$"
+	.string	"Soy un MARCHANTE de ARTE.\p"
+	.string	"Compro y vendo arte del bueno,\n"
+	.string	"sobre todo cuadros.\p"
+	.string	"Me han dicho que el MUSEO de aquí\n"
+	.string	"expone unas obras magníficas…$"
 
 LilycoveCity_Text_SeaRemainsForeverYoung:
-	.string "Even as we grow old and wrinkled,\n"
-	.string "the sea remains forever young with\l"
-	.string "the vivid brilliance of life…\p"
-	.string "Fwohoho fwohohohoho…$"
+	.string	"Nosotros envejecemos y nos arrugamos,\n"
+	.string	"pero el mar continúa joven y bravío,\l"
+	.string	"lleno de vida, por siempre…\p"
+	.string	"Qué pensamiento tan profundo, ¿eh?$"
 
 LilycoveCity_Text_SixtyYearsAgoHusbandProposed:
-	.string "It was sixty years ago that my husband\n"
-	.string "proposed to me here.\l"
-	.string "The sea remains as beautiful as ever.\p"
-	.string "Mufufufu mufufufufufu…$"
+	.string	"Hace sesenta años que mi marido se me\n"
+	.string	"declaró aquí… El mar sigue tan hermoso\l"
+	.string	"como en aquel entonces…\p"
+	.string	"Ay, que me emociono…$"
 
 LilycoveCity_Text_TeamAquaRenovatedCavern:
-	.string "Hm, you know of the peculiar cavern\n"
-	.string "in this cove?\p"
-	.string "That had been a natural formation,\n"
-	.string "but then that TEAM AQUA lot came\l"
-	.string "along and made their renovations.\p"
-	.string "They call themselves\n"
-	.string "the “nature-loving TEAM AQUA”!\p"
-	.string "But what they do and what they say\n"
-	.string "don't match at all!$"
+	.string	"Dime, ¿has oído hablar de esa gruta\n"
+	.string	"que hay en la ensenada?\p"
+	.string	"Se ha creado de forma natural,\n"
+	.string	"pero el dichoso EQUIPO AQUA llegó\l"
+	.string	"y tuvo que hacer reformas, claro.\p"
+	.string	"¡Y se atreven a llamarse el “equipo\n"
+	.string	"amante de la naturaleza”!\p"
+	.string	"Lo que dicen no tiene nada que ver\n"
+	.string	"con lo que hacen en realidad…$"
 
 LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "That cave in the cove…\p"
@@ -667,95 +669,97 @@ LilycoveCity_Text_TeamAquaLotGoneForGood:
 	.string "have gone away for good.$"
 
 LilycoveCity_Text_CitySign:
-	.string "LILYCOVE CITY\p"
-	.string "“Where the land ends and the\n"
-	.string "sea begins.”$"
+	.string	"CIUDAD CALAGUA\p"
+	.string	"“Allí donde acaba la tierra\n"
+	.string	"y empieza el mar.”$"
 
 LilycoveCity_Text_ContestHallSign:
-	.string "POKéMON CONTEST HALL\n"
-	.string "“The gathering place for TRAINERS!”$"
+	.string	"SALA de CONCURSOS POKéMON\p"
+	.string	"“¡Un punto de encuentro para\n"
+	.string	"grandes ENTRENADORES!”$"
 
 LilycoveCity_Text_MotelSign:
-	.string "COVE LILY MOTEL\p"
-	.string "“Remember us as COVE LILY of\n"
-	.string "LILYCOVE.”$"
+	.string	"MOTEL AGUACALA\p"
+	.string	"“¡El único lugar de CALAGUA\n"
+	.string	"donde el agua no cala!”$"
 
 LilycoveCity_Text_MuseumSign:
-	.string "LILYCOVE MUSEUM\p"
-	.string "“POKéMON Masterpiece Collection\n"
-	.string "on exhibit!”$"
+	.string	"MUSEO de CALAGUA\p"
+	.string	"“Contempla la magnífica exposición\n"
+	.string	"de obras de arte POKéMON.”$"
 
 LilycoveCity_Text_MuseumSignPlayersExhibit:
-	.string "LILYCOVE MUSEUM\p"
-	.string "“{PLAYER}'s POKéMON Collection\n"
-	.string "on exhibit!”$"
+	.string	"MUSEO de CALAGUA\p"
+	.string	"“Contempla la magnífica exposición\n"
+	.string	"de obras de arte POKéMON de {PLAYER}.”$"
 
 LilycoveCity_Text_HarborSignUnderConstruction:
-	.string "LILYCOVE CITY HARBOR\p"
-	.string "“The ferry S.S. TIDAL is under\n"
-	.string "construction in SLATEPORT CITY.\p"
-	.string "“Service is scheduled to begin\n"
-	.string "shortly.”$"
+	.string	"PUERTO de CIUDAD CALAGUA\p"
+	.string	"“El ferry S.S. MAREA está siendo\n"
+	.string	"construido en CIUDAD PORTUAL.\p"
+	.string	"Se espera que el servicio entre\n"
+	.string	"en funcionamiento en breve.”$"
 
 LilycoveCity_Text_HarborSign:
-	.string "LILYCOVE CITY HARBOR\p"
-	.string "“Enjoy a delightful cruise on\n"
-	.string "the ferry S.S. TIDAL.”$"
+	.string	"PUERTO de CIUDAD CALAGUA\p"
+	.string	"“Disfruta de un agradable crucero\n"
+	.string	"a bordo del ferry S.S. MAREA.”$"
 
 LilycoveCity_Text_TrainerFanClubSign:
-	.string "POKéMON TRAINER FAN CLUB\p"
-	.string "The names of TRAINERS are scribbled\n"
-	.string "all over the sign…$"
+	.string	"CLUB de FANS de ENTRENADORES POKéMON\p"
+	.string	"En el cartel hay garabateados un\n"
+	.string	"montón de nombres de ENTRENADORES…$"
 
 LilycoveCity_Text_DepartmentStoreSign:
-	.string "LILYCOVE DEPARTMENT STORE\p"
-	.string "“Overflowing with great merchandise\n"
-	.string "and excitement!\p"
-	.string "“A great place to find that something\n"
-	.string "you need!”$"
+	.string	"CENTRO COMERCIAL de CALAGUA\p"
+	.string	"“¡Un lugar donde comprar\n"
+	.string	"y divertirse hasta la saciedad!\p"
+	.string	"Busques lo que busques…,\n"
+	.string	"¡lo encontrarás aquí!”$"
 
 LilycoveCity_Text_MoveDeletersHouseSign:
-	.string "MOVE DELETER'S HOUSE\p"
-	.string "“Unwanted POKéMON moves deleted.”$"
+	.string	"CASA del QUITA-MOVIMIENTOS\p"
+	.string	"“Si no te gusta un movimiento\n"
+	.string	"POKéMON, ¡bórralo!”$"
 
 LilycoveCity_Text_DoYouKnowAboutBerryBlender:
-	.string "Do you know about the machine\n"
-	.string "BERRY BLENDER?$"
+	.string	"¿Sabes algo de la LICUABAYAS?$"
 
 LilycoveCity_Text_FasterSpinBetterPokeblocks:
-	.string "People have to work together to get it\n"
-	.string "to spin faster.\p"
-	.string "The faster you can make it spin, the\n"
-	.string "better {POKEBLOCK}S you can get, I've heard.$"
+	.string	"La gente tiene que trabajar en equipo\n"
+	.string	"para hacer que gire más rápido.\p"
+	.string	"Cuanto más rápido gira, mejor salen\n"
+	.string	"los {POKEBLOCK}S. Eso dicen.$"
 
 LilycoveCity_Text_ExplainBerryBlender:
-	.string "It's used for making a kind of candy\n"
-	.string "called a {POKEBLOCK}.\p"
-	.string "If you give a good {POKEBLOCK} to a POKéMON,\n"
-	.string "its condition will improve by a lot.$"
+	.string	"Se usa para crear una especie\n"
+	.string	"de caramelo que se llama {POKEBLOCK}.\p"
+	.string	"Si le das un buen {POKEBLOCK} a un POKéMON,\n"
+	.string	"éste mejorará un montón.$"
 
 LilycoveCity_Text_HeardTowerCalledSkyPillar:
-	.string "I heard there's a tower somewhere out\n"
-	.string "on the sea routes.\p"
-	.string "It's called the SKY PILLAR, I hear.$"
+	.string	"He oído que hay una torre en\n"
+	.string	"alguna de las rutas marítimas.\p"
+	.string	"Creo que se llama PILAR CELESTE.$"
 
 LilycoveCity_Text_SawTallTowerOnRoute131:
-	.string "I saw this tall tower somewhere\n"
-	.string "around ROUTE 131.\p"
-	.string "Could that possibly be…?$"
+	.string	"Vi una torre muy alta en algún\n"
+	.string	"punto de la RUTA 131.\p"
+	.string	"¿Podría tratarse de…?$"
 
 LilycoveCity_Text_JustArrivedAndSawRarePokemon:
-	.string "We just arrived here on our\n"
-	.string "honeymoon vacation.\p"
-	.string "We happened to see a DRAGON-type\n"
-	.string "POKéMON flying way up in the sky.\p"
-	.string "Do cool POKéMON like that live in\n"
-	.string "the HOENN region?$"
+	.string	"Acabamos de llegar y estamos\n"
+	.string	"de luna de miel.\p"
+	.string	"Y justo hemos visto un POKéMON\n"
+	.string	"de tipo DRAGÓN volando en el cielo.\p"
+	.string	"¿Hay muchos POKéMON de ese tipo\n"
+	.string	"en la región de HOENN?$"
 
 LilycoveCity_Text_HoneymoonVowToSeeRarePokemon:
-	.string "On our honeymoon, we vowed to see as\n"
-	.string "many rare POKéMON as we can.\p"
-	.string "So we were delighted to see a rare\n"
-	.string "POKéMON as soon as we arrived.\p"
-	.string "I mean, we are totally happy!$"
+	.string	"Durante nuestra luna de miel,\n"
+	.string	"intentamos ver tantos POKéMON\l"
+	.string	"raros como fuera posible.\p"
+	.string	"Por eso nos alegró tanto ver a ese\n"
+	.string	"extraño POKéMON nada más llegar.\p"
+	.string	"¡Ha sido muy emocionante!$"
 
