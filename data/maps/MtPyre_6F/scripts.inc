@@ -54,14 +54,14 @@ MtPyre_6F_Text_ValeriePostRematch:
 	.string "Sometimes, they play…$"
 
 MtPyre_6F_Text_CedricIntro:
-	.string "Have you lost your bearings?\n"
-	.string "Have no fear for I am here!$"
+	.string "¿Te has perdido?\n"
+	.string "¿Tienes miedo?$"
 
 MtPyre_6F_Text_CedricDefeat:
-	.string "Weren't you lost?$"
+	.string "Entonces no te perdiste…$"
 
 MtPyre_6F_Text_CedricPostBattle:
-	.string "I had this feeling that a lost TRAINER\n"
-	.string "would be panicked and easy to beat.\p"
-	.string "It's dirty and I won't try it again…$"
+	.string "Pensé que un entrenador asustado\n"
+	.string "tendría pánico y sería fácil de ganar.\p"
+	.string "Me arrepiento de haber intentado eso…$"
 
