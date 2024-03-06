@@ -680,7 +680,7 @@ RocketHideout5F_Text_40:
 .string "y ciudades comunes y se hacen\l"
 .string "llamar entrenadores…los mejores\l"
 .string "entrenadores de esta región no se\l"
-.string "dejan ver tan facilmente.$"
+.string "dejan ver tan fácilmente.$"
 
 
 
@@ -1877,7 +1877,7 @@ RocketHideout_5F_Mision_Pueblo_Paleta_Texto_1:
 RocketHideout_5F_Mision_Pueblo_Paleta_Texto_2:
 .string "La batalla ha acabado, como era de\n"
 	.string "esperar me ha derrotado muy\l"
-	.string "facilmente, ese CHARIZARD es una\l"
+	.string "fácilmente, ese CHARIZARD es una\l"
 	.string "rareza en nuestra región...solo\l"
 	.string "alguien como OAK ha podido\l"
 	.string "proporcionárselo.$"

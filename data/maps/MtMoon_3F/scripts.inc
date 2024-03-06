@@ -959,7 +959,7 @@ MtMoon_3F_Pelea_Frank_texto13:
 	.string "debemos de mejorar más y\l"
 	.string "prepararnos para que ese tipo no\l"
 	.string "vuelva a derrotarnos tan\l"
-	.string "facilmente.\l"
+	.string "fácilmente.\l"
 	.string "¿Qué dirá PETREL de todo esto?\l"
 	.string "No creo que FRANK hable muy bien\l"
 	.string "de ti en su informe de la misión,\l"

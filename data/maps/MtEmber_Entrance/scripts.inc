@@ -148,7 +148,7 @@ MtEmberEntrance_Encuentro_Magno_Texto_4:
 	.string "antes que un MOLTRES, sin embargo,\l"
 	.string "jamás rechazaría un POKÉMON de\l"
 	.string "esas características cuando se\l"
-	.string "presenta tan facilmente.$"
+	.string "presenta tan fácilmente.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_5:
 .string "No obstante, no estoy aquí por\n"

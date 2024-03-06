@@ -144,7 +144,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_8:
 	.string "podremos abastecer y agilizar\l"
 	.string "nuestras investigaciones en\l"
 	.string "lugares cerrados y salir de cuevas\l"
-	.string "más facilmente, has colaborado en\l"
+	.string "más fácilmente, has colaborado en\l"
 	.string "aprovisionar de recursos a nuestra\l"
 	.string "organización. Buen trabajo. Nos\l"
 	.string "vemos en el CUARTEL, donde tú ya\l"

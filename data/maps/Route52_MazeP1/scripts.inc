@@ -514,7 +514,7 @@ end
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_1:
 .string "Bien...\n"
 	.string "Con esta máquina podremos seguir\l"
-	.string "lavando dinero más facilmente...$"
+	.string "lavando dinero más fácilmente...$"
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_2:
 .string "¿Quién eres tú?\n"

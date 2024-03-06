@@ -36,10 +36,10 @@ MauvilleCity_PokemonCenter_1F_EventScript_Youngster::
 	end
 
 MauvilleCity_PokemonCenter_1F_Text_ManOverThereSaysWeirdThings:
-	.string "That man over there, he says weird\n"
-	.string "things!\p"
-	.string "He's funny in a weird way.\n"
-	.string "I doubt I'll forget about him!$"
+	.string "¡Ese hombre de ahí dice unas cosas\n"
+	.string "muy raras!\p"
+	.string "En cierto modo tiene gracia.\n"
+	.string "Creo que no le olvidaré fácilmente.$"
 
 MauvilleCity_PokemonCenter_1F_Text_MyDataUpdatedFromRecordCorner:
 	.string "When I accessed the RECORD CORNER,\n"

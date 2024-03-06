@@ -741,7 +741,7 @@ RocketHideoutJohtoP1Documento_Text_108:
 	.string "de papel por el lado FÍSICO, pero\l"
 	.string "contando a cambio con una ofensiva\l"
 	.string "extrema. Un POKÉMON que caerá\l"
-	.string "facilmente si es golpeado, pero\l"
+	.string "fácilmente si es golpeado, pero\l"
 	.string "que puede llevarse a muchos por\l"
 	.string "delante antes de que eso ocurra.$"
 

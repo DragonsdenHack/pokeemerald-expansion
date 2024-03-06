@@ -788,7 +788,7 @@ RocketHideout_4F_Giovanni_Mision_1_Texto_12:
 	.string "Ya veo, no parece alguien\l"
 	.string "convencional, un CHARMELEON no es\l"
 	.string "un POKÉMON que se vea tan\l"
-	.string "facilmente así como así, solo las\l"
+	.string "fácilmente así como así, solo las\l"
 	.string "élites tienen acceso a esa clase\l"
 	.string "de POKÉMON, inexistentes desde\l"
 	.string "hace tiempo en estado salvaje\l"

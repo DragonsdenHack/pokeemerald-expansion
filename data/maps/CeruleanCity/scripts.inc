@@ -45,7 +45,7 @@ end
 CeruleanCity_Text4:
 .string "¡Eres increíble, {PLAYER}!\n"
 .string "¿Viste su cara cuando tumbaste\l"
-.string "facilmente a sus supuestos POKÉMON\l"
+.string "fácilmente a sus supuestos POKÉMON\l"
 .string "de élite con EXCAVAR?\l"
 .string "Espero que nuestra recompensa haya\l"
 .string "sido de tu agrado, yo me quedaré\l"

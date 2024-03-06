@@ -350,9 +350,9 @@ LavaridgeTown_Text_AsYouWishThen:
 	.string "hatching this EGG, I will be here.$"
 
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
-	.string "Every so often, an EGG will be found at\n"
-	.string "the POKéMON DAY CARE.\p"
-	.string "Or at least that's how the rumor goes.$"
+	.string "De vez en cuando, aparece un HUEVO\n"
+	.string "en la GUARDERÍA POKÉMON.\p"
+	.string "Vamos, eso dicen por ahí…$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
 	.string "We draw as much hot water as we need,\n"
@@ -364,46 +364,49 @@ LavaridgeTown_Text_HotSpringsNeverRunDry:
 	.string "as hot springs.$"
 
 LavaridgeTown_Text_PokemonNippedBackside:
-	.string "Being buried in this hot sand is…\n"
-	.string "Sigh…\p"
-	.string "So warm and heavenly…\p"
-	.string "Eh? Gyaah! Ouch!\p"
-	.string "A POKéMON nipped my backside!$"
+	.string	"Aquí enterradito en la arena caliente\n"
+	.string	"estoy tan…, ay…\p"
+	.string	"Tan calentito, tan a gustito…\p"
+	.string	"¿Eh? ¡Ayyyyy!\p"
+	.string	"¡Un POKéMON me ha dado un pellizco\n"
+	.string	"en el trasero!$"
 
 LavaridgeTown_Text_OhYouLikeHotSprings:
-	.string "Oh, you like hot springs, do you?\p"
-	.string "That's surprising for one as young\n"
-	.string "as you.$"
+	.string "¿A ti también te gustan los baños\n"
+	.string "termales?\p"
+	.string "Es curioso, la gente joven no suele\n"
+	.string "interesarse por esto…$"
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
-	.string "I bathe in the hot springs every day.\p"
-	.string "I want to become a beautiful and strong\n"
-	.string "GYM LEADER like FLANNERY.$"
+	.string	"Yo me baño en las aguas termales\n"
+	.string	"cada día del año.\p"
+	.string	"Son tan benéficas que sin duda me\n"
+	.string	"convertirán en una LÍDER de GIMNASIO\l"
+	.string	"tan fuerte como CANDELA.$"
 
 LavaridgeTown_Text_IfPokemonInHotSprings:
-	.string "If people put POKéMON in hot springs,\n"
-	.string "it might be seriously strange.\p"
-	.string "Why, it might be an electric bath, or\n"
-	.string "a bubble bath, or even a lava bath…$"
+	.string	"Imagínate que la gente metiera a los\n"
+	.string	"POKéMON en los baños termales…\p"
+	.string	"¡Tendríamos baños eléctricos, baños\n"
+	.string	"de burbujas, baños de lava…!$"
 
 LavaridgeTown_Text_HotSpringsClaims:
-	.string "They're claiming that these hot springs\n"
-	.string "are good for calming nervous tension,\l"
-	.string "relieving aching muscles, solving\l"
-	.string "romantic problems, and attracting\l"
-	.string "money…$"
+	.string	"Aseguran que estos baños termales\n"
+	.string	"son buenos para los nervios, los dolores\l"
+	.string	"musculares, los problemas amorosos,\l"
+	.string	"los granos, los bolsillos sin blanca…$"
 
 LavaridgeTown_Text_TownSign:
-	.string "LAVARIDGE TOWN\p"
-	.string "“POKéMON CENTER HOT SPRINGS\n"
-	.string "An excellent place for relaxing!”$"
+	.string	"PUEBLO LAVACALDA\p"
+	.string	"BAÑOS TERMALES del CENTRO POKéMON\n"
+	.string	"“¡No hay nada más relajante!”$"
 
 LavaridgeTown_Text_GymSign:
-	.string "LAVARIDGE TOWN POKéMON GYM\n"
-	.string "LEADER: FLANNERY\l"
-	.string "“One with a fiery passion that burns!”$"
+	.string	"GIMNASIO POKéMON de PUEBLO LAVACALDA\n"
+	.string	"LÍDER: CANDELA\l"
+	.string	"“¡No te acerques mucho, que quemo!”$"
 
 LavaridgeTown_Text_HerbShopSign:
-	.string "POKéMON HERB SHOP\n"
-	.string "“Bitter taste--better cure!”$"
+	.string	"HERBOLARIO POKéMON\n"
+	.string	"“Sabe fatal, pero te sienta genial.”$"
 

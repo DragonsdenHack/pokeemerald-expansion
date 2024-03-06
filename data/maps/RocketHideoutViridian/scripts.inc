@@ -554,7 +554,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_13:
 	.string "esperar lo peor una vez entres en\l"
 	.string "la LIGA POKÉMON, no dejarán que un\l"
 	.string "extraño se alze con el título tan\l"
-	.string "facilmente...$"
+	.string "fácilmente...$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_14:
 .string "Vuelvo a ISLA INTA {PLAYER}, tal\n"

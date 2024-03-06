@@ -246,7 +246,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_12:
 	.string "negro, donde tienen un valor\l"
 	.string "enorme, con los 70 EEVEES que\l"
 	.string "SILPH nos proporcionó puede hacer\l"
-	.string "facilmente 70 millones de POKÉS, a\l"
+	.string "fácilmente 70 millones de POKÉS, a\l"
 	.string "un millón por EEVEE, dinero\l"
 	.string "suficiente como para largarse de\l"
 	.string "KANTO y desaparecer para siempre\l"

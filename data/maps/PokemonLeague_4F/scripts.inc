@@ -108,7 +108,7 @@ PokemonLeague_4F_Combate_Lance_Texto_1:
 	.string "ROJO, no podéis hacer nada, para\l"
 	.string "estas alturas ya debe de haber\l"
 	.string "confirmado su posición derrotando\l"
-	.string "facilmente a AZUL, que llegó\l"
+	.string "fácilmente a AZUL, que llegó\l"
 	.string "antes, pasa, tal vez si llegas a\l"
 	.string "tiempo de ver esa masacre se te\l"
 	.string "quiten las ganas de retar a\l"

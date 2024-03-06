@@ -2752,7 +2752,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_22:
 .string "Es por ello {PLAYER}, que quiero\n"
 	.string "que recorras la región en busca de\l"
 	.string "sus mejores ENTRENADORES, podrás\l"
-	.string "identificarlos facilmente, puesto\l"
+	.string "identificarlos fácilmente, puesto\l"
 	.string "los GIMNASIOS, aunque carecen\l"
 	.string "ahora de validez para la LIGA\l"
 	.string "POKÉMON, siguen estando abiertos\l"

@@ -11733,7 +11733,7 @@ Route29_Text_SabioDefeated:
 
 Route29_Text_SabioPostBattle:
 	.string "Antes podías ver manadas de\n"
-	.string "CHIKORITA muy facilmente por esta\l"
+	.string "CHIKORITA muy fácilmente por esta\l"
 	.string "ruta, sea lo que sea que esté\l"
 	.string "provocando esto, cada vez es más\l"
 	.string "complicado verlas, de aquí a pocos\l"
@@ -14144,7 +14144,7 @@ NinjaBaseS1_Text_LadronIntro:
 	.string "escondites que quedan libres en\l"
 	.string "JOHTO.\l"
 	.string "¿Crees que vamos a renunciar tan\l"
-	.string "facilmente?$"
+	.string "fácilmente?$"
 
 
 NinjaBaseS1_Text_LadronDefeated:

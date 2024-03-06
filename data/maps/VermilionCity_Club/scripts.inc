@@ -152,7 +152,7 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_8:
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_9:
 .string "Vaya, pensé que con 3 POKÉMON te\n"
-	.string "derrotaría facilmente, la potencia\l"
+	.string "derrotaría fácilmente, la potencia\l"
 	.string "de mi RAPIDASH suele ser más que\l"
 	.string "suficiente para tumbar a todo\l"
 	.string "ENTRENADOR de los alrededores,\l"

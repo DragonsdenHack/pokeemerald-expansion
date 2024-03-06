@@ -613,55 +613,45 @@ MauvilleCity_Text_WattsonYoungTakeCharge:
 	.string "the young step up and take charge!$"
 
 MauvilleCity_Text_NurseHurtMonBackToHealth:
-	.string "You know, it's cool to have POKéMON\n"
-	.string "battles and stuff…\p"
-	.string "But if your POKéMON gets hurt,\n"
-	.string "you have to nurse it back to health.$"
+	.string "Es verdad. Mola entablar combates\n"
+	.string "POKÉMON y todo eso, pero recuerda:\p"
+	.string "si tu POKÉMON se hace daño, debes\n"
+	.string "cuidarlo hasta que se ponga bueno.$"
 
 MauvilleCity_Text_AllSortsOfPeopleComeThrough:
-	.string "The roads of this town stretch north\n"
-	.string "and south, and east and west.\p"
-	.string "Because of that, we get all sorts of\n"
-	.string "people coming through.$"
+	.string "Las carretera de este pueblo van\n"
+	.string "en todas las direcciones.\p"
+	.string "Por eso viene tanta gente\n"
+	.string "diferente continuamente.$"
 
 MauvilleCity_Text_RydelVeryGenerous:
-	.string "Have you been to RYDEL'S CYCLES yet?\p"
-	.string "RYDEL, the owner, is a very generous\n"
-	.string "man.$"
+	.string "¿Ya has estado en la TIENDA de BICIS\n"
+	.string "de ANACLETO?\p"
+	.string "ANACLETO, el dueño, es muy generoso.$"
 
 MauvilleCity_Text_PokemonCanJumpYouOnBike:
-	.string "Even if you're riding a BIKE,\n"
-	.string "wild POKéMON could jump you.$"
+	.string "Aunque montes en BICI, los POKÉMON\n"
+	.string "salvajes pueden atacarte.$"
 
 MauvilleCity_Text_CitySign:
-	.string "MAUVILLE CITY\n"
-	.string "“The bright and shiny city of fun!”$"
+	.string "CIUDAD MALVALONA\n"
+	.string "“¡Una ciudad que rebosa diversión!”$"
 
 MauvilleCity_Text_GymSign:
-	.string "MAUVILLE CITY POKéMON GYM\n"
-	.string "LEADER: WATTSON\l"
-	.string "“The cheerfully electrifying man!”$"
+	.string "GIMNASIO POKÉMON de CIUDAD MALVALONA\n"
+	.string "LÍDER: ERICO\l"
+	.string "“¡Una personalidad electrificante!”$"
 
 MauvilleCity_Text_BikeShopSign:
-	.string "“Ride in gravel and shake up your\n"
-	.string "soul!”\l"
-	.string "RYDEL'S CYCLES$"
+	.string "TIENDA de BICIS de ANACLETO\n"
+	.string "“¡Todo para ir sobre ruedas!”$"
 
 MauvilleCity_Text_GameCornerSign:
-	.string "“The play spot for all!”\n"
-	.string "MAUVILLE GAME CORNER$"
+	.string "CASINO de MALVALONA\n"
+	.string "“¡Juega a lo que te apetezca!”$"
 
 MauvilleCity_Text_ExplainTV:
-	.string "Hi, do you check out TV at all?\p"
-	.string "They've added a bunch of cool new\n"
-	.string "shows recently.\p"
-	.string "TV is so cool. I've seen my friends on\n"
-	.string "TV just out of the blue.\p"
-	.string "And, sometimes, they even put you on TV\n"
-	.string "without telling you.\p"
-	.string "I wish I would be on TV sometime.\p"
-	.string "That's why I think you should check\n"
-	.string "out TVs whenever you can.$"
+	.string "Hola. ¿Has estado viendo la tele?$"
 
 MauvilleCity_Text_BeenCheckingOutTV:
-	.string "Hi, have you been checking out TVs?$"
+	.string "Hola. ¿Has estado viendo la tele?$"
