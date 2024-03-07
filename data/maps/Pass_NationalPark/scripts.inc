@@ -9,9 +9,9 @@ release
 end
 
 Pass_NationalPark_Text_1:
-.string "Si necesitas despejarte de tu\n"
-.string "ajetreada vida, el PARQUE NACIONAL\l"
-.string "es el lugar adecuado.$"
+	.string "If you need to clear your mind from your\n"
+	.string "busy life, the NATIONAL PARK is the\l"
+	.string "perfect place.$"
 
 
 
@@ -23,11 +23,11 @@ release
 end
 
 Pass_NationalPark_Text_2:
-.string "Una vez oí hablar a CÉSAR de un\n"
-.string "TIPO BICHO aún más potente que los\l"
-.string "HERACROSS, PINSIR o SCIZOR. Era de\l"
-.string "una región lejana, muy lento, pero\l"
-.string "sobresaliente en todo lo demás.$"
+	.string "Once I heard KURT talk about a BUG TYPE\n"
+	.string "POKÉMON even more powerful than\l"
+	.string "HERACROSS, PINSIR, or SCIZOR. It was\l"
+	.string "from a distant region, very slow, but\l"
+	.string "outstanding in everything else.$"
 
 
 
@@ -39,5 +39,5 @@ release
 end
 
 Pass_NationalPark_Text_3:
-.string "¿No es este el sitio ideal para\n"
-.string "hacer un picnic con los amigos?$"
+	.string "Isn't this the ideal place to have a\n"
+	.string "picnic with some friends?$"

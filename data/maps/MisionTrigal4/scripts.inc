@@ -270,26 +270,25 @@ MisionTrigal4_Segundo_Encuentro_Texto_4:
 	.string "appears.$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_5:
-.string "No te preocupes, a diferencia suya, yo\n"
-	.string "sí sé sacarle partido a toda la gama de\l"
-	.string "POKÉMON de la que disponemos.$"
+	.string "Don't worry, unlike them, I do know how\n"
+	.string "to make the most out of the entire\l"
+	.string "range of POKÉMON at our disposal.$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_6:
-.string "No me importa quién seas, o lo que\n"
-	.string "quieras. ¡Solo sé que vas a ser\l"
-	.string "destruido!$"
+	.string "No matter who you are, or what you want.\n"
+	.string "I just know that you will be destroyed!$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_7:
-.string "¡¿Qué fue ese poder?!$"
+.string "What was that power?!$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_8:
-.string "Puede que tengas más poder del que\n"
-	.string "creí, pero no puedes con nuestro JEFE,\l"
-	.string "él mismo tiene a los mejores POKÉMON\l"
-	.string "que gente como tú compra.$"
+	.string "You may have more power than I thought,\n"
+	.string "but you can't handle our BOSS; he\l"
+	.string "himself has the best POKÉMON that\l"
+	.string "people like you buy.$"
 
 MisionTrigal4_Segundo_Encuentro_Texto_9:
-.string "Este negocio no caerá.$"
+.string "This business won't fall.$"
 
 
 MisionTrigal4_Tercer_Encuentro::
@@ -388,7 +387,7 @@ release
 end
 
 MisionTrigal4_Tercer_Encuentro_Texto_20.1:
-.string "¿Nos das una segunda oportunidad?$"
+.string "Do you give us a second chance?$"
 
 MisionTrigal4_Tercer_Encuentro_No::
 setvar VAR_EVER_GRANDE_CITY_STATE, 4
@@ -436,110 +435,111 @@ walk_slow_up
 step_end
 
 MisionTrigal4_Tercer_Encuentro_Texto_1:
-.string "¿Quién está ahí?$"
+.string "Who's there?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_2:
-.string "Las reclamaciones no se hacen aquí, si\n"
-	.string "te ha llegado algún POKÉMON con malos\l"
-	.string "IVs o naturaleza desfavorable, lo\l"
-	.string "siento, mala suerte.$"
+	.string "Complaints aren't handled here; if\n"
+	.string "you've received a POKÉMON with bad IVs\l"
+	.string "or an unfavorable nature, I'm sorry, you\l"
+	.string "are unlucky.$"
+
 
 MisionTrigal4_Tercer_Encuentro_Texto_3:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_4:
-.string "Entonces quieres cerrar este negocio…\n"
-	.string "¿sabes con quién estás hablando?$"
+	.string "So you want to shut down this\n"
+	.string "business… Do you know who you're\l"
+	.string "talking to?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_5:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_6:
-.string "¡¿Si lo sé yo?!$"
+.string "If I know who I am talking with?!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_7:
-.string "Mide tus palabras, chaval. Mis POKÉMON\n"
-	.string "podrían triturar a todo tu equipo sin\l"
-	.string "pestañear. Como sigas en este plan\l"
-	.string "usaré toda mi influencia para arruinar\l"
-	.string "tu vida.$"
+	.string "Watch your tone, man. My POKÉMON could\n"
+	.string "crush your entire team without\l"
+	.string "hesitation. If you continue on this\l"
+	.string "path, I'll use all my influence to ruin\l"
+	.string "your life.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_8:
-.string "El único trabajo al que podrás optar en\n"
-	.string "esta ciudad será como sirviente de los\l"
-	.string "limpiadores de baño del CENTRO\l"
-	.string "COMERCIAL. Ahora fuera de mi vista.$"
+	.string "The only job you'll be able to get in\n"
+	.string "this city is as a bathroom cleaner at\l"
+	.string "the DEPARTMENT STORE. Now get out of\l"
+	.string "my sight.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_9:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_10:
-.string "Muy bien, los necios aprenden por las\n"
-	.string "malas. Qué pena que no vuelvas a tener\l"
-	.string "una segunda oportunidad, ¡después de\l"
-	.string "esto me encargaré de que seas un\l"
-	.string "apestado social!$"
+	.string "Okay, fools like you must learn the hard\n"
+	.string "way. What a shame you won't get a\l"
+	.string "second chance; after this, I'll make\l"
+	.string "sure you're a social outcast!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_11:
-.string "¡Esto no es posible! ¿Quién eres tú?$"
+.string "This is just not possible! Who the hell are you?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_12:
-.string "Nadie tiene la MEGA-EVOLUCIÓN de un\n"
-	.string "PSEUDOLEGENDARIO en toda la ciudad,\l"
-	.string "¡en toda JOHTO solo conozco a ELM con\l"
-	.string "otra! ¿Cómo has podido con la élite de\l"
-	.string "nuestra mercancía?$"
+	.string "No one else in the city has the\n"
+	.string "MEGA-EVOLUTION of a PSEUDOLEGENDARY\l"
+	.string "on the city, I only know of ELM with\l"
+	.string "another one! How did you manage to\l"
+	.string "defeat our top-tier merchandise?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_13:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_14:
-.string "Espera… ¿El TEAM ROCKET? ¡¿Eres el gran\n"
-	.string "{PLAYER}?! ¿El LÍDER en JOHTO y mano\l"
-	.string "derecha del mismísimo GIOVANNI?$"
+	.string "Wait... The TEAM ROCKET? You're the\n"
+	.string "famous {PLAYER}?! The leader in JOHTO\l"
+	.string "and right-hand man of none other than\l"
+	.string "GIOVANNI himself?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_15:
-.string "Oh… Eso explica todo, ruego que nos\n"
-	.string "perdones, no volverá a…$"
+	.string "Oh… That explains it, I beg you to\n"
+	.string "forgive us, this won't happen agai…$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_16:
-.string "¿El SNUBBULL de un ex-empleado?\n"
-	.string "Enseguida.$"
+.string "A SNUBBULL of an ex-employed?\n"
+	.string "Right now.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_17:
-.string "¡{PLAYER} GUARDÓ AL SNUBBULL!$"
+.string "{PLAYER} TOOK THE SNUBBULL!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_18:
-.string "Y esto es para ti, una de nuestras más\n"
-	.string "raras piezas.$"
+	.string "And this is for you, one of our rarest\n"
+	.string "possessions.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_19:
-.string "¡OBTUVISTE UN CHIMCHAR AL NV.15!$"
+.string "YOU OBTAINED A CHIMCHAR AT LV.15!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_20:
-.string "Te lo ruego, no nos obligues a cerrar el\n"
-	.string "negocio, abastecemos a la gran mayoría\l"
-	.string "de la ciudad. Prometo mejorar nuestras\l"
-	.string "políticas para con el cuidado de los\l"
-	.string "POKÉMON.$"
+	.string "I beg you, don't force us to close the\n"
+	.string "business; we supply the vast majority\l"
+	.string "of the city. I promise to improve our\l"
+	.string "policies regarding POKÉMON care.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_21:
-.string "¡Oh! ¡Gracias, ADMIN.JEFE {PLAYER}!\n"
-	.string "Toma esto en señal de agradecimiento.$"
+	.string "Oh! Thank you so much, CHIEF.BOSS\n"
+	.string "{PLAYER}! Accept this as a gesture of\l"
+	.string "appreciation.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_22:
-.string "¡Obtuviste 2,25 MILLONES DE POKÉS!$"
+	.string "You obtained 2,25 MILLION POKÉ!$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_23:
-.string "No te arrepentirás de habernos dado\n"
-	.string "otra oportunidad, no olvidaremos este\l"
-	.string "favor.$"
+	.string "You won't regret giving us another\n"
+	.string "chance; we won't forget this favor.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_24:
-.string "Grrrrr… Maldición… Con el TEAM ROCKET\n"
-	.string "no se juega… No nos queda más remedio\l"
-	.string "que huir de la región y buscar relanzar\l"
-	.string "el negocio lejos de aquí…$"
+	.string "Grrrrr… Damn… The TEAM ROCKET can't be\n"
+	.string "fooled… We have no other option than to\l"
+	.string "escape this region and try to redo the\l"
+	.string "business far away from here…$"
 
 
 Mision_Trigal4_Calvo::

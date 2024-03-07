@@ -14,9 +14,9 @@ release
 end
 
 Route35_Text_2:
-.string "Por esta ruta suele entrenar la\n"
-.string "policía de TRIGAL, ¡esos ARCANINE\l"
-.string "de KANTO imponen mucho!$"
+	.string "This route is often used for training by\n"
+	.string "the GOLDENROD police. Those KANTO\l"
+	.string "ARCANINE are quite imposing!$"
 
 
 
@@ -38,11 +38,9 @@ release
 end
 
 Route35_Text_5:
-.string "¿Sabes dónde podría encontrar un\n"
-.string "MAGMAR?\l"
-.string "¡Tranquilo!\l"
-.string "¡No pienso quemar el PARQUE\l"
-.string "NACIONAL!$"
+.string "Do you know where I can find a MAGMAR?\n"
+.string "Calm down!\l"
+.string "I won't burn the NATIONAL PARK!$"
 
 
 
@@ -54,11 +52,10 @@ release
 end
 
 Route35_Text_6:
-.string "La policía es esencial para\n"
-.string "mantener el orden y la seguridad,\l"
-.string "pero no hay nada más seguro que\l"
-.string "contar con POKÉMON bien\l"
-.string "entrenados.$"
+	.string "The police are essential for\n"
+	.string "maintaining order and security, but\l"
+	.string "there's nothing safer than having\l"
+	.string "well-trained POKÉMON.$"
 
 
 
@@ -103,4 +100,4 @@ msgbox Route35Documento_Text_100, MSGBOX_SIGN
 end
 
 Route35Documento_Text_100:
-	.string "RUTA 35$"
+	.string "ROUTE 35$"

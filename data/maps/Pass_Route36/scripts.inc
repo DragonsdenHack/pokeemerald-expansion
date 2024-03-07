@@ -9,9 +9,9 @@ release
 end
 
 Pass_Route36_Text_1:
-.string "Si necesitas despejarte de tu\n"
-.string "ajetreada vida, el PARQUE NACIONAL\l"
-.string "es el lugar adecuado.$"
+	.string "If you need to clear your mind from your\n"
+	.string "busy life, the NATIONAL PARK is the\l"
+	.string "perfect place.$"
 
 
 
@@ -23,8 +23,8 @@ release
 end
 
 Pass_Route36_Text_2:
-.string "Dicen que van a organizar un\n"
-.string "concurso aquí, ¿será divertido?$"
+	.string "It is said that a contest will be\n"
+	.string "organized here, will it be fun?$"
 
 
 
@@ -36,6 +36,7 @@ release
 end
 
 Pass_Route36_Text_3:
-.string "El mundo POKÉMON es muy amplio. Y\n"
-.string "sigue habiendo muchas cosas que\l"
-.string "ignoramos. ¡Pero yo sé más que tú!$"
+	.string "The POKÉMON world is so big. And there\n"
+	.string "are still a lot of things that we are\l"
+	.string "ignoring. But I know more things than\l"
+	.string "you do!$"

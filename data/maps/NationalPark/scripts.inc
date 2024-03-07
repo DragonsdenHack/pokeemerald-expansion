@@ -34,9 +34,9 @@ release
 end
 
 NationalPark_Text_6:
-.string "Estoy harto de andar…\n"
-.string "Deberían de poner unos cuantos\l"
-.string "bancos por esta zona…$"
+.string "I'm so tired of walking…\n"
+.string "They should place some benches\l"
+.string "around here to rest…$"
 
 
 
@@ -53,9 +53,9 @@ release
 end
 
 NationalPark_Text_8:
-.string "A mi querido NIDORAN le encanta\n"
-.string "pasear por aquí.\l"
-.string "¡Es tan encantador!$"
+.string "My dear NIDORAN loves\n"
+.string "to walk around here.\l"
+.string "It is so lovely!$"
 
 
 
@@ -72,9 +72,9 @@ release
 end
 
 NationalPark_Text_10:
-.string "Me encanta pasear por aquí, este\n"
-.string "lugar es una gran fuente de\l"
-.string "inspiración para mi.$"
+	.string "I really enjoy walking around here, this\n"
+	.string "place is such a grand inspiration place\l"
+	.string "for me.$"
 
 
 
@@ -91,8 +91,8 @@ release
 end
 
 NationalPark_Text_12:
-.string "Si miras la hierba alta desde\n"
-.string "arriba, ¡parece una POKÉ BALL!$"
+	.string "If you look down at the tall grass from\n"
+	.string "above, it looks like a POKÉ BALL!$"
 
 
 
@@ -127,8 +127,8 @@ msgbox NationalParkDocumento_Text_100, MSGBOX_SIGN
 end
 
 NationalParkDocumento_Text_100:
-	.string "PLAZA DEL DESCANSO\n"
-	.string "PARQUE NACIONAL$"
+	.string "RELAXATION SQUARE\n"
+	.string "NATIONAL PARK$"
 
 
 
@@ -137,9 +137,9 @@ msgbox NationalParkDocumento_Text_101, MSGBOX_SIGN
 end
 
 NationalParkDocumento_Text_101:
-	.string "PARQUE NACIONAL\n"
-	.string "Lugar del que brotan las más\l"
-	.string "bellas y brillantes ideas.$"
+	.string "NATIONAL PARK\n"
+	.string "Place where the most beautiful\l"
+	.string "and brightest ideas are born!$"
 
 
 
@@ -148,5 +148,5 @@ msgbox NationalParkDocumento_Text_102, MSGBOX_SIGN
 end
 
 NationalParkDocumento_Text_102:
-	.string "En honor a todos los TIPO BICHO de\n"
-	.string "KANTO y JOHTO.$"
+	.string "In honor to all the BUG TYPES of KANTO\n"
+	.string "and JOHTO.$"

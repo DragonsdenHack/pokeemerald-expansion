@@ -9,6 +9,6 @@ release
 end
 
 Pass_Route35_Text_1:
-.string "Más adelante está el PARQUE\n"
-.string "NACIONAL. Muchos pasean por allí\l"
-.string "por el mero placer de hacerlo.$"
+	.string "Further ahead is located the NATIONAL\n"
+	.string "PARK. Many stroll through there simply\l"
+	.string "for the pleasure of it.$"

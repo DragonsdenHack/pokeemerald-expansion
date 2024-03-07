@@ -30,24 +30,24 @@ Route35House_EventScript_TakeNosepass::
 
 
 Route35House_Text_TakeNosepass:
-    .string "La DEF.ESPECIAL siempre ha sido el\n"
-	.string "talón de aquiles de los TIPO ROCA,\l"
-	.string "pero conozco a uno con\l"
-	.string "una bastante notable.$"
+	.string "The SPECIAL DEF. always have been the\n"
+	.string "achilles heel of the ROCK TYPE POKÉMON,\l"
+	.string "but I know one with a notable special\l"
+	.string "defense.$"
 
 
 
 Route35House_Text_TakeNosepass2:
-	.string "¡Mira!$"
+	.string "Look!$"
 
 
 
 Route35House_Text_MensajeNosepass:
-.string "¡OBTUVISTE UN NOSEPASS AL NV.25!$"
+.string "YOU OBTAINED A LV.25 NOSEPASS!$"
 
 
 Route35House_Text_1:
-    .string "Aunque su capacidad de atacar sea\n"
-	.string "nefasta, NOSEPASS es un muro\l"
-	.string "decente, que podrá evolucionar a\l"
-	.string "un POKÉMON ya a tener en cuenta.$"
+	.string "Although its attacking prowess is\n"
+	.string "abysmal, NOSEPASS serves as a decent\l"
+	.string "wall, which can evolve into a OKÉMON\l"
+	.string "worth considering.$"

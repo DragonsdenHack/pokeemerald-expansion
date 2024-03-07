@@ -29,9 +29,9 @@ release
 end
 
 Route36_Text_5:
-.string "A mi NIDORINO le encanta pasear\n"
-.string "por estas rutas, a veces vamos al\l"
-.string "ENCINAR a relajarnos.$"
+	.string "My NIDORINO loves to walk around these\n"
+	.string "routes, sometimes we go to the ILEX\l"
+	.string "FOREST to relax.$"
 
 
 
@@ -48,13 +48,11 @@ release
 end
 
 Route36_Text_7:
-.string "Al parecer hay varios POKÉMON, de\n"
-.string "los que se pensaba que no podían\l"
-.string "evolucionar, que sí lo hacen, como\l"
-.string "GLIGAR o AIPOM.\l"
-.string "¿Qué más POKÉMON podrán\l"
-.string "evolucionar sin saberlo la\l"
-.string "mayoría?$"
+	.string "Apparently there are a lot of POKÉMON\n"
+	.string "that no one could have imagined that\l"
+	.string "evolves, but they do, as GLIGAR or\l"
+	.string "AIPOM. What other POKÉMON can evolve\l"
+	.string "without most people knowing?$"
 
 
 
@@ -66,12 +64,10 @@ release
 end
 
 Route36_Text_8:
-.string "Me encanta PINSIR. A diferencia de\n"
-.string "SCYTHER o HERACROSS, es un BICHO\l"
-.string "puro de verdad, rápido, con un\l"
-.string "gran ATAQUE y sólida DEFENSA. Lo\l"
-.string "único que le falla es la\l"
-.string "DEF.ESPECIAL…$"
+	.string "I love PINSIR. Unlike SCYTHER or\n"
+	.string "HERACROSS, it's a genuine BUG, fast,\l"
+	.string "with great ATTACK, and solid DEFENSE.\l"
+	.string "The only thing lacking is SPECIAL DEF…$"
 
 
 
@@ -109,9 +105,9 @@ msgbox Route36Documento_Text_100, MSGBOX_SIGN
 end
 
 Route36Documento_Text_100:
-	.string "¡SCYTHER y PINSIR son las mejores\n"
-	.string "piezas que puedes atrapar en el\l"
-	.string "PARQUE NACIONAL!$"
+	.string "SCYTHER and PINSIR are the best\n"
+	.string "POKEMON that you can catch on the\l"
+	.string "NATIONAL PARK!$"
 
 
 
@@ -122,8 +118,8 @@ end
 Route36_SudowoodoRest_Text:
 	.string "...\n"
 	.string "...\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "(It is a POKÉMON, seems\l"
+	.string "like it is resting)$"
 
 
 
@@ -132,8 +128,8 @@ msgbox Route36Documento_Text_101, MSGBOX_SIGN
 end
 
 Route36Documento_Text_101:
-	.string "RUTA 36\n"
-	.string "Al este CIUDAD MALVA$"
+	.string "ROUTE 36\n"
+	.string "Further the east VIOLET CITY$"
 
 
 
@@ -164,28 +160,23 @@ release
 end
 
 Route36_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: Gran trabajo, {PLAYER}, el\n"
-	.string "equilibrio y total de 650 de BASE\l"
-	.string "de ese KINGDRA está sorprendiendo\l"
-	.string "a nuestros científicos. ¿Sabías\l"
-	.string "que 5 de sus 6 STATS tienen 115 de\l"
-	.string "base?\l"
-	.string "Las bestias de JOHTO que\l"
-	.string "enfrentaste únicamente contaban\l"
-	.string "con dos 115 de BASE como mejores\l"
+	.string "GIOVANNI: Great job, {PLAYER}, that\n"
+	.string "KINGDRA's balanced total of 650 BASE\l"
+	.string "stats is surprising our scientists. Did\l"
+	.string "you know that 5 out of its 6 STATS have\l"
+	.string "a base of 115? The JOHTO beasts you\l"
+	.string "faced only had 2 115 as their best BASE\l"
 	.string "STATS.$"
 
 Route36_Llamada_Giovanni_Texto_2:
-.string "Ahora que has visto CIUDAD TRIGAL,\n"
-	.string "supongo que CIUDAD IRIS es tu\l"
-	.string "próximo destino. Podrías\l"
-	.string "aprovechar para investigar sobre\l"
-	.string "el legendario HO-OH. Mientras\l"
-	.string "tanto, la gran reunión en la TORRE\l"
-	.string "RADIO es ya una realidad, la\l"
-	.string "cuestión es cuando se celebrará.\l"
-	.string "Como uno de los pilares del TEAM\l"
-	.string "ROCKET, tendrás el honor de\l"
-	.string "asistir. Se requerirá pues de tu\l"
-	.string "presencia en la TORRE RADIO a su\l"
-	.string "debido tiempo...$"
+	.string "Now that you've seen GOLDENROD CITY, I\n"
+	.string "suppose ECRUTEAK CITY is your next\l"
+	.string "destination. You could take the\l"
+	.string "opportunity to investigate the\l"
+	.string "legendary HO-OH. Meanwhile, the grand\l"
+	.string "meeting at the RADIO TOWER is becoming\l"
+	.string "a reality, the question is when it will\l"
+	.string "take place. As one of the pillars of\l"
+	.string "TEAM ROCKET, you will have the honor of\l"
+	.string "attending. Your presence at the RADIO\l"
+	.string "TOWER will be required in due time.$"

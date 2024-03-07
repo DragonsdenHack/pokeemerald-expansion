@@ -9,14 +9,13 @@ release
 end
 
 Ecruteak_Bellchimetrailentrance_Text_2:
-.string "CIUDAD IRIS no puede permitirse\n"
-.string "una nueva tragedia que ponga en\l"
-.string "peligro el último reducto\l"
-.string "histórico de JOHTO: TORRE CAMPANA.\l"
-.string "Es por eso que somos muy\l"
-.string "cuidadosos con quién entra y sale\l"
-.string "de ese lugar sagrado, su\l"
-.string "conservación es nuestra prioridad.$"
+	.string "ECRUTEAK CITY cannot risk another\n"
+	.string "tragedy that threatens the last\l"
+	.string "historic refuge of JOHTO: BELL TOWER.\l"
+	.string "That's why we are extremely vigilant\l"
+	.string "about who comes and goes from that\l"
+	.string "sacred place; its preservation is our\l"
+	.string "main concern.$"
 
 
 
@@ -28,14 +27,12 @@ release
 end
 
 Ecruteak_Bellchimetrailentrance_Text_3:
-.string "Cuando aparecieron los POKÉMON\n"
-.string "LEGENDARIOS… infundieron el\l"
-.string "terror en aquellos que vieron su\l"
-.string "ascenso. Y… algunos incluso\l"
-.string "atacaron en vano. Los POKÉMON\l"
-.string "LEGENDARIOS, conocedores de su\l"
-.string "propio poder, huyeron y\l"
-.string "abandonaron a la gente asustada.$"
+	.string "When the LEGENDARY POKÉMON appeared…\n"
+	.string "they struck fear into those who\l"
+	.string "witnessed their rise. And… some even\l"
+	.string "attacked in vain. The LEGENDARY\l"
+	.string "POKÉMON, aware of their own power, fled\l"
+	.string "and left the frightened people behind.$"
 
 
 
@@ -47,9 +44,8 @@ release
 end
 
 Ecruteak_Bellchimetrailentrance_Text_4:
-.string "SENDA DINDÓN aguarda tras estas\n"
-.string "escaleras y, a lo lejos, TORRE\l"
-.string "CAMPANA.$"
+	.string "BELLCHIME TRAIL is behind these stairs\n"
+	.string "and, further, BELL TOWER.$"
 
 
 
@@ -66,9 +62,8 @@ release
 end
 
 Ecruteak_Bellchimetrailentrance_Text_6:
-.string "SENDA DINDÓN aguarda tras estas\n"
-.string "escaleras y, a lo lejos, TORRE\l"
-.string "CAMPANA.$"
+	.string "BELLCHIME TRAIL is behind these stairs\n"
+	.string "and, further, BELL TOWER.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto::
 lockall
@@ -198,197 +193,183 @@ release
 end
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_1:
-.string "MIRTO: Ah, ya estás aquí,\n"
-	.string "{PLAYER}.$"
+	.string "ALDER: Ah, you are here, {PLAYER}.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_2:
-.string "Gracias de nuevo. Sé que fui algo\n"
-	.string "brusco cuando nos conocimos en\l"
-	.string "PUEBLO AZALEA. Ambos sentimos esa\l"
-	.string "energía característica de grandes\l"
-	.string "ENTRENADORES, pero preferí darle\l"
-	.string "la espalda. Lo cierto es que mi\l"
-	.string "viaje por JOHTO está siendo una\l"
-	.string "contrareloj, y ya que has accedido\l"
-	.string "a ayudarme te explicaré por qué.$"
+	.string "Thanks once more. I understand I came\n"
+	.string "off a bit harsh when we first met in\l"
+	.string "AZALEA TOWN. We both sensed that\l"
+	.string "unmistakable energy of skilled\l"
+	.string "TRAINERS, yet I opted to keep my\l"
+	.string "distance. The reality is, my journey\l"
+	.string "across JOHTO is a race against the\l"
+	.string "clock, and since you've agreed to\l"
+	.string "assist me, I'll clarify why.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_3:
-.string "Mi fiel amigo, VOLCARONA, se\n"
-	.string "transformó una última vez. Después\l"
-	.string "de toda una vida unidos, adquirió\l"
-	.string "un poder que yo jamás había visto,\l"
-	.string "mayor incluso que el de los\l"
-	.string "LEGENDARIOS que conozco.$"
+	.string "My loyal friend, VOLCARONA, underwent\n"
+	.string "one final transformation. After a\l"
+	.string "lifetime together, it acquired a power\l"
+	.string "greater than anything I had ever seen,\l"
+	.string "surpassing even that of the\l"
+	.string "LEGENDARIES I know.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_4:
-.string "Pero al parecer ese gran poder le\n"
-	.string "está comiendo por dentro. Es todo\l"
-	.string "un espectáculo verlo en su\l"
-	.string "esplendor, sí, pero intercala\l"
-	.string "períodos de absoluto vigor con\l"
-	.string "otros en los que apenas puede\l"
-	.string "moverse, como si fuera el precio a\l"
-	.string "pagar por toda la energía empleada\l"
-	.string "anteriormente.$"
+	.string "But it appears that immense power is\n"
+	.string "taking its toll. It's a remarkable sight\l"
+	.string "to witness its magnificence, yes, but it\l"
+	.string "switches between periods of absolute\l"
+	.string "vitality and others where it can hardly\l"
+	.string "move, as if it were the cost of all the\l"
+	.string "energy expended earlier.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_5:
-.string "JOHTO es una de las pocas regiones\n"
-	.string "que pueden tener una solución para\l"
-	.string "mi POKÉMON. Sus conocimientos en\l"
-	.string "medicina y fisiología de los\l"
-	.string "POKÉMON son milenarios.$"
+	.string "JOHTO is one of the few regions that\n"
+	.string "might hold a solution for my POKÉMON.\l"
+	.string "Its knowledge in POKÉMON medicine and\l"
+	.string "physiology is ancient.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6:
-.string "El GRAN MAESTRO de TORRE CAMPANA\n"
-	.string "es una de esas personas que podría\l"
-	.string "ayudarme. El vio al LEGENDARIO\l"
-	.string "HO-OH, y maneja a la perfección\l"
-	.string "las propiedades curativas de su\l"
-	.string "CENIZA SAGRADA, pero para hablar\l"
-	.string "con él tengo que subir a la cima\l"
-	.string "de TORRE CAMPANA...$"
+	.string "The GRAND MASTER of BELL TOWER is one\n"
+	.string "the person that could help me. He saw\l"
+	.string "the LEGENDARY HO-OH and masters\l"
+	.string "perfectly the healing properties of its\l"
+	.string "SACRED ASH, but to speak with him, I\l"
+	.string "have to climb to the top of BELL TOWER…$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_7:
-.string "Dices ser el CAMPEÓN de KANTO.\n"
-	.string "Conozco poco de la historia\l"
-	.string "reciente de la región, pero te\l"
-	.string "creo.$"
+	.string "You say you're the KANTO CHAMPION. I'm\n"
+	.string "not well-versed in the region's recent\l"
+	.string "history, but I'll trust your statement.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_8:
-.string "¡No se hable más!\n"
-	.string "¡Veamos si podemos lograr pasar!$"
+.string "Enough talking!\n"
+	.string "Let's see if we can cross!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_9:
-.string "El acceso a TORRE CAMPANA y SENDA\n"
-	.string "DINDÓN está reservado a\l"
-	.string "ciertas personas.\l"
-	.string "Les ruego que den media vuelta,\l"
-	.string "caballeros.$"
+	.string "The access to BELL TOWER and\n"
+	.string "BELLCHIME TRAIL is restricted to\l"
+	.string "certain individuals. I kindly ask you to\l"
+	.string "turn around, gentlemen.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_10:
-.string "MIRTO: El CAMPEÓN de KANTO-JOHTO\n"
-	.string "es una de esas personas, ¿cierto?\l"
-	.string "Tiene ante usted al verdadero\l"
-	.string "CAMPEÓN de KANTO: {PLAYER}.$"
+	.string "ALDER: The KANTO-JOHTO CHAMPION is\n"
+	.string "one of those individuals, right?. Here in\l"
+	.string "front of you is the true KANTO\l"
+	.string "CHAMPION: {PLAYER}.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_11:
-.string "¿{PLAYER}?\n"
-	.string "Lo siento, pero si no tienen forma\l"
-	.string "de probar lo que dice, no podrán\l"
-	.string "pasar, la situación actual de la\l"
-	.string "LIGA POKÉMON es caótica. Tengo\l"
-	.string "entendido que un tal ROJO ganó el\l"
-	.string "campeonato, pero está siendo\l"
-	.string "suplido por AZUL. Mientras tanto,\l"
-	.string "la ALTO MANDO AGATHA acaba de\l"
-	.string "dimit...$"
+.string "{PLAYER}?\n"
+	.string "I apologize, but without evidence to\l"
+	.string "support your claim, you won't be allowed\l"
+	.string "to proceed. The current state of the\l"
+	.string "POKÉMON LEAGUE is in turmoil. I've heard\l"
+	.string "that a person named RED won the\l"
+	.string "championship, but he's being\l"
+	.string "substituted by BLUE. Additionally,\l"
+	.string "ELITE FOUR member AGATHA has recently\l"
+	.string "just resigne…$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_12:
-.string "????: ¡{PLAYER}!\n"
-	.string "¡Qué alegría volver a verte!$"
+.string "????: {PLAYER}!\n"
+	.string "It is a pleasure to see you again!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_13:
-.string "A...ALTO MANDO AGATHA, un honor\n"
-	.string "volver a verla.$"
+	.string "E…ELITE FOUR AGATHA, it is an honor to\n"
+	.string "see you again.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_14:
-.string "AGATHA: Quién iba a decir que\n"
-	.string "acabarías visitando JOHTO, a este\l"
-	.string "paso vas a terminar explorando\l"
-	.string "cada rincón del mundo POKÉMON. Tan\l"
-	.string "activo y dispuesto, bendita\l"
-	.string "juventud.$"
+	.string "AGATHA: Who would have thought you'd\n"
+	.string "end up visiting JOHTO? At this rate,\l"
+	.string "you'll end up exploring every corner of\l"
+	.string "the POKÉMON world. So active and\l"
+	.string "willing, blessed youth.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_15:
-.string "AGATHA: Dicen la verdad, sé que\n"
-	.string "TORRE CAMPANA y vosotros sus\l"
-	.string "PENSADORES sois discretos. Por\l"
-	.string "ello, has de saber que tienes\l"
-	.string "delante al verdadero CAMPEÓN de\l"
-	.string "KANTO.$"
+	.string "AGATHA: They're telling the truth. I\n"
+	.string "know that the BELL TOWER and you, its\l"
+	.string "SAGES, are discreet. Therefore, you\l"
+	.string "should know that you're facing the true\l"
+	.string "CHAMPION of KANTO.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_16:
-.string "Ruego que me disculpe, es todo un\n"
-	.string "honor que alguien como usted\l"
-	.string "visite nuestro templo.$"
+	.string "Please accept my apologies, it's truly\n"
+	.string "an honor for someone of your stature\l"
+	.string "to grace our temple with your presence.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_17:
-.string "MIRTO: Entonces...\n"
-	.string "¿Podemos entrar todos?$"
+.string "ALDER: So…\n"
+	.string "Can we enter all together?$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
-.string "Estamos ante un caso excepcional.\n"
-	.string "AGATHA aquí es considerada como\l"
-	.string "una más, pero en esta situación, la\l"
-	.string "última palabra la tiene\l"
-	.string "nuestro GRAN MAESTRO.$"
+	.string "This is an extraordinary circumstance.\n"
+	.string "While AGATHA is typically regarded as\l"
+	.string "one of our own, in this instance, the\l"
+	.string "ultimate decision lies with our GRAND\l"
+	.string "MASTER.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19:
-.string "MIRTO: Pero...\n"
-	.string "Mi POKÉMON está enfermo, su GRAN\l"
-	.string "MAESTRO podría ayudarle a sanar.$"
+.string "ALDER: But…\n"
+	.string "My POKÉMON is sick, your GRAND MASTER\l"
+	.string "could help to heal it.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20:
-.string "AGATHA: Su compañero es un\n"
-	.string "POKÉMON muy especial, CÉSAR me lo\l"
-	.string "dijo. Has de saber, PENSADOR, que\l"
-	.string "su POKÉMON no solo ha\l"
-	.string "experimentado el FUERTE VÍNCULO,\l"
-	.string "sino que es el caso más extremo\l"
-	.string "conocido.$"
+	.string "AGATHA: Your partner is quite a unique\n"
+	.string "POKÉMON, as KURT told me. You must\l"
+	.string "understand, SAGE, that his POKÉMON has\l"
+	.string "not only undergone the DEEP BOND, but\l"
+	.string "it represents the most extreme case\l"
+	.string "known.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21:
-.string "Oh...\n"
-	.string "Entiendo...\l"
-	.string "Entiendo...\l"
-	.string "Algo así sin duda merece ser visto\l"
-	.string "de inmediato, nuestro GRAN MAESTRO\l"
-	.string "estará encantado de ver a su\l"
-	.string "POKÉMON.$"
+.string "Oh…\n"
+	.string "I see…\l"
+	.string "I see…\l"
+	.string "Something like this undoubtedly\l"
+	.string "deserves to be seen immediately; our\l"
+	.string "GRAND MASTER will be delighted to see\l"
+	.string "your POKÉMON.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_22:
-.string "MIRTO: Muchas gracias.$"
+.string "ALDER: Thank you so much.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_23:
-.string "AGATHA: No te preocupes {PLAYER},\n"
-	.string "hablaré con el GRAN MAESTRO y lo\l"
-	.string "entenderá perfectamente. Podrás\l"
-	.string "entrar a TORRE CAMPANA cuando este\l"
-	.string "asunto quede arreglado.$"
+	.string "AGATHA: Don't worry, {PLAYER}, I will\n"
+	.string "speak with the GRAND MASTER, and he will\l"
+	.string "understand perfectly. You will be able\l"
+	.string "to enter BELL TOWER once this matter is\l"
+	.string "resolved.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_24:
-.string "MIRTO: Sin tu intervención no\n"
-	.string "habría podido pasar {PLAYER}.\l"
-	.string "Seguro que nuestros caminos\l"
-	.string "volverán a cruzarse.$"
+	.string "ALDER: Without your intervention,\n"
+	.string "{PLAYER} wouldn't have been able to\l"
+	.string "proceed.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_25:
-.string "¡ALERTA!\n"
-	.string "¡ALERTA!$"
+.string "WARNING!\n"
+	.string "WARNING!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_26:
-.string "¡Un lunático está causando\n"
-	.string "estragos en TORRE QUEMADA!$"
+	.string "A lunatic is wreaking havoc in BURNED\n"
+	.string "TOWER!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_27:
-.string "Enviad a varios de nuestros\n"
-	.string "PENSADORES.$"
+	.string "Send some of our SAGES.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_28:
-.string "Ya lo hemos hecho, pero sus\n"
-	.string "POKÉMON son indestructibles,\l"
-	.string "ninguno de nosotros puede tocarle.\l"
-	.string "Si sigue así va a dañar seriamente\l"
-	.string "lo que queda de nuestro\l"
-	.string "patrimonio.$"
+	.string "We already did it, but his POKÉMON are\n"
+	.string "indestructible; none of us can touch\l"
+	.string "him. If he keeps this up, he's going to\l"
+	.string "seriously damage what's left of our\l"
+	.string "heritage.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_29:
 .string "...\n"
 	.string "...\l"
-	.string "En ese caso, debemos avisar al\l"
-	.string "GRAN MAESTRO. Sube a TORRE CAMPANA\l"
-	.string "y cuéntale lo ocurrido.\l"
-	.string "¡Rápido!$"
+	.string "In this case, we must tell to the GRAND\l"
+	.string "MASTER. Climb up to BELL TOWER and tell\l"
+	.string "him what just happened.\l"
+	.string "Hurry up!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Move_1:
 walk_in_place_up
@@ -512,9 +493,9 @@ release
 end
 
 Torre_Campana_Frontera_Texto_1:
-.string "Nadie puede pasar de aquí sin el\n"
-	.string "consentimiento de nuestro GRAN\l"
-	.string "MAESTRO, deberás esperar.$"
+	.string "No one can pass through here without\n"
+	.string "the consent of our GRAND MASTER; you'll\l"
+	.string "have to wait.$"
 
 Torre_Campana_Frontera_Move_1:
 face_left

@@ -23,14 +23,13 @@ release
 end
 
 BurnedTower2_Texto_1:
-.string "¡Ahh!\n"
-	.string "¡Bajé por curiosidad para ver qué\l"
-	.string "ocurría, solo vi un enorme\l"
-	.string "POKÉMON con una fuerza inmensa.\l"
-	.string "Tumbaba de un golpe a todos los\l"
-	.string "POKÉMON de nuestros PENSADORES!\l"
-	.string "Quería ayudar, pero ese POKÉMON da\l"
-	.string "miedo.$"
+.string "Ahh!\n"
+	.string "I came down out of curiosity to see\l"
+	.string "what was happening, I only saw a huge\l"
+	.string "POKÉMON with immense strength. It\l"
+	.string "knocked down all the POKÉMON of our\l"
+	.string "SAGES with a single blow! I wanted to\l"
+	.string "help, but that POKÉMON is terrifying.$"
 
 
 BurnedTower3::
@@ -41,8 +40,8 @@ release
 end
 
 BurnedTower3_Texto_1:
-.string "Si no aparece nuestro venerable\n"
-	.string "LÍDER, esto puede acabar muy mal...$"
+	.string "If our venerable LEADER doesn't show\n"
+	.string "up, this could end disastrously…$"
 
 
 BurnedTower4::
@@ -66,10 +65,9 @@ release
 end
 
 BurnedTower7_Texto_1:
-.string "Los PENSADORES de TORRE CAMPANA\n"
-	.string "son grandes ENTRENADORES,\l"
-	.string "confiemos en que puedan detener a\l"
-	.string "ese loco.$"
+	.string "The SAGES of BELL TOWER are very\n"
+	.string "skilled TRAINERS, I hope they can stop\l"
+	.string "that lunatic.$"
 
 
 
@@ -85,10 +83,10 @@ msgbox BurnedTowerDocumento_Text_100, MSGBOX_SIGN
 end
 
 BurnedTowerDocumento_Text_100:
-.string "En memoria a los tres POKÉMON que\n"
-	.string "perdieron la vida. Vuestra esencia aquí\l"
-	.string "permanece, y JOHTO os honra desde la\l"
-	.string "pagoda del oeste.$"
+	.string "To honor the memory of the three\n"
+	.string "POKÉMON that perished. Your essence\l"
+	.string "endures here, and JOHTO pays tribute to\l"
+	.string "you from the western pagoda.$"
 
 BurnedTower_FuegoFatuo::
 lock     
@@ -109,15 +107,14 @@ release
 end
 
 BurnedTower_FuegoFatuo_Texto_2:
-.string "FUEGO FATUO quema al rival, anulando\n"
-	.string "ese ímpetu físico, incluso a los\l"
-	.string "atacantes más feroces.$"
+	.string "WILL-O-WISP burns the opponent,\n"
+	.string "nullifying that physical momentum, even\l"
+	.string "from the fiercest attackers.$"
 
 BurnedTower_FuegoFatuo_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT72 FUEGO\n"
-	.string "FATUO de manos de exorcista!!$"
+.string "{PLAYER} obtained TM72 WILL-O-WISP\n"
+	.string "from the CHANNELER!!$"
 
 BurnedTower_FuegoFatuo_Texto_1:
-.string "Aún puedo sentir la energía de\n"
-	.string "aquellos que sufrieron la tragedia\l"
-	.string "de hace 150 años.$"
+	.string "I still feel the energy of those who\n"
+	.string "experienced the tragedy 150 years ago.$"

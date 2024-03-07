@@ -35,7 +35,7 @@ msgbox Route37Documento_Text_100, MSGBOX_SIGN
 end
 
 Route37Documento_Text_100:
-	.string "RUTA 37$"
+	.string "ROUTE 37$"
 
 
 
@@ -46,5 +46,5 @@ end
 Route37_SudowoodoRest_Text:
 	.string "...\n"
 	.string "...\l"
-	.string "(Es un POKÉMON, parece estar\l"
-	.string "reposando)$"
+	.string "(It is a POKÉMON, seems\l"
+	.string "like it is resting)$"

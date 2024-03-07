@@ -9,7 +9,7 @@ release
 end
 
 Ecruteak_BurnedTower_Text_2:
-.string "No pudimos hacer nada…$"
+.string "We couldn't do anything…$"
 
 
 
@@ -21,9 +21,8 @@ release
 end
 
 Ecruteak_BurnedTower_Text_3:
-.string "Como esto siga así, terminará\n"
-.string "por derrumbar lo que queda de TORRE\l"
-.string "QUEMADA…$"
+	.string "If this continues, it will eventually\n"
+	.string "collapse what remains of BURNED TOWER.$"
 
 
 
@@ -35,9 +34,9 @@ release
 end
 
 Ecruteak_BurnedTower_Text_6:
-.string "Ese tipo…\n"
-.string "Ha arrasado con todos nuestros\l"
-.string "POKÉMON sin ningún esfuerzo…$"
+.string "That guy……\n"
+.string "He has devastated all our\l"
+.string "POKÉMON without any effort……$"
 
 
 
@@ -49,9 +48,9 @@ release
 end
 
 Ecruteak_BurnedTower_Text_7:
-.string "Jamás he visto tamaña fuerza\n"
-.string "bruta, ¿será un LEGENDARIO de\l"
-.string "alguna región lejana?$"
+	.string "I have never seen such brute force.\n"
+	.string "Could it be a LEGENDARY from some\l"
+	.string "distant region?$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate::
 lockall
@@ -196,127 +195,118 @@ walk_down
 step_end
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_1:
-.string "????: ¿Tú otra vez?$"
+.string "????: You again?$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_2:
-.string "¡Don!$"
+.string "Don!$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_3:
-.string "ZEUS: Esperaba encontrar algo\n"
-	.string "interesante aquí, pero hace tiempo\l"
-	.string "que el LEGENDARIO LUGIA abandonó\l"
-	.string "este lugar para nunca regresar.$"
+	.string "ZEUS: I was expecting to find\n"
+	.string "something interesting here, but the\l"
+	.string "LEGENDARY LUGIA left this place long\l"
+	.string "ago, never to return.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_4:
-.string "Fue aquí donde HO-OH salvó a 3\n"
-	.string "POKÉMON de un destino cruel,\l"
-	.string "convirtiéndolos en las 3 bestias\l"
-	.string "errantes.$"
+	.string "Here is where HO-OH saved 3 POKÉMON\n"
+	.string "from a cruel fate, turning them into the\l"
+	.string "3 wandering beasts.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_5:
-.string "Nada más lejos de la realidad, el\n"
-	.string "poder de esos 3 POKÉMON es\l"
-	.string "mediocre. No llegan a tocar en sus\l"
-	.string "mejores estadísticas siquiera lo\l"
-	.string "más bajo del creador de todo.\l"
-	.string "LANCE creía ser poderoso con ellos\l"
-	.string "bajo control, y no era más que\l"
-	.string "otro iluso más.$"
+	.string "Nothing could be further from the\n"
+	.string "truth; the power of those 3 POKÉMON is\l"
+	.string "mediocre. They don't even come close to\l"
+	.string "reaching the lowest stats of the\l"
+	.string "creator of all. LANCE believed he\l"
+	.string "wielded great power with them under\l"
+	.string "control, but he was merely another\l"
+	.string "misguided soul.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6:
-.string "En cambio, HO-OH...\n"
-	.string "TORRE CAMPANA...\l"
-	.string "Presiento que volverá a aparecer.\l"
-	.string "Podría quitar de en medio a todos\l"
-	.string "esos PENSADORES que impiden cruzar\l"
-	.string "la SENDA DINDÓN, pero aún es\l"
-	.string "pronto para armar todo ese ruido,\l"
-	.string "mi destino ahora es otro.$"
+	.string "Instead, HO-OH… BELL TOWER… I have a\n"
+	.string "feeling it will return. It could sweep\l"
+	.string "aside all those SAGES obstructing the\l"
+	.string "path to BELLCHIME TRAIL, but it's too\l"
+	.string "early to make such a fuss. My destiny is\l"
+	.string "different now.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_7:
-.string "Consideré como una casualidad\n"
-	.string "nuestro pequeño encuentro en TORRE\l"
-	.string "BELLSPROUT. Sin embargo, vuelves a\l"
-	.string "aparecer por aquí. De nuevo,\l"
-	.string "casualmente, cuando trataba\l"
-	.string "de ver si este lugar escondía algo\l"
-	.string "interesante.$"
+	.string "I thought our brief meeting at SPROUT\n"
+	.string "TOWER was just a coincidence. Yet, here\l"
+	.string "you are again, coincidentally, while I\l"
+	.string "was attempting to see if this place\l"
+	.string "concealed anything intriguing.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_8:
-.string "Ya te advertí que no tendría\n"
-	.string "reparo en acabar contigo si te\l"
-	.string "ponías en medio. Parece que\l"
-	.string "necesitas que te recuerde el vasto\l"
-	.string "poder que controlo. Un 50% no fue\l"
-	.string "suficiente, ¿cierto?$"
+	.string "I already warned you that I wouldn't\n"
+	.string "hesitate to take you down if you are on\l"
+	.string "my way. It appears you need a reminder\l"
+	.string "of the vast power I wield. 50% wasn't\l"
+	.string "enough, was it?$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_9:
-.string "Veamos, pues, qué puedes hacer\n"
-	.string "ante un 65% de mi poder.$"
+	.string "Let's see then, what you can do against\n"
+	.string "65% of my power.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_10:
-.string "Entonces 3 LEGENDARIOS MAYORES no\n"
-	.string "son suficiente, qué interesante.$"
+	.string "So, three MAJOR LEGENDARIES aren't\n"
+	.string "enough, how interesting.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_11:
-.string "Debo aplaudirte {PLAYER}, eres de\n"
-	.string "esos que sacan lo mejor de cada uno\l"
-	.string "de sus 6 POKÉMON y se agarra al\l"
-	.string "combate como sea hasta terminar\l"
-	.string "ganando. A gente como tú hay que\l"
-	.string "aplastarla de un solo golpe antes\l"
-	.string "de que os de tiempo a reaccionar.$"
+	.string "I must applaud you, {PLAYER}, you're\n"
+	.string "one of those who brings out the best in\l"
+	.string "each of your 6 POKÉMON and clings to\l"
+	.string "the battle until you win. People like you\l"
+	.string "must be crushed with a single blow\l"
+	.string "before you have time to react.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_12:
-.string "Lamentablemente para ti y tus\n"
-	.string "POKÉMON, habéis llegado a vuestro\l"
-	.string "límite. Mi equipo, en cambio, no\l"
-	.string "llega a ser un burdo boceto de lo\l"
-	.string "que será cuando logre mi objetivo.$"
+	.string "Unfortunately for you and your\n"
+	.string "POKÉMON, you have reached your limit. My\l"
+	.string "team, on the other hand, is not even a\l"
+	.string "crude sketch of what it will be when I\l"
+	.string "achieve my goal.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_13:
-.string "Espero por tu bien que no vuelvan\n"
-	.string "a darse más casualidades como\l"
-	.string "esta, o me obligarás a subir aún\l"
-	.string "más el nivel.$"
+	.string "For your own good, I hope there are no\n"
+	.string "more coincidences like this one, or\l"
+	.string "you'll force me to raise the bar even\l"
+	.string "further.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_14:
-.string "(ZEUS usó CUERDA HUIDA).$"
+.string "(ZEUS used ESCAPE ROPE).$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15:
-.string "????: ¿Es él quién estaba causando\n"
-	.string "todo este alboroto?$"
+	.string "????: Who is the one who has been\n"
+	.string "causing all this rampage?$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
-.string "MAESTRO JAREN, al contrario, este\n"
-	.string "ENTRENADOR acaba de derrotar en un\l"
-	.string "combate al agitador.$"
+	.string "MASTER JAREN, on the contrary, this\n"
+	.string "TRAINER just defeated the lunatic in a\l"
+	.string "battle...$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
-.string "JAREN: Mmm...\n"
-	.string "Debes de ser {PLAYER}, AGATHA ya me\l"
-	.string "ha hablado de ti. En nombre de\l"
-	.string "CIUDAD IRIS te doy las gracias por\l"
-	.string "lo que has hecho.$"
+	.string "JAREN: Hmmm… You must be {PLAYER},\n"
+	.string "AGATHA has already told me about you.\l"
+	.string "On behalf of ECRUTEAK CITY, I thank you\l"
+	.string "for what you've done.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_18:
-.string "Tu presencia será más que\n"
-	.string "bienvenida en TORRE CAMPANA, pero\l"
-	.string "tendrá que prolongarse un poco\l"
-	.string "más.$"
+	.string "Your presence at BELL TOWER would be\n"
+	.string "greatly appreciated, but your stay will\l"
+	.string "need to be extended a little longer.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_19:
-.string "He quedado fascinado con el\n"
-	.string "POKÉMON FUERTE VÍNCULO de tu\l"
-	.string "amigo, MIRTO, y estaré muy ocupado\l"
-	.string "estudiándolo detenidamente.$"
+	.string "I am intrigued by your friend ALDER, his\n"
+	.string "DEEP BOND POKÉMON is so interesting,\l"
+	.string "and I will be quite occupied studying it\l"
+	.string "in detail.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_20:
-.string "Además, el otro GRAN MAESTRO de\n"
-	.string "JOHTO vendrá pronto a visitarme,\l"
-	.string "te prometo, {PLAYER}, que a su\l"
-	.string "debido tiempo podrás ver TORRE\l"
-	.string "CAMPANA. Te lo haré saber.$"
+	.string "Additionally, the other GRAND MASTER of\n"
+	.string "JOHTO will come to visit me soon. I\l"
+	.string "promise you, {PLAYER}, that in due\l"
+	.string "time, you will be able to see BELL TOWER.\l"
+	.string "I will let you know.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21:
 .string "No se hable más.\n"
