@@ -143,7 +143,7 @@ MisionIrisLab_Primer_Cientifico_Texto_9:
 	.string "entrenar de forma eficiente.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_10:
-.string "Pero tú… no eres uno de ellos, tal vez\n"
+.string "Pero tú…{PAUSE 30} no eres uno de ellos, tal vez\n"
 	.string "tampoco seas un simple EJECUTIVO de\l"
 	.string "TRIGAL.$"
 
@@ -227,7 +227,7 @@ MisionIrisLab_Segundo_Cientifico_Texto_1:
 	.string "descubiertos.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_2:
-.string "Mmm… ya veo, te han enviado esos\n"
+.string "Mmm{PAUSE 30}…{PAUSE 30} ya veo, te han enviado esos\n"
 	.string "incompetentes de las RUINAS ALFA.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_3:
@@ -238,10 +238,10 @@ MisionIrisLab_Segundo_Cientifico_Texto_3:
 	.string "harían el menor avance en ese lugar?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_4:
-.string "… …$"
+.string "{PAUSE 30}…{PAUSE 30}…$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_5:
-.string "Así que eso es irrelevante… ¿la forma\n"
+.string "Así que eso es irrelevante…{PAUSE 30} ¿la forma\n"
 	.string "es lo que cuenta?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_6:
@@ -251,7 +251,7 @@ MisionIrisLab_Segundo_Cientifico_Texto_6:
 	.string "diferente!?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_7:
-.string "Así que superior a la media… tal vez\n"
+.string "Así que superior a la media{PAUSE 30}…{PAUSE 30} tal vez\n"
 	.string "excelente.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_8:

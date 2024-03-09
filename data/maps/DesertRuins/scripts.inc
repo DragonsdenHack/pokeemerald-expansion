@@ -371,7 +371,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_7:
 .string "Es la única forma de progreso sin\n"
 	.string "provocar en ti una distorsión en la\l"
 	.string "concepción de la realidad. Que veas\l"
-	.string "ciertas cosas, a tu edad… sería\l"
+	.string "ciertas cosas, a tu edad{PAUSE 25}…{PAUSE 25} sería\l"
 	.string "contraproducente.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_8:
@@ -486,7 +486,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_29:
 .string "ANDRA: Exacto, y así debe ser.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_30:
-.string "ADMIN.DEVON: Entonces… el ADMIN que\n"
+.string "ADMIN.DEVON: Entonces{PAUSE 25}…{PAUSE 25} el ADMIN que\n"
 	.string "visitó el LAGO DE LA FURIA tenía razón.\l"
 	.string "Solo que no eres un ENTRENADOR\l"
 	.string "particular, trabajas para el TEAM\l"
@@ -504,7 +504,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_31.1:
 	.string "BASE PROFUNDA.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_32:
-	.string "Pero… si eso es lo mejor de DEVON,\n"
+	.string "Pero{PAUSE 25}…{PAUSE 25} si eso es lo mejor de DEVON,\n"
 	.string "jamás podrán con nosotros. Los\l"
 	.string "LEGENDARIOS y MEGAS ya no son ningún\l"
 	.string "misterio para el TEAM ROCKET.$"

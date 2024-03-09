@@ -32,7 +32,7 @@ Route50_CasaCampeon_Dialogo_Anciana_Texto_1:
 .string "¿¡Q…quién?!$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_2:
-.string "Oh… pensaba que eras mi marido, que\n"
+.string "Oh{PAUSE 25}…{PAUSE 25} pensaba que eras mi marido, que\n"
 	.string "había vuelto.$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_3:
@@ -49,7 +49,7 @@ Route50_CasaCampeon_Dialogo_Anciana_Texto_5:
 	.string "Gracias a ti, volvemos a estar juntos en\n"
 	.string "este lugar. Hacía tiempo que habíamos\l"
 	.string "perdido el contacto, cada uno con sus\l"
-	.string "propios objetivos… Ahora podremos\l"
+	.string "propios objetivos{PAUSE 25}…{PAUSE 25} Ahora podremos\l"
 	.string "disfrutar juntos de esta tranquilidad.$"
 
 

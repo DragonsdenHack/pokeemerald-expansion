@@ -867,7 +867,7 @@ LavenderRadioP4_Devon_Combates_Texto_1:
 .string "OAK: Bienvenidos a todos los invitados\n"
 	.string "a la apertura de TORRE RADIO, me\l"
 	.string "hubiera gustado hacer de esta\l"
-	.string "celebración algo más… del pueblo. Pero,\l"
+	.string "celebración algo más{PAUSE 25}…{PAUSE 25} del pueblo. Pero,\l"
 	.string "como sabéis, los verdaderos propósitos\l"
 	.string "de este lugar no son de dominio público.\l"
 	.string "Después de años de disputas entre\l"
@@ -879,7 +879,7 @@ LavenderRadioP4_Devon_Combates_Texto_1:
 LavenderRadioP4_Devon_Combates_Texto_2:
 .string "ELM: Así es, OAK. Aquí hacemos lo\n"
 	.string "prometido, sintonizamos para toda\l"
-	.string "KANTO… en el primer y segundo piso.$"
+	.string "KANTO{PAUSE 25}…{PAUSE 25} en el primer y segundo piso.$"
 
 LavenderRadioP4_Devon_Combates_Texto_3:
 .string "El resto de pisos, desde el tercero al\n"
@@ -929,7 +929,7 @@ LavenderRadioP4_Devon_Combates_Texto_9:
 
 LavenderRadioP4_Devon_Combates_Texto_10:
 .string "OAK: NIDOKING-X, NIDOQUEEN-Y,\n"
-	.string "PORYGON3… son ejemplos de lo obtenido\l"
+	.string "PORYGON3{PAUSE 25}…{PAUSE 25} son ejemplos de lo obtenido\l"
 	.string "por procesos similares a este, aunque\l"
 	.string "no tan eficientes como los descritos\l"
 	.string "por ELM aquí.$"
@@ -946,7 +946,7 @@ LavenderRadioP4_Devon_Combates_Texto_12:
 	.string "convencionales han supuesto un\l"
 	.string "incremento de +100 respecto a los\l"
 	.string "originales. El FUERTE VÍNCULO supone\l"
-	.string "un +110… ¿Qué podemos esperar de esta\l"
+	.string "un +110{PAUSE 25}…{PAUSE 25} ¿Qué podemos esperar de esta\l"
 	.string "nueva tecnología, ELM?$"
 
 LavenderRadioP4_Devon_Combates_Texto_13:
@@ -1141,13 +1141,13 @@ LavenderRadioP4_Devon_Combates_Texto_49:
 	.string "{PLAYER}.$"
 
 LavenderRadioP4_Devon_Combates_Texto_50:
-.string "BZZZZ… PROTOTIPO X… ACTIVADO.$"
+.string "BZZZZ{PAUSE 25}…{PAUSE 25} PROTOTIPO X{PAUSE 25}…{PAUSE 25} ACTIVADO.$"
 
 LavenderRadioP4_Devon_Combates_Texto_51:
-.string "BZZZZ… GEN LOCO… ACTIVADO.$"
+.string "BZZZZ{PAUSE 25}…{PAUSE 25} GEN LOCO{PAUSE 25}…{PAUSE 25} ACTIVADO.$"
 
 LavenderRadioP4_Devon_Combates_Texto_52:
-.string "MIGUEL: Sí… El mayor potencial físico\n"
+.string "MIGUEL: Sí{PAUSE 35}…{PAUSE 35} El mayor potencial físico\n"
 	.string "posible, bajo mi control. La clase de\l"
 	.string "fuerza bruta necesaria para acabar\l"
 	.string "con alguien como tú. Voy a humillarte\l"
@@ -1166,7 +1166,7 @@ LavenderRadioP4_Devon_Combates_Texto_55:
 .string "MIGUEL: ¡MEWTWO! ¡DESTRUYE!$"
 
 LavenderRadioP4_Devon_Combates_Texto_56:
-.string "Pero… ¡Su ATAQUE es superior a 1000!$"
+.string "Pero{PAUSE 25}…{PAUSE 25} ¡Su ATAQUE es superior a 1000!$"
 
 LavenderRadioP4_Devon_Combates_Texto_57:
 .string "MIGUEL: ¿Por qué?$"
@@ -1178,7 +1178,7 @@ LavenderRadioP4_Devon_Combates_Texto_59:
 .string "…$"
 
 LavenderRadioP4_Devon_Combates_Texto_60:
-.string "Je… Jejeje…$"
+.string "Je{PAUSE 25}…{PAUSE 25} Jejeje{PAUSE 25}…$"
 
 LavenderRadioP4_Devon_Combates_Texto_61:
 .string "En el fondo debo darte las gracias. A\n"
@@ -1279,12 +1279,12 @@ LavenderRadioP4_Devon_Combates_Texto_74:
 .string "…$"
 
 LavenderRadioP4_Devon_Combates_Texto_75:
-.string "No… no me refería al ataque de DEVON,\n"
-	.string "más bien… a todo lo expuesto por ELM y\l"
+.string "No{PAUSE 25}…{PAUSE 25} no me refería al ataque de DEVON,\n"
+	.string "más bien{PAUSE 25}…{PAUSE 25} a todo lo expuesto por ELM y\l"
 	.string "OAK.$"
 
 LavenderRadioP4_Devon_Combates_Texto_76:
-.string "Lo cierto es que… desde que derrotaste\n"
+.string "Lo cierto es que{PAUSE 25}…{PAUSE 25} desde que derrotaste\n"
 	.string "al POKÉMON ESENCIA, y ya en la I GRAN\l"
 	.string "REUNIÓN, me temía todo esto. Pero\l"
 	.string "quise mirar para otro lado. Una parte de\l"
@@ -1380,7 +1380,7 @@ LavenderRadioP4_Devon_Combates_Texto_89:
 	.string "extremo.$"
 
 LavenderRadioP4_Devon_Combates_Texto_90:
-.string "Aún así… me mantendré fiel a mis\n"
+.string "Aún así{PAUSE 45}…{PAUSE 45} me mantendré fiel a mis\n"
 	.string "ideales.$"
 
 LavenderRadioP4_Cuarto_Cientifico::

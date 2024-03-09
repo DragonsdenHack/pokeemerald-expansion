@@ -9,7 +9,7 @@ release
 end
 
 Route49_MazeP1_Text2:
-.string "La PIEDRA DORADA… ¿De modo que\n"
+.string "La PIEDRA DORADA{PAUSE 25}…{PAUSE 25} ¿De modo que\n"
 .string "obtuviste una? Reacciona ante\l"
 .string "determinados POKÉMON de JOHTO, que\l"
 .string "antes evolucionaban, por la mera\l"

@@ -155,7 +155,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_4:
 .string "… …$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_5:
-.string "S…señor… es {PLAYER}, uno de los\n"
+.string "S{PAUSE 15}…{PAUSE 15}señor{PAUSE 25}…{PAUSE 25} es {PLAYER}, uno de los\n"
 	.string "ROCKET más fuertes.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_6:
@@ -182,7 +182,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_10:
 UndergroundPath_12F_Combates_Moteros_Texto_11:
 .string "Nos ayudaste derrotando a BRUNO en el\n"
 	.string "CAMINO BICIS, pero eso fue hace años…\l"
-	.string "los tiempos han cambiado… ¡no\l"
+	.string "los tiempos han cambiado{PAUSE 25}…{PAUSE 25} ¡no\l"
 	.string "tendremos piedad contigo!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_12:
@@ -206,7 +206,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_16:
 .string "¡No! ¡HYDREIGON, SHARPEDO! ¡Seguid!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_17:
-.string "Grrrr… Parece que tienes tu fama bien\n"
+.string "Grrrr{PAUSE 25}…{PAUSE 25} Parece que tienes tu fama bien\n"
 	.string "merecida. No me dejas elección.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_18:

@@ -336,7 +336,7 @@ FourIsland_Secundaria_Anciana_Texto_5:
 
 FourIsland_Secundaria_Anciana_Texto_6:
 .string "Pero más allá del pequeño lago tras\n"
-	.string "subir la cascada, hay algo… de un poder\l"
+	.string "subir la cascada, hay algo{PAUSE 25}…{PAUSE 25} de un poder\l"
 	.string "especial.$"
 
 FourIsland_Secundaria_Anciana_Texto_6.1:
@@ -357,7 +357,7 @@ FourIsland_Secundaria_Anciana_Texto_8:
 	.string "escondía un POKÉMON tan majestuoso.$"
 
 FourIsland_Secundaria_Anciana_Texto_9:
-.string "Mira… es puro hielo, LORELEI sentiría\n"
+.string "Mira{PAUSE 25}…{PAUSE 25} es puro hielo, LORELEI sentiría\n"
 	.string "muchos celos de ti ahora mismo, chico,\l"
 	.string "te lo puedo asegurar.$"
 
@@ -367,11 +367,11 @@ FourIsland_Secundaria_Anciana_Texto_10:
 	.string "por los misterios de este mundo.$"
 
 FourIsland_Secundaria_Anciana_Texto_11:
-.string "Ayyy… Cuantos misterios aún por\n"
+.string "Ayyy{PAUSE 25}…{PAUSE 25} Cuantos misterios aún por\n"
 	.string "resolver, si LORELEI dedicando toda su\l"
 	.string "vida al TIPO HIELO, no ha sabido\l"
 	.string "encontrar a ese POKÉMON en su propia\l"
-	.string "isla… ¿Cuántos POKÉMON increíbles\l"
+	.string "isla{PAUSE 25}…{PAUSE 25} ¿Cuántos POKÉMON increíbles\l"
 	.string "habrá ahí fuera esperando?$"
 
 FourIsland_Secundaria_Anciana_Texto_12:

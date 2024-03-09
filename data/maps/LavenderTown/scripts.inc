@@ -423,7 +423,7 @@ LavenderTown_Cierre_Torre_Texto_2:
 	.string "almas desplazadas.$"
 
 LavenderTown_Cierre_Torre_Texto_3:
-.string "AGATHA: Oh, FUJI… Es el fin de una era,\n"
+.string "AGATHA: Oh, FUJI{PAUSE 25}…{PAUSE 25} Es el fin de una era,\n"
 	.string "¿qué haremos ahora?$"
 
 LavenderTown_Cierre_Torre_Texto_4:
@@ -473,7 +473,7 @@ LavenderTown_Cierre_Torre_Texto_11:
 	.string "proceso de cambio, por mucho que duela.$"
 
 LavenderTown_Cierre_Torre_Texto_12:
-.string "AGATHA: Así que… No queda ya nada para\n"
+.string "AGATHA: Así que{PAUSE 25}…{PAUSE 25} No queda ya nada para\n"
 	.string "mí en esta región pues…$"
 
 LavenderTown_Cierre_Torre_Texto_13:

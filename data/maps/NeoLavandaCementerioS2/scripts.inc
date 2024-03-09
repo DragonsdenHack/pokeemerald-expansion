@@ -243,7 +243,7 @@ NeoLavandaCementerioS2_Combate_Azul_Texto_6:
 	.string "debido fortalecerte mucho.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_7:
-.string "Siento curiosidad… por ver hasta dónde\n"
+.string "Siento curiosidad{PAUSE 25}…{PAUSE 25} por ver hasta dónde\n"
 	.string "has llegado. ¡Muéstrame a tu equipo!$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_8:
@@ -358,8 +358,8 @@ NeoLavandaCementerioS2_Evento_Fuji_Texto_2:
 	.string "es un tanto inestable. No parece ser el\l"
 	.string "espíritu de MAROWAK, ya lo\l"
 	.string "ahuyentaste. Debe tratarse de algo\l"
-	.string "más antiguo… tal vez vinculado a la\l"
-	.string "creación misma de TORRE POKÉMON… es\l"
+	.string "más antiguo{PAUSE 25}…{PAUSE 25} tal vez vinculado a la\l"
+	.string "creación misma de TORRE POKÉMON{PAUSE 25}…{PAUSE 25} es\l"
 	.string "muy probable que haya visto su\l"
 	.string "destrucción como un agravio a su\l"
 	.string "descanso.$"
@@ -664,7 +664,7 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_11:
 	.string "en la esencia de PUEBLO LAVANDA?$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_12:
-.string "FUJI: C-creo… que me ha perdonado.$"
+.string "FUJI: C-creo{PAUSE 45}…{PAUSE 45} que me ha perdonado.$"
 
 
 NeoLavandaCementerioS2_Novena_Exorciasta::

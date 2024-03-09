@@ -381,7 +381,7 @@ Route50_Miguel_Texto_7:
 	.string "también de elevarse por encima de un\l"
 	.string "destino adverso, lo intentó con el\l"
 	.string "mismo ímpetu que el ahora DRAGÓN\l"
-	.string "SAGRADO, pero… no todos pueden ser el\l"
+	.string "SAGRADO, pero{PAUSE 25}…{PAUSE 25} no todos pueden ser el\l"
 	.string "número 1, la gloria solo está reservada\l"
 	.string "a unos pocos.$"
 
@@ -427,15 +427,15 @@ Route50_Miguel_Texto_14:
 	.string "cuanto a su voluntad se le antoje.$"
 
 Route50_Miguel_Texto_15:
-.string "Pero… eso se acabó.$"
+.string "Pero{PAUSE 25}…{PAUSE 25} eso se acabó.$"
 
 Route50_Miguel_Texto_16:
-.string "Este POKÉMON, yo… jamás fuimos tenidos\n"
+.string "Este POKÉMON, yo{PAUSE 25}…{PAUSE 25} jamás fuimos tenidos\n"
 	.string "en cuenta, fuimos subestimados,\l"
 	.string "derrotados, pasados por alto…$"
 
 Route50_Miguel_Texto_17:
-.string "Pero juntos… lograremos sacar la mejor\n"
+.string "Pero juntos{PAUSE 25}…{PAUSE 25} lograremos sacar la mejor\n"
 	.string "parte de nosotros, y con ello nuestro\l"
 	.string "espíritu, nuestra <voluntad>\l"
 	.string "permanecerá inexpugnable.$"

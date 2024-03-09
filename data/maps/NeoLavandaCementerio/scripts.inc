@@ -48,7 +48,7 @@ release
 end
 
 NeoLavandaCementerio_Text_3:
-.string "A los POKÉMON que vivían conmigo… los\n"
+.string "A los POKÉMON que vivían conmigo{PAUSE 25}…{PAUSE 25} los\n"
 .string "quería como a mis nietos.$"
 
 

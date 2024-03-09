@@ -84,7 +84,7 @@ Route49_Pagoda_P9_Combate_Maestro_Texto_2:
 	.string "llegada.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_3:
-.string "La TORRE DUN es… como una cápsula del\n"
+.string "La TORRE DUN es{PAUSE 25}…{PAUSE 25} como una cápsula del\n"
 	.string "tiempo, ¿no crees? No importa todo lo\l"
 	.string "que el mundo haya cambiado, esta\l"
 	.string "pagoda conserva intacta la esencia de\l"
@@ -102,11 +102,11 @@ Route49_Pagoda_P9_Combate_Maestro_Texto_5:
 	.string "testigos para recrear esa ficción.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_6:
-.string "No solo este lugar… ¡mis POKÉMON son\n"
+.string "No solo este lugar{PAUSE 25}…{PAUSE 25} ¡mis POKÉMON son\n"
 	.string "también similares a los de antaño!$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_7:
-.string "Eres un maestro de lo viejo… y de lo\n"
+.string "Eres un maestro de lo viejo{PAUSE 25}…{PAUSE 25} y de lo\n"
 	.string "nuevo.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_8:

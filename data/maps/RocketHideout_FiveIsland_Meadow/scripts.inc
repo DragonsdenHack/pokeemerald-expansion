@@ -223,7 +223,7 @@ RocketHideoutFiveIslandMeadowDocumento_Text_100:
 	.string "traiciones se pagan con la muerte.\l"
 	.string "4.-Actuamos como un solo cuerpo,\l"
 	.string "unidad por encima de\l"
-	.string "individualidad, lo que...\l"
+	.string "individualidad, lo que…\l"
 	.string "5.-No quita que todo Rocket deba\l"
 	.string "de tener iniciativa propia,\l"
 	.string "actitud de búsqueda y mejora\l"
@@ -245,11 +245,11 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_101, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_101:
-    .string "...\n"
-	.string "...\l"
+    .string "…\n"
+	.string "…\l"
 	.string "(Contiene un NIDORINO en su\l"
 	.string "interior, mejor no tocarla\l"
-	.string "demasiado...).$"
+	.string "demasiado…).$"
 
 
 
@@ -258,11 +258,11 @@ msgbox RocketHideoutFiveIslandMeadowDocumento_Text_102, MSGBOX_SIGN
 end
 
 RocketHideoutFiveIslandMeadowDocumento_Text_102:
-    .string "...\n"
-	.string "...\l"
+    .string "…\n"
+	.string "…\l"
 	.string "(Contiene un RHYHORN en su\l"
 	.string "interior, mejor no tocarla\l"
-	.string "demasiado...).$"
+	.string "demasiado…).$"
 
 
 RocketHideoutFiveIslanMeadowAbajo::     
@@ -418,7 +418,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas2:
 	.string "conlleva, yo soy ATLAS, la mano\l"
 	.string "derecha de GIOVANNI, el\l"
 	.string "ADMINISTRADOR principal y LÍDER\l"
-	.string "aquí en ISLAS SETE...$"
+	.string "aquí en ISLAS SETE…$"
 
 
 
@@ -440,7 +440,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas3:
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas4:
-    .string "Recluta nº10: S...\n"
+    .string "Recluta nº10: S{PAUSE 25}…{PAUSE 25}\n"
 	.string "Señor, no he podido evitar ver\l"
 	.string "todos esos POKÉMON poderosos del\l"
 	.string "fondo, y me preguntaba, ¿cómo\l"
@@ -451,7 +451,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas4:
 	.string "ello?\l"
 	.string "No es por criticar, pero un ZUBAT\l"
 	.string "no es una buena herramienta\l"
-	.string "precisamente, tal vez un NIDOR...$"
+	.string "precisamente, tal vez un NIDOR…$"
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas5:
@@ -467,7 +467,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas6:
 	.string "política hacia los nuevos\l"
 	.string "reclutas, no hay ningún motivo\l"
 	.string "para que sigas perteneciendo a\l"
-	.string "nuestra organización...\l"
+	.string "nuestra organización{PAUSE 25}…{PAUSE 25}\l"
 	.string "Espero por tu bien que no digas\l"
 	.string "una sola palabra de lo que aquí\l"
 	.string "hayas podido ver.\l"
@@ -477,7 +477,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas6:
 
 
 RocketHideoutFiveIslandMeadow_Text_Atlas7:
-    .string "ATLAS: ....\n"
+    .string "ATLAS: {PAUSE 25}…{PAUSE 25}\n"
 	.string "Lo último que necesita esta\l"
 	.string "organización es gente acomodada\l"
 	.string "que reclama privilegios antes de\l"
@@ -494,7 +494,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas8:
 	.string "mismísima miembro de la ÉLITE 4,\l"
 	.string "AGATHA, tiene en sus filas, un\l"
 	.string "CROBAT es ya uno de los 5 mejores\l"
-	.string "POKÉMON tipo veneno que existen...\l"
+	.string "POKÉMON tipo veneno que existen{PAUSE 25}…{PAUSE 25}\l"
 	.string "Ágil como un AERODACTYL,\l"
 	.string "resistente y letal con su BOMBA\l"
 	.string "LODO, ¿y váis a rechazar esa\l"
@@ -1162,5 +1162,5 @@ end
 
 Curacion_Curacion_Guarida_Rocket_Texto_1:
 .string "Bienvenido al CENTRO ROCKET de\n"
-	.string "curación exprés...$"
+	.string "curación exprés…$"
 

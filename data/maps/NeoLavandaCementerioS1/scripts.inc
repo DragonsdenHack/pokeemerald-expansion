@@ -10,7 +10,7 @@ end
 
 NeoLavandaCementerioS1_Text_2:
 .string "El CEMENTERIO se ha construido en\n"
-.string "tiempo récord… Algo me dice que FUJI ya\l"
+.string "tiempo récord{PAUSE 25}…{PAUSE 25} Algo me dice que FUJI ya\l"
 .string "sabía lo que iba a ocurrirle a TORRE\l"
 .string "POKÉMON mucho antes que cualquiera de\l"
 .string "nosotros. Sea como sea, esperemos que\l"
@@ -51,7 +51,7 @@ NeoLavandaCementerioS1_Text_4:
 .string "dejaron de ser visitadas hace tiempo.\l"
 .string "Sin embargo, FUJI trasladó todas sin\l"
 .string "excepción, se siente en deuda con el\l"
-.string "pueblo, pero… la realidad es que este\l"
+.string "pueblo, pero{PAUSE 25}…{PAUSE 25} la realidad es que este\l"
 .string "CEMENTERIO será visitado por muy\l"
 .string "pocos a partir de ahora, su destino es\l"
 .string "permanecer en las sombras.$"

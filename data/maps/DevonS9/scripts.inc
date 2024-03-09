@@ -353,7 +353,7 @@ DevonS10_DLC_Escena_Final_Texto_3:
 	.string "C.MIGUEL?$"
 
 DevonS10_DLC_Escena_Final_Texto_4:
-.string "C.MIGUEL: No, yo no… ese fenómeno solo…$"
+.string "C.MIGUEL: No, yo no{PAUSE 25}…{PAUSE 25} ese fenómeno solo{PAUSE 25}…$"
 
 DevonS10_DLC_Escena_Final_Texto_5:
 .string "????: Ya veo, solo está reservado para\n"
@@ -362,7 +362,7 @@ DevonS10_DLC_Escena_Final_Texto_5:
 	.string "uno de los suyos.$"
 
 DevonS10_DLC_Escena_Final_Texto_6:
-.string "C.MIGUEL: …así es…$"
+.string "C.MIGUEL: {PAUSE 25}…{PAUSE 25}así es…$"
 
 DevonS10_DLC_Escena_Final_Texto_7:
 .string "????: Pero ello no ha impedido crear ese\n"
@@ -412,7 +412,7 @@ DevonS10_DLC_Escena_Final_Texto_16:
 	.string "siempre fueron mi pasión.$"
 
 DevonS10_DLC_Escena_Final_Texto_17:
-.string "Aunque… debo estarle agradecido,\n"
+.string "Aunque{PAUSE 25}…{PAUSE 25} debo estarle agradecido,\n"
 	.string "PRESIDENTE; esa breve expedición a los\l"
 	.string "lugares ocultos de JOHTO ha cambiado\l"
 	.string "mi forma de ver el mundo. Ahí fue\l"
@@ -432,7 +432,7 @@ DevonS10_DLC_Escena_Final_Texto_19:
 
 DevonS10_DLC_Escena_Final_Texto_20:
 .string "Puede que hubiera más de uno, uno\n"
-	.string "similar pero… enterrado por la historia.$"
+	.string "similar pero{PAUSE 25}…{PAUSE 25} enterrado por la historia.$"
 
 DevonS10_DLC_Escena_Final_Texto_21:
 .string "????: Eso espero, al igual que le ha\n"

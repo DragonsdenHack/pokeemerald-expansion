@@ -222,7 +222,7 @@ Route47_Encuentro_Andra_Texto_2:
 	.string "teníamos esta misión asignada.$"
 
 Route47_Encuentro_Andra_Texto_2.1:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Route47_Encuentro_Andra_Texto_3:
 .string "¿Tú también lo has notado? Desde que\n"

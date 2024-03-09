@@ -284,7 +284,7 @@ ViasTren5_Combate_Atlas_Texto_8:
 .string "Un POKÉMON así encajaría a la\n"
 	.string "perfección con mi equipo, la pareja\l"
 	.string "perfecta para mi HOUNDOOM y\l"
-	.string "FERALIGATR… Mi deber y ambición como\l"
+	.string "FERALIGATR{PAUSE 25}…{PAUSE 25} Mi deber y ambición como\l"
 	.string "ADMIN.JEFE, al igual que el tuyo, es\l"
 	.string "formar un equipo lo más implacable\l"
 	.string "posible.$"
@@ -313,7 +313,7 @@ ViasTren5_Combate_Atlas_Texto_12:
 	.string "impresionado…$"
 
 ViasTren5_Combate_Atlas_Texto_13:
-.string "ATLAS: Bien… Así ha de ser… Ya me lo\n"
+.string "ATLAS: Bien{PAUSE 25}…{PAUSE 25} Así ha de ser{PAUSE 25}…{PAUSE 25} Ya me lo\n"
 	.string "dijo ANDRA, mejorar tu equipo POKÉMON\l"
 	.string "más y más no es suficiente contigo. Se\l"
 	.string "necesita algo más para romper ese aura\l"
@@ -327,7 +327,7 @@ ViasTren5_Combate_Atlas_Texto_14:
 	.string "tremendo POKÉMON bajo tu poder.$"
 
 ViasTren5_Combate_Atlas_Texto_14.1:
-.string "Porque… a diferencia de la justicia, a\n"
+.string "Porque{PAUSE 25}…{PAUSE 25} a diferencia de la justicia, a\n"
 	.string "la fuerza se la reconoce bien y sin\l"
 	.string "discusión. La búsqueda de sus frutos,\l"
 	.string "así como el evitar que otros los\l"
@@ -341,14 +341,14 @@ ViasTren5_Combate_Atlas_Texto_14.2:
 	.string "espíritu de superación. Cree en ella y\l"
 	.string "sus POKÉMON como nadie, y confía en el\l"
 	.string "proceso. Pero todo eso tiene un límite\l"
-	.string "… biológico.$"
+	.string "{PAUSE 25}…{PAUSE 25} biológico.$"
 
 ViasTren5_Combate_Atlas_Texto_14.3:
 .string "Aunque suene duro, tú sabes que\n"
 	.string "siempre fue así, {PLAYER}. Por eso\l"
 	.string "vamos todos a reunirnos en TRIGAL. La\l"
 	.string "debilidad no tiene lugar aquí, y por\l"
-	.string "ello… no concibo una existencia\l"
+	.string "ello{PAUSE 25}…{PAUSE 25} no concibo una existencia\l"
 	.string "distinta a la plena búsqueda de esa\l"
 	.string "fuerza, aunque sea artificial.$"
 
@@ -380,14 +380,14 @@ ViasTren5_Combate_Atlas_Texto_21:
 	.string "cerrados en breve, ni ZAPD...$"
 
 ViasTren5_Combate_Atlas_Texto_22:
-.string "…$"
+.string "{PAUSE 25}…{PAUSE 25}$"
 
 ViasTren5_Combate_Atlas_Texto_23:
-.string "¿Si? … No… ¿Cómo es posible? ¡Eso no\n"
-	.string "puede estar pasado! ¡Detenedlo ya!$"
+.string "¿Si? {PAUSE 25}…{PAUSE 25} No{PAUSE 25}…{PAUSE 25} ¿Cómo es posible?{PAUSE 25} ¡Eso no\n"
+	.string "puede estar pasado!{PAUSE 25} ¡Detenedlo ya!$"
 
 ViasTren5_Combate_Atlas_Texto_24:
-.string "{PLAYER}... parece que ZAPDOS-P ha\n"
+.string "{PLAYER}{PAUSE 25}...{PAUSE 25} parece que ZAPDOS-P ha\n"
 	.string "volado hacia la renovada CENTRAL\l"
 	.string "ENERGÍA, esta absorbiendo toda la\l"
 	.string "electricidad del lugar, si sigue así,\l"

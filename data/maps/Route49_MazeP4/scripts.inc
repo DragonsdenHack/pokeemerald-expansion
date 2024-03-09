@@ -365,7 +365,7 @@ Route49_MazeP4_Combate_Maestro_Texto_7:
 	.string "frenética.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_8:
-.string "Mmm, bien… enséñame cómo te relacionas\n"
+.string "Mmm, bien{PAUSE 25}…{PAUSE 25} enséñame cómo te relacionas\n"
 	.string "con los tuyos.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_9:
@@ -407,7 +407,7 @@ Route49_MazeP4_Combate_Maestro_Texto_15:
 	.string "JOLTEON, FLAREON y VAPOREON?$"
 
 Route49_MazeP4_Combate_Maestro_Texto_15.1:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Route49_MazeP4_Combate_Maestro_Texto_16:
 .string "Por eso EUSINE está tan interesado en\n"

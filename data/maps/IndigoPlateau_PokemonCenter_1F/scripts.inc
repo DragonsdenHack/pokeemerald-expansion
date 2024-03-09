@@ -77,7 +77,7 @@ IndigoPlateau_PokemonCenter_Text_5:
 .string "del tipo LUCHA con todas las ganas\l"
 .string "del mundo…\p"
 .string "Y me planté ante AGATHA convencido\n"
-.string "de que podría ganar… y no quiero\l"
+.string "de que podría ganar{PAUSE 25}…{PAUSE 25} y no quiero\l"
 .string "ni contarte la paliza que me dio.\p"
 .string "Además, ¡no sabes el genio que\n"
 .string "tiene la señora!\p"

@@ -258,13 +258,13 @@ LakeofRageHouse1_Evento_Devon_Texto_9:
 .string "????: ¿Qué es esto?$"
 
 LakeofRageHouse1_Evento_Devon_Texto_10:
-.string "PESCADOR: Un… Un trofeo, uno de mis\n"
+.string "PESCADOR: Un{PAUSE 25}…{PAUSE 25} Un trofeo, uno de mis\n"
 	.string "antepasados llegó a ser CAMPEÓN de\l"
 	.string "JOHTO.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_11:
 .string "????: ¿Usando únicamente POKÉMON\n"
-	.string "atrapados aquí? No me diga… debían de\l"
+	.string "atrapados aquí? No me diga{PAUSE 25}…{PAUSE 25} debían de\l"
 	.string "ser muy fuertes, tal vez…$"
 
 LakeofRageHouse1_Evento_Devon_Texto_12:

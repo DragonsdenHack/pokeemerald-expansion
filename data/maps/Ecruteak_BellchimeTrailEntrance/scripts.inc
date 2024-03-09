@@ -29,9 +29,9 @@ end
 
 Ecruteak_Bellchimetrailentrance_Text_3:
 .string "Cuando aparecieron los POKÉMON\n"
-.string "LEGENDARIOS… infundieron el\l"
+.string "LEGENDARIOS{PAUSE 25}…{PAUSE 25} infundieron el\l"
 .string "terror en aquellos que vieron su\l"
-.string "ascenso. Y… algunos incluso\l"
+.string "ascenso. Y{PAUSE 25}…{PAUSE 25} algunos incluso\l"
 .string "atacaron en vano. Los POKÉMON\l"
 .string "LEGENDARIOS, conocedores de su\l"
 .string "propio poder, huyeron y\l"

@@ -85,7 +85,7 @@ end
 
 SafariZone_House4_Text_6:
 .string "La verdad es que LORELEI\n"
-.string "impone… A mí me encanta.\p"
+.string "impone{PAUSE 25}…{PAUSE 25} A mí me encanta.\p"
 .string "¿Soy yo la única que percibe el\n"
 .string "aura de solemnidad que le rodea?$"
 

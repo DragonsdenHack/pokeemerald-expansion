@@ -144,7 +144,7 @@ Route49_Pagoda_P5_Encuentro_Texto_3:
 	.string "separa.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_4:
-.string "… …$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Route49_Pagoda_P5_Encuentro_Texto_5:
 .string "Fue aquí donde pude conciliar un largo\n"
@@ -169,7 +169,7 @@ Route49_Pagoda_P5_Encuentro_Texto_7:
 Route49_Pagoda_P5_Encuentro_Texto_8:
 .string "La propia fisiología del POKÉMON está\n"
 	.string "condenada a la mediocridad. Pero hubo\l"
-	.string "uno… que logró voltear todo eso hasta\l"
+	.string "uno{PAUSE 25}…{PAUSE 25} que logró voltear todo eso hasta\l"
 	.string "el extremo contrario. Lo que se\l"
 	.string "suponía que debía ser únicamente le\l"
 	.string "sirvió de combustible para revelarse\l"
@@ -212,4 +212,4 @@ Route49_Pagoda_P5_Encuentro_Texto_13:
 .string "Quién sabe, tal vez pueda aconsejar de\n"
 	.string "nuevo a un entrenador tan\l"
 	.string "extraordinario como tú. Pero\l"
-	.string "honestamente… lo dudo.$"
+	.string "honestamente{PAUSE 25}…{PAUSE 25} lo dudo.$"

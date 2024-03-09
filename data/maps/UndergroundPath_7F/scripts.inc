@@ -285,10 +285,10 @@ UndergroundPath_7F_Combates_Motoristas_Texto_3:
 .string "¡Es el ADMIN.JEFE {PLAYER}!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_4:
-.string "No… no esperábamos verle por aquí.$"
+.string "No{PAUSE 25}…{PAUSE 25} no esperábamos verle por aquí.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_5:
-.string "Escuche… los MOTORISTAS le respetamos\n"
+.string "Escuche{PAUSE 25}…{PAUSE 25} los MOTORISTAS le respetamos\n"
 	.string "mucho por lo que hizo al derrotar a\l"
 	.string "LANCE. Pero hablando claro, las últimas\l"
 	.string "decisiones que ha tomado el TEAM\l"
@@ -311,7 +311,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_9:
 .string "… …$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_10:
-.string "Entonces… No nos queda más remedio que\n"
+.string "Entonces{PAUSE 25}…{PAUSE 25} No nos queda más remedio que\n"
 	.string "abatirle entre los 4, tal y como hemos\l"
 	.string "hecho con el resto de POLICÍAS.$"
 
@@ -326,7 +326,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_13:
 	.string "imposible sobrevivir a tantos WEEZING!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_14:
-.string "Pse… creí que podría hacer algo más.$"
+.string "Pse{PAUSE 25}…{PAUSE 25} creí que podría hacer algo más.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_15:
 .string "Hace honor a su fama, pero ya va\n"
@@ -344,7 +344,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_18:
 .string "¡Fallé!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_19:
-.string "Maldición… Era de esperar que alguien\n"
+.string "Maldición{PAUSE 25}…{PAUSE 25} Era de esperar que alguien\n"
 	.string "que derrotó a las BESTIAS de JOHTO y a\l"
 	.string "los 3 DRAGONITE pudiera con nosotros\l"
 	.string "cuatro…$"
@@ -694,7 +694,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_11:
 
 UndergroundPath_7F_Combate_LtSurge_Texto_12:
 .string "No estamos en un combate homologado,\n"
-	.string "CAMPEÓN… esto…$"
+	.string "CAMPEÓN{PAUSE 25}…{PAUSE 25} esto{PAUSE 25}…{PAUSE 25}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_13:
 .string "(LT.SURGE soltó numerosos POKÉMON\n"
@@ -714,7 +714,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_17:
 .string "¡Empieza la guerra de verdad!$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_18:
-.string "Perdí la batalla y… ¿la guerra?$"
+.string "Perdí la batalla y{PAUSE 25}…{PAUSE 25} ¿la guerra?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_18.1:
 .string "¿Cómo puede ser? Cuando mi fiel RAICHU\n"
@@ -724,7 +724,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_18.1:
 	.string "mis explosivos han sido suficiente.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_19:
-.string "Grrrr… parece que te has vuelto aún\n"
+.string "Grrrr{PAUSE 25}…{PAUSE 25} parece que te has vuelto aún\n"
 	.string "mejor ENTRENADOR, no me dejas\l"
 	.string "elección.$"
 
@@ -756,9 +756,9 @@ UndergroundPath_7F_Combate_LtSurge_Texto_25:
 .string "… …$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_26:
-.string "Ese SURGE… Escucha, {PLAYER}. Debe\n"
+.string "Ese SURGE{PAUSE 25}…{PAUSE 25} Escucha, {PLAYER}. Debe\n"
 	.string "haber alguna LLAVE, puede que alguno\l"
-	.string "de los MOTORISTAS tenga una… o sepa\l"
+	.string "de los MOTORISTAS tenga una{PAUSE 25}…{PAUSE 25} o sepa\l"
 	.string "algo. Si fuera tú, hablaría con todos e\l"
 	.string "intentaría sacarles algo.$"
 
@@ -1345,7 +1345,7 @@ UndergroundPath_7F_Escena_Final_Texto_72:
 	.string "El TEAM ROCKET se ha masificado. Ahora\n"
 	.string "tenemos sucursales en varias regiones,\l"
 	.string "incontables bases secretas, nuevos\l"
-	.string "contactos… Pero…$"
+	.string "contactos{PAUSE 25}…{PAUSE 25} Pero{PAUSE 25}…{PAUSE 15}$"
 
 UndergroundPath_7F_Escena_Final_Texto_12:
 .string "Temo por el hecho de que esta\n"
@@ -1395,7 +1395,7 @@ UndergroundPath_7F_Escena_Final_Texto_75:
 	.string "LT.SURGE: ¡El lenguaje de la guerra!$"
 
 UndergroundPath_7F_Escena_Final_Texto_18:
-.string "KOGA: Me temo que… ¡no nos queda otra \n"
+.string "KOGA: Me temo que{PAUSE 35}…{PAUSE 35} ¡no nos queda otra \n"
 	.string "que volver a luchar por recuperar\l"
 	.string "la vieja KANTO!$"
 
@@ -1425,7 +1425,7 @@ UndergroundPath_7F_Escena_Final_Texto_22:
 .string "¡Lo haremos a nuestro modo!$"
 
 UndergroundPath_7F_Escena_Final_Texto_23:
-.string "WEEZING… defendiste el honor de los\n"
+.string "WEEZING{PAUSE 25}…{PAUSE 25} defendiste el honor de los\n"
 	.string "tuyos…$"
 
 UndergroundPath_7F_Escena_Final_Texto_24:
@@ -1465,7 +1465,7 @@ UndergroundPath_7F_Escena_Final_Texto_32:
 .string "PETREL: A…ANDRA.$"
 
 UndergroundPath_7F_Escena_Final_Texto_33:
-.string "ANDRA: Ya veo… Vosotros…$"
+.string "ANDRA: Ya veo{PAUSE 25}…{PAUSE 25} Vosotros{PAUSE 25}…{PAUSE 25}$"
 
 UndergroundPath_7F_Escena_Final_Texto_34:
 .string "KOGA: No hay vuelta atrás, asumiremos\n"
@@ -1509,7 +1509,7 @@ UndergroundPath_7F_Escena_Final_Texto_42:
 .string "¿Qué decís?$"
 
 UndergroundPath_7F_Escena_Final_Texto_43:
-.string "KOGA: Eso… eso sería…$"
+.string "KOGA: Eso{PAUSE 25}…{PAUSE 25} eso sería{PAUSE 25}…{PAUSE 25}$"
 
 UndergroundPath_7F_Escena_Final_Texto_44:
 .string "PETREL: Sería un sueño para ellos, para\n"

@@ -96,9 +96,9 @@ Route49_Pagoda_P12_Combate_Maestro_Texto_5:
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_6:
 .string "Aquellos desafortunados que no han\n"
-	.string "sufrido adversidad… Que pasan su vida\l"
+	.string "sufrido adversidad{PAUSE 25}…{PAUSE 25} Que pasan su vida\l"
 	.string "sin un oponente, sin llegar jamás a\l"
-	.string "saber de lo que son capaces… dichosos\l"
+	.string "saber de lo que son capaces{PAUSE 25}…{PAUSE 25} dichosos\l"
 	.string "de nosotros por encontrar un rival de\l"
 	.string "altura.$"
 

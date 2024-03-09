@@ -181,7 +181,7 @@ Cianwood_Gym_Combate_Anibal_3_Texto_1:
 	.string "tarde.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_2:
-.string "Así es… hace unos días liberé a mis\n"
+.string "Así es{PAUSE 25}…{PAUSE 25} hace unos días liberé a mis\n"
 	.string "POKÉMON, tal y como te dije en nuestra\l"
 	.string "batalla, hace ya casi 1 año…$"
 

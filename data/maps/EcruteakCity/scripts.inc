@@ -583,7 +583,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_6:
 	.string "por el TIPO FANTASMA.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_7:
-.string "AGATHA: Fíjate en el paisaje… Es cómo\n"
+.string "AGATHA: Fíjate en el paisaje{PAUSE 25}…{PAUSE 25} Es cómo\n"
 	.string "revivir aquellos días, mis sentidos\l"
 	.string "experimentan las mismas sensaciones\l"
 	.string "que antaño, su frescura es similar.$"
@@ -596,11 +596,11 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_9:
 .string "OAK: No... Hemos cambiado nosotros.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_10:
-.string "… …$"
+.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_11:
 .string "Sé que es contraria a la razón, pero\n"
-	.string "siento que existe algo… espiritual… en\l"
+	.string "siento que existe algo{PAUSE 25}…{PAUSE 25} espiritual{PAUSE 25}…{PAUSE 25} en\l"
 	.string "este lugar. Y a pesar de no poder\l"
 	.string "comprenderlo, es imposible ignorar su\l"
 	.string "poder, su presencia.$"
@@ -663,7 +663,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_22:
 
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_23:
-.string "… …$"
+.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_24:
 .string "Me consta que a ese engendro al que\n"

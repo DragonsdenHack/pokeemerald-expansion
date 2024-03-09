@@ -207,10 +207,10 @@ BerryForest_Evento_Hypno_Texto_5:
 .string "PEDRITA: Buuuua…. ¡BUAAAA! …$"
 
 BerryForest_Evento_Hypno_Texto_6:
-.string "Teno miedo… Quiedo id a casa…$"
+.string "Teno miedo…{PAUSE 15} Quiedo id a casa…{PAUSE 15}$"
 
 BerryForest_Evento_Hypno_Texto_7:
-.string "PEDRITA: POKÉMON ho-horrible… ¿Se ha\n"
+.string "PEDRITA: POKÉMON ho-horrible{PAUSE 25}…{PAUSE 25} ¿Se ha\n"
 	.string "ido?$"
 
 BerryForest_Evento_Hypno_Texto_8:

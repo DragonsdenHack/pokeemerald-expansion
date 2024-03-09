@@ -293,7 +293,7 @@ Route44_Combate_Mirto_Texto_5.5:
 
 Route44_Combate_Mirto_Texto_5.6:
 	.string "En cambio, los dioses del MUNDO\n"
-	.string "POKÉMON… ¿Sabes lo que creo?$"
+	.string "POKÉMON{PAUSE 35}…{PAUSE 35} ¿Sabes lo que creo?$"
 
 Route44_Combate_Mirto_Texto_5.7:
 	.string "Nos envidian, {PLAYER}.$"
@@ -351,7 +351,7 @@ Route44_Combate_Mirto_Texto_11:
 
 Route44_Combate_Mirto_Texto_11.1:
 	.string "Con este combate, mi cénit como\n"
-	.string "ENTRENADOR ha concluído. Pero tú… tú\l"
+	.string "ENTRENADOR ha concluído. Pero tú{PAUSE 25}…{PAUSE 25} tú\l"
 	.string "aún puedes hacer sangrar a los dioses.$"
 
 Route44_Combate_Mirto_Texto_12:

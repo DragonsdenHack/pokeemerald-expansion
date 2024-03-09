@@ -237,7 +237,7 @@ ViasSur5_Combate_Pegaso_Texto_14:
 	.string "una vez.$"
 
 ViasSur5_Combate_Pegaso_Texto_15:
-.string "Bien… veo que me harás el honor. No veo\n"
+.string "Bien{PAUSE 25}…{PAUSE 25} veo que me harás el honor. No veo\n"
 	.string "mejor rival que tú para tal propósito.$"
 
 ViasSur5_Combate_Pegaso_Texto_16:

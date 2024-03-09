@@ -1080,7 +1080,7 @@ CinnabarMansion_S2_Escena_7_Texto_3:
 	.string "investigador murió.$"
 
 CinnabarMansion_S2_Escena_7_Texto_4:
-.string "BLAINE: Entonces… ¿solo nosotros\n"
+.string "BLAINE: Entonces{PAUSE 25}…{PAUSE 25} ¿solo nosotros\n"
 	.string "sabemos la ubicación?$"
 
 CinnabarMansion_S2_Escena_7_Texto_5:
@@ -1091,7 +1091,7 @@ CinnabarMansion_S2_Escena_7_Texto_6:
 .string "BLAINE: No entiendo, ¿por qué no\n"
 	.string "actuamos y recuperamos KANTO? Puede\l"
 	.string "que GIOVANNI incluso te perdone si\l"
-	.string "logras derrocar a LANCE… a tu modo.$"
+	.string "logras derrocar a LANCE{PAUSE 25}…{PAUSE 25} a tu modo.$"
 
 CinnabarMansion_S2_Escena_7_Texto_7:
 .string "OAK: Nuestra posición es estable\n"
@@ -1102,11 +1102,11 @@ CinnabarMansion_S2_Escena_7_Texto_7:
 	.string "más poder.$"
 
 CinnabarMansion_S2_Escena_7_Texto_8:
-.string "Además…$"
+.string "Además{PAUSE 25}…$"
 
 CinnabarMansion_S2_Escena_7_Texto_9:
 .string "Ya no será necesario recurrir a MEWTWO,\n"
-	.string "podremos ganar incluso sin él…\l"
+	.string "podremos ganar incluso sin él{PAUSE 25}…{PAUSE 25}\l"
 	.string "especialmente sin él.$"
 
 CinnabarMansion_S2_Escena_7_Texto_10:
@@ -1120,9 +1120,9 @@ CinnabarMansion_S2_Escena_7_Texto_11:
 	.string "en el barro, sin mayor expectativa que\l"
 	.string "seguir otro día más únicamente para\l"
 	.string "evitar que las posibilidades cayeran al\l"
-	.string "0 absoluto… al fin podremos resurgir de\l"
+	.string "0 absoluto{PAUSE 25}…{PAUSE 25} al fin podremos resurgir de\l"
 	.string "nuestras cenizas, recuperar el antiguo\l"
-	.string "esplendor de esta región, ¡y rebasarlo!$"
+	.string "esplendor de esta región, {PAUSE 15}¡y rebasarlo!$"
 
 CinnabarMansion_S2_Escena_7_Texto_12:
 .string "BLAINE: ¿Tanto confías en ese\n"

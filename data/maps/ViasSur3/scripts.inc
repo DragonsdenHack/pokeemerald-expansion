@@ -161,7 +161,7 @@ ViasSur3_Evento_Pegaso_Texto_4:
 ViasSur3_Evento_Pegaso_Texto_5:
 .string "Tal vez más antigua que RUINAS ALFA,\n"
 	.string "quién sabe. Conocemos tan poco acerca\l"
-	.string "de nuestra propia región… y es normal.\l"
+	.string "de nuestra propia región{PAUSE 25}…{PAUSE 25} y es normal.\l"
 	.string "Ante la vastedad del tiempo, solo somos\l"
 	.string "una simple gota en medio del mar.$"
 

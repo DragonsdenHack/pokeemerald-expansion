@@ -431,9 +431,9 @@ RocketHideout7F_Text_23:
 .string "Estos documentos eran una\n"
 .string "quimera para toda la comunidad\l"
 .string "científica hace apenas unos años,\l"
-.string "y mira ahora…\l"
-.string "Aquí están…\l"
-.string "Son reales…$"
+.string "y mira ahora{PAUSE 15}…{PAUSE 15}\l"
+.string "Aquí están{PAUSE 15}…{PAUSE 15}\l"
+.string "Son reales{PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -2592,7 +2592,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_2:
 	.string "la respuesta, LUGIA y HO-OH han\l"
 	.string "vuelto a su región de origen,\l"
 	.string "estoy seguro, tal vez en CIUDAD\l"
-	.string "IRIS, ISLAS REMOLINO...\l"
+	.string "IRIS, ISLAS REMOLINO{PAUSE 15}…{PAUSE 15}\l"
 	.string "En todos esos lugares se les ha\l"
 	.string "llegado a avistar en el pasado,\l"
 	.string "puede que ahí encontremos\l"
@@ -2603,7 +2603,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_2:
 RocketHideout_7F_Fuerte_Vinculo_Texto_3:
 .string "Pero no te he destinado a JOHTO\n"
 	.string "únicamente para cazar LEGENDARIOS,\l"
-	.string "te he enviado también para...dejar\l"
+	.string "te he enviado también para{PAUSE 25}…{PAUSE 25}dejar\l"
 	.string "registrada una parte de su\l"
 	.string "historia, antes de que se pierda.$"
 
@@ -2800,10 +2800,10 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_27:
 .string "Eso es todo, tendrás noticias mías\n"
 	.string "más pronto que tarde {PLAYER}, hay\l"
 	.string "importantes negocios y acuerdos\l"
-	.string "que cerrar en JOHTO también...$"
+	.string "que cerrar en JOHTO también…$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_28:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_29:
 .string "Tal vez el hermetismo y\n"

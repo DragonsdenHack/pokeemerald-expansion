@@ -232,7 +232,7 @@ Route5_PokemonDayCare_Text_DontHaveEnoughMoney::
 	.string "You don't have enough money.$"
 
 Route5_House1_Criador_1:
-    .string "CRIAPOKÉMON: Bien… ya estáis aquí,\n"
+    .string "CRIAPOKÉMON: Bien{PAUSE 25}…{PAUSE 25} ya estáis aquí,\n"
 	.string "sabed que la información que voy a\l"
 	.string "revelaros a partir de ahora es\l"
 	.string "totalmente confidencial, la sola\l"

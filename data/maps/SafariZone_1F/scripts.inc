@@ -159,7 +159,7 @@ SafariZone_1F_Escena_3_Andra_Texto_3:
 	.string "POKÉMON evolucionados sin tú…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_4:
-.string "CIENTÍFICO: Vaya… no todos los días ve\n"
+.string "CIENTÍFICO: Vaya{PAUSE 25}…{PAUSE 25} no todos los días ve\n"
 	.string "uno un URSARING por KANTO. Su ATAQUE\l"
 	.string "es devastador, en esta KANTO se pondrá\l"
 	.string "las botas con su CUCHILLADA, créeme.$"
@@ -210,14 +210,14 @@ SafariZone_1F_Escena_3_Andra_Texto_12:
 	.string "de un dragón como DRATINI.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_13:
-.string "ANDRA: Oh, vaya… ¿Tan fuerte es una vez\n"
+.string "ANDRA: Oh, vaya{PAUSE 25}…{PAUSE 25} ¿Tan fuerte es una vez\n"
 	.string "desarrollado?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14:
 .string "CIENTÍFICO: Más que varios\n"
 	.string "LEGENDARIOS, de hecho, supera en BASE\l"
 	.string "de ATAQUE a URSARING. Es más, lo supera\l"
-	.string "en todo, VELOCIDAD, SALUD, DEFENSA… es\l"
+	.string "en todo, VELOCIDAD, SALUD, DEFENSA{PAUSE 25}…{PAUSE 25} es\l"
 	.string "un 6 a 0 en stats.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_15:
@@ -249,7 +249,7 @@ SafariZone_1F_Escena_3_Andra_Texto_20:
 	.string "inamovibles, no se trata de\l"
 	.string "merecimientos o de entrenamiento, por\l"
 	.string "esas vías tu URSARING podrá derrotar\l"
-	.string "a un DRAGONITE… que no explote tanto\l"
+	.string "a un DRAGONITE{PAUSE 25}…{PAUSE 25} que no explote tanto\l"
 	.string "su potencial, pero a igualdad de todo,\l"
 	.string "no hay nada que hacer. Los stats\l"
 	.string "marcan el potencial intrínseco de cada\l"
@@ -258,7 +258,7 @@ SafariZone_1F_Escena_3_Andra_Texto_20:
 	.string "menor grado, todos tienen límites.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_21:
-.string "ANDRA: Aún así… siento en este\n"
+.string "ANDRA: Aún así{PAUSE 25}…{PAUSE 25} siento en este\n"
 	.string "URSARING un poco de ese potencial al\l"
 	.string "que te refieres, aún por explotar.$"
 

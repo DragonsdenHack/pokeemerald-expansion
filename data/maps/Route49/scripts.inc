@@ -317,7 +317,7 @@ Route49_Combate_Andra_Texto_12:
 	.string "de todo nuestro entrenamiento!$"
 
 Route49_Combate_Andra_Texto_13:
-.string "Ja, ja, ja… Incluso rozar la perfección\n"
+.string "Ja, ja, ja{PAUSE 25}…{PAUSE 25} Incluso rozar la perfección\n"
 	.string "es insuficiente contra ti.$"
 
 Route49_Combate_Andra_Texto_14:

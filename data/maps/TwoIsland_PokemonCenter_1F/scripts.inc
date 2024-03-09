@@ -29,7 +29,7 @@ end
 TwoIsland_PokemonCenter_Text_2:
 .string "¿Quieres atrapar a todos los\n"
 .string "POKéMON que te encuentres?\p"
-.string "¡Qué increíble!… ¡Oye, pues\n"
+.string "¡Qué increíble!{PAUSE 25}…{PAUSE 25} ¡Oye, pues\n"
 .string "avísame si atrapas alguno fuerte!$"
 
 

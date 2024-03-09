@@ -211,13 +211,13 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_12:
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_13:
 .string "El GIMNASIO oculto es solo un ejemplo\n"
-	.string "que has conocido gracias a mí pero…\l"
+	.string "que has conocido gracias a mí pero{PAUSE 25}…{PAUSE 25}\l"
 	.string "¿de cuantos magníficos lugares nos\l"
 	.string "estaremos perdiendo por no contar con\l"
 	.string "los contactos adecuados?$"
 
 RocketWarehouse_Text_6:
-     .string "ATLAS: ....\n"
+     .string "ATLAS: {PAUSE 15}…{PAUSE 15}.\n"
 	.string "(Parece que está centrado en algún\l"
 	.string "proyecto de gran importancia)$"
 
@@ -369,7 +369,7 @@ RocketWarehouseDocumento_Text_100:
 	.string "Por la energía que desprende esta\n"
 	.string "POKÉ BALL, se ve a leguas que hay\l"
 	.string "un POKÉMON bastante potente en su\l"
-	.string "interior...$"
+	.string "interior…$"
 
 
 
@@ -381,7 +381,7 @@ RocketWarehouseDocumento_Text_101:
 	.string "Por la energía que desprende esta\n"
 	.string "POKÉ BALL, se ve a leguas que hay\l"
 	.string "un POKÉMON bastante potente en su\l"
-	.string "interior...$"
+	.string "interior…$"
 
 
 RocketWarehouseDocumento_102::
@@ -393,9 +393,9 @@ RocketWarehouseDocumento_Text_102:
 	.string "y anotaciones en el monitor del PC.\p"
 	.string "- La influencia de las ondas\n"
 	.string "magnéticas en la evolución de los\l"
-	.string "POKéMON - ...\p"
-	.string "... ... ... ... ... ...\p"
-	.string "Cualquiera entiende esto...$"
+	.string "POKéMON - …\p"
+	.string "… … … … … …\p"
+	.string "Cualquiera entiende esto…$"
 
 
 
@@ -720,7 +720,7 @@ RocketWarehouse_Text_MisionAtlas10:
 	.string "necesitáis tener un POKÉMON con\l"
 	.string "SURF, es sabido que los SENTRET\l"
 	.string "del prado son famosos por conocer\l"
-	.string "este movimiento...$"
+	.string "este movimiento…$"
 
 RocketWarehouse_Text_MisionAtlas10_1:
 .string "Antiguamente, los ROCKET atrapaban uno\n"
@@ -731,13 +731,13 @@ RocketWarehouse_Text_MisionAtlas10_2:
 	.string "objetivo de instruir al ROCKET en\l"
 	.string "cualidades tan importantes como la\l"
 	.string "improvisación, el adaptarse y no dar\l"
-	.string "nada por sentado... dejó de hacerse.$"
+	.string "nada por sentado{PAUSE 25}…{PAUSE 25} dejó de hacerse.$"
 
 RocketWarehouse_Text_MisionAtlas10_3:
 .string "En un inicio por ser ineficiente: podían\n"
 	.string "atraparse ingentes cantidades de\l"
 	.string "SENTRET a la vez y usarlas como\l"
-	.string "reserva para nuevos reclutas, pero...$"
+	.string "reserva para nuevos reclutas, pero…$"
 
 RocketWarehouse_Text_MisionAtlas10_4:
 .string "El principal motivo son las nuevas\n"
@@ -965,7 +965,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas8:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas9:
-.string "ATLAS: ... ...\n"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
 	.string "Has mostrado valor e iniciativa\l"
 	.string "propia al entrar tú sola, y\l"
 	.string "admitido tu error, por el momento\l"
@@ -982,7 +982,7 @@ RocketWarehouse_Text_Vuelta_MisionAtlas10:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas11:
-.string "ATLAS: ... ...\n"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
 	.string "No quiero que os vayáis de esta\l"
 	.string "isla sin ningún recuerdo que os\l"
 	.string "vincule con vuestra pequeña\l"

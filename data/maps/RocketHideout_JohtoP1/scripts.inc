@@ -49,7 +49,7 @@ RocketHideoutP1_Text_3:
 .string "excelencia y la perfección en la\l"
 .string "norma, ¿no encuentras eso\l"
 .string "desmotivante?\l"
-.string "Si todos son súper… ya nadie lo\l"
+.string "Si todos son súper{PAUSE 25}…{PAUSE 25} ya nadie lo\l"
 .string "será, y nuestros logros, por más\l"
 .string "buenos que sean, no dejarán de ser\l"
 .string "unos más del montón.$"
@@ -505,7 +505,7 @@ end
 
 RocketHideoutJohtoP1Documento_Text_100:
 .string "TÉCNICAS EMPLEADAS POR OAK:\n"
-	.string "...Pero el motivo principal por\l"
+	.string "…Pero el motivo principal por\l"
 	.string "el que accedimos a respaldar a\l"
 	.string "LANCE fue, básicamente, el\l"
 	.string "control de la información y el\l"
@@ -1416,7 +1416,7 @@ RocketHideoutJohtoP1Documento_Text_129:
 	.string "PUÑO METEORO por STAB + ADAPTABLE.\l"
 	.string "Prioridad con PUÑO BALA y ONDA\l"
 	.string "VACÍO también por STAB y\l"
-	.string "ADAPTABLE...\l"
+	.string "ADAPTABLE…\l"
 	.string "A pesar de sus mejorables\l"
 	.string "defensas, la variedad y poder\l"
 	.string "ofensivo de este POKÉMON no tienen\l"
@@ -1653,7 +1653,7 @@ RocketHideoutJohtoP1_Encuentro_Andra_Texto_2:
 	.string "me equivoco, es ahí donde\l"
 	.string "confinaron a ROJO. Tengo\l"
 	.string "curiosidad por ver qué pasa si le\l"
-	.string "hacemos una visita...$"
+	.string "hacemos una visita…$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_3:
 .string "En fin, deberías terminar de\n"

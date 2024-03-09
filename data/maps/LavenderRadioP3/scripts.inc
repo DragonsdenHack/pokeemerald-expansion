@@ -38,7 +38,7 @@ end
 
 LavenderRadioP3_Text_5:
 .string "Los GASTLY y HAUNTER ahora están en el\n"
-.string "cementerio del sur… ¿Crees que una\l"
+.string "cementerio del sur{PAUSE 25}…{PAUSE 25} ¿Crees que una\l"
 .string "parte ha emigrado a otro lugar? ¿La\l"
 .string "parcela de CIUDAD CARMÍN? Tal vez\l"
 .string "tengas razón.$"

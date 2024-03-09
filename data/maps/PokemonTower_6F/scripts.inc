@@ -168,8 +168,8 @@ PokemonTower_6F_Combate_Fuji_Texto_4:
 	.string "valoráis.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_5:
-.string "RECLUTAS: E--Espere anciano, no\n"
-	.string "hay necesidad de...$"
+.string "RECLUTAS: E{PAUSE 15}-{PAUSE 15}-{PAUSE 15}Espere anciano, no\n"
+	.string "hay necesidad de{PAUSE 15}…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
 .string "RECLUTAS: ¡¡ALTO RANGO {PLAYER}!!\n"
@@ -179,22 +179,22 @@ PokemonTower_6F_Combate_Fuji_Texto_7:
 .string "FUJI: Un joven como tú no debería\n"
 	.string "desperdiciar su vida sirviendo a\l"
 	.string "estos propósitos, ¿{PLAYER}?\l"
-	.string "Vamos recapacita...$"
+	.string "Vamos{PAUSE 15},{PAUSE 15} recapacita{PAUSE 25}…{PAUSE 25}$"
 
 PokemonTower_6F_Combate_Fuji_Texto_8:
 .string "FUJI: Ya veo, no me queda otra que\n"
 	.string "desarmarte igual que hice con tus\l"
-	.string "socios...por la paz de este lugar.$"
+	.string "socios{PAUSE 25}…{PAUSE 25}por la paz de este lugar.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_9:
-.string "Te he fallado CUBONE, perdóname...$"
+.string "Te he fallado CUBONE, perdóname…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10:
 .string "({PLAYER} le entregó a FUJI el\n"
 	.string "CUBONE).$"
 
 PokemonTower_6F_Combate_Fuji_Texto_10.1:
-.string "FUJI: Oh… Entonces, ¿tú…?$"
+.string "FUJI: Oh{PAUSE 35}…{PAUSE 35} Entonces…{PAUSE 35}, ¿tú{PAUSE 25}…{PAUSE 25}?$"
 
 PokemonTower_6F_Combate_Fuji_Texto_11:
 .string "PROTÓN: Sabías que este día iba a\n"
@@ -333,10 +333,10 @@ PokemonTower_6F_Cultistas_Texto_1:
 	.string "alboroto en este lugar sagrado.$"
 
 PokemonTower_6F_Cultistas_Texto_2:
-.string "... ...$"
+.string "… …$"
 
 PokemonTower_6F_Cultistas_Texto_3:
-.string "Hmm... Ciertamente, esperaba otra cosa.\n"
+.string "Hmm{PAUSE 25}…{PAUSE 25} Ciertamente, esperaba otra cosa.\n"
 	.string "No pareces estar atado por las mismas\l"
 	.string "cadenas que dominan la vida de la gran\l"
 	.string "mayoría.$"
@@ -348,16 +348,16 @@ PokemonTower_6F_Cultistas_Texto_4:
 	.string "se ha malogrado.$"
 
 PokemonTower_6F_Cultistas_Texto_5:
-.string "Pero... nada te exhime de lo que acabas\n"
+.string "Pero{PAUSE 25}…{PAUSE 25} nada te exhime de lo que acabas\n"
 	.string "de hacer. Deberás explicarte en el\l"
 	.string "campo de batalla.$"
 
 PokemonTower_6F_Cultistas_Texto_6:
-.string "Ya veo... nada es lo que parece.$"
+.string "Ya veo{PAUSE 25}…{PAUSE 25} nada es lo que parece.$"
 
 PokemonTower_6F_Cultistas_Texto_7:
 .string "Entonces tus actos responden a un fin\n"
-	.string "mayor... No es la primera vez que oigo\l"
+	.string "mayor{PAUSE 25}…{PAUSE 25} No es la primera vez que oigo\l"
 	.string "eso, pero está claro que estás en una\l"
 	.string "capa de la realidad superior a la que\l"
 	.string "pensaba.$"
@@ -373,7 +373,7 @@ PokemonTower_6F_Cultistas_Texto_9:
 	.string "en el camino que dicte tu voluntad.$"
 
 PokemonTower_6F_Cultistas_Texto_10:
-.string "Solo entonces... podrás ver KANTO y\n"
+.string "Solo entonces{PAUSE 25}…{PAUSE 25} podrás ver KANTO y\n"
 	.string "PUEBLO LAVANDA en todo su esplendor.$"
 
 PokemonTower_6F_Cultistas_Texto_11:
@@ -496,10 +496,10 @@ release
 end
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_1:
-.string "Tú...has...provocado...esto...$"
+.string "Tú{PAUSE 15}…{PAUSE 15}has{PAUSE 15}…{PAUSE 15}provocado{PAUSE 15}…{PAUSE 15}esto{PAUSE 15}…{PAUSE 15}$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_2:
-.string "... ... ... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower_6F_Combate_Fantasma_Marowak_Texto_3:
 .string "¡El espíritu de MAROWAK se ha\n"

@@ -86,8 +86,8 @@ release
 end
 
 RocketHideout6F_Text_4:
-.string "…\n"
-.string "…\l"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+.string "{PAUSE 15}…{PAUSE 15}\l"
 .string "(Parece estar reposando, pero a la\l"
 .string "vez listo y expectante ante\l"
 .string "cualquier orden que pueda recibir\l"
@@ -103,8 +103,8 @@ release
 end
 
 RocketHideout6F_Text_5:
-.string "…\n"
-.string "…\l"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+.string "{PAUSE 15}…{PAUSE 15}\l"
 .string "(Parece estar reposando, pero a la\l"
 .string "vez listo y expectante ante\l"
 .string "cualquier orden que pueda recibir\l"
@@ -463,7 +463,7 @@ RocketHideout_6F_Petrel_Text_Mision_2:
 	.string "a la práctica, todo con el fin de\l"
 	.string "llevar dinero a las\l"
 	.string "investigaciones realmente\l"
-	.string "trascendentales...$"
+	.string "trascendentales…$"
 
 RocketHideout_6F_Petrel_Text_Mision_3:
 .string "He oído que vuestro rendimiento\n"
@@ -690,7 +690,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_1:
 
 
 RocketHideout_6F_Petrel_Text_Mision_2_2:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_3:
 .string "Ahora mismo podría mandarte\n"
@@ -764,7 +764,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_10:
 	.string "de tu intervención silenciando a\l"
 	.string "la CÓNSUL del lugar, es cuestión\l"
 	.string "de tiempo que nos corten el\l"
-	.string "chiringito por esa vía...$"
+	.string "chiringito por esa vía…$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_11:
 .string "Y es aquí donde entra tu misión,\n"
@@ -1161,7 +1161,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_8:
 	.string "uso de VUELO.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_9:
-.string "ATLAS: ...$"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_10:
 .string "Bien. Yo me retiro, hay\n"
@@ -1182,7 +1182,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_12:
 	.string "hacia ti. Eres un activo valioso\l"
 	.string "para nuestra organización, y has\l"
 	.string "actuado acorde a nuestros valores,\l"
-	.string "con eso basta...\l"
+	.string "con eso basta{PAUSE 15}…{PAUSE 15}\l"
 	.string "Os veré a los dos en próximos\l"
 	.string "eventos.$"
 
@@ -1214,7 +1214,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_15:
 	.string "nuestro LÍDER GIOVANNI, así como\l"
 	.string "acceso a cierta información\l"
 	.string "privilegiada, pero todo eso a su\l"
-	.string "tiempo...$"
+	.string "tiempo…$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_16:
 .string "¡¡{PLAYER} fue ascendido a RECLUTA\n"
@@ -1225,13 +1225,13 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 	.string "nuevo estatus aquí, y como\l"
 	.string "pago por el éxito en\l"
 	.string "vuestras respectivas misiones,\l"
-	.string "aquí tenéis vuestras recompensas...\l"
+	.string "aquí tenéis vuestras recompensas{PAUSE 15}…{PAUSE 15}\l"
 	.string "A ti {PLAYER}, dado el ahorro que\l"
 	.string "supondrá esa patente, y en\l"
 	.string "compensación por dejarte antes a 0\l"
 	.string "POKÉS después de la misión del\l"
 	.string "MT.MOON, te corresponde lo\l"
-	.string "siguiente...$"
+	.string "siguiente…$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
 .string "¡Acabas de facturar 125000 POKÉS!$"
@@ -1245,7 +1245,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_19:
 	.string "POKÉS.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_20:
-.string "PETREL: Y ahora...\n"
+.string "PETREL: Y ahora{PAUSE 25}…{PAUSE 25}\n"
 	.string "Hablemos de vuestra próxima\l"
 	.string "misión. Ambos sabéis del SS.ANNE,\l"
 	.string "¿cierto?$"
@@ -1259,14 +1259,14 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_22:
 .string "PETREL: Exacto. Es tradición el\n"
 	.string "celebrar una gran fiesta en el\l"
 	.string "crucero antes de su partida\l"
-	.string "definitiva de CARMÍN...$"
+	.string "definitiva de CARMÍN…$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_23:
 .string "PETREL: No quiero que aprovechéis\n"
 	.string "el momento para robar POKÉMON ni\l"
 	.string "mercancías, lo que os voy a pedir\l"
 	.string "es mucho más pequeño y mucho más\l"
-	.string "valioso que todo eso...un frasco.$"
+	.string "valioso que todo eso{PAUSE 25}…{PAUSE 25}un frasco.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_24:
 .string "ANDRA: ¿Un frasco?$"
@@ -1311,12 +1311,12 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_28:
 	.string "resto.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_29:
-.string "PETREL: ...$"
+.string "PETREL: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_30:
 .string "PETREL: Debéis saber que esta\n"
 	.string "misión es una petición expresa del\l"
-	.string "mismísimo GIOVANNI...$"
+	.string "mismísimo GIOVANNI…$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_31:
 .string "PETREL: Nuestro LÍDER cree que\n"
@@ -1618,7 +1618,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_7:
 	.string "la BASE AZULONA.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_8:
-.string "PETREL: ...$"
+.string "PETREL: {PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_9:
 .string "PETREL: Cuando llegásteis aquí, en\n"
@@ -1709,7 +1709,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_16:
 	.string "aún sin tú haber dado indicios de\l"
 	.string "hacer algo malo, en general la\l"
 	.string "población de KANTO nos odia, es\l"
-	.string "como si...$"
+	.string "como si{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_17:
 .string "PETREL: Les hubieran convencido de\n"
@@ -2055,8 +2055,8 @@ end
 
 
 RocketHideout_6F_Maquina_Teletransporte_Texto_1:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "(Parece que el desarrollo de esta\l"
 	.string "máquina se encuentra aún en fases\l"
 	.string "muy tempranas)$"

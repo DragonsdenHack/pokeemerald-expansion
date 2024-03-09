@@ -340,7 +340,7 @@ Mision7Lab4_Dialogo_Oak_Texto_11:
 	.string "infinitos.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_12:
-.string "OAK: Pero… En algo sí que tiene razón.\n"
+.string "OAK: Pero…{PAUSE 30} En algo sí que tiene razón.\n"
 	.string "Lo que ayer era considerado fuerte hoy\l"
 	.string "es mediocre. ¿En qué momento un\l"
 	.string "POKÉMON como ZAPDOS dejó de\l"

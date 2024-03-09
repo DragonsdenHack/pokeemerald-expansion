@@ -28,7 +28,7 @@ VictoryRoad_B1F_EventScript_Halle::
 
 VictoryRoad_B1F_Text_SamuelIntro:
 	.string "Pensar que estoy cada vez más cerca de\n"
-	.string "la LIGA POKéMON… me entra miedo\l"
+	.string "la LIGA POKéMON{PAUSE 25}…{PAUSE 25} me entra miedo\l"
 	.string "escénico…$"
 
 VictoryRoad_B1F_Text_SamuelDefeat:

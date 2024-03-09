@@ -492,12 +492,12 @@ MisionTrigal4_Tercer_Encuentro_Texto_13:
 .string "… …$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_14:
-.string "Espera… ¿El TEAM ROCKET? ¡¿Eres el gran\n"
+.string "Espera{PAUSE 25}…{PAUSE 25} ¿El TEAM ROCKET? ¡¿Eres el gran\n"
 	.string "{PLAYER}?! ¿El LÍDER en JOHTO y mano\l"
 	.string "derecha del mismísimo GIOVANNI?$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_15:
-.string "Oh… Eso explica todo, ruego que nos\n"
+.string "Oh{PAUSE 25}…{PAUSE 25} Eso explica todo, ruego que nos\n"
 	.string "perdones, no volverá a…$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_16:
@@ -534,8 +534,8 @@ MisionTrigal4_Tercer_Encuentro_Texto_23:
 	.string "favor.$"
 
 MisionTrigal4_Tercer_Encuentro_Texto_24:
-.string "Grrrrr… Maldición… Con el TEAM ROCKET\n"
-	.string "no se juega… No nos queda más remedio\l"
+.string "Grrrrr{PAUSE 25}…{PAUSE 25} Maldición{PAUSE 25}…{PAUSE 25} Con el TEAM ROCKET\n"
+	.string "no se juega{PAUSE 25}…{PAUSE 25} No nos queda más remedio\l"
 	.string "que huir de la región y buscar relanzar\l"
 	.string "el negocio lejos de aquí…$"
 

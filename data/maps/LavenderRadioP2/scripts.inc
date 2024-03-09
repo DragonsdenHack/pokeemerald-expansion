@@ -68,7 +68,7 @@ LavenderRadioP2_Text_4:
 .string "Vamos a crear un POKÉMON tan poderoso\n"
 .string "que todas las regiones nos temerán, sé\l"
 .string "que es para defendernos ante un\l"
-.string "ataque pero… ¡con semejante arma\l"
+.string "ataque pero{PAUSE 25}…{PAUSE 25} ¡con semejante arma\l"
 .string "podríamos invadir cualquier región!$"
 
 

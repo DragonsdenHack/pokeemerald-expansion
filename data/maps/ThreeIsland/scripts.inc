@@ -190,7 +190,7 @@ ThreeIsland_Secundaria_Recreativos_Texto_2:
 .string "¡Eh, espera! ¡Eres uno de ellos!$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_3:
-.string "Ah… ¿no?$"
+.string "Ah{PAUSE 25}…{PAUSE 25} ¿no?$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_4:
 .string "Creí que eras uno de esos tipos de\n"
@@ -198,7 +198,7 @@ ThreeIsland_Secundaria_Recreativos_Texto_4:
 	.string "dejar el negocio en ISLA SECUNDA.$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_5:
-.string "… …$"
+.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_5.1:
 .string "¿Tú nos ayudarías a recuperarlo?$"

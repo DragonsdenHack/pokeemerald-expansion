@@ -485,7 +485,7 @@ RocketHideoutViridian_Escena_9_Texto_16:
 .string "¡No entiendo nada de tus desvaríos!$"
 
 RocketHideoutViridian_Escena_9_Texto_17:
-.string "… Tú también lo comprenderás algún día.$"
+.string "{PAUSE 25}…{PAUSE 25} Tú también lo comprenderás algún día.$"
 
 RocketHideoutViridian_Escena_9_Texto_18:
 .string "????: ¡Prefiero no entenderlo!$"
@@ -508,6 +508,6 @@ RocketHideoutViridian_Escena_9_Texto_22:
 	.string "para ambos. Crece alejado de esta\l"
 	.string "farsa, mejora por tu cuenta. Mientras...\l"
 	.string "Yo me encargaré de moldear como es\l"
-	.string "debido la región sobre la que vives… a\l"
+	.string "debido la región sobre la que vives{PAUSE 25}…{PAUSE 25} a\l"
 	.string "cualquier precio.$"
 

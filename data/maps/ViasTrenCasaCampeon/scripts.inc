@@ -45,7 +45,7 @@ release
 end
 
 ViasTrenCasaCampeon_Agatha_Texto_1:
-.string "AGATHA: Oh… {PLAYER}, qué sorpresa\n"
+.string "AGATHA: Oh{PAUSE 25}…{PAUSE 25} {PLAYER}, qué sorpresa\n"
 	.string "verte aquí. No hay lugar en el mundo\l"
 	.string "que se te escape, ¿eh?$"
 
@@ -56,7 +56,7 @@ ViasTrenCasaCampeon_Agatha_Texto_2:
 	.string "cara íbamos a pasear mi GENGAR y yo por\l"
 	.string "sus calles sin la TORRE POKÉMON que nos\l"
 	.string "vio crecer? Sin poder entrar en ella y\l"
-	.string "sentir su energía… no tendría ningún\l"
+	.string "sentir su energía{PAUSE 25}…{PAUSE 25} no tendría ningún\l"
 	.string "sentido seguir allí.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_3:
@@ -217,7 +217,7 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2:
 .string "AGATHA: …$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3:
-.string "Ah… Eras {PLAYER}, ¿no?$"
+.string "Ah{PAUSE 25}…{PAUSE 25} Eras {PLAYER}, ¿no?$"
 
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1:
@@ -246,7 +246,7 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6:
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7:
 .string "Sé que antes te hablé de la\n"
 	.string "imposibilidad de que nuestros equipos\l"
-	.string "se cruzaran, pero… aún vivo…\l"
+	.string "se cruzaran, pero{PAUSE 25}…{PAUSE 25} aún vivo…\l"
 	.string "físicamente no es imposible que tal\l"
 	.string "encuentro se diera. En el MT.PLATEADO\l"
 	.string "pequé de no considerar todas las\l"

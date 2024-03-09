@@ -71,14 +71,14 @@ step_end
 
 SevenIsland_Secundaria_Anciana_Texto_1:
 .string "Ahora no lo aparento, pero cuando era\n"
-	.string "más joven… Iba volando de aquí para\l"
+	.string "más joven{PAUSE 25}…{PAUSE 25} Iba volando de aquí para\l"
 	.string "allá, desafiando a los ENTRENADORES\l"
 	.string "con los que me encontraba. Ahora, me\l"
 	.string "conformo recordando recordando viejos\l"
 	.string "tiempos y viendo combates.$"
 
 SevenIsland_Secundaria_Anciana_Texto_2:
-.string "… …$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 SevenIsland_Secundaria_Anciana_Texto_3:
 .string "Así que ATLAS, debes de ser un gran\n"
@@ -95,7 +95,7 @@ SevenIsland_Secundaria_Anciana_Texto_4:
 
 SevenIsland_Secundaria_Anciana_Texto_5:
 .string "De todos ellos, me consta que el mío es\n"
-	.string "el único que sigue en pie… oculto y\l"
+	.string "el único que sigue en pie{PAUSE 25}…{PAUSE 25} oculto y\l"
 	.string "desconocido para el 99% de los\l"
 	.string "habitantes de SEVII.$"
 

@@ -75,7 +75,7 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_4:
 .string "… …$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_5:
-.string "Así que AGATHA está en el lugar… Era de\n"
+.string "Así que AGATHA está en el lugar{PAUSE 25}…{PAUSE 25} Era de\n"
 	.string "esperar, siempre se aferró a TORRE\l"
 	.string "LAVANDA.$"
 

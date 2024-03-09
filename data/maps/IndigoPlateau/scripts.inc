@@ -93,7 +93,7 @@ RocketHideout_6F_Escena_Lance_Texto_2:
 .string "A pesar de las mejoras en los últimos\n"
 	.string "meses, aún queda mucho trabajo antes\l"
 	.string "de abrirnos al resto del mundo. SEVII,\l"
-	.string "HOENN, JOHTO… pueden esperar. Pero no\l"
+	.string "HOENN{PAUSE 15},{PAUSE 15} JOHTO{PAUSE 25}…{PAUSE 25} pueden esperar. Pero no\l"
 	.string "debéis preocuparos, SILPH es más que\l"
 	.string "suficiente para abastecer a toda\l"
 	.string "KANTO.$"
@@ -158,7 +158,7 @@ RocketHideout_6F_Escena_Lance_Texto_9:
 RocketHideout_6F_Escena_Lance_Texto_10:
 .string "Nada más, si todos remamos en la misma\n"
 	.string "dirección, esta región puede recuperar\l"
-	.string "su esplendor pasado… dentro de unos\l"
+	.string "su esplendor pasado{PAUSE 25}…{PAUSE 25} dentro de unos\l"
 	.string "años.$"
 
 IndigoPlateau_Lance_Discurso_move_1:

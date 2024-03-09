@@ -292,12 +292,12 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_1:
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_2:
 .string "FUJI: Incluso con esos POKÉMON\n"
-	.string "sagrados… puede que no sea suficiente,\l"
+	.string "sagrados{PAUSE 25}…{PAUSE 25} puede que no sea suficiente,\l"
 	.string "LANCE cuenta también con un poder\l"
 	.string "legendario. BLAINE me lo ha confirmado.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_3:
-.string "PROTÓN: … …$"
+.string "PROTÓN: {PAUSE 25}… {PAUSE 25}…{PAUSE 25}$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_4:
 .string "Con MEWTWO todo sería diferente.$"
@@ -310,7 +310,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_5:
 	.string "ayuda de OAK.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_6:
-.string "PROTÓN: Ese OAK… puede que incluso\n"
+.string "PROTÓN: Ese OAK{PAUSE 25}…{PAUSE 25} puede que incluso\n"
 	.string "sepa dónde está.$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_7:
@@ -370,7 +370,7 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_20:
 .string "PROTÓN: ¡SLOWBRO! ¡TELETRANSPORTE!$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_21:
-.string "LT.SURGE: Maldito… un ROCKET con un\n"
+.string "LT.SURGE: Maldito{PAUSE 25}…{PAUSE 25} un ROCKET con un\n"
 	.string "SLOWBRO, seguro que ni siquiera es de\l"
 	.string "KANTO.$"
 

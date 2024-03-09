@@ -133,7 +133,7 @@ NeoCinnabarIsland_Evento_Oak_Texto_4:
 	.string "entierra nuestros progresos.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_5:
-.string "Pero… ¿no es esto señal de que estamos\n"
+.string "Pero{PAUSE 25}…{PAUSE 25} ¿no es esto señal de que estamos\n"
 	.string "en el camino correcto? ¿De que estamos\l"
 	.string "entrando en terreno profano?$"
 

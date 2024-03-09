@@ -158,7 +158,7 @@ Olivine_Pub_Mision_Secundaria_Texto_2:
 .string "… …$"
 
 Olivine_Pub_Mision_Secundaria_Texto_3:
-.string "Oh… Entonces eres algo más que uno de\n"
+.string "Oh…{PAUSE 35} Entonces eres algo más que uno de\n"
 	.string "esos ejecutivos de TRIGAL, tal vez tú\l"
 	.string "puedas…$"
 
@@ -174,7 +174,7 @@ Olivine_Pub_Mision_Secundaria_Texto_5:
 .string "Solo me arrepiento de una cosa: haber\n"
 	.string "dejado atrás a mi querido SNUBULL, el\l"
 	.string "pobre continúa allí. Para mí es\l"
-	.string "imposible volver, pero tú… tal vez\l"
+	.string "imposible volver, pero tú{PAUSE 25}…{PAUSE 25} tal vez\l"
 	.string "puedas abrirte paso por ese lugar, y\l"
 	.string "traerme de vuelta a SNUBULL.$"
 
@@ -199,7 +199,7 @@ Olivine_Pub_Mision_Secundaria_Texto_9:
 	.string "MARINERO.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_10:
-.string "Oh… Mi SNUBBULL… Creí que no volvería a\n"
+.string "Oh…{PAUSE 35} Mi SNUBBULL{PAUSE 25}…{PAUSE 25} Creí que no volvería a\n"
 	.string "verlo nunca más.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_11:

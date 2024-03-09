@@ -73,10 +73,10 @@ walk_slow_right
 step_end
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_1:
-.string "… …$"
+.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_2:
-.string "Oh… mis más sinceras disculpas. Estaba\n"
+.string "Oh{PAUSE 25}…{PAUSE 25} mis más sinceras disculpas. Estaba\n"
 	.string "abstraído, meditando.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_3:
@@ -103,7 +103,7 @@ Route49_Pagoda_P11_Combate_Maestro_Texto_6:
 	.string "con tu equipo POKÉMON?$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_7:
-.string "Oh… ya lo veo…$"
+.string "Oh{PAUSE 25}…{PAUSE 25} ya lo veo…$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_8:
 .string "A pesar de tu corta edad, veo que has\n"

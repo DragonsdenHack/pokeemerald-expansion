@@ -105,7 +105,7 @@ CianwoodEusineHouse_Combate_Texto_7:
 	.string "que demostrar eso que acabas de decir.$"
 
 CianwoodEusineHouse_Combate_Texto_8:
-.string "????: Vaya… parece que te he juzgado\n"
+.string "????: Vaya{PAUSE 25}…{PAUSE 25} parece que te he juzgado\n"
 	.string "mal, a pesar de tu corta edad y alta\l"
 	.string "posición, tus POKÉMON luchan en total\l"
 	.string "armonía, tal y como lo haría el más\l"
@@ -227,7 +227,7 @@ CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8:
 .string "¡Sabía que aceptarías! Entonces…\n"
 	.string "disponéis de un enorme equipo de\l"
 	.string "CIENTÍFICOS que estarán muy\l"
-	.string "interesados en oír todo esto… bien, yo\l"
+	.string "interesados en oír todo esto{PAUSE 25}…{PAUSE 25} bien, yo\l"
 	.string "no me moveré de aquí, en cuanto les\l"
 	.string "confirmes mi incorporación, me pondré a\l"
 	.string "trabajar con ellos.$"

@@ -356,7 +356,7 @@ emote_exclamation_mark
 step_end
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_1:
-.string "EUSINE: Vaya… Entonces, cuando\n"
+.string "EUSINE: Vaya{PAUSE 25}…{PAUSE 25} Entonces, cuando\n"
 	.string "{PLAYER} derrotó a LANCE, con ello\l"
 	.string "liberó a ENTEI, RAIKOU y SUICUNE.$"
 
@@ -420,7 +420,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_12:
 	.string "tienes.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_13:
-.string "ANDRA: Eso… ¡no es posible!$"
+.string "ANDRA: Eso{PAUSE 25}…{PAUSE 15} ¡no es posible!$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_14:
 .string "EUSINE: Creí que eras de esas personas\n"
@@ -431,7 +431,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_14:
 	.string "no posible, simplemente lo hizo.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_15:
-.string "ANDRA: Pero… ¿qué era?$"
+.string "ANDRA: Pero{PAUSE 25}…{PAUSE 25} ¿qué era?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_16:
 .string "EUSINE: Un DUNSPARCE.$"
@@ -510,7 +510,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_28:
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_29:
 .string "En cuanto a la forma\n"
-	.string "PSEUDOLEGENDARIA… me temo que su\l"
+	.string "PSEUDOLEGENDARIA{PAUSE 25}…{PAUSE 25} me temo que su\l"
 	.string "obtención escapa a mis conocimientos,\l"
 	.string "deberéis preguntarle a nuestro gran\l"
 	.string "maestro, ya que muy contados monjes\l"
@@ -518,7 +518,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_29:
 	.string "BLESSPARCE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_30:
-.string "Pero… algo es seguro: el DRAGÓN\n"
+.string "Pero{PAUSE 25}…{PAUSE 25} algo es seguro: el DRAGÓN\n"
 	.string "SAGRADO que enfrentásteis es único e\l"
 	.string "irrepetible. Las escrituras hablan de\l"
 	.string "un fenómeno similar al FUERTE VÍNCULO,\l"
@@ -527,7 +527,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_30:
 	.string "PSEUDOLEGENDARIO.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_31:
-.string "ANDRA: Estoy… impresionada.$"
+.string "ANDRA: Estoy{PAUSE 25}…{PAUSE 25} impresionada.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_32:
 .string "ANDRA: ¡{PLAYER}! ¿Has oído nuestra\n"

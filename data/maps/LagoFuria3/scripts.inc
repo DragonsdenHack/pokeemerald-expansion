@@ -230,7 +230,7 @@ LagoFuria_S3_Combates_Cientificos_Texto_11:
 	.string "recibiríais.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_12:
-.string "Oh… tenemos aquí un espécimen poco\n"
+.string "Oh{PAUSE 25}…{PAUSE 25} tenemos aquí un espécimen poco\n"
 	.string "común.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_13:

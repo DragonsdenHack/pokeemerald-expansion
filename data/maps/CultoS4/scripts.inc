@@ -50,7 +50,7 @@ release
 end
 
 CultoS4_Text_6:
-.string "El POKÉMON ESENCIA… ¿Tendrá un tipo\n"
+.string "El POKÉMON ESENCIA{PAUSE 25}…{PAUSE 25} ¿Tendrá un tipo\n"
 .string "definido? Algunos dicen que por\l"
 .string "definición debe ser FANTASMA, tal vez\l"
 .string "sea una combinación de este y otro\l"

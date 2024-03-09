@@ -230,7 +230,7 @@ CuevaTesoro4_Jefe_Final_Texto_12:
 	.string "combate POKÉMON!$"
 
 CuevaTesoro4_Jefe_Final_Texto_13:
-.string "Es… ¿imposible?$"
+.string "Es{PAUSE 25}…{PAUSE 25} ¿imposible?$"
 
 CuevaTesoro4_Jefe_Final_Texto_14:
 .string "Esto es inaudito, si mi nivel es un 9 en\n"

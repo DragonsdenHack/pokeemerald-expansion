@@ -174,7 +174,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_1:
 
 NeoLavandaPueblo_Combate_Eusine_Texto_2:
 .string "Vuestra organización es fascinante, en\n"
-	.string "serio… ya contábáis con clones de las\l"
+	.string "serio…{PAUSE 35} ya contábáis con clones de las\l"
 	.string "mismísimas BESTIAS SAGRADAS, el\l"
 	.string "trabajar con esa base, junto a mis\l"
 	.string "conocimientos, ha acelerado muchísimo\l"
@@ -188,7 +188,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_3:
 NeoLavandaPueblo_Combate_Eusine_Texto_4:
 .string "Sé que no estás al tanto respecto a\n"
 	.string "estos avances. Lo tuyo es encargarte\l"
-	.string "de la pura acción, pero… ¡te pondré al\l"
+	.string "de la pura acción, pero{PAUSE 25}…{PAUSE 25} ¡te pondré al\l"
 	.string "día!$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_5:
@@ -218,7 +218,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_8:
 .string "…$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_9:
-.string "Entonces… ¿crees que he abandonado\n"
+.string "Entonces{PAUSE 35}…{PAUSE 35} ¿crees que he abandonado\n"
 	.string "mis orígenes? ¿Ya no hay rastro de\l"
 	.string "esos antiguos POKÉMON que usé en mi\l"
 	.string "primer combate?$"
@@ -493,10 +493,10 @@ NeoLavandaPueblo_Policía_Texto_5:
 .string "¡Eso no puede ser!$"
 
 NeoLavandaPueblo_Policía_Texto_6:
-.string "Los MOTORISTAS… se han atrincherado\n"
+.string "Los MOTORISTAS…{PAUSE 35} se han atrincherado\n"
 	.string "dentro, han reabierto los extensos\l"
 	.string "túneles que sirvieron de refugio\l"
-	.string "durante la guerra… ¡y no hay forma de\l"
+	.string "durante la guerra…{PAUSE 25} ¡y no hay forma de\l"
 	.string "sacarles de ahí!$"
 
 NeoLavandaPueblo_Policía_Texto_7:
@@ -516,7 +516,7 @@ NeoLavandaPueblo_Policía_Texto_11:
 .string "… …$"
 
 NeoLavandaPueblo_Policía_Texto_12:
-.string "Oh… Usted… Señor…$"
+.string "Oh{PAUSE 25}…{PAUSE 25} Usted{PAUSE 25}…{PAUSE 25} Señor{PAUSE 25}…{PAUSE 25}$"
 
 NeoLavandaPueblo_Policía_Texto_13:
 .string "Ya veo, quiere encargarse\n"

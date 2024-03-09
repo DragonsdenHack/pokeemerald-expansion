@@ -68,7 +68,7 @@ release
 end
 
 NeoPowerPlant_Text_8:
-.string "Ese POKÉMON… parecía hecho para\n"
+.string "Ese POKÉMON{PAUSE 25}…{PAUSE 25} parecía hecho para\n"
 .string "generar descargas eléctricas, no me\l"
 .string "gustaría recibir un RAYO suyo…$"
 

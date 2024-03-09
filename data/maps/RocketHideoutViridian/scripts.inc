@@ -196,7 +196,7 @@ RocketHideoutViridian_Combate_Proton_Texto_2:
 	.string "en este caso la tuya es la más\l"
 	.string "complicada de todas, y eso\l"
 	.string "requiere medidas de prueba\l"
-	.string "extremas...$"
+	.string "extremas…$"
 
 RocketHideoutViridian_Combate_Proton_Texto_3:
 .string "Los LÍDERES DE GIMNASIO son una\n"
@@ -224,7 +224,7 @@ RocketHideoutViridian_Combate_Proton_Texto_5:
 	.string "ADMINISTRADORES que quedan son más\l"
 	.string "poderosos que yo, apuesto que\l"
 	.string "saltarán chispas en esos\l"
-	.string "combates...$"
+	.string "combates…$"
 
 RocketHideoutViridian_Combate_Proton_Move_1:
 walk_up
@@ -554,7 +554,7 @@ RocketHideoutViridian_Combate_Atlas_Texto_13:
 	.string "esperar lo peor una vez entres en\l"
 	.string "la LIGA POKÉMON, no dejarán que un\l"
 	.string "extraño se alze con el título tan\l"
-	.string "fácilmente...$"
+	.string "fácilmente…$"
 
 RocketHideoutViridian_Combate_Atlas_Texto_14:
 .string "Vuelvo a ISLA INTA {PLAYER}, tal\n"

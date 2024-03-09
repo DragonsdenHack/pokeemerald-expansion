@@ -354,7 +354,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_18:
 	.string "respeto.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_19:
-.string "Pero… no siempre es el más fuerte el que\n"
+.string "Pero{PAUSE 25}…{PAUSE 25} no siempre es el más fuerte el que\n"
 	.string "gana.$"
 
 TwoIsland_Torre_P4_Evento_Final_Texto_20:

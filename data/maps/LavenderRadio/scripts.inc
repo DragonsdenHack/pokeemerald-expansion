@@ -219,7 +219,7 @@ LavenderRadio_Evento_Guay_Texto_2:
 
 LavenderRadio_Evento_Guay_Texto_3:
 .string "POLICÍA: KANTO está más llena que\n"
-	.string "nunca… para las personas adecuadas.$"
+	.string "nunca{PAUSE 25}…{PAUSE 25} para las personas adecuadas.$"
 
 LavenderRadio_Evento_Guay_Texto_4:
 .string "Le estábamos esperando, ADMIN.JEFE\n"

@@ -991,10 +991,10 @@ Silph_11F_Reunión_Presidente_Lance_Texto_6:
 
 Silph_11F_Reunión_Presidente_Lance_Texto_7:
 .string "PRESIDENTE: Ha habido un malentendido,\n"
-	.string "me refería más bien al… resto de la\l"
+	.string "me refería más bien al{PAUSE 25}…{PAUSE 25} resto de la\l"
 	.string "población. Mi empresa no tiene ninguna\l"
-	.string "queja pero… si todo el pastel nos lo\l"
-	.string "repartimos usted y yo… ¿qué quedará\l"
+	.string "queja pero{PAUSE 25}…{PAUSE 25} si todo el pastel nos lo\l"
+	.string "repartimos usted y yo{PAUSE 25}…{PAUSE 25} ¿qué quedará\l"
 	.string "para el resto?$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_8:
@@ -1007,7 +1007,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_8:
 	.string "claro?$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_9:
-.string "PRESIDENTE: … …$"
+.string "PRESIDENTE: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_10:
 .string "LANCE: Ahora, si me disculpa, tengo una\n"

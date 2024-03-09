@@ -284,14 +284,14 @@ EventoLagoFuria5_Combate_Final_Texto_10:
 	.string "ruta en esta región podría derrotarme!$"
 
 EventoLagoFuria5_Combate_Final_Texto_11:
-.string "Esos POKÉMON… Han vivido algo más que\n"
+.string "Esos POKÉMON{PAUSE 25}…{PAUSE 25} Han vivido algo más que\n"
 	.string "vagar sin rumbo por rutas y pueblos,\l"
 	.string "son…una mezcla de nuestra tecnología,\l"
 	.string "pero también del vínculo con los\l"
 	.string "POKÉMON que caracteriza a esta región.$"
 
 EventoLagoFuria5_Combate_Final_Texto_12:
-.string "Tú… ¡Debes pertencer a alguna clase de\n"
+.string "Tú{PAUSE 25}…{PAUSE 25} ¡Debes pertencer a alguna clase de\n"
 	.string "organizac…!$"
 
 EventoLagoFuria5_Combate_Final_Texto_13:
@@ -316,7 +316,7 @@ EventoLagoFuria5_Combate_Final_Texto_17:
 	.string "sus datos fundamentales.$"
 
 EventoLagoFuria5_Combate_Final_Texto_18:
-.string "Así que 82 de BASE en VELOCIDAD… Debe\n"
+.string "Así que 82 de BASE en VELOCIDAD{PAUSE 25}…{PAUSE 25} Debe\n"
 	.string "haber evolucionado durante millones de\l"
 	.string "años, hasta convertirse en un\l"
 	.string "depredador de GYARADOS, su sólida\l"
@@ -325,7 +325,7 @@ EventoLagoFuria5_Combate_Final_Texto_18:
 	.string "refuerzan este hecho…$"
 
 EventoLagoFuria5_Combate_Final_Texto_19:
-.string "Mmm… Se trata de un POKÉMON a medio\n"
+.string "Mmm{PAUSE 25}…{PAUSE 25} Se trata de un POKÉMON a medio\n"
 	.string "camino entre un LEGENDARIO MENOR, y un\l"
 	.string "LEGENDARIO MAYOR, al menos en cuanto a\l"
 	.string "poder. Sus abundantes PS podrían\l"
