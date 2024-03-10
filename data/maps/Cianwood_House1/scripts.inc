@@ -55,7 +55,7 @@ end
 
 Cianwood_House1_Text_3:
 .string "Mis abuelos saben tanto acerca de\n"
-.string "esta ciudad y de JOHTO... Será\l"
+.string "esta ciudad y de JOHTO… Será\l"
 .string "una pena todo el conocimiento que\l"
 .string "se perderá para siempre cuando ya\l"
 .string "no estén.$"

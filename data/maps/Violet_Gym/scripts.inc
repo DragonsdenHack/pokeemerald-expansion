@@ -237,7 +237,7 @@ Violet_Gym_Conversacion_Pegaso_Texto_6:
 	.string "discutiré esto contigo.$"
 
 Violet_Gym_Conversacion_Pegaso_Texto_7:
-.string "PEGASO: ...$"
+.string "PEGASO: {PAUSE 15}…{PAUSE 15}$"
 
 Violet_Gym_Conversacion_Pegaso_Move_1:
 walk_in_place_up
@@ -348,7 +348,7 @@ Violet_Gym_Combate_Pegaso_Texto_3:
 	.string "ENTRENADOR como tú.$"
 
 Violet_Gym_Combate_Pegaso_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Violet_Gym_Combate_Pegaso_Texto_5:
 .string "El arte de entrenar y combatir con\n"
@@ -364,7 +364,7 @@ Violet_Gym_Combate_Pegaso_Texto_6:
 	.string "que has alcanzado con los tuyos!$"
 
 Violet_Gym_Combate_Pegaso_Texto_7:
-.string "Extraordinario...\n"
+.string "Extraordinario{PAUSE 15}…{PAUSE 15}\n"
 	.string "Más aún a tu corta edad.$"
 
 Violet_Gym_Combate_Pegaso_Texto_8:

@@ -42,7 +42,7 @@ end
 
 BurnedTower3_Texto_1:
 .string "Si no aparece nuestro venerable\n"
-	.string "LÍDER, esto puede acabar muy mal...$"
+	.string "LÍDER, esto puede acabar muy mal…$"
 
 
 BurnedTower4::

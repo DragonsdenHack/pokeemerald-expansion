@@ -47,7 +47,7 @@ msgbox SsAnne8FDocumento_Text_101, MSGBOX_SIGN
 end
 
 SsAnne8FDocumento_Text_101:
-.string "Cómo combatir el mareo...\n"
+.string "Cómo combatir el mareo…\n"
 	.string "¡El CAPITÁN está leyendo esto!$"
 
 SsAnne_8F_Capitan::
@@ -226,7 +226,7 @@ SsAnne_8F_Capitan_Text_4:
 .string "CAPITÁN: Te refieres a esto.$"
 
 SsAnne_8F_Capitan_Text_5:
-.string "ANDRA: Vaya, es...enigmático.$"
+.string "ANDRA: Vaya, es{PAUSE 15}…{PAUSE 15}enigmático.$"
 
 SsAnne_8F_Capitan_Text_6:
 .string "CAPITÁN: Así es, joven, el POKÉMON\n"
@@ -292,7 +292,7 @@ SsAnne_8F_Capitan_Text_13:
 .string "CAPITÁN: Y vosotros parecéis dos\n"
 	.string "jóvenes con muchas ganas de\l"
 	.string "aprender. Estaría encantado de\l"
-	.string "enseñaros de no ser porque...$"
+	.string "enseñaros de no ser porque{PAUSE 25}…{PAUSE 25}$"
 
 SsAnne_8F_Capitan_Text_14:
 .string "CAPITÁN: Sé quienes sois y a lo\n"
@@ -348,7 +348,7 @@ SsAnne_8F_Capitan_Text_19:
 	.string "conectan las 7 grandes islas\l"
 	.string "existen ciertos islotes,\l"
 	.string "inexplorados pero habitados por\l"
-	.string "ciertas tribus, y no solo eso...$"
+	.string "ciertas tribus, y no solo eso…$"
 
 SsAnne_8F_Capitan_Text_20:
 .string "Los mapas topográficos contemplan\n"
@@ -445,7 +445,7 @@ SsAnne_8F_Capitan_Text_34:
 .string "CAPITÁN: ¡Hughh!$"
 
 SsAnne_8F_Capitan_Text_35:
-.string "CAPITÁN: Mi cabeza...\n"
+.string "CAPITÁN: Mi cabeza{PAUSE 15}…{PAUSE 15}\n"
 	.string "¡Esa canalla me ha envenenado!$"
 
 SsAnne_8F_Capitan_Text_36:

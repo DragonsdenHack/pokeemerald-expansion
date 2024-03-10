@@ -334,7 +334,7 @@ end
 
 CinnabarIslandGymDocumento_Text_100:
 .string "Una foto de BLAINE\n"
-	.string "y el SR. FUJI...\p"
+	.string "y el SR. FUJI…\p"
 	.string "Aparecen juntos con una sonrisa\n"
 	.string "de oreja a oreja.$"
 	

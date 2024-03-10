@@ -15,8 +15,8 @@ release
 end
 
 SilphS3_Text_3:
-    .string "...\n"
-	.string "...\l"
+    .string "…\n"
+	.string "…\l"
 	.string "(Está completamente inmerso en la\l"
 	.string "tarea que está realizando).$"
 
@@ -296,7 +296,7 @@ SilphS3_Miguel_Batalla_Texto_4:
 	.string "formado el equipo que desde\l"
 	.string "siempre quise formar, y solo puede\l"
 	.string "ir a mejor si avanzo en mis\l"
-	.string "investigaciones, sin embargo...$"
+	.string "investigaciones, sin embargo{PAUSE 15}…{PAUSE 15}$"
 
 SilphS3_Miguel_Batalla_Texto_5:
 .string "No todos los días se presenta la\n"
@@ -304,7 +304,7 @@ SilphS3_Miguel_Batalla_Texto_5:
 	.string "que finalmente pudo derrotar a\l"
 	.string "LANCE, al final resultó que no\l"
 	.string "perdí con un cualquiera, aunque de\l"
-	.string "cara al público lo sigas siendo...$"
+	.string "cara al público lo sigas siendo{PAUSE 15}…{PAUSE 15}$"
 
 SilphS3_Miguel_Batalla_Texto_6:
 .string "¡No veo mejor manera de poner a\n"
@@ -500,20 +500,20 @@ SilphS3_Bill_Batalla_Texto_6:
 .string "No quiero decir con esto que dé\n"
 	.string "por terminada mi faceta como\l"
 	.string "coleccionista, pero KANTO ya\l"
-	.string "está...muy visto, tengo todo cuanto\l"
+	.string "está{PAUSE 25}…{PAUSE 25}muy visto, tengo todo cuanto\l"
 	.string "quiero de esta región: pude\l"
 	.string "hacerme con ejemplares de las AVES\l"
 	.string "LEGENDARIAS, tengo todos los\l"
 	.string "FÓSILES y el pseudolegendario\l"
 	.string "DRAGONITE a mi disposición, los\l"
-	.string "149 POKÉMON en mi POKÉDEX...solo\l"
+	.string "149 POKÉMON en mi POKÉDEX{PAUSE 25}…{PAUSE 25}solo\l"
 	.string "MEW, desaparecido hace casi una\l"
 	.string "década, se me resiste, siendo su\l"
 	.string "posición actual tan incierta que\l"
 	.string "ni merece la pena pensar en ello.$"
 
 SilphS3_Bill_Batalla_Texto_7:
-.string "BILL: ...$"
+.string "BILL: {PAUSE 15}…{PAUSE 15}$"
 
 SilphS3_Bill_Batalla_Texto_8:
 .string "¿El misterioso POKÉMON por el que\n"
@@ -586,7 +586,7 @@ SilphS3_Bill_Batalla_Texto_15:
 	.string "con el que LANCE pudo someter a\l"
 	.string "KANTO, el mismo que tú enfrentaste\l"
 	.string "a las puertas del HALL DE LA FAMA.\l"
-	.string "La cuestión es...\l"
+	.string "La cuestión es{PAUSE 25}…{PAUSE 25}\l"
 	.string "¿¡Podría este equipo, lo último en\l"
 	.string "tecnología, derrocar también al\l"
 	.string "máximo exponente del duro\l"
@@ -600,11 +600,11 @@ SilphS3_Bill_Batalla_Texto_16:
 SilphS3_Bill_Batalla_Texto_17:
 .string "Ni en mis mejores sueños pude\n"
 	.string "imaginar que llegaría a ver tal\l"
-	.string "POKÉMON como PORYGON3, es...casi\l"
+	.string "POKÉMON como PORYGON3, es{PAUSE 25}…{PAUSE 25}casi\l"
 	.string "perfecto, su combinación de tipos\l"
 	.string "con 3 inmunidades, ofensiva\l"
 	.string "descomunal y VELOCIDAD, de no ser\l"
-	.string "por su DEFENSA FÍSICA..., sería\l"
+	.string "por su DEFENSA FÍSICA{PAUSE 15}…{PAUSE 15},{PAUSE 15} sería\l"
 	.string "perfecto.$"
 
 SilphS3_Bill_Batalla_Texto_18:
@@ -700,8 +700,8 @@ end
 SilphS3_Documento_Pokemon_Esencia_Texto_1:
 .string "-LA LEYENDA DEL POKÉMON ESENCIA,\n"
 	.string "AQUEL QUE DA SENTIDO A KANTO:\l"
-	.string "... ...\l"
-	.string "... ...\l"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}\l"
 	.string "Que PUEBLO LAVANDA y su TORRE\l"
 	.string "POKÉMON se asentaran al sur del\l"
 	.string "TÚNEL ROCA no es mera casualidad,\l"
@@ -722,7 +722,7 @@ SilphS3_Documento_Pokemon_Esencia_Texto_1:
 	.string "observando el devenir de\l"
 	.string "acontecimientos de la región de\l"
 	.string "KANTO, atento a aquel momento de\l"
-	.string "incertidumbre previo a la acción...$"
+	.string "incertidumbre previo a la acción{PAUSE 15}…{PAUSE 15}$"
 
 SilphS3_Documento_Pokemon_Esencia_Texto_2:
 .string "¿Seguir leyendo?$"
@@ -756,7 +756,7 @@ SilphS3_Documento_Pokemon_Esencia_Texto_3:
 	.string "-POKÉMON ESENCIA-, si la leyenda\l"
 	.string "es cierta, dicho culto aún existe,\l"
 	.string "oculto en algún rincón de PUEBLO\l"
-	.string "LAVANDA...$"
+	.string "LAVANDA…$"
 
 SilphS3_Sotano::
 lock

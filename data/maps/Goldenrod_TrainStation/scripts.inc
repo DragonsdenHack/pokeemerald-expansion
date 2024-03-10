@@ -105,8 +105,8 @@ Goldenrod_TrainStation_Frontera_Texto_1:
 	.string "lo entiendas.$"
 
 Goldenrod_TrainStation_Frontera_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Goldenrod_TrainStation_Frontera_Texto_3:
 .string "Un momento, ese es el PASE RADIO.\n"

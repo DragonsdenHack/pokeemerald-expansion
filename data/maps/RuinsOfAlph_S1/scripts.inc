@@ -14,7 +14,7 @@ end
 
 RuinsOfAlphS1_Rocket_Cadaver_Texto_1:
 .string "(Parece uno de los ROCKET que\n"
-	.string "entraron a las ruinas...)$"
+	.string "entraron a las ruinas…)$"
 
 RuinsOfAlphS1_Atlas_Piedra::
 lock
@@ -40,7 +40,7 @@ RuinsOfAlphS1_Andra_Texto_1:
 	.string "así, varios de los nuestros ya han\l"
 	.string "caído. Esos horribles esqueletos\l"
 	.string "seguro que han tenido algo que\l"
-	.string "ver...\l"
+	.string "ver…\l"
 	.string "Tenemos que andarnos con cuidado,\l"
 	.string "{PLAYER}, el MAESTRO DRAGÓN tenía\l"
 	.string "razón, este lugar es peligroso.$"
@@ -52,7 +52,7 @@ release
 end
 
 RuinsOfAlphS1_Unown_Despues_texto_1:
-.string "...$"
+.string "…$"
 
 
 RuinsOfAlph_S1_Combate_UnownDorado::
@@ -139,10 +139,10 @@ release
 end
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_1:
-.string "...$"
+.string "…$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_2:
-.string "... ... ... ...$"
+.string "… … … …$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_3:
 .string "(La energía misteriosa se ha\n"
@@ -172,7 +172,7 @@ RuinsOfAlph_S1_Combate_UnownDorado_Texto_8:
 	.string "individual. Solo podemos pasar de\l"
 	.string "uno en uno y para ello hay que\l"
 	.string "derrotar a este UNOWN. GIOVANNI\l"
-	.string "debió poder, ATLAS...$"
+	.string "debió poder, ATLAS…$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_9:
 .string "Sigue adelante, {PLAYER}, estaré\n"
@@ -339,7 +339,7 @@ RuinsOfAlph_S1_Combate_Kabutops_Texto_1:
 .string "(¡Una energía misteriosa te ataca!)$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_2:
-.string "... ... ... ...$"
+.string "… … … …$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_3:
 .string "(La energía misteriosa se ha\n"

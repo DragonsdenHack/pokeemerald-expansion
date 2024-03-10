@@ -69,8 +69,8 @@ Route16_House1_Combate_Vuelo_Texto_1:
 	.string "en que crecen.$"
 
 Route16_House1_Combate_Vuelo_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route16_House1_Combate_Vuelo_Texto_3:
 .string "Mira, si quieres puedo enseñarte a\n"
@@ -107,7 +107,7 @@ Route16_House1_Combate_Vuelo_Texto_6:
 Route16_House1_Combate_Vuelo_Texto_7:
 .string "No esperaba perder, o el mundo ha\n"
 	.string "cambiado mucho desde mi exilio, o\l"
-	.string "tú eres un ENTRENADOR muy capaz...\l"
+	.string "tú eres un ENTRENADOR muy capaz…\l"
 	.string "Si te lo propusieras seguro que\l"
 	.string "podrías luchar por todas las\l"
 	.string "MEDALLAS DE GIMNASIO, alguien como\l"

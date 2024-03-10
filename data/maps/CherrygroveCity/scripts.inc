@@ -344,7 +344,7 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_2:
 .string "¡Trees!$"
 
 CherrygroveCity_Entrenamiento_Pegaso_Texto_3:
-.string "PEGASO: Bien...\n"
+.string "PEGASO: Bien…\n"
 	.string "Bien aguantado, ese VENDAVAL pega\l"
 	.string "cada vez más duro.$"
 
@@ -516,8 +516,8 @@ release
 end
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_1:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_2:
 .string "Dicen que en la RUTA 13 y 14 de\n"
@@ -545,7 +545,7 @@ Cherrygrove_Combate_Pidgeot_Perfecto_Texto_6:
 	.string "¡No te lo pondré fácil!$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_7:
-.string "El ímpetu de mi PIDGEOT se apagó...$"
+.string "El ímpetu de mi PIDGEOT se apagó…$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_8:
 .string "Estoy impresionado, PEGASO no\n"

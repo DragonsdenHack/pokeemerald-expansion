@@ -35,14 +35,14 @@ end
 
 CinnabarIslandLaboratory2Documento_Text_101:
 .string "¡Hay un correo electrónico!\p"
-	.string "...\p"
+	.string "…\p"
 	.string "Los 3 legendarios pájaros POKéMON\n"
 	.string "son ARTICUNO, ZAPDOS y MOLTRES.\p"
 	.string "Desconocemos sus guaridas.\p"
 	.string "Pensamos explorar la cueva\n"
 	.string "que hay cerca de la CELESTE.\p"
 	.string "De: EQUIPO de INVESTIGACIÓN\n"
-	.string "POKéMON...$"
+	.string "POKéMON…$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial::
 lock
@@ -103,8 +103,8 @@ CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_1:
 	.string "conocimientos de combate.$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_3:
 .string "No, tú tampoco pareces tenerlos,\n"
@@ -162,4 +162,4 @@ CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_10:
 	.string "espero que cuando te golpeen con\l"
 	.string "RAYO o PSÍQUICO te tumben de un\l"
 	.string "solo golpe por haberme negado este\l"
-	.string "combate...$"
+	.string "combate…$"

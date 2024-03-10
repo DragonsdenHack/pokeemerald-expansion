@@ -44,18 +44,18 @@ release
 end
 
 RuinsOfAlphS2_Combate_Unown_Texto_1:
-.string "????: ...$"
+.string "????: …$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_2:
 .string "M.ANCIANO: Tú también, {PLAYER}, has\n"
-	.string "logrado llegar hasta aquí...$"
+	.string "logrado llegar hasta aquí…$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_3:
-.string "...$"
+.string "…$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_4:
-.string "Justo delante, está...\n"
-	.string "La otra prueba...$"
+.string "Justo delante, está…\n"
+	.string "La otra prueba…$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_5:
 .string "Lo siento, {PLAYER}, no puedo\n"
@@ -150,7 +150,7 @@ release
 end
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_2:
-.string "... ... ... ...$"
+.string "… … … …$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_3:
 .string "(La energía misteriosa se ha\n"

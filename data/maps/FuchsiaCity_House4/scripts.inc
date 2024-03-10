@@ -133,8 +133,8 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_2:
 	.string "anécdota.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_4:
 .string "¿Cómo dices?\n"
@@ -181,7 +181,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_10:
 	.string "equivoco?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_11:
-.string "Pero...\n"
+.string "Pero{PAUSE 15}…{PAUSE 15}\n"
 	.string "Lamentablemente para ti, yo nunca\l"
 	.string "pierdo, nunca, como crees que he\l"
 	.string "mantenido mi reputación impoluta\l"
@@ -218,7 +218,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_15:
 	.string "victorioso frente a nosotros dos\l"
 	.string "juntos. Sea como sea, nadie te\l"
 	.string "creerá ROCKET, nadie ha visto\l"
-	.string "estos combat...$"
+	.string "estos combat…$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_16:
 .string "¡Guau!\n"

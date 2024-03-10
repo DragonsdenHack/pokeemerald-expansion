@@ -26,15 +26,15 @@ MtPyre_6F_EventScript_Cedric::
 	end
 
 MtPyre_6F_Text_ValerieIntro:
-	.string "Cuando estoy aquí... siento un extraño\n"
+	.string "Cuando estoy aquí… siento un extraño\n"
 	.string "poder dentro de mí.$"
 
 MtPyre_6F_Text_ValerieDefeat:
-	.string "Pues esta vez no lo he sentido mucho...$"
+	.string "Pues esta vez no lo he sentido mucho…$"
 
 MtPyre_6F_Text_ValeriePostBattle:
 	.string "Quizás provenga del espíritu de los\n"
-	.string "POKéMON que a veces acuden aquí...$"
+	.string "POKéMON que a veces acuden aquí…$"
 
 MtPyre_6F_Text_ValerieRegister:
 	.string "Fufufu… I lost the match, but…\n"

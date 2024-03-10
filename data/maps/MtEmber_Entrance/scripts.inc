@@ -37,10 +37,10 @@ release
 end
 
 MtEmberEntrance_12_Texto_1:
-.string "Bien...\n"
+.string "Bien{PAUSE 15}…{PAUSE 15}\n"
 	.string "TATIANO debe de estar al caer con\l"
 	.string "el material necesario para\l"
-	.string "encontrar el RUBY...$"
+	.string "encontrar el RUBY…$"
 
 
 
@@ -139,7 +139,7 @@ MtEmberEntrance_Encuentro_Magno_Texto_2:
 	.string "capturado y unirse a mi equipo.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_4:
 .string "Mentiría si dijera que no prefiero\n"

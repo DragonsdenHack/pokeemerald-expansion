@@ -18,7 +18,7 @@ Route12Path2F_Text_2:
 .string "Las cenizas de mis POKéMON están\n"
 	.string "guardadas en la TORRE POKéMON.\p"
 	.string "Puedes quedarte con esta MT. Ya\n"
-	.string "no la necesito...$"
+	.string "no la necesito…$"
 
 Route12Path2F_1_Despues::
 msgbox Route12Path2F_Text_1, MSGBOX_AUTOCLOSE
@@ -41,7 +41,7 @@ msgbox Route12Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route12Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡Un hombre está pescando!$"
 
 
@@ -51,5 +51,5 @@ msgbox Route12Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route12Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡Es la TORRE POKéMON!$"

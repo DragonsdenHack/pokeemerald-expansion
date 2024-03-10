@@ -599,7 +599,7 @@ BaseRocketHoennDocumento_Text_103:
 	.string "ambos casos, ATAQUE ESPECIAL de solo\l"
 	.string "80 puntos para repartir de la forma más\l"
 	.string "eficiente sus 600 STATS BASE de\l"
-	.string "total... Algunos incluso creen que está\l"
+	.string "total… Algunos incluso creen que está\l"
 	.string "en disposición de competir con\l"
 	.string "LEGENDARIOS MAYORES.$"
 

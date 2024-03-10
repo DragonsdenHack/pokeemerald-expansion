@@ -377,7 +377,7 @@ ViasTren5_Combate_Atlas_Texto_21:
 .string "Esto estaba destinado a ocurrir, antes\n"
 	.string "o después. Ni los MOTORISTAS, ni los\l"
 	.string "subterráneos de KANTO, que serán\l"
-	.string "cerrados en breve, ni ZAPD...$"
+	.string "cerrados en breve, ni ZAPD…$"
 
 ViasTren5_Combate_Atlas_Texto_22:
 .string "{PAUSE 25}…{PAUSE 25}$"
@@ -387,7 +387,7 @@ ViasTren5_Combate_Atlas_Texto_23:
 	.string "puede estar pasado!{PAUSE 25} ¡Detenedlo ya!$"
 
 ViasTren5_Combate_Atlas_Texto_24:
-.string "{PLAYER}{PAUSE 25}...{PAUSE 25} parece que ZAPDOS-P ha\n"
+.string "{PLAYER}{PAUSE 25}…{PAUSE 25} parece que ZAPDOS-P ha\n"
 	.string "volado hacia la renovada CENTRAL\l"
 	.string "ENERGÍA, esta absorbiendo toda la\l"
 	.string "electricidad del lugar, si sigue así,\l"

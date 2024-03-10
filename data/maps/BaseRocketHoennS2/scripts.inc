@@ -831,7 +831,7 @@ BaseRocketHoennS2Documento_Text_111:
 	.string "LEGENDARIOS MAYORES, y no es para\l"
 	.string "menos: Más PS que LAPRAS, VELOCIDAD\l"
 	.string "de MEWTWO, similar ATAQUE ESPECIAL que\l"
-	.string "RAYQUAZA (-5 pt)... Sus números de\l"
+	.string "RAYQUAZA (-5 pt)… Sus números de\l"
 	.string "poder son extraordinarios, con enorme\l"
 	.string "capacidad de stall a la vez que generar\l"
 	.string "daño con su CAÑÓN DINAMAX, cuya única\l"
@@ -1278,7 +1278,7 @@ BaseRocketHoennS2Documento_Text_124:
 	.string "estratégico, capaz de plantar\l"
 	.string "pantallas, usar DESPEJAR, hacer daño\l"
 	.string "decente (95 AT.ESP) con FUERZA LUNAR y\l"
-	.string "ESCALDAR... Su gran carencia viene por\l"
+	.string "ESCALDAR… Su gran carencia viene por\l"
 	.string "la imposibilidad de curarse más allá de\l"
 	.string "RESTOS y ACUA ARO.$"
 

@@ -76,7 +76,7 @@ SeafoamIslands_5F_Combate_Articuno_Texto_1:
 .string "¡Artic!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_2:
-.string "Artic...$"
+.string "Artic{PAUSE 25}…{PAUSE 25}$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_3:
 .string "¡Obtuviste una pluma del\n"
@@ -84,7 +84,7 @@ SeafoamIslands_5F_Combate_Articuno_Texto_3:
 
 SeafoamIslands_5F_Combate_Articuno_Texto_4:
 .string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "... ...\l"
+	.string "{PAUSE 35}… {PAUSE 35}…{PAUSE 35}\l"
 	.string "¿Acabas de batir a ARTICUNO?\l"
 	.string "Perfecto, gran trabajo {PLAYER},\l"
 	.string "AZUL acaba también de cumplir con\l"

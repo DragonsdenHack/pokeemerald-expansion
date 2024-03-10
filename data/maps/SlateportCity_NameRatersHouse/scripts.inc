@@ -73,7 +73,7 @@ SlateportCity_NameRatersHouse_Text_CritiqueWhichMonNickname:
 
 SlateportCity_NameRatersHouse_Text_FineNameSuggestBetterOne:
 	.string "Hmmm… {STR_VAR_1}, ¿a que sí?\n"
-	.string "No está mal, no está mal...\p"
+	.string "No está mal, no está mal…\p"
 	.string "Pero, ¿no crees que podríamos\n"
 	.string "encontrar un nombre aún mejor?$"
 
@@ -88,7 +88,7 @@ SlateportCity_NameRatersHouse_Text_MonShallBeKnownAsName:
 	.string "el anterior, ¡qué suerte tienes!$"
 
 SlateportCity_NameRatersHouse_Text_DoVisitAgain:
-	.string "Muy bien...\n"
+	.string "Muy bien…\n"
 	.string "Entonces vuelve cuando quieras.$"
 
 SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
@@ -99,11 +99,11 @@ SlateportCity_NameRatersHouse_Text_NameNoDifferentYetSuperior:
 
 SlateportCity_NameRatersHouse_Text_MagnificentName:
 	.string "Hmmm… {STR_VAR_1}, ¿a que sí?\n"
-	.string "No está mal, no está mal...\p"
+	.string "No está mal, no está mal…\p"
 	.string "Pero, ¿no crees que podríamos\n"
 	.string "encontrar un nombre aún mejor?$"
 
 SlateportCity_NameRatersHouse_Text_ThatIsMerelyAnEgg:
-	.string "Espera, espera...\n"
+	.string "Espera, espera…\n"
 	.string "¡Esto es solo un HUEVO!$"
 

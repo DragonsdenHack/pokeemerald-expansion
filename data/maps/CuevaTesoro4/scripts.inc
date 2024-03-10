@@ -193,7 +193,7 @@ CuevaTesoro4_Jefe_Final_Texto_7:
 .string "La gruta es como un enorme búnker\n"
 	.string "submarino, hermético para con el\l"
 	.string "exterior. Ello ha permitido preservar\l"
-	.string "toda esta biodiversidad, pero...$" 
+	.string "toda esta biodiversidad, pero…$" 
 	
 CuevaTesoro4_Jefe_Final_Texto_7.1:	
 	.string "También mantener prisioneros a unos\n"

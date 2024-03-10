@@ -523,8 +523,8 @@ RusturfTunnel_Text_MikeIntro:
 	.string "las montañas POKéMONtañeros?$"
 
 RusturfTunnel_Text_MikeDefeat:
-	.string "Mis POKéMON... se han quedado sin\n"
-	.string "fuerzas...$"
+	.string "Mis POKéMON… se han quedado sin\n"
+	.string "fuerzas…$"
 
 RusturfTunnel_Text_MikePostBattle:
 	.string "Aquí decidieron detener el avance del\n"

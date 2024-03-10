@@ -23,7 +23,7 @@ TwoIsland_Torre_P4_Dormido_Texto_2:
 .string "(¡Está echando la siesta!)$"
 
 TwoIsland_Torre_P4_Dormido_Texto_1:
-.string "... ...$"
+.string "… …$"
 
 TwoIsland_Torre_P4_Evento_Final::
 lock
@@ -438,4 +438,4 @@ TwoIsland_Torre_P4_Evento_Final_Texto_2:
 
 TwoIsland_Torre_P4_Evento_Final_Texto_1:
 .string "Como decía, el CRANIDOS lo podemos\n"
-	.string "vender a 7000 FICHAS tranquilamente...$"
+	.string "vender a 7000 FICHAS tranquilamente…$"

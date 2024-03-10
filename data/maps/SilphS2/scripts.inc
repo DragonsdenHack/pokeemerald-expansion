@@ -410,7 +410,7 @@ SilphS2_Text_20:
 .string "plan maléfico?\l"
 .string "¿O creando algún Pokémon\l"
 .string "invencible desde mi computadora?\l"
-.string ".....\l"
+.string "{PAUSE 15}…{PAUSE 15}\l"
 .string "¡Estás en lo cierto!$"
 
 
@@ -495,7 +495,7 @@ end
 
 SilphS2_Text_25:
 .string "Hay tantos POKÉMON interesantes\n"
-.string "por descubrir ahí afuera...\l"
+.string "por descubrir ahí afuera…\l"
 .string "No hay duda de que las condiciones\l"
 .string "de cada lugar son determinantes\l"
 .string "para el desarrollo final de una\l"
@@ -630,7 +630,7 @@ SilphS2_Text_34:
 .string "He oído que en la TORRE RADIO de\n"
 .string "CIUDAD TRIGAL apenas cuentan con\l"
 .string "seguridad, algún día se\l"
-.string "arrepentirán de ello...$"
+.string "arrepentirán de ello…$"
 
 
 

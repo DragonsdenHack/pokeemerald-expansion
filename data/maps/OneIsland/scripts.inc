@@ -34,14 +34,14 @@ end
 OneIsland_Text_2:
 .string "La verdad es que esta isla está\n"
 .string "plantada en medio de la nada,\l"
-.string "pero bueno...\p"
+.string "pero bueno{PAUSE 15}…{PAUSE 15}\p"
 .string "Menos mal que tenemos a un\n"
 .string "chicarrón hecho y derecho como\l"
 .string "CELIO.\p"
 .string "Mi nieta estaba un poco nerviosa\n"
 .string "con la llegada del amigo de CELIO.\p"
 .string "¿Será un POKéMANÍACO?\p"
-.string "En fin..., yo lo que sé es que\n"
+.string "En fin{PAUSE 15}…{PAUSE 15}, yo lo que sé es que\n"
 .string "estamos encantados con CELIO.$"
 
 

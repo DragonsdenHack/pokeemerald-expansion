@@ -159,7 +159,7 @@ VictoryRoad_1F_Text_WallyPostBattle:
 
 VictoryRoad_1F_Text_EdgarIntro:
 	.string "He llegado hasta aquí un par de veces,\n"
-	.string "pero el último tramo es tan difícil...$"
+	.string "pero el último tramo es tan difícil…$"
 
 VictoryRoad_1F_Text_EdgarDefeat:
 	.string "Mi sueño acaba aquí…$"
@@ -183,7 +183,7 @@ VictoryRoad_1F_Text_AlbertPostBattle:
 
 VictoryRoad_1F_Text_HopeIntro:
 	.string "El camino hacia la victoria es largo y\n"
-	.string "tortuoso, como esta calle...$"
+	.string "tortuoso, como esta calle…$"
 
 VictoryRoad_1F_Text_HopeDefeat:
 	.string "¡Tú sí que sabes combatir!$"

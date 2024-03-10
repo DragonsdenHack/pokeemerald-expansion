@@ -123,13 +123,13 @@ Route51_Combate_Chica_Texto_5:
 
 Route51_Combate_Chica_Texto_6:
 .string "¡Genial!\n"
-	.string "En honor a este lugar...\l"
+	.string "En honor a este lugar{PAUSE 25}…{PAUSE 25}\l"
 	.string "¡Cruzaremos la sinuosa frontera\l"
 	.string "entre lo sagrado y lo profano!$"
 
 Route51_Combate_Chica_Texto_7:
-.string "Sí...\n"
-	.string "Eso es...$"
+.string "Sí…\n"
+	.string "Eso es…$"
 
 Route51_Combate_Chica_Texto_8:
 .string "Así es, no existe ingrediente\n"

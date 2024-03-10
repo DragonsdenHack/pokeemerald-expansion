@@ -67,7 +67,7 @@ VioletSprotTowerDocumento_Text_100:
 	.string "Es la solemne estatua de un\n"
 	.string "BELLSPROUT. Tiene grabado algo en\l"
 	.string "letras de oro: - Todos partimos de\l"
-	.string "puntos diferentes... pero todos\l"
+	.string "puntos diferentes{PAUSE 15}…{PAUSE 15} pero todos\l"
 	.string "podemos tocar el mismo cielo-.$"
 
 VioletSprotTower_5::

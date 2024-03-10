@@ -51,8 +51,8 @@ RocketHideoutJohtoP2Documento_Text_101:
 	.string "- NIDOQUEEN\l"
 	.string "- AERODACTYL\l"
 	.string "- TAUROS\l"
-	.string "...\l"
-	.string "...\p"
+	.string "…\l"
+	.string "…\p"
 	.string "Escoge bien.$"
 
 

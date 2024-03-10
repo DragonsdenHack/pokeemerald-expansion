@@ -76,7 +76,7 @@ msgbox SnowpointCity_Quinto_Npc_Texto_1, MSGBOX_DEFAULT
 end
 
 SnowpointCity_Quinto_Npc_Texto_1:
-	.string "Brrr... en esta ciudad hace siempre un\n"
+	.string "Brrr… en esta ciudad hace siempre un\n"
 	.string "frío tremendo. Pero los espíritus de\l"
 	.string "entrenadores y POKÉMON son ardientes.\l"
 	.string "Sobre todo el de la LÍDER DE GIMNASIO.$"

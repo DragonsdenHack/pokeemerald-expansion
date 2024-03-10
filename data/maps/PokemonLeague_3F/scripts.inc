@@ -79,7 +79,7 @@ PokemonLeague_AgathasRoom_EventScript_DefeatedAgatha::
 PokemonLeague_3F_Combate_Agatha_Texto_1:
 .string "No he visto tanto talento junto\n"
 	.string "desde esa época gloriosa donde se\l"
-	.string "debatieron el título OAK y GIOV...\l"
+	.string "debatieron el título OAK y GIOV{PAUSE 15}…{PAUSE 15}\l"
 	.string "Una lástima que todos vayáis a\l"
 	.string "caer miserablemente, no debería de\l"
 	.string "decirte esto {PLAYER}, pero los\l"

@@ -165,8 +165,8 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_2:
 	.string "rastro de ellos.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_4:
 .string "¿Vienes en nombre de los\n"
@@ -213,7 +213,7 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_10:
 .string "No sabía que en KANTO hubiera\n"
 	.string "gente tan fuerte aparte de los\l"
 	.string "LÍDERES DE GIMNASIO, esta región\l"
-	.string "guarda más sorpresas de las que...$"
+	.string "guarda más sorpresas de las que…$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_11:
 .string "¿¡Qué!?\n"

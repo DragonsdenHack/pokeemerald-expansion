@@ -222,7 +222,7 @@ NavelRock_Bottom_Combate_Lugia_Texto_1:
 	.string "a prueba!$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_2:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_3:
 .string "(El LUGIA salvaje desapareció\n"
@@ -262,14 +262,14 @@ NavelRock_Bottom_Combate_Lugia_Texto_8:
 	.string "creo que hemos activado algo\l"
 	.string "importante al ser capaces de\l"
 	.string "derrotarlos, ese enorme\l"
-	.string "terremoto...\l"
+	.string "terremoto{PAUSE 15}…{PAUSE 15}\l"
 	.string "Me han llamado desde nuestra\l"
 	.string "sucursal en JOHTO, informándome de\l"
 	.string "que al parecer ha tenido lugar\l"
 	.string "allí, tal vez eso quiere decir que\l"
 	.string "después de todo LUGIA y HO-OH\l"
 	.string "vuelvan a su lugar de origen, tal\l"
-	.string "vez a...¿reunirse con el POKÉMON\l"
+	.string "vez a{PAUSE 15}…{PAUSE 15}¿reunirse con el POKÉMON\l"
 	.string "ESENCIA?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_9:

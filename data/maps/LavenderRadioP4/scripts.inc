@@ -1115,7 +1115,7 @@ LavenderRadioP4_Devon_Combates_Texto_42:
 
 LavenderRadioP4_Devon_Combates_Texto_43:
 .string "????: La operación ha sido un éxito. Es\n"
-	.string "hora de...$"
+	.string "hora de…$"
 
 LavenderRadioP4_Devon_Combates_Texto_44:
 .string "MIGUEL: ¡NO!$"
@@ -1226,7 +1226,7 @@ LavenderRadioP4_Devon_Combates_Texto_67:
 LavenderRadioP4_Devon_Combates_Texto_67.1:
 .string "BILL: No puedo creerlo. Por mucho que le\n"
 	.string "ofrecieran, incluso investigar nuevos\l"
-	.string "fósiles... él jamás se vendería de esa\l"
+	.string "fósiles… él jamás se vendería de esa\l"
 	.string "forma. Han debido ofrecerle algo más.$"
 
 LavenderRadioP4_Devon_Combates_Texto_67.2:
@@ -1293,7 +1293,7 @@ LavenderRadioP4_Devon_Combates_Texto_76:
 	.string "nuestros equipos continuarían\l"
 	.string "mejorando de forma -natural-, que\l"
 	.string "nuestra progresión lineal y constante\l"
-	.string "seguiría...$"
+	.string "seguiría…$"
 
 LavenderRadioP4_Devon_Combates_Texto_77:
 .string "Pero todo…todo lo que temía se ha\n"

@@ -242,7 +242,7 @@ SafariZone_1F_Escena_3_Andra_Texto_19:
 	.string "ya será por decreto peor que un\l"
 	.string "DRAGONITE en todo, en mi cabeza este\l"
 	.string "URSARING es capaz de superar esa base\l"
-	.string "en ATAQUE...y tal vez más...$"
+	.string "en ATAQUE…y tal vez más…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_20:
 .string "CIENTÍFICO: Los STATS BASE son\n"

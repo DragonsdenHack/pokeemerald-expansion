@@ -97,10 +97,10 @@ end
 Route30_Text_12:
 .string "Dicen que si das muchos cabezazos\n"
 	.string "contra los árboles puede salirte\l"
-	.string "un HERACROSS salvaje...\l"
+	.string "un HERACROSS salvaje…\l"
 	.string "Aunque creo que esto no funciona,\l"
 	.string "debería hacerlo un POKÉMON, no\l"
-	.string "yo...$"
+	.string "yo…$"
 
 
 
@@ -213,8 +213,8 @@ Route30_Anciano_Togepi_Texto_1:
 	.string "la RUTA desde esta posición.$"
 
 Route30_Anciano_Togepi_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route30_Anciano_Togepi_Texto_3:
 .string "¿Cómo?\n"

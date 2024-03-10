@@ -335,7 +335,7 @@ FileIsleMeadow_Recluta_Balls_Text_Yes:
 	.string "futuro ALTO RANGO!$"
 
 FileIsleMeadow_Recluta_Balls_Text_2:
-    .string "Tienes madera...$"
+    .string "Tienes madera…$"
 
 FileIsleMeadow_Recluta_Balls_Text_3:
 	.string "Tienes un gran potencial camarada,\n"
@@ -408,7 +408,7 @@ FileIsleMeadow_Combate_Azul_Texto_2:
 	.string "ocurrido en la LIGA POKÉMON.$"
 
 FileIsleMeadow_Combate_Azul_Texto_3:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 FileIsleMeadow_Combate_Azul_Texto_4:
 .string "Técnicamente soy el CAMPEÓN de la\n"
@@ -416,7 +416,7 @@ FileIsleMeadow_Combate_Azul_Texto_4:
 	.string "que lo que ocurrió allí fue\l"
 	.string "totalmente distinto, fuiste tú\l"
 	.string "quien derrotó a los mejores\l"
-	.string "entrenadores...y a ROJO.$"
+	.string "entrenadores{PAUSE 25}…{PAUSE 25}y a ROJO.$"
 
 FileIsleMeadow_Combate_Azul_Texto_5:
 .string "Ahí me di cuenta que quería ser\n"
@@ -453,7 +453,7 @@ FileIsleMeadow_Combate_Azul_Texto_9:
 	.string "lugares para capturar buenos\l"
 	.string "POKÉMON, tal vez no te impresione\l"
 	.string "después de haber combatido a LANCE\l"
-	.string "pero...\l"
+	.string "pero{PAUSE 15}…{PAUSE 15}\l"
 	.string "¡Concédeme este combate!$"
 
 FileIsleMeadow_Combate_Azul_Texto_10:

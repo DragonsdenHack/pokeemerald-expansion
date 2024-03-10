@@ -99,9 +99,9 @@ Ecruteak_DanceTheater_Text_6:
 .string "también son extraordinarias con\l"
 .string "los POKÉMON.\l"
 .string "Yo siempre las desafio pero nunca\l"
-.string "les he hecho ni un rasguño…\l"
+.string "les he hecho ni un rasguño{PAUSE 15}…{PAUSE 15}\l"
 .string "Ojalá mis POKÉMON fueran tan\l"
-.string "elegantes como las CHICAS KIMONO…$"
+.string "elegantes como las CHICAS KIMONO{PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -353,7 +353,7 @@ Ecruteak_DanceTheater_Batallas_Texto_2:
 	.string "para hacerlo?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_DanceTheater_Batallas_Texto_4:
 .string "Debéis saber que nadie ha podido\n"
@@ -381,7 +381,7 @@ Ecruteak_DanceTheater_Batallas_Texto_8:
 
 
 Ecruteak_DanceTheater_Batallas_Texto_9:
-.string "No me queda ningún POKÉMON...$"
+.string "No me queda ningún POKÉMON{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_DanceTheater_Batallas_Texto_10:
 .string "Sois formidable. ¿{PLAYER}?\n"
@@ -389,8 +389,8 @@ Ecruteak_DanceTheater_Batallas_Texto_10:
 
 
 Ecruteak_DanceTheater_Batallas_Texto_11:
-.string "Ejem, ejem...\n"
-	.string "Me toca...$"
+.string "Ejem, ejem{PAUSE 15}…{PAUSE 15}\n"
+	.string "Me toca{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_DanceTheater_Batallas_Texto_12:
 .string "Está ofreciendo un gran\n"
@@ -421,7 +421,7 @@ Ecruteak_DanceTheater_Batallas_Texto_17:
 Ecruteak_DanceTheater_Batallas_Texto_18:
 .string "Habéis marchitado a mis POKÉMON\n"
 	.string "cual árbol otoñal de SENDA\l"
-	.string "DINDÓN...$"
+	.string "DINDÓN…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_19:
 .string "Aguardad, valeroso caballero.\n"
@@ -474,7 +474,7 @@ Ecruteak_DanceTheater_Batallas_Texto_28:
 .string "Así es.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_29:
-.string "MIRTO: ¿Y podrían... llevar\n"
+.string "MIRTO: ¿Y podrían{PAUSE 25}…{PAUSE 25} llevar\n"
 	.string "acompañantes dentro del lugar?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_30:
@@ -496,10 +496,10 @@ Ecruteak_DanceTheater_Batallas_Texto_30:
 
 Ecruteak_DanceTheater_Batallas_Texto_31:
 .string "MIRTO: Oh, pero entonces es\n"
-	.string "imposible...\l"
+	.string "imposible{PAUSE 15}…{PAUSE 15}\l"
 	.string "El LÍDER de CIUDAD IRIS no sale de\l"
 	.string "TORRE CAMPANA, y tengo entendido\l"
-	.string "que el actual CAMP...$"
+	.string "que el actual CAMP…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_32:
 .string "MIRTO: ¿¡Tú eres el verdadero\n"

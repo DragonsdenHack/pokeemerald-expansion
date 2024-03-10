@@ -224,8 +224,8 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_5:
 	.string "otro iluso más.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6:
-.string "En cambio, HO-OH...\n"
-	.string "TORRE CAMPANA...\l"
+.string "En cambio, HO-OH{PAUSE 15}…{PAUSE 15}\n"
+	.string "TORRE CAMPANA{PAUSE 15}…{PAUSE 15}\l"
 	.string "Presiento que volverá a aparecer.\l"
 	.string "Podría quitar de en medio a todos\l"
 	.string "esos PENSADORES que impiden cruzar\l"
@@ -293,7 +293,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
 	.string "combate al agitador.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
-.string "JAREN: Mmm...\n"
+.string "JAREN: Mmm{PAUSE 15}…{PAUSE 15}\n"
 	.string "Debes de ser {PLAYER}, AGATHA ya me\l"
 	.string "ha hablado de ti. En nombre de\l"
 	.string "CIUDAD IRIS te doy las gracias por\l"

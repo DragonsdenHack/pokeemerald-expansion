@@ -109,12 +109,12 @@ release
 end
 
 CeladonCity_Text10:
-.string "¡Aaaagh, ayyyy...!\n"
+.string "¡Aaaagh, ayyyy…!\n"
 .string "¡Me he achicharrado la lengua!\p"
 .string "La ancianita tan agradable que hay\n"
 .string "en la MANSIÓN, me ha dado un TÉ.\p"
 .string "¡Pero está hirviendo!\n"
-.string "Voy a esperar a ver si se enfría...$"
+.string "Voy a esperar a ver si se enfría…$"
 
 
 CeladonCity11::
@@ -337,14 +337,14 @@ CeladonCity_Entrenador_Especial_Texto_1:
 	.string "debajo del suelo que está causando\l"
 	.string "este problema, si mi nieto\l"
 	.string "regresase aquí y viera el\l"
-	.string "panorama...\l"
+	.string "panorama…\l"
 	.string "Ah, cómo me gustaría rememorar los\l"
 	.string "viejos tiempos con un combate de\l"
 	.string "verdad.$"
 
 CeladonCity_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 CeladonCity_Entrenador_Especial_Texto_3:
 .string "No, no creo que mis POKÉMON tengan\n"
@@ -390,5 +390,5 @@ CeladonCity_Entrenador_Especial_Texto_9:
 	.string "serte muy útil.$"
 
 CeladonCity_Entrenador_Especial_Texto_10:
-.string "Reusar un combate a un anciano...\n"
-	.string "Habráse visto...$"
+.string "Reusar un combate a un anciano…\n"
+	.string "Habráse visto…$"

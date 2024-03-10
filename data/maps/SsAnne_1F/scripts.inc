@@ -90,7 +90,7 @@ SsAnne_1F_Andra_Vuelta_Text_1:
 	.string "Ese CAPITÁN era duro, eh. Nunca\l"
 	.string "había visto esos POKÉMON, deben de\l"
 	.string "venir de otras regiones. Sea como\l"
-	.string "sea, tenemos esa reliquia...$"
+	.string "sea, tenemos esa reliquia…$"
 
 SsAnne_1F_Andra_Vuelta_Text_2:
 .string "SS.ANNE: Aviso para todos los\n"

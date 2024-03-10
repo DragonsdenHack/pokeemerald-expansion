@@ -80,7 +80,7 @@ PokemonLeague_LoreleisRoom_EventScript_DefeatedLorelei::
 PokemonLeague_1F_Combate_Lorelei_Texto_1:
 .string "No puede ser, de nuevo derrotada,\n"
 	.string "creo que un periodo de descanso en\l"
-	.string "ISLA CUARTA no me vendría mal...\l"
+	.string "ISLA CUARTA no me vendría mal…\l"
 	.string "Sigue adelante chico, la LIGA\l"
 	.string "POKÉMON te reserva muchas\l"
 	.string "sorpresas.$"
@@ -105,5 +105,5 @@ PokemonLeague_1F_Combate_Lorelei_Texto_2:
 	.string "¿Comenzamos?$"
 
 PokemonLeague_1F_Combate_Lorelei_Texto_4:
-.string "¡Esto no debería ser así!...$"
+.string "¡Esto no debería ser así!…$"
 

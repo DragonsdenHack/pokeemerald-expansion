@@ -121,7 +121,7 @@ RadioTowerP4_7_Texto_1:
 	.string "es un regalo.$"
 
 RadioTowerP4_7_Texto_2:
-.string "Entonces, así va a ser...\n"
+.string "Entonces, así va a ser…\n"
 	.string "Tenemos mucho trabajo por hacer en\l"
 	.string "los próximos 2 años. Para ese\l"
 	.string "entonces, KANTO y JOHTO formarán\l"
@@ -363,7 +363,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_18:
 	.string "larga.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_19:
-.string "PRESIDENTE: ...$"
+.string "PRESIDENTE: {PAUSE 15}…{PAUSE 15}$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_20:
 .string "PRESIDENTE: Tendréis esa reunión,\n"
@@ -630,7 +630,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
 	.string "el combate nos ha llevado a la\l"
 	.string "cima, ahora es cuando podemos usar\l"
 	.string "nuestra posición para resolver los\l"
-	.string "misterios de est...$"
+	.string "misterios de est…$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5:
 .string "Sois el ADMIN.JEFE {PLAYER}, y la\n"
@@ -645,7 +645,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_7:
 	.string "punto de comenzar.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_8:
-.string "ANDRA: P-pero...\n"
+.string "ANDRA: P{PAUSE 15}-{PAUSE 15}pero{PAUSE 15}…{PAUSE 15}\n"
 	.string "Si aquí no hay nadie.$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_9:
@@ -667,7 +667,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10:
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11:
 .string "ANDRA: No sé por qué esto me\n"
-	.string "es familiar...$"
+	.string "es familiar…$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12:
 .string "ANDRA: ¡Vamos allá, {PLAYER}!\n"

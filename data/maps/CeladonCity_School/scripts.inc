@@ -12,7 +12,7 @@ end
 
 CeladonCitySchoolDocumento_Text_100:
 .string "Es un informe sobre las MT.\p"
-	.string "...\p"
+	.string "…\p"
 	.string "Hay un total de 50 MT.\p"
 	.string "Y siete MO, que pueden usarse\n"
 	.string "una y otra vez.\p"

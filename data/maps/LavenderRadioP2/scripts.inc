@@ -30,7 +30,7 @@ LavenderRadioP2_Text_2:
 .string "controlar el poder que estamos\l"
 .string "creando? Si ese tal MEWTWO escapó hace\l"
 .string "años, en la actualidad, con un poder\l"
-.string "mayor, no sé...$"
+.string "mayor, no sé…$"
 
 
 

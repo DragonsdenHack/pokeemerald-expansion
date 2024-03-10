@@ -110,7 +110,7 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_1:
 	.string "distinguida con POKÉMON que valgan\l"
 	.string "la pena. Como ese chico que hace\l"
 	.string "no mucho vino aquí con su\l"
-	.string "WARTORTLE, un gran ejemplar, sí...$"
+	.string "WARTORTLE, un gran ejemplar, sí…$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_2:
 .string "El mundo de los POKÉMON es\n"
@@ -122,8 +122,8 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_2:
 	.string "impresionantes esperan ahí fuera!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_4:
 .string "¿¡Me estás retando a un combate?!$"
@@ -255,7 +255,7 @@ VermilionCity_Cuarto_NPC_Texto_1:
 
 VermilionCity_Cuarto_NPC_Texto_2:
 .string "Vaya, pensaba que nuestro\n"
-	.string "PRESIDENTE era más fuerte...$"
+	.string "PRESIDENTE era más fuerte…$"
 
 
 
@@ -283,4 +283,4 @@ VermilionCity_Segundo_NPC_Texto_1:
 
 VermilionCity_Segundo_NPC_Texto_2:
 .string "No esperaba que nuestro PRESIDENTE\n"
-	.string "perdiera...$"
+	.string "perdiera…$"

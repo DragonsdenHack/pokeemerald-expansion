@@ -151,13 +151,13 @@ face_player
 step_end
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_1:
-.string "No puede ser...\n"
+.string "No puede ser…\n"
 	.string "Cómo ha podido traicionarme de\l"
-	.string "este modo...$"
+	.string "este modo…$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_3:
 .string "¡Espera!\n"
@@ -209,7 +209,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_9:
 	.string "la VÍA SUBTERRÁNEA que conecta\l"
 	.string "AZULONA con LAVANDA, o en la de\l"
 	.string "CELESTE-CARMÍN, entre esas\l"
-	.string "dos...date prisa.$"
+	.string "dos…date prisa.$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10:
 .string "He sido víctima de un robo masivo\n"
@@ -235,7 +235,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_11:
 	.string "también para tratar de averiguar\l"
 	.string "nuevas formas por las cuales\l"
 	.string "podría adquirir otras evoluciones\l"
-	.string "que desconocemos, sin embargo...$"
+	.string "que desconocemos, sin embargo…$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_12:
 .string "Cuando menos lo esperaba, de un\n"

@@ -113,7 +113,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_3:
 	.string "¡Vas a arrepentirte!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
-.string "Oh... No... Por favor...$"
+.string "Oh… No… Por favor…$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_5:
 .string "Eso es lo que pasa cuando\n"

@@ -98,7 +98,7 @@ walk_in_place_down
 step_end
 
 CasaTrxatu_Combate_Texto_1:
-.string "... ...$"
+.string "… …$"
 
 CasaTrxatu_Combate_Texto_2:
 .string "Vaya, parece que, por muy oculto\n"
@@ -121,7 +121,7 @@ CasaTrxatu_Combate_Texto_4:
 CasaTrxatu_Combate_Texto_5:
 .string "Yo fui parte de ese culto, sin\n"
 	.string "embargo, tuve ciertas\l"
-	.string "discrepancias con su LÍDER...$"
+	.string "discrepancias con su LÍDER…$"
 
 CasaTrxatu_Combate_Texto_6:
 .string "Digamos que logré huir antes de\n"
@@ -159,7 +159,7 @@ CasaTrxatu_Combate_Texto_8:
 .string "Debes de ser alguien digno de\n"
 	.string "conocer, derrotaste a LANCE,\l"
 	.string "descubriste el culto más sagrado\l"
-	.string "de KANTO y lograste salir airoso...$"
+	.string "de KANTO y lograste salir airoso…$"
 
 CasaTrxatu_Combate_Texto_9:
 .string "Siempre digo que las comparaciones\n"
@@ -190,7 +190,7 @@ CasaTrxatu_Combate_Texto_12:
 .string "Rozas la excelencia, espléndido.$"
 
 CasaTrxatu_Combate_Texto_13:
-.string "Vaya...\n"
+.string "Vaya…\n"
 	.string "Creí que con el singular POKÉMON\l"
 	.string "que capturé en las ruinas de al\l"
 	.string "lado tendría oportunidad ante un\l"

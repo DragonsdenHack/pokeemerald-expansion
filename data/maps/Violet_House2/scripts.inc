@@ -31,6 +31,6 @@ release
 end
 
 VioletCity_House2_Text_2:
-.string "Disfruta de esta ciudad...\n"
+.string "Disfruta de esta ciudad…\n"
 .string "¡Disfruta mientras aún perduren\l"
 .string "los paisajes de antaño!$"

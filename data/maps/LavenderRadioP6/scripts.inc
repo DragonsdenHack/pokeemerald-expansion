@@ -689,7 +689,7 @@ LavenderRadioP6_Encuentro_Andra_Texto_2.3:
 	.string "cambios tan repentinos nos están\l"
 	.string "cegando un poco a todos. Y todo esto\l"
 	.string "de las ondas de radio, a mí me genera\l"
-	.string "inquietud...$"
+	.string "inquietud…$"
 
 
 LavenderRadioP6_Encuentro_Andra_Texto_3:
@@ -697,7 +697,7 @@ LavenderRadioP6_Encuentro_Andra_Texto_3:
 	.string "muchas veces, {PLAYER}. Estar\l"
 	.string "expectante, apunto de vivir algo sin\l"
 	.string "tener ni idea de qué ocurrirá, esa\l"
-	.string "incertidumbre...$"
+	.string "incertidumbre…$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_4:
 .string "Pero esta vez presiento que será\n"

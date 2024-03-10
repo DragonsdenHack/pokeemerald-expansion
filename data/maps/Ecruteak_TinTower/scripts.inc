@@ -49,10 +49,10 @@ end
 Ecruteak_TinTower_Text_3:
 .string "Se dice que los POKÉMON\n"
 .string "LEGENDARIOS encarnan tres\l"
-.string "poderes... el rayo que alcanzó la\l"
-.string "torre... el fuego que quemó la\l"
-.string "torre... y la lluvia que apagó\l"
-.string "dicho fuego...$"
+.string "poderes… el rayo que alcanzó la\l"
+.string "torre… el fuego que quemó la\l"
+.string "torre… y la lluvia que apagó\l"
+.string "dicho fuego…$"
 
 
 
@@ -66,7 +66,7 @@ end
 Ecruteak_TinTower_Text_4:
 .string "Lo que hizo LANCE no tiene perdón,\n"
 .string "confinar de esa manera a las\l"
-.string "bestias errantes... Afortunadamente,\l"
+.string "bestias errantes… Afortunadamente,\l"
 .string "ya vuelven a correr libremente por\l"
 .string "los prados de JOHTO, todo gracias\l"
 .string "a vosotros.$"

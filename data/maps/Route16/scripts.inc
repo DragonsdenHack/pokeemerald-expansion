@@ -115,9 +115,9 @@ release
 end
 
 Route16_Text_17:
-.string "Maldición...\n"
+.string "Maldición…\n"
 	.string "Mi WEEZING no pudo siquiera tocar\l"
-	.string "a esa enorme serpiente de acero...$"
+	.string "a esa enorme serpiente de acero…$"
 
 
 
@@ -353,7 +353,7 @@ Route16_Combate_Bruno_Texto_1:
 	.string "fueran rival para los míos, ahora\l"
 	.string "que estáis más calmados y no os\l"
 	.string "quedan POKÉMON os diré lo que\l"
-	.string "vamos a hacer...$"
+	.string "vamos a hacer…$"
 
 Route16_Combate_Bruno_Texto_2:
 .string "Váis a hablar con el resto de\n"
@@ -367,7 +367,7 @@ Route16_Combate_Bruno_Texto_2:
 	.string "hacerlo se os perdonarán vuestros\l"
 	.string "crímenes y podréis seguir en\l"
 	.string "libertad paseando por este lugar,\l"
-	.string "si os negáis...$"
+	.string "si os negáis…$"
 
 Route16_Combate_Bruno_Texto_3:
 .string "Dad por seguro que destruiré uno\n"
@@ -390,7 +390,7 @@ Route16_Combate_Bruno_Texto_6:
 .string "BRUNO: Lo tomaré como un no pues,\n"
 	.string "habéis escogido el camino del\l"
 	.string "sufrimiento, ¡GUARDIAS!\l"
-	.string "¡Preparadad los...!$"
+	.string "¡Preparadad los…!$"
 
 Route16_Combate_Bruno_Texto_7:
 .string "BRUNO: Vaya vaya, parece que\n"
@@ -438,8 +438,8 @@ Route16_Combate_Bruno_Texto_12:
 	.string "problemas técnicos de última hora.$"
 
 Route16_Combate_Bruno_Texto_13:
-.string "BRUNO: En cuanto a ti, ROCKET...\n"
-	.string "Nos volveremos a ver...$"
+.string "BRUNO: En cuanto a ti, ROCKET…\n"
+	.string "Nos volveremos a ver…$"
 
 Route16_Combate_Bruno_Texto_14:
 .string "¡Aún no puedo creer lo que ven mis\n"
@@ -453,7 +453,7 @@ Route16_Combate_Bruno_Texto_15:
 .string "Y no solo eso, has salvado este\n"
 	.string "lugar de ser también tragado por\l"
 	.string "esta maldita dictadura\l"
-	.string "encubierta...nuestra lealtad hacia\l"
+	.string "encubierta…nuestra lealtad hacia\l"
 	.string "el TEAM ROCKET no ha hecho más que\l"
 	.string "crecer después de esto.$"
 
@@ -467,7 +467,7 @@ Route16_Combate_Bruno_Texto_16:
 	.string "hablar en condiciones.$"
 
 Route16_Combate_Bruno_Texto_17:
-.string "Ahora sí nos retiramos...seguiremos\n"
+.string "Ahora sí nos retiramos…seguiremos\n"
 	.string "peleando por volver a ver a esta\l"
 	.string "región en las manos que\l"
 	.string "corresponden.$"

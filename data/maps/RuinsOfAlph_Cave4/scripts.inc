@@ -215,8 +215,8 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_3:
 	.string "les he avisado.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_4:
-.string "Estos UNOWN...\n"
-	.string "Hay algo en su apariencia...\l"
+.string "Estos UNOWN…\n"
+	.string "Hay algo en su apariencia…\l"
 	.string "Parecen estar incompletos, formar\l"
 	.string "parte de algo mayor, ¿no crees?$"
 
@@ -247,7 +247,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_10:
 	.string "nuevo.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_11:
-.string "...$"
+.string "…$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_12:
 .string "GIOVANNI: Yo no estaba pensando\n"
@@ -300,7 +300,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_18:
 	.string "ha llevado hasta él.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_19:
-.string "M.ANCIANO: ...$"
+.string "M.ANCIANO: …$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_20:
 .string "ANDRA: El eterno debate, ¿eh?\n"

@@ -570,7 +570,7 @@ PokemonMansion_1F_Ladrones_Texto_2:
 	.string "en JOHTO iniciaremos una nueva\l"
 	.string "etapa, aunque sus habitantes son\l"
 	.string "algo menos pudientes que los de\l"
-	.string "aquí...$"
+	.string "aquí…$"
 
 PokemonMansion_1F_Ladrones_Texto_3:
 .string "¿Quién eres tú?\n"
@@ -580,7 +580,7 @@ PokemonMansion_1F_Ladrones_Texto_3:
 	.string "problema.$"
 
 PokemonMansion_1F_Ladrones_Texto_4:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonMansion_1F_Ladrones_Texto_5:
 .string "¿Cómo dices?\n"
@@ -671,8 +671,8 @@ PokemonMansion_1F_Ladrones_Texto_17:
 	.string "por la roca del MT.MOON.$"
 
 PokemonMansion_1F_Ladrones_Texto_18:
-.string "Un momento...\n"
-	.string "Yo a ti te he visto antes...$"
+.string "Un momento{PAUSE 15}…{PAUSE 15}\n"
+	.string "Yo a ti te he visto antes{PAUSE 15}…{PAUSE 15}$"
 
 PokemonMansion_1F_Ladrones_Texto_19:
 .string "¡El ROCKET novato al que engañé en\n"
@@ -704,10 +704,10 @@ PokemonMansion_1F_Ladrones_Texto_22:
 PokemonMansion_1F_Ladrones_Texto_23:
 .string "Maldición, no creas que vas a\n"
 	.string "salirte con la tuya ROCKET, ya te\l"
-	.string "engañé una vez y puedo volver a...$"
+	.string "engañé una vez y puedo volver a…$"
 
 PokemonMansion_1F_Ladrones_Texto_24:
-.string "¡E-espera!\n"
+.string "¡E{PAUSE 15}-{PAUSE 15}espera!\n"
 	.string "¿Adonde diablos vas?\l"
 	.string "¡Allí no hay nada!$"
 
@@ -732,7 +732,7 @@ PokemonMansion_1F_Ladrones_Texto_28:
 PokemonMansion_1F_Ladrones_Texto_29:
 .string "¿¡Qué crees que estás haciendo\n"
 	.string "ROCKET?!\l"
-	.string "¡Detente y...!$"
+	.string "¡Detente y…!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
 .string "¡{PLAYER} encontró los 2 millones\n"

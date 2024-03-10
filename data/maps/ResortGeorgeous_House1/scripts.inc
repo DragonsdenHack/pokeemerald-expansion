@@ -168,7 +168,7 @@ ResortGeorgeous_House1_Text_Consul_8:
 	.string "CAMBIANTE no te vendrá mal.$"
 
 ResortGeorgeous_House1_Text_Consul_9:
-.string "CÓNSUL: ....$"
+.string "CÓNSUL: {PAUSE 15}…{PAUSE 15}$"
 
 ResortGeorgeous_House1_Text_Consul_10:
 .string "En cuanto a vosotros, podéis estar\n"
@@ -182,9 +182,9 @@ ResortGeorgeous_House1_Text_Consul_11:
 .string "¡¡¡ANDANDO -CÓNSUL-!!!$"
 
 ResortGeorgeous_House1_Text_Consul_12:
-.string "ANDRA: ...\n"
-	.string "...\l"
-	.string "Nos vemos en el cuartel.$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}Nos vemos en el cuartel.$"
 
 
 ResortGeorgeous_House1_Consul_move_1:

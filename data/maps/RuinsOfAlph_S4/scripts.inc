@@ -295,9 +295,9 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_2:
 	.string "Desconozco el motivo, pero aquí la\l"
 	.string "esencia PRIMIGENIA de los POKÉMON\l"
 	.string "LEGENDARIOS les es devuelta.\l"
-	.string "KYOGRE, GROUDON...es lo que andaba\l"
+	.string "KYOGRE, GROUDON…es lo que andaba\l"
 	.string "buscando, pero aún más\l"
-	.string "importante...$"
+	.string "importante…$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_3:
 .string "KYUREM, la cáscara vacía del\n"
@@ -320,7 +320,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_6:
 RuinsOfAlph_S4_Combate_Zeus_Texto_7:
 .string "Los 3 juntos formarán al DRAGÓN\n"
 	.string "ORIGINAL, la perfección, el\l"
-	.string "equilibrio univers...$"
+	.string "equilibrio univers…$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_8:
 .string "¡Al fin!$"
@@ -361,8 +361,8 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_14:
 RuinsOfAlph_S4_Combate_Zeus_Texto_15:
 .string "¿¡No es posible!?\n"
 	.string "Los PRIMIGENIOS, el mismísimo dios\l"
-	.string "POKÉMON, el DRAGÓN ORIGINAL...\l"
-	.string "¿Cómo tú...?$"
+	.string "POKÉMON, el DRAGÓN ORIGINAL…\l"
+	.string "¿Cómo tú…?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16:
 .string "????: Estúpido iluso, ¿de verdad\n"
@@ -387,13 +387,13 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_19:
 	.string "viviendo.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_20:
-.string "...$"
+.string "…$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 .string "Ese estúpido ha muerto sin saber\n"
 	.string "que todo lo que ha logrado, sus\l"
 	.string "FORMAS PRIMIGENIAS, el DRAGÓN\l"
-	.string "ORIGINAL incompleto...\l"
+	.string "ORIGINAL incompleto…\l"
 	.string "Se lo debe todo al POKÉMON\l"
 	.string "ESENCIA, su presencia aquí es lo\l"
 	.string "que devuelve a los LEGENDARIOS su\l"

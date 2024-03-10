@@ -24,7 +24,7 @@ release
 end
 
 BlackthornCity_House3_Text_2:
-.string "Estos chismes de hoy en día... En\n"
+.string "Estos chismes de hoy en día… En\n"
 .string "mis tiempos no era más que salir a\l"
 .string "la calle, jugar con los amigos y\l"
 .string "dejar volar la imaginación. ¡Muy\l"

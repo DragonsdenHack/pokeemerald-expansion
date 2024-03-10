@@ -87,8 +87,8 @@ GoldenrodGym_Encuentro_Valeria_Texto_3:
 	.string "TIPO NORMAL. Que os vaya bien.$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_4:
-.string "V-vale...\n"
-	.string "Como quieras...$"
+.string "V{PAUSE 15}-{PAUSE 15}vale{PAUSE 15}…{PAUSE 15}\n"
+	.string "Como quieras{PAUSE 15}…{PAUSE 15}$"
 
 GoldenrodGym_Encuentro_Valeria_Texto_5:
 .string "????: ¿Un aspirante?\n"
@@ -187,7 +187,7 @@ release
 end
 
 Goldenrod_Gym_Chicas_Texto_1:
-.string "...$"
+.string "…$"
 
 
 TrigalGym_Gym_Dude::
@@ -205,7 +205,7 @@ release
 end
 
 TrigalGym_Gym_Dude_Texto_1:
-.string "Estas chicas...\n"
+.string "Estas chicas…\n"
 	.string "Están armando una buena por el\l"
 	.string "TIPO de este GIMNASIO, parece que\l"
 	.string "el SINIESTRO no gusta a la\l"

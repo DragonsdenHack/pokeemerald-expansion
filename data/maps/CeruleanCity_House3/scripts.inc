@@ -31,7 +31,7 @@ CeruleanCity_House3_Text_2:
 .string "por un POLIWHIRL. Sé que es un mal\l"
 .string "trato pero ya no tengo las\l"
 .string "energías para capturar un POLIWAG\l"
-.string "y evolucionarlo por mi cuenta...\l"
+.string "y evolucionarlo por mi cuenta…\l"
 .string "…\l"
 .string "…\l"
 .string "¿Cómo?\l"

@@ -297,10 +297,10 @@ Silph_11F_Bill_Presidente_Texto_2.1:
 	.string "capital.$"
 
 Silph_11F_Bill_Presidente_Texto_2.2:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_2.3:
-.string "Así que el ARCHI7... Ya entiendo, déjame\n"
+.string "Así que el ARCHI7{PAUSE 15}…{PAUSE 15} Ya entiendo, déjame\n"
 	.string "decirte algo: no has visto nada de esta\l"
 	.string "región aún. Los POKÉMON de KANTO, los\l"
 	.string "de verdad, no son como esos débiles\l"
@@ -329,7 +329,7 @@ Silph_11F_Bill_Presidente_Texto_2.6:
 	.string "de KANTO!$"
 
 Silph_11F_Bill_Presidente_Texto_2.7:
-	.string "El poder de esos POKÉMON... ¿de dónde\n"
+	.string "El poder de esos POKÉMON{PAUSE 15}…{PAUSE 15} ¿de dónde\n"
 	.string "proviene?$"
 
 Silph_11F_Bill_Presidente_Texto_2.8:
@@ -347,7 +347,7 @@ Silph_11F_Bill_Presidente_Texto_3:
 	.string "ENTRENADOR de tu nivel no tiene\l"
 	.string "porqué desperdiciar su potencial\l"
 	.string "en una organización como el TEAM\l"
-	.string "ROCKET, si solo...$"
+	.string "ROCKET, si solo{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_4:
 .string "????: Ahórrese sus técnicas\n"
@@ -381,7 +381,7 @@ Silph_11F_Bill_Presidente_Texto_6:
 	.string "todos podemos salir beneficiados,\l"
 	.string "desde usted y su empresa, a\l"
 	.string "nosotros, y toda la población?\l"
-	.string "Verá...$"
+	.string "Verá{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_7:
 .string "ANDRA: ¡Hey, {PLAYER}!\n"
@@ -394,7 +394,7 @@ Silph_11F_Bill_Presidente_Texto_7:
 	.string "pero parece que tenemos hasta 3\l"
 	.string "contando la tuya, de sobra para\l"
 	.string "nuestro plan de evasión de ese\l"
-	.string "ROJO...$"
+	.string "ROJO{PAUSE 15}…{PAUSE 15}$"
 
 Silph_11F_Bill_Presidente_Texto_8:
 .string "Míranos, hemos pasado de buscar\n"
@@ -436,7 +436,7 @@ Silph_11F_Bill_Presidente_Texto_12:
 	.string "admito que te subestimé la primera\l"
 	.string "vez que entraste por la fuerza a\l"
 	.string "mi casa en RUTA 25, pensé que eras\l"
-	.string "otro pobre RECLUTA sin más...$"
+	.string "otro pobre RECLUTA sin más…$"
 
 Silph_11F_Bill_Presidente_Texto_13:
 .string "Sin embargo, tu error es pensar\n"
@@ -545,7 +545,7 @@ Silph_11F_Bill_Presidente_Texto_26:
 	.string "dado BILL!$"
 
 Silph_11F_Bill_Presidente_Texto_27:
-.string "BILL: No es posible...\n"
+.string "BILL: No es posible…\n"
 	.string "Tengo a PORYGON2, lo último en\l"
 	.string "tecnología desarrollada por la\l"
 	.string "propia SILPH, y un equipo con los\l"
@@ -651,13 +651,13 @@ Silph_11F_Bill_Presidente_Texto_37:
 	.string "POKÉMON antes que vosotros.$"
 
 Silph_11F_Bill_Presidente_Texto_37.1:
-.string "ANDRA: ...$"
+.string "ANDRA: …$"
 
 Silph_11F_Bill_Presidente_Texto_38:
 .string "Bien, podéis retiraros, os avisaré\n"
 	.string "cuando pongamos en marcha nuestro\l"
 	.string "siguiente gran golpe, disfrutad de\l"
-	.string "vuestras pequeñas vacaciones...y\l"
+	.string "vuestras pequeñas vacaciones…y\l"
 	.string "seguid mejorando.$"
 
 Silph_11F_Bill_Presidente_Texto_39:
@@ -668,7 +668,7 @@ Silph_11F_Bill_Presidente_Texto_39:
 	.string "mismos POKÉMON que ese prepotente\l"
 	.string "con aires elitistas de BILL, me\l"
 	.string "pensaré mejor cuál será el último\l"
-	.string "POKÉMON que incluya en mi equipo...$"
+	.string "POKÉMON que incluya en mi equipo…$"
 
 Silph_11F_Bill_Presidente_Texto_40:
 .string "ANDRA: ¡Ah, sí!\n"
@@ -687,7 +687,7 @@ Silph_11F_Bill_Presidente_Texto_41:
 	.string "GIOVANNI en cuanto ROJO llegue a\l"
 	.string "su zona, no hay nada de que\l"
 	.string "preocuparse {PLAYER}, está todo\l"
-	.string "controlado...$"
+	.string "controlado…$"
 
 Silph_11F_Bill_Presidente_Move_1:
 walk_up
@@ -1022,7 +1022,7 @@ Silph_11F_Reunión_Presidente_Lance_Texto_11:
 	.string "recuerde mis palabras.$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_12:
-.string "ATLAS: … …$"
+.string "ATLAS: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Silph_11F_Reunión_Presidente_Lance_Texto_13:
 .string "DRAGONITE no es el POKÉMON insignia de\n"

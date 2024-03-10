@@ -214,7 +214,7 @@ end
 
 SaffronCityDocumento_Text_100:
 .string "¡Último producto de SILPH!\n"
-	.string "Lanzamiento indeterminado...$"
+	.string "Lanzamiento indeterminado…$"
 
 
 
@@ -489,7 +489,7 @@ SaffronCity_Combate_Andra_Texto_10:
 SaffronCity_Combate_Andra_Texto_11:
 .string "Espero que este lugar y toda su\n"
 	.string "tecnología estén a la altura de lo\l"
-	.string "que puedo esperar, sin embargo...$"
+	.string "que puedo esperar, sin embargo…$"
 
 SaffronCity_Combate_Andra_Texto_12:
 .string "No veo ahora mismo mayor reto que\n"
@@ -505,7 +505,7 @@ SaffronCity_Combate_Andra_Texto_13:
 	.string "duro que nunca, informándome\l"
 	.string "acerca de los mejores POKÉMON de\l"
 	.string "esta región, y de cómo mejorar a\l"
-	.string "los que ya tengo...$"
+	.string "los que ya tengo…$"
 
 SaffronCity_Combate_Andra_Texto_14:
 .string "De EJECUTIVO ROCKET a EJECUTIVO\n"
@@ -693,13 +693,13 @@ face_player
 step_end
 
 SaffronCity_Secundaria_Motorista_Texto_1:
-.string "Ese vegestorio...\n"
+.string "Ese vegestorio…\n"
 	.string "Va lograr que todo KANTO odie a\l"
-	.string "los MOTORISTAS...$"
+	.string "los MOTORISTAS…$"
 
 SaffronCity_Secundaria_Motorista_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 SaffronCity_Secundaria_Motorista_Texto_3:
 .string "¡EJECUTIVO ROCKET {PLAYER}!\n"

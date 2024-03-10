@@ -78,7 +78,7 @@ MtMoon3F_Text_9:
 	.string "tratado de pararle los pies pero\l"
 	.string "mi equipo ha quedado hecho añicos.\l"
 	.string "Solo puedo permanecer aquí parado\l"
-	.string "mirando...$"
+	.string "mirando…$"
 
 
 MtMoon3F_Text_9_2:
@@ -141,7 +141,7 @@ MtMoon3F_Text_11_1:
 	.string "RANGO FRANK!$"
 
 MtMoon3F_Text_11_2:
-.string "Mmm...\n"
+.string "Mmm{PAUSE 25}…{PAUSE 25}\n"
 	.string "Tal vez no seas tan incompetente\l"
 	.string "como pensaba, con este tenemos 3\l"
 	.string "FÓSILES en nuestro poder,\l"
@@ -536,8 +536,8 @@ end
 MtMoon_3F_Miguel_Rojo_text_1:
 .string "¿Qué se te ha perdido por aquí,\n"
 	.string "ROCKET?\l"
-	.string "...\l"
-	.string "...$"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtMoon_3F_Miguel_Rojo_text_2:
 .string "¿En serio?\n"
@@ -561,8 +561,8 @@ MtMoon_3F_Miguel_Rojo_text_5:
 	.string "dispuesto a apostar en un combate\l"
 	.string "mi FÓSIL contra el tuyo.\l"
 	.string "Quien gane se quedará con los dos.\l"
-	.string "...\l"
-	.string "...$"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtMoon_3F_Miguel_Rojo_text_6:
 .string "¿Qué dices entonces?$"
@@ -588,11 +588,11 @@ MtMoon_3F_Miguel_Rojo_text_9:
 	.string "controlado.$"
 
 MtMoon_3F_Miguel_Rojo_text_10:
-.string "Grrr...\n"
+.string "Grrr…\n"
 	.string "Tú no eres un ROCKET normal, no me\l"
 	.string "gusta nada la gente que se sale de\l"
 	.string "las estadísticas. En cuanto los\l"
-	.string "FÓSILES...$"
+	.string "FÓSILES…$"
 
 MtMoon_3F_Miguel_Rojo_text_11:
 .string "¡¡Llamando a {PLAYER}!!\n"
@@ -607,10 +607,10 @@ MtMoon_3F_Miguel_Rojo_text_11:
 	.string "¡Es una orden!$"
 
 MtMoon_3F_Miguel_Rojo_text_12:
-.string "????: ...$"
+.string "????: {PAUSE 15}…{PAUSE 15}$"
 
 MtMoon_3F_Miguel_Rojo_text_13:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtMoon_3F_Miguel_Rojo_text_14:
 .string "Pensaba que los ROCKET no le\n"
@@ -839,10 +839,10 @@ MtMoon_3F_Pelea_Frank_texto1:
 	.string "decir al respecto?$"
 
 MtMoon_3F_Pelea_Frank_texto2:
-.string "...\n"
-	.string "...\l"
-	.string "...\l"
-	.string "...$"
+.string "…\n"
+	.string "…\l"
+	.string "…\l"
+	.string "…$"
 
 MtMoon_3F_Pelea_Frank_texto3:
 .string "¡¡TUVISTE 2 FÓSILES EN TU MANO!!\n"
@@ -931,7 +931,7 @@ MtMoon_3F_Pelea_Frank_texto9:
 	.string "por un novato?$"
 
 MtMoon_3F_Pelea_Frank_texto10:
-.string "Esto es inadmisible...$"
+.string "Esto es inadmisible…$"
 
 MtMoon_3F_Pelea_Frank_texto11:
 .string "Suficiente. Esta misión se da por\n"

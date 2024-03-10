@@ -242,7 +242,7 @@ Cianwood_Gym_Combate_Anibal_Texto_3:
 	.string "cuerpo.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Cianwood_Gym_Combate_Anibal_Texto_5:
 .string "Lamentablemente, la edad me ha\n"

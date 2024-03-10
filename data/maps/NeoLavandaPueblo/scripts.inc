@@ -169,7 +169,7 @@ walk_in_place_right
 step_end
 
 NeoLavandaPueblo_Combate_Eusine_Texto_1:
-.string "EUSINE: Oh, {PLAYER}... Qué alegría\n"
+.string "EUSINE: Oh, {PLAYER}{PAUSE 25}…{PAUSE 25} Qué alegría\n"
 	.string "verte por aquí.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_2:

@@ -270,7 +270,7 @@ Route10_Combate_Andra_Texto_4:
 	.string "recipientes de acero con toda la\l"
 	.string "pinta de ser radiactivos,\l"
 	.string "MAGNEMITES y MAGNETON pululando\l"
-	.string "alrededor de ellos...todo indica a\l"
+	.string "alrededor de ellos{PAUSE 25}…{PAUSE 25}todo indica a\l"
 	.string "que ciertas prácticas poco éticas\l"
 	.string "se llevaron a cabo en este lugar\l"
 	.string "en tiempos pretéritos, a saber con\l"
@@ -288,7 +288,7 @@ Route10_Combate_Andra_Texto_4:
 	.string "cualquier crío de 10 años.$"
 
 Route10_Combate_Andra_Texto_5:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Route10_Combate_Andra_Texto_6:
 .string "ANDRA: El caso es que ese lugar\n"
@@ -299,7 +299,7 @@ Route10_Combate_Andra_Texto_6:
 	.string "un POKÉMON ELÉCTRICO de esas\l"
 	.string "características?\l"
 	.string "Si tan solo hubiera podido\l"
-	.string "adentrarme un poco más...$"
+	.string "adentrarme un poco más…$"
 
 Route10_Combate_Andra_Texto_7:
 .string "Podríamos proponerle a GIOVANNI un\n"
@@ -320,7 +320,7 @@ Route10_Combate_Andra_Texto_8:
 	.string "superior en el MT.MOON, también a\l"
 	.string "BILL y después a un CAPITÁN con\l"
 	.string "experiencia como el del SS.ANNE,\l"
-	.string "pero...¿sabes qué?\l"
+	.string "pero{PAUSE 25}…{PAUSE 25}¿sabes qué?\l"
 	.string "Yo no me he quedado atrás {PLAYER},\l"
 	.string "te dije que sería la RECLUTA más\l"
 	.string "fuerte de toda la organización y\l"
@@ -435,7 +435,7 @@ msgbox Route10Documento_Andra_Parada_text_1, MSGBOX_SIGN
 end
 
 Route10Documento_Andra_Parada_text_1:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Route10_Entrenadores_Guays::
 lockall

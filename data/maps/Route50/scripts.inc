@@ -165,7 +165,7 @@ Route50_Encuentro_Dunsparce_Texto_1:
 	.string "{PLAYER}?!$"
 
 Route50_Encuentro_Dunsparce_Texto_2:
-.string "¡No vas a creer lo que acaba de ocurr...!$"
+.string "¡No vas a creer lo que acaba de ocurr…!$"
 
 Route50_Encuentro_Dunsparce_Texto_3:
 .string "¡¡¡GROAAAAAAAAR!!!$"
@@ -183,8 +183,8 @@ Route50_Encuentro_Dunsparce_Texto_6:
 	.string "{PLAYER}! ¡Ahí nos vemos!$"
 
 Route50_Encuentro_Dunsparce_Texto_7:
-.string "ANDRA: Nos... nos está observando\n"
-	.string "detenidamente...$"
+.string "ANDRA: Nos{PAUSE 25}…{PAUSE 25} nos está observando\n"
+	.string "detenidamente…$"
 
 Route50_Encuentro_Dunsparce_Texto_8:
 	.string "¡¡{PLAYER} obtuvo una PIEDRA DORADA!!$"

@@ -38,8 +38,8 @@ end
 Route52MazeDocumento_Text_100:
 .string "TÉCNICAS AVANZADAS DE MANIPULACIÓN\n"
 	.string "DE LOS MERCADOS FINANCIEROS\l"
-	.string "...\l"
-	.string "...\l"
+	.string "…\l"
+	.string "…\l"
 	.string "¡Tiene más de 700 páginas!$"
 
 Route52_Maze_Combate_1::
@@ -119,12 +119,12 @@ step_end
 
 
 Route52_Maze_Combate_1_Texto_1:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route52_Maze_Combate_1_Texto_2:
 .string "Este ordenador es un tanto\n"
-	.string "extraño...$"
+	.string "extraño…$"
 
 Route52_Maze_Combate_1_Texto_3:
 .string "¡Eh, tú!\n"

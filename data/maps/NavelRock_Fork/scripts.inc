@@ -94,7 +94,7 @@ NavelRock_Fork_Giovanni_Texto_3:
 	.string "ojo {PLAYER}.$"
 
 NavelRock_Fork_Giovanni_Texto_4:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: {PAUSE 15}…{PAUSE 15}$"
 
 NavelRock_Fork_Giovanni_Texto_5:
 .string "Yo iré a por HO-OH {PLAYER}, tomaré\n"

@@ -74,7 +74,7 @@ release
 end
 
 Ninja_Base_Poster_Texto_1:
-.string "Detrás de este póster...\n"
+.string "Detrás de este póster…\n"
 	.string "¡Hay un botón!$"
 
 Ninja_Base_Poster_Text_YesNo:

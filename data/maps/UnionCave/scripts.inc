@@ -144,7 +144,7 @@ UnionCave_Combate_Elm_Texto_1:
 .string "Tal y como pensaba, decepcionante.$"
 
 UnionCave_Combate_Elm_Texto_2:
-.string "... ...$"
+.string "… …$"
 
 UnionCave_Combate_Elm_Texto_3:
 .string "ELM: Ah, {PLAYER}.\n"
@@ -184,7 +184,7 @@ UnionCave_Combate_Elm_Texto_8:
 	.string "quizás ahí esté su poder, al igual\l"
 	.string "que el fenómeno del FUERTE\l"
 	.string "VÍNCULO, su MEGAEVOLUCIÓN se\l"
-	.string "activa por mecanismos similares...$"
+	.string "activa por mecanismos similares…$"
 
 UnionCave_Combate_Elm_Texto_9:
 .string "Tengo curiosidad.\n"
@@ -201,7 +201,7 @@ UnionCave_Combate_Elm_Texto_10:
 	.string "ADMINISTRADOR JEFE ROCKET!$"
 
 UnionCave_Combate_Elm_Texto_11:
-.string "Mmmm...\n"
+.string "Mmmm…\n"
 	.string "Muy interesante, tomo nota.$"
 
 UnionCave_Combate_Elm_Texto_12:
@@ -321,6 +321,6 @@ UnionCave_Llamada_Giovanni_Texto_1:
 	.string "FUERTE VÍNCULO. Tenemos todo el\l"
 	.string "tiempo del mundo para averiguar el\l"
 	.string "misterio de las RUINAS. Los\l"
-	.string "LÍDERES DE GIMNASIO... No sabemos\l"
+	.string "LÍDERES DE GIMNASIO… No sabemos\l"
 	.string "cuanto pueden durar en esta JOHTO\l"
 	.string "tan cambiante.$"

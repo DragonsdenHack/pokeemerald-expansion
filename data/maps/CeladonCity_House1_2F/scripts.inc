@@ -80,8 +80,8 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_2:
 	.string "CAÑA VIEJA ya no existen para mí.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4:
 .string "¿¡Te envía el GURÚ PESCADOR de\n"
@@ -124,7 +124,7 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_9:
 	.string "¡SEGUID PELEANDO!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_10:
-.string "Grrrrr...\n"
+.string "Grrrrr…\n"
 	.string "No contaba con que un ROCKET\l"
 	.string "pudiera ser tan fuerte, ese GURÚ\l"
 	.string "ha tenido suerte de dar contigo.$"

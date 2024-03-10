@@ -149,7 +149,7 @@ release
 end
 
 Route12_Activador_Entrada_Texto_1:
-.string "... ...$"
+.string "… …$"
 
 Route12_Activador_Entrada_Texto_2:
 .string "¡Una de las rocas parece esconder\n"

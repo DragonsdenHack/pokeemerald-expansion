@@ -147,7 +147,7 @@ Pass_Route29_Encuentro_Elm_Texto_7:
 	.string "adecuada.$"
 
 Pass_Route29_Encuentro_Elm_Texto_8:
-.string "ELM: ...$"
+.string "ELM: {PAUSE 15}…{PAUSE 15}$"
 
 Pass_Route29_Encuentro_Elm_Texto_9:
 .string "Si no me equivoco, estás aquí para\n"

@@ -179,7 +179,7 @@ MooFarm_Combate_Scizorita_Texto_9:
 .string "No le hagas caso, era broma. Nos\n"
 	.string "has impresionado, los entrenadores\l"
 	.string "suelen huir despavoridos con uno\l"
-	.string "solo de nuestros TAUROS, pero tú...\l"
+	.string "solo de nuestros TAUROS, pero tú{PAUSE 25}…{PAUSE 25}\l"
 	.string "¡Has podido con una docena de\l"
 	.string "TAUROS y MILTANK!$"
 

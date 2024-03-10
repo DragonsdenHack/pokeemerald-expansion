@@ -62,7 +62,7 @@ LavenderRadioP8_Tercer_Cientifico_Texto_1:
 	.string "trabajar en ellos de primera mano.\l"
 	.string "Para mi sorpresa, no sentí alegría ni\l"
 	.string "satisfacción al ver los resultados,\l"
-	.string "más bien miedo y... mucho vértigo por\l"
+	.string "más bien miedo y… mucho vértigo por\l"
 	.string "todo lo que pueda suponer.$"
 
 LavenderRadioP8_Cuarto_Cientifico::

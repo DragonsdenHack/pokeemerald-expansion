@@ -176,8 +176,8 @@ OlivineBoat3_Text_15:
 	.string "BLASTOISE. El resto, calderilla\l"
 	.string "para el resto de ENTRENADORES de\l"
 	.string "clases inferiores.\l"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿WISHIWASHI, KYOGRE y SUICUNE?\l"
 	.string "¿¡De qué me estás hablando!?$"
 
@@ -357,15 +357,15 @@ release
 end
 
 Olivine_Boat3_Capitan_Texto_1:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Olivine_Boat3_Capitan_Texto_2:
 .string "¿¡No puede uno dormir tranquilo ni\n"
-	.string "en su propio barc...!?$"
+	.string "en su propio barc{PAUSE 15}…{PAUSE 15}!?$"
 
 Olivine_Boat3_Capitan_Texto_3:
-.string "Pero...\n"
+.string "Pero{PAUSE 15}…{PAUSE 15}\n"
 	.string "¿¡Qué ven mis ojos!?\l"
 	.string "¡{PLAYER}!\l"
 	.string "¡Eres tú, valiente osado!\l"

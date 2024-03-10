@@ -30,4 +30,4 @@ LagoFuria_S2_Combate_Taaban_Texto_1:
 .string "¡Qwil!$"
 
 LagoFuria_S2_Combate_Taaban_Texto_3:
-.string "Qwil...$"
+.string "Qwil…$"

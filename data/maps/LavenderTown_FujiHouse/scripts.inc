@@ -67,7 +67,7 @@ FujiHouseDocumento_Text_100:
 	.string "¡Gran concurso mensual de dibujo\l"
 	.string "POKéMON!\p"
 	.string "El formulario de inscripción está\n"
-	.string "en...\p"
+	.string "en…\p"
 	.string "¡Anda, se lo han llevado!\n"
 	.string "¡Se ha debido de inscribir alguien!$"
 

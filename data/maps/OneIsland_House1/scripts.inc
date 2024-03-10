@@ -9,7 +9,7 @@ release
 end
 
 OneIsland_House1_Text_1:
-.string "Mmm, no consigo acordarme...\n"
+.string "Mmm, no consigo acordarme…\n"
 .string "¿Cuándo fue la última vez que\l"
 .string "entró en erupción el MT. ASCUAS?$"
 

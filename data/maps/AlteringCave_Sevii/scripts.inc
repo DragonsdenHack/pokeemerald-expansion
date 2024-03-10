@@ -82,7 +82,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_1:
 .string "????: ¿Has encontrado algo?$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_2:
-.string "...$"
+.string "…$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_3:
 .string "Entonces no me hagas perder el\n"
@@ -136,7 +136,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_8:
 	.string "inexperto.$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_9:
-.string "De modo que sigues insistiendo...\n"
+.string "De modo que sigues insistiendo…\n"
 	.string "Bien, solo porque me has ayudado,\l"
 	.string "tendrás el privilegio de\l"
 	.string "presenciar algo que nunca antes\l"
@@ -162,7 +162,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_11:
 	.string "entrenador en sintonía con su\l"
 	.string "equipo puede llegar, aunque siga\l"
 	.string "siendo poco en comparación con\l"
-	.string "ciertos poderes...$"
+	.string "ciertos poderes…$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_12:
 .string "Sea como sea, te has ganado el\n"
@@ -189,7 +189,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_12:
 	.string "pudiera encontrarlos jamás,\l"
 	.string "permaneciendo así sus peligrosos\l"
 	.string "poderes dormidos hasta el fin de\l"
-	.string "los tiempos...$"
+	.string "los tiempos…$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_13:
 .string "Hasta la llegada de AQUILES y\n"

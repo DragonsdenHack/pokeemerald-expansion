@@ -95,7 +95,7 @@ NewBarkTown_Encuentro_Elm_Texto_2:
 	.string "se han mantenido lejos del\l"
 	.string "contacto humano por años,\l"
 	.string "exceptuando los pocos que ya\l"
-	.string "vivían allí...$"
+	.string "vivían allí…$"
 
 NewBarkTown_Encuentro_Elm_Texto_3:
 .string "Aunque tú eres diferente, supongo\n"
@@ -106,7 +106,7 @@ NewBarkTown_Encuentro_Elm_Texto_3:
 NewBarkTown_Encuentro_Elm_Texto_4:
 .string "Debo admitir que me has\n"
 	.string "sorprendido, 5 LÍDERES de JOHTO\l"
-	.string "ya...\l"
+	.string "ya…{PAUSE 25}\l"
 	.string "Cuando GIOVANNI me habló de ti,\l"
 	.string "creí que estaba exagerando. Ahora\l"
 	.string "veo que no hay alguien mejor que\l"

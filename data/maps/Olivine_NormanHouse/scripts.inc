@@ -84,7 +84,7 @@ OlivineNormanHouse_Text_6:
 	.string "vigor con el que ataca le sume en\l"
 	.string "un letargo al siguiente turno, el\l"
 	.string "costo por hacer uso de tal fuerza\l"
-	.string "bruta...$"
+	.string "bruta…$"
 
 OlivineNormanHouse_Text_6b:
 	.string "Mi hijo quiere ser ENTRENADOR, es\n"

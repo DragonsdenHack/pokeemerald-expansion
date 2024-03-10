@@ -72,7 +72,7 @@ end
 
 PalletTownProfessorLabDocumento_Text_102:
 	.string "Hay un mensaje por e-mail abierto.\n"
-	.string "...\l"
+	.string "…\l"
 	.string "¡Por fin!\l"
 	.string "¡Los mejores entrenadores de la\l"
 	.string "LIGA POKÉMON están listos para\l"
@@ -159,7 +159,7 @@ PalletTown_ProfessorLab_Lab_Texto_1:
 PalletTown_ProfessorLab_Lab_Texto_2:
 .string "????: ¿Querías algo chico?\n"
 	.string "Yo soy la nieta de OAK, y hermana\l"
-	.string "mayor de AZUL...$"
+	.string "mayor de AZUL…$"
 
 PalletTown_ProfessorLab_Lab_Texto_3:
 .string "¡Así que conoces a mi hermano!\n"
@@ -167,10 +167,10 @@ PalletTown_ProfessorLab_Lab_Texto_3:
 	.string "competitivo y a veces arrogante,\l"
 	.string "va de frente y dice lo que tiene\l"
 	.string "que decirte a la cara, solo espero\l"
-	.string "que no sea malinfluenciado por...$"
+	.string "que no sea malinfluenciado por…$"
 
 PalletTown_ProfessorLab_Lab_Texto_4:
-.string "... ... ... ... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
 .string "DALIA: ¡El último Pokémon de OAK!\n"

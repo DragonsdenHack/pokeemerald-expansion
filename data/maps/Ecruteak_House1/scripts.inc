@@ -62,5 +62,5 @@ EcruteakHouse2Documento_Text_100Yes2:
 	.string "la ciudad. Dicen que habían\l"
 	.string "nacido del agua, del fuego y del\l"
 	.string "rayo. Pero como no podían\l"
-	.string "contener su enorme fuerza...\l"
+	.string "contener su enorme fuerza…\l"
 	.string "huyeron hacia los pastos.$"

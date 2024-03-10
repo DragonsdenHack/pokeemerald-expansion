@@ -105,7 +105,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_3:
 	.string "ofrece este vasto mundo.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_4:
-.string "...$"
+.string "…$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_5:
 .string "Has venido por un combate\n"
@@ -122,7 +122,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_7:
 .string "¿Mi fiel KINGDRA fue derrotado?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_8:
-.string "Oh...\n"
+.string "Oh…\n"
 	.string "Me has dejado en shock, creí que\l"
 	.string "nadie podía igualar la potencia y\l"
 	.string "explosividad de mi KINGDRA. Cuando\l"

@@ -61,7 +61,7 @@ step_end
 
 
 CuevaHypno_4_Lider_Texto_1:
-.string "Oh... ¿Pero cómo?\n"
+.string "Oh{PAUSE 25}…{PAUSE 25} ¿Pero cómo?\n"
 	.string "Nadie ha descubierto este lugar en 40\l"
 	.string "años.$"
 
@@ -71,7 +71,7 @@ CuevaHypno_4_Lider_Texto_2:
 	.string "aquí, ¿verdad?\l"
 	.string "El BOSQUE BAYA es ya un lugar\l"
 	.string "olvidado para los habitantes de la\l"
-	.string "isla, no siempre fue así...$"
+	.string "isla, no siempre fue así{PAUSE 25}…{PAUSE 25}$"
 
 CuevaHypno_4_Lider_Texto_3:
 .string "¡Ah! ¡KANTO!\n"
@@ -86,19 +86,19 @@ CuevaHypno_4_Lider_Texto_4:
 	.string "alumnos de la única CAMPEONA de la\l"
 	.string "región que llegó a serlo empleando\l"
 	.string "POKÉMON FANTASMA y PSÍQUICO.\l"
-	.string "Eso... al menos hasta antes de venir\l"
+	.string "Eso{PAUSE 25}…{PAUSE 25} al menos hasta antes de venir\l"
 	.string "aquí, desde entonces, llevo décadas\l"
 	.string "sin saber nada de KANTO.$"
 
 CuevaHypno_4_Lider_Texto_5:
 .string "¿AGATHA forma parte del ALTO MANDO?\n"
-	.string "Vaya... se mantiene bien, entonces no\l"
+	.string "Vaya{PAUSE 25}…{PAUSE 25} se mantiene bien, entonces no\l"
 	.string "soy el único que aún se resiste a que\l"
 	.string "el paso del tiempo acabe por\l"
 	.string "degradarlo. Me alegra saber eso.$"
 
 CuevaHypno_4_Lider_Texto_6:
-.string "... ...$"
+.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CuevaHypno_4_Lider_Texto_7:
 .string "Ahora que te observo en detalle, a\n"
@@ -126,7 +126,7 @@ CuevaHypno_4_Lider_Texto_9:
 	.string "por el GIMNASIO que hay al norte\l"
 	.string "de la cueva.\l"
 	.string "De entrar, serás el primer aspirante\l"
-	.string "en casi 4 décadas...$"
+	.string "en casi 4 décadas…$"
 
 CuevaHypno_4_Cartel::
 lock

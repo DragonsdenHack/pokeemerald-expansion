@@ -97,4 +97,4 @@ end
 Route2_Cazabichos_Texto_1:
 .string "Si tuviera un SCYTHER, todos en el\n"
 	.string "BOSQUE VERDE me respetarían, y este\l"
-	.string "árbol desaparecería de un solo tajo...$"
+	.string "árbol desaparecería de un solo tajo…$"

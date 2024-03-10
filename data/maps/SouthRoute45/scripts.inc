@@ -185,7 +185,7 @@ msgbox SouthRoute45_SudowoodoRest_Text, MSGBOX_NPC
 end
 
 SouthRoute45_SudowoodoRest_Text:
-	.string "...\n"
-	.string "...\l"
+	.string "…\n"
+	.string "…\l"
 	.string "(Es un POKÉMON, parece estar\l"
 	.string "reposando)$"

@@ -159,7 +159,7 @@ LakeofRage_Fredo_Texto_1:
 	.string "hemos visto antes?$"
 
 LakeofRage_Fredo_Texto_2:
-.string "Sí...\n"
+.string "Sí…\n"
 	.string "La reunión de TRIGAL, entonces\l"
 	.string "eres ese ROCKET que ganó la LIGA\l"
 	.string "POKÉMON.$"

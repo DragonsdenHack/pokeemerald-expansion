@@ -30,7 +30,7 @@ LagoFuria_S3_Combate_Ikary_Texto_1:
 .string "¡Ik!$"
 
 LagoFuria_S3_Combate_Ikary_Texto_3:
-.string "Ik...$"
+.string "Ik…$"
 
 
 LagoFuria_S3_Combates_Cientificos::

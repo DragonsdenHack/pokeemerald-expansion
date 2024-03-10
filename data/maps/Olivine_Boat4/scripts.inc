@@ -104,7 +104,7 @@ Olivine_Boat4_Combate_Capitan_Texto_5:
 	.string "necesitéis.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_6:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Olivine_Boat4_Combate_Capitan_Texto_7:
 .string "Y una cosa más.$"

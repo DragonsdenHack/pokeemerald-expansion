@@ -11,7 +11,7 @@ msgbox Route15Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route15Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "Un pájaro grande y brillante vuela\n"
 	.string "hacia el mar.$"
 
@@ -22,7 +22,7 @@ msgbox Route15Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route15Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡Parece que hay una pequeña isla!$"
 
 Route15_Path_2F_Combate_Ayudante_Oak::
@@ -77,8 +77,8 @@ Route15_Path_2F_Combate_Ayudante_Oak_Texto_1:
 	.string "gente como tú nunca creerán.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_3:
 .string "Es el último aviso.\n"

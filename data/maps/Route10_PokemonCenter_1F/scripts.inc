@@ -112,8 +112,8 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_1:
 	.string "conmigo.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_3:
 .string "¿Quieres ver cómo hago que te\n"

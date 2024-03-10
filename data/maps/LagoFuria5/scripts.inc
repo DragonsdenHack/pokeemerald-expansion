@@ -299,7 +299,7 @@ EventoLagoFuria5_Combate_Final_Texto_13:
 	.string "contigo!$"
 
 EventoLagoFuria5_Combate_Final_Texto_14:
-.string "...$"
+.string "…$"
 
 EventoLagoFuria5_Combate_Final_Texto_15:
 .string "¡El POKÉMON salvaje desapareció!$"

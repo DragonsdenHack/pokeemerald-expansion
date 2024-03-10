@@ -132,7 +132,7 @@ release
 end
 
 RuinsOfAlphS3_Evento_Final_Texto_1:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: …$"
 
 RuinsOfAlphS3_Evento_Final_Texto_2:
 .string "¿Pero, cómo tú?$"
@@ -149,7 +149,7 @@ RuinsOfAlphS3_Evento_Final_Texto_4:
 .string "GIOVANNI: ¡Espera!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_5:
-.string "Ese...ENTRENADOR, ¿lo has visto?\n"
+.string "Ese…ENTRENADOR, ¿lo has visto?\n"
 	.string "Debía de ser el LÍDER de la secta\l"
 	.string "de LAVANDA.$"
 
@@ -163,7 +163,7 @@ RuinsOfAlphS3_Evento_Final_Texto_6:
 RuinsOfAlphS3_Evento_Final_Texto_7:
 .string "GIOVANNI: Así es, esa magia solo\n"
 	.string "debe estar a su alcance, me\l"
-	.string "pregunto si...$"
+	.string "pregunto si…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_8:
 .string "ANDRA: ¡No podrá con {PLAYER}!\n"
@@ -173,21 +173,21 @@ RuinsOfAlphS3_Evento_Final_Texto_8:
 RuinsOfAlphS3_Evento_Final_Texto_9:
 .string "GIOVANNI: ¡ANDRA!\n"
 	.string "¡Tú equipo no está hecho para\l"
-	.string "lidiar con un LUGIA PRIM...!$"
+	.string "lidiar con un LUGIA PRIM…!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_10:
 .string "ANDRA: ¿Qué ha sido eso?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_11:
-.string "GIOVANNI: ¿L...lo ha logrado?$"
+.string "GIOVANNI: ¿L…lo ha logrado?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_12:
 .string "ANDRA: Toda esa energía, esa\n"
-	.string "tensión en el ambiente, se ha...\l"
-	.string "esfumado...$"
+	.string "tensión en el ambiente, se ha…\l"
+	.string "esfumado…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13:
-.string "GIOVANNI: Entonces...\n"
+.string "GIOVANNI: Entonces…\n"
 	.string "{PLAYER}, el FUERTE VÍNCULO, ¿han\l"
 	.string "triunfado?\l"
 	.string "¿Quiere decir que las enseñanzas\l"
@@ -204,10 +204,10 @@ RuinsOfAlphS3_Evento_Final_Texto_13:
 	.string "cielo?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_14:
-.string "...$"
+.string "…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_15:
-.string "Mucho nos queda aún por aprender...$"
+.string "Mucho nos queda aún por aprender…$"
 
 RuinsOfAlphS3_Evento_Final_Move_1:
 walk_slow_right
@@ -321,10 +321,10 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_1:
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_2:
 .string "Antes fue el HO-OH dorado,\n"
-	.string "ahora debe de venir...$"
+	.string "ahora debe de venir…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_3:
-.string "...$"
+.string "…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4:
 .string "No podré continuar. Si la leyenda\n"
@@ -336,7 +336,7 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_4:
 	.string "le queda corta. Si tan solo\l"
 	.string "hubiéramos podido acelerar un poco\l"
 	.string "más las últimas versiones de\l"
-	.string "MEWTWO...$"
+	.string "MEWTWO…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_5:
 .string "Ahora depende de ti, {PLAYER}.\n"
@@ -432,7 +432,7 @@ release
 end
 
 RuinsOfAlphS3_Combate_Unown_Texto_2:
-.string "... ... ... ...$"
+.string "… … … …$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_4:
 .string "GIOVANNI: ¡Lo sabía, sabía que tú\n"
@@ -459,7 +459,7 @@ RuinsOfAlphS3_Combate_Unown_Texto_6:
 	.string "a KYUREM su forma original, ya\l"
 	.string "tendremos tiempo de investigarlo,\l"
 	.string "{PLAYER}, cuando toda JOHTO y KANTO\l"
-	.string "estén a salvo...$"
+	.string "estén a salvo…$"
 
 
 RuinsOfAlphS3_Combate_Unown_Move_1:

@@ -275,7 +275,7 @@ release
 end
 
 EcruteakCity_Encuentro_Maestro_Texto_1:
-.string "MIRTO: ...$"
+.string "MIRTO: {PAUSE 45}…{PAUSE 45}$"
 
 EcruteakCity_Encuentro_Maestro_Texto_2:
 .string "M.ANCIANO: Oh, {PLAYER}, qué rápido\n"
@@ -558,7 +558,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_2:
 	.string "combate.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_3:
-.string "OAK: … …$"
+.string "OAK: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_4:
 .string "AGATHA: Típico de ti, hacer todo desde\n"
@@ -593,7 +593,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_8:
 	.string "¿verdad?$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_9:
-.string "OAK: No... Hemos cambiado nosotros.$"
+.string "OAK: {PAUSE 15}No{PAUSE 25}…{PAUSE 25} Hemos cambiado nosotros.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_10:
 .string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
@@ -623,7 +623,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_14:
 	.string "que dure.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_15:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_16:
 .string "¡Oh! ¿{PLAYER}?$"

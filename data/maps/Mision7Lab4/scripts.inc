@@ -1032,7 +1032,7 @@ Mision7Lab4_Documento_Texto_3:
 	.string "¡Tiene más de 1000 páginas!$"
 
 Mision7Lab4_Documento_Texto_2:
-	.string "... ...$"
+	.string "… …$"
 
 Mision7Lab4_Documento_Texto_1:
 	.string "-Cómo obtener mayores ganancias de\n"

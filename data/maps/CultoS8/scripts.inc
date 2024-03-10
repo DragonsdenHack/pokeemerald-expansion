@@ -55,7 +55,7 @@ CultoS8_Combate_Lider_Texto_3:
 
 CultoS8_Combate_Lider_Texto_4:
 .string "Así que has seguido creciendo como\n"
-	.string "ENTRENADOR...$"
+	.string "ENTRENADOR…$"
 
 CultoS8_Combate_Lider_Texto_5:
 .string "No soy amigo de los halagos,\n"
@@ -68,7 +68,7 @@ CultoS8_Combate_Lider_Texto_5:
 
 CultoS8_Combate_Lider_Texto_6:
 .string "Sí, incluso podrías ser digno de\n"
-	.string "presenciar al POKEMON ES...$"
+	.string "presenciar al POKEMON ES…$"
 
 CultoS8_Combate_Lider_Texto_7:
 .string "¿Un ENTRENADOR misterioso ha\n"
@@ -78,7 +78,7 @@ CultoS8_Combate_Lider_Texto_7:
 	.string "de todo?$"
 
 CultoS8_Combate_Lider_Texto_8:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 CultoS8_Combate_Lider_Texto_9:
 .string "No, no puede referirse al POKÉMON\n"
@@ -93,7 +93,7 @@ CultoS8_Combate_Lider_Texto_10:
 	.string "guardan innumerables secretos, tal\l"
 	.string "vez sepa de alguna leyenda que\l"
 	.string "desconozco. Pero tú, {PLAYER},\l"
-	.string "viendo cómo has combatido... A\l"
+	.string "viendo cómo has combatido{PAUSE 25}…{PAUSE 25} A\l"
 	.string "alguien como tú solo el POKÉMON\l"
 	.string "ESENCIA puede tumbar en combate.$"
 
@@ -148,7 +148,7 @@ release
 end
 
 CultoS8_Meditando_Texto_1:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 CultoS8_Llamada_Giovanni::
 lock
@@ -174,15 +174,15 @@ CultoS8_Llamada_Giovanni_Texto_2:
 CultoS8_Llamada_Giovanni_Texto_1:
 .string "GIOVANNI: ¿Has averiguado algo,\n"
 	.string "{PLAYER}?\l"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿RUINAS ALFA?\l"
 	.string "Tal y como sospechamos, si un NATU\l"
 	.string "estornuda en su hierba alta, lo\l"
 	.string "sabremos. Toda la zona estará\l"
 	.string "vigilada.\l"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿Dices que LUGIA y HO-OH nada\l"
 	.string "tienen que ver con el propósito de\l"
 	.string "ese ENTRENADOR?\l"

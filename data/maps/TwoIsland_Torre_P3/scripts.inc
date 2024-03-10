@@ -29,7 +29,7 @@ TwoIsland_Torre_P3_Cientifico_Texto_1:
 	.string "aquí dentro podría parecer que\l"
 	.string "estamos en KANTO, tal vez podamos\l"
 	.string "traer un poco de esa región a esta\l"
-	.string "isla...$"
+	.string "isla…$"
 
 TwoIsland_Torre_P3_Cientifico_2::
 lock

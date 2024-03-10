@@ -195,7 +195,7 @@ NeoPowerPlant_Presidente_Texto_3:
 	.string "último en tecnología, gracias a ello\l"
 	.string "hemos podido acelerar la unión entre\l"
 	.string "KANTO y JOHTO. Pero parece que también\l"
-	.string "ha atraído a...$"
+	.string "ha atraído a…$"
 
 NeoPowerPlant_Presidente_Texto_4:
 .string "Si continúa así, producirá una\n"
@@ -274,7 +274,7 @@ NeoPowerPlant_Combate_Zapdos_Texto_1:
 .string "¡Zap!$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_2:
-.string "Zap...$"
+.string "Zap…$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_3:
 .string "(¡El ZAPDOS-P se consumió por\n"
@@ -297,7 +297,7 @@ NeoPowerPlant_Combate_Zapdos_Texto_7:
 	.string "RADIO a la mayor brevedad posibles.$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_8:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_9:
 .string "Espero que estés preparado.$"

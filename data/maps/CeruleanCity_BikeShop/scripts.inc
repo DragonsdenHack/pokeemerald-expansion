@@ -109,8 +109,8 @@ CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
 	.string "tienen!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4:
 .string "¡No puede ser!\n"

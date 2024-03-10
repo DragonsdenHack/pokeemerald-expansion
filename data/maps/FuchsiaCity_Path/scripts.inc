@@ -129,16 +129,16 @@ FuchsiaCity_Path_Barrera_Texto_1:
 	.string "problemas!$"
 
 FuchsiaCity_Path_Barrera_Texto_2:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 FuchsiaCity_Path_Barrera_Texto_3:
-.string "Espera...\n"
-	.string "Ese pase...\l"
+.string "Espera{PAUSE 15}…{PAUSE 15}\n"
+	.string "Ese pase{PAUSE 15}…{PAUSE 15}\l"
 	.string "¡Déjame verlo!$"
 
 FuchsiaCity_Path_Barrera_Texto_4:
-.string "Mmm...\n"
-	.string "Firmado por el mismísimo KOGA...\l"
+.string "Mmm{PAUSE 15}…{PAUSE 15}\n"
+	.string "Firmado por el mismísimo KOGA{PAUSE 15}…{PAUSE 15}\l"
 	.string "Parece que todo está correcto,\l"
 	.string "debes de ser alguien muy\l"
 	.string "influyente para haber obtenido\l"

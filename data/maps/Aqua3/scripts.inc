@@ -354,7 +354,7 @@ Aqua3_Combate_Aquiles_Texto_12:
 	.string "¡No me hagas reir!\l"
 	.string "¡Sabes lo mismo sobre KYOGRE que\l"
 	.string "yo sobre los POKÉMON terrestres!\l"
-	.string "¡Solo eres un oportunista que...!$"
+	.string "¡Solo eres un oportunista que…!$"
 
 Aqua3_Combate_Aquiles_Texto_13:
 .string "ZEUS: ¡FLOETTE!\l"
@@ -365,10 +365,10 @@ Aqua3_Combate_Aquiles_Texto_14:
 	.string "sus POKÉMON y la ESFERA AZUL).$"
 
 Aqua3_Combate_Aquiles_Texto_15:
-.string "AQUILES: ...$"
+.string "AQUILES: {PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_16:
-.string "¿Q-qué hago yo aquí?$"
+.string "¿Q{PAUSE 15}-{PAUSE 15}qué hago yo aquí?$"
 
 Aqua3_Combate_Aquiles_Texto_17:
 .string "ZEUS: Eso mismo nos preguntamos\n"
@@ -377,7 +377,7 @@ Aqua3_Combate_Aquiles_Texto_17:
 	.string "nos han hablado de un tal KYOGRE,\l"
 	.string "y de una ESFERA ROJA que lo\l"
 	.string "despierta, pero eso está en\l"
-	.string "HOENN...$"
+	.string "HOENN{PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_18:
 .string "AQUILES: ¡KYOGRE sí!\n"
@@ -395,7 +395,7 @@ Aqua3_Combate_Aquiles_Texto_19:
 	.string "fracasaría de nuevo.$"
 
 Aqua3_Combate_Aquiles_Texto_20:
-.string "ZEUS: ...$"
+.string "ZEUS: {PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_21:
 .string "¿Ves injusto que les arrebate\n"
@@ -413,7 +413,7 @@ Aqua3_Combate_Aquiles_Texto_22:
 	.string "estaban equivocados.$"
 
 Aqua3_Combate_Aquiles_Texto_23:
-.string "Más tierra, más agua...\n"
+.string "Más tierra, más agua{PAUSE 15}…{PAUSE 15}\n"
 	.string "Que estupidez, solo el creador de\l"
 	.string "todo tiene poder para decidir\l"
 	.string "sobre el planeta en su conjunto.$"
@@ -425,7 +425,7 @@ Aqua3_Combate_Aquiles_Texto_24:
 	.string "GROUDON cayeran en las manos de\l"
 	.string "AQUILES y MAGNO, pero no para\l"
 	.string "mantenerlos confinados de nuevo\l"
-	.string "hasta el fin de los tiempos...$"
+	.string "hasta el fin de los tiempos{PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_25:
 .string "AQUILES y MAGNO creían que iban\n"
@@ -433,7 +433,7 @@ Aqua3_Combate_Aquiles_Texto_25:
 	.string "poderosos de este mundo, y\l"
 	.string "ciertamente son muy poderosos, ya\l"
 	.string "has tenido ocasión de\l"
-	.string "comprobarlo...$"
+	.string "comprobarlo{PAUSE 15}…{PAUSE 15}$"
 
 Aqua3_Combate_Aquiles_Texto_26:
 .string "Sin embargo, sus poderes palidecen\n"
@@ -456,7 +456,7 @@ Aqua3_Combate_Aquiles_Texto_27:
 	.string "porqué de sus derrotas ante ti,\l"
 	.string "creían en la perfección de KYOGRE\l"
 	.string "y GROUDON, sin embargo, sus\l"
-	.string "poderes son incompletos...$"
+	.string "poderes son incompletos…$"
 
 Aqua3_Combate_Aquiles_Texto_28:
 .string "Nada me retiene ya aquí, debo ir\n"

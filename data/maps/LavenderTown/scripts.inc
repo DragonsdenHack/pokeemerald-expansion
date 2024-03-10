@@ -102,7 +102,7 @@ end
 
 LavenderTown_3_Text_3Yes:
     .string "¿En serio?\n"
-	.string "Hay quien no cree...$"
+	.string "Hay quien no cree…$"
 
 
 

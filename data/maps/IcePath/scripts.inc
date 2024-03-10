@@ -65,7 +65,7 @@ IcePath_Llamada_Giovanni_Texto_1.1:
 	.string "PSEUDOLEGENDARIO.$"
 
 IcePath_Llamada_Giovanni_Texto_1.2:
-.string "Pero... el POKÉMON con el que acabas de\n"
+.string "Pero{PAUSE 25}…{PAUSE 25} el POKÉMON con el que acabas de\n"
 	.string "combatir va incluso más allá, su\l"
 	.string "poderío por el lado especial es\l"
 	.string "inigualable, algo único.$"

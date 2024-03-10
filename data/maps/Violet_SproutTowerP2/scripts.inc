@@ -18,7 +18,7 @@ release
 end
 
 VioletSproutTowerP2_3_Texto_1:
-.string "Parece estar meditando...$"
+.string "Parece estar meditando…$"
 
 
 
@@ -64,7 +64,7 @@ VioletSprotTowerP2Documento_Text_100:
 	.string "Es la solemne estatua de un\n"
 	.string "BELLSPROUT. Tiene grabado algo en\l"
 	.string "letras de oro: - Todos partimos de\l"
-	.string "puntos diferentes... pero todos\l"
+	.string "puntos diferentes… pero todos\l"
 	.string "podemos tocar el mismo cielo-.$"
 
 Violet_SproutTower_P2_Encuentro_Zeus::
@@ -161,10 +161,10 @@ Violet_SproutTower_P2_Encuentro_Zeus_Texto_6:
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_7:
 .string "Todos vuestros POKÉMON no son más\n"
 	.string "que sombras y cenizas. No\l"
-	.string "obstante...$"
+	.string "obstante…$"
 
 Violet_SproutTower_P2_Encuentro_Zeus_Texto_8:
-.string "Ese ENTRENADOR...\n"
+.string "Ese ENTRENADOR…\n"
 	.string "Se dirigía a PUEBLO AZALEA.\l"
 	.string "Contaba con un POKÉMON, un POKÉMON\l"
 	.string "muy especial a pesar de no ser\l"
@@ -333,8 +333,8 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_2:
 	.string "desarrollarlo.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
 .string "¡Oh!\n"
@@ -353,7 +353,7 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_5:
 .string "¡Oh!\n"
 	.string "Así que no todos los entrenadores\l"
 	.string "jóvenes han perdido la esencia del\l"
-	.string "combate...$"
+	.string "combate…$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_6:
 .string "No esperaba para nada volverme a\n"
@@ -427,10 +427,10 @@ VioletViolet_SproutTower_P2_Pegaso_Texto_1:
 	.string "de lo grandes que son.$"
 
 VioletViolet_SproutTower_P2_Pegaso_Texto_2:
-.string "Entonces...\n"
+.string "Entonces…\n"
 	.string "Solo hay que enseñar tu verdadero\l"
 	.string "poder a quien de verdad lo\l"
-	.string "merece...\l"
+	.string "merece…\l"
 	.string "El resto debe conformarse con no\l"
 	.string "más que un PIDGEOTTO y su BOFETÓN\l"
-	.string "LODO...$"
+	.string "LODO…$"

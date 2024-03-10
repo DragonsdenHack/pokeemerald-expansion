@@ -53,11 +53,11 @@ release
 end
 
 Bill_Garden_Warp_text_1:
-.string "...$"
+.string "…$"
 
 Bill_Garden_Warp_Text_YesNo:
-    .string "...\n"
-	.string "...\l"
+    .string "…\n"
+	.string "…\l"
 	.string "Este póster está cubriendo un\l"
 	.string "pequeño túnel que lleva a algún\l"
 	.string "otro lugar.\l"
@@ -175,13 +175,13 @@ Bill_Garden_Policia_Atlas_text_2:
 	.string "No me extraña, no sois más que un\l"
 	.string "puñado de ladrones sin principios\l"
 	.string "ni criterio alguno.\l"
-	.string "¡Ahora estás sol...!$"
+	.string "¡Ahora estás sol…!$"
 
 Bill_Garden_Policia_Atlas_text_3:
 .string "????: Te equivocas.$"
 
 Bill_Garden_Policia_Atlas_text_4:
-.string "BILL: ADMINISTRADOR JEFE ATLAS...$"
+.string "BILL: ADMINISTRADOR JEFE ATLAS…$"
 
 Bill_Garden_Policia_Atlas_text_5:
 .string "ATLAS: No he podido evitar oír\n"

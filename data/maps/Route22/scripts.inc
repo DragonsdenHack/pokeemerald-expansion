@@ -109,10 +109,10 @@ Route22_Combate_Azul_Texto_1:
 Route22_Combate_Azul_Texto_2:
 .string "Acabo de volver de entrenar en la\n"
 	.string "CALLE VICTORIA, aún no me atrevo a\l"
-	.string "entrar al ALTO MANDO...$"
+	.string "entrar al ALTO MANDO…$"
 
 Route22_Combate_Azul_Texto_3:
-.string "... ...$"
+.string "… …$"
 
 Route22_Combate_Azul_Texto_4:
 .string "La verdad es que ROJO ha vuelto a\n"
@@ -432,7 +432,7 @@ RocketHideoutViridian_Escena_9_Texto_4.1:
 	.string "obedecen a un fin mayor, son imposibles\l"
 	.string "de comprender si los ves uno por uno\l"
 	.string "desde fuera, como un mero espectador,\l"
-	.string "pero en su conjunto...$"
+	.string "pero en su conjunto…$"
 
 RocketHideoutViridian_Escena_9_Texto_5:
 .string "El mejor…¡Dijiste que querías ser el\n"
@@ -443,7 +443,7 @@ RocketHideoutViridian_Escena_9_Texto_6:
 .string "¿Y qué piensas hacer entonces?$"
 
 RocketHideoutViridian_Escena_9_Texto_7:
-.string "...$"
+.string "…$"
 
 RocketHideoutViridian_Escena_9_Texto_8:
 .string "GIOVANNI: Un hombre que no sabe\n"
@@ -506,7 +506,7 @@ RocketHideoutViridian_Escena_9_Texto_21:
 RocketHideoutViridian_Escena_9_Texto_22:
 .string "GIOVANNI: Eso espero PLATA, es lo mejor\n"
 	.string "para ambos. Crece alejado de esta\l"
-	.string "farsa, mejora por tu cuenta. Mientras...\l"
+	.string "farsa, mejora por tu cuenta. Mientras…\l"
 	.string "Yo me encargaré de moldear como es\l"
 	.string "debido la región sobre la que vives{PAUSE 25}…{PAUSE 25} a\l"
 	.string "cualquier precio.$"

@@ -128,7 +128,7 @@ AzaleaGym_Combate_Cesar_Texto_3:
 	.string "equipo como para mí.$"
 
 AzaleaGym_Combate_Cesar_Texto_4:
-.string "...$"
+.string "…$"
 
 AzaleaGym_Combate_Cesar_Texto_5:
 .string "MIRTO me ha demostrado que siempre\n"
@@ -144,7 +144,7 @@ AzaleaGym_Combate_Cesar_Texto_6:
 	.string "¡Veámoslo!$"
 
 AzaleaGym_Combate_Cesar_Texto_7:
-.string "Ah... Este combate sí.$"
+.string "Ah{PAUSE 15}…{PAUSE 15} Este combate sí.$"
 
 AzaleaGym_Combate_Cesar_Texto_8:
 .string "No recuerdo la última vez que\n"
@@ -181,7 +181,7 @@ AzaleaGym_Combate_Cesar_Texto_11:
 	.string "las del mismísimo ZAPDOS!$"
 
 AzaleaGym_Combate_Cesar_Texto_12:
-.string "Ahora que lo pienso...\n"
+.string "Ahora que lo pienso…\n"
 	.string "No le pregunté a MIRTO de donde\l"
 	.string "venía. Me gustaría tener al menos\l"
 	.string "la forma normal de ese POKÉMON tan\l"

@@ -227,8 +227,8 @@ ViridianCity_Entrenador_Especial_Texto_1:
 	.string "MEDALLAS.$"
 
 ViridianCity_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 ViridianCity_Entrenador_Especial_Texto_3:
 .string "¡JAH!\n"

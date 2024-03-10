@@ -315,7 +315,7 @@ Route47_Encuentro_Maestro_Anciano_Texto_3:
 	.string "décadas sin venir aquí, creí que el\l"
 	.string "MAESTRO de C.IRIS había viajado hasta\l"
 	.string "este lugar sagrado, tenía esperanzas de\l"
-	.string "conversar una última vez con él pero...\l"
+	.string "conversar una última vez con él pero{PAUSE 25}…{PAUSE 25}\l"
 	.string "parece que HO-OH estimó que su hora\l"
 	.string "había llegado.$"
 
@@ -323,7 +323,7 @@ Route47_Encuentro_Maestro_Anciano_Texto_4:
 .string "Pero no hay de qué lamentarse. El mejor\n"
 	.string "relevo posible lo tengo aquí delante.\l"
 	.string "Te daré un consejo: dirígete más al\l"
-	.string "oeste, ahí... tal vez incluso alguien de\l"
+	.string "oeste, ahí{PAUSE 25}…{PAUSE 25} tal vez incluso alguien de\l"
 	.string "tu nivel encuentre lo que necesita,\l"
 	.string "para mejorar aún más.$"
 

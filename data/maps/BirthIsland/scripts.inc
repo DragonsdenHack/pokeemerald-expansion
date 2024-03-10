@@ -117,7 +117,7 @@ BirthIsland_Blaine_Texto_2:
 .string "He estado en las ruinas que hay al\n"
 	.string "lado de esta isla, pero no he\l"
 	.string "podido encontrar nada interesante,\l"
-	.string "sin embargo esto...$"
+	.string "sin embargo esto…$"
 
 BirthIsland_Blaine_Texto_3:
 .string "Cuando llegué no había nada, pero\n"

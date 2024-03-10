@@ -266,7 +266,7 @@ RockTunnel_2F_Combate_Miguel_Texto_3:
 	.string "Mala suerte ROCKET, yo lo he visto\l"
 	.string "primero, así que este KANGASKHAN\l"
 	.string "pertence ya a mi equipo POKÉMON,\l"
-	.string "si me discul...$"
+	.string "si me discul…$"
 
 RockTunnel_2F_Combate_Miguel_Texto_4:
 .string "¡Un momento!\n"
@@ -276,7 +276,7 @@ RockTunnel_2F_Combate_Miguel_Texto_4:
 
 RockTunnel_2F_Combate_Miguel_Texto_5:
 .string "He de admitir que tuviste mala\n"
-	.string "fortuna, y yo mucha...$"
+	.string "fortuna, y yo mucha…$"
 
 RockTunnel_2F_Combate_Miguel_Texto_6:
 .string "Ese necio podrá ser todo lo fuerte\n"
@@ -352,13 +352,13 @@ RockTunnel_2F_Combate_Miguel_Texto_14:
 	.string "A CIENTÍFICO MIGUEL).$"
 
 RockTunnel_2F_Combate_Miguel_Texto_15:
-.string "CIENTÍFICO: Grrrrrrrr...$"
+.string "CIENTÍFICO: Grrrrrrrr…$"
 
 RockTunnel_2F_Combate_Miguel_Texto_16:
 .string "PROTÓN: De modo que el rumor era\n"
 	.string "cierto, quién diría que en esta\l"
 	.string "cueva pudiera habitar un\l"
-	.string "KANGASKHAN...\l"
+	.string "KANGASKHAN…\l"
 	.string "En fin, vuelvo al cuartel\l"
 	.string "inmediatamente {PLAYER}, la\l"
 	.string "importancia de lo que llevo\l"
@@ -532,8 +532,8 @@ RockTunnel_2F_Entrenador_Especial_Texto_1:
 	.string "AVALANCHA.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_3:
 .string "No, parece que tú tampoco estás\n"
@@ -581,4 +581,4 @@ RockTunnel_2F_Entrenador_Especial_Texto_10:
 .string "Me temo que tendré que seguir\n"
 	.string "conformándome con derrotar a los\l"
 	.string "mismo MONTAÑEROS y POKEMANÍACOS de\l"
-	.string "nuevo...$"
+	.string "nuevo…$"

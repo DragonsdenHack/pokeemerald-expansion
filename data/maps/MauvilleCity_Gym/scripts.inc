@@ -303,7 +303,7 @@ MauvilleCity_Gym_Text_BenIntro:
 	.string "que mola?$"
 
 MauvilleCity_Gym_Text_BenDefeat:
-	.string "Soy muy mal perdedor...$"
+	.string "Soy muy mal perdedor…$"
 
 MauvilleCity_Gym_Text_BenPostBattle:
 	.string "ERICO dice que le encanta poner\n"

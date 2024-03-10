@@ -189,7 +189,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_2:
 	.string "olvidado este lugar.$"
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_3:
-.string "Y es que... este una vez fue un\n"
+.string "Y es que{PAUSE 25}…{PAUSE 25} este una vez fue un\n"
 	.string "GIMNASIO oficial.\l"
 	.string "En la época en la que las islas\l"
 	.string "contaban con 4 GIMNASIOS, llegué aquí\l"
@@ -222,7 +222,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_6:
 
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_7:
 .string "Sin embargo, sus poderes se volvieron\n"
-	.string "también inestables y...peligrosos\l"
+	.string "también inestables y{PAUSE 25}…{PAUSE 25}peligrosos\l"
 	.string "para la gente común.\l"
 	.string "Como consecuencia tuvimos que cerrar\l"
 	.string "el GIMNASIO, a lo que le siguieron el\l"
@@ -256,7 +256,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_11:
 Gimnasio_CuevaHypno_Dialogo_Lider_Texto_12:
 .string "Ahora que ya sabes mi historia,\n"
 	.string "estarás algo más preparado para\l"
-	.string "nuestro combate, y también...\l"
+	.string "nuestro combate, y también{PAUSE 15}…{PAUSE 15}\l"
 	.string "entenderás en qué consiste el puzzle\l"
 	.string "de este GIMNASIO.\l"
 	.string "Observa.$"
@@ -294,7 +294,7 @@ Gimnasio_CuevaHypno_Dialogo_Lider_Texto_17:
 .string "HYPNO aprovecha esto para poner a\n"
 	.string "prueba al sujeto. Obligarle a\l"
 	.string "expandir su propia realidad a partir\l"
-	.string "de lo que ya ha visto, porque...\l"
+	.string "de lo que ya ha visto, porque{PAUSE 25}…{PAUSE 25}\l"
 	.string "¿Qué podría limitarnos más que\l"
 	.string "nuestra propia percepción de la\l"
 	.string "realidad?$"
@@ -356,10 +356,10 @@ end
 
 
 Gimnasio_CuevaHypno_Primera_Pregunta_No_Texto_1:
-.string "Respuesta correcta, pero… a ciegas,\n"
+.string "Respuesta correcta, pero{PAUSE 25}…{PAUSE 25} a ciegas,\n"
 	.string "¿verdad? No conoces ningún fantasma\l"
 	.string "en KANTO más allá de esos 3, y a pesar\l"
-	.string "de ello sientes que hay algo más…\l"
+	.string "de ello sientes que hay algo más{PAUSE 15}…{PAUSE 15}\l"
 	.string "oculto , ¿no? Volverás a PUEBLO\l"
 	.string "LAVANDA, aún te quedan cosas por hacer\l"
 	.string "allí, de eso estoy seguro.$"
@@ -509,8 +509,8 @@ Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_1:
 	.string "la esencia de la región.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_Texto_2:
-	.string "Respuesta incorrecta … ¿Dices que solo\n"
-	.string "hay 2? ¿El de MALVA y el de IRIS? …\l"
+	.string "Respuesta incorrecta {PAUSE 25}…{PAUSE 25} ¿Dices que solo\n"
+	.string "hay 2? ¿El de MALVA y el de IRIS?{PAUSE 25} …{PAUSE 25}\l"
 	.string "Respuesta incorrecta.$"
 
 Gimnasio_CuevaHypno_Cuarta_Pregunta_No::
@@ -641,7 +641,7 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_8:
 	.string "aspirante en aspirante.\l"
 	.string "Esa sensación tan característica de\l"
 	.string "la competición, que con los años se\l"
-	.string "manifiesta de forma diferente... sin\l"
+	.string "manifiesta de forma diferente{PAUSE 25}…{PAUSE 25} sin\l"
 	.string "duda no me arrepiento de haber tomado\l"
 	.string "este camino.$"
 
@@ -654,22 +654,22 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_7:
 	.string "palabras!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_6:
-.string "Diría... que nuestro nivel ha sido\n"
-	.string "excelente pero... ¿aún así he\l"
+.string "Diría{PAUSE 25}…{PAUSE 25} que nuestro nivel ha sido\n"
+	.string "excelente pero{PAUSE 25}…{PAUSE 25} ¿aún así he\l"
 	.string "perdido?$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_5:
 .string "Ahora, sin espectadores, sin aplausos\n"
 	.string "ni cámaras que inmortalicen este\l"
 	.string "momento, fieles al modo de vida que\l"
-	.string "hemos escogido... ¡verás los\l"
+	.string "hemos escogido{PAUSE 25}…{PAUSE 25} ¡verás los\l"
 	.string "resultados de ese entrenamiento!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_4:
-.string "En cuanto a mí... llevo décadas sin\n"
+.string "En cuanto a mí{PAUSE 25}…{PAUSE 25} llevo décadas sin\n"
 	.string "tener referencia alguna que no sea\l"
 	.string "esta pequeña isla.\l"
-	.string "Pero... todo ese tiempo, tanto HYPNO\l"
+	.string "Pero{PAUSE 25}…{PAUSE 25} todo ese tiempo, tanto HYPNO\l"
 	.string "como yo nos hemos mantenido\l"
 	.string "entrenando, con el único objetivo de\l"
 	.string "superarnos a nosotros mismos, nuestra\l"
@@ -683,7 +683,7 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_2:
 .string "Si no llega a ser por HYPNO, jamás lo\n"
 	.string "hubiera sabido, aunque según él, ese\l"
 	.string "título no existe como has podido\l"
-	.string "comprobar en sus preguntas...$"
+	.string "comprobar en sus preguntas{PAUSE 15}…{PAUSE 15}$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_1:
 .string "Así que todo este tiempo he estado\n"

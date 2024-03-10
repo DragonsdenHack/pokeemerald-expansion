@@ -99,7 +99,7 @@ release
 end
 
 MahoganyTown_Gym_Combate_Texto_11.1:
-.string "Mmm... mereces esta MT, sin duda.$"
+.string "Mmm{PAUSE 25}…{PAUSE 25} mereces esta MT, sin duda.$"
 
 MahoganyTown_Gym_Combate_Texto_11.2:
 .string "¡¡{PLAYER} obtuvo la MT60 VAHO\n"
@@ -140,7 +140,7 @@ MahoganyTown_Gym_Combate_Fredo_Texto_3:
 	.string "vez.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_5:
 .string "{PLAYER}, algo debes de haber hecho\n"
@@ -158,7 +158,7 @@ MahoganyTown_Gym_Combate_Fredo_Texto_6:
 
 MahoganyTown_Gym_Combate_Fredo_Texto_7:
 .string "Esta vez sí que he jugado todas\n"
-	.string "mis bazas... de verdad.$"
+	.string "mis bazas{PAUSE 25}…{PAUSE 25} de verdad.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_8:
 .string "Nadie ha estado cerca de poner\n"

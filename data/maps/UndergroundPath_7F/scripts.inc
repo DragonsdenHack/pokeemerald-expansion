@@ -109,7 +109,7 @@ UndergroundPath_7F_Cajas_Texto_2:
 	.string "valiosos).$"
 
 UndergroundPath_7F_Cajas_Texto_1:
-.string "... ...$"
+.string "… …$"
 
 UndergroundPath_7F_Motero_Llave_Texto_1:
 .string "¿Ves esas cajas? Es lo que queda del\n"
@@ -118,7 +118,7 @@ UndergroundPath_7F_Motero_Llave_Texto_1:
 	.string "interior, al noreste de aquí creo\l"
 	.string "recordar que había otro mercado negro,\l"
 	.string "pero me da un palo ir hasta allí para\l"
-	.string "examinar las cajas...$"
+	.string "examinar las cajas…$"
 
 
 
@@ -1547,7 +1547,7 @@ UndergroundPath_7F_Escena_Final_Texto_49.1:
 	.string "AGATHA en el ALTO MANDO.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49.2:
-.string "KOGA: Oh...$"
+.string "KOGA: Oh…$"
 
 UndergroundPath_7F_Escena_Final_Texto_50:
 .string "Ya sabéis que contáis con la palabra de\n"
@@ -1612,7 +1612,7 @@ UndergroundPath_7F_Escena_Final_Texto_62:
 	.string "en sus pisos superiores.$"
 
 UndergroundPath_7F_Escena_Final_Texto_63:
-.string "Pero... no es momento de echarse atrás,\n"
+.string "Pero{PAUSE 25}…{PAUSE 25} no es momento de echarse atrás,\n"
 	.string "¿verdad? Hemos llegado demasiado\l"
 	.string "lejos y visto mucho, es solo otro\l"
 	.string "maldito evento más.$"

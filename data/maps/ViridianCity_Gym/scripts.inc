@@ -202,13 +202,13 @@ ViridianCity_Gym_Pase_Texto_1:
 .string "¡Ni un paso más! Este GIMNASIO tiene\n"
 	.string "fama de ser el más estricto con la\l"
 	.string "política respecto al TEAM ROCKET. ¡Sal\l"
-	.string "de aquí si no quieres...!$"
+	.string "de aquí si no quieres…!$"
 
 ViridianCity_Gym_Pase_Texto_2:
-.string "... ...$"
+.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 ViridianCity_Gym_Pase_Texto_3:
-.string "Oh... Igual que esa chica que pasó hace\n"
+.string "Oh{PAUSE 25}…{PAUSE 25} Igual que esa chica que pasó hace\n"
 	.string "por aquí no mucho. Perdonad la\l"
 	.string "impertinencia señor, pero esta broma\l"
 	.string "de vestir de ROCKET no está gustando\l"
@@ -239,7 +239,7 @@ ViridianCity_Gym_Guy_Texto_1:
 	.string "la dirás tú cuando combatas con él?$"
 
 ViridianCity_Gym_Guy_Texto_2:
-.string "¿Derrotaste al LÍDER misterioso? ... ...\n"
+.string "¿Derrotaste al LÍDER misterioso? {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\n"
 	.string "Ah, entiendo, trabaja en secreto para\l"
 	.string "el GOBIERNO de LANCE. Eso lo explica\l"
 	.string "todo.$"
@@ -313,7 +313,7 @@ ViridianCity_Gym_Explicacion_Base_Texto_1:
 .string "EJECUTIVO: Le estábamos esperando,\n"
 	.string "EJECUTIVO {PLAYER}, veo que tiene las 7\l"
 	.string "MEDALLAS, GIOVANNI no esperaba\l"
-	.string "menos de usted, sin embargo...$"
+	.string "menos de usted, sin embargo…$"
 
 ViridianCity_Gym_Explicacion_Base_Texto_2:
 .string "Deberá de subir un poco más el\n"

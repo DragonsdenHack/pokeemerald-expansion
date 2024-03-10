@@ -170,7 +170,7 @@ GoldenrodCity_Text_13:
 	.string "LÍDERES DE GIMNASIO. TRIGAL quiere\l"
 	.string "un LÍDER guay y poderoso. Tú eres\l"
 	.string "guay, pero necesitamos algo\l"
-	.string "poderoso...$"
+	.string "poderoso…$"
 
 
 

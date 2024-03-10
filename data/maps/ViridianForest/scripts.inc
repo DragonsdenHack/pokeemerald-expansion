@@ -269,7 +269,7 @@ ViridianForest_Combate_Guays_Texto_3:
 	.string "propagó el rumor de que había un\l"
 	.string "KANGASKHAN por estos lugares,\l"
 	.string "parece que solo fue un rumor, este\l"
-	.string "en cambio...\l"
+	.string "en cambio…\l"
 	.string "Nadie creía que pudiera quedar\l"
 	.string "algún PINSIR por aquí y resulta\l"
 	.string "que sí.$"

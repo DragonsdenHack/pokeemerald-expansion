@@ -279,18 +279,18 @@ Ecruteak_TinTowerRoof_Zeus_Texto_6:
 	.string "inquebrantable ha honrado este\l"
 	.string "lugar con un combate para la\l"
 	.string "historia. No, no se equivocaron\l"
-	.string "contigo, ni AGATHA ni MIRTO...$"
+	.string "contigo, ni AGATHA ni MIRTO{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_7:
 .string "Realmente estoy impresionado, el\n"
 	.string "intercambio de poder y energía\l"
 	.string "aquí acontecido ha rozado la\l"
 	.string "perfección, ha sido incluso digno\l"
-	.string "de presenciar del mismísimo H...$"
+	.string "de presenciar del mismísimo H…$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_8:
-.string "Es...\n"
-	.string "HO-OH...$"
+.string "Es{PAUSE 15}…{PAUSE 15}\n"
+	.string "HO-OH{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_9:
 .string "¿Te das cuenta, {PLAYER}?$"
@@ -317,7 +317,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_12:
 	.string "estoy seguro, con HO-OH delante\l"
 	.string "mía, puedo percibir la grandeza y\l"
 	.string "potencial único de cada uno de los\l"
-	.string "POKÉMON de est...$"
+	.string "POKÉMON de est{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_13:
 .string "????: No me haga reir, no sois más\n"
@@ -377,30 +377,30 @@ Ecruteak_TinTowerRoof_Zeus_Texto_20:
 	.string "que obligarme a usar el 80% de mi\l"
 	.string "poder.\l"
 	.string "Nadie te salvará, los dioses de\l"
-	.string "los que este anciano habla...\l"
+	.string "los que este anciano habla{PAUSE 15}…{PAUSE 15}\l"
 	.string "¡Yo tengo a esos dioses!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_21:
 .string "¿Cómo puede ser esto posible?$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_22:
-.string "ZEUS: Esto...\n"
+.string "ZEUS: Esto{PAUSE 15}…{PAUSE 15}\n"
 	.string "Mi equipo aún es incompleto, pero\l"
 	.string "debería de ser más que suficiente\l"
 	.string "para arrollar a cualquier\l"
-	.string "ENTRENADOR, no lo comprendo...$"
+	.string "ENTRENADOR, no lo comprendo{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_23:
-.string "No...\n"
+.string "No{PAUSE 25}…{PAUSE 25}\n"
 	.string "La diferencia entre el 80% y el\l"
-	.string "100% no es del 20%, es... todo...\l"
+	.string "100% no es del 20%, es{PAUSE 25}…{PAUSE 25} todo…\l"
 	.string "Un poder inabordable,\l"
 	.string "indiscutible. Eso es, ahora solo\l"
 	.string "me falta una pieza para reunirlo,\l"
 	.string "y sé quién la tiene.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_24:
-.string "M.IRIS: Esto es terrible...\n"
+.string "M.IRIS: Esto es terrible…\n"
 	.string "Tenemos que avisar al MAESTRO\l"
 	.string "DRAGÓN de ENDRINO, solo es\l"
 	.string "cuestión de tiempo que ese loco\l"
@@ -637,7 +637,7 @@ Ecruteak_TinTowerRoof_Final_Texto_1:
 .string "M.JADEN: Una vez más, has vuelto.$"
 
 Ecruteak_TinTowerRoof_Final_Texto_2:
-.string "...$"
+.string "{PAUSE 35}…{PAUSE 35}$"
 
 Ecruteak_TinTowerRoof_Final_Texto_3:
 .string "Parece que JOHTO está en buenas\n"

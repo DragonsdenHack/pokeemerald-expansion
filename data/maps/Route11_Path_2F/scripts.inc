@@ -27,7 +27,7 @@ msgbox Route11Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route11Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡Qué vista tan bonita!$"
 
 
@@ -37,7 +37,7 @@ msgbox Route11Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route11Path2FDocumento_Text_101:
-	.string "Has usado los prismáticos...\p"
+	.string "Has usado los prismáticos…\p"
 	.string "¡Puedes ir de CIUDAD CELESTE\n"
 	.string "a PUEBLO LAVANDA por el TÚNEL\l"
 	.string "ROCA!$"
@@ -90,8 +90,8 @@ Route11_Path_2F_Combate_Ayudante_Oak_Texto_1:
 	.string "contamine aún más mi estatus.$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route11_Path_2F_Combate_Ayudante_Oak_Texto_3:
 .string "¿Quieres perder la poca capacidad\n"

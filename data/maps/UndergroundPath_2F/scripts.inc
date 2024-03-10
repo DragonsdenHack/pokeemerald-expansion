@@ -22,7 +22,7 @@ release
 end
 
 UndergroundPath2F_3_Texto_1:
-.string "Jojojo... Verás cuando todos vean mi\n"
+.string "Jojojo… Verás cuando todos vean mi\n"
 	.string "reluciente FLAREON.$"
 
 
@@ -395,10 +395,10 @@ face_player
 step_end
 
 UndergroundPath2F_Secundaria_Eevees_Texto_1:
-.string "Eso, eso...\n"
-	.string "Todos a la cola...\l"
-	.string "No os preocupéis...\l"
-	.string "Habrá para todos...$"
+.string "Eso, eso…\n"
+	.string "Todos a la cola…\l"
+	.string "No os preocupéis…\l"
+	.string "Habrá para todos…$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_2:
 .string "Tenlo en cuenta ROCKET, solo has\n"
@@ -408,8 +408,8 @@ UndergroundPath2F_Secundaria_Eevees_Texto_2:
 	.string "rastro de ellos.$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_4:
 .string "¿Qué problema tienes ROCKET?\n"
@@ -417,7 +417,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_4:
 	.string "cola como todos, espero que tengas\l"
 	.string "el millón de POKÉS que cuesta.\l"
 	.string "De lo contrario, no me hagas perder\l"
-	.string "más el tiempo y regresa a tu...$"
+	.string "más el tiempo y regresa a tu…$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_5:
 .string "¿Te envía ese ingenuo CIENTÍFICO\n"
@@ -464,8 +464,8 @@ UndergroundPath2F_Secundaria_Eevees_Texto_11:
 .string "¡Estúpido ROCKET!\n"
 	.string "¡Creía que esto del mercado negro\l"
 	.string "era también lo vuestro!\l"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿Ahora trabajáis junto con SILPH?\l"
 	.string "¡Qué más da!\l"
 	.string "De todos modos ya he logrado\l"

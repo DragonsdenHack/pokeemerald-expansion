@@ -207,7 +207,7 @@ Silph_7F_Combate_Empleado_Texto_1:
 	.string "PRESIDENTE.$"
 
 Silph_7F_Combate_Empleado_Texto_2:
-.string "... ...$"
+.string "… …$"
 
 Silph_7F_Combate_Empleado_Texto_3:
 .string "¿Cómo?\n"
@@ -383,7 +383,7 @@ Silph_7F_Encuentro_Azul_Texto_3:
 	.string "objetos ROJO no podrá acercarse a\l"
 	.string "la reunión entre GIOVANNI y el\l"
 	.string "PRESIDENTE hasta que nosotros\l"
-	.string "queramos...$"
+	.string "queramos…$"
 
 Silph_7F_Encuentro_Azul_Texto_4:
 .string "El plan es mantener estas llaves a\n"

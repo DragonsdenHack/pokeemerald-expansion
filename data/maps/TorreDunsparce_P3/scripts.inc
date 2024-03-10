@@ -214,14 +214,14 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_4:
 	.string "Pero este lugar, aunque ya muy\l"
 	.string "desgastado por el paso del tiempo,\l"
 	.string "irradia esa clase de energía, propia\l"
-	.string "de grandes leyendas... propia de\l"
+	.string "de grandes leyendas{PAUSE 25}…{PAUSE 25} propia de\l"
 	.string "grandes acontecimientos que\l"
 	.string "trascendieron la historia y forjaron\l"
 	.string "el mundo tal y como hoy lo conocemos.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_5:
-.string "Lo cierto es que...\n"
-	.string "Este lugar me recuerda mucho a…$"
+.string "Lo cierto es que{PAUSE 25}…{PAUSE 25}\n"
+	.string "Este lugar me recuerda mucho a{PAUSE 25}…{PAUSE 25}$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_6:
 .string "Qué más da.$"
@@ -255,14 +255,14 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_10:
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_11:
 .string "Me agrada mucho haberme topado con\n"
-	.string "vosotros. En un lugar como este...\l"
+	.string "vosotros. En un lugar como este{PAUSE 25}…{PAUSE 25}\l"
 	.string "sois como ooparts para mí, pero qué\l"
 	.string "más da, no nos volveremos a ver.$"
 
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_12:
-.string "Mmm... pensándolo mejor, vuestro\n"
+.string "Mmm{PAUSE 25}…{PAUSE 25} pensándolo mejor, vuestro\n"
 	.string "vínculo con esos POKÉMON, la leyenda\l"
-	.string "de este lugar...\l"
+	.string "de este lugar{PAUSE 25}…{PAUSE 25}\l"
 	.string "Puede que sea yo el oopart, ¿no\l"
 	.string "crees?$"

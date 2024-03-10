@@ -151,8 +151,8 @@ end
 
 Route4_Evento_Karatekas_Text_1:
 .string "¿Qué quieres, ROCKET?\n"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿MEGAPUÑO Y MEGAPATADA?\l"
 	.string "Claro, somos expertos en esos\l"
 	.string "movimientos, nada como una buena\l"
@@ -204,8 +204,8 @@ Route4_Evento_Karatekas_Text_9:
 	.string "tumbar ni a un METAPOD.$"
 
 Route4_Evento_Karatekas_Text_10:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route4_Evento_Karatekas_Text_11:
 .string "Gracias por ayudarnos a poner en\n"

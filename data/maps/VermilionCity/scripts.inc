@@ -350,8 +350,8 @@ VermilioCity_Motorista_Text_1:
 .string "ANDRA: ¿Alguna noticia de nuestro\n"
 	.string "supuesto comodín para entrar al\l"
 	.string "SS.ANNE?\l"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "Ya veo.$"
 
 VermilioCity_Motorista_Text_2:
@@ -375,9 +375,9 @@ VermilioCity_Motorista_Text_2:
 VermilioCity_Motorista_Text_3:
 .string "Sea lo que sea que contenga ese\n"
 	.string "frasco del CAPITÁN, lo\l"
-	.string "encontraremos...\l"
+	.string "encontraremos{PAUSE 15}…{PAUSE 15}\l"
 	.string "Me pregunto si podremos llegar a\l"
-	.string "ver a GIOVANNI en pers...$"
+	.string "ver a GIOVANNI en pers…$"
 
 VermilioCity_Motorista_Text_4:
 .string "Vosotros debéis de ser los ALTOS\n"
@@ -405,7 +405,7 @@ VermilioCity_Motorista_Text_7:
 VermilioCity_Motorista_Text_8:
 .string "TETSUO: Cuando os dé la orden\n"
 	.string "avanzad y entrad rápidamente al\l"
-	.string "barco, el resto dejádmelo a mi...$"
+	.string "barco, el resto dejádmelo a mí…$"
 
 VermilioCity_Motorista_Text_9:
 .string "TETSUO: ¡EH, TÚ!$"
@@ -760,8 +760,8 @@ VermilionCity_Secundaria_AncianoMachop_Texto_1:
 	.string "una lección.$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_3:
 .string "Tú no pareces tener tampoco la\n"
@@ -845,7 +845,7 @@ VermilionCity_Secundaria_AncianoMachop_Texto_12:
 
 VermilionCity_Secundaria_AncianoMachop_Texto_13:
 .string "¿No?\n"
-	.string "Vaya...\l"
+	.string "Vaya…\l"
 	.string "Si cambias de opinión aquí estaré.$"
 
 VermilionCity_Secundaria_AncianoMachop_Move_1:

@@ -69,7 +69,7 @@ DragonsdenHouse_Anciano_Trampilla_Texto_1:
 	.string "Nuestro MAESTRO te está esperando.\l"
 	.string "Nos ha dicho que puedes acceder\l"
 	.string "hacia su prueba, la de verdad, de\l"
-	.string "modo que...\l"
+	.string "modo que…\l"
 	.string "Sigue adelante.$"
 
 Dragonsden_Warp::

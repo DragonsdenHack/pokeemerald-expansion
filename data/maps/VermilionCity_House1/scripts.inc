@@ -70,16 +70,16 @@ end
 
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_1:
-.string "Maldito DOMADOR...\n"
+.string "Maldito DOMADOR…\n"
 	.string "Por su culpa todo el mundo se toma\l"
 	.string "a broma mi CAÑA VIEJA. No puedo\l"
 	.string "dejar que esto siga así, mis\l"
 	.string "hermanos van a llevarse todo el\l"
-	.string "protagonismo...$"
+	.string "protagonismo…$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_3:
 .string "¡Eres un ROCKET!\n"

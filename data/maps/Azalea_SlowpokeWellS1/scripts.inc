@@ -83,8 +83,8 @@ SlowpokeWellS1_Combate_Texto_2:
 	.string "FÍSICA!$"
 
 SlowpokeWellS1_Combate_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 SlowpokeWellS1_Combate_Texto_4:
 .string "¿Te envía CÉSAR para combatir\n"

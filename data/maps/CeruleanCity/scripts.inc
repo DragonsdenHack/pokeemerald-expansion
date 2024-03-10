@@ -205,8 +205,8 @@ CeruleanCity_Rocket_Excavar_Text_1:
 	.string "colega una misión en CIUDAD\l"
 	.string "CELESTE y pensamos que nos vendría\l"
 	.string "bien algo de ayuda, ¿qué dices?\l"
-	.string "...\l"
-	.string "...\l"
+	.string "…\l"
+	.string "…\l"
 	.string "¡Perfecto!\l"
 	.string "¡Allá vamos!$"
 
@@ -284,7 +284,7 @@ end
 CeruleanCity_Bayas_Texto_1:
 .string "Valiente osado. ¿Sabías que esta\n"
 	.string "ciudad tiene la mayor base policial de\l"
-	.string "KANTO? Vamos... ROCKET, dame una\l"
+	.string "KANTO? Vamos… ROCKET, dame una\l"
 	.string "excusa para llamarla.$"
 
 CeruleanCity_Nina::

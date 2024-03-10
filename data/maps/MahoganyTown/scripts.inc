@@ -135,7 +135,7 @@ MahoganyTown_Encuentro_Rocket_Texto_1:
 	.string "¡Qué oportuno!$"
 
 MahoganyTown_Encuentro_Rocket_Texto_2:
-.string "Ejem...\n"
+.string "Ejem…\n"
 	.string "Verá.\l"
 	.string "Tal como GIOVANNI nos indicó,\l"
 	.string "FREDO nos ha cedido la antigua\l"

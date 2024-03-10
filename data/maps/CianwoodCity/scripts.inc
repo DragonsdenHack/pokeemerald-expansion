@@ -167,8 +167,8 @@ msgbox CianwoodCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 CianwoodCityDocumento_Text_103:
-	.string "...\n"
-	.string "...\l"
+	.string "…\n"
+	.string "…\l"
 	.string "Un antiguo grabado reza lo\l"
 	.string "siguiente:\l"
 	.string "-No te dejes guiar por las\l"
@@ -240,11 +240,11 @@ CianwoodCity_Evento_Mirto_Texto_3:
 	.string "Solo es cuestión de tiempo que el\l"
 	.string "GRAN MAESTRO te invite a entrar,\l"
 	.string "ha estado muy ocupado últimamente\l"
-	.string "poniendo en orden varios asuntos...$"
+	.string "poniendo en orden varios asuntos…$"
 
 CianwoodCity_Evento_Mirto_Texto_4:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 CianwoodCity_Evento_Mirto_Texto_5:
 .string "En cuanto a mi POKÉMON, probamos\n"

@@ -21,7 +21,7 @@ msgbox Route18Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route18Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡PUEBLO PALETA está al oeste!$"
 
 
@@ -31,5 +31,5 @@ msgbox Route18Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route18Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡Hay gente nadando!$"

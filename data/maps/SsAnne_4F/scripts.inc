@@ -84,7 +84,7 @@ release
 end
 
 SsAnne4F_Text_6:
-.string "Oh...\n"
+.string "Oh…\n"
 	.string "¿Estás seguro de que podemos\l"
 	.string "permitirnos esta cena?$"
 
@@ -99,7 +99,7 @@ end
 SsAnne4F_Text_7:
 .string "De modo que le gusta apostar\n"
 	.string "fuerte señor FUJITA, le haré una\l"
-	.string "oferta que no podrá rechazar...$"
+	.string "oferta que no podrá rechazar…$"
 
 
 
@@ -262,10 +262,10 @@ SsAnne_4F_Combate_Azul_text_4:
 	.string "ROCKET?$"
 
 SsAnne_4F_Combate_Azul_text_5:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "Entonces no eres un ROCKET\l"
-	.string "cualquiera...¿ALTO RANGO?\l"
+	.string "cualquiera…¿ALTO RANGO?\l"
 	.string "¡Para mí todos lucís iguales!\l"
 	.string "De todos modos, eres el único que\l"
 	.string "ha podido derrotarme después de\l"

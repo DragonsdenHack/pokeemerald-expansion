@@ -305,7 +305,7 @@ PokemonLeague_6F_Final_Texto_2:
 	.string "creado.$"
 
 PokemonLeague_6F_Final_Texto_3:
-.string "OAK: ...$"
+.string "OAK: {PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_4:
 .string "OAK: Sé porqué estás aquí ROCKET,\n"
@@ -362,7 +362,7 @@ PokemonLeague_6F_Final_Texto_10:
 	.string "variables que influyen en un\l"
 	.string "combate, es la combinación\l"
 	.string "perfecta entre tecnología y\l"
-	.string "humanidad, y los más importante...$"
+	.string "humanidad, y lo más importante{PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_11:
 .string "A diferencia de MEWTWO, todo su\n"
@@ -453,10 +453,10 @@ PokemonLeague_6F_Final_Texto_20:
 	.string "sean tus esfuerzos!$"
 
 PokemonLeague_6F_Final_Texto_21:
-.string "ROJO: ...$"
+.string "ROJO: {PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_22:
-.string "¡...!$"
+.string "¡…!$"
 
 PokemonLeague_6F_Final_Texto_23:
 .string "¡NO!\n"
@@ -476,15 +476,15 @@ PokemonLeague_6F_Final_Texto_24:
 PokemonLeague_6F_Final_Texto_25:
 .string "¡No hay otra explicación posible!\n"
 	.string "¡TÚ!\l"
-	.string "¡Tú...!$"
+	.string "{PAUSE 15}¡Tú{PAUSE 15}…{PAUSE 15}!$"
 
 PokemonLeague_6F_Final_Texto_26:
 .string "????: Teníamos un trato, OAK.$"
 
 PokemonLeague_6F_Final_Texto_27:
-.string "OAK: Oh, LANCE...\n"
-	.string "Y-yo...\l"
-	.string "Estab...$"
+.string "OAK: Oh{PAUSE 25},{PAUSE 25} LANCE{PAUSE 25}…{PAUSE 15}\n"
+	.string "Y{PAUSE 25}-{PAUSE 25}yo{PAUSE 25}…{PAUSE 25}\l"
+	.string "Estab…$"
 
 PokemonLeague_6F_Final_Texto_28:
 .string "LANCE: -Un ENTRENADOR inabordable,\n"
@@ -540,7 +540,7 @@ PokemonLeague_6F_Final_Texto_31:
 PokemonLeague_6F_Final_Texto_32:
 .string "OAK: Déjeme explicarle LANCE, ROJO\n"
 	.string "aún no estaba listo, necesita\l"
-	.string "exponerse a...$"
+	.string "exponerse a…$"
 
 PokemonLeague_6F_Final_Texto_33:
 .string "LANCE: Ya estoy harto de oirte\n"
@@ -564,10 +564,10 @@ PokemonLeague_6F_Final_Texto_35:
 .string "OAK: ¿Q-qué va a hacer?$"
 
 PokemonLeague_6F_Final_Texto_36:
-.string "OAK: E-estamos perdidos...\n"
-	.string "Va...\l"
-	.string "A...\l"
-	.string "Volver a soltar las best...$"
+.string "OAK: E{PAUSE 25}-{PAUSE 25}estamos perdidos{PAUSE 15}…{PAUSE 15}\n"
+	.string "Va{PAUSE 25}…{PAUSE 25}\l"
+	.string "A{PAUSE 15}…{PAUSE 15}\l"
+	.string "Volver a soltar las best{PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_37:
 .string "LANCE: CAMPEÓN, GOBERNADOR, son\n"
@@ -628,10 +628,10 @@ PokemonLeague_6F_Final_Texto_43:
 	.string "obligó a LANCE I a hacer uso de\l"
 	.string "sus sagrados POKÉMON justo antes\l"
 	.string "de que diera inicio la nueva fase\l"
-	.string "de su reinado...$"
+	.string "de su reinado…$"
 
 PokemonLeague_6F_Final_Texto_44:
-.string "LANCE: ...$"
+.string "LANCE: {PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_45:
 .string "LANCE: No hay honor en acabar con\n"
@@ -710,7 +710,7 @@ PokemonLeague_6F_Final_Texto_54:
 	.string "simple ecuación.$"
 
 PokemonLeague_6F_Final_Texto_55:
-.string "OAK: ...$"
+.string "OAK: {PAUSE 15}…{PAUSE 15}$"
 
 PokemonLeague_6F_Final_Texto_56:
 .string "Y aquellos que jugaban a ser\n"

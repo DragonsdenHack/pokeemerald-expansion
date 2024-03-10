@@ -139,7 +139,7 @@ Route52_MazeP1_Combate_Ladron_Texto_5:
 .string "¿¡Otra vez!?$"
 
 Route52_MazeP1_Combate_Ladron_Texto_6:
-.string "Maldición...\n"
+.string "Maldición…\n"
 	.string "Debí haber esperado a mis socios\l"
 	.string "para atacar todos a la vez, pero\l"
 	.string "con ellos dos es más que\l"
@@ -319,7 +319,7 @@ Route52_MazeP1_Combates_Finales_Texto_3:
 	.string "a esos EJECUTIVOS de TRIGAL.$"
 
 Route52_MazeP1_Combates_Finales_Texto_4:
-.string "... ...$"
+.string "… …$"
 
 Route52_MazeP1_Combates_Finales_Texto_5:
 .string "¿Cómo sé que el TEAM ROCKET está\n"
@@ -512,9 +512,9 @@ release
 end
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_1:
-.string "Bien...\n"
+.string "Bien…\n"
 	.string "Con esta máquina podremos seguir\l"
-	.string "lavando dinero más fácilmente...$"
+	.string "lavando dinero más fácilmente…$"
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_2:
 .string "¿Quién eres tú?\n"
@@ -607,7 +607,7 @@ step_end
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1:
 .string "Transacción de 4 millones de pokés\n"
 	.string "por un CHARMANDER cerrada, esto va\l"
-	.string "como la seda...$"
+	.string "como la seda…$"
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2:
 .string "¿Cómo has llegado hasta aquí?\n"
@@ -754,8 +754,8 @@ release
 end
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "(¡Está dormido!)$"
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2:

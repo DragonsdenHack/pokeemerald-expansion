@@ -229,7 +229,7 @@ PewterCity_Museum_1F_Miguel_Texto_5:
 	.string "la obtenida por los métodos de\l"
 	.string "resurrección actuales, el\l"
 	.string "mismísimo LANCE lo incluye en su\l"
-	.string "ejército de dragones...$"
+	.string "ejército de dragones…$"
 
 PewterCity_Museum_1F_Miguel_Texto_6:
 .string "C.MIGUEL: Con un POKÉMON así, el\n"
@@ -279,7 +279,7 @@ PewterCity_Museum_1F_Miguel_Texto_11:
 	.string "fuertes!$"
 
 PewterCity_Museum_1F_Miguel_Texto_12:
-.string "C.MIGUEL: Grrrr...\n"
+.string "C.MIGUEL: Grrrr…\n"
 	.string "Así que no fue suficiente, no\l"
 	.string "volveré a dejarme atrapar como la\l"
 	.string "otra vez.$"
@@ -343,7 +343,7 @@ PewterCity_Museum_1F_Miguel_Texto_22:
 	.string "letal!$"
 
 PewterCity_Museum_1F_Miguel_Texto_23:
-.string "Nos vemos, {PLAYER}, científicos...$"
+.string "Nos vemos, {PLAYER}, científicos…$"
 
 PewterCity_Museum_1F_Miguel_Move_1:
 walk_up
@@ -470,8 +470,8 @@ PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
 	.string "las 8 MEDALLAS de GIMNASIO.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_3:
 .string "Una pena, perdón por haberte hecho\n"

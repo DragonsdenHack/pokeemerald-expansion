@@ -38,7 +38,7 @@ msgbox Route16Path2FDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route16Path2FDocumento_Text_100:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡Es el CENTRO COMERCIAL\n"
 	.string "de CIUDAD AZULONA!$"
 
@@ -49,7 +49,7 @@ msgbox Route16Path2FDocumento_Text_101, MSGBOX_SIGN
 end
 
 Route16Path2FDocumento_Text_101:
-.string "Has usado los prismáticos...\p"
+.string "Has usado los prismáticos…\p"
 	.string "¡Hay un largo camino sobre\n"
 	.string "el agua!$"
 
@@ -106,8 +106,8 @@ Route16_Path_2F_Combate_Ayudante_Oak_Texto_1:
 	.string "precedentes.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_3:
 .string "Fuera de mi vista, no quiero\n"

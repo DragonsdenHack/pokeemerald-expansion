@@ -90,7 +90,7 @@ end
 
 Curacion_Centros_Pokemon_Johto_Texto_1:
 .string "Bienvenido al CENTRO de curación\n"
-	.string "exprés...$"
+	.string "exprés…$"
 
 Curacion_Centros_Pokemon_Johto_Texto_2:
 .string "¡Y listo!\n"

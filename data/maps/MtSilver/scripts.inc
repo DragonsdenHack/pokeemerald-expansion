@@ -82,7 +82,7 @@ MtSilver_Combate_Andra_Texto_2:
 	.string "lugar como este, observa.$"
 
 MtSilver_Combate_Andra_Texto_3:
-.string "Es como... si este fuera el lugar\n"
+.string "Es como{PAUSE 25}…{PAUSE 25} si este fuera el lugar\n"
 	.string "donde el combate POKÉMON hubiera\l"
 	.string "nacido tal y como lo conocemos hoy\l"
 	.string "día. Aquí es donde los grandes\l"
@@ -93,7 +93,7 @@ MtSilver_Combate_Andra_Texto_3:
 	.string "se está perdiendo.$"
 
 MtSilver_Combate_Andra_Texto_4:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 MtSilver_Combate_Andra_Texto_5:
 .string "He subido a la cima del MONTE\n"
@@ -133,7 +133,7 @@ MtSilver_Combate_Andra_Texto_9:
 MtSilver_Combate_Andra_Texto_10:
 .string "Vine aquí, al MONTE PLATEADO, en\n"
 	.string "busca de un gran reto. ROJO no ha\l"
-	.string "estado mal, pero...\l"
+	.string "estado mal, pero{PAUSE 25}…{PAUSE 25}\l"
 	.string "¡Sabía que el verdadero reto ibas\l"
 	.string "a ser tú!$"
 
@@ -161,7 +161,7 @@ MtSilver_Combate_Andra_Texto_13:
 	.string "vuelto a saber nada de lo\l"
 	.string "ocurrido, ni ver a LUGIA o a\l"
 	.string "HO-OH. Menos a ese POKÉMON\l"
-	.string "ESENCIA...$"
+	.string "ESENCIA…$"
 
 MtSilver_Combate_Andra_Move_1:
 emote_exclamation_mark

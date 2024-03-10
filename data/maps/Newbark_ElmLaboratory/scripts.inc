@@ -100,7 +100,7 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6:
 	.string "ponen un poco de su parte, {PLAYER}.\l"
 	.string "El PORYGON3 de BILL, así como el\l"
 	.string "MAGMORTAR-Y de BLAINE, los\l"
-	.string "experimentos de OAK... Todos\l"
+	.string "experimentos de OAK{PAUSE 25}…{PAUSE 25} Todos\l"
 	.string "trabajan ahora para KANTO y JOHTO,\l"
 	.string "la unión de las dos regiones será\l"
 	.string "la principal potencia del mundo\l"

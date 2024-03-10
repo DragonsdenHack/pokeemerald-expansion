@@ -123,7 +123,7 @@ Olivine_Gym_Combate_Crom_Texto_3:
 	.string "conocer aún más.$"
 
 Olivine_Gym_Combate_Crom_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Olivine_Gym_Combate_Crom_Texto_5:
 .string "Veo en tus ojos ese fuego interno.\n"
@@ -133,7 +133,7 @@ Olivine_Gym_Combate_Crom_Texto_5:
 Olivine_Gym_Combate_Crom_Texto_6:
 .string "A pesar de tu juventud, has visto\n"
 	.string "ya muchas cosas y visitado muchos\l"
-	.string "lugares, y aún te queda...\l"
+	.string "lugares, y aún te queda{PAUSE 15}…\l"
 	.string "Combates como estos son los que\l"
 	.string "dan sentido a tu paso por JOHTO,\l"
 	.string "¿no?\l"
@@ -143,7 +143,7 @@ Olivine_Gym_Combate_Crom_Texto_6:
 	.string "aguerridos POKÉMON!$"
 
 Olivine_Gym_Combate_Crom_Texto_7:
-.string "Oh...\n"
+.string "Oh{PAUSE 15}…{PAUSE 15}\n"
 	.string "No recuerdo la última vez que vi\l"
 	.string "algo así.$"
 
@@ -240,7 +240,7 @@ OlivineGym_Gym_Dude_Texto_3:
 .string "Dicen de CROM que fue él quién\n"
 	.string "creó el TIPO ACERO, convirtiéndose\l"
 	.string "en su dios. Son solo leyendas,\l"
-	.string "pero...\l"
+	.string "pero…\l"
 	.string "¿Podrás con el mito?\l"
 	.string "¡Ni los TIPO FUEGO y TIERRA te\l"
 	.string "darán una clara ventaja, chico!$"

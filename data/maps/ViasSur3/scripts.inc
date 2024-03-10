@@ -179,7 +179,7 @@ ViasSur3_Evento_Pegaso_Texto_7:
 
 ViasSur3_Evento_Pegaso_Texto_8:
 .string "Tengo que averiguarlo, como experto en\n"
-	.string "aves, es todo un reto para mí. Aunque...\l"
+	.string "aves, es todo un reto para mí. Aunque…\l"
 	.string "tengo serias sospechas de lo que\l"
 	.string "realmente es.$"
 
@@ -209,5 +209,5 @@ ViasSur3_Primer_Obrero_Texto_1:
 	.string "Y yo que me sentía seguro con mis TIPO\l"
 	.string "ROCA, no quiero imaginar qué hubiera\l"
 	.string "pasado en caso de aparecer ese otro\l"
-	.string "ave que andamos buscando...$"
+	.string "ave que andamos buscando…$"
 

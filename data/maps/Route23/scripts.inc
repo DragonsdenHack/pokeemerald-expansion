@@ -250,7 +250,7 @@ Route23_Combate_Andra_Texto_4:
 	.string "algún tipo de mercado negro.$"
 
 Route23_Combate_Andra_Texto_5:
-.string "Sin embargo...\n"
+.string "Sin embargo{PAUSE 25}…{PAUSE 25}\n"
 	.string "Aún puedo prepararme algo más\l"
 	.string "antes de entrar a desafiar al ALTO\l"
 	.string "MANDO, me ha costado, pero mi\l"
@@ -272,7 +272,7 @@ Route23_Combate_Andra_Texto_7:
 	.string "salud suficiente como para\l"
 	.string "sobrevivir al PÁJARO OSADO después\l"
 	.string "de tumbar a su BLASTOISE, en\l"
-	.string "cuanto a ti...\l"
+	.string "cuanto a ti{PAUSE 25}…{PAUSE 25}\l"
 	.string "Espero tenerte cerca si llegamos a\l"
 	.string "las salas finales, ya oiste a\l"
 	.string "GIOVANNI, LANCE cuenta con un\l"
@@ -281,7 +281,7 @@ Route23_Combate_Andra_Texto_7:
 	.string "que nos encontramos con él en el\l"
 	.string "MT.MOON, pero sigue siendo el\l"
 	.string "único al que yo haya visto\l"
-	.string "derrotarte...$"
+	.string "derrotarte…$"
 
 Route23_Combate_Andra_Texto_8:
 .string "En fin {PLAYER}, te deseo suerte,\n"

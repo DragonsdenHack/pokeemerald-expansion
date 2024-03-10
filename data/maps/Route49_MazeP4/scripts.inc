@@ -324,7 +324,7 @@ walk_in_place_up
 step_end
 
 Route49_MazeP4_Combate_Maestro_Texto_1.1:
-.string "ANDRA: ... ...$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Route49_MazeP4_Combate_Maestro_Texto_1:
 .string "G.MAESTRO: Tienes talento, voluntad y\n"
@@ -452,7 +452,7 @@ Route49_MazeP4_Combate_Maestro_Texto_22:
 	.string "en las profundidades de RUINAS ALFA.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_23:
-.string "{PLAYER}... a algo aún más grande.$"
+.string "{PLAYER}{PAUSE 25}…{PAUSE 25} a algo aún más grande.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_24:
 .string "G.MAESTRO: Tal y como temía, enfrentar\n"

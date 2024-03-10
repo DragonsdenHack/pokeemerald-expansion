@@ -178,10 +178,10 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3:
 	.string "que parece a simple vista, tú lo\l"
 	.string "sabes bien, y lo cierto es que hay\l"
 	.string "dragones que dejarían a DRAGONITE\l"
-	.string "en pañales...$"
+	.string "en pañales{PAUSE 15}…{PAUSE 15}$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_5:
 .string "Si no me equivoco, has logrado\n"
@@ -201,7 +201,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_6:
 	.string "POKÉMON. Tú eres una excepción, no\l"
 	.string "te has dejado influenciar por los\l"
 	.string "tiempos que corren a pesar de tu\l"
-	.string "posición. Es por eso que...\l"
+	.string "posición. Es por eso que{PAUSE 15}…{PAUSE 15}\l"
 	.string "¡Debo asegurarme de que estás a la\l"
 	.string "altura!$"
 
@@ -260,16 +260,16 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_14:
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_15:
 .string "ZEUS: Lo importante es que HO-OH\n"
 	.string "ahora me pertenece, también LUGIA,\l"
-	.string "qué importa la forma. Y ahora...\l"
-	.string "Al fin...\l"
-	.string "KYUREM también...$"
+	.string "qué importa la forma. Y ahora{PAUSE 15}…{PAUSE 15}\l"
+	.string "Al fin{PAUSE 15}…{PAUSE 15}\l"
+	.string "KYUREM también{PAUSE 15}…{PAUSE 15}$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16:
 .string "(ZEUS le quitó el KYUREM al\n"
 	.string "M.DRAGÓN).$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_17:
-.string "M.DRAGÓN: ¡¿Q...Qué?!\n"
+.string "M.DRAGÓN: ¡¿Q{PAUSE 15}…{PAUSE 15}Qué?!\n"
 	.string "¿¡Qúe vas a hacer con ese\l"
 	.string "POKÉMON!?$"
 
@@ -286,9 +286,9 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19:
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20:
 .string "ZEUS: Así es, RAYQUAZA PRIMIGENIO\n"
 	.string "es considerado el DRAGÓN más\l"
-	.string "poderoso, pero...\l"
+	.string "poderoso, pero{PAUSE 15}…{PAUSE 15}\l"
 	.string "Nada que ver con ese POKÉMON, ese\l"
-	.string "POKÉMON... es el verdadero creador\l"
+	.string "POKÉMON{PAUSE 15}…{PAUSE 15} es el verdadero creador\l"
 	.string "de todo, tan poderoso que no vale\l"
 	.string "la pena compararlo con el resto.\l"
 	.string "No entra en el debate del mejor\l"
@@ -308,8 +308,8 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21:
 	.string "lejos.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_22:
-.string "ZEUS: ...\n"
-	.string "...\l"
+.string "ZEUS: {PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "RESHIRAM y ZEKROM también me\l"
 	.string "pertencen.$"
 
@@ -318,7 +318,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_23:
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_24:
 .string "ZEUS: HO-OH y LUGIA permiten la\n"
-	.string "entrada...\l"
+	.string "entrada{PAUSE 15}…{PAUSE 15}\l"
 	.string "Después, solo necesito las piezas\l"
 	.string "correctas, y todo en la última\l"
 	.string "sala obtendrá su forma original.$"
@@ -335,8 +335,8 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_25:
 	.string "POKÉMON.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_26:
-.string "M.DRAGÓN: Esto...\n"
-	.string "Esto...\l"
+.string "M.DRAGÓN: Esto{PAUSE 15}…{PAUSE 15}\n"
+	.string "Esto{PAUSE 15}…{PAUSE 15}\l"
 	.string "Es imposible, ese descerebrado no\l"
 	.string "sabe lo que quiere despertar.$"
 

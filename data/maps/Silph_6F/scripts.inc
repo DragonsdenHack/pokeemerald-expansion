@@ -70,7 +70,7 @@ Silph6F_6_Texto_1:
 	.string "¿No ves que es un cobarde?$"
 
 Silph6F_6_Texto_2:
-.string "Estaba tan indefenso...\n"
+.string "Estaba tan indefenso…\n"
 	.string "Al final me casé con él para\l"
 	.string "cuidarlo.$"
 
@@ -204,7 +204,7 @@ Silph_6F_Empleado_Llave_Texto_3:
 .string "¡No! ¡No me hagas daño!$"
 
 Silph_6F_Empleado_Llave_Texto_4:
-.string "... ... ...$"
+.string "… … …$"
 
 Silph_6F_Empleado_Llave_Texto_5:
 .string "¿Cómo?\n"

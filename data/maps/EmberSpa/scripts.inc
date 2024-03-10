@@ -64,7 +64,7 @@ EmberSpa_Text_5:
 .string "cuando me salgo del agua.\p"
 .string "No hay nada como tomar un buen\n"
 .string "plato de sopa de pescado caliente\l"
-.string "para conservar el calorcito. Mmm...$"
+.string "para conservar el calorcito. Mmm…$"
 
 
 
@@ -82,4 +82,4 @@ EmberSpa_Text_6:
 .string "¡Es de lo más reconfortante!\p"
 .string "¡No me digas que no!\p"
 .string "Quédate aquí un ratito y relájate.\n"
-.string "Qué agradable sentir el calor...$"
+.string "Qué agradable sentir el calor…$"

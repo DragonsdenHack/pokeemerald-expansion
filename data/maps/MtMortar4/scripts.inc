@@ -176,7 +176,7 @@ MtMortar4_Encuentro_Anibal_Texto_4:
 	.string "cascada.$"
 
 MtMortar4_Encuentro_Anibal_Texto_5:
-.string "????: ...$"
+.string "????: {PAUSE 15}…{PAUSE 15}$"
 
 MtMortar4_Encuentro_Anibal_Texto_6:
 .string "¿Quién anda ahí?\n"

@@ -97,9 +97,9 @@ SaffronCity_No_Pass_Gym_Texto_1:
 	.string "cloacas de AZULONA de un PSÍQUICO!$"
 
 SaffronCity_No_Pass_Gym_Texto_2:
-.string "¡Un momento! Esa LICENCIA... Solo las\n"
+.string "¡Un momento! Esa LICENCIA{PAUSE 25}…{PAUSE 25} Solo las\n"
 	.string "altas esferas del COMITÉ de la LIGA\l"
-	.string "tienen una así... Disculpe el\l"
+	.string "tienen una así{PAUSE 25}…{PAUSE 25} Disculpe el\l"
 	.string "malentendido, SIR. Todo está en orden,\l"
 	.string "espero que pueda disfrutar de\l"
 	.string "nuestras instalaciones.$"
@@ -216,8 +216,8 @@ release
 end
 
 SaffronCity_Lider_Gimnasio_Texto_1:
-.string "...\n"
-	.string "...\l"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "Vaya, es curioso, hace poco me\l"
 	.string "ocurrió también con otra chica\l"
 	.string "vestida de ROCKET, pero vuestra\l"
@@ -229,7 +229,7 @@ SaffronCity_Lider_Gimnasio_Texto_1:
 	.string "abierto aún por escribir, pura\l"
 	.string "potencialidad. Aprovechadla, es un\l"
 	.string "don poco común en estos días que\l"
-	.string "corren...\l"
+	.string "corren…\l"
 	.string "En fin, ya estoy divagando\l"
 	.string "perdóname, la realidad es que\l"
 	.string "prefiero hablar de esos temas más\l"
@@ -298,11 +298,11 @@ release
 end
 
 Vermilion_City_Gym_Guy_Texto_1:
-.string "Mmmm...\n"
+.string "Mmmm{PAUSE 15}…{PAUSE 15}\n"
 	.string "Es cierto que tienes una LICENCIA,\l"
 	.string "pero aún así tu presencia aquí se\l"
 	.string "me hace rara.\l"
-	.string "Te estaré vigilando...$"
+	.string "Te estaré vigilando…$"
 
 Vermilion_City_Gym_Guy_Texto_2:
 .string "¡Definitivamente no eres un\n"
@@ -556,7 +556,7 @@ Pewter_City_Lider_Gimnasio_Texto_3:
 	.string "parece que tienes talento chico,\l"
 	.string "si lo pones al servicio del bien\l"
 	.string "podrás hacer de esta región un\l"
-	.string "lugar mucho mejor para vivir...$"
+	.string "lugar mucho mejor para vivir…$"
 
 Pewter_City_Lider_Gimnasio_Texto_4:
 .string "¡Espera!\n"
@@ -1084,7 +1084,7 @@ end
 Celadon_Ciyy_Lider_Gimnasio_Texto_1:
 .string "¡Hola! ¡Qué buen tiempo hace!\n"
 	.string "Es tan agradable.\p"
-	.string "¡Ah, hola!... ¡Debo de haberme\n"
+	.string "¡Ah, hola!{PAUSE 25}…{PAUSE 25} ¡Debo de haberme\n"
 	.string "dormido! ¿Qué tal?\p"
 	.string "Me llamo ERIKA. Soy la LÍDER del\n"
 	.string "GIMNASIO de CIUDAD AZULONA.\p"

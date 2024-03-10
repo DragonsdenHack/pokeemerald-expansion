@@ -246,7 +246,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_6:
 	.string "las propiedades curativas de su\l"
 	.string "CENIZA SAGRADA, pero para hablar\l"
 	.string "con él tengo que subir a la cima\l"
-	.string "de TORRE CAMPANA...$"
+	.string "de TORRE CAMPANA…$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_7:
 .string "Dices ser el CAMPEÓN de KANTO.\n"
@@ -281,14 +281,14 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_11:
 	.string "campeonato, pero está siendo\l"
 	.string "suplido por AZUL. Mientras tanto,\l"
 	.string "la ALTO MANDO AGATHA acaba de\l"
-	.string "dimit...$"
+	.string "dimit…$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_12:
 .string "????: ¡{PLAYER}!\n"
 	.string "¡Qué alegría volver a verte!$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_13:
-.string "A...ALTO MANDO AGATHA, un honor\n"
+.string "A{PAUSE 15}…{PAUSE 15}ALTO MANDO AGATHA, un honor\n"
 	.string "volver a verla.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_14:
@@ -313,7 +313,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_16:
 	.string "visite nuestro templo.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_17:
-.string "MIRTO: Entonces...\n"
+.string "MIRTO: Entonces{PAUSE 15}…{PAUSE 15}\n"
 	.string "¿Podemos entrar todos?$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
@@ -324,7 +324,7 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_18:
 	.string "nuestro GRAN MAESTRO.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_19:
-.string "MIRTO: Pero...\n"
+.string "MIRTO: Pero{PAUSE 15}…{PAUSE 15}\n"
 	.string "Mi POKÉMON está enfermo, su GRAN\l"
 	.string "MAESTRO podría ayudarle a sanar.$"
 
@@ -338,9 +338,9 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_20:
 	.string "conocido.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_21:
-.string "Oh...\n"
-	.string "Entiendo...\l"
-	.string "Entiendo...\l"
+.string "Oh{PAUSE 15}…{PAUSE 15}\n"
+	.string "Entiendo{PAUSE 15}…{PAUSE 15}\l"
+	.string "Entiendo{PAUSE 15}…{PAUSE 15}\l"
 	.string "Algo así sin duda merece ser visto\l"
 	.string "de inmediato, nuestro GRAN MAESTRO\l"
 	.string "estará encantado de ver a su\l"
@@ -383,8 +383,8 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_28:
 	.string "patrimonio.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_29:
-.string "...\n"
-	.string "...\l"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "En ese caso, debemos avisar al\l"
 	.string "GRAN MAESTRO. Sube a TORRE CAMPANA\l"
 	.string "y cuéntale lo ocurrido.\l"

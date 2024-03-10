@@ -313,17 +313,17 @@ DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "técnica es insuperable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "No es necesario molestar a Marcial... ¡Te\n"
+	.string "No es necesario molestar a Marcial… ¡Te\n"
 	.string "voy a aplastar!$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
-	.string "Pero... ¡cómo? ¿Cómo he podido perder\n"
+	.string "Pero… ¡cómo? ¿Cómo he podido perder\n"
 	.string "tan rápido?$"
 
 DewfordTown_Gym_Text_JocelynPostBattle:
-	.string "No me voy a hundir por esto... ¡Me motiva\n"
+	.string "No me voy a hundir por esto… ¡Me motiva\n"
 	.string "para seguir entrenando! Un día seré\l"
-	.string "Lider de Gimnasio... No, ¡seré la\l"
+	.string "Lider de Gimnasio… No, ¡seré la\l"
 	.string "Campeona de la Liga Pokémon!$"
 
 DewfordTown_Gym_Text_LauraIntro:

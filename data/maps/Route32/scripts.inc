@@ -210,7 +210,7 @@ end
 
 Curacion_Curacion_Curacion_Route32_Texto_1:
 .string "Tus POKÉMON parecen muy cansados, deja\n"
-	.string "que los cure...$"
+	.string "que los cure…$"
 
 Curacion_Centros_Johto_Texto_2:
 .string "¡Ahora están radiantes de vida! ¡Igual\n"

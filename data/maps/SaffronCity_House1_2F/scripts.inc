@@ -26,7 +26,7 @@ msgbox SaffronCityHouse12FDocumento_Text_100, MSGBOX_SIGN
 end
 
 SaffronCityHouse12FDocumento_Text_100:
-.string "...\p"
+.string "…\p"
 	.string "¡Éstos son mis secretos!\p"
 	.string "Habilidad: imitar.\n"
 	.string "Hobby: coleccionar muñecos.\l"
@@ -114,8 +114,8 @@ SaffronCity_House1_2F_Entrenador_Especial_Texto_1:
 	.string "rato.$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_3:
 .string "Lo siento, pensé que tú podrías\n"
@@ -158,6 +158,6 @@ SaffronCity_House1_2F_Entrenador_Especial_Texto_9:
 	.string "incluso que la de SABRINA!$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_10:
-.string "Oh...\n"
-	.string "Qué pena...\l"
-	.string "Pensé que quizás...$"
+.string "Oh…\n"
+	.string "Qué pena…\l"
+	.string "Pensé que quizás…$"

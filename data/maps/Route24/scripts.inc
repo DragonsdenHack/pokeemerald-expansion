@@ -108,7 +108,7 @@ end
 Route24_Recluta_text_1:
 .string "No está nada mal para un ROCKET.\n"
 	.string "Qué pena que este reto no sea para\l"
-	.string "vosotros...\l"
+	.string "vosotros…\l"
 	.string "Yo también soy un ROCKET, todo el\l"
 	.string "circo que hay aquí montado en el\l"
 	.string "PUENTE PEPITA es para enrolar a\l"
@@ -119,7 +119,7 @@ Route24_Recluta_text_1:
 
 
 Route24_Recluta_text_2:
-.string "...$"
+.string "…$"
 
 Route24_Recluta_text_3:
 .string "¿Te han encomendado una misión por\n"

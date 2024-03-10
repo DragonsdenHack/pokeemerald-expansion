@@ -41,7 +41,7 @@ VictoryRoad_B2F_Text_VitoDefeat:
 
 VictoryRoad_B2F_Text_VitoPostBattle:
 	.string "Logré superar a toda mi familia. Nunca\n"
-	.string "había perdido... Vaya palo... Me voy a\l"
+	.string "había perdido… Vaya palo… Me voy a\l"
 	.string "casa a entrenar más.$"
 
 VictoryRoad_B2F_Text_OwenIntro:
@@ -59,7 +59,7 @@ VictoryRoad_B2F_Text_OwenPostBattle:
 
 VictoryRoad_B2F_Text_CarolineIntro:
 	.string "Yo creo que ya debes de estar\n"
-	.string "cansándote con tanta lucha...$"
+	.string "cansándote con tanta lucha…$"
 
 VictoryRoad_B2F_Text_CarolineDefeat:
 	.string "¡Pues no!$"
@@ -86,7 +86,7 @@ VictoryRoad_B2F_Text_JuliePostBattle:
 
 VictoryRoad_B2F_Text_FelixIntro:
 	.string "He llegado hasta aquí, pero tanta\n"
-	.string "tensión me destroza el estómago...$"
+	.string "tensión me destroza el estómago…$"
 
 VictoryRoad_B2F_Text_FelixDefeat:
 	.string "Ayyyy…\n"

@@ -266,8 +266,8 @@ VermilionCity_Gym_Text_SecondLockOpened:
 .string "$"
 
 VermilionCityGym_NoPass_Text_4:
-.string "No es posible... Con el sello del\n"
-	.string "mismísimo LANCE... Discúlpeme, ha sido\l"
+.string "No es posible{PAUSE 25}…{PAUSE 25} Con el sello del\n"
+	.string "mismísimo LANCE{PAUSE 25}…{PAUSE 25} Discúlpeme, ha sido\l"
 	.string "un pequeño malentendido. Espero que\l"
 	.string "disfrute de nuestro GIMNASIO.$"
 
@@ -296,9 +296,9 @@ release
 end
 
 CeruleanCityGym_Can_Pass_Texto_1:
-.string "¡Es imposible! ... LICENCIA forjada en\n"
+.string "¡Es imposible! {PAUSE 25}…{PAUSE 25} LICENCIA forjada en\n"
 	.string "los históricos despachos del CG de la\l"
-	.string "LIGA POKÉMON de KANTO. ... ¡Discúlpeme\l"
+	.string "LIGA POKÉMON de KANTO. {PAUSE 25}…{PAUSE 25} ¡Discúlpeme\l"
 	.string "señor! ¡Puede usted entrar a nuestro\l"
 	.string "humilde GIMNASIO!$"
 
@@ -378,15 +378,15 @@ PewterCityGym_CanPass_Texto_1:
 .string "Este lugar no es para ladrones y\n"
 	.string "mendigos como vosotros ROCKET. Vuelve\l"
 	.string "de la cloaca de dónde procedes si no\l"
-	.string "quieres...$"
+	.string "quieres…$"
 
 PewterCityGym_CanPass_Texto_2:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCityGym_CanPass_Texto_3:
-.string "¿Una LICENCIA ENTRENADOR? ... ...\n"
+.string "¿Una LICENCIA ENTRENADOR?{PAUSE 15} …{PAUSE 15} …{PAUSE 15}\n"
 	.string "Firmada y aprobada por el mismísimo\l"
-	.string "MINISTERIO DE LA LIGA POKÉMON...\l"
+	.string "MINISTERIO DE LA LIGA POKÉMON{PAUSE 15}…{PAUSE 15}\l"
 	.string "Discúlpeme señor, con todo esto del\l"
 	.string "fracaso en SILPH ya nadie distingue\l"
 	.string "quién se mofa de los ROCKET y quién es\l"
@@ -468,7 +468,7 @@ CeladonCityGym_NoPass_Texto_4:
 VermilionCityGym_NoPass_Text_1:
     .string "¡De modo que tenemos otro\n"
 	.string "aspirante más al título eh!\l"
-	.string "Espera...$"
+	.string "Espera{PAUSE 25}…{PAUSE 25}$"
 
 VermilionCityGym_NoPass_Text_2:
    .string "¡Eres un ROCKET!\n"
@@ -552,11 +552,11 @@ release
 end
 
 FuchsiaCityGym_Can_Pass_Texto_1:
-.string "¡Espera! ... -La DELEGACIÓN de KANTO,\n"
+.string "¡Espera!{PAUSE 25} …{PAUSE 25} -La DELEGACIÓN de KANTO,\n"
 	.string "junto con LANCE y toda la ÉLITE 4,\l"
 	.string "autorizan a este ENTRENADOR a ser\l"
 	.string "partícipe del CAMPEONATO de la LIGA\l"
-	.string "POKÉMON.- ... ... Mil disculpas señor,\l"
+	.string "POKÉMON.- {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Mil disculpas señor,\l"
 	.string "KOGA estará deseoso de combatir con\l"
 	.string "usted.$"
 
@@ -594,7 +594,7 @@ release
 end
 
 Cinnabar_Gym_Can_Pass_Texto_1:
-.string "... ¡No puede ser! ¡LICENCIA aprobada\n"
+.string "{PAUSE 25}…{PAUSE 25} ¡No puede ser! ¡LICENCIA aprobada\n"
 	.string "y firmada por el propio LANCE! ¡Sale\l"
 	.string "incluso tu foto y número de\l"
 	.string "ENTRENADOR! Perdone el malentendido\l"

@@ -48,7 +48,7 @@ step_end
 
 Magma1_Combate_Admin_Texto_1:
 .string "Así que has conseguido derrotar a\n"
-	.string "nuestro ALTO RANGO...\l"
+	.string "nuestro ALTO RANGO…\l"
 	.string "¿ADMINISTRADOR del TEAM\l"
 	.string "ROCKET dices?\l"
 	.string "Entonces no os habéis disuelto tal\l"
@@ -69,7 +69,7 @@ Magma1_Combate_Admin_Texto_2:
 	.string "encontrar esta ubicación.$"
 
 Magma1_Combate_Admin_Texto_3:
-.string "...$"
+.string "…$"
 
 Magma1_Combate_Admin_Texto_4:
 .string "Creo que todavía no me has\n"

@@ -76,17 +76,17 @@ end
 Route12_House_1_Secundaria_Squirtle_Texto_1:
 .string "Jamás alcanzaré ese nivel de\n"
 	.string "reconocimiento y popularidad, no\l"
-	.string "puede ser...\l"
-	.string "Tengo que hacer algo...$"
+	.string "puede ser{PAUSE 15}…{PAUSE 15}\l"
+	.string "Tengo que hacer algo…$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_3:
 .string "¡TÚ! ¡ROCKET!\n"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¡Además se te ve bastante\l"
 	.string "competente en comparación con el\l"
 	.string "resto!$"
@@ -155,8 +155,8 @@ Route12_House_1_Secundaria_Squirtle_Texto_9:
 
 Route12_House_1_Secundaria_Squirtle_Texto_10:
 .string "¡Esa es la actitud!\n"
-	.string "Bien...\l"
-	.string "Escucha ROCKET...\l"
+	.string "Bien{PAUSE 25}…{PAUSE 25}\l"
+	.string "Escucha ROCKET{PAUSE 25}…{PAUSE 25}\l"
 	.string "Yo tengo 2 hermanos, los 3\l"
 	.string "heredamos de nuestro padre la\l"
 	.string "tradición de ser unos\l"
@@ -176,9 +176,9 @@ Route12_House_1_Secundaria_Squirtle_Texto_11:
 	.string "pesca de POKÉMON poderosos,\l"
 	.string "competimos por ver quién atrapa\l"
 	.string "las mejores piezas, y ahí está el\l"
-	.string "problema...\l"
-	.string "...\l"
-	.string "...\l"
+	.string "problema{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "La SUPERCAÑA de mi hermano ha\l"
 	.string "resultado ser mejor que mi CAÑA\l"
 	.string "BUENA, si a ello le sumas que es\l"
@@ -193,7 +193,7 @@ Route12_House_1_Secundaria_Squirtle_Texto_11:
 	.string "que sé que estoy a su altura,\l"
 	.string "nadie se fijará en mi hasta que no\l"
 	.string "vean que mi hermano también es\l"
-	.string "humano y puede tener derrotas...$"
+	.string "humano y puede tener derrotas{PAUSE 15}…$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_12:
 .string "Es aquí donde entras tú ROCKET, si\n"

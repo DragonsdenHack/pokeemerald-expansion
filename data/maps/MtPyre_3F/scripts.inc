@@ -45,7 +45,7 @@ MtPyre_3F_Text_WilliamPostBattle:
 
 MtPyre_3F_Text_KaylaIntro:
 	.string "¡Ja, ja, ja, ja! Éste no es lugar para\n"
-	.string "críos... ¡y menos aún para ti!$"
+	.string "críos… ¡y menos aún para ti!$"
 
 MtPyre_3F_Text_KaylaDefeat:
 	.string "Es evidente que he perdido…$"

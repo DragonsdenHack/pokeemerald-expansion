@@ -145,7 +145,7 @@ release
 end
 
 PokemonTower2F_Azul_Texto_1:
-.string "AZUL: Así que ya estás aquí...$"
+.string "AZUL: Así que ya estás aquí…$"
 
 PokemonTower2F_Azul_Texto_2:
 .string "Los otros ROCKET están ya en los\n"
@@ -155,7 +155,7 @@ PokemonTower2F_Azul_Texto_2:
 	.string "lugar no debería tardar en venir.$"
 
 PokemonTower2F_Azul_Texto_3:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 PokemonTower2F_Azul_Texto_4:
 .string "Oye no te confundas, no formo\n"
@@ -179,7 +179,7 @@ PokemonTower2F_Azul_Texto_5:
 PokemonTower2F_Azul_Texto_6:
 .string "Esa es la única manera de\n"
 	.string "demostrar de una vez por todas que\l"
-	.string "soy mejor que ROJO, ese ROJO...$"
+	.string "soy mejor que ROJO, ese ROJO…$"
 
 PokemonTower2F_Azul_Texto_7:
 .string "Mi abuelo OAK siempre ha tenido\n"
@@ -189,7 +189,7 @@ PokemonTower2F_Azul_Texto_7:
 	.string "perfecto, parece llevar siempre\l"
 	.string "todo al día, tener en cuenta todas\l"
 	.string "las posibles opciones al combatir,\l"
-	.string "y ese silencio...\l"
+	.string "y ese silencio{PAUSE 15}…{PAUSE 15}\l"
 	.string "Eso es lo que más me irrita,\l"
 	.string "siquiera se digna a entablar\l"
 	.string "conversación, llega, te vence y te\l"
@@ -201,7 +201,7 @@ PokemonTower2F_Azul_Texto_7:
 	.string "superior por actuar de ese modo, o\l"
 	.string "simplemente da por hecho que va ha\l"
 	.string "derrotar a todos y ya está, pero\l"
-	.string "no..., me niego a formar parte de\l"
+	.string "no{PAUSE 15}…{PAUSE 15},{PAUSE 15} me niego a formar parte de\l"
 	.string "su línea preestablecida, ningún\l"
 	.string "entrenador es invencible, y esa\l"
 	.string "tendencia puede revertirse, lo\l"

@@ -100,10 +100,10 @@ release
 end
 
 Route53_8_Texto_1:
-.string "Este jefe...\n"
+.string "Este jefe…\n"
 	.string "Si él también se pusiera a picar\l"
 	.string "piedra con nosotros quizás iríamos\l"
-	.string "más rápido...$"
+	.string "más rápido…$"
 
 
 Route53_9::
@@ -113,8 +113,8 @@ release
 end
 
 Route53_9_Texto_1:
-.string "Un...dos...\n"
-	.string "Un...dos...\l"
+.string "Un…dos…\n"
+	.string "Un…dos…\l"
 	.string "Paciencia y constancia, agachas la\l"
 	.string "cabeza, te pones a cavar y zas!\l"
 	.string "¡AZAFRÁN a la vista!$"

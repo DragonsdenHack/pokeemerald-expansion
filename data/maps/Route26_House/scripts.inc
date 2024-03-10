@@ -15,7 +15,7 @@ end
 
 Route26House1_Texto_1:
 .string "Tienes pinta de estar cansado,\n"
-	.string "deja que cure a tu equipo...$"
+	.string "deja que cure a tu equipo…$"
 
 Route26House1_Texto_2:
 .string "¡Y listo!\n"

@@ -162,10 +162,10 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_1:
 	.string "libere.$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_2:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_3:
-.string "Este ZAFIRO...ya de por si un\n"
+.string "Este ZAFIRO{PAUSE 25}…{PAUSE 25}ya de por si un\n"
 	.string "tesoro de enorme valor en el\l"
 	.string "mercado negro, lo que muy pocos\l"
 	.string "saben es que su razón de ser tiene\l"
@@ -195,7 +195,7 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_5:
 	.string "lugar no lleva a ninguna parte,\l"
 	.string "pero si logramos traer la ESFERA\l"
 	.string "AZUL y hacerla brillar en su\l"
-	.string "presencia, este es el resultado...$"
+	.string "presencia, este es el resultado…$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6:
 .string "Después de tantos años e intentos\n"

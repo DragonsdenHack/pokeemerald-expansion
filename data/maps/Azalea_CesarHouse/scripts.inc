@@ -39,10 +39,10 @@ AzaleaCesarHouse_1_Texto_2:
 .string "¿Y bien?$"
 
 AzaleaCesarHouse_1_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 AzaleaCesarHouse_1_Texto_4:
-.string "Oh...\n"
+.string "Oh{PAUSE 15}…{PAUSE 15}\n"
 	.string "Impresionante, para nada esperaba\l"
 	.string "que pudieras ganar, guarda\l"
 	.string "bien esa SLOWBRONITA, joven,\l"
@@ -135,7 +135,7 @@ release
 end
 
 Azalea_CesarHouse_Evento_Mirto_Texto_1:
-.string "????: Pero...\n"
+.string "????: Pero{PAUSE 15}…{PAUSE 15}\n"
 	.string "Usted cuenta también con un TIPO\l"
 	.string "BICHO que ha sufrido el mismo\l"
 	.string "proceso que el mío.$"
@@ -148,7 +148,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_2:
 	.string "con su ENTRENADOR.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_3:
-.string "MIRTO: Pero...$"
+.string "MIRTO: Pero{PAUSE 15}…{PAUSE 15}$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_4:
 .string "La diferencia es que mi POKÉMON\n"
@@ -156,7 +156,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_4:
 	.string "elevándose hasta los 505 STATS\l"
 	.string "BASE después del fuerte vínculo.\l"
 	.string "Algo notable, más teniendo en\l"
-	.string "cuenta su bajísimo ATAQUE, pero...\l"
+	.string "cuenta su bajísimo ATAQUE, pero{PAUSE 15}…{PAUSE 15}\l"
 	.string "no ha cruzado ningún límite que\l"
 	.string "conozcamos.$"
 
@@ -183,14 +183,14 @@ Azalea_CesarHouse_Evento_Mirto_Texto_6:
 	.string "la otra.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_7:
-.string "MIRTO: ...$"
+.string "MIRTO: {PAUSE 15}…{PAUSE 15}$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_8:
-.string "¿No hay... nada... que pueda hacer?$"
+.string "¿No hay{PAUSE 25}…{PAUSE 25} nada{PAUSE 25}…{PAUSE 25} que pueda hacer?$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_9:
 .string "????: Yo no puedo ayudarte, lo\n"
-	.string "siento. Pero...$"
+	.string "siento. Pero{PAUSE 15}…{PAUSE 15}$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_10:
 .string "En JOHTO hay gente muy sabia. No\n"
@@ -227,7 +227,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_14:
 	.string "contendientes.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
-.string "Aunque...\n"
+.string "Aunque{PAUSE 15}…{PAUSE 15}\n"
 	.string "Pareces venir de muy lejos,\l"
 	.string "y ser un apasionado del\l"
 	.string "combate, al igual que MIRTO o\l"

@@ -152,14 +152,14 @@ Route25_BillHouse_Evento_Policia_text_2:
 	.string "tengo.$"
 
 Route25_BillHouse_Evento_Policia_text_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route25_BillHouse_Evento_Policia_text_4:
 .string "¿Quieres mi patente para realizar\n"
 	.string "teletransportes a largas\l"
 	.string "distancias?\l"
 	.string "Buena jugada, pero,\l"
-	.string "lamentablemente para ti...$"
+	.string "lamentablemente para ti…$"
 
 Route25_BillHouse_Evento_Policia_text_5:
 .string "El gobierno de la ÉLITE 4 ya me ha\n"
@@ -186,8 +186,8 @@ Route25_BillHouse_Evento_Policia_text_7:
 	.string "prisión por atentar contra la\l"
 	.string "propiedad intelectual de nuestra\l"
 	.string "región.\l"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿Te resistes?\l"
 	.string "¡Entonces te reduciremos por la\l"
 	.string "fuerza!$"
@@ -342,11 +342,11 @@ release
 end
 
 Route25_BillHouse_Warp_text_1:
-.string "...$"
+.string "…$"
 
 Route25_BillHouse_Warp_Text_YesNo:
-    .string "...\n"
-	.string "...\l"
+    .string "…\n"
+	.string "…\l"
 	.string "Este póster está cubriendo un\l"
 	.string "pequeño túnel que lleva a algún\l"
 	.string "otro lugar.\l"

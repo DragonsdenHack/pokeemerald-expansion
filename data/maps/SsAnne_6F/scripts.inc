@@ -9,7 +9,7 @@ end
 
 SsAnne6F_Text_1:
 .string "Soy el tipo más guay de este\n"
-	.string "lugar...y tú lo sabes.$"
+	.string "lugar{PAUSE 25}…{PAUSE 25}y tú lo sabes.$"
 
 
 
@@ -20,8 +20,8 @@ release
 end
 
 SsAnne6F_Text_2:
-.string "Oh..., ¡qué ENTRENADOR GUAY\n"
-	.string "tan...guay!$"
+.string "Oh…, ¡qué ENTRENADOR GUAY\n"
+	.string "tan…guay!$"
 
 
 
@@ -77,7 +77,7 @@ SsAnne6F_Text_7:
 .string "¡JA, JA!\n"
 .string "¿Sabías por qué a la gente le\l"
 .string "gusta tanto la fiesta?\l"
-.string "…\l"
+.string "{PAUSE 25}…{PAUSE 25}\l"
 .string "¡Porque por unas horas les\l"
 .string "evade de todos los problemas y\l"
 .string "carencias que sus míseras vidas\l"
@@ -300,12 +300,12 @@ SSAnne6F_Lance_Surge_Text_4:
 	.string "la economía de nuestra región está\l"
 	.string "experimentando un repunte sin\l"
 	.string "precedentes, y el nivel de vida\l"
-	.string "aquí cada vez es más elevado...$"
+	.string "aquí cada vez es más elevado…$"
 
 SSAnne6F_Lance_Surge_Text_5:
 .string "LANCE: Pero esa no era la\n"
 	.string "respuesta que estaba buscando\l"
-	.string "SURGE. Me preguntaba más bien...$"
+	.string "SURGE. Me preguntaba más bien…$"
 
 SSAnne6F_Lance_Surge_Text_6:
 .string "LANCE: Cómo lleva la gente el\n"
@@ -327,7 +327,7 @@ SSAnne6F_Lance_Surge_Text_7:
 	.string "vidas como si nada hubiera pasado.\l"
 	.string "Tal vez siga existiendo cierto\l"
 	.string "recelo por parte de ciertos\l"
-	.string "sectores de la población...$"
+	.string "sectores de la población…$"
 
 SSAnne6F_Lance_Surge_Text_8:
 .string "LANCE: ¿Te refieres al TEAM\n"
@@ -353,7 +353,7 @@ SSAnne6F_Lance_Surge_Text_9:
 	.string "motoristas del CAMINO BICIS.$"
 
 SSAnne6F_Lance_Surge_Text_10:
-.string "LANCE: ...\n"
+.string "LANCE: {PAUSE 25}…{PAUSE 25}\n"
 	.string "Ya veo, el COMITÉ DE LA LIGA\l"
 	.string "POKÉMON tomará las medidas\l"
 	.string "pertinentes respecto a esto,\l"
@@ -370,7 +370,7 @@ SSAnne6F_Lance_Surge_Text_10:
 	.string "viceversa, de modo que paciencia,\l"
 	.string "solo necesitamos tiempo. La\l"
 	.string "estabilización y progresión\l"
-	.string "adecuada...y KANTO aceptará el\l"
+	.string "adecuada{PAUSE 25}…{PAUSE 25}y KANTO aceptará el\l"
 	.string "NUEVO ORDEN MUNDIAL casi sin darse\l"
 	.string "cuenta.$"
 

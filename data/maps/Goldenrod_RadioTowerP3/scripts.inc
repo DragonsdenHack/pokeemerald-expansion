@@ -10,7 +10,7 @@ end
 
 Goldenrod_RadioTowerP3_Text_1:
 .string "La TORRE RADIO, el MAGNETOTREN, el\n"
-.string "PUERTO OLIVO... La globalización\l"
+.string "PUERTO OLIVO… La globalización\l"
 .string "llega a JOHTO, y viene\l"
 .string "para quedarse.$"
 

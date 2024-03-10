@@ -196,8 +196,8 @@ release
 end
 
 AzaleaTownDocumento_Text_106:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "(Está holgazaneando).$"
 
 
@@ -210,8 +210,8 @@ release
 end
 
 AzaleaTownDocumento_Text_107:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "(Está holgazaneando).$"
 
 
@@ -557,7 +557,7 @@ end
 
 AzaleaTownDocumento_Text_133:
 .string "(Este SNORLAX parece llevar mucho\n"
-	.string "tiempo sin moverse de aquí...)$"
+	.string "tiempo sin moverse de aquí…)$"
 
 AzaleaTown_Encuentro_Mirto::
 lock

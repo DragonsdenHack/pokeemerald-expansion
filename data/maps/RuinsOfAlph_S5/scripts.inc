@@ -456,7 +456,7 @@ RuinsOfAlph_S5_Final_Texto_3:
 
 RuinsOfAlph_S5_Final_Texto_4:
 .string "Ambas torres llevan 700 años en\n"
-	.string "pie...\l"
+	.string "pie…\l"
 	.string "Una pequeña fracción comparado con\l"
 	.string "el tiempo que nuestro culto lleva\l"
 	.string "existiendo. Fue aquí donde emigró\l"
@@ -484,7 +484,7 @@ RuinsOfAlph_S5_Final_Texto_8:
 	.string "uso del POKÉMON ESENCIA!$"
 
 RuinsOfAlph_S5_Final_Texto_9:
-.string "3...\n"
+.string "3…\n"
 	.string "3 son los POKÉMON que, unidos, han\l"
 	.string "formado todo cuanto hay, hubo y\l"
 	.string "habrá, con sus diferencias,\l"
@@ -518,7 +518,7 @@ RuinsOfAlph_S5_Final_Texto_12:
 	.string "burda lagartija a su lado.$"
 
 RuinsOfAlph_S5_Final_Texto_13:
-.string "ARCEUS...\n"
+.string "ARCEUS…\n"
 	.string "El DIOS de nuestro universo, 15\l"
 	.string "billones de años mermado por crear\l"
 	.string "todo lo conocido, pero eso se\l"
@@ -552,7 +552,7 @@ RuinsOfAlph_S5_Final_Texto_16:
 	.string "misma manera.$"
 
 RuinsOfAlph_S5_Final_Texto_17:
-.string "Y ahora {PLAYER}...\n"
+.string "Y ahora {PLAYER}…\n"
 	.string "Llegó la hora de la verdad. Con el\l"
 	.string "POKÉMON ESENCIA, el culto de\l"
 	.string "LAVANDA alcanzará al fin ese\l"
@@ -562,7 +562,7 @@ RuinsOfAlph_S5_Final_Texto_17:
 	.string "luchar contra algo inalcanzable.$"
 
 RuinsOfAlph_S5_Final_Texto_18:
-.string "...$"
+.string "…$"
 
 RuinsOfAlph_S5_Final_Texto_19:
 .string "Los 3 juntos, unidos entre ellos\n"
@@ -584,7 +584,7 @@ RuinsOfAlph_S5_Final_Texto_21:
 .string "Lo siento {PLAYER}, habrías sido un\n"
 	.string "gran miembro de nuestro culto y\l"
 	.string "sabido apreciar al POKÉMON\l"
-	.string "ESENCIA, pero...\l"
+	.string "ESENCIA, pero…\l"
 	.string "¡¡LA INMORTALIDAD ME ESPERA A MÍ!!$"
 
 RuinsOfAlph_S5_Final_Texto_22:
@@ -601,9 +601,9 @@ RuinsOfAlph_S5_Final_Texto_24:
 .string "¡k4nv%bjs&!$"
 
 RuinsOfAlph_S5_Final_Texto_25:
-.string "A...\n"
-	.string "Ahora lo entiendo...\l"
-	.string "He sido yo el que ha fallado...$"
+.string "A…\n"
+	.string "Ahora lo entiendo…\l"
+	.string "He sido yo el que ha fallado…$"
 
 RuinsOfAlph_S5_Final_Texto_26:
 .string "Supongo que la perfección es\n"
@@ -768,7 +768,7 @@ release
 end
 
 RuinsOfAlph_S5_Combate_Unown_Texto_2:
-.string "... ... ... ...$"
+.string "… … … …$"
 
 RuinsOfAlph_S5_Combate_Unown_Texto_3:
 .string "(La energía misteriosa se ha\n"

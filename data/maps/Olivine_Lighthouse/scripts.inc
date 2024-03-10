@@ -97,7 +97,7 @@ release
 end
 
 OliivineLighthouse11_Texto_1:
-.string "...$"
+.string "…$"
 
 
 
@@ -307,7 +307,7 @@ Olivine_Lighthouse_Combate_Farero_Texto_4:
 .string "FARERO: Al LÍDER lo tienes justo\n"
 	.string "ahí, estábamos debatiendo el\l"
 	.string "futuro de CIUDAD OLIVO, su PUERTO,\l"
-	.string "su FARO, su GIMNASIO...$"
+	.string "su FARO, su GIMNASIO…$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_5:
 .string "CROM: Pronto vendrán muchos\n"
@@ -335,14 +335,14 @@ Olivine_Lighthouse_Combate_Farero_Texto_7:
 	.string "MAGNEMITE, así que imaginate.$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_8:
-.string "Aunque...$"
+.string "Aunque…$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_9:
 .string "Me agrada la idea de un último\n"
 	.string "gran combate antes de partir,\l"
 	.string "sería la guinda sobre el pastel a\l"
 	.string "mi estancia en CIUDAD OLIVO.\l"
-	.string "La cuestión es...\l"
+	.string "La cuestión es…\l"
 	.string "¿Estarías tú a la altura de ese\l"
 	.string "último gran combate?$"
 
@@ -485,7 +485,7 @@ Olivine_Lighthouse_Ampharosita_Texto_3:
 	.string "De los pocos capaces de pegar duro\l"
 	.string "y aguantar bien los golpes al\l"
 	.string "mismo tiempo, aunque esa VELOCIDAD\l"
-	.string "a veces le condene...$"
+	.string "a veces le condene…$"
 
 
 

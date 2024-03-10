@@ -41,7 +41,7 @@ end
 
 NeoSaffronCity_Segundo_Chico_Texto_1:
 .string "Iba al GIMNASIO a luchar contra\n"
-	.string "entrenadores...\l"
+	.string "entrenadores…\l"
 	.string "Y acabé en el viejo GIMNASIO que hay\l"
 	.string "al lado.\l"
 	.string "¡Vaya, qué vergüenza pasé!$"

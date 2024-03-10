@@ -79,7 +79,7 @@ CianwoodEusineHouse_Combate_Texto_3:
 .string "Perdona, ¿quieres algo?$"
 
 CianwoodEusineHouse_Combate_Texto_4:
-.string "No sé cómo ha llegado hasta ti esa\n"
+.string "{PAUSE 25}No sé cómo ha llegado hasta ti esa\n"
 	.string "información, pero tienes razón, existe\l"
 	.string "una gran extensión de tierra al oeste\l"
 	.string "de aquí, pero la pregunta es…$"
@@ -98,10 +98,10 @@ CianwoodEusineHouse_Combate_Texto_6:
 	.string "alguien que intenta colgarse medallas,\l"
 	.string "como todos hoy en día. Expondrías\l"
 	.string "dichas experiencias en un museo si\l"
-	.string "pudieras, ¿o no?$"
+	.string "pudieras, ¿o no?{PAUSE 25}$"
 
 CianwoodEusineHouse_Combate_Texto_7:
-.string "Permíteme dudar, ¿{PLAYER}? Tendrás\n"
+.string "{PAUSE 25}Permíteme dudar, ¿{PLAYER}? Tendrás\n"
 	.string "que demostrar eso que acabas de decir.$"
 
 CianwoodEusineHouse_Combate_Texto_8:

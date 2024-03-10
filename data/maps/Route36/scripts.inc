@@ -120,8 +120,8 @@ msgbox Route36_SudowoodoRest_Text, MSGBOX_NPC
 end
 
 Route36_SudowoodoRest_Text:
-	.string "...\n"
-	.string "...\l"
+	.string "…\n"
+	.string "…\l"
 	.string "(Es un POKÉMON, parece estar\l"
 	.string "reposando)$"
 
@@ -188,4 +188,4 @@ Route36_Llamada_Giovanni_Texto_2:
 	.string "ROCKET, tendrás el honor de\l"
 	.string "asistir. Se requerirá pues de tu\l"
 	.string "presencia en la TORRE RADIO a su\l"
-	.string "debido tiempo...$"
+	.string "debido tiempo…$"

@@ -229,7 +229,7 @@ release
 end
 
 CinnabarMansionS2Documento_Text_106:
-	.string "HO-OH, LUGIA, RAYQUAZA...\n"
+	.string "HO-OH, LUGIA, RAYQUAZA{PAUSE 15}…{PAUSE 15}\n"
 	.string "Todos ellos son POKÉMON\l"
 	.string "formidables, pero inviables para\l"
 	.string "experimentar con ellos y poner en\l"
@@ -280,8 +280,8 @@ end
 CinnabarMansionS2Documento_Text_107:
 .string "METAGROSS Y EL GRAN ENGAÑO DE\n"
 	.string "DEVON EN HOENN:\l"
-	.string "...\l"
-	.string "...\l"
+	.string "…\l"
+	.string "…\l"
 	.string "Bien es sabido que el\l"
 	.string "PSEUDOLEGENDARIO característico de\l"
 	.string "HOENN es SALAMENCE, dragón que\l"
@@ -443,7 +443,7 @@ CinnabarMansionS2_Blaine_Texto_2:
 	.string "incluso esa excepción responde a\l"
 	.string "unos patrones que buenamente nos\l"
 	.string "hemos encargado de cubrir en este\l"
-	.string "subterráneo...$"
+	.string "subterráneo…$"
 
 CinnabarMansionS2_Blaine_Texto_3:
 .string "Observa este lugar, su única razón\n"
@@ -454,7 +454,7 @@ CinnabarMansionS2_Blaine_Texto_3:
 	.string "similar.$"
 
 CinnabarMansionS2_Blaine_Texto_4:
-.string "MAGMAR, CHARIZARD, ARCANINE...\n"
+.string "MAGMAR, CHARIZARD, ARCANINE…\n"
 	.string "Solo son números, lo que les\l"
 	.string "diferencia es un mayor o menor\l"
 	.string "grado en cada uno de los 6\l"
@@ -490,7 +490,7 @@ CinnabarMansionS2_Blaine_Texto_6:
 	.string "lotería de la naturaleza, el más\l"
 	.string "agraciado, como he dicho, por\l"
 	.string "mera gracia del creador, pero\l"
-	.string "aquí, en este lugar no...$"
+	.string "aquí, en este lugar no…$"
 
 CinnabarMansionS2_Blaine_Texto_7:
 .string "Si conocemos las reglas del juego,\n"
@@ -521,7 +521,7 @@ CinnabarMansionS2_Blaine_Texto_10:
 	.string "resto no tiene.$"
 
 CinnabarMansionS2_Blaine_Texto_11:
-.string "... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 CinnabarMansionS2_Blaine_Texto_12:
 .string "Pero esta vez no te será\n"
@@ -763,7 +763,7 @@ CinnabarMansionS2_Oak_Texto_8:
 	.string "que decide a dedo quien es mejor\l"
 	.string "que otro, el entrenar o querer a\l"
 	.string "tus POKÉMON te llevará tan lejos\l"
-	.string "como quiera esta ley...$"
+	.string "como quiera esta ley…$"
 
 CinnabarMansionS2_Oak_Texto_9:
 .string "Sin embargo, desde aquí acabaremos\n"
@@ -833,7 +833,7 @@ CinnabarMansionS2_Oak_Texto_15:
 	.string "derrotarme!$"
 
 CinnabarMansionS2_Oak_Texto_16:
-.string "... ...$"
+.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
 
 CinnabarMansionS2_Oak_Texto_17:
 .string "¿Acaso existe otra fuerza?\n"
@@ -869,14 +869,14 @@ CinnabarMansionS2_Oak_Texto_21:
 	.string "después de lo visto aquí, están\l"
 	.string "mucho más lejos de lo que uno\l"
 	.string "pueda imaginar, quizás de lo que\l"
-	.string "uno pueda llegar a calcular...$"
+	.string "uno pueda llegar a calcular…$"
 
 CinnabarMansionS2_Oak_Texto_22:
 .string "Ya he tenido suficiente.\n"
-	.string "ROJO...\l"
-	.string "La creación de MEWTWO...\l"
+	.string "ROJO{PAUSE 25}…{PAUSE 25}\l"
+	.string "La creación de MEWTWO{PAUSE 25}…{PAUSE 25}\l"
 	.string "El mantener con vida este\l"
-	.string "laboratorio en las sombras...\l"
+	.string "laboratorio en las sombras{PAUSE 25}…{PAUSE 25}\l"
 	.string "Todo para apenas alcanzar a ver la\l"
 	.string "punta del iceberg de como\l"
 	.string "realmente funciona un POKÉMON.$"

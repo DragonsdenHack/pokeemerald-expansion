@@ -147,7 +147,7 @@ end
 
 FourIsland_Encuentro_Zeus_Texto_1:
 .string "????: Maldición, dónde las habrá\n"
-	.string "guardado...$"
+	.string "guardado…$"
 
 FourIsland_Encuentro_Zeus_Texto_2:
 .string "No pareces ser de por aquí,\n"
@@ -199,7 +199,7 @@ FourIsland_Encuentro_Zeus_Texto_7:
 	.string "que eso ocurra.$"
 
 FourIsland_Encuentro_Zeus_Texto_8:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 FourIsland_Encuentro_Zeus_Texto_9:
 .string "Si ves algo fuera de lo normal,\n"
@@ -314,7 +314,7 @@ FourIsland_Secundaria_Anciana_Texto_1:
 	.string "que la vio crecer.$"
 
 FourIsland_Secundaria_Anciana_Texto_2:
-.string "… …$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 FourIsland_Secundaria_Anciana_Texto_3:
 .string "Así que derrotaste a LORELEI en un\n"
@@ -343,7 +343,7 @@ FourIsland_Secundaria_Anciana_Texto_6.1:
 	.string "Tal vez si revisas las rocas, puedas\n"
 	.string "encontrar un hueco por el que seguir\l"
 	.string "adelante, aunque parezca que no es\l"
-	.string "posible... Eso es lo que diferencia a los\l"
+	.string "posible{PAUSE 15}…{PAUSE 15} Eso es lo que diferencia a los\l"
 	.string "entrenadores de verdad, el ir más allá\l"
 	.string "de los límites aparentes, ¿no?$"
 
@@ -430,7 +430,7 @@ face_player
 step_end
 
 Isla_Cuarta_Activador_Entrada_Texto_1:
-.string "... ...$"
+.string "… …$"
 
 Isla_Cuarta_Activador_Entrada_Pasa_Text_YesNo:
 .string "Esta roca está prácticamente hundida,\n"

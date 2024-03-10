@@ -58,8 +58,8 @@ SafariZone_House5_Combate_Domador_Texto_1:
 	.string "aquí.$"
 
 SafariZone_House5_Combate_Domador_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 SafariZone_House5_Combate_Domador_Texto_3:
 .string "¿Sigues insistiendo?\n"

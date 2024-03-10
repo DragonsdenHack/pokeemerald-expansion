@@ -29,7 +29,7 @@ release
 end
 
 TwoIsland_Torre_P1_Segundo_Motero_Texto_1:
-.string "Estas cosas no son lo mío...$"
+.string "Estas cosas no son lo mío…$"
 
 TwoIsland_Torre_P1_Trabajador::
 lock

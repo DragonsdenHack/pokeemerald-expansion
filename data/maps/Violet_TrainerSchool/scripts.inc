@@ -14,7 +14,7 @@ end
 
 VioletTrainerSchool2_Texto_1:
 .string "Ya sabía yo que FEAROW no era para\n"
-	.string "tanto...$"
+	.string "tanto{PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -25,7 +25,7 @@ release
 end
 
 VioletTrainerSchool3_Texto_1:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 
 
@@ -36,7 +36,7 @@ release
 end
 
 VioletTrainerSchool4_Texto_1:
-.string "Entonces...\n"
+.string "Entonces…\n"
 	.string "¿De verdad puede DODRIO hacer\l"
 	.string "tanto daño?$"
 
@@ -52,7 +52,7 @@ VioletTrainerSchool5_Texto_1:
 	.string "RUTA 13 de KANTO, ningún\l"
 	.string "ORNITÓLOGO de allí creerá que pude\l"
 	.string "asistir a una clase del mismísimo\l"
-	.string "PEGASO en persona...$"
+	.string "PEGASO en persona…$"
 
 
 VioletTrainerSchool6::
@@ -63,7 +63,7 @@ end
 
 VioletTrainerSchool6_Texto_1:
 .string "No sabía que NOCTOWL era TIPO\n"
-	.string "PSÍQUICO también...$"
+	.string "PSÍQUICO también…$"
 
 
 
@@ -74,10 +74,10 @@ release
 end
 
 VioletTrainerSchool7_Texto_1:
-.string "No puede ser...\n"
+.string "No puede ser…\n"
 	.string "El más débil de sus POKÉMON es\l"
 	.string "mucho más fuerte que el mejor de\l"
-	.string "mis POKÉMON...$"
+	.string "mis POKÉMON…$"
 
 
 
@@ -88,7 +88,7 @@ release
 end
 
 VioletTrainerSchool8_Texto_1:
-.string "Todo eso está muy bien, pero...\n"
+.string "Todo eso está muy bien, pero…\n"
 	.string "¿Dónde conseguiste a esa poderosa\l"
 	.string "ave?\l"
 	.string "Le da mil vueltas a PIDGEOT.$"
@@ -123,7 +123,7 @@ end
 VioletTrainerSchool11_Texto_1:
 .string "Qué aburridas que son estas\n"
 	.string "clases, PEGASO seguro que las\l"
-	.string "haría más divertidas...$"
+	.string "haría más divertidas…$"
 
 
 
@@ -422,7 +422,7 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_11:
 	.string "continuar con tu entrenamiento.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_12:
-.string "Pero... padre...\n"
+.string "Pero{PAUSE 25}…{PAUSE 25} padre{PAUSE 15}…{PAUSE 15}\n"
 	.string "¡Quiero empezar ya a entrenar\l"
 	.string "un PIDGEY!$"
 
@@ -441,7 +441,7 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_14:
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_15:
 .string "PEGASO: Algún día el GIMNASIO de\n"
-	.string "MALVA será tuyo, hijo...$"
+	.string "MALVA será tuyo, hijo…$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_16:
 .string "Vaya, tenemos un alumno curioso.\n"
@@ -470,7 +470,7 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_18:
 	.string "exponerla ante todos?$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_19:
-.string "Interesante...\n"
+.string "Interesante{PAUSE 15}…{PAUSE 15}\n"
 	.string "¿Eres {PLAYER}?\l"
 	.string "Si cumples el reto que voy a\l"
 	.string "proponerte te concederé ese\l"

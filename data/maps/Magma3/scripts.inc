@@ -190,7 +190,7 @@ Magma3_Combate_Magno_Texto_1:
 	.string "de tu causa, gracias a la ESFERA\l"
 	.string "ROJA puedo controlarte, pero no\l"
 	.string "temas, no haré más que cumplir tu\l"
-	.string "voluntad de expandir la tierra...$"
+	.string "voluntad de expandir la tierra…$"
 
 Magma3_Combate_Magno_Texto_2:
 .string "Así que mi fiel COMANDANTE TATIANO\n"
@@ -238,7 +238,7 @@ Magma3_Combate_Magno_Texto_6:
 	.string "recorriendo el mundo, tras el\l"
 	.string "mejor equipo de POKÉMON TIPO FUEGO\l"
 	.string "y TIERRA posible, muchas opciones,\l"
-	.string "descartes, cambios...\l"
+	.string "descartes, cambios…\l"
 	.string "POKÉMON que se adecúan más o menos\l"
 	.string "a la esencia de mi plan, pero al\l"
 	.string "fin, después de tanto lo he\l"
@@ -254,11 +254,11 @@ Magma3_Combate_Magno_Texto_7:
 	.string "¿De dónde sale tu poder?$"
 
 Magma3_Combate_Magno_Texto_8:
-.string "P-pero...\n"
-	.string "Lo tenía todo...\l"
-	.string "G-GROUDON estaba aquí, delante mía,\l"
+.string "P{PAUSE 25}-{PAUSE 25}pero{PAUSE 15}…{PAUSE 15}\n"
+	.string "Lo tenía todo{PAUSE 15}…{PAUSE 15}\l"
+	.string "G{PAUSE 25}-{PAUSE 25}GROUDON estaba aquí, delante mía,\l"
 	.string "y ha desplegado el inmenso poder\l"
-	.string "del que la leyenda habla...\l"
+	.string "del que la leyenda habla{PAUSE 15}…{PAUSE 15}\l"
 	.string "¿Cómo ha podido un ROCKET, por más\l"
 	.string "alto cargo y ADMINISTRADOR que seas, \l"
 	.string "equipararse, y aún más, exceder,\l"
@@ -285,7 +285,7 @@ Magma3_Combate_Magno_Texto_12:
 .string "MAGNO: ¡Maldito coleccionista de\n"
 	.string "pacotilla!\l"
 	.string "¡No voy a permitir que GROUDON sea\l"
-	.string "una mera pieza más dentro de...!$"
+	.string "una mera pieza más dentro de…!$"
 
 Magma3_Combate_Magno_Texto_13:
 .string "ZEUS: Ya no puedes hacer nada.\n"
@@ -297,10 +297,10 @@ Magma3_Combate_Magno_Texto_14:
 	.string "sus POKÉMON y la ESFERA ROJA).$"
 
 Magma3_Combate_Magno_Texto_15:
-.string "MAGNO: ...$"
+.string "MAGNO: {PAUSE 15}…{PAUSE 15}$"
 
 Magma3_Combate_Magno_Texto_16:
-.string "¿Q-qué hago yo aquí?$"
+.string "¿Q{PAUSE 25}-{PAUSE 15}qué hago yo aquí?$"
 
 Magma3_Combate_Magno_Texto_17:
 .string "ZEUS: Eso mismo nos preguntamos\n"
@@ -309,7 +309,7 @@ Magma3_Combate_Magno_Texto_17:
 	.string "nos han hablado de un tal GROUDON,\l"
 	.string "y de una ESFERA AZUL que lo\l"
 	.string "despierta, pero eso está en\l"
-	.string "HOENN...$"
+	.string "HOENN…$"
 
 Magma3_Combate_Magno_Texto_18:
 .string "MAGNO: ¡GROUDON sí!\n"
@@ -332,7 +332,7 @@ Magma3_Combate_Magno_Texto_19:
 	.string "vuelve a tener un objetivo claro,\l"
 	.string "y esta vez no pondrá a nadie en\l"
 	.string "peligro, aunque llegara a hacerse\l"
-	.string "con la ESFERA AZUL...$"
+	.string "con la ESFERA AZUL…$"
 
 Magma3_Combate_Magno_Texto_20:
 .string "De nuevo me has impresionado\n"

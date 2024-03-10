@@ -72,7 +72,7 @@ end
 
 FourIslandPokemonCenterDocumento_Text_100:
 .string "Un DIARIO POKéMON de hace\n"
-	.string "unos años...\p"
+	.string "unos años…\p"
 	.string "¡Especial sobre el CONCURSO\n"
 	.string "del DIARIO POKéMON!\p"
 	.string "¡La campeona de la edición de\n"
