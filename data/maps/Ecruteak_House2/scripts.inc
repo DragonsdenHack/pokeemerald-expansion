@@ -25,5 +25,5 @@ release
 end
 
 Ecruteak_House2_Text_2:
-.string "¿Existe un POKÉMON tan grande?\n"
-.string "Si existe, debe de ser muy fuerte.$"
+	.string "Does that big POKÉMON really exist? If\n"
+	.string "it does, it must be very strong.$"

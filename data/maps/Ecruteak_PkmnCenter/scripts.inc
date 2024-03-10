@@ -27,10 +27,9 @@ release
 end
 
 Ecruteak_PkmnCenter_Text_2:
-.string "Las CHICAS KIMONO son muy buenas\n"
-.string "bailarinas, además de diestras\l"
-.string "entrenadoras.\l"
-.string "¡Son increíbles!$"
+	.string "The KIMONO GIRLS are very skilled\n"
+	.string "dancers, as well as adept trainers. They\l"
+	.string "are amazing!$"
 
 
 
@@ -42,11 +41,11 @@ release
 end
 
 Ecruteak_PkmnCenter_Text_3:
-.string "Aquí todos tenemos un EEVEE en\n"
-.string "casa. Aunque algunos POKEMANÍACOS\l"
-.string "quieran hacer creer a la gente que\l"
-.string "es un POKÉMON muy raro, en CIUDAD\l"
-.string "IRIS es de lo más común.$"
+	.string "Here, everyone has an EEVEE at home.\n"
+	.string "Although some POKÉMANIACS may want to\l"
+	.string "make people believe it's a very rare\l"
+	.string "POKÉMON, in ECRUTEAK CITY, it's quite\l"
+	.string "common.$"
 
 
 
@@ -58,7 +57,6 @@ release
 end
 
 Ecruteak_PkmnCenter_Text_4:
-.string "Me pregunto si la TORRE QUEMADA\n"
-.string "era aún más alta que la TORRE\l"
-.string "CAMPANA. Dicen que eran similares\l"
-.string "en altura…$"
+	.string "I do wonder if BURNED TOWER was higher\n"
+	.string "than BELL TOWER. It is said that they\l"
+	.string "were similar in height…$"

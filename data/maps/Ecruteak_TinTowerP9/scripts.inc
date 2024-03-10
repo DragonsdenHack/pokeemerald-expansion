@@ -19,12 +19,11 @@ release
 end
 
 Ecruteak_TinTowerp9_Text_3:
-.string "Muy pocos saben esto, pero las\n"
-.string "leyendas más antiguas se refieren\l"
-.string "a HO-OH como una enorme ave color\l"
-.string "oro puro, de un aura tan mística y\l"
-.string "sagrada que todos los dragones se\l"
-.string "espantarían ante su presencia.$"
+	.string "Very few know this, but the oldest\n"
+	.string "legends refer to HO-OH as a massive\l"
+	.string "bird of pure gold, with such a mystical\l"
+	.string "and sacred aura that all dragons would\l"
+	.string "be frightened by its presence.$"
 
 
 
@@ -36,9 +35,8 @@ release
 end
 
 Ecruteak_TinTowerp9_Text_4:
-.string "El honor consiste en hacer hermoso\n"
-.string "aquello que uno está obligado a\l"
-.string "realizar.$"
+	.string "Honor lies in beautifying that which\n"
+	.string "one is obligated to perform.$"
 
 
 
@@ -55,11 +53,11 @@ release
 end
 
 Ecruteak_TinTowerp9_Text_7:
-.string "Lo maravilloso de pelear contra un\n"
-.string "rival imaginario es que siempre\l"
-.string "resulta diestro, aunque fácil de\l"
-.string "vencer. El orgullo de la victoria\l"
-.string "sin el riesgo de la derrota.$"
+	.string "The wonderful thing about fighting\n"
+	.string "against an imaginary opponent is that\l"
+	.string "it always proves skillful, yet easy to\l"
+	.string "defeat. It's the pride of victory\l"
+	.string "without the risk of defeat.$"
 
 
 
@@ -116,56 +114,51 @@ release
 end
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_1:
-.string "AGATHA: ¡{PLAYER}!\n"
-	.string "¡Eres incansable!$"
+.string "AGATHA: {PLAYER}!\n"
+	.string "You are tireless!$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_2:
-.string "El GRAN MAESTRO está en la cima,\n"
-	.string "contemplando JOHTO. Dio claras\l"
-	.string "indicaciones de no ser molestado\l"
-	.string "salvo fuerza mayor.$"
+	.string "The GRAND MASTER stands at the peak,\n"
+	.string "overlooking JOHTO. He gave explicit\l"
+	.string "instructions not to be disturbed\l"
+	.string "except in cases of absolute necessity.$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_3:
-.string "¿Sabes cuál fue el único supuesto\n"
-	.string "de fuerza mayor que contempló,\l"
-	.string "{PLAYER}?$"
+	.string "Do you know what was the only supposed\n"
+	.string "case of absolute necessity that was\l"
+	.string "considered, {PLAYER}?$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_4:
-.string "Así es, que tú lograses subir\n"
-	.string "hasta aquí y, como prueba de tu\l"
-	.string "habilidad, lograses derrotar una\l"
-	.string "vez más a una exmiembro de la\l"
-	.string "ÉLITE 4.$"
+	.string "You're right, that you were able to climb\n"
+	.string "up here, and as proof of your skill, you\l"
+	.string "succeeded in defeating a former member\l"
+	.string "of the ELITE FOUR again.$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_5:
-.string "¡En guardia, {PLAYER}!\n"
-	.string "¡Este período en TORRE CAMPANA me\l"
-	.string "ha permitido volver a conectar con\l"
-	.string "mi equipo POKÉMON!$"
+	.string "On guard. {PLAYER}! This time in BELL\n"
+	.string "TOWER has allowed me to reconnect with\l"
+	.string "my POKÉMON team!$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_6:
-.string "Ya te lo dije y te lo vuelvo a\n"
-	.string "decir, tienes un don para el\l"
-	.string "combate. Veremos hasta donde\l"
-	.string "llegas.$"
+	.string "I've told you before, and I'll say it\n"
+	.string "again, you are prodigious for battles.\l"
+	.string "We'll see how far you go.$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_7:
-.string "Llegaste a explorar y conocer cada\n"
-	.string "rincón de KANTO. Ahora te estás\l"
-	.string "adentrando en uno de los lugares\l"
-	.string "más sagrados de JOHTO. ¿Hasta\l"
-	.string "dónde vas a llegar, {PLAYER}?$"
+	.string "You've explored and become familiar\n"
+	.string "with every corner of KANTO. Now you're\l"
+	.string "venturing into one of the most sacred\l"
+	.string "places in JOHTO. How far will you go,\l"
+	.string "{PLAYER}?$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Texto_8:
-.string "El GRAN MAESTRO de TORRE CAMPANA\n"
-	.string "te espera. Ándate con ojo, {PLAYER},\l"
-	.string "hay fuerzas en este mundo que\l"
-	.string "harían temblar a cualquier\l"
-	.string "ENTRENADOR, incluso a alguien como\l"
-	.string "tú. Cada vez más lejos, más\l"
-	.string "difíciles los retos, pero, ¿hasta\l"
-	.string "cuándo podrán tus POKÉMON soportar\l"
-	.string "esa presión?$"
+	.string "The GRAND MASTER of BELL TOWER awaits\n"
+	.string "you. Be careful, {PLAYER}, there are\l"
+	.string "forces in this world that would make\l"
+	.string "any TRAINER tremble, even someone like\l"
+	.string "you. As challenges become increasingly\l"
+	.string "difficult, how long can your POKÉMON\l"
+	.string "withstand that pressure?$"
 
 Ecruteak_TinTowerP9_Combate_Agatha_Move_1:
 walk_up

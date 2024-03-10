@@ -14,11 +14,10 @@ release
 end
 
 Ecruteak_ShopText_2:
-.string "CIUDAD IRIS es la única que vende\n"
-.string "C.SAGRADA aún, cuesta 14000\l"
-.string "POKÉS, pero ya te digo que este\l"
-.string "objeto en KANTO costaría mucho\l"
-.string "más.$"
+	.string "ECRUTEAK CITY is the only place that\n"
+	.string "still sells SACRED ASH, it costs 14000\l"
+	.string "POKÉ, but I can tell you that this item\l"
+	.string "would cost much more in KANTO.$"
 
 
 
@@ -30,12 +29,11 @@ release
 end
 
 Ecruteak_ShopText_3:
-.string "¿Te imaginas presenciar toda la\n"
-.string "región desde la cima de TORRE\l"
-.string "CAMPANA?\l"
-.string "Aunque eso es imposible, no puedo\l"
-.string "ni cruzar la puerta que lleva a\l"
-.string "SENDA DINDÓN.$"
+	.string "Can you imagine witnessing the entire\n"
+	.string "region from the top of BELL TOWER?\l"
+	.string "Although that's impossible, I can't even\l"
+	.string "cross the door that leads to BELLCHIME\l"
+	.string "TRAIL.$"
 
 
 
@@ -47,7 +45,7 @@ release
 end
 
 Ecruteak_ShopText_4:
-.string "Cambio…\n"
-.string "Cambio…\l"
-.string "Y más cambio…\l"
-.string "¡Todo es cambio!$"
+.string "Change…\n"
+.string "Change…\l"
+.string "And more change…\l"
+.string "Everything is in change!$"

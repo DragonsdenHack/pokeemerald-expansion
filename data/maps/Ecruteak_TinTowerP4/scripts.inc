@@ -19,9 +19,9 @@ release
 end
 
 Ecruteak_TinTowerp4_Text_3:
-.string "Como las flores, vamos muriendo,\n"
-.string "pero todo lo que hacemos en vida\l"
-.string "tiene su eco en la eternidad.$"
+	.string "Like flowers, we are dying, but\n"
+	.string "everything we do in life has its echo in\l"
+	.string "eternity.$"
 
 
 
@@ -39,12 +39,12 @@ release
 end
 
 TinTowerP4_4_Texto_1:
-.string "Un buen descanso no te vendrá mal,\n"
-	.string "TORRE CAMPANA es larga y dura.$"
+	.string "A good rest wouldn't hurt, BELL TOWER is\n"
+	.string "long and tough.$"
 
 TinTowerP4_4_Texto_2:
-.string "Tus POKÉMON ya están listos para\n"
-	.string "proseguir vuestro viaje.$"
+	.string "Your POKÉMON are ready to continue\n"
+	.string "your journey.$"
 
 
 
@@ -56,12 +56,12 @@ release
 end
 
 Ecruteak_TinTowerp4_Text_5:
-.string "Nuestra psicología conspira contra\n"
-.string "nosotros mismos: a las personas\l"
-.string "nos gusta ir hacia un destino\l"
-.string "preciso antes que enfrentarnos a\l"
-.string "cierto grado de incertidumbre,\l"
-.string "aunque este sea beneficioso.$"
+	.string "Our psychology conspires against\n"
+	.string "ourselves: people prefer to head\l"
+	.string "towards a precise destination rather\l"
+	.string "than face a certain degree of\l"
+	.string "uncertainty, even if the uncertainty\l"
+	.string "could be beneficial.$"
 
 
 
@@ -102,35 +102,33 @@ TinTowerP4_EventScript_TakeHonedge::
 
 
 TinTowerP4_Text_TakeHonedge:
-    .string "No es muy común ver a jóvenes como\n"
-	.string "tú en estos días que corren.$"
+	.string "Is not very common to see youngsters\n"
+	.string "like you these days.$"
 
 
 
 TinTowerP4_Text_TakeHonedge2:
-	.string "Puedo ver el respeto que profesas\n"
-	.string "hacia este lugar. A pesar de estar\l"
-	.string "rodeado de tentaciones, dada tu\l"
-	.string "posición, no has olvidado de donde\l"
-	.string "vienes.$"
+	.string "I can see the respect you hold for this\n"
+	.string "place. Despite being surrounded by\l"
+	.string "temptations, given your position, you\l"
+	.string "haven't forgotten where you come from.$"
 
 
 
 TinTowerP4_Text_TakeHonedge3:
-	.string "Por ello, te hago entrega de este\n"
-	.string "POKÉMON. Si lo entrenas bien, te\l"
-	.string "servirá de escudo ante la más\l"
-	.string "adversa de las situaciones.$"
+	.string "Therefore, I present you with this\n"
+	.string "POKÉMON. If you train it well, it will\l"
+	.string "serve as a shield against the most\l"
+	.string "adverse situations.$"
 
 
 
 TinTowerP4_Text_MensajeHonedge:
-.string "¡OBTUVISTE UN HONEDGE AL NV.10!$"
+.string "YOU OBTAINED A LV.10 HONEDGE!!$"
 
 
 TinTowerP4_Text_4:
-    .string "HONEDGE puede servirte de escudo\n"
-	.string "ante la más adversa de las\l"
-	.string "situaciones, algo a tener en\l"
-	.string "cuenta, dado el entorno en el que\l"
-	.string "te mueves.$"
+	.string "HONEDGE can serve as a shield against\n"
+	.string "the most adverse situations, something\l"
+	.string "to consider given the environment you\l"
+	.string "navigate.$"

@@ -9,8 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp8_Text_1:
-.string "Evitar dar señales de debilidad\n"
-.string "es señal de debilidad.$"
+	.string "Avoiding giving signals of weakness, is\n"
+	.string "a signal of weakness.$"
 
 
 
@@ -27,9 +27,8 @@ release
 end
 
 Ecruteak_TinTowerp8_Text_3:
-.string "La verdad triunfa por sí misma, la\n"
-.string "mentira necesita siempre\l"
-.string "complicidad.$"
+	.string "The truth triumphs by itself, the lies\n"
+	.string "always need a complicity.$"
 
 
 
@@ -41,9 +40,9 @@ release
 end
 
 Ecruteak_TinTowerp8_Text_4:
-.string "El único problema del que ríe el\n"
-.string "último es que el ganador tiene que\l"
-.string "reir solo.$"
+	.string "The sole issue for the one who laughs\n"
+	.string "last is that the victor must laugh\l"
+	.string "alone.$"
 
 
 
@@ -55,9 +54,9 @@ release
 end
 
 Ecruteak_TinTowerp8_Text_5:
-.string "Lo importante no es lo que una\n"
-.string "persona tiene o no tiene, sino lo\l"
-.string "que teme perder.$"
+	.string "The important thing isn't what a person\n"
+	.string "possesses or lacks, it's about what\l"
+	.string "they fear losing.$"
 
 
 
@@ -69,8 +68,7 @@ release
 end
 
 Ecruteak_TinTowerp8_Text_6:
-.string "En las adversidades sale a la luz\n"
-.string "la virtud.$"
+.string "In adversity, virtue shines forth.$"
 
 
 

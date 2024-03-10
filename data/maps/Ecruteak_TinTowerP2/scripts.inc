@@ -9,9 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_1:
-.string "El verdadero ENTRENADOR no es\n"
-.string "inmune al miedo.\l"
-.string "Lucha a pesar de él.$"
+	.string "The real TRAINER is not immune against\n"
+	.string "the fear. He fights despite it.$"
 
 
 
@@ -23,9 +22,9 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_2:
-.string "Cuantos más datos tengamos, más\n"
-.string "posibilidades tenemos de ahogarnos\l"
-.string "en ellos.$"
+	.string "The more data we have, the more\n"
+	.string "possibilities we have of drowning in\l"
+	.string "them.$"
 
 
 
@@ -37,15 +36,12 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_3:
-.string "Cada combate es un espacio\n"
-.string "cerrado, una burbuja.\l"
-.string "Y en esa burbuja solo existen\l"
-.string "ambos ENTRENADORES y sus POKÉMON.\l"
-.string "Hay que dejar fuera todo lo otro,\l"
-.string "las excusas, la falta de\l"
-.string "entrenamiento, todos los\l"
-.string "problemas…\l"
-.string "Un combate es toda una vida.$"
+	.string "Every battle is a closed space, a\n"
+	.string "bubble. And in that bubble, only both\l"
+	.string "TRAINERS and their POKÉMON exist.\l"
+	.string "Everything else must be left outside,\l"
+	.string "the excuses, the lack of training, all\l"
+	.string "the problems… A battle is a whole life.$"
 
 
 
@@ -57,16 +53,13 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_4:
-.string "La presión es un arma de doble\n"
-.string "filo, te mantiene alerta, con\l"
-.string "todos tus sentidos despiertos,\l"
-.string "pero también puede bloquearte y\l"
-.string "derivar en ansiedad.\l"
-.string "No obstante, no deja de ser un\l"
-.string "privilegio, una señal más de que\l"
-.string "estamos vivos, y de estar peleando\l"
-.string "por aquellas cosas que nos\l"
-.string "importan.$"
+	.string "Pressure is a double-edged sword; it\n"
+	.string "keeps you alert, with all your senses\l"
+	.string "awake, but it can also block you and\l"
+	.string "lead to anxiety. However, it remains a\l"
+	.string "privilege, another sign that we are\l"
+	.string "alive, and that we are fighting for the\l"
+	.string "things that matter to us.$"
 
 
 
@@ -83,10 +76,9 @@ release
 end
 
 Ecruteak_TinTowerp2_Text_6:
-.string "No tienes nada que demostrar,\n"
-.string "salvo a ti mismo.\l"
-.string "Mientras tengas un poco de aire,\l"
-.string "tienes una oportunidad.$"
+	.string "You have nothing to prove except to\n"
+	.string "yourself. As long as you have a little\l"
+	.string "breath left, you have a chance.$"
 
 
 

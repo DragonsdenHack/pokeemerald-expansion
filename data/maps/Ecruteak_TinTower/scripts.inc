@@ -18,10 +18,9 @@ release
 end
 
 Ecruteak_TinTower_Text_1:
-.string "Aquí aprendemos la unidad de los\n"
-.string "opuestos. Hay que ser móvil y\l"
-.string "también inmóvil, defensivo y\l"
-.string "ofensivo.$"
+	.string "Here we learn the unity of opposites.\n"
+	.string "You must be mobile and also immobile,\l"
+	.string "defensive and offensive.$"
 
 
 
@@ -33,9 +32,9 @@ release
 end
 
 Ecruteak_TinTower_Text_2:
-.string "El sabio no abandona después de\n"
-.string "chocar contra la realidad, solo\l"
-.string "ajusta sus expectativas y sigue.$"
+	.string "The wise one does not give up after\n"
+	.string "colliding with reality; they only adjust\l"
+	.string "their expectations and continue.$"
 
 
 
@@ -47,12 +46,11 @@ release
 end
 
 Ecruteak_TinTower_Text_3:
-.string "Se dice que los POKÉMON\n"
-.string "LEGENDARIOS encarnan tres\l"
-.string "poderes... el rayo que alcanzó la\l"
-.string "torre... el fuego que quemó la\l"
-.string "torre... y la lluvia que apagó\l"
-.string "dicho fuego...$"
+	.string "It is said that the LEGENDARY POKÉMON\n"
+	.string "embody three powers… the lightning\l"
+	.string "that struck the tower… the fire that\l"
+	.string "burned the tower… and the rain that\l"
+	.string "extinguished that fire...$"
 
 
 
@@ -64,12 +62,11 @@ release
 end
 
 Ecruteak_TinTower_Text_4:
-.string "Lo que hizo LANCE no tiene perdón,\n"
-.string "confinar de esa manera a las\l"
-.string "bestias errantes... Afortunadamente,\l"
-.string "ya vuelven a correr libremente por\l"
-.string "los prados de JOHTO, todo gracias\l"
-.string "a vosotros.$"
+	.string "There's no forgiveness for what LANCE\n"
+	.string "did, confining the wandering beasts\l"
+	.string "like that… Thankfully, they're now\l"
+	.string "running freely in the meadows of JOHTO\l"
+	.string "again, all thanks to you.$"
 
 
 
@@ -81,13 +78,12 @@ release
 end
 
 Ecruteak_TinTower_Text_5:
-.string "TORRE CAMPANA fue construída en\n"
-.string "honor a HO-OH, así como TORRE\l"
-.string "QUEMADA, otrora TORRE LATÓN, en\l"
-.string "honor a LUGIA. Aquellos que\l"
-.string "llegaron a conocer la conexión\l"
-.string "última entre las dos torres ya no\l"
-.string "se encuentran entre nosotros.$"
+	.string "BELL TOWER was built in honor of HO-OH,\n"
+	.string "just as BURNED TOWER, formerly known as\l"
+	.string "BRASS TOWER, was built in honor of\l"
+	.string "LUGIA. Those who came to know the\l"
+	.string "ultimate connection between the two\l"
+	.string "towers are no longer among us.$"
 
 
 
@@ -99,10 +95,9 @@ release
 end
 
 Ecruteak_TinTower_Text_6:
-.string "De los POKÉMON LEGENDARIOS, se\n"
-.string "dice que SUICUNE es el más\l"
-.string "cercano a HO-OH. Además, he oído\l"
-.string "que también puede haber una\l"
-.string "conexión con los POKÉMON UNOWN.\l"
-.string "Los POKÉMON UNOWN deben de tener\l"
-.string "un lazo de unión con SUICUNE.$"
+	.string "Among the LEGENDARY POKÉMON, it's said\n"
+	.string "that SUICUNE is the closest to HO-OH.\l"
+	.string "Also, I've heard there might be a\l"
+	.string "connection with the UNOWN POKÉMON. The\l"
+	.string "UNOWN POKÉMON must have some\l"
+	.string "connection with SUICUNE.$"

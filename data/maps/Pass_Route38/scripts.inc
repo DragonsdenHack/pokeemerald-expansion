@@ -9,11 +9,9 @@ release
 end
 
 Pass_Route38_Text_1:
-.string "Más al oeste podrás encontrar la\n"
-.string "GRANJA MU-MU.\l"
-.string "¡Su leche es la mejor bebida en\l"
-.string "relación calidad-precio que\l"
-.string "existe!$"
+	.string "Further to the west, you can find the\n"
+	.string "MOOMOO FARM. Their milk is the best bang\l"
+	.string "for your buck!$"
 
 
 
@@ -30,10 +28,9 @@ release
 end
 
 Pass_Route38_Text_3:
-.string "Ten cuidado en la siguiente ruta,\n"
-.string "los TAUROS campan a sus anchas, ¡y\l"
-.string "embisten a todo el que consideren\l"
-.string "una amenaza!$"
+	.string "Be careful on the next route, TAUROS\n"
+	.string "roam freely and charge at anyone they\l"
+	.string "see as a threat!$"
 
 Ecruteak_EventScript_ReceiveAbsol::
     lock

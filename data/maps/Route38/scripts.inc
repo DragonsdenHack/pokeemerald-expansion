@@ -14,11 +14,11 @@ release
 end
 
 Route37_Text_2:
-.string "DODRIO es mi ave preferida, me\n"
-.string "encanta porque ataca sin ningún\l"
-.string "miedo, sin mirar atrás. Su\l"
-.string "combinación ATAQUE-VELOCIDAD es\l"
-.string "única entre las aves.$"
+	.string "DODRIO is my favorite bird, I love it\n"
+	.string "because it attacks without any fear,\l"
+	.string "without any kind of shame. Its\l"
+	.string "combination of ATTACK-SPEED is unique\l"
+	.string "among birds.$"
 
 
 
@@ -40,9 +40,8 @@ release
 end
 
 Route37_Text_5:
-.string "El comportamiento de los TAUROS y\n"
-.string "MILTANK en estado salvaje es\l"
-.string "fascinante.$"
+	.string "The wild behavior of TAUROS and\n"
+	.string "MILTANK is quite intriguing.$"
 
 
 
@@ -76,9 +75,9 @@ msgbox Route38Documento_Text_100, MSGBOX_SIGN
 end
 
 Route38Documento_Text_100:
-	.string "¡Recuerda!\n"
-	.string "¡TAUROS es más potente, pero\l"
-	.string "MILTANK es más resistente!$"
+	.string "Remember! \n"
+	.string "TAUROS is more powerful, but\l"
+	.string "MILTANK has greater endurance!$"
 
 
 
@@ -87,5 +86,5 @@ msgbox Route38Documento_Text_101, MSGBOX_SIGN
 end
 
 Route38Documento_Text_101:
-	.string "RUTA 38\n"
-	.string "CIUDAD OLIVO - CIUDAD IRIS$"
+	.string "ROUTE 38\n"
+	.string "OLIVINE CITY - ECRUTEAK CITY$"

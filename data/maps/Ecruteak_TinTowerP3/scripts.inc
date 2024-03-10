@@ -14,9 +14,9 @@ release
 end
 
 Ecruteak_TinTowerp3_Text_2:
-.string "Si de veras llegáramos a poder\n"
-.string "comprender, ya no podríamos\l"
-.string "juzgar.$"
+	.string "If we genuinely reached a point of\n"
+	.string "comprehension, we would no longer be\l"
+	.string "capable of judgment.$"
 
 
 
@@ -28,13 +28,12 @@ release
 end
 
 Ecruteak_TinTowerp3_Text_3:
-.string "La degeneración de las escuelas\n"
-.string "filosóficas es a su vez\l"
-.string "consecuencia de la errónea\l"
-.string "creencia según la cual se puede\l"
-.string "filosofar sin haberse visto\l"
-.string "empujado a hacerlo por problemas\l"
-.string "ajenos a la filosofía.$"
+	.string "The degeneration of philosophical\n"
+	.string "schools is, in turn, a consequence of\l"
+	.string "the mistaken belief that one can\l"
+	.string "philosophize without being compelled to\l"
+	.string "do so by problems outside of\l"
+	.string "philosophy.$"
 
 
 
@@ -46,8 +45,8 @@ release
 end
 
 Ecruteak_TinTowerp3_Text_4:
-.string "Daría todo lo que sé por la mitad\n"
-.string "de lo que desconozco.$"
+	.string "I would give everything I know for the\n"
+	.string "half of what I don't know.$"
 
 
 
@@ -59,18 +58,16 @@ release
 end
 
 Ecruteak_TinTowerp3_Text_5:
-.string "Es esencial entender que, en\n"
-.string "cualquier situación, hay muchos\l"
-.string "factores que escapan a tu control,\l"
-.string "y a pesar de que saques lo mejor\l"
-.string "de ti, no eres más que una parte\l"
-.string "del todo.\l"
-.string "Darle vueltas a todo lo que escape\l"
-.string "de nuestro control es simplemente\l"
-.string "una distracción y un desperdicio\l"
-.string "de energía, lo único que importa\l"
-.string "es sentir pasión por lo que se\l"
-.string "hace y desear rendir al máximo.$"
+	.string "It is essential to understand that, in\n"
+	.string "any situation, there are many factors\l"
+	.string "beyond your control, and even if you do\l"
+	.string "your best, you are just a part of the\l"
+	.string "whole. Ruminating on everything beyond\l"
+	.string "our control is simply a distraction and\l"
+	.string "a waste of energy; the only thing that\l"
+	.string "matters is feeling passionate about\l"
+	.string "what we do and striving to perform at\l"
+	.string "our best.$"
 
 
 
@@ -82,9 +79,8 @@ release
 end
 
 Ecruteak_TinTowerp3_Text_6:
-.string "Adormecer el dolor por un rato te\n"
-.string "haría sentirlo luego con mayor\l"
-.string "intensidad.$"
+	.string "If you numb the pain for a while, you'll\n"
+	.string "feel it later with greater intensity.$"
 
 
 

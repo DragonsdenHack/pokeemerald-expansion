@@ -9,8 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_1:
-.string "El que busca la verdad corre el\n"
-.string "riesgo de encontrarla.$"
+	.string "Whoever chases the truth has the risk\n"
+	.string "to find it.$"
 
 
 
@@ -22,8 +22,8 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_2:
-.string "No luches por el poder, sino por\n"
-.string "la virtud.$"
+	.string "Don't fight for the power, do it for the\n"
+	.string "virtue.$"
 
 
 
@@ -35,8 +35,7 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_3:
-.string "Un tonto nunca se repone de un\n"
-.string "éxito.$"
+	.string "A fool never recovers from success.$"
 
 
 
@@ -48,13 +47,12 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_4:
-.string "TORRE CAMPANA fue construída en\n"
-.string "honor a HO-OH, así como TORRE\l"
-.string "QUEMADA, otrora TORRE LATÓN, en\l"
-.string "honor a LUGIA, aquellos que\l"
-.string "llegaron a conocer la conexión\l"
-.string "última entre las dos torres ya no\l"
-.string "se encuentran entre nosotros.$"
+	.string "BELL TOWER was built in honor of HO-OH,\n"
+	.string "just as BURNED TOWER, formerly known as\l"
+	.string "BRASS TOWER, was built in honor of\l"
+	.string "LUGIA. Those who came to know the\l"
+	.string "ultimate connection between the two\l"
+	.string "towers are no longer among us.$"
 
 
 
@@ -66,6 +64,5 @@ release
 end
 
 Ecruteak_TinTowerp1_Text_5:
-.string "La experiencia es algo que no\n"
-.string "consigues hasta justo después de\l"
-.string "necesitarla.$"
+	.string "Experience is something you don't get\n"
+	.string "until just after you need it.$"

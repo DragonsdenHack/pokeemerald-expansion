@@ -9,8 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp5_Text_1:
-.string "El vínculo con tus POKÉMON es la\n"
-.string "única realidad de este mundo.$"
+	.string "The bond with your POKÉMON is the only\n"
+	.string "reality in this world.$"
 
 
 
@@ -22,8 +22,8 @@ release
 end
 
 Ecruteak_TinTowerp5_Text_2:
-.string "Engarza en oro las alas del pájaro\n"
-.string "y nunca más volará al cielo.$"
+	.string "Encase the bird's wings in gold and it\n"
+	.string "will never soar to the sky again.$"
 
 
 
@@ -45,8 +45,8 @@ release
 end
 
 Ecruteak_TinTowerp5_Text_5:
-.string "Aceptamos la realidad del mundo\n"
-.string "que se nos presenta.$"
+	.string "We accept the reality of the world that\n"
+	.string "is shown for us.$"
 
 
 
@@ -58,12 +58,12 @@ release
 end
 
 Ecruteak_TinTowerp5_Text_6:
-.string "Casi nunca se cumple el guión que\n"
-.string "nos hemos marcado para un combate,\l"
-.string "siempre surgen imprevistos, y ahí\l"
-.string "reside la genialidad del combate\l"
-.string "POKÉMON, lo que lo convierte en\l"
-.string "mágico, en arte.$"
+	.string "The plan we've set for a battle is rarely\n"
+	.string "executed as intended; unexpected\l"
+	.string "events always arise, and therein lies\l"
+	.string "the brilliance of POKÉMON battles,\l"
+	.string "turning them into something magical,\l"
+	.string "into art.$"
 
 
 
@@ -91,17 +91,18 @@ release
 end
 
 TinTowerP5_Foco_Texto_1:
-.string "El cuerpo y la mente van de la\n"
-	.string "mano. Mientras ambas estén en\l"
-	.string "equilibrio, todo fluirá.$"
+	.string "Body and mind work together. When they\n"
+	.string "are balanced, everything will flow\l"
+	.string "naturally.$"
 
 TinTowerP5_Foco_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT93 FOCO\n"
-	.string "RESPLANDOR de manos de pensador!!$"
+.string "{PLAYER} obtained the TM93\n"
+	.string "FLASH CANNON from the SAGE!!$"
 
 TinTowerP5_Foco_Texto_2:
-.string "FOCO RESPLANDOR saca el lado especial\n"
-	.string "que incluso los TIPO ACERO tienen.$"
+	.string "FLASH CANNON brings out the special\n"
+	.string "side that even STEEL-TYPE POKÉMON\l"
+	.string "possess.$"
 
 
 

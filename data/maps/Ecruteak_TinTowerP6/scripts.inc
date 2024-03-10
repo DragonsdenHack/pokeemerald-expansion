@@ -14,10 +14,10 @@ release
 end
 
 Ecruteak_TinTowerp6_Text_2:
-.string "Saber cosas que otros no saben es\n"
-.string "más eficaz cuando los demás no\l"
-.string "saben que sabes cosas que no\l"
-.string "saben.$"
+	.string "Knowing things others don't know is\n"
+	.string "more effective when others aren't\l"
+	.string "aware that you know things they don't\l"
+	.string "know.$"
 
 
 
@@ -29,10 +29,9 @@ release
 end
 
 Ecruteak_TinTowerp6_Text_3:
-.string "Algo han visto los 2 GRANDES\n"
-.string "MAESTROS de JOHTO en ti. De lo\l"
-.string "contrario, tu presencia aquí no\l"
-.string "sería posible.$"
+	.string "The two GRAND MASTERS of JOHTO have\n"
+	.string "seen something in you. Otherwise, your\l"
+	.string "presence here wouldn't be possible.$"
 
 
 
@@ -44,11 +43,10 @@ release
 end
 
 Ecruteak_TinTowerp6_Text_4:
-.string "Del EEVEE de nuestro GRAN MAESTRO,\n"
-.string "descienden todos los EEVEES\l"
-.string "restantes. Ese EEVEE domina todos\l"
-.string "los tipos, y es tan antiguo como\l"
-.string "la misma CIUDAD IRIS.$"
+	.string "From our GRAND MASTER's EEVEE, all\n"
+	.string "other EEVEE descend. That EEVEE\l"
+	.string "masters all types and is as ancient as\l"
+	.string "ECRUTEAK CITY itself.$"
 
 
 
@@ -60,9 +58,8 @@ release
 end
 
 Ecruteak_TinTowerp6_Text_5:
-.string "La mayor rémora de la vida es la\n"
-.string "espera del mañana y la pérdida del\l"
-.string "día de hoy.$"
+	.string "The biggest obstacle in life is waiting\n"
+	.string "for tomorrow and losing today.$"
 
 
 
@@ -74,14 +71,12 @@ release
 end
 
 Ecruteak_TinTowerp6_Text_6:
-.string "Entonces…\n"
-.string "GASTLY, HAUNTER y GENGAR no son\l"
-.string "los únicos FANTASMA reflejados por\l"
-.string "el más allá…\l"
-.string "Son solo la parte superficial,\l"
-.string "pero tampoco conviene enseñar el\l"
-.string "fondo a aquellos no preparados\l"
-.string "para asumirlo…$"
+	.string "So… GASTLY, HAUNTER, and GENGAR aren't\n"
+	.string "the only GHOSTS reflected by the\l"
+	.string "afterlife… They represent only the\l"
+	.string "surface, but it's also unwise to expose\l"
+	.string "the depths to those unprepared to\l"
+	.string "confront them…$"
 
 
 

@@ -9,9 +9,8 @@ release
 end
 
 Ecruteak_TinTowerp7_Text_1:
-.string "Más que nuestras habilidades, son\n"
-.string "nuestras elecciones las que\l"
-.string "muestran quiénes somos.$"
+	.string "More than our abilities, it is our\n"
+	.string "choices that reveal who we are.$"
 
 
 
@@ -33,8 +32,8 @@ release
 end
 
 Ecruteak_TinTowerp7_Text_4:
-.string "El mañana valdrá la pena porque el\n"
-.string "hoy vale la pena.$"
+	.string "Tomorrow will be worth it because today\n"
+	.string "is worth it.$"
 
 
 
@@ -51,9 +50,8 @@ release
 end
 
 Ecruteak_TinTowerp7_Text_6:
-.string "Lo peor que le puede ocurrir a\n"
-.string "cualquiera es que se le comprenda\l"
-.string "por completo.$"
+	.string "The worst thing that can happen to\n"
+	.string "anyone is to be entirely understood.$"
 
 
 
