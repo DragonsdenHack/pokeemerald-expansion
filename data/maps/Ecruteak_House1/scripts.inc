@@ -9,11 +9,10 @@ release
 end
 
 Ecruteak_House1_Text_1:
-.string "El mundo ha cambiado. El\n"
-.string "pragmatismo ha reemplazado al\l"
-.string "valor, pero aún confío en que en\l"
-.string "los despachos de SILPH y TORRE\l"
-.string "RADIO queden personas con honor.$"
+	.string "The world has changed. Pragmatism has\n"
+	.string "replaced value, but I still trust that\l"
+	.string "there are honorable people in the\l"
+	.string "offices of SILPH and RADIO TOWER.$"
 
 
 
@@ -34,33 +33,31 @@ end
 
 
 EcruteakHouse2Documento_Text_100:
-    .string "HISTORIA DE CIUDAD IRIS$"
+    .string "ECRUTEAK CITY HISTORY$"
 
 EcruteakHouse2Documento_Text_100YesNo:
-.string "¿Quieres leerla?$"
+.string "Do you want to read it?$"
 
 EcruteakHouse2Documento_Text_100YesNo2:
-.string "¿Seguir leyendo?$"
+.string "Keep reading?$"
 
 EcruteakHouse2Documento_100No::
 release
 end
 
 EcruteakHouse2Documento_Text_100Yes:
-    .string "En CIUDAD IRIS había dos torres.\n"
-	.string "Cada una acogía a un fuerte\l"
-	.string "POKÉMON VOLADOR. Pero una de\l"
-	.string "ellas se quemó. Y desde entonces\l"
-	.string "no se ha visto a ninguno de los\l"
-	.string "dos POKÉMON.$"
+	.string "In ECRUTEAK CITY, there were two\n"
+	.string "towers. Each one housed a strong\l"
+	.string "FLYING-TYPE POKÉMON. But one of them\l"
+	.string "burned down. And since then, neither of\l"
+	.string "the two POKÉMON has been seen.$"
 
 
 
 EcruteakHouse2Documento_Text_100Yes2:
-    .string "En CIUDAD IRIS también vivían\n"
-	.string "tres POKÉMON que corrían por toda\l"
-	.string "la ciudad. Dicen que habían\l"
-	.string "nacido del agua, del fuego y del\l"
-	.string "rayo. Pero como no podían\l"
-	.string "contener su enorme fuerza...\l"
-	.string "huyeron hacia los pastos.$"
+	.string "In ECRUTEAK CITY, there were also three\n"
+	.string "POKÉMON that roamed throughout the\l"
+	.string "city. They say they were born from\l"
+	.string "water, fire, and lightning. But because\l"
+	.string "they couldn't contain their immense\l"
+	.string "power… they fled to the grasslands.$"

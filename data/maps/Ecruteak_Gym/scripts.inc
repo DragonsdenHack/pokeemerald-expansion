@@ -24,13 +24,11 @@ release
 end
 
 Ecruteak_Gym_Text_4:
-.string "¿Nuestro LÍDER?\n"
-.string "Lo siento, pero JOHTO dejó de\l"
-.string "formar parte de la LIGA POKÉMON,\l"
-.string "nuestro LÍDER no tiene la\l"
-.string "obligación de estar aquí. Es por\l"
-.string "ello que pasa día y noche en TORRE\l"
-.string "CAMPANA.$"
+	.string "Our LEADER? I'm sorry, but JOHTO is not\n"
+	.string "anymore part of the POKÉMON LEAGUE,\l"
+	.string "our LEADER isn't obligated to be here.\l"
+	.string "That's why he spends day and night at\l"
+	.string "BELL TOWER.$"
 
 
 
@@ -42,15 +40,13 @@ release
 end
 
 Ecruteak_Gym_Text_5:
-.string "¡Ah, hola, joven aspirante!\n"
-.string "O eso debería de decir si pudieras\l"
-.string "retar a nuestro LÍDER. Solo\l"
-.string "quedan los discípulos. Nuestro\l"
-.string "LÍDER ha sido el PENSADOR más\l"
-.string "influyente de JOHTO en los últimos\l"
-.string "tiempos, y como tal, su lugar está\l"
-.string "en TORRE CAMPANA. Deberás subir a\l"
-.string "la cima si quieres retarle.$"
+	.string "Ah, hello, young aspirant! Or so I should\n"
+	.string "say if you could challenge our LEADER.\l"
+	.string "Only disciples remain. Our LEADER has\l"
+	.string "been the most influential SAGE in JOHTO\l"
+	.string "in recent times, and as such, his place\l"
+	.string "is in BELL TOWER. You'll have to climb to\l"
+	.string "the top if you want to challenge him.$"
 
 
 

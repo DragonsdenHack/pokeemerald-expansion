@@ -9,12 +9,11 @@ release
 end
 
 Ecruteak_House2_Text_1:
-.string "Sucedió cuando era joven.\n"
-.string "El cielo se oscureció de repente.\l"
-.string "Un enorme POKÉMON estaba tapando\l"
-.string "el sol.\l"
-.string "Me pregunto qué sería ese POKÉMON,\l"
-.string "mezcla de pájaro y dragón.$"
+	.string "It happened when I was younger. The\n"
+	.string "sky suddenly darkened. A huge POKÉMON\l"
+	.string "was blocking the sun. I wonder what\l"
+	.string "that POKÉMON would be, a mix of bird and\l"
+	.string "dragon.$"
 
 
 

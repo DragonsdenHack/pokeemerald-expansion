@@ -9,11 +9,10 @@ release
 end
 
 Ecruteak_DanceTheater_Text_1:
-.string "Solo una persona noble cuyo\n"
-.string "vínculo con sus POKÉMON sea\l"
-.string "inquebrantable podrá hacer\l"
-.string "regresar al LEGENDARIO HO-OH a\l"
-.string "TORRE CAMPANA una vez más.$"
+	.string "Only a noble person whose bond with\n"
+	.string "their POKÉMON is unbreakable will be\l"
+	.string "able to bring the LEGENDARY HO-OH back\l"
+	.string "to BELL TOWER once more.$"
 
 
 
@@ -25,13 +24,12 @@ release
 end
 
 Ecruteak_DanceTheater_Text_2:
-.string "Los monjes de TORRE CAMPANA son\n"
-.string "fascinantes. Desde el momento en\l"
-.string "que se levantan, se entregan a la\l"
-.string "perfección sea cual fuere el\l"
-.string "propósito que persigan. No\l"
-.string "encontrarás esa disciplina en\l"
-.string "ningún otro lugar.$"
+	.string "The monks of BELL TOWER are\n"
+	.string "fascinating. From the moment they rise,\l"
+	.string "they dedicate themselves to\l"
+	.string "perfection, whatever the purpose they\l"
+	.string "pursue. You won't find that level of\l"
+	.string "discipline anywhere else.$"
 
 
 
@@ -43,15 +41,15 @@ release
 end
 
 Ecruteak_DanceTheater_Text_3:
-.string "¿Cómo?\n"
-.string "¡Ah, si!\l"
-.string "Tenemos varias evoluciones de\l"
-.string "EEVEE, según el rival usamos las\l"
-.string "mejor o peor entrenadas, ademas\l"
-.string "algunos se enfadan si pierden, esa\l"
-.string "gente no nos interesa así que les\l"
-.string "damos lo que buscan, y a otra\l"
-.string "cosa.$"
+.string "Huh?\n"
+.string "Ah, yeah!\l"
+	.string "We have several evolutions of EEVEE,\l"
+	.string "and depending on the opponent, we use\l"
+	.string "the best or worst trained ones.\l"
+	.string "Additionally, some get upset if they\l"
+	.string "lose, but we're not interested in those\l"
+	.string "people, so we give them what they want\l"
+	.string "and move on.$"
 
 
 
@@ -63,11 +61,9 @@ release
 end
 
 Ecruteak_DanceTheater_Text_4:
-.string "Todos los EEVEE tienen su origen\n"
-.string "en uno solo.\l"
-.string "¿Cuál es?\l"
-.string "Solo nuestro LÍDER DE GIMNASIO\l"
-.string "tiene la respuesta a eso.$"
+	.string "All EEVEEs trace their origin back to a\n"
+	.string "single source. What is it? Only our GYM\l"
+	.string "LEADER could answer that.$"
 
 
 
@@ -79,11 +75,11 @@ release
 end
 
 Ecruteak_DanceTheater_Text_5:
-.string "Dicen que cada evolución de los 7\n"
-.string "EEVEE representa cada uno los\l"
-.string "7 colores del arco iris de HO-OH,\l"
-.string "aunque creo que hay más de 7\l"
-.string "evoluciones diferentes de EEVEE…$"
+	.string "According to legend, each evolution of\n"
+	.string "the 7 EEVEEs represents one of the 7\l"
+	.string "colors of HO-OH's rainbow, although I\l"
+	.string "suspect there are more than 7 distinct\l"
+	.string "EEVEE evolutions.$"
 
 
 
@@ -95,13 +91,11 @@ release
 end
 
 Ecruteak_DanceTheater_Text_6:
-.string "Las CHICAS KIMONO no solo bailan,\n"
-.string "también son extraordinarias con\l"
-.string "los POKÉMON.\l"
-.string "Yo siempre las desafio pero nunca\l"
-.string "les he hecho ni un rasguño…\l"
-.string "Ojalá mis POKÉMON fueran tan\l"
-.string "elegantes como las CHICAS KIMONO…$"
+	.string "The KIMONO GIRLS not only dance, they\n"
+	.string "are also exceptional TRAINERS. I always\l"
+	.string "challenge them but have never even\l"
+	.string "scratched them… I wish my POKÉMON were\l"
+	.string "as graceful as the KIMONO GIRLS…$"
 
 
 
@@ -113,10 +107,9 @@ release
 end
 
 Ecruteak_DanceTheater_Text_7:
-.string "Cada CHICA KIMONO representa una\n"
-.string "forma de EEVEE, pero también a su\l"
-.string "TIPO concreto. Eso se ve reflejado\l"
-.string "en el estilo de baile.$"
+	.string "Each KIMONO GIRL represents a form of\n"
+	.string "EEVEE, but also its specific TYPE. This\l"
+	.string "is reflected in their dancing style.$"
 
 
 
@@ -128,10 +121,9 @@ release
 end
 
 Ecruteak_DanceTheater_Text_8:
-.string "Estas chicas llevan el arte de la\n"
-.string "danza en las venas.\l"
-.string "¡Las inmortalizaré en mi próximo\l"
-.string "lienzo!$"
+	.string "These girls have the dance art in their\n"
+	.string "blood. I will immortalize them in my next\l"
+	.string "painting!$"
 
 
 
@@ -143,12 +135,11 @@ release
 end
 
 Ecruteak_DanceTheater_Text_9:
-.string "Las CHICAS KIMONO son tan guapas…\n"
-.string "Pero tienen que entrenar mucho.\l"
-.string "Y deben de aprender los distintos\l"
-.string "bailes antes de actuar.\l"
-.string "Pero si te gusta algo, todo es\l"
-.string "posible.$"
+	.string "The KIMONO GIRLS are so beautiful… But\n"
+	.string "they have to train a lot. And they must\l"
+	.string "learn the different dances before the\l"
+	.string "performance. But if you love something,\l"
+	.string "anything is possible.$"
 
 
 
@@ -160,8 +151,8 @@ release
 end
 
 Ecruteak_DanceTheater_Text_11:
-.string "¡Espectáculos como este mantienen\n"
-.string "a JOHTO viva en su esencia!$"
+	.string "Spectacles like this keep JOHTO alive in\n"
+	.string "its essence!$"
 
 
 Ecruteak_DanceTheater_Batallas::
@@ -330,8 +321,8 @@ release
 end
 
 Ecruteak_DanceTheater_Batallas_Texto_24.1:
-.string "¡¡Obtuviste una CEN.SAGRADA de\n"
-	.string "manos de CHICA KIMONO!!$"
+.string "You obtained a SACRED ASH\n"
+	.string "from the KIMONO GIRL!!$"
 
 Ecruteak_DanceTheater_Batallas_No::
 msgbox Ecruteak_DanceTheater_Batallas_Texto_36 MSGBOX_AUTOCLOSE
@@ -341,190 +332,172 @@ release
 end
 
 Ecruteak_DanceTheater_Batallas_Texto_1:
-.string "¡Oh!\n"
-	.string "¡Pero qué descaro!\l"
-	.string "Nadie sube a nuestro escenario sin\l"
-	.string "más.$"
+.string "Oh!\n"
+	.string "But how audacious! \l"
+	.string "No one steps onto our stage\l"
+	.string "with no consequences!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_2:
-.string "Si sube al escenario tendrá que\n"
-	.string "bailar con todas nosotras y\l"
-	.string "nuestros POKÉMON. ¿Tiene el valor\l"
-	.string "para hacerlo?$"
+	.string "If you step onto the stage you will\n"
+	.string "have to dance with all of us and our\l"
+	.string "POKÈMON. Do you have the courage to do\l"
+	.string "it?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_3:
 .string "...$"
 
 Ecruteak_DanceTheater_Batallas_Texto_4:
-.string "Debéis saber que nadie ha podido\n"
-	.string "seguirnos el ritmo de forma\l"
-	.string "consecutiva, ¿seréis vos el\l"
-	.string "primero?$"
+	.string "You should know that no one has been\n"
+	.string "able to match our rhythm consistently.\l"
+	.string "Will you be the first?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_5:
-.string "¡Pero qué ritmo!$"
+.string "But what a rhythm!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_6:
-.string "¿De KANTO, decís que sois?\n"
-	.string "Disfrutad de CIUDAD IRIS, pues. En\l"
-	.string "KANTO no veréis lugar así.$"
+	.string "Did you say that you are from KANTO?\n"
+	.string "Enjoy ECRUTEAK CITY, then. On KANTO\l"
+	.string "you can't see places like this.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_7:
-.string "Es mi turno, amable señor.$"
+.string "It's my turn now, kind sir.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_8:
-.string "¿Le ha fatigado mi hermana KOUME?\n"
-	.string "De buen grado le daría una\l"
-	.string "CEN.SAGRADA a su equipo, pero\l"
-	.string "tenemos por norma bailar hasta la\l"
-	.string "extenuación.$"
+	.string "Has my sister KOUME tired you out? I\n"
+	.string "would gladly give a SACRED ASH to your\l"
+	.string "team, but we have a rule to dance until\l"
+	.string "exhaustion.$"
 
 
 Ecruteak_DanceTheater_Batallas_Texto_9:
-.string "No me queda ningún POKÉMON...$"
+.string "I have no more POKÈMON left…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_10:
-.string "Sois formidable. ¿{PLAYER}?\n"
-	.string "No olvidaré su nombre.$"
+.string "You are formidable. {PLAYER}?\n"
+	.string "I won't forget your name.$"
 
 
 Ecruteak_DanceTheater_Batallas_Texto_11:
-.string "Ejem, ejem...\n"
-	.string "Me toca...$"
+.string "Cof, cof…\n"
+	.string "It is my turn…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_12:
-.string "Está ofreciendo un gran\n"
-	.string "espectáculo, ¿ve al público?\l"
-	.string "¡No es hora de bajar los brazos!$"
+	.string "You are offering a great show, can you\n"
+	.string "see the audience? It's not time to let\l"
+	.string "your arms rest!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_13:
-.string "¡Bravo! ¡Ha sido un combate\n"
-	.string "excelente!$"
+.string "Bravo!\n"
+	.string "It was a great battle!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_14:
-.string "Alguien como vos es digno de poder\n"
-	.string "entrar a TORRE CAMPANA, no hay\l"
-	.string "duda.$"
+	.string "Someone like you deserves entrance at\n"
+	.string "BELL TOWER, there is no doubt about it.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_15:
-.string "El baile aún no ha acabado.$"
+.string "The dance is not over yet.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_16:
-.string "¡Estáis exhausto!\n"
-	.string "¿Podréis otro asalto más?$"
+.string "You are so tired!\n"
+	.string "Can you stand another round?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_17:
-.string "Os admiro. Vos habéis demostrado\n"
-	.string "mucha pericia con vuestros\l"
-	.string "POKÉMON.$"
+	.string "I admire you. You have shown great skill\n"
+	.string "with your POKÉMON.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_18:
-.string "Habéis marchitado a mis POKÉMON\n"
-	.string "cual árbol otoñal de SENDA\l"
-	.string "DINDÓN...$"
+	.string "You have withered my POKÉMON like an\n"
+	.string "autumnal tree on BELLCHIME TRAIL…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_19:
-.string "Aguardad, valeroso caballero.\n"
-	.string "¡Aún os queda un último baile!$"
+.string "Wait a minute, brave gentleman.\n"
+	.string "You're left the last dance!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_20:
-.string "Después de bailar con todas mis\n"
-	.string "hermanas, más dulce será la\l"
-	.string "victoria, ¡o más amarga la\l"
-	.string "derrota!$"
+	.string "After dancing with all my sisters,\n"
+	.string "victory will be sweeter, or defeat more\l"
+	.string "bitter!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_21:
-.string "Tiene usted un talento especial.$"
+.string "You have a special talent.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_22:
-.string "¡Nos ha dejado a todas\n"
-	.string "impresionadas con su coraje y\l"
-	.string "gallardía!$"
+	.string "You have just impressed all of us all\n"
+	.string "with your courage and bravery!$"
 
 Ecruteak_DanceTheater_Batallas_Texto_23:
-.string "Venga, buen hombre, déjenos\n"
-	.string "obsequiarle con este objeto, así\l"
-	.string "podrá recuperar rápidamente a\l"
-	.string "todo su equipo POKÉMON.$"
+	.string "Come, good sir, let us present you with\n"
+	.string "this item, so you can quickly recover\l"
+	.string "your entire team of POKÉMON.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_24:
-.string "Una CENIZA SAGRADA, una vez\n"
-	.string "formaron parte del cuerpo del\l"
-	.string "LEGENDARIO HO-OH, antes de arder\l"
-	.string "en llamas para así poder resurgir\l"
-	.string "de sus cenizas. Siempre pudieron\l"
-	.string "encontrarse por toda la región de\l"
-	.string "JOHTO, aunque cada vez es más\l"
-	.string "difícil.$"
+	.string "A SACRED ASH, once part of the body of\n"
+	.string "the LEGENDARY HO-OH, before burning in\l"
+	.string "flames to rise again from its ashes.\l"
+	.string "They could always be found throughout\l"
+	.string "the region of JOHTO, although it\l"
+	.string "becomes increasingly difficult.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_25:
-.string "MIRTO: Disculpad la irrupción,\n"
-	.string "señoritas, pero quisiera hacerles\l"
-	.string "una pregunta.$"
+	.string "ALDER: I'm sorry to interrupt, ladies,\n"
+	.string "but I want to ask some questions.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_26:
-.string "Diga, caballero.$"
+.string "Do it, gentleman.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_27:
-.string "MIRTO: Tengo entendido que ustedes\n"
-	.string "tienen acceso a la TORRE CAMPANA\l"
-	.string "y al gran maestro de CIUDAD IRIS.$"
+	.string "ALDER: I had understood that you can\n"
+	.string "access at the BELL TOWER and to the\l"
+	.string "GRAND MASTER of ECRUTEAK CITY.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_28:
-.string "Así es.$"
+.string "Indeed.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_29:
-.string "MIRTO: ¿Y podrían... llevar\n"
-	.string "acompañantes dentro del lugar?$"
+	.string "ALDER: And could you… take a companion\n"
+	.string "inside that place?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_30:
-.string "Me temo que no. CIUDAD IRIS se\n"
-	.string "ciñe fielmente a su historia y\l"
-	.string "tradición. Algunas leyes y\l"
-	.string "costumbres son inamovibles.\l"
-	.string "Nosotras, como descendientes de la\l"
-	.string "familia que construyó el TEATRO DE\l"
-	.string "LA DANZA, podemos visitar la TORRE\l"
-	.string "CAMPANA, pero el privilegio de\l"
-	.string "poder llevar acompañantes solo\l"
-	.string "está reservado para el LÍDER DE\l"
-	.string "GIMNASIO de CIUDAD IRIS y el\l"
-	.string "CAMPEÓN de JOHTO-KANTO.\l"
-	.string "El resto de LÍDERES y la ÉLITE 4\l"
-	.string "puede entrar también, pero sin\l"
-	.string "llevar a acompañantes.$"
+	.string "Unfortunately, no. ECRUTEAK CITY\n"
+	.string "faithfully adheres to its history and\l"
+	.string "tradition. Some laws and customs are\l"
+	.string "unchanging. As descendants of the\l"
+	.string "family that constructed the DANCE\l"
+	.string "THEATER, we can visit BELL TOWER, but\l"
+	.string "the privilege of bringing companions is\l"
+	.string "only reserved for the GYM LEADER of\l"
+	.string "ECRUTEAK CITY and the JOHTO-KANTO\l"
+	.string "CHAMPION. The rest of the GYM LEADERS\l"
+	.string "and the ELITE 4 can enter as well, but\l"
+	.string "without bringing companions.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_31:
-.string "MIRTO: Oh, pero entonces es\n"
-	.string "imposible...\l"
-	.string "El LÍDER de CIUDAD IRIS no sale de\l"
-	.string "TORRE CAMPANA, y tengo entendido\l"
-	.string "que el actual CAMP...$"
+	.string "ALDER: Oh, so it is impossible then… The\n"
+	.string "ECRUTEAK CITY LEADER never comes out\l"
+	.string "of BELL TOWER, and I have understood\l"
+	.string "that the actual CHAMP…$"
 
 Ecruteak_DanceTheater_Batallas_Texto_32:
-.string "MIRTO: ¿¡Tú eres el verdadero\n"
-	.string "CAMPEÓN!?$"
+	.string "ALDER: You are the real CHAMPION!!?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_33:
-.string "MIRTO: No puede ser cierto. En ese\n"
-	.string "caso, ¿estarías dispuesto a\l"
-	.string "ayudarme y convencer a los\l"
-	.string "PENSADORES del lugar?$"
+	.string "ALDER: This can't be true. In that case,\n"
+	.string "would you help me and try to convince\l"
+	.string "the SAGES of that place?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_34:
-.string "MIRTO: No tengo palabras de\n"
-	.string "agradecimiento, de verdad {PLAYER}.\l"
-	.string "No olvidaré esto.$"
+	.string "ALDER: I have no words of gratitude,\n"
+	.string "truly {PLAYER}. I won't forget this.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_35:
-.string "MIRTO: Te espero en el acceso a\n"
-	.string "SENDA DINDÓN, entonces. Gracias por\l"
-	.string "su atención, señoritas.$"
+	.string "ALDER: I will be waiting for you at the\n"
+	.string "BELLCHIME TRAIL access, then. Thanks\l"
+	.string "for your attention, ladies.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_36:
-.string "Le entendemos, pues la mayoría\n"
-	.string "prefiere ser espectador antes que\l"
-	.string "protagonista, tenga un buen día.$"
+	.string "We understand, as most people prefer to\n"
+	.string "be spectators rather than\l"
+	.string "protagonists. Have a good day.$"
 
 Ecruteak_DanceTheater_Batallas_Move_1:
 walk_in_place_up

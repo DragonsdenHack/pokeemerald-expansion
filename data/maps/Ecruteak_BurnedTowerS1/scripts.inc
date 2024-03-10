@@ -309,12 +309,11 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_20:
 	.string "I will let you know.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_21:
-.string "No se hable más.\n"
-	.string "¡TORRE QUEMADA sigue en pie, y la\l"
-	.string "energía de las 3 bestias errantes,\l"
-	.string "que puedo percibir en esta sala,\l"
-	.string "intacta!\l"
-	.string "Volvamos a TORRE CAMPANA.$"
+	.string "No more talk. BURNED TOWER still stands,\n"
+	.string "and the energy of the 3 wandering\l"
+	.string "beasts, which I can perceive in this\l"
+	.string "room, remains intact! Let's go back to\l"
+	.string "BELL TOWER.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Move_1:
 walk_in_place_up
