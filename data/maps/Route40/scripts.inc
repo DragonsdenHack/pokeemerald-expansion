@@ -19,11 +19,10 @@ release
 end
 
 Route40_Text_3:
-.string "A esta zona se la está comiendo la\n"
-.string "marea poco a poco, debo averiguar\l"
-.string "el misterio de estas rocas antes\l"
-.string "de que el mar se las trague para\l"
-.string "siempre.$"
+	.string "This area is being eaten away by the\n"
+	.string "tide little by little. I must uncover the\l"
+	.string "mystery of these rocks before the sea\l"
+	.string "swallows them forever.$"
 
 
 
@@ -64,10 +63,10 @@ release
 end
 
 Route40_Text_10:
-.string "Aquí ya no pican ni la mitad de\n"
-.string "piezas que hace 10 años, ¡voy a\l"
-.string "tener que irme a ISLAS REMOLINO a\l"
-.string "pillar algo!$"
+	.string "Here, I don't catch even half the\n"
+	.string "number of pieces than I did 10 years\l"
+	.string "ago. I'll have to head to WHIRL ISLANDS\l"
+	.string "to catch something!$"
 
 
 
@@ -79,9 +78,8 @@ release
 end
 
 Route40_Text_11:
-.string "Hicimos bien en venir aquí, me lo\n"
-.string "estoy pasando mejor que en CABO\l"
-.string "CELESTE…$"
+	.string "We did well to come here, I'm having a\n"
+	.string "better time than in CERULEAN CAPE…$"
 
 
 
@@ -93,7 +91,7 @@ release
 end
 
 Route40_Text_12:
-.string "Qué atardecer más bonito…$"
+.string "What a beautiful sunset…$"
 
 
 

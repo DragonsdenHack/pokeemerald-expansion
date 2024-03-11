@@ -27,11 +27,11 @@ release
 end
 
 Cianwood_PkmnCenter_Text_2:
-.string "La vida del marinero es dura, pero\n"
-.string "también lo es para sus mujeres, no\l"
-.string "dejamos de otear el horizonte cada\l"
-.string "mañana, esperando el regreso de\l"
-.string "nuestros maridos.$"
+	.string "The life of a sailor is hard, but it's\n"
+	.string "also difficult for their wives; we\l"
+	.string "constantly scan the horizon each\l"
+	.string "morning, longing for the return of our\l"
+	.string "husbands.$"
 
 
 
@@ -43,10 +43,10 @@ release
 end
 
 Cianwood_PkmnCenter_Text_3:
-.string "Los TIPO LUCHA de ANÍBAL son\n"
-.string "terriblemente fuertes, ¿puedes\l"
-.string "creerte que un MACHAMP a altísimo\l"
-.string "nivel es su POKÉMON más débil?$"
+	.string "CHUCK's FIGHTING TYPE POKÉMON are\n"
+	.string "incredibly strong; can you believe that\l"
+	.string "a high-level MACHAMP is his weakest\l"
+	.string "Pokémon?$"
 
 
 
@@ -58,7 +58,7 @@ release
 end
 
 Cianwood_PkmnCenter_Text_4:
-.string "ISLAS REMOLINO siempre fueron un\n"
-.string "misterio, dicen que todo cambió en\l"
-.string "ellas el día del incendio de TORRE\l"
-.string "LATÓN.$"
+	.string "The WHIRL ISLANDS have always been a\n"
+	.string "mystery; they say everything changed\l"
+	.string "there on the day of the BRASS TOWER\l"
+	.string "burn.$"

@@ -36,11 +36,11 @@ msgbox Route52MazeDocumento_Text_100, MSGBOX_SIGN
 end
 
 Route52MazeDocumento_Text_100:
-.string "TÉCNICAS AVANZADAS DE MANIPULACIÓN\n"
-	.string "DE LOS MERCADOS FINANCIEROS\l"
+.string "ADVANCED FINANCIAL MARKET\n"
+	.string "MANIPULATION TECHNIQUES.\l"
 	.string "...\l"
 	.string "...\l"
-	.string "¡Tiene más de 700 páginas!$"
+	.string "It's over 700 pages long!$"
 
 Route52_Maze_Combate_1::
 compare VAR_UNUSED_0x4091, 2
@@ -123,32 +123,29 @@ Route52_Maze_Combate_1_Texto_1:
 	.string "...$"
 
 Route52_Maze_Combate_1_Texto_2:
-.string "Este ordenador es un tanto\n"
-	.string "extraño...$"
+	.string "This PC is kinda suspicious…$"
 
 Route52_Maze_Combate_1_Texto_3:
-.string "¡Eh, tú!\n"
-	.string "¿Se puede saber qué haces?$"
+.string "Hey, you!\n"
+	.string "What the hell are you doing?$"
 
 Route52_Maze_Combate_1_Texto_4:
-.string "Ese ordenador tiene\n"
-	.string "información privada muy\l"
-	.string "importante, ¡ni se te ocurra\l"
-	.string "tocarlo!$"
+	.string "That PC has very important private\n"
+	.string "information, do not even try to touch\l"
+	.string "it!$"
 
 Route52_Maze_Combate_1_Texto_5:
-.string "Maldición, han descubierto la\n"
-	.string "tapadera.$"
+	.string "Oh hell, you have discovered the ruse!$"
 
 Route52_Maze_Combate_1_Texto_6:
-.string "Atente a las consecuencias si\n"
-	.string "decides tocar ese ordenador, estás\l"
-	.string "avisado.$"
+	.string "Beware of the consequences if you\n"
+	.string "decide to touch that computer, you've\l"
+	.string "been warned.$"
 
 Route52_Maze_Combate_1_Texto_7:
-.string "Hay una función llamada -revertir\n"
-	.string "flecha-.\l"
-	.string "¿La pulso?$"
+.string "There is a function named\n"
+	.string "-reverse arrow-.\l"
+	.string "Do I push it?$"
 
 Route52_Maze_Cientifico_1::
 lock
@@ -172,27 +169,25 @@ release
 end
 
 Route52_Maze_Cientifico_1_Texto_1:
-.string "¿Quién eres tú, cómo has llegado\n"
-	.string "hasta aquí?\l"
-	.string "Este lugar era un importante\l"
-	.string "centro de investigaciones, pero se\l"
-	.string "cerró hace mucho, solo he venido a\l"
-	.string "recuperar unos documentos.\l"
-	.string "Deberías de volver por donde has\l"
-	.string "venido, aquí no hay nada\l"
-	.string "interesante.$"
+	.string "Who are you, and how did you get here?\n"
+	.string "This place used to be an important\l"
+	.string "research center, but it closed down a\l"
+	.string "long time ago. I've only come to\l"
+	.string "retrieve some documents. You should go\l"
+	.string "back the way you came; there's nothing\l"
+	.string "interesting here.$"
 
 Route52_Maze_Cientifico_1_Texto_2:
-.string "Aquí no rendimos cuentas a nadie,\n"
-	.string "para eso montamos el almacén en\l"
-	.string "medio de la nada, no hay nada\l"
-	.string "mejor que operar sin que nadie te\l"
-	.string "moleste.$"
+	.string "We don't owe anyone any explanations\n"
+	.string "here; that's why we set up the\l"
+	.string "warehouse in the middle of nowhere.\l"
+	.string "There's nothing better than operating\l"
+	.string "without interference.$"
 
 Route52_Maze_Cientifico_1_Texto_3:
-.string "Desde aquí podemos ver el FARO\n"
-	.string "OLIVO, ¡pero el FARO OLIVO a\l"
-	.string "nosotros no!$"
+	.string "We can see the OLIVINE LIGHTHOUSE\n"
+	.string "from here, but the OLIVINE LIGHTHOUSE\l"
+	.string "cant see us!$"
 
 Route52_Maze_Combate_2::
 playse SE_PIN
@@ -214,16 +209,15 @@ release
 end
 
 Route52_Maze_Combate_2_Texto_1:
-.string "¿Quién eres tú?\n"
-	.string "¿Te han contratado a ti también?$"
+.string "Who are you?\n"
+	.string "Did you also get hired?$"
 
 Route52_Maze_Combate_2_Texto_2:
-.string "En ese caso, no puedo dejar que\n"
-	.string "sigas avanzando.$"
+	.string "So, I can't let you go any further.$"
 
 Route52_Maze_Combate_2_Texto_3:
-.string "No vas a echar a perder este\n"
-	.string "negocio.$"
+.string "You're not going to mess\n"
+	.string "up this business.$"
 
 Route52_Maze_Combate_2_Move_1:
 emote_exclamation_mark
@@ -259,22 +253,18 @@ release
 end
 
 Route52_Maze_Segundo_Cientifico_Texto_1:
-.string "¿Cómo?\n"
-	.string "¿Por qué estamos en medio de la\l"
-	.string "nada?\l"
-	.string "No te confundas, no estamos\l"
-	.string "huyendo de la justicia ni nada\l"
-	.string "parecido, es solo que nos gustan\l"
-	.string "los lugares exóticos, sí, eso es.$"
+	.string "What? Why are we in the middle of\n"
+	.string "nowhere? Don't misunderstand, we're not\l"
+	.string "fleeing from justice or anything like\l"
+	.string "that; it's just that we enjoy exotic\l"
+	.string "places, yeah, that's all, yeah.$"
 
 Route52_Maze_Segundo_Cientifico_Texto_2:
-.string "¿Cómo?\n"
-	.string "¿Por qué estamos en medio de la\l"
-	.string "nada?\l"
-	.string "No te confundas, no estamos\l"
-	.string "huyendo de la justicia ni nada\l"
-	.string "parecido, es solo que nos gustan\l"
-	.string "los lugares exóticos, sí, eso es.$"
+	.string "What? Why are we in the middle of\n"
+	.string "nowhere? Don't misunderstand, we're not\l"
+	.string "fleeing from justice or anything like\l"
+	.string "that; it's just that we enjoy exotic\l"
+	.string "places, yeah, that's all, yeah.$"
 
 
 
@@ -293,16 +283,15 @@ release
 end
 
 Route52_Maze_Trabajador_Texto_1:
-.string "Hice bien en desertar de la MARINA\n"
-	.string "de OLIVO.\l"
-	.string "¡Aquí gano el doble, aunque acabo\l"
-	.string "molido de tanto descargar cajas!$"
+	.string "I made the right choice by deserting\n"
+	.string "from the OLIVINE MARINE. Here, I earn\l"
+	.string "twice as much, although I end up worn\l"
+	.string "out from unloading boxes!$"
 
 Route52_Maze_Trabajador_Texto_2:
-.string "A este paso voy a ponerme más\n"
-	.string "fuerte que un MACHOKE, este\l"
-	.string "almacén ya no da a basto para toda\l"
-	.string "nuestra demanda.$"
+	.string "At this rate, I'm going to get stronger\n"
+	.string "than a MACHOKE. This warehouse can't\l"
+	.string "keep up with all our demand anymore.$"
 
 Route52_Maze_Electricista::
 lock
@@ -319,10 +308,9 @@ release
 end
 
 Route52_Maze_Electricista_Texto_1:
-.string "Cuantas menos preguntas hagas aquí\n"
-	.string "mejor, yo lo único que sé es que\l"
-	.string "me pagan bien.$"
+	.string "The lesser questions you do; the\n"
+	.string "better, I just know that I am well-paid\l"
+	.string "here.$"
 
 Route52_Maze_Electricista_Texto_2:
-.string "Entonces, ¿formas ya parte de\n"
-	.string "nuestro club?$"
+	.string "So, are you part of our club now?$"

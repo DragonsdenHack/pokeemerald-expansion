@@ -9,12 +9,12 @@ release
 end
 
 OlivineBoat4_Text_1:
-.string "Recuerda, {PLAYER}, apenas asomamos\n"
-.string "a ver la punta del iceberg en\l"
-.string "cuanto a misterios del MUNDO\l"
-.string "POKÉMON se refiere. Quizás tu\l"
-.string "paso por JOHTO nos permita ver un\l"
-.string "poco más de ese iceberg.$"
+	.string "Remember, {PLAYER}, we've only just\n"
+	.string "scratched the surface when it comes to\l"
+	.string "mysteries of the POKÉMON WORLD.\l"
+	.string "Perhaps your journey through JOHTO will\l"
+	.string "allow us to see a bit more of that\l"
+	.string "iceberg.$"
 
 Olivine_Boat4_Combate_Capitan::
 lock
@@ -56,96 +56,87 @@ release
 end
 
 Olivine_Boat4_Combate_Capitan_Texto_11.1:
-.string "¡¡Obtuviste un CRUZACORRIENTES\n"
-	.string "de manos de CAPITÁN!!$"
+.string "You obtained a WHIRLWIND PASSER\n"
+	.string "from the CAPTAIN!!$"
 
 Olivine_Boat4_Combate_Capitan_Texto_1:
-.string "CAPITÁN: Debo admitir, {PLAYER},\n"
-	.string "que me equivoqué contigo y con tu\l"
-	.string "organización.$"
+	.string "CAPTAIN: I must admit, {PLAYER},\n"
+	.string "maybe I was wrong about you and your\l"
+	.string "organization.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_2:
-.string "El LT.SURGE me habló de vosotros,\n"
-	.string "y no tuvo palabras muy agradables\l"
-	.string "hacia el TEAM ROCKET. Me advirtió\l"
-	.string "acerca de unos ladrones de la peor\l"
-	.string "calaña, la vergüenza de KANTO\l"
-	.string "según él.$"
+	.string "LT. SURGE told me about you all, and he\n"
+	.string "didn't have very kind words for TEAM\l"
+	.string "ROCKET. He warned me about some of the\l"
+	.string "worst thieves, the shame of KANTO,\l"
+	.string "according to him.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_3:
-.string "Así lo creí yo también, hasta que\n"
-	.string "GIOVANNI en persona, vuestro\l"
-	.string "LÍDER, me contactó poco después de\l"
-	.string "todo el lío de la LIGA POKÉMON,\l"
-	.string "haciéndome saber, tal como dijo tu\l"
-	.string "compañera, la función de esa\l"
-	.string "misteriosa piedra: no era más que\l"
-	.string "una parte de ese POKÉMON que se\l"
-	.string "hace llamar DEOXYS. Con un ADN\l"
-	.string "imposible de replicar y unos\l"
-	.string "poderes PSÍQUICOS sin igual. Quedé\l"
-	.string "de piedra cuando me envió sus\l"
-	.string "datos al completo.$"
+	.string "That's what I thought too, until\n"
+	.string "GIOVANNI himself, your LEADER,\l"
+	.string "contacted me shortly after all the\l"
+	.string "commotion of the POKÉMON LEAGUE,\l"
+	.string "letting me know, just as your colleague\l"
+	.string "said, the purpose of that mysterious\l"
+	.string "stone: it was nothing more than a part\l"
+	.string "of that POKÉMON called DEOXYS. With a\l"
+	.string "DNA impossible to replicate and\l"
+	.string "unmatched PSYCHIC powers. I was\l"
+	.string "stunned when he sent me its complete\l"
+	.string "data.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_4:
-.string "Pero no solo eso, también me habló\n"
-	.string "de las MEGAPIEDRAS, y de algunos\l"
-	.string "PSEUDOLEGENDARIOS que\l"
-	.string "podían beneficiarse de ellas,\l"
-	.string "llegando a los, hasta hace nada,\l"
-	.string "imposibles 700 de BASE.$"
+	.string "But that's not all, he also told me about\n"
+	.string "the MEGA STONES, and some\l"
+	.string "PSEUDO-LEGENDARIES that could\l"
+	.string "benefit from them, reaching the, until\l"
+	.string "recently, impossible 700 BASE.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_5:
-.string "Después de todo lo ocurrido, me ha\n"
-	.string "quedado claro que el TEAM ROCKET\l"
-	.string "sabe devolver un favor con creces.\l"
-	.string "Sabed que tenéis aquí un amigo y\l"
-	.string "aliado para todo lo que\l"
-	.string "necesitéis.$"
+	.string "After everything that's happened, it's\n"
+	.string "clear to me that TEAM ROCKET knows how\l"
+	.string "to repay a favor and by a far way\l"
+	.string "better. Know that you have a friend and\l"
+	.string "ally here for whatever you may need.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_6:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Boat4_Combate_Capitan_Texto_7:
-.string "Y una cosa más.$"
+.string "And a last thing.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_8:
-.string "Aún recuerdo nuestro combate,\n"
-	.string "únicamente te libraste porque no\l"
-	.string "traje mis mejores POKÉMON a KANTO.\l"
-	.string "¿Quieres ver PSEUDOLEGENDARIOS de\l"
-	.string "verdad?\l"
-	.string "¡Observa!$"
+	.string "I still remember our battle; you only\n"
+	.string "got away because I didn't bring my best\l"
+	.string "POKÉMON to KANTO. Want to see some real\l"
+	.string "PSEUDO-LEGENDARIES? Watch this!$"
 
 Olivine_Boat4_Combate_Capitan_Texto_9:
-.string "¿Perdí de nuevo?$"
+.string "Did I lose again?$"
 
 Olivine_Boat4_Combate_Capitan_Texto_10:
-.string "¡Jah!\n"
-	.string "Tal como suponía, tu equipo no\l"
-	.string "tiene nada que ver con el SS.ANNE,\l"
-	.string "allí ya apuntabas maneras, pero\l"
-	.string "desde ese entonces se nota que te\l"
-	.string "has curtido a base de bien.\l"
-	.string "Toma, esto es para ti.$"
+.string "Hah!\n"
+	.string "Just as I thought, your team is nothing\l"
+	.string "like the one on the S.S. ANNE; you\l"
+	.string "showed potential there, but it's\l"
+	.string "evident you've really toughened up\l"
+	.string "since then. Here, this is for you.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_11:
-.string "Con este aparato tus POKÉMON\n"
-	.string "podrán atravesar determinadas\l"
-	.string "corrientes, como las de las ISLAS\l"
-	.string "REMOLINO, sin problemas. Funciona\l"
-	.string "igual que TORBELLINO, pero sin\l"
-	.string "necesidad de enseñar el\l"
-	.string "movimiento.$"
+	.string "With this device, your POKÉMON will be\n"
+	.string "able to navigate certain currents, like\l"
+	.string "the ones in WHIRL ISLANDS, without any\l"
+	.string "issues. It works just like WHIRLPOOL,\l"
+	.string "but without the need to teach the move.$"
 
 Olivine_Boat4_Combate_Capitan_Texto_12:
-.string "Un placer verte de nuevo,\n"
-	.string "{PLAYER}, y recuerda: aún estamos\l"
-	.string "en la punta del iceberg respecto a\l"
-	.string "todos los misterios que rodean al\l"
-	.string "mundo POKÉMON. Tal vez, tu paso por\l"
-	.string "JOHTO contribuya a seguir\l"
-	.string "descubriéndolo.$"
+	.string "It is a pleasure to see you again,\n"
+	.string "{PLAYER}, and keep this in your mind:\l"
+	.string "we're still just scratching the surface\l"
+	.string "when it comes to all the mysteries\l"
+	.string "surrounding the POKÉMON world. Perhaps\l"
+	.string "your journey through JOHTO will\l"
+	.string "contribute to further uncovering it.$"
 
 Olivine_Boat4_Combate_Capitan_Move_1:
 walk_up

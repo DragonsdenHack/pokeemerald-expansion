@@ -9,19 +9,17 @@ release
 end
 
 Cianwood_House1_Text_1:
-.string "Conozco bien a ANÍBAL, desde joven\n"
-.string "hizo la promesa de ser uno más\l"
-.string "para con su equipo POKÉMON, algo\l"
-.string "que ha cumplido de forma\l"
-.string "inquebrantable hasta ahora.\l"
-.string "Sorprendentemente, ha logrado\l"
-.string "extender su plenitud física hasta\l"
-.string "bien entrada la cuarentena, pero\l"
-.string "el tiempo alcanza a todos antes o\l"
-.string "después…\l"
-.string "Ahora ha pasado los 50 años,\l"
-.string "deberá de tomar una decisión\l"
-.string "respecto a sus fieles POKÉMON.$"
+	.string "I know CHUCK well; since he was young,\n"
+	.string "he made a promise to always be one with\l"
+	.string "his POKÉMON team, something he has\l"
+	.string "steadfastly upheld until now.\l"
+	.string "Surprisingly, he has managed to\l"
+	.string "maintain his physical peak well into his\l"
+	.string "forties, but time catches up with\l"
+	.string "everyone sooner or later… Now that he's\l"
+	.string "passed 50 years old, he'll have to make\l"
+	.string "a decision regarding his faithful\l"
+	.string "POKÉMON.$"
 
 
 
@@ -33,16 +31,14 @@ release
 end
 
 Cianwood_House1_Text_2:
-.string "Una de las 3 bestias errantes\n"
-.string "bendijo a esta ciudad con los\l"
-.string "frutos del mar. Hacía más de un\l"
-.string "lustro que no avistaba al señor de\l"
-.string "los vientos del norte, hasta que\l"
-.string "por fin, una buena mañana, días\l"
-.string "después de todo el revuelo que se\l"
-.string "armó en la LIGA POKÉMON, pude\l"
-.string "verlo regresar a su amada CIUDAD\l"
-.string "ORQUÍDEA.$"
+	.string "One of the three roaming beasts\n"
+	.string "blessed this city with the fruits of the\l"
+	.string "sea. It had been over half a decade\l"
+	.string "since I last spotted the lord of the\l"
+	.string "northern winds until finally, one fine\l"
+	.string "morning, days after all the commotion\l"
+	.string "at the POKÉMON LEAGUE, I saw him return\l"
+	.string "to his beloved CIANWOOD CITY.$"
 
 
 
@@ -54,8 +50,7 @@ release
 end
 
 Cianwood_House1_Text_3:
-.string "Mis abuelos saben tanto acerca de\n"
-.string "esta ciudad y de JOHTO... Será\l"
-.string "una pena todo el conocimiento que\l"
-.string "se perderá para siempre cuando ya\l"
-.string "no estén.$"
+	.string "My grandparents know so much about\n"
+	.string "this city and JOHTO… It will be a shame\l"
+	.string "to lose all that knowledge forever when\l"
+	.string "they're gone.$"

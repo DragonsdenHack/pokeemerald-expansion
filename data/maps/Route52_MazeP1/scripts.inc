@@ -14,9 +14,8 @@ release
 end
 
 Route52_MazeP1_Text_2:
-.string "¿Ves que si cada uno pone un poco\n"
-.string "de su parte, todos podemos llegar a\l"
-.string "un acuerdo?$"
+	.string "See, if everyone contributes a little,\n"
+	.string "we can all reach an agreement, right?$"
 
 
 
@@ -33,9 +32,8 @@ release
 end
 
 Route52_MazeP1_Text_4:
-.string "¿Ves que si cada uno pone un poco\n"
-.string "de su parte, todos podemos llegar a\l"
-.string "un acuerdo?$"
+	.string "See, if everyone contributes a little,\n"
+	.string "we can all reach an agreement, right?$"
 
 
 
@@ -72,9 +70,8 @@ release
 end
 
 Route52_MazeP1_Text_12:
-.string "¿Ves que si cada uno pone un poco\n"
-.string "de su parte, todos podemos llegar a\l"
-.string "un acuerdo?$"
+	.string "See, if everyone contributes a little,\n"
+	.string "we can all reach an agreement, right?$"
 
 Route52_MazeP1_Combate_Ladron::
 applymovement OBJ_EVENT_ID_PLAYER, Route52_MazeP1_Combate_Ladron_Move_1
@@ -110,44 +107,39 @@ release
 end
 
 Route52_MazeP1_Combate_Ladron_Texto_1:
-.string "Estos programas siempre son lo\n"
-	.string "mismo, creo que me meteré un rato\l"
-	.string "en la piscina.$"
+	.string "These programs are always the same. I\n"
+	.string "reckon I'll spend some time in the pool..$"
 
 Route52_MazeP1_Combate_Ladron_Texto_2:
-.string "¡¿Pero qué?!\n"
-	.string "¿Quién eres tú?$"
+.string "But what?!\n"
+	.string "Who are you?$"
 
 Route52_MazeP1_Combate_Ladron_Texto_3:
-.string "¡Espera!\n"
-	.string "Eres ese ROCKET, ¿verdad?, el que\l"
-	.string "quiso detenernos justo antes de\l"
-	.string "mudarnos a JOHTO, parece que has\l"
-	.string "cambiado mucho desde ese entonces,\l"
-	.string "pero nosotros también.$"
+.string "Hold on!\n"
+	.string "You that ROCKET, right? the one who\l"
+	.string "tried to stop us just before we moved\l"
+	.string "onto JOHTO, seems like you are very\l"
+	.string "different since then, but we also are\l"
+	.string "not the same.$"
 
 Route52_MazeP1_Combate_Ladron_Texto_4:
-.string "Esta vez no podrás escapar, varios\n"
-	.string "de los científicos que hemos\l"
-	.string "contratado han logrado desarrollar\l"
-	.string "una tecnología que aumenta el\l"
-	.string "poder de los POKÉMON, ¡ahora\l"
-	.string "pagarás por lo que hiciste en\l"
-	.string "KANTO!$"
+	.string "You won't escape this time. Several of\n"
+	.string "the scientists we've hired have\l"
+	.string "succeeded in developing technology\l"
+	.string "that boosts the power of POKÉMON. Now\l"
+	.string "you'll pay for what you did in KANTO!$"
 
 Route52_MazeP1_Combate_Ladron_Texto_5:
-.string "¿¡Otra vez!?$"
+.string "Once again!?$"
 
 Route52_MazeP1_Combate_Ladron_Texto_6:
-.string "Maldición...\n"
-	.string "Debí haber esperado a mis socios\l"
-	.string "para atacar todos a la vez, pero\l"
-	.string "con ellos dos es más que\l"
-	.string "suficiente.$"
+.string "Crap…\n"
+	.string "I should have waited for my partners to\l"
+	.string "attack all at once, but with those two,\l"
+	.string "it's more than enough.$"
 
 Route52_MazeP1_Combate_Ladron_Texto_7:
-.string "Esta vez no nos tumbarás el\n"
-	.string "negocio.$"
+	.string "You won't ruin the business this time.$"
 
 Route52_MazeP1_Combate_Ladron_Move_1:
 walk_in_place_right
@@ -299,137 +291,119 @@ end
 
 
 Route52_MazeP1_Combates_Finales_Texto_1:
-.string "Así que ADMIN.JEFE {PLAYER}, ¿no?$"
+.string "So, CHIEF ADMIN. {PLAYER}, aren't you?$"
 
 Route52_MazeP1_Combates_Finales_Texto_2:
-.string "Vamos pasa, después de todo los\n"
-	.string "dos somos hombres de negocios, no\l"
-	.string "me guardas rencor por esos 500\l"
-	.string "pokés que te estafé ahora que\l"
-	.string "tienes millones, ¿verdad?$"
+	.string "Come in. After all, we're both\n"
+	.string "businessmen. You don't hold a grudge\l"
+	.string "against me for those 500 POKÉ I\l"
+	.string "swindled you out of, now that you have\l"
+	.string "millions, right?$"
 
 Route52_MazeP1_Combates_Finales_Texto_3:
-.string "Debo darte las gracias {PLAYER},\n"
-	.string "sin todos los esfuerzos del TEAM\l"
-	.string "ROCKET por modernizar JOHTO en\l"
-	.string "estos últimos meses, nunca\l"
-	.string "hubiéramos llegado a tener tanto\l"
-	.string "éxito, no te imaginas la cantidad\l"
-	.string "de POKÉMON raros que hemos vendido\l"
-	.string "a esos EJECUTIVOS de TRIGAL.$"
+	.string "I must thank you, {PLAYER}, without\n"
+	.string "all the efforts of TEAM ROCKET to\l"
+	.string "modernize JOHTO in these past months,\l"
+	.string "we would have never achieved such\l"
+	.string "success. You can't imagine the number\l"
+	.string "of rare POKÉMON we've sold to those\l"
+	.string "EXECUTIVES in GOLDENROD.$"
 
 Route52_MazeP1_Combates_Finales_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route52_MazeP1_Combates_Finales_Texto_5:
-.string "¿Cómo sé que el TEAM ROCKET está\n"
-	.string "detrás de todo?\l"
-	.string "Yo también tengo mis contactos, y\l"
-	.string "también contrato a científicos que\l"
-	.string "trabajaron para vosotros, varios\l"
-	.string "de ellos nos han introducido en la\l"
-	.string "MEGA-EVOLUCIÓN.\l"
-	.string "Cuando tienes dinero, puedes\l"
-	.string "comprar cualquier cosa, ¿no es así\l"
-	.string "{PLAYER}?$"
+	.string "How do I know that the TEAM ROCKET is\n"
+	.string "behind everything? I have my own\l"
+	.string "connections, and I also hire scientists\l"
+	.string "who worked for you. Several of them\l"
+	.string "have introduced us to MEGA EVOLUTION.\l"
+	.string "When you have money, you can buy\l"
+	.string "anything, isn't that right, {PLAYER}?$"
 
 Route52_MazeP1_Combates_Finales_Texto_6:
-.string "Ahora es cuando ambos hacemos las\n"
-	.string "paces, a los dos nos va bien\l"
-	.string "{PLAYER}, no hay necesidad de\l"
-	.string "confrontar nuestros intereses, ¿no\l"
-	.string "crees?$"
+	.string "Now is when we both make peace,\n"
+	.string "{PLAYER}. It's beneficial for both of\l"
+	.string "us, there's no need to confront our\l"
+	.string "interests, don't you think so?$"
 
 Route52_MazeP1_Combates_Finales_Texto_7:
-.string "¿No negocias con estafadores?\n"
-	.string "¿Por quién nos tomas?\l"
-	.string "¡Ahora aprenderas modales, no\l"
-	.string "sigues siendo más que un vulgar\l"
-	.string "ROCKET por mucho que vayas\l"
-	.string "trajeado!$"
+	.string "Don't you negotiate with scammers? Who\n"
+	.string "do you think we are? Now you'll learn\l"
+	.string "some manners; you're still nothing but a\l"
+	.string "common ROCKET no matter how well\l"
+	.string "dressed you are!$"
 
 Route52_MazeP1_Combates_Finales_Texto_8:
-.string "Respuesta equivocada, {PLAYER}.\n"
-	.string "Ahora accederás a nuestras\l"
-	.string "condiciones por las malas.$"
+	.string "Wrong answer, {PLAYER}. Now you'll\n"
+	.string "agree to our terms the hard way.$"
 
 Route52_MazeP1_Combates_Finales_Texto_9:
-.string "Esto entraba en nuestros planes.$"
+.string "We already considered this could happen.$"
 
 Route52_MazeP1_Combates_Finales_Texto_10:
-.string "Muy bien {PLAYER}, veo que no has\n"
-	.string "perdido facultades, pero hemos\l"
-	.string "sido nosotros los que más han\l"
-	.string "mejorado, aunque sea a puro golpe\l"
-	.string "de talonario.$"
+	.string "Well done, {PLAYER}. I see you haven't\n"
+	.string "lost your skills, but it's us who have\l"
+	.string "improved the most, even if it's just by\l"
+	.string "throwing money around.$"
 
 Route52_MazeP1_Combates_Finales_Texto_11:
-.string "Ahora llegó la hora de verdad, te\n"
-	.string "ofrecí educadamente negociar\l"
-	.string "condiciones para la convivencia de\l"
-	.string "nuestras dos empresas.\l"
-	.string "¡Ahora por negarte aceptarás\l"
-	.string "cualquier condición después de\l"
-	.string "acabar con tu equipo!$"
+	.string "It's time for the truth. I politely\n"
+	.string "offered to negotiate terms for the\l"
+	.string "coexistence of our two companies. By\l"
+	.string "refusing, you'll now accept any\l"
+	.string "condition after I'm done with your\l"
+	.string "team!$"
 
 Route52_MazeP1_Combates_Finales_Texto_12:
-.string "¿Cómo es posible?\n"
-	.string "¿¡Puedes seguir derrotándonos a la\l"
-	.string "vez?!$"
+	.string "How is this possible? You can still\n"
+	.string "defeat us all at once?!$"
 
 Route52_MazeP1_Combates_Finales_Texto_13:
-.string "¡NO!$"
+.string "NO!$"
 
 Route52_MazeP1_Combates_Finales_Texto_14:
-.string "Nos ha costado millones reproducir\n"
-	.string "la MEGA-EVOLUCIÓN, ¿cómo no es\l"
-	.string "suficiente para tumbarte después\l"
-	.string "de 2 combates?$"
+	.string "It has cost us millions to replicate\n"
+	.string "MEGA EVOLUTION, how is it not enough to\l"
+	.string "knock you down after 2 battles?$"
 
 Route52_MazeP1_Combates_Finales_Texto_15:
-.string "Muy bien {PLAYER}, tú ganas.$"
+.string "Okay {PLAYER}, you win.$"
 
 Route52_MazeP1_Combates_Finales_Texto_16:
-.string "Entiendo que el TEAM ROCKET quiera\n"
-	.string "tener el monopolio y control\l"
-	.string "absoluto de las dos regiones, no\l"
-	.string "me opondré, es por ello que mi\l"
-	.string "oferta es la siguiente: 2 MILLONES\l"
-	.string "DE POKÉS, en efectivo para ti en\l"
-	.string "este momento, y el 10% de nuestros\l"
-	.string "beneficios irán para vuestra\l"
-	.string "sucursal en JOHTO.$"
+	.string "I understand that TEAM ROCKET wants\n"
+	.string "to monopolize and have absolute\l"
+	.string "control over both regions, I won't\l"
+	.string "resist. Therefore, my offer is as\l"
+	.string "follows: 2 MILLION POKÉS, in cash for\l"
+	.string "you right now, and 10% of our profits\l"
+	.string "will go to your JOHTO branch.$"
 
 Route52_MazeP1_Combates_Finales_Texto_17:
-.string "¿Aceptas el trato?$"
+.string "Do you accept the deal?$"
 
 Route52_MazeP1_Combates_Finales_Texto_18:
-.string "¡Bien!\n"
-	.string "¿¡Ves que si cada uno pone un poco\l"
-	.string "de su parte puede llegarse a un\l"
-	.string "acuerdo?!\l"
-	.string "¡Aquí tienes!$"
+.string "Nice!\n"
+	.string "See, if each of us contributes a bit, we\l"
+	.string "can come to an agreement, right?! This\l"
+	.string "is for you!$"
 
 Route52_MazeP1_Combates_Finales_Texto_19:
-.string "¡Acabas de facturar 2 MILLONES DE\n"
-	.string "POKÉS!$"
+	.string "You've just earned 2 MILLION POKÉ!$"
 
 Route52_MazeP1_Combates_Finales_Texto_20:
-.string "Ahora, si nos disculpas, tenemos\n"
-	.string "que seguir llevando nuestro\l"
-	.string "negocio, ¿o no querrás perder\l"
-	.string "potenciales beneficios para ti\l"
-	.string "también?$"
+	.string "Now, if you excuse us, we have a\n"
+	.string "business to manage, or do you want to\l"
+	.string "forfeit potential profits for yourself\l"
+	.string "too?$"
 
 Route52_MazeP1_Combates_Finales_Texto_21:
-.string "Así que no cedes ni un ápice, ¿eh?\n"
-	.string "Está bien, nos iremos,\l"
-	.string "¡pero recuerda esto {PLAYER}!\l"
-	.string "Con tus acciones el TEAM ROCKET\l"
-	.string "acaba de ganar un enemigo, ¡me\l"
-	.string "encargaré de que todos sepan\l"
-	.string "quienes son los que manejan los\l"
-	.string "hilos desde las sombras!$"
+	.string "So you don't yield an inch, huh? Alright,\n"
+	.string "we'll leave, but remember this,\l"
+	.string "{PLAYER}! With your actions, TEAM\l"
+	.string "ROCKET has just gained an enemy. I'll\l"
+	.string "make sure everyone knows who's pulling\l"
+	.string "the strings from the shadows!$"
 
 Route52_MazeP1_Combates_Finales_Move_1:
 face_right
@@ -512,19 +486,18 @@ release
 end
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_1:
-.string "Bien...\n"
-	.string "Con esta máquina podremos seguir\l"
-	.string "lavando dinero más facilmente...$"
+.string "Okay…\n"
+	.string "With this machine, we'll be able to\l"
+	.string "continue laundering money easier…$"
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_2:
-.string "¿Quién eres tú?\n"
-	.string "Las auditorías de este lugar ya\l"
-	.string "las hago yo, no necesitamos a\l"
-	.string "nadie vestido de traje para\l"
-	.string "hacerlas.$"
+.string "Who are you?\n"
+	.string "I already handle the audits for this\l"
+	.string "place, we don't need anyone in a suit to\l"
+	.string "do them.$"
 
 Route52_MazeP1_Combate_Primer_Cientifico_Texto_3:
-.string "¡Qué desastre!$"
+.string "What a mess!$"
 
 
 Route52_MazeP1_Combate_Primer_Cientifico_Move_1:
@@ -605,18 +578,16 @@ step_end
 
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_1:
-.string "Transacción de 4 millones de pokés\n"
-	.string "por un CHARMANDER cerrada, esto va\l"
-	.string "como la seda...$"
+	.string "A 4 MILLION POKÉ transaction for a\n"
+	.string "CHARMANDER done, this goes smoothly…$"
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_2:
-.string "¿Cómo has llegado hasta aquí?\n"
-	.string "Todo el que ponga en peligro la\l"
-	.string "salud de nuestro negocio será\l"
-	.string "borrado del mapa.$"
+	.string "How did you manage to reach this point?\n"
+	.string "Anyone who threatens our business will\l"
+	.string "be erased from existence.$"
 
 Route52_MazeP1_Combate_Segundo_Cientifico_Texto_3:
-.string "¡No, espera!$"
+.string "No, wait!$"
 
 Route52_Maze_Maquina_2::
 lock
@@ -649,13 +620,12 @@ end
 
 
 Route52_Maze_Dialogo_Primer_Cientifico_Texto_1:
-.string "Solo satisfacemos de forma privada\n"
-	.string "una demanda de la población,\l"
-	.string "¿tienes algún problema con eso?$"
+	.string "We only privately satisfy a demand from\n"
+	.string "the population. Do you have a problem\l"
+	.string "with that?$"
 
 Route52_Maze_Dialogo_Primer_Cientifico_Texto_2:
-.string "Todos tienen un precio, ¡incluso\n"
-	.string "tú!$"
+	.string "Everyone has a price, even you!$"
 
 
 Route52_Maze_Dialogo_Segundo_Cientifico::
@@ -673,15 +643,14 @@ release
 end
 
 Route52_Maze_Dialogo_Segundo_Cientifico_Texto_1:
-.string "Este lugar no existe sobre el\n"
-	.string "papel, ¡pero los ingresos que\l"
-	.string "genera sí que existen!$"
+	.string "This place doesn't exist on the paper,\n"
+	.string "but the income it generates certainly\l"
+	.string "is!$"
 
 Route52_Maze_Dialogo_Segundo_Cientifico_Texto_2:
-.string "Así que ahora eres uno de nuestros\n"
-	.string "principales accionistas, supongo\l"
-	.string "entonces que ahora también trabajo\l"
-	.string "para ti.$"
+	.string "So you're now one of our primary\n"
+	.string "shareholders, I guess that means I'm\l"
+	.string "working for you as well.$"
 
 
 Route52_Maze_Dialogo_Primer_Trabajador::
@@ -699,17 +668,14 @@ release
 end
 
 Route52_Maze_Dialogo_Primer_Trabajador_Texto_1:
-.string "¡Mira todos estos POKÉMON!\n"
-	.string "¡Mi trabajo es mantenerlos en\l"
-	.string "plena forma para cuando sean\l"
-	.string "vendidos!$"
+	.string "Look at all these POKÉMON! My job is to\n"
+	.string "keep them healthy when they get sold!$"
 
 Route52_Maze_Dialogo_Primer_Trabajador_Texto_2:
-.string "El otro día vendimos a nuestro\n"
-	.string "TYRANITAR más poderoso a un tipo\l"
-	.string "que al parecer está subiendo\l"
-	.string "rápido en el TEAM ROCKET, pagó\l"
-	.string "1,25 millones de pokés por él.$"
+	.string "Recently, we sold our most powerful\n"
+	.string "TYRANITAR to someone who appears to\l"
+	.string "be quickly climbing the ranks in TEAM\l"
+	.string "ROCKET. He paid 1.25 million POKÉ for it.$"
 
 Route52_Maze_Dialogo_Segundo_Trabajador::
 lock
@@ -726,18 +692,17 @@ release
 end
 
 Route52_Maze_Dialogo_Segundo_Trabajador_Texto_1:
-.string "Si usaran un par de MACHAMP yo y\n"
-	.string "mis colegas perderíamos nuestro\l"
-	.string "trabajo aquí, pero con todos los\l"
-	.string "POKÉMON que tienen da la\l"
-	.string "casualidad de que no tienen uno.\l"
-	.string "¡Mejor para nosotros!$"
+	.string "If they used a couple of MACHAMP, me\n"
+	.string "and my colleagues would lose our jobs\l"
+	.string "here, but with all the POKÉMON they\l"
+	.string "have, it just so happens they don't\l"
+	.string "have one. Better for us!$"
 
 Route52_Maze_Dialogo_Segundo_Trabajador_Texto_2:
-.string "¿Entonces eres accionista de la\n"
-	.string "empresa?\l"
-	.string "¡Espero que no propongas invertir\l"
-	.string "en MACHAMP para la logística!$"
+	.string "So are you a shareholder of the\n"
+	.string "business now? I hope you're not\l"
+	.string "suggesting investing in MACHAMP for\l"
+	.string "logistics!$"
 
 Route52_Maze_Dialogo_Tercer_Trabajador::
 lock
@@ -756,8 +721,8 @@ end
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1:
 .string "...\n"
 	.string "...\l"
-	.string "(¡Está dormido!)$"
+	.string "(He is slept!)$"
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2:
-.string "¿De dónde sales tú?\n"
-	.string "¿Me he perdido algo?$"
+.string "Where the heck did you come from?\n"
+	.string "Did I miss something?$"

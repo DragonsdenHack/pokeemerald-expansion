@@ -9,9 +9,9 @@ release
 end
 
 CianwoodCity_House3_Text_1:
-.string "He oído que planean hacer otra\n"
-.string "ZONA SAFARI por aquí cerca,\l"
-.string "¿afectará eso a nuestra ciudad?$"
+	.string "I've heard they plan to establish\n"
+	.string "another SAFARI ZONE nearby; will that\l"
+	.string "affect our city?$"
 
 
 
@@ -23,10 +23,9 @@ release
 end
 
 CianwoodCity_House3_Text_2:
-.string "No hay nada como ORQUÍDEA,\n"
-.string "¡créeme!\l"
-.string "¡Esta ciudad está bendecida con\l"
-.string "los frutos del mar!$"
+	.string "Nothing compares to CIANWOOD, trust\n"
+	.string "me! This city is blessed with the bounty\l"
+	.string "of the sea!$"
 
 
 

@@ -118,17 +118,17 @@ release
 end
 
 Cianwood_Gym_Combate_Anibal_Texto_11.1:
-.string "¡Jah! ¡Llévate también esta MT!$"
+.string "Hah! Take this TM with you also!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11.2:
-.string "¡¡{PLAYER} obtuvo la MT65 PUNTAPIE\n"
-	.string "de manos de ANIBAL!!$"
+	.string "{PLAYER} obtained the TM65 LOW SWEEP\n"
+	.string "from CHUCK!!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11.3:
-.string "Los TIPO LUCHA no suelen tener la mejor\n"
-	.string "VELOCIDAD. Con este movimiento no solo\l"
-	.string "causarás daño, ¡también volverás\l"
-	.string "lentos a tus rivales!$"
+	.string "FIGHT- TYPE POKÉMON usually don't have\n"
+	.string "a good SPEED. With this move, not only\l"
+	.string "will you deal damage, but you'll also\l"
+	.string "slow down your opponents!$"
 
 Cianwood_Gym_Combate_Anibal_2::
 msgbox Cianwood_Gym_Combate_Anibal_Texto_12 MSGBOX_NPC
@@ -175,22 +175,20 @@ release
 end
 
 Cianwood_Gym_Combate_Anibal_3_Texto_1:
-.string "ANIBAL: ¡Ah, {PLAYER}! ¿Qué te trae\n"
-	.string "de vuelta? Si deseas volver a combatir\l"
-	.string "conmigo, me temo que ya es demasiado\l"
-	.string "tarde.$"
+	.string "CHUCK: Oh, {PLAYER}! What brings you\n"
+	.string "back? If you wish to battle with me\l"
+	.string "again, I'm afraid it's already too late.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_2:
-.string "Así es… hace unos días liberé a mis\n"
-	.string "POKÉMON, tal y como te dije en nuestra\l"
-	.string "batalla, hace ya casi 1 año…$"
+	.string "Yeah… a few days ago I freed my\n"
+	.string "POKÉMON, as I told you after our battle,\l"
+	.string "almost 1 year ago…$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_3:
-.string "En fin, cada cosa tiene su tiempo, ¿no\n"
-	.string "crees? Ahora estoy, humildemente,\l"
-	.string "criando a dos pequeños POLIWAG y\l"
-	.string "MANKEY, sin ninguna pretensión\l"
-	.string "competitiva.$"
+	.string "Well, everything has its time, don't you\n"
+	.string "think so? Now, I'm humbly raising two\l"
+	.string "little POLIWAG and MANKEY, without any\l"
+	.string "competitive aspirations.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_4:
 .string "Entonces, ¿cuál es el motivo de tu\n"

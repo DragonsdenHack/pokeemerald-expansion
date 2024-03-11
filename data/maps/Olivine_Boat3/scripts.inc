@@ -61,12 +61,11 @@ release
 end
 
 OlivineBoat3_Text_6:
-.string "Vamos, nadie conoce los POKÉMON\n"
-	.string "marinos y PSEUDOLEGENDARIOS\l"
-	.string "como ese CAPITÁN. Aunque no logré\l"
-	.string "identificar a uno de sus POKÉMON,\l"
-	.string "parecía una enorme libélula con\l"
-	.string "rasgos de dragón.$"
+	.string "Come on, nobody knows aquatic POKÉMON\n"
+	.string "and PSEUDOLEGENDARY like the CAPTAIN\l"
+	.string "does. Although I couldn't identify one\l"
+	.string "of his POKÉMON, it looked like a huge\l"
+	.string "dragonfly with dragon features.$"
 
 OlivineBoat3_7::
 lock
@@ -75,12 +74,11 @@ release
 end
 
 OlivineBoat3_7_Texto_1:
-.string "¿El PORYGON del CASINO de KANTO\n"
-	.string "vale 9999 FICHAS?\l"
-	.string "Compraremos 10 ejemplares, y de\l"
-	.string "paso un par de BICIS de esas en\l"
-	.string "CIUDAD CELESTE, he oído que son\l"
-	.string "muy exclusivas.$"
+	.string "Does the PORYGON at the KANTO GAME\n"
+	.string "CORNER cost 9999 COINS? We'll get 10 of\l"
+	.string "them, and maybe a couple of those bikes\l"
+	.string "in CERULEAN CITY, I heard they're quite\l"
+	.string "exclusive.$"
 
 
 
@@ -92,10 +90,10 @@ release
 end
 
 OlivineBoat3_Text_8:
-.string "Prefiero venir sin pareja, mi\n"
-	.string "AZUMARILL ya me hace muy buena\l"
-	.string "compañía. Al acabar la fiesta nos\l"
-	.string "daremos un buen baño en la playa.$"
+	.string "I prefer to come alone; my AZUMARILL is\n"
+	.string "already great company for me. After the\l"
+	.string "party, we'll enjoy a nice swim at the\l"
+	.string "beach.$"
 
 
 
@@ -106,10 +104,8 @@ release
 end
 
 OlivineBoat3_9_Texto_1:
-.string "Te dije que probaras el filete de\n"
-	.string "GYARADOS, el rabo de TAUROS lo\l"
-	.string "puedes tomar en cualquier otro\l"
-	.string "lugar.$"
+	.string "I told you to try the GYARADOS steak;\n"
+	.string "you can have TAUROS tail anywhere else.$"
 
 
 
@@ -120,10 +116,10 @@ release
 end
 
 OlivineBoat3_10_Texto_1:
-.string "¿Para qué quieres 10 PORYGON?\n"
-	.string "Si después no vas a entrenar ni a\l"
-	.string "uno, y tampoco sabes montar en\l"
-	.string "BICI.$"
+	.string "Why do you want 10 PORYGON if you're\n"
+	.string "not going to train any of them\l"
+	.string "afterward, and you don't even know how\l"
+	.string "to ride a bike.$"
 
 
 
@@ -135,9 +131,9 @@ release
 end
 
 OlivineBoat3_Text_12:
-.string "Ahora el FARO tendrá más trabajo\n"
-	.string "que nunca, ¿podrá nuestro AMPHAROS\l"
-	.string "aguantar tantas horas brillando?$"
+	.string "The LIGHTHOUSE will be busier than ever\n"
+	.string "now; will our AMPHAROS be able to endure\l"
+	.string "so many hours of shining?$"
 
 
 
@@ -154,9 +150,8 @@ release
 end
 
 OlivineBoat3_Text_14:
-.string "¡Este acontecimiento quedará\n"
-	.string "registrado en los libros de\l"
-	.string "historia de JOHTO!$"
+	.string "This event will be chronicled in JOHTO's\n"
+	.string "history books!$"
 
 
 
@@ -168,17 +163,13 @@ release
 end
 
 OlivineBoat3_Text_15:
-.string "Que no te engañen, los únicos\n"
-	.string "POKÉMON marinos dignos de un\l"
-	.string "ENTRENADOR GUAY como yo son\l"
-	.string "GYARADOS, KINGDRA, FERALIGATR y\l"
-	.string "BLASTOISE. El resto, calderilla\l"
-	.string "para el resto de ENTRENADORES de\l"
-	.string "clases inferiores.\l"
-	.string "...\l"
-	.string "...\l"
-	.string "¿WISHIWASHI, KYOGRE y SUICUNE?\l"
-	.string "¿¡De qué me estás hablando!?$"
+	.string "Don't get fooled; the only aquatic\n"
+	.string "POKÉMON deserving of a COOL TRAINER\l"
+	.string "like me are GYARADOS, KINGDRA,\l"
+	.string "FERALIGATR, and BLASTOISE. The rest\l"
+	.string "are just chump change for lower-class\l"
+	.string "TRAINERS. … … WISHIWASHI, KYOGRE and\l"
+	.string "SUICUNE? What are you talking about!?$"
 
 
 
@@ -190,11 +181,10 @@ release
 end
 
 OlivineBoat3_Text_16:
-.string "En el SS.ANNE servían unos\n"
-	.string "bivalvos deliciosos, ¿cómo se\l"
-	.string "llamaban?\l"
-	.string "¡CLOYSTER!\l"
-	.string "¿Aquí en JOHTO no hay?$"
+	.string "They served delicious bivalves on the\n"
+	.string "SS. ANNE, what were they called?\l"
+	.string "CLOYSTER! Are there none here in\l"
+	.string "JOHTO?$"
 
 Olivine_Boat_3_Ceremonia::
 lock
@@ -255,27 +245,24 @@ release
 end
 
 Olivine_Boat_3_Ceremonia_Texto_1:
-.string "Ya es un hecho: JOHTO acogerá\n"
-	.string "barcos de KANTO en su PUERTO, y\l"
-	.string "viceversa.\l"
-	.string "¿Puede haber mayor motivo de\l"
-	.string "celebración que la unión entre dos\l"
-	.string "regiones hermanas como KANTO y\l"
-	.string "JOHTO, que, por una desafortunada\l"
-	.string "sucesión de malentendidos e\l"
-	.string "iniciativas individuales que para\l"
-	.string "nada representaban el interés\l"
-	.string "global, acabaran en conflicto y\l"
-	.string "ahora encuentran de nuevo la paz?\l"
-	.string "¡Celebremos, pues este es solo el\l"
-	.string "primer paso, dentro de 3 años,\l"
-	.string "nadie se acordará de lo ocurrido\l"
-	.string "hace 5!\l"
-	.string "¡Viva CIUDAD OLIVO!\l"
-	.string "¡Viva la unión KANTO-JOHTO!$"
+	.string "It's official: JOHTO will welcome ships\n"
+	.string "from KANTO in its PORT, and vice versa.\l"
+	.string "Is there a greater reason for\l"
+	.string "celebration than the union between two\l"
+	.string "sister regions like KANTO and JOHTO,\l"
+	.string "which, due to an unfortunate series of\l"
+	.string "misunderstandings and individual\l"
+	.string "initiatives that didn't represent the\l"
+	.string "global interest, ended up in conflict\l"
+	.string "and now rediscovers peace? Let's\l"
+	.string "celebrate, for this is just the first\l"
+	.string "step; in 3 years, no one will remember\l"
+	.string "what happened 5 years ago! Hooray\l"
+	.string "OLIVINE CITY! Hooray the KANTO-JOHTO\l"
+	.string "union!$"
 
 Olivine_Boat_3_Ceremonia_Texto_2:
-.string "¡VIVA!$"
+.string "Hooray!$"
 
 Olivine_Boat_3_Ceremonia_Move_1:
 walk_in_place_up
@@ -360,24 +347,22 @@ Olivine_Boat3_Capitan_Texto_1:
 	.string "...$"
 
 Olivine_Boat3_Capitan_Texto_2:
-.string "¿¡No puede uno dormir tranquilo ni\n"
-	.string "en su propio barc...!?$"
+	.string "Can't a person even sleep peacefully on\n"
+	.string "their own shi…!?$"
 
 Olivine_Boat3_Capitan_Texto_3:
-.string "Pero...\n"
-	.string "¿¡Qué ven mis ojos!?\l"
-	.string "¡{PLAYER}!\l"
-	.string "¡Eres tú, valiente osado!\l"
-	.string "¿No me recuerdas?\l"
-	.string "Soy el CAPITÁN del SS.ANNE, me han\l"
-	.string "asignado ahora en este barco.$"
+.string "Huh…\n"
+	.string "What do I see!?\l"
+	.string "{PLAYER}!\l"
+	.string "It is you, brave daring!\l"
+	.string "Do you remember me?\l"
+	.string "I'm the S.S. ANNE's CAPTAIN, I got\l"
+	.string "assigned to manage this ship now.$"
 
 Olivine_Boat3_Capitan_Texto_4:
-.string "¿Por qué no te pasas por mi\n"
-	.string "camarote?\l"
-	.string "Confío en que podamos tener una\l"
-	.string "charla más amena que la última\l"
-	.string "vez.$"
+	.string "Why don't you come by my cabin? I trust\n"
+	.string "we can have a more pleasant\l"
+	.string "conversation than last time.$"
 
 Olivine_Boat3_Capitan_Move_1:
 emote_exclamation_mark

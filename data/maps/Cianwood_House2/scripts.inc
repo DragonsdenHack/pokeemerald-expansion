@@ -9,8 +9,7 @@ release
 end
 
 Cianwood_House2_Text_1:
-.string "La tranquilidad que me da este\n"
-.string "lugar no la cambio por nada.$"
+.string "The peace this place brings me is irreplaceable.$"
 
 
 
@@ -22,6 +21,6 @@ release
 end
 
 Cianwood_House2_Text_2:
-.string "¡Mira lo morena que estoy de tanto\n"
-.string "tomar el sol, a veces los STARYU\l"
-.string "hasta se pegan a mi cuerpo!$"
+	.string "Look how tan I am from soaking up the\n"
+	.string "sun; sometimes STARYU even stick to my\l"
+	.string "body!$"
