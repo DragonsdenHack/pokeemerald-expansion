@@ -8,9 +8,10 @@ release
 end
 
 OlivineBoat3_1_Texto_1:
-.string "Dicen que el CAPITÁN es el mismo\n"
-	.string "del SS.ANNE, desde ese altercado\l"
-	.string "en CARMÍN no me fío un pelo de él.$"
+	.string "Some people say that the CAPTAIN is\n"
+	.string "the same that the S.S.ANNE, since that\l"
+	.string "incident in VERMILLION I don't trust him\l"
+	.string "at all.$"
 
 
 
@@ -22,9 +23,8 @@ release
 end
 
 OlivineBoat3_2_Texto_1:
-.string "En 3 años, nadie recordará\n"
-	.string "lo ocurrido hace 5.\l"
-	.string "¡Por el futuro!$"
+	.string "In 3 years, no one will remember what\n"
+	.string "happened 5 years ago. For the future!$"
 
 
 
@@ -35,10 +35,9 @@ release
 end
 
 OlivineBoat3_3_Texto_1:
-.string "Dicen que, en una región lejana, hay\n"
-	.string "un toro aún más fuerte y\l"
-	.string "corpulento que TAUROS, pero más\l"
-	.string "lento.$"
+	.string "It's said that, in a distant region,\n"
+	.string "there's a bull even stronger and bulker\l"
+	.string "that TAUROS, but slower.$"
 
 
 OlivineBoat3_5::
@@ -49,9 +48,9 @@ release
 end
 
 OlivineBoat3_Text_5:
-.string "¡Tranquilo!\n"
-.string "¡Hay para todos, está todo bajo\l"
-.string "control!$"
+.string "Easy!\n"
+.string "There's enough for everyone,\l"
+.string "everything is under control!$"
 
 
 

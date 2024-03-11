@@ -8,11 +8,10 @@ release
 end
 
 OlivineBoat2_Text_1:
-.string "¿Podemos dejar de hablar del TIPO\n"
-.string "LUCHA aunque sea por un momento?\l"
-.string "¿Has visto a WEEZING?\l"
-.string "Con esa DEFENSA aguanta todos\l"
-.string "vuestros golpes.$"
+	.string "Can we stop talking about\n"
+	.string "FIGHTING-TYPE just for a moment? Have\l"
+	.string "you seen WEEZING? With that DEFENSE it\l"
+	.string "withstands all your attacks.$"
 
 
 
@@ -23,9 +22,9 @@ release
 end
 
 OlivineBoat2_Text_2:
-.string "Dijeron que ANÍBAL iba a asistir a\n"
-.string "la fiesta. Lo sabía, seguro que\l"
-.string "está entrenando.$"
+	.string "They said that CHUCK would come to the\n"
+	.string "party. I knew it, he's probably training\l"
+	.string "right now.$"
 
 
 
@@ -36,13 +35,11 @@ release
 end
 
 OlivineBoat2_Text_3:
-.string "¿La ACADEMIA de PETRA?\n"
-.string "¡Qué aburrimiento!\l"
-.string "¡Prefiero que los científicos de\l"
-.string "SILPH me den clases!\l"
-.string "¡Ellos sí que saben de POKÉMON\l"
-.string "fuertes y de cómo manipularlos!\l"
-.string "¡Mira ese BILL!$"
+	.string "ROXANNE'S ACADEMY? How boring! I prefer\n"
+	.string "the SILPH scientists to teach me! They\l"
+	.string "really know about strong POKÉMON and\l"
+	.string "how to manipulate them! Just look at\l"
+	.string "BILL!$"
 
 
 
@@ -53,10 +50,9 @@ release
 end
 
 OlivineBoat2_Text_4:
-.string "Hace 50 años, en esta ciudad no\n"
-.string "había más de 4 o 5 familias de\l"
-.string "humildes pescadores. Míranos\l"
-.string "ahora.$"
+	.string "50 years ago, in this city there were no\n"
+	.string "more than 4 or 5 families of humble\l"
+	.string "fishermen. Look at us now.$"
 
 
 
@@ -67,9 +63,9 @@ release
 end
 
 OlivineBoat2_Text_5:
-.string "Cómo ha cambiado CIUDAD OLIVO. Y\n"
-.string "lo que nos queda por ver, ¿verdad,\l"
-.string "querida?$"
+	.string "How OLIVINE CITY has changed. And what\n"
+	.string "we have yet to see, isn't that right,\l"
+	.string "dear?$"
 
 
 
@@ -80,11 +76,10 @@ release
 end
 
 OlivineBoat2_Text_6:
-.string "¿Has oído?\n"
-.string "En un par de meses, la línea\l"
-.string "OLIVO-PORTUAL estará lista. Irás\l"
-.string "a CIUDAD FÉRRICA a estudiar en la\l"
-.string "ACADEMIA de PETRA.$"
+	.string "Have you heard? In a couple of months,\n"
+	.string "the OLIVINE-SLATEPORT line will be\l"
+	.string "ready. You'll go to RUSTBORO CITY to\l"
+	.string "study in the ROXANNE'S ACADEMY.$"
 
 
 
@@ -96,12 +91,11 @@ release
 end
 
 OlivineBoat2_Text_7:
-.string "¿Conoces las ISLAS REMOLINO?\n"
-.string "Los barcos evitan acercarse a\l"
-.string "ellas, no solo por todas las rocas\l"
-.string "que sobresalen la superficie,\l"
-.string "también por las fuertes mareas que\l"
-.string "las rodean.$"
+	.string "Do you know WHIRL ISLANDS? Ships avoid\n"
+	.string "getting close to them, not only because\l"
+	.string "of all the rocks that protrude from the\l"
+	.string "surface, but also because of the\l"
+	.string "strong tides that surround them.$"
 
 
 
@@ -113,11 +107,10 @@ release
 end
 
 OlivineBoat2_Text_8:
-.string "El CAPITÁN está en el acto que\n"
-.string "inaugura la ampliación del PUERTO\l"
-.string "a otras regiones. Hasta que no\l"
-.string "regrese nadie puede entrar a su\l"
-.string "camarote.$"
+	.string "The CAPTAIN is at the ceremony\n"
+	.string "starting the expansion of the PORT to\l"
+	.string "other regions. Until he returns, nobody\l"
+	.string "can enter his cabin.$"
 
 
 
@@ -134,13 +127,13 @@ release
 end
 
 OlivineBoat2_Text_10:
-.string "Sí que hay acuerdo, aunque tú no\n"
-.string "te beneficiarás de él. Yo siempre\l"
-.string "gano, de un modo u otro.\l"
+.string "There is an agreement indeed, though\n"
+.string "you won't benefit from it.\l"
+.string "I always win, one way or another.\l"
 .string "…\l"
 .string "…\l"
-.string "Oh, perdona, creí que eras otra\l"
-.string "persona.$"
+.string "Oh, sorry, I thought you\l"
+.string "were someone else.$"
 
 
 
@@ -157,11 +150,12 @@ release
 end
 
 OlivineBoat2_Text_12:
-.string "Después de CIUDAD CARMÍN,\n"
-.string "estableceremos la conexión con\l"
-.string "CIUDAD PORTUAL, en HOENN. NORMAN y\l"
-.string "su familia se mudarán allí en\l"
-.string "cuanto esté disponible la línea.$"
+	.string "After establishing a permanent\n"
+	.string "connection with VERMILLION CITY, we\l"
+	.string "will establish the connection with\l"
+	.string "SLATEPORT CITY in HOENN. NORMAN and\l"
+	.string "his family will move there as soon as\l"
+	.string "the connection is available.$"
 
 
 
@@ -173,13 +167,12 @@ release
 end
 
 OlivineBoat2_Text_13:
-.string "Lo sé, un CAZABICHOS como yo no\n"
-.string "pinta nada en una fiesta como\l"
-.string "esta. Solo vine porque corren\l"
-.string "rumores de que el CAPITÁN cuenta\l"
-.string "con un TIPO BICHO extremadamente\l"
-.string "fuerte y raro en su equipo. ¿Algún\l"
-.string "problema?$"
+	.string "I know, a BUG CATCHER like me has\n"
+	.string "nothing to do in a place like this. I only\l"
+	.string "came because there are some rumors\l"
+	.string "that the CAPTAIN has an extremely\l"
+	.string "strange BUG-TYPE POKEMON in his team.\l"
+	.string "Do you have a problem?$"
 
 
 
@@ -252,27 +245,20 @@ release
 end
 
 Olivine_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: Así que ya has derrotado\n"
-	.string "a 4 de los 8 LÍDERES, ¿eh, {PLAYER}?\l"
-	.string "Hemos analizado los datos del\l"
-	.string "SKARMORY del LÍDER de OLIVO: son\l"
-	.string "asombrosos. Su DEFENSA FÍSICA, a\l"
-	.string "pesar de ser del TIPO VOLADOR, es\l"
-	.string "cercana a la de CLOYSTER. Sin\l"
-	.string "mencionar su inmunidad al TIPO\l"
-	.string "ELÉCTRICO, según nuestros\l"
-	.string "científicos debido a la capa de\l"
-	.string "acero inoxidable que lo recubre.\l"
-	.string "...\l"
-	.string "...\l"
-	.string "Voy camino a TRIGAL, {PLAYER}.\l"
-	.string "Estaré ocupado poniendo en orden\l"
-	.string "todo el tema de la reunión en\l"
-	.string "TORRE RADIO, pero enviaré a\l"
-	.string "alguien para que te informe de\l"
-	.string "cuando debes estar presente en\l"
-	.string "TRIGAL.\l"
-	.string "Eso es todo por ahora. En ORQUÍDEA\l"
-	.string "hay otro GIMNASIO, tal vez puedas\l"
-	.string "ahí encontrar otro POKÉMON FUERTE\l"
-	.string "VÍNCULO.$"
+	.string "GIOVANNI: So you've defeated 4 of the 8\n"
+	.string "LEADERS, huh, {PLAYER}? We've\l"
+	.string "analyzed the data of OLIVINE's LEADER's\l"
+	.string "SKARMORY: They are astonishing. Its\l"
+	.string "PHYSICAL DEFENSE, despite being\l"
+	.string "FLYING TYPE, is close to CLOYSTER's. Not\l"
+	.string "to mention its immunity to the ELECTRIC\l"
+	.string "TYPE, according to our scientists due\l"
+	.string "to the stainless steel layer that\l"
+	.string "covers it. … … I'm on my way to\l"
+	.string "GOLDENROD, {PLAYER}. I'll be busy\l"
+	.string "sorting out the meeting at RADIO TOWER,\l"
+	.string "but I'll send someone to inform you when\l"
+	.string "you must be present in GOLDENROD.\l"
+	.string "That's all for now. There's another GYM in\l"
+	.string "CIANWOOD, maybe you'll find another\l"
+	.string "DEEP BOND POKÉMON there.$"

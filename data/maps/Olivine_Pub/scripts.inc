@@ -157,67 +157,67 @@ Olivine_Pub_Mision_Secundaria_Texto_3:
 	.string "GOLDENROD executives, maybe you can…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_4:
-.string "Escucha, TRIGAL es muy grande. Hace\n"
-	.string "tiempo formé parte de una gran red de\l"
-	.string "tráfico de POKÉMON. Finalmente\l"
-	.string "abandoné, no podía soportar varias\l"
-	.string "de sus prácticas. Ahora estoy aquí,\l"
-	.string "tratando de hacerme MARINERO.$"
+	.string "Listen, GOLDENROD is very big. I used to\n"
+	.string "be part of a large network of POKÉMON\l"
+	.string "trafficking. Eventually, I left, I\l"
+	.string "couldn't stand some of their practices.\l"
+	.string "Now I'm here, trying to become a SAILOR.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_5:
-.string "Solo me arrepiento de una cosa: haber\n"
-	.string "dejado atrás a mi querido SNUBULL, el\l"
-	.string "pobre continúa allí. Para mí es\l"
-	.string "imposible volver, pero tú… tal vez\l"
-	.string "puedas abrirte paso por ese lugar, y\l"
-	.string "traerme de vuelta a SNUBULL.$"
+	.string "I only regret one thing: leaving behind\n"
+	.string "my dear SNUBBULL; poor thing is still\l"
+	.string "there. It's impossible for me to return,\l"
+	.string "but you… Maybe you can make your way\l"
+	.string "through that place and bring SNUBBULL\l"
+	.string "back to me.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_6:
-.string "La red de POKE-TRAFICO se encuentra en\n"
-	.string "el subsuelo de TRIGAL, siempre está\l"
-	.string "vigilada por algún MOTORISTA. Para\l"
-	.string "entrar deberás abrirte paso\l"
-	.string "combatiendo, no hay otra. Confío en ti.$"
+	.string "The network of POKÉ-TRAFFICKING is on\n"
+	.string "the GOLDENROD underground, it's always\l"
+	.string "protected by some BIKER. The only way\l"
+	.string "to reach the boss is fighting. There's no\l"
+	.string "other option. I trust you.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_7:
-.string "¿Has podido entrar? Recuerda que la red\n"
-	.string "de POKE-TRAFICO está en el subsuelo\l"
-	.string "de TRIGAL, siempre vigilada por algún\l"
-	.string "MOTORISTA.$"
+	.string "Have you been able to get in? remember\n"
+	.string "the POKÉ-TRAFFICKING is on the\l"
+	.string "GOLDENROD underground, always\l"
+	.string "protected by some BIKER.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_8:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_9:
-.string "{PLAYER} entregó el SNUBBULL a\n"
-	.string "MARINERO.$"
+.string "{PLAYER} handed over the\n"
+	.string "SNUBBULL to the SAILOR.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_10:
-.string "Oh… Mi SNUBBULL… Creí que no volvería a\n"
-	.string "verlo nunca más.$"
+.string "Oh… My SNUBBULL…\n"
+	.string "I thought I'd never see it again.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_11:
-.string "Eres increíble, ¿{PLAYER}? Debes ser\n"
-	.string "uno de los ENTRENADORES más poderosos\l"
-	.string "de esta región, si no el que más.$"
+	.string "You're amazing, {PLAYER}? You must be\n"
+	.string "one of the most powerful TRAINERS in\l"
+	.string "this region, if not the most powerful.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_12:
-.string "Sé que es poco para alguien como tú,\n"
-	.string "pero rescaté a este raro POKÉMON de\l"
-	.string "ser vendido en el mercado negro. Es\l"
-	.string "tuyo.$"
+	.string "I know this isn't a lot for someone like\n"
+	.string "you, but I rescued this strange\l"
+	.string "POKÉMON from being selled in the black\l"
+	.string "market. It's yours.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_13:
-.string "¡OBTUVISTE UN FROAKIE AL NV.15!$"
+.string "YOU OBTAINED A FROAKIE AT LEVEL 15!$"
 
 Olivine_Pub_Mision_Secundaria_Texto_14:
-.string "Creo que es el inicial de alguna región\n"
-	.string "lejana, puede cambiar de tipo según el\l"
-	.string "movimiento que ejecute. ¡Es muy\l"
-	.string "versátil!$"
+	.string "I think it's the starter from some\n"
+	.string "distant region. it can change type\l"
+	.string "depending on the move it executes. It's\l"
+	.string "very versatile!$"
 
 Olivine_Pub_Mision_Secundaria_Texto_15:
-.string "Seguir una vida íntegra te dará mayor\n"
-.string "satisfacción que una vida de trampas.\l"
-.string "Aún con todas las recompensas del mundo,\l"
-.string "esta última no lo hará, tenlo en cuenta.$"
+	.string "Following an honest life will give you\n"
+	.string "more satisfaction than a cheating life.\l"
+	.string "Even with all the rewards in the word,\l"
+	.string "the latter won't provide it. Keep that in\l"
+	.string "mind.$"

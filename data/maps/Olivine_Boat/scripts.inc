@@ -9,9 +9,9 @@ release
 end
 
 OlivineBoat_Text_1:
-.string "El primer punto de conexión con el\n"
-.string "PUERTO OLIVO, por razones obvias\l"
-.string "de cercanía, será CIUDAD CARMÍN.$"
+	.string "The first connection point with\n"
+	.string "OLIVINE PORT, obviously, will be\l"
+	.string "VERMILLION CITY.$"
 
 
 
@@ -23,9 +23,9 @@ release
 end
 
 OlivineBoat_Text_2:
-.string "¡La comida aquí es insuperable!\n"
-.string "¡En estas aguas tienes lo mejor de\l"
-.string "KANTO-JOHTO juntos!$"
+	.string "The food here is unbeatable! In these\n"
+	.string "waters, you have the best of\l"
+	.string "KANTO-JOHTO together!$"
 
 
 
@@ -37,10 +37,9 @@ release
 end
 
 OlivineBoat_Text_3:
-.string "¡Esos MARINEROS son unos tipos\n"
-.string "duros!\l"
-.string "¡No sabía que TENTACRUEL pudiera\l"
-.string "ser tan molesto!$"
+	.string "Those SAILORS are tough guys! I didn't\n"
+	.string "know that TENTACRUEL could be so\l"
+	.string "annoying!$"
 
 
 
@@ -52,11 +51,10 @@ release
 end
 
 OlivineBoat_Text_4:
-.string "¡Míranos!\n"
-.string "Con todo lo ocurrido en el último\l"
-.string "lustro, quién iba a decir que\l"
-.string "KANTO y JOHTO comenzaran a hacer\l"
-.string "las paces tan pronto.$"
+	.string "Look at us! With everything that has\n"
+	.string "happened in the last five years, who\l"
+	.string "would have thought that KANTO and\l"
+	.string "JOHTO would start making peace so soon.$"
 
 
 
@@ -73,13 +71,11 @@ release
 end
 
 OlivineBoat_Text_6:
-.string "Mi hermano debería dejar de fardar\n"
-.string "de sus POKÉMON adquiridos a golpe\l"
-.string "de talonario. No me daría la menor\l"
-.string "lástima que algún marinero de por\l"
-.string "aquí le diera una buena lección en\l"
-.string "un combate para que se callara de\l"
-.string "una vez.$"
+	.string "My brother should stop bragging about\n"
+	.string "his POKÉMON acquired with a checkbook.\l"
+	.string "I wouldn't feel the slightest pity if\l"
+	.string "some sailor around here gave him a good\l"
+	.string "lesson to shut him up once and for all.$"
 
 
 
@@ -91,8 +87,8 @@ release
 end
 
 OlivineBoat_Text_7:
-.string "Creo que me estoy mareando, estas\n"
-.string "fiestas no son para mí.$"
+	.string "I think I'm getting dizzy, these parties\n"
+	.string "are not for me.$"
 
 
 
@@ -104,14 +100,12 @@ release
 end
 
 OlivineBoat_Text_8:
-.string "He comprado un WISHIWASHI por 7000\n"
-.string "FICHAS en CIUDAD TRIGAL solo para\l"
-.string "presumir delante de todos estos\l"
-.string "marineros, con un POKÉMON TIPO AGUA\l"
-.string "que nunca podrán tener pero que\l"
-.string "anhelan. ¿Acaso no es eso\l"
-.string "jerarquía?\l"
-.string "¡Hohoho!$"
+	.string "I bought a WISHIWASHI for 7000 COINS\n"
+	.string "in GOLDENROD CITY just to show off in\l"
+	.string "front of all these sailors, with a\l"
+	.string "WATER-TYPE POKÉMON that they can\l"
+	.string "never have but desire. Isn't that\l"
+	.string "hierarchical? Hohoho!$"
 
 
 

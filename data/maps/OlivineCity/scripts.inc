@@ -19,13 +19,13 @@ release
 end
 
 OlivineCity_Text_2:
-.string "La tradición marinera de OLIVO es\n"
-.string "la más antigua de KANTO-JOHTO, el\l"
-.string "FARO se construyó hace tiempo\l"
-.string "debido a las múltiples rocas que\l"
-.string "hay por estos mares, ahora se ha\l"
-.string "ampliado y servirá de guía también\l"
-.string "a barcos de otras regiones.$"
+	.string "The OLIVINE maritime tradition is the\n"
+	.string "oldest one in KANTO-JOHTO, the\l"
+	.string "LIGHTHOUSE was built a long time ago\l"
+	.string "due to the multiple rocks in these seas,\l"
+	.string "now it has been expanded and will also\l"
+	.string "serve as a guide for ships from other\l"
+	.string "regions.$"
 
 
 OlivineCity3::
@@ -36,10 +36,10 @@ release
 end
 
 OlivineCity_Text_3:
-.string "Todo está dispuesto.\n"
-.string "¡La apertura del PUERTO OLIVO\l"
-.string "conectará a JOHTO con todo el\l"
-.string "mundo!$"
+.string "Everything is ready.\n"
+	.string "The opening of the OLIVINE PORT will\l"
+	.string "connect JOHTO with the rest of the\l"
+	.string "world!$"
 
 
 
@@ -51,11 +51,10 @@ release
 end
 
 OlivineCity_Text_4:
-.string "El turismo está cada vez más\n"
-.string "presente en CIUDAD OLIVO, incluso\l"
-.string "en ORQUÍDEA. Ahora con la\l"
-.string "ampliación de el PUERTO lo estará\l"
-.string "aún más.$"
+	.string "Tourism is increasingly present in\n"
+	.string "OLIVINE CITY, even in CIANWOOD. Now\l"
+	.string "with the expansion of the PORT it will\l"
+	.string "be even more so.$"
 
 
 
@@ -67,11 +66,11 @@ release
 end
 
 OlivineCity_Text_5:
-.string "¡No hay nada más traicionero que\n"
-.string "el mar en una noche cerrada!\l"
-.string "Sin la luz de este FARO, los\l"
-.string "barcos de por aquí no podrían\l"
-.string "navegar.$"
+	.string "There's nothing more treacherous than\n"
+	.string "the sea on a pitch-black night! Without\l"
+	.string "this LIGHTHOUSE's light, the ships\l"
+	.string "around here wouldn't be able to\l"
+	.string "navigate.$"
 
 
 
@@ -83,12 +82,11 @@ release
 end
 
 OlivineCity_Text_6:
-.string "¿Notas ya el rugido de las olas\n"
-.string "golpeando contra nuestro PUERTO?\l"
-.string "CIUDAD OLIVO no puede compararse a\l"
-.string "ninguna otra ciudad costera.\l"
-.string "¿CIUDAD CARMÍN?\l"
-.string "¡No me hagas reir!$"
+	.string "Do you already hear the roar of the\n"
+	.string "waves crashing against our PORT?\l"
+	.string "OLIVINE CITY can't be compared to any\l"
+	.string "other coastal city. VERMILION CITY?\l"
+	.string "Don't make me laugh!$"
 
 
 
@@ -97,10 +95,10 @@ msgbox OlivineCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 OlivineCityDocumento_Text_100:
-.string "GIMNASIO de CIUDAD OLIVO\n"
-	.string "LÍDER: CROM\l"
-	.string "El ENTRENADOR que descubrió los\l"
-	.string "secretos del TIPO ACERO.$"
+.string "OLIVINE CITY GYM\n"
+	.string "LEADER: CROM\l"
+	.string "The TRAINER who uncovered the\l"
+	.string "STEEL TYPE secrets.$"
 
 
 
@@ -109,8 +107,8 @@ msgbox OlivineCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 OlivineCityDocumento_Text_101:
-	.string "CIUDAD OLIVO\n"
-	.string "El puerto a tierras lejanas.$"
+	.string "OLIVINE CITY\n"
+	.string "The port to foreign lands.$"
 
 
 
@@ -119,8 +117,8 @@ msgbox OlivineCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 OlivineCityDocumento_Text_102:
-	.string "PUERTO OLIVO\n"
-	.string "MUELLE DEL FERRY$"
+	.string "OLIVINE PORT\n"
+	.string "FAST SHIP PIER.$"
 
 
 
@@ -129,7 +127,7 @@ msgbox OlivineCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 OlivineCityDocumento_Text_103:
-	.string "CASA DE NORMAN$"
+	.string "NORMAN'S HOUSE$"
 
 
 
@@ -138,6 +136,6 @@ msgbox OlivineCityDocumento_Text_104, MSGBOX_SIGN
 end
 
 OlivineCityDocumento_Text_104:
-	.string "FARO DE OLIVO\n"
-	.string "También conocido como el FARO\l"
-	.string "BRILLANTE.$"
+	.string "OLIVINE LIGHTHOUSE\n"
+	.string "Also known as the\l"
+	.string "GLITTER LIGHTHOUSE.$"
