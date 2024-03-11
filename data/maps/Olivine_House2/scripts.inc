@@ -9,9 +9,9 @@ release
 end
 
 OlivineCity_House2_Text_1:
-.string "No hay voluntad como la de nuestro\n"
-.string "LÍDER, inquebrantable, sí…\l"
-.string "Digna de manejar el TIPO ACERO.$"
+	.string "There is no will like that of our LEADER,\n"
+	.string "unbreakable, yeah… Worthy of wielding\l"
+	.string "the STEEL TYPE.$"
 
 
 
@@ -23,8 +23,7 @@ release
 end
 
 OlivineCity_House2_Text_2:
-.string "Mucha gente aún sigue confundiendo\n"
-.string "el TIPO ROCA con el ACERO, esa\l"
-.string "YASMINA ya le ha preguntado varias\l"
-.string "veces a CROM cuando conseguirá\l"
-.string "evolucionar su ONIX a STEELIX.$"
+	.string "Many people still confuse the ROCK TYPE\n"
+	.string "with the STEEL TYPE; JASMINE has asked\l"
+	.string "CROM several times when her ONIX will\l"
+	.string "evolve into STEELIX.$"

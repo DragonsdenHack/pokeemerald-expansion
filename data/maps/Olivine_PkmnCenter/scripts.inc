@@ -27,13 +27,12 @@ release
 end
 
 OlivineCity_PkmnCenter_Text_2:
-.string "Mmm…\n"
-.string "Ese FARO, con el atardecer de\l"
-.string "fondo…\l"
-.string "Pero creo que el paisaje mejoraría\l"
-.string "aún más si se encontrara al borde\l"
-.string "de un acantilado a 200m de\l"
-.string "altura…$"
+.string "Hmmm…\n"
+	.string "That LIGHTHOUSE, with the sunshine in\l"
+	.string "the background… But I think the\l"
+	.string "landscape would improve even more if it\l"
+	.string "were on the edge of a 650 fts high\l"
+	.string "cliff.$"
 
 
 
@@ -45,11 +44,11 @@ release
 end
 
 OlivineCity_PkmnCenter_Text_3:
-.string "¡Hola, chaval!\n"
-.string "¡Me gusta el mar!\l"
-.string "¡Canta conmigo!\l"
-.string "¡Yo jo!\l"
-.string "¡Yo jo…!$"
+.string "Ahoy, landlubber!\n"
+.string "I love the sea!\l"
+.string "Sing along with me!\l"
+.string "There once was a ship!\l"
+.string "That put to the sea…!$"
 
 
 
@@ -61,8 +60,7 @@ release
 end
 
 OlivineCity_PkmnCenter_Text_4:
-.string "Se acabó el armar líos por las\n"
-.string "calles de TRIGAL.\l"
-.string "A partir de ahora me convertiré en\l"
-.string "un honrado marinero al servicio\l"
-.string "del SS.AQUA.$"
+	.string "No more causing trouble on the streets\n"
+	.string "of GOLDENROD. From now on, I'll become an\l"
+	.string "honest sailor in the service of the\l"
+	.string "S.S.AQUA.$"

@@ -9,14 +9,12 @@ release
 end
 
 OlivineCity_House3_Text_1:
-.string "Mi novio está obsesionado con los\n"
-.string "POKÉMON TIPO VOLADOR, dice que el\l"
-.string "LÍDER CROM cuenta con uno inmune a\l"
-.string "los ataques ELÉCTRICOS.\l"
-.string "¡Eso es imposible!\l"
-.string "Debería hacer como yo y entrenar a\l"
-.string "cualquier POKÉMON mientras sea\l"
-.string "fuerte…$"
+	.string "My boyfriend is obsessed with\n"
+	.string "FLYING-TYPE POKÉMON; he says that the\l"
+	.string "LEADER CROM has one immune to ELECTRIC\l"
+	.string "attacks. That's impossible! He should\l"
+	.string "do it like me and train any POKÉMON as\l"
+	.string "long as it's strong...$"
 
 
 
@@ -28,12 +26,11 @@ release
 end
 
 OlivineCity_House3_Text_2:
-.string "En mis más de 10 años aquí solo\n"
-.string "ocurrió una vez, pude ver en\l"
-.string "directo al POKÉMON más fuerte de\l"
-.string "CROM. Una enorme ave cubierta de\l"
-.string "acero, ningún ataque ELÉCTRICO le\l"
-.string "afectaba, tenía la VELOCIDAD de un\l"
-.string "DODRIO, la agresividad de un\l"
-.string "STARAPTOR…Y sus defensas eran\l"
-.string "impenetrables, ¡era magnífico!$"
+	.string "In my over 10 years here, it only\n"
+	.string "happened once, I got to see live CROM's\l"
+	.string "strongest POKÉMON. An enormous bird\l"
+	.string "covered in steel, no ELECTRIC attacks\l"
+	.string "affected it, it had the SPEED of a\l"
+	.string "DODRIO, the aggressiveness of a\l"
+	.string "STARAPTOR… And its defenses were\l"
+	.string "impenetrable, it was magnificent!$"

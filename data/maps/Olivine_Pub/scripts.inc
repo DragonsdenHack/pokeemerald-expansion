@@ -9,15 +9,12 @@ release
 end
 
 OlivineCity_Pub_Text_1:
-.string "Este lugar está abierto las 24\n"
-.string "horas, se hizo muy popular entre\l"
-.string "los marineros venir aquí a las 5-6\l"
-.string "de la mañana, y acabó\l"
-.string "convirtiéndose en un punto de\l"
-.string "reunión para marineros retirados o\l"
-.string "que vuelven después de trabajar.\l"
-.string "La tradición se ha mantenido hasta\l"
-.string "el día de hoy.$"
+	.string "This place is open 24 hours a day. It\n"
+	.string "was very popular among sailors to come\l"
+	.string "here at 5-6 am, until it became a\l"
+	.string "meeting point for retired sailors or\l"
+	.string "those returning from work. The\l"
+	.string "tradition has persisted to this day.$"
 
 
 
@@ -34,11 +31,10 @@ release
 end
 
 OlivineCity_Pub_Text_3:
-.string "El restaurante de CIUDAD AZULONA\n"
-.string "es un chiste en comparación con\l"
-.string "este.\l"
-.string "¡Aquí te traen todo recién pillado\l"
-.string "del mar, me voy a poner morado!$"
+	.string "The CELADON CITY restaurant is a joke\n"
+	.string "compared to this place. Here they bring\l"
+	.string "you everything freshly caught from the\l"
+	.string "sea, I'm going to feast!$"
 
 
 
@@ -50,9 +46,8 @@ release
 end
 
 OlivineCity_Pub_Text_4:
-.string "¡En el mar solo puedes confiar en\n"
-.string "ti mismo!\l"
-.string "¡Y yo estoy en plena forma!$"
+.string "In the sea, you can only trust yourself!\n"
+.string "And I'm in my best!$"
 
 
 
@@ -64,12 +59,12 @@ release
 end
 
 OlivineCity_Pub_Text_5:
-.string "¡Hey, marinero!\n"
-.string "¡Nunca olvides que hay que estar\l"
-.string "dispuesto a perderse para poder\l"
-.string "hallar destinos inalcanzables!\l"
-.string "¡Camarero!\l"
-.string "¡Otra copa!$"
+.string "Hey, sailor!\n"
+.string "Never forget you have to be willing\l"
+.string "to get lost to find unreachable\l"
+.string "destinations!\l"
+.string "Waiter!\l"
+.string "Another drink!$"
 
 Olivine_Pub_Mision_Secundaria::
 lock
@@ -149,18 +144,17 @@ emote_exclamation_mark
 step_end
 
 Olivine_Pub_Mision_Secundaria_Texto_1:
-.string "Estoy tratando de reconducir mi vida,\n"
-	.string "después de haber escogido por años la\l"
-	.string "senda rápida y placentera. Ahora me\l"
-	.string "toca recuperar el tiempo perdido…$"
+	.string "I'm trying to get my life back on track\n"
+	.string "after years of choosing the fast and\l"
+	.string "easy path. Now It's time for me to make\l"
+	.string "up for lost time…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_3:
-.string "Oh… Entonces eres algo más que uno de\n"
-	.string "esos ejecutivos de TRIGAL, tal vez tú\l"
-	.string "puedas…$"
+	.string "Oh… So you're something more than those\n"
+	.string "GOLDENROD executives, maybe you can…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_4:
 .string "Escucha, TRIGAL es muy grande. Hace\n"

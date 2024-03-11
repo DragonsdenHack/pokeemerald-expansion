@@ -14,8 +14,7 @@ release
 end
 
 OlivineCity_NormanHouse_Text_2:
-.string "¡Dentro de pocos años yo también\n"
-.string "seré ENTRENADOR!$"
+.string "In a few years I will be a TRAINER!$"
 
 
 
@@ -27,12 +26,11 @@ release
 end
 
 OlivineCity_NormanHouse_Text_3:
-.string "Mi marido cree que, tal y como\n"
-.string "están las cosas, ni JOHTO ni KANTO\l"
-.string "son las regiones ideales para que\l"
-.string "nuestro hijo inicie su aventura.\l"
-.string "Es por eso que pronto nos\l"
-.string "mudaremos a la lejana HOENN.$"
+	.string "My husband believes, given the current\n"
+	.string "situation, neither JOHTO nor KANTO are\l"
+	.string "the optimal regions for our son to begin\l"
+	.string "his journey. Hence, we're planning to\l"
+	.string "relocate to the far-off HOENN.$"
 
 
 
@@ -61,37 +59,32 @@ OlivineNormanHouse_EventScript_TakeSlakoth::
 
 
 OlivineNormanHouse_Text_TakeSlakoth:
-    .string "Guardo muchos y muy buenos\n"
-	.string "recuerdos de mi estancia en JOHTO,\l"
-	.string "pero llegó el momento de volver a\l"
-	.string "HOENN. Es lo mejor para nuestra\l"
-	.string "familia.$"
+	.string "I have many fond memories of my time in\n"
+	.string "JOHTO, but it's time to return to HOENN.\l"
+	.string "It's the best for our family.$"
 
 OlivineNormanHouse_Text_TakeSlakoth2:
-	.string "Tú también deberías visitar esa\n"
-	.string "región algún día, tiene POKÉMON\l"
-	.string "excepcionales que no encontrarás\l"
-	.string "en ningua otra región, como este.$"
+	.string "You too should visit that region\n"
+	.string "someday, it has some exceptional\l"
+	.string "POKÉMON that you won't find in any\l"
+	.string "other region, like this one.$"
 
 OlivineNormanHouse_Text_MensajeSlakoth:
-.string "¡OBTUVISTE UN SLAKOTH AL NV.5!$"
+.string "YOU OBTAINED A LV.5 SLAKOTH!$"
 
 OlivineNormanHouse_Text_6:
-    .string "SLAKOTH guarda dentro de sí un\n"
-	.string "potencial insuperable, incluso los\l"
-	.string "LEGENDARIOS temen a su forma\l"
-	.string "evolucionada. Pero ese enorme\l"
-	.string "vigor con el que ataca le sume en\l"
-	.string "un letargo al siguiente turno, el\l"
-	.string "costo por hacer uso de tal fuerza\l"
-	.string "bruta...$"
+	.string "SLAKOTH harbors an unparalleled\n"
+	.string "potential within, even the LEGENDARIES\l"
+	.string "fear its evolved form. But the immense\l"
+	.string "vigor with which it attacks plunges it\l"
+	.string "into a lethargy the next turn, the cost\l"
+	.string "for wielding such brute force…$"
 
 OlivineNormanHouse_Text_6b:
-	.string "Mi hijo quiere ser ENTRENADOR, es\n"
-	.string "mi deber encargarme de que se\l"
-	.string "convierta en uno de verdad. Ese es\l"
-	.string "el principal motivo de nuestra\l"
-	.string "partida a HOENN, no veo a la JOHTO\l"
-	.string "actual como el entorno más\l"
-	.string "adecuado para que un niño de 10\l"
-	.string "años comience su aventura.$"
+	.string "My son wants to become a TRAINER, and\n"
+	.string "it's my duty to ensure he becomes a real\l"
+	.string "one. That's the main reason for our\l"
+	.string "departure to HOENN. I don't see the\l"
+	.string "current JOHTO as the most suitable\l"
+	.string "environment for a 10-year-old to start\l"
+	.string "his adventure.$"

@@ -29,11 +29,9 @@ release
 end
 
 MooFarm_Text_5:
-.string "Nuestros TAUROS tienen fama de ser\n"
-.string "los más bravos de JOHTO, ¡lo\l"
-.string "necesitan para poder estar a la\l"
-.string "altura de los MILTANK que aquí\l"
-.string "criamos!$"
+	.string "Our TAUROS are famous for being the\n"
+	.string "fiercest in JOHTO; they need it to\l"
+	.string "match up to the MILTANK we breed here!$"
 
 
 
@@ -50,14 +48,12 @@ release
 end
 
 MooFarm_Text_7:
-.string "De aquí sale la mayor parte de\n"
-.string "LECHE MU-MU que venden en JOHTO y\l"
-.string "KANTO. Debes saber que es el mejor\l"
-.string "recuperador de PS en relación\l"
-.string "calidad-precio, pero si nos\l"
-.string "compras directamente a nosotros,\l"
-.string "¡podrás obtener LECHE MU-MU aún\l"
-.string "más barata!$"
+	.string "From here comes most of the MOOMOO\n"
+	.string "MILK sold in JOHTO and KANTO. You\l"
+	.string "should know it's the best HP restorer in\l"
+	.string "terms of value, but if you buy directly\l"
+	.string "from us, you can get MOOMOO MILK even\l"
+	.string "cheaper!$"
 
 
 
@@ -113,8 +109,8 @@ release
 end
 
 MooFarm_Combate_Scizorita_Texto_10.1:
-.string "¡¡Obtuviste SCIZORITA de\n"
-	.string "manos de GRANJEROS!!$"
+.string "You obtained a SCIZORITE\n"
+	.string "from the FARMERS!!$"
 
 MooFarm_Combate_Scizorita_Move_1:
 walk_in_place_right
@@ -135,70 +131,65 @@ face_player
 step_end
 
 MooFarm_Combate_Scizorita_Texto_1:
-.string "Aquí nos encargamos de los TAUROS\n"
-	.string "y MILTANK que se ponen enfermos.\l"
-	.string "Tenemos a una docena que está ya\l"
-	.string "casi recuperada, lo único que les\l"
-	.string "hace falta es volver a estirar las\l"
-	.string "patas en un buen combate.$"
+	.string "Here we take care of TAUROS and\n"
+	.string "MILTANK that get sick. We have about a\l"
+	.string "dozen that are almost completely\l"
+	.string "recovered, all they need is to test\l"
+	.string "their health in a battle!$"
 
 MooFarm_Combate_Scizorita_Texto_2:
-.string "¿Nos harías el favor de volver a\n"
-	.string "poner en forma a nuestros POKÉMON?$"
+	.string "Would you do us the favor of getting\n"
+	.string "our POKÉMON back in shape?$"
 
 MooFarm_Combate_Scizorita_Texto_3:
-.string "¡Recuerda que puedes comprar\n"
-	.string "LECHE MU-MU tirada de precio en la\l"
-	.string "caseta de al lado!$"
+	.string "Remember that you can buy MOOMOO MILK\n"
+	.string "at a discounted price at the booth next\l"
+	.string "door!$"
 
 MooFarm_Combate_Scizorita_Texto_4:
-.string "¡Muy bien!\n"
-	.string "¡Espero que puedas aguantar las\l"
-	.string "embestidas!$"
+.string "All right!\n"
+	.string "I hope you can endure the assaults!$"
 
 MooFarm_Combate_Scizorita_Texto_5:
-.string "Frenado en seco.$"
+.string "Sudden stopping.$"
 
 MooFarm_Combate_Scizorita_Texto_6:
-.string "Ahora me toca el turno a mi,\n"
-	.string "MILTANK no embiste con tanta\l"
-	.string "fuerza, ¡pero te costará más\l"
-	.string "tumbarlo!$"
+	.string "Now it's my turn, MILTANK doesn't\n"
+	.string "charge with as much force, but it will be\l"
+	.string "hard to knock down!$"
 
 MooFarm_Combate_Scizorita_Texto_7:
-.string "¡Menudo entrenamiento!$"
+.string "What a training session!$"
 
 MooFarm_Combate_Scizorita_Texto_8:
-.string "¡Eh!\n"
-	.string "¡Tampoco te pases!\l"
-	.string "¡Queríamos que recuperaran la\l"
-	.string "forma poco a poco, no que fueran\l"
-	.string "directos a la enfermería de nuevo!$"
+.string "Eh!\n"
+	.string "Take it easy!\l"
+	.string "We wanted them to slowly regain their\l"
+	.string "form, not end up straight back in the\l"
+	.string "infirmary!$"
 
 MooFarm_Combate_Scizorita_Texto_9:
-.string "No le hagas caso, era broma. Nos\n"
-	.string "has impresionado, los entrenadores\l"
-	.string "suelen huir despavoridos con uno\l"
-	.string "solo de nuestros TAUROS, pero tú...\l"
-	.string "¡Has podido con una docena de\l"
-	.string "TAUROS y MILTANK!$"
+	.string "Ignore him, it was a joke. You've\n"
+	.string "impressed us; trainers usually flee in\l"
+	.string "terror at just one of our TAUROS, but\l"
+	.string "you… You've dealt with a dozen TAUROS\l"
+	.string "and MILTANK!$"
 
 MooFarm_Combate_Scizorita_Texto_10:
-.string "Tu hazaña merece ser premiada, uno\n"
-	.string "de nuestros MILTANK se perdió por\l"
-	.string "el prado y regresó con esto. No\l"
-	.string "sabemos qué es, pero tiene pinta de\l"
-	.string "tener mucho valor.$"
+	.string "Your achievement deserves a reward;\n"
+	.string "one of our MILTANK wandered off in the\l"
+	.string "meadow and returned with this. We're\l"
+	.string "not sure what it is, but it looks like it\l"
+	.string "could be very valuable.$"
 
 MooFarm_Combate_Scizorita_Texto_11:
-.string "Seguro que tú le das un buen uso.\n"
-	.string "¡Recuerda que puedes comprar LECHE\l"
-	.string "MU-MU tirada de precio en la\l"
-	.string "caseta de al lado!$"
+	.string "I'm sure you'll put it to good use.\n"
+	.string "Remember, you can buy MOOMOO MILK for a\l"
+	.string "steal at the booth next door!$"
 
 MooFarm_Combate_Scizorita_Texto_12:
-.string "Entiendo, las embestidas de un\n"
-	.string "TAUROS dan mucho respeto.$"
+	.string "I understand, the charges of a TAUROS\n"
+	.string "are quite intimidating.$"
 
 Johto_MuMu_Mercado_EventScript_Clerk::
 lock
@@ -225,11 +216,10 @@ release
 end
 
 Johto_MuMu_Mercado_EventScript_Clerk_Texto_1:
-.string "Vendemos una docena de LECHE MU-MU\n"
-	.string "por 5000 POKÉS, ahorras 1000\l"
-	.string "respecto a cualquier otro lugar.\l"
-	.string "¿Compras?$"
+	.string "We sell a dozen of MOOMOO MILK for 5000\n"
+	.string "POKÉ, saving you 1000 compared to\l"
+	.string "anywhere else. Do you buy?$"
 
 Johto_MuMu_Mercado_EventScript_Clerk_Texto_2:
-.string "Vuelve cuando quieras.$"
+.string "Please come again!$"
 

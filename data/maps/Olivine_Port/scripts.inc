@@ -9,8 +9,8 @@ release
 end
 
 OlivineCity_Port_Text_1:
-.string "El SURCAMAR está fuera de\n"
-.string "servicio, gracias.$"
+	.string "The SEAGALLOP FERRY is out of service,\n"
+	.string "thank you.$"
 
 
 
@@ -22,16 +22,13 @@ release
 end
 
 OlivineCity_Port_Text_2:
-.string "Nuestra clase de ENTRENADOR\n"
-.string "desaparecerá pronto en JOHTO. Aquí\l"
-.string "no hay un CAMINO BICIS como en\l"
-.string "KANTO, y el PUERTO OLIVO nos\l"
-.string "tienta mucho para trabajar como\l"
-.string "MARINEROS. Yo, por ejemplo,\l"
-.string "paseo todos los días por aquí\l"
-.string "para ver si finalmente acaban por\l"
-.string "darme algún trabajillo, ¡y de ahí,\l"
-.string "al SS.AQUA!$"
+	.string "Our kind of TRAINER will disappear soon\n"
+	.string "in JOHTO. There's no CYCLING ROAD here,\l"
+	.string "And the OLIVINE PORT tempts us a lot to\l"
+	.string "work as sailors. For example, I stroll\l"
+	.string "around here every day to see if someone\l"
+	.string "finally give me some work. And from\l"
+	.string "there, to the S.S.AQUA!$"
 
 
 
@@ -43,8 +40,8 @@ release
 end
 
 OlivineCity_Port_Text_3:
-.string "El SURCAMAR está fuera de\n"
-.string "servicio, gracias.$"
+.string "The SEAGALLOP FERRY is\n"
+.string "out of service, thank you.$"
 
 
 
@@ -56,8 +53,8 @@ release
 end
 
 OlivineCity_Port_Text_4:
-.string "El SURCAMAR está fuera de\n"
-.string "servicio, gracias.$"
+.string "The SEAGALLOP FERRY is\n"
+.string "out of service, thank you.$"
 
 
 
@@ -69,8 +66,8 @@ release
 end
 
 OlivineCity_Port_Text_5:
-.string "El SURCAMAR está fuera de\n"
-.string "servicio, gracias.$"
+.string "The SEAGALLOP FERRY is\n"
+.string "out of service, thank you.$"
 
 
 
@@ -82,10 +79,10 @@ release
 end
 
 OlivineCity_Port_Text_7:
-.string "CIUDAD OLIVO crece cada vez más,\n"
-	.string "por eso el PUERTO OLIVO también\l"
-	.string "debe crecer. Pronto conectaremos\l"
-	.string "con KANTO y HOENN.$"
+	.string "OLIVINE CITY is larger every time,\n"
+	.string "that's why the OLIVINE PORT must grow\l"
+	.string "too. Soon, we'll connect with KANTO and\l"
+	.string "HOENN.$"
 
 compare VAR_UNUSED_0x40F7, 142
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
@@ -122,7 +119,7 @@ release
 end
 
 OlivinePort_Barrera_Texto_3.1:
-.string "({PLAYER} mostró su TICKET FIESTA).$"
+.string "({PLAYER} showed their PARTYCKET).$"
 
 OlivinePort_Barrera_3::
 lock
@@ -151,17 +148,16 @@ release
 end
 
 OlivinePort_Barrera_Texto_1:
-.string "Perdona, pero sin el TICKET FIESTA\n"
-	.string "no puedes pasar.$"
+	.string "I'm sorry, but without the PARTYCKET\n"
+	.string "you cannot pass.$"
 
 OlivinePort_Barrera_Texto_2:
-.string "La fiesta ha acabado, gracias por\n"
-	.string "asistir.$"
+	.string "The party is over, thank you for coming.$"
 
 OlivinePort_Barrera_Texto_3:
-.string "¡Ah!\n"
-	.string "¡Veo que tienes el TICKET FIESTA!\l"
-	.string "¡Pasa, llegas en el mejor momento!$"
+.string "Ah!\n"
+	.string "I see you have the PARTYCKET!\l"
+	.string "Come in, you're arriving at the perfect time!$"
 
 OlivinePort_Barrera_Move_1.1:
 walk_in_place_up

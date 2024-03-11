@@ -34,10 +34,9 @@ release
 end
 
 Route39_Text_6:
-.string "Desde aquí ya puede verse el FARO\n"
-.string "de CIUDAD OLIVO, ¡pero la TORRE\l"
-.string "CAMPANA sigue siendo más\l"
-.string "impresionante!$"
+	.string "From here, you can already see the\n"
+	.string "OLIVINE CITY LIGHTHOUSE, but the BELL\l"
+	.string "TOWER is more impressive!$"
 
 
 
@@ -74,12 +73,11 @@ release
 end
 
 Route39_Text_12:
-.string "TAUROS y MILTANK cuentan con un\n"
-.string "pariente lejano, llamado\l"
-.string "BOUFFALANT. Es mucho más lento,\l"
-.string "pero aguanta incluso más que\l"
-.string "MILTANK, ¡y embiste más duro que\l"
-.string "TAUROS!$"
+	.string "There's a distant cousin of TAUROS and\n"
+	.string "MILTANK named BOUFFALANT. It's\l"
+	.string "considerably slower but can endure\l"
+	.string "even more than MILTANK and delivers a\l"
+	.string "stronger blow than TAUROS!$"
 
 
 
@@ -119,8 +117,8 @@ msgbox Route39Documento_Text_100, MSGBOX_SIGN
 end
 
 Route39Documento_Text_100:
-	.string "RUTA 39\n"
-	.string "CIUDAD OLIVO - CIUDAD IRIS$"
+	.string "ROUTE 39\n"
+	.string "OLIVINE CITY - ECRUTEAK CITY$"
 
 
 
@@ -129,6 +127,6 @@ msgbox Route39Documento_Text_101, MSGBOX_SIGN
 end
 
 Route39Documento_Text_101:
-	.string "GRANJA MU-MU\n"
-	.string "¡Prueba nuestra rica leche fresca,\l"
-	.string "al mejor precio!$"
+	.string "MOOMOO FARM\n"
+	.string "Try our fresh delicious milk,\l"
+	.string "at the best price!$"
