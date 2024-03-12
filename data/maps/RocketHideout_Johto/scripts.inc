@@ -369,10 +369,24 @@ RocketHideoutJohto_Text_21:
 
 RocketHideoutJohto22::
 lock     
-faceplayer     
+faceplayer 
+compare VAR_UNUSED_0x40F7, 202
+goto_if_gt RocketHideoutJohto22_2    
 msgbox RocketHideoutJohto_Text_22, MSGBOX_DEFAULT
 release     
 end
+
+RocketHideoutJohto22_2::
+msgbox RocketHideoutJohto_Text_22_2, MSGBOX_DEFAULT
+release
+end
+
+RocketHideoutJohto_Text_22_2:
+	.string "Oh, señor. Creí que tenía una\n"
+	.string "importante reunión en la TORRE RADIO\l"
+	.string "TRIGAL. Hemos aprovechado su ausencia\l"
+	.string "para hacer unas obras, para cuando\l"
+	.string "usted termine habremos acabado.$"
 
 RocketHideoutJohto_Text_22:
 .string "Disculpe señor, pero a los pisos\n"
@@ -719,11 +733,11 @@ showmoneybox 0, 0
 msgbox EventScript_Spiritomb_Texto_1 MSGBOX_YESNO
 compare VAR_RESULT, 0
 goto_if_eq EventScript_Compra_No
-checkmoney 115000
+checkmoney 108108
 goto_if_eq VAR_RESULT, FALSE, Tienda_Pokemon_No_Money
 delay 15
 playse SE_SHOP
-removemoney 115000 0
+removemoney 108108 0
 waitse
 updatemoneybox
 delay 20
@@ -855,7 +869,7 @@ EventScript_Axew_Texto_1:
 
 EventScript_Spiritomb_Texto_1:
 .string "¿Seguro que quiere a SPIRITOMB?\n"
-	.string "Costará 115000 POKÉS.$"
+	.string "Costará 108108 POKÉS.$"
 
 EventScript_Turtwig_Texto_1:
 .string "¿Seguro que quiere a TURTWIG?\n"

@@ -74,7 +74,7 @@ SevenIsland_Secundaria_Anciana_Texto_1:
 	.string "más joven{PAUSE 25}…{PAUSE 25} Iba volando de aquí para\l"
 	.string "allá, desafiando a los ENTRENADORES\l"
 	.string "con los que me encontraba. Ahora, me\l"
-	.string "conformo recordando recordando viejos\l"
+	.string "conformo recordando viejos\l"
 	.string "tiempos y viendo combates.$"
 
 SevenIsland_Secundaria_Anciana_Texto_2:

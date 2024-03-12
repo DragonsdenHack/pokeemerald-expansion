@@ -18,6 +18,7 @@ waitfanfare
 giveitem ITEM_MAGNET
 delay 10
 setvar VAR_ROUTE130_STATE, 1
+release
 end
 
 Chica_Iman_2::
