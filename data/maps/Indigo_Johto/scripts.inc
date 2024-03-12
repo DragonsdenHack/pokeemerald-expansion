@@ -9,9 +9,9 @@ release
 end
 
 IndigoJohto_Text_1:
-.string "Discúlpeme, ADMIN.JEFE {PLAYER}, no\n"
-.string "sabía que era usted alguien tan\l"
-.string "importante.$"
+	.string "I'm so sorry, CHIEF ADMIN. {PLAYER}, I\n"
+	.string "didn't know you were someone\l"
+	.string "thisimportant.$"
 
 
 
@@ -23,9 +23,9 @@ release
 end
 
 IndigoJohto_Text_2:
-.string "KANTO y JOHTO de nuevo formando\n"
-.string "una sola LIGA POKÉMON, ¿puedes\l"
-.string "imaginarlo?$"
+	.string "KANTO and JOHTO collaborating for a\n"
+	.string "single POKÉMON LEAGUE, can you imagine\l"
+	.string "it?$"
 
 
 
@@ -37,16 +37,14 @@ release
 end
 
 IndigoJohto_Text_3:
-.string "El MONTE PLATEADO siempre fue la\n"
-.string "gran frontera que marcaba el\l"
-.string "territorio de KANTO y JOHTO.\l"
-.string "Después de que JOHTO ganara la\l"
-.string "guerra se quedó también con la\l"
-.string "disputa de RUTA 26. Tal vez, ahora\l"
-.string "que mejoran las relaciones, esta\l"
-.string "ruta vuelva a considerarse algo\l"
-.string "así como de transición entre ambas\l"
-.string "regiones.$"
+	.string "MOUNT SILVER has always been the great\n"
+	.string "border that delineated the territories\l"
+	.string "of KANTO and JOHTO. After JOHTO won\l"
+	.string "the war, it also retained control of\l"
+	.string "ROUTE 26. Perhaps now, as relations\l"
+	.string "improve, this route may once again be\l"
+	.string "considered a transition between both\l"
+	.string "regions.$"
 
 
 
@@ -58,10 +56,10 @@ release
 end
 
 IndigoJohto_Text_5:
-.string "LANCE debería de pagar\n"
-.string "públicamente por sus crímenes,\l"
-.string "aunque revelar la verdad sería\l"
-.string "demasiado duro para la sociedad.$"
+	.string "LANCE should publicly be held\n"
+	.string "accountable for his crimes, although\l"
+	.string "disclosing the truth might be too harsh\l"
+	.string "for society.$"
 
 
 
@@ -119,52 +117,48 @@ release
 end
 
 Indigo_Johto_Atlas_Texto_1:
-.string "Solo ex-campeones o gente\n"
-	.string "involucrada directamente con este\l"
-	.string "lugar pueden pasar de aquí, son\l"
-	.string "las reglas.$"
+	.string "Only former champions or individuals\n"
+	.string "directly involved with this place are\l"
+	.string "allowed to pass from here; those are\l"
+	.string "the rules.$"
 
 Indigo_Johto_Atlas_Texto_2:
-.string "Cuida tus palabras, POLICÍA, estás\n"
-	.string "hablando con el verdadero CAMPEÓN\l"
-	.string "de KANTO.$"
+	.string "Watch your tone, POLICE, you are\n"
+	.string "talking to the real KANTO CHAMPION.$"
 
 Indigo_Johto_Atlas_Texto_3:
-.string "A-ATLAS, yo no sab...$"
+.string "A-ARCHER, I didn't kn…$"
 
 Indigo_Johto_Atlas_Texto_4:
-.string "ATLAS: Ahora ya lo sabes, ¿tengo\n"
-	.string "que recordarte también que los 3\l"
-	.string "ADMINISTRADORES JEFE del TEAM\l"
-	.string "ROCKET tienen acceso a este lugar?\l"
-	.string "{PLAYER} merece entonces entrar\l"
-	.string "aquí por partida doble.$"
+	.string "ARCHER: Now you know it, do I also need\n"
+	.string "to remind you that the three CHIEF\l"
+	.string "ADMINS. of TEAM ROCKET have free\l"
+	.string "access to this place? {PLAYER} thus\l"
+	.string "deserves to enter here twice over.$"
 
 Indigo_Johto_Atlas_Texto_5:
-.string "Disculpe, señor ATLAS, no volverá a\n"
-	.string "ocurrir.$"
+	.string "I'm really sorry for the misunderstood,\n"
+	.string "mister ARCHER, this won't happen again.$"
 
 Indigo_Johto_Atlas_Texto_6:
-.string "Veo que no malgastas tu tiempo,\n"
-	.string "{PLAYER}, puede que te encuentres\l"
-	.string "con más de una sorpresa aquí.$"
+	.string "I see that you are not wasting your\n"
+	.string "time, {PLAYER}, there is a chance that\l"
+	.string "you find more than a surprise here.$"
 
 Indigo_Johto_Atlas_Texto_7:
-.string "Supongo que lo sabes, pero estamos\n"
-	.string "a escasos metros del acceso a la\l"
-	.string "LIGA POKÉMON de KANTO. GIOVANNI\l"
-	.string "planea unir este punto de control\l"
-	.string "y el de KANTO en uno solo, para\l"
-	.string "así hacer oficial la unión de las\l"
-	.string "2 regiones en una sola LIGA\l"
-	.string "POKÉMON.$"
+	.string "You're probably aware, but we're mere\n"
+	.string "meters away from the entrance to the\l"
+	.string "KANTO POKÉMON LEAGUE. Giovanni intends\l"
+	.string "to combine this checkpoint with the one\l"
+	.string "in KANTO to establish a unified POKÉMON\l"
+	.string "LEAGUE for both regions.$"
 
 Indigo_Johto_Atlas_Texto_8:
-.string "Estamos en plena etapa de\n"
-	.string "transición, {PLAYER}, vivirla desde\l"
-	.string "nuestro prisma será vital para\l"
-	.string "comprender el porqué de muchas\l"
-	.string "cosas en el futuro.$"
+	.string "We are in the midst of a transition\n"
+	.string "period, {PLAYER}, experiencing it from\l"
+	.string "our perspective will be crucial to\l"
+	.string "understanding the reasons behind many\l"
+	.string "things in the future.$"
 
 Indigo_Johto_Atlas_Move_1:
 face_left

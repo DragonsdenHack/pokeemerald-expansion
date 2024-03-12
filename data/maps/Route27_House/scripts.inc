@@ -9,6 +9,6 @@ release
 end
 
 Route27_House1_Text_1:
-.string "Las personas y los POKÉMON se\n"
-.string "enriquecen con la experiencia.\l"
-.string "No seas vago y conformista.$"
+	.string "Both humans and POKÉMON benefit from\n"
+	.string "experience. Avoid laziness and\l"
+	.string "complacency.$"

@@ -77,68 +77,59 @@ MtSilver3_Combate_Rojo_Texto_2:
 .string "¡...!$"
 
 MtSilver3_Combate_Rojo_Texto_3:
-.string "????: {PLAYER}, ¿me equivoco?\n"
-	.string "Ya nos conocemos.$"
+.string "????: {PLAYER}, am I wrong?\n"
+	.string "We already know each other.$"
 
 MtSilver3_Combate_Rojo_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilver3_Combate_Rojo_Texto_5:
-.string "M.DRAGÓN: Esos amigos tuyos\n"
-	.string "deberían saber que el MONTE\l"
-	.string "PLATEADO no es lugar para\l"
-	.string "deshacerse de sus experimentos\l"
-	.string "fallidos, al final acabarán\l"
-	.string "relacionando a esta imitación de\l"
-	.string "ENTRENADOR con una leyenda de\l"
-	.string "verdad.$"
+	.string "DRAGON.M: Your friends should know\n"
+	.string "that MT. SILVER is not the place to\l"
+	.string "dispose of their failed experiments;\l"
+	.string "they'll end up linking this imitation\l"
+	.string "TRAINER with a true legend.$"
 
 MtSilver3_Combate_Rojo_Texto_6:
-.string "El MAESTRO de CIUDAD IRIS me ha\n"
-	.string "hablado de ti, al parecer tienes\l"
-	.string "un don para el combate POKÉMON,\l"
-	.string "jamás podrías haberle parado los\l"
-	.string "pies a mi alumno, LANCE, de no ser\l"
-	.string "así.$"
+	.string "The MASTER of ECRUTEAK CITY told me\n"
+	.string "about you; apparently, you have a great\l"
+	.string "talent for POKÉMON battles. You could\l"
+	.string "never have stood up to my student\l"
+	.string "LANCE if that weren't the case.$"
 
 MtSilver3_Combate_Rojo_Texto_7:
-.string "JOHTO jamás quiso entrar en guerra\n"
-	.string "con KANTO, pero ese LANCE nos\l"
-	.string "engañó a todos con la verdadera\l"
-	.string "situación de la región vecina.$"
+	.string "JOHTO never wanted to go to war with\n"
+	.string "KANTO, but LANCE deceived us all about\l"
+	.string "the true situation in the neighboring\l"
+	.string "region.$"
 
 MtSilver3_Combate_Rojo_Texto_8:
-.string "Lo que hiciste fue histórico, sí,\n"
-	.string "pero la pregunta es: ¿lo hiciste\l"
-	.string "por el bien de KANTO?, ¿o para\l"
-	.string "cambiar una dictadura por otra?$"
+	.string "It was a historic act, no doubt, but the\n"
+	.string "real question is: Did you do it for the\l"
+	.string "benefit of KANTO, or to swap one\l"
+	.string "dictatorship for another?$"
 
 MtSilver3_Combate_Rojo_Texto_9:
-.string "Sea como sea, claro está que eres\n"
-	.string "alguien que honra al combate\l"
-	.string "POKÉMON en todos sus sentidos,\l"
-	.string "respetas e intentas humildemente\l"
-	.string "aprender de aquellos que forjaron\l"
-	.string "esta antigua región, y eso aquí lo\l"
-	.string "apreciamos mucho.$"
+	.string "Regardless, it's evident that you\n"
+	.string "uphold POKÉMON battles in all their\l"
+	.string "aspects, showing respect and a humble\l"
+	.string "willingness to learn from those who\l"
+	.string "forged this ancient region, which we\l"
+	.string "highly value here.$"
 
 MtSilver3_Combate_Rojo_Texto_10:
-.string "Es por ello que yo, junto con el\n"
-	.string "GRAN MAESTRO de CIUDAD IRIS, te\l"
-	.string "invito a visitar TORRE CAMPANA,\l"
-	.string "subir hasta su cima y contemplar\l"
-	.string "JOHTO desde una posición que nunca\l"
-	.string "antes habías visto.$"
+	.string "That's why I, along with the GRAND\n"
+	.string "MASTER of ECRUTEAK CITY, invite you to\l"
+	.string "visit BELL TOWER, climb to its peak, and\l"
+	.string "behold JOHTO from a vantage point\l"
+	.string "you've never seen before.$"
 
 MtSilver3_Combate_Rojo_Texto_11:
-.string "Tal vez, mi viejo amigo se anime\n"
-	.string "incluso a darte un par de\l"
-	.string "lecciones sobre el combate.\l"
-	.string "Después de todo, alguien tiene que\l"
-	.string "conservar nuestra técnica cuando\l"
-	.string "ya no estemos.\l"
-	.string "¿No lo crees tú así?\l"
-	.string "¿CAMPEÓN?$"
+	.string "Maybe my old buddy will be up for giving\n"
+	.string "you a few pointers on battling.\l"
+	.string "Someone's gotta carry on our technique\l"
+	.string "once we're gone. Don't you agree?\l"
+	.string "CHAMPION?$"
 
 MtSilver3_Combate_Rojo_Move_1:
 face_up

@@ -9,11 +9,9 @@ release
 end
 
 Pass_Route42_Text_1:
-.string "Puede ver al gran ANÍBAL\n"
-.string "entrenarse en las profundidades\l"
-.string "del MONTE MORTERO.\l"
-.string "¡Sus POKÉMON tienen una fuerza\l"
-.string "impresionante!$"
+	.string "I saw how the grand ANÍBAL was training\n"
+	.string "deep within MT. MORTAR. His POKÉMON\l"
+	.string "possess impressive strength!$"
 
 
 
@@ -25,12 +23,11 @@ release
 end
 
 Pass_Route42_Text_2:
-.string "Mi arte aún no es digno de\n"
-.string "reproducir ese atardecer\l"
-.string "cerniéndose bajo la imponente\l"
-.string "TORRE CAMPANA de CIUDAD IRIS…\l"
-.string "Creo que volveré en un par de\l"
-.string "años.$"
+	.string "My skills are not yet sufficient to\n"
+	.string "reproduce the essence of that sunset\l"
+	.string "casting its glow beneath the majestic\l"
+	.string "BELL TOWER of ECRUTEAK CITY… Perhaps\l"
+	.string "I'll return in a couple of years.$"
 
 
 
@@ -42,7 +39,6 @@ release
 end
 
 Pass_Route42_Text_3:
-.string "El MONTE MORTERO es como un gran\n"
-.string "laberinto, algunos se pierden\l"
-.string "allí, otros lo usan para entrenar\l"
-.string "y fortalecerse.$"
+	.string "MT.MORTAR is like a vast labyrinth; some\n"
+	.string "get lost there, while others use it to\l"
+	.string "train and grow stronger.$"

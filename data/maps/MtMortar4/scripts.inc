@@ -160,54 +160,51 @@ release
 end
 
 MtMortar4_Encuentro_Anibal_Texto_1:
-.string "????: ¡Vamos, MACHOKE!\n"
-	.string "¡No te reserves, da todo lo que\l"
-	.string "tienes!$"
+.string "????: Come on, MACHOKE!\n"
+	.string "Don't hesitate, try to do your best!$"
 
 MtMortar4_Encuentro_Anibal_Texto_2:
-.string "¡Choke!$"
+.string "Choke!$"
 
 MtMortar4_Encuentro_Anibal_Texto_3:
-.string "Suficiente.$"
+.string "Enough.$"
 
 MtMortar4_Encuentro_Anibal_Texto_4:
-.string "Llevamos horas luchando, toca la\n"
-	.string "fase de recuperación bajo la\l"
-	.string "cascada.$"
+	.string "We've been fighting for hours, it's time\n"
+	.string "for the recovery phase under the\l"
+	.string "waterfall.$"
 
 MtMortar4_Encuentro_Anibal_Texto_5:
 .string "????: ...$"
 
 MtMortar4_Encuentro_Anibal_Texto_6:
-.string "¿Quién anda ahí?\n"
-	.string "¡Vamos, no te escondas!$"
+.string "Who's there?\n"
+	.string "Come on, don't hide!$"
 
 MtMortar4_Encuentro_Anibal_Texto_7:
-.string "Así que buscas al LÍDER ANÍBAL.\n"
-	.string "Pues lo tienes delante.$"
+.string "So you are searching for LEADER CHUCK.\n"
+	.string "Well, is in front of you right now.$"
 
 MtMortar4_Encuentro_Anibal_Texto_8:
-.string "ANÍBAL: ¿Mi mujer quiere que\n"
-	.string "regrese ya a ORQUÍDEA?$"
+.string "CHUCK: My wife wants me to\n"
+	.string "return CIANWOOD now?$"
 
 MtMortar4_Encuentro_Anibal_Texto_9:
-.string "De todos modos, iba a volver ya,\n"
-	.string "este entrenamiento en el\l"
-	.string "MT.MORTERO me ha dejado claro que\l"
-	.string "ya no puedo seguir el ritmo de mis\l"
-	.string "POKÉMON. Ningún luchador que se\l"
-	.string "precie permitiría esto sin tomar\l"
-	.string "una decisión al respecto.$"
+	.string "Anyway, I was about to return there;\n"
+	.string "this training in MT. MORTAR has made it\l"
+	.string "clear to me that I can no longer keep up\l"
+	.string "with my POKÉMON. No self-respecting\l"
+	.string "fighter would allow this without making\l"
+	.string "a decision about it.$"
 
 MtMortar4_Encuentro_Anibal_Texto_10:
-.string "Volveré a mi GIMNASIO. No tengo\n"
-	.string "por costumbre usar a mis más\l"
-	.string "fieles compañeros en un combate,\l"
-	.string "pero si vienes, te daré un combate\l"
-	.string "que merecerá la pena. Si has\l"
-	.string "podido llegar a los confines del\l"
-	.string "MT.MORTERO, debes ser un notable\l"
-	.string "ENTRENADOR, lo veremos.$"
+	.string "I'll head back to my GYM. It's not my\n"
+	.string "habit to deploy my most faithful\l"
+	.string "partners in battle, but if you come, I'll\l"
+	.string "offer you a fight that will be worth it.\l"
+	.string "If you've made it to the far reaches of\l"
+	.string "MT. MORTAR, you must be an exceptional\l"
+	.string "TRAINER; let's find out.$"
 
 MtMortar4_Encuentro_Anibal_Move_1:
 emote_exclamation_mark

@@ -24,10 +24,9 @@ release
 end
 
 Route27_Text_1:
-.string "La RUTA 26 ha sido abierta de\n"
-.string "nuevo, pero ve con cuidado, los\l"
-.string "POKÉMON salvajes tienen que\l"
-.string "acostumbrarse a ver ENTRENADORES.$"
+	.string "ROUTE 26 has been reopened, but\n"
+	.string "proceed with caution; wild POKÉMON need\l"
+	.string "time to get used to seeing trainers.$"
 
 
 
@@ -274,8 +273,8 @@ release
 end
 
 Route27_Cartel_Texto_2:
-.string "(Esto último está tachado)$"
+.string "(This last thing is strikethrough).$"
 
 Route27_Cartel_Texto_1:
-.string "FRONTERA CON KANTO: PROHIBIDO PASAR A\n"
-	.string "PARTIR DE ESTE PUNTO$"
+.string "KANTO BORDER: FORBIDDEN TO\n"
+	.string "GO FURTHER THAN THIS POINT.$"

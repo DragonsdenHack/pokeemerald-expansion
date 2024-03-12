@@ -39,11 +39,11 @@ release
 end
 
 Route42_Text_7:
-.string "Nuestro LÍDER, FREDO, tiene una\n"
-.string "importante cita en TRIGAL, y nos\l"
-.string "ha pedido que cerremos PUEBLO\l"
-.string "CAOBA en su ausencia. A su regreso,\l"
-.string "podrás visitar CAOBA.$"
+	.string "Our LEADER, PRYCE, has an important\n"
+	.string "appointment in GOLDENROD, and he has\l"
+	.string "asked us to close MAHOGANY TOWN in his\l"
+	.string "absence. Upon his return, you can visit\l"
+	.string "MAHOGANY TOWN.$"
 
 
 
@@ -55,11 +55,11 @@ release
 end
 
 Route42_Text_8:
-.string "Nuestro LÍDER, FREDO, tiene una\n"
-.string "importante cita en TRIGAL, y nos\l"
-.string "ha pedido que cerremos PUEBLO\l"
-.string "CAOBA en su ausencia. A su regreso,\l"
-.string "podrás visitar CAOBA.$"
+	.string "Our LEADER, PRYCE, has an important\n"
+	.string "appointment in GOLDENROD, and he has\l"
+	.string "asked us to close MAHOGANY TOWN in his\l"
+	.string "absence. Upon his return, you can visit\l"
+	.string "MAHOGANY TOWN.$"
 
 
 
@@ -71,11 +71,11 @@ release
 end
 
 Route42_Text_9:
-.string "Nuestro LÍDER, FREDO, tiene una\n"
-.string "importante cita en TRIGAL, y nos\l"
-.string "ha pedido que cerremos PUEBLO\l"
-.string "CAOBA en su ausencia. A su regreso,\l"
-.string "podrás visitar CAOBA.$"
+	.string "Our LEADER, PRYCE, has an important\n"
+	.string "appointment in GOLDENROD, and he has\l"
+	.string "asked us to close MAHOGANY TOWN in his\l"
+	.string "absence. Upon his return, you can visit\l"
+	.string "MAHOGANY TOWN.$"
 
 
 
@@ -117,8 +117,8 @@ msgbox Route42Documento_Text_100, MSGBOX_SIGN
 end
 
 Route42Documento_Text_100:
-	.string "MONTE MORTERO\n"
-	.string "Cueva Cascada Interior$"
+	.string "MT.MORTAR\n"
+	.string "WATERFALL CAVE INSIDE$"
 
 
 
@@ -127,5 +127,5 @@ msgbox Route42Documento_Text_101, MSGBOX_SIGN
 end
 
 Route42Documento_Text_101:
-	.string "RUTA 42\n"
-	.string "CIUDAD IRIS-PUEBLO CAOBA$"
+	.string "ROUTE 42\n"
+	.string "ECRUTEAK CITY - MAHOGANY TOWN$"

@@ -14,9 +14,9 @@ release
 end
 
 NewBarkTown_ElmLaboratory_Text_2:
-.string "¡Hay mucho por hacer!\n"
-.string "¡Toda la región ha de ser\l"
-.string "acomodada para ello!$"
+.string "There's a lot of work to do!\n"
+.string "The entire region must be\l"
+.string "accommodated for it!$"
 
 
 
@@ -28,9 +28,8 @@ release
 end
 
 NewBarkTown_ElmLaboratory_Text_3:
-.string "Oh, debes de ser {PLAYER}, ¿verdad?\n"
-.string "¿Cómo es estar en presencia de\l"
-.string "OAK?$"
+.string "Oh, you must be {PLAYER}. aren't you?\n"
+.string "How does it feel to stay in front of OAK?$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm::
 lock
@@ -59,8 +58,8 @@ release
 end
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6.1:
-.string "¡Obtuviste AERODACTYLITA de manos\n"
-	.string "de PROFESOR ELM!$"
+.string "You obtained an AERODACTYLITE\n"
+	.string "from PROFESSOR ELM!!$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_No::
 msgbox NewBarkTown_ElmLaboratory_Combate_Elm_Texto_8 MSGBOX_AUTOCLOSE
@@ -68,55 +67,52 @@ release
 end
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_1:
-.string "El TEAM ROCKET ha logrado algo que\n"
-	.string "hace un par de años parecía\l"
-	.string "impensable. No solo que KANTO y\l"
-	.string "JOHTO comienzen a remar en una\l"
-	.string "sola dirección, también que sus\l"
-	.string "más influyentes personajes\l"
-	.string "trabajen a una.$"
+	.string "The TEAM ROCKET has achieved what\n"
+	.string "seemed impossible just a couple of\l"
+	.string "years ago. Not only are KANTO and JOHTO\l"
+	.string "starting to align their efforts, but\l"
+	.string "also their most influential figures are\l"
+	.string "collaborating.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_2:
-.string "Dime, {PLAYER}, ¿te gustaría ver\n"
-	.string "los últimos avances tecnológicos\l"
-	.string "que hemos logrado?$"
+	.string "Tell me, {PLAYER}, would you like to\n"
+	.string "see the recent progress that we have\l"
+	.string "achieved?$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_3:
-.string "¿Y ahora qué?\n"
-	.string "¡A trabajar en el futuro, 2 años y\l"
-	.string "no reconoceremos la tierra sobre\l"
-	.string "la que hoy andamos!$"
+	.string "What is going to happen now? Let's get\n"
+	.string "to work on the future, in 2 years, we\l"
+	.string "won't recognize the land we walk on\l"
+	.string "today!$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_4:
-.string "No esperaba menos, ¡mi ejército de\n"
-	.string "prototipos está listo!$"
+	.string "I didn't expect less, my prototypes\n"
+	.string "army is ready!$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_5:
-.string "Juntas tecnología con técnica,\n"
-	.string "interesante.$"
+	.string "You combine the technology with\n"
+	.string "technique, it is pretty interesting.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6:
-.string "Esto es lo que ocurre cuando todos\n"
-	.string "ponen un poco de su parte, {PLAYER}.\l"
-	.string "El PORYGON3 de BILL, así como el\l"
-	.string "MAGMORTAR-Y de BLAINE, los\l"
-	.string "experimentos de OAK... Todos\l"
-	.string "trabajan ahora para KANTO y JOHTO,\l"
-	.string "la unión de las dos regiones será\l"
-	.string "la principal potencia del mundo\l"
-	.string "POKÉMON, y tú, uno de sus más\l"
-	.string "altos cargos. Por ello, quiero que\l"
-	.string "tengas esto.$"
+	.string "When everyone contributes a little,\n"
+	.string "{PLAYER}, this is the result. BILL's\l"
+	.string "PORYGON3, BLAINE's MAGMORTAR-Y, OAK's\l"
+	.string "experiments… They're all now part of\l"
+	.string "KANTO and JOHTO's efforts. The\l"
+	.string "collaboration between these two\l"
+	.string "regions will make them the dominant\l"
+	.string "force in the POKÉMON world, and you'll\l"
+	.string "be among their top leaders. That's why\l"
+	.string "I'm giving you this.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_7:
-.string "El principal colaborador de BILL\n"
-	.string "logró desarrollar esta MEGAPIEDRA,\l"
-	.string "que devuelve a AERODACTYL el\l"
-	.string "95% de sus cualidades en estado\l"
-	.string "primigenio. Me dijo que te\l"
-	.string "regalase una en caso de verte.$"
+	.string "BILL's main collaborator managed to\n"
+	.string "develop this MEGA STONE, which restores\l"
+	.string "AERODACTYL to 95% of its primal state.\l"
+	.string "He told me to give you one if I saw you.$"
 
 NewBarkTown_ElmLaboratory_Combate_Elm_Texto_8:
-.string "Pse, tú mismo, creí que te llamaba\n"
-	.string "lo extraordinario.$"
+	.string "Hmphf, it is your choice, I thought you\n"
+	.string "were interested in extraordinary\l"
+	.string "things.$"
 

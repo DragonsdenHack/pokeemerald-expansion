@@ -191,91 +191,84 @@ Cianwood_Gym_Combate_Anibal_3_Texto_3:
 	.string "competitive aspirations.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_4:
-.string "Entonces, ¿cuál es el motivo de tu\n"
-	.string "visita?$"
+	.string "So, what is the real reason for your\n"
+	.string "visit?$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_5:
 .string "…$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_6:
-.string "Mmm, ya veo, lo que me dices es cierto,\n"
-	.string "ese lugar existe. Fue descubierto por\l"
-	.string "los más avezados MONTAÑEROS de esta\l"
-	.string "ciudad. Pero la historia de ese lugar es\l"
-	.string "mucho más antigua.$"
+	.string "Mmm, I see, what you're saying is true,\n"
+	.string "that place exists. It was discovered by\l"
+	.string "the most skilled HIKERS of this city.\l"
+	.string "But the history of the origin of that\l"
+	.string "place is much older.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_7:
-.string "En su día yo mismo entré, hace ya\n"
-	.string "décadas, actualmente no sabría\l"
-	.string "decirte el lugar exacto. Sin embargo, sé\l"
-	.string "de alguien que lo conoce a la\l"
-	.string "perfección.$"
+	.string "In the past, I explored it myself,\n"
+	.string "decades ago, I wouldn't be able to tell\l"
+	.string "you the exact location now. However, I\l"
+	.string "know someone who knows it perfectly.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_8:
-.string "El habitante de la pequeña casita que\n"
-	.string "hay al norte de la ciudad ha vuelto, él\l"
-	.string "suele visitar la zona. Seguro que\l"
-	.string "estará encantado de acompañarte, a\l"
-	.string "poco que te conozca. ¡Buena suerte\l"
-	.string "{PLAYER}!$"
+	.string "The inhabitant of the small house north\n"
+	.string "of the city has returned, he often\l"
+	.string "visits the area. I'm certain he'd be\l"
+	.string "pleased to join you, once he gets to\l"
+	.string "know you better. Good luck, {PLAYER}!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_1:
-.string "ANÍBAL: Ah, {PLAYER}, ¿no?\n"
-	.string "Bienvenido a mi humilde GIMNASIO.$"
+.string "CHUCK: Ah. {PLAYER}, right?\n"
+	.string "Welcome to my humble GYM.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_2:
-.string "Aquí, humanos y POKÉMON pelean como\n"
-	.string "iguales. Una de nuestras máximas\l"
-	.string "es que si no puedes predicar con\l"
-	.string "el ejemplo y seguir el ritmo a\l"
-	.string "tus propios POKÉMON, no eres digno\l"
-	.string "de continuar entrenándolos.$"
+	.string "Here, humans and POKÉMON battle as\n"
+	.string "equals. One of our principles is that if\l"
+	.string "you can't lead by example and keep up\l"
+	.string "with your own POKÉMON, you're not\l"
+	.string "worthy of continuing to train them.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_3:
-.string "Por ello, hablar de ENTRENADORES y\n"
-	.string "POKÉMON pierde su sentido. Todos\l"
-	.string "aprendemos y mejoramos juntos, de\l"
-	.string "forma que al combatir frente a\l"
-	.string "otros actuamos como un único\l"
-	.string "cuerpo.$"
+	.string "Therefore, talking about TRAINERS and\n"
+	.string "POKÉMON loses its meaning. We all learn\l"
+	.string "and improve together, so when we battle\l"
+	.string "against others, we act as a single\l"
+	.string "entity.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_4:
 .string "...$"
 
 Cianwood_Gym_Combate_Anibal_Texto_5:
-.string "Lamentablemente, la edad me ha\n"
-	.string "alcanzado. No la vejez, pero si el\l"
-	.string "fin de mi plenitud física. A mis\l"
-	.string "51 años, he hecho todo lo posible\l"
-	.string "para mantenerme al nivel de mis\l"
-	.string "mejores POKÉMON, y he comprobado\l"
-	.string "que físicamente ya no puedo dar el\l"
-	.string "100%.$"
+	.string "Unfortunately, age has caught up with\n"
+	.string "me. Not old age, but the end of my\l"
+	.string "physical prime. At 51 years old, I've\l"
+	.string "done everything possible to keep up\l"
+	.string "with my top POKÉMON, and I've come to\l"
+	.string "realize that I can no longer give 100%\l"
+	.string "physically.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_6:
-.string "Me cuesta más recuperarme de\n"
-	.string "grandes esfuerzos, también\l"
-	.string "arrancar antes de realizarlos,\l"
-	.string "pero te diré una cosa: ¡en el\l"
-	.string "fragor del combate sigo siendo el\l"
-	.string "mismo de siempre!$"
+	.string "Recovering from big efforts takes me\n"
+	.string "longer now, and I struggle to start\l"
+	.string "before doing it, but I'll tell you\l"
+	.string "something: when it comes to battle, I'm\l"
+	.string "still the same old me.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_7:
-.string "Sí, ¡sabía que podía volver a este\n"
-	.string "nivel!$"
+	.string "Hell yeah, I knew that I was able to\n"
+	.string "reach this level once again!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_8:
-.string "Eres un gran ENTRENADOR, {PLAYER},\n"
-	.string "justo el reto que necesitaba para\l"
-	.string "saber exactamente en qué punto\l"
-	.string "estoy. Me has hecho ver que aún\l"
-	.string "puedo aguantar un poco más, antes\l"
-	.string "de que mis mejores POKÉMON\l"
-	.string "prosigan su viaje sin mí.$"
+	.string "You're a great TRAINER, {PLAYER},\n"
+	.string "just the challenge I needed to know\l"
+	.string "exactly what my skill level is now.\l"
+	.string "You've shown me that I can still hold on\l"
+	.string "a little longer before my best POKÉMON\l"
+	.string "continue their journey without me.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9:
-	.string "No hay duda, ¡mereces portar nuestro\n"
-	.string "emblema!$"
+	.string "I'd like you to keep this POKÉMON; it has\n"
+	.string "great fighting abilities.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9.1:
 	.string "Toma, aquí tienes la\n"
@@ -287,21 +280,21 @@ Cianwood_Gym_Combate_Anibal_Texto_9.2:
 	.string "para la lucha.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_10:
-.string "¡¡OBTUVISTE UN STUFFUL AL Nv.25!!$"
+.string "YOU OBTAINED AN STUFFUL AT LV.25!!$"
 
 Cianwood_Gym_Combate_Anibal_Texto_11:
-.string "No encontrarás en todo KANTO o\n"
-	.string "JOHTO un POKÉMON LUCHA así. Tiene\l"
-	.string "el don de encajar golpes físicos\l"
-	.string "como ningún otro, al tiempo que\l"
-	.string "pega durísimo.$"
+	.string "You won't find a FIGHTING TYPE POKÉMON\n"
+	.string "like this anywhere in KANTO or JOHTO. It\l"
+	.string "has the knack for taking physical hits\l"
+	.string "like no other while delivering powerful\l"
+	.string "blows.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_12:
-.string "Creo que podré aguantar 1 año más,\n"
-	.string "pasado ese tiempo liberaré a mis\l"
-	.string "POKÉMON y comenzaré de 0 con un\l"
-	.string "MANKEY y un POLIWAG, sin\l"
-	.string "pretensiones ni presión alguna.$"
+	.string "I think I can hold on for one more year;\n"
+	.string "after that, I'll release my POKÉMON and\l"
+	.string "start fresh with a MANKEY and a\l"
+	.string "POLIWAG, without any pretensions or\l"
+	.string "pressure.$"
 
 CianwoodGym_Gym_Dude::
 lock
@@ -318,29 +311,25 @@ release
 end
 
 CianwoodGym_Gym_Dude_Texto_1:
-.string "Parece que ANÍBAL va a tomárselo\n"
-	.string "en serio contigo, chico. Si quieres\l"
-	.string "tener opciones deberías hacerme\l"
-	.string "caso y evitar el cuerpo a cuerpo a\l"
-	.string "toda cosa, ANÍBAL es\l"
-	.string "indestructible por ese lado.\l"
-	.string "Céntrate en ataques del TIPO\l"
-	.string "PSÍQUICO o VOLADOR a distancia.\l"
-	.string "POKÉMON con INTIMIDACIÓN, CASCO\l"
-	.string "DENTADO y con gran resistencia por\l"
-	.string "el lado físico podrán servirte\l"
-	.string "para frenar la portentosa fuerza\l"
-	.string "de sus TIPO LUCHA mejor\l"
-	.string "entrenados.\l"
-	.string "¡Espero que ofrezcas un gran\l"
-	.string "espectáculo!$"
+	.string "It looks like CHUCK is going to take you\n"
+	.string "seriously, kid. If you want a chance,\l"
+	.string "you should listen to me and avoid close\l"
+	.string "combat at all costs. CHUCK is\l"
+	.string "indestructible in that regard. Focus on\l"
+	.string "long-range PSYCHIC or FLYING TYPE\l"
+	.string "attacks. Using POKÉMON with\l"
+	.string "INTIMIDATE, ROCKY HELMET, and\l"
+	.string "significant physical resilience will\l"
+	.string "help you better counter the formidable\l"
+	.string "force of his expertly trained FIGHTING\l"
+	.string "TYPE POKÉMON. I hope you make a great\l"
+	.string "show!$"
 
 CianwoodGym_Gym_Dude_Texto_2:
-.string "¡Vaya intercambio de golpes!\n"
-	.string "¡Los POKÉMON de ANÍBAL casi acaban\l"
-	.string "partiendo el GIMNASIO por la mitad\l"
-	.string "intentando tumbar a los tuyos!\l"
-	.string "¡Tienes un talento inmenso!$"
+	.string "What an intense battle! CHUCK's\n"
+	.string "POKÉMON almost broke the GYM in half\l"
+	.string "trying to defeat yours! You're\l"
+	.string "incredibly talented!$"
 
 
 
@@ -360,13 +349,15 @@ end
 
 
 CianwoodGym_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de CIUDAD ORQUÍDEA: ANÍBAL\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "(¡Está vacío!)$"
+	.string "CIANWOOD POKÉMON GYM\n"
+	.string "LEADER: CHUCK\p"
+	.string "WINNING TRAINERS:\n"
+	.string "(It is empty!)$"
+
 
 CianwoodGym_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de CIUDAD ORQUÍDEA: ANÍBAL\p"
-	.string "ENTRENADORES GANADORES:\n"
+	.string "CIANWOOD POKÉMON GYM\n"
+	.string "LEADER: CHUCK\p"
+	.string "WINNING TRAINERS:\n"
 	.string "{PLAYER}$"
+

@@ -14,10 +14,10 @@ msgbox Route26House1_Texto_2 MSGBOX_AUTOCLOSE
 end
 
 Route26House1_Texto_1:
-.string "Tienes pinta de estar cansado,\n"
-	.string "deja que cure a tu equipo...$"
+.string "Your POKÉMON look a little tired.\n"
+	.string "You should rest them a while.$"
 
 Route26House1_Texto_2:
-.string "¡Y listo!\n"
-	.string "¡Todos tus POKÉMON están en plena\l"
-	.string "forma de nuevo!$"
+.string "There!\n"
+	.string "Your POKÉMON are looking good! \l"
+	.string "Keep at it!$"

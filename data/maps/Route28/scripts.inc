@@ -22,7 +22,7 @@ msgbox Route28Documento_Text_100, MSGBOX_SIGN
 end
 
 Route28Documento_Text_100:
-.string "RUTA 28$"
+.string "ROUTE 28$"
 
 
 Route28_Escena_Lance::

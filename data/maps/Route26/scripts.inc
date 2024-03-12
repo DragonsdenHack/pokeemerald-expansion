@@ -108,6 +108,6 @@ msgbox Route26Documento_Text_100, MSGBOX_SIGN
 end
 
 Route26Documento_Text_100:
-	.string "RUTA 26\n"
-	.string "RECEPCIÓN DE LA LIGA POKÉMON$"
+	.string "ROUTE 26\n"
+	.string "POKÉMON LEAGUE RECEPTION GATE$"
 

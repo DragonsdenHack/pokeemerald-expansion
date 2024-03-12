@@ -14,10 +14,10 @@ release
 end
 
 NewBarkTown_Text_1:
-.string "Ya hemos construido la base del\n"
-.string "pueblo, ahora queda lo más\l"
-.string "difícil. Confiamos en que OAK nos\l"
-.string "ayude con la IA.$"
+	.string "The town's foundation has been laid,\n"
+	.string "and now the toughest part remains.\l"
+	.string "We're counting on OAK to assist us with\l"
+	.string "the AI.$"
 
 
 NewBarkTown2::
@@ -28,10 +28,9 @@ release
 end
 
 NewBarkTown_Text_2:
-.string "¡Y en menos de 3 años, todo listo\n"
-.string "para iniciar el SHOW DE TRUMAN!\l"
-.string "¡Oh, perdón!\l"
-.string "¡No debí decir eso!$"
+	.string "And in less than 3 years, everything's\n"
+	.string "ready to start THE TRUMAN SHOW! Oops!\l"
+	.string "Sorry! I shouldn't have said that!$"
 
 NewBarkTown3::
 end
@@ -85,63 +84,55 @@ release
 end
 
 NewBarkTown_Encuentro_Elm_Texto_1:
-.string "ELM: ¿Tú también, {PLAYER}?$"
+.string "ELM: You too, {PLAYER}?$"
 
 NewBarkTown_Encuentro_Elm_Texto_2:
-.string "Apenas han abierto las fronteras y\n"
-	.string "esta zona se ha llenado de\l"
-	.string "curiosos buscando ser los primeros\l"
-	.string "en visitar unas rutas 26 y 27 que\l"
-	.string "se han mantenido lejos del\l"
-	.string "contacto humano por años,\l"
-	.string "exceptuando los pocos que ya\l"
-	.string "vivían allí...$"
+	.string "With the borders just recently opened\n"
+	.string "and this area is filled with curious\l"
+	.string "individuals eager to be the first to\l"
+	.string "visit routes 26 and 27, which have\l"
+	.string "remained untouched by human contact\l"
+	.string "for years, except for the few who\l"
+	.string "already lived there…$"
 
 NewBarkTown_Encuentro_Elm_Texto_3:
-.string "Aunque tú eres diferente, supongo\n"
-	.string "que no vas a explorar RUTA 26 o\l"
-	.string "27, sino hacia el MONTE PLATEADO,\l"
-	.string "¿me equivoco?$"
+	.string "You're unlike the others, aren't you? I\n"
+	.string "assume you're not venturing to ROUTE\l"
+	.string "26 or 27, instead you are going to MT.\l"
+	.string "SILVER, right?$"
 
 NewBarkTown_Encuentro_Elm_Texto_4:
-.string "Debo admitir que me has\n"
-	.string "sorprendido, 5 LÍDERES de JOHTO\l"
-	.string "ya...\l"
-	.string "Cuando GIOVANNI me habló de ti,\l"
-	.string "creí que estaba exagerando. Ahora\l"
-	.string "veo que no hay alguien mejor que\l"
-	.string "tú para recorrer JOHTO y enfrentar\l"
-	.string "a sus LÍDERES del pasado, antes de\l"
-	.string "que sus legados se pierdan para\l"
-	.string "siempre.$"
+	.string "I must admit, you've surprised me, 5\n"
+	.string "JOHTO LEADERS already… When GIOVANNI\l"
+	.string "talked to me about you, I thought he\l"
+	.string "was exaggerating. Now I see there's no\l"
+	.string "one better than you to travel through\l"
+	.string "JOHTO and face its past LEADERS before\l"
+	.string "their legacies are lost forever.$"
 
 NewBarkTown_Encuentro_Elm_Texto_5:
-.string "Ah, sí, esta zona será uno de los\n"
-	.string "campos de investigación que\l"
-	.string "montaremos y que será financiada\l"
-	.string "con los recursos de los que\l"
-	.string "GIOVANNI habló en la reunión de\l"
-	.string "TRIGAL. Ahora mismo, vuestro LÍDER\l"
-	.string "es reacio a que esta investigación\l"
-	.string "siga adelante, pero OAK, que\l"
-	.string "también está muy interesado en\l"
-	.string "ella, y yo, acabaremos\l"
-	.string "convenciéndolo, ya verás. Será muy\l"
-	.string "divertido ver todo en acción si\l"
-	.string "finalmente se da, como un juego,\l"
-	.string "pero en la vida real.$"
+	.string "Ah, yes, this area will be one of the\n"
+	.string "research fields we'll set up, funded\l"
+	.string "with the resources GIOVANNI talked\l"
+	.string "about at the GOLDENROD meeting. Right\l"
+	.string "now, your LEADER is hesitant about\l"
+	.string "pushing this research forward, but OAK,\l"
+	.string "who is also very interested in it, and I,\l"
+	.string "will eventually convince him, you'll see.\l"
+	.string "It'll be quite exciting to see\l"
+	.string "everything in action if it does come to\l"
+	.string "fruition, like a game, but in real life.$"
 
 NewBarkTown_Encuentro_Elm_Texto_6:
-.string "No te entretengo más. Si quieres\n"
-	.string "algo de mi, estaré en el\l"
-	.string "laboratorio. Puedes curar a tus\l"
-	.string "POKÉMON allí si lo deseas. Estaré\l"
-	.string "siguiendo tus pasos muy de cerca.\l"
-	.string "Si de verdad logras enfrentar a\l"
-	.string "los LÍDERES que asistieron a la\l"
-	.string "reunión de TRIGAL, no puedo\l"
-	.string "esperar a ver los resultados que\l"
-	.string "arrojen sus mejores POKÉMON.$"
+	.string "I won't keep you any longer. If you need\n"
+	.string "anything from me, I'll be in the\l"
+	.string "laboratory. You can heal your POKÉMON\l"
+	.string "there if you wish. I'll be closely\l"
+	.string "monitoring your progress. If you truly\l"
+	.string "manage to confront the LEADERS who\l"
+	.string "attended the GOLDENROD meeting, I'm\l"
+	.string "eager to see the outcomes their top\l"
+	.string "POKÉMON yield.$"
 
 NewBarkTown_Encuentro_Elm_Move_1:
 walk_in_place_right

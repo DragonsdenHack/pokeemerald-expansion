@@ -9,11 +9,11 @@ release
 end
 
 RocketHideoutP1_Text_1:
-.string "La ausencia generalizada de estrés\n"
-.string "salpicada de breves momentos de\l"
-.string "estrés extremo es infinitamente\l"
-.string "mejor que el hecho de vivir con\l"
-.string "algo de estrés todo el tiempo.$"
+	.string "The widespread absence of stress\n"
+	.string "punctuated by brief moments of\l"
+	.string "extreme stress is infinitely better\l"
+	.string "than living with some level of stress all\l"
+	.string "the time.$"
 
 
 
@@ -25,15 +25,12 @@ release
 end
 
 RocketHideoutP1_Text_2:
-.string "Con nuestra tecnología hemos\n"
-.string "podido replicar varias de las\l"
-.string "MEGAPIEDRAS que muy rara vez\l"
-.string "pueden encontrarse en la\l"
-.string "naturaleza, incluso hemos podido\l"
-.string "crear algunas nuevas para POKÉMON\l"
-.string "con el potencial de la\l"
-.string "MEGAEVOLUCIÓN, como FLYGON o\l"
-.string "MILOTIC.$"
+	.string "With our technology, we've been able to\n"
+	.string "replicate several of the MEGA STONES\l"
+	.string "that are very rarely found in nature.\l"
+	.string "We've even created some new ones for\l"
+	.string "POKÉMON with MEGA EVOLUTION potential,\l"
+	.string "such as FLYGON or MILOTIC.$"
 
 
 
@@ -45,14 +42,13 @@ release
 end
 
 RocketHideoutP1_Text_3:
-.string "Aquí estamos convirtiendo la\n"
-.string "excelencia y la perfección en la\l"
-.string "norma, ¿no encuentras eso\l"
-.string "desmotivante?\l"
-.string "Si todos son súper… ya nadie lo\l"
-.string "será, y nuestros logros, por más\l"
-.string "buenos que sean, no dejarán de ser\l"
-.string "unos más del montón.$"
+	.string "Here we are turning excellence and\n"
+	.string "perfection into the norm. Don't you find\l"
+	.string "that demotivating? If everyone's\l"
+	.string "super… then no one will be, and our\l"
+	.string "achievements, no matter how good they\l"
+	.string "are, will just be another drop in the\l"
+	.string "bucket.$"
 
 
 
@@ -64,8 +60,8 @@ release
 end
 
 RocketHideoutP1_Text_4:
-.string "¿Qué se siente al ser el dueño de\n"
-.string "todo esto?$"
+	.string "How does it feel to be the\n"
+	.string "administrator of all this?$"
 
 
 
@@ -82,26 +78,22 @@ release
 end
 
 RocketHideoutP1_Text_6:
-.string "BUTTERFREE es el único POKÉMON\n"
-.string "conocido que cuenta con una\l"
-.string "MEGAEVOLUCIÓN y a la vez una forma\l"
-.string "FUERTE VÍNCULO, que, gracias a ti,\l"
-.string "pudimos estudiar después de tu\l"
-.string "combate con CÉSAR. Con ello\l"
-.string "pudimos comparar las diferencias\l"
-.string "entre una MEGA y un FUERTE VÍNCULO\l"
-.string "dentro de una especie.\l"
-.string "La conclusión era la esperada: el\l"
-.string "FUERTE VÍNCULO produce una mejora\l"
-.string "del rendimiento aún más drástica\l"
-.string "que la MEGAEVOLUCIÓN. Entre sus\l"
-.string "+110 de BASE y solo 5 en ATAQUE\l"
-.string "FÍSICO, el BUTTERFREE de CÉSAR\l"
-.string "supera en 20 puntos de BASE a la\l"
-.string "MEGA de BUTTERFREE. Es mucho más\l"
-.string "resistente y de similar capacidad\l"
-.string "ofensiva, aunque la forma MEGA\l"
-.string "logra ser algo más rápida.$"
+	.string "BUTTERFREE is the only known POKÉMON\n"
+	.string "to have both a MEGA EVOLUTION and a\l"
+	.string "DEEP BOND form, which we were able to\l"
+	.string "study after your battle with KURT. This\l"
+	.string "allowed us to compare the differences\l"
+	.string "between a MEGA and a DEEP BOND within a\l"
+	.string "species. The conclusion was as\l"
+	.string "expected: the DEEP BOND yields an even\l"
+	.string "more drastic performance improvement\l"
+	.string "than the MEGA EVOLUTION. With its +110\l"
+	.string "BASE and only 5 in PHYSICAL ATTACK,\l"
+	.string "KURT's BUTTERFREE surpasses the MEGA\l"
+	.string "BUTTERFREE by 20 BASE points. It's much\l"
+	.string "more resilient and has similar offensive\l"
+	.string "capabilities, although the MEGA form\l"
+	.string "manages to be slightly faster.$"
 
 
 
@@ -113,12 +105,12 @@ release
 end
 
 RocketHideoutP1_Text_7:
-.string "Nos costó horrores crear\n"
-.string "MEGAPIEDRAS a la carta, pero\l"
-.string "finalmente pudimos hacerlo con\l"
-.string "FLYGON y MILOTIC. Es un gran paso\l"
-.string "hacia, quizás, MEGAPIEDRAS aún más\l"
-.string "potentes.$"
+	.string "Creating custom MEGA STONES for\n"
+	.string "FLYGON and MILOTIC was an arduous\l"
+	.string "task, but we finally succeeded. It's a\l"
+	.string "significant step toward potentially\l"
+	.string "developing even more powerful MEGA\l"
+	.string "STONES.$"
 
 
 
@@ -130,13 +122,13 @@ release
 end
 
 RocketHideoutP1_Text_8:
-.string "A la Madre Naturaleza no le gusta\n"
-.string "la especialización excesiva, pues\l"
-.string "esta limita la evolución y vuelve\l"
-.string "más vulnerables a los POKÉMON. Por\l"
-.string "fortuna, gracias a la tecnología y\l"
-.string "la ciencia, podremos saltarnos este\l"
-.string "principio básico.$"
+	.string "The natural world discourages\n"
+	.string "excessive specialization because it\l"
+	.string "hampers evolution and renders POKÉMON\l"
+	.string "more susceptible. Luckily,\l"
+	.string "advancements in technology and\l"
+	.string "science enable us to circumvent this\l"
+	.string "fundamental principle.$"
 
 
 
@@ -158,11 +150,10 @@ release
 end
 
 RocketHideoutP1_Text_11:
-.string "A muchos les parecería un\n"
-.string "despropósito los números de poder\l"
-.string "que aquí estamos manejando.\l"
-.string "¡Un NO LEGENDARIO con 700 STATS\l"
-.string "BASE, quién lo diría!$"
+	.string "Many would consider the power levels we\n"
+	.string "are dealing with here absurd. A\l"
+	.string "NON-LEGENDARY POKÉMON with 700 BASE\l"
+	.string "STATS, who would have thought!$"
 
 
 
@@ -174,13 +165,12 @@ release
 end
 
 RocketHideoutP1_Text_12:
-.string "Lo que hay en esta sala es un\n"
-.string "imposible para el 99% de la\l"
-.string "población común, dudo que\l"
-.string "comprendan siquiera el poder que\l"
-.string "hay escrito en estos documentos,\l"
-.string "para ellos el mejor NO LEGENDARIO\l"
-.string "sigue y seguirá siendo DRAGONITE.$"
+	.string "What's in this room is impossible for 99%\n"
+	.string "of the common population; I doubt they\l"
+	.string "would even understand the power\l"
+	.string "written in these documents. For them,\l"
+	.string "the best NON-LEGENDARY will continue\l"
+	.string "to be DRAGONITE.$"
 
 
 
@@ -192,9 +182,9 @@ release
 end
 
 RocketHideoutP1_Text_13:
-.string "¡Imagínate tener un MEGA-HOUNDOOM!\n"
-.string "¡Todos se arrodillarían ante mí\l"
-.string "nada más sacarlo de la POKÉ BALL!$"
+	.string "Imagine having a MEGA HOUNDOOM!\n"
+	.string "Everyone would kneel to me, the moment\l"
+	.string "I release it from its POKÉ BALL!$"
 
 
 
@@ -206,10 +196,10 @@ release
 end
 
 RocketHideoutP1_Text_14:
-.string "GIOVANNI siempre se negó a ser un\n"
-.string "muñeco movido por los hilos de\l"
-.string "LANCE, por eso hoy el TEAM ROCKET\l"
-.string "está donde está.$"
+	.string "GIOVANNI always refused to be a puppet\n"
+	.string "manipulated by LANCE's strings, which is\l"
+	.string "the reason why TEAM ROCKETt is where it\l"
+	.string "is today.$"
 
 
 
@@ -221,9 +211,9 @@ release
 end
 
 RocketHideoutP1_Text_15:
-.string "De vez en cuando, dí la verdad para\n"
-.string "que te crean cuando mientas.\l"
-.string "¡TEAM ROCKET RULES!$"
+	.string "Occasionally tell the truth so that\n"
+	.string "your lies are more believable. TEAM\l"
+	.string "ROCKET RULES!$"
 
 
 
@@ -240,8 +230,8 @@ release
 end
 
 RocketHideoutP1_Text_17:
-.string "En general, no nos basta con tener\n"
-.string "éxito, ¡los demás deben fracasar!$"
+	.string "Usually, it is not enough to have\n"
+	.string "success, the rest must fail!$"
 
 
 
@@ -253,9 +243,8 @@ release
 end
 
 RocketHideoutP1_Text_18:
-.string "¿Crees que los POKÉMON perderán su\n"
-.string "verdadera esencia si les\l"
-.string "modificamos los IVs?$"
+	.string "Do you think POKÉMON will lose their\n"
+	.string "true essence if we modify their IVs?$"
 
 
 
@@ -267,11 +256,10 @@ release
 end
 
 RocketHideoutP1_Text_19:
-.string "JOHTO cuenta con más de un\n"
-.string "ENTRENADOR que podría haber hecho\l"
-.string "morder el polvo al dictador LANCE,\l"
-.string "el problema es que están muy bien\l"
-.string "escondidos.$"
+	.string "In JOHTO, there's more than one TRAINER\n"
+	.string "who could have brought down the\l"
+	.string "dictator LANCE, but they're very well\l"
+	.string "hidden.$"
 
 
 
@@ -283,11 +271,10 @@ release
 end
 
 RocketHideoutP1_Text_20:
-.string "Los IVs de cualquier POKÉMON ya no\n"
-.string "son ningún misterio para nosotros,\l"
-.string "podrás ponerlos todos en 31\l"
-.string "gracias al sistema que hemos\l"
-.string "creado.$"
+	.string "The IVs of any POKÉMON are no longer a\n"
+	.string "mystery to us; you can max them all out\l"
+	.string "to 31 thanks to the system we've\l"
+	.string "created.$"
 
 
 
@@ -299,14 +286,11 @@ release
 end
 
 RocketHideoutP1_Text_21:
-.string "Los POKÉMON de la ADMIN.JEFA ANDRA\n"
-.string "son terríblemente fuertes, es como\l"
-.string "si el hecho de saber que tienen un\l"
-.string "límite menor que el de un\l"
-.string "LEGENDARIO hubiera provocado en\l"
-.string "ellos el efecto contrario a,\l"
-.string "efectivamente, verse limitados por\l"
-.string "eso.$"
+	.string "The POKÉMON of CHIEF ADMIN. ANDRA are\n"
+	.string "incredibly strong; it's as if knowing\l"
+	.string "they have a lower limit than a\l"
+	.string "LEGENDARY has had the opposite effect,\l"
+	.string "making them feel unrestricted.$"
 
 
 
@@ -323,9 +307,9 @@ release
 end
 
 RocketHideoutP1_23_Texto_1:
-.string "Es mucho más inteligente eludir el dolor\n"
-	.string "por prudencia, que buscar el placer por\l"
-	.string "impaciencia.$"
+	.string "It's wiser to avoid pain out of prudence\n"
+	.string "than to seek pleasure out of\l"
+	.string "impatience.$"
 
 
 
@@ -342,8 +326,7 @@ release
 end
 
 RocketHideoutP1_25_Texto_1:
-.string "El mayor riesgo es no cometer riesgo\n"
-	.string "alguno.$"
+	.string "The highest risk is to not take any risk.$"
 
 
 

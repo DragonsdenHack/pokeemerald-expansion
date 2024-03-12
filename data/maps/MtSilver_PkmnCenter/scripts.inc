@@ -180,8 +180,8 @@ release
 end
 
 MtSilver_PkmnCenter_Text_4:
-.string "¡Jojojo!\n"
-.string "¿Yo ex-campeón?\l"
-.string "¡Me he colado aquí tirando por el\l"
-.string "otro lado de la montaña, pero no\l"
-.string "se lo digas a nadie!$"
+.string "Hohoho!\n"
+.string "Me an ex-champion?\l"
+.string "I slipped in here by coming around the\l"
+.string "other side of the mountain, but keep\l"
+.string "between us!$"

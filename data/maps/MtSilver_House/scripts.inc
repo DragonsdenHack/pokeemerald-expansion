@@ -11,8 +11,8 @@ msgbox MtSilverHouseDocumento_Text_100, MSGBOX_SIGN
 end
 
 MtSilverHouseDocumento_Text_100:
-.string "LIGA POKÉMON DE JOHTO, 1978.\p"
-	.string "EQUIPO DEL CAMPEÓN:\p"
+.string "JOHTO POKÉMON LEAGUE, 1978.\p"
+	.string "CHAMPION'S TEAM:\p"
 	.string "- CROBAT\n"
 	.string "- HERACROSS\l"
 	.string "- TAUROS\l"
@@ -46,25 +46,24 @@ MtSilverHouse_EventScript_TakeDarumaka::
 
 
 MtSilverHouse_Text_TakeDarumaka:
-    .string "Fui CAMPEÓN gracias al enorme\n"
-	.string "vigor y ofensiva total de mis\l"
-	.string "POKÉMON, a atacar sin miedo a\l"
-	.string "recibir daño.$"
+	.string "My POKÉMON's sheer strength and\n"
+	.string "relentless offensive strategy led me\l"
+	.string "to victory as a CHAMPION, attacking\l"
+	.string "without hesitation to endure any\l"
+	.string "damage.$"
 
 MtSilverHouse_Text_TakeDarumaka2:
-	.string "De entre todos mis POKÉMON, había\n"
-	.string "uno que llevaba al extremo como\l"
-	.string "ningún otro ese modo de combatir,\l"
-	.string "hace poco tuve varias crías de él,\l"
-	.string "¿te gustaría quedarte con una?\l"
-	.string "¡Toma!$"
+	.string "Among all my POKÉMON, there was one\n"
+	.string "that pushed that fighting style to the\l"
+	.string "extreme like no other, recently I had\l"
+	.string "several offspring from it, would you\l"
+	.string "like to keep one? Here!$"
 
 MtSilverHouse_Text_MensajeDarumaka:
-.string "¡OBTUVISTE UN DARUMAKA AL NV.25!$"
+.string "YOU OBTAINED A DARUMAKA AT LV.25!$"
 
 MtSilverHouse_Text_1:
-    .string "El ENVITE ÍGNEO de un DARMANITAN\n"
-	.string "bien entrenado es el movimiento\l"
-	.string "más devastador que conozco, el\l"
-	.string "poder de embestida de TAUROS no es\l"
-	.string "más que una sutil caricia al lado.$"
+	.string "The FLARE BLITZ of a well-trained\n"
+	.string "DARMANITAN is the most devastating\l"
+	.string "move I know, TAUROS's charging power is\l"
+	.string "a joke in comparison.$"

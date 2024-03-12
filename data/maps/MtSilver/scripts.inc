@@ -12,7 +12,7 @@ msgbox MtSilverDocumento_Text_100, MSGBOX_SIGN
 end
 
 MtSilverDocumento_Text_100:
-	.string "MONTE PLATEADO$"
+	.string "MOUNT SILVER$"
 
 MtSilver_Combate_Andra_Izq::
 playse SE_PIN
@@ -73,95 +73,84 @@ release
 end
 
 MtSilver_Combate_Andra_Texto_1:
-.string "ANDRA: No esperaba menos de ti,\n"
-	.string "{PLAYER}.$"
+.string "ANDRA: I didn't expect less\n"
+	.string "from you, {PLAYER}.$"
 
 MtSilver_Combate_Andra_Texto_2:
-.string "Sabía que tú tampoco\n"
-	.string "podrías resistirte a visitar un\l"
-	.string "lugar como este, observa.$"
+	.string "I knew you wouldn't be able to resist\n"
+	.string "visiting a place like this, look.$"
 
 MtSilver_Combate_Andra_Texto_3:
-.string "Es como... si este fuera el lugar\n"
-	.string "donde el combate POKÉMON hubiera\l"
-	.string "nacido tal y como lo conocemos hoy\l"
-	.string "día. Aquí es donde los grandes\l"
-	.string "campeones de KANTO y JOHTO han\l"
-	.string "venido a retirarse después de una\l"
-	.string "vida entregada al combate, aunque\l"
-	.string "parece que esa costumbre también\l"
-	.string "se está perdiendo.$"
+	.string "It's as… if this were the place where\n"
+	.string "POKÉMON battling was born as we know it\l"
+	.string "today. Here is where the great\l"
+	.string "champions of KANTO and JOHTO have come\l"
+	.string "to retire after a lifetime devoted to\l"
+	.string "battling, although it seems that\l"
+	.string "tradition is also fading.$"
 
 MtSilver_Combate_Andra_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilver_Combate_Andra_Texto_5:
-.string "He subido a la cima del MONTE\n"
-	.string "PLATEADO, adivina a quién me he\l"
-	.string "encontrado.$"
+	.string "I've climbed to the top of MT. SILVER,\n"
+	.string "guess who I found there.$"
 
 MtSilver_Combate_Andra_Texto_6:
-.string "Así es, me he sorprendido a mí\n"
-	.string "misma viendo cómo pude derrotar a\l"
-	.string "aquel que en la LIGA POKÉMON\l"
-	.string "parecía invencible. De nuevo, los\l"
-	.string "límites aún estaban mucho más\l"
-	.string "lejos de lo que imaginaba.$"
+	.string "Indeed, I surprised myself by defeating\n"
+	.string "someone who seemed unbeatable in the\l"
+	.string "POKÉMON LEAGUE. Once again, the limits\l"
+	.string "were much farther than I imagined.$"
 
 MtSilver_Combate_Andra_Texto_7:
-.string "ROJO sigue, y seguirá siendo, un\n"
-	.string "ENTRENADOR extraordinario, pero\l"
-	.string "está limitado por su realidad.\l"
-	.string "Técnicamente, ha alcanzado la\l"
-	.string "perfección con lo que tiene.$"
+	.string "RED is, and will keep being, an\n"
+	.string "extraordinary TRAINER, but he is\l"
+	.string "limited by his reality. Technically, he\l"
+	.string "has achieved perfection with what he\l"
+	.string "has.$"
 
 MtSilver_Combate_Andra_Texto_8:
-.string "Pero para gente como nosotros,\n"
-	.string "que ha visto lo que hemos visto,\l"
-	.string "ese poder ya no tiene ningún\l"
-	.string "misterio. Enrolarnos en el TEAM\l"
-	.string "ROCKET fue lo mejor que pudimos\l"
-	.string "hacer para conocer la verdadera\l"
-	.string "historia.$"
+	.string "However, for individuals such as\n"
+	.string "ourselves, who have seen what we have,\l"
+	.string "that power holds no more secrets.\l"
+	.string "Joining TEAM ROCKET was the most\l"
+	.string "beneficial choice to know the reality.$"
 
 MtSilver_Combate_Andra_Texto_9:
-.string "He aprendido y mejorado mucho\n"
-	.string "desde que estoy en HOENN, {PLAYER},\l"
-	.string "dije que no usaría LEGENDARIOS en\l"
-	.string "mi equipo y lo mantengo.$"
+	.string "I have learned and improved a lot since\n"
+	.string "I arrived in HOENN, {PLAYER}, I said I\l"
+	.string "wouldn't use LEGENDARIES in my team,\l"
+	.string "and I intend to keep it.$"
 
 MtSilver_Combate_Andra_Texto_10:
-.string "Vine aquí, al MONTE PLATEADO, en\n"
-	.string "busca de un gran reto. ROJO no ha\l"
-	.string "estado mal, pero...\l"
-	.string "¡Sabía que el verdadero reto ibas\l"
-	.string "a ser tú!$"
+	.string "I came here, to MOUNT SILVER, in search\n"
+	.string "of a grand challenge. RED was not bad,\l"
+	.string "but… I knew that the real challenge will\l"
+	.string "be you!$"
 
 MtSilver_Combate_Andra_Texto_11:
-.string "Pse, algunas cosas nunca cambian.$"
+.string "Argh, some things never change.$"
 
 MtSilver_Combate_Andra_Texto_12:
-.string "Aún poniéndotelo más difícil que\n"
-	.string "nunca, has logrado derrotarme de\l"
-	.string "nuevo. Que sepas que jamás dejaré\l"
-	.string "de empujar, cada vez con más\l"
-	.string "fuerza y experiencia. Después de\l"
-	.string "todo, somos la ÉLITE del TEAM\l"
-	.string "ROCKET, no hay tiempo para\l"
-	.string "lamentos o -y sis-, solo queda mirar\l"
-	.string "hacia delante y seguir.$"
+	.string "Despite my efforts to make it even more\n"
+	.string "challenging, you've still managed to\l"
+	.string "overcome me again. Just know that I'll\l"
+	.string "never stop pushing, growing stronger\l"
+	.string "and more experienced with each\l"
+	.string "challenge. After all, we are the ELITE\l"
+	.string "of TEAM ROCKET. There's no time for\l"
+	.string "regrets or what-ifs; all that's left is\l"
+	.string "to look forward and keep going.$"
 
 MtSilver_Combate_Andra_Texto_13:
-.string "Me quedaré un tiempo en JOHTO.\n"
-	.string "GIOVANNI me quiere aquí por ahora,\l"
-	.string "creo que presiente que algo muy\l"
-	.string "gordo se avecina. Yo también estoy\l"
-	.string "intrigada, desde ese\l"
-	.string "terremoto en ISLA SÉTIMA no hemos\l"
-	.string "vuelto a saber nada de lo\l"
-	.string "ocurrido, ni ver a LUGIA o a\l"
-	.string "HO-OH. Menos a ese POKÉMON\l"
-	.string "ESENCIA...$"
+	.string "I'll be staying in JOHTO for a while.\n"
+	.string "GIOVANNIwants me here for now, I think\l"
+	.string "he senses that something big is coming.\l"
+	.string "I'm intrigued too, ever since that\l"
+	.string "earthquake on SEVEN ISLAND, we haven't\l"
+	.string "heard anything about what happened, or\l"
+	.string "seen LUGIA or HO-OH. And that enigmatic\l"
+	.string "ESSENCE POKÉMON remains elusive…$"
 
 MtSilver_Combate_Andra_Move_1:
 emote_exclamation_mark
