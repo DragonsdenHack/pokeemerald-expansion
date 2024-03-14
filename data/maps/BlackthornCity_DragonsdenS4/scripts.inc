@@ -212,12 +212,13 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_8:
 	.string "team is admirable.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9:
-	.string "Me honra entregar nuestra insignia al\n"
-	.string "paladín de la nueva generación.$"
+	.string "It is an honor for me to bestow our\n"
+	.string "badge upon the the new generation\l"
+	.string "champion.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.1:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA DRAGÓN.$"
+	.string "Here is the\n"
+	.string "RISINGBADGE.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.2:
 	.string "Take this POKÉMON, it is one of our most\n"

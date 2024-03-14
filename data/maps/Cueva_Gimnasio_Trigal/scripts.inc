@@ -142,14 +142,13 @@ Cueva_Gimnasio_Trigal_Combate_Texto_9:
 	.string "for you.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_9.1:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA PLANICIE.$"
+	.string "Take this, there you have\n"
+	.string "the PLAINBADGE.$"
 	
 Cueva_Gimnasio_Trigal_Combate_Texto_9.2:
-	.string "Quiero darte las gracias, no recuerdo\n"
-	.string "la última vez que tuve enfrente a\l"
-	.string "un rival como tú.\l"
-	.string "Este POKÉMON es para ti.$"
+	.string "I want to thank you. I can't remember\n"
+	.string "the last time I faced a rival like you.\l"
+	.string "This POKÉMON is for you.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_10:
 .string "YOU OBTAINED A LV.25 VULLABY!!$"

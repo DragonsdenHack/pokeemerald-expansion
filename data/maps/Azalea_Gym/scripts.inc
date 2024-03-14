@@ -155,14 +155,13 @@ AzaleaGym_Combate_Cesar_Texto_9:
 	.string "journeys.$"
 
 AzaleaGym_Combate_Cesar_Texto_9.1:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA COLMENA.$"
+	.string "Take this, here you have\n"
+	.string "the HIVEBADGE.$"
 
 AzaleaGym_Combate_Cesar_Texto_9.2:
-	.string "También quiero que te quedes con\n"
-	.string "este POKÉMON, obtuve varios\l"
-	.string "ejemplares hace ya tiempo, en uno\l"
-	.string "de mis tantos viajes.$"
+	.string "I also want you to keep this POKÉMON. I\n"
+	.string "obtained several specimens a long time\l"
+	.string "ago, during one of my many journeys.$"
 
 AzaleaGym_Combate_Cesar_Texto_10:
 .string "YOU OBTAINED A LV.25 GRUBBIN!!$"

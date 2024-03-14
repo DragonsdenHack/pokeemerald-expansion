@@ -157,12 +157,12 @@ Olivine_Gym_Combate_Crom_Texto_9:
 	.string "this little one.$"
 
 Olivine_Gym_Combate_Crom_Texto_9.1:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA MINERAL.$"
+	.string "Here it is the MINERALBADGE,\n"
+	.string "take it.$"
 
 Olivine_Gym_Combate_Crom_Texto_9.2:
-	.string "También, quiero que cuides de\n"
-	.string "este pequeño.$"
+	.string "And also, I want you to take\n"
+	.string "care of this little one.$"
 
 Olivine_Gym_Combate_Crom_Texto_10:
 .string "YOU OBTAINED A LV.25 RIOLU!!$"

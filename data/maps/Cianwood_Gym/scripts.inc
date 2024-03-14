@@ -271,13 +271,12 @@ Cianwood_Gym_Combate_Anibal_Texto_9:
 	.string "great fighting abilities.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9.1:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA TORMENTA.$"
+	.string "Take this, here you have\n"
+	.string "the STORMBADGE.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_9.2:
-.string "Me gustaría que te quedaras con\n"
-	.string "este POKÉMON, tiene grandes dotes\l"
-	.string "para la lucha.$"
+	.string "I'd like you to keep this POKÉMON. It\n"
+	.string "has great fighting abilities.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_10:
 .string "YOU OBTAINED AN STUFFUL AT LV.25!!$"

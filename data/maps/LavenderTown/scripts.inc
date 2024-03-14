@@ -420,71 +420,69 @@ LavenderTown_Cierre_Torre_Texto_2:
 	.string "accommodate all the displaced souls.$"
 
 LavenderTown_Cierre_Torre_Texto_3:
-.string "AGATHA: Oh, FUJI… Es el fin de una era,\n"
-	.string "¿qué haremos ahora?$"
+	.string "AGATHA: Oh, FUJI… It is the end of an\n"
+	.string "era, what are we going to do now?$"
 
 LavenderTown_Cierre_Torre_Texto_4:
-.string "ATLAS: Este puede ser el comienzo de la\n"
-	.string "mejor era en la historia de KANTO.$"
+	.string "ARCHER; This could be the beginning of\n"
+	.string "the best era in KANTO's history.$"
 
 LavenderTown_Cierre_Torre_Texto_5:
-.string "AGATHA: No podemos olvidar de dónde\n"
-	.string "venimos, esta TORRE lleva siglos en pie,\l"
-	.string "alojó a todos los caídos tras la\l"
-	.string "guerra. Cómo podrá entenderse la\l"
-	.string "historia de KANTO sin uno de sus\l"
-	.string "mayores símbolos, ¿también ocultarás\l"
-	.string "su pasado?$"
+	.string "AGATHA: We can't forget where we come\n"
+	.string "from; this TOWER has stood for\l"
+	.string "centuries, sheltering all the fallen\l"
+	.string "after the war. How can the history of\l"
+	.string "KANTO be understood without one of its\l"
+	.string "greatest symbols? Will you also hide its\l"
+	.string "past?$"
 
 LavenderTown_Cierre_Torre_Texto_6:
-.string "ATLAS: Lo que TORRE LAVANDA ha sido\n"
-	.string "para KANTO está celosamente\l"
-	.string "documentado, ya nada podrá borrar su\l"
-	.string "papel en la historia. Dentro de 1000\l"
-	.string "años sabrán lo mismo que hoy sabemos\l"
-	.string "nosotros acerca de este lugar. Su\l"
-	.string "memoria perdurará, si es lo que te\l"
-	.string "preocupa.$"
+	.string "ARCHER: What LAVENDER TOWER has been\n"
+	.string "for KANTO is carefully documented;\l"
+	.string "nothing can erase its role in history.\l"
+	.string "In 1000 years, they will know just as\l"
+	.string "much as we do today about this place.\l"
+	.string "Its memory will endure if that's what\l"
+	.string "concerns you.$"
 
 LavenderTown_Cierre_Torre_Texto_7:
-.string "AGATHA: ¿Pero por qué? ¿Por qué\n"
-	.string "destruirla? ¿Por qué no construir una\l"
-	.string "torre gemela al este?$"
+	.string "AGATHA: But why? Why destroy it? Why\n"
+	.string "not build a twin tower to the east?$"
 
 LavenderTown_Cierre_Torre_Texto_8:
-.string "ATLAS: En ocasiones lo viejo debe\n"
-	.string "desaparecer, para que lo nuevo pueda\l"
-	.string "prosperar.$"
+	.string "ATLAS: Sometimes the old must\n"
+	.string "disappear so the new can thrive.$"
 
 LavenderTown_Cierre_Torre_Texto_9:
-.string "AGATHA: ¡Es innecesario!$"
+.string "AGATHA: It's unnecessary!$"
 
 LavenderTown_Cierre_Torre_Texto_10:
-.string "ATLAS: Que TORRE LAVANDA desaparezca\n"
-	.string "envía un poderoso mensaje a KANTO.\l"
-	.string "Prepara a toda la región para nuevos\l"
-	.string "tiempos y les libera de su pasado.$"
+	.string "ARCHER: The disappearance of LAVENDER\n"
+	.string "TOWER sends a powerful message to\l"
+	.string "KANTO. It prepares the entire region\l"
+	.string "for new beginnings and frees the\l"
+	.string "population from their past.$"
 
 LavenderTown_Cierre_Torre_Texto_11:
-.string "Es necesario, AGATHA. Forma parte del\n"
-	.string "proceso de cambio, por mucho que duela.$"
+	.string "It's necessary, AGATHA. It's part of the\n"
+	.string "process of change, no matter how much\l"
+	.string "it hurts.$"
 
 LavenderTown_Cierre_Torre_Texto_12:
-.string "AGATHA: Así que… No queda ya nada para\n"
-	.string "mí en esta región pues…$"
+	.string "AGATHA: So... There's nothing left for\n"
+	.string "me in this region then...$"
 
 LavenderTown_Cierre_Torre_Texto_13:
-.string "AGATHA: Adiós, FUJI.$"
+.string "AGATHA: Goodbye, FUJI.$"
 
 LavenderTown_Cierre_Torre_Texto_14:
-.string "FUJI: ¡Espera, AGATHA!$"
+.string "FUJI: AGATHA, wait!$"
 
 LavenderTown_Cierre_Torre_Texto_15:
-.string "ATLAS: Los cambios radicales siempre\n"
-	.string "implican este tipo de pérdidas, hay que\l"
-	.string "seguir adelante. Espero que esto no\l"
-	.string "cambie nada en tu labor para con\l"
-	.string "LAVANDA, FUJI.$"
+	.string "ARCHER: Radical changes always involve\n"
+	.string "this kind of loss; we must move forward.\l"
+	.string "I expect this doesn't change anything in\l"
+	.string "your work for LAVENDER, FUJI.$"
 
 LavenderTown_Cierre_Torre_Texto_16:
 .string "FUJI: …$"

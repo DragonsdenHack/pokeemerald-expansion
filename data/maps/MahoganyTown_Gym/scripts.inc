@@ -167,12 +167,13 @@ MahoganyTown_Gym_Combate_Fredo_Texto_8:
 	.string "thought.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9:
-	.string "Hace años que tengo esto criando polvo,\n"
-	.string "creí que nunca más volvería a dar una.$"
+	.string "I've had this gathering dust for years,\n"
+	.string "I thought I'd never give another one\l"
+	.string "again.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9.1:
-	.string "Toma, aquí tienes la\n"
-	.string "MEDALLA GLACIAR.$"
+	.string "Take it, here is the\n"
+	.string "GLACIERBADGE.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9.2:
 	.string "Take this POKÉMON, you won't find it\n"
@@ -183,11 +184,11 @@ MahoganyTown_Gym_Combate_Fredo_Texto_10:
 .string "YOU OBTAINED A BERGMITE AT LV.25!!$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_11:
-	.string "Hace décadas que guardo el secreto de\n"
-	.string "este POKÉMON, el único\l"
-	.string "PSEUDOLEGENDARIO del TIPO HIELO que\l"
-	.string "verás. Si lo entrenas bien, muy pocos\l"
-	.string "podrán igualar su poder físico.$"
+	.string "For decades, I've kept the secret of\n"
+	.string "this POKÉMON, the only ICE-TYPE\l"
+	.string "PSEUDO-LEGENDARY you'll see. If you\l"
+	.string "train it well, few will be able to match\l"
+	.string "its physical power.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_12:
 	.string "Spring arrives when the ice and snow\n"

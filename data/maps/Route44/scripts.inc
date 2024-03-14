@@ -264,52 +264,51 @@ Route44_Combate_Mirto_Texto_5.1:
 	.string "…$"
 
 Route44_Combate_Mirto_Texto_5.2:
-	.string "El CAMPEÓN de una región es el\n"
-	.string "entrenador más fuerte de esta, sabes lo\l"
-	.string "que quiero decir, ¿no?$"
+	.string "The CHAMPION of a region is the\n"
+	.string "strongest trainer there, you know what\l"
+	.string "I mean, right?$"
 
 Route44_Combate_Mirto_Texto_5.3:
-	.string "Representamos también el límite a lo\n"
-	.string "que un ENTRENADOR ha podido llegar, lo\l"
-	.string "más cercano a fuerzas mayores que solo\l"
-	.string "los LEGENDARIOS más antiguos alcanzan.$"
+	.string "We also represent the limit of what a\n"
+	.string "TRAINER has been able to achieve, the\l"
+	.string "closest to greater forces that only\l"
+	.string "ancient LEGENDARIES reach.$"
 
 Route44_Combate_Mirto_Texto_5.4:
-	.string "Esto sin embargo lo logramos gracias a\n"
-	.string "nuestro esfuerzo, desarrollo e\l"
-	.string "interacciones que mantenemos con\l"
-	.string "otros POKÉMON, mortales como nosotros,\l"
-	.string "durante toda una vida.$"
+	.string "However, we achieve this thanks to our\n"
+	.string "effort, development, and interactions\l"
+	.string "we maintain with other POKÉMON, mortals\l"
+	.string "like us, throughout our lives.$"
 
 Route44_Combate_Mirto_Texto_5.5:
-	.string "No me cabe duda, ese tipo de actos dejan\n"
-	.string "huella. Su potencial es ilimitado,\l"
-	.string "sagrado.$"
+	.string "I have no doubt, those kinds of acts\n"
+	.string "leave a mark. Its potential is limitless,\l"
+	.string "sacred.$"
 
 Route44_Combate_Mirto_Texto_5.6:
-	.string "En cambio, los dioses del MUNDO\n"
-	.string "POKÉMON… ¿Sabes lo que creo?$"
+	.string "Meanwhile, POKÉMON WORLD GODS… Do you\n"
+	.string "know what I think about that blessed\l"
+	.string "POKÉMON?$"
 
 Route44_Combate_Mirto_Texto_5.7:
-	.string "Nos envidian, {PLAYER}.$"
+	.string "They envy us, {PLAYER}.$"
 
 Route44_Combate_Mirto_Texto_5.8:
-	.string "Jamás sabrán lo que es empezar desde 0\n"
-	.string "e ir subiendo poco a poco, escalar\l"
-	.string "peldaños, pasar dificultades y aprender\l"
-	.string "de las derrotas.$"
+	.string "They'll never know what it's like to\n"
+	.string "start from zero and gradually rise,\l"
+	.string "climbing step by step, facing\l"
+	.string "difficulties, and learning from defeats.$"
 
 Route44_Combate_Mirto_Texto_5.9:
-	.string "Nos envidian porque, a fin de cuentas,\n"
-	.string "somos mortales. Cada combate nuestro\l"
-	.string "podría ser el último. Jamás volveremos a\l"
-	.string "tener esta conversación, ni a estar\l"
-	.string "aquí, {PLAYER}.$"
+	.string "They envy us because, after all, we are\n"
+	.string "mortal. Every battle of ours could be\l"
+	.string "the last one. We will never have this\l"
+	.string "conversation again, nor be here,\l"
+	.string "{PLAYER}.$"
 
 Route44_Combate_Mirto_Texto_5.10:
-	.string "¿Te das cuenta? Es en lo efímero\n"
-	.string "de nuestra existencia donde reside\l"
-	.string "su valor.$"
+	.string "Do you notice? The value lies in the\n"
+	.string "ephemeral nature of our existence.$"
 
 Route44_Combate_Mirto_Texto_6:
 	.string "That's why I've come here, {PLAYER}. I\n"
@@ -343,9 +342,9 @@ Route44_Combate_Mirto_Texto_11:
 .string "YOU OBTAINED A LV.25 NOIBAT!!$"
 
 Route44_Combate_Mirto_Texto_11.1:
-	.string "Con este combate, mi cénit como\n"
-	.string "ENTRENADOR ha concluído. Pero tú… tú\l"
-	.string "aún puedes hacer sangrar a los dioses.$"
+	.string "With this battle, my peak as a TRAINER\n"
+	.string "has finally finished. But you… you can\l"
+	.string "still make the gods bleed.$"
 
 Route44_Combate_Mirto_Texto_12:
 	.string "Goodbye, {PLAYER}. Give my regards to\n"

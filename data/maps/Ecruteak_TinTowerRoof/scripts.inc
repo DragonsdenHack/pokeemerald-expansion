@@ -408,12 +408,11 @@ Ecruteak_TinTowerRoof_Zeus_Texto_27:
 .string "YOU OBTAINED A LV.25 FLABÉBÉ!!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_27.1:
-	.string "Además, llévate nuestra medalla como\n"
-	.string "recuerdo.$"
+	.string "Also, take this badge as a souvenir.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_27.2:
-	.string "¡Aquí tienes la\n"
-	.string "MEDALLA NIEBLA!$"
+	.string "Here you have\n"
+	.string "the FOGBADGE!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_28:
 	.string "I had a feeling that something\n"

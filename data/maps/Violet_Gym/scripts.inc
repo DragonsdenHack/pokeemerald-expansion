@@ -370,9 +370,9 @@ Violet_Gym_Combate_Pegaso_Texto_9.1:
 	.string "the ZEPHYR BADGE.$"
 
 Violet_Gym_Combate_Pegaso_Texto_9.2:
-	.string "Además, te daré algo mucho\n"
-	.string "más práctico, quiero que te lleves\l"
-	.string "este POKÉMON.$"
+	.string "Also, I will give you something more\n"
+	.string "useful, I want you to take this\l"
+	.string "POKÉMON.$"
 
 Violet_Gym_Combate_Pegaso_Texto_10:
 .string "YOU OBTAINED A LV.25 RUFFLET!!$"
