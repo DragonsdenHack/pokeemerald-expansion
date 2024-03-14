@@ -9,10 +9,10 @@ release
 end
 
 CultoS7_Text_7:
-.string "Conviértete en un alquimista:\n"
-.string "transmuta el metal inferior en oro, el\l"
-.string "sufrimiento en conciencia, el desastre\l"
-.string "en iluminación.$"
+	.string "Become an alchemist: transmute base\n"
+	.string "metal into gold, suffering into\l"
+	.string "awareness, disaster into\l"
+	.string "enlightenment.$"
 
 
 
@@ -98,9 +98,9 @@ CultoS7_Escena_Esencia_Texto_1:
 .string "{PAUSE 30}…{PAUSE 30} …{PAUSE 30}$"
 
 CultoS7_Escena_Esencia_Texto_2:
-.string "La esencia puede corromperse ante la\n"
-	.string "acción humana, aunque…{PAUSE 50}$"
+	.string "The essence can corrupt due to human\n"
+	.string "actions, although…$"
 
 CultoS7_Escena_Esencia_Texto_3:
-	.string "{PAUSE 50}…{PAUSE 40}ello no implica una pérdida de su\n"
-	.string "potencialidad.$"
+	.string "… that doesn't mean a loss of its\n"
+	.string "potential.$"

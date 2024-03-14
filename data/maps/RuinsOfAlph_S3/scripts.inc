@@ -132,82 +132,72 @@ release
 end
 
 RuinsOfAlphS3_Evento_Final_Texto_1:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: …$"
 
 RuinsOfAlphS3_Evento_Final_Texto_2:
-.string "¿Pero, cómo tú?$"
+.string "But, how did you?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_3:
-.string "ANDRA: ¿Otro UNOWN dorado?\n"
-	.string "¡¿Este lugar no termina nunca?!\l"
-	.string "¡No vais a poder conmigo!\l"
-	.string "Me da igual si tengo que estar 10\l"
-	.string "o 20 horas seguidas aquí dentro\l"
-	.string "peleando, ¡llegaré hasta el final!$"
+	.string "ANDRA: Another golden UNOWN? This\n"
+	.string "place never ends, does it?! You won't\l"
+	.string "defeat me! I don't care if I have to\l"
+	.string "spend 10 or 20 hours in here fighting,\l"
+	.string "I'll make it to the end!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_4:
-.string "GIOVANNI: ¡Espera!$"
+.string "GIOVANNI: Wait!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_5:
-.string "Ese...ENTRENADOR, ¿lo has visto?\n"
-	.string "Debía de ser el LÍDER de la secta\l"
-	.string "de LAVANDA.$"
+	.string "That… TRAINER, have you seen him? He\n"
+	.string "must have been the LEADER of the\l"
+	.string "LAVENDER sect.$"
 
 RuinsOfAlphS3_Evento_Final_Texto_6:
-.string "ANDRA: Si lo era, ¡menuda\n"
-	.string "decepción!\l"
-	.string "Solo vi a un tipo usar una magia\l"
-	.string "muy extraña para pasar las pruebas\l"
-	.string "sin combatir.$"
+	.string "ANDRA: If he was, what a\n"
+	.string "disappointment! I only saw a guy using\l"
+	.string "some very strange magic to pass the\l"
+	.string "tests without fighting.$"
 
 RuinsOfAlphS3_Evento_Final_Texto_7:
-.string "GIOVANNI: Así es, esa magia solo\n"
-	.string "debe estar a su alcance, me\l"
-	.string "pregunto si...$"
+	.string "GIOVANNI: Indeed, that magic must only\n"
+	.string "be within his reach. I wonder if…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_8:
-.string "ANDRA: ¡No podrá con {PLAYER}!\n"
-	.string "¡Tenemos que alcanzarle, aún\l"
-	.string "estamos a tiempo!$"
+	.string "ANDRA: He won't stand a chance against\n"
+	.string "{PLAYER}! We have to catch up to him,\l"
+	.string "we still have time!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_9:
-.string "GIOVANNI: ¡ANDRA!\n"
-	.string "¡Tú equipo no está hecho para\l"
-	.string "lidiar con un LUGIA PRIM...!$"
+.string "GIOVANNI: ANDRA!\n"
+	.string "Your team isn't ready to deal\l"
+	.string "with a PRIMAL LUG…!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_10:
-.string "ANDRA: ¿Qué ha sido eso?$"
+.string "ANDRA: What was that?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_11:
-.string "GIOVANNI: ¿L...lo ha logrado?$"
+.string "GIOVANNI: H…he did it?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_12:
-.string "ANDRA: Toda esa energía, esa\n"
-	.string "tensión en el ambiente, se ha...\l"
-	.string "esfumado...$"
+	.string "ANDRA: All that energy, that tension in\n"
+	.string "the air, it's… gone…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13:
-.string "GIOVANNI: Entonces...\n"
-	.string "{PLAYER}, el FUERTE VÍNCULO, ¿han\l"
-	.string "triunfado?\l"
-	.string "¿Quiere decir que las enseñanzas\l"
-	.string "de los sabios de JOHTO eran\l"
-	.string "ciertas?\l"
-	.string "¿Un POKÉMON mortal puede alcanzar\l"
-	.string "la inmortalidad si estamos\l"
-	.string "dispuestos a acompañarle en el\l"
-	.string "camino?\l"
-	.string "¿A creer en él?\l"
-	.string "¿Todos parten de puntos\l"
-	.string "diferentes, pero a la vez todos\l"
-	.string "pueden llegar a tocar el mismo\l"
-	.string "cielo?$"
+	.string "GIOVANNI: So… {PLAYER}, the DEEP\n"
+	.string "BOND, have succeeded? Does it mean\l"
+	.string "that the teachings of the sages of\l"
+	.string "JOHTO were true? Can a mortal POKÉMON\l"
+	.string "achieve immortality if we are willing to\l"
+	.string "accompany it on the journey? To believe\l"
+	.string "in it? Everyone starts from different\l"
+	.string "points, but at the same time, can they\l"
+	.string "all reach the same sky?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_14:
 .string "...$"
 
 RuinsOfAlphS3_Evento_Final_Texto_15:
-.string "Mucho nos queda aún por aprender...$"
+	.string "There is still much for us to learn…$"
 
 RuinsOfAlphS3_Evento_Final_Move_1:
 walk_slow_right
@@ -316,47 +306,43 @@ release
 end
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_1:
-.string "GIOVANNI: Esta es la última prueba\n"
-	.string "{PLAYER}. Lo presiento.$"
+	.string "GIOVANNI: This is the final test,\n"
+	.string "{PLAYER}. I can feel it.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_2:
-.string "Antes fue el HO-OH dorado,\n"
-	.string "ahora debe de venir...$"
+	.string "Before, there was the golden HO-OH, now\n"
+	.string "it must come…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_3:
 .string "...$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4:
-.string "No podré continuar. Si la leyenda\n"
-	.string "es cierta, LUGIA PRIMIGENIO\l"
-	.string "recupera todo el poder de las\l"
-	.string "profundidades del océano. Mis TIPO\l"
-	.string "TIERRA no podrán ante tal POKÉMON,\l"
-	.string "la etiqueta de LEGENDARIO MAYOR se\l"
-	.string "le queda corta. Si tan solo\l"
-	.string "hubiéramos podido acelerar un poco\l"
-	.string "más las últimas versiones de\l"
-	.string "MEWTWO...$"
+	.string "I won't be able to continue. If the\n"
+	.string "legend is true, PRIMAL LUGIA regains all\l"
+	.string "the power from the depths of the ocean.\l"
+	.string "My GROUND TYPE Pokémon won't stand a\l"
+	.string "chance against such a Pokémon, the\l"
+	.string "label of LEGENDARY ELDER falls short.\l"
+	.string "If only we could have accelerated the\l"
+	.string "latest versions of MEWTWO a bit more…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_5:
-.string "Ahora depende de ti, {PLAYER}.\n"
-	.string "Los dragones huyen del HO-OH\l"
-	.string "dorado nada más verlo, los TIPO\l"
-	.string "TIERRA nada pueden hacer ante la\l"
-	.string "bestia de los mares.\l"
-	.string "Definitivamente, hemos subestimado\l"
-	.string "este lugar, pero tú eres lo más\l"
-	.string "cercano al límite alcanzable por\l"
-	.string "un ENTRENADOR que conozco. Si\l"
-	.string "tenemos opciones, pasan por tu\l"
-	.string "mano.$"
+	.string "Now it's up to you, {PLAYER}. The\n"
+	.string "dragons flee from the golden HO-OH as\l"
+	.string "soon as they see it, and the GROUND\l"
+	.string "TYPE Pokémon can do nothing against\l"
+	.string "the beast of the seas. We have\l"
+	.string "definitely underestimated this place,\l"
+	.string "but you are the closest to the\l"
+	.string "achievable limit for a TRAINER that I\l"
+	.string "know. If we have options, they depend\l"
+	.string "on you.$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_6:
-.string "Es todo lo que puedo hacer por ti,\n"
-	.string "tu equipo POKÉMON vuelve a estar\l"
-	.string "en plenas facultades.\l"
-	.string "¡Demuéstrales a esos LEGENDARIOS\l"
-	.string "el poder del FUERTE VÍNCULO!$"
+	.string "That's all I can do for you now. Your\n"
+	.string "POKÉMON team is back in full strength.\l"
+	.string "Show those LEGENDARIES the power of\l"
+	.string "the DEEP BOND!$"
 
 RuinsOfAlphS3_Combate_Giovanni_Move_1:
 emote_exclamation_mark
@@ -435,31 +421,29 @@ RuinsOfAlphS3_Combate_Unown_Texto_2:
 .string "... ... ... ...$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_4:
-.string "GIOVANNI: ¡Lo sabía, sabía que tú\n"
-	.string "podrías lograrlo!$"
+	.string "GIOVANNI: I knew it, I knew you could do\n"
+	.string "it!$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_5:
-.string "Ahora entiendo mejor las palabras\n"
-	.string "del MAESTRO ANCIANO. Él no quiere\l"
-	.string "ver la región a merced de un\l"
-	.string "POKÉMON con un poder\l"
-	.string "descontrolado. Si las FORMAS\l"
-	.string "PRIMIGENIAS de LUGIA y HO-OH son\l"
-	.string "solo las pruebas, no quiero\l"
-	.string "imaginarme el poder de ese DRAGÓN\l"
-	.string "ORIGINAL. Algo así podría provocar\l"
-	.string "una catástrofe peor que la guerra,\l"
-	.string "no vamos a arriesgar eso por\l"
-	.string "obtener precisamente información\l"
-	.string "que podría proporcionarnos armas\l"
-	.string "para defender la región.$"
+	.string "Now I understand the words of the\n"
+	.string "ELDER MASTER better. He doesn't want\l"
+	.string "to see the region at the mercy of a\l"
+	.string "Pokémon with uncontrolled power. If the\l"
+	.string "PRIMAL FORMS of LUGIA and HO-OH are\l"
+	.string "just the tests, I don't want to imagine\l"
+	.string "the power of that ORIGINAL DRAGON.\l"
+	.string "Something like that could cause a\l"
+	.string "catastrophe worse than war. We're not\l"
+	.string "going to risk that just to obtain\l"
+	.string "information that could provide us with\l"
+	.string "weapons to defend the region.$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_6:
-.string "Debes evitar que ese tipo devuelva\n"
-	.string "a KYUREM su forma original, ya\l"
-	.string "tendremos tiempo de investigarlo,\l"
-	.string "{PLAYER}, cuando toda JOHTO y KANTO\l"
-	.string "estén a salvo...$"
+	.string "You must prevent that person from\n"
+	.string "returning KYUREM to its original form.\l"
+	.string "We'll have time to investigate it,\l"
+	.string "{PLAYER}, when all of JOHTO and KANTO\l"
+	.string "are safe…$"
 
 
 RuinsOfAlphS3_Combate_Unown_Move_1:

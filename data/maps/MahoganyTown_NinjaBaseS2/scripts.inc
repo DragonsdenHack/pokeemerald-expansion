@@ -9,11 +9,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_1:
-.string "Tanto desde aquí como desde la\n"
-.string "TORRE RADIO de TRIGAL y LAVANDA,\l"
-.string "estudiaremos a fondo la influencia\l"
-.string "de las ondas magnéticas en los\l"
-.string "POKÉMON.$"
+	.string "Both from here and from the GOLDENROD\n"
+	.string "and LAVENDER RADIO TOWERS, we'll\l"
+	.string "thoroughly study the influence of\l"
+	.string "magnetic waves on POKÉMON.$"
 
 
 
@@ -35,11 +34,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_4:
-.string "Me gustaría entrenar un STANTLER,\n"
-.string "son tan bonitos y característicos\l"
-.string "de JOHTO…\l"
-.string "Aunque no sé si es un POKÉMON\l"
-.string "adecuado para una ROCKET…$"
+	.string "I'd like to train a STANTLER, they're so\n"
+	.string "magnificent and characteristic of\l"
+	.string "JOHTO… Although I'm not sure if it's a\l"
+	.string "suitable POKÉMON for a ROCKET…$"
 
 
 
@@ -51,17 +49,14 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_5:
-.string "¿Has oído hablar de los POKÉMON\n"
-.string "VARIOCOLOR?\l"
-.string "¡Pues mejor!\l"
-.string "¡No tienen nada de especial salvo\l"
-.string "un color diferente al que\l"
-.string "deberían!\l"
-.string "¡No es más que una chorrada para hacer\l"
-.string "perder el tiempo a los que quieren\l"
-.string "fardar de su rareza!\l"
-.string "¡Lo único importante en un POKÉMON\l"
-.string "es su potencial genético!$"
+	.string "Have you heard about the SHINY\n"
+	.string "POKÉMON? Well, better! They have\l"
+	.string "nothing special other than a different\l"
+	.string "color than the one that should have!\l"
+	.string "It's just a gimmick to waste the time of\l"
+	.string "those who want to show off their odd\l"
+	.string "collection! The only thing that matters\l"
+	.string "in a POKÉMON is its genetic potential!$"
 
 
 
@@ -98,10 +93,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_11:
-.string "Nuestras estimaciones apuntan a\n"
-.string "que las ondas de radio pueden\l"
-.string "elevar en más de 100 STATS BASE el\l"
-.string "poder de un POKÉMON convencional.$"
+	.string "According to our calculations, radio\n"
+	.string "waves could potentially boost a regular\l"
+	.string "POKÉMON's base stats by more than 100\l"
+	.string "points.$"
 
 
 
@@ -113,10 +108,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_12:
-.string "BASE RUTA 5, BASE CIUDAD VERDE,\n"
-.string "BASE AZULONA, ALMACÉN ISLA INTA,\l"
-.string "BASE CAOBA Y BASE RUTA 45.\l"
-.string "¡Somos omnipresentes!$"
+	.string "ROUTE 5 BASE, VIRIDIAN CITY BASE,\n"
+	.string "CELADON BASE, CHRONO ISLAND\l"
+	.string "WAREHOUSE, MAHOGANY BASE and ROUTE 45\l"
+	.string "BASE. We are omnipresent!$"
 
 
 
@@ -133,10 +128,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS2_Text_14:
-.string "¡Con esta ya son 6 las bases que\n"
-.string "tenemos esparcidas entre KANTO,\l"
-.string "JOHTO e ISLAS SETE!\l"
-.string "¡TEAM ROCKET al poder!$"
+	.string "With this one, we now have six bases\n"
+	.string "scattered across KANTO, JOHTO, and the\l"
+	.string "SEVII ISLANDS! TEAM ROCKET reigns\l"
+	.string "supreme!$"
 
 
 
@@ -192,22 +187,21 @@ release
 end
 
 NinjaBaseS2_Charizardita_X_Texto_1:
-.string "Como ya sabes, estamos trabajando\n"
-	.string "en la creación de varias\l"
-	.string "MEGAPIEDRAS artificiales para\l"
-	.string "distintos POKÉMON. Con ello, hemos\l"
-	.string "logrado crear una variante\l"
-	.string "ofensiva física de CHARIZARD. Aquí\l"
-	.string "tienes su MEGAPIEDRA.$"
+	.string "As you already know, we've been working\n"
+	.string "on creating several artificial MEGA\l"
+	.string "STONES for various POKÉMON. As a\l"
+	.string "result, we've managed to create a\l"
+	.string "physical offensive variant of\l"
+	.string "CHARIZARD. Here's its MEGA STONE.$"
 
 NinjaBaseS2_Charizardita_X_Texto_3:
-.string "La CHARIZARDITA-X cumple el sueño\n"
-	.string "de muchos: ver a CHARIZARD\l"
-	.string "convertido en dragón. No hay nada\l"
-	.string "que los científicos del TEAM\l"
-	.string "ROCKET no puedan lograr.$"
+	.string "CHARIZARDITE-X realizes the dream of\n"
+	.string "many: to see CHARIZARD transformed\l"
+	.string "into a dragon. There's no limit to what\l"
+	.string "TEAM ROCKET's scientists can\l"
+	.string "accomplish.$"
 
 NinjaBaseS2_Charizardita_X_Texto_2:
-.string "¡¡Obtuviste CHARIZARDITA-X de\n"
-	.string "manos de CIENTÍFICO ROCKET!!$"
+	.string "You obtained a CHARIZARDITE-X from\n"
+	.string "ROCKET SCIENTIST!!$"
 

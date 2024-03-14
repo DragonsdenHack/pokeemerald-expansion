@@ -408,16 +408,16 @@ walk_slow_down
 step_end
 
 LavenderTown_Cierre_Torre_Texto_1:
-.string "CONSTRUCTOR: Procedo a cerrar la zona,\n"
-	.string "a partir de ahora nadie podrá volver a\l"
-	.string "entrar al lugar. Todas las tumbas y\l"
-	.string "POKÉMON han sido evacuados con éxito.$"
+	.string "BUILDER: I'm proceeding to close off\n"
+	.string "the area, from now on, no one will be\l"
+	.string "allowed to enter the premises. All\l"
+	.string "graves and POKÉMON have been\l"
+	.string "successfully evacuated.$"
 
 LavenderTown_Cierre_Torre_Texto_2:
-.string "FUJI: No te preocupes, AGATHA. Estoy\n"
-	.string "construyendo un gran CEMENTERIO\l"
-	.string "subterráneo para alojar todas las\l"
-	.string "almas desplazadas.$"
+	.string "FUJI: Don't worry, AGATHA. I'm building a\n"
+	.string "great underground cemetery to\l"
+	.string "accommodate all the displaced souls.$"
 
 LavenderTown_Cierre_Torre_Texto_3:
 .string "AGATHA: Oh, FUJI… Es el fin de una era,\n"

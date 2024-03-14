@@ -9,10 +9,10 @@ release
 end
 
 CultoS4_Text_2:
-.string "Las formas nacen y mueren, pero tú eres\n"
-.string "consciente de lo eterno que está\l"
-.string "detrás de esas formas. Nada real puede\l"
-.string "ser amenazado.$"
+	.string "Shapes come and go, but you understand\n"
+	.string "the eternal essence behind those\l"
+	.string "shapes. Nothing genuine can be\l"
+	.string "threatened.$"
 
 CultoS4_3::
 lock     
@@ -22,9 +22,9 @@ release
 end
 
 CultoS4_Text_3:
-.string "Se nos confina en una parcela que\n"
-	.string "delimita una inmensidad ya de por sí\l"
-	.string "inabarcable.$"
+	.string "We are confined to a plot that\n"
+	.string "delineates an already unfathomable\l"
+	.string "vastness.$"
 
 
 CultoS4_5::
@@ -35,10 +35,10 @@ release
 end
 
 CultoS4_Text_5:
-.string "Tu principal tarea no es buscar la\n"
-.string "salvación mediante la creación de un\l"
-.string "mundo mejor, sino despertar de la\l"
-.string "identificación con la forma.$"
+	.string "Your primary task is not to seek\n"
+	.string "salvation through the creation of a\l"
+	.string "better world, your primary task is to\l"
+	.string "awaken from identification with form.$"
 
 
 
@@ -50,11 +50,11 @@ release
 end
 
 CultoS4_Text_6:
-.string "El POKÉMON ESENCIA… ¿Tendrá un tipo\n"
-.string "definido? Algunos dicen que por\l"
-.string "definición debe ser FANTASMA, tal vez\l"
-.string "sea una combinación de este y otro\l"
-.string "más…$"
+	.string "The ESSENCE POKÉMON… Will it have a\n"
+	.string "defined type? Some say that by\l"
+	.string "definition it must be GHOST, perhaps\l"
+	.string "it's a combination of this and another\l"
+	.string "one…$"
 
 
 
@@ -66,10 +66,10 @@ release
 end
 
 CultoS4_Text_7:
-.string "El proceso de cambio es inminente, las\n"
-.string "regiones de JOHTO y KANTO jamás\l"
-.string "volverán a ser las mismas. ¿Estás\l"
-.string "preparado?$"
+	.string "Change is on the horizon; the\n"
+	.string "landscapes of JOHTO and KANTO are\l"
+	.string "destined for transformation. Are you\l"
+	.string "ready?$"
 
 
 
@@ -81,10 +81,10 @@ release
 end
 
 CultoS4_Text_8:
-.string "El declive empieza con la sustitución de\n"
-.string "sueños por recuerdos y acaba con la\l"
-.string "sustitución de recuerdos por otros\l"
-.string "recuerdos.$"
+	.string "The decline begins with the replacement\n"
+	.string "of dreams with memories and finishes\l"
+	.string "with the replacement of memories with\l"
+	.string "other memories.$"
 
 
 
@@ -168,28 +168,27 @@ face_up
 step_end
 
 CultoS4_Rezando_Esencia_Texto_1:
-.string "Nuestra esencia es carecer de esencia\n"
-	.string "y, al mismo tiempo, poder construirla en\l"
-	.string "potencia. Somos pura posibilidad, esto\l"
-	.string "es, una nada que es potencialmente\l"
-	.string "todo.$"
+	.string "Our essence is to lack essence and, at\n"
+	.string "the same time, to be able to build it\l"
+	.string "potentially. We are pure possibility,\l"
+	.string "that is, a nothingness that is\l"
+	.string "potentially everything.$"
 
 CultoS4_Rezando_Esencia_Texto_2:
-.string "Mientras que otros solo aspiran a\n"
-	.string "alargar la vista o subyugar los\l"
-	.string "sentidos, aquí nos apoyamos en un\l"
-	.string "pensamiento superior, verdadero y\l"
-	.string "concreto, piedra angular de este\l"
-	.string "mundo: El POKÉMON ESENCIA.$"
+	.string "While others merely seek to extend\n"
+	.string "their gaze or subdue their senses, here\l"
+	.string "we rely on a higher, true, and concrete\l"
+	.string "thought, the cornerstone of this world.\l"
+	.string "The ESSENCE POKÉMON.$"
 
 CultoS4_Rezando_Esencia_Texto_3:
-.string "La palabra POKÉMON resulta limitante\n"
-	.string "para referirse a ÉL, no solo por los\l"
-	.string "milenios de percepción errónea y mal\l"
-	.string "uso del término, sino también porque\l"
-	.string "implica que es una entidad distinta a\l"
-	.string "nosotros. El POKÉMON ESENCIA no es un\l"
-	.string "ser, es EL SER mismo.$"
+	.string "The word POKÉMON is limiting when\n"
+	.string "referring to IT, not only because of\l"
+	.string "millennia of misconception and misuse\l"
+	.string "of the term but also because it implies\l"
+	.string "that it is a separate entity from us.\l"
+	.string "The ESSENCE POKÉMON is not a being; it\l"
+	.string "is BEING itself.$"
 
 CultoS4_Huevo::
 lock
@@ -210,18 +209,17 @@ release
 end
 
 CultoS4_Huevo_Texto_1:
-.string "El otro día sentí una poderosa\n"
-	.string "presencia en este lugar, cuando quise\l"
-	.string "darme cuenta, ese aura espectral\l"
-	.string "desapareció, y encontré esto.$"
+	.string "Recently, I sensed a strong presence in\n"
+	.string "this area. Before I could react, the\l"
+	.string "spectral aura disappeared, and I found\l"
+	.string "this.$"
 
 CultoS4_Huevo_Texto_2:
-.string "Este lugar es el más antiguo de KANTO,\n"
-	.string "no me extraña que esa espectral\l"
-	.string "presencia haya venido para rendir\l"
-	.string "tributo a alguna alma, ya olvidada por\l"
-	.string "todos. La energía que sentí era\l"
-	.string "imponente, pero también aterradora, no\l"
-	.string "me extrañaría que perteneciera a algún\l"
-	.string "POKÉMON LEGENDARIO.$"
+	.string "This place is the oldest in KANTO, so\n"
+	.string "it's no surprise that such a spectral\l"
+	.string "presence came to pay homage to some\l"
+	.string "long-forgotten soul. The energy I felt\l"
+	.string "was imposing, yet also terrifying; it\l"
+	.string "wouldn't be surprising if it belonged to\l"
+	.string "a LEGENDARY POKÉMON.$"
 

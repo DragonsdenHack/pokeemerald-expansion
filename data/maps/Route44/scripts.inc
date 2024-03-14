@@ -9,10 +9,9 @@ release
 end
 
 Route44_Text_1:
-.string "La RUTA HELADA está cortada hasta\n"
-.string "nuevo aviso, lo siento, han sido\l"
-.string "órdenes de última hora venidas\l"
-.string "desde CIUDAD IRIS.$"
+	.string "The ICE PATH is closed until further\n"
+	.string "notice, sorry, it's been last-minute\l"
+	.string "orders from ECRUTEAK CITY.$"
 
 
 
@@ -39,10 +38,9 @@ release
 end
 
 Route44_Text_6:
-.string "La CUEVA HELADA ha mantenido al\n"
-.string "santuario del TIPO DRAGÓN, CIUDAD\l"
-.string "ENDRINO, alejada del resto de\l"
-.string "zonas de JOHTO.$"
+	.string "The ICE CAVE has kept the DRAGON TYPE\n"
+	.string "sanctuary, BLACKTHORN CITY, secluded\l"
+	.string "from the rest of JOHTO.$"
 
 
 
@@ -111,8 +109,8 @@ msgbox Route44Documento_Text_100, MSGBOX_SIGN
 end
 
 Route44Documento_Text_100:
-	.string "RUTA 44\n"
-	.string "PUEBLO CAOBA - CIUDAD ENDRINO$"
+	.string "ROUTE 44\n"
+	.string "MAHOGANY TOWN - BLACKTHORN CITY$"
 
 
 
@@ -121,8 +119,8 @@ msgbox Route44Documento_Text_101, MSGBOX_SIGN
 end
 
 Route44Documento_Text_101:
-	.string "RUTA 44\n"
-	.string "Hacia RUTA HELADA$"
+	.string "ROUTE 44\n"
+	.string "ICE PATH AHEAD$"
 
 Route44_Combate_Mirto::
 lock
@@ -230,40 +228,37 @@ delay_8
 step_end
 
 Route44_Combate_Mirto_Texto_1:
-.string "????: ¡{PLAYER}!\n"
-	.string "¡Espera!$"
+.string "????: {PLAYER}!\n"
+	.string "Wait!$"
 
 Route44_Combate_Mirto_Texto_2:
-.string "Sabía que te alcanzaría por aquí,\n"
-	.string "has derrotado a 7 de lo 8 mejores\l"
-	.string "ENTRENADORES de JOHTO, ¿verdad?\l"
-	.string "Solo te queda el último y más\l"
-	.string "difícil: el MAESTRO DRAGÓN de\l"
-	.string "ENDRINO. Por eso vas hacia la RUTA\l"
-	.string "HELADA.$"
+	.string "I figured I'd find you here. You've\n"
+	.string "taken down 7 of the top 8 TRAINERS in\l"
+	.string "JOHTO, haven't you? You're only left\l"
+	.string "with the last and toughest one: the\l"
+	.string "DRAGON MASTER of BLACKTHORN. That's\l"
+	.string "why you're heading towards the ICE\l"
+	.string "PATH.$"
 
 Route44_Combate_Mirto_Texto_3:
-.string "Vengo a despedirme, {PLAYER}. Así\n"
-	.string "es, en breve volveré a TESELIA, mi\l"
-	.string "región de origen.$"
+	.string "I come to say goodbye, {PLAYER}.\n"
+	.string "Indeed, soon I will go back to UNOVA, my\l"
+	.string "original region.$"
 
 Route44_Combate_Mirto_Texto_4:
-.string "Quiero que mi POKÉMON vuelva a ver\n"
-	.string "por última vez la región que le\l"
-	.string "vio crecer.$"
+	.string "I want my POKÉMON to see the region\n"
+	.string "where it grew up one last time.$"
 
 Route44_Combate_Mirto_Texto_5:
-.string "Todos los intentos por recuperar\n"
-	.string "la salud de mi POKÉMON han\l"
-	.string "fracasado, pero este viaje no ha\l"
-	.string "sido en vano, he aprendido mucho\l"
-	.string "de los mejores maestros de JOHTO.\l"
-	.string "Me han hecho ver que la situación\l"
-	.string "de mi POKÉMON es privilegiada,\l"
-	.string "tiene un don para el combate, y\l"
-	.string "sería un pecado no explorar los\l"
-	.string "límites de un POKÉMON tan\l"
-	.string "singular.$"
+	.string "All my attempts to restore my POKÉMON's\n"
+	.string "health have failed, but this journey\l"
+	.string "has not been in vain. I have learned a\l"
+	.string "lot from the best masters of JOHTO.\l"
+	.string "They have made me realize that my\l"
+	.string "POKÉMON's situation is privileged; it\l"
+	.string "has a gift for combat, and it would be a\l"
+	.string "sin not to explore the limits of such a\l"
+	.string "unique POKÉMON.$"
 
 Route44_Combate_Mirto_Texto_5.1:
 	.string "…$"
@@ -317,37 +312,35 @@ Route44_Combate_Mirto_Texto_5.10:
 	.string "su valor.$"
 
 Route44_Combate_Mirto_Texto_6:
-.string "Es por ello por lo que he venido\n"
-	.string "hasta aquí, {PLAYER}, no veo mejor\l"
-	.string "forma de honrar a mi POKÉMON que\l"
-	.string "proporcionarle este combate, aún\l"
-	.string "cuando su luz brilla con total\l"
-	.string "intensidad, para que todos\l"
-	.string "recuerden cómo era en su apogeo.$"
+	.string "That's why I've come here, {PLAYER}. I\n"
+	.string "can't think of a better way to honor my\l"
+	.string "POKÉMON than to provide this battle,\l"
+	.string "even as its light shines brightly, so\l"
+	.string "that everyone remembers how it was at\l"
+	.string "his prime.$"
 
 Route44_Combate_Mirto_Texto_7:
-.string "No importa que pasen 5 o 50 años.\n"
-	.string "¡Nadie nos podrá arrebatar lo\l"
-	.string "vivido aquí hoy, ni el nivel\l"
-	.string "LEGENDARIO alcanzado!$"
+	.string "No matter if it's 5 or 50 years from now,\n"
+	.string "nothing can rob us of what we've lived\l"
+	.string "through today, nor the LEGENDARY\l"
+	.string "status we've achieved!$"
 
 Route44_Combate_Mirto_Texto_8:
-.string "Jamás olvidaré este combate.$"
+.string "I will never forget this battle.$"
 
 Route44_Combate_Mirto_Texto_9:
-.string "Eres un ENTRENADOR de época,\n"
-	.string "{PLAYER}. Creo que con este combate\l"
-	.string "daré por concluida una etapa en\l"
-	.string "mi camino.$"
+	.string "You're a legendary trainer, {PLAYER}.\n"
+	.string "I reckon this battle will mark the end\l"
+	.string "of a chapter on my journey.$"
 
 Route44_Combate_Mirto_Texto_10:
-.string "Soltaré a mi actual equipo y\n"
-	.string "empezaré de 0 con el huevo de\l"
-	.string "LARVESTA de mi VOLCARONA. Quiero\l"
-	.string "que tú te quedes con este POKÉMON.$"
+	.string "I'll release my current team and begin\n"
+	.string "anew with the LARVESTA egg from my\l"
+	.string "VOLCARONA. I want you to keep this\l"
+	.string "POKÉMON.$"
 
 Route44_Combate_Mirto_Texto_11:
-.string "¡¡OBTUVISTE UN NOIBAT AL Nv.25!!$"
+.string "YOU OBTAINED A LV.25 NOIBAT!!$"
 
 Route44_Combate_Mirto_Texto_11.1:
 	.string "Con este combate, mi cénit como\n"
@@ -355,10 +348,9 @@ Route44_Combate_Mirto_Texto_11.1:
 	.string "aún puedes hacer sangrar a los dioses.$"
 
 Route44_Combate_Mirto_Texto_12:
-.string "Hasta la vista, {PLAYER}. Saluda al\n"
-	.string "MAESTRO DRAGÓN de mi parte, seguro\l"
-	.string "que él puede llevarte a cotas aún\l"
-	.string "más altas.$"
+	.string "Goodbye, {PLAYER}. Give my regards to\n"
+	.string "the DRAGON MASTER; I'm sure he can\l"
+	.string "guide you to even greater heights.$"
 
 Route44_Combate_Mirto_Move_1:
 emote_exclamation_mark

@@ -14,9 +14,9 @@ release
 end
 
 MahoganyTown_Text_1:
-.string "Nuestro LÍDER ha salido a dar un\n"
-.string "paseo por el LAGO DE LA FURIA,\l"
-.string "está en plena forma para su edad.$"
+	.string "Our LEADER has gone for a walk around\n"
+	.string "the LAKE OF RAGE; he's in excellent\l"
+	.string "condition considering his age.$"
 
 
 
@@ -28,12 +28,12 @@ release
 end
 
 MahoganyTown_Text_2:
-.string "FREDO medita todos los días bajo\n"
-.string "una cascada helada para mantenerse\l"
-.string "fuerte y lúcido. La leyenda dice\l"
-.string "que fue en uno de esos momentos de\l"
-.string "máxima lucidez cuando la gran ave\l"
-.string "helada se le apareció.$"
+	.string "PRYCE meditates beneath a frozen\n"
+	.string "waterfall each day to stay strong and\l"
+	.string "mentally sharp. According to legend, it\l"
+	.string "was during one of these moments of\l"
+	.string "peak lucidity when the great ice bird\l"
+	.string "revealed itself to him.$"
 
 
 
@@ -45,10 +45,9 @@ release
 end
 
 MahoganyTown_Text_3:
-.string "Verás al precio de oro al que\n"
-.string "venderé a los turistas el\l"
-.string "CARAMELOFURIA…\l"
-.string "¡Jojojo!$"
+	.string "You'll see the exorbitant price that I'll\n"
+	.string "sell the RAGE CANDIES to the tourists…\l"
+	.string "Hohoho!$"
 
 
 
@@ -57,8 +56,8 @@ msgbox MahoganyTownDocumento_Text_100, MSGBOX_SIGN
 end
 
 MahoganyTownDocumento_Text_100:
-.string "PUEBLO CAOBA\n"
-	.string "Bienvenido al hogar de los ninja.$"
+.string "MAHOGANY TOWN\n"
+	.string "Welcome to the home of the ninja.$"
 
 
 
@@ -67,10 +66,9 @@ msgbox MahoganyTownDocumento_Text_101, MSGBOX_SIGN
 end
 
 MahoganyTownDocumento_Text_101:
-	.string "GIMNASIO de PUEBLO CAOBA\n"
-	.string "LÍDER: FREDO\l"
-	.string "El imperturbable maestro del\l"
-	.string "hielo.$"
+	.string "MAHOGANY TOWN POKÉMON GYM\n"
+	.string "LEADER: PRYCE\l"
+	.string "The Teacher of Winter's Harshness$"
 
 
 
@@ -79,8 +77,8 @@ msgbox MahoganyTownDocumento_Text_102, MSGBOX_SIGN
 end
 
 MahoganyTownDocumento_Text_102:
-.string "¡Si visitas PUEBLO CAOBA, prueba\n"
-	.string "un CARAMELOFURIA!$"
+.string "If you are visiting MAHOGANY TOWN,\n"
+	.string "try the RAGE CANDY!$"
 
 
 MahoganyTown_Encuentro_Rocket_Abajo::
@@ -131,42 +129,37 @@ release
 end
 
 MahoganyTown_Encuentro_Rocket_Texto_1:
-.string "RECLUTA: ¡ADMIN.JEFE {PLAYER}!\n"
-	.string "¡Qué oportuno!$"
+.string "GRUNT: CHIEF ADMIN. {PLAYER}! \n"
+	.string "How timely!$"
 
 MahoganyTown_Encuentro_Rocket_Texto_2:
-.string "Ejem...\n"
-	.string "Verá.\l"
-	.string "Tal como GIOVANNI nos indicó,\l"
-	.string "FREDO nos ha cedido la antigua\l"
-	.string "BASE NINJA de CAOBA para nuestras\l"
-	.string "investigaciones. Instalamos ya\l"
-	.string "parte del material y adaptamos la\l"
-	.string "base al estilo ROCKET.$"
+	.string "Cof… Listen. Just as GIOVANNI ordered\n"
+	.string "us, PRYCE has handed over the old NINJA\l"
+	.string "HIDDEN BASE in MAHOGANY for our\l"
+	.string "research. We've already installed some\l"
+	.string "of the equipment and adapted the base\l"
+	.string "to the ROCKET style.$"
 
 MahoganyTown_Encuentro_Rocket_Texto_3:
-.string "Pero, en la ausencia de FREDO, la\n"
-	.string "base ha sido ocupada por ladrones,\l"
-	.string "ninjas, y personajes de la peor\l"
-	.string "calaña.$"
+	.string "However, in PRYCE's absence, the base\n"
+	.string "has been occupied by thieves, ninjas,\l"
+	.string "and the worst sort of people.$"
 
 MahoganyTown_Encuentro_Rocket_Texto_4:
-.string "Intentamos entrar por la fuerza,\n"
-	.string "pero saben aprovechar bien la\l"
-	.string "estructura de la base para\l"
-	.string "tomarnos siempre por sorpresa y no\l"
-	.string "dejarnos avanzar.$"
+	.string "We tried to force our way in, but they\n"
+	.string "know how to exploit the base's\l"
+	.string "structure to always catch us off guard\l"
+	.string "and prevent us from advancing.$"
 
 MahoganyTown_Encuentro_Rocket_Texto_5:
-.string "Usted seguro que sabe poner orden\n"
-	.string "en esta situación, acompáñeme, le\l"
-	.string "mostraré dónde está la BASE NINJA.$"
+	.string "You appear to have the skills needed to\n"
+	.string "handle this situation. Join me, and I'll\l"
+	.string "guide you to the NINJA BASE.$"
 
 MahoganyTown_Encuentro_Rocket_Texto_6:
-.string "Es aqui. Tenemos rodeado el\n"
-	.string "exterior, pero somos incapaces de\l"
-	.string "adentrarnos en lo profundo de la\l"
-	.string "base.$"
+	.string "It's here. We have the exterior\n"
+	.string "surrounded, but we're struggling to\l"
+	.string "breach the inner sanctum of the base.$"
 
 MahoganyTown_Encuentro_Rocket_Move_1:
 walk_in_place_right
@@ -238,8 +231,8 @@ release
 end
 
 Caoba_Barrera_Texto_1:
-.string "(Debería ayudar antes al TEAM\n"
-	.string "ROCKET a limpiar la BASE CAOBA)$"
+.string "(I should help TEAM ROCKET clean\n"
+	.string "up the MAHOGANY BASE first.)$"
 
 Caoba_Barrera_Move_1:
 walk_in_place_down

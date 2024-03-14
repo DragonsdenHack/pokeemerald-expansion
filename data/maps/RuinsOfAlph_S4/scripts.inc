@@ -287,133 +287,121 @@ release
 end
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_1:
-.string "ZEUS: Impresionante {PLAYER}, pero\n"
-	.string "demasiado tarde.$"
+	.string "ZEUS: Impressive, {PLAYER}, but too late.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_2:
-.string "¿Sientes la energía de este lugar?\n"
-	.string "Desconozco el motivo, pero aquí la\l"
-	.string "esencia PRIMIGENIA de los POKÉMON\l"
-	.string "LEGENDARIOS les es devuelta.\l"
-	.string "KYOGRE, GROUDON...es lo que andaba\l"
-	.string "buscando, pero aún más\l"
-	.string "importante...$"
+	.string "ZEUS: Do you feel the energy of this\n"
+	.string "place? I'm not sure why, but here the\l"
+	.string "PRIMAL essence of the LEGENDARY\l"
+	.string "POKÉMON is restored to them. KYOGRE,\l"
+	.string "GROUDON… that's what I was looking for,\l"
+	.string "but even more important…$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_3:
-.string "KYUREM, la cáscara vacía del\n"
-	.string "DRAGÓN ORIGINAL. Este es el lugar,\l"
-	.string "el cómo están dispuestas estas\l"
-	.string "ruinas delata su función.$"
+	.string "KYUREM, the empty shell of the\n"
+	.string "ORIGINAL DRAGON. This is the place, how\l"
+	.string "these ruins are arranged reveals their\l"
+	.string "purpose.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_4:
-.string "¡ZEKROM, el POKÉMON YIN, a la\n"
-	.string "derecha!$"
+	.string "ZEKROM, the YIN POKÉMON, to the right!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_5:
-.string "¡RESHIRAM, el POKÉMON YANG, a la\n"
-	.string "izquierda!$"
+	.string "RESHIRAM, the YANG POKÉMON, to the\n"
+	.string "left!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_6:
-.string "Y por último, ¡KYUREM, el POKÉMON\n"
-	.string "CERO, en el centro!$"
+	.string "And lastly, KYUREM, the ZERO POKÉMON, in\n"
+	.string "the center!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_7:
-.string "Los 3 juntos formarán al DRAGÓN\n"
-	.string "ORIGINAL, la perfección, el\l"
-	.string "equilibrio univers...$"
+	.string "The three together will form the\n"
+	.string "ORIGINAL DRAGON, the perfection, the\l"
+	.string "universal balance…$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_8:
-.string "¡Al fin!$"
+.string "Finally!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_9:
-.string "El POKÉMON más poderoso de todos\n"
-	.string "los tiempos, ahora es mío.$"
+	.string "The most powerful POKEMON of all time,\n"
+	.string "now belongs to me.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_10:
-.string "Ya no hay vuelta atrás, gracias a\n"
-	.string "su incuestionable poder podré\l"
-	.string "ejercer mi voluntad sin oposición.\l"
-	.string "Será lo único que existirá, la\l"
-	.string "voluntad de los dioses, como\l"
-	.string "siempre debió ser.$"
+	.string "There is no turning back now. Thanks to\n"
+	.string "its unquestionable power, I will be able\l"
+	.string "to exert my will without opposition. It\l"
+	.string "will be the only thing that exists, the\l"
+	.string "will of the gods, as it should always\l"
+	.string "have been.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_11:
-.string "Tú serás el primero, {PLAYER}, has\n"
-	.string "tratado de detenerme una y otra\l"
-	.string "vez, aquí estamos de nuevo, nada\l"
-	.string "de lo que has hecho ha servido\l"
-	.string "para que finalmente no ocurra\l"
-	.string "lo inevitable.$"
+	.string "You'll be the first, PLAYER, you've tried\n"
+	.string "to stop me time and time again, here we\l"
+	.string "are again, nothing you've done has\l"
+	.string "prevented the inevitable from\l"
+	.string "happening.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_12:
-.string "Ahora, enfrenta al 100% absoluto,\n"
-	.string "no hay posibilidad de escape. ¡El\l"
-	.string "mundo POKÉMON me pertenece!$"
+	.string "Now, face the absolute 100%, there's no\n"
+	.string "chance of escape. The POKÉMON world\l"
+	.string "belongs to me!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_13:
-.string "¡No!\n"
-	.string "¡Debe haber algún error, es\l"
-	.string "imposible!$"
+.string "No!\n"
+	.string "It seems like something went wrong!\l"
+	.string "Let me try again!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_14:
-.string "¡KYUREM!$"
+.string "KYUREM!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_15:
-.string "¿¡No es posible!?\n"
-	.string "Los PRIMIGENIOS, el mismísimo dios\l"
-	.string "POKÉMON, el DRAGÓN ORIGINAL...\l"
-	.string "¿Cómo tú...?$"
+	.string "Is it not possible?! The PRIMAL\n"
+	.string "POKÉMON, the very god of POKÉMON, the\l"
+	.string "ORIGINAL DRAGON… How could you…?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16:
-.string "????: Estúpido iluso, ¿de verdad\n"
-	.string "crees que eso era el DRAGÓN\l"
-	.string "ORIGINAL?\l"
-	.string "Pretender volver a formar algo\l"
-	.string "perfecto juntando imperfecciones\l"
-	.string "como si fueran piezas de un\l"
-	.string "puzzle, patético.$"
+	.string "????: Stupid fool, do you really believe\n"
+	.string "that was the ORIGINAL DRAGON? Trying\l"
+	.string "to reform something perfect by piecing\l"
+	.string "together imperfections as if they were\l"
+	.string "puzzle pieces, pathetic.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_17:
-.string "ZEUS: No entiendo, ¿¡quién eres\n"
-	.string "tú!?$"
+	.string "ZEUS: I don't understand, who are you!?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_18:
-.string "¡TAAAAAAAALL!$"
+.string "TAAAAAAAALL!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_19:
-.string "JONES: Alguien que se cree\n"
-	.string "superior al resto por la divina\l"
-	.string "providencia no merece seguir\l"
-	.string "viviendo.$"
+	.string "JONES: Someone who believes\n"
+	.string "themselves superior to others by divine\l"
+	.string "providence doesn't deserve to keep\l"
+	.string "living.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_20:
 .string "...$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_21:
-.string "Ese estúpido ha muerto sin saber\n"
-	.string "que todo lo que ha logrado, sus\l"
-	.string "FORMAS PRIMIGENIAS, el DRAGÓN\l"
-	.string "ORIGINAL incompleto...\l"
-	.string "Se lo debe todo al POKÉMON\l"
-	.string "ESENCIA, su presencia aquí es lo\l"
-	.string "que devuelve a los LEGENDARIOS su\l"
-	.string "máximo potencial, pero aún podemos\l"
-	.string "acercarnos más a ÉL.$"
+	.string "That fool has died without knowing that\n"
+	.string "everything he achieved, his PRIMAL\l"
+	.string "FORMS, the incomplete ORIGINAL\l"
+	.string "DRAGON… He owes it all to the POKÉMON\l"
+	.string "ESSENCE. Its presence here is what\l"
+	.string "restores the LEGENDARIES to their\l"
+	.string "maximum potential, but we can still get\l"
+	.string "closer to IT.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_22:
-.string "(JONES recogió todos los POKÉMON\n"
-	.string "de ZEUS)$"
+	.string "(JONES collected all of ZEUS's POKEMON.)$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_23:
-.string "Podría acabar contigo también\n"
-	.string "{PLAYER}, pero a diferencia de ese\l"
-	.string "ZEUS yo tengo principios, y por\l"
-	.string "respeto a todo lo que has logrado\l"
-	.string "llegando hasta aquí con POKÉMON\l"
-	.string "mortales, te daré la oportunidad\l"
-	.string "de acceder también a la última\l"
-	.string "sala. Una más {PLAYER}, y podrás\l"
-	.string "conocer la verdad.$"
+	.string "{PLAYER}, but unlike that ZEUS, I have\n"
+	.string "principles, and out of respect for all\l"
+	.string "you've achieved getting here with\l"
+	.string "mortal POKÉMON, I'll give you the chance\l"
+	.string "to access the final chamber as well.\l"
+	.string "Just one more {PLAYER}, and you'll be\l"
+	.string "able to discover the truth.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Move_1:
 walk_in_place_up

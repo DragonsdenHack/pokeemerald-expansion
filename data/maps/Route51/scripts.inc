@@ -14,8 +14,8 @@ release
 end
 
 Route51_Text_2:
-.string "Siento que ya estuve antes en este\n"
-.string "lugar…en un sueño…$"
+	.string "I feel like I was already in this place…\n"
+	.string "in a dream…$"
 
 
 
@@ -66,8 +66,8 @@ release
 end
 
 Route51_Combate_Chica_Texto_8.1:
-.string "¡Obtuviste STARMIETITA de manos\n"
-	.string "de CHICA!$"
+.string "You obtained a STARMIETITE\n"
+	.string "from the GIRL!$"
 
 Route51_Combate_Chica_2::
 msgbox Route51_Combate_Chica_Texto_3 MSGBOX_AUTOCLOSE
@@ -86,63 +86,58 @@ end
 
 
 Route51_Combate_Chica_Texto_1:
-.string "Cada POKÉMON guarda dentro de sí\n"
-	.string "un potencial infinito, cuando\l"
-	.string "crees haber captado ese potencial,\l"
-	.string "la realidad te golpea\l"
-	.string "instantáneamente, haciéndote\l"
-	.string "olvidar ese pequeño chasquido de\l"
-	.string "pleno potencial, y todos vuelven a\l"
-	.string "estar sujetos a las leyes físicas.$"
+	.string "Each POKÉMON holds within itself an\n"
+	.string "infinite potential. When you think\l"
+	.string "you've grasped that potential, reality\l"
+	.string "hits you instantaneously, making you\l"
+	.string "forget that brief flicker of full\l"
+	.string "potential, and every POKÉMON returns\l"
+	.string "to being subject to the laws of\l"
+	.string "physics.$"
 
 Route51_Combate_Chica_Texto_2:
-.string "Dime, ¿crees que un POKÉMON fuerte\n"
-	.string "puede provenir de cualquier lugar\l"
-	.string "o especie?$"
+	.string "Tell me, do you think that a strong\n"
+	.string "POKÉMON can originate from anywhere?$"
 
 Route51_Combate_Chica_Texto_3:
-.string "¡Oh, no!\n"
-	.string "¿Aplicar las mismas reglas que\l"
-	.string "viste en mis POKÉMON con\l"
-	.string "LEGENDARIOS o POKÉMON con mayor\l"
-	.string "poder BASE?\l"
-	.string "¡Eso no es posible!\l"
-	.string "Parten de una base diferente,\l"
-	.string "¡pero el proceso también es\l"
-	.string "diferente, y si lo haces bien,\l"
-	.string "todos acaban llegando a un punto\l"
-	.string "similar!$"
+	.string "Oh, no! Applying the same rules you saw\n"
+	.string "in my POKÉMON with LEGENDARIES or\l"
+	.string "POKÉMON with higher BASE power? That's\l"
+	.string "not possible! They start from a\l"
+	.string "different base, but the process is also\l"
+	.string "different, and if you do it right, they\l"
+	.string "all end up reaching a similar point!$"
 
 Route51_Combate_Chica_Texto_4:
-.string "¿Y estarías dispuesto a llevar esa\n"
-	.string "creencia al terreno de un combate?$"
+	.string "And would you be willing to take that\n"
+	.string "belief into the arena of combat?$"
 
 Route51_Combate_Chica_Texto_5:
-.string "En ese caso, nada puedo enseñarte,\n"
-	.string "que tengas un buen día.$"
+	.string "In that case, I can't teach you\n"
+	.string "something new, have a nice day.$"
 
 Route51_Combate_Chica_Texto_6:
-.string "¡Genial!\n"
-	.string "En honor a este lugar...\l"
-	.string "¡Cruzaremos la sinuosa frontera\l"
-	.string "entre lo sagrado y lo profano!$"
+.string "Cool!\n"
+	.string "In honor of this place…\l"
+	.string "We will cross the winding border between\l"
+	.string "the sacred and the profane!$"
 
 Route51_Combate_Chica_Texto_7:
-.string "Sí...\n"
-	.string "Eso es...$"
+.string "Yeah…\n"
+	.string "That's it…$"
 
 Route51_Combate_Chica_Texto_8:
-.string "Así es, no existe ingrediente\n"
-	.string "secreto, todo lo que necesitas ya\l"
-	.string "lo tienes, eres alguien que conoce\l"
-	.string "cúal es el camino a seguir, quiero\l"
-	.string "que tengas esto.$"
+	.string "That's right, there's no secret\n"
+	.string "ingredient. Everything you need, you\l"
+	.string "already have. You're someone who knows\l"
+	.string "what the path ahead looks like. I want\l"
+	.string "you to have this.$"
 
 Route51_Combate_Chica_Texto_9:
-.string "Lo encontré en uno de mis largos\n"
-	.string "paseos por la playa, seguro que a\l"
-	.string "ti te sirve más que a mí.$"
+	.string "I found it on one of my journeys along\n"
+	.string "the beach, I'm sure it'll be more useful\l"
+	.string "to you than to me.$"
 
 Route51_Combate_Chica_Texto_10:
-.string "Lo entiendo, traspasar los límites\n"
-	.string "de la realidad no es para todos.$"
+	.string "I understand, not everyone is prepared\n"
+	.string "to trespassing the reality limits.$"

@@ -3470,104 +3470,104 @@ walk_up
 step_end
 
 RocketHideout_4F_Escena_Motoristas_Texto_1.1:
-.string "GIOVANNI: ¿Y bien?$"
+.string "GIOVANNI: Well?$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_1:
-.string "KOGA: Es irreversible, ZONA SAFARI\n"
-	.string "cerrará sus puertas en las próximas\l"
-	.string "semanas.$"
+	.string "KOGA: It's irreversible, SAFARI ZONE\n"
+	.string "will close its doors in the upcoming\l"
+	.string "weeks.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_2:
-.string "GIOVANNI: Era de esperar, ahora que las\n"
-	.string "fronteras con JOHTO se han abierto,\l"
-	.string "todos querrán visitar la región vecina\l"
-	.string "y sus exóticos POKÉMON.$"
+	.string "GIOVANNI: It was to be expected; now\n"
+	.string "that the borders with JOHTO have\l"
+	.string "opened, everyone will want to visit the\l"
+	.string "neighboring region and its exotic\l"
+	.string "POKÉMON.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_3:
-.string "KOGA: Sin mencionar que más de uno ha\n"
-	.string "capturado ya un KANGASKHAN en el\l"
-	.string "TÚNEL ROCA, y lo ha hecho público.$"
+	.string "KOGA: Not to mention that more than\n"
+	.string "one has already captured a KANGASKHAN\l"
+	.string "in ROCK TUNNEL and made it public.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_4:
-.string "GIOVANNI: Los nuevos tiempos KOGA,\n"
-	.string "muchas cosas van a cambiar, no todas\l"
-	.string "para bien.$"
+	.string "GIOVANNI: The new times, KOGA, many\n"
+	.string "things are going to change, not all for\l"
+	.string "the better.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_5:
-.string "Ni siquiera el TEAM ROCKET escapa a los\n"
-	.string "cambios, nos hemos vuelto grandes,\l"
-	.string "tanto que nos será imposible contentar\l"
-	.string "a todos…$"
+	.string "Not even TEAM ROCKET escapes the\n"
+	.string "changes, we have become great, so much\l"
+	.string "so that it will be impossible to make\l"
+	.string "everyone happy…$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_6:
-.string "KOGA: ¿Te refieres a…?$"
+.string "KOGA: Do you mean…?$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_7:
-.string "GIOVANNI: Así es, el cierre de las VÍAS\n"
-	.string "SUBTERRÁNEAS.$"
+	.string "GIOVANNI: Yes, the close of the\n"
+	.string "UNDERGROUND PATHS.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_8:
-.string "Antaño sirvieron de refugio durante la\n"
-	.string "guerra, y más recientemente resultaron\l"
-	.string "ser una gran red de tráfico para\l"
-	.string "nosotros.$"
+	.string "In the past, they served as refuge\n"
+	.string "during the war, and more recently, they\l"
+	.string "turned out to be a great trafficking\l"
+	.string "network for us.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_9:
-.string "Gracias a ellas obtuvimos enormes\n"
-	.string "ingresos de los productos importados\l"
-	.string "por mar desde nuestra base de ISLAS\l"
-	.string "SETE, algo que fue optimizado vía\l"
-	.string "teletransporte gracias a la patente de\l"
-	.string "BILL.$"
+	.string "Thanks to them, we obtained huge\n"
+	.string "revenues from products imported by sea\l"
+	.string "from our SEVII ISLANDS base, something\l"
+	.string "that was optimized via teleportation\l"
+	.string "thanks to BILL's patent.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_10:
-.string "Ahora, con la unión de KANTO y JOHTO, no\n"
-	.string "son más que un lastre para el comercio\l"
-	.string "entre regiones, ya he recibido\l"
-	.string "presiones desde TORRE RADIO y el\l"
-	.string "MAGNETOTREN para que sean cerradas, y\l"
-	.string "así se hará.$"
+	.string "Nowadays, with the union between KANTO\n"
+	.string "Y JOHTO, they are nothing more than a\l"
+	.string "burden for business between regions. I\l"
+	.string "have already received pressure from\l"
+	.string "the RADIO TOWER and the MAGNETRAIN to\l"
+	.string "have them closed, and that's what will\l"
+	.string "be done.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_11:
-.string "KOGA: Pero…$"
+.string "KOGA: But…$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_12:
-.string "GIOVANNI: El TEAM ROCKET se ha hecho\n"
-	.string "grande. En su día nos fue de gran ayuda\l"
-	.string "para mantenernos a flote, pero hoy\l"
-	.string "podemos prescindir de ellas.$"
+	.string "GIOVANNI: TEAM ROCKET has grown. In\n"
+	.string "those days, they were of great help to\l"
+	.string "keep us afloat, but today we can do\l"
+	.string "without them.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_13:
-.string "KOGA: ¿Qué hay de los MOTORISTAS? Su\n"
-	.string "rol principal era el de vender los\l"
-	.string "productos importados, las vías eran\l"
-	.string "como su segunda cas…$"
+	.string "KOGA: What about the BIKERS? Their\n"
+	.string "main role was to sell imported goods,\l"
+	.string "the roads were like their second hom...$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_14:
-.string "PETREL: ¿Me ha llamado, JEFE?$"
+.string "PETREL: Did you call me, BOSS?$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_15:
-.string "GIOVANNI: Así es, ambos habéis sido el\n"
-	.string "enlace entre el TEAM ROCKET y los\l"
-	.string "MOTORISTAS.$"
+	.string "GIOVANNI: That's right, both of you\n"
+	.string "have been the link between TEAM ROCKET\l"
+	.string "and the BIKERS.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_16:
-.string "Por ello, os pido que les comuniquéis la\n"
-	.string "dura decisión del cierre de las vías.\l"
-	.string "Prescindimos de sus servicios, pero el\l"
-	.string "TEAM ROCKET no olvida.$"
+	.string "Therefore, I ask you to communicate to\n"
+	.string "them the tough decision of closing the\l"
+	.string "roads. We are going to rid ourselves of\l"
+	.string "their services, but TEAM ROCKET does\l"
+	.string "not forget.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_17:
-.string "A pesar de haber quedado obsoletos en\n"
-	.string "la KANTO actual, todo MOTORISTA que\l"
-	.string "desee convertirse en miembro del TEAM\l"
-	.string "ROCKET y trabajar en nuestras\l"
-	.string "distintas bases y sucursales, será más\l"
-	.string "que bienvenido.$"
+	.string "Despite becoming obsolete in the\n"
+	.string "current KANTO, any BIKER who wishes to\l"
+	.string "become a member of TEAM ROCKET and\l"
+	.string "work in our various bases and branches\l"
+	.string "will be more than welcome.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_18:
-.string "Con ello zanjamos este tema. KOGA,\n"
-	.string "PETREL…{PAUSE 25} eso es todo.$"
+	.string "With that, we wrap up this matter. KOGA,\n"
+	.string "PETREL... that's all.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_19:
 .string "PETREL: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"

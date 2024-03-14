@@ -47,43 +47,39 @@ release
 end
 
 IcePath_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: {PLAYER}, hemos\n"
-	.string "registrado los datos del MAMOSWINE\l"
-	.string "FUERTE VÍNCULO de FREDO, pero,\l"
-	.string "¿con qué clase de POKÉMON acabas\l"
-	.string "de combatir?\l"
-	.string "Está rompiendo los esquemas de\l"
-	.string "todos nuestros científicos.$"
+	.string "GIOVANNI: {PLAYER}, we've recorded\n"
+	.string "the data of PRYCE's DEEP BOND\l"
+	.string "MAMOSWINE, but what kind of POKÉMON\l"
+	.string "did you just battle against? It's\l"
+	.string "shattering the expectations of all our\l"
+	.string "researchers.$"
 
 IcePath_Llamada_Giovanni_Texto_1.1:
-.string "El MAMOSWINE-& de FREDO es\n"
-	.string "extraordinario, cuenta con el mismo\l"
-	.string "ATAQUE y mejor VELOCIDAD que\l"
-	.string "GARCHOMP-MEGA, y defensas similares,\l"
-	.string "en stats útiles es completamente\l"
-	.string "equiparable a la MEGA de un\l"
-	.string "PSEUDOLEGENDARIO.$"
+	.string "PRYCE's MAMOSWINE-& is extraordinary,\n"
+	.string "boasting the same ATTACK and better\l"
+	.string "SPEED than MEGA GARCHOMP, with similar\l"
+	.string "defenses. In useful stats, it's\l"
+	.string "completely comparable to the MEGA of a\l"
+	.string "PSEUDO LEGENDARY.$"
 
 IcePath_Llamada_Giovanni_Texto_1.2:
-.string "Pero... el POKÉMON con el que acabas de\n"
-	.string "combatir va incluso más allá, su\l"
-	.string "poderío por el lado especial es\l"
-	.string "inigualable, algo único.$"
+	.string "But… the POKÉMON you just battled goes\n"
+	.string "even further, its special prowess is\l"
+	.string "unparalleled, something really unique.$"
 
 
 IcePath_Llamada_Giovanni_Texto_2:
-.string "Cambiando de tema, te he llamado\n"
-	.string "por otra razón. Quiero que vengas\l"
-	.string "a mi despacho de la BASE ROCKET\l"
-	.string "PROFUNDA. Hay que tomar cartas en\l"
-	.string "el asunto respecto a lo que me\l"
-	.string "contaste de ese ENTRENADOR que\l"
-	.string "tiene a LUGIA y HO-OH en su poder.\l"
-	.string "Te espero aquí, {PLAYER}.$"
+	.string "Changing the topic, I called you for\n"
+	.string "another reason. I want you to come to\l"
+	.string "my office at the DEEP ROCKET BASE. We\l"
+	.string "need to take action regarding what you\l"
+	.string "told me about that TRAINER who has\l"
+	.string "LUGIA and HO-OH in his possession. I'll\l"
+	.string "be waiting for you here, {PLAYER}.$"
 
 IcePath_Llamada_Giovanni_Texto_3:
-.string "¿Quieres volver a la BASE ROCKET de\n"
-	.string "KANTO?$"
+.string "Do you want to return to\n"
+	.string "the KANTO ROCKET BASE?$"
 
 IcePath_Bloqueo::
 compare VAR_UNUSED_0x40F7, 170
@@ -97,8 +93,8 @@ release
 end
 
 IcePath_Bloqueo_Texto_1:
-.string "(GIOVANNI me ha dicho que acuda\n"
-	.string "a su despacho urgentemente)$"
+.string "(GIOVANNI told me to go immediately\n"
+	.string "to his private office)$"
 
 IcePath_Bloqueo_Move_1:
 walk_in_place_left

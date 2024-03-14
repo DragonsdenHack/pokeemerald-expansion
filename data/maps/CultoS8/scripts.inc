@@ -42,79 +42,74 @@ release
 end
 
 CultoS8_Combate_Lider_Texto_1:
-.string "{PLAYER}, has vuelto.$"
+.string "{PLAYER}, you are back.$"
 
 CultoS8_Combate_Lider_Texto_2:
-.string "No digas nada, deja que tu equipo\n"
-	.string "POKÉMON hable por sí solo. Esta\l"
-	.string "vez te pondré a prueba de verdad.$"
+	.string "Don't say a word, let your POKÉMON team\n"
+	.string "talk by itself. This time I will really\l"
+	.string "test you.$"
 
 CultoS8_Combate_Lider_Texto_3:
-.string "Espero que estés preparado para lo\n"
-	.string "que vas a ver.$"
+	.string "I hope you are prepared enough to see\n"
+	.string "this.$"
 
 CultoS8_Combate_Lider_Texto_4:
-.string "Así que has seguido creciendo como\n"
-	.string "ENTRENADOR...$"
+	.string "So you have been improving as a\n"
+	.string "TRAINER…$"
 
 CultoS8_Combate_Lider_Texto_5:
-.string "No soy amigo de los halagos,\n"
-	.string "pero he de admitir que todo el\l"
-	.string "camino que has recorrido para\l"
-	.string "llegar hasta aquí, en este estado,\l"
-	.string "es impresionante, tanto que casi\l"
-	.string "has alcanzado el tope que permiten\l"
-	.string "las leyes de este mundo.$"
+	.string "I'm not used to flattering people, but I\n"
+	.string "must admit, the journey you've\l"
+	.string "undertaken to reach this point, in this\l"
+	.string "state, is impressive, so much so that\l"
+	.string "you've nearly reached the limits allowed\l"
+	.string "by the laws of this world.$"
 
 CultoS8_Combate_Lider_Texto_6:
-.string "Sí, incluso podrías ser digno de\n"
-	.string "presenciar al POKEMON ES...$"
+	.string "Yes, you could even be able to see the\n"
+	.string "ESSENCE POKÉ…$"
 
 CultoS8_Combate_Lider_Texto_7:
-.string "¿Un ENTRENADOR misterioso ha\n"
-	.string "logrado capturar a LUGIA y HO-OH?\l"
-	.string "¿Y dice faltarle una pieza para\l"
-	.string "liberar al que él llama el creador\l"
-	.string "de todo?$"
+	.string "Did a mysterious TRAINER succeed in\n"
+	.string "capturing LUGIA and HO-OH? And does he\l"
+	.string "claim to lack a piece to release what he\l"
+	.string "calls the creator of everything?$"
 
 CultoS8_Combate_Lider_Texto_8:
 .string "...$"
 
 CultoS8_Combate_Lider_Texto_9:
-.string "No, no puede referirse al POKÉMON\n"
-	.string "ESENCIA. Sea lo que sea, {PLAYER},\l"
-	.string "lo que busca nada tiene que ver\l"
-	.string "con nosotros, y su poder, inferior\l"
-	.string "al del POKÉMON ESENCIA, puesto que\l"
-	.string "este lo es verdaderamente todo.$"
+	.string "No, he can't refer to the ESSENCE\n"
+	.string "POKÉMON. Whatever it is, {PLAYER},\l"
+	.string "what it's looking for has nothing to do\l"
+	.string "with us, and its power is inferior to\l"
+	.string "that of the ESSENCE POKÉMON, since the\l"
+	.string "latter is truly everything.$"
 
 CultoS8_Combate_Lider_Texto_10:
-.string "Ahora bien, las RUINAS ALFA\n"
-	.string "guardan innumerables secretos, tal\l"
-	.string "vez sepa de alguna leyenda que\l"
-	.string "desconozco. Pero tú, {PLAYER},\l"
-	.string "viendo cómo has combatido... A\l"
-	.string "alguien como tú solo el POKÉMON\l"
-	.string "ESENCIA puede tumbar en combate.$"
+	.string "So now, the RUINS OF ALPH keep several\n"
+	.string "secrets, maybe he knows some legend\l"
+	.string "that I don't. But you, {PLAYER},\l"
+	.string "seeing how you've battled… Someone like\l"
+	.string "you can only be defeated in battle by\l"
+	.string "the ESSENCE POKÉMON.$"
 
 CultoS8_Combate_Lider_Texto_11:
-.string "Solo puedo decirte que aceptes el\n"
-	.string "reto como uno más. Ningún POKÉMON\l"
-	.string "LEGENDARIO o ANCESTRAL, por muy\l"
-	.string "fuerte que sea, puede inutilizar\l"
-	.string "completamente al resto de POKÉMON,\l"
-	.string "a pesar de lo que ese charlatán\l"
-	.string "pueda decir. LUGIA y HO-OH no los\l"
-	.string "ha atrapado por el POKÉMON\l"
-	.string "ESENCIA, lo ha hecho simplemente\l"
-	.string "por completar su equipo de POKÉMON\l"
-	.string "poderosos.$"
+	.string "All I can say is, take the challenge as\n"
+	.string "just another one. No LEGENDARY or\l"
+	.string "ANCESTRAL POKÉMON, no matter how\l"
+	.string "strong, can completely disable the rest\l"
+	.string "of the POKÉMON, despite what that\l"
+	.string "charlatan may say. LUGIA and HO-OH\l"
+	.string "haven't been caught for the ESSENCE\l"
+	.string "POKÉMON; he simply did it to complete\l"
+	.string "his team of powerful POKÉMON.$"
 
 CultoS8_Combate_Lider_Texto_12:
-.string "Aún podéis estar a tiempo de\n"
-	.string "conocer acerca del POKÉMON ESENCIA,\l"
-	.string "{PLAYER}, si recuperáis a LUGIA y\l"
-	.string "HO-OH. Confío en ti, {PLAYER}.$"
+	.string "There's still time to learn about the\n"
+	.string "ESSENCE POKÉMON, {PLAYER}, if you\l"
+	.string "retrieve LUGIA and HO-OH. I trust you,\l"
+	.string "{PLAYER}.$"
 
 CultoS8_Combate_Lider_Move_1:
 walk_in_place_up
@@ -168,26 +163,19 @@ release
 end
 
 CultoS8_Llamada_Giovanni_Texto_2:
-.string "¿Quieres volver a la BASE ROCKET de\n"
+	.string "Do you want to return to ROCKET BASE in\n"
 	.string "JOHTO?$"
 
 CultoS8_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿Has averiguado algo,\n"
-	.string "{PLAYER}?\l"
-	.string "...\l"
-	.string "...\l"
-	.string "¿RUINAS ALFA?\l"
-	.string "Tal y como sospechamos, si un NATU\l"
-	.string "estornuda en su hierba alta, lo\l"
-	.string "sabremos. Toda la zona estará\l"
-	.string "vigilada.\l"
-	.string "...\l"
-	.string "...\l"
-	.string "¿Dices que LUGIA y HO-OH nada\l"
-	.string "tienen que ver con el propósito de\l"
-	.string "ese ENTRENADOR?\l"
-	.string "Entonces mejor. Ahora sí, dirígete\l"
-	.string "a CIUDAD ENDRINO, {PLAYER}, el\l"
-	.string "MAESTRO DRAGÓN debe estar allí,\l"
-	.string "con posiblemente el POKÉMON FUERTE\l"
-	.string "VÍNCULO más poderoso.$"
+	.string "GIOVANNI: Have you discovered\n"
+	.string "something, {PLAYER}? … … RUINS OF\l"
+	.string "ALPH? Just as we suspected, if a NATU\l"
+	.string "sneezes in its tall grass, we'll be aware.\l"
+	.string "We're keeping the entire area under\l"
+	.string "surveillance. … … You say lUGIA and\l"
+	.string "HO-OH have nothing to do with that\l"
+	.string "TRAINER's purpose? That's better. Now,\l"
+	.string "head to BLACKTHORN CITY, {PLAYER},\l"
+	.string "the DRAGON MASTER should be there,\l"
+	.string "possibly with the strongest DEEP BOND\l"
+	.string "POKÉMON.$"

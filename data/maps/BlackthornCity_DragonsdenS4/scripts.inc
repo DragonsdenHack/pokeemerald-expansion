@@ -152,71 +152,64 @@ release
 end
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.2:
-.string "¡¡{PLAYER} obtuvo la MT99 PULSO\n"
-	.string "DRAGON de manos de M.DRAGON!!$"
+.string "{PLAYER} obtained TM99 DRAGON PULSE\n"
+	.string "from the DRAGON.M!!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11.1:
-.string "Iba a darte esto, antes de que ese loco\n"
-	.string "nos interrumpiera.$"
+	.string "I was about to give you this, before\n"
+	.string "that lunatic interrupted us.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_1:
-.string "M.DRAGÓN: ¡{PLAYER}!\n"
-	.string "¡Has venido!$"
+.string "DRAGON.M: {PLAYER}!\n"
+	.string "You've come!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_2:
-.string "Estás en la verdadera GUARIDA\n"
-	.string "DRAGÓN, un santuario donde\l"
-	.string "rendimos culto a este sagrado\l"
-	.string "tipo.$"
+	.string "This is the real DRAGON'S DEN, a\n"
+	.string "sanctuary where we pay devotion to\l"
+	.string "this sacred type.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3:
-.string "DRAGONITE fue considerado por\n"
-	.string "muchos el POKÉMON más poderoso de\l"
-	.string "KANTO, un NO LEGENDARIO con mayor\l"
-	.string "poder que el resto. Sin embargo,\l"
-	.string "el mundo es mucho más amplio de lo\l"
-	.string "que parece a simple vista, tú lo\l"
-	.string "sabes bien, y lo cierto es que hay\l"
-	.string "dragones que dejarían a DRAGONITE\l"
-	.string "en pañales...$"
+	.string "DRAGONITE was considered by many to be\n"
+	.string "the most powerful POKÉMON in KANTO, a\l"
+	.string "NON-LEGENDARY with more power than\l"
+	.string "the rest. However, as you understand,\l"
+	.string "the world is vast and holds many\l"
+	.string "secrets, and the truth is that there\l"
+	.string "are dragons that would make DRAGONITE\l"
+	.string "look like a child's play.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4:
 .string "...$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_5:
-.string "Si no me equivoco, has logrado\n"
-	.string "derrotar a 7 LÍDERES DE JOHTO, a\l"
-	.string "pesar de la caótica situación de\l"
-	.string "los GIMNASIOS. Veo buenas\l"
-	.string "intenciones en ti, {PLAYER}, aún\l"
-	.string "con las duras decisiones que\l"
-	.string "GIOVANNI planteó en TRIGAL, sé que\l"
-	.string "quieres el bien de KANTO y JOHTO.$"
+	.string "If I'm not wrong, you've managed to\n"
+	.string "defeat 7 JOHTO GYM LEADERS, despite\l"
+	.string "the chaotic situation of the GYMS. I\l"
+	.string "see good intentions in you, {PLAYER},\l"
+	.string "even with the tough decisions GIOVANNI\l"
+	.string "exposed in GOLDENROD, I know you want a\l"
+	.string "good future for KANTO and JOHTO.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_6:
-.string "El relevo generacional es\n"
-	.string "inminente, lamentablemente la\l"
-	.string "tecnología está degradando el\l"
-	.string "verdadero arte de entrenar\l"
-	.string "POKÉMON. Tú eres una excepción, no\l"
-	.string "te has dejado influenciar por los\l"
-	.string "tiempos que corren a pesar de tu\l"
-	.string "posición. Es por eso que...\l"
-	.string "¡Debo asegurarme de que estás a la\l"
-	.string "altura!$"
+	.string "The passing of the torch is upon us,\n"
+	.string "unfortunately, technology is degrading\l"
+	.string "the true art of POKÉMON training. You\l"
+	.string "are an exception, you have not let\l"
+	.string "yourself be influenced by the times\l"
+	.string "despite your position. That's why… I\l"
+	.string "must ascertain your readiness!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_7:
-.string "Magnífico, ha sido como volver a\n"
-	.string "la vieja JOHTO.$"
+	.string "Magnificent, it was like a return to the\n"
+	.string "old days of JOHTO.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_8:
-.string "Un ENTRENADOR así solo aparece una\n"
-	.string "vez cada tantas décadas, eso es lo\l"
-	.string "que llevaba sin ver a mi singular\l"
-	.string "DRAGONITE en apuros. La forma en\l"
-	.string "la que has ido mejorando y\l"
-	.string "construyendo tu equipo es\l"
-	.string "admirable.$"
+	.string "A TRAINER like you only appears once\n"
+	.string "every few decades, that's how long it's\l"
+	.string "been ages since my singular DRAGONITE\l"
+	.string "faced a challenge like this. The way\l"
+	.string "you've been improving and building your\l"
+	.string "team is admirable.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9:
 	.string "Me honra entregar nuestra insignia al\n"
@@ -227,137 +220,123 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.1:
 	.string "MEDALLA DRAGÓN.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_9.2:
-.string "Ten este POKÉMON, es uno de\n"
-	.string "nuestros dragones mejor guardados.$"
+	.string "Take this POKÉMON, it is one of our most\n"
+	.string "jealously guarded dragons.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_10:
-.string "¡¡OBTUVISTE UN DREEPY AL Nv.25!!$"
+.string "YOU OBTAINED A LV.25 DREEPY!!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_11:
-.string "DRAGAPULT es un PSEUDOLEGENDARIO\n"
-	.string "en toda regla, el de mayor\l"
-	.string "VELOCIDAD. Solo los monjes y\l"
-	.string "pensadores más expertos de JOHTO\l"
-	.string "cuentan con uno.$"
+	.string "DRAGAPULT is a full-fledged\n"
+	.string "PSEUDO-LEGENDARY, boasting the\l"
+	.string "highest SPEED. Only the most expert\l"
+	.string "monks and sages of JOHTO possess one.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_12:
-.string "????: ¿DRAGAPULT?\n"
-	.string "¿Crees que {PLAYER} tendría alguna\l"
-	.string "oportunidad con eso?$"
+	.string "????: DRAGAPULT? Do you think\n"
+	.string "{PLAYER} would stand any chance\l"
+	.string "against that?$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_13:
-.string "ZEUS: Aunque entiendo que es lo\n"
-	.string "máximo a lo que mortales como\l"
-	.string "vosotros podéis aspirar.$"
+	.string "ZEUS: While I understand it's the\n"
+	.string "utmost mortals like you can aspire to.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_14:
-.string "M.DRAGÓN: Fuiste tú quién atrapó a\n"
-	.string "HO-OH a sangre fría, debería darte\l"
-	.string "vergüenza encerrar así algo tan\l"
-	.string "puro, aprovechando el gran combate\l"
-	.string "que el M.IRIS y {PLAYER} tuvieron.$"
+	.string "DRAGON.M: It was you who coldly\n"
+	.string "captured HO-OH, you should be ashamed\l"
+	.string "to cage something so pure, taking\l"
+	.string "advantage of the great battle that\l"
+	.string "ECRUTEAK M. and {PLAYER} had.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_15:
-.string "ZEUS: Lo importante es que HO-OH\n"
-	.string "ahora me pertenece, también LUGIA,\l"
-	.string "qué importa la forma. Y ahora...\l"
-	.string "Al fin...\l"
-	.string "KYUREM también...$"
+	.string "ZEUS: The important thing is that HO-OH\n"
+	.string "now belongs to me, as well as LUGIA,\l"
+	.string "what matters is the result. And now… At\l"
+	.string "last… KYUREM too…$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16:
-.string "(ZEUS le quitó el KYUREM al\n"
-	.string "M.DRAGÓN).$"
+	.string "(ZEUS seized KYUREM from M.DRAGON).$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_17:
-.string "M.DRAGÓN: ¡¿Q...Qué?!\n"
-	.string "¿¡Qúe vas a hacer con ese\l"
-	.string "POKÉMON!?$"
+	.string "DRAGON.M: What? What are you going to\n"
+	.string "do with that POKÉMON?$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_18:
-.string "ZEUS: No te hagas el tonto,\n"
-	.string "anciano, sabes todo sobre el TIPO\l"
-	.string "DRAGÓN, seguro que conoces también\l"
-	.string "la leyenda del DRAGÓN ORIGINAL.$"
+	.string "ZEUS: Don't play dumb, old man. You know\n"
+	.string "all about the DRAGON TYPE, I'm sure\l"
+	.string "you're also familiar with the legend of\l"
+	.string "the ORIGINAL DRAGON.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19:
-.string "M.DRAGÓN: No es una leyenda, ese\n"
-	.string "POKÉMON existió, fue real.$"
+	.string "DRAGON.M: It's not a legend, that\n"
+	.string "POKÉMON existed, it was real.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20:
-.string "ZEUS: Así es, RAYQUAZA PRIMIGENIO\n"
-	.string "es considerado el DRAGÓN más\l"
-	.string "poderoso, pero...\l"
-	.string "Nada que ver con ese POKÉMON, ese\l"
-	.string "POKÉMON... es el verdadero creador\l"
-	.string "de todo, tan poderoso que no vale\l"
-	.string "la pena compararlo con el resto.\l"
-	.string "No entra en el debate del mejor\l"
-	.string "POKÉMON porque el DRAGÓN ORIGINAL\l"
-	.string "lo es todo, su alcance no es\l"
-	.string "medible.$"
+	.string "ZEUS: That's right, PRIMAL RAYQUAZA is\n"
+	.string "considered the most powerful DRAGON,\l"
+	.string "but… Nothing to do with that POKÉMON,\l"
+	.string "that POKÉMON… is the true creator of\l"
+	.string "everything, so powerful that it's not\l"
+	.string "even worth comparing to the rest. It\l"
+	.string "doesn't enter the debate of the best\l"
+	.string "POKÉMON because the ORIGINAL DRAGON\l"
+	.string "is everything, its scope is\l"
+	.string "immeasurable.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21:
-.string "M.DRAGÓN: El DRAGÓN ORIGINAL\n"
-	.string "representa el punto de equilibrio,\l"
-	.string "la perfección, nunca\l"
-	.string "podrás convocarlo, necesitas\l"
-	.string "a los otros dos dragones, KYUREM\l"
-	.string "es solo la cáscara vacía que\l"
-	.string "antaño me asignaron proteger por\l"
-	.string "si alguien como tú llegaba tan\l"
-	.string "lejos.$"
+	.string "DRAGON.M: The ORIGINAL DRAGON\n"
+	.string "represents the point of balance,\l"
+	.string "perfection. You will never be able to\l"
+	.string "summon it; you need the other two\l"
+	.string "dragons. KYUREM is just the empty shell\l"
+	.string "I was once assigned to protect in case\l"
+	.string "someone like you got this far.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_22:
 .string "ZEUS: ...\n"
 	.string "...\l"
-	.string "RESHIRAM y ZEKROM también me\l"
-	.string "pertencen.$"
+	.string "RESHIRAM and ZEKROM\l"
+	.string "also belong to me.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_23:
-.string "M.DRAGÓN: ¡No es posible!$"
+.string "DRAGON.M: It can't be!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_24:
-.string "ZEUS: HO-OH y LUGIA permiten la\n"
-	.string "entrada...\l"
-	.string "Después, solo necesito las piezas\l"
-	.string "correctas, y todo en la última\l"
-	.string "sala obtendrá su forma original.$"
+	.string "ZEUS: HO-OH and LUGIA allow entry…\n"
+	.string "Afterward, I only need the right pieces,\l"
+	.string "and everything in the last room will\l"
+	.string "regain its original form.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_25:
-.string "ZEUS: Lo siento {PLAYER}, esta vez\n"
-	.string "no habrá combate. Como\l"
-	.string "comprenderás, tengo cosas más\l"
-	.string "importantes que hacer. Me temo que\l"
-	.string "aquí acaba nuestra rivalidad.\l"
-	.string "Después de unir los 3 dragones, la\l"
-	.string "palabra competir perderá todo su\l"
-	.string "significado ante mi equipo\l"
-	.string "POKÉMON.$"
+	.string "ZEUS: I'm sorry, {PLAYER}, there will\n"
+	.string "be no battle this time. As you'll\l"
+	.string "understand, I have more important\l"
+	.string "things to attend to. I'm afraid our\l"
+	.string "rivalry ends here. After uniting the\l"
+	.string "three dragons, the word 'competition'\l"
+	.string "will lose all its meaning against my\l"
+	.string "POKÉMON team.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_26:
-.string "M.DRAGÓN: Esto...\n"
-	.string "Esto...\l"
-	.string "Es imposible, ese descerebrado no\l"
-	.string "sabe lo que quiere despertar.$"
+	.string "DRAGON.M: This… This… is impossible,\n"
+	.string "that fool doesn't know what he's about\l"
+	.string "to awaken.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_27:
-.string "¡{PLAYER}!\n"
-	.string "¡RUINAS ALFA!\l"
-	.string "Ha hablado de LUGIA y HO-OH, lo\l"
-	.string "sabía todo desde el principio,\l"
-	.string "sabe que necesitaba de esos dos\l"
-	.string "LEGENDARIOS para entrar en lo\l"
-	.string "profundo de RUINAS ALFA. Es el\l"
-	.string "único lugar donde puede unir a los\l"
-	.string "3 dragones.$"
+	.string "{PLAYER}! RUINS OF ALPH! He\n"
+	.string "mentioned LUGIA and HO-OH; he knew\l"
+	.string "everything from the beginning. He knows\l"
+	.string "he needed those two LEGENDARIES to\l"
+	.string "enter deep into the RUINS OF ALPH. It's\l"
+	.string "the only place where he can unite the 3\l"
+	.string "dragons.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_28:
-.string "No hay tiempo, {PLAYER}, debemos\n"
-	.string "curar a nuestro equipo POKÉMON e\l"
-	.string "ir allí lo antes posible. Si toda\l"
-	.string "tu organización se presenta,\l"
-	.string "mejor, hay que detenerle a todo\l"
-	.string "costo.$"
+	.string "There's no time, {PLAYER}. We must\n"
+	.string "heal our POKÉMON team and get there as\l"
+	.string "soon as possible. If your entire\l"
+	.string "organization shows up, all the better;\l"
+	.string "we must stop him at all costs.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Move_1.1:
 walk_in_place_left

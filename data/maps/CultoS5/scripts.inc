@@ -9,7 +9,6 @@ release
 end
 
 CultoS5_Text_1:
-.string "El sabio no necesita nada pero\n"
-.string "aprovecha todo. El necio cree que\l"
-.string "necesita muchas cosas pero las usa\l"
-.string "todas mal.$"
+	.string "The wise need nothing but make use of\n"
+	.string "everything. The fool thinks he needs\l"
+	.string "many things but misuses them all.$"

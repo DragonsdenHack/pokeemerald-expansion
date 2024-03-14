@@ -9,8 +9,8 @@ release
 end
 
 MahoganyTown_NinjaBase_Text_1:
-.string "Detrás de ese póster está el botón\n"
-.string "que abre la entrada secreta, señor.$"
+.string "Behind that poster is the button\n"
+.string "that opens the secret entrance, sir.$"
 
 
 
@@ -22,10 +22,10 @@ release
 end
 
 MahoganyTown_NinjaBase_Text_2:
-.string "Llega en el momento justo, señor.\n"
-.string "He oído que GIOVANNI iba a avisar\l"
-.string "a los otros ADMIN.JEFE, pero con\l"
-.string "usted aquí no será necesario.$"
+	.string "You arrive at just the right moment, sir.\n"
+	.string "I heard GIOVANNI was going to notify\l"
+	.string "the other CHIEF ADMINS., but with you\l"
+	.string "here, it won't be necessary.$"
 
 
 
@@ -37,8 +37,8 @@ release
 end
 
 MahoganyTown_NinjaBase_Text_3:
-.string "Pues esos CARAMELOSFURIA no tienen\n"
-.string "mala pinta, la verdad…$"
+	.string "Those RAGE CANDIES don't look bad, to\n"
+	.string "be honest…$"
 
 
 
@@ -50,9 +50,9 @@ release
 end
 
 MahoganyTown_NinjaBase_Text_4:
-.string "Esos ninjas…\n"
-.string "Con las trampas que han puesto, es\l"
-.string "imposible adentrarse en la BASE…$"
+.string "Those ninjas…\n"
+.string "With the traps that they had set,\l"
+.string "it is impossible to enter into the BASE…$"
 
 Ninja_Base_Poster::
 msgbox Ninja_Base_Poster_Texto_1 MSGBOX_AUTOCLOSE
@@ -74,8 +74,8 @@ release
 end
 
 Ninja_Base_Poster_Texto_1:
-.string "Detrás de este póster...\n"
-	.string "¡Hay un botón!$"
+ 	.string "Behind this poster…\n"
+	.string "There is a button$"
 
 Ninja_Base_Poster_Text_YesNo:
-.string "¿Quieres pulsarlo?$"
+.string "Do you want to push it?$"

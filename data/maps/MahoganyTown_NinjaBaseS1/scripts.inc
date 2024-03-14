@@ -14,10 +14,9 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_2:
-.string "Me pregunto quién habrá sido el\n"
-.string "bruto que ha dejado el sistema de\l"
-.string "seguridad así.\l"
-.string "Va a costarme horrores repararlo.$"
+	.string "I wonder who was the fool who left the\n"
+	.string "security system like this. It's going to\l"
+	.string "be a real pain to fix it.$"
 
 
 
@@ -29,14 +28,11 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_3:
-.string "¿Desactivar la seguridad de la\n"
-.string "base?\l"
-.string "¡Ya me he encargado yo\l"
-.string "personalmente de eliminar ese\l"
-.string "sistema!\l"
-.string "¡Si quieres llegar hasta el final\l"
-.string "deberás de hacerlo sin trampas ni\l"
-.string "ayudas!$"
+	.string "Deactivate the security of this base?\n"
+	.string "I personally took care of disabling this\l"
+	.string "system! If you want to make it to the\l"
+	.string "end, you'll have to do it without cheats\l"
+	.string "or assistance!$"
 
 
 
@@ -58,10 +54,9 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_6:
-.string "¡Ahora sé por qué ocupa el lugar\n"
-.string "que ocupa en el TEAM ROCKET, es\l"
-.string "usted un ENTRENADOR excepcional\l"
-.string "ADMIN.JEFE!$"
+	.string "Now I understand why you hold the\n"
+	.string "position you do in TEAM ROCKET; you're\l"
+	.string "an exceptional TRAINER, CHIEF ADMIN!$"
 
 
 
@@ -78,10 +73,9 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_8:
-.string "Vamos a aprender mucho de esas\n"
-.string "trampas utilizadas por los ninjas,\l"
-.string "¡son muy del estilo ROCKET\l"
-.string "también!$"
+	.string "We're going to learn a lot from those\n"
+	.string "traps used by the ninjas; they're very\l"
+	.string "much in the ROCKET style too!$"
 
 
 
@@ -93,10 +87,9 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_9:
-.string "Los POKÉMON que habitan en el LAGO\n"
-.string "DE LA FURIA van a ser a partir de\l"
-.string "ahora unos más que interesantes\l"
-.string "sujetos de estudio.$"
+	.string "The POKÉMON that inhabit the LAKE OF\n"
+	.string "RAGE will be, since right now, very\l"
+	.string "interesting study subjects.$"
 
 
 
@@ -118,9 +111,9 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_12:
-.string "¡Es usted el mejor, señor!\n"
-.string "¡Ni 20 ENTRENADORES juntos\l"
-.string "pudieron pararle!$"
+.string "You're the best one, sir!\n"
+.string "Not even 20 TRAINERS together\l"
+.string "were enough to stop you!$"
 
 
 
@@ -137,11 +130,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS1_Text_14:
-.string "¡Jah!\n"
-.string "¡No pudieron hacer uso de nuestro\l"
-.string "sistema de trampas POKÉMON!\l"
-.string "¡Mira cómo explotan esos\l"
-.string "KOFFING!$"
+.string "Hah!\n"
+	.string "They couldn't make use of our POKÉMON\l"
+	.string "trap system! Look at those KOFFING\l"
+	.string "exploding!$"
 
 
 
@@ -244,30 +236,27 @@ release
 end
 
 NinjaBaseS1_Primera_Trampa_Texto_1:
-.string "Otro iluso más que cae en la\n"
-	.string "trampa.\l"
-	.string "¡Vamos a echarte de aquí a\l"
-	.string "patadas!$"
+	.string "Another fool that fell in the trap. We\n"
+	.string "will kick you out of here.$"
 
 NinjaBaseS1_Primera_Trampa_Texto_2:
-.string "Tenemos a un rebelde.$"
+.string "We have a rebel.$"
 
 NinjaBaseS1_Primera_Trampa_Texto_3:
-.string "Vas a caer, como todos.$"
+.string "You will fall, as everyone.$"
 
 NinjaBaseS1_Primera_Trampa_Texto_4:
-.string "Esta base perteneció a mis\n"
-	.string "antepasados, solo voy a recuperar\l"
-	.string "lo que es mío, ¡aunque tenga que\l"
-	.string "compartirlo!$"
+	.string "This base belonged to my ancestors; I'm\n"
+	.string "just reclaiming what's mine, even if I\l"
+	.string "have to share it!$"
 
 NinjaBaseS1_Primera_Trampa_Texto_5:
-.string "Estás atrapado.$"
+.string "You're trapped.$"
 
 NinjaBaseS1_Primera_Trampa_Texto_6:
-.string "Nuestra seguridad es implacable,\n"
-	.string "si quieres adentrarte en la base,\l"
-	.string "deberás pagar el precio.$"
+	.string "Our security measures are relentless;\n"
+	.string "if you seek entry into the base, you'll\l"
+	.string "have what you deserve.$"
 
 NinjaBaseS1_Primera_Trampa_Move_1:
 emote_exclamation_mark
@@ -367,31 +356,30 @@ release
 end
 
 NinjaBaseS1_Segunda_Trampa_Texto_1:
-.string "¡Shuaaggh!\n"
-	.string "¡Soy más rápido que el viento!$"
+.string "Pheeeeew!\n"
+	.string "I'm faster than the wind!$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_2:
-.string "Creo que es hora de desaparecer.$"
+.string "I think it is time to disappear.$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_3:
-.string "No podrás invadir tú solo esta\n"
-	.string "base, somos demasiados.$"
+	.string "You won't be able to invade this base,\n"
+	.string "we are too many.$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_4:
-.string "Parece que tendremos que sacarte\n"
-	.string "de aquí por las malas.\l"
-	.string "No hay problema, tenemos ya\l"
-	.string "experiencia echando al TEAM\l"
+	.string "Looks like we'll have to kick you from\n"
+	.string "here by force. No problem, we have\l"
+	.string "plenty of experience dealing with TEAM\l"
 	.string "ROCKET.$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_5:
-.string "Estás atrapado.$"
+.string "You're trapped.$"
 
 NinjaBaseS1_Segunda_Trampa_Texto_6:
-.string "Poco a poco vamos clavando en ti\n"
-	.string "el veneno del desgaste, para\l"
-	.string "cuando quieras llegar al final,\l"
-	.string "solo tendremos que rematarte.$"
+	.string "Slowly but surely, we're draining your\n"
+	.string "strength with the venom of weariness,\l"
+	.string "so when you attempt to reach the end,\l"
+	.string "we'll be poised to strike you down.$"
 
 NinjaBaseS1_Tercera_Trampa_Abajo::
 compare VAR_UNUSED_0x40F7, 161
@@ -460,29 +448,28 @@ release
 end
 
 NinjaBaseS1_Tercera_Trampa_Texto_1:
-.string "Las emboscadas son nuestra\n"
-	.string "especialidad, ya te habrás dado\l"
-	.string "cuenta.$"
+	.string "We're experts in ambush tactics, as you\n"
+	.string "may have already experienced.$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_2:
-.string "¡Mis POKÉMON ninja!$"
+.string "My ninjas POKÉMON!$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_3:
-.string "Debería haber llevado algún\n"
-	.string "POKÉMON con TÓXICO, así\l"
-	.string "prolongaría aún más tu agonía.$"
+	.string "I should have brought a POKÉMON with\n"
+	.string "TOXIC, that way I could prolong your\l"
+	.string "agony even further.$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_4:
-.string "El TEAM ROCKET ya es demasiado\n"
-	.string "poderoso, ¿no podéis dejar un\l"
-	.string "trozo del pastel para los demás?$"
+	.string "Isn't TEAM ROCKET already too\n"
+	.string "powerful? Can't you leave some room for\l"
+	.string "the others?$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_5:
-.string "Vamos a acabar contigo.$"
+.string "We will crush you.$"
 
 NinjaBaseS1_Tercera_Trampa_Texto_6:
-.string "No podrás escapar de la telaraña\n"
-	.string "que hemos tejido.$"
+	.string "You won't be able to escape from the\n"
+	.string "spiderweb that we have weaved.$"
 
 NinjaBaseS1_Cuarta_Trampa::
 compare VAR_UNUSED_0x40F7, 161
@@ -511,17 +498,17 @@ release
 end
 
 NinjaBaseS1_Cuarta_Trampa_Texto_1:
-.string "¿Notas ya el cansancio?\n"
-	.string "Pronto estarás suplicando para que\l"
-	.string "te llevemos a un CENTRO POKÉMON.$"
+.string "Do you feel tired?\n"
+	.string "Soon you'll be begging for us to take\l"
+	.string "you to a POKÉMON CENTER.$"
 
 NinjaBaseS1_Cuarta_Trampa_Texto_2:
-.string "Sigue, sigue, mayor será tu caída.$"
+	.string "Keep, keep ahead, the harder will be\n"
+	.string "your downfall.$"
 
 NinjaBaseS1_Cuarta_Trampa_Texto_3:
-.string "No tienes forma de curar aquí, ya\n"
-	.string "nos hemos encargado personalmente\l"
-	.string "de que así sea.$"
+	.string "You have no way to heal your team here,\n"
+	.string "we've made sure of that personally.$"
 
 NinjaBaseS1_Cuarta_Trampa_Move_1:
 emote_exclamation_mark
@@ -559,13 +546,11 @@ release
 end
 
 NinjaBaseS1_Quinta_Trampa_Texto_1:
-.string "¡Mis técnicas ninja te harán\n"
-	.string "llorar!$"
+	.string "My ninja techniques will make you cry!$"
 
 NinjaBaseS1_Quinta_Trampa_Texto_2:
-.string "Necesito más veneno en mi equipo.$"
+.string "I need more poison in my team.$"
 
 NinjaBaseS1_Quinta_Trampa_Texto_3:
-.string "Vamos a encargarnos de ti entre\n"
-	.string "todos, nunca dijimos que\l"
-	.string "jugaríamos limpio.$"
+	.string "We're going to take care of you\n"
+	.string "together, we never said we'd play fair.$"

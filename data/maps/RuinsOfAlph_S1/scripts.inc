@@ -13,8 +13,8 @@ release
 end
 
 RuinsOfAlphS1_Rocket_Cadaver_Texto_1:
-.string "(Parece uno de los ROCKET que\n"
-	.string "entraron a las ruinas...)$"
+	.string "(Seems like one of the ROCKET members\n"
+	.string "who entered the ruins…)$"
 
 RuinsOfAlphS1_Atlas_Piedra::
 lock
@@ -23,8 +23,8 @@ release
 end
 
 RuinsOfAlphS1_Atlas_Piedra_Texto_1:
-.string "(El ADMIN.JEFE ATLAS está\n"
-	.string "completamente petrificado)$"
+	.string "(The CHIEF ADMIN. ARCHER is completely\n"
+	.string "petrified)$"
 
 RuinsOfAlphS1_Andra::
 lock
@@ -34,16 +34,14 @@ release
 end
 
 RuinsOfAlphS1_Andra_Texto_1:
-.string "¡{PLAYER}!\n"
-	.string "¿Qué ocurre en este lugar?\l"
-	.string "Nunca había visto unos POKÉMON\l"
-	.string "así, varios de los nuestros ya han\l"
-	.string "caído. Esos horribles esqueletos\l"
-	.string "seguro que han tenido algo que\l"
-	.string "ver...\l"
-	.string "Tenemos que andarnos con cuidado,\l"
-	.string "{PLAYER}, el MAESTRO DRAGÓN tenía\l"
-	.string "razón, este lugar es peligroso.$"
+	.string "{PLAYER}! What's happening in this\n"
+	.string "place? I've never seen POKÉMON like\l"
+	.string "this before; several of ours have\l"
+	.string "already fallen. Those horrible\l"
+	.string "skeletons must have had something to\l"
+	.string "do with it… We must be careful,\l"
+	.string "{PLAYER}, the DRAGON MASTER was\l"
+	.string "right, this place is dangerous.$"
 
 RuinsOfAlphS1_Unown_Despues::
 lock
@@ -145,43 +143,39 @@ RuinsOfAlph_S1_Combate_UnownDorado_Texto_2:
 .string "... ... ... ...$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_3:
-.string "(La energía misteriosa se ha\n"
-	.string "esfumado).$"
+	.string "(The mysterious energy has dissipated).$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_4:
-.string "ANDRA: ¿Ese era el UNOWN causante\n"
-	.string "de todo?$"
+	.string "ANDRA: Was that the UNOWN causing all\n"
+	.string "this?$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_5:
-.string "ATLAS no responde. Me extraña que\n"
-	.string "GIOVANNI lo haya dejado así, ha\l"
-	.string "debido de ocurrir algo.$"
+	.string "ATLAS doesn't respond. I'm surprised\n"
+	.string "GIOVANNI left him like this; something\l"
+	.string "must have happened.$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_6:
-.string "Vamos, {PLAYER}, debemos de seguir\n"
-	.string "avanzando y confiar en que volverá\l"
-	.string "a la normalidad cuando todo esto\l"
-	.string "acabe, esta vez iremos juntos.$"
+	.string "Come on, {PLAYER}, we must keep\n"
+	.string "moving forward and trust that\l"
+	.string "everything will return to normal when\l"
+	.string "this is over. This time we'll go together.$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_7:
-.string "ANDRA: ¿C-cómo?$"
+.string "ANDRA: H-how?$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_8:
-.string "Ahora lo entiendo, {PLAYER}, UNOWN\n"
-	.string "te pone a prueba de forma\l"
-	.string "individual. Solo podemos pasar de\l"
-	.string "uno en uno y para ello hay que\l"
-	.string "derrotar a este UNOWN. GIOVANNI\l"
-	.string "debió poder, ATLAS...$"
+	.string "Now I understand, {PLAYER}, UNOWN\n"
+	.string "tests you individually. We can only pass\l"
+	.string "one at a time, and to do that, we have to\l"
+	.string "defeat this UNOWN. GIOVANNI should\l"
+	.string "have been able to, ARCHER…$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_9:
-.string "Sigue adelante, {PLAYER}, estaré\n"
-	.string "bien. Para esto me he estado\l"
-	.string "preparando, para enfrentar a\l"
-	.string "deidades con POKÉMON mortales.\l"
-	.string "¡Vamos, CROBAT!\l"
-	.string "¡Demostremos a esta reliquia el\l"
-	.string "poder del FUERTE VÍNCULO!$"
+	.string "Keep going, {PLAYER}, I'll be fine. I've\n"
+	.string "been preparing for this, to face deities\l"
+	.string "with mortal POKÉMON. Let's go, CROBAT!\l"
+	.string "Let's show to this relic the power of\l"
+	.string "our DEEP BOND!$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Move_1:
 face_up
@@ -302,8 +296,9 @@ release
 end
 
 RuinsOfAlph_S1_Apertura_Texto_1:
-.string "(Parece que has activado algo de\n"
-	.string "gran peligro al pisar esta zona)$"
+	.string "(It seems you've activated something\n"
+	.string "very dangerous by stepping into this\l"
+	.string "area)$"
 
 RuinsOfAlph_S1_Apertura_Move_1:
 emote_exclamation_mark
@@ -336,14 +331,13 @@ release
 end
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_1:
-.string "(¡Una energía misteriosa te ataca!)$"
+.string "(A mysterious energy attacks you!)$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_2:
 .string "... ... ... ...$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_3:
-.string "(La energía misteriosa se ha\n"
-	.string "esfumado)$"
+	.string "(The mysterious energy has dissipated)$"
 
 
 RuinsOfAlph_S1_Combate_Kabutops_Move_1:

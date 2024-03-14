@@ -437,177 +437,162 @@ release
 end
 
 RuinsOfAlph_S5_Final_Texto_1:
-.string "JONES: ¿Tienes idea de dónde\n"
-	.string "estamos {PLAYER}?$"
+	.string "JONES: Do you have any idea where we\n"
+	.string "are, {PLAYER}?$"
 
 RuinsOfAlph_S5_Final_Texto_2:
-.string "Así es, ahora mismo estamos\n"
-	.string "enterrados cientos de metros bajo\l"
-	.string "CIUDAD IRIS, justo en medio de\l"
-	.string "TORRE CAMPANA y la mal llamada\l"
-	.string "TORRE QUEMADA, otrora TORRE LATÓN.$"
+	.string "That's correct, at this very moment\n"
+	.string "we're buried hundreds of yards below\l"
+	.string "ECRUTEAK CITY, right between BELL\l"
+	.string "TOWER and the misnamed BURNT TOWER,\l"
+	.string "once known as BRASS TOWER.$"
 
 RuinsOfAlph_S5_Final_Texto_3:
-.string "Como ves, no existen los\n"
-	.string "accidentes {PLAYER}, todo tiene un\l"
-	.string "porqué. ¿Entiendes ahora por qué\l"
-	.string "LUGIA y HO-OH eran requeridos para\l"
-	.string "llegar hasta aquí?$"
+	.string "As you can see, there are no accidents,\n"
+	.string "{PLAYER}, everything has a reason. Do\l"
+	.string "you now understand why LUGIA and\l"
+	.string "HO-OH were needed to get here?$"
 
 RuinsOfAlph_S5_Final_Texto_4:
-.string "Ambas torres llevan 700 años en\n"
-	.string "pie...\l"
-	.string "Una pequeña fracción comparado con\l"
-	.string "el tiempo que nuestro culto lleva\l"
-	.string "existiendo. Fue aquí donde emigró\l"
-	.string "el POKÉMON ESENCIA después de que\l"
-	.string "rechazara a nuestro culto.$"
+	.string "Both towers are 700 years stand on… A\n"
+	.string "small fraction compared to the time our\l"
+	.string "cult has been in existence. It was here\l"
+	.string "that the ESSENCE POKÉMON migrated\l"
+	.string "after rejecting our cult.$"
 
 RuinsOfAlph_S5_Final_Texto_5:
-.string "¡Pero a KANTO pertenece!\n"
-	.string "¡Y a KANTO volverá!\l"
-	.string "¡El POKÉMON ESENCIA!$"
+.string "But it belongs to KANTO!\n"
+	.string "And it will return to KANTO!\l"
+	.string "The ESSENCE POKÉMON!$"
 
 RuinsOfAlph_S5_Final_Texto_6:
-.string "¡Observa atentamente {PLAYER}, las\n"
-	.string "mayores fuerzas que existen en el\l"
-	.string "universo están apunto de aparecer!$"
+	.string "Watch closely, {PLAYER}, the greatest\n"
+	.string "forces in the universe are about to\l"
+	.string "appear!$"
 
 RuinsOfAlph_S5_Final_Texto_7:
-.string "¡MEW!$"
+.string "MEW!$"
 
 RuinsOfAlph_S5_Final_Texto_8:
-.string "Mi culto ha esperado esto por\n"
-	.string "milenios, y ahora soy yo quien\l"
-	.string "tiene el honor de, no solo\l"
-	.string "presenciar, ¡sino también hacer\l"
-	.string "uso del POKÉMON ESENCIA!$"
+	.string "My cult has awaited this for millennia,\n"
+	.string "and now I have the honor of not only\l"
+	.string "witnessing but also using the ESSENCE\l"
+	.string "POKÉMON!$"
 
 RuinsOfAlph_S5_Final_Texto_9:
-.string "3...\n"
-	.string "3 son los POKÉMON que, unidos, han\l"
-	.string "formado todo cuanto hay, hubo y\l"
-	.string "habrá, con sus diferencias,\l"
-	.string "iguales entre ellos en poder\l"
-	.string "global, de los 3 el más importante\l"
-	.string "es el POKÉMON ESENCIA, pues\l"
-	.string "gracias a él los otros dos pueden\l"
-	.string "recobrar su ESENCIA PRIMIGENIA.$"
+.string "3…\n"
+	.string "Three are the POKÉMON that, together,\l"
+	.string "have shaped everything there is, was,\l"
+	.string "and will be, with their differences,\l"
+	.string "equal in overall power. Of the three, the\l"
+	.string "most important is the ESSENCE POKÉMON,\l"
+	.string "because thanks to it the other two can\l"
+	.string "reclaim their PRIMAL ESSENCE.$"
 
 RuinsOfAlph_S5_Final_Texto_10:
-.string "El DRAGÓN ORIGINAL, representa el\n"
-	.string "equilibrio perfecto, la\l"
-	.string "perfección, ÉL es el ancestro de\l"
-	.string "todos los dragones, ya estaba\l"
-	.string "antes de que el otro dios creador\l"
-	.string "naciera del huevo que dio origen a\l"
-	.string "este universo.$"
+	.string "The ORIGINAL DRAGON represents\n"
+	.string "perfect balance, perfection. IT is the\l"
+	.string "ancestor of all the dragons, existing\l"
+	.string "before the other creator god hatched\l"
+	.string "from the egg that gave birth to this\l"
+	.string "universe.$"
 
 RuinsOfAlph_S5_Final_Texto_11:
-.string "Ese iluso creía que bastaba con\n"
-	.string "unir a los 3 DRAGONES DE TESELIA,\l"
-	.string "pero solo el POKÉMON ESENCIA puede\l"
-	.string "devolverle su forma original,\l"
-	.string "anterior al BIG-GANG.\l"
-	.string "¡Observa!$"
+	.string "That fool thought that simply uniting\n"
+	.string "the 3 UNOVA DRAGONS would be enough,\l"
+	.string "but only the ESSENCE POKÉMON can\l"
+	.string "restore it to its original form,\l"
+	.string "predating the BIG-GANG.\l"
+	.string "Watch!$"
 
 RuinsOfAlph_S5_Final_Texto_12:
-.string "Su ofensiva es incomparable, dueño\n"
-	.string "de los TIPOS ELEMENTALES,\l"
-	.string "MEGA-RAYQUAZA no es más que una\l"
-	.string "burda lagartija a su lado.$"
+	.string "Its offense is incomparable, master of\n"
+	.string "the ELEMENTAL TYPES, MEGA RAYQUAZA is\l"
+	.string "just a crude lizard compared to it.$"
 
 RuinsOfAlph_S5_Final_Texto_13:
-.string "ARCEUS...\n"
-	.string "El DIOS de nuestro universo, 15\l"
-	.string "billones de años mermado por crear\l"
-	.string "todo lo conocido, pero eso se\l"
-	.string "acabó.$"
+.string "ARCEUS…\n"
+	.string "The GOD of our universe, diminished over\l"
+	.string "15 trillion years by creating\l"
+	.string "everything known, but that's over now.$"
 
 RuinsOfAlph_S5_Final_Texto_14:
-.string "150 es el número dorado para los\n"
-	.string "LEGENDARIOS MAYORES, ¡qué menos que\l"
-	.string "sea la norma para el dios de\l"
-	.string "dioses de este universo!$"
+	.string "150 is the golden number for the GRAND\n"
+	.string "LEGENDARIES; it's only natural that it\l"
+	.string "should be the standard for the god of\l"
+	.string "gods in this universe!$"
 
 RuinsOfAlph_S5_Final_Texto_15:
-.string "Y por último, el POKÉMON ESENCIA,\n"
-	.string "intermediario entre los otros dos\l"
-	.string "dioses, su reino es la materia\l"
-	.string "oscura, el molde a partir del cual\l"
-	.string "debe pasar todo proceso de\l"
-	.string "creación, todos formamos parte de\l"
-	.string "ÉL, por eso es omnipresente, y su\l"
-	.string "única forma definida se encuentra\l"
-	.string "aquí, a escasos metros de\l"
-	.string "nosotros.$"
+	.string "And finally, the ESSENCE POKÉMON,\n"
+	.string "intermediary between the other two\l"
+	.string "deities, its realm is dark matter, the\l"
+	.string "mold from which all creation processes\l"
+	.string "must pass. We all are part of IT, that's\l"
+	.string "why it's omnipresent, and its only\l"
+	.string "defined form is found here, just a few\l"
+	.string "meters away from us.$"
 
 RuinsOfAlph_S5_Final_Texto_16:
-.string "LUGIA y HO-OH permiten llegar\n"
-	.string "hasta aquí, pero aquel que\l"
-	.string "controle a MEW podrá hacer uso del\l"
-	.string "POKÉMON ESENCIA, lamento tener que\l"
-	.string "decírtelo ahora, pero no hubieras\l"
-	.string "emprendido esta búsqueda de la\l"
-	.string "misma manera.$"
+	.string "LUGIA and HO-OH are the key to reach\n"
+	.string "this point, but whoever controls MEW\l"
+	.string "will be able to utilize the ESSENCE\l"
+	.string "POKÉMON. I'm sorry to have to tell you\l"
+	.string "this now, but you wouldn't have\l"
+	.string "embarked on this quest in the same way.$"
 
 RuinsOfAlph_S5_Final_Texto_17:
-.string "Y ahora {PLAYER}...\n"
-	.string "Llegó la hora de la verdad. Con el\l"
-	.string "POKÉMON ESENCIA, el culto de\l"
-	.string "LAVANDA alcanzará al fin ese\l"
-	.string "estado de perfección, un nirvana\l"
-	.string "eterno. Tú serás el primero en\l"
-	.string "experimentar lo que se siente al\l"
-	.string "luchar contra algo inalcanzable.$"
+	.string "And now. {PLAYER}… The moment of\n"
+	.string "truth has arrived. With the ESSENCE\l"
+	.string "POKÉMON, the LAVENDER CULT will finally\l"
+	.string "attain that state of perfection, an\l"
+	.string "eternal nirvana. You will be the first\l"
+	.string "one to experience what it feels like to\l"
+	.string "battle against something unattainable.$"
 
 RuinsOfAlph_S5_Final_Texto_18:
 .string "...$"
 
 RuinsOfAlph_S5_Final_Texto_19:
-.string "Los 3 juntos, unidos entre ellos\n"
-	.string "ya forman la sinergia perfecta.\l"
-	.string "Añadir cualquier otro POKÉMON a\l"
-	.string "este equipo de 3 sería romper esa\l"
-	.string "perfección. No necesito más que\l"
-	.string "estos 3 POKÉMON para coronarme\l"
-	.string "como el ENTRENADOR más poderoso de\l"
-	.string "todos los tiempos, el resto están\l"
-	.string "a años luz.$"
+	.string "The 3 of them together, united, already\n"
+	.string "form the perfect synergy. Adding any\l"
+	.string "other POKÉMON to this team of 3 would\l"
+	.string "break that perfection. I need nothing\l"
+	.string "more than these 3 POKÉMON to crown\l"
+	.string "myself as the most powerful TRAINER of\l"
+	.string "all time; the rest are light-years\l"
+	.string "behind.$"
 
 RuinsOfAlph_S5_Final_Texto_20:
-.string "No hay posibilidad de escape, solo\n"
-	.string "eres una parte del todo que estás\l"
-	.string "apunto de enfrentar.$"
+	.string "There's no chance of escape, you're\n"
+	.string "just a part of the whole you're about to\l"
+	.string "face.$"
 
 RuinsOfAlph_S5_Final_Texto_21:
-.string "Lo siento {PLAYER}, habrías sido un\n"
-	.string "gran miembro de nuestro culto y\l"
-	.string "sabido apreciar al POKÉMON\l"
-	.string "ESENCIA, pero...\l"
-	.string "¡¡LA INMORTALIDAD ME ESPERA A MÍ!!$"
+	.string "I'm sorry, {PLAYER}, you would have\n"
+	.string "been a great member of our cult and\l"
+	.string "appreciated the ESSENCE POKÉMON, but…\l"
+	.string "THE IMMORTALITY IS MINE!!$"
 
 RuinsOfAlph_S5_Final_Texto_22:
-.string "Esto no tiene sentido, ¡todo era\n"
-	.string "perfecto!$"
+	.string "This makes no sense, everything was\n"
+	.string "perfect!$"
 
 RuinsOfAlph_S5_Final_Texto_23:
-.string "No puede ser, estos 3 POKÉMON solo\n"
-	.string "pueden derrotarse entre ellos,\l"
-	.string "juntos forman un equipo\l"
-	.string "invencible, ¿qué ha fallado?$"
+	.string "It can't be, these 3 POKÉMON can only\n"
+	.string "defeat each other. Together, they form\l"
+	.string "an unbeatable team. What went wrong?$"
 
 RuinsOfAlph_S5_Final_Texto_24:
-.string "¡k4nv%bjs&!$"
+.string "k4nv%bjs&!$"
 
 RuinsOfAlph_S5_Final_Texto_25:
-.string "A...\n"
-	.string "Ahora lo entiendo...\l"
-	.string "He sido yo el que ha fallado...$"
+.string "N…\n"
+	.string "Now I get it…\l"
+	.string "I was the one who failed…$"
 
 RuinsOfAlph_S5_Final_Texto_26:
-.string "Supongo que la perfección es\n"
-	.string "algo relativo, ¿no, {PLAYER}?$"
+.string "I guess… perfection is something\n"
+	.string "relative, isn't it, {PLAYER}?$"
 
 RuinsOfAlph_S5_Final_Move_1:
 walk_in_place_up

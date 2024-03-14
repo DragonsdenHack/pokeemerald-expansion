@@ -47,33 +47,30 @@ RuinsOfAlphS2_Combate_Unown_Texto_1:
 .string "????: ...$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_2:
-.string "M.ANCIANO: Tú también, {PLAYER}, has\n"
-	.string "logrado llegar hasta aquí...$"
+	.string "ELDER.M: You too, {PLAYER}, have\n"
+	.string "managed to make it this far…$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_3:
 .string "...$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_4:
-.string "Justo delante, está...\n"
-	.string "La otra prueba...$"
+.string "Right ahead is…\n"
+	.string "The other test…$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_5:
-.string "Lo siento, {PLAYER}, no puedo\n"
-	.string "enfrentar a algo tan puro, la\l"
-	.string "naturaleza de este lugar es mucho\l"
-	.string "más sagrada de lo que imaginaba.\l"
-	.string "Conozco a mis POKÉMON, y sé que\l"
-	.string "sucumbiríamos ante uno de los\l"
-	.string "LEGENDARIOS de JOHTO en todo su\l"
-	.string "esplendor.$"
+	.string "I'm sorry, {PLAYER}, I can't face\n"
+	.string "something so pure. The nature of this\l"
+	.string "place is much more sacred than I\l"
+	.string "expected. I know my POKÉMON, and I know\l"
+	.string "we would succumb to one of the JOHTO\l"
+	.string "LEGENDARIES in all its glory.$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_6:
-.string "Deja al menos que cure a tu\n"
-	.string "equipo, lo necesitarás.$"
+	.string "Let me at least heal your team, you'll\n"
+	.string "need it.$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_7:
-.string "Mucha suerte, {PLAYER}, confío en\n"
-	.string "ti.$"
+	.string "Good luck, {PLAYER}, I trust in you.$"
 
 RuinsOfAlphS2_Combate_Unown_Move_1:
 walk_in_place_up
@@ -153,34 +150,30 @@ RuinsOfAlphS2_Combate_Real_Unown_Texto_2:
 .string "... ... ... ...$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_3:
-.string "(La energía misteriosa se ha\n"
-	.string "esfumado)$"
+	.string "(The mysterious energy has dissipated)$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_4:
-.string "M.ANCIANO: Admirable, acabas de\n"
-	.string "batir al HO-OH dorado.$"
+	.string "ELDER.M: Amazing, you've just defeated\n"
+	.string "the golden HO-OH.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_5:
-.string "Mis dragones nada podían\n"
-	.string "hacer ante la pureza de su TIPO\l"
-	.string "HADA, ese ZEUS sabía que HO-OH\l"
-	.string "sirve como llave para seguir\l"
-	.string "avanzando hasta la última sala. Al\l"
-	.string "dejarlo aquí, la esencia de este\l"
-	.string "lugar le ha hecho recobrar su\l"
-	.string "forma primigenia. Eso mismo es lo\l"
-	.string "que busca con KYUREM. Debes evitar\l"
-	.string "eso, {PLAYER}, nadie está preparado\l"
-	.string "para la vuelta del DRAGÓN\l"
-	.string "ORIGINAL.$"
+	.string "My dragons couldn't do anything\n"
+	.string "against the purity of its FAIRY TYPE;\l"
+	.string "that ZEUS knew that HO-OH serves as a\l"
+	.string "key to keep advancing to the last room.\l"
+	.string "By leaving it here, the essence of this\l"
+	.string "place has made it regain its primordial\l"
+	.string "form. That's exactly what he's seeking\l"
+	.string "with KYUREM. You must prevent that,\l"
+	.string "{PLAYER}, no one is prepared for the\l"
+	.string "return of the ORIGINAL DRAGON.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_6:
-.string "Lo harás bien, {PLAYER}, tienes algo\n"
-	.string "que no puede comprarse con ningún\l"
-	.string "LEGENDARIO y de lo que ese ZEUS\l"
-	.string "carece: un vínculo inquebrantable\l"
-	.string "con tus POKÉMON. Sigue adelante y\l"
-	.string "demuéstraselo.$"
+	.string "You'll do fine, {PLAYER}, you have\n"
+	.string "something that can't be bought with\l"
+	.string "any LEGENDARY and that ZEUS lacks: an\l"
+	.string "unbreakable bond with your POKÉMON.\l"
+	.string "Keep going and show him.$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Move_1:
 face_up

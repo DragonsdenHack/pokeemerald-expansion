@@ -9,11 +9,11 @@ release
 end
 
 DragonsdenS1_Text_1:
-.string "Todo el que ansía un poder mayor\n"
-.string "del que puede comprender acaba\l"
-.string "siendo devorado por él, y ese ZEUS\l"
-.string "no tiene idea de la magnitud del\l"
-.string "poder que quiere despertar.$"
+	.string "Anyone who craves power beyond their\n"
+	.string "comprehension ends up being consumed\l"
+	.string "by it, and that ZEUS has no idea of the\l"
+	.string "magnitude of the power he wants to\l"
+	.string "awaken.$"
 
 
 
@@ -24,7 +24,7 @@ release
 end
 
 DragonsdenS1_2_Text_2:
-.string "GUARIDA DRAGÓN$"
+.string "DRAGON'S DEN$"
 
 
 
@@ -41,16 +41,14 @@ release
 end
 
 DragonsdenS1_Text_4:
-.string "¿Quién eres tú?\n"
-.string "Si no eres especialista en el TIPO\l"
-.string "DRAGÓN no deberías estar aquí.\l"
-.string "¡Jah, apuesto a que ninguno de tus\l"
-.string "POKÉMON supera siquiera la\l"
-.string "jerarquía de un KINGDRA, ni\l"
-.string "hablemos de un PSEUDOLEGENDARIO\l"
-.string "como DRAGONITE!\l"
-.string "¡El mundo POKÉMON fuera del TIPO\l"
-.string "DRAGÓN es tan mediocre!$"
+	.string "Who are you? If you're not a DRAGON\n"
+	.string "TYPE specialist, you shouldn't be here.\l"
+	.string "Ha, I bet none of your POKÉMON even\l"
+	.string "surpass the hierarchy of a KINGDRA, we\l"
+	.string "won't even talk about a PSEUDO\l"
+	.string "LEGENDARY like DRAGONITE! The POKÉMON\l"
+	.string "world outside of the DRAGON TYPE is so\l"
+	.string "mediocre!$"
 
 
 
@@ -76,26 +74,22 @@ DragonsdenS1_EventScript_TakeDrampa::
 	end 
 
 DragonsdenS1_Text_TakeDrampa:
-   .string "Muy pocos son los elegidos a los\n"
-	.string "que se les permite la entrada a\l"
-	.string "este lugar sagrado, debes de ser\l"
-	.string "{PLAYER}.$"
+	.string "Very few are the chosen ones allowed\n"
+	.string "entry into this sacred place; you must\l"
+	.string "be {PLAYER}.$"
 
 DragonsdenS1_Text_TakeDrampa2:
-	.string "Que este POKÉMON te llene de\n"
-	.string "sabiduría y compañia en tus\l"
-	.string "viajes.$"
+	.string "May this POKÉMON bring you wisdom and\n"
+	.string "companionship during your journeys.$"
 
 DragonsdenS1_Text_MensajeDrampa:
-.string "¡OBTUVISTE UN DRAMPA AL NV.50!$"
+.string "YOU OBTAINED A LV.50 DRAMPA!$"
 
 DragonsdenS1_Text_2:
-    .string "DRAMPA es un dragón muy singular.\n"
-	.string "Se centra en el ATAQUE ESPECIAL,\l"
-	.string "símbolo de su gran sabíduría. Es\l"
-	.string "muy lento, pero también de buenas\l"
-	.string "defensas. La GUARIDA DRAGÓN\l"
-	.string "siempre contó con algunos\l"
-	.string "ejemplares en lo más profundo de\l"
-	.string "sus cavernas, espero que sepas\l"
-	.string "guardar el secreto.$"
+	.string "DRAMPA is a very unique dragon. It\n"
+	.string "focuses on SPECIAL ATTACK, a symbol of\l"
+	.string "its great wisdom. It's very slow but\l"
+	.string "also has good defenses. The DRAGON'S\l"
+	.string "DEN has always had some specimens in\l"
+	.string "its deepest caves. I hope you can keep\l"
+	.string "the secret.$"

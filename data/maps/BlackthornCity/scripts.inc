@@ -14,13 +14,12 @@ release
 end
 
 BlackthornCity_Text_1:
-.string "Este GIMNASIO fue financiado con\n"
-.string "el dinero del gobierno de LANCE,\l"
-.string "nuestro MAESTRO nunca combatiría\l"
-.string "en un lugar así. Ahora que sabe lo\l"
-.string "que ocurrió de verdad en KANTO, si\l"
-.string "quieres verle, deberás entrar en\l"
-.string "la GUARIDA DRAGÓN.$"
+	.string "This GYM was funded with money from\n"
+	.string "LANCE's government; our MASTER would\l"
+	.string "never fight in a place like this. Now\l"
+	.string "that he knows what really happened in\l"
+	.string "KANTO, if you want to see him, you'll\l"
+	.string "have to enter the DRAGON'S DEN.$"
 
 
 
@@ -32,10 +31,9 @@ release
 end
 
 BlackthornCity_Text_2:
-.string "{PLAYER}, ¿no?\n"
-.string "Nuestro GRAN MAESTRO nos ha\l"
-.string "hablado de ti, eres más que\l"
-.string "bienvenido en este lugar.$"
+.string "{PLAYER}, right?\n"
+.string "Our GRAND MASTER told us about you,\l"
+.string "you are pretty welcome in this place.$"
 
 
 
@@ -52,10 +50,10 @@ release
 end
 
 BlackthornCity_Text_4:
-.string "Ah…\n"
-.string "Si yo te dijera la cantidad de\l"
-.string "POKÉMON sagrados que he visto\l"
-.string "nadar aquí…$"
+.string "Oh…\n"
+	.string "If I were to tell you the number of\l"
+	.string "sacred POKÉMON I've seen swimming\l"
+	.string "here…$"
 
 
 
@@ -68,12 +66,11 @@ release
 end
 
 BlackthornCity_Text_7:
-.string "Nuestro GRAN MAESTRO prefiere\n"
-.string "pasar desapercibido y mantener a\l"
-.string "JOHTO en desconocimiento acerca de\l"
-.string "su poder real, pero puedo decirte\l"
-.string "que es el mayor prodigio que ha\l"
-.string "dado la región en mucho tiempo.$"
+	.string "Our GRAND MASTER prefers to remain\n"
+	.string "unnoticed and keep JOHTO unaware of\l"
+	.string "his true power, but I can tell you he is\l"
+	.string "the greatest prodigy the region has\l"
+	.string "seen in a long time.$"
 
 
 
@@ -85,11 +82,10 @@ release
 end
 
 BlackthornCity_Text_8:
-.string "¡Un dragón al que el resto de\n"
-.string "dragones no pueden tocar!\l"
-.string "¡Vi como los ENFADO y CARGA DRAGÓN\l"
-.string "no afectaban a ese POKÉMON del\l"
-.string "MAESTRO!$"
+	.string "A dragon that other dragons cannot\n"
+	.string "touch! I witnessed how OUTRAGE and\l"
+	.string "DRAGON RUSH had no effect on that\l"
+	.string "MASTER's POKÉMON!$"
 
 
 
@@ -101,12 +97,11 @@ release
 end
 
 BlackthornCity_Text_9:
-.string "Vine hasta aquí para entender\n"
-.string "mejor el origen de la fuerza bruta\l"
-.string "de los dragones. Estos y el TIPO\l"
-.string "LUCHA tienen mucho en común.\l"
-.string "¡Ambos cuentan con un poder físico\l"
-.string "demoledor!$"
+	.string "I came here to better understand the\n"
+	.string "origin of the brute force of dragons.\l"
+	.string "They and the FIGHTING TYPE have much\l"
+	.string "in common. Both possess devastating\l"
+	.string "physical power!$"
 
 
 
@@ -118,10 +113,9 @@ release
 end
 
 BlackthornCity_Text_10:
-.string "Ten cuidado con los desfiladeros\n"
-.string "del sur, cuando se quieren dar\l"
-.string "cuenta, ¡muchos ya no pueden\l"
-.string "volver a ENDRINO!$"
+	.string "Be careful with the southern cliffs;\n"
+	.string "many can't return to BLACKTHORN once\l"
+	.string "they realize!$"
 
 
 
@@ -133,15 +127,13 @@ release
 end
 
 BlackthornCity_Text_11:
-.string "CIUDAD ENDRINO siempre ha sido el\n"
-.string "lugar más inaccesible de JOHTO,\l"
-.string "rodeada de montañas, con la RUTA\l"
-.string "HELADA como única vía de acceso,\l"
-.string "pero sabe premiar a sus\l"
-.string "visitantes, pues el conocimiento\l"
-.string "último acerca del tipo más\l"
-.string "poderoso y sagrado espera para\l"
-.string "quienes estén preparados…$"
+	.string "BLACKTHORN CITY has always been\n"
+	.string "JOHTO's most inaccessible place,\l"
+	.string "surrounded by mountains, with the ICE\l"
+	.string "PATH as the only access route, but it\l"
+	.string "rewards its visitors with the ultimate\l"
+	.string "knowledge about the most powerful and\l"
+	.string "sacred type for those who are prepared.$"
 
 
 
@@ -153,14 +145,13 @@ release
 end
 
 BlackthornCity_Text_12:
-.string "¿No son adorables?\n"
-.string "Es fascinante cómo un frágil\l"
-.string "DRATINI puede crecer hasta\l"
-.string "convertirse en un DRAGONITE con\l"
-.string "mayor poder global que ARTICUNO,\l"
-.string "ZAPDOS, MOLTRES y los LEGENDARIOS\l"
-.string "ERRANTES ENTEI, RAIKOU y SUICUNE.\l"
-.string "¿No crees?$"
+	.string "Aren't they adorable? It's fascinating\n"
+	.string "how a fragile DRATINI can grow into a\l"
+	.string "DRAGONITE with greater overall power\l"
+	.string "than ARTICUNO, ZAPDOS, MOLTRES, and\l"
+	.string "the wandering LEGENDARIES ENTEI,\l"
+	.string "RAIKOU, and SUICUNE. Don't you think\l"
+	.string "so?$"
 
 
 
@@ -169,7 +160,7 @@ msgbox BlackthornCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 BlackthornCityDocumento_Text_100:
-.string "HACIA LA GUARIDA DEL DRAGÓN$"
+.string "DRAGON'S DEN AHEAD$"
 
 
 
@@ -178,9 +169,9 @@ msgbox BlackthornCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 BlackthornCityDocumento_Text_101:
-.string "GIMNASIO de CIUDAD ENDRINO\n"
-	.string "LÍDER: SALAZAR\l"
-	.string "El maestro de maestros.$"
+.string "BLACKTHORN CITY POKÉMON GYM\n"
+	.string "LEADER: SALAZAR\l"
+	.string "The master of masters.$"
 
 
 
@@ -189,10 +180,10 @@ msgbox BlackthornCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 BlackthornCityDocumento_Text_102:
-.string "CIUDAD ENDRINO\n"
-	.string "Un legendario refugio oculto por\l"
-	.string "las montañas desde tiempos\l"
-	.string "inmemoriales.$"
+.string "BLACKTHORN CITY\n"
+	.string "A legendary refuge hidden\l"
+	.string "behind the mountains for\l"
+	.string "many decades ago.$"
 
 
 
@@ -201,7 +192,7 @@ msgbox BlackthornCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 BlackthornCityDocumento_Text_103:
-	.string "RUTA HELADA$"
+	.string "ICE PATH$"
 
 BlackthornCity_Anciano_Paso::
 lock
@@ -228,10 +219,9 @@ face_left
 step_end
 
 BlackthornCity_Anciano_Paso_Texto_1:
-.string "{PLAYER}, ¿no?\n"
-	.string "Nuestro GRAN MAESTRO nos ha\l"
-	.string "hablado de ti, eres más que\l"
-	.string "bienvenido en este lugar.$"
+.string "{PLAYER}, right?\n"
+	.string "Our GRAND MASTER told us about you, you\l"
+	.string "are pretty welcome in this place.$"
 
 BlackthornCity_EventScript_ReceiveSwablu::
     lock

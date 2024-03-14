@@ -99,16 +99,16 @@ release
 end
 
 MahoganyTown_Gym_Combate_Texto_11.1:
-.string "Mmm... mereces esta MT, sin duda.$"
+.string "Hmm… no doubt, you deserve this TM.$"
 
 MahoganyTown_Gym_Combate_Texto_11.2:
-.string "¡¡{PLAYER} obtuvo la MT60 VAHO\n"
-	.string "GELIDO de manos de ANIBAL!!$"
+.string "{PLAYER} obtained TM60\n"
+	.string "FROST BREATH from PRYCE!!$"
 
 MahoganyTown_Gym_Combate_Texto_11.3:
-.string "VAHO GELIDO siempre golpeará crítico,\n"
-	.string "asegurándote siempre causar un buen\l"
-	.string "daño.$"
+	.string "FROST BREATH will be always a critical\n"
+	.string "hit, making sure to always deal good\l"
+	.string "damage.$"
 
 
 
@@ -119,56 +119,52 @@ release
 end
 
 MahoganyTown_Gym_Combate_Fredo_Texto_1:
-.string "FREDO: Oh, {PLAYER}, así que\n"
-	.string "quieres retarme.$"
+	.string "PRYCE: Oh, {PLAYER}, so you want to\n"
+	.string "challenge me.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_2:
-.string "Déjame decirte que llevo metido en\n"
-	.string "el mundo de los POKÉMON TIPO HIELO\l"
-	.string "desde hace 50 años, esa ALTO MANDO\l"
-	.string "que tenéis en KANTO no ha\l"
-	.string "alcanzado a ver la punta del\l"
-	.string "iceberg de lo que yo he visto,\l"
-	.string "¿entiendes?$"
+	.string "Let me tell you, I've been involved in\n"
+	.string "the world of ICE TYPE POKÉMON for 50\l"
+	.string "years. That ELITE FOUR MEMBER LORELEI\l"
+	.string "you have in KANTO hasn't even\l"
+	.string "scratched the surface of what I've\l"
+	.string "seen, you know?$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_3:
-.string "Muchos cambios se avecinan en\n"
-	.string "JOHTO, solo espero poder estar a\l"
-	.string "la altura y adaptarme a ellos.\l"
-	.string "Espero poder ver la región\l"
-	.string "prosperar junto con KANTO de una\l"
-	.string "vez.$"
+	.string "Many changes are coming to JOHTO, I\n"
+	.string "just hope I can rise to the occasion\l"
+	.string "and adapt to them. I hope to see the\l"
+	.string "region thrive alongside KANTO at least.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_4:
 .string "...$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_5:
-.string "{PLAYER}, algo debes de haber hecho\n"
-	.string "bien para, a tu corta edad, ocupar\l"
-	.string "el lugar que ocupas en el TEAM\l"
-	.string "ROCKET. Mereces que dé mi 100%.$"
+	.string "{PLAYER}, you must have done\n"
+	.string "something right to hold the position\l"
+	.string "you do in TEAM ROCKET at such a young\l"
+	.string "age. You deserve nothing less than I do\l"
+	.string "my best.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_6:
-.string "Nadie en décadas ha podido apagar\n"
-	.string "la imperturbable voluntad de mis\l"
-	.string "más antiguos compañeros de viaje.\l"
-	.string "¡{PLAYER}!\l"
-	.string "¡Vamos a ver el vínculo que has\l"
-	.string "ido forjando con tu equipo!$"
+	.string "No one in decades has been able to\n"
+	.string "extinguish the unwavering will of my\l"
+	.string "oldest traveling companions.\l"
+	.string "{PLAYER}! Let's see the bond you've\l"
+	.string "been forging with your team!$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_7:
-.string "Esta vez sí que he jugado todas\n"
-	.string "mis bazas... de verdad.$"
+.string "Actually… This time\n"
+	.string "I've played all my cards.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_8:
-.string "Nadie ha estado cerca de poner\n"
-	.string "este equipo en problemas, mucho\l"
-	.string "menos a mis singulares MAMOSWINE\l"
-	.string "y ARTICUNO. Creí que en KANTO solo\l"
-	.string "había ENTRENADORES decentes, pero\l"
-	.string "ninguno extraordinario. Me has\l"
-	.string "demostrado que el mundo es mucho\l"
-	.string "más amplio de lo que pensaba.$"
+	.string "No one has come close to putting this\n"
+	.string "team in trouble, let alone my unique\l"
+	.string "MAMOSWINE and ARTICUNO. I thought in\l"
+	.string "KANTO there were only decent TRAINERS,\l"
+	.string "but none extraordinary. You've shown me\l"
+	.string "that the world is much bigger than I\l"
+	.string "thought.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9:
 	.string "Hace años que tengo esto criando polvo,\n"
@@ -179,13 +175,12 @@ MahoganyTown_Gym_Combate_Fredo_Texto_9.1:
 	.string "MEDALLA GLACIAR.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_9.2:
-.string "Ten este POKÉMON, no podrás\n"
-	.string "encontrarlo en ningún lugar de\l"
-	.string "KANTO o JOHTO, y puede serte de\l"
-	.string "utilidad.$"
+	.string "Take this POKÉMON, you won't find it\n"
+	.string "anywhere in KANTO or JOHTO, and it may\l"
+	.string "be useful to you.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_10:
-.string "¡¡OBTUVISTE UN FRIGIBAX AL Nv.25!!$"
+.string "YOU OBTAINED A BERGMITE AT LV.25!!$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_11:
 	.string "Hace décadas que guardo el secreto de\n"
@@ -195,13 +190,12 @@ MahoganyTown_Gym_Combate_Fredo_Texto_11:
 	.string "podrán igualar su poder físico.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_12:
-.string "La primavera llega cuando se\n"
-	.string "derriten el hielo y la nieve.\l"
-	.string "Tú y tus POKÉMON pasaréis juntos\l"
-	.string "muchos años, espero que disfrutéis\l"
-	.string "de ese viaje. Confío en que ambos\l"
-	.string "podamos ver a JOHTO florecer como\l"
-	.string "nunca antes lo hizo.$"
+	.string "Spring arrives when the ice and snow\n"
+	.string "melt away. You and your POKÉMON will\l"
+	.string "spend many years together, and I hope\l"
+	.string "you enjoy that journey. I trust that\l"
+	.string "both of us will see JOHTO flourish like\l"
+	.string "never before.$"
 
 
 MahoganyGym_Gym_Dude::
@@ -219,22 +213,18 @@ release
 end
 
 MahoganyGym_Gym_Dude_Texto_1:
-.string "¿De verdad vas a enfrentarte a\n"
-	.string "FREDO en un combate de verdad?\l"
-	.string "Déjame darte un consejo, ataca tú\l"
-	.string "antes de que lo haga él, la\l"
-	.string "ofensiva de sus POKÉMON TIPO HIELO\l"
-	.string "es implacable. Deberás hacer uso\l"
-	.string "de movimientos TIPO FUEGO, LUCHA o\l"
-	.string "ROCA combinando rapidez y\l"
-	.string "potencia.\l"
-	.string "¡Suerte!$"
+	.string "Are you really going to challenge PRYCE\n"
+	.string "in a real battle? Let me give you some\l"
+	.string "advice: attack first before he does.\l"
+	.string "The offense of his ICE TYPE POKÉMON is\l"
+	.string "relentless. You'll need to use FIRE,\l"
+	.string "FIGHTING, or ROCK TYPES moves,\l"
+	.string "combining speed and power. Good luck!$"
 
 MahoganyGym_Gym_Dude_Texto_2:
-.string "¡Lo has logrado!\n"
-	.string "¡Has derrotado al hombre de hielo,\l"
-	.string "creí que nadie podía con ese\l"
-	.string "ARTICUNO tan especial!$"
+	.string "You did it! You have defeated the\n"
+	.string "iceman, I thought that no one could\l"
+	.string "defeat that special ARTICUNO!$"
 
 
 MahoganyGym_Estatua::
@@ -252,13 +242,15 @@ end
 
 
 MahoganyGym_Estatua_Texto_1:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de PUEBLO CAOBA: FREDO\p"
-	.string "ENTRENADORES GANADORES:\n"
-	.string "(¡Está vacío!)$"
+	.string "MAHOGANY POKÉMON GYM\n"
+	.string "LEADER: PRYCE\p"
+	.string "WINNING TRAINERS:\n"
+	.string "(It is empty!)$"
+
 
 MahoganyGym_Estatua_Texto_2:
-.string "LÍDER del GIMNASIO POKÉMON\n"
-	.string "de PUEBLO CAOBA: FREDO\p"
-	.string "ENTRENADORES GANADORES:\n"
+	.string "MAHOGANY POKÉMON GYM\n"
+	.string "LEADER: PRYCE\p"
+	.string "WINNING TRAINERS:\n"
 	.string "{PLAYER}$"
+

@@ -96,67 +96,67 @@ walk_in_place_right
 step_end
 
 MisionIrisLab_Primer_Cientifico_Texto_1:
-.string "¿Quién se atreve a interrumpirme en\n"
-	.string "pleno proceso creativo?$"
+.string "Who dares to interrupt me in the midst\n"
+	.string "of my creative process?$"
 
 MisionIrisLab_Primer_Cientifico_Texto_2:
-.string "¿De dónde sales? No pareces de DEVON.\n"
-	.string "Serás uno de esos EJECUTIVOS de\l"
-	.string "TRIGAL a los que solo les importa el\l"
-	.string "dinero.$"
+	.string "Where do you come from? You don't seem\n"
+	.string "to be from DEVON C.O., you must be one\l"
+	.string "of those executives from GOLDENROD\l"
+	.string "who only care about money.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_3:
-.string "Aquí tratamos con cosas serias, dime,\n"
-	.string "¿has oído hablar de la ley de\l"
-	.string "rendimientos decrecientes? ¿De la\l"
-	.string "optimización de los STATS BASE?$"
+	.string "Here, we deal with serious matters. Tell\n"
+	.string "me, have you heard of the law of\l"
+	.string "diminishing returns? Or the\l"
+	.string "optimization of BASE STATS?$"
 
 MisionIrisLab_Primer_Cientifico_Texto_4:
-.string "Tenéis en vuestra región un POKÉMON\n"
-	.string "como MEGA-BEEDRILL, con solo 15\l"
-	.string "puntos en ATAQUE ESPECIAL. Pero\l"
-	.string "pasáis por alto un hecho físico de tal\l"
-	.string "magnitud y eficiencia.$"
+	.string "In your region, you have a POKÉMON like\n"
+	.string "MEGA BEEDRILL, with only 15 points in\l"
+	.string "SPECIAL ATTACK. But you overlook such\l"
+	.string "a physical feat of such magnitude and\l"
+	.string "efficiency.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_5:
-.string "Por eso estáis condenados al fracaso.$"
+.string "That's why you are doomed to failure.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_6:
-.string "Ya has oído bastante, de todos modos,\n"
-	.string "alguien como tú no habrá entendido una\l"
-	.string "sola palabra de lo que acabo de decir.$"
+	.string "You've heard enough anyway. Someone\n"
+	.string "like you wouldn't have understood a\l"
+	.string "single word of what I just said.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_7:
-.string "Ahora, mi equipo POKÉMON optimizado se\n"
-	.string "encargará de borrar tu presencia de mi\l"
-	.string "vista.$"
+	.string "Now, my optimized POKÉMON team will\n"
+	.string "take care of erasing your presence\l"
+	.string "from my sight.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_8:
-.string "¿¡Q..Qué!? ¡¿Por qué tu equipo es\n"
-	.string "eficiente y eficaz al mismo tiempo?!$"
+	.string "W-What!? Why is your team efficient and\n"
+	.string "effective at the same time?!$"
 
 MisionIrisLab_Primer_Cientifico_Texto_9:
-.string "Esto no tiene ningún sentido, he oído\n"
-	.string "que los LÍDERES DE JOHTO cuentan con\l"
-	.string "un poder excepcional, más bien por su\l"
-	.string "dilatada experiencia que por realmente\l"
-	.string "entrenar de forma eficiente.$"
+	.string "This makes no sense. I've heard that\n"
+	.string "JOHTO LEADERS possess exceptional\l"
+	.string "power, more due to their extensive\l"
+	.string "experience than to actually train\l"
+	.string "efficiently.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_10:
-.string "Pero tú… no eres uno de ellos, tal vez\n"
-	.string "tampoco seas un simple EJECUTIVO de\l"
-	.string "TRIGAL.$"
+	.string "But you… you're not one of them, maybe\n"
+	.string "you're not just a GOLDENROD executive\l"
+	.string "either.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_11:
-.string "Sea como sea, no importa. Nuestra labor\n"
-	.string "en esta tosca región ha concluído.$"
+	.string "Be that as it may, it doesn't matter. Our\n"
+	.string "work in this crude region has concluded.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_12:
-.string "Quédate con los FÓSILES si lo deseas,\n"
-	.string "ya tenemos copias y clones de sobra.\l"
-	.string "Tómalo como una recompensa por tu\l"
-	.string "menos malo hacer que el resto de\l"
-	.string "mediocres.$"
+	.string "Keep those FOSSILS if you wish; we\n"
+	.string "already have plenty of copies and\l"
+	.string "clones. Consider it a reward for your\l"
+	.string "slightly better performance than the\l"
+	.string "rest of the mediocre bunch.$"
 
 
 MisionIrisLab_Segundo_Cientifico_Der::
@@ -220,50 +220,50 @@ face_left
 step_end
 
 MisionIrisLab_Segundo_Cientifico_Texto_1:
-.string "¿Eh? ¿Quién eres tú? ¿Algún paquete\n"
-	.string "especial de DEVON? Ya le dijimos al\l"
-	.string "PRESIDENTE que pronto le enviaremos\l"
-	.string "todos los datos de los nuevos FÓSILES\l"
-	.string "descubiertos.$"
+	.string "Huh? Who are you? Some special package\n"
+	.string "from DEVON? We've already informed the\l"
+	.string "PRESIDENT that we'll soon send him all\l"
+	.string "the data on the new FOSSILS\l"
+	.string "discovered.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_2:
-.string "Mmm… ya veo, te han enviado esos\n"
-	.string "incompetentes de las RUINAS ALFA.$"
+	.string "Hmm… I see, they've sent you those\n"
+	.string "incompetents from the RUINS OF ALPH.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_3:
-.string "Entre nosotros, ¿en qué manos crees\n"
-	.string "que están mejor estos FÓSILES ahora?\l"
-	.string "¿En la mejor empresa de HOENN? ¿O en\l"
-	.string "unos CIENTÍFICOS que ni en 10 años\l"
-	.string "harían el menor avance en ese lugar?$"
+	.string "Between us, in whose hands do you think\n"
+	.string "these FOSSILS are better off now? In\l"
+	.string "the best company in HOENN? Or in\l"
+	.string "scientists who wouldn't make the\l"
+	.string "slightest progress in that place even\l"
+	.string "in 10 years?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_5:
-.string "Así que eso es irrelevante… ¿la forma\n"
-	.string "es lo que cuenta?$"
+	.string "So, that's irrelevant… form is the\n"
+	.string "unique that matters?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_6:
-.string "¿No serás tú tan necio como ellos? Los\n"
-	.string "ENTRENADORES de calle sois todos unos\l"
-	.string "mediocres. ¿¡Por qué ibas tú a ser\l"
-	.string "diferente!?$"
+	.string "Wouldn't you be as foolish as them?\n"
+	.string "Street TRAINERS like you are all\l"
+	.string "mediocre. Why would you be any\l"
+	.string "different?!$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_7:
-.string "Así que superior a la media… tal vez\n"
-	.string "excelente.$"
+	.string "So, above average… maybe excellent.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_8:
-.string "Si supieras la magnitud de nuestros\n"
-	.string "recursos, jamás te atreverías a entrar\l"
-	.string "aquí de forma tan descarada.$"
+	.string "If you knew the magnitude of our\n"
+	.string "resources, you would never dare to\l"
+	.string "enter here so brazenly.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_9:
-.string "Quien avisa no es traidor. Por tu bien,\n"
-	.string "confío en que esto haya sido un error,\l"
-	.string "y rápidamente experimentes la\l"
-	.string "regresión a la media.$"
+	.string "A warning is not treachery. For your own\n"
+	.string "good, I hope this was a mistake, and\l"
+	.string "that you quickly experience regression\l"
+	.string "to the mean.$"
 
 
 MisionIrisLab_Cientifico_Primero::
@@ -284,4 +284,4 @@ release
 end
 
 MisionIrisLab_Tirtouga_Texto_1:
-.string "¡{PLAYER} obtuvo un TIRTOUGA al Nv.30!$"
+.string "{PLAYER} obtained a TIRTOUGA at LV.30!$"

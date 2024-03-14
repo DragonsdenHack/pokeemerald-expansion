@@ -1293,27 +1293,25 @@ release
 end
 
 RocketHideoutJohtoP1Documento_Text_128:
-.string "METAGROSS-MEGA:\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 145\l"
-	.string "DEFENSA: 150\l"
-	.string "ATAQUE ESPECIAL: 105\l"
-	.string "DEFENSA ESPECIAL: 110\l"
-	.string "VELOCIDAD: 110\l"
+.string "MEGA METAGROSS:\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 145\l"
+	.string "DEFENSE: 150\l"
+	.string "SPECIAL ATTACK: 105\l"
+	.string "SPECIAL DEFENSE: 110\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 700\p"
-	.string "El experimento estrella de DEVON\n"
-	.string "C.O, que sin hacer mucho ruido ha\l"
-	.string "sobrepasado el poder del MEWTWO\l"
-	.string "original, siendo lo más parecido a\l"
-	.string "un cyborg ultraoptimizado que\l"
-	.string "arrasará con todo a su paso,\l"
-	.string "carente de puntos débiles.\l"
-	.string "Logró solucionar su baja VELOCIDAD\l"
-	.string "como METAGROSS, ascendiendo a 110.\l"
-	.string "Su único fallo radica en su propia\l"
-	.string "estructura, incapaz de soportar\l"
-	.string "más de 80 de BASE en SALUD, cifra\l"
-	.string "algo corta para estos niveles.$"
+	.string "DEVON C.O.'s flagship experiment, which\n"
+	.string "quietly outshines the original MEWTWO\l"
+	.string "in power, resembling an ultra-optimized\l"
+	.string "cyborg that will obliterate everything\l"
+	.string "in its path without any discernible\l"
+	.string "weaknesses. It effectively resolved\l"
+	.string "its low SPEED akin to METAGROSS, rising\l"
+	.string "to 110. Its only flaw lies in its own\l"
+	.string "structure, unable to support more than\l"
+	.string "80 BASE HEALTH, a somewhat low figure\l"
+	.string "for these levels.$"
 
 
 
@@ -1327,26 +1325,24 @@ release
 end
 
 RocketHideoutJohtoP1Documento_Text_129:
-.string "LUCARIO-MEGA:\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 145\l"
-	.string "DEFENSA: 88\l"
-	.string "ATAQUE ESPECIAL: 140\l"
-	.string "DEFENSA ESPECIAL: 70\l"
-	.string "VELOCIDAD: 112\l"
+.string "MEGA LUCARIO:\p"
+	.string "HP: 70\n"
+	.string "ATTACK: 145\l"
+	.string "DEFENSE: 88\l"
+	.string "SPECIAL ATTACK: 140\l"
+	.string "SPECIAL DEFENSE: 70\l"
+	.string "SPEED: 112\l"
 	.string "TOTAL: 625\p"
-	.string "A BOCAJARO por STAB + ADAPTABLE.\n"
-	.string "PUÑO METEORO por STAB + ADAPTABLE.\l"
-	.string "Prioridad con PUÑO BALA y ONDA\l"
-	.string "VACÍO también por STAB y\l"
-	.string "ADAPTABLE...\l"
-	.string "A pesar de sus mejorables\l"
-	.string "defensas, la variedad y poder\l"
-	.string "ofensivo de este POKÉMON no tienen\l"
-	.string "rival. Con todo tipo de boosteos y\l"
-	.string "coberturas con ROCA AFILADA y\l"
-	.string "PATADA ÍGNEA, solo INFERNAPE se le\l"
-	.string "asemeja en movepool.$"
+	.string "CLOSE COMBAT by STAB + ADAPTABILITY.\n"
+	.string "METEOR MASH by STAB + ADAPTABILITY.\l"
+	.string "Priority with BULLET PUNCH and VACUUM\l"
+	.string "WAVE also for STAB and ADAPTABILITY…\l"
+	.string "Despite its improvable defenses, the\l"
+	.string "variety and offensive power of this\l"
+	.string "POKÉMON are unmatched. With all kinds\l"
+	.string "of boosts and coverages with STONE\l"
+	.string "EDGE and BLAZE KICK, only INFERNAPE\l"
+	.string "resembles it in movepool.$"
 
 
 
@@ -1360,24 +1356,23 @@ release
 end
 
 RocketHideoutJohtoP1Documento_Text_130:
-.string "MILOTIC-MEGA:\p"
-	.string "PS: 105\n"
-	.string "ATAQUE: 65\l"
-	.string "DEFENSA: 99\l"
-	.string "ATAQUE ESPECIAL: 135\l"
-	.string "DEFENSA ESPECIAL: 185\l"
-	.string "VELOCIDAD: 81\l"
+.string "MEGA MILOTIC:\p"
+	.string "HP: 105\n"
+	.string "ATTACK: 65\l"
+	.string "DEFENSE: 99\l"
+	.string "SPECIAL ATTACK: 135\l"
+	.string "SPECIAL DEFENSE: 185\l"
+	.string "SPEED: 81\l"
 	.string "TOTAL: 670\p"
-	.string "Los expertos dudan en si\n"
-	.string "catalogarlo como el tercer\l"
-	.string "PSEUDOLEGENDARIO de HOENN, dado\l"
-	.string "que su origen aún es un misterio.\l"
-	.string "MILOTIC-MEGA dispara su DEFENSA\l"
-	.string "ESPECIAL hasta los 185 de BASE\l"
-	.string "mientras mantiene la pegada de un\l"
-	.string "ALAKAZAM. Bueno también aguantando\l"
-	.string "golpes físicos. Su única pega es\l"
-	.string "una VELOCIDAD de 81 puntos.$"
+	.string "Experts hesitate to classify it as the\n"
+	.string "third PSEUDO LEGENDARY of HOENN, given\l"
+	.string "that its origin remains a mystery. MEGA\l"
+	.string "MILOTIC boosts its SPECIAL DEFENSE to\l"
+	.string "a BASE of 185 while maintaining the\l"
+	.string "striking power of an ALAKAZAM. It also\l"
+	.string "holds up well against physical attacks.\l"
+	.string "Its lone downside is a SPEED of 81\l"
+	.string "points.$"
 
 
 
@@ -1391,21 +1386,21 @@ release
 end
 
 RocketHideoutJohtoP1Documento_Text_131:
-.string "NOIVERN-MEGA:\p"
-	.string "PS: 85\n"
-	.string "ATAQUE: 80\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 127\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 153\l"
+.string "MEGA NOIVERN:\p"
+	.string "HP: 85\n"
+	.string "ATTACK: 80\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 127\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 153\l"
 	.string "TOTAL: 635\p"
-	.string "De la lejana KALOS, el DRAGÓN más\n"
-	.string "rápido conocido, que entre\l"
-	.string "INDEFENSO y sus 127 en ATAQUE\l"
-	.string "ESPECIAL podrá seguir pegando muy\l"
-	.string "duro con VENDAVAL u ONDA CERTERA.\l"
-	.string "Se cree que pertenece a la misma\l"
-	.string "rama familiar de CROBAT.$"
+	.string "From the distant region of KALOS comes\n"
+	.string "the fastest known DRAGON, which, with\l"
+	.string "its ability NO GUARD and its 127\l"
+	.string "SPECIAL ATTACK, will continue to hit\l"
+	.string "very hard with HURRICANE or FOCUS\l"
+	.string "BLAST. It is believed to belong to the\l"
+	.string "same family branch as CROBAT.$"
 
 
 
@@ -1419,23 +1414,22 @@ release
 end
 
 RocketHideoutJohtoP1Documento_Text_132:
-.string "FLYGON-MEGA:\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 90\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 140\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 140\l"
+.string "MEGA FLYGON:\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 90\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 140\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 140\l"
 	.string "TOTAL: 650\p"
-	.string "Al cambiar su TIPO TIERRA por el\n"
-	.string "BICHO, vio disminuido en 10 puntos\l"
-	.string "su ATAQUE, y a cambio, elevó hasta\l"
-	.string "los 140 de BASE su ATAQUE\l"
-	.string "ESPECIAL, contando con un ratio\l"
-	.string "VELOCIDAD-AT.ESP único.\l"
-	.string "Su gran variedad de movimientos y\l"
-	.string "HABILIDAD CROMOLENTE, le hacen\l"
-	.string "capaz de tumbar a cualquiera.$"
+	.string "By changing its GROUND type for BUG,\n"
+	.string "its ATTACK decreased by 10 points,\l"
+	.string "while in exchange, its SPECIAL ATTACK\l"
+	.string "soared to a BASE of 140, boasting a\l"
+	.string "unique SPEED-SPECIAL ATTACK relation.\l"
+	.string "Its wide array of moves and TINTED\l"
+	.string "LENS ABILITY make it capable of taking\l"
+	.string "down anyone.$"
 
 
 
@@ -1449,23 +1443,21 @@ release
 end
 
 RocketHideoutJohtoP1Documento_Text_133:
-.string "STARMIE-MEGA:\p"
-	.string "PS: 65\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 135\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 145\l"
+.string "MEGA STARMIE:\p"
+	.string "HP: 65\n"
+	.string "ATTACK: 75\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 135\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 145\l"
 	.string "TOTAL: 620\p"
-	.string "Su conversión al TIPO HIELO le\n"
-	.string "permitió canalizar mucho mejor sus\l"
-	.string "poderes psíquicos, ganando\l"
-	.string "potencia, agilidad y aguante\l"
-	.string "también.\l"
-	.string "Gracias a su HABILIDAD, POTENCIA\l"
-	.string "BRUTA, será aún más letal con toda\l"
-	.string "la variedad de movimientos que se\l"
-	.string "verán beneficiados.$"
+	.string "Its transformation into the ICE type\n"
+	.string "enabled it to harness its psychic\l"
+	.string "powers more effectively, resulting in\l"
+	.string "increased potency, agility, and stamina\l"
+	.string "as well. Due to its ability SHEER FORCE,\l"
+	.string "will be even more lethal with the vast\l"
+	.string "amount of moves that it can learn.$"
 
 
 RocketHideoutJohtoP1Documento_134::
@@ -1473,8 +1465,8 @@ msgbox RocketHideoutJohtoP1Documento_Text_134, MSGBOX_SIGN
 end
 
 RocketHideoutJohtoP1Documento_Text_134:
-	.string "¡Todos los POKÉMON existen por la\n"
-	.string "gloria del TEAM ROCKET!$"
+	.string "TEAM ROCKET's grace is the reason for\n"
+	.string "the existence of all these POKÉMON!$"
 
 
 
@@ -1503,32 +1495,30 @@ RocketHideoutJohtoP1_EventScript_TakeKlink::
 
 
 RocketHideoutJohtoP1_Text_TakeKlink:
-    .string "Por mucho tiempo, MAGNEMITE y\n"
-	.string "MAGNETON fueron los POKÉMON\l"
-	.string "preferidos por los científicos\l"
-	.string "como nosotros.$"
+	.string "For a long time, MAGNEMITE and MAGNETON\n"
+	.string "were the favorite POKÉMON of\l"
+	.string "scientists like us.$"
 
 RocketHideoutJohtoP1_Text_TakeKlink2:
-	.string "Cuando solo conocíamos los POKÉMON\n"
-	.string "de KANTO. Ahora tenemos muchas más\l"
-	.string "opciones para elegir nuestros\l"
-	.string "equipos.$"
+	.string "When we only knew the POKÉMON from\n"
+	.string "KANTO. Now we have many more options to\l"
+	.string "choose our teams.$"
 
 RocketHideoutJohtoP1_Text_TakeKlink3:
-	.string "Un compañero nuestro que viajó a\n"
-	.string "TESELIA trajo una línea evolutiva\l"
-	.string "muy parecida a la de MAGNEMITE.\l"
-	.string "Mira, te daré un ejemplar.$"
+	.string "One of our companions who ventured to\n"
+	.string "UNOVA returned with an evolutionary\l"
+	.string "line strikingly similar to that of\l"
+	.string "MAGNEMITE. Here, take a look at this\l"
+	.string "specimen.$"
 
 RocketHideoutJohtoP1_Text_MensajeKlink:
-.string "¡OBTUVISTE UN KLINK AL NV.10!$"
+.string "YOU OBTAINED A KLINK AT LV.10!$"
 
 RocketHideoutJohtoP1_Text_33:
-    .string "A diferencia de MAGNEMITE, KLINK\n"
-	.string "es TIPO ACERO puro, más rápido y\l"
-	.string "centrado en el ATAQUE FÍSICO.\l"
-	.string "Aunque MAGNEZONE es algo mejor\l"
-	.string "defensivamente.$"
+	.string "Unlike MAGNEMITE, KLINK is a pure STEEL\n"
+	.string "TYPE, faster, and focused on PHYSICAL\l"
+	.string "ATTACK. Although MAGNEZONE is slightly\l"
+	.string "better defensively.$"
 
 RocketHideoutJohtoP1_Encuentro_Andra::
 lock
@@ -1551,34 +1541,30 @@ release
 end
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_1:
-.string "ANDRA: ¿Has visto todo esto,\n"
-	.string "{PLAYER}?\l"
-	.string "¡Estamos creando nuestras propias\l"
-	.string "MEGA-PIEDRAS!\l"
-	.string "¿Hasta dónde vamos a llegar?\l"
-	.string "Ahora disponemos de todo cuanto un\l"
-	.string "ENTRENADOR necesita para optimizar\l"
-	.string "al máximo a sus POKÉMON, más de lo\l"
-	.string "que cualquiera pudiera imaginar.$"
+	.string "ANDRA: Have you seen all this,\n"
+	.string "{PLAYER}? We are creating our MEGA\l"
+	.string "STONES! Now we have everything a\l"
+	.string "TRAINER needs to optimize their\l"
+	.string "POKÉMON to the fullest, more than\l"
+	.string "anyone could imagine.$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_2:
-.string "¿Sabes qué?\n"
-	.string "Exploraré las rutas del este de\l"
-	.string "JOHTO, las que hacen frontera con\l"
-	.string "KANTO. Dijeron en la reunión que\l"
-	.string "iban a permitir ya el acceso. Si no\l"
-	.string "me equivoco, es ahí donde\l"
-	.string "confinaron a ROJO. Tengo\l"
-	.string "curiosidad por ver qué pasa si le\l"
-	.string "hacemos una visita...$"
+	.string "You know what? I'll be venturing into\n"
+	.string "the eastern routes of JOHTO, which\l"
+	.string "border KANTO. They mentioned in the\l"
+	.string "meeting that access would be permitted\l"
+	.string "soon. If I recall correctly, that's\l"
+	.string "where they imprisoned RED. I'm intrigued\l"
+	.string "to see what unfolds if we pay him a\l"
+	.string "visit…$"
 
 RocketHideoutJohtoP1_Encuentro_Andra_Texto_3:
-.string "En fin, deberías terminar de\n"
-	.string "visitar la BASE ROCKET, sube un\l"
-	.string "poco más y verás la sorpresa que\l"
-	.string "el TEAM ROCKET te ha preparado por\l"
-	.string "tu desempeño y lealtad hacia la\l"
-	.string "organización.$"
+	.string "Well, you should finish visiting the\n"
+	.string "ROCKET BASE; go up a bit more, and you'll\l"
+	.string "see the surprise that TEAM ROCKET has\l"
+	.string "prepared for you due to your\l"
+	.string "performance and loyalty to the\l"
+	.string "organization.$"
 
 
 RocketHideoutJohtoP1_Encuentro_Andra_Move_1:
@@ -1611,19 +1597,19 @@ release
 end
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10.2:
-.string "¡Obtuviste LLAVE DESPACHO de\n"
-	.string "manos de CIENTÍFICO!$"
+.string "You obtained an OFFICE CARD\n"
+	.string "from the SCIENTIST!$"
 
 RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_1:
-.string "ADMIN.JEFE {PLAYER}, le estabamos\n"
-	.string "esperando.$"
+.string "CHIEF ADMIN. {PLAYER},\n"
+	.string " we were waiting for you, sir.$"
 
 RocketHideoutJohtoP1_Encuentro_Cientifico_Texto_2:
-.string "Como LÍDER de nuestra sucursal en\n"
-	.string "JOHTO, qué menos que contar con un\l"
-	.string "adecuado lugar de trabajo. Con\l"
-	.string "esto podrá acceder al despacho\l"
-	.string "privado que le hemos preparado.$"
+	.string "As the LEADER of our branch in JOHTO,\n"
+	.string "it's only fitting for you to have a\l"
+	.string "suitable workplace. With this, you'll be\l"
+	.string "able to access the private office we've\l"
+	.string "prepared for you.$"
 
 RocketHideoutJohtoP1_Encuentro_Cientifico_Move_1:
 walk_in_place_up
@@ -1717,23 +1703,24 @@ release
 end
 
 RocketHideoutJohtoP1_LanzaMugre_Texto_1.2:
-.string "LANZA MUGRE es la solución a eso, ese\n"
-	.string "movimiento es capaz de corromper todo\l"
-	.string "lo bueno y puro de este mundo. Toma.$"
+	.string "GUNK SHOT is the solution to that; this\n"
+	.string "move is capable of corrupting\l"
+	.string "everything good and pure in this world.\l"
+	.string "Take it.$"
 
 RocketHideoutJohtoP1_LanzaMugre_Texto_1:
-.string "Da rabia que VENENO X sea el movimiento\n"
-	.string "TIPO VENENO de mayor potencia por el\l"
-	.string "lado físico, ¿verdad?$"
+	.string "It's so frustrating that CROSS POISON\n"
+	.string "is the strongest PHYSICAL POISON TYPE\l"
+	.string "move, isn't it?$"
 
 RocketHideoutJohtoP1_LanzaMugre_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT114 LANZA\n"
-	.string "MUGRE de manos de científico!!$"
+.string "{PLAYER} obtained TM114 GUNK SHOT\n"
+	.string "from the scientist!!$"
 
 RocketHideoutJohtoP1_LanzaMugre_Texto_2:
-.string "Además de su excepcional potencia,\n"
-	.string "LANZA MUGRE no establece contacto con\l"
-	.string "el rival. El único punto en contra es su\l"
-	.string "precisión, ¿te imaginas poder usarla\l"
-	.string "sin fallar?$"
+	.string "Apart from its outstanding power, GUNK\n"
+	.string "SHOT doesn't require physical contact\l"
+	.string "with the opponent. The only downside is\l"
+	.string "its accuracy. Can you imagine being able\l"
+	.string "to use it without missing?$"
 

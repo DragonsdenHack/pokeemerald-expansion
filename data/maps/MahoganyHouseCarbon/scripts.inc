@@ -72,75 +72,76 @@ release
 end
 
 MahoganyHouseCarbon_Secundaria_Texto_1:
-.string "Esos malditos empresarios… nos la han\n"
-	.string "jugado a mi y a mi mujer.$"
+	.string "Those damn businessmen… they've\n"
+	.string "betrayed us, me and my wife.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MahoganyHouseCarbon_Secundaria_Texto_3:
-.string "¿Tú nos ayudarías?$"
+.string "Would you help us?$"
 
 MahoganyHouseCarbon_Secundaria_Texto_4:
-.string "Lo entiendo, es muy peligroso.$"
+.string "I understand, it is very risky.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_5:
-.string "Somos los antiguos fabricantes de\n"
-	.string "CARBÓN, en PUEBLO AZALEA. Hace unos\l"
-	.string "meses recibimos una oferta de una\l"
-	.string "empresa.$"
+	.string "We are the former coal manufacturers in\n"
+	.string "AZALEA TOWN. A few months ago, we\l"
+	.string "received an offer from a company.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_6:
-.string "Nos prometieron expandir nuestro\n"
-	.string "pequeño negocio de CARBÓN a toda\l"
-	.string "JOHTO e incluso a otras regiones. A\l"
-	.string "nosotros nos era indiferente, ya\l"
-	.string "estábamos contentos con abastecer a\l"
-	.string "PUEBLO AZALEA y alrededores.$"
+	.string "They promised to expand our small COAL\n"
+	.string "business throughout JOHTO and even to\l"
+	.string "other regions. We were indifferent to\l"
+	.string "it; we were already happy enough with\l"
+	.string "supplying AZALEA TOWN and its\l"
+	.string "surroundings.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_7:
-.string "Pero nos acabaron convenciendo, el\n"
-	.string "caso es que el acuerdo, que en un inicio\l"
-	.string "era una colaboración, acabó siendo lo\l"
-	.string "contrario.$"
+	.string "But they ended up convincing us. The\n"
+	.string "thing is, the agreement, which initially\l"
+	.string "was meant to be a collaboration, ended\l"
+	.string "up being the opposite.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_8:
-.string "Nos engañaron con el contrato, y con\n"
-	.string "ello se quedaron con nuestra casa en\l"
-	.string "AZALEA, junto con el pequeño horno que\l"
-	.string "teníamos en el sótano.$"
+	.string "They scammed us with the contract, and\n"
+	.string "in doing so, they took our house in\l"
+	.string "AZALEA, along with the small furnace we\l"
+	.string "had in our basement.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_9:
-.string "Dijeron que ya no éramos aptos para\n"
-	.string "continuar con esa tarea, y finalmente\l"
-	.string "nos vimos obligados a venir aquí.$"
+	.string "They argued we were no longer capable\n"
+	.string "of carrying out that task, and\l"
+	.string "eventually, we were forced to come\l"
+	.string "here.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_10:
-.string "Si fueras a PUEBLO AZALEA… a la que aún\n"
-	.string "es nuestra casa, tal vez alguien como\l"
-	.string "tú pudiera hacer algo. Para entrar en\l"
-	.string "nuestro sótano solo tienes que\l"
-	.string "apretar un botón secreto, justo detrás\l"
-	.string "del cuadro junto a la ventana.$"
+	.string "If you were to go to AZALEA TOWN… to\n"
+	.string "what is still our house, perhaps\l"
+	.string "someone like you could do something. To\l"
+	.string "enter our basement, you just have to\l"
+	.string "press a secret button, right behind the\l"
+	.string "painting next to the window.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_11:
-.string "Dos ancianos como nosotros ya nada\n"
-	.string "pueden hacer, tal vez tú, que eres\l"
-	.string "joven, puedas recuperar por la fuerza\l"
-	.string "lo que la ley nos ha arrebatado.$"
+	.string "There's nothing left for two old elders\n"
+	.string "like us to do, but maybe you, young as\l"
+	.string "you are, could reclaim by force what\l"
+	.string "unfairly has been taken from us.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_12:
-.string "Si llegaras a hacerlo, no solo\n"
-	.string "conservarías parte del patrimonio de\l"
-	.string "JOHTO. Mi mujer y yo te estaremos\l"
-	.string "agradecidos de por vida.$"
+	.string "If you were to do so, not only would you\n"
+	.string "preserve a part of JOHTO's heritage, my\l"
+	.string "wife and I would be grateful to you for\l"
+	.string "life.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_13:
-.string "¿Pudiste entrar? Nuestra casa de\n"
-	.string "PUEBLO AZALEA está justo al lado del\l"
-	.string "GIMNASIO, al este del pueblo. Nuestra\l"
-	.string "entrada secreta se activa con un botón,\l"
-	.string "en el cuadro junto a la ventana.$"
+	.string "Were you able to enter? Our home in\n"
+	.string "AZALEA TOWN is located right beside the\l"
+	.string "GYM, on the east side of town. You\l"
+	.string "activate our secret entrance with a\l"
+	.string "button behind the painting next to the\l"
+	.string "window.$"
 
 MahoganyHouseCarbon_Anciana::
 lock

@@ -65,12 +65,9 @@ release
 end
 
 DragonsdenHouse_Anciano_Trampilla_Texto_1:
-.string "¿{PLAYER}?\n"
-	.string "Nuestro MAESTRO te está esperando.\l"
-	.string "Nos ha dicho que puedes acceder\l"
-	.string "hacia su prueba, la de verdad, de\l"
-	.string "modo que...\l"
-	.string "Sigue adelante.$"
+	.string "{PLAYER}? Our MASTER is waiting for\n"
+	.string "you. He has instructed us that you may\l"
+	.string "proceed to his true test, so… Go ahead.$"
 
 Dragonsden_Warp::
 applymovement OBJ_EVENT_ID_PLAYER, Dragonsden_Warp_move_2
@@ -93,10 +90,9 @@ release
 end
 
 Dragonsden_Warp_Text_YesNo:
-    .string "Hay una trampilla que asoma\n"
-	.string "sutilmente unas escaleras que\l"
-	.string "conducen a una zona subterránea,\l"
-	.string "¿quieres entrar?$"
+	.string "A discreet trapdoor reveals stairs\n"
+	.string "descending to an underground area.\l"
+	.string "Would you like to enter?$"
 
 Dragonsden_Warp_move1:
 walk_slow_down

@@ -9,11 +9,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Text_1:
-.string "Dicen que FREDO cuenta con una\n"
-.string "forma única de ARTICUNO, su forma\l"
-.string "primigenia por así decirlo.\l"
-.string "¿Existirán sus equivalentes para\l"
-.string "ZAPDOS y MOLTRES?$"
+	.string "It is said that PRYCE possesses a\n"
+	.string "unique form of ARTICUNO, its primal\l"
+	.string "form, I guess. I wonder if there are\l"
+	.string "equivalents for ZAPDOS and MOLTRES…$"
 
 
 
@@ -25,8 +24,8 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Text_2:
-.string "Si te digo la verdad…\n"
-.string "No entiendo nada de estos planos…$"
+.string "If I am honest…\n"
+.string "I don't understand any of these blueprints…$"
 
 
 
@@ -66,13 +65,12 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Text_8:
-.string "El progreso en cuanto STATS BASE\n"
-.string "de los POKÉMON en el último medio\l"
-.string "año ha sido espectacular.\l"
-.string "¿Crees que POKÉMON como NIDOKING o\l"
-.string "NIDOQUEEN dejarán de ser\l"
-.string "considerados fuertes después de\l"
-.string "elevar tanto el estándar?$"
+	.string "The progress in terms of BASE STATS for\n"
+	.string "POKÉMON over the last six months has\l"
+	.string "been remarkable. Do you think POKÉMON\l"
+	.string "like NIDOKING or NIDOQUEEN will cease\l"
+	.string "to be considered strong after such a\l"
+	.string "significant increase in the standard?$"
 
 
 
@@ -84,12 +82,10 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Text_9:
-.string "Nadie es tan poderoso como el TEAM\n"
-.string "ROCKET.\l"
-.string "Tres bases en KANTO, dos bases en\l"
-.string "JOHTO, una en HOENN, ¡y otra en\l"
-.string "ISLAS SETE!\l"
-.string "¡Somos omnipresentes!$"
+	.string "No one is so powerful as TEAM ROCKET is.\n"
+	.string "Three bases in KANTO, two bases in\l"
+	.string "JOHTO, one in HOENN, and another one in\l"
+	.string "SEVII ISLANDS! We are omnipresent!$"
 
 
 
@@ -195,93 +191,82 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_1:
-.string "Como habéis podido ver en estas\n"
-	.string "estimaciones, la venta de\l"
-	.string "CARAMELOSFURIA no sale rentable,\l"
-	.string "creo que deberíamos probar con\l"
-	.string "algo más contundente, las COLASL...$"
+	.string "As you have seen from these estimates,\n"
+	.string "selling RAGE CANDIES is not profitable.\l"
+	.string "I believe we should try something more\l"
+	.string "impactful, like SLOWPOKE T…$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_2:
-.string "¿Quién eres tú?$"
+.string "Who are you?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_3:
-.string "¿Cómo ha llegado un ROCKET hasta\n"
-	.string "aquí?\l"
-	.string "¿Recuperar la BASE CAOBA?\l"
-	.string "Nunca fue vuestra, nosotros solo\l"
-	.string "aprovechamos el descuido de FREDO\l"
-	.string "para instalar aquí nuestro centro\l"
-	.string "de operaciones.$"
+	.string "How did a ROCKET reach until here?\n"
+	.string "Reclaim the MAHOGANY BASE? It was\l"
+	.string "never yours; we simply took advantage\l"
+	.string "of PRYCE's negligence to set up our\l"
+	.string "operations center here.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_4:
-.string "No deberías haber interrumpido\n"
-	.string "esta reunión, si has llegado hasta\l"
-	.string "aquí pasando por toda la seguridad\l"
-	.string "quiere decir que estás agotado.$"
+	.string "You shouldn't have interrupted this\n"
+	.string "meeting. If you've made it this far\l"
+	.string "through all the security, it means\l"
+	.string "you're exhausted.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_5:
-.string "¡TARO!\n"
-	.string "¡Encárgate de él!$"
+.string "TARO!\n"
+	.string "Disappear him!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_6:
-.string "Tus POKÉMON no tienen ya la\n"
-	.string "frescura necesaria como para hacer\l"
-	.string "frente a mi equipo.\l"
-	.string "¡En guardia!$"
+	.string "Your POKÉMON lack the freshness\n"
+	.string "needed to face my team anymore. On\l"
+	.string "guard!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_7:
-.string "¡No puede ser!$"
+.string "Can't be!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_8:
-.string "Así que sigues en pie, ya veo que\n"
-	.string "no eres como los demás ROCKET. Eso\l"
-	.string "que dicen de que solo sois fuertes\l"
-	.string "en número es mentira, a pesar de\l"
-	.string "todo.$"
+	.string "So, you're still standing. I see you're\n"
+	.string "not like the other ROCKETS. The notion\l"
+	.string "that your strength lies only in numbers\l"
+	.string "is false, after all.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_9:
-.string "Tal vez seas el mejor ENTRENADOR\n"
-	.string "aquí, pero no en este\l"
-	.string "momento. Aquí juegas con nuestras\l"
-	.string "reglas.\l"
-	.string "¡MACUTO!\l"
-	.string "¡Remátalo!$"
+.string "Maybe you're the best TRAINER\n"
+	.string "around, but not right now.\l"
+	.string "Here, you play by our rules.\l"
+	.string "MACUTO!\l"
+	.string "Finish him!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_10:
-.string "Voy a aplastarte con toda mi\n"
-	.string "fuerza bruta.\l"
-	.string "¡Verás por qué me conocen como\l"
-	.string "el mayor matón de toda JOHTO!$"
+	.string "I'm going to crush you with all my brute\n"
+	.string "force. You'll see why they call me the\l"
+	.string "biggest bully in all of JOHTO!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_11:
-.string "¡Tú!\n"
-	.string "¿¡Cómo te atreves!?$"
+.string "You!\n"
+	.string "How dare you!?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_12:
-.string "Ya estoy harto de ti, ¿creéis que\n"
-	.string "podéis venir a JOHTO y hacer lo\l"
-	.string "que os dé la gana?$"
+	.string "I'm so tired of you, do you think you can\n"
+	.string "come to JOHTO and do whatever you\l"
+	.string "want?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_13:
-.string "Me ocuparé personalmente de darte\n"
-	.string "el golpe de gracia, esta base será\l"
-	.string "nuestra de una vez por todas.$"
+	.string "I'll be the one to finish you personally.\n"
+	.string "This base will finally belong to us.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_14:
-.string "¿Cómo es posible?\n"
-	.string "¡Deberías estar ya agotado!$"
+.string "How is this possible?\n"
+	.string "You should be tired already!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_15:
 .string "No...\n"
-	.string "Esto no entraba en nuestros\l"
-	.string "planes...\l"
-	.string "Después de todo no podremos\l"
-	.string "empezar de nuevo aquí, vosotros\l"
-	.string "ganáis, ¿verdad?$"
+	.string "This wasn't in our plans…\l"
+	.string "After all, we won't be able to start\l"
+	.string "here once again, you win, right?$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_16:
-.string "Espero que al menos le déis un\n"
-	.string "buen uso.$"
+	.string "I hope you at least put it to good use.$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Move_1:
 walk_up
@@ -348,53 +333,39 @@ emote_exclamation_mark
 walk_in_place_down
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿{PLAYER}?\n"
-	.string "¿Estás ya en PUEBLO CAOBA?\l"
-	.string "Perfecto.\l"
-	.string "...\l"
-	.string "...\l"
-	.string "Bien, veo que te has adelantado,\l"
-	.string "iba a enviar a ATLAS y ANDRA a\l"
-	.string "recuperar la BASE CAOBA, pero\l"
-	.string "confío en que contigo sea\l"
-	.string "suficiente, espero que pueda estar\l"
-	.string "despejada y lista para trabajar\l"
-	.string "cuanto antes.$"
+	.string "GIOVANNI: {PLAYER}? Are you in\n"
+	.string "MAHOGANY TOWN? Perfect. … … Well, I see\l"
+	.string "you've beaten me to it. I was going to\l"
+	.string "send ARCHER and ANDRA to take back the\l"
+	.string "MAHOGANY BASE, but I trust that you'll\l"
+	.string "be more than enough. Hopefully, it'll be\l"
+	.string "cleared and ready for operation soon.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
-.string "¿Así que has derrotado al\n"
-	.string "GRAN MAESTRO de CIUDAD IRIS? Ese\l"
-	.string "EEVEE suyo parece ser el ancestro\l"
-	.string "de todos los EEVEE, puede\l"
-	.string "transformarse en cada uno de los\l"
-	.string "tipos de los movimientos que\l"
-	.string "ejecute. Te ha debido de poner en\l"
-	.string "problemas, {PLAYER}.\l"
-	.string "...\l"
-	.string "...\l"
-	.string "¡¿HO-OH apareció?!\l"
-	.string "¿En la cima de TORRE CAMPANA?\l"
-	.string "...\l"
-	.string "...\l"
-	.string "¿Un ENTRENADOR que solo usa\l"
-	.string "LEGENDARIOS MAYORES apareció y lo\l"
-	.string "capturó?\l"
-	.string "¿¡También tenía a LUGIA!?$"
+	.string "So you've defeated the GRAND MASTER of\n"
+	.string "ECRUTEAK CITY? His EEVEE seems to be\l"
+	.string "the ancestor of all EEVEEs, capable of\l"
+	.string "transforming into each type of move it\l"
+	.string "executes. It must have given you some\l"
+	.string "trouble, {PLAYER}. … … Did HO-OH\l"
+	.string "appear!? In the peak of BELL TOWER? … …\l"
+	.string "A TRAINER who only uses MAJOR\l"
+	.string "LEGENDARIES appeared and captured it?\l"
+	.string "And he had LUGIA too!?$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_3:
-.string "Esto rompe todos nuestros\n"
-	.string "esquemas, ¿dices que ya lo conoces\l"
-	.string "de ISLAS SETE y allí ya se hizo\l"
-	.string "con los LEGENDARIOS de HOENN?\l"
-	.string "Debe de ser alguien muy peligroso,\l"
-	.string "tal vez busque lo mismo que\l"
-	.string "nosotros. Haré redoblar la guardia\l"
-	.string "en RUINAS ALFA.$"
+	.string "This breaks all our schemes. You say you\n"
+	.string "already know him from the SEVII\l"
+	.string "ISLANDS, and there he already got hold\l"
+	.string "of the HOENN LEGENDARIES? He must be\l"
+	.string "someone very dangerous, maybe seeking\l"
+	.string "the same as us. I'll double the guard at\l"
+	.string "the RUINS OF ALPH.$"
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_4:
-.string "Estáte atento, {PLAYER}, debemos\n"
-	.string "actuar en consecuencia. Pronto\l"
-	.string "volveremos a estar en contacto.$"
+	.string "Stay alert, {PLAYER}, we must act\n"
+	.string "accordingly. We'll be in touch again\l"
+	.string "soon.$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja::
 playse SE_NOTE_C
@@ -423,13 +394,12 @@ release
 end
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_1:
-.string "De modo que tú eres el grueso del\n"
-	.string "TEAM ROCKET, ¡acabaré contigo!$"
+	.string "You're the core of TEAM ROCKET, I'll\n"
+	.string "finish you off!$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_2:
-.string "¡Maldición!$"
+.string "Damn it!$"
 
 MahoganyTown_NinjaBaseS3_Combate_Ultimo_Ninja_Texto_3:
-.string "Ni un oficial del TEAM ROCKET nos\n"
-	.string "podrá echar de aquí, la unión hace\l"
-	.string "la fuerza.$"
+	.string "Not even a TEAM ROCKET officer can kick\n"
+	.string "us out of here, unity is strength.$"
