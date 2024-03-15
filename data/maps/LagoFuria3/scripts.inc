@@ -174,100 +174,99 @@ walk_slow_right
 step_end
 
 LagoFuria_S3_Combates_Cientificos_Texto_1:
-.string "????: Estas huellas están frescas,\n"
-	.string "estamos cerca.$"
+	.string "????: These traces are fresh, we are\n"
+	.string "near.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_2:
-.string "PESCADOR: Aún estamos a tiempo de\n"
-	.string "regresar, ¿de verdad quieres arriesgar\l"
-	.string "tu vida en esta expedición?$"
+	.string "FISHERMAN: We still have time to turn\n"
+	.string "back. Do you really want to risk your\l"
+	.string "life on this expedition?$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_3:
-.string "????: Deberías estarme agradecido, has\n"
-	.string "pasado toda tu vida aquí y jamás te\l"
-	.string "has aventurado a indagar en el legado\l"
-	.string "que dejaron tus antepasados. Gracias a\l"
-	.string "mí podrás comprobar si las leyendas\l"
-	.string "eran ciertas.$"
+	.string "????: You should be grateful to me.\n"
+	.string "You've spent your entire life here and\l"
+	.string "have never dared to delve into the\l"
+	.string "legacy left by your ancestors. Thanks\l"
+	.string "to me, you'll be able to see if the\l"
+	.string "legends were true.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_4:
-.string "PESCADOR: Algunas cosas es mejor\n"
-	.string "dejarlas como están.$"
+	.string "FISHERMAN: Some things are better to\n"
+	.string "not get discovered.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_5:
-.string "????: Y otras están ahí precisamente\n"
-	.string "para que gente como nosotros vea qué\l"
-	.string "pueden hacerse con ellas. Pondremos a\l"
-	.string "prueba a ese POKÉMON como es debido,\l"
-	.string "cuando en D….$"
+	.string "????: And some are there precisely for\n"
+	.string "people like us to see what can be done\l"
+	.string "with them. We will put that POKÉMON to\l"
+	.string "the test properly, when D…$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_6:
-.string "Así que tenemos visita.$"
+.string "So we have a visitor.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_7:
-.string "Debes ser muy fuerte para haber llegado\n"
-	.string "hasta aquí solo.$"
+	.string "You must be very strong to have\n"
+	.string "reached here.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_8:
-.string "No me interesa si has llegado hasta\n"
-	.string "aquí por casualidad, si solo te has\l"
-	.string "encontrado la entrada secreta abierta,\l"
-	.string "o si estás aquí de forma premeditada,\l"
-	.string "como nosotros. Solo eres otro\l"
-	.string "obstáculo más que debe ser liquidado.$"
+	.string "I don't care if you stumbled upon this\n"
+	.string "place by chance, if you just happened\l"
+	.string "to find the secret entrance open, or if\l"
+	.string "you're here intentionally like us. You're\l"
+	.string "just another obstacle that needs to be\l"
+	.string "taken care of.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_9:
-.string "Encargaos de él, no debe seguirnos.$"
+.string "Take care of him, he must not follow us.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_10:
-.string "A la orden, señor.$"
+.string "Immediately, sir.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_11:
-.string "Has tenido suerte, si nuestro jefe al\n"
-	.string "mando hubiera decidido encargarse de\l"
-	.string "ti, ni tú ni tus POKÉMON podríais\l"
-	.string "regresar de la tremenda paliza que\l"
-	.string "recibiríais.$"
+	.string "You've been lucky. If our commanding\n"
+	.string "officer had decided to deal with you,\l"
+	.string "neither you nor your POKÉMON would be\l"
+	.string "able to recover from the beating you'd\l"
+	.string "receive.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_12:
-.string "Oh… tenemos aquí un espécimen poco\n"
-	.string "común.$"
+	.string "Oh… we have an uncommon specimen here.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_13:
-.string "Aún con esos POKÉMON, nunca podrías\n"
-	.string "competir con uno de nuestros\l"
-	.string "EJECUTIVOS.$"
+	.string "Even with those POKÉMON, you wouldn't\n"
+	.string "stand a chance against one of our\l"
+	.string "EXECUTIVES.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_14:
-.string "Parece que en esta región la gente\n"
-	.string "tiene la mala costumbre de meterse\l"
-	.string "donde no le llaman. ¡Verás cómo\l"
-	.string "tratamos en la nuestra a los\l"
-	.string "entrometidos como tú!$"
+	.string "It appears that in this area, folks have\n"
+	.string "the unfortunate tendency to poke\l"
+	.string "their noses where they don't belong.\l"
+	.string "You'll witness how we handle nosy\l"
+	.string "individuals like you in our own\l"
+	.string "territory!$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_15:
-.string "Así que te resistes, no tendremos\n"
-	.string "piedad contigo.$"
+	.string "So you try to resist, we won't have\n"
+	.string "mercy on you.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_16:
-.string "Por mucha técnica que poseas, sin\n"
-	.string "nuestra tecnología no tienes nada que\l"
-	.string "hacer.$"
+	.string "Doesn't care how skilled you are,\n"
+	.string "without technology you have nothing to\l"
+	.string "do.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_17:
-.string "Un esfuerzo más que loable por tu parte\n"
-	.string "el seguir en pie, pero tu pequeña\l"
-	.string "excursión al lago acaba aquí.$"
+	.string "Your effort to stay standing is\n"
+	.string "commendable, but your little excursion\l"
+	.string "to the lake ends here.$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_18:
-.string "¡No puede ser! ¡Tus POKÉMON deberían de\n"
-	.string "estar agotados!$"
+	.string "This can't be! Your POKÉMON should be\n"
+	.string "tired already!$"
 
 LagoFuria_S3_Combates_Cientificos_Texto_19:
-.string "Si fueras consciente del poder que\n"
-	.string "maneja nuestro EJECUTIVO, estarías ya\l"
-	.string "a kilómetros de este LAGO y de PUEBLO\l"
-	.string "CAOBA.$"
+	.string "If you were aware of the power wielded\n"
+	.string "by our EXECUTIVE, you would be miles\l"
+	.string "away from this LAKE and MAHOGANY TOWN\l"
+	.string "by now.$"
 
 
 LagoFuria_S3_Cientifico_1::
@@ -278,11 +277,10 @@ release
 end
 
 LagoFuria_S3_Cientifico_1_Texto_1:
-.string "Por tu culpa ya no podremos ver en\n"
-	.string "directo la aparición del POKÉMON del\l"
-	.string "LAGO. No podemos presentarnos ahí\l"
-	.string "después de ser derrotados, pero\l"
-	.string "tampoco podemos ya detenerte…$"
+	.string "Because of you, we've missed the chance\n"
+	.string "to see the LAKE POKÉMON's. We can't\l"
+	.string "show up there after being defeated,\l"
+	.string "but we also can't stop you now…$"
 
 
 
@@ -294,9 +292,9 @@ release
 end
 
 LagoFuria_S3_Cientifico_2_Texto_1:
-.string "Parece que ese POKÉMON es más fiero\n"
-	.string "que el mismísimo GYARADOS, ¿cuales\l"
-	.string "crees que serán sus STATS BASE?$"
+	.string "It seems that POKÉMON is fiercer than\n"
+	.string "GYARADOS itself. What do you think its\l"
+	.string "BASE STATS will be?$"
 
 
 LagoFuria_S3_Cientifico_3::
@@ -307,8 +305,8 @@ release
 end
 
 LagoFuria_S3_Cientifico_3_Texto_1:
-.string "Según nuestros cálculos, el POKÉMON del\n"
-	.string "LAGO debe de medir unos 20 metros, de\l"
-	.string "ser así, sería el POKÉMON más grande\l"
-	.string "registrado, superando a WAILORD.$"
+	.string "According to our calculations, the LAKE\n"
+	.string "POKÉMON must measure around 20 meters.\l"
+	.string "If so, it would be the largest POKÉMON\l"
+	.string "on record, even surpassing WAILORD.$"
 

@@ -28,10 +28,10 @@ LakeofRageHouse1_1_Texto_2:
 	.string "surpass those lunatics from HOENN.$"
 
 LakeofRageHouse1_1_Texto_1:
-.string "Tienes pinta de venir de KANTO,\n"
-	.string "¿verdad? Esta región puede guardarte\l"
-	.string "muchas sorpresas, si la ves con los\l"
-	.string "ojos adecuados.$"
+	.string "You seem to come from KANTO, don't you?\n"
+	.string "This region can hold many surprises for\l"
+	.string "you, if you look at it with the right\l"
+	.string "eyes.$"
 
 LakeofRageHouse1_Evento_Devon::
 lock
@@ -202,105 +202,100 @@ emote_exclamation_mark
 step_end
 
 LakeofRageHouse1_Evento_Devon_Texto_1:
-.string "PESCADOR: Ya os lo he dicho, son solo\n"
-	.string "leyendas, nadie vivo ha visto a tal\l"
+	.string "FISHER MAN: I've told you already, it is\n"
+	.string "just myths; no one alive has seen such a\l"
 	.string "POKÉMON.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_2:
-.string "????: ¿De verdad son solo leyendas?\n"
-	.string "Verá, mi equipo de CIENTÍFICOS y yo\l"
-	.string "hemos venido de muy lejos para conocer\l"
-	.string "toda la verdad.$"
+	.string "????: Is it truly just myths? You see,\n"
+	.string "my team of SCIENTISTS and I have come\l"
+	.string "from afar to uncover the entire truth.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_3:
-.string "Comprenderá que no podemos irnos sin\n"
-	.string "más, no sin asegurarnos de que nos dice\l"
-	.string "todo lo que sabe.$"
+	.string "You'll understand that we can't just\n"
+	.string "leave without ensuring that you tell us\l"
+	.string "everything you know.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_4:
-.string "Ya hemos interrogado a todos los\n"
-	.string "PESCADORES del lugar, todos han\l"
-	.string "confirmado bajo su experiencia lo que\l"
-	.string "confirman los antiguos archivos de los\l"
-	.string "que disponemos: Hay un POKÉMON en\l"
-	.string "este LAGO, un POKÉMON de un poder tal\l"
-	.string "que los propios GYARADOS de este lugar\l"
-	.string "huyen espantados.$"
+	.string "We've already interrogated all the\n"
+	.string "FISHERMEN in the area, and they've all\l"
+	.string "confirmed based on their experience\l"
+	.string "what the ancient records we have also\l"
+	.string "confirm: There's a POKÉMON in this LAKE,\l"
+	.string "a POKÉMON of such power that even the\l"
+	.string "GYARADOS of this place flee in terror.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_5:
-.string "CIENTÍFICO 1: De ningún otro modo las\n"
-	.string "SUPERCAÑAS de esos PESCADORES\l"
-	.string "hubieran cedido. Según sus reportes,\l"
-	.string "esto ha ocurrido 3 veces en la última\l"
-	.string "década, la criatura que se soltó de\l"
-	.string "esas SUPERCAÑAS tuvo que ejercer una\l"
-	.string "fuerza 3 veces superior a la de\l"
-	.string "cualquier GYARADOS.$"
+	.string "SCIENTIST 1: No other way could the\n"
+	.string "FISHERMEN's SUPER RODS have given way.\l"
+	.string "According to their reports, this has\l"
+	.string "happened 3 times in the last decade.\l"
+	.string "The creature that broke free from\l"
+	.string "those SUPER RODS had to exert a force 3\l"
+	.string "times greater than that of any\l"
+	.string "GYARADOS.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_6:
-.string "PESCADOR: Impresionante, lo sé, ¿pero\n"
-	.string "qué pretende que haga? ¿Que le guíe\l"
-	.string "hasta un lugar que nadie conoce?$"
+	.string "FISHERMAN: Impressive, I'm aware about\n"
+	.string "it, but what do you want from me? That I\l"
+	.string "guide you to a place that no one knows?$"
 
 LakeofRageHouse1_Evento_Devon_Texto_7:
-.string "????: Procedes de la más antigua\n"
-	.string "familia de PESCADORES en PUEBLO CAOBA,\l"
-	.string "si alguien sabe algo que los demás no,\l"
-	.string "eres tú.$"
+	.string "????: You hail from the most ancient\n"
+	.string "FISHER lineage in MAHOGANY TOWN. If\l"
+	.string "anyone possesses knowledge that\l"
+	.string "eludes others, it's you.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_8:
-.string "PESCADOR: Ya se lo he dicho, no se nad…$"
+.string "FISHERMAN: I already told you, I know nothi…$"
 
 LakeofRageHouse1_Evento_Devon_Texto_8.1:
 .string "…$"
 
 LakeofRageHouse1_Evento_Devon_Texto_9:
-.string "????: ¿Qué es esto?$"
+.string "???: What is this?$"
 
 LakeofRageHouse1_Evento_Devon_Texto_10:
-.string "PESCADOR: Un… Un trofeo, uno de mis\n"
-	.string "antepasados llegó a ser CAMPEÓN de\l"
-	.string "JOHTO.$"
+	.string "FISHERMAN: A… a trophy, one of my\n"
+	.string "ancestors became a CHAMPION of JOHTO.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_11:
-.string "????: ¿Usando únicamente POKÉMON\n"
-	.string "atrapados aquí? No me diga… debían de\l"
-	.string "ser muy fuertes, tal vez…$"
+	.string "????: Using only POKÉMON catched here?\n"
+	.string "Hehe interesting… the team must have\l"
+	.string "been very strong, maybe…$"
 
 LakeofRageHouse1_Evento_Devon_Texto_12:
-.string "Ese LEGENDARIO POKÉMON estuviera en\n"
-	.string "sus filas, ¿qué tienes que decir a\l"
-	.string "esto?$"
+	.string "If that LEGENDARY POKÉMON were among\n"
+	.string "their ranks, what do you have to say\l"
+	.string "about it?$"
 
 LakeofRageHouse1_Evento_Devon_Texto_13:
-.string "PESCADOR: Eh..Espere, esas escaleras\n"
-	.string "solo conducen a una caverna\l"
-	.string "subterránea, debajo del LAGO. No le\l"
-	.string "aconsejo que entre, los POKÉMON\l"
-	.string "salvajes son tremendamente hostiles\l"
-	.string "ahí, no conocen el contacto con el ser\l"
-	.string "humano.$"
+	.string "FISHERMAN: Eh… Wait, those stairs only\n"
+	.string "lead to an underground cave beneath\l"
+	.string "the LAKE. I don't advise you to enter;\l"
+	.string "the wild POKÉMON there are extremely\l"
+	.string "hostile, they don't have any contact\l"
+	.string "with humans.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_14:
-.string "????: Eso es exactamente lo que\n"
-	.string "andábamos buscando.$"
+	.string "????: That is exactly what we were\n"
+	.string "searching for.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_15:
-.string "Nos has mentido, ahora bajarás ahí con\n"
-	.string "nosotros, y nos guiarás hasta el final\l"
-	.string "de esa caverna.$"
+	.string "You lied; now you will descend there\n"
+	.string "with us, and you will guide us to the end\l"
+	.string "of that cavern.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_16:
-.string "PESCADOR: ¡No hay final!¡Jamás he\n"
-	.string "explorado más allá del segundo\l"
-	.string "nivel!¡Los POKÉMON salvajes acabaran\l"
-	.string "con todos nosotros antes de que\l"
-	.string "podamos seguir avanzando!$"
+	.string "FISHERMAN: There's no end! I've never\n"
+	.string "ventured beyond the second level! The\l"
+	.string "wild POKÉMON will destroy us all before\l"
+	.string "we can continue moving forward!$"
 
 
 LakeofRageHouse1_Evento_Devon_Texto_17:
-.string "????: De eso nos encargaremos yo…y mis\n"
-	.string "POKÉMON. ¡Andando!$"
+	.string "????: I'll handle that… with the help of\n"
+	.string "my POKÉMON. Let's move!$"
 
 
 LakeofRageHouse1_Activacion_Caverna::
@@ -311,13 +306,14 @@ release
 end
 
 LakeofRageHouse1_Activacion_Caverna_Texto_1:
-.string "Parece el trofeo de CAMPEÓN de JOHTO,\n"
-	.string "aunque se ve muy antiguo. ¿Qué POKÉMON\l"
-	.string "habrá usado el CAMPEÓN de esa época?$"
+	.string "It looks like the JOHTO CHAMPION\n"
+	.string "trophy, although it appears very old.\l"
+	.string "Which POKÉMON might the CHAMPION of\l"
+	.string "that era have used?$"
 
 LakeofRageHouse1_Activacion_Caverna_Text_YesNo:
-.string "¿Quieres activar la entrada a la\n"
-	.string "caverna?$"
+	.string "Do you want to activate the secret\n"
+	.string "entrance?$"
 
 LakeofRageHouse1_Activacion_Caverna_Warp::
 msgbox LakeofRageHouse1_Activacion_Caverna_Text_YesNo, MSGBOX_YESNO

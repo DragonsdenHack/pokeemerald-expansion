@@ -9,9 +9,9 @@ release
 end
 
 ViasTren2_Text_1:
-.string "Estamos en el ecuador del trayecto\n"
-.string "TRIGAL-AZAFRÁN, si se te hace\l"
-.string "demasiado largo, ¡puedes usar la BICI!$"
+	.string "We're halfway through the route from\n"
+	.string "GOLDENROD to SAFFRON. If it feels too\l"
+	.string "long, you can always use the BIKE!$"
 
 
 
@@ -24,8 +24,8 @@ release
 end
 
 ViasTren2_Text_4:
-.string "Hemos pasado CIUDAD CEREZO, desde\n"
-.string "aquí la tenemos al suroeste.$"
+	.string "We've passed CHERRYGROVE CITY; from\n"
+	.string "here, it's to the southwest.$"
 
 
 
@@ -37,9 +37,9 @@ release
 end
 
 ViasTren2_Text_10:
-.string "El construir estas vías ha llevado a\n"
-.string "darnos cuenta del mucho terreno por\l"
-.string "explorar que aún nos queda.$"
+	.string "Building these tracks has made us\n"
+	.string "realize how much land there is still left\l"
+	.string "to explore.$"
 
 
 
