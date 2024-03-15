@@ -142,53 +142,53 @@ walk_in_place_left
 step_end
 
 ViasSur3_Evento_Pegaso_Texto_1:
-.string "????: Está cerca, tú también lo notas.\n"
-	.string "¿Verdad, mi fiel POKÉMON?$"
+	.string "????: It is near, you also feel it, don't\n"
+	.string "you, my loyal POKÉMON?$"
 
 ViasSur3_Evento_Pegaso_Texto_2:
-.string "PEGASO: ¡Oh, {PLAYER}! ¡Te las\n"
-	.string "arreglas para estar en todos lados!$"
+	.string "FALKNER: Oh, {PLAYER}! You always\n"
+	.string "find a way to be everywhere!$"
 
 ViasSur3_Evento_Pegaso_Texto_3:
-.string "¿Qué te parece este lugar?$"
+.string "What do you think about this place?$"
 
 ViasSur3_Evento_Pegaso_Texto_4:
-.string "Aunque la naturaleza ha erosionado la\n"
-	.string "mayor parte del terreno, aún quedan\l"
-	.string "restos de lo que parece ser una\l"
-	.string "antigua población.$"
+	.string "Despite the erosion caused by nature,\n"
+	.string "traces of what seems to be an old\l"
+	.string "village remain.$"
 
 ViasSur3_Evento_Pegaso_Texto_5:
-.string "Tal vez más antigua que RUINAS ALFA,\n"
-	.string "quién sabe. Conocemos tan poco acerca\l"
-	.string "de nuestra propia región… y es normal.\l"
-	.string "Ante la vastedad del tiempo, solo somos\l"
-	.string "una simple gota en medio del mar.$"
+	.string "Perhaps even older than the RUINS OF\n"
+	.string "ALPH, who knows. We know so little about\l"
+	.string "our own region… and it's normal. Faced\l"
+	.string "with the vastness of time, we are just a\l"
+	.string "mere drop in the ocean.$"
 
 ViasSur3_Evento_Pegaso_Texto_6:
-.string "Hace semanas que mi THUNDURUS está\n"
-	.string "alterado. Al parecer, reacciona ante\l"
-	.string "una fuerte presencia, cuyo foco\l"
-	.string "energético se encuentra por esta zona.$"
+	.string "My THUNDURUS has been agitated for\n"
+	.string "weeks now. It seems to be reacting to a\l"
+	.string "strong presence, with its energy source\l"
+	.string "located around this area.$"
 
 ViasSur3_Evento_Pegaso_Texto_7:
-.string "He decidido venir aquí a investigar,\n"
-	.string "ignoro si tal POKÉMON pertenece\l"
-	.string "también al TIPO VOLADOR, pero su carga\l"
-	.string "eléctrica es descomunal.$"
+	.string "I've decided to come here to\n"
+	.string "investigate. I'm not sure if this\l"
+	.string "POKÉMON also belongs to the FLYING\l"
+	.string "TYPE but its electrical charge is\l"
+	.string "immense.$"
 
 ViasSur3_Evento_Pegaso_Texto_8:
-.string "Tengo que averiguarlo, como experto en\n"
-	.string "aves, es todo un reto para mí. Aunque...\l"
-	.string "tengo serias sospechas de lo que\l"
-	.string "realmente es.$"
+	.string "I have to figure it out. Even being an\n"
+	.string "expert in birds, it's quite a challenge\l"
+	.string "for me. Although… I have serious\l"
+	.string "suspicions about what it really is.$"
 
 ViasSur3_Evento_Pegaso_Texto_9:
-.string "Seguiré por mi cuenta, {PLAYER}. Mis\n"
-	.string "POKÉMON están deseosos de\l"
-	.string "enfrentarse a un oponente así, y no\l"
-	.string "deseo aguarles la fiesta, en una región\l"
-	.string "cada vez más predecible.$"
+	.string "I'll continue on my own, {PLAYER}. My\n"
+	.string "POKÉMON are eager to face such an\l"
+	.string "opponent, and I don't want to spoil\l"
+	.string "their fun in a region that's becoming\l"
+	.string "increasingly predictable.$"
 
 ViasSur3_EventScript_Obrero::
 	trainerbattle_single TRAINER_TRAINER_223, ViasSur3_Text_ObreroIntro, ViasSur3_Text_ObreroDefeated
@@ -204,10 +204,10 @@ release
 end
 
 ViasSur3_Primer_Obrero_Texto_1:
-.string "¿Quién era ese tío? Me ha despachado\n"
-	.string "en un instante usando un ave extraña.\l"
-	.string "Y yo que me sentía seguro con mis TIPO\l"
-	.string "ROCA, no quiero imaginar qué hubiera\l"
-	.string "pasado en caso de aparecer ese otro\l"
-	.string "ave que andamos buscando...$"
+	.string "Who was that guy? He dismissed me in an\n"
+	.string "instant using some strange bird. And\l"
+	.string "here I thought I was safe with my ROCK\l"
+	.string "TYPES. I can't imagine what would have\l"
+	.string "happened if that other bird we're\l"
+	.string "looking for had shown up…$"
 

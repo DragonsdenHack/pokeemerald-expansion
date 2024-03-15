@@ -114,8 +114,8 @@ release
 end
 
 ViasSur5_Combate_Pegaso_Texto_25:
-.string "(ZAPDOS PRIMIGENIO VOLÓ HACIA EL\n"
-	.string "ESTE)$"
+.string "(PRIMAL ZAPDOS FLEW TOWARDS\n"
+	.string "THE EAST)$"
 
 ViasSur5_Combate_Pegaso_Move_12:
 face_up
@@ -173,57 +173,55 @@ walk_in_place_up
 step_end
 
 ViasSur5_Combate_Pegaso_Texto_1:
-.string "Mis sospechas se confirmaron, así que\n"
-	.string "estabas aquí…$"
+	.string "My suspicions were confirmed, so you\n"
+	.string "were here…$"
 
 ViasSur5_Combate_Pegaso_Texto_2:
-.string "Te has bastado para poner en apuros a 6\n"
-	.string "aves entrenadas al extremo. Tu inmenso\l"
-	.string "poder está a la altura de tu leyenda, no\l"
-	.string "hay duda.$"
+	.string "You've managed to push 6 highly trained\n"
+	.string "birds to their limits. Your immense\l"
+	.string "power lives up to your legend, no doubt.$"
 
 ViasSur5_Combate_Pegaso_Texto_3:
-.string "{PLAYER}, te has perdido un combate\n"
-	.string "de altos vuelos.$"
+	.string "{PLAYER}, You've missed out on a\n"
+	.string "sky-high showdown.$"
 
 ViasSur5_Combate_Pegaso_Texto_4:
-.string "Supongo que sientes curiosidad por ver\n"
-	.string "qué clase de POKÉMON alberga un lugar\l"
-	.string "tan solemne como este.$"
+	.string "I suppose you're curious to see what\n"
+	.string "kind of POKÉMON dwells in a place as\l"
+	.string "solemn as this.$"
 
 ViasSur5_Combate_Pegaso_Texto_5:
-.string "No te preocupes, yo ya tomé mi decisión\n"
-	.string "para con mi equipo. Solo quiero que me\l"
-	.string "concedas este último combate.$"
+	.string "Don't worry, I've already made my\n"
+	.string "decision regarding my team. I just want\l"
+	.string "you to grant me this final battle.$"
 
 ViasSur5_Combate_Pegaso_Texto_6:
-.string "¡No te lo pondré tan fácil como la\n"
-	.string "primera vez!$"
+	.string "I won't make it easy for you, as the\n"
+	.string "first time!$"
 
 ViasSur5_Combate_Pegaso_Texto_7:
-.string "Tienes el corazón de los grandes\n"
-	.string "maestros, no cabe duda.$"
+	.string "You have a grandmaster heart, no doubt.$"
 
 ViasSur5_Combate_Pegaso_Texto_8:
-.string "Ya eras todo un maestro cuando\n"
-	.string "visitaste MALVA por primera vez, pero\l"
-	.string "ahora eres incluso mejor.$"
+	.string "You were already a master when you\n"
+	.string "first visited VIOLET, but now you're\l"
+	.string "even better.$"
 
 ViasSur5_Combate_Pegaso_Texto_9:
-.string "Observa.$"
+.string "Take a look…$"
 
 ViasSur5_Combate_Pegaso_Texto_10:
-.string "El POKÉMON que tienes delante es un\n"
-	.string "ZAPDOS, mas no uno cualquiera.$"
+	.string "The POKÉMON you have in front of you is\n"
+	.string "a ZAPDOS, but not just any ZAPDOS.$"
 
 ViasSur5_Combate_Pegaso_Texto_11:
-.string "A diferencia del resto de ZAPDOS, este\n"
-	.string "es único, solo hay uno en el mundo.$"
+	.string "Unlike other ZAPDOS, this one is unique,\n"
+	.string "there's only one in the world.$"
 
 ViasSur5_Combate_Pegaso_Texto_12:
-.string "Si has luchado con FREDO y el MAESTRO\n"
-	.string "de ENDRINO, habrás enfrentado a sus\l"
-	.string "equivalentes en ARTICUNO y MOLTRES.$"
+	.string "If you've battled PRYCE and the\n"
+	.string "BLACKTHORN MASTER, you've faced their\l"
+	.string "equivalents in ARTICUNO and MOLTRES.$"
 
 ViasSur5_Combate_Pegaso_Texto_13:
 .string "Son lo que antiguamente llamábamos\n"

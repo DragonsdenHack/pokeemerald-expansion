@@ -15,7 +15,7 @@ release
 end
 
 ViasSur2_Primer_Obrero_Texto_1:
-.string "Nuestros POKÉMON ELÉCTRICO y ROCA\n"
-	.string "deberían en teoría detener a ese\l"
-	.string "POKÉMON, pero no somos capaces de\l"
-	.string "avistarlo.$"
+	.string "Our ELECTRIC and ROCK TYPES POKÉMON\n"
+	.string "should theoretically be able to stop\l"
+	.string "that Pokémon, but we haven't been able\l"
+	.string "to spot it.$"

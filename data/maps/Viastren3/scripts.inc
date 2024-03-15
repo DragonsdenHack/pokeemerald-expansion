@@ -9,8 +9,8 @@ release
 end
 
 ViasTren3_Text_4:
-.string "Creo que hay algo ahí arriba, ¿o tal vez\n"
-.string "sean imaginaciones mías?$"
+	.string "I think there's something up there. Or\n"
+	.string "maybe it's just my imagination?$"
 
 
 
@@ -22,9 +22,9 @@ release
 end
 
 ViasTren3_Text_6:
-.string "Tenemos el MONTE PLATEADO justo\n"
-.string "arriba, de hecho, ya lo hemos pasado.\l"
-.string "¡Oficialmente estamos en KANTO!$"
+	.string "We have MOUNT SILVER right above us; in\n"
+	.string "fact, we've already passed it. We're\l"
+	.string "officially in KANTO!$"
 
 
 
@@ -36,8 +36,9 @@ release
 end
 
 ViasTren3_Text_8:
-.string "Desde aquí puede verse una gran\n"
-.string "montaña al suroeste, ¿habrá algo ahí?$"
+	.string "From here, you can see a large mountain\n"
+	.string "to the southwest. I wonder if there's\l"
+	.string "anything there?$"
 
 
 
@@ -153,24 +154,25 @@ walk_left
 step_end
 
 ViasTren3_Rastro_Zapdos_Texto_1:
-.string "Eres el alto cargo del TEAM ROCKET, ¿no?$"
+	.string "You are a top executive of TEAM ROCKET,\n"
+	.string "aren't you?$"
 
 ViasTren3_Rastro_Zapdos_Texto_2:
-.string "Te lo advierto, ese POKÉMON es muy\n"
-	.string "rápido y poderoso, parece tener\l"
-	.string "debilidad por el magnetismo de las\l"
-	.string "vías. En varias ocasiones ha destruido\l"
-	.string "parte de ellas y está ralentizando el\l"
-	.string "ritmo de construcción.$"
+	.string "Be aware, that POKÉMON is exceptionally\n"
+	.string "swift and mighty. It appears to have a\l"
+	.string "fondness for the magnetic force of the\l"
+	.string "railways. It has damaged them numerous\l"
+	.string "times, impeding our construction\l"
+	.string "progress.$"
 
 ViasTren3_Rastro_Zapdos_Texto_3:
-.string "Suele aparecer por el sur, más o menos\n"
-	.string "desde este punto es lo más al noreste\l"
-	.string "que ha aparecido, su nido o donde sea\l"
-	.string "que viva debe estar por aquí abajo.$"
+	.string "Usually, it emerges from the south, but\n"
+	.string "this is the most northeastern it's been\l"
+	.string "spotted from this spot. Its nest or lair\l"
+	.string "must be somewhere nearby.$"
 
 ViasTren3_Rastro_Zapdos_Texto_4:
-.string "Buena suerte.$"
+.string "Good luck.$"
 
 ViasTren3_Barrera::
 lock
@@ -180,6 +182,7 @@ release
 end
 
 ViasTren3_Barrera_Texto_1:
-.string "Esta zona ha sido seriamente dañada\n"
-	.string "por el POKÉMON MISTERIOSO, hasta que\l"
-	.string "no la restauremos nadie podrá pasar.$"
+	.string "This area has been severely damaged by\n"
+	.string "the mysterious POKÉMON. Until we\l"
+	.string "restore it, no one will be able to pass\l"
+	.string "through.$"

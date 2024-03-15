@@ -45,58 +45,64 @@ release
 end
 
 ViasTrenCasaCampeon_Agatha_Texto_1:
-.string "AGATHA: Oh… {PLAYER}, qué sorpresa\n"
-	.string "verte aquí. No hay lugar en el mundo\l"
-	.string "que se te escape, ¿eh?$"
+	.string "AGATHA: Oh… {PLAYER}, what a surprise\n"
+	.string "to see you here. Seems like there's\l"
+	.string "nowhere in the world you can't find,\l"
+	.string "huh?$"
 
 ViasTrenCasaCampeon_Agatha_Texto_2:
-.string "Me he retirado a este lugar, cuando algo\n"
-	.string "acaba, acaba. ¿Sabes? No iba a forzar\l"
-	.string "más la situación en LAVANDA. ¿Con qué\l"
-	.string "cara íbamos a pasear mi GENGAR y yo por\l"
-	.string "sus calles sin la TORRE POKÉMON que nos\l"
-	.string "vio crecer? Sin poder entrar en ella y\l"
-	.string "sentir su energía… no tendría ningún\l"
-	.string "sentido seguir allí.$"
+	.string "I've retired to this place. When\n"
+	.string "something ends, it ends. You know? I\l"
+	.string "didn't want to prolong the situation in\l"
+	.string "LAVENDER any further. How could my\l"
+	.string "GENGAR and I walk around its streets\l"
+	.string "without the POKÉMON TOWER that\l"
+	.string "witnessed our growth? Without being\l"
+	.string "able to enter it and feel its energy…\l"
+	.string "there would be no point in staying\l"
+	.string "there.$"
+
 
 ViasTrenCasaCampeon_Agatha_Texto_3:
-.string "Pensé en retirarme a TORRE CAMPANA de\n"
-	.string "nuevo, pero necesito volver a mis\l"
-	.string "raíces. Aquí aprendí mucho con la que\l"
-	.string "fue mi maestra, la única que llegó a ser\l"
-	.string "CAMPEONA usando POKÉMON TIPO\l"
-	.string "FANTASMA.$"
+	.string "I considered going back to BELL TOWER,\n"
+	.string "but I felt the need to return to my\l"
+	.string "origins. It was here that I learned so\l"
+	.string "much from my mentor, the only one who\l"
+	.string "became a CHAMPION using GHOST-TYPE\l"
+	.string "POKÉMON.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_4:
-.string "Aún vive, aunque ahora descansa en el\n"
-	.string "MT.PLATEADO, puede que incluso la\l"
-	.string "hayas visto.$"
+	.string "She's still alive, although she\n"
+	.string "currently resides in MT. SILVER, you\l"
+	.string "might have even seen her.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_5:
-.string "Si vuelves por ahí, ¿me harías el favor\n"
-	.string "de avisarla? Después de todo lo que ha\l"
-	.string "ocurrido, una buena charla con ella me\l"
-	.string "haría muy feliz.$"
+	.string "If you happen to go by there, could you\n"
+	.string "do me the favor of letting her know?\l"
+	.string "After everything that's happened, a\l"
+	.string "good chat with her would make me very\l"
+	.string "happy.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_6:
-.string "AGATHA: Si vuelves por ahí, ¿me harías\n"
-	.string "el favor de avisarla? Después de todo\l"
-	.string "lo que ha ocurrido, una buena charla\l"
-	.string "con ella me haría muy feliz.$"
+	.string "AGATHA: If you happen to go by there,\n"
+	.string "could you do me the favor of letting her\l"
+	.string "know? After everything that's\l"
+	.string "happened, a good chat with her would\l"
+	.string "make me very happy.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_7:
-.string "AGATHA: Mi maestra llevaba décadas sin\n"
-	.string "sentir entusiasmo por combatir. Si le\l"
-	.string "haces el honor, también me lo harás a\l"
-	.string "mí, siento mucha curiosidad por ver ese\l"
-	.string "combate.$"
+	.string "AGATHA: My mentor hadn't felt\n"
+	.string "excitement for battling in decades. If\l"
+	.string "you do her the honor, you'll also be\l"
+	.string "doing me one. I'm really curious to see\l"
+	.string "that battle.$"
 
 ViasTrenCasaCampeon_Agatha_Texto_8:
-.string "AGATHA: Cuando te vi en la LIGA POKÉMON\n"
-	.string "sabía que tenías potencial, pero…\l"
-	.string "mírate, has derrotado a la mejor\l"
-	.string "entrenadora que he conocido. El mundo\l"
-	.string "es tuyo para seguir superando límites.$"
+	.string "AGATHA: When I saw you in the POKÉMON\n"
+	.string "LEAGUE, I knew you had potential, but…\l"
+	.string "look at you now, you've defeated the\l"
+	.string "best trainer I've ever known. The world\l"
+	.string "is yours to keep surpassing limits.$"
 
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona::
@@ -207,60 +213,62 @@ walk_slow_up
 step_end
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_1:
-.string "Y tú lo sabes. En el pasado nada se\n"
-	.string "pierde, nada podrá arrebatarte todo lo\l"
-	.string "que has vivido allí, ha quedado\l"
-	.string "almacenado para siempre, ya forma\l"
-	.string "parte del devenir de KANTO.$"
+	.string "And you know it. Nothing gets lost in\n"
+	.string "the past, nothing can take away\l"
+	.string "everything you've experienced there,\l"
+	.string "it's all stored forever, it's already\l"
+	.string "part of KANTO's history.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2:
 .string "AGATHA: …$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3:
-.string "Ah… Eras {PLAYER}, ¿no?$"
+	.string "Ah… You are {PLAYER}, aren't you?$"
 
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1:
-.string "Si te soy sincera, no esperaba volver a\n"
-	.string "verte, ¿a quién puede interesarle lo\l"
-	.string "que tengan que decir dos viejas glorias\l"
-	.string "como nosotras? ¿Verdad?$"
+	.string "To be honest, I didn't expect to see you\n"
+	.string "again. Who would even care about what\l"
+	.string "two former faded stars like us have to\l"
+	.string "say, right?$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_4:
-.string "AGATHA: {PLAYER} es un encanto, si lo\n"
-	.string "vieras combatir. Transmite ese aura de\l"
-	.string "antiguos campeones, como tú. Ha nacido\l"
-	.string "en una época que no le corresponde.$"
+	.string "AGATHA: {PLAYER} is charming; if you\n"
+	.string "could see him battle, he exudes that\l"
+	.string "aura of past champions, much like\l"
+	.string "yourself. He's been born in the wrong\l"
+	.string "era.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_5:
-.string "Tal vez por eso precisamente deba\n"
-	.string "haber nacido en esta época, si es como\l"
-	.string "dices, {PLAYER} puede evitar que los\l"
-	.string "viejos valores sean enterrados.$"
+	.string "Perhaps that's precisely why he should\n"
+	.string "have been born in this era. If he's as\l"
+	.string "you say, {PLAYER} can prevent old\l"
+	.string "traditions from being buried.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6:
-.string "AGATHA: Eres muy joven, {PLAYER},\n"
-	.string "pero ya has vivido más que muchos de\l"
-	.string "nuestra edad que ven su vida pasar.$"
+	.string "AGATHA: You're very young, {PLAYER},\n"
+	.string "but you've already lived more than many\l"
+	.string "people our age who just watch life go\l"
+	.string "by.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7:
-.string "Sé que antes te hablé de la\n"
-	.string "imposibilidad de que nuestros equipos\l"
-	.string "se cruzaran, pero… aún vivo…\l"
-	.string "físicamente no es imposible que tal\l"
-	.string "encuentro se diera. En el MT.PLATEADO\l"
-	.string "pequé de no considerar todas las\l"
-	.string "posibilidades, para mí y mi equipo.$"
+	.string "I know I mentioned the impossibility of\n"
+	.string "our teams crossing paths before, but…\l"
+	.string "I'm still alive… physically, it's not\l"
+	.string "impossible for such an encounter to\l"
+	.string "happen. At MT. SILVER, I erred in not\l"
+	.string "considering all the possibilities, for me\l"
+	.string "and my team.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7.1:
-.string "Lo cierto es que, cuando se es joven de\n"
-	.string "verdad, se es joven para toda la vida.\l"
-	.string "El arte de combatir no es menos.$"
+	.string "Indeed, when one is truly young, they\n"
+	.string "remain youthful for life. The skill of\l"
+	.string "battling knows no age limits.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_8:
-.string "Con ello quiero decir que, si estás\n"
-	.string "dispuesto, mediré mi equipo con el tuyo.\l"
-	.string "Háblame cuando estés listo.$"
+	.string "What I mean is, if you're willing, I'll\n"
+	.string "test my team against yours. Talk to me\l"
+	.string "when you're ready.$"
 
 ViasTrenCasaCampeon_Combate_Campeona::
 lock
@@ -295,35 +303,36 @@ end
 
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_1:
-.string "¿Estás listo?$"
+.string "Are you ready?$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_2:
-.string "Tengo todo el tiempo del mundo, ahora\n"
-	.string "que he vuelto aquí, no me iré de este\l"
-	.string "lugar.$"
+	.string "Now that I've returned here, I've got\n"
+	.string "all the time in the world; I'm not going\l"
+	.string "anywhere.$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_3:
-.string "Déjame sentir la energía de tus\n"
-	.string "POKÉMON. ¡Veamos de qué están hechos!$"
+	.string "Let me feel the energy of your POKÉMON.\n"
+	.string "Let's see how strong they are!$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_4:
-.string "No todo lo nuevo es decadente…$"
+	.string "Everything new isn't necessarily\n"
+	.string "decadent…$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_5:
-.string "AGATHA no exageraba contigo. Tienes el\n"
-	.string "corazón de un CAMPEÓN, y las\l"
-	.string "herramientas necesarias.$"
+	.string "AGATHA wasn't exaggerating about you.\n"
+	.string "You have the heart of a real CHAMPION\l"
+	.string "and the required skills.$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_6:
-.string "Poco tengo que enseñarte, lo que sí me\n"
-	.string "gustaría es que tuvieras esto.$"
+	.string "There's not much I can teach you, but\n"
+	.string "I'd like you to have this.$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_7:
-.string "¡OBTUVISTE UN CALYREX AL NV.70!$"
+.string "YOU OBTAINED A LV.70 CALYREX!$"
 
 ViasTrenCasaCampeon_Combate_Campeona_Texto_8:
-.string "Uno de mis últimos pasatiempos ha sido\n"
-	.string "cultivar y ver crecer a estos pequeños,\l"
-	.string "no te imaginas el poder contenido en\l"
-	.string "CALYREX, espero que saques buen\l"
-	.string "provecho de ello.$"
+	.string "One of my recent hobbies has been\n"
+	.string "cultivating and watching these little\l"
+	.string "ones grow; you can't imagine the power\l"
+	.string "contained within CALYREX. I hope you\l"
+	.string "make good use of it.$"
