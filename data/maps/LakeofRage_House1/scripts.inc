@@ -21,11 +21,11 @@ release
 end
 
 LakeofRageHouse1_1_Texto_2:
-.string "Te estaré eternamente agradecido,\n"
-	.string "gente como tú sí que merece descubrir\l"
-	.string "los antiguos secretos del mundo.\l"
-	.string "Espero que prevalezcas por encima de\l"
-	.string "esos lunáticos de HOENN.$"
+	.string "I'll be forever thankful to you;\n"
+	.string "individuals like you are the ones who\l"
+	.string "truly deserve to discover the ancient\l"
+	.string "secrets of the world. I hope you\l"
+	.string "surpass those lunatics from HOENN.$"
 
 LakeofRageHouse1_1_Texto_1:
 .string "Tienes pinta de venir de KANTO,\n"

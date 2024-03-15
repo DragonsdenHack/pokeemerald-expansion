@@ -14,23 +14,21 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_100:
-	.string "AERODACTYL-MEGA\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 135\l"
-	.string "DEFENSA: 85\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 150\l"
+	.string "MEGA AERODACTYL:\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 135\l"
+	.string "DEFENSE: 85\l"
+	.string "SPECIAL ATTACK: 95\l"
+	.string "SPECIAL DEFENSE: 95\l"
+	.string "SPEED: 150\l"
 	.string "TOTAL: 615\p"
-	.string "La forma MEGA de AERODACTYL creada a\n"
-	.string "partir de métodos artificales. Dista\l"
-	.string "ligeramente de la FORMA PRIMIGENIA,\l"
-	.string "destacando una DEFENSA ESPECIAL\l"
-	.string "superior, pero más frágil por el lado\l"
-	.string "físico. Su combinación\l"
-	.string "VELOCIDAD+ATAQUE+GARRA DURA es\l"
-	.string "extraordinaria para cualquier\l"
-	.string "estándar.$"
+	.string "The MEGA form of AERODACTYL, created\n"
+	.string "through artificial methods. It slightly\l"
+	.string "deviates from its PRIMAL FORM, with\l"
+	.string "notably higher SPECIAL DEFENSE but\l"
+	.string "more physical frailty. Its combination\l"
+	.string "of SPEED + ATTACK + TOUGH CLAWS is\l"
+	.string "extraordinary for any standard.$"
 
 
 
@@ -44,23 +42,22 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_101:
-	.string "SWAMPERT-MEGA\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 150\l"
-	.string "DEFENSA: 110\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 110\l"
-	.string "VELOCIDAD: 70\l"
+	.string "MEGA SWAMPERT:\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 150\l"
+	.string "DEFENSE: 110\l"
+	.string "SPECIAL ATTACK: 95\l"
+	.string "SPECIAL DEFENSE: 110\l"
+	.string "SPEED: 70\l"
 	.string "TOTAL: 635\p"
-	.string "Aúna un enorme poder físico con gran\n"
-	.string "resistencia, gracias a NADO RÁPIDO su\l"
-	.string "mediocre VELOCIDAD es, bajo la lluvia,\l"
-	.string "capaz de superar a todo a excepción de\l"
-	.string "REGIELEKI y ELECTRODE-Y. PUÑO\l"
-	.string "INCREMENTO le permitirá elevar su\l"
-	.string "ATAQUE hasta un punto en que, bajo la\l"
-	.string "lluvia, puede llevarse equipos enteros\l"
-	.string "con gran facilidad.$"
+	.string "It combines immense physical power with\n"
+	.string "great endurance, and thanks to SWIFT\l"
+	.string "SWIM, its average SPEED can surpass\l"
+	.string "everything under the rain except for\l"
+	.string "REGIELEKI and ELECTRODE-Y. POWER-UP\l"
+	.string "PUNCH allows it to boost its ATTACK to a\l"
+	.string "level where, under the rain, it can\l"
+	.string "easily sweep entire teams.$"
 
 
 
@@ -74,23 +71,24 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_102:
-	.string "BLAZIKEN-MEGA\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 160\l"
-	.string "DEFENSA: 80\l"
-	.string "ATAQUE ESPECIAL: 130\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 100\l"
+	.string "MEGA BLAZIKEN:\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 160\l"
+	.string "DEFENSE: 80\l"
+	.string "SPECIAL ATTACK: 130\l"
+	.string "SPECIAL DEFENSE: 80\l"
+	.string "SPEED: 100\l"
 	.string "TOTAL: 630\p"
-	.string "Uno de los POKÉMON más temidos, su\n"
-	.string "combo IMPULSO+PROTECCIÓN, con 160 en\l"
-	.string "ATAQUE, y dos potentísimos STAB como\l"
-	.string "lo son ENVITE ÍGNEO y PATADA S.ALTA, le\l"
-	.string "coronan como el inicial número 1. ROCA\l"
-	.string "AFILADA es su mejor cobertura, si logra\l"
-	.string "meter un DANZA ESPADA, prácticamente\l"
-	.string "solo quedará intentar tumbarlo con\l"
-	.string "movimientos de prioridad.$"
+	.string "One of the most feared POKÉMON, its\n"
+	.string "combo of SPEED BOOST + PROTECT, with a\l"
+	.string "160 ATTACK stat, along with two\l"
+	.string "powerful STAB moves as FLARE BLITZ and\l"
+	.string "HIGH JUMP KICK are, crowns it as the\l"
+	.string "top choice. STONE EDGE provides\l"
+	.string "excellent coverage, and if it manages\l"
+	.string "to set up a SWORDS DANCE, the only\l"
+	.string "option left is to try to take it down\l"
+	.string "with priority moves.$"
 
 
 
@@ -104,26 +102,26 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_103:
-	.string "SCEPTILE-MEGA\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 110\l"
-	.string "DEFENSA: 75\l"
-	.string "ATAQUE ESPECIAL: 145\l"
-	.string "DEFENSA ESPECIAL: 85\l"
-	.string "VELOCIDAD: 145\l"
+	.string "MEGA SCEPTILE:\p"
+	.string "HP: 70\n"
+	.string "ATTACK: 110\l"
+	.string "DEFENSE: 75\l"
+	.string "SPECIAL ATTACK: 145\l"
+	.string "SPECIAL DEFENSE: 85\l"
+	.string "SPEED: 145\l"
 	.string "TOTAL: 630\p"
-	.string "Su doble 145 de BASE en AT.ESPECIAL y\n"
-	.string "VELOCIDAD es extraordinario para un NO\l"
-	.string "LEGENDARIO, números que aprovecha\l"
-	.string "bien gracias a su acceso a LLUEVEHOJAS\l"
-	.string "y COMETA DRACO por STAB, con\l"
-	.string "GIGADRENADO y PULSO DRAGÓN como\l"
-	.string "opciones más conservadoras. Gracias a\l"
-	.string "su ALLANAMIENTO, podrá salvar al\l"
-	.string "equipo de situaciones comprometidas,\l"
-	.string "pudiendo rematar rápidamente a muchos\l"
-	.string "POKÉMON, que de otra forma serían un\l"
-	.string "dolor de cabeza.$"
+	.string "Its impressive BASE stats of 145 in\n"
+	.string "both SPECIAL ATTACK and SPEED are\l"
+	.string "extraordinary for a NON-LEGENDARY\l"
+	.string "POKÉMON, numbers it utilizes\l"
+	.string "effectively thanks to its access to\l"
+	.string "LEAF STORM and DRACO METEOR by STAB,\l"
+	.string "with options like GIGA DRAIN and DRAGON\l"
+	.string "PULSE for more conservative plays. With\l"
+	.string "its ability, INFILTRATOR, it can save\l"
+	.string "the team from challenging situations\l"
+	.string "and swiftly finish off many POKÉMON\l"
+	.string "that would otherwise be a headache.$"
 
 
 
@@ -137,26 +135,26 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_104:
-	.string "MANECTRIC-MEGA\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 80\l"
-	.string "ATAQUE ESPECIAL: 135\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 135\l"
+	.string "MEGA MANECTRIC:\p"
+	.string "HP: 70\n"
+	.string "ATTACK: 75\l"
+	.string "DEFENSE: 80\l"
+	.string "SPECIAL ATTACK: 135\l"
+	.string "SPECIAL DEFENSE: 80\l"
+	.string "SPEED: 135\l"
 	.string "TOTAL: 575\p"
-	.string "Superando a RAIKOU por 20 puntos tanto\n"
-	.string "en AT.ESPECIAL como en VELOCIDAD, se\l"
-	.string "consolida como uno de los mejores\l"
-	.string "usuarios de VOLTIOCAMBIO, reforzando\l"
-	.string "esta faceta gracias a su\l"
-	.string "INTIMIDACIÓN. Sorprende su acceso a\l"
-	.string "SOFOCO, una cobertura de lo más\l"
-	.string "efectiva, fuera de ello, algo corto de\l"
-	.string "variedad y mejorables defensas,\l"
-	.string "aunque notable teniendo en cuenta el\l"
-	.string "punto de partida como MANECTRIC\l"
-	.string "normal.$"
+	.string "Surpassing RAIKOU by 20 points in both\n"
+	.string "SPECIAL ATTACK and SPEED, it\l"
+	.string "establishes itself as one of the best\l"
+	.string "VOLT SWITCH users, bolstering this\l"
+	.string "aspect with its INTIMIDATE ability. Its\l"
+	.string "access to OVERHEAT is surprising,\l"
+	.string "providing effective coverage. However,\l"
+	.string "aside from that, it lacks variety and\l"
+	.string "has room for improvement in defenses,\l"
+	.string "although this is notable considering\l"
+	.string "its starting point as a regular\l"
+	.string "MANECTRIC.$"
 
 
 
@@ -170,25 +168,24 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_105:
-	.string "SABLEYE-MEGA\p"
-	.string "PS: 50\n"
-	.string "ATAQUE: 85\l"
-	.string "DEFENSA: 125\l"
-	.string "ATAQUE ESPECIAL: 85\l"
-	.string "DEFENSA ESPECIAL: 115\l"
-	.string "VELOCIDAD: 20\l"
+	.string "MEGA SABLEYE:\p"
+	.string "HP: 50\n"
+	.string "ATTACK: 85\l"
+	.string "DEFENSE: 125\l"
+	.string "SPECIAL ATTACK: 85\l"
+	.string "SPECIAL DEFENSE: 115\l"
+	.string "SPEED: 20\l"
 	.string "TOTAL: 480\p"
-    .string "Uno de los POKÉMON más molestos de\n"
-	.string "enfrentar, a pesar de sus mediocres\l"
-	.string "STATS. Su SINIESTRO/FANTASMA, junto a\l"
-	.string "buenas defensas y HABILIDAD\l"
-	.string "ESPEJOMÁGICO, combinado con\l"
-	.string "capacidad de usar JUEGO SUCIO, le dan\l"
-	.string "soluciones para prácticamente\l"
-	.string "cualquier situación. Lo único que le\l"
-	.string "falta es poder mantener BROMISTA, y\l"
-	.string "así hacer uso de RECUPERACIÓN también\l"
-	.string "por prioridad.$"
+	.string "One of the most annoying POKÉMON to\n"
+	.string "fight, despite its mediocre STATS. Its\l"
+	.string "DARK/GHOST type combination, along\l"
+	.string "with solid defenses and the MAGIC\l"
+	.string "BOUNCE ability, combined with the\l"
+	.string "ability to use FOUL PLAY, provide\l"
+	.string "solutions for virtually any situation.\l"
+	.string "The only thing it lacks is the ability to\l"
+	.string "maintain PRANKSTER, thus enabling the\l"
+	.string "use of RECOVER also as a priority move.$"
 
 
 
@@ -202,23 +199,23 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_106:
-	.string "CAMERUPT-MEGA\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 120\l"
-	.string "DEFENSA: 140\l"
-	.string "ATAQUE ESPECIAL: 175\l"
-	.string "DEFENSA ESPECIAL: 125\l"
-	.string "VELOCIDAD: 10\l"
+	.string "MEGA CAMERUPT:\p"
+	.string "HP: 70\n"
+	.string "ATTACK: 120\l"
+	.string "DEFENSE: 140\l"
+	.string "SPECIAL ATTACK: 175\l"
+	.string "SPECIAL DEFENSE: 125\l"
+	.string "SPEED: 10\l"
 	.string "TOTAL: 640\p"
-   .string "Realmente lento y con una clara\n"
-	.string "debilidad x4 al AGUA. No obstante, raya\l"
-	.string "la excelencia en el resto, con 4 STATS\l"
-	.string "de 120 o más de BASE, llegando a su pico\l"
-	.string "con esos 165 puntos en ATAQUE\l"
-	.string "ESPECIAL, que, junto a POTENCIA BRUTA,\l"
-	.string "le convertirán en uno de los mayores\l"
-	.string "pegadores que existen, un peligro en\l"
-	.string "ESPACIO RARO.$"
+	.string "Despite being extremely slow and having\n"
+	.string "a glaring x4 weakness to WATER, it\l"
+	.string "excels in other areas, boasting 4 stats\l"
+	.string "at 120 or higher base points. Its\l"
+	.string "SPECIAL ATTACK peaks at an impressive\l"
+	.string "165 points, which, combined with SHEER\l"
+	.string "FORCE, makes it one of the hardest\l"
+	.string "hitters out there, being a real threat\l"
+	.string "in strats with TRICK ROOM.$"
 
 
 
@@ -232,22 +229,23 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_107:
-	.string "SHARPEDO-MEGA\p"
-	.string "PS: 70\n"
-	.string "ATAQUE: 155\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 110\l"
-	.string "DEFENSA ESPECIAL: 90\l"
-	.string "VELOCIDAD: 125\l"
+	.string "MEGA SHARPEDO:\p"
+	.string "HP: 70\n"
+	.string "ATTACK: 155\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 110\l"
+	.string "SPECIAL DEFENSE: 90\l"
+	.string "SPEED: 125\l"
 	.string "TOTAL: 640\p"
-    .string "El TRITURAR de MEGA GYARADOS se queda\n"
-	.string "corto al lado del de MEGA SHARPEDO, su\l"
-	.string "ofensiva es tremendamente\l"
-	.string "desbordante, más teniendo en cuenta\l"
-	.string "su acceso a IMPULSO como SHARPEDO\l"
-	.string "normal. A pesar de no ser su fuerte,\l"
-	.string "logra también unas dignas defensas de\l"
-	.string "70/90/90 en PS/DEF/DEF.ESP.$"
+	.string "MEGA GYARADOS's CRUSH falls short\n"
+	.string "compared to MEGA SHARPEDO's, its\l"
+	.string "offensive power is tremendously\l"
+	.string "overwhelming, especially considering\l"
+	.string "its access to SPEED BOOST like regular\l"
+	.string "SHARPEDO. Despite not being its forte,\l"
+	.string "it also manages some respectable\l"
+	.string "defenses of 70/90/90 in HP/DEF/SP.\l"
+	.string "DEF.$"
 
 
 
@@ -261,24 +259,24 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_108:
-	.string "ALTARIA-MEGA\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 115\l"
-	.string "DEFENSA: 115\l"
-	.string "ATAQUE ESPECIAL: 115\l"
-	.string "DEFENSA ESPECIAL: 135\l"
-	.string "VELOCIDAD: 85\l"
+	.string "MEGA ALTARIA:\p"
+	.string "HP: 75\n"
+	.string "ATTACK: 115\l"
+	.string "DEFENSE: 115\l"
+	.string "SPECIAL ATTACK: 115\l"
+	.string "SPECIAL DEFENSE: 135\l"
+	.string "SPEED: 85\l"
 	.string "TOTAL: 640\p"
-    .string "Con movimientos como RIZO ALGODÓN,\n"
-	.string "DANZA DRAGÓN, CAMPANA CURA y RESPIRO,\l"
-	.string "las posibilidades de este POKÉMON son\l"
-	.string "muchas. El enorme equilibrio en todos\l"
-	.string "sus stats, su condición de TIPO HADA y\l"
-	.string "gran movepool que cubre todas sus\l"
-	.string "debilidades le convierten en una de las\l"
-	.string "MEGAS más fiables, aunque sin la\l"
-	.string "capacidad de desbordar que otras\l"
-	.string "tienen.$"
+	.string "With moves like COTTON GUARD, DRAGON\n"
+	.string "DANCE, HEAL BELL, and ROOST, the\l"
+	.string "possibilities for this POKÉMON are\l"
+	.string "numerous. The significant balance in all\l"
+	.string "its stats, its FAIRY TYPE condition, and\l"
+	.string "a vast movepool covering all its\l"
+	.string "weaknesses make it one of the most\l"
+	.string "reliable MEGAS, although lacking the\l"
+	.string "overwhelming capability that others\l"
+	.string "possess.$"
 
 
 
@@ -292,13 +290,13 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_109:
-	.string "BANETTE-MEGA\p"
-	.string "PS: 64\n"
-	.string "ATAQUE: 165\l"
-	.string "DEFENSA: 93\l"
-	.string "ATAQUE ESPECIAL: 75\l"
-	.string "DEFENSA ESPECIAL: 83\l"
-	.string "VELOCIDAD: 75\l"
+	.string "MEGA BANETTE:\p"
+	.string "HP: 64\n"
+	.string "ATTACK: 165\l"
+	.string "DEFENSE: 93\l"
+	.string "SPECIAL ATTACK: 75\l"
+	.string "SPECIAL DEFENSE: 83\l"
+	.string "SPEED: 75\l"
 	.string "TOTAL: 555\p"
     .string "Pone en peligro a cualquier POKÉMON\n"
 	.string "enemigo, gracias a su combo\l"
@@ -322,24 +320,23 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_110:
-	.string "LATIOS-MEGA\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 130\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 160\l"
-	.string "DEFENSA ESPECIAL: 120\l"
-	.string "VELOCIDAD: 110\l"
+	.string "MEGA LATIOS:\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 130\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 160\l"
+	.string "SPECIAL DEFENSE: 120\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 700\p"
-    .string "Una de las mejores combinaciones\n"
-	.string "ATAQUE ESPECIAL-VELOCIDAD (160-110)\l"
-	.string "que existen, manteniendo además una\l"
-	.string "buena capacidad defensiva. Su acceso\l"
-	.string "a FUEGO MÍSTICO le dio la cobertura que\l"
-	.string "necesitaba frente al TIPO ACERO,\l"
-	.string "pudiendo hacer uso de COMETA DRACO a\l"
-	.string "plena potencia, sus opciones son muy\l"
-	.string "amplias, incluso por un lado físico en\l"
-	.string "el que cuenta con el mismo ATAQUE que\l"
+	.string "One of the best SPECIAL ATTACK-SPEED\n"
+	.string "combinations (160-110) that exist,\l"
+	.string "while also maintaining good defensive\l"
+	.string "capability. Its access to MYSTICAL\l"
+	.string "FIRE provided the coverage it needed\l"
+	.string "against STEEL TYPE, being able to use\l"
+	.string "DRACO METEOR at full power; its options\l"
+	.string "are very broad, even on the physical\l"
+	.string "side where it boasts the same ATTACK as\l"
 	.string "GARCHOMP.$"
 
 
@@ -354,26 +351,25 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_111:
-	.string "LATIAS-MEGA\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 100\l"
-	.string "DEFENSA: 120\l"
-	.string "ATAQUE ESPECIAL: 140\l"
-	.string "DEFENSA ESPECIAL: 150\l"
-	.string "VELOCIDAD: 110\l"
+	.string "MEGA LATIAS:\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 100\l"
+	.string "DEFENSE: 120\l"
+	.string "SPECIAL ATTACK: 140\l"
+	.string "SPECIAL DEFENSE: 150\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 700\p"
-    .string "Un LEGENDARIO común con números de\n"
-	.string "LEGENDARIO MAYOR, si eliminamos sus\l"
-	.string "100 de BASE en ATAQUE, el resto de sus\l"
-	.string "5 STATS útiles dan una media de 120\l"
-	.string "puntos, misma media que el propio\l"
-	.string "ARCEUS en sus 6 STATS. A pesar de ello,\l"
-	.string "se suele tener en mayor valor\l"
-	.string "competitivo a su hermano LATIOS-M,\l"
-	.string "que, a pesar de desperdiciar STATS en\l"
-	.string "ATAQUE (130), la diferencia que supone\l"
-	.string "contar con un ATAQUE ESPECIAL de 160\l"
-	.string "es muy grande.$"
+	.string "A regular LEGENDARY with stats akin to\n"
+	.string "those of a top-tier LEGENDARY;\l"
+	.string "excluding its 100 BASE ATTACK, its\l"
+	.string "remaining 5 useful STATS average\l"
+	.string "around 120 points, the same as ARCEUS\l"
+	.string "across its 6 STATS. Nonetheless, its\l"
+	.string "sibling M LATIOS often holds greater\l"
+	.string "competitive value, given the\l"
+	.string "substantial disparity resulting from\l"
+	.string "having a SPECIAL ATTACK of 160 despite\l"
+	.string "wasting STATS on ATTACK (130).$"
 
 
 
@@ -387,23 +383,22 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_112:
-	.string "GARCHOMP-MEGA\p"
-	.string "PS: 108\n"
-	.string "ATAQUE: 170\l"
-	.string "DEFENSA: 115\l"
-	.string "ATAQUE ESPECIAL: 120\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 92\l"
+	.string "MEGA GARCHOMP:\p"
+	.string "HP: 108\n"
+	.string "ATTACK: 170\l"
+	.string "DEFENSE: 115\l"
+	.string "SPECIAL ATTACK: 120\l"
+	.string "SPECIAL DEFENSE: 95\l"
+	.string "SPEED: 92\l"
 	.string "TOTAL: 700\p"
-    .string "Algunos sostienen que su bajada en\n"
-	.string "VELOCIDAD jamás compensó el +110 en\l"
-	.string "sus otros 5 STATS. Su HABILIDAD le\l"
-	.string "convierte en una máquina de\l"
-	.string "destrucción bajo la arena, de un\l"
-	.string "AFILARGARRAS podrá hacer uso de CARGA\l"
-	.string "DRAGÓN, COLA FÉRREA y ROCA AFILADA sin\l"
-	.string "fallar, los últimos 2 con un +30% de\l"
-	.string "potencia en TORMENTA ARENA.$"
+	.string "Some argue that its decrease in SPEED\n"
+	.string "never compensated for the +110 in its\l"
+	.string "other 5 STATS. Its ABILITY turns it\l"
+	.string "into a destruction machine under the\l"
+	.string "sandstorm, where with HONE CLAWS it can\l"
+	.string "utilize DRAGON RUSH, IRON TAIL, and\l"
+	.string "STONE EDGE without fail, the latter two\l"
+	.string "with a +30% power boost in SANDSTORM.$"
 
 
 
@@ -417,24 +412,24 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_113:
-	.string "AUDINO-MEGA\p"
-	.string "PS: 103\n"
-	.string "ATAQUE: 60\l"
-	.string "DEFENSA: 126\l"
-	.string "ATAQUE ESPECIAL: 80\l"
-	.string "DEFENSA ESPECIAL: 126\l"
-	.string "VELOCIDAD: 50\l"
+	.string "MEGA AUDINO:\p"
+	.string "HP: 103\n"
+	.string "ATTACK: 60\l"
+	.string "DEFENSE: 126\l"
+	.string "SPECIAL ATTACK: 80\l"
+	.string "SPECIAL DEFENSE: 126\l"
+	.string "SPEED: 50\l"
 	.string "TOTAL: 545\p"
-	.string "POKÉMON de grandes virtudes\n"
-	.string "defensivas, su dual NORMAL/HADA le\l"
-	.string "proporciona 2 inmunidades, al FANTASMA\l"
-	.string "y DRAGÓN. Gran usuario de DESEO y\l"
-	.string "CAMPANA CURA, generar daño directo no\l"
-	.string "es su punto fuerte. Será de los\l"
-	.string "POKÉMON más complicados de rematar,\l"
-	.string "gracias a su HABILIDAD, REGENERACÍON,\l"
-	.string "que les restaura 1/3 de sus PS cada\l"
-	.string "vez que regresa a la POKÉ BALL.$"
+	.string "A POKÉMON with great defensive virtues,\n"
+	.string "its NORMAL/FAIRY dual type provides it\l"
+	.string "with 2 immunities to GHOST and DRAGON\l"
+	.string "types. A great user of WISH and HEAL\l"
+	.string "BELL, dealing direct damage is not its\l"
+	.string "strong suit. It will be one of the most\l"
+	.string "challenging POKÉMON to take down,\l"
+	.string "thanks to its ABILITY, REGENERATOR,\l"
+	.string "which restores 1/3 of its HP every time\l"
+	.string "it returns to its POKÉ BALL.$"
 
 
 
@@ -448,25 +443,25 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_114:
-    .string "DIANCE-MEGA\p"
-	.string "PS: 50\n"
-	.string "ATAQUE: 160\l"
-	.string "DEFENSA: 110\l"
-	.string "ATAQUE ESPECIAL: 160\l"
-	.string "DEFENSA ESPECIAL: 110\l"
-	.string "VELOCIDAD: 110\l"
+    .string "MEGA DIANCIE:\p"
+	.string "HP: 50\n"
+	.string "ATTACK: 160\l"
+	.string "DEFENSE: 110\l"
+	.string "SPECIAL ATTACK: 160\l"
+	.string "SPECIAL DEFENSE: 110\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 700\p"
-	.string "POKÉMON de STATS más que singulares,\n"
-	.string "con solo 50 en PS, el resto de sus 5\l"
-	.string "STATS dan como media unos increíbles\l"
-	.string "130 puntos, destacando ambos 160\l"
-	.string "tanto en ATAQUE como en ATAQUE\l"
-	.string "ESPECIAL. Gracias a ESPEJOMÁGICO,\l"
-	.string "podrá atacar sin miedo a cambios de\l"
-	.string "estado, haciendo uso de FUERZA LUNAR y\l"
-	.string "TORMENTA DE DIAMANTES por STAB. Es\l"
-	.string "uno de los 5 mejores atacantes mixtos\l"
-	.string "que existen.$"
+	.string "This POKÉMON boasts STATS that are\n"
+	.string "truly unique, with only 50 in HP, yet\l"
+	.string "averaging an astonishing 130 points\l"
+	.string "across its remaining 5 STATS, notably\l"
+	.string "with both ATTACK and SPECIAL ATTACK\l"
+	.string "reaching 160 each. With its ABILITY,\l"
+	.string "MAGIC BOUNCE, it can launch attacks\l"
+	.string "without fear of status changes, using\l"
+	.string "moves like MOONBLAST and DIAMOND\l"
+	.string "STORM by STAB. It is considered one of\l"
+	.string "the top 5 mixed attackers in the game.$"
 
 
 BaseRocketHoennS3Documento_115::
@@ -479,26 +474,25 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_115:
-    .string "MEWTWO-X\p"
-	.string "PS: 106\n"
-	.string "ATAQUE: 190\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 154\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 130\l"
+    .string "MEWTWO-X:\p"
+	.string "HP: 106\n"
+	.string "ATTACK: 190\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 154\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 130\l"
 	.string "TOTAL: 780\p"
-	.string "TIPO: PSÍQUICO/LUCHA\n"
-	.string "HABILIDAD: POTENCIA BRUTA\l"
-	.string "Logró superar el tope en ATAQUE de\l"
-	.string "DEOXYS (180), gracias al estudio de las\l"
-	.string "fibras musculares de HERACROSS-M,\l"
-	.string "dejando el límite en 190 puntos. Su\l"
-	.string "mayor problema es la falta de\l"
-	.string "movimientos de potencia (a espera de\l"
-	.string "actualización con PATADA S.ALTA), a\l"
-	.string "pesar de ello, y a diferencia de\l"
-	.string "MEWTWO-Y, logramos estabilizar sus\l"
-	.string "cualidades defensivas.$"
+	.string "TYPE: PSYCHIC/FIGHTING\n"
+	.string "ABILITY: SHEER FORCE\l"
+	.string "It managed to surpass the ATTACK cap\l"
+	.string "of DEOXYS (180), thanks to the study of\l"
+	.string "the muscle fibers of M-HERACROSS,\l"
+	.string "setting the limit at 190 points. Its\l"
+	.string "main issue is the lack of high-powered\l"
+	.string "moves (pending an update with HIGH\l"
+	.string "JUMP KICK), yet unlike MEWTWO-Y, we've\l"
+	.string "succeeded in stabilizing its defensive\l"
+	.string "attributes.$"
 
 
 
@@ -512,27 +506,27 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_116:
-    .string "MEWTWO-Y\p"
-	.string "PS: 106\n"
-	.string "ATAQUE: 150\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 194\l"
-	.string "DEFENSA ESPECIAL: 120\l"
-	.string "VELOCIDAD: 140\l"
+    .string "MEWTWO-Y:\p"
+	.string "HP: 106\n"
+	.string "ATTACK: 150\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 194\l"
+	.string "SPECIAL DEFENSE: 120\l"
+	.string "SPEED: 140\l"
 	.string "TOTAL: 780\p"
-	.string "TIPO: PSÍQUICO\n"
-	.string "HABILIDAD: PSICOGÉNESIS\l"
-	.string "Logró superar el tope en AT.ESPECIAL de\l"
-	.string "DEOXYS (180); gracias al descubrimiento\l"
-	.string "del VOLCARONA-&, que amplificó\l"
-	.string "nuestros conocimientos sobre este\l"
-	.string "STAT, y permitiendo dejar el límite en\l"
-	.string "194. A pesar de intentar reducir su\l"
-	.string "ATAQUE FÍSICO para un reparto más\l"
-	.string "eficiente, fue imposible controlar sus\l"
-	.string "impulsos ofensivos, de forma que,\l"
-	.string "inevitablemente, su DEFENSA FÍSICA\l"
-	.string "cayó hasta los 70 puntos.$"
+	.string "TYPE: PSYCHIC\n"
+	.string "ABILITY: PSYCHIC SURGE\l"
+	.string "Surpassing DEOXYS's SPECIAL ATTACK\l"
+	.string "cap (180) was achieved through the\l"
+	.string "discovery of VOLCARONA-&, which\l"
+	.string "expanded our knowledge of this STAT,\l"
+	.string "enabling us to set the limit at 194.\l"
+	.string "Despite attempts to reduce its\l"
+	.string "PHYSICAL ATTACK for a more even\l"
+	.string "distribution, controlling its offensive\l"
+	.string "instincts proved futile, resulting in an\l"
+	.string "inevitable decrease in its PHYSICAL\l"
+	.string "DEFENSE to 70 points.$"
 
 
 
@@ -548,25 +542,24 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_117:
-    .string "ZAPDOS-PRIMIGENIO\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 85\l"
-	.string "DEFENSA: 100\l"
-	.string "ATAQUE ESPECIAL: 175\l"
-	.string "DEFENSA ESPECIAL: 100\l"
-	.string "VELOCIDAD: 130\l"
+    .string "PRIMAL ZAPDOS:\p"
+	.string "HP: 90\n"
+	.string "ATTACK: 85\l"
+	.string "DEFENSE: 100\l"
+	.string "SPECIAL ATTACK: 175\l"
+	.string "SPECIAL DEFENSE: 100\l"
+	.string "SPEED: 130\l"
 	.string "TOTAL: 680\p"
-	.string "TIPO: ELÉCTRICO/SINIESTRO\n"
-	.string "HABILIDAD: ELECTROGÉNESIS\l"
-	.string "Se mantiene como el AVE LEGENDARIA de\l"
-	.string "mayor poder ofensivo, también en sus\l"
-	.string "FORMAS PRIMIGENIAS. Con acceso al\l"
-	.string "FURIA CANDENTE de MOLTRES GALAR,\l"
-	.string "junto con RAYO pegará duro por STAB.\l"
-	.string "Gracias a ELECTROGÉNESIS, sus descar-\l"
-	.string "gas eléctricas se convierten en las\l"
-	.string "más poderosas conocidas en el MUNDO\l"
-	.string "POKÉMON.$"
+	.string "TYPE: ELECTRIC/DARK\n"
+	.string "ABILITY: ELECTRIC SURGE\l"
+	.string "It remains the most powerful offensive\l"
+	.string "LEGENDARY BIRD, even in its PRIMAL\l"
+	.string "FORMS. With access to GALAR MOLTRES's\l"
+	.string "FIERY WRATH, along with THUNDERBOLT, it\l"
+	.string "will hit hard with STAB. Only weak to\l"
+	.string "FIGHTING and FAIRY types thanks to\l"
+	.string "LEVITATE, it has perfect coverage\l"
+	.string "against the first one with AEROBLAST.$"
 
 
 
@@ -582,22 +575,22 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_118:
-    .string "NINETALES-&\p"
-	.string "PS: 83\n"
-	.string "ATAQUE: 57\l"
-	.string "DEFENSA: 85\l"
-	.string "ATAQUE ESPECIAL: 121\l"
-	.string "DEFENSA ESPECIAL: 140\l"
-	.string "VELOCIDAD: 129\l"
+    .string "NINETALES-&:\p"
+	.string "HP: 83\n"
+	.string "ATTACK: 57\l"
+	.string "DEFENSE: 85\l"
+	.string "SPECIAL ATTACK: 121\l"
+	.string "SPECIAL DEFENSE: 140\l"
+	.string "SPEED: 129\l"
 	.string "TOTAL: 615\p"
-	.string "TIPO: FUEGO/FANTASMA\n"
-	.string "HABILIDAD: PELAJE RECIO\l"
-	.string "Elevó drásticamente su poder, después\l"
-	.string "de que su ENTRENADOR compartiera la\l"
-	.string "carga de una poderosa maldición. Dicha\l"
-	.string "maldición endureció y aclaró aún más su\l"
-	.string "piel (PELAJE RECIO), volviéndola casi\l"
-	.string "impenetrable.$"
+	.string "TYPE: FIRE/GHOST\n"
+	.string "ABILITY: FUR COAT\l"
+	.string "Its potency experienced a drastic\l"
+	.string "increase after its TRAINER bore the\l"
+	.string "burden of a potent curse alongside it.\l"
+	.string "This curse toughened and clarified its\l"
+	.string "skin further (FUR COAT), making it\l"
+	.string "nearly invulnerable.$"
 
 
 
@@ -613,27 +606,25 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_119:
-    .string "GOODRA-&\p"
-	.string "PS: 100\n"
-	.string "ATAQUE: 120\l"
-	.string "DEFENSA: 120\l"
-	.string "ATAQUE ESPECIAL: 130\l"
-	.string "DEFENSA ESPECIAL: 210\l"
-	.string "VELOCIDAD: 30\l"
+    .string "GOODRA-&:\p"
+	.string "HP: 100\n"
+	.string "ATTACK: 120\l"
+	.string "DEFENSE: 120\l"
+	.string "SPECIAL ATTACK: 130\l"
+	.string "SPECIAL DEFENSE: 210\l"
+	.string "SPEED: 30\l"
 	.string "TOTAL: 710\p"
-	.string "TIPO: DRAGÓN/VENENO\n"
-	.string "HABILIDAD: RESPONDÓN\l"
-	.string "El grado de viscosidad en su cuerpo le\l"
-	.string "hace absorber la mayor parte de los\l"
-	.string "golpes, de ahí su desproporcionada\l"
-	.string "DEFENSA ESPECIAL (210). Causa un\l"
-	.string "efecto desalentador en sus enemigos\l"
-	.string "porque, a pesar de poder golpearlo dada\l"
-	.string "su VELOCIDAD, es casi imposible de\l"
-	.string "tumbar, y responderá con contundentes\l"
-	.string "movimientos DRAGÓN y VENENO que\l"
-	.string "dejarán en insignificantes los de su\l"
-	.string "rival.$"
+	.string "TYPE: DRAGON/POISON\n"
+	.string "ABILITY: CONTRARY\l"
+	.string "Its body's viscosity enables it to\l"
+	.string "absorb most blows, resulting in its\l"
+	.string "remarkable SPECIAL DEFENSE (210). This\l"
+	.string "unnerves its foes because, despite\l"
+	.string "being vulnerable to strikes due to its\l"
+	.string "SPEED, it's incredibly difficult to bring\l"
+	.string "down. It responds with potent DRAGON\l"
+	.string "and POISON moves that overshadow\l"
+	.string "those of its adversary.$"
 
 
 
@@ -649,24 +640,23 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_120:
-    .string "FERALIGATR-&\p"
-	.string "PS: 95\n"
-	.string "ATAQUE: 165\l"
-	.string "DEFENSA: 130\l"
-	.string "ATAQUE ESPECIAL: 64\l"
-	.string "DEFENSA ESPECIAL: 88\l"
-	.string "VELOCIDAD: 103\l"
+    .string "FERALIGATR-&:\p"
+	.string "HP: 95\n"
+	.string "ATTACK: 165\l"
+	.string "DEFENSE: 130\l"
+	.string "SPECIAL ATTACK: 64\l"
+	.string "SPECIAL DEFENSE: 88\l"
+	.string "SPEED: 103\l"
 	.string "TOTAL: 645\p"
-	.string "TIPO: AGUA/SINIESTRO\n"
-	.string "HABILIDAD: MAND.FUERTE\l"
-	.string "Su voracidad no conoce límites, es\l"
-	.string "sabido que el ADMIN.JEFE ATLAS emplea\l"
-	.string "manadas de GYARADOS para mantenerlo\l"
-	.string "en forma. Estos acaban siendo presas\l"
-	.string "de un TRITURAR que con MAND.F +\l"
-	.string "VIDASFERA excede en capacidad\l"
-	.string "destructiva a los TRITURAR de\l"
-	.string "GYARADOS-MEGA y SHARPEDO-MEGA.$"
+	.string "TYPE: WATER/DARK\n"
+	.string "ABILITY: STRONG JAW\l"
+	.string "Its voracity is limitless, as it is known\l"
+	.string "that CHIEF ADMIN. ARCHER employs herds\l"
+	.string "of GYARADOS to keep it in shape. These\l"
+	.string "end up being prey to a CRUNCH enhanced\l"
+	.string "by SHEER FORCE + LIFE ORB, surpassing\l"
+	.string "in destructive capacity the CRUNCH of\l"
+	.string "MEGA GYARADOS and MEGA SHARPEDO.$"
 
 BaseRocketHoennS3Documento_121::
 lock
@@ -680,26 +670,27 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_121:
-    .string "CRADILY-Y\p"
-	.string "PS: 86\n"
-	.string "ATAQUE: 41\l"
-	.string "DEFENSA: 137\l"
-	.string "ATAQUE ESPECIAL: 111\l"
-	.string "DEFENSA ESPECIAL: 167\l"
-	.string "VELOCIDAD: 53\l"
+    .string "CRADILY-Y:\p"
+	.string "HP: 86\n"
+	.string "ATTACK: 41\l"
+	.string "DEFENSE: 137\l"
+	.string "SPECIAL ATTACK: 111\l"
+	.string "SPECIAL DEFENSE: 167\l"
+	.string "SPEED: 53\l"
 	.string "TOTAL: 595\p"
-	.string "TIPO: PLANTA/ROCA\n"
-	.string "HABILIDAD: ROCA SÓLIDA\l"
-	.string "La reducción de 40 puntos en ATAQUE\l"
-	.string "La reducción de 40 puntos en ATAQUE\l"
-	.string "permitió invertir 140 en sus otros 5\l"
-	.string "STATS, desarrolló una monstruosa\l"
-	.string "DEF.ESPECIAL (167). Superando a LUGIA\l"
-	.string "en ambas defensas, también supera a\l"
-	.string "HO-OH en ATAQUE ESPECIAL, causando\l"
-	.string "buen daño con GIGADRENADO. Si logra\l"
-	.string "boostearse con PODER PASADO, será\l"
-	.string "prácticamente imposible tumbarle.$"
+	.string "TYPE: GRASS/ROCK\n"
+	.string "ABILITY: SOLID ROCK\l"
+	.string "The reduction of 40 points in ATTACK\n"
+	.string "allowed for an investment of 140 points\l"
+	.string "in its other 5 STATS, resulting in a\l"
+	.string "monstrous SPECIAL DEFENSE (167).\l"
+	.string "Surpassing LUGIA in both defenses, it\l"
+	.string "also exceeds HO-OH in SPECIAL ATTACK,\l"
+	.string "dealing significant damage with GIGA\l"
+	.string "DRAIN. If it manages to boost itself\l"
+	.string "with ANCIENT POWER, it will be\l"
+	.string "practically impossible to knock down.$"
+
 
 BaseRocketHoennS3Documento_122::
 lock
@@ -713,28 +704,28 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_122:
-    .string "SUICUNE-&\p"
-	.string "PS: 110\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 145\l"
-	.string "ATAQUE ESPECIAL: 110\l"
-	.string "DEFENSA ESPECIAL: 155\l"
-	.string "VELOCIDAD: 95\l"
+    .string "SUICUNE-&:\p"
+	.string "HP: 110\n"
+	.string "ATTACK: 75\l"
+	.string "DEFENSE: 145\l"
+	.string "SPECIAL ATTACK: 110\l"
+	.string "SPECIAL DEFENSE: 155\l"
+	.string "SPEED: 95\l"
 	.string "TOTAL: 645\p"
-	.string "TIPO: AGUA/HADA\n"
-	.string "HABILIDAD: PIEL FEÉRICA\l"
-	.string "Llevamos a tal nivel su exposición a la\l"
-	.string "radiación y ondas de radio, que acabó\l"
-	.string "chocando con su antagónico: la máxima\l"
-	.string "pureza. Con el TIPO HADA como\l"
-	.string "secundario, logramos el tan buscado\l"
-	.string "combo de PIEL FEÉRICA + ESTRUENDO,\l"
-	.string "golpeando así, con 110 en ATAQUE\l"
-	.string "ESPECIAL, más duro que varios con 150\l"
-	.string "en este stat. Si tenemos también en\l"
-	.string "cuenta sus extraordinarias defensas,\l"
-	.string "es una de las mejores máquinas de\l"
-	.string "combate jamás creadas.$"
+	.string "TYPE: WATER/FAIRY\n"
+	.string "ABILITY: PIXILATE\l"
+	.string "We elevated its exposure to radiation\l"
+	.string "and radio waves to unprecedented\l"
+	.string "levels, leading to a collision with its\l"
+	.string "antithesis: absolute purity. With FAIRY\l"
+	.string "TYPE as its secondary, we achieved the\l"
+	.string "coveted combo of PIXILATE +\l"
+	.string "BOOMBURST, allowing it to hit with 110 in\l"
+	.string "SPECIAL ATTACK, hitting harder than\l"
+	.string "many with 150 in this stat. Considering\l"
+	.string "its exceptional defenses as well, it\l"
+	.string "ranks among the best combat machines\l"
+	.string "ever created.$"
 
 BaseRocketHoennS3Documento_123::
 lock
@@ -748,24 +739,24 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_123:
-.string "GHOST-PRIMIGENIO\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 80\l"
-	.string "DEFENSA: 80\l"
-	.string "ATAQUE ESPECIAL: 205\l"
-	.string "DEFENSA ESPECIAL: 150\l"
-	.string "VELOCIDAD: 135\l"
+.string "P-GHOST:\p"
+	.string "HP: 90\n"
+	.string "ATTACK: 80\l"
+	.string "DEFENSE: 80\l"
+	.string "SPECIAL ATTACK: 205\l"
+	.string "SPECIAL DEFENSE: 150\l"
+	.string "SPEED: 135\l"
 	.string "TOTAL: 740\p"
-	.string "TIPO: NORMAL/FANTASMA\n"
-	.string "HABILIDAD: AURA OSCURA\l"
-	.string "El espíritu más antiguo y poderoso de\l"
-	.string "PUEBLO LAVANDA, que entró en ira tras\l"
-	.string "la demolición de su TORRE POKÉMON. Sus\l"
-	.string "poderes mentales son inabordables para\l"
-	.string "cualquier POKÉMON, incluso las formas\l"
-	.string "de MEWTWO. Como consecuencia de ello,\l"
-	.string "posee el ATAQUE ESPECIAL más alto\l"
-	.string "registrado (205).$"
+	.string "TYPE: NORMAL/GHOST\n"
+	.string "ABILITY: DARK AURA\l"
+	.string "The oldest and most powerful spirit of\l"
+	.string "LAVENDER TOWN, which became enraged\l"
+	.string "after the demolition of its POKÉMON\l"
+	.string "TOWER. Its mental powers are\l"
+	.string "unfathomable to any POKÉMON, even the\l"
+	.string "forms of MEWTWO. As a result, it\l"
+	.string "possesses the highest recorded\l"
+	.string "SPECIAL ATTACK (205).$"
 
 BaseRocketHoennS3Documento_124::
 lock
@@ -779,26 +770,24 @@ release
 end
 
 BaseRocketHoennS3Documento_Text_124:
-.string "TOXTRICITY-MEGA\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 78\l"
-	.string "DEFENSA: 85\l"
-	.string "ATAQUE ESPECIAL: 154\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 115\l"
+.string "MEGA TOXTRICITY:\p"
+	.string "HP: 75\n"
+	.string "ATTACK: 78\l"
+	.string "DEFENSE: 85\l"
+	.string "SPECIAL ATTACK: 154\l"
+	.string "SPECIAL DEFENSE: 95\l"
+	.string "SPEED: 115\l"
 	.string "TOTAL: 602\p"
-	.string "TIPO: ELÉCTRICO/VENENO\n"
-	.string "HABILIDAD: PUNK ROCK\l"
-	.string "Desarrollado en extrañas\l"
-	.string "circunstancias, fue aportada por el\l"
-	.string "ADMINISTRADOR PETREL recientemente.\l"
-	.string "Su capacidad de pegada con\l"
-	.string "AMPLIFICADOR es impresionante. A pesar\l"
-	.string "de su lejano origen, tanto su\l"
-	.string "combinación de tipos como diseño\l"
-	.string "captan a la perfección la esencia de la\l"
-	.string "vieja KANTO y del TEAM ROCKET de las\l"
-	.string "calles.$"
+	.string "TYPE: ELECTRIC/POISON\n"
+	.string "ABILITY: PUNK ROCK\l"
+	.string "Developed under strange\l"
+	.string "circumstances, it was recently\l"
+	.string "contributed by ADMINISTRATOR PETREL.\l"
+	.string "Its striking ability with OVERDRIVE is\l"
+	.string "impressive. Despite its distant origin,\l"
+	.string "both its type combination and design\l"
+	.string "perfectly capture the essence of old\l"
+	.string "KANTO and the street-wise TEAM ROCKET.$"
 
 BaseRocketHoennS3_Primer_Ejecutivo::
 lock
@@ -808,12 +797,12 @@ release
 end
 
 BaseRocketHoennS3_Primer_Ejecutivo_Texto_1:
-.string "Discúlpeme SIR. El piso inferior está\n"
-	.string "aún en obras, en él introduciremos los\l"
-	.string "datos de todos los nuevos POKÉMON que\l"
-	.string "no quepan aquí. El mundo es muy amplio,\l"
-	.string "seguro que con esta sala no es\l"
-	.string "suficiente. ¿No cree?$"
+	.string "I apologize, SIR. The lower floor is still\n"
+	.string "under construction, and we'll be\l"
+	.string "inputting the data of all the new\l"
+	.string "POKÉMON that don't fit here. The world\l"
+	.string "is incredibly vast; surely, this room\l"
+	.string "isn't enough. Don't you think so?$"
 
 BaseRocketHoennS3_Informe_Megas::
 lock
@@ -822,8 +811,8 @@ release
 end
 
 BaseRocketHoennS3_Informe_Megas_Texto_1:
-.string "MEGAEVOLUCIONES DESCUBIERTAS\n"
-	.string "RECIENTEMENTE$"
+.string "RECENTLY DISCOVERED\n"
+	.string "MEGA EVOLUTIONS$"
 
 BaseRocketHoennS3_Informe_Vinculo::
 lock
@@ -832,7 +821,7 @@ release
 end
 
 BaseRocketHoennS3_Informe_Vinculo_Texto_1:
-.string "NUEVOS FUERTE VÍNCULO Y PRIMIGENIOS$"
+.string "NEW DEEP BONDS AND PRIMAL FORMS$"
 
 BaseRocketHoennS3_Informe_Antiguos::
 lock
@@ -841,7 +830,7 @@ release
 end
 
 BaseRocketHoennS3_Informe_Antiguos_Texto_1:
-.string "ANTIGUOS POKÉMON DE JOHTO$"
+.string "JOHTO'S ANCIENT POKÉMON$"
 
 BaseRocketHoennS3_Informe_Experimentos::
 lock
@@ -850,7 +839,7 @@ release
 end
 
 BaseRocketHoennS3_Informe_Experimentos_Texto_1:
-.string "NUEVOS EXPERIMENTOS Y PROTOTIPOS$"
+.string "NEW EXPERIMENTS AND PROTOTYPES$"
 
 BaseRocketHoennS3_Primer_Cientifico::
 lock
@@ -860,12 +849,12 @@ release
 end
 
 BaseRocketHoennS3_Primer_Cientifico_Texto_1:
-.string "La variedad en los STATS de los\n"
-	.string "antiguos POKÉMON de JOHTO es\l"
-	.string "fascinante. Hoy en día son mucho más\l"
-	.string "regulares y predecibles, quizás por\l"
-	.string "carecer de las salvajes condiciones de\l"
-	.string "antaño.$"
+	.string "The diversity in the STATS of the\n"
+	.string "ancient JOHTO POKÉMON is fascinating.\l"
+	.string "Nowadays, they are much more uniform\l"
+	.string "and predictable, perhaps because they\l"
+	.string "lack the untamed conditions of the\l"
+	.string "past.$"
 
 BillGarden_Poste::
 lock
@@ -927,9 +916,9 @@ release
 end
 
 BaseRocketHoennS3_Segundo_Cientifico_Texto_1:
-.string "A la gente no le gusta que le pidas\n"
-	.string "ayuda; también se siente excluida\l"
-	.string "cuando no se la pides.$"
+	.string "People dislike being asked for help;\n"
+	.string "they also feel excluded when they're\l"
+	.string "not asked.$"
 
 BaseRocketHoennS3_Tercer_Cientifico::
 lock
@@ -939,11 +928,10 @@ release
 end
 
 BaseRocketHoennS3_Tercer_Cientifico_Texto_1:
-.string "El hecho de exigir una MEGAPIEDRA para\n"
-	.string "activar la MEGAEVOLUCIÓN es un gran\l"
-	.string "hándicap. En ese sentido un FUERTE\l"
-	.string "VÍNCULO o POKÉMON ARTIFICIAL cuentan\l"
-	.string "con ventaja.$"
+	.string "Requiring a MEGA STONE to activate\n"
+	.string "MEGA EVOLUTION is a significant\l"
+	.string "handicap. In this regard, a DEEP BOND or\l"
+	.string "ARTIFICIAL POKÉMON have an advantage.$"
 
 BaseRocketHoennS3_Cuarto_Cientifico::
 lock
@@ -953,9 +941,9 @@ release
 end
 
 BaseRocketHoennS3_Cuarto_Cientifico_Texto_1:
-.string "Estamos en el S6 de esta, nuestra base\n"
-	.string "principal. ¿Cuántos pisos más se harán\l"
-	.string "hacia abajo? Nadie lo sabe.$"
+	.string "We're on the B6F of our main base. How\n"
+	.string "many more floors will be built downward?\l"
+	.string "No one knows.$"
 
 BaseRocketHoennS3_Quinto_Cientifico::
 lock
@@ -965,11 +953,11 @@ release
 end
 
 BaseRocketHoennS3_Quinto_Cientifico_Texto_1:
-.string "Cuando no puedas ganar por ser mejor,\n"
-	.string "puedes ganar por ser diferente. Al\l"
-	.string "combinar tus habilidades, reduces la\l"
-	.string "cantidad de competencia, lo cual hace\l"
-	.string "que sea más fácil destacar.$"
+	.string "When you can't win by being better, you\n"
+	.string "can win by being different. By combining\l"
+	.string "your skills, you reduce the amount of\l"
+	.string "competition, making it easier to stand\l"
+	.string "out.$"
 
 BaseRocketHoennS3Documento_Wartillery::
 lock
