@@ -6083,13 +6083,13 @@ static void Task_MysteryGift(u8 taskId)
         switch (MysteryGift_HandleThreeOptionMenu(&data->textState, &data->var, FALSE))
         {
         case 0: // "Wonder Cards"
-                data->state = PRUEBA; //KANTO
+                data->state = MG_STATE_EXIT; //KANTO
             break;
         case 1: // "Wonder News"    // SEVII
-                data->state = SEVII1;
+                data->state = MG_STATE_EXIT;
 				break;
 		case 2: //JOHTO
-			data->state = JOHTO;
+			data->state = MG_STATE_EXIT;
 				break;
         case LIST_CANCEL:
             data->state = MG_STATE_EXIT;
