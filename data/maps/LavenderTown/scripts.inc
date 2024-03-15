@@ -488,26 +488,25 @@ LavenderTown_Cierre_Torre_Texto_16:
 .string "FUJI: …$"
 
 LavenderTown_Cierre_Torre_Texto_17:
-.string "BILL: ¡Si esa anciana supiera lo que\n"
-	.string "vamos a montar dentro de la nueva\l"
-	.string "TORRE RADIO! ¡Se hubiera ido aún más\l"
-	.string "disgustada!$"
+	.string "BILL: If that old lady only knew what\n"
+	.string "we're going to set up inside the new\l"
+	.string "RADIO TOWER! She would have left even\l"
+	.string "more disgusted!$"
 
 LavenderTown_Cierre_Torre_Texto_18:
-.string "ATLAS: Muestra más respeto y sé más\n"
-	.string "discreto, BILL. No te hemos contratado\l"
-	.string "para que te vayas de la lengua con\l"
-	.string "asuntos de este calibre.$"
+	.string "ARCHER: Show more respect and be more\n"
+	.string "discreet, BILL. We didn't hire you to\l"
+	.string "blab about matters of this caliber.$"
 
 LavenderTown_Cierre_Torre_Texto_19:
-.string "Ya no hay nada que ver aquí, preparáos\n"
-	.string "para lo que viene.$"
+	.string "There's nothing more to see here.\n"
+	.string "Prepare yourselves for what's coming.$"
 
 LavenderTown_Cierre_Torre_Texto_20:
-.string "BILL: Bah, ¡solo era una broma!$"
+.string "BILL: Bah, it was just a joke!$"
 
 LavenderTown_Cierre_Torre_Texto_21:
-.string "¡Bone!$"
+.string "Bone!$"
 
 LavenderTown_Dialogo_Obrero::
 lock
@@ -517,7 +516,6 @@ release
 end
 
 LavenderTown_Dialogo_Obrero_Texto_1:
-.string "Lo siento, pero el tiempo para ver la\n"
-	.string "TORRE POKÉMON pasó. Ahora solo podrá\l"
-	.string "ser vista a través de los libros de\l"
-	.string "historia.$"
+	.string "I'm sorry, but the time to see the\n"
+	.string "POKEMON TOWER has passed. Now it can\l"
+	.string "only be seen through history books.$"

@@ -3666,168 +3666,161 @@ emote_exclamation_mark
 step_end
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_1:
-.string "GIOVANNI: ¡{PLAYER}! ¡Eres\n"
-	.string "extraordinario, pudiste con los 3\l"
-	.string "POKÉMON más poderosos de todos los\l"
-	.string "tiempos! ¿Entiendes el motivo de tu\l"
-	.string "victoria? En el momento en que la\l"
-	.string "inmortalidad de tales POKÉMON se vio\l"
-	.string "sujeta a las reglas que rigen el\l"
-	.string "combate POKÉMON entre dos\l"
-	.string "ENTRENADORES, sus poderes dejaron de\l"
-	.string "ser infinitos y, por tanto, vulnerables.$"
+	.string "GIOVANNI: {PLAYER}! You're\n"
+	.string "extraordinary, you defeated the three\l"
+	.string "most powerful POKEMON of all time! Do\l"
+	.string "you understand the reason for your\l"
+	.string "victory? The moment the immortality of\l"
+	.string "such POKEMON was subject to the rules\l"
+	.string "governing POKÉMON battles between two\l"
+	.string "TRAINERS, their powers ceased to be\l"
+	.string "infinite and, therefore, vulnerable.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_2:
-.string "Ese ENTRENADOR quiso usarlos como\n"
-	.string "POKÉMON convencionales, y ahí\l"
-	.string "perdieron su esencia.$"
+	.string "That TRAINER tried to use them as\n"
+	.string "conventional POKEMON, and that's where\l"
+	.string "they lost their essence.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_3:
-.string "No obstante, solo un ENTRENADOR que ha\n"
-	.string "alcanzado un estado de equilibrio sin\l"
-	.string "igual con su equipo, podría llegar a\l"
-	.string "batirles aún siendo un combate\l"
-	.string "POKÉMON. Tú eras el único que podía\l"
-	.string "hacerlo, {PLAYER}...$"
+	.string "However, only a TRAINER who has\n"
+	.string "reached an unparalleled state of\l"
+	.string "balance with their team could defeat\l"
+	.string "them even in a POKÉMON battle. You were\l"
+	.string "the only one who could do it,\l"
+	.string "{PLAYER}...$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_6:
-.string "Como ya es habitual, después de cada\n"
-	.string "gran acontecimiento, os reúno aquí\l"
-	.string "para hacer balance de todo{PAUSE 15}…{PAUSE 15} y mirar a\l"
-	.string "futuro.$"
+	.string "As is customary, after each major\n"
+	.string "event, I gather you all here to assess\l"
+	.string "everything... and to look to the future.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_7:
-.string "Antes de nada, vuestras recompensas.$"
+.string "Before anything else, your rewards.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_8:
-.string "¡¡OBTUVISTE 2 MILLONES DE POKÉS!!$"
+.string "YOU JUST EARNED 2 MILLION POKÉ!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_9:
-.string "Y no solo eso, gracias a todo el revuelo\n"
-	.string "causado por ZEUS, y la entrada a\l"
-	.string "RUINAS ALFA, pudimos extraer los ADN\l"
-	.string "de LUGIA y HO-OH, no de sus formas\l"
-	.string "primigenias, pero sí las conocidas por\l"
-	.string "la cultura de JOHTO.$"
+	.string "And not only that, thanks to all the\n"
+	.string "commotion caused by ZEUS, and the\l"
+	.string "entry to RUINS OF ALPH, we were able to\l"
+	.string "extract the DNA of LUGIA and HO-OH,\l"
+	.string "not their primordial forms, but the ones\l"
+	.string "known by JOHTO's culture.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_10:
-.string "ANDRA ve deshonroso usar esta clase de\n"
-	.string "POKÉMON, de modo que únicamente tú\l"
-	.string "recibirás ejemplares clonados,\l"
-	.string "{PLAYER}.$"
+	.string "ANDRA finds it dishonorable to use this\n"
+	.string "kind of POKEMON, so only you will\l"
+	.string "receive cloned specimens, {PLAYER}.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_11:
-.string "¡¡OBTUVISTE UN LUGIA AL NV.60!!$"
+.string "YOU OBTAINED A LV.60 LUGIA!!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_12:
-.string "¡¡OBTUVISTE UN HO-OH AL NV.60!!$"
+.string "YOU OBTAINED A LV.60 HO-OH!!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_13:
-.string "ANDRA: No creas que no sabré cómo\n"
-	.string "lidiar con ellos en caso de que los uses\l"
-	.string "contra mí, {PLAYER}. Ya derroté al\l"
-	.string "HO-OH dorado, una forma aún más\l"
-	.string "poderosa que esos clones, ¡no lo\l"
-	.string "olvides!$"
+	.string "ANDRA: Don't think I won't know how to\n"
+	.string "deal with them if you use them against\l"
+	.string "me, {PLAYER}. I've already defeated\l"
+	.string "the golden HO-OH, a form even more\l"
+	.string "powerful than those clones, don't\l"
+	.string "forget!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_14:
-.string "GIOVANNI: Bien, ahora, hablemos de\n"
-	.string "vuestras futuras misiones.$"
+	.string "GIOVANNI: Alright, now let's talk about\n"
+	.string "your future missions.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_15:
-.string "{PLAYER} hizo un trabajo excelente\n"
-	.string "recopilando información sobre los\l"
-	.string "FUERTE VÍNCULO de JOHTO, toda esta\l"
-	.string "información ha servido a nuestros\l"
-	.string "CIENTÍFICOS para optimizar y expandir\l"
-	.string "aún más el poder de futuros\l"
-	.string "prototipos, tal y como en su día lo fue\l"
-	.string "MEWTWO.$"
+	.string "{PLAYER} did an excellent job\n"
+	.string "gathering information about the DEEP\l"
+	.string "BONDS of JOHTO. All this information has\l"
+	.string "served our SCIENTISTS to optimize and\l"
+	.string "further expand the power of future\l"
+	.string "prototypes, just as MEWTWO once was.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_16:
-.string "No obstante, JOHTO es mucho más que\n"
-	.string "sus pueblos y ciudades, a diferencia de\l"
-	.string "KANTO, cuenta con muchos lugares aún\l"
-	.string "por explorar.$"
+	.string "However, JOHTO is much more than its\n"
+	.string "towns and cities; unlike KANTO, it has\l"
+	.string "many places yet to be explored$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_17:
-.string "Tenemos serias sospechas de que estos\n"
-	.string "lugares esconden POKÉMON únicos,\l"
-	.string "cuyos datos podrían seguir aportando\l"
-	.string "información fundamental para nuestras\l"
-	.string "investigaciones.$"
+	.string "We have strong suspicions that these\n"
+	.string "places hide unique POKÉMON, whose data\l"
+	.string "could continue to provide fundamental\l"
+	.string "information for our research.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_18:
-.string "La apertura de la estación que conecta\n"
-	.string "TRIGAL con AZAFRÁN, y la demolición de\l"
-	.string "la TORRE LAVANDA se aproximan, pero a\l"
-	.string "la espera de estos acontecimientos,\l"
-	.string "vuestra misión será seguir expandiendo\l"
-	.string "lo que sabemos sobre los POKÉMON.$"
+	.string "The opening of the station connecting\n"
+	.string "GOLDENROD with SAFFRON, and the\l"
+	.string "demolition of LAVENDER TOWER, are\l"
+	.string "approaching, but while awaiting these\l"
+	.string "events, your mission will be to continue\l"
+	.string "expanding what we know about POKÉMON.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_19:
-.string "Por ello, os daré algo que deberíais\n"
-	.string "haber tenido hace mucho.$"
+	.string "Therefore, I'll give you something you\n"
+	.string "should have had a long time ago.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_20:
-.string "¡OBTUVISTE UNA POKÉDEX!$"
+.string "YOU OBTAINED A POKEDEX!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_21:
-.string "Cortesía de OAK, gracias a su invento,\n"
-	.string "no solo se enviará la información de\l"
-	.string "todo nuevo POKÉMON que encontréis a\l"
-	.string "nuestra base de datos, también\l"
-	.string "quedará registrada para uso propio,\l"
-	.string "incluso podréis ver los STATS BASE, si\l"
-	.string "llegáis a capturar al POKÉMON.$"
+	.string "Courtesy of OAK, thanks to his\n"
+	.string "invention, not only will the information\l"
+	.string "of every new POKÉMON you encounter be\l"
+	.string "sent to our database, it will also be\l"
+	.string "recorded for your own use. You'll even\l"
+	.string "be able to see the BASE STATS if you\l"
+	.string "manage to capture the POKÉMON.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_22:
-.string "ANDRA: De modo que esto es lo que ese\n"
-	.string "malcriado de ROJO usaba, sé de varios\l"
-	.string "POKEMANÍACOS que darían todo lo que\l"
-	.string "tienen por un artefacto como este.\l"
-	.string "Nosotros le daremos el mejor uso\l"
-	.string "posible, ¿verdad, {PLAYER}?$"
+	.string "ANDRA: So this is what that spoiled\n"
+	.string "brat RED used, I know several\l"
+	.string "POKÉMANIACS who would give everything\l"
+	.string "they have for an artifact like this. We\l"
+	.string "will give it the best possible use, right,\l"
+	.string "{PLAYER}?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_23:
-.string "¿Quiere decir entonces que no regreso a\n"
-	.string "HOENN, señor?$"
+	.string "Does that mean I'm not returning to\n"
+	.string "HOENN, sir?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_24:
-.string "GIOVANNI: Así es, ANDRA. Por ahora te\n"
-	.string "quedarás en JOHTO y harás la misma\l"
-	.string "tarea que ha estado haciendo\l"
-	.string "{PLAYER}. Sois los dos entrenadores\l"
-	.string "más fuertes de toda la organización, y\l"
-	.string "una misión así, en la que podéis\l"
-	.string "enfrentaros a cualquier cosa, requiere\l"
-	.string "de la mayor preparación posible.$"
+	.string "GIOVANNI: That's right, ANDRA, for now\n"
+	.string "you will stay in JOHTO and perform the\l"
+	.string "same task that {PLAYER} has been\l"
+	.string "doing. Both of you are the strongest\l"
+	.string "trainers in the entire organization, and\l"
+	.string "a mission like this, where you could\l"
+	.string "face anything, requires the highest\l"
+	.string "possible preparation.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_25:
-.string "ANDRA: ¿Y por dónde empezamos?$"
+.string "ANDRA: And where should we start?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_26:
-.string "GIOVANNI: Os he dejado documentos, con\n"
-	.string "una explicación detallada sobre cada\l"
-	.string "una de las misiones que abordareis, en\l"
-	.string "vuestros respectivos despachos. No te\l"
-	.string "preocupes ANDRA, ya hay conexión vía\l"
-	.string "teletransporte con la BASE en HOENN.$"
+	.string "GIOVANNI: I have left documents for\n"
+	.string "you, with a detailed explanation of\l"
+	.string "each of the missions you will undertake,\l"
+	.string "in your respective offices. Don't worry,\l"
+	.string "ANDRA, there is already a teleportation\l"
+	.string "connection with the BASE in HOENN.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_27:
-.string "El orden en el que decidáis hacerlas es\n"
-	.string "cosa vuestra, aunque me gustaría que\l"
-	.string "indagárais lo máximo posible en cada\l"
-	.string "una de ellas. Una vez investigado lo\l"
-	.string "suficiente, regresad a mi despacho.$"
+	.string "The order in which you decide to tackle\n"
+	.string "them is up to you, though I would like\l"
+	.string "you to delve as deeply as possible into\l"
+	.string "each one. Once you've researched\l"
+	.string "enough, return to my office.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_28:
-.string "ANDRA: ¡Genial, vamos a explorar JOHTO!$"
+.string "ANDRA: Cool, let's explore JOHTO!$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_29:
-.string "¿Has oído, {PLAYER}? Los lugares más\n"
-	.string "recónditos de JOHTO nos esperan, ¿qué\l"
-	.string "misterios estarán esperándonos?$"
+	.string "Did you hear that, {PLAYER}? The most\n"
+	.string "remote places of JOHTO await us. What\l"
+	.string "mysteries will be waiting for us?$"
 
 RocketHideout_8F_Mision_Base_Hoenn::
 lock
@@ -3970,154 +3963,147 @@ walk_in_place_right
 step_end
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_1:
-.string "ANDRA: ¡Jah! ¡Sabía que aparecerías\n"
-	.string "pronto, {PLAYER}! ¡Yo acabo de\l"
-	.string "completar también mis misiones!$"
+	.string "ANDRA: Hah! I knew you were going to\n"
+	.string "appear soon, {PLAYER}! I just\l"
+	.string "completed my missions too!$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_2:
-.string "GIOVANNI: Nuestra base de datos ha\n"
-	.string "recogido información muy valiosa de\l"
-	.string "vuestras expediciones, pero me\l"
-	.string "gustaría oíros a vosotros. Contadme\l"
-	.string "todos los detalles…$"
+	.string "GIOVANNI: Our database has gathered\n"
+	.string "valuable information from your\l"
+	.string "expeditions, but I would like to hear\l"
+	.string "from you. Tell me all the details…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_3:
-.string "Ya veo… Así que JOHTO cuenta con\n"
-	.string "varias especies creídas extintas, y\l"
-	.string "que habitan en ese gran paraíso que es\l"
-	.string "la zona oeste de ORQUÍDEA.$"
+	.string "I see… So JOHTO has several species\n"
+	.string "believed to be extinct, and they\l"
+	.string "inhabit that great paradise known as\l"
+	.string "the west zone of CIANWOOD.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_4:
-.string "No me extraña, únicamente hay\n"
-	.string "catalogadas 100 especies originales de\l"
-	.string "JOHTO, un número muy pequeño si lo\l"
-	.string "comparamos con las 151 de KANTO, o las\l"
-	.string "135 de HOENN.$"
+	.string "It's not surprising; there are only 100\n"
+	.string "original species cataloged in JOHTO, a\l"
+	.string "very small number compared to the 151\l"
+	.string "in KANTO or the 135 in HOENN.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_4.1:
-	.string "Por otro lado, ese DRAGÓN SAGRADO...\n"
-	.string "ANDRA ya me ha hablado de cómo su\l"
-	.string "URSARING evolucionó gracias a la\l"
-	.string "PIEDRA DORADA.$"
+	.string "On the other hand, that SACRED DRAGON…\n"
+	.string "ANDRA has already told me how her\l"
+	.string "URSARING evolved thanks to the GOLDEN\l"
+	.string "STONE.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_4.2:
-	.string "La cantidad de POKÉMON a la que pueda\n"
-	.string "reaccionar es todo un misterio, enviaré\l"
-	.string "a ATLAS a ese lugar para que lo\l"
-	.string "investigue y encuentre una. Después,\l"
-	.string "nuestros mejores científicos tratarán\l"
-	.string "de reproducir ese objeto sagrado, para\l"
-	.string "así poder comercializarlo entre los\l"
-	.string "mejores ROCKET.$"
+	.string "The number of POKÉMON it can react to\n"
+	.string "is quite a mystery. I'll send ARCHER to\l"
+	.string "that place to investigate and find one.\l"
+	.string "Then, our top scientists will try to\l"
+	.string "reproduce that sacred object so we can\l"
+	.string "commercialize it among the best ROCKET\l"
+	.string "members.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_4.3:
-	.string "ANDRA: Oh...$"
+	.string "ANDRA: Oh…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_5:
-.string "GIOVANNI: En cuanto a lo de ese tal\n"
-	.string "EUSINE, no te preocupes {PLAYER}, mandaré\l"
-	.string "a buscarle. Todo lo que él ha visto y\l"
-	.string "vivido en esa pagoda nos será de\l"
-	.string "enorme utilidad para nuestras\l"
-	.string "investigaciones.$"
+	.string "GIOVANNI: As for that guy EUSINE, don't\n"
+	.string "worry, {PLAYER}. I'll send someone to\l"
+	.string "find him. Everything he's seen and\l"
+	.string "experienced in that pagoda will be of\l"
+	.string "enormous use to our investigations.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_6:
-.string "Lo que realmente me preocupa es tu\n"
-	.string "misión en el LAGO DE LA FURIA,\l"
-	.string "{PLAYER}.$"
+	.string "What really worries me is your mission\n"
+	.string "at the LAKE OF RAGE, {PLAYER}.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_7:
-.string "El resultado ha sido inmejorable, y el\n"
-	.string "POKÉMON hallado ahí excepcional. Pero\l"
-	.string "esos CIENTÍFICOS… no trabajan para\l"
-	.string "nosotros, parecen perseguir objetivos\l"
-	.string "similares a los nuestros.$"
+	.string "The result has been outstanding, and\n"
+	.string "the POKÉMON found there, are\l"
+	.string "exceptional. But those SCIENTISTS…\l"
+	.string "they don't work for us, they seem to\l"
+	.string "pursue similar objectives to ours.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_8:
-.string "ANDRA: Yo también me crucé con\n"
-	.string "personajes así en HOENN, en plena\l"
-	.string "búsqueda de los REGIS…$"
+	.string "ANDRA: I also encountered scientists\n"
+	.string "like that in HOENN, in the midst of\l"
+	.string "searching for the REGIS…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_9:
-.string "GIOVANNI: Tal y como temía, todo apunta\n"
-	.string "a que se trata de DEVON S.A.$"
+	.string "GIOVANNI: As I expected, everything\n"
+	.string "points to DEVON C.O.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_10:
-.string "ANDRA: ¿DEVON?$"
+.string "ANDRA: DEVON?$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_11:
-.string "GIOVANNI: OAK y BLAINE contactaron\n"
-	.string "con ellos en el pasado, antes de que\l"
-	.string "{PLAYER} les derrotara. Gracias a\l"
-	.string "ello obtuvieron la financiación\l"
-	.string "necesaria para clonar de nuevo a\l"
-	.string "MEWTWO y resucitar a DEOXYS.$"
+	.string "GIOVANNI: OAK and BLAINE contacted\n"
+	.string "them in the past, before {PLAYER}\l"
+	.string "defeated them. Thanks to that, they\l"
+	.string "obtained the necessary funding to\l"
+	.string "clone MEWTWO again and resurrect\l"
+	.string "DEOXYS.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_12:
-.string "ANDRA: ¿Y…?$"
+.string "ANDRA: And…?$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_13:
-.string "GIOVANNI: Y DEVON accedió, con la\n"
-	.string "condición de entregar todo el material\l"
-	.string "referente a DEOXYS. Afortunadamente,\l"
-	.string "de MEWTWO no dijeron una sola palabra.$"
+	.string "GIOVANNI: And DEVON agreed, with the\n"
+	.string "condition of providing all the material\l"
+	.string "related to DEOXYS. Fortunately, they\l"
+	.string "didn't say a word about MEWTWO.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_14:
-.string "Tal vez sea algo pronto, pero…$"
+.string "Maybe is too soon, but…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_15:
-.string "¡{PLAYER}! Quiero que acompañes a\n"
-	.string "ANDRA a nuestra sucursal en HOENN, y\l"
-	.string "te dé nociones generales sobre la\l"
-	.string "región.$"
+	.string "{PLAYER}! I want you to go with ANDRA\n"
+	.string "to our HOENN branch, and she'll give you\l"
+	.string "a general overview of the region.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_16:
-.string "La demolición de TORRE LAVANDA es\n"
-	.string "inminente, en este momento ya deben de\l"
-	.string "haber evacuado todo para llevarla a\l"
-	.string "cabo. Mientras, nada os retiene aquí, y\l"
-	.string "nuestra BASE en HOENN es la única que\l"
-	.string "aún no has visitado.$"
+	.string "The demolition of LAVENDER TOWN'S\n"
+	.string "TOWER is imminent; Meanwhile, there's\l"
+	.string "nothing holding you here, and our HOENN\l"
+	.string "BASE is the only one you haven't visited\l"
+	.string "yet.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_17:
-.string "En cuanto TORRE LAVANDA sea demolida,\n"
-	.string "comenzará la construcción en tiempo\l"
-	.string "récord de la nueva TORRE RADIO.\l"
-	.string "Entretanto, os informo de que se\l"
-	.string "celebrará la II GRAN REUNIÓN EN\l"
-	.string "TRIGAL.$"
+	.string "Once LAVENDER TOWN'S TOWER is\n"
+	.string "demolished, construction will begin at\l"
+	.string "record speed on the new RADIO TOWER. In\l"
+	.string "the meantime, I inform you that the II\l"
+	.string "GRAND MEETING IN GOLDENROD CITY is\l"
+	.string "scheduled soon.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_18:
-.string "ANDRA: ¡Wow! Ahora que KANTO y JOHTO\n"
-	.string "están a punto de lograr la unión que se\l"
-	.string "propuso en la I GRAN REUNIÓN…$"
+	.string "ANDRA: Wow! Now that KANTO and JOHTO\n"
+	.string "are about to achieve the unity\l"
+	.string "proposed in the I GRAND MEETING…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_19:
-.string "GIOVANNI: Tenemos todo para convertir\n"
-	.string "al binomio KANTO-JOHTO en la principal\l"
-	.string "potencia del MUNDO POKÉMON.$"
+	.string "GIOVANNI: We have everything to make\n"
+	.string "the KANTO-JOHTO duo into a global\l"
+	.string "power of the POKÉMON WORLD.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_20:
-.string "ANDRA: Suena… impactante.$"
+.string "ANDRA: Sounds… shocking.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_21:
-.string "GIOVANNI: Y lo será, ya lo verás cuando\n"
-	.string "veas lo que hay por mostrar, pero por el\l"
-	.string "momento… Tenéis a vuestra disposición\l"
-	.string "el teletransporte que manda a HOENN.$"
+	.string "GIOVANNI: And it will be, you'll see when\n"
+	.string "you see what there is to show, but for\l"
+	.string "now… You have at your disposal the\l"
+	.string "teleportation that sends you to HOENN.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_22:
-.string "Espero que guíes correctamente a\n"
-	.string "{PLAYER} por HOENN, estad atentos a\l"
-	.string "mi llamada.$"
+	.string "I hope you guide {PLAYER} correctly\n"
+	.string "through HOENN, stay attentive to my\l"
+	.string "call.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_23:
-.string "ANDRA: No se preocupe, {PLAYER} no\n"
-	.string "perderá el tiempo allí, ¡seguro!$"
+	.string "ANDRA: Don't worry sir, {PLAYER} won't\n"
+	.string "waste any time there, I'm sure!$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_24:
-.string "Te espero en la entrada a la base de\n"
-	.string "HOENN, ¡haré de guía turística!$"
+	.string "I'll wait for you at the entrance to the\n"
+	.string "HOENN base; I'll be your tour guide!$"
 
 RocketHideout_8F_Mision_Neo_Canela::
 lock
@@ -4209,71 +4195,72 @@ emote_exclamation_mark
 step_end
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_1:
-.string "????: Logré escapar en el último\n"
-	.string "momento, gracias al TELETRANSPORTE de\l"
-	.string "mi MAGMORTAR.$"
+	.string "????: I was able to escape at the last\n"
+	.string "moment, due to the TELEPORT of my\l"
+	.string "MAGMORTAR.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_2:
-.string "GIOVANNI: {PLAYER}, tu ausencia en\n"
-	.string "KANTO-JOHTO te ha impedido enterarte,\l"
-	.string "pero el fenómeno se ha sentido en las\l"
-	.string "dos regiones: el volcán de ISLA CANELA\l"
-	.string "ha estallado, y ha engullido todo a su\l"
-	.string "paso.$"
+	.string "GIOVANNI: {PLAYER}, your absence\n"
+	.string "from KANTO-JOHTO has prevented you\l"
+	.string "from finding out, but the phenomenon\l"
+	.string "has been felt in both regions: the\l"
+	.string "volcano on CINNABAR ISLAND has\l"
+	.string "erupted, engulfing everything in its\l"
+	.string "path.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_3:
-.string "BLAINE: El LABORATORIO… la MANSIÓN\n"
-	.string "POKÉMON… el GIMNASIO… todo yace ahora\l"
-	.string "en el fondo del mar.$"
+	.string "BLAINE: The LABORATORY… the POKÉMON\n"
+	.string "MANSION… the GYM… now everything lies\l"
+	.string "at the bottom of the sea…$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_4:
-.string "OAK: La cuestión es que, después de la I\n"
-	.string "CONFERENCIA DE TRIGAL, continuamos\l"
-	.string "con nuestras investigaciones allí. Una\l"
-	.string "parte muy importante de nuestros\l"
-	.string "últimos proyectos está ahora perdida,\l"
-	.string "decenas de metros bajo tierra.$"
+	.string "OAK: The issue is that, after the I\n"
+	.string "GOLDENROD CONFERENCE, we continued\l"
+	.string "our investigations there. A very\l"
+	.string "important part of our recent projects\l"
+	.string "is now lost, dozens of meters\l"
+	.string "underground.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_5:
-.string "BLAINE: Por suerte, las zonas\n"
-	.string "subterráneas más importantes fueron\l"
-	.string "hechas a prueba de todo desastre\l"
-	.string "natural. Después de que {PLAYER}\l"
-	.string "nos derrotara, construimos\l"
-	.string "muchos pisos subterráneos más, son\l"
-	.string "como un búnker subterráneo.$"
+	.string "BLAINE: Fortunately, the most\n"
+	.string "important underground areas were made\l"
+	.string "to withstand any natural disaster.\l"
+	.string "After {PLAYER} defeated us, we built\l"
+	.string "many more underground floors; they are\l"
+	.string "like an underground bunker.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_6:
-.string "GIOVANNI: Cabe entonces la posibilidad\n"
-	.string "de que no hayan sido destruidos.$"
+	.string "GIOVANNI: So there's still a chance\n"
+	.string "that it is not destroyed yet.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_7:
-.string "OAK: Debemos comprobarlo, sabes tan\n"
-	.string "bien como yo la preciada información\l"
-	.string "que guardamos ahí dentro.$"
+	.string "OAK: We must verify it; you know as well\n"
+	.string "as I do, the valuable information we\l"
+	.string "keep there.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_8:
-.string "BLAINE: Pero no puede ir cualquiera, la\n"
-	.string "erupción habrá liberado a todos los\l"
-	.string "prototipos que ahí teníamos en fase\l"
-	.string "de prueba.$"
+	.string "BLAINE: However, not anyone can go; the\n"
+	.string "eruption may have unleashed all the\l"
+	.string "prototypes we had there in the testing\l"
+	.string "phase.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_9:
-.string "GIOVANNI: Estamos de acuerdo, el más\n"
-	.string "indicado para realizar esta misión es\l"
-	.string "{PLAYER}. Cuenta con experiencia más que\l"
-	.string "sobrada en esta clase de situaciones.$"
+	.string "GIOVANNI: We agree, the most suitable\n"
+	.string "person to carry out this mission is\l"
+	.string "{PLAYER}. They have more than enough\l"
+	.string "experience in this kind of situations.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_10:
-.string "OAK: Así es, te estaré esperando en\n"
-	.string "ISLA CANELA, {PLAYER}, ahí te diré\l"
-	.string "exactamente lo que debes hacer.$"
+	.string "OAK: That's right, I'll be waiting for\n"
+	.string "you on CINNABAR ISLAND, {PLAYER}.\l"
+	.string "There, I'll tell you exactly what you\l"
+	.string "need to do.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_11:
-.string "BLAINE: Es un alivio tener a un\n"
-	.string "ENTRENADOR como tú de nuestro lado,\l"
-	.string "espero que puedas recuperar todo lo\l"
-	.string "posible de esta catástrofe.$"
+	.string "BLAINE: It's a relief to have a TRAINER\n"
+	.string "like you on our side; I hope you can\l"
+	.string "recover as much as possible from this\l"
+	.string "catastrophe.$"
 
 RocketHideout_8F_Mision_Central_Energia::
 lock
@@ -4360,93 +4347,93 @@ walk_slow_left
 step_end
 
 RocketHideout_8F_Mision_Central_Energia_Texto_1:
-.string "({PLAYER} entregó a GIOVANNI el\n"
-	.string "DISCO DURO)$"
+	.string "({PLAYER} gave the HARD DRIVE to\n"
+	.string "GIOVANNI)$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_2:
-.string "GIOVANNI: No esperaba menos de ti,\n"
-	.string "{PLAYER}. No hay recompensa que\l"
-	.string "pueda igualar la información que\l"
-	.string "acabas de recuperar. Hay millones\l"
-	.string "invertidos en investigación aquí\l"
-	.string "dentro, qué menos que darte unos\l"
-	.string "tantos de ellos.$"
+	.string "GIOVANNI: I knew you wouldn't\n"
+	.string "disappoint, {PLAYER}. There's no\l"
+	.string "reward that can compare to the\l"
+	.string "information you've just brought back.\l"
+	.string "There are millions invested in research\l"
+	.string "here, so it's only appropriate to give\l"
+	.string "you some of them.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_3:
-.string "¡{PLAYER} OBTUVO 2 MILLONES DE\n"
-	.string "POKÉS!$"
+	.string "{PLAYER} JUST EARNED 2 MILLION POKÉ!$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_4:
-.string "Toma esto también, es un proyecto\n"
-	.string "proveniente de una región lejana,\l"
-	.string "algunos de nuestros mejores\l"
-	.string "científicos han tenido contacto con\l"
-	.string "él.$"
+	.string "Take this as well, it's a project that\n"
+	.string "comes from a distant region, some of\l"
+	.string "our best scientists have made contact\l"
+	.string "with it.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_5:
-.string "¡OBTUVISTE UN SILVALLY AL NV.70!$"
+.string "YOU OBTAINED A LV.70 SILVALLY!!$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_6:
-.string "Al parecer, puede cambiar de tipo en\n"
-	.string "función del objeto que lleve equipado.\l"
-	.string "En los pisos superiores de la TORRE\l"
-	.string "RADIO de LAVANDA se venderán, dentro\l"
-	.string "de muy poco podrás entrar, {PLAYER}.$"
+	.string "It seems it can change its type\n"
+	.string "depending on the object it is equipped\l"
+	.string "with. Inside the top floors of KANTO\l"
+	.string "RADIO TOWER, they will be sold, very\l"
+	.string "soon you will be able to enter,\l"
+	.string "{PLAYER}.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_7:
-.string "Volviendo al tema de CANELA…\n"
-	.string "Agradecería que no hablaras con nadie\l"
-	.string "sobre lo que hayas podido ver ahí, ni\l"
-	.string "siquiera con ANDRA.$"
+	.string "Returning to the issue of CINNABAR\n"
+	.string "ISLAND… I would appreciate it if you\l"
+	.string "didn't speak with anyone about\l"
+	.string "whatever you may have seen there, not\l"
+	.string "even with ANDRA.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_8:
-.string "Muchos de los prototipos que ahí\n"
-	.string "dejamos están en fase de prueba, son\l"
-	.string "inestables y están por perfeccionar.\l"
-	.string "Aún así, habrás sentido el tremendo\l"
-	.string "potencial de algunos.$"
+	.string "Many of the prototypes we left there\n"
+	.string "are in the testing phase, they are\l"
+	.string "volatile and still need to get better.\l"
+	.string "However, you must have felt the\l"
+	.string "tremendous potential of some of them.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_9:
-.string "Hasta que no estemos seguros de tener\n"
-	.string "algo grande de verdad, que podamos\l"
-	.string "controlar con total garantía… esos\l"
-	.string "proyectos son totalmente\l"
-	.string "confidenciales, ¿me entiendes\l"
+	.string "Until we are certain we have something\n"
+	.string "truly significant, something we can\l"
+	.string "control with complete confidence…\l"
+	.string "those projects are completely\l"
+	.string "confidential, do you understand\l"
 	.string "{PLAYER}?$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_10:
-.string "Ahora, hablemos de tu próxima misión:\n"
-	.string "finiquitar el asunto de las vías hacia\l"
-	.string "AZAFRÁN.$"
+	.string "Now, let's talk about your next mission:\n"
+	.string "finish the issue about the roads to\l"
+	.string "SAFFRON CITY.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_11:
-.string "Al parecer, ese extraño POKÉMON ha\n"
-	.string "vuelto, y está interfiriendo con la\l"
-	.string "fase final de la construcción.$"
+	.string "It seems that strange POKÉMON has\n"
+	.string "returned, and it's interfering with the\l"
+	.string "final phase of the construction.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_12:
-.string "Me temo que no queda otra que\n"
-	.string "capturarlo para que definitivamente no\l"
-	.string "cause más problemas.$"
+	.string "I'm afraid there's no choice but to\n"
+	.string "capture it so it definitively doesn't\l"
+	.string "cause any more problems.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_13:
-.string "De modo que tu misión será, a las\n"
-	.string "vísperas de la II GRAN REUNIÓN en\l"
-	.string "TRIGAL, hacerte cargo de ese POKÉMON.$"
+	.string "So, your mission will be, on the eve of\n"
+	.string "the II GRAND MEETING in GOLDENROD, to\l"
+	.string "take charge of that POKÉMON.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_14:
-.string "Yo partiré ya hacia TRIGAL, debo montar\n"
-	.string "los preparativos de la reunión junto\l"
-	.string "con el PRESIDENTE.$"
+	.string "I'll be heading to GOLDENROD now; I have\n"
+	.string "to organize the preparations for the\l"
+	.string "meeting with the DIRECTOR.$"
 
 RocketHideout_8F_Mision_Central_Energia_Texto_15:
-.string "Es el momento de ir recogiendo los\n"
-	.string "frutos de nuestro trabajo, {PLAYER}.\l"
-	.string "En muy poco tiempo estamos viviendo\l"
-	.string "grandes transformaciones en ambas\l"
-	.string "regiones, esas mismas que llevan 1 año\l"
-	.string "fraguándose, desde la I GRAN REUNIÓN o\l"
-	.string "incluso antes.$"
+	.string "It's time to start reaping the rewards\n"
+	.string "of our work, {PLAYER}. In a very short\l"
+	.string "time, we're witnessing significant\l"
+	.string "transformations in both regions, the\l"
+	.string "same ones that have been brewing for a\l"
+	.string "year now, since the I GRAND MEETING or\l"
+	.string "even before.$"
 
 
 
@@ -4547,124 +4534,123 @@ face_right
 step_end
 
 RocketHideout_8F_Final_DLC_Texto_1:
-.string "GIOVANNI: ¡{PLAYER}! Debimos estar\n"
-	.string "ahí ATLAS y yo. Cuéntame todo, ¿y\l"
-	.string "ANDRA?$"
+	.string "GIOVANNI: {PLAYER}! ARCHER and I\n"
+	.string "should have been there. Tell me\l"
+	.string "everything. What happened to ANDRA?$"
 
 RocketHideout_8F_Final_DLC_Texto_2:
-.string "Ya veo. Debimos suponer que el ambiente\n"
-	.string "y rol de DEVON eran muy atractivos para\l"
-	.string "alguien como el ayudante de BILL.\l"
-	.string "Supongo que tenía razón, nunca le\l"
-	.string "prestamos la atención suficiente.$"
+	.string "I understand. We should have realized\n"
+	.string "that the atmosphere and role of DEVON\l"
+	.string "were very appealing to someone like\l"
+	.string "BILL's assistant. I suppose he was\l"
+	.string "right; we never paid him enough\l"
+	.string "attention.$"
 
 RocketHideout_8F_Final_DLC_Texto_3:
-.string "En cuanto a ANDRA… tal vez sea mejor\n"
-	.string "así. Después de todo, puede que su\l"
-	.string "búsqueda concluya en un\l"
-	.string "descubrimiento más importante que\l"
-	.string "todas las investigaciones que estamos\l"
-	.string "llevando a cabo…$"
+	.string "As for ANDRA… perhaps it's for the best\n"
+	.string "this way. After all, her quest may lead\l"
+	.string "to a discovery more significant than all\l"
+	.string "the research we're conducting…$"
 
 RocketHideout_8F_Final_DLC_Texto_4:
-.string "Por otro lado, DEVON ha movido ficha.\n"
-	.string "Esto no cambia en nada nuestros\l"
-	.string "planes, a pesar de que sepan todo lo\l"
-	.string "hablado en la II GRAN REUNIÓN.$"
+	.string "Meanwhile, DEVON has taken action.\n"
+	.string "Nevertheless, this doesn't affect our\l"
+	.string "plans, even though they are privy to\l"
+	.string "everything discussed at the II GRAND\l"
+	.string "MEETING.$"
 
 RocketHideout_8F_Final_DLC_Texto_5:
-.string "Ante la ausencia de ANDRA, nuestra BASE\n"
-	.string "de HOENN ha quedado sin un LÍDER, tú\l"
-	.string "estarás al mando. Después de lo de\l"
-	.string "RUINAS ALFA, todos los POKÉMON\l"
-	.string "LEGENDARIOS que allí se concentraron\l"
-	.string "volvieron a su lugar de origen. Esto\l"
-	.string "implica que los 3 LEGENDARIOS de\l"
-	.string "HOENN: KYOGRE, GROUDON y RAYQUAZA,\l"
-	.string "estarán allí, uno de tus objetivos será\l"
-	.string "encontrarlos, para poder estudiarlos.\l"
-	.string "Sin embargo…$"
+	.string "With ANDRA's absence, our base in HOENN\n"
+	.string "has been left without a LEADER, and you\l"
+	.string "will be in charge. After the events at\l"
+	.string "the RUINS OF ALPH, all the LEGENDARY\l"
+	.string "POKÉMON that gathered there returned\l"
+	.string "to their original locations. This means\l"
+	.string "that the THREE LEGENDARY POKÉMON of\l"
+	.string "HOENN: KYOGRE, GROUDON and RAYQUAZA,\l"
+	.string "will be there. One of your objectives\l"
+	.string "will be to find them in order to study\l"
+	.string "them. However…$"
 
 RocketHideout_8F_Final_DLC_Texto_6:
-.string "Tu misión primordial será obtener toda\n"
-	.string "la información posible sobre DEVON.$"
+	.string "Your main objective will be to gather as\n"
+	.string "much information as possible about\l"
+	.string "DEVON.$"
 
 RocketHideout_8F_Final_DLC_Texto_7:
-.string "Dónde opera, en qué lugar asienta sus\n"
-	.string "laboratorios de investigación, cuáles\l"
-	.string "son sus proyectos y ambiciones…$"
+	.string "Where it operates, where its research\n"
+	.string "laboratories are located, what its\l"
+	.string "projects and ambitions are…$"
 
 RocketHideout_8F_Final_DLC_Texto_8:
-.string "OAK vino poco antes que tú, fue el\n"
-	.string "primero en ponerme al tanto.$"
+	.string "OAK came just before you; he was the\n"
+	.string "one to inform me initially.$"
 
 RocketHideout_8F_Final_DLC_Texto_9:
-.string "Se enfrentó personalmente a su\n"
-	.string "PRESIDENTE, y fue derrotado. Esto al\l"
-	.string "tiempo que sus EJECUTIVOS contuvieron\l"
-	.string "a BILL, ANDRA y ELM.$"
+	.string "He personally confronted his PRESIDENT\n"
+	.string "and was defeated. This occurred while\l"
+	.string "the EXECUTIVES restrained BILL, ANDRA\l"
+	.string "and ELM.$"
 
 RocketHideout_8F_Final_DLC_Texto_10:
-.string "No hay duda de que cuentan con\n"
-	.string "recursos, y conocen bien el arte del\l"
-	.string "combate POKÉMON.$"
+	.string "There's no doubt they have resources\n"
+	.string "and are well-versed in the art of\l"
+	.string "POKÉMON combat.$"
 
 RocketHideout_8F_Final_DLC_Texto_11:
-.string "Tal vez puedan llevarte al límite de tu\n"
-	.string "nivel, más aún que en RUINAS ALFA,\l"
-	.string "quién sabe.$"
+	.string "Perhaps they can push you to your\n"
+	.string "limits more than in the RUINS OF ALPH,\l"
+	.string "who knows.$"
 
 RocketHideout_8F_Final_DLC_Texto_12:
-.string "Es por ello, {PLAYER}, que quiero\n"
-	.string "volver a ponerte a prueba, esta vez\l"
-	.string "haciendo uso de nuestros proyectos\l"
-	.string "más punteros.$"
+	.string "That's why, {PLAYER}, I want to test\n"
+	.string "you again, this time using our most\l"
+	.string "advanced projects.$"
 
 RocketHideout_8F_Final_DLC_Texto_13:
-.string "Ahora, ¡enfrenta todo el poder de la\n"
-	.string "tecnología desarrollada por 2\l"
-	.string "regiones!$"
+	.string "Now, face the full power of the\n"
+	.string "technology developed by two regions!$"
 
 RocketHideout_8F_Final_DLC_Texto_14:
-.string "Asombroso, sigues estando en la cima.$"
+.string "Really amazing, you are still on the top.$"
 
 RocketHideout_8F_Final_DLC_Texto_15:
-.string "No hay duda, eres el activo más valioso\n"
-	.string "con el que el TEAM ROCKET cuenta. Tu\l"
-	.string "historia como ENTRENADOR LEGENDARIO\l"
-	.string "tiene aún mucho por ofrecer, créeme.$"
+	.string "There's no doubt, you are the most\n"
+	.string "valuable asset that TEAM ROCKET\l"
+	.string "possesses. Your story as a LEGENDARY\l"
+	.string "TRAINER still has much to offer, trust\l"
+	.string "me.$"
 
 RocketHideout_8F_Final_DLC_Texto_16:
-.string "Quiero que tengas esto, sé que no\n"
-	.string "recurrirás a ello como una panacea que\l"
-	.string "solucionará todo, tal y como nosotros\l"
-	.string "intentamos en el pasado, pero\l"
-	.string "considéralo una opción más.$"
+	.string "I want you to have this. I know you\n"
+	.string "won't resort to it as a cure-all that\l"
+	.string "will solve everything, as we tried in the\l"
+	.string "past, but consider it as another option.$"
 
 RocketHideout_8F_Final_DLC_Texto_17:
-.string "¡¡OBTUVISTE UN MEWTWO AL NV.70!!$"
+.string "YOU OBTAINED A MEWTWO AT LV.70!!$"
 
 RocketHideout_8F_Final_DLC_Texto_18:
-.string "El MEWTWO original es tuyo, {PLAYER}.$"
+.string "The original MEWTWO is yours, {PLAYER}.$"
 
 RocketHideout_8F_Final_DLC_Texto_19:
-.string "Por supuesto, viene con lo último en\n"
-	.string "tecnología: la MEGA-PIEDRA que le\l"
-	.string "convierte en su forma Y. Como dije en la\l"
-	.string "reunión, el &-VOLCARONA que\l"
-	.string "enfrentaste fue vital en la mejora de\l"
-	.string "su ATAQUE ESPECIAL hasta niveles\l"
-	.string "estratosféricos.$"
+	.string "Of course, it is equipped with the\n"
+	.string "latest in technology: the MEGA STONE\l"
+	.string "that transforms it into its Y form. As I\l"
+	.string "mentioned in the meeting, the\l"
+	.string "&-VOLCARONA you faced was crucial in\l"
+	.string "boosting its SPECIAL ATTACK to\l"
+	.string "stratospheric levels.$"
 
 RocketHideout_8F_Final_DLC_Texto_20:
-.string "Eso es todo, {PLAYER}. Te recomiendo\n"
-	.string "explorar y adaptarte poco a poco a\l"
-	.string "HOENN. La sede de DEVON está en CIUDAD\l"
-	.string "FÉRRICA, sin embargo, no sabemos si ese\l"
-	.string "es o no su centro de operaciones.$"
+	.string "That's all, {PLAYER}. I recommend\n"
+	.string "exploring and gradually adapting to\l"
+	.string "HOENN. DEVON's headquarters are in\l"
+	.string "RUSTBORO CITY, however, we don't know\l"
+	.string "if that's their main operational center.$"
 
 RocketHideout_8F_Final_DLC_Texto_21:
-.string "Mientras, seguiremos desarrollando los\n"
-	.string "prototipos de nivel II y …III. Hasta\l"
-	.string "entonces… mantente mejorando.$"
+	.string "Meanwhile, we are still developing the\n"
+	.string "prototypes of level II and… III. Until\l"
+	.string "then… keep improving.$"
 
