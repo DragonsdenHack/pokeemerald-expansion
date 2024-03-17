@@ -9,9 +9,10 @@ release
 end
 
 Route49_MazeP2_Text2:
-.string "La emoción decide, y la razón justifica.\n"
-.string "¡Crees que fue obra de tu voluntad y no\l"
-.string "es más que una ilusión!$"
+	.string "The emotion decides, and reason\n"
+	.string "justifies. You think it was the work of\l"
+	.string "your will, but it's nothing more than an\l"
+	.string "illusion!$"
 
 
 
@@ -23,10 +24,10 @@ release
 end
 
 Route49_MazeP2_Text3:
-.string "Agota más hacer el esfuerzo para dejar\n"
-.string "de hacer algo que estabas haciendo que\l"
-.string "seguir haciendo algo que ya estabas\l"
-.string "haciendo.$"
+	.string "Making the effort to stop doing\n"
+	.string "something you were already doing is\l"
+	.string "more exhausting than continuing to do\l"
+	.string "something you were already doing.$"
 
 
 
@@ -38,10 +39,9 @@ release
 end
 
 Route49_MazeP2_Text4:
-.string "Bajo el pretexto de la igualdad, los\n"
-.string "esclavos se agrupan en comunas de\l"
-.string "poder para arrastrar a los superiores\l"
-.string "hacia la mediocridad.$"
+	.string "Under the pretext of equality, slaves\n"
+	.string "gather in power communes to drag the\l"
+	.string "superiors down to mediocrity.$"
 
 
 
@@ -53,12 +53,11 @@ release
 end
 
 Route49_MazeP2_Text6:
-.string "Hace tiempo que perdimos todo contacto\n"
-.string "con el resto de JOHTO. Incluso con las\l"
-.string "otras dos pagodas. Antes, esta era\l"
-.string "considerada la primera de las 4 pagodas\l"
-.string "de la región, cuando TORRE LATÓN aún\l"
-.string "estaba en pie.$"
+	.string "We lost all contact with the rest of\n"
+	.string "JOHTO long ago. Even with the other two\l"
+	.string "towers. Previously, this was considered\l"
+	.string "the first of the 4 towers in the region\l"
+	.string "when BRASS TOWER was still standing.$"
 
 
 
@@ -89,21 +88,20 @@ end
 
 Route49MazeP2Documento_Text_100:
 .string "TAABAN:\p"
-	.string "PS: 95\n"
-	.string "ATAQUE: 95\l"
-	.string "DEFENSA: 180\l"
-	.string "ATAQUE ESPECIAL: 85\l"
-	.string "DEFENSA ESPECIAL: 55\l"
-	.string "VELOCIDAD: 30\l"
+	.string "HP: 95\n"
+	.string "ATTACK: 95\l"
+	.string "DEFENSE: 180\l"
+	.string "SPECIAL ATTACK: 85\l"
+	.string "SPECIAL DEFENSE: 55\l"
+	.string "SPEED: 30\l"
 	.string "TOTAL: 540\p"
-	.string "AGUA/FANTASMA\n"
-	.string "El SHELLDER adherido a SLOWBRO cobra\l"
-	.string "conciencia propia después de su\l"
-	.string "muerte, absorbiendo parte de sus\l"
-	.string "habilidades. Como resultado: un\l"
-	.string "híbrido entre CLOYSTER y SLOWBRO,\l"
-	.string "ligeramente más poderoso que ambos\l"
-	.string "POKÉMON marinos.$"
+	.string "WATER/GHOST\n"
+	.string "The SHELLDER attached to SLOWBRO\l"
+	.string "gains consciousness after its death,\l"
+	.string "absorbing some of its abilities. As a\l"
+	.string "result, a hybrid between CLOYSTER and\l"
+	.string "SLOWBRO emerges, slightly more powerful\l"
+	.string "than both marine POKÉMON.$"
 
 
 
@@ -120,21 +118,21 @@ end
 
 Route49MazeP2Documento_Text_101:
 .string "BOMUSHIKAA:\p"
-	.string "PS: 90\n"
-	.string "ATAQUE: 65\l"
-	.string "DEFENSA: 80\l"
-	.string "ATAQUE ESPECIAL: 102\l"
-	.string "DEFENSA ESPECIAL: 112\l"
-	.string "VELOCIDAD: 80\l"
+	.string "HP: 90\n"
+	.string "ATTACK: 65\l"
+	.string "DEFENSE: 80\l"
+	.string "SPECIAL ATTACK: 102\l"
+	.string "SPECIAL DEFENSE: 112\l"
+	.string "SPEED: 80\l"
 	.string "TOTAL: 529\p"
-	.string "TIPO: AGUA/FUEGO\n"
-	.string "HABILIDAD: ABSORBER AGUA\l"
-	.string "Pertenece a la misma rama familiar de\l"
-	.string "DEWGONG y WALREIN, aunque intercambia\l"
-	.string "el TIPO HIELO por el FUEGO. Su\l"
-	.string "HABILIDAD le hará inmune al propio TIPO\l"
-	.string "AGUA, al tiempo que es capaz de lanzar\l"
-	.string "poderosos movimientos de FUEGO.$"
+	.string "TYPE: WATER/FIRE\n"
+	.string "ABILITY: WATER ABSORB\l"
+	.string "It belongs to the same family branch as\l"
+	.string "DEWGONG and WALREIN, although it swaps\l"
+	.string "the ICE TYPE for the FIRE. Its Ability\l"
+	.string "grants immunity to the WATER TYPE,\l"
+	.string "while also allowing it to unleash\l"
+	.string "powerful FIRE TYPE moves.$"
 
 
 
@@ -151,19 +149,19 @@ end
 
 Route49MazeP2Documento_Text_102:
 .string "MADAAMU:\p"
-	.string "PS: 77\n"
-	.string "ATAQUE: 145\l"
-	.string "DEFENSA: 95\l"
-	.string "ATAQUE ESPECIAL: 63\l"
-	.string "DEFENSA ESPECIAL: 82\l"
-	.string "VELOCIDAD: 85\l"
+	.string "HP: 77\n"
+	.string "ATTACK: 145\l"
+	.string "DEFENSE: 95\l"
+	.string "SPECIAL ATTACK: 63\l"
+	.string "SPECIAL DEFENSE: 82\l"
+	.string "SPEED: 85\l"
 	.string "TOTAL: 547\p"
-	.string "TIPO: PLANTA/VOLADOR\n"
-	.string "HABILIDAD: CORTANTE\l"
-	.string "El GRAN MAESTRO del CARBÓN en AZALEA\l"
-	.string "solía contar con uno. Sus movimientos\l"
-	.string "son tan precisos y armoniosos que\l"
-	.string "logra traspasar la barrera del TIPO\l"
-	.string "FANTASMA, golpeándolos con su temible\l"
-	.string "ATAQUE FÍSICO y movimientos LUCHA o\l"
-	.string "NORMAL.$"
+	.string "TYPE: GRASS/FLYING\n"
+	.string "ABILITY: INTIMIDATE\l"
+	.string "The COAL GRANDMASTER in AZALEA used to\l"
+	.string "have one. Its movements are so precise\l"
+	.string "and harmonious that it manages to\l"
+	.string "break through the GHOST TYPE barrier,\l"
+	.string "striking them with its formidable\l"
+	.string "PHYSICAL ATTACK and FIGHTING or\l"
+	.string "NORMAL moves.$"

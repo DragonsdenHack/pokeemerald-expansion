@@ -9,8 +9,8 @@ release
 end
 
 Route49_Pagoda_P5_Primer_Pensador_Texto_1:
-.string "Hoy en día la gente sabe el precio de\n"
-	.string "todo, y el valor de nada.$"
+	.string "Today, people know the price of\n"
+	.string "everything and the value of nothing.$"
 
 Route49_Pagoda_P5_Segundo_Pensador::
 lock
@@ -20,8 +20,8 @@ release
 end
 
 Route49_Pagoda_P5_Segundo_Pensador_Texto_1:
-.string "La TORRE DUN consta de 14 plantas, es\n"
-	.string "más alta y antigua que TORRE CAMPANA.$"
+	.string "The DUN TOWER consists of 14 floors, it\n"
+	.string "is taller and older than the BELL TOWER.$"
 
 Route49_Pagoda_P5_Tercer_Pensador::
 lock

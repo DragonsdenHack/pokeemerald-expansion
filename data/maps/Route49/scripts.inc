@@ -9,26 +9,27 @@ release
 end
 
 Route49_Text_1:
-.string "Nada ocurrió nunca en el pasado;\n"
-.string "ocurrió en el ahora. Nada ocurrirá\l"
-.string "nunca en el futuro; ocurrirá en el\l"
-.string "ahora. Lo que piensas que es el pasado\l"
-.string "es un registro almacenado en la mente\l"
-.string "de un ahora anterior. Cuando recuerdas\l"
-.string "el pasado, activas un registro\l"
-.string "memorístico, y lo haces en el ahora. El\l"
-.string "futuro es un ahora imaginado, una\l"
-.string "proyección de la mente. Cuando llega el\l"
-.string "futuro, llega como un ahora. Cuando\l"
-.string "piensas en el futuro, piensas ahora. Es\l"
-.string "evidente que el pasado y futuro no\l"
-.string "tienen realidad propia. Del mismo modo\l"
-.string "que la Luna no tiene luz propia y solo\l"
-.string "puede reflejar la luz del Sol, el pasado\l"
-.string "y el futuro solo son pálidos reflejos\l"
-.string "de la luz, el poder y la realidad del\l"
-.string "eterno presente. Su realidad les ha\l"
-.string "sido <prestada> por el ahora.$"
+	.string "Nothing ever occurred in the past; it\n"
+	.string "happened in the present. Nothing will\l"
+	.string "ever happen in the future; it will\l"
+	.string "happen in the present. What you\l"
+	.string "perceive as the past is a record stored\l"
+	.string "in the mind of a previous present. When\l"
+	.string "you recall the past, you activate a\l"
+	.string "memory record, and you do so in the\l"
+	.string "present. The future is an imagined\l"
+	.string "present, a projection of the mind. When\l"
+	.string "the future arrives, it arrives as a\l"
+	.string "present. When you think about the\l"
+	.string "future, you think now. It's evident that\l"
+	.string "the past and future have no inherent\l"
+	.string "reality. Just as the Moon has no light\l"
+	.string "of its own and can only reflect the\l"
+	.string "light of the Sun, the past and the\l"
+	.string "future are only pale reflections of the\l"
+	.string "light, power, and reality of the eternal\l"
+	.string "present. Their reality has been\l"
+	.string "borrowed from the now.$"
 
 
 
@@ -40,10 +41,10 @@ release
 end
 
 Route49_Text_2:
-.string "Este lugar es aún más antiguo que las\n"
-.string "pagodas de IRIS y MALVA, es el lugar en\l"
-.string "el que el VÍNCULO entre humanos y\l"
-.string "POKÉMON nació en JOHTO.$"
+	.string "This location is older still than the\n"
+	.string "pagodas of ECRUTEAK and VIOLET; it's\l"
+	.string "where the bond between humans and\l"
+	.string "POKÉMON originated in JOHTO.$"
 
 
 
@@ -55,9 +56,8 @@ release
 end
 
 Route49_Text_4:
-.string "La presencia es la llave de la libertad,\n"
-.string "de modo que solo puedes ser libre\l"
-.string "ahora.$"
+	.string "Presence is the key to freedom, so you\n"
+	.string "can only be free now.$"
 
 
 
@@ -69,10 +69,10 @@ release
 end
 
 Route49_Text_5:
-.string "¿EUSINE te ha llevado hasta aquí?\n"
-.string "Debes tener algo muy especial, EUSINE\l"
-.string "es muy reacio a que gente de fuera\l"
-.string "acceda a este lugar.$"
+	.string "EUSINE brought you here? You must have\n"
+	.string "something very special; EUSINE is very\l"
+	.string "reluctant to let outsiders access this\l"
+	.string "place.$"
 
 
 
@@ -84,9 +84,9 @@ release
 end
 
 Route49_Text_7:
-.string "Algo cambió no hace mucho en JOHTO, ese\n"
-.string "cambio modificó las leyes del MUNDO\l"
-.string "POKÉMON para siempre.$"
+	.string "Something changed not long ago in\n"
+	.string "JOHTO, that change altered the laws of\l"
+	.string "the POKÉMON WORLD forever.$"
 
 Route49_Combate_Andra::
 lock
@@ -248,118 +248,115 @@ face_up
 step_end
 
 Route49_Combate_Andra_Texto_1:
-.string "PENSADOR: Es…imposible, el último en\n"
-	.string "pasar la prueba fue EUSINE, hace ya\l"
-	.string "más de una década.$"
+	.string "SAGE: This is… impossible. The last one\n"
+	.string "to pass the test was EUSINE, over a\l"
+	.string "decade ago.$"
 
 Route49_Combate_Andra_Texto_2:
-.string "ANDRA: ¿Cómo sabes que la he pasado?\n"
-	.string "Es cierto que ese POKÉMON dejó caer\l"
-	.string "una extraña PIEDRA DORADA, después de\l"
-	.string "derrotarla. Sin embargo, uno de mis\l"
-	.string "POKÉMON reaccionó a ella, y fue\l"
-	.string "consumida. No tengo pruebas de que\l"
-	.string "cumplí el reto.$"
+	.string "ANDRA: How do you know I passed it?\n"
+	.string "It's true that the POKÉMON dropped a\l"
+	.string "strange GOLDEN STONE after defeating\l"
+	.string "it. However, one of my POKÉMON reacted\l"
+	.string "to it and was consumed. I have no proof\l"
+	.string "that I completed the challenge.$"
 
 Route49_Combate_Andra_Texto_3:
-.string "PENSADOR: Tenemos una conexión muy\n"
-	.string "especial con el POKÉMON SAGRADO, lo que\l"
-	.string "vea, nuestro GRAN MAESTRO también lo\l"
-	.string "verá.$"
+	.string "SAGE: We share a profound connection\n"
+	.string "with the SACRED POKÉMON; whatever I\l"
+	.string "witness, our GRAND MASTER will witness\l"
+	.string "as well.$"
 
 Route49_Combate_Andra_Texto_4:
-.string "ANDRA: No era para tanto, ese POKÉMON\n"
-	.string "era muy fuerte. Pero, por muy fuerte\l"
-	.string "que sea, un solo POKÉMON poco puede\l"
-	.string "hacer ante un equipo de 6 bien\l"
-	.string "entrenado.$"
+	.string "ANDRA: It wasn't that big of a deal;\n"
+	.string "that POKÉMON was very strong. But, no\l"
+	.string "matter how strong it is, a single\l"
+	.string "POKÉMON can do little against a\l"
+	.string "well-trained team of 6.$"
 
 Route49_Combate_Andra_Texto_5:
-.string "PENSADOR: No lo entiendes chica, la\n"
-	.string "dificultad de la prueba estriba en que\l"
-	.string "el dragón sagrado se digne a aparecer,\l"
-	.string "de ningún otro modo podría obtenerse\l"
-	.string "ese objeto.$"
+	.string "SAGE: You don't understand, girl. The\n"
+	.string "difficulty of the test lies in the\l"
+	.string "sacred dragon deigning to appear;\l"
+	.string "there's no other way to obtain that\l"
+	.string "item.$"
 
 Route49_Combate_Andra_Texto_6:
 .string "…$"
 
 Route49_Combate_Andra_Texto_7:
-.string "¿Qué? ¿Tú también derrotaste al\n"
-	.string "dragón? Eso no es posible, siempre ha\l"
-	.string "bendecido a una única persona a la vez.$"
+	.string "What? You also defeated the dragon?\n"
+	.string "That's impossible; it has always blessed\l"
+	.string "only one individual at a time.$"
 
 Route49_Combate_Andra_Texto_8:
-.string "ANDRA: ¿No has dicho que tu GRAN\n"
-	.string "MAESTRO lo sabe todo? Él podrá\l"
-	.string "probarlo.$"
+	.string "ANDRA: Didn't you say your GRAND\n"
+	.string "MASTER knows everything? He can verify\l"
+	.string "it then.$"
 
 Route49_Combate_Andra_Texto_9:
-.string "PENSADOR: Lo siento, pero nuestras\n"
-	.string "costumbres no contemplan esta\l"
-	.string "excepción, deberéis de combatir por el\l"
-	.string "honor de entrar a este sagrado lugar.$"
+	.string "SAGE: I'm sorry, but our customs don't\n"
+	.string "allow for this exception. You must\l"
+	.string "battle for the honor of entering this\l"
+	.string "sacred place.$"
 
 Route49_Combate_Andra_Texto_10:
-.string "ANDRA: De modo que así va a ser…$"
+.string "ANDRA: So it will be this way…$"
 
 Route49_Combate_Andra_Texto_11:
-.string "No creas que combatiré porque ha sido\n"
-	.string "tu voluntad, anciano, tampoco porque\l"
-	.string "esté de acuerdo con esta injusticia. Si\l"
-	.string "combato ahora con {PLAYER} es\l"
-	.string "únicamente por el mero placer de\l"
-	.string "enfrentar a un rival a mi altura.$"
+	.string "Don't think I'll battle just because it's\n"
+	.string "your will, old man, nor because I agree\l"
+	.string "with this injustice. If I fight now with\l"
+	.string "{PLAYER}, it's solely for the sheer\l"
+	.string "pleasure of facing a rival of my caliber.$"
 
 Route49_Combate_Andra_Texto_12:
-.string "Vamos, ¡dejemos con la boca abierta a\n"
-	.string "estos monjes, mostrémosles los frutos\l"
-	.string "de todo nuestro entrenamiento!$"
+	.string "Come on, let's leave these monks in awe,\n"
+	.string "let's demonstrate the fruits of all our\l"
+	.string "training!$"
 
 Route49_Combate_Andra_Texto_13:
-.string "Ja, ja, ja… Incluso rozar la perfección\n"
-	.string "es insuficiente contra ti.$"
+	.string "Ha, ha, ha… Even grazing the perfection\n"
+	.string "is not enough against you.$"
 
 Route49_Combate_Andra_Texto_14:
-.string "PENSADOR: Extraordinario, vuestro\n"
-	.string "nivel está casi a la altura de nuestro\l"
-	.string "GRAN MAESTRO.$"
+	.string "SAGE: Extraordinary, your level is\n"
+	.string "nearly on par with our GRAND MASTER.$"
 
 Route49_Combate_Andra_Texto_15:
-.string "ANDRA: ¿Casi? He visto cosas en tu\n"
-	.string "región que tú jamás creerías,\l"
-	.string "{PLAYER} incluso más que yo. Estoy\l"
-	.string "harta de enfrentar a supuestos rivales\l"
-	.string "superiores solo para derrotarlos con mi\l"
-	.string "tenacidad.$"
+	.string "ANDRA: Nearly? I've seen things in your\n"
+	.string "region that you wouldn't believe,\l"
+	.string "{PLAYER}, even more than I. I'm tired\l"
+	.string "of facing supposed superior rivals only\l"
+	.string "to defeat them with my tenacity.$"
 
 Route49_Combate_Andra_Texto_16:
-.string "PENSADOR: ¿Cómo osas…?$"
+.string "SAGE: How dare you…?$"
 
 Route49_Combate_Andra_Texto_17:
-.string "EUSINE: Dicen la verdad.$"
+.string "EUSINE: They say the truth.$"
 
 Route49_Combate_Andra_Texto_18:
-.string "PENSADOR: ¡EUSINE! ¿Tú?$"
+.string "SAGE: EUSINE! You?$"
 
 Route49_Combate_Andra_Texto_19:
-.string "EUSINE: El POKÉMON SAGRADO le ha\n"
-	.string "comunicado todo al GRAN MAESTRO. Los\l"
-	.string "dos deben subir, sin excepción.$"
+	.string "EUSINE: The SACRED POKÉMON has\n"
+	.string "communicated everything to the GRAND\l"
+	.string "MASTER. Both of them must ascend,\l"
+	.string "without exception.$"
 
 Route49_Combate_Andra_Texto_20:
-.string "PENSADOR: Como el GRAN MAESTRO ordene.$"
+.string "SAGE: As the GRAND MASTER orders.$"
 
 Route49_Combate_Andra_Texto_21:
-.string "EUSINE: Bien.$"
+.string "EUSINE: All right.$"
 
 Route49_Combate_Andra_Texto_22:
-.string "Os esperamos arriba a los dos…si sois\n"
-	.string "capaces de llegar.$"
+	.string "We'll be waiting for both of you\n"
+	.string "upstairs… if you're able to reach us.$"
 
 Route49_Combate_Andra_Texto_23:
-.string "ANDRA: Veremos de que es capaz ahora\n"
-	.string "tu maestro.$"
+	.string "ANDRA: We will see, what is your master\n"
+	.string "capable of.$"
 
 
 Route49_Barrera::
@@ -386,10 +383,11 @@ release
 end
 
 Route49_Barrera_Texto_1:
-.string "Seas quien seas, no puedes entrar a\n"
-	.string "este lugar sagrado. Solo obteniendo la\l"
-	.string "PIEDRA DORADA en la ruta del norte\l"
-	.string "demostrarás que mereces un lugar aquí.$"
+	.string "Whoever you are, you can't enter this\n"
+	.string "sacred place. Only by obtaining the\l"
+	.string "GOLDEN STONE on the northern route will\l"
+	.string "you prove that you deserve a place\l"
+	.string "here.$"
 
 Route49_Protector_Pagoda::
 lock
@@ -406,7 +404,7 @@ release
 end
 
 Route49_Protector_Pagoda_Texto_2:
-.string "Mis más sinceras disculpas. Somos muy\n"
-	.string "estrictos con las normas, de lo\l"
-	.string "contrario este lugar no hubiera\l"
-	.string "permanecido tanto tiempo intacto.$"
+	.string "I offer my sincerest apologies. We\n"
+	.string "uphold strict rules; otherwise, this\l"
+	.string "place wouldn't have remained untouched\l"
+	.string "for so long.$"

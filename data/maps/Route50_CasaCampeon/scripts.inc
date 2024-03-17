@@ -29,28 +29,28 @@ end
 
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_1:
-.string "¿¡Q…quién?!$"
+.string "W… who?!$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_2:
-.string "Oh… pensaba que eras mi marido, que\n"
-	.string "había vuelto.$"
+	.string "Oh… I thought you were my husband that\n"
+	.string "came back.$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_3:
-.string "Se dedicó a viajar por JOHTO, pero él ya\n"
-	.string "conoce todos sus rincones.$"
+	.string "He dedicated to traveling through\n"
+	.string "JOHTO, but he already knows every\l"
+	.string "corner.$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_4:
-.string "Ahora creo que está retirado en el\n"
-	.string "MT.PLATEADO. ¿Si lo ves podrías\l"
-	.string "recordarle este lugar? Dile que yo he\l"
-	.string "vuelto.$"
+	.string "Now I think he's retired to MT. SILVER.\n"
+	.string "If you see him, could you remind him of\l"
+	.string "this place? Tell him that I've returned.$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_5:
-	.string "Gracias a ti, volvemos a estar juntos en\n"
-	.string "este lugar. Hacía tiempo que habíamos\l"
-	.string "perdido el contacto, cada uno con sus\l"
-	.string "propios objetivos… Ahora podremos\l"
-	.string "disfrutar juntos de esta tranquilidad.$"
+	.string "Thanks to you, we're reunited in this\n"
+	.string "place once again. It's been a while\l"
+	.string "since we lost contact, each pursuing\l"
+	.string "our own objectives… Now we can savor\l"
+	.string "this tranquility together.$"
 
 
 Route50_CasaCampeon_Combate_Campeon::
@@ -85,56 +85,54 @@ Route50_CasaCampeon_Combate_Campeon_No::
 msgbox Route50_CasaCampeon_Combate_Campeon_Texto_3 MSGBOX_AUTOCLOSE
 
 Route50_CasaCampeon_Combate_Campeon_Texto_1:
-.string "¡Ah, {PLAYER}! No creí volver a verte,\n"
-	.string "las viejas glorias suelen estar más\l"
-	.string "para contemplarlas que para ser\l"
-	.string "escuchadas de verdad.$"
+	.string "Ah, {PLAYER}! I didn't expect to see\n"
+	.string "you again. Old glories are usually more\l"
+	.string "for gazing at than for truly being\l"
+	.string "heard.$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_2:
-.string "Tú sin embargo pareces querer indagar\n"
-	.string "más allá de la superficie. Dime,\l"
-	.string "¿echarías un combate con este viejo\l"
-	.string "CAMPEÓN?$"
+	.string "However, you seem to want to delve\n"
+	.string "deeper beyond the surface. Tell me,\l"
+	.string "would you be up for a battle with this\l"
+	.string "old CHAMPION?$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_3:
-.string "Tranquilo, no me moveré de aquí. ¡Jo, jo,\n"
-	.string "jo!$"
+	.string "Don't worry, I won't move from here. Ho,\n"
+	.string "ho, ho!$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_4:
-.string "Así se habla, veamos cómo están las\n"
-	.string "nuevas generaciones. ¡Mis técnicas\l"
-	.string "VENENO harían llorar a KOGA!$"
+	.string "That's the spirit! Let's see how the new\n"
+	.string "generations fare. My POISON techniques\l"
+	.string "would make KOGA cry!$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_5:
-.string "Impresionante, has anulado el veneno\n"
-	.string "de mis POKÉMON.$"
+	.string "Impressive, you have countered the\n"
+	.string "poison of my POKÉMON$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_6:
-.string "Ahora creo saber quién eres, eres ese\n"
-	.string "ENTRENADOR en las sombras. Cuentan\l"
-	.string "que enfrentaste a la misma ESENCIA que\l"
-	.string "da forma a este mundo, y saliste airoso.\l"
-	.string "Sabiendo eso no me extraña nada tu\l"
-	.string "nivel.$"
+	.string "Now I think I know who you are, you're\n"
+	.string "that TRAINER in the shadows. They say\l"
+	.string "you faced the same ESSENCE that\l"
+	.string "shapes this world, and came out\l"
+	.string "victorious. Knowing that, it's no wonder\l"
+	.string "your level is so high.$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_7:
-.string "Te haré un regalo muy especial, una de\n"
-	.string "las especies más bizarras que hallé en\l"
-	.string "uno de mis muchos viajes.$"
+	.string "I'll give you a very special gift, one of\n"
+	.string "the most bizarre species I found during\l"
+	.string "one of my many journeys.$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_8:
-.string "¡OBTUVISTE UN POIPOLE AL NV.50!$"
+.string "YOU OBTAINED A LV.50 POIPOLE!$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_9:
-.string "Al crecer, se convierte en uno de los\n"
-	.string "POKÉMON más rápidos y letales que\l"
-	.string "conozco, muy pocos igualan su\l"
-	.string "versatilidad.$"
+	.string "As it grows, it becomes one of the\n"
+	.string "fastest and most lethal POKÉMON I\l"
+	.string "know, very few match its versatility.$"
 
 Route50_CasaCampeon_Combate_Campeon_Texto_10:
-.string "Ha sido un placer tener este rato\n"
-	.string "contigo, las personas de nuestra edad\l"
-	.string "solemos caer en la monotonía y el\l"
-	.string "aburrimiento. Por unos momentos tú me\l"
-	.string "has hecho sentir lo que es ser un\l"
-	.string "verdadero ENTRENADOR, como antaño…$"
+	.string "It's been a pleasure spending this time\n"
+	.string "with you. People our age often fall into\l"
+	.string "monotony and boredom. For a moment, you\l"
+	.string "made me feel what it's like to be a true\l"
+	.string "TRAINER, like in the old days…$"

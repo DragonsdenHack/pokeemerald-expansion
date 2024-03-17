@@ -9,12 +9,11 @@ release
 end
 
 Route49_MazeP1_Text2:
-.string "La PIEDRA DORADA… ¿De modo que\n"
-.string "obtuviste una? Reacciona ante\l"
-.string "determinados POKÉMON de JOHTO, que\l"
-.string "antes evolucionaban, por la mera\l"
-.string "exposición a un medio ambiente que ya\l"
-.string "no existe, ni siquiera aquí.$"
+	.string "The GOLDEN STONE… So, you managed to\n"
+	.string "get one? It responds to specific JOHTO\l"
+	.string "POKÉMON that used to evolve solely\l"
+	.string "through exposure to an environment\l"
+	.string "that no longer exists, not even here.$"
 
 
 
@@ -26,10 +25,9 @@ release
 end
 
 Route49_MazeP1_Text3:
-.string "Trabajamos demasiado duro, lo\n"
-.string "intentamos con demasiado ímpetu, pero\l"
-.string "el secreto de la plenitud está ahí,\l"
-.string "mirándonos fijamente.$"
+	.string "We work too hard, we try with too much\n"
+	.string "fervor, but the secret of fulfillment is\l"
+	.string "there, staring us in the face.$"
 
 
 
@@ -41,9 +39,9 @@ release
 end
 
 Route49_MazeP1_Text4:
-.string "Sois buenos, pero podríais ser\n"
-.string "magníficos, tú y tu amiga. Aún os falta\l"
-.string "camino por recorrer.$"
+	.string "You two are good, but you could be\n"
+	.string "magnificent, you and your friend. You\l"
+	.string "still have a long way to go.$"
 
 
 
@@ -55,9 +53,9 @@ release
 end
 
 Route49_MazeP1_Text5:
-.string "Nunca fue tan estúpida el águila\n"
-.string "imperial que aceptó las enseñanzas del\l"
-.string "cuervo mugriento.$"
+	.string "Never was the imperial eagle so foolish\n"
+	.string "as to heed the teachings of the filthy\l"
+	.string "raven…$"
 
 
 
@@ -88,23 +86,23 @@ end
 
 Route49MazeP1Documento_Text_100:
 .string "IKARY:\p"
-	.string "PS: 65\n"
-	.string "ATAQUE: 125\l"
-	.string "DEFENSA: 95\l"
-	.string "ATAQUE ESPECIAL: 35\l"
-	.string "DEFENSA ESPECIAL: 75\l"
-	.string "VELOCIDAD: 95\l"
+	.string "HP: 65\n"
+	.string "ATTACK: 125\l"
+	.string "DEFENSE: 95\l"
+	.string "SPECIAL ATTACK: 35\l"
+	.string "SPECIAL DEFENSE: 75\l"
+	.string "SPEED: 95\l"
 	.string "TOTAL: 490\p"
-	.string "TIPO: AGUA/ACERO\n"
-	.string "HABILIDAD: ALLANAMIENTO\l"
-	.string "Comparte parentesco con la línea\l"
-	.string "evolutiva de CARVANHA, aunque su\l"
-	.string "cerebro es mucho más primitivo. Su TIPO\l"
-	.string "ACERO lo convierte en un rival temible.\l"
-	.string "Se enfrentará a cualquier rival con\l"
-	.string "total descaro, sin medir consecuencias\l"
-	.string "ni nada que perder, por ello todos\l"
-	.string "suelen apartarse a su paso.$"
+	.string "TYPE: WATER/STEEL\n"
+	.string "ABILITY: INFILTRATOR\l"
+	.string "It's related to the evolutionary line of\l"
+	.string "CARVANHA, though its brain is far more\l"
+	.string "primitive. Its STEEL typing makes it a\l"
+	.string "fearsome adversary. It'll face any\l"
+	.string "challenger with complete audacity,\l"
+	.string "heedless of consequences or anything\l"
+	.string "at stake, which is why most tend to\l"
+	.string "clear its path.$"
 
 
 
@@ -121,23 +119,22 @@ end
 
 Route49MazeP1Documento_Text_101:
 .string "PURAKKUSU:\p"
-	.string "PS: 85\n"
-	.string "ATAQUE: 135\l"
-	.string "DEFENSA: 110\l"
-	.string "ATAQUE ESPECIAL: 45\l"
-	.string "DEFENSA ESPECIAL: 80\l"
-	.string "VELOCIDAD: 95\l"
+	.string "HP: 85\n"
+	.string "ATTACK: 135\l"
+	.string "DEFENSE: 110\l"
+	.string "SPECIAL ATTACK: 45\l"
+	.string "SPECIAL DEFENSE: 80\l"
+	.string "SPEED: 95\l"
 	.string "TOTAL: 550\p"
-	.string "TIPO: BICHO/VENENO\n"
-	.string "HABILIDAD: INTIMIDACIÓN\l"
-	.string "De la familia de PINSIR, se cree que es\l"
-	.string "una antigua adaptación que logró\l"
-	.string "inclinar la rivalidad\l"
-	.string "PINSIR-HERACROSS, debido al aumento\l"
-	.string "de su poder físico y la ganancia de\l"
-	.string "INTIMIDACIÓN como HABILIDAD. Sin\l"
-	.string "embargo, la mayoría de PINSIR no\l"
-	.string "podían sostener esta adaptación en\l"
-	.string "sus cuerpos y acabó extinguiéndose,\l"
-	.string "quedan unos pocos en zonas muy\l"
-	.string "concretas.$"
+	.string "TYPE: BUG/POISON\n"
+	.string "ABILITY: INTIMIDATE\l"
+	.string "From the same family as PINSIR, it's\l"
+	.string "believed to be an ancient adaptation\l"
+	.string "that tilted the PINSIR-HERACROSS\l"
+	.string "rivalry, due to its increased physical\l"
+	.string "power and acquisition of INTIMIDATE as\l"
+	.string "an ability. However, most PINSIR\l"
+	.string "couldn't sustain this adaptation in\l"
+	.string "their bodies and ended up going\l"
+	.string "extinct, with only a few remaining in\l"
+	.string "very specific areas.$"

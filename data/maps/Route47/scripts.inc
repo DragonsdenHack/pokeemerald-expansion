@@ -48,8 +48,8 @@ end
 
 
 Route47_5_Text_5YesNo:
-    .string "Dime, ¿crees ya haber visto todo cuanto\n"
-	.string "este mundo tiene por ofrecer?$"
+	.string "Tell me, do you think you already have\n"
+	.string "seen all that this world offers?$"
 
 
 
@@ -60,17 +60,17 @@ end
 
 
 Route47_5_Text_5Yes:
-    .string "Mmm, te entiendo, crees que nada puede\n"
-	.string "superar lo que has vivido. No obstante,\l"
-	.string "siempre hay lugar para la sorpresa, el\l"
-	.string "poder bruto y absurdo puede ser\l"
-	.string "rebasado por la calidad y la\l"
-	.string "experiencia.$"
+	.string "I understand your perspective; you\n"
+	.string "believe that nothing can surpass what\l"
+	.string "you've experienced. However, there's\l"
+	.string "always room for surprise; brute and\l"
+	.string "absurd power can be surpassed by\l"
+	.string "quality and experience.$"
 
 Route47_5_Text_5No:
-    .string "¡Eso es! ¡Mantén viva esa ilusión del\n"
-	.string "principiante que inicia su aventura!\l"
-	.string "¡Es el camino a la sabiduría!$"
+	.string "That's it! Keep that beginner's\n"
+	.string "enthusiasm alive as you embark on your\l"
+	.string "adventure! It's the path to wisdom!$"
 
 
 Route47_Encuentro_Andra_Arriba::
@@ -208,60 +208,60 @@ face_right
 step_end
 
 Route47_Encuentro_Andra_Texto_1:
-.string "¿Tú también por aquí, {PLAYER}?$"
+.string "You're here too, {PLAYER}?$"
 
 Route47_Encuentro_Andra_Texto_1.1:
-.string "JOHTO no deja de sorprenderme, esta\n"
-	.string "región es mucho más de lo que a simple\l"
-	.string "vista aparenta. Mira.$"
+	.string "JOHTO never ceases to amaze me; this\n"
+	.string "region is much more than meets the eye.\l"
+	.string "Look.$"
 
 Route47_Encuentro_Andra_Texto_2:
-.string "ANDRA: Este lugar es precioso, parece\n"
-	.string "que GIOVANNI no quiso privarnos a\l"
-	.string "ninguno de los 2 de apreciarlo. Ambos\l"
-	.string "teníamos esta misión asignada.$"
+	.string "ANDRA: This place is beautiful; it seems\n"
+	.string "GIOVANNI didn't want either of us to\l"
+	.string "miss out on appreciating it. We both had\l"
+	.string "this mission assigned.$"
 
 Route47_Encuentro_Andra_Texto_2.1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route47_Encuentro_Andra_Texto_3:
-.string "¿Tú también lo has notado? Desde que\n"
-	.string "derrotaste al POKÉMON ESENCIA, es\l"
-	.string "como si los límites a los que un\l"
-	.string "POKÉMON puede llegar hubieran\l"
-	.string "cambiado.$"
+	.string "Did you also notice? Ever since you\n"
+	.string "defeated the ESSENCE POKÉMON, it feels\l"
+	.string "like the limits of what a POKÉMON can\l"
+	.string "achieve have shifted.$"
 
 Route47_Encuentro_Andra_Texto_4:
-.string "Un ENTRENADOR normal no notaría el\n"
-	.string "cambio, incluso ROJO, LANCE o el ALTO\l"
-	.string "MANDO que enfrentamos en KANTO, no\l"
-	.string "notarían la diferencia.$"
+	.string "A regular TRAINER wouldn't notice the\n"
+	.string "change; even RED, LANCE, or the ELITE\l"
+	.string "FOUR we faced in KANTO wouldn't notice\l"
+	.string "the difference.$"
 
 Route47_Encuentro_Andra_Texto_5:
-.string "Pero aquellos que se han acercado, o\n"
-	.string "incluso llegado al límite, habrán\l"
-	.string "notado que el margen de mejora de sus\l"
-	.string "POKÉMON es mayor, te permite un último\l"
-	.string "plus cuando crees haber llegado al\l"
-	.string "techo.$"
+	.string "However, those who have approached or\n"
+	.string "even reached the limit will have noticed\l"
+	.string "that the potential for improvement of\l"
+	.string "their POKÉMON is greater. It grants you\l"
+	.string "one final push when you believe you've\l"
+	.string "reached the peak.$"
 
 Route47_Encuentro_Andra_Texto_6:
-.string "Desde que iniciamos este viaje en ISLA\n"
-	.string "INTA, siempre nos la hemos arreglado\l"
-	.string "para superarnos, a pesar de todas las\l"
-	.string "experiencias vividas, cada encuentro\l"
-	.string "nuestro ha logrado superar a la versión\l"
-	.string "anterior, ¿hasta cuándo crees que\l"
-	.string "seguirá así?$"
+	.string "Since we started this journey on\n"
+	.string "CHRONO ISLAND, we've always managed to\l"
+	.string "surpass ourselves, despite all the\l"
+	.string "experiences we've had. Each of our\l"
+	.string "encounters has surpassed the previous\l"
+	.string "version. How long do you think it will\l"
+	.string "continue like this?$"
 
 Route47_Encuentro_Andra_Texto_7:
-.string "Tal vez estas rutas nos den\n"
-	.string "respuestas, diría que hay cosas muy\l"
-	.string "interesantes esperando más al oeste.$"
+	.string "Perhaps these routes will give us\n"
+	.string "answers; I would say there are very\l"
+	.string "interesting things waiting further\l"
+	.string "west.$"
 
 Route47_Encuentro_Andra_Texto_8:
-.string "Nos vemos {PLAYER}, ¡mantén en forma\n"
-	.string "a los tuyos!$"
+	.string "See you {PLAYER}, keep your Pokémon\n"
+	.string "in shape!$"
 
 
 Route47_Encuentro_Maestro_Anciano::
@@ -297,41 +297,42 @@ walk_slow_left
 step_end
 
 Route47_Encuentro_Maestro_Anciano_Texto_1:
-.string "Dichosos sean mis ojos. ¡{PLAYER}!\n"
-	.string "¡Tus acciones han cambiado el rumbo de\l"
-	.string "la historia!$"
+	.string "How lucky I am to see you. {PLAYER}!\n"
+	.string "Your deeds have shifted the course of\l"
+	.string "history!$"
 
 Route47_Encuentro_Maestro_Anciano_Texto_2:
-.string "Después de lo de RUINAS ALFA, ¿qué más\n"
-	.string "te queda por hacer? Bueno, como dice el\l"
-	.string "dicho, en JOHTO siempre queda algo por\l"
-	.string "hacer, si sabes adónde ir.$"
+	.string "After the events at the RUINS OF ALPH,\n"
+	.string "what else do you have left to do? Well,\l"
+	.string "as the saying goes, in JOHTO there's\l"
+	.string "always something to do if you know\l"
+	.string "where to go.$"
 
 Route47_Encuentro_Maestro_Anciano_Texto_3:
-.string "Veo que sigues buscando retos, ¿eh? Lo\n"
-	.string "cierto es que estás en el lugar\l"
-	.string "correcto, más al oeste está uno de los\l"
-	.string "lugares más antiguos de JOHTO. Llevaba\l"
-	.string "décadas sin venir aquí, creí que el\l"
-	.string "MAESTRO de C.IRIS había viajado hasta\l"
-	.string "este lugar sagrado, tenía esperanzas de\l"
-	.string "conversar una última vez con él pero...\l"
-	.string "parece que HO-OH estimó que su hora\l"
-	.string "había llegado.$"
+	.string "I see you're still looking for\n"
+	.string "challenges, huh? The truth is, you're in\l"
+	.string "the right place. Further west lies one\l"
+	.string "of JOHTO's oldest sites. It's been\l"
+	.string "decades since I've been here. I thought\l"
+	.string "the MASTER of ECRUTEAK CITY had\l"
+	.string "traveled here. I hoped to have one last\l"
+	.string "conversation with him, but… it seems\l"
+	.string "HO-OH decided his time had come.$"
 
 Route47_Encuentro_Maestro_Anciano_Texto_4:
-.string "Pero no hay de qué lamentarse. El mejor\n"
-	.string "relevo posible lo tengo aquí delante.\l"
-	.string "Te daré un consejo: dirígete más al\l"
-	.string "oeste, ahí... tal vez incluso alguien de\l"
-	.string "tu nivel encuentre lo que necesita,\l"
-	.string "para mejorar aún más.$"
+	.string "But there's no reason to lament or\n"
+	.string "regret, there's no better successor\l"
+	.string "than the one I have in front of me. I'll\l"
+	.string "offer you some advice: head further\l"
+	.string "west, there… perhaps even someone of\l"
+	.string "your level will find what they need to\l"
+	.string "enhance even more.$"
 
 Route47_Encuentro_Maestro_Anciano_Texto_5:
-.string "Permaneceré en esta RUTA un poco más.\n"
-	.string "Si lograras superar el reto que hay más\l"
-	.string "al oeste, vuelve aquí, me gustaría\l"
-	.string "obsequiarte con algo.$"
+	.string "I'll linger on this ROUTE for a bit\n"
+	.string "longer. If you can surpass the\l"
+	.string "challenge further west, return hereI'd\l"
+	.string "like to reward you with something.$"
 
 
 Route47_Barrera::
@@ -346,8 +347,8 @@ release
 end
 
 Route47_Barrera_Texto_1:
-.string "(Debería hacer caso al M.DRAGON e ir más\n"
-	.string "al oeste).$"
+	.string "(I should heed the DRAGON M.'s advice\n"
+	.string "and go further west).$"
 
 Route47_Dialogo_Maestro_Anciano::
 lock
@@ -377,28 +378,29 @@ release
 end
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_1:
-.string "¡Veo que lo has logrado! Acabas de\n"
-	.string "derrotar al tal vez maestro de JOHTO\l"
-	.string "más poderoso aún con vida, ¡ya nada me\l"
-	.string "sorprende contigo!$"
+	.string "I see you've achieved it! You've just\n"
+	.string "defeated perhaps the most powerful\l"
+	.string "master in JOHTO still alive. Nothing\l"
+	.string "surprises me coming from you!$"
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_2:
-.string "Ten este POKÉMON, te lo has ganado.$"
+	.string "Take this POKÉMON, you deserve it.$"
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_3:
-.string "¡¡OBTUVISTE UN REGIDRAGO AL NV:90!!$"
+.string "YOU OBTAINED A LV.90 REGIDRAGO!!$"
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_4:
-.string "Uno de mis POKÉMON más fieles, tal vez\n"
-	.string "contigo pueda seguir viviendo grandes\l"
-	.string "aventuras. ¡Con este viejo carcamal ya\l"
-	.string "esta difícil que eso suceda jo, jo, jo!$"
+	.string "One of my most faithful POKÉMON, maybe\n"
+	.string "with you it can continue experiencing\l"
+	.string "great adventures. With this old fossil,\l"
+	.string "it's already hard for that to happen,\l"
+	.string "ho, ho, ho!!$"
 
 Route47_Dialogo_Maestro_Anciano_2_Texto_5:
-.string "La ilusión despierta el empeño y\n"
-	.string "solamente la paciencia lo termina.\l"
-	.string "¿Podrás continuar el viaje cuando\l"
-	.string "flaqueen tus fuerzas?$"
+	.string "Enthusiasm awakens determination, and\n"
+	.string "only patience brings it to an end. Will\l"
+	.string "you be able to continue the journey\l"
+	.string "when your strength falters?$"
 
 Route47_Flag_Nivel::
 lock

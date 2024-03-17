@@ -18,9 +18,9 @@ release
 end
 
 Route49_Maze_Text1:
-.string "Tu opinión acerca de ti mismo tiene más\n"
-.string "peso que la opinión que tienen los\l"
-.string "demás sobre ti mismo.$"
+	.string "Your opinion about yourself holds more\n"
+	.string "significance than the opinion others\l"
+	.string "have about you.$"
 
 
 
@@ -32,9 +32,9 @@ release
 end
 
 Route49_Maze_Text2:
-.string "El caos y el desorden verifican si tu\n"
-.string "itinerario dispone de unos principios\l"
-.string "sólidos y un motivo latente.$"
+	.string "Chaos and disorder verify if your\n"
+	.string "itinerary has solid principles and a\l"
+	.string "latent motive.$"
 
 
 
@@ -46,8 +46,8 @@ release
 end
 
 Route49_Maze_Text3:
-.string "El obstáculo no es una piedra en el\n"
-.string "camino, el obstáculo es el camino.$"
+	.string "The obstacle is not a stone on the\n"
+	.string "path; the obstacle is the path.$"
 
 
 
@@ -59,10 +59,10 @@ release
 end
 
 Route49_Maze_Text5:
-.string "Nuestros hermanos de TORRE BELLSPROUT\n"
-.string "descubrieron las bondades del vínculo\l"
-.string "con un POKÉMON hace casi 1000 años.\l"
-.string "Nosotros mucho antes.$"
+	.string "Our brethren at SPROUT TOWER\n"
+	.string "discovered the benefits of bonding\l"
+	.string "with a POKÉMON nearly 1000 years ago.\l"
+	.string "We did so much earlier.$"
 
 
 
@@ -74,9 +74,9 @@ release
 end
 
 Route49_Maze_Text6:
-.string "¿Nuestros POKÉMON? Pertenecen a la\n"
-.string "antigua JOHTO, es imposible verlos\l"
-.string "fuera de esta zona.$"
+	.string "Our POKÉMON? They belong to the old\n"
+	.string "JOHTO. It's impossible to see them\l"
+	.string "outside of this area.$"
 
 
 
@@ -100,24 +100,23 @@ end
 
 Route49MazeDocumento_Text_100:
 .string "AKUERIA:\p"
-	.string "PS: 122\n"
-	.string "ATAQUE: 126\l"
-	.string "DEFENSA: 102\l"
-	.string "ATAQUE ESPECIAL: 135\l"
-	.string "DEFENSA ESPECIAL: 74\l"
-	.string "VELOCIDAD: 82\l"
+	.string "HP: 122\n"
+	.string "ATTACK: 126\l"
+	.string "DEFENSE: 102\l"
+	.string "SPECIAL ATTACK: 135\l"
+	.string "SPECIAL DEFENSE: 74\l"
+	.string "SPEED: 82\l"
 	.string "TOTAL: 641\p"
-	.string "TIPO: AGUA/DRAGÓN\n"
-	.string "HABILIDAD: INDEFENSO\l"
-	.string "Se creía extinto hasta hace poco,\l"
-	.string "domina todos los movimientos\l"
-	.string "elementales y es capaz de ejecutarlos\l"
-	.string "sin fallar. Sus stats totales ascienden\l"
-	.string "a 641, todo un descubrimiento si\l"
-	.string "tenemos en cuenta que ARCANINE, con\l"
-	.string "555, siempre ha sido considerado el NO\l"
-	.string "LEGENDARIO de mayor poder global en\l"
-	.string "KANTO-JOHTO.$"
+	.string "TYPE: WATER/DRAGON\n"
+	.string "ABILITY: NO GUARD\l"
+	.string "It was thought to be extinct until\l"
+	.string "recently, it commands mastery over all\l"
+	.string "elemental moves and executes them\l"
+	.string "flawlessly. With total stats reaching\l"
+	.string "641, it's a significant discovery,\l"
+	.string "especially considering that ARCANINE,\l"
+	.string "at 555, has long been deemed the most\l"
+	.string "potent non-legendary in KANTO-JOHTO.$"
 
 
 
@@ -134,25 +133,23 @@ end
 
 Route49MazeDocumento_Text_101:
 .string "BOOHOO:\p"
-	.string "PS: 120\n"
-	.string "ATAQUE: 55\l"
-	.string "DEFENSA: 65\l"
-	.string "ATAQUE ESPECIAL: 116\l"
-	.string "DEFENSA ESPECIAL: 126\l"
-	.string "VELOCIDAD: 60\l"
+	.string "HP: 120\n"
+	.string "ATTACK: 55\l"
+	.string "DEFENSE: 65\l"
+	.string "SPECIAL ATTACK: 116\l"
+	.string "SPECIAL DEFENSE: 126\l"
+	.string "SPEED: 60\l"
 	.string "TOTAL: 542\p"
-	.string "TIPO: PSÍQUICO/VOLADOR\n"
-	.string "HABILIDAD: MURO MÁGICO\l"
-	.string "Se dice que puede evolucionar de\l"
-	.string "NOCTOWL en condiciones muy concretas\l"
-	.string "de simbiosis y total equilibrio, tanto\l"
-	.string "con su ENTRENADOR como con su\l"
-	.string "entorno. Sus poderes psíquicos están\l"
-	.string "a un nivel muy avanzado, es capaz de\l"
-	.string "almacenar todos sus recuerdos vividos\l"
-	.string "y transportarse a ellos, tal y como si\l"
-	.string "estuviera allí como un mero\l"
-	.string "observador.$"
+	.string "TYPE: PSYCHIC/FLYING\n"
+	.string "ABILITY: MAGIC GUARD\l"
+	.string "Rumors suggest it can evolve from\l"
+	.string "NOCTOWL under exact conditions of\l"
+	.string "symbiosis and complete balance, with\l"
+	.string "its TRAINER and surroundings. Its\l"
+	.string "psychic abilities are highly developed;\l"
+	.string "it can store all its past memories and\l"
+	.string "project itself into them, as if merely\l"
+	.string "an observer.$"
 
 Route49_Maze_Noveno_Pensador::
 lock
@@ -162,10 +159,10 @@ release
 end
 
 Route49_Maze_Noveno_Pensador_Texto_1:
-.string "La columna que sostiene la TORRE DUN es\n"
-	.string "extremadamente gruesa y resistente,\l"
-	.string "más que las otras pagodas de JOHTO.\l"
-	.string "Fue creada así con el único objetivo de\l"
-	.string "predicar con su mensaje: cuanto más\l"
-	.string "trabajada esté la base, más alto\l"
-	.string "podrás llegar.$"
+	.string "The column supporting DUN TOWER is\n"
+	.string "extremely thick and sturdy, more so\l"
+	.string "than the other towers in JOHTO. It was\l"
+	.string "deliberately constructed this way with\l"
+	.string "the sole purpose of preaching its\l"
+	.string "message: the more refined the\l"
+	.string "foundation, the higher you can ascend.$"

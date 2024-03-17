@@ -71,63 +71,66 @@ CianwoodEusineHouse_Combate_Texto_1.1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 CianwoodEusineHouse_Combate_Texto_2:
-.string "Parece que han dado con una respuesta,\n"
-	.string "debo volver cuanto antes, tengo\l"
-	.string "curiosidad por saber a qué se debe…$"
+	.string "It appears they have found a solution.\n"
+	.string "I should hurry back; I am curious to\l"
+	.string "know the reason behind it…$"
 
 CianwoodEusineHouse_Combate_Texto_3:
-.string "Perdona, ¿quieres algo?$"
+.string "Huh, do you need something?$"
 
 CianwoodEusineHouse_Combate_Texto_4:
-.string "No sé cómo ha llegado hasta ti esa\n"
-	.string "información, pero tienes razón, existe\l"
-	.string "una gran extensión de tierra al oeste\l"
-	.string "de aquí, pero la pregunta es…$"
+	.string "I don't know how you got hold of that\n"
+	.string "information, but you're correct, there\l"
+	.string "is a considerable landmass to the west\l"
+	.string "of this location. Nevertheless, the\l"
+	.string "question is…$"
 
 CianwoodEusineHouse_Combate_Texto_5:
-.string "¿Merece alguien como tú visitarla? Un\n"
-	.string "lugar virgen, puro y alejado de todos\l"
-	.string "esos EJECUTIVOS de TRIGAL, que\l"
-	.string "parecen haber olvidado quienes somos,\l"
-	.string "y de dónde venimos.$"
+	.string "Does someone like you deserve to visit\n"
+	.string "it? A pristine place, pure and distant\l"
+	.string "from all those GOLDENROD EXECUTIVES,\l"
+	.string "who seem to have forgotten who we are\l"
+	.string "and where we come from.$"
 
 CianwoodEusineHouse_Combate_Texto_6:
-.string "Dices haber visitado TORRE CAMPANA, y\n"
-	.string "tener la bendición de los 2 GRANDES\l"
-	.string "MAESTROS de JOHTO. Yo solo veo a\l"
-	.string "alguien que intenta colgarse medallas,\l"
-	.string "como todos hoy en día. Expondrías\l"
-	.string "dichas experiencias en un museo si\l"
-	.string "pudieras, ¿o no?$"
+	.string "You claim to have visited BELL TOWER\n"
+	.string "and received the blessing of the two\l"
+	.string "GRAND MASTERS of JOHTO. All I see is\l"
+	.string "someone trying to hang medals, like\l"
+	.string "everyone else nowadays. Would you\l"
+	.string "exhibit such experiences in a museum if\l"
+	.string "you could, or not?$"
 
 CianwoodEusineHouse_Combate_Texto_7:
-.string "Permíteme dudar, ¿{PLAYER}? Tendrás\n"
-	.string "que demostrar eso que acabas de decir.$"
+.string "Lemme doubt it, {PLAYER}?\n"
+	.string "You'll have to prove what you just said.$"
 
 CianwoodEusineHouse_Combate_Texto_8:
-.string "????: Vaya… parece que te he juzgado\n"
-	.string "mal, a pesar de tu corta edad y alta\l"
-	.string "posición, tus POKÉMON luchan en total\l"
-	.string "armonía, tal y como lo haría el más\l"
-	.string "sabio de los monjes.$"
+	.string "????: Well… it seems I've judged you\n"
+	.string "unfairly, despite your young age and\l"
+	.string "high position. Your POKÉMON fight in\l"
+	.string "total harmony, just as the wisest of\l"
+	.string "sages would.$"
 
 CianwoodEusineHouse_Combate_Texto_9:
-.string "Me presentaré, mi nombre es EUSINE, he\n"
-	.string "dedicado mi vida a estudiar los\l"
-	.string "llamados PERROS LEGENDARIOS, aquellos\l"
-	.string "que surgieron tras el famoso incendio\l"
-	.string "que acabó con TORRE LATÓN, hace casi\l"
-	.string "150 años.$"
+	.string "Allow me to introduce myself, my name is\n"
+	.string "EUSINE. I have dedicated my life to\l"
+	.string "studying the legendary creatures\l"
+	.string "known as the LEGENDARY BEASTS, those\l"
+	.string "that emerged following the famous fire\l"
+	.string "that destroyed BURNED TOWER nearly\l"
+	.string "150 years ago.$"
 
 CianwoodEusineHouse_Combate_Texto_10:
-.string "EUSINE: Eres un caso curioso, creí que\n"
-	.string "no quedaban jovenes como tú en JOHTO,\l"
-	.string "sin duda mereces la oportunidad de\l"
-	.string "visitar tan extraordinario lugar.$"
+	.string "EUSINE: You're an intriguing individual.\n"
+	.string "I thought there were no young people\l"
+	.string "like you left in JOHTO. Undoubtedly, you\l"
+	.string "deserve the opportunity to visit such\l"
+	.string "an extraordinary place.$"
 
 CianwoodEusineHouse_Combate_Texto_12:
-.string "Nos vemos fuera, prepárate para\n"
-	.string "expandir el mundo que conoces.$"
+	.string "See you outside, get ready to broaden\n"
+	.string "the world you know.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision::
 lock
@@ -174,11 +177,11 @@ walk_fast_left
 step_end
 
 Misiones_DLC_Fin_Llamada_Giovanni_Texto_1:
-.string "GIOVANNI: ¿{PLAYER}? Según los\n"
-	.string "datos recopilados, acabas de completar\l"
-	.string "todas las misiones asignadas. ¿No es\l"
-	.string "así? En ese caso, nos vemos en mi\l"
-	.string "despacho.$"
+	.string "GIOVANNI: {PLAYER}? Based on the\n"
+	.string "gathered data, it seems you've finished\l"
+	.string "all the assigned missions. Is that\l"
+	.string "correct? If so, I'll meet you in my\l"
+	.string "office.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_2::
 msgbox CianwoodEusineHouse_Dialogo_Post_Mision_Texto_9 MSGBOX_AUTOCLOSE
@@ -186,55 +189,53 @@ release
 end
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_1:
-.string "Ah, {PLAYER}, gracias por venir.$"
+.string "Ah, {PLAYER}, thanks for coming.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_2:
-.string "Las sospechas que tenía sobre\n"
-	.string "vosotros se confirmaron justo al irme.$"
+	.string "The suspicions I had about you all were\n"
+	.string "confirmed just as I was leaving.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_3:
-	.string "Oí hablar a tu amiga sobre los POKÉMON\n"
-	.string "del MAESTRO, y todos los antiguos en\l"
-	.string "general. Dijo que os serían de gran\l"
-	.string "ayuda para investigaciones futuras.$"
+	.string "I overheard your friend talking about\n"
+	.string "the master's POKÉMON as data,\l"
+	.string "mentioning someone named GIOVANNI…$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_4:
-.string "¿Pertenecéis a algún tipo de\n"
-	.string "organización, verdad?$"
+.string "You belong to some kind\n"
+	.string "of organization, right?$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_5:
-.string "Ya veo. Buscáis expandir el poder de\n"
-	.string "ciertos POKÉMON. Verás…$"
+	.string "I see. You are in search of pushing the\n"
+	.string "limits of some kind of POKÉMON. So…$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_6:
-.string "Mis conocimientos sobre los PERROS\n"
-	.string "LEGENDARIOS pueden seros de gran\l"
-	.string "ayuda. Tengo la firme creencia de que,\l"
-	.string "aunque son inferiores en poder a EN,\l"
-	.string "RAI y SUI, son mucho más moldeables.\l"
-	.string "Ahí está la trampa de que la\l"
-	.string "intervención divina sea superada por\l"
-	.string "el vínculo.$"
+	.string "My knowledge of the LEGENDARY BEASTS\n"
+	.string "could be of great assistance for your\l"
+	.string "organization. I firmly believe that,\l"
+	.string "although they are inferior in power to\l"
+	.string "EN, RAI, and SUI, they are much more\l"
+	.string "adaptable. Therein lies the trap where\l"
+	.string "divine intervention is surpassed by the\l"
+	.string "bond.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_7:
-.string "Me gustaría ser capaz de demostrar\n"
-	.string "esto, y sacar a relucir el poder latente\l"
-	.string "de estas bestias, de tal forma que\l"
-	.string "contengan la misma esencia de EN, RAI y\l"
-	.string "SUI. ¿Qué me dices?$"
+	.string "I would like to be able to prove this and\n"
+	.string "unleash the latent power of these\l"
+	.string "beasts in such a way that they contain\l"
+	.string "the same essence as EN, RAI, and SUI.\l"
+	.string "What do you think?$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8:
-.string "¡Sabía que aceptarías! Entonces…\n"
-	.string "disponéis de un enorme equipo de\l"
-	.string "CIENTÍFICOS que estarán muy\l"
-	.string "interesados en oír todo esto… bien, yo\l"
-	.string "no me moveré de aquí, en cuanto les\l"
-	.string "confirmes mi incorporación, me pondré a\l"
-	.string "trabajar con ellos.$"
+	.string "I knew you'd agree! So… you've got a\n"
+	.string "massive team of scientists who'll be\l"
+	.string "very interested in hearing all of this…\l"
+	.string "well, I won't budge from here. Once you\l"
+	.string "confirm my joining, I'll get to work with\l"
+	.string "them.$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_9:
-.string "Yo no me moveré de aquí, en cuanto les\n"
-	.string "confirmes mi incorporación, me pondré a\l"
-	.string "trabajar con ellos.$"
+	.string "I won't budge from here. As soon as you\n"
+	.string "confirm my inclusion, I'll get to work\l"
+	.string "with them.$"
 
 

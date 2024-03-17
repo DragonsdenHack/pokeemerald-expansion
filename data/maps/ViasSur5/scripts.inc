@@ -224,66 +224,63 @@ ViasSur5_Combate_Pegaso_Texto_12:
 	.string "equivalents in ARTICUNO and MOLTRES.$"
 
 ViasSur5_Combate_Pegaso_Texto_13:
-.string "Son lo que antiguamente llamábamos\n"
-	.string "FORMAS PRIMIGENIAS. ZAPDOS era la\l"
-	.string "única de las 3 que llevaba décadas en\l"
-	.string "paradero desconocido.$"
+	.string "They are what we used to call PRIMAL\n"
+	.string "FORMS. ZAPDOS was the only one of the 3\l"
+	.string "that had been missing for decades.$"
 
 ViasSur5_Combate_Pegaso_Texto_14:
-.string "Sería todo un sueño para mí poder\n"
-	.string "manejar a tal POKÉMON, aunque solo sea\l"
-	.string "una vez.$"
+	.string "Having the opportunity to control such\n"
+	.string "a POKÉMON, even just once, would be a\l"
+	.string "dream come true for me.$"
 
 ViasSur5_Combate_Pegaso_Texto_15:
-.string "Bien… veo que me harás el honor. No veo\n"
-	.string "mejor rival que tú para tal propósito.$"
+	.string "Well… I see you'll honor me. I see no\n"
+	.string "better rival than you for such a\l"
+	.string "purpose.$"
 
 ViasSur5_Combate_Pegaso_Texto_16:
-.string "¡ZAPDOS! ¡Volemos juntos!$"
+.string "ZAPDOS! Let's fly together!$"
 
 ViasSur5_Combate_Pegaso_Texto_17:
-.string "¡Ah, magnífico!$"
+.string "Ah, awesome!$"
 
 ViasSur5_Combate_Pegaso_Texto_18:
-.string "No estoy decepcionado con el nivel de\n"
-	.string "ZAPDOS, más bien impresionado con el\l"
-	.string "tuyo.$"
+	.string "I'm not disappointed with the level of\n"
+	.string "ZAPDOS, rather impressed with yours.$"
 
 ViasSur5_Combate_Pegaso_Texto_19:
-.string "ZAPDOS tiene fama de ser el más\n"
-	.string "agresivo de las 3 aves, sin embargo, has\l"
-	.string "aplacado su furia con absoluta\l"
-	.string "maestría.$"
+	.string "ZAPDOS is known for being the most\n"
+	.string "aggressive of the 3 birds, yet you have\l"
+	.string "calmed its fury with absolute mastery.$"
 
 ViasSur5_Combate_Pegaso_Texto_20:
-.string "He visto todo cuanto podría soñar, la\n"
-	.string "hora ha llegado.$"
+	.string "I have seen everything I could dream\n"
+	.string "of, however the time has come.$"
 
 ViasSur5_Combate_Pegaso_Texto_21:
-.string "(PEGASO liberó a LANDORUS, THUNDURUS,\n"
-	.string "TORNADOS y ENAMORUS)$"
+	.string "FALKNER released LANDORUS, THUNDURUS,\n"
+	.string "TORNADUS, and ENAMORUS.$"
 
 ViasSur5_Combate_Pegaso_Texto_22:
-.string "Hemos vivido grandes aventuras y\n"
-	.string "aprendido mutuamente. Ahora, POKÉMON\l"
-	.string "como estos deben volver a su lugar de\l"
-	.string "origen, espero que mi humilde\l"
-	.string "aportación les haga mejores, y así\l"
-	.string "seguir honrando al TIPO VOLADOR.$"
+	.string "We have lived great adventures and\n"
+	.string "learned from each other. Now, POKÉMON\l"
+	.string "like these must return to their place of\l"
+	.string "origin. I hope my humble contribution\l"
+	.string "makes them better, and thus continues\l"
+	.string "to honor the FLYING TYPE.$"
 
 ViasSur5_Combate_Pegaso_Texto_23:
-.string "El GIMNASIO de MALVA será finalmente\n"
-	.string "legado a mi hijo. Por mi parte,\l"
-	.string "emprenderé un nuevo viaje, con las\l"
-	.string "aves que me han acompañado desde\l"
-	.string "siempre.$"
+	.string "The VIOLET GYM will finally be passed\n"
+	.string "down to my son. As for me, I will embark\l"
+	.string "on a new journey, with the birds that\l"
+	.string "have accompanied me since forever.$"
 
 ViasSur5_Combate_Pegaso_Texto_24:
-.string "Contigo JOHTO está en buenas manos, no\n"
-	.string "me cabe duda.$"
+	.string "With you, JOHTO is in good hands, I have\n"
+	.string "no doubts.$"
 
 ViasSur5_Combate_Pegaso_Texto_26:
-.string "(Mi misión aquí parece haber terminado).$"
+	.string "(My mission seems to be over).$"
 
 Misiones_DLC_Fin_Llamada_Giovanni_Zapdos::
 delay 30

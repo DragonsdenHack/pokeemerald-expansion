@@ -161,33 +161,32 @@ walk_in_place_down
 step_end
 
 Route50_Encuentro_Dunsparce_Texto_1:
-.string "ANDRA: ¡¿Dónde te habías metido,\n"
-	.string "{PLAYER}?!$"
+	.string "ANDRA: Where have you been all this\n"
+	.string "time, {PLAYER}?!$"
 
 Route50_Encuentro_Dunsparce_Texto_2:
-.string "¡No vas a creer lo que acaba de ocurr...!$"
+.string "You won't believe what just happene…!$"
 
 Route50_Encuentro_Dunsparce_Texto_3:
-.string "¡¡¡GROAAAAAAAAR!!!$"
+.string "GROAAAAAAAAR!!!$"
 
 Route50_Encuentro_Dunsparce_Texto_4:
 .string "Groarr…$"
 
 Route50_Encuentro_Dunsparce_Texto_5:
-.string "ANDRA: ¡Eso es! ¡Has repetido mi\n"
-	.string "combate, ha sido exactamente igual al\l"
-	.string "mío! ¿Pero cómo…?$"
+	.string "ANDRA: That's it! You just repeated my\n"
+	.string "combat, it was exactly as mine! But\l"
+	.string "how…?$"
 
 Route50_Encuentro_Dunsparce_Texto_6:
-.string "¿La pagoda que hay al suroeste? ¡Vamos,\n"
-	.string "{PLAYER}! ¡Ahí nos vemos!$"
+	.string "The pagoda to the southwest? Let's go,\n"
+	.string "{PLAYER}! See you there!$"
 
 Route50_Encuentro_Dunsparce_Texto_7:
-.string "ANDRA: Nos... nos está observando\n"
-	.string "detenidamente...$"
+	.string "ANDRA: It… it's watching us closely…$"
 
 Route50_Encuentro_Dunsparce_Texto_8:
-	.string "¡¡{PLAYER} obtuvo una PIEDRA DORADA!!$"
+	.string "{PLAYER} obtained a GOLDEN STONE!!$"
 
 
 Route50_Dragonite::
@@ -199,8 +198,9 @@ release
 end
 
 Route50_Dragonite_Texto_1:
-.string "Es un DRAGONITE, está bloqueando el\n"
-	.string "paso a una zona aún más al norte.$"
+	.string "It's a DRAGONITE, it is blocking the\n"
+	.string "path to a zone even further to the\l"
+	.string "north.$"
 
 
 
@@ -339,114 +339,112 @@ walk_left
 step_end
 
 Route50_Miguel_Texto_1:
-.string "TRISTANA: ¿Lo has encontrado?$"
+.string "ZINNIA: Did you find it?$"
 
 Route50_Miguel_Texto_2:
-.string "????: Así es, tu corazonada era cierta.\n"
-	.string "¿Y tú? ¿Has llegado a verlos?$"
+	.string "????: Yep, your hunch was right. And\n"
+	.string "you? Have you seen it before?$"
 
 Route50_Miguel_Texto_3:
-.string "TRISTANA: En la cima de PILAR DUN. Son\n"
-	.string "tal y como describiste, con ese aura de\l"
-	.string "triunfo y capacidad de mantenerse\l"
-	.string "presentes cuando más importa. No es de\l"
-	.string "extrañar que el DRAGÓN SAGRADO les\l"
-	.string "haya escogido.$"
+	.string "ZINNIA: At the top of DUN PILLAR.\n"
+	.string "They're just as you described, with\l"
+	.string "that aura of triumph and ability to\l"
+	.string "stay present when it matters most. It's\l"
+	.string "no wonder the SACRED DRAGON chose\l"
+	.string "them.$"
 
 Route50_Miguel_Texto_4:
-.string "????: Lo sé…la historia solo recuerda a\n"
-	.string "los que lo logran, pero por el camino la\l"
-	.string "inmensa mayoría de los que lo\l"
-	.string "intentaron acabaron sucumbiendo al\l"
-	.string "peso de sus circunstancias vitales.$"
+	.string "????: I know… history only remembers\n"
+	.string "those who succeed, but along the way,\l"
+	.string "the vast majority of those who tried\l"
+	.string "ended up succumbing to the weight of\l"
+	.string "their life circumstances.$"
 
 Route50_Miguel_Texto_5:
-.string "Puede que se implicaran lo mismo, o\n"
-	.string "incluso más, que esos pocos que\l"
-	.string "acabaron triunfando, pero eso jamás lo\l"
-	.string "sabrán, serán olvidados creyendo que\l"
-	.string "fracasaron.$"
+	.string "They might have invested the same, or\n"
+	.string "even more, effort than those few who\l"
+	.string "ended up triumphing, but they'll never\l"
+	.string "realize it. They'll be forgotten,\l"
+	.string "thinking they failed.$"
 
 Route50_Miguel_Texto_6:
-.string "Esa estrecha fosa del norte es la viva\n"
-	.string "imagen de ello, de cómo la otra línea\l"
-	.string "evolutiva de DUNSPARCE, la línea\l"
-	.string "anclada al barro, ha sido despreciada y\l"
-	.string "olvidada.$"
+	.string "That narrow trench to the north\n"
+	.string "perfectly epitomizes it, how the other\l"
+	.string "evolutionary line of DUNSPARCE, the\l"
+	.string "line tied to the mud, has been ignored\l"
+	.string "and left behind.$"
 
 Route50_Miguel_Texto_7:
-.string "TRISTANA: Así es, la estrecha fosa del\n"
-	.string "norte era antaño la contraparte del\l"
-	.string "PILAR DUN. Allí, un DUDUNSPARCE trató\l"
-	.string "también de elevarse por encima de un\l"
-	.string "destino adverso, lo intentó con el\l"
-	.string "mismo ímpetu que el ahora DRAGÓN\l"
-	.string "SAGRADO, pero… no todos pueden ser el\l"
-	.string "número 1, la gloria solo está reservada\l"
-	.string "a unos pocos.$"
+	.string "ZINNIA: That's right, the narrow trench\n"
+	.string "to the north was once the counterpart\l"
+	.string "to DUN PILLAR. There, a DUDUNSPARCE\l"
+	.string "also tried to rise above an adverse\l"
+	.string "fate, with the same fervor as the now\l"
+	.string "SACRED DRAGON, but… not everyone can\l"
+	.string "be number 1, glory is only reserved for a\l"
+	.string "few.$"
 
 Route50_Miguel_Texto_8:
-.string "Sin un resultado que respaldara su\n"
-	.string "titánico esfuerzo, su santuario poco a\l"
-	.string "poco fue olvidado, hasta el punto de\l"
-	.string "ser prácticamente engullido por la\l"
-	.string "vegetación y el tiempo. La historia fue\l"
-	.string "cruel con ese POKÉMON.$"
+	.string "Without a result to support its titanic\n"
+	.string "effort, its sanctuary was slowly\l"
+	.string "forgotten, to the point of being\l"
+	.string "practically engulfed by vegetation and\l"
+	.string "time. History was harsh on that\l"
+	.string "POKÉMON.$"
 
 Route50_Miguel_Texto_9:
-.string "????: Empezando por esos hipócritas\n"
-	.string "pensadores de TORRE DUN, que se llenan\l"
-	.string "la boca con su DRAGÓN SAGRADO, y de\l"
-	.string "cómo fue despreciado por sus\l"
-	.string "semejantes.$"
+	.string "????: Beginning with those hypocritical\n"
+	.string "sages of DUN TOWER, who boast about\l"
+	.string "their SACRED DRAGON while\l"
+	.string "simultaneously disregarding it.$"
 
 Route50_Miguel_Texto_10:
-.string "Sin embargo, ellos hacen lo mismo con\n"
-	.string "DUDUNSPARCE, dando por hecho que\l"
-	.string "jamás podrá tocar el mismo cielo.$"
+	.string "However, they do the same with\n"
+	.string "DUDUNSPARCE, assuming it will never\l"
+	.string "reach the same heights.$"
 
 Route50_Miguel_Texto_11:
-.string "Porque claro, DUDUNSPARCE no ha sido\n"
-	.string "<bendecido>, como BLESSPARCE. ¿Qué es\l"
-	.string "entonces la voluntad?$"
+	.string "Because; of course, DUDUNSPARCE was\n"
+	.string "not <blessed>, as BLESSPARCE. What is\l"
+	.string "the will then?$"
 
 Route50_Miguel_Texto_12:
-.string "TRISTANA: Veo que este tema te toca\n"
-	.string "sobremanera.$"
+	.string "ZINNIA: I see that this topic affects\n"
+	.string "you deeply.$"
 
 Route50_Miguel_Texto_13:
-.string "????: Me siento demasiado reflejado en\n"
-	.string "este POKÉMON como para pasar por alto\l"
-	.string "todo eso. Su historia ya me la conozco,\l"
-	.string "la he vivido en mis carnes.$"
+	.string "????: I feel too reflected in this\n"
+	.string "POKÉMON to overlook all of that. I\l"
+	.string "already know its story; I've lived it\l"
+	.string "myself.$"
 
 Route50_Miguel_Texto_14:
-.string "Sé lo que es estar en el barro, haber\n"
-	.string "dado lo mejor y no ser suficiente. Y\l"
-	.string "mientras, ver cómo otros obtienen todo\l"
-	.string "cuanto a su voluntad se le antoje.$"
+	.string "I know that feeling, being in the mud, to\n"
+	.string "have given my best and not be enough.\l"
+	.string "And meanwhile, watching as others get\l"
+	.string "everything they desire.$"
 
 Route50_Miguel_Texto_15:
-.string "Pero… eso se acabó.$"
+.string "But… that's over.$"
 
 Route50_Miguel_Texto_16:
-.string "Este POKÉMON, yo… jamás fuimos tenidos\n"
-	.string "en cuenta, fuimos subestimados,\l"
-	.string "derrotados, pasados por alto…$"
+	.string "This POKÉMON, me… we were never\n"
+	.string "considered, we were underestimated, we\l"
+	.string "were defeated, we were overlooked…$"
 
 Route50_Miguel_Texto_17:
-.string "Pero juntos… lograremos sacar la mejor\n"
-	.string "parte de nosotros, y con ello nuestro\l"
-	.string "espíritu, nuestra <voluntad>\l"
-	.string "permanecerá inexpugnable.$"
+	.string "But together… we will bring out the\n"
+	.string "best in ourselves, and with it, our\l"
+	.string "spirit, our <will>, will remain\l"
+	.string "unbreakable.$"
 
 Route50_Miguel_Texto_18:
-.string "TRISTANA: Recuerda que todo esto\n"
-	.string "tiene un precio.$"
+	.string "ZINNIA: Keep in mind that all this has a\n"
+	.string "price.$"
 
 Route50_Miguel_Texto_19:
-.string "????: Si esta es la recompensa, para mí\n"
-	.string "no lo tiene.$"
+	.string "????: If this is the reward, it doesn't\n"
+	.string "have any price for me.$"
 
 Route50_Miguel_Escena_Move_1:
 walk_up

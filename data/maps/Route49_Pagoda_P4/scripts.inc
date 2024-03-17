@@ -9,10 +9,10 @@ release
 end
 
 Route49_Pagoda_P4_Primer_Pensador_Texto_1:
-.string "Estar presos en la camisa de fuerza de\n"
-	.string "las certezas nos hace ser como los\l"
-	.string "personajes de una novela para los\l"
-	.string "cuales el argumento ya está escrito.$"
+	.string "Being trapped in the straitjacket of\n"
+	.string "certainties makes us akin to\l"
+	.string "characters in a novel whose plot has\l"
+	.string "already been written.$"
 
 Route49_Pagoda_P4_Segundo_Pensador::
 lock
@@ -22,9 +22,9 @@ release
 end
 
 Route49_Pagoda_P4_Segundo_Pensador_Texto_1:
-.string "De no ser por estar protegidos por la\n"
-	.string "montaña, la pagoda sería visible desde\l"
-	.string "CIUDAD ORQUÍDEA.$"
+	.string "If it weren't for being shielded by the\n"
+	.string "mountain, the pagoda would be visible\l"
+	.string "from CIANWOOD CITY.$"
 
 Route49_Pagoda_P4_Tercer_Pensador::
 lock
@@ -34,10 +34,10 @@ release
 end
 
 Route49_Pagoda_P4_Tercer_Pensador_Texto_1:
-.string "Los POKÉMON de nuestro GRAN MAESTRO\n"
-	.string "son tan antiguos como este lugar. Se\l"
-	.string "cree que el DRAGÓN SAGRADO de algún\l"
-	.string "modo les bendijo con la longevidad.$"
+	.string "The POKÉMON of our GRAND MASTER are as\n"
+	.string "ancient as this place. It is believed\l"
+	.string "that the SACRED DRAGON somehow\l"
+	.string "blessed them with longevity.$"
 
 Route49_Pagoda_P4_Cuarto_Pensador::
 lock
@@ -60,11 +60,12 @@ release
 end
 
 Route49_Pagoda_P4_Quinto_Pensador_Texto_1:
-.string "La cantidad de POKÉMON que reaccionan\n"
-	.string "a la PIEDRA DORADA es incalculable. Uno\l"
-	.string "de nuestros más duchos entrenadores\l"
-	.string "evolucionó a un BASCULIN con ella.\l"
-	.string "Ahora es un poderoso BASCULEGION.$"
+	.string "The number of POKÉMON that react to\n"
+	.string "the GOLDEN STONE is immeasurable. One\l"
+	.string "of our most skilled trainers evolved a\l"
+	.string "BASCULIN with it. Now it's a powerful\l"
+	.string "BASCULEGION.$"
+
 
 Route49_Pagoda_P4_Sexto_Pensador::
 lock
@@ -74,9 +75,9 @@ release
 end
 
 Route49_Pagoda_P4_Sexto_Pensador_Texto_1:
-.string "Hay muchos entrenadores diestros por\n"
-	.string "aquí. Ha medida que vayas subiendo lo\l"
-	.string "notarás más.$"
+	.string "There are many skilled trainers around\n"
+	.string "here. As you continue to ascend, you'll\l"
+	.string "notice it more.$"
 
 Route49_Pagoda_P4_EventScript_Pensador_1::
 	trainerbattle_single TRAINER_TRAINER_224, Route49_Pagoda_P4_Text_Pensador1Intro, Route49_Pagoda_P4_Text_Pensador1Defeated
