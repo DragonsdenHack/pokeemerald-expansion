@@ -77,55 +77,57 @@ face_right
 step_end
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_1:
-.string "Debes ser {PLAYER}, ¿verdad?$"
+.string "You must be {PLAYER}, aren't you?$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_2:
-.string "El GRAN MAESTRO ya nos advirtió de tu\n"
-	.string "llegada.$"
+	.string "The GRAND MASTER already told us about\n"
+	.string "your arrival.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_3:
-.string "La TORRE DUN es… como una cápsula del\n"
-	.string "tiempo, ¿no crees? No importa todo lo\l"
-	.string "que el mundo haya cambiado, esta\l"
-	.string "pagoda conserva intacta la esencia de\l"
-	.string "sus primeros días.$"
+	.string "The DUN TOWER is… like a time capsule,\n"
+	.string "isn't it? No matter all the changes in\l"
+	.string "the world, this pagoda retains the\l"
+	.string "essence of its early days completely\l"
+	.string "unchanged.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_4:
-.string "Y por ello, ¿qué mayor honor puede haber\n"
-	.string "que combatir aquí, tal y como lo hacían\l"
-	.string "los gentiles maestros del pasado?$"
+	.string "Hence, what could be a greater honor\n"
+	.string "than to duel here, just as the esteemed\l"
+	.string "masters of the past did?$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_5:
-.string "Tratar de igualar las cotas que una vez\n"
-	.string "alcanzaron y, quién sabe, incluso\l"
-	.string "rebasarlas, con nosotros como únicos\l"
-	.string "testigos para recrear esa ficción.$"
+	.string "Trying to match the heights once\n"
+	.string "reached, and who knows, even surpass\l"
+	.string "them, with us as the sole witnesses to\l"
+	.string "recreate that fiction.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_6:
-.string "No solo este lugar… ¡mis POKÉMON son\n"
-	.string "también similares a los de antaño!$"
+	.string "Not just this place… my POKÉMON are\n"
+	.string "also from the old days!$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_7:
-.string "Eres un maestro de lo viejo… y de lo\n"
-	.string "nuevo.$"
+	.string "You are a master of the old… and of the\n"
+	.string "new.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_8:
-.string "Está claro, desde EUSINE no vemos a dos\n"
-	.string "jóvenes con un potencial así.$"
+	.string "It is clear, since EUSINE we hadn't seen\n"
+	.string "two youngsters with such great potential\l"
+	.string "as you.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_9:
-.string "Aún diría más, vuestro potencial es\n"
-	.string "mayor, algo aún más meritorio, teniendo\l"
-	.string "en cuenta vuestro entorno.$"
+	.string "I would even go further to say that\n"
+	.string "your potential is greater, something\l"
+	.string "even more commendable considering your\l"
+	.string "surroundings.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_10:
-.string "Mi parte está hecha, aún te queda mucho\n"
-	.string "para llegar hasta el final.$"
+	.string "My part is done, you still have a long\n"
+	.string "way to reach the end.$"
 
 Route49_Pagoda_P9_Combate_Maestro_Texto_11:
-.string "Después de todo, solo estás en el\n"
-	.string "noveno piso de una pagoda perdida, al\l"
-	.string "borde de un acantilado, ¿verdad?$"
+	.string "After all, you're just on the ninth floor\n"
+	.string "of a lost pagoda, on the edge of a cliff,\l"
+	.string "right?$"
 
 Route49_Pagoda_P9_Dialogo_Maestro::
 lock

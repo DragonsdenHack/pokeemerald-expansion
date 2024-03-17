@@ -9,11 +9,10 @@ release
 end
 
 Route49_Pagoda_P7_Primer_Pensador_Texto_1:
-.string "Interpretamos el compromiso como una\n"
-	.string "falta de libertad, cuando es todo lo\l"
-	.string "contrario: es una oportunidad única\l"
-	.string "para poner a prueba y ejercer nuestra\l"
-	.string "voluntad.$"
+	.string "We interpret commitment as a lack of\n"
+	.string "freedom when it's quite the opposite:\l"
+	.string "it's a unique opportunity to test and\l"
+	.string "exercise our will.$"
 
 Route49_Pagoda_P7_Segundo_Pensador::
 lock
@@ -23,13 +22,12 @@ release
 end
 
 Route49_Pagoda_P7_Segundo_Pensador_Texto_1:
-.string "La maestría requiere práctica. Pero\n"
-	.string "cuanto más practicas algo, más\l"
-	.string "aburrido y rutinario se vuelve. Una vez\l"
-	.string "las ganancias de principiante se han\l"
-	.string "logrado y hemos aprendido qué esperar,\l"
-	.string "nuestro interés comienza a\l"
-	.string "desvanecerse.$"
+	.string "Mastery requires practice. However, the\n"
+	.string "more you practice something, the more\l"
+	.string "boring and routine it becomes. Once the\l"
+	.string "beginner gains have been achieved and\l"
+	.string "we've learned what to expect, our\l"
+	.string "interest begins to fade.$"
 
 Route49_Pagoda_P7_Tercer_Pensador::
 lock
@@ -39,8 +37,9 @@ release
 end
 
 Route49_Pagoda_P7_Tercer_Pensador_Texto_1:
-.string "Es muy difícil someter a la obediencia a\n"
-	.string "aquel que no busca mandar.$"
+	.string "Trying to impose obedience on those\n"
+	.string "who have no desire to lead is\l"
+	.string "exceedingly challenging.$"
 
 Route49_Pagoda_P7_Cuarto_Pensador::
 lock
@@ -50,8 +49,8 @@ release
 end
 
 Route49_Pagoda_P7_Cuarto_Pensador_Texto_1:
-.string "En sus tratos con el hombre, el Destino\n"
-	.string "nunca cancela sus cuentas.$"
+	.string "Destiny never nullifies its dealings\n"
+	.string "with humans.$"
 
 Route49_Pagoda_P7_Quinto_Pensador::
 lock
@@ -61,12 +60,12 @@ release
 end
 
 Route49_Pagoda_P7_Quinto_Pensador_Texto_1:
-.string "Gracias a la PIEDRA DORADA del DRAGÓN\n"
-	.string "SAGRADO, los antiguos POKÉMON de\l"
-	.string "JOHTO no se han perdido para siempre.\l"
-	.string "Además, reacciona ante ciertos\l"
-	.string "POKÉMON, convirtiéndolos en formas\l"
-	.string "exóticas.$"
+	.string "Thanks to the GOLDEN STONE of the\n"
+	.string "SACRED DRAGON, the ancient POKÉMON of\l"
+	.string "JOHTO have not been lost forever.\l"
+	.string "Additionally, it reacts to certain\l"
+	.string "POKÉMON, transforming them into exotic\l"
+	.string "forms.$"
 
 Route49_Pagoda_P7_Sexto_Pensador::
 lock
@@ -76,10 +75,10 @@ release
 end
 
 Route49_Pagoda_P7_Sexto_Pensador_Texto_1:
-.string "La PIEDRA DORADA reacciona con\n"
-	.string "DUNSPARCE, pero el POKÉMON resultante\l"
-	.string "puede evolucionar una vez más, solo\l"
-	.string "que muy pocos saben como.$"
+	.string "The GOLDEN STONE reacts with\n"
+	.string "DUNSPARCE, but the resulting POKÉMON\l"
+	.string "can evolve once more, although very few\l"
+	.string "know how.$"
 
 Route49_Pagoda_P7_EventScript_Pensador_1::
 	trainerbattle_single TRAINER_TRAINER_229, Route49_Pagoda_P7_Text_Pensador1Intro, Route49_Pagoda_P7_Text_Pensador1Defeated
@@ -356,216 +355,211 @@ emote_exclamation_mark
 step_end
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_1:
-.string "EUSINE: Vaya… Entonces, cuando\n"
-	.string "{PLAYER} derrotó a LANCE, con ello\l"
-	.string "liberó a ENTEI, RAIKOU y SUICUNE.$"
+	.string "EUSINE: Wow… So, when {PLAYER}\n"
+	.string "defeated LANCE, they freed ENTEI,\l"
+	.string "RAIKOU, and SUICUNE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_2:
-.string "ANDRA: Es lo que ocurre cuando\n"
-	.string "permanecéis recluidos durante\l"
-	.string "décadas, LANCE se hizo con KANTO y usó\l"
-	.string "a vuestras queridas BESTIAS SAGRADAS,\l"
-	.string "todo sin que os diérais cuenta.$"
+	.string "ANDRA: That's what happens when you\n"
+	.string "stay secluded for decades; LANCE took\l"
+	.string "over KANTO and used your beloved\l"
+	.string "SACRED BEASTS, all without you\l"
+	.string "noticing.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_3:
-.string "EUSINE: Ese es el camino del antiguo\n"
-	.string "ENTRENADOR de JOHTO, nunca se está lo\l"
-	.string "suficientemente preparado como para\l"
-	.string "mostrarse al mundo, siempre cabe lugar\l"
-	.string "para la mejora.$"
+	.string "EUSINE: That's the path of the ancient\n"
+	.string "JOHTO TRAINER; one is never prepared\l"
+	.string "enough to present oneself to the world,\l"
+	.string "there's always room for improvement.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_4:
-.string "Pero…$"
+.string "But…$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_5:
-.string "Yo daría todo para preservar las\n"
-	.string "BESTIAS SAGRADAS, LANCE cometió esa\l"
-	.string "atrocidad en la sombra. Mientras, yo\l"
-	.string "creí que era SUICUNE el que nos había\l"
-	.string "abandonado.$"
+	.string "I would give anything to preserve the\n"
+	.string "SACRED BEASTS; LANCE committed that\l"
+	.string "atrocity in the shadows. Meanwhile, I\l"
+	.string "thought it was SUICUNE who had\l"
+	.string "abandoned us.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_6:
-.string "Me has hecho ver que en los tiempos que\n"
-	.string "corren, más que nunca debemos vigilar\l"
-	.string "lo que nos rodea. Todo lo que conocemos\l"
-	.string "podría ser amenazado, incluso este\l"
-	.string "lugar. ¿Qué nos asegura que vuestras\l"
-	.string "intenciones son puras?$"
+	.string "You have shown me that in these\n"
+	.string "turbulent times, we must be more\l"
+	.string "vigilant than ever about our\l"
+	.string "surroundings. Everything we cherish\l"
+	.string "could be at risk, even this sacred\l"
+	.string "place. How can we be sure that your\l"
+	.string "intentions are genuine?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_7:
-.string "ANDRA: ¿De verdad? Hemos pasado\n"
-	.string "vuestra prueba, contamos con un\l"
-	.string "FUERTE VÍNCULO cada uno, ¿qué más\l"
-	.string "necesitas?$"
+	.string "ANDRA: Really? We've passed your test,\n"
+	.string "we each have a DEEP BOND, what else do\l"
+	.string "you need?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_8:
-.string "EUSINE: El GRAN MAESTRO determinará\n"
-	.string "eso, chica.$"
+	.string "EUSINE: The GRANDMASTER will verify\n"
+	.string "that, girl.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_9:
-.string "ANDRA: Tengo preguntas.$"
+.string "ANDRA: I have some questions.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_10:
-.string "EUSINE: Puede que no estés preparada\n"
-	.string "para oír las respuestas.$"
+	.string "EUSINE: Perhaps you're not ready to\n"
+	.string "hear the answers.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_11:
-.string "ANDRA: ¿Qué era ese POKÉMON\n"
-	.string "LEGENDARIO?$"
+	.string "ANDRA: What was that LEGENDARY\n"
+	.string "POKÉMON?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_12:
-.string "EUSINE: No es ningún LEGENDARIO, es un\n"
-	.string "POKÉMON mortal, de carne y hueso. En\l"
-	.string "esencia igual a todos los que tú\l"
-	.string "tienes.$"
+	.string "EUSINE: It's not a LEGENDARY, it's a\n"
+	.string "mortal POKÉMON, flesh and bone.\l"
+	.string "Essentially the same as all the ones\l"
+	.string "you have.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_13:
-.string "ANDRA: Eso… ¡no es posible!$"
+.string "ANDRA: That… is just not possible!$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_14:
-.string "EUSINE: Creí que eras de esas personas\n"
-	.string "que no usaban ese tipo de palabras. El\l"
-	.string "mero hecho de definir algo ya lo limita.\l"
-	.string "Si ese POKÉMON llegó hasta ese punto,\l"
-	.string "no fue por pararse a pensar en si era o\l"
-	.string "no posible, simplemente lo hizo.$"
+	.string "EUSINE: I thought you were one of\n"
+	.string "those people who didn't use those kinds\l"
+	.string "of words. Simply defining something\l"
+	.string "already limits it. If that POKÉMON\l"
+	.string "reached that point, it wasn't by\l"
+	.string "stopping to think if it was possible or\l"
+	.string "not, it just did it.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_15:
-.string "ANDRA: Pero… ¿qué era?$"
+.string "ANDRA: But… what was it?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_16:
-.string "EUSINE: Un DUNSPARCE.$"
+.string "EUSINE: It was a DUNSPARCE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_17:
-.string "Así es, uno cuya voluntad por\n"
-	.string "trascender a su limitada forma le dotó,\l"
-	.string "tras mucho tiempo y un esfuerzo\l"
-	.string "inenarrable, de un virtuosismo sin\l"
-	.string "precedentes.$"
+	.string "Indeed, one whose determination to\n"
+	.string "transcend its limited form endowed it,\l"
+	.string "after much time and indescribable\l"
+	.string "effort, with unparalleled virtuosity.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_18:
-.string "Nuestras escrituras hacen referencia a\n"
-	.string "su cambio así: “-…como si una suerte\l"
-	.string "de ingeniería cósmica obrara sobre él,\l"
-	.string "y sus actos estuvieran al margen de\l"
-	.string "todo LEGENDARIO. Por una vez, las leyes\l"
-	.string "de equilibrio y homeostasis que rigen\l"
-	.string "este mundo hicieron una excepción…-.$"
+	.string "Our scriptures reference its\n"
+	.string "transformation thus: -…as if some sort\l"
+	.string "of cosmic engineering acted upon it,\l"
+	.string "and its actions were beyond any\l"
+	.string "LEGENDARY. For once, the laws of\l"
+	.string "balance and homeostasis that govern\l"
+	.string "this world made an exception…-.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_19:
-.string "Según la leyenda, primero logró\n"
-	.string "evolucionar una vez, para después\l"
-	.string "evolucionar de nuevo, alcanzando en\l"
-	.string "esta última una categoría similar a la\l"
-	.string "de un PSEUDOLEGENDARIO.$"
+	.string "According to the legend, it first\n"
+	.string "managed to evolve once, and then\l"
+	.string "evolved again, reaching in this last\l"
+	.string "evolution a status similar to that of a\l"
+	.string "PSEUDO-LEGENDARY.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_20:
-.string "Varios documentos antiguos afirman que\n"
-	.string "fue, de hecho, el primer\l"
-	.string "PSEUDOLEGENDARIO. Aquel que introdujo\l"
-	.string "la posibilidad de que POKÉMON NO\l"
-	.string "LEGENDARIOS alcanzaran un poder\l"
-	.string "equiparable al de los que sí lo eran.$"
+	.string "Several ancient documents assert that\n"
+	.string "it was, in fact, the first\l"
+	.string "PSEUDO-LEGENDARY, introducing the\l"
+	.string "possibility for NON-LEGENDARY POKÉMON\l"
+	.string "to attain power comparable to those\l"
+	.string "that were legendary.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_21:
-.string "En TORRE DUN esa forma de DUNSPARCE ha\n"
-	.string "podido ser alcanzada por nuestros más\l"
-	.string "duchos entrenadores.$"
+	.string "In DUN TOWER, that form of DUNSPARCE\n"
+	.string "has been attained by our most skilled\l"
+	.string "trainers.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_22:
-.string "ANDRA: ¿Cómo?$"
+.string "ANDRA: How?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_23:
-.string "EUSINE: Gracias a la PIEDRA DORADA.$"
+.string "EUSINE: Thanks to the GOLDEN STONE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_24:
-.string "ANDRA: ¿La misma que convirtió mi\n"
-	.string "URSARING en URSALUNA?$"
+	.string "ANDRA: The same one that turned my\n"
+	.string "URSARING into URSALUNA?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_25:
-.string "EUSINE: Así es, ese objeto forma parte\n"
-	.string "del DRAGÓN SAGRADO, y a él reaccionan\l"
-	.string "muchos de los actuales POKÉMON de\l"
-	.string "JOHTO, cuyo potencial en el pasado fue\l"
-	.string "mayor, permitiéndoles alcanzar sus\l"
-	.string "formas antiguas.$"
+	.string "EUSINE: That's right, that object is\n"
+	.string "part of the SACRED DRAGON, and many of\l"
+	.string "the current POKÉMON of JOHTO react to\l"
+	.string "it, whose potential in the past was\l"
+	.string "greater, allowing them to reach their\l"
+	.string "ancient forms.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_26:
-.string "En el caso de DUNSPARCE, la piedra\n"
-	.string "dorada nos da acceso a la primera\l"
-	.string "evolución mencionada. A este POKÉMON\l"
-	.string "lo bautizamos como BLESSPARCE, ya que\l"
-	.string "ha sido bendecido por la PIEDRA\l"
-	.string "DORADA.$"
+	.string "In the case of DUNSPARCE, the golden\n"
+	.string "stone grants us access to the first\l"
+	.string "mentioned evolution. We named this\l"
+	.string "POKÉMON as BLESSPARCE, as it has been\l"
+	.string "blessed by the GOLDEN STONE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_27:
-.string "Ello lo diferencia del resto de\n"
-	.string "DUNSPARCE, condenados como\l"
-	.string "DUDUNSPARCE a permanecer en sus\l"
-	.string "formas limitadas, sin mayor techo que\l"
-	.string "permanecer anclados a la tierra.$"
+	.string "This sets it apart from the rest of\n"
+	.string "DUNSPARCE, condemned like DUDUNSPARCE\l"
+	.string "to remain in their limited forms, with no\l"
+	.string "greater ceiling than being anchored to\l"
+	.string "the ground.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_28:
 .string "ANDRA: Oh…$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_29:
-.string "En cuanto a la forma\n"
-	.string "PSEUDOLEGENDARIA… me temo que su\l"
-	.string "obtención escapa a mis conocimientos,\l"
-	.string "deberéis preguntarle a nuestro gran\l"
-	.string "maestro, ya que muy contados monjes\l"
-	.string "han podido evolucionar a un\l"
-	.string "BLESSPARCE.$"
+	.string "As for the PSEUDOLEGENDARY form… I'm\n"
+	.string "afraid its acquisition is beyond my\l"
+	.string "knowledge; you'll have to ask our grand\l"
+	.string "master, as very few monks have been\l"
+	.string "able to evolve a BLESSPARCE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_30:
-.string "Pero… algo es seguro: el DRAGÓN\n"
-	.string "SAGRADO que enfrentásteis es único e\l"
-	.string "irrepetible. Las escrituras hablan de\l"
-	.string "un fenómeno similar al FUERTE VÍNCULO,\l"
-	.string "que obró sobre este primer DUNSPARCE,\l"
-	.string "cuando ya se hallaba en su fase de\l"
-	.string "PSEUDOLEGENDARIO.$"
+	.string "But… one thing is certain: the SACRED\n"
+	.string "DRAGON you faced is unique and\l"
+	.string "unrepeatable. The scriptures speak of\l"
+	.string "a phenomenon similar to the DEEP BOND,\l"
+	.string "which acted upon this first DUNSPARCE\l"
+	.string "when it was already in its\l"
+	.string "PSEUDOLEGENDARY phase.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_31:
-.string "ANDRA: Estoy… impresionada.$"
+.string "ANDRA: I'm… really impressed.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_32:
-.string "ANDRA: ¡{PLAYER}! ¿Has oído nuestra\n"
-	.string "conversación?$"
+	.string "ANDRA: {PLAYER}! Did you hear our\n"
+	.string "conversation?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_33:
-.string "EUSINE: No creo que {PLAYER} sea tan\n"
-	.string "lento o tan mal entrenador, ¿verdad?$"
+	.string "EUSINE: I doubt {PLAYER} is that\n"
+	.string "sluggish or inept TRAINER, right?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_34:
-.string "Sea como sea, solo estáis en el P7, aún\n"
-	.string "os queda para llegar hasta arriba.$"
+	.string "Anyway, you're only on the 7F, you still\n"
+	.string "have a long way to go to reach the top.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_35:
-.string "ANDRA: ¡Jah! ¡Hasta ahora ha sido pan\n"
-	.string "comido!$"
+	.string "ANDRA: Hah! It has been a slice of cake!$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_36:
-.string "EUSINE: No creo que siga así, nuestro\n"
-	.string "ALTO MANDO no os pondrá las cosas tan\l"
-	.string "fáciles.$"
+	.string "EUSINE: I don't think it'll continue like\n"
+	.string "this, our ELITE FOUR won't make things\l"
+	.string "so easy for you.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_37:
-.string "ANDRA: ¿Qué? ¡Espera!$"
+.string "ANDRA: Wait what!?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_38:
-.string "¿Ha dicho ALTO MANDO? En esta PAGODA\n"
-	.string "parece que hay muchas cosas que nos\l"
-	.string "son familiares, ¿eh {PLAYER}?$"
+	.string "Did he say ELITE FOUR? In this PAGODA,\n"
+	.string "it seems there are many things that are\l"
+	.string "familiar to us, right {PLAYER}?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_39:
-.string "Después de esta historia, mi decisión de\n"
-	.string "no usar LEGENDARIOS solo se ve\l"
-	.string "reforzada. ¿Crees que ese DRAGÓN\l"
-	.string "SAGRADO se habrá visto reflejado en\l"
-	.string "nosotros y nuestros CROBAT?$"
+	.string "After these events, my decision not to\n"
+	.string "use LEGENDARIES is only reinforced. Do\l"
+	.string "you think that SACRED DRAGON saw a\l"
+	.string "reflection of itself in us and our\l"
+	.string "CROBAT?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_40:
-.string "Me gustaría pensar que sí, y que esa es\n"
-	.string "la razón por la que se dejó ver.$"
+	.string "I'm inclined to think so, and maybe\n"
+	.string "that's why it decided to show itself.$"
 

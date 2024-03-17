@@ -31,9 +31,9 @@ release
 end
 
 Route49_Pagoda_P5_Tercer_Pensador_Texto_1:
-.string "No nos elevamos al nivel de nuestras\n"
-	.string "expectativas, caemos al nivel de\l"
-	.string "nuestro entrenamiento.$"
+	.string "We don't rise to the level of our\n"
+	.string "expectations, we fall to the level of\l"
+	.string "our training.$"
 
 Route49_Pagoda_P5_EventScript_Pensador_1::
 	trainerbattle_single TRAINER_TRAINER_226, Route49_Pagoda_P5_Text_Pensador1Intro, Route49_Pagoda_P5_Text_Pensador1Defeated
@@ -123,93 +123,88 @@ face_down
 step_end
 
 Route49_Pagoda_P5_Encuentro_Texto_1:
-.string "Vaya, jovencito. Sí que te tomaste en\n"
-	.string "serio el aprovechar al máximo tu\l"
-	.string "aventura.$"
+	.string "Well, well, well, young man. You really\n"
+	.string "took your adventure seriously and made\l"
+	.string "the most of it.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_2:
-.string "¿No me recuerdas? Soy el maestro de\n"
-	.string "TORRE BELLSPROUT.$"
+	.string "Don't you remember me? I am the elder of\n"
+	.string "SPROUT TOWER.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_3:
-.string "Antaño los maestros de cada pagoda de\n"
-	.string "JOHTO solían visitar este lugar, así lo\l"
-	.string "hice yo en mi juventud. Esa costumbre\l"
-	.string "me temo que se perderá, la mayoría de\l"
-	.string "pensadores apenas tienen constancia\l"
-	.string "de que existe, ni hablemos del resto de\l"
-	.string "ciudadanos. La brecha entre esta JOHTO\l"
-	.string "y la actual es demasiado grande, no\l"
-	.string "precisamente por la montaña que las\l"
-	.string "separa.$"
+	.string "Long ago, the masters of each tower in\n"
+	.string "JOHTO used to visit this place, as I did\l"
+	.string "in my youth. That tradition, I fear, will\l"
+	.string "be lost. Most sages are barely aware\l"
+	.string "that it exists, let alone the rest of\l"
+	.string "the citizens. The gap between this\l"
+	.string "JOHTO and the current one is too wide,\l"
+	.string "and it's not just because of the\l"
+	.string "mountain that separates them.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route49_Pagoda_P5_Encuentro_Texto_5:
-.string "Fue aquí donde pude conciliar un largo\n"
-	.string "descanso, producto de ello, mi\l"
-	.string "BELLSPROUT superó los límites que el\l"
-	.string "entrenamiento se suponía que le\l"
-	.string "permitían.$"
+	.string "It was here that I was able to enjoy a\n"
+	.string "long rest, and as a result, my\l"
+	.string "BELLSPROUT surpassed the limits that\l"
+	.string "training was supposed to allow.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_6:
-.string "Pero esa no es una cualidad que yo haya\n"
-	.string "descubierto, esa cualidad se manifestó\l"
-	.string "por primera vez aquí.$"
+	.string "But that's not a quality I discovered;\n"
+	.string "that quality first manifested itself\l"
+	.string "here.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_7:
-.string "El motivo por el que en TORRE DUN rinden\n"
-	.string "culto a DUNSPARCE, no es su extrema\l"
-	.string "rareza, ni su vulgaridad en combate,\l"
-	.string "estas cualidades le han hecho pasar\l"
-	.string "desapercibido por prácticamente toda\l"
-	.string "la región de JOHTO.$"
+	.string "The reason why they worship DUNSPARCE\n"
+	.string "in DUN TOWER isn't its extreme rarity or\l"
+	.string "its mediocrity in battle. These\l"
+	.string "qualities have made it go unnoticed by\l"
+	.string "practically the entire JOHTO region.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_8:
-.string "La propia fisiología del POKÉMON está\n"
-	.string "condenada a la mediocridad. Pero hubo\l"
-	.string "uno… que logró voltear todo eso hasta\l"
-	.string "el extremo contrario. Lo que se\l"
-	.string "suponía que debía ser únicamente le\l"
-	.string "sirvió de combustible para revelarse\l"
-	.string "contra su propio destino.$"
+	.string "The own physiology of the POKÉMON is\n"
+	.string "doomed to mediocrity. But there was\l"
+	.string "one… who managed to turn all that to\l"
+	.string "the opposite extreme. What was\l"
+	.string "supposed to be only served as fuel for\l"
+	.string "it to rebel against its own destiny.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_9:
-.string "Es aquí cuando viene la parte más\n"
-	.string "impresionante, no solo pudo llevar al\l"
-	.string "límite su entrenamiento, tal y como\l"
-	.string "unos pocos han logrado. Su arrolladora\l"
-	.string "voluntad por escapar de su forma le\l"
-	.string "hizo también modificar sus STATS BASE,\l"
-	.string "y convertirse así en algo que nadie ni\l"
-	.string "nada, ni los propios dioses del MUNDO\l"
-	.string "POKÉMON, podrían prever ni controlar.$"
+	.string "And here comes the most impressive\n"
+	.string "part: not only could it push its\l"
+	.string "training to the limit, as few have\l"
+	.string "managed. Its overwhelming desire to\l"
+	.string "break free from its form also led it to\l"
+	.string "modify its BASE STATS, becoming\l"
+	.string "something that no one, not even the\l"
+	.string "gods of the POKÉMON WORLD, could\l"
+	.string "foresee or control.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_10:
-.string "El resto es historia, TORRE DUN ha\n"
-	.string "influido a incontables generaciones\l"
-	.string "hasta ahora. El fenómeno del FUERTE\l"
-	.string "VÍNCULO en JOHTO podría no ser más que\l"
-	.string "una extensión, un eco de esa primera\l"
-	.string "acción por la que ese DUNSPARCE cambió\l"
-	.string "radicalmente.$"
+	.string "The rest is history, DUN TOWER has\n"
+	.string "influenced countless generations until\l"
+	.string "now. The phenomenon of the DEEP BOND in\l"
+	.string "JOHTO might just be an extension, an\l"
+	.string "echo of that initial action through\l"
+	.string "which that DUNSPARCE changed\l"
+	.string "radically.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_11:
-.string "Pero el GRAN MAESTRO seguro que podrá\n"
-	.string "explicarte esto mucho mejor. Hay\l"
-	.string "muchas cosas aquí que nunca\l"
-	.string "llegaremos a entender.$"
+	.string "But the GRAND MASTER surely can\n"
+	.string "explain this much better. There are\l"
+	.string "many things here that we will never\l"
+	.string "fully understand.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_12:
-.string "Adiós, {PLAYER}. Solo vine aquí para\n"
-	.string "dejar a mi querido BELLSPROUT y mis\l"
-	.string "mejores POKÉMON en este lugar, una\l"
-	.string "nueva era empieza para mí, más\l"
-	.string "contemplativa.$"
+	.string "Farewell, {PLAYER}. I only came here\n"
+	.string "to leave my beloved BELLSPROUT and my\l"
+	.string "best POKÉMON in this place. A new era\l"
+	.string "begins for me, one that is more\l"
+	.string "contemplative.$"
 
 Route49_Pagoda_P5_Encuentro_Texto_13:
-.string "Quién sabe, tal vez pueda aconsejar de\n"
-	.string "nuevo a un entrenador tan\l"
-	.string "extraordinario como tú. Pero\l"
-	.string "honestamente… lo dudo.$"
+	.string "Who knows, maybe I can advise another\n"
+	.string "trainer as extraordinary as you again.\l"
+	.string "But honestly… I doubt it.$"

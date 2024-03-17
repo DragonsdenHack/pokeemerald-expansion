@@ -66,69 +66,68 @@ face_left
 step_end
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_1:
-.string "Debes ser {PLAYER}. Ya he vivido este\n"
-	.string "momento antes, en mis sueños.$"
+	.string "You must be {PLAYER}. I already lived\n"
+	.string "this moment before, in my dreams.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_2:
-.string "Yo también fui CAMPEÓN una vez, pero\n"
-	.string "abandoné al poco. Cuando logré al fin\l"
-	.string "escalar esa gran montaña, me di cuenta\l"
-	.string "de que fue el camino lo que disfruté,\l"
-	.string "una vez arriba, estaba vacío.$"
+	.string "I was also once a CHAMPION, but I quit\n"
+	.string "shortly after. When I finally managed\l"
+	.string "to climb that great mountain, I realized\l"
+	.string "it was the journey that I enjoyed; once\l"
+	.string "at the top, I felt empty.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_3:
-.string "Tu caso es diferente, siquiera\n"
-	.string "obtuviste ese efímero reconocimiento\l"
-	.string "por parte de las masas, ¿verdad? Pero\l"
-	.string "sí de aquellos pocos que de verdad\l"
-	.string "importan.$"
+	.string "Your case is different; you at least\n"
+	.string "gained that fleeting recognition from\l"
+	.string "the masses, didn't you? But more\l"
+	.string "importantly, from those few who truly\l"
+	.string "matter.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_4:
-.string "Esos pocos son los que a la larga\n"
-	.string "escriben la historia, y el tiempo pondrá\l"
-	.string "todo en su lugar.$"
+	.string "Those few are the ones who ultimately\n"
+	.string "write history, and time will set\l"
+	.string "everything in its place.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_5:
-.string "Lo más importante es que, a diferencia\n"
-	.string "de otros, tu identidad no ha sido\l"
-	.string "grabada en piedra. En todo momento\l"
-	.string "tienes el poder de elegir.$"
+	.string "The most important thing is that, unlike\n"
+	.string "others, your identity hasn't been\l"
+	.string "carved in stone. You always have the\l"
+	.string "power to choose.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_6:
-.string "Aquellos desafortunados que no han\n"
-	.string "sufrido adversidad… Que pasan su vida\l"
-	.string "sin un oponente, sin llegar jamás a\l"
-	.string "saber de lo que son capaces… dichosos\l"
-	.string "de nosotros por encontrar un rival de\l"
-	.string "altura.$"
+	.string "Those unfortunate ones who haven't\n"
+	.string "faced adversity… Who go through life\l"
+	.string "without an opponent, never knowing\l"
+	.string "what they are capable of…lucky us for\l"
+	.string "finding a worthy rival.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_7:
-.string "No hay mayor honor para mí que\n"
-	.string "contemplar la historia ya escrita y aún\l"
-	.string "por escribir, ¡y ser partícipe del\l"
-	.string "devenir de acontecimientos que nos\l"
-	.string "llevarán hasta ella!$"
+	.string "There is no greater honor for me than\n"
+	.string "to contemplate both the history\l"
+	.string "already written and that yet to be\l"
+	.string "written, and to be a participant in the\l"
+	.string "unfolding of events that will lead us\l"
+	.string "there!$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_8:
-.string "No olvidaré este combate.$"
+.string "I will never forget this fight.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_9:
-.string "Creí que mi fiel DELPHOX y el DUNSPARCE\n"
-	.string "que entrené tanto tiempo en la cima del\l"
-	.string "lugar de descanso del DRAGÓN SAGRADO,\l"
-	.string "serían suficientes.$"
+	.string "I thought my loyal DELPHOX and the\n"
+	.string "DUNSPARCE I trained extensively at the\l"
+	.string "summit of the SACRED RAGON's resting\l"
+	.string "place would be enough.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_10:
-.string "Está claro, alguien como tú no puede\n"
-	.string "medirse por los paradigmas de su época.\l"
-	.string "Hubieras sido grande en cualquier\l"
-	.string "contexto.$"
+	.string "It's clear, someone like you can't be\n"
+	.string "measured by the paradigms of their\l"
+	.string "time. You would have been great in any\l"
+	.string "context.$"
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_11:
-.string "Estaré expectante de cara al futuro,\n"
-	.string "después de todo es esa incertidumbre\l"
-	.string "lo que nos encanta. La bruma vuelve\l"
-	.string "maravillosas las cosas.$"
+	.string "I'll be looking forward to the future,\n"
+	.string "after all, it's that uncertainty that we\l"
+	.string "love. Mist makes everything wonderful.$"
 
 
 Route49_Pagoda_P12_Encuentro_Maestro::
@@ -139,9 +138,8 @@ release
 end
 
 Route49_Pagoda_P12_Encuentro_Maestro_Texto_1:
-.string "La vida de la mayoría no se guía por la\n"
-	.string "elección, sino por la inercia. Lo que\l"
-	.string "percibimos como pereza es con\l"
-	.string "frecuencia falta de claridad. Si no\l"
-	.string "sabes quién eres ni a dónde vas es\l"
-	.string "fácil dejarse arrastrar.$"
+	.string "For most, life isn't guided by choice but\n"
+	.string "by inertia. What we perceive as laziness\l"
+	.string "is often a lack of clarity. If you don't\l"
+	.string "know who you are or where you're going,\l"
+	.string "it's easy to be swept along.$"

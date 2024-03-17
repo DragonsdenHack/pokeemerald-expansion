@@ -10,12 +10,12 @@ release
 end
 
 Route49_Pagoda_P8_Primer_Pensador_Texto_1:
-.string "Hay cierta preocupación por el relevo\n"
-	.string "generacional, el camino del pensador ya\l"
-	.string "no es necesario. A todos los que\l"
-	.string "llegamos aquí nos impulsó la curiosidad\l"
-	.string "y la inquietud, algo que escasea hoy en\l"
-	.string "día.$"
+	.string "There's some concern about\n"
+	.string "generational shift; the path of the\l"
+	.string "sage is no longer deemed necessary.\l"
+	.string "Curiosity and restlessness drove all of\l"
+	.string "us who made it here, something that's\l"
+	.string "scarce nowadays.$"
 
 Route49_Pagoda_P8_Segundo_Pensador::
 lock
@@ -25,10 +25,9 @@ release
 end
 
 Route49_Pagoda_P8_Segundo_Pensador_Texto_1:
-.string "El MADAAMU de MING es extremadamente\n"
-	.string "fuerte, ha recibido un entrenamiento\l"
-	.string "excepcional y eso se ve reflejado en\l"
-	.string "combate.$"
+	.string "MING's MADAAMU is extremely strong,\n"
+	.string "having undergone exceptional training,\l"
+	.string "which is reflected in battle.$"
 
 Route49_Pagoda_P8_Tercer_Pensador::
 lock
@@ -38,13 +37,12 @@ release
 end
 
 Route49_Pagoda_P8_Tercer_Pensador_Texto_1:
-.string "LUNG, el pensador más fuerte de la\n"
-	.string "pagoda después de nuestro GRAN\l"
-	.string "MAESTRO, llegó incluso a ser CAMPEÓN de\l"
-	.string "JOHTO tiempo atrás. Quedó fascinado\l"
-	.string "con el DRAGÓN SAGRADO, y desde ese\l"
-	.string "entonces se entregó al entrenamiento\l"
-	.string "de un DUNSPARCE al que salvó.$"
+	.string "LUNG, the strongest sage in the pagoda\n"
+	.string "after our GRAND MASTER, even became\l"
+	.string "the JOHTO CHAMPION some time ago. He\l"
+	.string "was fascinated by the SACRED DRAGON,\l"
+	.string "and since then, he dedicated himself to\l"
+	.string "training a DUNSPARCE he saved.$"
 
 Route49_Pagoda_P8_Cuarto_Pensador::
 lock
@@ -54,11 +52,12 @@ release
 end
 
 Route49_Pagoda_P8_Cuarto_Pensador_Texto_1:
-.string "Los miembros del ALTO MANDO protegen\n"
-	.string "los pisos superiores de la pagoda. En\l"
-	.string "esos pisos no solo entrena nuestro\l"
-	.string "GRAN MAESTRO, tambien hay valiosos\l"
-	.string "escritos sobre POKÉMON ancestrales.$"
+	.string "The ELITE FOUR members guard\n"
+	.string "the upper floors of the pagoda. On\l"
+	.string "these floors, not only does our GRAND\l"
+	.string "MASTER train, but there are also\l"
+	.string "valuable writings about ancestral\l"
+	.string "POKÉMON.$"
 
 Route49_Pagoda_P8_Quinto_Pensador::
 lock
@@ -68,9 +67,9 @@ release
 end
 
 Route49_Pagoda_P8_Quinto_Pensador_Texto_1:
-.string "Se debe absorber el color de la vida,\n"
-	.string "pero nunca recordar los detalles. Los\l"
-	.string "detalles son siempre vulgares.$"
+	.string "The color of life must be absorbed, but\n"
+	.string "never dwell on the details. Details are\l"
+	.string "always banal.$"
 
 Route49_Pagoda_P8_Sexto_Pensador::
 lock
@@ -80,11 +79,11 @@ release
 end
 
 Route49_Pagoda_P8_Sexto_Pensador_Texto_1:
-.string "Algunos de nuestros más duchos\n"
-	.string "pensadores han podido dominar por\l"
-	.string "completo los antiguos POKÉMON de\l"
-	.string "JOHTO, si quieres seguir subiendo\l"
-	.string "deberás enfrentarte a ellos.$"	
+	.string "Some of our most skilled sages have\n"
+	.string "managed to fully master the ancient\l"
+	.string "POKÉMON of JOHTO. If you wish to\l"
+	.string "continue ascending, you must face\l"
+	.string "them.$"
 
 Route49_Pagoda_P8_Septimo_Pensador::
 lock
@@ -94,11 +93,11 @@ release
 end
 
 Route49_Pagoda_P8_Septimo_Pensador_Texto_1:
-.string "Nuestro ALTO MANDO se fundó con la\n"
-	.string "propia creación de la TORRE DUN, para\l"
-	.string "recordarnos a todos que la excelencia\l"
-	.string "está ahí, lista para poner a prueba a\l"
-	.string "cualquiera que quiera aspirar a ella.$"
+	.string "Our ELITE FOUR was founded with the\n"
+	.string "very creation of the DUN TOWER, to\l"
+	.string "remind us all that excellence is there,\l"
+	.string "ready to test anyone who wants to\l"
+	.string "aspire to it.$"
 
 Route49_Pagoda_P8_Octavo_Pensador::
 lock
@@ -108,10 +107,10 @@ release
 end
 
 Route49_Pagoda_P8_Octavo_Pensador_Texto_1:
-.string "Ese POKÉMON SAMURAI de MAO inspira un\n"
-	.string "profundo respeto. Aunque no tengo\l"
-	.string "claro que sea del TIPO BICHO, aunque lo\l"
-	.string "parece.$"
+	.string "That SAMURAI POKÉMON of MAO inspires a\n"
+	.string "strong sense of reverence. Although I'm\l"
+	.string "not entirely sure it's of the BUG TYPE,\l"
+	.string "even though it appears to be.$"
 
 Route49_Pagoda_P8_Noveno_Pensador::
 lock
@@ -121,9 +120,9 @@ release
 end
 
 Route49_Pagoda_P8_Noveno_Pensador_Texto_1:
-.string "El presente no puede reducirse a un\n"
-	.string "medio para alcanzar un fin futuro, el\l"
-	.string "presente es el fin en sí mismo.$"
+	.string "The present cannot be reduced to a\n"
+	.string "means to achieve a future end; the\l"
+	.string "present is the end in itself.$"
 
 Route49_Pagoda_P8_Decimo_Pensador::
 lock
@@ -133,9 +132,9 @@ release
 end
 
 Route49_Pagoda_P8_Decimo_Pensador_Texto_1:
-.string "HO-OH y LUGIA son posteriores al\n"
-	.string "DRAGÓN SAGRADO. Este último es incluso\l"
-	.string "más esquivo que las dos aves.$"
+	.string "HO-OH and LUGIA came after the SACRED\n"
+	.string "DRAGON. It is even more enigmatic than\l"
+	.string "the two legendary birds.$"
 
 
 Route49_Pagoda_P8_Undecimo_Pensador::
@@ -146,10 +145,9 @@ release
 end
 
 Route49_Pagoda_P8_Undecimo_Pensador_Texto_1:
-.string "Es mejor pasar hambre sin dejarse\n"
-	.string "abatir por el miedo o el dolor que vivir\l"
-	.string "en opulencia pero lleno de\l"
-	.string "preocupación.$"
+	.string "Enduring hunger without succumbing to\n"
+	.string "fear or pain is preferable than living in\l"
+	.string "abundance but burdened with anxiety.$"
 
 Route49_Pagoda_P8_Curacion::
 lock
@@ -165,9 +163,9 @@ release
 end
 
 Route49_Pagoda_P8_Curacion_Texto_1:
-.string "Un buen descanso no te vendrá mal,\n"
-	.string "TORRE DUN es larga y dura.$"
+	.string "It might be wise to take a break; DUN\n"
+	.string "TOWER is quite lengthy and challenging.$"
 
 Route49_Pagoda_P8_Curacion_Texto_2:
-.string "Tus POKÉMON ya están listos para\n"
-	.string "proseguir vuestro viaje.$"
+	.string "Your POKÉMON are ready to continue\n"
+	.string "your journey.$"

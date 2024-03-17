@@ -72,59 +72,59 @@ face_right
 step_end
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_1:
-.string "Veo que el DRAGÓN SAGRADO no elige en\n"
-	.string "vano.$"
+	.string "I see the SACRED DRAGON doesn't choose\n"
+	.string "anyone in vain.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_2:
-.string "Su criterio jamás se vería nublado por\n"
-	.string "trucos aparentes, ni campeones de\l"
-	.string "cartón.$"
+	.string "Its judgment would never be clouded by\n"
+	.string "apparent tricks or cardboard\l"
+	.string "champions.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_3:
-.string "De igual modo, esta pagoda permanece\n"
-	.string "ajena a la realidad externa, ya que\l"
-	.string "tiene la capacidad de moldear la suya\l"
-	.string "propia.$"
+	.string "Similarly, this pagoda remains detached\n"
+	.string "from external reality, as it has the\l"
+	.string "ability to shape its own.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_4:
-.string "Sirve de puente para aquellos que\n"
-	.string "quieren forjar su propio destino,\l"
-	.string "recorrer el camino que les dicte el\l"
-	.string "mandato de su voluntad.$"
+	.string "It acts as a gateway for those who\n"
+	.string "seek to forge their own destiny, to\l"
+	.string "tread the path dictated by the mandate\l"
+	.string "of their will.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_5:
-.string "Dime, ¿cuál es tu estilo a la hora de\n"
-	.string "combatir? ¿Qué camino estás\l"
-	.string "recorriendo como ENTRENADOR?$"
+	.string "Let me know, what's your strategy\n"
+	.string "during battles? What journey are you\l"
+	.string "embarking on as a TRAINER?$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_6:
-.string "Si no tienes clara la respuesta a esas\n"
-	.string "preguntas, jamás podrás derrotarme.$"
+	.string "If your answers are not clear for those\n"
+	.string "questions, you will never be able to\l"
+	.string "defeat me.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_7:
-.string "Excelente…$"
+.string "Excellent…$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_8:
-.string "Así es, cuando nos reducimos a un único\n"
-	.string "camino o a un solo estilo, también nos\l"
-	.string "reducimos a una única forma, limitando\l"
-	.string "así nuestra capacidad de respuesta.$"
+	.string "That's right, when we confine ourselves\n"
+	.string "to a single path or style, we also\l"
+	.string "confine ourselves to a single form,\l"
+	.string "thereby limiting our adaptability.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_9:
-.string "El ENTRENADOR sabio se adapta a lo que\n"
-	.string "la situación requiera, la verdad no\l"
-	.string "reside en formas o estilos concretos,\l"
-	.string "sino dentro del alma de cada individuo.$"
+	.string "The wise TRAINER adapts to what the\n"
+	.string "situation requires; truth does not\l"
+	.string "reside in specific forms or styles but\l"
+	.string "within the soul of each individual.$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_10:
-.string "Cuando tú y tus POKÉMON reconozcáis la\n"
-	.string "realidad presente, recreándose a sí\l"
-	.string "misma perpetuamente, inmersa en una\l"
-	.string "danza de movimiento inexorable…$"
+	.string "As you and your POKÉMON acknowledge\n"
+	.string "the current reality, constantly\l"
+	.string "recreating itself, engaged in an\l"
+	.string "unstoppable dance of movement…$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_11:
-.string "…cuando lleguéis a ese punto,vuestras\n"
-	.string "posibilidades serán infinitas.$"
+	.string "… when you reach that point, your\n"
+	.string "possibilities will be infinite.$"
 
 Route49_Pagoda_P10_Encuentro_Maestro::
 lock

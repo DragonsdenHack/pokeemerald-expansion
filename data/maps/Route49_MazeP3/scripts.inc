@@ -9,8 +9,8 @@ release
 end
 
 Route49_MazeP3_Text3:
-.string "La frugalidad fortalece al espíritu en\n"
-.string "la búsqueda de la virtud.$"
+	.string "Frugality strengthens the spirit in the\n"
+	.string "pursuit of virtue.$"
 
 Route49_MazeP3_2::
 lock     
@@ -20,12 +20,11 @@ release
 end
 
 Route49_MazeP3_Text2:
-.string "La PIEDRA DORADA reacciona ante\n"
-	.string "muchos de los clásicos POKÉMON de\l"
-	.string "JOHTO, y algunos otros: NOCTOWL,\l"
-	.string "URSARING, GIRAFARIG, STANTLER,\l"
-	.string "BISHARP, PRIMEAPE o DUNSPARCE son\l"
-	.string "algunos de ellos.$"
+	.string "The GOLDEN STONE reacts to many\n"
+	.string "classic JOHTO POKÉMON, and some\l"
+	.string "others: NOCTOWL, URSARING, GIRAFARIG,\l"
+	.string "STANTLER, BISHARP, PRIMEAPE, or\l"
+	.string "DUNSPARCE are among them.$"
 
 
 
@@ -37,9 +36,10 @@ release
 end
 
 Route49_MazeP3_Text4:
-.string "El techo de los POKÉMON ahora es mayor,\n"
-.string "solo los más sabios y experimentados lo\l"
-.string "habrán notado. ¿Tú lo has sentido ya?$"
+	.string "The upper limit for POKÉMON is higher\n"
+	.string "now, only the wisest and most\l"
+	.string "experienced trainers may have noticed\l"
+	.string "it. Have you felt it yet?$"
 
 
 
@@ -51,9 +51,10 @@ release
 end
 
 Route49_MazeP3_Text5:
-.string "Por miedo a equivocarse cometen el peor\n"
-.string "error: no darse el lujo de poder\l"
-.string "acertar o equivocarse.$"
+	.string "Out of fear of making mistakes, they\n"
+	.string "commit the worst error: not affording\l"
+	.string "themselves the opportunity to be right\l"
+	.string "or wrong.$"
 
 
 
@@ -65,9 +66,9 @@ release
 end
 
 Route49_MazeP3_Text8:
-.string "Tu actitud está por encima de todo lo\n"
-.string "demás. Es capaz de cambiar tendencias\l"
-.string "que parecen inescapables.$"
+	.string "Your attitude transcends everything\n"
+	.string "else. It can shift seemingly inevitable\l"
+	.string "trajectories.$"
 
 
 
@@ -80,9 +81,9 @@ release
 end
 
 Route49_MazeP3_Text9:
-.string "ENTEI, RAIKOU y SUICUNE. Sus nombres\n"
-.string "no son casualidad, son una extensión\l"
-.string "de otros POKÉMON, más antiguos.$"
+	.string "ENTEI, RAIKOU & SUICUNE. Their names\n"
+	.string "are not a casualty, just an extension\l"
+	.string "of other POKÉMON, older ones.$"
 
 
 
@@ -113,21 +114,21 @@ end
 
 Route49MazeP3Documento_Text_100:
 .string "EN:\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 152\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 116\l"
-	.string "DEFENSA ESPECIAL: 137\l"
-	.string "VELOCIDAD: 85\l"
+	.string "HP: 75\n"
+	.string "ATTACK: 152\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 116\l"
+	.string "SPECIAL DEFENSE: 137\l"
+	.string "SPEED: 85\l"
 	.string "TOTAL: 635\p"
-	.string "TIPO: FUEGO\n"
-	.string "HABILIDAD: POTENCIA BRUTA\l"
-	.string "POKÉMON milenario, legado de generación\l"
-	.string "en generación al GRAN MAESTRO del\l"
-	.string "tercer pagoda de JOHTO. Una vez fue un\l"
-	.string "FLAREON, cuyo vínculo con su\l"
-	.string "ENTRENADOR alcanzó el equilibrio\l"
-	.string "perfecto.$"
+	.string "TYPE: FIRE\n"
+	.string "ABILITY: SHEER FORCE\l"
+	.string "A millennial POKÉMON, passed down from\l"
+	.string "generation to generation to the GRAND\l"
+	.string "MASTERr of the third pagoda in JOHTO.\l"
+	.string "It was once a FLAREON, whose bond with\l"
+	.string "its TRAINER reached perfect\l"
+	.string "equilibrium.$"
 
 
 
@@ -144,21 +145,20 @@ end
 
 Route49MazeP3Documento_Text_101:
 .string "SUI:\p"
-	.string "PS: 152\n"
-	.string "ATAQUE: 85\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 137\l"
-	.string "DEFENSA ESPECIAL: 116\l"
-	.string "VELOCIDAD: 75\l"
+	.string "HP: 152\n"
+	.string "ATTACK: 85\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 137\l"
+	.string "SPECIAL DEFENSE: 116\l"
+	.string "SPEED: 75\l"
 	.string "TOTAL: 635\p"
-	.string "TIPO: AGUA\n"
-	.string "HABILIDAD: MURO MÁGICO\l"
-	.string "POKÉMON milenario, legado de generación\l"
-	.string "en generación al GRAN MAESTRO del\l"
-	.string "tercer pagoda de JOHTO. Una vez fue un\l"
-	.string "VAPOREON, cuyo vínculo con su\l"
-	.string "ENTRENADOR alcanzó el equilibrio\l"
-	.string "perfecto.$"
+	.string "TYPE: WATER\n"
+	.string "ABILITY: MAGIC GUARD\l"
+	.string "A millennial POKÉMON, passed down from\l"
+	.string "generation to generation to the GRAND\l"
+	.string "MASTER of the third pagoda in JOHTO. It\l"
+	.string "was once a VAPOREON, whose bond with\l"
+	.string "its trainer reached perfect equilibrium.$"
 
 
 
@@ -175,21 +175,20 @@ end
 
 Route49MazeP3Documento_Text_102:
 .string "RAI:\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 85\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 137\l"
-	.string "DEFENSA ESPECIAL: 116\l"
-	.string "VELOCIDAD: 152\l"
+	.string "HP: 75\n"
+	.string "ATTACK: 85\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 137\l"
+	.string "SPECIAL DEFENSE: 116\l"
+	.string "SPEED: 152\l"
 	.string "TOTAL: 635\p"
-	.string "TIPO: ELÉCTRICO\n"
-	.string "HABILIDAD: INDEFENSO\l"
-	.string "POKÉMON milenario, legado de generación\l"
-	.string "en generación al GRAN MAESTRO del\l"
-	.string "tercer pagoda de JOHTO. Una vez fue un\l"
-	.string "JOLTEON, cuyo vínculo con su\l"
-	.string "ENTRENADOR alcanzó el equilibrio\l"
-	.string "perfecto.$"
+	.string "TYPE: ELECTRIC\n"
+	.string "ABILITY: NO GUARD\l"
+	.string "A millennial POKÉMON, passed down from\l"
+	.string "generation to generation to the GRAND\l"
+	.string "MASTER of the third pagoda in JOHTO. It\l"
+	.string "was once a JOLTEON, whose bond with its\l"
+	.string "trainer reached perfect equilibrium.$"
 
 Route49_MazeP3_Encuentro_Eusine::
 lock
@@ -247,45 +246,43 @@ walk_in_place_left
 step_end
 
 Route49_MazeP3_Encuentro_Eusine_Texto_1:
-.string "EUSINE: Tú también has podido llegar\n"
-	.string "hasta arriba.$"
+	.string "EUSINE: You too have managed to reach\n"
+	.string "here.$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_2:
-.string "Tu amiga está luchando contra nuestro\n"
-	.string "maestro, pero no te preocupes, luchará\l"
-	.string "contigo también.$"
+	.string "Your friend is battling our master, but\n"
+	.string "don't worry, he'll battle you too.$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_3:
-.string "Antes no te lo dije, porque pensé que no\n"
-	.string "volveríamos a vernos, al menos no de\l"
-	.string "esta forma, contigo en la cima de este\l"
-	.string "lugar, pero…$"
+	.string "I didn't tell you before because I\n"
+	.string "thought we wouldn't see each other\l"
+	.string "again, at least not like this, with you\l"
+	.string "at the top of this place, but…$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_4:
-.string "Uno de los motivos por los que estoy\n"
-	.string "tan interesado por los PERROS\l"
-	.string "LEGENDARIOS, es el hecho de que\l"
-	.string "nuestro GRAN MAESTRO cuenta con 3\l"
-	.string "POKÉMON, mucho más antiguos, pero de\l"
-	.string "características similares.$"
+	.string "One of the reasons I'm so interested in\n"
+	.string "the LEGENDARY BEATS is because our\l"
+	.string "GRAND MASTER has 3 POKÉMON, much older\l"
+	.string "but with similar characteristics.$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_5:
-.string "En las últimas semanas, vio cómo el\n"
-	.string "poder de estos POKÉMON se\l"
-	.string "incrementaba, después de mantenerse\l"
-	.string "inamovible por siglos, en un supuesto\l"
-	.string "estado de perfección.$"
+	.string "In recent weeks, he witnessed how the\n"
+	.string "power of these POKÉMON increased,\l"
+	.string "after remaining unchanged for\l"
+	.string "centuries, in a supposed state of\l"
+	.string "perfection.$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_6:
-.string "Él cree que el terremoto que tuvo lugar\n"
-	.string "en RUINAS ALFA, y lo que ocurrió allí\l"
-	.string "ese día, son el causante de este hecho.$"
+	.string "He thinks that the earthquake that\n"
+	.string "occurred at the RUINS OF ALPH, and what\l"
+	.string "happened there that day, are the cause\l"
+	.string "of this event.$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_7:
-.string "Vuestra presencia aquí tal vez pueda\n"
-	.string "arrojar algo de luz a estas cuestiones,\l"
-	.string "¿no lo crees?$"
+	.string "Perhaps your presence here could shed\n"
+	.string "some light on these matters, don't you\l"
+	.string "think so?$"
 
 Route49_MazeP3_Encuentro_Eusine_Texto_8:
-.string "Te esperamos arriba.$"
+.string "We will wait for you upstairs.$"
 

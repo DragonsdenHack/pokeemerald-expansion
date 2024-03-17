@@ -11,9 +11,8 @@ release
 end
 
 Route49_Pagoda_P6_Primer_Pensador_Texto_1:
-.string "Lo que los tontos llaman -perder el\n"
-	.string "tiempo- es casi siempre la mejor\l"
-	.string "inversión.$"
+	.string "What fools call 'wasting time' is often\n"
+	.string "the wisest investment.$"
 
 Route49_Pagoda_P6_Segundo_Pensador::
 lock
@@ -23,11 +22,10 @@ release
 end
 
 Route49_Pagoda_P6_Segundo_Pensador_Texto_1:
-.string "La gente se queda tan atrapada en el\n"
-	.string "hecho de que tiene límites que\l"
-	.string "raramente hace el esfuerzo que se\l"
-	.string "requiere para siquiera acercarse a\l"
-	.string "ellos.$"
+	.string "People get so caught up in the fact\n"
+	.string "that they have limits that they rarely\l"
+	.string "make the effort required to even come\l"
+	.string "close to them.$"
 
 Route49_Pagoda_P6_Tercer_Pensador::
 lock
@@ -37,9 +35,9 @@ release
 end
 
 Route49_Pagoda_P6_Tercer_Pensador_Texto_1:
-.string "La PIEDRA DORADA que genera el DRAGÓN\n"
-	.string "SAGRADO es, en cierto modo, parecida a\l"
-	.string "la CENIZA SAGRADA de HO-OH.$"
+	.string "The GOLDEN STONE that the SACRED\n"
+	.string "DRAGON generates is, in a way, similar to\l"
+	.string "HO-OH's SACRED ASH.$"
 
 Route49_Pagoda_P6_Cuarto_Pensador::
 lock
@@ -49,11 +47,11 @@ release
 end
 
 Route49_Pagoda_P6_Cuarto_Pensador_Texto_1:
-.string "La línea evolutiva de DUNSPARCE es\n"
-	.string "fascinante, ¿no crees? ¿Cómo un\l"
-	.string "POKÉMON condenado a la mediocridad\l"
-	.string "pudo en última instancia albergar\l"
-	.string "tanto poder?$"
+	.string "The evolutionary line of DUNSPARCE is\n"
+	.string "fascinating, don't you think so? How\l"
+	.string "could a POKÉMON destined for\l"
+	.string "mediocrity ultimately harbor so much\l"
+	.string "power?$"
 
 Route49_Pagoda_P6_EventScript_Pensador_1::
 	trainerbattle_single TRAINER_TRAINER_227, Route49_Pagoda_P6_Text_Pensador1Intro, Route49_Pagoda_P6_Text_Pensador1Defeated

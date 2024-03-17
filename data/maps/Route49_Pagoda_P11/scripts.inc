@@ -76,50 +76,48 @@ Route49_Pagoda_P11_Combate_Maestro_Texto_1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_2:
-.string "Oh… mis más sinceras disculpas. Estaba\n"
-	.string "abstraído, meditando.$"
+	.string "Oh... I'm truly sorry. I was lost in\n"
+	.string "thought, meditating.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_3:
-.string "Es una técnica muy común aquí. Con ella,\n"
-	.string "elevamos nuestro grado de consciencia,\l"
-	.string "así, nos conocemos mejor tanto a\l"
-	.string "nosotros mismos como a nuestro\l"
-	.string "entorno.$"
+	.string "It's quite a common method around here.\n"
+	.string "Through it, we heighten our awareness\l"
+	.string "level, allowing us to better understand\l"
+	.string "ourselves and our environment.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_4:
-.string "Mientras no logres transformar lo\n"
-	.string "inconsciente en consciente, lo\l"
-	.string "inconsciente guiará tu vida y tú lo\l"
-	.string "llamarás destino.$"
+	.string "As long as you don't turn the\n"
+	.string "unconscious into conscious, the\l"
+	.string "unconscious will guide your life, and\l"
+	.string "you will call it destiny.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_5:
-.string "Pero eso ya lo sabes, ¿no? Aunque sea\n"
-	.string "de forma inconsciente, de lo contrario\l"
-	.string "jamás hubieras llegado hasta aquí.$"
+	.string "But you already know that, don't you?\n"
+	.string "Even if it's unconsciously, otherwise,\l"
+	.string "you would never have made it this far.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_6:
-.string "La cuestión es, ¿hasta qué punto has\n"
-	.string "desarrollado el grado de consciencia\l"
-	.string "con tu equipo POKÉMON?$"
+	.string "Now the matter is, to what extent have\n"
+	.string "you developed the level of\l"
+	.string "consciousness with your POKÉMON team?$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_7:
-.string "Oh… ya lo veo…$"
+.string "Oh… I see…$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_8:
-.string "A pesar de tu corta edad, veo que has\n"
-	.string "vivido ya intensas experiencias. Eso ha\l"
-	.string "fortalecido el VÍNCULO con tus\l"
-	.string "POKÉMON de un modo especial, distinto\l"
-	.string "al que se podría alcanzar recluído\l"
-	.string "aquí, pero igualmente efectivo.$"
+	.string "Despite your young age, I see that you\n"
+	.string "have already lived intense experiences.\l"
+	.string "That has strengthened the BOND with\l"
+	.string "your POKÉMON in a special way,\l"
+	.string "different from what could be achieved\l"
+	.string "secluded here, but equally effective.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_9:
-.string "No hay duda, vuestra progresión sigue\n"
-	.string "los pasos del DRAGÓN SAGRADO.$"
+	.string "There's no doubt, your advancement\n"
+	.string "echoes that of the SACRED DRAGON.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_10:
-.string "Solo espero que no os malogréis por el\n"
-	.string "camino.$"
+	.string "I only hope you don't lose your way.$"
 
 
 
@@ -131,7 +129,7 @@ release
 end
 
 Route49_Pagoda_P11_Encuentro_Maestro_Texto_1:
-.string "Mientras no logres transformar lo\n"
-	.string "inconsciente en consciente, lo\l"
-	.string "inconsciente guiará tu vida y tú lo\l"
-	.string "llamarás destino.$"
+	.string "As long as you don't turn the\n"
+	.string "unconscious into conscious, the\l"
+	.string "unconscious will guide your life, and\l"
+	.string "you will call it destiny.$"

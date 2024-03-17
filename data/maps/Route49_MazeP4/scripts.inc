@@ -10,9 +10,9 @@ release
 end
 
 Route49_MazeP4_Text3:
-.string "No se trata de realizar el esfuerzo\n"
-.string "máximo, sino el esfuerzo óptimo que nos\l"
-.string "permita seguir mejorando un día más.$"
+	.string "It's not about exerting maximum effort,\n"
+	.string "but rather optimal effort that allows\l"
+	.string "us to keep improving day by day.$"
 
 
 
@@ -25,9 +25,9 @@ release
 end
 
 Route49_MazeP4_Text4:
-.string "La gente tiene tanta necesidad de\n"
-.string "mencionar los defectos porque duele\l"
-.string "mucho que te superen en virtudes.$"
+	.string "People have such a need to mention\n"
+	.string "flaws because it hurts so much to be\l"
+	.string "surpassed in virtues.$"
 
 
 
@@ -43,24 +43,24 @@ release
 end
 
 Route49MazeP4Documento_Text_100:
-.string "DRAGÓN SAGRADO:\p"
-	.string "PS: 163\n"
-	.string "ATAQUE: 2\l"
-	.string "DEFENSA: 97\l"
-	.string "ATAQUE ESPECIAL: 157\l"
-	.string "DEFENSA ESPECIAL: 193\l"
-	.string "VELOCIDAD: 109\l"
+.string "SACRED DRAGON:\p"
+	.string "HP: 163\n"
+	.string "ATTACK: 2\l"
+	.string "DEFENSE: 97\l"
+	.string "SPECIAL ATTACK: 157\l"
+	.string "SPECIAL DEFENSE: 193\l"
+	.string "SPEED: 109\l"
 	.string "TOTAL: 721\p"
-	.string "TIPO: DRAGÓN/PSÍQUICO\n"
-	.string "HABILIDAD: ELECTROGÉNESIS\l"
-	.string "La leyenda dice que surgió a partir de\l"
-	.string "un DUNSPARCE, el cual fue despreciado\l"
-	.string "y juzgado por el resto de POKEMON.\l"
-	.string "Producto de ello y su inquebrantable\l"
-	.string "voluntad, logró trascender más allá de\l"
-	.string "su limitada forma. El proceso y\l"
-	.string "fenómeno por el cual logró esto es todo\l"
-	.string "un misterio.$"
+	.string "TYPE: DRAGON/PSYCHIC\n"
+	.string "ABILITY: ELECTRIC SURGE\l"
+	.string "The legend states that it evolved from\l"
+	.string "a DUNSPARCE, which was scorned and\l"
+	.string "judged by the rest of the POKEMON. As a\l"
+	.string "result of this and its unwavering will,\l"
+	.string "it managed to transcend beyond its\l"
+	.string "limited form. The process and\l"
+	.string "phenomenon by which it achieved this\l"
+	.string "are a complete mystery.$"
 
 Route49_MazeP4_Combate_Maestro::
 lock
@@ -324,7 +324,7 @@ walk_in_place_up
 step_end
 
 Route49_MazeP4_Combate_Maestro_Texto_1.1:
-.string "ANDRA: ... ...$"
+.string "ANDRA: … …$"
 
 Route49_MazeP4_Combate_Maestro_Texto_1:
 .string "G.MAESTRO: Tienes talento, voluntad y\n"
@@ -333,22 +333,21 @@ Route49_MazeP4_Combate_Maestro_Texto_1:
 	.string "sacar todo tu potencial.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_2:
-.string "Tu ética de entrenamiento es\n"
-	.string "asombrosa. Eres consciente de tus\l"
-	.string "límites, y actúas para superarlos una\l"
-	.string "vez tras otra, pero sin esa templanza\l"
-	.string "dentro de un combate real, no podrás\l"
-	.string "encontrar el nivel que mereces acorde\l"
-	.string "a cómo entrenas.$"
+	.string "Your training ethic is remarkable.\n"
+	.string "You're aware of your limits and\l"
+	.string "consistently strive to surpass them.\l"
+	.string "However, without temperance in a real\l"
+	.string "battle, you won't reach the level you\l"
+	.string "deserve based on your training.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_3:
-.string "ANDRA: Estuve tan cerca…$"
+.string "ANDRA: I was so close…$"
 
 Route49_MazeP4_Combate_Maestro_Texto_4:
-.string "G.MAESTRO: El combate nunca peligró\n"
-	.string "para mi equipo, creías tener el control,\l"
-	.string "únicamente por hacer uso de un poder\l"
-	.string "precisamente incontrolable.$"
+	.string "G.MASTER: The battle never posed a\n"
+	.string "threat to my team; you thought you had\l"
+	.string "control, solely by wielding a power that\l"
+	.string "is precisely uncontrollable.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_5:
 .string "ANDRA: Ya veo, la próxima vez\n"
