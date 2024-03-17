@@ -29,9 +29,8 @@ release
 end
 
 BaseRocketHoenn_Text_3:
-.string "Dejar que otros ganen las batallas\n"
-.string "pequeñas es una manipulación muy\l"
-.string "poderosa.$"
+	.string "Allowing others to win the minor battles\n"
+	.string "is a very powerful manipulation tactic.$"
 
 
 
@@ -46,9 +45,9 @@ release
 end
 
 BaseRocketHoenn_Text_5:
-.string "Hay algunos POKÉMON de HOENN que molan\n"
-.string "mucho. ¡MIGHTYENA y SHARPEDO son mis\l"
-.string "favoritos!$"
+	.string "Some POKÉMON from HOENN are really cool.\n"
+	.string "MIGHTYENA and SSHARPEDO are my\l"
+	.string "favorites!$"
 
 
 
@@ -67,10 +66,9 @@ release
 end
 
 BaseRocketHoenn_Text_8:
-.string "A nuestra ADMIN.JEFA le gusta más salir\n"
-.string "a explorar que estar sentada en su\l"
-.string "despacho. Los POKÉMON que tiene\l"
-.string "reflejan sus innumerables viajes.$"
+	.string "Our CHIEF ADMIN. prefers exploring over\n"
+	.string "sitting in her office. The POKÉMON she\l"
+	.string "has reflect her countless journeys.$"
 
 
 
@@ -83,10 +81,9 @@ release
 end
 
 BaseRocketHoenn_Text_9:
-.string "Uno sabe que ha avanzado realmente en\n"
-.string "una teoría cuando ya no puede explicar\l"
-.string "por qué durante tanto tiempo no fue\l"
-.string "capaz de ver lo obvio.$"
+	.string "You know when you've made real progress\n"
+	.string "in a theory when you can't explain why\l"
+	.string "it took you so long to see the obvious.$"
 
 
 
@@ -99,11 +96,12 @@ release
 end
 
 BaseRocketHoenn_Text_10:
-.string "Esta región está llena de POKÉMON raros\n"
-.string "y exóticos. Cuando salí al desierto me\l"
-.string "atacó un POKÉMON que parecía una\l"
-.string "libélula, pero los CIENTÍFICOS de aquí\l"
-.string "me han dicho que no es TIPO BICHO.$"
+	.string "This region is full of rare and exotic\n"
+	.string "POKÉMON. When I went out into the\l"
+	.string "desert, I was attacked by a POKÉMON\l"
+	.string "that looked like a dragonfly, but the\l"
+	.string "SCIENTISTS here told me it's not a BUG\l"
+	.string "TYPE.$"
 
 BaseRocketHoenn_11::
 lock     
@@ -113,11 +111,11 @@ release
 end
 
 BaseRocketHoenn_Text_11:
-.string "¿Has oído hablar de los movimientos Z?\n"
-.string "Un colega en la sucursal de KANTO me\l"
-.string "filtró que en la nueva TORRE RADIO\l"
-.string "podrá comprarse un objeto que activa\l"
-.string "ese poder.$"
+	.string "Have you heard about z-moves? A\n"
+	.string "colleague at the KANTO branch leaked\l"
+	.string "to me that in the new RADIO TOWER, you\l"
+	.string "can buy an item that activates this\l"
+	.string "power.$"
 
 
 
@@ -130,10 +128,10 @@ release
 end
 
 BaseRocketHoenn_Text_12:
-.string "El hecho de crear prototipos superiores\n"
-.string "a PORYGON3 supondrá un duro golpe al\l"
-.string "ego de BILL. Aunque no es fácil superar\l"
-.string "la ofensiva de ese monstruo.$"
+	.string "Creating prototypes superior to\n"
+	.string "PORYGON3 will be a blow to BILL's ego.\l"
+	.string "Although it's not easy to surpass the\l"
+	.string "offensive capabilities of that monster.$"
 
 
 
@@ -145,11 +143,10 @@ release
 end
 
 BaseRocketHoenn_Text_13:
-.string "Muchos creen que GIOVANNI debió ser\n"
-.string "más duro con LANCE, después de todo el\l"
-.string "daño que causó. Yo creo que el\l"
-.string "verdadero castigo de LANCE aún no lo\l"
-.string "hemos visto.$"
+	.string "Many think that GIOVANNI should have\n"
+	.string "been tougher on LANCE after all the\l"
+	.string "damage he caused. I think that we have\l"
+	.string "yet to see LANCE's true punishment…$"
 
 
 BaseRocketHoenn_14::
@@ -160,8 +157,8 @@ release
 end
 
 BaseRocketHoenn_Text_14:
-.string "Con frecuencia, no hacer nada es el\n"
-.string "mayor riesgo.$"
+	.string "Often, doing nothing is the greatest\n"
+	.string "risk.$"
 
 
 
@@ -174,10 +171,10 @@ release
 end
 
 BaseRocketHoenn_Text_15:
-.string "Hemos invertido millones en explorar\n"
-.string "cada rincón de las regiones conocidas,\l"
-.string "ahora nuestra red de información es la\l"
-.string "más completa del mundo.$"
+	.string "We have invested millions in exploring\n"
+	.string "every corner of the known regions, and\l"
+	.string "now our information network is the most\l"
+	.string "comprehensive in the world.$"
 
 
 
@@ -191,11 +188,11 @@ release
 end
 
 BaseRocketHoenn_Text_16:
-.string "Efectivamente, TESELIA es la región\n"
-.string "que vio nacer al DRAGÓN ORIGINAL. Este\l"
-.string "se dividió en 3 POKÉMON, de un poder\l"
-.string "similar a MEWTWO, ¿cómo hiciste para\l"
-.string "derrotar a semejante bestia?$"
+	.string "Indeed, UNOVA is where the ORIGINAL\n"
+	.string "DRAGON was born. It fragmented into\l"
+	.string "three POKÉMON, each possessing power\l"
+	.string "comparable to MEWTWO's. How did you\l"
+	.string "overcome such a formidable creature?$"
 
 
 
@@ -209,11 +206,11 @@ release
 end
 
 BaseRocketHoenn_Text_17:
-.string "VOLCARONA es increíble, los dioses del\n"
-.string "MUNDO POKÉMON debieron concederle la\l"
-.string "jerarquía de un PSEUDOLEGENDARIO, ¿o\l"
-.string "crees que eso no lo deciden los dioses,\l"
-.string "sino la voluntad de los mortales?$"
+	.string "VOLCARONA is incredible; the gods of\n"
+	.string "the POKÉMON WORLD must have granted it\l"
+	.string "the status of a PSEUDOLEGENDARY. Or do\l"
+	.string "you think that's not decided by the\l"
+	.string "gods but rather by mortal will?$"
 
 
 
@@ -226,15 +223,14 @@ release
 end
 
 BaseRocketHoenn_Text_18:
-.string "Muchos confunden AERODACTYL MEGA con\n"
-.string "AERODACTYL PRIMIGENIO. El primero fue\l"
-.string "creado por el C.MIGUEL, gracias a\l"
-.string "formar la MEGAPIEDRA específica. El\l"
-.string "segundo fue obra de OAK y BLAINE, su\l"
-.string "reparto de STATS varía ligeramente,\l"
-.string "pero AERODACTYL PRIMIGENIO es\l"
-.string "superior, ya que puede usar un objeto\l"
-.string "equipable.$"
+	.string "Many confuse MEGA AERODACTYL with\n"
+	.string "PRIMAL AERODACTYL. The former was\l"
+	.string "created by S. MIGUEL, thanks to\l"
+	.string "crafting the specific MEGA STONE. The\l"
+	.string "latter was the work of OAK and BLAINE;\l"
+	.string "its STAT distribution varies slightly,\l"
+	.string "but PRIMAL AERODACTYL is superior as it\l"
+	.string "can use an equipable item.$"
 
 
 
@@ -247,10 +243,11 @@ release
 end
 
 BaseRocketHoenn_Text_19:
-.string "¿Has visto los mares de HOENN? Son el\n"
-.string "50% de la región, existe un equilibrio\l"
-.string "perfecto entre agua y tierra aquí,\l"
-.string "nadie debería tratar de romperlo.$"
+	.string "Have you seen the seas of HOENN? They\n"
+	.string "encompass 50% of the region,\l"
+	.string "maintaining a perfect balance between\l"
+	.string "water and land here; no one should try\l"
+	.string "to disrupt it.$"
 
 
 
@@ -263,12 +260,11 @@ release
 end
 
 BaseRocketHoenn_Text_20:
-.string "No hay sufrimiento mayor que\n"
-.string "levantarse por la mañana siendo\l"
-.string "consciente de que eres tan solo un\l"
-.string "dígito, un pasivo, un peón, un esclavo,\l"
-.string "un ser inerte y clónico sometido a una\l"
-.string "servidumbre incesante.$"
+	.string "There is no greater suffering than\n"
+	.string "waking up in the morning aware that you\l"
+	.string "are merely a digit, a liability, a pawn, a\l"
+	.string "slave, an inert and cloned being\l"
+	.string "subjected to ceaseless servitude.$"
 
 BaseRocketHoenn_21::
 lock     
@@ -278,11 +274,10 @@ release
 end
 
 BaseRocketHoenn_Text_21:
-.string "Ese SEVIPER se parece mucho a nuestro\n"
-.string "ARBOK, creo que es incluso mejor. ¡Un\l"
-.string "CIENTÍFICO me dijo que puede aprender\l"
-.string "LANZALLAMAS para defenderse del TIPO\l"
-.string "ACERO!$"
+	.string "That SEVIPER resembles our ARBOK a lot,\n"
+	.string "I think it's even better. A SCIENTIST\l"
+	.string "told me it can learn FLAMETHROWER to\l"
+	.string "defend against STEEL TYPE!$"
 
 
 
@@ -295,10 +290,10 @@ release
 end
 
 BaseRocketHoenn_Text_22:
-.string "SINOHH es la región con mayor número de\n"
-.string "LEGENDARIOS. Que sea el epicentro del\l"
-.string "llamado “DIOS POKÉMON” tiene mucho\l"
-.string "que ver.$"
+	.string "SINNOH is the region with the highest\n"
+	.string "amount of LEGENDARIES. Being the\l"
+	.string "epicenter of the so-called 'POKÉMON\l"
+	.string "GOD' has a lot to do with it.$"
 
 
 
@@ -311,10 +306,10 @@ release
 end
 
 BaseRocketHoenn_Text_23:
-.string "Sé que CAMERUPT no es TIPO VENENO, aún\n"
-.string "así, tiene ese algo que le hace el\l"
-.string "compañero ideal para un miembro del\l"
-.string "TEAM ROCKET. ¡Igual que SHARPEDO!$"
+	.string "I know CAMERUPT isn't a POISON TYPE,\n"
+	.string "yet it has that something that makes it\l"
+	.string "the perfect companion for a TEAM\l"
+	.string "ROCKET member. Just like SHARPEDO!$"
 
 
 
@@ -327,8 +322,8 @@ release
 end
 
 BaseRocketHoenn_Text_24:
-.string "Me gusta ZANGOOSE, es más lento que\n"
-.string "PERSIAN, ¡pero su CUCHILLADA es letal!$"
+	.string "I like ZANGOOSE, it is slower than\n"
+	.string "PERSIAN, but its SLASH is mortal!$"
 
 
 
@@ -341,9 +336,9 @@ release
 end
 
 BaseRocketHoenn_Text_25:
-.string "¡No hay nada como un MUK! ¡Ese SWALOT\n"
-.string "de HOENN no es más que una copia\l"
-.string "barata!$"
+	.string "There is not anything as MUK! That\n"
+	.string "SWALOT of HOENN isn't more than just a\l"
+	.string "cheap copy!$"
 
 
 
@@ -362,9 +357,9 @@ release
 end
 
 BaseRocketHoenn_Text_28:
-.string "Ese ARCHEOPS tiene mucho potencial,\n"
-.string "¿no crees? ¡Qué desperdicio de\l"
-.string "HABILIDAD!$"
+	.string "The potential of that ARCHEOPS is\n"
+	.string "impressive, isn't it? It's such a pity\l"
+	.string "about its ABILITY being wasted!$"
 
 
 
@@ -377,10 +372,9 @@ release
 end
 
 BaseRocketHoenn_Text_29:
-.string "La seguridad de esta BASE es muy\n"
-.string "estricta, para llegar al S2 necesitas\l"
-.string "una tarjeta, individualizada para cada\l"
-.string "miembro.$"
+	.string "The security in this BASE is very\n"
+	.string "strict; to reach B2F, you need a card\l"
+	.string "personalized for each member.$"
 
 
 
@@ -393,8 +387,8 @@ release
 end
 
 BaseRocketHoenn_Text_30:
-.string "Más al sur está CIUDAD MALVALONA, dicen\n"
-.string "que tiene un CASINO como el nuestro.$"
+	.string "Further south lies MAUVILLE CITY, they\n"
+	.string "say it has a GAME CORNER like ours.$"
 
 
 
@@ -407,10 +401,9 @@ release
 end
 
 BaseRocketHoenn_Text_31:
-.string "KALOS es la región con menos POKÉMON\n"
-.string "singulares, aunque la tecnología de las\l"
-.string "MEGAPIEDRAS se desarrolló por primera\l"
-.string "vez allí.$"
+	.string "KALOS is the region with the fewest\n"
+	.string "singular POKÉMON, although MEGA STONE\l"
+	.string "technology was first developed there.$"
 
 
 
@@ -423,11 +416,10 @@ release
 end
 
 BaseRocketHoenn_Text_32:
-.string "ELM está obsesionado con las ONDAS DE\n"
-.string "RADIO y la EVOLUCIÓN POKÉMON. Creo que\l"
-.string "no le importaría dejar aberraciones\l"
-.string "por el camino, si con ello logra sus\l"
-.string "objetivos.$"
+	.string "ELM is obsessed with RADIO WAVES and\n"
+	.string "POKÉMON EVOLUTION. I think he wouldn't\l"
+	.string "mind leaving aberrations behind if it\l"
+	.string "helps him achieve his goals.$"
 
 
 
@@ -440,10 +432,10 @@ release
 end
 
 BaseRocketHoenn_Text_33:
-.string "Me encantaría ser trasladado a la\n"
-.string "nueva TORRE RADIO, en LAVANDA, y\l"
-.string "trabajar en el P6 o P7, ¡las vistas que\l"
-.string "debe haber allí!$"
+	.string "I would love to be transferred to the\n"
+	.string "new RADIO TOWER in LAVENDER, and work\l"
+	.string "on the 6F or 7F. The views from there up\l"
+	.string "must be amazing!$"
 
 
 
@@ -456,10 +448,10 @@ release
 end
 
 BaseRocketHoenn_Text_34:
-.string "El otro día bajé al DESIERTO y un\n"
-.string "enorme cactus me atacó. Desde\l"
-.string "entonces, se ha vuelto mi POKÉMON\l"
-.string "favorito.$"
+	.string "The other day I went down to the\n"
+	.string "DESERT and a huge cactus attacked me.\l"
+	.string "Since then, it has become my favorite\l"
+	.string "POKÉMON.$"
 
 
 
@@ -472,9 +464,9 @@ release
 end
 
 BaseRocketHoenn_Text_35:
-.string "Lo que más nos impide avanzar es lo\n"
-.string "pronto que nos sentimos contentos con\l"
-.string "nosotros mismos.$"
+	.string "What most prevents us from moving\n"
+	.string "forward is how quickly we feel satisfied\l"
+	.string "with ourselves.$"
 
 
 
@@ -488,23 +480,23 @@ release
 end
 
 BaseRocketHoennDocumento_Text_100:
-.string "NÚMERO 14: UXIE\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 75\l"
-	.string "DEFENSA: 130\l"
-	.string "ATAQUE ESPECIAL: 75\l"
-	.string "DEFENSA ESPECIAL: 130\l"
-	.string "VELOCIDAD: 95\l"
+.string "NUMBER 14: UXIE\p"
+	.string "HP: 75\n"
+	.string "ATTACK: 75\l"
+	.string "DEFENSE: 130\l"
+	.string "SPECIAL ATTACK: 75\l"
+	.string "SPECIAL DEFENSE: 130\l"
+	.string "SPEED: 95\l"
 	.string "TOTAL: 580\p"
-	.string "LEGENDARIOS de SINOHH. Representa la\n"
-	.string "sabiduría. Cuenta con unos atributos\l"
-	.string "defensivos extrardinarios, hasta el\l"
-	.string "punto de superar tanto en DEFENSA\l"
-	.string "como en DEFENSA ESPECIAL al propio\l"
-	.string "DIOS POKEMON, contando con 130 STATS\l"
-	.string "BASE en ambas. Aún con buena\l"
-	.string "VELOCIDAD, su capacidad ofensiva es\l"
-	.string "mediocre para un LEGENDARIO.$"
+	.string "One of the 3 LEGENDARY ELVES of\l"
+	.string "SINOHH. It represents wisdom. It\l"
+	.string "boasts extraordinary defensive\l"
+	.string "attributes, surpassing even the\l"
+	.string "POKÉMON GOD itself in both DEFENSE and\l"
+	.string "SPECIAL DEFENSE, with 130 BASE STATS\l"
+	.string "in each. Despite having good SPEED, its\l"
+	.string "offensive capability is mediocre for a\l"
+	.string "LEGENDARY.$"
 
 
 
@@ -518,25 +510,24 @@ release
 end
 
 BaseRocketHoennDocumento_Text_101:
-.string "NÚMERO 13: AZELF\p"
-	.string "PS: 75\n"
-	.string "ATAQUE: 125\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 125\l"
-	.string "DEFENSA ESPECIAL: 70\l"
-	.string "VELOCIDAD: 115\l"
+.string "NUMBER 13: AZELF\p"
+	.string "HP: 75\n"
+	.string "ATTACK: 125\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 125\l"
+	.string "SPECIAL DEFENSE: 70\l"
+	.string "SPEED: 115\l"
 	.string "TOTAL: 580\p"
-	.string "Uno de los 3 ELFOS LEGENDARIOS de\n"
-	.string "SINOHH. Representa la voluntad. Con\l"
-	.string "diferencia el de mayor cappacidad\l"
-	.string "ofensiva de los 3 ELFOS, aún a costa de\l"
-	.string "ser el más frágil, su gran variedad de\l"
-	.string "movimientos tanto físicos como\l"
-	.string "especiales lo convierten en un peligro,\l"
-	.string "pudiendo incluso usar combos como el\l"
-	.string "de MOFA+TRAMPA ROCAS+EXPLOSIÓN y 115\l"
-	.string "de STATS BASE en VELOCIDAD como\l"
-	.string "respaldo.$"
+	.string "One of the 3 LEGENDARY ELVES of\l"
+	.string "SINOHH. Symbolizing willpower, it stands\l"
+	.string "out as the most offensive among the\l"
+	.string "trio, albeit being the most fragile. Its\l"
+	.string "extensive movepool, encompassing both\l"
+	.string "physical and special attacks, renders\l"
+	.string "it dangerous, capable of executing\l"
+	.string "combos like TAUNT+STEALTH\l"
+	.string "ROCK+EXPLOSION, supported by a base\l"
+	.string "speed stat of 115.$"
 
 
 
@@ -550,25 +541,24 @@ release
 end
 
 BaseRocketHoennDocumento_Text_102:
-.string "NÚMERO 12: MESPRIT\p"
-	.string "PS: 80\n"
-	.string "ATAQUE: 105\l"
-	.string "DEFENSA: 105\l"
-	.string "ATAQUE ESPECIAL: 105\l"
-	.string "DEFENSA ESPECIAL: 105\l"
-	.string "VELOCIDAD: 80\l"
+.string "NUMBER 12: MESPRIT\p"
+	.string "HP: 80\n"
+	.string "ATTACK: 105\l"
+	.string "DEFENSE: 105\l"
+	.string "SPECIAL ATTACK: 105\l"
+	.string "SPECIAL DEFENSE: 105\l"
+	.string "SPEED: 80\l"
 	.string "TOTAL: 580\p"
-	.string "Uno de los 3 ELFOS LEGENDARIOS de\n"
-	.string "SINOHH. Representa las emociones. Es\l"
-	.string "el más equilibrado de los 3, hasta el\l"
-	.string "punto de superar los 100 STATS BASE en\l"
-	.string "4 estadísticas diferentes, algo casi\l"
-	.string "inédito en un LEGENDARIO MENOR. Para\l"
-	.string "muchos este reparto le supone un\l"
-	.string "lastre, puesto que no llega a\l"
-	.string "especializarse por completo en una\l"
-	.string "sola faceta como sus dos hermanos,\l"
-	.string "quedando en tierra de nadie.$"
+	.string "One of the 3 LEGENDARY ELVES of\l"
+	.string "SINOHH. It represents emotions. It is\l"
+	.string "the most balanced of the 3, surpassing\l"
+	.string "100 BASE STATS in 4 different\l"
+	.string "attributes, which is almost unheard of\l"
+	.string "in a MINOR LEGENDARY. For many, this\l"
+	.string "distribution is a burden, as it fails to\l"
+	.string "fully specialize in a single facet like\l"
+	.string "its two siblings, remaining in a sort of\l"
+	.string "no man's land.$"
 
 
 

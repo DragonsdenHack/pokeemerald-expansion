@@ -350,156 +350,152 @@ Route49_MazeP4_Combate_Maestro_Texto_4:
 	.string "is precisely uncontrollable.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_5:
-.string "ANDRA: Ya veo, la próxima vez\n"
-	.string "encontraré ese término medio, tan\l"
-	.string "difícil de hallar.$"
+	.string "ANDRA: I see, next time I'll find that\n"
+	.string "balance, so hard to find.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_6:
-.string "G.MAESTRO: Mmm, {PLAYER}, ¿no?\n"
-	.string "Acércate, por favor.$"
+.string "G.MASTER: Hmm, {PLAYER}, aren't you? \n"
+	.string "Come closer, please.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_7:
-.string "Desprendes un aura muy parecida a la de\n"
-	.string "ANDRA, aunque más calmada, menos\l"
-	.string "frenética.$"
+	.string "Your aura is very similar to that of\n"
+	.string "ANDRA, but it's more serene and less\l"
+	.string "frantic.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_8:
-.string "Mmm, bien… enséñame cómo te relacionas\n"
-	.string "con los tuyos.$"
+	.string "Hmm, okay… show me how you relate with\n"
+	.string "your team.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_9:
-.string "¡Oh! Qué maestría…$"
+.string "Oh! What a skilled trainer…$"
 
 Route49_MazeP4_Combate_Maestro_Texto_10:
-.string "G.MAESTRO: Ahora comprendo porqué el\n"
-	.string "DRAGÓN SAGRADO apareció dos veces,\l"
-	.string "ambos cultiváis un vínculo similar con\l"
-	.string "uno de vuestros POKÉMON. El DRAGÓN\l"
-	.string "SAGRADO lo interpretó como un único\l"
-	.string "cuerpo.$"
+	.string "G.MASTER: Now I understand why the\n"
+	.string "SACRED DRAGON appeared twice; both of\l"
+	.string "you share a similar bond with one of\l"
+	.string "your POKÉMON. The SACRED DRAGON\l"
+	.string "interpreted it as a single entity.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_11:
-.string "ANDRA: ¿Se refiere a nuestros CROBAT?\n"
-	.string "{PLAYER} y yo obtuvimos uno el mismo día,\l"
-	.string "han crecido mucho desde entonces.$"
+	.string "ANDRA: Does he mean our CROBAT?\n"
+	.string "{PLAYER} and I got one on the same\l"
+	.string "day, and they've grown a lot since then.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_12:
-.string "G.MAESTRO: ¡Oh, sí! Desde luego, la\n"
-	.string "cuestión es que vuestro estilo como\l"
-	.string "entrenadores ha afectado al\l"
-	.string "crecimiento final de vuestros CROBAT.$"
+	.string "G.MASTER: Oh, yes! Certainly, the point\n"
+	.string "is that your training styles have\l"
+	.string "influenced the final growth of your\l"
+	.string "CROBAT.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_13:
-.string "¿Lo entendéis? Habéis moldeado la\n"
-	.string "realidad de vuestro POKÉMON, a través\l"
-	.string "de vuestra voluntad y vuestra\l"
-	.string "conciencia. Solo contados\l"
-	.string "entrenadores podrían hacer eso.$"
+	.string "Do you understand? You have shaped\n"
+	.string "the reality of your POKÉMON through\l"
+	.string "your will and consciousness. Only a few\l"
+	.string "trainers could do that.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_14:
-.string "Vuestro caso es un ejemplo de las\n"
-	.string "posibilidades infinitas que existen\l"
-	.string "para cada POKÉMON, tal y como…$"
+	.string "Your case is an example of the infinite\n"
+	.string "possibilities that exist for each\l"
+	.string "POKÉMON, just as…$"
 
 Route49_MazeP4_Combate_Maestro_Texto_15:
-.string "ANDRA: ¿Sus FUERTE VÍNCULO de\n"
-	.string "JOLTEON, FLAREON y VAPOREON?$"
+	.string "ANDRA: Your DEEP BONDS of JOHTO,\n"
+	.string "FLAREON and VAPOREON?$"
 
 Route49_MazeP4_Combate_Maestro_Texto_15.1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route49_MazeP4_Combate_Maestro_Texto_16:
-.string "Por eso EUSINE está tan interesado en\n"
-	.string "los PERROS LEGENDARIOS, ¿verdad?$"
+	.string "That's why EUSINE is so interested in\n"
+	.string "the LEGENDARY BEASTS, isn't it?$"
 
 Route49_MazeP4_Combate_Maestro_Texto_17:
-.string "G.MAESTRO: Aquí no usamos ese término,\n"
-	.string "joven.$"
+	.string "G.MASTER: We don't use that term here,\n"
+	.string "young one.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_18:
-.string "EN, RAI y SUI fueron los primeros\n"
-	.string "POKÉMON en experimentar un vínculo\l"
-	.string "similar a vuestros CROBAT. Hace más de\l"
-	.string "1000 años, el primer GRAN MAESTRO de\l"
-	.string "esta torre, logró obtener ese vínculo\l"
-	.string "con 3 POKÉMON a la vez. 3 POKÉMON que\l"
-	.string "eran formas primitivas de FLAREON,\l"
-	.string "JOLTEON y VAPOREON.$"
+	.string "EN, RAI, and SUI were the first POKÉMON\n"
+	.string "to experience a bond similar to your\l"
+	.string "CROBAT. Over 1000 years ago, the first\l"
+	.string "GRAND MASTER of this tower managed to\l"
+	.string "establish that bond with 3 POKÉMON at\l"
+	.string "once. 3 POKÉMON that were primitive\l"
+	.string "forms of FLAREON, JOLTEON, and\l"
+	.string "VAPOREON.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_19:
-.string "La diferencia con ENTEI, RAIKOU y\n"
-	.string "SUICUNE, es que estos últimos\l"
-	.string "surgieron por intervención divina.$"
+	.string "The distinction with ENTEI, RAIKOU, and\n"
+	.string "SUICUNE is that the legendary beasts\l"
+	.string "emerged through divine intervention.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_20:
-.string "EUSINE: Y aún así, tienen un poder\n"
-	.string "menor que los surgidos producto de la\l"
-	.string "interacción entre humanos y POKÉMON.$"
+	.string "EUSINE: Despite this, they wield a less\n"
+	.string "global power than those resulting from\l"
+	.string "human-POKÉMON interaction.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_21:
-.string "G.MAESTRO: Una interacción muy\n"
-	.string "poderosa, decidme, ¿qué clase de\l"
-	.string "fuerzas habéis enfrentado en vuestro\l"
-	.string "viaje por JOHTO?$"
+	.string "G.MASTER: A very powerful interaction\n"
+	.string "indeed. Tell me, what kind of forces\l"
+	.string "have you faced in your journey through\l"
+	.string "JOHTO?$"
 
 Route49_MazeP4_Combate_Maestro_Texto_22_1:
-.string "ANDRA: A las mayores que puedan\n"
-	.string "existir.$"
+	.string "ANDRA: The most powerful that can exist.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_22:
-.string "Yo llegué a enfrentar al HO-OH dorado,\n"
-	.string "en las profundidades de RUINAS ALFA.$"
+	.string "I even faced the golden HO-OH deep\n"
+	.string "within the RUINS OF ALPH.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_23:
-.string "{PLAYER}... a algo aún más grande.$"
+.string "{PLAYER}... to something even more powerful.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_24:
-.string "G.MAESTRO: Tal y como temía, enfrentar\n"
-	.string "a algo de tal calibre ha llegado a\l"
-	.string "expandir las leyes de nuestro mundo.$"
+	.string "G.MASTER: As I suspected, facing\n"
+	.string "something of such magnitude has led to\l"
+	.string "the extension of the laws governing our\l"
+	.string "world.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_25:
-.string "Tal vez sea una anomalía. Tal vez una\n"
-	.string "bendición. Ese ser pudo hacer algo así,\l"
-	.string "en señal de gratitud por derrotarlo,\l"
-	.string "aunque fuera anclado a nuestras\l"
-	.string "normas. Dicho POKÉMON pudo conceder\l"
-	.string "parte de su ilimitada capacidad a\l"
-	.string "mortales como nosotros.$"
+	.string "Maybe it's an anomaly. Perhaps a\n"
+	.string "blessing. That being could have done\l"
+	.string "something like that, as a sign of\l"
+	.string "gratitude for defeating it, even if it\l"
+	.string "was bound by our norms. That POKÉMON\l"
+	.string "could have bestowed part of its\l"
+	.string "boundless capability upon mortals like\l"
+	.string "us.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_26:
-.string "EUSINE: Entonces, ahora el nuevo límite\n"
-	.string "es un misterio, ¿no?$"
+	.string "EUSINE: So, now the new limit is a\n"
+	.string "mystery, isn't it?$"
 
 Route49_MazeP4_Combate_Maestro_Texto_27:
-.string "G.MAESTRO: ¡Jo, jo, jo! Y así debe ser,\n"
-	.string "¿no crees, EUSINE?$"
+	.string "G.MASTER: Ho, ho, ho! And it must be like\n"
+	.string "that, don't you think so, EUSINE?$"
 
 Route49_MazeP4_Combate_Maestro_Texto_28:
-.string "EUSINE: Su-supongo.$"
+.string "EUSINE: I gu-guess.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_29:
-.string "G.MAESTRO: Ambos sois muy jovenes, aún\n"
-	.string "inconscientes acerca de todo lo que\l"
-	.string "podéis dar, vuestro potencial y\l"
-	.string "posibilidades son infinitas.$"
+	.string "G.MASTER: You two are quite young, still\n"
+	.string "unaware of your full potential and\l"
+	.string "endless possibilities.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_30:
-.string "EUSINE: Yo me marcho. {PLAYER}, me\n"
-	.string "gustaría que volvieras a visitar mi\l"
-	.string "pequeña casa, al norte de ORQUÍDEA,\l"
-	.string "tengo algo que proponerte.$"
+	.string "EUSINE: I'm leaving. {PLAYER}, I'd like\n"
+	.string "you to visit my small house again, north\l"
+	.string "of CIANWOOD, I have something to\l"
+	.string "propose to you.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_31:
-.string "ANDRA: Yo también me voy, ha sido un\n"
-	.string "placer luchar con usted, maestro.$"
+	.string "ANDRA: I'm also leaving, it was a\n"
+	.string "pleasure to fight you, master.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_32:
-.string "En cuanto acabemos nuestras misiones,\n"
-	.string "deberíamos ver inmediatamente a\l"
-	.string "GIOVANNI, toda esta información es\l"
-	.string "justo lo que andábamos buscando.\l"
-	.string "Buena suerte para lo que te reste,\l"
+	.string "Once we finish our missions, we should\n"
+	.string "immediately see GIOVANNI. All this\l"
+	.string "information is exactly what we were\l"
+	.string "looking for. Good luck with the rest,\l"
 	.string "{PLAYER}.$"
 
 
@@ -511,11 +507,11 @@ release
 end
 
 Route49_MazeP4_Dialogo_Anciano_Texto_1:
-.string "Lo que tengáis que hacer, hacedlo. Mi\n"
-	.string "tiempo ya pasó, no me opondré a los\l"
-	.string "nuevos cambios. Espero que EUSINE\l"
-	.string "pueda ayudaros en vuestro propósito,\l"
-	.string "señal será de que es puro.$"
+	.string "Do what you have to do. My time has\n"
+	.string "passed, I won't oppose the new changes.\l"
+	.string "I hope EUSINE can assist you in your\l"
+	.string "purpose; it will be a sign that he is\l"
+	.string "genuine.$"
 
 Route49MazeP4_EventScript_Sabio::
 	trainerbattle_single TRAINER_TRAINER_193, Route49MazeP4_Text_SabioIntro, Route49MazeP4_Text_SabioDefeated
@@ -535,22 +531,22 @@ end
 
 Route49MazeP4Documento_Text_101:
 .string "DUN:\p"
-	.string "PS: 153\n"
-	.string "ATAQUE: 44\l"
-	.string "DEFENSA: 66\l"
-	.string "ATAQUE ESPECIAL: 117\l"
-	.string "DEFENSA ESPECIAL: 132\l"
-	.string "VELOCIDAD: 99\l"
+	.string "HP: 153\n"
+	.string "ATTACK: 44\l"
+	.string "DEFENSE: 66\l"
+	.string "SPECIAL ATTACK: 117\l"
+	.string "SPECIAL DEFENSE: 132\l"
+	.string "SPEED: 99\l"
 	.string "TOTAL: 611\p"
-	.string "TIPO: DRAGÓN/PSÍQUICO\n"
-	.string "HABILIDAD: PSICOGÉNESIS\l"
-	.string "Evolución de BLESSPARCE que solo los\l"
-	.string "elegidos pueden alcanzar. Posee\l"
-	.string "mimbres de PSEUDOLEGENDARIO, aunque\l"
-	.string "todos sus atributos en conjunto\l"
-	.string "muestran una jerarquía incluso\l"
-	.string "superior. Fue señalado por los antiguos\l"
-	.string "como el NO LEGENDARIO con mayor\l"
-	.string "potencial puro, ignorando fenómenos\l"
-	.string "como la MEGAEVOLUCION y el FUERTE\l"
-	.string "VINCULO.$"
+	.string "TYPE: DRAGON/PSYCHIC\n"
+	.string "ABILITY: PSYCHIC SURGE\l"
+	.string "The evolution of BLESSPARCE,\l"
+	.string "achievable solely by the chosen. It\l"
+	.string "displays characteristics akin to a\l"
+	.string "PSEUDOLEGENDARY, yet its overall\l"
+	.string "attributes suggest an even higher\l"
+	.string "hierarchy. It was hailed by the\l"
+	.string "ancients as the non-legendary with the\l"
+	.string "greatest pure potential, disregarding\l"
+	.string "phenomena like MEGA EVOLUTION and\l"
+	.string "DEEP BOND.$"

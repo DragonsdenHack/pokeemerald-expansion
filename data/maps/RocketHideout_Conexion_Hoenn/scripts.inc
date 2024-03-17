@@ -14,9 +14,8 @@ release
 end
 
 RocketHideout_Conexion_Hoenn_Maquina_Teletransporte_YesNo:
-.string "La máquina está lista para ser\n"
-	.string "usada, ¿quieres teletransportarte\l"
-	.string "a la BASE de HOENN?$"
+	.string "The machine is ready to be used. Do you\n"
+	.string "want to teleport to the HOENN BASE?$"
 
 
 
@@ -40,9 +39,8 @@ release
 end
 
 RocketHideout_Conexion_Hoenn_Primer_Cientifico_Texto_1:
-.string "Las circunstancias permanentes tienen\n"
-	.string "poco efecto en el bienestar del\l"
-	.string "individuo.$"
+	.string "Permanent circumstances have little\n"
+	.string "effect on individual well-being.$"
 
 
 
@@ -56,10 +54,10 @@ release
 end
 
 RocketHideout_Conexion_Hoenn_Segundo_Cientifico_Texto_1:
-.string "Hay secretos en nuestro mundo que solo\n"
-	.string "la práctica puede revelar, y que\l"
-	.string "ninguna opinión ni análisis llegará\l"
-	.string "jamás a captar por completo.$"
+	.string "There are secrets in our world that only\n"
+	.string "practice can reveal, and that no\l"
+	.string "opinion or analysis will ever fully\l"
+	.string "grasp.$"
 
 
 
@@ -71,6 +69,5 @@ release
 end
 
 RocketHideout_Conexion_Hoenn_Tercer_Cientifico_Texto_1:
-.string "A pesar de que nuestra tendencia\n"
-	.string "natural es hacia el descanso, la\l"
-	.string "inactividad puede destruirnos.$"
+	.string "Despite our natural inclination to rest,\n"
+	.string "inactivity can destroy us.$"
