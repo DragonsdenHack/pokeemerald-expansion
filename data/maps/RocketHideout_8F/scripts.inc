@@ -2962,8 +2962,10 @@ step_end
 
 RocketHideout8F_Mision_Johto::
 lock
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 clearflag FLAG_HIDE_UNION_ROOM_PLAYER_5
 clearflag FLAG_HIDE_ROUTE_111_GABBY_AND_TY_1
+addobject 1
 addobject 10
 addobject 2
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout8F_Mision_Johto_move_1

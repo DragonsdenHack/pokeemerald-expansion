@@ -234,8 +234,8 @@
     },
     {
       "type": "trigger",
-      "x": 1,
-      "y": 11,
+      "x": 9,
+      "y": 13,
       "elevation": 0,
       "var": "VAR_UNUSED_0x40F7",
       "var_value": "116",
