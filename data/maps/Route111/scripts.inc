@@ -784,8 +784,8 @@ release
 end
 
 Ruta_111_Activador_Entrada_Pasa_Text_YesNo:
-.string "Esta es la entrada secreta a la BASE\n"
-	.string "HOENN, ¿quieres pasar?$"
+	.string "This is the secret entrance to the\n"
+	.string "HOENN BASE. Would you like to enter?$"
 
 
 Ruta_111_Evento_Andra::
@@ -806,15 +806,15 @@ face_up
 step_end
 
 Ruta_111_Evento_Andra_Texto_1:
-.string "ANDRA: Observa estas ruinas, aquí\n"
-	.string "descansa un POKÉMON LEGENDARIO.\l"
-	.string "¿Recuerdas el REGIROCK que te regalé?\l"
-	.string "Es aquí donde duerme el original.$"
+	.string "ANDRA: Look at these ruins, here rests\n"
+	.string "a LEGENDARY POKÉMON. Do you remember\l"
+	.string "the REGIROCK I gave you? This is where\l"
+	.string "the original one lies.$"
 
 Ruta_111_Evento_Andra_Texto_2:
-.string "Encontré la forma de pasar, sin\n"
-	.string "perturbar el orden de este santuario,\l"
-	.string "¡sígueme!$"
+	.string "I found a way to pass through without\n"
+	.string "disturbing the order of this sanctuary.\l"
+	.string "Follow me!$"
 
 
 Ruta_111_Barrera_Noroeste::
@@ -827,8 +827,8 @@ release
 end
 
 Ruta_111_Barrera_Noroeste_Texto_1:
-.string "(No hay nada que hacer en HOENN, al\n"
-	.string "menos por ahora).$"
+	.string "(There is nothing to do in HOENN, at\n"
+	.string "least for now).$"
 
 
 Ruta_111_Barrera_Noroeste_Move_1:
