@@ -113,59 +113,57 @@ walk_in_place_up
 step_end
 
 NeoCinnabarIsland_Evento_Oak_Texto_1:
-.string "¿Qué te parece, {PLAYER}?$"
+.string "What do you think about this, {PLAYER}?$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_2:
-.string "Por mucho que hayamos avanzado,\n"
-	.string "seguimos sin poder controlar\l"
-	.string "fenómenos como este.$"
+	.string "No matter how much progress we've made,\n"
+	.string "we still can't control phenomena like\l"
+	.string "this.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_3:
-.string "No creo en estas cosas, pero es como si\n"
-	.string "la naturaleza diese respuesta a\l"
-	.string "nuestros intentos por alcanzar sus\l"
-	.string "límites últimos.$"
+	.string "I don't believe in these things, but it's\n"
+	.string "as if nature is responding to our\l"
+	.string "attempts to reach its ultimate limits.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_4:
-.string "Y reivindicase su papel decisivo, ella\n"
-	.string "tiene la última palabra, y como castigo\l"
-	.string "por revelarnos más de la cuenta\l"
-	.string "entierra nuestros progresos.$"
+	.string "And asserting its decisive role, she has\n"
+	.string "the final say, and as punishment for\l"
+	.string "revealing too much, it buries our\l"
+	.string "progress.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_5:
-.string "Pero… ¿no es esto señal de que estamos\n"
-	.string "en el camino correcto? ¿De que estamos\l"
-	.string "entrando en terreno profano?$"
+	.string "But… isn't this a sign that we're on the\n"
+	.string "right path? That we're entering\l"
+	.string "unhallowed ground?$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_6:
-.string "Estos son los últimos coletazos de una\n"
-	.string "naturaleza que no puede frenar lo\l"
-	.string "inevitable, nada más. Y ahora tú\l"
-	.string "recuperarás incluso lo que trató de\l"
-	.string "destruir.$"
+	.string "These are the final tries of a nature\n"
+	.string "unable to halt the inevitable, that's\l"
+	.string "all. And now you shall reclaim even what\l"
+	.string "it tried to destroy.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_7:
-.string "En tu ausencia enviamos varios\n"
-	.string "exploradores. Logramos localizar\l"
-	.string "nuestro búnker subterráneo a través\l"
-	.string "del volcán, ya inactivo.$"
+	.string "During your absence, we sent out\n"
+	.string "several scouts. We managed to locate\l"
+	.string "our underground bunker through the\l"
+	.string "volcano, now inactive.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_8:
-.string "Tu misión será adentrarte en lo más\n"
-	.string "profundo del lugar. En su última sala\l"
-	.string "hay un cuadro de FUJI, detrás de él hay\l"
-	.string "un disco duro con todos los avances\l"
-	.string "alcanzados en ese laboratorio\l"
-	.string "compilados.$"
+	.string "Your mission will be to venture into the\n"
+	.string "depths of the place. In its final room,\l"
+	.string "there's a painting of FUJI; behind it\l"
+	.string "lies a hard drive containing all the\l"
+	.string "compiled advancements made in that\l"
+	.string "laboratory.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_9:
-.string "Ten cuidado, algunos de nuestros\n"
-	.string "mayores avances se encuentran allí,\l"
-	.string "muchos de ellos aún en fase de prueba,\l"
-	.string "no serán presentados ni en la II\l"
-	.string "CONFERENCIA de TRIGAL.$"
+	.string "Be careful; some of our most advanced\n"
+	.string "projects are there, many of them still\l"
+	.string "in the testing phase. They won't be\l"
+	.string "showcased even at the II GOLDENROD\l"
+	.string "MEETING.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_10:
-.string "No te entretengo más, {PLAYER}, espero\n"
-	.string "que demuestres una vez más porqué\l"
-	.string "eres el mejor ENTRENADOR.$"
+	.string "I won't keep you any longer, {PLAYER}.\n"
+	.string "I hope you once again demonstrate why\l"
+	.string "you're the best TRAINER.$"

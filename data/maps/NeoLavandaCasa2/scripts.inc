@@ -9,7 +9,7 @@ release
 end
 
 NeoLavandaCasa2_Text_1:
-.string "PUEBLO LAVANDA es un pequeño y\n"
-.string "apacible lugar, al pie de las montañas.\l"
-.string "Desde que se construyó la TORRE RADIO,\l"
-.string "acude algo más de gente.$"
+	.string "LAVENDER is a tiny, quiet town at the\n"
+	.string "foot of the mountains. It's gotten a\l"
+	.string "bit busier since the RADIO TOWER was\l"
+	.string "built.$"

@@ -9,8 +9,8 @@ release
 end
 
 NeoSaffron_TrainStation_Cientifico_Texto_1:
-.string "¡Cuantas veces iré de KANTO a JOHTO, y\n"
-	.string "de JOHTO a KANTO!$"
+	.string "Whew… How many times have I gone back\n"
+	.string "and forth between KANTO and JOHTO?$"
 
 NeoSaffron_TrainStation_Madre::
 lock
@@ -20,9 +20,9 @@ release
 end
 
 NeoSaffron_TrainStation_Madre_Texto_1:
-.string "Vamos a ir de excursión al PARQUE\n"
-	.string "NACIONAL. A mi hija siempre le hizo\l"
-	.string "mucha ilusión ir allí.$"
+	.string "We are going on a trip to the NATIONAL\n"
+	.string "PARK. My daughter has always been\l"
+	.string "excited to go there.$"
 
 NeoSaffron_TrainStation_Hija::
 lock
@@ -32,8 +32,8 @@ release
 end
 
 NeoSaffron_TrainStation_Hija_Texto_1:
-.string "¡Yupiiii!\n"
-	.string "¡Voy a atrapar un bonito LEDYBA!$"
+.string "Yippeeeee!\n"
+	.string "I will catch a cute LEDYBA!$"
 
 
 NeoSaffron_TrainStation_Guay::
@@ -44,10 +44,10 @@ release
 end
 
 NeoSaffron_TrainStation_Guay_Texto_1:
-.string "Dicen que en el SUBTERRÁNEO de TRIGAL\n"
-	.string "venden cosas muy interesantes, si las\l"
-	.string "comprara sería un ENTRENADOR aún más\l"
-	.string "GUAY.$"
+	.string "It's said in the GOLDENROD UNDERGROUND\n"
+	.string "PATH they sell very interesting things,\l"
+	.string "if I bought them, I would be an even\l"
+	.string "cooler TRAINER.$"
 
 NeoSaffron_TrainStation_Policia::
 lock

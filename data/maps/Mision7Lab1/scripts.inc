@@ -56,8 +56,8 @@ Mision7Lab4_Combate_Mewtwo_Texto_1:
 
 
 Mision7Lab4_Combate_Mewtwo_Texto_3:
-.string "(El DISCO DURO debe estar detrás del\n"
-	.string "cuadro de FUJI, debería mirar ahí)$"
+	.string "(The HARD DRIVE must be behind the\n"
+	.string "paint of FUJI, I should search there)$"
 
 
 Mision7Lab4_Disco_Duro::
@@ -83,10 +83,10 @@ Mision7Lab4_Disco_Duro_Texto_1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Mision7Lab4_Disco_Duro_Texto_2:
-.string "¡¡OBTUVISTE EL DISCO DURO!!$"
+.string "YOU OBTAINED THE HARD DRIVE!!$"
 
 Mision7Lab4_Disco_Duro_Texto_3:
-.string "¿Quieres volver al exterior?$"
+.string "Wanna return outdoor?$"
 
 Mision7Lab4_Disco_Duro_2::
 msgbox Mision7Lab4_Disco_Duro_Texto_3 MSGBOX_YESNO

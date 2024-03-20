@@ -332,170 +332,163 @@ face_left
 step_end
 
 DesertRuins_Evento_CamaraRegirock_Texto_1:
-.string "ADMIN.DEVON: Aquí tienes a REGIROCK.\n"
-	.string "Uno de los 3 regis que duermen en\l"
-	.string "HOENN, su solidez es incomparable.$"
+	.string "DEVON.ADMIN: Here's REGIROCK for you.\n"
+	.string "One of the 3 REGIS that sleep in HOENN,\l"
+	.string "its solidity is incomparable.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_2:
-.string "????: A pesar de ser creado en base a\n"
-	.string "arcilla, ¿cómo es posible que a partir\l"
-	.string "de materia inerte surgiera tal\l"
-	.string "POKÉMON?$"
+	.string "????: Despite being created from clay,\n"
+	.string "how is it possible for such a POKÉMON to\l"
+	.string "arise from inert matter?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_3:
-.string "ADMIN.DEVON: Fuerzas mayores\n"
-	.string "intervinieron en su nacimiento,\l"
-	.string "anteriores incluso a nuestros FÓSILES.\l"
-	.string "Y, aunque desconocemos el alcance de\l"
-	.string "su poder, no podemos ignorarlo.$"
+	.string "DEVON.ADMIN: Higher forces intervened\n"
+	.string "in its birth, preceding even our\l"
+	.string "FOSSILS. And though we are unaware of\l"
+	.string "the extent of its power, we cannot\l"
+	.string "ignore it.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_4:
-.string "????: En ello trabajáis, ¿verdad? En\n"
-	.string "descifrarlo.$"
+	.string "????: That is what you are working on,\n"
+	.string "right? In deciphering it.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_5:
-.string "ADMIN.DEVON: Trabajamos en muchas\n"
-	.string "cosas, una de ellas es formarte como\l"
-	.string "ENTRENADOR, que te desarrolles como es\l"
-	.string "debido.$"
+	.string "DEVON.ADMIN: We work on many things,\n"
+	.string "one of them is to train you as a\l"
+	.string "TRAINER, so you can develop properly.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_6:
-.string "Enseñarte esta clase de lugares es\n"
-	.string "importante para que entiendas la\l"
-	.string "historia de tu región, para que veas los\l"
-	.string "límites naturales a los que esta ha\l"
-	.string "llegado, y así poder sobrepasarlos a su\l"
-	.string "debido tiempo.$"
+	.string "Teaching you about these kinds of\n"
+	.string "places is important so you can\l"
+	.string "understand the history of your region,\l"
+	.string "see the natural boundaries it has\l"
+	.string "reached, and thus be able to surpass\l"
+	.string "them in due time.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_7:
-.string "Es la única forma de progreso sin\n"
-	.string "provocar en ti una distorsión en la\l"
-	.string "concepción de la realidad. Que veas\l"
-	.string "ciertas cosas, a tu edad… sería\l"
-	.string "contraproducente.$"
+	.string "It's the only way to make progress\n"
+	.string "without causing a distortion in your\l"
+	.string "perception of reality. Seeing certain\l"
+	.string "things at your age would be…\l"
+	.string "counterproductive.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_8:
-.string "Por ello, ahora debes centrarte en criar\n"
-	.string "al BELDUM perfecto que tu padre te dio.\l"
-	.string "Junto con los clásicos FÓSILES de\l"
-	.string "HOENN, tienes las herramientas\l"
-	.string "necesarias para algún día proclamarte\l"
-	.string "CAM…$"
+	.string "Thats why, you must focus on nurturing\n"
+	.string "the flawless BELDUM your father\l"
+	.string "bestowed upon you. With the iconic\l"
+	.string "HOENN fossils in hand, you possess the\l"
+	.string "essential instruments to one day\l"
+	.string "become a CHAM…$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_9:
-.string "????: ¿Quienes?$"
+.string "????: Who?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_10:
-.string "ADMIN.DEVON: Vuelve a DEVON, yo me\n"
-	.string "encargaré.$"
+	.string "DEVON.ADMIN: Return to DEVON, I will\n"
+	.string "take care of this.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_11:
 .string "????: …$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_12:
-.string "ANDRA: ¿Escondiendo la realidad a un\n"
-	.string "pobre chico para beneficiaros? ¡No es\l"
-	.string "la primera vez que veo esto!$"
+	.string "ANDRA: Hiding the truth from a poor kid\n"
+	.string "for your own benefit? This isn't the\l"
+	.string "first time I've seen this!$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_13:
-.string "ADMIN.DEVON: Te equivocas\n"
-	.string "completamente, debéis de ser del TEAM\l"
-	.string "ROCKET, ¿no?$"
+	.string "DEVON.ADMIN: You're totally wrong;\n"
+	.string "you're probably TEAM ROCKET members,\l"
+	.string "aren't you?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_14:
-.string "Únicamente le estamos mostrando la\n"
-	.string "realidad actual, ¿qué podría ser más\l"
-	.string "real que este LEGENDARIO durmiendo en\l"
-	.string "un lugar sagrado?$"
+	.string "We're only showing him the current\n"
+	.string "reality; what could be more real than\l"
+	.string "this LEGENDARY resting in a sacred\l"
+	.string "place?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_15:
-.string "De ese modo estará preparado para la\n"
-	.string "capa superior de realidad que está por\l"
-	.string "venir, se está adaptando. A diferencia\l"
-	.string "de vuestro colaborador, ese\l"
-	.string "“PROFESOR”. Lo único que hizo fue\l"
-	.string "someter a una capa inferior de la\l"
-	.string "realidad a su creación, para así cumplir\l"
-	.string "sus fines.$"
+	.string "That way, he'll be prepared for the\n"
+	.string "higher level of reality that awaits him;\l"
+	.string "he's adapting. Unlike your colleague,\l"
+	.string "that 'PROFESSOR.' All he did was subject\l"
+	.string "his creation to a lower reality to serve\l"
+	.string "his own goals.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_16:
-.string "No oses comparar esa canallada con la\n"
-	.string "forma en que llevamos la educación del\l"
-	.string "hijo de nuestro PRESIDENTE.$"
+	.string "Don't you dare compare that villainy to\n"
+	.string "the way we handle the education of our\l"
+	.string "PRESIDENT's son.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_17:
-.string "ANDRA: ¿Cómo sabes todo eso?$"
+.string "ANDRA: How do you know all that?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_18:
-.string "ADMIN.DEVON: DEVON lo sabe todo,\n"
-	.string "nuestra tecnología está 5 años por\l"
-	.string "encima de la vuestra, que tengáis un\l"
-	.string "buen día.$"
+	.string "DEVON.ADMIN: DEVON knows everything,\n"
+	.string "our technology is five years ahead than\l"
+	.string "yours, have a nice day.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_19:
-.string "ANDRA: ¿Ni siquiera vas a tratar de\n"
-	.string "detenernos?$"
+	.string "ANDRA: Won't you even try to stop us?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_20:
-.string "ADMIN.DEVON: No suponéis ninguna\n"
-	.string "amenaza, ni vais a interrumpir el\l"
-	.string "descanso de REGIROCK. No merece la\l"
-	.string "pena perder el tiempo en derrotaros.$"
+	.string "DEVON.ADMIN: You're not seen as a\n"
+	.string "threat, and you won't disrupt\l"
+	.string "REGIROCK's rest. It's not worth\l"
+	.string "bothering to defeat you.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_21:
-.string "ANDRA: ¡Jah! Cuando uno cree que lo\n"
-	.string "sabe todo es el principio del fin. Tiene\l"
-	.string "delante de sí a dos ENTRENADORES que\l"
-	.string "lo destrozarían en un combate, y se va\l"
-	.string "creyendo ser el sabelotodo que tiene\l"
-	.string "todo bajo control. ¡Huye y sigue en tu\l"
-	.string "ignorancia! Hemos visto más de lo que\l"
-	.string "tú verás en tu vida.$"
+	.string "ANDRA: Hah! Thinking you know\n"
+	.string "everything marks the beginning of the\l"
+	.string "end. Faced with two TRAINERS who would\l"
+	.string "crush him in battle, he leaves believing\l"
+	.string "he's the know-it-all who has everything\l"
+	.string "under control. Flee and remain in your\l"
+	.string "ignorance! We've seen more than you'll\l"
+	.string "ever see in your life.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_22:
-.string "ADMIN.DEVON: ¿De verdad te crees\n"
-	.string "capaz?$"
+	.string "DEVON.ADMIN: Do you really consider\n"
+	.string "yourself capable?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_23:
-.string "¿Quién es este?$"
+.string "Who is this?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_24:
-.string "¿{PLAYER}? Nadie en DEVON conoce tu\n"
-	.string "nombre, si de verdad fuerais tan\l"
-	.string "fuertes sabría quiénes sois.\l"
-	.string "¡Después de borrar a tu equipo\l"
-	.string "DEVON seguirá sin saber quién eres!$"
+	.string "{PLAYER}? No one in DEVON knows your\n"
+	.string "name; if you were truly strong, they\l"
+	.string "would know who you are. Even after\l"
+	.string "wiping out your team, DEVON will still\l"
+	.string "not know who you are!$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_25:
-.string "No olvidaré tu nombre.$"
+.string "I won't forget your name.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_26:
-.string "ADMIN.DEVON: ¿Qué significa esto? El\n"
-	.string "poder de esos POKÉMON, ¿de dónde\l"
-	.string "viene?$"
+	.string "DEVON.ADMIN: What does this mean? The\n"
+	.string "strength of those POKÉMON, where does\l"
+	.string "it come from?$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_27:
-.string "ANDRA: Del VÍNCULO con nuestros\n"
-	.string "POKÉMON, algo de lo que tú careces.$"
+	.string "ANDRA: From the BOND with our POKÉMON,\n"
+	.string "something that you lack.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_28:
-.string "ADMIN.DEVON: ¿Vínculo? ¡Eso no puede\n"
-	.string "medirse!$"
+	.string "DEVON.ADMIN: Bond? That can't be\n"
+	.string "measured!$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_29:
-.string "ANDRA: Exacto, y así debe ser.$"
+.string "ANDRA: Indeed, and it must be like that.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_30:
-.string "ADMIN.DEVON: Entonces… el ADMIN que\n"
-	.string "visitó el LAGO DE LA FURIA tenía razón.\l"
-	.string "Solo que no eres un ENTRENADOR\l"
-	.string "particular, trabajas para el TEAM\l"
-	.string "ROCKET.$"
+	.string "DEVON.ADMIN: So… the ADMIN. who visited\n"
+	.string "the LAKE OF RAGE was right. Except\l"
+	.string "you're not just a random trainer; you\l"
+	.string "work for TEAM ROCKET.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_31:
-.string "Hubiera sido mejor para ti que\n"
-	.string "siguiéramos sin conocer tu nombre,\l"
-	.string "créeme.$"
+	.string "It would have been better for you if we\n"
+	.string "had remained unaware of your name,\l"
+	.string "believe me.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_31.1:
 	.string "ANDRA: Se nota a leguas que ese\n"
@@ -504,31 +497,30 @@ DesertRuins_Evento_CamaraRegirock_Texto_31.1:
 	.string "BASE PROFUNDA.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_32:
-	.string "Pero… si eso es lo mejor de DEVON,\n"
-	.string "jamás podrán con nosotros. Los\l"
-	.string "LEGENDARIOS y MEGAS ya no son ningún\l"
-	.string "misterio para el TEAM ROCKET.$"
+	.string "ANDRA: Bah, if that's the best DEVON\n"
+	.string "has, they'll never be able to stop us.\l"
+	.string "LEGENDARIES and MEGAS are no longer a\l"
+	.string "mystery to TEAM ROCKET.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_34:
-.string "Ve {PLAYER}, yo volveré a mi DESPACHO.\n"
-	.string "GIOVANNI dijo que la II GRAN REUNIÓN\l"
-	.string "en TRIGAL se celebraría después de\l"
-	.string "derrumbar la TORRE POKÉMON, imagino\l"
-	.string "que debe estar al caer.$"
+	.string "Go {PLAYER}, I'll head back to my\n"
+	.string "OFFICE. GIOVANNI said that the II\l"
+	.string "GRAND MEETING in GOLDENROD would take\l"
+	.string "place after demolishing the POKÉMON\l"
+	.string "TOWER, so I assume it must be soon.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_35:
-.string "Mientras, recopilaré toda la\n"
-	.string "información que pueda sobre DEVON.\l"
-	.string "Aunque hemos ganado, sus POKÉMON,\l"
-	.string "estrategias y objetos son una novedad\l"
-	.string "para nosotros. Debemos estar\l"
-	.string "preparados.$"
+	.string "Meanwhile, I'll gather all the\n"
+	.string "information I can about DEVON. Even\l"
+	.string "though we've won, their POKÉMON,\l"
+	.string "strategies, and items are new to us. We\l"
+	.string "need to be prepared.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_36:
-.string "GIOVANNI: ¿{PLAYER}? Requiero de tu\n"
-	.string "presencia inmediatamente en la BASE\l"
-	.string "ROCKET PROFUNDA. Es crucial que vengas\l"
-	.string "cuanto antes.$"
+	.string "GIOVANNI: {PLAYER}? I require your\n"
+	.string "immediate presence at the DEEP ROCKET\l"
+	.string "BASE. It's crucial that you come as soon\l"
+	.string "as possible.$"
 
 
 DesertRuins_Evento_Andra::
@@ -611,29 +603,29 @@ walk_in_place_down
 step_end
 
 DesertRuins_Evento_Andra_Texto_1:
-.string "ANDRA: ¿Qué te parece? Se respira esa\n"
-	.string "atmósfera, de estar cerca de lo\l"
-	.string "sagrado, ¿verdad?$"
+	.string "ANDRA: What do you think? You can feel\n"
+	.string "that atmosphere of being close to the\l"
+	.string "sacred, right?$"
 
 DesertRuins_Evento_Andra_Texto_2:
-.string "Hay 2 cuevas más como esta por HOENN,\n"
-	.string "así pudimos obtener el ADN de los\l"
-	.string "REGIS. Aunque sean legendarios como\l"
-	.string "las AVES, el halo de misterio que les\l"
-	.string "rodea es mayor.$"
+	.string "There are 2 more caves like this\n"
+	.string "throughout HOENN, where we were able to\l"
+	.string "obtain the DNA of the REGIS. Even\l"
+	.string "though they're legendary like the\l"
+	.string "BIRDS, the aura of mystery surrounding\l"
+	.string "them is greater.$"
 
 DesertRuins_Evento_Andra_Texto_3:
-.string "¿Uh?$"
+.string "Huh?$"
 
 DesertRuins_Evento_Andra_Texto_4:
-.string "Esto no debería de estar abierto,\n"
-	.string "parece que alguien más ha venido de\l"
-	.string "visita. ¿También te haces una idea de\l"
-	.string "lo que puede ser?$"
+	.string "This shouldn't be open; it seems\n"
+	.string "someone else has come for a visit as\l"
+	.string "well. Any thoughts on who it might be?$"
 
 DesertRuins_Evento_Andra_Texto_5:
-.string "Hay que estar atentos, {PLAYER}.\n"
-	.string "Entremos juntos.$"
+	.string "We should be careful, {PLAYER}. Let's\n"
+	.string "enter together.$"
 
 
 DesertRuins_Dialogo_Regirock::
@@ -643,8 +635,8 @@ release
 end
 
 DesertRuins_Dialogo_Regirock_Texto_1:
-.string "El POKÉMON parece estar inmerso en un\n"
-	.string "profundo sueño. Mejor no molestarlo.$"
+.string "The POKÉMON seems to be deeply asleep.\n"
+	.string "Better not to disturb it.$"
 
 
 Bloqueo_Neo_Canela::
@@ -666,7 +658,7 @@ walk_down
 step_end
 
 Bloqueo_Neo_Canela_Texto_1:
-.string "(GIOVANNI me ha convocado en su\n"
-	.string "despacho urgentemente).$"
+.string "(I've been urgently called\n"
+	.string "to GIOVANNI's office.)$"
 
 

@@ -9,11 +9,11 @@ release
 end
 
 NeoPowerPlant_Text_1:
-.string "Una vez vi el MEGA AMPHAROS del dueño\n"
-.string "del FARO OLIVO en acción. El único\l"
-.string "POKÉMON que he visto superar sus\l"
-.string "descargas eléctricas ha sido este\l"
-.string "ZAPDOS-P.$"
+	.string "Once, I saw the lighthouse keeper of\n"
+	.string "the OLIVINE LIGHTHOUSE's MEGA\l"
+	.string "AMPHAROS in action. The only POKÉMON\l"
+	.string "I've seen surpass its electric\l"
+	.string "discharges has been this P-ZAPDOS-.$"
 
 
 
@@ -25,9 +25,9 @@ release
 end
 
 NeoPowerPlant_Text_2:
-.string "La TORRE RADIO también se alimenta de\n"
-.string "este generador, este lugar es ahora\l"
-.string "uno de los ejes directores de KANTO.$"
+	.string "The RADIO TOWER also draws power from\n"
+	.string "this generator; this place is now one of\l"
+	.string "the key hubs of KANTO.$"
 
 
 
@@ -39,9 +39,9 @@ release
 end
 
 NeoPowerPlant_Text_3:
-.string "El DIRECTOR de la CENTRAL te estará\n"
-.string "eternamente agradecido. ¡No saques a\l"
-.string "ese ZAPDOS cuando estés aquí! ¡Eh!$"
+	.string "The POWER PLANT DIRECTOR will be\n"
+	.string "eternally grateful to you. Don't let\l"
+	.string "that ZAPDOS out while you're here! Hey!$"
 
 
 
@@ -54,9 +54,9 @@ release
 end
 
 NeoPowerPlant_Text_5:
-.string "El nuevo generador que hemos instalado\n"
-.string "es muy potente, no me extraña que ese\l"
-.string "ZAPDOS se haya sentido atraído por él.$"
+	.string "The new generator we've installed is\n"
+	.string "very powerful; no wonder that ZAPDOS\l"
+	.string "felt attracted to it.$"
 
 
 
@@ -68,9 +68,10 @@ release
 end
 
 NeoPowerPlant_Text_8:
-.string "Ese POKÉMON… parecía hecho para\n"
-.string "generar descargas eléctricas, no me\l"
-.string "gustaría recibir un RAYO suyo…$"
+	.string "That POKÉMON... seemed made for\n"
+	.string "generating electric discharges. I\l"
+	.string "wouldn't want to receive one of its\l"
+	.string "THUNDERBOLT…$"
 
 
 
@@ -82,9 +83,10 @@ release
 end
 
 NeoPowerPlant_Text_9:
-.string "Ayudé en la construcción de las VÍAS DE\n"
-.string "TREN, ahora me aseguro de que al\l"
-.string "MAGNETOTRÉN no le falte energía.$"
+	.string "I contributed to the construction of\n"
+	.string "the TRAIN TRACKS, and now I ensure the\l"
+	.string "MAGNET TRAIN has a steady supply of\l"
+	.string "energy.$"
 
 
 NeoPowerPlant_Obtencion_Xurkitree::
@@ -107,25 +109,23 @@ end
 
 
 NeoPowerPlant_Obtencion_Xurkitree_Texto_1:
-.string "{PLAYER}, no tengo palabras para\n"
-	.string "expresar mi agradecimiento. A alguien\l"
-	.string "como tú es difícil de sorprender con\l"
-	.string "regalos, pero había un POKÉMON muy\l"
-	.string "extraño adherido al generador. Nadie lo\l"
-	.string "conocía, mira.$"
+	.string "{PLAYER}, I have no words to express\n"
+	.string "my gratitude. It's hard to surprise\l"
+	.string "someone like you with gifts, but there\l"
+	.string "was a very strange POKÉMON attached to\l"
+	.string "the generator. No one knew it, look.$"
 
 NeoPowerPlant_Obtencion_Xurkitree_Texto_2:
-.string "¡OBTUVISTE UN XURKITREE AL NV.70!$"
+.string "YOU OBTAINED A XURKITREE AT LV.70!$"
 
 NeoPowerPlant_Obtencion_Xurkitree_Texto_3:
-.string "Nuestros mecánicos lo encontraron\n"
-	.string "justo después de que derrotaras a\l"
-	.string "ZAPDOS. Estaba totalmente debilitado,\l"
-	.string "creemos que fue la energía de este\l"
-	.string "POKÉMON, y no del generador, la que\l"
-	.string "atrajo a ZAPDOS. Parece que ZAPDOS-P\l"
-	.string "absorbió toda su electricidad, y por\l"
-	.string "eso lo encontramos así.$"
+	.string "Our mechanics found it right after you\n"
+	.string "defeated ZAPDOS. It was completely\l"
+	.string "weakened, and we think it was this\l"
+	.string "POKÉMON's energy, not the generator's,\l"
+	.string "that attracted ZAPDOS. It seems\l"
+	.string "P-ZAPDOS absorbed all of its volts,\l"
+	.string "which is why we found it like this…$"
 
 
 NeoPowerPlant_Presidente::
@@ -182,30 +182,29 @@ face_right
 step_end
 
 NeoPowerPlant_Presidente_Texto_1:
-.string "{PLAYER}, ¿no? Soy el nuevo DIRECTOR\n"
-	.string "de la CENTRAL ENERGÍA.$"
+	.string "{PLAYER}, right? I'm the new DIRECTOR\n"
+	.string "of the POWER PLANT.$"
 
 NeoPowerPlant_Presidente_Texto_2:
-.string "Hemos tenido que evacuar toda la zona,\n"
-	.string "su poder está totalmente\l"
-	.string "descontrolado.$"
+	.string "We've had to evacuate the entire area;\n"
+	.string "its power is completely out of control.$"
 
 NeoPowerPlant_Presidente_Texto_3:
-.string "Restauramos este lugar usando lo\n"
-	.string "último en tecnología, gracias a ello\l"
-	.string "hemos podido acelerar la unión entre\l"
-	.string "KANTO y JOHTO. Pero parece que también\l"
-	.string "ha atraído a...$"
+	.string "We restored this place using the latest\n"
+	.string "technology, thanks to which we were\l"
+	.string "able to expedite the connection\l"
+	.string "between KANTO and JOHTO. But it seems\l"
+	.string "to have also attracted…$"
 
 NeoPowerPlant_Presidente_Texto_4:
-.string "Si continúa así, producirá una\n"
-	.string "sobrecarga en toda la central,\l"
-	.string "afectando a KANTO y por extensión,\l"
-	.string "JOHTO.$"
+	.string "If it continues like this, it will cause\n"
+	.string "an overload throughout the power\l"
+	.string "plant, affecting KANTO and, by\l"
+	.string "extension, JOHTO.$"
 
 NeoPowerPlant_Presidente_Texto_5:
-.string "No queda otra opción, debes derrotarlo\n"
-	.string "y capturarlo. Confiamos en ti.$"
+	.string "There are no more options, you must\n"
+	.string "defeat it and catch it. We trust you.$"
 
 
 NeoPowerPlant_Combate_Zapdos::
@@ -271,36 +270,35 @@ emote_exclamation_mark
 step_end
 
 NeoPowerPlant_Combate_Zapdos_Texto_1:
-.string "¡Zap!$"
+.string "Zap!$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_2:
 .string "Zap...$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_3:
-.string "(¡El ZAPDOS-P se consumió por\n"
-	.string "completo!)$"
+	.string "(The P-ZAPDOS has been completely\n"
+	.string "consumed!)$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_4:
-	.string "(Hay un HUEVO POKÉMON entre las\n"
-	.string "cenizas)$"
+	.string "(There is a POKÉMON EGG in the ashes)$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_5:
-.string "¡¡OBTUVISTE UN HUEVO MISTERIOSO!!$"
+.string "YOU OBTAINED A MYSTERIOUS EGG!!$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_6:
-.string "GIOVANNI: ¿{PLAYER}? Perfecto, ese\n"
-	.string "ZAPDOS no nos causará más problemas.$"
+	.string "GIOVANNI: {PLAYER}? Perfect, that\n"
+	.string "ZAPDOS won't cause us any more trouble.$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_7:
-.string "Todo está listo para celebrar la II\n"
-	.string "REUNIÓN DE TRIGAL, acude a TORRE\l"
-	.string "RADIO a la mayor brevedad posibles.$"
+	.string "Everything is ready to celebrate the II\n"
+	.string "GOLDENROD MEETING, please come to\l"
+	.string "RADIO TOWER as soon as possible.$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_8:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_9:
-.string "Espero que estés preparado.$"
+.string "I hope you are prepared.$"
 
 NeoPowerPlant_RayoCarga::
 lock     
@@ -321,22 +319,20 @@ release
 end
 
 NeoPowerPlant_RayoCarga_Texto_1:
-.string "Aunque se ha renovado, esta CENTRAL\n"
-	.string "es bastante antigua, debemos evitar\l"
-	.string "cualquier sobrecarga del sistema.\l"
-	.string "Toma esto.$"
+	.string "Although it has been renovated, this\n"
+	.string "PLANT is quite old, so we must avoid any\l"
+	.string "system overload. Take this.$"
 
 NeoPowerPlant_RayoCarga_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT70 RAYO\n"
-	.string "CARGA de manos de mecánico!!$"
+.string "{PLAYER} obtained MT70\n"
+	.string "CHARGE BEAM from the mechanic!!$"
 
 NeoPowerPlant_RayoCarga_Texto_2:
-.string "Los POKÉMON TIPO ELÉCTRICO suelen ser\n"
-	.string "rápidos y peligrosos, pero no suelen\l"
-	.string "tener ninguna forma de elevar su\l"
-	.string "ATAQUE ESPECIAL.\l"
-	.string "Con RAYO CARGA podrán hacerlo al\l"
-	.string "tiempo que siguen causando daño.$"
+	.string "ELECTRIC TYPE POKÉMON are usually fast\n"
+	.string "and dangerous, but they typically lack\l"
+	.string "any means to boost their SPECIAL\l"
+	.string "ATTACK. With CHARGE BEAM, they can do\l"
+	.string "so while still dealing damage.$"
 
 
 

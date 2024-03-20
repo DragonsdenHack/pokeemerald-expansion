@@ -9,8 +9,8 @@ release
 end
 
 NeoPalletTown_Primer_Npc_Texto_1:
-.string "Yo también entreno POKÉMON. Son mis\n"
-	.string "guardaespaldas personales.$"
+	.string "I also train POKÉMON. They are my\n"
+	.string "personal bodyguards.$"
 
 
 
@@ -22,6 +22,6 @@ release
 end
 
 NeoPalletTown_Segundo_Npc_Texto_1:
-.string "¡La tecnología es increíble! Ahora\n"
-	.string "puedes cambiar POKÉMON con el pasado,\l"
-	.string "como un e-mail.$"
+	.string "Technology is amazing! Now you can\n"
+	.string "trade POKÉMON with the past, just like\l"
+	.string "an email.$"

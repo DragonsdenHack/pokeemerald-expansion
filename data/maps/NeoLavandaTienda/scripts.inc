@@ -9,9 +9,9 @@ release
 end
 
 NeoLavandaTienda_Text_2:
-.string "He oído hablar de un artesano que\n"
-.string "fabrica POKÉ BALL a medida en PUEBLO\l"
-.string "AZALEA, en JOHTO. ¡Yo quiero una!$"
+	.string "I heard about a craftsman who makes\n"
+	.string "custom BALLS in the JOHTO town of\l"
+	.string "AZALEA. I wish I had some.$"
 
 
 
@@ -24,7 +24,7 @@ release
 end
 
 NeoLavandaTienda_Text_3:
-.string "Si vas a explorar una cueva, debes\n"
-.string "llevar siempre REPELENTE. Aunque me\l"
-.string "gusta la exploración, aún no he\l"
-.string "recorrido todas las cuevas.$"
+	.string "REPEL is a necessity if you are going to\n"
+	.string "explore a cave. Even though I like\l"
+	.string "exploring, I still haven't made it to all\l"
+	.string "the caves.$"

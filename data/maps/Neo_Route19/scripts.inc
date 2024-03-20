@@ -29,8 +29,8 @@ release
 end
 
 Neo_Route19_Pescador_Texto_1:
-.string "Las obras de la carretera ya han\n"
-	.string "terminado. Ya puedo volver a pescar.$"
+	.string "The roadworks have already finished. I\n"
+	.string "can go fishing again.$"
 
 Neo_Route19_Obrero::
 lock
@@ -40,4 +40,4 @@ release
 end
 
 Neo_Route19_Obrero_Texto_1:
-.string "Estoy sudando. ¡Voy a bañarme!$"
+.string "I'm sweating. I will take a shower!$"

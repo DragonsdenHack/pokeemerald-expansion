@@ -9,8 +9,8 @@ release
 end
 
 ViasTren4_Text_2:
-.string "Creo que vi un PINSIR más al oeste, pero\n"
-.string "parecía algo distinto.$"
+	.string "I think I saw a PINSIR further west,\n"
+	.string "but it seemed a bit different.$"
 
 
 
@@ -22,8 +22,8 @@ release
 end
 
 ViasTren4_Text_4:
-.string "CIUDAD VERDE está al norte, es casi el\n"
-.string "80% del trayecto TRIGAL-AZAFRÁN.$"
+	.string "VIRIDIAN CITY is at the north, almost\n"
+	.string "80% of the GOLDENROD-SAFFRON way.$"
 
 
 
@@ -35,9 +35,10 @@ release
 end
 
 ViasTren4_Text_7:
-.string "Las vías están ya casi construidas,\n"
-.string "falta establecer el enlace final con\l"
-.string "AZAFRÁN, y todo estará listo.$"
+	.string "The tracks are nearly built; the final\n"
+	.string "link to SAFFRON CITY is all that's left\l"
+	.string "to establish, and everything will be\l"
+	.string "ready.$"
 
 
 

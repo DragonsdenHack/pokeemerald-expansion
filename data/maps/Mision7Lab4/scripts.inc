@@ -285,91 +285,89 @@ face_up
 step_end
 
 Mision7Lab4_Dialogo_Oak_Texto_1:
-.string "OAK: El sistema de seguridad es muy\n"
-	.string "simple, observad.$"
+	.string "OAK: The system security is very simple,\n"
+	.string "look.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_2:
-.string "Para acceder a las salas siguientes,\n"
-	.string "deberán ser derrotados las parejas de\l"
-	.string "POKÉMON que se hallan en las cabinas de\l"
-	.string "contención.$"
+	.string "In order to progress to the next rooms,\n"
+	.string "you'll need to defeat the pairs of\l"
+	.string "POKÉMON located in the containment\l"
+	.string "cabins.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_3:
-.string "En total hay 5 cabinas similares a\n"
-	.string "estas, una vez desactivadas todas…$"
+	.string "In total, there are 5 cabins like this.\n"
+	.string "Once all of them are deactivated…$"
 
 Mision7Lab4_Dialogo_Oak_Texto_4:
-.string "Esta puerta se abrirá automáticamente.$"
+.string "The door will be open automatically.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_5:
-.string "ELM: ¿Qué prototipos se han empleado\n"
-	.string "para defender el acceso?$"
+	.string "ELM: What prototypes have been used to\n"
+	.string "protect the access?$"
 
 Mision7Lab4_Dialogo_Oak_Texto_6:
-.string "OAK: Todos los que creamos hasta la I\n"
-	.string "REUNIÓN DE TRIGAL.$"
+	.string "OAK: All those created until the I\n"
+	.string "GOLDENROD MEETING.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_7:
-.string "BILL: ¿Únicamente esos? Si ahora mismo\n"
-	.string "hemos creado algunos mejores.$"
+	.string "BILL: Just those? We already have\n"
+	.string "created better ones.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_8:
-.string "C.MIGUEL: Estamos hablando de POKÉMON\n"
-	.string "con +600 STATS BASE bien repartidos y\l"
-	.string "buenas habilidades. Han sido creados\l"
-	.string "para combatir, solo contados\l"
-	.string "entrenadores podrían pasar esta\l"
-	.string "prueba.$"
+	.string "S.MIGUEL: We're talking about POKÉMON\n"
+	.string "with well-distributed +600 BASE STATS\l"
+	.string "and good abilities. They have been\l"
+	.string "created for combat; only a few trainers\l"
+	.string "could pass this test.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_9:
-.string "BILL: Bah, ya no impactan tanto. Todo\n"
-	.string "avanza y los estándares se están\l"
-	.string "superando cada día. Mira tu MEGA\l"
-	.string "AERODACTYL, la forma PRIMIGENIA es\l"
-	.string "mucho más eficiente.$"
+	.string "BILL: Meh, they don't impress as much\n"
+	.string "anymore. Everything progresses, and\l"
+	.string "standards are being surpassed every\l"
+	.string "day. Look at your MEGA AERODACTYL; the\l"
+	.string "PRIMAL form is much more efficient.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_10:
-.string "C.MIGUEL: … …$"
+.string "S.MIGUEL: … …$"
 
 Mision7Lab4_Dialogo_Oak_Texto_11:
-.string "ELM: Tampoco exageres, BILL. Tú mismo\n"
-	.string "creías que no tenías más margen de\l"
-	.string "mejora, antes de acceder a toda esta\l"
-	.string "tecnología, y trabajar con nosotros. El\l"
-	.string "estancamiento llegará, no somos\l"
-	.string "infinitos.$"
+	.string "ELM: Don't exaggerate either, BILL. You\n"
+	.string "yourself believed that you had no\l"
+	.string "further room for improvement before\l"
+	.string "accessing all this technology and\l"
+	.string "working with us. Stagnation will come;\l"
+	.string "we're not infinite.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_12:
-.string "OAK: Pero… En algo sí que tiene razón.\n"
-	.string "Lo que ayer era considerado fuerte hoy\l"
-	.string "es mediocre. ¿En qué momento un\l"
-	.string "POKÉMON como ZAPDOS dejó de\l"
-	.string "impresionarnos? ¿O un TAUROS a no ser\l"
-	.string "considerado rápido?$"
+	.string "OAK: But… He's right about something.\n"
+	.string "What was considered strong yesterday\l"
+	.string "is mediocre today. When did a POKÉMON\l"
+	.string "like ZAPDOS cease to impress us? Or a\l"
+	.string "TAUROS not be considered fast\l"
+	.string "anymore?$"
 
 Mision7Lab4_Dialogo_Oak_Texto_13:
-.string "ELM: ¿A dónde quieres llegar, OAK?$"
+.string "ELM: What is your point, OAK?$"
 
 Mision7Lab4_Dialogo_Oak_Texto_14:
-.string "OAK: MEWTWO era especial, porque fue el\n"
-	.string "primero en llegar, en ser\l"
-	.string "verdaderamente extraordinario.$"
+	.string "OAK: MEWTWO was special because it was\n"
+	.string "the first to arrive, the only one to be\l"
+	.string "truly extraordinary.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_15:
-.string "Pero ahora, ante esta nueva legión de\n"
-	.string "PROTOTIPOS, todos ellos son\l"
-	.string "extraordinarios. La normalización de la\l"
-	.string "excelencia provoca que a ojos del\l"
-	.string "observador no sea considerada como\l"
-	.string "tal, a pesar de que biológica y\l"
-	.string "fisiológicamente, verdaderamente lo\l"
-	.string "sea.$"
+	.string "But now, facing this new legion of\n"
+	.string "PROTOTYPES, all of them are\l"
+	.string "extraordinary. The normalization of\l"
+	.string "excellence causes them not to be\l"
+	.string "considered as such in the eyes of the\l"
+	.string "observer, even though biologically and\l"
+	.string "physiologically, they truly are.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_16:
-.string "Es decir, si todos son extraordinarios…$"
+.string "I mean, if everyone is extraordinary…$"
 
 Mision7Lab4_Dialogo_Oak_Texto_17:
-.string "…ya ninguno lo será.$"
+.string "… no one will be anymore.$"
 
 
 Mision7Lab4_Primer_Cartel::
@@ -378,7 +376,7 @@ release
 end
 
 Mision7Lab4_Primer_Cartel_Texto_1:
-.string "CABINA DE SEGURIDAD: NÚMERO 1$"
+.string "SECURITY CABIN: NUMBER 1$"
 
 
 Mision7Lab4_Segundo_Cartel::
@@ -387,7 +385,7 @@ release
 end
 
 Mision7Lab4_Segundo_Cartel_Texto_1:
-.string "CABINA DE SEGURIDAD: NÚMERO 2$"
+.string "SECURITY CABIN: NUMBER 2$"
 
 
 Mision7Lab4_Tercer_Cartel::
@@ -396,7 +394,7 @@ release
 end
 
 Mision7Lab4_Tercer_Cartel_Texto_1:
-.string "CABINA DE SEGURIDAD: NÚMERO 3$"
+.string "SECURITY CABIN: NUMBER 3$"
 
 
 Mision7Lab4_Cuarto_Cartel::
@@ -405,7 +403,7 @@ release
 end
 
 Mision7Lab4_Cuarto_Cartel_Texto_1:
-.string "CABINA DE SEGURIDAD: NÚMERO 4$"
+.string "SECURITY CABIN: NUMBER 4$"
 
 
 Mision7Lab4_Quinto_Cartel::
@@ -414,7 +412,7 @@ release
 end
 
 Mision7Lab4_Quinto_Cartel_Texto_1:
-.string "CABINA DE SEGURIDAD: NÚMERO 5$"
+.string "SECURITY CABIN: NUMBER 5$"
 
 Mision7Lab4_Puerta::
 msgbox Mision7Lab4_Puerta_Texto_1 MSGBOX_SIGN
@@ -422,7 +420,7 @@ release
 end
 
 Mision7Lab4_Puerta_Texto_1:
-.string "PUERTA PRINCIPAL$"
+.string "MAIN ENTRANCE$"
 
 
 Mision7Lab4_Seteo_Metatiles::
@@ -601,22 +599,22 @@ release
 end
 
 Mision7Lab4_Combate_Nidoking_Texto_1:
-.string "(¡Has despertado a POKÉMON salvajes!)$"
+.string "(You have awakened a wild POKÉMON!)$"
 
 Mision7Lab4_Combate_Nidoking_Texto_3:
-.string "(¡Se ha abierto la CABINA 2!)$"
+.string "(The CABIN 2 has been opened!)$"
 
 Mision7Lab4_Combate_Electivire_Texto_3:
-.string "(¡Se ha abierto la CABINA 3!)$"
+.string "(The CABIN 3 has been opened!)$"
 
 Mision7Lab4_Combate_Aerodactyl_Texto_3:
-.string "(¡Se ha abierto la CABINA 4!)$"
+.string "(The CABIN 4 has been opened!)$"
 
 Mision7Lab4_Combate_Porygon_Texto_3:
-.string "(¡Se ha abierto la CABINA 5!)$"
+.string "(The CABIN 5 has been opened!)$"
 
 Mision7Lab4_Combate_Deoxys_Texto_3:
-.string "(¡Se ha abierto la PUERTA PRINCIPAL!)$"
+.string "(The MAIN ENTRANCE has been opened!)$"
 
 Mision7Lab4_Combate_Move_1:
 emote_exclamation_mark
@@ -1029,12 +1027,12 @@ release
 end
 
 Mision7Lab4_Documento_Texto_3:
-	.string "¡Tiene más de 1000 páginas!$"
+	.string "It has more than 1000 pages!$"
 
 Mision7Lab4_Documento_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Mision7Lab4_Documento_Texto_1:
-	.string "-Cómo obtener mayores ganancias de\n"
-	.string "rendimiento y superar al FUERTE\l"
-	.string "VÍNCULO.-$"
+	.string "-How to improve a POKÉMON\n"
+	.string "performance and overtake\l"
+	.string "DEEP BOND power.-$"

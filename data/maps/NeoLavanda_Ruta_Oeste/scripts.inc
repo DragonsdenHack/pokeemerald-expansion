@@ -60,26 +60,26 @@ release
 end
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_4:
-.string "La VÍA SUBTERRÁNEA está cerrada, pero\n"
-	.string "con alguien como usted podemos hacer\l"
-	.string "una excepción.$"
+	.string "Although the UNDERGROUND PATH is\n"
+	.string "closed, we can make an exception for\l"
+	.string "someone like you.$"
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_3:
-.string "Mis compañeros están dentro, están\n"
-	.string "guardando celosamente la entrada a los\l"
-	.string "refugios. Esperamos que usted pueda\l"
-	.string "arreglar la situación.$"
+	.string "My colleagues are inside, they are\n"
+	.string "guarding the entrance to the shelters\l"
+	.string "carefully. We hope you can solve the\l"
+	.string "situation.$"
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_2:
-.string "Discúlpeme señor, pero la VÍA\n"
-	.string "SUBTERRÁNEA se cerrará en breves. Ya\l"
-	.string "sabe, son órdenes que vienen desde\l"
-	.string "arriba.$"
+	.string "I apologize, sir, but the UNDERGROUND\n"
+	.string "PATH will be closing shortly. You know,\l"
+	.string "it's orders from above.$"
 
 NeoLavanda_Ruta_Oeste_Policia_Texto_1:
-.string "La VIA SUBTERRANEA queda cerrada de\n"
-	.string "forma indefinida. Si quiere ir a\l"
-	.string "AZULONA, deberá pasar por AZAFRÁN.$"
+	.string "The UNDERGROUND PATH is closed\n"
+	.string "indefinitely. If you want to go to\l"
+	.string "CELADON, you'll have to pass through\l"
+	.string "SAFFRON.$"
 
 NeoLavanda_Ruta_Oeste_Nopass::
 lock

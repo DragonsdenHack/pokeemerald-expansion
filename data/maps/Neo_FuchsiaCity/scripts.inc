@@ -16,13 +16,13 @@ release
 end
 
 Neo_FuchsiaCity_Primer_Npc_Texto_1:
-.string "Un miembro del ALTO MANDO era el LÍDER\n"
-	.string "del GIMNASIO de CIUDAD FUCSIA.$"
+	.string "One of the ELITE FOUR used to be the\n"
+	.string "LEADER of FUCHSIA's GYM.$"
 
 Neo_FuchsiaCity_Primer_Npc_Texto_2:
-.string "Nuestro LÍDER de GIMNASIO lleva\n"
-	.string "bastante tiempo inactivo, corren\l"
-	.string "rumores de que dejará su plaza.$"
+	.string "Our GYM LEADER has been inactive for a\n"
+	.string "long time, there are rumors that it will\l"
+	.string "leave his position.$"
 
 Neo_FuchsiaCity_Segundo_Npc::
 lock
@@ -32,9 +32,9 @@ release
 end
 
 Neo_FuchsiaCity_Segundo_Npc_Texto_1:
-.string "La ZONA SAFARI está cerrada. Da pena,\n"
-	.string "ya que era la mayor atracción de\l"
-	.string "CIUDAD FUCSIA.$"
+	.string "The SAFARI ZONE is closed… It's sad,\n"
+	.string "considering it's FUCHSIA's main\l"
+	.string "attraction.$"
 
 
 Neo_FuchsiaCity_Tercer_Npc::
@@ -52,13 +52,12 @@ release
 end
 
 Neo_FuchsiaCity_Tercer_Npc_Texto_2:
-.string "La hija de KOGA tiene todas las\n"
-	.string "papeletas para sucederle como LÍDER\l"
-	.string "del GIMNASIO.$"
+	.string "KOGA's daughter has all the potential\n"
+	.string "to succeed him as the GYM LEADER.$"
 
 Neo_FuchsiaCity_Tercer_Npc_Texto_1:
-.string "La hija de KOGA le ha sucedido como\n"
-	.string "LÍDER del GIMNASIO cuando él se unió al\l"
-	.string "ALTO MANDO.$"
+	.string "KOGA's daughter succeeded him as the\n"
+	.string "GYM LEADER after he joined the ELITE\l"
+	.string "FOUR.$"
 
 

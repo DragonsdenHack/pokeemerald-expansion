@@ -9,10 +9,9 @@ release
 end
 
 ViasTren5_Text_2:
-.string "Los poderes eléctricos de ese POKÉMON\n"
-.string "eran incomparables, creo que se siente\l"
-.string "atraído por el magnetismo de estas\l"
-.string "vías.$"
+	.string "The electric powers of that POKÉMON\n"
+	.string "were unparalleled; I believe it's drawn\l"
+	.string "to the magnetism of these tracks.$"
 
 
 
@@ -24,8 +23,8 @@ release
 end
 
 ViasTren5_Text_6:
-.string "Hemos pasado AZULONA. ¡AZAFRÁN está al\n"
-.string "lado!$"
+	.string "We've passed CERULEAN. SAFFRON is right\n"
+	.string "next!$"
 
 
 
@@ -248,83 +247,84 @@ walk_right
 step_end
 
 ViasTren5_Combate_Atlas_Texto_1:
-.string "¿{PLAYER}? Al fin, debes atraparlo,\n"
-	.string "{PLAYER}, ninguno de nosotros puede.$"
+	.string "{PLAYER}? Finally, you should catch it\n"
+	.string "{PLAYER}, none of us can.$"
 
 ViasTren5_Combate_Atlas_Texto_2:
-.string "Ha desarrollado una sinergia con la\n"
-	.string "tecnología empleada para construir las\l"
-	.string "vías, es como si hubiera integrado todo\l"
-	.string "ese magnetismo en su cuerpo, y ahora\l"
-	.string "sus poderes se han amplificado.$"
+	.string "It has developed a synergy with the\n"
+	.string "technology used to build the tracks;\l"
+	.string "it's as if it has integrated all that\l"
+	.string "magnetism into its body, and now its\l"
+	.string "powers have been amplified.$"
 
 ViasTren5_Combate_Atlas_Texto_3:
-.string "Solo tú puedes detenerlo, y debes\n"
-	.string "atraparlo. Estas vías seguirán en\l"
-	.string "peligro mientras ese POKÉMON ande\l"
-	.string "suelto.$"
+	.string "Only you can stop it, and you must\n"
+	.string "catch it. These tracks will continue to\l"
+	.string "be at risk while that POKÉMON roams\l"
+	.string "free.$"
 
 ViasTren5_Combate_Atlas_Texto_4:
-.string "????: ¡Un momento!$"
+.string "????: Hold on!$"
 
 ViasTren5_Combate_Atlas_Texto_5:
-.string "ATLAS: Me alegro de verte, {PLAYER}.\n"
-	.string "Te preguntarás por qué estoy aquí.$"
+	.string "ARCHER: I'm glad to see you, {PLAYER}.\n"
+	.string "You would wonder why I'm here.$"
 
 ViasTren5_Combate_Atlas_Texto_6:
-.string "La II reunión de TRIGAL es inminente,\n"
-	.string "he venido a avisarte, pero también…$"
+	.string "The II meeting on GOLDENROD is just\n"
+	.string "around the corner, I came to tell you\l"
+	.string "that, but also…$"
 
 ViasTren5_Combate_Atlas_Texto_7:
-.string "Oí rumores acerca de este POKÉMON, el\n"
-	.string "último de los 3 PRIMIGENIOS sin un\l"
-	.string "ENTRENADOR…$"
+	.string "I heard rumors about this POKÉMON, the\n"
+	.string "last of the 3 PRIMAL BIRDS without a\l"
+	.string "TRAINER…$"
 
 ViasTren5_Combate_Atlas_Texto_8:
-.string "Un POKÉMON así encajaría a la\n"
-	.string "perfección con mi equipo, la pareja\l"
-	.string "perfecta para mi HOUNDOOM y\l"
-	.string "FERALIGATR… Mi deber y ambición como\l"
-	.string "ADMIN.JEFE, al igual que el tuyo, es\l"
-	.string "formar un equipo lo más implacable\l"
-	.string "posible.$"
+	.string "A POKÉMON like that would fit perfectly\n"
+	.string "into my team, the perfect match for my\l"
+	.string "HOUNDOOM and FERALIGATR… My duty and\l"
+	.string "ambition as CHIEF ADMIN., just like\l"
+	.string "yours, is to form the most ruthless\l"
+	.string "team possible.$"
 
 ViasTren5_Combate_Atlas_Texto_9:
-.string "Por ello te reto a un combate aquí\n"
-	.string "mismo, {PLAYER}. Quien gane obtendrá\l"
-	.string "el derecho de enfrentar a ZAPDOS-P, y\l"
-	.string "hacerse con él.$"
+	.string "Therefore, I challenge you to a battle\n"
+	.string "right here, {PLAYER}. The winner will\l"
+	.string "earn the right to face ZAPDOS-P and\l"
+	.string "catch it.$"
 
 ViasTren5_Combate_Atlas_Texto_10:
-.string "No esperaba menos de ti. Al igual que\n"
-	.string "ANDRA, tu código de honor te impide\l"
-	.string "rehusar un gran combate cuando lo\l"
-	.string "tienes delante.$"
+	.string "I expected nothing less from you. Just\n"
+	.string "like ANDRA, your honor code prevents\l"
+	.string "you from refusing a great battle when\l"
+	.string "it's right in front of you.$"
 
 ViasTren5_Combate_Atlas_Texto_11:
-.string "El ganador podrá aunar tecnología y\n"
-	.string "tradición como ningún otro ENTRENADOR\l"
-	.string "haya logrado antes, ¡muéstrame que\l"
-	.string "mereces ese gran poder!$"
+	.string "The winner will be able to unite\n"
+	.string "technology and tradition like no other\l"
+	.string "TRAINER has ever achieved before. Show\l"
+	.string "me that you deserve that grandiose\l"
+	.string "power!$"
 
 ViasTren5_Combate_Atlas_Texto_12:
-.string "Hemos alcanzado enormes cotas de\n"
-	.string "poder aquí, ZAPDOS-P estará\l"
-	.string "impresionado…$"
+	.string "We have reached immense levels of power\n"
+	.string "here; P-ZAPDOS will be impressed…$"
 
 ViasTren5_Combate_Atlas_Texto_13:
-.string "ATLAS: Bien… Así ha de ser… Ya me lo\n"
-	.string "dijo ANDRA, mejorar tu equipo POKÉMON\l"
-	.string "más y más no es suficiente contigo. Se\l"
-	.string "necesita algo más para romper ese aura\l"
-	.string "que has construido en torno a los\l"
-	.string "tuyos.$"
+	.string "ARCHER: Well… That's how it should be…\n"
+	.string "ANDRA already told me, improving your\l"
+	.string "POKÉMON team more and more isn't\l"
+	.string "enough for you. Something more is\l"
+	.string "needed to break that aura you've built\l"
+	.string "around yours; I hope you never lose it.$"
 
 ViasTren5_Combate_Atlas_Texto_14:
-.string "Que este ZAPDOS-P colabore en tu\n"
-	.string "eterno viaje, {PLAYER}, solo espero\l"
-	.string "que no te acomodes al verte con\l"
-	.string "tremendo POKÉMON bajo tu poder.$"
+	.string "May this P-ZAPDOS accompany you on\n"
+	.string "your eternal journey, {PLAYER}, I only\l"
+	.string "hope you don't get too comfortable\l"
+	.string "upon seeing such a tremendous POKÉMON\l"
+	.string "under your command.$"
 
 ViasTren5_Combate_Atlas_Texto_14.1:
 .string "Porque… a diferencia de la justicia, a\n"
@@ -353,54 +353,52 @@ ViasTren5_Combate_Atlas_Texto_14.3:
 	.string "fuerza, aunque sea artificial.$"
 
 ViasTren5_Combate_Atlas_Texto_15:
-.string "Nos vemos en TORRE RADIO. Hay mucho de\n"
-	.string "lo que hablar allí.$"
+	.string "I see you at RADIO TOWER. There is a lot\n"
+	.string "to talk about.$"
 
 ViasTren5_Combate_Atlas_Texto_16:
 .string "…$"
 
 ViasTren5_Combate_Atlas_Texto_17:
-.string "(El ZAPDOS-P voló a gran velocidad)$"
+.string "(The P-ZAPDOS soared at great speed)$"
 
 ViasTren5_Combate_Atlas_Texto_18:
 .string "…$"
 
 ViasTren5_Combate_Atlas_Texto_19:
-.string "¡Este es un momento único en la \n"
-	.string "historia!$"
+	.string "That's a unique moment in history!$"
 
 ViasTren5_Combate_Atlas_Texto_20:
-.string "Por primera vez y ya para siempre,\n"
-	.string "TRIGAL y AZAFRÁN están unidas.$"
+	.string "For the first time and forever,\n"
+	.string "GOLDENROD and SAFFRON are linked.$"
 
 ViasTren5_Combate_Atlas_Texto_21:
-.string "Esto estaba destinado a ocurrir, antes\n"
-	.string "o después. Ni los MOTORISTAS, ni los\l"
-	.string "subterráneos de KANTO, que serán\l"
-	.string "cerrados en breve, ni ZAPD...$"
+	.string "This was bound to happen, sooner or\n"
+	.string "later. Neither the BIKERS nor the KANTO\l"
+	.string "UNDERGROUND PATHS, which will be\l"
+	.string "closing soon, nor ZAPD…$"
 
 ViasTren5_Combate_Atlas_Texto_22:
 .string "…$"
 
 ViasTren5_Combate_Atlas_Texto_23:
-.string "¿Si? … No… ¿Cómo es posible? ¡Eso no\n"
-	.string "puede estar pasado! ¡Detenedlo ya!$"
+	.string "Yes?… No… How is that possible? That\n"
+	.string "shouldn't happen! Stop it now!$"
 
 ViasTren5_Combate_Atlas_Texto_24:
-.string "{PLAYER}... parece que ZAPDOS-P ha\n"
-	.string "volado hacia la renovada CENTRAL\l"
-	.string "ENERGÍA, esta absorbiendo toda la\l"
-	.string "electricidad del lugar, si sigue así,\l"
-	.string "nos quedaremos sin energía para\l"
-	.string "alimentar el MAGNETOTRÉN.$"
+	.string "{PLAYER}... it seems P-ZAPDOS has\n"
+	.string "flown towards the revamped POWER\l"
+	.string "PLANT, it's absorbing all the\l"
+	.string "electricity from the plant, if it keeps\l"
+	.string "up like this, we'll run out of power to\l"
+	.string "feed the MAGNETRAIN.$"
 
 ViasTren5_Combate_Atlas_Texto_25:
-.string "Debes pararle los pies de una vez por\n"
-	.string "todas, hasta que no esté capturado, no\l"
-	.string "podremos estar tranquilos.$"
+	.string "You must stop it once and for all, until\n"
+	.string "it's captured, we won't be able to relax.$"
 
 ViasTren5_Combate_Atlas_Texto_26:
-.string "Confío en ti.$"
+.string "I trust you.$"
 
 
 ViasTren5_Presidente_Trenes::

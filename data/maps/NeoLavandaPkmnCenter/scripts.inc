@@ -24,9 +24,9 @@ release
 end
 
 NeoLavandaPkmnCenter_Text_3:
-.string "Vi a varios CUBONE en el TÚNEL ROCA,\n"
-.string "deben de ser los que huyeron de TORRE\l"
-.string "POKÉMON cuando se derrumbó.$"
+	.string "I saw several CUBONE in the ROCK\n"
+	.string "TUNNEL; they must be the ones who fled\l"
+	.string "from POKÉMON TOWER when it collapsed.$"
 
 
 
@@ -39,6 +39,6 @@ release
 end
 
 NeoLavandaPkmnCenter_Text_4:
-.string "Van a emitir programas de radio, dicen\n"
-.string "que uno de ellos simula el sonido de una\l"
-.string "POKÉ FLAUTA. ¡Qué guay!$"
+	.string "It is said that there will be a radio\n"
+	.string "program that plays POKÉ FLUTE music. So\l"
+	.string "cool!$"

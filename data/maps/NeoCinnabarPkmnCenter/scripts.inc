@@ -22,8 +22,7 @@ release
 end
 
 NeoCinnabarPkmnCenter_Text_2:
-.string "El volcán hizo erupción hace apenas una\n"
-.string "semana.$"
+.string "The volcano erupted just a week ago.$"
 
 
 
@@ -35,7 +34,6 @@ release
 end
 
 NeoCinnabarPkmnCenter_Text_3:
-.string "BLAINE: ¿Y ahora, qué? Creo que\n"
-.string "reabriré mi GIMNASIO en ISLAS ESPUMA,\l"
-.string "ahí seguro que no estalla ningún\l"
-.string "volcán…$"
+	.string "BLAINE: And now what? I think I'll\n"
+	.string "reopen my gym in the SEAFOAM ISLANDS.\l"
+	.string "There, surely no volcano will erupt…$"

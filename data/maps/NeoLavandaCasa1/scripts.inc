@@ -9,10 +9,10 @@ release
 end
 
 NeoLavandaCasa1_Text_1:
-.string "Algunas personas son tan crueles que\n"
-.string "abandonan a su POKÉMON. El abuelo\l"
-.string "recoge aquellos que no tienen hogar y\l"
-.string "los cuida.$"
+	.string "Some people are so cruel that they\n"
+	.string "abandon their POKÉMON. The old man\l"
+	.string "collects those who are homeless and\l"
+	.string "takes care of them.$"
 
 
 
@@ -24,6 +24,5 @@ release
 end
 
 NeoLavandaCasa1_Text_2:
-.string "El SR.FUJI vive aquí, pero ahora no está\n"
-.string "en casa. Debe de estar en el\l"
-.string "CEMENTERIO.$"
+	.string "MR. FUJI lives here, but he's not at home\n"
+	.string "right now. He must be at the CEMETERY.$"

@@ -10,11 +10,10 @@ release
 end
 
 NeoSaffronCity_Primer_Chico_Texto_1:
-.string "La región ha cambiado mucho en poco\n"
-	.string "tiempo, especialmente PUEBLO LAVANDA\l"
-	.string "y CIUDAD AZAFRÁN, dicen que la nueva\l"
-	.string "TORRE RADIO es más alta que la SEDE\l"
-	.string "SILPH.$"
+	.string "The region has changed a lot in a short\n"
+	.string "time, especially LAVENDER TOWN and\l"
+	.string "SAFFRON CITY; they say the new RADIO\l"
+	.string "TOWER is taller than the SILPH C.O.$"
 
 
 NeoSaffronCity_Primer_Gordo::
@@ -25,11 +24,10 @@ release
 end
 
 NeoSaffronCity_Primer_Gordo_Texto_1:
-.string "¿Has visitado la nueva CENTRAL\n"
-	.string "ENERGÍA?\l"
-	.string "En realidad solo la han restaurado un\l"
-	.string "poco, ahora es más pequeña que\l"
-	.string "antaño, pero más eficiente.$"
+	.string "Have you ever visited the new POWER\n"
+	.string "PLANT? To be honest, they've only\l"
+	.string "restored it a bit, now it's smaller than\l"
+	.string "before, but more efficient.$"
 
 
 NeoSaffronCity_Segundo_Chico::
@@ -40,11 +38,10 @@ release
 end
 
 NeoSaffronCity_Segundo_Chico_Texto_1:
-.string "Iba al GIMNASIO a luchar contra\n"
-	.string "entrenadores...\l"
-	.string "Y acabé en el viejo GIMNASIO que hay\l"
-	.string "al lado.\l"
-	.string "¡Vaya, qué vergüenza pasé!$"
+	.string "I went to the GYM, raring for battles\n"
+	.string "against trainers… It turns out, I\l"
+	.string "stumbled into the unused GYM next door.\l"
+	.string "Boy, I was pretty embarrassed.$"
 
 
 NeoSaffronCity_Primera_Chica::
@@ -55,11 +52,10 @@ release
 end
 
 NeoSaffronCity_Primera_Chica_Texto_1:
-.string "Nuestra ciudad salió en un programa\n"
-	.string "de radio.\l"
-	.string "Está bien oír alabanzas sobre tu\l"
-	.string "ciudad, pero también da un poco de\l"
-	.string "vergüenza.$"
+	.string "Our city was featured on a radio\n"
+	.string "program. It's nice to hear praise for\l"
+	.string "your city, but it's a bit embarrassing\l"
+	.string "too.$"
 
 NeoSaffronCity_Segunda_Chica::
 lock
@@ -69,12 +65,11 @@ release
 end
 
 NeoSaffronCity_Segunda_Chica_Texto_1:
-.string "Antaño el DOJO KARATE era el GIMNASIO\n"
-	.string "oficial de AZAFRAN.\l"
-	.string "El MACHAMP de BRUNO era el POKÉMON\l"
-	.string "más duro de pelar de entre las 8\l"
-	.string "MEDALLAS.\l"
-	.string "¡Qué tiempos aquellos!$"
+	.string "Formerly, the FIGHTING DOJO served as\n"
+	.string "SAFFRON's official GYM. BRUNO's MACHAMP\l"
+	.string "was the toughest POKÉMON to defeat\l"
+	.string "among the 8 BADGES. Oh, those good old\l"
+	.string "days!$"
 
 NeoSaffronCity_Tercer_Chico::
 lock
@@ -84,9 +79,9 @@ release
 end
 
 NeoSaffronCity_Tercer_Chico_Texto_1:
-.string "Ya no dejan entrar a nadie a los\n"
-	.string "pisos superiores de SILPH.\l"
-	.string "¿Crees que nos están ocultando algo?$"
+	.string "They don't let anyone in the upper\n"
+	.string "floors of SILPH anymore. Do you think\l"
+	.string "they're hiding something from us?$"
 
 
 NeoSaffronCity_Tercera_Chica::
@@ -97,11 +92,9 @@ release
 end
 
 NeoSaffronCity_Tercera_Chica_Texto_1:
-.string "Es SILPH S.A, famosa por sus\n"
-	.string "artículos POKÉMON.\l"
-	.string "En el pasado, el TEAM ROCKET quiso\l"
-	.string "hacerse con esta compañía por esa\l"
-	.string "misma razón.$"
+	.string "This is SILPH C.O., famous for POKÉMON\n"
+	.string "merchandise. In the past, TEAM ROCKET\l"
+	.string "wanted the company because of that.$"
 
 NeoSaffronCity_Hombre::
 lock
@@ -111,6 +104,6 @@ release
 end
 
 NeoSaffronCity_Hombre_Texto_1:
-.string "¿También eres de KANTO?\n"
-	.string "¡Con el MAGNETOTREN podrás visitar\l"
-	.string "JOHTO enseguida!$"
+	.string "You came out from JOHTO? You can zip\n"
+	.string "back home if the MAGNET TRAIN's\l"
+	.string "running.$"

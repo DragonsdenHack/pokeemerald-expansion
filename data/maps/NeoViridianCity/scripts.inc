@@ -9,8 +9,8 @@ release
 end
 
 NeoViridianCity_Primer_Npc_Texto_1:
-.string "Dicen que en el suelo del BOSQUE VERDE\n"
-	.string "hay muchos objetos.$"
+	.string "I heard that there are many items on\n"
+	.string "the ground in VIRIDIAN FOREST.$"
 
 
 
@@ -22,8 +22,8 @@ release
 end
 
 NeoViridianCity_Segundo_Npc_Texto_1:
-.string "Dicen que en el suelo del BOSQUE VERDE\n"
-	.string "hay muchos objetos.$"
+	.string "I heard that there are many items on\n"
+	.string "the ground in VIRIDIAN FOREST.$"
 
 
 
@@ -35,8 +35,8 @@ release
 end
 
 NeoViridianCity_Tercer_Npc_Texto_1:
-.string "Dicen que en el suelo del BOSQUE VERDE\n"
-	.string "hay muchos objetos.$"
+	.string "I heard that there are many items on\n"
+	.string "the ground in VIRIDIAN FOREST.$"
 
 NeoViridianCity_Anciano::
 lock
@@ -51,19 +51,19 @@ release
 end
 
 NeoViridianCity_Anciano_YesNo_Texto_3:
-.string "¿Me crees?$"
+.string "Do you believe me?$"
 
 NeoViridianCity_Anciano_YesNo_Texto_2:
-.string "¡Tengo que hablar con alguien, así que\n"
-	.string "te toca a ti! Puede que no lo parezca,\l"
-	.string "pero yo era un experto atrapando\l"
+	.string "I need to talk to someone, so you'll\n"
+	.string "have to do! I might not look like much\l"
+	.string "now, but I was an expert at catching\l"
 	.string "POKÉMON.$"
 
 
 
 NeoViridianCity_Anciano_YesNo_Texto_1:
-.string "¡Hola! ¡Me acabo de tomar un café doble\n"
-	.string "y estoy como una moto!$"
+	.string "Hey, kid! I just had a double shot of\n"
+	.string "espresso, and I am wired!$"
 
 
 
@@ -73,14 +73,14 @@ release
 end
 
 NeoViridianCity_Anciano_No_Texto_1:
-.string "¿Qué? ¡Serás insolente! Si fuera un\n"
-	.string "poco más joven, te enseñaría un par de\l"
-	.string "cosas. ¡Vaya!$"
+	.string "What? You little whelp! If I were just a\n"
+	.string "bit younger, I'd show you a thing or two.\l"
+	.string "Humph!$"
 
 
 NeoViridianCity_Anciano_Yes:
-.string "Muy bien. Sí, yo era algo fuera de lo\n"
-	.string "normal. ¡Déjame contártelo!$"
+	.string "Good, good. Yes, I was something out of\n"
+	.string "the ordinary, let me tell you!$"
 
 NeoViridianCity_Anciano_Gym::
 lock
@@ -90,8 +90,8 @@ release
 end
 
 NeoViridianCity_Anciano_Gym_Texto_1:
-.string "Al parecer, el GIMNASIO ha cambiado de\n"
-	.string "LÍDER, aunque el nuevo LÍDER se deja\l"
-	.string "ver lo mismo que el anterior: nada.$"
+	.string "This GYM didn't have a LEADER until\n"
+	.string "recently. A young man from PALLET\l"
+	.string "became the LEADER, but he's often away.$"
 
 
