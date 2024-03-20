@@ -6,14 +6,14 @@ msgbox LavenderRadioP9Documento_Text_100, MSGBOX_SIGN
 end
 
 LavenderRadioP9Documento_Text_100:
-.string "9no Análisis de datos$"
+.string "9th Data analysing$"
 
 LavenderRadioP9Documento_101::
 msgbox LavenderRadioP9Documento_Text_101, MSGBOX_SIGN   
 end
 
 LavenderRadioP9Documento_Text_101:
-.string "-La libertad sin compromiso es inútil-.$"
+.string "-Freedom without compromise is useless-.$"
 
 LavenderRadioP9_EventScript_Rocket::
 	trainerbattle_single TRAINER_TRAINER_184, LavenderRadioP9_Text_RocketIntro, LavenderRadioP9_Text_RocketDefeated
@@ -28,10 +28,10 @@ release
 end
 
 LavenderRadioP9_Primer_Cientifico_Texto_1:
-.string "La nostalgia se basa en un deseo\n"
-	.string "primal cuyo objeto es totalmente\l"
-	.string "irrecuperable, igual que la antigua\l"
-	.string "TORRE POKEMON.$"
+	.string "Nostalgia is based in a primal desire\n"
+	.string "which objective is absolutely\l"
+	.string "unrecoverable, as it is the old POKÉMON\l"
+	.string "TOWER.$"
 
 LavenderRadioP9_Segundo_Cientifico::
 lock
@@ -41,14 +41,13 @@ release
 end
 
 LavenderRadioP9_Segundo_Cientifico_Texto_1:
-	.string "La tecnología ha mejorado los equipos\n"
-	.string "de nuestros mejores hombres.\l"
-	.string "PROTON ahora cuenta con un OVERQWILL\l"
-	.string "y un BOOHOO, PETREL con un PURAKUSU\l"
-	.string "y un WEEZING-GALAR.\l"
-	.string "Nada de esto hubiera sido posible sin\l"
-	.string "toda la información recolectada por\l"
-	.string "gente como tú.$"
+	.string "Technology has enhanced the equipment\n"
+	.string "of our top men. PROTON now has an\l"
+	.string "OVERQWILL and a BOOHOO, PETREL with a\l"
+	.string "PURAKKUSU and a GALARIAN WEEZING.\l"
+	.string "None of this would have been possible\l"
+	.string "without all the information gathered by\l"
+	.string "people like you.$"
 
 LavenderRadioP9_Primer_Rocket::
 lock

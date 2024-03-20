@@ -25,23 +25,24 @@ LavenderRadioP7_EventScript_TakeDarumaka::
 
 
 LavenderRadioP7_Text_TakeDarumaka:
-    .string "Hace poco descubrimos un POKÉMON\n"
-	.string "capaz de corromper al TIPO ACERO, y\l"
-	.string "envenenar incluso al porpio TIPO\l"
-	.string "VENENO.$"
+	.string "Recently, we discovered a Pokémon\n"
+	.string "capable of corrupting the STEEL TYPE\l"
+	.string "and even poisoning the POISON TYPE\l"
+	.string "itself.$"
 
 LavenderRadioP7_Text_TakeDarumaka2:
-	.string "Dada tu elevada posición, sin duda\n"
-	.string "mereces contar con ejemplar. Toma.$"
+	.string "Given your elevated position, you\n"
+	.string "certainly deserve to have a copy. Here\l"
+	.string "you go.$"
 
 LavenderRadioP7_Text_MensajeDarumaka:
-.string "¡OBTUVISTE UN SALANDIT AL NV.30!$"
+.string "You obtained a level 30 SALANDIT!$"
 
 LavenderRadioP7_Text_1:
-   .string "Todo puede corromperse, incluso aquello\n"
-	.string "que pueda parecer más bello y puro. Que\l"
-	.string "estemos ahora sentados aquí es prueba\l"
-	.string "de ello.$"
+	.string "Everything can be corrupted, even that\n"
+	.string "which may seem most beautiful and pure.\l"
+	.string "That we are sitting here now is proof of\l"
+	.string "it.$"
 
 LavenderRadioP7_Primer_Rocket::
 lock
@@ -51,9 +52,9 @@ release
 end
 
 LavenderRadioP7_Primer_Rocket_Texto_1:
-.string "Entre tanta oficina y productividad,\n"
-	.string "viene bien un espacio de descanso\l"
-	.string "como este, ¿no crees?$"
+	.string "Amidst all the office and productivity,\n"
+	.string "a resting space like this is quite\l"
+	.string "welcome, don't you think?$"
 
 LavenderRadioP7_Primer_Cientifico::
 lock
@@ -63,11 +64,11 @@ release
 end
 
 LavenderRadioP7_Primer_Cientifico_Texto_1:
-.string "Hace poco apareció por aquí un\n"
-	.string "anciano que jamás había visto.\l"
-	.string "Debe ser alguien muy importante, de\l"
-	.string "lo contrario la seguridad jamás le\l"
-	.string "habría dejado llegar hasta aquí.$"
+	.string "A short while ago, an elderly person\n"
+	.string "appeared here whom I had never seen\l"
+	.string "before. He must be someone very\l"
+	.string "important; otherwise, security would\l"
+	.string "never have allowed him to reach here.$"
 
 LavenderRadioP7_Segundo_Cientifico::
 lock
@@ -77,12 +78,11 @@ release
 end
 
 LavenderRadioP7_Segundo_Cientifico_Texto_1:
-.string "Lo cierto es que la nueva TORRE RADIO\n"
-	.string "impone más que la antigua TORRE\l"
-	.string "POKEMON, que solo tenía 6 pisos.\l"
-	.string "Ahora contamos con 10 pisos, como\l"
-	.string "SILPH, además de la azotea.\l"
-	.string "¡Hemos batido récords de altura en\l"
+	.string "The truth is, the new RADIO TOWER is\n"
+	.string "more imposing than the old POKÉMON\l"
+	.string "TOWER, which only had 6 floors. Now we\l"
+	.string "have 10 floors, like SILPH, plus the\l"
+	.string "rooftop. We've set height records in\l"
 	.string "KANTO!$"
 
 LavenderRadioP7_Segundo_Rocket::
@@ -93,11 +93,10 @@ release
 end
 
 LavenderRadioP7_Segundo_Rocket_Texto_1:
-.string "Algunos incluso dicen que NIDOKING y\n"
-	.string "NIDOQUEEN dejarán de ser útiles\l"
-	.string "después de todo lo que se está\l"
-	.string "montando aquí con las ondas.\l"
-	.string "¿Llegaremos a ese punto?$"
+	.string "Some even say that NIDOKING and\n"
+	.string "NIDOQUEEN will become obsolete after\l"
+	.string "all the developments with the waves\l"
+	.string "here. Will we reach that point?$"
 
 LavenderRadioP7_Policia::
 lock
@@ -107,14 +106,13 @@ release
 end
 
 LavenderRadioP7_Policia_Texto_1:
-.string "Fuiste la pieza clave en el asalto\n"
-	.string "SILPH, derrotando a toda la\l"
-	.string "seguridad, al PRESIDENTE y a BILL.\l"
-	.string "Pero ahora, bastaría solo conmigo y\l"
-	.string "mi equipo de POKÉMON al nivel 90 para\l"
-	.string "dejar en ridículo a ese joven talento\l"
-	.string "que eras tú.\l"
-	.string "Todo avanza muy rápido.$"
+	.string "You were the key player in the SILPH\n"
+	.string "assault, defeating all the security, the\l"
+	.string "PRESIDENT, and BILL. But now, it would\l"
+	.string "only take me and my team of level 90\l"
+	.string "POKÉMON to make a mockery of that\l"
+	.string "young talent you were. Everything is\l"
+	.string "moving very fast.$"
 
 
 LavenderRadioP7_Tercer_Cientifico::
@@ -125,14 +123,13 @@ release
 end
 
 LavenderRadioP7_Tercer_Cientifico_Texto_1:
-	.string "Hemos alegado una y mil veces la\n"
-	.string "seguridad como principal motivo para\l"
-	.string "impedir la entrada más allá del P1.\l"
-	.string "Una manera segura de hacer que la\l"
-	.string "gente se crea falsedades es la\l"
-	.string "repetición frecuente, porque la\l"
-	.string "familiaridad no es fácilmente\l"
-	.string "distinguible de la verdad.$"
+	.string "We've argued a thousand times about\n"
+	.string "security being the main reason to\l"
+	.string "prevent entry beyond P1. A safe way to\l"
+	.string "make people believe falsehoods is\l"
+	.string "through frequent repetition, because\l"
+	.string "familiarity is not easily\l"
+	.string "distinguishable from truth.$"
 
 LavenderRadioP7_Cuarto_Cientifico::
 lock
@@ -142,14 +139,13 @@ release
 end
 
 LavenderRadioP7_Cuarto_Cientifico_Texto_1:
-.string "Una vez conocí a alguien, alguien que\n"
-	.string "llegó a tal punto de productividad y\l"
-	.string "obsesión que concebía al descanso\l"
-	.string "únicamente como el trámite por el que\l"
-	.string "tenía que pasar para volver a\l"
-	.string "rellenar su barra de energía.\l"
-	.string "Acabó obteniendo lo que quería, pero\l"
-	.string "a un alto precio.$"
+	.string "Once I met someone, someone who\n"
+	.string "reached such a level of productivity\l"
+	.string "and obsession that they conceived rest\l"
+	.string "solely as the process they had to go\l"
+	.string "through to refill their energy bar. They\l"
+	.string "ended up getting what they wanted, but\l"
+	.string "at a high price.$"
 
 LavenderRadioP7_Quinto_Cientifico::
 lock
@@ -159,14 +155,13 @@ release
 end
 
 LavenderRadioP7_Quinto_Cientifico_Texto_1:
-.string "Mirar fijamente la fuente te hace\n"
-	.string "olvidar la ingente cantidad de cosas\l"
-	.string "que aún tienes que hacer.\l"
-	.string "Pero si logras recordarlas durante el\l"
-	.string "proceso, te darás cuenta de que son\l"
-	.string "en su mayoría una ilusión: sufrimos\l"
-	.string "más en nuestra imaginación que en la\l"
-	.string "realidad.$"
+	.string "Staring at the fountain makes you\n"
+	.string "forget the enormous amount of things\l"
+	.string "you still have to do. But if you manage\l"
+	.string "to remember them during the process,\l"
+	.string "you'll realize that they are mostly an\l"
+	.string "illusion: we suffer more in our\l"
+	.string "imagination than in reality.$"
 
 LavenderRadioP7_Tercer_Rocket::
 lock
@@ -176,14 +171,12 @@ release
 end
 
 LavenderRadioP7_Tercer_Rocket_Texto_1:
-.string "¡Uajajaja!\n"
-	.string "¡Desde aquí se ve la SEDE SILPH!\l"
-	.string "¡Ellos seguro que también pueden\l"
-	.string "vernos a nosotros!\l"
-	.string "¡Al menos a los que ahora dejen\l"
-	.string "entrar a los pisos superiores por\l"
-	.string "- seguridad -!\l"
-	.string "¡Uajajaja!$"
+.string "Hahaha!\n"
+	.string "From here, you can see the SILPH\l"
+	.string "HEADQUARTERS! They surely can see us\l"
+	.string "too! At least those who are now allowed\l"
+	.string "to enter the upper floors due to -\l"
+	.string "security -! Hahaha!$"
 
 LavenderRadioP7_Cuarto_Rocket::
 lock
@@ -193,13 +186,11 @@ release
 end
 
 LavenderRadioP7_Cuarto_Rocket_Texto_1:
-.string "Hace poco cerraron las vías\n"
-	.string "subterráneas, a nuestros colegas\l"
-	.string "motoristas no les hizo ninguna\l"
-	.string "gracia.\l"
-	.string "Pero qué más da, hemos logrado todo\l"
-	.string "el poder que queríamos, ya no los\l"
-	.string "necesitamos.$"
+	.string "Recently the underground routes were\n"
+	.string "closed; our biker colleagues weren't\l"
+	.string "pleased about it. But who cares, we've\l"
+	.string "achieved all the power we wanted; we\l"
+	.string "don't need them anymore.$"
 
 LavenderRadioP7_Quinto_Rocket::
 lock
@@ -209,24 +200,23 @@ release
 end
 
 LavenderRadioP7_Quinto_Rocket_Texto_1:
-.string "Oí hablar a algunos EJECUTIVOS con\n"
-	.string "ATLAS, al parecer existen objetos que\l"
-	.string "incrementan el rendimiento de ciertos\l"
-	.string "POKÉMON.\l"
-	.string "Hablaron del RHYPERIOR de GIOVANNI, y\l"
-	.string "cómo con un PROTECTOR incrementaba\l"
-	.string "sus defensas.$"
+	.string "I heard some EXECUTIVES talking with\n"
+	.string "ATLAS; apparently, there are items that\l"
+	.string "increase the performance of certain\l"
+	.string "POKÉMON. They mentioned GIOVANNI's\l"
+	.string "RHYPERIOR and how with a PROTECTOR, it\l"
+	.string "increased its defenses.$"
 
 LavenderRadioP7Documento_100::
 msgbox LavenderRadioP7Documento_Text_100, MSGBOX_SIGN   
 end
 
 LavenderRadioP7Documento_Text_100:
-.string "7mo Sala de descanso$"
+.string "7th Restroom$"
 
 LavenderRadioP7Documento_101::
 msgbox LavenderRadioP7Documento_Text_101, MSGBOX_SIGN   
 end
 
 LavenderRadioP7Documento_Text_101:
-.string "-Lo mejor es enemigo de lo bueno-.$"
+.string "-The best is the enemy of the good-.$"

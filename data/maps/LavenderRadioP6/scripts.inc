@@ -9,8 +9,8 @@ release
 end
 
 LavenderRadioP6_Text_2:
-.string "Fui a un congreso sobre la felicidad; los\n"
-.string "investigadores parecían muy infelices.$"
+	.string "I went to a happiness conference; the\n"
+	.string "researchers seemed very unhappy.$"
 
 
 
@@ -23,9 +23,8 @@ release
 end
 
 LavenderRadioP6_Text_4:
-.string "Las decisiones evidentes no necesitan\n"
-.string "más que una sola razón. ¡El progreso es\l"
-.string "esa razón!$"
+	.string "Obvious decisions require only a single\n"
+	.string "reason. Progress is that reason!$"
 
 
 
@@ -38,9 +37,9 @@ release
 end
 
 LavenderRadioP6_Text_6:
-.string "Estuve allí cuando el TEAM ROCKET llegó\n"
-.string "a AZAFRÁN. La invasión a SILPH hizo\l"
-.string "replantearme muchas cosas.$"
+	.string "I was there when TEAM ROCKET arrived in\n"
+	.string "SAFFRON. The invasion of SILPH made me\l"
+	.string "reconsider many things.$"
 
 
 
@@ -63,23 +62,24 @@ end
 
 LavenderRadioP6Documento_Text_100:
 .string "PORYGONZ-X:\p"
-	.string "PS: 85\n"
-	.string "ATAQUE: 125\l"
-	.string "DEFENSA: 70\l"
-	.string "ATAQUE ESPECIAL: 95\l"
-	.string "DEFENSA ESPECIAL: 85\l"
-	.string "VELOCIDAD: 185\l"
+	.string "HP: 85\n"
+	.string "ATTACK: 125\l"
+	.string "DEFENSE: 70\l"
+	.string "SPECIAL ATTACK: 95\l"
+	.string "SPECIAL DEFENSE: 85\l"
+	.string "SPEED: 185\l"
 	.string "TOTAL: 645\p"
-	.string "NORMAL/VOLADOR\n"
-	.string "Explota al 99,99% la capacidad ofensiva\l"
-	.string "física de PORYGON. Lejos de arreglar su\l"
-	.string "vulnerabilidad por el lado físico,\l"
-	.string "entrega todos sus recursos a la\l"
-	.string "VELOCIDAD. Gracias a conservar el\l"
-	.string "ADAPTABLE heredado de PORYGON-Z, sus\l"
-	.string "125 puntos en ATAQUE golpearán con\l"
-	.string "una potencia descomunal, con acceso a\l"
-	.string "PÁJARO OSADO o DOBLE-FILO por STAB.$"
+	.string "TYPE: NORMAL/FLYING\n"
+	.string "ABILITY: ADAPTABILITY\l"
+	.string "Exploits 99.99% of PORYGON's physical\l"
+	.string "offensive capability. Far from fixing\l"
+	.string "its vulnerability on the physical side,\l"
+	.string "it dedicates all its resources to SPEED.\l"
+	.string "Thanks to retaining the ADAPTABILITY\l"
+	.string "inherited from PORYGON-Z, its 125\l"
+	.string "points in ATTACK will strike with\l"
+	.string "immense power, with access to BRAVE\l"
+	.string "BIRD or DOUBLE-EDGE for STAB.$"
 
 
 
@@ -96,28 +96,28 @@ end
 
 LavenderRadioP6Documento_Text_101:
 .string "PORYGONZ-Y:\p"
-	.string "PS: 85\n"
-	.string "ATAQUE: 70\l"
-	.string "DEFENSA: 80\l"
-	.string "ATAQUE ESPECIAL: 185\l"
-	.string "DEFENSA ESPECIAL: 105\l"
-	.string "VELOCIDAD: 120\l"
+	.string "HP: 85\n"
+	.string "ATTACK: 70\l"
+	.string "DEFENSE: 80\l"
+	.string "SPECIAL ATTACK: 185\l"
+	.string "SPECIAL DEFENSE: 105\l"
+	.string "SPEED: 120\l"
 	.string "TOTAL: 645\p"
-	.string "NORMAL/ELÉCTRICO\n"
-    .string "Explota al 99,99% la capacidad ofensiva\l"
-	.string "especial de PORYGON. Llevando su\l"
-	.string "ATAQUE ESPECIAL al extremo (185), ganó\l"
-	.string "como efecto secundario el TIPO\l"
-	.string "ELÉCTRICO, siendo LEVITACIÓN la\l"
-	.string "HABILIDAD más conveniente para\l"
-	.string "amoldarse a este cambio. Sin\l"
-	.string "ADAPTABLE, esos 185 quedan sin la\l"
-	.string "contundencia que caracteriza a otros\l"
-	.string "prototipos recientes, sin embargo, su\l"
-	.string "gran combinación de tipos, muy notable\l"
-	.string "VELOCIDAD (120), y decente bulk\l"
-	.string "especial (105), lo ponen a la altura de\l"
-	.string "otros experimentos cumbre.$"
+	.string "TYPE: NORMAL/ELECTRIC\n"
+	.string "ABILITY: LEVITATE\l"
+	.string "Exploits 99.99% of PORYGON's special\l"
+	.string "offensive capability. By pushing its\l"
+	.string "SPECIAL ATTACK to the extreme (185), it\l"
+	.string "gained the ELECTRIC TYPE as a side\l"
+	.string "effect, with LEVITATE being the most\l"
+	.string "convenient ABILITY to adapt to this\l"
+	.string "change. Without ADAPTABILITY, those\l"
+	.string "185 lack the punchiness characteristic\l"
+	.string "of other recent prototypes; however,\l"
+	.string "its great type combination, notably\l"
+	.string "high SPEED (120), and decent special\l"
+	.string "bulk (105) put it on par with other top\l"
+	.string "experiments.$"
 
 
 
@@ -134,32 +134,33 @@ end
 
 LavenderRadioP6Documento_Text_102:
 .string "PORYGONZ-MEGA:\p"
-	.string "PS: 85\n"
-	.string "ATAQUE: 100\l"
-	.string "DEFENSA: 90\l"
-	.string "ATAQUE ESPECIAL: 165\l"
-	.string "DEFENSA ESPECIAL: 95\l"
-	.string "VELOCIDAD: 110\l"
+	.string "HP: 85\n"
+	.string "ATTACK: 100\l"
+	.string "DEFENSE: 90\l"
+	.string "SPECIAL ATTACK: 165\l"
+	.string "SPECIAL DEFENSE: 95\l"
+	.string "SPEED: 110\l"
 	.string "TOTAL: 645\p"
-	.string "NORMAL/PSÍQUICO\n"
-   .string "En propias palabras de BILL, se exprimió\l"
-	.string "hasta la última gota de rendimiento a\l"
-	.string "la que un PORYGON podría aspirar en la\l"
-	.string "concepción de esta MEGAEVOLUCIÓN. A\l"
-	.string "pesar de solo elevar en 20 su ATAQUE\l"
-	.string "como PORYGON-Z, esta será su mejor\l"
-	.string "opción ofensiva, gracias al milagro de\l"
-	.string "insertar POTENCIA a un POKÉMON de\l"
-	.string "estas características sin que todo su\l"
-	.string "ser colapse por completo. Logra aún\l"
-	.string "mejorar el extraordinario ATAQUE\l"
-	.string "ESPECIAL que siempre le ha\l"
-	.string "caracterizado, ascendiendo a 165 y\l"
-	.string "colocándolo en el debate por el mejor\l"
-	.string "ATACANTE MIXTO existente. Su bulk\l"
-	.string "especial (95) e incluso físico (90),\l"
-	.string "son excepcionales teniendo en cuenta\l"
-	.string "el resto.$"
+	.string "TYPE: NORMAL/PSYCHIC\n"
+	.string "ABILITY: HUGE POWER\l"
+	.string "In BILL's own words, every last drop of\l"
+	.string "performance that a PORYGON could\l"
+	.string "aspire to was squeezed into the\l"
+	.string "conception of this MEGA EVOLUTION.\l"
+	.string "Despite only raising its ATTACK by 20\l"
+	.string "compared to PORYGON-Z, this will be its\l"
+	.string "best offensive option, thanks to the\l"
+	.string "miracle of injecting POWER into a\l"
+	.string "Pokémon of these characteristics\l"
+	.string "without causing its entire being to\l"
+	.string "collapse completely. It manages to\l"
+	.string "further improve the extraordinary\l"
+	.string "SPECIAL ATTACK that has always\l"
+	.string "characterized it, rising to 165 and\l"
+	.string "placing it in the debate for the best\l"
+	.string "MIXED ATTACKER. Its special bulk (95)\l"
+	.string "and even physical bulk (90) are\l"
+	.string "exceptional considering the rest.$"
 
 
 
@@ -168,7 +169,7 @@ msgbox LavenderRadioP6Documento_Text_103, MSGBOX_SIGN
 end
 
 LavenderRadioP6Documento_Text_103:
-.string "6to Desarrollo & Reuniones$"
+.string "6th Development & Meetings$"
 
 
 
@@ -177,8 +178,8 @@ msgbox LavenderRadioP6Documento_Text_104, MSGBOX_SIGN
 end
 
 LavenderRadioP6Documento_Text_104:
-.string "-Cuanta más luz hay la sombra es más\n"
-	.string "oscura-.$"
+	.string "-The more light there is, the darker the\n"
+	.string "shadow.-$"
 
 
 LavenderRadioP6_Reunion::
@@ -322,60 +323,58 @@ face_left
 step_end
 
 LavenderRadioP6_Reunion_Texto_1:
-.string "????: ¿De verdad es tan peligrosa\n"
-	.string "DEVON?$"
+	.string "????: Is DEVON really that dangerous?$"
 
 LavenderRadioP6_Reunion_Texto_2:
-.string "OAK: No sabemos las armas que posee,\n"
-	.string "acabamos de descubrir los MOVIMIENTOS\l"
-	.string "Z, y ellos ya tenían conocimiento de\l"
-	.string "ellos.$"
+	.string "OAK: We don't know what weapons they\n"
+	.string "possess; we've just discovered\l"
+	.string "Z-MOVES, and they already had\l"
+	.string "knowledge of them.$"
 
 LavenderRadioP6_Reunion_Texto_3:
-.string "ELM: En los próximos meses pondremos\n"
-	.string "en marcha el plan gestado en PUEBLO\l"
-	.string "PRIMAVERA. Supondrá un antes y un\l"
-	.string "después en la forma en que concebimos\l"
-	.string "el COMBATE POKÉMON, no podrán superar\l"
-	.string "eso.$"
+	.string "ELM: In the coming months, we will\n"
+	.string "implement the plan devised in\l"
+	.string "SPRINGTOWN. It will mark a before and\l"
+	.string "after in the way we conceive POKÉMON\l"
+	.string "BATTLES; they won't be able to surpass\l"
+	.string "that.$"
 
 LavenderRadioP6_Reunion_Texto_4:
-.string "BILL: Tampoco conocen la tecnología de\n"
-	.string "ONDAS DE RADIO, que sepamos.$"
+	.string "BILL: They also don't know about RADIO\n"
+	.string "WAVE technology, as far as we know.$"
 
 LavenderRadioP6_Reunion_Texto_5:
-.string "OAK: ¿Dónde está tu ayudante, BILL?\n"
-	.string "Debería ir preparándose para la\l"
-	.string "ceremonia.$"
+	.string "OAK: Where is your assistant, BILL?\n"
+	.string "They should be getting ready for the\l"
+	.string "ceremony.$"
 
 LavenderRadioP6_Reunion_Texto_6:
-.string "BILL: Estará con sus FÓSILES, en el S3\n"
-	.string "de SILPH, como siempre.$"
+	.string "BILL: He'll be with their FOSSILS, in the\n"
+	.string "S3 of SILPH, as always.$"
 
 LavenderRadioP6_Reunion_Texto_7:
-.string "OAK: Debería prepararse para la\n"
-	.string "inauguración, después de todo él era\l"
-	.string "uno de los mayores interesados.$"
+	.string "OAK: He should prepare for the\n"
+	.string "inauguration; after all, he was one of\l"
+	.string "the most interested parties.$"
 
 LavenderRadioP6_Reunion_Texto_8:
-.string "BILL: ¡Bah! Está obsesionado con unos\n"
-	.string "FÓSILES de potencial limitado, hemos\l"
-	.string "demostrado que en PORYGON, MEWTWO y\l"
-	.string "LEGENDARIOS como las BESTIAS de JOHTO\l"
-	.string "está el futuro.$"
+	.string "BILL: Bah! He's obsessed with fossils\n"
+	.string "of limited potential. We've shown that\l"
+	.string "the future lies in PORYGON, MEWTWO, and\l"
+	.string "LEGENDARIES like the JOHTO BEASTS.$"
 
 LavenderRadioP6_Reunion_Texto_9:
-.string "Incluso los NIDORAN clásicos tienen\n"
-	.string "más potencial.$"
+	.string "Even classic NIDORAN have more\n"
+	.string "potential.$"
 
 LavenderRadioP6_Reunion_Texto_10:
-.string "PRESIDENTE: ANDRA y {PLAYER} deben\n"
-	.string "de estar al caer. Subamos ya, ambos\l"
-	.string "quedarán sorprendidos con el\l"
-	.string "funcionamiento de las ONDAS DE RADIO.$"
+	.string "PRESIDENT: ANDRA and {PLAYER}\n"
+	.string "should be arriving soon. Let's go up now;\l"
+	.string "they'll both be surprised by the\l"
+	.string "functionality of the RADIO WAVES.$"
 
 LavenderRadioP6_Reunion_Texto_11:
-.string "OAK: Puede que no tanto.$"
+.string "OAK: Perhaps not so much.$"
 
 
 LavenderRadioP6_Combate_Bill::
@@ -500,70 +499,70 @@ walk_in_place_up
 step_end
 
 LavenderRadioP6_Combate_Bill_Texto_1:
-.string "BILL: Por fin llegas. Te estaba\n"
-	.string "esperando, {PLAYER}. ¿Creías que iba\l"
-	.string "a subir igual que los demás?$"
+	.string "BILL: Finally, you're here. I was waiting\n"
+	.string "for you, {PLAYER}. Did you think I\l"
+	.string "would just come up like everyone else?$"
 
 LavenderRadioP6_Combate_Bill_Texto_2:
-.string "La azotea es la zona de investigación\n"
-	.string "más importante de toda la TORRE RADIO,\l"
-	.string "dónde mejor se puede trabajar con las\l"
-	.string "ondas. Por eso hay una única vía de\l"
-	.string "acceso.$"
+	.string "The rooftop is the most important\n"
+	.string "research area in the entire RADIO\l"
+	.string "TOWER, where we can work best with the\l"
+	.string "waves. That's why there's only one\l"
+	.string "access route.$"
 
 LavenderRadioP6_Combate_Bill_Texto_3:
-.string "Eso quiere decir que estás obligado a\n"
-	.string "pasar por aquí para subir a la azotea,\l"
-	.string "pero también…$"
+	.string "That means you're obligated to pass\n"
+	.string "through here to go up to the rooftop,\l"
+	.string "but also...$"
 
 LavenderRadioP6_Combate_Bill_Texto_4:
-.string "¡Que estás obligado a combatir conmigo\n"
-	.string "una vez más!$"
+	.string "That means you're obligated to battle\n"
+	.string "with me once again!$"
 
 LavenderRadioP6_Combate_Bill_Texto_5:
-.string "¡¿Otra vez?! ¡¿Por qué?!$"
+.string "Again?! Why?!$"
 
 LavenderRadioP6_Combate_Bill_Texto_6:
-.string "BILL: ¿Qué clase de poder tienes? ¿Por\n"
-	.string "qué en las pruebas y en los informes\l"
-	.string "mis POKÉMON machacan a los tuyos, pero\l"
-	.string "después en la práctica no ocurre así?$"
+	.string "BILL: What kind of power do you have?\n"
+	.string "Why do my Pokémon crush yours in tests\l"
+	.string "and reports, but then in practice it\l"
+	.string "doesn't happen like that?$"
 
 LavenderRadioP6_Combate_Bill_Texto_7:
 .string "…$"
 
 LavenderRadioP6_Combate_Bill_Texto_8:
-.string "¡¿El POKÉMON ESENCIA era real y yo\n"
-	.string "estaba equivocado?! ¿Has sido\l"
-	.string "bendecido por él y por el FUERTE\l"
-	.string "VÍNCULO? ¿Yo nunca seré capaz de\l"
-	.string "experimentar algo similar con ningún\l"
-	.string "POKÉMON?$"
+	.string "The ESSENCE POKÉMON was real and I was\n"
+	.string "wrong?! That you've been blessed by it\l"
+	.string "and the STRONG BOND? That I'll never be\l"
+	.string "able to experience something similar\l"
+	.string "with any POKÉMON?$"
 
 LavenderRadioP6_Combate_Bill_Texto_9:
-.string "¡Bah! Te creía más serio, {PLAYER}.\n"
-	.string "¿De verdad crees toda esa basura\l"
-	.string "sentimental que acabas de mencionar?$"
+	.string "Bah! I thought you were more serious,\n"
+	.string "{PLAYER}. Do you really believe all\l"
+	.string "that sentimental garbage you just\l"
+	.string "mentioned?$"
 
 LavenderRadioP6_Combate_Bill_Texto_10:
-.string "Lo único que vale es lo que podemos\n"
-	.string "medir, y por ende mejorar. El resto de\l"
-	.string "vagos conceptos sin fundamento serán\l"
-	.string "engullidos por el perfeccionamiento de\l"
-	.string "lo que sí podemos controlar.$"
+	.string "The only thing that matters is what we\n"
+	.string "can measure, and therefore improve. The\l"
+	.string "rest of the baseless, lazy concepts will\l"
+	.string "be swallowed by the perfection of what\l"
+	.string "we can control.$"
 
 LavenderRadioP6_Combate_Bill_Texto_11:
-.string "Haré que la diferencia sea tan\n"
-	.string "flagrante que esos detalles sin\l"
-	.string "importancia sean despreciables.$"
+	.string "I'll make the difference so glaring that\n"
+	.string "those insignificant details will be\l"
+	.string "negligible.$"
 
 LavenderRadioP6_Combate_Bill_Texto_12:
-.string "¡Crearé un PORYGON4, PORYGON5 o 10 si\n"
-	.string "es necesario! Cuando matemáticamente\l"
-	.string "te derrote siempre de un solo golpe y\l"
-	.string "tú no puedas hacer nada, ahí me\l"
-	.string "hablarás de vínculos y demás\l"
-	.string "historias.$"
+	.string "I'll create a PORYGON4, PORYGON5, or\n"
+	.string "even 10 if necessary! When I\l"
+	.string "mathematically defeat you with a single\l"
+	.string "blow every time and you can't do\l"
+	.string "anything, then you can talk to me about\l"
+	.string "bonds and other stories.$"
 
 LavenderRadioP6_Encuentro_Andra::
 lock
@@ -664,49 +663,48 @@ face_down
 step_end
 
 LavenderRadioP6_Encuentro_Andra_Texto_1:
-.string "ANDRA: Por una vez llegas antes.$"
+.string "ANDRA: For once, you arrive early.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2:
 .string "…$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.1:
-.string "He hablado con GIOVANNI y no hay\n"
-	.string "problema respecto a los MOTORISTAS. Al\l"
-	.string "final, podrán asentarse en su ciudad\l"
-	.string "favorita: FUCSIA.$"
+	.string "I've spoken with GIOVANNI, and there's\n"
+	.string "no problem regarding the BIKERS. In the\l"
+	.string "end, they'll be able to settle in their\l"
+	.string "favorite city: FUCHSIA.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.2:
-.string "Creo que el propio GIOVANNI quedó\n"
-	.string "sorprendido. Tanto por la ligereza con\l"
-	.string "la que trató el tema en un inicio, como\l"
-	.string "por su fácil solución.$"
+	.string "I think GIOVANNI himself was surprised.\n"
+	.string "Both by how lightly he initially treated\l"
+	.string "the issue and by how easily it was\l"
+	.string "resolved.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.3:
-.string "Sinceramente, creo que todos estos\n"
-	.string "cambios tan repentinos nos están\l"
-	.string "cegando un poco a todos. Y todo esto\l"
-	.string "de las ondas de radio, a mí me genera\l"
-	.string "inquietud...$"
+	.string "Honestly, I think all these sudden\n"
+	.string "changes are blinding us all a little. And\l"
+	.string "all this talk about radio waves, it\l"
+	.string "makes me uneasy...$"
 
 
 LavenderRadioP6_Encuentro_Andra_Texto_3:
-.string "Ya hemos estado en esta situación\n"
-	.string "muchas veces, {PLAYER}. Estar\l"
-	.string "expectante, apunto de vivir algo sin\l"
-	.string "tener ni idea de qué ocurrirá, esa\l"
-	.string "incertidumbre...$"
+	.string "We've been in this situation many times\n"
+	.string "before, {PLAYER}. Being expectant,\l"
+	.string "about to experience something without\l"
+	.string "having any idea what will happen, that\l"
+	.string "uncertainty...$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_4:
-.string "Pero esta vez presiento que será\n"
-	.string "diferente, al menos para mí.$"
+	.string "But this time, I have a feeling it will be\n"
+	.string "different, at least for me.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_5:
 .string "…$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_6:
-.string "No estoy segura de querer ver lo que\n"
-	.string "hay más allá de esas escaleras, pero\l"
-	.string "las cruzaremos juntos.$"
+	.string "I'm not sure I want to see what lies\n"
+	.string "beyond those stairs, but we'll cross\l"
+	.string "them together.$"
 
 
 
@@ -718,6 +716,6 @@ release
 end
 
 LavenderRadioP6_Octavo_NPC_Texto_1:
-.string "Lo extraordinario es que no ocurra nada\n"
-	.string "extraordinario en un largo periodo de\l"
-	.string "tiempo.$"
+	.string "The extraordinary thing is for nothing\n"
+	.string "extraordinary to happen for a long\l"
+	.string "period of time.$"

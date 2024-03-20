@@ -14,12 +14,10 @@ release
 end
 
 LavenderRadioP8_Primer_Cientifico_Texto_1:
-.string "El P8 se eleva más alto de lo que\n"
-	.string "jamás se elevó la ya otrora TORRE\l"
-	.string "POKÉMON.\l"
-	.string "Esto es, ahora mismo vemos PUEBLO\l"
-	.string "LAVANDA desde una altura que jamás\l"
-	.string "vieron sus habitantes.$"
+	.string "The 8th floor will be higher than the old\n"
+	.string "tower's. Right now, we're seeing LAVENDER\l"
+	.string "from where none of its inhabitants have\l"
+	.string "seen it.$"
 
 LavenderRadioP8_Segundo_Cientifico::
 lock
@@ -29,25 +27,25 @@ release
 end
 
 LavenderRadioP8_Segundo_Cientifico_Texto_1:
-	.string "Si uno desconoce las causas de su\n"
-	.string "éxito, es cuestión de tiempo que la\l"
-	.string "esperanza matemática deshaga lo que\l"
-	.string "por mera casualidad produjo.$"
+	.string "If you don't know the reasons for your\n"
+	.string "success, it's just a matter of time that\l"
+	.string "mathematics and statistics undo what\l"
+	.string "was done as a result of coincidence.$"
 
 LavenderRadioP8Documento_100::
 msgbox LavenderRadioP8Documento_Text_100, MSGBOX_SIGN   
 end
 
 LavenderRadioP8Documento_Text_100:
-.string "8vo Stats Base$"
+.string "8th Base Stats$"
 
 LavenderRadioP8Documento_101::
 msgbox LavenderRadioP8Documento_Text_101, MSGBOX_SIGN   
 end
 
 LavenderRadioP8Documento_Text_101:
-.string "-La posibilidad engendra cada vez más y\n"
-	.string "más posibilidad-.$"
+	.string "-Possibility generates more and more\n"
+	.string "possibility-.$"
 
 LavenderRadioP8_Tercer_Cientifico::
 lock
@@ -57,13 +55,12 @@ release
 end
 
 LavenderRadioP8_Tercer_Cientifico_Texto_1:
-.string "En este piso ya se tratan temas muy\n"
-	.string "serios, he tenido oportunidad de\l"
-	.string "trabajar en ellos de primera mano.\l"
-	.string "Para mi sorpresa, no sentí alegría ni\l"
-	.string "satisfacción al ver los resultados,\l"
-	.string "más bien miedo y... mucho vértigo por\l"
-	.string "todo lo que pueda suponer.$"
+	.string "Here on this floor we manage serious\n"
+	.string "stuff, I've worked on them by myself.\l"
+	.string "However, it is not happiness nor\l"
+	.string "satisfaction what I felt as I saw the\l"
+	.string "results. It was fear… fear of what that\l"
+	.string "may mean.$"
 
 LavenderRadioP8_Cuarto_Cientifico::
 lock
@@ -73,13 +70,12 @@ release
 end
 
 LavenderRadioP8_Cuarto_Cientifico_Texto_1:
-.string "Fuera de estas instalaciones aún\n"
-	.string "siguen usando POKÉMON de KANTO, y\l"
-	.string "ahora un poco más de JOHTO también.\l"
-	.string "Pero aquí es común ver a gente con\l"
-	.string "POKÉMON de regiones exóticas, el\l"
-	.string "mercado interno que hemos creado es\l"
-	.string "increíble.$"
+	.string "Outside these facilities, they still\n"
+	.string "mainly use KANTO POKÉMON, and now a few\l"
+	.string "more from JOHTO as well. But here, it's\l"
+	.string "common to see people with POKÉMON from\l"
+	.string "exotic regions; the internal market\l"
+	.string "we've created is incredible.$"
 
 LavenderRadioP8_Encuentro_Devon::
 lock
@@ -131,37 +127,35 @@ delay_8
 step_end
 
 LavenderRadioP8_Encuentro_Devon_Texto_1:
-.string "????: Curiosa tecnología, todo apunta\n"
-	.string "a que será uno de los principales\l"
-	.string "motores de cambio en los próximos años.$"
+	.string "????: Curious technology, everything\n"
+	.string "points to it being one of the main\l"
+	.string "drivers of change in the coming years.$"
 
 LavenderRadioP8_Encuentro_Devon_Texto_2:
-.string "Una pena, ¿no?$"
+.string "A shame, isn't it?$"
 
 LavenderRadioP8_Encuentro_Devon_Texto_3:
-.string "Antaño, los entrenadores desarrollaban\n"
-	.string "habilidad, talento y vínculo con sus\l"
-	.string "POKÉMON para alcanzar la victoria\l"
-	.string "sobre otros iguales. Los antiguos\l"
-	.string "campeones lo eran por haber llevado al\l"
-	.string "extremo estas virtudes.$"
+	.string "Back in the day, trainers would develop\n"
+	.string "talent, ability and a bond with their\l"
+	.string "POKÉMON so they could achieve victory.\l"
+	.string "Old champions were what they were\l"
+	.string "because pursuing this virtudes until\l"
+	.string "the extreme.$"
 
 LavenderRadioP8_Encuentro_Devon_Texto_4:
-.string "Ahora, tenemos acceso a una infinidad\n"
-	.string "de valores con los que manipular el\l"
-	.string "rendimiento de un POKÉMON, y\l"
-	.string "convertirlo en algo que jamás hubiera\l"
-	.string "sido posible en el pasado.$"
+	.string "Now, we have many variables to modify\n"
+	.string "POKÉMON's performance, and turn them\l"
+	.string "into something that time ago would have\l"
+	.string "been impossible.$"
 
 LavenderRadioP8_Encuentro_Devon_Texto_5:
-.string "Incluso el más hábil de los campeones\n"
-	.string "de antaño sucumbiría ante un\l"
-	.string "entrenador mediocre actual, si la\l"
-	.string "diferencia de poder bruto entre sus\l"
-	.string "POKÉMON es la suficiente.$"
+	.string "Even the toughest of the old-school\n"
+	.string "champions would bow to the standard\l"
+	.string "trainer of these days, just if the sheer\l"
+	.string "force of their POKÉMON were enough.$"
 
 LavenderRadioP8_Encuentro_Devon_Texto_6:
-.string "Hoy en día, aquellos que no añadan esta\n"
-	.string "nueva variable a la ecuación, están\l"
-	.string "condenados sin importar lo mucho que\l"
-	.string "perfeccionen las virtudes clásicas.$"
+	.string "Nowadays, those who doesn't add this\n"
+	.string "new variable to their team's equation\l"
+	.string "are doomed, no matter how hard they try\l"
+	.string "to perfect the classic virtudes.$"

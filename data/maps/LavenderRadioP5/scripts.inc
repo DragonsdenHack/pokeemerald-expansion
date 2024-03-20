@@ -9,12 +9,11 @@ release
 end
 
 LavenderRadioP5_Text_2:
-.string "Todos los trabajadores más allá del P1\n"
-.string "en esta torre están sometidos a\l"
-.string "estricto juramento. Nuestro contrato\l"
-.string "de confidencialidad nos impide hablar\l"
-.string "de todo lo que aquí veamos, incluso del\l"
-.string "TEAM ROCKET.$"
+	.string "All workers beyond 1F in this tower are\n"
+	.string "subject to strict oath. Our\l"
+	.string "confidentiality agreement prohibits us\l"
+	.string "from discussing everything we see here,\l"
+	.string "even about TEAM ROCKET.$"
 
 
 
@@ -27,8 +26,8 @@ release
 end
 
 LavenderRadioP5_Text_3:
-.string "La mayoría de las eficiencias modernas\n"
-.string "son castigos diferidos.$"
+	.string "Most modern efficiencies are deferred\n"
+	.string "punishments.$"
 
 
 
@@ -40,10 +39,10 @@ release
 end
 
 LavenderRadioP5_Text_4:
-.string "Algo me dice que el fenómeno FUERTE\n"
-.string "VÍNCULO tiene aún algo de magia por\l"
-.string "ofrecernos, y sorprender a nuestra\l"
-.string "comunidad científica de nuevo.$"
+	.string "I have the feeling that the DEEP BOND\n"
+	.string "phenomenon still has some magic to\l"
+	.string "offer us, surprising our scientific\l"
+	.string "community once again.$"
 
 
 
@@ -56,10 +55,13 @@ release
 end
 
 LavenderRadioP5_Text_6:
-.string "La tecnología puede degradar cada\n"
-.string "aspecto de la vida de un incauto,\l"
-.string "convenciéndolo de que se está\l"
-.string "haciendo más <eficiente>.$"
+	.string "Technology can degrade every aspect\n"
+	.string "of an unwary person's life, convincing\l"
+	.string "them that they are becoming more\l"
+	.string "<efficient>. Because at the same time,\l"
+	.string "it undermines their personal abilities\l"
+	.string "by allowing something else to do it for\l"
+	.string "them.$"
 
 
 
@@ -72,11 +74,11 @@ release
 end
 
 LavenderRadioP5_Text_7:
-.string "Es mucho más fácil esforzarse por\n"
-.string "lograr la perfección cuando nunca se\l"
-.string "está aburrido. Aquí nunca nos\l"
-.string "aburrimos, y lo mejor es que ahí fuera\l"
-.string "creen que nada de esto existe.$"
+	.string "It's much easier to strive for\n"
+	.string "perfection when you're never bored.\l"
+	.string "We're never bored here, and the best\l"
+	.string "part is, out there, they believe none of\l"
+	.string "this exists.$"
 
 
 
@@ -90,9 +92,9 @@ release
 end
 
 LavenderRadioP5_Text_8:
-.string "En la ciencia necesitas entender el\n"
-.string "mundo; en los negocios necesitas que\l"
-.string "no lo entiendan los demás.$"
+	.string "In science, you need to understand the\n"
+	.string "world; in business, you need others not\l"
+	.string "to understand it.$"
 
 
 
@@ -106,11 +108,11 @@ release
 end
 
 LavenderRadioP5_Text_9:
-.string "Podríamos considerar esta una nueva\n"
-.string "BASE ROCKET encubierta, de ser así,\l"
-.string "sería la cuarta en KANTO, y la octava si\l"
-.string "tenemos en cuenta las regiones de\l"
-.string "JOHTO y HOENN.$"
+	.string "We could consider this a new undercover\n"
+	.string "ROCKET BASE; if so, it would be the\l"
+	.string "fourth in KANTO, and the eighth if we\l"
+	.string "take into account the regions of JOHTO\l"
+	.string "and HOENN.$"
 
 
 
@@ -123,9 +125,10 @@ release
 end
 
 LavenderRadioP5_Text_10:
-.string "Gracias a las ondas de radio, vamos a\n"
-.string "convertir KANTO en la mayor potencia\l"
-.string "tecnológica del mundo POKÉMON.$"
+	.string "Thanks to the radio waves, we're going\n"
+	.string "to turn KANTO into the greatest\l"
+	.string "technological power in the POKÉMON\l"
+	.string "world.$"
 
 
 
@@ -138,12 +141,12 @@ release
 end
 
 LavenderRadioP5_Text_11:
-.string "Siento cierto vacío, al saber que estoy\n"
-.string "en un lugar que para la mayoría no\l"
-.string "existe, este escritorio, todo lo que\l"
-.string "hay a mi alrededor, no existe sobre el\l"
-.string "papel, sin embargo, en el futuro dará\l"
-.string "forma a todo el mundo conocido.$"
+	.string "I feel a certain emptiness knowing that\n"
+	.string "I'm in a place that doesn't exist for\l"
+	.string "most people. This desk, everything\l"
+	.string "around me, doesn't exist on paper. Yet,\l"
+	.string "in the future, it will shape the entire\l"
+	.string "known world.$"
 
 
 
@@ -171,17 +174,16 @@ release
 end
 
 LavenderRadioP5_OndaToxica_Texto_2:
-.string "BOMBA LODO ya era potente, pero ONDA\n"
-	.string "TOXICA logra serlo incluso más.\l"
-	.string "Los nuevos tiempos, ¿no?$"
+	.string "SLUDGE BOMB was already powerful, but\n"
+	.string "SLUDGE WAVE manages to be even more.\l"
+	.string "New times, right?$"
 
 LavenderRadioP5_OndaToxica_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT93 ONDA\n"
-	.string "TOXICA de manos de científico!!$"
+.string "{PLAYER} obtained the TM93\n"
+	.string "SLUDGE WAVE from the scientist!!$"
 
 LavenderRadioP5_OndaToxica_Texto_1:
-.string "Este lugar optimiza un 5% todo lo que\n"
-	.string "conocíamos hasta ahora. Los\l"
-	.string "movimientos POKÉMON no son menos.\l"
-	.string "Mira.$"
+	.string "This place optimizes everything we knew\n"
+	.string "by 5%. POKÉMON moves are no exception.\l"
+	.string "Look.$"
 
