@@ -9,9 +9,9 @@ release
 end
 
 NeoLavandaPueblo_Text_1:
-.string "Menudo edificio, ¿eh? Aún así, la SEDE\n"
-.string "SILPH, y la antigua TORRE POKÉMON, son\l"
-.string "más altos.$"
+	.string "Quite a building, huh? Still, the SILPH\n"
+	.string "HEADQUARTERS and the old POKÉMON\l"
+	.string "TOWER are taller.$"
 
 
 
@@ -24,9 +24,9 @@ release
 end
 
 NeoLavandaPueblo_Text_2:
-.string "JOHTO nos lleva la delantera, sus\n"
-.string "programas de radio son muy buenos.\l"
-.string "¿Podrá KANTO hacerlo tan bien?$"
+	.string "JOHTO is ahead of us; their radio\n"
+	.string "programs are excellent. Can KANTO\l"
+	.string "match that level?$"
 
 
 
@@ -39,10 +39,9 @@ release
 end
 
 NeoLavandaPueblo_Text_3:
-.string "Los programas de radio que aquí se\n"
-.string "emitirán nos tienen a todos\l"
-.string "expectantes, ¿cómo lo harán en los\l"
-.string "pisos de arriba?$"
+	.string "The radio programs that will be\n"
+	.string "broadcasted here have us all intrigued.\l"
+	.string "How will they fare on the upper floors?$"
 
 
 
@@ -55,8 +54,9 @@ release
 end
 
 NeoLavandaPueblo_Text_4:
-.string "Viene gente de todas partes a rendir\n"
-.string "homenaje a las almas que han partido.$"
+	.string "People come from all over to pay their\n"
+	.string "respects to the departed souls of\l"
+	.string "POKÉMON.$"
 
 
 NeoLavandaPueblo_Combate_Eusine::
@@ -169,75 +169,76 @@ walk_in_place_right
 step_end
 
 NeoLavandaPueblo_Combate_Eusine_Texto_1:
-.string "EUSINE: Oh, {PLAYER}... Qué alegría\n"
-	.string "verte por aquí.$"
+	.string "EUSINE: Oh, {PLAYER}... What a\n"
+	.string "pleasure to see you here.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_2:
-.string "Vuestra organización es fascinante, en\n"
-	.string "serio… ya contábáis con clones de las\l"
-	.string "mismísimas BESTIAS SAGRADAS, el\l"
-	.string "trabajar con esa base, junto a mis\l"
-	.string "conocimientos, ha acelerado muchísimo\l"
-	.string "los márgenes.$"
+	.string "Your organization is fascinating,\n"
+	.string "really… you already had clones of the\l"
+	.string "very SACRED BEASTS, working with that\l"
+	.string "foundation, along with my expertise,\l"
+	.string "has greatly accelerated progress.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_3:
-.string "Me alegra haberos encontrado, estamos\n"
-	.string "cruzando fronteras que parecían\l"
-	.string "imposibles.$"
+	.string "I'm glad I found you; we're crossing\n"
+	.string "boundaries that seemed impossible.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_4:
-.string "Sé que no estás al tanto respecto a\n"
-	.string "estos avances. Lo tuyo es encargarte\l"
-	.string "de la pura acción, pero… ¡te pondré al\l"
-	.string "día!$"
+	.string "I know you're not up to speed on these\n"
+	.string "advancements. Your forte is handling\l"
+	.string "the pure action, but… I'll get you up to\l"
+	.string "date!$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_5:
-.string "No en vano derrotaste al GRAN MAESTRO…$"
+	.string "Not in vain… You defeated\n"
+	.string "the GRAND MASTER.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_6:
-.string "EUSINE: Así es, ya hemos logrado\n"
-	.string "extraer el potencial máximo a una de\l"
-	.string "las 3 BESTIAS SAGRADAS, y lo que es más\l"
-	.string "sorprendente: simular el fenómeno del\l"
-	.string "FUERTE VÍNCULO de forma artificial.\l"
-	.string "¿No es genial?$"
+	.string "EUSINE: That's right, we've already\n"
+	.string "managed to extract the maximum\l"
+	.string "potential from one of the 3 SACRED\l"
+	.string "BEASTS, and what's even more\l"
+	.string "surprising: simulate the phenomenon of\l"
+	.string "DEEP BOND artificially. Isn't it great?$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_7:
-.string "Aún así, no he podido derrotarte. Está\n"
-	.string "claro que hay algo sagrado, espiritual…\l"
-	.string "un halo que os rodea a ti y tu equipo,\l"
-	.string "creando un vínculo extremadamente\l"
-	.string "difícil de romper. Esa suerte de\l"
-	.string "esencia te protege, pero me pregunto\l"
-	.string "si es solo por la leyenda que te\l"
-	.string "alimenta, o si realmente caerías una\l"
-	.string "vez que nuestras mayores creaciones\l"
-	.string "estén completas…$"
+	.string "Nevertheless, I haven't been able to\n"
+	.string "defeat you. It's clear that there's\l"
+	.string "something sacred, spiritual… a halo\l"
+	.string "surrounding you and your team, creating\l"
+	.string "an extremely difficult bond to break.\l"
+	.string "That sort of essence protects you, but\l"
+	.string "I wonder if it's only because of the\l"
+	.string "legend that fuels you, or if you would\l"
+	.string "truly fall once our greatest creations\l"
+	.string "are complete…$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_8:
 .string "…$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_9:
-.string "Entonces… ¿crees que he abandonado\n"
-	.string "mis orígenes? ¿Ya no hay rastro de\l"
-	.string "esos antiguos POKÉMON que usé en mi\l"
-	.string "primer combate?$"
+	.string "Oh, so… Do you think that I have\n"
+	.string "forsaken my roots? Is there no longer\l"
+	.string "any trace of those ancient POKÉMON I\l"
+	.string "used in my initial battles?$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_10:
-.string "Mira a tu alrededor, {PLAYER}.$"
+.string "Look at your surroundings, {PLAYER}.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_11:
-.string "¿Qué había aquí hace apenas unos\n"
-	.string "meses? Exacto, la TORRE POKÉMON.$"
+	.string "What was here just a few months ago?\n"
+	.string "That's right, the POKÉMON TOWER.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_12:
-.string "Ese lugar ya no existe, ni existirá más.\n"
-	.string "Todo cambia, ahora está la TORRE RADIO.$"
+	.string "That place no longer exists, and won't\n"
+	.string "ever exist. Everything changes, now\l"
+	.string "there is the RADIO TOWER.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_13:
-.string "¿Quién no querría una súper BESTIA\n"
-	.string "SAGRADA de 690 STATS BASE, que deja en\l"
-	.string "pañales a los originales LUGIA y HO-OH?$"
+	.string "Who wouldn't want a super SACRED BEAST\n"
+	.string "with 690 BASE STATS, which makes the\l"
+	.string "original LUGIA and HO-OH look like\l"
+	.string "amateurs?$"
 
 
 NeoLavandaPueblo_Primer_Cartel::
@@ -246,7 +247,7 @@ release
 end
 
 NeoLavandaPueblo_Primer_Cartel_Texto_1:
-.string "CEMENTERIO de PUEBLO LAVANDA$"
+.string "LAVENDER TOWN SOUL HOUSE$"
 
 
 NeoLavandaPueblo_Segundo_Cartel::
@@ -255,7 +256,7 @@ release
 end
 
 NeoLavandaPueblo_Segundo_Cartel_Texto_1:
-.string "TORRE RADIO LAVANDA$"
+.string "LAVENDER RADIO TOWER$"
 
 NeoLavandaPueblo_Policia::
 compare VAR_ROUTE105_STATE, 6
@@ -358,9 +359,9 @@ release
 end
 
 NeoLavandaPueblo_Policía_Texto_1.1:
-.string "¿Cómo va el asalto a la VÍA\n"
-	.string "SUBTERRÁNEA, señor? Cuente con\l"
-	.string "nosotros para todo lo que necesite.$"
+	.string "How's going the assault on the\n"
+	.string "UNDERGROUND PATH, sir? You can count\l"
+	.string "on us for anything you need.$"
 
 NeoLavandaPueblo_Policia_Move_15:
 walk_left
@@ -474,40 +475,42 @@ face_up
 step_end
 
 NeoLavandaPueblo_Policía_Texto_1:
-.string "Lo sentimos, señor. A la torre radio le\n"
-	.string "quedan unos últimos retoques antes de\l"
-	.string "ser abierta de forma definitiva, ¿por\l"
-	.string "qué no visita el CEM…?$"
+	.string "We apologize, sir. The radio tower just\n"
+	.string "needs a few final touches before it's\l"
+	.string "opened permanently. Why not visit the\l"
+	.string "CEM…?$"
 
 NeoLavandaPueblo_Policía_Texto_2:
-.string "????: ¡Necesitamos refuerzos!$"
+.string "????: We need reinforcements!$"
 
 NeoLavandaPueblo_Policía_Texto_3:
-.string "¡¿Qué ocurre?!$"
+.string "What's happening?!$"
 
 NeoLavandaPueblo_Policía_Texto_4:
-.string "El desalojo de la VIA SUBTERRANEA, todo\n"
-	.string "ha salido mal.$"
+	.string "The evacuation of the UNDERGROUND\n"
+	.string "PATH, everything has gone wrong.$"
 
 NeoLavandaPueblo_Policía_Texto_5:
-.string "¡Eso no puede ser!$"
+.string "That cannot be!$"
 
 NeoLavandaPueblo_Policía_Texto_6:
-.string "Los MOTORISTAS… se han atrincherado\n"
-	.string "dentro, han reabierto los extensos\l"
-	.string "túneles que sirvieron de refugio\l"
-	.string "durante la guerra… ¡y no hay forma de\l"
-	.string "sacarles de ahí!$"
+	.string "The BIKERS… they've barricaded\n"
+	.string "themselves inside, reopening the\l"
+	.string "extensive tunnels that served as\l"
+	.string "shelters during the war… and there's no\l"
+	.string "way to get them out of there!$"
 
 NeoLavandaPueblo_Policía_Texto_7:
-.string "Acordamos con los altos cargos de\n"
-	.string "JOHTO tener todo cerrado antes de la\l"
-	.string "inauguración de la TORRE RADIO\l"
-	.string "LAVANDA. Esto es inadmisible.$"
+	.string "We agreed with the high-ranking\n"
+	.string "officials of JOHTO to have everything\l"
+	.string "closed before the inauguration of the\l"
+	.string "LAVENDER RADIO TOWER. This is\l"
+	.string "unacceptable.$"
 
 NeoLavandaPueblo_Policía_Texto_8:
-.string "¡Llama a la SEDE SILPH! ¡Qué te pongan\n"
-	.string "con el PRESIDENTE, exigimos refuerz…!$"
+	.string "Call to SILPH HEADQUARTERS! That they\n"
+	.string "communicate you with the PRESIDENT, we\l"
+	.string "need reinf…!$"
 
 NeoLavandaPueblo_Policía_Texto_9:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
@@ -516,26 +519,27 @@ NeoLavandaPueblo_Policía_Texto_11:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaPueblo_Policía_Texto_12:
-.string "Oh… Usted… Señor…$"
+.string "Oh… You… Sir…$"
 
 NeoLavandaPueblo_Policía_Texto_13:
-.string "Ya veo, quiere encargarse\n"
-	.string "personalmente de ello, después de todo\l"
-	.string "los MOTORISTAS han sido aliados del\l"
-	.string "TEAM ROCKET desde sus inicios.$"
+	.string "I see, you want to take care of it\n"
+	.string "personally, considering the BIKERS\l"
+	.string "have been allies of TEAM ROCKET from\l"
+	.string "the start.$"
 
 NeoLavandaPueblo_Policía_Texto_14:
-.string "Confiamos en usted para que resuelva\n"
-	.string "esto de la mejor manera posible.$"
+	.string "We trust you to resolve this in the best\n"
+	.string "possible way.$"
 
 NeoLavandaPueblo_Policía_Texto_15:
-.string "Venga conmigo, ADMIN.JEFE {PLAYER}.$"
+.string "Come with me, CHIEF ADMIN. {PLAYER}.$"
 
 NeoLavandaPueblo_Policía_Texto_16:
-.string "No tiene pérdida, debe haber pasado por\n"
-	.string "ahí varias veces en sus inicios como\l"
-	.string "ROCKET, la VÍA SUBTERRÁNEA está un\l"
-	.string "poco más al oeste, le espero allí.$"
+	.string "You can't miss it, you must have passed\n"
+	.string "by there several times in your early\l"
+	.string "days as a ROCKET GRUNT, the\l"
+	.string "UNDERGROUND PATH is a bit further west,\l"
+	.string "I'll meet you there.$"
 
 NeoLavandaPueblo_Segundo_Policia::
 lock
@@ -545,12 +549,12 @@ release
 end
 
 NeoLavandaPueblo_Segundo_Policia_Texto_1:
-.string "Perdone señor, la TORRE RADIO LAVANDA\n"
-	.string "se encuentra aún en etapas tempranas\l"
-	.string "de construcción. No tardaremos mucho,\l"
-	.string "puesto que se hará en tiempo récord,\l"
-	.string "pero tendrá que esperar un poco para\l"
-	.string "entrar.$"
+	.string "Apologize, sir, but the LAVENDER RADIO\n"
+	.string "TOWER is still in the early stages of\l"
+	.string "construction. We won't be long since\l"
+	.string "it's being built at a record pace, but\l"
+	.string "you'll have to wait a bit longer to\l"
+	.string "enter.$"
 
 NeoLavandaPueblo_Prueba::
 lock

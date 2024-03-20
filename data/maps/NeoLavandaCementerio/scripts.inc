@@ -18,10 +18,10 @@ release
 end
 
 NeoLavandaCementerio_Text_1:
-.string "Creo que aquí hay otras tumbas de\n"
-.string "POKÉMON. Hay muchas cámaras en las que\l"
-.string "solo el SR.FUJI y antiguos miembros de\l"
-.string "PUEBLO LAVANDA pueden entrar.$"
+	.string "I think there are other POKÉMON graves\n"
+	.string "here. There are many chambers that only\l"
+	.string "MR.FUJI and former LAVENDER TOWN\l"
+	.string "residents can enter.$"
 
 
 
@@ -34,8 +34,8 @@ release
 end
 
 NeoLavandaCementerio_Text_2:
-.string "He venido a rendir homenaje a las\n"
-.string "tumbas de los POKÉMON.$"
+	.string "I've come to pay homage to the POKÉMON\n"
+	.string "graves.$"
 
 
 
@@ -48,8 +48,8 @@ release
 end
 
 NeoLavandaCementerio_Text_3:
-.string "A los POKÉMON que vivían conmigo… los\n"
-.string "quería como a mis nietos.$"
+	.string "To the POKÉMON that lived with me… I\n"
+	.string "loved them like my grandchildren.$"
 
 
 NeoLavandaCementerio_Dialogo_Fuji::
@@ -88,41 +88,43 @@ step_end
 
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_1:
-.string "FUJI: Si algo bueno tiene PUEBLO\n"
-	.string "LAVANDA, es que es tan pequeño que\l"
-	.string "todo está al lado, ¿no crees?$"
+	.string "FUJI: If there's one good thing about\n"
+	.string "LAVENDER TOWN, it's that it's so small\l"
+	.string "that everything is nearby, don't you\l"
+	.string "think?$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_2:
-.string "Debo decirte que estoy muy contento\n"
-	.string "con el resultado final del CEMENTERIO,\l"
-	.string "todas las almas han sido trasladadas\l"
-	.string "con éxito, el problema es que…$"
+	.string "I must say I'm very pleased with the\n"
+	.string "final outcome of the CEMETERY, all the\l"
+	.string "souls have been successfully moved.\l"
+	.string "The problem is…$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_3:
-.string "Parece que no todas han visto con\n"
-	.string "buenos ojos el cambio de aires. Siguen\l"
-	.string "apegadas a la antigua TORRE POKÉMON.$"
+	.string "It seems that not all of them have\n"
+	.string "taken kindly to the change of scenery.\l"
+	.string "They're still attached to the old\l"
+	.string "POKÉMON TOWER.$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_4:
-.string "Tal vez tú puedas calmarla, ya viviste\n"
-	.string "algo parecido en RUINAS ALFA, ¿no? La\l"
-	.string "energía que aquí se ha manifestado es\l"
-	.string "muy poderosa.$"
+	.string "Perhaps you can calm it, you\n"
+	.string "experienced something similar in the\l"
+	.string "RUINS OF ALPH, didn't you? The energy\l"
+	.string "manifested here is very powerful.$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_5:
 .string "…$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_6:
-.string "Observa, si interactúas con el\n"
-	.string "ordenador podrás acceder a los pisos\l"
-	.string "inferiores del CEMENTERIO. ¿Dónde iban\l"
-	.string "a estar el resto de tumbas si no?$"
+	.string "Look, if you interact with the computer\n"
+	.string "you'll be able to access the lower floors\l"
+	.string "of the CEMETERY. Where else would the\l"
+	.string "rest of the graves be?$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_7:
-.string "Te espero abajo, {PLAYER}. Búscame en\n"
-	.string "el S2, estaré con la secretaria de esa\l"
-	.string "planta, allí es donde está el foco de\l"
-	.string "energía.$"
+	.string "I'll wait for you downstairs, {PLAYER}.\n"
+	.string "Look for me on B2F, I'll be with the\l"
+	.string "secretary of that floor; that's where\l"
+	.string "the energy focus is.$"
 
 Cementerio_PC::
 compare VAR_UNUSED_0x40F7, 207
@@ -164,9 +166,9 @@ release
 end
 
 NeoLavandaCementerio_Fuji_Texto_1:
-.string "Puedes volver a entrar al CEMENTERIO\n"
-	.string "cuando quieras, {PLAYER}. Aunque ya\l"
-	.string "no será lo mismo, la nueva cara visible\l"
-	.string "es TORRE RADIO, para los que lleguen de\l"
-	.string "fuera, este lugar y sus pisos\l"
-	.string "subterráneos no existen.$"
+	.string "You can come back to the CEMETERY\n"
+	.string "whenever you want, {PLAYER}.\l"
+	.string "Although it won't be the same anymore,\l"
+	.string "the new face is RADIO TOWER; for those\l"
+	.string "who come from outside, this place and\l"
+	.string "its underground floors don't exist.$"

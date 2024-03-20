@@ -34,16 +34,15 @@ release
 end
 
 UndergroundPath_7F_Activacion_Zona_Sur_2_Texto_3:
-.string "(Parece que esta barrera puede\n"
-	.string "desactivarse usando algún tipo de\l"
-	.string "llave)$"
+	.string "(It seems this barrier can be\n"
+	.string "deactivated using some kind of key.)$"
 
 UndergroundPath_7F_Activacion_Zona_Sur_2_Texto_1:
-.string "Esta barrera puede desactivarse\n"
-	.string "usando la LLAVE CABINA SUR.$"
+	.string "This barrier can be deactivated using\n"
+	.string "the SOUTH CABIN KEY.$"
 
 UndergroundPath_7F_Activacion_Zona_Sur_2_Texto_2:
-.string "¿Quieres desactivar la barrera?$"
+.string "Do you want to deactivate the barrier?$"
 
 UndergroundPath_7F_Motero_Llave::
 lock
@@ -96,29 +95,28 @@ release
 end
 
 UndergroundPath_7F_Cajas_Texto_5:
-.string "¡¡OBTUVISTE LA LLAVE CABINA SUR!!$"
+.string "YOU OBTAINED THE SOUTH CABIN KEY!!$"
 
 UndergroundPath_7F_Cajas_Texto_4:
-.string "¡¡OBTUVISTE LA MT106 PUÑO INCREMENTO!!$"
+.string "YOU OBTAINED TM106 POWER-UP PUNCH!!$"
 
 UndergroundPath_7F_Cajas_Texto_3:
-.string "¡¡OBTUVISTE UN TEPIG AL Nv.15!!$"
+.string "YOU OBTAINED A LV.15 TEPIG!!$"
 
 UndergroundPath_7F_Cajas_Texto_2:
-.string "(En esta CAJA quedan varios objetos\n"
-	.string "valiosos).$"
+	.string "(In this BOX, there are several valuable\n"
+	.string "items).$"
 
 UndergroundPath_7F_Cajas_Texto_1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Motero_Llave_Texto_1:
-.string "¿Ves esas cajas? Es lo que queda del\n"
-	.string "antiguo mercado negro. Estas aún\l"
-	.string "tenían varios objetos de valor en su\l"
-	.string "interior, al noreste de aquí creo\l"
-	.string "recordar que había otro mercado negro,\l"
-	.string "pero me da un palo ir hasta allí para\l"
-	.string "examinar las cajas...$"
+	.string "Do you see those boxes? That's what's\n"
+	.string "left of the old black market. These\l"
+	.string "still had several valuable items inside.\l"
+	.string "I believe there was another black\l"
+	.string "market northeast of here, but I am too\l"
+	.string "lazy to go there to inspect the boxes…$"
 
 
 
@@ -274,89 +272,90 @@ walk_up
 step_end
 
 UndergroundPath_7F_Combates_Motoristas_Texto_1:
-.string "¡Jah! ¿Otro POLICÍA más? ¿Aún no\n"
-	.string "habéis tenido suficiente? ¡No nos\l"
-	.string "moveremos de aqu…!$"
+	.string "Hah! Another POLICE, huh? Haven't you\n"
+	.string "had enough yet? We won't move from h…$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_3:
-.string "¡Es el ADMIN.JEFE {PLAYER}!$"
+.string "It's the CHIEF ADMIN. {PLAYER}!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_4:
-.string "No… no esperábamos verle por aquí.$"
+.string "We… we didn't expect to see you here.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_5:
-.string "Escuche… los MOTORISTAS le respetamos\n"
-	.string "mucho por lo que hizo al derrotar a\l"
-	.string "LANCE. Pero hablando claro, las últimas\l"
-	.string "decisiones que ha tomado el TEAM\l"
-	.string "ROCKET respecto a KANTO son un asco.$"
+	.string "Listen, sir… the BIKERS, we respect you\n"
+	.string "a lot for what you did by defeating\l"
+	.string "LANCE. But to be honest, the recent\l"
+	.string "decisions made by TEAM ROCKET\l"
+	.string "regarding KANTO are disgusting.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_6:
-.string "Se suponía que volveríamos a la KANTO\n"
-	.string "pre-guerra, no a convertirla en la\l"
-	.string "nueva potencia tecnológica.$"
+	.string "The plan was to return to pre-war\n"
+	.string "KANTO, not turn it into a new\l"
+	.string "technological powerhouse.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_7:
-.string "Le pido que se mantenga al margen, sé\n"
-	.string "que no es decisión suya el cerrar la\l"
-	.string "VÍA.$"
+	.string "I ask you gently to stay at the margin,\n"
+	.string "I know that is not your decision to\l"
+	.string "close the UNDERGROUND PATHS.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_8:
-.string "¿Decides irte?$"
+.string "Do you decide to leave?$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_9:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_10:
-.string "Entonces… No nos queda más remedio que\n"
-	.string "abatirle entre los 4, tal y como hemos\l"
-	.string "hecho con el resto de POLICÍAS.$"
+	.string "So… We have no choice but to take you\n"
+	.string "down, the four of us, just like we've\l"
+	.string "done with the other POLICE.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_11:
-.string "¡En guardia!$"
+.string "On guard!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_12:
-.string "Era esperable…$"
+.string "I expected it…$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_13:
-.string "No vamos a tener contemplaciones, ¡es\n"
-	.string "imposible sobrevivir a tantos WEEZING!$"
+	.string "We're not going to show mercy, surviving\n"
+	.string "so many WEEZING is impossible!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_14:
-.string "Pse… creí que podría hacer algo más.$"
+	.string "Grr… I thought I could have done\n"
+	.string "something else.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_15:
-.string "Hace honor a su fama, pero ya va\n"
-	.string "notando el cansancio, ¿no?$"
+	.string "You're proving your reputation, but can\n"
+	.string "you sense the fatigue setting in?$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_16:
-.string "Parece que no…$"
+.string "Apparently not…$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_17:
-.string "Se acabó, lo siento ADMIN.JEFE. Debo\n"
-	.string "rematarle e impedir que entre en los\l"
-	.string "refugios de guerra, ¡no puedo fallar!$"
+	.string "It's over, I'm sorry CHIEF ADMIN. I have\n"
+	.string "to finish you off and prevent you from\l"
+	.string "entering the war shelters. I can't fail!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_18:
-.string "¡Fallé!$"
+.string "I failed!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_19:
-.string "Maldición… Era de esperar que alguien\n"
-	.string "que derrotó a las BESTIAS de JOHTO y a\l"
-	.string "los 3 DRAGONITE pudiera con nosotros\l"
-	.string "cuatro…$"
+	.string "Damn it… It was to be expected that\n"
+	.string "someone who defeated the JOHTO\l"
+	.string "LEGENDARY BEASTS and the three\l"
+	.string "DRAGONITE could handle all four of us…$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_20:
-.string "Pero este lugar es un inmenso laberinto,\n"
-	.string "sirvieron de refugio para toda KANTO,\l"
-	.string "en los años de la guerra.$"
+	.string "But this place is an immense labyrinth,\n"
+	.string "serving as refuge for all of KANTO\l"
+	.string "during the war years.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_21:
-.string "¡Jamás podrás echarnos a todos si no\n"
-	.string "conoces el lugar de antemano!$"
+	.string "You'll never be able to kick all of us\n"
+	.string "out if you don't know the place\l"
+	.string "beforehand!$"
 
 UndergroundPath_7F_Primer_Motorista::
 lock
@@ -380,9 +379,9 @@ release
 end
 
 UndergroundPath_7F_Tercer_Motorista_Texto_1:
-.string "Este lugar es un inmenso laberinto, que\n"
-	.string "sirvió de refugio para toda KANTO,\l"
-	.string "en los años de la guerra.$"
+	.string "This place is an immense labyrinth,\n"
+	.string "serving as refuge for all of KANTO\l"
+	.string "during the war years.$"
 
 UndergroundPath_7F_Cuarto_Motorista::
 lock
@@ -392,8 +391,8 @@ release
 end
 
 UndergroundPath_7F_Cuarto_Motorista_Texto_1:
-.string "¿Te pondrás de nuestro lado, o solo\n"
-	.string "cumplirás órdenes?$"
+	.string "Will you join our side, or will you just\n"
+	.string "follow orders?$"
 
 UndergroundPath_7F_EventScript_Primer_Motero::
 	trainerbattle_single TRAINER_TRAINER_201, UndergroundPath_7F_Text_Primer_MoteroIntro, UndergroundPath_7F_Text_Primer_MoteroDefeated
@@ -632,140 +631,138 @@ step_end
 
 
 UndergroundPath_7F_Combate_LtSurge_Texto_1:
-.string "????: ¿De verdad crees estar en el\n"
-	.string "bando correcto, {PLAYER}?$"
+	.string "????: Do you truly believe you're\n"
+	.string "fighting for the right cause,\l"
+	.string "{PLAYER}?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_2:
-.string "LT.SURGE: Yo lo estoy, según mis propios\n"
-	.string "términos. ¿Lo estás tú según los\l"
-	.string "tuyos?$"
+	.string "LT.SURGE: I am, according to my own\n"
+	.string "terms. Are you, according to yours?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_3:
-.string "¿Tanto te sorprende verme aquí?$"
+.string "Are you so surprised to see me here?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_4:
-.string "Si te digo la verdad, después de la\n"
-	.string "caída de LANCE, todo en KANTO se\l"
-	.string "volvió más aburrido. Incluso lamenté la\l"
-	.string "compasión que mostró GIOVANNI, lejos\l"
-	.string "de tomar represalias, jamás reclamó mi\l"
-	.string "cese como LÍDER en CIUDAD CARMÍN.$"
+	.string "Honestly, after LANCE's fall,\n"
+	.string "everything in KANTO became more boring.\l"
+	.string "I even regretted the compassion\l"
+	.string "GIOVANNI showed; far from retaliating,\l"
+	.string "he never demanded my removal as the\l"
+	.string "LEADER in VERMILION CITY.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_5:
-.string "Honestamente, hubiera preferido acabar\n"
-	.string "entre rejas a ser partícipe de la\l"
-	.string "anodina etapa de transición en KANTO,\l"
-	.string "esa vida no es para mí.$"
+	.string "To be honest, I'd have rather ended up\n"
+	.string "in jail than be part of the bland\l"
+	.string "transition phase in KANTO; that\l"
+	.string "lifestyle isn't my cup of tea.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_5.1:
-	.string "Después de todo, el guerrero vive para\n"
-	.string "la guerra, ¿no? Alguien como tú seguro\l"
-	.string "que lo entiende.$"
+	.string "In the end, a fighter lives for battle,\n"
+	.string "right? Someone like you must surely\l"
+	.string "understand.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_6:
-.string "Por suerte…el propósito de estos\n"
-	.string "MOTORISTAS volvió a prender esa chispa\l"
-	.string "bélica que siempre tuve.$"
+	.string "Fortunately… the mission of these\n"
+	.string "BIKERS reignited that warlike spark\l"
+	.string "I've always had.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_7:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_8:
-.string "He de admitir que los habitantes de\n"
-	.string "KANTO son aguerridos y tenaces,\l"
-	.string "construir semejante red subterránea…\l"
-	.string "aquí debió refugiarse media KANTO\l"
-	.string "durante la guerra. Puedes imaginarte lo\l"
-	.string "que hubiera ocurrido de haber contado\l"
-	.string "con esta información hace unos años.$"
+	.string "I must admit, the people of KANTO are\n"
+	.string "resilient and tenacious; building such\l"
+	.string "an underground network… half of KANTO\l"
+	.string "must have taken refuge here during the\l"
+	.string "war. You can imagine what would have\l"
+	.string "happened if we had this information a\l"
+	.string "few years ago.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_9:
-.string "Pero los tiempos han cambiado, ahora\n"
-	.string "soy yo el que defiende este lugar, y el\l"
-	.string "supuesto -salvador- de KANTO, el que\l"
-	.string "pretende acabar con él. Qué ironía,\l"
-	.string "¿no?$"
+	.string "However, times have changed; now it's me\n"
+	.string "who defends this place, while the\l"
+	.string "supposed -savior- of KANTO aims to\l"
+	.string "destroy it. How ironic, don't you think?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_10:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_11:
-.string "Jah, ¿derrotarme fácilmente?$"
+.string "Hah, defeat me so easily?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_12:
-.string "No estamos en un combate homologado,\n"
-	.string "CAMPEÓN… esto…$"
+	.string "We're not in a regulated fight,\n"
+	.string "CHAMPION… this…$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_13:
-.string "(LT.SURGE soltó numerosos POKÉMON\n"
-	.string "explosivos)$"
+	.string "(LT. SURGE released several explosive\n"
+	.string "POKÉMON).$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_14:
-.string "¡Es una guerra de guerrillas!$"
+.string "It's a guerrilla-style war!$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_15:
 .string "…$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_16:
-.string "¿Qué te ha parecido esa pequeña\n"
-	.string "escaramuza? Ahora…$"
+	.string "What did you think of that little\n"
+	.string "skirmish? Now…$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_17:
-.string "¡Empieza la guerra de verdad!$"
+	.string "Let's start the real war!$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_18:
-.string "Perdí la batalla y… ¿la guerra?$"
+.string "I lost the battle and… the war?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_18.1:
-.string "¿Cómo puede ser? Cuando mi fiel RAICHU\n"
-	.string "reaccionó a esa nueva PIEDRA\l"
-	.string "desarrollada por vosotros, creí que al\l"
-	.string "fin podría hacerte caer. Pero ni eso ni\l"
-	.string "mis explosivos han sido suficiente.$"
+	.string "How is this possible? When my faithful\n"
+	.string "RAICHU responded to that new STONE\l"
+	.string "developed by you, I thought I could\l"
+	.string "finally defeat you. But neither that\l"
+	.string "nor my explosives have been sufficient.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_19:
-.string "Grrrr… parece que te has vuelto aún\n"
-	.string "mejor ENTRENADOR, no me dejas\l"
-	.string "elección.$"
+	.string "Grrr… it seems you've become an even\n"
+	.string "better TRAINER, you leave me no choice.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_20:
-.string "Por algo me han contratado, {PLAYER}.\n"
-	.string "Podrás ganarme en un combate POKÉMON,\l"
-	.string "pero aquí dentro estoy en mi hábitat.\l"
-	.string "Sin la llave, jamás podrás entrar.$"
+	.string "There's a reason they hired me,\n"
+	.string "{PLAYER}. You may beat me in a\l"
+	.string "POKÉMON battle, but here, I'm in my\l"
+	.string "element. Without the key, you'll never\l"
+	.string "enter.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_21:
-.string "Ahora, tendrás que disculparme,\n"
-	.string "debemos seguir trazando el plan de\l"
-	.string "acción. Mientras, puedes seguir\l"
-	.string "deambulando por los refugios si así lo\l"
-	.string "deseas.$"
+	.string "Now, you'll have to excuse me, we must\n"
+	.string "continue mapping out the action plan.\l"
+	.string "In the meantime, feel free to continue\l"
+	.string "wandering through the refuge if you\l"
+	.string "wish.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_22:
-.string "ANDRA: ¿¡{PLAYER}!? El POLICÍA de\n"
-	.string "PUEBLO LAVANDA acaba de contarme\l"
-	.string "todo.$"
+	.string "ANDRA: {PLAYER}!? The POLICEMAN from\n"
+	.string "LAVENDER TOWN just told me everything.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_23:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_24:
-.string "¿De verdad estás ya dentro?$"
+.string "Are you really inside already?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_25:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_26:
-.string "Ese SURGE… Escucha, {PLAYER}. Debe\n"
-	.string "haber alguna LLAVE, puede que alguno\l"
-	.string "de los MOTORISTAS tenga una… o sepa\l"
-	.string "algo. Si fuera tú, hablaría con todos e\l"
-	.string "intentaría sacarles algo.$"
+	.string "That SURGE… Listen, {PLAYER}. There\n"
+	.string "must be a KEY somewhere, perhaps one of\l"
+	.string "the BIKERS has it… or knows something.\l"
+	.string "If I were you, I'd talk to everyone and\l"
+	.string "try to get something out of them.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_27:
-.string "Sea como sea, sigue resistiendo. Yo\n"
-	.string "llegaré pronto, y llegaremos al fondo\l"
-	.string "de todo este asunto.$"
+	.string "Either way, keep fighting. I'll be there\n"
+	.string "soon, and we'll see what's happening\l"
+	.string "there.$"
 
 UndergroundPath_7F_Escena_Final::
 applymovement OBJ_EVENT_ID_PLAYER, UndergroundPath_7F_Escena_Final_Move_1
@@ -1244,381 +1241,373 @@ walk_in_place_up
 step_end
 
 UndergroundPath_7F_Escena_Final_Texto_1:
-.string "LT.SURGE: ¿Cómo es posible?$"
+.string "LT.SURGE: How is this possible?$"
 
 UndergroundPath_7F_Escena_Final_Texto_2:
-.string "Esos incompetentes, ya les ordené que\n"
-	.string "se deshicieran de todas las llaves.\l"
-	.string "Errores como estos son los que\l"
-	.string "declinan la balanza.$"
+	.string "Those incompetents, I already ordered\n"
+	.string "them to get rid of all the keys.\l"
+	.string "Mistakes like these are what tip the\l"
+	.string "scales.$"
 
 UndergroundPath_7F_Escena_Final_Texto_3:
-.string "Pero no esta vez, puede que hayas\n"
-	.string "podido conmigo y mis explosivos, o con\l"
-	.string "esos 3 infelices, ¡pero no con 2 más\l"
-	.string "como y…!$"
+	.string "But not this time, you may have bested\n"
+	.string "me and my explosives, or those 3 poor\l"
+	.string "sods, but not 2 more like m...!$"
 
 UndergroundPath_7F_Escena_Final_Texto_4:
-.string "????: ¡Ya basta, SURGE! No podemos\n"
-	.string "ocultarlo más, que pase.$"
+	.string "????: Stop, SURGE! We can't hide this\n"
+	.string "anymore, let him pass.$"
 
 UndergroundPath_7F_Escena_Final_Texto_5:
-.string "LT.SURGE: Jah, la pregunta es, ¿qué\n"
-	.string "harás ahora, {PLAYER}?$"
+	.string "LT.SURGE: Hah, the question is, what are\n"
+	.string "you going to do now, {PLAYER}?$"
 
 UndergroundPath_7F_Escena_Final_Texto_6:
-.string "PETREL: Así es, {PLAYER}. KOGA y yo\n"
-	.string "estamos al mando de esta rebelión.$"
+	.string "PETREL: Indeed, {PLAYER}. KOGA and I\n"
+	.string "are in charge of this rebellion.$"
 
 UndergroundPath_7F_Escena_Final_Texto_7:
-.string "KOGA: Siempre hemos sido fieles al TEAM\n"
-	.string "ROCKET, {PLAYER}. Pero no podemos\l"
-	.string "permanecer de brazos cruzados ante\l"
-	.string "esta situación. Las cosas están\l"
-	.string "cambiando demasiado rápido en nuestra\l"
-	.string "región.$"
+	.string "KOGA: We've always been loyal to TEAM\n"
+	.string "ROCKET, {PLAYER}. But we can't stand\l"
+	.string "idly by in this situation. Things are\l"
+	.string "changing too fast in our region.$"
 
 UndergroundPath_7F_Escena_Final_Texto_8:
-.string "PETREL: No soy ADMIN.JEFE para saber\n"
-	.string "todo lo que habéis estado hablando en\l"
-	.string "esas reuniones de TRIGAL. Pero en el\l"
-	.string "lapso de un año, KANTO se ha convertido\l"
-	.string "en un solar: TORRE POKÉMON demolida,\l"
-	.string "SILPH cerrada, ZONA SAFARI cerrada, y\l"
-	.string "ahora, las VÍAS SUBTERRÁNEAS cerradas\l"
-	.string "también.$"
+	.string "PETREL: I'm not a CHIEF ADMIN. to know\n"
+	.string "everything that's been discussed in\l"
+	.string "those GOLDENROD meetings. But in the\l"
+	.string "span of a year, KANTO has turned into a\l"
+	.string "wasteland: POKÉMON TOWER demolished,\l"
+	.string "SILPH closed, SAFARI ZONE closed, and\l"
+	.string "now, the UNDERGROUND PATHS closed as\l"
+	.string "well.$"
 
 UndergroundPath_7F_Escena_Final_Texto_9:
-.string "KOGA: Todo el que venga de fuera\n"
-	.string "pensará que esta es una región vacía,\l"
-	.string "y sin embargo, estamos en plena etapa\l"
-	.string "de apertura al mundo.$"
+	.string "KOGA: Anyone coming from outside will\n"
+	.string "think this is an empty region, and yet,\l"
+	.string "we're in the midst of opening up to the\l"
+	.string "world.$"
 
 UndergroundPath_7F_Escena_Final_Texto_10:
-.string "LT.SURGE: Comercio, KOGA, apertura\n"
-	.string "comercial. Ya os lo dije, KANTO ahora\l"
-	.string "servirá para hacer negocios con otras\l"
-	.string "regiones. ¡Olvidaos de sus lugares\l"
-	.string "icónicos! ¡O desaparecerán o no podrán\l"
-	.string "visitarse!$"
+	.string "LT.SURGE: Commerce, KOGA, commercial\n"
+	.string "opening. I told you before, KANTO will\l"
+	.string "now serve to do business with other\l"
+	.string "regions. Forget about its iconic places!\l"
+	.string "They'll either disappear or won't be\l"
+	.string "visitable!$"
 
 UndergroundPath_7F_Escena_Final_Texto_65:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Escena_Final_Texto_66:
-.string "LT.SURGE: ¿Hablar a solas con PETREL?\n"
-	.string "¿¡Estás bromeando!?$"
+	.string "LT.SURGE: Having a private\n"
+	.string "conversation with PETREL? Are you\l"
+	.string "kidding!?$"
 
 UndergroundPath_7F_Escena_Final_Texto_67:
-.string "¡Jah! ¿Qué te has creído chico? Las\n"
-	.string "condiciones aquí las ponemos\l"
-	.string "nosotros, no vas a volver a campar a\l"
-	.string "tus anch…$"
+	.string "Hah! Who do you think you are, kid? We\n"
+	.string "call the shots here, you're not going to\l"
+	.string "walk around as you please anymo…$"
 
 UndergroundPath_7F_Escena_Final_Texto_68:
-.string "PETREL: ¡SURGE!$"
+.string "PETREL: SURGE!$"
 
 UndergroundPath_7F_Escena_Final_Texto_69:
-.string "Está bien, {PLAYER} ahora mismo está\n"
-	.string "confuso. Ambos somos miembros del TEAM\l"
-	.string "ROCKET y merece una explicación en\l"
-	.string "privado.$"
+	.string "Alright, {PLAYER} is currently\n"
+	.string "confused. We're both members of TEAM\l"
+	.string "ROCKET, and he deserves an explanation\l"
+	.string "in private.$"
 
 UndergroundPath_7F_Escena_Final_Texto_70:
-	.string "KOGA: No intentará nada, {PLAYER} ha\n"
-	.string "demostrado ser un hombre de palabra.\l"
-	.string "SURGE y yo saldremos, tomaos el tiempo\l"
-	.string "que consideréis.$"
+	.string "KOGA: He won't attempt anything,\n"
+	.string "{PLAYER} has shown to be\l"
+	.string "trustworthy. SURGE and I will leave,\l"
+	.string "take all the time you need.$"
 
 UndergroundPath_7F_Escena_Final_Texto_71:
 	.string "LT.SURGE: …$"
 
 UndergroundPath_7F_Escena_Final_Texto_11:
-.string "PETREL: Escucha, {PLAYER}. Que KANTO\n"
-	.string "esté vacía o no, eso no es lo\l"
-	.string "verdaderamente importante, he sido\l"
-	.string "testigo de la tendencia que lleva\l"
-	.string "nuestra organización desde que\l"
-	.string "derrotaras a LANCE.$"
+	.string "PETREL: Listen, {PLAYER}. Whether\n"
+	.string "KANTO is empty or not, that's not the\l"
+	.string "truly important thing. I've witnessed\l"
+	.string "the trend our organization has taken\l"
+	.string "since you defeated LANCE.$"
 
 UndergroundPath_7F_Escena_Final_Texto_72:
-	.string "El TEAM ROCKET se ha masificado. Ahora\n"
-	.string "tenemos sucursales en varias regiones,\l"
-	.string "incontables bases secretas, nuevos\l"
-	.string "contactos… Pero…$"
+	.string "TEAM ROCKET has expanded massively.\n"
+	.string "Now we have branches in several\l"
+	.string "regions, countless secret bases, new\l"
+	.string "contacts… But…$"
 
 UndergroundPath_7F_Escena_Final_Texto_12:
-.string "Temo por el hecho de que esta\n"
-	.string "masificación nos haga abandonar\l"
-	.string "nuestros ideales, y olvidar de dónde\l"
-	.string "venimos. La forma en la que se trató el\l"
-	.string "tema de los MOTORISTAS, quienes nos\l"
-	.string "apoyaron cuando peor estábamos, me\l"
-	.string "hizo replantearme muchas cosas.$"
+	.string "I'm afraid this expansion might lead us\n"
+	.string "to abandon our ideals and forget where\l"
+	.string "we come from. The way the issue of the\l"
+	.string "BIKERS was handled, those who\l"
+	.string "supported us when we were at our worst,\l"
+	.string "made me reconsider many things.$"
 
 UndergroundPath_7F_Escena_Final_Texto_13:
-.string "Es cierto que GIOVANNI tiene mil cosas\n"
-	.string "en la cabeza, y no le dio la importancia\l"
-	.string "que en otra situación hubiera tenido…$"
+	.string "It's true that GIOVANNI has a thousand\n"
+	.string "things in his mind, and he didn't give it\l"
+	.string "the importance that he normally would…$"
 
 UndergroundPath_7F_Escena_Final_Texto_14:
-.string "PETREL: Y para eso estamos nosotros,\n"
-	.string "{PLAYER}. Aguantando aquí, haremos\l"
-	.string "que nos escuche, los MOTORISTAS\l"
-	.string "merecen algo mejor después de sus años\l"
-	.string "de lealtad al TEAM ROCKET.$"
+	.string "PETREL: And that's why we're here,\n"
+	.string "{PLAYER}. By holding firm here, we'll\l"
+	.string "make sure he'll listen to us, the BIKERS\l"
+	.string "deserve something better after their\l"
+	.string "years of loyalty to TEAM ROCKET.$"
 
 UndergroundPath_7F_Escena_Final_Texto_73:
-	.string "Es su identidad la que está en juego, no\n"
-	.string "solo su futuro. Parte de KANTO son\l"
-	.string "ellos también.$"
+	.string "It's their identity that's at stake, not\n"
+	.string "just their future. They're also part of\l"
+	.string "KANTO.$"
 
 UndergroundPath_7F_Escena_Final_Texto_15:
-.string "Tú nos entiendes, ¿verdad?\n"
-	.string "¿{PLAYER}?$"
+.string "You understand us, right?\n"
+	.string "{PLAYER}?$"
 
 UndergroundPath_7F_Escena_Final_Texto_16:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Escena_Final_Texto_17:
-.string "Ya veo. Quieres que primero nos\n"
-	.string "entreguemos y pidamos clemencia a\l"
-	.string "GIOVANNI. Sabes que eso no es posible.$"
+	.string "I see. You want us to surrender and beg\n"
+	.string "for mercy from GIOVANNI. You know\l"
+	.string "that's impossible.$"
 
 UndergroundPath_7F_Escena_Final_Texto_74:
-	.string "Lo siento {PLAYER}, pero no nos dejas\n"
-	.string "elección. Nos obligas a hablar en un\l"
-	.string "lenguaje que aquí todos podemos\l"
-	.string "entender.$"
+	.string "I'm sorry {PLAYER}, but you leave us no\n"
+	.string "choice. You force us to speak a\l"
+	.string "language that everyone here can\l"
+	.string "understand.$"
 
 UndergroundPath_7F_Escena_Final_Texto_75:
-	.string "LT.SURGE: ¡El lenguaje de la guerra!$"
+	.string "LT.SURGE: The war language!$"
 
 UndergroundPath_7F_Escena_Final_Texto_18:
-.string "KOGA: Me temo que… ¡no nos queda otra \n"
-	.string "que volver a luchar por recuperar\l"
-	.string "la vieja KANTO!$"
+	.string "KOGA: I'm afraid… We have no choice but\n"
+	.string "to fight again to reclaim the old KANTO!$"
 
 UndergroundPath_7F_Escena_Final_Texto_19:
-.string "¡Mantente fiel a lo que crees!$"
+.string "Stay true to what you believe in!$"
 
 UndergroundPath_7F_Escena_Final_Texto_19.1:
-.string "KOGA: Tu trayectoria es\n"
-	.string "inconmensurable {PLAYER}. Fue un\l"
-	.string "lujo tenerte como aliado pero no esta\l"
-	.string "vez. No dejaremos el destino de KANTO\l"
-	.string "al azar.$"
+	.string "KOGA: Your journey is immeasurable,\n"
+	.string "{PLAYER}. It was a luxury to have you\l"
+	.string "as an ally, but not this time. We won't\l"
+	.string "leave KANTO's fate to chance.$"
 
 UndergroundPath_7F_Escena_Final_Texto_20:
-.string "PETREL: Lo siento, {PLAYER}. En este\n"
-	.string "caso, el fin está por encima de todo. Si\l"
-	.string "debo derrotarte aprovechando tu\l"
-	.string "combate con KOGA, lo haré.$"
+	.string "PETREL: I'm sorry, {PLAYER}. In this\n"
+	.string "case, the end is above all. If I have to\l"
+	.string "defeat you by taking advantage of your\l"
+	.string "battle with KOGA, I will.$"
 
 UndergroundPath_7F_Escena_Final_Texto_21:
-.string "Tú no lo entenderías, hemos visto y\n"
-	.string "sufrido demasiado en esta región, y no\l"
-	.string "dejaré que otros interfieran en algo\l"
-	.string "que es nuestro.$"
+	.string "You wouldn't understand, we've seen and\n"
+	.string "suffered too much in this region, and I\l"
+	.string "won't let others interfere in something\l"
+	.string "that is ours.$"
 
 UndergroundPath_7F_Escena_Final_Texto_22:
-.string "¡Lo haremos a nuestro modo!$"
+.string "We'll do it all our way!$"
 
 UndergroundPath_7F_Escena_Final_Texto_23:
-.string "WEEZING… defendiste el honor de los\n"
-	.string "tuyos…$"
+	.string "WEEZING… You defended the honor of\n"
+	.string "your comrades…$"
 
 UndergroundPath_7F_Escena_Final_Texto_24:
-.string "PETREL: Ya veo, tu habilidad en combate\n"
-	.string "no tiene par.$"
+	.string "PETREL: I see, your combat skills are\n"
+	.string "unique.$"
 
 UndergroundPath_7F_Escena_Final_Texto_25:
-.string "Supongo que, después de todo, jamás\n"
-	.string "ganamos la guerra. La KANTO que aún\l"
-	.string "visionamos ya no existe, y no lo hará\l"
-	.string "más.$"
+	.string "I suppose, after all, we never won the\n"
+	.string "war. The KANTO we still envision no\l"
+	.string "longer exists, and it never will again.$"
 
 UndergroundPath_7F_Escena_Final_Texto_26:
-.string "LT.SURGE: ¡Esto aún no ha acabado!$"
+	.string "LT.SURGE: This is not over yet!$"
 
 UndergroundPath_7F_Escena_Final_Texto_27:
-.string "¡Por eso perdisteis! ¡No sabéis llevar al\n"
-	.string "enemigo hasta el límite, los POKÉMON de\l"
-	.string "{PLAYER} están cerca del colapso, ¿y\l"
-	.string "váis a dejarle ir ahora?$"
+	.string "That's why you lost! Because you don't\n"
+	.string "know how to push the enemy to the limit.\l"
+	.string "{PLAYER}'s POKÉMON are close to faint,\l"
+	.string "and you'll let them go now?$"
 
 UndergroundPath_7F_Escena_Final_Texto_28:
-.string "KOGA: SURGE, es suficien…$"
+.string "KOGA: SURGE, it's enou… $"
 
 UndergroundPath_7F_Escena_Final_Texto_29:
-.string "LT.SURGE: ¡No! ¡Ahora es la ocasión de\n"
-	.string "acabar con el enemigo! ¡Para eso estoy\l"
-	.string "yo aquí!$"
+	.string "LT.SURGE: No! Now is the opportunity to\n"
+	.string "finish off the enemy! That's why I'm\l"
+	.string "here!$"
 
 UndergroundPath_7F_Escena_Final_Texto_30:
-.string "¡RAICHU! ¡TRUEN…!$"
+.string "RAICHU! THUND…!$"
 
 UndergroundPath_7F_Escena_Final_Texto_31:
-.string "????: ¡Se acabó!$"
+.string "????: It's over!$"
 
 UndergroundPath_7F_Escena_Final_Texto_32:
 .string "PETREL: A…ANDRA.$"
 
 UndergroundPath_7F_Escena_Final_Texto_33:
-.string "ANDRA: Ya veo… Vosotros…$"
+.string "ANDRA: I see… You… $"
 
 UndergroundPath_7F_Escena_Final_Texto_34:
-.string "KOGA: No hay vuelta atrás, asumiremos\n"
-	.string "nuestras acciones y…$"
+	.string "KOGA: There's no turning back, we'll take\n"
+	.string "responsibility for our actions and…$"
 
 UndergroundPath_7F_Escena_Final_Texto_35:
-.string "ANDRA: Esperad.$"
+.string "ANDRA: Wait.$"
 
 UndergroundPath_7F_Escena_Final_Texto_36:
-.string "No provengo de KANTO como vosotros,\n"
-	.string "pero respeto las costumbres y\l"
-	.string "tradiciones de aquellos que estuvieron\l"
-	.string "antes que yo.$"
+	.string "I may not come from KANTO like you, but\n"
+	.string "I respect the customs and traditions\l"
+	.string "of those who came before me.$"
 
 UndergroundPath_7F_Escena_Final_Texto_37:
-.string "Tengo una idea, pero debemos actuar\n"
-	.string "rápido.$"
+	.string "I have an idea, but we must act quickly.$"
 
 UndergroundPath_7F_Escena_Final_Texto_38:
-.string "PETREL: Te escuchamos, ANDRA.$"
+.string "PETREL: We're listening, ANDRA.$"
 
 UndergroundPath_7F_Escena_Final_Texto_39:
-.string "ANDRA: Usaré todo mi poder e influencia\n"
-	.string "en el TEAM ROCKET para convencer a\l"
-	.string "GIOVANNI de que ceda ZONA SAFARI a los\l"
-	.string "MOTORISTAS.$"
+	.string "ANDRA: I'll use all my power and\n"
+	.string "influence in TEAM ROCKET to convince\l"
+	.string "GIOVANNI to cede SAFARI ZONE to the\l"
+	.string "BIKERS.$"
 
 UndergroundPath_7F_Escena_Final_Texto_40:
-.string "Allí podrán instalarse tal y como lo\n"
-	.string "hacían aquí, además de volver a\l"
-	.string "desarrollar un mercado negro, puesto\l"
-	.string "que ZONA SAFARI permanecerá cerrada\l"
-	.string "para el gran público.$"
+	.string "There, they can settle in just as they\n"
+	.string "did here, and they can also\l"
+	.string "re-establish a black market, as the\l"
+	.string "SAFARI ZONE will remain closed to the\l"
+	.string "general public.$"
 
 UndergroundPath_7F_Escena_Final_Texto_41:
-.string "El lugar está en CIUDAD FUCSIA, al lado\n"
-	.string "del CAMINO BICIS, y es un paraíso que\l"
-	.string "quedará desaprovechado.$"
+	.string "The place is in FUCHSIA CITY, next to\n"
+	.string "the CYCLING ROAD, and it's a paradise\l"
+	.string "that will go to waste.$"
 
 UndergroundPath_7F_Escena_Final_Texto_42:
-.string "¿Qué decís?$"
+.string "What do you think?$"
 
 UndergroundPath_7F_Escena_Final_Texto_43:
-.string "KOGA: Eso… eso sería…$"
+.string "KOGA: That… That would be… $"
 
 UndergroundPath_7F_Escena_Final_Texto_44:
-.string "PETREL: Sería un sueño para ellos, para\n"
-	.string "nosotros. ¡Aceptaríamos sin duda!$"
+	.string "PETREL: It would be a dream for them,\n"
+	.string "for us. We would definitely accept it!$"
 
 UndergroundPath_7F_Escena_Final_Texto_45:
-.string "ANDRA: ¿{PLAYER}?$"
+.string "ANDRA: {PLAYER}?$"
 
 UndergroundPath_7F_Escena_Final_Texto_46:
-.string "No se hable más, tenéis mi palabra.$"
+	.string "No more talk, you have my word and\n"
+	.string "promise.$"
 
 UndergroundPath_7F_Escena_Final_Texto_47:
-.string "Pero ahora debemos actuar con rapidez.\n"
-	.string "Por suerte la rebelión lleva poco\l"
-	.string "tiempo, y aún no habéis hecho el\l"
-	.string "suficiente ruido como para atraer la\l"
-	.string "atención de GIOVANNI.$"
+	.string "But now we must act quickly. Luckily,\n"
+	.string "the rebellion has been brief, and you\l"
+	.string "haven't made enough noise yet to\l"
+	.string "attract GIOVANNI's attention.$"
 
 UndergroundPath_7F_Escena_Final_Texto_48:
-.string "LT.SURGE: Por poco tiempo, si ven que\n"
-	.string "{PLAYER} tarda más en regresar,\l"
-	.string "llamarán al PRESIDENTE de SILPH, y de\l"
-	.string "ahí se extenderá la cadena a GIOVANNI.$"
+	.string "LT.SURGE: Not for long, If they see\n"
+	.string "that {PLAYER} takes longer to return,\l"
+	.string "they'll call SILPH's PRESIDENT, and from\l"
+	.string "there, GIOVANNI will know about this.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49:
-.string "ANDRA: A lo que voy, es que GIOVANNI\n"
-	.string "aún no es consciente de lo que habéis\l"
-	.string "hecho. Estáis a tiempo de rectificar, y\l"
-	.string "convencer a todos los MOTORISTAS.$"
+	.string "ANDRA: What I mean is, GIOVANNI is still\n"
+	.string "not aware of what you've done. You still\l"
+	.string "have time to make things right and\l"
+	.string "convince all the BIKERS.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49.1:
-.string "Además, él confía en vosotros. ¿Sabes\n"
-	.string "lo que dijo en TRIGAL, KOGA? Que tú\l"
-	.string "ibas a ocupar la plaza vacante de\l"
-	.string "AGATHA en el ALTO MANDO.$"
+	.string "Also, he trusts you. Do you know what he\n"
+	.string "said in GOLDENROD, KOGA? That you're\l"
+	.string "going to fill AGATHA's vacant position in\l"
+	.string "the ELITE FOUR.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49.2:
-.string "KOGA: Oh...$"
+.string "KOGA: Oh… $"
 
 UndergroundPath_7F_Escena_Final_Texto_50:
-.string "Ya sabéis que contáis con la palabra de\n"
-	.string "{PLAYER} y la mía propia, de\l"
-	.string "convencer a GIOVANNI para que os ceda\l"
-	.string "la ZONA SAFARI.$"
+	.string "You know that you have {PLAYER}'s\n"
+	.string "word and mine to convince GIOVANNI to\l"
+	.string "hand over the SAFARI ZONE to you.$"
 
 UndergroundPath_7F_Escena_Final_Texto_51:
-.string "Junto con ATLAS, somos los ROCKET de\n"
-	.string "mayor rango, ¡nos hará caso!$"
+	.string "Along with ARCHER, we're the\n"
+	.string "highest-ranked ROCKET members. He will\l"
+	.string "definitely listen to us!$"
 
 UndergroundPath_7F_Escena_Final_Texto_52:
-.string "PETREL: ¡No se hable más! Confiamos en\n"
-	.string "vuestra palabra.$"
+.string "PETREL: No more talk!\n"
+	.string "We trust your word.$"
 
 UndergroundPath_7F_Escena_Final_Texto_53:
-.string "¡KOGA! ¡En marcha!$"
+.string "KOGA! Let's go!$"
 
 UndergroundPath_7F_Escena_Final_Texto_54:
-.string "KOGA: Muchacha, por gente como tú, esta\n"
-	.string "región y el TEAM ROCKET tienen futuro.\l"
-	.string "Definitivamente, los grandes pueden\l"
-	.string "venir de cualquier lugar, incluso de una\l"
-	.string "pequeña isla.$"
+	.string "KOGA: Young lady, it's because of people\n"
+	.string "like you that this region and TEAM\l"
+	.string "ROCKET have a future. Indeed,\l"
+	.string "greatness can come from anywhere, even\l"
+	.string "from a small island.$"
 
 UndergroundPath_7F_Escena_Final_Texto_55:
-.string "LT.SURGE: ¡Chica insolente! Me has\n"
-	.string "aguado la fiesta justo cuando iba a\l"
-	.string "rematar a {PLAYER}.$"
+	.string "LT.SURGE: Insolent girl! You've ruined\n"
+	.string "the party just when I was about to\l"
+	.string "finish off {PLAYER}.$"
 
 UndergroundPath_7F_Escena_Final_Texto_56:
-.string "¡Debí haberme encargado de ti ese día\n"
-	.string "en la CENTRAL ENERGÍA, cuando apenas\l"
-	.string "te quedaban fuerzas, en lugar de ir a\l"
-	.string "por {PLAYER}!$"
+	.string "I should have gotten rid of you that\n"
+	.string "day at the POWER PLANT, when you were\l"
+	.string "barely holding on, instead of going\l"
+	.string "after {PLAYER}!$"
 
 UndergroundPath_7F_Escena_Final_Texto_57:
-.string "ANDRA: ¡Jah! Le está bien empleado,\n"
-	.string "ahora se va sin combatir porque sabe\l"
-	.string "que en un 1 contra 1 no tiene opciones.$"
+	.string "ANDRA: Hah! He got what he deserved,\n"
+	.string "now he's leaving without fighting\l"
+	.string "because he knows he doesn't have any\l"
+	.string "chance in a 1-on-1 battle.$"
 
 UndergroundPath_7F_Escena_Final_Texto_58:
-.string "Por cierto, vi a FUJI en PUEBLO LAVANDA.\n"
-	.string "Justo iban a abrir la TORRE RADIO, para\l"
-	.string "estas alturas debería estarla ya.$"
+	.string "By the way, I saw FUJI in LAVENDER TOWN.\n"
+	.string "They were just about to open the RADIO\l"
+	.string "TOWER; by now, it should already be\l"
+	.string "open.$"
 
 UndergroundPath_7F_Escena_Final_Texto_59:
-.string "El caso es que FUJI te estaba buscando,\n"
-	.string "creo que tiene algo importante que\l"
-	.string "decirte.$"
+	.string "The thing is that FUJI was looking for\n"
+	.string "you, I think he has something important\l"
+	.string "to tell you.$"
 
 UndergroundPath_7F_Escena_Final_Texto_60:
-.string "Yo mientras iré a hablar con GIOVANNI,\n"
-	.string "no te preocupes, seguro que accede.$"
+	.string "In the meantime, I'll go talk to\n"
+	.string "GIOVANNI. Don't worry, I'm sure he'll\l"
+	.string "agree.$"
 
 UndergroundPath_7F_Escena_Final_Texto_61:
-.string "Ya nos veremos en TORRE RADIO LAVANDA.$"
+.string "I see you at LAVENDER TOWN RADIO TOWER.$"
 
 UndergroundPath_7F_Escena_Final_Texto_62:
-.string "Si te digo la verdad, siento algo de\n"
-	.string "vértigo por todo lo que ese lugar tenga\l"
-	.string "en sus pisos superiores.$"
+	.string "Being honest, I feel a bit dizzy about\n"
+	.string "whatever that place might have on its\l"
+	.string "upper floors.$"
 
 UndergroundPath_7F_Escena_Final_Texto_63:
-.string "Pero... no es momento de echarse atrás,\n"
-	.string "¿verdad? Hemos llegado demasiado\l"
-	.string "lejos y visto mucho, es solo otro\l"
-	.string "maldito evento más.$"
+	.string "But… It's not time to back down, right?\n"
+	.string "We've come too far and seen too much,\l"
+	.string "it's just another damn event.$"
 
 UndergroundPath_7F_Escena_Final_Texto_64:
-.string "¡Todo saldrá bien!$"
+.string "Everything will be alright!$"
 
 
 

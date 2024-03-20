@@ -9,13 +9,12 @@ release
 end
 
 NeoLavandaCementerioS1_Text_2:
-.string "El CEMENTERIO se ha construido en\n"
-.string "tiempo récord… Algo me dice que FUJI ya\l"
-.string "sabía lo que iba a ocurrirle a TORRE\l"
-.string "POKÉMON mucho antes que cualquiera de\l"
-.string "nosotros. Sea como sea, esperemos que\l"
-.string "con ello se alcance la paz definitiva\l"
-.string "aquí.$"
+	.string "The CEMETERY was built in record time…\n"
+	.string "Something tells me that FUJI already\l"
+	.string "knew what was going to happen to the\l"
+	.string "POKÉMON TOWER long before any of us\l"
+	.string "did. Either way, let's hope that with\l"
+	.string "this, definitive peace is achieved here.$"
 
 
 
@@ -28,10 +27,10 @@ release
 end
 
 NeoLavandaCementerioS1_Text_3:
-.string "La TORRE RADIO es la nueva imagen del\n"
-.string "pueblo, por contra, ahora las tumbas\l"
-.string "permanecen ocultas. Tal vez esa fue la\l"
-.string "verdadera intención desde el principio.$"
+	.string "RADIO TOWER is the new face of the\n"
+	.string "town; in contrast, now the graves\l"
+	.string "remain hidden. Perhaps that was the\l"
+	.string "true intention from the beginning.$"
 
 
 
@@ -46,15 +45,14 @@ release
 end
 
 NeoLavandaCementerioS1_Text_4:
-.string "La mayoría de tumbas trasladadas\n"
-.string "pertenecen ya a almas olvidadas, que\l"
-.string "dejaron de ser visitadas hace tiempo.\l"
-.string "Sin embargo, FUJI trasladó todas sin\l"
-.string "excepción, se siente en deuda con el\l"
-.string "pueblo, pero… la realidad es que este\l"
-.string "CEMENTERIO será visitado por muy\l"
-.string "pocos a partir de ahora, su destino es\l"
-.string "permanecer en las sombras.$"
+	.string "Most of the relocated graves belonged\n"
+	.string "to forgotten souls that hadn't been\l"
+	.string "visited in a long time. However, FUJI\l"
+	.string "moved all of them without exception; he\l"
+	.string "feels indebted to the town. But… The\l"
+	.string "reality is that this CEMETERY will be\l"
+	.string "visited by very few from now on; its\l"
+	.string "destiny is to remain in the shadows.$"
 
 
 
@@ -68,11 +66,10 @@ release
 end
 
 NeoLavandaCementerioS1_Text_6:
-.string "Algunas exorcistas han seguido el mismo\n"
-.string "camino que AGATHA: el retiro hacia una\l"
-.string "vida contemplativa. Gracias a FUJI,\l"
-.string "muchas de nosotras permaneceremos en\l"
-.string "PUEBLO LAVANDA.$"
+	.string "Some exorcists have followed the same\n"
+	.string "path as AGATHA: retirement into a\l"
+	.string "contemplative life. Thanks to FUJI,\l"
+	.string "many of us will remain in LAVENDER TOWN.$"
 
 
 
@@ -87,12 +84,12 @@ release
 end
 
 NeoLavandaCementerioS1_Text_10:
-.string "Solo visitas expresas serán permitidas\n"
-.string "a partir de ahora. La gran mayoría de\l"
-.string "transeúntes no sabrán de la existencia\l"
-.string "de este lugar, creerán que todas esas\l"
-.string "tumbas han sido removidas de la nada.\l"
-.string "¡Pues están aquí!$"
+	.string "Only express visits will be allowed from\n"
+	.string "now on. The vast majority of passersby\l"
+	.string "won't know about the existence of this\l"
+	.string "place; they'll believe all those graves\l"
+	.string "were removed out of nowhere. But they\l"
+	.string "are here!$"
 
 
 
@@ -106,8 +103,8 @@ release
 end
 
 NeoLavandaCementerioS1_Text_14:
-.string "Tú eras ese ROCKET del que FUJI tanto\n"
-.string "hablaba. Así es, yo te recuerdo.$"
+	.string "You were that ROCKET that FUJI talked\n"
+	.string "so much about. Yes, I remember you.$"
 
 
 
@@ -122,10 +119,10 @@ release
 end
 
 NeoLavandaCementerioS1_Text_15:
-.string "¡Bienvenido, {PLAYER}, al nuevo\n"
-.string "CEMENTERIO de PUEBLO LAVANDA! FUJI ya\l"
-.string "me avisó de que vendrías, eres toda\l"
-.string "una leyenda aquí.$"
+	.string "Welcome, {PLAYER}, to the new\n"
+	.string "LAVENDER TOWER CEMETERY! FUJI already\l"
+	.string "informed me that you'd be coming. You're\l"
+	.string "quite a legend around here.$"
 
 
 
@@ -237,58 +234,59 @@ walk_in_place_up
 step_end
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_1:
-.string "No se preocupe, me encargaré de ello.$"
+.string "Don't worry, I will take charge of that.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_3:
-.string "¡Oh, señor! No esperaba verle por aquí.$"
+.string "Oh, sir! I didn't expect to see you here.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_4:
-.string "Dudo que me recuerde, estuve presente\n"
-	.string "en su misión de TORRE LAVANDA. De no\l"
-	.string "ser por usted, FUJI nos lo hubiera\l"
-	.string "hecho pasar realmente mal.$"
+	.string "I doubt you remember me; I was there\n"
+	.string "during your LAVENDER TOWER mission. If\l"
+	.string "it wasn't for you, FUJIi would have made\l"
+	.string "things really tough for us.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_5:
-.string "Lo cierto es que hicimos algo horrible\n"
-	.string "allí, en aquel momento no éramos\l"
-	.string "conscientes, todo valía porque éramos\l"
-	.string "el -TEAM ROCKET- y adoptamos el rol\l"
-	.string "que la sociedad esperaba de nosotros,\l"
-	.string "pero no el que la propia organización\l"
-	.string "inculcaba desde dentro.$"
+	.string "The truth is, we did something terrible\n"
+	.string "there. At that moment, we weren't aware;\l"
+	.string "everything was permissible because we\l"
+	.string "were the TEAM ROCKET, playing the role\l"
+	.string "society expected from us, but not the\l"
+	.string "one the organization instilled from\l"
+	.string "within.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_6:
-.string "Poco después GIOVANNI nos destinó\n"
-	.string "aquí como castigo.$"
+	.string "Shortly after, GIOVANNI assigned us\n"
+	.string "here as punishment.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_7:
-.string "Nos vimos obligados a colaborar en la\n"
-	.string "construcción de este gran CEMENTERIO,\l"
-	.string "despojados de nuestro sueldo y\l"
-	.string "viviendo de la caridad. Sin nada a\l"
-	.string "cambio, solo una vaga promesa de\l"
-	.string "redención sostenía nuestra voluntad.$"
+	.string "We were forced to collaborate in the\n"
+	.string "construction of this large CEMETERY,\l"
+	.string "stripped of our pay and living on\l"
+	.string "charity. With nothing in return, only a\l"
+	.string "vague promise of redemption sustained\l"
+	.string "our will.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_8:
-.string "Mis otros dos compañeros abandonaron\n"
-	.string "al poco, yo fui el único que logró\l"
-	.string "mantenerse, y ahora puedo decir con\l"
-	.string "orgullo que mi papel en la construcción\l"
-	.string "de este CEMENTERIO ha sido clave, y\l"
-	.string "GIOVANNI me ascendió a ALTO RANGO por\l"
-	.string "ello.$"
+	.string "My other two comrades abandoned\n"
+	.string "shortly after, but I was the only one\l"
+	.string "who managed to persevere. Now, I can\l"
+	.string "proudly say that my role in the\l"
+	.string "construction of this cemetery has been\l"
+	.string "crucial, and GIOVANNI promoted me to a\l"
+	.string "HIGH RANK GRUNT because of it.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_9:
-.string "De no ser por esa segunda oportunidad,\n"
-	.string "¿quién sabe dónde estaría ahora?$"
+	.string "If it weren't for that second\n"
+	.string "opportunity, who knows where I'd be\l"
+	.string "today?$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_10:
-.string "A usted también le estoy agradecido, me\n"
-	.string "gustaría darle esta MT que encontré\l"
-	.string "durante la construcción.$"
+	.string "I'm also grateful to you. I'd like to give\n"
+	.string "you this TM I found during\l"
+	.string "construction.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_11:
 .string "¡¡{PLAYER} obtuvo la MT105 ALARIDO\n"

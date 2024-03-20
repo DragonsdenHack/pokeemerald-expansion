@@ -136,90 +136,88 @@ walk_in_place_left
 step_end
 
 UndergroundPath_12F_Combates_Moteros_Texto_1:
-.string "Esos ilusos, no saben que podemos estar\n"
-	.string "aquí meses. Ahora tendrán que rendir\l"
-	.string "cuentas a sus amos de arriba, sobre por\l"
-	.string "qué las VÍAS siguen abiertas.$"
+	.string "Those fools, they don't know we could be\n"
+	.string "here for months. Now they'll have to\l"
+	.string "answer to their higher-ups about why\l"
+	.string "the UNDERGROUND PATHS are still open.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_2:
-.string "Jamás podrán llegar hasta nuestros\n"
-	.string "LÍDERES, la única LLAVE que abre la\l"
-	.string "puerta principal la tenemos nosotros,\l"
-	.string "y…$"
+	.string "They'll never be able to reach our\n"
+	.string "LEADERS; we're the only ones with the\l"
+	.string "KEY that opens the main door, and…$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_3:
-.string "¿Quién eres tú? Esta zona de los\n"
-	.string "refugios debería estar sellada.$"
+.string "Who are you?\n"
+	.string "This area should be sealed.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_5:
-.string "S…señor… es {PLAYER}, uno de los\n"
-	.string "ROCKET más fuertes.$"
+	.string "S…Sir… It's {PLAYER}, one of the\n"
+	.string "strongest ROCKET members.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_6:
-.string "¿{PLAYER}? ¿Y Quieres la LLAVE que\n"
-	.string "lleva a la cabina principal?$"
+	.string "{PLAYER}? And you want the KEY that\n"
+	.string "leads to the main cabin?$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_7:
-.string "No importa quién seas, me han\n"
-	.string "contratado para guardar este lugar y\l"
-	.string "es lo que haré.$"
+	.string "No matter who you are, I've been hired to\n"
+	.string "guard this place, and that's what I'll do.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_8:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_9:
-.string "Así que has derrotado a los 4\n"
-	.string "MOTORISTAS que custodian la entrada.\l"
-	.string "No nos compares con esos mamarrachos,\l"
-	.string "somos 3, pero podríamos con 10 de esos.$"
+	.string "So you've defeated the 4 BIKERS\n"
+	.string "guarding the entrance. Don't compare us\l"
+	.string "to those clowns; there may be 3 of us,\l"
+	.string "but we could handle 10 of them.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_10:
-.string "¡Demostrádselo!$"
+.string "Prove it!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_11:
-.string "Nos ayudaste derrotando a BRUNO en el\n"
-	.string "CAMINO BICIS, pero eso fue hace años…\l"
-	.string "los tiempos han cambiado… ¡no\l"
-	.string "tendremos piedad contigo!$"
+	.string "You helped defeat BRUNO in the CYCLING\n"
+	.string "ROAD, but that was years ago… times\l"
+	.string "have changed… We won't show you any\l"
+	.string "mercy!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_12:
-.string "Has seguido mejorando…$"
+.string "You've kept getting stronger…$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_13:
-.string "Creímos que el TEAM ROCKET nos\n"
-	.string "apoyaría, ¡pero habéis sido los\l"
-	.string "primeros en bajarse los pantalones\l"
-	.string "ante el NUEVO ORDEN!$"
+	.string "We thought TEAM ROCKET would support\n"
+	.string "us, but you were the first to surrender\l"
+	.string "to the NEW ORDER!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_14:
-.string "Al final, JOHTO sigue dándonos órdenes…$"
+.string "In the end, JOHTO is still giving us orders…$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_15:
-.string "¡Ya es suficiente! Si quiero algo bien\n"
-	.string "hecho tengo que hacerlo yo mismo, ¡tú y\l"
-	.string "tus POKÉMON sufriréis mi ira!$"
+	.string "Enough already! If I want something\n"
+	.string "done right, I have to do it myself. You\l"
+	.string "and your POKÉMON will suffer my wrath!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_16:
-.string "¡No! ¡HYDREIGON, SHARPEDO! ¡Seguid!$"
+.string "No! HYDREIGON, SHARPEDO! Keep fighting!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_17:
-.string "Grrrr… Parece que tienes tu fama bien\n"
-	.string "merecida. No me dejas elección.$"
+	.string "Grrrr… It seems you have your\n"
+	.string "reputation well-deserved. You leave me\l"
+	.string "no choice.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_18:
-.string "(¡¡{PLAYER} obtuvo la LLAVE CABINA\n"
-	.string "NORTE de manos de MOTORISTA!!)$"
+	.string "({PLAYER} obtained the NORTH CABIN\n"
+	.string "KEY from the BIKER!!)$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_19:
-.string "Con ella podrás entrar a la CABINA\n"
-	.string "principal…$"
+	.string "With it, you'll be able to enter the main\n"
+	.string "CABIN…$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_20:
-.string "Pero te lo advierto: puede que no te\n"
-	.string "guste lo que encuentres ahí.$"
+	.string "But I warn you: you may not like what\n"
+	.string "you find there.$"
 
 
 UndergroundPath_7F_Activacion_Zona_Norte::
@@ -253,8 +251,7 @@ release
 end
 
 UndergroundPath_7F_Primero_Motorista_Texto_1:
-.string "Puede que no te guste lo que\n"
-	.string "encuentres ahí adentro.$"
+	.string "You may not like what you find there.$"
 
 UndergroundPath_7F_Segundoo_Motorista::
 lock
@@ -264,10 +261,9 @@ release
 end
 
 UndergroundPath_7F_Segundoo_Motorista_Texto_1:
-.string "Creímos que el TEAM ROCKET nos\n"
-	.string "apoyaría, ¡pero habéis sido los\l"
-	.string "primeros en bajarse los pantalones\l"
-	.string "ante el NUEVO ORDEN!$"
+	.string "We thought TEAM ROCKET would support\n"
+	.string "us, but you were the first to surrender\l"
+	.string "to the NEW ORDER!$"
 
 UndergroundPath_7F_Tercero_Motorista::
 lock
@@ -277,7 +273,7 @@ release
 end
 
 UndergroundPath_7F_Tercero_Motorista_Texto_1:
-.string "Al final, JOHTO sigue dándonos órdenes…$"
+.string "In the end, JOHTO is still giving us orders… $"
 
 Pokedex_Set::
 lock
