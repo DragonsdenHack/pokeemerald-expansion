@@ -9,7 +9,7 @@ release
 end
 
 LavenderRadioP3_Text_3:
-.string "El verdadero caos no hace ruido.$"
+.string "True chaos doesn't make noise.$"
 
 
 
@@ -22,8 +22,8 @@ release
 end
 
 LavenderRadioP3_Text_4:
-.string "Nunca me fío de alguien que no tiene\n"
-.string "enemigos.$"
+	.string "I never trust someone who has no\n"
+	.string "enemies.$"
 
 
 
@@ -37,11 +37,11 @@ release
 end
 
 LavenderRadioP3_Text_5:
-.string "Los GASTLY y HAUNTER ahora están en el\n"
-.string "cementerio del sur… ¿Crees que una\l"
-.string "parte ha emigrado a otro lugar? ¿La\l"
-.string "parcela de CIUDAD CARMÍN? Tal vez\l"
-.string "tengas razón.$"
+	.string "GASTLY and HAUNTER are now in the\n"
+	.string "southern CEMETERY... Do you think some\l"
+	.string "of them have migrated elsewhere? The\l"
+	.string "plot in CERULEAN CITY perhaps? Maybe\l"
+	.string "you're right.$"
 
 
 
@@ -54,8 +54,8 @@ release
 end
 
 LavenderRadioP3_Text_8:
-.string "Cuanto mayor es la incertidumbre, más\n"
-.string "valiosa es la opción.$"
+	.string "The greater the uncertainty, the more\n"
+	.string "valuable the option.$"
 
 
 
@@ -69,8 +69,8 @@ release
 end
 
 LavenderRadioP3_Text_9:
-.string "Cada vez más alto, cada vez más\n"
-.string "difíciles los retos. ¿Hasta cuándo?$"
+	.string "Higher and higher, challenges becoming\n"
+	.string "more and more difficult. Until when?$"
 
 
 
@@ -84,10 +84,10 @@ release
 end
 
 LavenderRadioP3_Text_10:
-.string "La tolerancia llegará a tal nivel que las\n"
-.string "personas inteligentes tendrán\l"
-.string "prohibido hablar para no ofender a los\l"
-.string "imbéciles.$"
+	.string "Tolerance will reach such a level that\n"
+	.string "intelligent people will be forbidden to\l"
+	.string "speak so as not to offend the\l"
+	.string "imbeciles.$"
 
 
 
@@ -102,7 +102,7 @@ msgbox LavenderRadioP3Documento_Text_100, MSGBOX_SIGN
 end
 
 LavenderRadioP3Documento_Text_100:
-.string "4to Análisis & Inversión$"
+.string "4th Analysis & Investment$"
 
 
 
@@ -111,8 +111,9 @@ msgbox LavenderRadioP3Documento_Text_101, MSGBOX_SIGN
 end
 
 LavenderRadioP3Documento_Text_101:
-.string "-Hay una ilusión de poder que produce\n"
-	.string "en tu interior cierta locura-.$"
+	.string "-There's an illusion of power that\n"
+	.string "generates a certain madness around\l"
+	.string "you-.$"
 
 LavenderRadioP3_Master_Ball::
 lock
@@ -345,40 +346,40 @@ release
 end
 
 EventScript_Cryogonal_Texto_1:
-.string "¿Seguro que quiere a CRYOGONAL?\n"
-	.string "Costará 105000 POKÉS.$"
+.string "Are you sure you want CRYOGONAL?\n"
+	.string "It will cost 105,000 POKÉ.$"
 
 EventScript_Cramorant_Texto_1:
-.string "¿Seguro que quiere a CRAMORANT?\n"
-	.string "Costará 110000 POKÉS.$"
+.string "Are you sure you want CRAMORANT?\n"
+	.string "It will cost 110,000 POKÉ.$"
 
 EventScript_Gible_Texto_1:
-.string "¿Seguro que quiere a GIBLE?\n"
-	.string "Costará 175000 POKÉS.$"
+.string "Are you sure you want GIBLE?\n"
+	.string "It will cost 175,000 POKÉ.$"
 
 EventScript_Grookey_Texto_1:
-.string "¿Seguro que quiere a GROOKEY?\n"
-	.string "Costará 80000 POKÉS.$"
+.string "Are you sure you want GROOKEY?\n"
+	.string "It will cost 80,000 POKÉ.$"
 
 EventScript_Ferroseed_Texto_1:
-.string "¿Seguro que quiere a FERROSEED?\n"
-	.string "Costará 60000 POKÉS.$"
+.string "Are you sure you want FERROSEED?\n"
+	.string "It will cost 60,000 POKÉ.$"
 
 EventScript_Toxel_Texto_1:
-.string "¿Seguro que quiere a TOXEL? Costará\n"
-	.string "57000 POKÉS.$"
+.string "Are you sure you want TOXELL?\n"
+	.string "It will cost 57,000 POKÉ.$"
 
 EventScript_Wooloo_Texto_1:
-.string "¿Seguro que quiere a WOOLOO? Costará\n"
-	.string "40000 POKÉS.$"
+.string "Are you sure you want WOOLOO?\n"
+	.string "It will cost 40,000 POKÉ.$"
 
 EventScript_Espurr_Texto_1:
-.string "¿Seguro que quiere a ESPURR? Costará\n"
-	.string "30000 POKÉS.$"
+.string "Are you sure you want ESPURR?\n"
+	.string "It will cost 30,000 POKÉ.$"
 
 Text_CompraPokemon:
-.string "Bienvenido señor, ¿en qué puedo\n"
-	.string "ayudarle?$"
+.string "Welcome, sir.\n"
+	.string "How may I assist you?$"
 
 EventScript_Compra_No::
 msgbox EventScript_Compra_No_Texto_1 MSGBOX_AUTOCLOSE

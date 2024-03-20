@@ -9,9 +9,9 @@ release
 end
 
 NeoLavandaCementerioS2_Text_2:
-.string "La religión no trata tanto de decir al\n"
-.string "hombre que hay un Dios como de impedir\l"
-.string "que el hombre piense que es Dios.$"
+	.string "Religion isn't so much about telling man\n"
+	.string "that there is a God as it is about\l"
+	.string "preventing man from thinking he is God.$"
 
 
 
@@ -25,9 +25,8 @@ release
 end
 
 NeoLavandaCementerioS2_Text_3:
-.string "Los hombres se destruyen unos a otros\n"
-.string "en la guerra; y se destruyen a sí\l"
-.string "mismos en tiempo de paz.$"
+	.string "Men destroy each other in war; and they\n"
+	.string "destroy themselves in times of peace.$"
 
 
 
@@ -41,9 +40,8 @@ release
 end
 
 NeoLavandaCementerioS2_Text_4:
-.string "La ira es un ácido que hace más daño al\n"
-.string "recipiente que la almacena que al\l"
-.string "objeto sobre el que se vierte.$"
+	.string "Rage is like acid, corroding the\n"
+	.string "container more than its target.$"
 
 
 
@@ -56,12 +54,11 @@ release
 end
 
 NeoLavandaCementerioS2_Text_14:
-.string "Jamás pensé que viviría para ver caer\n"
-.string "la TORRE POKÉMON. Pronto me uniré a\l"
-.string "todas estas almas que antaño\l"
-.string "caminaban, al igual que nosotros. Solo\l"
-.string "espero disfrutar del tiempo que me\l"
-.string "queda.$"
+	.string "I never thought I would live to see the\n"
+	.string "POKÉMON TOWER fall. Soon, I will join all\l"
+	.string "these souls that once walked, just like\l"
+	.string "us. I only hope to enjoy the time I have\l"
+	.string "left.$"
 
 
 
@@ -75,9 +72,9 @@ release
 end
 
 NeoLavandaCementerioS2_Text_15:
-.string "¿Crees que este lugar logrará\n"
-.string "conservar la esencia original de TORRE\l"
-.string "POKEMON?$"
+	.string "Do you think this place will manage to\n"
+	.string "preserve the original essence of\l"
+	.string "POKÉMON TOWER?$"
 
 
 
@@ -92,10 +89,10 @@ release
 end
 
 NeoLavandaCementerioS2_Text_18:
-.string "No debemos esperar la felicidad, no es\n"
-.string "algo que merezcamos. Cuando la vida va\l"
-.string "bien, es un regalo inesperado, no puede\l"
-.string "durar siempre.$"
+	.string "We should not expect happiness; it's\n"
+	.string "not something we deserve. When life\l"
+	.string "goes well, it's an unexpected gift that\l"
+	.string "cannot last forever.$"
 
 
 
@@ -215,76 +212,79 @@ walk_in_place_down
 step_end
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_1:
-.string "????: Como si fuera TORRE POKÉMON…$"
+.string "????: As if this were POKÉMON TOWER…$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_2:
-.string "AZUL: {PLAYER}. Que estés en PUEBLO\n"
-	.string "LAVANDA no me sorprende, sí que lo\l"
-	.string "estés en este lugar en concreto.$"
+	.string "BLUE: {PLAYER}, your presence in\n"
+	.string "LAVENDER TOWN doesn't surprise me, but\l"
+	.string "your presence in this particular\l"
+	.string "location does.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_3:
-.string "Lo importante ahora ocurre en la nueva\n"
-	.string "TORRE RADIO, ¿no es así? ¿Qué puede\l"
-	.string "aportar este lugar a alguien cómo tú?\l"
-	.string "¿No tienes reuniones y eventos por\l"
-	.string "hacer allí?$"
+	.string "The focus is now on the new RADIO\n"
+	.string "TOWER, right? What does this place have\l"
+	.string "to offer for someone like you? Don't\l"
+	.string "you have meetings and events to attend\l"
+	.string "there?$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_4:
 .string "…$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_5:
-.string "Ya veo, hace un año hubiera ido contigo\n"
-	.string "sin dudarlo, ahora mis prioridades son\l"
-	.string "otras, aunque…$"
+	.string "I understand. One year ago, I would\n"
+	.string "have joined you without hesitation.\l"
+	.string "Nowadays, my priorities are different,\l"
+	.string "though…$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_6:
-.string "Hace mucho que no nos encontramos así,\n"
-	.string "cara a cara. Tus viajes por JOHTO han\l"
-	.string "debido fortalecerte mucho.$"
+	.string "It's been a while since we last met like\n"
+	.string "this, face to face. Your travels\l"
+	.string "through JOHTO must have greatly\l"
+	.string "strengthened you.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_7:
-.string "Siento curiosidad… por ver hasta dónde\n"
-	.string "has llegado. ¡Muéstrame a tu equipo!$"
+	.string "I'm intrigued… to see how far you've\n"
+	.string "come. Let me see your team!$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_8:
-.string "¡Ja! ¡Tal y como temía!$"
+.string "Ha! Just as I expected!$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_9:
-.string "Apenas puedo reconocer a ese enérgico\n"
-	.string "y vivaz GOLBAT. Tan escurridizo y lleno\l"
-	.string "de potencial ya en ese entonces,\l"
-	.string "cuando ambos iniciábamos nuestro\l"
-	.string "viaje. Nadie creería que este CROBAT-&\l"
-	.string "tan imponente fue una vez ese ZUBAT.$"
+	.string "I can hardly recognize that energetic\n"
+	.string "and lively GOLBAT. So elusive and full of\l"
+	.string "potential even back then when we both\l"
+	.string "started our journey. No one would\l"
+	.string "believe that this imposing CROBAT-&\l"
+	.string "was once that ZUBAT.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_10:
-.string "Me siento afortunado de haber\n"
-	.string "compartido generación contigo,\l"
-	.string "{PLAYER}. ANDRA y tú sois grandes\l"
-	.string "ENTRENADORES, insaciables.$"
+	.string "I feel fortunate to be part of the same\n"
+	.string "generation as you, {PLAYER}. ANDRA\l"
+	.string "and you are exceptional TRAINERS,\l"
+	.string "insatiable in your pursuits.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_11:
-.string "Mi ambición por ser el mejor acabó en el\n"
-	.string "momento en que demostraste que ROJO\l"
-	.string "no lo era, ya lo sabes.$"
+	.string "My ambition to become the best ceased\n"
+	.string "the instant you proved RED wasn't the\l"
+	.string "only one. You're aware of it.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_12:
-.string "Como mi abuelo, el estudio de los\n"
-	.string "POKÉMON me atrae más que el combate en\l"
-	.string "sí, si mientras puedo ayudaros a\l"
-	.string "controlar el GIMNASIO de CIUDAD VERDE,\l"
-	.string "será lo mejor para todos.$"
+	.string "Like my grandfather, I'm more drawn to\n"
+	.string "studying POKÉMON than to combat\l"
+	.string "itself. If I can help you control the\l"
+	.string "VIRIDIAN CITY GYM in the meantime, it\l"
+	.string "will be best for everyone.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_13:
-.string "Ándate con cuidado, {PLAYER}. Algo me\n"
-	.string "dice que en los tiempos modernos no\l"
-	.string "vale únicamente con sentir pasión por\l"
-	.string "el combate POKÉMON para destacar.$"
+	.string "Watch your step, {PLAYER}. There's a\n"
+	.string "feeling within me that suggests merely\l"
+	.string "having a passion for POKÉMON battles\l"
+	.string "isn't enough to stand out.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_14:
-.string "A mi manera, seguiré viviendo momentos\n"
-	.string "como este, al igual que tú, aunque tal\l"
-	.string "vez con menor intensidad.$"
+	.string "In my own way, I will continue to live\n"
+	.string "moments like this, just like you, albeit\l"
+	.string "perhaps with less intensity.$"
 
 NeoLavandaCementerioS2_Evento_Fuji::
 lock
@@ -348,37 +348,35 @@ face_right
 step_end
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_1:
-.string "FUJI: Ah, {PLAYER}. ¿Qué te parece?\n"
-	.string "¿Crees que este lugar es un digno\l"
-	.string "reemplazo de TORRE POKÉMON? No ha sido\l"
-	.string "fácil construirlo.$"
+	.string "FUJI: Ah, {PLAYER}. What do you\n"
+	.string "think? Do you believe this place is a\l"
+	.string "worthy replacement for POKÉMON TOWER?\l"
+	.string "It hasn't been easy to build.$"
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_2:
-.string "Como habrás podido comprobar, el lugar\n"
-	.string "es un tanto inestable. No parece ser el\l"
-	.string "espíritu de MAROWAK, ya lo\l"
-	.string "ahuyentaste. Debe tratarse de algo\l"
-	.string "más antiguo… tal vez vinculado a la\l"
-	.string "creación misma de TORRE POKÉMON… es\l"
-	.string "muy probable que haya visto su\l"
-	.string "destrucción como un agravio a su\l"
-	.string "descanso.$"
+	.string "As you may have noticed, the place is\n"
+	.string "somewhat unstable. It doesn't seem to\l"
+	.string "be the spirit of MAROWAK, you've already\l"
+	.string "scared it away. It must be something\l"
+	.string "older… perhaps linked to the very\l"
+	.string "creation of POKÉMON TOWER… it's very\l"
+	.string "likely that it saw its destruction as a\l"
+	.string "disturbance to its rest.$"
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_3:
-.string "Ahora mismo la zona norte es\n"
-	.string "incontenible. La hemos cerrado por\l"
-	.string "precaución, pero me temo que no hay\l"
-	.string "otra opción que entrar ahí por la\l"
-	.string "fuerza, y derrotar al espíritu en un\l"
-	.string "combate POKÉMON.$"
+	.string "Right now, the northern area is\n"
+	.string "uncontrollable. We've closed it off as a\l"
+	.string "precaution, but I'm afraid there's no\l"
+	.string "other option but to enter there by\l"
+	.string "force and defeat the spirit in a\l"
+	.string "POKÉMON battle.$"
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_4:
-.string "SECRETARIA: Aquí tienes la LLAVE.\n"
-	.string "Mucha suerte.$"
+	.string "SECRETARY: Here's the KEY. Wishing you\n"
+	.string "the best of luck.$"
 
 NeoLavandaCementerioS2_Evento_Fuji_Texto_5:
-.string "FUJI: Me mantendré cerca tuya,\n"
-	.string "{PLAYER}.$"
+	.string "FUJI: I will be near you, {PLAYER}.$"
 
 
 NeoLavandaCementerioS2_Dialogo_Fuji::
@@ -621,21 +619,21 @@ emote_exclamation_mark
 step_end
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_1:
-.string "(Una energía extremadamente fuerte te\n"
-	.string "ataca)$"
+	.string "(An extremely powerful energy attacks\n"
+	.string "you)$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_2:
 .string "…$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_3:
-.string "(¡La energía parece haberse alterado\n"
-	.string "aún más!)$"
+	.string "(The energy seems to have become even\n"
+	.string "more agitated!)$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_4:
-.string "FUJI: ¡Ya es suficiente! ¡No fue\n"
-	.string "nuestra decisión que esto acabara así!\l"
-	.string "¡Ningún lugar es eterno, ni este\l"
-	.string "CEMENTERIO, ni TORRE POKÉMON!$"
+	.string "FUJI: Enough! This wasn't our decision\n"
+	.string "for it to end like this! No place is\l"
+	.string "eternal, not this graveyard, nor\l"
+	.string "POKÉMON TOWER!$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_5:
 .string "GHOST: …$"
@@ -644,10 +642,10 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_6:
 .string "MEW: …$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_7:
-.string "(MEW apaciguó al espíritu)$"
+.string "(MEW pacified the spirit)$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_8:
-.string "FUJI: Después de tanto tiempo.$"
+.string "FUJI: After so long.$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_9:
 .string "MEW: …$"
@@ -656,15 +654,16 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_10:
 .string "FUJI: …$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_11:
-.string "¿Crees que MEW es también\n"
-	.string "omnipresente? ¿Habrá visto todas y\l"
-	.string "cada una de mis acciones desde lo de\l"
-	.string "MEWTWO? ¿Todo lo que he luchado por\l"
-	.string "mitigar los efectos de la TORRE RADIO\l"
-	.string "en la esencia de PUEBLO LAVANDA?$"
+	.string "Do you think MEW is also omnipresent?\n"
+	.string "Has it witnessed each and every one of\l"
+	.string "my actions since the incident with\l"
+	.string "MEWTWO? Everything I've fought to\l"
+	.string "mitigate the effects of the RADIO\l"
+	.string "TOWER on the essence of LAVENDER\l"
+	.string "TOWN?$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_12:
-.string "FUJI: C-creo… que me ha perdonado.$"
+.string "FUJI: I t-think… It has forgiven me.$"
 
 
 NeoLavandaCementerioS2_Novena_Exorciasta::
@@ -675,9 +674,9 @@ release
 end
 
 NeoLavandaCementerioS2_Novena_Exorciasta_Texto_1:
-.string "No podemos evitar lo inevitable, pero sí\n"
-	.string "prepararnos para que lo inevitable no\l"
-	.string "nos destruya.$"
+	.string "We cannot avoid the inevitable, but we\n"
+	.string "can prepare ourselves so that the\l"
+	.string "inevitable does not destroy us.$"
 
 Llave_Cementerio_Warp::
 lock
@@ -688,8 +687,8 @@ release
 end
 
 Llave_Cementerio_Warp_Texto_1:
-.string "(Detrás de esta puerta hay una energía\n"
-	.string "muy fuerte)$"
+.string "(An extremely powerful energy\n"
+	.string "is near)$"
 
 
 Llave_Cementerio_Warp_2::
@@ -714,6 +713,6 @@ release
 end
 
 NeoLavandaCementerioS2_14_NPC_Texto_1:
-.string "Tenéis miedo a todo como mortales que\n"
-	.string "sois, y deseáis todo como si fuerais\l"
-	.string "inmortales.$"
+	.string "You fear everything as mortals you are,\n"
+	.string "and desire everything as if you were\l"
+	.string "immortal.$"

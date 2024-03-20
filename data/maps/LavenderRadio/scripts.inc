@@ -19,8 +19,8 @@ release
 end
 
 LavenderRadio_Text_1:
-.string "¿Qué tal? Mira por donde quieras en\n"
-.string "esta planta.$"
+	.string "What do you think? Look wherever you\n"
+	.string "want on this floor.$"
 
 
 
@@ -32,9 +32,9 @@ release
 end
 
 LavenderRadio_Text_2:
-.string "¿Qué te parece la nueva TORRE RADIO?\n"
-.string "¿Llegaste a visitar la TORRE POKÉMON\l"
-.string "antes de que fuera demolida?$"
+	.string "What do you think of the new RADIO\n"
+	.string "TOWER? Did you ever visit the POKÉMON\l"
+	.string "TOWER before it was demolished?$"
 
 
 
@@ -47,10 +47,10 @@ release
 end
 
 LavenderRadio_Text_3:
-.string "Bienvenido, SR.ADMIN JEFE. Todos aquí\n"
-.string "estamos a su disposición para lo que\l"
-.string "usted necesite. Le escoltaré hasta los\l"
-.string "pisos superiores si así lo desea.$"
+	.string "Welcome, SR. CHIEF ADMIN. We're all here\n"
+	.string "at your service for whatever you need.\l"
+	.string "I'll escort you to the upper floors if\l"
+	.string "you wish.$"
 
 
 
@@ -63,12 +63,11 @@ release
 end
 
 LavenderRadio_Text_4:
-.string "En la torre radio hay mucha gente que\n"
-.string "trabaja duramente. Seguro que están\l"
-.string "haciendo lo mejor para poder emitir\l"
-.string "buenos programas, aunque nunca he\l"
-.string "tenido ocasión de subir a los pisos de\l"
-.string "arriba.$"
+	.string "There are many hardworking people in\n"
+	.string "the radio tower. They're probably\l"
+	.string "working hard to broadcast quality\l"
+	.string "programs, although I've never had the\l"
+	.string "opportunity to go upstairs.$"
 
 
 
@@ -77,9 +76,9 @@ msgbox LavenderRadioDocumento_Text_100, MSGBOX_SIGN
 end
 
 LavenderRadioDocumento_Text_100:
-.string "Anima a tus Pokémon con los\n"
-	.string "melodiosos sonidos de la\l"
-	.string "Poké Flauta en la Cadena 20$"
+	.string "Inspire your POKÉMON with the\n"
+	.string "enchanting music of the POKÉ FLUTE,\l"
+	.string "broadcasting on Channel 20.$"
 
 
 
@@ -88,10 +87,10 @@ msgbox LavenderRadioDocumento_Text_101, MSGBOX_SIGN
 end
 
 LavenderRadioDocumento_Text_101:
-	.string "1er Piso - Recepción\n"
-	.string "2do Piso - Producción y Ventas\l"
-	.string "3er Piso - Oficina del Director\l"
-	.string "4to Piso - Terraza$"
+	.string "1st Floor - RECEPTION\n"
+	.string "2nd Floor - PRODUCTION & SALES\l"
+	.string "3rd Floor - DIRECTOR'S OFFICE\l"
+	.string "4th Floor - ROOFTOP$"
 
 LavenderRadio_Evento_Guay_Arriba::
 msgbox LavenderRadio_Evento_Guay_Texto_1 MSGBOX_AUTOCLOSE
@@ -205,26 +204,25 @@ walk_in_place_right
 step_end
 
 LavenderRadio_Evento_Guay_Texto_1:
-.string "POLICIA: Lo siento, pero solo puedes\n"
-	.string "dar una vuelta por la planta baja.\l"
-	.string "Desde que una banda criminal asaltó la\l"
-	.string "SEDE SILPH, tuvimos que incrementar\l"
-	.string "las medidas de seguridad.$"
+	.string "POLICEMAN: Sorry, but you can only tour\n"
+	.string "the ground floor. Ever since SILPH C.O.\l"
+	.string "was taken over by a criminal gang, we\l"
+	.string "have had to step up our security.$"
 
 LavenderRadio_Evento_Guay_Texto_2:
-.string "ENTR.GUAY: ¡Jo! ¡Con la ilusión que me\n"
-	.string "hacía ver las plantas de arriba! ¡Ya no\l"
-	.string "se puede entrar tampoco a SILPH, KANTO\l"
-	.string "está vacía!$"
+	.string "COOL TRAINER: Oh man! I was so excited\n"
+	.string "about seeing the upper floors! Now we\l"
+	.string "can't even get into SILPH. KANTO feels\l"
+	.string "deserted!$"
 
 LavenderRadio_Evento_Guay_Texto_3:
-.string "POLICÍA: KANTO está más llena que\n"
-	.string "nunca… para las personas adecuadas.$"
+	.string "POLICEMAN: KANTO is fuller than ever…\n"
+	.string "but just for the right people.$"
 
 LavenderRadio_Evento_Guay_Texto_4:
-.string "Le estábamos esperando, ADMIN.JEFE\n"
-	.string "{PLAYER}. Tenemos preparada una\l"
-	.string "ceremonia de inauguración en la\l"
-	.string "azotea, puede visitar los pisos\l"
-	.string "superiores cuando guste.$"
+	.string "We've been expecting you, CHIEF ADMIN.\n"
+	.string "{PLAYER}. We have a grand opening\l"
+	.string "ceremony planned on the rooftop. You\l"
+	.string "can visit the upper floors whenever you\l"
+	.string "like.$"
 

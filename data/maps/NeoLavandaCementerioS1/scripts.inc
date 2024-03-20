@@ -289,13 +289,12 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_10:
 	.string "construction.$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_11:
-.string "¡¡{PLAYER} obtuvo la MT105 ALARIDO\n"
-	.string "de manos de Alto Rango Rocket!!$"
-
+.string "{PLAYER} obtained the TM105 SNARL\n"
+	.string "from the HIGH RANK GRUNT!!$"
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_12:
-.string "Es un honor contar con su presencia\n"
-	.string "aquí, espero verle más a menudo ahora\l"
-	.string "que PUEBLO LAVANDA se ha vuelto uno de\l"
-	.string "nuestros centros de operaciones. Ya\l"
-	.string "sabe a lo que me refiero.$"
+	.string "It's an honor to have you here. I hope\n"
+	.string "to see you more often now that\l"
+	.string "LAVENDER TOWN has become one of our\l"
+	.string "operation centers. You know what I\l"
+	.string "mean.$"

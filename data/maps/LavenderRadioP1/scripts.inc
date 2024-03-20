@@ -10,12 +10,11 @@ release
 end
 
 LavenderRadioP1_Text_1:
-.string "También trabajo para SILPH, me han\n"
-.string "trasladado aquí para organizar no sé\l"
-.string "qué documentos sobre las ondas\l"
-.string "magnéticas. Aunque no puedo subir a\l"
-.string "ver lo que están haciendo en los pisos\l"
-.string "superiores.$"
+	.string "I also work for SILPH; they've\n"
+	.string "transferred me here to organize some\l"
+	.string "documents regarding magnetic waves.\l"
+	.string "Although I can't go up to see what\l"
+	.string "they're doing on the upper floors.$"
 
 
 
@@ -27,13 +26,12 @@ release
 end
 
 LavenderRadioP1_Text_2:
-.string "No ha bastado más que mencionar la\n"
-.string "palabra <seguridad>, y ya todos\l"
-.string "asienten como corderitos. La palabra\l"
-.string "se ha convertido en un comodín del\l"
-.string "mundo moderno para justificar\l"
-.string "cualquier restricción, por\l"
-.string "desproporcionada que sea.$"
+	.string "Just mentioning the word <security> is\n"
+	.string "enough to make everyone acquiesce like\l"
+	.string "sheep. The word has become a wildcard in\l"
+	.string "the modern world to justify any\l"
+	.string "restriction, no matter how\l"
+	.string "disproportionate.$"
 
 
 
@@ -46,10 +44,10 @@ release
 end
 
 LavenderRadioP1_Text_3:
-.string "Las tumbas han sido trasladadas al\n"
-.string "cementerio del sur, han construido\l"
-.string "unas enormes catacumbas subterráneas\l"
-.string "para albergar todas.$"
+	.string "The graves have been relocated to the\n"
+	.string "cemetery in the south, and they've\l"
+	.string "constructed enormous underground\l"
+	.string "catacombs to accommodate them all.$"
 
 
 
@@ -62,13 +60,12 @@ release
 end
 
 LavenderRadioP1_Text_4:
-.string "A cierta frecuencia las ondas de radio\n"
-.string "con las que trabajamos convierten en\l"
-.string "<Shinys> a los POKÉMON expuestos a\l"
-.string "ella. Aquí solo nos interesa el\l"
-.string "incremento puro de STATS BASE, pero\l"
-.string "esta utilidad puede estar bien para dar\l"
-.string "algún que otro susto.$"
+	.string "At certain frequencies, the radio waves\n"
+	.string "we work with can turn exposed POKÉMON\l"
+	.string "into <Shinies>. Here, we're only\l"
+	.string "interested in the pure increase of BASE\l"
+	.string "STATS, but this utility might come in\l"
+	.string "handy for giving a scare or two.$"
 
 
 
@@ -81,10 +78,10 @@ release
 end
 
 LavenderRadioP1_Text_5:
-.string "La tragedia es que gran parte de lo que\n"
-.string "consideras aleatorio está bajo tu\l"
-.string "control y, lo que es peor, también\l"
-.string "sucede a la inversa.$"
+	.string "The tragedy here is that most of what\n"
+	.string "you consider random is under your\l"
+	.string "control. Worse than that, it also\l"
+	.string "happens viceversa.$"
 
 
 
@@ -97,12 +94,12 @@ release
 end
 
 LavenderRadioP1_Text_6:
-.string "¿Cómo crees que reaccionaría ese tal\n"
-.string "ROJO si pudiera subir aquí y ver al\l"
-.string "supuestamente disuelto TEAM ROCKET\l"
-.string "campar a sus anchas? ¡Exacto! ¡Toda su\l"
-.string "realidad se vendría abajo! ¡De un\l"
-.string "plumazo vería el mundo tal y como es!$"
+	.string "How do you think that RED would react\n"
+	.string "if he saw the “defeated by him” and\l"
+	.string "dissolved TEAM ROCKET doing as they\l"
+	.string "want? Exactly! All his reality will rip\l"
+	.string "apart. In the blink of an eye he'd see\l"
+	.string "the world just as it is!$"
 
 
 
@@ -115,11 +112,11 @@ release
 end
 
 LavenderRadioP1_Text_7:
-.string "NIDOKING y NIDOQUEEN ya han llegado a\n"
-.string "su máximo potencial, gracias a sus\l"
-.string "formas X e Y. Tal vez si uniéramos sus\l"
-.string "genes podríamos lograr algo incluso\l"
-.string "mejor…$"
+	.string "NIDOKING and NIDOQUEEN have reached\n"
+	.string "their full potential thanks to their X\l"
+	.string "and Y versions. Maybe if we fused their\l"
+	.string "genes we could achieve something even\l"
+	.string "better…$"
 
 
 
@@ -135,7 +132,7 @@ msgbox LavenderRadioP1Documento_Text_100, MSGBOX_SIGN
 end
 
 LavenderRadioP1Documento_Text_100:
-.string "2o Ventas & Producción$"
+.string "2nd Sales & Production$"
 
 
 
@@ -144,5 +141,5 @@ msgbox LavenderRadioP1Documento_Text_101, MSGBOX_SIGN
 end
 
 LavenderRadioP1Documento_Text_101:
-.string "-Con la voluntad de la inmadurez se\n"
-	.string "pueden conseguir grandes cosas-.$"
+	.string "-Will of immatureness may help you\n"
+	.string "achieve great things-$"

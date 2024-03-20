@@ -11,10 +11,10 @@ release
 end
 
 LavenderRadioP2_Text_1:
-.string "La RADIO POKÉMON es solo la fachada,\n"
-.string "pero debo admitir que es divertida,\l"
-.string "entretendrá mucho a todos los\l"
-.string "ciudadanos a partir de ahora.$"
+	.string "POKÉMON RADIO is just a coverup,\n"
+	.string "though I admit it's fun. It will provide\l"
+	.string "entertainment for the citizens from\l"
+	.string "now on.$"
 
 
 
@@ -26,11 +26,10 @@ release
 end
 
 LavenderRadioP2_Text_2:
-.string "¿Crees que seremos capaces de\n"
-.string "controlar el poder que estamos\l"
-.string "creando? Si ese tal MEWTWO escapó hace\l"
-.string "años, en la actualidad, con un poder\l"
-.string "mayor, no sé...$"
+	.string "Do you think we'll be able to control the\n"
+	.string "power we're creating? If MEWTWO\l"
+	.string "escaped years ago, nowadays, with a\l"
+	.string "greater power, I'm not sure…$"
 
 
 
@@ -44,14 +43,14 @@ release
 end
 
 LavenderRadioP2_Text_3:
-.string "A veces la realidad supera a la ficción.\n"
-.string "Ni en las más locas teorías de algunos\l"
-.string "podrían imaginar que el TEAM ROCKET\l"
-.string "está trabajando en la TORRE RADIO de\l"
-.string "PUEBLO LAVANDA. ¡Lo mejor es que\l"
-.string "usamos como excusa nuestra propia\l"
-.string "invasión a SILPH para que nadie meta\l"
-.string "sus narices en los pisos superiores!$"
+	.string "Sometimes, reality surpasses fiction.\n"
+	.string "Not even the craziest theories of some\l"
+	.string "people would have ever imagined that it\l"
+	.string "was TEAM ROCKET who was working on the\l"
+	.string "RADIO TOWER of LAVENDER TOWN. The best\l"
+	.string "part of it is that we use the assault of\l"
+	.string "SILPH as a shield for protecting the\l"
+	.string "upper floors!$"
 
 
 
@@ -65,11 +64,12 @@ release
 end
 
 LavenderRadioP2_Text_4:
-.string "Vamos a crear un POKÉMON tan poderoso\n"
-.string "que todas las regiones nos temerán, sé\l"
-.string "que es para defendernos ante un\l"
-.string "ataque pero… ¡con semejante arma\l"
-.string "podríamos invadir cualquier región!$"
+	.string "We will be creating such a mighty\n"
+	.string "POKÉMON that every single region will\l"
+	.string "fear us. I know, it's just for defending\l"
+	.string "us from an attack, but still… With this\l"
+	.string "kind of power, any region would vow to\l"
+	.string "it!$"
 
 
 
@@ -83,12 +83,11 @@ release
 end
 
 LavenderRadioP2_Text_5:
-.string "Las desventajas de un cambio pesan más\n"
-.string "que las ventajas, induciendo un sesgo\l"
-.string "que favorece el statu quo. Esto no ha\l"
-.string "impedido que la fantástica obra de\l"
-.string "ingeniería sobre la que estás haya\l"
-.string "sido posible.$"
+	.string "Change has more cons than pros,\n"
+	.string "inducing a bias that favors the status\l"
+	.string "quo. Nevertheless, it hasn't prevented\l"
+	.string "the enormous engineering machine from\l"
+	.string "becoming a reality.$"
 
 
 
@@ -102,10 +101,9 @@ release
 end
 
 LavenderRadioP2_Text_6:
-.string "Todo el mundo quiere vivir a expensas\n"
-.string "del estado, lo que olvidan es que el\l"
-.string "estado vive a expensas de todo el\l"
-.string "mundo.$"
+	.string "Everybody wants to get a living from\n"
+	.string "the state. However, they forget that\l"
+	.string "the state gets a living form everybody.$"
 
 
 
@@ -118,11 +116,12 @@ release
 end
 
 LavenderRadioP2_Text_7:
-.string "Los peor parados en todo este proceso\n"
-.string "han sido los CUBONE que habitaban la\l"
-.string "antigua torre. Por suerte tienen el\l"
-.string "TÚNEL ROCA al norte, un buen hábitat\l"
-.string "para que puedan empezar de 0.$"
+	.string "The ones who got the worst\n"
+	.string "disadvantage are the CUBONE that\l"
+	.string "inhabited the old POKÉMON TOWER. But\l"
+	.string "they have up North the ROCK TUNNEL,\l"
+	.string "which makes such a good habitat for\l"
+	.string "them starting over.$"
 
 
 LavenderRadioP2Documento_100::
@@ -130,7 +129,7 @@ msgbox LavenderRadioP2Documento_Text_100, MSGBOX_SIGN
 end
 
 LavenderRadioP2Documento_Text_100:
-.string "3ro Eficiencia & Rendimiento$"
+.string "3rd Efficiency & Performance$"
 
 
 
@@ -139,9 +138,9 @@ msgbox LavenderRadioP2Documento_Text_101, MSGBOX_SIGN
 end
 
 LavenderRadioP2Documento_Text_101:
-.string "-Una vez que te acostumbras, es difícil\n"
-	.string "rendirse. Mejor permanecer\l"
-	.string "hambriento-.$"
+	.string "-Whenever you get used to it, it is hard\n"
+	.string "to surrender. It's better to remain\l"
+	.string "hungry.-$"
 
 LavenderRadioP2_Evento_Fuji::
 lock
@@ -204,63 +203,64 @@ face_left
 step_end
 
 LavenderRadioP2_Evento_Fuji_Texto_1:
-.string "FUJI: ¡Oh! Qué pronto has llegado,\n"
-	.string "{PLAYER}, ANDRA aún no ha llegado.$"
+	.string "FUJI: Oh! You've arrived so soon,\n"
+	.string "{PLAYER}, ANDRA hasn't arrived yet.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_2:
-.string "Yo debería estar en el nuevo\n"
-	.string "CEMENTERIO, tengo que recolocar todas\l"
-	.string "las tumbas. Quería dar una vuelta por\l"
-	.string "aquí, y comparar el nuevo lugar con el\l"
-	.string "antiguo.$"
+	.string "I should be at the new CEMETERY, I have\n"
+	.string "to relocate all the graves. I wanted to\l"
+	.string "take a walk around here and compare the\l"
+	.string "new place with the old one.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_3:
-.string "La TORRE RADIO ha conservado las\n"
-	.string "medidas y pisos originales de TORRE\l"
-	.string "LAVANDA. Aunque solo será perceptible\l"
-	.string "para los que trabajemos aquí, el resto\l"
-	.string "no podrá pasar de la primera planta, y\l"
-	.string "con motivo…$"
+	.string "The RADIO TOWER has preserved the\n"
+	.string "original measurements and floors of the\l"
+	.string "LAVENDER TOWER. Although it will only be\l"
+	.string "perceptible to those of us who work\l"
+	.string "here, the rest will not be able to go\l"
+	.string "beyond the first floor, and for a\l"
+	.string "reason...$"
 
 LavenderRadioP2_Evento_Fuji_Texto_4:
-.string "BILL y ELM conocen mejor su\n"
-	.string "funcionamiento. Al parecer estas ondas\l"
-	.string "de radio rastrean posibles mutaciones,\l"
-	.string "el 99,9% perjudiciales para un POKÉMON\l"
-	.string "y su rendimiento. Aquí nos\l"
-	.string "encargaremos de seleccionar ese 0,1%\l"
-	.string "restante, el que nos puede ser útil\l"
-	.string "para producir incrementos en el poder\l"
-	.string "de un POKÉMON…$"
+	.string "BILL and ELM know their operation\n"
+	.string "better. Apparently, these radio waves\l"
+	.string "track possible mutations, 99.9% of\l"
+	.string "which are harmful to a POKÉMON and its\l"
+	.string "performance. Here we will be in charge\l"
+	.string "of selecting that remaining 0.1%, which\l"
+	.string "can be useful to us for producing\l"
+	.string "increases in a POKÉMON's power...$"
 
 LavenderRadioP2_Evento_Fuji_Texto_5:
-.string "Este tipo de cuestiones a mí ya no me\n"
-	.string "incumben, tuve suficiente con MEWTWO.$"
+	.string "This kind of issue no longer concerns\n"
+	.string "me; I had enough with MEWTWO.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_6:
-.string "Solo espero poder ocuparme de las almas\n"
-	.string "desplazadas. Al fin veo atisbos de paz\l"
-	.string "y tranquilidad en PUEBLO LAVANDA,\l"
-	.string "puede que esta torre traiga una\l"
-	.string "inesperada estabilidad, aunque la\l"
-	.string "mayoría desconozca su propósito.$"
+	.string "I just hope to be able to take care of\n"
+	.string "the displaced souls. Finally, I see\l"
+	.string "glimpses of peace and tranquility in\l"
+	.string "LAVENDER TOWN. Maybe this tower will\l"
+	.string "bring an unexpected stability, although\l"
+	.string "most are unaware of its purpose.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_7:
 .string "…$"
 
 LavenderRadioP2_Evento_Fuji_Texto_8:
-.string "Me haría especial ilusión que visitases\n"
-	.string "el nuevo CEMENTERIO, al sur del pueblo.$"
+	.string "It would be a special pleasure for me if\n"
+	.string "you visited the new CEMETERY, south of\l"
+	.string "the town.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_9:
-.string "Según me ha dicho BILL, aún queda para\n"
-	.string "la inauguración. Lo cierto es que me\l"
-	.string "gustaría que hicieras algo por mi, creo\l"
-	.string "que eres el más indicado.$"
+	.string "According to what BILL has told me, the\n"
+	.string "inauguration is still pending. The truth\l"
+	.string "is, I would like you to do something for\l"
+	.string "me. I believe you are the most suitable\l"
+	.string "person for the task.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_10:
-.string "Te espero en el CEMENTERIO, al sur del\n"
-	.string "pueblo, no tiene pérdida, {PLAYER}.$"
+	.string "I'll meet you at the CEMETERY, south of\n"
+	.string "the town. It's hard to miss, {PLAYER}.$"
 
 
 Radio_P2_Barrera::
@@ -283,8 +283,8 @@ walk_slow_up
 step_end
 
 Radio_P2_Barrera_Texto_1:
-.string "(Debería ver antes a FUJI\n"
-	.string "y el CEMENTERIO del pueblo)$"
+	.string "(You should see FUJI and the town's\n"
+	.string "CEMETERY first.)$"
 
 LavenderRadioP2_Policia_Cartel::
 lock
@@ -294,13 +294,12 @@ release
 end
 
 LavenderRadioP2_Policia_Cartel_Texto_1:
-.string "Hay un cartel orientativo en la planta\n"
-	.string "baja, ahí se indica lo que\l"
-	.string "supuestamente hacemos en cada piso.\l"
-	.string "Por supuesto, ese cartel es pura\l"
-	.string "fachada, si quieres ver lo que\l"
-	.string "verdaderamente se hace en cada piso,\l"
-	.string "observa los carteles a partir del P1.$"
+	.string "There's a directional sign on the ground\n"
+	.string "floor indicating what we supposedly do\l"
+	.string "on each floor. Of course, that sign is\l"
+	.string "just a facade. If you want to see what\l"
+	.string "actually happens on each floor, look at\l"
+	.string "the signs starting from P1.$"
 
 LavenderRadioP2_11::
 lock     
@@ -310,6 +309,6 @@ release
 end
 
 LavenderRadioP2_Text_11:
-.string "Ningún RECLUTA común tiene acceso a\n"
-	.string "los pisos superiores, como mínimo\l"
-	.string "debes ser ALTO RANGO.$"
+	.string "No common RECRUIT has access to the\n"
+	.string "upper floors; at the very least, you\l"
+	.string "must be a HIGH RANK.$"
