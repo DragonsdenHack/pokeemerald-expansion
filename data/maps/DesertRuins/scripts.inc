@@ -491,10 +491,10 @@ DesertRuins_Evento_CamaraRegirock_Texto_31:
 	.string "believe me.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_31.1:
-	.string "ANDRA: Se nota a leguas que ese\n"
-	.string "GROUDON y ese REGIROCK son clones,\l"
-	.string "similar a lo que hemos logrado en\l"
-	.string "BASE PROFUNDA.$"
+	.string "ANDRA: It's clear as day that that\n"
+	.string "GROUDON and that REGIROCK are clones,\l"
+	.string "much like what we've accomplished in\l"
+	.string "DEEP BASE.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_32:
 	.string "ANDRA: Bah, if that's the best DEVON\n"

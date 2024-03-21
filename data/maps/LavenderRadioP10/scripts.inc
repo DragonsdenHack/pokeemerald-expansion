@@ -14,9 +14,9 @@ release
 end
 
 LavenderRadioP10_Primer_Cientifico_Texto_1:
-.string "En la azotea se llevan a cabo las\n"
-	.string "pruebas más importantes, por eso los\l"
-	.string "actos se celebran ahí.$"
+	.string "The most crucial tests are held on the\n"
+	.string "rooftop, which is why the events take\l"
+	.string "place there.$"
 
 
 LavenderRadioP10_Segundo_Cientifico::
@@ -27,12 +27,12 @@ release
 end
 
 LavenderRadioP10_Segundo_Cientifico_Texto_1:
-	.string "Derrotaste a LANCE, el valor de ello\n"
-	.string "responde más al contexto en el que lo\l"
-	.string "hiciste, ya que si hablamos de nivel\l"
-	.string "absoluto, cualquier EJECUTIVO ROCKET\l"
-	.string "a día de hoy destrozaría igualmente a\l"
-	.string "ese LANCE.$"
+	.string "You defeated LANCE, and the value of it\n"
+	.string "is more about the circumstances in\l"
+	.string "which you achieved it, because if we\l"
+	.string "talk about absolute skill, any ROCKET\l"
+	.string "EXECUTIVE today would similarly crush\l"
+	.string "that LANCE.$"
 
 LavenderRadioP10_Tercer_Cientifico::
 lock
@@ -42,13 +42,13 @@ release
 end
 
 LavenderRadioP10_Tercer_Cientifico_Texto_1:
-.string "MEWTWO tenía razón, no nos importan los\n"
-	.string "prototipos en sí, solo los resultados\l"
-	.string "que ofrecen. No es culpa nuestra, el\l"
-	.string "mundo en sí se mueve por resultados, si\l"
-	.string "no los hay desapareces, por mucho amor\l"
-	.string "y devoción que demuestres en lo que\l"
-	.string "sea.$"
+	.string "MEWTWO was right, we don't care about\n"
+	.string "the prototypes themselves, only the\l"
+	.string "results they provide. It's not our\l"
+	.string "fault; the world itself operates on\l"
+	.string "results, if you don't have them, you\l"
+	.string "disappear, no matter how much love and\l"
+	.string "devotion you show in whatever it is.$"
 
 LavenderRadioP10_Cuarto_Cientifico::
 lock
@@ -58,9 +58,9 @@ release
 end
 
 LavenderRadioP10_Cuarto_Cientifico_Texto_1:
-.string "La normalidad y el confort son algo\n"
-	.string "capaz de apagar cualquier fuego, sin\l"
-	.string "importar cuán potente sea.$"
+	.string "Normality and comfort are capable of\n"
+	.string "quenching any fire, no matter how\l"
+	.string "intense it is.$"
 
 
 LavenderRadioP10_Quinto_Cientifico::
@@ -71,10 +71,11 @@ release
 end
 
 LavenderRadioP10_Quinto_Cientifico_Texto_1:
-.string "BILL es un cabezota, jamás pasará de\n"
-	.string "los 650 STATS BASE usando a PORYGON\l"
-	.string "como modelo, cosa que ya hemos\l"
-	.string "logrado con otros prototipos.$"
+	.string "BILL is stubborn, he'll never surpass\n"
+	.string "the 650 BASE STATS mark using PORYGON\l"
+	.string "as a base model, something we've\l"
+	.string "already achieved with other\l"
+	.string "prototypes.$"
 
 LavenderRadioP10_Policia::
 lock
@@ -84,23 +85,23 @@ release
 end
 
 LavenderRadioP10_Policia_Texto_1:
-.string "Lo que más daña tu reputación es lo que\n"
-	.string "dices para defenderla.$"
+	.string "Which damages your reputation the\n"
+	.string "most, is which you say to defend it.$"
 
 LavenderRadioP10Documento_100::
 msgbox LavenderRadioP10Documento_Text_100, MSGBOX_SIGN   
 end
 
 LavenderRadioP10Documento_Text_100:
-.string "10mo Expansión de Ondas$"
+.string "10th Waves Expansion$"
 
 LavenderRadioP10Documento_101::
 msgbox LavenderRadioP10Documento_Text_101, MSGBOX_SIGN   
 end
 
 LavenderRadioP10Documento_Text_101:
-.string "-Cuando crees que has llegado al\n"
-	.string "final, en realidad estás empezando-.$"
+	.string "-When you think you've reached the end,\n"
+	.string "you're actually just starting-.$"
 
 LavenderRadioP10_Rocket::
 lock
@@ -110,13 +111,11 @@ release
 end
 
 LavenderRadioP10_Rocket_Texto_1:
-.string "La PIEDRA ROCKET es extremadamente\n"
-	.string "escasa, incluso para los altos cargos\l"
-	.string "ROCKET.\l"
-	.string "Solo a partir de EJECUTIVO se\l"
-	.string "te concede una sola, pero debe ser\l"
-	.string "increíble contar con un POKÉMON que\l"
-	.string "sabes que está al nivel y jerarquía\l"
-	.string "de todo un LEGENDARIO, y además\l"
-	.string "representa el estilo ROCKET.$"
+	.string "The ROCKET STONE is extremely limited,\n"
+	.string "even for high-ranked ROCKET. Only when\l"
+	.string "you become an EXECUTIVE are you\l"
+	.string "granted one, but it must be amazing to\l"
+	.string "have a POKÉMON that you know is on the\l"
+	.string "level and hierarchy of a LEGENDARY, and\l"
+	.string "also represents the ROCKET style.$"
 

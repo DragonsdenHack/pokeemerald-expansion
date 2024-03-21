@@ -57,15 +57,15 @@ release
 end
 
 LavenderRadioP9_Primer_Rocket_Texto_1:
-.string "¿Cree que algún día podré ser\n"
-	.string "EJECUTIVO?\l"
-	.string "A ALTO RANGO puedes llegar con el\l"
-	.string "tiempo, si eres constante y\l"
-	.string "demuestras lealtad al TEAM ROCKET,\l"
-	.string "pero el paso a EJECUTIVO pocos lo\l"
-	.string "dan, para eso necesitas hacer algo\l"
-	.string "grande, como usted cuando invadió\l"
-	.string "SILPH o derrotó a las AVES.$"
+	.string "Do you think I would ever become an\n"
+	.string "EXECUTIVE? Ascending to a HIGH RANK is\l"
+	.string "something you can achieve over time, if\l"
+	.string "you're consistent and show loyalty to\l"
+	.string "TEAM ROCKET, but the step to EXECUTIVE\l"
+	.string "is something few achieve. To reach that\l"
+	.string "level, you need to do something big, like\l"
+	.string "you did when you invaded SILPH C.O. or\l"
+	.string "defeated the SACRED BIRDS.$"
 
 LavenderRadioP9_Policia::
 lock
@@ -75,10 +75,10 @@ release
 end
 
 LavenderRadioP9_Policia_Texto_1:
-.string "A diferencia de SILPH, aquí no hay\n"
-	.string "ascensor, para llegar hasta el final\l"
-	.string "hay que pasar por todos los pisos\l"
-	.string "anteriores, ¡y su seguridad!$"
+	.string "Unlike SILPH CO, there's no elevator\n"
+	.string "here; to reach the last floor, you have\l"
+	.string "to go through all the previous floors,\l"
+	.string "and their security!$"
 
 LavenderRadioP9_Cambio_Skin::
 setflag FLAG_HIDE_SLATEPORT_CITY_OCEANIC_MUSEUM_2F_ARCHIE

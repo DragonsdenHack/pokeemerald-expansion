@@ -336,129 +336,127 @@ walk_left
 step_end
 
 DevonS10_DLC_Escena_Final_Texto_1:
-.string "ADM.ZAFIRO: La misión ha sido todo un\n"
-	.string "éxito, PRESIDENTE.$"
+	.string "AMD.SAPPHIRE: The mission has been a\n"
+	.string "complete success, PRESIDENT.$"
 
 DevonS10_DLC_Escena_Final_Texto_2:
-.string "ADM.AMATISTA: Más que un éxito, su\n"
-	.string "tecnología de ondas de radio se\l"
-	.string "complementa perfectamente con la\l"
-	.string "nuestra, con ello podremos optimizar\l"
-	.string "aún más el rendimiento de un POKÉMON.$"
+	.string "ADM.AMATHYST: More than a success,\n"
+	.string "their radio wave technology\l"
+	.string "complements ours perfectly; with it, we\l"
+	.string "can further optimize a POKÉMON's\l"
+	.string "performance.$"
 
 DevonS10_DLC_Escena_Final_Texto_3:
-.string "????: Pero hay algo que se nos escapa,\n"
-	.string "ese fenómeno del FUERTE VÍNCULO…\l"
-	.string "¿Habías experimentado tú algo similar,\l"
-	.string "C.MIGUEL?$"
+	.string "????: But there's something that\n"
+	.string "eludes us, that phenomenon of the DEEP\l"
+	.string "BOND... Have you experienced anything\l"
+	.string "similar, S.MIGUEL?$"
 
 DevonS10_DLC_Escena_Final_Texto_4:
-.string "C.MIGUEL: No, yo no… ese fenómeno solo…$"
+.string "S.MIGUEL: No, I don't… that phenomenon only…$"
 
 DevonS10_DLC_Escena_Final_Texto_5:
-.string "????: Ya veo, solo está reservado para\n"
-	.string "los entrenadores más capaces, que han\l"
-	.string "desarrollado un vínculo especial con\l"
-	.string "uno de los suyos.$"
+	.string "????: I see, it's only reserved for the\n"
+	.string "most capable trainers, who have\l"
+	.string "developed a special bond with one of\l"
+	.string "their own.$"
 
 DevonS10_DLC_Escena_Final_Texto_6:
-.string "C.MIGUEL: …así es…$"
+.string "S.MIGUEL: …That's right…$"
 
 DevonS10_DLC_Escena_Final_Texto_7:
-.string "????: Pero ello no ha impedido crear ese\n"
-	.string "SUICUNE-& por medios artificiales. Sin\l"
-	.string "mencionar todos esos prototipos, con\l"
-	.string "una base similar a los nuestros.$"
+	.string "????: But that hasn't stopped them\n"
+	.string "from creating that SUICUNE-& through\l"
+	.string "artificial ways. Not to mention all\l"
+	.string "those prototypes, with a similar base\l"
+	.string "to ours.$"
 
 DevonS10_DLC_Escena_Final_Texto_8:
-.string "ADM.RUBÍ: Recuerde además que esos dos\n"
-	.string "investigadores están al tanto de\l"
-	.string "DEOXYS, aunque desconocen su más\l"
-	.string "valiosa información.$"
+	.string "ADM.RUBY: Also, remember that those two\n"
+	.string "researchers are aware of DEOXYS,\l"
+	.string "although they are unaware of its most\l"
+	.string "valuable information.$"
 
 DevonS10_DLC_Escena_Final_Texto_9:
-.string "ADM.ESMERALDA: ¿Cuál cree que puede\n"
-	.string "ser su límite?$"
+	.string "ADM.EMERALD: What do you think could be\n"
+	.string "its limit?$"
 
 DevonS10_DLC_Escena_Final_Texto_10:
-.string "????: Conociendo su capacidad de mutar\n"
-	.string "en condiciones extremas, diría que…$"
+	.string "????: Knowing its ability to mutate in\n"
+	.string "extreme conditions, I could say...$"
 
 DevonS10_DLC_Escena_Final_Texto_11:
-.string "…la Luna y las estrellas son su único\n"
-	.string "límite.$"
+	.string "…the Moon and the stars are its unique\n"
+	.string "limit.$"
 
 DevonS10_DLC_Escena_Final_Texto_12:
-.string "Y ahora, me gustaría hablar a solas con\n"
-	.string "el C.MIGUEL.$"
+	.string "And right now, I'd like to speak with\n"
+	.string "S.MIGUEL alone.$"
 
 DevonS10_DLC_Escena_Final_Texto_13:
-.string "????: JOHTO es una región fascinante,\n"
-	.string "¿no? Un fenómeno inexistente en otras\l"
-	.string "regiones, parece ser común allí.$"
+	.string "????: JOHTO is such a fascinating\n"
+	.string "region, isn't it? A phenomenon\l"
+	.string "nonexistent in other regions seems to\l"
+	.string "be common there.$"
 
 DevonS10_DLC_Escena_Final_Texto_14:
-.string "C.MIGUEL: Ciertamente, mi especialidad\n"
-	.string "siempre fueron los FÓSILES. Tuve pocas\l"
-	.string "oportunidades de salir de KANTO.$"
+	.string "S.MIGUEL: Certainly, my specialty has\n"
+	.string "always been FOSSILS. I had few\l"
+	.string "opportunities to leave KANTO.$"
 
 DevonS10_DLC_Escena_Final_Texto_15:
-.string "????: Por ello decidiste unirte a DEVON,\n"
-	.string "¿no? Uno de los puntos fuertes de\l"
-	.string "HOENN son sus POKÉMON ancestrales.$"
+	.string "????: That's why you decided to join\n"
+	.string "DEVON, right? One of HOENN's strong\l"
+	.string "qualities is their ancestral POKÉMON.$"
 
 DevonS10_DLC_Escena_Final_Texto_16:
-.string "C.MIGUEL: Por supuesto, los FÓSILES\n"
-	.string "siempre fueron mi pasión.$"
+	.string "S.MIGUEL: Of course, FOSSILS have\n"
+	.string "always been my passion.$"
 
 DevonS10_DLC_Escena_Final_Texto_17:
-.string "Aunque… debo estarle agradecido,\n"
-	.string "PRESIDENTE; esa breve expedición a los\l"
-	.string "lugares ocultos de JOHTO ha cambiado\l"
-	.string "mi forma de ver el mundo. Ahí fue\l"
-	.string "cuando acepté definitivamente su\l"
-	.string "proposición.$"
+	.string "Although… I must be thankful,\n"
+	.string "PRESIDENT, that brief expedition to\l"
+	.string "the hidden places of JOHTO has changed\l"
+	.string "my way of seeing the world. That's when\l"
+	.string "I definitely accepted your proposal.$"
 
 DevonS10_DLC_Escena_Final_Texto_18:
-.string "????: Oh, desde luego. El DRAGÓN\n"
-	.string "SAGRADO que estuvo investigando. Es\l"
-	.string "posible que, después de todo, sea un\l"
-	.string "FUERTE VÍNCULO, ¿no es así? El FUERTE\l"
-	.string "VÍNCULO más puro y poderoso\l"
-	.string "registrado.$"
+	.string "????: Of course. The SACRED DRAGON you\n"
+	.string "were investigating. It's possible that,\l"
+	.string "after all, it's a DEEP BOND isn't it? The\l"
+	.string "purest and most powerful registered.$"
 
 DevonS10_DLC_Escena_Final_Texto_19:
-.string "C.MIGUEL: Lo era, aunque…$"
+.string "S.MIGUEL: It was, although…$"
 
 DevonS10_DLC_Escena_Final_Texto_20:
-.string "Puede que hubiera más de uno, uno\n"
-	.string "similar pero… enterrado por la historia.$"
+	.string "There may have been more than one, one\n"
+	.string "similar but… buried by history.$"
 
 DevonS10_DLC_Escena_Final_Texto_21:
-.string "????: Eso espero, al igual que le ha\n"
-	.string "ocurrido a usted, al principio nosotros\l"
-	.string "le contratamos por su dilatada\l"
-	.string "experiencia con los FÓSILES, pero…$"
+	.string "????: I hope so, just as it happened to\n"
+	.string "you, at the beginning we hired you for\l"
+	.string "your extensive experience with\l"
+	.string "FOSSILS, but…$"
 
 DevonS10_DLC_Escena_Final_Texto_22:
-.string "El motivo primordial por el que ahora\n"
-	.string "ocupa esta posición de privilegio, no\l"
-	.string "es ese precisamente.$"
+	.string "The main reason that he is in this\n"
+	.string "privileged position now is not precisely\l"
+	.string "that.$"
 
 DevonS10_DLC_Escena_Final_Texto_23:
-.string "Después de todo, puede que haya\n"
-	.string "llegado su ocasión de desenterrar algo\l"
-	.string "mucho más grande que cualquier FÓSIL,\l"
-	.string "¿nos vamos entendiendo?$"
+	.string "After all, it may be his chance to dig up\n"
+	.string "something much bigger than any FOSSIL.\l"
+	.string "Are we getting it?$"
 
 DevonS10_DLC_Escena_Final_Texto_24:
-.string "C.MIGUEL: Nos entendemos\n"
-	.string "perfectamente, PRESIDENTE.$"
+	.string "S.MIGUEL: We understand each other\n"
+	.string "perfectly, PRESIDENT.$"
 
 DevonS10_DLC_Escena_Final_Texto_25:
-.string "????: Eso es todo, esperaré con ansias\n"
-	.string "sus avances.$"
+	.string "????: That's all, I wait for your\n"
+	.string "progress with longing.$"
 
 DevonS10_DLC_Escena_Final_Texto_26:
-.string "C.MIGUEL: Les demostraremos a todos tu\n"
-	.string "verdadero poder, ¿verdad, WRONGSPACE?$"
+	.string "S.MIGUEL: Let's show everyone your true\n"
+	.string "power, right WRONGSPACE?$"

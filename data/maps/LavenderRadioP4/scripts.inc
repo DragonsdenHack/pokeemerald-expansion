@@ -9,15 +9,14 @@ release
 end
 
 LavenderRadioP4_Text_1:
-.string "La MEGAEVOLUCIÓN incrementa en 100 los\n"
-.string "STATS BASE de un POKÉMON. El FUERTE\l"
-.string "VÍNCULO en 110, además de, por lo\l"
-.string "general, un mejor reparto. Con las\l"
-.string "modificaciones vía ondas de radio no\l"
-.string "hay límite, pueden incrementarse en\l"
-.string "menos de 100, pero es posible que\l"
-.string "podamos sobrepasar esos +110 del\l"
-.string "FUERTE VÍNCULO.$"
+	.string "MEGA EVOLUTION increases a POKÉMON's\n"
+	.string "BASE STATS by 100. DEEP BOND increases\l"
+	.string "it by 110, along with generally better\l"
+	.string "distribution. There are no limits with\l"
+	.string "the radio waves modifications; they can\l"
+	.string "be increased by less than 100, but we\l"
+	.string "might be able to exceed those +110 from\l"
+	.string "DEEP BOND.$"
 
 
 
@@ -30,9 +29,9 @@ release
 end
 
 LavenderRadioP4_Text_2:
-.string "Una idea empieza a ser interesante\n"
-.string "cuando te asusta llevarla a su\l"
-.string "conclusión lógica.$"
+	.string "An idea becomes interesting when you're\n"
+	.string "afraid to take it to its logical\l"
+	.string "conclusion.$"
 
 
 
@@ -45,10 +44,9 @@ release
 end
 
 LavenderRadioP4_Text_3:
-.string "La diferencia entre tecnología y\n"
-.string "esclavitud es que los esclavos son\l"
-.string "plenamente conscientes de que no son\l"
-.string "libres.$"
+	.string "The distinction between technology and\n"
+	.string "slavery is that slaves are completely\l"
+	.string "aware that they are not free.$"
 
 
 
@@ -61,9 +59,9 @@ release
 end
 
 LavenderRadioP4_Text_5:
-.string "Oí que queríamos hacer ciertas pruebas\n"
-.string "sobre estas ondas en el LAGO DE LA\l"
-.string "FURIA, en JOHTO. ¿Será cierto?$"
+	.string "I heard we wanted to conduct some\n"
+	.string "tests on these waves at LAKE OF RAGE,\l"
+	.string "in JOHTO. Is that true?$"
 
 
 
@@ -72,7 +70,7 @@ msgbox LavenderRadioP4Documento_Text_100, MSGBOX_SIGN
 end
 
 LavenderRadioP4Documento_Text_100:
-.string "5to Optimización Ondas$"
+.string "5th Waves Optimization$"
 
 
 
@@ -81,9 +79,9 @@ msgbox LavenderRadioP4Documento_Text_101, MSGBOX_SIGN
 end
 
 LavenderRadioP4Documento_Text_101:
-.string "-Hay infinitas variaciones en cada\n"
-	.string "generación, todas creadas por\l"
-	.string "mutaciones-.$"
+	.string "-There are endless variations in every\n"
+	.string "generation, all resulting from\l"
+	.string "mutations-.$"
 
 LavenderRadioP4_Devon_Combates::
 setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_MOM
@@ -864,524 +862,517 @@ step_end
 
 
 LavenderRadioP4_Devon_Combates_Texto_1:
-.string "OAK: Bienvenidos a todos los invitados\n"
-	.string "a la apertura de TORRE RADIO, me\l"
-	.string "hubiera gustado hacer de esta\l"
-	.string "celebración algo más… del pueblo. Pero,\l"
-	.string "como sabéis, los verdaderos propósitos\l"
-	.string "de este lugar no son de dominio público.\l"
-	.string "Después de años de disputas entre\l"
-	.string "nosotros, al fin tenemos todos los\l"
-	.string "recursos necesarios para alcanzar lo\l"
-	.string "óptimo. La construcción de este lugar\l"
-	.string "es prueba de ello. ELM, por favor.$"
+	.string "OAK: Welcome, all guests, to the opening\n"
+	.string "of RADIO TOWER, I would have preferred\l"
+	.string "to make this celebration more…\l"
+	.string "community-oriented. However, as you\l"
+	.string "know, the true purposes of this place\l"
+	.string "must not be public knowledge. After\l"
+	.string "years of disagreements among us, we\l"
+	.string "finally have all the resources needed\l"
+	.string "to reach the optimum. The construction\l"
+	.string "of this place is evidence of that. ELM,\l"
+	.string "please.$"
 
 LavenderRadioP4_Devon_Combates_Texto_2:
-.string "ELM: Así es, OAK. Aquí hacemos lo\n"
-	.string "prometido, sintonizamos para toda\l"
-	.string "KANTO… en el primer y segundo piso.$"
+	.string "ELM: Indeed, OAK. We keep our word,\n"
+	.string "tuning in for all of KANTO… on the first\l"
+	.string "and second floors.$"
 
 LavenderRadioP4_Devon_Combates_Texto_3:
-.string "El resto de pisos, desde el tercero al\n"
-	.string "décimo, están 100% dedicados a\l"
-	.string "incrementar el rendimiento de un\l"
-	.string "POKÉMON a través de explotar las ondas\l"
-	.string "de radio.$"
+	.string "The rest of the floors, from the third\n"
+	.string "to the seventh, are 100% dedicated to\l"
+	.string "increasing a POKÉMON's performance by\l"
+	.string "exploiting radio waves.$"
 
 LavenderRadioP4_Devon_Combates_Texto_4:
-.string "Sus efectos pueden ser muy diversos.$"
+.string "Indeed! The effects could be quite diverse.$"
 
 LavenderRadioP4_Devon_Combates_Texto_5:
-.string "La gran mayoría conducen a mutaciones\n"
-	.string "que no nos interesan para el combate.$"
+	.string "The vast majority lead to mutations\n"
+	.string "that are not of interest for combat.$"
 
 LavenderRadioP4_Devon_Combates_Texto_6:
-.string "Determinadas frecuencias provocan un\n"
-	.string "cambio de color en el POKÉMON\l"
-	.string "expuesto, algo que sin duda agradará a\l"
-	.string "aquellos POKEMANÍACOS que quieran\l"
-	.string "fardar de algo sin ninguna aplicación\l"
-	.string "real.$"
+	.string "Certain frequencies cause a change in\n"
+	.string "color in the exposed POKÉMON,\l"
+	.string "something that will undoubtedly please\l"
+	.string "those POKÉMON enthusiasts who want to\l"
+	.string "show off something with no real\l"
+	.string "application.$"
 
 LavenderRadioP4_Devon_Combates_Texto_7:
 .string "BILL: …$"
 
 LavenderRadioP4_Devon_Combates_Texto_8:
-.string "ELM: Aquí, por supuesto, vamos tras\n"
-	.string "algo más grande. Vamos tras ese\l"
-	.string "minúsculo porcentaje de mutaciones\l"
-	.string "que benefician a un POKÉMON, que\l"
-	.string "exprimen al máximo todas las\l"
-	.string "combinaciones posibles por las cuales\l"
-	.string "su potencial como especie pudiere\l"
-	.string "alcanzar el 100% de su potencial.$"
+	.string "ELM: Here, of course, we're pursuing\n"
+	.string "something useful. We're pursuing that\l"
+	.string "tiny percentage of mutations that\l"
+	.string "benefit a POKÉMON, that squeeze out\l"
+	.string "every possible combination by which its\l"
+	.string "potential as a species could reach 100%\l"
+	.string "of its capacity.$"
 
 LavenderRadioP4_Devon_Combates_Texto_9:
-.string "En estas salas logramos la combinación\n"
-	.string "estadísticamente imposible, que la\l"
-	.string "naturaleza habría otorgado durante un\l"
-	.string "proceso de evolución de miles de años,\l"
-	.string "a una especie que se hubiera adaptado\l"
-	.string "de la mejor forma posible para\l"
-	.string "incrementar su poder bruto. Sin\l"
-	.string "disruptores, sin agentes externos que\l"
-	.string "malogren la eficiencia del proceso.$"
+	.string "In these rooms, we achieve the\n"
+	.string "statistically impossible combination\l"
+	.string "that nature would have granted over\l"
+	.string "thousands of years of evolutionary\l"
+	.string "process to a species that had adapted\l"
+	.string "in the best possible way to increase its\l"
+	.string "raw power. No disruptors, no external\l"
+	.string "agents that spoil the efficiency of the\l"
+	.string "process.$"
 
 LavenderRadioP4_Devon_Combates_Texto_10:
-.string "OAK: NIDOKING-X, NIDOQUEEN-Y,\n"
-	.string "PORYGON3… son ejemplos de lo obtenido\l"
-	.string "por procesos similares a este, aunque\l"
-	.string "no tan eficientes como los descritos\l"
-	.string "por ELM aquí.$"
+	.string "OAK: NIDOKING-X, NIDOQUEEN-Y,\n"
+	.string "PORYGON3… are examples of what has\l"
+	.string "been obtained through processes\l"
+	.string "similar to this, although not as\l"
+	.string "efficient as those described by ELM\l"
+	.string "here.$"
 
 LavenderRadioP4_Devon_Combates_Texto_11:
-.string "ELM: Así es, ahora disponemos de los\n"
-	.string "medios para alcanzar la máxima pureza\l"
-	.string "en cuanto prototipos se refiere.$"
+	.string "ELM: That's correct, now we have the\n"
+	.string "means to achieve maximum purity in\l"
+	.string "terms of prototypes.$"
 
 LavenderRadioP4_Devon_Combates_Texto_12:
-.string "OAK: MEWTWO supuso una mejora de 80\n"
-	.string "STATS BASE respecto a MEW.\l"
-	.string "Recientemente, las MEGAS y prototipos\l"
-	.string "convencionales han supuesto un\l"
-	.string "incremento de +100 respecto a los\l"
-	.string "originales. El FUERTE VÍNCULO supone\l"
-	.string "un +110… ¿Qué podemos esperar de esta\l"
-	.string "nueva tecnología, ELM?$"
+	.string "OAK: MEWTWO represented an increase of\n"
+	.string "80 BASE STATS compared to MEW.\l"
+	.string "Recently, MEGAS and conventional\l"
+	.string "prototypes have led to an increase of\l"
+	.string "+100 compared to the base forms. The\l"
+	.string "DEEP BOND increases a +110… What can\l"
+	.string "we expect from this new technology,\l"
+	.string "ELM?$"
 
 LavenderRadioP4_Devon_Combates_Texto_13:
-.string "ELM: Es obvio que ya nos encontrábamos\n"
-	.string "en un punto cercano al límite, en el que\l"
-	.string "cualquier mejora significativa era\l"
-	.string "prácticamente un espejismo.$"
+	.string "ELM: It's obvious that we were already\n"
+	.string "at a point close to the limit, where any\l"
+	.string "significant improvement was\l"
+	.string "practically a mirage. Naturally.$"
 
 LavenderRadioP4_Devon_Combates_Texto_14:
-.string "Sin embargo, debido a estos procesos,\n"
-	.string "estamos convencidos de poder\l"
-	.string "incrementar en 150 STATS BASE el\l"
-	.string "poder inicial del POKÉMON objetivo.$"
+	.string "However, due to these processes, we are\n"
+	.string "confident that we can increase the\l"
+	.string "initial BASE STATS of the target\l"
+	.string "POKÉMON by 150.$"
 
 LavenderRadioP4_Devon_Combates_Texto_14.1:
-.string "Además, podremos manipular también los\n"
-	.string "PS, estadística hasta ahora solo\l"
-	.string "modificada por el FUERTE VÍNCULO.$"
+	.string "Furthermore, we'll be able to manipulate\n"
+	.string "the HP as well, a statistic previously\l"
+	.string "only modified by the DEEP BOND.$"
 
 LavenderRadioP4_Devon_Combates_Texto_15:
-.string "BILL: Así de reservada es la naturaleza\n"
-	.string "con sus mejores frutos, aquí solo\l"
-	.string "crearemos POKÉMON que potencialmente\l"
-	.string "podrían existir en estado salvaje,\l"
-	.string "pero nunca lo harán por mera cuestión\l"
-	.string "de probabilidad.$"
+	.string "BILL: That's how reserved nature is\n"
+	.string "with its best fruits; here, we'll only\l"
+	.string "create POKÉMON that could potentially\l"
+	.string "exist in the wild, but will never do so\l"
+	.string "purely due to probability.$"
 
 LavenderRadioP4_Devon_Combates_Texto_16:
-.string "OAK: Exacto BILL, deberían de\n"
-	.string "sucederse sendos milagros para que\l"
-	.string "eso ocurriera.$"
+	.string "OAK: Exactly BILL, several miracles\n"
+	.string "would be needed to occur for that to\l"
+	.string "happen.$"
 
 LavenderRadioP4_Devon_Combates_Texto_17:
-.string "ELM: Fin de la presentación. Hagamos\n"
-	.string "una pequeña demostración de su\l"
-	.string "funcionamiento, solo necesitamos\l"
-	.string "activar el ordenador, y…$"
+	.string "ELM: And that's the end of the\n"
+	.string "presentation. Let's showcase its\l"
+	.string "functionality briefly; all we need to do\l"
+	.string "is activate the computer, and…$"
 
 LavenderRadioP4_Devon_Combates_Texto_18:
-.string "????: Ejecutivos, recopilad toda\n"
-	.string "información disponible. Ocupáos de ELM,\l"
-	.string "BILL y ANDRA. Yo me encargaré de OAK.$"
+	.string "????: Executives, collect all available\n"
+	.string "information. Take care of ELM, BILL and\l"
+	.string "ANDRA. I'll take care of OAK.$"
 
 LavenderRadioP4_Devon_Combates_Texto_19:
-.string "BILL: ¡Tú! ¿Cómo has podido? ¡Te\n"
-	.string "rescaté cuando no tenías nada, te di\l"
-	.string "trabajo en SILPH y así nos lo\l"
-	.string "agradeces!$"
+	.string "BILL: You! How do you dare? I rescued\n"
+	.string "you when you had nothing, I gave you a\l"
+	.string "work opportunity at SILPH, and this is\l"
+	.string "how you thank us!$"
 
 LavenderRadioP4_Devon_Combates_Texto_20:
-.string "MIGUEL: Y eso querías, ¿no BILL? Que me\n"
-	.string "sometiese a tus órdenes, creías que\l"
-	.string "estaba destinado a ser <el ayudante de\l"
-	.string "BILL>, y nada más. Eso se acabó.$"
+	.string "MIGUEL: And that's what you wanted,\n"
+	.string "isn't it, BILL? Me to submit to your\l"
+	.string "orders, you thought I was meant to be\l"
+	.string "<BILL's aide>, and nothing else. That's\l"
+	.string "over.$"
 
 LavenderRadioP4_Devon_Combates_Texto_21:
-.string "Todos vosotros me habéis despreciado,\n"
-	.string "habéis ignorado la MEGA PIEDRA de\l"
-	.string "AERODACTYL que yo creé.$"
+	.string "All of you have scorned me, you've\n"
+	.string "ignored the MEGA STONE of AERODACTYL\l"
+	.string "that I created.$"
 
 LavenderRadioP4_Devon_Combates_Texto_22:
-.string "OAK: BLAINE extrajo ya su poder\n"
-	.string "primigenio sin necesidad de MEGA\l"
-	.string "PIEDRA.$"
+	.string "OAK: BLAINE has already harnessed his\n"
+	.string "primal power without utilizing a MEGA\l"
+	.string "STONE.$"
 
 LavenderRadioP4_Devon_Combates_Texto_23:
-.string "MIGUEL: ¿Y qué hay de GENESECT? ¿El\n"
-	.string "resto de FÓSILES? Habéis pasado por\l"
-	.string "alto todas mis investigaciones.$"
+	.string "MIGUEL: And what about GENESECT? The\n"
+	.string "rest of the FOSSILS? You've overlooked\l"
+	.string "all the research that I've done.$"
 
 LavenderRadioP4_Devon_Combates_Texto_24:
-.string "Hasta tú, {PLAYER}, con esa mirada de\n"
-	.string "condescendencia que me echaste en la\l"
-	.string "reunión. ¿Crees que no estoy a tu\l"
-	.string "altura?$"
+	.string "Even you, {PLAYER}, with that\n"
+	.string "disdainful glance you gave me during\l"
+	.string "the meeting. Do you think I'm not up to\l"
+	.string "your level?$"
 
 LavenderRadioP4_Devon_Combates_Texto_25:
-.string "OAK: Ya es suficiente, ¿qué es lo que\n"
-	.string "quieres?$"
+	.string "OAK: Enough, what are you seeking for?$"
 
 LavenderRadioP4_Devon_Combates_Texto_26:
-.string "MIGUEL: Hacer de DEVON la corporación\n"
-	.string "más poderosa, y veros caer a todos. No\l"
-	.string "os imagináis la de POKÉMON antiguos y\l"
-	.string "ancestrales que habitan en HOENN. Es\l"
-	.string "allí donde debí haber nacido, no en\l"
-	.string "este asqueroso corporativismo que va\l"
-	.string "en contra de mis intereses.$"
+	.string "MIGUEL: To turn DEVON into the most\n"
+	.string "powerful corporation and watch you all\l"
+	.string "fall. You can't imagine the number of\l"
+	.string "ancient and ancestral POKÉMON that\l"
+	.string "inhabit HOENN. That's where I should\l"
+	.string "have been born, not in this disgusting\l"
+	.string "corporatism that goes against my\l"
+	.string "interests.$"
 
 LavenderRadioP4_Devon_Combates_Texto_27:
-.string "????: No puedes evitar que obtengamos\n"
-	.string "lo que queremos de aquí, OAK. Solo te\l"
-	.string "queda pelear.$"
+	.string "????: You can't stop us from getting\n"
+	.string "what we want from here, OAK. Your only\l"
+	.string "option is to fight.$"
 
 LavenderRadioP4_Devon_Combates_Texto_28:
-.string "MIGUEL: {PLAYER} es mío. Vas a ser\n"
-	.string "derrotado, voy a desgastarte hasta\l"
-	.string "que debas arrodillarte ante mí por pura\l"
-	.string "probabilidad.$"
+	.string "MIGUEL: {PLAYER} is mine. You're going\n"
+	.string "to be defeated, I'm going to wear you\l"
+	.string "down until you have to kneel to me out\l"
+	.string "of sheer probability.$"
 
 LavenderRadioP4_Devon_Combates_Texto_30:
-.string "¡Científicos! ¡A él!$"
+.string "Scientists! To him!$"
 
 LavenderRadioP4_Devon_Combates_Texto_29:
-.string "Se acabaron las reverencias, el honor y\n"
-	.string "demás sandeces. Te derrotaré sin\l"
-	.string "importar los medios ni la forma. Hasta\l"
-	.string "ahora has salido siempre impune, pero\l"
-	.string "los espíritus y esencias, por muy puros\l"
-	.string "que sean, carecen de algo que les\l"
-	.string "impide alcanzar la victoria ocurra lo\l"
-	.string "que ocurra: no juegan sucio.$"
+	.string "No more bowing, honor, or other\n"
+	.string "nonsense. I will defeat you no matter\l"
+	.string "the means or the way. Until now, you\l"
+	.string "have always emerged unscathed, but\l"
+	.string "spirits and essences, no matter how\l"
+	.string "pure, lack something that prevents\l"
+	.string "them from achieving victory no matter\l"
+	.string "what happens: they don't play dirty.$"
 
 LavenderRadioP4_Devon_Combates_Texto_31:
-.string "Así que el famoso {PLAYER}. ¿Qué se\n"
-	.string "sentirá al pelear contra ti?$"
+	.string "So, the famous {PLAYER}. How does it\n"
+	.string "feel to fight against you?$"
 
 LavenderRadioP4_Devon_Combates_Texto_32:
-.string "Solo eres un ENTRENADOR más.$"
+	.string "You're just another TRAINER.$"
 
 LavenderRadioP4_Devon_Combates_Texto_33:
-.string "¡Te mostraré que ese vínculo del que\n"
-	.string "habláis no son más que pamplinas!$"
+	.string "I'll show you that the bond you talk\n"
+	.string "about is nothing but nonsense!$"
 
 LavenderRadioP4_Devon_Combates_Texto_34:
-.string "¿Entonces ese fenómeno es real?$"
+.string "So, is that phenomenon real?$"
 
 LavenderRadioP4_Devon_Combates_Texto_35:
-.string "MIGUEL: Esperable, pero mis nuevos\n"
-	.string "ayudantes te han desgastado lo\l"
-	.string "suficiente.$"
+	.string "MIGUEL: Expected, but my new\n"
+	.string "assistants have worn you down enough.$"
 
 LavenderRadioP4_Devon_Combates_Texto_35.1:
-.string "No eres el único capaz de aunar\n"
-	.string "tecnología con fuertes lazos.$"
+	.string "You're not the only one capable of\n"
+	.string "combining technology with deep bonds.$"
 
 LavenderRadioP4_Devon_Combates_Texto_36:
-.string "Solo espera a ver el nuevo equipo que\n"
-	.string "mis investigaciones, mis viajes y DEVON,\l"
-	.string "me han procurado.$"
+	.string "Just wait until you see the new team\n"
+	.string "that my research, my travels, and DEVON\l"
+	.string "have provided me.$"
 
 LavenderRadioP4_Devon_Combates_Texto_37:
-.string "¡Seré yo quién al fin silencie al gran\n"
-	.string "ADMIN.JEFE {PLAYER}!$"
+	.string "I'm going to be the one who finally\n"
+	.string "shuts up the grand CHIEF ADMIN.\l"
+	.string "{PLAYER}!$"
 
 LavenderRadioP4_Devon_Combates_Texto_38:
-.string "¿¡Otra vez!? ¿Por qué sigue ocurriendo?$"
+.string "Once again!? Why is this still happening?$"
 
 LavenderRadioP4_Devon_Combates_Texto_39:
-.string "????: Entonces este es tu nivel, OAK.\n"
-	.string "Gracias, me has proporcionado una\l"
-	.string "valiosa información, aparte de las\l"
-	.string "ondas de radio.$"
+	.string "????: So this is your level, OAK. Thank\n"
+	.string "you, you've provided me with valuable\l"
+	.string "information, apart from the radio\l"
+	.string "waves.$"
 
 LavenderRadioP4_Devon_Combates_Texto_40:
 .string "OAK: …$"
 
 LavenderRadioP4_Devon_Combates_Texto_41:
-.string "EJECUTIVO: Ya hemos transferido todos\n"
-	.string "sus datos a la SEDE DEVON: S12,\l"
-	.string "PRESIDENTE.$"
+	.string "EXECUTIVE: We've already transferred\n"
+	.string "all your data to DEVON HQ: B12F,\l"
+	.string "PRESIDENT.$"
 
 LavenderRadioP4_Devon_Combates_Texto_42:
-.string "????: Ha sido un placer, OAK. Gracias\n"
-	.string "por vuestra colaboración.$"
+	.string "????: It's been a pleasure, OAK. Thanks\n"
+	.string "for your collaboration.$"
 
 LavenderRadioP4_Devon_Combates_Texto_43:
-.string "????: La operación ha sido un éxito. Es\n"
-	.string "hora de...$"
+	.string "????: The operation has been\n"
+	.string "successful. It is time for…$"
 
 LavenderRadioP4_Devon_Combates_Texto_44:
-.string "MIGUEL: ¡NO!$"
+.string "S.MIGUEL: NO!$"
 
 LavenderRadioP4_Devon_Combates_Texto_45:
-.string "¡Nadie irá a ninguna parte hasta que\n"
-	.string "acabemos esto! ¡Mi combate con\l"
-	.string "{PLAYER} aún no ha acabado!$"
+	.string "Nobody's going anywhere until we finish\n"
+	.string "this! My battle with {PLAYER} isn't\l"
+	.string "over yet!$"
 
 LavenderRadioP4_Devon_Combates_Texto_46:
-.string "OAK: ¡Espera! ¿No irás a…?$"
+.string "OAK: Hold up, you're not…$"
 
 LavenderRadioP4_Devon_Combates_Texto_47:
-.string "MIGUEL: ¡Oh, sí!$"
+.string "S.MIGUEL: Oh, indeed I am!$"
 
 LavenderRadioP4_Devon_Combates_Texto_48:
-.string "OAK: ¡¿Te has vuelto loco?! ¡Está en una\n"
-	.string "fase muy temprana! ¡Podría\l"
-	.string "destruirnos a todos!$"
+	.string "OAK: Are you mad!? It's in early testing!\n"
+	.string "It could destroy us all!$"
 
 LavenderRadioP4_Devon_Combates_Texto_49:
-.string "MIGUEL: Me basta con que destruya a\n"
+	.string "S.MIGUEL: I only need it to destroy\n"
 	.string "{PLAYER}.$"
 
 LavenderRadioP4_Devon_Combates_Texto_50:
-.string "BZZZZ… PROTOTIPO X… ACTIVADO.$"
+.string "BZZZZ… X-PROTOTYPE… ACTIVATED.$"
 
 LavenderRadioP4_Devon_Combates_Texto_51:
-.string "BZZZZ… GEN LOCO… ACTIVADO.$"
+.string "BZZZZ… BERSERK GEN… ACTIVATED.$"
 
 LavenderRadioP4_Devon_Combates_Texto_52:
-.string "MIGUEL: Sí… El mayor potencial físico\n"
-	.string "posible, bajo mi control. La clase de\l"
-	.string "fuerza bruta necesaria para acabar\l"
-	.string "con alguien como tú. Voy a humillarte\l"
-	.string "delante de todos, las costuras de tu\l"
-	.string "equipo quedarán en evidencia de una\l"
-	.string "vez por todas.$"
+	.string "MIGUEL: Yes… The highest possible\n"
+	.string "physical potential just on the palm of\l"
+	.string "my hand. Just the sheer power needed\l"
+	.string "for finishing someone like you. I shall\l"
+	.string "humiliate you in front of everyone, the\l"
+	.string "seams of your team will finally be\l"
+	.string "exposed one and for all.$"
 
 LavenderRadioP4_Devon_Combates_Texto_53:
-.string "No me tomará más que un solo POKÉMON\n"
-	.string "para borrarlos a todos.$"
+	.string "It won't take me more than a single\n"
+	.string "POKÉMON to delete them.$"
 
 LavenderRadioP4_Devon_Combates_Texto_54:
-.string "ANDRA: ¡{PLAYER}! ¡Tu equipo!$"
+.string "ANDRA: {PLAYER}! Your team!$"
 
 LavenderRadioP4_Devon_Combates_Texto_55:
-.string "MIGUEL: ¡MEWTWO! ¡DESTRUYE!$"
+.string "S.MIGUEL: MEWTWO! DESTROY!$"
 
 LavenderRadioP4_Devon_Combates_Texto_56:
-.string "Pero… ¡Su ATAQUE es superior a 1000!$"
+.string "But… Its ATTACK is over 1000!$"
 
 LavenderRadioP4_Devon_Combates_Texto_57:
-.string "MIGUEL: ¿Por qué?$"
+.string "MIGUEL: Why?$"
 
 LavenderRadioP4_Devon_Combates_Texto_58:
-.string "¿Por qué no caes, haga lo que haga?$"
+	.string "Why do you never succumb, no matter\n"
+	.string "what I do?$"
 
 LavenderRadioP4_Devon_Combates_Texto_59:
 .string "…$"
 
 LavenderRadioP4_Devon_Combates_Texto_60:
-.string "Je… Jejeje…$"
+.string "He… Hehehe…$"
 
 LavenderRadioP4_Devon_Combates_Texto_61:
-.string "En el fondo debo darte las gracias. A\n"
-	.string "pesar de que antes dije que no\l"
-	.string "importaba la forma, lo cierto es que no\l"
-	.string "sería lo mismo derrotarte así,\l"
-	.string "empleando esa aberración a la\l"
-	.string "desesperada.$"
+	.string "Deep down, I must thank you. Although I\n"
+	.string "previously said that the means didn't\l"
+	.string "matter, the truth is, it wouldn't be the\l"
+	.string "same to defeat you like this, resorting\l"
+	.string "to that desperate aberration.$"
 
 LavenderRadioP4_Devon_Combates_Texto_62:
-.string "Ahora dispongo de las mismas\n"
-	.string "herramientas que tú, {PLAYER}. La\l"
-	.string "tecnología de DEVON y el VÍNCULO que\l"
-	.string "necesitaba. Mi victoria será completa\l"
-	.string "cuando en igualdad de condiciones,\l"
-	.string "todos vean que no eres especial.$"
+	.string "Now I have the same tools as you,\n"
+	.string "{PLAYER}. DEVON's technology and the\l"
+	.string "bond I needed. My victory will be\l"
+	.string "complete when, under equal conditions,\l"
+	.string "everyone sees that you're not special.$"
 
 
 LavenderRadioP4_Devon_Combates_Texto_63:
-.string "MIGUEL: Espera a ver, {PLAYER}. Este\n"
-	.string "es solo el inicio de una gran generación\l"
-	.string "de FÓSILES ante los que acabarás\l"
-	.string "sucumbiendo.$"
+	.string "MIGUEL: Wait and see, {PLAYER}. This\n"
+	.string "is just the beginning of a powerful\l"
+	.string "generation of FOSSILS which you will\l"
+	.string "eventually succumb to.$"
 
 LavenderRadioP4_Devon_Combates_Texto_64:
-.string "Solo quedáis ANDRA y tú como adalides de\n"
-	.string "eso que llamáis tradición. Tus queridos\l"
-	.string "MAESTROS de JOHTO ya han mostrado la\l"
-	.string "inferioridad de sus equipos frente\l"
-	.string "al nuevo orden.$"
+	.string "Only you and ANDRA remain as champions\n"
+	.string "of what you call tradition. Your beloved\l"
+	.string "JOHTO MASTERS have already shown the\l"
+	.string "inferiority of their teams against the\l"
+	.string "new order.$"
 
 LavenderRadioP4_Devon_Combates_Texto_65:
-.string "¡Recuerda mis palabras {PLAYER}! ¡Vas\n"
-	.string "a acabar tan mal como ellos!$"
+	.string "Keep in mind my words {PLAYER}! You're\n"
+	.string "going to end just as badly as them!$"
 
 LavenderRadioP4_Devon_Combates_Texto_66:
-.string "BILL: ¡Maldición! ¿Pero qué ha pasado?$"
+	.string "BILL: Oh damn! But what the hell just\n"
+	.string "happened?$"
 
 LavenderRadioP4_Devon_Combates_Texto_67:
-.string "OAK: Que tu ayudante nos ha\n"
-	.string "traicionado, BILL. A saber cuánto\l"
-	.string "tiempo llevaba asociado con DEVON,\l"
-	.string "debimos prestarle más atención.$"
+	.string "OAK: Your aide has betrayed us, BILL.\n"
+	.string "Who knows how long he's been\l"
+	.string "associated with DEVON, we should have\l"
+	.string "been more vigilant.$"
 
 LavenderRadioP4_Devon_Combates_Texto_67.1:
-.string "BILL: No puedo creerlo. Por mucho que le\n"
-	.string "ofrecieran, incluso investigar nuevos\l"
-	.string "fósiles... él jamás se vendería de esa\l"
-	.string "forma. Han debido ofrecerle algo más.$"
+	.string "BILL: I can't believe this. No matter\n"
+	.string "what they offered him, even the chance\l"
+	.string "to research new fossils… he would have\l"
+	.string "never betrayed us like that. They must\l"
+	.string "have offered him something else.$"
 
 LavenderRadioP4_Devon_Combates_Texto_67.2:
-.string "OAK: ¿Qué quieres decir, BILL?$"
+.string "OAK: What do you mean, BILL?$"
 
 LavenderRadioP4_Devon_Combates_Texto_67.3:
-.string "BILL: Se ha comportado de forma un\n"
-	.string "tanto extraña. Al igual que yo, siempre\l"
-	.string "ha ignorado el vínculo con sus\l"
-	.string "POKÉMON, incluso con ese AERODACTYL\l"
-	.string "que tanta ilusión le hizo. Pero hoy\l"
-	.string "parecía importarle más que nunca, lo\l"
-	.string "mismo o más que sus experimentos.$"
+	.string "BILL: He's been acting somewhat\n"
+	.string "strange. Like me, he's always\l"
+	.string "disregarded the bond with his POKÉMON,\l"
+	.string "even with that AERODACTYL he was so\l"
+	.string "excited about. But today, it seemed to\l"
+	.string "matter to him more than ever before,\l"
+	.string "the same or even more than his\l"
+	.string "experiments.$"
 
 LavenderRadioP4_Devon_Combates_Texto_68:
-.string "ELM: Él estuvo en la II GRAN REUNIÓN,\n"
-	.string "sabe de prácticamente todos nuestros\l"
-	.string "proyectos, de los prototipos,MEWTWO…\l"
-	.string "Eso es lo importante, BILL.$"
+	.string "ELM: He was present at the II GRAND\n"
+	.string "MEETING, he knows about practically all\l"
+	.string "of our projects, the prototypes,\l"
+	.string "MEWTWO… That's what's important, BILL.$"
 
 LavenderRadioP4_Devon_Combates_Texto_68.1:
 .string "BILL: …$"
 
 LavenderRadioP4_Devon_Combates_Texto_69:
-.string "OAK: Así es, DEVON estará al tanto de\n"
-	.string "todo a estas alturas. Solo nos queda\l"
-	.string "informar a GIOVANNI de esto, yo lo\l"
-	.string "haré.$"
+	.string "OAK: It is, DEVON will be fully aware by\n"
+	.string "now. All that's left is to inform\l"
+	.string "GIOVANNI about this, I'll take care of\l"
+	.string "it.$"
 
 LavenderRadioP4_Devon_Combates_Texto_70:
-.string "ELM: Debemos actuar rápido, GIOVANNI\n"
-	.string "es experto en ello. Vosotros dos, ANDRA\l"
-	.string "y {PLAYER}, seguro que desempeñaréis\l"
-	.string "un papel esencial en la respuesta a\l"
-	.string "DEVON.$"
+	.string "ELM: We must act quickly, GIOVANNI is\n"
+	.string "an expert at that. You two, ANDRA and\l"
+	.string "{PLAYER}, I'm sure you'll play an\l"
+	.string "essential role in reacting to DEVON.$"
 
 LavenderRadioP4_Devon_Combates_Texto_71:
 .string "ANDRA: …$"
 
 LavenderRadioP4_Devon_Combates_Texto_72:
-.string "OAK: BILL, ELM, esto no puede hacer más\n"
-	.string "que unirnos, en la búsqueda del límite\l"
-	.string "biológico que acabamos de resaltar\l"
-	.string "aquí.$"
+	.string "OAK: BILL, ELM, this can only serve to\n"
+	.string "unite us, as we pursue the biological\l"
+	.string "limit that we've just outlined here.$"
 
 LavenderRadioP4_Devon_Combates_Texto_73:
-.string "ANDRA: ¿Qué te ha parecido, {PLAYER}?$"
+.string "ANDRA: How does this strike you, {PLAYER}?$"
 
 LavenderRadioP4_Devon_Combates_Texto_74:
 .string "…$"
 
 LavenderRadioP4_Devon_Combates_Texto_75:
-.string "No… no me refería al ataque de DEVON,\n"
-	.string "más bien… a todo lo expuesto por ELM y\l"
-	.string "OAK.$"
+	.string "No… I didn't refer to the DEVON attack,\n"
+	.string "I was talking about… all that ELM and\l"
+	.string "OAK exposed.$"
 
 LavenderRadioP4_Devon_Combates_Texto_76:
-.string "Lo cierto es que… desde que derrotaste\n"
-	.string "al POKÉMON ESENCIA, y ya en la I GRAN\l"
-	.string "REUNIÓN, me temía todo esto. Pero\l"
-	.string "quise mirar para otro lado. Una parte de\l"
-	.string "mí creía que nada de esto podía pasar,\l"
-	.string "que TORRE LAVANDA seguiría, que\l"
-	.string "nuestros equipos continuarían\l"
-	.string "mejorando de forma -natural-, que\l"
-	.string "nuestra progresión lineal y constante\l"
-	.string "seguiría...$"
+	.string "The truth is… ever since you defeated\n"
+	.string "the ESSENCE POKÉMON, and even during\l"
+	.string "the I GRAND GATHERING, I've feared all\l"
+	.string "of this. But I chose to turn a blind eye.\l"
+	.string "Part of me believed that none of this\l"
+	.string "could happen, that LAVENDER TOWN TOWER\l"
+	.string "would endure, that our teams would keep\l"
+	.string "improving in a -natural- way, that our\l"
+	.string "steady linear progression would\l"
+	.string "continue…$"
 
 LavenderRadioP4_Devon_Combates_Texto_77:
-.string "Pero todo…todo lo que temía se ha\n"
-	.string "hecho evidente en esta reunión. La\l"
-	.string "realidad actual de KANTO, nuestros\l"
-	.string "propios límites, lo expuesto aquí como\l"
-	.string "única salida para llegar más allá…$"
+	.string "But everything... everything I was\n"
+	.string "afraid of, has become evident in this\l"
+	.string "meeting. The current reality of KANTO,\l"
+	.string "our own limitations, what's been laid\l"
+	.string "out here as the only way to go beyond…$"
 
 LavenderRadioP4_Devon_Combates_Texto_78:
-.string "Si te digo la verdad, choca\n"
-	.string "completamente con mi ideal de cómo\l"
-	.string "deberían funcionar las cosas en un\l"
-	.string "combate POKÉMON.$"
+	.string "If I'm honest with you, it goes\n"
+	.string "completely against my ideal of how\l"
+	.string "things should work in a POKÉMON battle.$"
 
 LavenderRadioP4_Devon_Combates_Texto_79:
-.string "El vínculo e interacciones que has ido\n"
-	.string "forjando con los tuyos, debería ser el\l"
-	.string "elemento más importante a la hora de\l"
-	.string "determinar el rendimiento de tu equipo,\l"
-	.string "sin embargo…$"
+	.string "The bond and interactions you've been\n"
+	.string "forging with your POKÉMON team should\l"
+	.string "be the most important element when\l"
+	.string "determining your team's performance,\l"
+	.string "however…$"
 
 LavenderRadioP4_Devon_Combates_Texto_80:
-.string "El futuro nos impulsa a esa dictadura\n"
-	.string "de lo mecánico, el rendimiento de un\l"
-	.string "POKÉMON va a estar programado de\l"
-	.string "antemano, y lo que es peor…$"
+	.string "The future drives us towards that\n"
+	.string "dictatorship of the mechanical, a\l"
+	.string "POKÉMON's performance will be\l"
+	.string "programmed in advance, and the worst\l"
+	.string "part is that…$"
 
 LavenderRadioP4_Devon_Combates_Texto_81:
-.string "Anulará completamente a cualquier otro\n"
-	.string "ENTRENADOR, al menos en cuanto\l"
-	.string "potencial de STATS BASE. Le hará ver\l"
-	.string "ridículo ante esa perfección creada\l"
-	.string "artificialmente.$"
+	.string "It will completely overshadow any other\n"
+	.string "TRAINER, at least in terms of BASE\l"
+	.string "STATS potential. It will make them look\l"
+	.string "ridiculous in the face of that\l"
+	.string "artificially created perfection.$"
 
 LavenderRadioP4_Devon_Combates_Texto_82:
-.string "Supongo que al final buscamos lo mismo\n"
-	.string "que ZEUS o LANCE, pero haciendo uso de\l"
-	.string "la tecnología.$"
+	.string "I guess in the end, we pursue the same\n"
+	.string "goal as ZEUS or LANCE, but by using\l"
+	.string "technology.$"
 
 LavenderRadioP4_Devon_Combates_Texto_83:
-.string "Pero no, el FUERTE VÍNCULO ha\n"
-	.string "demostrado que el potencial de un\l"
-	.string "POKÉMON, desde su más profunda\l"
-	.string "esencia, puede ser moldeable si crees\l"
-	.string "en ello. Tú llevaste eso al extremo en\l"
-	.string "RUINAS ALFA.$"
+	.string "However, DEEP BOND has proven that a\n"
+	.string "POKÉMON's potential, from its deepest\l"
+	.string "essence, can be shaped if you believe in\l"
+	.string "it. You took that to the extreme in\l"
+	.string "RUINS OF ALPH.$"
 
 LavenderRadioP4_Devon_Combates_Texto_84:
-.string "Me niego a pensar que ese potencial ya\n"
-	.string "ha mostrado todo lo que tiene. Más aún\l"
-	.string "en resignarme a que puede ser\l"
-	.string "procesado y mecanizado, tal y cómo\l"
-	.string "están haciendo con los PERROS\l"
-	.string "LEGENDARIOS y los EEVEE FUERTE\l"
-	.string "VÍNCULO.$"
+	.string "I refuse to think that that potential\n"
+	.string "has already shown all it has.\l"
+	.string "Furthermore, I refuse to accept that it\l"
+	.string "can be processed and mechanized, just\l"
+	.string "like they're doing with the LEGENDARY\l"
+	.string "BEASTS and the DEEP BOND EEVEE.$"
 
 LavenderRadioP4_Devon_Combates_Texto_85:
 .string "…$"
 
 LavenderRadioP4_Devon_Combates_Texto_86:
-.string "Si existe o no un poder mayor, accesible\n"
-	.string "mediante el entrenamiento y que hemos\l"
-	.string "pasado por alto, me es imposible\l"
-	.string "hallarlo en medio de este ambiente.$"
+	.string "Whether there is or isn't a greater\n"
+	.string "power, accessible through training and\l"
+	.string "overlooked by us, I find it impossible\l"
+	.string "to discover amidst this environment.$"
 
 LavenderRadioP4_Devon_Combates_Texto_87:
-.string "Es por ello que desapareceré por una\n"
-	.string "temporada, y me centraré\l"
-	.string "completamente en esa búsqueda.$"
+	.string "That's why I'll disappear for a while and\n"
+	.string "focus entirely on that quest.$"
 
 LavenderRadioP4_Devon_Combates_Texto_88:
-.string "Sé que puedo estar yendo tras un\n"
-	.string "fantasma, un ideal creado en mi cabeza,\l"
-	.string "que ni siquiera existe. Pero ante este\l"
-	.string "panorama, siento la obligación de\l"
-	.string "hacerlo.$"
+	.string "I know I might be chasing a ghost, an\n"
+	.string "ideal created in my head that doesn't\l"
+	.string "even exist. But given this situation, I\l"
+	.string "feel obligated to do so.$"
 
 LavenderRadioP4_Devon_Combates_Texto_89:
-.string "Incluso tú, {PLAYER}, has aunado\n"
-	.string "tecnología con tradición. Quizás ahí\l"
-	.string "esté tu virtud, no como OAK o BILL,\l"
-	.string "incapaces de ver más allá de sus\l"
-	.string "experimentos, o yo misma, en el otro\l"
-	.string "extremo.$"
+	.string "Even you, {PLAYER}, have combined\n"
+	.string "technology with tradition. Perhaps\l"
+	.string "that's your virtue, unlike OAK or BILL,\l"
+	.string "unable to see beyond their experiments,\l"
+	.string "or myself, at the other extreme.$"
 
 LavenderRadioP4_Devon_Combates_Texto_90:
-.string "Aún así… me mantendré fiel a mis\n"
-	.string "ideales.$"
+	.string "Even so... I will remain faithful to my\n"
+	.string "ideals.$"
 
 LavenderRadioP4_Cuarto_Cientifico::
 lock
@@ -1391,6 +1382,6 @@ release
 end
 
 LavenderRadioP4_Cuarto_Cientifico_Texto_1:
-.string "Al elogiar a alguien por su falta de\n"
-	.string "defectos también insinúas su falta de\l"
-	.string "virtudes.$"
+	.string "By praising someone for their lack of\n"
+	.string "flaws, you also imply their lack of\l"
+	.string "virtues.$"

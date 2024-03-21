@@ -166,11 +166,11 @@ msgbox NeoFuchsiaCityDocumento_Texto_2, MSGBOX_SIGN
 end
 
 NeoFuchsiaCityDocumento_Text_105:
-.string "Aquí hay una nota...$"
+.string "Here there is a note…$"
 
 NeoFuchsiaCityDocumento_Texto_2:
-.string "El PUESTO GUARDA DE LA ZONA SAFARI\n"
-	.string "está cerrado hasta nuevo aviso.$"
+	.string "The position of SAFARI ZONE KEEPER is\n"
+	.string "closed until new notice.$"
 
 
 

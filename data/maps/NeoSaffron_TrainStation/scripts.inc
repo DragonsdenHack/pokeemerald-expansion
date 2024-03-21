@@ -57,8 +57,8 @@ release
 end
 
 NeoSaffron_TrainStation_Policia_Texto_1:
-.string "Cuando el MAGNETOTRÉN sea inaugurado,\n"
-	.string "las vías de tren quedarán\l"
-	.string "inaccesibles, incluso para peces\l"
-	.string "gordos como usted.$"
+	.string "Once the MAGNET TRAIN is inaugurated,\n"
+	.string "the train tracks will become\l"
+	.string "inaccessible, even for big shots like\l"
+	.string "you.$"
 

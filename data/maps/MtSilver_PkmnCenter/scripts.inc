@@ -63,47 +63,40 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_2:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_3:
-.string "¿Tienes curiosidad por conocer mi\n"
-	.string "equipo? Me temo que tendrás que\l"
-	.string "convivir con esa curiosidad, jovencito.\l"
-	.string "Pertenezco a otra generación, y solo\l"
-	.string "cabe en la ficción lo que pudo haber\l"
-	.string "ocurrido en un eventual choque entre\l"
-	.string "nuestros equipos en plenitud.$"
+	.string "Are you curious to meet my team? I'm\n"
+	.string "afraid you'll have to live with that\l"
+	.string "curiosity, young one. I belong to\l"
+	.string "another generation, and only fiction\l"
+	.string "can behold what could have been a\l"
+	.string "battle between us in our primes.$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_5:
-.string "Así que AGATHA está en el lugar… Era de\n"
-	.string "esperar, siempre se aferró a TORRE\l"
-	.string "LAVANDA.$"
+	.string "So AGATHA is in the place… It was to be\n"
+	.string "expected, she always clung to POKÉMON\l"
+	.string "TOWER.$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_6:
-.string "Gracias, chico, iré a hablar con mi vieja\n"
-	.string "amiga. Sé que es un viaje largo, pero si\l"
-	.string "te apetece volver a pasarte por ahí,\l"
-	.string "serás bien recibido.$"
+	.string "Thank you, kid, I'll go talk to my old\n"
+	.string "friend. I know it's a long journey, but if\l"
+	.string "you feel like coming back around, you'll\l"
+	.string "be welcomed.$"
 
 
 MtSilver_PkmnCenter_Text_2:
-.string "Ah, sí…\n"
-.string "Yo le enseñé a AGATHA todo lo que\l"
-.string "sabe. Aunque jamás pudo acercarse\l"
-.string "a mi dominio sobre el TIPO\l"
-.string "FANTASMA, llegó a ser del ALTO\l"
-.string "MANDO.\l"
-.string "…\l"
-.string "…\l"
-.string "¿Tienes curiosidad por conocer mi\l"
-.string "equipo?\l"
-.string "Me temo que tendrás que vivir con\l"
-.string "esa curiosidad, jovencito,\l"
-.string "pertenezco a otra generación, y\l"
-.string "solo cabe en la ficción lo que\l"
-.string "pudo haber ocurrido en un eventual\l"
-.string "choque entre nuestros equipos en\l"
-.string "plenitud.$"
+	.string "Ah, yes… I taught AGATHA everything\n"
+	.string "she knows. Although she could never\l"
+	.string "come close to my mastery over the\l"
+	.string "GHOST-TYPE, she did become part of the\l"
+	.string "ELITE FOUR. … … Are you curious to know\l"
+	.string "my team? I'm afraid you'll have to live\l"
+	.string "with that curiosity, young one. I belong\l"
+	.string "to another generation, and only in\l"
+	.string "fiction can what might have happened in\l"
+	.string "a possible duel between our teams in\l"
+	.string "our prime exist.$"
 
 
 
@@ -117,15 +110,14 @@ release
 end
 
 MtSilver_PkmnCenter_Text_3:
-.string "Si KOGA supiera…\n"
-.string "Tuve en mi poder al POKÉMON TIPO\l"
-.string "VENENO más letal de todos los\l"
-.string "tiempos, con él me pude coronar\l"
-.string "CAMPEÓN hace medio siglo. Aunque\l"
-.string "de eso no hay registros, solo\l"
-.string "están en mi memoria y en la de los\l"
-.string "pocos que quedan de aquella\l"
-.string "época…$"
+	.string "If only KOGA knew… I once possessed\n"
+	.string "the deadliest POISON-TYPE POKÉMON of\l"
+	.string "all time; with it, I was able to be\l"
+	.string "crowned CHAMPION half a century ago.\l"
+	.string "Although there are no records of it, it\l"
+	.string "only exists in my memory and in the\l"
+	.string "memories of the few who remain from\l"
+	.string "that time...$"
 
 MtSilverPkmnCenter3_2::
 delay 20
@@ -156,19 +148,19 @@ MtSilverPkmnCenter3_2_Texto_1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilverPkmnCenter3_2_Texto_2:
-.string "Entonces tú también sabes del paso más\n"
-	.string "allá de ORQUÍDEA, para ser tan joven\l"
-	.string "estás bien informado.$"
+	.string "Then you also know about the passage\n"
+	.string "beyond CIANWOOD CITY, you're quite well\l"
+	.string "informed, despite your young age.$"
 
 MtSilverPkmnCenter3_2_Texto_3:
-.string "Si ahí está mi mujer, volveré a nuestra\n"
-	.string "pequeña casa, apartada de todo. Nada\l"
-	.string "me retiene aquí.$"
+	.string "If my wife is there, I will return to our\n"
+	.string "little house, away from everything.\l"
+	.string "Nothing holds me here.$"
 
 MtSilverPkmnCenter3_2_Texto_4:
-.string "¿Eres {PLAYER}? Gracias, {PLAYER},\n"
-	.string "si decides volver a pasarte por ahí,\l"
-	.string "serás bien recibido.$"
+	.string "Are you {PLAYER}? Thank you\n"
+	.string "{PLAYER}, if you decide to come back\l"
+	.string "around, you'll be welcomed.$"
 
 
 
@@ -181,7 +173,7 @@ end
 
 MtSilver_PkmnCenter_Text_4:
 .string "Hohoho!\n"
-.string "Me an ex-champion?\l"
+.string "Me a JOHTO ex-champion?\l"
 .string "I slipped in here by coming around the\l"
 .string "other side of the mountain, but keep\l"
 .string "between us!$"
