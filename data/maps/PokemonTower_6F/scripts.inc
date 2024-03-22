@@ -164,7 +164,7 @@ PokemonTower_6F_Combate_Fuji_Texto_4:
 	.string "is by taking away everything you value.$"
 
 PokemonTower_6F_Combate_Fuji_Texto_5:
-	.string "W-Wait old man, there is no need of...$"
+	.string "W-Wait old man, there is no need of…$"
 
 PokemonTower_6F_Combate_Fuji_Texto_6:
 .string "GRUNTS: HIGH RANK {PLAYER}!!\n"

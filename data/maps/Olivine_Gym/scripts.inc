@@ -118,7 +118,7 @@ Olivine_Gym_Combate_Crom_Texto_3:
 	.string "spotlight.$"
 
 Olivine_Gym_Combate_Crom_Texto_4:
-.string "...$"
+.string "{PAUSE 25}…{PAUSE 25}$"
 
 Olivine_Gym_Combate_Crom_Texto_5:
 	.string "I see that fierce will in your eyes. Like\n"
@@ -136,7 +136,7 @@ Olivine_Gym_Combate_Crom_Texto_6:
 	.string "the will of my resilient POKÉMON!$"
 
 Olivine_Gym_Combate_Crom_Texto_7:
-.string "Oh...\n"
+.string "Oh…\n"
 	.string "I can't remember the last time\l"
 	.string "I saw something like this.$"
 

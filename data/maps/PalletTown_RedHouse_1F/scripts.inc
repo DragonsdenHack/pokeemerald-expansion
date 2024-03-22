@@ -38,7 +38,7 @@ PalletTown_RedHouse_1F_Encuentro_Madre_Texto_1:
 	.string "He is not here.$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_2:
-.string "... ... ... ... ... ... ...$"
+.string "… … … … … … …$"
 
 PalletTown_RedHouse_1F_Encuentro_Madre_Texto_3:
 	.string "Excuse me but I am busy, I would like\n"

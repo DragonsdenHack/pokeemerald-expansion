@@ -430,7 +430,7 @@ RocketHideoutViridian_Escena_9_Texto_6:
 .string "And what do you think to do now then?$"
 
 RocketHideoutViridian_Escena_9_Texto_7:
-.string "...$"
+.string "…$"
 
 RocketHideoutViridian_Escena_9_Texto_8:
 	.string "GIOVANNI: A man who can't recognize a\n"
@@ -456,7 +456,7 @@ RocketHideoutViridian_Escena_9_Texto_12:
 
 RocketHideoutViridian_Escena_9_Texto_13:
 	.string "I haven't been able to take advantage\n"
-	.string "of the potential of my subordinates...$"
+	.string "of the potential of my subordinates…$"
 
 RocketHideoutViridian_Escena_9_Texto_14:
 	.string "I swear someday I will resurrect TEAM\n"

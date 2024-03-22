@@ -864,7 +864,7 @@ step_end
 LavenderRadioP4_Devon_Combates_Texto_1:
 	.string "OAK: Welcome, all guests, to the opening\n"
 	.string "of RADIO TOWER, I would have preferred\l"
-	.string "to make this celebration more…\l"
+	.string "to make this celebration more{PAUSE 15}…\l"
 	.string "community-oriented. However, as you\l"
 	.string "know, the true purposes of this place\l"
 	.string "must not be public knowledge. After\l"
@@ -901,7 +901,7 @@ LavenderRadioP4_Devon_Combates_Texto_6:
 	.string "application.$"
 
 LavenderRadioP4_Devon_Combates_Texto_7:
-.string "BILL: …$"
+.string "BILL: {PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP4_Devon_Combates_Texto_8:
 	.string "ELM: Here, of course, we're pursuing\n"
@@ -925,7 +925,7 @@ LavenderRadioP4_Devon_Combates_Texto_9:
 
 LavenderRadioP4_Devon_Combates_Texto_10:
 	.string "OAK: NIDOKING-X, NIDOQUEEN-Y,\n"
-	.string "PORYGON3… are examples of what has\l"
+	.string "PORYGON3{PAUSE 15}…{PAUSE 15} are examples of what has\l"
 	.string "been obtained through processes\l"
 	.string "similar to this, although not as\l"
 	.string "efficient as those described by ELM\l"
@@ -1099,7 +1099,7 @@ LavenderRadioP4_Devon_Combates_Texto_39:
 	.string "waves.$"
 
 LavenderRadioP4_Devon_Combates_Texto_40:
-.string "OAK: …$"
+.string "OAK: {PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP4_Devon_Combates_Texto_41:
 	.string "EXECUTIVE: We've already transferred\n"
@@ -1137,10 +1137,10 @@ LavenderRadioP4_Devon_Combates_Texto_49:
 	.string "{PLAYER}.$"
 
 LavenderRadioP4_Devon_Combates_Texto_50:
-.string "BZZZZ… X-PROTOTYPE… ACTIVATED.$"
+.string "BZZZZ{PAUSE 25}…{PAUSE 25} X-PROTOTYPE{PAUSE 25}…{PAUSE 25} ACTIVATED.$"
 
 LavenderRadioP4_Devon_Combates_Texto_51:
-.string "BZZZZ… BERSERK GEN… ACTIVATED.$"
+.string "BZZZZ{PAUSE 25}…{PAUSE 25} BERSERK GEN{PAUSE 25}…{PAUSE 25} ACTIVATED.$"
 
 LavenderRadioP4_Devon_Combates_Texto_52:
 	.string "MIGUEL: Yes… The highest possible\n"
@@ -1159,23 +1159,23 @@ LavenderRadioP4_Devon_Combates_Texto_54:
 .string "ANDRA: {PLAYER}! Your team!$"
 
 LavenderRadioP4_Devon_Combates_Texto_55:
-.string "S.MIGUEL: MEWTWO! DESTROY!$"
+.string "S.MIGUEL: MEWTWO!{PAUSE 35} DESTROY!$"
 
 LavenderRadioP4_Devon_Combates_Texto_56:
 .string "But… Its ATTACK is over 1000!$"
 
 LavenderRadioP4_Devon_Combates_Texto_57:
-.string "MIGUEL: Why?$"
+.string "S.MIGUEL: Why?$"
 
 LavenderRadioP4_Devon_Combates_Texto_58:
 	.string "Why do you never succumb, no matter\n"
 	.string "what I do?$"
 
 LavenderRadioP4_Devon_Combates_Texto_59:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP4_Devon_Combates_Texto_60:
-.string "He… Hehehe…$"
+.string "He{PAUSE 35}…{PAUSE 15} Hehehe…$"
 
 LavenderRadioP4_Devon_Combates_Texto_61:
 	.string "Deep down, I must thank you. Although I\n"
@@ -1246,7 +1246,7 @@ LavenderRadioP4_Devon_Combates_Texto_68:
 	.string "MEWTWO… That's what's important, BILL.$"
 
 LavenderRadioP4_Devon_Combates_Texto_68.1:
-.string "BILL: …$"
+.string "BILL: {PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP4_Devon_Combates_Texto_69:
 	.string "OAK: It is, DEVON will be fully aware by\n"
@@ -1261,7 +1261,7 @@ LavenderRadioP4_Devon_Combates_Texto_70:
 	.string "essential role in reacting to DEVON.$"
 
 LavenderRadioP4_Devon_Combates_Texto_71:
-.string "ANDRA: …$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP4_Devon_Combates_Texto_72:
 	.string "OAK: BILL, ELM, this can only serve to\n"
@@ -1275,12 +1275,12 @@ LavenderRadioP4_Devon_Combates_Texto_74:
 .string "…$"
 
 LavenderRadioP4_Devon_Combates_Texto_75:
-	.string "No… I didn't refer to the DEVON attack,\n"
+	.string "No{PAUSE 25}…{PAUSE 25} I didn't refer to the DEVON attack,\n"
 	.string "I was talking about… all that ELM and\l"
 	.string "OAK exposed.$"
 
 LavenderRadioP4_Devon_Combates_Texto_76:
-	.string "The truth is… ever since you defeated\n"
+	.string "The truth is{PAUSE 25}…{PAUSE 25} ever since you defeated\n"
 	.string "the ESSENCE POKÉMON, and even during\l"
 	.string "the I GRAND GATHERING, I've feared all\l"
 	.string "of this. But I chose to turn a blind eye.\l"
@@ -1292,7 +1292,7 @@ LavenderRadioP4_Devon_Combates_Texto_76:
 	.string "continue…$"
 
 LavenderRadioP4_Devon_Combates_Texto_77:
-	.string "But everything... everything I was\n"
+	.string "But everything{PAUSE 35}…{PAUSE 35} everything I was\n"
 	.string "afraid of, has become evident in this\l"
 	.string "meeting. The current reality of KANTO,\l"
 	.string "our own limitations, what's been laid\l"
@@ -1345,7 +1345,7 @@ LavenderRadioP4_Devon_Combates_Texto_84:
 	.string "BEASTS and the DEEP BOND EEVEE.$"
 
 LavenderRadioP4_Devon_Combates_Texto_85:
-.string "…$"
+.string "{PAUSE 25}…{PAUSE 25}$"
 
 LavenderRadioP4_Devon_Combates_Texto_86:
 	.string "Whether there is or isn't a greater\n"
@@ -1371,7 +1371,7 @@ LavenderRadioP4_Devon_Combates_Texto_89:
 	.string "or myself, at the other extreme.$"
 
 LavenderRadioP4_Devon_Combates_Texto_90:
-	.string "Even so... I will remain faithful to my\n"
+	.string "Even so{PAUSE 35}…{PAUSE 35} I will remain faithful to my\n"
 	.string "ideals.$"
 
 LavenderRadioP4_Cuarto_Cientifico::

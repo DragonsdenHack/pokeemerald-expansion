@@ -363,7 +363,7 @@ Route49_MazeP4_Combate_Maestro_Texto_7:
 	.string "frantic.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_8:
-	.string "Hmm, okay… show me how you relate with\n"
+	.string "Hmm, okay{PAUSE 15}…{PAUSE 15} show me how you relate with\n"
 	.string "your team.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_9:
@@ -447,7 +447,7 @@ Route49_MazeP4_Combate_Maestro_Texto_22:
 	.string "within the RUINS OF ALPH.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_23:
-.string "{PLAYER}... to something even more powerful.$"
+.string "{PLAYER}{PAUSE 25}…{PAUSE 25} to something even more powerful.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_24:
 	.string "G.MASTER: As I suspected, facing\n"

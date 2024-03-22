@@ -74,7 +74,7 @@ end
 PowerPlant13_Texto_1:
 	.string "You are done, young lady; when LT.SURGE\n"
 	.string "arrives, it won't take him more than one\l"
-	.string "POKÉMON to finish you off...$"
+	.string "POKÉMON to finish you off…$"
 
 
 
@@ -86,10 +86,10 @@ end
 
 PowerPlant14_Texto_1:
 .string "{PLAYER}?\n"
-	.string "Finally...\l"
+	.string "Finally…\l"
 	.string "I have already defeated 7 POLICE\l"
-	.string "officers who fled to alert LT. SURGE...\l"
-	.string "Hurry... My team won't last much longer...$"
+	.string "officers who fled to alert LT. SURGE…\l"
+	.string "Hurry… My team won't last much longer…$"
 
 
 
@@ -205,10 +205,10 @@ end
 
 PowerPlant_Encuentro_Petrel_Texto_1:
 	.string "PETREL: {PLAYER}! Where were you?\n"
-	.string "ARCHER and I had to go in without you...\l"
+	.string "ARCHER and I had to go in without you…\l"
 	.string "we saw as LORELEI of the ELITE FOUR\l"
 	.string "arrived at the CENTRAL to stop ANDRA\l"
-	.string "and we had to intervene... ARCHER is\l"
+	.string "and we had to intervene… ARCHER is\l"
 	.string "currently battling her, he asked me to\l"
 	.string "find you and tell you the plan…$"
 
@@ -338,7 +338,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_1:
 .string "Zap!$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_2:
-.string "Zap...$"
+.string "Zap…$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_3:
 	.string "You obtained a feather from the\n"
@@ -428,7 +428,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_14:
 	.string "possible. After defeating two\l"
 	.string "legendaries and fulfilling not only your\l"
 	.string "mission but also this one, I can't\l"
-	.string "imagine how our leader will receive you...$"
+	.string "imagine how our leader will receive you…$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_15:
 	.string "ARCHER: Let's go now, {PLAYER}. This\n"

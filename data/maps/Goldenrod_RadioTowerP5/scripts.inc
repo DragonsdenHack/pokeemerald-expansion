@@ -465,7 +465,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_7:
 	.string "understand?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_8:
-.string "LANCE: ...$"
+.string "LANCE: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_9:
 .string "ANDRA: Come on, {PLAYER}!\n"
@@ -665,7 +665,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_39:
 	.string "means are insignificant.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_40:
-.string "OAK: ...$"
+.string "OAK: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_41:
 	.string "GIOVANNI: On the other hand, SILPH will\n"
@@ -696,7 +696,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_44:
 	.string "friend.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_45:
-.string "FUJI: ...$"
+.string "FUJI: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_46:
 	.string "GIOVANNI: FUJI has already told me\n"
@@ -829,7 +829,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_65:
 .string "Our expectations…$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_66:
-.string "OAK: ...$"
+.string "OAK: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_67:
 	.string "GIOVANNI: Suggest that it's possible\n"
@@ -848,7 +848,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_69:
 	.string "at our disposal, you'll believe it too.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_70:
-.string "BILL: ...$"
+.string "BILL: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_71:
 	.string "That's all, gentleman. As you can see, if\n"
@@ -938,7 +938,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_84:
 	.string "our fingertips.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_85:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: {PAUSE 25}…{PAUSE 25}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_86:
 	.string "I suppose you paid special attention to\n"

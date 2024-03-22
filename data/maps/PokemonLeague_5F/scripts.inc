@@ -262,10 +262,10 @@ PokemonLeague_5F_Azul_Rojo_Texto_2:
 .string "Char!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_3:
-.string "Blas...$"
+.string "Blas…$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_4:
-.string "RED: {PAUSE 25}...{PAUSE 25}$"
+.string "RED: {PAUSE 25}…{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_5:
 	.string "BLUE: NO!\n"
@@ -328,7 +328,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_11:
 	.string "Come with me!$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_12:
-.string "BLUE: {PAUSE 25}...{PAUSE 25}$"
+.string "BLUE: {PAUSE 25}…{PAUSE 25}$"
 
 PokemonLeague_5F_Azul_Rojo_Texto_13:
 	.string "Gr-{PAUSE 45}Grandpa…{PAUSE 35} Wait…{PAUSE 35} Please…{PAUSE 35} I did my\n"
@@ -425,9 +425,9 @@ PokemonLeague_5F_Azul_Rojo_Texto_26:
 PokemonLeague_5F_Azul_Rojo_Texto_27:
 .string "IS THAT ALL YOU HAVE!!??\n"
 	.string "COM'ON, BRING MORE!\l"
-	.string "10!{PAUSE 20}...{PAUSE 20}\l"
-	.string "20!{PAUSE 20}...{PAUSE 20}\l"
-	.string "50!{PAUSE 20}...{PAUSE 20}\l"
+	.string "10!{PAUSE 20}…{PAUSE 20}\l"
+	.string "20!{PAUSE 20}…{PAUSE 20}\l"
+	.string "50!{PAUSE 20}…{PAUSE 20}\l"
 	.string "You will need something else than that\l"
 	.string "to bend our will and the will of our\l"
 	.string "POKÉMON!$"

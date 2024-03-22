@@ -29,5 +29,5 @@ CeruleanCity_House3_Text_2:
 	.string "one of those for a POLIWHIRL. I know\l"
 	.string "it's a bad deal, but I no longer have the\l"
 	.string "energy to capture a POLIWAG and evolve\l"
-	.string "it on my own... ... ... How? You? I would\l"
+	.string "it on my own {PAUSE 15}… {PAUSE 15}…{PAUSE 15} …{PAUSE 15} How? You? I would\l"
 	.string "never do business with a ROCKET!$"

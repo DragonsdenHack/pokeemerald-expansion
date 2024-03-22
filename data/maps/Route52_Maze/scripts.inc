@@ -38,8 +38,8 @@ end
 Route52MazeDocumento_Text_100:
 .string "ADVANCED FINANCIAL MARKET\n"
 	.string "MANIPULATION TECHNIQUES.\l"
-	.string "...\l"
-	.string "...\l"
+	.string "…\l"
+	.string "…\l"
 	.string "It's over 700 pages long!$"
 
 Route52_Maze_Combate_1::
@@ -119,8 +119,8 @@ step_end
 
 
 Route52_Maze_Combate_1_Texto_1:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route52_Maze_Combate_1_Texto_2:
 	.string "This PC is kinda suspicious…$"

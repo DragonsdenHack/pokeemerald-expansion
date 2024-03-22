@@ -66,8 +66,8 @@ Route2_Path3_Combate_Ayudante_Oak_Texto_1:
 	.string "have to tell you again.$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route2_Path3_Combate_Ayudante_Oak_Texto_3:
 	.string "Do you dare to cross your gaze with an\n"

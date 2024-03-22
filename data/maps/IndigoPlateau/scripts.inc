@@ -93,7 +93,7 @@ RocketHideout_6F_Escena_Lance_Texto_2:
 	.string "Despite the improvements in recent\n"
 	.string "months, there is still much work to be\l"
 	.string "done before opening up us to the rest\l"
-	.string "of the world. SEVII, HOENN, JOHTO... can\l"
+	.string "of the world. SEVII, HOENN, JOHTO{PAUSE 25}…{PAUSE 25} can\l"
 	.string "wait. But you don't need to worry; SILPH\l"
 	.string "is more than enough to supply all of\l"
 	.string "KANTO population.$"

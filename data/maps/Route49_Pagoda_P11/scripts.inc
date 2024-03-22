@@ -76,7 +76,7 @@ Route49_Pagoda_P11_Combate_Maestro_Texto_1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_2:
-	.string "Oh... I'm truly sorry. I was lost in\n"
+	.string "Oh{PAUSE 25}…{PAUSE 25} I'm truly sorry. I was lost in\n"
 	.string "thought, meditating.$"
 
 Route49_Pagoda_P11_Combate_Maestro_Texto_3:

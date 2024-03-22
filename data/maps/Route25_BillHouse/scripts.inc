@@ -150,7 +150,7 @@ Route25_BillHouse_Evento_Policia_text_2:
 	.string "that you could offer me.$"
 
 Route25_BillHouse_Evento_Policia_text_3:
-.string "...$"
+.string "…$"
 
 Route25_BillHouse_Evento_Policia_text_4:
 .string "Don't you want my patent for long\n"
@@ -323,11 +323,11 @@ release
 end
 
 Route25_BillHouse_Warp_text_1:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route25_BillHouse_Warp_Text_YesNo:
-    .string "...\n"
-	.string "...\l"
+    .string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
     .string "This poster seems to be covering some\l"
 	.string "tunnel that leads somewhere else.\l"
 	.string "Wanna cross it?$"

@@ -101,8 +101,8 @@ CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_1:
 	.string "of combat knowledge.$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 10}…{PAUSE 10}\n"
+	.string "{PAUSE 10}…{PAUSE 10}$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial_Texto_3:
 	.string "Nah, you neither look to have the skill\n"

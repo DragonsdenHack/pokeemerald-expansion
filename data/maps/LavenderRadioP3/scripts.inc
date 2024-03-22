@@ -38,7 +38,7 @@ end
 
 LavenderRadioP3_Text_5:
 	.string "GASTLY and HAUNTER are now in the\n"
-	.string "southern GRAVEYARD... Do you think some\l"
+	.string "southern GRAVEYARD{PAUSE 15}…{PAUSE 15} Do you think some\l"
 	.string "of them have migrated elsewhere? The\l"
 	.string "plot in CERULEAN CITY perhaps? Maybe\l"
 	.string "you're right.$"
@@ -167,11 +167,11 @@ end
 
 EventScript_MasterBall_Texto_1:
 .string "Do you want a MASTER BALL?\n"
-	.string "It will cost 300 K POKÉ.$"
+	.string "It will cost 300,000 POKÉ.$"
 
 EventScript_PiedraRocket_Texto_1:
 .string "Do you want a ROCKET STONE?\n"
-	.string "It will cost 2,5 M POKÉ.$"
+	.string "It will cost 2,500,000 POKÉ.$"
 
 
 LavenderRadioP3_Tienda_Pokemon::

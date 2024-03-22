@@ -315,7 +315,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15:
 	.string "object. Use it wisely.$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: …$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 	.string "GIOVANNI: The missions I'll assign\n"
@@ -968,7 +968,7 @@ RocketHideout_8F_Mision_Silph_text_13:
 	.string "YOU HAVE RECEIVED A LV.35 AERODACTYL!$"
 
 RocketHideout_8F_Mision_Silph_text_14:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: …$"
 
 RocketHideout_8F_Mision_Silph_text_15:
 	.string "GIOVANNI: I told you that in due time I\n"
@@ -1703,7 +1703,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_10:
 	.string "approve of-.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_11:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: …$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_12:
 	.string "GIOVANNI: -Illegal practices that we\n"
@@ -2073,7 +2073,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_3:
 	.string "ROCKET to talk about OAK. The task I'm\l"
 	.string "about to assign you is much more\l"
 	.string "momentous for the history of our\l"
-	.string "region. Listen...$"
+	.string "region. Listen…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
 	.string "For as long as anyone can remember,\n"
@@ -2086,7 +2086,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_4:
 	.string "characteristics of HO-OH, GROUDON, or\l"
 	.string "RAYQUAZA? A pattern seen in all known\l"
 	.string "regions without exception, except for\l"
-	.string "KANTO, which is quite peculiar...$"
+	.string "KANTO, which is quite peculiar…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
 	.string "Several theories emerged trying to\n"
@@ -2094,14 +2094,14 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_5:
 	.string "and researchers claimed it was MEW.\l"
 	.string "However, we can't group MEW with\l"
 	.string "RAYQUAZA or LUGIA. It aligns more with\l"
-	.string "the profile of JIRACHI in HOENN or...$"
+	.string "the profile of JIRACHI in HOENN or…$"
 
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_6:
-.string "PROTÓN: ...$"
+.string "PROTÓN: …$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_7:
-	.string "GIOVANNI: ...CELEBI in JOHTO.$"
+	.string "GIOVANNI: …CELEBI in JOHTO.$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
 	.string "Some argued that KANTO lacked a\n"
@@ -2113,7 +2113,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_8:
 	.string "LUGIA or HO-OH to develop here. In that\l"
 	.string "sense, it might be a matter of mere\l"
 	.string "chance, resulting in a curious\l"
-	.string "coincidence. However...$"
+	.string "coincidence. However…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_9:
 	.string "One last group of researchers points\n"
@@ -2153,7 +2153,7 @@ RocketHideout8F_Mision_Subterraneo_Silph_Text_13:
 	.string "the opportunity to meet several times\l"
 	.string "with their PRESIDENT, {PLAYER}. The\l"
 	.string "thing is, in our last meeting, this topic\l"
-	.string "came up precisely, and...$"
+	.string "came up precisely, and…$"
 
 RocketHideout8F_Mision_Subterraneo_Silph_Text_14:
 	.string "SILPH actually has a huge private\n"
@@ -2461,7 +2461,7 @@ RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_10:
 	.string "currents between them are the\l"
 	.string "strongest of all the SEVEN ISLANDS. It\l"
 	.string "would be too risky to attempt to pass\l"
-	.string "through there, yet...$"
+	.string "through there, yet…$"
 
 RocketHideout8F_Mision_Lugia_Roca_Ombligo_Texto_11:
 	.string "ARCHER found a different way out from\n"
@@ -2639,7 +2639,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_9:
 	.string "honor and loyalty very seriously. If OAK\l"
 	.string "has personally challenged you, and you\l"
 	.string "believe you should go on your own, you\l"
-	.string "should do so...$"
+	.string "should do so…$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_10:
 	.string "However, given the significance this\n"
@@ -2974,7 +2974,7 @@ RocketHideout8F_Mision_Johto_Text_3:
 	.string "YOU JUST INVOICED 1'5 MILLION POKÉ!!$"
 
 RocketHideout8F_Mision_Johto_Text_4:
-.string "GIOVANNI: {PAUSE 25}...{PAUSE 25}$"
+.string "GIOVANNI: {PAUSE 25}…{PAUSE 25}$"
 
 RocketHideout8F_Mision_Johto_Text_5:
 .string "Are you sure you don't want them,\n"
@@ -3687,12 +3687,12 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_3:
 	.string "balance with their team could defeat\l"
 	.string "them even in a POKÉMON battle. You were\l"
 	.string "the only one who could do it,\l"
-	.string "{PLAYER}...$"
+	.string "{PLAYER}…$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_6:
 	.string "As is customary, after each major\n"
 	.string "event, I gather you all here to assess\l"
-	.string "everything... and to look to the future.$"
+	.string "everything… and to look to the future.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_7:
 .string "Before anything else, your rewards.$"
@@ -3974,7 +3974,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_2:
 	.string "from you. Tell me all the details…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_3:
-	.string "I see… So JOHTO has several species\n"
+	.string "I see{PAUSE 15}…{PAUSE 15} So JOHTO has several species\n"
 	.string "believed to be extinct, and they\l"
 	.string "inhabit that great paradise known as\l"
 	.string "the west zone of CIANWOOD.$"
@@ -4017,7 +4017,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_6:
 RocketHideout_8F_Mision_Base_Hoenn_Texto_7:
 	.string "The result has been outstanding, and\n"
 	.string "the POKÉMON found there, are\l"
-	.string "exceptional. But those SCIENTISTS…\l"
+	.string "exceptional. But those SCIENTISTS{PAUSE 15}…\l"
 	.string "they don't work for us, they seem to\l"
 	.string "pursue similar objectives to ours.$"
 
@@ -4042,7 +4042,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_11:
 	.string "DEOXYS.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_12:
-.string "ANDRA: And…?$"
+.string "ANDRA: And{PAUSE 15}…?$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_13:
 	.string "GIOVANNI: And DEVON agreed, with the\n"
@@ -4051,7 +4051,7 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_13:
 	.string "didn't say a word about MEWTWO.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_14:
-.string "Maybe is too soon, but…$"
+.string "Maybe is too soon, but{PAUSE 15}…$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_15:
 	.string "{PLAYER}! I want you to go with ANDRA\n"
@@ -4084,12 +4084,12 @@ RocketHideout_8F_Mision_Base_Hoenn_Texto_19:
 	.string "power of the POKÉMON WORLD.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_20:
-.string "ANDRA: Sounds… shocking.$"
+.string "ANDRA: Sounds{PAUSE 25}…{PAUSE 15} shocking.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_21:
 	.string "GIOVANNI: And it will be, you'll see when\n"
 	.string "you see what there is to show, but for\l"
-	.string "now… You have at your disposal the\l"
+	.string "now{PAUSE 25}…{PAUSE 15} You have at your disposal the\l"
 	.string "teleportation that sends you to HOENN.$"
 
 RocketHideout_8F_Mision_Base_Hoenn_Texto_22:
@@ -4209,9 +4209,9 @@ RocketHideout_8F_Mision_Neo_Canela_Texto_2:
 	.string "path.$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_3:
-	.string "BLAINE: The LABORATORY… the POKÉMON\n"
-	.string "MANSION… the GYM… now everything lies\l"
-	.string "at the bottom of the sea…$"
+	.string "BLAINE: The LABORATORY{PAUSE 25}…{PAUSE 25} the POKÉMON\n"
+	.string "MANSION{PAUSE 25}…{PAUSE 25} the GYM{PAUSE 25}…{PAUSE 25} now everything lies\l"
+	.string "at the bottom of the sea{PAUSE 15}…$"
 
 RocketHideout_8F_Mision_Neo_Canela_Texto_4:
 	.string "OAK: The issue is that, after the I\n"
@@ -4381,7 +4381,7 @@ RocketHideout_8F_Mision_Central_Energia_Texto_6:
 
 RocketHideout_8F_Mision_Central_Energia_Texto_7:
 	.string "Returning to the issue of CINNABAR\n"
-	.string "ISLAND… I would appreciate it if you\l"
+	.string "ISLAND{PAUSE 25}…{PAUSE 15} I would appreciate it if you\l"
 	.string "didn't speak with anyone about\l"
 	.string "whatever you may have seen there, not\l"
 	.string "even with ANDRA.$"
@@ -4396,7 +4396,7 @@ RocketHideout_8F_Mision_Central_Energia_Texto_8:
 RocketHideout_8F_Mision_Central_Energia_Texto_9:
 	.string "Until we are certain we have something\n"
 	.string "truly significant, something we can\l"
-	.string "control with complete confidence…\l"
+	.string "control with complete confidence{PAUSE 15}…\l"
 	.string "those projects are completely\l"
 	.string "confidential, do you understand\l"
 	.string "{PLAYER}?$"
@@ -4547,10 +4547,10 @@ RocketHideout_8F_Final_DLC_Texto_2:
 	.string "attention.$"
 
 RocketHideout_8F_Final_DLC_Texto_3:
-	.string "As for ANDRA… perhaps it's for the best\n"
+	.string "As for ANDRA{PAUSE 15}…{PAUSE 15} perhaps it's for the best\n"
 	.string "this way. After all, her quest may lead\l"
 	.string "to a discovery more significant than all\l"
-	.string "the research we're conducting…$"
+	.string "the research we're conducting{PAUSE 15}…$"
 
 RocketHideout_8F_Final_DLC_Texto_4:
 	.string "Meanwhile, DEVON has taken action.\n"
@@ -4570,7 +4570,7 @@ RocketHideout_8F_Final_DLC_Texto_5:
 	.string "HOENN: KYOGRE, GROUDON and RAYQUAZA,\l"
 	.string "will be there. One of your objectives\l"
 	.string "will be to find them in order to study\l"
-	.string "them. However…$"
+	.string "them. However{PAUSE 15}…$"
 
 RocketHideout_8F_Final_DLC_Texto_6:
 	.string "Your main objective will be to gather as\n"
@@ -4580,7 +4580,7 @@ RocketHideout_8F_Final_DLC_Texto_6:
 RocketHideout_8F_Final_DLC_Texto_7:
 	.string "Where it operates, where its research\n"
 	.string "laboratories are located, what its\l"
-	.string "projects and ambitions are…$"
+	.string "projects and ambitions are{PAUSE 15}…$"
 
 RocketHideout_8F_Final_DLC_Texto_8:
 	.string "OAK came just before you; he was the\n"
@@ -4651,6 +4651,6 @@ RocketHideout_8F_Final_DLC_Texto_20:
 
 RocketHideout_8F_Final_DLC_Texto_21:
 	.string "Meanwhile, we are still developing the\n"
-	.string "prototypes of level II and… III. Until\l"
-	.string "then… keep improving.$"
+	.string "prototypes of level II and{PAUSE 35}…{PAUSE 35} III. Until\l"
+	.string "then{PAUSE 15}…{PAUSE 15} keep improving.$"
 

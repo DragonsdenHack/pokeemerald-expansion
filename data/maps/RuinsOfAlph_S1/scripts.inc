@@ -50,7 +50,7 @@ release
 end
 
 RuinsOfAlphS1_Unown_Despues_texto_1:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 
 RuinsOfAlph_S1_Combate_UnownDorado::
@@ -137,10 +137,10 @@ release
 end
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_1:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_2:
-.string "... ... ... ...$"
+.string "…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_3:
 	.string "(The mysterious energy has dissipated).$"
@@ -334,7 +334,7 @@ RuinsOfAlph_S1_Combate_Kabutops_Texto_1:
 .string "(A mysterious energy attacks you!)$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_2:
-.string "... ... ... ...$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlph_S1_Combate_Kabutops_Texto_3:
 	.string "(The mysterious energy has dissipated)$"

@@ -504,8 +504,8 @@ RockTunnel_2F_Entrenador_Especial_Texto_1:
 	.string "devastating than ROCK SLIDE.$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 RockTunnel_2F_Entrenador_Especial_Texto_3:
 	.string "Nah, seems like that you are not ready\n"

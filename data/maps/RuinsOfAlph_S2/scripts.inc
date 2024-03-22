@@ -44,14 +44,14 @@ release
 end
 
 RuinsOfAlphS2_Combate_Unown_Texto_1:
-.string "????: ...$"
+.string "????: {PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_2:
 	.string "ELDER.M: You too, {PLAYER}, have\n"
 	.string "managed to make it this far…$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlphS2_Combate_Unown_Texto_4:
 .string "Right ahead is…\n"
@@ -147,7 +147,7 @@ release
 end
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_2:
-.string "... ... ... ...$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlphS2_Combate_Real_Unown_Texto_3:
 	.string "(The mysterious energy has dissipated)$"

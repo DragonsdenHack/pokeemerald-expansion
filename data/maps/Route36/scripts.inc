@@ -116,8 +116,8 @@ msgbox Route36_SudowoodoRest_Text, MSGBOX_NPC
 end
 
 Route36_SudowoodoRest_Text:
-	.string "...\n"
-	.string "...\l"
+	.string "…\n"
+	.string "…\l"
 	.string "(It is a POKÉMON, seems\l"
 	.string "like it is resting)$"
 

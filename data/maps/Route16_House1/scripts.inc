@@ -68,8 +68,8 @@ Route16_House1_Combate_Vuelo_Texto_1:
 	.string "grow.$"
 
 Route16_House1_Combate_Vuelo_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route16_House1_Combate_Vuelo_Texto_3:
 	.string "Look, if you want to I could teach you\n"

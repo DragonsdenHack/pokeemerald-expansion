@@ -124,7 +124,7 @@ AzaleaGym_Combate_Cesar_Texto_3:
 	.string "to me and my team.$"
 
 AzaleaGym_Combate_Cesar_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 AzaleaGym_Combate_Cesar_Texto_5:
 	.string "ALDER has shown me that there's always\n"

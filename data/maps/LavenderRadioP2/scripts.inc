@@ -219,7 +219,7 @@ LavenderRadioP2_Evento_Fuji_Texto_3:
 	.string "perceptible to those of us who work\l"
 	.string "here, the rest will not be able to go\l"
 	.string "beyond the first floor, and for a\l"
-	.string "reason...$"
+	.string "reason…$"
 
 LavenderRadioP2_Evento_Fuji_Texto_4:
 	.string "BILL and ELM know their operation\n"
@@ -229,7 +229,7 @@ LavenderRadioP2_Evento_Fuji_Texto_4:
 	.string "performance. Here we will be in charge\l"
 	.string "of selecting that remaining 0.1%, which\l"
 	.string "can be useful to us for producing\l"
-	.string "increases in a POKÉMON's power...$"
+	.string "increases in a POKÉMON's power…$"
 
 LavenderRadioP2_Evento_Fuji_Texto_5:
 	.string "This kind of issue no longer concerns\n"
@@ -244,7 +244,7 @@ LavenderRadioP2_Evento_Fuji_Texto_6:
 	.string "most are unaware of its purpose.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_7:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP2_Evento_Fuji_Texto_8:
 	.string "It would be a special pleasure for me if\n"

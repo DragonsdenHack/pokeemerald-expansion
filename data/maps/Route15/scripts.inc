@@ -286,7 +286,7 @@ Route15_Koga_Bruno_Texto_8:
 	.string "arrested and will be jailed immediately.$"
 
 Route15_Koga_Bruno_Texto_9:
-.string "KOGA: ...$"
+.string "KOGA: {PAUSE 25}…{PAUSE 25}$"
 
 Route15_Koga_Bruno_Texto_10:
 	.string "BRUNO: Do not worry about the CYCLING\n"

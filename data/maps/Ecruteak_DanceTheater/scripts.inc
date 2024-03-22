@@ -344,7 +344,7 @@ Ecruteak_DanceTheater_Batallas_Texto_2:
 	.string "it?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_DanceTheater_Batallas_Texto_4:
 	.string "You should know that no one has been\n"

@@ -103,7 +103,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_3:
 	.string "world offers.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_4:
-.string "...$"
+.string "{PAUSE 20}…{PAUSE 20}$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_5:
 	.string "You came for a POKÉMON battle and you\n"

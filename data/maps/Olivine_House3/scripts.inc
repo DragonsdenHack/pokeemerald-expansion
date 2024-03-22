@@ -14,7 +14,7 @@ OlivineCity_House3_Text_1:
 	.string "LEADER CROM has one immune to ELECTRIC\l"
 	.string "attacks. That's impossible! He should\l"
 	.string "do it like me and train any POKÉMON as\l"
-	.string "long as it's strong...$"
+	.string "long as it's strong…$"
 
 
 

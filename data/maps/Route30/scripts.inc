@@ -207,8 +207,8 @@ Route30_Anciano_Togepi_Texto_1:
 	.string "since this position.$"
 
 Route30_Anciano_Togepi_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route30_Anciano_Togepi_Texto_3:
 .string "Hmm?\n"

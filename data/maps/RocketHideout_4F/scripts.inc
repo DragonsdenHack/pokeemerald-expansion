@@ -141,7 +141,7 @@ RocketHideout4F_Dialogos_Giovanni_Dialogo_FinDLC_Texto_1:
 	.string "hack. HOENN espera, toda historia tiene\l"
 	.string "su fin, pero esta{PAUSE 20}…{PAUSE 20} aún no, sigues\l"
 	.string "participando en su devenir, de modo\l"
-	.string "que...mantente mejorando hasta la\l"
+	.string "que…mantente mejorando hasta la\l"
 	.string "próxima versión.$"
 
 
@@ -1997,7 +1997,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_7:
 	.string "KANGASKHAN in the SAFARI ZONE, the\l"
 	.string "offspring would, under certain\l"
 	.string "circumstances, end up becoming\l"
-	.string "CUBONES...$"
+	.string "CUBONES…$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_8:
 	.string "GIOVANNI: The most accurate way to\n"
@@ -2449,7 +2449,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_5:
 	.string "allowed to enter every store in KANTO.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_6:
-.string "LANCE: ...$"
+.string "LANCE: …$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_7:
 .string "GIOVANNI: And lastly, you will reduce\n"
@@ -2498,7 +2498,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_12:
 	.string "and power to re-capture them…$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_13:
-.string "GIOVANNI: ...$"
+.string "GIOVANNI: …$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14:
 .string "We have fulfilled the purpose of why\n"
@@ -3226,7 +3226,7 @@ RocketHideout_4F_Escena_Castigo_Reclutas_Texto_11:
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_12:
 .string "GRUNT: S-{PAUSE 25}Sir…{PAUSE 25} Thanks for this second\n"
 	.string "chance. I swear you won't regret about\l"
-	.string "not using your NIDOK....$"
+	.string "not using your NIDOK….$"
 
 RocketHideout_4F_Escena_Castigo_Reclutas_Texto_13:
 .string "GIOVANNI: That's not all.$"
@@ -3541,7 +3541,7 @@ RocketHideout_4F_Escena_Motoristas_Texto_12:
 RocketHideout_4F_Escena_Motoristas_Texto_13:
 	.string "KOGA: What about the BIKERS? Their\n"
 	.string "main role was to sell imported goods,\l"
-	.string "the roads were like their second hom...$"
+	.string "the roads were like their second hom…$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_14:
 .string "PETREL: Did you call me, BOSS?$"
@@ -3567,7 +3567,7 @@ RocketHideout_4F_Escena_Motoristas_Texto_17:
 
 RocketHideout_4F_Escena_Motoristas_Texto_18:
 	.string "With that, we wrap up this matter. KOGA,\n"
-	.string "PETREL... that's all.$"
+	.string "PETREL{PAUSE 15}…{PAUSE 15} that's all.$"
 
 RocketHideout_4F_Escena_Motoristas_Texto_19:
 .string "PETREL: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"

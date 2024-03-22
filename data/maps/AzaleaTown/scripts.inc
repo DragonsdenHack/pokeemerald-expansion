@@ -195,8 +195,8 @@ release
 end
 
 AzaleaTownDocumento_Text_106:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "(It's slacking off!).$"
 
 
@@ -209,8 +209,8 @@ release
 end
 
 AzaleaTownDocumento_Text_107:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "(It's slacking off!).$"
 
 
@@ -556,7 +556,7 @@ end
 
 AzaleaTownDocumento_Text_133:
 .string "(Seems like this SNORLAX is resting\n"
-	.string "here since a long time ago...)$"
+	.string "here since a long time ago…)$"
 
 AzaleaTown_Encuentro_Mirto::
 lock

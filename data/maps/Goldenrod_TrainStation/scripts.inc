@@ -103,8 +103,8 @@ Goldenrod_TrainStation_Frontera_Texto_1:
 	.string "point onward. I hope you understand.$"
 
 Goldenrod_TrainStation_Frontera_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Goldenrod_TrainStation_Frontera_Texto_3:
 	.string "Hold on a moment, that's the RADIO PASS.\n"

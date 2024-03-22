@@ -236,7 +236,7 @@ MtEmber_B5F_Encuentro_Magno_Texto_1:
 	.string "these walls rests GROUDON.$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_2:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_3:
 	.string "That foolish scientist from this\n"
@@ -255,12 +255,12 @@ MtEmber_B5F_Encuentro_Magno_Texto_4:
 MtEmber_B5F_Encuentro_Magno_Texto_5:
 	.string "If we combine both objects, the RED ORB\n"
 	.string "and the RUBY, within this place, the\l"
-	.string "reaction is as follows...$"
+	.string "reaction is as follows…$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6:
 	.string "At last, GROUDON, there's not much time\n"
 	.string "left; your power has been restrained\l"
-	.string "for a long time, but no more...$"
+	.string "for a long time, but no more…$"
 
 MtEmber_B5F_Encuentro_Magno_Texto_6.1:
 	.string "All inside, now!$"

@@ -421,7 +421,7 @@ RocketHideoutJohto_Text_26:
 	.string "unification between the two regions\l"
 	.string "will be faster, the first step is to open\l"
 	.string "the borders settled in ROUTE 26 and at\l"
-	.string "the base of MT. SILVER...$"
+	.string "the base of MT. SILVER…$"
 
 
 
@@ -493,7 +493,7 @@ release
 end
 
 RocketHideoutJohto_Text_31:
-.string "1000 REVIVES and 700 HYPER POTIONS...\n"
+.string "1000 REVIVES and 700 HYPER POTIONS…\n"
 .string "Seriously{PAUSE 20}…{PAUSE 20} What's wrong with the\l"
 .string "GRUNTS from KANTO? Do they all carry\l"
 .string "RATTATAS and ZUBATS?$"
@@ -556,13 +556,13 @@ release
 end
 
 RocketHideoutJohtoDocumento_Text_100:
-.string ".......\n"
-	.string ".......\l"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}\n"
+	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}\l"
 	.string "Laboratory techniques to\l"
 	.string "maximize the potential of\l"
 	.string "any POKÉMON.\l"
-	.string ".......\l"
-	.string ".......\l"
+	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}\l"
+	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10}\l"
 	.string "It has more than 500 pages!$"
 
 

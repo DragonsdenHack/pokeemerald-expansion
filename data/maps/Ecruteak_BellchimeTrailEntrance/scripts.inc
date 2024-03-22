@@ -364,8 +364,8 @@ Ecruteak_BellchimeTrailEntrance_Mirto_Texto_28:
 	.string "heritage.$"
 
 Ecruteak_BellchimeTrailEntrance_Mirto_Texto_29:
-.string "...\n"
-	.string "...\l"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
 	.string "In this case, we must tell to the GRAND\l"
 	.string "MASTER. Climb up to BELL TOWER and tell\l"
 	.string "him what just happened.\l"

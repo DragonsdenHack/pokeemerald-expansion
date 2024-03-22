@@ -117,7 +117,7 @@ MtSilver_PkmnCenter_Text_3:
 	.string "Although there are no records of it, it\l"
 	.string "only exists in my memory and in the\l"
 	.string "memories of the few who remain from\l"
-	.string "that time...$"
+	.string "that time…$"
 
 MtSilverPkmnCenter3_2::
 delay 20

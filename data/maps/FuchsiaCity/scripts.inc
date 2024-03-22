@@ -310,7 +310,7 @@ FuchsiaCity_Encuentro_Koga_Texto_1:
 	.string "your feat!$"
 
 FuchsiaCity_Encuentro_Koga_Texto_2:
-.string "KOGA: ...$"
+.string "KOGA: {PAUSE 25}…{PAUSE 25}$"
 
 FuchsiaCity_Encuentro_Koga_Texto_3:
 	.string "You helped us maintain the SAFARI\n"
@@ -515,8 +515,8 @@ FuchsiaCity_Estafado_Texto_1:
 	.string "And all because of those scammers…$"
 
 FuchsiaCity_Estafado_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 FuchsiaCity_Estafado_Texto_3:
 	.string "Hey, wait, ROCKET! You're my last chance!\n"
@@ -699,8 +699,8 @@ FuchsiaCity_Entrenador_Especial_Texto_1:
 	.string "bug” to me, don't you agree?$"
 
 FuchsiaCity_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 FuchsiaCity_Entrenador_Especial_Texto_3:
 	.string "Well, it seems like you need some more\n"

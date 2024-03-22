@@ -299,7 +299,7 @@ EventoLagoFuria5_Combate_Final_Texto_13:
 	.string "you!$"
 
 EventoLagoFuria5_Combate_Final_Texto_14:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 EventoLagoFuria5_Combate_Final_Texto_15:
 .string "The wild POKÉMON disappeared!$"

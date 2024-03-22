@@ -589,7 +589,7 @@ BaseRocketHoennDocumento_Text_103:
 	.string "significant damage with STAB moves in\l"
 	.string "both cases, and a SPECIAL ATTACK stat\l"
 	.string "of only 80 points to efficiently\l"
-	.string "allocate its total of 600 BASE STATS...\l"
+	.string "allocate its total of 600 BASE STATS…\l"
 	.string "Some even argue it's capable of\l"
 	.string "challenging MAJOR LEGENDARIES.$"
 

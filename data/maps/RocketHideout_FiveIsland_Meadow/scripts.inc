@@ -90,7 +90,7 @@ RocketHideoutFiveIslandMeadow_Text_15:
 .string "…{PAUSE 15}\n"
 .string "…{PAUSE 15}\l"
 .string "…{PAUSE 15} …{PAUSE 15} (It contains a KINGLER inside,\l"
-.string "it's better not to touch it...)$"
+.string "it's better not to touch it…)$"
 
 
 
@@ -160,7 +160,7 @@ RocketHideoutFiveIslandMeadow_Text_17:
 .string "…{PAUSE 15}\n"
 .string "…{PAUSE 15}\l"
 .string "…{PAUSE 15} …{PAUSE 15} (It contains a NIDORINO inside,\l"
-    .string "it's better not to touch it...)$"
+    .string "it's better not to touch it…)$"
 
 
 
@@ -180,7 +180,7 @@ RocketHideoutFiveIslandMeadow_Text_12:
     .string "better laboratories, from CHRONO ISLAND\l"
     .string "we got very interesting conclusions\l"
     .string "about the manipulation of radio\l"
-    .string "waves, for example...$"
+    .string "waves, for example…$"
 
 
 RocketHideoutFiveIslanMeadow10::
@@ -432,7 +432,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas4:
     .string "in the best possible way, if he doesn't\l"
     .string "give us the appropriate tools to do so?$"
     .string "Not to criticize, but ZUBAT is not\n"
-    .string "exactly a good tool, maybe a NIDOR...$"
+    .string "exactly a good tool, maybe a NIDOR…$"
 
 
 
@@ -445,7 +445,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas6:
     .string "ARCHER: Let's see{PAUSE 20}…{PAUSE 20} You have\n"
     .string "prejudged the decisions of our LEADER\l"
     .string "GIOVANNI, and you are not happy with\l"
-    .string "our policy towards new grunts. So...\l"
+    .string "our policy towards new grunts. So…\l"
     .string "there is no reason for you to continue\l"
     .string "belonging to our organization{PAUSE 20}…{PAUSE 20} I hope\l"
     .string "for your sake that you don't say a\l"
@@ -1126,5 +1126,5 @@ end
 
 Curacion_Curacion_Guarida_Rocket_Texto_1:
 .string "Welcome to the ROCKET\n"
-	.string "PKMN CENTER...$"
+	.string "PKMN CENTER…$"
 

@@ -162,8 +162,8 @@ msgbox CianwoodCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 CianwoodCityDocumento_Text_103:
-	.string "...\n"
-	.string "...\l"
+	.string "{PAUSE 10}…{PAUSE 10}\n"
+	.string "{PAUSE 10}…{PAUSE 10}\l"
 	.string "An ancient inscription reads as\l"
 	.string "follows: -Don't let appearances\l"
 	.string "deceive you. Paradise awaits to the\l"
@@ -235,8 +235,8 @@ CianwoodCity_Evento_Mirto_Texto_3:
 	.string "lately sorting out various matters…$"
 
 CianwoodCity_Evento_Mirto_Texto_4:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 CianwoodCity_Evento_Mirto_Texto_5:
 	.string "As for my POKÉMON, we've tried\n"

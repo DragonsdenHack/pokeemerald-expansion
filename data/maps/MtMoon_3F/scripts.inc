@@ -520,8 +520,8 @@ end
 
 MtMoon_3F_Miguel_Rojo_text_1:
 .string "Lost something here, ROCKET?\n"
-	.string "...\l"
-	.string "...$"
+	.string "{PAUSE 10}…{PAUSE 10}\l"
+	.string "{PAUSE 10}…{PAUSE 10}$"
 
 MtMoon_3F_Miguel_Rojo_text_2:
 .string "Really? Are you collecting FOSSILS and\n"
@@ -543,8 +543,8 @@ MtMoon_3F_Miguel_Rojo_text_5:
 	.string "million years ago. I bet my FOSSIL in a\l"
 	.string "battle against you and yours. Whoever\l"
 	.string "wins will get both FOSSILS.l"
-	.string "...\l"
-	.string "...$"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtMoon_3F_Miguel_Rojo_text_6:
 .string "What do you say? Do we have a deal?$"
@@ -580,10 +580,10 @@ MtMoon_3F_Miguel_Rojo_text_11:
 	.string "FOSSIL with your live. It's an order!$"
 
 MtMoon_3F_Miguel_Rojo_text_12:
-.string "????: ...$"
+.string "????: {PAUSE 45}…{PAUSE 45}$"
 
 MtMoon_3F_Miguel_Rojo_text_13:
-.string "...$"
+.string "{PAUSE 45}…{PAUSE 45}$"
 
 MtMoon_3F_Miguel_Rojo_text_14:
 .string "I thought you ROCKET wouldn't beware\n"
@@ -811,10 +811,10 @@ MtMoon_3F_Pelea_Frank_texto1:
 	.string "about it?$"
 
 MtMoon_3F_Pelea_Frank_texto2:
-.string "...\n"
-	.string "...\l"
-	.string "...\l"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}\l"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtMoon_3F_Pelea_Frank_texto3:
 .string "YOU HAD 2 FOSSILS IN YOUR POSSESSION!!\n"

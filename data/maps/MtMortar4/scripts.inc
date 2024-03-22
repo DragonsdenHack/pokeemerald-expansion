@@ -175,7 +175,7 @@ MtMortar4_Encuentro_Anibal_Texto_4:
 	.string "waterfall.$"
 
 MtMortar4_Encuentro_Anibal_Texto_5:
-.string "????: ...$"
+.string "????: {PAUSE 25}…{PAUSE 25}$"
 
 MtMortar4_Encuentro_Anibal_Texto_6:
 .string "Who's there?\n"

@@ -214,7 +214,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_3:
 	.string "informed them already.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_4:
-	.string "These UNOWN… There's something about\n"
+	.string "These UNOWN{PAUSE 15}…{PAUSE 15} There's something about\n"
 	.string "their appearance… They seem\l"
 	.string "incomplete, being part of something\l"
 	.string "major, don't you think so?$"
@@ -245,7 +245,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_10:
 	.string "DRAGON can't be fusionated again.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_11:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_12:
 	.string "GIOVANNI: I was not thinking about\n"
@@ -290,7 +290,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_18:
 	.string "brought you here.$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_19:
-.string "ELDER.M: …$"
+.string "ELDER.M: {PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_20:
 	.string "ANDRA: It's the eternal debate, isn't\n"

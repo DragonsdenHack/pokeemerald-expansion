@@ -23,7 +23,7 @@ release
 end
 
 BlackthornCity_House3_Text_2:
-	.string "Nowadays, these gossips... In my days,\n"
+	.string "Nowadays, these gossips… In my days,\n"
 	.string "it was just about going out on the\l"
 	.string "street, playing with friends, and\l"
 	.string "letting the imagination run wild.\l"

@@ -28,7 +28,7 @@ Route2_Path_Text_2:
 	.string "In this place there is nothing more\n"
 	.string "interesting than a COOL TRAINER like\l"
 	.string "me, except for those legends that talk\l"
-	.string "about the existence of a wild PINSIR...$"
+	.string "about the existence of a wild PINSIR…$"
 
 
 

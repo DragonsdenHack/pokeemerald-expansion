@@ -130,8 +130,8 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_2:
 	.string "anecdote.$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_4:
 	.string "What? My brother sent you to defeat me\n"

@@ -513,14 +513,14 @@ LavenderRadioP6_Combate_Bill_Texto_2:
 LavenderRadioP6_Combate_Bill_Texto_3:
 	.string "That means you're obligated to pass\n"
 	.string "through here to go up to the rooftop,\l"
-	.string "but also...$"
+	.string "but also{PAUSE 15}…$"
 
 LavenderRadioP6_Combate_Bill_Texto_4:
 	.string "That means you're obligated to battle\n"
 	.string "with me once again!$"
 
 LavenderRadioP6_Combate_Bill_Texto_5:
-.string "Again?! Why?!$"
+.string "Again?!{PAUSE 15} Why?!$"
 
 LavenderRadioP6_Combate_Bill_Texto_6:
 	.string "BILL: What kind of power do you have?\n"
@@ -529,7 +529,7 @@ LavenderRadioP6_Combate_Bill_Texto_6:
 	.string "doesn't happen like that?$"
 
 LavenderRadioP6_Combate_Bill_Texto_7:
-.string "…$"
+.string "{PAUSE 25}…{PAUSE 25}$"
 
 LavenderRadioP6_Combate_Bill_Texto_8:
 	.string "The ESSENCE POKÉMON was real and I was\n"
@@ -666,7 +666,7 @@ LavenderRadioP6_Encuentro_Andra_Texto_1:
 .string "ANDRA: For once, you arrive early.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_2.1:
 	.string "I've spoken with GIOVANNI, and there's\n"
@@ -684,7 +684,7 @@ LavenderRadioP6_Encuentro_Andra_Texto_2.3:
 	.string "Honestly, I think all these sudden\n"
 	.string "changes are blinding us all a little. And\l"
 	.string "all this talk about radio waves, it\l"
-	.string "makes me uneasy...$"
+	.string "makes me uneasy{PAUSE 15}…$"
 
 
 LavenderRadioP6_Encuentro_Andra_Texto_3:
@@ -692,14 +692,14 @@ LavenderRadioP6_Encuentro_Andra_Texto_3:
 	.string "before, {PLAYER}. Being expectant,\l"
 	.string "about to experience something without\l"
 	.string "having any idea what will happen, that\l"
-	.string "uncertainty...$"
+	.string "uncertainty{PAUSE 15}…$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_4:
 	.string "But this time, I have a feeling it will be\n"
 	.string "different, at least for me.$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_5:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 LavenderRadioP6_Encuentro_Andra_Texto_6:
 	.string "I'm not sure I want to see what lies\n"

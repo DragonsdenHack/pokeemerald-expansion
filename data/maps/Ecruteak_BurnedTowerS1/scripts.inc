@@ -282,7 +282,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_15:
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
 	.string "MASTER JAREN, on the contrary, this\n"
 	.string "TRAINER just defeated the lunatic in a\l"
-	.string "battle...$"
+	.string "battle…$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
 	.string "JAREN: Hmmm… You must be {PLAYER},\n"

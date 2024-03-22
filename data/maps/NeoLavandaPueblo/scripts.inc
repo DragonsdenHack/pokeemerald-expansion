@@ -169,7 +169,7 @@ walk_in_place_right
 step_end
 
 NeoLavandaPueblo_Combate_Eusine_Texto_1:
-	.string "EUSINE: Oh, {PLAYER}... What a\n"
+	.string "EUSINE: Oh, {PLAYER}{PAUSE 25}…{PAUSE 25} What a\n"
 	.string "pleasure to see you here.$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_2:

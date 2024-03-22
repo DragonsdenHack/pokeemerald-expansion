@@ -420,7 +420,7 @@ LavenderTown_Cierre_Torre_Texto_2:
 	.string "accommodate all the displaced souls.$"
 
 LavenderTown_Cierre_Torre_Texto_3:
-	.string "AGATHA: Oh, FUJI… It is the end of an\n"
+	.string "AGATHA: Oh, FUJI{PAUSE 35}…{PAUSE 35} It is the end of an\n"
 	.string "era, what are we going to do now?$"
 
 LavenderTown_Cierre_Torre_Texto_4:
@@ -450,7 +450,7 @@ LavenderTown_Cierre_Torre_Texto_7:
 	.string "not build a twin tower to the east?$"
 
 LavenderTown_Cierre_Torre_Texto_8:
-	.string "ATLAS: Sometimes the old must\n"
+	.string "ARCHER: Sometimes the old must\n"
 	.string "disappear so the new can thrive.$"
 
 LavenderTown_Cierre_Torre_Texto_9:
@@ -469,8 +469,8 @@ LavenderTown_Cierre_Torre_Texto_11:
 	.string "it hurts.$"
 
 LavenderTown_Cierre_Torre_Texto_12:
-	.string "AGATHA: So... There's nothing left for\n"
-	.string "me in this region then...$"
+	.string "AGATHA: So{PAUSE 15}…{PAUSE 15} There's nothing left for\n"
+	.string "me in this region then…$"
 
 LavenderTown_Cierre_Torre_Texto_13:
 .string "AGATHA: Goodbye, FUJI.$"
@@ -485,7 +485,7 @@ LavenderTown_Cierre_Torre_Texto_15:
 	.string "your work for LAVENDER, FUJI.$"
 
 LavenderTown_Cierre_Torre_Texto_16:
-.string "FUJI: …$"
+.string "FUJI: {PAUSE 15}…{PAUSE 15}$"
 
 LavenderTown_Cierre_Torre_Texto_17:
 	.string "BILL: If that old lady only knew what\n"

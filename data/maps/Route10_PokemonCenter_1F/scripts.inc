@@ -112,8 +112,8 @@ Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_1:
 .string "even make eye contact with me.$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route10_PokemonCenter_1F_Combate_Ayudante_Oak_Texto_3:
 .string "Do you want to see how I make you\n"

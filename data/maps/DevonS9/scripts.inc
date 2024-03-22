@@ -349,7 +349,7 @@ DevonS10_DLC_Escena_Final_Texto_2:
 DevonS10_DLC_Escena_Final_Texto_3:
 	.string "????: But there's something that\n"
 	.string "eludes us, that phenomenon of the DEEP\l"
-	.string "BOND... Have you experienced anything\l"
+	.string "BOND… Have you experienced anything\l"
 	.string "similar, S.MIGUEL?$"
 
 DevonS10_DLC_Escena_Final_Texto_4:
@@ -362,7 +362,7 @@ DevonS10_DLC_Escena_Final_Texto_5:
 	.string "their own.$"
 
 DevonS10_DLC_Escena_Final_Texto_6:
-.string "S.MIGUEL: …That's right…$"
+.string "S.MIGUEL: {PAUSE 15}…{PAUSE 15}That's right{PAUSE 15}…$"
 
 DevonS10_DLC_Escena_Final_Texto_7:
 	.string "????: But that hasn't stopped them\n"
@@ -383,7 +383,7 @@ DevonS10_DLC_Escena_Final_Texto_9:
 
 DevonS10_DLC_Escena_Final_Texto_10:
 	.string "????: Knowing its ability to mutate in\n"
-	.string "extreme conditions, I could say...$"
+	.string "extreme conditions, I could say{PAUSE 15}…$"
 
 DevonS10_DLC_Escena_Final_Texto_11:
 	.string "…the Moon and the stars are its unique\n"

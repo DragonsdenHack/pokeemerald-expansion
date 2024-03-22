@@ -264,7 +264,7 @@ Magma3_Combate_Magno_Texto_11:
 
 Magma3_Combate_Magno_Texto_12:
 	.string "MAXIE: Trinket collector! I won't let\n"
-	.string "GROUDON become a mere piece among...!$"
+	.string "GROUDON become a mere piece among…!$"
 
 Magma3_Combate_Magno_Texto_13:
 	.string "ZEUS:FLOETTE! PSYCHIC!$"
@@ -285,7 +285,7 @@ Magma3_Combate_Magno_Texto_17:
 	.string "significant. Your companions have told\l"
 	.string "us about some POKÉMON, named GROUDON,\l"
 	.string "and a BLUE ORB that awakens it, but\l"
-	.string "that's in HOENN...$"
+	.string "that's in HOENN…$"
 
 Magma3_Combate_Magno_Texto_18:
 	.string "MAXIE: GROUDON, yes! I must find that\n"
@@ -305,7 +305,7 @@ Magma3_Combate_Magno_Texto_19:
 	.string "ignorance, he has a clear purpose once\l"
 	.string "again, and this time he won't endanger\l"
 	.string "anyone, even if he were to acquire the\l"
-	.string "BLUE ORB...$"
+	.string "BLUE ORB…$"
 
 Magma3_Combate_Magno_Texto_20:
 	.string "Once again, you've impressed me,\n"

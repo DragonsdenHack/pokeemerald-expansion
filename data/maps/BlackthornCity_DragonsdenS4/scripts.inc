@@ -179,7 +179,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_3:
 	.string "look like a child's play.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_4:
-.string "...$"
+.string "…$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_5:
 	.string "If I'm not wrong, you've managed to\n"
@@ -294,8 +294,8 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_21:
 	.string "someone like you got this far.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_22:
-.string "ZEUS: ...\n"
-	.string "...\l"
+.string "ZEUS: {PAUSE 20}…{PAUSE 20}\n"
+	.string "{PAUSE 20}…{PAUSE 20}\l"
 	.string "RESHIRAM and ZEKROM\l"
 	.string "also belong to me.$"
 

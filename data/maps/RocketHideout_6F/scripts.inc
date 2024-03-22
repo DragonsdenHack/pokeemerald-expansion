@@ -642,7 +642,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_1:
 
 
 RocketHideout_6F_Petrel_Text_Mision_2_2:
-.string "...$"
+.string "…$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_3:
 .string "I could send you right now to the jail\n"
@@ -1093,7 +1093,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_8:
 	.string "need to do more use of FLY.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_9:
-.string "ATLAS: ...$"
+.string "ARCHER: …$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_10:
 .string "All right. I will head out, there is a lot\n"
@@ -1226,7 +1226,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_28:
 	.string "recognize him immediately.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_29:
-.string "PETREL: ...$"
+.string "PETREL: …$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_30:
 .string "PETREL: You should know this mission is\n"
@@ -1526,7 +1526,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_7:
 	.string "headquarters, the CELADON BASE.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_8:
-.string "PETREL: ...$"
+.string "PETREL: …$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_9:
 .string "PETREL: When you arrived here, on your\n"
@@ -1614,7 +1614,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_16:
 	.string "disdainful way, even if you haven't\l"
 	.string "shown any signs of doing something\l"
 	.string "wrong. In general, the population of\l"
-	.string "KANTO hates us. It's as if...$"
+	.string "KANTO hates us. It's as if…$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_17:
 .string "PETREL: They would have been convinced\n"
@@ -1953,8 +1953,8 @@ end
 
 
 RocketHideout_6F_Maquina_Teletransporte_Texto_1:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 .string "(It seems that the development of this\l"
 	.string "machine is still in very early stages)$"
 

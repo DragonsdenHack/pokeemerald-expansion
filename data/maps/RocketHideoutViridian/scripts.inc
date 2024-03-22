@@ -195,7 +195,7 @@ RocketHideoutViridian_Combate_Proton_Texto_2:
 	.string "deserving of the missions entrusted to\l"
 	.string "them. In your case, yours is the most\l"
 	.string "complicated of all, and that requires\l"
-	.string "extreme testing measures...$"
+	.string "extreme testing measures…$"
 
 RocketHideoutViridian_Combate_Proton_Texto_3:
 	.string "Gym Leaders are a good benchmark, but\n"
@@ -218,7 +218,7 @@ RocketHideoutViridian_Combate_Proton_Texto_5:
 	.string "healing your team before continuing.\l"
 	.string "The remaining ADMINISTRATORS are more\l"
 	.string "powerful than me. I bet sparks will fly\l"
-	.string "in those battles...$"
+	.string "in those battles…$"
 
 RocketHideoutViridian_Combate_Proton_Move_1:
 walk_up

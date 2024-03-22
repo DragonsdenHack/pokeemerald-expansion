@@ -361,7 +361,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_20:
 	.string "leave me no choice but to force myself\l"
 	.string "to use 80% of my power. No one will save\l"
 	.string "you, the gods that this old man talks\l"
-	.string "about... I have those gods!$"
+	.string "about{PAUSE 20}…{PAUSE 20} I have those gods!$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_21:
 .string "How is this possible?$"
@@ -370,10 +370,10 @@ Ecruteak_TinTowerRoof_Zeus_Texto_22:
 .string "ZEUS: This…\n"
 	.string "My team is still incomplete, but it\l"
 	.string "should be more than enough to crush\l"
-	.string "any TRAINER, I don't understand...$"
+	.string "any TRAINER, I don't understand…$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_23:
-.string "No...\n"
+.string "No{PAUSE 35}…{PAUSE 35}\n"
 	.string "The difference between 80% and 100%\l"
 	.string "isn't 20%, it's… everything… An\l"
 	.string "unapproachable and undeniable power.\l"

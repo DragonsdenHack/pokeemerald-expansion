@@ -96,7 +96,7 @@ release
 end
 
 OliivineLighthouse11_Texto_1:
-.string "...$"
+.string "…$"
 
 
 

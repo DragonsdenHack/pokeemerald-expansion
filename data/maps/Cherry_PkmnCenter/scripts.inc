@@ -46,7 +46,7 @@ end
 CherryPkmnCenter_Text_3:
 	.string "I came here for a powerful SCYTHER, but\n"
 	.string "it seems there isn't one. I'll have to\l"
-	.string "look in the NATIONAL PARK...$"
+	.string "look in the NATIONAL PARK…$"
 
 
 

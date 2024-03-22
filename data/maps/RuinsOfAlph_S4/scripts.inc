@@ -379,7 +379,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_19:
 	.string "living.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_20:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 	.string "That fool has died without knowing that\n"

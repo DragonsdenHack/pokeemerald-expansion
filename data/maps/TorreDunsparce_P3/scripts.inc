@@ -211,7 +211,7 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_4:
 	.string "believe, isn't it? However, this place,\l"
 	.string "although much worn by the passage of\l"
 	.string "time, emanates that kind of energy,\l"
-	.string "characteristic of great legends...\l"
+	.string "characteristic of great legends…\l"
 	.string "characteristic of major events that\l"
 	.string "transcended history and forged the\l"
 	.string "world as we know it today.$"
@@ -248,13 +248,13 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_10:
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_11:
 	.string "I'm quite glad to have encountered you.\n"
-	.string "In a place like this... you're like\l"
-	.string "ooparts to me. Anyway... it doesn't\l"
+	.string "In a place like this{PAUSE 25}…{PAUSE 25} you're like\l"
+	.string "ooparts to me. Anyway… it doesn't\l"
 	.string "matters, we won't cross paths again.$"
 
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_12:
-	.string "Mmm... upon further reflection, your\n"
+	.string "Mmm{PAUSE 15}…{PAUSE 15} upon further reflection, your\n"
 	.string "bond with those POKÉMON, the legend of\l"
-	.string "this place... Perhaps I'm the oopart,\l"
+	.string "this place… Perhaps I'm the oopart,\l"
 	.string "don't you think?$"

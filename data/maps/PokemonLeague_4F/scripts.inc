@@ -131,4 +131,4 @@ PokemonLeague_4F_Combate_Lance_Texto_2:
 
 PokemonLeague_4F_Combate_Lance_Texto_4:
 	.string "It seems I've made a mistake adjusting\n"
-	.string "my strength...$"
+	.string "my strength…$"

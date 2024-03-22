@@ -81,8 +81,8 @@ Route15_Path_2F_Combate_Ayudante_Oak_Texto_1:
 	.string "believed.$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route15_Path_2F_Combate_Ayudante_Oak_Texto_3:
 	.string "It is the last warning. Are you looking\n"

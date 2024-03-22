@@ -187,8 +187,8 @@ CeruleanCity_Rocket_Excavar_Text_1:
 	.string "GRUNT a mission on CERULEAN CITY and\l"
 	.string "we thought that would be good having\l"
 	.string "some extra help, are you in?\l"
-	.string "...\l"
-	.string "...\l"
+	.string "{PAUSE 10}…{PAUSE 10}\l"
+	.string "{PAUSE 10}…{PAUSE 10}\l"
 	.string "Nice!\l"
 	.string "Let's go!$"
 

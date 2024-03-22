@@ -2463,7 +2463,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_2:
 .string "Anyway, in JOHTO should be the answer.\n"
 	.string "LUGIA and HO-OH went back to their\l"
 	.string "original region, I am sure, maybe in\l"
-	.string "ECRUTEAK CITY, WHIRL ISLANDS... It has\l"
+	.string "ECRUTEAK CITY, WHIRL ISLANDS… It has\l"
 	.string "been possible to see POKÉMON in those\l"
 	.string "places in the past. Maybe we would be\l"
 	.string "able to find some answers that finally\l"
@@ -2471,7 +2471,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_2:
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_3:
 .string "But I didn't send you to JOHTO just to\n"
-	.string "hunt LEGENDARIES; I also sent you to...\l"
+	.string "hunt LEGENDARIES; I also sent you to…\l"
 	.string "register a part of its history before it\l"
 	.string "gets lost.$"
 
@@ -2648,7 +2648,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_27:
 	.string "agreements to be made in JOHTO as well…$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_28:
-.string "...$"
+.string "…$"
 
 RocketHideout_7F_Fuerte_Vinculo_Texto_29:
 	.string "Perhaps the secrecy and frugality with\n"

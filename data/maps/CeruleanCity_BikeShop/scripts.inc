@@ -104,8 +104,8 @@ CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
 	.string "a product that not many have!$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_4:
 .string "It can't be! A BIKE VOUCHER! Where did\n"

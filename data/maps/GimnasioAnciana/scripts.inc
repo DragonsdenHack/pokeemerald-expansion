@@ -98,7 +98,7 @@ GimnasioAnciana_Combate_Gimnasio_Texto_3:
 	.string "easily. Show me otherwise!$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_4:
-	.string "So there's a new generation replacing us, finally...$"
+	.string "So there's a new generation replacing us, finally…$"
 
 GimnasioAnciana_Combate_Gimnasio_Texto_5:
 	.string "Ha! That ARCHER! He's been waiting to\n"

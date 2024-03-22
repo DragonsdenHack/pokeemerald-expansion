@@ -343,8 +343,8 @@ release
 end
 
 Olivine_Boat3_Capitan_Texto_1:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Olivine_Boat3_Capitan_Texto_2:
 	.string "Can't a person even sleep peacefully on\n"

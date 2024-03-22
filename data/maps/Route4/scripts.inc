@@ -190,8 +190,8 @@ Route4_Evento_Karatekas_Text_9:
 	.string "METAPOD.$"
 
 Route4_Evento_Karatekas_Text_10:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route4_Evento_Karatekas_Text_11:
 .string "Thank you for helping us put our new\n"

@@ -256,7 +256,7 @@ JaggedPass_Text_AutumnIntro:
 	.string "forma!$"
 
 JaggedPass_Text_AutumnDefeat:
-	.string "Estoy sin aliento... ¿Cómo ha podido\n"
+	.string "Estoy sin aliento… ¿Cómo ha podido\n"
 	.string "ocurrir?$"
 
 JaggedPass_Text_AutumnPostBattle:

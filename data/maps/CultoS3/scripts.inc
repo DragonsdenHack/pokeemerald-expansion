@@ -240,12 +240,12 @@ release
 end
 
 CultoS3_Text_16:
-.string "...\n"
-.string "...\l"
+.string "…\n"
+.string "…\l"
 .string "A less pleasurable place, but where the\l"
 .string "most important things happen.\l"
-.string "...\l"
-.string "...$"
+.string "…\l"
+.string "…$"
 
 
 
@@ -762,10 +762,10 @@ Culto_S3_Batalla_Texto_6:
 
 Culto_S3_Batalla_Texto_7:
 	.string "We can't let you go. The world can't know\n"
-	.string "this place exists, so...$"
+	.string "this place exists, so{PAUSE 15}…{PAUSE 15}$"
 
 Culto_S3_Batalla_Texto_8:
-	.string "So... Are you the current KANTO\n"
+	.string "{PAUSE 20}…{PAUSE 20} Are you the current KANTO\n"
 	.string "CHAMPION? And are you looking for the\l"
 	.string "ESSENCE POKÉMON?$"
 
@@ -790,7 +790,7 @@ Culto_S3_Batalla_Texto_10:
 Culto_S3_Batalla_Texto_11:
 	.string "You might have beaten LANCE, but you're\n"
 	.string "still a beginner when it comes to\l"
-	.string "knowing the laws that run this world...$"
+	.string "knowing the laws that run this world…$"
 
 Culto_S3_Batalla_Texto_12:
 	.string "In the end, all of you are after power,\n"
@@ -799,7 +799,7 @@ Culto_S3_Batalla_Texto_12:
 	.string "kneel down against that power, and\l"
 	.string "humbly obtain it. It must be a result of\l"
 	.string "other virtues, not the ultimate goal.\l"
-	.string "Look...$"
+	.string "Look{PAUSE 15}…{PAUSE 15}$"
 
 Culto_S3_Batalla_Texto_13:
 	.string "Right now, I could make you vanish\n"
@@ -809,8 +809,8 @@ Culto_S3_Batalla_Texto_13:
 	.string "never had access to it.$"
 
 Culto_S3_Batalla_Texto_14:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Culto_S3_Batalla_Texto_15:
 	.string "I sense that you're different from the\n"
@@ -852,7 +852,7 @@ Culto_S3_Batalla_Texto_19:
 	.string "anything seen here, except, of course,\l"
 	.string "to the other person who would have\l"
 	.string "been able to defeat this team. You'll be\l"
-	.string "able to identify them, of course...$"
+	.string "able to identify them, of course…$"
 
 Culto_S3_Batalla_Texto_20:
 	.string "Concerning the ESSENCE POKÉMON, we\n"
@@ -866,7 +866,7 @@ Culto_S3_Batalla_Texto_21:
 	.string "Nevertheless, I will provide you with\n"
 	.string "the information that theoretically\l"
 	.string "makes it possible to summon such a\l"
-	.string "POKÉMON and materialize its form...$"
+	.string "POKÉMON and materialize its form…$"
 
 Culto_S3_Batalla_Texto_22:
 	.string "Two specific POKÉMON must be brought\n"

@@ -234,7 +234,7 @@ PewterCity_Petrel_Texto_2:
 	.string "job there.$"
 
 PewterCity_Petrel_Texto_3:
-.string "... ... ... ... ... ... ...$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PewterCity_Petrel_Texto_4:
 .string "PETREL: -NOTICE!\p"

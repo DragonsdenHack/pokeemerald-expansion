@@ -236,7 +236,7 @@ Cianwood_Gym_Combate_Anibal_Texto_3:
 	.string "entity.$"
 
 Cianwood_Gym_Combate_Anibal_Texto_4:
-.string "...$"
+.string "{PAUSE 20}…{PAUSE 20}$"
 
 Cianwood_Gym_Combate_Anibal_Texto_5:
 	.string "Unfortunately, age has caught up with\n"

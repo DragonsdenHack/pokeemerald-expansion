@@ -447,8 +447,8 @@ PewterCity_Museum_1F_Entrenador_Especial_Texto_1:
 	.string "of collecting all 8 GYM BADGES.$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCity_Museum_1F_Entrenador_Especial_Texto_3:
 	.string "What a pity, I am so sorry for making\n"

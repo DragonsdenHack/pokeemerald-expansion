@@ -505,8 +505,8 @@ release
 end
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_1:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_2:
 	.string "It is said that on ROUTE 13 and 14 of\n"

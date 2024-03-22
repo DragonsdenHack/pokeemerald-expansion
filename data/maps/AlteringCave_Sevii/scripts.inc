@@ -171,7 +171,7 @@ AlteringCave_Sevii_Commbate_Zeus_Texto_12:
 	.string "POKÉMON to a place far from HOENN,\l"
 	.string "where no one could ever find them,\l"
 	.string "keeping their dangerous powers dormant\l"
-	.string "until the end of time...$"
+	.string "until the end of time{PAUSE 15}…{PAUSE 15}$"
 
 AlteringCave_Sevii_Commbate_Zeus_Texto_13:
 	.string "Until the arrival of ARCHIE and MAXIE,\n"

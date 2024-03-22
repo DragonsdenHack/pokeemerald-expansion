@@ -50,7 +50,7 @@ Ecruteak_TinTower_Text_3:
 	.string "embody three powers… the lightning\l"
 	.string "that struck the tower… the fire that\l"
 	.string "burned the tower… and the rain that\l"
-	.string "extinguished that fire...$"
+	.string "extinguished that fire…$"
 
 
 

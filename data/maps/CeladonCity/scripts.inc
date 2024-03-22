@@ -330,8 +330,8 @@ CeladonCity_Entrenador_Especial_Texto_1:
 	.string "true combat.$"
 
 CeladonCity_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 CeladonCity_Entrenador_Especial_Texto_3:
 .string "No, I don't think my POKÉMON could even\n"

@@ -232,7 +232,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganIntro:
 	.string "para todo ENTRENADOR.$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
-	.string "Si juegas con fuego, te quemas...$"
+	.string "Si juegas con fuego, te quemas…$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 	.string "Tu talento es real…\n"
@@ -253,7 +253,7 @@ LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 	.string "POKÉMON pueden sobrevivir en el magma.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-	.string "Mmm... Bueno vale, lucharé contigo.$"
+	.string "Mmm… Bueno vale, lucharé contigo.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
 	.string "No esperaba que fueras tan fuerte…$"

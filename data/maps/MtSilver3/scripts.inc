@@ -71,10 +71,10 @@ release
 end
 
 MtSilver3_Combate_Rojo_Texto_1:
-.string "ROJO: ...$"
+.string "ROJO: {PAUSE 25}…{PAUSE 25}$"
 
 MtSilver3_Combate_Rojo_Texto_2:
-.string "¡...!$"
+.string "¡…!$"
 
 MtSilver3_Combate_Rojo_Texto_3:
 .string "????: {PLAYER}, am I wrong?\n"

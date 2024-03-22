@@ -79,8 +79,8 @@ Route12_House_1_Secundaria_Squirtle_Texto_1:
 	.string "to do something…$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route12_House_1_Secundaria_Squirtle_Texto_3:
 	.string "YOU! ROCKET! …{PAUSE 25} …{PAUSE 25} Also, you look quite\n"

@@ -137,7 +137,7 @@ MahoganyTown_Gym_Combate_Fredo_Texto_3:
 	.string "region thrive alongside KANTO at least.$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 MahoganyTown_Gym_Combate_Fredo_Texto_5:
 	.string "{PLAYER}, you must have done\n"

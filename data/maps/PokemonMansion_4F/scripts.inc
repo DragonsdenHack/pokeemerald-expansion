@@ -214,7 +214,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_9:
 
 PokemonMansion_4F_Blaine_Fuji_Texto_10:
 	.string "BLAINE: You'll hear from me in the next\n"
-	.string "few hours. Until then...$"
+	.string "few hours. Until then…$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_11:
 .string "BLAINE: MAGMAR, TELEPORT!$"
@@ -223,7 +223,7 @@ PokemonMansion_4F_Blaine_Fuji_Texto_12:
 .string "Mag!$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_13:
-.string "FUJI: ...$"
+.string "FUJI: …$"
 
 PokemonMansion_4F_Blaine_Fuji_Texto_14:
 .string "(FUJI USED ESCAPE ROPE)$"
@@ -387,4 +387,4 @@ end
 PokemonMansion_4F_PC_PC_Texto_1:
 	.string "It doesn't seem like a regular machine\n"
 	.string "like the others; it seems to serve a\l"
-	.string "more important purpose...$"
+	.string "more important purpose…$"

@@ -63,7 +63,7 @@ Magma1_Combate_Admin_Texto_2:
 	.string "took him years to find this location.$"
 
 Magma1_Combate_Admin_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Magma1_Combate_Admin_Texto_4:
 	.string "ROCKET, I believe you still haven't\n"

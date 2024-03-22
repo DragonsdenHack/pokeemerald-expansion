@@ -132,7 +132,7 @@ release
 end
 
 RuinsOfAlphS3_Evento_Final_Texto_1:
-.string "GIOVANNI: …$"
+.string "GIOVANNI: {PAUSE 35}…{PAUSE 35}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_2:
 .string "But, how did you?$"
@@ -148,7 +148,7 @@ RuinsOfAlphS3_Evento_Final_Texto_4:
 .string "GIOVANNI: Wait!$"
 
 RuinsOfAlphS3_Evento_Final_Texto_5:
-	.string "That… TRAINER, have you seen him? He\n"
+	.string "That{PAUSE 15}…{PAUSE 15} TRAINER, have you seen him? He\n"
 	.string "must have been the LEADER of the\l"
 	.string "LAVENDER sect.$"
 
@@ -176,14 +176,14 @@ RuinsOfAlphS3_Evento_Final_Texto_10:
 .string "ANDRA: What was that?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_11:
-.string "GIOVANNI: H…he did it?$"
+.string "GIOVANNI: H{PAUSE 15}…{PAUSE 15}he did it?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_12:
 	.string "ANDRA: All that energy, that tension in\n"
-	.string "the air, it's… gone…$"
+	.string "the air, it's{PAUSE 15}…{PAUSE 15} gone…$"
 
 RuinsOfAlphS3_Evento_Final_Texto_13:
-	.string "GIOVANNI: So… {PLAYER}, the DEEP\n"
+	.string "GIOVANNI: So{PAUSE 25}…{PAUSE 25} {PLAYER}, the DEEP\n"
 	.string "BOND, have succeeded? Does it mean\l"
 	.string "that the teachings of the sages of\l"
 	.string "JOHTO were true? Can a mortal POKÉMON\l"
@@ -194,10 +194,10 @@ RuinsOfAlphS3_Evento_Final_Texto_13:
 	.string "all reach the same sky?$"
 
 RuinsOfAlphS3_Evento_Final_Texto_14:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlphS3_Evento_Final_Texto_15:
-	.string "There is still much for us to learn…$"
+	.string "There is still much for us to learn{PAUSE 15}…$"
 
 RuinsOfAlphS3_Evento_Final_Move_1:
 walk_slow_right
@@ -314,7 +314,7 @@ RuinsOfAlphS3_Combate_Giovanni_Texto_2:
 	.string "it must come…$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlphS3_Combate_Giovanni_Texto_4:
 	.string "I won't be able to continue. If the\n"
@@ -418,7 +418,7 @@ release
 end
 
 RuinsOfAlphS3_Combate_Unown_Texto_2:
-.string "... ... ... ...$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlphS3_Combate_Unown_Texto_4:
 	.string "GIOVANNI: I knew it, I knew you could do\n"

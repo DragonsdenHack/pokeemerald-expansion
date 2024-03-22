@@ -185,7 +185,7 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_5:
 	.string "On its own, the SAPPHIRE in this place\n"
 	.string "leads nowhere. However, if we manage to\l"
 	.string "bring the BLUE ORB and make it shine in\l"
-	.string "its presence, this is what happens...$"
+	.string "its presence, this is what happens…$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6:
 	.string "After years of effort and numerous\n"

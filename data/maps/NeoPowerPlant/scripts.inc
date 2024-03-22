@@ -68,7 +68,7 @@ release
 end
 
 NeoPowerPlant_Text_8:
-	.string "That POKÉMON... seemed made for\n"
+	.string "That POKÉMON{PAUSE 25}…{PAUSE 25} seemed made for\n"
 	.string "generating electric discharges. I\l"
 	.string "wouldn't want to receive one of its\l"
 	.string "THUNDERBOLT…$"
@@ -273,7 +273,7 @@ NeoPowerPlant_Combate_Zapdos_Texto_1:
 .string "Zap!$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_2:
-.string "Zap...$"
+.string "Zap…$"
 
 NeoPowerPlant_Combate_Zapdos_Texto_3:
 	.string "(The P-ZAPDOS has been completely\n"

@@ -157,8 +157,8 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_1:
 	.string "betray me like this…$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 10}…{PAUSE 10}\n"
+	.string "{PAUSE 10}…{PAUSE 10}$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_3:
 	.string "Wait! You are {PLAYER}, one of the\n"

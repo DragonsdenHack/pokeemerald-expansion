@@ -701,7 +701,7 @@ end
 RocketHideout5F_Text_47:
 	.string "The price of items that boost a\n"
 	.string "POKÉMON's effort values (PROTEIN,\l"
-	.string "IRON...) and the price difference\l"
+	.string "IRON…) and the price difference\l"
 	.string "between this place and the outside\l"
 	.string "resumes: this place offers facilities\l"
 	.string "for elite soldiers to bring out their\l"

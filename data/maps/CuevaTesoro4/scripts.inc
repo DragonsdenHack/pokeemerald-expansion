@@ -192,7 +192,7 @@ CuevaTesoro4_Jefe_Final_Texto_7:
 	.string "The cave is like a massive underwater\n"
 	.string "bunker, sealed off from the outside.\l"
 	.string "This has allowed the preservation of all\l"
-	.string "this biodiversity, but...$"
+	.string "this biodiversity, but…$"
 	
 CuevaTesoro4_Jefe_Final_Texto_7.1:	
 	.string "Also keeping a few POKÉMON prisoners\n"
@@ -239,7 +239,7 @@ CuevaTesoro4_Jefe_Final_Texto_15:
 	.string "The only plausible response is that I\n"
 	.string "may not genuinely be a 9; in that case,\l"
 	.string "we'd have to reevaluate the value of\l"
-	.string "10...$"
+	.string "10…$"
 
 CuevaTesoro4_Jefe_Final_Texto_16:
 	.string "How unfortunate for you to lack the\n"

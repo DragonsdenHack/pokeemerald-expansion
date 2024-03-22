@@ -270,7 +270,7 @@ Route23_Combate_Andra_Texto_7:
 	.string "power, and that RED is a mystery. It has\l"
 	.string "been a long time since we encountered\l"
 	.string "him at MT. MOON, but he is still the only\l"
-	.string "one I've seen defeat you...$"
+	.string "one I've seen defeat you…$"
 
 Route23_Combate_Andra_Texto_8:
 	.string "Anyway {PLAYER}, I wish you luck, it is\n"

@@ -76,7 +76,7 @@ CultoS8_Combate_Lider_Texto_7:
 	.string "calls the creator of everything?$"
 
 CultoS8_Combate_Lider_Texto_8:
-.string "...$"
+.string "{PAUSE 25}…{PAUSE 25}$"
 
 CultoS8_Combate_Lider_Texto_9:
 	.string "No, he can't refer to the ESSENCE\n"
@@ -143,7 +143,7 @@ release
 end
 
 CultoS8_Meditando_Texto_1:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 CultoS8_Llamada_Giovanni::
 lock
@@ -168,11 +168,11 @@ CultoS8_Llamada_Giovanni_Texto_2:
 
 CultoS8_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: Have you discovered\n"
-	.string "something, {PLAYER}? … … RUINS OF\l"
+	.string "something, {PLAYER}? {PAUSE 15}…{PAUSE 15} … {PAUSE 15}RUINS OF\l"
 	.string "ALPH? Just as we suspected, if a NATU\l"
 	.string "sneezes in its tall grass, we'll be aware.\l"
 	.string "We're keeping the entire area under\l"
-	.string "surveillance. … … You say lUGIA and\l"
+	.string "surveillance.{PAUSE 15} …{PAUSE 15} …{PAUSE 15} You say lUGIA and\l"
 	.string "HO-OH have nothing to do with that\l"
 	.string "TRAINER's purpose? That's better. Now,\l"
 	.string "head to BLACKTHORN CITY, {PLAYER},\l"

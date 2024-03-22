@@ -303,7 +303,7 @@ PokemonLeague_6F_Final_Texto_2:
 	.string "that you were created for.$"
 
 PokemonLeague_6F_Final_Texto_3:
-.string "OAK: ...$"
+.string "OAK: …$"
 
 PokemonLeague_6F_Final_Texto_4:
 	.string "OAK: I know why you are here, ROCKET,\n"
@@ -354,7 +354,7 @@ PokemonLeague_6F_Final_Texto_10:
 	.string "every possible variable that could\l"
 	.string "affect a battle, he is the perfect\l"
 	.string "combination of technology and\l"
-	.string "humanity, and most importantly...$"
+	.string "humanity, and most importantly…$"
 
 PokemonLeague_6F_Final_Texto_11:
 	.string "Unlike MEWTWO, all its potential, the\n"
@@ -437,10 +437,10 @@ PokemonLeague_6F_Final_Texto_20:
 	.string "you effort!$"
 
 PokemonLeague_6F_Final_Texto_21:
-.string "RED: ...$"
+.string "RED: …$"
 
 PokemonLeague_6F_Final_Texto_22:
-.string "...!$"
+.string "…!$"
 
 PokemonLeague_6F_Final_Texto_23:
 .string "NO!\n"
@@ -458,7 +458,7 @@ PokemonLeague_6F_Final_Texto_24:
 PokemonLeague_6F_Final_Texto_25:
 .string "There isn't any other possible explanation!\n"
 	.string "YOU!\l"
-	.string "You...!$"
+	.string "You…!$"
 
 PokemonLeague_6F_Final_Texto_26:
 .string "????: We had a deal, OAK.$"
@@ -595,10 +595,10 @@ PokemonLeague_6F_Final_Texto_43:
 	.string "remembered as the one that made LANCE\l"
 	.string "THE FIRST used his sacred POKÉMON just\l"
 	.string "before the dawn of the new era of his\l"
-	.string "reign....$"
+	.string "reign…$"
 
 PokemonLeague_6F_Final_Texto_44:
-.string "LANCE: ...$"
+.string "LANCE: …$"
 
 PokemonLeague_6F_Final_Texto_45:
 	.string "LANCE: There is no honor in beating up\n"
@@ -666,7 +666,7 @@ PokemonLeague_6F_Final_Texto_54:
 	.string "a simple equation.$"
 
 PokemonLeague_6F_Final_Texto_55:
-.string "OAK: ...$"
+.string "OAK: …$"
 
 PokemonLeague_6F_Final_Texto_56:
 	.string "And whose who played the role of gods,\n"

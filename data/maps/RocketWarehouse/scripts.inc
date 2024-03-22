@@ -215,7 +215,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_13:
 	.string "appropriate contacts?$"
 
 RocketWarehouse_Text_6:
-     .string "ARCHER: ....\n"
+     .string "ARCHER: …\n"
 	.string "(It seems he's deep working\l"
 	.string "in a top proyect)$"
 
@@ -390,9 +390,9 @@ RocketWarehouseDocumento_Text_102:
 	.string "y anotaciones en el monitor del PC.\p"
 	.string "- La influencia de las ondas\n"
 	.string "magnéticas en la evolución de los\l"
-	.string "POKÉMON - ...\p"
-	.string "... ... ... ... ... ...\p"
-	.string "Cualquiera entiende esto...$"
+	.string "POKÉMON - …\p"
+	.string "… … … … … …\p"
+	.string "Cualquiera entiende esto…$"
 
 
 
@@ -728,7 +728,7 @@ RocketWarehouse_Text_MisionAtlas10_3:
 	.string "Initially, due to its inefficiency: we\n"
 	.string "could capture large quantities of\l"
 	.string "SENTRET at once and use them as a\l"
-	.string "reserve for new GRUNTS, but...$"
+	.string "reserve for new GRUNTS, but…$"
 
 RocketWarehouse_Text_MisionAtlas10_4:
 	.string "The main reason is 'new generations':\n"

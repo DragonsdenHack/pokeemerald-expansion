@@ -822,7 +822,7 @@ BaseRocketHoennS2Documento_Text_111:
 	.string "so: more HP than LAPRAS, SPEED\l"
 	.string "comparable to MEWTWO, and similar\l"
 	.string "SPECIAL ATTACK to RAYQUAZA (-5\l"
-	.string "points)... Its power numbers are\l"
+	.string "points){PAUSE 15} … {PAUSE 15} Its power numbers are\l"
 	.string "extraordinary, with immense stall\l"
 	.string "capability while also dealing damage\l"
 	.string "with its DYNAMAX CANNON, whose only\l"

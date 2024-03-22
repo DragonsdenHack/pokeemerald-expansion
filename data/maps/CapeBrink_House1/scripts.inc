@@ -58,7 +58,7 @@ CapeBrinkHouse1_Entrenador_Especial_Texto_4:
 	.string "solitude of this island, young man.$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_5:
-.string "So, there's still a long way to go...$"
+.string "So, there's still a long way to go…$"
 
 CapeBrinkHouse1_Entrenador_Especial_Texto_6:
 	.string "It appears that you are very\n"

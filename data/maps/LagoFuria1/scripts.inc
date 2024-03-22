@@ -39,4 +39,4 @@ LagoFuria_S1_Combate_Taaban_Texto_1:
 .string "Taab!$"
 
 LagoFuria_S1_Combate_Taaban_Texto_3:
-.string "Taab...$"
+.string "Taab…$"

@@ -791,13 +791,13 @@ MtChimney_Text_SheilaIntro:
 	.string "ahora quiero un combate Pokémon!$"
 
 MtChimney_Text_SheilaDefeat:
-	.string "Tu manera de luchar... ¡es como una\n"
+	.string "Tu manera de luchar… ¡es como una\n"
 	.string "erupción volcánica!$"
 
 MtChimney_Text_SheilaPostBattle:
 	.string "Pues sí, por fin he llegado al Monte\n"
 	.string "Cenizo y no me voy a dedicar sólo a\l"
-	.string "hacer visitas... También quiero luchar\l"
+	.string "hacer visitas… También quiero luchar\l"
 	.string "un poquito y comprar galletas de\l"
 	.string "recuerdo.$"
 
@@ -809,7 +809,7 @@ MtChimney_Text_ShirleyDefeat:
 	.string "¡Achís! ¡Creo que he pillado frío!$"
 
 MtChimney_Text_ShirleyPostBattle:
-	.string "Mejor me vuelvo a los baños... ¿Te\n"
+	.string "Mejor me vuelvo a los baños… ¿Te\n"
 	.string "apuntas? Ya, ya sé que tienes cosas más\l"
 	.string "importantes que hacer…$"
 

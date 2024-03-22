@@ -160,8 +160,8 @@ PewterCity_Musem_2F_Secundaria_Azafran_Texto_2:
 	.string "years, there won't be a trace of them.$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCity_Musem_2F_Secundaria_Azafran_Texto_4:
 	.string "Did you come in the name of the BIKERS\n"

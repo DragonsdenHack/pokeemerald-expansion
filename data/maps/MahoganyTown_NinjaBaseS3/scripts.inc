@@ -260,7 +260,7 @@ MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_14:
 	.string "You should be tired already!$"
 
 MahoganyTown_NinjaBaseS3_Combates_Finales_Texto_15:
-.string "No...\n"
+.string "No…\n"
 	.string "This wasn't in our plans…\l"
 	.string "After all, we won't be able to start\l"
 	.string "here once again, you win, right?$"

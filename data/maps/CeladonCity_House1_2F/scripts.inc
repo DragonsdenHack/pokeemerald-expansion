@@ -77,8 +77,8 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_2:
 	.string "OLD ROD don't longer exist for me.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4:
 	.string "Does the FISHERMAN GURU of VERMILION\n"
@@ -115,7 +115,7 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_9:
 	.string "KEEP FIGHTING!$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_10:
-	.string "Grrrrr... I didn't expect a ROCKET GRUNT\n"
+	.string "Grrrrr{PAUSE 20}…{PAUSE 20} I didn't expect a ROCKET GRUNT\n"
 	.string "could be so strong, that FISHERMAN has\l"
 	.string "been lucky to come across you.$"
 

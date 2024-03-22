@@ -106,8 +106,8 @@ Route16_Path_2F_Combate_Ayudante_Oak_Texto_1:
 .string "shape KANTO as it should be.$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Route16_Path_2F_Combate_Ayudante_Oak_Texto_3:
 .string "Get out of my sight, I don't want to\n"

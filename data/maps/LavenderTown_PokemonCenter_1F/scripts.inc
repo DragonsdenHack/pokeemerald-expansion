@@ -86,7 +86,7 @@ end
 
 Curacion_Centros_Pokemon_Johto_Texto_1:
 .string "Welcome to the ROCKET\n"
-	.string "PKMN CENTER...$"
+	.string "PKMN CENTER…$"
 
 Curacion_Centros_Pokemon_Johto_Texto_2:
 .string "Here we go!\p"

@@ -719,8 +719,8 @@ release
 end
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_1:
-.string "...\n"
-	.string "...\l"
+.string "…\n"
+	.string "…\l"
 	.string "(He is slept!)$"
 
 Route52_Maze_Dialogo_Tercer_Trabajador_Texto_2:

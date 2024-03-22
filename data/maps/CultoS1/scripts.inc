@@ -70,4 +70,4 @@ end
 CultoS1_NPC_6_Texto_1:
 	.string "So, the legend keeps circulating\n"
 	.string "throughout the region, ready to serve\l"
-	.string "those who pay attention, well...$"
+	.string "those who pay attention, well…$"

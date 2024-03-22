@@ -139,7 +139,7 @@ Pass_Route29_Encuentro_Elm_Texto_7:
 	.string "the correct one MEGA STONE, of course.$"
 
 Pass_Route29_Encuentro_Elm_Texto_8:
-.string "ELM: ...$"
+.string "ELM: …$"
 
 Pass_Route29_Encuentro_Elm_Texto_9:
 	.string "If I'm not wrong, you are here to\n"

@@ -221,7 +221,7 @@ NavelRock_Bottom_Combate_Lugia_Texto_1:
 	.string "Wild LUGIA wants to fight!$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_2:
-.string "...$"
+.string "…$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_3:
 	.string "Wild Lugia vanished before it could be\n"
@@ -257,7 +257,7 @@ NavelRock_Bottom_Combate_Lugia_Texto_8:
 	.string "seems to have gone down there. Maybe\l"
 	.string "this means LUGIA and HO-OH are heading\l"
 	.string "back to their old stomping grounds,\l"
-	.string "maybe to... hook up with that ESSENCE\l"
+	.string "maybe to{PAUSE 25}…{PAUSE 25} hook up with that ESSENCE\l"
 	.string "POKÉMON?$"
 
 NavelRock_Bottom_Combate_Lugia_Texto_9:

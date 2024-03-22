@@ -80,8 +80,8 @@ SlowpokeWellS1_Combate_Texto_2:
 	.string "DEFENSE!$"
 
 SlowpokeWellS1_Combate_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…\n"
+	.string "{PAUSE 15}…$"
 
 SlowpokeWellS1_Combate_Texto_4:
 	.string "Did KURT send you to battle me? If you\n"

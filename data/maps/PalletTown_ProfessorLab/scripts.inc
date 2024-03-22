@@ -162,7 +162,7 @@ PalletTown_ProfessorLab_Lab_Texto_3:
 	.string "by…$"
 
 PalletTown_ProfessorLab_Lab_Texto_4:
-.string "... ... ... ... ...$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 PalletTown_ProfessorLab_Lab_Texto_5:
 .string "DAISY: The last OAK's POKÉMON!\n"

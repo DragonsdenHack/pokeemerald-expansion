@@ -10,7 +10,7 @@ MtPyre_4F_EventScript_Tasha::
 
 MtPyre_4F_Text_TashaIntro:
 	.string "Me encanta pasar miedo… No puedo\n"
-	.string "evitarlo... Y estar en este lugar… ¡me\l"
+	.string "evitarlo… Y estar en este lugar… ¡me\l"
 	.string "pone la carne de gallina!$"
 
 MtPyre_4F_Text_TashaDefeat:

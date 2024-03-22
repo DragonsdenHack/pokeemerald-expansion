@@ -37,9 +37,9 @@ release
 end
 
 MtEmberEntrance_12_Texto_1:
-	.string "Well... TABITHA should be arriving soon\n"
+	.string "Well{PAUSE 15}…{PAUSE 15} TABITHA should be arriving soon\n"
 	.string "with the necessary material to find the\l"
-	.string "RUBY...$"
+	.string "RUBY…$"
 
 
 
@@ -137,7 +137,7 @@ MtEmberEntrance_Encuentro_Magno_Texto_2:
 	.string "team.$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 MtEmberEntrance_Encuentro_Magno_Texto_4:
 	.string "I would be dishonest if I were to say\n"
