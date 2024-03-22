@@ -467,7 +467,7 @@ RocketHideout_4F_Mision_Andra_Fucsia_Texto_1:
 	.string "already assigned me a mission! What do\l"
 	.string "you think? Seems like there are a lot of\l"
 	.string "disturbances in FUCHSIA CITY with\l"
-	.string "motorcyclists and CYCLING ROAD, that's\l"
+	.string "BIKERS and CYCLING ROAD, that's\l"
 	.string "where we come in as mediators, you know.$"
 
 RocketHideout_4F_Mision_Andra_Fucsia_Texto_2:
@@ -1105,7 +1105,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_2:
 	.string "KANGASKHAN, deserves a great reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_3:
-.string "You just earnt 95,000 POKÉS!$"
+.string "You just earnt 95,000 POKÉ!$"
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_4:
 .string "GIOVANNI: And, for celebrating your\n"
@@ -1128,7 +1128,7 @@ RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_6.1:
 
 RocketHideout_4F_Giovanni_Mision_Torre_Lavanda_Text_7:
 .string "GIOVANNI: Technically this fossil is\n"
-	.string "worthed hundreds of thousand POKÉS on\l"
+	.string "worthed hundreds of thousand POKÉ on\l"
 	.string "the black market, but your story with it\l"
 	.string "is worthed even more…$"
 
@@ -1957,7 +1957,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_2:
 	.string "us. Then you deserve your reward.$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_3:
-.string "You just earnt 40,000 POKÉS!$"
+.string "You just earnt 40,000 POKÉ!$"
 
 RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4:
 	.string "GIOVANNI: Also, in the name of TEAM\n"
@@ -2518,13 +2518,13 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_16:
 .string "GIOVANNI: TEAM ROCKET is your home\n"
 	.string "{PLAYER}, you have completely gained\l"
 	.string "that rank, this is your reward for your\l"
-	.string "achievement in the POKEMON LEAGUE,\l"
+	.string "achievement in the POKÉMON LEAGUE,\l"
 	.string "consider it as a symbolic payment, what\l"
 	.string "you did in the HALL OF FAME can't be paid\l"
 	.string "with just money.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_17:
-.string "YOU INVOICED 1 MILLION POKÉS!!$"
+.string "YOU INVOICED 1 MILLION POKÉ!!$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_18:
 .string "Not only that, but as you know, we\n"
@@ -2548,13 +2548,13 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_22:
 .string "GIOVANNI: Use them or not on your team\n"
 	.string "is a personal decision, you have\l"
 	.string "demonstrated that you have an enough\l"
-	.string "level for managing POKEMON of this\l"
+	.string "level for managing POKÉMON of this\l"
 	.string "caliber.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_23:
 .string "With this we focus on the second reason\n"
 	.string "of the foundation of TEAM ROCKET:\l"
-	.string "learn about the POKEMON world and its\l"
+	.string "learn about the POKÉMON world and its\l"
 	.string "mysteries, explore the limits of its\l"
 	.string "potential and reach where no one else\l"
 	.string "has reached.$"
@@ -2613,7 +2613,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_31:
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_32:
 .string "That's all for the moment {PLAYER}, we\n"
 	.string "will notify you when we have news of\l"
-	.string "MEWTWO or any other singular POKEMON,\l"
+	.string "MEWTWO or any other singular POKÉMON,\l"
 	.string "SEVII ISLANDS and its mysteries are\l"
 	.string "waiting, go and enjoy your vacations.$"
 

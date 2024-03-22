@@ -856,7 +856,7 @@ MtMoon_3F_Pelea_Frank_texto6:
 	.string "You have ended up as the classroom\l"
 	.string "foolest, {PLAYER}. Your negligence\l"
 	.string "will cost us hundreds of thousands of\l"
-	.string "POKÉS, got any idea of how many years\l"
+	.string "POKÉ, got any idea of how many years\l"
 	.string "of your wage is that?$"
 
 MtMoon_3F_Pelea_Frank_texto7:

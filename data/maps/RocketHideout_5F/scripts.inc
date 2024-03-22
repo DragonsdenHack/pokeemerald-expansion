@@ -199,7 +199,7 @@ RocketHideout5F_Text_17:
 	.string "science. No matter how it is, we shall\l"
 	.string "accept this game 's rules and if it is\l"
 	.string "needed we will sell PORYGONS at 200,000\l"
-	.string "POKÉS each.$"
+	.string "POKÉ each.$"
 
 
 
@@ -908,7 +908,7 @@ RocketHideout5FDocumento_Text_100:
 	.string "The evolved form of EEVEE that\n"
 	.string "distributes its stats less efficiently,\l"
 	.string "nonetheless a flare blitz of this\l"
-	.string "pokémon with the ability guts\l"
+	.string "POKÉMON with the ability guts\l"
 	.string "activated will burn everything that\l"
 	.string "could touch, it is impossible to find it\l"
 	.string "on the wild, only evolvable through an\l"
@@ -1522,7 +1522,7 @@ RocketHideout5FDocumento_Text_119:
     .string "become a better trainer. 6.- Arrive,\l"
     .string "analyze, adapt and win. 7.- Every\l"
     .string "member of the organization counts,\l"
-    .string "from the most basic recruit to the\l"
+    .string "from the most basic GRUNT to the\l"
     .string "highest positions, we function as a\l"
     .string "huge mechanism where no one is left\l"
     .string "behind.$"
@@ -2230,27 +2230,27 @@ Text_CompraPokemon_Base_Profunda:
 
 EventScript_Sneasel_Texto_1:
 .string "Wanna buy a SNEASEL?\n"
-	.string "It will cost 55000 POKÉS.$"
+	.string "It will cost 55,000 POKÉ.$"
 
 EventScript_Electabuzz_Texto_1:
 .string "Wanna buy an ELECTABUZZ?\n"
-	.string "It will cost 80000 POKÉS.$"
+	.string "It will cost 80,000 POKÉ.$"
 
 EventScript_Nidorino_Texto_1:
 .string "Wanna buy a NIDORINO?\n"
-	.string "It will cost 42000 POKÉS.$"
+	.string "It will cost 42,000 POKÉ.$"
 
 EventScript_Rhyhorn_Texto_1:
 .string "Wanna buy a RHYHORN?\n"
-	.string "It will cost 35000 POKÉS.$"
+	.string "It will cost 35,000 POKÉ.$"
 
 EventScript_Shellder_Texto_1:
 .string "Wanna buy a SHELLDER?\n"
-	.string "It will cost 17500 POKÉS.$"
+	.string "It will cost 17,500 POKÉ.$"
 
 EventScript_NidoranF_Texto_1:
 .string "Wanna buy a NIDORAN♀?\n"
-	.string "It will cost 12000 POKÉS.$"
+	.string "It will cost 12,000 POKÉ.$"
 
 
 RocketHideout5F_64_NPC::

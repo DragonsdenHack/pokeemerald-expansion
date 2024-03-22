@@ -157,50 +157,48 @@ release
 end
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_10:
-.string "¡¡{PLAYER} obtuvo 5 ULTRA BALL\n"
-	.string "de manos de Ejecutivo Rocket!!$"
+.string "{PLAYER} obtained 5 ULTRA BALL\n"
+	.string "from Rocket Executive!!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_1:
-.string "¡ADMIN.JEFE {PLAYER}!$"
+.string "CHIEF ADMIN. {PLAYER}!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_2:
-.string "Ha pasado mucho tiempo, pero se ha\n"
-	.string "convertido usted en la mayor leyenda\l"
-	.string "del TEAM ROCKET. Aquí en ISLA INTA es\l"
-	.string "un ídolo.$"
+	.string "It's been a long time, but you've become\n"
+	.string "the greatest legend of TEAM ROCKET.\l"
+	.string "Here on CHRONO ISLAND, you're an idol.$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_3:
-.string "Como puede ver, yo he podido escalar\n"
-	.string "también, ahora mismo soy EJECUTIVO\l"
-	.string "ROCKET y mano derecha de ATLAS en\l"
-	.string "SEVII.$"
+	.string "As you can see, I've been able to\n"
+	.string "rank-up as well; right now, I'm a ROCKET\l"
+	.string "EXECUTIVE and ARCHER's right-hand man\l"
+	.string "in SEVII.$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_4:
-.string "Perdone mi indiscrección, señor, pero\n"
-	.string "sería todo un honor poder combatir\l"
-	.string "contra usted, y así fortalecer aún más\l"
-	.string "mis POKÉMON.$"
+	.string "Excuse my indiscretion, sir, but it would\n"
+	.string "be an honor to have the opportunity to\l"
+	.string "battle you and further strengthen my\l"
+	.string "POKÉMON.$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_5:
-.string "¿Le gustaría combatir?$"
+.string "Would you like to fight?$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_6:
-.string "Entiendo, alguien como usted debe\n"
-	.string "tener asuntos de gran importancia\l"
-	.string "esperándole.$"
+	.string "I understand, someone like you must\n"
+	.string "have matters of great importance.$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_7:
-.string "¡No le decepcionaré, SIR!$"
+.string "I'm not gonna disappoint you, SIR!$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_8:
-.string "Entonces, este es el poder de la élite\n"
-	.string "del TEAM ROCKET.$"
+	.string "So, this is the power of the TEAM\n"
+	.string "ROCKET's elite.$"
 
 FileIsleMeadow_Recluta_Balls_Ejecutivo_texto_9:
-.string "No olvidaré esta lección, señor. Tome en\n"
-	.string "agradecimiento por su tiempo, alguien\l"
-	.string "de su categoría lo mínimo que debería\l"
-	.string "usar son ULTRA BALL.$"
+	.string "I won't forget this lesson, sir. Please\n"
+	.string "accept this, as a payment of gratitude\l"
+	.string "for your time, that someone of your\l"
+	.string "caliber should use at least ULTRA BALL.$"
 
 FileIsleMeadow_Recluta_Balls_AltoRango::
 lock
@@ -320,7 +318,7 @@ end
 
 FileIsleMeadow_Recluta_Balls_Text_1:
 	.string "Hey, comrade! Running low on items? I\n"
-	.string "want to become a HIGH-RANK RECRUIT as\l"
+	.string "want to become a HIGH-RANK GRUNT as\l"
 	.string "soon as possible. If you help me train,\l"
 	.string "I'll give you some POKÉ BALLS so you can\l"
 	.string "improve too.$"

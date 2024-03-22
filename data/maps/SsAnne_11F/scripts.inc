@@ -14,7 +14,7 @@ release
 end
 
 SsAnne11F_Text_2:
-.string "¡Whoooaaa!\n"
+.string "Whoooaaa!\n"
 .string "SAFARI ZONE! Here we go!$"
 
 

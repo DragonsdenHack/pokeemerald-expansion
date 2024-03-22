@@ -47,10 +47,10 @@ release
 end
 
 Route49_Pagoda_P4_Cuarto_Pensador_Texto_1:
-.string "¿Llegaste a leer el pergamino del\n"
-	.string "dragón? Leerlo sería fatal. Es la\l"
-	.string "incertidumbre lo que nos encanta. La\l"
-	.string "bruma vuelve maravillosas las cosas.$"
+	.string "Did you manage to read the dragon\n"
+	.string "scroll? Reading it would be fatal. It's\l"
+	.string "the uncertainty what we love. The mist\l"
+	.string "makes things wonderful.$"
 
 Route49_Pagoda_P4_Quinto_Pensador::
 lock

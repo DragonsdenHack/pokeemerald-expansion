@@ -34,9 +34,9 @@ release
 end
 
 CeladonCity_Karateka_Texto_1:
-	.string "I know all about the POKEMON, also. I\n"
+	.string "I know all about the POKÉMON, also. I\n"
 	.string "know that your LEADER GIOVANNI uses\l"
-	.string "RHYHORN as a POKEMON. RHYHORN as a\l"
+	.string "RHYHORN as a POKÉMON. RHYHORN as a\l"
 	.string "flagship POKÉMON. What a wimp!$"
 
 CeladonCity_Eevee::
@@ -67,6 +67,6 @@ step_end
 
 CeladonCity_Eevee_Texto_1:
 	.string "Really, ROCKET!!! Get your grubby hands\n"
-	.string "off that POKE BALL, a POKEMON of\l"
+	.string "off that POKE BALL, a POKÉMON of\l"
 	.string "EEVEE's the size of EEVEE is too big for\l"
 	.string "you thieves of your ilk.$"

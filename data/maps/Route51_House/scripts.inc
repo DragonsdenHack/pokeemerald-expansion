@@ -294,7 +294,7 @@ Route51HouseDocumento_Text_100Yes13:
 	.string "surrounds POKÉMON battles, engage in a\l"
 	.string "duel for the title of CHAMPION. The\l"
 	.string "combination of actions resulting from\l"
-	.string "the free will of the young recruit of\l"
+	.string "the free will of the young GRUNT of\l"
 	.string "TEAM ROCKET triumphs over the perfect\l"
 	.string "pre-established path of the prodigy\l"
 	.string "from PALLET TOWN. LANCE, seeing that\l"

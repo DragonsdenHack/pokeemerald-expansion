@@ -25,4 +25,4 @@ end
 
 NeoLavandaCasa1_Text_2:
 	.string "MR. FUJI lives here, but he's not at home\n"
-	.string "right now. He must be at the CEMETERY.$"
+	.string "right now. He must be at the GRAVEYARD.$"

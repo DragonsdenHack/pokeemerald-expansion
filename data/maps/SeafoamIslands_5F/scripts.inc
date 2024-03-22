@@ -73,7 +73,7 @@ release
 end
 
 SeafoamIslands_5F_Combate_Articuno_Texto_1:
-.string "¡Artic!$"
+.string "Artic!$"
 
 SeafoamIslands_5F_Combate_Articuno_Texto_2:
 .string "Artic...$"

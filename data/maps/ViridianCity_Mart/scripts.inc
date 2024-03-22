@@ -15,7 +15,7 @@ end
 
 ViridianCity_Mart_Text_2:
     .string "I've got to buy some POTIONS.\p"
-    .string "You never know when your POKéMON\n"
+    .string "You never know when your POKÉMON\n"
     .string "will need quick healing.$"
 
 

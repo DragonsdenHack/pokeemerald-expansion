@@ -800,28 +800,28 @@ end
 
 EventScript_Axew_Texto_1:
 .string "Are you sure you want AXEW?\n"
-	.string "It will cost 140000 POKÉ.$"
+	.string "It will cost 140,000 POKÉ.$"
 
 EventScript_Spiritomb_Texto_1:
 .string "Are you sure you want SPIRITOMB?\n"
-	.string "It will cost 115000 POKÉ.$"
+	.string "It will cost 115,000 POKÉ.$"
 
 EventScript_Turtwig_Texto_1:
 .string "Are you sure you want TURTWIG?\n"
-	.string "It will cost 75000 POKÉ.$"
+	.string "It will cost 75,000 POKÉ.$"
 
 EventScript_Pawniard_Texto_1:
 .string "Are you sure you want PAWNIARD?\n"
-	.string "It will cost 65000 POKÉ.$"
+	.string "It will cost 65,000 POKÉ.$"
 
 EventScript_Pincurchin_Texto_1:
 .string "Are you sure you want PINCURCHIN?\n"
-	.string "Costará 52000 POKÉS.$"
+	.string "It will cost 52,000 POKÉ.$"
 
 EventScript_Mudbray_Texto_1:
 .string "Are you sure you want MUDBRAY?\n"
-	.string "It will cost 32000 POKÉ.$"
+	.string "It will cost 32,000 POKÉ.$"
 
 EventScript_Fletching_Texto_1:
 .string "Are you sure you want FLETCHLING?\n"
-	.string "It will cost 18000 POKÉ.$"
+	.string "It will cost 18,000 POKÉ.$"

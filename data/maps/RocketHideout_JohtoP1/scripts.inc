@@ -1657,7 +1657,7 @@ release
 end
 
 Llave_Despacho_Warp_Text_YesNo:
-.string "¿Quieres entrar a tu despacho?$"
+	.string "Would you like to come into your office?$"
 
 Llave_Despacho_2_Warp::
 msgbox Llave_Despacho_Warp_Text_2_YesNo, MSGBOX_YESNO
@@ -1681,7 +1681,7 @@ release
 end
 
 Llave_Despacho_Warp_Text_2_YesNo:
-.string "¿Quieres salir de tu despacho?$"
+	.string "Would you like to left your office?$"
 
 RocketHideoutJohtoP1_LanzaMugre::
 lock     

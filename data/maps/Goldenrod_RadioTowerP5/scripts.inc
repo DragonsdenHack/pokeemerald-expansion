@@ -705,7 +705,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_46:
 	.string "few remaining CUBONE, who will be\l"
 	.string "relocated to ROCK TUNNEL, which is more\l"
 	.string "suitable for them. Meanwhile, a new\l"
-	.string "underground cemetery will be built\l"
+	.string "underground GRAVEYARD will be built\l"
 	.string "south of the town to hold all the\l"
 	.string "graves from LAVENDER TOWN TOWER.$"
 

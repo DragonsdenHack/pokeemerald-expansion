@@ -27,12 +27,12 @@ release
 end
 
 CherryPkmnCenter_Text_2:
-.string "Estos CENTROS POKÉMON tan cómodos\n"
-.string "fueron parte de los recursos que\l"
-.string "LANCE destinó a JOHTO tras ganar\l"
-.string "la guerra, antes la cura de\l"
-.string "POKÉMON aquí era mucho más\l"
-.string "rudimentaria.$"
+	.string "These PKMN CENTERS are so comfortable,\n"
+	.string "they were part of the resources LANCE\l"
+	.string "allocated to JOHTO after winning the\l"
+	.string "war; healing POKÉMON here used to be\l"
+	.string "much more rudimentary.$"
+
 
 
 
@@ -44,10 +44,10 @@ release
 end
 
 CherryPkmnCenter_Text_3:
-.string "Vine hasta aquí por un poderoso\n"
-.string "SCYTHER, pero parece que no hay.\l"
-.string "Tendré que buscar por el PARQUE\l"
-.string "NACIONAL…$"
+	.string "I came here for a powerful SCYTHER, but\n"
+	.string "it seems there isn't one. I'll have to\l"
+	.string "look in the NATIONAL PARK...$"
+
 
 
 
@@ -64,6 +64,6 @@ release
 end
 
 CherryPkmnCenter_Text_5:
-.string "¡Es genial!\n"
-.string "¡Puedo guardar a todos los POKÉMON\l"
-.string "que quiera, y gratis!$"
+	.string "It's awesome! I can store as many\n"
+	.string "POKÉMON as I want, and it's free!$"
+

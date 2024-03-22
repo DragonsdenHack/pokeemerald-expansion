@@ -520,7 +520,7 @@ RusturfTunnel_Text_MikeIntro:
 	.string "todo el tiempo en las montañas?\l"
 	.string "Montañeros, ¿verdad? Entonces ¿por\l"
 	.string "qué no llaman a los POKÉMON que viven en\l"
-	.string "las montañas POKéMONtañeros?$"
+	.string "las montañas POKÉMONtañeros?$"
 
 RusturfTunnel_Text_MikeDefeat:
 	.string "Mis POKÉMON... se han quedado sin\n"

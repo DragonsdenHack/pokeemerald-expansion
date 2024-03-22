@@ -267,7 +267,7 @@ Magma3_Combate_Magno_Texto_12:
 	.string "GROUDON become a mere piece among...!$"
 
 Magma3_Combate_Magno_Texto_13:
-	.string "ZEUS:¡FLOETTE! ¡PSYCHIC!$"
+	.string "ZEUS:FLOETTE! PSYCHIC!$"
 
 Magma3_Combate_Magno_Texto_14:
 	.string "(ZEUS took all of MAXIE's POKÉMON and\n"

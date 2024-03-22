@@ -243,7 +243,7 @@ Route10_Combate_Andra_Texto_2:
 	.string "Apparently, further at the south of\n"
 	.string "this route, across ROCK TUNNEL, you will\l"
 	.string "find LAVENDER TOWN, famous for its vast\l"
-	.string "cemetery and supposed evil spirits,\l"
+	.string "GRAVEYARD and supposed evil spirits,\l"
 	.string "could the legend be true?$"
 
 Route10_Combate_Andra_Texto_3:
@@ -306,7 +306,7 @@ Route10_Combate_Andra_Texto_8:
 	.string "{PLAYER}, I told you I will be the\l"
 	.string "strongest GRUNT in the entire\l"
 	.string "organization, and I keep it, we're now\l"
-	.string "HIGH-RANKING RECRUITS, the thing is;\l"
+	.string "HIGH-RANK GRUNTS, the thing is;\l"
 	.string "who is the best HIGH RANK GRUNT\l"
 	.string "TRAINER?$"
 

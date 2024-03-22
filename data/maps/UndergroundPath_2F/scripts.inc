@@ -401,7 +401,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_3:
 UndergroundPath2F_Secundaria_Eevees_Texto_4:
 .string "What's your problem, ROCKET? If you\n"
 	.string "want an EEVEE, get in line like everyone\l"
-	.string "else, I hope you have the million POKES\l"
+	.string "else, I hope you have the million POKÉ\l"
 	.string "that it costs. Otherwise, don't waste\l"
 	.string "my time anymore and go back to your…$"
 

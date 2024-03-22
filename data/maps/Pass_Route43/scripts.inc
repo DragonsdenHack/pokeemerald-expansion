@@ -9,9 +9,9 @@ release
 end
 
 Pass_Route43_Text_1:
-.string "Bienvenido al LAGO DE LA FURIA, no\n"
-.string "olvides recoger todo y no tirar\l"
-.string "nada durante tu estancia.$"
+	.string "Welcome to the LAKE OF RAGE, don't\n"
+	.string "forget to pick up everything and avoid\l"
+	.string "leaving any trash during your stay.$"
 
 
 
@@ -23,9 +23,8 @@ release
 end
 
 Pass_Route43_Text_2:
-.string "Y yo me pregunto, ¿qué habrá en el\n"
-.string "fondo del lago?\l"
-.string "¿Algún POKÉMON raro?$"
+	.string "And I wonder, what could be down at the\n"
+	.string "lake's depths? Any rare POKÉMON?$"
 
 
 
@@ -37,7 +36,7 @@ release
 end
 
 Pass_Route43_Text_3:
-.string "Aquí había vida salvaje, virgen,\n"
-.string "una selva en la frontera del mar,\l"
-.string "nunca vista por aquellos que\l"
-.string "flotan sobre una superficie opaca.$"
+	.string "Here there was wild, untouched life, a\n"
+	.string "jungle on the border of the sea, never\l"
+	.string "seen by those who float above an\l"
+	.string "opaque surface.$"

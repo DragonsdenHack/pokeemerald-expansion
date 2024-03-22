@@ -15,9 +15,8 @@ release
 end
 
 RocketHideout_10F_Maquina_Teletransporte_YesNo:
-.string "La máquina está lista para ser\n"
-	.string "usada, ¿quieres teletransportarte\l"
-	.string "a la BASE de JOHTO?$"
+.string "The machine is ready to be used, do you\n"
+.string "want to teleport to JOHTO HQ?$"
 
 
 
@@ -34,9 +33,9 @@ release
 end
 
 RocketHideout_Johto_Maquina_Teletransporte_YesNo:
-.string "La máquina está lista para ser\n"
-	.string "usada, ¿quieres teletransportarte\l"
-	.string "a la BASE de KANTO?$"
+.string "The machine is ready to be used, do you\n"
+.string "want to teleport to KANTO HQ?$"
+
 
 
 RocketHideout_10F_Primer_Cientifico::

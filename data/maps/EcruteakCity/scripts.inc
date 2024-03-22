@@ -275,39 +275,36 @@ release
 end
 
 EcruteakCity_Encuentro_Maestro_Texto_1:
-.string "MIRTO: ...$"
+.string "ALDER: …$"
 
 EcruteakCity_Encuentro_Maestro_Texto_2:
-.string "M.ANCIANO: Oh, {PLAYER}, qué rápido\n"
-	.string "has venido.$"
+	.string "ELDER.M: Oh, {PLAYER}, you've come so\n"
+	.string "fast.$"
 
 EcruteakCity_Encuentro_Maestro_Texto_3:
-.string "Es una pena lo de ese POKÉMON. Sin\n"
-	.string "embargo, mientras dure, su brillo\l"
-	.string "será el más intenso de entre los\l"
-	.string "POKÉMON mortales. Creo que MIRTO\l"
-	.string "está empezando a aceptar ese\l"
-	.string "destino, y a darse cuenta de que\l"
-	.string "no puede cambiarlo, pero sí elegir\l"
-	.string "el modo de afrontarlo.$"
+	.string "It's a pity what happened to that\n"
+	.string "POKÉMON. However, while it lasts, its\l"
+	.string "brilliance will be the most intense\l"
+	.string "among mortal POKÉMON. I guess ALDER is\l"
+	.string "starting to accept that fate and\l"
+	.string "realize that he can't change it, but he\l"
+	.string "can choose how to face it.$"
 
 EcruteakCity_Encuentro_Maestro_Texto_4:
-.string "Ah, {PLAYER}, mira esto, ¿no es\n"
-	.string "magnífico?$"
+.string "Ah, {PLAYER}, look at this,\n"
+	.string "isn't it magnificent?$"
 
 EcruteakCity_Encuentro_Maestro_Texto_5:
-.string "Supongo que no hay nada parecido a\n"
-	.string "esto en KANTO, fue construida hace\l"
-	.string "700 años. Aún hoy día existe un\l"
-	.string "estrecho vínculo entre esta torre\l"
-	.string "y HO-OH.$"
+	.string "I suppose there's nothing quite like\n"
+	.string "this in KANTO. It was built 700 years\l"
+	.string "ago. Even today, there's a close bond\l"
+	.string "between this tower and HO-OH.$"
 
 EcruteakCity_Encuentro_Maestro_Texto_6:
-.string "El MAESTRO y LÍDER de CIUDAD IRIS\n"
-	.string "está en la cima, esperándote.\l"
-	.string "Adiós, {PLAYER}, seguro que\l"
-	.string "tendremos oportunidad de volver a\l"
-	.string "conversar.$"
+	.string "The MASTER and LEADER of ECRUTEAK\n"
+	.string "CITY awaits you at the summit. Farewell,\l"
+	.string "{PLAYER}, I'm sure we'll have a chance\l"
+	.string "to talk again.$"
 
 EcruteakCity_Encuentro_Maestro_Move_1:
 walk_in_place_right
@@ -547,133 +544,130 @@ walk_up
 step_end
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_1:
-.string "AGATHA: Sois incorregibles. El uno peor\n"
-	.string "que el otro.$"
+	.string "AGATHA: You both are incorrigible. One\n"
+	.string "worse than the other.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_2:
-.string "Si pretendías continuar tu rivalidad\n"
-	.string "con él durante todos estos años, al\l"
-	.string "menos haberme avisado, creí que\l"
-	.string "habías perdido todo entusiasmo por el\l"
-	.string "combate.$"
+	.string "If you intended to continue your\n"
+	.string "rivalry with him all these years, you\l"
+	.string "should have at least warned me. I\l"
+	.string "thought you had lost all enthusiasm for\l"
+	.string "battling.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_3:
 .string "OAK: … …$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_4:
-.string "AGATHA: Típico de ti, hacer todo desde\n"
-	.string "las sombras y aparecer únicamente\l"
-	.string "cuando el resultado hable por sí solo,\l"
-	.string "¿verdad? En el fondo sabía que alguien\l"
-	.string "como tú no caería en desesperanza.$"
+	.string "AGATHA: Just like you, always working\n"
+	.string "behind the scenes and only showing up\l"
+	.string "when the results speak for itselves,\l"
+	.string "huh? Deep down, I knew someone as\l"
+	.string "savvy as you wouldn't lose hope.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_5:
-.string "OAK: Hemos visto demasiado como para\n"
-	.string "detenernos, no es lo que nuestros\l"
-	.string "antepasados nos enseñaron. En cierto\l"
-	.string "modo ya estamos ligados a ambas\l"
-	.string "regiones, participamos de forma activa\l"
-	.string "en su devenir, y su destino es el\l"
-	.string "nuestro.$"
+	.string "OAK: We've experienced too much to\n"
+	.string "come to a halt now; it's contrary to the\l"
+	.string "teachings of our ancestors. In a way,\l"
+	.string "we're already bound to both regions,\l"
+	.string "actively participating in their\l"
+	.string "evolution, and their future is\l"
+	.string "inseparable from ours.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_6:
-.string "A ti siempre te gustó CIUDAD IRIS, de\n"
-	.string "niños nos llevaban a visitar TORRE\l"
-	.string "CAMPANA. Ya ahí mostrabas entusiasmo\l"
-	.string "por el TIPO FANTASMA.$"
+	.string "You always loved ECRUTEAK CITY; as\n"
+	.string "kids, we were taken to visit the BELL\l"
+	.string "TOWER. You showed enthusiasm for\l"
+	.string "GHOST-TYPE POKÉMON even back then.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_7:
-.string "AGATHA: Fíjate en el paisaje… Es cómo\n"
-	.string "revivir aquellos días, mis sentidos\l"
-	.string "experimentan las mismas sensaciones\l"
-	.string "que antaño, su frescura es similar.$"
+	.string "AGATHA: Take a look at the landscape…\n"
+	.string "It's like reliving those days, my senses\l"
+	.string "experien the same sensations as\l"
+	.string "before, its freshness akin.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_8:
-.string "Este lugar no ha cambiado nada,\n"
-	.string "¿verdad?$"
+	.string "This place hasn't changed, right?$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_9:
-.string "OAK: No... Hemos cambiado nosotros.$"
+.string "OAK: No… We are the ones who've changed.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_10:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_11:
-.string "Sé que es contraria a la razón, pero\n"
-	.string "siento que existe algo… espiritual… en\l"
-	.string "este lugar. Y a pesar de no poder\l"
-	.string "comprenderlo, es imposible ignorar su\l"
-	.string "poder, su presencia.$"
+	.string "I know it's contrary to reason, but I\n"
+	.string "feel there's something… spiritual… in\l"
+	.string "this place. And despite not being able\l"
+	.string "to comprehend it, it's impossible to\l"
+	.string "ignore its power, its presence.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_12:
-.string "AGATHA: Hombres mayores y más sabios\n"
-	.string "levantaron TORRE CAMPANA, muchos de\l"
-	.string "sus secretos se perdieron en el tiempo.\l"
-	.string "No podemos más que imaginar lo que\l"
-	.string "pudo ser.$"
+	.string "AGATHA: Older and wiser men raised the\n"
+	.string "BELL TOWER; many of its secrets were\l"
+	.string "lost to time. All we can do is imagine\l"
+	.string "what it could have been.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_13:
-.string "OAK: Ni siquiera TORRE CAMPANA durará\n"
-	.string "para siempre.$"
+	.string "OAK: Not even BELL TOWER will last forever.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_14:
-.string "AGATHA: Tan terco como siempre. Es ahí\n"
-	.string "donde precisamente reside su valor, en\l"
-	.string "su resistencia ante el cambio, dure lo\l"
-	.string "que dure.$"
+	.string "AGATHA: As stubborn as ever. It's\n"
+	.string "precisely there where its value lies, in\l"
+	.string "its resistance to change, no matter how\l"
+	.string "long it lasts.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_15:
 .string "…$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_16:
-.string "¡Oh! ¿{PLAYER}?$"
+.string "Oh! {PLAYER}?$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_17:
-.string "¿Nos has escuchado?$"
+.string "Did you hear us?$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_18:
-.string "¡Jah! ¿Qué te parece? Parece que a ese\n"
-	.string "viejo carcamal aún le queda algo de\l"
-	.string "nostalgia dentro de sí, aunque se\l"
-	.string "niegue a reconocerlo.$"
+	.string "Ha! What do you think? It seems that\n"
+	.string "old geezer still has some nostalgia\l"
+	.string "within him, even if he refuses to\l"
+	.string "acknowledge it.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_19:
-.string "He disfrutado mucho este nuevo viaje a\n"
-	.string "JOHTO. Por desgracia, también me han\l"
-	.string "puesto al día de todo lo acontecido en\l"
-	.string "TRIGAL.$"
+	.string "I've thoroughly enjoyed this new\n"
+	.string "journey to JOHTO. Unfortunately, I've\l"
+	.string "also been brought up to date on\l"
+	.string "everything happening in GOLDENROD.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_20:
-.string "Mi renuncia al ALTO MANDO está cada vez\n"
-	.string "más cerca. Por ahora volveré a PUEBLO\l"
-	.string "LAVANDA, pero no quiero irme de JOHTO\l"
-	.string "sin darte esto, {PLAYER}.$"
+	.string "My resignation from the ELITE FOUR is\n"
+	.string "getting closer and closer. For now, I'll\l"
+	.string "return to LAVENDER TOWN, but I don't\l"
+	.string "want to leave JOHTO without giving you\l"
+	.string "this, {PLAYER}.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_21:
-.string "¡¡OBTUVISTE UNA GENGARITA DE MANOS DE\n"
+	.string "YOU OBTAINED A GENGARITE FROM\n"
 	.string "AGATHA!!$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_22:
-.string "Con ese objeto, GENGAR podrá\n"
-	.string "exprimir al 100% su potencial, un\l"
-	.string "poder que aquellos acostumbrados a\l"
-	.string "ver GASTLY y HAUNTER en TORRE\l"
-	.string "LAVANDA nunca podrían imaginar en\l"
-	.string "un TIPO FANTASMA.$"
+	.string "With this item, GENGAR will be able to\n"
+	.string "unleash its full potential, a power that\l"
+	.string "those accustomed to seeing GASTLY and\l"
+	.string "HAUNTER in LAVENDER TOWN TOWER could\l"
+	.string "never imagine in a GHOST-TYPE PÓKÉMON.$"
 
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_23:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_24:
-.string "Me consta que a ese engendro al que\n"
-	.string "llaman MEWTWO lo bautizaron\l"
-	.string "erróneamente como el POKÉMON de mayor\l"
-	.string "poder especial, MEGA-GENGAR lo supera\l"
-	.string "y con creces en ese terreno. Pero\l"
-	.string "claro, eso no lo sabían.$"
+	.string "I'm aware that the creature they call\n"
+	.string "MEWTWO was mistakenly dubbed the\l"
+	.string "POKÉMON with the highest special power.\l"
+	.string "MEGA GENGAR surpasses it by far in that\l"
+	.string "regard. But of course, they didn't know\l"
+	.string "that.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_25:
-.string "Así de subestimados están los POKÉMON\n"
-	.string "mortales en estos tiempos.$"
+	.string "This is how underrated are mortal\n"
+	.string "POKÉMON in these days.$"
 

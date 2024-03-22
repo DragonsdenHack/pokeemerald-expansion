@@ -278,7 +278,7 @@ Route5_House1_Criador_5:
 Route5_House1_Criador_6:
     .string "POKÉMON BREEDER: You will discover a\n"
 	.string "few more things if you stay here long\l"
-	.string "enough, young recruit. For the moment,\l"
+	.string "enough, young GRUNT. For the moment,\l"
 	.string "PETREL is waiting for you downstairs in\l"
 	.string "his office. To get down, just go to the\l"
 	.string "green area at the top left. If you pay\l"

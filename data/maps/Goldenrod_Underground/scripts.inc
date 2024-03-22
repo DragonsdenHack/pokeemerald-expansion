@@ -51,20 +51,23 @@ release
 end
 
 GoldenrodUnderground3_Fin_texto_1:
-	.string "Ahora soy un hombre nuevo, ¡voy a\n"
-	.string "montar una peluquería y todo!$"
+	.string "I'm a different person now, I'm going to\n"
+	.string "set up a POKÉMON hairdressing salon!$"
+
 
 GoldenrodUnderground3_texto_3:
-.string "¡Obtuviste un MONEDERO\n"
-	.string "de manos de Supernecio!$"
+.string "You obtained a COIN CASE\n"
+	.string "from Supernerd!$"
 
 GoldenrodUnderground3_texto_2:
-	.string "¡Toma! ¡No quiero volver a ver esto en mi\n"
-	.string "vida!$"
+	.string "Take it! I never want to lay eyes on\n"
+	.string "this again in my life!$"
+
 
 GoldenrodUnderground3_texto_1:
-	.string "¡Estoy acabado! Perdí todo lo que\n"
-	.string "tenía en las tragaperras.$"
+	.string "I'm done! I lost everything I had on the\n"
+	.string "GOLDENROD GAME CORNER.$"
+
 
 
 
@@ -420,11 +423,12 @@ release
 end
 
 Goldenrod_Underground_Tienda_Items_Texto_1:
-.string "No encontrarás objetos de esta calidad\n"
-	.string "ahí afuera.$"
+	.string "You won't find items of this quality out\n"
+	.string "there.$"
+
 
 Goldenrod_Underground_Tienda_Items_Texto_2:
-.string "¡Observa!$"
+.string "Take a look!$"
 
 Goldenrod_Underground_Tienda_Items::
 lock

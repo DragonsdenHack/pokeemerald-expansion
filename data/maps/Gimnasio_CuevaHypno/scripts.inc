@@ -578,7 +578,7 @@ Gimnasio_CuevaHypno_Combate_Lider_Texto_11.1:
 	.string "take advantage of it.$"
 
 Gimnasio_CuevaHypno_Combate_Lider_Texto_11.2:
-	.string "¡¡{PLAYER} obtained TM94 TRICK ROOM\n"
+	.string "{PLAYER} obtained TM94 TRICK ROOM\n"
 	.string "from GYM LEADER MORFEUS!!$"
 
 Gimnasio_CuevaHypno_Combate_Lider_2::

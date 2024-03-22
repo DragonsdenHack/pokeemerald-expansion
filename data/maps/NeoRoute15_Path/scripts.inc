@@ -9,8 +9,8 @@ release
 end
 
 NeoRoute15_Path_Npc_Texto_1:
-.string "¿Estás trabajando en una POKÉDEX? Es\n"
-	.string "muy importante. ¡No te rindas!$"
+	.string "Are you working on a POKÉDEX? It's very\n"
+	.string "important. Don't give up!$"
 
 NeoRoute19_Path_Npc::
 lock
@@ -20,8 +20,8 @@ release
 end
 
 NeoRoute19_Path_Npc_Texto_1:
-.string "Por fortuna, nadie de ISLA CANELA\n"
-	.string "resultó herida durante la erupción.$"
+	.string "Fortunately, no one from CINNABAR\n"
+	.string "ISLAND was injured during the eruption.$"
 
 
 NeoRoute15_EventScript_Colegial::
@@ -66,7 +66,7 @@ release
 end
 
 Subterraneo_Bloqueo_Texto_1:
-.string "El SUBTERRÁNEO ha sido cerrado.$"
+.string "The underground was closed.$"
 
 NeoRoute19_Obras::
 compare VAR_UNUSED_0x40F7, 202
@@ -98,12 +98,12 @@ walk_in_place_down
 step_end
 
 NeoRoute19_Obras_Texto_1:
-.string "Están realizando obras más abajo, mejor\n"
-	.string "no molestar.$"
+	.string "They are doing construction work down\n"
+	.string "below, it's best not to disturb.$"
 
 NeoRoute19_Obras_Texto_2:
-.string "Están realizando obras más arriba, mejor\n"
-	.string "no molestar.$"
+	.string "They are doing construction work down\n"
+	.string "below, it's best not to disturb.$"
 
 NeoRoute19_Obras2::
 compare VAR_UNUSED_0x40F7, 202
@@ -130,7 +130,7 @@ release
 end
 
 NeoFucsia_Gym_Cerrado_Texto_1:
-.string "La puerta está cerrada.$"
+.string "The door is closed.$"
 
 
 

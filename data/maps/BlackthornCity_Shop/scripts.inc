@@ -14,14 +14,12 @@ release
 end
 
 BlackthornCity_Shop_Text_2:
-.string "Ah…\n"
-.string "No hay nada como entrenar a un\l"
-.string "DRATINI desde 0, es muy lento y\l"
-.string "costoso, pero ver como va\l"
-.string "creciendo poco a poco hasta\l"
-.string "desarrollar todo ese potencial no\l"
-.string "tiene precio, así es como se\l"
-.string "forjan los grandes POKÉMON.$"
+	.string "Oh… There's nothing like training a\n"
+	.string "DRATINI from scratch. It's slow and\l"
+	.string "costly, but seeing it grow little by\l"
+	.string "little until it unlocks all that\l"
+	.string "potential is priceless. That's how great\l"
+	.string "POKÉMON are forged.$"
 
 
 
@@ -33,12 +31,10 @@ release
 end
 
 BlackthornCity_Shop_Text_3:
-.string "¿No son LUGIA y HO-OH los POKÉMON\n"
-.string "más fuertes de JOHTO?\l"
-.string "¿O hay algún dragón que los\l"
-.string "supera?\l"
-.string "Debería preguntárselo al MAESTRO\l"
-.string "DRAGÓN, seguro que él lo sabe.$"
+	.string "Aren't LUGIA and HO-OH the strongest\n"
+	.string "POKÉMON in JOHTO? Or is there a dragon\l"
+	.string "that surpasses them? I should ask the\l"
+	.string "DRAGON MASTER, he surely knows.$"
 
 
 
@@ -50,8 +46,8 @@ release
 end
 
 BlackthornCity_Shop_Text_4:
-.string "Estoy pensando si bajar o no por\n"
-.string "el desfiladero del sur, me ha\l"
-.string "costado mucho llegar a CIUDAD\l"
-.string "ENDRINO, y tampoco tengo ningún\l"
-.string "POKÉMON VOLADOR para volver…$"
+	.string "I'm debating whether to descend into\n"
+	.string "the southern gorge or not. It's been\l"
+	.string "quite a journey to reach BLACKTHORN\l"
+	.string "CITY, and I don't have any FLYING\l"
+	.string "POKÉMON to return with…$"

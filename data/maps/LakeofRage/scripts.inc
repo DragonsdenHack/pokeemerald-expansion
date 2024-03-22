@@ -42,9 +42,9 @@ release
 end
 
 LakeofRage_Text_9:
-.string "¿AGUA/VOLADOR GYARADOS?\n"
-.string "¿En qué mundo vives?\l"
-.string "¡Como si GYARADOS pudiera volar!$"
+.string "WATER/FLYING GYARADOS?\n"
+.string "What kind of world are you inhabiting?\l"
+.string "GYARADOS can't even fly!$"
 
 
 
@@ -104,8 +104,8 @@ msgbox LakeofRageDocumento_Text_100, MSGBOX_SIGN
 end
 
 LakeofRageDocumento_Text_100:
-	.string "LAGO DE LA FURIA, conocido como\n"
-	.string "LAGO DE IKARY.$"
+	.string "LAKE OF RAGE, also known\n"
+	.string "as IKARY LAKE.$"
 
 
 
@@ -114,7 +114,7 @@ msgbox LakeofRageDocumento_Text_101, MSGBOX_SIGN
 end
 
 LakeofRageDocumento_Text_101:
-	.string "CASA DEL GURÚ PESCADOR$"
+	.string "FISHING GURU'S HOUSE$"
 
 LakeofRage_Fredo::
 lock
@@ -155,46 +155,40 @@ face_player
 step_end
 
 LakeofRage_Fredo_Texto_1:
-.string "FREDO: Buenos días, joven, ¿nos\n"
-	.string "hemos visto antes?$"
+	.string "PRYCE: Good morning, youngster, we have\n"
+	.string "seen each other before?$"
 
 LakeofRage_Fredo_Texto_2:
-.string "Sí...\n"
-	.string "La reunión de TRIGAL, entonces\l"
-	.string "eres ese ROCKET que ganó la LIGA\l"
-	.string "POKÉMON.$"
+	.string "Yes… The GOLDENROD meeting, so you're\n"
+	.string "the ROCKET who won the POKÉMON LEAGUE.$"
 
 LakeofRage_Fredo_Texto_3:
-.string "Como te habrás dado cuenta, los\n"
-	.string "actuales LÍDERES de JOHTO nos\l"
-	.string "mantenemos al margen de lo que\l"
-	.string "ocurre en otros lugares,\l"
-	.string "simplemente nos ocupamos de\l"
-	.string "nuestra vida y dejamos que las\l"
-	.string "cosas caigan por su propio peso.$"
+	.string "As you may have noticed, the current\n"
+	.string "LEADERS of JOHTO keep ourselves out of\l"
+	.string "what happens elsewhere; we simply\l"
+	.string "focus on our own lives and let things\l"
+	.string "fall into place on their own.$"
 
 LakeofRage_Fredo_Texto_4:
-.string "Lo que no quita que lo que LANCE\n"
-	.string "hizo en KANTO fue horrible. De\l"
-	.string "haber sabido la verdadera\l"
-	.string "historia, los LÍDERES de JOHTO,\l"
-	.string "especialmente el MAESTRO DRAGÓN,\l"
-	.string "hubiéramos actuado inmediatamente.$"
+	.string "Which doesn't change the fact that\n"
+	.string "what LANCE did in KANTO was horrible. If\l"
+	.string "the true story had been known, the\l"
+	.string "leaders of JOHTO, especially the DRAGON\l"
+	.string "MASTER, would have acted immediately.$"
 
 LakeofRage_Fredo_Texto_5:
-.string "Es por ello que tengo fe en\n"
-	.string "vosotros, sé que no actuáis por puro\l"
-	.string "altruismo, pero tenéis ciertos\l"
-	.string "principios, y con todo lo que\l"
-	.string "vuestro LÍDER planteó en la\l"
-	.string "reunión de TRIGAL, algo como lo\l"
-	.string "ocurrido en KANTO jamás hubiera\l"
-	.string "sucedido.$"
+	.string "That's why I have faith in you all; I\n"
+	.string "know you don't act purely out of\l"
+	.string "altruism, but you have certain\l"
+	.string "principles, and with everything your\l"
+	.string "LEADER proposed at the GOLDENROD\l"
+	.string "meeting, something like what happened\l"
+	.string "in KANTO would never have occurred.$"
 
 LakeofRage_Fredo_Texto_6:
-.string "Creo que ya he andado bastante, es\n"
-	.string "hora de volver a CAOBA. Disfruta\l"
-	.string "del paseo, {PLAYER}.$"
+	.string "I think I've walked enough for now; it's\n"
+	.string "time to head back to MAHOGANY. Enjoy\l"
+	.string "the walk, {PLAYER}.$"
 
 
 
@@ -217,20 +211,18 @@ release
 end
 
 LakeofRage_Drenaje_Texto_1.1:
-.string "¡¡{PLAYER} obtuvo la MT98 PUÑO\n"
-	.string "DRENAJE de manos de karateka!!$"
+.string "{PLAYER} obtained TM98 DRAIN\n"
+	.string "PUNCH from the black belt!!$"
 
 LakeofRage_Drenaje_Texto_1:
-	.string "Me pregunto qué ocurriría si\n"
-	.string "pudiéramos drenar toda el agua de\l"
-	.string "lago y ver qué hay en lo más\l"
-	.string "profundo, creo que sorprendería a\l"
-	.string "todos.$"
+	.string "I wonder what would happen if we could\n"
+	.string "drain all the water from the lake and\l"
+	.string "see what lies at the very bottom; I\l"
+	.string "think it would surprise everyone.$"
 
 LakeofRage_Drenaje_Texto_2:
-.string "Los TIPO LUCHA suelen tener mala\n"
-	.string "DEF.ESPECIAL, si combinas este\l"
-	.string "movimiento con el CHAL.ASALTO, ¡tu\l"
-	.string "POKÉMON será todo un muro al\l"
-	.string "tiempo que golpea duro y recupera\l"
-	.string "vida!$"
+	.string "FIGHTING-TYPE POKÉMON often have\n"
+	.string "poor SPECIAL DEF. If you combine this\l"
+	.string "move with the ASSAULT VEST, your\l"
+	.string "POKÉMON will be quite the wall while\l"
+	.string "hitting hard and recovering health!$"

@@ -106,7 +106,7 @@ end
 
 Route36Documento_Text_100:
 	.string "SCYTHER and PINSIR are the best\n"
-	.string "POKEMON that you can catch on the\l"
+	.string "POKÉMON that you can catch on the\l"
 	.string "NATIONAL PARK!$"
 
 

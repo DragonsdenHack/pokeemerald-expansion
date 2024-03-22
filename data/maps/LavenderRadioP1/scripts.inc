@@ -45,7 +45,7 @@ end
 
 LavenderRadioP1_Text_3:
 	.string "The graves have been relocated to the\n"
-	.string "cemetery in the south, and they've\l"
+	.string "GRAVEYARD in the south, and they've\l"
 	.string "constructed enormous underground\l"
 	.string "catacombs to accommodate them all.$"
 

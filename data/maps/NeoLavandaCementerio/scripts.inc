@@ -95,7 +95,7 @@ NeoLavandaCementerio_Dialogo_Fuji_Texto_1:
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_2:
 	.string "I must say I'm very pleased with the\n"
-	.string "final outcome of the CEMETERY, all the\l"
+	.string "final outcome of the GRAVEYARD, all the\l"
 	.string "souls have been successfully moved.\l"
 	.string "The problem is…$"
 
@@ -117,7 +117,7 @@ NeoLavandaCementerio_Dialogo_Fuji_Texto_5:
 NeoLavandaCementerio_Dialogo_Fuji_Texto_6:
 	.string "Look, if you interact with the computer\n"
 	.string "you'll be able to access the lower floors\l"
-	.string "of the CEMETERY. Where else would the\l"
+	.string "of the GRAVEYARD. Where else would the\l"
 	.string "rest of the graves be?$"
 
 NeoLavandaCementerio_Dialogo_Fuji_Texto_7:
@@ -166,7 +166,7 @@ release
 end
 
 NeoLavandaCementerio_Fuji_Texto_1:
-	.string "You can come back to the CEMETERY\n"
+	.string "You can come back to the GRAVEYARD\n"
 	.string "whenever you want, {PLAYER}.\l"
 	.string "Although it won't be the same anymore,\l"
 	.string "the new face is RADIO TOWER; for those\l"

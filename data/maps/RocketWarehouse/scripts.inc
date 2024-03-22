@@ -16,7 +16,7 @@ end
 RocketWarehouse_Text_3:
     .string "By the energy that this POKE BALL gives\n"
     .string "off, clearly see that there is a quite\l"
-    .string "powerful POKEMON inside…$"
+    .string "powerful POKÉMON inside…$"
 
 
 
@@ -181,7 +181,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_7:
 	.string "even on vacation.$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_8:
-	.string "{PLAYER} has earned 50.000 POKÉ!$"
+	.string "{PLAYER} has earned 50,000 POKÉ!$"
 
 RocketWarehouse_Atlas_Mision_Secundaria_Texto_9:
 	.string "And most importantly, I'll give you this\n"
@@ -271,7 +271,7 @@ end
 RocketWarehouse_Text_13:
     .string "By the energy that this POKE BALL gives\n"
     .string "off, clearly see that there is a quite\l"
-    .string "powerful POKEMON inside…$"
+    .string "powerful POKÉMON inside…$"
 
 
 
@@ -365,7 +365,7 @@ end
 RocketWarehouseDocumento_Text_100:
     .string "By the energy that this POKE BALL gives\n"
     .string "off, clearly see that there is a quite\l"
-    .string "powerful POKEMON inside…$"
+    .string "powerful POKÉMON inside…$"
 
 
 
@@ -377,7 +377,7 @@ end
 RocketWarehouseDocumento_Text_101:
     .string "By the energy that this POKE BALL gives\n"
     .string "off, clearly see that there is a quite\l"
-    .string "powerful POKEMON inside…$"
+    .string "powerful POKÉMON inside…$"
 
 
 
@@ -456,17 +456,17 @@ end
 RocketWarehouseSoldado_Text_Soldado1:
     .string "Not so fast, ARCHER has expressly\n"
     .string "asked me to take care of the 4 new\l"
-    .string "RECRUITS, only by defeating me, you\l"
+    .string "GRUNTS, only by defeating me, you\l"
     .string "will earn the right to compete for an\l"
     .string "exclusive mission, actually 2 of the 3\l"
-    .string "RECRUITS have already lost that\l"
+    .string "GRUNTS have already lost that\l"
     .string "opportunity since I have defeated\l"
     .string "them . You are the last one to examine!$"
 
 
 
 RocketWarehouseSoldado_Text_Soldado2:
-    .string "Wow, so we have 2 RECRUITS that are\n"
+    .string "Wow, so we have 2 GRUNTS that are\n"
     .string "worthy. Interesting.$"
 
 
@@ -665,7 +665,7 @@ RocketWarehouse_Text_MisionAtlas5:
     .string "threatens TEAM ROCKET, in that case\l"
     .string "you must silence her by defeating her\l"
     .string "in a fight, defeat all her WATER TYPE\l"
-    .string "POKEMONS to prevent her from running\l"
+    .string "POKÉMON to prevent her from running\l"
     .string "away using SURF, once that is done, we\l"
     .string "will take care of the rest.$"
 
@@ -680,7 +680,7 @@ RocketWarehouse_Text_MisionAtlas6:
 
 
 RocketWarehouse_Text_MisionAtlas7:
-.string "I've defeated the other two recruits\n"
+.string "I've defeated the other two GRUNTS\n"
     .string "before, there's no way you can beat me,\l"
     .string "I've trained harder than you!$"
 
@@ -697,7 +697,7 @@ RocketWarehouse_Text_MisionAtlas9:
 RocketWarehouse_Text_MisionAtlas10:
 .string "Enough, I hope you will train more in the\n"
 .string "surrounding area, you could use\l"
-.string "another POKEMON apart from ZUBAT if\l"
+.string "another POKÉMON apart from ZUBAT if\l"
 .string "you want to be competent, I inform you\l"
 .string "that in the meadow you can find\l"
 .string "MEOWTH, PIDGEY, RATTATA, SENTRET and\l"
@@ -705,7 +705,7 @@ RocketWarehouse_Text_MisionAtlas10:
 .string "to look for them, and this is where the\l"
 .string "second part of the mission comes. To\l"
 .string "get to RESORT GORGEOUS you need to\l"
-.string "have a POKEMON with SURF, it is known\l"
+.string "have a POKÉMON with SURF, it is known\l"
 .string "that the SENTRET of the meadow are\l"
 .string "famous for knowing this move, what you\l"
 .string "will do is capture one that will help you\l"
@@ -728,7 +728,7 @@ RocketWarehouse_Text_MisionAtlas10_3:
 	.string "Initially, due to its inefficiency: we\n"
 	.string "could capture large quantities of\l"
 	.string "SENTRET at once and use them as a\l"
-	.string "reserve for new recruits, but...$"
+	.string "reserve for new GRUNTS, but...$"
 
 RocketWarehouse_Text_MisionAtlas10_4:
 	.string "The main reason is 'new generations':\n"
@@ -767,7 +767,7 @@ RocketWarehouse_Text_MisionAtlas13:
 
 RocketWarehouse_Text_MisionAtlas14:
 .string "We'll meet at the CONSUL'S HOUSE. I\n"
-.string "won't allow another RECRUIT to get\l"
+.string "won't allow another GRUNT to get\l"
 .string "ahead of me. I will make things clear\l"
 .string "with her and get the reward for\l"
 .string "completing the mission. I don't need\l"
@@ -891,11 +891,11 @@ RocketWarehouse_Text_Vuelta_MisionAtlas1:
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas2:
-	.string "{PLAYER} EARNED 25000 POKÉS!$"
+	.string "{PLAYER} EARNED 25,000 POKÉ!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas3:
-	.string "ANDRA EARNED 25000 POKÉS!$"
+	.string "ANDRA EARNED 25,000 POKÉ!$"
 
 
 RocketWarehouse_Text_Vuelta_MisionAtlas4:

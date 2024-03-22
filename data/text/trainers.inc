@@ -370,8 +370,8 @@ Route104_Text_WinstonRematchDefeat:
 
 Route104_Text_WinstonPostRematch:
 	.string "I'm fabulously wealthy, but I can't\n"
-	.string "seem to win at POKéMON…\p"
-	.string "It's so deep, the world of POKéMON…$"
+	.string "seem to win at POKÉMON…\p"
+	.string "It's so deep, the world of POKÉMON…$"
 
 Route104_Text_CindyIntro:
 	.string "El destino ha hecho que nos cruzáramos\n"
@@ -1115,7 +1115,7 @@ Route110_Text_EdwinRematchIntro:
 	.string "Just one look, please?$"
 
 Route110_Text_EdwinRematchDefeated:
-	.string "Your POKéMON…\n"
+	.string "Your POKÉMON…\n"
 	.string "I envy you.$"
 
 Route110_Text_EdwinRematchPostBattle:
@@ -1293,7 +1293,7 @@ Route111_Text_DustyRematchIntro:
 
 Route111_Text_DustyRematchDefeat:
 	.string "I've found no ruins, nor have I found\n"
-	.string "any strong POKéMON…$"
+	.string "any strong POKÉMON…$"
 
 Route111_Text_DustyPostRematch:
 	.string "For thirty years I have searched for\n"
@@ -1825,11 +1825,11 @@ Route114_Text_SteveRegister:
 
 Route114_Text_SteveRematchIntro:
 	.string "Ufufufufufu…\n"
-	.string "Come on, battle my POKéMON…$"
+	.string "Come on, battle my POKÉMON…$"
 
 Route114_Text_SteveRematchDefeat:
 	.string "I feel so lucky getting to see your\n"
-	.string "POKéMON…$"
+	.string "POKÉMON…$"
 
 Route114_Text_StevePostRematch:
 	.string "Ufufufufufu…\p"
@@ -2055,7 +2055,7 @@ Route115_Text_CyndyRematchIntro:
 	.string "Okay, let's get this battle on!$"
 
 Route115_Text_CyndyRematchDefeat:
-	.string "I can battle but my POKéMON…$"
+	.string "I can battle but my POKÉMON…$"
 
 Route115_Text_CyndyPostRematch:
 	.string "Even when I lose, I still get some\n"
@@ -2999,7 +2999,7 @@ Route120_Text_JeffreyPostRematch:
 	.string "… … … … … …\n"
 	.string "… … … … … …\l"
 	.string "I'll try harder…\l"
-	.string "For my precious BUG POKéMON…$"
+	.string "For my precious BUG POKÉMON…$"
 
 Route120_Text_JenniferIntro:
 	.string "Los Pokémon tienen muchas habilidades\n"
@@ -3092,7 +3092,7 @@ Route120_Text_CalliePostBattle:
 	.string "evolucionar mis POKÉMON?$"
 
 Route120_Text_LeonelIntro:
-	.string "Your party POKéMON…\n"
+	.string "Your party POKÉMON…\n"
 	.string "Do you have different types?$"
 
 Route120_Text_LeonelDefeat:
@@ -3387,7 +3387,7 @@ Route123_Text_JackiRematchDefeat:
 	.string "Astounding!$"
 
 Route123_Text_JackiPostRematch:
-	.string "Your power with POKéMON…\n"
+	.string "Your power with POKÉMON…\n"
 	.string "That could be a psychic power, too.$"
 
 Route123_Text_MiuIntro:
@@ -9064,7 +9064,7 @@ SaffronCityGym_Text_Exorcista2Defeated:
 SaffronCityGym_Text_Exorcista2PostBattle:
     .string "I have much to learn still…\p"
     .string "I must master PSYCHIC and teach it\n"
-    .string "to my POKéMON…$"
+    .string "to my POKÉMON…$"
 
 
 SaffronCityGym_Text_Exorcista3Intro:
@@ -10777,7 +10777,7 @@ CanyonEntrance_Text_Chica2PostBattle:
 
 SevaultCanyon_Text_DomadorIntro:
     .string "It doesn't matter if you happen to\n"
-    .string "have the strongest POKéMON…\p"
+    .string "have the strongest POKÉMON…\p"
     .string "It doesn't mean a thing if you don't\n"
     .string "know how to use them properly!$"
 

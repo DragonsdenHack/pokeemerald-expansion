@@ -192,7 +192,7 @@ end
 
 RocketHideout6F_Text_18:
 .string "(It seems to contain a SCYTHER, they\n"
-	.string "must get at least 110,000 POKES with\l"
+	.string "must get at least 110,000 POKÉ with\l"
 	.string "the sale of this POKÉMON in the CASINO)$"
 
 
@@ -206,7 +206,7 @@ end
 
 RocketHideout6F_Text_19:
 .string "(It seems to contain a DRATINI, They\n"
-	.string "must get at least 53000 POKES with the\l"
+	.string "must get at least 53,000 POKÉ with the\l"
 	.string "sale of this POKÉMON in the CASINO)$"
 
 
@@ -271,8 +271,8 @@ release
 end
 
 RocketHideout6F_Text_24:
-.string "This BASE collects more than 1000000\n"
-	.string "POKES per week as payment for the care\l"
+.string "This BASE collects more than 1,000,000\n"
+	.string "POKÉ per week as payment for the care\l"
 	.string "of POKÉMON. What no one from the\l"
 	.string "outside knows is that it is a mere\l"
 	.string "cover for the real business! Thanks to\l"
@@ -325,7 +325,7 @@ end
 
 RocketHideout6FDocumento_Text_100:
 .string "(It seems to contain a DRATINI. They\n"
-	.string "must get at least 53000 POKES with the\l"
+	.string "must get at least 53,000 POKÉ with the\l"
 	.string "sale of this POKÉMON in the GAME CORNER)$"
 
 
@@ -337,7 +337,7 @@ end
 
 RocketHideout6FDocumento_Text_101:
 .string "(It seems to contain a SCYTHER. They\n"
-	.string "must get at least 110000 POKES with the\l"
+	.string "must get at least 110,000 POKÉ with the\l"
 	.string "sale of this POKÉMON in the CASINO)$"
 
 
@@ -354,18 +354,18 @@ RocketHideout6FDocumento_Text_102:
 	.string "- CLEFAIRY(LV:8): 500\l"
 	.string "- NUGGET: 500\l"
 	.string "- SMOKE BALL: 800\l"
-	.string "- COAL/M. SEED/M. WATER: 1000\l"
-	.string "- YELLOW FLUTE: 1600\l"
-	.string "- PINSIR(LV:18): 2500\l"
-	.string "- DRATINI(LV:18): 2800\l"
-	.string "- TM. IRON TAIL: 3500\l"
-	.string "- TM.THUNDERB/I.BEAM/FLAMETH: 4000\l"
-	.string "- TM.SHADOW BALL: 4500\l"
-	.string "- SCYTHER (LV:25): 5500\l"
-	.string "- PORYGON (LV:26): 9999\l"
-	.string "- DOME/HELIX FOSSIL: 15000\l"
-	.string "- OLD AMBER: 22500\p"
-	.string "Note: 1 token is equal to 20 POKES.$"
+	.string "- COAL/M. SEED/M. WATER: 1,000\l"
+	.string "- YELLOW FLUTE: 1,600\l"
+	.string "- PINSIR(LV:18): 2,500\l"
+	.string "- DRATINI(LV:18): 2,800\l"
+	.string "- TM. IRON TAIL: 3,500\l"
+	.string "- TM.THUNDERB/I.BEAM/FLAMETH: 4,000\l"
+	.string "- TM.SHADOW BALL: 4,500\l"
+	.string "- SCYTHER (LV:25): 5,500\l"
+	.string "- PORYGON (LV:26): 9,999\l"
+	.string "- DOME/HELIX FOSSIL: 15,000\l"
+	.string "- OLD AMBER: 22,500\p"
+	.string "Note: 1 token is equal to 20 POKÉ.$"
 
 RocketHideout_6F_Petrel_Mision_1::
 applymovement OBJ_EVENT_ID_PLAYER, RocketHideout_6F_Petrel_Mision_1_move1
@@ -438,7 +438,7 @@ RocketHideout_6F_Petrel_Text_Mision_3:
 	.string "KANTO. As rookie GRUNTS that you are,\l"
 	.string "you will meet on your SECOND OFFICIAL\l"
 	.string "MISSION, the first in KANTO, with other\l"
-	.string "recruits located in MT.MOON, to the\l"
+	.string "GRUNTS located in MT.MOON, to the\l"
 	.string "west from CERULEAN CITY.$"
 
 RocketHideout_6F_Petrel_Text_Mision_4:
@@ -676,7 +676,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_7:
 	.string "efficiency in the last mission. You\l"
 	.string "should know that the estimated value\l"
 	.string "of those FOSSILS that you lost is\l"
-	.string "close to 600000 POKÉS on black market,\l"
+	.string "close to 600,000 POKÉ on black market,\l"
 	.string "as a direct consequence and to rectify\l"
 	.string "this potential profits, you will give all\l"
 	.string "physic money that you have right now\l"
@@ -725,7 +725,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_12:
 	.string "information that our scientists could\l"
 	.string "use to develop connection points\l"
 	.string "teleportation via between FIVE ISLAND\l"
-	.string "and KANTO, could save millions of POKES\l"
+	.string "and KANTO, could save millions of POKÉ\l"
 	.string "on transport expenses. Here is the\l"
 	.string "opportunity that I'm giving you to\l"
 	.string "rectify your fail on MT.MOON.$"
@@ -734,7 +734,7 @@ RocketHideout_6F_Petrel_Text_Mision_2_13:
 .string "That's all for the moment, BILL will try\n"
 	.string "to protect his patent at all costs, so\l"
 	.string "you should be alert and keep strong\l"
-	.string "your POKEMON to bring him under.\l"
+	.string "your POKÉMON to bring him under.\l"
 	.string "Better, your victory against FRANK\l"
 	.string "wasn't a lucky accident.$"
 
@@ -1103,7 +1103,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_11:
 .string "PETREL!\n"
 .string "I hope you reward these 2 GRUNTS. Their\l"
 	.string "actuations from now will save us an\l"
-	.string "appreciated time and millions of POKÉS.$"
+	.string "appreciated time and millions of POKÉ.$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_12:
 .string "ARCHER: Don't overrate yourself that I\n"
@@ -1143,7 +1143,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_15:
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_16:
 .string "{PLAYER} got ascended to HIGH RANK\n"
-	.string "RECRUIT!!$"
+	.string "GRUNT!!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 .string "PETREL: To celebrate your new status\n"
@@ -1156,7 +1156,7 @@ RocketHideout_6F_Petrel_Mision_3_Bill_texto_17:
 	.string "you get the the following…{PAUSE 15}$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_18:
-.string "You have invoiced 125000 POKÉ!$"
+.string "You have invoiced 125,000 POKÉ!$"
 
 RocketHideout_6F_Petrel_Mision_3_Bill_texto_19:
 .string "PETREL: For you, ANDRA, your warning to\n"
@@ -1489,7 +1489,7 @@ end
 
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_1:
-.string "PETREL: Excellent work recruits,\n"
+.string "PETREL: Excellent work GRUNTS,\n"
 	.string "GIOVANNI will be eager to start\l"
 	.string "investigating the contents of that\l"
 	.string "relic.$"
@@ -1498,12 +1498,12 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_2:
 .string "PETREL: Here's your reward.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_3:
-.string "You have invoiced 80000 POKÉ!$"
+.string "You have invoiced 80,000 POKÉ!$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_4:
 .string "PETREL: In addition, take this, 20\n"
 	.string "GREAT BALLS for each of you, two\l"
-	.string "recruits like yourselves must have\l"
+	.string "GRUNTS like yourselves must have\l"
 	.string "means at their disposal.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_5:
@@ -2078,20 +2078,20 @@ Text_CompraPokemon_Ruta_5:
 	.string "can I help you?$"
 
 EventScript_Voltorb_Texto_1:
-.string "¿Seguro que quieres a VOLTORB?\n"
-	.string "Costará 9000 POKÉS.$"
+.string "Are you sure you want VOLTORB? It will\n"
+	.string "cost 9,000 POKÉ.$"
 
 EventScript_Koffing_Texto_1:
 .string "Are you sure you want KOFFING? It will\n"
-	.string "cost 11000 POKES.$"
+	.string "cost 11,000 POKÉ.$"
 
 EventScript_Mankey_Texto_1:
 .string "Are you sure you want MANKEY? It will\n"
-	.string "cost 8000 POKES.$"
+	.string "cost 8,000 POKÉ.$"
 
 EventScript_Rattata_Texto_1:
 .string "Are you sure you want RATTATA? It will\n"
-	.string "cost 3000 POKES.$"
+	.string "cost 3,000 POKÉ.$"
 
 RocketHideout_6F_Petrel::
 lock
@@ -2180,20 +2180,20 @@ SeteoIvs_Texto_4:
 	.string "Escoga al POKÉMON que quiere potenciar.$"
 
 SeteoIvs_No_Texto_1:
-	.string "Como usted guste, ADMIN.JEFE.$"
+	.string "As you wish, CHIEF ADMIN.$"
 
 SeteoIvs_Texto_3:
-	.string "El coste será de solo 100000 POKÉS. ¿Le\n"
-	.string "interesa?$"
+	.string "It will cost only 100,000 POKÉ.\n"
+	.string "Are you interested, SIR?$"
 
 SeteoIvs_Texto_1:
-	.string "Hemos logrado la tecnología capaz de\n"
-	.string "exprimir al 100% el potencial genético\l"
-	.string "de un POKÉMON.$"
+	.string "We've successfully engineered\n"
+	.string "technology to fully exploit the genetic\l"
+	.string "potential of a POKÉMON.$"
 
 SeteoIvs_Texto_2:
-	.string "Gracias a ello, todo POKÉMON que se\n"
-	.string "someta a nuestro tratamiento contará\l"
-	.string "con 31 IVs en sus 6 STATS.$"
+	.string "As a result, any POKÉMON subjected to\n"
+	.string "our treatment will have 31 IVs in all 6\l"
+	.string "STATS.$"
 
 

@@ -2506,7 +2506,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_8:
 RocketHideout_7F_Fuerte_Vinculo_Texto_9:
 	.string "But no, this room is not reserved solely\n"
 	.string "for our most successful experiments,\l"
-	.string "we will also analyze every POKEMON to\l"
+	.string "we will also analyze every POKÉMON to\l"
 	.string "whom nature, and above all, the bond\l"
 	.string "with their TRAINER, has given the gift\l"
 	.string "of the extraordinary.$"

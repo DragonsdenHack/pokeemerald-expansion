@@ -38,11 +38,11 @@ release
 end
 
 AzaleaTown_Text_3:
-.string "Si sigues más al oeste encontrarás\n"
-.string "EL ENCINAR.\l"
-.string "¡Dicen que su guardián aparecerá\l"
-.string "para castigar a todo el que\l"
-.string "intente dañar el lugar!$"
+	.string "If you go further west, you will find\n"
+	.string "the ILEX FOREST. It's said a guardian\l"
+	.string "will appear to punish anyone who tries\l"
+	.string "to harm the place!$"
+
 
 
 
@@ -59,11 +59,12 @@ release
 end
 
 AzaleaTown_Text_5:
-.string "Mi abuelito me ha prometido que\n"
-.string "pronto dejará el GIMNASIO y podrá\l"
-.string "estar en casa todo el día haciendo\l"
-.string "BONGURIS y jugando conmigo.\l"
-.string "¡Qué ganas tengo!$"
+	.string "My grandfather has promised me that\n"
+	.string "he'll soon retire from the GYM and be\l"
+	.string "able to stay home all day making\l"
+	.string "BONGURIS and playing with me. I'm so\l"
+	.string "excited for it!$"
+
 
 
 AzaleaTown6::
@@ -74,13 +75,12 @@ release
 end
 
 AzaleaTown_Text_6:
-.string "CÉSAR tiene ya 65 años, es\n"
-.string "increíble lo rápido que pasa el\l"
-.string "tiempo. Cada vez le cuesta más\l"
-.string "bajar las escaleras del POZO\l"
-.string "SLOWPOKE.\l"
-.string "¡Un día de estos va a hacerse daño\l"
-.string "con ellas!$"
+	.string "KURT is already 65 years old, time flies\n"
+	.string "so quickly. It's becoming harder and\l"
+	.string "harder for him to go down the stairs of\l"
+	.string "the SLOWPOKE WELL. One of these days,\l"
+	.string "he's going to get hurt with them!$"
+
 
 
 
@@ -102,13 +102,12 @@ release
 end
 
 AzaleaTown_Text_9:
-.string "CÉSAR no quiere reconocerlo, pero\n"
-.string "es con diferencia el mayor\l"
-.string "especialista del TIPO BICHO que\l"
-.string "hay en JOHTO. A diferencia de ese\l"
-.string "jóven ANTÓN, prefiere mantener sus\l"
-.string "dotes como ENTRENADOR en el\l"
-.string "anonimato.$"
+	.string "KURT doesn't want to admit it, but he's\n"
+	.string "by far the greatest BUG-type\l"
+	.string "specialist in JOHTO. Unlike that young\l"
+	.string "BUGSY, he prefers to keep his skills in\l"
+	.string "secret.$"
+
 
 
 
@@ -127,9 +126,9 @@ msgbox AzaleaTownDocumento_Text_100, MSGBOX_SIGN
 end
 
 AzaleaTownDocumento_Text_100:
-.string "El ENCINAR\n"
-	.string "Respeta al bosque y el bosque te\l"
-	.string "respetará a ti.$"
+.string "ILEX FOREST\n"
+	.string "Honor the forest,\l"
+	.string "and it will honor you.$"
 
 
 
@@ -138,7 +137,7 @@ msgbox AzaleaTownDocumento_Text_101, MSGBOX_SIGN
 end
 
 AzaleaTownDocumento_Text_101:
-.string "CASA DE CÉSAR$"
+.string "KURT'S HOUSE$"
 
 
 
@@ -147,10 +146,10 @@ msgbox AzaleaTownDocumento_Text_102, MSGBOX_SIGN
 end
 
 AzaleaTownDocumento_Text_102:
-.string "GIMNASIO de PUEBLO AZALEA\n"
-	.string "LÍDER: CÉSAR\l"
-	.string "¡El último superviviente de la\l"
-	.string "JOHTO más rústica y tradicional!$"
+.string "AZALEA TOWN GYM\n"
+	.string "LEADER: KURT\l"
+	.string "Last survivor from the\l"
+	.string "rustic and traditional JOHTO!$"
 
 
 
@@ -159,7 +158,7 @@ msgbox AzaleaTownDocumento_Text_103, MSGBOX_SIGN
 end
 
 AzaleaTownDocumento_Text_103:
-.string "CASA DEL CARBONERO$"
+.string "CHARCOAL KILN$"
 
 
 
@@ -168,9 +167,9 @@ msgbox AzaleaTownDocumento_Text_104, MSGBOX_SIGN
 end
 
 AzaleaTownDocumento_Text_104:
-.string "PUEBLO AZALEA\n"
-	.string "Donde la gente y los POKÉMON viven\l"
-	.string "en feliz armonía.$"
+.string "AZALEA TOWN\n"
+	.string "Where People and POKÉMON\l"
+	.string "live in Happy Harmony.$"
 
 
 
@@ -179,12 +178,12 @@ msgbox AzaleaTownDocumento_Text_105, MSGBOX_SIGN
 end
 
 AzaleaTownDocumento_Text_105:
-	.string "POZO SLOWPOKE\n"
-	.string "También conocido como POZO LLUVIA.\l"
-	.string "Los nativos creen que el BOSTEZO\l"
-	.string "de SLOWPOKE invoca la lluvia.\l"
-	.string "Hace 400 años un BOSTEZO de\l"
-	.string "SLOWPOKE acabó con una sequía.$"
+	.string "SLOWPOKE WELL\n"
+	.string "Also known as the RAINMAKER WELL.\l"
+	.string "Locals believe that a SLOWPOKE's\l"
+	.string "yawn summons rain.\l"
+	.string "Records show that a SLOWPOKE's yawn\l"
+	.string "ended a drought 400 years ago.$"
 
 
 
@@ -198,7 +197,7 @@ end
 AzaleaTownDocumento_Text_106:
 .string "...\n"
 	.string "...\l"
-	.string "(Está holgazaneando).$"
+	.string "(It's slacking off!).$"
 
 
 
@@ -212,7 +211,7 @@ end
 AzaleaTownDocumento_Text_107:
 .string "...\n"
 	.string "...\l"
-	.string "(Está holgazaneando).$"
+	.string "(It's slacking off!).$"
 
 
 

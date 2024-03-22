@@ -115,7 +115,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_5:
 
 CeruleanCity_House2_Batalla_Montañero_Text_6:
 .string "What is your name?\n"
-	.string "¿{PLAYER}?\l"
+	.string "{PLAYER}?\l"
 	.string "Wow!\l"
 	.string "This HIKER had 20 TMs DIG!\l"
 	.string "And he wanted it all for himself!\l"

@@ -379,7 +379,7 @@ CherrygroveCity_Entrenamiento_Pegaso_Texto_8:
 	.string "Some people say it's a sign, and proof\n"
 	.string "that the genetic differences between\l"
 	.string "species are unavoidable, and a normal\l"
-	.string "pokémon will never be able to reach the\l"
+	.string "POKÉMON will never be able to reach the\l"
 	.string "Olympus of the LEGENDARIES, I think it's\l"
 	.string "just a coincidence.$"
 
@@ -495,8 +495,8 @@ release
 end
 
 Cherrygrove_Combate_Pidgeot_Perfecto_Texto_1.1:
-.string "¡Obtuviste PIDGEOTITA de manos de\n"
-	.string "ENTRENADOR!$"
+.string "You obtained a PIDGEOTITE\n"
+	.string "from the BIRD KEEPER!$"
 
 
 

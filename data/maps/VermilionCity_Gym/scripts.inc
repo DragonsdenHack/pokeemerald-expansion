@@ -437,7 +437,7 @@ release
 end
 
 CeladonCityGym_NoPass_Texto_1:
-.string "¡Oh, no!$"
+.string "Oh, no!$"
 
 CeladonCityGym_NoPass_Texto_2:
 .string "TEAM ROCKET shall not pass here, our\n"

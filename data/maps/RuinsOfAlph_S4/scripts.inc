@@ -323,7 +323,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_8:
 .string "Finally!$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_9:
-	.string "The most powerful POKEMON of all time,\n"
+	.string "The most powerful POKÉMON of all time,\n"
 	.string "now belongs to me.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_10:
@@ -392,7 +392,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 	.string "closer to IT.$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_22:
-	.string "(JONES collected all of ZEUS's POKEMON.)$"
+	.string "(JONES collected all of ZEUS's POKÉMON.)$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_23:
 	.string "{PLAYER}, but unlike that ZEUS, I have\n"

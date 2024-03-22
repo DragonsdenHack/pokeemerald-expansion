@@ -55,7 +55,7 @@ Route49MazeP4Documento_Text_100:
 	.string "ABILITY: ELECTRIC SURGE\l"
 	.string "The legend states that it evolved from\l"
 	.string "a DUNSPARCE, which was scorned and\l"
-	.string "judged by the rest of the POKEMON. As a\l"
+	.string "judged by the rest of the POKÉMON. As a\l"
 	.string "result of this and its unwavering will,\l"
 	.string "it managed to transcend beyond its\l"
 	.string "limited form. The process and\l"

@@ -396,25 +396,25 @@ release
 end
 
 EventScript_Compra_Porygon_Texto_7:
-	.string "Ahora, ¡a fardar en TORRE RADIO!$"
+	.string "Let's brag at RADIO TOWER now!$"
 
 EventScript_Compra_Porygon_Texto_6:
-	.string "¡OBTUVISTE un PORYGON al Nv.60!$"
+	.string "You obtained a LV.60 PORYGON!$"
 
 EventScript_Compra_Porygon_Texto_5:
-	.string "Tú te lo pierdes.$"
+	.string "You're missing out.$"
 
 EventScript_Compra_Porygon_Texto_4:
-	.string "¿Te interesa?$"
+	.string "Are you interested?$"
 
 EventScript_Compra_Porygon_Texto_3:
-	.string "Por solo 220000 ¥ podrás contar con\n"
-	.string "uno.$"
+	.string "For only 220000 ¥ you can\n"
+	.string "have one.$"
 
 EventScript_Compra_Porygon_Texto_2:
-	.string "¿Quieres ser una de las primeras\n"
-	.string "personas en JOHTO con un PORYGON?$"
+	.string "Are you interested in being among the\n"
+	.string "pioneers in JOHTO to have a PORYGON?$"
 
 EventScript_Compra_Porygon_Texto_1:
-	.string "Traigo lo último en tecnología,\n"
-	.string "importado directamente desde KANTO.$"
+	.string "I have the newest technology, directly\n"
+	.string "imported from KANTO.$"

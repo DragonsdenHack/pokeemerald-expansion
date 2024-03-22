@@ -627,31 +627,29 @@ MauvilleCity_GameCorner_EventScript_NoCoinCase::
 	end
 
 MauvilleCity_GameCorner_Text_ThisIsMauvilleGameCorner:
-	.string "Este es el CASINO TRIGAL.$"
+	.string "This is GOLDENROD CITY GAME CORNER.$"
 
 MauvilleCity_GameCorner_Text_NeedCoinCaseForCoins:
-	.string "Se requiere un MONEDERO.$"
+.string "A COIN CASE is required!$"
 
 MauvilleCity_GameCorner_Text_WereYouLookingForCoins:
-	.string "¿Buscas FICHAS?\p"
-	.string "Son 1000 ¥ por 50 FICHAS.\n"
-	.string "¿Quieres algunas?$"
+    .string "Do you need some game COINS?\n"
+    .string "Would you like to buy some?$"
 
 MauvilleCity_GameCorner_Text_ThankYouHereAreYourCoins:
-	.string "¡Muchas gracias!\n"
-	.string "¡Aquí tienes tus FICHAS!$"
+    .string "Thank you.\n"
+    .string "Here are your COINS!$"
 
 MauvilleCity_GameCorner_Text_DontHaveEnoughMoney:
-	.string "Um… Parece que no tienes\n"
-	.string "suficiente dinero…$"
+    .string "You can't afford the COINS.$"
 
 MauvilleCity_GameCorner_Text_CoinCaseIsFull:
-	.string "¿Oh?\n"
-	.string "Tu MONEDERO está lleno.$"
+    .string "Whoops!\n"
+    .string "Your COIN CASE is full.$"
 
 MauvilleCity_GameCorner_Text_DontNeedCoinsThen:
-	.string "Oh… ¡Entonces no necesitas FICHAS?\n"
-	.string "¡Suerte en tu viaje!$"
+    .string "No?\n"
+    .string "Please come play sometime!$"
 
 MauvilleCity_GameCorner_Text_ExchangeCoinsForPrizes:
 	.string "Welcome.\p"

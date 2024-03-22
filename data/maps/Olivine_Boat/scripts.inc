@@ -100,7 +100,7 @@ release
 end
 
 OlivineBoat_Text_8:
-	.string "I bought a WISHIWASHI for 7000 COINS\n"
+	.string "I bought a WISHIWASHI for 7,000 COINS\n"
 	.string "in GOLDENROD CITY just to show off in\l"
 	.string "front of all these sailors, with a\l"
 	.string "WATER-TYPE POKÉMON that they can\l"

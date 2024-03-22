@@ -56,24 +56,22 @@ Pass_Route38_EventScript_TakeNosepass::
 
 
 Pass_Route38_Text_TakeNosepass:
-	.string "Esta ciudad ha visto muchas\n"
-	.string "calamidades, por ello conviene estar\l"
-	.string "preparado para todo lo que pueda venir.$"
-
+	.string "This city has witnessed many\n"
+	.string "calamities, so it's wise to be prepared\l"
+	.string "for whatever may come.$"
 
 
 Pass_Route38_Text_TakeNosepass2:
-	.string "Hablando de calamidades, un POKÉMON\n"
-	.string "como este no te vendría mal.$"
-
+	.string "Talking about calamities, having a\n"
+	.string "POKÉMON like this could be beneficial.$"
 
 
 Pass_Route38_Text_MensajeNosepass:
-.string "¡OBTUVISTE UN ABSOL AL NV.25!$"
-
+	.string "YOU OBTAINED A LV.25 ABSOL!$"
 
 Pass_Route_38_Text_1:
-	.string "La ahora antigua LÍDER de CIUDAD\n"
-	.string "TRIGAL tenía un ABSOL, era magnífico,\l"
-	.string "tanto que parecía la evolución de un\l"
-	.string "ABSOL corriente.$"
+	.string "The past GOLDENROD CITY GYM LEADER\n"
+	.string "had an ABSOL, which was extraordinary,\l"
+	.string "resembling the evolution of a common\l"
+	.string "ABSOL.$"
+

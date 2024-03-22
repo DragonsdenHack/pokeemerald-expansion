@@ -30,27 +30,23 @@ LakeofRageHouse2_EventScript_TakeWailmer::
 
 
 LakeofRageHouse2_Text_TakeWailmer:
-.string "En todos mis viajes, jamás vi un\n"
-	.string "POKÉMON tan enorme surcar los\l"
-	.string "mares.$"
-
+	.string "Throughout all my journeys, I have\n"
+	.string "never witnessed a POKÉMON as colossal\l"
+	.string "as this one traversing the oceans.$"
 
 
 LakeofRageHouse2_Text_TakeWailmer2:
-	.string "Ten, quiero que tú también lo\n"
-	.string "conozcas. Aquí tienes, ¡su\l"
-	.string "preevolución es ya del tamaño de\l"
-	.string "un LAPRAS adulto!$"
-
+	.string "Here, take it, I want you to meet him\n"
+	.string "too. Here you go, its pre-evolution has\l"
+	.string "already the size of an adult LAPRAS!$"
 
 
 LakeofRageHouse2_Text_MensajeWailmer:
-.string "¡OBTUVISTE UN WAILMER AL NV.50!$"
-
+	.string "YOU OBTAINED A LV.50 WAILMER!$"
 
 LakeofRageHouse2_Text_1:
-    .string "Ver a un WAILORD salir a flote,\n"
-	.string "planear en el aire durante unos\l"
-	.string "segundos y después usar SALPICAR\l"
-	.string "mientras se zambulle de nuevo en\l"
-	.string "el mar es todo un espectáculo.$"
+	.string "Witnessing a WAILORD surface, glide\n"
+	.string "through the air for a few seconds, and\l"
+	.string "then use SPLASH as it dives back into\l"
+	.string "the sea is quite a spectacle.$"
+

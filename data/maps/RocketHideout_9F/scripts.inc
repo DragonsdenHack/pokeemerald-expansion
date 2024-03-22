@@ -180,7 +180,7 @@ release
 end
 
 RocketHideout_9F_Entrenador_Experiencia_Texto_1:
-	.string "I specialize in EXP training. It's 5000\n"
+	.string "I specialize in EXP training. It's 5,000\n"
 	.string "POKÉ for a full training session. Do\l"
 	.string "you accept?$"
 
@@ -209,8 +209,8 @@ end
 
 RocketHideout_9F_Entrenador_Ataque_Especial_Texto_1:
 	.string "I specialize in SP.ATTACK training. It's\n"
-	.string "2000 POKÉ for a full training session. Do\l"
-	.string "you accept?$"
+	.string "2,000 POKÉ for a full training session.\l"
+	.string "Do you accept?$"
 
 
 RocketHideout_9F_Entrenador_Defensa::
@@ -232,7 +232,7 @@ end
 
 RocketHideout_9F_Entrenador_Defensa_Texto_1:
 	.string "I specialize in DEFENSE training. It's\n"
-	.string "2000 POKÉ for a full training session. Do\l"
+	.string "2,000 POKÉ for a full training session. Do\l"
 	.string "you accept?$"
 
 RocketHideout_9F_Entrenador_Velocidad::
@@ -254,7 +254,7 @@ end
 
 RocketHideout_9F_Entrenador_Velocidad_Texto_1:
 	.string "I specialize in SPEED training. It's\n"
-	.string "2000 POKÉ for a full training session. Do\l"
+	.string "2,000 POKÉ for a full training session. Do\l"
 	.string "you accept?$"
 
 RocketHideout_9F_Entrenador_Ataque::
@@ -275,7 +275,7 @@ end
 
 RocketHideout_9F_Entrenador_Ataque_Texto_1:
 	.string "I specialize in ATTACK training. It's\n"
-	.string "2000 POKÉ for a full training session. Do\l"
+	.string "2,000 POKÉ for a full training session. Do\l"
 	.string "you accept?$"
 
 
@@ -299,7 +299,7 @@ end
 
 RocketHideout_9F_Entrenador_Defensa_Especial_Texto_1:
 	.string "I specialize in SP.DEFENSE training. It's\n"
-	.string "2000 POKÉ for a full training session. Do\l"
+	.string "2,000 POKÉ for a full training session. Do\l"
 	.string "you accept?$"
 
 RocketHideout_9F_Entrenador_Salud::
@@ -320,5 +320,5 @@ end
 
 RocketHideout_9F_Entrenador_Salud_Texto_1:
 	.string "I specialize in HP training. It's\n"
-	.string "2000 POKÉ for a full training session. Do\l"
+	.string "2,000 POKÉ for a full training session. Do\l"
 	.string "you accept?$"

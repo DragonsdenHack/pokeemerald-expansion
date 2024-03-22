@@ -174,7 +174,7 @@ end
 
 RocketHideoutFiveIslandMeadow_Text_12:
     .string "A few know that this WAREHOUSE is\n"
-    .string "actually our main source of POKEMON\l"
+    .string "actually our main source of POKÉMON\l"
     .string "traffic, we also carry out various\l"
     .string "experiments, although in KANTO we have\l"
     .string "better laboratories, from CHRONO ISLAND\l"
@@ -417,7 +417,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas3:
     .string "friendly treatment from its citizens,\l"
     .string "you will be seen as the scum of the\l"
     .string "region. Meanwhile, let's give you\l"
-    .string "your starter pokemon, You belong to\l"
+    .string "your starter POKÉMON, You belong to\l"
     .string "the fourth platoon, so each of you will\l"
     .string "receive a ZUBAT imported directly from\l"
     .string "MT. MOON. Any questions?$"
@@ -426,7 +426,7 @@ RocketHideoutFiveIslandMeadow_Text_Atlas3:
 
 RocketHideoutFiveIslandMeadow_Text_Atlas4:
 .string "Sir, I couldn't help but see all those\n"
-    .string "powerful POKEMON in the background,\l"
+    .string "powerful POKÉMON in the background,\l"
     .string "and I was wondering how our leader\l"
     .string "GIOVANNI wants us to perform our role\l"
     .string "in the best possible way, if he doesn't\l"
@@ -463,12 +463,12 @@ RocketHideoutFiveIslandMeadow_Text_Atlas7:
 RocketHideoutFiveIslandMeadow_Text_Atlas8:
     .string "ARCHER: A ZUBAT, although many of you\n"
     .string "would consider it useless, it can\l"
-    .string "become one of the best POKEMON if you\l"
-    .string "take care of it, a GOLBAT is a POKEMON\l"
+    .string "become one of the best POKÉMON if you\l"
+    .string "take care of it, a GOLBAT is a POKÉMON\l"
     .string "worthy of a ROCKET ADMIN, and even a\l"
     .string "member of the ELITE 4, AGATHA, has one\l"
     .string "in her posession, a CROBAT is already\l"
-    .string "one of the 5 best poison-type POKEMON\l"
+    .string "one of the 5 best poison-type POKÉMON\l"
     .string "that exist…. Agile as an AERODACTYL,\l"
     .string "resistant and lethal with its SLUDGE\l"
     .string "BOMB, and you are going to reject that\l"
@@ -928,11 +928,11 @@ RocketHideoutFiveIslanMeadowPostZubat::
 
 Zubat_Text_YesNo:
 .string "So do you want ZUBAT, the PLAGUE\n"
-    .string "POKEMON, as your starter?$"
+    .string "POKÉMON, as your starter?$"
 
 
 Zubat_Text_Yes:
-   .string "Doesn't seem like this POKEMON have\n"
+   .string "Doesn't seem like this POKÉMON have\n"
     .string "much energy.$"
 
 
@@ -944,7 +944,7 @@ RocketHideoutFiveIslanMeadow_Text_MensajeZubat:
    .string "{PLAYER} received a ZUBAT!$"
 
 RocketHideoutFiveIslanMeadow_Text_PostZubat2:
-.string "Well, now that you all have a POKEMON,\n"
+.string "Well, now that you all have a POKÉMON,\n"
     .string "let's proceed to explain your roles on\l"
     .string "our organization, and I will be short\l"
     .string "explaining, basically you will be the\l"
@@ -979,7 +979,7 @@ RocketHideoutFiveIslanMeadow_Text_PostZubat4:
     .string "witnessing the circus that the region\l"
     .string "has become. Come to my office and I will\l"
     .string "give you details of your mission,\l"
-    .string "meanwhile, show off your new POKEMON,\l"
+    .string "meanwhile, show off your new POKÉMON,\l"
     .string "for sure, WAREHOUSE grunts will be\l"
     .string "happy to fight with you.$"
 
@@ -1012,7 +1012,7 @@ RocketHideoutFiveIslanMeadowCajaZubat::
 
 RocketHideoutFiveIslandMeadow_Text_CajaZubat:
 .string "If ARCHER catches me trying to steal\n"
-    .string "any other POKEMON, GIOVANNI is going\l"
+    .string "any other POKÉMON, GIOVANNI is going\l"
     .string "to punish me with his NIDOKING$"
 
 

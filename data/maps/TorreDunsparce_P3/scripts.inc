@@ -184,85 +184,77 @@ face_up
 step_end
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_1:
-.string "????: ¿Eh?\n"
-	.string "¿Alguien más aquí, en serio?$"
+.string "????: Huh?\n"
+	.string "One more person here? Really?$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_2:
-.string "Creí que este lugar solo era conocido\n"
-	.string "por esos monjes tan extraños.\l"
-	.string "Aunque poco importa, mis dragones me\l"
-	.string "llevaron hasta aquí, atraídos por la\l"
-	.string "energía del POKÉMON equivocado.$"
-
+	.string "I thought this place was only known for\n"
+	.string "those strange monks. But it doesn't\l"
+	.string "matter much; my dragons brought me\l"
+	.string "here, drawn by the energy of the wrong\l"
+	.string "POKÉMON.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_3:
-.string "Según los de la pagoda del sur, fue\n"
-	.string "en este lugar donde la voluntad como\l"
-	.string "tal alcanzó su máxima expresión.\l"
-	.string "Aquí un POKÉMON destinado a ser algo\l"
-	.string "que no quería se sobrepuso a todo\l"
-	.string "agente externo.\l"
-	.string "Escaló hasta el extremo superior de\l"
-	.string "sus infinitas posibilidades, y acabó\l"
-	.string "convirtiéndose en algo que cualquier\l"
-	.string "teórico del mundo POKÉMON tacharía de\l"
-	.string "-imposible-.$"
+	.string "According to those in the southern\n"
+	.string "pagoda, it was in this place where\l"
+	.string "willpower itself reached its highest\l"
+	.string "expression. Here, a POKÉMON destined to\l"
+	.string "be something it didn't want overcame all\l"
+	.string "external agents. It climbed to the\l"
+	.string "highest extreme of its infinite\l"
+	.string "possibilities and ended up becoming\l"
+	.string "something that any theorist of the\l"
+	.string "POKÉMON world would deem impossible.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_4:
-.string "Es inspirador, aunque difícil de\n"
-	.string "creer, ¿no?\l"
-	.string "Pero este lugar, aunque ya muy\l"
-	.string "desgastado por el paso del tiempo,\l"
-	.string "irradia esa clase de energía, propia\l"
-	.string "de grandes leyendas... propia de\l"
-	.string "grandes acontecimientos que\l"
-	.string "trascendieron la historia y forjaron\l"
-	.string "el mundo tal y como hoy lo conocemos.$"
+	.string "It's inspiring, albeit difficult to\n"
+	.string "believe, isn't it? However, this place,\l"
+	.string "although much worn by the passage of\l"
+	.string "time, emanates that kind of energy,\l"
+	.string "characteristic of great legends...\l"
+	.string "characteristic of major events that\l"
+	.string "transcended history and forged the\l"
+	.string "world as we know it today.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_5:
-.string "Lo cierto es que...\n"
-	.string "Este lugar me recuerda mucho a…$"
+.string "The true is…\n"
+	.string "This place reminds me…$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_6:
-.string "Qué más da.$"
+	.string "Who cares.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_6.1:
-	.string "Oye, tú, la chica que hay más arriba\n"
-	.string "es amiga tuya, ¿verdad?\l"
-	.string "Según ella, el POKÉMON que busco\l"
-	.string "volvió a su región de origen.\l"
-	.string "¿Crees que es cierto?$"
+	.string "Hey, you, the girl up there is your\n"
+	.string "friend, right? According to her, the\l"
+	.string "POKÉMON I'm looking for returned to its\l"
+	.string "original region. Do you think it's true?$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_7:
-.string "Ya veo, seguramente tengáis razón.$"
+	.string "I see, you're probably right.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_8:
-.string "Odio tener que decir esto, pero\n"
-	.string "parecéis tener un nivel\l"
-	.string "extraordinario, ambos.\l"
-	.string "Me da en la nariz que tenéis algo\l"
-	.string "especial, y no necesito combatir para\l"
-	.string "confirmar mis sospechas. Es demasiado\l"
-	.string "obvio.$"
+	.string "I hate to say this, but you both seem to\n"
+	.string "have an extraordinary level. It's my\l"
+	.string "hunch that you have something special,\l"
+	.string "and I don't need to battle to confirm my\l"
+	.string "suspicions. It's too obvious.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_9:
-.string "Irradiáis energía y poder a raudales.$"
+	.string "You emanate so much energy and power.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_10:
-.string "No me corresponde a mí ser partícipe\n"
-	.string "de vuestra historia, pertenecemos a\l"
-	.string "mundos diferentes.$"
+	.string "It's not my role to be involved in your\n"
+	.string "story; we belong to different worlds.$"
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_11:
-.string "Me agrada mucho haberme topado con\n"
-	.string "vosotros. En un lugar como este...\l"
-	.string "sois como ooparts para mí, pero qué\l"
-	.string "más da, no nos volveremos a ver.$"
+	.string "I'm quite glad to have encountered you.\n"
+	.string "In a place like this... you're like\l"
+	.string "ooparts to me. Anyway... it doesn't\l"
+	.string "matters, we won't cross paths again.$"
 
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_12:
-.string "Mmm... pensándolo mejor, vuestro\n"
-	.string "vínculo con esos POKÉMON, la leyenda\l"
-	.string "de este lugar...\l"
-	.string "Puede que sea yo el oopart, ¿no\l"
-	.string "crees?$"
+	.string "Mmm... upon further reflection, your\n"
+	.string "bond with those POKÉMON, the legend of\l"
+	.string "this place... Perhaps I'm the oopart,\l"
+	.string "don't you think?$"

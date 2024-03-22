@@ -429,7 +429,7 @@ end
 SilphS2_Text_24:
 	.string "Honestly, we were sick of the rules set\n"
 	.string "by LANCE's government. For every 10\l"
-	.string "POKÉS we made, 8 went straight to\l"
+	.string "POKÉ we made, 8 went straight to\l"
 	.string "LANCE's government. Who in their right\l"
 	.string "mind would accept such a tax squeeze?$"
 
@@ -972,7 +972,7 @@ release
 end
 
 Silph_S2_Discoxtrano_Texto_1.1:
-.string "¡{PLAYER} obtained the DUBIOUS\n"
+.string "{PLAYER} obtained the DUBIOUS\n"
 	.string "DISC from Scientist!$"
 
 Silph_S2_Discoxtrano_Text_1:

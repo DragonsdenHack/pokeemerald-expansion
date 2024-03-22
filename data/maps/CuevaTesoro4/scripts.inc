@@ -284,7 +284,7 @@ CuevaTesoro4_Nihilego_Obtencion_Texto_2:
 	.string "Do you want to take it with you?$"
 
 CuevaTesoro4_Nihilego_Obtencion_Texto_3:
-	.string "¡YOU OBTAINED A LV.50 NIHILEGO!$"
+	.string "YOU OBTAINED A LV.50 NIHILEGO!$"
 
 
 CuevaTesoro4_Combate_Guzzlord::

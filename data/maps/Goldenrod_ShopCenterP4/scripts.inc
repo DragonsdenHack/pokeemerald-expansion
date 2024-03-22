@@ -34,7 +34,7 @@ release
 end
 
 Goldenrod_ShopP4_Text_4:
-.string "40000 for DAZZLING GLEAM!?\n"
+.string "40,000 for DAZZLING GLEAM!?\n"
 	.string "Do you know how many shorts I'd have to\n"
 	.string "sell to gather that amount? And how\l"
 	.string "hard would my TOGETIC hit with that\l"
@@ -50,9 +50,9 @@ release
 end
 
 Goldenrod_ShopP4_Text_5:
-.string "A este lugar le falta un ascensor,\n"
-.string "me parece que construirán uno\l"
-.string "pronto.$"
+	.string "There's no elevator in this place, I\n"
+	.string "reckon they'll construct one soon.$"
+
 
 
 
@@ -64,9 +64,9 @@ release
 end
 
 Goldenrod_ShopP4_Text_6:
-.string "¡Jah!\n"
-.string "¡GOLPE CUERPO dice!\l"
-.string "¡Mi GOLEM ni se inmuta con eso!$"
+.string "Hah!\n"
+.string "BODY SLAM is nothing\l"
+.string "for my GOLEM!$"
 
 
 GoldenrodShopCenterP4Documento_100::
@@ -74,5 +74,5 @@ msgbox GoldenrodShopCenterP4Documento_Text_100, MSGBOX_SIGN
 end
 
 GoldenrodShopCenterP4Documento_Text_100:
-.string "¡Optimiza a tu equipo!\n"
-	.string "P4 MOVIMIENTOS POKÉMON$"
+.string "Customize Your POKÉMON\n"
+	.string "5F TM CORNER$"

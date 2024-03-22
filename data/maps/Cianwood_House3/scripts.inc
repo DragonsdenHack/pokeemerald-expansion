@@ -56,24 +56,21 @@ faceplayer
 
 
 CianwoodCity_Aron_Text_TakeNosepass:
-	.string "Esos montañeros de por aquí solo\n"
-	.string "hablan de GEODUDE, ONYX o DONPHAN. Lo\l"
-	.string "que no saben es que hay POKÉMON TIPO\l"
-	.string "ROCA también increíbles en otras\l"
-	.string "regiones.$"
-
-
+	.string "Those HIKERS around here only talk\n"
+	.string "about GEODUDE, ONIX or DONPHAN. What\l"
+	.string "they don't know is that there are also\l"
+	.string "amazing ROCK-TYPE POKÉMON in other\l"
+	.string "regions.$"
 
 CianwoodCity_Aron_Text_TakeNosepass2:
-	.string "Mira, aquí tienes un ejemplo.$"
-
-
+	.string "Look, check this POKÉMON for example.$"
 
 CianwoodCity_Aron_Text_MensajeNosepass:
-.string "¡OBTUVISTE UN ARON AL NV.25!$"
-
+	.string "YOU OBTAINED A LV.25 ARON!$"
 
 CianwoodCity_Aron_Text_1:
-	.string "ARON puede evolucionar a un POKÉMON\n"
-	.string "cuya defensa física rivaliza con la de\l"
-	.string "STEELIX. Gracias a CROM pude conocerlo.$"
+	.string "ARON has the potential to evolve into a\n"
+	.string "POKÉMON with physical defense on par\l"
+	.string "with STEELIX. I got to know about it\l"
+	.string "thanks to CROM.$"
+

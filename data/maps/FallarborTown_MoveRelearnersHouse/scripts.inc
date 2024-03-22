@@ -60,23 +60,23 @@ FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale::
 	end
 
 FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
-    .string "I'm the POKéMON MOVE MANIAC.\p"
+    .string "I'm the POKÉMON MOVE MANIAC.\p"
     .string "I know every single move that\n"
-    .string "POKéMON learn growing up.\p"
+    .string "POKÉMON learn growing up.\p"
     .string "I'm also a mushroom maniac.\p"
     .string "Bring me two TINYMUSHROOMS,\n"
     .string "or one BIG MUSHROOM.\p"
     .string "If you do that for me, I'll teach\n"
-    .string "a move to one POKéMON.$"
+    .string "a move to one POKÉMON.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove:
     .string "Sniff, sniff…\n"
     .string "Hm! You smell of MUSHROOMS!\p"
     .string "Do you want me to teach a move\n"
-    .string "to a POKéMON of yours?$"
+    .string "to a POKÉMON of yours?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TutorWhichMon:
-    .string "Which POKéMON needs tutoring?$"
+    .string "Which POKÉMON needs tutoring?$"
 
 FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
     .string "Which move should I teach?$"
@@ -84,14 +84,14 @@ FallarborTown_MoveRelearnersHouse_Text_TeachWhichMove:
 FallarborTown_MoveRelearnersHouse_Text_DontHaveMoveToTeachPokemon:
     .string "Sorry…\p"
     .string "It doesn't appear as if I have a\n"
-    .string "move I can teach that POKéMON.$"
+    .string "move I can teach that POKÉMON.$"
 
 FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale:
     .string "{PLAYER} handed over two\n"
     .string "TINYMUSHROOMS in exchange.$"
 
 FallarborTown_MoveRelearnersHouse_Text_ComeBackWithHeartScale:
-    .string "If your POKéMON need to learn a\n"
+    .string "If your POKÉMON need to learn a\n"
     .string "move, I need a MUSHROOM or two.$"
 
 FallarborTown_MoveRelearnersHouse_Text_CantTeachEgg:

@@ -130,7 +130,7 @@ end
 
 Silph1F_Text_10:
 	.string "The TEAM ROCKET ELITE has nothing to\n"
-	.string "do with a common RECRUIT, right now, all\l"
+	.string "do with a common GRUNT, right now, all\l"
 	.string "of our POKÉMON are between levels\l"
 	.string "35-40, of course, we have GIOVANNI's\l"
 	.string "orders to disappear as soon as he\l"

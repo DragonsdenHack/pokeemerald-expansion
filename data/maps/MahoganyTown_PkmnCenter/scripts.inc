@@ -27,9 +27,10 @@ release
 end
 
 MahoganyTown_PokemonCenter_Text_2:
-.string "Mucha gente nueva está llegando\n"
-.string "aquí últimamente, me sorprende que\l"
-.string "FREDO no haya dicho nada.$"
+	.string "Many newcomers have been arriving here\n"
+	.string "lately; it surprises me that PRYCE\l"
+	.string "hasn't mentioned anything.$"
+
 
 
 
@@ -41,9 +42,8 @@ release
 end
 
 MahoganyTown_PokemonCenter_Text_3:
-.string "En mi juventud, rodeaba a nado todo\n"
-.string "el LAGO DE LA FURIA. ¡Ahora lo\l"
-.string "rodeo caminando!$"
+	.string "In my youth, I used to swim around the\n"
+	.string "LAKE OF RAGE. Now I walk around it!$"
 
 
 
@@ -55,8 +55,7 @@ release
 end
 
 MahoganyTown_PokemonCenter_Text_4:
-.string "¿Has estado en el LAGO DE LA\n"
-.string "FURIA?\l"
-.string "Parece que su profundidad total es\l"
-.string "aún un misterio, ¿podría haber\l"
-.string "alguna nueva especie ahí abajo?$"
+	.string "Have you been at the LAKE OF RAGE? It\n"
+	.string "seems like its total depth is still a\l"
+	.string "mystery. Could there be a new POKÉMON\l"
+	.string "species down there?$"

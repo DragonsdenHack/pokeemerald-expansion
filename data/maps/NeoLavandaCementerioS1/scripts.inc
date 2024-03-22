@@ -9,7 +9,7 @@ release
 end
 
 NeoLavandaCementerioS1_Text_2:
-	.string "The CEMETERY was built in record time…\n"
+	.string "The GRAVEYARD was built in record time…\n"
 	.string "Something tells me that FUJI already\l"
 	.string "knew what was going to happen to the\l"
 	.string "POKÉMON TOWER long before any of us\l"
@@ -50,7 +50,7 @@ NeoLavandaCementerioS1_Text_4:
 	.string "visited in a long time. However, FUJI\l"
 	.string "moved all of them without exception; he\l"
 	.string "feels indebted to the town. But… The\l"
-	.string "reality is that this CEMETERY will be\l"
+	.string "reality is that this GRAVEYARD will be\l"
 	.string "visited by very few from now on; its\l"
 	.string "destiny is to remain in the shadows.$"
 
@@ -120,7 +120,7 @@ end
 
 NeoLavandaCementerioS1_Text_15:
 	.string "Welcome, {PLAYER}, to the new\n"
-	.string "LAVENDER TOWER CEMETERY! FUJI already\l"
+	.string "LAVENDER TOWER GRAVEYARD! FUJI already\l"
 	.string "informed me that you'd be coming. You're\l"
 	.string "quite a legend around here.$"
 
@@ -263,7 +263,7 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_6:
 
 NeoLavandaCementerioS1_Rocket_Redencion_Texto_7:
 	.string "We were forced to collaborate in the\n"
-	.string "construction of this large CEMETERY,\l"
+	.string "construction of this large GRAVEYARD,\l"
 	.string "stripped of our pay and living on\l"
 	.string "charity. With nothing in return, only a\l"
 	.string "vague promise of redemption sustained\l"
@@ -274,7 +274,7 @@ NeoLavandaCementerioS1_Rocket_Redencion_Texto_8:
 	.string "shortly after, but I was the only one\l"
 	.string "who managed to persevere. Now, I can\l"
 	.string "proudly say that my role in the\l"
-	.string "construction of this cemetery has been\l"
+	.string "construction of this GRAVEYARD has been\l"
 	.string "crucial, and GIOVANNI promoted me to a\l"
 	.string "HIGH RANK GRUNT because of it.$"
 

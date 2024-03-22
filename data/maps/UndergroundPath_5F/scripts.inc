@@ -18,11 +18,11 @@ release
 end
 
 UndergroundPath_5F_Policias_Texto_1:
-.string "Solo podemos pasar de uno en uno, y en\n"
-	.string "cuanto salimos al otro lado hay varios\l"
-	.string "MOTORISTAS protegiendo el acceso.\l"
-	.string "Solo un gran ENTRENADOR como usted\l"
-	.string "puede abrirse paso por los refugios.$"
+	.string "We can only go through individually, and\n"
+	.string "when we exit on the other side, there\l"
+	.string "are several BIKERS guarding the\l"
+	.string "entrance. Only a great TRAINER like you\l"
+	.string "can get through the shelters.$"
 
 
 UndergroundPath_5F_Activador_Entrada::
@@ -43,6 +43,6 @@ release
 end
 
 UndergroundPath_5F_Entrada_Pasa_Text_YesNo:
-.string "La entrada a los refugios parece ser\n"
-	.string "por aquí. ¿Quieres pasar?$"
+	.string "The entrance to the shelters seems to\n"
+	.string "be here. Want to enter?$"
 

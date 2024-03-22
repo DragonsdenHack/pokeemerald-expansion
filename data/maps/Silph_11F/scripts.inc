@@ -577,7 +577,7 @@ Silph_11F_Bill_Presidente_Texto_33:
 	.string "be bought, accept this.$"
 
 Silph_11F_Bill_Presidente_Texto_34:
-	.string "You just earned 400000 POKÉ!!$"
+	.string "You just earned 400,000 POKÉ!!$"
 
 Silph_11F_Bill_Presidente_Texto_35:
 	.string "And this is from the PRESIDENT as a\n"

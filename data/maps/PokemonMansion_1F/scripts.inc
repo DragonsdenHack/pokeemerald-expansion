@@ -709,7 +709,7 @@ PokemonMansion_1F_Ladrones_Texto_29:
 	.string "ROCKET?! Stop and…{PAUSE 20}!$"
 
 PokemonMansion_1F_Ladrones_Texto_30:
-	.string "{PLAYER} found the 2 million POKÉS\n"
+	.string "{PLAYER} found the 2 million POKÉ\n"
 	.string "stolen from the scientist!$"
 
 PokemonMansion_1F_Ladrones_Texto_31:

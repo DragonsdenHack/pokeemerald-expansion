@@ -52,7 +52,7 @@ release
 end
 
 Mision7Lab4_Combate_Mewtwo_Texto_1:
-.string "¡Mew!$"
+.string "Mew!$"
 
 
 Mision7Lab4_Combate_Mewtwo_Texto_3:

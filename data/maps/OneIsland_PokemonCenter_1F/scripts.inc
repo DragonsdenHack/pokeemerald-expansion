@@ -86,7 +86,7 @@ release
 end
 
 OneIsland_PokemonCenter_Text_6:
-	.string "My master CELIO paid millions POKÉS in\n"
+	.string "My master CELIO paid millions POKÉ in\n"
 	.string "the black market to have both RUBY and\l"
 	.string "SAPPHIRE which he needed for his grand\l"
 	.string "project. We installed our machine due to\l"

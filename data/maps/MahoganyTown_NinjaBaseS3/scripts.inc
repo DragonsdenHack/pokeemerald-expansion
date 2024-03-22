@@ -52,8 +52,8 @@ release
 end
 
 NinjaBaseS3_7_Texto_1:
-	.string "¿Hasta dónde cree que llegaremos con\n"
-	.string "todo esto?$"
+	.string "How far do you think we'll get with all\n"
+	.string "of this?$"
 
 
 

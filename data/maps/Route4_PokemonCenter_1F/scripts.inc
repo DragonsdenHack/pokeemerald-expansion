@@ -127,7 +127,7 @@ Route4_PokemonCenter_1F_Estafa_Texto_2:
 .string "Would you like to obtain an\n"
 	.string "extraordinary POKÉMON that will make\l"
 	.string "you feared and respected, for just 500\l"
-	.string "POKÉS? No one but me will make you such\l"
+	.string "POKÉ? No one but me will make you such\l"
 	.string "an offer!$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_3:
@@ -150,7 +150,7 @@ Route4_PokemonCenter_1F_Estafa_Texto_6:
 	.string "because they're after you, and no one\l"
 	.string "will listen, nor believe in you. It's the\l"
 	.string "ultimate business, selling air for 500\l"
-	.string "POKÉS. Hahahaha!$"
+	.string "POKÉ. Hahahaha!$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_7:
 .string "Until never, ROCKET, you can't find me.\n"

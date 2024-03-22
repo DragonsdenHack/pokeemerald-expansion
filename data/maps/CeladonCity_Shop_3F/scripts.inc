@@ -167,7 +167,7 @@ CeladonCity_Shop_3F_Entrenador_Especial_Texto_1.1:
 	.string "from the hands of SALESMAN!$"
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_1:
-	.string "If a POKEMON resists a physical move\n"
+	.string "If a POKÉMON resists a physical move\n"
 	.string "and uses COUNTER, it will return double\l"
 	.string "the damage it just caused to its\l"
 	.string "opponent. That is why we must make sure\l"
@@ -182,7 +182,7 @@ CeladonCity_Shop_3F_Entrenador_Especial_Texto_2:
 
 CeladonCity_Shop_3F_Entrenador_Especial_Texto_3:
 	.string "GIGA IMPACT has a whopping 170 POWER,\n"
-	.string "used on NORMAL type POKEMON it will\l"
+	.string "used on NORMAL type POKÉMON it will\l"
 	.string "also receive STAB, TAUROS or SNORLAX\l"
 	.string "are the best options, they will give the\l"
 	.string "final blow to that POKÉMON that is so\l"

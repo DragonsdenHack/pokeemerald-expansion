@@ -249,26 +249,27 @@ faceplayer
 
 
 BlackthornCity_Swablu_Text_TakeNosepass:
-	.string "Esta ciudad es conocida como la cuna de\n"
-	.string "los DOMADRAGONES, vienen de todas las\l"
-	.string "regiones y muchos de ellos guardan sus\l"
-	.string "respetos dejando un POKÉMON con\l"
-	.string "potencial de ser un dragón.$"
+	.string "This city is famous for being the\n"
+	.string "birthplace of DRAGON TAMERS; they come\l"
+	.string "from all regions, and many of them pay\l"
+	.string "tribute by leaving a POKÉMON with the\l"
+	.string "potential to evolve into a dragon.$"
+
 
 
 
 BlackthornCity_Swablu_Text_TakeNosepass2:
-	.string "¿Quieres contar con uno de esos\n"
-	.string "POKÉMON? Toma.$"
+	.string "Wanna have one of these\n"
+	.string "POKÉMON? Take this.$"
 
 
 
 BlackthornCity_Swablu_Text_MensajeNosepass:
-.string "¡OBTUVISTE UN SWABLU AL NV.25!$"
+	.string "YOU OBTAINED A LV.25 SWABLU!$"
 
 
 BlackthornCity_Swablu_Text_1:
-	.string "La línea evolutiva de SWABLU no cuenta\n"
-	.string "con la capacidad ofensiva típica en los\l"
-	.string "dragones, pero sí con otros atributos.\l"
-	.string "Quizás puedas llegar a descubrirlos.$"
+	.string "SWABLU's evolutionary line doesn't have\n"
+	.string "the typical offensive prowess found in\l"
+	.string "dragons, but has other attributes.\l"
+	.string "Maybe you'll be able to discover them.$"

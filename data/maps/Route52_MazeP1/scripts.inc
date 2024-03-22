@@ -375,7 +375,7 @@ Route52_MazeP1_Combates_Finales_Texto_16:
 	.string "to monopolize and have absolute\l"
 	.string "control over both regions, I won't\l"
 	.string "resist. Therefore, my offer is as\l"
-	.string "follows: 2 MILLION POKÉS, in cash for\l"
+	.string "follows: 2,000,000 POKÉ, in cash for\l"
 	.string "you right now, and 10% of our profits\l"
 	.string "will go to your JOHTO branch.$"
 

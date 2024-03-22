@@ -23,6 +23,6 @@ end
 
 SsAnne_20F_Text_2:
 .string "…\n"
-.string "¡We're getting dressed up\l"
+.string "We're getting dressed up\l"
 .string "for the great party!!\l"
 .string "Get out, you busybody!$"

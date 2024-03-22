@@ -207,7 +207,7 @@ LavenderRadioP2_Evento_Fuji_Texto_1:
 	.string "{PLAYER}, ANDRA hasn't arrived yet.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_2:
-	.string "I should be at the new CEMETERY, I have\n"
+	.string "I should be at the new GRAVEYARD, I have\n"
 	.string "to relocate all the graves. I wanted to\l"
 	.string "take a walk around here and compare the\l"
 	.string "new place with the old one.$"
@@ -248,7 +248,7 @@ LavenderRadioP2_Evento_Fuji_Texto_7:
 
 LavenderRadioP2_Evento_Fuji_Texto_8:
 	.string "It would be a special pleasure for me if\n"
-	.string "you visited the new CEMETERY, south of\l"
+	.string "you visited the new GRAVEYARD, south of\l"
 	.string "the town.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_9:
@@ -259,7 +259,7 @@ LavenderRadioP2_Evento_Fuji_Texto_9:
 	.string "person for the task.$"
 
 LavenderRadioP2_Evento_Fuji_Texto_10:
-	.string "I'll meet you at the CEMETERY, south of\n"
+	.string "I'll meet you at the GRAVEYARD, south of\n"
 	.string "the town. It's hard to miss, {PLAYER}.$"
 
 
@@ -284,7 +284,7 @@ step_end
 
 Radio_P2_Barrera_Texto_1:
 	.string "(You should see FUJI and the town's\n"
-	.string "CEMETERY first.)$"
+	.string "GRAVEYARD first.)$"
 
 LavenderRadioP2_Policia_Cartel::
 lock
@@ -309,6 +309,6 @@ release
 end
 
 LavenderRadioP2_Text_11:
-	.string "No common RECRUIT has access to the\n"
+	.string "No common GRUNTS have access to the\n"
 	.string "upper floors; at the very least, you\l"
 	.string "must be a HIGH RANK.$"

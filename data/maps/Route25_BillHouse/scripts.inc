@@ -159,7 +159,7 @@ Route25_BillHouse_Evento_Policia_text_4:
 
 Route25_BillHouse_Evento_Policia_text_5:
 .string "The ELITE 4 government has already\n"
-	.string "offered me 20 million POKÉS and a\l"
+	.string "offered me 20,000,000 POKÉ and a\l"
 	.string "license for investigating LEGENDARY\l"
 	.string "BIRDS. Your organization is more\l"
 	.string "decadent over time. Were you really\l"

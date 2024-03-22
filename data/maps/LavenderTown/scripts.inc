@@ -416,7 +416,7 @@ LavenderTown_Cierre_Torre_Texto_1:
 
 LavenderTown_Cierre_Torre_Texto_2:
 	.string "FUJI: Don't worry, AGATHA. I'm building a\n"
-	.string "great underground cemetery to\l"
+	.string "great underground GRAVEYARD to\l"
 	.string "accommodate all the displaced souls.$"
 
 LavenderTown_Cierre_Torre_Texto_3:
@@ -517,5 +517,5 @@ end
 
 LavenderTown_Dialogo_Obrero_Texto_1:
 	.string "I'm sorry, but the time to see the\n"
-	.string "POKEMON TOWER has passed. Now it can\l"
+	.string "POKÉMON TOWER has passed. Now it can\l"
 	.string "only be seen through history books.$"

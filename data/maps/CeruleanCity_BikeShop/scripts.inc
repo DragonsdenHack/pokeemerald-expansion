@@ -86,7 +86,7 @@ CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_1:
 .string "This place is not for beggar people like\n"
 	.string "you that can barely pay for your own\l"
 	.string "existence, if you don't have the million\l"
-	.string "POKES that cost the BICYCLE, this is\l"
+	.string "POKÉ that cost the BICYCLE, this is\l"
 	.string "not your place.$"
 
 CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_2:
@@ -118,7 +118,7 @@ CeruleanCity_BikeShop_Secundaria_Bicicleta_Texto_5:
 	.string "serious business not an asylum, do you\l"
 	.string "get it? I can't let that people come\l"
 	.string "often with a gift VOUCHER, that means\l"
-	.string "a one million POKES lose, so much money\l"
+	.string "a one million POKÉ lose, so much money\l"
 	.string "that you will never be able to have it,\l"
 	.string "if this shop is successfully it is\l"
 	.string "because rich people that doesn't know\l"

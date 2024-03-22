@@ -43,7 +43,7 @@ UnionCave_Text_5:
 	.string "stumbled upon someone offering to\l"
 	.string "teach a remarkably strong move to\l"
 	.string "those capable of learning it. But the\l"
-	.string "price was 10000 POKÉ!$"
+	.string "price was 10,000 POKÉ!$"
 
 
 

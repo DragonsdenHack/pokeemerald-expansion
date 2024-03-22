@@ -25,7 +25,7 @@ gText_UserLessLikelyStartled::
 	.string "After this move, the user is\nless likely to be startled.$"
 
 gText_SlightlyStartleFrontMon::
-	.string "Slightly startles the\nPOKéMON in front.$"
+	.string "Slightly startles the\nPOKÉMON in front.$"
 
 gText_SlightlyStartleAppealed::
 	.string "Slightly startles those\nthat have made appeals.$"
@@ -37,7 +37,7 @@ gText_StartleAllAppealed::
 	.string "Startles all POKÉMON that\nhave done their appeals.$"
 
 gText_BadlyStartleFrontMon::
-	.string "Badly startles the\nPOKéMON in front.$"
+	.string "Badly startles the\nPOKÉMON in front.$"
 
 gText_BadlyStartleAppealed::
 	.string "Badly startles those that\nhave made appeals.$"

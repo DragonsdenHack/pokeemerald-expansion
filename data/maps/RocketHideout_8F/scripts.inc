@@ -352,7 +352,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_19:
 	.string "whereabouts of the LEGENDARY BIRDS\l"
 	.string "for quite some time, three of the\l"
 	.string "oldest, most powerful, and sacred\l"
-	.string "POKEMON that this region knows. One of\l"
+	.string "POKÉMON that this region knows. One of\l"
 	.string "them, ZAPDOS, perhaps the most\l"
 	.string "dangerous and uncontrollable of the\l"
 	.string "three, of the dual type\l"
@@ -381,7 +381,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_22:
 	.string "more than one ARTICUNO. This doesn't\l"
 	.string "diminish the fact that they are\l"
 	.string "exceptionally rare, powerful, and\l"
-	.string "elusive POKEMON. The last of them,\l"
+	.string "elusive POKÉMON. The last of them,\l"
 	.string "MOLTRES, has been located at the\l"
 	.string "summit of MT. EMBER, a very emblematic\l"
 	.string "volcano on KNOT ISLAND.$"
@@ -951,7 +951,7 @@ RocketHideout_8F_Mision_Silph_text_9:
 .string "GIOVANNI: This shall be your reward.$"
 
 RocketHideout_8F_Mision_Silph_text_10:
-	.string "(YOU'VE JUST EARNED 500,000 POKÉS)$"
+	.string "(YOU'VE JUST EARNED 500,000 POKÉ)$"
 
 RocketHideout_8F_Mision_Silph_text_11:
 	.string "Take this too, someone of your level\n"
@@ -1657,7 +1657,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_4:
 	.string "idea of where MEWTWO might be…$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_5:
-	.string "BLUE: Excuse me, GIOVANNI, ¿MEWTWO? I\n"
+	.string "BLUE: Excuse me, GIOVANNI, MEWTWO? I\n"
 	.string "had never heard of such a POKÉMON.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_6:
@@ -1669,7 +1669,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_6:
 	.string "and overthrow LANCE once and for all.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_7:
-	.string "RECRUIT: Sir, forgive me for\n"
+	.string "H.R.GRUNT: Sir, forgive me for\n"
 	.string "interrupting, but it's everywhere. They\l"
 	.string "just arrested FUJI at his home in\l"
 	.string "LAVENDER TOWN, accusing him of\l"
@@ -1684,9 +1684,9 @@ RocketHideout_8F_Mision_Gimnasios_texto_9:
 	.string "LANCE, or worse yet, for OAK.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_10:
-	.string "RECRUIT: That's not all, sir. The ELITE 4\n"
-	.string "has issued a statement updating the\l"
-	.string "requirements to participate in the\l"
+	.string "H.R.GRUNT: That's not all, sir. The\n"
+	.string "ELITE 4 has issued a statement updating\l"
+	.string "the requirements to participate in the\l"
 	.string "POKÉMON LEAGUE. I quote: -In addition\l"
 	.string "to the 8 GYM BADGES, given that we only\l"
 	.string "know of the existence of three\l"
@@ -1714,7 +1714,7 @@ RocketHideout_8F_Mision_Gimnasios_texto_13:
 	.string "GIOVANNI: Thank you, you can leave.$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_14:
-.string "RECRUIT: Sir{PAUSE 15}…{PAUSE 15} \n"
+.string "H.R.GRUNT: Sir{PAUSE 15}…{PAUSE 15} \n"
 	.string "Executives{PAUSE 15}…{PAUSE 15}$"
 
 RocketHideout_8F_Mision_Gimnasios_texto_15:
@@ -2971,7 +2971,7 @@ RocketHideout8F_Mision_Johto_Text_2:
 	.string "but before that{PAUSE 15}…{PAUSE 15} Here are your rewards.$"
 
 RocketHideout8F_Mision_Johto_Text_3:
-	.string "YOU JUST INVOICED 1,5 MILLION POKÉS!!$"
+	.string "YOU JUST INVOICED 1'5 MILLION POKÉ!!$"
 
 RocketHideout8F_Mision_Johto_Text_4:
 .string "GIOVANNI: {PAUSE 25}...{PAUSE 25}$"
@@ -3446,7 +3446,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_8:
 	.string "You didn't tell me that guy had KYOGRE,\n"
 	.string "GROUDON and RAYQUAZA {PLAYER}, did\l"
 	.string "you really fight the three LEGENDARY\l"
-	.string "pokémon from HOENN at once? Be really\l"
+	.string "POKÉMON from HOENN at once? Be really\l"
 	.string "careful, I've been studying the HOENN's\l"
 	.string "mythology, and the legend speaks of\l"
 	.string "even more powerful PRIMAL FORMS of\l"
@@ -3615,9 +3615,9 @@ release
 end
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_30:
-.string "¿Quieres ir a tu despacho en JOHTO para\n"
-	.string "ver los documentos sobre las nuevas\l"
-	.string "misiones?$"
+	.string "Do you want to go to your office in\n"
+	.string "JOHTO to see the documents regarding\l"
+	.string "the new missions?$"
 
 RocketHideout_8F_Mision_Lago_Furia_Move_11:
 emote_exclamation_mark
@@ -3668,17 +3668,17 @@ step_end
 RocketHideout_8F_Mision_Lago_Furia_Texto_1:
 	.string "GIOVANNI: {PLAYER}! You're\n"
 	.string "extraordinary, you defeated the three\l"
-	.string "most powerful POKEMON of all time! Do\l"
+	.string "most powerful POKÉMON of all time! Do\l"
 	.string "you understand the reason for your\l"
 	.string "victory? The moment the immortality of\l"
-	.string "such POKEMON was subject to the rules\l"
+	.string "such POKÉMON was subject to the rules\l"
 	.string "governing POKÉMON battles between two\l"
 	.string "TRAINERS, their powers ceased to be\l"
 	.string "infinite and, therefore, vulnerable.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_2:
 	.string "That TRAINER tried to use them as\n"
-	.string "conventional POKEMON, and that's where\l"
+	.string "conventional POKÉMON, and that's where\l"
 	.string "they lost their essence.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_3:
@@ -3710,7 +3710,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_9:
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_10:
 	.string "ANDRA finds it dishonorable to use this\n"
-	.string "kind of POKEMON, so only you will\l"
+	.string "kind of POKÉMON, so only you will\l"
 	.string "receive cloned specimens, {PLAYER}.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_11:
