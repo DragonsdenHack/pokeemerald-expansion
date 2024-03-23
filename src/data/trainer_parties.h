@@ -27412,21 +27412,21 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER133[] = {
     },
     {
     .iv = 255,
-    .lvl = 95,
-    .species = SPECIES_KINGLER,
+    .lvl = 96,
+    .species = SPECIES_OVERQWIL,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {0, 252, 0, 252, 0, 6},
     .nature = NATURE_JOLLY,
-    .moves = {MOVE_LIQUIDATION, MOVE_ROCK_SLIDE, MOVE_NONE, MOVE_NONE}
+    .moves = {MOVE_CRUNCH, MOVE_GUNK_SHOT, MOVE_LIQUIDATION, MOVE_NONE}
     },
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_OVERQWIL,
+    .species = SPECIES_QWOLTFISH,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_CRUNCH, MOVE_GUNK_SHOT, MOVE_LIQUIDATION, MOVE_NONE}
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_DISCHARGE, MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_NONE}
     }
 };
 
@@ -27464,11 +27464,11 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER135[] = {
     {
     .iv = 255,
     .lvl = 97,
-    .species = SPECIES_OVERQWIL,
+    .species = SPECIES_QWOLTFISH,
     .heldItem = ITEM_LUM_BERRY,
     .evs = {6, 252, 0, 252, 0, 0},
-    .nature = NATURE_ADAMANT,
-    .moves = {MOVE_GUNK_SHOT, MOVE_CRUNCH, MOVE_LIQUIDATION, MOVE_NONE}
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_DISCHARGE, MOVE_HYDRO_PUMP, MOVE_SLUDGE_BOMB, MOVE_NONE}
     },
     {
     .iv = 255,
