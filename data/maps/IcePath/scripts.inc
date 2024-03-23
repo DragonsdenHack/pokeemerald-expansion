@@ -63,7 +63,7 @@ IcePath_Llamada_Giovanni_Texto_1.1:
 	.string "PSEUDO LEGENDARY.$"
 
 IcePath_Llamada_Giovanni_Texto_1.2:
-	.string "But… the POKÉMON you just battled goes\n"
+	.string "But{PAUSE 35}…{PAUSE 35} the POKÉMON you just battled goes\n"
 	.string "even further, its special prowess is\l"
 	.string "unparalleled, something really unique.$"
 

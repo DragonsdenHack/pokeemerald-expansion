@@ -29,10 +29,10 @@ end
 
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_1:
-.string "W… who?!$"
+.string "W{PAUSE 15}…{PAUSE 15} who?!$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_2:
-	.string "Oh… I thought you were my husband that\n"
+	.string "Oh{PAUSE 15}…{PAUSE 15} I thought you were my husband that\n"
 	.string "came back.$"
 
 Route50_CasaCampeon_Dialogo_Anciana_Texto_3:
@@ -49,7 +49,7 @@ Route50_CasaCampeon_Dialogo_Anciana_Texto_5:
 	.string "Thanks to you, we're reunited in this\n"
 	.string "place once again. It's been a while\l"
 	.string "since we lost contact, each pursuing\l"
-	.string "our own objectives… Now we can savor\l"
+	.string "our own objectives{PAUSE 15}…{PAUSE 15} Now we can savor\l"
 	.string "this tranquility together.$"
 
 

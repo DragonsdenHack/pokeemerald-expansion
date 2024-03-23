@@ -99,7 +99,7 @@ release
 end
 
 MahoganyTown_Gym_Combate_Texto_11.1:
-.string "Hmm… no doubt, you deserve this TM.$"
+.string "Hmm{PAUSE 15}…{PAUSE 15} no doubt, you deserve this TM.$"
 
 MahoganyTown_Gym_Combate_Texto_11.2:
 .string "{PLAYER} obtained TM60\n"

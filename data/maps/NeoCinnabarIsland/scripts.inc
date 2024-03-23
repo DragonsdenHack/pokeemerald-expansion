@@ -132,7 +132,7 @@ NeoCinnabarIsland_Evento_Oak_Texto_4:
 	.string "progress.$"
 
 NeoCinnabarIsland_Evento_Oak_Texto_5:
-	.string "But… isn't this a sign that we're on the\n"
+	.string "But{PAUSE 15}…{PAUSE 15} isn't this a sign that we're on the\n"
 	.string "right path? That we're entering\l"
 	.string "unhallowed ground?$"
 

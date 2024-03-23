@@ -222,7 +222,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_5:
 	.string "misguided soul.$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_6:
-	.string "Instead, HO-OH… BELL TOWER… I have a\n"
+	.string "Instead, HO-OH{PAUSE 15}…{PAUSE 15} BELL TOWER{PAUSE 15}…{PAUSE 15} I have a\n"
 	.string "feeling it will return. It could sweep\l"
 	.string "aside all those SAGES obstructing the\l"
 	.string "path to BELLCHIME TRAIL, but it's too\l"
@@ -285,7 +285,7 @@ Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_16:
 	.string "battle…$"
 
 Ecruteak_BurnedTower_S1_Zeus_Combate_Texto_17:
-	.string "JAREN: Hmmm… You must be {PLAYER},\n"
+	.string "JAREN: Hmmm{PAUSE 15}…{PAUSE 15} You must be {PLAYER},\n"
 	.string "AGATHA has already told me about you.\l"
 	.string "On behalf of ECRUTEAK CITY, I thank you\l"
 	.string "for what you've done.$"

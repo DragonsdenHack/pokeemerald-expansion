@@ -74,7 +74,7 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MtSilverPkmnCenter2_Campeona_Anciana_Texto_5:
-	.string "So AGATHA is in the place… It was to be\n"
+	.string "So AGATHA is in the place{PAUSE 15}…{PAUSE 15} It was to be\n"
 	.string "expected, she always clung to POKÉMON\l"
 	.string "TOWER.$"
 
@@ -86,11 +86,11 @@ MtSilverPkmnCenter2_Campeona_Anciana_Texto_6:
 
 
 MtSilver_PkmnCenter_Text_2:
-	.string "Ah, yes… I taught AGATHA everything\n"
+	.string "Ah, yes{PAUSE 15}…{PAUSE 15} I taught AGATHA everything\n"
 	.string "she knows. Although she could never\l"
 	.string "come close to my mastery over the\l"
 	.string "GHOST-TYPE, she did become part of the\l"
-	.string "ELITE FOUR. … … Are you curious to know\l"
+	.string "ELITE FOUR. {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Are you curious to see\l"
 	.string "my team? I'm afraid you'll have to live\l"
 	.string "with that curiosity, young one. I belong\l"
 	.string "to another generation, and only in\l"
@@ -110,7 +110,7 @@ release
 end
 
 MtSilver_PkmnCenter_Text_3:
-	.string "If only KOGA knew… I once possessed\n"
+	.string "If only KOGA knew{PAUSE 15}…{PAUSE 15} I once possessed\n"
 	.string "the deadliest POISON-TYPE POKÉMON of\l"
 	.string "all time; with it, I was able to be\l"
 	.string "crowned CHAMPION half a century ago.\l"

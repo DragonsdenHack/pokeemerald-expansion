@@ -183,7 +183,7 @@ Route50_Encuentro_Dunsparce_Texto_6:
 	.string "{PLAYER}! See you there!$"
 
 Route50_Encuentro_Dunsparce_Texto_7:
-	.string "ANDRA: It… it's watching us closely…$"
+	.string "ANDRA: It{PAUSE 25}…{PAUSE 25} it's watching us closely…$"
 
 Route50_Encuentro_Dunsparce_Texto_8:
 	.string "{PLAYER} obtained a GOLDEN STONE!!$"
@@ -354,7 +354,7 @@ Route50_Miguel_Texto_3:
 	.string "them.$"
 
 Route50_Miguel_Texto_4:
-	.string "????: I know… history only remembers\n"
+	.string "????: I know{PAUSE 15}…{PAUSE 15} history only remembers\n"
 	.string "those who succeed, but along the way,\l"
 	.string "the vast majority of those who tried\l"
 	.string "ended up succumbing to the weight of\l"
@@ -380,9 +380,9 @@ Route50_Miguel_Texto_7:
 	.string "to DUN PILLAR. There, a DUDUNSPARCE\l"
 	.string "also tried to rise above an adverse\l"
 	.string "fate, with the same fervor as the now\l"
-	.string "SACRED DRAGON, but… not everyone can\l"
-	.string "be number 1, glory is only reserved for a\l"
-	.string "few.$"
+	.string "SACRED DRAGON, but{PAUSE 15}…{PAUSE 15} not everyone can\l"
+	.string "be the number 1, glory is only reserved for\l"
+	.string "a very few ones.$"
 
 Route50_Miguel_Texto_8:
 	.string "Without a result to support its titanic\n"
@@ -425,15 +425,15 @@ Route50_Miguel_Texto_14:
 	.string "everything they desire.$"
 
 Route50_Miguel_Texto_15:
-.string "But… that's over.$"
+.string "But{PAUSE 25}…{PAUSE 25} that's over.$"
 
 Route50_Miguel_Texto_16:
-	.string "This POKÉMON, me… we were never\n"
+	.string "This POKÉMON, me{PAUSE 15}…{PAUSE 15} we were never\n"
 	.string "considered, we were underestimated, we\l"
 	.string "were defeated, we were overlooked…$"
 
 Route50_Miguel_Texto_17:
-	.string "But together… we will bring out the\n"
+	.string "But together{PAUSE 15}…{PAUSE 15} we will bring out the\n"
 	.string "best in ourselves, and with it, our\l"
 	.string "spirit, our <will>, will remain\l"
 	.string "unbreakable.$"

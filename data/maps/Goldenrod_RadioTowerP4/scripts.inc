@@ -348,7 +348,7 @@ Goldenrod_RadioTower_P4_Reunion_Texto_18:
 	.string "long run.$"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_19:
-.string "DIRECTOR: … $"
+.string "DIRECTOR: {PAUSE 15}…{PAUSE 15} $"
 
 Goldenrod_RadioTower_P4_Reunion_Texto_20:
 	.string "DIRECTOR: You'll have that meeting, I\n"

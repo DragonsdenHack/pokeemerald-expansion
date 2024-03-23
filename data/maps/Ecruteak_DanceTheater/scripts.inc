@@ -454,7 +454,7 @@ Ecruteak_DanceTheater_Batallas_Texto_28:
 .string "Indeed.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_29:
-	.string "ALDER: And could you… take a companion\n"
+	.string "ALDER: And could you{PAUSE 15}…{PAUSE 15} take a companion\n"
 	.string "inside that place?$"
 
 Ecruteak_DanceTheater_Batallas_Texto_30:
@@ -472,7 +472,7 @@ Ecruteak_DanceTheater_Batallas_Texto_30:
 	.string "without bringing companions.$"
 
 Ecruteak_DanceTheater_Batallas_Texto_31:
-	.string "ALDER: Oh, so it is impossible then… The\n"
+	.string "ALDER: Oh, so it is impossible then{PAUSE 25}…{PAUSE 25} The\n"
 	.string "ECRUTEAK CITY LEADER never comes out\l"
 	.string "of BELL TOWER, and I have understood\l"
 	.string "that the actual CHAMP…$"

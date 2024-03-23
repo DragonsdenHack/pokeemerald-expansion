@@ -190,7 +190,7 @@ ThreeIsland_Secundaria_Recreativos_Texto_2:
 	.string "Wait! You are one of them!$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_3:
-	.string "Uh… no?$"
+	.string "Uh{PAUSE 15}…{PAUSE 15} no?$"
 
 ThreeIsland_Secundaria_Recreativos_Texto_4:
 	.string "I thought you were one of those KANTO\n"

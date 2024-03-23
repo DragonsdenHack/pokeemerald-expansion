@@ -112,8 +112,8 @@ SaffronCity_House1_2F_Entrenador_Especial_Texto_1:
 	.string "spend time with.$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_3:
 	.string "I'm sorry, I thought you might be that\n"
@@ -151,6 +151,6 @@ SaffronCity_House1_2F_Entrenador_Especial_Texto_9:
 	.string "even superior to SABRINA's.$"
 
 SaffronCity_House1_2F_Entrenador_Especial_Texto_10:
-.string "Oh...\n"
-	.string "So sad...\l"
-	.string "I thought maybe...$"
+.string "Oh…\n"
+	.string "So sad…\l"
+	.string "I thought maybe…$"

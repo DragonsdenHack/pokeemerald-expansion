@@ -24,7 +24,7 @@ release
 end
 
 VioletTrainerSchool3_Texto_1:
-.string "...$"
+.string "…$"
 
 
 
@@ -394,7 +394,7 @@ Violet_TrainerSchool_Discurso_Pegaso_Texto_11:
 	.string "training.$"
 
 Violet_TrainerSchool_Discurso_Pegaso_Texto_12:
-.string "But… dad…\n"
+.string "But{PAUSE 15}…{PAUSE 15} dad{PAUSE 15}…\n"
 	.string "I want to start training\l"
 	.string "a PIDGEY!$"
 

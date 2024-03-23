@@ -294,7 +294,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_2:
 	.string "place? I'm not sure why, but here the\l"
 	.string "PRIMAL essence of the LEGENDARY\l"
 	.string "POKÉMON is restored to them. KYOGRE,\l"
-	.string "GROUDON… that's what I was looking for,\l"
+	.string "GROUDON{PAUSE 15}…{PAUSE 15} that's what I was looking for,\l"
 	.string "but even more important…$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_3:
@@ -357,7 +357,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_14:
 RuinsOfAlph_S4_Combate_Zeus_Texto_15:
 	.string "Is it not possible?! The PRIMAL\n"
 	.string "POKÉMON, the very god of POKÉMON, the\l"
-	.string "ORIGINAL DRAGON… How could you…?$"
+	.string "ORIGINAL DRAGON{PAUSE 25}…{PAUSE 25} How could you…?$"
 
 RuinsOfAlph_S4_Combate_Zeus_Texto_16:
 	.string "????: Stupid fool, do you really believe\n"
@@ -385,7 +385,7 @@ RuinsOfAlph_S4_Combate_Zeus_Texto_21:
 	.string "That fool has died without knowing that\n"
 	.string "everything he achieved, his PRIMAL\l"
 	.string "FORMS, the incomplete ORIGINAL\l"
-	.string "DRAGON… He owes it all to the POKÉMON\l"
+	.string "DRAGON{PAUSE 25}…{PAUSE 25} He owes it all to the POKÉMON\l"
 	.string "ESSENCE. Its presence here is what\l"
 	.string "restores the LEGENDARIES to their\l"
 	.string "maximum potential, but we can still get\l"

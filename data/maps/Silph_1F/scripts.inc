@@ -415,8 +415,8 @@ Silph_1F_Recepcionista_Pisos_Inferiores_Texto_1:
 	.string "here, ROCKET!$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_3:
 	.string "Oh, yes! So you are the guy who was\n"
@@ -428,7 +428,7 @@ Silph_1F_Recepcionista_Pisos_Inferiores_Texto_4:
 	.string "Nobody outside of this company has\n"
 	.string "ever entered here, and only our most\l"
 	.string "prominent employees can enter there,\l"
-	.string "except for our PRESIDENT...$"
+	.string "except for our PRESIDENT…$"
 
 Silph_1F_Recepcionista_Pisos_Inferiores_Texto_5:
 	.string "He has expressly make it know that you\n"

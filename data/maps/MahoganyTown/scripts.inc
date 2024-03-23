@@ -133,7 +133,7 @@ MahoganyTown_Encuentro_Rocket_Texto_1:
 	.string "How timely!$"
 
 MahoganyTown_Encuentro_Rocket_Texto_2:
-	.string "Cof… Listen. Just as GIOVANNI ordered\n"
+	.string "Cof{PAUSE 15}…{PAUSE 15} Listen. Just as GIOVANNI ordered\n"
 	.string "us, PRYCE has handed over the old NINJA\l"
 	.string "HIDDEN BASE in MAHOGANY for our\l"
 	.string "research. We've already installed some\l"

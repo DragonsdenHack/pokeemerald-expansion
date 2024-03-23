@@ -15,7 +15,7 @@ release
 end
 
 SilphS3_Text_3:
-	.string "... ... He is deep working, completely in\n"
+	.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} He is deep working, completely in\n"
 	.string "the zone.$"
 
 SilphS3_4::
@@ -276,7 +276,7 @@ SilphS3_Miguel_Batalla_Texto_4:
 	.string "seeking around here; I've assembled the\l"
 	.string "team I always wanted to, and it can only\l"
 	.string "get better as I advance my research.\l"
-	.string "Nonetheless...$"
+	.string "Nonetheless…$"
 
 SilphS3_Miguel_Batalla_Texto_5:
 	.string "You don't get the chance to battle with\n"
@@ -284,7 +284,7 @@ SilphS3_Miguel_Batalla_Texto_5:
 	.string "finally took down LANCE. Turns out, I\l"
 	.string "didn't lose to just anyone, even though\l"
 	.string "that's how it might seem to the eyes of\l"
-	.string "KANTO...$"
+	.string "KANTO…$"
 
 SilphS3_Miguel_Batalla_Texto_6:
 	.string "All in all{PAUSE 20}…{PAUSE 20} challenging the real KANTO\n"
@@ -548,7 +548,7 @@ SilphS3_Bill_Batalla_Texto_17:
 	.string "with its type combination giving it\l"
 	.string "three immunities, insane offense, and\l"
 	.string "wicked SPEED. If only its physical\l"
-	.string "DEFENSE didn't suck...$"
+	.string "DEFENSE didn't suck…$"
 
 SilphS3_Bill_Batalla_Texto_18:
 	.string "Despite your victory over me, I\n"
@@ -661,7 +661,7 @@ SilphS3_Documento_Pokemon_Esencia_Texto_1:
 	.string "will be there, simply observing the\l"
 	.string "unfolding events of the KANTO region,\l"
 	.string "attentive to that moment of\l"
-	.string "uncertainty before action...$"
+	.string "uncertainty before action…$"
 
 
 SilphS3_Documento_Pokemon_Esencia_Texto_2:
@@ -691,7 +691,7 @@ SilphS3_Documento_Pokemon_Esencia_Texto_3:
 	.string "much less that of the 'ESSENCE\l"
 	.string "POKÉMON.' If the legend is true, such a\l"
 	.string "cult still exists, hidden in some corner\l"
-	.string "of LAVENDER TOWN...$"
+	.string "of LAVENDER TOWN…$"
 
 SilphS3_Sotano::
 lock

@@ -97,7 +97,7 @@ NewBarkTown_ElmLaboratory_Combate_Elm_Texto_6:
 	.string "When everyone contributes a little,\n"
 	.string "{PLAYER}, this is the result. BILL's\l"
 	.string "PORYGON3, BLAINE's MAGMORTAR-Y, OAK's\l"
-	.string "experiments… They're all now part of\l"
+	.string "experiments{PAUSE 25}…{PAUSE 25} They're all now part of\l"
 	.string "KANTO and JOHTO's efforts. The\l"
 	.string "collaboration between these two\l"
 	.string "regions will make them the dominant\l"

@@ -385,8 +385,8 @@ face_player
 step_end
 
 UndergroundPath2F_Secundaria_Eevees_Texto_1:
-.string "That 's it… Everyone in line… Do not\n"
-	.string "worry… There will be for everyone…$"
+.string "That's it{PAUSE 15}…{PAUSE 15} Everyone in line{PAUSE 15}…{PAUSE 15} Do not\n"
+	.string "worry{PAUSE 15}…{PAUSE 15} There will be for everyone…$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_2:
 .string "Keep it in mind ROCKET, you have only\n"
@@ -395,8 +395,8 @@ UndergroundPath2F_Secundaria_Eevees_Texto_2:
 	.string "there will be no trace of them.$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 UndergroundPath2F_Secundaria_Eevees_Texto_4:
 .string "What's your problem, ROCKET? If you\n"
@@ -443,7 +443,7 @@ UndergroundPath2F_Secundaria_Eevees_Texto_10:
 UndergroundPath2F_Secundaria_Eevees_Texto_11:
 .string "Stupid ROCKET! I thought this black\n"
 	.string "market stuff was your kind of things\l"
-	.string "too! … … Are you now working together\l"
+	.string "too! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Are you now working together\l"
 	.string "with SILPH? What's the difference!\l"
 	.string "Anyway, I have already managed to sell\l"
 	.string "7 EEVEES, with the 7 million I've got,\l"

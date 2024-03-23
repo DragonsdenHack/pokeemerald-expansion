@@ -18,11 +18,10 @@ release
 end
 
 EcruteakCity_Text_1:
-.string "¡Así es!\n"
-.string "¡Después de 5 años, he vuelto a\l"
-.string "ver a esa gran bestia, corriendo\l"
-.string "por los pastos con la fuerza de un\l"
-.string "volcán en erupción!$"
+	.string "Finally! It's been 5 years, but I've\n"
+	.string "encountered that magnificent beast\l"
+	.string "once more, running through the fields\l"
+	.string "with the power of an erupting volcano!$"
 
 
 
@@ -33,9 +32,8 @@ release
 end
 
 EcruteakCity_Text_3:
-.string "¡Eso es un buen presagio!\n"
-.string "¡Grandes tiempos se avecinan en\l"
-.string "nuestra JOHTO!$"
+.string "That's a good omen! \n"
+.string "Great times lie ahead for our JOHTO!$"
 
 
 
@@ -52,11 +50,10 @@ release
 end
 
 EcruteakCity_Text_5:
-.string "La huella de la historia aún se\n"
-.string "deja entrever en lugares como\l"
-.string "este.\l"
-.string "Ya no podemos cambiar lo que fue,\l"
-.string "pero podemos aprender de ello.$"
+	.string "The trace of history is still evident in\n"
+	.string "places like this. We can no longer\l"
+	.string "change what it was, but we can learn\l"
+	.string "from it.$"
 
 
 
@@ -68,11 +65,10 @@ release
 end
 
 EcruteakCity_Text_6:
-.string "CIUDAD IRIS y MALVA son las únicas\n"
-.string "que han conservado su esencia aún\l"
-.string "con el paso del tiempo. Esperemos\l"
-.string "que perduren en esta forma por\l"
-.string "mucho más.$"
+	.string "ECRUTEAK CITY and VIOLET CITY are the\n"
+	.string "only ones that have kept their essence\l"
+	.string "over time. Let's hope they continue in\l"
+	.string "this form for much longer$"
 
 
 
@@ -84,19 +80,16 @@ release
 end
 
 EcruteakCity_Text_8:
-.string "Lo podrás explicar, y la gente\n"
-.string "podrá ver lo que han visto tus\l"
-.string "ojos.\l"
-.string "Podrás hacer fotografías y podrán\l"
-.string "escuchar cómo silban los pájaros o\l"
-.string "cómo la nieve mece las ramas de\l"
-.string "los árboles.\l"
-.string "Podrás escribirlo y podrán incluso\l"
-.string "sentir el viento en la cara o el\l"
-.string "olor a tierra mojada.\l"
-.string "Pero nunca podrás lograr que\l"
-.string "sientan la emoción que tú has\l"
-.string "sentido al estar presente.$"
+	.string "You can explain it, and people will see\n"
+	.string "what your eyes have seen. You can take\l"
+	.string "pictures, and they can hear the birds\l"
+	.string "chirping or the snow rustling the\l"
+	.string "branches of the trees. You can write\l"
+	.string "about it, and they might even feel the\l"
+	.string "wind on their face or the scent of wet\l"
+	.string "earth. But you can never make them feel\l"
+	.string "the emotion that you felt by being\l"
+	.string "present.$"
 
 
 
@@ -108,14 +101,12 @@ release
 end
 
 EcruteakCity_Text_9:
-.string "CIUDAD IRIS es la más antigua de\n"
-.string "JOHTO. Sus dos pagodas se\l"
-.string "construyeron hace 700 años, y una\l"
-.string "de ellas aún se eleva como ninguna\l"
-.string "otra torre en toda la región.\l"
-.string "¡Aún más alto que esa aberración\l"
-.string "de TRIGAL a la que llaman TORRE\l"
-.string "RADIO!$"
+	.string "ECRUTEAK is the most ancient city in\n"
+	.string "JOHTO. Its two pagodas were built 700\l"
+	.string "years ago, and one of them still soars\l"
+	.string "higher than any other tower in the\l"
+	.string "region. Even higher than that atrocity\l"
+	.string "in GOLDENDROD called RADIO TOWER!$"
 
 
 
@@ -168,11 +159,11 @@ msgbox EcruteakCityDocumento_Text_100, MSGBOX_SIGN
 end
 
 EcruteakCityDocumento_Text_100:
-.string "TORRE QUEMADA\n"
-	.string "Destruida por un misterioso\l"
-	.string "incendio hace 150 años.\l"
-	.string "¡Atención!\l"
-	.string "¡Peligro!$"
+.string "BURNED TOWER\n"
+	.string "It was destroyed\l"
+	.string "by a mysterious fire.\l"
+	.string "Please stay away,\l"
+	.string "as it is unsafe.$"
 
 
 
@@ -181,10 +172,11 @@ msgbox EcruteakCityDocumento_Text_101, MSGBOX_SIGN
 end
 
 EcruteakCityDocumento_Text_101:
-	.string "GIMNASIO de CIUDAD IRIS\n"
-	.string "LÍDER: JADEN\l"
-	.string "Una leyenda del pasado en tiempos\l"
-	.string "presentes.$"
+.string "ECRUTEAK CITY GYM\n"
+	.string "LEADER: JADEN\l"
+	.string "A past legend\l"
+	.string "in present days!$"
+
 
 
 
@@ -193,9 +185,9 @@ msgbox EcruteakCityDocumento_Text_102, MSGBOX_SIGN
 end
 
 EcruteakCityDocumento_Text_102:
-.string "CIUDAD IRIS\n"
-	.string "Una ciudad donde conviven el\l"
-	.string "pasado y el presente.$"
+.string "ECRUTEAK CITY\n"
+	.string "A Historical City Where the Past\l"
+	.string "Meets the Present.$"
 
 
 
@@ -204,7 +196,7 @@ msgbox EcruteakCityDocumento_Text_103, MSGBOX_SIGN
 end
 
 EcruteakCityDocumento_Text_103:
-	.string "TEATRO DE DANZA DE CIUDAD IRIS$"
+	.string "ECRUTEAK DANCE THEATER$"
 
 EcruteakCity_Encuentro_Maestro::
 lock
@@ -555,7 +547,7 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_2:
 	.string "battling.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_3:
-.string "OAK: … …$"
+.string "OAK: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_4:
 	.string "AGATHA: Just like you, always working\n"
@@ -589,14 +581,14 @@ Ecruteak_Conversacion_Agatha_Oak_Texto_8:
 	.string "This place hasn't changed, right?$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_9:
-.string "OAK: No… We are the ones who've changed.$"
+.string "OAK: No{PAUSE 35}…{PAUSE 35} We are the ones who've changed.$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_10:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 Ecruteak_Conversacion_Agatha_Oak_Texto_11:
 	.string "I know it's contrary to reason, but I\n"
-	.string "feel there's something… spiritual… in\l"
+	.string "feel there's something{PAUSE 15}…{PAUSE 15} spiritual{PAUSE 15}…{PAUSE 15} in\l"
 	.string "this place. And despite not being able\l"
 	.string "to comprehend it, it's impossible to\l"
 	.string "ignore its power, its presence.$"

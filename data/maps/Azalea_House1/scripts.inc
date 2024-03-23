@@ -202,7 +202,7 @@ step_end
 
 Azalea_House1_Activacion_Sotano_Texto_1.2:
 	.string "(It looks like the painting the old man\n"
-	.string "mentioned… There's a secret button\l"
+	.string "mentioned{PAUSE 15}…{PAUSE 15} There's a secret button\l"
 	.string "behind it. Do you want to press it…?)$"
 
 Azalea_House1_Activacion_Sotano_Texto_1.1:
@@ -234,7 +234,7 @@ Azalea_House1_Activacion_Sotano_Texto_6:
 .string "({PLAYER} PRESSED THE SECRET BUTTON)$"
 
 Azalea_House1_Activacion_Sotano_Texto_7:
-	.string "Grrrrr… Damn it, you knew it from the\n"
+	.string "Grrrrr{PAUSE 15}…{PAUSE 15} Damn it, you knew it from the\n"
 	.string "beginning.$"
 
 Azalea_House1_Activacion_Sotano_Texto_8:

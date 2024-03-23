@@ -158,7 +158,7 @@ SafariZone_1F_Escena_3_Andra_Texto_3:
 	.string "POKÉMON without you having ev…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_4:
-	.string "SCIENTIST: Wow… not every day you can\n"
+	.string "SCIENTIST: Wow{PAUSE 15}…{PAUSE 15} not every day you can\n"
 	.string "see an URSARING here in KANTO. Its\l"
 	.string "ATTACK is devastating, in KANTO will\l"
 	.string "wipe out every POKÉMON with it SLASH,\l"
@@ -211,7 +211,7 @@ SafariZone_1F_Escena_3_Andra_Texto_12:
 	.string "potential of a dragon as DRATINI is.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_13:
-	.string "ANDRA: Oh, well… Is it really that\n"
+	.string "ANDRA: Oh, well{PAUSE 15}…{PAUSE 15} Is it really that\n"
 	.string "strong once it is correctly developed?$"
 
 SafariZone_1F_Escena_3_Andra_Texto_14:
@@ -219,11 +219,11 @@ SafariZone_1F_Escena_3_Andra_Texto_14:
 	.string "most of the LEGENDARIES, it surpasses\l"
 	.string "URSARING in ATTACK BASE. Moreover, it\l"
 	.string "surpasses it in everything: SPEED,\l"
-	.string "HEALTH POINTS, DEFENSE… it's 6-0 in\l"
+	.string "HEALTH POINTS, DEFENSE{PAUSE 15}…{PAUSE 15} it's 6-0 in\l"
 	.string "the overall stats.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_15:
-.string "ANDRA: …$"
+.string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 SafariZone_1F_Escena_3_Andra_Texto_16:
 	.string "SCIENTIST: I don't want to offend you,\n"
@@ -233,7 +233,7 @@ SafariZone_1F_Escena_3_Andra_Texto_16:
 
 SafariZone_1F_Escena_3_Andra_Texto_17:
 	.string "ANDRA: So that is the reason why people\n"
-	.string "fear LANCE… I get it.$"
+	.string "fear LANCE{PAUSE 15}…{PAUSE 15} I get it.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_18:
 	.string "SCIENTIST: That is not the unique\n"
@@ -244,7 +244,7 @@ SafariZone_1F_Escena_3_Andra_Texto_19:
 	.string "URSARING will now be worse than a\l"
 	.string "DRAGONITE in everything by decree, in\l"
 	.string "my mind, this URSARING is capable of\l"
-	.string "exceeding that base in ATTACK… and\l"
+	.string "exceeding that base in ATTACK{PAUSE 15}…{PAUSE 15} and\l"
 	.string "maybe more…$"
 
 SafariZone_1F_Escena_3_Andra_Texto_20:
@@ -252,7 +252,7 @@ SafariZone_1F_Escena_3_Andra_Texto_20:
 	.string "invariant, it is not about of your\l"
 	.string "achievements or about trainment,\l"
 	.string "through those means, your URSARING may\l"
-	.string "defeat a DRAGONITE… that doesn't fully\l"
+	.string "defeat a DRAGONITE{PAUSE 15}…{PAUSE 15} that doesn't fully\l"
 	.string "exploit its potential, but all else being\l"
 	.string "equal, there's nothing to be done. Stats\l"
 	.string "indicate the intrinsic potential of\l"
@@ -262,7 +262,7 @@ SafariZone_1F_Escena_3_Andra_Texto_20:
 	.string "have limits.$"
 
 SafariZone_1F_Escena_3_Andra_Texto_21:
-	.string "ANDRA: Even so… I feel this URSARING\n"
+	.string "ANDRA: Even so{PAUSE 15}…{PAUSE 15} I feel this URSARING\n"
 	.string "has a bit of that potential that you\l"
 	.string "mean, to take advantage of it.$"
 

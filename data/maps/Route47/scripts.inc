@@ -316,7 +316,7 @@ Route47_Encuentro_Maestro_Anciano_Texto_3:
 	.string "decades since I've been here. I thought\l"
 	.string "the MASTER of ECRUTEAK CITY had\l"
 	.string "traveled here. I hoped to have one last\l"
-	.string "conversation with him, but… it seems\l"
+	.string "conversation with him, but{PAUSE 15}…{PAUSE 15} it seems\l"
 	.string "HO-OH decided his time had come.$"
 
 Route47_Encuentro_Maestro_Anciano_Texto_4:
@@ -324,7 +324,7 @@ Route47_Encuentro_Maestro_Anciano_Texto_4:
 	.string "regret, there's no better successor\l"
 	.string "than the one I have in front of me. I'll\l"
 	.string "offer you some advice: head further\l"
-	.string "west, there… perhaps even someone of\l"
+	.string "west, there{PAUSE 25}…{PAUSE 25} perhaps even someone of\l"
 	.string "your level will find what they need to\l"
 	.string "enhance even more.$"
 

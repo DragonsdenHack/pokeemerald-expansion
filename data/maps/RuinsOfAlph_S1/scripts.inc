@@ -39,7 +39,7 @@ RuinsOfAlphS1_Andra_Texto_1:
 	.string "this before; several of ours have\l"
 	.string "already fallen. Those horrible\l"
 	.string "skeletons must have had something to\l"
-	.string "do with it… We must be careful,\l"
+	.string "do with it{PAUSE 15}…{PAUSE 15} We must be careful,\l"
 	.string "{PLAYER}, the DRAGON MASTER was\l"
 	.string "right, this place is dangerous.$"
 
@@ -150,7 +150,7 @@ RuinsOfAlph_S1_Combate_UnownDorado_Texto_4:
 	.string "this?$"
 
 RuinsOfAlph_S1_Combate_UnownDorado_Texto_5:
-	.string "ATLAS doesn't respond. I'm surprised\n"
+	.string "ARCHER doesn't respond. I'm surprised\n"
 	.string "GIOVANNI left him like this; something\l"
 	.string "must have happened.$"
 

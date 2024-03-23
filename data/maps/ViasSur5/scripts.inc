@@ -234,7 +234,7 @@ ViasSur5_Combate_Pegaso_Texto_14:
 	.string "dream come true for me.$"
 
 ViasSur5_Combate_Pegaso_Texto_15:
-	.string "Well… I see you'll honor me. I see no\n"
+	.string "Well{PAUSE 15}…{PAUSE 15} I see you'll honor me. I see no\n"
 	.string "better rival than you for such a\l"
 	.string "purpose.$"
 

@@ -154,7 +154,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_5:
-	.string "S…Sir… It's {PLAYER}, one of the\n"
+	.string "S{PAUSE 15}…{PAUSE 15}Sir{PAUSE 15}…{PAUSE 15} It's {PLAYER}, one of the\n"
 	.string "strongest ROCKET members.$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_6:
@@ -179,8 +179,8 @@ UndergroundPath_12F_Combates_Moteros_Texto_10:
 
 UndergroundPath_12F_Combates_Moteros_Texto_11:
 	.string "You helped defeat BRUNO in the CYCLING\n"
-	.string "ROAD, but that was years ago… times\l"
-	.string "have changed… We won't show you any\l"
+	.string "ROAD, but that was years ago{PAUSE 15}…{PAUSE 15} times\l"
+	.string "have changed{PAUSE 15}…{PAUSE 15} We won't show you any\l"
 	.string "mercy!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_12:
@@ -203,7 +203,7 @@ UndergroundPath_12F_Combates_Moteros_Texto_16:
 .string "No! HYDREIGON, SHARPEDO! Keep fighting!$"
 
 UndergroundPath_12F_Combates_Moteros_Texto_17:
-	.string "Grrrr… It seems you have your\n"
+	.string "Grrrr{PAUSE 15}…{PAUSE 15} It seems you have your\n"
 	.string "reputation well-deserved. You leave me\l"
 	.string "no choice.$"
 

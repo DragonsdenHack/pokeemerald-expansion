@@ -143,7 +143,7 @@ MisionIrisLab_Primer_Cientifico_Texto_9:
 	.string "efficiently.$"
 
 MisionIrisLab_Primer_Cientifico_Texto_10:
-	.string "But you… you're not one of them, maybe\n"
+	.string "But you{PAUSE 15}…{PAUSE 15} you're not one of them, maybe\n"
 	.string "you're not just a GOLDENROD executive\l"
 	.string "either.$"
 
@@ -227,7 +227,7 @@ MisionIrisLab_Segundo_Cientifico_Texto_1:
 	.string "discovered.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_2:
-	.string "Hmm… I see, they've sent you those\n"
+	.string "Hmm{PAUSE 15}…{PAUSE 15} I see, they've sent you those\n"
 	.string "incompetents from the RUINS OF ALPH.$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_3:
@@ -242,7 +242,7 @@ MisionIrisLab_Segundo_Cientifico_Texto_4:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_5:
-	.string "So, that's irrelevant… form is the\n"
+	.string "So, that's irrelevant{PAUSE 15}…{PAUSE 15} form is the\n"
 	.string "unique that matters?$"
 
 MisionIrisLab_Segundo_Cientifico_Texto_6:

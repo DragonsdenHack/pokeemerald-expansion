@@ -248,7 +248,7 @@ face_up
 step_end
 
 Route49_Combate_Andra_Texto_1:
-	.string "SAGE: This is… impossible. The last one\n"
+	.string "SAGE: This is{PAUSE 15}…{PAUSE 15} impossible. The last one\n"
 	.string "to pass the test was EUSINE, over a\l"
 	.string "decade ago.$"
 
@@ -352,7 +352,7 @@ Route49_Combate_Andra_Texto_21:
 
 Route49_Combate_Andra_Texto_22:
 	.string "We'll be waiting for both of you\n"
-	.string "upstairs… if you're able to reach us.$"
+	.string "upstairs{PAUSE 25}…{PAUSE 25} if you're able to reach us.$"
 
 Route49_Combate_Andra_Texto_23:
 	.string "ANDRA: We will see, what is your master\n"

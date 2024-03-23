@@ -166,7 +166,7 @@ Route49_Pagoda_P5_Encuentro_Texto_7:
 Route49_Pagoda_P5_Encuentro_Texto_8:
 	.string "The own physiology of the POKÉMON is\n"
 	.string "doomed to mediocrity. But there was\l"
-	.string "one… who managed to turn all that to\l"
+	.string "one{PAUSE 25}…{PAUSE 25} who managed to turn all that to\l"
 	.string "the opposite extreme. What was\l"
 	.string "supposed to be only served as fuel for\l"
 	.string "it to rebel against its own destiny.$"
@@ -207,4 +207,4 @@ Route49_Pagoda_P5_Encuentro_Texto_12:
 Route49_Pagoda_P5_Encuentro_Texto_13:
 	.string "Who knows, maybe I can advise another\n"
 	.string "trainer as extraordinary as you again.\l"
-	.string "But honestly… I doubt it.$"
+	.string "But honestly{PAUSE 25}…{PAUSE 25} I doubt it.$"

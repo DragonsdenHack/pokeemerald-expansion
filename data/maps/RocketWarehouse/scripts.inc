@@ -386,13 +386,12 @@ msgbox RocketWarehouseDocumento_Text_102, MSGBOX_SIGN
 end
 
 RocketWarehouseDocumento_Text_102:
-	.string "Hay un informe con gráficos\n"
-	.string "y anotaciones en el monitor del PC.\p"
-	.string "- La influencia de las ondas\n"
-	.string "magnéticas en la evolución de los\l"
-	.string "POKÉMON - …\p"
-	.string "… … … … … …\p"
-	.string "Cualquiera entiende esto…$"
+    .string "A report with graphs and text is on\n"
+    .string "the PC monitor.\p"
+    .string "“The Influence of Magnetic Waves\n"
+    .string "on POKéMON Evolution”…\p"
+    .string "… … … … … …\p"
+    .string "It's too difficult to understand…$"
 
 
 

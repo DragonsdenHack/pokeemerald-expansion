@@ -285,13 +285,13 @@ EventoLagoFuria5_Combate_Final_Texto_10:
 EventoLagoFuria5_Combate_Final_Texto_11:
 	.string "Those POKÉMON…They've experienced\n"
 	.string "more than just aimless wandering\l"
-	.string "through routes and towns; they're… a\l"
+	.string "through routes and towns; they're{PAUSE 25}…{PAUSE 25} a\l"
 	.string "fusion of our technology, yet also of\l"
 	.string "the bond with POKÉMON that defines\l"
 	.string "this region.$"
 
 EventoLagoFuria5_Combate_Final_Texto_12:
-	.string "You… must be part of some kind of\n"
+	.string "You{PAUSE 35}…{PAUSE 35} must be part of some kind of\n"
 	.string "organizat…!$"
 
 EventoLagoFuria5_Combate_Final_Texto_13:
@@ -315,7 +315,7 @@ EventoLagoFuria5_Combate_Final_Texto_17:
 	.string "fundamental data.$"
 
 EventoLagoFuria5_Combate_Final_Texto_18:
-	.string "So, a BASE SPEED of 82… It must have\n"
+	.string "So, a BASE SPEED of 82{PAUSE 15}…{PAUSE 15} It must have\n"
 	.string "evolved over millions of years, becoming\l"
 	.string "a predator to GYARADOS. Its solid\l"
 	.string "DEFENSE and total BASE STATS just one\l"
@@ -323,7 +323,7 @@ EventoLagoFuria5_Combate_Final_Texto_18:
 	.string "reinforce this fact…$"
 
 EventoLagoFuria5_Combate_Final_Texto_19:
-	.string "Hmm… It's a POKÉMON halfway between a\n"
+	.string "Hmm{PAUSE 35}…{PAUSE 35} It's a POKÉMON halfway between a\n"
 	.string "MINOR and a MAJOR LEGENDARY, at least\l"
 	.string "in terms of power. Its plentiful HP\l"
 	.string "could imply some distant relation to\l"

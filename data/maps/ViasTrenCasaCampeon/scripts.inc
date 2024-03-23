@@ -45,7 +45,7 @@ release
 end
 
 ViasTrenCasaCampeon_Agatha_Texto_1:
-	.string "AGATHA: Oh… {PLAYER}, what a surprise\n"
+	.string "AGATHA: Oh{PAUSE 15}…{PAUSE 15} {PLAYER}, what a surprise\n"
 	.string "to see you here. Seems like there's\l"
 	.string "nowhere in the world you can't find,\l"
 	.string "huh?$"
@@ -220,10 +220,10 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_1:
 	.string "part of KANTO's history.$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_2:
-.string "AGATHA: …$"
+.string "AGATHA: {PAUSE 15}…{PAUSE 15}$"
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3:
-	.string "Ah… You are {PLAYER}, aren't you?$"
+	.string "Ah{PAUSE 15}…{PAUSE 15} You are {PLAYER}, aren't you?$"
 
 
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_3.1:
@@ -254,7 +254,7 @@ ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_6:
 ViasTrenCasaCampeon_Dialogo_Agatha_Campeona_Texto_7:
 	.string "I know I mentioned the impossibility of\n"
 	.string "our teams crossing paths before, but…\l"
-	.string "I'm still alive… physically, it's not\l"
+	.string "I'm still alive{PAUSE 15}…{PAUSE 15} physically, it's not\l"
 	.string "impossible for such an encounter to\l"
 	.string "happen. At MT. SILVER, I erred in not\l"
 	.string "considering all the possibilities, for me\l"

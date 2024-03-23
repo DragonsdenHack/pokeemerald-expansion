@@ -2656,7 +2656,7 @@ RocketHideout8F_Mision_Mansion_Oak_Text_11:
 	.string "MEWTWO.$"
 
 RocketHideout8F_Mision_Mansion_Oak_Text_12:
-	.string "Just like ATLAS made sure both you and\n"
+	.string "Just like ARCHER made sure both you and\n"
 	.string "ANDRA were ready for the POKÉMON\l"
 	.string "LEAGUE, now it's time for the ultimate\l"
 	.string "challenge.$"
@@ -3433,7 +3433,7 @@ RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_5:
 	.string "LEADER. Perhaps he'll know what to do.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_6:
-	.string "That's all for now, ATLAS and I are very\n"
+	.string "That's all for now, ARCHER and I are very\n"
 	.string "busy with all the points discussed in\l"
 	.string "GOLDENROD, but we won't hesitate to\l"
 	.string "intervene if necessary. I'll wait for\l"
@@ -3692,7 +3692,7 @@ RocketHideout_8F_Mision_Lago_Furia_Texto_3:
 RocketHideout_8F_Mision_Lago_Furia_Texto_6:
 	.string "As is customary, after each major\n"
 	.string "event, I gather you all here to assess\l"
-	.string "everything… and to look to the future.$"
+	.string "everything{PAUSE 25}…{PAUSE 25} and to look to the future.$"
 
 RocketHideout_8F_Mision_Lago_Furia_Texto_7:
 .string "Before anything else, your rewards.$"

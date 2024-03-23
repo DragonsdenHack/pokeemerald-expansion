@@ -335,7 +335,7 @@ Olivine_Lighthouse_Combate_Farero_Texto_9:
 	.string "I like the idea of a last great battle\n"
 	.string "before I leave; it would be the perfect\l"
 	.string "culmination of my time in OLIVINE CITY.\l"
-	.string "The matter is… Are you ready for that\l"
+	.string "The matter is{PAUSE 15}…{PAUSE 15} Are you ready for that\l"
 	.string "ultimate showdown?$"
 
 Olivine_Lighthouse_Combate_Farero_Texto_10:

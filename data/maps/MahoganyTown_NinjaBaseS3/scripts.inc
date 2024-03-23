@@ -334,7 +334,7 @@ walk_in_place_down
 
 MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: {PLAYER}? Are you in\n"
-	.string "MAHOGANY TOWN? Perfect. … … Well, I see\l"
+	.string "MAHOGANY TOWN? Perfect. {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Well, I see\l"
 	.string "you've beaten me to it. I was going to\l"
 	.string "send ARCHER and ANDRA to take back the\l"
 	.string "MAHOGANY BASE, but I trust that you'll\l"
@@ -347,8 +347,8 @@ MahoganyTown_NinjaBaseS3_Llamada_Giovanni_Texto_2:
 	.string "the ancestor of all EEVEEs, capable of\l"
 	.string "transforming into each type of move it\l"
 	.string "executes. It must have given you some\l"
-	.string "trouble, {PLAYER}. … … Did HO-OH\l"
-	.string "appear!? In the peak of BELL TOWER? … …\l"
+	.string "trouble, {PLAYER}. {PAUSE 15}…{PAUSE 15} …{PAUSE 15} Did HO-OH\l"
+	.string "appear!? In the peak of BELL TOWER? {PAUSE 15}…{PAUSE 15} …{PAUSE 15}\l"
 	.string "A TRAINER who only uses MAJOR\l"
 	.string "LEGENDARIES appeared and captured it?\l"
 	.string "And he had LUGIA too!?$"

@@ -117,8 +117,8 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_2:
 	.string "exists there!$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_4:
 .string "Are you challenging me to a fight?!$"

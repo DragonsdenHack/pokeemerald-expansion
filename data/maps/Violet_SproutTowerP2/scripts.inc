@@ -319,8 +319,8 @@ Violet_SproutTower_P2_Encuentro_Maestro_Texto_2:
 	.string "some are unable to develop it.$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_3:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 Violet_SproutTower_P2_Encuentro_Maestro_Texto_4:
 	.string "Oh! So FALKNER sends you? He must have\n"

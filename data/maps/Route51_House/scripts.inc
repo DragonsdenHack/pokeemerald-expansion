@@ -9,7 +9,7 @@ release
 end
 
 Route51_House1_Text_1:
-	.string "Oh, the time flux… It has never stopped,\n"
+	.string "Oh, the time flux{PAUSE 15}…{PAUSE 15} It has never stopped,\n"
 	.string "and it never will. Soon the 20th century\l"
 	.string "will die to give way to the 21st, and\l"
 	.string "everything that has happened in this\l"

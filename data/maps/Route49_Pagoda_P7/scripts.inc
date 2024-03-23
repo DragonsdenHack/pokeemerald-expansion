@@ -355,8 +355,8 @@ emote_exclamation_mark
 step_end
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_1:
-	.string "EUSINE: Wow… So, when {PLAYER}\n"
-	.string "defeated LANCE, they freed ENTEI,\l"
+	.string "EUSINE: Wow{PAUSE 25}…{PAUSE 25} So, when {PLAYER}\n"
+	.string "defeated LANCE, you freed ENTEI,\l"
 	.string "RAIKOU, and SUICUNE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_2:
@@ -418,7 +418,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_12:
 	.string "you have.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_13:
-.string "ANDRA: That… is just not possible!$"
+.string "ANDRA: That{PAUSE 25}…{PAUSE 25} is just not possible!$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_14:
 	.string "EUSINE: I thought you were one of\n"
@@ -430,7 +430,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_14:
 	.string "not, it just did it.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_15:
-.string "ANDRA: But… what was it?$"
+.string "ANDRA: But{PAUSE 25}…{PAUSE 25} what was it?$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_16:
 .string "EUSINE: It was a DUNSPARCE.$"
@@ -506,14 +506,14 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_28:
 .string "ANDRA: Oh…$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_29:
-	.string "As for the PSEUDOLEGENDARY form… I'm\n"
+	.string "As for the PSEUDOLEGENDARY form{PAUSE 25}…{PAUSE 25} I'm\n"
 	.string "afraid its acquisition is beyond my\l"
 	.string "knowledge; you'll have to ask our grand\l"
 	.string "master, as very few monks have been\l"
 	.string "able to evolve a BLESSPARCE.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_30:
-	.string "But… one thing is certain: the SACRED\n"
+	.string "But{PAUSE 15}…{PAUSE 15} one thing is certain: the SACRED\n"
 	.string "DRAGON you faced is unique and\l"
 	.string "unrepeatable. The scriptures speak of\l"
 	.string "a phenomenon similar to the DEEP BOND,\l"
@@ -522,7 +522,7 @@ Route49_Pagoda_P7_Encuentro_Maestro_Texto_30:
 	.string "PSEUDOLEGENDARY phase.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_31:
-.string "ANDRA: I'm… really impressed.$"
+.string "ANDRA: I'm{PAUSE 25}…{PAUSE 25} really impressed.$"
 
 Route49_Pagoda_P7_Encuentro_Maestro_Texto_32:
 	.string "ANDRA: {PLAYER}! Did you hear our\n"

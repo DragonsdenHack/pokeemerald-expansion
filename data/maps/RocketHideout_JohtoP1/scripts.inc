@@ -476,7 +476,7 @@ end
 
 RocketHideoutJohtoP1Documento_Text_100:
 .string "TECHNIQUES USED BY OAK:\n"
-	.string "… The main reason we agreed to support\l"
+	.string "{PAUSE 25}…{PAUSE 25} The main reason we agreed to support\l"
 	.string "LANCE was basically the control of\l"
 	.string "information and the prestige that the\l"
 	.string "POKÉMON LEAGUE would gain by being the\l"

@@ -139,7 +139,7 @@ RustboroCity_Gym_Text_GymGuidePostVictory:
 
 RustboroCity_Gym_Text_JoshIntro:
 	.string "A los ENTRENADORES no debes tomarnos a\n"
-	.string "la ligera... ¡Ahora verás por qué!$"
+	.string "la ligera… ¡Ahora verás por qué!$"
 
 RustboroCity_Gym_Text_JoshDefeat:
 	.string "Me has dejado a cuadros…$"
@@ -153,7 +153,7 @@ RustboroCity_Gym_Text_TommyIntro:
 	.string "olvidarte de vencer a PETRA!$"
 
 RustboroCity_Gym_Text_TommyDefeat:
-	.string "Vaya se diría que tienes potencial...$"
+	.string "Vaya se diría que tienes potencial…$"
 
 RustboroCity_Gym_Text_TommyPostBattle:
 	.string "Pero PETRA es mucho más fuerte que yo\n"

@@ -328,7 +328,7 @@ Mision7Lab4_Dialogo_Oak_Texto_9:
 	.string "PRIMAL form is much more efficient.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_10:
-.string "S.MIGUEL: … …$"
+.string "S.MIGUEL: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 Mision7Lab4_Dialogo_Oak_Texto_11:
 	.string "ELM: Don't exaggerate either, BILL. You\n"
@@ -339,7 +339,7 @@ Mision7Lab4_Dialogo_Oak_Texto_11:
 	.string "we're not infinite.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_12:
-	.string "OAK: But… He's right about something.\n"
+	.string "OAK: But{PAUSE 25}…{PAUSE 25} He's right about something.\n"
 	.string "What was considered strong yesterday\l"
 	.string "is mediocre today. When did a POKÉMON\l"
 	.string "like ZAPDOS cease to impress us? Or a\l"
@@ -364,10 +364,10 @@ Mision7Lab4_Dialogo_Oak_Texto_15:
 	.string "physiologically, they truly are.$"
 
 Mision7Lab4_Dialogo_Oak_Texto_16:
-.string "I mean, if everyone is extraordinary…$"
+.string "I mean, if everyone is extraordinary{PAUSE 25}…$"
 
 Mision7Lab4_Dialogo_Oak_Texto_17:
-.string "… no one will be anymore.$"
+.string "{PAUSE 35}…{PAUSE 35} no one will be anymore.$"
 
 
 Mision7Lab4_Primer_Cartel::

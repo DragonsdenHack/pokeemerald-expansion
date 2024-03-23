@@ -1937,7 +1937,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_2:
 	.string "young competitors leading the charge.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_3:
-.string "ANDRA: You… What are you doing here?$"
+.string "ANDRA: You{PAUSE 25}…{PAUSE 25} What are you doing here?$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_4:
 	.string "OAK: You shouldn't speak to me with\n"
@@ -1971,7 +1971,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_9:
 .string "ANDRA: …$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_10:
-	.string "OAK: Ah… The willpower… How easily it\n"
+	.string "OAK: Ah{PAUSE 15}…{PAUSE 15} The willpower{PAUSE 15}…{PAUSE 15} How easily it\n"
 	.string "can bend under the right stimuli and\l"
 	.string "setbacks!$"
 
@@ -2039,7 +2039,7 @@ BaseRocketHoenn_Encuentro_Oak_Texto_21:
 	.string "allies.$"
 
 BaseRocketHoenn_Encuentro_Oak_Texto_22:
-	.string "ANDRA: That OAK… treats us as if we\n"
+	.string "ANDRA: That OAK{PAUSE 20}…{PAUSE 20} treats us as if we\n"
 	.string "were still grunts collecting FOSSILS in\l"
 	.string "MT. MOON. We should shut him up again in\l"
 	.string "a battle.$"

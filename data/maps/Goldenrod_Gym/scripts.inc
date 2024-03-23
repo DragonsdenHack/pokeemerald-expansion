@@ -199,7 +199,7 @@ release
 end
 
 TrigalGym_Gym_Dude_Texto_1:
-	.string "These girls… They're causing quite a\n"
+	.string "These girls{PAUSE 15}…{PAUSE 15} They're causing quite a\n"
 	.string "stir about the TYPE of this GYM; it\l"
 	.string "seems that DARK isn't favored by the\l"
 	.string "majority. I just want to see epic\l"

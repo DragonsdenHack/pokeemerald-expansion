@@ -220,8 +220,8 @@ ViridianCity_Entrenador_Especial_Texto_1:
 	.string "collect all the BADGES.$"
 
 ViridianCity_Entrenador_Especial_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 10}…{PAUSE 10}\n"
+	.string "{PAUSE 10}…{PAUSE 10}$"
 
 ViridianCity_Entrenador_Especial_Texto_3:
 .string "HAH!\n"

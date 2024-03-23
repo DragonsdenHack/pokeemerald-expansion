@@ -119,7 +119,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_7:
 .string "Was my loyal KINGDRA defeated?$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_8:
-	.string "Oh… You've stunned me, I thought\n"
+	.string "Oh{PAUSE 15}…{PAUSE 15} You've stunned me, I thought\n"
 	.string "nobody could match the power and\l"
 	.string "explosiveness of my KINGDRA. When it\l"
 	.string "transformed one last time after a\l"

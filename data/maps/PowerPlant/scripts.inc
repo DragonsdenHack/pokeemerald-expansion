@@ -89,7 +89,7 @@ PowerPlant14_Texto_1:
 	.string "Finally…\l"
 	.string "I have already defeated 7 POLICE\l"
 	.string "officers who fled to alert LT. SURGE…\l"
-	.string "Hurry… My team won't last much longer…$"
+	.string "Hurry{PAUSE 15}…{PAUSE 15} My team won't last much longer…$"
 
 
 
@@ -208,7 +208,7 @@ PowerPlant_Encuentro_Petrel_Texto_1:
 	.string "ARCHER and I had to go in without you…\l"
 	.string "we saw as LORELEI of the ELITE FOUR\l"
 	.string "arrived at the CENTRAL to stop ANDRA\l"
-	.string "and we had to intervene… ARCHER is\l"
+	.string "and we had to intervene{PAUSE 25}…{PAUSE 25} ARCHER is\l"
 	.string "currently battling her, he asked me to\l"
 	.string "find you and tell you the plan…$"
 
@@ -409,7 +409,7 @@ PowerPlant_Combate_Zapdos_Surge_Texto_12:
 	.string "You can't escape forever.$"
 
 PowerPlant_Combate_Zapdos_Surge_Texto_13:
-	.string "ATLAS: So, ZAPDOS and a GYM LEADER in a\n"
+	.string "ARCHER: So, ZAPDOS and a GYM LEADER in a\n"
 	.string "row, huh {PLAYER}? It seems that\l"
 	.string "after all, you were attentive and\l"
 	.string "absorbed my welcome speech. I can say\l"

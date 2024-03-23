@@ -81,7 +81,7 @@ MtSilver_Combate_Andra_Texto_2:
 	.string "visiting a place like this, look.$"
 
 MtSilver_Combate_Andra_Texto_3:
-	.string "It's as… if this were the place where\n"
+	.string "It's as{PAUSE 25}…{PAUSE 25} if this were the place where\n"
 	.string "POKÉMON battling was born as we know it\l"
 	.string "today. Here is where the great\l"
 	.string "champions of KANTO and JOHTO have come\l"
@@ -125,7 +125,7 @@ MtSilver_Combate_Andra_Texto_9:
 MtSilver_Combate_Andra_Texto_10:
 	.string "I came here, to MOUNT SILVER, in search\n"
 	.string "of a grand challenge. RED was not bad,\l"
-	.string "but… I knew that the real challenge will\l"
+	.string "but{PAUSE 25}…{PAUSE 25} I knew that the real challenge will\l"
 	.string "be you!$"
 
 MtSilver_Combate_Andra_Texto_11:

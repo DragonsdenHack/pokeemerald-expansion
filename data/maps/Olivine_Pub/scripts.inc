@@ -150,10 +150,10 @@ Olivine_Pub_Mision_Secundaria_Texto_1:
 	.string "up for lost time…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_2:
-.string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
+.string "{PAUSE 20} …{PAUSE 20} …{PAUSE 20}$"
 
 Olivine_Pub_Mision_Secundaria_Texto_3:
-	.string "Oh… So you're something more than those\n"
+	.string "Oh{PAUSE 15}…{PAUSE 15} So you're something more than those\n"
 	.string "GOLDENROD executives, maybe you can…$"
 
 Olivine_Pub_Mision_Secundaria_Texto_4:
@@ -167,7 +167,7 @@ Olivine_Pub_Mision_Secundaria_Texto_5:
 	.string "I only regret one thing: leaving behind\n"
 	.string "my dear SNUBBULL; poor thing is still\l"
 	.string "there. It's impossible for me to return,\l"
-	.string "but you… Maybe you can make your way\l"
+	.string "but you{PAUSE 15}…{PAUSE 15} Maybe you can make your way\l"
 	.string "through that place and bring SNUBBULL\l"
 	.string "back to me.$"
 
@@ -192,7 +192,7 @@ Olivine_Pub_Mision_Secundaria_Texto_9:
 	.string "SNUBBULL to the SAILOR.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_10:
-.string "Oh… My SNUBBULL…\n"
+.string "Oh{PAUSE 15}…{PAUSE 15} My SNUBBULL…\n"
 	.string "I thought I'd never see it again.$"
 
 Olivine_Pub_Mision_Secundaria_Texto_11:

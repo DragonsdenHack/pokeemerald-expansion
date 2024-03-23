@@ -19,14 +19,11 @@ release
 end
 
 AzaleaTown_Text_2:
-.string "El GIMNASIO queda reservado para\n"
-.string "disípulos de CÉSAR. Tal y\l"
-.string "como está el asunto no tiene\l"
-.string "responsabilidad alguna de poner en\l"
-.string "juego su MEDALLA.\l"
-.string "A no ser que cuentes con una\l"
-.string "invitación expresa, no puedo\l"
-.string "dejarte entrar.$"
+	.string "The GYM is reserved for KURT's\n"
+	.string "disciples. Given the circumstances, he\l"
+	.string "has no obligation to put his BADGE at\l"
+	.string "stake. Unless you have a specific\l"
+	.string "invitation, I can't let you in.$"
 
 
 

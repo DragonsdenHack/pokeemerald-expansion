@@ -91,7 +91,7 @@ end
 
 Text_18:
 	.string "A ROCKET like you will never be able to\n"
-	.string "enter the SAFARI ZONE! … … What? You\l"
+	.string "enter the SAFARI ZONE! {PAUSE 15}…{PAUSE 15} …{PAUSE 15} What? You\l"
 	.string "don't need it and you've already caught a\l"
 	.string "KANGASKHAN in the ROCK TUNNEL? In\l"
 	.string "addition to being a thief, you're a liar;\l"
@@ -327,7 +327,7 @@ FuchsiaCity_Encuentro_Koga_Texto_4:
 	.string "with no any kind of limitation, it's\l"
 	.string "something only the main shareholders\l"
 	.string "and personalities like BILL have access\l"
-	.string "to for research purposes… consider\l"
+	.string "to for research purposes{PAUSE 15}…{PAUSE 15} consider\l"
 	.string "yourself fortunate, and don't worry\l"
 	.string "about wearing the ROCKET uniform, you\l"
 	.string "can always tell the guard that it's a\l"
@@ -351,7 +351,7 @@ FuchsiaCity_Encuentro_Koga_Texto_7:
 	.string "maintain appearances if you want to\l"
 	.string "keep one of yours infiltrated in\l"
 	.string "privileged positions. I'll be glad to\l"
-	.string "fight with you… if the opportunity\l"
+	.string "fight with you{PAUSE 15}…{PAUSE 15} if the opportunity\l"
 	.string "arises.$"
 
 FuchsiaCity_Encuentro_Koga_Texto_8:

@@ -325,8 +325,8 @@ CeladonCity_Entrenador_Especial_Texto_1:
 .string "Pollution in CELADON is getting worse,\n"
 	.string "something underground must be the\l"
 	.string "problem. If my grandson got back here\l"
-	.string "and saw the situation… Ah, I wish I\l"
-	.string "could remember the good ol' days with a\l"
+	.string "and saw the situation{PAUSE 15}…{PAUSE 15} Ah, I wish I\l"
+	.string "could remember the good old days with a\l"
 	.string "true combat.$"
 
 CeladonCity_Entrenador_Especial_Texto_2:

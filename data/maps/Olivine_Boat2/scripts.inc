@@ -254,7 +254,7 @@ Olivine_Llamada_Giovanni_Texto_1:
 	.string "to mention its immunity to the ELECTRIC\l"
 	.string "TYPE, according to our scientists due\l"
 	.string "to the stainless steel layer that\l"
-	.string "covers it. … … I'm on my way to\l"
+	.string "covers it. {PAUSE 15}…{PAUSE 15} …{PAUSE 15} I'm on my way to\l"
 	.string "GOLDENROD, {PLAYER}. I'll be busy\l"
 	.string "sorting out the meeting at RADIO TOWER,\l"
 	.string "but I'll send someone to inform you when\l"

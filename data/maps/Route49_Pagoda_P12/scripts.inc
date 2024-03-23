@@ -96,7 +96,7 @@ Route49_Pagoda_P12_Combate_Maestro_Texto_5:
 
 Route49_Pagoda_P12_Combate_Maestro_Texto_6:
 	.string "Those unfortunate ones who haven't\n"
-	.string "faced adversity… Who go through life\l"
+	.string "faced adversity{PAUSE 25}…{PAUSE 25} Who go through life\l"
 	.string "without an opponent, never knowing\l"
 	.string "what they are capable of…lucky us for\l"
 	.string "finding a worthy rival.$"

@@ -876,7 +876,7 @@ LavenderRadioP4_Devon_Combates_Texto_1:
 
 LavenderRadioP4_Devon_Combates_Texto_2:
 	.string "ELM: Indeed, OAK. We keep our word,\n"
-	.string "tuning in for all of KANTO… on the first\l"
+	.string "tuning in for all of KANTO{PAUSE 15}…{PAUSE 15} on the first\l"
 	.string "and second floors.$"
 
 LavenderRadioP4_Devon_Combates_Texto_3:
@@ -942,7 +942,7 @@ LavenderRadioP4_Devon_Combates_Texto_12:
 	.string "Recently, MEGAS and conventional\l"
 	.string "prototypes have led to an increase of\l"
 	.string "+100 compared to the base forms. The\l"
-	.string "DEEP BOND increases a +110… What can\l"
+	.string "DEEP BOND increases a +110{PAUSE 25}…{PAUSE 25} What can\l"
 	.string "we expect from this new technology,\l"
 	.string "ELM?$"
 
@@ -1143,7 +1143,7 @@ LavenderRadioP4_Devon_Combates_Texto_51:
 .string "BZZZZ{PAUSE 25}…{PAUSE 25} BERSERK GEN{PAUSE 25}…{PAUSE 25} ACTIVATED.$"
 
 LavenderRadioP4_Devon_Combates_Texto_52:
-	.string "MIGUEL: Yes… The highest possible\n"
+	.string "MIGUEL: Yes{PAUSE 25}…{PAUSE 25} The highest possible\n"
 	.string "physical potential just on the palm of\l"
 	.string "my hand. Just the sheer power needed\l"
 	.string "for finishing someone like you. I shall\l"
@@ -1222,7 +1222,7 @@ LavenderRadioP4_Devon_Combates_Texto_67:
 LavenderRadioP4_Devon_Combates_Texto_67.1:
 	.string "BILL: I can't believe this. No matter\n"
 	.string "what they offered him, even the chance\l"
-	.string "to research new fossils… he would have\l"
+	.string "to research new fossils{PAUSE 15}…{PAUSE 15} he would have\l"
 	.string "never betrayed us like that. They must\l"
 	.string "have offered him something else.$"
 
@@ -1243,7 +1243,7 @@ LavenderRadioP4_Devon_Combates_Texto_68:
 	.string "ELM: He was present at the II GRAND\n"
 	.string "MEETING, he knows about practically all\l"
 	.string "of our projects, the prototypes,\l"
-	.string "MEWTWO… That's what's important, BILL.$"
+	.string "MEWTWO{PAUSE 15}…{PAUSE 15} That's what's important, BILL.$"
 
 LavenderRadioP4_Devon_Combates_Texto_68.1:
 .string "BILL: {PAUSE 15}…{PAUSE 15}$"
@@ -1276,7 +1276,7 @@ LavenderRadioP4_Devon_Combates_Texto_74:
 
 LavenderRadioP4_Devon_Combates_Texto_75:
 	.string "No{PAUSE 25}…{PAUSE 25} I didn't refer to the DEVON attack,\n"
-	.string "I was talking about… all that ELM and\l"
+	.string "I was talking about{PAUSE 25}…{PAUSE 25} all that ELM and\l"
 	.string "OAK exposed.$"
 
 LavenderRadioP4_Devon_Combates_Texto_76:

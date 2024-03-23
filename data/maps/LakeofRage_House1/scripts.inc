@@ -256,12 +256,12 @@ LakeofRageHouse1_Evento_Devon_Texto_9:
 .string "???: What is this?$"
 
 LakeofRageHouse1_Evento_Devon_Texto_10:
-	.string "FISHERMAN: A… a trophy, one of my\n"
+	.string "FISHERMAN: A{PAUSE 35}…{PAUSE 35} a trophy, one of my\n"
 	.string "ancestors became a CHAMPION of JOHTO.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_11:
 	.string "????: Using only POKÉMON catched here?\n"
-	.string "Hehe interesting… the team must have\l"
+	.string "Hehe interesting{PAUSE 25}…{PAUSE 25} the team must have\l"
 	.string "been very strong, maybe…$"
 
 LakeofRageHouse1_Evento_Devon_Texto_12:
@@ -270,7 +270,7 @@ LakeofRageHouse1_Evento_Devon_Texto_12:
 	.string "about it?$"
 
 LakeofRageHouse1_Evento_Devon_Texto_13:
-	.string "FISHERMAN: Eh… Wait, those stairs only\n"
+	.string "FISHERMAN: Eh{PAUSE 25}…{PAUSE 25} Wait, those stairs only\n"
 	.string "lead to an underground cave beneath\l"
 	.string "the LAKE. I don't advise you to enter;\l"
 	.string "the wild POKÉMON there are extremely\l"
@@ -294,7 +294,7 @@ LakeofRageHouse1_Evento_Devon_Texto_16:
 
 
 LakeofRageHouse1_Evento_Devon_Texto_17:
-	.string "????: I'll handle that… with the help of\n"
+	.string "????: I'll handle that{PAUSE 15}…{PAUSE 15} with the help of\n"
 	.string "my POKÉMON. Let's move!$"
 
 

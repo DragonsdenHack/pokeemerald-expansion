@@ -2505,7 +2505,7 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_14:
 	.string "TEAM ROCKET was created {PLAYER}:\l"
 	.string "you were fundamental in saving KANTO\l"
 	.string "from the hands of LANCE, along with\l"
-	.string "ATLAS and ANDRA, you have reached the\l"
+	.string "ARCHER and ANDRA, you have reached the\l"
 	.string "highest rank I can give to any member\l"
 	.string "of TEAM ROCKET in KANTO:\l"
 	.string "ADMINISTRATOR.$"
@@ -3584,7 +3584,7 @@ RocketHideout_4F_Dialogo_Proton_Texto_2:
 	.string "Even though I'm still an EXECUTIVE, I'm\n"
 	.string "GIOVANNI's most trusted one. Meanwhile,\l"
 	.string "PETREL and ARCHER are the only ADMINS,\l"
-	.string "with ATLAS as the HEAD ADMIN, since\l"
+	.string "with ARCHER as the HEAD ADMIN, since\l"
 	.string "he's the highest authority in our SEVII\l"
 	.string "ISLANDS branch.$"
 

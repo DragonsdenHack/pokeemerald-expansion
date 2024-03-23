@@ -90,7 +90,7 @@ CultoS8_Combate_Lider_Texto_10:
 	.string "So now, the RUINS OF ALPH keep several\n"
 	.string "secrets, maybe he knows some legend\l"
 	.string "that I don't. But you, {PLAYER},\l"
-	.string "seeing how you've battled… Someone like\l"
+	.string "seeing how you've battled{PAUSE 25}…{PAUSE 25} Someone like\l"
 	.string "you can only be defeated in battle by\l"
 	.string "the ESSENCE POKÉMON.$"
 
@@ -168,7 +168,7 @@ CultoS8_Llamada_Giovanni_Texto_2:
 
 CultoS8_Llamada_Giovanni_Texto_1:
 	.string "GIOVANNI: Have you discovered\n"
-	.string "something, {PLAYER}? {PAUSE 15}…{PAUSE 15} … {PAUSE 15}RUINS OF\l"
+	.string "something, {PLAYER}? {PAUSE 15}…{PAUSE 15} …{PAUSE 15}RUINS OF\l"
 	.string "ALPH? Just as we suspected, if a NATU\l"
 	.string "sneezes in its tall grass, we'll be aware.\l"
 	.string "We're keeping the entire area under\l"

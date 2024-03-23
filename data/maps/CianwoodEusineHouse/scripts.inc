@@ -65,7 +65,7 @@ emote_exclamation_mark
 step_end
 
 CianwoodEusineHouse_Combate_Texto_1:
-.string "????: … …$"
+.string "????: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 CianwoodEusineHouse_Combate_Texto_1.1:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
@@ -106,7 +106,7 @@ CianwoodEusineHouse_Combate_Texto_7:
 	.string "You'll have to prove what you just said.$"
 
 CianwoodEusineHouse_Combate_Texto_8:
-	.string "????: Well… it seems I've judged you\n"
+	.string "????: Well{PAUSE 15}…{PAUSE 15} it seems I've judged you\n"
 	.string "unfairly, despite your young age and\l"
 	.string "high position. Your POKÉMON fight in\l"
 	.string "total harmony, just as the wisest of\l"
@@ -226,7 +226,7 @@ CianwoodEusineHouse_Dialogo_Post_Mision_Texto_7:
 	.string "What do you think?$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_8:
-	.string "I knew you'd agree! So… you've got a\n"
+	.string "I knew you'd agree! So{PAUSE 15}…{PAUSE 15} you've got a\n"
 	.string "massive team of scientists who'll be\l"
 	.string "very interested in hearing all of this…\l"
 	.string "well, I won't budge from here. Once you\l"

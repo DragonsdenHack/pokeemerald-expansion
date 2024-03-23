@@ -327,10 +327,10 @@ Route49_MazeP4_Combate_Maestro_Texto_1.1:
 .string "ANDRA: … …$"
 
 Route49_MazeP4_Combate_Maestro_Texto_1:
-.string "G.MAESTRO: Tienes talento, voluntad y\n"
-	.string "espíritu, joven. Pero te falta\l"
-	.string "templanza, sin ella, jamás lograrás\l"
-	.string "sacar todo tu potencial.$"
+	.string "G.MASTER: You have talent, willpower,\n"
+	.string "and spirit, young one. But you lack\l"
+	.string "temperance; without it, you will never\l"
+	.string "fully unleash your potential.$"
 
 Route49_MazeP4_Combate_Maestro_Texto_2:
 	.string "Your training ethic is remarkable.\n"

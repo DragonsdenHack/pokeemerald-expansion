@@ -2463,7 +2463,7 @@ RocketHideout_7F_Fuerte_Vinculo_Texto_2:
 .string "Anyway, in JOHTO should be the answer.\n"
 	.string "LUGIA and HO-OH went back to their\l"
 	.string "original region, I am sure, maybe in\l"
-	.string "ECRUTEAK CITY, WHIRL ISLANDS… It has\l"
+	.string "ECRUTEAK CITY, WHIRL ISLANDS{PAUSE 15}…{PAUSE 15} It has\l"
 	.string "been possible to see POKÉMON in those\l"
 	.string "places in the past. Maybe we would be\l"
 	.string "able to find some answers that finally\l"

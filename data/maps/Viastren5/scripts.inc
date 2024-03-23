@@ -283,7 +283,7 @@ ViasTren5_Combate_Atlas_Texto_7:
 ViasTren5_Combate_Atlas_Texto_8:
 	.string "A POKÉMON like that would fit perfectly\n"
 	.string "into my team, the perfect match for my\l"
-	.string "HOUNDOOM and FERALIGATR… My duty and\l"
+	.string "HOUNDOOM and FERALIGATR{PAUSE 15}…{PAUSE 15} My duty and\l"
 	.string "ambition as CHIEF ADMIN., just like\l"
 	.string "yours, is to form the most ruthless\l"
 	.string "team possible.$"
@@ -312,7 +312,7 @@ ViasTren5_Combate_Atlas_Texto_12:
 	.string "here; P-ZAPDOS will be impressed…$"
 
 ViasTren5_Combate_Atlas_Texto_13:
-	.string "ARCHER: Well… That's how it should be…\n"
+	.string "ARCHER: Well{PAUSE 15}…{PAUSE 15} That's how it should be…\n"
 	.string "ANDRA already told me, improving your\l"
 	.string "POKÉMON team more and more isn't\l"
 	.string "enough for you. Something more is\l"
@@ -327,7 +327,7 @@ ViasTren5_Combate_Atlas_Texto_14:
 	.string "under your command.$"
 
 ViasTren5_Combate_Atlas_Texto_14.1:
-	.string "Because… unlike justice, force is\n"
+	.string "Because{PAUSE 15}…{PAUSE 15} unlike justice, force is\n"
 	.string "readily acknowledged and unquestioned.\l"
 	.string "The pursuit of its rewards, as well as\l"
 	.string "preventing others from obtaining them,\l"
@@ -348,7 +348,7 @@ ViasTren5_Combate_Atlas_Texto_14.3:
 	.string "always been like this, {PLAYER}.\l"
 	.string "That's why we're all meeting up in\l"
 	.string "GOLDENROD. We don't tolerate weak\l"
-	.string "people here, and that's why… I can't\l"
+	.string "people here, and that's why{PAUSE 15}…{PAUSE 15} I can't\l"
 	.string "imagine living any other way than\l"
 	.string "constantly seeking that strength, even\l"
 	.string "if it's artificial.$"
@@ -358,13 +358,13 @@ ViasTren5_Combate_Atlas_Texto_15:
 	.string "to talk about.$"
 
 ViasTren5_Combate_Atlas_Texto_16:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 ViasTren5_Combate_Atlas_Texto_17:
 .string "(The P-ZAPDOS soared at great speed)$"
 
 ViasTren5_Combate_Atlas_Texto_18:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 ViasTren5_Combate_Atlas_Texto_19:
 	.string "That's a unique moment in history!$"
@@ -380,14 +380,14 @@ ViasTren5_Combate_Atlas_Texto_21:
 	.string "closing soon, nor ZAPD…$"
 
 ViasTren5_Combate_Atlas_Texto_22:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 ViasTren5_Combate_Atlas_Texto_23:
-	.string "Yes?… No… How is that possible? That\n"
+	.string "Yes?{PAUSE 15}…{PAUSE 15} No{PAUSE 15}…{PAUSE 15} How is that possible? That\n"
 	.string "shouldn't happen! Stop it now!$"
 
 ViasTren5_Combate_Atlas_Texto_24:
-	.string "{PLAYER}... it seems P-ZAPDOS has\n"
+	.string "{PLAYER}{PAUSE 15}…{PAUSE 15} it seems P-ZAPDOS has\n"
 	.string "flown towards the revamped POWER\l"
 	.string "PLANT, it's absorbing all the\l"
 	.string "electricity from the plant, if it keeps\l"

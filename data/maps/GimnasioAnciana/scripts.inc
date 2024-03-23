@@ -171,7 +171,7 @@ GimnasioAnciana_Anciano_Texto_2:
 
 GimnasioAnciana_Anciano_Texto_1:
 	.string "I never thought I'd say this again,\n"
-	.string "but… welcome to the SEVEN ISLAND\l"
+	.string "but{PAUSE 15}…{PAUSE 15} welcome to the SEVEN ISLAND\l"
 	.string "GYM!$"
 
 GimnasioAnciana_Documento_100::

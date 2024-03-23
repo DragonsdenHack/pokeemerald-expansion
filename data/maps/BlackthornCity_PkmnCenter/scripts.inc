@@ -60,11 +60,9 @@ release
 end
 
 BlackthornCity_PkmnCenter_Text_4:
-.string "Para quien sepa buscar, hay muchos\n"
-.string "ENTRENADORES en JOHTO que valen la\l"
-.string "pena y que han cultivado por\l"
-.string "décadas el arte de combatir, pero\l"
-.string "de todos ellos, quien se lleva la\l"
-.string "palma es sin duda nuestro LÍDER.\l"
-.string "Sus dragones están simplemente a\l"
-.string "otro nivel.$"
+	.string "For those who know where to search,\n"
+	.string "there are many TRAINERS in JOHTO worth\l"
+	.string "encountering, honing their battling\l"
+	.string "skills for decades. But among them all,\l"
+	.string "our GYM LEADER undoubtedly stands out.\l"
+	.string "His dragons transcend all others.$"

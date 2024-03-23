@@ -114,7 +114,7 @@ face_player
 step_end
 
 RuinsOfAlph_House_Mision_Secundaria_Texto_1:
-	.string "Those SCIENTISTS… they came from a\n"
+	.string "Those SCIENTISTS{PAUSE 15}…{PAUSE 15} they came from a\n"
 	.string "different region, promising to only\l"
 	.string "research our FOSSILS, but they've\l"
 	.string "disappeared without a trace…$"

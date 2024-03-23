@@ -243,7 +243,7 @@ NeoLavandaCementerioS2_Combate_Azul_Texto_6:
 	.string "strengthened you.$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_7:
-	.string "I'm intrigued… to see how far you've\n"
+	.string "I'm intrigued{PAUSE 25}…{PAUSE 25} to see how far you've\n"
 	.string "come. Let me see your team!$"
 
 NeoLavandaCementerioS2_Combate_Azul_Texto_8:
@@ -358,8 +358,8 @@ NeoLavandaCementerioS2_Evento_Fuji_Texto_2:
 	.string "somewhat unstable. It doesn't seem to\l"
 	.string "be the spirit of MAROWAK, you've already\l"
 	.string "scared it away. It must be something\l"
-	.string "older… perhaps linked to the very\l"
-	.string "creation of POKÉMON TOWER… it's very\l"
+	.string "older{PAUSE 15}…{PAUSE 15} perhaps linked to the very\l"
+	.string "creation of POKÉMON TOWER{PAUSE 15}…{PAUSE 15} it's very\l"
 	.string "likely that it saw its destruction as a\l"
 	.string "disturbance to its rest.$"
 
@@ -663,7 +663,7 @@ NeoLavandaCementerioS2_Evento_Ghost_Texto_11:
 	.string "TOWN?$"
 
 NeoLavandaCementerioS2_Evento_Ghost_Texto_12:
-.string "FUJI: I t-think… It has forgiven me.$"
+.string "FUJI: I t-think{PAUSE 35}…{PAUSE 35} It has forgiven me.$"
 
 
 NeoLavandaCementerioS2_Novena_Exorciasta::

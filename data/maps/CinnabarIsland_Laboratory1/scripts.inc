@@ -153,7 +153,7 @@ face_player
 step_end
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_1:
-	.string "I can't believe this… How he dared to\n"
+	.string "I can't believe this{PAUSE 15}…{PAUSE 15} How he dared to\n"
 	.string "betray me like this…$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_2:
@@ -204,7 +204,7 @@ CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_9:
 	.string "be in one of the UNDERGROUND PATHS,\l"
 	.string "could be CELADON with LAVENDER, or\l"
 	.string "CERULEAN with VERMILION, it must be\l"
-	.string "one of those two… hurry up.$"
+	.string "one of those two{PAUSE 25}…{PAUSE 25} hurry up.$"
 
 CinnabarIsland_Laboratory_1_Secundaria_Cientifico_Eevee_Texto_10:
 	.string "My own colleague has stolen from me on\n"

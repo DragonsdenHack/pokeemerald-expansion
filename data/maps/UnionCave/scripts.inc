@@ -308,6 +308,6 @@ UnionCave_Llamada_Giovanni_Texto_1:
 	.string "concentrate on gathering data about\l"
 	.string "the DEEP BOND POKÉMON. We have plenty\l"
 	.string "of time to uncover the secrets of the\l"
-	.string "RUINS. As for the GYM LEADERS… who\l"
+	.string "RUINS. As for the GYM LEADERS{PAUSE 25}…{PAUSE 25} who\l"
 	.string "knows how long they'll endure in this\l"
 	.string "dynamic JOHTO.$"

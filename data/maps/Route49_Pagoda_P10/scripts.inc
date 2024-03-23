@@ -123,7 +123,7 @@ Route49_Pagoda_P10_Combate_Maestro_Texto_10:
 	.string "unstoppable dance of movement…$"
 
 Route49_Pagoda_P10_Combate_Maestro_Texto_11:
-	.string "… when you reach that point, your\n"
+	.string "{PAUSE 25}…{PAUSE 25} when you reach that point, your\n"
 	.string "possibilities will be infinite.$"
 
 Route49_Pagoda_P10_Encuentro_Maestro::

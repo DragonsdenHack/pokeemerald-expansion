@@ -31,19 +31,18 @@ release
 end
 
 Route30_House_2_Documento_Texto_1:
-.string "Según últimas investigaciones, en lo\n"
-	.string "profundo del LAGO de la FURIA puede\l"
-	.string "encontrarse un objeto especial: la\l"
-	.string "ESCAMA ROJA.$"
+	.string "According to recent research, deep\n"
+	.string "within the LAKE OF RAGE, you can find a\l"
+	.string "special item: the RED SCALE.$"
 
 Route30_House_2_Documento_Texto_2:
 	.string "… … … … … … … …$"
 
 Route30_House_2_Documento_Texto_3:
-	.string "Aún desconocemos su naturaleza, pero\n"
-	.string "ha demostrado elevar el poder base de\l"
-	.string "GYARADOS al usarlo como objeto\l"
-	.string "equipable.$"
+	.string "We still don't know its nature, but it\n"
+	.string "has been shown to increase GYARADOS's\l"
+	.string "base power when used as an equipped\l"
+	.string "item.$"
 
 Ruta_Sur_Malva_Gordo::
 lock
@@ -53,7 +52,8 @@ release
 end
 
 Ruta_Sur_Malva_Gordo_Texto_1:
-	.string "La fauna y flora de JOHTO es bastante\n"
-	.string "más rica que la de KANTO, las bayas que\l"
-	.string "aquí crecen son prueba de ello. He oído\l"
-	.string "que en HOENN la variedad es aún mayor.$"
+	.string "JOHTO boasts a more diverse range of\n"
+	.string "flora and fauna compared to KANTO, with\l"
+	.string "the berries grown here serving as\l"
+	.string "evidence. Rumor has it that HOENN\l"
+	.string "offers an even broader variety.$"

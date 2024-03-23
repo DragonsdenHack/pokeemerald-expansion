@@ -159,7 +159,7 @@ LakeofRage_Fredo_Texto_1:
 	.string "seen each other before?$"
 
 LakeofRage_Fredo_Texto_2:
-	.string "Yes… The GOLDENROD meeting, so you're\n"
+	.string "Yes{PAUSE 25}…{PAUSE 25} The GOLDENROD meeting, so you're\n"
 	.string "the ROCKET who won the POKÉMON LEAGUE.$"
 
 LakeofRage_Fredo_Texto_3:

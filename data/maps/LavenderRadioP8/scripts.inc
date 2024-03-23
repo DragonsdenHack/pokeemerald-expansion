@@ -59,7 +59,7 @@ LavenderRadioP8_Tercer_Cientifico_Texto_1:
 	.string "stuff, I've worked on them by myself.\l"
 	.string "However, it is not happiness nor\l"
 	.string "satisfaction what I felt as I saw the\l"
-	.string "results. It was fear… fear of what that\l"
+	.string "results. It was fear{PAUSE 15}…{PAUSE 15} fear of what that\l"
 	.string "may mean.$"
 
 LavenderRadioP8_Cuarto_Cientifico::

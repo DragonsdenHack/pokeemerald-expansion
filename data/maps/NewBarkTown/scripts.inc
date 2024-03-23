@@ -103,7 +103,7 @@ NewBarkTown_Encuentro_Elm_Texto_3:
 
 NewBarkTown_Encuentro_Elm_Texto_4:
 	.string "I must admit, you've surprised me, 5\n"
-	.string "JOHTO LEADERS already… When GIOVANNI\l"
+	.string "JOHTO LEADERS already{PAUSE 25}…{PAUSE 25} When GIOVANNI\l"
 	.string "talked to me about you, I thought he\l"
 	.string "was exaggerating. Now I see there's no\l"
 	.string "one better than you to travel through\l"

@@ -215,7 +215,7 @@ RuinsOfAlph_S4_Entrada_Unowns_Texto_3:
 
 RuinsOfAlph_S4_Entrada_Unowns_Texto_4:
 	.string "These UNOWN{PAUSE 15}…{PAUSE 15} There's something about\n"
-	.string "their appearance… They seem\l"
+	.string "their appearance{PAUSE 15}…{PAUSE 15} They seem\l"
 	.string "incomplete, being part of something\l"
 	.string "major, don't you think so?$"
 

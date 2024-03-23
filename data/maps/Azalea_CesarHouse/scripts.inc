@@ -39,10 +39,10 @@ AzaleaCesarHouse_1_Texto_2:
 .string "And so?$"
 
 AzaleaCesarHouse_1_Texto_3:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 AzaleaCesarHouse_1_Texto_4:
-	.string "Oh… Impressive, I didn't expect you to\n"
+	.string "Oh{PAUSE 15}…{PAUSE 15} Impressive, I didn't expect you to\n"
 	.string "win at all. Keep that SLOWBRONITE safe,\l"
 	.string "young one. Any item capable of\l"
 	.string "expanding a POKÉMON's limits is sacred.$"
@@ -131,7 +131,7 @@ release
 end
 
 Azalea_CesarHouse_Evento_Mirto_Texto_1:
-	.string "????: But… You also have a BUG TYPE\n"
+	.string "????: But{PAUSE 15}…{PAUSE 15} You also have a BUG TYPE\n"
 	.string "that has undergone the same process as\l"
 	.string "mine.$"
 
@@ -149,7 +149,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_4:
 	.string "started with 395 BASE STATS, rising to\l"
 	.string "505 BASE STATS after the strong bond.\l"
 	.string "Quite remarkable, especially\l"
-	.string "considering its very low ATTACK, but… it\l"
+	.string "considering its very low ATTACK, but{PAUSE 15}…{PAUSE 15} it\l"
 	.string "hasn't crossed any known limits.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_5:
@@ -177,7 +177,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_7:
 .string "ALDER: …"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_8:
-.string "Isn't there… anything… that I can do?$"
+.string "Isn't there{PAUSE 20}…{PAUSE 20} anything{PAUSE 20}…{PAUSE 20} that I can do?$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_9:
 	.string "????: I can't help you, I'm sorry. But…$"
@@ -214,7 +214,7 @@ Azalea_CesarHouse_Evento_Mirto_Texto_14:
 	.string "challengers.$"
 
 Azalea_CesarHouse_Evento_Mirto_Texto_15:
-	.string "But… You look like you came from far\n"
+	.string "But{PAUSE 15}…{PAUSE 15} You look like you came from far\n"
 	.string "away, and are very passionate for the\l"
 	.string "POKÉMON battles, as ALDER or myself.$"
 

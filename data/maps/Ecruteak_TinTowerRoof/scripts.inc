@@ -375,13 +375,13 @@ Ecruteak_TinTowerRoof_Zeus_Texto_22:
 Ecruteak_TinTowerRoof_Zeus_Texto_23:
 .string "No{PAUSE 35}…{PAUSE 35}\n"
 	.string "The difference between 80% and 100%\l"
-	.string "isn't 20%, it's… everything… An\l"
+	.string "isn't 20%, it's{PAUSE 15}…{PAUSE 15} everything{PAUSE 15}…{PAUSE 15} An\l"
 	.string "unapproachable and undeniable power.\l"
 	.string "That's it, now I just need one piece to\l"
 	.string "bring it together, and I know who has it.$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_24:
-	.string "ECRUTEAK.M: This is terrible… We need to\n"
+	.string "ECRUTEAK.M: This is terrible{PAUSE 25}…{PAUSE 25} We need to\n"
 	.string "notify the DRAGON MASTER of\l"
 	.string "BLACKTHORN CITY. It's only a matter of\l"
 	.string "time before that lunatic finds the ice\l"
@@ -613,10 +613,10 @@ Ecruteak_TinTowerRoof_Final_Texto_1:
 .string "M.JADEN: Once again, you have returned.$"
 
 Ecruteak_TinTowerRoof_Final_Texto_2:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Ecruteak_TinTowerRoof_Final_Texto_3:
-	.string "It seems… JOHTO is in good hands.$"
+	.string "It seems{PAUSE 35}…{PAUSE 35} JOHTO is in good hands.$"
 
 Ecruteak_TinTowerRoof_Final_Move_1:
 walk_up

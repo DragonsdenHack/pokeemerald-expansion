@@ -567,7 +567,7 @@ end
 SilphS2_Text_34:
 	.string "I've heard that security is scarce at\n"
 	.string "the GOLDENROD RADIO TOWER; someday,\l"
-	.string "they'll regret it...$"
+	.string "they'll regret it…$"
 
 
 

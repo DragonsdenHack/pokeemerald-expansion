@@ -224,7 +224,7 @@ SsAnne_8F_Capitan_Text_4:
 .string "CAPTAIN: You mean this.$"
 
 SsAnne_8F_Capitan_Text_5:
-.string "ANDRA: Wow, it is… enigmatic.$"
+.string "ANDRA: Wow, it is{PAUSE 25}…{PAUSE 25} enigmatic.$"
 
 SsAnne_8F_Capitan_Text_6:
 .string "CAPTAIN: Sure it is, young one, the\n"
@@ -339,7 +339,7 @@ SsAnne_8F_Capitan_Text_20:
 	.string "islands are inhabited.$"
 
 SsAnne_8F_Capitan_Text_21:
-.string "But… let's stop talking about\n"
+.string "But{PAUSE 15}…{PAUSE 15} let's stop talking about\n"
 	.string "geography, this is not a class. I'd be\l"
 	.string "glad to keep talking for the rest of the\l"
 	.string "day, but unluckily for you, you have\l"
@@ -377,7 +377,7 @@ SsAnne_8F_Capitan_Text_27:
 
 SsAnne_8F_Capitan_Text_28:
 .string "CAPTAIN: This can't be happening. My\n"
-	.string "crew… you made fun of them, you made\l"
+	.string "crew{PAUSE 15}…{PAUSE 15} you made fun of them, you made\l"
 	.string "them look ridiculous and you are just\l"
 	.string "two young grunts of a local gang. How\l"
 	.string "dishonoring!$"
@@ -414,7 +414,7 @@ SsAnne_8F_Capitan_Text_34:
 .string "CAPTAIN: Ugh!$"
 
 SsAnne_8F_Capitan_Text_35:
-.string "CAPTAIN: My head… Damn you, you\n"
+.string "CAPTAIN: My head{PAUSE 25}…{PAUSE 25} Damn you, you\n"
 	.string "poisoned me!$"
 
 SsAnne_8F_Capitan_Text_36:

@@ -128,7 +128,7 @@ Olivine_Gym_Combate_Crom_Texto_5:
 Olivine_Gym_Combate_Crom_Texto_6:
 	.string "Despite your youth, you've already seen\n"
 	.string "many things and visited many places,\l"
-	.string "and there's still more ahead… Battles\l"
+	.string "and there's still more ahead{PAUSE 15}…{PAUSE 15} Battles\l"
 	.string "like these are what give meaning to\l"
 	.string "your journey through JOHTO, right? Well\l"
 	.string "then, let's not waste any more time,\l"

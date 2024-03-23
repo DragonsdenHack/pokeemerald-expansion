@@ -137,7 +137,7 @@ MtMoon3F_Text_11_1:
 	.string "RANK FRANK!$"
 
 MtMoon3F_Text_11_2:
-.string "Mmm… Maybe you're not as useless as I\n"
+.string "Mmm{PAUSE 15}…{PAUSE 15} Maybe you're not as useless as I\n"
 	.string "thought, adding this one we have 3\l"
 	.string "FOSSILS, enough to wrap up the mission\l"
 	.string "successfully.$"
@@ -567,7 +567,7 @@ MtMoon_3F_Miguel_Rojo_text_9:
 	.string "This was supposed to be under control!$"
 
 MtMoon_3F_Miguel_Rojo_text_10:
-.string "Grr… You ain't a normal ROCKET, I hate\n"
+.string "Grr{PAUSE 25}…{PAUSE 25} You ain't a normal ROCKET, I hate\n"
 	.string "when someone outstand stadistics.\l"
 	.string "About the FOSSILS…$"
 

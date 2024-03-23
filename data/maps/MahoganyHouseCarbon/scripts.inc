@@ -72,7 +72,7 @@ release
 end
 
 MahoganyHouseCarbon_Secundaria_Texto_1:
-	.string "Those damn businessmen… they've\n"
+	.string "Those damn businessmen{PAUSE 15}…{PAUSE 15} they've\n"
 	.string "betrayed us, me and my wife.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_2:
@@ -116,7 +116,7 @@ MahoganyHouseCarbon_Secundaria_Texto_9:
 	.string "here.$"
 
 MahoganyHouseCarbon_Secundaria_Texto_10:
-	.string "If you were to go to AZALEA TOWN… to\n"
+	.string "If you were to go to AZALEA TOWN{PAUSE 15}…{PAUSE 15} to\n"
 	.string "what is still our house, perhaps\l"
 	.string "someone like you could do something. To\l"
 	.string "enter our basement, you just have to\l"

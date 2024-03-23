@@ -67,7 +67,7 @@ end
 DragonsdenHouse_Anciano_Trampilla_Texto_1:
 	.string "{PLAYER}? Our MASTER is waiting for\n"
 	.string "you. He has instructed us that you may\l"
-	.string "proceed to his true test, so… Go ahead.$"
+	.string "proceed to his true test, so{PAUSE 15}…{PAUSE 15} Go ahead.$"
 
 Dragonsden_Warp::
 applymovement OBJ_EVENT_ID_PLAYER, Dragonsden_Warp_move_2

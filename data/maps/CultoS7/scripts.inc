@@ -99,8 +99,8 @@ CultoS7_Escena_Esencia_Texto_1:
 
 CultoS7_Escena_Esencia_Texto_2:
 	.string "The essence can corrupt due to human\n"
-	.string "actions, although…$"
+	.string "actions, although{PAUSE 25}…$"
 
 CultoS7_Escena_Esencia_Texto_3:
-	.string "… that doesn't mean a loss of its\n"
+	.string "{PAUSE 25}…{PAUSE 25} that doesn't mean a loss of its\n"
 	.string "potential.$"

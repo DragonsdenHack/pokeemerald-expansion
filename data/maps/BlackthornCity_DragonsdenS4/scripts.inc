@@ -196,7 +196,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_6:
 	.string "the true art of POKÉMON training. You\l"
 	.string "are an exception, you have not let\l"
 	.string "yourself be influenced by the times\l"
-	.string "despite your position. That's why… I\l"
+	.string "despite your position. That's why{PAUSE 25}…{PAUSE 25} I\l"
 	.string "must ascertain your readiness!$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_7:
@@ -252,8 +252,8 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_14:
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_15:
 	.string "ZEUS: The important thing is that HO-OH\n"
 	.string "now belongs to me, as well as LUGIA,\l"
-	.string "what matters is the result. And now… At\l"
-	.string "last… KYUREM too…$"
+	.string "what matters is the result. And now{PAUSE 15}…{PAUSE 15} At\l"
+	.string "last{PAUSE 15}…{PAUSE 15} KYUREM too…$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_16:
 	.string "(ZEUS seized KYUREM from M.DRAGON).$"
@@ -275,8 +275,8 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_19:
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_20:
 	.string "ZEUS: That's right, PRIMAL RAYQUAZA is\n"
 	.string "considered the most powerful DRAGON,\l"
-	.string "but… Nothing to do with that POKÉMON,\l"
-	.string "that POKÉMON… is the true creator of\l"
+	.string "but{PAUSE 15}…{PAUSE 15} Nothing to do with that POKÉMON,\l"
+	.string "that POKÉMON{PAUSE 15}…{PAUSE 15} is the true creator of\l"
 	.string "everything, so powerful that it's not\l"
 	.string "even worth comparing to the rest. It\l"
 	.string "doesn't enter the debate of the best\l"
@@ -319,7 +319,7 @@ BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_25:
 	.string "POKÉMON team.$"
 
 BlakthornCity_DragonsdenS4_Combate_MaestroDragon_Texto_26:
-	.string "DRAGON.M: This… This… is impossible,\n"
+	.string "DRAGON.M: This{PAUSE 20}…{PAUSE 20} This{PAUSE 20}…{PAUSE 20} is impossible,\n"
 	.string "that fool doesn't know what he's about\l"
 	.string "to awaken.$"
 

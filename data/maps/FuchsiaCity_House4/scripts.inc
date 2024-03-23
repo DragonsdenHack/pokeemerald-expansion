@@ -172,7 +172,7 @@ FuchsiaCity_House4_Secundaria_Squirtle_Texto_10:
 	.string "am I wrong?$"
 
 FuchsiaCity_House4_Secundaria_Squirtle_Texto_11:
-	.string "But… Unfortunately for you, I never\n"
+	.string "But{PAUSE 15}…{PAUSE 15} Unfortunately for you, I never\n"
 	.string "lose, never. How do you think I've kept\l"
 	.string "my perfect reputation spotless until\l"
 	.string "now? I always watch my back.$"

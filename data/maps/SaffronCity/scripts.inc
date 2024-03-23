@@ -187,7 +187,7 @@ SaffronCity_Text_16:
 	.string "LEADER, RED couldn't care less about\l"
 	.string "what we do or don't do here, he'll only\l"
 	.string "enter if he sees he physically has a\l"
-	.string "clear path to the door, and he will...\l"
+	.string "clear path to the door, and he will…\l"
 	.string "When we want him to! LONG LIFE TO TEAM\l"
 	.string "ROCKET! HAIL EXECUTIVE {PLAYER}! GOD\l"
 	.string "SAVE GIOVANNI!$"
@@ -452,7 +452,7 @@ SaffronCity_Combate_Andra_Texto_9:
 
 SaffronCity_Combate_Andra_Texto_10:
 	.string "Right now my team is in optimal\n"
-	.string "condition, do you remember the ATLAS\l"
+	.string "condition, do you remember the ARCHER\l"
 	.string "speech he told us on our first day? To\l"
 	.string "be honest I've come further than I\l"
 	.string "could imagine, and even I think I am\l"
@@ -660,13 +660,13 @@ face_player
 step_end
 
 SaffronCity_Secundaria_Motorista_Texto_1:
-	.string "That stupid old piece of trash… He's\n"
+	.string "That stupid old piece of trash{PAUSE 15}…{PAUSE 15} He's\n"
 	.string "going to make all KANTO hate the\l"
 	.string "BIKERS.$"
 
 SaffronCity_Secundaria_Motorista_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 SaffronCity_Secundaria_Motorista_Texto_3:
 	.string "ROCKET EXECUTIVE {PLAYER}! Haven't\n"

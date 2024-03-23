@@ -386,7 +386,7 @@ AzaleaCarbonS2_Combate_Final_Texto_11:
 	.string "duel… Who are you?$"
 
 AzaleaCarbonS2_Combate_Final_Texto_12:
-	.string "One moment… You're more than just a high\n"
+	.string "One moment{PAUSE 25}…{PAUSE 25} You're more than just a high\n"
 	.string "ranking official from GOLDENROD, with\l"
 	.string "POKÉMON acquired from the checkbook,\l"
 	.string "aren't you?$"
@@ -406,7 +406,7 @@ AzaleaCarbonS2_Combate_Final_Texto_16:
 	.string "would be able to undo the contract.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_17:
-	.string "But… I'm not stupid, being your enemy\n"
+	.string "But{PAUSE 15}…{PAUSE 15} I'm not stupid, being your enemy\n"
 	.string "would eventually destroy this place,\l"
 	.string "that's why I propose an agreement.$"
 
@@ -426,7 +426,7 @@ AzaleaCarbonS2_Combate_Final_Texto_19:
 AzaleaCarbonS2_Combate_Final_Texto_20:
 	.string "And it's not just to try to look good, my\n"
 	.string "SIRFETCHD felt the presence of a\l"
-	.string "POKÉMON… It must be its counterpart…\l"
+	.string "POKÉMON{PAUSE 15}…{PAUSE 15} It must be its counterpart…\l"
 	.string "Maybe it can even cut wood better.$"
 
 AzaleaCarbonS2_Combate_Final_Texto_21:

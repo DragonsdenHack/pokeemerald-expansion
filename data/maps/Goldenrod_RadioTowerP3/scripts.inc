@@ -192,24 +192,21 @@ RadioHouse_EventScript_TakeNosepass::
 
 
 RadioHouse_Text_TakeNosepass:
-	.string "JOHTO está cada vez más abierta al\n"
-	.string "mundo. En TORRE RADIO manejamos cada\l"
-	.string "vez más contactos.$"
-
-
+	.string "JOHTO is increasingly opening to the\n"
+	.string "world. We manage more contacts at\l"
+	.string "RADIO TOWER with each passing day.$"
 
 RadioHouse_Text_TakeNosepass2:
-	.string "Mira este POKÉMON, es un claro ejemplo\n"
-	.string "de ello.$"
-
+	.string "Look at this POKÉMON, it's a clear\n"
+	.string "example of it.$"
 
 
 RadioHouse_Text_MensajeNosepass:
-.string "¡OBTUVISTE UN ELECTRIKE AL NV.25!$"
-
+.string "YOU OBTAINED A LV.25 ELECTRIKE!$"
 
 RadioHouse_Text_1:
-	.string "Al parecer ELECTRIKE evoluciona en un\n"
-	.string "POKÉMON veloz, potente y fiel. A la\l"
-	.string "policía de CIUDAD TRIGAL seguro que le\l"
-	.string "encantará.$"
+	.string "ELECTRIKE seems to evolve into a quick,\n"
+	.string "powerful, and loyal POKÉMON. The\l"
+	.string "GOLDENROD CITY POLICE will surely be\l"
+	.string "pleased.$"
+

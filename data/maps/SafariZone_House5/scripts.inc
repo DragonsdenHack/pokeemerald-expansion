@@ -56,8 +56,8 @@ SafariZone_House5_Combate_Domador_Texto_1:
 	.string "if there is any prize here for you.$"
 
 SafariZone_House5_Combate_Domador_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "…\n"
+	.string "…$"
 
 SafariZone_House5_Combate_Domador_Texto_3:
 	.string "Are you still insisting? I won't think\n"

@@ -216,7 +216,7 @@ release
 end
 
 SaffronCity_Lider_Gimnasio_Texto_1:
-	.string "… … Wow, it is curious. A short time ago,\n"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} Wow, it is curious. A short time ago,\n"
 	.string "the same thing happened with another\l"
 	.string "girl dressed as a ROCKET. But your\l"
 	.string "arrival catches me totally by surprise.\l"
@@ -289,7 +289,7 @@ release
 end
 
 Vermilion_City_Gym_Guy_Texto_1:
-	.string "Mmmm… It is correct that you have a\n"
+	.string "Mmmm{PAUSE 15}…{PAUSE 15} It is correct that you have a\n"
 	.string "license. But still, your presence feels\l"
 	.string "strange to me. I will keep an eye on\l"
 	.string "you…$"

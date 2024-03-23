@@ -349,11 +349,11 @@ DevonS10_DLC_Escena_Final_Texto_2:
 DevonS10_DLC_Escena_Final_Texto_3:
 	.string "????: But there's something that\n"
 	.string "eludes us, that phenomenon of the DEEP\l"
-	.string "BOND… Have you experienced anything\l"
+	.string "BOND{PAUSE 25}…{PAUSE 25} Have you experienced anything\l"
 	.string "similar, S.MIGUEL?$"
 
 DevonS10_DLC_Escena_Final_Texto_4:
-.string "S.MIGUEL: No, I don't… that phenomenon only…$"
+.string "S.MIGUEL: No, I don't{PAUSE 25}…{PAUSE 25} that phenomenon only…$"
 
 DevonS10_DLC_Escena_Final_Texto_5:
 	.string "????: I see, it's only reserved for the\n"
@@ -414,7 +414,7 @@ DevonS10_DLC_Escena_Final_Texto_16:
 	.string "always been my passion.$"
 
 DevonS10_DLC_Escena_Final_Texto_17:
-	.string "Although… I must be thankful,\n"
+	.string "Although{PAUSE 25}…{PAUSE 25} I must be thankful,\n"
 	.string "PRESIDENT, that brief expedition to\l"
 	.string "the hidden places of JOHTO has changed\l"
 	.string "my way of seeing the world. That's when\l"
@@ -431,7 +431,7 @@ DevonS10_DLC_Escena_Final_Texto_19:
 
 DevonS10_DLC_Escena_Final_Texto_20:
 	.string "There may have been more than one, one\n"
-	.string "similar but… buried by history.$"
+	.string "similar but{PAUSE 25}…{PAUSE 25} buried by history.$"
 
 DevonS10_DLC_Escena_Final_Texto_21:
 	.string "????: I hope so, just as it happened to\n"

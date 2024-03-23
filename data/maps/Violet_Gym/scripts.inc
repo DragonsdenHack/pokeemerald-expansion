@@ -334,7 +334,7 @@ Violet_Gym_Combate_Pegaso_Texto_3:
 	.string "encounter a TRAINER like you.$"
 
 Violet_Gym_Combate_Pegaso_Texto_4:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Violet_Gym_Combate_Pegaso_Texto_5:
 	.string "The art of training and battling with\n"

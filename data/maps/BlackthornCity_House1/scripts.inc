@@ -9,13 +9,13 @@ release
 end
 
 BlackthornCityHouse1_1_Texto_1:
-.string "Las nuevas generaciones se lo tienen\n"
-	.string "muy creído, y subestiman sobremanera a\l"
-	.string "las anteriores. Esa DÉBORA cree que\l"
-	.string "cuando tenga un KINGDRA y un\l"
-	.string "DRAGONITE habrá resuelto todos los\l"
-	.string "misterios del TIPO DRAGÓN. Si viera los\l"
-	.string "POKÉMON más fuertes del maestro…$"
+	.string "The new generations are quite full of\n"
+	.string "themselves and greatly underestimate\l"
+	.string "the previous ones. CLAIR believes that\l"
+	.string "having a KINGDRA and a DRAGONITE will\l"
+	.string "solve all the mysteries of the DRAGON\l"
+	.string "TYPE. If only she could see the\l"
+	.string "MASTER's strongest POKÉMON…$"
 
 
 BlackthornCityHouse1_2::
@@ -26,10 +26,8 @@ release
 end
 
 BlackthornCity_House1_Text_2:
-.string "Logré ver al POKÉMON estrella de\n"
-.string "nuestro LÍDER, un dragón\l"
-.string "magnífico, de un poder, dicen,\l"
-.string "superior al de cualquier\l"
-.string "LEGENDARIO. Tan extraordinario que\l"
-.string "ni el propio TIPO DRAGÓN le\l"
-.string "afecta…$"
+	.string "I was able to see our LEADER's star\n"
+	.string "POKÉMON, a magnificent dragon, rumored\l"
+	.string "to possess power greater than that of\l"
+	.string "any LEGENDARY. So extraordinary that\l"
+	.string "not even the DRAGON TYPE affects it…$"

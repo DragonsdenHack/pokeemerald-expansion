@@ -47,7 +47,7 @@ RuinValley10_Texto_1:
 	.string "Well{PAUSE 20}…{PAUSE 20} ADMIN.MATT must know how\n"
 	.string "to get through here; it's the only thing\l"
 	.string "separating us from the precious\l"
-	.string "SAPPHIRE...$"
+	.string "SAPPHIRE…$"
 
 
 RuinValley11::

@@ -71,9 +71,9 @@ release
 end
 
 Ecruteak_TinTowerp6_Text_6:
-	.string "So… GASTLY, HAUNTER, and GENGAR aren't\n"
+	.string "So{PAUSE 15}…{PAUSE 15} GASTLY, HAUNTER, and GENGAR aren't\n"
 	.string "the only GHOSTS reflected by the\l"
-	.string "afterlife… They represent only the\l"
+	.string "afterlife{PAUSE 15}…{PAUSE 15} They represent only the\l"
 	.string "surface, but it's also unwise to expose\l"
 	.string "the depths to those unprepared to\l"
 	.string "confront them…$"

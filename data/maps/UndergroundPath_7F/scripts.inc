@@ -282,10 +282,10 @@ UndergroundPath_7F_Combates_Motoristas_Texto_3:
 .string "It's the CHIEF ADMIN. {PLAYER}!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_4:
-.string "We… we didn't expect to see you here.$"
+.string "We{PAUSE 15}…{PAUSE 15} we didn't expect to see you here.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_5:
-	.string "Listen, sir… the BIKERS, we respect you\n"
+	.string "Listen, sir{PAUSE 15}…{PAUSE 15} the BIKERS, we respect you\n"
 	.string "a lot for what you did by defeating\l"
 	.string "LANCE. But to be honest, the recent\l"
 	.string "decisions made by TEAM ROCKET\l"
@@ -308,7 +308,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_9:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_10:
-	.string "So… We have no choice but to take you\n"
+	.string "So{PAUSE 15}…{PAUSE 15} We have no choice but to take you\n"
 	.string "down, the four of us, just like we've\l"
 	.string "done with the other POLICE.$"
 
@@ -323,7 +323,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_13:
 	.string "so many WEEZING is impossible!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_14:
-	.string "Grr… I thought I could have done\n"
+	.string "Grr{PAUSE 15}…{PAUSE 15} I thought I could have done\n"
 	.string "something else.$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_15:
@@ -342,7 +342,7 @@ UndergroundPath_7F_Combates_Motoristas_Texto_18:
 .string "I failed!$"
 
 UndergroundPath_7F_Combates_Motoristas_Texto_19:
-	.string "Damn it… It was to be expected that\n"
+	.string "Damn it{PAUSE 15}…{PAUSE 15} It was to be expected that\n"
 	.string "someone who defeated the JOHTO\l"
 	.string "LEGENDARY BEASTS and the three\l"
 	.string "DRAGONITE could handle all four of us…$"
@@ -662,7 +662,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_5.1:
 	.string "understand.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_6:
-	.string "Fortunately… the mission of these\n"
+	.string "Fortunately{PAUSE 15}…{PAUSE 15} the mission of these\n"
 	.string "BIKERS reignited that warlike spark\l"
 	.string "I've always had.$"
 
@@ -672,7 +672,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_7:
 UndergroundPath_7F_Combate_LtSurge_Texto_8:
 	.string "I must admit, the people of KANTO are\n"
 	.string "resilient and tenacious; building such\l"
-	.string "an underground network… half of KANTO\l"
+	.string "an underground network{PAUSE 15}…{PAUSE 15} half of KANTO\l"
 	.string "must have taken refuge here during the\l"
 	.string "war. You can imagine what would have\l"
 	.string "happened if we had this information a\l"
@@ -692,7 +692,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_11:
 
 UndergroundPath_7F_Combate_LtSurge_Texto_12:
 	.string "We're not in a regulated fight,\n"
-	.string "CHAMPION… this…$"
+	.string "CHAMPION{PAUSE 25}…{PAUSE 25} this{PAUSE 15}…$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_13:
 	.string "(LT. SURGE released several explosive\n"
@@ -712,7 +712,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_17:
 	.string "Let's start the real war!$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_18:
-.string "I lost the battle and… the war?$"
+.string "I lost the battle and{PAUSE 15}…{PAUSE 15} the war?$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_18.1:
 	.string "How is this possible? When my faithful\n"
@@ -722,7 +722,7 @@ UndergroundPath_7F_Combate_LtSurge_Texto_18.1:
 	.string "nor my explosives have been sufficient.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_19:
-	.string "Grrr… it seems you've become an even\n"
+	.string "Grrr{PAUSE 15}…{PAUSE 15} it seems you've become an even\n"
 	.string "better TRAINER, you leave me no choice.$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_20:
@@ -753,9 +753,9 @@ UndergroundPath_7F_Combate_LtSurge_Texto_25:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 UndergroundPath_7F_Combate_LtSurge_Texto_26:
-	.string "That SURGE… Listen, {PLAYER}. There\n"
+	.string "That SURGE{PAUSE 15}…{PAUSE 15} Listen, {PLAYER}. There\n"
 	.string "must be a KEY somewhere, perhaps one of\l"
-	.string "the BIKERS has it… or knows something.\l"
+	.string "the BIKERS has it{PAUSE 15}…{PAUSE 15} or knows something.\l"
 	.string "If I were you, I'd talk to everyone and\l"
 	.string "try to get something out of them.$"
 
@@ -1252,7 +1252,7 @@ UndergroundPath_7F_Escena_Final_Texto_2:
 UndergroundPath_7F_Escena_Final_Texto_3:
 	.string "But not this time, you may have bested\n"
 	.string "me and my explosives, or those 3 poor\l"
-	.string "sods, but not 2 more like m...!$"
+	.string "sods, but not 2 more like m…!$"
 
 UndergroundPath_7F_Escena_Final_Texto_4:
 	.string "????: Stop, SURGE! We can't hide this\n"
@@ -1338,7 +1338,7 @@ UndergroundPath_7F_Escena_Final_Texto_72:
 	.string "TEAM ROCKET has expanded massively.\n"
 	.string "Now we have branches in several\l"
 	.string "regions, countless secret bases, new\l"
-	.string "contacts… But…$"
+	.string "contacts{PAUSE 25}…{PAUSE 25} But…$"
 
 UndergroundPath_7F_Escena_Final_Texto_12:
 	.string "I'm afraid this expansion might lead us\n"
@@ -1387,7 +1387,7 @@ UndergroundPath_7F_Escena_Final_Texto_75:
 	.string "LT.SURGE: The war language!$"
 
 UndergroundPath_7F_Escena_Final_Texto_18:
-	.string "KOGA: I'm afraid… We have no choice but\n"
+	.string "KOGA: I'm afraid{PAUSE 25}…{PAUSE 25} We have no choice but\n"
 	.string "to fight again to reclaim the old KANTO!$"
 
 UndergroundPath_7F_Escena_Final_Texto_19:
@@ -1454,7 +1454,7 @@ UndergroundPath_7F_Escena_Final_Texto_32:
 .string "PETREL: A…ANDRA.$"
 
 UndergroundPath_7F_Escena_Final_Texto_33:
-.string "ANDRA: I see… You… $"
+.string "ANDRA: I see{PAUSE 25}…{PAUSE 25} You{PAUSE 15}…$"
 
 UndergroundPath_7F_Escena_Final_Texto_34:
 	.string "KOGA: There's no turning back, we'll take\n"
@@ -1496,7 +1496,7 @@ UndergroundPath_7F_Escena_Final_Texto_42:
 .string "What do you think?$"
 
 UndergroundPath_7F_Escena_Final_Texto_43:
-.string "KOGA: That… That would be… $"
+.string "KOGA: That{PAUSE 15}…{PAUSE 15} That would be{PAUSE 15}…$"
 
 UndergroundPath_7F_Escena_Final_Texto_44:
 	.string "PETREL: It would be a dream for them,\n"
@@ -1534,7 +1534,7 @@ UndergroundPath_7F_Escena_Final_Texto_49.1:
 	.string "the ELITE FOUR.$"
 
 UndergroundPath_7F_Escena_Final_Texto_49.2:
-.string "KOGA: Oh… $"
+.string "KOGA: Oh…$"
 
 UndergroundPath_7F_Escena_Final_Texto_50:
 	.string "You know that you have {PLAYER}'s\n"
@@ -1602,7 +1602,7 @@ UndergroundPath_7F_Escena_Final_Texto_62:
 	.string "upper floors.$"
 
 UndergroundPath_7F_Escena_Final_Texto_63:
-	.string "But… It's not time to back down, right?\n"
+	.string "But{PAUSE 15}…{PAUSE 15} It's not time to back down, right?\n"
 	.string "We've come too far and seen too much,\l"
 	.string "it's just another damn event.$"
 

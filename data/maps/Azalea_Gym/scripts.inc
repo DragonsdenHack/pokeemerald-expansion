@@ -175,7 +175,7 @@ AzaleaGym_Combate_Cesar_Texto_11:
 	.string "than those of ZAPDOS itself!$"
 
 AzaleaGym_Combate_Cesar_Texto_12:
-	.string "Now that I think about it… I didn't ask\n"
+	.string "Now that I think about it{PAUSE 15}…{PAUSE 15} I didn't ask\n"
 	.string "ALDER where he came from. I'd like to at\l"
 	.string "least have the regular form of that\l"
 	.string "very special POKÉMON. That moth is the\l"

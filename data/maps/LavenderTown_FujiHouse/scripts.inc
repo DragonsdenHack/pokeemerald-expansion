@@ -378,4 +378,4 @@ LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_22:
 	.string "isn't it?$"
 
 LavenderTown_FujiHouse_Escena_7_Detencion_Fuji_Texto_23:
-.string "FUJI: {PAUSE 20}… …{PAUSE 20}$"
+.string "FUJI: {PAUSE 20}…{PAUSE 15} …{PAUSE 20}$"

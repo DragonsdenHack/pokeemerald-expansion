@@ -286,7 +286,7 @@ Route44_Combate_Mirto_Texto_5.5:
 	.string "sacred.$"
 
 Route44_Combate_Mirto_Texto_5.6:
-	.string "Meanwhile, POKÉMON WORLD GODS… Do you\n"
+	.string "Meanwhile, POKÉMON WORLD GODS{PAUSE 35}…{PAUSE 35} Do you\n"
 	.string "know what I think about that blessed\l"
 	.string "POKÉMON?$"
 
@@ -343,7 +343,7 @@ Route44_Combate_Mirto_Texto_11:
 
 Route44_Combate_Mirto_Texto_11.1:
 	.string "With this battle, my peak as a TRAINER\n"
-	.string "has finally finished. But you… you can\l"
+	.string "has finally finished. But you{PAUSE 35}…{PAUSE 35} you can\l"
 	.string "still make the gods bleed.$"
 
 Route44_Combate_Mirto_Texto_12:

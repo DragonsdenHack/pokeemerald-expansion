@@ -454,7 +454,7 @@ RuinsOfAlph_S5_Final_Texto_3:
 	.string "HO-OH were needed to get here?$"
 
 RuinsOfAlph_S5_Final_Texto_4:
-	.string "Both towers are 700 years stand on… A\n"
+	.string "Both towers are 700 years stand on{PAUSE 25}…{PAUSE 25} A\n"
 	.string "small fraction compared to the time our\l"
 	.string "cult has been in existence. It was here\l"
 	.string "that the ESSENCE POKÉMON migrated\l"
@@ -502,7 +502,7 @@ RuinsOfAlph_S5_Final_Texto_11:
 	.string "the 3 UNOVA DRAGONS would be enough,\l"
 	.string "but only the ESSENCE POKÉMON can\l"
 	.string "restore it to its original form,\l"
-	.string "predating the BIG-GANG.\l"
+	.string "predating the BIG-BANG.\l"
 	.string "Watch!$"
 
 RuinsOfAlph_S5_Final_Texto_12:
@@ -541,7 +541,7 @@ RuinsOfAlph_S5_Final_Texto_16:
 	.string "embarked on this quest in the same way.$"
 
 RuinsOfAlph_S5_Final_Texto_17:
-	.string "And now. {PLAYER}… The moment of\n"
+	.string "And now. {PLAYER}{PAUSE 15}…{PAUSE 15} The moment of\n"
 	.string "truth has arrived. With the ESSENCE\l"
 	.string "POKÉMON, the LAVENDER CULT will finally\l"
 	.string "attain that state of perfection, an\l"
@@ -550,7 +550,7 @@ RuinsOfAlph_S5_Final_Texto_17:
 	.string "battle against something unattainable.$"
 
 RuinsOfAlph_S5_Final_Texto_18:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 RuinsOfAlph_S5_Final_Texto_19:
 	.string "The 3 of them together, united, already\n"
@@ -591,7 +591,7 @@ RuinsOfAlph_S5_Final_Texto_25:
 	.string "I was the one who failed…$"
 
 RuinsOfAlph_S5_Final_Texto_26:
-.string "I guess… perfection is something\n"
+.string "I guess{PAUSE 25}…{PAUSE 25} perfection is something\n"
 	.string "relative, isn't it, {PLAYER}?$"
 
 RuinsOfAlph_S5_Final_Move_1:
@@ -753,7 +753,7 @@ release
 end
 
 RuinsOfAlph_S5_Combate_Unown_Texto_2:
-.string "... ... ... ...$"
+.string "{PAUSE 10}…{PAUSE 10} …{PAUSE 10} …{PAUSE 10} …{PAUSE 10}$"
 
 RuinsOfAlph_S5_Combate_Unown_Texto_3:
 .string "(La energía misteriosa se ha\n"

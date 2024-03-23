@@ -50,7 +50,7 @@ release
 end
 
 CultoS4_Text_6:
-	.string "The ESSENCE POKÉMON… Will it have a\n"
+	.string "The ESSENCE POKÉMON{PAUSE 15}…{PAUSE 15} Will it have a\n"
 	.string "defined type? Some say that by\l"
 	.string "definition it must be GHOST, perhaps\l"
 	.string "it's a combination of this and another\l"

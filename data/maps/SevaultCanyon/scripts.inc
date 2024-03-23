@@ -240,7 +240,7 @@ SevaultCanyon_Combate_Andra_Texto_2:
 	.string "grabbed, just in case it does something.$"
 
 SevaultCanyon_Combate_Andra_Texto_3:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 SevaultCanyon_Combate_Andra_Texto_4:
 	.string "It's still hard for me to believe you\n"
@@ -251,7 +251,7 @@ SevaultCanyon_Combate_Andra_Texto_4:
 	.string "invincible, really. My team had never\l"
 	.string "reached that level, and I still had\l"
 	.string "energy left. I even thought about\l"
-	.string "joining you to help with RED, but...$"
+	.string "joining you to help with RED, but…$"
 
 SevaultCanyon_Combate_Andra_Texto_5:
 	.string "At that very moment, a different LANCE\n"
@@ -273,7 +273,7 @@ SevaultCanyon_Combate_Andra_Texto_6:
 
 SevaultCanyon_Combate_Andra_Texto_7:
 	.string "Later on, GIOVANNI entered along with\n"
-	.string "ATLAS and PETREL. I quickly went with\l"
+	.string "ARCHER and PETREL. I quickly went with\l"
 	.string "the latter two to heal my POKÉMON. The\l"
 	.string "rest is history.$"
 

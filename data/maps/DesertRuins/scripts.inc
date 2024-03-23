@@ -480,7 +480,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_29:
 .string "ANDRA: Indeed, and it must be like that.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_30:
-	.string "DEVON.ADMIN: So… the ADMIN. who visited\n"
+	.string "DEVON.ADMIN: So{PAUSE 25}…{PAUSE 25} the ADMIN. who visited\n"
 	.string "the LAKE OF RAGE was right. Except\l"
 	.string "you're not just a random trainer; you\l"
 	.string "work for TEAM ROCKET.$"

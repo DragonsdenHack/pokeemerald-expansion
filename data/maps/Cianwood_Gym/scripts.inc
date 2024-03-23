@@ -180,7 +180,7 @@ Cianwood_Gym_Combate_Anibal_3_Texto_1:
 	.string "again, I'm afraid it's already too late.$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_2:
-	.string "Yeah… a few days ago I freed my\n"
+	.string "Yeah{PAUSE 15}…{PAUSE 15} a few days ago I freed my\n"
 	.string "POKÉMON, as I told you after our battle,\l"
 	.string "almost 1 year ago…$"
 
@@ -195,7 +195,7 @@ Cianwood_Gym_Combate_Anibal_3_Texto_4:
 	.string "visit?$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_5:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_6:
 	.string "Mmm, I see, what you're saying is true,\n"

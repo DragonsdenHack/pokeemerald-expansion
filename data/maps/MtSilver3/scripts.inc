@@ -71,7 +71,7 @@ release
 end
 
 MtSilver3_Combate_Rojo_Texto_1:
-.string "ROJO: {PAUSE 25}…{PAUSE 25}$"
+.string "RED: {PAUSE 25}…{PAUSE 25}$"
 
 MtSilver3_Combate_Rojo_Texto_2:
 .string "¡…!$"

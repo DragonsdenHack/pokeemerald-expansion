@@ -739,8 +739,8 @@ VermilionCity_Secundaria_AncianoMachop_Texto_1:
 	.string "would like to teach them a lesson.$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_2:
-.string "...\n"
-	.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}\n"
+	.string "{PAUSE 15}…{PAUSE 15}$"
 
 VermilionCity_Secundaria_AncianoMachop_Texto_3:
 .string "You don't look like you have enough\n"

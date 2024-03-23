@@ -199,7 +199,7 @@ Silph_6F_Empleado_Llave_Texto_3:
 	.string "No! Don't hurt me!$"
 
 Silph_6F_Empleado_Llave_Texto_4:
-.string "... ... ...$"
+.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15} …{PAUSE 15}$"
 
 Silph_6F_Empleado_Llave_Texto_5:
 .string "What?\n"

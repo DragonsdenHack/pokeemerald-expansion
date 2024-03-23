@@ -377,7 +377,7 @@ PewterCityGym_CanPass_Texto_1:
 	.string "tr…$"
 
 PewterCityGym_CanPass_Texto_2:
-.string "...$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 PewterCityGym_CanPass_Texto_3:
 .string "A TRAINER LICENSE? {PAUSE 20}…{PAUSE 20} …{PAUSE 20} Signed and\n"

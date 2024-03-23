@@ -160,7 +160,7 @@ ViasSur3_Evento_Pegaso_Texto_4:
 ViasSur3_Evento_Pegaso_Texto_5:
 	.string "Perhaps even older than the RUINS OF\n"
 	.string "ALPH, who knows. We know so little about\l"
-	.string "our own region… and it's normal. Faced\l"
+	.string "our own region{PAUSE 15}…{PAUSE 15} and it's normal. Faced\l"
 	.string "with the vastness of time, we are just a\l"
 	.string "mere drop in the ocean.$"
 
@@ -180,7 +180,7 @@ ViasSur3_Evento_Pegaso_Texto_7:
 ViasSur3_Evento_Pegaso_Texto_8:
 	.string "I have to figure it out. Even being an\n"
 	.string "expert in birds, it's quite a challenge\l"
-	.string "for me. Although… I have serious\l"
+	.string "for me. Although{PAUSE 15}…{PAUSE 15} I have serious\l"
 	.string "suspicions about what it really is.$"
 
 ViasSur3_Evento_Pegaso_Texto_9:

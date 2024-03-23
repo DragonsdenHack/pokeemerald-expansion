@@ -249,12 +249,12 @@ TorreDunsparce_P3_Encuentro_Zinnia_Texto_10:
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_11:
 	.string "I'm quite glad to have encountered you.\n"
 	.string "In a place like this{PAUSE 25}…{PAUSE 25} you're like\l"
-	.string "ooparts to me. Anyway… it doesn't\l"
+	.string "ooparts to me. Anyway{PAUSE 15}…{PAUSE 15} it doesn't\l"
 	.string "matters, we won't cross paths again.$"
 
 
 TorreDunsparce_P3_Encuentro_Zinnia_Texto_12:
 	.string "Mmm{PAUSE 15}…{PAUSE 15} upon further reflection, your\n"
 	.string "bond with those POKÉMON, the legend of\l"
-	.string "this place… Perhaps I'm the oopart,\l"
+	.string "this place{PAUSE 15}…{PAUSE 15} Perhaps I'm the oopart,\l"
 	.string "don't you think?$"

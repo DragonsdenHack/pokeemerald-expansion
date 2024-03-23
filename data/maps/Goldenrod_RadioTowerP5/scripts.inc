@@ -473,7 +473,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_9:
 	.string "ARCHER' first speech!$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_10:
-	.string "PRESIDENT: All right, ladies and\n"
+	.string "DIRECTOR: All right, ladies and\n"
 	.string "gentlemen, I trust you're all aware of\l"
 	.string "the efforts we've made to keep this\l"
 	.string "meeting confidential. Whatever we\l"
@@ -612,7 +612,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_31:
 	.string "knowledge is never in vain.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_32:
-	.string "PRESIDENT: So what are you going to\n"
+	.string "DIRECTOR: So what are you going to\n"
 	.string "propose, GIOVANNI?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_33:
@@ -687,7 +687,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_42:
 	.string "GOLDENROD.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_43:
-	.string "PRESIDENT: And how do you intend to\n"
+	.string "DIRECTOR: And how do you intend to\n"
 	.string "fund all of these research projects?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_44:
@@ -710,17 +710,17 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_46:
 	.string "graves from LAVENDER TOWN TOWER.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_47:
-.string "PRESIDENT: But…\n"
+.string "DIRECTOR: But…\n"
 	.string "And LAVENDER TOWER?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_48:
 	.string "GIOVANNI: It will be converted into the\n"
 	.string "KANTO RADIO TOWER, where it will also be\l"
 	.string "able to broadcast its programs,\l"
-	.string "PRESIDENT. Are we on the same page?$"
+	.string "DIRECTOR. Are we on the same page?$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_49:
-	.string "PRESIDENT: We are exactly on the same\n"
+	.string "DIRECTOR: We are exactly on the same\n"
 	.string "page.$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_50:
@@ -1772,7 +1772,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_3:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_4:
 	.string "BILL: Wait for GIOVANNI to talk about\n"
-	.string "the new prototypes and the STATS… If\l"
+	.string "the new prototypes and the STATS{PAUSE 15}…{PAUSE 15} If\l"
 	.string "it were up to me, I'd skip straight to\l"
 	.string "that part; the rest is just formalities!$"
 
@@ -1803,7 +1803,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_8:
 .string "ANDRA: …$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_9:
-	.string "DIRECTOR: Ladies and gentleman… I have\n"
+	.string "DIRECTOR: Ladies and gentleman{PAUSE 25}…{PAUSE 25} I have\n"
 	.string "the honor of being here once again, as\l"
 	.string "the host of the II GOLDENROD\l"
 	.string "CONFERENCE.$"
@@ -1939,7 +1939,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_33:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_34:
 	.string "Theoretically, their specialty lies in\n"
 	.string "the creation of POKÉ BALLS. NET BALL,\l"
-	.string "TIMER BALL, REPEAT BALL, NEST BALL… all\l"
+	.string "TIMER BALL, REPEAT BALL, NEST BALL{PAUSE 15}…{PAUSE 15} all\l"
 	.string "of them were created at SILPH.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_35:
@@ -2114,7 +2114,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_67:
 	.string "decrease of some other variable.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_68:
-	.string "ELM: Just for a while… we'll work to make\n"
+	.string "ELM: Just for a while{PAUSE 15}…{PAUSE 15} we'll work to make\n"
 	.string "that variable its ATTACK, which serves\l"
 	.string "no purpose. That aberration has more\l"
 	.string "ATTACK than a TYRANITAR, and it's being\l"
@@ -2141,7 +2141,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_71:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_72:
 	.string "GIOVANNI: I'm afraid they're still in an\n"
 	.string "experimental phase; it's too early to\l"
-	.string "discuss them… perhaps at the III\l"
+	.string "discuss them{PAUSE 25}…{PAUSE 25} perhaps at the III\l"
 	.string "GOLDENROD CONFERENCE…$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_73:
@@ -2185,7 +2185,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_79:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_80:
 	.string "GIOVANNI: Revealing such numbers\n"
-	.string "wouldn't be wise… not yet. Nobody is\l"
+	.string "wouldn't be wise{PAUSE 15}…{PAUSE 15} not yet. Nobody is\l"
 	.string "ready to comprehend figures exceeding\l"
 	.string "800 BASE STATS, at least not in the\l"
 	.string "current context.$"
@@ -2194,12 +2194,12 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81:
 .string "ANDRA: Oh…$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.1:
-	.string "GIOVANNI: ANDRA, {PLAYER}… I have\n"
+	.string "GIOVANNI: ANDRA, {PLAYER}{PAUSE 25}…{PAUSE 25} I have\n"
 	.string "good news, remember the GOLDEN STONE\l"
 	.string "you obtained on one of your missions?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.2:
-	.string "ANDRA: Of course… It was something\n"
+	.string "ANDRA: Of course{PAUSE 25}…{PAUSE 25} It was something\n"
 	.string "very special.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.3:
@@ -2214,18 +2214,18 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.4:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.5:
 	.string "GIOVANNI: The GOLDEN STONE has been\n"
 	.string "successfully mass-produced and is\l"
-	.string "ready to be launched into our… private\l"
+	.string "ready to be launched into our{PAUSE 15}…{PAUSE 15} private\l"
 	.string "market.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.6:
-	.string "ANDRA: So… everyone will have access to\n"
+	.string "ANDRA: So{PAUSE 15}…{PAUSE 15} everyone will have access to\n"
 	.string "it?$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_81.7:
 	.string "GIOVANNI: No, not everyone. The GOLDEN\n"
 	.string "STONE will be available for purchase on\l"
 	.string "one of the upper floors of the\l"
-	.string "LAVENDER RADIO TOWER. Therefore… only\l"
+	.string "LAVENDER RADIO TOWER. Therefore{PAUSE 15}…{PAUSE 15} only\l"
 	.string "high-ranking ROCKETS and beyond will be\l"
 	.string "able to acquire it.$"
 
@@ -2249,11 +2249,11 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_82.1:
 	.string "It's not completely finished inside yet,\n"
 	.string "but it will be soon. In the meantime, I\l"
 	.string "recommend revisiting LAVENDER TOWN\l"
-	.string "and… seeing firsthand the new makeover\l"
+	.string "and{PAUSE 15}…{PAUSE 15} seeing firsthand the new makeover\l"
 	.string "we've given it.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_83:
-	.string "ANDRA: … I won't miss this date with\n"
+	.string "ANDRA: {PAUSE 35}…{PAUSE 35} I won't miss this date with\n"
 	.string "history …$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_84:
@@ -2269,9 +2269,9 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_86:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_87:
 	.string "ANDRA: You've already heard it,\n"
-	.string "{PLAYER}, I see you at POKÉMON TOW…$"
+	.string "{PLAYER}, I see you at POKÉMON TOW{PAUSE 25}…$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_88:
-	.string "… LAVENDER RADIO TOWER. It will be\n"
+	.string "{PAUSE 25}…{PAUSE 25} LAVENDER RADIO TOWER. It will be\n"
 	.string "strange not to see the original one\l"
 	.string "again, don't you think?$"

@@ -174,7 +174,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_1:
 
 NeoLavandaPueblo_Combate_Eusine_Texto_2:
 	.string "Your organization is fascinating,\n"
-	.string "really… you already had clones of the\l"
+	.string "really{PAUSE 25}…{PAUSE 25} You already had clones of the\l"
 	.string "very SACRED BEASTS, working with that\l"
 	.string "foundation, along with my expertise,\l"
 	.string "has greatly accelerated progress.$"
@@ -186,7 +186,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_3:
 NeoLavandaPueblo_Combate_Eusine_Texto_4:
 	.string "I know you're not up to speed on these\n"
 	.string "advancements. Your forte is handling\l"
-	.string "the pure action, but… I'll get you up to\l"
+	.string "the pure action, but{PAUSE 15}…{PAUSE 15} I'll get you up to\l"
 	.string "date!$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_5:
@@ -204,7 +204,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_6:
 NeoLavandaPueblo_Combate_Eusine_Texto_7:
 	.string "Nevertheless, I haven't been able to\n"
 	.string "defeat you. It's clear that there's\l"
-	.string "something sacred, spiritual… a halo\l"
+	.string "something sacred, spiritual{PAUSE 25}…{PAUSE 25} a halo\l"
 	.string "surrounding you and your team, creating\l"
 	.string "an extremely difficult bond to break.\l"
 	.string "That sort of essence protects you, but\l"
@@ -217,7 +217,7 @@ NeoLavandaPueblo_Combate_Eusine_Texto_8:
 .string "…$"
 
 NeoLavandaPueblo_Combate_Eusine_Texto_9:
-	.string "Oh, so… Do you think that I have\n"
+	.string "Oh, so{PAUSE 35}…{PAUSE 35} Do you think that I have\n"
 	.string "forsaken my roots? Is there no longer\l"
 	.string "any trace of those ancient POKÉMON I\l"
 	.string "used in my initial battles?$"
@@ -494,10 +494,10 @@ NeoLavandaPueblo_Policía_Texto_5:
 .string "That cannot be!$"
 
 NeoLavandaPueblo_Policía_Texto_6:
-	.string "The BIKERS… they've barricaded\n"
+	.string "The BIKERS{PAUSE 25}…{PAUSE 25} they've barricaded\n"
 	.string "themselves inside, reopening the\l"
 	.string "extensive tunnels that served as\l"
-	.string "shelters during the war… and there's no\l"
+	.string "shelters during the war{PAUSE 25}…{PAUSE 25} and there's no\l"
 	.string "way to get them out of there!$"
 
 NeoLavandaPueblo_Policía_Texto_7:
@@ -519,7 +519,7 @@ NeoLavandaPueblo_Policía_Texto_11:
 .string "{PAUSE 20}…{PAUSE 20} …{PAUSE 20}$"
 
 NeoLavandaPueblo_Policía_Texto_12:
-.string "Oh… You… Sir…$"
+.string "Oh{PAUSE 15}…{PAUSE 15} You{PAUSE 15}…{PAUSE 15} Sir{PAUSE 15}…$"
 
 NeoLavandaPueblo_Policía_Texto_13:
 	.string "I see, you want to take care of it\n"
