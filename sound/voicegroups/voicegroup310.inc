@@ -4,7 +4,7 @@ voicegroup310::
 	voice_keysplit voicegroup005, KeySplitTable1
 	voice_keysplit voicegroup193, KeySplitTable6
 	voice_keysplit voicegroup194, KeySplitTable6
-	voice_programmable_wave_alt 60, 0, ProgrammableWaveData_1, 0, 7, 15, 1
+	voice_keysplit voicegroup195, KeySplitTable7
 	voice_keysplit voicegroup196, KeySplitTable8
 	voice_keysplit voicegroup197, KeySplitTable9
 	voice_programmable_wave_alt 60, 0, ProgrammableWaveData_4, 1, 7, 15, 1
