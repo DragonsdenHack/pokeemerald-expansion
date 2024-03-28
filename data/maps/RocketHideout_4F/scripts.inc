@@ -95,7 +95,7 @@ compare VAR_UNUSED_0x40F7, 178
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionesDLC
 compare VAR_UNUSED_0x40F7, 167
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionCultoSegunda
-compare VAR_UNUSED_0x40F7, 116
+compare VAR_UNUSED_0x40F7, 115
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto
 compare VAR_UNUSED_0x40F7, 112
 goto_if_gt RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionMansionOak
@@ -177,13 +177,15 @@ release
 end
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionJohto_Texto_1:
-.string "JOHTO region is the one with the most\n"
-	.string "history and tradition in the known\l"
-	.string "world. You can't deny that something…\l"
-	.string "spiritual is going on there. And perhaps\l"
-	.string "we will never get to comprehend it at\l"
-	.string "all, nevertheless, we cannot ignore it's\l"
-	.string "power.$"
+	.string "Congratulations, {PLAYER}, you defeated\n"
+	.string "OAK. There is still much to see; the\l"
+	.string "JOHTO region awaits you. However, the\l"
+	.string "translation ends here... for now. Soon\l"
+	.string "(2024), both JOHTO and the DLC will be\l"
+	.string "available in English. For more\l"
+	.string "information, please check the post on\l"
+	.string "Pokecommunity, and remember, keep\l"
+	.string "improving yourself.$"
 
 RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga::
 msgbox RocketHideout4F_Dialogos_Giovanni_Dialogo_MisionLiga_Texto_1 MSGBOX_AUTOCLOSE

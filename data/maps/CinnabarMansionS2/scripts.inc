@@ -606,7 +606,7 @@ waitmovement 0x0
 msgbox CinnabarMansionS2_Oak_Texto_25 MSGBOX_AUTOCLOSE
 applymovement 5, CinnabarMansionS2_Oak_Move_14
 waitmovement 0x0
-setflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BIRCH
 setflag FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE
 delay 28
 setvar VAR_UNUSED_0x40F7, 116
