@@ -597,9 +597,43 @@ RocketHideout_8F_Mision_Silph_move5.3:
 face_right
 step_end
 
+RocketHideout_8F_Mision_Silph_No::
+fadescreen 1
+delay 20
+changeavatar 2
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+addmoney 500000 0
+givemon SPECIES_AERODACTYL, 35, ITEM_SHARP_BEAK
+giveitem ITEM_ULTRA_BALL, 50
+removeobject 9
+fadescreen 0
+setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+clearflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
+setvar VAR_UNUSED_0x40DC, 13
+setvar VAR_UNUSED_0x40F7, 72
+setvar VAR_UNUSED_0x40FD, 1
+msgbox RocketHideout_8F_Mision_Silph_No_Texto_1, MSGBOX_AUTOCLOSE
+release
+end
+
+RocketHideout_8F_Mision_Silph_No_Texto_1:
+	.string "(Has sido ascendido a EJECUTIVO y\n"
+	.string "recibido 50 ULTRA BALL, un Aerodactyl y\l"
+	.string "500000 POKÉ. Tu próxima misión está en\l"
+	.string "CIUDAD AZAFRÁN -SEDE SILPH-. Para ver\l"
+	.string "el cambio de skin, sal del despacho de\l"
+	.string "GIOVANNI).$"
+
 RocketHideout_8F_Mision_Silph::
 lock
-setvar VAR_UNUSED_0x40F7, 71
+msgbox RocketHideout_8F_Mision_Silph_Yes, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_8F_Mision_Silph_No
 clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
 setflag FLAG_NUEVA_839
 addobject 3
@@ -667,7 +701,6 @@ warpsilent MAP_ROCKET_HIDEOUT_8F, 9, 7
 RocketHideout8F_Mision_Johto_move_12.6:
 walk_in_place_right
 step_end
-
 
 
 
@@ -928,6 +961,11 @@ walk_left
 walk_left
 walk_left
 step_end
+
+RocketHideout_8F_Mision_Silph_Yes:
+	.string "¿Continuar escena Lore? (Si das SÍ y\n"
+	.string "ocurre algún error, con la opción NO\l"
+	.string "podrás saltarte esta parte y seguir).$"
 
 RocketHideout_8F_Mision_Silph_text_1:
 .string "GIOVANNI: ¡Ah, {PLAYER}!, estábamos\n"
