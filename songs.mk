@@ -145,7 +145,7 @@ $(MID_SUBDIR)/mus_end.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G102 -V036
 
 $(MID_SUBDIR)/mus_help.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G056 -V078
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310-V078
 
 $(MID_SUBDIR)/mus_level_up.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G012 -V090 -P5
@@ -619,7 +619,7 @@ $(MID_SUBDIR)/mus_mt_chimney.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G052 -V078
 
 $(MID_SUBDIR)/mus_follow_me.s: %.s: %.mid
-	$(MID) $< $@ -E -R$(STD_REVERB) -G066 -V074
+	$(MID) $< $@ -E -R$(STD_REVERB) -G310 -V074
 
 $(MID_SUBDIR)/mus_vs_frontier_brain.s: %.s: %.mid
 	$(MID) $< $@ -E -R$(STD_REVERB) -G115 -V090 -P1
