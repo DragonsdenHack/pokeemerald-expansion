@@ -81,7 +81,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_sevii_islands_45",
+      "secondary_tileset": "gTileset_lavender_town",
       "border_filepath": "data/layouts/MossdeepCity/border.bin",
       "blockdata_filepath": "data/layouts/MossdeepCity/map.bin"
     },
@@ -309,7 +309,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_Mauville",
+      "secondary_tileset": "gTileset_celadon_city2",
       "border_filepath": "data/layouts/Route110/border.bin",
       "blockdata_filepath": "data/layouts/Route110/map.bin"
     },
@@ -1221,7 +1221,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building",
-      "secondary_tileset": "gTileset_Contest",
+      "secondary_tileset": "gTileset_bell_tower",
       "border_filepath": "data/layouts/Route104_MrBrineysHouse/border.bin",
       "blockdata_filepath": "data/layouts/Route104_MrBrineysHouse/map.bin"
     },
@@ -1257,7 +1257,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_Contest",
+      "secondary_tileset": "gTileset_trainer_tower",
       "border_filepath": "data/layouts/LilycoveCity_ContestLobby/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_ContestLobby/map.bin"
     },
@@ -1269,7 +1269,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",
-      "secondary_tileset": "gTileset_Contest",
+      "secondary_tileset": "gTileset_pokemon_mansion",
       "border_filepath": "data/layouts/LilycoveCity_ContestHall/border.bin",
       "blockdata_filepath": "data/layouts/LilycoveCity_ContestHall/map.bin"
     },

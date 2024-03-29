@@ -51,6 +51,7 @@ addobject 6
 playmoncry SPECIES_CLEFAIRY, CRY_MODE_ENCOUNTER
 msgbox PokemonTower_7F_Proton_Texto_7 MSGBOX_AUTOCLOSE
 delay 20
+special HealPlayerParty
 playmoncry SPECIES_CLEFAIRY, CRY_MODE_ENCOUNTER
 msgbox PokemonTower_7F_Proton_Texto_8 MSGBOX_AUTOCLOSE
 playse SE_M_TELEPORT
