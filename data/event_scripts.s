@@ -2834,3 +2834,5 @@ Text_EVChecker_3:
 	.include "data/maps/Snowpoint_House_1/scripts.inc"
 
 	.include "data/maps/Snowpoint_House_2/scripts.inc"
+
+	.include "data/maps/BaseRocketHoennS4/scripts.inc"

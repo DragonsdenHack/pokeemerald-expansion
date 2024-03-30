@@ -1445,7 +1445,8 @@
     "DevonS8",
     "DevonS9",
     "DevonS10",
-    "SnowpointCity"
+    "SnowpointCity",
+    "BaseRocketHoennS4"
   ],
   "gMapGroup_IndoorSnowPoint": [
     "Snowpoint_PkmnCenter",

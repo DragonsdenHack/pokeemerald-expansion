@@ -2,7 +2,7 @@
   "id": "MAP_SNOWPOINT_HOUSE_2",
   "name": "Snowpoint_House_2",
   "layout": "LAYOUT_SNOWPOINT_HOUSE_2",
-  "music": "MUS_ABANDONED_SHIP",
+  "music": "MUS_FOLLOW_ME",
   "region_map_section": "MAPSEC_NONE",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

@@ -13,7 +13,8 @@ SnowpointCity_Cartel_Texto_1:
 SnowpointCity_Primer_Npc::
 lock
 faceplayer
-msgbox SnowpointCity_Primer_Npc_Texto_1, MSGBOX_DEFAULT   
+msgbox SnowpointCity_Primer_Npc_Texto_1, MSGBOX_NPC
+release   
 end
 
 SnowpointCity_Primer_Npc_Texto_1:
@@ -26,7 +27,8 @@ SnowpointCity_Primer_Npc_Texto_1:
 SnowpointCity_Segundo_Npc::
 lock
 faceplayer
-msgbox SnowpointCity_Segundo_Npc_Texto_1, MSGBOX_DEFAULT   
+msgbox SnowpointCity_Segundo_Npc_Texto_1, MSGBOX_NPC 
+release
 end
 
 SnowpointCity_Segundo_Npc_Texto_1:
@@ -37,7 +39,8 @@ SnowpointCity_Segundo_Npc_Texto_1:
 SnowpointCity_Tercer_Npc::
 lock
 faceplayer
-msgbox SnowpointCity_Tercer_Npc_Texto_1, MSGBOX_DEFAULT   
+msgbox SnowpointCity_Tercer_Npc_Texto_1, MSGBOX_NPC  
+release 
 end
 
 SnowpointCity_Tercer_Npc_Texto_1:
@@ -58,7 +61,8 @@ SnowpointCityDocumento_Text_104:
 SnowpointCity_Cuarto_Npc::
 lock
 faceplayer
-msgbox SnowpointCity_Cuarto_Npc_Texto_1, MSGBOX_DEFAULT   
+msgbox SnowpointCity_Cuarto_Npc_Texto_1, MSGBOX_NPC  
+release
 end
 
 SnowpointCity_Cuarto_Npc_Texto_1:
@@ -72,7 +76,8 @@ SnowpointCity_Cuarto_Npc_Texto_1:
 SnowpointCity_Quinto_Npc::
 lock
 faceplayer
-msgbox SnowpointCity_Quinto_Npc_Texto_1, MSGBOX_DEFAULT   
+msgbox SnowpointCity_Quinto_Npc_Texto_1, MSGBOX_NPC
+release 
 end
 
 SnowpointCity_Quinto_Npc_Texto_1:
@@ -84,7 +89,8 @@ SnowpointCity_Quinto_Npc_Texto_1:
 SnowpointCity_Sexto_Npc::
 lock
 faceplayer
-msgbox SnowpointCity_Sexto_Npc_Texto_1, MSGBOX_DEFAULT   
+msgbox SnowpointCity_Sexto_Npc_Texto_1, MSGBOX_NPC
+release  
 end
 
 SnowpointCity_Sexto_Npc_Texto_1:
