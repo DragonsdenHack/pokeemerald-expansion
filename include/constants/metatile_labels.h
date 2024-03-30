@@ -182,6 +182,7 @@
 #define METATILE_EverGrande_Door_PokemonLeague  0x21D
 
 // gTileset_Facility
+#define METATILE_Facility_DataPad                       0x3E4
 #define METATILE_Facility_NewMauvilleDoor_Closed_Tile0  0x314
 #define METATILE_Facility_NewMauvilleDoor_Closed_Tile1  0x315
 #define METATILE_Facility_NewMauvilleDoor_Closed_Tile2  0x316
@@ -262,13 +263,16 @@
 #define METATILE_General_Door_Gym                0x1CD
 #define METATILE_General_Door_PokeCenter         0x061
 #define METATILE_General_Door_PokeMart           0x041
+#define METATILE_General_Grass                   0x001
 #define METATILE_General_Grass_TreeLeft          0x1CE
 #define METATILE_General_Grass_TreeRight         0x1CF
+#define METATILE_General_Grass_TreeUp            0x00E
 #define METATILE_General_LongGrass               0x015
 #define METATILE_General_MuddySlope_Frame0       0x0E8
 #define METATILE_General_MuddySlope_Frame1       0x0E9
 #define METATILE_General_MuddySlope_Frame2       0x0EA
 #define METATILE_General_MuddySlope_Frame3       0x0EB
+#define METATILE_General_Plain_Grass             0x00D
 #define METATILE_General_Plain_Mowed             0x001
 #define METATILE_General_RedCaveIndent           0x1A0
 #define METATILE_General_RedCaveOpen             0x1A1
@@ -316,7 +320,11 @@
 #define METATILE_InsideOfTruck_ExitLight_Top           0x208
 
 // gTileset_InsideShip
+#define METATILE_InsideShip_DoorIndent_Locked           0x234
+#define METATILE_InsideShip_DoorIndent_Unlocked         0x21A
 #define METATILE_InsideShip_IntactDoor_Bottom_Interior  0x297
+#define METATILE_InsideShip_IntactDoor_Bottom_Locked    0x233
+#define METATILE_InsideShip_IntactDoor_Bottom_Unlocked  0x22B
 
 // gTileset_Lavaridge
 #define METATILE_Lavaridge_AshGrass             0x207
