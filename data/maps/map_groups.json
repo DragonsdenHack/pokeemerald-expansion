@@ -1026,7 +1026,9 @@
     "MauvilleCity_House2",
     "MauvilleCity_PokemonCenter_1F",
     "MauvilleCity_PokemonCenter_2F",
-    "MauvilleCity_Mart"
+    "MauvilleCity_Mart",
+    "GameCorner_Mauville_Hideout_S1",
+    "GameCorner_Mauville_Hideout_S2"
   ],
   "gMapGroup_IndoorRustboro": [
     "RustboroCity_DevonCorp_1F",

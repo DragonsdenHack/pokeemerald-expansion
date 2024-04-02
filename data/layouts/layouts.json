@@ -14496,6 +14496,30 @@
       "secondary_tileset": "gTileset_silph_co",
       "border_filepath": "data/layouts/BaseRocketHoennS4/border.bin",
       "blockdata_filepath": "data/layouts/BaseRocketHoennS4/map.bin"
+    },
+    {
+      "id": "LAYOUT_GAME_CORNER_MAUVILLE_HIDEOUT_S1",
+      "name": "GameCorner_Mauville_Hideout_S1_Layout",
+      "width": 28,
+      "height": 34,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_silph_co",
+      "border_filepath": "data/layouts/GameCorner_Mauville_Hideout_S1/border.bin",
+      "blockdata_filepath": "data/layouts/GameCorner_Mauville_Hideout_S1/map.bin"
+    },
+    {
+      "id": "LAYOUT_GAME_CORNER_MAUVILLE_HIDEOUT_S2",
+      "name": "GameCorner_Mauville_Hideout_S2_Layout",
+      "width": 32,
+      "height": 22,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/GameCorner_Mauville_Hideout_S2/border.bin",
+      "blockdata_filepath": "data/layouts/GameCorner_Mauville_Hideout_S2/map.bin"
     }
   ]
 }

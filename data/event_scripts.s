@@ -2836,3 +2836,7 @@ Text_EVChecker_3:
 	.include "data/maps/Snowpoint_House_2/scripts.inc"
 
 	.include "data/maps/BaseRocketHoennS4/scripts.inc"
+
+	.include "data/maps/GameCorner_Mauville_Hideout_S1/scripts.inc"
+
+	.include "data/maps/GameCorner_Mauville_Hideout_S2/scripts.inc"
