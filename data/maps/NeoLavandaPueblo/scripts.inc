@@ -79,6 +79,7 @@ msgbox NeoLavandaPueblo_Combate_Eusine_Texto_3 MSGBOX_AUTOCLOSE
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_4 MSGBOX_AUTOCLOSE
+setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 trainerbattle_no_intro TRAINER_TRAINER_76, NeoLavandaPueblo_Combate_Eusine_Texto_5
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_6 MSGBOX_AUTOCLOSE
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_6
@@ -115,6 +116,7 @@ applymovement OBJ_EVENT_ID_PLAYER, NeoLavandaPueblo_Combate_Eusine_Move_9
 applymovement 5, NeoLavandaPueblo_Combate_Eusine_Move_4
 waitmovement 0x0
 msgbox NeoLavandaPueblo_Combate_Eusine_Texto_13 MSGBOX_AUTOCLOSE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 setflag FLAG_HIDE_VERDANTURF_TOWN_SCOTT
 fadescreen 1
 delay 20
