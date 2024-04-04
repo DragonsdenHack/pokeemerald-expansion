@@ -840,3 +840,23 @@ MtChimney_Text_SawyerPostRematch:
 	.string "Actually, it really is hot here.\n"
 	.string "I'm overdressed for these parts.$"
 
+MtChimney_EventScript_Primer_Policia::
+	trainerbattle_single TRAINER_TRAINER_562, MtChimney_Text_PrimerPoliciaIntro, MtChimney_Text_PrimerPoliciaDefeat
+	msgbox MtChimney_Text_PrimerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_Segundo_Policia::
+	trainerbattle_single TRAINER_TRAINER_563, MtChimney_Text_SegundoPoliciaIntro, MtChimney_Text_SegundoPoliciaDefeat
+	msgbox MtChimney_Text_SegundoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_Tercer_Policia::
+	trainerbattle_single TRAINER_TRAINER_564, MtChimney_Text_TercerPoliciaIntro, MtChimney_Text_TercerPoliciaDefeat
+	msgbox MtChimney_Text_TercerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+MtChimney_EventScript_Primer_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_565, MtChimney_Text_PrimerCientificoIntro, MtChimney_Text_PrimerCientificoDefeat
+	msgbox MtChimney_Text_PrimerCientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+

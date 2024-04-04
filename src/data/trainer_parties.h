@@ -24962,7 +24962,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER60[] = {
 static const struct TrainerMonNoItemCustomMoves sParty_TRAINER61[] = {
     {
     .iv = 0,
-    .lvl = 9,
+    .lvl = 95,
     .species = SPECIES_MAGCARGO,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
@@ -24970,7 +24970,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER61[] = {
     },
     {
     .iv = 0,
-    .lvl = 0,
+    .lvl = 96,
     .species = SPECIES_SANDSLASH,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
@@ -24978,7 +24978,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER61[] = {
     },
     {
     .iv = 0,
-    .lvl = 0,
+    .lvl = 96,
     .species = SPECIES_RHYDON,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
@@ -24986,7 +24986,7 @@ static const struct TrainerMonNoItemCustomMoves sParty_TRAINER61[] = {
     },
     {
     .iv = 0,
-    .lvl = 0,
+    .lvl = 97,
     .species = SPECIES_CAMERUPT,
     .evs = {0, 0, 0, 0, 0, 0},
     .nature = NATURE_SERIOUS,
@@ -36166,18 +36166,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER569[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER570[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 100,
+    .species = SPECIES_LUDICOLO,
     }
     
 };
@@ -36185,18 +36175,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER570[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER571[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 95,
+    .species = SPECIES_AZURILL,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 97,
+    .species = SPECIES_MARILL,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 99,
+    .species = SPECIES_AZUMARILL,
     }
     
 };
@@ -36204,18 +36194,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER571[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER572[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 93,
+    .species = SPECIES_WAILMER,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 93,
+    .species = SPECIES_WAILMER,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_WAILORD,
     }
     
 };
@@ -36223,18 +36213,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER572[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER573[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 94,
+    .species = SPECIES_SHARPEDO,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_WAILORD,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_SHARPEDO,
     }
     
 };
@@ -36242,18 +36232,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER573[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER574[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 100,
+    .species = SPECIES_AZUMARILL,
     }
     
 };
@@ -36261,18 +36241,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER574[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER575[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 94,
+    .species = SPECIES_SEAKING,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_SEAKING,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_SEAKING,
     }
     
 };
@@ -36280,18 +36260,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER575[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER576[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 98,
+    .species = SPECIES_SEAKING,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_WAILORD,
     }
     
 };
@@ -36299,18 +36274,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER576[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER577[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 97,
+    .species = SPECIES_LUVDISC,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 97,
+    .species = SPECIES_LUVDISC,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 97,
+    .species = SPECIES_LUVDISC,
     }
     
 };
@@ -36318,18 +36293,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER577[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER578[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 93,
+    .species = SPECIES_SEADRA,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 93,
+    .species = SPECIES_SEADRA,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 99,
+    .species = SPECIES_KINGDRA,
     }
     
 };
@@ -36337,18 +36312,8 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER578[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER579[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 100,
+    .species = SPECIES_MILOTIC,
     }
     
 };

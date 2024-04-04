@@ -169,6 +169,7 @@ applymovement 3, Magma3_Combate_Magno_Move_14
 waitmovement 0x0
 msgbox Magma3_Combate_Magno_Texto_21 MSGBOX_AUTOCLOSE
 setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+setflag FLAG_HIDE_ROUTE_101_BIRCH_STARTERS_BAG
 fadescreen 1
 delay 20
 removeobject 3

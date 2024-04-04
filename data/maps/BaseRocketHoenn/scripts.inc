@@ -2380,3 +2380,41 @@ BaseRocketHoenn_Potencial_Galar_Texto:
 	.string "REGIÓN:\p"
 	.string "GALAR$"
 
+
+
+BaseRocketHoenn_Ejecutivo_Bienvenida::
+lock
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_1 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_2 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_1:
+	.string "EJECUTIVO ROCKET: Oh… ADMIN.JEFE\n"
+	.string "{PLAYER}. Le estaba esperando.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_2:
+	.string "Sabemos lo de la ADMIN.JEFE ANDRA. En\n"
+	.string "esta base yo soy su mano derecha, es\l"
+	.string "por ello que antes de partir me confió\l"
+	.string "esto. Ahora usted debe tenerlo.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3:
+	.string "¡Obtuviste LLAVE DESPACHO HOENN de\n"
+	.string "manos de EJECUTIVO!$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4:
+	.string "ANDRA ya predijo que usted vendría y\n"
+	.string "preparó el despacho para su llegada. Ha\l"
+	.string "dejado por escrito algunas\l"
+	.string "recomendaciones para usted, antes de\l"
+	.string "que inicie su aventura por HOENN.$"
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5:
+	.string "Le recomiendo pasarse por ahí. Yo\n"
+	.string "estaré guardando sus puertas,\l"
+	.string "disponible para lo que me necesite SIR.$"
+	

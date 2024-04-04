@@ -17678,6 +17678,54 @@ NeoRoute21_NadadoraPostBattle:
 .string "Debería tener cuidado con las manchas\n"
 	.string "causadas por el sol.$"
 
+MtChimney_Text_PrimerPoliciaIntro:
+	.string "Estamos realizando importantes\n"
+	.string "pruebas, nadie debe pasar de aquí\l"
+	.string "hasta que hayamos terminado.$"
+
+MtChimney_Text_PrimerPoliciaDefeat:
+	.string "¿Quién eres?$"
+
+MtChimney_Text_PrimerPoliciaPostBattle:
+	.string "Al parecer este volcán guarda muchos\n"
+	.string "secretos.$"
+
+MtChimney_Text_SegundoPoliciaIntro:
+	.string "Nuestro DOCTOR está haciendo pruebas\n"
+	.string "en el volcán del MT.CENIZO, ¿no querrás\l"
+	.string "molestarlo?$"
+
+MtChimney_Text_SegundoPoliciaDefeat:
+	.string "Estás avisado…$"
+
+MtChimney_Text_SegundoPoliciaPostBattle:
+	.string "Al DOCTOR no le gusta ser interrumpido\n"
+	.string "en medio de su trabajo.$"
+
+MtChimney_Text_TercerPoliciaIntro:
+	.string "¡Alto ahí! ¡Deberías estar agradecido a\n"
+	.string "DEVON por todo lo que aporta a HOENN en\l"
+	.string "lugar de interferir en su progreso!$"
+
+MtChimney_Text_TercerPoliciaDefeat:
+	.string "¡Tú no eres de HOENN!$"
+
+MtChimney_Text_TercerPoliciaPostBattle:
+	.string "No me hago responsable de tu integridad\n"
+	.string "física a partir de este punto.$"
+
+MtChimney_Text_PrimerCientificoIntro:
+	.string "Estamos llevando a cabo una\n"
+	.string "investigación privada, todo es por el\l"
+	.string "bien de HOENN.$"
+
+MtChimney_Text_PrimerCientificoDefeat:
+	.string "Menudos especímenes.$"
+
+MtChimney_Text_PrimerCientificoPostBattle:
+	.string "Los verdaderos motivos del porqué de\n"
+	.string "esta expedición no son de dominio\l"
+	.string "público.$"
 
 
 
