@@ -257,19 +257,21 @@ MauvilleCity_Gym_EventScript_GymStatue::
 	end
 
 MauvilleCity_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "WATTSON, the LEADER of MAUVILLE\n"
-	.string "GYM, uses ELECTRIC-type POKéMON.\p"
-	.string "If you challenge him with WATER-type\n"
-	.string "POKéMON, he'll zap them! Bzzt!\p"
-	.string "And, he's put in switch-controlled\n"
-	.string "doors all over his GYM! Eccentric!\p"
-	.string "Hey, go for it!$"
+	.string	"¿Entonces te llamas {PLAYER}?\n"
+	.string	"¿Camino del CAMPEONATO?\p"
+	.string	"ERICO, el LÍDER del GIMNASIO\n"
+	.string	"de MALVALONA, usa POKéMON\l"
+	.string	"de tipo ELÉCTRICO.\p"
+	.string	"¡Si le desafías con POKéMON\n"
+	.string	"de tipo AGUA, te fulminará!\p"
+	.string	"¡Y además ha puesto por todo\n"
+	.string	"el GIMNASIO puertas controladas\l"
+	.string	"por interruptores! Mira que es rarito…\p"
+	.string	"Bueno, ¡ve a por él!$"
 
 MauvilleCity_Gym_Text_GymGuidePostVictory:
-	.string "Whoa, you're electrifying!\n"
-	.string "You've powered the door open!$"
+	.string	"¡Guau, tú sí que tienes chispa!\n"
+	.string	"¡No hay circuito que se te resista!$"
 
 MauvilleCity_Gym_Text_KirkIntro:
 	.string "Tengo una personalidad tan\n"
@@ -353,8 +355,8 @@ MauvilleCity_Gym_Text_WattsonDefeat:
 	.string "Take this BADGE!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
-	.string "{PLAYER} received the DYNAMO BADGE\n"
-	.string "from WATTSON.$"
+	.string	"{PLAYER} recibió la MEDALLA DINAMO\n"
+	.string	"de ERICO.$"
 
 MauvilleCity_Gym_Text_ExplainDynamoBadgeTakeThis:
 	.string "With the DYNAMO BADGE, POKéMON can\n"
@@ -383,12 +385,12 @@ MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "Go forth and endeavor, youngster!$"
 
 MauvilleCity_Gym_Text_GymStatue:
-	.string "MAUVILLE CITY POKéMON GYM$"
+	.string	"GIMNASIO POKéMON de CIUDAD MALVALONA$"
 
 MauvilleCity_Gym_Text_GymStatueCertified:
-	.string "MAUVILLE CITY POKéMON GYM\p"
-	.string "WATTSON'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD MALVALONA\p"
+	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
+	.string	"{PLAYER}$"
 
 MauvilleCity_Gym_Text_WattsonPreRematch:
 	.string "WATTSON: Ah-ha! Here at last!\n"

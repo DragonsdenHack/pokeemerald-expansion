@@ -104,38 +104,39 @@ RustboroCity_Gym_EventScript_RegisterRoxanne::
 	end
 
 RustboroCity_Gym_Text_GymGuideAdvice:
-	.string "Yo, how's it going?\p"
-	.string "Listen, my friend!\n"
-	.string "Would you like to become the CHAMPION?\p"
-	.string "I'm no TRAINER, not me, but I can\n"
-	.string "sure give you winning advice.\p"
-	.string "That's settled, then! We'll aim for the\n"
-	.string "POKéMON CHAMPIONSHIP together!\p"
-	.string "It's your job as a TRAINER to collect\n"
-	.string "GYM BADGES, am I right?\p"
-	.string "But GYM LEADERS aren't pushovers!\p"
-	.string "And that's where I come in!\n"
-	.string "I'm here to provide expert advice!\p"
-	.string "ROXANNE, the GYM LEADER, is a user\n"
-	.string "of ROCK-type POKéMON.\p"
-	.string "The ROCK type is very durable, but\n"
-	.string "it can't stand WATER-type and\l"
-	.string "GRASS-type moves.\p"
-	.string "Come see me afterwards, if you beat\n"
-	.string "the GYM LEADER.\p"
-	.string "Well, go for it!$"
+	.string	"Eh, ¿qué tal vamos?\p"
+	.string	"¡Escucha algo que te va a interesar!\n"
+	.string	"¿Vas camino del CAMPEONATO?\p"
+	.string	"Yo no soy ENTRENADOR, pero te puedo\n"
+	.string	"dar un par de buenos consejos.\p"
+	.string	"¡Así me gusta! ¡Te voy a decir cómo\n"
+	.string	"ganar el CAMPEONATO POKéMON!\p"
+	.string	"Un ENTRENADOR tiene que reunir\n"
+	.string	"MEDALLAS de GIMNASIO, ¿no?\p"
+	.string	"¡Pero ganar a los LÍDERES no es\n"
+	.string	"pan comido!\p"
+	.string	"¡Y ahí entro yo!\n"
+	.string	"Puedo asesorarte como nadie.\p"
+	.string	"PETRA, la LÍDER del GIMNASIO,\n"
+	.string	"usa POKéMON de tipo ROCA.\p"
+	.string	"El tipo ROCA es muy resistente, pero no\n"
+	.string	"tiene ninguna oportunidad si se usan\l"
+	.string	"movimientos de tipo AGUA o PLANTA.\p"
+	.string	"Si derrotas a la LÍDER, ven a verme.\p"
+	.string	"Venga, ¡valor y al toro!$"
 
 RustboroCity_Gym_Text_GymGuidePostVictory:
-	.string "Whoa! What a breathtaking victory!\n"
-	.string "My cheering must've worked!\p"
-	.string "Great!\n"
-	.string "Check your TRAINER CARD.\p"
-	.string "The STONE BADGE you got should be\n"
-	.string "properly recorded on it.\p"
-	.string "In other words…\p"
-	.string "You've climbed the first step on\n"
-	.string "the stairs to the CHAMPIONSHIP!\p"
-	.string "That's got to feel awesome!$"
+	.string	"¡Guau, vaya pedazo de victoria!\n"
+	.string	"¡Seguro que ha sido por todo lo que\l"
+	.string	"te he animado desde aquí!\p"
+	.string	"¡Genial!\n"
+	.string	"Consulta tu FICHA de ENTRENADOR.\p"
+	.string	"La MEDALLA PIEDRA que has conseguido\n"
+	.string	"debería figurar ahí.\p"
+	.string	"En otras palabras…\p"
+	.string	"¡Has dado el primer paso que te llevará\n"
+	.string	"a la cima!\p"
+	.string	"¡Tiene que ser superemocionante!$"
 
 RustboroCity_Gym_Text_JoshIntro:
 	.string "A los ENTRENADORES no debes tomarnos a\n"
@@ -196,8 +197,8 @@ RustboroCity_Gym_Text_RoxanneDefeat:
 	.string "LEAGUE STONE BADGE.$"
 
 RustboroCity_Gym_Text_ReceivedStoneBadge:
-	.string "{PLAYER} received the STONE BADGE\n"
-	.string "from ROXANNE.$"
+	.string	"{PLAYER} recibió la MEDALLA PIEDRA\n"
+	.string	"de PETRA.$"
 
 RustboroCity_Gym_Text_StoneBadgeInfoTakeThis:
 	.string "The STONE BADGE heightens the ATTACK\n"
@@ -223,12 +224,12 @@ RustboroCity_Gym_Text_RoxannePostBattle:
 	.string "learn many things.$"
 
 RustboroCity_Gym_Text_GymStatue:
-	.string "RUSTBORO CITY POKéMON GYM$"
+	.string	"GIMNASIO POKéMON de CIUDAD FÉRRICA$"
 
 RustboroCity_Gym_Text_GymStatueCertified:
-	.string "RUSTBORO CITY POKéMON GYM\p"
-	.string "ROXANNE'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD FÉRRICA\p"
+	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
+	.string	"{PLAYER}$"
 
 RustboroCity_Gym_Text_RoxanneRegisterCall:
 	.string "… … … … … …\n"

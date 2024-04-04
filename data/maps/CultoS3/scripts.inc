@@ -903,8 +903,8 @@ Culto_S3_Batalla_Texto_19:
 	.string "nadie lo visto aquí con excepción,\l"
 	.string "por supuesto, de esa otra persona\l"
 	.string "que hubiera sido capaz de batir a\l"
-	.string "este equipo, tú sabras\l"
-	.string "identificarla por supuesto…$"
+	.string "este equipo. Tú sabrás\l"
+	.string "identificarlo, por supuesto…$"
 
 Culto_S3_Batalla_Texto_20:
 .string "En cuanto al POKÉMON ESENCIA, aquí\n"

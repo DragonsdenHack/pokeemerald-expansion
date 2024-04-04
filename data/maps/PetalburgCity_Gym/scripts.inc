@@ -1279,8 +1279,8 @@ PetalburgCity_Gym_Text_NormanDefeat:
 	.string "Here, take this.$"
 
 PetalburgCity_Gym_Text_ReceivedBalanceBadge:
-	.string "{PLAYER} received the BALANCE BADGE\n"
-	.string "from DAD!$"
+	.string	"¡{PLAYER} recibió la MEDALLA\n"
+	.string	"EQUILIBRIO de NORMAN!$"
 
 PetalburgCity_Gym_Text_ExplainBalanceBadgeTakeThis:
 	.string "DAD: With that BADGE, the DEFENSE\n"
@@ -1329,232 +1329,246 @@ PetalburgCity_Gym_Text_DadNoAmountOfTrainingIsEnough:
 	.string "training would ever be enough.$"
 
 PetalburgCity_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "The doors in this GYM open when you\n"
-	.string "beat the awaiting TRAINERS.\p"
-	.string "Whoops! The doors in this room are\n"
-	.string "already open, so don't attack me!\p"
-	.string "The TRAINERS of PETALBURG GYM\n"
-	.string "use all kinds of items.\p"
-	.string "The door at the left leads to\n"
-	.string "the SPEED ROOM.\p"
-	.string "The door at the right leads to\n"
-	.string "the ACCURACY ROOM.\p"
-	.string "The room's name will be on\n"
-	.string "the door, so choose carefully.\p"
-	.string "Once you've chosen the door…\n"
-	.string "Well, hey, go for it!$"
+	.string	"Eh, ¿cómo lo llevas, {PLAYER}?\n"
+	.string	"¿Camino del CAMPEONATO?\p"
+	.string	"Las puertas de este GIMNASIO\n"
+	.string	"se abren cuando derrotas a los\l"
+	.string	"ENTRENADORES del camino.\p"
+	.string	"¡Oye, oye! ¡Estas puertas están\n"
+	.string	"abiertas! ¡No me ataques!\p"
+	.string	"Los ENTRENADORES del GIMNASIO\n"
+	.string	"de PETALIA usan toda clase\l"
+	.string	"de objetos.\p"
+	.string	"La puerta de la izquierda conduce\n"
+	.string	"a la SALA de VELOCIDAD.\p"
+	.string	"La puerta de la derecha lleva\n"
+	.string	"a la SALA de PRECISIÓN.\p"
+	.string	"El nombre de la sala está marcado\n"
+	.string	"en la puerta. Elige con cuidado.\p"
+	.string	"Cuando te hayas decidido\n"
+	.string	"por una, ¡ve a por todas!$"
 
 PetalburgCity_Gym_Text_GymGuidePostVictory:
-	.string "{PLAYER}! Whoa! You've overcome even\n"
-	.string "your own father!\p"
-	.string "Like, whoa!\n"
-	.string "What a stunning turn of events!$"
+	.string	"¡{PLAYER}! ¡Impresionante!\n"
+	.string	"¡Has vencido a NORMAN!\p"
+	.string	"¡Me has dejado con la boca abierta!\n"
+	.string	"¡Es un momento emocionante!$"
 
 PetalburgCity_Gym_Text_RandallIntro:
-	.string "The ability to attack before the\n"
-	.string "opponent…\p"
-	.string "Just that alone puts me at a great\n"
-	.string "advantage, don't you agree?$"
+	.string	"La capacidad de atacar antes\n"
+	.string	"que tu oponente…\p"
+	.string	"Sólo eso constituye una gran\n"
+	.string	"ventaja, ¿no crees?$"
 
 PetalburgCity_Gym_Text_RandallDefeat:
-	.string "That was a magnificent battle!$"
+	.string	"¡Ha sido un gran combate!$"
 
 PetalburgCity_Gym_Text_RandallPostBattle:
-	.string "Go on to the next room where a new\n"
-	.string "challenge awaits you.\p"
-	.string "At the left is the CONFUSION ROOM.\p"
-	.string "The right door leads to the DEFENSE\n"
-	.string "ROOM.$"
+	.string	"Ve a la siguiente sala, donde\n"
+	.string	"te aguarda un nuevo desafío.\p"
+	.string	"A la izquierda está la SALA\n"
+	.string	"de CONFUSIÓN.\p"
+	.string	"A la derecha se encuentra\n"
+	.string	"la SALA de DEFENSA.$"
 
 PetalburgCity_Gym_Text_RandallPostBadge:
-	.string "Whomever you beat, and whomever you\n"
-	.string "may lose to, you never shirk from\l"
-	.string "training yourself and your POKéMON.\p"
-	.string "That's what I think being a\n"
-	.string "GYM LEADER is all about.$"
+	.string	"Venzas a quien venzas, y te derrote\n"
+	.string	"quien te derrote, nunca dejes de\l"
+	.string	"entrenarte y entrenar tus POKéMON.\p"
+	.string	"Más o menos en eso consiste\n"
+	.string	"ser un LÍDER de GIMNASIO.$"
 
 PetalburgCity_Gym_Text_ParkerIntro:
-	.string "This is the CONFUSION ROOM.\p"
-	.string "Let me see how well bonded you are\n"
-	.string "with your POKéMON!$"
+	.string	"Ésta es la SALA de CONFUSIÓN.\p"
+	.string	"¡Vamos a comprobar lo bien que\n"
+	.string	"te llevas con tus POKéMON!$"
 
 PetalburgCity_Gym_Text_ParkerDefeat:
-	.string "I couldn't confuse your team enough…\n"
-	.string "You share a strong bond together.$"
+	.string	"No hay quien confunda a tu equipo…\n"
+	.string	"Se nota que estáis unidos a tope.$"
 
 PetalburgCity_Gym_Text_ParkerPostBattle:
-	.string "The next room is the STRENGTH ROOM.\n"
-	.string "Can you withstand brute force?$"
+	.string	"La siguiente sala es la SALA\n"
+	.string	"de FUERZA. ¿Resistirás un combate\l"
+	.string	"a la máxima potencia?$"
 
 PetalburgCity_Gym_Text_ParkerPostBadge:
-	.string "After you beat our LEADER, the\n"
-	.string "training has become a lot tougher.$"
+	.string	"Desde que derrotaste a nuestro\n"
+	.string	"LÍDER, el entrenamiento se ha\l"
+	.string	"vuelto mucho más duro.$"
 
 PetalburgCity_Gym_Text_GeorgeIntro:
-	.string "Just when you think you're going to\n"
-	.string "win, your opponent restores HP…\p"
-	.string "Can you just imagine how awful that\n"
-	.string "must feel?\p"
-	.string "I'll show you exactly how awful it\n"
-	.string "feels!$"
+	.string	"Justo cuando piensas que vas\n"
+	.string	"a ganar, tu rival restaura PS…\p"
+	.string	"¿Tienes idea de lo mal que\n"
+	.string	"sienta una cosa así?\p"
+	.string	"¡Pues ahora mismo lo vas\n"
+	.string	"a comprobar!$"
 
 PetalburgCity_Gym_Text_GeorgeDefeat:
-	.string "I couldn't restore HP enough…\n"
-	.string "What ATTACK power…$"
+	.string	"No conseguí restaurar\n"
+	.string	"suficientes PS…\p"
+	.string	"Vaya potencia de ATAQUE…$"
 
 PetalburgCity_Gym_Text_GeorgePostBattle:
-	.string "I should have expected no less from\n"
-	.string "our LEADER's kid.\p"
-	.string "No, wait! A TRAINER's abilities are\n"
-	.string "earned only through effort.\p"
-	.string "I lost because my own efforts\n"
-	.string "weren't enough.\p"
-	.string "Go on! The ONE-HIT KO ROOM is next.$"
+	.string	"¡Hay que esforzarse!\n"
+	.string	"Y yo he perdido porque no me\p"
+	.string	"he esforzado lo suficiente…\n"
+	.string	"¡Adelante! Ahora viene la\p"
+	.string	"SALA de K.O. INSTANTÁNEO.$"
 
 PetalburgCity_Gym_Text_GeorgePostBadge:
-	.string "I'm going to keep training at GYMS.\n"
-	.string "One day, I'll become a LEADER.$"
+	.string	"Voy a seguir entrenándome mucho\n"
+	.string	"hasta convertirme en un LÍDER\l"
+	.string	"de GIMNASIO.$"
 
 PetalburgCity_Gym_Text_BerkeIntro:
-	.string "I'm not going to take it easy just\n"
-	.string "because you're our LEADER's kid.\p"
-	.string "I'll show you how horrid it is for\n"
-	.string "a POKéMON to take a critical hit!$"
+	.string	"No voy a ponértelo fácil porque\n"
+	.string	"este sea un nuevo GIMNASIO.\p"
+	.string	"Te voy a enseñar lo mal que\n"
+	.string	"sienta recibir un golpe crítico.$"
 
 PetalburgCity_Gym_Text_BerkeDefeat:
-	.string "Your power…\n"
-	.string "You're the real deal.$"
+	.string	"Qué fuerza…\n"
+	.string	"Eres el no va más.$"
 
 PetalburgCity_Gym_Text_BerkePostBattle:
-	.string "Your father really is strong.\n"
-	.string "He's a TRAINER worth my respect.\p"
-	.string "And, I sense the same glow coming\n"
-	.string "from you as your father.\p"
-	.string "I hope that you'll stage a terrific\n"
-	.string "battle with your father!$"
+	.string	"Nuestro LÍDER es muy fuerte.\n"
+	.string	"Es un ENTRENADOR muy respetado.\p"
+	.string	"Y tengo la impresión de que\n"
+	.string	"llegarás más lejos que él.\p"
+	.string	"¡Espero que ambos entabléis\n"
+	.string	"un gran combate!$"
 
 PetalburgCity_Gym_Text_BerkePostBadge:
-	.string "Since your dad became the LEADER,\n"
-	.string "the TRAINERS of PETALBURG CITY have\l"
-	.string "become a lot tougher.$"
+	.string	"Desde que NORMAN es el LÍDER,\n"
+	.string	"los ENTRENADORES de CIUDAD\l"
+	.string	"PETALIA son mucho más fuertes.$"
 
 PetalburgCity_Gym_Text_MaryIntro:
-	.string "Giggle…\n"
-	.string "This is the ACCURACY ROOM.\p"
-	.string "It's pretty nasty when every attack\n"
-	.string "lands without fail.$"
+	.string	"Ji, ji, ji…\n"
+	.string	"Ésta es la SALA de PRECISIÓN.\p"
+	.string	"A nuestros rivales no les sienta\n"
+	.string	"muy bien que todos los ataques\l"
+	.string	"den en el blanco.$"
 
 PetalburgCity_Gym_Text_MaryDefeat:
-	.string "You were a cut above me…$"
+	.string	"Eres muy superior a mí…$"
 
 PetalburgCity_Gym_Text_MaryPostBattle:
-	.string "There are some even stronger\n"
-	.string "TRAINERS waiting for you.\p"
-	.string "The left is the DEFENSE ROOM, and\n"
-	.string "the right is the RECOVERY ROOM.\p"
-	.string "Your POKéMON's ATTACK power will be\n"
-	.string "on trial either way.$"
+	.string	"Hay ENTRENADORES aún\n"
+	.string	"más fuertes esperándote.\p"
+	.string	"A la izquierda, está la SALA\n"
+	.string	"de DEFENSA y, a la derecha,\l"
+	.string	"la SALA de RECUPERACIÓN.\p"
+	.string	"Cualquiera de las dos pondrá\n"
+	.string	"a prueba el poder de ATAQUE\l"
+	.string	"de tus POKéMON.$"
 
 PetalburgCity_Gym_Text_MaryPostBadge:
-	.string "Do you know what we're trying to\n"
-	.string "achieve as TRAINERS?\p"
-	.string "We're striving to become soul mates\n"
-	.string "with our POKéMON.$"
+	.string	"¿Sabes lo que los ENTRENADORES\n"
+	.string	"queremos conseguir?\p"
+	.string	"¡Convertirnos en las almas\n"
+	.string	"gemelas de nuestros POKéMON!$"
 
 PetalburgCity_Gym_Text_AlexiaIntro:
-	.string "The higher the DEFENSE, the more\n"
-	.string "reckless I can be in attack.$"
+	.string	"Cuanto más alta es la DEFENSA,\n"
+	.string	"más implacable es mi ataque.$"
 
 PetalburgCity_Gym_Text_AlexiaDefeat:
-	.string "Our defenses weren't enough…$"
+	.string	"Nuestras defensas no han sido\n"
+	.string	"suficientes…$"
 
 PetalburgCity_Gym_Text_AlexiaPostBattle:
-	.string "I think you've taught me a valuable\n"
-	.string "lesson here.\p"
-	.string "Now, go on! The left door goes to\n"
-	.string "the STRENGTH ROOM.\p"
-	.string "The right door opens to\n"
-	.string "the ONE-HIT KO ROOM.\p"
-	.string "Both of them have TRAINERS who are\n"
-	.string "skilled at offense.$"
+	.string	"Creo que me has enseñado\n"
+	.string	"una valiosa lección.\p"
+	.string	"¡Sigue adelante! La puerta de la\n"
+	.string	"izquierda lleva a la SALA de FUERZA.\p"
+	.string	"La puerta de la derecha lleva\n"
+	.string	"a la SALA de K.O. INSTANTÁNEO.\p"
+	.string	"Los ENTRENADORES de ambas\n"
+	.string	"salas poseen habilidades ofensivas.$"
 
 PetalburgCity_Gym_Text_AlexiaPostBadge:
-	.string "Hi! Have you tried using SURF?$"
+	.string	"¡Hola! ¿Has probado a hacer SURF?$"
 
 PetalburgCity_Gym_Text_JodyIntro:
-	.string "Our GYM LEADER told us to go all out\n"
-	.string "and beat you.\p"
-	.string "Even if you happen to be the\n"
-	.string "LEADER's kid!$"
+	.string	"El LÍDER de nuestro GIMNASIO\n"
+	.string	"nos ha dicho que debemos vencerte.\p"
+	.string	"¡Da igual que vengas de fuera!$"
 
 PetalburgCity_Gym_Text_JodyDefeat:
-	.string "But… I went all out!$"
+	.string	"Pero si… ¡me has vencido!$"
 
 PetalburgCity_Gym_Text_JodyPostBattle:
-	.string "The way you use your POKéMON…\n"
-	.string "It's like your father's style.\p"
-	.string "Go on through! The GYM LEADER, your\n"
-	.string "father, is waiting!$"
+	.string	"Usas los POKéMON parecido\n"
+	.string	"a NORMAN.\p"
+	.string	"¡Venga! NORMAN, el LÍDER\n"
+	.string	"del GIMNASIO, te espera.$"
 
 PetalburgCity_Gym_Text_JodyPostBadge:
-	.string "Sure, it's fine to make your POKéMON\n"
-	.string "stronger.\p"
-	.string "But what decides the winner?\p"
-	.string "Why, it's the feelings TRAINERS have\n"
-	.string "for their POKéMON.$"
+	.string	"Sin duda es importante\n"
+	.string	"fortalecer tus POKéMON.\p"
+	.string	"Pero ¿qué distingue al vencedor?\p"
+	.string	"Está claro: los sentimientos que\n"
+	.string	"alberga hacia sus POKéMON.$"
 
 PetalburgCity_Gym_Text_DoorAppearsLocked:
 	.string "This door appears to be locked\n"
 	.string "right now…$"
 
 PetalburgCity_Gym_Text_EnterSpeedRoom:
-	.string "“SPEED ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"En el cartel pone: “SALA\n"
+	.string	"de VELOCIDAD”.\p"
+	.string	"¿Quieres entrar?$"
 
 @ Unused
 PetalburgCity_Gym_Text_DoorAppearsLocked2:
-	.string "This door appears to be locked\n"
-	.string "right now…$"
+	.string	"Parece que esta puerta está cerrada…$"
 
 PetalburgCity_Gym_Text_EnterAccuracyRoom:
-	.string "“ACCURACY ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"En el cartel pone: “SALA\n"
+	.string	"de PRECISIÓN”.\p"
+	.string	"¿Quieres entrar?$"
 
 PetalburgCity_Gym_Text_EnterConfusionRoom:
-	.string "“CONFUSION ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"En el cartel pone: “SALA\n"
+	.string	"de CONFUSIÓN”.\p"
+	.string	"¿Quieres entrar?$"
 
 PetalburgCity_Gym_Text_EnterDefenseRoom:
-	.string "“DEFENSE ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"En el cartel pone: “SALA\n"
+	.string	"de DEFENSA”.\p"
+	.string	"¿Quieres entrar?$"
 
 PetalburgCity_Gym_Text_EnterRecoveryRoom:
-	.string "“RECOVERY ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"En el cartel pone: “SALA\n"
+	.string	"de RECUPERACIÓN”.\p"
+	.string	"¿Quieres entrar?$"
 
 PetalburgCity_Gym_Text_EnterStrengthRoom:
-	.string "“STRENGTH ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"En el cartel pone: “SALA\n"
+	.string	"de FUERZA”.\p"
+	.string	"¿Quieres entrar?$"
 
 PetalburgCity_Gym_Text_EnterOHKORoom:
-	.string "“ONE-HIT KO ROOM,” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"En el cartel pone: “SALA\n"
+	.string	"de K.O. INSTANTÁNEO”.\p"
+	.string	"¿Quieres entrar?$"
 
 PetalburgCity_Gym_Text_EnterGymLeadersRoom:
-	.string "“GYM LEADER'S ROOM\p"
-	.string "“See for yourself what POKéMON await\n"
-	.string "you!” the sign says.\p"
-	.string "Do you want to go through?$"
+	.string	"“SALA del LÍDER del GIMNASIO”\p"
+	.string	"El cartel dice: “Comprueba por ti\n"
+	.string	"mismo qué POKéMON te espera”.\p"
+	.string	"¿Quieres entrar?$"
 
 PetalburgCity_Gym_Text_GymStatue:
-	.string "PETALBURG CITY POKéMON GYM$"
+	.string	"GIMNASIO POKéMON de CIUDAD PETALIA$"
 
 PetalburgCity_Gym_Text_GymStatueCertified:
-	.string "PETALBURG CITY POKéMON GYM\p"
-	.string "NORMAN'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string	"GIMNASIO POKéMON de CIUDAD PETALIA\p"
+	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
+	.string	"{PLAYER}$"
 
 PetalburgCity_Gym_Text_NormanPreRematch:
 	.string "DAD: {PLAYER}…\n"

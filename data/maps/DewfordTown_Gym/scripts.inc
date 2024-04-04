@@ -283,24 +283,27 @@ DewfordTown_Gym_EventScript_GymStatue::
 	end
 
 DewfordTown_Gym_Text_GymGuideAdvice:
-	.string "Hey, how's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "DEWFORD's GYM LEADER BRAWLY commands\n"
-	.string "FIGHTING-type POKéMON.\p"
-	.string "Going against him with NORMAL-type\n"
-	.string "POKéMON is asking for trouble.\p"
-	.string "FIGHTING POKéMON will lay a serious\n"
-	.string "smack down on NORMAL POKéMON,\l"
-	.string "so be careful!\p"
-	.string "What's worse, the GYM is as dark as\n"
-	.string "the ocean floor.\p"
-	.string "But it will get brighter after defeating\n"
-	.string "the TRAINERS in your way.\p"
-	.string "Hey, okay, go for it!$"
+	.string	"Eh, ¿así que {PLAYER}?\n"
+	.string	"¿Camino del CAMPEONATO?\p"
+	.string	"MARCIAL, el LÍDER del GIMNASIO\n"
+	.string	"de AZULIZA, usa POKéMON de tipo\l"
+	.string	"LUCHA.\p"
+	.string	"¡Si lo desafías con POKéMON de tipo\n"
+	.string	"NORMAL, acabarás mal!\p"
+	.string	"Los POKéMON de tipo LUCHA pueden\n"
+	.string	"acabar con los POKéMON de tipo NORMAL\l"
+	.string	"en un santiamén, así que ten cuidado…\p"
+	.string	"Y lo que es aún peor: el GIMNASIO\n"
+	.string	"está oscuro como boca de lobo.\p"
+	.string	"Pero se irá iluminando a medida\n"
+	.string	"que derrotes a los ENTRENADORES\l"
+	.string	"que te encuentres en tu camino.\p"
+	.string	"Bueno, ¡ve a por él!$"
 
 DewfordTown_Gym_Text_GymGuidePostVictory:
-	.string "Whoah! It's turned too bright in here!\p"
-	.string "Your future is bright, too!$"
+	.string	"¡Guau! ¡Ahora sí que hay luz\n"
+	.string	"para dar y tomar!\p"
+	.string	"¡Y tu futuro también parece brillante!$"
 
 DewfordTown_Gym_Text_TakaoIntro:
 	.string "¡Querer es poder! ¡Quiero derrotarte!$"
@@ -313,7 +316,7 @@ DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "técnica es insuperable!$"
 
 DewfordTown_Gym_Text_JocelynIntro:
-	.string "No es necesario molestar a Marcial… ¡Te\n"
+	.string "No es necesario molestar a MARCIAL… ¡Te\n"
 	.string "voy a aplastar!$"
 
 DewfordTown_Gym_Text_JocelynDefeat:
@@ -389,8 +392,8 @@ DewfordTown_Gym_Text_BrawlyDefeat:
 	.string "Take this GYM BADGE!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
-	.string "{PLAYER} received the KNUCKLE BADGE\n"
-	.string "from BRAWLY.$"
+	.string	"{PLAYER} recibió la MEDALLA PUÑO\n"
+	.string	"de MARCIAL.$"
 
 DewfordTown_Gym_Text_KnuckleBadgeInfoTakeThis:
 	.string "The KNUCKLE BADGE makes all POKéMON\n"
@@ -417,12 +420,12 @@ DewfordTown_Gym_Text_BrawlyPostBattle:
 	.string "among TRAINERS one day!$"
 
 DewfordTown_Gym_Text_GymStatue:
-	.string "DEWFORD TOWN POKéMON GYM$"
+	.string	"GIMNASIO POKéMON de PUEBLO AZULIZA$"
 
 DewfordTown_Gym_Text_GymStatueCertified:
-	.string "DEWFORD TOWN POKéMON GYM\p"
-	.string "BRAWLY'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string	"GIMNASIO POKéMON de PUEBLO AZULIZA\p"
+	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
+	.string	"{PLAYER}$"
 
 DewfordTown_Gym_Text_BrawlyPreRematch:
 	.string "BRAWLY: A wave may draw back, but it\n"

@@ -176,23 +176,23 @@ SootopolisCity_Gym_1F_EventScript_GymStatue::
 	end
 
 SootopolisCity_Gym_1F_Text_GymGuideAdvice:
-	.string "Yo! How's it going, CHAMPION-\n"
-	.string "bound {PLAYER}?\p"
-	.string "SOOTOPOLIS's GYM LEADER JUAN is\n"
-	.string "a master of WATER-type POKéMON.\p"
-	.string "And, to get to JUAN, an icy floor\n"
-	.string "will hamper your progress…\p"
-	.string "Listen, I'm sorry, but that's all the\n"
-	.string "advice that I have for you.\p"
-	.string "The rest of the way, you have to\n"
-	.string "go for it yourself!$"
+	.string	"Eh, ¿cómo lo llevas, {PLAYER}?\n"
+	.string	"¿Camino del CAMPEONATO?\p"
+	.string	"GALANO, el LÍDER del GIMNASIO\n"
+	.string	"de ARRECÍPOLIS es un maestro\l"
+	.string	"de los POKéMON de tipo AGUA.\p"
+	.string	"Y, si quieres llegar hasta GALANO,\n"
+	.string	"tendrás que superar un suelo helado.\p"
+	.string	"Lo siento, pero no puedo decirte más.\p"
+	.string	"¡El resto tendrás que descubrirlo tú!$"
 
 SootopolisCity_Gym_1F_Text_GymGuidePostVictory:
-	.string "Yow! You've beaten even JUAN, who\n"
-	.string "was supposedly the best in all HOENN!\p"
-	.string "Okay! Check out your TRAINER CARD.\p"
-	.string "If you've gotten all the BADGES, you're\n"
-	.string "set for the POKéMON LEAGUE challenge!$"
+	.string	"¡Guau! ¡Has vencido incluso a GALANO,\n"
+	.string	"que según dicen es el mejor de HOENN!\p"
+	.string	"Muy bien, comprueba tu FICHA\n"
+	.string	"de ENTRENADOR.\p"
+	.string	"Si tienes todas las MEDALLAS, puedes\n"
+	.string	"aceptar el desafío de la LIGA POKéMON.$"
 
 SootopolisCity_Gym_1F_Text_JuanIntro:
 	.string "Let me ask you.\n"
@@ -233,8 +233,8 @@ SootopolisCity_Gym_1F_Text_JuanDefeat:
 	.string "you with this, the RAIN BADGE!$"
 
 SootopolisCity_Gym_1F_Text_ReceivedRainBadge:
-	.string "{PLAYER} received the RAIN BADGE\n"
-	.string "from JUAN.$"
+	.string	"{PLAYER} recibió la MEDALLA LLUVIA\n"
+	.string	"de GALANO.$"
 
 SootopolisCity_Gym_1F_Text_ExplainRainBadgeTakeThis:
 	.string "Having the RAIN BADGE shall assure you\n"
@@ -275,12 +275,12 @@ SootopolisCity_Gym_1F_Text_GoGetFortreeBadge:
 	.string "BADGE from the GYM in FORTREE.$"
 
 SootopolisCity_Gym_1F_Text_GymStatue:
-	.string "SOOTOPOLIS CITY POKéMON GYM$"
+	.string	"GIMNASIO POKéMON de ARRECÍPOLIS$"
 
 SootopolisCity_Gym_1F_Text_GymStatueCertified:
-	.string "SOOTOPOLIS CITY POKéMON GYM\p"
-	.string "JUAN'S CERTIFIED TRAINERS:\n"
-	.string "{PLAYER}$"
+	.string	"GIMNASIO POKéMON de ARRECÍPOLIS\p"
+	.string	"NUEVOS ENTRENADORES CERTIFICADOS:\n"
+	.string	"{PLAYER}$"
 
 SootopolisCity_Gym_1F_Text_JuanPreRematch:
 	.string "JUAN: Ah, this GYM had returned to its\n"
