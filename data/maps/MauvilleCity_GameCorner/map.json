@@ -185,6 +185,13 @@
       "elevation": 3,
       "dest_map": "MAP_MAUVILLE_CITY",
       "dest_warp_id": 5
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_GAME_CORNER_MAUVILLE_HIDEOUT_S1",
+      "dest_warp_id": 2
     }
   ],
   "coord_events": [

@@ -61,25 +61,8 @@ LavaridgeTown_Gym_1F_EventScript_FlanneryDefeated::
 	message LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge
 	waitmessage
 	call Common_EventScript_PlayGymBadgeFanfare
-	msgbox LavaridgeTown_Gym_1F_Text_ExplainHeatBadgeTakeThis, MSGBOX_DEFAULT
 	setflag FLAG_WHITEOUT_TO_LAVARIDGE
-	setflag FLAG_DEFEATED_LAVARIDGE_GYM
-	setflag FLAG_BADGE04_GET
-	addvar VAR_PETALBURG_GYM_STATE, 1
-	call_if_eq VAR_PETALBURG_GYM_STATE, 6, Common_EventScript_ReadyPetalburgGymForBattle
-	setvar VAR_0x8008, 4
-	call Common_EventScript_SetGymTrainers
-	setflag FLAG_HIDE_VERDANTURF_TOWN_WANDAS_HOUSE_WALLY
-	setvar VAR_LAVARIDGE_TOWN_STATE, 1
-	call LavaridgeTown_Gym_1F_EventScript_GiveOverheat
-	closemessage
-	delay 30
-	playfanfare MUS_REGISTER_MATCH_CALL
-	msgbox LavaridgeTown_Gym_1F_Text_RegisteredFlannery, MSGBOX_DEFAULT
-	waitfanfare
-	closemessage
-	delay 30
-	setflag FLAG_ENABLE_FLANNERY_MATCH_CALL
+	setflag FLAG_UNUSED_9
 	release
 	end
 
@@ -300,31 +283,31 @@ LavaridgeTown_Gym_B1F_Text_EliPostBattle:
 	.string "perdido de CANDELA. ¡Je, je, je, je!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryIntro:
-	.string "Welcome… No, wait.\p"
-	.string "Puny TRAINER, how good to see you've\n"
-	.string "made it here!\p"
-	.string "I have been entrusted with the…\n"
-	.string "No, wait.\p"
-	.string "I am FLANNERY, and I'm the GYM\n"
-	.string "LEADER here!\p"
-	.string "Uh…\n"
-	.string "Dare not underestimate me, though\l"
-	.string "I have been LEADER only a short time!\p"
-	.string "With skills inherited from my grand-\n"
-	.string "father, I shall, uh…demonstrate the\l"
-	.string "hot moves we have honed on this land!$"
+	.string	"Hola… No, espera…\p"
+	.string	"¡Pareces alguien muy fuerte y\n"
+	.string	"experimentado!\p"
+	.string	"Me han confiado la tarea…\n"
+	.string	"No, espera…\p"
+	.string	"¡Yo soy CANDELA, la LÍDER\n"
+	.string	"de este GIMNASIO!\p"
+	.string	"Eh, esto…\n"
+	.string	"¡Acabo de ser nombrada LÍDER,\l"
+	.string	"pero llevo años entrenando!\p"
+	.string	"Gracias a las habilidades heredadas de\n"
+	.string	"mi abuelo, yo, esto… ¡demostraré que\l"
+	.string	"nuestra ardiente técnica no tiene par!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryDefeat:
-	.string "Oh…\n"
-	.string "I guess I was trying too hard…\p"
-	.string "I… I've only recently become\n"
-	.string "a GYM LEADER.\p"
-	.string "I tried too hard to be someone\n"
-	.string "I'm not.\p"
-	.string "I have to do things my natural way. If\n"
-	.string "I don't, my POKéMON will be confused.\p"
-	.string "Thanks for teaching me that.\n"
-	.string "For that, you deserve this.$"
+	.string	"Ooooh…\n"
+	.string	"Creo que no estaba preparada…\p"
+	.string	"Aunque soy LÍDER de GIMNASIO\n"
+	.string	"desde hace poco tiempo…\p"
+	.string	"Pensé que usando mi mejor equipo\n"
+	.string	"podía ganar…\p"
+	.string	"He ido con todo mi poder pero al\n"
+	.string	"final he acabado escaldada…\p"
+	.string	"Ni mi abuelo me ganó así.\n"
+	.string	"Toma, mereces esto.$"
 
 LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge:
 	.string	"{PLAYER} recibió la MEDALLA CALOR\n"
@@ -375,16 +358,15 @@ LavaridgeTown_Gym_1F_Text_FlanneryPreRematch:
 	.string "in another battle!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat:
-	.string "Whew!\n"
-	.string "On the verge of eruption!$"
+	.string	"¡Aaaaah!\n"
+	.string	"¡A punto estoy de estallar!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryPostRematch:
-	.string "FLANNERY: I lost the match,\n"
-	.string "but I'm completely satisfied.\p"
-	.string "It's not often I get to enjoy a battle\n"
-	.string "this heated.\p"
-	.string "Let's have another one like this\n"
-	.string "again sometime!$"
+	.string	"CANDELA: He perdido el combate,\n"
+	.string	"pero me siento muy satisfecha.\p"
+	.string	"No hay mucha gente que ponga\n"
+	.string	"tanto ardor en el combate como tú.\p"
+	.string	"¡Tenemos que luchar pronto otra vez!$"
 
 LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
 	.string "FLANNERY: Losing a battle isn't going\n"
@@ -398,3 +380,26 @@ LavaridgeTown_Gym_1F_Text_FlanneryRematchNeedTwoMons:
 	.string "that can battle?\p"
 	.string "I hate to say this, but when you come\n"
 	.string "see me, bring at least two POKéMON.$"
+
+
+LavaridgeTown_Gym_Combate_Candela::
+lock
+faceplayer
+goto_if_set FLAG_UNUSED_9, LavaridgeTown_Gym_Combate_Candela_Despues
+msgbox LavaridgeTown_Gym_1F_Text_FlanneryIntro MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ANDRA_1, LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat
+msgbox LavaridgeTown_Gym_1F_Text_FlanneryDefeat MSGBOX_AUTOCLOSE
+setflag FLAG_UNUSED_9
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge MSGBOX_DEFAULT
+waitfanfare
+msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostRematch MSGBOX_AUTOCLOSE
+release
+end
+
+LavaridgeTown_Gym_Combate_Candela_Despues::
+msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostRematch MSGBOX_AUTOCLOSE
+release
+end
+

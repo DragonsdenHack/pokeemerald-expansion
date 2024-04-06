@@ -22904,7 +22904,7 @@ static const struct TrainerMonItemCustomMoves sParty_Erico[] = {
 static const struct TrainerMonItemCustomMoves sParty_Candela[] = {
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 105,
     .species = SPECIES_NINETALES,
     .heldItem = ITEM_HEAT_ROCK,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -22913,7 +22913,7 @@ static const struct TrainerMonItemCustomMoves sParty_Candela[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 106,
     .species = SPECIES_ARCANINE,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -22922,7 +22922,7 @@ static const struct TrainerMonItemCustomMoves sParty_Candela[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 106,
     .species = SPECIES_MAGMORTAR,
     .heldItem = ITEM_POWER_HERB,
     .evs = {252, 0, 128, 0, 0, 128},
@@ -22931,7 +22931,7 @@ static const struct TrainerMonItemCustomMoves sParty_Candela[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 107,
     .species = SPECIES_CAMERUPT,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -22940,7 +22940,7 @@ static const struct TrainerMonItemCustomMoves sParty_Candela[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 108,
     .species = SPECIES_BLAZIKEN,
     .heldItem = ITEM_BLAZIKENITE,
     .evs = {60, 252, 60, 252, 60, 60},
@@ -22949,7 +22949,7 @@ static const struct TrainerMonItemCustomMoves sParty_Candela[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 109,
     .species = SPECIES_TORKOAL,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {120, 120, 120, 252, 120, 252},
