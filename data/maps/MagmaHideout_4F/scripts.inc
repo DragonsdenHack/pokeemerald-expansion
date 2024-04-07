@@ -230,3 +230,65 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
 	.string "any need for this blasted volcano.\p"
 	.string "I am going after GROUDON, so this\n"
 	.string "is where we part!$"
+
+MagmaHideout_4F_Encuentro_Amatista::
+lock
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_6 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_7 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_8 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_9 MSGBOX_AUTOCLOSE
+msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_1:
+	.string "????: Así que {PLAYER}.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_2:
+	.string "Después de lo ocurrido en LAVANDA,\n"
+	.string "todos los altos cargos de DEVON\l"
+	.string "sabemos quién eres.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_3:
+	.string "Fue interesante ver cómo pudiste\n"
+	.string "sobrevivir a ese poder descontrolado,\l"
+	.string "incluso nuestro PRESIDENTE llegó a\l"
+	.string "fruncir el ceño ante tal espectáculo.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_4:
+	.string "Ver a vuestros FUERTE VÍNCULO en\n"
+	.string "acción fue curioso, pero… dedicar todo\l"
+	.string "tu ser a un único POKÉMON acaba siendo\l"
+	.string "un impedimento para alcanzar la plena\l"
+	.string "excelencia en un combate.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_5:
+	.string "Por eso tu amiga perdió ante mí.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_6:
+	.string "Entiendo que estás aquí por GROUDON, y\n"
+	.string "su forma PRIMIGENIA.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_7:
+	.string "Lo que podáis hacer aquí no nos\n"
+	.string "preocupa, ahora mismo vamos tras cosas\l"
+	.string "más grandes. Solo pasé por aquí por si…\l"
+	.string "había algo más profundo dentro de esta\l"
+	.string "cueva.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_8:
+	.string "La mayoría pasa por alto los lugares\n"
+	.string "más importantes de una región, que\l"
+	.string "permanecen ocultos, tú debes saberlo\l"
+	.string "de primera mano.$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_9:
+	.string "… …$"
+
+MagmaHideout_4F_Encuentro_Amatista_Texto_10:
+	.string "Este no parece el caso.$"

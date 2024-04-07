@@ -127,3 +127,16 @@ VerdanturfTown_Text_RusturfTunnelSign:
 	.string	"El proyecto de construcción del\n"
 	.string	"túnel ha sido cancelado.”$"
 
+VerdanturfTown_Policia_Bloqueo::
+lock
+faceplayer
+msgbox VerdanturfTown_Policia_Bloqueo_Texto_1 MSGBOX_NPC
+release
+end
+
+VerdanturfTown_Policia_Bloqueo_Texto_1:
+	.string "Se está terminado la construcción del\n"
+	.string "TÚNEL FERDEGAL. Una vez esté, podrás\l"
+	.string "llegar a CIUDAD FÉRRICA rápidamente\l"
+	.string "desde aquí, ¿no es genial?$"
+

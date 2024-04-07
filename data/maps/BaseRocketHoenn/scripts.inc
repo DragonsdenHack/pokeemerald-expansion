@@ -2417,4 +2417,5 @@ BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5:
 	.string "Le recomiendo pasarse por ahí. Yo\n"
 	.string "estaré guardando sus puertas,\l"
 	.string "disponible para lo que me necesite SIR.$"
-	
+
+

@@ -655,3 +655,30 @@ MauvilleCity_Text_ExplainTV:
 
 MauvilleCity_Text_BeenCheckingOutTV:
 	.string "Hola. ¿Has estado viendo la tele?$"
+
+MauvilleCity_Devon_Malvalanova::
+lock
+msgbox MauvilleCity_Devon_Malvalanova_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_Devon_Malvalanova_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+MauvilleCity_Devon_Malvalanova_Texto_1:
+	.string "Gracias por su colaboración.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_2:
+	.string "ERICO: No hay de qué, todos aquí\n"
+	.string "estamos muy agradecidos con DEVON.\l"
+	.string "Esta región no sería la misma sin todos\l"
+	.string "vuestros avances.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_3:
+	.string "Cuando terminemos las operaciones en\n"
+	.string "MALVALANOVA, le avisaremos.$"
+
+MauvilleCity_Devon_Malvalanova_Texto_4:
+	.string "ERICO: No hay prisa, estaré en mi\n"
+	.string "GIMNASIO para cualquier cosa que\l"
+	.string "necesitéis.$"

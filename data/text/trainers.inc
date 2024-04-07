@@ -17727,6 +17727,65 @@ MtChimney_Text_PrimerCientificoPostBattle:
 	.string "esta expedición no son de dominio\l"
 	.string "público.$"
 
+GameCorner_Mauville_Text_PrimerDomadorIntro:
+	.string "¿Te acaban de contratar? ¿Qué haces\n"
+	.string "aquí entonces?$"
+
+GameCorner_Mauville_Text_PrimerDomadorDefeat:
+	.string "¡Ouch! ¡Qué poder!$"
+
+GameCorner_Mauville_Text_PrimerDomadorPostBattle:
+	.string "¿DEVON? ¿De qué me estás hablando?$"
+
+GameCorner_Mauville_Text_SegundoDomadorIntro:
+	.string "¡Estás fuera de límites! ¡Da media\n"
+	.string "vuelta!$"
+
+GameCorner_Mauville_Text_SegundoDomadorDefeat:
+	.string "¡No pude hacer nada!$"
+
+GameCorner_Mauville_Text_SegundoDomadorPostBattle:
+	.string "Nuestra actual superior tuvo un pasado\n"
+	.string "ligado a la mafia, yo de ti me dejaba de\l"
+	.string "tonterías.$"
+
+GameCorner_Mauville_Text_PrimerPoliciaIntro:
+	.string "El CASINO está en buenas manos. Nadie\n"
+	.string "debe pasar de este punto.$"
+
+GameCorner_Mauville_Text_PrimerPoliciaDefeat:
+	.string "¡He fracasado!$"
+
+GameCorner_Mauville_Text_PrimerPoliciaPostBattle:
+	.string "Nuestra LÍDER es muy estricta. Que\n"
+	.string "haya perdido con tanta facilidad no le\l"
+	.string "va a gustar…$"
+
+GameCorner_Mauville_Text_SegundoPoliciaIntro:
+	.string "¡Seguridad! ¡Ni un paso más! ¡Manos\n"
+	.string "arriba!$"
+
+GameCorner_Mauville_Text_SegundoPoliciaDefeat:
+	.string "¡No! ¡He quedado en ridículo!$"
+
+GameCorner_Mauville_Text_SegundoPoliciaPostBattle:
+	.string "Se supone que mi trabajo es evitar que\n"
+	.string "gente como tú campe a sus anchas. Como\l"
+	.string "mañana me encuentre el finiquito en la\l"
+	.string "mesa será culpa tuya.$"
+
+GameCorner_Mauville_Text_PrimerElectricistaIntro:
+	.string "No sé quien eres, pero he acabado mi\n"
+	.string "turno y estoy aburrido. ¡Pelea!$"
+
+GameCorner_Mauville_Text_PrimerElectricistaDefeat:
+	.string "¡Espera! ¡Me rindo!$"
+
+GameCorner_Mauville_Text_PrimerElectricistaPostBattle:
+	.string "Solo he visto un poder parecido al tuyo\n"
+	.string "una vez: con los POKÉMON de nuestra\l"
+	.string "superior.$"
+
 
 
 

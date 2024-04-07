@@ -263,3 +263,26 @@ JaggedPass_Text_AutumnPostBattle:
 	.string "¿Qué será esa extraña protuberancia\n"
 	.string "rocosa que hay arriba de la colina?$"
 
+JaggedPass_Encuentro_Magno::
+lock
+msgbox JaggedPass_Encuentro_Magno_Texto_1 MSGBOX_AUTOCLOSE
+msgbox JaggedPass_Encuentro_Magno_Texto_2 MSGBOX_AUTOCLOSE
+msgbox JaggedPass_Encuentro_Magno_Texto_3 MSGBOX_AUTOCLOSE
+msgbox JaggedPass_Encuentro_Magno_Texto_4 MSGBOX_AUTOCLOSE
+release
+end
+
+JaggedPass_Encuentro_Magno_Texto_1:
+	.string "MAGNO: Al fin… llegó la hora GROUDON.$"
+
+JaggedPass_Encuentro_Magno_Texto_2:
+	.string "Tenemos todo para montar aquí nuestra\n"
+	.string "base y planear desde aquí tu retorno.$"
+
+JaggedPass_Encuentro_Magno_Texto_3:
+	.string "Humm… tú… ¿te he visto antes?$"
+
+JaggedPass_Encuentro_Magno_Texto_4:
+	.string "… No importa. GROUDON y la ESFERA AZUL\n"
+	.string "esperan.$"
+

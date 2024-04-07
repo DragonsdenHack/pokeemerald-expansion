@@ -110,8 +110,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MauvilleCity_EventScript_Wally",
-      "flag": "FLAG_HIDE_MAUVILLE_CITY_WALLY"
+      "script": "MauvilleCity_Devon_Malvalanova",
+      "flag": "FLAG_HOENN_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_2",
@@ -123,8 +123,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MauvilleCity_EventScript_WallysUncle",
-      "flag": "FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE"
+      "script": "MauvilleCity_Devon_Malvalanova",
+      "flag": "FLAG_HOENN_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WATTSON",
@@ -136,8 +136,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MauvilleCity_EventScript_Wattson",
-      "flag": "FLAG_HIDE_MAUVILLE_CITY_WATTSON"
+      "script": "MauvilleCity_Devon_Malvalanova",
+      "flag": "FLAG_HOENN_2"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ITEM_BALL",

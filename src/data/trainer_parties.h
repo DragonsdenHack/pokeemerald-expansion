@@ -22847,7 +22847,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marcial[] = {
 static const struct TrainerMonItemCustomMoves sParty_Erico[] = {
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 106,
     .species = SPECIES_MANECTRIC,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {60, 60, 60, 252, 252, 60},
@@ -22856,7 +22856,7 @@ static const struct TrainerMonItemCustomMoves sParty_Erico[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 107,
     .species = SPECIES_AMPHAROS,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -22865,7 +22865,7 @@ static const struct TrainerMonItemCustomMoves sParty_Erico[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 108,
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_AIR_BALLOON,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -22874,7 +22874,7 @@ static const struct TrainerMonItemCustomMoves sParty_Erico[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 107,
     .species = SPECIES_ELECTRODE,
     .heldItem = ITEM_LIGHT_CLAY,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -22883,7 +22883,7 @@ static const struct TrainerMonItemCustomMoves sParty_Erico[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 108,
     .species = SPECIES_RAICHU,
     .heldItem = ITEM_LIFE_ORB,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -22892,7 +22892,7 @@ static const struct TrainerMonItemCustomMoves sParty_Erico[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 110,
     .species = SPECIES_MANECTRIC,
     .heldItem = ITEM_MANECTITE,
     .evs = {120, 120, 120, 252, 252, 120},
@@ -36321,18 +36321,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER579[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER580[] = {
     {
     .iv = 0,
-    .lvl = 87,
+    .lvl = 95,
     .species = SPECIES_HARIYAMA,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_DODRIO,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 97,
+    .species = SPECIES_ALAKAZAM,
     }
     
 };
@@ -36340,17 +36340,12 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER580[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER581[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 99,
+    .species = SPECIES_MUK,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
+    .lvl = 99,
     .species = SPECIES_MACHAMP,
     }
     
@@ -36359,18 +36354,23 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER581[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER582[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 96,
+    .species = SPECIES_MAGNETON,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 98,
+    .species = SPECIES_LUNATONE,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 98,
+    .species = SPECIES_ALAKAZAM,
+    },
+    {
+    .iv = 0,
+    .lvl = 100,
+    .species = SPECIES_MAGNEZONE,
     }
     
 };
@@ -36378,18 +36378,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER582[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER583[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 98,
+    .species = SPECIES_MANECTRIC,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 99,
+    .species = SPECIES_BLAZIKEN,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 100,
+    .species = SPECIES_SALAMENCE,
     }
     
 };
@@ -36397,18 +36397,18 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER583[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER584[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 97,
+    .species = SPECIES_LINOONE,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 98,
+    .species = SPECIES_NINETALES,
     },
     {
     .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 99,
+    .species = SPECIES_SLAKING,
     }
     
 };
@@ -36416,18 +36416,13 @@ static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER584[] = {
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER585[] = {
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .lvl = 100,
+    .species = SPECIES_ELECTABUZZ,
     },
     {
     .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
-    },
-    {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .lvl = 100,
+    .species = SPECIES_AMPHAROS,
     }
     
 };

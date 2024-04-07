@@ -702,19 +702,19 @@ MtChimney_Text_Bushaa:
 	.string "Bushaa!$"
 
 MtChimney_Text_LavaCookiesJust200:
-	.string "LAVA COOKIES are MT. CHIMNEY's local\n"
-	.string "specialty.\p"
-	.string "Try one. It's just ¥200.$"
+	.string	"Las GALLETAS LAVA son la especialidad\n"
+	.string	"del MONTE CENIZO.\p"
+	.string	"Prueba una. Son sólo 200¥.$"
 
 MtChimney_Text_ThankYouDear:
-	.string "Thank you, dear!$"
+	.string	"¡Muchas gracias!$"
 
 MtChimney_Text_YouveNotGotTheMoney:
-	.string "Oh, dear. You can't buy a thing if\n"
-	.string "you've not got the money.$"
+	.string	"Pero vamos a ver: si no tienes dinero,\n"
+	.string	"no puedes comprar nada de nada.$"
 
 MtChimney_Text_OhFineThen:
-	.string "Oh, fine then.$"
+	.string	"Bueno. Tú te lo pierdes…$"
 
 MtChimney_Text_MetoriteFittedOnMachine:
 	.string "A METEORITE is fitted on a mysterious\n"
@@ -859,4 +859,175 @@ MtChimney_EventScript_Primer_Cientifico::
 	trainerbattle_single TRAINER_TRAINER_565, MtChimney_Text_PrimerCientificoIntro, MtChimney_Text_PrimerCientificoDefeat
 	msgbox MtChimney_Text_PrimerCientificoPostBattle, MSGBOX_AUTOCLOSE
 	end
+
+MtChimney_NPC5_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC5_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC5_Cientifico_Texto_1:
+	.string "Algunos meteoritos de la CASCADA\n"
+	.string "METEORO tienen propiedades\l"
+	.string "asombrosas, podrían calmar o hacer\l"
+	.string "estallar un volcán como este.$"
+
+MtChimney_NPC16_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC16_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC16_Cientifico_Texto_1:
+	.string "La principal razón por la que estamos\n"
+	.string "aquí no puede revelarse al público. ¿Por\l"
+	.string "qué te digo esto? Nadie te hará caso de\l"
+	.string "todos modos.$"
+
+
+MtChimney_NPC19_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC19_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC19_Cientifico_Texto_1:
+	.string "En lo profundo de este lugar duerme\n"
+	.string "GROUDON, aunque ya no es ningún\l"
+	.string "misterio para DEVON.$"
+
+MtChimney_NPC29_Cientifico::
+lock
+faceplayer
+msgbox MtChimney_NPC29_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC29_Cientifico_Texto_1:
+	.string "Me pregunto qué pasaría si arrojáramos\n"
+	.string "al volcán todo el combustible para\l"
+	.string "cohetes de la ESTACIÓN ESPACIAL…$"
+
+MtChimney_NPC10_Policia::
+lock
+faceplayer
+msgbox MtChimney_NPC10_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+MtChimney_NPC10_Policia_Texto_1:
+	.string "Estamos haciendo pruebas en la cima del\n"
+	.string "volcán, hasta entonces los pasos están\l"
+	.string "cortados.$"
+
+MtChimney_Doctor_Rasmus::
+lock
+msgbox MtChimney_Doctor_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_13 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_14 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_15 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_16 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
+msgbox MtChimney_Doctor_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+release
+end
+
+MtChimney_Doctor_Rasmus_Texto_1:
+	.string "(???? arrojó algo al volcán)$"
+
+MtChimney_Doctor_Rasmus_Texto_2:
+	.string "Esta es la última prueba, 3 minutos\n"
+	.string "serán suficientes para ver cómo\l"
+	.string "reacciona.$"
+
+MtChimney_Doctor_Rasmus_Texto_3:
+	.string "… …$"
+
+MtChimney_Doctor_Rasmus_Texto_4:
+	.string "Ningún ENTRENADOR de por aquí debería\n"
+	.string "ser capaz de burlar nuestra seguridad,\l"
+	.string "menos aún de ir en contra de DEVON,\l"
+	.string "¿quién eres tú?$"
+
+MtChimney_Doctor_Rasmus_Texto_5:
+	.string "… …$"
+
+MtChimney_Doctor_Rasmus_Texto_6:
+	.string "Entonces eres ese ADMIN ROCKET, no es\n"
+	.string "que sea muy inteligente exponerte tan\l"
+	.string "fácilmente después de derrotar a\l"
+	.string "nuestros ADMIN. RUBÍ y ZAFIRO. Debes\l"
+	.string "tener plena confianza en tus POKÉMON.$"
+
+MtChimney_Doctor_Rasmus_Texto_7:
+	.string "… …$"
+
+MtChimney_Doctor_Rasmus_Texto_8:
+	.string "¿Quieres saber qué hacemos aquí? …\n"
+	.string "¿GROUDON?$"
+
+MtChimney_Doctor_Rasmus_Texto_9:
+	.string "Chico, hace años que sabemos todo\n"
+	.string "sobre GROUDON. Es más, dominamos\l"
+	.string "también su forma PRIMIGENIA.$"
+
+MtChimney_Doctor_Rasmus_Texto_10:
+	.string "No, la realidad es que he venido hasta\n"
+	.string "aquí para realizar unas pruebas\l"
+	.string "prácticas, observa.$"
+
+MtChimney_Doctor_Rasmus_Texto_11:
+	.string "¿Te suena ese POKÉMON? Es un\n"
+	.string "BLACEPHALON. Debería sonarte, alguien\l"
+	.string "como tú seguro que ya ha tenido\l"
+	.string "contacto con algún ULTRAENTE.$"
+
+MtChimney_Doctor_Rasmus_Texto_12:
+	.string "Lo he arrojado al volcán para ver cómo\n"
+	.string "reacciona su cuerpo.$"
+
+MtChimney_Doctor_Rasmus_Texto_13:
+	.string "¿Así que te parece una crueldad?$"
+
+MtChimney_Doctor_Rasmus_Texto_14:
+	.string "No seas hipócrita, ADMIN. ROCKET.\n"
+	.string "Vosotros hacéis exactamente lo mismo\l"
+	.string "con las ondas de radio.$"
+
+MtChimney_Doctor_Rasmus_Texto_15:
+	.string "A estas alturas deberías saber que el\n"
+	.string "verdadero poder surge de una\l"
+	.string "necesidad. No hay nada que estimule más\l"
+	.string "el potencial de un POKÉMON que\l"
+	.string "exponerlo a situaciones límite.$"
+
+MtChimney_Doctor_Rasmus_Texto_16:
+	.string "(???? recogió al BLACEPHALON\n"
+	.string "debilitado)$"
+
+MtChimney_Doctor_Rasmus_Texto_17:
+	.string "Por eso mismo estás aquí, de no ser por\n"
+	.string "las situaciones límite a las que LANCE\l"
+	.string "llevó KANTO, esta versión que ves hoy\l"
+	.string "de ti no existiría. Tampoco los POKÉMON\l"
+	.string "que te acompañan.$"
+
+MtChimney_Doctor_Rasmus_Texto_18:
+	.string "Te hubieras quedado criando SENTRET en\n"
+	.string "esa lejana isla, ¿no es ese destino más\l"
+	.string "cruel?$"
 

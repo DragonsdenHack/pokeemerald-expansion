@@ -49,7 +49,7 @@
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "2",
+      "trainer_sight_or_berry_tree_id": "4",
       "script": "MtChimney_EventScript_Primer_Cientifico",
       "flag": "FLAG_HOENN_1"
     },
@@ -76,7 +76,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtChimney_EventScript_BusyMagmaGrunt4",
+      "script": "MtChimney_NPC5_Cientifico",
       "flag": "FLAG_HOENN_1"
     },
     {
@@ -89,7 +89,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtChimney_EventScript_BusyAquaGrunt2",
+      "script": "MtChimney_NPC10_Policia",
       "flag": "FLAG_HOENN_1"
     },
     {
@@ -141,7 +141,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtChimney_EventScript_BusyMagmaGrunt6",
+      "script": "MtChimney_NPC10_Policia",
       "flag": "FLAG_HOENN_1"
     },
     {
@@ -219,7 +219,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtChimney_EventScript_BusyMagmaGrunt3",
+      "script": "MtChimney_NPC16_Cientifico",
       "flag": "FLAG_HOENN_1"
     },
     {
@@ -230,8 +230,8 @@
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "2",
       "script": "MtChimney_EventScript_Segundo_Policia",
       "flag": "FLAG_HOENN_1"
     },
@@ -243,8 +243,8 @@
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 0,
       "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "3",
       "script": "MtChimney_EventScript_Primer_Policia",
       "flag": "FLAG_HOENN_1"
     },
@@ -258,7 +258,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "MtChimney_EventScript_MagmaPoochyena",
+      "script": "MtChimney_NPC19_Cientifico",
       "flag": "FLAG_HOENN_1"
     },
     {
@@ -386,9 +386,9 @@
       "movement_type": "MOVEMENT_TYPE_WANDER_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 1,
-      "trainer_type": "TRAINER_TYPE_NORMAL",
-      "trainer_sight_or_berry_tree_id": "3",
-      "script": "MtChimney_EventScript_Grunt1",
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "MtChimney_NPC29_Cientifico",
       "flag": "FLAG_HOENN_1"
     },
     {
@@ -436,7 +436,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 9,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "MtChimney_Doctor_Rasmus"
+    }
   ],
   "bg_events": [
     {

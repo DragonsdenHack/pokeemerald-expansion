@@ -336,23 +336,24 @@ MauvilleCity_Gym_Text_AngeloPostBattle:
 	.string "brilla la frente un montón. ¡Es genial!$"
 
 MauvilleCity_Gym_Text_WattsonIntro:
-	.string "I've given up on my plans to convert\n"
-	.string "the city, I have.\p"
-	.string "And so, I put my time into making\n"
-	.string "door traps in my GYM.\p"
-	.string "Oh? Now, what are you doing here?\p"
-	.string "What's that? You say you've gotten\n"
-	.string "past all my rigged doors?\p"
-	.string "Wahahahah!\n"
-	.string "Now, that is amusing!\p"
-	.string "Then, I, WATTSON, the LEADER of\n"
-	.string "MAUVILLE GYM, shall electrify you!$"
+	.string	"He abandonado mis planes de\n"
+	.string	"remodelación urbanística…\p"
+	.string	"Y me he dedicado a instalar trampas\n"
+	.string	"eléctricas en mi GIMNASIO.\p"
+	.string	"Y tú ¿qué haces aquí?\p"
+	.string	"¿Cómo? ¿Que has conseguido burlar\n"
+	.string	"todas las puertas amañadas?\p"
+	.string	"¡Jua, jua, jua!\n"
+	.string	"¡Tienes madera!\p"
+	.string	"¡Pues ahora yo, ERICO, LÍDER\n"
+	.string	"del GIMNASIO de MALVALONA,\l"
+	.string	"te voy a dar una buena descarga!$"
 
 MauvilleCity_Gym_Text_WattsonDefeat:
-	.string "Wahahahah!\n"
-	.string "Fine, I lost!\p"
-	.string "You ended up giving me a thrill!\n"
-	.string "Take this BADGE!$"
+	.string	"¡Jua, jua, jua!\n"
+	.string	"¡Vale, he perdido!\p"
+	.string	"Ha sido un combate emocionante.\n"
+	.string	"¡Toma esta MEDALLA!$"
 
 MauvilleCity_Gym_Text_ReceivedDynamoBadge:
 	.string	"{PLAYER} recibió la MEDALLA DINAMO\n"
@@ -377,8 +378,8 @@ MauvilleCity_Gym_Text_RegisteredWattson:
 	.string "in the POKéNAV.$"
 
 MauvilleCity_Gym_Text_WattsonPostBattle:
-	.string "I swell with optimism, seeing a promising\n"
-	.string "young TRAINER like you!$"
+	.string	"¡Ver a una joven promesa como tú\n"
+	.string	"me llena de confianza en el futuro!$"
 
 MauvilleCity_Gym_Text_WattsonGoForthAndEndeavor:
 	.string "Wahahahah!\n"
@@ -401,8 +402,8 @@ MauvilleCity_Gym_Text_WattsonPreRematch:
 	.string "Don't say I didn't warn you!$"
 
 MauvilleCity_Gym_Text_WattsonRematchDefeat:
-	.string "Oof…\n"
-	.string "Our batteries ran dry…$"
+	.string	"Uf…\n"
+	.string	"Me he quedado sin pilas…$"
 
 MauvilleCity_Gym_Text_WattsonPostRematch:
 	.string "WATTSON: We'll have to recharge our\n"
@@ -421,4 +422,26 @@ MauvilleCity_Gym_Text_WattsonRematchNeedTwoMons:
 	.string "You've only one POKéMON with you!\p"
 	.string "Come see me with two or more\n"
 	.string "POKéMON, all right?$"
+
+MauvilleCity_Gym_Combate_Erico::
+lock
+faceplayer
+goto_if_set FLAG_UNUSED_8, MauvilleCity_Gym_Combate_Erico_Despues
+msgbox MauvilleCity_Gym_Text_WattsonIntro
+trainerbattle_no_intro TRAINER_ANDRA_1, MauvilleCity_Gym_Text_WattsonRematchDefeat
+msgbox MauvilleCity_Gym_Text_WattsonDefeat MSGBOX_AUTOCLOSE
+setflag FLAG_UNUSED_8
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox MauvilleCity_Gym_Text_ReceivedDynamoBadge MSGBOX_DEFAULT
+waitfanfare
+msgbox MauvilleCity_Gym_Text_WattsonPostBattle MSGBOX_AUTOCLOSE
+release
+end
+
+MauvilleCity_Gym_Combate_Erico_Despues::
+lock
+msgbox MauvilleCity_Gym_Text_WattsonPostBattle MSGBOX_AUTOCLOSE
+release
+end
 
