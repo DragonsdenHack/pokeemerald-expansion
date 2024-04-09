@@ -40,8 +40,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_TWIN",
-      "x": 2,
-      "y": 14,
+      "x": 6,
+      "y": 13,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 1,
@@ -67,7 +67,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMPER",
       "x": 9,
-      "y": 6,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_WANDER_LEFT_AND_RIGHT",
       "movement_range_x": 1,
@@ -80,7 +80,7 @@
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
       "x": 7,
-      "y": 6,
+      "y": 4,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
@@ -88,20 +88,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "VerdanturfTown_Policia_Bloqueo",
-      "flag": "0"
-    },
-    {
-      "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
-      "x": 14,
-      "y": 11,
-      "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
-      "movement_range_x": 0,
-      "movement_range_y": 0,
-      "trainer_type": "TRAINER_TYPE_NONE",
-      "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_8"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_M",
@@ -114,12 +101,12 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_5"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_WALLY",
       "x": 15,
-      "y": 9,
+      "y": 10,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -127,11 +114,11 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_5"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ZINNIA",
-      "x": 13,
+      "x": 12,
       "y": 7,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
@@ -140,7 +127,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_5"
     }
   ],
   "warp_events": [
@@ -166,7 +153,7 @@
       "dest_warp_id": 0
     },
     {
-      "x": 10,
+      "x": 11,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_WANDAS_HOUSE",
@@ -174,13 +161,13 @@
     },
     {
       "x": 7,
-      "y": 5,
+      "y": 3,
       "elevation": 0,
       "dest_map": "MAP_RUSTURF_TUNNEL",
       "dest_warp_id": 1
     },
     {
-      "x": 4,
+      "x": 3,
       "y": 13,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_FRIENDSHIP_RATERS_HOUSE",
@@ -188,19 +175,27 @@
     },
     {
       "x": 17,
-      "y": 17,
+      "y": 14,
       "elevation": 0,
       "dest_map": "MAP_VERDANTURF_TOWN_HOUSE",
       "dest_warp_id": 0
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 5,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "VerdanturfTown_Escena_Tristana"
+    }
   ],
   "bg_events": [
     {
       "type": "sign",
-      "x": 14,
+      "x": 12,
       "y": 3,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
@@ -209,7 +204,7 @@
     {
       "type": "sign",
       "x": 13,
-      "y": 4,
+      "y": 10,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "VerdanturfTown_EventScript_TownSign"
@@ -224,8 +219,8 @@
     },
     {
       "type": "sign",
-      "x": 7,
-      "y": 13,
+      "x": 9,
+      "y": 14,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "VerdanturfTown_EventScript_WandasHouseSign"
@@ -256,8 +251,8 @@
     },
     {
       "type": "sign",
-      "x": 7,
-      "y": 3,
+      "x": 6,
+      "y": 5,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
       "script": "VerdanturfTown_EventScript_RusturfTunnelSign"

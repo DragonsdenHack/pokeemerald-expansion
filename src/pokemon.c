@@ -7637,6 +7637,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_EUSINE:
             return 632;
         case TRAINER_CLASS_DEVON_CIENTIFICO:
+        case TRAINER_CLASS_POLICIA_DEVON:
             return 636;
         case TRAINER_CLASS_MIGUEL_2:
             return 629;
@@ -7776,6 +7777,7 @@ u16 GetBattleBGM(void)
         case TRAINER_CLASS_CAMPER:
         case TRAINER_CLASS_PICNICKER:
         case TRAINER_CLASS_POLICIAHOENN:
+        case TRAINER_CLASS_ELECTRICISTA_HOENN:
             return 476;
         case TRAINER_CLASS_SALVAJE:
             return 581;

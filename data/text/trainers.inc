@@ -17786,6 +17786,64 @@ GameCorner_Mauville_Text_PrimerElectricistaPostBattle:
 	.string "una vez: con los POKÉMON de nuestra\l"
 	.string "superior.$"
 
+NewMauville_Inside_Text_PrimerCientificoIntro:
+	.string "Estamos haciendo pruebas a puerta\n"
+	.string "cerrada, ¿cómo has entrado?$"
+
+NewMauville_Inside_Text_PrimerCientificoDefeat:
+	.string "¡Me he electrocutado!$"
+
+NewMauville_Inside_Text_PrimerCientificoPostBattle:
+	.string "Este lugar es peligroso, solo un necio\n"
+	.string "entraría aquí por placer.$"
+
+NewMauville_Inside_Text_SegundoCientificoIntro:
+	.string "¡Espera! ¡A ti te vi en el MONTE CENIZO!\n"
+	.string "¿Nos estás siguiendo?$"
+
+NewMauville_Inside_Text_SegundoCientificoDefeat:
+		.string "¡Nos estás siguiendo!$"
+
+NewMauville_Inside_Text_SegundoCientificoPostBattle:
+	.string "Debes de ser ese alto cargo del TEAM\n"
+	.string "ROCKET, ¿me equivoco?$"
+
+NewMauville_Inside_Text_PrimerPoliciaIntro:
+	.string "MALVALONA ha dado a DEVON las llaves de\n"
+	.string "este lugar, deberías colaborar como\l"
+	.string "ellos.$"
+
+NewMauville_Inside_Text_PrimerPoliciaDefeat:
+	.string "Insolidario…$"
+
+NewMauville_Inside_Text_PrimerPoliciaPostBattle:
+	.string "El mundo de las grandes empresas se\n"
+	.string "mueve por contactos e intereses.$"
+
+NewMauville_Inside_Text_SegundoPoliciaIntro:
+	.string "Los datos que nuestro DOCTOR saque de\n"
+	.string "aqui harán que DEVON crezca. Si DEVON\l"
+	.string "crece, ¡HOENN también crecerá!$"
+
+NewMauville_Inside_Text_SegundoPoliciaDefeat:
+	.string "¡Rata de KANTO!$"
+
+NewMauville_Inside_Text_SegundoPoliciaPostBattle:
+	.string "Ahora lo entiendo, tú no eres de HOENN.$"
+
+NewMauville_Inside_Text_TercerCientificoIntro:
+	.string "El propósito por el que estamos aquí es\n"
+	.string "muy distinto al que oficialmente hemos\l"
+	.string "alegado.$"
+
+NewMauville_Inside_Text_TercerCientificoDefeat:
+	.string "Nadie lo sabrá…$"
+
+NewMauville_Inside_Text_TercerCientificoPostBattle:
+	.string "Cuidar la imagen de nuestra empresa es\n"
+	.string "una tarea difícil, hay que quedar bien\l"
+	.string "con mucha gente.$"
+
 
 
 

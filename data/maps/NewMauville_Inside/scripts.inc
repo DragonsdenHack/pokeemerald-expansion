@@ -261,3 +261,160 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "… … … … … … … …\p"
 	.string "The generator appears to have\n"
 	.string "stopped…$"
+
+NewMauville_Inside_NPC9_Cientifico::
+lock
+faceplayer
+msgbox NewMauville_Inside_NPC9_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+NewMauville_Inside_NPC9_Cientifico_Texto_1:
+	.string "La tecnología de esta CENTRAL es tan\n"
+	.string "precaria comparada con la nuestra…$"
+
+NewMauville_Inside_NPC12_Cientifico::
+lock
+faceplayer
+msgbox NewMauville_Inside_NPC12_Cientifico_Texto_1 MSGBOX_NPC
+release
+end
+
+NewMauville_Inside_NPC12_Cientifico_Texto_1:
+	.string "La verdad es que, salvo su generador,\n"
+	.string "hay muy poco rescatable de este lugar.$"
+
+
+NewMauville_Inside_Encuentro_Rasmus::
+lock
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_13 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_14 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_15 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_16 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
+msgbox NewMauville_Inside_Encuentro_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+release
+end
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_1:
+	.string "????: De nuevo se ha debilitado.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_2:
+	.string "Estos ULTRAENTES… El singular reparto\n"
+	.string "de STATS es muy interesante, pero no\l"
+	.string "parecen dar para mucho más.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_3:
+	.string "El inmenso ATAQUE ESPECIAL de\n"
+	.string "XURKITREE es muy goloso, pero su\l"
+	.string "proyección acaba ahí.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_4:
+	.string "Al final los ADMIN de DEVON tendrán\n"
+	.string "razón, la verdadera base para lograr\l"
+	.string "STATS que se acerquen al límite\l"
+	.string "absoluto está en los…$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_5:
+	.string "Tú de nuevo.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_6:
+	.string "… …$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_7:
+	.string "Reconozco que esa insistencia en\n"
+	.string "perseguirnos me causa curiosidad.\l"
+	.string "¿Crees que vas a lograr algo con ello?$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_8:
+	.string "La única manera de entender un\n"
+	.string "acontecimiento es causarlo tú mismo.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_9:
+	.string "Aunque sepas que acabo de torturar a\n"
+	.string "un XURKITREE para estimular su ATAQUE\l"
+	.string "ESPECIAL, las consecuencias de ello\l"
+	.string "escapan a tu comprensión.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_10:
+	.string "Pretendéis detener a DEVON únicamente\n"
+	.string "porque ignoráis nuestro verdadero\l"
+	.string "poder, teméis que sea algo que ponga en\l"
+	.string "duda vuestra futura hegemonía en el\l"
+	.string "mundo POKÉMON, ¿no es así?$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_11:
+	.string "Con eso ya sé todo lo que debo saber\n"
+	.string "sobre la calidad de vuestra\l"
+	.string "organización, estáis condenados al\l"
+	.string "fracaso.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_12:
+	.string "¿Y tú? ¿Temes el verdadero alcance de\n"
+	.string "nuestros recursos?$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_13:
+	.string "… …$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_14:
+	.string "Déjame comprobar eso que acabas de\n"
+	.string "decir.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_15:
+	.string "No es para tanto…$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_16:
+	.string "Tu nivel de combate es admirable, no\n"
+	.string "discutiré eso, pero…$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_17:
+	.string "Sin todos los elementos necesarios en\n"
+	.string "la ecuación, tú nivel eventualmente\l"
+	.string "quedará relegado. Solo tienes que echar\l"
+	.string "un vistazo al progreso de los últimos 3\l"
+	.string "años, ahora todos se ríen de ese LANCE\l"
+	.string "y sus antaño temidos dragones.$"
+
+NewMauville_Inside_Encuentro_Rasmus_Texto_18:
+	.string "DEVON tiene grandes planes entre\n"
+	.string "manos, no puedo perder el tiempo con\l"
+	.string "alguien que en el futuro próximo solo\l"
+	.string "será otra reliquia.$"
+
+
+NewMauville_Inside_EventScript_Primer_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_586, NewMauville_Inside_Text_PrimerCientificoIntro, NewMauville_Inside_Text_PrimerCientificoDefeat
+	msgbox NewMauville_Inside_Text_PrimerCientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NewMauville_Inside_EventScript_Segundo_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_587, NewMauville_Inside_Text_SegundoCientificoIntro, NewMauville_Inside_Text_SegundoCientificoDefeat
+	msgbox NewMauville_Inside_Text_SegundoCientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NewMauville_Inside_EventScript_Primer_Policia::
+	trainerbattle_single TRAINER_TRAINER_588, NewMauville_Inside_Text_PrimerPoliciaIntro, NewMauville_Inside_Text_PrimerPoliciaDefeat
+	msgbox NewMauville_Inside_Text_PrimerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NewMauville_Inside_EventScript_Segundo_Policia::
+	trainerbattle_single TRAINER_TRAINER_589, NewMauville_Inside_Text_SegundoPoliciaIntro, NewMauville_Inside_Text_SegundoPoliciaDefeat
+	msgbox NewMauville_Inside_Text_SegundoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+NewMauville_Inside_EventScript_Tercer_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_590, NewMauville_Inside_Text_TercerCientificoIntro, NewMauville_Inside_Text_TercerCientificoDefeat
+	msgbox NewMauville_Inside_Text_TercerCientificoPostBattle, MSGBOX_AUTOCLOSE
+	end

@@ -627,6 +627,8 @@
 #define TRAINER_CLASS_COLEGIAL           0xC0
 #define TRAINER_CLASS_MAESTRA            0xC1
 #define TRAINER_CLASS_POKEFAN_2          0xC2
+#define TRAINER_CLASS_POLICIA_DEVON      0xC3
+#define TRAINER_CLASS_ELECTRICISTA_HOENN 0xC4
 
 #define TRAINER_ENCOUNTER_MUSIC_MALE         0 // standard male encounter music
 #define TRAINER_ENCOUNTER_MUSIC_FEMALE       1 // standard female encounter music - sr aroma, dama parasol

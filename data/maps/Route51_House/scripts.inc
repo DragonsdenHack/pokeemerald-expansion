@@ -419,3 +419,21 @@ Route51HouseDocumento_Text_100Yes18:
 	.string "de imponerse por sobre los 3\l"
 	.string "POKÉMON, que vuelven a su eterno\l"
 	.string "letargo.$"
+
+
+Route51House_NPC3_Exorcista::
+lock     
+faceplayer     
+msgbox Route51House_NPC3_Exorcista_Text_1, MSGBOX_DEFAULT
+release     
+end
+
+Route51House_NPC3_Exorcista_Text_1:
+	.string "Considera un grano de arena apilado\n"
+	.string "sobre otros granos de arena, que\l"
+	.string "enseguida serán cubiertos por nuevos\l"
+	.string "granos de arena. Así ocurre en la vida,\l"
+	.string "unos eventos apilados sobre otros que\l"
+	.string "en breve serán cubiertos por eventos\l"
+	.string "nuevos.$"
+
