@@ -161,7 +161,7 @@ CeladonCity_Shop5F_Text_Oak_5:
 
 CeladonCity_Shop5F_Text_Oak_6:
 	.string "????: Quite the opposite, makes all\n"
-	.string "thet sense that can be given at this\l"
+	.string "the sense that can be given at this\l"
 	.string "region.$"
 
 
@@ -199,7 +199,7 @@ CeladonCity_Shop5F_Text_Oak_11:
 
 CeladonCity_Shop5F_Text_Oak_12:
 	.string "They are calling me from POKÉMON LEAGUE\n"
-	.string "HQ. Shopping is over, DAYSI.$"
+	.string "HQ. Shopping is over, DAISY.$"
 
 
 CeladonCity_Shop5F_Text_Oak_13:

@@ -70,10 +70,10 @@ end
 
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_1:
-.string "Damn it TAMER{PAUSE 15}…{PAUSE 15} By his fault everybody\n"
+.string "Damn it TAMER{PAUSE 15}…{PAUSE 15} It's his fault everybody\n"
 	.string "makes fun of my OLD ROD. I can't let it\l"
 	.string "stay like this, my brothers will take all\l"
-	.string "the protagonism…$"
+	.string "the profits…$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_2:
 .string "…\n"
@@ -127,8 +127,8 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_9:
 	.string "can't find anywhere!$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_10:
-.string "Alright! Look ROCKET, not a few ago a\n"
-	.string "TAMER came here and bought me an OLD\l"
+.string "Alright! Look ROCKET, not long ago a\n"
+	.string "TAMER came here and asked for an OLD\l"
 	.string "ROD, he wanted to fish a KINGLER for\l"
 	.string "his spectacle, but when he saw it just\l"
 	.string "catches MAGIKARP, he began to defame\l"
@@ -136,7 +136,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_10:
 	.string "was a scam.$"
 
 VermilionCity_House1_Secundaria_Magikarp_Texto_11:
-.string "I won't lie about it just works to catch\n"
+.string "I won't lie that it just works to catch\n"
 	.string "MAGIKARP, but that's exactly its\l"
 	.string "function, that rod allows you to fish\l"
 	.string "that common POKÉMON with that high\l"
@@ -149,7 +149,7 @@ VermilionCity_House1_Secundaria_Magikarp_Texto_12:
 .string "I want you to go CELADON CITY, where he\n"
 	.string "lives and you teach him a lesson from\l"
 	.string "VERMILION CITY's FISHING GURU, that\l"
-	.string "should be good enough to he stop\l"
+	.string "should be good enough for him to stop\l"
 	.string "saying trash about my OLD ROD, be clear\l"
 	.string "about that TEAM ROCKET doesn't warn\l"
 	.string "twice, the next time you will ruin his\l"

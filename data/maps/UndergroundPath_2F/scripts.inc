@@ -90,9 +90,9 @@ end
 UndergroundPath2F_Andra_Text_1:
 .string "ANDRA: {PLAYER}! Excuse me for going\n"
 	.string "further than you, but I wanted to\l"
-	.string "eclosionate my egg as soon as possible\l"
-	.string "that ARCHER gave us after we finished\l"
-	.string "our mission on FIVE ISLAND, so that way\l"
+	.string "hatch my egg as soon as possible\l"
+	.string "after ARCHER gave it to us after completing\l"
+	.string "our CHRONO ISLAND mission. So that way\l"
 	.string "I can begin to train it.$"
 
 UndergroundPath2F_Andra_Text_2:
@@ -127,7 +127,7 @@ UndergroundPath2F_Andra_Text_6:
     .string "So you are going hard, uh? I should be\n"
 	.string "happy, I prefer someone like you at my\l"
 	.string "side on future missions than someone\l"
-	.string "mediocre, but don't trust yourself, I'm\l"
+	.string "mediocre, but don't fool yourself. I'm\l"
 	.string "going to surpass your level at any\l"
 	.string "moment. I will become the strongest\l"
 	.string "and most efficient GRUNT in the whole\l"
@@ -141,7 +141,7 @@ UndergroundPath2F_Andra_Text_7:
 	.string "underground, he said that we should\l"
 	.string "enter the place secretly and without\l"
 	.string "being seen, that's all. So see you\l"
-	.string "there. Don't be late, hey!$"
+	.string "there. Don't be late, okay!$"
 
 UndergroundPath2F_Andra_move_1:
 walk_in_place_up

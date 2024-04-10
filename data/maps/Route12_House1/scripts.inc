@@ -141,7 +141,7 @@ Route12_House_1_Secundaria_Squirtle_Texto_10:
 	.string "ROCKET…{PAUSE 35} I have 2 brothers, the three of\l"
 	.string "us inherited from our father the\l"
 	.string "tradition of being exceptional\l"
-	.string "fishermen, y younger brother lives in\l"
+	.string "fishermen. My younger brother lives in\l"
 	.string "VERMILION and has decided to focus on\l"
 	.string "an OLD ROD that only allows him to fish\l"
 	.string "MAGIKARPS, which is a respectable and\l"

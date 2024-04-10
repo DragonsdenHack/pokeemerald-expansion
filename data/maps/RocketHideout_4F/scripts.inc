@@ -1968,7 +1968,7 @@ RocketHideout_4F_Giovanni_Mision_Base_Profunda_Text_4:
 	.string "POKÉMON TOWER. But this is not an usual\l"
 	.string "one, this CUBONE has equipped the\l"
 	.string "THICK CLUB, an object that duplicates\l"
-	.string "is't physical attack when evolved into\l"
+	.string "it's physical attack when evolved into\l"
 	.string "MAROWAK. It's certainly a proper gift\l"
 	.string "for the one that, fighting FUJI, made\l"
 	.string "it's capture possible.$"
@@ -2905,7 +2905,7 @@ PokemonTower5F_Escena_4_Blaine_Texto_16:
 	.string "LANCE's claws during the great purge,\l"
 	.string "and ended up in a jail for the rest of\l"
 	.string "our lives. But because of X or because\l"
-	.string "of Y you're still in CINNAMON and I'm still\l"
+	.string "of Y you're still in CINNABAR and I'm still\l"
 	.string "hidden in the shadows.$"
 
 PokemonTower5F_Escena_4_Blaine_Texto_17:

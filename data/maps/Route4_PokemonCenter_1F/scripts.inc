@@ -135,7 +135,7 @@ Route4_PokemonCenter_1F_Estafa_Texto_3:
 	.string "scammed.$"
 
 Route4_PokemonCenter_1F_Estafa_Texto_4:
-.string "You really tought that anyone would\n"
+.string "You really thought that anyone would\n"
 	.string "sell a POKÉMON for that price? MAGIKARP\l"
 	.string "is completely useless.$"
 

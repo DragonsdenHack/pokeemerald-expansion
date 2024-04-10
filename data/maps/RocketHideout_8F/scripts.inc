@@ -319,7 +319,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_15.1:
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Texto_16:
 	.string "GIOVANNI: The missions I'll assign\n"
-	.string "since right now on in this place are\l"
+	.string "from right now on in this place are\l"
 	.string "completely confidential for any\l"
 	.string "outsider to the S5 of this base,\l"
 	.string "including most of the ROCKETS, this\l"
@@ -453,7 +453,7 @@ RocketHideout_8F_Mision_Articuno_Zapdos_Texto_28:
 	.string "{PLAYER}! We are going in search of a\l"
 	.string "LEGENDARY POKÉMON each one of us! This\l"
 	.string "is getting insane huh, I will keep you\l"
-	.string "informated about how my mission with\l"
+	.string "informed about how my mission with\l"
 	.string "ZAPDOS goes, I hope you do the same!$"
 
 RocketHideout_8F_Mision_Articuno_Zapdos_Move_1:
@@ -3391,7 +3391,7 @@ end
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_1:
 	.string "GIOVANNI: As I told you, ANDRA, the\n"
 	.string "RUINS OF ALPH must be under strict\l"
-	.string "vigilance, since right now.$"
+	.string "vigilance, from right now.$"
 
 RocketHideout8F_Mision_Culto_Lavanda_Segunda_Vez_Texto_2:
 	.string "GIOVANNI: Do you realize the kind of\n"

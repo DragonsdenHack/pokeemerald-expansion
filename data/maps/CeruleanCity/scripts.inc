@@ -263,8 +263,8 @@ release
 end
 
 CeruleanCity_Bayas_Texto_1:
-.string "Brave daring. Did you know this city has\n"
-	.string "the biggest policial base in KANTO?\l"
+.string "Brave and daring. Did you know this city has\n"
+	.string "the biggest police base in KANTO?\l"
 	.string "Come on…{PAUSE 20} ROCKET, just give me an\l"
 	.string "excuse to call them here.$"
 

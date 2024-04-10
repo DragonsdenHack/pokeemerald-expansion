@@ -15,7 +15,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_MoveRelearner::
 	end
 
 FallarborTown_MoveRelearnersHouse_EventScript_AskTeachMove::
-	checkitem ITEM_TINY_MUSHROOM
+	checkitem ITEM_TINY_MUSHROOM, 2
 	goto_if_eq VAR_RESULT, FALSE, FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
 	msgbox FallarborTown_MoveRelearnersHouse_Text_ThatsAHeartScaleWantMeToTeachMove, MSGBOX_YESNO
 	switch VAR_RESULT
@@ -40,7 +40,7 @@ FallarborTown_MoveRelearnersHouse_EventScript_ChooseMove::
 	waitstate
 	goto_if_eq VAR_0x8004, 0, FallarborTown_MoveRelearnersHouse_EventScript_ChooseMon
 	msgbox FallarborTown_MoveRelearnersHouse_Text_HandedOverHeartScale, MSGBOX_DEFAULT
-	removeitem ITEM_TINY_MUSHROOM
+	removeitem ITEM_TINY_MUSHROOM, 2
 	goto FallarborTown_MoveRelearnersHouse_EventScript_ComeBackWithHeartScale
 	end
 
@@ -65,7 +65,7 @@ FallarborTown_MoveRelearnersHouse_Text_ImTheMoveTutor:
     .string "POKÉMON learn growing up.\p"
     .string "I'm also a mushroom maniac.\p"
     .string "Bring me two TINYMUSHROOMS,\n"
-    .string "or one BIG MUSHROOM.\p"
+    .string "and you'll see.\p"
     .string "If you do that for me, I'll teach\n"
     .string "a move to one POKÉMON.$"
 

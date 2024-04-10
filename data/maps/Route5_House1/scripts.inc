@@ -233,7 +233,7 @@ Route5_PokemonDayCare_Text_DontHaveEnoughMoney::
 Route5_House1_Criador_1:
 .string "POKÉMON BREEDER: Right, you are here,\n"
 	.string "you know that this info that I will give\l"
-	.string "you two since right now is totally\l"
+	.string "you two from right now is totally\l"
 	.string "confidential, the slightest word about\l"
 	.string "this out of ROCKET organization is\l"
 	.string "punished by maximum penalty. You are\l"
@@ -265,7 +265,7 @@ Route5_House1_Criador_4:
 	.string "Some of them, such as CLEFAIRY or\l"
 	.string "ABRA, are sent to the CASINO, others\l"
 	.string "are sold directly on the black market.\l"
-	.string "In fact, Your dear CHRONO ISLAND\l"
+	.string "In fact, your dear CHRONO ISLAND\l"
 	.string "CONSUL, without going any further, she\l"
 	.string "bought a MEOWTH from an EGG born here.$"
 
@@ -294,7 +294,7 @@ Route5_House1_Criador_8:
     .string "POKÉMON BREEDER: Now hurry up, some\n"
 	.string "clients could arrive soon and there is\l"
 	.string "nothing worse for business actually\l"
-	.string "that getting mixed with ROCKET. Come\l"
+	.string "than getting mixed with ROCKET. Come\l"
 	.string "on!$"
 
 Route5_House1_Criador_9:

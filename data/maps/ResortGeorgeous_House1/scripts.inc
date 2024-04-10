@@ -162,7 +162,7 @@ ResortGeorgeous_House1_Text_Consul_9:
 
 ResortGeorgeous_House1_Text_Consul_10:
 	.string "As for you guys, you can be proud. This\n"
-	.string "was serious staff, and you've done a\l"
+	.string "was serious stuff, and you've done a\l"
 	.string "good job. ARCHER will be in the\l"
 	.string "WAREHOUSE waiting to give you props.$"
 

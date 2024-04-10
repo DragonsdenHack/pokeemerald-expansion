@@ -217,7 +217,7 @@ RocketWarehouse_Atlas_Mision_Secundaria_Texto_13:
 RocketWarehouse_Text_6:
      .string "ARCHER: …\n"
 	.string "(It seems he's deep working\l"
-	.string "in a top proyect)$"
+	.string "in a top project)$"
 
 
 

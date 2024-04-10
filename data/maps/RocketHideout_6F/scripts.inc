@@ -52,7 +52,7 @@ RocketHideout6F_Text_2:
 	.string "expert, being a risky opponent to\l"
 	.string "fight. His WEEZING too is a hard\l"
 	.string "POKÉMON to defeat by non PSYCHIC\l"
-	.string "POKÉMON, specially by physic side.$"
+	.string "POKÉMON, especially on the physical side.$"
 
 
 
@@ -83,7 +83,7 @@ RocketHideout6F_Text_4:
 .string "…\n"
 .string "…\l"
 .string "(Seems like he is resting, but also\l"
-	.string "seems ready and expecting to any order\l"
+	.string "seems ready to expect to any order\l"
 	.string "that he could receive from PETREL)$"
 
 
@@ -99,7 +99,7 @@ RocketHideout6F_Text_5:
 .string "…\n"
 .string "…\l"
 .string "(Seems like he is resting, but also\l"
-	.string "seems ready and expecting to any order\l"
+	.string "seems ready to expect to any order\l"
 	.string "that he could receive from PETREL)$"
 
 
@@ -167,7 +167,7 @@ RocketHideout6F_Text_15:
 	.string "traffic on the market in the KANTO\l"
 	.string "region, thanks to the GAME CORNER and\l"
 	.string "the constant flows of PKMN that come\l"
-	.string "from this BASE, CHRONOISLAND and\l"
+	.string "from this BASE, CHRONO ISLAND and\l"
 	.string "others. Nobody overshadows us in that\l"
 	.string "section.$"
 
@@ -294,10 +294,10 @@ RocketHideout6F_Text_25:
 .string "Maybe it is somewhat cruel to separate\n"
 	.string "the POKÉMON from their EGGS, but in\l"
 	.string "general trainers treat their POKÉMON\l"
-	.string "well, even us ROCKETS, that we whip our\l"
+	.string "well, even us ROCKETS. That we whip our\l"
 	.string "POKÉMON with a whip is a cliche that\l"
 	.string "has become widespread, although it is\l"
-	.string "true that There are people like that in\l"
+	.string "true that there are people like that in\l"
 	.string "our ranks.$"
 
 
@@ -423,7 +423,7 @@ RocketHideout_6F_Petrel_Text_Mision_1:
 RocketHideout_6F_Petrel_Text_Mision_2:
 .string "PETREL: I will be very brief, the main\n"
 	.string "reason for this BASE is to serve as\l"
-	.string "financial support for the financing of\l"
+	.string "financial support. For the financing of\l"
 	.string "our projects, here we only limit\l"
 	.string "ourselves to carrying out research on\l"
 	.string "possible profitable businesses, and\l"
@@ -457,27 +457,26 @@ RocketHideout_6F_Petrel_Text_Mision_5:
 	.string "questions?$"
 
 RocketHideout_6F_Petrel_Text_Mision_6:
-.string "ANDRA: I was wondering, SIR, how to\n"
+.string "ANDRA: I was wondering, SIR, how will you\n"
 	.string "evaluate our performance in the\l"
-	.string "mission, given that there will be many\l"
+	.string "mission. Given that there will be many\l"
 	.string "of us, will only the collective be\l"
 	.string "evaluated or also individually?$"
 
 RocketHideout_6F_Petrel_Text_Mision_7:
-.string "PETREL: So we have a competitive GRUNT,\n"
-	.string "if you are worried about impossibility\l"
-	.string "of climb into the organization by being\l"
+.string "PETREL: So we have a competitive GRUNT.\n"
+	.string "If you are worried about impossibility\l"
+	.string "to climb within the organization by being\l"
 	.string "eclipsed by a media operation, you\l"
 	.string "should already know that we prioritize\l"
-	.string "the collective, still, I'll leave it to\l"
-	.string "you very clear. You have two ways of\l"
-	.string "climb here: 1) For each group mission\l"
-	.string "we carry out evaluations of each\l"
-	.string "individual operation. 2) Not in all\l"
-	.string "missions we send a lot of GRUNTS, some\l"
-	.string "missions are individual or in pairs,\l"
-	.string "such as yours in CONSUL'S HOUSE, in\l"
-	.string "those kinds of missions where your\l"
+	.string "the collective. Still, I'll make it very\l"
+	.string "clear. You have two ways of climb here:\l"
+	.string "1) For each group mission we carry out\l"
+	.string "evaluations of each individual operation.\l"
+	.string "2) Not in all missions we send a lot of\l"
+	.string "GRUNTS, some missions are individual or\l"
+	.string "in pairs, such as yours in CONSUL'S HOUSE.\l"
+	.string "Those kinds of missions where your\l"
 	.string "merit, or your fault is greater.$"
 
 RocketHideout_6F_Petrel_Text_Mision_8:
@@ -490,7 +489,7 @@ RocketHideout_6F_Petrel_Text_Mision_9:
 	.string "coincided and now you are out of time,\l"
 	.string "we will have enough time to explain how\l"
 	.string "we do the things here. Bring those\l"
-	.string "fossils and disappear everyone who\l"
+	.string "fossils and crush everyone who\l"
 	.string "wants to opposite!$"
 
 RocketHideout_6F_Petrel_Text_Mision_10:
@@ -501,8 +500,8 @@ RocketHideout_6F_Petrel_Text_Mision_11:
 	.string "arrived here and we already got\l"
 	.string "assigned to a mission. Lets get all\l"
 	.string "those FOSSILS without caring who\l"
-	.string "opposites, I see you later on MT.MOON\l"
-	.string "east entrance.$"
+	.string "opposes. I'll see you later on\l"
+	.string "MT.MOON east entrance.$"
 
 RocketHideout_6F_Petrel_Mision_1_move1:
 walk_right
@@ -1535,15 +1534,7 @@ RocketHideout_6F_Petrel_Post_SSanne_Texto_9:
 	.string "beyond the stereotype of the average\l"
 	.string "soldier, I gave you an opportunity with\l"
 	.string "two missions of a certain complexity to\l"
-	.string "test you, and you have met\l"
-	.string "expectations.PETREL: When you arrived\l"
-	.string "here, on your first MT.MOON mission, you\l"
-	.string "already showed a certain peculiarity\l"
-	.string "that went beyond the stereotype of\l"
-	.string "the average soldier, I gave you an\l"
-	.string "opportunity with two missions of a\l"
-	.string "certain complexity to test you, and\l"
-	.string "you have met expectations.$"
+	.string "test you, and you have met expectations.$"
 
 RocketHideout_6F_Petrel_Post_SSanne_Texto_10:
 .string "In view of recent events, GIOVANNI\n"
@@ -2116,7 +2107,7 @@ end
 RocketHideout_6F_Petrel_Texto_1:
 .string "PETREL: Kid, you should know that\n"
 	.string "ROCKET ADMINISTRATORS are not\l"
-	.string "interrupted by banalities, our time is\l"
+	.string "to be interrupted. Our time is\l"
 	.string "too valuable.$"
 
 RocketHideout_6F_Petrel_Texto_2:

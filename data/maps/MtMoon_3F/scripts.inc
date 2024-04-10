@@ -74,7 +74,7 @@ end
 MtMoon3F_Text_9:
 .string "There he is, the one that has been\n"
 	.string "causing so much trouble. I've tried to\l"
-	.string "stop him but y team has been crushed.\l"
+	.string "stop him but my team has been crushed.\l"
 	.string "Now I can only stay right here and\l"
 	.string "watch…$"
 
@@ -155,7 +155,7 @@ MtMoon3F_Text_11_4:
 
 MtMoon3F_Text_11_5:
 .string "Come back now the the gathering point,\n"
-	.string "GRUNT! You better don't make me repeat\l"
+	.string "GRUNT! You better not make me repeat\l"
 	.string "it!$"
 
 
@@ -411,7 +411,7 @@ MtMoon_3F_Fosil_text_1:
 .string "YOU GOT A DOME FOSSIL!!$"
 
 MtMoon_3F_Fosil_text_2:
-.string "(The DOME FOSSIL is mine, i should\n"
+.string "(The DOME FOSSIL is mine. I should\n"
 	.string "inform my superior).$"
 
 

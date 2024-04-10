@@ -822,7 +822,7 @@ end
 
 VermilionCity_Primer_NPC_Texto_1:
 .string "All this polution around\n"
-	.string "here it's due to you!\l"
+	.string "here is due to you!\l"
 	.string "That's for sure, GRIMER\l"
 	.string "and KOFFING are the\l"
 	.string "worst KANTO POKÉMON!$"

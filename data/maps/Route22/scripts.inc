@@ -145,9 +145,9 @@ Route22_Combate_Azul_Texto_8:
 Route22_Combate_Azul_Texto_9:
 	.string "By the way, don't you know where your\n"
 	.string "friend is, ANDRA? She must also have a\l"
-	.string "good team if plains to challenge the\l"
+	.string "good team if she plains to challenge the\l"
 	.string "ELITE 4, I will see if I can see her\l"
-	.string "further there and help me up a few\l"
+	.string "further there and help me level up a few\l"
 	.string "levels.$"
 
 Route22_Combate_Azul_Texto_10:

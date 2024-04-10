@@ -81,13 +81,13 @@ end
 CeruleanCity_House2_Batalla_Montañero_Text_1:
 .string "It's over HIKER, this is what happens\n"
 	.string "when you are going to show off about\l"
-	.string "your exclusive TMs, unfortunately for\l"
+	.string "your exclusive TMs. Unfortunately for\l"
 	.string "you, that TM DIG would be pretty useful\l"
-	.string "for us, if you had been nice we wouldn't\l"
+	.string "for us. If you had been nice we wouldn't\l"
 	.string "have messed up your house. Now for\l"
 	.string "being like that we will steal all those\l"
-	.string "TMs and you are that possessive that\l"
-	.string "you don't want to share a few with us\l"
+	.string "TMs. You are so possessive that you\l"
+	.string "don't want to share a few with us\l"
 	.string "when we asked gently.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_2:
@@ -96,14 +96,14 @@ CeruleanCity_House2_Batalla_Montañero_Text_2:
 	.string "already know how you spend them. You\l"
 	.string "are not going to find the TMs because I\l"
 	.string "have them, you must beat me in combat.\l"
-	.string "What a pity that you are so weaklings,\l"
+	.string "What a pity that you are such weaklings,\l"
 	.string "my DIG will crush your poor EKANS and\l"
 	.string "RATTATA. Come on!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_3:
-.string "And this street thrash? Who are you?\n"
+.string "And this street trash? Who are you?\n"
 	.string "Do you want to challenge me?\l"
-	.string "You will regret!!$"
+	.string "You will regret it!!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
 .string "Oh…{PAUSE 20} No…{PAUSE 20} Please…{PAUSE 20}$"
@@ -125,10 +125,10 @@ CeruleanCity_House2_Batalla_Montañero_Text_6:
 
 CeruleanCity_House2_Batalla_Montañero_Text_7:
 .string "He had this other item, which seems to\n"
-	.string "be to rise GROUND type movements'\l"
-	.string "power, that rascal for sure used it to\l"
-	.string "do more damage with DIG, keep it for\l"
-	.string "you.$"
+	.string "be to raise the power of GROUN TYPE\l"
+	.string "moves. That rascal for sure used it to\l"
+	.string "do more damage with DIG. Take it for\l"
+	.string "yourself.$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_8:
 .string "That's all comrade, with these TMs we\n"

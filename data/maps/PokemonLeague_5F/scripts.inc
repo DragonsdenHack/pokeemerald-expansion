@@ -376,7 +376,7 @@ PokemonLeague_5F_Azul_Rojo_Texto_18:
 	.string "he's the untouchable and immaculate\l"
 	.string "TRAINER who never loses, also acting\l"
 	.string "mysterious without even deigning to\l"
-	.string "talk to you after thrashing you in\l"
+	.string "talk to you after trashing you in\l"
 	.string "battle, that is so disrespectful!\l"
 	.string "{PLAYER}! You have to defea…!{PAUSE 25}$"
 

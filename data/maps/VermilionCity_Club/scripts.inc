@@ -106,7 +106,7 @@ VermilionCity_Club_Secundaria_AncianoMachop_Texto_1:
 	.string "hope you don't come back to this place,\l"
 	.string "here we only deal with distinguished\l"
 	.string "people with worthy POKÉMON. Like that\l"
-	.string "guy who came here a few earlier with\l"
+	.string "guy who came here a while earlier with\l"
 	.string "his SQUIRTLE, a good specimen, yes…$"
 
 VermilionCity_Club_Secundaria_AncianoMachop_Texto_2:

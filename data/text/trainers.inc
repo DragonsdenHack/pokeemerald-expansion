@@ -5033,9 +5033,8 @@ Route6_Text_Joven1Intro:
 	.string "region you have the cynicism to walk\l"
 	.string "around here?$"
 
-
 Route6_Text_Joven1Defeated:
-	.string "A ROCKET GRUNT thrashed me?$"
+	.string "A ROCKET GRUNT trashed me?$"
 
 
 Route6_Text_Joven1PostBattle:
@@ -5267,7 +5266,7 @@ Route24_Text_Chica2Defeated:
 
 
 Route24_Text_Chica2PostBattle:
-	.string "Sooner or later, someone will thrash\n"
+	.string "Sooner or later, someone will crush\n"
 	.string "you.$"
 
 
@@ -5628,7 +5627,7 @@ SsAnne10F_Text_ChicoIntro:
 
 
 SsAnne10F_Text_ChicoDefeated:
-	.string "Defeated by street thrash!$"
+	.string "Defeated by street trash!$"
 
 
 SsAnne10F_Text_ChicoPostBattle:
@@ -12312,7 +12311,7 @@ Route35_Text_CalvoIntro:
 
 
 Route35_Text_CalvoDefeated:
-	.string "I was thrashed!$"
+	.string "I was trashed!$"
 
 
 Route35_Text_CalvoPostBattle:

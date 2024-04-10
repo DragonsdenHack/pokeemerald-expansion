@@ -251,7 +251,7 @@ SsAnne_8F_Capitan_Text_9:
 	.string "LEGENDARIES. PSEUDO-LEGENDARIES\l"
 	.string "POKÉMON usually represent their region\l"
 	.string "nature. keeping stored inside\l"
-	.string "themselves that essence gave buy their\l"
+	.string "themselves that essence gave by their\l"
 	.string "region which will allow them to reach\l"
 	.string "their whole potential.$"
 

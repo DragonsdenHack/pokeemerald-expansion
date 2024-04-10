@@ -93,8 +93,8 @@ MtMoon_2F_AltoRango_Text_4:
 .string "OK. Let's recap:We have collected one\n"
 	.string "FOSSIL so far, found by GRUNT ANDRA.\l"
 	.string "Our priority is finding more while we\l"
-	.string "prevent that trainer from messing up\l"
-	.string "with us again. If you find him, tell me so\l"
+	.string "prevent that trainer from messing with\l"
+	.string "us again. If you find him, tell me so\l"
 	.string "I can beat him.$"
 
 MtMoon_2F_AltoRango_Text_5:
@@ -113,9 +113,9 @@ MtMoon_2F_AltoRango_Text_7:
 MtMoon_2F_AltoRango_Text_8:
 .string "Hey, don't take him that seriously, he's\n"
 	.string "just frustrated ‘cause he has just\l"
-	.string "signed some successful missions as a\l"
+	.string "assigned some successful missions as a\l"
 	.string "HIGH RANK and suddenly the situation\l"
-	.string "has been compromised ‘cause a\l"
+	.string "has been compromised ‘cause of a\l"
 	.string "10-year-old dude. I haven't seen that\l"
 	.string "kid yet, but if I see him, I'll show no\l"
 	.string "mercy! Let's show everyone how powerful\l"

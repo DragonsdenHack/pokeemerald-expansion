@@ -88,7 +88,7 @@ end
 
 MahoganyTown_NinjaBaseS1_Text_9:
 	.string "The POKÉMON that inhabit the LAKE OF\n"
-	.string "RAGE will be, since right now, very\l"
+	.string "RAGE will be, from right now, very\l"
 	.string "interesting study subjects.$"
 
 

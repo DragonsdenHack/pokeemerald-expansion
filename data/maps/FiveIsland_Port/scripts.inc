@@ -60,7 +60,7 @@ FiveIslandPort_Text_Andra_2:
 	.string "team stronger. Next time we throw down,\l"
 	.string "I'm gonna take out all your POKÉMON. I'm\l"
 	.string "not here for just being a random ROCKET\l"
-	.string "GRUNT, did you mean?$"
+	.string "GRUNT, you know?$"
 
 
 FiveIslandPort_Text_Andra_3:
