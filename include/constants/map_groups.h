@@ -1402,9 +1402,15 @@
 #define MAP_SNOWPOINT_SHOP        (1 | (55 << 8))
 #define MAP_SNOWPOINT_HOUSE_1     (2 | (55 << 8))
 #define MAP_SNOWPOINT_HOUSE_2     (3 | (55 << 8))
+#define MAP_SNOWPOINT_TEMPLO      (4 | (55 << 8))
+#define MAP_SNOWPOINT_TEMPLO_S1   (5 | (55 << 8))
+#define MAP_SNOWPOINT_TEMPLO_S2   (6 | (55 << 8))
+#define MAP_SNOWPOINT_TEMPLO_S3   (7 | (55 << 8))
+#define MAP_SNOWPOINT_TEMPLO_S4   (8 | (55 << 8))
+#define MAP_SNOWPOINT_TEMPLO_S5   (9 | (55 << 8))
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 30, 20, 12, 17, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 10, 17, 10, 23, 13, 15, 15, 108, 61, 89, 49, 4, 0};
+// static const u8 MAP_GROUP_COUNT[] = {60, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 30, 20, 12, 17, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 10, 17, 10, 23, 13, 15, 15, 108, 61, 89, 49, 10, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

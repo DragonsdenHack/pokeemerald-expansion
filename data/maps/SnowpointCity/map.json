@@ -150,14 +150,14 @@
       "x": 17,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_SNOWPOINT_CITY",
+      "dest_map": "MAP_SNOWPOINT_TEMPLO",
       "dest_warp_id": 0
     },
     {
       "x": 16,
       "y": 7,
       "elevation": 0,
-      "dest_map": "MAP_SNOWPOINT_CITY",
+      "dest_map": "MAP_SNOWPOINT_TEMPLO",
       "dest_warp_id": 0
     },
     {

@@ -180,7 +180,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
+      "script": "MauvilleCity_GameCorner_Tristana",
       "flag": "FLAG_HOENN_4"
     }
   ],
@@ -372,7 +372,7 @@
     },
     {
       "type": "sign",
-      "x": 18,
+      "x": 11,
       "y": 0,
       "elevation": 0,
       "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",

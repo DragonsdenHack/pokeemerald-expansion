@@ -309,7 +309,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_celadon_city2",
+      "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/Route110/border.bin",
       "blockdata_filepath": "data/layouts/Route110/map.bin"
     },
@@ -14520,6 +14520,78 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/GameCorner_Mauville_Hideout_S2/border.bin",
       "blockdata_filepath": "data/layouts/GameCorner_Mauville_Hideout_S2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_TEMPLO",
+      "name": "Snowpoint_Templo_Layout",
+      "width": 17,
+      "height": 12,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_seafoam_islands",
+      "border_filepath": "data/layouts/Snowpoint_Templo/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_Templo/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_TEMPLO_S1",
+      "name": "Snowpoint_Templo_S1_Layout",
+      "width": 17,
+      "height": 13,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_seafoam_islands",
+      "border_filepath": "data/layouts/Snowpoint_Templo_S1/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_Templo_S1/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_TEMPLO_S2",
+      "name": "Snowpoint_Templo_S2_Layout",
+      "width": 18,
+      "height": 13,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_seafoam_islands",
+      "border_filepath": "data/layouts/Snowpoint_Templo_S2/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_Templo_S2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_TEMPLO_S3",
+      "name": "Snowpoint_Templo_S3_Layout",
+      "width": 18,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_seafoam_islands",
+      "border_filepath": "data/layouts/Snowpoint_Templo_S3/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_Templo_S3/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_TEMPLO_S4",
+      "name": "Snowpoint_Templo_S4_Layout",
+      "width": 18,
+      "height": 22,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_seafoam_islands",
+      "border_filepath": "data/layouts/Snowpoint_Templo_S4/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_Templo_S4/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWPOINT_TEMPLO_S5",
+      "name": "Snowpoint_Templo_S5_Layout",
+      "width": 21,
+      "height": 22,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_seafoam_islands",
+      "border_filepath": "data/layouts/Snowpoint_Templo_S5/border.bin",
+      "blockdata_filepath": "data/layouts/Snowpoint_Templo_S5/map.bin"
     }
   ]
 }

@@ -1385,3 +1385,129 @@ SlateportCity_Text_TakingBattleTentChallenge:
 	.string "After all, a tough TRAINER is\n"
 	.string "the perfect fit for the BATTLE TENT!\p"
 	.string "Give it your best effort!$"
+
+
+SlateportCity_Primer_Bloqueo::
+lock
+msgbox SlateportCity_Primer_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Primer_Bloqueo_Texto_1:
+	.string "¡No podemos perdernos ningún detalle!$"
+
+SlateportCity_Segundo_Bloqueo::
+lock
+msgbox SlateportCity_Segundo_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Segundo_Bloqueo_Texto_1:
+	.string "El PRESIDENTE de DEVON va a hacer una\n"
+	.string "importante donación al MUSEO OCEÁNICO,\l"
+	.string "¡estaremos ahí en primicia!$"
+
+SlateportCity_Tercer_Bloqueo::
+lock
+msgbox SlateportCity_Tercer_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Tercer_Bloqueo_Texto_1:
+	.string "¡Vamos a retransmitir este gran evento\n"
+	.string "en todas las teles de HOENN!$"
+
+SlateportCity_Cuarto_Bloqueo::
+lock
+msgbox SlateportCity_Cuarto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Cuarto_Bloqueo_Texto_1:
+	.string "¿De cuánto será la donación? ¿20\n"
+	.string "millones de POKÉS? ¡Nosotros tendremos\l"
+	.string "la exclusiva!$"
+
+SlateportCity_Quinto_Bloqueo::
+lock
+msgbox SlateportCity_Quinto_Bloqueo_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Quinto_Bloqueo_Texto_1:
+	.string "¡Debemos aprovechar para preguntarle\n"
+	.string "sobre otros muchos asuntos!$"
+
+SlateportCity_Llamada_Giovanni::
+lock
+msgbox SlateportCity_Llamada_Giovanni_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_8 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_9 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_10 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_11 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Llamada_Giovanni_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Llamada_Giovanni_Texto_1:
+	.string "GIOVANNI: ¿{PLAYER}? Así que ya\n"
+	.string "estás en CIUDAD PORTUAL.$"
+
+SlateportCity_Llamada_Giovanni_Texto_2:
+	.string "… …$"
+
+SlateportCity_Llamada_Giovanni_Texto_3:
+	.string "Hemos recibido los datos de tu combate\n"
+	.string "con GROUDON PRIMIGENIO, buen trabajo,\l"
+	.string "{PLAYER}.$"
+
+SlateportCity_Llamada_Giovanni_Texto_4:
+	.string "PORTUAL es una de las dos principales\n"
+	.string "ciudades marítimas de HOENN. Podrías\l"
+	.string "tomar un barco rumbo a ALGARIA, y\l"
+	.string "buscar también a KYOGRE PRIMIGENIO,\l"
+	.string "pero…$"
+
+SlateportCity_Llamada_Giovanni_Texto_5:
+	.string "Quiero que vayas a CUEVA GRANITO,\n"
+	.string "tenemos indicios de que ahí pueda\l"
+	.string "haber una base de DEVON. Uno de sus\l"
+	.string "ADMIN. ha sido visto entrando y\l"
+	.string "saliendo regularmente de ese lugar.$"
+
+SlateportCity_Llamada_Giovanni_Texto_6:
+	.string "En cuanto a lo que has visto de HOENN,\n"
+	.string "¿hay algo que quieras decirme?$"
+
+SlateportCity_Llamada_Giovanni_Texto_7:
+	.string "… …$"
+
+SlateportCity_Llamada_Giovanni_Texto_8:
+	.string "¡¿El CASINO de MALVALONA cuenta con\n"
+	.string "una tapadera similar a la nuestra en\l"
+	.string "KANTO?!$"
+
+SlateportCity_Llamada_Giovanni_Texto_9:
+	.string "Pero no era una base de DEVON, ¿verdad?\n"
+	.string "{PLAYER}, descríbeme lo mejor que\l"
+	.string "puedas lo que has descubierto allí.$"
+
+SlateportCity_Llamada_Giovanni_Texto_10:
+	.string "… …$"
+
+SlateportCity_Llamada_Giovanni_Texto_11:
+	.string "Muy bien… {PLAYER}, el plan se\n"
+	.string "mantiene. CUEVA GRANITO está en PUEBLO\l"
+	.string "AZULIZA, para llegar deberás cruzar el\l"
+	.string "mar que hay al sur de CIUDAD PORTUAL.$"
+
+SlateportCity_Llamada_Giovanni_Texto_12:
+	.string "Estamos en contacto. DEVON podrá\n"
+	.string "ocultar a HOENN sus verdaderas\l"
+	.string "intenciones, pero no al TEAM ROCKET.$"

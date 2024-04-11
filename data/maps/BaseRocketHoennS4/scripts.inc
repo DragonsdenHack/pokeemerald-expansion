@@ -10,6 +10,7 @@ msgbox BaseRocketHoennS4_Carta_Andra_Texto_4 MSGBOX_AUTOCLOSE
 msgbox BaseRocketHoennS4_Carta_Andra_Texto_5 MSGBOX_AUTOCLOSE
 msgbox BaseRocketHoennS4_Carta_Andra_Texto_6 MSGBOX_AUTOCLOSE
 msgbox BaseRocketHoennS4_Carta_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox BaseRocketHoennS4_Carta_Andra_Texto_7.1 MSGBOX_AUTOCLOSE
 msgbox BaseRocketHoennS4_Carta_Andra_Texto_8 MSGBOX_AUTOCLOSE
 msgbox BaseRocketHoennS4_Carta_Andra_Texto_9 MSGBOX_AUTOCLOSE
 msgbox BaseRocketHoennS4_Carta_Andra_Texto_10 MSGBOX_AUTOCLOSE
@@ -26,9 +27,9 @@ BaseRocketHoennS4_Carta_Andra_Texto_2:
 	.string "esperaba.$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_3:
-	.string "Siento haber dejado egoístamente el\n"
-	.string "TEAM ROCKET. No cabe duda de que el\l"
-	.string "tuyo es el camino correcto, tu virtud se\l"
+	.string "Siento haber actuado de forma egoísta y\n"
+	.string "dejar el TEAM ROCKET. No cabe duda de que\l"
+	.string "el tuyo es el camino correcto, tu virtud se\l"
 	.string "mantiene inquebrantable, sin importar\l"
 	.string "los agentes externos.$"
 
@@ -50,7 +51,7 @@ BaseRocketHoennS4_Carta_Andra_Texto_5:
 	.string "aventuras que yo ya no puedo darle.$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_6:
-	.string "Por otro lado, sé que Hoenn es una\n"
+	.string "Por otro lado, sé que HOENN es una\n"
 	.string "región nueva para ti. GIOVANNI te habrá\l"
 	.string "encomendado recopilar información\l"
 	.string "sobre KYOGRE y GROUDON, este último ha\l"
@@ -65,6 +66,11 @@ BaseRocketHoennS4_Carta_Andra_Texto_7:
 	.string "por suerte pudimos hacer copias que\l"
 	.string "actúan como las originales; las tienes\l"
 	.string "al lado.$"
+
+BaseRocketHoennS4_Carta_Andra_Texto_7.1:
+	.string "Con ello podrás activar sus formas\n"
+	.string "primigenias, obteniendo así datos para\l"
+	.string "lograr clonarlas en un futuro, también…$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_8:
 	.string "… …$"

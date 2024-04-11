@@ -2840,3 +2840,15 @@ Text_EVChecker_3:
 	.include "data/maps/GameCorner_Mauville_Hideout_S1/scripts.inc"
 
 	.include "data/maps/GameCorner_Mauville_Hideout_S2/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S1/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S2/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S3/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S4/scripts.inc"
+
+	.include "data/maps/Snowpoint_Templo_S5/scripts.inc"

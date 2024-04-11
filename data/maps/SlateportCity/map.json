@@ -92,7 +92,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_AquaGrunt1",
+      "script": "SlateportCity_Cuarto_Bloqueo",
       "flag": "FLAG_HOENN_6"
     },
     {
@@ -136,8 +136,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
-      "x": 29,
-      "y": 13,
+      "x": 0,
+      "y": 2,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
@@ -161,11 +161,11 @@
       "flag": "FLAG_HOENN_6"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_SCIENTIST_1",
+      "graphics_id": "OBJ_EVENT_GFX_SAILOR",
       "x": 28,
       "y": 13,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_FACE_DOWN",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -261,7 +261,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_AquaGrunt2",
+      "script": "SlateportCity_Primer_Bloqueo",
       "flag": "FLAG_HOENN_6"
     },
     {
@@ -274,7 +274,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_AquaGrunt3",
+      "script": "SlateportCity_Tercer_Bloqueo",
       "flag": "FLAG_HOENN_6"
     },
     {
@@ -356,35 +356,35 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 22,
-      "y": 27,
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_M",
+      "x": 18,
+      "y": 8,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_EventScript_AquaGrunt4",
-      "flag": "FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA"
+      "flag": "FLAG_HOENN_6"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 23,
-      "y": 27,
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "x": 19,
+      "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_EventScript_AquaGrunt5",
-      "flag": "FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA"
+      "flag": "FLAG_HOENN_6"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 24,
-      "y": 27,
+      "x": 2,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
       "movement_range_x": 1,
@@ -395,17 +395,17 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 21,
-      "y": 26,
+      "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
+      "x": 20,
+      "y": 7,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_EventScript_AquaGrunt7",
-      "flag": "FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA"
+      "flag": "FLAG_HOENN_6"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_CAMERAMAN",
@@ -417,13 +417,13 @@
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "SlateportCity_EventScript_AquaGrunt8",
+      "script": "SlateportCity_Segundo_Bloqueo",
       "flag": "FLAG_HOENN_6"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 26,
-      "y": 27,
+      "x": 1,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -435,8 +435,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 28,
-      "y": 27,
+      "x": 0,
+      "y": 3,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_FACE_UP",
       "movement_range_x": 1,
@@ -447,17 +447,17 @@
       "flag": "FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_AQUA_MEMBER_M",
-      "x": 25,
-      "y": 27,
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "x": 17,
+      "y": 9,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_LOOK_AROUND",
       "movement_range_x": 1,
       "movement_range_y": 1,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "SlateportCity_EventScript_AquaGrunt11",
-      "flag": "FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA"
+      "flag": "FLAG_HOENN_6"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POKEFAN_F",
@@ -473,7 +473,7 @@
       "flag": "0"
     },
     {
-      "graphics_id": "OBJ_EVENT_GFX_REPORTER_F",
+      "graphics_id": "OBJ_EVENT_GFX_REPORTER_M",
       "x": 16,
       "y": 6,
       "elevation": 0,
@@ -482,7 +482,7 @@
       "movement_range_y": 2,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "0x0",
+      "script": "SlateportCity_Quinto_Bloqueo",
       "flag": "FLAG_HOENN_6"
     }
   ],
@@ -574,6 +574,51 @@
       "var": "VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE",
       "var_value": "2",
       "script": "SlateportCity_EventScript_ScottBattleTentScene"
+    },
+    {
+      "type": "trigger",
+      "x": 19,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "SlateportCity_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 18,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "SlateportCity_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 17,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "SlateportCity_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 16,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "SlateportCity_Llamada_Giovanni"
+    },
+    {
+      "type": "trigger",
+      "x": 20,
+      "y": 10,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "SlateportCity_Llamada_Giovanni"
     }
   ],
   "bg_events": [

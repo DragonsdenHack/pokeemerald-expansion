@@ -295,3 +295,15 @@ Route118_Text_RouteSign119:
 	.string "ROUTE 118\n"
 	.string "{UP_ARROW} ROUTE 119$"
 
+Route118_Kecleon::
+lock
+playmoncry SPECIES_KECLEON, CRY_MODE_ENCOUNTER
+msgbox Route118_Kecleon_Texto_1 MSGBOX_SIGN
+release
+end
+
+Route118_Kecleon_Texto_1:
+	.string "Estos KECLEON no parecen tener\n"
+	.string "intención de irse.$"
+
+

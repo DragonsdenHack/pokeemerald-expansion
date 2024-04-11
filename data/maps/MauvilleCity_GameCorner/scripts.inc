@@ -773,3 +773,61 @@ MauvilleCity_GameCorner_Text_CantPlayWithNoCoinCase:
 	.string "You can't play if you don't have\n"
 	.string "a COIN CASE.$"
 
+
+
+MauvilleCity_GameCorner_Tristana::
+lock
+faceplayer
+msgbox MauvilleCity_GameCorner_Tristana_Texto_1 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_GameCorner_Tristana_Texto_2 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_GameCorner_Tristana_Texto_3 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_GameCorner_Tristana_Texto_4 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_GameCorner_Tristana_Texto_5 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_GameCorner_Tristana_Texto_6 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_GameCorner_Tristana_Texto_7 MSGBOX_AUTOCLOSE
+msgbox MauvilleCity_GameCorner_Tristana_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+MauvilleCity_GameCorner_Tristana_Texto_1:
+	.string "TRISTANA: ¡{PLAYER}! Por lo que sé,\n"
+	.string "has hecho algo de ruído en\l"
+	.string "MALVALANOVA, ¿no?$"
+
+MauvilleCity_GameCorner_Tristana_Texto_2:
+	.string "¿Sabes una cosa? En realidad ese lugar\n"
+	.string "tiene otros 69 pisos subterráneos. Fue\l"
+	.string "parte de un ambicioso proyecto para\l"
+	.string "expandir CIUDAD MALVALONA.$"
+
+MauvilleCity_GameCorner_Tristana_Texto_3:
+	.string "No preguntes cómo, pero sé también\n"
+	.string "cómo acceder a todos esos pisos\l"
+	.string "inferiores, es como una ciudad en\l"
+	.string "ruinas, aunque…$"
+
+MauvilleCity_GameCorner_Tristana_Texto_4:
+	.string "Lo cierto es que no hay nada\n"
+	.string "interesante allí, toda la maquinaria se\l"
+	.string "ha echado a perder por la humedad y el\l"
+	.string "paso del tiempo.$"
+
+MauvilleCity_GameCorner_Tristana_Texto_5:
+	.string "Si lo que quieres es ver lugares\n"
+	.string "ocultos, que gente como ese niño de\l"
+	.string "VERDEGAL o el hijo de ese LÍDER de\l"
+	.string "GIMNASIO jamás verán… investigaría a\l"
+	.string "fondo este CASINO.$"
+
+MauvilleCity_GameCorner_Tristana_Texto_6:
+	.string "… …$"
+
+MauvilleCity_GameCorner_Tristana_Texto_7:
+	.string "Oh… parece que no te ha sorprendido lo\n"
+	.string "que acabo de decir. ¿Será que no es la\l"
+	.string "primera vez que vives algo así?$"
+
+MauvilleCity_GameCorner_Tristana_Texto_8:
+	.string "Entonces, si alguna vez voy a KANTO,\n"
+	.string "¡miraré detrás de todos los carteles del\l"
+	.string "CASINO AZULONA!$"

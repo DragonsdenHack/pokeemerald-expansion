@@ -682,3 +682,15 @@ MauvilleCity_Devon_Malvalanova_Texto_4:
 	.string "ERICO: No hay prisa, estaré en mi\n"
 	.string "GIMNASIO para cualquier cosa que\l"
 	.string "necesitéis.$"
+
+MauvilleCity_Bloqueo_Casino::
+lock
+msgbox MauvilleCity_Bloqueo_Casino_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+MauvilleCity_Bloqueo_Casino_Texto_1:
+	.string "El CASINO está cerrado debido a su alto\n"
+	.string "consumo energético, por seguridad no\l"
+	.string "abrirá hasta que DEVON termine sus\l"
+	.string "pruebas en MALVALANOVA.$"
