@@ -30764,6 +30764,7 @@ const u32 gTMHMLearnsets[][4] =
                                             | TMHM(TM12_TAUNT)
                                             | TMHM(TM15_HYPER_BEAM)
                                             | TMHM(TM17_PROTECT)
+                                            | TMHM(TM29_PSYCHIC)
                                             | TMHM(TM30_SHADOW_BALL)
                                             | TMHM(TM42_FACADE)
                                             | TMHM(TM44_REST)
