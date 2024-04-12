@@ -388,3 +388,101 @@ SlateportCity_OceanicMuseum_1F_Text_DepthMeasuringMachine:
 	.string	"Quizás sirva para medir la\n"
 	.string	"profundidad de algo…$"
 
+SlateportCity_Entrevista_Presidente::
+lock
+msgbox SlateportCity_Entrevista_Presidente_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_8 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_9 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_10 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_11 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Entrevista_Presidente_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Entrevista_Presidente_Texto_1:
+	.string "ENTREVISTADORA: Toda HOENN está\n"
+	.string "fascinada con su meteórico ascenso,\l"
+	.string "SR.PEÑAS. Sabemos que su familia\l"
+	.string "siempre se dedicó al estudio de los\l"
+	.string "FÓSILES y la arqueología. ¿Cómo unos\l"
+	.string "orígenes tan humildes han acabado\l"
+	.string "llevándolo hasta aquí?$"
+
+SlateportCity_Entrevista_Presidente_Texto_2:
+	.string "SR.PEÑAS: Si le digo la verdad, que\n"
+	.string "DEVON llegara tan lejos y expandiese\l"
+	.string "tanto sus competencias no es algo que\l"
+	.string "buscara.$"
+
+SlateportCity_Entrevista_Presidente_Texto_3:
+	.string "Llegó como consecuencia de mejorar\n"
+	.string "cada vez más nuestras tecnologías\l"
+	.string "para el estudio de FÓSILES y demás\l"
+	.string "rocas extrañas. Nos dimos cuenta de\l"
+	.string "que muchas de estas tecnologías\l"
+	.string "podían tener aplicación en otros\l"
+	.string "ámbitos.$"
+
+SlateportCity_Entrevista_Presidente_Texto_4:
+	.string "ENTREVISTADORA: Tecnologías como la\n"
+	.string "de resurreción de FÓSILES o los\l"
+	.string "modernos submarinos del astillero, ¿no?$"
+
+SlateportCity_Entrevista_Presidente_Texto_5:
+	.string "SR.PEÑAS: Así es, ante todo me\n"
+	.string "considero un estudioso de la historia\l"
+	.string "de HOENN. El estar agradecido con esta\l"
+	.string "región ha hecho que quiera poner mi\l"
+	.string "granito de arena, y contribuir así en su\l"
+	.string "desarrollo.$"
+
+SlateportCity_Entrevista_Presidente_Texto_6:
+	.string "ENTREVISTADORA: Tanto que la ESTACIÓN\n"
+	.string "ESPACIAL de CIUDAD ALGARIA también\l"
+	.string "bebe de vuestros aportes científicos.\l"
+	.string "Para un hombre como usted que ya lo ha\l"
+	.string "conseguido todo en la tierra, ¿está en\l"
+	.string "el espacio el siguiente reto?$"
+
+SlateportCity_Entrevista_Presidente_Texto_7:
+	.string "SR.PEÑAS: Mentiría si dijera que no me\n"
+	.string "interesa, pero lo cierto es que queda\l"
+	.string "mucho por descubrir en nuestra propia\l"
+	.string "región. Los mares de HOENN son\l"
+	.string "inmensos, ¿sabe? La cantidad de\l"
+	.string "misterios y lugares ocultos allí,\l"
+	.string "enterrados por el tiempo, aún pueden\l"
+	.string "asombrarnos.$"
+
+SlateportCity_Entrevista_Presidente_Texto_8:
+	.string "ENTREVISTADORA: Pero no descarta un\n"
+	.string "viaje a la Luna, ¿verdad?$"
+
+SlateportCity_Entrevista_Presidente_Texto_9:
+	.string "SR.PEÑAS: Por supuesto que no, como\n"
+	.string "tampoco descarto un viaje a las fosas\l"
+	.string "más profundas que pueda haber en\l"
+	.string "HOENN. Después de todo, solo las cosas\l"
+	.string "sagradas merecen que pongamos las\l"
+	.string "manos sobre ellas.$"
+
+SlateportCity_Entrevista_Presidente_Texto_10:
+	.string "ENTREVISTADORA: Tiempos interesantes\n"
+	.string "nos esperan entonces. Muchas gracias\l"
+	.string "por la entrevista, SR.PEÑAS.$"
+
+SlateportCity_Entrevista_Presidente_Texto_11:
+	.string "NORMAN: Disculpe, PRESIDENTE. ¿Podemos\n"
+	.string "hablar un momento?$"
+
+SlateportCity_Entrevista_Presidente_Texto_12:
+	.string "SR.PEÑAS: Ah, el nuevo LÍDER de CIUDAD\n"
+	.string "PETALIA, ¿no es así? Claro, pase,\l"
+	.string "estaremos más cómodos aquí.$"
+

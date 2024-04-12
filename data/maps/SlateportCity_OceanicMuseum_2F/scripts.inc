@@ -447,3 +447,164 @@ SlateportCity_OceanicMuseum_2F_Text_SSAnneReplica:
 	.string	"“Una réplica de un transatlántico de\n"
 	.string	"lujo que navega por todo el mundo.”$"
 
+SlateportCity_Dialogo_Norman::
+lock
+msgbox SlateportCity_Dialogo_Norman_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_8 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_9 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_10 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_11 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_12 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_13 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_14 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_15 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_16 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_17 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_18 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_19 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_20 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_21 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_22 MSGBOX_AUTOCLOSE
+msgbox SlateportCity_Dialogo_Norman_Texto_23 MSGBOX_AUTOCLOSE
+release
+end
+
+SlateportCity_Dialogo_Norman_Texto_1:
+	.string "SR.PEÑAS: Entonces su familia también\n"
+	.string "se mudará pronto a HOENN, ¿VILLARAÍZ?\l"
+	.string "Es un buen lugar para empezar de 0,\l"
+	.string "créame.$"
+
+SlateportCity_Dialogo_Norman_Texto_2:
+	.string "NORMAN: Así es, en cuestión de pocos\n"
+	.string "meses tanto mi esposa como mi hijo\l"
+	.string "también estarán aquí.$"
+
+SlateportCity_Dialogo_Norman_Texto_3:
+	.string "SR.PEÑAS: ¿Qué edad tiene su hijo?$"
+
+SlateportCity_Dialogo_Norman_Texto_4:
+	.string "NORMAN: 10 años, es muy joven aún pero\n"
+	.string "ya quiere 'iniciar su aventura' como\l"
+	.string "tantos otros jóvenes.$"
+
+SlateportCity_Dialogo_Norman_Texto_5:
+	.string "SR.PEÑAS: Algo muy común en estos días,\n"
+	.string "la tecnología actual y el control total\l"
+	.string "sobre el terreno, las rutas y\l"
+	.string "conexiones entre ellas lo ha hecho\l"
+	.string "posible.$"
+
+SlateportCity_Dialogo_Norman_Texto_6:
+	.string "Antaño el mundo era mucho más amplio y\n"
+	.string "salvaje, exigía mucha más preparación y\l"
+	.string "no perdonaba los errores, pero también\l"
+	.string "era más libre.$"
+
+SlateportCity_Dialogo_Norman_Texto_7:
+	.string "No digo que fuera mejor antes, pero es\n"
+	.string "innegable que la palabra 'aventura' ha\l"
+	.string "perdido mucho valor en estos tiempos.\l"
+	.string "Para muchos no dista mucho de ser un\l"
+	.string "juego, en el que todas las variables\l"
+	.string "están bajo control.$"
+
+SlateportCity_Dialogo_Norman_Texto_8:
+	.string "NORMAN: De eso quería hablarle,\n"
+	.string "SR.PEÑAS. No es que apruebe del todo\l"
+	.string "esa masificación por la que muchos\l"
+	.string "niños ahora son entrenadores, pero si\l"
+	.string "se da ese fenómeno, habrá que\l"
+	.string "asegurarse de que crecen y se\l"
+	.string "desarrollan en el entorno más seguro\l"
+	.string "posible.$"
+
+SlateportCity_Dialogo_Norman_Texto_9:
+	.string "¿Ha oído hablar del TEAM MAGMA y el\n"
+	.string "TEAM AQUA?$"
+
+SlateportCity_Dialogo_Norman_Texto_10:
+	.string "SR.PEÑAS: Unos extremistas sin\n"
+	.string "fundamento. ¿Le preocupa que su hijo\l"
+	.string "se exponga a esos criminales de cuarta?$"
+
+SlateportCity_Dialogo_Norman_Texto_11:
+	.string "NORMAN: Bueno, he oído que usted tiene\n"
+	.string "también un hijo, ¿le gustaría qué…?$"
+
+SlateportCity_Dialogo_Norman_Texto_12:
+	.string "SR.PEÑAS: ¿Y no cree usted que son\n"
+	.string "precisamente esas situaciones el tipo\l"
+	.string "de emociones fuertes que necesitan?$"
+
+SlateportCity_Dialogo_Norman_Texto_13:
+	.string "NORMAN: Sí, pero… ¿Y si se va de las\n"
+	.string "manos? ¿Y si acaban logrando sus\l"
+	.string "objetivos y despiertan a GROUDON y\l"
+	.string "KYOGRE?$"
+
+SlateportCity_Dialogo_Norman_Texto_14:
+	.string "SR.PEÑAS: ¿Conoce al TEAM ROCKET?$"
+
+SlateportCity_Dialogo_Norman_Texto_15:
+	.string "NORMAN: Mmm… solo de oídas.$"
+
+SlateportCity_Dialogo_Norman_Texto_16:
+	.string "SR.PEÑAS: Si algo nos ha enseñado el\n"
+	.string "TEAM ROCKET, es que el poder de los\l"
+	.string "legendarios está sobrevalorado: al\l"
+	.string "igual que el resto de mortales, caen\l"
+	.string "ante la oposición adecuada.$"
+
+SlateportCity_Dialogo_Norman_Texto_17:
+	.string "No se preocupe NORMAN, si cualquiera de\n"
+	.string "los LEGENDARIOS implicados se saliera\l"
+	.string "de control en exceso, tenemos\l"
+	.string "herramientas suficientes para\l"
+	.string "devolverle a su eterno letargo en\l"
+	.string "cuestión de segundos.$"
+
+SlateportCity_Dialogo_Norman_Texto_18:
+	.string "En cuanto a su hijo, puede estar\n"
+	.string "tranquilo. Toda la meticulosa\l"
+	.string "estructura de este sistema se\l"
+	.string "encargará tanto de su seguridad como\l"
+	.string "de pre establecer de antemano el límite\l"
+	.string "al que puede llegar en esta 'aventura'.$"
+
+SlateportCity_Dialogo_Norman_Texto_19:
+	.string "NORMAN: Lo prefiero así, al menos por\n"
+	.string "ahora. Pero no dé tanto por hecho,\l"
+	.string "SR.PEÑAS. Sé reconocer el talento, y mi\l"
+	.string "hijo lo tiene. No creo que le baste solo\l"
+	.string "con obtener un par de MEDALLAS y\l"
+	.string "deambular por las rutas.$"
+
+SlateportCity_Dialogo_Norman_Texto_20:
+	.string "SR.PEÑAS: Estaré atento entonces,\n"
+	.string "puede que incluso se lleve bien con mi\l"
+	.string "hijo. ¿Se imagina a ambos compartiendo\l"
+	.string "experiencias vitales dentro de esta\l"
+	.string "burbuja? ¿O luchando por el CAMPEONATO\l"
+	.string "de la LIGA POKÉMON?$"
+
+SlateportCity_Dialogo_Norman_Texto_21:
+	.string "NORMAN: Sería grato.$"
+
+SlateportCity_Dialogo_Norman_Texto_22:
+	.string "Ha sido un placer hablar con usted,\n"
+	.string "SR.PEÑAS. Me ha aclarado muchas dudas.$"
+
+SlateportCity_Dialogo_Norman_Texto_23:
+	.string "SR.PEÑAS: A usted. Nos mantendremos en\n"
+	.string "la distancia, fingiendo ser meros\l"
+	.string "espectadores. Será la mejor forma de\l"
+	.string "disfrutar del devenir de nuestros\l"
+	.string "hijos.$"
+
