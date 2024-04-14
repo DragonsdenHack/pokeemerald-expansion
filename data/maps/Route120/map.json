@@ -849,8 +849,8 @@
     },
     {
       "type": "secret_base",
-      "x": 5,
-      "y": 76,
+      "x": 3,
+      "y": 73,
       "elevation": 0,
       "secret_base_id": "SECRET_BASE_SHRUB1_4"
     }

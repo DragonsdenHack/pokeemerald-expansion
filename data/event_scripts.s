@@ -2852,3 +2852,13 @@ Text_EVChecker_3:
 	.include "data/maps/Snowpoint_Templo_S4/scripts.inc"
 
 	.include "data/maps/Snowpoint_Templo_S5/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_1/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_2/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_3/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_4/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_5/scripts.inc"

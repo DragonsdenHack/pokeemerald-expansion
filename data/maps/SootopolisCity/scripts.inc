@@ -1724,3 +1724,100 @@ SootopolisCity_Text_DazzledByMentor:
 	.string	"PLUBIO: Estoy convencido de que\n"
 	.string	"el impresionantemente elegante estilo\l"
 	.string	"de lucha de mi mentor te asombrará.$"
+
+SootopolisCity_Andra::
+lock
+msgbox SootopolisCity_Andra_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_8 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_9 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_10 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_11 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_12 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_13 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_14 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_15 MSGBOX_AUTOCLOSE
+msgbox SootopolisCity_Andra_Texto_16 MSGBOX_AUTOCLOSE
+release
+end
+
+SootopolisCity_Andra_Texto_1:
+	.string "GALANO: Ha sido impresionante, jamás\n"
+	.string "había visto manejar unos POKÉMON con\l"
+	.string "semejante destreza.$"
+
+SootopolisCity_Andra_Texto_2:
+	.string "Con ese nivel, podrías aspirar al título\n"
+	.string "de CAMPEÓN. Qué aspirar… ¡sin duda lo\l"
+	.string "ganarías!$"
+
+SootopolisCity_Andra_Texto_3:
+	.string "ANDRA: No está entre mis objetivos,\n"
+	.string "pero gracias por el cumplido.$"
+
+SootopolisCity_Andra_Texto_4:
+	.string "GALANO: Y ese MILOTIC tuyo… Creí que\n"
+	.string "el de PLUBIO era insuperable, ¡pero el\l"
+	.string "tuyo roza límites sagrados!$"
+
+SootopolisCity_Andra_Texto_5:
+	.string "ANDRA: ¿PLUBIO?$"
+
+SootopolisCity_Andra_Texto_6:
+	.string "GALANO: ¡Oh, chica! ¿En qué mundo\n"
+	.string "vives? ¡PLUBIO es el actual CAMPEÓN de\l"
+	.string "HOENN!$"
+
+SootopolisCity_Andra_Texto_7:
+	.string "Antes era LÍDER de CIUDAD\n"
+	.string "ARRECÍPOLIS, pero se veía a leguas que\l"
+	.string "estaba para más.$"
+
+SootopolisCity_Andra_Texto_8:
+	.string "ANDRA: Por lo que has dicho, debe ser un\n"
+	.string "notable entrenador, pero lejos de lo\l"
+	.string "que yo he podido ver.$"
+
+SootopolisCity_Andra_Texto_9:
+	.string "GALANO: Sí, pero… esta ciudad es muy\n"
+	.string "antigua, y por suerte muchos eventos\l"
+	.string "históricos no han caído en el olvido.$"
+
+SootopolisCity_Andra_Texto_10:
+	.string "ANDRA: Ya los conozco. La batalla entre\n"
+	.string "KYOGRE y GROUDON. No me despierta el\l"
+	.string "más mínimo interés, dioses jugando\l"
+	.string "entre ellos a ver quien…$"
+
+SootopolisCity_Andra_Texto_11:
+	.string "GALANO: No tan rápido chica, yo hablaba\n"
+	.string "de otro evento.$"
+
+SootopolisCity_Andra_Texto_12:
+	.string "ANDRA: ¿Otro?$"
+
+SootopolisCity_Andra_Texto_13:
+	.string "GALANO: Este tipo de información solo\n"
+	.string "es conocida por los líderes de\l"
+	.string "ARRECÍPOLIS y los guardianes de CUEVA\l"
+	.string "ANCESTRAL, no debería hacer esto,\l"
+	.string "pero…$"
+
+SootopolisCity_Andra_Texto_14:
+	.string "MILOTIC siempre ha sido un POKÉMON muy\n"
+	.string "venerado aquí, ¿sabes? Que tú tengas\l"
+	.string "uno tan especial… siento que debes\l"
+	.string "saber acerca de estas leyendas.$"
+
+SootopolisCity_Andra_Texto_15:
+	.string "ANDRA: Puede que sí me interese.$"
+
+SootopolisCity_Andra_Texto_16:
+	.string "GALANO: Nos vemos en CUEVA ANCESTRAL\n"
+	.string "entonces.$"
+	

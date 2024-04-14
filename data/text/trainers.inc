@@ -17844,6 +17844,43 @@ NewMauville_Inside_Text_TercerCientificoPostBattle:
 	.string "una tarea difícil, hay que quedar bien\l"
 	.string "con mucha gente.$"
 
+AbandonedShip_Text_PrimerPoliciaIntro:
+	.string "Se supone que ninguno de esos\n"
+	.string "mediocres turistas tiene la capacidad\l"
+	.string "suficiente como para usar BUCEO. ¿Quién\l"
+	.string "eres tú?$"
+
+AbandonedShip_Text_PrimerPoliciaDefeat:
+	.string "Eres ese ROCKET…$"
+
+AbandonedShip_Text_PrimerPoliciaPostBattle:
+	.string "Si sigues molestando a DEVON vas a\n"
+	.string "terminar muy mal.$"
+
+AbandonedShip_Text_SegundoPoliciaIntro:
+	.string "Estamos en una misión de alto secreto,\n"
+	.string "¡nadie debe enterarse!$"
+
+AbandonedShip_Text_SegundoPoliciaDefeat:
+	.string "¡No se lo digas a nadie!$"
+
+AbandonedShip_Text_SegundoPoliciaPostBattle:
+	.string "Nadie ha pisado este lugar en años, en\n"
+	.string "algún momento el agua lo engullirá.$"
+
+AbandonedShip_Text_TercerPoliciaIntro:
+	.string "Muchos objetos valiosos se perdieron\n"
+	.string "en este barco, uno en concreto es\l"
+	.string "especialmente valioso.$"
+
+AbandonedShip_Text_TercerPoliciaDefeat:
+	.string "¡No debí decir eso!$"
+
+AbandonedShip_Text_TercerPoliciaPostBattle:
+	.string "Ahora que lo pienso,¡ los ADMIN. de\n"
+	.string "DEVON me regañarán por haberte\l"
+	.string "contado eso!$"
+
 
 
 

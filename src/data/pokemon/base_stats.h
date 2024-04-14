@@ -29430,7 +29430,7 @@ const struct BaseStats gBaseStats[] =
 
     [SPECIES_JIRACHI_PRIMAL] =
     {
-        .baseHP        = 100,
+        .baseHP        = 110,
         .baseAttack    = 75,
         .baseDefense   = 150,
         .baseSpeed     = 100,

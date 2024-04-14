@@ -16973,6 +16973,7 @@ const u32 gTMHMLearnsets[][4] =
 
     [SPECIES_ELECTIVIRE]  = TMHM_LEARNSET(TMHM(TM01_FOCUS_PUNCH)
                                             | TMHM(TM06_TOXIC)
+                                            | TMHM(TM08_BULK_UP)
                                             | TMHM(TM10_HIDDEN_POWER)
                                             | TMHM(TM12_TAUNT)
                                             | TMHM(TM15_HYPER_BEAM)
