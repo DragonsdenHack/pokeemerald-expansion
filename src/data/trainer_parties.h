@@ -22790,7 +22790,7 @@ static const struct TrainerMonItemCustomMoves sParty_Petra[] = {
 static const struct TrainerMonItemCustomMoves sParty_Marcial[] = {
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 108,
     .species = SPECIES_HITMONTOP,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {252, 252, 0, 0, 0, 0},
@@ -22799,7 +22799,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marcial[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 109,
     .species = SPECIES_BLAZIKEN,
     .heldItem = ITEM_FOCUS_SASH,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -22808,7 +22808,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marcial[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 109,
     .species = SPECIES_HERACROSS,
     .heldItem = ITEM_CHOICE_SCARF,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -22817,7 +22817,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marcial[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 110,
     .species = SPECIES_MACHAMP,
     .heldItem = ITEM_FLAME_ORB,
     .evs = {6, 252, 0, 252, 0, 0},
@@ -22826,7 +22826,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marcial[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 110,
     .species = SPECIES_HARIYAMA,
     .heldItem = ITEM_ASSAULT_VEST,
     .evs = {60, 252, 252, 60, 60, 60},
@@ -22835,7 +22835,7 @@ static const struct TrainerMonItemCustomMoves sParty_Marcial[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 111,
     .species = SPECIES_MEDICHAM,
     .heldItem = ITEM_MEDICHAMITE,
     .evs = {120, 252, 120, 252, 120, 120},

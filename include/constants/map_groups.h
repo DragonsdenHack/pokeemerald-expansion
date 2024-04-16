@@ -1403,6 +1403,7 @@
 #define MAP_NAO_ABANDONADA_4                             (52 | (54 << 8))
 #define MAP_NAO_ABANDONADA_5                             (53 | (54 << 8))
 #define MAP_NAO_ABANDONADA_6                             (54 | (54 << 8))
+#define MAP_GRANITE_CAVE_3F                              (55 | (54 << 8))
 
 // gMapGroup_IndoorSnowPoint
 #define MAP_SNOWPOINT_PKMN_CENTER (0 | (55 << 8))
@@ -1418,6 +1419,6 @@
 
 #define MAP_GROUPS_COUNT 56
 
-// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 30, 20, 12, 17, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 10, 17, 10, 23, 13, 15, 15, 108, 61, 89, 55, 10, 0};
+// static const u8 MAP_GROUP_COUNT[] = {61, 47, 34, 43, 6, 9, 9, 21, 23, 14, 7, 7, 11, 98, 5, 10, 8, 10, 8, 30, 20, 12, 17, 21, 2, 72, 84, 4, 4, 7, 7, 4, 4, 6, 80, 5, 5, 6, 7, 8, 9, 7, 7, 14, 10, 17, 10, 23, 13, 15, 15, 108, 61, 89, 56, 10, 0};
 
 #endif // GUARD_CONSTANTS_MAP_GROUPS_H

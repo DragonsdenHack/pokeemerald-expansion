@@ -376,20 +376,20 @@ DewfordTown_Gym_Text_CristianPostBattle:
 	.string "¡Me has ganado a mí! ¡A por la MEDALLA!$"
 
 DewfordTown_Gym_Text_BrawlyIntro:
-	.string "I'm BRAWLY!\n"
-	.string "DEWFORD's GYM LEADER!\p"
-	.string "I've been churned in the rough waves\n"
-	.string "of these parts, and I've grown tough\l"
-	.string "in the pitch-black cave!\p"
-	.string "So you wanted to challenge me?\n"
-	.string "Let me see what you're made of!$"
+	.string	"¡Soy MARCIAL!\n"
+	.string	"¡El LÍDER del GIMNASIO de AZULIZA!\p"
+	.string	"He templado mi carácter entre las\n"
+	.string	"fieras olas de este lugar y me he\l"
+	.string	"endurecido en esta oscura cueva.\p"
+	.string	"¿Quieres desafiarme?\n"
+	.string	"Vamos a ver de qué eres capaz…$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
-	.string "Whoah, wow! You made a much bigger\n"
-	.string "splash than I expected!\p"
-	.string "You swamped me!\p"
-	.string "Okay, you've got me.\n"
-	.string "Take this GYM BADGE!$"
+	.string	"¡Guau y doble guau! ¡Eres peor que\n"
+	.string	"un maremoto! No lo esperaba…\p"
+	.string	"¡Estoy hundido en la miseria!\p"
+	.string	"De acuerdo. Te la has ganado.\n"
+	.string	"¡Toma esta MEDALLA de GIMNASIO!$"
 
 DewfordTown_Gym_Text_ReceivedKnuckleBadge:
 	.string	"{PLAYER} recibió la MEDALLA PUÑO\n"
@@ -440,9 +440,9 @@ DewfordTown_Gym_Text_BrawlyRematchDefeat:
 	.string "Swamped again!$"
 
 DewfordTown_Gym_Text_BrawlyPostRematch:
-	.string "BRAWLY: Battling is vast and it's deep.\n"
-	.string "You can't see the bottom.\l"
-	.string "It's just like the sea of HOENN!$"
+	.string	"MARCIAL: Combatir es algo muy profundo.\n"
+	.string	"Nunca acabas de llegar al fondo.\l"
+	.string	"¡Igual que el mar de HOENN!$"
 
 DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "BRAWLY: A wave may draw back, but it\n"
@@ -453,3 +453,23 @@ DewfordTown_Gym_Text_BrawlyRematchNeedTwoMons:
 	.string "that can battle.\p"
 	.string "I'm sorry, but I'd like you to come back\n"
 	.string "with at least two POKéMON.$"
+
+DewfordTown_Gym_Combate_Marcial::
+lock
+faceplayer
+goto_if_set FLAG_SYS_CAVE_BATTLE, LavaridgeTown_Gym_Combate_Marcial_Despues
+msgbox DewfordTown_Gym_Text_BrawlyIntro MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_MARCIAL, DewfordTown_Gym_Text_BrawlyDefeat
+setflag FLAG_SYS_CAVE_BATTLE
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox DewfordTown_Gym_Text_ReceivedKnuckleBadge MSGBOX_DEFAULT
+waitfanfare
+msgbox DewfordTown_Gym_Text_BrawlyPostRematch MSGBOX_AUTOCLOSE
+release
+end
+
+LavaridgeTown_Gym_Combate_Marcial_Despues::
+msgbox DewfordTown_Gym_Text_BrawlyPostRematch MSGBOX_AUTOCLOSE
+release
+end

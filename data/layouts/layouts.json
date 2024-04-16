@@ -14676,6 +14676,18 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/NaoAbandonada_7/border.bin",
       "blockdata_filepath": "data/layouts/NaoAbandonada_7/map.bin"
+    },
+    {
+      "id": "LAYOUT_GRANITE_CAVE_3F",
+      "name": "GraniteCave_3F_Layout",
+      "width": 20,
+      "height": 20,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_mt_ember",
+      "border_filepath": "data/layouts/GraniteCave_3F/border.bin",
+      "blockdata_filepath": "data/layouts/GraniteCave_3F/map.bin"
     }
   ]
 }

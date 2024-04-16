@@ -44,3 +44,12 @@ Route106_Text_TrainerTips:
 	.string "Advice on catching POKéMON with a ROD:\n"
 	.string "Press the A Button if you get a bite.$"
 
+Route106_Tristana::
+lock
+msgbox Route106_Tristana_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Route106_Tristana_Texto_1:
+	.string "Está durmiendo...$"
+

@@ -1820,4 +1820,6 @@ SootopolisCity_Andra_Texto_15:
 SootopolisCity_Andra_Texto_16:
 	.string "GALANO: Nos vemos en CUEVA ANCESTRAL\n"
 	.string "entonces.$"
+
+
 	

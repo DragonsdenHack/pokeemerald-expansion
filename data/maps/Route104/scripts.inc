@@ -1155,3 +1155,33 @@ Route104_Text_BrendanPostBattle:
 	.string "making POKéMON battle.\p"
 	.string "Like MR. BRINEY, it's important to\n"
 	.string "become friends with your POKéMON.$"
+
+Route104_Primer_Periodista::
+lock
+msgbox Route104_Primer_Periodista_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Route104_Primer_Periodista_Texto_1:
+	.string "¡Maldición, desde aquí no se puede\n"
+	.string "enfocar bien a NORMAN!$"
+
+Route104_Segundo_Periodista::
+lock
+msgbox Route104_Segundo_Periodista_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Route104_Segundo_Periodista_Texto_1:
+	.string "¡El nuevo LÍDER de CIUDAD PETALIA es\n"
+	.string "ya toda una celebridad!$"
+
+Route104_Frontera_Bosque::
+lock
+msgbox Route104_Frontera_Bosque_Texto_1 MSGBOX_AUTOCLOSE
+release
+end
+
+Route104_Frontera_Bosque_Texto_1:
+	.string "Tengo cosas más importantes que hacer\n"
+	.string "en HOENN que pasearme.$"

@@ -1511,3 +1511,13 @@ SlateportCity_Llamada_Giovanni_Texto_12:
 	.string "Estamos en contacto. DEVON podrá\n"
 	.string "ocultar a HOENN sus verdaderas\l"
 	.string "intenciones, pero no al TEAM ROCKET.$"
+
+SlateportCity_Bloqueo_Puerto::
+lock
+msgbox SlateportCity_Bloqueo_Puerto_Texto_1 MSGBOX_NPC
+release
+end
+
+SlateportCity_Bloqueo_Puerto_Texto_1:
+	.string "El puerto ahora mismo no está abierto al\n"
+	.string "público. Disculpe las molestias.$"

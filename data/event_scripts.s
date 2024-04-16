@@ -2866,3 +2866,5 @@ Text_EVChecker_3:
 	.include "data/maps/NaoAbandonada_6/scripts.inc"
 
 	.include "data/maps/NaoAbandonada_7/scripts.inc"
+
+	.include "data/maps/GraniteCave_3F/scripts.inc"
