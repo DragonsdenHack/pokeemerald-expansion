@@ -118,7 +118,8 @@
     "Underwater_Route125",
     "CuevaHypno_2",
     "Route49_dESCAN",
-    "TorreDunsparce_P3"
+    "TorreDunsparce_P3",
+    "NaoAbandonada_7"
   ],
   "gMapGroup_TownsAndRoutesKANTO": [
     "PalletTown",
@@ -1453,7 +1454,8 @@
     "NaoAbandonada_2",
     "NaoAbandonada_3",
     "NaoAbandonada_4",
-    "NaoAbandonada_5"
+    "NaoAbandonada_5",
+    "NaoAbandonada_6"
   ],
   "gMapGroup_IndoorSnowPoint": [
     "Snowpoint_PkmnCenter",

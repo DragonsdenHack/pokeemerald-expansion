@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "NULL",
+      "script": "AbandonedShip_EventScript_Quinto_Policia",
       "flag": "FLAG_HOENN_11"
     },
     {
@@ -37,7 +37,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "3",
-      "script": "NULL",
+      "script": "AbandonedShip_EventScript_Cuarto_Policia",
       "flag": "FLAG_HOENN_11"
     }
   ],

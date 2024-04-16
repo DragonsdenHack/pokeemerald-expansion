@@ -2862,3 +2862,7 @@ Text_EVChecker_3:
 	.include "data/maps/NaoAbandonada_4/scripts.inc"
 
 	.include "data/maps/NaoAbandonada_5/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_6/scripts.inc"
+
+	.include "data/maps/NaoAbandonada_7/scripts.inc"

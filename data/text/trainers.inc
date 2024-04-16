@@ -17877,9 +17877,31 @@ AbandonedShip_Text_TercerPoliciaDefeat:
 	.string "¡No debí decir eso!$"
 
 AbandonedShip_Text_TercerPoliciaPostBattle:
-	.string "Ahora que lo pienso,¡ los ADMIN. de\n"
+	.string "Ahora que lo pienso, ¡los ADMIN. de\n"
 	.string "DEVON me regañarán por haberte\l"
 	.string "contado eso!$"
+
+AbandonedShip_Text_CuartoPoliciaIntro:
+	.string "Nadie sabe por qué este barco acabó\n"
+	.string "hundido, ¿o sí?$"
+
+AbandonedShip_Text_CuartoPoliciaDefeat:
+	.string "¿Tú lo sabes?$"
+
+AbandonedShip_Text_CuartoPoliciaPostBattle:
+	.string "La verdad no suele estar al alcance de\n"
+	.string "las masas.$"
+
+AbandonedShip_Text_QuintoPoliciaIntro:
+	.string "Estás poniendo en riesgo la discreción\n"
+	.string "de esta misión, ¡y no voy a permitirlo!$"
+
+AbandonedShip_Text_QuintoPoliciaDefeat:
+	.string "¡No, he hecho demasiado ruido!$"
+
+AbandonedShip_Text_QuintoPoliciaPostBattle:
+	.string "¿Dónde has encontrado la MO que te\n"
+	.string "permite hacer BUCEO?$"
 
 
 

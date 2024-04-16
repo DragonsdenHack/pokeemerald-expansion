@@ -130,3 +130,13 @@ AbandonedShip_EventScript_Tercer_Policia::
 	msgbox AbandonedShip_Text_TercerPoliciaPostBattle, MSGBOX_AUTOCLOSE
 	end
 
+AbandonedShip_EventScript_Cuarto_Policia::
+	trainerbattle_single TRAINER_TRAINER_604, AbandonedShip_Text_CuartoPoliciaIntro, AbandonedShip_Text_CuartoPoliciaDefeat
+	msgbox AbandonedShip_Text_CuartoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+AbandonedShip_EventScript_Quinto_Policia::
+	trainerbattle_single TRAINER_TRAINER_605, AbandonedShip_Text_QuintoPoliciaIntro, AbandonedShip_Text_QuintoPoliciaDefeat
+	msgbox AbandonedShip_Text_QuintoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+

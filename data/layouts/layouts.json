@@ -14652,6 +14652,30 @@
       "secondary_tileset": "gTileset_InsideShip",
       "border_filepath": "data/layouts/NaoAbandonada_5/border.bin",
       "blockdata_filepath": "data/layouts/NaoAbandonada_5/map.bin"
+    },
+    {
+      "id": "LAYOUT_NAO_ABANDONADA_6",
+      "name": "NaoAbandonada_6_Layout",
+      "width": 26,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/NaoAbandonada_6/border.bin",
+      "blockdata_filepath": "data/layouts/NaoAbandonada_6/map.bin"
+    },
+    {
+      "id": "LAYOUT_NAO_ABANDONADA_7",
+      "name": "NaoAbandonada_7_Layout",
+      "width": 9,
+      "height": 14,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/NaoAbandonada_7/border.bin",
+      "blockdata_filepath": "data/layouts/NaoAbandonada_7/map.bin"
     }
   ]
 }

@@ -153,3 +153,83 @@ AbandonedShip_HiddenFloorCorridors_Text_InsertedKey:
 	.string "The inserted KEY stuck fast,\n"
 	.string "but the door opened.$"
 
+AbandonedShip_Miguel::
+lock
+msgbox AbandonedShip_Miguel_Texto_1 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_2 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_3 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_4 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_5 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_6 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_7 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_8 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_9 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_10 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_11 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_12 MSGBOX_AUTOCLOSE
+msgbox AbandonedShip_Miguel_Texto_13 MSGBOX_AUTOCLOSE
+release
+end
+
+AbandonedShip_Miguel_Texto_1:
+	.string "DR.RASMUS: Ya hemos acabado, toda\n"
+	.string "prueba de nuestra presencia aquí ha\l"
+	.string "sido borrada.$"
+
+AbandonedShip_Miguel_Texto_2:
+	.string "Has hecho un buen trabajo MIGUEL, esa\n"
+	.string "copia del ESCÁNER es muy convincente.\l"
+	.string "Todos esos científicos de tres al\l"
+	.string "cuarto de los astilleros de PORTUAL\l"
+	.string "creerán que es el verdadero.$"
+
+AbandonedShip_Miguel_Texto_3:
+	.string "C.MIGUEL: ¿Y qué hay del verdadero?$"
+
+AbandonedShip_Miguel_Texto_4:
+	.string "DR.RASMUS: EL ADMIN.ZAFIRO se\n"
+	.string "encargará de ello. Tras el naufragio,\l"
+	.string "quedó en la zona del laboratorio.$"
+
+AbandonedShip_Miguel_Texto_5:
+	.string "C.MIGUEL: Qué pudo haber pasado para\n"
+	.string "que un barco así quedara en este\l"
+	.string "estado…$"
+
+AbandonedShip_Miguel_Texto_6:
+	.string "DR.RASMUS: Las fuerzas de la\n"
+	.string "naturaleza son poderosas, y muy\l"
+	.string "caprichosas también. Tú deberías\l"
+	.string "saberlo.$"
+
+AbandonedShip_Miguel_Texto_7:
+	.string "¿Has pensado en lo que te dije?$"
+
+AbandonedShip_Miguel_Texto_8:
+	.string "C.MIGUEL: Estoy convencido de que\n"
+	.string "podré lograrlo solo doctor.$"
+
+AbandonedShip_Miguel_Texto_9:
+	.string "DR.RASMUS: Tus vivencias hasta ahora\n"
+	.string "han sido las correctas para llegar a\l"
+	.string "este punto, no hay duda de ello.$"
+
+AbandonedShip_Miguel_Texto_10:
+	.string "Pero me pregunto si, llegado el momento,\n"
+	.string "no necesitará un empujón extra. Eres\l"
+	.string "científico, ¿no?$"
+
+AbandonedShip_Miguel_Texto_11:
+	.string "¿Dejarás ese asunto tan vital en manos\n"
+	.string "de una naturaleza que siempre te ha\l"
+	.string "traicionado, que sabes que es\l"
+	.string "arbitraria, impredecible e injusta?$"
+
+AbandonedShip_Miguel_Texto_12:
+	.string "C.MIGUEL: Precisamente por eso, este\n"
+	.string "POKÉMON y yo lo lograremos. Si ANDRA y\l"
+	.string "{PLAYER} lo lograron, ¡yo también!$"
+
+AbandonedShip_Miguel_Texto_13:
+	.string "DR.RASMUS: Que así sea pues.$"
+
