@@ -36946,21 +36946,60 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER606[] = {
     }
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER607[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER607[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 113,
+    .species = SPECIES_CRADILY_Y,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 50, 252, 50, 50, 50},
+    .nature = NATURE_BOLD,
+    .moves = {MOVE_STEALTH_ROCK, MOVE_ANCIENT_POWER, MOVE_RECOVER, MOVE_GIGA_DRAIN}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 200,
+    .lvl = 112,
+    .species = SPECIES_METAGROSS,
+    .heldItem = ITEM_ASSAULT_VEST,
+    .evs = {252, 50, 50, 50, 50, 252},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_ZEN_HEADBUTT, MOVE_BULLET_PUNCH}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 200,
+    .lvl = 113,
+    .species = SPECIES_SCEPTILE,
+    .heldItem = ITEM_SCEPTILITE,
+    .evs = {50, 50, 50, 252, 252, 50},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_LEAF_STORM, MOVE_DRAGON_PULSE, MOVE_ANCIENT_POWER, MOVE_FOCUS_BLAST}
+    },
+    {
+    .iv = 200,
+    .lvl = 114,
+    .species = SPECIES_DEOXYS_ATTACK,
+    .heldItem = ITEM_LIGHT_CLAY,
+    .evs = {252, 50, 50, 252, 50, 50},
+    .nature = NATURE_TIMID,
+    .moves = {MOVE_SPIKES, MOVE_PSYCHIC, MOVE_LIGHT_SCREEN, MOVE_REFLECT}
+    },
+    {
+    .iv = 255,
+    .lvl = 112,
+    .species = SPECIES_REGISTEEL,
+    .heldItem = ITEM_CHOICE_SPECS,
+    .evs = {6, 0, 128, 0, 252, 128},
+    .nature = NATURE_SERIOUS,
+    .moves = {MOVE_FLASH_CANNON, MOVE_NONE, MOVE_NONE, MOVE_NONE}
+    },
+    {
+    .iv = 255,
+    .lvl = 115,
+    .species = SPECIES_RAYQUAZA_MEGA,
+    .heldItem = ITEM_LEFTOVERS,
+    .evs = {252, 252, 50, 50, 50, 50},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_DRACO_METEOR, MOVE_FLY, MOVE_EXTREME_SPEED, MOVE_EARTHQUAKE}
     }
     
 };
