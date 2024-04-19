@@ -119,3 +119,42 @@ GraniteCave_StevensRoom_Text_OhBagIsFull:
 	.string "Oh, your BAG is full…\n"
 	.string "That's too bad, then.$"
 
+GraniteCave_Encuentro_Tristana::
+lock
+msgbox GraniteCave_Encuentro_Tristana_Texto_1 MSGBOX_AUTOCLOSE
+msgbox GraniteCave_Encuentro_Tristana_Texto_2 MSGBOX_AUTOCLOSE
+msgbox GraniteCave_Encuentro_Tristana_Texto_3 MSGBOX_AUTOCLOSE
+msgbox GraniteCave_Encuentro_Tristana_Texto_4 MSGBOX_AUTOCLOSE
+msgbox GraniteCave_Encuentro_Tristana_Texto_5 MSGBOX_AUTOCLOSE
+msgbox GraniteCave_Encuentro_Tristana_Texto_6 MSGBOX_AUTOCLOSE
+msgbox GraniteCave_Encuentro_Tristana_Texto_7 MSGBOX_AUTOCLOSE
+release
+end
+
+GraniteCave_Encuentro_Tristana_Texto_1:
+	.string "TRISTANA: Emm… ¿{PLAYER}? ¿Cómo tú\n"
+	.string "por aquí?$"
+
+GraniteCave_Encuentro_Tristana_Texto_2:
+	.string "Empiezas a ser omnipresente también en\n"
+	.string "esta región, ¿eh?$"
+
+GraniteCave_Encuentro_Tristana_Texto_3:
+	.string "… …$"
+
+GraniteCave_Encuentro_Tristana_Texto_4:
+	.string "¿Una base de DEVON aquí? ¿Quieres que\n"
+	.string "deje de jugar contigo? ¿Saber la verdad\l"
+	.string "sobre mí?$"
+
+GraniteCave_Encuentro_Tristana_Texto_5:
+	.string "Tus sospechas son ciertas: tengo\n"
+	.string "contacto con DEVON, pero este lugar no\l"
+	.string "es lo que piensas.$"
+
+GraniteCave_Encuentro_Tristana_Texto_6:
+	.string "¿No me crees? Te lo mostraré.$"
+
+GraniteCave_Encuentro_Tristana_Texto_7:
+	.string "Te espero abajo.$"
+
