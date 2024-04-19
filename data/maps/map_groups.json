@@ -1456,7 +1456,11 @@
     "NaoAbandonada_4",
     "NaoAbandonada_5",
     "NaoAbandonada_6",
-    "GraniteCave_3F"
+    "GraniteCave_3F",
+    "Cave_Regigigas_S1",
+    "Cave_Regigigas_S2",
+    "Cave_Regigigas_S3",
+    "Cave_Regigigas_S3_2"
   ],
   "gMapGroup_IndoorSnowPoint": [
     "Snowpoint_PkmnCenter",
@@ -1468,6 +1472,7 @@
     "Snowpoint_Templo_S2",
     "Snowpoint_Templo_S3",
     "Snowpoint_Templo_S4",
-    "Snowpoint_Templo_S5"
+    "Snowpoint_Templo_S5",
+    "Snowpoint_Gimnasio"
   ]
 }

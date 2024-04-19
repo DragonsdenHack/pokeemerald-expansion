@@ -2868,3 +2868,13 @@ Text_EVChecker_3:
 	.include "data/maps/NaoAbandonada_7/scripts.inc"
 
 	.include "data/maps/GraniteCave_3F/scripts.inc"
+
+	.include "data/maps/Snowpoint_Gimnasio/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S1/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S2/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S3/scripts.inc"
+
+	.include "data/maps/Cave_Regigigas_S3_2/scripts.inc"
