@@ -145,3 +145,157 @@ Route106_Ariana_Texto_17:
 Route106_Ariana_Texto_18:
 	.string "ARIANA: … …$"
 
+Route106_Ariana_Despues::
+lock
+msgbox Route106_Ariana_Despues_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_22 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_23 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_24 MSGBOX_AUTOCLOSE
+msgbox Route106_Ariana_Despues_Texto_25 MSGBOX_AUTOCLOSE
+release
+end
+
+Route106_Ariana_Despues_Texto_1:
+	.string "ARIANA: Estás aquí, lo sabía.$"
+
+Route106_Ariana_Despues_Texto_2:
+	.string "Alguien que no conoce HOENN solo puede\n"
+	.string "estar en lugares muy concretos como\l"
+	.string "este.$"
+
+Route106_Ariana_Despues_Texto_3:
+	.string "En el CASINO fui algo injusta contigo:\n"
+	.string "lo que haya podido ocurrir entre\l"
+	.string "GIOVANNI y yo en el pasado no es tu\l"
+	.string "culpa. Pero no he venido hasta aquí\l"
+	.string "para disculparme.$"
+
+Route106_Ariana_Despues_Texto_4:
+	.string "No sé si fue casualidad o no, pero desde\n"
+	.string "que entraste a mi CASINO no han parado\l"
+	.string "de ocurrir cosas.$"
+
+Route106_Ariana_Despues_Texto_5:
+	.string "Y algunas de ellas muy extrañas, me\n"
+	.string "hicieron reflexionar sobre esa cara\l"
+	.string "oculta de DEVON que mencionaste.$"
+
+Route106_Ariana_Despues_Texto_6:
+	.string "Te he buscado porque quería hablar\n"
+	.string "contigo sobre eso.$"
+
+Route106_Ariana_Despues_Texto_7:
+	.string "Escúchame, lo que voy a proponerte es\n"
+	.string "arriesgado, pero a veces, para\l"
+	.string "descubrir verdades ocultas hay que\l"
+	.string "estar dispuesto a poner en juego la\l"
+	.string "vida propia.$"
+
+Route106_Ariana_Despues_Texto_8:
+	.string "Dime, ¿estás dispuesto a poner en\n"
+	.string "riesgo la tuya?$"
+
+Route106_Ariana_Despues_Texto_9:
+	.string "¿Vas a escuchar mi proposición?$"
+
+Route106_Ariana_Despues_Texto_10:
+	.string "Un verdadero miembro del TEAM ROCKET\n"
+	.string "jamás rechazaría correr riesgos, me has\l"
+	.string "decepcionado. Por eso HOENN nunca\l"
+	.string "recordará tu nombre.$"
+
+Route106_Ariana_Despues_Texto_11:
+	.string "No en vano eres un ADMIN.ROCKET, me\n"
+	.string "alegra saber que tu actitud está a la\l"
+	.string "altura de tu puesto. Escucha.$"
+
+Route106_Ariana_Despues_Texto_12:
+	.string "DEVON va a inaugurar el SS.MAREA, en un\n"
+	.string "evento que va a organizarse dentro de\l"
+	.string "nada en CIUDAD PORTUAL.$"
+
+Route106_Ariana_Despues_Texto_13:
+	.string "Y para celebrar la inauguración van\n"
+	.string "a cubrir la ruta PORTUAL-CALAGUA.$"
+
+Route106_Ariana_Despues_Texto_14:
+	.string "Conozco ese barco, es similar a un\n"
+	.string "modelo algo más antiguo.$"
+
+Route106_Ariana_Despues_Texto_15:
+	.string "Tú quieres ir a CIUDAD ALGARIA,\n"
+	.string "¿verdad? Actualmente no podrás por\l"
+	.string "todo el alboroto de este evento.\l"
+	.string "Entonces, te propongo matar dos\l"
+	.string "pájaros de un tiro.$"
+
+Route106_Ariana_Despues_Texto_16:
+	.string "Irás hasta CALAGUA infiltrado en el\n"
+	.string "SS.MAREA, y de paso espiaremos a DEVON.$"
+
+Route106_Ariana_Despues_Texto_17:
+	.string "El PRESIDENTE de DEVON asistirá, y\n"
+	.string "seguramente otros importantes cargos\l"
+	.string "de la empresa.$"
+
+Route106_Ariana_Despues_Texto_18:
+	.string "Mientras siga en PORTUAL, aquellos que\n"
+	.string "tengan el TICKET BARCO podrán estar en\l"
+	.string "el evento. Una vez parta hacia CALAGUA,\l"
+	.string "se evacuará a todo el que no sea de\l"
+	.string "DEVON.$"
+
+Route106_Ariana_Despues_Texto_19:
+	.string "Mi propuesta es mezclarnos con la\n"
+	.string "muchedumbre mientras el barco sigue en\l"
+	.string "PORTUAL, y colarnos en el ALMACÉN del\l"
+	.string "barco.$"
+
+Route106_Ariana_Despues_Texto_20:
+	.string "Allí esperaremos a que zarpe y… cuando\n"
+	.string "todos los periodistas y población civil\l"
+	.string "se hayan ido, y DEVON se meta en los\l"
+	.string "camarotes, podremos espiarlos desde\l"
+	.string "fuera.$"
+
+Route106_Ariana_Despues_Texto_21:
+	.string "No hay lugar más privado que en medio\n"
+	.string "del mar con solo gente de tu propia\l"
+	.string "organización: si tienen que hablar\l"
+	.string "sobre verdades ocultas, lo harán ahí.$"
+
+Route106_Ariana_Despues_Texto_22:
+	.string "Toma esto, {PLAYER}.$"
+
+Route106_Ariana_Despues_Texto_23:
+	.string "¡{PLAYER} obtuvo un TICKET BARCO!$"
+
+Route106_Ariana_Despues_Texto_24:
+	.string "Ahora tú también podrás entrar al\n"
+	.string "SS.MAREA.$"
+
+Route106_Ariana_Despues_Texto_25:
+	.string "Te estaré esperando dentro, no tardes\n"
+	.string "y recuerda: el barco se encuentra\l"
+	.string "dentro del puerto de CIUDAD PORTUAL.$"
+
