@@ -2878,3 +2878,7 @@ Text_EVChecker_3:
 	.include "data/maps/Cave_Regigigas_S3/scripts.inc"
 
 	.include "data/maps/Cave_Regigigas_S3_2/scripts.inc"
+
+	.include "data/maps/SSTidal_Submarino/scripts.inc"
+
+	.include "data/maps/SSGiovanni_Rescate/scripts.inc"

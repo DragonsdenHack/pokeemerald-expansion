@@ -1661,7 +1661,7 @@
 #define FLAG_HOENN_11 (TRAINER_FLAGS_END + 11) // PRESIDENTE MUSEO OCEÁNICO - NAO ABANDONADA DEVON
 #define FLAG_HOENN_12 (TRAINER_FLAGS_END + 12) // BLOQUEO PERIODISTAS CIUDAD PETALIA
 #define FLAG_HOENN_13 (TRAINER_FLAGS_END + 13) // TRISTANA BLOQUEO CUEVA GRANITO
-#define FLAG_HOENN_14 (TRAINER_FLAGS_END + 14)
+#define FLAG_HOENN_14 (TRAINER_FLAGS_END + 14) // BLOQUEO PUERTO PORTUAL
 #define FLAG_HOENN_15 (TRAINER_FLAGS_END + 15)
 #define FLAG_HOENN_16 (TRAINER_FLAGS_END + 16)
 #define FLAG_HOENN_17 (TRAINER_FLAGS_END + 17)
@@ -2287,67 +2287,67 @@
 #define FLAG_HOENN_637 (TRAINER_FLAGS_END + 637)
 #define FLAG_HOENN_638 (TRAINER_FLAGS_END + 638)
 #define FLAG_HOENN_639 (TRAINER_FLAGS_END + 639)
-#define FLAG_HOENN_640 (TRAINER_FLAGS_END + 640)
-#define FLAG_HOENN_641 (TRAINER_FLAGS_END + 641)
-#define FLAG_HOENN_642 (TRAINER_FLAGS_END + 642)
-#define FLAG_HOENN_643 (TRAINER_FLAGS_END + 643)
-#define FLAG_HOENN_644 (TRAINER_FLAGS_END + 644)
-#define FLAG_HOENN_645 (TRAINER_FLAGS_END + 645)
-#define FLAG_HOENN_646 (TRAINER_FLAGS_END + 646)
-#define FLAG_HOENN_647 (TRAINER_FLAGS_END + 647)
-#define FLAG_HOENN_648 (TRAINER_FLAGS_END + 648)
-#define FLAG_HOENN_649 (TRAINER_FLAGS_END + 649)
-#define FLAG_HOENN_650 (TRAINER_FLAGS_END + 650)
-#define FLAG_HOENN_651 (TRAINER_FLAGS_END + 651)
-#define FLAG_HOENN_652 (TRAINER_FLAGS_END + 652)
-#define FLAG_HOENN_653 (TRAINER_FLAGS_END + 653)
-#define FLAG_HOENN_654 (TRAINER_FLAGS_END + 654)
-#define FLAG_HOENN_655 (TRAINER_FLAGS_END + 655)
-#define FLAG_HOENN_656 (TRAINER_FLAGS_END + 656)
-#define FLAG_HOENN_657 (TRAINER_FLAGS_END + 657)
-#define FLAG_HOENN_658 (TRAINER_FLAGS_END + 658)
-#define FLAG_HOENN_659 (TRAINER_FLAGS_END + 659)
-#define FLAG_HOENN_660 (TRAINER_FLAGS_END + 660)
-#define FLAG_HOENN_661 (TRAINER_FLAGS_END + 661)
-#define FLAG_HOENN_662 (TRAINER_FLAGS_END + 662)
-#define FLAG_HOENN_663 (TRAINER_FLAGS_END + 663)
-#define FLAG_HOENN_664 (TRAINER_FLAGS_END + 664)
-#define FLAG_HOENN_665 (TRAINER_FLAGS_END + 665)
-#define FLAG_HOENN_666 (TRAINER_FLAGS_END + 666)
-#define FLAG_HOENN_667 (TRAINER_FLAGS_END + 667)
-#define FLAG_HOENN_668 (TRAINER_FLAGS_END + 668)
-#define FLAG_HOENN_669 (TRAINER_FLAGS_END + 669)
-#define FLAG_HOENN_670 (TRAINER_FLAGS_END + 670)
-#define FLAG_HOENN_671 (TRAINER_FLAGS_END + 671)
-#define FLAG_HOENN_672 (TRAINER_FLAGS_END + 672)
-#define FLAG_HOENN_673 (TRAINER_FLAGS_END + 673)
-#define FLAG_HOENN_674 (TRAINER_FLAGS_END + 674)
-#define FLAG_HOENN_675 (TRAINER_FLAGS_END + 675)
-#define FLAG_HOENN_676 (TRAINER_FLAGS_END + 676)
-#define FLAG_HOENN_677 (TRAINER_FLAGS_END + 677)
-#define FLAG_HOENN_678 (TRAINER_FLAGS_END + 678)
-#define FLAG_HOENN_679 (TRAINER_FLAGS_END + 679)
-#define FLAG_HOENN_680 (TRAINER_FLAGS_END + 680)
-#define FLAG_HOENN_681 (TRAINER_FLAGS_END + 681)
-#define FLAG_HOENN_682 (TRAINER_FLAGS_END + 682)
-#define FLAG_HOENN_683 (TRAINER_FLAGS_END + 683)
-#define FLAG_HOENN_684 (TRAINER_FLAGS_END + 684)
-#define FLAG_HOENN_685 (TRAINER_FLAGS_END + 685)
-#define FLAG_HOENN_686 (TRAINER_FLAGS_END + 686)
-#define FLAG_HOENN_687 (TRAINER_FLAGS_END + 687)
-#define FLAG_HOENN_688 (TRAINER_FLAGS_END + 688)
-#define FLAG_HOENN_689 (TRAINER_FLAGS_END + 689)
-#define FLAG_HOENN_690 (TRAINER_FLAGS_END + 690)
-#define FLAG_HOENN_691 (TRAINER_FLAGS_END + 691)
-#define FLAG_HOENN_692 (TRAINER_FLAGS_END + 692)
-#define FLAG_HOENN_693 (TRAINER_FLAGS_END + 693)
-#define FLAG_HOENN_694 (TRAINER_FLAGS_END + 694)
-#define FLAG_HOENN_695 (TRAINER_FLAGS_END + 695)
-#define FLAG_HOENN_696 (TRAINER_FLAGS_END + 696)
-#define FLAG_HOENN_697 (TRAINER_FLAGS_END + 697)
-#define FLAG_HOENN_698 (TRAINER_FLAGS_END + 698)
-#define FLAG_HOENN_699 (TRAINER_FLAGS_END + 699)
-#define FLAG_HOENN_700 (TRAINER_FLAGS_END + 700)
+#define FLAG_HOENN_640 (TRAINER_FLAGS_END + 640) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_641 (TRAINER_FLAGS_END + 641) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_642 (TRAINER_FLAGS_END + 642) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_643 (TRAINER_FLAGS_END + 643) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_644 (TRAINER_FLAGS_END + 644) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_645 (TRAINER_FLAGS_END + 645) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_646 (TRAINER_FLAGS_END + 646) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_647 (TRAINER_FLAGS_END + 647) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_648 (TRAINER_FLAGS_END + 648) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_649 (TRAINER_FLAGS_END + 649) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_650 (TRAINER_FLAGS_END + 650) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_651 (TRAINER_FLAGS_END + 651) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_652 (TRAINER_FLAGS_END + 652) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_653 (TRAINER_FLAGS_END + 653) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_654 (TRAINER_FLAGS_END + 654) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_655 (TRAINER_FLAGS_END + 655) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_656 (TRAINER_FLAGS_END + 656) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_657 (TRAINER_FLAGS_END + 657) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_658 (TRAINER_FLAGS_END + 658) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_659 (TRAINER_FLAGS_END + 659) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_660 (TRAINER_FLAGS_END + 660) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_661 (TRAINER_FLAGS_END + 661) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_662 (TRAINER_FLAGS_END + 662) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_663 (TRAINER_FLAGS_END + 663) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_664 (TRAINER_FLAGS_END + 664) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_665 (TRAINER_FLAGS_END + 665) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_666 (TRAINER_FLAGS_END + 666) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_667 (TRAINER_FLAGS_END + 667) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_668 (TRAINER_FLAGS_END + 668) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_669 (TRAINER_FLAGS_END + 669) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_670 (TRAINER_FLAGS_END + 670) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_671 (TRAINER_FLAGS_END + 671) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_672 (TRAINER_FLAGS_END + 672) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_673 (TRAINER_FLAGS_END + 673) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_674 (TRAINER_FLAGS_END + 674) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_675 (TRAINER_FLAGS_END + 675) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_676 (TRAINER_FLAGS_END + 676) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_677 (TRAINER_FLAGS_END + 677) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_678 (TRAINER_FLAGS_END + 678) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_679 (TRAINER_FLAGS_END + 679) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_680 (TRAINER_FLAGS_END + 680) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_681 (TRAINER_FLAGS_END + 681) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_682 (TRAINER_FLAGS_END + 682) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_683 (TRAINER_FLAGS_END + 683) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_684 (TRAINER_FLAGS_END + 684) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_685 (TRAINER_FLAGS_END + 685) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_686 (TRAINER_FLAGS_END + 686) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_687 (TRAINER_FLAGS_END + 687) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_688 (TRAINER_FLAGS_END + 688) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_689 (TRAINER_FLAGS_END + 689) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_690 (TRAINER_FLAGS_END + 690) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_691 (TRAINER_FLAGS_END + 691) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_692 (TRAINER_FLAGS_END + 692) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_693 (TRAINER_FLAGS_END + 693) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_694 (TRAINER_FLAGS_END + 694) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_695 (TRAINER_FLAGS_END + 695) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_696 (TRAINER_FLAGS_END + 696) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_697 (TRAINER_FLAGS_END + 697) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_698 (TRAINER_FLAGS_END + 698) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_699 (TRAINER_FLAGS_END + 699) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_700 (TRAINER_FLAGS_END + 700) // En modo Setflag por defecto desde fin DLC
 
 
 

@@ -29,10 +29,10 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SAILOR2",
-      "x": 4,
-      "y": 58,
+      "x": 5,
+      "y": 57,
       "elevation": 3,
-      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
       "movement_range_x": 0,
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
@@ -133,8 +133,8 @@
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_SS_TIDAL",
-      "x": 6,
-      "y": 60,
+      "x": 23,
+      "y": 66,
       "elevation": 3,
       "movement_type": "MOVEMENT_TYPE_NONE",
       "movement_range_x": 0,
@@ -194,6 +194,13 @@
       "elevation": 0,
       "dest_map": "MAP_SNOWPOINT_PKMN_CENTER",
       "dest_warp_id": 1
+    },
+    {
+      "x": 4,
+      "y": 58,
+      "elevation": 0,
+      "dest_map": "MAP_SNOWPOINT_CITY",
+      "dest_warp_id": 0
     }
   ],
   "coord_events": [

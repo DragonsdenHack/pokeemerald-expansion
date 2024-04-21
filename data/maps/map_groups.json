@@ -1460,7 +1460,9 @@
     "Cave_Regigigas_S1",
     "Cave_Regigigas_S2",
     "Cave_Regigigas_S3",
-    "Cave_Regigigas_S3_2"
+    "Cave_Regigigas_S3_2",
+    "SSTidal_Submarino",
+    "SSGiovanni_Rescate"
   ],
   "gMapGroup_IndoorSnowPoint": [
     "Snowpoint_PkmnCenter",

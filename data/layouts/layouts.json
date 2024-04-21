@@ -14748,6 +14748,30 @@
       "secondary_tileset": "gTileset_NavelRock",
       "border_filepath": "data/layouts/Cave_Regigigas_S3_2/border.bin",
       "blockdata_filepath": "data/layouts/Cave_Regigigas_S3_2/map.bin"
+    },
+    {
+      "id": "LAYOUT_SS_TIDAL_SUBMARINO",
+      "name": "SSTidal_Submarino_Layout",
+      "width": 27,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/SSTidal_Submarino/border.bin",
+      "blockdata_filepath": "data/layouts/SSTidal_Submarino/map.bin"
+    },
+    {
+      "id": "LAYOUT_SSGIOVANNI_RESCATE",
+      "name": "SSGiovanni_Rescate_Layout",
+      "width": 16,
+      "height": 10,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_ss_anne",
+      "border_filepath": "data/layouts/SSGiovanni_Rescate/border.bin",
+      "blockdata_filepath": "data/layouts/SSGiovanni_Rescate/map.bin"
     }
   ]
 }
