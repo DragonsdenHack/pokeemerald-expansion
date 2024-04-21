@@ -671,8 +671,8 @@ RocketHideout_6F_Petrel_Text_Mision_2_6:
 
 RocketHideout_6F_Petrel_Text_Mision_2_7:
 .string "But before that, you must\n"
-	.string "responsibilize for your deficient\l"
-	.string "efficiency in the last mission. You\l"
+	.string "responsibilize for your poor\l"
+	.string "performance in the last mission. You\l"
 	.string "should know that the estimated value\l"
 	.string "of those FOSSILS that you lost is\l"
 	.string "close to 600,000 POKÉ on black market,\l"
@@ -697,18 +697,18 @@ RocketHideout_6F_Petrel_Text_Mision_2_10:
 .string "As you should know, we have always been\n"
 	.string "using VERMILION port as conector\l"
 	.string "between KANTO and FIVE ISLAND;\l"
-	.string "however KANTO police are increasingly\l"
+	.string "however KANTO police is increasingly\l"
 	.string "lurking and it is becoming more and\l"
 	.string "more difficult and expensive to bribe\l"
 	.string "sailors to import some things and\l"
-	.string "soldiers from FIVE ISLAND.Although of\l"
+	.string "soldiers from FIVE ISLAND. Despite of\l"
 	.string "your intervention silencing the CONSUL\l"
 	.string "of there, it is just matter of time to\l"
 	.string "they cut us off that way to there…$"
 
 RocketHideout_6F_Petrel_Text_Mision_2_11:
 .string "So here starts your mission, we got\n"
-	.string "some rumors about that BILL, that\l"
+	.string "some rumors about BILL, that\l"
 	.string "stupid that just sees POKÉMON as\l"
 	.string "collectable stickers, has developed a\l"
 	.string "teleport system able to cover far\l"
@@ -721,8 +721,8 @@ RocketHideout_6F_Petrel_Text_Mision_2_11:
 
 RocketHideout_6F_Petrel_Text_Mision_2_12:
 .string "If you finally got that helpful\n"
-	.string "information that our scientists could\l"
-	.string "use to develop connection points\l"
+	.string "information, our scientists could\l"
+	.string "use it to develop connection points\l"
 	.string "teleportation via between FIVE ISLAND\l"
 	.string "and KANTO, could save millions of POKÉ\l"
 	.string "on transport expenses. Here is the\l"

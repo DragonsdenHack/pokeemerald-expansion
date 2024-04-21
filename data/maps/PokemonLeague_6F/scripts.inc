@@ -568,7 +568,7 @@ PokemonLeague_6F_Final_Texto_39:
 
 PokemonLeague_6F_Final_Texto_40:
 	.string "So many years of hard work to discover\n"
-	.string "better fruits in nature OAK, you were a\l"
+	.string "better fruits in nature OAK. You were\l"
 	.string "foolish to believe you could play with\l"
 	.string "the rules of the game better than the\l"
 	.string "creator of those rules.$"

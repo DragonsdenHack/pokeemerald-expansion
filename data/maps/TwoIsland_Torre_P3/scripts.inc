@@ -10,8 +10,8 @@ end
 
 TwoIsland_Torre_P3_Motero_Texto_1:
 	.string "Leave me in peace! You didn't see me, and\n"
-	.string "me neither, so I won't have to fight with\l"
-	.string "you.$"
+	.string "I didn't see you.\l"
+	.string "So I won't have to fight!$"
 
 TwoIsland_Torre_P3_Cientifico::
 lock

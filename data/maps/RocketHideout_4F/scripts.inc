@@ -2457,17 +2457,17 @@ RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_7:
 .string "GIOVANNI: And lastly, you will reduce\n"
 	.string "all the tax pressure from SILPH and the\l"
 	.string "other small businesses of KANTO, the\l"
-	.string "time of leeching of the citizens and\l"
+	.string "time of leeching off the citizens and\l"
 	.string "keeping them in camouflaged slave\l"
 	.string "conditions is over, maybe with that\l"
 	.string "they will start to like you a little.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_8:
-.string "That's all, and remember, any miss\n"
-	.string "conduct, a little hint that you are\l"
-	.string "trying something weird, and all of KANTO\l"
-	.string "will know what happened in the HALL OF\l"
-	.string "FAME, now get off my sight.$"
+.string "That's all, and remember, any misconduct\n"
+	.string ", a little hint that you are trying\l"
+	.string "something weird, and all of KANTO will\l"
+	.string "know what happened in the HALL OF FAME.\l"
+	.string "Now get off my sight.$"
 
 RocketHideout_4F_Mision_Islas_Sete_Lance_Texto_9:
 .string "PROTON: Sir, do you believe we are doing\n"

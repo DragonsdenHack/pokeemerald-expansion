@@ -316,7 +316,7 @@ Route15_Koga_Bruno_Texto_13:
 
 Route15_Koga_Bruno_Texto_14:
 	.string "With these glasses equipped in any\n"
-	.string "POKÉMON, their SINISTER moves power\l"
+	.string "POKÉMON, their DARK moves power\l"
 	.string "will be increased by 20%, if you have\l"
 	.string "POKÉMON like HOUNDOOM or MURKROW will\l"
 	.string "hit very strongly with DARK PULSE or\l"

@@ -570,9 +570,52 @@ RocketHideout_8F_Mision_Silph_move5.3:
 face_right
 step_end
 
+RocketHideout_8F_Mision_Silph_Yes:
+	.string "Wanna see next lore cutscene?\n"
+	.string "(If you press -YES- and some BUG\l"
+	.string "happens, with -NO- option you can\l"
+	.string "skip the cutscene and proceed with\l"
+	.string "the storyline)$"
+
+RocketHideout_8F_Mision_Silph_No_Texto_1:
+	.string "(You have been promoted to ROCKET\n"
+	.string "EXECUTIVE, received 50 ULTRA BALL, a\l"
+	.string "LV.35 AERODACTYL and 500,000 POKÉ.\l"
+	.string "Your next mission is at SAFFRON CITY\l"
+	.string "-SILPH-. To see the skin change, leave\l"
+	.string "GIOVANNI's office).$"
+
+RocketHideout_8F_Mision_Silph_No::
+fadescreen 1
+delay 20
+changeavatar 2
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_3
+addmoney 500000 0
+givemon SPECIES_AERODACTYL, 35, ITEM_SHARP_BEAK
+giveitem ITEM_ULTRA_BALL, 50
+removeobject 9
+fadescreen 0
+setflag FLAG_HIDE_PETALBURG_WOODS_AQUA_GRUNT
+setflag FLAG_HIDE_BATTLE_TOWER_MULTI_BATTLE_PARTNER_6
+setflag FLAG_HIDE_PETALBURG_WOODS_DEVON_EMPLOYEE
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_5
+clearflag FLAG_HIDE_MAUVILLE_CITY_WALLYS_UNCLE
+clearflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_MOM
+setvar VAR_UNUSED_0x40DC, 13
+setvar VAR_UNUSED_0x40F7, 72
+setvar VAR_UNUSED_0x40FD, 1
+msgbox RocketHideout_8F_Mision_Silph_No_Texto_1, MSGBOX_AUTOCLOSE
+release
+end
+
 RocketHideout_8F_Mision_Silph::
 lock
 setvar VAR_UNUSED_0x40F7, 71
+lock
+msgbox RocketHideout_8F_Mision_Silph_Yes, MSGBOX_YESNO
+compare VAR_RESULT, 0
+goto_if_eq RocketHideout_8F_Mision_Silph_No
 clearflag FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1
 setflag FLAG_NUEVA_839
 addobject 3
@@ -1193,14 +1236,14 @@ RocketHideout_8F_Mision_Silph_text_32:
 RocketHideout_8F_Mision_Silph_text_33:
 	.string "LANCE wasted no time launching a\n"
 	.string "tremendous smear campaign against me.\l"
-	.string "Despite i have given my all to keep\l"
+	.string "Despite I have given my all to keep\l"
 	.string "KANTO in the hands of its habitants,\l"
 	.string "LANCE managed to convince the public\l"
-	.string "opinion that i was the villain, and he\l"
+	.string "opinion that I was the villain, and he\l"
 	.string "was the savior, according to the\l"
 	.string "official version, LANCE only had to\l"
 	.string "intervene after a blatant coup attempt\l"
-	.string "on my part when i sought to revenew my\l"
+	.string "on my part when I sought to revenew my\l"
 	.string "CHAMPION title.$"
 
 RocketHideout_8F_Mision_Silph_text_34:

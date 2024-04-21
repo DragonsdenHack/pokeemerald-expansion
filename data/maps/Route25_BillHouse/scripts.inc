@@ -136,8 +136,8 @@ release
 end
 
 Route25_BillHouse_Evento_Policia_text_1:
-.string "BILL: This SILPH, i was clear enough\n"
-	.string "when i told them that I wanted the\l"
+.string "BILL: This SILPH, I was clear enough\n"
+	.string "when I told them that I wanted the\l"
 	.string "UP-GRADE for my PORYGON the sooner the\l"
 	.string "better. I'll be the first one in KANTO\l"
 	.string "with a PORYGON2, the latest in\l"
