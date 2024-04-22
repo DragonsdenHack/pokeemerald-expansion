@@ -14553,7 +14553,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_seafoam_islands",
+      "secondary_tileset": "gTileset_Snowpoint_temple",
       "border_filepath": "data/layouts/Snowpoint_Templo_S2/border.bin",
       "blockdata_filepath": "data/layouts/Snowpoint_Templo_S2/map.bin"
     },
@@ -14577,7 +14577,7 @@
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_gTileset_General_fr",
-      "secondary_tileset": "gTileset_seafoam_islands",
+      "secondary_tileset": "gTileset_Snowpoint_temple",
       "border_filepath": "data/layouts/Snowpoint_Templo_S4/border.bin",
       "blockdata_filepath": "data/layouts/Snowpoint_Templo_S4/map.bin"
     },
