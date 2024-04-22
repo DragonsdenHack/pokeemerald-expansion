@@ -3069,3 +3069,23 @@ gTilesetPalettes_SnowPoint_City::
 	.align 2
 gTilesetTiles_SnowPoint_City::
 	.incbin "data/tilesets/secondary/snowpoint_city/tiles.4bpp.lz"
+
+	.align 2
+gTilesetPalettes_Snowpoint_temple::
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/00.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/01.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/02.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/03.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/04.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/05.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/06.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/07.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/08.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/09.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/10.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/11.gbapal"
+	.incbin "data/tilesets/secondary/snowpoint_temple/palettes/12.gbapal"
+
+	.align 2
+gTilesetTiles_Snowpoint_temple::
+	.incbin "data/tilesets/secondary/snowpoint_temple/tiles.4bpp.lz"

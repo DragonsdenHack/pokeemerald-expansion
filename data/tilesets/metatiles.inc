@@ -1022,3 +1022,10 @@ gMetatiles_SnowPoint_City::
 	.align 1
 gMetatileAttributes_SnowPoint_City::
 	.incbin "data/tilesets/secondary/snowpoint_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_Snowpoint_temple::
+	.incbin "data/tilesets/secondary/snowpoint_temple/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Snowpoint_temple::
+	.incbin "data/tilesets/secondary/snowpoint_temple/metatile_attributes.bin"
