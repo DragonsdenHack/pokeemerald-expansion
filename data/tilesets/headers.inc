@@ -1556,3 +1556,14 @@ gTileset_SnowPoint_City::
 	.4byte gMetatiles_SnowPoint_City
 	.4byte gMetatileAttributes_SnowPoint_City
 	.4byte NULL
+
+	.align 2
+gTileset_Snowpoint_temple::
+	.byte TRUE @ is compressed
+	.byte TRUE @ is secondary
+	.2byte 0
+	.4byte gTilesetTiles_Snowpoint_temple
+	.4byte gTilesetPalettes_Snowpoint_temple
+	.4byte gMetatiles_Snowpoint_temple
+	.4byte gMetatileAttributes_Snowpoint_temple
+	.4byte NULL
