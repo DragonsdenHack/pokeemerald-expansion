@@ -1,2 +1,7 @@
 Snowpoint_Templo_S1_MapScripts::
 	.byte 0
+
+Snowpoint_Templo_S1_EventScript_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_616, Snowpoint_Templo_S1_Text_CientificoIntro, Snowpoint_Templo_S1_Text_CientificoDefeat
+	msgbox Snowpoint_Templo_S1_Text_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end

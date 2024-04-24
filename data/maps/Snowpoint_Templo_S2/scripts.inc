@@ -1,2 +1,7 @@
 Snowpoint_Templo_S2_MapScripts::
 	.byte 0
+
+Snowpoint_Templo_S2_EventScript_Policia::
+	trainerbattle_single TRAINER_TRAINER_613, Snowpoint_Templo_S2_Text_PoliciaIntro, Snowpoint_Templo_S2_Text_PoliciaDefeat
+	msgbox Snowpoint_Templo_S2_Text_PoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end

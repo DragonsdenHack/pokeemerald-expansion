@@ -61,6 +61,8 @@ release
 end
 
 UndergroundPath_7F_Cajas::
+compare VAR_ROUTE105_STATE, 9
+goto_if_eq UndergroundPath_7F_Cajas_2
 compare VAR_ROUTE105_STATE, 10
 goto_if_eq UndergroundPath_7F_Cajas_2
 release

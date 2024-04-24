@@ -24,7 +24,7 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
-      "script": "NULL",
+      "script": "Snowpoint_Templo_S1_EventScript_Cientifico",
       "flag": "0"
     }
   ],

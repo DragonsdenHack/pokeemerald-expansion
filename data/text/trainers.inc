@@ -17979,6 +17979,53 @@ Snowpoint_Gimnasio_Text_SextoPostBattle:
 	.string "del Pokémon... Si ambos están en\l"
 	.string "sintonía, no pueden perder.$"
 
+Snowpoint_Templo_S1_Text_CientificoIntro:
+	.string "Nuestro ADMIN.AMATISTA esperó este\n"
+	.string "momento por mucho tiempo. Nadie debe\l"
+	.string "interferir.$"
+
+Snowpoint_Templo_S1_Text_CientificoDefeat:
+	.string "¿Quién eres tú?$"
+
+Snowpoint_Templo_S1_Text_CientificoPostBattle:
+	.string "El rey de los regis volverá al lugar que\n"
+	.string "le pertenece tras mucho tiempo.$"
+
+Snowpoint_Templo_S2_Text_PoliciaIntro:
+	.string "¿Eres del personal del TEMPLO? ¿Algún\n"
+	.string "problema? … … ¡Espera! A ti te he visto\l"
+	.string "en HOENN!$"
+
+Snowpoint_Templo_S2_Text_PoliciaDefeat:
+	.string "¡Ahora te reconozco!$"
+
+Snowpoint_Templo_S2_Text_PoliciaPostBattle:
+	.string "¿Cómo has llegado hasta aquí?$"
+
+Snowpoint_Templo_S4_Text_CientificoIntro:
+	.string "Hay un POKÉMON colosal durmiendo en lo\n"
+	.string "profundo del TEMPLO. Solo DEVON sabe\l"
+	.string "cómo despertarlo.$"
+
+Snowpoint_Templo_S4_Text_CientificoDefeat:
+	.string "¿Osas interferir?$"
+
+Snowpoint_Templo_S4_Text_CientificoPostBattle:
+	.string "Nuestro doctor y la mano derecha del\n"
+	.string "PRESIDENTE harán un gran trabajo.$"
+
+Snowpoint_Templo_S4_Text_PoliciaIntro:
+	.string "¡Alto ahí, ROCKET! En DEVON ya estás en\n"
+	.string "nuestra lista negra, ¿cómo has hecho\l"
+	.string "para seguirnos?$"
+
+Snowpoint_Templo_S4_Text_PoliciaDefeat:
+	.string "Derrotado en HOENN y ahora en SINNOH…$"
+
+Snowpoint_Templo_S4_Text_PoliciaPostBattle:
+	.string "¿De verdad te colaste en nuestro\n"
+	.string "SUBMARINO?$"
+
 
 
 

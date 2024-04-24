@@ -100,4 +100,85 @@ SnowpointCity_Sexto_Npc_Texto_1:
 	.string "forma al terreno. Es lo que cuenta la\l"
 	.string "leyenda.$"
 
+SnowpointCity_Entrada::
+lock
+msgbox SnowpointCity_Entrada_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Entrada_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Entrada_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Entrada_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Entrada_Texto_5 MSGBOX_AUTOCLOSE
+release
+end
+
+SnowpointCity_Entrada_Texto_1:
+	.string "ARIANA: Le he preguntado al marinero:\n"
+	.string "estamos en CIUDAD PUNTANEVA, en la\l"
+	.string "región de SINNOH.$"
+
+SnowpointCity_Entrada_Texto_2:
+	.string "Nadie viaja hasta tan lejos sin más,\n"
+	.string "deben ir tras algo muy importante.$"
+
+SnowpointCity_Entrada_Texto_3:
+	.string "En el SUBMARINO dijeron que debía\n"
+	.string "regresar a HOENN. ¿A qué se referirá?$"
+
+SnowpointCity_Entrada_Texto_4:
+	.string "Solo nos queda explorar la ciudad,\n"
+	.string "parece que la respuesta está en el\l"
+	.string "TEMPLO PUNTANEVA, al norte de la\l"
+	.string "ciudad.$"
+
+SnowpointCity_Entrada_Texto_5:
+	.string "Seguro que están allí. Yo me adelantaré,\n"
+	.string "{PLAYER}. Tú deberías curar antes a\l"
+	.string "tus POKÉMON.$"
+
+SnowpointCity_Templo::
+lock
+msgbox SnowpointCity_Templo_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Templo_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Templo_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Templo_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Templo_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Templo_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Templo_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Templo_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+SnowpointCity_Templo_Texto_1:
+	.string "ARIANA: Pero le he dicho que venimos\n"
+	.string "con los de DEVON.$"
+
+SnowpointCity_Templo_Texto_2:
+	.string "Lo siento, a nosotros no nos han dicho\n"
+	.string "eso. El TEMPLO PUNTANEVA es muy\l"
+	.string "estricto con los permisos que concede,\l"
+	.string "tendrá que esper…$"
+
+SnowpointCity_Templo_Texto_3:
+	.string "ARIANA: ¿Esperar? ¡Hemos venido desde\n"
+	.string "HOENN!$"
+
+SnowpointCity_Templo_Texto_4:
+	.string "Son las normas, lo siento.$"
+
+SnowpointCity_Templo_Texto_5:
+	.string "¿Las normas? Ya me he cansado de ser\n"
+	.string "correcta, voy a enseñarte la única ley\l"
+	.string "que todos pueden reconocer de\l"
+	.string "inmediato, ¡ARBOK!$"
+
+SnowpointCity_Templo_Texto_6:
+	.string "¡Ahhhh! ¡Ayuda!$"
+
+SnowpointCity_Templo_Texto_7:
+	.string "ARIANA: Vamos a entrar por las buenas o\n"
+	.string "por las malas.$"
+
+SnowpointCity_Templo_Texto_8:
+	.string "¡{PLAYER}! Tú adelántate, no podemos\n"
+	.string "darle más ventaja a DEVON.$"
+
 
