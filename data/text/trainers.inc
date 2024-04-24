@@ -17903,6 +17903,82 @@ AbandonedShip_Text_QuintoPoliciaPostBattle:
 	.string "¿Dónde has encontrado la MO que te\n"
 	.string "permite hacer BUCEO?$"
 
+Snowpoint_Gimnasio_Text_PrimeroIntro:
+	.string "Hace m-mucho frío. No siento ni la\n"
+	.string "l-lengua.$"
+
+Snowpoint_Gimnasio_Text_PrimeroDefeated:
+	.string "Este resultado... Me ha dejado helado.$"
+
+Snowpoint_Gimnasio_Text_PrimeroPostBattle:
+	.string "Si te deslizas desde mayor altura,\n"
+	.string "chocarás contra las bolas de nieve con\l"
+	.string "mayor velocidad.$"
+
+Snowpoint_Gimnasio_Text_SegundoIntro:
+	.string "¿El suelo del gimnasio te está haciendo\n"
+	.string "sudar? Si uno no se mantiene frío\l"
+	.string "durante el combate, se queda helado.$"
+
+Snowpoint_Gimnasio_Text_SegundoDefeated:
+	.string "Menuda frialdad desprendes... Al menos\n"
+	.string "tengo mis botas calientes.$"
+
+Snowpoint_Gimnasio_Text_SegundoPostBattle:
+	.string "Tu equipo Pokémon echa chispas en el\n"
+	.string "combate. ¡Me has fundido!$"
+
+Snowpoint_Gimnasio_Text_TercerIntro:
+	.string "Siempre luchamos cuando hay ventiscas\n"
+	.string "en CIUDAD PUNTANEVA, ¡Ahora te vamos a\l"
+	.string "enseñar los resultados de nuestro\l"
+	.string "entrenamiento!$"
+
+Snowpoint_Gimnasio_Text_TercerDefeated:
+	.string "¿De dónde sacas tanta fuerza?$"
+
+Snowpoint_Gimnasio_Text_TercerPostBattle:
+	.string "¿Dices que has luchado en todos lados?\n"
+	.string "Eso te ha hecho fuerte.$"
+
+Snowpoint_Gimnasio_Text_CuartoIntro:
+	.string "Hace poco que me relaciono con Pokémon.\n"
+	.string "¡He llegado hasta aquí porque me han\l"
+	.string "enseñado amigos muy buenos!$"
+
+Snowpoint_Gimnasio_Text_CuartoDefeated:
+	.string "Es increíble lo fuerte que eres!$"
+
+Snowpoint_Gimnasio_Text_CuartoPostBattle:
+	.string "Si tienes buenos amigos puedes llegar a\n"
+	.string "cualquier sitio.$"
+
+Snowpoint_Gimnasio_Text_QuintoIntro:
+	.string "Mi fuerza de voluntad ha sido moldeada\n"
+	.string "pro fuertes ventiscas. ¡Ahora serás\l"
+	.string "víctima de ella!$"
+
+Snowpoint_Gimnasio_Text_QuintoDefeated:
+	.string "Ni has pestañeado...$"
+
+Snowpoint_Gimnasio_Text_QuintoPostBattle:
+	.string "He luchado contra numerosos\n"
+	.string "entrenadores y Pokémon. Todos estos\l"
+	.string "combates han fortalecido mi espíritu.$"
+
+Snowpoint_Gimnasio_Text_SextoIntro:
+	.string "¿Empiezas a sentir el cansancio? Un\n"
+	.string "buen entrenador solo piensa en ganar,\l"
+	.string "se encuentre bien o no.$"
+
+Snowpoint_Gimnasio_Text_SextoDefeated:
+	.string "Me encuentro mal...$"
+
+Snowpoint_Gimnasio_Text_SextoPostBattle:
+	.string "Los sentimientos del entrenador y los\n"
+	.string "del Pokémon... Si ambos están en\l"
+	.string "sintonía, no pueden perder.$"
+
 
 
 

@@ -1,2 +1,33 @@
 Snowpoint_Gimnasio_MapScripts::
 	.byte 0
+
+
+Snowpoint_Gimnasio_EventScript_Primer_Entrenador::
+	trainerbattle_single TRAINER_TRAINER_619, Snowpoint_Gimnasio_Text_PrimeroIntro, Snowpoint_Gimnasio_Text_PrimeroDefeated
+	msgbox Snowpoint_Gimnasio_Text_PrimeroPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Snowpoint_Gimnasio_EventScript_Segundo_Entrenador::
+	trainerbattle_single TRAINER_TRAINER_620, Snowpoint_Gimnasio_Text_SegundoIntro, Snowpoint_Gimnasio_Text_SegundoDefeated
+	msgbox Snowpoint_Gimnasio_Text_SegundoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Snowpoint_Gimnasio_EventScript_Tercer_Entrenador::
+	trainerbattle_single TRAINER_TRAINER_621, Snowpoint_Gimnasio_Text_TercerIntro, Snowpoint_Gimnasio_Text_TercerDefeated
+	msgbox Snowpoint_Gimnasio_Text_TercerPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Snowpoint_Gimnasio_EventScript_Cuarto_Entrenador::
+	trainerbattle_single TRAINER_TRAINER_622, Snowpoint_Gimnasio_Text_CuartoIntro, Snowpoint_Gimnasio_Text_CuartoDefeated
+	msgbox Snowpoint_Gimnasio_Text_CuartoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Snowpoint_Gimnasio_EventScript_Quinto_Entrenador::
+	trainerbattle_single TRAINER_TRAINER_623, Snowpoint_Gimnasio_Text_QuintoIntro, Snowpoint_Gimnasio_Text_QuintoDefeated
+	msgbox Snowpoint_Gimnasio_Text_QuintoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Snowpoint_Gimnasio_EventScript_Sexto_Entrenador::
+	trainerbattle_single TRAINER_TRAINER_624, Snowpoint_Gimnasio_Text_SextoIntro, Snowpoint_Gimnasio_Text_SextoDefeated
+	msgbox Snowpoint_Gimnasio_Text_SextoPostBattle, MSGBOX_AUTOCLOSE
+	end
