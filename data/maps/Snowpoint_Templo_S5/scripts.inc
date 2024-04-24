@@ -137,3 +137,178 @@ Snowpoint_Templo_S5_Rasmus_Texto_23:
 
 Snowpoint_Templo_S5_Rasmus_Texto_24:
 	.string "ARIANA: ¡Eso lo veremos!$"
+
+
+Snowpoint_Templo_S5_Amatista::
+lock
+msgbox Snowpoint_Templo_S5_Amatista_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_22 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_23 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_24 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_25 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_26 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_27 MSGBOX_AUTOCLOSE
+msgbox Snowpoint_Templo_S5_Amatista_Texto_28 MSGBOX_AUTOCLOSE
+release
+end
+
+Snowpoint_Templo_S5_Amatista_Texto_1:
+	.string "ADM.AMATISTA: Ya era hora, REGIGIGAS.\n"
+	.string "HOENN te espera con los brazos\l"
+	.string "abiertos.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_2:
+	.string "Es poco honorable espiar a espaldas de\n"
+	.string "tus enemigos desde la distancia,\l"
+	.string "{PLAYER}.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_3:
+	.string "Ya he visto el numerito que habéis\n"
+	.string "montado desde aquí. Deberías estar\l"
+	.string "avergonzado, armar semejante ruido en\l"
+	.string "este solemne lugar.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_4:
+	.string "Por suerte para ti, nuestro objetivo\n"
+	.string "principal ya se ha cumplido: traer de\l"
+	.string "vuelta a REGIGIGAS.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_5:
+	.string "Así es, su región de origen es HOENN.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_6:
+	.string "Este templo se levantó en tiempos\n"
+	.string "ancestrales, con el único objetivo de\l"
+	.string "confinar al colosal POKÉMON, y así\l"
+	.string "impedir que vuelva a desarrollar todo su\l"
+	.string "potencial.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_7:
+	.string "Aquel que era capaz de arrastrar\n"
+	.string "continentes con cuerdas, aquel cuyo\l"
+	.string "poderío físico era imbatible.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_8:
+	.string "Aprovechando su letargo tras ese\n"
+	.string "inmenso despliegue de energía,\l"
+	.string "pudieron contenerlo.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_9:
+	.string "Anularon sus habilidades especiales, y\n"
+	.string "después lo sellaron aquí. Solo la\l"
+	.string "presencia de los 3 REGIS podrá hacer\l"
+	.string "que reaccione… aún en una muy limitada\l"
+	.string "forma.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_10:
+	.string "No leerás esto en ningún libro, pero es\n"
+	.string "la realidad. Lo confinaron aquí por\l"
+	.string "miedo a ese poder, y lo hicieron muy\l"
+	.string "bien.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_11:
+	.string "SINNOH, una región donde es imposible\n"
+	.string "hallar a los 3 REGIS necesarios para\l"
+	.string "despertarlo, y donde para entrar a este\l"
+	.string "TEMPLO es necesario ser ALTO MANDO,\l"
+	.string "CAMPEÓN o…$"
+
+Snowpoint_Templo_S5_Amatista_Texto_12:
+	.string "Traer un permiso especial con fines\n"
+	.string "arqueológicos, como DEVON.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_13:
+	.string "No es de extrañar que, con el paso del\n"
+	.string "tiempo, las propias personas que\l"
+	.string "guardan este lugar desconozcan su\l"
+	.string "propia naturaleza: se ha convertido ya\l"
+	.string "en un mito.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_14:
+	.string "Pero DEVON, su PRESIDENTE, yo… antes\n"
+	.string "de ser lo que somos, esta clase de\l"
+	.string "POKÉMON antiguos eran nuestra\l"
+	.string "especialidad y también nuestro anhelo.\l"
+	.string "Ahora, con toda la tecnología que hemos\l"
+	.string "adquirido, estamos preparados.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_15:
+	.string "No te irás de aquí con las manos vacías,\n"
+	.string "{PLAYER}. Déjame darte una pequeña\l"
+	.string "muestra de esa tecnología.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_16:
+	.string "Esperable.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_17:
+	.string "Este equipo ganaría facilmente la LIGA\n"
+	.string "POKÉMON de HOENN, sin embargo esperaba\l"
+	.string "perder contra ti.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_18:
+	.string "Así es la brecha actual que separa\n"
+	.string "ambos mundos: el real y el de los niños\l"
+	.string "de 10 años que inician su aventura.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_19:
+	.string "En SINNOH no parecen aún haberse dado\n"
+	.string "cuenta de la diferencia.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_20:
+	.string "Y ahora, nosotros les hemos ganado la\n"
+	.string "partida.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_21:
+	.string "Tus sospechas son ciertas, {PLAYER}.\n"
+	.string "Este no es el verdadero REGIGIGAS.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_22:
+	.string "Es una copia exacta, un clon que\n"
+	.string "teníamos preparado.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_23:
+	.string "La única diferencia entre este\n"
+	.string "REGIGIGAS y el verdadero… es la\l"
+	.string "capacidad para desarrollar ese\l"
+	.string "potencial intrínseco, ancestral. Nadie\l"
+	.string "lo notará.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_24:
+	.string "El falso REGIGIGAS será totalmente\n"
+	.string "inofensivo, por lo que, en el fondo, les\l"
+	.string "estamos haciendo un favor.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_25:
+	.string "… …$"
+
+Snowpoint_Templo_S5_Amatista_Texto_26:
+	.string "GIOVANNI: ¿{PLAYER}? … … Cuéntame\n"
+	.string "todo.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_27:
+	.string "Lo que ha ocurrido en SINNOH merece ser\n"
+	.string "hablado inmediatamente. Iré en persona\l"
+	.string "a por vosotros.$"
+
+Snowpoint_Templo_S5_Amatista_Texto_28:
+	.string "Estaré ahí en unas horas.$"

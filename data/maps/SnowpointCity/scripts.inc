@@ -181,4 +181,51 @@ SnowpointCity_Templo_Texto_8:
 	.string "¡{PLAYER}! Tú adelántate, no podemos\n"
 	.string "darle más ventaja a DEVON.$"
 
+SnowpointCity_Salida::
+lock
+msgbox SnowpointCity_Salida_Texto_1 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Salida_Texto_2 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Salida_Texto_3 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Salida_Texto_4 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Salida_Texto_5 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Salida_Texto_6 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Salida_Texto_7 MSGBOX_AUTOCLOSE
+msgbox SnowpointCity_Salida_Texto_8 MSGBOX_AUTOCLOSE
+release
+end
+
+SnowpointCity_Salida_Texto_1:
+	.string "ARIANA: ¿Derrotaste al\n"
+	.string "ADMIN.AMATISTA?$"
+
+SnowpointCity_Salida_Texto_2:
+	.string "Ya veo, yo… no puedo decir lo mismo.$"
+
+SnowpointCity_Salida_Texto_3:
+	.string "Ese DOCTOR usaba POKÉMON que jamás\n"
+	.string "había visto, toda esta expedición no ha\l"
+	.string "hecho más que aumentar mis temores\l"
+	.string "hacia DEVON y el futuro de HOENN.$"
+
+SnowpointCity_Salida_Texto_4:
+	.string "Un futuro que ahora es incierto para\n"
+	.string "mí… después de esto, ¿cómo volveré al\l"
+	.string "CASINO MALVALONA? Ahora sé demasiadas\l"
+	.string "cosas.$"
+
+SnowpointCity_Salida_Texto_5:
+	.string "… …$"
+
+SnowpointCity_Salida_Texto_6:
+	.string "¡¿GIOVANNI está de camino?!$"
+
+SnowpointCity_Salida_Texto_7:
+	.string "Hmph, entonces, así va a ser…$"
+
+SnowpointCity_Salida_Texto_8:
+	.string "Estaré en el CENTRO POKÉMON. Si te\n"
+	.string "aburres, puedes intentar ganar la\l"
+	.string "medalla de este GIMNASIO. Yo necesito\l"
+	.string "descansar.$"
+
 
