@@ -142,7 +142,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_16"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ARIANA",
@@ -155,7 +155,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_18"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_MR_BRINEYS_BOAT",
@@ -168,7 +168,7 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_699"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ARIANA",
@@ -181,7 +181,20 @@
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
       "script": "NULL",
-      "flag": "0"
+      "flag": "FLAG_HOENN_19"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ARIANA",
+      "x": 17,
+      "y": 15,
+      "elevation": 3,
+      "movement_type": "MOVEMENT_TYPE_NONE",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "NULL",
+      "flag": "FLAG_HOENN_698"
     }
   ],
   "warp_events": [

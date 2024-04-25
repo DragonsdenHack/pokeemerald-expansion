@@ -305,3 +305,10 @@ SSTidal_Submarino_Dracon_Texto_18:
 	.string "DEVON es lo mejor para HOENN, alguien\n"
 	.string "como tú que viene de fuera jamás lo\l"
 	.string "entendería.$"
+
+SSTidal_Submarino_Dialogo_Dracon::
+lock
+faceplayer
+msgbox SSTidal_Submarino_Dracon_Texto_18 MSGBOX_NPC
+release
+end

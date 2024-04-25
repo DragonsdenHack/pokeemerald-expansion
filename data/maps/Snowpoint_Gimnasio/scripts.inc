@@ -44,6 +44,7 @@ msgbox Snowpoint_Gimnasio_Lider_Texto_6 MSGBOX_NPC
 msgbox Snowpoint_Gimnasio_Lider_Texto_7 MSGBOX_NPC
 msgbox Snowpoint_Gimnasio_Lider_Texto_8 MSGBOX_NPC
 msgbox Snowpoint_Gimnasio_Lider_Texto_9 MSGBOX_NPC
+msgbox Snowpoint_Gimnasio_Lider_Texto_10 MSGBOX_NPC
 release
 end
 
@@ -83,3 +84,7 @@ Snowpoint_Gimnasio_Lider_Texto_9:
 	.string "O sea. ¿Crees que debería intentar ser\n"
 	.string "más... fría y distante? Es que eso no se\l"
 	.string "me da muy bien...$"
+
+Snowpoint_Gimnasio_Lider_Texto_10:
+	.string "GIOVANNI: Hemos llegado {PLAYER}, te\n"
+	.string "esperamos en el PUERTO de PUNTANEVA.$"

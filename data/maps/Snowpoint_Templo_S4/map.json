@@ -38,7 +38,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "2",
       "script": "Snowpoint_Templo_S4_EventScript_Cientifico",
-      "flag": "0"
+      "flag": "FLAG_HOENN_16"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_POLICEMAN",
@@ -51,7 +51,7 @@
       "trainer_type": "TRAINER_TYPE_NORMAL",
       "trainer_sight_or_berry_tree_id": "4",
       "script": "Snowpoint_Templo_S4_EventScript_Policia",
-      "flag": "0"
+      "flag": "FLAG_HOENN_16"
     }
   ],
   "warp_events": [

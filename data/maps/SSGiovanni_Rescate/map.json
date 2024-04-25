@@ -24,8 +24,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSGiovanni_Rescate_Dialogo_Giovanni",
+      "flag": "FLAG_HOENN_7"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ARIANA",
@@ -37,8 +37,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSGiovanni_Rescate_Dialogo_Ariana",
+      "flag": "FLAG_HOENN_7"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO",
@@ -50,8 +50,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSGiovanni_Rescate_Cuarto_Recluta",
+      "flag": "FLAG_HOENN_7"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_EJECUTIVO",
@@ -63,8 +63,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSGiovanni_Rescate_Quinto_Recluta",
+      "flag": "FLAG_HOENN_7"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
@@ -76,8 +76,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSGiovanni_Rescate_Primer_Recluta",
+      "flag": "FLAG_HOENN_7"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
@@ -89,8 +89,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSGiovanni_Rescate_Segundo_Recluta",
+      "flag": "FLAG_HOENN_7"
     },
     {
       "graphics_id": "OBJ_EVENT_GFX_ROCKET_M_ALTO_RANGO",
@@ -102,8 +102,8 @@
       "movement_range_y": 0,
       "trainer_type": "TRAINER_TYPE_NONE",
       "trainer_sight_or_berry_tree_id": "0",
-      "script": "NULL",
-      "flag": "0"
+      "script": "SSGiovanni_Rescate_Tercer_Recluta",
+      "flag": "FLAG_HOENN_7"
     }
   ],
   "warp_events": [
@@ -116,7 +116,15 @@
     }
   ],
   "coord_events": [
-
+    {
+      "type": "trigger",
+      "x": 8,
+      "y": 4,
+      "elevation": 0,
+      "var": "VAR_TEMP_0",
+      "var_value": "0",
+      "script": "SSGiovanni_Rescate_Escena"
+    }
   ],
   "bg_events": [
 

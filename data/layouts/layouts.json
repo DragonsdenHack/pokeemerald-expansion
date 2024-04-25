@@ -14765,7 +14765,7 @@
       "id": "LAYOUT_SSGIOVANNI_RESCATE",
       "name": "SSGiovanni_Rescate_Layout",
       "width": 16,
-      "height": 10,
+      "height": 16,
       "border_width": 2,
       "border_height": 2,
       "primary_tileset": "gTileset_Building_fr",

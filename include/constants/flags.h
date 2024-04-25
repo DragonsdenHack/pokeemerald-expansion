@@ -1663,10 +1663,10 @@
 #define FLAG_HOENN_13 (TRAINER_FLAGS_END + 13) // TRISTANA BLOQUEO CUEVA GRANITO
 #define FLAG_HOENN_14 (TRAINER_FLAGS_END + 14) // BLOQUEO PUERTO PORTUAL
 #define FLAG_HOENN_15 (TRAINER_FLAGS_END + 15) // DEVON EN SUBMARINO 
-#define FLAG_HOENN_16 (TRAINER_FLAGS_END + 16)
-#define FLAG_HOENN_17 (TRAINER_FLAGS_END + 17)
-#define FLAG_HOENN_18 (TRAINER_FLAGS_END + 18)
-#define FLAG_HOENN_19 (TRAINER_FLAGS_END + 19)
+#define FLAG_HOENN_16 (TRAINER_FLAGS_END + 16) // DEVON EN PUNTANEVA
+#define FLAG_HOENN_17 (TRAINER_FLAGS_END + 17) // REGIGIGAS PUNTANEVA
+#define FLAG_HOENN_18 (TRAINER_FLAGS_END + 18) // ARIANA ENTRADA PUNTANEVA
+#define FLAG_HOENN_19 (TRAINER_FLAGS_END + 19) // ARIANA ENTRADA TEMPLO
 #define FLAG_HOENN_20 (TRAINER_FLAGS_END + 20)
 #define FLAG_HOENN_21 (TRAINER_FLAGS_END + 21)
 #define FLAG_HOENN_22 (TRAINER_FLAGS_END + 22)
@@ -2344,10 +2344,10 @@
 #define FLAG_HOENN_694 (TRAINER_FLAGS_END + 694) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_695 (TRAINER_FLAGS_END + 695) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_696 (TRAINER_FLAGS_END + 696) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_697 (TRAINER_FLAGS_END + 697) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_698 (TRAINER_FLAGS_END + 698) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_699 (TRAINER_FLAGS_END + 699) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_700 (TRAINER_FLAGS_END + 700) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_697 (TRAINER_FLAGS_END + 697) // Ariana Centro Pkmn // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_698 (TRAINER_FLAGS_END + 698) // Ariana Salida Templo // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_699 (TRAINER_FLAGS_END + 699) // Barco Giovanni Puntaneva // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_700 (TRAINER_FLAGS_END + 700) // Ariana S5 templo puntanerva // En modo Setflag por defecto desde fin DLC
 
 
 
