@@ -316,3 +316,25 @@ FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
 	.string "POKéMON with you?\p"
 	.string "Please return with two POKéMON\n"
 	.string "at the very least.$"
+
+
+LavaridgeTown_Gym_Combate_Alana::
+lock
+faceplayer
+goto_if_set FLAG_UNUSED_0x068, LavaridgeTown_Gym_Combate_Alana_Despues
+msgbox FortreeCity_Gym_Text_WinonaIntro MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ALANA, LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat
+msgbox LavaridgeTown_Gym_1F_Text_FlanneryDefeat MSGBOX_AUTOCLOSE
+setflag FLAG_UNUSED_0x068
+delay 10
+playfanfare MUS_OBTAIN_BADGE
+msgbox LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge MSGBOX_DEFAULT
+waitfanfare
+msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostRematch MSGBOX_AUTOCLOSE
+release
+end
+
+LavaridgeTown_Gym_Combate_Alana_Despues::
+msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostRematch MSGBOX_AUTOCLOSE
+release
+end
