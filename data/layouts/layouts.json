@@ -1412,8 +1412,8 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Facility",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_1",
       "border_filepath": "data/layouts/CableCarStation/border.bin",
       "blockdata_filepath": "data/layouts/CableCarStation/map.bin"
     },

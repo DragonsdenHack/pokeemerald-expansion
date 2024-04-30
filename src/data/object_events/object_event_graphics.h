@@ -665,8 +665,6 @@ const u16 gObjectEventic_DragonSagrado[] = INCBIN_U16("graphics/object_events/pi
 const u16 gObjectEventPic_ReyUnown[] = INCBIN_U16("graphics/object_events/pics/people/kingunown.4bpp");
 const u16 gObjectEventPic_Miguel[] = INCBIN_U16("graphics/object_events/pics/people/miguel.4bpp");
 const u16 gObjectEventPic_Regigigas[] = INCBIN_U16("graphics/object_events/pics/people/regigigas.4bpp");
-const u16 gObjectEventPic_Inverna[] = INCBIN_U16("graphics/object_events/pics/people/inverna.4bpp");
-const u16 gObjectEventPic_Oro[] = INCBIN_U16("graphics/object_events/pics/people/oro.4bpp");
 
 // Nuevas paletas
 const u16 gObjectEventPal_Giovanni[] = INCBIN_U16("graphics/object_events/pics/people/giovanni.gbapal");
@@ -810,7 +808,3 @@ const u16 gObjectEventPal_Miguel[] = INCBIN_U16("graphics/object_events/palettes
 const u16 gObjectEventPal_Pokemaniacojohto[] = INCBIN_U16("graphics/object_events/palettes/pokemaniacojohto.gbapal");
 
 const u16 gObjectEventPal_Regigigas[] = INCBIN_U16("graphics/object_events/palettes/regigigas.gbapal");
-
-const u16 gObjectEventPal_Inverna[] = INCBIN_U16("graphics/object_events/palettes/inverna.gbapal");
-
-const u16 gObjectEventPal_Oro[] = INCBIN_U16("graphics/object_events/palettes/oro.gbapal");

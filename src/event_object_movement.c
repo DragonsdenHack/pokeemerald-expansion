@@ -561,8 +561,6 @@ const u8 gInitialMovementTypeFacingDirections[] = {
 #define OBJ_EVENT_PAL_TAG_JASON 0x119E
 #define OBJ_EVENT_PAL_TAG_MIGUEL 0x119F
 #define OBJ_EVENT_PAL_TAG_REGIGIGAS 0x11A1
-#define OBJ_EVENT_PAL_TAG_INVERNA 0x11A2
-#define OBJ_EVENT_PAL_TAG_ORO 0x11A3
 
 #define OBJ_EVENT_PAL_TAG_NONE                    0x11FF
 
@@ -731,8 +729,6 @@ static const struct SpritePalette sObjectEventSpritePalettes[] = {
 	{gObjectEventPal_Zinnia, OBJ_EVENT_PAL_TAG_ZINNIA},
 	{gObjectEventPal_Pokemaniacojohto, OBJ_EVENT_PAL_TAG_POKEMANIACOJOHTO},
 	{gObjectEventPal_Regigigas, OBJ_EVENT_PAL_TAG_REGIGIGAS},
-	{gObjectEventPal_Inverna, OBJ_EVENT_PAL_TAG_INVERNA},
-	{gObjectEventPal_Oro, OBJ_EVENT_PAL_TAG_ORO},
 };
 
 /*static const u16 sReflectionPaletteTags_Brendan[] = {
