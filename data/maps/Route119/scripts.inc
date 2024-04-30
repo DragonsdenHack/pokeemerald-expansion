@@ -608,3 +608,63 @@ Route119_Text_TrainerTipsDecoration:
 	.string "Pick your favorite items and create\n"
 	.string "your very own SECRET BASE exactly the\l"
 	.string "way you want.$"
+
+Route119_Norman::
+lock
+msgbox Route119_Norman_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_10 MSGBOX_AUTOCLOSE
+release
+end
+
+Route119_Norman_Texto_1:
+	.string "NORMAN: Entonces... ni KANTO, ni JOHTO,\n"
+	.string "ni ahora HOENN.$"
+
+Route119_Norman_Texto_2:
+.string "Disculpa, ¿nos hemos visto antes?$"
+
+Route119_Norman_Texto_3:
+	.string "En el MUSEO OCEÁNICO, ¿no? Me suena\n"
+	.string "haberte visto también en CIUDAD OLIVO.$"
+
+Route119_Norman_Texto_4:
+	.string "Esta ruta es impresionante, ¿no crees?$"
+
+Route119_Norman_Texto_5:
+	.string "En otras regiones es imposible\n"
+	.string "encontrar una fauna tan salvaje, creí\l"
+	.string "que HOENN iba a ser diferente en muchos\l"
+	.string "otros aspectos.$"
+
+Route119_Norman_Texto_6:
+	.string "El cauce de las cosas nos empuja hacia\n"
+	.string "otro lado. La tecnología que han\l"
+	.string "desarrollado grandes empresas en las\l"
+	.string "sombras cambiará el modo de concebir el\l"
+	.string "combate POKÉMON para siempre.$"
+
+Route119_Norman_Texto_7:
+	.string "Supongo que tendré que resignarme.$"
+
+Route119_Norman_Texto_8:
+	.string "Pero, como nuevo LÍDER de CIUDAD\n"
+	.string "PETALIA, trataré de cambiar el sistema\l"
+	.string "desde dentro.$"
+
+Route119_Norman_Texto_9:
+	.string "Aunque en algo tienen razón, por el\n"
+	.string "momento el gran público no está\l"
+	.string "preparado para todos esos cambios.$"
+
+Route119_Norman_Texto_10:
+	.string "Que la LIGA POKÉMON permanezca\n"
+	.string "imperturbable será importante para\l"
+	.string "mantener la cordura.$"

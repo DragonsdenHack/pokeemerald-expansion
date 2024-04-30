@@ -23018,52 +23018,52 @@ static const struct TrainerMonItemCustomMoves sParty_Norman[] = {
 static const struct TrainerMonItemCustomMoves sParty_Alana[] = {
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 111,
     .species = SPECIES_SALAMENCE,
     .heldItem = ITEM_POWER_HERB,
-    .evs = {0, 252, 0, 252, 0, 6},
+    .evs = {60, 252, 60, 252, 60, 6},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_SKY_ATTACK, MOVE_EARTHQUAKE, MOVE_DRAGON_CLAW, MOVE_FLY}
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 110,
     .species = SPECIES_DRAGONITE,
     .heldItem = ITEM_LEFTOVERS,
-    .evs = {252, 0, 128, 0, 0, 128},
+    .evs = {252, 60, 128, 60, 60, 128},
     .nature = NATURE_ADAMANT,
     .moves = {MOVE_DRAGON_DANCE, MOVE_SUBSTITUTE, MOVE_FLY, MOVE_ROOST}
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 112,
     .species = SPECIES_ARTICUNO,
     .heldItem = ITEM_HEAVY_DUTY_BOOTS,
-    .evs = {6, 0, 0, 252, 252, 0},
+    .evs = {6, 60, 60, 252, 252, 60},
     .nature = NATURE_MODEST,
     .moves = {MOVE_AEROBLAST, MOVE_BLIZZARD, MOVE_REFLECT, MOVE_HIDDEN_POWER}
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 112,
     .species = SPECIES_ZAPDOS,
     .heldItem = ITEM_HEAVY_DUTY_BOOTS,
-    .evs = {6, 0, 0, 252, 252, 0},
+    .evs = {60, 60, 60, 252, 252, 60},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_THUNDER, MOVE_AEROBLAST, MOVE_WEATHER_BALL, MOVE_ROOST}
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 112,
     .species = SPECIES_MOLTRES,
     .heldItem = ITEM_HEAVY_DUTY_BOOTS,
-    .evs = {6, 0, 0, 252, 252, 0},
+    .evs = {60, 60, 60, 252, 252, 60},
     .nature = NATURE_SERIOUS,
     .moves = {MOVE_AEROBLAST, MOVE_SOLAR_BEAM, MOVE_FLAMETHROWER, MOVE_SCORCHING_SANDS}
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 113,
     .species = SPECIES_ALTARIA,
     .heldItem = ITEM_ALTARIANITE,
     .evs = {120, 120, 120, 252, 252, 120},
@@ -23075,7 +23075,7 @@ static const struct TrainerMonItemCustomMoves sParty_Alana[] = {
 static const struct TrainerMonItemCustomMoves sParty_Vitoleti[] = {
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 112,
     .species = SPECIES_XATU,
     .heldItem = ITEM_LEFTOVERS,
     .evs = {6, 0, 0, 252, 252, 0},
@@ -23084,7 +23084,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vitoleti[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 112,
     .species = SPECIES_CLAYDOL,
     .heldItem = ITEM_TERRAIN_EXTENDER,
     .evs = {252, 0, 0, 252, 0, 6},
@@ -23093,7 +23093,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vitoleti[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 113,
     .species = SPECIES_GARDEVOIR,
     .heldItem = ITEM_GARDEVOIRITE,
     .evs = {60, 60, 60, 252, 252, 60},
@@ -23102,7 +23102,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vitoleti[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 113,
     .species = SPECIES_GALLADE,
     .heldItem = ITEM_GALLADITE,
     .evs = {60, 252, 60, 252, 60, 60},
@@ -23111,7 +23111,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vitoleti[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 114,
     .species = SPECIES_LUNATONE,
     .heldItem = ITEM_POWER_HERB,
     .evs = {120, 120, 120, 252, 252, 120},
@@ -23120,7 +23120,7 @@ static const struct TrainerMonItemCustomMoves sParty_Vitoleti[] = {
     },
     {
     .iv = 255,
-    .lvl = 100,
+    .lvl = 114,
     .species = SPECIES_SOLROCK,
     .heldItem = ITEM_COLBUR_BERRY,
     .evs = {120, 252, 120, 252, 120, 120},
