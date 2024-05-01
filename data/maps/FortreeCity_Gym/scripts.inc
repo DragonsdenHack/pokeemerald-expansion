@@ -232,21 +232,21 @@ FortreeCity_Gym_Text_DariusPostBattle:
 	.string	"de nuestra LÍDER ALANA son cosa seria.$"
 
 FortreeCity_Gym_Text_WinonaIntro:
-	.string "I am WINONA. I am the LEADER of\n"
-	.string "the FORTREE POKéMON GYM.\p"
-	.string "I have become one with BIRD POKéMON\n"
-	.string "and have soared the skies…\p"
-	.string "However grueling the battle, we have\n"
-	.string "triumphed with grace…\p"
-	.string "Witness the elegant choreography\n"
-	.string "of BIRD POKéMON and I!$"
+	.string	"Soy ALANA, la LÍDER del GIMNASIO\n"
+	.string	"de ARBORADA.\p"
+	.string	"He unido fuerzas con los POKéMON\n"
+	.string	"PÁJARO y alzado el vuelo.\p"
+	.string	"Por duro que fuera el combate, siempre\n"
+	.string	"hemos vencido con gracia y donaire.\p"
+	.string	"¡Ahora verás con qué elegancia te\n"
+	.string	"derrotan mis POKéMON PÁJARO!$"
 
 FortreeCity_Gym_Text_WinonaDefeat:
-	.string "Never before have I seen a TRAINER\n"
-	.string "command POKéMON with more grace\l"
-	.string "than I…\p"
-	.string "In recognition of your prowess,\n"
-	.string "I present to you this GYM BADGE.$"
+	.string	"Nunca antes había visto a ningún\n"
+	.string	"ENTRENADOR capaz de dirigir a sus\l"
+	.string	"POKéMON con más arte que yo…\p"
+	.string	"Debo reconocer tamaña proeza como\n"
+	.string	"se merece. Toma esta MEDALLA.$"
 
 FortreeCity_Gym_Text_ReceivedFeatherBadge:
 	.string	"{PLAYER} recibió la MEDALLA PLUMA\n"
@@ -294,28 +294,20 @@ FortreeCity_Gym_Text_WinonaPreRematch:
 	.string "at full flight!$"
 
 FortreeCity_Gym_Text_WinonaRematchDefeat:
-	.string "I failed to reach your height again…$"
+	.string	"Esta nueva victoria te ha dado alas…$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
-	.string "WINONA: Even though I have lost,\n"
-	.string "the wings of my heart remain unbroken.\p"
-	.string "I can rise and soar again and\n"
-	.string "yet again.\p"
-	.string "I am convinced of it!$"
+	.string	"ALANA: Aunque he perdido,\n"
+	.string	"mi espíritu permanece intacto.\p"
+	.string	"Sé que puedo alzar el vuelo\n"
+	.string	"y tocar las nubes.\p"
+	.string	"¡Y eso haré!$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
-	.string "WINONA: We humans can never escape\n"
-	.string "gravity's pull on the ground.\p"
-	.string "But by striving for excellence,\n"
-	.string "we have the power to soar!\p"
-	.string "You have scaled the pinnacle as\n"
-	.string "the reigning CHAMPION.\p"
-	.string "Please, allow me to see your power\n"
-	.string "at full flight!\p"
-	.string "Oh, no… Do you have but one\n"
-	.string "POKéMON with you?\p"
-	.string "Please return with two POKéMON\n"
-	.string "at the very least.$"
+	.string	"ALANA: Los humanos no podemos\n"
+	.string	"escapar a la fuerza de la gravedad.\p"
+	.string	"Pero, con mucho trabajo y esfuerzo,\n"
+	.string	"podemos llegar a lo más alto.$"
 
 
 LavaridgeTown_Gym_Combate_Alana::
@@ -323,18 +315,18 @@ lock
 faceplayer
 goto_if_set FLAG_UNUSED_0x068, LavaridgeTown_Gym_Combate_Alana_Despues
 msgbox FortreeCity_Gym_Text_WinonaIntro MSGBOX_AUTOCLOSE
-trainerbattle_no_intro TRAINER_ALANA, LavaridgeTown_Gym_1F_Text_FlanneryRematchDefeat
-msgbox LavaridgeTown_Gym_1F_Text_FlanneryDefeat MSGBOX_AUTOCLOSE
+trainerbattle_no_intro TRAINER_ALANA, FortreeCity_Gym_Text_WinonaRematchDefeat
+msgbox FortreeCity_Gym_Text_WinonaDefeat MSGBOX_AUTOCLOSE
 setflag FLAG_UNUSED_0x068
 delay 10
 playfanfare MUS_OBTAIN_BADGE
-msgbox LavaridgeTown_Gym_1F_Text_ReceivedHeatBadge MSGBOX_DEFAULT
+msgbox FortreeCity_Gym_Text_ReceivedFeatherBadge MSGBOX_DEFAULT
 waitfanfare
-msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostRematch MSGBOX_AUTOCLOSE
+msgbox FortreeCity_Gym_Text_WinonaPostRematch MSGBOX_AUTOCLOSE
 release
 end
 
 LavaridgeTown_Gym_Combate_Alana_Despues::
-msgbox LavaridgeTown_Gym_1F_Text_FlanneryPostRematch MSGBOX_AUTOCLOSE
+msgbox FortreeCity_Gym_Text_WinonaRematchNeedTwoMons MSGBOX_AUTOCLOSE
 release
 end
