@@ -8284,6 +8284,8 @@ extern const u32 gTrainerPalette_Devon3[];
 extern const u32 gTrainerPalette_Devon4[];
 extern const u32 gTrainerPalette_Miguel[];
 extern const u32 gTrainerPalette_Presidente[];
+extern const u32 gTrainerPalette_Inverna[];
+extern const u32 gTrainerPalette_Oro[];
 
 extern const u8 gTrainerBackPic_Brendan[];
 extern const u8 gTrainerBackPic_May[];
