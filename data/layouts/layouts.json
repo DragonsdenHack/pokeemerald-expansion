@@ -1412,8 +1412,8 @@
       "height": 12,
       "border_width": 2,
       "border_height": 2,
-      "primary_tileset": "gTileset_General",
-      "secondary_tileset": "gTileset_Facility",
+      "primary_tileset": "gTileset_Building_fr",
+      "secondary_tileset": "gTileset_generic_building_1",
       "border_filepath": "data/layouts/CableCarStation/border.bin",
       "blockdata_filepath": "data/layouts/CableCarStation/map.bin"
     },
@@ -14772,6 +14772,30 @@
       "secondary_tileset": "gTileset_ss_anne",
       "border_filepath": "data/layouts/SSGiovanni_Rescate/border.bin",
       "blockdata_filepath": "data/layouts/SSGiovanni_Rescate/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_TUNEL_ROCA_1F",
+      "name": "Neo_TunelRoca_1F_Layout",
+      "width": 28,
+      "height": 26,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_rock_tunnel",
+      "border_filepath": "data/layouts/Neo_TunelRoca_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Neo_TunelRoca_1F/map.bin"
+    },
+    {
+      "id": "LAYOUT_NEO_TUNEL_ROCA_2F",
+      "name": "Neo_TunelRoca_2F_Layout",
+      "width": 28,
+      "height": 26,
+      "border_width": 2,
+      "border_height": 2,
+      "primary_tileset": "gTileset_gTileset_General_fr",
+      "secondary_tileset": "gTileset_rock_tunnel",
+      "border_filepath": "data/layouts/Neo_TunelRoca_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Neo_TunelRoca_2F/map.bin"
     }
   ]
 }

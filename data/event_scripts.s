@@ -2882,3 +2882,7 @@ Text_EVChecker_3:
 	.include "data/maps/SSTidal_Submarino/scripts.inc"
 
 	.include "data/maps/SSGiovanni_Rescate/scripts.inc"
+
+	.include "data/maps/Neo_TunelRoca_1F/scripts.inc"
+
+	.include "data/maps/Neo_TunelRoca_2F/scripts.inc"

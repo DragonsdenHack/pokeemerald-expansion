@@ -505,6 +505,8 @@
 #define MAP_LAVENDER_RADIO_P8               (27 | (19 << 8))
 #define MAP_LAVENDER_RADIO_P9               (28 | (19 << 8))
 #define MAP_LAVENDER_RADIO_P10              (29 | (19 << 8))
+#define MAP_NEO_TUNEL_ROCA_1F               (30 | (19 << 8))
+#define MAP_NEO_TUNEL_ROCA_2F               (31 | (19 << 8))
 
 // gMapGroup_IndoorCeladonCity
 #define MAP_CELADON_CITY_SHOP_1F           (0 | (20 << 8))
