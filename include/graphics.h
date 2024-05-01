@@ -8045,6 +8045,8 @@ extern const u32 gTrainerFrontPic_Devon3[];
 extern const u32 gTrainerFrontPic_Devon4[];
 extern const u32 gTrainerFrontPic_Miguel[];
 extern const u32 gTrainerFrontPic_Presidente[];
+extern const u32 gTrainerFrontPic_Inverna[];
+extern const u32 gTrainerFrontPic_Oro[];
 
 extern const u32 gTrainerFrontPic_Valeria[];
 extern const u32 gTrainerFrontPic_Zapdos[];

@@ -508,9 +508,11 @@
 #define OBJ_EVENT_GFX_JONES 504
 #define OBJ_EVENT_GFX_MIGUEL 505
 #define OBJ_EVENT_GFX_REGIGIGAS 506
+#define OBJ_EVENT_GFX_INVERNA 507
+#define OBJ_EVENT_GFX_ORO 508
 
 
-#define NUM_OBJ_EVENT_GFX                        507                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
+#define NUM_OBJ_EVENT_GFX                        509                  //añadido unos 200 ows, el tope era 239, por lo tanto 239+172 = 411 y este es el final, 412
 
 
 // These are dynamic object gfx ids.
