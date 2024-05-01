@@ -1029,3 +1029,17 @@ gMetatiles_Snowpoint_temple::
 	.align 1
 gMetatileAttributes_Snowpoint_temple::
 	.incbin "data/tilesets/secondary/snowpoint_temple/metatile_attributes.bin"
+	.align 1
+gMetatiles_goldenrod_city::
+	.incbin "data/tilesets/secondary/goldenrod_city/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_goldenrod_city::
+	.incbin "data/tilesets/secondary/goldenrod_city/metatile_attributes.bin"
+	.align 1
+gMetatiles_Slateport2::
+	.incbin "data/tilesets/secondary/slateport2/metatiles.bin"
+
+	.align 1
+gMetatileAttributes_Slateport2::
+	.incbin "data/tilesets/secondary/slateport2/metatile_attributes.bin"
