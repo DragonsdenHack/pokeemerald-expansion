@@ -88,3 +88,28 @@ Snowpoint_Gimnasio_Lider_Texto_9:
 Snowpoint_Gimnasio_Lider_Texto_10:
 	.string "GIOVANNI: Hemos llegado {PLAYER}, te\n"
 	.string "esperamos en el PUERTO de PUNTANEVA.$"
+
+Snowpoint_Gimnasio_Dude::
+lock
+faceplayer
+msgbox Snowpoint_Gimnasio_Dude_Texto_1 MSGBOX_NPC
+msgbox Snowpoint_Gimnasio_Dude_Texto_2 MSGBOX_NPC
+release
+end
+
+Snowpoint_Gimnasio_Dude_Texto_1:
+	.string "No pareces ser de aquí. ¿Solo estás de\n"
+	.string "paso? ¡Pues más vale que te prepares!\l"
+	.string "nuestra LÍDER es de las más fuertes de\l"
+	.string "SINNOH, sus POKÉMON están\l"
+	.string "acostumbrados a entrenar en\l"
+	.string "condiciones muy adversas.$"
+
+Snowpoint_Gimnasio_Dude_Texto_2:
+	.string "¿Qué ha sido eso? ¡Has ganado en un\n"
+	.string "abrir y cerrar de ojos! ¿Eres el CAMPEÓN\l"
+	.string "de una región lejana? ... ... ¿Mejor aún\l"
+	.string "dices? ... ¿El LÍDER de la organización\l"
+	.string "criminal más importante del mundo? ... ...\l"
+	.string "Oh...$"
+

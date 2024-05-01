@@ -231,20 +231,167 @@ MagmaHideout_4F_Text_MaxieImGoingAfterGroudon:
 	.string "I am going after GROUDON, so this\n"
 	.string "is where we part!$"
 
+MagmaHideout_4F_Encuentro_Amatista_Izquierda::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1.1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_2
+waitmovement 0x0
+delay 10
+goto MagmaHideout_4F_Encuentro_Amatista
+
+MagmaHideout_4F_Encuentro_Amatista_Centro::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1.1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_2.1
+waitmovement 0x0
+delay 10
+goto MagmaHideout_4F_Encuentro_Amatista
+
+MagmaHideout_4F_Encuentro_Amatista_Derecha::
+lock
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1.1
+waitmovement 0x0
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_1
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Move_2.2
+waitmovement 0x0
+delay 10
+goto MagmaHideout_4F_Encuentro_Amatista
+
+
+MagmaHideout_4F_Move_1:
+emote_exclamation_mark
+walk_in_place_down
+step_end
+
+MagmaHideout_4F_Move_1.1:
+walk_in_place_down
+step_end
+
+MagmaHideout_4F_Move_2:
+walk_right
+walk_down
+step_end
+
+MagmaHideout_4F_Move_2.1:
+walk_down
+step_end
+
+MagmaHideout_4F_Move_2.2:
+walk_left
+walk_down
+step_end
+
+
 MagmaHideout_4F_Encuentro_Amatista::
 lock
+applymovement 6, MagmaHideout_4F_Encuentro_Move_1
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_1 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_2 MSGBOX_AUTOCLOSE
+applymovement 6, MagmaHideout_4F_Encuentro_Move_2
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 6, MagmaHideout_4F_Encuentro_Move_3
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 6, MagmaHideout_4F_Encuentro_Move_4
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 6, MagmaHideout_4F_Encuentro_Move_5
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_6 MSGBOX_AUTOCLOSE
+applymovement 6, MagmaHideout_4F_Encuentro_Move_6
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_7 MSGBOX_AUTOCLOSE
+applymovement 6, MagmaHideout_4F_Encuentro_Move_7
+waitmovement 0x0
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_8 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_9 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MagmaHideout_4F_Encuentro_Amatista_Texto_10 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MagmaHideout_4F_Encuentro_Move_9
+applymovement 6, MagmaHideout_4F_Encuentro_Move_8
+waitmovement 0x0
+setflag FLAG_HOENN_23
+removeobject 6
+setvar VAR_UNUSED_0x40F7, 221
 release
 end
+
+MagmaHideout_4F_Encuentro_Move_9:
+delay_8
+delay_8
+face_left
+delay_8
+delay_8
+face_up
+step_end
+
+MagmaHideout_4F_Encuentro_Move_8:
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+walk_up
+step_end
+
+MagmaHideout_4F_Encuentro_Move_7:
+delay_8
+face_right
+delay_8
+face_up
+step_end
+
+MagmaHideout_4F_Encuentro_Move_6:
+face_up
+step_end
+
+MagmaHideout_4F_Encuentro_Move_5:
+delay_8
+face_up
+delay_8
+delay_8
+walk_slow_right
+delay_8
+step_end
+
+MagmaHideout_4F_Encuentro_Move_4:
+delay_8
+face_left
+delay_8
+step_end
+
+MagmaHideout_4F_Encuentro_Move_3:
+walk_in_place_up
+step_end
+
+MagmaHideout_4F_Encuentro_Move_2:
+walk_slow_up
+step_end
+
+MagmaHideout_4F_Encuentro_Move_1:
+walk_up
+walk_up
+walk_up
+step_end
 
 MagmaHideout_4F_Encuentro_Amatista_Texto_1:
 	.string "????: Así que {PLAYER}.$"
@@ -292,3 +439,77 @@ MagmaHideout_4F_Encuentro_Amatista_Texto_9:
 
 MagmaHideout_4F_Encuentro_Amatista_Texto_10:
 	.string "Este no parece el caso.$"
+
+
+MagmaHideout_4F_Encuentro_Groudon::
+lock
+clearflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+msgbox MagmaHideout_4F_Encuentro_Groudon_Texto_1 MSGBOX_AUTOCLOSE
+delay 20
+playse SE_M_DETECT
+waitse
+dofieldeffectsparkle 17, 42, 0
+waitfieldeffect FLDEFF_SPARKLE
+playfanfare MUS_AWAKEN_LEGEND
+playse SE_ORB
+special DoOrbEffect
+delay 150
+waitstate
+delay 60
+special FadeOutOrbEffect
+setflag FLAG_HIDE_UNION_ROOM_PLAYER_3
+delay 75
+addobject 1
+waitfanfare
+removeobject 7
+setflag FLAG_HOENN_24
+playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+waitmoncry
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, Magma3_Combate_Magno_Move_3
+waitmovement 0x0
+goto MagmaHideout_4F_Encuentro_Groudon_2
+delay 150
+removeobject LOCALID_GROUDON_SLEEPING
+addobject LOCALID_GROUDON
+waitstate
+delay 60
+applymovement 1, MagmaHideout_4F_Movement_GroudonApproach
+waitmovement 0
+special FadeOutOrbEffect
+waitstate
+setvar VAR_0x8004, 1  @ vertical pan
+setvar VAR_0x8005, 1  @ horizontal pan
+setvar VAR_0x8006, 8  @ num shakes
+setvar VAR_0x8007, 5  @ shake delay
+special ShakeCamera
+waitstate
+applymovement 1, MagmaHideout_4F_Movement_GroudonExit
+waitmovement 0
+
+MagmaHideout_4F_Encuentro_Groudon_2::
+special SpawnCameraObject
+applymovement 1, TerraCave_End_Movement_GroudonApproach
+applymovement OBJ_EVENT_ID_CAMERA, Magma3_Combate_Magno_Move_9
+waitmovement 0x0
+special RemoveCameraObject
+trainerbattle_no_intro TRAINER_TRAINER_625, NavelRock_Bottom_Combate_Lugia_Texto_2
+playmoncry SPECIES_GROUDON, CRY_MODE_ENCOUNTER
+waitmoncry
+removeobject 1
+setflag FLAG_HIDE_MAGMA_HIDEOUT_4F_GROUDON
+playse SE_FAINT
+waitse
+msgbox MagmaHideout_4F_Encuentro_Groudon_Texto_2 MSGBOX_AUTOCLOSE
+clearflag FLAG_HOENN_696
+setvar VAR_UNUSED_0x40F7, 222
+release
+end
+
+MagmaHideout_4F_Encuentro_Groudon_Texto_2:
+	.string "(La batalla con GROUDON-P ha sido\n"
+	.string "registrada en la base de datos del TEAM\l"
+	.string "ROCKET).$"
+
+MagmaHideout_4F_Encuentro_Groudon_Texto_1:
+	.string "{PLAYER} activó la ESFERA ROJA.$"

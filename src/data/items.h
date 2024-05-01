@@ -9218,7 +9218,7 @@ const struct Item gItems[] =
 
     [ITEM_SECRET_KEY] =
     {
-        .name = _("Llave Secreta"),
+        .name = _("Ll.B.Hoenn"),
         .itemId = ITEM_SECRET_KEY,
         .price = 0,
         .description = sSecretKeyDesc,

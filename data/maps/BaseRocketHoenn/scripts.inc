@@ -1,9 +1,11 @@
 BaseRocketHoenn_MapScripts::
 map_script MAP_SCRIPT_ON_FRAME_TABLE, BaseRocketHoenn_OnFrame
+map_script MAP_SCRIPT_ON_FRAME_TABLE, BaseRocketHoenn_OnFrame
 	.byte 0
 
 BaseRocketHoenn_OnFrame:
 map_script_2 VAR_UNUSED_0x40F7, 184, BaseRocketHoenn_Escena_Lavanda
+map_script_2 VAR_UNUSED_0x40F7, 217, BaseRocketHoenn_Ejecutivo_Bienvenida
 	.2byte 0
 
 
@@ -2384,11 +2386,35 @@ BaseRocketHoenn_Potencial_Galar_Texto:
 
 BaseRocketHoenn_Ejecutivo_Bienvenida::
 lock
+clearflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+addobject 46
+delay 10
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_1
+waitmovement 0x0
+delay 20
+playse SE_PIN
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_2
+waitmovement 0x0
 msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_3
+waitmovement 0x0
 msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_2 MSGBOX_AUTOCLOSE
-msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_4
+waitmovement 0x0
+playfanfare MUS_RG_OBTAIN_KEY_ITEM
+additem ITEM_SECRET_KEY
+msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3 MSGBOX_DEFAULT
+waitfanfare
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_5
+waitmovement 0x0
 msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_6
+waitmovement 0x0
 msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_5 MSGBOX_AUTOCLOSE
+applymovement 46, BaseRocketHoenn_Ejecutivo_Bienvenida_move_7
+waitmovement 0x0
+setflag FLAG_HIDE_BATTLE_FRONTIER_SUDOWOODO
+removeobject 46
 setflag FLAG_HOENN_700
 setflag FLAG_HOENN_699
 setflag FLAG_HOENN_698
@@ -2450,8 +2476,54 @@ setflag FLAG_HOENN_643
 setflag FLAG_HOENN_642
 setflag FLAG_HOENN_641
 setflag FLAG_HOENN_640
+setvar VAR_UNUSED_0x40F7, 218
 release
 end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_7:
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_6:
+delay_8
+face_up
+delay_8
+delay_8
+walk_in_place_down
+delay_8
+step_end
+
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_5:
+delay_8
+walk_in_place_right
+delay_8
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_4:
+walk_in_place_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_3:
+walk_up
+walk_up
+walk_up
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_2:
+emote_exclamation_mark
+step_end
+
+BaseRocketHoenn_Ejecutivo_Bienvenida_move_1:
+face_up
+walk_up
+walk_up
+step_end
 
 BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_1:
 	.string "EJECUTIVO ROCKET: Oh… ADMIN.JEFE\n"

@@ -818,7 +818,7 @@ Ruta_111_Evento_Andra_Texto_2:
 
 
 Ruta_111_Barrera_Noroeste::
-compare VAR_UNUSED_0x40F7, 220
+compare VAR_UNUSED_0x40F7, 217
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_2
@@ -840,12 +840,24 @@ walk_right
 step_end
 
 Ruta_111_Barrera_Sur::
-compare VAR_UNUSED_0x40F7, 220
+compare VAR_UNUSED_0x40F7, 217
 goto_if_gt LavenderTown_Barrera_Mision_Kangaskhan_2
 msgbox Ruta_111_Barrera_Noroeste_Texto_1 MSGBOX_AUTOCLOSE
 applymovement OBJ_EVENT_ID_PLAYER, Ruta_111_Barrera_Noroeste_Move_1
 waitmovement 0x0
 release
 end
+
+Ruta_111_Cientificos::
+lock
+msgbox Ruta_111_Cientificos_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Ruta_111_Cientificos_Texto_1:
+	.string "MALVALANOVA será nuestro próximo\n"
+	.string "objetivo, pero primero debemos esperar\l"
+	.string "al doctor...$"
+
 
 

@@ -925,26 +925,166 @@ MtChimney_NPC10_Policia_Texto_1:
 
 MtChimney_Doctor_Rasmus::
 lock
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+playse SE_FALL
+applymovement 2, MtChimney_Doctor_Rasmus_Move_1
+waitmovement 0x0
+delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+waitse
 msgbox MtChimney_Doctor_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_3
+waitmovement 0x0
+delay 15
 msgbox MtChimney_Doctor_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MtChimney_Doctor_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_2
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+delay 20
 msgbox MtChimney_Doctor_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
 msgbox MtChimney_Doctor_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_4
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_5
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_6
+waitmovement 0x0
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
 msgbox MtChimney_Doctor_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+delay 15
 msgbox MtChimney_Doctor_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_7
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_13 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_8
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_14 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_9
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_15 MSGBOX_AUTOCLOSE
+playmoncry SPECIES_BLACEPHALON, CRY_MODE_ENCOUNTER
+applymovement 2, MtChimney_Doctor_Rasmus_Move_1
+waitmovement 0x0
+waitmoncry
+playse SE_FAINT
 msgbox MtChimney_Doctor_Rasmus_Texto_16 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_11
+applymovement 2, MtChimney_Doctor_Rasmus_Move_10
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_17 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_12
+applymovement OBJ_EVENT_ID_PLAYER, MtChimney_Doctor_Rasmus_Move_13
+waitmovement 0x0
 msgbox MtChimney_Doctor_Rasmus_Texto_18 MSGBOX_AUTOCLOSE
+applymovement 2, MtChimney_Doctor_Rasmus_Move_14
+waitmovement 0x0
+clearflag FLAG_HIDE_MT_CHIMNEY_TRAINERS
+clearflag FLAG_HIDE_MT_CHIMNEY_LAVA_COOKIE_LADY
+setflag FLAG_HOENN_1
+fadescreen 1
+delay 20
+addobject 26
+addobject 30
+addobject 25
+addobject 28
+addobject 27
+addobject 9
+removeobject 2
+removeobject 22
+removeobject 3
+removeobject 5
+removeobject 19
+removeobject 29
+removeobject 17
+removeobject 18
+removeobject 16
+removeobject 10
+removeobject 6
+fadescreen 0
+setvar VAR_UNUSED_0x40F7, 220
 release
 end
+
+MtChimney_Doctor_Rasmus_Move_14:
+walk_left
+walk_left
+walk_down
+walk_left
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+walk_down
+step_end
+
+MtChimney_Doctor_Rasmus_Move_13:
+delay_8
+delay_8
+face_left
+delay_8
+step_end
+
+MtChimney_Doctor_Rasmus_Move_12:
+delay_8
+walk_left
+walk_left
+step_end
+
+MtChimney_Doctor_Rasmus_Move_11:
+walk_in_place_up
+step_end
+
+MtChimney_Doctor_Rasmus_Move_10:
+walk_in_place_down
+step_end
+
+MtChimney_Doctor_Rasmus_Move_9:
+face_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_8:
+face_down
+step_end
+
+MtChimney_Doctor_Rasmus_Move_7:
+emote_exclamation_mark
+step_end
+
+MtChimney_Doctor_Rasmus_Move_6:
+walk_right
+walk_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_5:
+walk_in_place_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_4:
+face_up
+step_end
+
+MtChimney_Doctor_Rasmus_Move_3:
+delay_8
+face_left
+delay_8
+step_end
+
+MtChimney_Doctor_Rasmus_Move_2:
+walk_right
+step_end
+
+MtChimney_Doctor_Rasmus_Move_1:
+walk_in_place_right
+step_end
 
 MtChimney_Doctor_Rasmus_Texto_1:
 	.string "(???? arrojó algo al volcán)$"

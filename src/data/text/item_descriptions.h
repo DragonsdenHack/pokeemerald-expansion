@@ -3756,8 +3756,9 @@ static const u8 sOaksParcelDesc[] = _(
    	"TIENDA POKéMON.");
 
 static const u8 sSecretKeyDesc[] = _(
-    "Abre el GIMNASIO\n"
-   	"de ISLA CANELA.");
+    "Permite entrar al\n"
+   	"DESPACHO del LÍDER\n"
+   	"ROCKET en HOENN.");
 
 static const u8 sBikeVoucherDesc[] = _(
     "Puede canjearse\n"

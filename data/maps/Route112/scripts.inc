@@ -141,3 +141,26 @@ Route112_Text_RouteSignLavaridge:
 	.string "ROUTE 112\n"
 	.string "{LEFT_ARROW} LAVARIDGE TOWN$"
 
+
+Ruta_112_Policia::
+lock
+msgbox Ruta_112_Policia_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Ruta_112_Policia_Texto_1:
+	.string "Ese doctor, ¿qué querrá hacer en el\n"
+	.string "MONTE CENIZO?$"
+
+Ruta_112_Rocket::
+lock
+msgbox Ruta_112_Rocket_Texto_1 MSGBOX_DEFAULT
+release
+end
+
+Ruta_112_Rocket_Texto_1:
+	.string "¿Cómo le va por HOENN señor? ¿Ha\n"
+	.string "estado en el DESPACHO de ANDRA? Dejó\l"
+	.string "varias cosas para usted, debería\l"
+	.string "echarles un vistazo.$"
+

@@ -1667,12 +1667,12 @@
 #define FLAG_HOENN_17 (TRAINER_FLAGS_END + 17) // REGIGIGAS PUNTANEVA
 #define FLAG_HOENN_18 (TRAINER_FLAGS_END + 18) // ARIANA ENTRADA PUNTANEVA
 #define FLAG_HOENN_19 (TRAINER_FLAGS_END + 19) // ARIANA ENTRADA TEMPLO
-#define FLAG_HOENN_20 (TRAINER_FLAGS_END + 20)
-#define FLAG_HOENN_21 (TRAINER_FLAGS_END + 21)
-#define FLAG_HOENN_22 (TRAINER_FLAGS_END + 22)
-#define FLAG_HOENN_23 (TRAINER_FLAGS_END + 23)
-#define FLAG_HOENN_24 (TRAINER_FLAGS_END + 24)
-#define FLAG_HOENN_25 (TRAINER_FLAGS_END + 25)
+#define FLAG_HOENN_20 (TRAINER_FLAGS_END + 20) // ELECTIVIRE X DESPACHO HOENN
+#define FLAG_HOENN_21 (TRAINER_FLAGS_END + 21) // RED ORB DESPACHO HOENN
+#define FLAG_HOENN_22 (TRAINER_FLAGS_END + 22) // BLUE ORB DESPACHO HOENN
+#define FLAG_HOENN_23 (TRAINER_FLAGS_END + 23) // AMATISTA SALA GROUDON
+#define FLAG_HOENN_24 (TRAINER_FLAGS_END + 24) // DERROTA GROUDON MAGMA HIDEOUT 4F, CIENTIFICOS BLOQUEO MALVALONA
+#define FLAG_HOENN_25 (TRAINER_FLAGS_END + 25) 
 #define FLAG_HOENN_26 (TRAINER_FLAGS_END + 26)
 #define FLAG_HOENN_27 (TRAINER_FLAGS_END + 27)
 #define FLAG_HOENN_28 (TRAINER_FLAGS_END + 28)
@@ -2343,7 +2343,7 @@
 #define FLAG_HOENN_693 (TRAINER_FLAGS_END + 693) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_694 (TRAINER_FLAGS_END + 694) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_695 (TRAINER_FLAGS_END + 695) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_696 (TRAINER_FLAGS_END + 696) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_696 (TRAINER_FLAGS_END + 696) // Magno en Jagged Pass después evento Groudon // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_697 (TRAINER_FLAGS_END + 697) // Ariana Centro Pkmn // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_698 (TRAINER_FLAGS_END + 698) // Ariana Salida Templo // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_699 (TRAINER_FLAGS_END + 699) // Barco Giovanni Puntaneva // En modo Setflag por defecto desde fin DLC

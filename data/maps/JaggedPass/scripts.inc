@@ -1,10 +1,15 @@
 .set LOCALID_HIDEOUT_GUARD, 5
 
 JaggedPass_MapScripts::
+    map_script MAP_SCRIPT_ON_FRAME_TABLE, JaggedPass_Magno_OnFrame
 	map_script MAP_SCRIPT_ON_RESUME, JaggedPass_OnResume
 	map_script MAP_SCRIPT_ON_TRANSITION, JaggedPass_OnTransition
 	map_script MAP_SCRIPT_ON_LOAD, JaggedPass_OnLoad
 	.byte 0
+
+JaggedPass_Magno_OnFrame:
+map_script_2 VAR_UNUSED_0x40F7, 222, JaggedPass_Encuentro_Magno
+	.2byte 0
 
 JaggedPass_OnResume:
 	setstepcallback STEP_CB_ASH
@@ -265,12 +270,75 @@ JaggedPass_Text_AutumnPostBattle:
 
 JaggedPass_Encuentro_Magno::
 lock
+delay 15
+playse SE_PIN
+applymovement OBJ_EVENT_ID_PLAYER, JaggedPass_Encuentro_Magno_Move_1
+waitmovement 0x0
+delay 10
+applymovement OBJ_EVENT_ID_PLAYER, JaggedPass_Encuentro_Magno_Move_2
+waitmovement 0x0
 msgbox JaggedPass_Encuentro_Magno_Texto_1 MSGBOX_AUTOCLOSE
+applymovement 5, JaggedPass_Encuentro_Magno_Move_3
+waitmovement 0x0
 msgbox JaggedPass_Encuentro_Magno_Texto_2 MSGBOX_AUTOCLOSE
+applymovement OBJ_EVENT_ID_PLAYER, JaggedPass_Encuentro_Magno_Move_5
+applymovement 5, JaggedPass_Encuentro_Magno_Move_4
+waitmovement 0x0
+delay 10
+playse SE_PIN
+applymovement 5, JaggedPass_Encuentro_Magno_Move_1
+waitmovement 0x0
 msgbox JaggedPass_Encuentro_Magno_Texto_3 MSGBOX_AUTOCLOSE
+delay 15
+applymovement 5, JaggedPass_Encuentro_Magno_Move_6
+waitmovement 0x0
 msgbox JaggedPass_Encuentro_Magno_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 5, JaggedPass_Encuentro_Magno_Move_7
+waitmovement 0x0
+playse SE_EXIT
+removeobject 5
+setflag FLAG_HOENN_696
+setvar VAR_UNUSED_0x40F7, 223
 release
 end
+
+JaggedPass_Encuentro_Magno_Move_7:
+walk_up
+walk_right
+walk_right
+walk_up
+step_end
+
+JaggedPass_Encuentro_Magno_Move_6:
+delay_8
+face_up
+delay_8
+step_end
+
+JaggedPass_Encuentro_Magno_Move_5:
+walk_down
+walk_left
+step_end
+
+JaggedPass_Encuentro_Magno_Move_4:
+walk_down
+walk_down
+walk_right
+step_end
+
+JaggedPass_Encuentro_Magno_Move_3:
+delay_8
+walk_slow_down
+delay_8
+step_end
+
+JaggedPass_Encuentro_Magno_Move_2:
+face_left
+step_end
+
+JaggedPass_Encuentro_Magno_Move_1:
+emote_exclamation_mark
+step_end
 
 JaggedPass_Encuentro_Magno_Texto_1:
 	.string "MAGNO: Al fin… llegó la hora GROUDON.$"
