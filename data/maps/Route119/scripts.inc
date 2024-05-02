@@ -574,40 +574,38 @@ Route119_Text_DontGoNearWeatherInstitute:
 	.string "WEATHER INSTITUTE.$"
 
 Route119_Text_ThoughtFlyByCatchingBirdMons:
-	.string "I thought you FLY by catching a whole\n"
-	.string "flock of BIRD POKéMON, and then\l"
-	.string "hanging on to them somehow.\p"
-	.string "But it turns out there's an HM move\n"
-	.string "called FLY!\p"
-	.string "I wish I'd known about that a long\n"
-	.string "time ago…$"
+	.string	"Pensé que para usar VUELO necesitabas\n"
+	.string	"un montón de POKéMON PÁJARO en\l"
+	.string	"los que poder montarte.\p"
+	.string	"¡Pero resulta que hay un movimiento\n"
+	.string	"de MO llamado VUELO!\p"
+	.string	"Si lo hubiera sabido antes…$"
 
 Route119_Text_TallGrassSnaresBikeTires:
-	.string "Tch…\n"
-	.string "It's a no-go…\p"
-	.string "The tall grass snares BIKE tires.\n"
-	.string "There's no way you can cycle here.$"
+	.string	"Uf… No hay nada que hacer…\p"
+	.string	"La hierba alta se enreda en las ruedas\n"
+	.string	"de la BICI. No se puede seguir…$"
 
 Route119_Text_CanYourMonMakeSecretBase:
-	.string "Can your POKéMON use its SECRET POWER\n"
-	.string "on a big pile of grass and make a\l"
-	.string "SECRET BASE?$"
+	.string	"¿Tu POKéMON puede usar DAÑO\n"
+	.string	"SECRETO en un montón de hierba\l"
+	.string	"y crear una BASE SECRETA?$"
 
 Route119_Text_RouteSignFortree:
-	.string "ROUTE 119\n"
-	.string "{RIGHT_ARROW} FORTREE CITY$"
+	.string	"RUTA 119\n"
+	.string	"{RIGHT_ARROW} CIUDAD ARBORADA$"
 
 Route119_Text_WeatherInstitute:
-	.string "WEATHER INSTITUTE$"
+	.string	"INSTITUTO METEOROLÓGICO$"
 
 Route119_Text_TrainerTipsDecoration:
-	.string "TRAINER TIPS\p"
-	.string "Up to sixteen decorations and\n"
-	.string "furniture items can be placed in\l"
-	.string "a SECRET BASE.\p"
-	.string "Pick your favorite items and create\n"
-	.string "your very own SECRET BASE exactly the\l"
-	.string "way you want.$"
+	.string	"PISTAS para ENTRENADORES\p"
+	.string	"Una BASE SECRETA se puede decorar\n"
+	.string	"hasta con dieciséis muebles\l"
+	.string	"y objetos de decoración.\p"
+	.string	"Escoge tus objetos favoritos y crea\n"
+	.string	"tu propia BASE SECRETA en el lugar\l"
+	.string	"que más te guste.$"
 
 Route119_Norman::
 lock
@@ -668,3 +666,27 @@ Route119_Norman_Texto_10:
 	.string "Que la LIGA POKÉMON permanezca\n"
 	.string "imperturbable será importante para\l"
 	.string "mantener la cordura.$"
+
+Route119_Primer_Policia::
+lock
+faceplayer
+msgbox Route119_Primer_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+Route119_Primer_Policia_Texto_1:
+	.string	"A ver cuándo terminan…\p"
+	.string	"¡Oye, tú! No te acerques al INSTITUTO\n"
+	.string	"METEOROLÓGICO. Es una advertencia.$"
+
+Route119_Segundo_Policia::
+lock
+faceplayer
+msgbox Route119_Segundo_Policia_Texto_1 MSGBOX_NPC
+release
+end
+
+Route119_Segundo_Policia_Texto_1:
+	.string	"Estas reuniones burocráticas…\p"
+	.string	"¡Oye, tú! No te acerques al INSTITUTO\n"
+	.string	"METEOROLÓGICO. DEVON está reunida.$"

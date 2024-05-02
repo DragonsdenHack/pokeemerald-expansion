@@ -297,10 +297,10 @@ FortreeCity_Gym_Text_WinonaRematchDefeat:
 	.string	"Esta nueva victoria te ha dado alas…$"
 
 FortreeCity_Gym_Text_WinonaPostRematch:
-	.string	"ALANA: Aunque he perdido,\n"
+	.string	"No… aunque he perdido,\n"
 	.string	"mi espíritu permanece intacto.\p"
 	.string	"Sé que puedo alzar el vuelo\n"
-	.string	"y tocar las nubes.\p"
+	.string	"y tocar las nubes, a mi manera.\p"
 	.string	"¡Y eso haré!$"
 
 FortreeCity_Gym_Text_WinonaRematchNeedTwoMons:
@@ -322,11 +322,85 @@ delay 10
 playfanfare MUS_OBTAIN_BADGE
 msgbox FortreeCity_Gym_Text_ReceivedFeatherBadge MSGBOX_DEFAULT
 waitfanfare
+msgbox FortreeCity_Gym_Text_Alana_Texto_1 MSGBOX_AUTOCLOSE
 msgbox FortreeCity_Gym_Text_WinonaPostRematch MSGBOX_AUTOCLOSE
+delay 15
+msgbox FortreeCity_Gym_Text_Alana_Texto_2 MSGBOX_AUTOCLOSE
+delay 15
+playse SE_PIN
+applymovement 1, FortreeCity_Gym_Move_1
+waitmovement 0
+msgbox FortreeCity_Gym_Text_Alana_Texto_3 MSGBOX_AUTOCLOSE
+applymovement 1, FortreeCity_Gym_Move_2
+waitmovement 0
+msgbox FortreeCity_Gym_Text_Alana_Texto_4 MSGBOX_AUTOCLOSE
+applymovement 1, FortreeCity_Gym_Move_3
+waitmovement 0
+playse SE_PIN
+applymovement 1, FortreeCity_Gym_Move_1
+waitmovement 0
+msgbox FortreeCity_Gym_Text_Alana_Texto_5 MSGBOX_AUTOCLOSE
+msgbox FortreeCity_Gym_Text_Alana_Texto_6 MSGBOX_AUTOCLOSE
+delay 15
+msgbox FortreeCity_Gym_Text_Alana_Texto_7 MSGBOX_AUTOCLOSE
 release
 end
 
 LavaridgeTown_Gym_Combate_Alana_Despues::
-msgbox FortreeCity_Gym_Text_WinonaRematchNeedTwoMons MSGBOX_AUTOCLOSE
+msgbox FortreeCity_Gym_Text_Alana_Texto_8 MSGBOX_AUTOCLOSE
 release
 end
+
+FortreeCity_Gym_Move_3:
+delay_8
+face_player
+delay_8
+step_end
+
+FortreeCity_Gym_Move_2:
+delay_8
+face_right
+delay_8
+step_end
+
+FortreeCity_Gym_Move_1:
+emote_exclamation_mark
+step_end
+
+FortreeCity_Gym_Text_Alana_Texto_1:
+	.string "ALANA: Es apabullante, primero esa\n"
+	.string "ENTRENADORA, y ahora tú. ¿Tendré que\l"
+	.string "entrenar yo también un CROBAT, después\l"
+	.string "de todo?$"
+
+FortreeCity_Gym_Text_Alana_Texto_2:
+	.string "… …$"
+
+FortreeCity_Gym_Text_Alana_Texto_3:
+	.string "Oh… así que os conocéis… no me extraña;\n"
+	.string "ambos me habéis derrotado en un abrir y\l"
+	.string "cerrar de ojos, ella incluso más\l"
+	.string "fácilmente.$"
+
+FortreeCity_Gym_Text_Alana_Texto_4:
+	.string "Era como si… hubiera alcanzado un\n"
+	.string "estado de paz después de una larga\l"
+	.string "lucha.$"
+
+FortreeCity_Gym_Text_Alana_Texto_5:
+	.string "¡Oh! ¿La estabas buscando?$"
+
+FortreeCity_Gym_Text_Alana_Texto_6:
+	.string "En eso puedo ayudarte: marchó hace\n"
+	.string "poco hacia el MONTE PÍRICO. En sus\l"
+	.string "propias palabras, el último lugar de\l"
+	.string "HOENN que le quedaba por ver.$"
+
+FortreeCity_Gym_Text_Alana_Texto_7:
+	.string "¡Si te das prisa, puede que la alcances!$"
+
+FortreeCity_Gym_Text_Alana_Texto_8:
+	.string "Tu amiga se marchó hace poco hacia el\n"
+	.string "MONTE PÍRICO. En sus propias palabras,\l"
+	.string "el último lugar de HOENN que le quedaba\l"
+	.string "por ver.$"
