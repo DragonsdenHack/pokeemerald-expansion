@@ -2476,6 +2476,7 @@ setflag FLAG_HOENN_643
 setflag FLAG_HOENN_642
 setflag FLAG_HOENN_641
 setflag FLAG_HOENN_640
+setflag FLAG_EXPAND_MAX_LEVEL
 setvar VAR_UNUSED_0x40F7, 218
 release
 end

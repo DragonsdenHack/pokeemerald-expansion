@@ -1672,8 +1672,8 @@
 #define FLAG_HOENN_22 (TRAINER_FLAGS_END + 22) // BLUE ORB DESPACHO HOENN
 #define FLAG_HOENN_23 (TRAINER_FLAGS_END + 23) // AMATISTA SALA GROUDON
 #define FLAG_HOENN_24 (TRAINER_FLAGS_END + 24) // DERROTA GROUDON MAGMA HIDEOUT 4F, CIENTIFICOS BLOQUEO MALVALONA
-#define FLAG_HOENN_25 (TRAINER_FLAGS_END + 25) 
-#define FLAG_HOENN_26 (TRAINER_FLAGS_END + 26)
+#define FLAG_HOENN_25 (TRAINER_FLAGS_END + 25) // HOMBRE ESTRATEGA RUTA 111
+#define FLAG_HOENN_26 (TRAINER_FLAGS_END + 26) // NIETO ESTRATEGA CASA RUTA 111
 #define FLAG_HOENN_27 (TRAINER_FLAGS_END + 27)
 #define FLAG_HOENN_28 (TRAINER_FLAGS_END + 28)
 #define FLAG_HOENN_29 (TRAINER_FLAGS_END + 29)
@@ -2339,10 +2339,10 @@
 #define FLAG_HOENN_689 (TRAINER_FLAGS_END + 689) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_690 (TRAINER_FLAGS_END + 690) // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_691 (TRAINER_FLAGS_END + 691) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_692 (TRAINER_FLAGS_END + 692) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_693 (TRAINER_FLAGS_END + 693) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_694 (TRAINER_FLAGS_END + 694) // En modo Setflag por defecto desde fin DLC
-#define FLAG_HOENN_695 (TRAINER_FLAGS_END + 695) // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_692 (TRAINER_FLAGS_END + 692) // Entrenador Guay Estratega Ruta 111 // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_693 (TRAINER_FLAGS_END + 693) // Mujer Estratega Ruta 111 // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_694 (TRAINER_FLAGS_END + 694) // Chica Estratega // En modo Setflag por defecto desde fin DLC
+#define FLAG_HOENN_695 (TRAINER_FLAGS_END + 695) // Anciana Estratega // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_696 (TRAINER_FLAGS_END + 696) // Magno en Jagged Pass después evento Groudon // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_697 (TRAINER_FLAGS_END + 697) // Ariana Centro Pkmn // En modo Setflag por defecto desde fin DLC
 #define FLAG_HOENN_698 (TRAINER_FLAGS_END + 698) // Ariana Salida Templo // En modo Setflag por defecto desde fin DLC
@@ -2354,7 +2354,7 @@
 
 
 
-#define FLAGS_COUNT (TRAINER_FLAGS_END + 1)
+#define FLAGS_COUNT (TRAINER_FLAGS_END + 701)
 
 // Special Flags (Stored in EWRAM (gSpecialFlags), not in the SaveBlock)
 #define SPECIAL_FLAGS_START                     0x4000

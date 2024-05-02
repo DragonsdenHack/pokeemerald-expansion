@@ -36957,7 +36957,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER607[] = {
     .moves = {MOVE_STEALTH_ROCK, MOVE_ANCIENT_POWER, MOVE_RECOVER, MOVE_GIGA_DRAIN}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 112,
     .species = SPECIES_METAGROSS,
     .heldItem = ITEM_ASSAULT_VEST,
@@ -36966,7 +36966,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER607[] = {
     .moves = {MOVE_METEOR_MASH, MOVE_EARTHQUAKE, MOVE_ZEN_HEADBUTT, MOVE_BULLET_PUNCH}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 113,
     .species = SPECIES_SCEPTILE,
     .heldItem = ITEM_SCEPTILITE,
@@ -36975,7 +36975,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER607[] = {
     .moves = {MOVE_LEAF_STORM, MOVE_DRAGON_PULSE, MOVE_ANCIENT_POWER, MOVE_FOCUS_BLAST}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 114,
     .species = SPECIES_DEOXYS_ATTACK,
     .heldItem = ITEM_LIGHT_CLAY,
@@ -37073,7 +37073,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     .moves = {MOVE_STEALTH_ROCK, MOVE_METEOR_MASH, MOVE_ZEN_HEADBUTT, MOVE_EARTHQUAKE}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 114,
     .species = SPECIES_RELICANTH,
     .heldItem = ITEM_ASSAULT_VEST,
@@ -37082,7 +37082,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     .moves = {MOVE_HEAD_SMASH, MOVE_EARTHQUAKE, MOVE_LIQUIDATION, MOVE_HEAD_SMASH}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 115,
     .species = SPECIES_NECROZMA,
     .heldItem = ITEM_LEFTOVERS,
@@ -37091,7 +37091,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER609[] = {
     .moves = {MOVE_PRISMATIC_LASER, MOVE_COSMIC_POWER, MOVE_MOONLIGHT, MOVE_AURA_SPHERE}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 117,
     .species = SPECIES_RAYQUAZA,
     .heldItem = ITEM_WHITE_HERB,
@@ -37131,7 +37131,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     .moves = {MOVE_EARTHQUAKE, MOVE_FLY, MOVE_FIRE_BLAST, MOVE_DRAGON_CLAW}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 110,
     .species = SPECIES_KINGDRA,
     .heldItem = ITEM_DRAGON_SCALE,
@@ -37140,7 +37140,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     .moves = {MOVE_HYDRO_PUMP, MOVE_DRAGON_PULSE, MOVE_ICE_BEAM, MOVE_CLANGING_SCALES}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 112,
     .species = SPECIES_LATIOS,
     .heldItem = ITEM_SOUL_DEW,
@@ -37149,7 +37149,7 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER610[] = {
     .moves = {MOVE_PSYCHIC, MOVE_DRAGON_PULSE, MOVE_SURF, MOVE_RECOVER}
     },
     {
-    .iv = 200,
+    .iv = 255,
     .lvl = 112,
     .species = SPECIES_LATIAS,
     .heldItem = ITEM_SOUL_DEW,
@@ -37447,95 +37447,116 @@ static const struct TrainerMonItemCustomMoves sParty_TRAINER625[] = {
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER626[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 96,
+    .species = SPECIES_LINOONE,
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 96,
+    .species = SPECIES_LINOONE,
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 96,
+    .species = SPECIES_SWELLOW,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER627[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 97,
+    .species = SPECIES_ROSELIA,
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 97,
+    .species = SPECIES_ROSELIA,
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 97,
+    .species = SPECIES_ROSERADE,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER628[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 98,
+    .species = SPECIES_AZUMARILL,
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 98,
+    .species = SPECIES_CAMERUPT,
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 98,
+    .species = SPECIES_BRELOOM,
     }
     
 };
 
 static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER629[] = {
     {
-    .iv = 0,
-    .lvl = 87,
+    .iv = 255,
+    .lvl = 99,
     .species = SPECIES_HARIYAMA,
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 99,
+    .species = SPECIES_ALAKAZAM,
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 99,
+    .species = SPECIES_MEDICHAM,
     }
     
 };
 
-static const struct TrainerMonNoItemDefaultMoves sParty_TRAINER630[] = {
+static const struct TrainerMonItemCustomMoves sParty_TRAINER630[] = {
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_SWELLOW,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {50, 252, 50, 252, 50, 50},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_FLY, MOVE_GIGA_IMPACT, MOVE_U_TURN, MOVE_ENDEAVOR}
     },
     {
-    .iv = 0,
-    .lvl = 87,
-    .species = SPECIES_HARIYAMA,
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_MANECTRIC,
+    .heldItem = ITEM_MANECTITE,
+    .evs = {50, 50, 50, 252, 252, 50},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_THUNDERBOLT, MOVE_FLAMETHROWER, MOVE_VOLT_SWITCH, MOVE_VOLT_SWITCH}
     },
     {
-    .iv = 0,
-    .lvl = 90,
-    .species = SPECIES_MACHAMP,
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_ALAKAZAM,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {50, 50, 50, 252, 252, 50},
+    .nature = NATURE_MODEST,
+    .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_DAZZLING_GLEAM, MOVE_FOCUS_BLAST}
+    },
+    {
+    .iv = 255,
+    .lvl = 100,
+    .species = SPECIES_SHIFTRY,
+    .heldItem = ITEM_FOCUS_SASH,
+    .evs = {252, 252, 50, 50, 50, 50},
+    .nature = NATURE_ADAMANT,
+    .moves = {MOVE_LEAF_BLADE, MOVE_SUCKER_PUNCH, MOVE_QUICK_ATTACK, MOVE_LEAF_BLADE}
     }
     
 };
