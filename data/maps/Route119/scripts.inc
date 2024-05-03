@@ -619,8 +619,75 @@ msgbox Route119_Norman_Texto_7 MSGBOX_AUTOCLOSE
 msgbox Route119_Norman_Texto_8 MSGBOX_AUTOCLOSE
 msgbox Route119_Norman_Texto_9 MSGBOX_AUTOCLOSE
 msgbox Route119_Norman_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_12 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_13 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_14 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_15 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_16 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_17 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_18 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_19 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_20 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_21 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_8.1 MSGBOX_AUTOCLOSE
+msgbox Route119_Norman_Texto_8.2 MSGBOX_AUTOCLOSE
 release
 end
+
+Route119_Norman_Texto_9:
+	.string "NORMAN: … …$"
+
+Route119_Norman_Texto_10:
+	.string "Así que me entiendes.$"
+
+Route119_Norman_Texto_11:
+	.string "Ya veo, también te has expuesto a\n"
+	.string "muchas verdades incómodas. Pero, no\l"
+	.string "eres de HOENN, ¿verdad?$"
+
+Route119_Norman_Texto_12:
+	.string "… …$"
+
+Route119_Norman_Texto_13:
+	.string "KANTO… así que el TEAM ROCKET y DEVON\n"
+	.string "están librando una guerra silenciosa.$"
+
+Route119_Norman_Texto_14:
+	.string "Pero, ¿por qué me cuentas esto?$"
+
+Route119_Norman_Texto_15:
+	.string "… …$"
+
+Route119_Norman_Texto_16:
+	.string "Crees que tenemos intereses comunes,\n"
+	.string "¿y por ello me quieres como contacto?$"
+
+Route119_Norman_Texto_17:
+	.string "Escucha, ¿{PLAYER}? El hijo del\n"
+	.string "PRESIDENTE está en una situación\l"
+	.string "similar al mío, ¿por qué debería de\l"
+	.string "fiarme más de vuestra organización?$"
+
+Route119_Norman_Texto_18:
+	.string "Oh… Vuestro LÍDER también… En ese\n"
+	.string "caso…$"
+
+Route119_Norman_Texto_19:
+	.string "No puedo prometerte nada ni estoy en\n"
+	.string "las altas esferas de DEVON. Solo soy un\l"
+	.string "LÍDER de GIMNASIO, al servicio de la\l"
+	.string "LIGA POKÉMON.$"
+
+Route119_Norman_Texto_20:
+	.string "Pero… si me entero de algo que pueda\n"
+	.string "comprometer el futuro de los\l"
+	.string "entrenadores en esta región, te lo haré\l"
+	.string "saber.$"
+
+Route119_Norman_Texto_21:
+	.string "¡{PLAYER} obtuvo el\n"
+	.string "contacto de NORMAN!$"
 
 Route119_Norman_Texto_1:
 	.string "NORMAN: Entonces... ni KANTO, ni JOHTO,\n"
@@ -657,12 +724,12 @@ Route119_Norman_Texto_8:
 	.string "PETALIA, trataré de cambiar el sistema\l"
 	.string "desde dentro.$"
 
-Route119_Norman_Texto_9:
+Route119_Norman_Texto_8.1:
 	.string "Aunque en algo tienen razón, por el\n"
 	.string "momento el gran público no está\l"
 	.string "preparado para todos esos cambios.$"
 
-Route119_Norman_Texto_10:
+Route119_Norman_Texto_8.2:
 	.string "Que la LIGA POKÉMON permanezca\n"
 	.string "imperturbable será importante para\l"
 	.string "mantener la cordura.$"

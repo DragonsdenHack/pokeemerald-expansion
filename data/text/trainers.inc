@@ -18026,6 +18026,62 @@ Snowpoint_Templo_S4_Text_PoliciaPostBattle:
 	.string "¿De verdad te colaste en nuestro\n"
 	.string "SUBMARINO?$"
 
+Route119_Text_CientificoIntro:
+	.string	"El DOCTOR está interesado en la\n"
+	.string	"investigación que están realizando\l"
+	.string	"aquí, por eso nos ha enviado.\p"
+	.string	"¡Nadie debe molestar!$"
+
+Route119_Text_CientificoDefeat:
+	.string	"Era de esperar…\n"
+	.string	"Me has vencido, maldito…$"
+
+Route119_CientificoPostBattle:
+	.string	"No hay nada que nuestro\n"
+	.string	"DOCTOR no sepa…\p"
+	.string	"Pero yo sólo soy un SOLDADO. ¿Cómo\n"
+	.string	"voy a saber lo que tiene en mente?$"
+
+Route119_Text_PrimerPoliciaIntro:
+	.string	"¿Eh?\n"
+	.string	"¿Qué haces tú aquí?$"
+
+Route119_Text_PrimerPoliciaDefeat:
+	.string	"¿Yo?\n"
+	.string	"¿He perdido? ¡¿Yo?!$"
+
+Route119_Text_PrimerPoliciaPostBattle:
+	.string	"Oh, no…\n"
+	.string	"Qué bronca me va a caer…\p"
+	.string	"Creo que voy a echarme una siesta\n"
+	.string	"para olvidar todo esto…$"
+
+Route119_Text_SegundoPoliciaIntro:
+	.string	"¡DEVON siempre va en busca\n"
+	.string	"de lo extraordinario!$"
+
+Route119_Text_SegundoPoliciaDefeat:
+	.string	"¡Me has parado los pies!$"
+
+Route119_Text_SegundoPoliciaPostBattle:
+	.string	"¡No tienes ni idea de lo que estamos\n"
+	.string	"planeando en DEVON!\l"
+	.string	"¡Fuera de nuestro camino!$"
+
+Route119_Text_SegundoCientificoIntro:
+	.string	"El INSTITUTO ha creado un tipo\n"
+	.string	"de POKéMON que tiene algo que ver con\l"
+	.string	"el tiempo. ¡Venimos a por unos cuantos!$"
+
+Route119_Text_SegundoCientificoDefeat:
+	.string	"¡Tienes un don para aparecer\n"
+	.string	"en el peor momento!$"
+
+Route119_Text_SegundoCientificoPostBattle:
+	.string	"¡Si los POKéMON creados aquí pueden\n"
+	.string	"controlar el tiempo a voluntad,\l"
+	.string	"eso puede ser útil para DEVON!$"
+
 
 
 

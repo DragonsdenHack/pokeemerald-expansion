@@ -108,20 +108,19 @@ Route119_WeatherInstitute_1F_Text_WowYoureStrong:
 	.string "like you!$"
 
 Route119_WeatherInstitute_1F_Text_ProfStudyingRain:
-	.string "The PROFESSOR loves rain.\n"
-	.string "That's a fact.\p"
-	.string "But if it keeps raining, people will be in\n"
-	.string "trouble. That's another fact.\p"
-	.string "And thus, the PROFESSOR is studying\n"
-	.string "if the rain can be put to good use.$"
+	.string	"Al PROFESOR le encanta la lluvia.\n"
+	.string	"Eso es un hecho.\p"
+	.string	"Pero si sigue lloviendo así, tendremos\n"
+	.string	"problemas. Eso también es un hecho.\p"
+	.string	"Por eso el PROFESOR está estudiando\n"
+	.string	"cómo hacer buen uso de esta lluvia.$"
 
 Route119_WeatherInstitute_1F_Text_NoticingAbnormalWeather:
-	.string "On the 2nd floor of the INSTITUTE,\n"
-	.string "we study the weather patterns over\l"
-	.string "the HOENN region.\p"
-	.string "We've been noticing temporary and\n"
-	.string "isolated cases of droughts and\l"
-	.string "heavy rain lately…$"
+	.string	"En el primer piso del INSTITUTO\n"
+	.string	"estudiamos los fenómenos atmosféricos\l"
+	.string	"de la región de HOENN.\p"
+	.string	"Últimamente, estamos detectando casos\n"
+	.string	"aislados de sequía e inundaciones…$"
 
 Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
 	.string "Hello!\n"
@@ -130,6 +129,11 @@ Route119_WeatherInstitute_1F_Text_WhatWereAquasUpTo:
 	.string "earth the AQUAS were up to.$"
 
 Route119_WeatherInstitute_1F_Text_TakeRestInBed:
-	.string "There's a bed…\n"
-	.string "Let's take a rest.$"
+	.string	"Mira, una cama…\n"
+	.string	"¡A descansar!$"
+
+Route119_EventScript_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_631, Route119_Text_CientificoIntro, Route119_Text_CientificoDefeat
+	msgbox Route119_CientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
 

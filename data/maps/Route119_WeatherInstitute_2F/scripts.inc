@@ -331,3 +331,92 @@ Route119_WeatherInstitute_2F_Text_NoAbnormalWeather:
 	.string "The occasional rainfall is a blessing,\n"
 	.string "really.$"
 
+Route119_EventScript_Primer_Policia::
+	trainerbattle_single TRAINER_TRAINER_632, Route119_Text_PrimerPoliciaIntro, Route119_Text_PrimerPoliciaDefeat
+	msgbox Route119_Text_PrimerPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_EventScript_Segundo_Policia::
+	trainerbattle_single TRAINER_TRAINER_633, Route119_Text_SegundoPoliciaIntro, Route119_Text_SegundoPoliciaDefeat
+	msgbox Route119_Text_SegundoPoliciaPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_EventScript_Segundo_Cientifico::
+	trainerbattle_single TRAINER_TRAINER_634, Route119_Text_SegundoCientificoIntro, Route119_Text_SegundoCientificoDefeat
+	msgbox Route119_Text_SegundoCientificoPostBattle, MSGBOX_AUTOCLOSE
+	end
+
+Route119_Rasmus::
+lock
+msgbox Route119_Rasmus_Texto_1 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_2 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_3 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_4 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_5 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_6 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_7 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_8 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_9 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_10 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_11 MSGBOX_AUTOCLOSE
+msgbox Route119_Rasmus_Texto_12 MSGBOX_AUTOCLOSE
+release
+end
+
+Route119_Rasmus_Texto_1:
+	.string "DR.RASMUS: Pero dejando de lado su\n"
+	.string "cuestionable poder, lo que han logrado\l"
+	.string "aquí con CASTFORM es asombroso; ser\l"
+	.string "capaz de transformarse en función del\l"
+	.string "clima. Solo tengo una pregunta.$"
+
+Route119_Rasmus_Texto_2:
+	.string "Díganos, doctor.$"
+
+Route119_Rasmus_Texto_3:
+	.string "DR.RASMUS: Este POKÉMON se adapta a\n"
+	.string "los climas de lluvia, sol y granizo, pero,\l"
+	.string "¿por qué no reacciona ante una\l"
+	.string "tormenta de arena?$"
+
+Route119_Rasmus_Texto_4:
+	.string "Hicimos pruebas, pero todas conducían\n"
+	.string "a formas inestables.$"
+
+Route119_Rasmus_Texto_5:
+	.string "DR.RASMUS: La tormenta de arena es un\n"
+	.string "clima complejo, no hay duda. Más esquivo\l"
+	.string "y antiguo que los otros.$"
+
+Route119_Rasmus_Texto_6:
+	.string "Haría un gran favor a DEVON si nos\n"
+	.string "facilitara todos sus avances respecto\l"
+	.string "a este tema.$"
+
+Route119_Rasmus_Texto_7:
+	.string "Con gusto, doctor.$"
+
+Route119_Rasmus_Texto_8:
+	.string "DR.RASMUS: ¿Qué te parece? Imagina a\n"
+	.string "tu WRONGSPARCE capaz de generar una\l"
+	.string "tormenta de arena, ¿no sería\l"
+	.string "fantástico?$"
+
+Route119_Rasmus_Texto_9:
+	.string "C.MIGUEL: ¡No! ¡Debe ser por medios\n"
+	.string "naturales!$"
+
+Route119_Rasmus_Texto_10:
+	.string "DR.RASMUS: Vaya, me sorprende verte\n"
+	.string "hablar así.$"
+
+Route119_Rasmus_Texto_11:
+	.string "¿Natural? ¡Vamos! Esa palabra, hoy en\n"
+	.string "día, carece de significado. ¡Tú mismo lo\l"
+	.string "dijiste!$"
+
+Route119_Rasmus_Texto_12:
+	.string "Lo artificial nos rodea, y es ya\n"
+	.string "indistinguible de lo natural. Tenlo en\l"
+	.string "cuenta.$"
+
