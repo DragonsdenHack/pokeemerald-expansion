@@ -72,4 +72,4 @@ CultoS1_NPC_6_Texto_1:
 .string "Entonces la leyenda sigue\n"
 	.string "circulando por la región,\l"
 	.string "dispuesta a servir a quien le\l"
-	.string "preste atención, bien…$"
+	.string "preste atención, bien{PAUSE 5}…{PAUSE 5}$"

@@ -55,7 +55,7 @@ CultoS8_Combate_Lider_Texto_3:
 
 CultoS8_Combate_Lider_Texto_4:
 .string "Así que has seguido creciendo como\n"
-	.string "ENTRENADOR…$"
+	.string "ENTRENADOR{PAUSE 5}…{PAUSE 5}$"
 
 CultoS8_Combate_Lider_Texto_5:
 .string "No soy amigo de los halagos,\n"
@@ -68,7 +68,7 @@ CultoS8_Combate_Lider_Texto_5:
 
 CultoS8_Combate_Lider_Texto_6:
 .string "Sí, incluso podrías ser digno de\n"
-	.string "presenciar al POKEMON ES…$"
+	.string "presenciar al POKEMON ES{PAUSE 5}…{PAUSE 5}$"
 
 CultoS8_Combate_Lider_Texto_7:
 .string "¿Un ENTRENADOR misterioso ha\n"

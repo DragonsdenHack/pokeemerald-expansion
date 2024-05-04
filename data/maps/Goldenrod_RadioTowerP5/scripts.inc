@@ -991,7 +991,7 @@ GoldenrodRadioTowerP5_Primera_Reunion_Texto_83:
 	.string "ha ocurrido, no existe, y aún así,\l"
 	.string "ha sentado las bases de sus vidas\l"
 	.string "en los próximos años. Esperemos\l"
-	.string "que para bien…$"
+	.string "que para bien{PAUSE 5}…{PAUSE 5}$"
 
 GoldenrodRadioTowerP5_Primera_Reunion_Texto_84:
 .string "Observa este espléndido paisaje,\n"
@@ -2102,7 +2102,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_52:
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_53:
 .string "Después tenemos los prototipos de\n"
 	.string "nivel II, aquellos que van desde los\l"
-	.string "660 STATS BASE, hasta los 780{PAUSE 15}…$"
+	.string "660 STATS BASE, hasta los 780{PAUSE 15}…{PAUSE 5}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_54:
 .string "Aquí, y gracias a la reciente\n"
@@ -2326,7 +2326,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_82.1:
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_83:
 .string "ANDRA: {PAUSE 35}…{PAUSE 35}no fallaré en esa cita con\n"
-	.string "la historia…$"
+	.string "la historia{PAUSE 5}…{PAUSE 5}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_84:
 .string "ATLAS: Nosotros investigaremos sobre\n"
@@ -2337,7 +2337,7 @@ GoldenrodRadioTowerP5_Segunda_Reunion_texto_85:
 .string "GIOVANNI: Así es.$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_86:
-.string "Estamos en contacto…$"
+.string "Estamos en contacto{PAUSE 5}…{PAUSE 5}$"
 
 GoldenrodRadioTowerP5_Segunda_Reunion_texto_87:
 .string "ANDRA: Ya lo has oído, {PLAYER}, nos\n"

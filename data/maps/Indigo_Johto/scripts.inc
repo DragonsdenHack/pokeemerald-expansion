@@ -130,7 +130,7 @@ Indigo_Johto_Atlas_Texto_2:
 	.string "de KANTO.$"
 
 Indigo_Johto_Atlas_Texto_3:
-.string "A-ATLAS, yo no sab…$"
+.string "A{PAUSE 15}-{PAUSE 15}ATLAS, yo no sab{PAUSE 5}…{PAUSE 5}$"
 
 Indigo_Johto_Atlas_Texto_4:
 .string "ATLAS: Ahora ya lo sabes, ¿tengo\n"

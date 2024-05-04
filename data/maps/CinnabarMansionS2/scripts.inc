@@ -443,7 +443,7 @@ CinnabarMansionS2_Blaine_Texto_2:
 	.string "incluso esa excepción responde a\l"
 	.string "unos patrones que buenamente nos\l"
 	.string "hemos encargado de cubrir en este\l"
-	.string "subterráneo…$"
+	.string "subterráneo{PAUSE 5}…{PAUSE 5}$"
 
 CinnabarMansionS2_Blaine_Texto_3:
 .string "Observa este lugar, su única razón\n"
@@ -490,7 +490,7 @@ CinnabarMansionS2_Blaine_Texto_6:
 	.string "lotería de la naturaleza, el más\l"
 	.string "agraciado, como he dicho, por\l"
 	.string "mera gracia del creador, pero\l"
-	.string "aquí, en este lugar no…$"
+	.string "aquí, en este lugar no{PAUSE 5}…{PAUSE 5}$"
 
 CinnabarMansionS2_Blaine_Texto_7:
 .string "Si conocemos las reglas del juego,\n"
@@ -764,7 +764,7 @@ CinnabarMansionS2_Oak_Texto_8:
 	.string "que decide a dedo quien es mejor\l"
 	.string "que otro, el entrenar o querer a\l"
 	.string "tus POKÉMON te llevará tan lejos\l"
-	.string "como quiera esta ley…$"
+	.string "como quiera esta ley{PAUSE 5}…{PAUSE 5}$"
 
 CinnabarMansionS2_Oak_Texto_9:
 .string "Sin embargo, desde aquí acabaremos\n"
@@ -870,7 +870,7 @@ CinnabarMansionS2_Oak_Texto_21:
 	.string "después de lo visto aquí, están\l"
 	.string "mucho más lejos de lo que uno\l"
 	.string "pueda imaginar, quizás de lo que\l"
-	.string "uno pueda llegar a calcular…$"
+	.string "uno pueda llegar a calcular{PAUSE 5}…{PAUSE 5}$"
 
 CinnabarMansionS2_Oak_Texto_22:
 .string "Ya he tenido suficiente.\n"
@@ -1103,7 +1103,7 @@ CinnabarMansion_S2_Escena_7_Texto_7:
 	.string "más poder.$"
 
 CinnabarMansion_S2_Escena_7_Texto_8:
-.string "Además{PAUSE 25}…$"
+.string "Además{PAUSE 25}…{PAUSE 5}$"
 
 CinnabarMansion_S2_Escena_7_Texto_9:
 .string "Ya no será necesario recurrir a MEWTWO,\n"

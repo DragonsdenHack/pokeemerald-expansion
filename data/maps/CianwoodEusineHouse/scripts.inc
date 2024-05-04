@@ -65,15 +65,15 @@ emote_exclamation_mark
 step_end
 
 CianwoodEusineHouse_Combate_Texto_1:
-.string "????: … …$"
+.string "????: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 CianwoodEusineHouse_Combate_Texto_1.1:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 CianwoodEusineHouse_Combate_Texto_2:
 .string "Parece que han dado con una respuesta,\n"
 	.string "debo volver cuanto antes, tengo\l"
-	.string "curiosidad por saber a qué se debe…$"
+	.string "curiosidad por saber a qué se debe{PAUSE 5}…{PAUSE 5}$"
 
 CianwoodEusineHouse_Combate_Texto_3:
 .string "Perdona, ¿quieres algo?$"
@@ -82,7 +82,7 @@ CianwoodEusineHouse_Combate_Texto_4:
 .string "{PAUSE 25}No sé cómo ha llegado hasta ti esa\n"
 	.string "información, pero tienes razón, existe\l"
 	.string "una gran extensión de tierra al oeste\l"
-	.string "de aquí, pero la pregunta es…$"
+	.string "de aquí, pero la pregunta es{PAUSE 5}…{PAUSE 5}$"
 
 CianwoodEusineHouse_Combate_Texto_5:
 .string "¿Merece alguien como tú visitarla? Un\n"
@@ -204,7 +204,7 @@ CianwoodEusineHouse_Dialogo_Post_Mision_Texto_4:
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_5:
 .string "Ya veo. Buscáis expandir el poder de\n"
-	.string "ciertos POKÉMON. Verás…$"
+	.string "ciertos POKÉMON. Verás{PAUSE 5}…{PAUSE 5}$"
 
 CianwoodEusineHouse_Dialogo_Post_Mision_Texto_6:
 .string "Mis conocimientos sobre los PERROS\n"

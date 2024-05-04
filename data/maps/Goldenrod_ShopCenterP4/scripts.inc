@@ -40,7 +40,7 @@ Goldenrod_ShopP4_Text_4:
 .string "tendría que vender para reunir esa\l"
 .string "cantidad?\l"
 .string "Y lo duro que pegaría mi TOGETIC\l"
-.string "también…$"
+.string "también{PAUSE 5}…{PAUSE 5}$"
 
 
 

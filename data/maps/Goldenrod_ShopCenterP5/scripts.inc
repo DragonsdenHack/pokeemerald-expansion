@@ -17,7 +17,7 @@ Goldenrod_ShopP5_Text_1:
 .string "sin más.\l"
 .string "Después tenemos el polo opuesto\l"
 .string "con las pijas que han arruinado el\l"
-.string "GIMNASIO, por supuesto…$"
+.string "GIMNASIO, por supuesto{PAUSE 5}…{PAUSE 5}$"
 
 
 

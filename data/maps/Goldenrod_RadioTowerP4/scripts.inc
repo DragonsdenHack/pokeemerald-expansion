@@ -630,7 +630,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_4:
 	.string "el combate nos ha llevado a la\l"
 	.string "cima, ahora es cuando podemos usar\l"
 	.string "nuestra posición para resolver los\l"
-	.string "misterios de est…$"
+	.string "misterios de est{PAUSE 5}…{PAUSE 5}$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_5:
 .string "Sois el ADMIN.JEFE {PLAYER}, y la\n"
@@ -667,7 +667,7 @@ Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_10:
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_11:
 .string "ANDRA: No sé por qué esto me\n"
-	.string "es familiar…$"
+	.string "es familiar{PAUSE 5}…{PAUSE 5}$"
 
 Goldenrod_RadioTower_P4_Encuentro_Andra_Texto_12:
 .string "ANDRA: ¡Vamos allá, {PLAYER}!\n"

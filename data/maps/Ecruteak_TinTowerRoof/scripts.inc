@@ -286,7 +286,7 @@ Ecruteak_TinTowerRoof_Zeus_Texto_7:
 	.string "intercambio de poder y energía\l"
 	.string "aquí acontecido ha rozado la\l"
 	.string "perfección, ha sido incluso digno\l"
-	.string "de presenciar del mismísimo H…$"
+	.string "de presenciar del mismísimo H{PAUSE 5}…{PAUSE 5}$"
 
 Ecruteak_TinTowerRoof_Zeus_Texto_8:
 .string "Es{PAUSE 15}…{PAUSE 15}\n"

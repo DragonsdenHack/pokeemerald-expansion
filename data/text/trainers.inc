@@ -17908,7 +17908,7 @@ Snowpoint_Gimnasio_Text_PrimeroIntro:
 	.string "l-lengua.$"
 
 Snowpoint_Gimnasio_Text_PrimeroDefeated:
-	.string "Este resultado... Me ha dejado helado.$"
+	.string "Este resultado… Me ha dejado helado.$"
 
 Snowpoint_Gimnasio_Text_PrimeroPostBattle:
 	.string "Si te deslizas desde mayor altura,\n"
@@ -17921,7 +17921,7 @@ Snowpoint_Gimnasio_Text_SegundoIntro:
 	.string "durante el combate, se queda helado.$"
 
 Snowpoint_Gimnasio_Text_SegundoDefeated:
-	.string "Menuda frialdad desprendes... Al menos\n"
+	.string "Menuda frialdad desprendes… Al menos\n"
 	.string "tengo mis botas calientes.$"
 
 Snowpoint_Gimnasio_Text_SegundoPostBattle:
@@ -17959,7 +17959,7 @@ Snowpoint_Gimnasio_Text_QuintoIntro:
 	.string "víctima de ella!$"
 
 Snowpoint_Gimnasio_Text_QuintoDefeated:
-	.string "Ni has pestañeado...$"
+	.string "Ni has pestañeado…$"
 
 Snowpoint_Gimnasio_Text_QuintoPostBattle:
 	.string "He luchado contra numerosos\n"
@@ -17972,11 +17972,11 @@ Snowpoint_Gimnasio_Text_SextoIntro:
 	.string "se encuentre bien o no.$"
 
 Snowpoint_Gimnasio_Text_SextoDefeated:
-	.string "Me encuentro mal...$"
+	.string "Me encuentro mal…$"
 
 Snowpoint_Gimnasio_Text_SextoPostBattle:
 	.string "Los sentimientos del entrenador y los\n"
-	.string "del Pokémon... Si ambos están en\l"
+	.string "del Pokémon… Si ambos están en\l"
 	.string "sintonía, no pueden perder.$"
 
 Snowpoint_Templo_S1_Text_CientificoIntro:

@@ -33,7 +33,7 @@ Goldenrod_RadioTowerP1_Text_3:
 .string "ilegal los STATS BASE de mis\l"
 .string "POKÉMON manipulando las ondas de\l"
 .string "radio, no para editar canciones\l"
-.string "infantiles…$"
+.string "infantiles{PAUSE 5}…{PAUSE 5}$"
 
 
 

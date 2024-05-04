@@ -187,7 +187,7 @@ release
 end
 
 Goldenrod_Gym_Chicas_Texto_1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 TrigalGym_Gym_Dude::

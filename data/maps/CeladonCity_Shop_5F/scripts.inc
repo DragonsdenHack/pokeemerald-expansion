@@ -177,7 +177,7 @@ CeladonCity_Shop5F_Text_Oak_8:
 	.string "ese viejo rumor, aquel que afirmaba la\l"
 	.string "existencia de únicamente 150 especies\l"
 	.string "diferentes de POKÉMON. Si supieran lo\l"
-	.string "amplio que es este mundo…$"
+	.string "amplio que es este mundo{PAUSE 5}…{PAUSE 5}$"
 
 
 CeladonCity_Shop5F_Text_Oak_9:
@@ -191,7 +191,7 @@ CeladonCity_Shop5F_Text_Oak_10:
 	.string "????: Acaban de empezar su viaje. Aún\n"
 	.string "es pronto para hacer pronósticos, pero\l"
 	.string "el potencial que atesoran es\l"
-	.string "esperanzador, especialmente…$"
+	.string "esperanzador, especialmente{PAUSE 5}…{PAUSE 5}$"
 
 
 CeladonCity_Shop5F_Text_Oak_11:

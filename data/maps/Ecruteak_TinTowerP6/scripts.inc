@@ -81,7 +81,7 @@ Ecruteak_TinTowerp6_Text_6:
 .string "Son solo la parte superficial,\l"
 .string "pero tampoco conviene enseñar el\l"
 .string "fondo a aquellos no preparados\l"
-.string "para asumirlo…$"
+.string "para asumirlo{PAUSE 5}…{PAUSE 5}$"
 
 
 

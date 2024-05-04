@@ -51,7 +51,7 @@ release
 end
 
 Route106_Tristana_Texto_1:
-	.string "Está durmiendo...$"
+	.string "Está durmiendo…$"
 
 Route106_Ariana::
 lock

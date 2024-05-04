@@ -30,7 +30,7 @@ LagoFuria_S3_Combate_Ikary_Texto_1:
 .string "¡Ik!$"
 
 LagoFuria_S3_Combate_Ikary_Texto_3:
-.string "Ik…$"
+.string "Ik{PAUSE 5}…{PAUSE 5}$"
 
 
 LagoFuria_S3_Combates_Cientificos::
@@ -282,7 +282,7 @@ LagoFuria_S3_Cientifico_1_Texto_1:
 	.string "directo la aparición del POKÉMON del\l"
 	.string "LAGO. No podemos presentarnos ahí\l"
 	.string "después de ser derrotados, pero\l"
-	.string "tampoco podemos ya detenerte…$"
+	.string "tampoco podemos ya detenerte{PAUSE 5}…{PAUSE 5}$"
 
 
 

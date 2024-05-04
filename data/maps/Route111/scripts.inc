@@ -369,7 +369,7 @@ Route111_Nieto_Texto_2:
 
 Route111_Nieto_Texto_3:
 	.string "Logré superar a toda mi familia. Nunca\n"
-	.string "había perdido... Vaya palo...\l"
+	.string "había perdido… Vaya palo…\l"
 	.string "Definitivamente necesito salir de casa\l"
 	.string "para conocer a nuevos entrenadores.$"
 
@@ -741,9 +741,9 @@ Route111_Text_RootFossilDisappeared:
 	.string	"en la arena…$"
 
 Route111_Text_MauvilleUncleToldMeToTakeRockSmash:
-	.string	"¡Oh, no!\p"
-	.string	"Mi tío, el de MALVALONA, me ha dicho\n"
-	.string	"que me lleve GOLPE ROCA conmigo\l"
+	.string	"¡Se equivocó!\p"
+	.string	"Mi tío, el de MALVALONA, dijo\n"
+	.string	"que me llevara GOLPE ROCA conmigo\l"
 	.string	"si voy a la RUTA 111.\p"
 	.string	"¿Que quién es mi tío? Vive enfrente\n"
 	.string	"de la tienda de bicis de MALVALONA.$"
@@ -892,7 +892,7 @@ end
 Ruta_111_Cientificos_Texto_1:
 	.string "MALVALANOVA será nuestro próximo\n"
 	.string "objetivo, pero primero debemos esperar\l"
-	.string "al doctor...$"
+	.string "al doctor…$"
 
 
 

@@ -284,7 +284,7 @@ end
 CeruleanCity_Bayas_Texto_1:
 .string "Valiente osado. ¿Sabías que esta\n"
 	.string "ciudad tiene la mayor base policial de\l"
-	.string "KANTO? Vamos… ROCKET, dame una\l"
+	.string "KANTO? Vamos{PAUSE 15}…{PAUSE 15} ROCKET, dame una\l"
 	.string "excusa para llamarla.$"
 
 CeruleanCity_Nina::

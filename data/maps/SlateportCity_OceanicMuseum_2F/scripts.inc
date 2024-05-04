@@ -544,7 +544,7 @@ SlateportCity_Dialogo_Norman_Texto_12:
 	.string "de emociones fuertes que necesitan?$"
 
 SlateportCity_Dialogo_Norman_Texto_13:
-	.string "NORMAN: Sí, pero… ¿Y si se va de las\n"
+	.string "NORMAN: Sí, pero{PAUSE 25}…{PAUSE 15} ¿Y si se va de las\n"
 	.string "manos? ¿Y si acaban logrando sus\l"
 	.string "objetivos y despiertan a GROUDON y\l"
 	.string "KYOGRE?$"
@@ -553,7 +553,7 @@ SlateportCity_Dialogo_Norman_Texto_14:
 	.string "SR.PEÑAS: ¿Conoce al TEAM ROCKET?$"
 
 SlateportCity_Dialogo_Norman_Texto_15:
-	.string "NORMAN: Mmm… solo de oídas.$"
+	.string "NORMAN: Mmm{PAUSE 15}…{PAUSE 15} solo de oídas.$"
 
 SlateportCity_Dialogo_Norman_Texto_16:
 	.string "SR.PEÑAS: Si algo nos ha enseñado el\n"

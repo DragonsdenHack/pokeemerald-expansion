@@ -42,7 +42,7 @@ CinnabarIslandLaboratory2Documento_Text_101:
 	.string "Pensamos explorar la cueva\n"
 	.string "que hay cerca de la CELESTE.\p"
 	.string "De: EQUIPO de INVESTIGACIÓN\n"
-	.string "POKéMON…$"
+	.string "POKéMON{PAUSE 5}…{PAUSE 5}$"
 
 CinnabarIsland_Laboratory2_Entrenador_Especial::
 lock

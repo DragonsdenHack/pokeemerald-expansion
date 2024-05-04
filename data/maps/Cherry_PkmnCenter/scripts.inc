@@ -47,7 +47,7 @@ CherryPkmnCenter_Text_3:
 .string "Vine hasta aquí por un poderoso\n"
 .string "SCYTHER, pero parece que no hay.\l"
 .string "Tendré que buscar por el PARQUE\l"
-.string "NACIONAL…$"
+.string "NACIONAL{PAUSE 5}…{PAUSE 5}$"
 
 
 

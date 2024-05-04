@@ -80,8 +80,8 @@ CeladonCity_House1_2F_Secundaria_Magikarp_Texto_2:
 	.string "CAÑA VIEJA ya no existen para mí.$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_3:
-.string "…\n"
-	.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CeladonCity_House1_2F_Secundaria_Magikarp_Texto_4:
 .string "¿¡Te envía el GURÚ PESCADOR de\n"

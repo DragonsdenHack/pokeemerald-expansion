@@ -256,7 +256,7 @@ EventoLagoFuria5_Combate_Final_Texto_5:
 .string "????: Entonces admites que existe,\n"
 	.string "debería dejarte aquí y dejar que\l"
 	.string "volvieras solo, seguro que con tus\l"
-	.string "mediocres POKÉMON no serías capaz de…$"
+	.string "mediocres POKÉMON no serías capaz de{PAUSE 5}…{PAUSE 5}$"
 
 EventoLagoFuria5_Combate_Final_Texto_6:
 .string "Hablando de POKÉMON mediocres, no\n"
@@ -299,7 +299,7 @@ EventoLagoFuria5_Combate_Final_Texto_13:
 	.string "contigo!$"
 
 EventoLagoFuria5_Combate_Final_Texto_14:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 EventoLagoFuria5_Combate_Final_Texto_15:
 .string "¡El POKÉMON salvaje desapareció!$"
@@ -322,7 +322,7 @@ EventoLagoFuria5_Combate_Final_Texto_18:
 	.string "depredador de GYARADOS, su sólida\l"
 	.string "DEFENSA y unos STATS BASE totales 1\l"
 	.string "solo punto superiores a GYARADOS MEGA\l"
-	.string "refuerzan este hecho…$"
+	.string "refuerzan este hecho{PAUSE 5}…{PAUSE 5}$"
 
 EventoLagoFuria5_Combate_Final_Texto_19:
 .string "Mmm{PAUSE 25}…{PAUSE 25} Se trata de un POKÉMON a medio\n"
@@ -330,7 +330,7 @@ EventoLagoFuria5_Combate_Final_Texto_19:
 	.string "LEGENDARIO MAYOR, al menos en cuanto a\l"
 	.string "poder. Sus abundantes PS podrían\l"
 	.string "implicar algún parentesco lejano con\l"
-	.string "LAPRAS, también…$"
+	.string "LAPRAS, también{PAUSE 5}…{PAUSE 5}$"
 
 EventoLagoFuria5_Combate_Final_Texto_20:
 .string "Expectativas cumplidas, con esto\n"
@@ -361,7 +361,7 @@ EventoLagoFuria5_Combate_Final_Texto_23:
 	.string "poquísimos ejemplares, de lo contrario\l"
 	.string "no quedarían GYARADOS en el LAGO. Me\l"
 	.string "pregunto si este será el último\l"
-	.string "ejemplar vivo que qued…$"
+	.string "ejemplar vivo que qued{PAUSE 5}…{PAUSE 5}$"
 
 EventoLagoFuria5_Combate_Final_Texto_24:
 .string "¡Espera!$"

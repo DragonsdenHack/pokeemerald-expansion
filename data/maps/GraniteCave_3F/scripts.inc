@@ -49,7 +49,7 @@ GraniteCave_Encuentro_Esmeralda_Texto_3:
 	.string "me equivoco?$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_5:
 	.string "Te niegas a confirmar o desmentir esa\n"
@@ -170,7 +170,7 @@ GraniteCave_Encuentro_Esmeralda_Texto_26:
 	.string "parte próxima a la salida.$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_27:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 GraniteCave_Encuentro_Esmeralda_Texto_28:
 	.string "Chico, si quisiéramos encerrarte, ya lo\n"

@@ -353,7 +353,7 @@ DevonS10_DLC_Escena_Final_Texto_3:
 	.string "C.MIGUEL?$"
 
 DevonS10_DLC_Escena_Final_Texto_4:
-.string "C.MIGUEL: No, yo no{PAUSE 25}…{PAUSE 25} ese fenómeno solo{PAUSE 25}…$"
+.string "C.MIGUEL: No, yo no{PAUSE 25}…{PAUSE 25} ese fenómeno solo{PAUSE 25}…{PAUSE 5}$"
 
 DevonS10_DLC_Escena_Final_Texto_5:
 .string "????: Ya veo, solo está reservado para\n"
@@ -362,7 +362,7 @@ DevonS10_DLC_Escena_Final_Texto_5:
 	.string "uno de los suyos.$"
 
 DevonS10_DLC_Escena_Final_Texto_6:
-.string "C.MIGUEL: {PAUSE 25}…{PAUSE 25}así es…$"
+.string "C.MIGUEL: {PAUSE 25}…{PAUSE 25}así es{PAUSE 5}…{PAUSE 5}$"
 
 DevonS10_DLC_Escena_Final_Texto_7:
 .string "????: Pero ello no ha impedido crear ese\n"
@@ -382,10 +382,10 @@ DevonS10_DLC_Escena_Final_Texto_9:
 
 DevonS10_DLC_Escena_Final_Texto_10:
 .string "????: Conociendo su capacidad de mutar\n"
-	.string "en condiciones extremas, diría que…$"
+	.string "en condiciones extremas, diría que{PAUSE 15}…{PAUSE 15}$"
 
 DevonS10_DLC_Escena_Final_Texto_11:
-.string "…la Luna y las estrellas son su único\n"
+.string "{PAUSE 15}…{PAUSE 15}la Luna y las estrellas son su único\n"
 	.string "límite.$"
 
 DevonS10_DLC_Escena_Final_Texto_12:
@@ -428,7 +428,7 @@ DevonS10_DLC_Escena_Final_Texto_18:
 	.string "registrado.$"
 
 DevonS10_DLC_Escena_Final_Texto_19:
-.string "C.MIGUEL: Lo era, aunque…$"
+.string "C.MIGUEL: Lo era, aunque{PAUSE 5}…{PAUSE 5}$"
 
 DevonS10_DLC_Escena_Final_Texto_20:
 .string "Puede que hubiera más de uno, uno\n"
@@ -438,7 +438,7 @@ DevonS10_DLC_Escena_Final_Texto_21:
 .string "????: Eso espero, al igual que le ha\n"
 	.string "ocurrido a usted, al principio nosotros\l"
 	.string "le contratamos por su dilatada\l"
-	.string "experiencia con los FÓSILES, pero…$"
+	.string "experiencia con los FÓSILES, pero{PAUSE 5}…{PAUSE 5}$"
 
 DevonS10_DLC_Escena_Final_Texto_22:
 .string "El motivo primordial por el que ahora\n"

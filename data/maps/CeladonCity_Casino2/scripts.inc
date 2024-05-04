@@ -26,7 +26,7 @@ CeladonCity_Casino2_Text_2:
 .string "¡Hahaha!\n"
 .string "¡Hoy estoy en racha!\l"
 .string "Si todos los días fueran como\l"
-.string "este…$"
+.string "este{PAUSE 5}…{PAUSE 5}$"
 
 
 

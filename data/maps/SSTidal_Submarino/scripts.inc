@@ -74,7 +74,7 @@ SSTidal_Submarino_Primera_Escena_Texto_12:
 	.string "lleno en uno de los planes de DEVON.$"
 
 SSTidal_Submarino_Primera_Escena_Texto_13:
-	.string "Ese DOCTOR… jamás lo había visto. Pero\n"
+	.string "Ese DOCTOR{PAUSE 25}…{PAUSE 25} jamás lo había visto. Pero\n"
 	.string "al piloto del submarino sí lo conozco.$"
 
 SSTidal_Submarino_Primera_Escena_Texto_14:
@@ -98,7 +98,7 @@ SSTidal_Submarino_Primera_Escena_Texto_17:
 	.string "a lo que puedan decir en privado.$"
 
 SSTidal_Submarino_Primera_Escena_Texto_18:
-	.string "ARIANA: Hmm… ¿Te sientes algo\n"
+	.string "ARIANA: Hmm{PAUSE 15}…{PAUSE 15} ¿Te sientes algo\n"
 	.string "paralizado? Puede que el DESLUMBRAR de\l"
 	.string "mi ARBOK te rozara un poco.$"
 
@@ -130,7 +130,7 @@ release
 end
 
 SSTidal_Submarino_Segunda_Escena_Texto_1:
-	.string "????: … ¿{PLAYER}? … … Vuelve a la\n"
+	.string "????: {PAUSE 35}…{PAUSE 35} ¿{PLAYER}? {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Vuelve a la\n"
 	.string "realidad.$"
 
 SSTidal_Submarino_Segunda_Escena_Texto_2:
@@ -148,7 +148,7 @@ SSTidal_Submarino_Segunda_Escena_Texto_4:
 	.string "les marca un ESCÁNER.$"
 
 SSTidal_Submarino_Segunda_Escena_Texto_5:
-	.string "Diría que… no te has perdido mucho más\n"
+	.string "Diría que{PAUSE 25}…{PAUSE 25} no te has perdido mucho más\n"
 	.string "mientras dormías, al menos nada que tú\l"
 	.string "no supieras.$"
 
@@ -159,11 +159,11 @@ SSTidal_Submarino_Segunda_Escena_Texto_6:
 
 SSTidal_Submarino_Segunda_Escena_Texto_7:
 	.string "Cuando me regalaron ese POKÉMON\n"
-	.string "sospeché, pero ahora… ellos mismos han\l"
+	.string "sospeché, pero ahora{PAUSE 15}…{PAUSE 15} ellos mismos han\l"
 	.string "dicho que ese ESCÁNER lo han\l"
-	.string "recuperado de la NAO ABANDONADA, que\l"
-	.string "naufragó por un experimento suyo que\l"
-	.string "salió de control.$"
+	.string "recuperado de la NAO ABANDONADA. Esa\l"
+	.string "nave naufragó por un experimento suyo\l"
+	.string "que salió de control.$"
 
 SSTidal_Submarino_Segunda_Escena_Texto_8:
 	.string "Me pregunto cuántos cadáveres en el\n"
@@ -233,7 +233,7 @@ SSTidal_Submarino_Dracon_Texto_1:
 	.string "ARIANA: ¡Manos arriba anciano!$"
 
 SSTidal_Submarino_Dracon_Texto_2:
-	.string "????: Pero… ¿¡De dónde habéis salido!?$"
+	.string "????: Pero{PAUSE 25}…{PAUSE 25} ¿¡De dónde habéis salido!?$"
 
 SSTidal_Submarino_Dracon_Texto_3:
 	.string "ARIANA: Solo queremos seguir a DEVON.\n"
@@ -261,15 +261,15 @@ SSTidal_Submarino_Dracon_Texto_8:
 	.string "Lo siento mucho, ¡pero vete preparando!$"
 
 SSTidal_Submarino_Dracon_Texto_9:
-	.string "{PLAYER}: … …$"
+	.string "{PLAYER}: {PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 SSTidal_Submarino_Dracon_Texto_10:
 	.string "ARIANA: ¿En serio? ¿Quieres combatir\n"
 	.string "tú solo contra un ALTO MANDO?$"
 
 SSTidal_Submarino_Dracon_Texto_11:
-	.string "De verdad… estas nuevas generaciones\n"
-	.string "del TEAM ROCKET… qué poco pragmáticas.$"
+	.string "De verdad{PAUSE 25}…{PAUSE 25} estas nuevas generaciones\n"
+	.string "del TEAM ROCKET{PAUSE 25}…{PAUSE 25} qué poco pragmáticas.$"
 
 SSTidal_Submarino_Dracon_Texto_12:
 	.string "Si acabas perdiendo y te hacen preso,\n"
@@ -283,7 +283,7 @@ SSTidal_Submarino_Dracon_Texto_13:
 SSTidal_Submarino_Dracon_Texto_14:
 	.string "Alguien como tú nunca sabrá lo que se\n"
 	.string "necesita para luchar con la ayuda de\l"
-	.string "los POKÉMON, y sin eso… ¡jamás podrás\l"
+	.string "los POKÉMON, y sin eso{PAUSE 15}…{PAUSE 15} ¡jamás podrás\l"
 	.string "derrotarme!$"
 
 SSTidal_Submarino_Dracon_Texto_15:

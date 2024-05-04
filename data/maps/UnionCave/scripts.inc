@@ -321,6 +321,6 @@ UnionCave_Llamada_Giovanni_Texto_1:
 	.string "FUERTE VÍNCULO. Tenemos todo el\l"
 	.string "tiempo del mundo para averiguar el\l"
 	.string "misterio de las RUINAS. Los\l"
-	.string "LÍDERES DE GIMNASIO… No sabemos\l"
+	.string "LÍDERES DE GIMNASIO{PAUSE 25}…{PAUSE 25} No sabemos\l"
 	.string "cuanto pueden durar en esta JOHTO\l"
 	.string "tan cambiante.$"

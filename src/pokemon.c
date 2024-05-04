@@ -7773,6 +7773,9 @@ u16 GetBattleBGM(void)
             return 622;
         case TRAINER_CLASS_ELM:
             return 578;
+        case TRAINER_CLASS_AROMA_LADY:
+        case TRAINER_CLASS_KINDLER:
+        case TRAINER_CLASS_KARATEKA_HOENN:
         case TRAINER_CLASS_COOLTRAINER:
         case TRAINER_CLASS_POKEFAN:
         case TRAINER_CLASS_LASS:

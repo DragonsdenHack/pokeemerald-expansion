@@ -139,7 +139,7 @@ GameCorner_Mauville_Encuentro_Ariana_Texto_3:
 	.string "motivo.$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_4:
-	.string "Espera, esos POKÉMON…$"
+	.string "Espera, esos POKÉMON{PAUSE 15}…{PAUSE 5}$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_5:
 	.string "Ese estilo a la hora de combatir, lo\n"
@@ -155,7 +155,7 @@ GameCorner_Mauville_Encuentro_Ariana_Texto_7:
 	.string "verte en este CASINO, ¿me oyes?$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_8:
-	.string "… …$"
+	.string "{PAUSE 35}…{PAUSE 25} …{PAUSE 15}$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_9:
 	.string "¿La LIGA POKÉMON? ¿Controláis KANTO y\n"
@@ -200,11 +200,11 @@ GameCorner_Mauville_Encuentro_Ariana_Texto_17:
 	.string "En este lugar pude rehacer mi vida, nada\n"
 	.string "me vincula ya a KANTO… solo algunos de\l"
 	.string "mis antiguos POKÉMON que compartieron\l"
-	.string "mis miserias. Así que… te ruego que\l"
+	.string "mis miserias. Así que{PAUSE 15}…{PAUSE 15} te ruego que\l"
 	.string "desaparezcas.$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_18:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 GameCorner_Mauville_Encuentro_Ariana_Texto_19:
 	.string "¿DEVON?$"

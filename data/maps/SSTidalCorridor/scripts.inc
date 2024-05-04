@@ -366,7 +366,7 @@ release
 end
 
 SSTidalCorridor_4_NPC_Texto_1:
-	.string "Estas colas… siempre hay alguien que\n"
+	.string "Estas colas{PAUSE 10}…{PAUSE 10} siempre hay alguien que\n"
 	.string "llega antes que tú…$"
 
 SSTidalCorridor_6_NPC::
@@ -410,7 +410,7 @@ release
 end
 
 SSTidalCorridor_10_NPC_Texto_1:
-	.string "Ah, querida… ¿recuerdas cuando fuimos\n"
+	.string "Ah, querida{PAUSE 10}…{PAUSE 10} ¿recuerdas cuando fuimos\n"
 	.string "a CALAGUA en nuestra pequeña barca?$"
 
 SSTidalCorridor_12_NPC::
@@ -486,7 +486,7 @@ release
 end
 
 SSTidalCorridor_19_NPC_Texto_1:
-	.string "Maldición… Creí que iban a servir un\n"
+	.string "Maldición{PAUSE 10}…{PAUSE 10} Creí que iban a servir un\n"
 	.string "buffet libre, ¡no hay nada!$"
 
 SSTidalCorridor_20_NPC::

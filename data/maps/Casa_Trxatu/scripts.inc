@@ -98,7 +98,7 @@ walk_in_place_down
 step_end
 
 CasaTrxatu_Combate_Texto_1:
-.string "… …$"
+.string "{PAUSE 10}…{PAUSE 10}…{PAUSE 10}$"
 
 CasaTrxatu_Combate_Texto_2:
 .string "Vaya, parece que, por muy oculto\n"
@@ -121,7 +121,7 @@ CasaTrxatu_Combate_Texto_4:
 CasaTrxatu_Combate_Texto_5:
 .string "Yo fui parte de ese culto, sin\n"
 	.string "embargo, tuve ciertas\l"
-	.string "discrepancias con su LÍDER…$"
+	.string "discrepancias con su LÍDER{PAUSE 10}…{PAUSE 10}$"
 
 CasaTrxatu_Combate_Texto_6:
 .string "Digamos que logré huir antes de\n"

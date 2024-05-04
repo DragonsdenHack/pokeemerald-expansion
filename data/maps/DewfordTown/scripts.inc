@@ -724,7 +724,7 @@ DewfordTown_Text_ThrowInFishingAdvice:
 
 DewfordTown_Text_ThatsTooBadThen:
 	.string	"¿Ésas tenemos?\n"
-	.string	"Pues peor para ti…$"
+	.string	"Pues peor para ti{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Text_HowsYourFishing:
 	.string	"¡Hey!\n"
@@ -764,7 +764,7 @@ DewfordTown_Text_TellMeWhatsNewAndIn:
 	.string	"¿Cómo?\n"
 	.string	"¿Que no es lo que más mola?\p"
 	.string	"Bueno, pues entonces dime qué es\n"
-	.string	"lo más “in” del momento…$"
+	.string	"lo más “in” del momento{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Text_OfCourseIKnowAboutThat:
 	.string	"¿Eh?\n"

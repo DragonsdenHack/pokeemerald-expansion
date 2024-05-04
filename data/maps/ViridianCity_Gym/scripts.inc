@@ -205,7 +205,7 @@ ViridianCity_Gym_Pase_Texto_1:
 	.string "de aquí si no quieres…!$"
 
 ViridianCity_Gym_Pase_Texto_2:
-.string "{PAUSE 15}… {PAUSE 15}…{PAUSE 15}$"
+.string "{PAUSE 15}…{PAUSE 15}…{PAUSE 15}$"
 
 ViridianCity_Gym_Pase_Texto_3:
 .string "Oh{PAUSE 25}…{PAUSE 25} Igual que esa chica que pasó hace\n"

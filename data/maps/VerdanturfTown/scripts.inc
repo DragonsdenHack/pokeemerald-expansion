@@ -201,7 +201,7 @@ VerdanturfTown_Escena_Tristana_Texto_4:
 	.string "algo que te preocupa?$"
 
 VerdanturfTown_Escena_Tristana_Texto_5:
-	.string "BLASCO: Bueno… Están restaurando el\n"
+	.string "BLASCO: Bueno{PAUSE 15}…{PAUSE 15} Están restaurando el\n"
 	.string "GIMNASIO de CIUDAD PETALIA, pensaba\l"
 	.string "que podría ir a ver al nuevo LÍDER para…$"
 
@@ -210,7 +210,7 @@ VerdanturfTown_Escena_Tristana_Texto_6:
 	.string "arriesgado que es eso?$"
 
 VerdanturfTown_Escena_Tristana_Texto_7:
-	.string "BLASCO: Pero… ¡su hijo tiene mi edad y\n"
+	.string "BLASCO: Pero{PAUSE 15}…{PAUSE 15} ¡su hijo tiene mi edad y\n"
 	.string "va a empezar su aventura!$"
 
 VerdanturfTown_Escena_Tristana_Texto_8:
@@ -279,7 +279,7 @@ VerdanturfTown_Escena_Tristana_Texto_20:
 
 VerdanturfTown_Escena_Tristana_Texto_21:
 	.string "…el combate POKÉMON puede ser lo más\n"
-	.string "injusto, y lo más justo a la vez… si solo\l"
+	.string "injusto, y lo más justo a la vez{PAUSE 15}…{PAUSE 15} si solo\l"
 	.string "te comparas contigo mismo y te centras\l"
 	.string "en tu propio progreso.$"
 
@@ -308,7 +308,7 @@ VerdanturfTown_Escena_Tristana_Texto_25:
 	.string "apasiona.$"
 
 VerdanturfTown_Escena_Tristana_Texto_26:
-	.string "BLASCO: Lo… intentaré.$"
+	.string "BLASCO: L{PAUSE 15}-{PAUSE 15}Lo{PAUSE 25}…{PAUSE 25} intentaré.$"
 
 VerdanturfTown_Escena_Tristana_Texto_27:
 	.string "¡BLASCO, espera!$"
@@ -319,7 +319,7 @@ VerdanturfTown_Escena_Tristana_Texto_28:
 	.string "viajar más y más lo ha hecho posible.$"
 
 VerdanturfTown_Escena_Tristana_Texto_29:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 15}$"
 
 VerdanturfTown_Escena_Tristana_Texto_30:
 	.string "¿No estás de acuerdo con esa\n"

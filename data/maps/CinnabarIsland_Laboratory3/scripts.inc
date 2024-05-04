@@ -37,7 +37,7 @@ emote_exclamation_mark
 step_end
 
 CinnabarIslandLaboratory3_2_Texto_4:
-.string "Oh…$"
+.string "Oh{PAUSE 5}…{PAUSE 5}$"
 
 CinnabarIslandLaboratory3_2_Texto_3:
 .string "¿Tienes a OMANYTE, KABUTO y\n"
@@ -48,7 +48,7 @@ CinnabarIslandLaboratory3_2_Texto_3:
 	.string "resurrección?$"
 
 CinnabarIslandLaboratory3_2_Texto_2:
-.string "… …$"
+.string "… {PAUSE 5}…{PAUSE 5}$"
 
 CinnabarIslandLaboratory3_2_Texto_1:
 .string "Jamás pondremos nuestra tecnología de\n"

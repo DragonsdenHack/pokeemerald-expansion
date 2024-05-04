@@ -12,7 +12,7 @@ Goldenrod_TrainStation_Text_1:
 .string "En AZAFRÁN aún no han comenzado\n"
 .string "con las obras. Es normal que estén\l"
 .string "más rezagados, con todo el lío que\l"
-.string "han tenido en la LIGA POKÉMON…$"
+.string "han tenido en la LIGA POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -106,7 +106,7 @@ Goldenrod_TrainStation_Frontera_Texto_1:
 
 Goldenrod_TrainStation_Frontera_Texto_2:
 .string "…\n"
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Goldenrod_TrainStation_Frontera_Texto_3:
 .string "Un momento, ese es el PASE RADIO.\n"

@@ -309,7 +309,7 @@ DewfordTown_Gym_Text_TakaoIntro:
 	.string "¡Querer es poder! ¡Quiero derrotarte!$"
 
 DewfordTown_Gym_Text_TakaoDefeat:
-	.string "Tendría que haberlo querido más…$"
+	.string "Tendría que haberlo querido más{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Gym_Text_TakaoPostBattle:
 	.string "Tu ingenio supera mi fuerza bruta. ¡Tu\n"
@@ -341,7 +341,7 @@ DewfordTown_Gym_Text_LauraPostBattle:
 	.string "Lucho en la oscuridad para quitarme\n"
 	.string "todos los miedos. Pero, al estar tan\l"
 	.string "oscuro, nunca he podido ver la cara de\l"
-	.string "MARCIAL…$"
+	.string "MARCIAL{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Gym_Text_LilithIntro:
 	.string "¡Uaka! ¿Dando tumbos en la oscuridad?$"
@@ -382,7 +382,7 @@ DewfordTown_Gym_Text_BrawlyIntro:
 	.string	"fieras olas de este lugar y me he\l"
 	.string	"endurecido en esta oscura cueva.\p"
 	.string	"¿Quieres desafiarme?\n"
-	.string	"Vamos a ver de qué eres capaz…$"
+	.string	"Vamos a ver de qué eres capaz{PAUSE 5}…{PAUSE 5}$"
 
 DewfordTown_Gym_Text_BrawlyDefeat:
 	.string	"¡Guau y doble guau! ¡Eres peor que\n"

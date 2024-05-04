@@ -134,7 +134,7 @@ end
 CultoS3_Text_9:
 .string "No recuerdo la última vez que\n"
 .string "tuvimos visita del exterior, pero\l"
-.string "no acabó muy bien…$"
+.string "no acabó muy bien{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -255,7 +255,7 @@ CultoS3_Text_16:
 .string "el que ocurren las cosas más\l"
 .string "importantes.\l"
 .string "…\l"
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -797,10 +797,10 @@ Culto_S3_Batalla_Texto_6:
 Culto_S3_Batalla_Texto_7:
 .string "No podemos dejar que te vayas, el\n"
 	.string "mundo no puede saber que este\l"
-	.string "lugar existe, de modo que…$"
+	.string "lugar existe, de modo que{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_8:
-.string "De modo que…\n"
+.string "Entonces{PAUSE 5}…{PAUSE 5}\n"
 	.string "¿Eres el actual CAMPEÓN de la\l"
 	.string "región de KANTO?\l"
 	.string "¿Y vas en busca del POKÉMON\l"
@@ -831,7 +831,7 @@ Culto_S3_Batalla_Texto_11:
 .string "Podrás haber derrotado a LANCE,\n"
 	.string "pero sigues siendo un principiante\l"
 	.string "en cuanto a conocimiento de las\l"
-	.string "leyes que rijen este mundo…$"
+	.string "leyes que rijen este mundo{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_12:
 .string "Todos vosotros al final lo que\n"
@@ -842,7 +842,7 @@ Culto_S3_Batalla_Texto_12:
 	.string "y con humildad obtenerlo, debe de\l"
 	.string "ser una consecuencia de otras\l"
 	.string "virtudes, nunca el fin último,\l"
-	.string "observa…$"
+	.string "observa{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_13:
 .string "Ahora mismo podría hacerte\n"
@@ -854,8 +854,8 @@ Culto_S3_Batalla_Texto_13:
 	.string "tú que jamás tuvo acceso a ello.$"
 
 Culto_S3_Batalla_Texto_14:
-.string "…\n"
-	.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_15:
 .string "Tengo el presentimiento de que no\n"
@@ -904,7 +904,7 @@ Culto_S3_Batalla_Texto_19:
 	.string "por supuesto, de esa otra persona\l"
 	.string "que hubiera sido capaz de batir a\l"
 	.string "este equipo. Tú sabrás\l"
-	.string "identificarlo, por supuesto…$"
+	.string "identificarlo, por supuesto{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_20:
 .string "En cuanto al POKÉMON ESENCIA, aquí\n"
@@ -920,7 +920,7 @@ Culto_S3_Batalla_Texto_21:
 	.string "información con la que\l"
 	.string "teóricamente es posible convocar a\l"
 	.string "tal POKÉMON y hacer que adquiera\l"
-	.string "una forma material…$"
+	.string "una forma material{PAUSE 5}…{PAUSE 5}$"
 
 Culto_S3_Batalla_Texto_22:
 .string "Es necesario reunir a dos POKÉMON,\n"

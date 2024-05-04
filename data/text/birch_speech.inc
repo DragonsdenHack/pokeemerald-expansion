@@ -15,14 +15,14 @@ gText_Birch_Pokemon::
 gText_Birch_MainSpeech::
 	.string "…es un Pokémon de verdad y a lo que\n"
 	.string "debes aspirar.\p"
-	.string "Bien… {PAUSE 60}espero que no seas uno de esos\n"
+	.string "Bien…{PAUSE 60}espero que no seas uno de esos\n"
 	.string "mediocres que se conforman con tener\l"
 	.string "al EKANS ó RATTATA de turno.\p"
 	.string "Las insubordinaciones y faltas de\n"
 	.string "actitud aquí se pagan muy caras…\l"
 	.string "tenlo presente.\p"
 	.string "Dicho esto, hora del papeleo.\p"
-	.string "No te preocupes… {PAUSE 45} no pedimos\n"
+	.string "No te preocupes…{PAUSE 45} no pedimos\n"
 	.string "documentación.\p"
 	.string "$"
 
@@ -73,7 +73,7 @@ gText_Birch_WhatsYourName::
 	.string "que será tu seña de identidad aquí.$"
 
 gText_Birch_SoItsPlayer::
-	.string "Bien… {PAUSE 60} ¿Así que te llamas\n{PLAYER}{KUN}?$"
+	.string "Bien…{PAUSE 60} ¿Así que te llamas\n{PLAYER}{KUN}?$"
 
 gText_Birch_YourePlayer::
 	.string "{PAUSE 50}Este es nuestro LÍDER, Giovanni.\p"

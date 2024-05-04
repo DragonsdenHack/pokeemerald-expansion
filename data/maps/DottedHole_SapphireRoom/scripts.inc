@@ -195,7 +195,7 @@ DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_5:
 	.string "lugar no lleva a ninguna parte,\l"
 	.string "pero si logramos traer la ESFERA\l"
 	.string "AZUL y hacerla brillar en su\l"
-	.string "presencia, este es el resultado…$"
+	.string "presencia, este es el resultado{PAUSE 5}…{PAUSE 5}$"
 
 DottedHole_SapphireRoom_Encuentro_Aquiles_Texto_6:
 .string "Después de tantos años e intentos\n"

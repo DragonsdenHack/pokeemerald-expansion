@@ -37,7 +37,7 @@ Snowpoint_Templo_S5_Rasmus_Texto_1:
 	.string "nuestro.$"
 
 Snowpoint_Templo_S5_Rasmus_Texto_2:
-	.string "{PLAYER}... Estoy impresionado. Si\n"
+	.string "{PLAYER}… Estoy impresionado. Si\n"
 	.string "estás aquí es porque sigues\l"
 	.string "obsesionado en ir tras nuestros\l"
 	.string "movimientos.$"
@@ -64,7 +64,7 @@ Snowpoint_Templo_S5_Rasmus_Texto_6:
 
 Snowpoint_Templo_S5_Rasmus_Texto_7:
 	.string "Las defensas de REGICE y REGIROCK, la\n"
-	.string "VELOCIDAD de REGIELEKI… Comprenderás\l"
+	.string "VELOCIDAD de REGIELEKI{PAUSE 15}…{PAUSE 15} Comprenderás\l"
 	.string "que espero con especial entusiasmo el\l"
 	.string "poder estudiar al POKÉMON que creó\l"
 	.string "estos prodigios de la naturaleza.$"
@@ -245,7 +245,7 @@ Snowpoint_Templo_S5_Amatista_Texto_13:
 	.string "en un mito.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_14:
-	.string "Pero DEVON, su PRESIDENTE, yo… antes\n"
+	.string "Pero DEVON, su PRESIDENTE, yo{PAUSE 15}…{PAUSE 15} antes\n"
 	.string "de ser lo que somos, esta clase de\l"
 	.string "POKÉMON antiguos eran nuestra\l"
 	.string "especialidad y también nuestro anhelo.\l"
@@ -288,7 +288,7 @@ Snowpoint_Templo_S5_Amatista_Texto_22:
 
 Snowpoint_Templo_S5_Amatista_Texto_23:
 	.string "La única diferencia entre este\n"
-	.string "REGIGIGAS y el verdadero… es la\l"
+	.string "REGIGIGAS y el verdadero{PAUSE 15}…{PAUSE 15} es la\l"
 	.string "capacidad para desarrollar ese\l"
 	.string "potencial intrínseco, ancestral. Nadie\l"
 	.string "lo notará.$"
@@ -299,10 +299,10 @@ Snowpoint_Templo_S5_Amatista_Texto_24:
 	.string "estamos haciendo un favor.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_25:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 Snowpoint_Templo_S5_Amatista_Texto_26:
-	.string "GIOVANNI: ¿{PLAYER}? … … Cuéntame\n"
+	.string "GIOVANNI: ¿{PLAYER}? {PAUSE 25}…{PAUSE 25} …{PAUSE 25} Cuéntame\n"
 	.string "todo.$"
 
 Snowpoint_Templo_S5_Amatista_Texto_27:

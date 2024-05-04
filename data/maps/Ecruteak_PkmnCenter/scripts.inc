@@ -61,4 +61,4 @@ Ecruteak_PkmnCenter_Text_4:
 .string "Me pregunto si la TORRE QUEMADA\n"
 .string "era aún más alta que la TORRE\l"
 .string "CAMPANA. Dicen que eran similares\l"
-.string "en altura…$"
+.string "en altura{PAUSE 5}…{PAUSE 5}$"

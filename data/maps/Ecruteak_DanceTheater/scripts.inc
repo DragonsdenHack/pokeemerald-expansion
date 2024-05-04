@@ -83,7 +83,7 @@ Ecruteak_DanceTheater_Text_5:
 .string "EEVEE representa cada uno los\l"
 .string "7 colores del arco iris de HO-OH,\l"
 .string "aunque creo que hay más de 7\l"
-.string "evoluciones diferentes de EEVEE…$"
+.string "evoluciones diferentes de EEVEE{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -421,7 +421,7 @@ Ecruteak_DanceTheater_Batallas_Texto_17:
 Ecruteak_DanceTheater_Batallas_Texto_18:
 .string "Habéis marchitado a mis POKÉMON\n"
 	.string "cual árbol otoñal de SENDA\l"
-	.string "DINDÓN…$"
+	.string "DINDÓN{PAUSE 5}…{PAUSE 5}$"
 
 Ecruteak_DanceTheater_Batallas_Texto_19:
 .string "Aguardad, valeroso caballero.\n"
@@ -499,7 +499,7 @@ Ecruteak_DanceTheater_Batallas_Texto_31:
 	.string "imposible{PAUSE 15}…{PAUSE 15}\l"
 	.string "El LÍDER de CIUDAD IRIS no sale de\l"
 	.string "TORRE CAMPANA, y tengo entendido\l"
-	.string "que el actual CAMP…$"
+	.string "que el actual CAMP{PAUSE 5}…{PAUSE 5}$"
 
 Ecruteak_DanceTheater_Batallas_Texto_32:
 .string "MIRTO: ¿¡Tú eres el verdadero\n"

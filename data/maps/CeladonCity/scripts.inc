@@ -114,7 +114,7 @@ CeladonCity_Text10:
 .string "La ancianita tan agradable que hay\n"
 .string "en la MANSIÓN, me ha dado un TÉ.\p"
 .string "¡Pero está hirviendo!\n"
-.string "Voy a esperar a ver si se enfría…$"
+.string "Voy a esperar a ver si se enfría{PAUSE 10}…{PAUSE 10}$"
 
 
 CeladonCity11::
@@ -343,8 +343,8 @@ CeladonCity_Entrenador_Especial_Texto_1:
 	.string "verdad.$"
 
 CeladonCity_Entrenador_Especial_Texto_2:
-.string "…\n"
-	.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CeladonCity_Entrenador_Especial_Texto_3:
 .string "No, no creo que mis POKÉMON tengan\n"
@@ -390,5 +390,5 @@ CeladonCity_Entrenador_Especial_Texto_9:
 	.string "serte muy útil.$"
 
 CeladonCity_Entrenador_Especial_Texto_10:
-.string "Reusar un combate a un anciano…\n"
-	.string "Habráse visto…$"
+.string "Reusar un combate a un anciano{PAUSE 10}…{PAUSE 10}\n"
+	.string "Habráse visto{PAUSE 10}…{PAUSE 10}$"

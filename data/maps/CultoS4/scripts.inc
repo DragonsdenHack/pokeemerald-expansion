@@ -54,7 +54,7 @@ CultoS4_Text_6:
 .string "definido? Algunos dicen que por\l"
 .string "definición debe ser FANTASMA, tal vez\l"
 .string "sea una combinación de este y otro\l"
-.string "más…$"
+.string "más{PAUSE 5}…{PAUSE 5}$"
 
 
 

@@ -84,14 +84,14 @@ SSTidalLowerDeck_Combates_Texto_6:
 	.string "¡Me limpiaron a mí!$"
 
 SSTidalLowerDeck_Combates_Texto_7:
-	.string "Grrr… Encima te resistes, ¡mis bravos\n"
+	.string "Grrr{PAUSE 15}…{PAUSE 15} Encima te resistes, ¡mis bravos\n"
 	.string "POKÉMON no tendrán piedad contigo!$"
 
 SSTidalLowerDeck_Combates_Texto_8:
 	.string "¿Yo también perdí?$"
 
 SSTidalLowerDeck_Combates_Texto_9:
-	.string "P-Pero… ¿Quiénes sois vosotros?$"
+	.string "P{PAUSE 15}-{PAUSE 15}Pero{PAUSE 15}…{PAUSE 15} ¿Quiénes sois vosotros?$"
 
 SSTidalLowerDeck_Combates_Texto_10:
 	.string "ARIANA: ARBOK, DESLUMBRAR contra los\n"
@@ -150,7 +150,7 @@ SSTidalLowerDeck_Submarino_Texto_2:
 	.string "verdadero evento.$"
 
 SSTidalLowerDeck_Submarino_Texto_3:
-	.string "ARIANA: Ese es… la mano derecha del\n"
+	.string "ARIANA: Ese es{PAUSE 25}…{PAUSE 25} la mano derecha del\n"
 	.string "PRESIDENTE.$"
 
 SSTidalLowerDeck_Submarino_Texto_4:

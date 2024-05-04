@@ -262,7 +262,7 @@ TwoIsland_Torre_P4_Evento_Final_Texto_4:
 TwoIsland_Torre_P4_Evento_Final_Texto_5:
 .string "Lo cierto es que hace un tiempo que\n"
 	.string "dejé de formar parte de la\l"
-	.string "organización. Digamos que… rompí el\l"
+	.string "organización. Digamos que{PAUSE 15}…{PAUSE 15} rompí el\l"
 	.string "código interno de conducta ROCKET, ese\l"
 	.string "mismo código por el que fracasamos en\l"
 	.string "la misión del MT.MOON, gracias a tu\l"

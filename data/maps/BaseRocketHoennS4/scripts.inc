@@ -54,10 +54,10 @@ BaseRocketHoennS4_Carta_Andra_Texto_2:
 
 BaseRocketHoennS4_Carta_Andra_Texto_3:
 	.string "Siento haber actuado de forma egoísta y\n"
-	.string "dejar el TEAM ROCKET. No cabe duda de que\l"
-	.string "el tuyo es el camino correcto, tu virtud se\l"
-	.string "mantiene inquebrantable, sin importar\l"
-	.string "los agentes externos.$"
+	.string "dejar el TEAM ROCKET. No cabe duda de\l"
+	.string "que el tuyo es el camino correcto, tu\l"
+	.string "espíritu se mantiene inquebrantable, sin\l"
+	.string "importar los agentes externos.$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_4:
 	.string "En mi caso, debo buscar esa virtud\n"
@@ -94,7 +94,7 @@ BaseRocketHoennS4_Carta_Andra_Texto_7:
 	.string "al lado.$"
 
 BaseRocketHoennS4_Carta_Andra_Texto_7.1:
-	.string "Con ello podrás activar sus formas\n"
+	.string "Con estos 'ORBES' activarás sus formas\n"
 	.string "primigenias, obteniendo así datos para\l"
 	.string "lograr clonarlas en un futuro, también…$"
 
@@ -136,9 +136,9 @@ BaseRocketHoennS3_Ejecutivo_Texto_1:
 	.string "de la ADMIN.JEFE ANDRA sin su permiso.$"
 
 BaseRocketHoennS3_Ejecutivo_Texto_2:
-	.string "Ahora este despacho también es suyo,\n"
-	.string "no se preocupe señor. me encargaré\l"
-	.string "personalmente de que nadie entra\l"
+	.string "Ahora este despacho también es suyo.\n"
+	.string "No se preocupe señor, me encargaré\l"
+	.string "personalmente de que nadie entre\l"
 	.string "mientras usted recorre HOENN.$"
 
 Llave_Despacho_Hoenn::
@@ -226,20 +226,28 @@ Base_Hoenn_Andra_Electivire_Texto_1:
 Base_Hoenn_Esfera_Azul::
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_BLUE_ORB
-msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3 MSGBOX_DEFAULT
+msgbox Base_Hoenn_Esfera_Azul_Texto_1 MSGBOX_DEFAULT
 waitfanfare
 setflag FLAG_HOENN_21
 removeobject 3
 release
 end
 
+Base_Hoenn_Esfera_Azul_Texto_1:
+	.string "¡{PLAYER} obtuvo un\n"
+	.string "ORBE AZUL!$"
+
 Base_Hoenn_Esfera_Roja::
 playfanfare MUS_RG_OBTAIN_KEY_ITEM
 additem ITEM_RED_ORB
-msgbox BaseRocketHoenn_Ejecutivo_Bienvenida_Texto_3 MSGBOX_DEFAULT
+msgbox Base_Hoenn_Esfera_Roja_Texto_1 MSGBOX_DEFAULT
 waitfanfare
 setflag FLAG_HOENN_22
 removeobject 4
 release
 end
+
+Base_Hoenn_Esfera_Roja_Texto_1:
+	.string "¡{PLAYER} obtuvo un\n"
+	.string "ORBE ROJA!$"
 

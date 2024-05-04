@@ -61,7 +61,7 @@ Goldenrod_RadioTowerP2_Text_5:
 .string "Oí que mi prima ocupaba un cargo\n"
 .string "muy importante en ISLA INTA,\l"
 .string "aunque llevo tiempo sin saber de\l"
-.string "ella…$"
+.string "ella{PAUSE 5}…{PAUSE 5}$"
 
 
 

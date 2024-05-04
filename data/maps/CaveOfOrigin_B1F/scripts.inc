@@ -231,7 +231,7 @@ CaveOfOrigin_Relato_Texto_3:
 	.string "GALANO: Así es, léelo.$"
 
 CaveOfOrigin_Relato_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 10}…{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_5:
 	.string "ANDRA: -Será quien desglose el\n"
@@ -240,13 +240,13 @@ CaveOfOrigin_Relato_Texto_5:
 	.string "un mortal cruzó los límites aparentes.-$"
 
 CaveOfOrigin_Relato_Texto_6:
-	.string "… …$"
+	.string "{PAUSE 10}…{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_7:
-	.string "'...entonces el cielo se tiñó de negro.\n"
+	.string "'…entonces el cielo se tiñó de negro.\n"
 	.string "Rayos, truenos y una incesante\l"
 	.string "tormenta como jamás habíamos visto,\l"
-	.string "sacudían HOENN…$"
+	.string "sacudían HOENN{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_8:
 	.string "…la potencia de KYOGRE era legendaria,\n"
@@ -254,7 +254,7 @@ CaveOfOrigin_Relato_Texto_8:
 	.string "auténtico estupor. Bajo el diluvio\l"
 	.string "constante, sus movimientos acuáticos\l"
 	.string "no solo fulminaban a otros tipos de\l"
-	.string "POKÉMON de un solo golpe…$"
+	.string "POKÉMON de un solo golpe{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_9:
 	.string "…también acababa con la mayoría de sus\n"
@@ -289,7 +289,7 @@ CaveOfOrigin_Relato_Texto_13:
 	.string "excepcionales a nuestros ojos, seguían\l"
 	.string "siendo muy insuficientes comparadas\l"
 	.string "con la brutalidad de un KYOGRE que se\l"
-	.string "alejaba de todo lo que habíamos visto…$"
+	.string "alejaba de todo lo que habíamos visto{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_14:
 	.string "…sin embargo, el POKÉMON había sido\n"
@@ -298,7 +298,7 @@ CaveOfOrigin_Relato_Texto_14:
 	.string "forma que, en ese momento…ese lugar\l"
 	.string "concreto… ese MILOTIC parecía otro\l"
 	.string "POKÉMON LEGENDARIO más y no un mero\l"
-	.string "mortal como nosotros…$"
+	.string "mortal como nosotros{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_15:
 	.string "…si antes ver cómo POKÉMON del propio\n"
@@ -364,7 +364,7 @@ CaveOfOrigin_Relato_Texto_22:
 	.string "paralizado y en un estado en el que\l"
 	.string "cualquier MAGIKARP salvaje podría\l"
 	.string "rematarlo, ese MILOTIC aún seguía en\l"
-	.string "pie…$"
+	.string "pie{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_23:
 	.string "…pero…todo eso era ya irrelevante ante\n"
@@ -421,7 +421,7 @@ CaveOfOrigin_Relato_Texto_29:
 	.string "imbatible, a pesar de ello el renovado\l"
 	.string "MILOTIC había logrado una parecida al\l"
 	.string "KYOGRE anterior a su FORMA\l"
-	.string "PRIMIGENIA…$"
+	.string "PRIMIGENIA{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_30:
 	.string "…pero lo más impresionante fue ver su\n"
@@ -441,7 +441,7 @@ CaveOfOrigin_Relato_Texto_32:
 	.string "El duelo de voluntades ya no era tal:\n"
 	.string "KYOGRE, falto de exposición ante la\l"
 	.string "adversidad, había perdido la batalla, y\l"
-	.string "regresó a las profundidades del mar…$"
+	.string "regresó a las profundidades del mar{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_33:
 	.string "…con ello, HOENN volvió a su estado\n"
@@ -455,13 +455,13 @@ CaveOfOrigin_Relato_Texto_34:
 	.string "En cuanto al singular MILOTIC y su\n"
 	.string "LEGENDARIO ENTRENADOR… prosiguieron\l"
 	.string "su viaje, en busca de nuevos retos,\l"
-	.string "jamás se volvió a saber de ellos…$"
+	.string "jamás se volvió a saber de ellos{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_35:
 	.string "GALANO: ¿Qué te ha parecido?$"
 
 CaveOfOrigin_Relato_Texto_36:
-	.string "ANDRA: …$"
+	.string "ANDRA: {PAUSE 15}…{PAUSE 15}$"
 
 CaveOfOrigin_Relato_Texto_37:
 	.string "Aguantar ese TRUENO fue lo que marcó\n"
@@ -476,7 +476,7 @@ CaveOfOrigin_Relato_Texto_38:
 	.string "JOHTO.$"
 
 CaveOfOrigin_Relato_Texto_39:
-	.string "GALANO: Hmmm…$"
+	.string "GALANO: Hmmm{PAUSE 15}…{PAUSE 15}$"
 
 CaveOfOrigin_Relato_Texto_40:
 	.string "ANDRA: Sí, pero… esta parece más\n"
@@ -509,7 +509,7 @@ CaveOfOrigin_Relato_Texto_45:
 	.string "que mi búsqueda no será en vano.$"
 
 CaveOfOrigin_Relato_Texto_46:
-	.string "… …$"
+	.string "{PAUSE 10}…{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_47:
 	.string "Una última cosa.$"
@@ -564,7 +564,7 @@ CaveOfOrigin_Relato_Texto_56:
 	.string "ANDRA: Mmm… ya veo… tiene sentido. No\n"
 	.string "es la primera región en la que ocurre\l"
 	.string "esto, solo espero que esta visión no\l"
-	.string "llegue también a JOHTO…$"
+	.string "llegue también a JOHTO{PAUSE 10}…{PAUSE 10}$"
 
 CaveOfOrigin_Relato_Texto_57:
 	.string "Ha sido un placer poder visitar este\n"

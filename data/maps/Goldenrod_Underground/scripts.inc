@@ -181,7 +181,7 @@ Goldenrod_Underground_Motero_Bloqueo_Texto_1:
 	.string "este lugar no es para pijos como tú!$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_2:
-.string "… …$"
+.string "… {PAUSE 5}…{PAUSE 5}$"
 
 Goldenrod_Underground_Motero_Bloqueo_Texto_3:
 .string "Quieres pelea? ¡De nada van a servirte\n"

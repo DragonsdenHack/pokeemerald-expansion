@@ -22,7 +22,7 @@ CeladonCity_Shop2F_Text_3:
 .string "Tenemos un cliente habitual, LANCE,\n"
 .string "que suele comprar capas.\p"
 .string "La verdad es que debe de tener\n"
-.string "un montón iguales en su casa…$"
+.string "un montón iguales en su casa{PAUSE 5}…{PAUSE 5}$"
 
 
 

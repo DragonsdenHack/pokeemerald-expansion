@@ -240,11 +240,11 @@ CianwoodCity_Evento_Mirto_Texto_3:
 	.string "Solo es cuestión de tiempo que el\l"
 	.string "GRAN MAESTRO te invite a entrar,\l"
 	.string "ha estado muy ocupado últimamente\l"
-	.string "poniendo en orden varios asuntos…$"
+	.string "poniendo en orden varios asuntos{PAUSE 5}…{PAUSE 5}$"
 
 CianwoodCity_Evento_Mirto_Texto_4:
-.string "…\n"
-	.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}\n"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 CianwoodCity_Evento_Mirto_Texto_5:
 .string "En cuanto a mi POKÉMON, probamos\n"

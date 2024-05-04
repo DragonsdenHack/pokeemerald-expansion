@@ -158,7 +158,7 @@ JaggedPass_Text_EricIntro:
 	.string "alegría!$"
 
 JaggedPass_Text_EricDefeat:
-	.string "Perder me deja hecho polvo…$"
+	.string "Perder me deja hecho polvo{PAUSE 5}…{PAUSE 5}$"
 
 JaggedPass_Text_EricPostBattle:
 	.string "Sí, he perdido en el combate POKÉMON…\n"
@@ -205,7 +205,7 @@ JaggedPass_Text_EthanDefeat:
 JaggedPass_Text_EthanPostBattle:
 	.string "Si tuviera una BICI ACROBÁTICA, podría\n"
 	.string "saltar por encima de cualquier\l"
-	.string "desnivel…$"
+	.string "desnivel{PAUSE 5}…{PAUSE 5}$"
 
 JaggedPass_Text_EthanRegister:
 	.string "When I get more used to this bumpiness,\n"
@@ -218,7 +218,7 @@ JaggedPass_Text_EthanRematchIntro:
 
 JaggedPass_Text_EthanRematchDefeat:
 	.string "It's still not easy to battle on this\n"
-	.string "bumpy ground…$"
+	.string "bumpy ground{PAUSE 5}…{PAUSE 5}$"
 
 JaggedPass_Text_EthanPostRematch:
 	.string "I should get an ACRO BIKE from RYDEL\n"

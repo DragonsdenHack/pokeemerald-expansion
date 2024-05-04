@@ -9,7 +9,7 @@ release
 end
 
 Ecruteak_BurnedTower_Text_2:
-.string "No pudimos hacer nada…$"
+.string "No pudimos hacer nada{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -23,7 +23,7 @@ end
 Ecruteak_BurnedTower_Text_3:
 .string "Como esto siga así, terminará\n"
 .string "por derrumbar lo que queda de TORRE\l"
-.string "QUEMADA…$"
+.string "QUEMADA{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -37,7 +37,7 @@ end
 Ecruteak_BurnedTower_Text_6:
 .string "Ese tipo…\n"
 .string "Ha arrasado con todos nuestros\l"
-.string "POKÉMON sin ningún esfuerzo…$"
+.string "POKÉMON sin ningún esfuerzo{PAUSE 5}…{PAUSE 5}$"
 
 
 

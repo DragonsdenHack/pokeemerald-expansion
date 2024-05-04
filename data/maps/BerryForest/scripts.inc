@@ -204,7 +204,7 @@ BerryForest_Evento_Hypno_Texto_4:
 .string "¿Q-qué ha sido eso?$"
 
 BerryForest_Evento_Hypno_Texto_5:
-.string "PEDRITA: Buuuua…. ¡BUAAAA! …$"
+.string "PEDRITA: Buuuua…. ¡BUAAAA! {PAUSE 15}…$"
 
 BerryForest_Evento_Hypno_Texto_6:
 .string "Teno miedo…{PAUSE 15} Quiedo id a casa…{PAUSE 15}$"

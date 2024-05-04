@@ -62,5 +62,5 @@ VioletCity_PokemonCenter_Text_4:
 .string "plasmar mi arte en un cuadro de la\l"
 .string "TORRE BELLSPROUT al amanecer.\l"
 .string "Esto como preparación para el\l"
-.string "plato gordo… la imponente\l"
+.string "plato gordo{PAUSE 10}…{PAUSE 10} la imponente\l"
 .string "TORRE CAMPANA de CIUDAD IRIS.$"

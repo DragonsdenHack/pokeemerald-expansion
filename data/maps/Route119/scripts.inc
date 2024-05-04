@@ -670,8 +670,8 @@ Route119_Norman_Texto_17:
 	.string "fiarme más de vuestra organización?$"
 
 Route119_Norman_Texto_18:
-	.string "Oh… Vuestro LÍDER también… En ese\n"
-	.string "caso…$"
+	.string "Oh{PAUSE 25}…{PAUSE 25} Vuestro LÍDER también{PAUSE 15}…{PAUSE 15} En ese\n"
+	.string "caso{PAUSE 15}…$"
 
 Route119_Norman_Texto_19:
 	.string "No puedo prometerte nada ni estoy en\n"
@@ -680,7 +680,7 @@ Route119_Norman_Texto_19:
 	.string "LIGA POKÉMON.$"
 
 Route119_Norman_Texto_20:
-	.string "Pero… si me entero de algo que pueda\n"
+	.string "Pero{PAUSE 25}…{PAUSE 25} si me entero de algo que pueda\n"
 	.string "comprometer el futuro de los\l"
 	.string "entrenadores en esta región, te lo haré\l"
 	.string "saber.$"
@@ -690,7 +690,7 @@ Route119_Norman_Texto_21:
 	.string "contacto de NORMAN!$"
 
 Route119_Norman_Texto_1:
-	.string "NORMAN: Entonces... ni KANTO, ni JOHTO,\n"
+	.string "NORMAN: Entonces… ni KANTO, ni JOHTO,\n"
 	.string "ni ahora HOENN.$"
 
 Route119_Norman_Texto_2:

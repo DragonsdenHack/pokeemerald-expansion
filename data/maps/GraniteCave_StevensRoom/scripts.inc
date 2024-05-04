@@ -140,7 +140,7 @@ GraniteCave_Encuentro_Tristana_Texto_2:
 	.string "esta región, ¿eh?$"
 
 GraniteCave_Encuentro_Tristana_Texto_3:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 GraniteCave_Encuentro_Tristana_Texto_4:
 	.string "¿Una base de DEVON aquí? ¿Quieres que\n"

@@ -352,7 +352,7 @@ LavaridgeTown_Text_AsYouWishThen:
 LavaridgeTown_Text_EverySoOftenEggFoundAtDayCare:
 	.string "De vez en cuando, aparece un HUEVO\n"
 	.string "en la GUARDERÍA POKÉMON.\p"
-	.string "Vamos, eso dicen por ahí…$"
+	.string "Vamos, eso dicen por ahí{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Text_HotSpringsNeverRunDry:
 	.string "We draw as much hot water as we need,\n"
@@ -375,7 +375,7 @@ LavaridgeTown_Text_OhYouLikeHotSprings:
 	.string "¿A ti también te gustan los baños\n"
 	.string "termales?\p"
 	.string "Es curioso, la gente joven no suele\n"
-	.string "interesarse por esto…$"
+	.string "interesarse por esto{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Text_BatheInHotSpringsEveryDay:
 	.string	"Yo me baño en las aguas termales\n"
@@ -394,7 +394,7 @@ LavaridgeTown_Text_HotSpringsClaims:
 	.string	"Aseguran que estos baños termales\n"
 	.string	"son buenos para los nervios, los dolores\l"
 	.string	"musculares, los problemas amorosos,\l"
-	.string	"los granos, los bolsillos sin blanca…$"
+	.string	"los granos, los bolsillos sin blanca{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Text_TownSign:
 	.string	"PUEBLO LAVACALDA\p"

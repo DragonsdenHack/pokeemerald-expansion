@@ -380,7 +380,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_8:
 	.string "Junto con los clásicos FÓSILES de\l"
 	.string "HOENN, tienes las herramientas\l"
 	.string "necesarias para algún día proclamarte\l"
-	.string "CAM…$"
+	.string "CAM{PAUSE 5}…{PAUSE 5}$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_9:
 .string "????: ¿Quienes?$"
@@ -390,7 +390,7 @@ DesertRuins_Evento_CamaraRegirock_Texto_10:
 	.string "encargaré.$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_11:
-.string "????: …$"
+.string "????: {PAUSE 5}…{PAUSE 5}$"
 
 DesertRuins_Evento_CamaraRegirock_Texto_12:
 .string "ANDRA: ¿Escondiendo la realidad a un\n"

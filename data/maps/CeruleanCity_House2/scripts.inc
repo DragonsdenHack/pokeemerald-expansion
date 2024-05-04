@@ -14,7 +14,7 @@ release
 end
 
 CeruleanCity_House2_Text_1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 
 
@@ -113,7 +113,7 @@ CeruleanCity_House2_Batalla_Montañero_Text_3:
 	.string "¡Vas a arrepentirte!$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_4:
-.string "Oh… No… Por favor…$"
+.string "Oh{PAUSE 10}…{PAUSE 10} No{PAUSE 10}…{PAUSE 10} Por favor{PAUSE 10}…{PAUSE 10}$"
 
 CeruleanCity_House2_Batalla_Montañero_Text_5:
 .string "Eso es lo que pasa cuando\n"

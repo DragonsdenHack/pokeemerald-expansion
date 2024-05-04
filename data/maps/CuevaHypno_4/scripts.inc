@@ -126,7 +126,7 @@ CuevaHypno_4_Lider_Texto_9:
 	.string "por el GIMNASIO que hay al norte\l"
 	.string "de la cueva.\l"
 	.string "De entrar, serás el primer aspirante\l"
-	.string "en casi 4 décadas…$"
+	.string "en casi 4 décadas{PAUSE 5}…{PAUSE 5}$"
 
 CuevaHypno_4_Cartel::
 lock

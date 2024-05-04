@@ -11,4 +11,4 @@ end
 Goldenrod_UndergroundNorth1_Text_1:
 .string "Hay gente muy rara ahí abajo, yo\n"
 .string "solo quiero ir al CENTRO\l"
-.string "COMERCIAL…$"
+.string "COMERCIAL{PAUSE 5}…{PAUSE 5}$"

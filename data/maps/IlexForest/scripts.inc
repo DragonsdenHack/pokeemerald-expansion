@@ -81,7 +81,7 @@ end
 IllexForest_Text_9:
 .string "Entonces, FARFETCH es débil, pero\n"
 .string "nadie corta la madera como ese\l"
-.string "POKÉMON…$"
+.string "POKÉMON{PAUSE 5}…{PAUSE 5}$"
 
 
 

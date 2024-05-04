@@ -63,7 +63,7 @@ GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_2:
 	.string "aquí?$"
 
 GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_3:
-	.string "… …$"
+	.string "{PAUSE 15}…{PAUSE 15} …{PAUSE 5}$"
 
 GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_4:
 	.string "¿Una base encubierta de DEVON? ¿De\n"
@@ -71,7 +71,7 @@ GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_4:
 	.string "solo administramos este humilde CASINO.$"
 
 GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_5:
-	.string "… …$"
+	.string "{PAUSE 5}… {PAUSE 5}…{PAUSE 5}$"
 
 GameCorner_Mauville_Hideout_S1_NPC7_Evento_Cientifico_Texto_6:
 	.string "Te lo acabo de decir: aquí solo hay\n"

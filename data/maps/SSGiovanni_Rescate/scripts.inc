@@ -137,15 +137,15 @@ SSGiovanni_Rescate_Escena_Texto_22:
 	.string "vinculada a nuestra base de datos.$"
 
 SSGiovanni_Rescate_Escena_Texto_23:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 SSGiovanni_Rescate_Escena_Texto_24:
-	.string "Esto es lo que quería comprobar… el\n"
+	.string "Esto es lo que quería comprobar{PAUSE 25}…{PAUSE 25} el\n"
 	.string "número de MEDALLAS de HOENN se ha ido\l"
 	.string "actualizando en su FICHA.$"
 
 SSGiovanni_Rescate_Escena_Texto_25:
-	.string "ARRECÍPOLIS, ALGARIA… esta última de\n"
+	.string "ARRECÍPOLIS, ALGARIA{PAUSE 25}…{PAUSE 25} esta última de\n"
 	.string "hace solo unos días…$"
 
 SSGiovanni_Rescate_Escena_Texto_26:
@@ -167,7 +167,7 @@ SSGiovanni_Rescate_Escena_Texto_29:
 	.string "necesitamos descansar.$"
 
 SSGiovanni_Rescate_Escena_Texto_30:
-	.string "Si te soy sincera… estoy expectante\n"
+	.string "Si te soy sincera{PAUSE 25}…{PAUSE 25} estoy expectante\n"
 	.string "por volver a ver KANTO.$"
 
 SSGiovanni_Rescate_Escena_Texto_31:
@@ -231,9 +231,9 @@ end
 
 SSGiovanni_Rescate_Tercer_Recluta_Texto_1:
 	.string "¡SIR, se ha vengado de ANDRA\n"
-	.string "derrotando al ADMIN.AMATISTA! ...\l"
+	.string "derrotando al ADMIN.AMATISTA! …\l"
 	.string "¿Cómo? ¿No estaba usando sus POKÉMON\l"
-	.string "más fuertes? Oh...$"
+	.string "más fuertes? Oh…$"
 
 
 SSGiovanni_Rescate_Cuarto_Recluta::

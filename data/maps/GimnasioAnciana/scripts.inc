@@ -228,7 +228,7 @@ GimnasioAnciana_Documento_Text_103:
 	.string "tendrá al menos 10 años.$"
 
 GimnasioAnciana_Documento_Text_102:
-.string "… … … … … … … …$"
+.string "… … … … … … … {PAUSE 5}…{PAUSE 5}$"
 
 GimnasioAnciana_Documento_101_No::
 release
@@ -236,7 +236,7 @@ end
 
 GimnasioAnciana_Documento_Text_101:
 .string "Sobre la conexión entre JOHTO y\n"
-	.string "ARCHI7…$"
+	.string "ARCHI7{PAUSE 5}…{PAUSE 5}$"
 
 GimnasioAnciana_Documento_Text_101_2:
 .string "ISLAS SETE son conocidas por su rica\n"

@@ -249,10 +249,10 @@ LakeofRageHouse1_Evento_Devon_Texto_7:
 	.string "eres tú.$"
 
 LakeofRageHouse1_Evento_Devon_Texto_8:
-.string "PESCADOR: Ya se lo he dicho, no se nad…$"
+.string "PESCADOR: Ya se lo he dicho, no se nad{PAUSE 5}…{PAUSE 5}$"
 
 LakeofRageHouse1_Evento_Devon_Texto_8.1:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 LakeofRageHouse1_Evento_Devon_Texto_9:
 .string "????: ¿Qué es esto?$"
@@ -265,7 +265,7 @@ LakeofRageHouse1_Evento_Devon_Texto_10:
 LakeofRageHouse1_Evento_Devon_Texto_11:
 .string "????: ¿Usando únicamente POKÉMON\n"
 	.string "atrapados aquí? No me diga{PAUSE 25}…{PAUSE 25} debían de\l"
-	.string "ser muy fuertes, tal vez…$"
+	.string "ser muy fuertes, tal vez{PAUSE 5}…{PAUSE 5}$"
 
 LakeofRageHouse1_Evento_Devon_Texto_12:
 .string "Ese LEGENDARIO POKÉMON estuviera en\n"

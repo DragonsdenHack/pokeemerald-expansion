@@ -74,7 +74,7 @@ Route111_WinstrateFamilysHouse_Text_LikeYouToHaveMachoBrace:
 	.string	"POKéMON mejoren aún más durante\l"
 	.string	"el entrenamiento.\p"
 	.string	"Alguien tan fuerte como tú no necesita\n"
-	.string	"algo así, pero... creo que sí tengo algo\l"
+	.string	"algo así, pero… creo que sí tengo algo\l"
 	.string	"que puede interesarte. Mira.$"
 
 Route111_WinstrateFamilysHouse_Text_PassionateAboutBattles:

@@ -174,7 +174,7 @@ CuevaTesoro4_Jefe_Final_Texto_3:
 	.string "este lugar?$"
 
 CuevaTesoro4_Jefe_Final_Texto_4:
-.string "… …$"
+.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 CuevaTesoro4_Jefe_Final_Texto_5:
 .string "Lo suponía, has venido hasta aquí solo\n"
@@ -193,7 +193,7 @@ CuevaTesoro4_Jefe_Final_Texto_7:
 .string "La gruta es como un enorme búnker\n"
 	.string "submarino, hermético para con el\l"
 	.string "exterior. Ello ha permitido preservar\l"
-	.string "toda esta biodiversidad, pero…$" 
+	.string "toda esta biodiversidad, pero{PAUSE 5}…{PAUSE 5}$" 
 	
 CuevaTesoro4_Jefe_Final_Texto_7.1:	
 	.string "También mantener prisioneros a unos\n"
@@ -241,7 +241,7 @@ CuevaTesoro4_Jefe_Final_Texto_14:
 CuevaTesoro4_Jefe_Final_Texto_15:
 .string "La única respuesta posible es que\n"
 	.string "realmente yo no sea un 9, en ese caso\l"
-	.string "habría que recalcular el valor de 10…$"
+	.string "habría que recalcular el valor de 10{PAUSE 5}…{PAUSE 5}$"
 
 CuevaTesoro4_Jefe_Final_Texto_16:
 .string "Qué mala fortuna para ti, carecer de las\n"

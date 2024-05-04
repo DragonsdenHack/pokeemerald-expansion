@@ -187,7 +187,7 @@ LavaridgeTown_Gym_1F_Text_ColeIntro:
 	.string "¡Jo, jo, jo, jo! ¡Esto está que arde!$"
 
 LavaridgeTown_Gym_1F_Text_ColeDefeat:
-	.string "He acabado chamuscado…$"
+	.string "He acabado chamuscado{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Gym_1F_Text_ColePostBattle:
 	.string "Si te entierras en arena caliente,\n"
@@ -206,7 +206,7 @@ LavaridgeTown_Gym_1F_Text_AxleDefeat:
 LavaridgeTown_Gym_1F_Text_AxlePostBattle:
 	.string "Haaah… Whew…\p"
 	.string "Pasar mucho tiempo quemado bajo\n"
-	.string "la arena, te saca de quicio…$"
+	.string "la arena, te saca de quicio{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganIntro:
 	.string "Todo esto ha debido de cansarte.\n"
@@ -216,7 +216,7 @@ LavaridgeTown_Gym_B1F_Text_KeeganIntro:
 	.string "para todo ENTRENADOR.$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganDefeat:
-	.string "Si juegas con fuego, te quemas...$"
+	.string "Si juegas con fuego, te quemas{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Gym_B1F_Text_KeeganPostBattle:
 	.string "Tu talento es real…\n"
@@ -229,7 +229,7 @@ LavaridgeTown_Gym_1F_Text_GeraldIntro:
 	.string "superiores a los 200 grados?$"
 
 LavaridgeTown_Gym_1F_Text_GeraldDefeat:
-	.string "No me he caldeado lo suficiente…$"
+	.string "No me he caldeado lo suficiente{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 	.string "La temperatura del magma es de 200 grados.\n"
@@ -237,10 +237,10 @@ LavaridgeTown_Gym_1F_Text_GeraldPostBattle:
 	.string "POKEMON pueden sobrevivir en el magma.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleIntro:
-	.string "Mmm... Bueno vale, lucharé contigo.$"
+	.string "Mmm… Bueno vale, lucharé contigo.$"
 
 LavaridgeTown_Gym_1F_Text_DanielleDefeat:
-	.string "No esperaba que fueras tan fuerte…$"
+	.string "No esperaba que fueras tan fuerte{PAUSE 5}…{PAUSE 5}$"
 
 LavaridgeTown_Gym_1F_Text_DaniellePostBattle:
 	.string "Yo de mayor quiero ser tan fuerte y\n"

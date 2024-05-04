@@ -105,7 +105,7 @@ Cueva_Gimnasio_Trigal_Combate_Texto_3:
 	.string "ofrece este vasto mundo.$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_4:
-.string "…$"
+.string "{PAUSE 15}…{PAUSE 15}$"
 
 Cueva_Gimnasio_Trigal_Combate_Texto_5:
 .string "Has venido por un combate\n"

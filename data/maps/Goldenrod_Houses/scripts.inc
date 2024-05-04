@@ -80,7 +80,7 @@ Goldenrod_House1_Text_6:
 .string "competitivo. Antes no era así, y\l"
 .string "había muchos mejores\l"
 .string "entrenadores que los de ahora,\l"
-.string "como la LÍDER que quieren echar…$"
+.string "como la LÍDER que quieren echar{PAUSE 5}…{PAUSE 5}$"
 
 
 

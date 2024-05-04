@@ -57,7 +57,7 @@ GraniteCave_Llamada_Giovanni_Texto_1:
 	.string "descubierto algo.$"
 
 GraniteCave_Llamada_Giovanni_Texto_2:
-	.string "…$"
+	.string "{PAUSE 5}…{PAUSE 5}$"
 
 GraniteCave_Llamada_Giovanni_Texto_3:
 	.string "Entonces sí que estaban operando en\n"
@@ -65,7 +65,7 @@ GraniteCave_Llamada_Giovanni_Texto_3:
 	.string "{PLAYER}.$"
 
 GraniteCave_Llamada_Giovanni_Texto_4:
-	.string "… …$"
+	.string "{PAUSE 5}…{PAUSE 5} …{PAUSE 5}$"
 
 GraniteCave_Llamada_Giovanni_Texto_5:
 	.string "Malditos… Creen que pueden reírse así\n"
@@ -77,7 +77,7 @@ GraniteCave_Llamada_Giovanni_Texto_6:
 	.string "Lo que has visto en esa NAO ABANDONADA\n"
 	.string "solo refuerza nuestras sospechas: van\l"
 	.string "tras algo grande. Ese ESCÁNER, para qué\l"
-	.string "lo querrán…$"
+	.string "lo querrán{PAUSE 5}…{PAUSE 5}$"
 
 GraniteCave_Llamada_Giovanni_Texto_7:
 	.string "Escucha {PLAYER}. Olvídate de DEVON\n"

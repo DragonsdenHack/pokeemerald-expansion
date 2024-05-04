@@ -1753,7 +1753,7 @@ SootopolisCity_Andra_Texto_1:
 
 SootopolisCity_Andra_Texto_2:
 	.string "Con ese nivel, podrías aspirar al título\n"
-	.string "de CAMPEÓN. Qué aspirar… ¡sin duda lo\l"
+	.string "de CAMPEÓN. Qué aspirar…{PAUSE 15} ¡sin duda lo\l"
 	.string "ganarías!$"
 
 SootopolisCity_Andra_Texto_3:
@@ -1761,7 +1761,7 @@ SootopolisCity_Andra_Texto_3:
 	.string "pero gracias por el cumplido.$"
 
 SootopolisCity_Andra_Texto_4:
-	.string "GALANO: Y ese MILOTIC tuyo… Creí que\n"
+	.string "GALANO: Y ese MILOTIC tuyo{PAUSE 25}…{PAUSE 25} Creí que\n"
 	.string "el de PLUBIO era insuperable, ¡pero el\l"
 	.string "tuyo roza límites sagrados!$"
 
@@ -1784,7 +1784,7 @@ SootopolisCity_Andra_Texto_8:
 	.string "que yo he podido ver.$"
 
 SootopolisCity_Andra_Texto_9:
-	.string "GALANO: Sí, pero… esta ciudad es muy\n"
+	.string "GALANO: Sí, pero{PAUSE 25}…{PAUSE 25} esta ciudad es muy\n"
 	.string "antigua, y por suerte muchos eventos\l"
 	.string "históricos no han caído en el olvido.$"
 

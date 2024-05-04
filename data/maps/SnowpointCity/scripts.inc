@@ -199,7 +199,7 @@ SnowpointCity_Salida_Texto_1:
 	.string "ADMIN.AMATISTA?$"
 
 SnowpointCity_Salida_Texto_2:
-	.string "Ya veo, yo… no puedo decir lo mismo.$"
+	.string "Ya veo, yo{PAUSE 25}…{PAUSE 25} no puedo decir lo mismo.$"
 
 SnowpointCity_Salida_Texto_3:
 	.string "Ese DOCTOR usaba POKÉMON que jamás\n"
@@ -209,12 +209,12 @@ SnowpointCity_Salida_Texto_3:
 
 SnowpointCity_Salida_Texto_4:
 	.string "Un futuro que ahora es incierto para\n"
-	.string "mí… después de esto, ¿cómo volveré al\l"
+	.string "mí{PAUSE 25}…{PAUSE 25} después de esto, ¿cómo volveré al\l"
 	.string "CASINO MALVALONA? Ahora sé demasiadas\l"
 	.string "cosas.$"
 
 SnowpointCity_Salida_Texto_5:
-	.string "… …$"
+	.string "{PAUSE 25}…{PAUSE 25} …{PAUSE 25}$"
 
 SnowpointCity_Salida_Texto_6:
 	.string "¡¿GIOVANNI está de camino?!$"

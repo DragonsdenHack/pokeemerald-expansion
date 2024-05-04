@@ -183,7 +183,7 @@ Cianwood_Gym_Combate_Anibal_3_Texto_1:
 Cianwood_Gym_Combate_Anibal_3_Texto_2:
 .string "Así es{PAUSE 25}…{PAUSE 25} hace unos días liberé a mis\n"
 	.string "POKÉMON, tal y como te dije en nuestra\l"
-	.string "batalla, hace ya casi 1 año…$"
+	.string "batalla, hace ya casi 1 año{PAUSE 5}…{PAUSE 5}$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_3:
 .string "En fin, cada cosa tiene su tiempo, ¿no\n"
@@ -197,7 +197,7 @@ Cianwood_Gym_Combate_Anibal_3_Texto_4:
 	.string "visita?$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_5:
-.string "…$"
+.string "{PAUSE 5}…{PAUSE 5}$"
 
 Cianwood_Gym_Combate_Anibal_3_Texto_6:
 .string "Mmm, ya veo, lo que me dices es cierto,\n"

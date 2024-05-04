@@ -52,7 +52,7 @@ Ecruteak_TinTower_Text_3:
 .string "poderes… el rayo que alcanzó la\l"
 .string "torre… el fuego que quemó la\l"
 .string "torre… y la lluvia que apagó\l"
-.string "dicho fuego…$"
+.string "dicho fuego{PAUSE 5}…{PAUSE 5}$"
 
 
 
